@@ -16,7 +16,7 @@ Semiconductor manufacturing demands precise thermal control: crystal growth furn
 
 Two dissimilar metals joined at a measurement junction generate a voltage (Seebeck effect) proportional to the temperature difference between the measurement junction and a reference (cold) junction. Output is in the millivolt range — read with a precision millivoltmeter or potentiometer circuit. Cold-junction compensation required (measure reference junction temperature independently, apply correction).
 
-### Thermocouple Type Comparison
+## Thermocouple Type Comparison
 
 | Type | Positive Leg | Negative Leg | Range (°C) | Sensitivity | Best Use |
 |------|-------------|-------------|------------|-------------|----------|
@@ -99,11 +99,11 @@ Non-contact temperature measurement from thermal radiation. Essential for moving
 
 ## Pressure Gauges
 
-### Bourdon Tube Gauge
+## Bourdon Tube Gauge
 
 Curved or helical tube of brass, steel, or beryllium copper. Internal pressure straightens the tube → mechanical linkage rotates pointer on dial. Range: 0-1 bar to 0-7000 bar. Accuracy: ±0.5-2% of full scale. Most common industrial pressure indicator. Simple, robust, no power required.
 
-### Diaphragm Gauge
+## Diaphragm Gauge
 
 Flexible metal diaphragm (stainless steel, Hastelloy) deflects under differential pressure. Deflection measured mechanically (linkage to dial) or electrically (capacitive or strain-gauge sensor). Range: 0-10 mbar to 0-400 bar. Preferred for low-pressure and corrosive media. Capacitive diaphragm gauges achieve ±0.1% accuracy — used in semiconductor process chambers.
 
@@ -124,7 +124,7 @@ Flexible metal diaphragm (stainless steel, Hastelloy) deflects under differentia
 
 ## Construction Procedures
 
-### Liquid-in-Glass Thermometer
+## Liquid-in-Glass Thermometer
 
 **Materials**:
 - Borosilicate glass capillary tube (0.1-0.3 mm bore, 5-8 mm OD, 250-400 mm length)
@@ -159,7 +159,7 @@ Flexible metal diaphragm (stainless steel, Hastelloy) deflects under differentia
 
 **Expected accuracy**: ±0.1°C for mercury thermometers with etched scale and magnifier reading. ±0.5°C for alcohol-filled thermometers (alcohol expansion is less linear than mercury).
 
-### Bourdon Tube Pressure Gauge
+## Bourdon Tube Pressure Gauge
 
 **Materials**:
 - Seamless brass or beryllium copper tube (oval/flat cross-section, 6-10 mm minor axis, 0.5-1.0 mm wall)
@@ -194,7 +194,7 @@ Flexible metal diaphragm (stainless steel, Hastelloy) deflects under differentia
 
 **Expected accuracy**: ±1-2% of full scale for hand-built gauges with careful calibration. ±0.5% achievable with low-friction jeweled bearings and precise linkage adjustment.
 
-### Mercury Barometer
+## Mercury Barometer
 
 **Materials**:
 - Borosilicate glass tube (~900 mm length, 6-10 mm ID, sealed at one end during drawing)
@@ -278,6 +278,6 @@ Flexible metal diaphragm (stainless steel, Hastelloy) deflects under differentia
 - [Energy](../energy/index.md) — steam power, boilers (major application of temperature/pressure measurement)
 - [Chemistry](../chemistry/index.md) — thermocouple materials, mercury production
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*
+
+[← Back to Measurement](index.md)

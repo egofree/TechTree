@@ -8,7 +8,7 @@
 > **Outputs**: goat_milk, chevon, cashmere, mohair, goatskins, manure, brush_clearing
 > **Critical**: No — versatile but replaceable by sheep/cattle combination
 
-## 1. Overview
+## Overview
 
 Goats are the most adaptable and resilient domesticated livestock species. They thrive in arid, mountainous, and marginal environments where cattle and sheep struggle, browsing on woody vegetation that other ruminants refuse. Mature weight ranges from 30-80 kg (does 30-55 kg, bucks 50-80 kg), making them manageable without specialized handling equipment. Gestation is 150 days (range 145-155), producing litters of 1-3 kids with twins as the most common outcome. A doe's productive lifespan is 8-12 years.
 
@@ -25,7 +25,7 @@ Goats produce milk that is more digestible than cow milk (smaller fat globules, 
 | Milk yield (Saanen) | 3-5 L/day peak | 600-1,200 L per lactation |
 | Productive lifespan | 8-12 years | Doe |
 
-## 2. Prerequisites
+## Prerequisites
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -36,7 +36,7 @@ Goats produce milk that is more digestible than cow milk (smaller fat globules, 
 | Clean water supply | [`water`](../water/index.md) | 4-8 L/day, 10-15 L during lactation |
 | Milking stand (dairy) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Elevated platform with head catch |
 
-## 3. Bill of Materials
+## Bill of Materials
 
 Materials listed per 20-doe operation per year.
 
@@ -49,9 +49,9 @@ Materials listed per 20-doe operation per year.
 | Iodine solution (7%) | 0.5 L | [`health.medicine`](../health/medicine.md) | Other antiseptic |
 | Disbudding iron (dairy kids) | 1 tool | [`metals`](../metals/index.md) | Required for hornless dairy goats |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Dairy Management
+## 4.1 Dairy Management
 
 **Principle**: Dairy goats convert browse and forage into milk with 3.2-5.0% butterfat, depending on breed. Goat milk has smaller fat globules (2-3 microns vs 3-4 for cow milk) and different casein structure, making it naturally homogenized and more digestible for many people.
 
@@ -82,7 +82,7 @@ Materials listed per 20-doe operation per year.
 - "Goaty" flavor results from poor hygiene, improper cooling, or buck proximity
 - CAE (caprine arthritis encephalitis) reduces production in unmanaged herds
 
-### 4.2 Meat Production (Chevon)
+## 4.2 Meat Production (Chevon)
 
 **Principle**: Goat meat (chevon) is lean (2-3% fat vs 10-15% for beef), high in protein, and produced from kids reaching slaughter weight at 3-4 months on browse and pasture.
 
@@ -111,7 +111,7 @@ Materials listed per 20-doe operation per year.
 - Stronger flavor than lamb limits market in some cultures
 - Predation risk higher than cattle due to smaller size
 
-### 4.3 Fiber Production (Mohair and Cashmere)
+## 4.3 Fiber Production (Mohair and Cashmere)
 
 **Principle**: Angora goats produce mohair (long, lustrous, curly fiber). Cashmere-producing goats produce fine undercoat (down) shed in spring. Both are high-value specialty fibers.
 
@@ -146,7 +146,7 @@ Materials listed per 20-doe operation per year.
 - Angora goats are more delicate than other breeds — require better nutrition and shelter
 - Mohair fiber diameter increases with age, reducing value of older animals
 
-### 4.4 Brush Clearing and Land Reclamation
+## 4.4 Brush Clearing and Land Reclamation
 
 **Principle**: Goats browse on woody vegetation (shrubs, saplings, brambles, invasive species) that other livestock refuse. Stocked at 8-12 goats per hectare on dense browse, they strip bark, defoliate shrubs, and suppress regrowth.
 
@@ -176,9 +176,9 @@ Materials listed per 20-doe operation per year.
 - Predator losses higher on brush than open pasture (cover for coyotes)
 - Toxic plant risk — goats sample everything, including poisonous species
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Production Benchmarks by Breed Type
+## Production Benchmarks by Breed Type
 
 | Parameter | Saanen (Dairy) | Boer (Meat) | Angora (Mohair) | Cashmere |
 |-----------|----------------|-------------|-----------------|----------|
@@ -190,7 +190,7 @@ Materials listed per 20-doe operation per year.
 | Fiber diameter (microns) | — | — | 23-38 | 14-16 |
 | Dressing percentage (%) | — | 50-55 | — | — |
 
-### Scale Estimates per 25-Doe Operation
+## Scale Estimates per 25-Doe Operation
 
 | Output | Annual Quantity | Notes |
 |--------|----------------|-------|
@@ -199,7 +199,7 @@ Materials listed per 20-doe operation per year.
 | Fiber | 20-40 kg | Mohair or cashmere |
 | Manure | 14-23 tonnes | Fertilizes 2-4 hectares |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 A founding herd of 10-15 goats (8-10 does, 1-2 bucks) reaches 40-60 head within 3-4 years. Does kid at 12-18 months and produce 3.2-4.0 kids per year.
 
@@ -207,7 +207,7 @@ A founding herd of 10-15 goats (8-10 does, 1-2 bucks) reaches 40-60 head within 
 
 **Scale bottlenecks**: Fencing is the primary cost and challenge — goats escape from barriers that hold all other livestock. Guardian animal required in predator country.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -218,7 +218,7 @@ A founding herd of 10-15 goats (8-10 does, 1-2 bucks) reaches 40-60 head within 
 | CAE in kids | Transmitted through colostrum/milk | Heat-treat colostrum to 56°C for 60 min; pasteurize milk; separate at birth |
 | Disbudding failure | Done too late or incomplete | Disbud at 3-7 days; burn copper-colored ring through skin to bone |
 
-## 8. Safety
+## Safety
 
 **Buck handling**: Bucks produce powerful musky odor and can be aggressive during breeding season. Handle with lead and halter. Never corner one. Castrated males (wethers) are docile and make excellent pack animals or companions.
 
@@ -228,7 +228,7 @@ A founding herd of 10-15 goats (8-10 does, 1-2 bucks) reaches 40-60 head within 
 
 **Escape prevention**: Goats destroy gardens, orchards, and ornamental plantings in hours. Invest in fencing before acquiring goats. A bored goat is a destructive goat — provide companionship (goats are social and should never be kept singly).
 
-## 9. Quality Control
+## Quality Control
 
 **Milk quality**: Strain through fine filter to remove hair. Cool to 4°C within 30-60 minutes. Test for mastitis by strip cup examination. SCC target below 1,000,000/mL. Goat milk keeps 5-7 days at 4°C.
 
@@ -236,7 +236,7 @@ A founding herd of 10-15 goats (8-10 does, 1-2 bucks) reaches 40-60 head within 
 
 **Meat quality**: Carcass should be lean with 2-3% fat cover. pH below 5.8 at 24 hours post-slaughter. No off-flavors from buck taint (castrate males intended for meat).
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 **Tropical**: West African Dwarf goats (20-30 kg) resist trypanosomiasis (sleeping sickness) that kills cattle. Thrive in humid tropical conditions on browse alone.
 
@@ -248,7 +248,7 @@ A founding herd of 10-15 goats (8-10 does, 1-2 bucks) reaches 40-60 head within 
 
 **Pack goats**: A mature wether (50-70 kg) carries 15-25 kg over mountainous trails at 3-4 km/h for 6-8 hours. Browses along the trail, reducing feed carried.
 
-## 11. Cross-Domain Links
+## Cross-Domain Links
 
 - [`animals.domestication`](domestication.md) — livestock principles: housing, nutrition, breeding, health
 - [`animals.sheep`](sheep.md) — complementary species for mixed grazing; compare management
@@ -257,5 +257,5 @@ A founding herd of 10-15 goats (8-10 does, 1-2 bucks) reaches 40-60 head within 
 - [`food-processing`](../food-processing/index.md) — goat cheese (chèvre, feta), yogurt, fermented products
 - [`agriculture`](../agriculture/index.md) — brush clearing as land reclamation, manure as fertilizer
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Animals](index.md)

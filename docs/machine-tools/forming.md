@@ -8,7 +8,6 @@
 > **Outputs**: formed_metal_parts, bar_stock, sheet_metal, wire, plate, rod
 > **Critical**: Yes — produces the bar stock, sheet, and wire that feed every downstream process
 
-## Overview
 
 Metal forming reshapes solid metal through plastic deformation — applying force at controlled temperatures to change cross-section, bend, or elongate stock without removing material. Forming retains nearly 100% of the workpiece mass and produces the bar stock, sheet, wire, and shaped blanks that feed every downstream process: machine tools, construction, electrical wiring, and mechanisms.
 
@@ -16,7 +15,7 @@ The critical variables are **temperature** (hot vs cold working), **[force](../g
 
 For the metallurgy of producing iron and steel stock, see [Iron & Steel](../metals/iron-steel.md). For the machine tools that use these formed products, see [Iterative Bootstrap](./iterative-bootstrap.md).
 
-### Forging Temperatures by Metal
+## Forging Temperatures by Metal
 
 Every metal has a forging range — hot enough to be plastic, cool enough to avoid burning or crumbling.
 
@@ -362,7 +361,7 @@ The choice of forming method depends on production volume, part geometry, materi
 - [Machining](./machining.md) — finishing operations for precision surfaces on formed parts
 - [Lubricants](../chemistry/lubricants.md) — forming lubricants and coolants
 
-### Limitations
+## Limitations
 
 - **Springback**: All formed parts exhibit elastic springback after the forming force is removed, typically 2-10° for mild steel. Dies must over-bend to compensate, requiring empirical calibration for each material-thickness combination.
 - **Material thinning**: Deep drawing stretches material, reducing wall thickness by 10-25% in critical zones. Excessive thinning leads to tearing. Draw ratios (blank diameter / cup diameter) limited to ~2:1 per draw stage.
@@ -371,13 +370,13 @@ The choice of forming method depends on production volume, part geometry, materi
 - **Surface finish**: Formed surfaces pick up die marks, scratches, and lubricant residue. Critical surfaces may require post-forming machining or finishing.
 - **Material waste**: Blanking and trimming generate scrap (typically 15-30% of sheet material). Nesting optimization reduces but cannot eliminate scrap.
 
-### See Also
+## See Also
 
 - [Machining](machining.md) — Material removal processes complementing forming
 - [Bearings & Abrasives](bearings-abrasives.md) — Bearing and abrasive products used in press equipment
 - [Iron & Steel](../metals/iron-steel.md) — Steel sheet and plate for forming operations
 - [Machine Tools Overview](./index.md) — Complete machine tools reference
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*
+
+[← Back to Machine Tools](index.md)

@@ -22,7 +22,7 @@ Semiconductor fabrication releases toxic, pyrophoric, and corrosive gases and va
 | Etch tool exhaust (PFCs, Cl₂) | POU plasma abater + central scrubber | 100-300 CFM/tool, fluoropolymer-lined duct | Yes — plasma destruction (>90% DRE for CF₄) |
 | General fab return air | HEPA filtration + chemical filtration | 500-750 ACH for ISO Class 1-5 | No — recirculated with filtration |
 
-### Implementation Steps
+## Implementation Steps
 
 1. **Classify all exhaust sources**: Inventory every process tool, wet bench, gas cabinet, and chemical dispensing point. For each, identify chemical class (acid, solvent, toxic gas, pyrophoric, inert) and flow requirement.
 2. **Segregate exhaust systems**: Never combine incompatible streams (acid + solvent, toxic gas + general). Design separate duct systems for each chemical class.
@@ -31,7 +31,7 @@ Semiconductor fabrication releases toxic, pyrophoric, and corrosive gases and va
 5. **Validate with smoke tests**: After installation, verify capture at every hood and bench with visible smoke. All points must show complete capture with no escape to breathing zone.
 6. **Establish maintenance schedule**: Quarterly duct inspection, monthly scrubber efficiency testing, quarterly fan performance checks, annual face velocity verification.
 
-### Abatement Technology Trade-offs
+## Abatement Technology Trade-offs
 
 | Technology | Target Contaminants | DRE | Energy Use | Waste Stream | Cost |
 |-----------|---------------------|-----|-----------|-------------|------|
@@ -43,7 +43,7 @@ Semiconductor fabrication releases toxic, pyrophoric, and corrosive gases and va
 
 ## Local Exhaust Ventilation (LEV)
 
-### Principles
+## Principles
 
 LEV captures airborne contaminants at or near their point of generation, before they enter the worker's breathing zone. The system consists of five components: hood (capture point), ductwork (transport), air cleaner (filtration/scrubbing), fan (motive force), and stack (discharge).
 
@@ -56,7 +56,7 @@ LEV captures airborne contaminants at or near their point of generation, before 
 | Actively generated gases/vapors | Etching, dispensing | 1.0-2.5 m/s | Enclosed hood with extraction |
 | High-velocity discharge | Pressurized gas leak scenario | 2.5-10 m/s | Emergency exhaust, gas cabinet |
 
-### Fume Hoods
+## Fume Hoods
 
 **Chemical fume hood** (standard laboratory hood):
 - Face velocity: 0.4-0.6 m/s at design sash opening (typically 45-50 cm height)
@@ -73,7 +73,7 @@ LEV captures airborne contaminants at or near their point of generation, before 
 - Volume: 2,000-5,000 CFM (3,400-8,500 m³/h)
 - Requires balanced exhaust across the vertical face to prevent dead zones
 
-### Wet Bench Exhaust
+## Wet Bench Exhaust
 
 Semiconductor wet processing benches (acid etching, cleaning, rinsing) generate acid fumes (HF, HNO₃, H₂SO₄, HCl) and solvent vapors:
 
@@ -85,7 +85,7 @@ Semiconductor wet processing benches (acid etching, cleaning, rinsing) generate 
 
 ## Gas Cabinet Exhaust
 
-### Gas Cabinet Design
+## Gas Cabinet Design
 
 Gas cabinets house high-pressure cylinders of toxic and pyrophoric gases used in semiconductor manufacturing. The cabinet provides primary containment with dedicated exhaust:
 
@@ -110,7 +110,7 @@ Gas cabinets house high-pressure cylinders of toxic and pyrophoric gases used in
 - Typically serves 2-4 process tools from a single gas source
 - Purge capability: Inert gas (N₂) purge for cylinder change and maintenance
 
-### Exhaust Duct Systems
+## Exhaust Duct Systems
 
 **Duct classification** by service:
 
@@ -132,7 +132,7 @@ Gas cabinets house high-pressure cylinders of toxic and pyrophoric gases used in
 
 ## Abatement Systems
 
-### Point-of-Use (POU) Abatement
+## Point-of-Use (POU) Abatement
 
 POU abatement treats exhaust at or near the process tool before it enters the central exhaust system. This is the primary control for highly toxic and pyrophoric gases:
 
@@ -225,7 +225,7 @@ POU abatement treats exhaust at or near the process tool before it enters the ce
 - Selective media required — carbon does not adsorb acid gases, alumina does not adsorb organics
 - Higher long-term operating cost than wet scrubbers for high-volume applications — frequent cartridge replacement
 
-### Centralized Scrubbing Systems
+## Centralized Scrubbing Systems
 
 Large fabs use centralized scrubbing systems that serve multiple tools through a common exhaust header:
 
@@ -244,7 +244,7 @@ Large fabs use centralized scrubbing systems that serve multiple tools through a
 
 ## Cleanroom Air Management
 
-### Makeup Air Handling
+## Makeup Air Handling
 
 Semiconductor cleanrooms require massive air handling capacity to maintain cleanliness (ISO Class 1-5) and temperature/humidity control:
 
@@ -254,7 +254,7 @@ Semiconductor cleanrooms require massive air handling capacity to maintain clean
 - Temperature: 21-23°C ±0.5°C (tight tolerance for process control)
 - Relative humidity: 40-45% ±3% (prevents static discharge and controls hygroscopic film growth)
 
-### Exhaust Air Energy Recovery
+## Exhaust Air Energy Recovery
 
 The high exhaust volumes in semiconductor fabs represent significant energy loss. Recovery systems capture waste heat:
 
@@ -265,7 +265,7 @@ The high exhaust volumes in semiconductor fabs represent significant energy loss
 
 ## Ventilation System Maintenance
 
-### Inspection and Testing
+## Inspection and Testing
 
 **Periodic testing requirements**:
 
@@ -294,6 +294,6 @@ The high exhaust volumes in semiconductor fabs represent significant energy loss
 - [Gas Handling](../gas-handling/index.md) — Gas distribution systems, cylinder handling
 - [Occupational Health](../health/occupational-health.md) — General LEV design and exposure monitoring
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*
+
+[← Back to EHS](index.md)

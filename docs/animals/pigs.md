@@ -8,7 +8,7 @@
 > **Outputs**: pork, lard, bacon, bristles, leather, manure, waste_disposal
 > **Critical**: Yes — fastest feed-to-meat conversion, waste recycling
 
-## 1. Overview
+## Overview
 
 Pigs are the most efficient converter of feed to meat among domesticated livestock. They produce 70-80% of their live weight as usable carcass (compared to 55-60% for cattle), and they consume virtually anything organic — crop residues, kitchen scraps, whey from cheese making, culled fruits and vegetables, and forest mast (acorns, beechnuts). Mature weight ranges from 150-300 kg for modern breeds, 100-180 kg for traditional landraces. Gestation is 114 days ("three months, three weeks, three days"), with litter sizes of 8-12 piglets for improved breeds and 6-8 for traditional types.
 
@@ -27,7 +27,7 @@ Beyond meat, pigs produce lard (15-30 kg per animal for fat-type breeds) — a v
 | Daily gain | 0.35-0.8 kg/day | Breed and system dependent |
 | Lard yield | 15-30 kg per animal | Fat-type breeds |
 
-## 2. Prerequisites
+## Prerequisites
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -38,7 +38,7 @@ Beyond meat, pigs produce lard (15-30 kg per animal for fat-type breeds) — a v
 | Waste handling system | [`construction`](../construction/index.md) | Composting area for manure |
 | Basic veterinary supplies | [`health.medicine`](../health/medicine.md) | Iodine, iron supplement for piglets |
 
-## 3. Bill of Materials
+## Bill of Materials
 
 Materials listed per 5-sow operation per year.
 
@@ -52,9 +52,9 @@ Materials listed per 5-sow operation per year.
 | Farrowing pen materials | 3-5 pens (3-4 m² each) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Portable panels |
 | Electric fencing | 2-3 strands, 3,000-5,000 V | [`energy`](../energy/index.md) | Woven wire, hog panels |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Farrowing Management
+## 4.1 Farrowing Management
 
 **Principle**: Farrowing (birthing) is the most critical management period. Piglets are born with minimal body fat and are vulnerable to chilling, crushing, and starvation. Mortality in the first 3 days accounts for 60-80% of all pre-weaning losses.
 
@@ -86,7 +86,7 @@ Materials listed per 5-sow operation per year.
 - Sow may cannibalize piglets if stressed or underfed
 - Large litters may exceed functional teats — fostering required
 
-### 4.2 Pasture-Based and Forest Systems
+## 4.2 Pasture-Based and Forest Systems
 
 **Principle**: Pigs on pasture require less purchased feed, produce healthier meat with higher omega-3 fatty acids, and distribute manure directly onto the land. Forest pannage (autumn woodland grazing on acorns and beechnuts) produces premium pork with minimal feed input.
 
@@ -116,7 +116,7 @@ Materials listed per 5-sow operation per year.
 - Electric fencing required — pigs challenge barriers relentlessly
 - Feed supplement always needed (pigs need concentrated energy and protein)
 
-### 4.3 Waste Feeding and Nutrient Cycling
+## 4.3 Waste Feeding and Nutrient Cycling
 
 **Principle**: Pigs consume food waste and agricultural byproducts, converting them into edible protein. Dairy-pig integration (whey feeding) is one of the oldest and most efficient farming combinations.
 
@@ -145,7 +145,7 @@ Materials listed per 5-sow operation per year.
 - Excessive salt or spoiled feed causes health problems
 - Waste feeding requires daily collection and processing labor
 
-### 4.4 Growth and Processing
+## 4.4 Growth and Processing
 
 **Principle**: Pigs reach market weight at 90-110 kg in 5-7 months (modern breeds) or 70-80 kg in 8-10 months (heritage breeds). Carcass yield of 70-80% is the highest of any livestock species.
 
@@ -176,9 +176,9 @@ Materials listed per 5-sow operation per year.
 - Fresh pork is highly perishable — must chill to 4°C within 1 hour
 - Cook pork to 71°C internal temperature — Trichinella risk from undercooked meat
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Growth Performance by System
+## Growth Performance by System
 
 | Parameter | Modern (Confinement) | Heritage (Pasture) | Heavy (Cured Products) |
 |-----------|---------------------|--------------------|-----------------------|
@@ -189,7 +189,7 @@ Materials listed per 5-sow operation per year.
 | Carcass yield (%) | 75-80 | 70-75 | 70-75 |
 | Lard yield (kg) | 10-15 | 15-25 | 25-40 |
 
-### Scale Estimates per 5-Sow Operation
+## Scale Estimates per 5-Sow Operation
 
 | Output | Annual Quantity | Notes |
 |--------|----------------|-------|
@@ -199,7 +199,7 @@ Materials listed per 5-sow operation per year.
 | Lard | 400-750 kg | From fat rendering |
 | Manure | 10-20 tonnes | 5-10 kg/pig/day |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 A founding pair (1 sow + 1 boar) produces 16-24 piglets in the first year — sufficient to establish a self-sustaining herd of 8-12 breeding sows within 18-24 months.
 
@@ -207,7 +207,7 @@ A founding pair (1 sow + 1 boar) produces 16-24 piglets in the first year — su
 
 **Scale bottlenecks**: Feed is the primary cost (60-70% of production). 5 sows and their offspring consume 4,000-6,000 kg of grain per year. Farrowing supervision is labor-intensive during piglet seasons.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -218,7 +218,7 @@ A founding pair (1 sow + 1 boar) produces 16-24 piglets in the first year — su
 | Sow not milking | Mastitis, poor body condition | Check udder for heat/swelling; increase feed to ad libitum during lactation |
 | Escape | Inadequate fencing | Electric fence at 3,000-5,000 V; check for gaps under gates; bury wire 15 cm |
 
-## 8. Safety
+## Safety
 
 **Boar handling**: Boars weigh 200-350 kg with tusks that inflict severe lacerations. Never turn your back on a boar. Use a boar board (1 m × 1.2 m solid barrier) during handling. Boars signal aggression by chomping (jaw clicking), frothing, and sidling up broadside. If charged, get behind a solid barrier — do not wrestle a charging boar.
 
@@ -228,7 +228,7 @@ A founding pair (1 sow + 1 boar) produces 16-24 piglets in the first year — su
 
 **Lard rendering fumes**: Heating fat produces acrolein — a potent respiratory irritant. Render outdoors or in well-ventilated spaces. Temperature above 120°C generates more fumes. Maintain rendering at 100-120°C.
 
-## 9. Quality Control
+## Quality Control
 
 **Carcass grading**: Target 75-80% dressing percentage. Backfat thickness: 2.0-3.0 cm ideal. Lean meat percentage above 55% (heritage breeds), above 60% (modern breeds). Meat pH below 5.8 at 24 hours indicates proper handling.
 
@@ -236,7 +236,7 @@ A founding pair (1 sow + 1 boar) produces 16-24 piglets in the first year — su
 
 **Health monitoring**: Weekly observation for lethargy, coughing, diarrhea, skin lesions. Body condition scoring (1-5 scale) monthly. Target BCS 3.0 for gestating sows, 2.5-3.0 at weaning.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 **Tropical systems**: Pigs managed as free-range scavengers in Southeast Asia and Pacific Islands consume 40-60% of diet from forage, fallen fruit, and root crops. Pacific Island pigs grow slowly (100-150 g/day) but survive on minimal inputs.
 
@@ -246,7 +246,7 @@ A founding pair (1 sow + 1 boar) produces 16-24 piglets in the first year — su
 
 **Integrated dairy-pig**: Most efficient small-scale system. Whey from cheese making feeds pigs at 4-6 L/day per grower, converting waste into 150-200 g daily weight gain. See [`food-processing`](../food-processing/index.md).
 
-## 11. Cross-Domain Links
+## Cross-Domain Links
 
 - [`animals.domestication`](domestication.md) — livestock principles: housing, nutrition, breeding, health
 - [`animals.animal-materials`](animal-materials.md) — lard rendering, leather tanning, bristle harvesting
@@ -254,5 +254,5 @@ A founding pair (1 sow + 1 boar) produces 16-24 piglets in the first year — su
 - [`agriculture`](../agriculture/index.md) — crop residues as feed, pig manure as fertilizer, pasture rotation
 - [`health.medicine`](../health/medicine.md) — disease treatment, zoonotic disease prevention
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Animals](index.md)

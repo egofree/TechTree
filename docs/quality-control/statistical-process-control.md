@@ -16,7 +16,7 @@ Semiconductor yield runs 60-90% for mature process nodes but drops below 50% for
 
 Control charts are the primary SPC tool. They plot process measurements over time with statistically-derived control limits that distinguish common-cause variation (inherent noise) from special-cause variation (assignable problems requiring correction).
 
-### Decision Framework: Selecting the Right Control Chart
+## Decision Framework: Selecting the Right Control Chart
 
 | Data Type | Distribution | Recommended Chart | Example Application |
 |-----------|-------------|-------------------|---------------------|
@@ -26,7 +26,7 @@ Control charts are the primary SPC tool. They plot process measurements over tim
 | Defect density (variable area) | Poisson | u-chart | Defects per cm² across different wafer sizes |
 | Individual measurements (no subgroup) | Normal | Individuals (I-MR) chart | Furnace temperature readings taken once per run |
 
-### Control Chart Trade-offs
+## Control Chart Trade-offs
 
 | Chart Type | Sensitivity to Shifts | Sample Size | Complexity | False Alarm Rate | Best For |
 |-----------|----------------------|-------------|------------|-----------------|----------|
@@ -35,7 +35,7 @@ Control charts are the primary SPC tool. They plot process measurements over tim
 | c-chart | Moderate | Fixed unit area | Low | Varies with c̄ | Particle counts, defect counts per wafer |
 | I-MR | Lower than X-bar/R | n=1 | Low | Higher (no subgroup averaging) | Low-frequency measurements, expensive tests |
 
-### X-bar and R Charts (Variables Data)
+## X-bar and R Charts (Variables Data)
 
 The most widely used control chart pair for continuous measurements (dimensions, temperatures, voltages, weights).
 
@@ -70,7 +70,7 @@ The constant d₂ converts the average range to an estimate of process standard 
 
 **Sampling frequency**: For semiconductor manufacturing, subgroups are typically taken every 1-4 hours for critical parameters (furnace temperature, implant dose, etch rate) and every shift for less critical parameters. Each wafer in a batch lot is a natural subgroup member; a lot of 25 wafers provides 5 subgroups of 5.
 
-### p-Chart (Attribute Data — Proportion Defective)
+## p-Chart (Attribute Data — Proportion Defective)
 
 Monitors the fraction of nonconforming items in each subgroup.
 
@@ -84,7 +84,7 @@ The control limits vary with subgroup size if n changes between samples. When su
 
 **Application**: Wafer sort yield (fraction of die passing electrical test per wafer), visual defect rate after photolithography steps, packaging defect rate.
 
-### c-Chart (Count of Defects per Unit)
+## c-Chart (Count of Defects per Unit)
 
 Monitors the number of defects per inspection unit when the opportunity for defects is constant.
 
@@ -97,7 +97,7 @@ Assumes Poisson distribution. Valid when defect occurrences are independent and 
 
 **Application**: Particle count per wafer after cleanroom processing, scratches per panel, voids per solder joint under X-ray inspection.
 
-### u-Chart (Defects per Unit, Variable Area)
+## u-Chart (Defects per Unit, Variable Area)
 
 Monitors defect density when the inspection area varies between samples.
 
@@ -118,7 +118,7 @@ The Western Electric rules supplement the basic 3-sigma limits by detecting non-
 - **Zone B**: Between 1σ and 2σ from the center line
 - **Zone C**: Within 1σ of the center line
 
-### Detection Rules
+## Detection Rules
 
 | Rule | Pattern | Interpretation |
 |------|---------|----------------|
@@ -136,7 +136,7 @@ The Western Electric rules supplement the basic 3-sigma limits by detecting non-
 
 Process capability compares the natural process spread to the specification limits, quantifying how well a centered, stable process meets requirements.
 
-### Cp (Process Capability)
+## Cp (Process Capability)
 
 Measures potential capability — how the process spread relates to specification width, assuming perfect centering.
 
@@ -146,7 +146,7 @@ Where USL = upper specification limit, LSL = lower specification limit, σ = pro
 
 A Cp of 1.0 means the process spread exactly fills the specification window (3σ on each side). A Cp of 1.33 means there is room for 4σ between the process mean and each specification limit.
 
-### Cpk (Process Capability — Centered)
+## Cpk (Process Capability — Centered)
 
 Accounts for process centering. The actual capability is limited by the specification limit closest to the process mean.
 
@@ -154,7 +154,7 @@ Accounts for process centering. The actual capability is limited by the specific
 
 Where μ̄ is the process mean. Cpk ≤ Cp always. Cpk = Cp only when the process is perfectly centered between the specification limits.
 
-### Capability Targets
+## Capability Targets
 
 | Cpk Value | Sigma Level | Defect Rate (ppm) | Interpretation |
 |-----------|-------------|-------------------|----------------|
@@ -177,7 +177,7 @@ Where μ̄ is the process mean. Cpk ≤ Cp always. Cpk = Cp only when the proces
 | Metal deposition | Thickness | 1.33 | 1.50 |
 | Wafer sort | Probe yield | 1.00 | 1.33 |
 
-### Pp and Ppk (Process Performance)
+## Pp and Ppk (Process Performance)
 
 Used for preliminary process assessment or when the process is not yet in statistical control. Uses the overall (total) standard deviation instead of the within-subgroup estimate:
 
@@ -199,7 +199,7 @@ Six Sigma aims to reduce process variation to achieve defect rates below 3.4 def
 - DMAIC cycle time of 2-6 weeks per improvement project — too slow for rapid process development
 - Assumes approximately normal data distributions — non-normal processes require transformations
 
-### DMAIC Cycle
+## DMAIC Cycle
 
 The structured improvement methodology:
 
@@ -213,7 +213,7 @@ The structured improvement methodology:
 
 5. **Control**: Implement SPC on the improved process. Update control limits based on new process capability. Document standard operating procedures (SOPs). Establish response plans for out-of-control conditions. Hand off from improvement team to production team.
 
-### Gage R&R (Repeatability & Reproducibility)
+## Gage R&R (Repeatability & Reproducibility)
 
 Before any SPC study, validate the measurement system. A Gage R&R study quantifies how much of the observed process variation comes from the measurement system itself.
 
@@ -233,7 +233,7 @@ Before any SPC study, validate the measurement system. A Gage R&R study quantifi
 
 ## Implementation Requirements
 
-### SPC Software Requirements
+## SPC Software Requirements
 
 SPC in semiconductor manufacturing generates large volumes of data requiring automated analysis:
 
@@ -243,7 +243,7 @@ SPC in semiconductor manufacturing generates large volumes of data requiring aut
 - **Cpk tracking**: Running Cpk calculations for all critical parameters, with trending and automatic reporting. Dashboards showing Cpk by process step, by tool, and by product.
 - **Data storage**: Historical data retention for capability studies, customer audits, and continuous improvement. Minimum 2 years of data for most parameters; 5+ years for critical parameters.
 
-### SPC Implementation Sequence
+## SPC Implementation Sequence
 
 1. **Identify critical parameters** (CTQ — Critical to Quality): Work with product engineering to identify the 20-50 parameters most strongly correlated with yield and reliability. Focus SPC resources on these first.
 2. **Validate measurement systems** (Gage R&R): Ensure each CTQ parameter has an adequate measurement system before attempting SPC.
@@ -285,6 +285,6 @@ SPC in semiconductor manufacturing generates large volumes of data requiring aut
 - [Measurement](../measurement/index.md) — metrology instruments and calibration
 - [Computing](../computing/index.md) — SPC software and data analysis
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Quality Control](./index.md) • [All Domains](../index.md)*
+
+[← Back to quality-control](index.md)

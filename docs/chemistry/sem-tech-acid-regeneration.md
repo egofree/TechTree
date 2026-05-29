@@ -10,7 +10,6 @@
 
 The low-cost ion exchange membranes developed by SEM Tech (see [SEM Tech](sem-tech.md)) enable acid recovery and regeneration via bipolar membrane electrodialysis (BMED), a process variant of [SEM Tech Electrodialysis](sem-tech-electrodialysis.md). Where conventional electrodialysis separates ions from water, BMED goes further: it splits water into protons and hydroxide ions at a membrane junction, producing concentrated acid and base from waste salt solutions without electrode-driven electrolysis.
 
-## Overview
 
 Industrial processes that use strong acids — steel pickling, mining leaching, chemical synthesis, metal surface treatment — generate enormous volumes of spent acid contaminated with dissolved metals, salts, and organic residues. Disposing of this waste is expensive, environmentally damaging, and represents a loss of valuable chemical feedstock. Acid regeneration recovers the acid from these waste streams for reuse, closing the material loop.
 
@@ -71,7 +70,7 @@ The cost advantage is decisive. Conventional BMED stacks use bipolar membranes c
 
 A BMED acid regeneration system converts spent acid waste into reusable acid and base co-products through a complete treatment train: **spent acid intake → pre-treatment → BMED stack → product handling → recycled acid/base**.
 
-### Process Flow
+## Process Flow
 
 1. **Spent acid intake**: Waste acid is collected from the industrial process (pickling line, leaching circuit, plating bath) in a holding tank. The composition is characterized for free acid content, dissolved metal concentration, and total dissolved solids.
 
@@ -90,7 +89,7 @@ A BMED acid regeneration system converts spent acid waste into reusable acid and
 
 5. **Recirculation**: For batch operation, the salt solution is recirculated through the stack until the target salt depletion is reached (typically 80-95% salt removal). Acid and base compartments are also recirculated to build concentration. For continuous operation, multiple stacks in series achieve the target conversion in a single pass.
 
-### BMED Stack Configuration
+## BMED Stack Configuration
 
 **Typical configuration**:
 - 50-200 cell triples (each triple = salt + acid + base compartment)
@@ -109,7 +108,7 @@ A BMED acid regeneration system converts spent acid waste into reusable acid and
 
 This repeating unit is stacked 50-200 times between the anode and cathode electrodes. Electrode rinse water circulates through the electrode compartments to remove gas bubbles and heat.
 
-### Comparison with Alternatives
+## Comparison with Alternatives
 
 | Method | Energy | Recovery Rate | Secondary Waste | Complexity |
 |--------|--------|--------------|-----------------|------------|
@@ -251,7 +250,7 @@ Building a SEM Tech BMED acid regeneration system requires the following materia
 
 ## Steps
 
-### Step 1: Fabricate monopolar membranes
+## Step 1: Fabricate monopolar membranes
 
 Manufacture cation exchange membranes (CEM) and anion exchange membranes (AEM) following the SEM Tech process described in [SEM Tech](sem-tech.md):
 
@@ -263,7 +262,7 @@ Manufacture cation exchange membranes (CEM) and anion exchange membranes (AEM) f
 6. **Repeat steps 1-5** with anion exchange resin beads to produce AEM film.
 7. **Test membrane integrity**: hold each membrane to light — pinholes appear as bright spots. Discard or patch defective areas. Target dry thickness: 0.2-0.8 mm.
 
-### Step 2: Fabricate bipolar membranes
+## Step 2: Fabricate bipolar membranes
 
 Manufacture bipolar membranes (BPM) using the two-layer casting process described in [Bipolar Membrane Fabrication Details](#bipolar-membrane-fabrication-details):
 
@@ -274,14 +273,14 @@ Manufacture bipolar membranes (BPM) using the two-layer casting process describe
 5. **Peel the completed bipolar membrane** from the casting surface. Trim to stack frame dimensions.
 6. **Test integrity**: Check for delamination by flexing the membrane gently — the two layers should not separate. Check for pinholes as with monopolar membranes.
 
-### Step 3: Fabricate stack components
+## Step 3: Fabricate stack components
 
 1. **Cut spacer gaskets** from PVC sheet: rectangular frames with a central open window and drilled manifold ports (inlet and outlet at opposite corners). Each cell triple needs three spacers: acid, base, and salt compartments.
 2. **Insert flow spacers**: Place polypropylene mesh screen inside each spacer frame window to promote turbulent flow and prevent membrane contact.
 3. **Prepare electrodes**: Cut graphite plates to match end plate dimensions. Drill ports for electrode rinse water flow.
 4. **Cut gaskets** for electrode compartments from rubber or neoprene sheet.
 
-### Step 4: Assemble the BMED stack
+## Step 4: Assemble the BMED stack
 
 1. **Lay one end plate** flat. Place rubber gasket, then anode graphite plate.
 2. **Begin stacking cell triples** (repeat for each unit):
@@ -297,7 +296,7 @@ Manufacture bipolar membranes (BPM) using the two-layer casting process describe
 6. **Torque tie rods** evenly in cross-pattern to 0.5-2.0 MPa compression. Even compression prevents internal leakage between acid, base, and salt channels.
 7. **Connect manifold plumbing**: Attach separate PVC/HDPE piping to the acid inlet/outlet, base inlet/outlet, salt inlet/outlet, and electrode rinse ports.
 
-### Step 5: Prepare solutions and pre-treatment
+## Step 5: Prepare solutions and pre-treatment
 
 1. **Fill acid compartment loop** with dilute acid solution matching the target product (e.g., 0.5 mol/L HCl for HCl recovery). This provides initial conductivity for current flow.
 2. **Fill base compartment loop** with dilute NaOH solution (e.g., 0.5 mol/L). Same purpose.
@@ -305,7 +304,7 @@ Manufacture bipolar membranes (BPM) using the two-layer casting process describe
 4. **Fill electrode rinse loop** with NaCl or Na₂SO₄ solution (1-3% concentration).
 5. **Purge all air** by running circulation pumps at maximum flow with the stack unpowered.
 
-### Step 6: Commission the system
+## Step 6: Commission the system
 
 1. **Check for leaks** at all manifold connections and end plate seals. Tighten tie rods if seepage is observed.
 2. **Measure initial conductivity** of acid, base, and salt loops. Record as baseline.
@@ -315,7 +314,7 @@ Manufacture bipolar membranes (BPM) using the two-layer casting process describe
 6. **Continue operation** until target acid concentration is reached (typically 1-4 mol/L) or salt depletion exceeds 80%.
 7. **Sample product streams**: Verify acid concentration by titration, base concentration by titration, and check for cross-contamination (salt ions in product streams).
 
-### Step 7: Routine operation and maintenance
+## Step 7: Routine operation and maintenance
 
 1. **Monitor daily**: Acid and base product concentration (conductivity meters), salt feed depletion, stack voltage and current, flow rates, pressures in all loops.
 2. **Clean membranes** when current efficiency drops below 60% or stack resistance increases >20% from baseline:
@@ -379,7 +378,7 @@ At the projected SEM Tech membrane cost of $10-15/m² (including bipolar membran
 
 ## Troubleshooting
 
-### Low Current Efficiency
+## Low Current Efficiency
 
 **Symptom**: Acid and base production rates are lower than expected for the applied current. Stack current is normal but product concentrations increase slowly.
 
@@ -388,7 +387,7 @@ At the projected SEM Tech membrane cost of $10-15/m² (including bipolar membran
 - **Bipolar membrane delamination**: The cation/anion layers separate at the junction, allowing bulk solution mixing. Check for sudden changes in product pH. Replace delaminated bipolar membranes.
 - **Excessive current density**: Above 50 mA/cm², water splitting at monopolar membrane surfaces (not just the bipolar junction) wastes current. Reduce current density to 20-40 mA/cm².
 
-### Product Stream Cross-Contamination
+## Product Stream Cross-Contamination
 
 **Symptom**: Acid product contains Na⁺ or base product contains Cl⁻/SO₄²⁻. Product purity is below specification.
 
@@ -397,7 +396,7 @@ At the projected SEM Tech membrane cost of $10-15/m² (including bipolar membran
 - **Internal leakage**: Uneven stack compression or degraded spacer gaskets allow hydraulic cross-flow between channels. Retorque tie rods in cross-pattern. Replace hardened or cracked gaskets.
 - **Pressure imbalance**: Higher hydraulic pressure in one loop forces solution through membranes into adjacent loops. Balance flow rates to equalize pressure across all three compartments.
 
-### Rising Stack Resistance
+## Rising Stack Resistance
 
 **Symptom**: Stack voltage increases at constant current, or current drops at constant voltage. Energy consumption increases.
 
@@ -407,7 +406,7 @@ At the projected SEM Tech membrane cost of $10-15/m² (including bipolar membran
 - **Air entrainment**: Air bubbles trapped in channels create high-resistance zones. Purge system at high flow rate. Check for air leaks on pump suction sides.
 - **Electrode degradation**: Graphite electrodes erode, increasing contact resistance. Inspect electrodes during maintenance. Replace when visibly pitted.
 
-### Bipolar Membrane Failure
+## Bipolar Membrane Failure
 
 **Symptom**: Product acid and base concentrations plateau below target. Salt compartment shows unexpected pH shift. Asymmetric performance between acid and base loops.
 
@@ -416,7 +415,7 @@ At the projected SEM Tech membrane cost of $10-15/m² (including bipolar membran
 - **Catalyst poisoning**: Heavy metal ions or organic contaminants poison the water-splitting catalyst at the bipolar junction. Pre-treat feed to remove heavy metals. Use fresh catalyst loading in replacement membranes.
 - **Chemical degradation**: Prolonged exposure to high acid or base concentration at the membrane surface degrades the functional groups. Limit product concentrations to 4 mol/L maximum. Ensure adequate flow velocity to prevent stagnant concentration boundary layers.
 
-### Acid Product Concentration Too Low
+## Acid Product Concentration Too Low
 
 **Symptom**: Acid loop conductivity plateaus well below target concentration despite normal salt feed and current.
 
@@ -444,6 +443,6 @@ At the projected SEM Tech membrane cost of $10-15/m² (including bipolar membran
 - [Electrolysis](electrolysis.md) -- industrial electrolysis processes
 - [Alkali Production](alkalis.md) -- NaOH production and uses
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+[← Back to Chemistry](index.md)

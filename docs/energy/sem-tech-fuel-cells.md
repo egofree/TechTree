@@ -12,13 +12,13 @@
 
 Fuel cells convert chemical energy directly into electricity through electrochemical reactions, bypassing the thermodynamic inefficiencies of heat engines. When hydrogen is supplied to a fuel cell, it produces electricity and water as the only byproduct -- no combustion, no moving parts, and theoretical efficiencies of 50-60% (80-90% in combined heat-and-power configurations).
 
-### Prerequisites
+## Prerequisites
 
 - [Electricity Generation](electricity.md) — electrical infrastructure and power distribution
 - [SEM Tech](../chemistry/sem-tech.md) — membrane technology for fuel cell electrolytes
 - [Hydrogen Production](../chemistry/hydrogen-silane.md) — hydrogen fuel supply
 
-### Strengths and Weaknesses
+## Strengths and Weaknesses
 
 **Strengths**:
 - Theoretical efficiency 50-60% electrical — higher than any heat engine

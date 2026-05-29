@@ -8,7 +8,7 @@
 > **Outputs**: sustained_soil_fertility, nitrogen_fixation, diversified_crops
 > **Critical**: Yes — without rotation, continuous cropping depletes soil in 3-5 years, making long-term agriculture impossible
 
-## 1. Overview
+## Overview
 
 Crop rotation is the practice of growing a planned sequence of different crop species on the same land across successive growing seasons. The fundamental principle is that different crops have different nutrient demands, root depths, pest associations, and growth habits. By alternating crops, the farmer exploits these differences to break pest cycles, replenish soil nutrients, manage soil structure, and reduce weed pressure — all without external chemical inputs.
 
@@ -16,7 +16,7 @@ Without crop rotation, growing the same crop repeatedly on the same land (monocu
 
 The most powerful element of rotation is nitrogen fixation by legumes. Leguminous crops (beans, peas, clover, vetch, lentils, alfalfa) host Rhizobium bacteria in root nodules that convert atmospheric N₂ to plant-available ammonium (NH₄⁺). A good legume stand fixes 40-200 kg N/ha per season — enough to supply the nitrogen needs of the following grain crop without any synthetic fertilizer. This biological nitrogen fixation is the primary nitrogen source for agriculture in a bootstrapping civilization and remains relevant even after [Ammonia Production](../chemistry/ammonia.md) is established, as a free, low-energy supplement.
 
-## 2. Prerequisites
+## Prerequisites
 
 **Materials**:
 - Diverse seed stock: at minimum one grain, one legume, and one root/brassica crop
@@ -40,9 +40,9 @@ The most powerful element of rotation is nitrogen fixation by legumes. Leguminou
 - [Irrigation](irrigation.md) or adequate rainfall (500+ mm during growing season)
 - Record-keeping system (even simple tally marks) to track what was planted where and when
 
-## 3. Bill of Materials
+## Bill of Materials
 
-### Three-Field Rotation (1 Hectare per Field, 3 Hectare Total)
+## Three-Field Rotation (1 Hectare per Field, 3 Hectare Total)
 
 | Material | Quantity per Cycle | Source | Alternatives |
 |----------|-------------------|--------|-------------|
@@ -52,7 +52,7 @@ The most powerful element of rotation is nitrogen fixation by legumes. Leguminou
 | Wood ash (pH amendment) | 200-500 kg if pH <6.0 | [Fire-Making](../foundations/fire.md) | Lime (requires [Chemistry → Lime](../ceramics/lime.md)) |
 | Legume inoculant (if new land) | 100-200 g Rhizobium culture | Purchase or soil from established legume field | Native soil transfer from nearby legume plots |
 
-### Four-Field Norfolk Rotation (1 Hectare per Field, 4 Hectare Total)
+## Four-Field Norfolk Rotation (1 Hectare per Field, 4 Hectare Total)
 
 | Material | Quantity per Cycle | Source | Alternatives |
 |----------|-------------------|--------|-------------|
@@ -61,9 +61,9 @@ The most powerful element of rotation is nitrogen fixation by legumes. Leguminou
 | Barley or oat seed | 50-80 kg | [Seed Saving](seed-saving.md) | Rye |
 | Clover seed | 8-15 kg | [Seed Saving](seed-saving.md) | Alfalfa, vetch |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Three-Field Rotation (Medieval Standard)
+## 4.1 Three-Field Rotation (Medieval Standard)
 
 The simplest effective rotation. Divide available land into three equal sections.
 
@@ -88,7 +88,7 @@ The simplest effective rotation. Divide available land into three equal sections
 - Nitrogen balance is marginal — net balance of -2 to +5 kg N/ha/year means slow fertility building
 - No livestock integration — animal manure, a major fertility source, is not part of the system
 
-### 4.2 Four-Field Norfolk Rotation
+## 4.2 Four-Field Norfolk Rotation
 
 Eliminates the unproductive fallow year by substituting a root crop that cleans the land (intensive weeding during root crop cultivation) and a clover ley that fixes nitrogen while providing animal fodder.
 
@@ -109,7 +109,7 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 - Root crops (turnips) have lower market value than grain in many economies
 - Demands more labor than the three-field system, particularly during the root crop weeding phase (10-20 person-hours/ha)
 
-### 4.3 Legume Planting and Nodulation Check
+## 4.3 Legume Planting and Nodulation Check
 
 1. **Inoculate seed** (if needed): If planting legumes on land that has not grown legumes in 3+ years, coat seed with appropriate Rhizobium inoculant. Mix inoculant powder with seed at planting using a sticky solution (milk or sugar water) to adhere bacteria to seed coat.
 2. **Plant at correct depth**: Beans 3-5 cm, peas 2-4 cm, clover 0.5-1.5 cm. Legume seeds are sensitive to planting depth — too deep and they cannot emerge.
@@ -126,7 +126,7 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 - Acidic soils (pH <5.5) inhibit Rhizobium survival — pH correction with lime is required before legumes will nodulate
 - Inoculant may not be available in a bootstrap scenario — relies on transferring soil from existing legume fields
 
-### 4.4 Green Manure Management
+## 4.4 Green Manure Management
 
 1. **Sow the green manure crop**: After grain harvest, broadcast clover, vetch, or rye seed onto the field. Lightly rake to cover seed. Target seeding rate: 10-20 kg/ha for clover, 15-25 kg/ha for vetch, 80-120 kg/ha for rye.
 2. **Allow growth**: Green manure grows through the fallow period, protecting soil from erosion, suppressing weeds, and (if legume) fixing nitrogen.
@@ -143,9 +143,9 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 - Fresh green material causes temporary nitrogen tie-up as soil microbes decompose it
 - Rye cover crop must be terminated before seed set or it volunteers as a weed in the next crop
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Nitrogen Budget by Rotation System (kg N/ha/year)
+## Nitrogen Budget by Rotation System (kg N/ha/year)
 
 | Rotation | Year 1 | Year 2 | Year 3 | Year 4 | Average N Balance |
 |----------|--------|--------|--------|--------|-------------------|
@@ -154,7 +154,7 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 | 4-field Norfolk | -55 (wheat) | -20 (turnips) | -40 (barley) | +100 (clover) | — | -4 to +5 (sustainable) |
 | Grain/clover (2-field) | -55 (wheat) | +120 (clover) | — | — | +32 (surplus) |
 
-### Legume Nitrogen Fixation Rates
+## Legume Nitrogen Fixation Rates
 
 | Legume Species | N Fixed (kg/ha/season) | Growing Season | Biomass Yield (tonnes/ha) | Best Use |
 |---------------|------------------------|---------------|--------------------------|----------|
@@ -167,7 +167,7 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 | Soybeans | 50-120 | Annual, 100-150 days | 2-4 | Grain + oil + residue |
 | Lupins | 60-130 | Annual, 120-180 days | 3-6 | Grain + green manure |
 
-### Yield Impact of Rotation vs. Monoculture
+## Yield Impact of Rotation vs. Monoculture
 
 | System | Wheat Yield (tonnes/ha) | Year 1 | Year 5 | Year 10 | Trend |
 |--------|------------------------|--------|--------|---------|-------|
@@ -177,7 +177,7 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 | 4-field Norfolk, no compost | — | 1.8 | 1.6 | 1.7 | Stable-slightly increasing |
 | 4-field Norfolk + 5 t/ha/yr compost | — | 2.0 | 2.2 | 2.5 | Increasing (building organic matter) |
 
-### Soil Organic Matter Targets
+## Soil Organic Matter Targets
 
 | Soil Management Level | Organic Matter (%) | Water Holding Capacity (L/m³) | Earthworms per m² | Crop Yield Index |
 |-----------------------|--------------------|------------------------------|--------------------|-----------------|
@@ -186,7 +186,7 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 | Good rotation + compost (4-field) | 2.5-4.0 | 200-300 | 30-100 | 1.0-1.3 |
 | Excellent rotation + compost + cover crops | 4.0-6.0 | 300-400 | 100-300 | 1.3-1.8 |
 
-### Cover Crop Seeding Rates and Biomass Production
+## Cover Crop Seeding Rates and Biomass Production
 
 | Cover Crop | Seeding Rate (kg/ha) | Biomass in 90 days (tonnes/ha) | N Content of Biomass (kg/ha) | Winter Kill? |
 |------------|---------------------|-------------------------------|------------------------------|-------------|
@@ -197,7 +197,7 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 | Buckwheat | 40-60 | 2-4 | 20-40 | Yes (frost sensitive) |
 | Radish (daikon) | 8-15 | 3-6 | 25-50 | Yes (below -5°C) |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 **Household garden (0.05-0.1 ha)**: Rotate crops within a single garden by moving crop families between beds each season. No formal division needed. Even simple rotation (beans → greens → roots) provides noticeable benefit. Record-keeping: draw a sketch map each season.
 
@@ -209,7 +209,7 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 
 **Key bottleneck**: Legume seed supply. Every rotation system requires large volumes of legume seed. Save 10-20% of the legume harvest for seed (see [Seed Saving](seed-saving.md)). Without sufficient legume seed, the rotation collapses back to continuous grain cropping.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -221,7 +221,7 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 | Fields uneven in productivity | Inherent soil variation (slope, drainage, texture) not accounted for in rotation | Sub-divide fields into management zones based on soil type; adjust rotation by zone (longer legume phase on poorer sections) |
 | Volunteers from previous crop contaminating current crop | Grain or seed dropped during harvest germinates in next crop | Clean-harvest the field (collect all grain); hand-pull volunteers in first 4 weeks; increase crop contrast between rotation phases |
 
-## 8. Safety
+## Safety
 
 - **Legume toxicity**: Some legume species contain toxins that require processing. Raw fava beans cause favism (hemolytic anemia) in susceptible individuals. Raw kidney beans contain phytohaemagglutinin — always boil for 10+ minutes. Lupin beans contain bitter alkaloids — soak in running water for days or select sweet varieties.
 - **Moldy hay and silage**: Spoiled legume hay (clover, alfalfa) can contain mycotoxins and botulism spores. Do not feed moldy hay to livestock. Store hay under cover, off the ground, with ventilation.
@@ -229,9 +229,9 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 - **Sweet clover poisoning**: Moldy sweet clover (Melilotus) hay contains dicoumarol, an anticoagulant. Animals hemorrhage internally. Do not feed moldy sweet clover hay.
 - **Physical injury during field operations**: Plowing, hoeing, and harvesting involve repetitive strain and sharp tools. Rotate tasks between workers. Use ergonomic tool handles (straight, not curved, for hoes). Sharpen tools regularly — dull tools require more force and cause more accidents.
 
-## 9. Quality Control
+## Quality Control
 
-### Rotation Effectiveness Indicators
+## Rotation Effectiveness Indicators
 
 | Indicator | Measurement Method | Target | Warning Threshold |
 |-----------|-------------------|--------|-------------------|
@@ -242,7 +242,7 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 | Earthworm count | Dig 30×30×30 cm soil block, hand-sort, count earthworms | >30 per block | <10 per block |
 | Post-harvest nitrate level | Soil test (colorimetric test strip) | 10-30 mg N/kg | <5 mg/kg (deficient) or >50 mg/kg (excess leaching risk) |
 
-### Crop Performance Benchmarks
+## Crop Performance Benchmarks
 
 | Crop in Rotation | Yield Target (tonnes/ha) | N Removed in Harvest (kg/ha) | Residue Returned to Soil (kg N/ha) |
 |-----------------|-------------------------|------------------------------|-----------------------------------|
@@ -252,9 +252,9 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 | Clover (green manure, plowed) | 3-6 biomass | 0 (all returned) | 80-200 (total biomass N) |
 | Turnips (roots harvested) | 3-5 roots | 20-35 | 10-20 (in tops if returned) |
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Rotation Systems Comparison
+## Rotation Systems Comparison
 
 | System | Fields | Fallow Years | N Balance (kg/ha/yr) | Annual Productivity | Complexity |
 |--------|--------|-------------|----------------------|--------------------|-----------|
@@ -264,7 +264,7 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 | 6-field diversified | 6 | 0% | +5 to +15 | 100% of land producing | Higher |
 | Perennial ley (3 yr grass/2 yr crops) | 5 | 0% | +10 to +30 | 40% in crops, 60% in pasture | Higher |
 
-### Climate-Adapted Rotations
+## Climate-Adapted Rotations
 
 | Climate | Rotation Pattern | Key Adaptation |
 |---------|-----------------|---------------|
@@ -275,14 +275,14 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 | Boreal/short season | Oats → peas → barley → undersown clover | Fast-maturing varieties; clover frost-seeded into grain in spring |
 | Subtropical (monsoon) | Rice → wheat → mung bean | Three crops per year on same land with irrigation; extremely productive |
 
-### Historical Crop Rotation Systems
+## Historical Crop Rotation Systems
 
 - **Ancient Egypt (Nile basin)**: No formal rotation — annual Nile flooding deposited fresh silt, naturally restoring fertility. The closest thing to a "rotation-free" system, but dependent on a unique geological cycle.
 - **Roman 2-field**: Grain → fallow. Half the land unproductive each year. Sustained Roman agriculture for centuries but limited carrying capacity.
 - **Medieval 3-field**: Grain → legume → fallow. Introduced legume phase (beans, peas). The first systematic rotation. Increased carrying capacity by 30-50% over 2-field.
 - **Norfolk 4-field** (18th century): Wheat → turnips → barley → clover. Eliminated fallow, integrated livestock, doubled output per hectare. The agricultural basis for the Industrial Revolution's freed labor.
 
-## 11. References
+## References
 
 - [Foundations → Agriculture & Food Production](../foundations/food-agriculture.md) — basic cultivation methods, grain yields, food preservation
 - [Agriculture → Soil Management](soil-management.md) — composting, biochar, pH management, organic matter building
@@ -293,6 +293,6 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 - [Animals → Draft Power](../animals/draft-power.md) — animal-powered plowing for rotation field operations
 - [Plants → Edible Plants](../plants/edible-plants.md) — crop species selection for regional conditions
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*
+
+[← Back to Agriculture](index.md)

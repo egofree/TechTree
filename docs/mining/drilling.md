@@ -8,7 +8,7 @@
 > **Outputs**: blast_holes, core_samples, exploration_data
 > **Critical**: No
 
-### Hand Steel Drilling
+## Hand Steel Drilling
 
 Before pneumatic or hydraulic drills, miners broke rock with hand steel. A steel drill (also called a jumper) is a hardened chisel-pointed rod, driven into rock by hammer blows. One person rotates the drill slightly between strikes to prevent binding and distribute the cutting edge across the rock face.
 
@@ -33,7 +33,7 @@ Before pneumatic or hydraulic drills, miners broke rock with hand steel. A steel
 - Missed strikes deform the drill steel head into sharp "mushroom" spalls — eye protection essential
 - Bit re-sharpening required every 0.5-1 m in hard rock, consuming forge time and fuel
 
-### Drill Steel and Bit Design
+## Drill Steel and Bit Design
 
 **[Carbon steel bits](../glossary/carbon-steel-bits.md)** (standard for hand drilling and early machine drilling):
 - High-carbon steel (0.6-0.8% carbon), forged to shape and hardened by quenching in water or oil from 800-820°C. Tempered at 300-400°C to reduce brittleness while maintaining edge hardness (Rockwell C 50-58).
@@ -50,7 +50,7 @@ Before pneumatic or hydraulic drills, miners broke rock with hand steel. A steel
 - Tungsten carbide bits dull gradually. The cutting edges round over, reducing penetration rate. Regrinding with a diamond-impregnated grinding wheel restores the sharp edge. A typical bit is reground 3-5 times before the insert is worn too short to hold in the steel body.
 - Regrinding schedule: every 30-50 m in hard rock (granite), every 80-120 m in medium rock (limestone). Delaying regrinding reduces penetration rate by 30-50% and increases the risk of bit seizure in the hole.
 
-### Pneumatic Drills
+## Pneumatic Drills
 
 Compressed air powers the percussive mechanism that replaces hand hammering. The drill piston oscillates inside a cylinder, striking the drill steel shank on each forward stroke.
 
@@ -76,7 +76,7 @@ Compressed air powers the percussive mechanism that replaces hand hammering. The
 - Air consumption: 8-15 m³/min. Drills holes 38-64 mm diameter, 3-5 m deep. Feed force: 500-3000 N, adjustable via pneumatic chain or screw feed.
 - Drill jumbo: a mobile platform with 1-3 hydraulic or pneumatic booms, each carrying a drifter drill. One operator can drill an entire heading round from a single position. A 2-boom jumbo drills 30-50 holes (3 m deep each) in 2-3 hours, replacing a crew of 4-6 men with hand-held jackhammers.
 
-### Core Drilling (Prospecting)
+## Core Drilling (Prospecting)
 
 Core drilling extracts a cylindrical sample of rock for geological analysis. Unlike percussion drilling (which pulverizes rock), core drilling preserves the rock structure for visual inspection, assay, and geotechnical testing.
 
@@ -107,7 +107,7 @@ Core drilling extracts a cylindrical sample of rock for geological analysis. Unl
 - Penetration rate 2-10 m/hour in granite — slower than percussion drilling
 - Water circulation system (10-30 L/min) required continuously; freezing conditions need heated water
 
-### Blast Hole Drilling
+## Blast Hole Drilling
 
 Blast holes are drilled in a pattern (grid) across the rock face, loaded with explosive, and fired to break the rock into manageable fragments. The drilling pattern is the most important variable in blast design: hole depth, spacing, burden (distance to the free face), and angle all affect fragmentation size, throw distance, and vibration.
 
@@ -131,7 +131,7 @@ Blast holes are drilled in a pattern (grid) across the rock face, loaded with ex
 - Long-hole deviation causes uneven fragmentation and lost ore if not surveyed
 - Oversized fragments from large blasts may need secondary breaking (drop ball or re-drill)
 
-### Drilling Fluid Circulation
+## Drilling Fluid Circulation
 
 Drilling fluid (mud or water) serves four functions: cools the bit, removes cuttings, supports borehole walls against collapse, and lubricates the drill string to reduce friction. Without fluid, the bit overheats and the cuttings pack the hole, seizing the drill string.
 
@@ -147,7 +147,7 @@ Drilling fluid (mud or water) serves four functions: cools the bit, removes cutt
 - In areas where water is scarce or the formation swells when wet (some clays expand dramatically on contact with water), foam replaces liquid mud. A surfactant (foaming agent, 0.5-2% solution) is injected into the compressed air stream. The resulting stiff foam carries cuttings to the surface and provides borehole support.
 - Foam drilling uses less water (10-30 liters/min vs. 100+ liters/min for mud drilling) and does not swell water-sensitive formations. But foam stability is temperature-sensitive, and the method does not work in heavily water-producing formations where groundwater washes out the foam.
 
-### Borehole Surveying
+## Borehole Surveying
 
 Deviated boreholes waste drilling effort and produce misleading geological data. Holes deviate because the drill string bends under its own weight and the bit deflects off harder rock layers.
 
@@ -159,7 +159,7 @@ Deviated boreholes waste drilling effort and produce misleading geological data.
 - A compass and plumb-bob in a sealed brass pressure barrel record azimuth and inclination on photographic film. Lowered on wireline, triggered by a timer or motion switch. Single-shot (one reading per trip) or multi-shot (readings every 3-10 m as the instrument is lowered or raised).
 - Accuracy: ±0.5° inclination, ±1° azimuth (away from steel drill rods or other magnetic interference). Readings must be taken with the instrument at least 3-5 m from any steel casing for reliable azimuth.
 
-### Compressed Air Supply
+## Compressed Air Supply
 
 Pneumatic drills require a reliable supply of compressed air at 500-700 kPa. The air supply infrastructure is a significant part of the overall drilling system.
 
@@ -176,7 +176,7 @@ Pneumatic drills require a reliable supply of compressed air at 500-700 kPa. The
 - Pneumatic drill pistons and cylinders require continuous lubrication. An inline lubricator (a small reservoir of light machine oil, 100-200 ml, installed in the air hose near the drill) meters oil into the air stream at 2-5 drops per minute. The oil mist coats the cylinder walls and piston rings as the air passes through.
 - Without lubrication, the piston seizes in the cylinder within 30-60 minutes of operation. Excessive oil causes the drill to "diesel" (oil ignites from compression heat), producing erratic firing and carbon deposits.
 
-### Safety
+## Safety
 
 Drilling is one of the most hazardous activities in mining. The combination of high-energy impacts, rotating steel, dust, noise, and pressurized fluid creates multiple injury pathways that must be managed simultaneously.
 
@@ -186,7 +186,7 @@ Drilling is one of the most hazardous activities in mining. The combination of h
 - **Drill steel failure**: Fatigue-fractured drill steel can fly out of the hole. The steel whip can cause severe lacerations or broken bones. Stand clear of rotating steel during operation. Never use bent, cracked, or mushroomed steel. Inspect steel before each shift for cracks near the shank end (the highest-stress area).
 - **Entanglement**: Loose clothing, long hair, or jewelry caught in rotating drill steel pulls the wearer into the machinery with devastating speed. Wear close-fitting clothing, secure long hair under a cap, and remove rings and bracelets before operating drills.
 
-### Rock Properties and Drillability
+## Rock Properties and Drillability
 
 Rock drillability determines bit selection, penetration rate, and cost per meter. The key properties are compressive strength, abrasiveness, and joint/fracture density.
 
@@ -199,7 +199,7 @@ Rock drillability determines bit selection, penetration rate, and cost per meter
 - Measured by the Cerchar Abrasivity Index (CAI): a steel needle dragged across a rock surface under 70 N load, examined under a microscope for wear. CAI 0.5-1.0 = low abrasiveness (limestone, marble). CAI 2.0-4.0 = high (granite, quartzite). CAI > 4.0 = extreme (flint, chert).
 - High abrasiveness requires carbide button bits (not chisel bits), generous water flush, and frequent bit changes. Bit cost per meter can be 5-10× higher in abrasive rock than in non-abrasive rock of similar strength.
 
-### Historical Progression
+## Historical Progression
 
 The arc from hand steel to pneumatic drilling took about a century:
 
@@ -209,7 +209,7 @@ The arc from hand steel to pneumatic drilling took about a century:
 4. **1900-1950**: Tungsten carbide bits adopted widely (post-WWII, originally developed in Germany by Krupp). Diamond core drilling standard for exploration. Hydraulic drills begin supplementing pneumatic.
 5. **Post-1950**: Hydraulic drills dominate new installations (higher efficiency: 40-50% vs. 15-20% energy efficiency for pneumatic, lower noise: 95-105 dB vs. 110-120 dB, no compressed air infrastructure). Down-the-hole (DTH) hammers for large-diameter surface blast holes. Top hammer drills for underground development. Modern hydraulic drills achieve 100-200 m/day in hard rock with a single operator.
 
-### Down-the-Hole (DTH) Drilling
+## Down-the-Hole (DTH) Drilling
 
 DTH drilling places the percussive hammer directly behind the drill bit at the bottom of the borehole, rather than at the surface transmitting blows through the drill string. This eliminates energy loss through the drill string (which can be 50-70% of input energy at depths over 30 m with top-hole hammers).
 
@@ -228,7 +228,7 @@ DTH drilling places the percussive hammer directly behind the drill bit at the b
 - Hammer mechanism down the hole is harder to service than surface-mounted drills
 - Limited to vertical or near-vertical holes — the hammer must slide down by gravity
 
-### Rotary Drilling
+## Rotary Drilling
 
 Unlike percussive drilling (which chips rock by impact), rotary drilling grinds rock by pressing a rotating bit against the formation under high load. Rotary drills are used for large-diameter holes in surface mining and oil/gas wells.
 
@@ -247,7 +247,7 @@ Unlike percussive drilling (which chips rock by impact), rotary drilling grinds 
 - Tricone bit cost is high ($500-5000 per bit) and wear rate is significant in abrasive rock
 - Not effective below 150 mm diameter — percussive methods are better for small blast holes
 
-### Drill Steel Maintenance
+## Drill Steel Maintenance
 
 **Sharpening**: Grind chisel bits to the correct included angle for the rock type: 90-110° for hard rock (granite, quartzite — narrower angle penetrates but dulls faster), 110-130° for soft rock (limestone, shale — wider angle resists wear). Use a pedestal grinder with a silicon carbide or aluminum oxide wheel (46-60 grit). Cool the bit frequently in water to prevent overheating (above 250°C the tempered steel loses hardness). A properly sharpened bit has a straight, even cutting edge with no rounding or chipping.
 
@@ -255,7 +255,7 @@ Unlike percussive drilling (which chips rock by impact), rotary drilling grinds 
 
 **Drill steel service life**: In hard rock (granite, compressive strength 150-300 MPa), a carbon steel bit drills 30-60 m of hole before resharpening is needed. In soft rock (shale, limestone, 10-50 MPa), a single bit may drill 100-200 m. Tungsten carbide insert bits outlast carbon steel by 10-20×: 300-1000 m in hard rock before regrinding. Total drill steel life (including resharpening cycles): carbon steel shanks last 200-500 m of total drilling before the shank end mushrooms or the steel fatigues; high-quality alloy steel shanks last 500-1500 m.
 
-### Key Deliverables
+## Key Deliverables
 
 - Hand steel drilling capability (survival fallback, no infrastructure required)
 - Pneumatic jackhammer and air-leg drilling (primary underground method)
@@ -266,7 +266,7 @@ Unlike percussive drilling (which chips rock by impact), rotary drilling grinds 
 - Compressed air supply infrastructure (compressors, receivers, distribution)
 - DTH and rotary drilling for surface mining applications
 
-### Cross-References
+## Cross-References
 
 - **Compressed air supply**: [steam power](../energy/steam-power.md)
 - **Explosives for blast holes**: [Black Powder](black-powder.md)
@@ -274,6 +274,6 @@ Unlike percussive drilling (which chips rock by impact), rotary drilling grinds 
 - **Machine tools for bit sharpening**: [machine tools](../machine-tools/index.md)
 - **Mine ventilation (dust control)**: [ventilation](ventilation.md)
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Mining](./index.md) • [All Domains](../index.md)*
+
+[← Back to Mining](index.md)

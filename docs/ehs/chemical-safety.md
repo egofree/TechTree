@@ -23,7 +23,7 @@ Semiconductor fabrication uses the most hazardous chemicals in industrial produc
 | Solvent spill (<1 L) | Eliminate ignition sources, absorb | Nitrile gloves, safety glasses | Collect in solvent waste container |
 | Unknown chemical release | Treat as worst case (toxic + flammable) | Full SCBA + chemical suit | Identify chemical before approach |
 
-### Chemical Response Trade-offs
+## Chemical Response Trade-offs
 
 | Response Approach | Speed | Safety Margin | Resource Cost | Best For |
 |------------------|-------|--------------|---------------|---------|
@@ -34,7 +34,7 @@ Semiconductor fabrication uses the most hazardous chemicals in industrial produc
 
 ## Semiconductor Process Chemicals
 
-### Hydrofluoric Acid (HF)
+## Hydrofluoric Acid (HF)
 
 **Properties**: Clear, colorless liquid. Pungent odor at higher concentrations. Molecular weight 20.01 g/mol. Boiling point 19.5°C (anhydrous). Miscible with water. Weak acid (pKₐ = 3.17) but extremely hazardous due to fluoride ion toxicity.
 
@@ -71,7 +71,7 @@ Semiconductor fabrication uses the most hazardous chemicals in industrial produc
 - Attacks glass, concrete, and most ceramics — incompatible with standard lab infrastructure
 - Requires dedicated PPE, calcium gluconate stations, and HF-specific spill kits at every use point
 
-### Silane (SiH₄)
+## Silane (SiH₄)
 
 **Properties**: Colorless gas with repulsive odor (may not be detectable at low concentrations). Molecular weight 32.12 g/mol. Boiling point -112°C. Density 1.15× air (heavier than air, accumulates at floor level). Autoignition temperature varies: as low as 21°C for concentrated releases; typically 500°C for diluted mixtures. Flammable range: 1.4% to 96% in air.
 
@@ -106,7 +106,7 @@ Semiconductor fabrication uses the most hazardous chemicals in industrial produc
 - Extremely wide flammable range (1.4-96%) — nearly any air mixture is flammable
 - Heavier than air — accumulates at floor level, creating hidden explosion hazards in cable trays and under-floor plenums
 
-### Arsine (AsH₃)
+## Arsine (AsH₃)
 
 **Properties**: Colorless gas with mild garlic-like odor (detectable at 0.5 ppm, but odor not reliable — olfactory fatigue occurs rapidly). Molecular weight 77.95 g/mol. Boiling point -62.5°C. Density 2.7× air (heavier than air). Decomposes on heating above 300°C, releasing arsenic.
 
@@ -141,7 +141,7 @@ Semiconductor fabrication uses the most hazardous chemicals in industrial produc
 - Hemolytic mechanism: destroys red blood cells with delayed onset (2-24 hr), making initial exposure seem harmless
 - All exhaust must be scrubbed before discharge — arsine cannot be vented directly
 
-### Phosphine (PH₃)
+## Phosphine (PH₃)
 
 **Properties**: Colorless gas with decaying fish or garlic odor (detectable at 0.02-0.3 ppm, highly variable sensitivity). Molecular weight 34.00 g/mol. Boiling point -87.7°C. Density 1.2× air (slightly heavier than air). Flammable range: 1.6% to 98% in air. Autoignition temperature: 38°C for pure gas (may ignite spontaneously at room temperature if impurities present).
 
@@ -165,7 +165,7 @@ Semiconductor fabrication uses the most hazardous chemicals in industrial produc
 
 **NFPA 704 Diamond**: Health 4 (deadly), Flammability 4 (extremely flammable), Instability 2 (violent chemical change at elevated temperatures), Special: None
 
-### Hydrogen Chloride (HCl)
+## Hydrogen Chloride (HCl)
 
 **Properties**: Colorless to slightly yellow gas with pungent, irritating odor. Molecular weight 36.46 g/mol. Boiling point -85°C. Highly soluble in water forming hydrochloric acid. Density 1.3× air.
 
@@ -186,7 +186,7 @@ Semiconductor fabrication uses the most hazardous chemicals in industrial produc
 
 **NFPA 704 Diamond**: Health 3 (serious), Flammability 0, Instability 1, Special: COR
 
-### Ammonia (NH₃)
+## Ammonia (NH₃)
 
 **Properties**: Colorless gas with sharp, suffocating odor. Molecular weight 17.03 g/mol. Boiling point -33.3°C. Density 0.6× air (lighter than air, rises). Highly soluble in water forming ammonium hydroxide (NH₄OH).
 
@@ -209,28 +209,28 @@ Semiconductor fabrication uses the most hazardous chemicals in industrial produc
 
 ## Additional Semiconductor Chemicals
 
-### Sulfuric Acid (H₂SO₄) — Piranha Clean
+## Sulfuric Acid (H₂SO₄) — Piranha Clean
 
 Piranha solution (H₂SO₄ + H₂O₂, typically 3:1 ratio at 120-150°C) is used for organic residue removal. Extremely exothermic on mixing; must always add peroxide to acid (never reverse). Temperature can exceed 200°C. Carbonized organic material releases gas, causing foaming. Can detonate if mixed with significant organic quantities. Allow to cool before disposal. Store in compatible containers only (glass, Teflon, HDPE — never sealed tightly as it continuously evolves O₂).
 
 **Exposure Limits**: TLV-TWA 0.2 mg/m³ (thoracic fraction as sulfuric acid mist). IDLH: 15 mg/m³.
 **NFPA 704**: Health 3, Flammability 0, Instability 2 (strong oxidizer), Special: COR
 
-### Hydrogen Peroxide (H₂O₂)
+## Hydrogen Peroxide (H₂O₂)
 
 Used in SC-1 (NH₄OH:H₂O₂:H₂O = 1:1:5) and SC-2 (HCl:H₂O₂:H₂O = 1:1:6) RCA cleaning sequences. Concentrated grades (30-50%) are strong oxidizers that cause severe skin burns and ignite organic materials. Store in vented containers (decomposes to O₂ + H₂O, pressure builds in sealed vessels). Never return unused peroxide to the stock container (contamination causes rapid decomposition).
 
 **Exposure Limits**: TLV-TWA 1 ppm. IDLH: 75 ppm.
 **NFPA 704**: Health 3, Flammability 0, Instability 3 (strong oxidizer), Special: OXY
 
-### Nitrogen Trifluoride (NF₃)
+## Nitrogen Trifluoride (NF₃)
 
 Plasma chamber cleaning gas. Decomposes in plasma to atomic fluorine (cleaning agent) and nitrogen. Gas phase is relatively low toxicity (TLV-TWA 10 ppm), but decomposition products include HF. Primary environmental concern: extremely potent greenhouse gas (GWP 17,200× CO₂ over 100 years). Abatement is mandatory — thermal or plasma destruction to achieve >99% destruction removal efficiency (DRE).
 
 **Exposure Limits**: TLV-TWA 10 ppm.
 **NFPA 704**: Health 3, Flammability 0, Instability 0 (stable gas)
 
-### Perfluorocarbons (CF₄, C₂F₆, C₃F₈, C₄F₈)
+## Perfluorocarbons (CF₄, C₂F₆, C₃F₈, C₄F₈)
 
 Etching gases and chamber cleaning agents. Low acute toxicity but extremely potent greenhouse gases (CF₄ GWP: 7,390× CO₂; C₂F₆ GWP: 12,200× CO₂). Abatement required by environmental regulation. Thermal destruction at >1,200°C converts to HF (scrub) and CO₂. Point-of-use abatement systems achieve 90-99% DRE.
 
@@ -326,7 +326,7 @@ Every chemical in the fab must have an accessible SDS (formerly MSDS) covering 1
 
 ## Exposure Monitoring Protocols
 
-### Continuous Gas Monitoring
+## Continuous Gas Monitoring
 
 Semiconductor fabs use fixed-point gas detection systems for hydride gases (AsH₃, PH₃) and other toxic gases:
 
@@ -343,7 +343,7 @@ Semiconductor fabs use fixed-point gas detection systems for hydride gases (AsH�
 
 **Monitoring points**: Gas cabinets, valve manifold boxes (VMB), bulk gas delivery areas, process tool exhaust, fab return air plenums, utility corridors. Sensors mounted at breathing height (1.5 m) for gases heavier than air, and at ceiling level for lighter-than-air gases (H₂, NH₃), and both for gases near air density (silane).
 
-### Personal Exposure Assessment
+## Personal Exposure Assessment
 
 Routine industrial hygiene surveys assess worker exposure to chemical, physical, and biological agents:
 
@@ -367,6 +367,6 @@ Routine industrial hygiene surveys assess worker exposure to chemical, physical,
 - [Hydrogen & Silane](../chemistry/hydrogen-silane.md) — Silane production processes
 - [Semiconductor Chemicals](../chemistry/semiconductor-chemicals.md) — Chemical supply chain for semiconductor manufacturing
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*
+
+[← Back to EHS](index.md)

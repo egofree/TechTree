@@ -8,13 +8,12 @@
 > **Outputs**: ammonia, ammonium_nitrate, urea, nitric_acid
 > **Critical**: Yes — the Haber-Bosch process feeds roughly half the world's population through synthetic fertilizers. Without industrial ammonia, agriculture is limited to natural nitrogen sources. The nitrogen constraint is one of the hardest limits on civilization growth.
 
-### Overview
 
 Ammonia (NH₃) is the second most important industrial chemical after sulfuric acid. The Haber-Bosch process — fixing atmospheric nitrogen as ammonia — feeds roughly half the world's population through synthetic fertilizers. Without industrial ammonia, global agriculture is limited to natural nitrogen sources: guano, saltpeter deposits, and biological nitrogen fixation by legumes. The invention of Haber-Bosch in 1909–1913 removed the nitrogen constraint on civilization growth.
 
 Modern ammonia production consumes ~1-2% of global energy output and ~1.8% of CO₂ emissions, primarily from natural gas-derived hydrogen feedstock. A bootstrapping civilization must build ammonia synthesis to escape the Malthusian trap — but the process demands high-pressure metallurgy, hydrogen production, and air separation as prerequisites.
 
-### Haber-Bosch Process
+## Haber-Bosch Process
 
 The overall reaction is deceptively simple:
 
@@ -38,7 +37,7 @@ The triple bond in N₂ (945 kJ/mol) is one of the strongest in chemistry. Break
 - Feed gas enters cold and is preheated by the hot product gas in internal heat exchangers. The temperature profile through the catalyst beds is the primary design variable.
 - Converter walls are thick alloy steel (Cr-Mo or Cr-Mo-V steels) to withstand 15-30 MPa at 400-500°C. Internal temperatures are higher than wall temperatures — the cold feed gas flows along the inside of the pressure shell, cooling it.
 
-### Converter Designs
+## Converter Designs
 
 Three major converter designs represent the historical progression of Haber-Bosch engineering:
 
@@ -74,7 +73,7 @@ Three major converter designs represent the historical progression of Haber-Bosc
 
 **Weaknesses**: Most complex mechanical design of the three types; higher capital cost; catalyst loading requires careful distribution to avoid flow maldistribution; maintenance access to internal components is limited.
 
-### Recycle Loop and Product Recovery
+## Recycle Loop and Product Recovery
 
 The 10-15% conversion per pass means 85-90% of the feed gas is unreacted and must be recycled:
 
@@ -90,7 +89,7 @@ The 10-15% conversion per pass means 85-90% of the feed gas is unreacted and mus
 - Product chilling requires refrigeration compressors: ~0.1-0.2 MWh per tonne NH₃.
 - Total energy for synthesis loop: ~0.6-1.0 MWh per tonne NH₃ (excluding feedstock production).
 
-### Feedstock Production
+## Feedstock Production
 
 The two feedstocks — hydrogen and nitrogen — come from very different sources:
 
@@ -127,7 +126,7 @@ The two feedstocks — hydrogen and nitrogen — come from very different source
 - **CO₂ specification**: <10-50 ppm in feed to synthesis loop. CO₂ forms carbamates and ammonium carbonate in the converter, plugging catalyst pores.
 - **Moisture**: Dew point below -50°C. Water reversibly poisons the iron catalyst.
 
-### Ammonia Storage and Handling
+## Ammonia Storage and Handling
 
 **Anhydrous ammonia properties**:
 - Boiling point: -33.3°C at atmospheric pressure. Colorless gas with pungent, suffocating odor (detectable at ~5 ppm — serves as its own warning).
@@ -150,7 +149,7 @@ The two feedstocks — hydrogen and nitrogen — come from very different source
 - **Emergency response**: Large water sprays to knock down vapor clouds (ammonia is highly water-soluble). Evacuate downwind. Full-face SCBA (self-contained breathing apparatus) for emergency responders. Ammonia vapor is lighter than air when warm but can pool at ground level when cold (density of cold NH₃ vapor is greater than air).
 - **Materials compatibility**: Carbon steel is acceptable for anhydrous ammonia. DO NOT use copper, zinc, or their alloys (brass, bronze) — ammonia causes stress corrosion cracking. Valves and instruments use stainless steel components.
 
-### Fertilizer Production Bridge
+## Fertilizer Production Bridge
 
 Ammonia is the gateway to virtually all synthetic nitrogen fertilizers. This is the economic justification for the entire Haber-Bosch industry:
 
@@ -177,7 +176,7 @@ Ammonia is the gateway to virtually all synthetic nitrogen fertilizers. This is 
 - **Ammonium phosphate**: NH₃ + H₃PO₄ → (NH₄)H₂PO₄ (MAP, monoammonium phosphate, 11% N + 52% P₂O₅) or 2NH₃ + H₃PO₄ → (NH₄)₂HPO₄ (DAP, diammonium phosphate, 18% N + 46% P₂O₅). These combine nitrogen and phosphorus in the most widely traded fertilizer commodities.
 - Phosphoric acid from [Mineral Acid Production](acids.md).
 
-### Ostwald Process — Nitric Acid from Ammonia
+## Ostwald Process — Nitric Acid from Ammonia
 
 The Ostwald process converts ammonia to nitric acid (HNO₃) via catalytic oxidation. Together, Haber-Bosch and Ostwald form the nitrogen chemicals chain: N₂ → NH₃ → HNO₃.
 
@@ -204,7 +203,7 @@ See [Mineral Acid Production](acids.md) for complete Ostwald process detail incl
 
 **Weaknesses (Ostwald)**: Pt-Rh gauze is expensive and slowly evaporates (0.05-0.5 g Pt lost per tonne HNO₃); NO oxidation is slow (third-order kinetics) requiring large equipment or high pressure; product limited to 55-68% by azeotrope — higher concentrations need dehydration with H₂SO₄ or Mg(NO₃)₂; NO₂ tail gas emissions must be scrubbed.
 
-### Other Applications
+## Other Applications
 
 **Solvay ammonia supply**: The Solvay process (see [Alkali Production](alkalis.md)) uses NH₃ as a recyclable intermediate in soda ash production. While most NH₃ is recovered internally, the 1-2 kg/tonne makeup requirement plus initial plant charge demand a continuous ammonia source. Haber-Bosch ammonia replaced coke-oven gas as the primary Solvay NH₃ supply after 1910.
 
@@ -216,7 +215,7 @@ See [Mineral Acid Production](acids.md) for complete Ostwald process detail incl
 
 **Cleaning agents**: Aqueous ammonia (5-10% NH₃ in water, "ammonia water") is a common household and industrial cleaner. Effective at dissolving grease, neutralizing acids, and removing stains.
 
-### Catalyst Production
+## Catalyst Production
 
 The Haber-Bosch iron catalyst is itself a product of industrial chemistry:
 
@@ -239,7 +238,7 @@ The Haber-Bosch iron catalyst is itself a product of industrial chemistry:
 
 **Weaknesses (Ru catalyst)**: Ruthenium is extremely rare and expensive (~$500-1000/oz); only economic for the top bed of a multi-bed converter; extremely sensitive to oxygen compound poisoning (requires <1 ppm O₂, H₂O, CO, CO₂); limited commercial availability.
 
-### Bootstrap Sequence
+## Bootstrap Sequence
 
 The path to industrial ammonia production follows a specific build order constrained by the prerequisite infrastructure:
 
@@ -265,7 +264,7 @@ The path to industrial ammonia production follows a specific build order constra
 
 **Why ammonia matters for bootstrapping**: The nitrogen constraint is one of the hardest limits on agricultural productivity. Without synthetic nitrogen fertilizer, crop yields plateau at ~1-2 tonnes/hectare for cereal crops. With ammonium nitrate or urea fertilizer, yields reach 5-10 tonnes/hectare. Haber-Bosch is the difference between feeding 3-4 billion people and feeding 8+ billion. In a bootstrap scenario, achieving ammonia synthesis is the single most important milestone for food security after water and basic agriculture.
 
-### Safety and Hazards
+## Safety and Hazards
 
 **Ammonia synthesis loop**:
 - High-pressure hydrogen service (15-30 MPa, H₂+N₂+NH₃ mixture). Hydrogen embrittlement is the primary metallurgical concern — steel loses ductility under high-pressure hydrogen at elevated temperature. Use only approved Cr-Mo alloys. Inspect vessels regularly for cracking.
@@ -285,6 +284,6 @@ The path to industrial ammonia production follows a specific build order constra
 - Large stockpiles must be separated by firewalls. The Beirut explosion (2020) was caused by ~2,750 tonnes of NH₄NO₃ stored improperly for 6 years.
 - See [Explosives](explosives.md) for detailed ammonium nitrate safety protocols.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+[← Back to Chemistry](index.md)

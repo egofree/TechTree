@@ -8,9 +8,8 @@
 > **Outputs**: timber_frames, masonry_walls, roofing_systems, waterproofing, scaffolding, hoisting_equipment
 > **Critical**: Yes — all permanent structures require building materials; without them, civilization remains limited to temporary shelters
 
----
 
-## 1. Overview
+## Overview
 
 Building materials and methods cover the production and use of timber, stone, brick, roofing, waterproofing, scaffolding, and hoisting systems for permanent construction. These materials form the structural backbone of every building in the bootstrap chain — from houses and workshops to factories and fortifications.
 
@@ -18,11 +17,10 @@ The capability begins with timber framing (the first structural material workabl
 
 Position in the dependency chain: [basic tools](../foundations/tools-basic.md) enable timber work and stone dressing. Downstream, [structural engineering](./structural-engineering.md) applies these materials to designed structures, and [industrial buildings](./industrial-buildings.md) requires heavy-duty versions of all these materials for factory construction.
 
----
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 
 - **Timber**: Hardwood (oak, chestnut) or softwood (pine, fir) logs, 150-400 mm diameter, 2-8 m length. Green or seasoned.
 - **Stone**: Limestone, sandstone, or granite from quarry or field collection. Block size: 100-600 mm per side.
@@ -31,29 +29,28 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 - **[Lime](../ceramics/lime.md)**: For lime mortar. Quicklime (CaO) or hydrated lime.
 - **Bitumen**: For waterproofing. Natural asphalt or distilled from petroleum.
 
-### Tools and Equipment
+## Tools and Equipment
 
 - [Basic hand tools](../foundations/tools-basic.md): Axe, adze, saw, chisel, hammer, square, plumb bob, level.
 - [Rope](../textiles/rope-making.md): Manila or hemp, 12-25 mm diameter, for hoisting and scaffolding lashings.
 - Measuring rods: 1-2 m graduated sticks for layout.
 - Balance scales: For weighing mortar ingredients.
 
-### Knowledge
+## Knowledge
 
 - **Timber grading**: Identifying knots, grain direction, shakes, and seasoning quality.
 - **Stone dressing**: Chisel technique for squaring stone blocks.
 - **Mortar mixing**: Proportions, water content, working time.
 - **Structural intuition**: Understanding load paths, compression, tension, and bracing.
 
-### Infrastructure
+## Infrastructure
 
 - Timber storage: Covered, ventilated area for seasoning (air drying 1 year per 25 mm thickness).
 - Lime pit: For slaking quicklime and storing lime putty.
 - Scaffold timber: 75-100 mm diameter poles for temporary works.
 
----
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity per 100 m² Floor Area | Source | Alternatives |
 |----------|-------------------------------|--------|-------------|
@@ -65,11 +62,10 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 | Nails and hardware | 20-50 kg | [Iron & Steel](../metals/iron-steel.md) | Timber pegs (19-25 mm oak or ash) |
 | Rope (scaffolding/hoisting) | 100-300 m | [Rope Making](../textiles/rope-making.md) | Withies (flexible willow/hazel branches) |
 
----
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Timber Framing
+## 4.1 Timber Framing
 
 **Principle**: Timber carries both compression and tension loads. Properly joined frames span 6-12 m and support multi-story structures for centuries. The joinery (not iron fasteners) provides structural integrity.
 
@@ -127,7 +123,7 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 - Anisotropic — strength varies by grain direction; perpendicular-to-grain compression only 3-5 MPa
 - Shrinkage during seasoning — green timber shrinks 3-6% radially, joints loosen if assembled before drying
 
-### 4.2 Stone Masonry
+## 4.2 Stone Masonry
 
 **Principle**: Stone excels in compression (20-250 MPa) but has negligible tensile strength. Masonry structures exploit this by keeping all structural elements in compression through geometry (arches, vaults, thick walls) and massive weight.
 
@@ -186,7 +182,7 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 - Heavy — requires massive foundations; settlement risk on weak soils
 - Skilled labor required — stone masonry quality depends entirely on craftsman skill
 
-### 4.3 Brick Masonry
+## 4.3 Brick Masonry
 
 **Principle**: Fired clay brick provides consistent, modular building units with predictable strength (10-50 MPa compressive). The standardized size enables rapid construction compared to stone, while fired clay offers weather resistance superior to timber or mud brick.
 
@@ -244,7 +240,7 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 - Porous — absorbs water, requires external weatherproofing or rendering in exposed conditions
 - Mortar joint is the weak point — wall strength is 30-40% of brick unit strength
 
-### 4.4 Roofing Systems
+## 4.4 Roofing Systems
 
 **Principle**: Roofing must shed water, support its own weight plus snow and wind loads, and resist lateral spreading forces that push walls apart. Truss geometry converts loads into axial forces in individual members, enabling timber to span 5-20 m.
 
@@ -306,11 +302,10 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 - Roof geometry creates lateral spreading forces — tie beams or rigid connections mandatory to prevent wall bow-out
 - Working at height during construction — fall hazard for carpenters and roofers
 
----
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Structural Timber Properties
+## Structural Timber Properties
 
 | Property | Softwood (Pine) | Hardwood (Oak) | Notes |
 |----------|:---------------:|:--------------:|-------|
@@ -324,7 +319,7 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 | Moisture content (seasoned) | 12-18% | 12-18% | Air-dry 1 year per 25 mm thickness |
 | Shrinkage (green to dry) | 3-5% radial | 4-6% radial | Tangential shrinkage ~2× radial |
 
-### Stone Properties
+## Stone Properties
 
 | Stone | Compressive Strength (MPa) | Workability | Best Use |
 |-------|:-------------------------:|:-----------:|----------|
@@ -333,7 +328,7 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 | Sandstone | 20-60 | Easy | Wall construction, decorative carving |
 | Slate | 70-150 | Splits easily | Roofing tiles, flooring |
 
-### Roof Loading
+## Roof Loading
 
 | Load Type | Typical Value (kN/m²) | Notes |
 |-----------|:---------------------:|-------|
@@ -343,7 +338,7 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 | Wind uplift | 0.5-1.5 | Critical for lightweight roofing |
 | **Total design load** | **1.5-4.5** | Dead + live with safety factor |
 
-### Brick Properties
+## Brick Properties
 
 | Parameter | Common Brick | Engineering Brick |
 |-----------|:-----------:|:-----------------:|
@@ -353,9 +348,8 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 | firing temperature | 900-1050°C | 1050-1150°C |
 | Color | Red/orange/buff | Dark red/blue |
 
----
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Single building (50-100 m² floor area)**: 2-4 workers, 1-3 months construction. Materials: 5-10 m³ timber, 10-30 m³ stone or 3000-8000 bricks, 2-5 m³ mortar. Hand tools only.
 
@@ -367,9 +361,8 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 
 - **Scaling brick production**: A single clamp kiln fires 5,000-20,000 bricks per batch (1-2 weeks cycle). A 100 m² brick house requires 3,000-8,000 bricks — one kiln firing. Industrial-scale continuous kilns (Hoffman kiln) produce 20,000-50,000 bricks/day.
 
----
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -382,9 +375,8 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 | Roof sagging at midspan | Tie beam failure (tension split), rafter undersized | Replace tie beam with larger section; add collar tie at mid-height of rafters; consider queen-post truss for longer spans |
 | Masonry wall bulging outward | Lateral load (earth pressure, wind), inadequate wall thickness | Increase wall thickness to minimum L/20 where L = wall height; add buttresses at 2-3 m spacing; install wall ties for cavity walls |
 
----
 
-## 8. Safety
+## Safety
 
 - **Falls from scaffolding and roof work**: The primary construction hazard. Scaffold planks must be secured against wind lift. Workers on roof framing use safety lines tied to structural members (not scaffolding). Historical fatality rate: 1-3 deaths per major building project from falls. Minimum: toe boards (150 mm) and guardrails (1.0 m) on all scaffolding at height >2 m.
 
@@ -398,9 +390,8 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 
 - **Scaffold collapse**: Scaffold capacity: 1.2 kN/m² (light duty — workers and hand tools only). Never use scaffolding for material storage. Inspect all rope lashings daily — replace any rope showing wear, fraying, or UV degradation. Maximum scaffold height without intermediate tie-in to structure: 6 m.
 
----
 
-## 9. Quality Control
+## Quality Control
 
 - **Timber moisture content**: Test with probe-type moisture meter before assembly. Accept: 12-18% for structural use. Reject: >20% (risk of shrinkage and joint loosening). Test 10% of timbers per delivery.
 
@@ -412,9 +403,8 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 
 - **Roof watertightness**: Flood-test flat roofs with 25 mm standing water for 24 hours. Sloped roofs: inspect after first heavy rain. No leaks acceptable at completion.
 
----
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 | Building Method | Material | Structural Capacity | Cost (Labor) | Best For |
 |----------------|----------|--------------------|-------------|---------|
@@ -425,16 +415,15 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 | Mud brick (adobe) | Clay + straw | Low (1-2 MPa) | Low | Dry climates only; temporary or low-cost construction |
 | Cob (earth + straw) | Subsoil + straw | Low (1-3 MPa) | Low | Thick walls (≥400 mm); dry climates; same limitations as adobe |
 
-### Material Selection Decision Criteria
+## Material Selection Decision Criteria
 
 - **Use timber when**: spans >3 m, rapid construction needed, tensile capacity required, weight must be minimized.
 - **Use stone when**: permanence is paramount, fire resistance required, compressive loads dominate, material is locally abundant.
 - **Use brick when**: standardized modular construction is desired, quality control is important, intermediate cost between timber and stone.
 - **Use mud brick only when**: climate is dry (<500 mm annual rainfall), no kiln firing is available, temporary construction is acceptable.
 
----
 
-## 11. References
+## References
 
 - [Lime Production](../ceramics/lime.md) — Lime mortar for masonry construction
 - [Cement & Concrete](../chemistry/cement.md) — Portland cement and concrete for industrial construction
@@ -444,6 +433,6 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 - [Structural Engineering](./structural-engineering.md) — Beam design, column design, and foundation theory
 - [Industrial Buildings](./industrial-buildings.md) — Heavy-duty construction specifications
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Construction](./index.md) • [All Domains](../index.md)*
+
+[← Back to Construction](index.md)

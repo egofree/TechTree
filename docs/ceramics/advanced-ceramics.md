@@ -8,7 +8,6 @@
 > **Outputs**: alumina ceramics, zirconia ceramics, silicon carbide, silicon nitride, refractory linings, ceramic insulation, technical ceramics
 > **Critical**: Yes — structural and insulating ceramics required for furnaces above 1500°C, semiconductor processing, and steel production
 
-## Overview
 
 Basic pottery and fireclay refractories serve well up to about 1200-1400°C. Beyond that — for steel furnaces, glass tanks, silicon processing, and chemical reactors — you need advanced ceramics: materials engineered for extreme temperatures, chemical resistance, wear resistance, and electrical insulation. This capability transforms ceramics from a craft into an industrial materials science.
 
@@ -20,7 +19,7 @@ The jump from earthenware to technical ceramics requires:
 
 ## Prerequisites
 
-### Materials
+## Materials
 
 - **Bauxite ore** (40-60% Al₂O₃) — sourced from [Mining](../mining/processing.md) of lateritic deposits
 - **Zircon sand** (ZrSiO₄) — from heavy mineral sand deposits via [Mining](../mining/processing.md)
@@ -31,7 +30,7 @@ The jump from earthenware to technical ceramics requires:
 - **Silicon metal powder** — from [Silicon production](../silicon/crystal-growth.md)
 - **[Fire clay](../glossary/calcine.md)** (kaolin-rich, high alumina) — from clay beds near coal measures
 
-### Tools and Equipment
+## Tools and Equipment
 
 - **Ball mill** (porcelain or rubber-lined steel, alumina grinding media) — see [Machine Tools](../machine-tools/index.md)
 - **Hydraulic press** (50-300 MPa capacity) — see [Machine Tools](../machine-tools/index.md)
@@ -39,7 +38,7 @@ The jump from earthenware to technical ceramics requires:
 - **Autoclave** (for Bayer process, rated 240°C, 3-4 MPa)
 - **Diamond grinding wheels** — see [Machine Tools](../machine-tools/index.md)
 
-### Infrastructure
+## Infrastructure
 
 - **Electrical power** for ball mills, kilns, presses — [Electricity](../energy/electricity.md)
 - **Controlled atmosphere supply** (N₂, Ar, H₂/N₂) — [Gas Handling](../gas-handling/index.md)
@@ -66,7 +65,7 @@ The jump from earthenware to technical ceramics requires:
 
 ## Process Description
 
-### 4.1 Alumina (Al₂O₃) Ceramics
+## 4.1 Alumina (Al₂O₃) Ceramics
 
 #### Principle
 
@@ -141,7 +140,7 @@ Alumina (Al₂O₃, corundum) is the most widely used technical ceramic — hard
 - The Bayer process generates highly alkaline red mud waste (1-2 tonnes per tonne Al₂O₃) — disposal is an ongoing environmental challenge
 - Thermal shock resistance is moderate — rapid temperature changes >200°C can cause cracking
 
-### 4.2 Zirconia (ZrO₂) Ceramics
+## 4.2 Zirconia (ZrO₂) Ceramics
 
 #### Principle
 
@@ -212,7 +211,7 @@ Zirconia combines extreme temperature resistance (up to 2200°C) with excellent 
 - Sintering shrinkage of 25-35% is higher than alumina — dimensional control is more challenging
 - Dense zirconia cannot be used above ~1000°C in air for structural applications due to grain boundary sliding and creep
 
-### 4.3 Silicon Carbide (SiC)
+## 4.3 Silicon Carbide (SiC)
 
 #### Principle
 
@@ -293,7 +292,7 @@ Silicon carbide is exceptionally hard (9.5 Mohs), an excellent thermal conductor
 - Reaction-bonded SiC contains 10-15% residual free silicon, which melts at 1414°C, limiting high-temperature use
 - Silicon carbide cannot be used in oxidizing atmospheres above ~1600°C — SiC oxidizes to SiO₂ + CO₂
 
-### 4.4 Silicon Nitride (Si₃N₄)
+## 4.4 Silicon Nitride (Si₃N₄)
 
 #### Principle
 
@@ -367,7 +366,7 @@ Silicon nitride offers the best combination of high-temperature strength, therma
 - Maximum continuous service temperature in air limited to 1200-1400°C by oxidation (forms SiO₂ surface layer)
 - Hot pressing (HPSN) limited to simple shapes — uniaxial pressing cannot produce complex geometries
 
-### 4.5 Refractory Linings
+## 4.5 Refractory Linings
 
 #### Principle
 
@@ -453,7 +452,7 @@ Refractories are the inner linings of furnaces, kilns, reactors, and crucibles t
 
 ## Quantitative Parameters
 
-### Ceramic Material Properties Comparison
+## Ceramic Material Properties Comparison
 
 | Property | Alumina | Zirconia (Y-TZP) | SiC (sintered) | Si₃N₄ (GPSSN) |
 |----------|---------|-------------------|----------------|----------------|
@@ -466,7 +465,7 @@ Refractories are the inner linings of furnaces, kilns, reactors, and crucibles t
 | Max service temp in air (°C) | 1700-1900 | 800-1000 | 1600 | 1200-1400 |
 | Electrical resistivity (Ω·cm) | >10¹⁴ | >10¹⁰ (below 600°C) | 10-10⁴ (semiconductor) | >10¹⁴ |
 
-### Sintering Parameters by Material
+## Sintering Parameters by Material
 
 | Material | Sintering Temp | Atmosphere | Soak Time | Shrinkage | Pressure |
 |----------|---------------|------------|-----------|-----------|----------|
@@ -479,19 +478,19 @@ Refractories are the inner linings of furnaces, kilns, reactors, and crucibles t
 
 ## Scaling Notes
 
-### Powder Production Scale
+## Powder Production Scale
 
 - **Bench scale** (research): 1-10 kg batches. Manual mixing, small box kiln. Suitable for material screening and property testing.
 - **Pilot scale**: 100-1000 kg batches. Automated ball milling, medium kiln (0.5-2 m³). Produces enough material for component prototyping.
 - **Production scale**: 1-100+ tonnes/day. Continuous ball mills, tunnel kilns, automated forming. Standard industrial ceramic production.
 
-### Key Scale Breakpoints
+## Key Scale Breakpoints
 
 - **Ball milling**: Beyond 500 kg batches, continuous ball mills replace batch mills. Energy consumption: 20-40 kWh per tonne of powder for alumina milling to 5 μm.
 - **Pressing**: Automated hydraulic presses cycle at 10-20 parts/minute for simple shapes (tiles, disks). Isostatic pressing is slower (5-10 parts/hour) but handles complex geometry.
 - **Sintering**: Tunnel kilns (see [Kiln Construction](kilns.md)) provide continuous sintering for high-volume production. A 30 m tunnel kiln can fire 5-15 tonnes of ceramic per day. Batch kilns (box, downdraft) are used for smaller volumes and specialty compositions.
 
-### Bottlenecks at Scale
+## Bottlenecks at Scale
 
 - **High-purity raw materials**: The Bayer process for alumina requires NaOH and produces 1-2 tonnes of red mud waste per tonne of Al₂O₃ — waste management scales with production.
 - **Electrical energy**: SiC Acheson process consumes 6-12 kWh/kg. At 100 tonnes/day SiC, this requires 600-1200 MWh/day — a dedicated power plant.
@@ -512,46 +511,46 @@ Refractories are the inner linings of furnaces, kilns, reactors, and crucibles t
 
 ## Safety
 
-### Dust Hazards (Silicosis)
+## Dust Hazards (Silicosis)
 
 Many ceramic raw materials produce fine dust during crushing, grinding, and powder handling:
 - **[Crystalline silica](../glossary/crystalline-silica.md)** (quartz, cristobalite, tridymite): Causes silicosis — irreversible lung scarring. Exposure limit: 0.025 mg/m³ respirable (ACGIH TLV). Wet grinding wherever possible. Respiratory protection (P100 mask minimum) during all dry powder handling.
 - **Alumina dust**: Less hazardous than silica but still a respiratory irritant. Maintain <5 mg/m³.
 - **Ceramic fiber**: Suspected carcinogen. Handle with full respiratory protection and protective clothing.
 
-### High-Temperature Burns
+## High-Temperature Burns
 
 - Ceramics are fired at 1200-2200°C. Surfaces above 60°C cause burns on contact. Above 200°C, contact burns are deep tissue within seconds.
 - Use infrared thermometers or thermocouples to verify temperature before approaching. Assume all kilns and furnace surfaces are hot.
 - Kiln furniture and fired ware retain heat for hours after kiln shutdown. Use heavy leather or Kevlar gloves rated for the expected temperature.
 
-### Kiln and Furnace Safety
+## Kiln and Furnace Safety
 
 - **CO hazard**: Carburizing and reducing atmospheres produce carbon monoxide. CO is colorless, odorless, lethal at 0.1% in air for 1 hour. Adequate ventilation mandatory. CO detectors in all kiln areas. Evacuate at >50 ppm.
 - **Electrical hazard**: Electric kilns operate at 240-480V, high current. Lockout/tagout procedures for all maintenance. Ground fault protection.
 - **Thermal expansion**: Refractory linings expand on heating. Provide expansion joints (5-10 mm per meter of length) to prevent buckling and structural damage.
 - **Moisture explosion**: Moisture in refractories flashes to steam during rapid heating. Dry all refractory installations slowly (24-48 hours at 100-200°C) before bringing to full temperature. New or repaired linings must be thoroughly dried.
 
-### Chemical Hazards
+## Chemical Hazards
 
 - **[HF etching](../glossary/hf-etching.md)** of ceramics requires full acid-handling PPE: face shield, HF-rated gloves (neoprene), apron. Calcium gluconate gel must be immediately available (HF antidote for skin exposure). HF causes deep tissue burns with delayed pain — exposure may not be felt for hours.
 - **[Binders and solvents](../glossary/binders-and-solvents.md)** used in ceramic processing (PVA, PEG, organic solvents) require standard chemical safety practices. Use in ventilated areas.
 
 ## Quality Control
 
-### Incoming Raw Material Inspection
+## Incoming Raw Material Inspection
 
 - **Bauxite**: Test Al₂O₃ content by XRF or wet chemistry. Target: ≥40% Al₂O₃. Reject if Fe₂O₃ >20% (excessive red mud generation).
 - **Silica sand**: Test SiO₂ content. Target: ≥99%. Sieve analysis to confirm particle size distribution (100-500 μm for Acheson process).
 - **Zircon sand**: Test ZrO₂ content. Target: ≥65% ZrO₂ equivalent. Check for radioactive contamination (thorium, uranium) — limit to <500 Bq/kg.
 
-### In-Process Checks
+## In-Process Checks
 
 - **Green density**: Measure pressed green body mass and volume. Target: 55-65% of theoretical density depending on forming method.
 - **Binder content**: Thermogravimetric analysis (TGA) or loss-on-ignition test. Target: 2-5% binder by weight.
 - **Particle size distribution**: Laser diffraction or sedimentation on milled powder. Target: D50 = 1-5 μm for alumina, <1 μm for SSiC.
 
-### Final Product Acceptance
+## Final Product Acceptance
 
 - **Density**: Archimedes method (ASTM C373). Minimum acceptable: 95% theoretical for structural alumina, 98% for SSiC.
 - **Dimensions**: Caliper measurement. Standard tolerance ±1% as-fired; ±0.1 mm diamond-ground.
@@ -560,7 +559,7 @@ Many ceramic raw materials produce fine dust during crushing, grinding, and powd
 
 ## Variations and Alternatives
 
-### Material Selection Guide
+## Material Selection Guide
 
 | Application | Primary Material | Alternative | Reason for Primary |
 |-------------|-----------------|-------------|-------------------|
@@ -573,14 +572,14 @@ Many ceramic raw materials produce fine dust during crushing, grinding, and powd
 | Ballistic armor | Alumina or SiC | Boron carbide | SiC has lower density (lighter armor); B₄C is best but expensive |
 | Oxygen sensor | YSZ (zirconia) | None | Unique oxygen ion conductivity of zirconia at >600°C |
 
-### Regional Adaptations
+## Regional Adaptations
 
 - **Tropical regions**: Bauxite deposits are abundant — alumina production is straightforward. Zircon sand available from beach deposits.
 - **Arid regions**: Magnesite deposits may be more accessible than bauxite — magnesia refractories for basic steelmaking furnaces.
 - **Forest regions**: Charcoal can substitute for petroleum coke in SiC Acheson process, though ash content is higher and SiC purity is lower.
 - **No petroleum access**: Charcoal, coal, or graphite can serve as carbon sources for SiC synthesis. Coal has higher impurity load.
 
-## References
+## See Also
 
 - [Kiln Construction](kilns.md) — kiln design and construction for ceramic firing
 - [Kiln Firing Protocols](kiln-firing.md) — temperature schedules, atmosphere control, pyrometry
@@ -594,6 +593,6 @@ Many ceramic raw materials produce fine dust during crushing, grinding, and powd
 - [Charcoal Production](../energy/charcoal.md) — carbon source for SiC synthesis
 - [Electricity](../energy/electricity.md) — power supply for kilns and ball mills
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*
+
+[← Back to Ceramics & Refractories](index.md)

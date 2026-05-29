@@ -7,9 +7,7 @@
 > **Timeline**: Years 5-50+
 > **Outputs**: siege_engines, cannons, military_logistics, artillery, field_fortifications
 
----
 
-## Overview
 
 Siege engineering encompasses the offensive and logistical operations required to capture fortified positions, and the counter-measures defenders employ to resist them. From battering rams against timber palisades to cannon bombardment of stone walls, siege warfare drives the development of mechanical engineering, metallurgy, and large-scale logistics.
 
@@ -17,7 +15,6 @@ Siege operations are the most resource-intensive military activities in the pre-
 
 This capability covers siege engines (battering rams, siege towers, torsion artillery, trebuchets), cannon artillery from early bombards to standardized siege guns, military logistics (supply requirements, baggage trains, march rates), mining operations against fortifications, and field fortification construction. Each of these subsystems depends on broader industrial capabilities: [metals production](../metals/iron-steel.md) for cannon, [chemistry](../chemistry/explosives.md) for gunpowder, [textiles](../textiles/index.md) for rope, and [mining](../mining/index.md) for tunneling.
 
----
 
 ## Bill of Materials
 
@@ -32,11 +29,10 @@ This capability covers siege engines (battering rams, siege towers, torsion arti
 | Siege mining timber | Oak/pine pit props | 2-5 m3 per 10 m of tunnel | Clay pipe for ventilation, bellows | [Foundations](../foundations/index.md) |
 | Fascine bundle | Brushwood/brine | 30-60 cm dia x 2-3 m long | Withy ties (10-15 per bundle) | Local sourcing |
 
----
 
 ## Siege Engines by Type
 
-### Battering Ram (Years 5-15)
+## Battering Ram (Years 5-15)
 
 **Basic ram**: Heavy timber beam (6-10 m x 30-50 cm diameter, 200-500 kg), typically oak or ash. Suspended horizontally from timber frame by ropes or chains, swung by 10-30 men. Impact energy per swing: 2000-6000 J (mass x velocity squared / 2). Beam tip reinforced with iron cap (5-10 kg) to prevent splitting and concentrate force on gate or wall.
 
@@ -68,7 +64,7 @@ This capability covers siege engines (battering rams, siege towers, torsion arti
 - Vulnerable to fire — defenders drop incendiary materials (Greek fire, burning pitch) onto shed roof
 - Large target — cannot be concealed; defenders can concentrate fire on ram approach
 
-### Siege Towers (Years 10-25)
+## Siege Towers (Years 10-25)
 
 **Construction**: Multi-story wooden tower on wheels. Dimensions: 10-20 m height x 4-6 m wide x 4-6 m deep (must be taller than target wall by 2-3 m). Stories: 3-5 levels. Ground floor: protected approach gangway. Upper floors: archers/javelinmen firing platforms. Top floor: drawbridge to bridge onto wall walk. Weight: 5000-15,000 kg.
 
@@ -78,7 +74,7 @@ This capability covers siege engines (battering rams, siege towers, torsion arti
 
 **Siege tower vulnerability**: Requires flat or gently sloping approach terrain. Useless against concentric castles (outer wall blocks approach to inner wall). Obsolete once cannon available -- large stationary wooden target destroyed by artillery fire in minutes.
 
-### Torsion Artillery (Years 10-25)
+## Torsion Artillery (Years 10-25)
 
 **Catapult (mangonel)**: Single-arm torsion engine. Arm: 3-5 m wooden beam with rope bundle torsion spring at pivot. Sling or bucket at arm end holds stone projectile (10-50 kg). Torsion spring: sinew and hair rope bundle (150-300 mm diameter) wound tight around arm pivot, pretensioned by winch. Range: 100-300 m. Rate of fire: 1-2 shots per 10 minutes (rewinding torsion spring is slow). Crew: 8-20 men.
 
@@ -86,7 +82,7 @@ This capability covers siege engines (battering rams, siege towers, torsion arti
 
 **Torsion spring construction**: Rope bundles of animal sinew (preferred -- high elastic energy storage) or human hair. Bundle dimensions: 150-300 mm diameter x 400-800 mm length. Pretension: rope wound to specific torque (measured by lever arm weight -- empirical calibration). Critical maintenance: sinew ropes lose tension when wet (humidity, rain) -- must be kept dry under canvas covers. Damaged ropes replaced by skilled rope-makers (see [Textiles: Rope](../textiles/index.md)).
 
-### Trebuchet (Years 10-30)
+## Trebuchet (Years 10-30)
 
 **Counterweight trebuchet**: Gravity-powered siege engine with massive superiority over torsion engines -- simpler construction, more reliable, greater range and payload. Beam: 5-10 m long, mounted on pivot at 1:4 to 1:6 ratio (short counterweight arm : long throwing arm). Counterweight: 5-15 tonnes (stone, lead, or iron-filled wooden box) attached to short arm. Sling at long arm end holds projectile. Trigger mechanism releases sling at optimal angle for maximum range.
 
@@ -129,11 +125,10 @@ This capability covers siege engines (battering rams, siege towers, torsion arti
 - Must be built on-site — too large to transport assembled
 - Fixed position once built — cannot be repositioned quickly to adjust aim
 
----
 
 ## Cannon Artillery (Years 20-50)
 
-### Early Cannon (13th-14th century)
+## Early Cannon (13th-14th century)
 
 Wrought iron or cast bronze barrel. Bore: 50-200 mm diameter. Barrel length: 6-12x bore diameter. Propellant: black powder (see [Explosives](../chemistry/explosives.md) for composition: 75% KNO3, 15% charcoal, 10% sulfur). Projectile: stone sphere (cheaper) or iron sphere (denser, more kinetic energy). Muzzle velocity: 300-500 m/s.
 
@@ -141,7 +136,7 @@ Wrought iron or cast bronze barrel. Bore: 50-200 mm diameter. Barrel length: 6-1
 - **Wrought iron (hoop and stave)**: Longitudinal iron bars (staves) wrapped with iron hoops, forge-welded. Barrel wall: 15-30 mm iron. Risk: welded seams can burst under pressure. Maximum safe powder charge: limited by weld quality.
 - **Cast bronze**: Bronze alloy (88-92% Cu, 8-12% Sn) cast in clay mold around core -> smooth, seamless bore. Bronze barrel superior to wrought iron: no weak seams, better pressure containment, smoother bore = more accurate shot. Weight: 500-5000 kg for siege cannon.
 
-### Cannon Bore Progression by Era
+## Cannon Bore Progression by Era
 
 | Period | Bore (mm) | Barrel Weight (kg) | Projectile Weight (kg) | Powder Charge (kg) | Effective Range (m) |
 |--------|-----------|-------------------|----------------------|-------------------|-------------------|
@@ -150,17 +145,16 @@ Wrought iron or cast bronze barrel. Bore: 50-200 mm diameter. Barrel length: 6-1
 | 1500s | 100-300 | 1000-15000 | 10-100 | 5-30 | 300-600 |
 | 1600s+ | 80-200 (standardized) | 500-5000 | 4-30 | 2-10 | 400-1000 |
 
-### Siege Bombard
+## Siege Bombard
 
 Oversized cannon for breaching walls. Famous example: Mehmed II's Great Bombard (1453, siege of Constantinople): ~750 mm bore, 8 m barrel, cast bronze, 600 kg stone shot, 50 kg powder charge, range ~1500 m, rate of fire 3 shots per day (barrel required cooling). Breached Theodosian Walls (5 m thick) after 6 weeks of bombardment.
 
 **Cannonball vs wall**: Impact energy = 1/2 mv squared. A 25 kg iron ball at 400 m/s delivers 2,000,000 J (2 MJ). This energy fractures stone and compresses mortar at impact point, creating a crater 30-60 cm deep x 50-100 cm diameter per shot. Repeated strikes at same point create breach: 50-200 shots to open 2-3 m wide breach in 2 m stone wall.
 
----
 
 ## Quantitative Parameters
 
-### Siege Engine Performance Comparison
+## Siege Engine Performance Comparison
 
 | Engine | Projectile Weight (kg) | Range (m) | Rate of Fire | Crew | Construction Time |
 |--------|----------------------|-----------|-------------|------|-------------------|
@@ -173,7 +167,7 @@ Oversized cannon for breaching walls. Famous example: Mehmed II's Great Bombard 
 | Cannon (200 mm, siege) | 20-50 | 400-800 | 3-6 per hour | 10-15 | N/A (industrial) |
 | Great bombard | 200-600 | 1000-1500 | 3 per day | 20-40 | N/A (industrial) |
 
-### Siege Timeline & Resource Summary
+## Siege Timeline & Resource Summary
 
 | Phase | Duration | Key Activities | Resources Required |
 |-------|----------|---------------|-------------------|
@@ -183,7 +177,7 @@ Oversized cannon for breaching walls. Famous example: Mehmed II's Great Bombard 
 | Assault | 1-3 days | Storm breach, scale walls, street fighting | Assault force 500-5000 |
 | Total typical siege | 4-16 weeks | All of the above | 10000+ soldiers, massive material stockpile |
 
-### Military Supply Requirements
+## Military Supply Requirements
 
 | Resource | Per Soldier per Day | Per 1000 Soldiers per Day | Per 200 Horses per Day |
 |----------|--------------------|---------------------------|------------------------|
@@ -194,11 +188,10 @@ Oversized cannon for breaching walls. Famous example: Mehmed II's Great Bombard 
 | Fodder (hay) | -- | -- | 1000-2000 kg |
 | Fodder (grain) | -- | -- | 400-1000 kg |
 
----
 
 ## Mining & Counter-Mining (Years 10-30)
 
-### Underground Mining (Sapping)
+## Underground Mining (Sapping)
 
 Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m high (minimal cross-section to reduce cave-in risk before deliberate collapse). Timber shoring: pit props at 0.5-1.0 m intervals. When tunnel reaches under wall foundation, burn props to collapse tunnel -> wall settles and cracks, or breaches entirely.
 
@@ -206,7 +199,7 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 
 **Counter-mining**: Defenders dig counter-tunnels to intercept besieger's mine. Detection: listening for mining sounds (picking, scraping, timber creaking) through gallery walls -- using shielded ear against wall at night when surface noise minimal. Counter-mine breakthrough: flood besieger's tunnel with water, collapse it by undermining its props, or attack miners directly through the breach.
 
-### Siege Mining Engineering
+## Siege Mining Engineering
 
 **Tunnel construction**: Mine gallery dimensions optimized for speed and stability. Width: 1.0-1.5 m (one man working width). Height: 1.5-2.0 m (crouching/working height). Timber shoring: vertical posts (100-150 mm diameter) at 0.5-1.0 m intervals, horizontal cap piece connecting posts. Side boards (planks) prevent wall collapse. Critical: miners work in silence near enemy walls -- any noise detected by counter-miners.
 
@@ -214,7 +207,6 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 
 **Explosive mining (post-gunpowder)**: Gunpowder charge placed in chamber excavated under wall foundation. Charge size: 500-5000 kg depending on wall thickness and foundation depth. Tamping: chamber backfilled with compacted earth and sand to contain blast energy (directed upward into wall foundation). Ignition: slow match fuse or (later) electrical detonation. Effect: massive underground explosion creates crater, wall foundation loses support, section collapses into crater. Safer and faster than fire-setting method.
 
----
 
 ## Artillery Battery Construction
 
@@ -224,11 +216,10 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 
 **Shot furnace**: Furnace for heating solid iron shot to red heat before firing -- "hot shot" ignites wooden structures and ships. Furnace: brick-lined, charcoal-fired, heats 12-25 kg iron balls to 600-800 degrees C in 20-30 minutes. Handling: iron tongs to load hot shot into cannon (wet wad between powder charge and hot shot prevents premature ignition). Devastating against wooden ships and siege engines -- penetrates wood, ignites from inside. Cannot be used with explosive shells (premature detonation risk).
 
----
 
 ## Military Logistics (Years 0-50+)
 
-### Supply Requirements per Soldier per Day
+## Supply Requirements per Soldier per Day
 
 - Grain/flour: 1.0-1.5 kg (3,500-5,000 kcal)
 - Water: 4-5 L (drinking and cooking; 10-15 L in hot climate)
@@ -246,7 +237,6 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 
 **Supply chain vulnerability**: An army that cannot feed itself disintegrates in 3-5 days. Historical campaigns lost more soldiers to starvation and disease than combat (ratio typically 3:1 to 10:1). Logistics infrastructure (roads, wagons, depots) determines military capability more than weapons -- see [Transport](../transport/index.md) for road and railway construction.
 
----
 
 ## Field Fortifications (Years 5-50+)
 
@@ -256,7 +246,6 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 
 **Abatis and entanglement**: Felled trees, sharpened stakes, and barbed wire creating obstacle zone 20-50 m deep in front of defensive position. Purpose: delay attacking infantry 3-10 minutes under defensive fire -- converts open ground into kill zone. See [Fortifications](fortifications.md) for detailed obstacle specifications.
 
----
 
 ## Naval Siege Warfare
 
@@ -264,7 +253,6 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 
 **Bombardment from sea**: Ships-of-the-line carry 30-120 guns each (24-36 pounder cannon). Broadside weight: 200-500 kg of iron shot per volley. Range: 500-1000 m (ships carry heavier guns than field artillery). Ship bombardment of coastal fortifications: limited by ship motion (gun platform unstable) and fortification return fire (fortress guns on stable platform, more accurate). Historically, shore fortifications usually win gunnery duels against ships.
 
----
 
 ## Scaling Notes
 
@@ -274,7 +262,6 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 - **State-level siege (30000+ attackers vs star fort)**: Trace italienne defense requires systematic approach: parallel trenches, saps, counter-battery fire, mining and counter-mining. Duration: 3-12 months. Powder: 50000+ kg total. Shot: 10000-50000 projectiles. Labor for earthworks: 50000-200000 worker-days. Only feasible with state-level logistics and [governance](../economics-organization/governance.md).
 - **Training scaling**: Siege engineers require years of training. Losing engineering crews to disease or sortie can halt a siege. Preserve technical specialists -- they are harder to replace than infantry.
 
----
 
 ## Troubleshooting
 
@@ -291,7 +278,6 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 | Supply convoy ambushed | Insufficient escort, predictable route | Escort with 10-20% of combat force; vary routes and timing; scout ahead with cavalry |
 | Disease outbreak in siege camp | Contaminated water, poor sanitation, overcrowding | Locate camp upstream of latrines; dig latrines 50+ m from water sources; space tents 3+ m apart; bury dead daily |
 
----
 
 ## Safety Considerations
 
@@ -304,7 +290,6 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 - **Lead exposure from ammunition handling**: Casting lead balls produces toxic fumes. Melt lead outdoors or in well-ventilated spaces. Chronic lead exposure causes colic, neuropathy, and death. Wash hands after handling lead ammunition. Pre-industrial armies did not understand lead toxicity -- modern practitioners must take precautions.
 - **Disease in siege camps**: Dysentery, typhus, and cholera kill more soldiers in sieges than combat. Latrines must be downhill and 50+ m from water sources. Boil or filter all drinking water. Space tents to allow air circulation. Isolate sick soldiers immediately. These precautions were not understood historically but are critical for any sustained operation.
 
----
 
 ## Limitations
 
@@ -313,9 +298,8 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 - **Engineering bottleneck**: Siege engines and cannon require skilled craftsmen (carpenters, blacksmiths, foundrymen). Loss of engineering crew to disease or sortie can halt siege entirely.
 - **Defender advantages**: Interior lines, fortified positions, prepared supplies, known terrain. Historically, 3:1 attacker advantage required for reasonable chance of success against well-fortified position with competent garrison.
 
----
 
-## References
+## See Also
 
 - **[Fortification Engineering](fortifications.md)** -- What siege engines attack
 - **[Explosives & Propellants](../chemistry/explosives.md)** -- Black powder for cannon propellant
@@ -325,6 +309,7 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 - **[Iron & Steel Production](../metals/iron-steel.md)** -- Cannon barrel materials and metallurgy
 - **[Governance](../economics-organization/governance.md)** -- Organizational structures for mobilizing siege resources
 
----
 
  *Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*
+
+[← Back to defense](index.md)

@@ -20,7 +20,7 @@ Industrial processes generate hazards: toxic fumes from smelting, silica dust fr
 
 ## Hazard Identification
 
-### Chemical Hazards
+## Chemical Hazards
 
 Airborne chemical exposures are regulated against Permissible Exposure Limits (PELs, OSHA) and Threshold Limit Values (TLVs, ACGIH). Both define the maximum airborne concentration a worker can breathe for an 8-hour time-weighted average (TWA) without adverse health effects. Key industrial substances:
 
@@ -36,7 +36,7 @@ Airborne chemical exposures are regulated against Permissible Exposure Limits (P
 
 Skin absorption adds another exposure route. Hydrofluoric acid penetrates skin rapidly and binds tissue calcium, causing deep tissue necrosis and potentially fatal hypocalcemia. A hand exposure to 2.5% body surface area with concentrated HF can deliver a lethal systemic dose. Phenol, aniline, and certain solvents (carbon tetrachloride, benzene) also absorb through skin in hazardous quantities.
 
-### Physical Hazards
+## Physical Hazards
 
 **Noise**: Continuous noise above 85 dB(A) as an 8-hour TWA requires a hearing conservation program (monitoring, audiometric testing, hearing protection). Above 90 dB(A), engineering controls or administrative limits on exposure time are mandatory. For reference: 85 dB is a milling machine at 1 meter; 95 dB is a forge hammer; 105 dB is a riveting machine. Every 3 dB increase halves the permissible exposure time: 90 dB = 8 hours, 93 dB = 4 hours, 96 dB = 2 hours, 99 dB = 1 hour. Noise-induced hearing loss is irreversible and cumulative.
 
@@ -46,11 +46,11 @@ Skin absorption adds another exposure route. Hydrofluoric acid penetrates skin r
 
 **Temperature extremes**: Heat stress (furnace areas, summer outdoor work) risks heat exhaustion and heat stroke. Wet-bulb globe temperature (WBGT) above 28°C requires work-rest cycles and hydration. Cold stress (outdoor winter work, cold storage) risks hypothermia and frostbite.
 
-### Biological Hazards
+## Biological Hazards
 
 Waterborne diseases (cholera, typhoid, dysentery) spread through contaminated water supplies, a constant threat during early infrastructure phases. Bloodborne pathogens (hepatitis B and C, HIV) are a risk in medical settings. Vector-borne diseases (malaria, dengue) depend on geography and sanitation. Industrial microbiology hazards include bacterial contamination of cutting fluids (Legionella, Mycobacterium) and fungal growth in poorly ventilated spaces.
 
-### Ergonomic Hazards
+## Ergonomic Hazards
 
 The NIOSH lifting equation sets a recommended weight limit (RWL) based on horizontal distance, vertical position, frequency, and twisting angle. For a standard lift (75 cm height, close to body, occasional frequency, no twist), the RWL is 23 kg. Exceeding this increases the risk of musculoskeletal disorders (lumbar disc herniation, muscle strain). Repetitive motion tasks (assembly line work, grinding, hammering) cause cumulative trauma disorders: carpal tunnel syndrome, tendinitis, epicondylitis.
 
@@ -58,7 +58,7 @@ The NIOSH lifting equation sets a recommended weight limit (RWL) based on horizo
 
 Controls are applied in order of effectiveness. Higher-level controls protect all workers passively; lower-level controls depend on individual compliance and behavior.
 
-### Elimination
+## Elimination
 
 Remove the hazard entirely. Use a non-toxic solvent instead of benzene. Eliminate manual lifting with mechanical aids. Substitute a less hazardous material: water-based cleaners instead of chlorinated solvents, lead-free solder (tin-silver-copper) instead of tin-lead.
 
@@ -70,7 +70,7 @@ Remove the hazard entirely. Use a non-toxic solvent instead of benzene. Eliminat
 - Not always technically feasible — some processes have no non-toxic alternative (e.g., HF for glass etching, lead for battery plates)
 - Substitute materials may be more expensive or require process re-engineering
 
-### Engineering Controls
+## Engineering Controls
 
 Physical modifications to the workplace that isolate workers from hazards:
 
@@ -92,7 +92,7 @@ Physical modifications to the workplace that isolate workers from hazards:
 - Enclosed machinery is harder to access for maintenance, creating new hazards during servicing unless lockout/tagout is enforced
 - Engineering controls have high upfront capital cost compared to administrative controls or PPE
 
-### Administrative Controls
+## Administrative Controls
 
 Work procedures and policies that reduce exposure duration or number of exposed workers:
 
@@ -111,7 +111,7 @@ Work procedures and policies that reduce exposure duration or number of exposed 
 - Rotation does not reduce total workforce exposure, only distributes it among more workers
 - Medical surveillance requires trained medical personnel and laboratory facilities that may not exist in early bootstrap stages
 
-### Personal Protective Equipment (PPE)
+## Personal Protective Equipment (PPE)
 
 The last line of defense, used when higher-level controls cannot reduce exposure below acceptable limits. PPE must be selected for the specific hazard, fitted to the individual, and maintained in working condition.
 
@@ -152,7 +152,7 @@ The last line of defense, used when higher-level controls cannot reduce exposure
 
 ## Exposure Monitoring
 
-### Air Sampling
+## Air Sampling
 
 Personal air sampling collects contaminants from the worker's breathing zone (within 30 cm of the nose and mouth). A battery-powered sampling pump draws air at a calibrated flow rate (1-2 L/min for particulates, 50-200 mL/min for gases) through a collection medium. For particulates: a pre-weighed filter cassette (37 mm diameter, 0.8 μm pore size mixed cellulose ester membrane) captures dust. Weigh the filter before and after sampling on a microbalance (0.01 mg resolution) to determine mass concentration. For silica analysis, the filter is digested and analyzed by X-ray diffraction or infrared spectrophotometry.
 
@@ -160,15 +160,15 @@ For gases and vapors: sorbent tubes (activated charcoal for organic vapors, sili
 
 Direct-reading instruments give real-time concentration data. Photoionization detectors (PID) measure volatile organic compounds with a UV lamp (10.6 eV). Electrochemical sensors detect specific gases (CO, H₂S, O₂, Cl₂) in the ppm range. Combustible gas indicators (catalytic bead sensors) measure flammable gas concentration as a percentage of the lower explosive limit (LEL).
 
-### Noise Measurement
+## Noise Measurement
 
 A sound level meter measures sound pressure level in dB(A) at a specific location. An integrating sound level meter (dosimeter) worn by the worker logs the 8-hour TWA exposure directly. Octave band analysis (measuring sound level in 31.5, 63, 125, 250, 500, 1000, 2000, 4000, 8000, and 16000 Hz bands) identifies dominant frequencies for engineering control design. A 1000 Hz dominant tone suggests a fan or motor problem; low-frequency rumble (63-250 Hz) suggests large machinery or ventilation ducts.
 
-### Biological Monitoring
+## Biological Monitoring
 
 Blood and urine testing provides direct evidence of internal dose, complementing air sampling. Blood lead level (BLL) reflects lead exposure over the prior 30-60 days (lead half-life in blood is ~30 days). Urinary mercury reflects recent inorganic mercury exposure. Urinary arsenic speciation distinguishes toxic inorganic arsenic from harmless organic arsenic from seafood consumption. Biological monitoring accounts for all exposure routes (inhalation, ingestion, skin absorption) and individual differences in metabolism.
 
-### Ventilation System Design
+## Ventilation System Design
 
 Effective local exhaust ventilation requires careful engineering beyond simply attaching a fan to a duct. The system consists of a hood (capture point), ductwork (transport), air cleaner (filtration or scrubbing), fan (motive force), and stack (discharge). Each component must be correctly sized. The fan must deliver the required airflow at the calculated system pressure drop. Undersized ducts increase velocity and pressure drop, wasting energy. Oversized ducts allow dust to settle, creating a fire or blockage risk.
 
@@ -188,7 +188,7 @@ Duct design: maintain transport velocity above the minimum for the material bein
 
 ## Emergency Response
 
-### Chemical Exposure First Aid
+## Chemical Exposure First Aid
 
 **Skin contact**: Remove contaminated clothing immediately (clothing holds chemical against the skin, extending exposure). Flush with copious water for a minimum of 15 minutes. For hydrofluoric acid, apply calcium gluconate gel (2.5%) to the affected area after flushing: the calcium ions bind free fluoride ions, preventing deep tissue destruction. Keep calcium gluconate gel stocked wherever HF is handled; delay beyond 30 minutes allows fluoride to penetrate deeply, causing irreversible tissue necrosis and potentially fatal hypocalcemia.
 
@@ -198,7 +198,7 @@ Duct design: maintain transport velocity above the minimum for the material bein
 
 **Ingestion**: Do not induce vomiting for corrosive substances (acids, alkalis): re-exposure of the esophagus causes additional damage. Dilute with water or milk if the person is conscious and able to swallow. For suspected poisoning, identify the substance and consult poison control for substance-specific treatment.
 
-### Fire and Explosion
+## Fire and Explosion
 
 Flammable liquid storage in approved cabinets (constructed of 18-gauge steel, with 1.5-inch air space at bottom, sides, and top for ventilation, self-closing doors). Class I flammable liquids (flash point below 37.8°C): store in approved safety cans with spring-loaded caps and flame arrestors. Bond and ground all containers during dispensing to prevent static discharge ignition. For gas cylinder storage: secure cylinders upright with chains or straps, separate fuel gases from oxidizers by 6 meters or a 30-minute fire-rated wall. Acetylene cylinders must never be stored or used on their side (acetone solvent can enter the regulator).
 

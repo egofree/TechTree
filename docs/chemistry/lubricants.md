@@ -24,13 +24,13 @@ This article covers lubricants in four tiers of increasing technological complex
 
 ## Lubrication Regimes
 
-### Boundary Lubrication
+## Boundary Lubrication
 
 Thin molecular film (1-10 nm) of polar molecules adsorbed on metal surfaces. Fatty acids (from animal/vegetable fats) have a polar head that attaches to the metal oxide surface and a non-polar tail (hydrocarbon chain). The molecules orient perpendicular to the surface, forming a packed monolayer that prevents metal-to-metal contact. This regime dominates at low speed, high load, and intermittent motion, the conditions found in slow-moving machinery, sliding surfaces, and startup/shutdown of faster equipment.
 
 **Effectiveness**: Reduces friction coefficient from ~0.8 (dry steel-on-steel) to ~0.1-0.15. Prevents galling and seizing. The film breaks down above ~150°C (fatty acids desorb and oxidize), which sets the temperature ceiling for organic boundary lubricants.
 
-### Hydrodynamic Lubrication
+## Hydrodynamic Lubrication
 
 A full fluid film separates the surfaces. No metal contact occurs. Friction is entirely viscous drag of the fluid. This regime requires three conditions: correct viscosity (thick enough to maintain the film under load, thin enough to flow), adequate speed (generates pressure in the converging wedge of lubricant), and proper bearing geometry (correct clearance and alignment).
 
@@ -40,15 +40,14 @@ A full fluid film separates the surfaces. No metal contact occurs. Friction is e
 
 **[Oil viscosity grades](../glossary/oil-viscosity-grades.md)** (ISO VG system): ISO VG 32 = kinematic viscosity 32 cSt at 40°C (light spindle oil). ISO VG 68 = 68 cSt (general machine oil). ISO VG 220 = 220 cSt (gear oil). ISO VG 460 = 460 cSt (heavy gear oil). Higher viscosity means thicker oil, more load capacity, but also more viscous friction and heat generation.
 
-### Elastohydrodynamic Lubrication (EHL)
+## Elastohydrodynamic Lubrication (EHL)
 
 Occurs in rolling element bearings and gear teeth where contact pressures reach 1-3 GPa. The extreme pressure elastically deforms the metal surfaces and compresses the lubricant, dramatically increasing its viscosity (the pressure-viscosity effect). The result is a thin but extremely stiff film, 0.1-1 μm thick, that separates the surfaces. EHL requires a lubricant with a good pressure-viscosity coefficient. Mineral oils perform well in this regime; water-based lubricants perform poorly.
 
----
 
 ## Tier 1: Natural Lubricants (Years 0-5)
 
-### Animal Fats (Tallow & Lard)
+## Animal Fats (Tallow & Lard)
 
 **Composition**: Triglycerides of saturated and monounsaturated fatty acids. Solid or semi-solid at room temperature. Polar fatty acid chains adsorb strongly to metal oxide surfaces, providing effective boundary lubrication.
 
@@ -104,9 +103,8 @@ Rancid fat has an unpleasant odor but is not hazardous for lubricant use. The ac
 - Not suitable for high-speed bearings or continuous operation at elevated temperature
 - Attracts vermin and insects in storage
 
----
 
-### Vegetable Oils
+## Vegetable Oils
 
 **Composition**: Triglycerides (glycerol + 3 fatty acid chains). Good lubricity from polar molecules that adhere to metal surfaces. Viscosity varies significantly by oil type. All vegetable oils oxidize over time (rancidity), becoming acidic and gummy. Store cool, dark, and sealed. Add antioxidants if available.
 
@@ -164,11 +162,10 @@ Rancid vegetable oil develops a characteristic sharp odor. For lubricant use, ra
 - Limited low-temperature performance compared to mineral oils
 - Viscosity range is narrower than what mineral oils offer
 
----
 
 ## Tier 2: Processed Lubricants (Years 5-20)
 
-### Grease Production
+## Grease Production
 
 **Composition**: Base oil (70-90%) + thickener (5-25%) + additives (0-10%). The thickener turns liquid oil into a semi-solid that stays in place and does not drain out of bearings.
 
@@ -228,9 +225,8 @@ The saponification reaction is exothermic. Add alkali gradually to avoid violent
 - Grease cannot be filtered and reused like oil; it is consumed and replaced
 - Additives are consumed during service; grease gradually degrades in use
 
----
 
-### Solid Lubricants
+## Solid Lubricants
 
 **Principle**: Solid materials with layered crystal structures or low-shear-strength surfaces provide lubrication by allowing easy sliding between atomic layers. Used where liquid lubricants fail: extreme temperatures, vacuum, radiation, or environments where oil would contaminate the product.
 
@@ -273,9 +269,8 @@ The saponification reaction is exothermic. Add alkali gradually to avoid violent
 - Polymer bearings limited to low PV values (see Bearing Design Parameters)
 - MoS₂ and PTFE require industrial synthesis (not available at early bootstrap stages)
 
----
 
-### Cutting Fluids
+## Cutting Fluids
 
 **Principle**: Cutting fluids serve four functions simultaneously: lubricate the chip-tool interface (reduce cutting force, improve surface finish), cool the tool and workpiece (remove heat, the primary function), flush chips from the cutting zone, and prevent rust on the workpiece and machine.
 
@@ -327,11 +322,10 @@ The saponification reaction is exothermic. Add alkali gradually to avoid violent
 - Disposal of used cutting fluid requires treatment (break emulsion, separate oil and water phases)
 - Bacterial growth in emulsions limits practical sump life to 3-6 months
 
----
 
 ## Tier 3: Industrial Fluids (Years 20-50)
 
-### Mineral Oil Lubricants
+## Mineral Oil Lubricants
 
 **Composition**: Refined petroleum oil from fractional distillation. Hydrocarbon mixtures (paraffinic, naphthenic, or aromatic) selected and treated for lubricant service. The workhorse of industrial lubrication, displacing animal and vegetable oils for most applications due to better oxidation stability, wider viscosity range, and consistent quality.
 
@@ -380,9 +374,8 @@ The saponification reaction is exothermic. Add alkali gradually to avoid violent
 - Mineral oils are not biodegradable; spills persist in the environment
 - Pour point limits cold-weather use without heaters or low-viscosity grades
 
----
 
-### Hydraulic Fluids
+## Hydraulic Fluids
 
 **Principle**: Hydraulic systems transmit force through incompressible fluid. The fluid must transmit force efficiently (incompressible), flow readily through valves and pumps (correct viscosity), resist chemical degradation (no oxidation, no corrosion), and be compatible with seals (does not swell or shrink rubber or leather). Fire resistance is desirable but not always achievable.
 
@@ -427,9 +420,8 @@ Pump (gear pump: 10-200 bar, or piston pump: 200-400 bar) feeds control valves (
 - Vegetable oil fluid oxidizes and has a short service life
 - Water-glycol has poor lubricity, requiring harder pump components
 
----
 
-### Bearing Lubrication Methods
+## Bearing Lubrication Methods
 
 **Principle**: The method of delivering lubricant to a bearing is as important as the lubricant itself. Different bearing types and operating conditions require different lubrication approaches, ranging from simple self-contained systems to complex forced-circulation designs.
 
@@ -478,11 +470,10 @@ Pump (gear pump: 10-200 bar, or piston pump: 200-400 bar) feeds control valves (
 - Grease-packed bearings have limited speed capability due to churning heat
 - Oil mist requires clean, dry compressed air and creates a respiratory hazard
 
----
 
 ## Tier 4: Advanced & Specialty Lubricants (Years 50-200+)
 
-### Synthetic Lubricants
+## Synthetic Lubricants
 
 **Composition**: Engineered hydrocarbon or non-hydrocarbon molecules with uniform structure, produced by chemical synthesis rather than petroleum distillation. The uniform molecular weight distribution (no light or heavy fractions) gives synthetics advantages in temperature range, oxidation stability, and consistency.
 
@@ -526,9 +517,8 @@ Pump (gear pump: 10-200 bar, or piston pump: 200-400 bar) feeds control valves (
 - PFPE requires fluorine chemistry (hazardous, specialized)
 - Some synthetics are incompatible with seals and paints designed for mineral oil
 
----
 
-### Vacuum Oils
+## Vacuum Oils
 
 **Principle**: Vacuum pump oils must have extremely low vapor pressure (<10⁻⁴ Pa at operating temperature). If the oil has high vapor pressure, it evaporates into the vacuum chamber, contaminating the vacuum and preventing the system from reaching low pressure. The oils must also lubricate pump bearings and seals adequately, resist oxidation, and not react with pumped gases.
 
@@ -572,9 +562,8 @@ Pump (gear pump: 10-200 bar, or piston pump: 200-400 bar) feeds control valves (
 - Vacuum oil contamination is a common cause of vacuum system performance problems
 - Silicone oil cannot be used in some applications because it contaminates surfaces (difficult to remove)
 
----
 
-### Semiconductor/Cleanroom Lubricants
+## Semiconductor/Cleanroom Lubricants
 
 **Principle**: Equipment used in semiconductor fabrication requires lubricants that do not contaminate cleanroom air or wafer surfaces. The lubricants must exhibit low outgassing (minimal evaporation into the cleanroom environment), non-particulating behavior (no shedding of particles), and vacuum compatibility (for equipment inside vacuum chambers such as load locks and wafer transfer robots).
 
@@ -611,7 +600,6 @@ Pump (gear pump: 10-200 bar, or piston pump: 200-400 bar) feeds control valves (
 - Cannot be replaced with cheaper alternatives without risking contamination
 - PFPE decomposition products are highly toxic
 
----
 
 ## Selection Guide
 
@@ -638,7 +626,6 @@ Pump (gear pump: 10-200 bar, or piston pump: 200-400 bar) feeds control valves (
 | Graphite (solid) | N/A | Up to +450°C (air) | Moderate | High-temperature bearings, gaskets, mold release |
 | PTFE (solid) | N/A | -200 to +260°C | Low | Bearing liners, bridge bearings, thread sealing |
 
----
 
 ## Integration Points
 
@@ -653,7 +640,6 @@ Pump (gear pump: 10-200 bar, or piston pump: 200-400 bar) feeds control valves (
 | Silicon | Ultraclean lubricants for crystal pullers and wafer handling equipment |
 | Photolithography | Cleanroom-compatible lubricants and hydraulic fluids for fab equipment, PFPE greases |
 
----
 
 ## Key Deliverables
 
@@ -665,7 +651,6 @@ Pump (gear pump: 10-200 bar, or piston pump: 200-400 bar) feeds control valves (
 
 - **Tier 4** (Years 50-200+): Synthetic lubricants (PAO, ester, silicone) for demanding applications in aerospace and extreme environments. Vacuum-compatible oils (mineral for roughing pumps, silicone for diffusion pumps). Cleanroom-compatible PFPE lubricants for semiconductor manufacturing equipment. Oil analysis and condition monitoring programs for predictive maintenance. These advanced lubricants enable jet engines, vacuum systems, semiconductor fabrication, and space applications.
 
----
 
 ## General Safety & Hazards
 
@@ -674,7 +659,7 @@ Pump (gear pump: 10-200 bar, or piston pump: 200-400 bar) feeds control valves (
 - **Oil mists**: Oil mist from machining operations and mist lubrication systems is a respiratory irritant. Prolonged inhalation can cause lipoid pneumonia. Use ventilation, mist extraction, or enclosures to control airborne oil.
 - **Environmental disposal**: Used oil and grease must not be dumped on ground or in waterways. Collect in sealed containers. Re-refine mineral oils (vacuum distillation removes contaminants, additives are replenished). Animal and vegetable oils can be composted in small quantities. Used cutting fluid emulsions require treatment (break emulsion with acid or flocculant, separate oil phase, treat water phase before discharge). Even in a bootstrap economy, contaminating water supplies with oil has long-term consequences for agriculture and drinking water.
 
-### Oil Analysis and Condition Monitoring
+## Oil Analysis and Condition Monitoring
 
 Industrial plants monitor lubricant condition to schedule oil changes based on actual condition rather than fixed intervals. Key tests:
 
@@ -686,7 +671,6 @@ Industrial plants monitor lubricant condition to schedule oil changes based on a
 
 **Sampling**: Always sample from a live oil stream (not from the drain plug or static reservoir). Use clean sample bottles. Sample frequency: monthly for critical equipment (turbines, large gearboxes), quarterly for general plant equipment.
 
----
 
 ## Limitations
 
@@ -696,7 +680,6 @@ Industrial plants monitor lubricant condition to schedule oil changes based on a
 - **Shelf life**: Store all lubricants in sealed, labeled containers away from heat, sunlight, and moisture. Mineral oils: 5+ year shelf life if uncontaminated. Vegetable oils: 1-2 years (oxidize and become acidic; check acid number before use). Animal fats: 6-12 months (rancidity; refrigeration extends to 2 years). Grease: 2-3 years in sealed containers (oil separation is the primary failure mode; if more than 10% free oil on the surface, discard). Cutting fluid concentrates: 2-5 years. Mixed emulsions: 3-6 months (biological growth is the limiting factor; add biocide and monitor pH weekly).
 - **Lubricant degradation in service**: All lubricants degrade during use. Oxidation thickens the oil and deposits varnish. Thermal breakdown at high temperatures produces sludge. Contamination with wear particles, water, and process chemicals reduces lubrication effectiveness. Regular oil analysis and timely replacement are essential for equipment reliability.
 
----
 
 ## See Also
 
@@ -706,6 +689,6 @@ Industrial plants monitor lubricant condition to schedule oil changes based on a
 - **[Machine Tools](../machine-tools/machining.md)**: Cutting fluid applications in machining
 - **[Soap Making](../glossary/soap-making.md)**: Saponification chemistry for grease thickeners
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+[← Back to Chemistry](index.md)

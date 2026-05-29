@@ -8,7 +8,7 @@
 > **Outputs**: borosilicate_glass, fused_silica, quartz_crucibles, glass_tubing, glass_apparatus
 > **Critical**: Yes — borosilicate enables laboratory glassware for all chemistry; fused silica crucibles are consumables for CZ crystal growth (semiconductor-grade silicon).
 
-## 1. Overview
+## Overview
 
 Advanced glass production extends basic glassmaking ([basic glass](basic.md)) into specialty compositions and precision forming methods required for scientific apparatus, optical components, and semiconductor manufacturing. Three product families define this capability:
 
@@ -18,7 +18,7 @@ Advanced glass production extends basic glassmaking ([basic glass](basic.md)) in
 
 Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quartz crucibles as a consumable. [Glass fibers](fibers.md) draw from the same melting expertise. [Photomask substrates](photomask-substrates.md) require ultra-flat, high-purity fused silica blanks.
 
-## 2. Prerequisites
+## Prerequisites
 
 **Materials**:
 - [Basic glass](basic.md) production capability (soda-lime glass melting, annealing)
@@ -38,7 +38,7 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 - Ventilation for glass batch mixing and furnace operation
 - Compressed gas supply (O₂, H₂) for oxy-hydrogen torches
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity per 100 kg batch | Source | Alternatives |
 |----------|---------------------------|--------|-------------|
@@ -50,9 +50,9 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 | Hydrogen gas (H₂) | 10-50 L/hour for torch work | [Electrolysis](../chemistry/electrolysis.md) | No alternative for fused silica working |
 | Oxygen gas (O₂) | 5-25 L/hour for torch work | [Air separation](../chemistry/air-separation.md) | Compressed air (insufficient for fused silica) |
 
-## 4. Process Description
+## Process Description
 
-### Borosilicate Glass
+## Borosilicate Glass
 
 **Principle**: Adding B₂O₃ (7-13%) to a soda-lime glass base reduces the thermal expansion coefficient from ~9×10⁻⁶/°C to ~3×10⁻⁶/°C, making the glass 3× more resistant to thermal shock. The alumina content (2-7%) improves chemical durability.
 
@@ -93,7 +93,7 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 - Stiffer working consistency than soda-lime — requires more force for blowing and shaping
 - B₂O₃ volatilization during melt causes compositional drift if not monitored
 
-### Fused Silica / Quartz Glass
+## Fused Silica / Quartz Glass
 
 **Principle**: Pure SiO₂ (>99.5%) melted at 1700-2000°C produces a glass with near-zero thermal expansion (0.5 × 10⁻⁶/°C) and transmission from UV (180 nm) through visible to IR (3.5 μm). No flux is used — the silica softens gradually rather than melting sharply.
 
@@ -148,7 +148,7 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 - Very viscous even at working temperature — slow forming, requires patience and graphite tooling
 - Quartz crucibles are consumable in CZ growth — they dissolve slowly in molten silicon, limiting crystal pull duration to 24-72 hours per crucible
 
-### Optical Glass Production
+## Optical Glass Production
 
 **Principle**: Optical glass requires exceptional homogeneity (no striae, bubbles, or compositional variation) and precisely controlled refractive index. Raw materials must be batched to ±0.01% accuracy (vs. ±2% for container glass) and the melt must be stirred continuously to eliminate compositional layering.
 
@@ -188,7 +188,7 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 - Annealing times of weeks to months per batch create long production lead times
 - Weighing accuracy of ±0.01% requires analytical balances not available at earlier bootstrap stages
 
-### Quartz Crucible Manufacturing
+## Quartz Crucible Manufacturing
 
 **Principle**: High-purity quartz crucibles (>99.99% SiO₂) are formed by slip casting or isostatic pressing quartz powder, then sintering at 1700-1800°C under vacuum or inert atmosphere. Impurities (especially Al, Fe, Na) must remain below ppm levels — they dissolve into molten silicon during CZ growth and dope the crystal uncontrollably.
 
@@ -235,7 +235,7 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 - Surface contamination from handling transfers to silicon melt — requires clean gloves and clean-room handling
 - Shrinkage during sintering (15-20%) makes dimensional control difficult — molds must be oversized accordingly
 
-### Glass Tubing Production (Danner Process)
+## Glass Tubing Production (Danner Process)
 
 **Principle**: Molten glass flows from the furnace forehearth onto a rotating, inclined refractory mandrel. Air blown through the hollow mandrel inflates the glass ribbon into a continuous tube, drawn off by tractor belts.
 
@@ -275,7 +275,7 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 - Wall thickness varies with any change in melt temperature, air pressure, or draw speed — steady-state operation is essential
 - Refractory mandrel wears over time and must be replaced periodically (100-500 hours depending on glass type)
 
-### Glass Fiber Production
+## Glass Fiber Production
 
 **Principle**: Molten glass is forced through small holes (0.5-2 mm) in a platinum bushing or spinning disk. The emerging strands are attenuated by centrifugal force or high-speed winding, reducing diameter to 5-24 μm. Surface flaw elimination during drawing gives fiber tensile strengths far exceeding bulk glass.
 
@@ -321,9 +321,9 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 - Fiber diameter sensitive to melt temperature (±5°C causes measurable diameter change)
 - Sizing chemistry adds complexity — bare glass fibers abrade each other and lose strength rapidly
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Glass Composition Comparison
+## Glass Composition Comparison
 
 | Parameter | Soda-lime | Borosilicate | Fused silica | Optical crown | Optical flint |
 |-----------|-----------|-------------|-------------|---------------|---------------|
@@ -334,7 +334,7 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 | Working range (°C) | 700-1000 | 800-1100 | 1800-2100 | 700-1000 | 650-900 |
 | Refractive index | 1.51 | 1.47 | 1.46 | 1.50-1.54 | 1.58-1.72 |
 
-### Glass Fiber Properties
+## Glass Fiber Properties
 
 | Property | Glass wool | Continuous E-glass fiber |
 |----------|-----------|------------------------|
@@ -344,7 +344,7 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 | Density (kg/m³) | 10-50 | 2500-2600 (solid glass) |
 | Production rate | 1-5 tonnes/hour | 1-10 kg/hour per bushing hole |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Borosilicate**: 10-100 kg batches in clay crucibles are the minimum scale. Scaling to continuous tank furnaces (1-10 tonnes/day) reduces per-unit energy by 30-50%.
 - **Fused silica**: Type I production starts at 5-20 kg batches. Synthetic fused silica (from SiCl₄) requires chemical plant infrastructure and is only economical above 1 tonne/year.
@@ -353,7 +353,7 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 - **Glass tubing**: Danner process requires minimum 50-100 kg/hour throughput to maintain steady-state. Below this, batch drawing methods are used.
 - **Glass fiber**: Insulation wool production starts at ~100 kg/hour. Continuous fiber requires a platinum bushing and steady melt supply.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -365,7 +365,7 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 | Fiber diameter variation | Melt temperature fluctuation or winder speed instability | Control melt temperature to ±3°C. Check winder motor drive for speed regulation. |
 | Glass tubing ovality | Uneven cooling or air pressure fluctuation in Danner process | Check mandrel alignment. Install air pressure regulator. Ensure uniform furnace temperature across ribbon width. |
 
-## 8. Safety
+## Safety
 
 - **Extreme-temperature glassworking**: Borosilicate melts at 1500-1600°C; fused silica requires 1700-2100°C working temperatures. Hydrogen-oxygen torches produce flame temperatures of ~2800°C. Severe burns occur on brief skin contact with hot glass or flame. Wear Kevlar or leather heat-resistant gloves, arm guards, face shield, and closed-toe boots. Use welding-grade shaded lenses (#5-#7 for fused silica oxy-hydrogen work) — intense visible and infrared radiation from molten silica causes retinal damage.
 - **Chlorosilane hazards in synthetic fused silica**: SiCl₄ is corrosive, reacts violently with moisture to produce HCl fumes, and causes severe respiratory damage at concentrations >5 ppm (OSHA PEL). Handle only in closed, well-ventilated systems with acid-resistant equipment. Emergency: flood exposed skin with water for 15+ minutes; move to fresh air if inhaled.
@@ -373,7 +373,7 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 - **Lead and heavy metal toxicity**: Lead oxide (PbO) used in flint glass and glazes is toxic by inhalation (dust) and ingestion. Cumulative neurological, renal, and reproductive damage. Lead IDLH: 100 mg/m³ (NIOSH). Handle all batch powders containing lead, cobalt, or barium with gloves and N100 respirator. Weigh and mix in ventilated areas.
 - **Glass dust (silica)**: Cutting, grinding, and drilling glass produces fine silica dust. Inhalation causes silicosis (lung scarring, irreversible). OSHA PEL for respirable silica: 50 μg/m³. Wet-grind when possible. Wear P100 respirator for dry grinding operations.
 
-## 9. Quality Control
+## Quality Control
 
 **Borosilicate glass**:
 - Thermal expansion test: dilatometer measurement, 20-300°C range. Accept: 3.0-3.3 × 10⁻⁶/°C.
@@ -397,27 +397,27 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 - Wall thickness: micrometer at 3 points per cross-section. Accept: ±0.1 mm.
 - Straightness: roll on flat surface. Maximum bow: 2 mm per meter.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Glass Ceramics (Vycor-Type)
+## Glass Ceramics (Vycor-Type)
 
 Melt a borosilicate glass with specific composition (75% SiO₂, 20% B₂O₃, 5% Na₂O). Form into desired shape by conventional glass forming. Heat treat at 500-600°C to induce phase separation. Leach in hot acid (HCl or H₂SO₄) to dissolve the sodium-borate phase, leaving a porous silica skeleton (~70% of original volume, pore size 2-10 nm). Heat to 900-1000°C to consolidate. Result: 96% SiO₂ glass with CTE 0.75 × 10⁻⁶/°C. Can be formed at conventional glassworking temperatures (before leaching), unlike fused silica which requires 1800-2100°C.
 
 **When to use**: Complex shapes in high-silica glass without oxy-hydrogen torch capability.
 
-### Tempered Glass
+## Tempered Glass
 
 Heat soda-lime glass to 620-650°C, then quench both surfaces with compressed air jets. Surfaces cool and contract first; interior contracts later, pulling surfaces into compression (~100 MPa). Net tensile strength: 150-250 MPa (vs. 30-90 MPa annealed). Cannot be cut, drilled, or ground after tempering. Used for safety glass (shatters into small cubes rather than sharp shards).
 
 **When to use**: Safety glazing, tabletops, shower doors — any application requiring impact resistance and safe failure mode.
 
-### Chemical Strengthening
+## Chemical Strengthening
 
 Immerse thin glass (1-3 mm) in molten KNO₃ at 400-450°C for 4-16 hours. Large K⁺ ions (0.133 nm) replace smaller Na⁺ ions (0.095 nm) in the surface, creating compressive stress of 300-700 MPa. Surface layer depth: 20-50 μm. Unlike thermal tempering, the glass can be cut after treatment.
 
 **When to use**: Thin glass (1-3 mm) that cannot be thermally tempered — smartphone screens, aircraft windshields.
 
-## 11. References
+## References
 
 - [Basic Glass Production](basic.md) — soda-lime glass melting, the prerequisite for all advanced glass
 - [Glassblowing & Scientific Apparatus](glassblowing.md) — lampworking and furnace glassblowing techniques using borosilicate
@@ -427,6 +427,6 @@ Immerse thin glass (1-3 mm) in molten KNO₃ at 400-450°C for 4-16 hours. Large
 - [Electric Furnaces](../energy/electric-furnaces.md) — furnace requirements for fused silica and optical glass
 - [Electrolysis](../chemistry/electrolysis.md) — hydrogen production for oxy-hydrogen torch systems
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*
+
+[← Back to Glass](index.md)

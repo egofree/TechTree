@@ -8,7 +8,7 @@
 > **Outputs**: water_distribution, irrigation, pressurized_water
 > **Critical**: Yes — without distribution, water procurement and treatment serve only those at the source
 
-## 1. Overview
+## Overview
 
 Transporting water from source to point of use. Once a reliable water source exists (see [Water Procurement](procurement.md)), the next challenge is moving water to where people need it — for drinking, washing, irrigation, and industrial processes. Distribution systems range from simple gravity channels (achievable from Year 0) to pressurized pipe networks (requiring [metallurgy](../metals/index.md) and [pumps](../energy/steam-power.md)).
 
@@ -16,7 +16,7 @@ Every distribution system exploits three principles: gravity (water flows downhi
 
 A settlement of 1,000 people at 50 L/person/day requires 50 m³/day of distributed water. Agricultural irrigation adds 10-50× that volume. Industrial processes (brewing, tanning, metal cooling) add further demand. Distribution infrastructure scales from a single channel serving a hamlet to aqueduct networks serving cities of millions.
 
-## 2. Prerequisites
+## Prerequisites
 
 ## Materials
 - [Water source](procurement.md) with reliable yield
@@ -38,7 +38,7 @@ A settlement of 1,000 people at 50 L/person/day requires 50 m³/day of distribut
 - Labor force (10-100+ people depending on scale)
 - Access route along the distribution corridor
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity per 100 m of channel/pipe | Source | Alternatives |
 |----------|-----------------------------------|--------|-------------|
@@ -48,7 +48,7 @@ A settlement of 1,000 people at 50 L/person/day requires 50 m³/day of distribut
 | Cement mortar for joints | 0.2-0.5 m³ | [Chemistry: Cement](../chemistry/cement.md) | Clay seal, rubber gaskets |
 | Sand for pipe bedding | 1-3 m³ | River or quarry | No substitute — protects pipe from settling |
 
-## 4. Process Description
+## Process Description
 
 ## Gravity-Fed Open Channels
 
@@ -187,7 +187,7 @@ Storage buffers supply against variable demand and source fluctuations.
 - Requires periodic cleaning (sediment removal)
 - Elevated tanks are vulnerable to freezing in cold climates
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
 | Parameter | Open channel | Aqueduct | Clay pipe | Cast iron pipe | Concrete pipe |
 |-----------|-------------|---------|----------|---------------|--------------|
@@ -197,14 +197,14 @@ Storage buffers supply against variable demand and source fluctuations.
 | Service life | 20-100+ years | 100-2,000+ years | 50+ years | 100+ years | 75+ years |
 | Construction cost/m | $1-10 | $50-500 | $5-20 | $15-80 | $20-100 |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Hamlet** (50-200 people): Single gravity channel from spring or well. Earthen or stone-lined. No storage needed if source is reliable. Cost: minimal (labor only).
 - **Village** (200-2,000 people): Lined channel or clay pipe network. Small service reservoir (5-20 m³). Hand pumps for wells. Cost: $500-5,000.
 - **Town** (2,000-20,000 people): Cast iron or steel pipe network with service reservoirs. Fire hydrants. Requires [pumping stations](../energy/steam-power.md) for pressure. Cost: $50,000-500,000.
 - **City** (20,000+ people): Steel or concrete trunk mains, distribution grid, elevated storage tanks, pump stations. Requires [electric pumps](../energy/electricity.md) and organized water utility. Cost: millions.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -215,28 +215,28 @@ Storage buffers supply against variable demand and source fluctuations.
 | Air lock blocking flow | Air trapped at high point in pipeline, preventing water flow | Install air release valves (automatic float type or manual petcocks) at all local high points in the pipeline. |
 | Reservoir water quality degrading | Long storage time; sediment accumulation; algae growth in uncovered tank; no residual chlorine | Cover tank. Add chlorine residual (0.2-0.5 mg/L). Clean sediment annually. Ensure turnover time <3 days. |
 
-## 8. Safety
+## Safety
 
 - **Trench collapse**: The primary hazard during pipe installation. Trenches deeper than 1.5 m in unstable soil must be shored (timber or hydraulic shoring) before workers enter. Fatal trench collapses occur in sand, silt, and wet soil. Slope trench walls to 1:1 (45°) or shallower in unstable ground.
 - **Water pressure**: Cast iron and steel pipes at 5-20 bar contain significant stored energy. A failed fitting or joint can release high-velocity water capable of causing blunt trauma. Never pressurize a system without verifying all joints are properly sealed. Release pressure before disassembling any connection.
 - **Lead pipes**: Lead was historically used for water pipes (easy to work, corrosion-resistant). Lead dissolves into standing water at concentrations above 15 µg/L, causing cumulative lead poisoning (neurological damage, especially in children). Never use lead for potable water systems. If existing lead pipes are encountered, replace with iron, clay, or plastic.
 - **Drowning**: Open channels, reservoirs, and inspection chambers are drowning hazards. Cover reservoirs. Install guardrails on elevated aqueducts. Never enter a confined chamber without testing for toxic gases (use a candle test — if it extinguishes, do not enter).
 
-## 9. Quality Control
+## Quality Control
 
 - **Pressure testing**: After pipe installation, pressurize to 1.5× operating pressure. Hold for 2 hours. Acceptable pressure drop: <0.1 bar. Walk the line looking for visible leaks.
 - **Flow measurement**: Install a V-notch weir or flow tube at the delivery point. Measure actual flow against design flow. Significant deviation indicates blockage, leak, or undersized pipe.
 - **Leak detection**: For buried pipes, monitor flow at inlet and outlet. Difference indicates losses. Target: <5% loss in new installations. Monthly readings track degradation over time.
 - **Water quality testing**: Test distributed water monthly for turbidity (<5 NTU), chlorine residual (0.2-0.5 mg/L if chlorinated), and fecal coliforms (0 per 100 mL).
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 - **Qanats**: Persian underground tunnels delivering groundwater by gravity across kilometers. No pumping required. Some have operated for 2,000+ years. Construction is labor-intensive but service life is exceptional. See [Water Procurement](procurement.md).
 - **Pumped systems**: When gravity alone cannot deliver adequate pressure, mechanical pumping is required. Hand pumps for wells (lift 7 m by suction). Wind pumps: 5-20 m³/day. Steam pumps for city-scale supply. Centrifugal pumps after electric motors become available.
 - **Irrigation-specific distribution**: Flood irrigation (30-50% efficiency), furrow irrigation (50-70%), sprinkler systems (70-85%). Agricultural demand exceeds domestic by 10-50×.
 - **Simplified sewerage**: Small-diameter (100 mm) gravity sewer pipes using the same construction techniques. Dual-purpose infrastructure — water supply and sewage collection. See [Sewage Collection](sewage.md).
 
-## 11. References
+## References
 
 - [Water Procurement](procurement.md) — must have water before distributing it
 - [Chemistry: Cement & Concrete](../chemistry/cement.md) — for reservoir and aqueduct construction

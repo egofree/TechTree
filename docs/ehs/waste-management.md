@@ -22,7 +22,7 @@ Semiconductor manufacturing generates complex waste streams that differ fundamen
 | Solvents (IPA, acetone, NMP) | Distillation recovery | Activated carbon polishing for reuse | N/A (recovered) | Cross-contamination between solvent types |
 | TMAH | Biological degradation (SBR) or Fenton oxidation | Activated carbon | <10 mg/L | Highly toxic — LD₅₀ 25-32 mg/kg oral rat |
 
-### Implementation Steps
+## Implementation Steps
 
 1. **Segregate at source**: Install separate collection tanks for fluoride, acid (non-fluoride), heavy metal, solvent, and caustic waste streams. Color-code piping and labels. Never mix incompatible streams.
 2. **Install fluoride treatment**: Two-stage CaCl₂ precipitation system with automated pH control. Size for peak waste generation rate plus 50% safety margin.
@@ -31,7 +31,7 @@ Semiconductor manufacturing generates complex waste streams that differ fundamen
 5. **Install continuous effluent monitoring**: pH, fluoride, flow, and temperature at the discharge point. Daily composite samples for metals, COD, and TOC analysis by ICP-MS.
 6. **Establish waste minimization program**: Track waste generation per process. Set reduction targets. Implement closed-loop rinse water recycling (50-80% water reuse).
 
-### Waste Treatment Trade-offs
+## Waste Treatment Trade-offs
 
 | Treatment Method | Removal Efficiency | Operating Cost | Capital Cost | Waste Residual | Complexity |
 |-----------------|-------------------|---------------|-------------|---------------|------------|
@@ -43,7 +43,7 @@ Semiconductor manufacturing generates complex waste streams that differ fundamen
 
 ## Waste Stream Classification
 
-### Semiconductor Waste Categories
+## Semiconductor Waste Categories
 
 | Waste Category | Sources | Primary Constituents | Treatment Method |
 |---------------|---------|---------------------|-----------------|
@@ -60,7 +60,7 @@ Semiconductor manufacturing generates complex waste streams that differ fundamen
 
 ## Acid Waste Treatment
 
-### Fluoride Removal
+## Fluoride Removal
 
 Fluoride is the most challenging semiconductor waste constituent. Semiconductor HF waste contains 1,000-50,000 ppm fluoride (as F⁻). Discharge limits are typically 10-30 ppm fluoride. Treatment relies on calcium precipitation:
 
@@ -91,7 +91,7 @@ Stage 2 — Polishing (if needed to achieve <10 ppm fluoride):
 - Disposal: Stabilize with Portland cement or lime (solidification/stabilization) → hazardous waste landfill
 - Potential recovery: High-purity CaF₂ sludge can be sold to fluoride chemical manufacturers as a feedstock for HF production (circular economy)
 
-### General Acid Neutralization
+## General Acid Neutralization
 
 **Non-fluoride acid waste** is neutralized with caustic:
 
@@ -113,7 +113,7 @@ Stage 2 — Polishing (if needed to achieve <10 ppm fluoride):
 
 ## Heavy Metal Waste Treatment
 
-### Sources
+## Sources
 
 - **Copper**: Damascene electroplating, CMP slurry, copper etching waste. Typical concentration: 50-5,000 mg/L Cu.
 - **Aluminum**: Metallization etching, cleanroom construction waste. Typical: 10-500 mg/L Al.
@@ -122,7 +122,7 @@ Stage 2 — Polishing (if needed to achieve <10 ppm fluoride):
 - **Chromium**: Photomask fabrication, some etching processes. Typical: 1-50 mg/L Cr(VI).
 - **Tin/Lead**: Soldering, bump formation. Typical: 5-100 mg/L Sn, 1-50 mg/L Pb.
 
-### Treatment Methods
+## Treatment Methods
 
 **Hydroxide precipitation** (primary method):
 - Adjust pH to 8.5-10.0 with NaOH → metal hydroxide precipitates
@@ -187,14 +187,14 @@ Stage 2 — Polishing (if needed to achieve <10 ppm fluoride):
 
 ## Solvent Waste Management
 
-### Solvent Waste Categories
+## Solvent Waste Categories
 
 **Photoresist solvents**: PGMEA (propylene glycol monomethyl ether acetate), ethyl lactate — from photoresist formulation and application
 **Strippers**: NMP (N-methylpyrrolidone), DMSO (dimethyl sulfoxide), various amine-based formulations — for photoresist removal
 **Cleaning solvents**: Isopropanol (IPA), acetone — for surface cleaning
 **Miscellaneous**: Methanol, ethanol, toluene (rare in modern fabs), TCE (legacy — no longer used)
 
-### Treatment Options
+## Treatment Options
 
 **Distillation recovery**:
 - Batch distillation or fractional distillation recovers solvents for reuse
@@ -238,7 +238,7 @@ Stage 2 — Polishing (if needed to achieve <10 ppm fluoride):
 - Higher regulatory burden — hazardous waste incineration requires permits, continuous emission monitoring, and compliance reporting
 - Not cost-effective for high-volume recoverable solvents — waste of material value compared to distillation
 
-### TMAH (Tetramethylammonium Hydroxide) Waste
+## TMAH (Tetramethylammonium Hydroxide) Waste
 
 TMAH is used as a photoresist developer and silicon etchant. It is highly toxic (LD₅₀ oral rat = 25-32 mg/kg — more toxic than many heavy metals) and causes rapid systemic poisoning through skin absorption:
 
@@ -248,7 +248,7 @@ TMAH is used as a photoresist developer and silicon etchant. It is highly toxic 
 
 ## Effluent Monitoring
 
-### Continuous Monitoring Parameters
+## Continuous Monitoring Parameters
 
 Semiconductor fab wastewater discharge is monitored continuously at the outfall:
 
@@ -265,7 +265,7 @@ Semiconductor fab wastewater discharge is monitored continuously at the outfall:
 | Arsenic (As) | 0.05-0.1 mg/L | ICP-MS (daily composite) |
 | Total organic carbon (TOC) | 20-50 mg/L | TOC analyzer (continuous or daily) |
 
-### Sampling Protocol
+## Sampling Protocol
 
 - **Continuous monitoring**: pH, flow, temperature — in-line sensors with data logging (minimum 1 reading per 15 minutes)
 - **Daily composite**: 24-hour flow-proportioned composite sample collected by automatic sampler. Analyzed for metals, fluoride, TSS, COD, TOC.
@@ -274,7 +274,7 @@ Semiconductor fab wastewater discharge is monitored continuously at the outfall:
 
 ## Waste Minimization
 
-### Source Reduction Strategies
+## Source Reduction Strategies
 
 - **Chemical substitution**: Replace NMP with less toxic alternatives (dibasic ester, propylene carbonate) where process allows
 - **Process optimization**: Reduce chemical usage through improved process control — e.g., optimized rinse sequences reduce acid waste volume by 30-50%
@@ -282,7 +282,7 @@ Semiconductor fab wastewater discharge is monitored continuously at the outfall:
 - **Closed-loop recycling**: Reclaim and reuse rinse water (ion exchange + UV/oxidation treatment) — reduces freshwater consumption by 50-80% and wastewater volume proportionally
 - **Point-of-use treatment**: Treat waste at the process tool (small volume, high concentration) rather than at end-of-pipe (large volume, diluted) — more efficient chemical usage in treatment
 
-### Waste Segregation
+## Waste Segregation
 
 Proper segregation at the source is critical for effective treatment:
 
@@ -301,6 +301,6 @@ Proper segregation at the source is critical for effective treatment:
 - [Sanitation](../health/sanitation.md) — General wastewater treatment principles
 - [Semiconductor Chemicals](../chemistry/semiconductor-chemicals.md) — Chemical supply chain
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*
+
+[← Back to EHS](index.md)

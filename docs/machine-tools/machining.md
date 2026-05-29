@@ -8,7 +8,6 @@
 > **Enables**: [`energy.gravity.water-turbines`](../energy/water-turbines.md), [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md), [`knowledge.printing`](../knowledge/printing.md), [`machine-tools.edm-cnc`](edm-cnc.md), `machine-tools.joining.friction-stir`, [`mining.drilling`](../mining/drilling.md)
 > **Critical**: Yes — achieves the precise geometry, surface finish, and dimensional tolerance that make interchangeable parts possible
 
-## Overview
 
 Machining removes material from a workpiece to achieve precise geometry, surface finish, and dimensional tolerance. This document covers the cutting operations themselves — for machine construction, see [Iterative Bootstrap](./iterative-bootstrap.md); for cutting tool materials and abrasives, see [Bearings & Abrasives](./bearings-abrasives.md); for the formed stock that feeds machining, see [Forming](./forming.md).
 
@@ -16,7 +15,7 @@ Machining removes material from a workpiece to achieve precise geometry, surface
 
 The lathe rotates the workpiece against a stationary single-point cutting tool. All cylindrical parts (shafts, bushings, pulleys, threads) originate here.
 
-### Turning
+## Turning
 
 Reduces the outer diameter of a rotating workpiece. The workpiece is held in a chuck or between centers; the tool moves parallel to the spindle axis.
 
@@ -46,7 +45,7 @@ Reduces the outer diameter of a rotating workpiece. The workpiece is held in a c
 - Long, slender workpieces deflect under cutting force, producing taper (barrel-shaped or hourglass-shaped parts)
 - Chips are hot and sharp — requires flood coolant and chip management for safe operation
 
-### Facing
+## Facing
 
 Cuts across the end of the workpiece perpendicular to the spindle axis, producing a flat surface. Tool feeds from center outward (or periphery inward). Use slow feed near center where surface speed drops to zero. Achievable flatness: ~0.02 mm across a 50 mm face.
 
@@ -74,7 +73,7 @@ Cuts across the end of the workpiece perpendicular to the spindle axis, producin
 - Tool must be set precisely at center height — below center causes rubbing, above center causes chatter
 - Facing large diameters (>100 mm) requires slow RPM and long cutting time at the outer edge
 
-### Boring
+## Boring
 
 Enlarges or trues an existing hole using a boring bar held in the toolpost. The workpiece rotates; the bar is fed into the bore. Essential for bearing housings and cylinder bores.
 
@@ -103,7 +102,7 @@ Enlarges or trues an existing hole using a boring bar held in the toolpost. The 
 - Cannot bore blind holes deeper than the bar overhang limit (4× diameter)
 - Surface finish degrades as the boring bar wears — tool must be re-sharpened periodically
 
-### Threading
+## Threading
 
 Cuts helical grooves on the workpiece surface. See [Bearings & Abrasives](./bearings-abrasives.md) for thread standards and tap/die production.
 
@@ -133,7 +132,7 @@ Cuts helical grooves on the workpiece surface. See [Bearings & Abrasives](./bear
 - Requires correct change gear setup for each pitch — wrong gears produce wrong thread
 - Half-nut engagement must be at the correct thread dial position — mis-engagement ruins the thread
 
-### Parting (Cutting Off)
+## Parting (Cutting Off)
 
 Severs the finished part from the bar stock using a narrow parting tool (2-4 mm wide). Highest-risk lathe operation — tool is deeply embedded, prone to jamming and chatter.
 
@@ -165,7 +164,7 @@ Severs the finished part from the bar stock using a narrow parting tool (2-4 mm 
 
 The milling machine rotates a multi-tooth cutter while the workpiece moves on a programmable X-Y table. More versatile than the lathe for flat surfaces, slots, pockets, and complex profiles.
 
-### Peripheral (Slab) Milling
+## Peripheral (Slab) Milling
 
 Cutter axis is parallel to the machined surface. Teeth on the cutter periphery do the cutting. Used for squaring blocks and machining broad flats.
 
@@ -197,7 +196,7 @@ Cutter axis is parallel to the machined surface. Teeth on the cutter periphery d
 - Requires a rigid machine with minimal backlash — climb milling is impossible on worn machines
 - Setup time is significant (vise alignment, cutter selection, speed/feed calculation) compared to turning
 
-### Face Milling
+## Face Milling
 
 Cutter axis perpendicular to surface. Large-diameter face mill (50-100 mm) with inserted carbide or HSS tips machines broad flat surfaces efficiently. Preferred over slab milling for most flat work.
 
@@ -225,7 +224,7 @@ Cutter axis perpendicular to surface. Large-diameter face mill (50-100 mm) with 
 - Workpiece must be clamped directly to the table for maximum rigidity — vise clamping introduces deflection
 - Insert cost adds up — each insert has 2-4 edges and costs $5-20 per edge
 
-### End Milling
+## End Milling
 
 Small-diameter cutter (3-25 mm) for pockets, slots, profiles, and keyways. The workhorse of precision milling.
 
@@ -259,7 +258,7 @@ Small-diameter cutter (3-25 mm) for pockets, slots, profiles, and keyways. The w
 
 ## Drilling, Boring & Reaming
 
-### Drilling
+## Drilling
 
 Produces holes using a rotating twist drill. The drill press or lathe tailstock feeds the drill axially into the work.
 
@@ -290,7 +289,7 @@ Produces holes using a rotating twist drill. The drill press or lathe tailstock 
 - Drill tends to wander on curved or angled surfaces — pilot hole or spot drill required
 - Chips are difficult to evacuate in deep holes (>5× diameter) — peck drilling is slow
 
-### Boring (Milling Machine)
+## Boring (Milling Machine)
 
 Uses a single-point boring head in the milling machine spindle to enlarge and true a drilled hole. Adjustable boring head allows precise diameter control via micrometer adjustment (0.01 mm resolution).
 
@@ -317,7 +316,7 @@ Uses a single-point boring head in the milling machine spindle to enlarge and tr
 - Slower than reaming for large batches — each bore requires multiple passes
 - Requires a milling machine with a precision spindle (runout <0.01 mm)
 
-### Reaming
+## Reaming
 
 Finishing operation that enlarges a drilled hole to precise diameter and smooth finish using a multi-flute reamer.
 
@@ -348,7 +347,7 @@ Finishing operation that enlarges a drilled hole to precise diameter and smooth 
 
 Uses abrasive wheels for precision finishing. The final machining step before lapping. Achieves tolerances and finishes impossible with cutting tools.
 
-### Surface Grinding
+## Surface Grinding
 
 Flat workpiece on a magnetic chuck (or clamped). Horizontal-spindle grinding wheel reciprocates across the surface.
 
@@ -377,7 +376,7 @@ Flat workpiece on a magnetic chuck (or clamped). Horizontal-spindle grinding whe
 - Slow material removal compared to milling — grinding is a finishing operation, not a bulk removal process
 - Magnetic chuck only holds ferrous workpieces — non-ferrous materials require mechanical clamping
 
-### Cylindrical Grinding
+## Cylindrical Grinding
 
 Workpiece rotates between centers; grinding wheel contacts the OD. For precision shafts, bearing journals, and gauge surfaces.
 
@@ -479,7 +478,7 @@ Cutting fluids cool the tool and workpiece, lubricate the chip-tool interface, a
 - **Abrasive wheels**: Ring test before mounting (suspend wheel, tap with hardwood dowel — clear ring = sound, dull thud = cracked and must be discarded). Never exceed rated speed. Use wheel guards (steel, covering 180° of wheel periphery). Dress wheels regularly to maintain sharpness and concentricity.
 - **Grinding dust**: Use extraction or dust collection. Inhaling fine metal dust causes lung damage. Grinding cast iron and steel produces respirable particles (<10 μm) that penetrate deep into the lungs. Wet grinding is preferred — eliminates airborne dust.
 
-## References
+## See Also
 
 - Machine tool construction sequence: [Iterative Bootstrap](./iterative-bootstrap.md)
 - Cutting tool materials and abrasives: [Bearings & Abrasives](./bearings-abrasives.md)
@@ -488,7 +487,7 @@ Cutting fluids cool the tool and workpiece, lubricate the chip-tool interface, a
 - Precision achievement milestones: See [Iterative Bootstrap](./iterative-bootstrap.md) precision table
 - Iron and steel production: [Iron & Steel](../metals/iron-steel.md)
 
-### Limitations
+## Limitations
 
 - **Material removal waste**: Machining converts 20-80% of raw material into chips (swarf). For expensive materials (copper, titanium), this waste is a significant cost factor. Chip recycling is energy-intensive.
 - **Tool wear**: Cutting tools dull through abrasion, adhesion, diffusion, and fatigue. Tool life follows Taylor's equation: VTⁿ = C. Carbide tools last 15-60 minutes of cutting time depending on speed and material.
@@ -497,7 +496,7 @@ Cutting fluids cool the tool and workpiece, lubricate the chip-tool interface, a
 - **Surface integrity**: Machining creates a worked surface layer (residual stress, microstructural changes, micro-cracks) 10-200 μm deep. Fatigue-critical parts may require post-machining treatments (shot peening, stress relief annealing).
 - **Skill requirement**: Manual machining requires significant operator skill for setup, tool selection, and process control. CNC machining transfers this to programming but requires software expertise.
 
-### See Also
+## See Also
 
 - [Forming](forming.md) — Alternative shaping processes with less waste
 - [Bearings & Abrasives](bearings-abrasives.md) — Abrasive finishing and precision grinding
@@ -505,6 +504,6 @@ Cutting fluids cool the tool and workpiece, lubricate the chip-tool interface, a
 - [Iron & Steel](../metals/iron-steel.md) — Workpiece materials
 - [Machine Tools Overview](./index.md) — Complete machine tools reference
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*
+
+[← Back to Machine Tools](index.md)

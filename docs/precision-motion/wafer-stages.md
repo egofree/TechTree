@@ -32,7 +32,7 @@ The wafer stage provides six degrees of freedom (6-DOF): X, Y, Z linear translat
 | θy (roll) | ±0.5 mrad | ±20 nrad | 5 nrad | Voice coil pair |
 | θz (yaw) | ±0.5 mrad | ±20 nrad | 5 nrad | Voice coil pair |
 
-### Coarse-Fine Stage Hierarchy
+## Coarse-Fine Stage Hierarchy
 
 Modern wafer stages use a stacked coarse-fine architecture to achieve both long travel and nanometer accuracy:
 
@@ -53,7 +53,7 @@ Modern wafer stages use a stacked coarse-fine architecture to achieve both long 
 
 The coarse stage positions the wafer to within ~1 μm of the target. The fine stage then corrects the remaining error to ±5 nm. This separation allows the coarse stage to use high-force (but less precise) iron-core motors, while the fine stage uses smooth, fast voice coils for nanometer corrections.
 
-### Wafer Chuck
+## Wafer Chuck
 
 The wafer is held on a vacuum chuck (electrostatic chuck in advanced systems) that:
 
@@ -66,7 +66,7 @@ The wafer is held on a vacuum chuck (electrostatic chuck in advanced systems) th
 
 A wafer stepper exposes one die (or a small field) at a time, then steps to the next die position. The stage motion is a series of discrete step-and-settle moves.
 
-### Step-and-Settle Dynamics
+## Step-and-Settle Dynamics
 
 1. **Accelerate**: Coarse linear motor accelerates the stage at 20-30 m/s² toward the next die position.
 2. **Decelerate**: Motor decelerates and brings stage to rest near the target position.
@@ -85,7 +85,7 @@ A wafer stepper exposes one die (or a small field) at a time, then steps to the 
 | Total step cycle | 65-300 ms | Move + settle + expose + overhead |
 | Throughput impact | 50-100 wafers/hour | Stage overhead limits throughput |
 
-### Step Accuracy Requirements
+## Step Accuracy Requirements
 
 The positioning error at each die site directly translates to overlay error (misalignment between lithography layers):
 
@@ -97,7 +97,7 @@ The positioning error at each die site directly translates to overlay error (mis
 
 A scanner moves the wafer and reticle simultaneously in opposite directions during exposure, sweeping the projection slit across the die field. This is fundamentally different from a stepper — the stage is in continuous motion during exposure, requiring nanometer-accurate synchronization.
 
-### Dual-Stage Architecture
+## Dual-Stage Architecture
 
 Modern scanners use two independent wafer stages (stage A and stage B) operating in parallel:
 
@@ -105,7 +105,7 @@ Modern scanners use two independent wafer stages (stage A and stage B) operating
 2. When exposure of Stage A's field completes, the stages swap positions.
 3. This parallelism doubles throughput compared to single-stage operation.
 
-### Synchronization Requirements
+## Synchronization Requirements
 
 During scanning, the wafer stage and reticle stage must move in precise synchronization:
 
@@ -116,7 +116,7 @@ During scanning, the wafer stage and reticle stage must move in precise synchron
 - **Scan length**: 26 mm (typical slit length for 4× reduction, 104 mm reticle image).
 - **Scan settling**: The stages must reach synchronized speed within ±0.01% before exposure begins, requiring a short acceleration ramp (5-15 mm travel).
 
-### Scan Trajectory Profile
+## Scan Trajectory Profile
 
 ```
 Position
@@ -136,7 +136,7 @@ The critical phase is the constant-velocity scan. During this phase:
 - Any velocity error causes image blur (smearing) proportional to exposure time.
 - Acceleration during scan transitions must be controlled to prevent exciting stage resonances.
 
-### Moving Average (MA) and Moving Standard Deviation (MSD)
+## Moving Average (MA) and Moving Standard Deviation (MSD)
 
 Position error during scanning is characterized by two metrics:
 
@@ -158,7 +158,7 @@ The reticle (photomask) stage holds and positions the mask during exposure. It o
 - Reticle contamination in ultra-pure nitrogen environment requires ISO Class 1 particle control
 - Synchronization with wafer stage must be <1 nm — most demanding sync requirement in industrial machinery
 
-### Reticle Stage Design
+## Reticle Stage Design
 
 - **Travel range**: 200-300 mm (X), 200-300 mm (Y). Must accommodate full reticle size (152 mm × 152 mm for standard 6" reticle).
 - **Scan axis (X)**: Ironless linear motor, 1600-3200 mm/s scan speed, 30-80 m/s² acceleration.
@@ -167,7 +167,7 @@ The reticle (photomask) stage holds and positions the mask during exposure. It o
 - **Moving mass**: 15-30 kg (stage + reticle). Lighter than wafer stage because reticle is smaller.
 - **Environmental control**: Reticle stage operates in ultra-pure nitrogen or filtered air to prevent reticle contamination. Particle < 1 per cubic foot (ISO Class 1).
 
-### Reticle Stage Specifications
+## Reticle Stage Specifications
 
 | Parameter | Stepper Reticle Stage | Scanner Reticle Stage |
 |-----------|----------------------|----------------------|
@@ -180,7 +180,7 @@ The reticle (photomask) stage holds and positions the mask during exposure. It o
 
 ## Stage Metrology and Calibration
 
-### Laser Interferometer Position Measurement
+## Laser Interferometer Position Measurement
 
 Position measurement for the wafer and reticle stages is done by laser interferometry (see [Precision Encoders](./precision-encoders.md) for full details):
 
@@ -188,7 +188,7 @@ Position measurement for the wafer and reticle stages is done by laser interfero
 - **Mirror flatness**: The interferometer reflects off precision-ground mirrors mounted on the stage. Mirror flatness must be < 10 nm over the full travel to avoid introducing measurement errors.
 - **Abbe error compensation**: The interferometer beam and the point of interest (wafer surface) may be offset. Angular errors (pitch, yaw) cause Abbe errors proportional to this offset. Multi-beam interferometer configurations measure and correct for these errors in real-time.
 
-### Stage Calibration
+## Stage Calibration
 
 Regular calibration maintains positioning accuracy:
 
@@ -199,7 +199,7 @@ Regular calibration maintains positioning accuracy:
 
 ## Structural Dynamics and Resonance Management
 
-### Stage Resonance Frequencies
+## Stage Resonance Frequencies
 
 The mechanical structure of the stage assembly has natural resonances that limit servo bandwidth:
 
@@ -213,7 +213,7 @@ The mechanical structure of the stage assembly has natural resonances that limit
 
 Servo bandwidth must be at least 3-5× below the first structural resonance to maintain stability. If the first resonance is at 400 Hz, the maximum servo bandwidth is ~80-130 Hz — limiting disturbance rejection.
 
-### Strategies to Raise Resonance Frequencies
+## Strategies to Raise Resonance Frequencies
 
 1. **Increase stiffness**: Use SiC or Invar instead of aluminum for stage structures.
 2. **Reduce moving mass**: Minimize material in the fine stage using topology-optimized designs.
@@ -224,7 +224,7 @@ Servo bandwidth must be at least 3-5× below the first structural resonance to m
 
 Linear motors generate reaction forces: when the motor pushes the stage forward, an equal and opposite force pushes the machine base backward. At 10,000 N peak force, this reaction can excite vibrations in the machine structure.
 
-### Reaction Force Compensation
+## Reaction Force Compensation
 
 - **Balanced stage design**: Two identical stages moving in opposite directions (the dual-stage architecture naturally helps — while one accelerates left, the other decelerates right).
 - **Reaction mass**: A separate mass driven in the opposite direction of the stage, connected to the same machine base. Forces cancel at the base.
@@ -248,7 +248,7 @@ EUV lithography operates in high vacuum (~10⁻⁵ Pa) because EUV light is abso
 - **Laser safety**: Interferometer lasers (HeNe, 632.8 nm) are Class II — do not stare into the beam. Fiber-delivered systems reduce exposure risk.
 - **High voltage**: Electrostatic wafer chucks operate at 500-2000 V. Proper grounding and interlocks required.
 
-## References
+## See Also
 
 - Nanometer positioning actuators: [Nanometer Positioning](./nanometer-positioning.md)
 - Encoder and interferometer feedback: [Precision Encoders & Feedback](./precision-encoders.md)
@@ -258,13 +258,13 @@ EUV lithography operates in high vacuum (~10⁻⁵ Pa) because EUV light is abso
 - Cleanroom requirements: [Cleanrooms](../cleanrooms/index.md)
 - Vacuum systems for EUV: [Vacuum](../vacuum/index.md)
 
-### See Also
+## See Also
 
 - [Nanometer Positioning](nanometer-positioning.md) — Actuation technologies
 - [Precision Encoders](precision-encoders.md) — Measurement feedback
 - [Vibration Isolation](vibration-isolation.md) — Environmental control
 - [Precision Motion Control](./index.md) — Domain overview
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Precision Motion Control](./index.md) • [All Domains](../index.md)*
+
+[← Back to Precision Motion](index.md)

@@ -25,9 +25,9 @@ The boundary with waste management is clear: this document covers converting was
 - [Mining](../mining/index.md) — silica sand source (what recycling replaces)
 - [Energy](../energy/engine.md) — furnace fuel supply
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 
 | Material | Specification | Source |
 |----------|--------------|--------|
@@ -35,7 +35,7 @@ The boundary with waste management is clear: this document covers converting was
 | Water | 1–5 m³ per tonne of cullet (washing) | [Water Treatment](../chemistry/water-treatment.md) |
 | Fuel (natural gas or oil) | 0.5–1.5 GJ per tonne of cullet processed | [Energy](../energy/engine.md) |
 
-### Tools & Equipment
+## Tools & Equipment
 
 | Equipment | Purpose | Source |
 |-----------|---------|--------|
@@ -46,15 +46,15 @@ The boundary with waste management is clear: this document covers converting was
 | Optical sorter | Color separation (clear, green, amber) | [Measurement](../measurement/index.md) |
 | Glass furnace | Remelting cullet into new glass | [Basic Glass](basic.md) |
 
-### Knowledge
+## Knowledge
 
 - Visual identification of glass types: soda-lime (containers, windows), borosilicate (laboratory), lead glass (crystal, CRT)
 - Understanding of ceramic and stone contamination (ceramic fragments in cullet cause defects in new glass — stones and ceramics don't melt at glass furnace temperatures)
 - Furnace operation with variable cullet ratios
 
-## 3. Bill of Materials
+## Bill of Materials
 
-### BOM: Container Glass Cullet Processing (per tonne of input waste glass)
+## BOM: Container Glass Cullet Processing (per tonne of input waste glass)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -64,7 +64,7 @@ The boundary with waste management is clear: this document covers converting was
 | Electricity (crushing + sorting) | 15–40 kWh | [Energy](../energy/engine.md) | Diesel generator |
 | Natural gas (drying) | 0.1–0.3 GJ | [Energy](../energy/engine.md) | Waste heat from furnace exhaust |
 
-### BOM: Cullet-to-Glass Furnace Charge (per tonne of new glass)
+## BOM: Cullet-to-Glass Furnace Charge (per tonne of new glass)
 
 | Component | All-Primary | 50% Cullet | 90% Cullet | Notes |
 |-----------|------------|-----------|-----------|-------|
@@ -74,9 +74,9 @@ The boundary with waste management is clear: this document covers converting was
 | Cullet | 0 kg | 500 kg | 900 kg | Replaces raw materials 1:1 by weight |
 | Energy (melting) | 4.0–5.5 GJ | 3.2–4.5 GJ | 2.0–3.0 GJ | 2–3% reduction per 10% cullet |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Container Glass Cullet Processing
+## 4.1 Container Glass Cullet Processing
 
 1. **Collect and transport.** Gather waste glass from curbside collection, drop-off centers, or manufacturing scrap. Transport to processing facility. Glass is heavy and abrasive — use steel-bodied trucks and skip-cars.
 
@@ -94,7 +94,7 @@ The boundary with waste management is clear: this document covers converting was
 
 8. **Size classify.** Screen cullet into size fractions: coarse (25–50 mm), medium (10–25 mm), and fines (<10 mm). Furnaces prefer uniform size for consistent melting. Fines may be used in fiberglass or construction applications.
 
-### 4.2 Flat Glass (Window) Recycling
+## 4.2 Flat Glass (Window) Recycling
 
 1. **Remove frames and hardware.** Dismantle windows: separate aluminum or wood frames, rubber gaskets, and sealant from the glass pane. Wire brush to remove residual adhesive.
 
@@ -102,7 +102,7 @@ The boundary with waste management is clear: this document covers converting was
 
 3. **Crush and process as cullet.** Follow steps 3–8 of container glass processing. Flat glass produces cleaner cullet than container glass (no food residue, fewer contaminants).
 
-### 4.3 Fiberglass and Specialty Glass Recovery
+## 4.3 Fiberglass and Specialty Glass Recovery
 
 1. **Collect fiberglass waste.** Manufacturing offcuts, end-of-life fiberglass insulation, and fiberglass-reinforced plastic (FRP) scrap.
 
@@ -110,9 +110,9 @@ The boundary with waste management is clear: this document covers converting was
 
 3. **Reprocess.** Clean glass fibers can be remelted with virgin batch material. Fiber-to-fiber recycling is difficult — most fiberglass waste is downcycled into construction products (cement additive, road base).
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Cullet Quality Specifications
+## Cullet Quality Specifications
 
 | Grade | Color Purity | Ceramic/Stone | Ferrous Metal | Organic | Application |
 |-------|-------------|---------------|---------------|---------|-------------|
@@ -122,7 +122,7 @@ The boundary with waste management is clear: this document covers converting was
 | Mixed color | Any mix | <100 g/t | <10 g/t | <1000 g/t | Fiberglass, colored glass |
 | Construction grade | Any | <500 g/t | <50 g/t | <5000 g/t | Road base, aggregate, sand substitute |
 
-### Energy and Raw Material Savings
+## Energy and Raw Material Savings
 
 | Cullet % in Furnace Charge | Energy Savings | Raw Material Savings | CO₂ Reduction | Furnace Temperature Effect |
 |---------------------------|----------------|---------------------|---------------|---------------------------|
@@ -134,7 +134,7 @@ The boundary with waste management is clear: this document covers converting was
 
 Cullet reduces energy because it is already partially reacted — the silicate network formed during the original melting does not need to be re-formed from raw materials. Each 10% cullet reduces batch melting energy by approximately 2.5–3.0%.
 
-### Processing Parameters
+## Processing Parameters
 
 | Operation | Throughput | Energy | Key Control |
 |-----------|-----------|--------|-------------|
@@ -145,7 +145,7 @@ Cullet reduces energy because it is already partially reacted — the silicate n
 | Washing | 5–20 t/hour | 0.5–1.5 kWh/tonne | Water temperature, detergent dose |
 | Screening | 10–100 t/hour | 0.3–1.0 kWh/tonne | Screen aperture sizes |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 **Minimum viable scale**: A settlement with a glass furnace can add 10–30% cullet to the batch with minimal processing — crush clean glass scrap by hand or with a simple crusher, pick out obvious contaminants, and add to the furnace charge. No color sorting needed if mixed-color cullet is acceptable (produces green-tinted glass).
 
@@ -155,7 +155,7 @@ Cullet reduces energy because it is already partially reacted — the silicate n
 
 **Scale breakpoint**: Optical color sorting becomes economical above 20–30 tonnes/day throughput. Below this, manual sorting is cheaper. Above 100 tonnes/day, multi-spectral sorters (detecting ceramic and stone by NIR absorption) justify their $300K–$800K cost.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -166,7 +166,7 @@ Cullet reduces energy because it is already partially reacted — the silicate n
 | Low cullet recovery rate | Excessive breakage during collection/transport generates fines lost to dust | Use padded collection containers; minimize handling steps |
 | Aluminum contamination causes seeds (bubbles) in glass | Aluminum metal reacts with silica at melt temperature, releasing gas | Improve eddy-current separation; test cullet for Al with spark test |
 
-## 8. Safety
+## Safety
 
 **Laceration hazard**: Broken glass edges are the primary injury risk in cullet processing. Cut-resistant gloves (Level A4 minimum) mandatory for all manual sorting and handling. Safety glasses with side shields. Steel-toe boots. Long sleeves. Handling full glass containers before crushing is more hazardous than handling cullet.
 
@@ -176,9 +176,9 @@ Cullet reduces energy because it is already partially reacted — the silicate n
 
 **Heavy metal contamination**: Lead glass (crystal, CRT glass) contains 20–30% PbO. Lead oxide fume at furnace temperatures is toxic. Never mix lead glass with soda-lime cullet — it contaminates the entire batch and creates a lead exposure hazard. Separate and label all lead glass. PPE: respiratory protection if lead glass is processed.
 
-## 9. Quality Control
+## Quality Control
 
-### Cullet Quality Tests
+## Cullet Quality Tests
 
 | Test | Method | Frequency | Specification |
 |------|--------|-----------|---------------|
@@ -189,7 +189,7 @@ Cullet reduces energy because it is already partially reacted — the silicate n
 | Particle size distribution | Sieve analysis (25 mm, 10 mm, 5 mm screens) | Daily | 90% passing 25 mm, <10% passing 5 mm |
 | Moisture content | Oven dry at 105°C | Daily | <5% |
 
-### Glass Product Quality from Recycled Cullet
+## Glass Product Quality from Recycled Cullet
 
 | Parameter | Test Method | Acceptance |
 |-----------|------------|------------|
@@ -198,14 +198,14 @@ Cullet reduces energy because it is already partially reacted — the silicate n
 | Color (L*a*b*) | Spectrophotometer | Within ±2 ΔE of standard |
 | Striae (cord) | Polarized light | Not visible at 1× magnification |
 
-### Field Test (No Lab Required)
+## Field Test (No Lab Required)
 
 - **Ceramic vs. glass test**: Tap the piece with a metal object. Glass rings (high-pitched, sustained); ceramic thuds (dull, short). Alternatively, try to scratch with a steel nail — glass is harder than steel, ceramic may be scratched.
 - **Lead glass test**: Lead glass is noticeably heavier than soda-lime glass (density 3.1 vs 2.5 g/cm³). A lead crystal wine glass weighs ~30% more than a soda-lime equivalent.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Recycling Route Comparison
+## Recycling Route Comparison
 
 | Route | Input | Output | Yield | Energy Savings | Notes |
 |-------|-------|--------|-------|----------------|-------|
@@ -215,7 +215,7 @@ Cullet reduces energy because it is already partially reacted — the silicate n
 | Fiberglass downcycling | Fiberglass waste | Construction aggregate | 70–85% | 5–10% | Lowest value; avoids landfill |
 | Glass sand | Any glass | Construction sand substitute | 90–95% | N/A (not remelted) | No furnace needed; crushed to sand size |
 
-### When Cullet Recycling Is Not Feasible
+## When Cullet Recycling Is Not Feasible
 
 - **Mixed glass types** (soda-lime + borosilicate + lead): Different melting points and chemistry prevent co-melting. Separate or downcycle to construction aggregate.
 - **Highly contaminated glass** (embedded in composite materials, painted, laminated): Cost of cleaning exceeds value of recovered glass.

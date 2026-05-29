@@ -8,7 +8,7 @@
 > **Outputs**: black_powder, safety_fuse, blasted_rock
 > **Critical**: No
 
-### Composition
+## Composition
 
 Black powder (gunpowder) is the earliest known chemical explosive, and the first explosive available for mining. It is a mechanical mixture (not a chemical compound) of three ingredients:
 
@@ -18,7 +18,7 @@ Black powder (gunpowder) is the earliest known chemical explosive, and the first
 
 This 75:15:10 ratio is standard for blasting powder. Sporting and military powders use slightly different ratios (e.g., 74:15:11 or 70:15:15 with more sulfur for faster ignition).
 
-### Potassium Nitrate Sources
+## Potassium Nitrate Sources
 
 KNO₃ is the bottleneck ingredient — it does not occur in large natural deposits in most regions.
 
@@ -26,7 +26,7 @@ KNO₃ is the bottleneck ingredient — it does not occur in large natural depos
 - **Nitre beds (artificial)**: Layer organic matter (manure, vegetable waste, urine) with limestone rubble and ashes in a heap. Keep moist but not waterlogged. Nitrifying bacteria convert nitrogen compounds to nitrate over 12-24 months. Leach the heap with water, evaporate the leachate to crystallize KNO₃. Add wood ash (potash, K₂CO₃) to convert calcium nitrate to potassium nitrate (Ca(NO₃)₂ + K₂CO₃ → CaCO₃↓ + 2KNO₃). Filter, evaporate, recrystallize to purity.
 - **Import**: Historically, India was the primary source of niter for European powder mills until Chilean nitrate (NaNO₃, caliche) became available in the 1800s. NaNO₃ can substitute for KNO₃ but is more hygroscopic.
 
-### Manufacturing Process
+## Manufacturing Process
 
 **Step 1 — Ingredient preparation**:
 - Pulverize each ingredient separately to fine powder (~100 mesh, 150 μm). This is critical — coarse particles burn unevenly, producing weak and unreliable powder.
@@ -61,7 +61,7 @@ KNO₃ is the bottleneck ingredient — it does not occur in large natural depos
 - Friction and impact sensitivity demands non-sparking (copper, brass, wood) tools throughout
 - Wet mixing, pressing, drying, and sieving require 24-48 hours per batch
 
-### Safety Fuse
+## Safety Fuse
 
 Essential for timing blasts — allows the blaster to retreat before detonation.
 
@@ -69,7 +69,7 @@ Essential for timing blasts — allows the blaster to retreat before detonation.
 - **Manufacture**: Dust black powder core onto a continuous textile carrier, wrap with yarn on a fuse machine (capstan or rope walk), coat with waterproofing. Cut to length for the desired delay. Test burn rate before use — humidity and manufacturing variation cause significant rate differences.
 - **Use**: Cut safety fuse to calculated length for desired delay. Insert into powder charge. Light the exposed end with a slow match (smoldering rope) or punk (glowing stick). Never use a regular match — it burns too fast and does not allow retreat time.
 
-### Blasting Procedure
+## Blasting Procedure
 
 1. **Drill the blast hole**: 2.5-4 cm diameter, 0.5-2 m deep, using a jumper drill (steel bar, 1-3 m long, struck with 4-8 kg sledge hammer). Rotate bar 1/4 turn between blows to keep hole round. Angle holes away from free face for best fragmentation.
 2. **Clean the hole**: Remove rock dust and cuttings with a scraper (thin metal blade on a stick). Loose material in the hole reduces blast effectiveness by cushioning the powder charge.
@@ -91,7 +91,7 @@ Essential for timing blasts — allows the blaster to retreat before detonation.
 - Water in blast holes degrades powder charge unless wrapped in waterproofed canvas or copper tubes
 - Misfires require 30+ minute wait followed by careful stemming removal — downtime risk
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Explosion and fire**: Black powder is a low explosive (deflagrates rather than detonates), but it is extremely flammable and can transition to detonation under confinement. Friction, impact, spark, static electricity, and heat can all cause ignition. Ground all equipment. Use non-sparking (copper, brass, wood) tools exclusively when handling powder. NEVER grind mixed powder. Keep powder storage separate from manufacturing area — earth embankments between buildings.
 - **NO open flames or smoking**: Anywhere near powder handling, mixing, storage, or loading areas. Eliminate all ignition sources. This is the single most important safety rule.
@@ -100,9 +100,8 @@ Essential for timing blasts — allows the blaster to retreat before detonation.
 - **Misfire handling**: If a charge fails to fire, DO NOT approach immediately. Wait at least 30 minutes. Then carefully remove stemming by hand from the side (never stand directly over the hole). If the fuse is intact but failed to ignite, re-light it with a slow match from a safe position. If the powder charge is found to be wet or damaged, carefully remove it and dispose of by burning in a safe, open area.
 - **Storage**: Store in a dry, cool, well-ventilated magazine. Keep away from habitation. Quantity limits per magazine depend on distance to occupied buildings (regulations vary, but principle: larger separation for larger quantities). Separate KNO₃, charcoal, and sulfur stores are safer than storing finished powder.
 
----
 
-### Ingredient Purification
+## Ingredient Purification
 
 **Saltpeter (KNO₃) purification**: Raw saltpeter from nitre beds or cave deposits contains impurities (NaCl, CaCO₃, K₂CO₃) that make the powder hygroscopic and unreliable. Purify by dissolving in hot water (KNO₃ solubility: 38 g/100 mL at 100°C, 13 g/100 mL at 20°C). Filter the hot solution through cloth to remove insoluble debris. Cool slowly — KNO₃ crystallizes as the temperature drops. Decant the mother liquor (which contains the more soluble impurities) and dry the crystals. Repeat dissolution and recrystallization once more for high-purity saltpeter. Test purity by burning a small sample: pure KNO₃ leaves no residue; impure samples leave a white ash (CaCO₃) or hygroscopic scum (NaCl).
 
@@ -120,7 +119,7 @@ Essential for timing blasts — allows the blaster to retreat before detonation.
 - Multiple recrystallization cycles needed for >95% KNO₃ purity, each consuming fuel and water
 - Sulfur sublimation requires a sealed retort rated for 445°C — glass or ceramic, not simple metal
 
-### Standard Composition and Performance
+## Standard Composition and Performance
 
 **[75:15:10 (KNO₃:charcoal:sulfur)](../glossary/751510-knocharcoalsulfur.md)** is the standard blasting powder composition by weight. This ratio provides complete combustion with minimal residual ash:
 
@@ -141,7 +140,7 @@ Essential for timing blasts — allows the blaster to retreat before detonation.
 
 **Performance characteristics**: Black powder deflagrates (burns rapidly) at 400-800 m/s, NOT detonates (which would require >1500 m/s). This distinction matters for blasting: deflagration produces a heaving force that breaks rock along natural fracture planes, while detonation (dynamite) produces a shattering force that pulverizes rock. Gas volume produced: ~280 liters/kg (measured at STP). Peak pressure in a confined space: 50-200 MPa depending on charge density and confinement.
 
-### Blasting Technique Detail
+## Blasting Technique Detail
 
 **Charge calculation**: The powder charge depends on rock type, hole geometry, and desired fragmentation. A starting point: 0.5-2 kg of black powder per cubic meter of rock to be broken. Soft sedimentary rock (limestone, sandstone) requires 0.5-1 kg/m³. Hard igneous rock (granite, basalt) requires 1-2 kg/m³. The burden (distance from the charge to the nearest free face) should be 20-30× the hole diameter. A 30 mm hole has an optimal burden of 0.6-0.9 m.
 
@@ -149,23 +148,22 @@ Essential for timing blasts — allows the blaster to retreat before detonation.
 
 **Multiple-hole blasting**: For larger excavations, drill multiple holes in a pattern (grid or line). Space holes at 1-1.5× the burden distance. Connect all fuses to a single slow match for simultaneous initiation. Simultaneous blasts are more effective than sequential shots because the rock is already fractured by neighboring charges, creating additional free faces for each charge to work against.
 
-### Storage and Handling
+## Storage and Handling
 
 - **Dry storage**: Keep powder below 30°C, relative humidity below 65%. Moisture absorption causes KNO₃ to recrystallize and separate from the fuel, degrading performance. Store in airtight containers (wooden kegs with wax-sealed joints, or earthenware jars with tight lids).
 - **Separation**: Store KNO₃, charcoal, and sulfur separately from finished powder and from each other. Only mix at the manufacturing site. The ingredients are individually much less hazardous than the finished product.
 - **Non-sparking tools**: Use only wooden, copper, or brass tools for handling powder. Iron and steel tools can produce sparks when struck against rock or each other. Wooden shovels and scoops for loading charges. Copper or brass tamping rods.
 - **Magazine construction**: Build powder magazines into earth embankments or underground. Walls: stone or brick. Roof: lightweight, designed to blow off in an explosion rather than contain the blast (venting reduces damage to surrounding structures). Lightning protection: iron rod grounded to a buried copper plate. No electrical wiring inside the magazine. Distance from occupied buildings: minimum 50 m for small quantities (<100 kg), increasing with quantity.
 
-### Historical Development
+## Historical Development
 
 - **China, 9th century**: First documented use of gunpowder as an incendiary and explosive. Early compositions were less standardized and weaker than later European formulations. Used primarily for military purposes (fire arrows, early cannons, explosive bombs).
 - **Roger Bacon, 1267**: First European written record of a gunpowder formula (encrypted in his *Opus Majus*). His composition: 41% KNO₃, 29% charcoal, 30% sulfur — far from the optimal ratio but functional.
 - **Berthold Schwartz, ~1380**: A German monk traditionally credited with discovering the propulsive power of gunpowder in Western Europe and developing early firearms. Historical accuracy is debated, but by the late 14th century, gunpowder weapons were in widespread military use across Europe.
 - **15th-16th centuries**: Powder mills established across Europe. Wheel mills replace hand mixing. Corning process developed (pressing and granulating for consistent burn rate). Mining use expands rapidly, transforming ore extraction from slow manual labor to mechanized blasting operations.
 
----
 
-### Safety Fuse Construction Detail
+## Safety Fuse Construction Detail
 
 The safety fuse is the critical link between the blaster and the charge. A well-made fuse provides a predictable, reliable delay:
 
@@ -191,7 +189,7 @@ The safety fuse is the critical link between the blaster and the charge. A well-
 - Core gaps or thin spots from manufacturing defects cause misfires
 - Not suitable for very short delays — minimum practical fuse length is ~30 cm (3-6 seconds)
 
-### Alternative Black Powder Applications
+## Alternative Black Powder Applications
 
 Beyond mining, black powder enabled several technologies in the bootstrap sequence:
 
@@ -200,7 +198,7 @@ Beyond mining, black powder enabled several technologies in the bootstrap sequen
 - **Canal and road construction**: Break rock cuts for transportation infrastructure. Drill pattern holes along the cut line, fire simultaneously to create a clean face.
 - **Pyrotechnics**: Signal flares and rockets (fire arrows, simple signal rockets). Powder pressed into a paper tube with a nozzle produces thrust. The same chemistry that breaks rock also launches projectiles, enabling military and signaling applications.
 
-### Corning and Pressing Detail
+## Corning and Pressing Detail
 
 The corning process is what transforms loose meal powder into reliable blasting powder:
 
@@ -220,7 +218,7 @@ The corning process is what transforms loose meal powder into reliable blasting 
 - Cracking and sieving generate fine, airborne powder dust — hazardous during processing
 - Multiple passes (crack oversize, re-press undersize) add labor and handling risk
 
-### Black Powder Performance in Different Rock Types
+## Black Powder Performance in Different Rock Types
 
 The effectiveness of black powder blasting varies dramatically with rock type:
 
@@ -229,7 +227,7 @@ The effectiveness of black powder blasting varies dramatically with rock type:
 - **Hard igneous (granite, basalt, quartzite)**: Powder factor 1.0-2.0 kg/m³. Requires closely spaced, deep holes. Black powder is less effective than dynamite in hard rock because it lacks the shattering (detonation) force needed to break tough, crystalline rock. Expect 1-3 m³ per kg. Consider fire-setting to pre-weaken the rock before blasting.
 - **Jointed and fractured rock**: All rock types break more easily when existing fractures and joints are used to advantage. Orient blast holes so the burden face aligns with natural joint sets. The powder "heaves" the rock apart along pre-existing weaknesses rather than having to break new surfaces.
 
-### Transition from Black Powder to Dynamite
+## Transition from Black Powder to Dynamite
 
 Black powder remained the primary mining explosive for 500+ years, but its limitations eventually drove the development of stronger explosives:
 
@@ -238,7 +236,7 @@ Black powder remained the primary mining explosive for 500+ years, but its limit
 - **Nitroglycerin (Sobrero, 1847)**: A liquid high explosive, extremely sensitive to shock and friction. Too dangerous for practical use until Alfred Nobel absorbed it in diatomaceous earth to create dynamite (1867). Dynamite detonates at 6,000-7,000 m/s (vs. 400-800 m/s for black powder), producing a shattering force 5-10× greater.
 - **Black powder advantage**: Simplicity of manufacture. Black powder can be produced from three ingredients (saltpeter, charcoal, sulfur) with basic equipment. Dynamite requires nitroglycerin production (glycerin + nitric acid + sulfuric acid at carefully controlled temperatures), a much more complex and dangerous industrial process. For bootstrap civilizations, black powder is the first and only explosive available for a considerable period.
 
-### Powder Magazine Construction
+## Powder Magazine Construction
 
 Proper storage facilities prevent accidental explosions and protect the powder supply from moisture:
 
@@ -257,6 +255,6 @@ Proper storage facilities prevent accidental explosions and protect the powder s
 - Interior temperature must stay below 30°C — requires louvered ventilation or insulation in hot climates
 - Lightning protection (grounded iron rod to buried copper plate) adds construction complexity
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Mining](./index.md) • [All Domains](../index.md)*
+
+[← Back to Mining](index.md)

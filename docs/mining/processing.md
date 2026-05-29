@@ -8,7 +8,7 @@
 > **Outputs**: concentrated_ore
 > **Critical**: No
 
-### Ore Dressing (processing raw rock to concentrated ore)
+## Ore Dressing (processing raw rock to concentrated ore)
 
 **Crushing**:
 - **Hand crushing**: Strike ore with hammer on stone anvil. Slow but effective for small quantities.
@@ -50,30 +50,30 @@
 - Flotation requires ongoing reagent supply (xanthates, frothers, lime) that must be manufactured
 - Cyanide leaching demands pH >10 at all times — acidic conditions release lethal HCN gas
 
-### Common Ore Flowsheets
+## Common Ore Flowsheets
 
 - **Copper sulfide**: Crush → grind → flotation (rougher + cleaner stages) → copper concentrate (20-30% Cu) → smelt → blister copper. By-product: molybdenum from Cu-Mo porphyry ores.
 - **Iron ore**: Crush → magnetic separation (for magnetite) or gravity concentration (for hematite) → pelletize (roll fines into 10-15 mm balls with bentonite binder, fire at 1250°C) → feed blast furnace.
 - **Gold**: Crush → grind → cyanide leach (tank or heap) → carbon adsorption → desorption with hot caustic solution → electrowinning (plate gold onto steel wool cathodes) → smelt to doré bullion.
 - **Tin (cassiterite)**: Crush → gravity separation (jigs, sluices) → concentrate (60-70% Sn) → smelt with charcoal at 1200-1300°C.
 
-### Grinding Circuits
+## Grinding Circuits
 
 **Ball mill**: Rotating cylinder (1-3 m diameter, 2-5 m length) loaded with steel or cast iron balls (25-100 mm diameter). Ore fed at one end, discharged at the other. Rotation speed: 60-80% of critical speed (speed at which centrifugal force holds balls against shell — calculated as 42.3/√D RPM where D = diameter in meters). Impact and attrition grind ore to 50-200 μm. Power consumption: 10-30 kWh per tonne. Operate in closed circuit with classifier — oversize returns to mill, undersize proceeds to concentration.
 
 **Rod mill**: Similar to ball mill but uses long steel rods instead of balls. Produces less slime (over-ground fines) than ball mills. Preferred for coarse grinding (feed 5-20 mm, product 0.5-5 mm). Rods cascade rather than cataract, giving more uniform grinding with less over-grinding of already-fine particles.
 
-### Electrostatic Separation
+## Electrostatic Separation
 
 - Used for separating minerals with different electrical conductivity or surface charge behavior. Feed dry, sized ore (75-500 μm) onto rotating drum charged to 20-40 kV. Conductive minerals (ilmenite, rutile, magnetite) acquire charge, repelled from drum surface and follow a different trajectory than non-conductive minerals (quartz, feldspar, zircon). Splitter plate divides the two streams. Effective for heavy mineral sand deposits (ilmenite, rutile, zircon, monazite). Multiple passes required for clean separation. Requires dry feed — moisture interferes with charging.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Cyanide (NaCN/KCN)**: Lethal dose ~200-300 mg oral. Blocks cellular respiration. Symptoms: headache, dizziness, seizures, cardiac arrest in 15-30 min. ANTIDOTE: Hydroxocobalamin or sodium thiosulfate + sodium nitrite. MUST have antidote available before handling. NEVER allow acid contact with cyanide (generates lethal HCN gas at 100 ppm). Keep process pH above 10.
 - **Mercury (Hg)**: Cumulative neurotoxin from amalgamation. Vaporizes at room temperature. Use in sealed retort. Never heat in open air.
 - **Silica dust**: Crushing/grinding ore generates crystalline silica dust causing silicosis. Respirators required. Wet methods preferred.
 
-### Comminution (Crushing and Grinding) Detail
+## Comminution (Crushing and Grinding) Detail
 
 **Jaw crusher**: The primary crushing stage reduces run-of-mine ore (up to 300 mm) to a manageable size. Two jaw plates — one fixed, one oscillating — crush ore between them. The gap setting is adjustable from 20-100 mm, controlling the maximum output particle size. A tighter gap produces finer output but reduces throughput. Capacity: 1-50 tonnes/hour depending on crusher size and ore hardness. Jaw crusher frame is cast iron or fabricated steel plate. Jaw plates are manganese steel (Mn12-14%), which work-hardens under impact to resist abrasion. Replace jaw plates when worn to 50% of original thickness.
 
@@ -81,7 +81,7 @@
 
 **[Stamp mill](../glossary/stamp-mill.md)** (bootstrap-appropriate): Vertical stamps (50-500 kg each) lifted by cams on a rotating horizontal shaft, dropped by gravity onto a die plate. 5-10 stamps in a battery. Ore fed onto the die, water carries crushed fines away through a screen. Capacity: 5-10 tonnes/day for a 5-stamp battery with 100 kg stamps. Powered by water wheel. Each stamp lifts 15-25 cm and drops at 30-90 blows per minute. The stamp mill was the standard ore crushing technology from the 16th century through the early 20th century. No precision manufacturing required — the cams and tappets can be made from hardwood shod with iron. The main limitation is throughput: a 10-stamp mill processes roughly 15-20 tonnes/day, versus 50+ tonnes/hour for a jaw crusher.
 
-### Gravity Concentration
+## Gravity Concentration
 
 **Sluice box**: An inclined wooden or metal trough (2-5 m long, 30-50 cm wide) with riffles (cross-bars) on the bottom. Riffle spacing: 5-10 cm. Water flow: 50-100 liters/minute. Sluice angle: 1-3° from horizontal. Crushed ore is shoveled into the head of the sluice. Water carries material downstream. Heavy minerals (gold at SG 19.3, cassiterite at SG 7.0) settle behind the riffles where turbulence creates eddies. Light gangue minerals (quartz SG 2.65, feldspar SG 2.6) wash over the riffles and out the tail. Clean riffles every 4-8 hours by stopping water flow and scooping out the concentrate. Recovery: 70-90% for gold in the 0.1-5 mm size range. Very poor recovery for fine gold (<0.1 mm) — use a mercury amalgamation plate or cyanide leach for fines.
 
@@ -99,13 +99,13 @@
 - Fine gold (<0.1 mm) passes through sluice riffles — needs amalgamation or cyanide for recovery
 - Shaking tables process only 0.5-2 tonnes/hour each — many tables needed for high throughput
 
-### Magnetic Separation
+## Magnetic Separation
 
 **[Low-intensity magnetic separators](../glossary/low-intensity-magnetic-separators.md)** (0.1-0.3 Tesla): Capture strongly magnetic minerals — primarily magnetite (Fe₃O₄). A rotating drum with internal permanent magnets or electromagnets attracts magnetic particles, which cling to the drum surface and are carried to a separate discharge point. Non-magnetic gangue falls straight through. Used for iron ore beneficiation (magnetite ores) and for removing tramp iron from process streams. Throughput: 10-100 tonnes/hour.
 
 **[High-intensity magnetic separators](../glossary/high-intensity-magnetic-separators.md)** (1-2 Tesla): Capture weakly magnetic minerals — hematite (Fe₂O₃), ilmenite (FeTiO₃), garnet, monazite. These minerals have much lower magnetic susceptibility than magnetite and require strong fields to deflect them. Electromagnetic coils (copper windings on iron cores) generate the field. Used for cleaning industrial minerals (removing iron-bearing impurities from kaolin, silica sand, feldspar) and for concentrating weakly magnetic ores. Throughput: 5-50 tonnes/hour.
 
-### Leaching Detail
+## Leaching Detail
 
 **Cyanide leaching for gold**: The dominant gold extraction method worldwide. Dissolve gold in a dilute sodium cyanide solution in the presence of oxygen: 4Au + 8NaCN + O₂ + 2H₂O → 4Na[Au(CN)₂] + 4NaOH.
 - Cyanide concentration: 0.01-0.05% NaCN (100-500 ppm). Higher concentrations dissolve gold faster but increase cost and environmental risk.
@@ -123,15 +123,14 @@
 - Heap leach cycles run 30-180 days — slow cash flow return on leach pad investment
 - Dissolved oxygen must be maintained at 5-8 ppm — aeration adds energy cost to tank leaching
 
-### Smelting Preparation
+## Smelting Preparation
 
 **Roasting**: Sulfide ores must be roasted before smelting to remove sulfur and convert metal sulfides to oxides. Heat crushed ore to 500-700°C in air. Sulfur burns off as SO₂ gas (capture for sulfuric acid production if possible — SO₂ + H₂O + catalyst → H₂SO₄). Roasting reactions: 2ZnS + 3O₂ → 2ZnO + 2SO₂, 2PbS + 3O₂ → 2PbO + 2SO₂. Temperature must be controlled: below 500°C the reaction is too slow, above 800°C the ore sinters into a solid mass that blocks air flow. Multiple hearth roasters or fluidized bed roasters provide the best gas-solid contact.
 
 **Sintering**: Fine ore particles (too fine for direct smelting — they would blow out of the furnace) are agglomerated by sintering. Mix fine ore with 5-10% coke breeze (fine coke) and moisture. Feed onto a moving grate (Dwight-Lloyd sinter machine). Ignite the coke with a gas flame. A suction fan pulls air downward through the bed. The burning coke raises the temperature to 1300-1400°C, partially fusing the ore particles into a porous, coherent cake. The sinter cake is crushed and screened to 20-50 mm lumps suitable for blast furnace feed. Sintering also drives off additional sulfur and volatile impurities. A sinter machine processes 20-50 tonnes/hour of fine ore.
 
----
 
-### Amalgamation
+## Amalgamation
 
 **Mercury amalgamation for gold**: An ancient method for recovering fine gold from concentrates. Mercury (Hg, liquid at room temperature, density 13.5 g/cm³) forms an alloy (amalgam) with gold on contact.
 
@@ -150,7 +149,7 @@
 - Does not recover gold locked inside sulfide grains (requires cyanide or pressure oxidation first)
 - Environmental contamination from mercury spills persists for centuries in watersheds
 
-### Flotation Detail
+## Flotation Detail
 
 **[Froth flotation](../glossary/froth-flotation.md)** is the most important concentration method for sulfide ores (copper, lead, zinc, nickel). It exploits differences in surface chemistry between sulfide minerals and silicate gangue:
 
@@ -169,7 +168,7 @@
 - Reagent supply (xanthates, MIBC, lime) must be continuously manufactured and dosed
 - Over-grinding produces ultra-fine particles (<10 μm) that float poorly, reducing recovery
 
-### Thickening and Filtration
+## Thickening and Filtration
 
 After flotation or leaching, the concentrate must be dewatered:
 
@@ -177,7 +176,7 @@ After flotation or leaching, the concentrate must be dewatered:
 
 **Filter**: Vacuum drum filter (rotating cylindrical drum covered with filter cloth, partially submerged in thickener underflow). Vacuum draws water through the cloth, leaving a filter cake of moist concentrate (8-15% moisture). Filter cake is discharged by a scraper blade. Alternative: pressure filter (plate-and-frame) for finer particles that do not filter well on a drum. Filter cake moisture must be low enough for the next processing step: 8-12% for smelter feed, below 15% for shipping.
 
-### Tailings Management Detail
+## Tailings Management Detail
 
 **Tailings dam construction**: The most common method is upstream construction — the dam is built incrementally by depositing coarse tailings on the downstream face and raising the dam crest as the tailings pond fills. Dam height: 20-100+ m for large mines. The dam must be engineered for stability (slope angle, drainage, seismic resistance). Tailings dam failures are catastrophic — they release massive volumes of water and mud downstream. The 2019 Brumadinho dam failure in Brazil killed 270 people.
 
@@ -185,7 +184,7 @@ After flotation or leaching, the concentrate must be dewatered:
 
 **Acid rock drainage**: Sulfide-bearing tailings exposed to air and water generate sulfuric acid (pyrite oxidation: FeS₂ + O₂ + H₂O → Fe(OH)₃ + H₂SO₄). The acidic water dissolves heavy metals from the tailings, creating a toxic effluent. Prevention: submerge sulfide tailings under water (limits oxygen access), or blend with limestone to neutralize acid as it forms. Monitor discharge water pH and metal concentrations continuously.
 
-### Sampling and Assay
+## Sampling and Assay
 
 Accurate sampling is the foundation of ore processing. The process plant can only recover what it is fed, and the feed composition must be known to control the circuit:
 
@@ -199,7 +198,7 @@ Accurate sampling is the foundation of ore processing. The process plant can onl
 - **[Wet chemical assay](../glossary/wet-chemical-assay.md)** (copper, zinc, lead): Dissolve a weighed sample in acid (aqua regia for gold, nitric acid for base metals). Titrate with standard solutions or measure concentration by atomic absorption spectroscopy. Accuracy: ±0.5-2%. Faster than fire assay for base metals.
 - **X-ray fluorescence (XRF)**: Irradiate the sample with X-rays, measure the fluorescent X-rays emitted by each element. Non-destructive, multi-element analysis in minutes. Accuracy: ±1-5% depending on element and matrix. Portable XRF analyzers allow real-time grade control at the mine face.
 
-### Process Control
+## Process Control
 
 Running a concentrator efficiently requires continuous monitoring and adjustment:
 
@@ -211,7 +210,7 @@ Running a concentrator efficiently requires continuous monitoring and adjustment
 
 **Mass balance**: The fundamental accounting of an ore processing plant. Every tonne of ore entering must leave as either concentrate, tailings, or water. Track the mass flow at each stage: crusher feed, mill discharge, flotation concentrate, and final tailings. Use belt scales (load cell on a conveyor idler), flow meters (magnetic or ultrasonic on slurry lines), and density gauges (nuclear or vibrating tube). A consistent mass balance confirms the plant is operating correctly; discrepancies indicate measurement errors or material losses (spills, leaks, incorrect sampling).
 
-### Ore Sorting and Pre-Concentration
+## Ore Sorting and Pre-Concentration
 
 Before the main processing circuit, pre-concentration removes waste rock early, reducing downstream grinding and processing costs:
 
@@ -221,7 +220,7 @@ Before the main processing circuit, pre-concentration removes waste rock early, 
 
 **Density-based pre-concentration**: Use heavy media separation (HMS) to float off light waste rock. Prepare a heavy medium by suspending fine magnetite or ferrosilicon in water at a controlled specific gravity (2.6-3.3). Feed coarse ore (5-50 mm) into the medium. Light rock (gangue, SG 2.5-2.7) floats and is skimmed off. Heavy ore minerals (SG 3.0+) sink and are recovered from the bottom. The magnetite medium is recovered magnetically and reused. HMS removes 20-40% of the feed as waste before grinding, significantly reducing energy consumption in the downstream circuit.
 
-### Process Water Quality
+## Process Water Quality
 
 Water chemistry affects every stage of ore processing, and poor water quality causes cascading problems:
 
@@ -229,7 +228,7 @@ Water chemistry affects every stage of ore processing, and poor water quality ca
 - **pH control**: Most flotation circuits operate at pH 8-11 (maintained with lime or NaOH). Low pH (<7) decomposes xanthate collectors and corrodes steel equipment. High pH (>12) depresses some target minerals along with the waste, reducing selectivity. Monitor pH continuously at the rougher feed, cleaner feed, and tailings discharge.
 - **Recycled water**: Process water recycled from tailings ponds contains residual reagents (xanthates, frothers, lime), dissolved ions (Cu²⁺, Fe³⁺, SO₄²⁻), and fine suspended solids. These can cause unpredictable flotation behavior if concentrations build up. Treatment options: settling (removes solids), neutralization (adjusts pH), activated carbon (removes organic reagents), or biological treatment (degrades residual organics). Monitor recycled water quality weekly and adjust fresh water make-up rate accordingly.
 
-### Conveyor and Material Transport
+## Conveyor and Material Transport
 
 Moving ore between processing stages efficiently is critical for plant throughput:
 
@@ -237,7 +236,7 @@ Moving ore between processing stages efficiently is critical for plant throughpu
 - **Slurry pipeline**: Transport finely ground ore as a slurry (30-50% solids by weight) through steel or HDPE pipes. Pumps: centrifugal slurry pumps with hardened impellers. Velocity: 1.5-3.0 m/s (too slow → particles settle and block the pipe; too fast → excessive wear). Used for long-distance transport (1-100+ km) between mine and concentrator or between concentrator and smelter. The Bougainville copper slurry pipeline transported concentrate 27 km.
 - **Bucket elevator**: Vertical transport of coarse material. Steel buckets attached to a chain or belt, running between sprockets at top and bottom. Lift height: 10-30 m. Capacity: 10-200 tonnes/hour. Used for elevating crushed ore from below-ground crushers to surface processing. Enclose in a steel casing for dust control.
 
-### Concentrate Handling and Transport
+## Concentrate Handling and Transport
 
 The final concentrate product requires careful handling to preserve its value:
 
@@ -245,7 +244,7 @@ The final concentrate product requires careful handling to preserve its value:
 - **Bagging and storage**: Fill woven polypropylene bags (500-1000 kg each, called "bulk bags" or "FIBCs") with dried concentrate. Stack on pallets under cover. Concentrate is dense (copper concentrate ~2.0-2.5 t/m³, iron ore pellets ~2.0 t/m³). A standard shipping container holds 20-25 tonnes of bagged concentrate.
 - **Sampling for payment**: Smelters pay based on the metal content of the concentrate. The final payment sample is taken during loading: an automatic sampler cuts a representative portion (0.1-0.5% of the total) from the loading stream. Split the sample into three portions: one for the mine assay, one for the smelter assay, and one held in reserve for umpire assay (independent laboratory) if the mine and smelter disagree on the grade. Payment disputes are common — accurate sampling protects both parties.
 
-### Processing Plant Layout
+## Processing Plant Layout
 
 The physical arrangement of the processing plant follows the ore flow from ROM (run-of-mine) pad to concentrate storage:
 
@@ -254,7 +253,7 @@ The physical arrangement of the processing plant follows the ore flow from ROM (
 - **Concentration circuit**: Adjacent to the grinding circuit. Flotation cells are arranged in a cascade — rougher cells at the highest elevation, cleaner cells below, with gravity flow between stages wherever possible (reduces pumping costs).
 - **Tailings and concentrate**: Tailings line runs downhill to the tailings pond. Concentrate thickener and filter are at the lowest point of the plant, with concentrate storage at grade for easy truck loading.
 
-### Process Energy Balance
+## Process Energy Balance
 
 Ore processing is energy intensive. The comminution stage (crushing and grinding) alone consumes 50-70% of the total plant energy:
 
@@ -264,6 +263,6 @@ Ore processing is energy intensive. The comminution stage (crushing and grinding
 - **Pumping**: 1-3 kWh per tonne for slurry transport between stages. Pumping slurries is less efficient than pumping water because the abrasive particles wear impellers and the higher slurry viscosity increases friction losses.
 - **Water consumption**: 2-5 m³ per tonne of ore processed (not evaporated, but circulating through the circuit with losses to tailings moisture and evaporation). In arid regions, water availability can be the binding constraint on plant capacity, not ore reserves or energy supply.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Mining](./index.md) • [All Domains](../index.md)*
+
+[← Back to Mining](index.md)

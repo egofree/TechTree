@@ -17,7 +17,7 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 
 ## Tier 1: Pre-Industrial Metalworking
 
-### 1. Single-Metal Expansion Rod Thermostat
+## Single-Metal Expansion Rod Thermostat
 
 **Principle**: A long metal rod expands linearly when heated. Linear thermal expansion follows ΔL = L₀ × α × ΔT, where L₀ is original length, α is the coefficient of thermal expansion, and ΔT is the temperature change. A 500 mm iron rod (α ≈ 12 × 10⁻⁶/°C) grows 0.6 mm per 100°C of heating. One end of the rod is fixed; the other end pushes against a spring-loaded lever or electrical contact. When the rod grows enough, it trips the mechanism, breaking the circuit or closing a draft damper.
 
@@ -71,9 +71,8 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Mounting flexure introduces false temperature readings
 - Slow response due to large thermal mass of the rod
 
----
 
-### 2. Rod-and-Tube Thermostat
+## Rod-and-Tube Thermostat
 
 **Principle**: A low-expansion rod (iron or steel, α ≈ 12 × 10⁻⁶/°C) runs inside a high-expansion tube (copper or brass, α ≈ 17-19 × 10⁻⁶/°C). Both are fixed together at one end. When heated, the tube grows faster than the rod, creating relative displacement between the free ends. The differential expansion ΔL = L₀ × (α_tube - α_rod) × ΔT amplifies the usable motion compared to a single-metal rod, since both elements respond to the same temperature but at different rates.
 
@@ -128,9 +127,8 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Mechanical deadband of 3-8°C prevents tight control
 - Spring must be carefully calibrated to avoid overriding the expansion force
 
----
 
-### 3. Bimetallic Strip Thermostat
+## Bimetallic Strip Thermostat
 
 **Principle**: Two metal strips with different thermal expansion coefficients are bonded together along their entire length. When heated, the high-expansion side grows more than the low-expansion side, but the bond prevents independent movement. The strip must bend to accommodate the differential, curving toward the low-expansion side. The deflection of a cantilever bimetallic strip is approximately D = K × (L²/t) × ΔT, where K is a constant depending on the two metals, L is the length, t is total thickness, and ΔT is temperature change. Longer and thinner strips produce more deflection.
 
@@ -189,9 +187,8 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Deadband of 1-8°C prevents tight temperature regulation
 - No remote sensing capability; sensor must be at the control point
 
----
 
-### 4. Bimetallic Snap-Action Disc Thermostat
+## Bimetallic Snap-Action Disc Thermostat
 
 **Principle**: A shallow dished disc stamped from bimetallic sheet stores elastic energy in its curved shape. As temperature rises, differential expansion builds stress in the disc. At a critical temperature, the stress overcomes the geometric stability of the dome, and the disc snaps suddenly to an inverted curvature. This snap transition is extremely fast (milliseconds) and produces a clean, decisive mechanical motion ideal for switching. The snap temperature is determined by the disc geometry (diameter, dish depth, thickness) and the bimetallic combination. Once set by stamping, the trip temperature is fixed.
 
@@ -246,9 +243,8 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Narrow operating range (30-300°C) determined by bimetallic combination
 - Disc-to-disc variation of ±2-3°C even with careful production
 
----
 
-### 5. Mercury Tilt Thermostat
+## Mercury Tilt Thermostat
 
 **Principle**: A bimetallic coil (or strip) is mechanically linked to a small glass ampoule containing a blob of mercury. As temperature changes, the bimetallic element bends or coils, tilting the ampoule. When tilted past a critical angle, the mercury flows to one end of the ampoule, bridging two platinum wire electrodes sealed through the glass and completing the circuit. When tilted back (temperature returns), the mercury flows away from the electrodes, breaking the circuit. The genius of this design is that mercury switching is essentially frictionless. There is no mechanical contact to wear, oxidize, or stick. The mercury simply sloshes.
 
@@ -313,9 +309,8 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Operating range limited by mercury freezing (-38°C) and boiling (357°C)
 - Requires advanced glassblowing to create hermetic platinum-to-glass seals
 
----
 
-### 6. Mercury-in-Glass Contact Thermometer
+## Mercury-in-Glass Contact Thermometer
 
 **Principle**: A mercury thermometer with a special capillary tube containing two platinum wire electrodes sealed into the glass at a precise, adjustable position. The mercury column rises with temperature. When it reaches the electrode tips, it bridges the gap between them, completing an electrical circuit. This provides a precise, visual temperature indication combined with electrical switching. The setpoint can be adjusted by moving one electrode (via a threaded magnetic adjuster or a calibrated screw mechanism) up or down the capillary.
 
@@ -374,11 +369,10 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Slow response due to thermal mass of mercury column
 - Requires precision glassworking skill to fabricate
 
----
 
 ## Tier 2: Fluid Handling & Sealed Systems
 
-### 7. Liquid Expansion Thermostat (Bulb & Bellows)
+## Liquid Expansion Thermostat (Bulb & Bellows)
 
 **Principle**: A sealed metal bulb connected by a thin capillary tube to a bellows or diaphragm. The bulb is filled with a liquid (oil, alcohol, or glycol mixture) that expands when heated. The expanding liquid pushes through the capillary and pressurizes the bellows, which extends with force proportional to temperature. The bellows motion operates a switch, valve, or lever. The key advantage: the sensing bulb can be placed remotely from the controller, connected only by the capillary tube. This allows temperature sensing inside furnaces, pipes, or tanks while the control mechanism sits safely outside.
 
@@ -441,9 +435,8 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Fill liquid limits maximum temperature (silicone oil degrades above 250°C)
 - Bulb and capillary volume must be carefully matched to bellows stroke
 
----
 
-### 8. Vapor Pressure Thermostat
+## Vapor Pressure Thermostat
 
 **Principle**: A sealed bulb is partially filled with a volatile liquid, leaving the rest of the volume filled with its saturated vapor. The vapor pressure above a liquid depends solely on temperature (Clausius-Clapeyron relation), not on the quantity of liquid. As the bulb temperature rises, more liquid evaporates and vapor pressure increases exponentially with temperature. This pressure is transmitted through a capillary to a bellows or bourdon tube, which actuates a switch or valve. The key distinction from the liquid expansion type: vapor pressure systems use the *pressure* of the vapor phase, not the *volume expansion* of the liquid phase.
 
@@ -503,9 +496,8 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Each volatile liquid covers a limited range; switching ranges means rebuilding
 - Hermetic seal failure causes total loss of function
 
----
 
-### 9. Gas Expansion Thermostat
+## Gas Expansion Thermostat
 
 **Principle**: A sealed bulb filled with an inert gas (nitrogen or helium) connected by capillary to a pressure-sensing element (bellows or bourdon tube). Unlike liquid or vapor systems, the gas follows the ideal gas law: P × V = n × R × T. Since the volume is fixed (sealed system), pressure is directly proportional to absolute temperature (Gay-Lussac's Law: P/T = constant). This gives a perfectly linear pressure-temperature relationship, unlike the exponential behavior of vapor pressure systems. The gas expansion thermostat has the widest useful range of any sealed-system type.
 
@@ -559,9 +551,8 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Bulb and capillary must withstand maximum pressure at highest temperature
 - Ambient temperature changes along the capillary affect the reading
 
----
 
-### 10. Wax Pellet Thermostat (Wax Actuator)
+## Wax Pellet Thermostat (Wax Actuator)
 
 **Principle**: A metal cylinder (pellet) contains a specially formulated wax that melts and expands dramatically (10-15% by volume) at a precise temperature. The expanding wax pushes a piston outward against a return spring. The piston stroke is proportional to temperature in the melting range. Unlike bimetallic or gas systems, the wax actuator produces large forces (50-200 N) in a compact package, making it ideal for operating valves directly without amplification.
 
@@ -623,9 +614,8 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Wax degrades and changes properties after many thousands of thermal cycles
 - Hysteresis between melting and solidification temperatures
 
----
 
-### 11. Thermostatic Radiator Valve (TRV)
+## Thermostatic Radiator Valve (TRV)
 
 **Principle**: A self-contained proportional valve that combines a temperature sensor (wax pellet or liquid-filled bulb) with a valve body in a single unit. The sensor directly operates the valve stem: as room temperature rises above the setpoint, the expanding wax or liquid pushes the valve stem toward the closed position, reducing hot water flow through the radiator. As the room cools, the sensor contracts and a return spring opens the valve. The TRV provides continuous proportional control (not just on/off) without any external power source.
 
@@ -687,9 +677,8 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Wax or liquid sensor drifts slightly over years of operation
 - No remote control capability; setpoint adjusted only at the valve
 
----
 
-### 12. Pneumatic Thermostat
+## Pneumatic Thermostat
 
 **Principle**: A temperature-sensitive element (bimetallic strip, liquid-filled bulb, or gas-filled bulb) modulates the clearance in a nozzle-flapper assembly. Compressed air (typically 3-15 psi / 0.2-1.0 bar) is supplied to the nozzle. The flapper (a thin metal plate) is positioned by the temperature sensor. As temperature rises, the sensor moves the flapper closer to the nozzle, restricting airflow and building up back-pressure in the signal line. This variable air pressure (3 psi = full cooling, 15 psi = full heating, or vice versa) drives pneumatic actuators on valves, dampers, and other equipment. The pneumatic thermostat provides continuous proportional control with no electrical power.
 
@@ -749,11 +738,10 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Complex calibration requiring pressure gauges and temperature baths
 - Limited to environments where compressed air infrastructure exists
 
----
 
 ## Tier 3: Basic Electrical/Electronic Infrastructure
 
-### 13. Thermocouple-Based Thermostat
+## Thermocouple-Based Thermostat
 
 **Principle**: Two dissimilar metals joined at a measurement junction generate a small voltage (Seebeck effect) proportional to the temperature difference between the measurement (hot) junction and the reference (cold) junction. This voltage, typically in the millivolt range, drives a galvanometer relay or electronic comparator. When the voltage exceeds the setpoint threshold (corresponding to the target temperature), the relay trips, shutting off the heater. The thermocouple is self-generating: it needs no external power to produce its temperature signal. This makes it the simplest possible high-temperature thermostat.
 
@@ -813,9 +801,8 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Calibration drift of 1-5°C per 1000 hours at high temperature
 - Lower accuracy than RTDs or thermistors without careful calibration
 
----
 
-### 14. Resistance Thermometer (RTD) Thermostat
+## Resistance Thermometer (RTD) Thermostat
 
 **Principle**: A fine platinum wire (or thin-film platinum element) increases in electrical resistance predictably with temperature. The Pt100 standard specifies 100.0 Ω at 0°C with a temperature coefficient of +0.385 Ω/°C. At 100°C, the resistance is 138.5 Ω. The resistance is measured using a Wheatstone bridge circuit: three fixed resistors and the RTD form the bridge, and a galvanometer or amplifier detects the imbalance voltage when the RTD resistance deviates from the setpoint value. The bridge output drives a relay or control circuit.
 
@@ -872,9 +859,8 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Slow response when sheathed for protection
 - Lead resistance errors require four-wire measurement for accuracy
 
----
 
-### 15. Reed Switch Thermostat
+## Reed Switch Thermostat
 
 **Principle**: A permanent magnet is mounted on a bimetallic element. As temperature changes, the bimetallic element bends, moving the magnet relative to a sealed glass reed switch. The reed switch contains two ferromagnetic reed blades hermetically sealed in an inert gas atmosphere. When the magnet approaches, the magnetic field magnetizes the reed blades, causing them to attract each other and snap together, closing the circuit. When the magnet moves away, the field weakens and the reeds spring apart. The reed switch provides contactless switching: the magnet never touches the switch, and the contacts are sealed inside a glass envelope, immune to dust, oxidation, and corrosion.
 
@@ -929,11 +915,10 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Limited temperature range (-40 to 120°C) set by magnet and bimetallic properties
 - Not proportional; on/off switching only
 
----
 
 ## Tier 4: Semiconductor/Electronics Industry
 
-### 16. Thermistor-Based Electronic Thermostat
+## Thermistor-Based Electronic Thermostat
 
 **Principle**: A thermistor is a sintered metal-oxide ceramic (typically manganese, nickel, or cobalt oxides) whose electrical resistance changes dramatically with temperature. NTC (negative temperature coefficient) thermistors decrease in resistance by 3-6% per °C, roughly 10× the sensitivity of an RTD. A 10 kΩ NTC thermistor at 25°C drops to about 3.6 kΩ at 60°C. This large resistance change simplifies the electronics: a simple voltage divider (thermistor + fixed resistor) produces a voltage that changes significantly with temperature, directly compatible with a comparator input. No bridge circuit needed.
 
@@ -997,9 +982,8 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Long-term drift of ±0.1-0.2°C per year requires periodic recalibration
 - Not interchangeable without selection or software compensation
 
----
 
-### 17. Silicon Junction (Diode/Transistor) Thermostat
+## Silicon Junction (Diode/Transistor) Thermostat
 
 **Principle**: The forward voltage drop of a silicon pn junction decreases by approximately -2.0 to -2.2 mV per °C, nearly linearly over a wide temperature range. This property is inherent to silicon semiconductor physics: the bandgap voltage decreases with temperature, and the forward voltage tracks it. A diode (1N4148, 1N4001) or the base-emitter junction of a transistor (2N2222) driven by a constant current source produces a temperature-dependent voltage that can be measured with a simple op-amp circuit.
 
@@ -1055,9 +1039,8 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Not as accurate as RTDs or thermistors without careful calibration
 - Accuracy degrades if current source drifts with temperature or supply voltage
 
----
 
-### 18. IC Temperature Sensor Thermostat
+## IC Temperature Sensor Thermostat
 
 **Principle**: A dedicated integrated circuit combines a bandgap temperature sensor with signal conditioning, analog-to-digital conversion, and (in digital types) a serial interface. The bandgap sensor exploits the difference between the thermal voltage (PTAT: proportional to absolute temperature) and the bandgap voltage (constant with temperature) to produce a calibrated output. Analog types (LM35, TMP36) output a voltage directly proportional to temperature (10 mV/°C for LM35). Digital types (DS18B20) output temperature as a digital number over a 1-wire serial interface, eliminating analog noise issues.
 
@@ -1119,9 +1102,8 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Self-heating in small packages affects accuracy at low airflow
 - Dependent on a single supplier or complex supply chain for specific IC types
 
----
 
-### 19. Digital/Microcontroller PID Thermostat
+## Digital/Microcontroller PID Thermostat
 
 **Principle**: Any electronic temperature sensor (thermocouple, RTD, thermistor, IC sensor) feeds its reading to a microcontroller running a Proportional-Integral-Derivative (PID) control algorithm. The PID algorithm computes three terms from the error (difference between measured temperature and setpoint): P = proportional to current error, I = integral of error over time (eliminates steady-state offset), D = derivative of error (anticipates future error, reduces overshoot). The combined PID output drives a solid-state relay (SSR), triac, or PWM-controlled heater. The result is smooth, precise temperature regulation without the oscillation inherent in on/off control.
 
@@ -1207,9 +1189,8 @@ The PID algorithm in discrete form: output(n) = Kp × e(n) + Ki × Σe(i) × Δt
 - PID tuning requires experimentation for each new thermal system
 - More expensive and complex than mechanical or simple electronic alternatives
 
----
 
-### 20. Shape Memory Alloy (SMA) Thermostat
+## Shape Memory Alloy (SMA) Thermostat
 
 **Principle**: Certain alloys, most notably nickel-titanium (NiTi, also called Nitinol), undergo a reversible crystal-structure phase transition at a specific temperature. Below the transition, the alloy is in a martensitic phase (soft, easily deformed). Above the transition, it transforms to an austenitic phase (stiff, returns to a "trained" shape). If the alloy is deformed while cold and then heated through the transition temperature, it snaps back to its trained shape with substantial force (up to 500 MPa stress recovery). This provides a compact, powerful thermal actuator with no springs, no bellows, no fluid.
 
@@ -1258,9 +1239,8 @@ The PID algorithm in discrete form: output(n) = Kp × e(n) + Ki × Σe(i) × Δt
 - Expensive alloy requiring precise composition control during melting
 - Slow response compared to electronic switching (seconds to actuate)
 
----
 
-### 21. Quartz Crystal Temperature Sensor Thermostat
+## Quartz Crystal Temperature Sensor Thermostat
 
 **Principle**: A quartz crystal cut at a specific orientation (typically Y-cut or LC-cut) has a resonant frequency that changes linearly with temperature, at about 1000 ppm/°C (1 kHz per MHz of resonant frequency per °C). A 10 MHz crystal shifts by 10 kHz per °C. A frequency counter measures the resonant frequency with high precision (1 Hz resolution is routine), giving a temperature resolution of 0.001°C for a 10 MHz crystal. The frequency-temperature relationship is exceptionally stable and reproducible, limited only by the crystal's aging rate (a few ppm per year).
 
@@ -1315,9 +1295,8 @@ The PID algorithm in discrete form: output(n) = Kp × e(n) + Ki × Σe(i) × Δt
 - Slow thermal response due to metal can packaging
 - Overkill for most applications; hard to justify the cost and complexity
 
----
 
-### 22. Infrared/Radiation Pyrometer Thermostat
+## Infrared/Radiation Pyrometer Thermostat
 
 **Principle**: Every object above absolute zero emits thermal radiation described by Planck's law. The total radiated power and its spectral distribution depend on the object's temperature and emissivity. An infrared pyrometer collects this radiation (through optics: lens, mirror, or fiber optic), focuses it onto a detector (thermopile, pyroelectric sensor, or photodiode), and converts the detector signal to a temperature reading. Because the sensor measures radiation without physical contact, it can regulate the temperature of moving objects, molten metals, semiconductor wafers in vacuum, and any target that cannot be touched by a probe.
 
@@ -1379,7 +1358,6 @@ The PID algorithm in discrete form: output(n) = Kp × e(n) + Ki × Σe(i) × Δt
 - Struggles with polished metals (low emissivity, weak signal)
 - Needs blackbody calibration source for reliable accuracy
 
----
 
 ## Selection Guide
 
@@ -1455,6 +1433,6 @@ The PID algorithm in discrete form: output(n) = Kp × e(n) + Ki × Σe(i) × Δt
 - [Silicon](../silicon/basic-devices.md): semiconductor sensors, IC temperature sensors
 - [Energy](../energy/cooling.md): steam systems, HVAC, engine cooling
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*
+
+[← Back to Measurement](index.md)

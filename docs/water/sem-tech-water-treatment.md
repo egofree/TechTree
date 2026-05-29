@@ -12,7 +12,6 @@ The low-cost ion exchange membranes developed by SEM Tech (see [SEM Tech Membran
 
 For the underlying electrodialysis principles and membrane science, see [SEM Tech Electrodialysis](../chemistry/sem-tech-electrodialysis.md).
 
-## Overview
 
 Water desalination and purification are essential capabilities for any settlement, regardless of scale. Brackish groundwater — containing 1,000–10,000 mg/L of total dissolved solids (TDS) — is the most common impaired water source worldwide. Conventional approaches (reverse osmosis, multi-stage flash distillation) require either high-pressure pumping systems or large thermal energy inputs, both of which demand industrial infrastructure.
 
@@ -178,7 +177,7 @@ Building a SEM Tech ED desalination stack requires the following materials, orga
 
 ## Steps
 
-### Step 1: Fabricate membranes
+## Step 1: Fabricate membranes
 
 Manufacture cation exchange membranes (CEM) and anion exchange membranes (AEM) following the SEM Tech process described in [SEM Tech](../chemistry/sem-tech.md):
 
@@ -190,14 +189,14 @@ Manufacture cation exchange membranes (CEM) and anion exchange membranes (AEM) f
 6. **Repeat steps 1–5** with anion exchange resin beads to produce AEM film.
 7. **Test membrane integrity**: hold each membrane up to light — pinholes appear as bright spots. Discard or patch defective areas. Measure thickness (target: 0.2–0.8 mm dry).
 
-### Step 2: Fabricate stack components
+## Step 2: Fabricate stack components
 
 1. **Cut spacer gaskets** from PVC sheet: rectangular frames with a central open window (the flow channel area) and drilled manifold ports (inlet and outlet holes at opposite corners). Make enough for all cell pairs (each pair needs one diluate spacer and one concentrate spacer).
 2. **Insert flow spacers**: place polypropylene mesh screen inside each spacer frame window. This mesh promotes turbulent flow and prevents membrane contact.
 3. **Prepare electrodes**: cut graphite plates to match end plate dimensions. Drill or cut ports for electrode rinse water flow if using sealed electrode compartments.
 4. **Cut gaskets** for electrode compartments from rubber or neoprene sheet.
 
-### Step 3: Assemble the ED stack
+## Step 3: Assemble the ED stack
 
 1. **Lay one end plate** flat on a work surface. Place a rubber gasket, then the anode graphite plate.
 2. **Apply PVC cement** to the first spacer gasket and press it onto the end plate assembly. Allow cement to set per manufacturer instructions.
@@ -214,14 +213,14 @@ Manufacture cation exchange membranes (CEM) and anion exchange membranes (AEM) f
 9. **Connect manifold plumbing**: attach PVC piping to the diluate inlet/outlet ports and concentrate inlet/outlet ports. Use PVC cement for all joints.
 10. **Connect electrode rinse lines** to the anode and cathode compartments.
 
-### Step 4: Set up pre-treatment
+## Step 4: Set up pre-treatment
 
 1. **Fill sand filter vessel** with graded silica sand (coarse at bottom, fine at top). Backwash to remove fines.
 2. **Install cartridge filter** downstream of the sand filter. Use a 10-micron polypropylene element.
 3. **Connect feed water source** (well pump or tank) to the sand filter inlet.
 4. **Verify pre-treatment output**: feed water should have <5 mg/L total suspended solids (TSS) before entering the ED stack. Test with a turbidity meter or visual inspection (water should be clear).
 
-### Step 5: Commission the system
+## Step 5: Commission the system
 
 1. **Fill both diluate and concentrate loops** with feed water. Purge all air from the system by running circulation pumps with the stack unpowered.
 2. **Check for leaks** at all manifold connections and end plate seals. Tighten tie rods if seepage is observed.
@@ -232,7 +231,7 @@ Manufacture cation exchange membranes (CEM) and anion exchange membranes (AEM) f
 7. **Continue operation** until product water TDS reaches the target (<500 mg/L for drinking water).
 8. **Sample product water**: test for TDS, pH, and — for drinking water applications — microbial contamination. Apply post-treatment (chlorination to 1–3 mg/L residual Cl₂) before distribution.
 
-### Step 6: Routine operation and maintenance
+## Step 6: Routine operation and maintenance
 
 1. **Monitor daily**: product water conductivity, flow rates, stack voltage and current, feed and brine tank levels.
 2. **Clean membranes** when product water quality degrades or stack resistance increases >20% from baseline: circulate 2% HCl solution (for scale removal) followed by 1% NaOH solution (for organic fouling) through both loops for 30–60 minutes each. Rinse thoroughly with feed water before resuming operation.
@@ -244,7 +243,7 @@ Manufacture cation exchange membranes (CEM) and anion exchange membranes (AEM) f
 
 ED removes dissolved ions but does not eliminate microorganisms, organic contaminants, or suspended solids. Product water from the ED stack requires post-treatment before it is safe for human consumption. Additionally, very low-TDS product water (<50 mg/L) is corrosive to metal pipes and has a flat taste — remineralization improves both palatability and distribution system compatibility.
 
-### Disinfection
+## Disinfection
 
 **Chlorination** is the most practical disinfection method for SEM Tech installations. Sodium hypochlorite (NaOCl) is available as a byproduct of [SEM Tech chlor-alkali electrolysis](../chemistry/sem-tech.md), or calcium hypochlorite granules (HTH, 65-70% available chlorine) can be purchased commercially.
 
@@ -257,7 +256,7 @@ ED removes dissolved ions but does not eliminate microorganisms, organic contami
 
 **Alternative: Solar disinfection (SODIS)** — For household-level emergency use, filling clear PET bottles with ED product water and exposing to full sun for 6 hours achieves bacterial inactivation. Not suitable as a primary community-scale disinfection method.
 
-### Remineralization
+## Remineralization
 
 ED product water at <100 mg/L TDS is aggressive (corrosive) toward metal pipes, concrete, and some plastics. Remineralization adds dissolved minerals back to the water for:
 
@@ -271,7 +270,7 @@ ED product water at <100 mg/L TDS is aggressive (corrosive) toward metal pipes, 
 - **Calcite (limestone) contactor**: Pass product water through a bed of crushed calcium carbonate (CaCO₃, 1-3 mm particle size). The slightly acidic ED product water slowly dissolves calcite, adding calcium and alkalinity. Simple, passive, no dosing equipment. Bed replacement every 6-12 months depending on flow.
 - **Blending**: Mix a controlled fraction (5-15%) of filtered raw (feed) water back into the product water. Requires the feed water to be microbiologically safe after filtration. Simplest method but limits final water quality.
 
-### pH Adjustment
+## pH Adjustment
 
 ED product water pH may drift outside the desirable range (6.5-8.5) depending on feed chemistry and operating conditions:
 
@@ -280,7 +279,7 @@ ED product water pH may drift outside the desirable range (6.5-8.5) depending on
 
 Verify pH with a calibrated pH meter after adjustment. Target pH: 7.0-8.0 for drinking water distribution.
 
-### Final Filtration
+## Final Filtration
 
 After disinfection and remineralization, a final 1-micron cartridge filter removes any particulates introduced during post-treatment (lime particles, sand fines, rust from piping). This filter protects distribution system fixtures and provides a final barrier against large microorganisms (Giardia cysts, helminth eggs).
 
@@ -288,7 +287,7 @@ After disinfection and remineralization, a final 1-micron cartridge filter remov
 
 Regular testing ensures product water meets drinking water standards and detects process upsets early. The following schedule is based on WHO Guidelines for Drinking-water Quality.
 
-### WHO Drinking Water Parameters
+## WHO Drinking Water Parameters
 
 | Parameter | WHO Guideline | Action Threshold |
 |-----------|--------------|-----------------|
@@ -303,7 +302,7 @@ Regular testing ensures product water meets drinking water standards and detects
 | **Total hardness** | No guideline (structural) | <30 mg/L as CaCO₃ — remineralize |
 | **Fluoride** | 1.5 mg/L | >1.0 mg/L — check feed water source |
 
-### Testing Schedule
+## Testing Schedule
 
 **Continuous monitoring** (instrumentation):
 - Product water conductivity (TDS proxy) — conductivity meter with data logging
@@ -333,7 +332,7 @@ Regular testing ensures product water meets drinking water standards and detects
 - Pesticide scan (if agricultural runoff is a concern)
 - Radionuclides (if in a known radon/uranium area)
 
-### Record-Keeping
+## Record-Keeping
 
 Maintain a bound logbook or simple spreadsheet recording:
 - Daily: chlorine residual, conductivity reading, voltage, current, flow rates, feed tank level, brine tank level, any observations
@@ -371,7 +370,7 @@ The DC power requirement of ED stacks matches directly with solar photovoltaic o
 
 Every liter of fresh water produced by ED generates a corresponding volume of concentrated brine. The brine volume equals (1 - recovery rate) × feed volume. At 80% water recovery, a 25 m³/day system produces approximately 6.25 m³/day of brine at 16,000-25,000 mg/L TDS (from a 4,000 mg/L feed). Brine management is often the most logistically challenging aspect of inland ED deployment.
 
-### Brine Characteristics
+## Brine Characteristics
 
 ED concentrate brine differs from RO reject in several important ways:
 
@@ -380,7 +379,7 @@ ED concentrate brine differs from RO reject in several important ways:
 - **Temperature**: ED brine is at ambient feed temperature (no significant heating during processing).
 - **Non-ionic contaminants**: Dissolved organics, silica, and suspended solids remain in the diluate (product) stream, not in the brine. Brine is primarily dissolved salts.
 
-### Disposal and Recovery Options
+## Disposal and Recovery Options
 
 **Evaporation ponds (arid and semi-arid climates)**:
 
@@ -428,7 +427,7 @@ In locations where no brine discharge is permitted (closed-basin lakes, protecte
 - **Energy cost**: Thermal evaporation consumes 25-40 kWh/m³ of brine — an order of magnitude more than the ED desalination itself. ZLD is only practical when energy is very cheap or when no alternatives exist.
 - **Applicability**: Rarely necessary for inland brackish water ED. Reserve for sites with extreme environmental constraints or for recovering high-value salts from industrial waste streams.
 
-### Inland Deployment Strategy
+## Inland Deployment Strategy
 
 For most inland SEM Tech ED installations, the recommended brine management approach is:
 
@@ -502,7 +501,7 @@ The SEM Tech water treatment system depends on upstream capabilities from severa
 
 ## Troubleshooting
 
-### Rising Product Water TDS
+## Rising Product Water TDS
 
 **Symptom**: Product water conductivity increases despite normal operation.
 
@@ -512,7 +511,7 @@ The SEM Tech water treatment system depends on upstream capabilities from severa
 - **Insufficient voltage/current**: Current density below threshold for effective ion transport. Verify power supply output with a multimeter. Increase voltage while staying below 1.5V per cell pair.
 - **Channeling**: Flow distribution is uneven, allowing some water to pass through the stack without adequate ion removal. Check spacer mesh for blockage or compaction. Verify flow rates are within specification (5-15 cm/s velocity).
 
-### Increasing Stack Resistance
+## Increasing Stack Resistance
 
 **Symptom**: Stack voltage rises at constant current, or current drops at constant voltage. Energy consumption increases.
 
@@ -523,7 +522,7 @@ The SEM Tech water treatment system depends on upstream capabilities from severa
 - **Air entrainment**: Air bubbles trapped in channels create high-resistance zones. Purge the system by running circulation pumps at maximum flow with the stack unpowered. Check for air leaks on the suction side of pumps.
 - **Membrane compaction**: Long-term compression reduces channel height and increases flow resistance. Disassemble stack, inspect spacer thickness, replace compressed spacers.
 
-### Low Water Recovery
+## Low Water Recovery
 
 **Symptom**: Brine volume is higher than expected; product water volume is lower than design.
 
@@ -532,7 +531,7 @@ The SEM Tech water treatment system depends on upstream capabilities from severa
 - **Membrane deformation**: Pressure imbalance between diluate and concentrate channels bows membranes, reducing effective channel area. Balance hydraulic pressures in both loops.
 - **High feed TDS**: Feed water salt content is higher than design point, requiring more current and longer residence time for equivalent removal. If persistent, consider adding a second stage or operating in batch recirculation mode.
 
-### Product Water pH Outside Range
+## Product Water pH Outside Range
 
 **Symptom**: Product water pH <6.5 or >8.5.
 
@@ -541,7 +540,7 @@ The SEM Tech water treatment system depends on upstream capabilities from severa
 - **Feed water pH shift**: Source water chemistry changes seasonally (e.g., spring snowmelt, agricultural runoff). Monitor feed pH daily and adjust post-treatment dosing accordingly.
 - **Bicarbonate stripping**: At low TDS, bicarbonate equilibrium shifts, releasing CO₂ and lowering pH. Remineralization with lime (Ca(OH)₂) restores pH and alkalinity simultaneously.
 
-### Uneven Flow Distribution
+## Uneven Flow Distribution
 
 **Symptom**: Product water quality varies between cells; some cells produce good water while others do not.
 
@@ -550,7 +549,7 @@ The SEM Tech water treatment system depends on upstream capabilities from severa
 - **Spacer compaction**: Repeated compression cycles permanently deform spacers in high-pressure zones. Replace compressed spacers. Use consistent torque during reassembly.
 - **Air locks**: Air trapped in specific channels prevents flow. Purge system at high flow rate. Install air release valves at high points in the manifold.
 
-### Electrode Corrosion
+## Electrode Corrosion
 
 **Symptom**: Graphite electrodes visibly eroded, pitted, or friable. Electrode rinse water discolored.
 
@@ -577,6 +576,6 @@ The SEM Tech water treatment system depends on upstream capabilities from severa
 - [SEM Tech Electrodialysis](../chemistry/sem-tech-electrodialysis.md) — ED principles and process variants
 - [SEM Tech Hydroponics](../agriculture/sem-tech-hydroponics.md) — water reuse in controlled growing systems
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*
+
+[← Back to Water](index.md)

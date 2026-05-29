@@ -10,7 +10,6 @@
 
 The low-cost ion exchange membranes developed by SEM Tech (see [SEM Tech](sem-tech.md)) enable selective lithium ion separation as a downstream application of the membrane platform. The SEM Tech patent describes a microporous ion-selective separator configured for lithium separation — blocking larger sodium ions while allowing lithium passage (patent line 107). Electrodialysis (see [SEM Tech Electrodialysis](sem-tech-electrodialysis.md)) is the primary mechanism by which this selective transport is achieved at scale.
 
-## Overview
 
 Lithium is a critical material for batteries, electric vehicles, and grid-scale energy storage. Demand has grown sharply as lithium-ion batteries become the dominant energy storage technology. Conventional lithium extraction relies on brine evaporation ponds (months to years of solar concentration) or hard-rock mining of spodumene ores (energy-intensive roasting and acid leaching). Both methods have significant environmental footprints and slow throughput.
 
@@ -137,7 +136,7 @@ The lithium separation system requires the following hardware:
 
 The following procedure describes a pilot-scale lithium recovery operation using SEM Tech electrodialysis membranes.
 
-### Phase 1: Membrane Fabrication
+## Phase 1: Membrane Fabrication
 
 1. **Select resin**: Obtain lithium-selective chelating ion exchange resin beads with 12-crown-4 or iminodiacetic acid functional groups. Obtain standard strong-base anion exchange resin beads (quaternary ammonium type) for the anion membranes.
 2. **Pulverize resin**: Reduce both resin types to powder below 200 microns using a ball mill or blender. Dry the powder thoroughly if wet pulverizing is used.
@@ -146,14 +145,14 @@ The following procedure describes a pilot-scale lithium recovery operation using
 5. **Mix and cast anion membranes**: Repeat step 4 using standard anion exchange resin powder.
 6. **Peel and inspect**: Peel dried membranes from the casting surface. Inspect for pinholes, tears, or uneven thickness. Discard defective membranes.
 
-### Phase 2: Stack Assembly
+## Phase 2: Stack Assembly
 
 7. **Assemble cell pairs**: Between each end plate, stack alternating lithium-selective cation membranes and standard anion membranes separated by 0.5-1.0 mm polyethylene spacer gaskets. Each cell pair consists of one cation membrane, one anion membrane, and two spacers (diluate channel and concentrate channel).
 8. **Install electrodes**: Place coated graphite anode and cathode at opposite ends of the stack. Connect the vibratory/ultrasonic dislodging mechanism to the cathode.
 9. **Compress stack**: Clamp the assembly with end plates and tie rods. Ensure uniform compression to prevent internal leaks. Seal with PVC/CPVC cement where needed.
 10. **Connect plumbing**: Attach HDPE or PVC piping for feed brine inlet, concentrate outlet, diluate outlet, and electrode rinse. Connect feed pumps, flow meters, and valves.
 
-### Phase 3: Pretreatment and Startup
+## Phase 3: Pretreatment and Startup
 
 11. **Filter raw brine**: Pass raw brine through a sand filter (10-50 μm), then a cartridge filter (1-5 μm), then an activated carbon column for organics removal.
 12. **Adjust pH**: In a mixing tank, adjust filtered brine to pH 6.5-7.5 using dilute HCl or NaOH to prevent CaCO₃ and Mg(OH)₂ scaling on membrane surfaces.
@@ -161,7 +160,7 @@ The following procedure describes a pilot-scale lithium recovery operation using
 14. **Start feed flow**: Begin pumping pretreated brine through the diluate channels and deionized water through the concentrate channels. Verify flow rates and check for leaks.
 15. **Apply voltage**: Energize the DC rectifier at low voltage (20-50V). Gradually increase to operating voltage (50-300V) while monitoring current density (target 5-20 mA/cm²). Do not exceed 20 mA/cm² to avoid concentration polarization and membrane damage.
 
-### Phase 4: Continuous Operation
+## Phase 4: Continuous Operation
 
 16. **Monitor performance**: Track Li⁺ concentration in the concentrate stream using periodic sampling and ICP-OES or atomic absorption spectroscopy. Monitor conductivity, pH, voltage, current, and flow rates continuously.
 17. **Stage concentration**: When the first-stage concentrate reaches 3,000-5,000 mg/L Li⁺, route it to a second ED stage (with lower current density, 3-10 mA/cm²) for further concentration to 10,000-25,000 mg/L Li⁺.
@@ -169,7 +168,7 @@ The following procedure describes a pilot-scale lithium recovery operation using
 19. **Clean membranes**: Periodically (every 1-4 weeks depending on brine composition) circulate 1-2% HCl cleaning solution through the stack to remove scale and fouling deposits. Rinse thoroughly before resuming operation.
 20. **Replace membranes**: When Li⁺ selectivity degrades or stack resistance increases significantly (typically after 6-12 months), disassemble the stack and install fresh membranes.
 
-### Phase 5: Product Finishing
+## Phase 5: Product Finishing
 
 21. **Precipitate Li₂CO₃**: Heat the lithium-rich concentrate (10,000-25,000 mg/L Li⁺) to 85-95°C in a stirred reactor. Add sodium carbonate (Na₂CO₃) at ~82 g per liter of concentrate. Stir for 2-4 hours to precipitate Li₂CO₃ crystals.
 22. **Filter and wash**: Separate Li₂CO₃ crystals using a filter press or centrifuge. Wash with deionized water at 90°C to minimize solubility losses. Dry at 120°C.
@@ -301,7 +300,7 @@ The lithium separation system depends on several upstream capabilities. The PVC/
 - [SEM Tech Electrodialysis](sem-tech-electrodialysis.md) -- ED principles and membrane stack design
 - [Electrolysis](electrolysis.md) -- parent article on industrial electrochemical processes
 
----
 
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+[← Back to Chemistry](index.md)

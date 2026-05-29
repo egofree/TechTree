@@ -8,7 +8,7 @@
 > **Outputs**: residual_metals, reprocessed_concentrate, backfill_material, construction_sand
 > **Critical**: No — improves resource efficiency but does not unlock new capabilities
 
-## 1. Overview
+## Overview
 
 Tailings reprocessing recovers residual metals, minerals, and useful materials from mine waste — the finely ground rock left after initial ore processing. Historical mines often left tailings containing 20–60% of the original metal value because the extraction technology of the day was insufficient to recover it. Modern techniques can extract this stranded value.
 
@@ -21,9 +21,9 @@ This capability does not replace primary mining — it supplements it. Reprocess
 
 The boundary between tailings reprocessing and primary ore processing is that tailings material has already been crushed and ground — the energy-intensive comminution step is already done. This gives tailings a processing cost advantage of 20–40% compared to fresh ore.
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 
 | Material | Specification | Source |
 |----------|--------------|--------|
@@ -33,7 +33,7 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Water | 2–10 m³ per tonne of tailings processed | [Water Treatment](../chemistry/water-treatment.md) |
 | Energy | 15–50 kWh per tonne processed | [Energy](../energy/engine.md) |
 
-### Tools & Equipment
+## Tools & Equipment
 
 | Equipment | Purpose | Source |
 |-----------|---------|--------|
@@ -44,16 +44,16 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Thickeners and filters | Solid-liquid separation | [Chemistry](../chemistry/acids-bases.md) |
 | Solvent extraction or ion exchange | Metal purification from leach solutions | [Chemistry](../chemistry/acids-bases.md) |
 
-### Knowledge
+## Knowledge
 
 - Assay and characterization of tailings material (grade, mineralogy, particle size distribution)
 - Hydrometallurgy: leaching chemistry, solvent extraction, precipitation
 - Flotation circuit design for fine particles (tailings are typically finer than run-of-mine ore)
 - Tailings dam stability and geotechnical assessment for safe excavation
 
-## 3. Bill of Materials
+## Bill of Materials
 
-### BOM: Copper Tailings Leaching (per tonne of tailings at 0.3% Cu)
+## BOM: Copper Tailings Leaching (per tonne of tailings at 0.3% Cu)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -65,7 +65,7 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Water | 3–8 m³ | [Water Treatment](../chemistry/water-treatment.md) | Recycled process water |
 | Electricity | 15–30 kWh | [Energy](../energy/engine.md) | Diesel generator |
 
-### BOM: Gold Tailings Retreatment (per tonne of tailings at 0.8 g/t Au)
+## BOM: Gold Tailings Retreatment (per tonne of tailings at 0.8 g/t Au)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -76,9 +76,9 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Oxygen or air | 0.1–0.5 m³ | [Air Separation](../chemistry/air-separation.md) | Compressed air |
 | Water | 2–5 m³ | [Water Treatment](../chemistry/water-treatment.md) | Recycled from tailings pore water |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Flotation Retreatment of Sulfide Tailings
+## 4.1 Flotation Retreatment of Sulfide Tailings
 
 1. **Excavate and re-slurry.** Dig tailings from the impoundment using front-end loaders or hydraulic mining (monitors). Slurry with water to 30–40% solids in a sump pump. Screen at 2–5 mm to remove oversized debris and trash.
 
@@ -102,7 +102,7 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 - Tailings impoundment excavation can destabilize the dam structure if not geotechnically engineered
 - Recovered concentrate grade may be lower than primary ore due to complex mineral locking
 
-### 4.2 Acid Leaching of Metal-Bearing Tailings
+## 4.2 Acid Leaching of Metal-Bearing Tailings
 
 1. **Characterize the tailings.** Assay for target metals (Cu, Zn, Co, Ni, REE). Determine mineralogy (oxide vs. sulfide), acid consumption (carbonate content), and permeability. High carbonate tailings (>5% CaCO₃) consume excessive acid — consider alkaline leaching instead.
 
@@ -126,7 +126,7 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 - Heap leach cycles run 30-120 days — slow return on capital invested in leach pad construction
 - Spent leach solution must be neutralized to pH 8-9 before discharge — continuous limestone consumption
 
-### 4.3 Bioleaching of Sulfide Tailings
+## 4.3 Bioleaching of Sulfide Tailings
 
 1. **Inoculate with bacteria.** Culture iron- and sulfur-oxidizing bacteria (Acidithiobacillus ferrooxidans, Acidithiobacillus thiooxidans). These microorganisms oxidize sulfide minerals, releasing metals into solution. Optimal conditions: pH 1.5–2.5, temperature 30–40°C.
 
@@ -146,9 +146,9 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 - Bacteria are sensitive to temperature excursions, toxic metals (As, Hg), and nutrient deficiency
 - Requires continuous aeration of heap or reactor — compressor energy cost over months of operation
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Typical Recovery Rates from Tailings
+## Typical Recovery Rates from Tailings
 
 | Metal/Mineral | Original Tailings Grade | Reprocessing Recovery | Method | Product |
 |---------------|------------------------|----------------------|--------|---------|
@@ -160,7 +160,7 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Rare earths | 0.1–1% REO | 50–70% | Acid leach + solvent extraction | REE concentrate |
 | Uranium | 0.01–0.05% U₃O₈ | 60–85% | Acid/alkaline leach | Yellowcake (U₃O₈) |
 
-### Leaching Parameters
+## Leaching Parameters
 
 | Parameter | Acid Leach | Bioleach | Alkaline Leach |
 |-----------|-----------|----------|----------------|
@@ -172,7 +172,7 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Energy | 10–30 kWh/t | 5–15 kWh/t (aeration) | 15–40 kWh/t |
 | Acid consumption | 10–80 kg H₂SO₄/t | Self-generating | N/A (alkali) |
 
-### Tailings Deposit Characteristics
+## Tailings Deposit Characteristics
 
 | Parameter | Typical Range | Notes |
 |-----------|--------------|-------|
@@ -181,7 +181,7 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Pore water pH | 2–9 | Acid mine drainage (pH <4) indicates ongoing sulfide oxidation |
 | Residual metal grade | 10–60% of original ore grade | Depends on efficiency of original processing |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 **Minimum viable scale**: A small tailings pile of 5,000–50,000 tonnes can be reprocessed by a single leach tank (10–50 m³) or a small leach pad (0.1–0.5 hectare). This is appropriate for a settlement that has been mining for 15–20 years and has accumulated a meaningful waste pile.
 
@@ -191,7 +191,7 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 
 **Environmental remediation bonus**: Reprocessing often doubles as environmental remediation. Removing sulfide minerals from tailings eliminates the source of acid mine drainage. The reprocessed tailings (with metals removed) can be re-deposited in a modern, lined facility or used as construction backfill.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -202,7 +202,7 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Bioleach stalls (redox drops) | Bacteria killed by temperature excursion, toxic metals (As, Hg), or nutrient limitation | Monitor temperature (keep 30–40°C); dilute toxic metals; add (NH₄)₂SO₄ and K₂HPO₄ nutrients |
 | Solvent extraction crud formation | Fine particulates or organic degradation products at organic-aqueous interface | Filter PLS before SX; add crud treatment (clay or centrifuge); replace degraded organic extractant |
 
-## 8. Safety
+## Safety
 
 **Cyanide handling** (gold tailings): Sodium cyanide (NaCN) is acutely toxic — 200–300 mg oral dose is lethal. At pH <9.5, cyanide releases HCN gas (almond odor, lethal at 150 ppm). Always maintain pH >10.5 during leaching. Cyanide detoxification (SO₂/air or hydrogen peroxide) required before tailings discharge. Emergency: cyanide first-aid kit (amyl nitrite, sodium thiosulfate) must be within 30 seconds of leach area.
 
@@ -212,9 +212,9 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 
 **Dust exposure**: Dry tailings generate silica-containing dust. Prolonged inhalation causes silicosis (irreversible lung scarring). Wet all excavation surfaces. PPE: half-face respirator with P100 filter when dust is visible.
 
-## 9. Quality Control
+## Quality Control
 
-### Tailings Feed Assay
+## Tailings Feed Assay
 
 | Parameter | Method | Purpose |
 |-----------|--------|---------|
@@ -224,7 +224,7 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Particle size distribution | Laser diffraction or sieving | Determine if regrinding needed |
 | Moisture content | Oven drying at 105°C | Calculate dry tonnage |
 
-### Leach Solution Monitoring
+## Leach Solution Monitoring
 
 | Parameter | Frequency | Target |
 |-----------|-----------|--------|
@@ -234,7 +234,7 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Free acid | Daily | 5–20 g/L H₂SO₄ |
 | Dissolved oxygen | Continuous (tank leach) | >2 mg/L |
 
-### Product Quality
+## Product Quality
 
 | Product | Key Specification | Test Method |
 |---------|-------------------|-------------|
@@ -243,9 +243,9 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Copper concentrate | 20–30% Cu, <0.1% As | ICP-OES |
 | Iron concentrate | >60% Fe, <0.05% P | XRF |
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Tailings Reprocessing Methods Compared
+## Tailings Reprocessing Methods Compared
 
 | Method | Target Metals | Recovery | Cost per Tonne | Best For |
 |--------|-------------|----------|----------------|----------|
@@ -257,14 +257,14 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Magnetic separation | Fe (magnetite) | 60–80% | $3–10 | Iron ore tailings |
 | Gravity separation | Au (coarse), Sn, W | 40–70% | $2–8 | Coarse heavy mineral tailings |
 
-### When NOT to Reprocess
+## When NOT to Reprocess
 
 - Tailings grade below economic cutoff (varies by metal; Cu <0.1%, Au <0.2 g/t)
 - Tailings volume too small for capital investment
 - Environmental risk of excavation exceeds benefit
 - Access to tailings deposit is difficult (under water, under infrastructure)
 
-## 11. References
+## References
 
 - [Mining Extraction](extraction.md) — Primary mining methods
 - [Ore Processing](processing.md) — Crushing, grinding, flotation, gravity separation
@@ -276,6 +276,6 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 - [Waste Management](../ehs/waste-management.md) — Disposal of leach residues and process waste
 - [Chemical Recovery](../chemistry/chemical-recovery.md) — Acid and solvent recovery from leaching operations
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Mining](./index.md) • [All Domains](../index.md)*
+
+[← Back to Mining](index.md)

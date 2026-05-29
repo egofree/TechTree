@@ -8,13 +8,12 @@
 > **Outputs**: gold, silver, semiconductor-grade gold wire, silver paste, refined precious metals
 > **Critical**: true
 
-### Overview
 
 Gold and silver occupy a unique position in industrial metallurgy: both are ancient metals (worked since 6000 BCE) yet remain indispensable in modern semiconductor manufacturing. Gold wire (25 μm diameter) bonds silicon die to package leads. Silver paste screen-prints electrical contacts on solar cells. Platinum-group metals catalyze chemical processes from nitric acid production to petroleum refining. Despite their antiquity, producing these metals to semiconductor-grade purity (99.99%+) demands electrochemistry, controlled atmospheres, and precise acid management.
 
 This capability covers the production chain from ore (or recycled electronic scrap) through extraction and refining to high-purity gold and silver suitable for electronics, coinage, and chemical applications.
 
-### Gold
+## Gold
 
 Gold (Au, atomic number 79) is the most noble metal — it does not oxidize in air at any temperature, resists attack by most acids, and retains its metallic luster indefinitely. These properties make it irreplaceable for corrosion-free electrical contacts and wire bonding in semiconductor packaging.
 
@@ -39,7 +38,7 @@ Gold occurs almost exclusively as native metal (elemental Au) in geological depo
 - Hard-rock gold ore grades are very low (2-15 g/t), requiring processing of 50-500 tonnes of ore per kg of gold.
 - Refractory gold (locked in sulfide matrix) requires roasting or pressure oxidation before leaching — adding significant process complexity.
 
-### Gold Extraction Methods
+## Gold Extraction Methods
 
 **Mercury amalgamation** (ancient, hazardous, still used by artisanal miners):
 
@@ -71,7 +70,7 @@ Centrifugal concentrators (Falcon, Knelson) apply 60-300G to a fluidized bed of 
 - Mercury amalgamation recovers only 30-50% of gold and releases ~1000 tonnes/year of mercury to the environment — the largest single-source mercury pollution globally.
 - Cyanide is acutely toxic (LD₅₀ 1-3 mg/kg HCN gas) — tailings ponds require double HDPE lining with leak detection, and cyanide destruction (SO₂/air process) before discharge.
 
-### Gold Refining
+## Gold Refining
 
 **Miller chlorination process** (quick, produces 99.5% gold):
 
@@ -109,7 +108,7 @@ After dissolution, gold is recovered by:
 - Wohlwill refining requires chloroauric acid electrolyte (prepared from aqua regia), stable DC power (0.5-1.5 V, 500-1000 A/m²), and anode silver <5% — significant infrastructure.
 - Miller chlorination uses dry chlorine gas — extremely hazardous, requires enclosed ventilated systems with NaOH scrubbers.
 
-### Gold Properties and Applications
+## Gold Properties and Applications
 
 **Physical properties**:
 - Density: 19.32 g/cm³ (one of the densest elements — a 1 kg cube is only 3.7 cm per side)
@@ -130,7 +129,7 @@ After dissolution, gold is recovered by:
 - Gold's density (19.3 g/cm³) and cost limit use to thin-film and wire applications — bulk structural use is impractical.
 - Gold is soft (HV ~25 annealed) — unsuitable for wear surfaces without alloying or hardening.
 
-### Silver
+## Silver
 
 Silver (Ag, atomic number 47) has the highest electrical conductivity (63 × 10⁶ S/m) and thermal conductivity of any element. Its primary industrial use is no longer coinage or jewelry (~25%) but photovoltaic solar cells (~30%), electrical contacts (~20%), and electronics (~15%). Modern solar cells consume ~100 mg of silver per cell — at current production rates, this exceeds 100 million ounces per year.
 
@@ -156,7 +155,7 @@ Unlike gold, silver rarely occurs as native metal. Most silver is produced as a 
 - Silver tarnishes in air (Ag₂S from H₂S) — surface degradation affects electrical contact reliability over time.
 - Primary silver ore grades (200-1000 g/t) are low relative to base metals, requiring large-scale mining operations.
 
-### Silver Extraction
+## Silver Extraction
 
 **Lead ore smelting and Parkes process** (dominant route, see [Non-Ferrous Metals](non-ferrous.md) for full lead smelting details):
 
@@ -175,7 +174,7 @@ Silver is recovered from lead bullion via the Parkes process, which exploits the
 - Parkes process requires zinc metal production and lead smelting — a two-metallurgy dependency chain.
 - Copper anode slime processing involves multiple steps (decopperization, selenium removal, doré smelting, electrolysis) — each step requires specialized equipment.
 
-### Silver Refining
+## Silver Refining
 
 **Electrolytic refining (Moebius process)** — the standard for high-purity silver:
 
@@ -202,7 +201,7 @@ Pass a molten zone along a silver bar (zone refining — same principle as for s
 - Zone refining for semiconductor-grade (99.999%+) is slow and expensive — multiple passes needed per bar.
 - Moebius process generates anode slime containing gold and PGM that requires separate precious metals refining — adds processing complexity.
 
-### Silver Properties and Applications
+## Silver Properties and Applications
 
 **Physical properties**:
 - Density: 10.49 g/cm³. Melting point: 961.8°C. Boiling point: 2162°C.
@@ -224,7 +223,7 @@ Pass a molten zone along a silver bar (zone refining — same principle as for s
 - Silver tarnish (Ag₂S) increases contact resistance over time — requires protective plating or atmospheres for long-term reliability.
 - Solar cell silver consumption (~100 mg/cell) creates ~100 Moz/year demand — supply security concerns as photovoltaic production scales.
 
-### Interdependencies and Bootstrap Sequence
+## Interdependencies and Bootstrap Sequence
 
 Precious metal production depends heavily on existing metallurgical and chemical infrastructure:
 
@@ -249,7 +248,7 @@ Precious metal production depends heavily on existing metallurgical and chemical
 - Cyanidation and electrolytic refining require chemical and electrical infrastructure (NaCN, DC power, HNO₃) not available until mid-bootstrap.
 - Semiconductor-grade purity (99.999%+) requires zone refining or repeated electrolysis — slow, expensive, and energy-intensive.
 
-### Safety & Hazards
+## Safety & Hazards
 
 **Cyanide**:
 - NaCN and KCN are acutely toxic. HCN gas (formed when cyanide contacts acid) is lethal at 100-300 ppm in air. Symptoms: headache, dizziness, nausea, convulsions, death within minutes at high concentration.
@@ -271,6 +270,6 @@ Precious metal production depends heavily on existing metallurgical and chemical
 - NO₂ (brown gas) causes delayed pulmonary edema. Symptoms may appear 4-12 hours post-exposure. TLV-TWA: 0.5 ppm (as NO₂).
 - All precious metal refining involving nitric acid must be performed under fume extraction with NOx scrubbing.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Metals](index.md)

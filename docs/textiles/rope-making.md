@@ -30,7 +30,7 @@ Rope quality depends on fiber choice. The ideal rope fiber is strong, long-stapl
 
 **Fiber preparation**: Before ropemaking, fibers must be hackled or combed to align them parallel and remove short pieces and debris. Spin the prepared fibers into yarn by twisting — use a spinning wheel, drop spindle, or mechanical spinner. Conventional yarn twist for Western ropemaking is Z-twist (clockwise when viewed from above). Multiple yarns are twisted together to form a **[strand](../glossary/strand.md)** — the intermediate building block between yarn and rope.
 
-### 3-Strand Rope Laying
+## 3-Strand Rope Laying
 
 The 3-strand laid rope is the most common rope construction, used for millennia and still standard for general-purpose rope today.
 
@@ -58,7 +58,7 @@ The 3-strand laid rope is the most common rope construction, used for millennia 
 **[Ropewalk method](../glossary/ropewalk-method.md)** (for long ropes):
 - Purpose-built long building (historically up to 370 m at Portsmouth Royal Dockyard). Yarns are stretched the full length of the ropewalk and laid by walking the length while turning. The ropewalk allows production of the longest continuous ropes — limited only by building length. Essential for ship rigging, where a single continuous rope (no splices) is strongest. Historically, naval ropewalks were the longest industrial buildings of their era.
 
-### Ropewalk Facility Design
+## Ropewalk Facility Design
 
 A ropewalk is a specialized long, narrow building for producing continuous rope in a single length. Key design parameters:
 
@@ -70,7 +70,7 @@ A ropewalk is a specialized long, narrow building for producing continuous rope 
 - **Tarring station**: Separate area (often an attached shed) with a tarring kettle (iron cauldron, 60-100 cm diameter, over brick furnace). Rope passes over the kettle on rollers while hot tar is brushed on. Ventilation essential — tar fumes are irritating.
 - **Storage**: Dry, ventilated rope loft for finished rope. Coiled in round "bales" or hung in long loops from hooks. Elevated off the floor to prevent moisture and rodent damage.
 
-### Splicing
+## Splicing
 
 A splice joins rope to rope, or creates a permanent loop (eye), by interweaving the strands. Splices are dramatically stronger than knots — a proper splice retains 80-95% of rope strength, while a knot reduces strength by 30-50% due to sharp bends and fiber compression at the knot.
 
@@ -89,7 +89,7 @@ A splice joins rope to rope, or creates a permanent loop (eye), by interweaving 
 - Unlay both rope ends for ~10 rope diameters. Interleave the 6 strands (3 from each end) by alternating them. Tuck each strand through the opposing rope body, following the lay.
 - Result: a permanent join. Doubles the diameter at the splice — will not pass through pulleys or fairleads. Used where a strong join is needed and rope does not need to run through blocks.
 
-### Knot Compendium
+## Knot Compendium
 
 Knots reduce rope strength by 30-50% at the knot location, but some retain more strength than others. The following table shows approximate strength retention for hemp rope:
 
@@ -109,7 +109,7 @@ Knots reduce rope strength by 30-50% at the knot location, but some retain more 
 
 **[Splicing](../glossary/splicing.md)** retains 80-95% strength — always preferred for permanent connections.
 
-### Tarring
+## Tarring
 
 Brushing hot pine tar onto finished rope preserves it against moisture, rot, and marine organisms. Tarred rope was standard for maritime use from the medieval period through the 19th century.
 
@@ -127,7 +127,7 @@ Brushing hot pine tar onto finished rope preserves it against moisture, rot, and
 - Hot tar (60-80°C) causes thermal burns; tar fumes irritate eyes and respiratory tract
 - Tar darkens rope to near-black, obscuring visual inspection of fiber condition underneath
 
-### Breaking Strength
+## Breaking Strength
 
 Breaking strength scales with cross-sectional area (πr²). Approximate values for new hemp rope:
 
@@ -147,7 +147,7 @@ Breaking strength scales with cross-sectional area (πr²). Approximate values f
 
 **Strength degradation**: Fiber rope loses strength progressively with use. Wet rope: hemp gains strength (+10-20%), cotton loses strength (-30%). UV exposure: 10-30% strength loss per year in tropical sun. Abrasion: localized strength loss at chafe points. Biological attack: mold, rot, marine borers (untreated rope in tropical water may lose 50% strength in 6 months). Inspect rope regularly — visible fiber breakage on the surface indicates advanced degradation internally.
 
-### Pulley Systems & Mechanical Advantage
+## Pulley Systems & Mechanical Advantage
 
 Blocks (pulleys) multiply the pulling force on a load. A tackle is a rope reeved through one or more blocks. Mechanical advantage (MA) equals the number of rope parts (line segments) supporting the load:
 
@@ -160,7 +160,7 @@ Blocks (pulleys) multiply the pulling force on a load. A tackle is a rope reeved
 
 **Block construction**: Wooden shell (elm or ash, carved in two halves, bolted around the sheave). Sheave (pulley wheel) turned from lignum vitae (self-lubricating hardwood) or iron. Pin (iron axle) through shell and sheave. Hook or becket (attachment fitting) at the top. Size rated by rope diameter — sheave groove must match rope to prevent excessive bending and wear.
 
-### Proof Loading & Testing
+## Proof Loading & Testing
 
 Before critical service, rope should be proof-tested to verify rated strength:
 
@@ -168,7 +168,7 @@ Before critical service, rope should be proof-tested to verify rated strength:
 - **Simple proof test method**: Suspend rope with known weight (sandbags, iron weights, or water-filled barrels). Gradually increase load to proof level. Measure elongation under load — excessive stretch (>15% of original length) indicates internal damage or poor construction.
 - **Destructive testing**: Sacrifice a sample (1-2 m) from each production batch. Pull to failure in a testing machine or with a lever-based breaking rig. Record actual breaking strength. Batch passes if actual ≥ rated breaking strength. Test 1 sample per 200 m of rope produced, minimum.
 
-### Wire Rope (Iron & Steel Stage)
+## Wire Rope (Iron & Steel Stage)
 
 Wire rope progressively replaced fiber rope for standing rigging and heavy lifting from the 1830s onward. Wire rope offers 3-5× the strength-to-weight ratio of hemp and minimal stretch under load.
 
@@ -177,7 +177,7 @@ Wire rope progressively replaced fiber rope for standing rigging and heavy lifti
 - **Handling**: Wire rope requires thimbles, wire rope clips (Crosby clips — minimum 3 clips per eye, spacing 6× rope diameter), or swaged fittings. Wire rope cannot be knotted — only clipped or spliced with specialized tools. Leather-palmed gloves essential for handling (broken wire ends cause severe puncture wounds).
 - **Transition**: Not all fiber rope can be replaced. Running rigging (lines that pass through blocks), mooring lines, and applications requiring flexibility, knot-ability, or flotation continue using fiber rope well into the 20th century.
 
-### Storage & Inspection
+## Storage & Inspection
 
 Proper storage and regular inspection extend rope service life dramatically:
 
@@ -195,7 +195,7 @@ Proper storage and regular inspection extend rope service life dramatically:
 - Stretch: Rope has elongated ≥15% from original length — internal fibers are failing.
 - Knots or damage at critical points: Any damage in a section that will be loaded near working limit.
 
-### Applications
+## Applications
 
 - **Lifting and hoisting** (cranes, hoists, block and tackle): Use highest safety factor (10:1). Splice all attachments — never knot. Choose hemp or manila for strength. Avoid shock loads — fiber rope has poor energy absorption compared to wire rope.
 - **Maritime rigging** (standing rigging, running rigging, mooring, anchor rode): Saltwater demands tarred hemp or manila. Standing rigging (shrouds, stays) carries constant load — use thick rope, inspect for chafe at deadeyes and pins. Running rigging (sheets, halyards) passes through blocks — must be flexible, choose manila or lighter hemp.
@@ -203,7 +203,7 @@ Proper storage and regular inspection extend rope service life dramatically:
 - **[Transport](../transport/index.md)** (towing, cargo securing): Tow ropes need stretch resistance — hemp over cotton. Cargo lashings must hold under vibration and shock — use proper knots (trucker's hitch) or splices, and re-check after initial settling.
 - **[Agriculture](../agriculture/index.md)** (hay lifting, fencing, animal restraint): Sisal acceptable for most agricultural uses. Jute twine for binding sheaves and bales. Sisal baler twine for mechanized baling.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Snapback**: Rope under heavy tension stores significant energy. If the rope breaks, the ends snap back violently toward the anchor points, potentially striking personnel with lethal force. Never stand in the direct line of a rope under tension. When possible, stand to one side and behind the anchor point. Use whip lines (light cord tied across the loaded rope to dampen snapback if the main rope breaks).
 - **Fiber cuts and rope burn**: Handling rope causes friction burns (rope burn) on bare hands, especially when rope runs through hands under load. Wear gloves when handling rope under tension. Rope fibers can cause lacerations — particularly with old, frayed rope. Cut rope ends cleanly and seal (whipping, back splice) to prevent loose fibers.
@@ -211,7 +211,7 @@ Proper storage and regular inspection extend rope service life dramatically:
 - **Tar burns and inhalation**: Hot pine tar (60-80°C) causes thermal burns on skin contact. Tar vapors are irritating to eyes and respiratory tract. Apply tar in a well-ventilated area. Wear heavy gloves, eye protection, and long sleeves. Hot tar is difficult to remove from skin — use vegetable oil or petroleum jelly to loosen before washing.
 - **Biological hazards in natural fiber storage**: Stored natural fiber rope is susceptible to mold, mildew, and rodent infestation. Mold spores from stored rope cause respiratory irritation. Store rope dry, elevated off the floor, in ventilated areas. Inspect stored rope before use — discard rope showing mold, discoloration, or musty odor.
 
-### Rope Testing & Certification Standards
+## Rope Testing & Certification Standards
 
 Rope for lifting and life-safety applications must be proof-tested and certified before use. The proof load is set at 2× the rated working load, verifying the rope can withstand expected service conditions without permanent deformation or damage.
 

@@ -8,11 +8,10 @@
 > **Outputs**: ethanol, methanol, ether, turpentine, hydrogen_peroxide
 > **Critical**: No — solvents are used in nearly all chemical processes but are produced from multiple alternative routes
 
-### Overview
 
 Solvents dissolve, extract, clean, and transport chemical species. They are the workhorses of pharmaceutical synthesis (extract active compounds, crystallize products), semiconductor manufacturing (RCA clean, photoresist stripping), industrial degreasing, and chemical analysis. No chemical industry operates without them. This page catalogs the solvents accessible at each stage of bootstrap development — from ethanol and turpentine (organic, low-technology) to chlorinated solvents and hydrogen peroxide (industrial chemistry).
 
-### Ethanol
+## Ethanol
 
 Ethanol (C₂H₅OH, bp 78.3°C) is the first industrial solvent available. Production is covered in detail in [Fermentation](fermentation.md).
 
@@ -29,7 +28,7 @@ Ethanol (C₂H₅OH, bp 78.3°C) is the first industrial solvent available. Prod
 
 **Applications**: Pharmaceutical extraction and tincture preparation. Fuel (anhydrous ethanol blends). Feedstock for diethyl ether synthesis. Cleaning/degreasing where water-based cleaners are insufficient. Preservative (70% ethanol is bactericidal — denatures proteins).
 
-### Methanol
+## Methanol
 
 Methanol (CH₃OH, bp 64.7°C) is the simplest alcohol and a critical feedstock. Production routes are described in [Fermentation](fermentation.md) (wood pyrolysis) and [Petroleum](petroleum-alternatives.md) (synthesis gas).
 
@@ -46,7 +45,7 @@ Methanol (CH₃OH, bp 64.7°C) is the simplest alcohol and a critical feedstock.
 
 **Toxicity**: Methanol is metabolized to formaldehyde then formic acid. As little as 10 mL causes permanent blindness; 30 mL can be fatal. Handle in ventilated areas. Never use containers that could be confused with food or water vessels.
 
-### Diethyl Ether
+## Diethyl Ether
 
 Diethyl ether (C₂H₅OC₂H₅, bp 34.6°C) is the simplest practical ether and one of the most volatile common solvents.
 
@@ -73,7 +72,7 @@ Diethyl ether (C₂H₅OC₂H₅, bp 34.6°C) is the simplest practical ether an
 
 **Applications**: Extraction solvent (alkaloids from plant material — critical for [Pharmacology](../health/pharmacology.md)). Anesthetic (historically). Starting fluid for diesel and gasoline engines (high volatility aids cold-start ignition). Reaction solvent for Grignard reactions and lithium aluminum hydride reductions.
 
-### Turpentine
+## Turpentine
 
 Turpentine (C₁₀H₁₆ mixture, primarily α-pinene and β-pinene, bp 156-180°C) is the oldest organic solvent available without chemical synthesis. Produced by steam [Distillation](distillation.md) of pine resin (oleoresin).
 
@@ -89,7 +88,7 @@ Turpentine (C₁₀H₁₆ mixture, primarily α-pinene and β-pinene, bp 156-18
 
 **Applications**: Paint thinner and brush cleaner (historically the primary use before mineral spirits). Feedstock for terpene chemistry (camphor, synthetic pine oil, terpin hydrate). Rubber solvent and plasticizer. Degreasing of metal parts. Starting material for synthesis of fragrances (linalool, geraniol) and pharmaceuticals.
 
-### Benzene, Toluene, Xylene (BTX)
+## Benzene, Toluene, Xylene (BTX)
 
 BTX aromatics are powerful solvents and feedstocks derived from coal tar or petroleum catalytic reforming (see [Petroleum](petroleum-alternatives.md)).
 
@@ -110,7 +109,7 @@ BTX aromatics are powerful solvents and feedstocks derived from coal tar or petr
 
 **Source**: Coal tar distillation (4-8% BTX in coal tar) or petroleum catalytic reforming (platforming — Pt/Al₂O₃ catalyst at 500°C, 15-30 bar, converts naphtha to aromatics + hydrogen). See [Petroleum](petroleum-alternatives.md) for production details.
 
-### Hydrogen Peroxide
+## Hydrogen Peroxide
 
 Hydrogen peroxide (H₂O₂) is not a solvent in the traditional sense but plays critical roles as an oxidizer, bleaching agent, and cleaning chemical essential for semiconductor manufacturing and pharmaceutical production.
 
@@ -142,7 +141,7 @@ Hydrogen peroxide (H₂O₂) is not a solvent in the traditional sense but plays
 
 **Weaknesses**: Concentrated H₂O₂ (>50%) decomposes violently with trace metal contamination (Fe, Cu, Mn); vacuum distillation for concentration requires scrupulously clean equipment; Pd or Ni hydrogenation catalyst adds cost; H₂O₂ degrades in storage (lose ~1% potency/year at 30%); incompatible with organic solvents (explosion risk in concentrated form).
 
-### Chlorinated Solvents
+## Chlorinated Solvents
 
 Carbon tetrachloride (CCl₄, bp 76.7°C), trichloroethylene (TCE, bp 87°C), and perchloroethylene (perc, tetrachloroethylene, bp 121°C) are powerful non-flammable degreasing solvents — but carry serious health and environmental hazards.
 
@@ -168,7 +167,7 @@ Carbon tetrachloride (CCl₄, bp 76.7°C), trichloroethylene (TCE, bp 87°C), an
 
 **Environmental persistence**: All chlorinated solvents resist biodegradation. They contaminate groundwater at µg/L levels detectable by taste and smell. Soil and groundwater remediation is enormously expensive (pump-and-treat, air stripping, activated carbon). Prevention is far cheaper than cleanup.
 
-### Carbon Disulfide
+## Carbon Disulfide
 
 Carbon disulfide (CS₂, bp 46.3°C) is a volatile, highly flammable, and toxic solvent essential for viscose rayon production and rubber vulcanization.
 
@@ -183,7 +182,7 @@ Carbon disulfide (CS₂, bp 46.3°C) is a volatile, highly flammable, and toxic 
 
 **Toxicity**: Chronic exposure causes neurological damage (parkinsonism, psychosis). Acute poisoning at 1000+ ppm. Threshold limit value: 1 ppm (very low — stricter than most solvents). Use only in enclosed systems with local exhaust ventilation.
 
-### Solvent Selection Guide
+## Solvent Selection Guide
 
 No single solvent is ideal for every application. Selection balances solvency power, boiling point, toxicity, flammability, cost, and availability.
 
@@ -210,7 +209,7 @@ No single solvent is ideal for every application. Selection balances solvency po
 5. **[Need a volatile extraction solvent?](../glossary/need-a-volatile-extraction-solvent.md)** Diethyl ether — with extreme fire safety precautions. Never use near flames or sparks.
 6. **[Need an oxidizer/cleaner?](../glossary/need-an-oxidizercleaner.md)** H₂O₂ for semiconductor RCA clean, bleaching, wastewater treatment.
 
-### Recovery and Recycling
+## Recovery and Recycling
 
 Discharging spent solvents is both wasteful and environmentally destructive. Recovery is standard practice.
 
@@ -267,6 +266,6 @@ Solvents present a tiered hazard landscape ranked by severity:
 - **[SEM Tech](sem-tech.md)**: Membrane-based separation as an alternative to distillation for solvent recovery
 - **[Health / Pharmacology](../health/pharmacology.md)**: Solvent extraction of active pharmaceutical compounds
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+[← Back to Chemistry](index.md)

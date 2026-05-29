@@ -18,15 +18,15 @@ Beyond the assembler itself, this capability includes linkers (which combine mul
 
 ## Prerequisites
 
-### Software
+## Software
 - **Working machine code entry capability** ([machine-code](machine-code.md)): The assembler itself must first be written in machine code or on a cross-development system.
 - **ISA reference**: Complete instruction set specification from [computing.electronic](../computing/electronic.md).
 
-### Hardware
+## Hardware
 - **Computer with sufficient memory**: The assembler needs at least 4-8 KB to operate (program + symbol table + input buffer + output buffer). A practical assembler for a real ISA needs 8-32 KB.
 - **Storage for source and output**: Paper tape or magnetic storage for both the assembly source file and the generated object code.
 
-### Knowledge
+## Knowledge
 - **Formal grammar basics**: Understanding of labels, opcodes, operands, and directives as syntactic categories.
 - **Symbol table algorithms**: Hash tables or binary search for label lookup.
 - **Relocation concepts**: Understanding that object code may need address adjustment when combined with other modules.
@@ -42,7 +42,7 @@ Beyond the assembler itself, this capability includes linkers (which combine mul
 
 ## Process Description
 
-### Assembly Language Design
+## Assembly Language Design
 
 Before writing the assembler, define the assembly language syntax:
 
@@ -66,7 +66,7 @@ DONE:   RET              ; Return
 - `EQU value` — equate symbol to value (constant definition)
 - `END` — end of source program
 
-### Two-Pass Assembly
+## Two-Pass Assembly
 
 The assembler makes two passes over the source file:
 
@@ -96,7 +96,7 @@ DONE:   RET               ; Label DONE is defined here
 
 Without two passes, the assembler cannot resolve `DONE` when it first encounters the jump. Pass 1 collects all labels; Pass 2 resolves all references.
 
-### Symbol Table Implementation
+## Symbol Table Implementation
 
 The symbol table maps label names to numeric addresses. For a small assembler (<100 labels), a simple linear search works. For larger programs (100-10,000 labels), use a hash table:
 
@@ -109,7 +109,7 @@ The symbol table maps label names to numeric addresses. For a small assembler (<
 
 **Memory requirement**: Each symbol table entry uses ~8-20 bytes (label name + address + link pointer). 1,000 labels × 16 bytes = 16 KB. This is a significant memory commitment on a machine with 32 KB total.
 
-### Linker Operation
+## Linker Operation
 
 The linker combines multiple independently assembled object files into a single executable:
 
@@ -121,7 +121,7 @@ The linker combines multiple independently assembled object files into a single 
 
 **Relocation table**: For each instruction that contains an absolute address, the assembler records the offset in the object file. The linker adds the module's base address to each such location.
 
-### Loader Operation
+## Loader Operation
 
 The loader reads an executable file into memory and starts execution:
 
@@ -146,7 +146,7 @@ The loader reads an executable file into memory and starts execution:
 | Practical assembler memory | 8-32 KB | For real programs with many labels |
 | First assembler size | 512-2,048 bytes | Written in machine code |
 
-### Assembler Complexity Metrics
+## Assembler Complexity Metrics
 
 | Component | Lines of Code | Memory Usage |
 |-----------|--------------|-------------|

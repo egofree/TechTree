@@ -26,25 +26,25 @@ Yield for mature semiconductor nodes typically runs 60-90%, meaning 10-40% of ma
 
 ## Implementation Steps
 
-### Step 1: Establish Data Collection Infrastructure
+## Step 1: Establish Data Collection Infrastructure
 1. Deploy inline inspection tools at critical process steps (post-lithography, post-etch, post-CMP)
 2. Configure [SECS/GEM](../automation/equipment-communication.md) data collection for defect counts per wafer, per chamber, per lot
 3. Set up yield database with lot-level tracking linking defect data to electrical test results
 4. Define defect taxonomy: particle, scratch, pattern defect, contamination, thickness non-uniformity
 
-### Step 2: Run Weekly Pareto Analysis
+## Step 2: Run Weekly Pareto Analysis
 1. Extract defect data from the past 1-4 weeks of production
 2. Categorize by defect type and process step
 3. Sort by frequency, compute cumulative percentage
 4. Present Pareto chart to engineering team for priority assignment
 
-### Step 3: Conduct Fishbone Analysis on Top Defects
+## Step 3: Conduct Fishbone Analysis on Top Defects
 1. Select top 3-5 yield-limiting defects from Pareto analysis
 2. For each defect, assemble cross-functional team (process, equipment, materials, quality engineers)
 3. Construct fishbone diagram using 6M framework
 4. Prioritize hypothesized causes using [SPC](statistical-process-control.md) data and maintenance logs
 
-### Step 4: Update FMEA Annually
+## Step 4: Update FMEA Annually
 1. Review all process FMEAs for completeness with cross-functional team
 2. Update RPN scores based on actual production defect data
 3. Implement corrective actions for all RPN > 100 items
@@ -54,7 +54,7 @@ Yield for mature semiconductor nodes typically runs 60-90%, meaning 10-40% of ma
 
 The Pareto principle (80/20 rule) states that approximately 80% of defects come from 20% of the causes. Pareto analysis identifies the "vital few" defect types that dominate yield loss, enabling focused engineering effort on the highest-impact problems.
 
-### Pareto Chart Construction
+## Pareto Chart Construction
 
 1. **Collect defect data**: From wafer sort results, in-process inspection, and final test. Categorize each defect by type (particle, scratch, pattern defect, electrical fail) and by process step (lithography, etch, deposition, CMP).
 
@@ -66,7 +66,7 @@ The Pareto principle (80/20 rule) states that approximately 80% of defects come 
 
 5. **Plot**: Bar chart of defect frequency (descending) with a line overlay showing cumulative percentage.
 
-### Pareto Analysis Example: 28nm Logic Fab
+## Pareto Analysis Example: 28nm Logic Fab
 
 | Defect Type | Count | % of Total | Cumulative % |
 |------------|-------|-----------|-------------|
@@ -82,7 +82,7 @@ The Pareto principle (80/20 rule) states that approximately 80% of defects come 
 
 **Analysis**: The top 4 defect types account for 79.7% of all defects. Focused effort on metal1 deposition particles and metal1 lithography bridging alone would address over 55% of the total yield loss. Resource allocation: assign your best engineers to the top 3 problems before attacking the remaining items.
 
-### Stratified Pareto Analysis
+## Stratified Pareto Analysis
 
 Simple Pareto charts can mask important patterns. Stratify by:
 - **Process tool**: Which specific tool generates the most defects? A single poorly maintained etch chamber may dominate.
@@ -94,7 +94,7 @@ Simple Pareto charts can mask important patterns. Stratify by:
 
 The fishbone diagram (also called cause-and-effect diagram) systematically catalogs all potential root causes of a quality problem, organized by category. The diagram resembles a fish skeleton — the "head" is the effect (the defect), and the "bones" are the causes.
 
-### Major Cause Categories (6M Framework)
+## Major Cause Categories (6M Framework)
 
 For manufacturing defect analysis, causes are organized into six categories (the 6Ms):
 
@@ -105,7 +105,7 @@ For manufacturing defect analysis, causes are organized into six categories (the
 5. **Measurement**: Inspection method resolution, gage R&R, sampling adequacy, calibration accuracy
 6. **Mother Nature (Environment)**: Temperature, humidity, vibration, cleanroom class, electromagnetic interference, particle levels
 
-### Fishbone Construction Process
+## Fishbone Construction Process
 
 1. **Define the effect**: Write the defect clearly at the "head" of the diagram (e.g., "Metal1 bridging defect rate >5%").
 
@@ -119,7 +119,7 @@ For manufacturing defect analysis, causes are organized into six categories (the
 
 6. **Validate**: Design experiments or collect additional data to confirm or eliminate hypothesized causes.
 
-### Example: Metal1 Bridging Defect Fishbone
+## Example: Metal1 Bridging Defect Fishbone
 
 ```
                     Man                    Machine
@@ -154,7 +154,7 @@ FMEA is a systematic, proactive method for identifying potential failure modes, 
 - Time-intensive: comprehensive FMEA for a 500-step process requires weeks of cross-functional team effort
 - RPN prioritization can miss interactions: individually low-RPN items may combine to cause significant failures
 
-### FMEA Structure
+## FMEA Structure
 
 | Column | Description |
 |--------|-------------|
@@ -169,7 +169,7 @@ FMEA is a systematic, proactive method for identifying potential failure modes, 
 | RPN (Risk Priority Number) | S × O × D (range 1-1000) |
 | Recommended Actions | Steps to reduce RPN (reduce severity, occurrence, or improve detection) |
 
-### Severity Rating Scale (Semiconductor-Adapted)
+## Severity Rating Scale (Semiconductor-Adapted)
 
 | Rating | Effect | Example |
 |--------|--------|---------|
@@ -180,7 +180,7 @@ FMEA is a systematic, proactive method for identifying potential failure modes, 
 | 8-9 | Severe failure | Circuit non-functional, yield loss >20% |
 | 10 | Catastrophic | Safety hazard, complete wafer loss, fab shutdown |
 
-### Occurrence Rating Scale
+## Occurrence Rating Scale
 
 | Rating | Frequency | Approx. Defect Rate |
 |--------|-----------|-------------------|
@@ -192,7 +192,7 @@ FMEA is a systematic, proactive method for identifying potential failure modes, 
 | 8-9 | Very high | 1 in 20 to 1 in 10 |
 | 10 | Almost certain | >1 in 10 |
 
-### Detection Rating Scale
+## Detection Rating Scale
 
 | Rating | Detection Capability |
 |--------|---------------------|
@@ -203,14 +203,14 @@ FMEA is a systematic, proactive method for identifying potential failure modes, 
 | 8-9 | Very low (inspection at later step, delay in detection) |
 | 10 | Almost impossible (no inspection, hidden defect) |
 
-### FMEA Prioritization
+## FMEA Prioritization
 
 - **RPN > 200**: Immediate action required. Process cannot proceed without corrective measures.
 - **RPN 100-200**: Action required before production ramp. Schedule corrective actions.
 - **RPN 50-100**: Improvement desirable. Address during continuous improvement cycle.
 - **RPN < 50**: Acceptable risk. Monitor during production.
 
-### Semiconductor Process FMEA Example (Excerpt)
+## Semiconductor Process FMEA Example (Excerpt)
 
 | Step | Failure Mode | Effect | S | Cause | O | Control | D | RPN |
 |------|-------------|--------|---|-------|---|---------|---|-----|
@@ -228,7 +228,7 @@ FMEA is a systematic, proactive method for identifying potential failure modes, 
 
 Yield models predict the fraction of functional die on a wafer based on defect density, die area, and process complexity. These models guide process development investment, product sizing decisions, and fab capacity planning.
 
-### Murphy's Yield Model
+## Murphy's Yield Model
 
 The most commonly used yield model for semiconductor manufacturing:
 
@@ -256,7 +256,7 @@ This model assumes a uniform spatial distribution of defects with a specific pro
 | 0.50 | 200 mm² | 69.3% | ~237 |
 | 1.00 | 200 mm² | 52.2% | ~178 |
 
-### Seeds Model
+## Seeds Model
 
 An alternative yield model that accounts for defect clustering more aggressively:
 
@@ -268,7 +268,7 @@ Where α is the clustering parameter (typically α = 1-2 for semiconductor proce
 
 The Seeds model predicts lower yields than Murphy's for the same D₀ and A when D₀A > 1, making it more conservative (and often more realistic for leading-edge processes with high defect densities).
 
-### Composite Yield
+## Composite Yield
 
 For a process with N sequential steps, each with individual yield Y_i:
 
@@ -282,7 +282,7 @@ Y_target^(1/N) = minimum acceptable per-step yield
 
 Example: Target yield 80% over 500 steps → per-step yield target = 0.80^(1/500) = 0.9996 (99.96%). Per-step defect density budget = −ln(0.9996) / A_die (for exponential defect model).
 
-### Yield Learning Curve
+## Yield Learning Curve
 
 Yield improves predictably over time following a learning curve:
 
@@ -298,7 +298,7 @@ Yield learning is driven by systematic defect reduction: identify the top yield 
 
 RCA is the structured methodology for investigating quality excursions — unexpected yield drops, out-of-control events, or customer returns. RCA goes beyond symptoms to identify the fundamental cause that, when corrected, prevents recurrence.
 
-### 5 Whys Technique
+## 5 Whys Technique
 
 Ask "why?" iteratively to drill from symptom to root cause:
 
@@ -310,7 +310,7 @@ Ask "why?" iteratively to drill from symptom to root cause:
 
 **Root cause**: Worn spin coater motor bearings causing reduced spin speed. **Corrective action**: Replace bearings, add spin speed verification to daily tool qualification.
 
-### Kepner-Tregoe Problem Analysis
+## Kepner-Tregoe Problem Analysis
 
 A more formal RCA methodology for complex problems with multiple potential causes:
 
@@ -320,7 +320,7 @@ A more formal RCA methodology for complex problems with multiple potential cause
 4. **Test causes against facts**: For each hypothesis, what additional evidence would confirm or refute it?
 5. **Verify root cause**: Confirm the identified cause by reproducing the defect (if safe) or by observing that the corrective action eliminates the problem.
 
-### Data Mining for Root Cause
+## Data Mining for Root Cause
 
 In semiconductor fabs with extensive data collection (FDC — Fault Detection and Classification data from every tool, for every wafer, for every step), statistical correlation analysis can identify root causes:
 
@@ -374,6 +374,6 @@ In semiconductor fabs with extensive data collection (FDC — Fault Detection an
 - [Measurement](../measurement/index.md) — metrology for defect characterization
 - [Computing](../computing/index.md) — automated defect classification and yield simulation
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Quality Control](./index.md) • [All Domains](../index.md)*
+
+[← Back to quality-control](index.md)

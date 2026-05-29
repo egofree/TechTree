@@ -8,7 +8,6 @@
 > **Outputs**: pharmaceuticals, dosage_forms, quality_controlled_drugs, sterile_pharmaceuticals
 > **Critical**: Yes — without reliable pharmaceutical production, disease treatment depends on variable plant preparations and infection mortality remains high
 
-## Overview
 
 Pharmaceutical production covers the scaled manufacture of drugs from extraction through final dosage form, with quality control at each stage. This capability extends [pharmacology](pharmacology.md) — which covers drug sources and basic preparation — into reproducible, quality-controlled production suitable for treating an entire community. The transition from compounding individual doses to batch manufacturing is the inflection point where pharmaceutical capability becomes a public health infrastructure rather than a cottage craft.
 
@@ -16,14 +15,14 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 
 ## Prerequisites
 
-### Materials
+## Materials
 
 - Active pharmaceutical ingredients (APIs): extracted from plants or synthesized (see [pharmacology](pharmacology.md))
 - Excipients: starch, lactose, sucrose, gelatin, talc, magnesium stearate
 - Solvents: ethanol (95%), purified water, glycerol
 - Packaging: amber glass bottles, cork or glass stoppers, wax for sealing, paper labels
 
-### Tools and Equipment
+## Tools and Equipment
 
 - Tablet press: single-punch or rotary (see [machine-tools](../machine-tools/index.md))
 - Capsule filling machine (manual or semi-automatic)
@@ -34,14 +33,14 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 - Autoclave: for sterile product preparation
 - Glassware: flasks, beakers, graduated cylinders, volumetric flasks
 
-### Knowledge
+## Knowledge
 
 - Pharmaceutical calculations: dosage calculations, dilution formulas, yield calculations
 - Good Manufacturing Practices (GMP) fundamentals: documentation, cross-contamination prevention, cleaning validation
 - Stability testing protocols and shelf-life estimation
 - Quality control testing methods: TLC, melting point, dissolution, microbial limits
 
-### Infrastructure
+## Infrastructure
 
 - Clean production area (not necessarily cleanroom, but separate from dusty/noisy work)
 - Temperature-controlled storage (cool, dry location; refrigeration for some products)
@@ -60,7 +59,7 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 
 ## Process Description
 
-### Tablet Manufacturing
+## Tablet Manufacturing
 
 1. **Weigh ingredients**: Weigh API and all excipients on analytical balance. Record each weight in batch record. Verify calculations: target tablet weight × number of tablets = total batch weight. Check: all ingredients must total to target batch weight.
 2. **Mix dry powders**: Add API, filler, and disintegrant to mixing vessel. Mix for 10-15 minutes until uniform. For potent drugs (API <50 mg per tablet), use geometric dilution: mix API with equal weight of filler, then double mixture with more filler, repeat until all filler incorporated. This prevents dose variation from poor mixing.
@@ -86,7 +85,7 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 - Tablet press requires precision-machined dies and punches (±0.01 mm tolerance) that wear over 50,000-100,000 compressions
 - Moisture-sensitive APIs degrade during wet granulation — dry compaction is possible but produces weaker tablets
 
-### Tincture Production (Batch)
+## Tincture Production (Batch)
 
 1. **Prepare plant material**: Dry plant material at 40-60°C to constant weight. Grind to coarse powder (passes #20 sieve). Record starting weight.
 2. **Macerate**: Add plant material to glass vessel. Add 45-70% ethanol at 1:5 ratio (1 g plant per 5 mL solvent). Seal vessel. Label with: plant name, date, solvent, ratio.
@@ -111,7 +110,7 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 - 14-28 day maceration time is slow compared to percolation or decoction methods
 - Ethanol content makes tinctures unsuitable for children, recovering alcoholics, and patients with liver disease
 
-### Sterile Liquid Production (for Injections)
+## Sterile Liquid Production (for Injections)
 
 1. **Prepare solution**: Dissolve drug in Water for Injection (WFI — water distilled and filtered through 0.22 μm filter). Add preservative if multi-dose vial (benzyl alcohol 0.9% or phenol 0.5%). Adjust pH to physiological range (pH 4.5-7.0 for most drugs).
 2. **Filter sterilize**: Pass solution through 0.22 μm membrane filter into sterile container. This removes bacteria but not viruses or pyrogens (bacterial endotoxins).
@@ -137,7 +136,7 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 
 ## Quantitative Parameters
 
-### Tablet Manufacturing Parameters
+## Tablet Manufacturing Parameters
 
 | Parameter | Target Range | Test Method | Out-of-Spec Action |
 |-----------|-------------|-------------|-------------------|
@@ -149,7 +148,7 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 | Dose uniformity | 85-115% of label, RSD <6% | Weigh 10 tablets individually | Improve mixing; check geometric dilution |
 | Moisture content | <3% | Loss on drying at 105°C for 2 hr | Extend drying time; add desiccant to packaging |
 
-### Extraction Yield Benchmarks
+## Extraction Yield Benchmarks
 
 | Plant Source | Active Compound | Solvent | Typical Yield | Purity After Recrystallization |
 |-------------|----------------|---------|--------------|-------------------------------|
@@ -159,7 +158,7 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 | Ephedra stems | Ephedrine | Water → organic solvent extraction | 0.5-2% of dry plant | 90-95% |
 | Iodine from kelp | Iodine | Ash → acid extraction → sublimation | 0.1-0.5% of dry seaweed | 95-99% |
 
-### Purity Requirements by Dosage Form
+## Purity Requirements by Dosage Form
 
 | Dosage Form | Minimum API Purity | Key Impurity Limits | Critical QC Test |
 |-------------|-------------------|--------------------|-----------------| 
@@ -208,7 +207,7 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 
 ## Variations and Alternatives
 
-### Dosage Form Options
+## Dosage Form Options
 
 | Form | Advantages | Disadvantages | Best For |
 |------|-----------|---------------|---------|
@@ -219,13 +218,13 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 | Ointments/salves | Easy production, topical application | Messy, limited to surface conditions | Wound treatment, skin conditions |
 | Suppositories | Alternative route when oral not possible | Temperature-sensitive manufacturing | Rectal/vaginal drug delivery, pediatric, vomiting patients |
 
-### Historical Manufacturing Methods
+## Historical Manufacturing Methods
 
 - **Manual pill rolling** (pre-1800): Mix drug with honey, gum, or breadcrumb dough. Roll into pea-sized spheres by hand on a pill tile. Dry. Coat with talc or sugar. Each pill must be weighed individually — extremely labor-intensive and dose-variable. Predecessor to tablet compression.
 - **Compression molding** (early 1800s): Pack moist drug-binder mixture into a mold, apply pressure by hand screw, eject, dry. Produces more uniform doses than hand-rolling. Requires only a screw press and metal dies — achievable at lower technology than a tablet press.
 - **Percolation extraction** (standard 19th century method): Pack ground drug in a conical percolator. Slowly drip solvent through from top. Collect percolate. Continuous fresh solvent contact maintains concentration gradient, achieving more complete extraction than maceration. Produces a "percolate" that is then adjusted to standard strength.
 
-### Kolbe-Schmitt Aspirin Synthesis
+## Kolbe-Schmitt Aspirin Synthesis
 
 The synthesis of aspirin (acetylsalicylic acid) from phenol is the canonical example of moving from plant-derived medicine (willow bark → salicin) to a pure, standardized synthetic drug:
 
@@ -237,7 +236,7 @@ The synthesis of aspirin (acetylsalicylic acid) from phenol is the canonical exa
 
 Yield: typically 70-85% of theoretical. Each 500 mg aspirin tablet requires ~0.52 g aspirin powder + excipients.
 
-### Packaging and Storage Requirements
+## Packaging and Storage Requirements
 
 | Dosage Form | Container | Storage Temperature | Shelf Life (estimated) | Special Requirements |
 |-------------|-----------|--------------------|-----------------------|---------------------|
@@ -248,7 +247,7 @@ Yield: typically 70-85% of theoretical. Each 500 mg aspirin tablet requires ~0.5
 | Ointments | Opaque jar, sealed | <25°C | 1-2 years | Protect from heat (melts) and contamination (finger contact) |
 | Sterile injectables | Glass ampoule or sealed vial | 2-8°C (refrigerated) or room temp | 1-2 years | Never freeze; protect from light; single-use once opened |
 
-## References
+## See Also
 
 - [Pharmacology](pharmacology.md) — drug sources, extraction methods, dosage forms reference
 - [Surgery Basics](surgery-basics.md) — anesthetic and antiseptic use in surgery
@@ -258,6 +257,6 @@ Yield: typically 70-85% of theoretical. Each 500 mg aspirin tablet requires ~0.5
 - [Chemical Safety](../ehs/chemical-safety.md) — handling hazardous pharmaceutical chemicals
 - [Toxicology](../ehs/toxicology.md) — drug toxicity and overdose management
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Health](./index.md) • [All Domains](../index.md)*
+
+[← Back to Health](index.md)

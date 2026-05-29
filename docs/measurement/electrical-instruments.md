@@ -68,7 +68,7 @@ The Kelvin double bridge extends the Wheatstone to very low resistances (<1 Ω) 
 
 The oscilloscope displays voltage waveforms as a graph of voltage (vertical axis) versus time (horizontal axis). It reveals signal characteristics invisible to a meter: waveform shape, frequency, amplitude, distortion, noise, and timing relationships between multiple signals.
 
-### CRT-Based Oscilloscope
+## CRT-Based Oscilloscope
 
 A cathode ray tube (CRT) fires a focused electron beam at a phosphor-coated screen. Vertical deflection plates move the beam up and down proportional to the input voltage. Horizontal deflection plates sweep the beam across the screen at a controlled rate (time base). The phosphor (P31 green, P22 white) emits light where the beam strikes, creating a visible trace that persists briefly (persistence: 1-100 ms depending on phosphor type).
 
@@ -82,13 +82,13 @@ A cathode ray tube (CRT) fires a focused electron beam at a phosphor-coated scre
 
 ## Multimeter
 
-### Analog Multimeter (VOM)
+## Analog Multimeter (VOM)
 
 Combines voltmeter, ammeter, and ohmmeter in one instrument using a single galvanometer movement with switchable range circuits. The classic Simpson 260 (1940s design still in use) has a 50 μA movement, 20,000 Ω/V sensitivity on DC voltage ranges, 5,000 Ω/V on AC (rectifier losses reduce sensitivity). AC measurement uses a copper-oxide or germanium diode rectifier to convert AC to DC for the movement. The rectifier introduces nonlinearity and a minimum voltage threshold (~0.3 V), so AC voltage ranges are less accurate than DC (typically ±3% vs ±1.5%).
 
 Ohms ranges use an internal 1.5 V battery (R × 1, R × 10, R × 100) and a 15 V or 22.5 V battery (R × 10K) for higher resistance ranges. The analog ohms scale's nonlinearity limits accuracy to ±5% at best (near midscale).
 
-### Digital Multimeter (DMM)
+## Digital Multimeter (DMM)
 
 Uses a dual-slope integrating analog-to-digital converter (ADC). The input voltage charges an integrator capacitor for a fixed time (signal integrate), then a reference voltage of opposite polarity discharges it (de-integrate). The ratio of discharge time to integrate time equals the ratio of input voltage to reference voltage. This technique rejects 50/60 Hz power line noise (the integration period is chosen as a multiple of the line period) and provides stable readings.
 
@@ -122,19 +122,19 @@ Reciprocal counting: instead of gating the input signal, the counter gates by th
 
 ## Construction Notes
 
-### Galvanometer Movement
+## Galvanometer Movement
 
 Wind the moving coil on an aluminum former (the former also acts as an eddy-current damper, slowing the pointer to prevent overshoot). Wire gauge and turns are chosen for the desired sensitivity: a 50 μA movement uses ~200 turns of 50 AWG wire on a 15 × 20 mm former. The coil assembly must be lightweight (50-200 mg) for responsive deflection. The permanent magnet is alnico (see **Magnetic Materials** (alnico or ferrite)) or ferrite, shaped with pole pieces to create a uniform radial field in the air gap where the coil rotates. The return springs are phosphor bronze, 0.01-0.02 mm thick, providing 5-20 μN·cm/degree of restoring torque.
 
-### Shunt Resistor Construction
+## Shunt Resistor Construction
 
 Cut a strip of manganin sheet (84% Cu, 12% Mn, 4% Ni, temperature coefficient <20 ppm/°C) to the calculated width and length for the desired resistance. Mill or file trimming notches to fine-tune resistance to ±0.1%. Mount between heavy copper terminal blocks with silver-soldered joints. The terminal blocks carry the high current and provide a low-resistance path to the shunt strip. For a 100 A shunt at 75 mV output: R = 0.075/100 = 0.00075 Ω. The manganin strip might be 20 mm wide, 0.5 mm thick, and 50 mm long between terminals, adjusted during calibration.
 
-### Multiplier Resistor Selection
+## Multiplier Resistor Selection
 
 Voltmeter multiplier resistors must be stable and accurate. Wire-wound resistors (manganin or Evanohm wire on a ceramic former) provide the best stability (±0.01% per year drift) but have inductance that affects AC measurements. For DC voltmeters, wire-wound is ideal. For AC-capable meters, carbon film or metal film resistors with low inductance are preferred, though their accuracy (±1%) is worse than wire-wound. Calculate the required power dissipation for each range: the 1000 V range on a 20,000 Ω/V meter draws 50 μA, dissipating 0.05 W in the multiplier. Use resistors rated for at least twice the calculated dissipation for long-term stability. High-voltage multipliers (>500 V) should be potted in epoxy or mounted on standoffs to maintain creepage and clearance distances.
 
-### Decade Resistance Box
+## Decade Resistance Box
 
 A precision variable resistor used as the known arm of the Wheatstone bridge. Four or five decade dials, each with ten position switches selecting one of ten precision resistors (0.1, 1, 10, 100, 1000, 10,000 Ω). Total range: 0-99,999.9 Ω. Each resistor is calibrated to ±0.05% or better. Switch contacts are silver-plated to minimize contact resistance (each switch adds 1-5 mΩ). The box is shielded to prevent stray pickup. Used not only for bridge measurements but for any application requiring a precisely known variable resistance: circuit trimming, sensor simulation, calibration reference.
 
@@ -148,7 +148,7 @@ A precision variable resistor used as the known arm of the Wheatstone bridge. Fo
 | Electronics production | DMM, oscilloscope, frequency counter | Circuit testing, signal analysis, oscillator calibration |
 | Semiconductor fab | Precision DMM, electrometer, LC meter | Wafer probing (μV-level measurements), leakage currents, process control |
 
-### Measurement of Non-Electrical Quantities
+## Measurement of Non-Electrical Quantities
 
 Electrical instruments serve as the foundation for measuring many non-electrical quantities through transducers. A thermocouple converts temperature to millivolts (see [Temperature & Pressure](../measurement/temperature-pressure.md)). A strain gauge converts mechanical strain to resistance change, measured with a Wheatstone bridge. A photodiode converts light intensity to current, measured with a picoammeter. A pH electrode generates a voltage proportional to hydrogen ion concentration (59.16 mV per pH unit at 25°C), measured with a high-impedance voltmeter (input impedance >10¹² Ω to avoid loading the electrode).
 
@@ -162,7 +162,7 @@ Voltage calibration uses a standard cell (Weston cadmium cell: 1.01864 V at 20°
 
 Calibration intervals depend on instrument stability and usage severity. Field multimeters: 6-12 months. Bench DMMs: 12 months. Standard resistors: 12-24 months. Oscilloscopes: 12 months (vertical calibration, time base calibration). Document all calibrations with before/after readings and uncertainty statements.
 
-### CRT Oscilloscope Construction Notes
+## CRT Oscilloscope Construction Notes
 
 Building a CRT oscilloscope from scratch requires mastering several precision technologies. The CRT itself is a glassblowing challenge: the electron gun assembly (cathode, control grid, accelerating anodes, focus anode) must be aligned to within 0.1 mm inside the neck of the tube. The phosphor screen is deposited by settling a slurry of phosphor powder (P1 zinc silicate for green, P2 zinc sulfide-cadmium sulfide for long persistence) onto the faceplate, then drying and baking. The tube is evacuated to <10⁻⁶ mbar and sealed with a getter (barium flash getter to absorb residual gas).
 
@@ -170,7 +170,7 @@ The vertical amplifier must be linear from DC to the rated bandwidth with consta
 
 For bootstrapping, a 1-5 MHz bandwidth oscilloscope is achievable with discrete transistors (no ICs needed) and a hand-blown CRT. Such an instrument reveals AC power waveforms, audio signals, and switching transients, sufficient for power system debugging and basic electronics work. Bandwidth above 20 MHz requires fast transistors (fT > 500 MHz) and careful circuit layout to minimize stray capacitance.
 
-### Component Measurement
+## Component Measurement
 
 Beyond the standard instruments listed above, several specialized measurements arise in electronics production:
 
@@ -202,7 +202,6 @@ Beyond the standard instruments listed above, several specialized measurements a
 - **Megger testing hazards**: The megger's output of 500-5000 V DC, though current-limited to a few milliamps, can cause a startling shock that leads to a fall from a ladder or involuntary contact with energized equipment. Always verify the circuit is de-energized and disconnected from all power sources before testing insulation. Capacitive loads (long cables, large motor windings) store charge after the megger is removed: discharge by connecting the test leads together or to ground for at least 30 seconds after testing. Failure to discharge can result in a shock when handling the supposedly disconnected cable.
 - **Shunt hazards**: Current shunts carrying 100+ A produce significant heating. A 100 A shunt at 75 mV dissipates 7.5 W, reaching 60-80°C surface temperature. At 1000 A (large industrial shunts), dissipation is 75 W, requiring heatsinking or forced air cooling. Burns from touching an energized shunt are a real risk. Install shunts in enclosures with ventilation openings, and label with maximum current rating. Never apply current exceeding the shunt's rating: overheating changes manganin's resistance and permanently shifts calibration.
 
----
 
 **Calibration Management**: Maintain calibration records for every instrument with serial number, calibration date, due date, standard used (traceable to national standards), and as-found/as-left data. Calibration intervals: DMMs 6-12 months, oscilloscopes 12 months, meggers 12 months. Field calibration checks between formal calibrations using reference standards (voltage reference: 10.000V ±0.01% for DMM spot-check, precision resistor 100.00 Ω ±0.01% for ohmmeter verification). Out-of-tolerance instruments trigger a review of measurements taken since last known-good calibration.
 

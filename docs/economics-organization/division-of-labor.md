@@ -16,33 +16,31 @@ The mechanism is straightforward: food surplus frees workers from subsistence fa
 
 Division of labor depends on [food agriculture](../foundations/food-agriculture.md) to generate the surplus that frees workers, and on [writing](../knowledge/writing.md) to coordinate tasks beyond the scale of oral communication (~20 workers).
 
----
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 
 - **Food surplus**: Minimum 20-30% above subsistence caloric requirement to support non-farming specialists. For a community of 100 people, this means ~20-30 full-time specialists can be supported when agriculture produces 120-130% of subsistence needs.
 
-### Tools and Equipment
+## Tools and Equipment
 
 - [Writing systems](../knowledge/writing.md): Records of task assignments, schedules, and output targets. Oral coordination breaks down beyond ~20 workers due to information decay and equivocation.
 - Basic recording surfaces: clay tablets, wax tablets, or paper for tracking assignments.
 
-### Knowledge
+## Knowledge
 
 - **Task decomposition**: The ability to break a complex production process (e.g., building a furnace) into discrete, assignable sub-tasks.
 - **Skill assessment**: Evaluating which workers have aptitude for which specializations.
 - **Time estimation**: Predicting how long specialized tasks take, for scheduling purposes.
 
-### Infrastructure
+## Infrastructure
 
 - Storage facilities for surplus food that supports specialist workers.
 - Communication channels between specialists working on interdependent tasks.
 
----
 
-## 3. Bill of Materials (BOM)
+## Bill of Materials (BOM)
 
 Division of labor is an organizational capability, not a physical production process. The "materials" consumed are food (to sustain non-farming specialists) and recording media.
 
@@ -53,11 +51,10 @@ Division of labor is an organizational capability, not a physical production pro
 | Storage capacity (food) | 15-25 m³ grain storage | [Construction](../construction/index.md) | Underground pit storage, ceramic jars |
 | Meeting/gathering space | 20-50 m² covered area | [Construction](../construction/index.md) | Open-air gathering (weather-dependent) |
 
----
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Establishing Initial Specialization
+## 4.1 Establishing Initial Specialization
 
 1. **Assess food surplus**: Calculate the caloric surplus above subsistence. Each full-time specialist requires ~2,500-3,000 kcal/day (0.9-1.1 tonnes grain equivalent/year). Confirm surplus can support the desired number of specialists with a buffer of at least 10%.
 
@@ -81,7 +78,7 @@ Division of labor is an organizational capability, not a physical production pro
 - Initial specialists must be supported during their learning period (3-12 months of below-target output)
 - Community must produce genuine surplus — allocating specialists without surplus reduces total output
 
-### 4.2 Scaling Beyond Initial Specialists
+## 4.2 Scaling Beyond Initial Specialists
 
 6. **Add specialists incrementally**: For every 10% increase in food surplus, add 2-3 new specialists. Prioritize specializations that create the most downstream value: metal-workers first, then potters, carpenters, weavers, masons.
 
@@ -99,7 +96,7 @@ Division of labor is an organizational capability, not a physical production pro
 - Sub-specialists may lose understanding of the overall product — "not my job" attitude degrades quality
 - Requires written records — illiterate communities cannot manage formal handoff systems
 
-### 4.3 Coordination at Scale
+## 4.3 Coordination at Scale
 
 9. **Appoint coordination roles**: When the specialist workforce exceeds ~15 workers, appoint a dedicated coordinator (foreman, guild master). This person does not produce goods — they allocate tasks, resolve scheduling conflicts, and track output.
 
@@ -115,7 +112,7 @@ Division of labor is an organizational capability, not a physical production pro
 - Planning meetings consume productive time — limit to 1-2 hours per week
 - Written distribution requires literacy — restricts this model to communities with widespread basic literacy
 
-### Specialization Model Trade-offs
+## Specialization Model Trade-offs
 
 | Model | Productivity Gain | Food Security Risk | Skill Development | Scalability | Best For |
 |-------|:-:|:-:|:-:|:-:|----------|
@@ -124,11 +121,10 @@ Division of labor is an organizational capability, not a physical production pro
 | Guild system | 4-8× | High (dependent on trade) | Very deep (master-apprentice) | Good (to 50+ per guild) | Towns/cities 500+ people |
 | Household autarky | 1× (baseline) | None (self-sufficient) | Shallow (generalist) | None | Emergency fallback, isolated families |
 
----
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Labor Allocation Benchmarks
+## Labor Allocation Benchmarks
 
 | Metric | Stone-Age Village (50-100 people) | Bronze-Age Town (500-1,000) | Iron-Age City (5,000-10,000) |
 |--------|-----------------------------------|------------------------------|-------------------------------|
@@ -140,7 +136,7 @@ Division of labor is an organizational capability, not a physical production pro
 | Oral coordination limit | ~20 workers | N/A | N/A |
 | Written records per year | 50-200 entries | 500-2,000 | 5,000-50,000 |
 
-### Productivity Gains from Specialization
+## Productivity Gains from Specialization
 
 | Trade | Generalist Output (per week) | Specialist Output (per week) | Productivity Ratio |
 |-------|------|------|------|
@@ -150,9 +146,8 @@ Division of labor is an organizational capability, not a physical production pro
 | Metal-working (copper) | 0 (no skill) | 3-5 tools/jewelry items | N/A |
 | Construction (timber) | Crude shelter | Framed structure | 3-4x |
 
----
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Minimum viable scale**: A community of ~30-50 people with 15-20% food surplus can support 3-5 full-time specialists. Below this threshold, part-time specialization (farmers who also practice a craft) is more appropriate.
 - **Coordination bottleneck**: Oral coordination works for up to ~20 workers. Beyond this, written records become mandatory. The transition from oral to written coordination typically occurs at community sizes of 100-200 people.
@@ -160,9 +155,8 @@ Division of labor is an organizational capability, not a physical production pro
 - **Geographic scaling**: Specialists clustered in workshops (medieval guild model) are easier to coordinate than distributed home workers (putting-out system). Concentrated production requires less communication overhead.
 - **Diminishing returns**: The productivity gains from specialization plateau when a worker's task becomes so narrow that boredom and monotony reduce quality. This typically occurs at task cycles shorter than 2-5 minutes (assembly-line pacing). Before industrial mechanization, this limit is rarely reached.
 
----
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -173,9 +167,8 @@ Division of labor is an organizational capability, not a physical production pro
 | Specialist skills not passing to next generation | No formal apprenticeship system | Establish master-apprentice relationships with minimum 3-year training period |
 | Too many specialists, not enough food | Over-allocation to specialization; food surplus miscalculated | Recalculate surplus; reduce specialist count; invest in agricultural improvement |
 
----
 
-## 8. Safety
+## Safety
 
 Division of labor is an organizational capability with minimal direct physical hazards. However, specialization introduces indirect safety concerns:
 
@@ -184,18 +177,16 @@ Division of labor is an organizational capability with minimal direct physical h
 - **Dependency fragility**: If a key specialist is injured or dies, the entire production chain stalls. Mitigate by cross-training at least one backup for each critical specialization.
 - **Food security risk**: Specialists who do not farm are entirely dependent on food distribution systems. Any disruption to agriculture or food transport creates immediate crisis. Maintain 3-6 months of grain reserves for the specialist population.
 
----
 
-## 9. Quality Control
+## Quality Control
 
 - **Output targets**: Each specialist must meet minimum output quantity and quality standards. Define these quantitatively: "a blacksmith produces ≥5 serviceable knife blades per week, each capable of holding an edge through 30 minutes of wood-cutting."
 - **Peer review**: Specialists within the same trade inspect each other's work monthly. Cross-specialist review at each handoff point (smelter → forger → finisher).
 - **Apprenticeship graduation**: A specialist-in-training must produce 10 consecutive acceptable outputs before being certified as independent. Acceptable means meeting the quantitative output standard.
 - **Record-keeping**: Track output per specialist per week. Declining trends (>20% below average for 3 consecutive weeks) trigger investigation and potential retraining.
 
----
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 | Model | Description | Best For | Limitations |
 |-------|-------------|----------|-------------|
@@ -207,7 +198,7 @@ Division of labor is an organizational capability with minimal direct physical h
 
 **Historical note**: The earliest known division of labor appears in Neolithic settlements (~10,000 BCE), where archaeologists find workshops dedicated to specific crafts (obsidian knapping, weaving, pottery) separate from living areas. This predates cities, writing, and metal-working — it is arguably the first organizational technology.
 
-### Bootstrap Sequence Priority
+## Bootstrap Sequence Priority
 
 For a bootstrap civilization, the optimal order for introducing specialists follows the dependency chain of physical production:
 

@@ -22,7 +22,7 @@ Semiconductor fabrication exposes workers to hydrofluoric acid, pyrophoric silan
 | Up to 1,000× PEL | 50× PEL to 1,000× PEL | PAPR (tight-fitting full-face) or supplied air | 1,000× | HF bench maintenance, bulk chemical handling |
 | IDLH or unknown | Any IDLH atmosphere | SCBA (45-min cylinder) | 10,000× | Gas leak response, confined space rescue |
 
-### PPE Selection Trade-offs
+## PPE Selection Trade-offs
 
 | Factor | Half-Face Respirator | Full-Face Respirator | PAPR | SCBA |
 |--------|---------------------|---------------------|------|------|
@@ -33,7 +33,7 @@ Semiconductor fabrication exposes workers to hydrofluoric acid, pyrophoric silan
 | Cost per unit | $30-50 | $80-150 | $800-1,500 | $3,000-6,000 |
 | Training required | Annual fit test | Annual fit test | Annual fit test + battery care | Monthly drill + medical clearance |
 
-### Implementation Steps
+## Implementation Steps
 
 1. **Conduct hazard assessment**: Document every chemical operation with exposure potential. For each, identify chemical(s), exposure route(s), and maximum foreseeable concentration.
 2. **Select PPE by operation**: Use the PPE Selection Matrix below. Match cartridge type to chemical class (acid gas = yellow, organic vapor = black, P100 = magenta).
@@ -44,7 +44,7 @@ Semiconductor fabrication exposes workers to hydrofluoric acid, pyrophoric silan
 
 ## PPE Selection Matrix
 
-### Chemical Handling PPE by Operation
+## Chemical Handling PPE by Operation
 
 | Operation | Respiratory | Hand | Eye/Face | Body |
 |-----------|------------|------|----------|------|
@@ -59,7 +59,7 @@ Semiconductor fabrication exposes workers to hydrofluoric acid, pyrophoric silan
 
 ## Respiratory Protection
 
-### Respirator Types for Semiconductor Operations
+## Respirator Types for Semiconductor Operations
 
 **Half-face elastomeric respirator**:
 - Protection factor: 10× (reduces exposure to 1/10th of ambient concentration)
@@ -150,7 +150,7 @@ Semiconductor fabrication exposes workers to hydrofluoric acid, pyrophoric silan
 
 ## Hand Protection
 
-### Chemical-Resistant Glove Selection
+## Chemical-Resistant Glove Selection
 
 Semiconductor operations require gloves selected for the specific chemicals handled, with appropriate thickness for the exposure duration and dexterity requirements:
 
@@ -179,7 +179,7 @@ Semiconductor operations require gloves selected for the specific chemicals hand
 
 ## Eye and Face Protection
 
-### Selection Criteria
+## Selection Criteria
 
 **Safety glasses** (impact rated, ANSI Z87.1+):
 - For: General lab work, low splash risk, particulate protection
@@ -205,7 +205,7 @@ Semiconductor operations require gloves selected for the specific chemicals hand
 
 ## Body Protection
 
-### Chemical Suits and Aprons
+## Chemical Suits and Aprons
 
 **Lab coats**:
 - Flame-resistant (FR) treated cotton or Nomex blend for general fab operations
@@ -226,7 +226,7 @@ Semiconductor operations require gloves selected for the specific chemicals hand
 - Boot material: PVC or nitrile over-boot, steel toe/shank, acid-resistant sole, mid-calf height minimum
 - Decontamination: After use, suits are decontaminated (rinsed with water, checked for residual contamination) before doffing to prevent secondary exposure
 
-### Cleanroom-Compatible PPE
+## Cleanroom-Compatible PPE
 
 Semiconductor cleanrooms require PPE that generates minimal particles while providing chemical protection:
 
@@ -243,7 +243,7 @@ Semiconductor cleanrooms require PPE that generates minimal particles while prov
 
 ## PPE Program Management
 
-### Written Program Requirements
+## Written Program Requirements
 
 OSHA 29 CFR 1910.132 requires a written PPE program covering:
 
@@ -254,7 +254,7 @@ OSHA 29 CFR 1910.132 requires a written PPE program covering:
 5. **Inspection and maintenance**: Daily user inspection. Periodic detailed inspection of SCBA, PAPR, and emergency-use equipment.
 6. **Storage**: Clean, dry, designated storage. Chemical PPE separated from general PPE. Contaminated PPE in designated waste containers.
 
-### PPE Training Topics
+## PPE Training Topics
 
 Workers handling semiconductor chemicals must be trained on:
 
@@ -268,7 +268,7 @@ Workers handling semiconductor chemicals must be trained on:
 
 ## Specialized PPE Configurations
 
-### HF Work Station PPE Kit
+## HF Work Station PPE Kit
 
 Every HF handling station must have a dedicated PPE kit containing:
 
@@ -284,7 +284,7 @@ Every HF handling station must have a dedicated PPE kit containing:
 - Spill absorbent (calcium carbonate-based — neutralizes HF to CaF₂)
 - Hazard sign ("HF Area — Authorized Personnel Only")
 
-### Gas Leak Response PPE Kit
+## Gas Leak Response PPE Kit
 
 Pre-positioned at strategic locations near gas cabinets and VMBs:
 
@@ -303,6 +303,6 @@ Pre-positioned at strategic locations near gas cabinets and VMBs:
 - [Occupational Health](../health/occupational-health.md) — General PPE principles and fit testing
 - [Polymers](../polymers/index.md) — Rubber and polymer materials for glove and suit fabrication
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*
+
+[← Back to EHS](index.md)

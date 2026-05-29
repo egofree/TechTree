@@ -8,7 +8,7 @@
 > **Outputs**: nitrile_rubber, neoprene, silicone_elastomers, polyurethane
 > **Critical**: No — synthetic elastomers expand capability beyond natural rubber but are not on the critical path
 
-## 1. Overview
+## Overview
 
 Synthetic polymers fill gaps natural rubber cannot: oil resistance (NBR), flame retardancy (neoprene), extreme-temperature service (silicone, -60 to +250°C), and tunable hardness (polyurethane, Shore A 70 to Shore D 75). Each requires specific monomer feedstocks and controlled polymerization conditions.
 
@@ -16,9 +16,9 @@ The synthetic polymers in this article span from semi-synthetic materials achiev
 
 See [Rubber Production](./rubber.md) for natural rubber vulcanization and compounding recipes shared across all elastomers. See [Thermoplastics](./thermoplastics.md) for melt-processing methods (injection molding, extrusion, blow molding).
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 - [Petrochemical monomers](../chemistry/petroleum-alternatives.md): ethylene, propylene, butadiene, styrene, acrylonitrile from steam cracking of naphtha (750-900°C, 0.1-0.5 s residence)
 - [Chlorine](../chemistry/electrolysis.md) (for neoprene, PVC — from chlor-alkali electrolysis)
 - [MG-Silicon](../silicon/mg-si-production.md) (for silicone elastomers — quartz + carbon reduction)
@@ -26,21 +26,21 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - Formaldehyde (from methanol oxidation over silver catalyst at 600-700°C)
 - Phenol (from coal tar distillation or cumene process)
 
-### Tools and Equipment
+## Tools and Equipment
 - [Stirred tank reactors](../machine-tools/casting.md) (glass-lined or stainless steel, 5-50 m³, jacketed for temperature control)
 - [Two-roll mills](../machine-tools/machining.md) (for compounding)
 - Compression or injection molding presses (for vulcanization)
 - Distillation columns (for monomer purification)
 
-### Infrastructure
+## Infrastructure
 - Steam supply (for reactor heating and distillation)
 - Cooling water (for exothermic polymerization control)
 - Ventilation and gas scrubbing (for toxic monomer handling)
 - Nitrogen inerting system (for moisture-sensitive polymerizations)
 
-## 3. Bill of Materials
+## Bill of Materials
 
-### Nitrile Rubber (NBR) — per 100 kg polymer
+## Nitrile Rubber (NBR) — per 100 kg polymer
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -50,7 +50,7 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 | Potassium persulfate (initiator) | 0.3-1.0 kg | Chemical synthesis | Redox initiator (FeSO₄ + hydroperoxide) |
 | Tertiary dodecyl mercaptan (chain transfer) | 0.3-0.5 kg | Organic synthesis | None — controls molecular weight |
 
-### Neoprene (CR) — per 100 kg polymer
+## Neoprene (CR) — per 100 kg polymer
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -60,7 +60,7 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 | Zinc oxide (cure agent) | 5 kg | [Chemistry](../chemistry/alkalis.md) | None |
 | Magnesium oxide (acid scavenger) | 4 kg | [Chemistry](../chemistry/alkalis.md) | None — scavenges HCl |
 
-### Polyurethane Rigid Foam — per m³ (35 kg/m³ density)
+## Polyurethane Rigid Foam — per m³ (35 kg/m³ density)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -70,9 +70,9 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 | Silicone surfactant | 0.5-1.0 kg | [Silicon](../silicon/mg-si-production.md) | None — stabilizes foam cells |
 | Amine catalyst | 0.3-0.5 kg | Organic synthesis | None — controls reaction timing |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Nitrile Rubber (NBR, Buna-N)
+## 4.1 Nitrile Rubber (NBR, Buna-N)
 
 **Principle**: Emulsion copolymerization of butadiene (55-75 parts) with acrylonitrile (25-45 parts) produces a random copolymer with polar nitrile groups (—C≡N) along the chain. The nitrile groups provide oil and fuel resistance by increasing polymer polarity, making the rubber less soluble in non-polar hydrocarbons. Higher acrylonitrile content → better oil resistance but higher glass transition temperature (less flexible at low temperature).
 
@@ -119,7 +119,7 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - Limited high-temperature capability — continuous service limited to 120°C; above this, nitrile groups begin to cross-link and embrittle
 - Acrylonitrile monomer is toxic and flammable — flash point -1°C, IARC Group 2B (possible carcinogen), OSHA PEL 2 ppm
 
-### 4.2 Neoprene (Polychloroprene, CR)
+## 4.2 Neoprene (Polychloroprene, CR)
 
 **Principle**: Chloroprene (CH₂=CCl-CH=CH₂) polymerizes via free-radical emulsion polymerization to produce polychloroprene. The chlorine atom on the polymer backbone provides inherent UV stability, ozone resistance, and flame retardancy (LOI ~26%, self-extinguishing in normal air at 21% oxygen).
 
@@ -166,7 +166,7 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - Chloroprene monomer is highly reactive and requires refrigerated storage (0-5°C) with inhibitor to prevent spontaneous polymerization
 - HCl release during aging at elevated temperatures — MgO (4 phr) must be included as acid scavenger to prevent autocatalytic degradation
 
-### 4.3 Silicone Elastomers (PDMS)
+## 4.3 Silicone Elastomers (PDMS)
 
 **Principle**: Polydimethylsiloxane (PDMS) is polymerized from cyclic siloxanes (D₃ or D₄, produced by hydrolysis of dimethyl dichlorosilane). Cross-linking via peroxide (free radical), platinum-catalyzed addition (hydrosilylation), or moisture cure produces a thermally stable elastomer with the widest service temperature range of any rubber (-60 to +250°C).
 
@@ -211,7 +211,7 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - Expensive — MG-Si precursor chain (quartz → silicon → methylchlorosilanes → PDMS) is energy-intensive and requires multiple chemical processing steps
 - Poor hydrocarbon resistance — silicone swells in non-polar solvents (gasoline, toluene); not suitable for fuel contact applications
 
-### 4.4 Polyurethane (PU) — Rigid Foam
+## 4.4 Polyurethane (PU) — Rigid Foam
 
 **Principle**: Polyol (hydroxyl-terminated polymer) reacts with isocyanate (NCO-terminated) to form a urethane linkage (—NH—CO—O—). In foam production, water reacts with excess isocyanate to generate CO₂ gas (H₂O + NCO → urea linkage + CO₂), which inflates the reacting mixture. The blowing agent (cyclopentane, boiling point 36°C) provides most of the expansion in rigid foam, creating closed cells with low thermal conductivity (0.020-0.025 W/(m·K)).
 
@@ -257,7 +257,7 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - Requires phosgene for isocyanate production — phosgene is a WWI chemical weapon, lethal at 1 ppm; sealed, leak-tested systems with caustic scrubbers are mandatory
 - Flammable — rigid PU foam ignites readily and produces toxic smoke (hydrogen cyanide, CO). Building codes require thermal barriers (drywall) over exposed foam
 
-### 4.5 Styrene-Butadiene Rubber (SBR)
+## 4.5 Styrene-Butadiene Rubber (SBR)
 
 **Principle**: Emulsion copolymerization of styrene (23-25%) with butadiene (75-77%) produces a random copolymer. SBR is the highest-volume synthetic rubber (~6 million tonnes/year globally, ~40% of all synthetic rubber). Cold polymerization (5°C) produces superior properties — more linear chains, less branching, higher molecular weight than hot polymerization (50°C).
 
@@ -302,9 +302,9 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - Poor oil resistance — SBR swells in all hydrocarbon solvents; use NBR for oil/fuel contact
 - Lower green strength (unvulcanized) than natural rubber — SBR is tacky and weak before cure, making tire building more difficult than with NR
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Synthetic Polymer Development Timeline
+## Synthetic Polymer Development Timeline
 
 | Year | Polymer | Type | Key Innovation |
 |------|---------|------|---------------|
@@ -316,7 +316,7 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 | 1941 | [PET (polyester)](./thermoplastics.md) | Fully synthetic thermoplastic | Highest-volume synthetic fiber |
 | 1943 | Polyurethane | Synthetic elastomer/foam | Tunable from rigid foam to cast elastomer |
 
-### Monomer Source Chain Comparison
+## Monomer Source Chain Comparison
 
 | Polymer | Primary Monomers | Feedstock Origin | Bootstrap Route |
 |---------|-----------------|------------------|-----------------|
@@ -326,7 +326,7 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 | PU foam | Polyol + MDI | Petrochemical | MDI requires phosgene (CO + Cl₂); polyol from propylene oxide |
 | SBR | Styrene + butadiene | Petrochemical | Lebedev process for butadiene; styrene from ethylbenzene dehydrogenation |
 
-### Elastomer Property Comparison
+## Elastomer Property Comparison
 
 | Property | NR | NBR (Med-ACN) | Neoprene | Silicone | PU Cast | EPDM |
 |----------|-----|---------------|----------|----------|---------|------|
@@ -338,7 +338,7 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 | Ozone resistance | Poor | Poor | Excellent | Excellent | Good | Excellent |
 | Flame resistance | Poor | Poor | Self-extinguishing | Fair | Poor | Poor |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **NBR**: Batch emulsion polymerization in 5-50 m³ reactors. A 20 m³ reactor produces 5-8 tonnes NBR per batch (8-12 hour cycle). Scaling adds reactors; polymerization time does not decrease with scale.
 - **Neoprene**: Similar batch scale to NBR. DuPont's Louisville plant operated at ~100,000 tonnes/year capacity.
@@ -346,7 +346,7 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - **SBR**: Largest synthetic rubber plants produce 100,000+ tonnes/year. A 30 m³ reactor produces 8-12 tonnes per batch.
 - **Minimum bootstrap scale**: PU rigid foam is achievable at the smallest scale — hand-mix two liquid components in a bucket and pour in place. No reactor required. NBR and neoprene require sealed, jacketed reactors for emulsion polymerization.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -357,7 +357,7 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 | PU foam brittle or friable | Isocyanate index too high; insufficient post-cure | Reduce MDI to 130-150 parts; verify 24-hour room temperature cure before handling |
 | SBR low tensile strength | Insufficient carbon black; poor dispersion | Increase carbon black to 50 phr; extend mixing time on mill; check for 100% dispersion by stretching thin film (no visible white streaks) |
 
-## 8. Safety
+## Safety
 
 - **Phosgene (COCl₂) for polycarbonate and isocyanate production**: Odorless at low concentrations or faintly smells of newly mown hay. Causes delayed pulmonary edema — symptoms may not appear for 2-24 hours after exposure. Lethal at 1 ppm sustained exposure. Sealed, leak-tested systems with NaOH gas scrubbers mandatory. Continuous monitoring at 0.1 ppm with audible alarms. Emergency: evacuate immediately on any leak, administer oxygen, seek medical care regardless of symptoms.
 - **Isocyanates (TDI, MDI) for polyurethane**: Potent respiratory sensitizers — repeated inhalation causes permanent occupational asthma. TDI: OSHA PEL 0.02 ppm (ceiling). MDI is less volatile (lower vapor pressure) but spray application generates respirable aerosol. Full-face respirator with organic vapor/P100 cartridge or supplied air. Do not return to isocyanate work if sensitized.
@@ -365,38 +365,38 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - **Vinyl chloride monomer (VCM)**: IARC Group 1 carcinogen causing angiosarcoma of the liver (latency 10-40 years). LEL 3.6%, UEL 33% in air. Closed systems, continuous air monitoring, explosion-proof equipment. See [Thermoplastics](./thermoplastics.md) for full VCM hazard data.
 - **Styrene**: Flash point 31°C. IARC Group 2A (probable carcinogen). CNS depressant at 100+ ppm. OSHA PEL 50 ppm TWA. Odor detectable at 0.1 ppm but causes odor fatigue — use direct-reading instruments, not smell, as warning.
 
-## 9. Quality Control
+## Quality Control
 
-### NBR Quality Tests
+## NBR Quality Tests
 - **Bound acrylonitrile**: Nitrogen analysis (Kjeldahl). Target ±2% of specification for grade.
 - **Mooney viscosity**: ML 1+4 at 100°C. Target range per grade specification. Out-of-range viscosity indicates MW control issues.
 - **Oil swell**: Immerse 25 × 50 × 2 mm sample in IRM 903 oil at 100°C for 70 hours. Weigh before/after. Volume swell <10% for High-ACN, <25% for Medium-ACN.
 - **Gel content**: Dissolve 0.5 g NBR in 100 ml MEK. Filter through 200-mesh screen. Gel content should be <5%. Above 10% indicates excessive cross-linking during polymerization.
 
-### PU Foam Quality Tests
+## PU Foam Quality Tests
 - **Density**: Cut 100 mm cube, weigh. Target ±10% of specification.
 - **Thermal conductivity**: Heat flow meter (ASTM C518). Target <0.025 W/(m·K).
 - **Compressive strength**: ASTM D1621. Target >100 kPa at 10% deformation.
 
-### General Elastomer Tests
+## General Elastomer Tests
 - **Tensile/elongation**: ASTM D412 dumbbell specimen. All elastomers.
 - **Hardness**: Shore A durometer (ASTM D2240). Measure at 3 points, ±2 units agreement.
 - **Compression set**: ASTM D395 Method B. 22 hours at 70°C, 25% deflection.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Semi-Synthetic Polymers (Lower Technology Level)
+## Semi-Synthetic Polymers (Lower Technology Level)
 
 - **Celluloid (1869)**: Nitrocellulose (cellulose + HNO₃/H₂SO₄, 10-13% N) plasticized with camphor (20-30%). Thermoplastic at 80-130°C. Autoignition at 150-170°C — extremely flammable. Used for photographic film, billiard balls, combs. Precursors: [cellulose](./natural.md) (cotton linters or wood pulp), [nitric acid](../chemistry/acids.md), camphor. Achievable at moderate technology level.
 - **Casein plastic (Galalith, 1897)**: Milk protein (casein) precipitated from skim milk by acid, hardened in 40% formalin (2-7 days at room temperature or several hours at 50-60°C). Non-flammable, takes dye well, but swells in water (5-15% water absorption). Used for buttons, knitting needles. Precursors: skim milk (dairy by-product — 10 liters yields ~300 g casein), formaldehyde. Producible in home workshops.
 - **Bakelite (1907)**: Phenol-formaldehyde thermoset — the first fully synthetic plastic. Phenol from [coal tar](../chemistry/petroleum-alternatives.md) or cumene process. Excellent electrical insulation (10¹²-10¹⁴ Ω·cm), heat resistant to 200°C. See [Thermosets](./thermosets.md) for full details.
 
-### Bootstrap Feedstock Routes
+## Bootstrap Feedstock Routes
 
 - **Butadiene from ethanol** (Lebedev process): 2 C₂H₅OH → C₄H₆ + 2 H₂O + H₂ over ZnO/Al₂O₃ at 400-450°C. The USSR produced ~100,000 tonnes/year during WWII from grain ethanol. Enables NBR, SBR, and neoprene (via butadiene route) without petrochemical infrastructure.
 - **Coal tar monomers**: Coal carbonization at 1000-1200°C produces phenol, benzene, toluene, and xylene. Historically the primary source of aromatic monomers before petroleum. Enables Bakelite (phenol) and nylon (benzene → cyclohexane → adipic acid).
 
-### Specialty Elastomers
+## Specialty Elastomers
 
 - **EPDM**: Saturated terpolymer of ethylene/propylene/diene. Outstanding ozone resistance (20-30 year outdoor service). Used for automotive weatherstripping, roofing membranes, radiator hoses. See Section 4.5 above and [Rubber Production](./rubber.md) for vulcanization details.
 - **Fluoroelastomers (FKM, Viton)**: Copolymer of vinylidene fluoride + hexafluoropropylene. Service to 200°C, resistant to concentrated H₂SO₄ and HNO₃. Cost: 20-50× natural rubber. Requires [fluorine chemistry](../chemistry/electrolysis.md) (HF from fluorspar CaF₂ + H₂SO₄). Used for semiconductor wet bench O-rings, aerospace fuel seals.
@@ -404,7 +404,7 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - **Butyl rubber (IIR)**: Copolymer of isobutylene (97-99%) + isoprene (1-3%). 10-20× less gas-permeable than NR — the only practical material for tire inner liners and inner tubes. Polymerized at -80 to -100°C in methyl chloride with AlCl₃ catalyst. Halobutyl (CIIR, BIIR) enables covulcanization with NR/SBR for tubeless tire inner liners.
 - **Thermoplastic elastomers (TPE)**: SBS, SEBS, TPU — rubber-like elasticity with thermoplastic processability (no vulcanization). Hard domains (physical cross-links that melt above Tg) dispersed in soft matrix. Used for shoe soles, soft-touch grips, cable jacketing.
 
-## 11. References
+## References
 
 - **[Natural Polymers](natural.md)**: Natural rubber tapping, processing, and vulcanization
 - **[Thermoplastics](thermoplastics.md)**: Melt-processable polymers (PE, PVC, nylon, PS, PTFE, polycarbonate)
@@ -416,5 +416,5 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - **[Chlor-Alkali Electrolysis](../chemistry/electrolysis.md)**: Chlorine and NaOH production for PVC, neoprene, and phosgene
 - **[Coatings](../chemistry/coatings.md)**: Polyurethane and neoprene-based coatings
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*
+
+[← Back to Polymers & Composites](index.md)

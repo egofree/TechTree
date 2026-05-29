@@ -16,9 +16,9 @@ Refractory recycling is economically significant because refractory bricks are c
 
 This capability is distinct from waste disposal. Ceramic waste that cannot be recycled (contaminated with heavy metals, radioactive material, or hazardous slag) is handled by [Waste Management](../ehs/waste-management.md).
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 
 | Material | Specification | Source |
 |----------|--------------|--------|
@@ -26,7 +26,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 | Clay (if making new products with grog) | Plastic clay body for re-forming | [Pottery](pottery.md) |
 | Energy (crushing) | 5–30 kWh per tonne of ceramic waste | [Energy](../energy/engine.md) |
 
-### Tools & Equipment
+## Tools & Equipment
 
 | Equipment | Purpose | Source |
 |-----------|---------|--------|
@@ -36,15 +36,15 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 | Magnetic separator | Remove iron contamination (steel fragments from refractory anchors) | [Mining Processing](../mining/processing.md) |
 | Kiln | Firing new ceramic products containing recycled grog | [Kilns](kilns.md) |
 
-### Knowledge
+## Knowledge
 
 - Identification of ceramic types: earthenware, stoneware, porcelain, fireclay, high-alumina, silica, magnesite, silicon carbide
 - Understanding of grog sizing effects on clay body properties (coarse grog: thermal shock resistance; fine grog: smooth surface)
 - Refractory condition assessment: distinguishing chemically attacked zones (usable for less demanding applications) from structurally sound zones
 
-## 3. Bill of Materials
+## Bill of Materials
 
-### BOM: Grog Production from Waste Pottery (per tonne of grog)
+## BOM: Grog Production from Waste Pottery (per tonne of grog)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -53,7 +53,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 | Water (dust suppression) | 50–200 L | [Water Treatment](../chemistry/water-treatment.md) | Dry process with dust collection |
 | Screens (replacement wear) | 1–5 m²/year | [Metals](../metals/index.md) | Hand-sorting by size (slow, inconsistent) |
 
-### BOM: Spent Refractory Processing (per tonne of spent refractory)
+## BOM: Spent Refractory Processing (per tonne of spent refractory)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -62,9 +62,9 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 | Sorting labor | 1–4 person-hours/tonne | Manual sorting | Automated XRF sorting (high capital cost) |
 | Crushing energy | 15–40 kWh/tonne | [Energy](../energy/engine.md) | Drop-weight crusher (lower throughput) |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Grog Production from Waste Pottery
+## 4.1 Grog Production from Waste Pottery
 
 1. **Collect and sort.** Gather broken pots, kiln wasters, and manufacturing rejects. Sort by ceramic type: earthenware (fired 800–1100°C, porous, red/buff), stoneware (fired 1200–1300°C, vitrified, gray/brown), and porcelain (fired 1250–1400°C, white, translucent). Do not mix types — different fired densities and absorption rates affect clay body behavior unpredictably.
 
@@ -80,7 +80,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 
 5. **Store dry.** Keep grog in dry storage. Grog does not absorb water readily (it is already fired), but moisture between particles can cause weighing inaccuracies and clay body inconsistencies.
 
-### 4.2 Spent Refractory Recovery
+## 4.2 Spent Refractory Recovery
 
 1. **Assess and sort during furnace relining.** As spent refractories are removed from the furnace, sort into categories by visual inspection:
    - **Hot face** (directly exposed to molten metal/slag): heavily infiltrated with slag, often not recyclable for refractory use. Downcycle to aggregate.
@@ -98,7 +98,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
    - Used as landfill cover material
    - Processed for metal recovery (some spent refractories contain significant chromium, magnesite, or alumina values)
 
-### 4.3 Technical Ceramic Recovery
+## 4.3 Technical Ceramic Recovery
 
 1. **Identify material.** Technical ceramics (alumina, zirconia, silicon carbide) have high material value. Separate by type using visual inspection (color, fracture surface), hardness testing, and density measurement.
 
@@ -106,9 +106,9 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 
 3. **Reprocess or downcycle.** Alumina powder recovered from grinding wheels and electronic substrates can be re-sintered into lower-grade alumina components. Silicon carbide powder is reusable as an abrasive. Zirconia recovery is economically marginal due to phase transformation during reprocessing.
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Grog Properties by Size Grade
+## Grog Properties by Size Grade
 
 | Size Grade | Particle Size | Bulk Density | Water Absorption | Primary Use |
 |------------|--------------|-------------|-----------------|-------------|
@@ -117,7 +117,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 | Fine | 0.5–2 mm | 1.2–1.6 g/cm³ | <5% | Tableware, tiles |
 | Dust | <0.5 mm | 1.3–1.7 g/cm³ | <5% | Cement filler, soil amendment |
 
-### Grog Content Effects on Clay Body
+## Grog Content Effects on Clay Body
 
 | Grog Content | Drying Shrinkage | Firing Shrinkage | Thermal Shock Resistance | Workability |
 |-------------|-----------------|-----------------|--------------------------|-------------|
@@ -127,7 +127,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 | 30% | 3–5% | 2–6% | Very good | Reduced |
 | 50% | 2–3% | 1–4% | Excellent | Difficult |
 
-### Refractory Recovery Parameters
+## Refractory Recovery Parameters
 
 | Refractory Type | Service Life | Recoverable Fraction | Recycled Content in New Brick | Energy Savings vs. Primary |
 |----------------|-------------|---------------------|------------------------------|---------------------------|
@@ -137,7 +137,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 | Magnesite (MgO >85%) | 6–24 months | 30–50% | 15–30% | 20–30% |
 | Silicon carbide (SiC) | 24–60 months | 40–60% | 20–40% | 25–40% |
 
-### Energy Comparison: Grog Production vs. Primary Clay Processing
+## Energy Comparison: Grog Production vs. Primary Clay Processing
 
 | Operation | Grog from Waste (kWh/tonne) | Primary Clay Processing (kWh/tonne) | Savings |
 |-----------|-----------------------------|--------------------------------------|---------|
@@ -147,7 +147,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 | Firing | 0 (already fired) | 400–1,200 (kiln at 1000–1400°C) | 100% |
 | Total | 15–50 | 440–1,315 | 90–96% |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 **Minimum viable scale**: A single potter crushing broken pots with a hammer and adding the fragments to new clay. Zero capital investment. This has been standard practice for thousands of years and remains the bootstrap entry point.
 
@@ -157,7 +157,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 
 **Key constraint**: Ceramic recycling is limited by the downcycling nature of the process. Each cycle reduces the material to a less demanding application. After 2–3 cycles, the material ends up as construction aggregate. This is not a closed loop — it is a cascade.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -168,7 +168,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 | Low recovery rate from spent refractories | Over-sorting — too much material classified as contaminated | Train sorters to distinguish surface contamination (removable) from deep infiltration (not reusable) |
 | Glazed grog causes pinholing in new ware | Glaze vaporizes during firing, releasing gas into the clay body | Use only unglazed waste for food-contact ware; fire glazed grog separately to burn off glaze first |
 
-## 8. Safety
+## Safety
 
 **Silica dust**: Ceramic crushing generates respirable crystalline silica (RCS). Silica dust exposure at >0.025 mg/m³ (8-hour TWA) causes silicosis after years of exposure. This is the primary occupational hazard in ceramic recycling. Control: local exhaust ventilation at crusher discharge, water mist suppression, enclosed processing areas. PPE: half-face respirator with P100 filter when visible dust is present. Health monitoring: chest X-ray every 3–5 years for workers with regular dust exposure.
 
@@ -178,9 +178,9 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 
 **Thermal stress**: Refractory bricks removed from furnaces may retain heat for 24–48 hours. Use thermal gloves (rated to 500°C) during relining operations. Infrared thermometer check before handling.
 
-## 9. Quality Control
+## Quality Control
 
-### Grog Quality Tests
+## Grog Quality Tests
 
 | Test | Method | Specification |
 |------|--------|--------------|
@@ -190,7 +190,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 | Water absorption of grog particles | Boil test (immerse 24h, measure weight gain) | <5% for stoneware grog, 5–15% for earthenware grog |
 | Bulk density | Weigh known volume | Per size grade (see §5) |
 
-### Recycled Refractory Quality Tests
+## Recycled Refractory Quality Tests
 
 | Test | Method | Acceptance |
 |------|--------|------------|
@@ -199,14 +199,14 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 | Cold crushing strength | Hydraulic press test | >15 MPa for backup lining |
 | Slag infiltration depth | Cross-section, visual or microscopy | <25% of brick thickness for reuse |
 
-### Field Test (No Lab Required)
+## Field Test (No Lab Required)
 
 - **Earthenware vs. stoneware**: Lick the ceramic surface. Earthenware feels sticky/tongue-adheres (porous). Stoneware feels smooth/non-adherent (vitrified). This is the traditional potter's test.
 - **Refractory grade estimate**: Scratch with a steel nail. Fireclay is easily scratched; high-alumina resists scratching; silicon carbide cannot be scratched by steel.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Ceramic Recycling Routes Compared
+## Ceramic Recycling Routes Compared
 
 | Route | Input | Output | Value Added | Notes |
 |-------|-------|--------|-------------|-------|
@@ -217,7 +217,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 | Abrasive grit | Technical ceramics (Al₂O₃, SiC) | Grinding and polishing media | Medium — value in hardness | Ball mill to specific grit sizes |
 | Soil amendment | Low-fired earthenware | Horticultural aggregate (improves drainage) | Low | Must be free of toxic glazes |
 
-### When NOT to Recycle Ceramics
+## When NOT to Recycle Ceramics
 
 - Refractories contaminated with chromium (VI) — hazardous waste (green staining)
 - Lead-glazed ceramics for food-contact applications

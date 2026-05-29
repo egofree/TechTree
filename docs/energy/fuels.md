@@ -46,14 +46,14 @@ The bootstrap sequence progresses through fuels in rough order of refinement: wo
 
 ## Solid Fuels
 
-### Wood
+## Wood
 
 - **Seasoned hardwood**: ~16-18 MJ/kg, 15-25% moisture. The universal starting fuel. Burns at 700-900°C with natural draft. Adequate for space heating, cooking, brick firing, and small-scale copper/bronze smelting.
 - **Softwood**: ~15-17 MJ/kg. Burns faster and produces more creosote in chimneys. Acceptable for heating but less suitable for industrial use.
 - **Limitations**: Low energy density per unit mass. High moisture content in green wood reduces effective heat output by 20-40%. Bulk — transporting enough wood for industrial operations requires enormous logistical effort.
 - **Wood as industrial fuel**: Used for pottery kilns, brick kilns, lime burning, and copper/bronze smelting. Not adequate for iron smelting (temperature too low without forced draft, and wood's volatiles contaminate the metal).
 
-### Charcoal
+## Charcoal
 
 Produced by pyrolysis of hardwood in earth-covered pits or simple kilns. The first high-grade fuel for metallurgy:
 
@@ -62,7 +62,7 @@ Produced by pyrolysis of hardwood in earth-covered pits or simple kilns. The fir
 - **Critical role**: Essential for all early iron smelting. The only solid fuel that can sustain the reducing atmosphere and temperature needed for bloomery iron production before coke is available.
 - **Production detail**: [Charcoal](charcoal.md)
 
-### Coal
+## Coal
 
 Mined bituminous and anthracite coal. The transition fuel that enables steam power and coke production:
 
@@ -71,7 +71,7 @@ Mined bituminous and anthracite coal. The transition fuel that enables steam pow
 - **Lignite (brown coal)**: 10-20 MJ/kg, high moisture (20-45%), high ash. Lowest rank coal. Burns with heavy smoke. Acceptable for power generation near the mine but poor for transport or metallurgy.
 - **Coal mining and selection**: [Coal](coal.md)
 
-### Coke
+## Coke
 
 Distilled from bituminous coal in beehive or by-product ovens. Hard, porous, nearly pure carbon:
 
@@ -79,7 +79,7 @@ Distilled from bituminous coal in beehive or by-product ovens. Hard, porous, nea
 - **By-products**: By-product ovens also yield coal gas, coal tar, ammonia, benzol, and sulfur — each a valuable chemical feedstock.
 - **Production detail**: [Coke](coke.md)
 
-### Peat
+## Peat
 
 An intermediate fuel between wood and coal, formed from partially decomposed plant matter in wetlands:
 
@@ -91,20 +91,20 @@ An intermediate fuel between wood and coal, formed from partially decomposed pla
 
 Petroleum distillation yields a spectrum of liquid fuels, each tuned to a boiling range and application. See [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md) for refining processes.
 
-### Petroleum-Derived Fuels
+## Petroleum-Derived Fuels
 
 - **[Gasoline](../glossary/gasoline.md)** (30-150°C fraction): ~46 MJ/kg. Spark-ignition engines, the highest energy-density liquid fuel commonly available. Highly volatile, low flash point (-40°C). Vapors form explosive mixtures with air.
 - **[Kerosene](../glossary/kerosene.md)** (150-250°C fraction): ~43-46 MJ/kg. Lamp fuel, heating, jet engine precursor. Higher flash point (37-65°C) — safer to store and handle than gasoline. The first petroleum product widely commercialized (illumination).
 - **[Diesel / gas oil](../glossary/dieselgas-oil.md)** (250-350°C fraction): ~45 MJ/kg. Compression-ignition engines, industrial heating. Flash point >52°C. Lubricating and stable.
 - **[Fuel oil / residual](../glossary/fuel-oil-residual.md)** (>350°C): ~40-42 MJ/kg. Boiler fuel, large-scale industrial heat. Viscous — may require preheating for atomization in burners.
 
-### Bio-Derived Liquid Fuels
+## Bio-Derived Liquid Fuels
 
 - **[Ethanol](../glossary/ethanol.md)** (C₂H₅OH): ~26 MJ/kg. Fermented from grain, sugar, or starch feedstocks and distilled to 95%+ purity. Burns cleanly in lamps, stoves, and modified engines. Independent of petroleum — producible from agriculture alone. Production: [Fermentation Chemistry](../chemistry/petroleum-alternatives.md).
 - **[Methanol](../glossary/methanol.md)** (CH₃OH): ~20 MJ/kg. Obtained from wood pyrolysis (low yield, ~1-2%) or synthesized from CO + H₂ over catalyst. Solvent and fuel extender. Highly toxic if ingested — causes blindness.
 - **Vegetable oil**: ~37-40 MJ/kg. Pressed from oil seeds (rapeseed, sunflower, palm). Can be used directly in diesel engines (with preheating and filtration) or transesterified to biodiesel. Also used for lamps in the absence of kerosene.
 
-### Liquid Fuel Comparison
+## Liquid Fuel Comparison
 
 | Fuel | Energy Density | Flash Point | Auto-Ignition | Primary Engine |
 |------|---------------|-------------|---------------|----------------|
@@ -117,7 +117,7 @@ Petroleum distillation yields a spectrum of liquid fuels, each tuned to a boilin
 
 ## Gaseous Fuels
 
-### Producer Gas / Wood Gas
+## Producer Gas / Wood Gas
 
 - **Composition**: CO + H₂ + N₂. Approximate: ~25% CO, ~10% H₂, ~60% N₂, ~5% CO₂.
 - **Energy density**: ~5-6 MJ/m³ (low — about 1/6 of natural gas). Bulkier per unit energy than any other fuel.
@@ -125,14 +125,14 @@ Petroleum distillation yields a spectrum of liquid fuels, each tuned to a boilin
 - **Engine use**: Can fuel internal combustion engines and furnaces directly. Powered vehicles during WWII petroleum shortages (wood gas generators on cars and trucks). Must be scrubbed of tars and particulates before engine use — tar deposits destroy engine valves and cylinders.
 - **Advantage**: Producible from any solid carbon fuel (charcoal, coke, coal, even wood). Independent of petroleum or natural gas.
 
-### Coal Gas
+## Coal Gas
 
 - **Source**: From coke ovens (by-product of coke production).
 - **Composition**: ~50-60% H₂, 20-30% CH₄, 5-8% CO, balance N₂ and CO₂.
 - **Energy density**: ~18 MJ/m³ (richer than producer gas due to high H₂ and CH₄ content).
 - **Uses**: Coke oven heating, steelworks furnaces, town gas (lighting and heating). Must be cooled and scrubbed of tar and naphthalene before distribution.
 
-### Natural Gas
+## Natural Gas
 
 - **Composition**: Primarily methane (CH₄), with minor ethane, propane, and butane.
 - **Energy density**: ~35-40 MJ/m³ (highest of common gaseous fuels).
@@ -255,6 +255,6 @@ Straight vegetable oil (SVO) can run in modified diesel engines, but its high vi
 
 Transesterification produces biodiesel with properties much closer to petroleum diesel. The reaction uses 1 kg of vegetable oil (triglyceride), 100-200 g of methanol (6:1 molar ratio, excess drives reaction to completion), and 3-8 g of sodium hydroxide (NaOH) or potassium hydroxide (KOH) as catalyst. The reaction proceeds at 50-65°C for 1-3 hours with continuous stirring. Products separate into two layers: biodiesel (methyl esters, upper layer, ~95% yield) and glycerol (lower layer, byproduct with value as a chemical feedstock). Biodiesel cetane number: 48-65 (vs. 40-55 for petroleum diesel). Viscosity: 4-5 cSt at 40°C (close to diesel). Energy density: 37-40 MJ/kg (about 8-10% lower than petroleum diesel). Biodiesel can be blended with petroleum diesel at any ratio or used neat (B100) in compatible engines.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+
+[← Back to Energy](index.md)

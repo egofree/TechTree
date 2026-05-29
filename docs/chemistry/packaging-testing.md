@@ -127,7 +127,6 @@ The packaging and testing stage is often the bottleneck for semiconductor produc
 
  ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
 
 ## Analytical Testing Methods
 

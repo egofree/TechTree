@@ -22,7 +22,7 @@ The transition from pig iron to steel is the single most important metallurgical
 - [Fuels](../energy/fuels.md) — coke, gas, and energy for heating
 - [Air separation](../chemistry/air-separation.md) — tonnage oxygen for BOF steelmaking
 
-### Bessemer Process
+## Bessemer Process
 
 The Bessemer process (patented 1856) was the first mass-production method for steel. By blowing air through molten pig iron, Bessemer harnessed the exothermic oxidation of impurities to both refine the metal and maintain its temperature without external fuel.
 
@@ -44,7 +44,7 @@ The Bessemer process (patented 1856) was the first mass-production method for st
 
 **Limitations**: Nitrogen pickup from the air blast (0.010-0.020% N) caused strain aging and reduced ductility. Inability to precisely control final chemistry. Excessive dissolved oxygen. The Bessemer process was superseded by the basic oxygen furnace by the 1960s, which uses pure oxygen instead of air and avoids nitrogen contamination.
 
-### Open-Hearth Furnace
+## Open-Hearth Furnace
 
 The Siemens-Martin open-hearth process dominated world steel production from 1890 to 1960. It used regenerative heat exchangers to achieve 1600-1650°C — hot enough to melt steel in a shallow bath, with precise control over composition.
 
@@ -65,7 +65,7 @@ The Siemens-Martin open-hearth process dominated world steel production from 189
 
 **Disadvantages**: Slow (6-10 hours vs. Bessemer's 20 minutes). High fuel consumption (2-3 GJ/tonne steel). Large, expensive furnace. Superseded by BOF in the 1960s-70s due to poor productivity — one BOF vessel produces more steel per day than an entire open-hearth shop with 6-10 furnaces.
 
-### Basic Oxygen Furnace (BOF)
+## Basic Oxygen Furnace (BOF)
 
 The basic oxygen furnace (also called LD converter, after Linz and Donawitz, Austria, where it was developed 1949-1952) produces ~70% of the world's steel. It refines molten pig iron by blowing high-purity oxygen (>99.5%) at supersonic velocity onto the metal surface through a water-cooled lance.
 
@@ -88,7 +88,7 @@ The basic oxygen furnace (also called LD converter, after Linz and Donawitz, Aus
 
 **Energy balance**: The BOF is a net energy producer. The exothermic heat of oxidation exceeds the heat needed to melt the scrap charge and raise the bath temperature. Excess heat: ~30-50 MJ/tonne steel, manifest as BOF gas (CO) and sensible heat in off-gas. Total oxygen consumption: 45-60 Nm³ per tonne of steel.
 
-### Electric Arc Furnace (EAF)
+## Electric Arc Furnace (EAF)
 
 The electric arc furnace produces ~30% of world steel, predominantly from 100% scrap charge. Graphite electrodes carry three-phase AC current (or DC in modern designs), creating electric arcs that transfer heat directly to the scrap and molten steel.
 
@@ -110,7 +110,7 @@ The electric arc furnace produces ~30% of world steel, predominantly from 100% s
 
 **Advantages over BOF**: Low capital cost (~$100-150/annual tonne vs. BOF ~$200-300). Flexible — can start and stop daily to match electricity pricing. Uses 100% scrap (no blast furnace required). Compact footprint. The EAF route is the primary path for steel recycling.
 
-### Ladle Metallurgy
+## Ladle Metallurgy
 
 Secondary steelmaking (ladle metallurgy, ladle refining) occurs after tapping from the BOF or EAF and before casting. The ladle furnace is not a primary melting unit — it adjusts chemistry, temperature, and cleanliness to the precise specification required for continuous casting.
 
@@ -129,7 +129,7 @@ Secondary steelmaking (ladle metallurgy, ladle refining) occurs after tapping fr
 
 **Ladle furnace (LF)**: A three-electrode arc furnace designed to hold and reheat steel in the ladle. Arc power: 10-25 MW. Temperature increase rate: 3-5°C/min. The LF provides time and thermal headroom for the ladle metallurgy operations — without it, steel would cool below the casting temperature window during extended refining treatments.
 
-### Continuous Casting
+## Continuous Casting
 
 Continuous casting converts liquid steel into semi-finished solid sections (billets, blooms, slabs) in a single continuous operation, eliminating the ingot-soaking-rolling sequence. It is the single most important improvement in steelmaking since the Bessemer process — yielding 95-98% of liquid steel as salable product versus 80-85% for ingot casting. Over 95% of world steel is now continuously cast.
 
@@ -150,7 +150,7 @@ Continuous casting converts liquid steel into semi-finished solid sections (bill
 
 **Breakout**: The catastrophic failure mode — the solid shell ruptures, releasing liquid steel into the machine. Caused by sticker (shell sticking in mold), thin shell from insufficient mold cooling, or mold level fluctuation. Prevented by mold level control, mold thermal monitoring (detecting hot spots indicating thin shell), and breakout prediction systems using mold thermocouple data. Consequences: production stoppage of 4-12 hours, equipment damage, safety hazard.
 
-### Ingot Casting
+## Ingot Casting
 
 Before continuous casting (and still for certain specialty grades), steel was cast as ingots — individual molds filled from a ladle, each producing a single block of steel weighing 5-30 tonnes. Ingot casting remains necessary for forgings (turbine rotors, pressure vessels, nuclear components) where the cross-section exceeds continuous caster capability.
 
@@ -164,7 +164,7 @@ Before continuous casting (and still for certain specialty grades), steel was ca
 
 **Soaking pits and primary rolling**: Ingots are not rolled directly — the as-cast structure is coarse, brittle, and non-uniform. Ingots are heated in soaking pits (gas-fired or electric reheating furnaces) to 1200-1300°C and held for several hours to homogenize temperature and dissolve segregation. They are then rolled on a blooming mill (large two-high reversing mill) into blooms or slabs. This first rolling pass breaks the as-cast grain structure and consolidates any internal porosity. Soaking pit fuel: 0.5-1.0 GJ/tonne.
 
-### Steel Product Forms
+## Steel Product Forms
 
 Steel products are classified by the shape of the semi-finished input and the rolling process applied:
 
@@ -184,7 +184,7 @@ Steel products are classified by the shape of the semi-finished input and the ro
 - **Seamless tube**: Pierced from a heated round billet on a rotary piercing mill (Mannesmann process). The billet is rotated and pushed over a pointed mandrel — tensile stresses at the center cause a cavity, and the mandrel shapes the bore. Further rolled on a plug mill or mandrel mill to final wall thickness. Diameter range: 20-700 mm. Used for oil and gas drilling (OCTG — oil country tubular goods), boiler tubes, hydraulic cylinders, and mechanical tubing. Seamless tube has no weld seam — superior for high-pressure and corrosive service.
 - **Welded tube**: Flat strip or plate formed into a cylindrical shape on a roll-forming line and welded longitudinally (ERW — electric resistance welding, for 10-600 mm diameter) or spirally (SAW — submerged arc welding, for 300-2500 mm diameter). Lower cost than seamless. Used for line pipe, structural piling, mechanical tubing, and plumbing. ERW weld quality has improved dramatically — modern ERW pipe is suitable for many sour service and high-pressure applications that formerly required seamless.
 
-### Safety & Hazards
+## Safety & Hazards
 
 **Molten metal and slag**: Steel at 1600-1650°C and slag at 1500-1600°C cause instantaneous third-degree burns on contact. Full PPE: aluminized heat-resistant coat, safety glasses with side shields, face shield, heat-resistant gloves, metatarsal boots. Never stand over or walk across ladle paths. Molten metal and moisture cause violent steam explosions — all tools, refractories, alloys, and scrap must be thoroughly dry before contact with liquid steel. Even a few drops of water trapped under slag can produce an explosion large enough to tip a ladle.
 
@@ -200,7 +200,7 @@ Steel products are classified by the shape of the semi-finished input and the ro
 
 **Noise**: Arc furnaces exceed 120 dB during melt-down. Continuous caster mold oscillation and spray chambers produce sustained 95-105 dB. Hearing protection mandatory in all steelmaking areas. Communication by radio or hand signals.
 
-### Bootstrap Sequence
+## Bootstrap Sequence
 
 Steelmaking capability builds in stages, each requiring progressively more infrastructure:
 

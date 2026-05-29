@@ -8,7 +8,7 @@
 > **Outputs**: larger_wafers, finer_features, higher_yield
 > **Critical**: No — describes scaling progression rather than a specific manufacturing capability
 
-### Continuous Scaling
+## Continuous Scaling
 
 The progression from the Photolithography stage's first ICs to the VLSI Scaling stage's complex chips follows Moore's Law-like scaling — each generation doubles transistor count, shrinks features, and improves yield.
 
@@ -47,7 +47,7 @@ Each jump requires: larger crystal pullers, bigger processing equipment, more ma
 - Each wafer size transition requires entirely new equipment fleet ($1-10B for 300 mm fab) — no incremental upgrade path
 - Yield at each new node starts near zero — takes 2-3 years of process learning to reach 80%+ maturity
 
-### Scaling Transition Details
+## Scaling Transition Details
 
 **10 μm → 3 μm (1970s)**: The first shrink. Contact printing gives way to 1:1 projection — a lens images the mask onto the wafer without physical contact, eliminating mask damage. Overlay tolerance relaxes from ±1 μm to ±0.5 μm with basic mechanical alignment stages. Wet etching still adequate. Yield challenge: defect density dominates — even 1 defect/cm² kills most die. Cleanroom discipline (Class 10,000) becomes essential. Equipment: mercury arc lamp sources (g-line 436 nm), basic optical projection lenses.
 
@@ -67,7 +67,7 @@ Each jump requires: larger crystal pullers, bigger processing equipment, more ma
 - Every generation requires a new lithography source (g-line → i-line → KrF → ArF → immersion → EUV) — each takes 10-15 years and $1-5B to develop
 - Variability (random dopant fluctuation, line-edge roughness) becomes dominant yield limiter below 65 nm — no longer solvable by process tuning alone
 
-### Interconnect Scaling Roadmap
+## Interconnect Scaling Roadmap
 
 As transistors shrink, interconnects become the performance bottleneck — RC delay and power dissipation in wiring dominate over gate delay below ~250 nm.
 
@@ -86,7 +86,7 @@ As transistors shrink, interconnects become the performance bottleneck — RC de
 - Ta/TaN barrier (5-20 nm) occupies increasing fraction of wire cross-section at each node — at 30 nm pitch, barrier is ~50% of trench width
 - Porous low-κ dielectrics crack under CMP downforce and packaging stress — mechanical reliability limits further κ reduction
 
-### Gate Dielectric Scaling
+## Gate Dielectric Scaling
 
 The gate oxide is the critical dimension controlling transistor switching. Scaling it thinner increases drive current but at a steep cost in leakage.
 
@@ -106,7 +106,7 @@ The polysilicon gate electrode must also be replaced: HfO₂ traps at the poly-S
 - ALD HfO₂ requires sub-angstrom thickness control — a 0.1 nm variation shifts threshold voltage by ~10-20 mV
 - Metal gate work function must be tuned separately for NMOS (~4.1 eV) and PMOS (~5.2 eV) — requires two different metal stacks
 
-### Bootstrap Roadmap
+## Bootstrap Roadmap
 
 Not every node requires every technology. A practical bootstrap sequence:
 
@@ -128,7 +128,7 @@ Each generation's equipment is built using the previous generation's ICs (for co
 - 70-200+ year bootstrap timeline assumes continuous investment — any gap in capability development resets the feedback loop
 - 300 mm fab at 65 nm node costs $3-5B — capital requirements become prohibitive for small civilizations
 
-### Hazards & Safety
+## Hazards & Safety
 
 Continuous scaling does not introduce fundamentally new hazard categories beyond those already described in the upstream and downstream process files, but the hazard severity escalates with each technology node: higher voltages (ion implanters to 500 kV), more toxic process gases (AsH₃, PH₃), and more energetic radiation sources (DUV, EUV). Safety programs must scale accordingly. Refer to the specific hazard details in:
 - [Advanced Lithography](advanced-lithography.md) — excimer laser high voltage, DUV radiation, fluorine gas handling.
@@ -136,7 +136,7 @@ Continuous scaling does not introduce fundamentally new hazard categories beyond
 - [Core Fab Processes](../photolithography/fab-processes.md) — HF acid, furnace temperatures, forming gas.
 
 
-### Moore's Law and Transistor Density
+## Moore's Law and Transistor Density
 
 Gordon Moore's 1965 observation (refined in 1975) that transistor count per chip doubles approximately every 2 years has driven the semiconductor industry for 60 years. The trend holds remarkably well across thousands of process generations, though the mechanisms have shifted from pure dimensional scaling to architectural innovation.
 
@@ -180,7 +180,7 @@ Each node nominally shrinks gate pitch by 0.7× (half the area per transistor) a
 - Die area growth stalled at ~800-840 mm² (reticle limit 26×33 mm) — further density gains require either chiplets or 3D stacking
 - Apple M1 Ultra at 114B transistors on 5 nm requires TSMC's most advanced node — only 2-3 companies worldwide can afford this
 
-### Dennard Scaling and Its Breakdown
+## Dennard Scaling and Its Breakdown
 
 Robert Dennard's 1974 paper established that shrinking MOSFET dimensions by a factor κ while scaling voltage by the same κ yields transistors that are κ² times smaller, κ times faster, and consume the same power density. This "constant-field scaling" held from the 1970s until approximately 2006.
 
@@ -205,7 +205,7 @@ Robert Dennard's 1974 paper established that shrinking MOSFET dimensions by a fa
 - Gate oxide tunneling at <1.2 nm SiO₂ broke voltage scaling — Vdd stalled at 0.8-1.0V since the 90 nm node
 - Subthreshold swing limit of ~60 mV/decade prevents Vth from scaling further — leakage current increases exponentially below ~0.7V threshold
 
-### FinFET and Gate-All-Around Architectures
+## FinFET and Gate-All-Around Architectures
 
 Planar MOSFETs lose gate control over the channel below ~20-25 nm gate length — the drain electric field penetrates underneath the gate, causing drain-induced barrier lowering (DIBL) and severe short-channel effects. 3D transistor geometries restore gate control by wrapping the gate electrode around multiple sides of the channel.
 
@@ -229,7 +229,7 @@ Planar MOSFETs lose gate control over the channel below ~20-25 nm gate length �
 - Fin width at 6-8 nm (5 nm node) requires SADP + EUV — patterning tolerance is ±0.5 nm on a 7 nm feature
 - GAA fabrication requires selective SiGe:Si etch with >100:1 selectivity — one of the most demanding etch processes in semiconductor manufacturing
 
-### Process Node Cost Scaling
+## Process Node Cost Scaling
 
 Each technology node requires exponentially more capital investment per wafer, driven by equipment complexity, multiple patterning, and yield challenges.
 
@@ -258,7 +258,7 @@ Each technology node requires exponentially more capital investment per wafer, d
 - Fab capital cost escalated from ~$5-8B (28 nm) to $20-30B (3 nm) — only TSMC, Samsung, and Intel can afford leading-edge fabs
 - Mask set cost at 3 nm ($20-40M) makes low-volume ASIC production economically impossible — forces use of older nodes
 
-### Yield and Defect Density
+## Yield and Defect Density
 
 Yield — the fraction of manufactured chips that function correctly — is the dominant economic variable in semiconductor manufacturing. A 1% yield improvement at an advanced node can be worth hundreds of millions of dollars per year.
 
@@ -288,5 +288,5 @@ Each masking layer adds independently to defect density: D₀_total = N_layers �
 - Systematic defects (30-50% of yield loss at advanced nodes) cannot be modeled statistically — require design-specific DFM analysis
 
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*
+
+[← Back to VLSI Scaling](index.md)

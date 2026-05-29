@@ -24,19 +24,19 @@ Semiconductor manufacturing tolerances shrink with every generation. Photolithog
 
 Transforming a glass blank into a lens accurate to a fraction of a wavelength requires a controlled sequence of abrasive operations, each progressively finer, followed by polishing and figuring.
 
-### Rough Grinding
+## Rough Grinding
 
 Silicon carbide (SiC) abrasive, 80-220 grit (particle size 180-68 μm), removes bulk material quickly. Fix the glass blank to a cast iron tool whose curvature matches the desired lens surface (convex tool for concave lens, concave tool for convex lens). Apply abrasive slurry (SiC + water) and stroke the blank across the tool in random overlapping paths. Typical removal rate: 0.5-2 mm/hour. Check radius of curvature with a spherometer or template every 15 minutes. Coarse grit leaves pits 50-100 μm deep, removed in subsequent stages.
 
-### Fine Grinding
+## Fine Grinding
 
 Progress through 400 grit (23 μm) and 600 grit (14 μm). Each stage removes the pit damage from the previous stage, requiring removal of 3-5× the previous grit diameter. At 600 grit, the surface appears translucent and the correct curvature is within 5-10 μm of nominal. Wash the blank, tool, hands, and bench thoroughly between grits. A single grain of 80-grit SiC carried into the 600-grit stage will produce a deep scratch, forcing a return to 400 grit.
 
-### Polishing
+## Polishing
 
 Cerium oxide (CeO₂) slurry (0.5-3 μm particle size, 5-15% by weight in water) on a pitch lap. The pitch (derived from pine tar or petroleum residues, hardness graded by pen test: soft pitch indents under a 1 kg load in 2-5 seconds at room temperature) conforms to the glass surface under pressure, ensuring uniform contact. Polishing removes the fine-ground surface layer at 0.1-0.5 μm/hour. Duration: 2-8 hours for a 50-100 mm diameter lens. The surface transitions from translucent to transparent. Test by reflecting a point source: a polished surface shows a sharp specular reflection.
 
-### Figuring
+## Figuring
 
 Figuring corrects the polished surface from a sphere to the desired aspheric profile (paraboloid, hyperboloid, or multi-element correction). Zone tools (pitch laps cut to contact specific annular zones) selectively polish high areas identified by interferometric testing. Each figuring iteration: test → identify high zones → polish with zone tool → retest. A typical 100 mm camera lens requires 3-8 figuring iterations. A lithography-grade lens may require 20-50 iterations over weeks.
 
@@ -53,7 +53,7 @@ If A fits B and B fits C and C fits A, all three must be flat. Any curvature wou
 
 ## Angle Measurement
 
-### Autocollimator
+## Autocollimator
 
 An autocollimator measures small angular deviations with extreme precision. Layout: light source → reticle (illuminated crosshair) → beam splitter → objective lens → target mirror → reflected light returns through objective → beam splitter → eyepiece with measuring scale.
 
@@ -61,13 +61,13 @@ When the target mirror is exactly perpendicular to the optical axis, the reflect
 
 **Applications**: Straightness measurement of machine tool ways (reflect mirror along the ways, autocollimator reads angular changes at each position), perpendicularity checking, rotary table calibration, level measurement. Resolution to 0.1 arcsecond achievable with photoelectric readout.
 
-### Optical Square
+## Optical Square
 
 A pentagonal prism or mirror arrangement that deflects light by exactly 90°, regardless of small angular errors in the mounting. Used to establish perpendicular reference lines for machine tool alignment and construction. Accuracy: ±1 arcsecond for a quality pentagonal prism. Simpler than an autocollimator for 90° checks, and more compact than a precision engineer's square.
 
 ## Interferometric Flatness Testing
 
-### Fizeau Interferometer
+## Fizeau Interferometer
 
 The Fizeau interferometer is the primary instrument for measuring surface flatness of optical components. A monochromatic light source (helium discharge lamp, λ = 587.6 nm, or laser) illuminates a reference flat (typically λ/20 flatness) resting on the test surface. A thin air wedge between the two surfaces creates interference fringes. Straight, equally spaced fringes indicate a flat surface. Curved or irregular fringes reveal surface errors.
 
@@ -75,13 +75,13 @@ The Fizeau interferometer is the primary instrument for measuring surface flatne
 
 **Recording**: Photograph the fringe pattern with a camera mounted above the interferometer. Measure fringe deviations from a straight reference line on the photograph. Digital analysis (fringe tracking software) automates the process, but manual reading with a ruler on a photograph suffices for most workshop applications.
 
-### Newton's Rings
+## Newton's Rings
 
 When a slightly curved lens surface rests on a flat reference surface, the air gap between them creates concentric circular interference fringes (Newton's rings). The radius of the nth dark ring is rₙ = √(nλR), where R is the radius of curvature. Counting rings from the center quantifies the deviation from flatness or the radius of curvature. Quick, requires only a reference flat and a monochromatic light source. Accuracy: λ/2 per ring, limited by contact pressure and cleanliness.
 
 ## Precision Levels
 
-### Tubular Vial Level
+## Tubular Vial Level
 
 A precision level uses a glass vial with a slightly curved inner surface (radius of curvature 10-50 m). An air bubble in the vial settles at the highest point. When the base tilts, the bubble moves. Vial sensitivity is the tilt angle that moves the bubble one division mark: 0.02 mm/m (4 arcseconds) for precision workshop levels, 0.01 mm/m (2 arcseconds) for laboratory-grade instruments.
 
@@ -104,7 +104,7 @@ A profile projector (optical comparator) casts a magnified shadow of a workpiece
 
 ## Coordinate Measuring with Optics
 
-### Toolmaker's Microscope
+## Toolmaker's Microscope
 
 A toolmaker's microscope combines a compound optical microscope with a precision X-Y stage and angular measurement capability, designed for dimensional inspection of small parts and cutting tools.
 
@@ -131,7 +131,7 @@ Optical flats are the primary reference for surface flatness measurement. They a
 
 Clean optics are a prerequisite for all precision optical work. A single dust particle on an optical flat creates a spurious fringe. A fingerprint on a lens scatters light and degrades contrast.
 
-### Standard Cleaning Procedure
+## Standard Cleaning Procedure
 
 1. **Remove loose dust**: Blow with clean, oil-free compressed air or a rubber bulb. Never brush; brushing drags particles across the surface and scratches.
 2. **Remove oils and residues**: Apply a few drops of acetone or isopropanol (reagent grade, not rubbing alcohol which contains water and oils) to a lint-free lens tissue (not paper towel, not cotton cloth). Do not apply solvent directly to the optic.
@@ -139,7 +139,7 @@ Clean optics are a prerequisite for all precision optical work. A single dust pa
 4. **Inspect**: View the surface under a bright light at a grazing angle (hold the optic and look at the reflected light source). Residual streaks or spots require repeat cleaning.
 5. **Persistent contamination**: For dried deposits, apply solvent and let it soak for 30 seconds before drag wiping. Avoid this on cemented optics (achromatic doublets, Amici prisms) because solvent can dissolve the Canada balsam or optical cement.
 
-### Materials to Avoid
+## Materials to Avoid
 
 - **Acetone on plastic optics**: Dissolves acrylic, polycarbonate, and many adhesives. Use only on glass and fused silica.
 - **Household glass cleaners**: Contain detergents and ammonia that leave films. These films are invisible under casual inspection but produce measurable scatter in precision instruments.
@@ -173,7 +173,7 @@ Clean optics are a prerequisite for all precision optical work. A single dust pa
 
 **Expected result**: λ/10 flatness per 100 mm diameter on the first attempt. λ/20 achievable with careful figuring and a stable temperature environment (±1°C during figuring).
 
-### Thermal Stabilization
+## Thermal Stabilization
 
 Before any precision flatness measurement, the optical flat and the test piece must equilibrate to the same temperature. A 100 mm fused silica flat handled for 30 seconds with bare hands absorbs enough heat to distort by λ/5. Allow a minimum of 30 minutes thermal settling time after handling before performing interferometric tests. For λ/20 measurements, allow 2 hours in a temperature-stable room (±0.5°C). Mark the settling time on the flat's storage case as a handling reminder.
 
@@ -205,7 +205,6 @@ Before any precision flatness measurement, the optical flat and the test piece m
 - **Acetone and isopropanol**: Both solvents are flammable (acetone flash point -20°C, isopropanol 12°C). Use in well-ventilated areas away from ignition sources. Acetone defats skin and causes cracking with repeated contact. Isopropanol is less aggressive but still drying. Wear nitrile gloves for prolonged solvent use. Store in flammable-liquid cabinets with grounding to prevent static ignition.
 - **Optical flat breakage**: Fused silica optical flats are brittle and expensive. A dropped 100 mm diameter flat shatters into sharp fragments. Handle over a padded surface. Never place a flat face-down on a hard bench. Use a protective carrier (wooden or foam-lined case) for transport between instruments.
 
----
 
 ## Limitations
 

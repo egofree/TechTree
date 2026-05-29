@@ -18,7 +18,7 @@ Engineering, navigation, ballistics, and bookkeeping all require arithmetic — 
 - [Mathematics](../mathematics/core-mathematics.md) — logarithms, polynomials, and numerical methods
 - [Metals](../metals/index.md) — brass, steel, and phosphor bronze for gears, springs, and frames
 
-### Manual Calculation Aids
+## Manual Calculation Aids
 
 **Abacus**:
 - **Construction**: Wooden frame with horizontal rods. Beads on each rod — upper beads (heaven beads, value 5 each) and lower beads (earth beads, value 1 each). Standard suanpan: 2 upper + 5 lower beads per rod. Soroban: 1 upper + 4 lower.
@@ -44,7 +44,7 @@ Engineering, navigation, ballistics, and bookkeeping all require arithmetic — 
 - **Production**: Compute by difference methods (add small increments using known derivatives). Typeset and print via printing press (Knowledge Preservation). Multiple proofreaders verify against independent calculations. Errors in tables cause engineering failures — accuracy is paramount.
 - **Use**: Look up log values for multiplication/division (antilog for results). Look up trig values for surveying and engineering. Faster than slide rule for high precision (5-6 figures). Slower for 3-figure work.
 
-### Mechanical Calculators
+## Mechanical Calculators
 
 **Gear-based adder (Pascaline-type)**:
 - **Principle**: Rotating digit wheel with 10 positions (0-9). When wheel passes from 9 to 0, mechanical carry mechanism advances next wheel by one position.
@@ -69,7 +69,7 @@ Engineering, navigation, ballistics, and bookkeeping all require arithmetic — 
 - **Mill**: Set of gears and carries that perform arithmetic operations (add, subtract, multiply, divide) on values fetched from the store. The conceptual ancestor of the CPU. Operation selected by control cards.
 - **Input**: Punched cards (adapted from Jacquard loom) — operation cards specify which calculation to perform, variable cards specify which store columns to read/write. Program = sequence of cards. Conditional branching achieved by reversing card chain direction (advance or back up based on result sign). The first general-purpose programmable computer concept, though never completed in Babbage's lifetime.
 
-### Specialized Calculation Devices
+## Specialized Calculation Devices
 
 **[Napier's bones](../glossary/napiers-bones.md)** (multiplication rods):
 - **Construction**: Ten rectangular rods (numbered 0-9), each divided into nine squares. Each square shows the product of the rod's digit multiplied by the row number (1-9), with tens above a diagonal line and units below. An eleventh rod serves as the multiplier index.
@@ -93,7 +93,7 @@ Engineering, navigation, ballistics, and bookkeeping all require arithmetic — 
 - **Capacity**: 11-digit input, 15-digit result counter, 8-digit revolution counter. Weighs ~230 g.
 - **Manufacturing**: Requires 605 precision parts. Machining tolerances ±0.01 mm on critical dimensions. The most complex mechanical calculator produced in significant numbers (~80,000 units). Demonstrates the upper limit of purely mechanical calculation before electronics.
 
-### Mechanical Memory and Counting
+## Mechanical Memory and Counting
 
 **Counter wheels and registers**:
 - **Decade counter**: Ten-tooth ratchet wheel with detent. Each input pulse (via electromagnet or mechanical linkage) advances wheel by one position. Carry lever trips when wheel passes 9, advancing next wheel. Used in: tabulating machines, odometers, revolution counters, frequency counters.
@@ -103,7 +103,7 @@ Engineering, navigation, ballistics, and bookkeeping all require arithmetic — 
 - **[Full-keyboard machines](../glossary/full-keyboard-machines.md)** (Friden, Marchant): Ten-key rows (0-9) for each digit position. Press keys to set the number, pull lever to engage. Automatic multiplication: set multiplier on keyboard, pull multiply lever, machine iterates through digits automatically, shifting carriage between digit positions. Division similarly automated. Speed: multiplication of two 10-digit numbers in 5-10 seconds.
 - **[Ten-key machines](../glossary/ten-key-machines.md)** (later design): Compact, resembling modern calculator layout. Enter digits sequentially, machine positions them internally. Electric motor drive replaces hand crank (1940s onward). These machines dominated business computation until electronic calculators displaced them in the 1970s.
 
-### Mechanical Analog Computing
+## Mechanical Analog Computing
 
 **[Differential analyzer](../glossary/differential-analyzer.md)** (Bush-type, 1930s):
 - **Purpose**: Solve ordinary differential equations numerically by mechanical integration. The first general-purpose analog computer.
@@ -117,13 +117,13 @@ Engineering, navigation, ballistics, and bookkeeping all require arithmetic — 
 - **Mechanism**: Arrays of cams, differentials, multipliers, and integrators, all connected by shafts. Input dials set target range, bearing rate, wind speed, and ship speed. Cams generate ballistic correction functions. Differentials sum corrections. Output shafts drive the gun aiming mechanism directly. The computer solves the fire control problem in real time, continuously, as inputs change.
 - **Accuracy**: Sufficient for naval engagements at ranges of 10-30 km. The US Navy Mark 1 Fire Control Computer contained ~3,000 precision parts and weighed ~1,360 kg.
 
-### Printing and Recording
+## Printing and Recording
 
 **Mechanical counters with printout**:
 - **Adding machine with tape**: Keyboard input, full add/subtract, running total printed on paper tape. Each entry stamped sequentially. The printed tape provides an audit trail for accounting. Mechanism: type bars strike inked ribbon against paper tape, driven by the same key press that operates the counter.
 - **Strip chart recorder**: Pen on paper strip driven at constant speed by clockwork or synchronous motor. Pen deflection proportional to measured variable (temperature via bimetallic strip, pressure via Bourdon tube, voltage via galvanometer). Records continuous variation over time. Essential for process monitoring, weather recording, and scientific observation.
 
-### Materials and Manufacturing
+## Materials and Manufacturing
 
 **Precision requirements for mechanical calculation**:
 - **Gear cutting**: Involute tooth profile generated by hobbing (rotating cutter synchronized with gear blank rotation) or milling with formed cutter. Module (tooth size) = pitch diameter / number of teeth. Typical calculator gears: module 0.5-1.0 mm, 20-60 teeth. Tooth spacing tolerance: ±0.01 mm. Backlash (play between meshing gears): <0.02 mm for carry mechanism reliability.
@@ -134,7 +134,7 @@ Engineering, navigation, ballistics, and bookkeeping all require arithmetic — 
 - Every mechanical calculator requires hand adjustment after assembly. The carry mechanism is the most sensitive: carry levers must engage reliably at every digit transition from 9 to 0, but must NOT falsely trigger at other transitions. Adjust by bending carry lever arms, filing detent profiles, and shimming bearing positions. A skilled adjuster spends 10-40 hours per machine on final calibration.
 - Wear compensation: All moving parts wear during use. Digit wheels and carry levers are designed with adjustable pivot points or replaceable wear strips. Machines require periodic cleaning and re-lubrication (every 3-12 months depending on use intensity). Bearing oil: light machine oil (viscosity 10-30 cSt at 40°C).
 
-### Historical Context
+## Historical Context
 
 The development of mechanical calculation follows a clear progression of increasing complexity and manufacturing capability:
 
@@ -151,7 +151,7 @@ The development of mechanical calculation follows a clear progression of increas
 - **Gear cutting**: Generating correct involute tooth profiles requires either a dividing head and formed cutter (for small quantities) or a hobbing machine (for production). Gear tooth measurement with vernier calipers or gear tooth micrometers.
 - **Assembly and adjustment**: The carry mechanism of any mechanical calculator is the most demanding subassembly. Each carry lever must be individually fitted and adjusted. This is not mass-production work; each machine is individually tuned by a skilled mechanic.
 
-### Gear Manufacturing for Calculators
+## Gear Manufacturing for Calculators
 
 The precision required for mechanical calculator gears exceeds typical machine shop work. Each gear must maintain consistent tooth spacing and involute profile to prevent jamming and calculation errors:
 
@@ -160,7 +160,7 @@ The precision required for mechanical calculator gears exceeds typical machine s
 - **Materials**: Brass (easy to machine, self-lubricating, corrosion-resistant) for most calculator gears. Hardened steel for high-wear components (carry levers, stepped drums). Phosphor bronze for bearings. Nickel plating on brass gears prevents tarnish and reduces friction.
 - **Finishing**: After hobbing, deburr all tooth edges with a fine file or abrasive wheel. Lap mating gear pairs together with fine abrasive compound to seat the tooth surfaces. Test by rotating through the full engagement cycle: any tight spots indicate a high tooth that needs further lapping.
 
-### Number Representation in Mechanical Systems
+## Number Representation in Mechanical Systems
 
 Mechanical calculators represent numbers through physical position:
 
@@ -169,7 +169,7 @@ Mechanical calculators represent numbers through physical position:
 - **Stepped drum position**: In the Leibniz wheel, each digit position has a drum with teeth of length 1 through 9. A sliding gear engages a selectable number of teeth. The axial position of the sliding gear determines how many units are added per drum revolution. This converts a linear input (lever position) to a rotary addition step, enabling direct multiplication through repeated addition.
 - **Pinion count**: Difference engines and the Analytical Engine represent numbers as the angular position of toothed wheels with 10 or more teeth. Each wheel has 31-50 teeth (supporting 31-50 digit precision). The angular displacement of a wheel from its zero position encodes the digit value. Addition is performed by physically rotating one wheel by an amount proportional to the value on another wheel, using a gear train that ensures the correct angular increment.
 
-### Speed and Capability Comparison
+## Speed and Capability Comparison
 
 | Device | Addition speed | Multiplication speed | Precision | Year introduced |
 |--------|---------------|---------------------|-----------|-----------------|
@@ -180,7 +180,7 @@ Mechanical calculators represent numbers through physical position:
 | Difference Engine | Automatic | N/A (tabulates polynomials) | 31 digits | 1855 (Scheutz) |
 | Friden calculator | 0.5 sec/add | 5-10 sec (auto) | 10-12 digits | ~1940 |
 
-### Detailed Device Specifications
+## Detailed Device Specifications
 
 **Soroban operating detail**:
 - **Configuration**: 13+ rods standard (21 rods for advanced work). One upper bead (value 5) and four lower beads (value 1 each) per rod, separated by a horizontal reckoning bar. Frame dimensions: roughly 30 × 6 cm for a 13-rod unit, beechwood or bamboo.

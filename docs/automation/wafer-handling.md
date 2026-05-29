@@ -21,7 +21,7 @@ A 300 mm semiconductor wafer contains billions of transistors across a silicon s
 | Ultra-thin wafer (<200 μm) handling | Bernoulli end effector | Non-contact levitation prevents bending and breakage |
 | High-throughput cluster tool (>15 wafers/hr) | Dual-arm robot | Exchange move eliminates deadhead travel, 15-30% throughput gain |
 
-### End Effector Trade-offs
+## End Effector Trade-offs
 
 | End Effector Type | Contact | Wafer Sizes | Particle Generation | Throughput | Best For |
 |-----------------|---------|-------------|--------------------|-----------|---------|
@@ -29,7 +29,7 @@ A 300 mm semiconductor wafer contains billions of transistors across a silicon s
 | Bernoulli (air levitation) | None | 300 mm, thin wafers | Very low (air bearing) | Medium | Ultra-thin wafers, backside handling |
 | Surface-contact (paddle) | Full backside | All sizes | Low (depending on paddle surface) | Lower (placement from above) | Thin wafers, batch loading |
 
-### Implementation Steps
+## Implementation Steps
 
 1. **Select robot architecture** based on operating environment (atmospheric vs. vacuum) and throughput requirements
 2. **Choose end effector** based on wafer thickness, particle requirements, and handling mode (pick-place vs. float)
@@ -40,7 +40,7 @@ A 300 mm semiconductor wafer contains billions of transistors across a silicon s
 
 ## Robot Architectures
 
-### Atmospheric Robots
+## Atmospheric Robots
 
 Atmospheric robots operate in cleanroom ambient (ISO Class 3-5) environments, transferring wafers between FOUPs, load ports, and process modules.
 
@@ -87,7 +87,7 @@ Atmospheric robots operate in cleanroom ambient (ISO Class 3-5) environments, tr
 - Theta rotation limited to ±180° or ±360° — some chamber positions unreachable depending on design
 - More complex mechanical design — three independent axes (R, theta, Z) with separate motors and encoders
 
-### Vacuum Robots
+## Vacuum Robots
 
 Vacuum robots operate inside process chambers at pressures from 10⁻³ to 10⁻⁹ Torr. They transfer wafers between process modules through vacuum load locks.
 
@@ -104,7 +104,7 @@ Vacuum robots operate inside process chambers at pressures from 10⁻³ to 10⁻
 
 **Vacuum robot speeds**: Transfer time 5-12 seconds per wafer (slower than atmospheric due to gentler acceleration profiles and vacuum-compatible motor limitations). Maximum speed: 1,000 mm/s linear.
 
-### End Effectors
+## End Effectors
 
 The end effector is the gripper that contacts the wafer during transfer. Design is critical for particle-free, damage-free handling.
 
@@ -171,7 +171,7 @@ The end effector is the gripper that contacts the wafer during transfer. Design 
 - Paddle surface must be maintained to <0.5 μm Ra roughness to prevent scratching
 - Not suitable for wafers with backside coatings or patterns that must not be contacted
 
-### Load Lock Systems
+## Load Lock Systems
 
 Load locks transition wafers between atmospheric pressure and vacuum without venting the process chamber.
 
@@ -191,7 +191,7 @@ Load locks transition wafers between atmospheric pressure and vacuum without ven
 - **Sealing**: Viton O-rings for medium vacuum (down to 10⁻⁶ Torr). Copper or aluminum metal seals for ultra-high vacuum (below 10⁻⁸ Torr). Metal seals are single-use — replaced every valve actuation.
 - **Actuation**: Pneumatic cylinder drives blade. Opening/closing time: 0.5-2 seconds. Life: >500,000 cycles for O-ring seals, >100,000 for metal seals.
 
-### Robot Kinematics and Control
+## Robot Kinematics and Control
 
 **Inverse kinematics**:
 - **Problem**: Given a target wafer position (X, Y, Z, theta), compute the joint angles (J1, J2, Z-axis, wrist) that place the end effector at that position.
@@ -203,7 +203,7 @@ Load locks transition wafers between atmospheric pressure and vacuum without ven
 - **Teach mode**: Human operator jogs robot to each position (pick, align, place) and records the waypoint. The robot replays the taught path exactly. No real-time path planning needed for fixed installations.
 - **Speed limiting near critical zones**: Within 50 mm of wafer placement position, robot speed automatically reduced to ≤100 mm/s to prevent impact damage.
 
-### Wafer Mapping and Alignment
+## Wafer Mapping and Alignment
 
 **Cassette mapping**:
 - Before picking from a FOUP or cassette, the robot must know which slots contain wafers. Optical sensors (through-beam IR LED/photodiode pair) scan each slot position. Presence of a wafer blocks the beam → slot occupied. Absence → slot empty.
@@ -214,7 +214,7 @@ Load locks transition wafers between atmospheric pressure and vacuum without ven
 - **Notch vs. flat**: 300 mm wafers use a U-shaped notch (1 mm deep, semi-circular). 200 mm and smaller wafers use a flat edge. The notch/flat indicates crystal orientation (primary flat/notch = {110} plane for most silicon wafers).
 - **In-chamber alignment**: Some process equipment aligns the wafer on the chuck using edge contact pins or optical sensors after the robot places it. Chuck alignment accuracy: ±0.05 mm centering, ±0.02° rotation.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Wafer breakage**: A broken wafer inside process equipment requires opening the chamber for manual cleaning, losing hours of production time. Robot speed limits, gentle acceleration profiles, and force sensing (detect excessive contact force within 10 ms) prevent wafer damage. Force threshold for wafer contact: ≤0.5 N above expected grip force.
 - **Particle generation from robot wear**: Robot bearings, belts, and motor brushes generate particles through mechanical wear. Sealed bearings with cleanroom grease, beltless direct-drive designs, and brushless motors minimize particle sources. Periodic particle monitoring (airborne particle counter sampling near robot) tracks wear degradation.
@@ -223,7 +223,7 @@ Load locks transition wafers between atmospheric pressure and vacuum without ven
 
 ## Multi-Robot Coordination
 
-### Cluster Tool Architecture
+## Cluster Tool Architecture
 
 Modern process tools use cluster configurations where multiple process chambers surround a central wafer-handling robot.
 
@@ -237,13 +237,13 @@ Modern process tools use cluster configurations where multiple process chambers 
 - **Parallel scheduling**: Process multiple wafers simultaneously in different chambers. The scheduler assigns each incoming wafer to the first available chamber and coordinates robot transfers to avoid conflicts (two chambers completing at the same time cannot both request the robot simultaneously — one must wait).
 - **Residency time constraints**: Some processes require the wafer to move to the next step within a maximum time window (e.g., "post-etch clean must begin within 120 seconds of etch completion, or residues harden and become unremovable"). The scheduler must account for these constraints when ordering robot transfers.
 
-### Dual-Arm Robot Coordination
+## Dual-Arm Robot Coordination
 
 - **Configuration**: Two independent robot arms (left and right) sharing the same central column, each with its own end effector. Each arm can reach any chamber and any load lock.
 - **Exchange move**: Arm A picks from chamber 1 (completed wafer), Arm B simultaneously approaches chamber 1 with the next wafer. Arms swap positions: Arm A places completed wafer in load lock while Arm B loads the next wafer into chamber 1. Exchange time: 2-4 seconds — much faster than a single-arm robot's pick-place-replace cycle of 6-10 seconds.
 - **Throughput improvement**: Dual-arm robots improve cluster tool throughput by 15-30% compared to single-arm robots for the same chamber configuration, by eliminating the robot "deadhead" travel between pick and place positions.
 
-### Robot Maintenance and Calibration
+## Robot Maintenance and Calibration
 
 **Teach point verification**:
 - Robot teach points (recorded positions for pick, place, align) drift over time due to bearing wear, belt stretch, and mechanical settling. Verify teach points monthly using a calibration wafer with fiducial markers and a camera system. Acceptable drift: ≤0.1 mm from original position. Re-teach if drift exceeds threshold.
@@ -255,7 +255,7 @@ Modern process tools use cluster configurations where multiple process chambers 
 - **Monthly**: Teach point verification. Bearing lubrication check. Belt tension measurement (for belt-driven robots). Motor current monitoring (increased current indicates bearing wear or contamination).
 - **Quarterly**: Full robot calibration against reference standard. Replacement of worn end effector fingers (typically rated for 500,000-1,000,000 wafer transfers). Vacuum robot bake-out to remove accumulated moisture.
 
-### Wafer Handling at Different Sizes
+## Wafer Handling at Different Sizes
 
 **200 mm wafer handling**:
 - **Cassette**: Open cassettes (no sealed pod) with 25 slots, 6.35 mm pitch. Wafers visible and accessible from above and sides. More fragile than FOUP-enclosed 300 mm wafers — exposed to ambient particles during transport.
@@ -273,14 +273,14 @@ Modern process tools use cluster configurations where multiple process chambers 
 - **FOUP scaling**: 450 mm FOUP would weigh ~15 kg loaded. Requires powered assist at load ports and reinforced transport vehicle payloads.
 - **Robot arm rigidity**: Larger wafer diameter (450 mm vs. 300 mm) increases overhang distance from robot arm joint to wafer center. Arm deflection under wafer weight must be <0.05 mm. Requires stiffer arm materials (carbon fiber composite) or larger cross-sections.
 
-### Cost Considerations
+## Cost Considerations
 
 - **Atmospheric robot**: $50,000-150,000 per unit depending on number of arms, reach, and cleanroom specification. Installed in every process tool (1-2 robots per tool). A fab with 300 tools requires 300-600 atmospheric robots.
 - **Vacuum robot**: $100,000-300,000 per unit. Higher cost due to vacuum-compatible materials, magnetic feedthrough, and low-outgassing qualification. Installed in vacuum process tools (etch, CVD, PVD).
 - **End effector**: $2,000-10,000 per unit. Typically replaced annually. A fab maintains spare inventory of 50-100 end effectors.
 - **Total robot cost**: $20-60 million for a 300 mm fab — a significant fraction of equipment cost but essential for automated operation.
 
-### Emerging Technologies
+## Emerging Technologies
 
 **Direct wafer bonding robots**:
 - For advanced packaging (3D IC stacking), wafers must be aligned and bonded with sub-micron accuracy. Bonding robots use interferometric position sensing to align wafer pairs to ±0.1 μm before contacting and bonding under controlled temperature and pressure.
@@ -294,6 +294,6 @@ Modern process tools use cluster configurations where multiple process chambers 
 - Force feedback enables compliant insertion — the robot adjusts position if unexpected resistance is detected, preventing wafer edge chipping and slot wall damage.
 - **Compliance strategy**: During wafer placement, the robot applies a gentle downward force (0.2-0.5 N) while monitoring for contact. If contact force exceeds 1.0 N, the robot stops and adjusts position laterally to find the correct slot opening.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Automation & Robotics](./index.md) • [All Domains](../index.md)*
+
+[← Back to Automation & Robotics](index.md)

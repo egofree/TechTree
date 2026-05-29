@@ -8,11 +8,11 @@
 > **Outputs**: copper, bronze, castings, ingots
 > **Critical**: No
 
-## 1. Overview
+## Overview
 
 Copper was the first metal smelted (~5000 BCE) and remains the backbone of electrical infrastructure worldwide. This article covers the full chain: primitive copper smelting from carbonate and sulfide ores, bronze alloying, casting methods, work-hardening, electrolytic refining, brass production, and industrial-scale copper smelting. Copper's combination of conductivity (58.0 MS/m at 20 °C for pure annealed copper), corrosion resistance, and ductility makes it irreplaceable for electrical, marine, and structural applications.
 
-## 2. Prerequisites
+## Prerequisites
 
 - [Fire management](../foundations/fire.md) — controlled combustion for furnace operation
 - [Charcoal production](../energy/charcoal.md) — fuel achieving 1100-1300 °C in forced-draft furnaces
@@ -20,7 +20,7 @@ Copper was the first metal smelted (~5000 BCE) and remains the backbone of elect
 - [Beekeeping](../animals/beekeeping.md) — beeswax for lost-wax casting patterns
 - [Pottery](../ceramics/pottery.md) — clay working skills for furnace and crucible construction
 
-## 3. Materials
+## Materials
 
 | Material | Specification | Source |
 |----------|--------------|--------|
@@ -33,9 +33,9 @@ Copper was the first metal smelted (~5000 BCE) and remains the backbone of elect
 | Beeswax | Pure, melting point 62-65 °C | [Beekeeping](../animals/beekeeping.md) |
 | Silica sand | >95% SiO₂, grain size 0.1-0.5 mm, for molding | [Mining](../mining/processing.md) |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Copper Smelting
+## 4.1 Copper Smelting
 
 Copper smelting reduces copper oxide ores to metallic copper at temperatures above 1085 °C (copper melting point) in a forced-draft charcoal furnace. Carbonate ores (malachite, azurite) decompose directly to oxide at 300-400 °C, then reduce. Sulfide ores (chalcopyrite) require roasting first.
 
@@ -79,7 +79,7 @@ Copper smelting reduces copper oxide ores to metallic copper at temperatures abo
 - Sulfide ores (chalcopyrite) require a separate roasting step, doubling labor
 - Yield is sensitive to charcoal quality and air blast consistency — poor bellows technique wastes fuel
 
-### 4.2 Casting
+## 4.2 Casting
 
 Molten copper and bronze are poured into molds to produce ingots, tools, and complex shapes. Three mold types serve different purposes; lost-wax casting enables the most intricate forms.
 
@@ -114,7 +114,7 @@ Molten copper and bronze are poured into molds to produce ingots, tools, and com
 - Shrinkage on solidification (copper shrinks ~2%) can cause internal cavities in thick sections
 - Sand molds are single-use; lost-wax investment is destroyed per casting — high material consumption
 
-### 4.3 Work-Hardening & Annealing
+## 4.3 Work-Hardening & Annealing
 
 Pure copper in annealed state is ~50 Vickers hardness — too soft for tools. Cold hammering work-hardens it to ~150 HV (comparable to mild steel) but reduces ductility. Heavily work-hardened copper cracks if bent further.
 
@@ -136,7 +136,7 @@ Pure copper in annealed state is ~50 Vickers hardness — too soft for tools. Co
 - Temperature estimation by eye has ±50 °C uncertainty at the 400-650 °C range
 - Over-annealing grain growth at >700 °C reduces subsequent work-hardening response
 
-### 4.4 Forging & Forming Copper
+## 4.4 Forging & Forming Copper
 
 Copper and bronze can be hot-forged like [iron and steel](iron-steel.md), but at lower temperatures.
 
@@ -168,7 +168,7 @@ Copper and bronze can be hot-forged like [iron and steel](iron-steel.md), but at
 - Wire drawing below 1 mm diameter needs a precision draw plate and careful tension control (breakage rate increases)
 - Sheet thinner than 0.5 mm tears during planishing if annealing is insufficient
 
-### 4.5 Bronze Alloying
+## 4.5 Bronze Alloying
 
 Adding tin to copper produces bronze: harder, lower melting point (~950 °C for 10% tin), better castability (flows into fine mold details), and more corrosion-resistant than pure copper.
 
@@ -208,7 +208,7 @@ Adding tin to copper produces bronze: harder, lower melting point (~950 °C for 
 - Arsenical bronze alternative is toxic during smelting (arsenic trioxide fumes)
 - High-tin bronzes (>10% Sn) become brittle — limited working range
 
-### 4.6 Electrolytic Copper Refining
+## 4.6 Electrolytic Copper Refining
 
 Fire-refined ("tough pitch") copper is ~99.5% pure — adequate for structural and decorative use but insufficient for electrical conductivity. Electrolytic refining produces 99.99% Cu by dissolving impure anodes and plating pure copper onto cathodes.
 
@@ -258,7 +258,7 @@ Fire-refined ("tough pitch") copper is ~99.5% pure — adequate for structural a
 - Tankhouse is capital-intensive (500-1,000 cells for a 200 kt/yr plant)
 - Electrolyte management (temperature, filtration, impurity buildup) requires constant attention
 
-### 4.7 Brass Production
+## 4.7 Brass Production
 
 Brass is a copper-zinc alloy. Zinc lowers melting point, increases ductility, and produces a gold-colored alloy valued for decorative, mechanical, and marine applications. Unlike bronze (Cu-Sn), brass is easier to cast, more malleable at room temperature, and has superior machinability — but lower hardness and less corrosion resistance in seawater.
 
@@ -293,7 +293,7 @@ Brass is a copper-zinc alloy. Zinc lowers melting point, increases ductility, an
 - Zinc vapor is toxic — oxide fumes cause "metal fume fever" (flu-like symptoms)
 - Cementation process limited to ~33% Zn — higher-zinc brasses require metallic zinc
 
-### 4.8 Copper for Electrical Use
+## 4.8 Copper for Electrical Use
 
 Copper is the dominant electrical conductor worldwide. Its combination of high conductivity (58.0 MS/m at 20 °C for annealed pure copper), ductility (enables wire drawing to fine gauges), solderability, and moderate cost make it irreplaceable in power generation, transmission, motors, and electronics.
 
@@ -341,7 +341,7 @@ Copper is the dominant electrical conductor worldwide. Its combination of high c
 - Wire drawing below 0.1 mm diameter has high breakage rates — needs precision tension control
 - Copper is dense (8.96 g/cm³) — aluminum is preferred for overhead transmission lines where weight matters
 
-### 4.9 Industrial Copper Smelting
+## 4.9 Industrial Copper Smelting
 
 At industrial scale, copper smelting processes sulfide concentrates (20-35% Cu) through a multi-stage pyrometallurgical route: concentrate → matte → blister copper → fire-refined copper → electrolytic copper. Modern smelters process 100,000 to 1,000,000+ tonnes of concentrate per year. See [primary metal forming](forming.md) for downstream processing of refined copper.
 
@@ -383,7 +383,7 @@ Two-stage blow cycle:
 - SO₂ emissions from legacy reverberatory furnaces caused severe environmental damage
 - Peirce-Smith converter refractory lining lasts only 6-12 months between rebuilds
 
-### 4.10 Copper-Nickel Alloys
+## 4.10 Copper-Nickel Alloys
 
 Copper and nickel are fully soluble in each other in all proportions (complete solid solution), enabling a continuous range of alloys with properties tailored between the two elements. Nickel strengthens copper (solid-solution hardening), dramatically improves corrosion resistance (especially in seawater), and modifies electrical resistivity.
 
@@ -418,7 +418,7 @@ Copper and nickel are fully soluble in each other in all proportions (complete s
 - Cupronickel is difficult to machine (work-hardens rapidly, 30-40% of free-cutting brass machinability)
 - Thermocouple wire (constantan) requires calibration against reference standards — not plug-and-play
 
-## 5. Safety & Hazards
+## Safety & Hazards
 
 - **Molten metal burns**: Copper and bronze melt at 1085-1200 °C and cause devastating deep-tissue burns on skin contact. Molten metal splashes readily when poured into damp or cold molds. Wear heavy leather apron, gauntlet gloves, face shield, and closed-toe boots. Preheat all molds and crucibles to 200-400 °C before contact with molten metal — a cold or damp crucible may shatter violently, spraying molten copper. Never pour molten metal into wet molds; trapped moisture flashes to steam and ejects metal explosively.
 - **Toxic fumes from arsenical ores**: Arsenic-bearing copper ores (ennargite Cu₃AsS₄, tennantite Cu₁₂As₄S₁₃) release arsenic trioxide (As₂O₃) vapor during roasting (400-600 °C) and smelting. Arsenic fumes cause nausea, vomiting, abdominal pain, and long-term nerve and organ damage. OSHA PEL for As₂O₃: 0.01 mg/m³ as an 8-hour TWA. Arsenical bronze production (~1-5% As) is particularly hazardous. Smelt in well-ventilated areas or under a hood. Respiratory protection (P100 particulate filter or better) required when roasting sulfide or arsenic-bearing ores. Lead, often present as a trace impurity in copper ores, vaporizes above 500 °C — lead fume inhalation causes cumulative neurological damage. OSHA PEL for Pb: 0.05 mg/m³.
@@ -426,5 +426,5 @@ Copper and nickel are fully soluble in each other in all proportions (complete s
 - **Zinc oxide fume (metal fume fever)**: Brass melting and zinc alloying generate zinc oxide (ZnO) fume when zinc vaporizes at 907 °C and re-oxidizes in air. Inhalation causes "metal fume fever" — flu-like symptoms (chills, fever, muscle aches, metallic taste) beginning 4-8 hours after exposure. OSHA PEL for ZnO fume: 5 mg/m³ as an 8-hour TWA. Prevention: local exhaust ventilation at the crucible, or work upwind of the pour.
 - **Slag and spark injuries**: During hot forging and slag skimming, hot slag and metal particles spray out as bright sparks at 700-900 °C. Eye protection (safety glasses rated ANSI Z87.1 or face shield) is essential when hammering hot metal. Slag skimmed from molten copper retains dangerous heat for extended periods — set aside on dry sand or refractory surface, never on combustible material.
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Metals](index.md)

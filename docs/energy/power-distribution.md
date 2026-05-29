@@ -8,7 +8,7 @@
 > **Outputs**: distribution_transformers, power_transformers, substations, switchgear, distribution_panels, instrument_transformers
 > **Critical**: Yes — Without transformers, AC power distribution beyond 1-2 km is impractical. No long-distance transmission means no centralized generation means no industrial-scale power.
 
-## 1. Overview
+## Overview
 
 Transformers are the enabling technology for alternating-current power distribution. They convert voltage levels with no moving parts — stepping generator output up to thousands of volts for efficient long-distance transmission, then stepping back down to safe utilization voltages at the point of use. Without transformers, every electrical load must be within 1-2 km of its generator, making centralized power generation useless and forcing every factory to operate its own power plant.
 
@@ -16,9 +16,9 @@ The physics is simple: two coils of wire on a shared iron core. Alternating curr
 
 This document covers transformer construction, core and winding manufacturing, insulation systems, oil-filled and dry-type designs, substation layout, switchgear, distribution panels, and the quantitative parameters needed to specify, build, and test power distribution equipment at workshop scale.
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 
 - **Copper wire** — Drawn from electrorefined copper (99.99% purity). Magnet wire from 0.05 mm to 5.0 mm diameter with enamel insulation. See [Wire Drawing](electricity.md).
 - **Silicon steel sheet** — 3-4% silicon-iron alloy, 0.23-0.50 mm thick, for laminated cores. Reduces eddy current losses. See [Iron & Steel](../metals/iron-steel.md).
@@ -27,7 +27,7 @@ This document covers transformer construction, core and winding manufacturing, i
 - **Steel plate** — For transformer tanks, radiators, and structural supports. 3-12 mm thick.
 - **Porcelain insulators** — For bushings and terminal connections. See [Ceramics](../ceramics/kilns.md).
 
-### Tools and Equipment
+## Tools and Equipment
 
 - **Lathe and milling machine** — For core clamping hardware, bushing fabrication, tank fabrication. See [Machine Tools](../machine-tools/index.md).
 - **Winding machine** — Hand-cranked or motor-driven mandrel for winding coils. Torque control maintains even tension.
@@ -36,15 +36,15 @@ This document covers transformer construction, core and winding manufacturing, i
 - **Megger (insulation resistance tester)** — 500-5000V DC test set. See [Electrical Instruments](../measurement/electrical-instruments.md).
 - **Multimeter, ammeter, voltmeter** — For turns ratio verification, load testing, loss measurement.
 
-### Knowledge
+## Knowledge
 
 - AC circuit theory (voltage, current, impedance, power factor, three-phase systems)
 - Magnetic circuit concepts (flux, permeability, saturation, hysteresis)
 - Basic trigonometry for three-phase voltage calculations
 
-## 3. Bill of Materials
+## Bill of Materials
 
-### Distribution Transformer (100 kVA, 11 kV / 400V, Three-Phase)
+## Distribution Transformer (100 kVA, 11 kV / 400V, Three-Phase)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -59,9 +59,9 @@ This document covers transformer construction, core and winding manufacturing, i
 | Varnish / impregnating resin | 5-8 liters | [Chemistry](../chemistry/index.md) | Shellac (lower temperature class) |
 | Hardware (bolts, clamps, gaskets) | 10-15 kg | [Metals](../metals/index.md) | — |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Core Construction
+## 4.1 Core Construction
 
 1. **Cut laminations** to shape using sheet metal shear or stamping die. Standard shapes: E-I (shell type) or U-I (core type). For a 100 kVA core-type transformer, each lamination is approximately 600 mm × 150 mm for the legs and 600 mm × 100 mm for the yokes. Tolerance: ±0.5 mm on length, ±0.1 mm on width.
 
@@ -103,7 +103,7 @@ This document covers transformer construction, core and winding manufacturing, i
 - Core stacking is labor-intensive — 4-8 hours for a 100 kVA core
 - Burrs from imprecise cutting create inter-lamination shorts, increasing core loss
 
-### 4.2 Winding
+## 4.2 Winding
 
 6. **Calculate turns** for primary and secondary windings. For 11 kV / 400V step-down: turns ratio = 11,000 / 400 = 27.5:1. If secondary has 40 turns per phase, primary needs 1,100 turns per phase. Volts per turn = 400 / 40 = 10 V/turn.
 
@@ -149,7 +149,7 @@ This document covers transformer construction, core and winding manufacturing, i
 - Insulation defects between layers cause partial discharge that degrades transformer over time
 - Copper wire is expensive and heavy — 85-110 kg for a single 100 kVA transformer
 
-### 4.3 Assembly and Tanking
+## 4.3 Assembly and Tanking
 
 12. **Mount core and coil assembly** on the tank base using steel clamps and insulated tie rods. Ensure the core is level and centered.
 
@@ -201,9 +201,9 @@ This document covers transformer construction, core and winding manufacturing, i
 - Drying cycle (90-110°C for 24-48 hours) adds significant production time
 - Oil must be tested periodically — moisture and dissolved gases degrade insulation over time
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### 5.1 Standard Distribution Transformer Ratings
+## 5.1 Standard Distribution Transformer Ratings
 
 | Rating (kVA) | HV Range (kV) | LV Range (V) | Core Loss (W) | Load Loss at 75°C (W) | Total Loss (% of rating) | Oil Volume (liters) | Weight (kg) |
 |-------------|---------------|--------------|---------------|----------------------|------------------------|--------------------:|------------:|
@@ -218,7 +218,7 @@ This document covers transformer construction, core and winding manufacturing, i
 
 Core loss is constant (present whenever the transformer is energized). Load loss (copper I²R loss) varies with the square of the load. Total loss at full load: typically 1.0-4.0% of rated power. A 100 kVA transformer at full load wastes ~2 kW as heat.
 
-### 5.2 Wire Gauge vs Current Capacity for Transformer Windings
+## 5.2 Wire Gauge vs Current Capacity for Transformer Windings
 
 | Wire Diameter (mm) | Cross-Section (mm²) | Resistance (Ω/km) | Current Capacity 3 A/mm² (A) | Typical Application |
 |--------------------|---------------------|--------------------|------------------------------|-------------------|
@@ -236,7 +236,7 @@ Core loss is constant (present whenever the transformer is energized). Load loss
 
 Current density of 3 A/mm² is standard for oil-filled transformers with moderate temperature rise (55-65°C). Dry-type transformers use 2-2.5 A/mm² due to less effective air cooling. Increase current density to 4-5 A/mm² for intermittent duty or forced-cooled designs.
 
-### 5.3 Voltage Drop in Distribution Feeders
+## 5.3 Voltage Drop in Distribution Feeders
 
 | Wire Size (mm²) | Resistance (Ω/km) | Max Current (A) | Voltage Drop per 100m at Max Current, 240V 1-Phase (%) | Max Recommended Run at Max Current (m) |
 |-----------------|--------------------|-----------------|-------------------------------------------------------|--------------------------------------|
@@ -254,7 +254,7 @@ Current density of 3 A/mm² is standard for oil-filled transformers with moderat
 
 Formula: Voltage drop (%) = (2 × I × R × L) / V × 100, where I = current (A), R = resistance per km (Ω), L = one-way length (km), V = supply voltage (V). Factor of 2 accounts for outgoing and return conductors. For three-phase, replace factor 2 with √3 and use line-to-line voltage.
 
-### 5.4 Transformer Losses by Size
+## 5.4 Transformer Losses by Size
 
 | Rating (kVA) | No-Load Loss (W) | Full-Load Loss (W) | Efficiency at 50% Load (%) | Efficiency at 100% Load (%) | Temperature Rise (°C) |
 |-------------|------------------|--------------------|---------------------------|-----------------------------|-----------------------|
@@ -267,28 +267,28 @@ Formula: Voltage drop (%) = (2 × I × R × L) / V × 100, where I = current (A)
 
 Maximum efficiency occurs when core loss equals copper loss. For a 100 kVA transformer with 270 W core loss and 2,000 W full-load copper loss: optimal load = √(270/2000) = 0.37 = 37% of rated load. Distribution transformers spend most of their life below 50% load, so design favors lower core loss.
 
-## 6. Scaling Notes
+## Scaling Notes
 
-### Bench Scale (1-5 kVA)
+## Bench Scale (1-5 kVA)
 
 A 1 kVA transformer for laboratory or instrument use fits in one hand. Core cross-section: 10-20 cm². Wire: 0.3-1.0 mm diameter. Air-cooled, no oil needed. Hand-wound on a simple mandrel. Construction time: 2-4 hours. Test with a multimeter and variac. Useful for power supplies, isolation, and instrument matching.
 
-### Workshop Scale (10-100 kVA)
+## Workshop Scale (10-100 kVA)
 
 A 100 kVA pole-mounted or pad-mounted distribution transformer weighs 650-900 kg and requires mechanical assistance for winding (motorized winding machine) and handling (hoist, crane). Core stacking by hand takes 4-8 hours. Winding takes 4-12 hours per phase. Oil filling and curing adds 48 hours. Requires oven for drying, vacuum pump for oil impregnation (optional but strongly recommended).
 
-### Production Scale (500-10,000 kVA)
+## Production Scale (500-10,000 kVA)
 
 Power transformers at this scale require automated core cutting (CNC notch-cutting machine), automated winding machines with precision layering, vapor-phase drying ovens (heating under vacuum with solvent vapor for thorough moisture removal), and oil processing plants (degassing, dehydration, filtration to <1 μm particle size). Tank welding requires certified welders and radiographic inspection of seams. Factory production: 2-20 units per month depending on size. Not achievable in early bootstrap — these are purchased or imported once the economy can support specialized transformer manufacturers.
 
-### Key Scale Breakpoints
+## Key Scale Breakpoints
 
 - **5 kVA**: Hand-buildable by one person with basic tools. Dry-type. No oil.
 - **100 kVA**: Maximum practical hand-built size. Requires hoist, oven, oil handling. Oil-filled.
 - **500 kVA**: Requires mechanized winding, proper drying oven, and oil filtration equipment.
 - **5,000 kVA+**: Requires purpose-built factory with overhead cranes (10-50 tonne capacity), vacuum drying ovens, and oil processing systems.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -301,13 +301,13 @@ Power transformers at this scale require automated core cutting (CNC notch-cutti
 | Oil discoloration or acidic smell | Oil oxidation from moisture and heat exposure | Test oil acidity (neutralization number <0.05 mg KOH/g oil); filter or replace oil; check tank seal for water ingress |
 | Audible partial discharge (crackling) | Air bubbles trapped in oil or insulation | Degas oil under vacuum; circulate oil to release trapped air; maintain positive oil pressure |
 
-## 8. Safety
+## Safety
 
-### High Voltage Hazards
+## High Voltage Hazards
 
 Distribution transformers operate at voltages from 2.4 kV to 34.5 kV on the primary side. These voltages are lethal — 1 mA through the chest causes muscle contraction, 100 mA causes ventricular fibrillation, and contact with 11 kV produces tens of amperes through the body. Treat all transformer terminals as energized until proven de-energized with a voltage detector rated for the voltage class.
 
-### Oil Fire Risk
+## Oil Fire Risk
 
 Transformer mineral oil has a flash point of 140-160°C and an auto-ignition point of 280-330°C. An internal fault (short circuit between windings) can generate arc temperatures of 3,000-8,000°C, decomposing oil into hydrogen and acetylene gas. If pressure builds faster than the relief valve can vent, the tank ruptures and the oil ignites. A 100 kVA transformer holds ~200 liters of oil — equivalent to ~6 GJ of combustion energy.
 
@@ -317,21 +317,21 @@ Transformer mineral oil has a flash point of 140-160°C and an auto-ignition poi
 - Provide gravel-lined oil containment pit (capacity = 110% of oil volume) to capture and quench burning oil that leaks from a ruptured tank.
 - Never open an energized oil-filled transformer. De-energize, ground, and verify zero voltage before any internal access.
 
-### Arc Flash
+## Arc Flash
 
 Secondary-side short circuits on a transformer fed by a stiff grid can produce arc currents of 10-50 kA. Incident energy at 0.5 m distance can exceed 20 cal/cm² — enough to ignite clothing and cause third-degree burns. Arc-rated PPE (face shield, coverall, gloves) is mandatory when opening or racking switchgear connected to a transformer secondary.
 
-### Electrical Testing Safety
+## Electrical Testing Safety
 
 Insulation resistance testing (megger) applies 500-5,000V DC. Never touch terminals during a test. Discharge the winding to ground through a resistor after each test — stored charge can deliver a dangerous shock.
 
-## 9. Quality Control
+## Quality Control
 
-### Turns Ratio Test
+## Turns Ratio Test
 
 Apply low AC voltage (e.g., 100V) to the primary. Measure secondary voltage. Calculate turns ratio: V_primary / V_secondary. Compare to design ratio. Acceptance: ±0.5% of nameplate ratio. A 27.5:1 transformer at 100V input should read 3.636V ±0.018V on the secondary. This test confirms correct winding turns before oil filling and energization.
 
-### Insulation Resistance Test (Megger Test)
+## Insulation Resistance Test (Megger Test)
 
 Apply 1,000V DC (for transformers up to 1 kV rating) or 2,500-5,000V DC (for higher voltage ratings) between primary and secondary, primary and ground, secondary and ground. Minimum acceptable values:
 
@@ -344,21 +344,21 @@ Apply 1,000V DC (for transformers up to 1 kV rating) or 2,500-5,000V DC (for hig
 
 Measure polarization index (PI): resistance at 10 minutes / resistance at 1 minute. PI >2.0 = good insulation. PI 1.5-2.0 = marginal. PI <1.5 = deteriorated insulation — do not energize.
 
-### Oil Dielectric Breakdown Test
+## Oil Dielectric Breakdown Test
 
 Place oil sample in a standard test cup with two spherical electrodes, 2.5 mm gap. Raise AC voltage at 2 kV/s until breakdown occurs. Minimum acceptable: 30 kV (new oil tests at 40-50 kV). Test three times; discard the first result (electrode conditioning), average the next two. Low breakdown voltage indicates moisture, particles, or dissolved gases. Remediate with filtration (1-5 μm filter) and vacuum degassing.
 
-### Winding Resistance Test
+## Winding Resistance Test
 
 Measure DC resistance of each winding with a Kelvin bridge or micro-ohmmeter. Compare phases — three-phase windings must match within 2%. Excessive resistance indicates undersized conductor, poor joints, or loose connections.
 
-### Load Test (Heat Run)
+## Load Test (Heat Run)
 
 Energize transformer at full rated current for 8-24 hours. Monitor top-oil temperature rise. Acceptance: temperature rise ≤55°C for 65°C rise class (oil-filled), measured by thermocouple in top oil. If temperature exceeds limit, reduce loading rating or improve cooling.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Oil-Filled vs Dry-Type
+## Oil-Filled vs Dry-Type
 
 | Parameter | Oil-Filled | Dry-Type (Cast Resin) |
 |-----------|-----------|----------------------|
@@ -374,22 +374,22 @@ Energize transformer at full rated current for 8-24 hours. Monitor top-oil tempe
 
 Oil-filled transformers are the default for all outdoor and high-voltage applications. Dry-type (cast coil) transformers use windings encapsulated in epoxy resin, cooled by air. Dry-type is preferred for indoor installations (office buildings, factories) where oil fire risk is unacceptable.
 
-### Core Geometries
+## Core Geometries
 
 - **Core type**: Windings surround the core legs. Simpler construction, easier to insulate HV windings, better cooling (windings exposed). Standard for distribution transformers.
 - **Shell type**: Core surrounds the windings. Lower leakage flux, better magnetic shielding, but more complex core stacking. Used for some specialty and furnace transformers.
 - **Toroidal**: Continuous ring core with windings wrapped around it. No air gap in the core → very low magnetizing current and low stray field. Limited to smaller ratings (typically <10 kVA) because the core must be wound through the completed winding — the wire must be passed through the core ring turn by turn.
 
-### Autotransformer
+## Autotransformer
 
 A single winding with a tap point serves as both primary and secondary. The common section carries the difference between input and output current, so the autotransformer is physically smaller and cheaper than a two-winding transformer of the same rating. Caveat: no electrical isolation between primary and secondary. A fault on the HV side appears directly on the LV side. Use only where isolation is provided elsewhere (e.g., motor starting, voltage adjustment within ±20%).
 
-### Instrument Transformers
+## Instrument Transformers
 
 - **Current transformer (CT)**: Produces secondary current proportional to primary current. Typical ratio: 100:5A. Secondary must never be open-circuited while primary carries current — open secondary develops dangerous high voltage (kV range). Always short the secondary terminals before disconnecting the burden.
 - **Potential transformer (PT)**: Steps down voltage for metering. Typical ratio: 11,000:110V. Accuracy: ±0.3-1.0%. Used for watt-hour meters, protective relays, and voltage indicators.
 
-## 11. References
+## References
 
 - **[Electricity Generation & Distribution](electricity.md)** — generators, AC/DC systems, wire drawing, transmission line design. This document is the parent capability.
 - **[Electrical Systems](../electronics/electrical-systems.md)** — wiring, switches, breakers, panelboards, power electronics, and motor control. Complements this document with secondary-side distribution details.
@@ -402,6 +402,6 @@ A single winding with a tap point serves as both primary and secondary. The comm
 - **[Lubricants](../chemistry/lubricants.md)** — transformer oil specification, testing, and filtration.
 - **[Measurement Instruments](../measurement/electrical-instruments.md)** — megger, multimeter, power analyzer for transformer testing.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+
+[← Back to Energy](index.md)

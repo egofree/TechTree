@@ -8,7 +8,6 @@
 > **Outputs**: duck_eggs, duck_meat, duck_feathers, down, manure
 > **Critical**: No — excellent for wet environments but chickens are more universally adaptable
 
-### Overview
 
 Domestic ducks comprise two primary species: the mallard-derived duck (*Anas platyrhynchos domesticus*) and the Muscovy duck (*Cairina moschata*), a distinct species descended from tree-dwelling wild Muscovies of Central and South America. Ducks are exceptionally hardy, disease-resistant foragers that thrive in wetter environments where chickens struggle. They consume slugs, snails, aquatic plants, insects, and weeds that other poultry ignore, making them outstanding biological pest controllers in gardens, rice paddies, and orchards.
 
@@ -24,7 +23,7 @@ Duck eggs are larger than chicken eggs (70-80 g vs 50-65 g), richer in fat and p
 | Weatherproof shelter with deep bedding | [`construction`](../construction/building-materials.md) | 0.2-0.3 m² per bird; ducks sleep on ground |
 | Low fencing (60-90 cm) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Most breeds don't fly; Muscovies need wing clipping |
 
-### Bill of Materials
+## Bill of Materials
 
 Materials listed for a 15-duck flock per year.
 
@@ -36,7 +35,7 @@ Materials listed for a 15-duck flock per year.
 | Oyster shell and grit | 15-30 kg | [`mining`](../mining/index.md) | Free-choice for layers |
 | Water container (10-15 cm depth) | 2-3 units | [`foundations.tools-basic`](../foundations/tools-basic.md) | Stock tank or wading pool |
 
-### Key Breeds
+## Key Breeds
 
 **Pekin (Long Island Duck)**:
 The most common meat duck worldwide. White plumage, 3.5-5 kg adults (drakes 4-5 kg, ducks 3.5-4.5 kg). Fast-growing: market weight of 3.0-3.5 kg at 7-9 weeks on 2.0-2.5 kg feed per kg of live weight. Yellow skin and tender, mild-flavored meat. Moderate egg layer: 140-200 eggs per year. Pekins are nervous and easily excited but hardy and adaptable. They are poor broody mothers — artificial incubation is typically required for reliable hatching.
@@ -62,7 +61,7 @@ Upright, penguin-like posture allowing remarkable walking speed. Originally from
 | Noise level | Loud | Moderate | Quiet (hiss) | Moderate |
 | Incubation | 28 days | 28 days | 35 days | 28 days |
 
-### Housing
+## Housing
 
 **Shelter requirements**:
 Ducks do not roost on perches like chickens — they sleep on the ground on deep bedding. Provide a weatherproof shelter with 0.2-0.3 m² floor space per bird and 10-15 cm of straw or wood shavings as bedding. Ducks are messier than chickens with water — they splash, saturating bedding rapidly. Position water sources outside or at the opposite end of the shelter from the sleeping area. Replace wet bedding frequently to prevent ammonia buildup and fungal growth. Shelter must be predator-proof: raccoons, foxes, and mink are effective duck predators, and ducks on the ground are more vulnerable than roosting chickens.
@@ -73,7 +72,7 @@ Ducks do not fly (except Muscovies, which require wing clipping or covered runs)
 **Outdoor access**:
 Ducks thrive with access to pasture, water, and foraging areas. Stocking density: 5-10 m² per bird on pasture. They are destructive to gardens (trampling, root-damaging dabbling) — confine them to designated areas or use them sequentially on fallow beds. Ducks on range consume 30-50% of their diet from foraging in favorable conditions.
 
-### Water Requirements
+## Water Requirements
 
 **Drinking water**:
 Ducks consume 500-1000 ml of water per day (significantly more than chickens) and must be able to submerge their entire head in water to clear their nares (nostrils) and eyes of debris. A water depth of 10-15 cm minimum is required. Without adequate head-washing, ducks develop crusted, infected nares and eye problems.
@@ -84,7 +83,7 @@ Swimming water is beneficial but not strictly required for survival. Ducks with 
 **Drainage consideration**:
 Duck areas become muddy quickly. Provide a well-drained site or install gravel/sand in high-traffic areas around water sources. A simple "duck pond" with a drain valve or gravity overflow allows periodic cleaning. Direct runoff away from the shelter and neighboring properties.
 
-### Feeding and Nutrition
+## Feeding and Nutrition
 
 **Layer feed**:
 Duck hens require 16-18% protein layer feed. Feed consumption: 120-180 g per day per adult duck (more than chickens due to larger body size). Ducks should never be fed medicated chicken feed containing ionophore coccidiostats (lasalocid, monensin) — these are toxic to ducks at chicken dosages. Use non-medicated feed or duck-specific formulations.
@@ -98,7 +97,7 @@ Duckweed (*Lemna* spp.) is one of the fastest-growing aquatic plants, doubling i
 **Grit and calcium**:
 As with chickens, ducks require grit for digestion and supplemental calcium for eggshell formation. Provide free-choice oyster shell or crushed limestone and granite grit.
 
-### Egg Production
+## Egg Production
 
 **Duck egg characteristics**:
 70-80 g each (vs 50-65 g for chicken eggs). Shell is thicker and stronger than chicken eggshell — white, tinted, or blue-green depending on breed. Yolk is larger proportionally, higher in fat (duck egg yolk is approximately 35% fat vs 30% for chicken). Albumen is firmer and higher in protein — this makes duck eggs superior for baking (cakes rise higher, pastries are lighter) but less suitable for some applications where a tender texture is desired. Duck eggs have a slightly higher water content in the white.
@@ -109,7 +108,7 @@ Khaki Campbells begin laying at 16-20 weeks and produce 250-340 eggs in the firs
 **Egg preservation**:
 Duck eggs can be preserved by the same methods as chicken eggs: waterglass (sodium silicate), mineral oil coating, or salt curing (the traditional Chinese method producing "century eggs" or "salted duck eggs"). The thicker shell of duck eggs provides somewhat better natural protection than chicken eggs, but the same hygiene principles apply.
 
-### Meat Production
+## Meat Production
 
 **Processing weight**:
 Pekin ducks reach 3.0-3.5 kg market weight at 7-9 weeks with a dressed yield of 65-70%. Muscovy ducks grow more slowly but produce a larger carcass — drakes reach 4-6 kg dressed weight at 12-14 weeks. Duck meat is higher in fat than chicken (particularly the skin layer), which contributes to flavor and moistness during cooking but reduces the lean meat yield.
@@ -120,7 +119,7 @@ Similar to chickens: dispatch, bleed for 2-3 minutes, scald at 55-60°C for 60-9
 **Duck fat**:
 Render from skin and fatty tissue during processing. Duck fat has a smoke point of approximately 190°C and is prized for roasting potatoes, confit, and frying. Yield: 500-800 g fat per Pekin carcass. Store refrigerated for months or frozen indefinitely.
 
-### Incubation and Rearing
+## Incubation and Rearing
 
 **Natural incubation**:
 Most mallard-derived duck breeds are poor sitters (Pekin, Campbell, Runner). Muscovy ducks are the exception — they go broody reliably and make attentive mothers. A Muscovy duck sits on 8-12 eggs for 35 days. Allow Muscovy hens to incubate naturally when possible.
@@ -131,7 +130,7 @@ Mallard-derived duck eggs: 37.2-37.5°C, 55-65% humidity for first 25 days. Turn
 **Duckling rearing**:
 Brood at 30-32°C for the first week, decreasing by 2-3°C per week until ambient temperature is reached at 3-4 weeks. Ducklings grow rapidly and can be moved outside sooner than chicks in warm weather. Critical: ducklings must not have unsupervised access to swimming water until they are 3-4 weeks old — their down is not waterproof (oil gland is not fully functional) and they can become waterlogged and drown. Provide shallow drinking water (depth under 2 cm) in the brooder. Feed duckling starter (18-20% protein, non-medicated) for the first 2-3 weeks, then grower (15-16% protein) to processing or laying age.
 
-### Health and Disease
+## Health and Disease
 
 **Disease resistance**:
 Ducks are generally more disease-resistant than chickens. They are less susceptible to Marek's disease, Newcastle disease, and many common poultry respiratory infections. This hardiness is one of their primary advantages — duck flocks often require less veterinary intervention and medication than chicken flocks in the same environment.
@@ -146,11 +145,11 @@ Ducks are generally more disease-resistant than chickens. They are less suscepti
 **Parasites**:
 Ducks are less susceptible to external parasites than chickens (their waterproofing oil helps), but they can carry gapeworms (acquired from eating earthworms) and other intestinal parasites. Duck feces should not be allowed to accumulate in water sources.
 
-### Manure and Garden Integration
+## Manure and Garden Integration
 
 Duck manure is similar in nutrient content to chicken manure: approximately 1.0-1.2% N, 1.4% P₂O₅, 0.6% K₂O by fresh weight. A single duck produces approximately 0.15 kg of manure per day. Compost before garden application. Ducks are excellent for garden pest control: they consume slugs, snails, beetles, and caterpillars without scratching or dust-bathing destructively (unlike chickens). Use ducks to clean garden beds after harvest, in orchards for fallen fruit cleanup (reducing pest harborages), and in rice paddies where they eat weeds and insects while fertilizing the crop.
 
-### Cross-Domain Links
+## Cross-Domain Links
 
 - **[Chickens](poultry-chickens.md)** — complementary poultry management, shared infrastructure
 - **[Geese](poultry-geese.md)** — similar waterfowl management, pasture-based systems
@@ -158,7 +157,7 @@ Duck manure is similar in nutrient content to chicken manure: approximately 1.0-
 - **[Farming](../agriculture/index.md)** — pest control, manure fertilizer, rice-duck systems
 - **[Food Preservation](../food-processing/index.md)** — duck egg preservation, duck fat rendering, cured meat
 
-### Safety
+## Safety
 
 **Duck aggression**:
 Drakes can be aggressive during breeding season, particularly Muscovy drakes. A large Muscovy drake (5-7 kg) can inflict bruising with its bill and claws. Avoid turning your back on aggressive drakes, and cull individuals that persistently charge humans.
@@ -169,7 +168,7 @@ Standing water in duck areas becomes contaminated with *Salmonella*, *E. coli*, 
 **Cooking duck**:
 Duck meat should be cooked to an internal temperature of 74°C. The higher fat content of duck means it cooks differently from chicken — the breast meat is best served medium (pink center at 55-57°C) for optimal tenderness, while legs require long, slow cooking (confit at 80-90°C for 2-4 hours) to break down tough connective tissue. When cooking duck breast rare-to-medium, ensure the exterior is well-seared to kill surface bacteria.
 
-### Historical Development
+## Historical Development
 
 Domestic ducks derive from the mallard (*Anas platyrhynchos*), first domesticated in Southeast Asia approximately 4,000 years ago during the Neolithic period.
 
@@ -191,7 +190,7 @@ Indian Runner ducks were imported from the East Indies to Europe in the 1850s an
 
 The Rouen duck, a French breed developed from the mallard, grows to 5-7 kg and is valued as a meat bird with flavorful carcass, producing 140-180 eggs per year with striking green-headed plumage in drakes.
 
-### Processing and Products
+## Processing and Products
 
 **Duck fat rendering**: The average Pekin carcass contains 500-800 g of subcutaneous and visceral fat, yielding 400-700 mL of rendered fat per bird.
 
@@ -227,7 +226,7 @@ The alkaline environment (pH 12-13) transforms the egg white into a dark amber, 
 
 Processing involves liming in calcium hydroxide solution (pH 12-13, 24-48 hours), pickling in salt and acid (pH 2-3), and vegetable tanning with oak or chestnut bark over 7-14 days at 18-22°C.
 
-### Record Keeping
+## Record Keeping
 
 **Egg production**: Record daily egg count per pen or group. Calculate hen-day production rate (eggs laid divided by number of hens present, multiplied by 100).
 
@@ -253,6 +252,6 @@ Pekin ducks should reach 3.0-3.5 kg at 7-9 weeks; Khaki Campbells reach 1.5-2.0 
 
 A sudden change of 20% or more in water consumption often indicates illness 24-48 hours before visible symptoms appear — water monitoring is the earliest health warning system available to duck keepers.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Animals](index.md)

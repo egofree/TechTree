@@ -8,11 +8,10 @@
 > **Outputs**: vacuum_pumps, vacuum_chambers, vacuum_gauges
 > **Critical**: Yes — vacuum is required for sputtering, evaporation, ion implantation, and e-beam lithography
 
-## Overview
 
 Vacuum systems — pumps, chambers, gauges, and seals — provide the low-pressure environments essential for sputtering, evaporation, CVD, ion implantation, and electron-beam lithography. The progression runs from mechanical roughing pumps (rotary vane, ~10⁻³ Torr) through diffusion pumps (~10⁻⁶ Torr) to turbomolecular pumps (~10⁻⁹ Torr) and cryopumps (~10⁻¹⁰ Torr). Leak detection (helium mass spectrometry) and outgassing control are ongoing challenges. For basic vacuum concepts and simple pump designs, see [Gas Handling & Vacuum](../gas-handling/vacuum.md).
 
-### Vacuum Requirements by Process
+## Vacuum Requirements by Process
 
 Each semiconductor process has specific pressure requirements determined by the physics of the process — mean free path, gas-phase reactions, contamination thresholds, and beam scattering.
 
@@ -39,7 +38,7 @@ Each semiconductor process has specific pressure requirements determined by the 
 - ALD pulsed operation (10⁻³ to 10 Torr) requires rapid pressure cycling that stresses pump systems — not captured in the steady-state pressure table
 - Actual process pressures depend on gas flow geometry and chamber design — table values are starting points, not guarantees
 
-### Rotary Vane Pumps (Roughing Pumps)
+## Rotary Vane Pumps (Roughing Pumps)
 
 The workhorse of vacuum technology — every high-vacuum system starts with a roughing pump to bring the chamber from atmospheric pressure (~760 Torr) down to ~10⁻² to 10⁻³ Torr, where a high-vacuum pump can take over.
 
@@ -64,7 +63,7 @@ The workhorse of vacuum technology — every high-vacuum system starts with a ro
 - Oil-sealed rotary vane pumps produce hydrocarbon vapor that backstreams into the chamber — unacceptable for clean semiconductor front-end processes
 - Dry pump PTFE tip seals wear out every 12-24 months — scheduled replacement required to maintain vacuum performance
 
-### Turbomolecular Pumps
+## Turbomolecular Pumps
 
 The primary high-vacuum pump for semiconductor processing. Turbomolecular pumps (turbo pumps) use high-speed rotating blades to impart momentum to gas molecules, preferentially directing them toward the exhaust.
 
@@ -96,7 +95,7 @@ Hydrogen and helium are the achilles heel of turbo pumps — their high thermal 
 - H₂ compression ratio only 10²-10⁴ — hydrogen accumulates in the chamber and limits ultimate vacuum without supplementary pumping
 - Blade tip speed of 150-350 m/s with 24,000-90,000 RPM — catastrophic failure mode if bearings seize or foreign object enters
 
-### Diffusion Pumps
+## Diffusion Pumps
 
 The oldest high-vacuum pump type (invented 1915), still used in some evaporation and legacy CVD systems. Simpler and cheaper than turbo pumps for large chambers but more prone to oil backstreaming contamination.
 
@@ -116,7 +115,7 @@ The oldest high-vacuum pump type (invented 1915), still used in some evaporation
 - Oil backstreaming contamination is never fully eliminable — cold caps and baffles reduce but cannot zero the risk
 - Not suitable for ultra-clean semiconductor front-end processes or EUV — hydrocarbon contamination degrades film and resist quality
 
-### Cryopumps
+## Cryopumps
 
 Cryopumps condense and adsorb gases on surfaces cooled to cryogenic temperatures (10-80 K). They provide very high pumping speeds for all gases including H₂ and He (with appropriate cryosorbent materials) and are completely oil-free.
 
@@ -139,7 +138,7 @@ Cryopumps condense and adsorb gases on surfaces cooled to cryogenic temperatures
 - Finite gas capacity (10⁴-10⁶ Torr·L) requires periodic regeneration (1-4 hours) — chamber unavailable during cycle
 - Not suitable for continuous gas-flow processes (LPCVD, PECVD) — cryopanels saturate rapidly under steady gas load
 
-### Ion Pumps
+## Ion Pumps
 
 Ion pumps (sputter ion pumps, SIP) use energetic ions to bury gas molecules in a titanium cathode. They have no moving parts and achieve the lowest ultimate pressures available (~10⁻¹¹ Torr).
 
@@ -159,7 +158,7 @@ Ion pumps (sputter ion pumps, SIP) use energetic ions to bury gas molecules in a
 - Pumping speed limited to 1-500 L/s — inadequate for high-throughput process tools (sputtering, CVD)
 - Must be started at <10⁻³ Torr to avoid arcing — requires separate roughing pump for initial pump-down
 
-### Vacuum Gauges and Pressure Measurement
+## Vacuum Gauges and Pressure Measurement
 
 Different pressure ranges require different measurement technologies. No single gauge covers the full range from atmosphere to 10⁻¹¹ Torr.
 
@@ -187,7 +186,7 @@ Different pressure ranges require different measurement technologies. No single 
 - Pirani/thermocouple gauges have ±10-20% accuracy and are gas-dependent — require correction factors for non-N₂ atmospheres
 - Ion gauge X-ray limit at ~10⁻¹¹ Torr produces false current — cannot measure below this floor without extractor gauge designs
 
-### Chamber Design and Materials
+## Chamber Design and Materials
 
 Vacuum chamber design determines ultimate pressure, outgassing rate, and process uniformity. The chamber must maintain structural integrity under atmospheric pressure (14.7 psi = 101 kPa external load on every surface) while minimizing internal surface area and outgassing.
 
@@ -209,7 +208,7 @@ Vacuum chamber design determines ultimate pressure, outgassing rate, and process
 - CF gaskets are single-use (replaced every disassembly) — frequent maintenance access increases consumable cost
 - Viton O-rings outgas at 10⁻⁸ Torr·L/(s·cm²) and permeate helium — limits elastomer-sealed systems to ~10⁻⁸ Torr
 
-### Outgassing and Bakeout
+## Outgassing and Bakeout
 
 Every surface inside a vacuum chamber releases adsorbed gas molecules — primarily water vapor (H₂O) from atmospheric exposure, plus N₂, O₂, CO₂, and hydrocarbons. This outgassing is the dominant gas load in most vacuum systems below 10⁻³ Torr.
 
@@ -233,7 +232,7 @@ Every surface inside a vacuum chamber releases adsorbed gas molecules — primar
 - Bakeout duration of 12-48 hours makes chamber unavailable for production — scheduling impact on fab throughput
 - Temperature uniformity of ±10-20°C means cold spots retain water — incomplete bakeout if heating blankets have gaps
 
-### Leak Detection
+## Leak Detection
 
 Even a tiny leak (10⁻⁶ Torr·L/s) can prevent a system from reaching its target vacuum or introduce atmospheric contaminants (O₂, H₂O) that poison the process.
 
@@ -263,7 +262,7 @@ Even a tiny leak (10⁻⁶ Torr·L/s) can prevent a system from reaching its tar
 - Leak hunting is sequential (spray-and-wait) — locating a single leak in a complex tool with 50+ seals takes 1-4 hours
 - MSLD equipment costs $20,000-80,000 — dedicated instrument required, not shareable with other measurement tasks
 
-### Vacuum Feedthroughs
+## Vacuum Feedthroughs
 
 Every vacuum chamber requires electrical, mechanical, and optical connections that penetrate the chamber wall without compromising the vacuum seal.
 
@@ -287,7 +286,7 @@ Every vacuum chamber requires electrical, mechanical, and optical connections th
 - Ferrofluidic seal feedthroughs have finite vapor pressure (~10⁻⁸ Torr) — limits use in UHV systems
 - Viewports under vacuum experience ~10,400 N force on 300 mm diameter — scratched glass can implode violently
 
-### Pump System Integration for Semiconductor Tools
+## Pump System Integration for Semiconductor Tools
 
 A typical semiconductor process tool (sputtering system, etch chamber, or implanter) uses a multi-stage pumping system combining roughing and high-vacuum pumps.
 
@@ -310,7 +309,7 @@ A typical semiconductor process tool (sputtering system, etch chamber, or implan
 - Full pump-down to 5×10⁻⁸ Torr base pressure requires 24 hours with bakeout — unscheduled vent events cost a full day of production
 - Multi-stage pumping system (roughing + turbo + backing) has 3+ potential failure points — any single pump failure stops the tool
 
-### Hazards & Safety
+## Hazards & Safety
 
 - **Implosion hazard**: Vacuum chambers experience 14.7 psi (101 kPa) external pressure differential. A 300 mm diameter viewport experiences ~10,400 N (~2400 lbf) of force at atmosphere. Cracked or scratched glass viewports can shatter inward violently. Inspect all viewports before each pump-down — replace any with scratches >0.1 mm deep or star cracks. Safety glasses required near evacuated chambers. Polycarbonate shields over viewports provide secondary containment.
 - **Cryogenic burns**: Cryopump cold surfaces at 10-20 K cause immediate frostbite on contact. Second-stage surfaces are not accessible during normal operation, but during regeneration the cold head is exposed. Cryo-rated gloves (loose-fitting for quick removal) and face shield during cryopump maintenance. Liquid nitrogen cold traps at 77 K also present burn hazard.
@@ -318,5 +317,5 @@ A typical semiconductor process tool (sputtering system, etch chamber, or implan
 - **Compressed gases**: Pump exhaust may contain toxic process gases (SF₆ decomposition products, metal-organic ALD precursors, HF from etch processes). Point-of-use abatement on all exhaust lines. Exhaust ventilation to gas scrubber or burn box. Never discharge vacuum pump exhaust directly into laboratory air.
 - **Noise**: Turbomolecular pumps produce 50-65 dB at 1 m distance (high-pitch whine from rotor blades). Acceptable for continuous exposure but hearing protection recommended for extended time in pump rooms. Dry scroll pumps produce 55-70 dB with characteristic pulsing tone.
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*
+
+[← Back to VLSI Scaling](index.md)

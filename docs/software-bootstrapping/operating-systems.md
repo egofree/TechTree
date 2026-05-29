@@ -8,7 +8,6 @@
 > **Outputs**: operating_system, process_management, file_systems
 > **Critical**: Yes — the OS manages hardware resources and provides the execution environment for all application software
 
-## Overview
 
 An operating system (OS) manages the computer's hardware resources — processor time, memory, storage, and I/O devices — and provides services that application programs use: file storage, process execution, input/output, and memory allocation. Without an OS, each program must contain its own device drivers, memory management, and I/O routines, making programs large, complex, and machine-specific.
 
@@ -22,17 +21,17 @@ Each stage is built using the tools from previous stages — initially in assemb
 
 ## Prerequisites
 
-### Software
+## Software
 - **Working assembler** ([assemblers](assemblers.md)): OS kernels are initially written in assembly language for the interrupt handlers, context switching, and device driver low-level routines.
 - **Compiler** ([compilers](compilers.md)): Once available, most OS code (file systems, shell, utilities) is written in a high-level language. Only hardware-specific routines remain in assembly.
 
-### Hardware
+## Hardware
 - **Computer with ≥16 KB memory**: A minimal monitor needs 1-4 KB; a useful single-user OS needs 16-64 KB; a multitasking OS needs 64-256 KB or more.
 - **Disk or reliable storage** ([computing.data-storage](../computing/data-storage.md)): The OS needs persistent storage for the file system. Paper tape is too slow for interactive use.
 - **Timer/clock interrupt**: For multitasking, the hardware must generate periodic interrupts that the OS uses to switch between processes.
 - **Memory protection** (optional, for multitasking): Hardware mechanism to prevent one process from overwriting another's memory (base/limit registers, or later, an MMU).
 
-### Knowledge
+## Knowledge
 - **Interrupt handling**: How the processor responds to hardware interrupts (save context, vector to handler, restore context, return from interrupt).
 - **Device I/O**: How to program the specific I/O controllers for disk, terminal, printer, etc.
 - **Data structures**: Linked lists (process queues), trees (file directories), bitmaps (memory allocation), stacks (interrupt context saving).
@@ -48,7 +47,7 @@ Each stage is built using the tools from previous stages — initially in assemb
 
 ## Process Description
 
-### Stage 1: Monitor Program
+## Stage 1: Monitor Program
 
 The monitor is the simplest OS — a single program that provides:
 - **Command reading**: Read a command line from the terminal (e.g., `RUN PROG1`, `LOAD TAPE`, `DUMP 1000-1FFF`).
@@ -79,7 +78,7 @@ MONITOR:
         GOTO MONITOR
 ```
 
-### Stage 2: Boot Loader
+## Stage 2: Boot Loader
 
 The boot loader is the first code that runs when the computer powers on. Its job is to load the OS from disk into memory and transfer control to it.
 
@@ -91,7 +90,7 @@ The boot loader is the first code that runs when the computer powers on. Its job
 
 **Boot loader size**: 128-512 bytes (fits in one disk sector). Written in assembly language, hand-positioned to fit.
 
-### Stage 3: Interrupt Handlers
+## Stage 3: Interrupt Handlers
 
 Interrupts are the mechanism by which hardware signals the processor:
 
@@ -110,7 +109,7 @@ Interrupts are the mechanism by which hardware signals the processor:
 - **Terminal interrupt**: Signals a character received from the keyboard.
 - **Power-fail interrupt**: On systems that support it, gives the OS ~2 ms to save critical state before power dies.
 
-### Stage 4: Process Management (Multitasking)
+## Stage 4: Process Management (Multitasking)
 
 **Process control block (PCB)**: A data structure for each process containing:
 - Saved register values (including PC, stack pointer, status register)
@@ -128,7 +127,7 @@ Interrupts are the mechanism by which hardware signals the processor:
 
 **Round-robin scheduler**: Each process gets a time slice (e.g., 50 ms). When the timer interrupt fires, the scheduler moves to the next ready process. Simple, fair, adequate for most purposes.
 
-### Stage 5: Memory Management
+## Stage 5: Memory Management
 
 **Simple scheme (single-tasking)**: One program in memory at a time. The OS occupies low memory; the application occupies the rest.
 
@@ -138,7 +137,7 @@ Interrupts are the mechanism by which hardware signals the processor:
 
 **Base/limit registers**: Hardware provides two registers per process — base (lowest address the process can access) and limit (size of the process's address space). The OS sets these registers during context switch. Prevents processes from accessing each other's memory.
 
-### Stage 6: File System
+## Stage 6: File System
 
 **File system data structures**:
 
@@ -167,7 +166,7 @@ Interrupts are the mechanism by which hardware signals the processor:
 | Max file size | Limited by largest free gap | Unlimited | Limited by pointer count |
 | Complexity | Simple | Simple | Moderate |
 
-### Stage 7: Device Drivers
+## Stage 7: Device Drivers
 
 Each hardware device needs a driver — a software module that knows how to program the device's controller:
 
@@ -193,7 +192,7 @@ Each hardware device needs a driver — a software module that knows how to prog
 | Minimum disk block size | 512-4,096 bytes | Trade-off: small = less waste, large = less metadata |
 | Boot time | 1-30 sec | From power-on to shell prompt |
 
-### Memory Layout (Typical 64 KB System)
+## Memory Layout (Typical 64 KB System)
 
 | Address Range | Contents | Size |
 |--------------|----------|------|
@@ -254,7 +253,7 @@ Each hardware device needs a driver — a software module that knows how to prog
 | Real-time OS (RTOS) | Medium-High | Deterministic response times for control systems |
 | Embedded OS (no disk) | Low | ROM-based, runs from fixed memory |
 
-## References
+## See Also
 
 - [Assemblers, Linkers & Loaders](assemblers.md) — The toolchain for building OS kernels
 - [Compiler Construction](compilers.md) — For writing the OS in a high-level language
@@ -262,5 +261,5 @@ Each hardware device needs a driver — a software module that knows how to prog
 - [Electronic Computing](../computing/electronic.md) — Hardware architecture: interrupts, timers, I/O controllers
 - [Development Tools](dev-tools.md) — Debuggers essential for OS kernel debugging
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../index.md)*
+
+[← Back to Software Bootstrapping](index.md)

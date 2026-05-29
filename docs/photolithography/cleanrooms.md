@@ -8,7 +8,7 @@
 > **Outputs**: cleanrooms, ultra_pure_water, cleanroom_consumables
 > **Critical**: Yes — contamination control is the single largest yield determinant in semiconductor manufacturing
 
-### Cleanrooms
+## Cleanrooms
 Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill an entire chip. Cleanroom class determines minimum feature size achievable: Class 1000 (ISO 6) for >5 μm features, Class 100 (ISO 5) for 1-5 μm, Class 10 (ISO 4) for sub-micron.
 
 **Cleanroom construction**:
@@ -34,7 +34,7 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
 - UPW production chain (sand filter → RO → DI → UV → UF) is multi-stage and requires continuous monitoring to maintain 18 MΩ·cm
 - Full cleanroom garment ensemble causes heat stress — limited to 2-hour continuous sessions with cooling breaks
 
-### Operational Protocols
+## Operational Protocols
 - **[Gowning sequence](../glossary/gowning-sequence.md)** (order matters — cover dirtiest areas first):
   1. Hair cover (bouffant cap — covers all hair, no exposed scalp)
   2. Shoe covers (over-shoe booties — seal around ankle)
@@ -54,7 +54,7 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
 - Full gowning takes 5-10 minutes per entry — significant productivity overhead in high-traffic fabs
 - Double-gloving and boot covers are uncomfortable, limiting continuous wear time to ~2 hours
 
-### Vibration & ESD Control
+## Vibration & ESD Control
 - **Vibration isolation**: Precision photolithography tools (steppers, mask aligners) require vibration <0.1 μm displacement. Vibration isolation pads (neoprene rubber or air-spring mounts) under tool bases. Massive concrete inertia blocks (2-5 tonnes) decouple tools from floor vibrations. Facility sited away from heavy machinery, rail lines, and road traffic if possible.
 - **ESD (electrostatic discharge) control**: MOS devices are destroyed by static discharges as low as 50-100 V. Human body model (HBM) discharge: 100 pF through 1.5 kΩ — a person walking on a synthetic floor can accumulate 5-20 kV. Countermeasures:
   - Anti-static flooring (conductive vinyl or epoxy, resistance 10⁶-10⁹ Ω/sq, grounded through 1 MΩ resistor for safety)
@@ -70,7 +70,7 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
 - Vibration isolation requires massive concrete foundations and careful site selection away from roads and rail lines
 - Humidity below 30% RH creates dangerous static conditions — requires active humidification in dry climates
 
-### HEPA Filter Bootstrapping
+## HEPA Filter Bootstrapping
 - **Filter media**: Borosilicate glass microfibers (fiber diameter 0.5-4 μm), formed into a pleated paper-like mat. Pleating increases surface area 20-50× versus flat media, reducing pressure drop. Media binder: acrylic resin (holds fiber matrix together).
 - **Filter efficiency**: 99.97% capture at 0.3 μm (the most penetrating particle size — MPPS). Larger particles are intercepted directly; smaller particles are captured by diffusion. HEPA grade is defined by this single-point efficiency.
 - **Filter frame construction**: Rigid frame of aluminum or galvanized steel (wood frames warp). Gasket seal (neoprene or closed-cell foam) between filter and ceiling grid — any bypass leak defeats the entire filter. Gel sealant (non-drying silicone or urethane) for critical installations. Filter life: 3-7 years depending on particulate loading; pressure drop monitoring indicates replacement time.
@@ -84,7 +84,7 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
 - Borosilicate glass microfiber media requires specialized manufacturing (0.5-4 μm fiber diameter) — not trivially bootstrappable
 - Filter life of 3-7 years means ongoing replacement cost and DOP/PAO integrity testing annually
 
-### Cleanroom Garments
+## Cleanroom Garments
 - **Materials**: Tyvek (spun-bonded polyethylene — disposable, inexpensive, good particle containment but low durability), or polyester (woven, reusable, excellent particle containment, durable for 50+ wash cycles). Polyester preferred for production cleanrooms.
 - **Construction**: Sealed or bound seams (no raw edges that shed fibers). No pockets, zippers, or buttons (particle sources). Garments are continuous-filament woven fabric — no staple fibers to shed. Coverall design with integrated hood or separate hood with face opening. Snap closures or velcro (no hooks that catch particles).
 - **Laundry**: Specialized cleanroom laundry — ultra-pure water wash, non-ionic detergent, drying in HEPA-filtered environment. Garments tested for particle shedding after each wash (Helmke drum test or body box test). Typically replaced after 30-50 wash cycles when particle shedding exceeds specification.
@@ -97,7 +97,7 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
 - Tyvek garments are disposable (single-use or few uses) — high consumable cost for large fab operations
 - Specialized cleanroom laundry with UPW wash and HEPA-filtered drying is a dedicated infrastructure requirement
 
-### Hazards & Safety
+## Hazards & Safety
 
 - **Chemical handling**: Acetone, IPA, and MEK solvents are highly flammable (flash points well below room temperature). Use only in ventilated solvent benches with spark-free equipment. Store in flammable-materials cabinets; keep fire extinguishers (CO₂ or dry chemical) within 10 m of solvent stations.
 - **UV exposure**: Mercury arc lamps and UV curing tools emit i-line (365 nm) and shorter wavelengths that cause corneal burns and skin erythema. Enclose beam paths; wear UV-blocking safety glasses (OD 5+ at 365 nm) when aligning or servicing lithography tools. Never look directly at an energized lamp.
@@ -105,7 +105,7 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
 - **Ergonomic hazards**: Cleanroom bunny suits cause heat stress (limited ventilation, full-body coverage). Limit continuous gowning sessions to 2 hours with cooling breaks. Airlock entry/exit protocols add physical strain — rotate personnel to reduce repetitive-motion injury from gowning and wafer handling.
 - **Piranha solution** (if used for cleaning): See [Resists & Masks](resists-masks.md) for piranha hazards.
 
-### Cleanroom Construction Detail
+## Cleanroom Construction Detail
 
 **Modular construction**:
 - **Wall panels**: Prefabricated sandwich panels (steel or aluminum skins with expanded polystyrene or rockwool core), 50-100 mm thick. Panels interlock with cam-lock fasteners (no through-bolts that create particle traps). Joint seals: silicone or polyurethane sealant applied between panels to create airtight, particle-tight connections. Panels arrive factory-finished with epoxy or polyurethane paint (smooth, non-shedding, chemical-resistant).
@@ -130,7 +130,7 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
 - Temperature control of ±0.5°C requires continuous chilled water circulation at 50-200 W/m² — significant energy cost
 - ULPA filtration (99.999% at 0.12 μm) has ~2× the pressure drop of HEPA, doubling fan energy per air change
 
-### Contamination Sources and Control
+## Contamination Sources and Control
 
 **People** (the dominant contamination source):
 - At rest: a fully gowned cleanroom operator emits ~100,000 particles ≥0.3 μm per minute (skin flakes, hair fragments, lint from garments, breath droplets). At moderate activity (walking, reaching): ~1,000,000 particles per minute. This is why gowning, behavior protocols, and laminar airflow are all essential simultaneously.
@@ -154,7 +154,7 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
 - A gowned operator at moderate activity emits ~1,000,000 particles/min — people are always the dominant contamination source despite best protocols
 - Process equipment (evaporation sources, spin coaters) generates metal and resist particles that require regular chamber cleaning
 
-### Electrostatic Discharge (ESD) Control
+## Electrostatic Discharge (ESD) Control
 
 **Ionizer systems**:
 - **Alpha ionizers**: Polonium-210 (Po-210) radioactive sources emit alpha particles that ionize air molecules, creating equal numbers of positive and negative ions. The ions neutralize static charges on wafer surfaces and equipment. No power required. Limited lifetime (Po-210 half-life = 138 days; replace every 12-18 months). Regulatory issues with radioactive materials in some jurisdictions.
@@ -169,7 +169,7 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
 - Alpha ionizers (Po-210) require replacement every 12-18 months due to 138-day half-life and regulatory burden
 - Corona emitter needles require periodic cleaning — contamination reduces ion output and unbalances polarity
 
-### Monitoring and Maintenance
+## Monitoring and Maintenance
 
 **Particle monitoring**:
 - **Continuous particle counters**: Laser scattering counters installed at critical locations (near process tools, at return air grilles). Count particles ≥0.1-5 μm in real-time. Data logged continuously for trend analysis. Alarms trigger at threshold levels (e.g., >100 particles/ft³ ≥0.5 μm for Class 100).
@@ -188,7 +188,7 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
 - Quarterly ISO 14644-1 certification by third-party testing adds recurring cost and requires production scheduling around testing
 - HEPA replacement at 2× initial pressure drop means 3-7 year cycle requiring cleanroom shutdown for filter swap
 
-### Cleanroom Protocol Details
+## Cleanroom Protocol Details
 
 **Material introduction procedure**:
 - All materials entering the cleanroom must be pre-cleaned. Wipe boxes, containers, and tool parts with IPA-dampened lint-free wipes in the material airlock. Remove cardboard, paper, and wood packaging before entry (replace with cleanroom-compatible polypropylene or polycarbonate containers).
@@ -213,7 +213,7 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
 - Annual gowning recertification with body box particle counting is time-consuming but necessary to catch protocol drift
 - IPA consumed in large quantities for daily surface wiping — flammable storage and ventilation requirements
 
-### Cleanroom Support Systems
+## Cleanroom Support Systems
 
 **Chilled water system**: Temperature control (22±0.5°C) requires chilled water at ~7°C supplied to air handling units. Chiller capacity: 50-200 W per m² of cleanroom floor area (depending on internal heat load from process equipment). Redundant chillers (N+1) ensure continuous cooling during maintenance.
 
@@ -231,7 +231,7 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
 - Chilled water system at 50-200 W/m² cooling load is a major energy consumer — a 2000 m² cleanroom needs 100-400 kW just for temperature control
 - Separate acid and solvent waste drain systems double the plumbing infrastructure cost
 
-### ISO Cleanroom Classification
+## ISO Cleanroom Classification
 
 The ISO 14644-1 standard defines cleanroom classes by the maximum allowable particle concentration at specified particle sizes:
 
@@ -246,7 +246,7 @@ The ISO 14644-1 standard defines cleanroom classes by the maximum allowable part
 
 Particle counts are per cubic meter. The relationship between ISO class N and particle concentration Cn at particle size D (in μm) follows Cn = 10^N × (0.1/D)^2.08. For semiconductor fabrication: ISO 4-5 for critical lithography and etch areas, ISO 6-7 for supporting areas (photoresist coating, wafer cleaning, metrology).
 
-### Make-Up Air and Pressurization
+## Make-Up Air and Pressurization
 
 A cleanroom loses air through exhaust systems (wet benches, solvent benches, process tool exhaust) and through building leakage. The make-up air system replaces this exhausted air with fresh, filtered, conditioned air:
 
@@ -262,7 +262,7 @@ A cleanroom loses air through exhaust systems (wet benches, solvent benches, pro
 - 15-30% make-up air requires continuous heating, cooling, and dehumidifying of outside air — significant energy cost
 - Loss of pressurization (fan failure, door propped open) immediately compromises the cleanroom, requiring recovery time
 
-### Recovery After Contamination Events
+## Recovery After Contamination Events
 
 When a contamination event occurs (spill, equipment failure, filter breach, or improper gowning), the cleanroom must recover to specification:
 
@@ -279,7 +279,7 @@ When a contamination event occurs (spill, equipment failure, filter breach, or i
 - Chemical spill recovery requires PID monitoring until baseline — may take hours for volatile solvents
 - Filter breach requires DOP/PAO testing and possible filter replacement, taking the affected area offline for hours to days
 
-### Cleanroom Floor Plan and Workflow
+## Cleanroom Floor Plan and Workflow
 
 The layout of a cleanroom directly affects contamination control and operational efficiency:
 
@@ -296,7 +296,7 @@ The layout of a cleanroom directly affects contamination control and operational
 - Equipment placement constrained by laminar airflow direction — most sensitive tools must be upstream, limiting layout flexibility
 - Sealed wall penetrations for plumbing and electrical add construction complexity and potential leak points
 
-### Cleanroom Flooring Systems
+## Cleanroom Flooring Systems
 
 The floor is a critical contamination control surface and must meet several requirements simultaneously:
 
@@ -317,7 +317,7 @@ The floor is a critical contamination control surface and must meet several requ
 - Raised floor at 300-600 mm above structural slab requires significant building height and adjustable pedestal installation
 - UV-blocking lenses give cleanrooms a yellowish tint that can cause eye strain during extended shifts
 
-### Cleanroom Construction Parameters
+## Cleanroom Construction Parameters
 
 **Wall panels**: Painted steel or aluminum honeycomb sandwich panels, 50-100 mm thick. Aluminum honeycomb core (cell size 6-12 mm, foil 0.05 mm) provides stiffness at low weight. Sealed joints with neoprene gasket strips between panels prevent particle leakage. Wall surface smoothness <0.8 μm Ra (mirror-finish epoxy paint) for easy cleaning and minimal particle adhesion. Corners coved with 30-50 mm radius to eliminate particle traps.
 
@@ -335,7 +335,7 @@ The floor is a critical contamination control surface and must meet several requ
 - Cooling load of 200-500 W/m² from process equipment requires oversized chillers — a 2000 m² fab needs 400-1000 kW cooling capacity
 - Wall surface smoothness <0.8 μm Ra requires factory-applied mirror-finish epoxy paint, not field-applied coatings
 
-### Gowning Room Protocol
+## Gowning Room Protocol
 
 **Airlock entry cascade**: Three-stage progression — pre-change room (ambient pressure) → gowning room (+5 Pa) → cleanroom (+15 Pa). Interlocked doors prevent two adjacent doors from opening simultaneously, maintaining the pressure barrier. Sticky adhesive mat at each threshold removes particles from shoe covers and cart wheels (peel off top layer when visibly soiled).
 
@@ -351,7 +351,7 @@ The floor is a critical contamination control surface and must meet several requ
 - Daily garment change for ISO 5 environments requires large garment inventory and frequent specialized laundry service
 - Full-length mirror self-inspection relies on human compliance — no automated verification of proper gowning
 
-### Cleanroom Disciplines
+## Cleanroom Disciplines
 
 **Prohibited items and practices**: No cosmetics, perfumes, or aftershave (particles and volatile organics). No paper products — use cleanroom-compatible synthetic paper (polypropylene-based) for notes and documentation. No pencils (graphite particles) — use cleanroom-rated ballpoint pens with retained caps. No food, drink, or smoking within the gowning area.
 
@@ -367,6 +367,6 @@ The floor is a critical contamination control surface and must meet several requ
 - Prohibition on paper, pencils, and cosmetics requires complete behavioral change from normal work habits
 - Walking personnel shed 5-10× more particles than standing — even compliant behavior generates contamination
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Photolithography](./index.md) • [All Domains](../index.md)*
+
+[← Back to Photolithography](index.md)

@@ -52,7 +52,7 @@ Zinc is the fourth most consumed metal worldwide (after iron, aluminum, and copp
 - **[Brass](../glossary/brass.md)** (15%): Cu-Zn alloy (see [Copper & Bronze](copper-bronze.md)). Zinc as alloying element.
 - **Sacrificial anodes**: Zinc blocks bolted to ship hulls, pipelines, storage tanks. Preferentially corrode, protecting the steel structure.
 
-### Lead
+## Lead
 
 Lead is the densest common metal (11.34 g/cm³), extraordinarily malleable, and resistant to sulfuric acid. Its toxicity has driven substitution in many applications, but batteries remain irreplaceable. Lead is the most recycled metal on Earth (>95% recycling rate for batteries in developed countries) — more lead is produced from recycling than from mining.
 
@@ -82,7 +82,7 @@ Lead is the densest common metal (11.34 g/cm³), extraordinarily malleable, and 
 - **Ammunition**: Shot and bullets. High density gives short range but high kinetic energy delivery.
 - **Sound insulation and vibration damping**: Lead sheet laminated in walls. High internal damping.
 
-### Tin
+## Tin
 
 Tin has been used since the Bronze Age — bronze is Cu-Sn alloy (see [Copper & Bronze](copper-bronze.md)). Pure tin is soft and ductile with a low melting point, making it essential for solder, tinplate, and bearing alloys. Global production is small (~300,000 tonnes/year) but strategically critical for electronics.
 
@@ -106,7 +106,7 @@ Tin has been used since the Bronze Age — bronze is Cu-Sn alloy (see [Copper & 
 - **Bronze and pewter**: Tin as alloying element in bronze (Cu-5-10% Sn), bearing metals (Babbitt: Sn-7-10%Sb-3-5%Cu), and pewter (Sn-1-8%Sb-0-3%Cu, lead-free modern formulation).
 - **Glass coating**: Float glass production uses molten tin as the flat substrate — glass floats on tin bath at ~1000°C, producing optically flat surfaces (Pilkington process). This is the single largest industrial use of tin by volume of product enabled.
 
-### Nickel
+## Nickel
 
 Nickel is the key alloying element that makes stainless steel stainless. It provides austenite stability, corrosion resistance, and high-temperature strength. Roughly 65% of world nickel production goes into stainless steel. Nickel-based superalloys enable jet turbine blades that operate at >1000°C — no other alloy system matches their creep resistance.
 
@@ -136,7 +136,7 @@ Nickel is the key alloying element that makes stainless steel stainless. It prov
 - **[Electroplating](../glossary/electroplating.md)** (10%): Nickel plating provides hard, corrosion-resistant, bright surface. Undercoat for chromium plating. Watts bath: NiSO₄ + NiCl₂ + H₃BO₃ at 45-65°C, pH 3.5-4.5.
 - **Coinage**: Cupronickel (Cu-25Ni) and pure nickel coin blanks.
 
-### Magnesium
+## Magnesium
 
 Magnesium is the lightest structural metal (1.74 g/cm³, 35% lighter than aluminum and 78% lighter than steel). It is the third most abundant element in seawater (1.3 kg/m³). Despite its abundance, extraction is energy-intensive, making magnesium 2-3× more expensive than aluminum per unit mass.
 
@@ -169,7 +169,7 @@ Magnesium is the lightest structural metal (1.74 g/cm³, 35% lighter than alumin
 - **[Sacrificial anodes](../glossary/sacrificial-anodes.md)** (10%): Higher driving voltage than zinc anodes. Used for buried pipelines, hot water tanks, marine hulls. Consumed at ~4-8 kg/year per ampere of protection current.
 - **Titanium production**: Kroll process consumes 1.1-1.2 tonnes Mg per tonne Ti. The single largest industrial consumer of magnesium in some regions.
 
-### Titanium
+## Titanium
 
 Titanium is the ninth most abundant element in Earth's crust (0.6%) but among the most difficult and expensive structural metals to produce. Its exceptional strength-to-weight ratio (Ti-6Al-4V: ~950 MPa UTS at 4.43 g/cm³) and corrosion resistance make it irreplaceable in aerospace, medical implants, and chemical processing. The Kroll process — batch, laborious, unchanged since 1940 — remains the bottleneck.
 
@@ -203,7 +203,7 @@ Titanium is the ninth most abundant element in Earth's crust (0.6%) but among th
 - **Chemical process equipment**: Heat exchangers, reactor vessels, piping for aggressive media (chlor-alkali, desalination, offshore). Titanium condenser tubes in power plants — zero corrosion in seawater over 40+ year lifetime.
 - **[Pigment](../glossary/pigments.md)** (TiO₂, not metal but 95% of titanium ore consumption): White pigment in paint, plastics, paper. Produced by chloride process (TiCl₄ oxidation) or sulfate process (TiO₂ dissolution in H₂SO₄). This is a separate industry from titanium metal — orders of magnitude larger.
 
-### Interdependencies and Bootstrap Sequence
+## Interdependencies and Bootstrap Sequence
 
 Non-ferrous metals have significant interdependencies:
 
@@ -221,7 +221,7 @@ Non-ferrous metals have significant interdependencies:
 4. **[Magnesium](../glossary/magnesium.md)** (Years 25-35): Pidgeon process requires ferrosilicon and vacuum capability. Electrolytic route requires large DC power.
 5. **[Titanium](../glossary/titanium.md)** (Years 30-40): Kroll process demands chlorine chemistry, magnesium production, argon supply, and vacuum distillation. The capstone non-ferrous metal.
 
-### Safety & Hazards
+## Safety & Hazards
 
 **Toxic metals**:
 - **Lead**: Cumulative neurotoxin. Blood lead levels >5 μg/dL (children) cause cognitive impairment. Exposure routes: inhalation of dust/fume, ingestion (hand-to-mouth). Engineering controls: local exhaust ventilation, HEPA filtration, wet methods to suppress dust. Medical surveillance: blood lead monitoring every 6 months for workers. PPE: respirators (P100), gloves, dedicated work clothing laundered on-site. Do not eat, drink, or smoke in lead work areas.

@@ -20,7 +20,6 @@ Modern GPU manufacturing requires three specialty metals that no other materials
 - [Semiconductor fabrication](../photolithography/fab-processes.md) — sputtering, CMP, and thin-film processes
 - [Vacuum technology](../gas-handling/vacuum.md) — sputtering deposition systems
 
-## Overview
 
 Three specialty metals — tantalum (Ta), cobalt (Co), and indium (In) — occupy critical positions on the semiconductor manufacturing path that no other materials can fill. Tantalum forms the copper diffusion barrier (TaN/Ta liner) that prevents Cu from poisoning silicon devices. Cobalt silicide (CoSi₂) provides the lowest-resistance self-aligned contacts at sub-7 nm nodes, and cobalt-based CMP slurries planarize copper interconnects. Indium tin oxide (ITO) is the dominant transparent conductor for displays and touchscreens, while InGaAs enables high-speed photonics for optical interconnects. Without these three metals, modern GPU manufacturing stops at the lithography stage — you can pattern features but cannot build functional contacts, barriers, or optical interfaces.
 

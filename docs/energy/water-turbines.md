@@ -8,7 +8,6 @@
 > **Outputs**: hydraulic_power, electrical_generation, high_rpm_rotation
 > **Critical**: No — water turbines provide efficient hydroelectric generation but are limited to sites with suitable head and flow
 
-## Overview
 
 Water turbines replace water wheels where higher heads, higher efficiencies, and faster rotation speeds are needed. They convert the gravitational potential energy of falling water into continuous rotary motion at 100-1000+ RPM — directly usable for electrical generators without the massive gear reductions that water wheels require. All turbine types require iron or steel construction and precision machining, making them dependent on the machine-tools stage. For lower-head applications with simpler construction, see [gravity.md](gravity.md) for water wheel types.
 

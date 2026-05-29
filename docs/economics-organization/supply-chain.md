@@ -8,9 +8,8 @@
 > **Outputs**: procurement_planning, inventory_management, logistics_coordination
 > **Critical**: Yes — semiconductor manufacturing is impossible without supply chain coordination involving hundreds of specialist inputs
 
----
 
-## 1. Overview
+## Overview
 
 Supply chain coordination is the planning and management of multi-step production sequences, procurement of inputs from diverse sources, and inventory management across distributed operations. It extends [trade](./trade.md) from simple bilateral exchange to planned, multi-party procurement networks; it extends [accounting](./accounting.md) from passive record-keeping to active planning and optimization.
 
@@ -18,36 +17,34 @@ This capability becomes essential when production involves more than 3 sequentia
 
 At the highest end of the tech tree, semiconductor fabrication requires supply chain coordination across hundreds of specialist inputs: ultra-pure silicon, photolithographic chemicals, specialty gases, precision optics, clean-room equipment, and dozens of other materials sourced from globally distributed producers. This is why supply chain coordination is marked critical — without it, the tree's pinnacle capabilities cannot exist.
 
----
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 
 - **Writing/recording media**: Supply chain documentation is extensive — purchase orders, shipping manifests, inventory reports, production schedules. Estimate: 500-2,000 pages/tablets per year for a moderate operation.
 
-### Tools and Equipment
+## Tools and Equipment
 
 - [Transport infrastructure](../transport/index.md): The physical means to move materials between production stages. Without transport, supply chain planning is purely theoretical.
 - [Writing systems](../knowledge/writing.md): For all documentation — orders, manifests, schedules, inventory records.
 - [Accounting systems](./accounting.md): Supply chain decisions require cost data. Without accounting, procurement cannot be cost-optimized.
 - [Trade networks](./trade.md): Supply chains procure inputs through trade mechanisms.
 
-### Knowledge
+## Knowledge
 
 - **Network planning**: The ability to map multi-step production sequences, identify all input requirements, and schedule procurement and delivery.
 - **Inventory theory**: Understanding buffer stock, safety stock, reorder points, and the trade-offs between inventory cost and stockout risk.
 - **Logistics optimization**: Routing, scheduling, and load planning for material transport.
 - **Supplier evaluation**: Assessing supplier reliability, quality, lead time, and cost.
 
-### Infrastructure
+## Infrastructure
 
 - Warehouses at each production stage: Buffer storage to decouple sequential operations.
 - Communication channels between supply chain nodes: Messengers, signal systems, or written correspondence for order transmission and status updates.
 
----
 
-## 3. Bill of Materials (BOM)
+## Bill of Materials (BOM)
 
 Supply chain coordination is an organizational capability. The "materials" are documentation and communication:
 
@@ -59,11 +56,10 @@ Supply chain coordination is an organizational capability. The "materials" are d
 | Warehouse space | 50-500 m³ per production stage | [Construction](../construction/index.md) | Open-air covered storage (weather risk) |
 | Messenger/communication system | 1-5 dedicated messengers or signal stations | [Transport](../transport/index.md) | Semaphore, courier relay |
 
----
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Mapping the Supply Chain
+## 4.1 Mapping the Supply Chain
 
 1. **Identify the end product and its bill of materials**: For each product, create a complete BOM listing all inputs, their quantities, and their sources. Example for a blast furnace producing 1 tonne iron/day:
 
@@ -95,7 +91,7 @@ Supply chain coordination is an organizational capability. The "materials" are d
 - Safety stock formula assumes stable lead-time distribution — new suppliers or routes invalidate historical data
 - Map maintenance is ongoing — supply chains change as suppliers and routes evolve; outdated maps are misleading
 
-### 4.2 Procurement Planning
+## 4.2 Procurement Planning
 
 4. **Establish reorder points**: For each input, define the inventory level that triggers a new procurement order.
 
@@ -115,7 +111,7 @@ Supply chain coordination is an organizational capability. The "materials" are d
 - Purchase order lead time — written orders sent by messenger add 1-3 days to procurement cycle
 - Tracking requires discipline — missed log entries create gaps in delivery history
 
-### 4.3 Inventory Management
+## 4.3 Inventory Management
 
 7. **Implement first-in-first-out (FIFO)**: Use oldest stock first to prevent spoilage and degradation. Physically organize storage so that incoming stock is placed behind existing stock.
 
@@ -133,7 +129,7 @@ Supply chain coordination is an organizational capability. The "materials" are d
 - Cycle counting assumes accurate records — if base records are wrong, cycle counts perpetuate errors
 - 2% threshold may miss slow, small-scale theft — pilferage below the threshold accumulates over time
 
-### 4.4 Logistics Coordination
+## 4.4 Logistics Coordination
 
 10. **Schedule transport**: Coordinate material movements to minimize empty return trips and maximize load factors. Target: >70% load factor on all transport movements.
 
@@ -149,7 +145,7 @@ Supply chain coordination is an organizational capability. The "materials" are d
 - Staging depends on accurate production forecasting — wrong sequence creates bottlenecks
 - Coordination overhead increases with number of supply chain nodes — complexity grows non-linearly
 
-### Supply Chain Model Trade-offs
+## Supply Chain Model Trade-offs
 
 | Model | Flexibility | Reliability | Cost | Inventory Required | Best For |
 |-------|:-:|:-:|:-:|:-:|----------|
@@ -160,11 +156,10 @@ Supply chain coordination is an organizational capability. The "materials" are d
 | Just-in-time (JIT) | Low | Low (fragile) | Low | Minimal | Highly reliable transport and supply |
 | Strategic stockpiling | Moderate | Very High | High | Very High | Unreliable supply or strategic materials |
 
----
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Supply Chain Performance Metrics
+## Supply Chain Performance Metrics
 
 | Metric | Manual System (Stone/Bronze) | Organized System (Iron Age) | Industrial System | Semiconductor-Grade |
 |--------|------------------------------|----------------------------|-------------------|---------------------|
@@ -177,7 +172,7 @@ Supply chain coordination is an organizational capability. The "materials" are d
 | Inventory carrying cost | 30-50% of value/year | 20-35% | 15-25% | 10-20% |
 | Stockout frequency | 10-20% of items/month | 5-10% | 2-5% | <1% |
 
-### Buffer Stock Calculations
+## Buffer Stock Calculations
 
 | Material | Daily Consumption | Lead Time (avg/max) | Safety Factor | Safety Stock | Reorder Point |
 |----------|-------------------|---------------------|---------------|-------------|---------------|
@@ -187,7 +182,7 @@ Supply chain coordination is an organizational capability. The "materials" are d
 | Grain (city of 5,000) | 7,500 kg | 7/14 days | 1.5 | 78,750 kg | 131,250 kg |
 | Timber (construction) | 500 board-feet | 3/7 days | 1.5 | 3,000 bd-ft | 4,500 bd-ft |
 
-### Transport Throughput Requirements
+## Transport Throughput Requirements
 
 | Operation | Material Flow (tonnes/month) | Distance | Transport Mode | Trips Required |
 |-----------|----------------------------|----------|----------------|----------------|
@@ -197,9 +192,8 @@ Supply chain coordination is an organizational capability. The "materials" are d
 | Copper to market | 5-10 | 50 km | Pack mule (150 kg) | 33-67 mule trips |
 | Brick to construction site | 30 | 3 km | Hand cart (200 kg) | 150 cart trips |
 
----
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Minimum viable supply chain**: A single production operation with 3-5 inputs from 2-3 suppliers. Manageable with a clay tablet and weekly review.
 - **Complexity inflection point**: At ~10 inputs from 5+ suppliers, informal coordination fails. A dedicated supply chain coordinator (quartermaster, procurement officer) becomes necessary.
@@ -208,9 +202,8 @@ Supply chain coordination is an organizational capability. The "materials" are d
 - **Information latency**: The time between a supply disruption and the coordinator's awareness of it determines the buffer stock needed. Messenger-based systems have 1-7 day latency. Signal systems (semaphore) reduce this to hours. Electronic communication reduces it to seconds.
 - **Semiconductor-grade supply chains**: Modern semiconductor fabrication involves 300-500+ distinct chemical and material inputs, each requiring purity levels of 99.999-99.9999999%. The supply chain for each input is itself a multi-tier network. Total managed relationships: 1,000-5,000+.
 
----
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -221,18 +214,16 @@ Supply chain coordination is an organizational capability. The "materials" are d
 | Supply chain cost exceeding budget | Hidden costs (transport, storage, waste) not captured in planning | Implement full cost accounting (include transport, storage, spoilage, handling); identify cost reduction opportunities |
 | Single-source dependency (critical input from one supplier) | No alternative developed; geographic constraint | Qualify at least 2 suppliers for every critical input; invest in alternative source development |
 
----
 
-## 8. Safety
+## Safety
 
 - **Warehouse hazards**: Stored materials can collapse, catch fire, or release toxic substances. Stack heavy materials no higher than 2 m; separate flammable materials from ignition sources; ventilate chemical storage areas.
 - **Transport hazards**: Materials in transit are vulnerable to accidents, spillage, and contamination. Secure all loads; inspect containers before loading; transport hazardous materials in dedicated vehicles with appropriate signage.
 - **Information integrity**: Supply chain data is safety-critical when it involves food, medicine, or hazardous materials. Incorrect inventory records can lead to consuming spoiled food or expired chemicals. Implement date tracking (expiry dates) and first-expired-first-out (FEFO) for perishable and degradable items.
 - **Ergonomic risks**: Loading and unloading operations cause back injuries. Limit individual lift to 25 kg; use mechanical aids (carts, pulleys, ramps) for heavier loads; train workers in proper lifting technique.
 
----
 
-## 9. Quality Control
+## Quality Control
 
 - **Incoming inspection**: Every incoming shipment inspected against the purchase order specification. Check: quantity (±2%), quality (visual/physical test), and packaging integrity.
 - **Supplier performance tracking**: Rate each supplier monthly on: on-time delivery rate, quality rejection rate, and responsiveness. Review suppliers scoring below 80% on any metric.
@@ -240,9 +231,8 @@ Supply chain coordination is an organizational capability. The "materials" are d
 - **Forecast accuracy review**: Compare monthly forecasts to actual consumption. Track forecast error and adjust methods when error exceeds ±25%.
 - **Document control**: All supply chain documents (orders, receipts, inspections) filed and retrievable for minimum 2 years. Audit trail must be complete and unbroken.
 
----
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 | Supply Chain Model | Description | Era | Best For |
 |-------------------|-------------|-----|----------|
@@ -253,9 +243,8 @@ Supply chain coordination is an organizational capability. The "materials" are d
 | Just-in-time (JIT) | Materials arrive exactly when needed, minimal buffer stock | Advanced | When transport and supply are highly reliable |
 | Buffer-heavy (strategic stockpiling) | Large inventories maintained as insurance against disruption | Any era | When supply is unreliable or strategically critical |
 
----
 
-## 11. References
+## References
 
 - [Transport](../transport/index.md) — the physical infrastructure that moves materials through the supply chain
 - [Writing](../knowledge/writing.md) — the documentation system for orders, manifests, and records
@@ -264,6 +253,6 @@ Supply chain coordination is an organizational capability. The "materials" are d
 - [Defense: Siege Warfare](../defense/siege-warfare.md) — a downstream dependent requiring military logistics
 - [Photolithography: Fab Processes](../photolithography/fab-processes.md) — the pinnacle downstream dependent requiring hundreds of coordinated inputs
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*
+
+[← Back to Economics & Organization](index.md)

@@ -20,7 +20,6 @@ Aluminum components in corrosive, high-wear, or high-purity environments need su
 - [Water treatment](../chemistry/alkalis.md) — clean rinse water and sealing bath chemistry
 - [Titanium](../metals/index.md) — for titanium anodizing applications
 
-## Overview
 
 Anodizing is an electrochemical oxidation process that converts a metal surface into a durable, controlled oxide layer. Unlike electroplating (which deposits metal onto a surface from an external source), anodizing grows the oxide from the substrate itself — the coating is integral to the metal and cannot peel, chip, or delaminate. The workpiece is the anode (hence "anodizing") in an electrolytic cell, and oxygen generated at the anode reacts with the metal to form a dense oxide.
 

@@ -8,7 +8,7 @@
 > **Outputs**: rubber, elastomers, gaskets, seals
 > **Critical**: Yes — flexible seals and vibration isolation required for all mechanical systems, pneumatic tires, and chemical-resistant barriers
 
-## 1. Overview
+## Overview
 
 Elastomers are polymers that recover shape after large deformation (elongation 400-650% with full recovery). They fill roles no rigid material can: flexible seals, vibration dampers, tires, hoses, chemical-resistant gloves, electrical insulation, and adhesives. The rubber family divides into two branches — natural rubber (from latex) and synthetic elastomers (from petrochemical or fermentation monomers) — with different feedstocks and property profiles.
 
@@ -16,9 +16,9 @@ Rubber is unique among engineering materials — it combines high elasticity wit
 
 See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types (NBR, neoprene, silicone, PU), [Thermoplastics](./thermoplastics.md) for melt-processable polymers, and [Thermosets](./thermosets.md) for crosslinked plastics.
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 - [Latex](../glossary/guayule.md) from *Hevea brasiliensis* (tropical) or guayule/Russian dandelion (temperate)
 - [Sulfur](../chemistry/alkalis.md) (2-4 phr, cross-linking agent)
 - [Carbon black](../energy/charcoal.md) (20-50 phr, reinforcing filler from partial combustion of hydrocarbons)
@@ -26,20 +26,20 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - Stearic acid (1-2 phr, co-activator — from animal fat or vegetable oil hydrolysis)
 - Formic acid or acetic acid (0.5% concentration for latex coagulation)
 
-### Tools and Equipment
+## Tools and Equipment
 - [Two-roll mill](../machine-tools/machining.md) or Banbury internal mixer (for compounding)
 - [Hydraulic press](../machine-tools/forming.md) (10-50 tons, for compression molding)
 - Autoclave or steam-heated mold (140-160°C, for vulcanization)
 - Sheeting mill (series of counter-rotating steel rollers)
 
-### Infrastructure
+## Infrastructure
 - Smokehouse or drying oven (40-70°C)
 - Coagulation tanks (aluminum or ceramic-lined)
 - Ventilation for mixing and milling areas (dust and fume extraction)
 
-## 3. Bill of Materials
+## Bill of Materials
 
-### Vulcanized Rubber Compound (per 100 kg rubber)
+## Vulcanized Rubber Compound (per 100 kg rubber)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -51,16 +51,16 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 | CBS accelerator (N-cyclohexyl-2-benzothiazole sulfenamide) | 0.5-1.5 kg | [Petrochemicals](../chemistry/petroleum-alternatives.md) — organic synthesis | MBT (0.5-2 phr, faster cure, less processing safety) |
 | Antioxidant (TMQ) | 1-2 kg | [Petrochemicals](../chemistry/petroleum-alternatives.md) — amine synthesis | PPD derivatives (staining), phenolic antioxidants (less effective) |
 
-### Latex Coagulation (per 100 kg dry rubber)
+## Latex Coagulation (per 100 kg dry rubber)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
 | Fresh latex (30-40% rubber) | 250-335 kg | [Hevea tapping](./natural.md) | Guayule slurry, dandelion root extract |
 | Formic acid (HCOOH, 85%) | 1.5-2.0 kg | [Chemistry](../chemistry/fermentation.md) — methanol + CO oxidation | Acetic acid (white vinegar, slower coagulation), alum |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Hevea Latex Tapping
+## 4.1 Hevea Latex Tapping
 
 **Principle**: Latex is a colloidal emulsion of rubber particles (30-40% cis-1,4-polyisoprene) in water, stabilized by protein surface charges. Tapping makes a controlled cut through the bark to the cambium layer, allowing latex to flow out under natural turgor pressure.
 
@@ -100,7 +100,7 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - Labor-intensive — tapping requires skilled manual workers; a tapper processes 200-300 trees per 3-4 hour morning shift; labor represents 50-60% of production cost
 - Slow startup — trees require 5-7 years from planting to first latex production
 
-### 4.2 Coagulation and Sheet Processing
+## 4.2 Coagulation and Sheet Processing
 
 **Principle**: Formic acid or acetic acid neutralizes the negatively charged protein layer surrounding each rubber particle in the latex emulsion (pH drops from ~6.5 to ~4.5-5.0), destabilizing the colloid. Rubber particles agglomerate into a coherent soft mass (coagulum) that is then mechanically dewatered and dried.
 
@@ -141,7 +141,7 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - Grade variability — visual grading is subjective; RSS quality depends on latex freshness, acid dosage, and smokehouse conditions
 - Labor-intensive sheet handling — each sheet is hung, turned, and inspected manually
 
-### 4.3 Vulcanization
+## 4.3 Vulcanization
 
 **Principle**: Sulfur forms polysulfide bridges (—Sₓ—, where x = 1-8) between adjacent polyisoprene chains at the allylic carbon positions. These covalent cross-links create a three-dimensional network that prevents permanent chain slippage. Raw rubber (tensile ~1 MPa, thermoplastic, sticky) becomes a durable elastomer (tensile 20-30 MPa, elastic recovery, non-tacky).
 
@@ -190,7 +190,7 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - Irreversible — once cross-linked, rubber cannot be remelted or reprocessed (must devulcanize for recycling)
 - Sulfur and accelerator are skin sensitizers — handling requires gloves and ventilation
 
-### 4.4 Latex-Dipped Goods
+## 4.4 Latex-Dipped Goods
 
 **Principle**: Formers (shaped like the finished product — hand, cylinder, balloon) are immersed in compounded latex. On withdrawal, a liquid latex film coats the former. Drying, leaching, and curing produce a thin, strong, elastic film with superior properties to dry-mixed vulcanized rubber (tensile 20-30 MPa, elongation 700-900%).
 
@@ -237,7 +237,7 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - Precise viscosity control required — bath viscosity changes with temperature, evaporation, and ammonia loss; must be monitored and adjusted continuously
 - Prevulcanized latex has limited shelf life (2-6 months with ammonia preservation)
 
-### 4.5 Reclaimed Rubber
+## 4.5 Reclaimed Rubber
 
 **Principle**: Partially reverse sulfur cross-links in vulcanized scrap rubber to create a reusable material. Heat and chemical agents break polysulfide cross-links (—Sₓ—, where x > 2) while preserving the carbon backbone of the polymer chains. The resulting "reclaim" is a soft, plastic material blended with virgin rubber at 10-30% loading.
 
@@ -279,9 +279,9 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - Not equivalent to virgin rubber — cannot fully replace virgin rubber in critical applications (tire treads, high-pressure seals)
 - Energy-intensive — grinding and heating to 150-200°C for 4-8 hours requires significant energy input
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Vulcanization Parameters by Rubber Type
+## Vulcanization Parameters by Rubber Type
 
 | Parameter | Natural Rubber (NR) | Nitrile (NBR) | Neoprene (CR) | EPDM |
 |-----------|--------------------|-----------------|-----------------|------|
@@ -294,7 +294,7 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 | Service temp range (°C) | -50 to +100 | -40 to +120 | -40 to +120 | -50 to +150 |
 | Shore A hardness range | 40-90 | 40-90 | 40-80 | 40-80 |
 
-### Molding Methods Comparison
+## Molding Methods Comparison
 
 | Method | Pressure (MPa) | Temp (°C) | Cycle Time | Best For |
 |--------|----------------|-----------|------------|----------|
@@ -302,7 +302,7 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 | Transfer molding | 5-15 | 140-160 | 10-30 min | Complex seals, bonded parts |
 | Injection molding | 50-200 | 140-170 | 2-10 min | High-volume O-rings, bushings |
 
-### Rubber Grades and Specifications
+## Rubber Grades and Specifications
 
 | Grade | Dirt Content | Ash | Source | Primary Use |
 |-------|-------------|-----|--------|-------------|
@@ -312,7 +312,7 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 | RSS 1 | Visual | Visual | [Hevea](./natural.md) | Premium rubber |
 | RSS 5 | Visual | Visual | [Hevea](./natural.md) | General purpose |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Single tree**: 2-5 kg/year — sufficient for small-scale sealing and gasket production
 - **Small plantation (5 ha, 2500 trees)**: 5,000-7,500 kg/year — supports local tire repair, hose manufacturing, and seal production
@@ -321,7 +321,7 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - **Smokehouse scaling**: A 2 × 3 × 2 m smokehouse dries ~200 kg RSS in 2-4 weeks. Larger operations use multiple smokehouses or continuous tunnel driers.
 - **Molding scaling**: Compression molding is manual and slow (15-60 min cycle). Transfer and injection molding reduce cycle times to 2-10 minutes but require more complex tooling ($5,000-50,000 for injection molds vs. $500-5,000 for compression molds).
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -334,7 +334,7 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 | Latex coagulation too fast or uneven | Acid concentration too high; latex diluted incorrectly | Reduce acid to 0.3-0.4%; dilute latex to 15-20% rubber before adding acid |
 | Mold growth on RSS sheets | Smokehouse temperature too low (<50°C) or humidity too high | Increase smokehouse temperature to 60-70°C; improve ventilation; check fire is producing adequate smoke |
 
-## 8. Safety
+## Safety
 
 - **Latex allergies**: Natural rubber latex proteins sensitize some individuals, causing reactions from contact dermatitis to anaphylactic shock (Type I hypersensitivity in 1-6% of general population, up to 17% of healthcare workers with chronic exposure). Use [nitrile alternatives](./synthetic.md) for allergic workers. Powdered latex gloves aerosolize proteins — use powder-free.
 - **Vulcanization accelerators**: Mercaptobenzothiazole (MBT), thiurams (TMTD), and CBS are skin sensitizers causing occupational dermatitis. Handle compounding ingredients with nitrile gloves (not latex). Use local exhaust ventilation during weighing and mixing.
@@ -342,26 +342,26 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - **Vulcanization burns**: Autoclave steam at 3-10 bar (144-180°C saturation temperature) and press platens at 140-180°C cause severe scalds and thermal burns. Use thermal gloves rated to 200°C and face shields when handling hot molds. Never open autoclave door under pressure — verify pressure gauge reads 0 bar before opening.
 - **Ammonia fumes** (latex preservation): Latex preserved with 0.3-0.7% ammonia releases NH₃ vapor. Irritating to eyes and respiratory tract above 25 ppm. OSHA PEL: 50 ppm (8-hour TWA). Use local exhaust ventilation in latex storage and processing areas.
 
-## 9. Quality Control
+## Quality Control
 
-### Incoming Rubber
+## Incoming Rubber
 - **Moisture content**: Weigh 10 g sample, dry at 105°C for 2 hours, reweigh. Accept: <0.5% moisture loss.
 - **Dirt content**: Dissolve 10 g rubber in toluene, filter through 44 μm sieve, weigh residue. SMR 20: ≤0.10% dirt.
 - **Plasticity Retention Index (PRI)**: Measure Wallace plasticity at 100°C before and after aging at 140°C for 30 minutes. PRI = (P30/P0) × 100. SMR 20: PRI ≥60. Low PRI indicates oxidative degradation during processing.
 
-### Vulcanizate Testing
+## Vulcanizate Testing
 - **Tensile strength**: ASTM D412 dumbbell specimen. Target: 17-28 MPa for NR with 40-50 phr N330 carbon black.
 - **Elongation at break**: Same specimen as tensile test. Target: 400-650%.
 - **Hardness**: Shore A durometer (ASTM D2240). Measure at 3 points; ±2 units agreement required.
 - **Compression set**: ASTM D395, Method B. 22 hours at 70°C, 25% deflection. Target: <30% (lower = better elastic recovery).
 
-### Field Tests (No Lab Equipment)
+## Field Tests (No Lab Equipment)
 - **Cure test**: Stretch a 100 mm strip to 300% elongation. Good cure springs back within 5% of original length. Undercure = permanent stretch. Overcure = cracking/snapping.
 - **Hardness thumb test**: Press thumbnail firmly into surface. Shore A 40-60 rubber indents slightly. Shore A 70-90 resists indentation. Not precise but useful for quick checks.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Alternative Rubber Sources (Non-Tropical)
+## Alternative Rubber Sources (Non-Tropical)
 
 | Source | Yield (kg/ha/year) | Climate | Rubber Quality | Notes |
 |--------|-------------------|---------|---------------|-------|
@@ -369,13 +369,13 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 | [Russian dandelion](../glossary/russian-dandelion.md) | 150-500 | Temperate | Similar to Hevea | Root extraction; annual crop; USSR produced 3000 tonnes/year during WWII |
 | *Hevea brasiliensis* | 1000-1500 | Tropical only | Benchmark standard | Requires 1800-2500 mm annual rainfall, no frost |
 
-### Alternative Cross-Linking Systems
+## Alternative Cross-Linking Systems
 
 - **Efficient vulcanization (EV)**: Lower sulfur (0.4-0.8 phr), higher accelerator (2-5 phr). Produces mono- and disulfide cross-links (more thermally stable than polysulfide). Better reversion resistance. Tradeoff: lower tear strength and fatigue resistance. Use for thick sections and high-temperature service.
 - **Peroxide cure**: Dicumyl peroxide (1-3 phr) creates carbon-carbon cross-links. No sulfur needed. Superior heat aging. Used for silicone and EPDM. Not effective for natural rubber (causes chain scission at allylic positions).
 - **Metal oxide cure** (for neoprene): ZnO (5 phr) + MgO (4 phr). No sulfur. MgO scavenges HCl released during aging. See [Synthetic Polymers](./synthetic.md) for details.
 
-### Synthetic Elastomers
+## Synthetic Elastomers
 
 When natural rubber properties are insufficient, synthetic elastomers fill specific niches. See [Synthetic Polymers](./synthetic.md) for complete details:
 - **Nitrile (NBR)**: Oil and fuel resistance
@@ -384,7 +384,7 @@ When natural rubber properties are insufficient, synthetic elastomers fill speci
 - **Polyurethane (PU)**: Tunable from rigid foam to abrasion-resistant elastomer
 - **EPDM**: Ozone and weather resistant, roofing and automotive seals
 
-## 11. References
+## References
 
 - **[Natural Rubber & Vulcanization](natural.md)**: Detailed tapping techniques, latex chemistry, and cure control
 - **[Vulcanization & Hardness Scales](rubber.vulcanization.md)**: Cure systems (CV, EV, SEV), Shore A/D hardness scales, compounding ingredients
@@ -399,5 +399,5 @@ When natural rubber properties are insufficient, synthetic elastomers fill speci
 - **[Coatings](../chemistry/coatings.md)**: Rubber-based coatings and sealants
 - **[Machine Tools](../machine-tools/joining.md)**: Equipment for rubber processing machinery
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*
+
+[← Back to Polymers & Composites](index.md)

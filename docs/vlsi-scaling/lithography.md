@@ -8,11 +8,10 @@
 > **Outputs**: patterned_wafers, photomasks, exposure_systems
 > **Critical**: Yes — lithography resolution is the primary determinant of achievable feature size
 
-## Overview
 
 Lithography in the VLSI scaling context covers advanced patterning techniques beyond contact/proximity printing: projection steppers (g-line, i-line), DUV excimer laser systems (KrF 248 nm, ArF 193 nm), immersion lithography, and extreme ultraviolet (EUV). Resolution enhancement techniques (RET) — OPC, phase-shift masks, off-axis illumination — push each wavelength generation to its physical limits. For the foundational lithography processes (contact printing, basic resist chemistry, mask fabrication), see [Core Fab Processes](../photolithography/fab-processes.md) and [Resists & Masks](../photolithography/resists-masks.md).
 
-### Lithography Wavelength Generations
+## Lithography Wavelength Generations
 
 Each wavelength generation enabled approximately one decade of feature size scaling before reaching its physical resolution limit. The progression from 436 nm to 13.5 nm represents a 32× reduction in wavelength and a corresponding improvement in achievable resolution.
 
@@ -39,7 +38,7 @@ The ArF immersion generation has been the most productive in semiconductor histo
 - Each new wavelength generation (436→365→248→193→13.5 nm) required 10-15 years and $1-5B to develop
 - 157 nm F₂ laser was abandoned after $2B investment — CaF₂ birefringence was an unsolvable materials problem at the time
 
-### Projection Stepper and Scanner Design
+## Projection Stepper and Scanner Design
 
 A projection stepper exposes one field at a time and steps across the wafer. A scanner adds continuous synchronized motion during exposure, enabling larger field sizes with smaller optical elements. Modern scanners weigh 50-100 tonnes and position wafers with nanometer precision at 500-700 mm/s scan speed.
 
@@ -63,7 +62,7 @@ A projection stepper exposes one field at a time and steps across the wafer. A s
 - Scanner mass of 50-100 tonnes with 10-30 tonne granite foundation — requires specialized facility with vibration-isolated floor
 - Reticle stage must synchronize at <1 nm error while scanning at 2-3 m/s — extreme mechanical precision demand
 
-### Projection Optics
+## Projection Optics
 
 The projection lens is the heart of the scanner — a stack of 20-30 precision optical elements that images the mask pattern onto the wafer with atomic-level fidelity.
 
@@ -81,7 +80,7 @@ The projection lens is the heart of the scanner — a stack of 20-30 precision o
 - Each lens element requires 6-DOF piezoelectric adjustment — ~150 actuators must be simultaneously calibrated and maintained
 - EUV reflective system loses ~97% of source light through 10 Mo/Si mirrors (0.70^10 ≈ 2.8% transmission) — extreme source power required
 
-### Alignment and Overlay Control
+## Alignment and Overlay Control
 
 Overlay — the accuracy with which each patterned layer aligns to previously patterned layers — is a fundamental scaling limiter that must improve proportionally with feature size.
 
@@ -109,7 +108,7 @@ At 3 nm node, overlay requirement tightens to ~2 nm, demanding improved stage pr
 - Process-induced distortion from film stress and CMP consumes ±1.5 nm of the ~3.2 nm overlay budget at 7 nm node — nearly half the total
 - At 3 nm node, overlay requirement of ~2 nm leaves almost zero margin for stage, mask, and process errors simultaneously
 
-### Resolution Enhancement Techniques
+## Resolution Enhancement Techniques
 
 When feature sizes approach or fall below the exposure wavelength, diffraction distorts the printed image. RET compensates through mask modification and illumination optimization — these are not optional refinements but essential enablers for every node below ~130 nm.
 
@@ -136,7 +135,7 @@ When feature sizes approach or fall below the exposure wavelength, diffraction d
 - Full-chip OPC requires 50-500 CPU-hours per layer and generates 100 GB-1 TB of corrected mask data — extreme compute and storage cost
 - Freeform illumination (SMO) with 10,000+ CPU-hours per layer is practical only for the most critical layers (gate, M1, contact)
 
-### Computational Lithography
+## Computational Lithography
 
 Computational lithography uses mathematical simulation to predict and optimize printed patterns. It has become as important as the physical optics — without it, features below ~100 nm cannot be manufactured.
 
@@ -157,7 +156,7 @@ Computational lithography uses mathematical simulation to predict and optimize p
 - SMO requires 10,000+ CPU-hours per layer — only affordable for the most critical mask levels
 - ILT curvilinear patterns require multi-beam mask writers with 2-5× longer write time — increases mask cost by ~$50-100K per layer
 
-### Immersion Lithography
+## Immersion Lithography
 
 At 193 nm (ArF), the maximum dry NA is ~0.93, limited by the practical maximum lens half-angle. Ultrapure water (refractive index n = 1.44 at 193 nm) between final lens and wafer raises NA to 1.35 — exceeding the dry limit and enabling ~38 nm half-pitch single exposure.
 
@@ -177,7 +176,7 @@ At 193 nm (ArF), the maximum dry NA is ~0.93, limited by the practical maximum l
 - Water temperature must be controlled to ±0.01°C — refractive index changes ~1×10⁻⁴/°C cause focus drift
 - Higher-index fluids (n > 1.55) never achieved required purity and transparency simultaneously — NA ceiling at 1.35
 
-### EUV Lithography
+## EUV Lithography
 
 EUV at 13.5 nm is absorbed by all materials including gases, requiring reflective optics throughout. The most complex manufacturing machine ever built.
 
@@ -200,7 +199,7 @@ EUV at 13.5 nm is absorbed by all materials including gases, requiring reflectiv
 - Wall-plug efficiency ~0.01-0.02% — each watt of EUV at wafer requires 100-200 W of CO₂ laser input
 - 10-mirror system transmits only ~2.8% of source EUV — extreme source power needed to achieve usable dose at wafer
 
-### Multiple Patterning
+## Multiple Patterning
 
 When single-exposure resolution is insufficient, multiple patterning decomposes one layer into multiple mask exposures.
 
@@ -220,7 +219,7 @@ When single-exposure resolution is insufficient, multiple patterning decomposes 
 - LELE double patterning requires <3 nm overlay between two exposures — extremely demanding alignment precision
 - SAQP spacer patterns form closed loops requiring cut mask lithography — adds complexity for non-regular layouts
 
-### Mask Technology
+## Mask Technology
 
 Masks are master templates. A single mask defect prints on every die on every wafer — potentially millions of defective chips before detection.
 
@@ -245,7 +244,7 @@ Masks are master templates. A single mask defect prints on every die on every wa
 - E-beam mask writing takes 10-40 hours per mask — throughput bottleneck for mask fabrication
 - EUV mask blank ($50,000-100,000) with 40-50 Mo/Si bilayer pairs — single unrepairable defect wastes the entire blank
 
-### Process Window and CD Control
+## Process Window and CD Control
 
 **CD variation budget** (7 nm node):
 - Lithography contribution: ±1.5 nm (dose ±0.3%, focus ±10 nm, mask CD ±0.8 nm after MEF, lens aberrations)
@@ -265,7 +264,7 @@ Masks are master templates. A single mask defect prints on every die on every wa
 - At k₁ < 0.35, common process window shrinks dramatically — all feature types must simultaneously meet CD specs, which is geometrically constraining
 - EUV DOF of only 80-120 nm at NA = 0.33 leaves less topography margin than 193 nm immersion
 
-### Throughput and Cost of Ownership
+## Throughput and Cost of Ownership
 
 | Tool | Throughput (WPH) | Tool Cost | Cost/Wafer Pass |
 |------|-----------------|-----------|-----------------|
@@ -287,7 +286,7 @@ Masks are master templates. A single mask defect prints on every die on every wa
 - EUV scanner at $200-350M with $8-15/wafer cost — only economical for high-volume products at leading nodes
 - 20 critical layers double-patterned at 14 nm = 40 litho passes at $60-100/wafer — lithography dominates wafer cost
 
-### Photoresist Processing
+## Photoresist Processing
 
 **CAR (chemically amplified resist)**: PAG molecules (5-15 wt%) absorb DUV photon → generate strong acid → catalytically cleave 10-100 polymer protecting groups during PEB (90-130°C, 60-90 sec). Amplification factor ~50×. Required dose: 20-40 mJ/cm² for 193 nm ArF. Environmental sensitivity: airborne amines (NMP, ammonia) neutralize acid. Amine concentration in litho bay: <1 ppb. Chemical air filtration on all recirculation ducts.
 
@@ -301,7 +300,7 @@ Masks are master templates. A single mask defect prints on every die on every wa
 - CAR environmental sensitivity requires amine concentration <1 ppb in litho bay — chemical air filtration on all recirculation ducts
 - EUV shot noise at ~5-10 photons per 10 nm pixel causes 10-20% dose variation — fundamentally limits LER to 3-5 nm
 
-### Hazards & Safety
+## Hazards & Safety
 
 - **Excimer laser HV (15-30 kV)**: Lethal capacitor bank energy. Interlocked shields with automatic discharge. Wait ≥5× RC time constant. Trained HV personnel only. Arc-flash boundary markings per NFPA 70E.
 - **DUV radiation (248/193 nm)**: Severe corneal burns (photokeratitis) and skin erythema at low doses. Interlocked beam path enclosures. OD 6+ DUV-rated safety glasses during alignment and maintenance.
@@ -310,5 +309,5 @@ Masks are master templates. A single mask defect prints on every die on every wa
 - **EUV hazards**: Class 4 CO₂ laser at 10-30 kW — severe eye and skin hazard. Toxic tin vapor and SnH₄ (stannane). Flammable H₂ gas for debris mitigation (LEL 4% in air) — hydrogen detectors and forced ventilation in EUV source compartments.
 - **Scanner noise**: >85 dB during stage step-and-settle acceleration. Hearing protection mandatory in scanner aisles during production operation.
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*
+
+[← Back to VLSI Scaling](index.md)

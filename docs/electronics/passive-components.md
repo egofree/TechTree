@@ -8,7 +8,7 @@
 > **Outputs**: resistors, capacitors, inductors, transformers
 > **Critical**: Yes — every electronic circuit requires passive components for filtering, timing, impedance matching, and energy storage
 
-## 1. Overview
+## Overview
 
 Passive components — resistors, capacitors, and inductors — are the fundamental building blocks of every electronic circuit. Unlike active devices (transistors, diodes), passive components do not amplify signals. They control current flow, store energy, filter signals, set time constants, and provide impedance matching. A typical circuit board contains 5-20 passive components for every active device.
 
@@ -16,9 +16,9 @@ In the bootstrap chain, passive components bridge [electrical systems](electrica
 
 This document covers construction methods for each passive component type at three levels: hand-built (survival/bootstrap), workshop (small-batch production), and industrial (automated mass production). The emphasis is on materials, construction techniques, and achievable parameter ranges at each level.
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 - **Copper wire**: Drawn from [electrolytic copper](../chemistry/electrolysis.md), diameters 0.05-2.0 mm, purity >99.9%
 - **Carbon/graphite**: From [charcoal](../energy/charcoal.md) processing or mined graphite, purity >95%
 - **Ceramic dielectrics**: Titanium dioxide (TiO₂), barium titanate (BaTiO₃) from [ceramics](../ceramics/kilns.md) production
@@ -27,20 +27,20 @@ This document covers construction methods for each passive component type at thr
 - **Ferrite powders**: Iron oxide (Fe₂O₃) + manganese oxide (MnO) or zinc oxide (ZnO), sintered at 1000-1300°C
 - **Tin/lead solder**: From [metals smelting](../metals/iron-steel.md)
 
-### Tools
+## Tools
 - [Wire drawing dies](../machine-tools/machining.md) for consistent wire diameters
 - [Winding machines](../machine-tools/index.md) for coils and transformers
 - [Pottery kiln](../ceramics/index.md) or [electric furnace](../energy/electric-furnaces.md) for ceramic firing (1000-1400°C)
 - Resistance bridge or multimeter for measurement (see [Electrical Instruments](../measurement/electrical-instruments.md))
 
-### Knowledge
+## Knowledge
 - Ohm's law: V = IR; resistivity: R = ρL/A
 - Capacitance: C = ε₀εᵣA/d; energy storage: E = ½CV²
 - Inductance: L = μ₀μᵣN²A/l; energy storage: E = ½LI²
 - Reactance: X_C = 1/(2πfC); X_L = 2πfL
 - Impedance: Z = √(R² + (X_L - X_C)²)
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity (per 1000 resistors, carbon comp) | Source | Alternatives |
 |----------|-------------------------------------------|--------|-------------|
@@ -61,9 +61,9 @@ This document covers construction methods for each passive component type at thr
 | Ferrite core material | 5-20 kg | [Ceramics](../ceramics/index.md) sintering | Iron powder + binder (lower μ, higher loss) |
 | Insulating tape/ sleeving | 0.5-2.0 m² | [Polymers](../polymers/index.md) | Paper, cloth tape |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Resistor Construction
+## 4.1 Resistor Construction
 
 #### Carbon Composition Resistors
 
@@ -125,7 +125,7 @@ This document covers construction methods for each passive component type at thr
 - Limited power handling (⅛W to 1W) — thin film (50-200 nm) cannot dissipate high energy without damage
 - Sensitive to electrostatic discharge during handling — the thin film can be damaged by voltage spikes that a carbon composition resistor would absorb
 
-### 4.2 Capacitor Construction
+## 4.2 Capacitor Construction
 
 #### Ceramic Disc Capacitors
 
@@ -187,7 +187,7 @@ This document covers construction methods for each passive component type at thr
 - Metallization step requires vacuum deposition equipment (thermal evaporation of aluminum at 10⁻³ to 10⁻² mbar) — adds process complexity not needed for ceramic or electrolytic types
 - Upper capacitance limit (~100 μF) constrained by physical winding dimensions — cannot replace electrolytic capacitors for bulk energy storage
 
-### 4.3 Inductor Construction
+## 4.3 Inductor Construction
 
 1. Select core material: air core (no core, lowest inductance), iron powder (μᵣ = 10-100), ferrite (μᵣ = 500-15,000). Core geometry: rod, toroid, E-core, pot core.
 2. Calculate turns: N = √(L × l / (μ₀ × μᵣ × A)), where L = desired inductance, l = magnetic path length, A = core cross-section area.
@@ -208,9 +208,9 @@ This document covers construction methods for each passive component type at thr
 - Parasitic capacitance between winding layers limits high-frequency performance — self-resonant frequency (SRF) typically 1-100 MHz, above which the inductor behaves as a capacitor
 - Manual winding of toroidal cores is labor-intensive and inconsistent — production-scale toroid winding machines are specialized equipment that take significant effort to construct
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Resistor Parameters
+## Resistor Parameters
 
 | Parameter | Carbon Composition | Wire-Wound | Metal Film |
 |-----------|-------------------|------------|------------|
@@ -225,7 +225,7 @@ This document covers construction methods for each passive component type at thr
 | Stability (1000h at 70°C) | ±5-15% | ±0.1-1% | ±0.1-0.5% |
 | Operating temperature | -55 to 125°C | -55 to 250°C | -55 to 175°C |
 
-### Capacitor Parameters
+## Capacitor Parameters
 
 | Parameter | Ceramic (C0G) | Ceramic (X7R) | Electrolytic (Al) | Film (PP) |
 |-----------|--------------|----------------|-------------------|-----------|
@@ -239,7 +239,7 @@ This document covers construction methods for each passive component type at thr
 | Leakage current | — | — | 0.01 CV μA | — |
 | Lifetime (at rated temp) | Unlimited | Unlimited | 2000-15,000 hours | Unlimited |
 
-### Inductor Parameters
+## Inductor Parameters
 
 | Parameter | Air Core | Iron Powder | MnZn Ferrite | NiZn Ferrite |
 |-----------|----------|-------------|--------------|--------------|
@@ -251,26 +251,26 @@ This document covers construction methods for each passive component type at thr
 | Max operating temperature | Wire insulation limit | 200°C | 100-150°C (Curie) | 150-250°C |
 | Typical applications | RF tuning, filters | EMI suppression, DC-DC | Power transformers, inductors | RF transformers, antennas |
 
-## 6. Scaling Notes
+## Scaling Notes
 
-### From Workshop to Production
+## From Workshop to Production
 
 - **Bench scale**: Hand-wind coils, hand-mix carbon resistor compositions. Output: 10-50 components per day. Resistance tolerance ±20%. Suitable for prototyping and one-off circuits.
 - **Pilot scale**: Semi-automatic winding machines, hydraulic press for ceramic discs. Output: 100-1000 components per day. Tolerance improves to ±5-10%. Justifies dedicated resistor/capacitor production lines.
 - **Production scale**: Automated winding, tape-and-reel packaging, automated testing and sorting. Output: 10,000-1,000,000 components per day. Tolerance ±0.1-1%. Laser trimming for precision resistors achieves ±0.01%.
 
-### Scale Bottlenecks
+## Scale Bottlenecks
 
 - **Wire drawing**: Consistent magnet wire requires precision dies and annealing ovens. Wire diameter variation of ±5% causes inductance variation of ±10%.
 - **Ceramic sintering**: Kiln temperature uniformity (±5°C) directly affects dielectric constant and capacitor tolerance. Batch-to-batch variation dominates over within-batch variation.
 - **Ferrite processing**: Sintering atmosphere (air vs. nitrogen) and cooling rate through Curie temperature control permeability within a factor of 2-3×. Requires tight process control for repeatable inductors.
 - **Etching (electrolytic capacitors)**: Etch uniformity across the foil determines capacitance consistency. Foil-to-foil variation of ±20% is common.
 
-### Minimum Economic Scale
+## Minimum Economic Scale
 
 A workshop producing 500-1000 passive components per week justifies dedicated winding and pressing equipment. Below this, hand-wound coils and hand-mixed resistors suffice for circuit prototyping.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -286,7 +286,7 @@ A workshop producing 500-1000 passive components per week justifies dedicated wi
 | Ferrite core cracks during assembly | Mechanical stress from clamping | Use cushioning gasket; do not over-tighten clamps |
 | Resistor noise in audio circuits | Carbon composition type inherently noisy | Replace with metal film (lower noise by 10-100×) |
 
-## 8. Safety
+## Safety
 
 - **Electrolytic capacitor explosion risk**: Electrolytic capacitors contain volatile electrolyte. Reverse polarity, overvoltage, or excessive ripple current causes internal heating, gas generation, and pressure buildup. The safety vent is designed to release at 2-10 atm — but if the vent fails, the can ruptures violently, spraying hot electrolyte (corrosive, contains boric acid and organic solvents). Wear eye protection when working with large electrolytic capacitors (>100 μF, >50V). Discharge all capacitors through a 100-1000 Ω resistor before handling. Never apply AC voltage to a polarized capacitor.
 - **Ceramic dust inhalation**: Grinding or sanding fired ceramic capacitors and ferrite cores generates fine silica and metal oxide dust (BaTiO₃, Fe₂O₃, MnO). Use dust extraction and a particulate respirator (N95 or better). Barium compounds are toxic if ingested — wash hands after handling BaTiO₃ powder.
@@ -294,27 +294,27 @@ A workshop producing 500-1000 passive components per week justifies dedicated wi
 - **Lead solder fumes**: When tinning resistor or capacitor leads with Sn/Pb solder, lead oxide fumes and flux vapors are generated. Use local exhaust ventilation (fume extractor at 0.3-0.5 m/s capture velocity). Lead-free solder (SAC305, Sn/Cu) eliminates lead exposure but requires higher temperatures (217-227°C).
 - **Kiln/furnace hazards**: Sintering ceramics and ferrites requires 1000-1350°C kilns. Surface temperature of kiln exterior: 60-120°C — burn risk. Use thermal gloves and face shield when loading/unloading. Ensure adequate ventilation — organic binders burn off during firing, producing CO, CO₂, and volatile organic compounds.
 
-## 9. Quality Control
+## Quality Control
 
-### Resistor Testing
+## Resistor Testing
 - **Resistance measurement**: 4-wire (Kelvin) method for values <10 Ω. Bridge or DMM for 10 Ω to 10 MΩ. Accuracy requirement: 4× better than the tolerance being verified (e.g., measure ±5% resistors to ±1.25%).
 - **Temperature coefficient test**: Measure resistance at -55°C, +25°C, +125°C. Calculate TCR = (R₂-R₁)/(R₁ × (T₂-T₁)). Must be within specified ppm/°C range.
 - **Load life test**: Apply rated power at 70°C for 1000 hours. Resistance drift must remain within ±5% (carbon comp) or ±1% (film).
 - **Voltage coefficient test**: Measure at 10% and 100% rated voltage. Carbon composition: VCR <2000 ppm/V. Film: VCR <1 ppm/V.
 
-### Capacitor Testing
+## Capacitor Testing
 - **Capacitance and dissipation factor**: Measure at 1 kHz (1 MHz for small ceramics) using LCR meter or capacitance bridge. Tolerance must match specification.
 - **Insulation resistance**: Apply rated voltage DC for 60 seconds. Leakage current: I < 0.01 × C × V (μA). Equivalent: IR > 100/C (MΩ·μF product). Lower limit: 1000 MΩ for ceramic, 10,000 MΩ for film.
 - **Voltage proof (hi-pot)**: Apply 2-3× rated voltage for 5-60 seconds. No breakdown or flashover.
 - **ESR measurement**: At 100 kHz for electrolytic, compare to specification. ESR increase >50% from initial value indicates degradation.
 
-### Inductor Testing
+## Inductor Testing
 - **Inductance measurement**: LCR meter at operating frequency. Tolerance: typically ±5-10%.
 - **Saturation current test**: Increase DC bias current until inductance drops 10-30% from zero-bias value. Record I_sat. Must meet or exceed rated value.
 - **Core loss measurement**: Apply AC voltage at operating frequency. Measure core temperature rise. Calculate loss from temperature rise: P_core = m × C_p × ΔT/Δt.
 - **Hi-pot test**: 500-2000V between winding and core for 60 seconds. Leakage <1 mA.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 | Component Type | Alternative | Trade-off |
 |---------------|-------------|-----------|
@@ -327,17 +327,17 @@ A workshop producing 500-1000 passive components per week justifies dedicated wi
 | Ferrite core inductor | Iron powder core inductor | Iron powder has higher saturation (1.0-1.5T vs. 0.3-0.5T); ferrite has lower loss at high frequency |
 | Toroidal inductor | E-core inductor | Toroid has lower EMI radiation and higher inductance per turn; E-core is easier to wind and allows gap adjustment |
 
-### Historical Bootstrap Methods
+## Historical Bootstrap Methods
 - **Early resistors**: Pencil lead (carbon-clay composite, ~20-200 Ω depending on hardness). Length of nichrome wire wrapped on a form. Lamp black (soot) mixed with shellac.
 - **Early capacitors**: Leyden jar (glass jar with tin foil inside and outside, ~100-1000 pF at 10-50 kV). Mica sheets with tin foil layers. Paper soaked in beeswax with aluminum foil.
 - **Early inductors**: Coils wound on wooden or cardboard forms. Iron wire bundles as cores (high loss but available early). Crystal radio coils: 50-200 turns of wire on oatmeal box (air core, 100-500 μH).
 
-### Regional Adaptations
+## Regional Adaptations
 - Where barium is unavailable, use titanium dioxide (TiO₂, εᵣ ≈ 100) for ceramic capacitors instead of BaTiO₃ (εᵣ ≈ 1000-10000). Lower capacitance per volume but adequate for many applications.
 - Where petrochemical-derived polymer films are unavailable, use oil-impregnated paper as capacitor dielectric. Voltage rating and reliability are lower, but functional.
 - Where nickel-chromium alloy is unavailable for resistance wire, use iron wire (ρ = 0.97 × 10⁻⁷ Ω·m, high TCR of +5000 ppm/°C) or constantan if copper-nickel alloy is available.
 
-## 11. References
+## References
 
 - **[Electronics Assembly](assembly.md)**: passive component mounting and soldering on PCBs
 - **[Electrical Systems](electrical-systems.md)**: power distribution using transformers and inductors
@@ -348,6 +348,6 @@ A workshop producing 500-1000 passive components per week justifies dedicated wi
 - **[Polymers](../polymers/thermoplastics.md)**: insulation films and encapsulation materials
 - **[Charcoal](../energy/charcoal.md)**: carbon source for composition resistors
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*
+
+[← Back to Electronics](index.md)

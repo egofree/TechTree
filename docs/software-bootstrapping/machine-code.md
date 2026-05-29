@@ -16,17 +16,17 @@ The process demands intimate knowledge of the target processor's instruction set
 
 ## Prerequisites
 
-### Hardware
+## Hardware
 - **Working computer** with front-panel switches or hex keypad ([computing.electronic](../computing/electronic.md)): The machine must be operational with accessible memory. The front panel provides address switches (set the memory location), data switches (set the instruction word), and control buttons (deposit, examine, step, run).
 - **Memory** (at least 256 bytes, ideally 1-4 KB): Enough to hold a useful program. Early machines had 1-4 KB of magnetic core memory.
 - **Paper tape reader/punch** or **magnetic storage** ([computing.data-storage](../computing/data-storage.md)): For saving and loading programs once entered. Without storage, programs are lost on power-off.
 
-### Knowledge
+## Knowledge
 - **ISA reference card**: The complete instruction set listing — every opcode, every addressing mode, every register encoding, every status flag. Typically a single photocopied or handwritten sheet.
 - **Binary/hex/octal arithmetic**: Fluency in number base conversion. Most front panels display in octal (3 bits per digit) or hexadecimal (4 bits per digit).
 - **Memory map**: Knowledge of which memory addresses are usable for programs, which are reserved for I/O devices, and where the processor starts executing on power-up (the reset vector).
 
-### Infrastructure
+## Infrastructure
 - **Paper and pencil**: For writing out programs in binary/hex before toggling them in. Crossed-out and rewritten listings are the norm.
 - **Reference documentation**: ISA manual, I/O device addresses, any existing subroutine libraries.
 - **Patience**: Entering a 256-byte program takes 30-60 minutes via toggle switches. One error means starting over or finding and correcting the wrong bit.
@@ -44,7 +44,7 @@ The process demands intimate knowledge of the target processor's instruction set
 
 ## Process Description
 
-### Step 1: Write the Program on Paper
+## Step 1: Write the Program on Paper
 
 Write every instruction as a binary, octal, or hex value alongside its memory address. Use a two-column format: address on the left, instruction word on the right.
 
@@ -59,7 +59,7 @@ Addr    Hex     Meaning
 
 Calculate all branch target addresses by hand. Count bytes for each instruction (variable-length instruction sets like x86 require particular care). Double-check every address. A single off-by-one error in a branch target sends execution into the middle of a data word or another instruction.
 
-### Step 2: Toggle the Program into Memory
+## Step 2: Toggle the Program into Memory
 
 1. Set the address switches on the front panel to the first address (0000h).
 2. Press EXAMINE to read the current memory contents at that address.
@@ -70,11 +70,11 @@ Calculate all branch target addresses by hand. Count bytes for each instruction 
 
 **Typical speed**: 30-60 seconds per instruction byte for an experienced operator. A 256-byte program takes 30-60 minutes.
 
-### Step 3: Verify the Program
+## Step 3: Verify the Program
 
 After entering all bytes, re-read each address and compare to the paper listing. Press EXAMINE at address 0000h, verify the displayed data matches the listing, then EXAMINE NEXT through the entire program. Correct any discrepancies by setting the correct data switches and pressing DEPOSIT.
 
-### Step 4: Execute and Debug
+## Step 4: Execute and Debug
 
 Press RUN (or set the program counter to the start address and press RUN). Observe the results via front-panel indicator lights (data bus, address bus, status LEDs) or by examining memory locations where results should appear.
 
@@ -87,11 +87,11 @@ If the program does not work:
 6. Correct errors by depositing corrected bytes.
 7. Reset the program counter and run again.
 
-### Step 5: Save to Paper Tape
+## Step 5: Save to Paper Tape
 
 Once the program works, punch it to paper tape for permanent storage. The punch records each byte as a row of holes on the tape. Label the tape with the program name, start address, entry point, and date.
 
-### Bootstrap Loader
+## Bootstrap Loader
 
 The most important machine code program is the **bootstrap loader** — a tiny program (typically 16-64 bytes) that reads a larger program from paper tape into memory and jumps to its start address. The bootstrap loader is toggled in by hand every time the computer is powered on (before ROM monitors exist).
 
@@ -125,7 +125,7 @@ Once the bootstrap loader is toggled in and verified (24 bytes, ~10 minutes), it
 | Verification time | 10-30 sec/byte | Re-reading and comparing |
 | Power-on to running | 5-15 minutes | Toggle bootstrap, load program |
 
-### Instruction Encoding Examples (8-bit processor)
+## Instruction Encoding Examples (8-bit processor)
 
 | Instruction | Hex | Binary | Meaning |
 |-------------|-----|--------|---------|

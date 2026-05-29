@@ -43,7 +43,7 @@ The critical threshold for the first practical steam engine: precision-bored cyl
 | Feed pump | Cast iron body, brass valves | Plunger type, 5-10 L/min capacity | Maintains boiler water level |
 | Foundation | Stone or concrete | 3-5 m × 2-3 m × 1 m deep block | Engine + boiler weigh 8-15 tonnes total |
 
-### Steam Engines
+## Steam Engines
 
 **Strengths** (applies to all steam engines):
 - First mechanical power source independent of geography — works anywhere with fuel and water
@@ -73,20 +73,20 @@ The critical threshold for the first practical steam engine: precision-bored cyl
 - **Boiler**: Higher pressure tolerated — 0.5-2 bar gauge. Still low pressure by modern standards. Lancashire or Cornish boiler design (fire tubes through water jacket).
 - **Performance**: 10-100+ HP. Efficiency ~3-5% (5x improvement over Newcomen). Enables factory power, not just mine pumping.
 
-### Compound Engines
+## Compound Engines
 
 Single-expansion engines waste most of the steam's energy — exhaust steam still carries significant pressure. Compound engines extract work in stages:
 - **Double-expansion**: High-pressure cylinder receives boiler steam, exhausts into a larger low-pressure cylinder. The larger cylinder captures remaining energy at lower pressure. ~30% efficiency gain over single-expansion.
 - **Triple-expansion**: Three cylinders of increasing diameter (HP → IP → LP). The final LP cylinder may be 3-4x the diameter of the HP cylinder. Typical efficiency ~8-12%. Standard for marine engines from ~1880 onward.
 - **Why it works**: Steam expands as pressure drops. Each successive cylinder has larger volume to accommodate the expanded steam while maintaining useful piston force.
 
-### High-Pressure Engines
+## High-Pressure Engines
 
 - **Operating pressure**: 5-15 bar (vs. 0.5-2 bar for early Watt engines). Requires better boilers, stronger cylinders, and reliable safety valves.
 - **Benefits**: Smaller cylinder for same power, higher efficiency (~10-15%), lighter weight (enables locomotives and steam vehicles).
 - **Challenges**: Boiler explosions are catastrophic. Requires rigorous riveting/welding, pressure testing at 1.5x operating pressure, fusible plugs, and reliable safety valves.
 
-### Boilers
+## Boilers
 
 **[Fire-tube boilers](../glossary/fire-tube-boilers.md)** (Cochran, Lancashire, Cornish):
 - Hot combustion gases pass through tubes surrounded by water. Large water volume = slow response but stores energy well. Maximum pressure ~10-15 bar (shell contains pressure — larger shell = thicker plate required).
@@ -104,7 +104,7 @@ Single-expansion engines waste most of the steam's energy — exhaust steam stil
 - **Safety**: Pressure relief valve (weighted lever type — adjust weight for set pressure). Water level gauge (glass sight glass). Blowdown valve (drain sediment). Fusible plug (lead core melts if water drops too low, dumps steam into firebox and extinguishes fire — last-resort safety).
 - **Feed water**: Must be clean. Sediment clogs tubes. Dissolved minerals cause scale (insulates tubes, causes overheating). Blowdown daily. Water treatment (lime softening) when available.
 
-### Steam Turbines
+## Steam Turbines
 
 Steam turbines replace reciprocating engines for power generation — no pistons, no crankshaft, just continuous rotary motion from expanding steam:
 - **Impulse turbine (De Laval)**: Steam expands through nozzles, high-velocity jet impinges on bucket-shaped blades. All pressure drop occurs in nozzles; blades rotate from impulse force only. Simple, single-stage, very high speed (10,000-30,000 RPM). Requires large reduction gearing for practical output speeds.
@@ -112,20 +112,20 @@ Steam turbines replace reciprocating engines for power generation — no pistons
 - **Impulse-reaction combination**: Modern practice uses impulse stages at the HP end (where pressure is highest, partial admission is efficient) and reaction stages in the LP stages (where steam volume is large, full admission is practical).
 - **Performance**: 50-500+ MW. Efficiency 30-40% (with superheat and condenser). Far exceeds reciprocating engines for electrical generation.
 
-### Governors & Speed Control
+## Governors & Speed Control
 
 - **[Centrifugal flyball governor](../glossary/centrifugal-flyball-governor.md)** (Watt): Two rotating balls on hinged arms spin with engine output shaft. As speed increases, balls swing outward (centrifugal force), arms raise a sleeve that closes the steam throttle valve slightly. As speed decreases, balls drop, valve opens. Proportional control — simple, reliable, self-contained.
 - **Hartnell governor**: Spring-loaded version with smaller physical size. Spring preload adjusts speed setting. More precise than gravity-based flyball, suitable for higher speeds.
 - **Cutoff control**: Adjusting the point in the stroke where steam admission stops (cutoff) controls both speed and efficiency. Early cutoff = less steam used = more efficient but less power. Late cutoff = more power but wasteful.
 
-### Valve Gear
+## Valve Gear
 
 Valve gear controls the timing of steam admission and exhaust to the cylinder. It determines engine efficiency, reversibility, and power output:
 - **Stephenson valve gear**: Two eccentrics per cylinder (one for forward, one for reverse), linked by a removable radius rod. Simple, robust, good for locomotives. Heavy — two eccentrics per valve.
 - **Walschaerts valve gear**: Single eccentric combined with a return crank. Lighter than Stephenson, externally mounted (accessible for maintenance). Standard on most locomotives worldwide.
 - **Corliss valve gear**: Rotary valves (instead of slide valves) at each corner of the cylinder — separate admission and exhaust valves. Quick-opening, quick-closing action minimizes throttling losses. Allows independent cutoff adjustment for each end of the cylinder. Used on large stationary engines for maximum efficiency (~15-20% improvement over slide valve engines).
 
-### Boiler Construction (Detailed)
+## Boiler Construction (Detailed)
 
 **[Fire-tube boiler — Cornish / Lancashire type](../glossary/fire-tube-boiler-cornish-lancashire-type.md)** (workhorse of the Industrial Revolution):
 - **Shell**: Cylindrical steel (or wrought iron) shell, riveted construction. Typical dimensions: 2 m diameter × 6 m length for ~50 HP output. Steel plate 8-12 mm thick for operating pressures of 7-10 atm (bar gauge).
@@ -147,7 +147,7 @@ Valve gear controls the timing of steam admission and exhaust to the cylinder. I
 - **Disadvantage**: More complex construction (many tube joints, headers, drums). Higher initial cost. More sensitive to feed water quality (scale in narrow tubes causes rapid failure).
 - **Use case**: Power generation, marine propulsion — anywhere high-pressure superheated steam is needed.
 
-### Steam Engine Types (Comparative)
+## Steam Engine Types (Comparative)
 
 | Type | Era | Pressure | HP | Efficiency | Key Feature |
 |------|-----|----------|----|-----------|-------------|
@@ -172,7 +172,7 @@ Valve gear controls the timing of steam admission and exhaust to the cylinder. I
 **[Triple expansion engine](../glossary/triple-expansion-engine.md)** (HP → IP → LP):
 - Three cylinders of increasing diameter. Steam expands through HP, then intermediate-pressure (IP), then LP cylinder. The LP cylinder may be 3-4× the diameter of the HP cylinder. ~10% thermal efficiency. 1000-5000 HP. Standard for marine propulsion from ~1880 until steam turbines replaced them. Condensing operation (exhaust to vacuum) further improves efficiency.
 
-### Operating Procedure
+## Operating Procedure
 
 **[Cold start](../glossary/cold-start.md)** (from ambient temperature to full operation):
 1. **Inspect**: Check water gauge, pressure gauge, safety valves (lift by hand to verify free movement). Verify blowdown valve is closed. Check fusible plug intact.
@@ -196,7 +196,7 @@ Valve gear controls the timing of steam admission and exhaust to the cylinder. I
 3. **Let cool naturally**: Never add cold water to a hot boiler (thermal shock can crack the shell or tubes). Let boiler cool to ambient over several hours (or overnight for large boilers).
 4. **Drain (if extended shutdown)**: Once cool, open blowdown to drain water. Dry internally to prevent rust. Oil interior surfaces for storage.
 
-### Efficiency Improvements
+## Efficiency Improvements
 
 Steam engines improved from ~1% thermal efficiency (Newcomen) to ~10% (triple expansion) through several key innovations:
 
@@ -207,7 +207,7 @@ Steam engines improved from ~1% thermal efficiency (Newcomen) to ~10% (triple ex
 - **Expansive working**: Admit steam for only part of the stroke (early cutoff). Let the trapped steam expand through the rest of the stroke. Uses less steam per stroke at the cost of lower mean pressure. Net efficiency gain of 20-40% depending on cutoff ratio. Requires accurate valve gear timing.
 - **Lagging (insulation)**: Wrap boiler, steam pipes, and cylinder with insulating material (asbestos historically — use mineral wool or ceramic fiber instead). Reduces radiation losses by 50-80%. Essential for any efficient installation.
 
-### Power Transmission
+## Power Transmission
 
 Steam engines produce rotary mechanical power. Transmitting that power to where it's needed requires:
 
@@ -226,7 +226,7 @@ Steam engines produce rotary mechanical power. Transmitting that power to where 
 - Cut gears (machine-cut teeth) are far superior to cast gears — smoother, quieter, longer-lasting. Requires machine tools stage.
 - Reduction ratios of 10:1 to 100:1 common. A 300 RPM engine driving a mine hoist drum at 10 RPM through 30:1 reduction gets 30× torque multiplication.
 
-### Safety
+## Safety
 
 - **Boiler explosions**: The primary lethal hazard. A boiler at 10 bar contains enough stored energy to level a building. Causes: low water (overheated shell loses strength), overpressure (blocked or tampered safety valves), corrosion (thin shell ruptures), stay bolt failure. **Prevention**: Two independent safety valves, daily water gauge verification, regular internal inspection for corrosion and cracking, hydraulic test at 1.5× working pressure annually. Never operate a boiler with known defects.
 - **Steam burns**: Steam at 100°C carries 5× more heat energy than water at 100°C (latent heat of vaporization). Steam at working pressure (180°C+) causes instantaneous third-degree burns on contact. Insulate all steam pipes. Never vent steam in occupied areas. Use valve caps and covers.
@@ -247,7 +247,7 @@ Steam engines produce rotary mechanical power. Transmitting that power to where 
 | Chimney smoking excessively (black smoke) | Insufficient air for combustion; overfed fire; wet or poor-quality fuel | Open ash pit dampers for more air; spread fire thinner — don't heap coal; use dry fuel; check chimney draft with manometer |
 | Uneven engine running (speed surging) | Governor hunting; inconsistent steam supply; water carryover from boiler | Adjust governor sensitivity (reduce gain); install steam dome or separator to dry steam; keep boiler water level below maximum mark to prevent carryover |
 
-### Key Deliverables
+## Key Deliverables
 
 - Reliable boilers (fire-tube for general industry, water-tube for power generation)
 - Stationary steam engines for factory power (line shaft drive)
@@ -274,6 +274,6 @@ Steam engines produce rotary mechanical power. Transmitting that power to where 
 - [Lubricants](../chemistry/lubricants.md) — cylinder oils and bearing lubrication
 - [Refractories](../chemistry/refractories.md) — boiler and furnace linings
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+
+[← Back to Energy](index.md)

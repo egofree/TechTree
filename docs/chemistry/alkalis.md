@@ -8,7 +8,7 @@
 > **Outputs**: soda_ash, caustic_soda, sodium_carbonate
 > **Critical**: Yes — soda ash (Na₂CO₃) and caustic soda (NaOH) are essential for glass manufacturing, soap production, paper pulping, and aluminum extraction. The Solvay process is one of the foundational chemical industries.
 
-### Alkali Production
+## Alkali Production
 
 **[Leblanc process](../glossary/leblanc-process.md)** (first synthetic soda ash):
 - **Step 1**: NaCl + H₂SO₄ → NaHSO₄ + HCl (salt cake furnace, 150-200°C, then 550-600°C for complete reaction to Na₂SO₄). HCl byproduct captured as hydrochloric acid.
@@ -57,7 +57,7 @@
 - The Solvay process precipitates NaHCO₃ before thermal decomposition. Divert this intermediate: NaCl + NH₃ + CO₂ + H₂O → NaHCO₃↓ + NH₄Cl. Filter, wash, dry at low temperature (<50°C to prevent decomposition). Food-grade NaHCO₃ requires additional purification.
 - **Thermal decomposition**: Heat NaHCO₃ to 80-100°C → Na₂CO₃ + CO₂ + H₂O. This is the route to soda ash from baking soda. Both directions are useful depending on which product is needed.
 
-### Solvay Process — Detailed Step-by-Step
+## Solvay Process — Detailed Step-by-Step
 
 The Solvay (ammonia-soda) process produces sodium carbonate (Na₂CO₃, soda ash) from salt (NaCl) and limestone (CaCO₃), with ammonia (NH₃) as a recyclable intermediate. It displaced the Leblanc process in the late 19th century due to lower cost and pollution:
 
@@ -103,7 +103,7 @@ The Solvay (ammonia-soda) process produces sodium carbonate (Na₂CO₃, soda as
 
 **Weaknesses (Solvay detailed)**: CaCl₂ waste (10 t per t Na₂CO₃) with limited market; NaCl conversion limited to 72-75% — remainder recycled but increases brine handling; carbonation tower temperature must be precisely controlled (15-20°C optimal); requires parallel lime kiln and ammonia still operations.
 
-### Leblanc Process — Detailed Steps
+## Leblanc Process — Detailed Steps
 
 The Leblanc process was the first industrial method for producing soda ash from salt (patented 1791). It is more polluting and less efficient than Solvay but requires no ammonia, making it potentially relevant for bootstrapping:
 
@@ -116,7 +116,7 @@ The Leblanc process was the first industrial method for producing soda ash from 
 
 **Weaknesses**: CaS waste (4 t per t Na₂CO₃) releases toxic H₂S when wet; multiple high-temperature furnace stages (150-1000°C); much higher energy consumption than Solvay; HCl emissions historically killed surrounding vegetation; completely displaced by Solvay where ammonia is available.
 
-### Causticization — Converting Soda Ash to Caustic Soda
+## Causticization — Converting Soda Ash to Caustic Soda
 
 Sodium hydroxide (NaOH, caustic soda) is produced from sodium carbonate by reaction with slaked lime:
 
@@ -132,7 +132,7 @@ Sodium hydroxide (NaOH, caustic soda) is produced from sodium carbonate by react
 
 **Weaknesses**: Equilibrium-limited to 85-92% conversion; high steam consumption for evaporation (2-3 t/t NaOH); produces 50% NaOH max in steel equipment — higher concentrations need nickel-clad vessels; CaCO₃ sludge handling adds operational complexity.
 
-### Potash from Wood Ashes — Pre-Industrial Alkali
+## Potash from Wood Ashes — Pre-Industrial Alkali
 
 Before synthetic alkalis, potash (K₂CO₃) was the primary alkali source for glassmaking, soap, and textile processing:
 
@@ -148,7 +148,7 @@ Before synthetic alkalis, potash (K₂CO₃) was the primary alkali source for g
 
 **Weaknesses**: Catastrophically land-intensive (1-2 t/ha, decades of forest regrowth); yield is only 5-10% of dry wood weight; cannot scale beyond artisanal production; deforestation is inevitable at scale; conifer ash gives much lower K₂CO₃ yield than hardwood.
 
-### Lime Chemistry Detail
+## Lime Chemistry Detail
 
 **Quicklime (CaO) production**: Limestone (CaCO₃) heated in a lime kiln to 900-1200°C. CaCO₃ → CaO + CO₂. The reaction is endothermic (ΔH = +178 kJ/mol) — requires substantial fuel. Shaft kiln (vertical, continuous): limestone fed at top, fuel (coke, gas, wood) burned in middle, quicklime drawn at bottom. Temperature gradient: top 400°C (preheat), middle 1100°C (calcination zone), bottom 100°C (cooling). Rotary kiln: inclined rotating cylinder 30-60 m long. Better heat transfer, higher throughput, but higher capital cost. Yield: 56 kg CaO per 100 kg CaCO₃ (theoretical — practical yield ~95%).
 
@@ -162,7 +162,7 @@ Before synthetic alkalis, potash (K₂CO₃) was the primary alkali source for g
 
 **Weaknesses (lime cycle)**: Calcination is strongly endothermic (+178 kJ/mol) — fuel-intensive; quicklime is hazardous (violent reaction with water, caustic burns); slaked lime has limited solubility (1.73 g/L at 20°C); kiln thermal efficiency only 50-70%; CO₂ emissions are intrinsic to the chemistry.
 
-### Ammonia Sources for Solvay
+## Ammonia Sources for Solvay
 
 The Solvay process requires ~1-2 kg NH₃ makeup per tonne Na₂CO₃. But the ammonia still must be continuously operated, requiring a steady supply:
 
@@ -170,7 +170,7 @@ The Solvay process requires ~1-2 kg NH₃ makeup per tonne Na₂CO₃. But the a
 2. **Haber-Bosch synthesis**: N₂ + 3H₂ → 2NH₃ at 400-500°C, 15-30 MPa. Provides pure, abundant NH₃. See [Ammonia Production](ammonia.md). The modern route.
 3. **Calcium cyanamide**: CaC₂ + N₂ → CaCN₂ + C. CaCN₂ + H₂O → CaCO₃ + 2NH₃. Used in early 20th century before Haber-Bosch scaled.
 
-### Environmental Impact
+## Environmental Impact
 
 **Leblanc pollution**: The Leblanc process was notorious. CaS waste (4 tonnes per tonne soda ash) released H₂S gas. HCl emissions killed vegetation around plants. The Alkali Act of 1863 (UK) forced producers to absorb HCl in water (creating a market for hydrochloric acid). This was the first modern environmental legislation.
 
@@ -178,7 +178,7 @@ The Solvay process requires ~1-2 kg NH₃ makeup per tonne Na₂CO₃. But the a
 
 **Electrolysis mercury pollution**: Mercury cell chlor-alkali plants lost Hg to waterways — caused Minamata disease. Largely phased out under Minamata Convention (2017). Membrane cells produce no mercury waste.
 
-### Bootstrap Sequence
+## Bootstrap Sequence
 
 1. **[Wood ash potash](../glossary/wood-ash-potash.md)** (Year 1-5): Burn hardwood, leach ash with water, evaporate to K₂CO₃. For glass and soft soap. Land-intensive, not scalable.
 2. **[Leblanc process](../glossary/leblanc-process.md)** (Year 10-20): Salt + H₂SO₄ → soda ash. Heavy pollution (HCl, CaS waste). Captures HCl for acid production. Provides both Na₂CO₃ and HCl.
@@ -186,7 +186,7 @@ The Solvay process requires ~1-2 kg NH₃ makeup per tonne Na₂CO₃. But the a
 4. **[Solvay process](../glossary/solvay-process.md)** (Year 20-35): Continuous, efficient, less waste. Requires ammonia (coke oven or Haber-Bosch). Displaces Leblanc.
 5. **[Electrolytic NaOH](../glossary/electrolytic-naoh.md)** (Year 25+): Chlor-alkali membrane cells produce NaOH + Cl₂ + H₂. Most efficient. See [Electrolysis](electrolysis.md).
 
-### Alkali Uses Summary
+## Alkali Uses Summary
 
 | Product | Chemical | Primary Uses |
 |---------|----------|-------------|
@@ -195,7 +195,7 @@ The Solvay process requires ~1-2 kg NH₃ makeup per tonne Na₂CO₃. But the a
 | Soda ash | Na₂CO₃ | Glass making, chemical feedstock, water softening, detergent builder |
 | Slaked lime | Ca(OH)₂ | Mortar and plaster (sets by CO₂ absorption), water treatment, ammonia recovery in Solvay |
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Caustic chemical burns**: NaOH and KOH solutions cause severe, deep-tissue chemical burns that may not be immediately painful (alkali numbs nerve endings). Concentrated solutions dissolve skin and eye tissue. Wear chemical splash goggles, rubber gloves, and aprons. Eye wash stations mandatory in alkali handling areas.
 - **Exothermic dissolution**: Dissolving NaOH or KOH in water releases significant heat. Solution can boil if added too quickly. Always add alkali to water slowly with stirring — never add water to solid alkali (violent spattering). Use heat-resistant containers.
@@ -206,7 +206,6 @@ The Solvay process requires ~1-2 kg NH₃ makeup per tonne Na₂CO₃. But the a
 
  ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
 
 ## Causticization Detail
 
@@ -246,7 +245,7 @@ The lime cycle (CaCO₃ → CaO → Ca(OH)₂ → CaCO₃) is central to alkali 
 
 **Textile processing**: Scouring: cotton fibers treated with 1-3% NaOH at 80-100°C to remove natural waxes, pectins, and impurities before dyeing. Mercerization: cotton fabric treated with 20-25% NaOH at 15-20°C under tension. The alkali swells the cotton fibers, converting cellulose I to cellulose II crystal structure, increasing dye uptake 20-30%, adding silk-like luster, and improving tensile strength 10-20%. The fabric must be held under tension during treatment and rinsing to prevent shrinkage.
 
-### Alkali Waste Management
+## Alkali Waste Management
 
 **Caustic soda waste**: Dilute NaOH rinse water and spent solutions must be neutralized with dilute hydrochloric acid to pH 6-9 before discharge to waterways. The neutralization reaction NaOH + HCl → NaCl + H₂O produces common salt, which is non-toxic at moderate concentrations but can cause freshwater salinity problems if discharged in large volumes.
 
@@ -270,6 +269,6 @@ The lime cycle (CaCO₃ → CaO → Ca(OH)₂ → CaCO₃) is central to alkali 
 - **[Acids](acids.md)**: Complementary acid-base chemistry
 - **[Soap](soap.md)**: NaOH in saponification
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+[← Back to Chemistry](index.md)

@@ -7,7 +7,7 @@
 > **Timeline**: Years 0-5
 > **Outputs**: stone_tools, wooden_tools, birch_tar, hafted_tools
 
-### Stone & Wood Tools
+## Stone & Wood Tools
 
 **Knapping (flint/obsidian/chert)**:
 - **Hard hammer percussion**: Round cobble hammerstone (quartzite, granite, 200-500 g) struck against core to remove large flakes. Produces crude blanks. Strike at the edge of the core at roughly 60 degrees, following the natural fracture plane of the stone. One solid blow removes more material than several tentative taps.
@@ -113,9 +113,8 @@
 - **Wooden gears**: Lantern gears use two parallel wooden discs connected by cylindrical wooden pegs (2-3 cm diameter) running between them. The pegs serve as gear teeth. Crown gears are a single disc with pegs protruding from one face. Both types appear in watermills and windmills for transferring rotary motion. Hardwood pegs (oak, ash) wear but are easy to replace. Gear ratios are set by the number of pegs: a 12-peg driver turning a 36-peg driven gear gives 3:1 reduction. Wooden gears run quietly and tolerate misalignment better than metal gears, but they have low load capacity and wear faster in dusty conditions. Oil or tallow lubrication extends peg life.
 - **Wood finishing**: Scrape surfaces smooth with a steel or stone scraper held at 80 degrees to the wood. Sand with progressively finer abrasives: coarse sandstone, then fine sandstone, then dried horsetail stems (natural emery). Rub with linseed oil or beeswax to seal the surface and slow moisture absorption. A well-finished wood surface resists rot and checking.
 
----
 
-### Basket Weaving
+## Basket Weaving
 
 **Materials preparation**:
 - **Willow**: Harvest one-year-old shoots (long, straight, flexible) in winter when sap is low. Soak in water for 3-5 days to restore flexibility before weaving. Split thicker rods lengthwise with a cleave for finer weft material.
@@ -143,9 +142,8 @@
 - **Water-tight containers**: pitch-sealed baskets. Melt pine pitch or birch tar, brush it over the interior surface of a tightly woven basket, and let it cool. The pitch fills gaps and makes the container hold water. Useful for storage and short-distance water transport.
 - **Cradle boards**: woven back-carriers for infants. Flexible willow or reed frame with a woven back, padded with soft plant fiber or animal hide. Keeps the baby secure and close to the caregiver's body during daily work.
 
----
 
-### Basic Pottery (Hand-Built)
+## Basic Pottery (Hand-Built)
 
 **Clay sourcing**:
 - Dig clay from riverbanks, lake shores, or exposed clay pits. Good clay is smooth, plastic, and free of organic debris. Test quality by rolling a coil about 5 cm long and 1 cm thick, then bending it around a finger. Good clay bends 90 degrees without cracking. If it cracks, it needs more aging or different processing. Remove rocks, roots, and debris by hand. Soak the clay in water for 24 hours, then knead it on a flat surface to remove air bubbles and achieve uniform consistency.
@@ -189,9 +187,8 @@
 
 **Cross-reference**: Full pottery detail, including wheel-thrown techniques and kiln firing, is in [Ceramics → Pottery](../ceramics/pottery.md).
 
----
 
-### Simple Machines
+## Simple Machines
 
 **Lever**:
 - A rigid beam resting on a fulcrum. Mechanical advantage equals the effort arm length divided by the load arm length. A crowbar 1.5 m long with the fulcrum placed 10 cm from the load gives a mechanical advantage of 14:1, meaning 7 kg of effort moves a 100 kg load. A hand spike, a simple 2 m pole slipped under a stone with a rock as fulcrum, lets one person lift a 500 kg stone with roughly 35 kg of downward effort. Levers are the foundation of most heavy construction in pre-industrial settings.
@@ -235,18 +232,16 @@
 - Rope under tension in block-and-tackle systems stores enormous energy — a rope failure releases that energy suddenly, creating a hazard
 - Wooden screws are difficult to cut accurately without metal taps and dies — thread quality varies, producing uneven pressure in screw presses
 
----
 
-### Related Capabilities
+## Related Capabilities
 
 - [Ceramics → Pottery](../ceramics/pottery.md) for wheel-thrown pottery, glazes, and kiln firing beyond pit firing
 - [Machine Tools](../machine-tools/index.md) for precision tools, lathes, and metalworking equipment
 - [Animals → Animal Materials](../animals/animal-materials.md) for leather, bone, and horn tool-making
 - [Chemistry → Charcoal & Tar](../energy/charcoal.md) for adhesives, sealants, and fuel processing
 
----
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Sharp tool injuries**: Stone and metal edges cause lacerations. Always cut away from body. Keep edges sharp (dull tools require more force and slip more often). Leather hand protection for chopping/splitting.
 - **Birch tar burns**: Birch tar production involves heating bark to 300-400°C. Hot tar causes severe burns because it sticks to skin and continues burning. Handle with long tools. Cool burns with water.
@@ -257,6 +252,6 @@
 - **Heavy lifting with simple machines**: Block and tackle systems under heavy load store enormous energy in the rope. A rope failure or knot slip releases that energy suddenly. Never stand under a suspended load. Inspect ropes for wear before each lift. Use splices rather than knots for critical loads (splices retain 80% strength vs 50-60% for most knots).
 - **Knapping cuts**: Obsidian and flint flakes are surgically sharp and easy to overlook in grass or dirt. Sweep the knapping area clean before and after work. Pick up all flakes and debris. A flake embedded in a bare foot can cause deep, slow-healing cuts. Wear foot protection if knapping on the ground.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Foundations](./index.md) • [All Domains](../index.md)*
+
+[← Back to Foundations](index.md)

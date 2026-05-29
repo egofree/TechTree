@@ -8,7 +8,7 @@
 > **Outputs**: crop_protection, pest_control_methods, beneficial_habitat
 > **Critical**: No — crop losses to pests are significant (10-40%) but rarely cause total civilization-level failure
 
-## 1. Overview
+## Overview
 
 Pest management is the practice of preventing, reducing, or controlling damage to crops caused by insects, pathogens, weeds, birds, and mammals. In a bootstrapping civilization without synthetic pesticides, pest management relies on biological knowledge, physical barriers, cultural practices, and targeted use of naturally occurring substances. The goal is not pest elimination — that is neither achievable nor desirable — but keeping pest populations below economic threshold levels where the cost of damage exceeds the cost of control.
 
@@ -18,7 +18,7 @@ Integrated Pest Management (IPM) integrates four categories of control: cultural
 
 Position in the dependency chain: pest management depends on [Foundations → Agriculture](../foundations/food-agriculture.md) (basic crop knowledge) and supports [Crop Rotation](crop-rotation.md) (rotation is itself a pest management strategy) and [Food Processing](../food-processing/index.md) (protected crops reach processing with less damage and contamination).
 
-## 2. Prerequisites
+## Prerequisites
 
 **Materials**:
 - Fiber cloth or netting for physical barriers (see [Textiles](../textiles/fibers.md))
@@ -44,9 +44,9 @@ Position in the dependency chain: pest management depends on [Foundations → Ag
 - [Compost system](soil-management.md) for healthy soil that produces vigorous, pest-resistant plants
 - Storage facilities with rodent-proofing and ventilation (see [Food Processing → Preservation](../food-processing/preservation.md))
 
-## 3. Bill of Materials
+## Bill of Materials
 
-### Companion Planting Border (100 m of Field Edge)
+## Companion Planting Border (100 m of Field Edge)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -56,7 +56,7 @@ Position in the dependency chain: pest management depends on [Foundations → Ag
 | Nasturtium seed | 30-60 g | [Seed Saving](seed-saving.md) | Other trap crop flowers |
 | Wooden stakes (for support) | 50-100 | [Tools → Woodworking](../foundations/tools-basic.md) | Bamboo poles |
 
-### Botanical Insecticide Spray (10 Liters)
+## Botanical Insecticide Spray (10 Liters)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -66,7 +66,7 @@ Position in the dependency chain: pest management depends on [Foundations → Ag
 | Container (clay or wood) | 10-20 L | [Ceramics](../ceramics/pottery.md) | Wooden bucket |
 | Fine cloth (for straining) | 0.5 m² | [Textiles](../textiles/fibers.md) | Layer of grass or sand filter |
 
-### Physical Barrier (Row Cover, 100 m of Row)
+## Physical Barrier (Row Cover, 100 m of Row)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -75,9 +75,9 @@ Position in the dependency chain: pest management depends on [Foundations → Ag
 | Stones or sandbags (to seal edges) | 100-200 | On-site | Earth from furrows |
 | Twine or wire (to secure) | 100-200 m | [Textiles](../textiles/fibers.md) | Willow withes |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Cultural Controls
+## 4.1 Cultural Controls
 
 Cultural controls modify the farming environment to make it less hospitable to pests. These are the first line of defense and require no additional materials.
 
@@ -97,7 +97,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 - Trap cropping sacrifices 5-10% of planted area and requires timely destruction of the trap crop
 - Sanitation removes beneficial insect habitat along with pest sheltering sites
 
-### 4.2 Physical Controls
+## 4.2 Physical Controls
 
 1. **Hand-picking**: For large, visible pests (caterpillars, beetles, slugs), hand-pick daily during peak activity (early morning for slugs, mid-morning for caterpillars). Drop into a bucket of soapy water. Effective for small plots (0.1-0.5 ha). Labor-intensive but requires zero materials.
 2. **Barriers — row covers**: Drape lightweight fabric or netting over wire hoops placed along crop rows. Bury or weigh down edges to exclude flying insects. Remove covers when plants flower (to allow pollination). Row covers reduce cabbage moth damage by 80-95%, carrot rust fly by 90%+.
@@ -115,7 +115,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 - Row covers must be removed at flowering for pollination, creating a vulnerability window
 - Physical barriers exclude beneficial insects along with pests, disrupting biological control
 
-### 4.3 Biological Controls
+## 4.3 Biological Controls
 
 1. **Encourage beneficial insects**: Plant nectar and pollen sources (umbellifers: dill, fennel, coriander; composites: yarrow, daisies) around field edges. Adult parasitic wasps and hoverflies feed on nectar; their larvae prey on or parasitize crop pests. A border planting 1-2 m wide around each field increases beneficial insect populations 2-5×.
 2. **Ladybug conservation**: Ladybugs (Coccinellidae) eat 50-100 aphids per day per adult. Avoid spraying broad-spectrum botanical insecticides when ladybugs are active. Provide overwintering habitat: piles of rocks, leaf litter at field edges, wooden shelters with bark.
@@ -133,7 +133,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 - Broad-spectrum botanical sprays (pyrethrum) kill beneficial insects along with pests, undermining the system
 - Predatory mites and parasitic wasps require specific habitat conditions (humidity, shelter) that may not exist in all field margins
 
-### 4.4 Botanical Insecticide Preparation and Application
+## 4.4 Botanical Insecticide Preparation and Application
 
 **Neem spray** (broad-spectrum, repels and disrupts insect growth):
 
@@ -170,9 +170,9 @@ Cultural controls modify the farming environment to make it less hospitable to p
 - Highly toxic to fish and aquatic invertebrates — cannot be used near waterways
 - UV degradation means short effective window — must be applied in late afternoon and repeated every 3-5 days
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Economic Threshold Levels (ETL) for Key Pests
+## Economic Threshold Levels (ETL) for Key Pests
 
 | Pest | Crop | ETL (pests per plant or per sample) | Damage at ETL | Control Action |
 |------|------|-------------------------------------|--------------|---------------|
@@ -185,7 +185,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 | Root-knot nematode | Tomato, carrot | 2-5 galls per root system | 10-30% yield loss | Marigold rotation, soil solarization |
 | Flea beetles | Brassicas, eggplant | 10-20% leaf area damage (seedlings) | Stunting, reduced vigor | Row covers, trap crop, neem spray |
 
-### Beneficial Insect Effectiveness
+## Beneficial Insect Effectiveness
 
 | Beneficial | Prey | Consumption Rate | Attractant Plants | Optimal Habitat |
 |-----------|------|-----------------|-------------------|----------------|
@@ -197,7 +197,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 | Ground beetle | Slugs, cutworms, root maggots | 5-15/day | Ground cover, leaf mulch | Stone walls, log piles |
 | Predatory mite (Phytoseiulus) | Spider mites | 5-10/day | — | Humid, protected foliage |
 
-### Companion Plant Spacing and Effectiveness
+## Companion Plant Spacing and Effectiveness
 
 | Companion Pair | Pest Targeted | Spacing | Reduction in Pest Damage |
 |---------------|--------------|---------|-------------------------|
@@ -209,7 +209,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 | Potato + horseradish | Colorado potato beetle | Horseradish at row ends | 20-30% reduction |
 | Corn + beans + squash | Multiple (Three Sisters) | Interplanted, 30-50 cm spacing | 20-40% overall reduction |
 
-### Trap Crop Effectiveness
+## Trap Crop Effectiveness
 
 | Main Crop | Trap Crop | Timing | Pests Trapped | % Pest Diverted from Main Crop |
 |-----------|-----------|--------|--------------|-------------------------------|
@@ -219,7 +219,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 | Beans | Alfalfa | Plant in strips | Lygus bug | 40-60% |
 | Fruit trees | Zinnias | Plant at orchard edges | Japanese beetle | 50-70% |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 **Household garden (0.05-0.2 ha)**: Hand-picking, companion planting, and row covers are sufficient. Monitor plants daily during growing season. One person can manage all pest control for a household garden in 15-30 minutes per day. This is the scale where pest management is most effective — individual attention to each plant is possible.
 
@@ -231,7 +231,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 
 **Key bottleneck**: Monitoring labor. Effective pest management requires regular scouting (walking the fields, inspecting plants). At larger scales, this requires dedicated personnel. Without scouting, outbreaks are detected too late for cultural or biological controls, forcing reactive chemical treatment.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -244,7 +244,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 | Slug problem worsening | Excessive mulch providing habitat, or nocturnal irrigation keeping surface wet | Reduce mulch thickness near susceptible crops; irrigate in early morning so surface dries by night; set beer traps (shallow dishes of beer at soil level) |
 | Bird damage to fruit/seeds | No physical exclusion, or attractive crop near roosting sites | Net fruit trees with bird netting; use scare devices (reflective tape, predator silhouettes) moved every 3-5 days; plant sacrificial crop nearby |
 
-## 8. Safety
+## Safety
 
 - **Pyrethrum toxicity to fish**: Pyrethrum is highly toxic to fish and aquatic invertebrates. Do not spray near waterways, ponds, or streams. Pyrethrum degrades rapidly in sunlight (half-life 12 hours), so treated areas are safe for most organisms within 24 hours.
 - **Neem oil skin irritation**: Concentrated neem oil causes contact dermatitis in some individuals. Wear gloves when preparing neem extract. Diluted spray is generally safe for skin contact.
@@ -253,9 +253,9 @@ Cultural controls modify the farming environment to make it less hospitable to p
 - **Diatomaceous earth (DE) inhalation**: DE is abrasive silica. Breathing DE dust damages lung tissue. Wear a mask when applying. Use food-grade DE only (pool-grade DE is more hazardous). Apply with a duster, not by tossing handfuls.
 - **Botanical spray eye contact**: All botanical sprays (neem, pyrethrum, garlic-chili) cause eye irritation. Avoid spraying toward face. Rinse eyes with clean water for 15 minutes if contact occurs.
 
-## 9. Quality Control
+## Quality Control
 
-### Pest Monitoring Standards
+## Pest Monitoring Standards
 
 | Monitoring Tool | Placement Density | Frequency | What to Record | Action Threshold |
 |----------------|-------------------|-----------|----------------|-----------------|
@@ -265,7 +265,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 | Beat sheet (for cereals) | 10 samples per field | Weekly during stem extension | Aphids, beneficials per beat | 5-10 aphids per tiller or 50% tillers infested |
 | Trap crop inspection | Every 2-3 days when pests are active | Ongoing during pest window | Pest density on trap crop vs. main crop | Destroy trap crop when pest concentration exceeds 5× main crop |
 
-### Stored Product Protection Verification
+## Stored Product Protection Verification
 
 | Parameter | Target | Test Method |
 |-----------|--------|-------------|
@@ -275,9 +275,9 @@ Cultural controls modify the farming environment to make it less hospitable to p
 | Rodent contamination | No droppings in grain sample | Visual inspection of grain surface and container perimeter |
 | Diatomaceous earth coverage | 1 kg per tonne grain, evenly mixed | Dust visible on all grain surfaces when scooped |
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Pest Management Strategy by Scale
+## Pest Management Strategy by Scale
 
 | Scale | Primary Strategy | Secondary | Chemical Use |
 |-------|-----------------|-----------|-------------|
@@ -286,7 +286,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 | Village (10-50 ha) | Rotation, sanitation, beneficial corridors | Area-wide monitoring, poultry foraging | Botanicals for outbreaks only |
 | Regional (100+ ha) | Landscape habitat management, crop diversification | Biological control releases, forecasting | Minimal; chemical as last resort |
 
-### Natural Pesticide Plants by Region
+## Natural Pesticide Plants by Region
 
 | Region | Plant | Active Compound | Target Pests | Preparation |
 |--------|-------|----------------|-------------|-------------|
@@ -299,7 +299,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 | Tropical worldwide | Tobacco | Nicotine | Aphids, thrips, caterpillars | Leaf soak (handle with care — toxic) |
 | Worldwide | Hot chili | Capsaicin | Mammals (deer, rabbits), some insects | Powdered or soaked in water |
 
-### Physical Barrier Options by Crop
+## Physical Barrier Options by Crop
 
 | Crop | Barrier Type | Installation Effort | Cost | Effectiveness | Notes |
 |------|-------------|--------------------|------|--------------|-------|
@@ -310,7 +310,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 | Stored grain | Sealed containers | Low | Low | 90-99% | Glass, clay, or metal with tight lids |
 | Root crops | Underground wire mesh | High | High | 70-90% | Prevents vole/mole damage |
 
-## 11. References
+## References
 
 - [Foundations → Agriculture & Food Production](../foundations/food-agriculture.md) — basic cultivation, harvest, and storage
 - [Agriculture → Crop Rotation](crop-rotation.md) — rotation as primary pest management strategy
@@ -322,6 +322,6 @@ Cultural controls modify the farming environment to make it less hospitable to p
 - [Chemistry → Alkalis](../chemistry/alkalis.md) — soap production for spray emulsifiers
 - [Plants → Edible Plants](../plants/edible-plants.md) — plant species with pest-repellent properties
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*
+
+[← Back to Agriculture](index.md)

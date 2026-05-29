@@ -39,7 +39,6 @@ The bootstrap sequence is self-improving: a simple clay-graphite crucible + char
 | Hand tools | Trowels, slicks, lifters, vent wire, draw spikes | 1 set | Basic foundry hand tools for mold finishing |
 | Safety equipment | Face shield, leather apron, foundry boots, heat gloves | Per worker | Non-negotiable — molten metal at 700-1400°C |
 
-## Overview
 
 The foundry is step zero of the machine tool bootstrap. Every machine tool starts as a sand-cast iron or aluminum casting — machine beds, column frames, bearing housings, gear blanks, pulleys, and slideway bases all begin as molten metal poured into shaped cavities in sand. Casting is the only practical method for producing complex three-dimensional metal parts before machining capability exists. Without casting, there are no machine tools; without machine tools, there is no precision industry.
 
@@ -85,7 +84,7 @@ The standard furnace for cast iron melting in the bootstrap sequence. A small, s
 
 Green sand casting is the workhorse method — "green" means the sand is moist (not dried), held together by clay binder. Accounts for >90% of all castings by weight.
 
-### Sand Preparation
+## Sand Preparation
 
 - **Sand**: Fine silica sand (60-120 mesh, 90-95% SiO₂). River sand works if clean and fine. Avoid sand with organic matter, clay lumps, or excessive fines.
 - **Binder**: Bentonite clay (8-12% by weight). Western bentonite (sodium) provides high green strength; southern bentonite (calcium) provides better flowability. If not available naturally, use any clay that provides adequate bond strength.
@@ -94,7 +93,7 @@ Green sand casting is the workhorse method — "green" means the sand is moist (
 - **Mixing**: Mull (knead) sand thoroughly — a muller is a heavy wheel that grinds clay onto each sand grain, coating them uniformly. Can be done by foot-treading for small batches. Mechanical muller for production.
 - **Test**: Squeeze sand in hand — should form a coherent cylinder that doesn't crumble when handled, but breaks cleanly when snapped. Breathe on the surface — it should hold the impression of your breath (moisture present but not wet).
 
-### Pattern Making
+## Pattern Making
 
 The pattern is the master shape that creates the cavity in the sand. Pattern quality directly determines casting quality.
 
@@ -105,7 +104,7 @@ The pattern is the master shape that creates the cavity in the sand. Pattern qua
 - **Core prints**: If the part has internal passages (hollow sections), include locating surfaces (core prints) on the pattern where the sand core will be supported.
 - **Parting line**: Design pattern so it splits at the mold parting line (cope/drag boundary). One-piece patterns work for simple shapes; split patterns (two halves joined by dowel pins) for complex shapes.
 
-### Mold Making Process
+## Mold Making Process
 
 1. **[Place pattern](../glossary/place-pattern.md)** on the drag (bottom flask half) with the parting face down.
 2. **[Ram sand](../glossary/ram-sand.md)** around pattern — firm but not rock-hard. Use peen end of rammer near pattern (concentrates force), flat end elsewhere (uniform compaction). Add sand in layers, ram each layer.
@@ -123,7 +122,7 @@ The pattern is the master shape that creates the cavity in the sand. Pattern qua
 14. **Close mold**: Place cope back on drag. Weight down or clamp — the buoyant force of molten metal on a large core can lift the cope off (a "floating" or "runout" disaster).
 15. **[Pour](../glossary/pour.md)**.
 
-### Gating System Design
+## Gating System Design
 
 The gating system (sprue, runners, gates, and risers) controls how molten metal flows into the mold cavity. Poor gating causes most casting defects:
 
@@ -137,13 +136,13 @@ The gating system (sprue, runners, gates, and risers) controls how molten metal 
 
 For parts requiring finer detail and smoother surfaces than green sand can provide. Investment casting produces near-net-shape parts with minimal machining — critical for complex geometries like turbine blades, valve bodies, and instrument components.
 
-### Wax Pattern Making
+## Wax Pattern Making
 
 - **Injection dies**: Carve or machine aluminum dies. Inject molten wax (paraffin-microcrystalline blend, melts at 60-80°C) at 0.1-0.3 MPa. For simple shapes, hand-carve patterns directly from wax blocks.
 - **Pattern assembly (tree construction)**: Attach individual patterns to a central wax sprue using a heated spatula. Typical tree: 5-50 patterns depending on part size. Gate connections must be ~3-6 mm thick to feed metal without freezing off.
 - **Runner/gate design**: Bottom-gating minimizes turbulence. Gates should enter the thickest casting section. Total gate cross-sectional area ≥ sprue area to ensure complete fill.
 
-### Ceramic Shell Building
+## Ceramic Shell Building
 
 1. **Prime coat**: Dip pattern tree in fine slurry (colloidal silica binder + zircon flour, 200-325 mesh). Drain excess, stucco with fine zircon sand (80-120 mesh). Dry 2-4 hours at 40-60% relative humidity.
 2. **Backup coats**: 3-5 additional coats with coarser slurry (colloidal silica + molochite flour). Stucco with progressively coarser grain (30-80 mesh). Each coat dries 2-4 hours. Total shell: 6-12 mm thick (5-7 coats).
@@ -152,7 +151,7 @@ For parts requiring finer detail and smoother surfaces than green sand can provi
 5. **Pouring**: While shell is still hot (600-900°C), pour molten metal. Preheated shell prevents premature freezing and thermal shock cracking. Pour steadily, keep sprue full.
 6. **Shell removal and finishing**: Once cooled, break ceramic shell with hammer or vibratory knock-off. Cut parts from tree with abrasive wheel. Grind gate stubs flush. Sandblast or machine critical surfaces as needed.
 
-### Applications
+## Applications
 
 - **Turbine blades**: Complex internal cooling passages produced by a ceramic core inside the investment shell
 - **Valve bodies**: Smooth internal passages, no parting line flash
@@ -176,7 +175,7 @@ For parts requiring finer detail and smoother surfaces than green sand can provi
 
 Casting defects are the primary yield loss in foundry work. Identifying and correcting them is essential — a foundry that cannot consistently produce sound castings cannot support machine tool production.
 
-### Common Defects
+## Common Defects
 
 - **Gas porosity**: Round, scattered bubbles from dissolved gas (hydrogen in aluminum, nitrogen in iron) or moisture in sand/mold. Fix: degas aluminum melts with chlorine or nitrogen purge, dry molds thoroughly, control sand moisture to 3-6%. Gas porosity appears as bright, rounded pits on fracture surfaces.
 - **Shrinkage porosity**: Irregular angular voids in thick sections where metal contracts without adequate feed metal. Fix: increase riser volume, use chills (metal inserts) to direct solidification toward risers, ensure continuous feed path from riser to thick section.
@@ -186,7 +185,7 @@ Casting defects are the primary yield loss in foundry work. Identifying and corr
 - **Sand adherence**: Metal penetrates into sand pores, producing a rough, sandy surface. Fix: use finer sand, apply mold wash (zircon flour slurry) to mold cavity surfaces, increase sand compaction.
 - **Blowholes**: Large gas cavities from mold reactions (moisture, binders, core gases). Fix: increase sand permeability (coarser sand), vent the mold (poke vent holes through cope sand to atmosphere), use clean, dry sand.
 
-### Inspection Methods
+## Inspection Methods
 
 - **Visual**: Check every casting for surface defects (cracks, sand inclusions, cold shuts, short pours). First line of defense.
 - **Dimensional**: Verify critical dimensions against pattern with calipers, gauges, and straight edges. Check for warpage and twist.
@@ -255,6 +254,6 @@ Shell molding produces castings with superior surface finish and tighter dimensi
 - **Advantages**: Dimensional accuracy ±0.15 mm (vs. ±0.5-1.0 mm for green sand). Surface finish 3-6 μm Ra (vs. 12-25 μm for green sand). Smooth shell cavity produces excellent detail reproduction. Shell sand is reclaimable by mechanical reclamation (grinding to break resin bonds, re-coating with fresh resin).
 - **Limitations**: Requires metal patterns (expensive, but durable for 50,000+ cycles). Phenolic resin requires petrochemical or coal-tar feedstock. Shell thickness limits casting weight — practical for parts under 20 kg. Best suited for medium-volume production of precision castings: small gears, valve bodies, compressor housings, and lever arms.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*
+
+[← Back to Machine Tools](index.md)

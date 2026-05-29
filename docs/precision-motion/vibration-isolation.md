@@ -11,7 +11,7 @@ Nanometer positioning (covered in [Nanometer Positioning](./nanometer-positionin
 
 ## Vibration Sources and Characteristics
 
-### Ground-Borne Vibration
+## Ground-Borne Vibration
 
 Vibration enters through the building foundation from external and internal sources:
 
@@ -25,7 +25,7 @@ Vibration enters through the building foundation from external and internal sour
 | Building resonances | 1-20 Hz | 0.1-2 μm | Structural modes excited by wind or machinery |
 | Acoustic noise | 20-20,000 Hz | Converted to vibration | Loud machinery, compressed air |
 
-### Vibration Specification: VC Curves
+## Vibration Specification: VC Curves
 
 The generic vibration criterion (VC) curves define acceptable floor vibration levels for various precision applications:
 
@@ -40,7 +40,7 @@ The generic vibration criterion (VC) curves define acceptable floor vibration le
 
 For wafer steppers and scanners (VC-D to VC-E), the floor vibration velocity must be below 3-6 μm/s RMS across 4-200 Hz. Most factory floors are 10-50 μm/s — isolation is mandatory.
 
-### Self-Generated Vibration
+## Self-Generated Vibration
 
 The precision equipment itself generates vibration during operation:
 
@@ -64,7 +64,7 @@ Passive isolation uses mechanical elements (springs, dampers, pneumatic air spri
 - Limited low-frequency isolation: cannot attenuate vibration below ~1 Hz
 - Settling time 2-5 seconds after disturbance — too slow for active wafer stage compensation
 
-### Pneumatic Air Spring Isolation
+## Pneumatic Air Spring Isolation
 
 The most common passive isolation for precision equipment. Three or four air springs (also called air isolators or pneumatic mounts) support the equipment on a rigid platform.
 
@@ -77,7 +77,7 @@ The most common passive isolation for precision equipment. Three or four air spr
 - **Leveling**: Automatic leveling valves maintain platform height within ±0.1 mm as load changes (wafer loading, stage motion). Three isolators define a plane; four isolators require individual leveling valves.
 - **Transmissibility at resonance**: 3-10× amplification at the natural frequency. This is the trade-off — low-frequency vibration near the natural frequency is amplified, not attenuated.
 
-### Transmissibility Curve
+## Transmissibility Curve
 
 ```
 Transmissibility (output/input)
@@ -99,7 +99,7 @@ At f_n: transmissibility = 3-10× (amplification).
 Above √2 × f_n: transmissibility < 1 (isolation begins).
 At 5× f_n: transmissibility ≈ 0.04 (96% isolation).
 
-### Mechanical Spring Isolation
+## Mechanical Spring Isolation
 
 Steel coil springs with viscous dampers provide an alternative to pneumatic isolation:
 
@@ -108,7 +108,7 @@ Steel coil springs with viscous dampers provide an alternative to pneumatic isol
 - **Disadvantages**: Higher natural frequency means less isolation at low frequencies. Steel springs transmit high-frequency vibration through internal resonance modes.
 - **Application**: Equipment in locations where compressed air is unavailable, or where maintenance-free operation is required.
 
-### Elastomeric (Rubber) Mounts
+## Elastomeric (Rubber) Mounts
 
 Simple rubber pads or molded mounts provide minimal isolation:
 
@@ -134,7 +134,7 @@ Active isolation adds sensors and actuators to the passive system, enabling bett
 2. **Narrow-band cancellation**: Target specific disturbance frequencies (e.g., 50 Hz from electrical mains).
 3. **Active leveling**: Maintain platform position without mechanical leveling valves.
 
-### Sensor-Actuator Architecture
+## Sensor-Actuator Architecture
 
 Each isolation axis uses a combination of:
 
@@ -148,7 +148,7 @@ Each isolation axis uses a combination of:
 - **Piezo actuators**: High stiffness, fast response, limited stroke (10-100 μm). Used for fine vibration cancellation.
 - **Pneumatic actuators**: Modulate air spring pressure via servo valves. High force, low bandwidth (< 10 Hz). Used for active leveling and very-low-frequency compensation.
 
-### Feedback Control Strategies
+## Feedback Control Strategies
 
 **Feedforward cancellation**: Floor vibration is measured by reference sensors on the floor. The controller predicts the vibration that will reach the payload and generates a canceling force. Works well for predictable, repetitive disturbances.
 
@@ -156,7 +156,7 @@ Each isolation axis uses a combination of:
 
 **Combined feedforward + feedback**: Best performance. Feedforward handles predictable floor vibration; feedback handles unpredictable disturbances and self-generated vibration.
 
-### Active Isolation Performance
+## Active Isolation Performance
 
 | Parameter | Passive Only | Passive + Active |
 |-----------|-------------|------------------|
@@ -171,7 +171,7 @@ Each isolation axis uses a combination of:
 
 ## Foundation and Installation Design
 
-### Isolation Pit Design
+## Isolation Pit Design
 
 For the best vibration performance, precision equipment is installed on a massive concrete block isolated from the building floor:
 
@@ -180,7 +180,7 @@ For the best vibration performance, precision equipment is installed on a massiv
 - **Center of gravity**: Equipment must be mounted with its center of gravity close to the block's center. Off-center loads create rocking modes.
 - **Inertia block material**: Reinforced concrete (density 2,400 kg/m³). For extreme performance, lead-filled concrete (5,000+ kg/m³) increases mass in a given volume.
 
-### Floor Vibration Assessment
+## Floor Vibration Assessment
 
 Before installing precision equipment, a vibration site survey is conducted:
 
@@ -190,7 +190,7 @@ Before installing precision equipment, a vibration site survey is conducted:
 4. **VC curve comparison**: Measured vibration is compared to the required VC criterion.
 5. **Remediation if needed**: If floor vibration exceeds the criterion, additional isolation (deeper foundation, active isolation upgrade, or relocation) is specified.
 
-### Environmental Vibration Control
+## Environmental Vibration Control
 
 Beyond the isolation system, the fab environment is designed to minimize vibration sources:
 
@@ -201,7 +201,7 @@ Beyond the isolation system, the fab environment is designed to minimize vibrati
 
 ## Vibration Measurement and Diagnostics
 
-### Accelerometer Specifications for Vibration Monitoring
+## Accelerometer Specifications for Vibration Monitoring
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
@@ -212,7 +212,7 @@ Beyond the isolation system, the fab environment is designed to minimize vibrati
 | Temperature range | -20 to +80°C | For fab environment |
 | Mounting | Stud-mounted or magnetic | Stud mounting for best frequency response |
 
-### Vibration Diagnostics
+## Vibration Diagnostics
 
 When vibration exceeds specification:
 
@@ -223,7 +223,7 @@ When vibration exceeds specification:
 
 ## Isolation for Specific Applications
 
-### Optical Table Isolation
+## Optical Table Isolation
 
 For laboratory-scale precision optics and metrology:
 
@@ -232,7 +232,7 @@ For laboratory-scale precision optics and metrology:
 - **Performance**: <10 nm vibration on table surface in typical lab environment.
 - **Application**: Interferometry, holography, laser-based measurement, small-scale wafer inspection.
 
-### Large Lithography Tool Isolation
+## Large Lithography Tool Isolation
 
 For production wafer steppers and scanners:
 
@@ -242,7 +242,7 @@ For production wafer steppers and scanners:
 - **Machine base mass**: 5,000-20,000 kg. Massive base provides inertia against stage reaction forces.
 - **Installation**: On isolated inertia block in fab, with 0.5-1 m thick concrete slab.
 
-### Electron Microscope Isolation
+## Electron Microscope Isolation
 
 For SEM/TEM requiring <1 nm vibration:
 
@@ -259,7 +259,7 @@ For SEM/TEM requiring <1 nm vibration:
 - **Active system failure**: If active isolation loses power, the system reverts to passive mode. Platform may oscillate briefly at the passive natural frequency. Equipment should be designed to tolerate this reversion.
 - **Earthquake design**: In seismic zones, isolation systems must include mechanical restraints (snubbers) that limit platform displacement during an earthquake to prevent the equipment from sliding off its mounts.
 
-## References
+## See Also
 
 - Nanometer positioning that requires vibration isolation: [Nanometer Positioning](./nanometer-positioning.md)
 - Wafer stage vibration sensitivity: [Wafer Stages & Scanner Systems](./wafer-stages.md)
@@ -267,13 +267,13 @@ For SEM/TEM requiring <1 nm vibration:
 - Pneumatic and hydraulic systems: [Gas Handling](../gas-handling/index.md)
 - Building and foundation design: [Construction](../construction/index.md)
 
-### See Also
+## See Also
 
 - [Nanometer Positioning](nanometer-positioning.md) — Actuation technologies
 - [Wafer Stages & Scanner Systems](wafer-stages.md) — Lithography stage systems
 - [Precision Encoders](precision-encoders.md) — Measurement feedback
 - [Precision Motion Control](./index.md) — Domain overview
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Precision Motion Control](./index.md) • [All Domains](../index.md)*
+
+[← Back to Precision Motion](index.md)

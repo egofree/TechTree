@@ -20,16 +20,16 @@ Development tools transform programming from an ordeal into a craft. Each tool a
 
 ## Prerequisites
 
-### Software
+## Software
 - **Working compiler** ([compilers](compilers.md)): Development tools are written in a high-level language. The compiler is needed to build them.
 - **Working assembler** ([assemblers](assemblers.md)): Some tools (debuggers in particular) need assembly-level access to processor state.
 - **Operating system** ([operating-systems](operating-systems.md)): Development tools run under an OS that provides file I/O, terminal I/O, and process control.
 
-### Hardware
+## Hardware
 - **CRT terminal**: A video display terminal (24 × 80 characters minimum) with keyboard. Essential for interactive editing. Teletype output is too slow for screen editing.
 - **Disk storage**: Source files, object files, and executables. Development generates many files — a typical project might have 50-200 source files, each 100-2,000 lines.
 
-### Knowledge
+## Knowledge
 - **Terminal I/O programming**: Screen addressing, character attributes, keyboard input handling.
 - **Data structures**: Buffer gap (editor), trees (build dependency graph), diffs (version control).
 
@@ -44,7 +44,7 @@ Development tools transform programming from an ordeal into a craft. Each tool a
 
 ## Process Description
 
-### Text Editor
+## Text Editor
 
 **Line editor (ed-style)** — the simplest form:
 - Operates on one line at a time. No screen display of the full file.
@@ -70,7 +70,7 @@ The editor stores the file as a single buffer with a gap at the cursor position:
 
 **Memory usage**: File size + gap size (typically 1-10 KB). Files larger than available memory require paging (load portions from disk as needed).
 
-### Debugger
+## Debugger
 
 A debugger allows the programmer to:
 - **Set breakpoints**: Mark an instruction address where execution should pause.
@@ -99,7 +99,7 @@ Flags: Z=1 N=0 H=1 C=0
 
 **Watchpoints**: Monitor a memory location and break when it changes. Implementation: check the watched locations after each single-step. Slow (10-100× slowdown) but invaluable for finding memory corruption bugs.
 
-### Build System
+## Build System
 
 A build system automates the compilation process for multi-file projects:
 
@@ -125,7 +125,7 @@ program: program.o utils.o
 
 **Implementation**: A basic make-like tool is 500-2,000 lines of code. It reads a configuration file, checks file timestamps, and executes shell commands.
 
-### Version Control
+## Version Control
 
 **Simple approach — numbered backups**: Before editing a file, copy `program.c` to `program.c.bak`. Before the next edit, copy to `program.c.bak.1`. Incremental, requires manual management.
 
@@ -174,7 +174,7 @@ program: program.o utils.o
 | Diff computation (1,000-line file) | 1-5 sec | LCS algorithm O(n²) |
 | Debugger slowdown (single-step) | 10-100× | Each instruction requires trap + register dump |
 
-### Editor Performance Comparison
+## Editor Performance Comparison
 
 | Editor Type | Memory | Start-up Time | Edit Operations/sec |
 |-------------|--------|--------------|---------------------|

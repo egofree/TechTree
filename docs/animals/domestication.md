@@ -38,7 +38,6 @@ Domestication is not a one-time event. It requires continuous daily management �
 | Shelter (3-sided shed) | Timber frame, thatch or shingle roof, 3–4 m² per cattle beast | 50–60 m² floor area | Separate areas for cattle, small ruminants, and poultry |
 | Water trough | Wood or stone, 100–200 L capacity | 2–3 units | Clean, fresh water daily; freeze-proof in winter |
 
-### Overview
 
 Animal domestication converts wild fauna into reliable, renewable sources of labor, food, fiber, and materials. Fifteen primary farmed species — eight mammalian livestock, seven poultry, plus insects — form the core of any pre-industrial animal husbandry system. Each fills a distinct niche in the settlement ecology, from traction power and milk production to waste conversion and pest control.
 
@@ -71,7 +70,7 @@ A comparison of the fifteen primary farmed species across the metrics that matte
 | Guinea Fowl | 1.2-1.6 | 26-28 (inc.) | 0.03-0.08 | 0.2-0.4 | Free range | 12-16 wk | [Guinea Fowl](poultry-guinea-fowl.md) |
 | Pigeons | 0.35-0.8 | 17 (inc.) | 0.03-0.05 | 0.05-0.1 | 0.2 (loft) | 26-30 days | [Pigeons](poultry-pigeons.md) |
 
-### Species Articles
+## Species Articles
 
 **[Poultry](poultry.md)** (overview: [Poultry Farming](poultry.md)): [Chickens](poultry-chickens.md) · [Coturnix Quail](poultry-coturnix.md) · [Ducks](poultry-ducks.md) · [Geese](poultry-geese.md) · [Turkeys](poultry-turkeys.md) · [Guinea Fowl](poultry-guinea-fowl.md) · [Pigeons & Squab](poultry-pigeons.md)
 
@@ -81,7 +80,7 @@ A comparison of the fifteen primary farmed species across the metrics that matte
 
 Several regionally critical species are not covered in dedicated articles because they require specific climate conditions unavailable to most settlements. Camels (*Camelus dromedarius* and *C. bactrianus*) thrive in arid regions, providing milk, meat, transport, and fiber. Water buffalo (*Bubalus bubalis*) are indispensable for rice paddy cultivation in tropical Asia. Yaks (*Bos grunniens*) provide all essentials at high altitude (3,000-5,000 m) on the Tibetan Plateau and Himalayan regions. Reindeer (*Rangifer tarandus*) sustain Arctic and sub-Arctic peoples with meat, milk, hides, and transport. These species are regionally critical but require specific climate conditions not available to most settlements.
 
-### Housing Requirements
+## Housing Requirements
 
 Shelter design varies by climate, but core principles hold everywhere: protection from wind and precipitation, adequate ventilation without drafts, dry bedding, and secure containment.
 
@@ -97,7 +96,7 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 - **Stone wall**: Dry-laid or mortared fieldstone, 1.0-1.2 m high, 0.5-0.6 m thick at base tapering to 0.3-0.4 m at top. Permanent, requires no maintenance, but labor-intensive to build. A single skilled waller builds 3-5 m of wall per day.
 - **Hedgerow**: Hawthorn, blackthorn, or osage orange planted in a double row 30-40 cm apart. Saplings spaced 20-30 cm within each row. Takes 5-8 years to form an impenetrable barrier, then requires annual trimming to maintain density. Provides windbreak, wildlife habitat, and occasional fruit or nuts.
 
-### Feed and Water
+## Feed and Water
 
 **Pasture carrying capacity**: Fertile lowland pasture supports 2-3 cattle or 10-15 sheep per hectare during the growing season. Hill pasture supports half that. Rotational grazing (move animals every 3-5 days to fresh paddock) increases utilization 20-30% compared to continuous grazing and reduces parasite loads.
 
@@ -111,7 +110,7 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 
 **Water**: Clean water is non-negotiable. Contaminated water spreads leptospirosis, giardiasis, and coccidiosis. Troughs or natural water sources must be accessible within 500 m of grazing. Flow rate from a spring or well should exceed peak demand (morning and evening drinking). A trough for 20 cattle needs to deliver 400 L/hour during peak drinking times. Freeze-proof troughs (wooden box with stones at the base that can be heated) or twice-daily bucket delivery in freezing weather. Snow is not an adequate water source; animals lose body heat melting it and intake is unreliable.
 
-### Breeding
+## Breeding
 
 **Selection criteria**: Choose breeding stock for conformation (sound legs, deep body, well-attached udder), temperament (docile animals are safer and more productive), and proven productivity (milk records, fleece weight, litter size). Cull animals that fail to meet thresholds. Maintain detailed records: birth dates, parentage, production metrics, health events. Ear notches or brand marks identify individuals when paper records are impractical.
 
@@ -125,7 +124,7 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 
 **Artificial insemination basics**: Collecting semen from a superior male and depositing it in the female reproductive tract allows wider distribution of desirable genetics without moving live animals. Requires knowledge of female estrus cycles (cattle cycle every 21 days, sheep every 16-17 days during breeding season, goats every 18-21 days, pigs every 21 days, mares every 21 days from spring through autumn). Semen can be stored cool for 2-4 days in simple containers; frozen storage requires liquid nitrogen infrastructure beyond stone-age capability.
 
-### Species Profiles
+## Species Profiles
 
 **Cattle (*Bos taurus*)**: Mature weight 400-800 kg depending on breed. Gestation 283 days (range 279-290). Dairy cows produce 10-20 L milk/day during a 305-day lactation, peaking at 25-35 L/day in the first 60 days post-calving. Dry period of 45-60 days before next calving is essential for udder health and fetal growth. Calves nurse colostrum (first milk, rich in antibodies, 7-9% fat vs. 3.5-4% in normal milk) within 6 hours of birth to acquire passive immunity. Wean at 6-8 months. Steers (castrated males) reach slaughter weight of 450-550 kg at 18-24 months on pasture plus grain finishing. Cattle convert feed at roughly 6:1 (kg feed dry matter per kg live weight gain), making them the least feed-efficient livestock but the most versatile — providing draft power, milk, leather, tallow, bone, and manure from a single species.
 
@@ -139,7 +138,7 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 
 **Poultry overview**: Chickens (*Gallus gallus domesticus*, 1.5-4.5 kg) produce 200-300 eggs/year from modern breeds. Ducks (*Anas platyrhynchos domesticus*, 2-5 kg) lay 150-250 eggs/year and forage aggressively on slugs, snails, and insects in wet areas. Geese (*Anser anser domesticus*, 4-10 kg) are aggressive grazers that mow grass, produce down, and serve as guard animals — their alarm calls carry 100+ m. Turkeys (*Meleagris gallopavo*, 4-15 kg) are efficient converters of grain and forage to meat. All poultry require grit (small stones 2-5 mm) for digestion in the gizzard, calcium supplementation (crushed oyster shell or bone) for eggshell formation, and protection from predators (foxes, hawks, weasels, raccoons). See the [Poultry Farming](poultry.md) article for detailed species-by-species management.
 
-### Young Stock Management
+## Young Stock Management
 
 **Colostrum and neonatal care**: All mammalian newborns must receive colostrum within 6 hours of birth. The gut closes to antibody absorption after 24 hours; failure to receive colostrum results in a 50-80% mortality rate in the first month. For orphaned or rejected neonates, bottle-feed warmed (38-39°C) colostrum from a stored supply (frozen or refrigerated from earlier births) at 10% of body weight in the first 24 hours, divided into 3-4 feedings.
 
@@ -149,7 +148,7 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 
 **Weaning**: Abrupt separation stresses young stock and dams. Gradual weaning (fence-line contact for 7 days where young and dam can see and smell but not nurse) reduces cortisol levels and weight loss. Post-weaning, monitor young stock daily for 2 weeks; weight loss exceeding 10% triggers investigation. Provide the highest-quality forage available to weanlings — their rumen or digestive system is still developing.
 
-### Seasonal Management Calendar
+## Seasonal Management Calendar
 
 **Spring (calving/lambing/kidding season)**: Move pregnant animals to clean, sheltered paddocks 2 weeks before expected births. Check ewes and does every 4 hours during lambing/kidding; cattle are lower-maintenance but check heifers (first-time mothers) frequently. Ensure colostrum supply or replacer is on hand. Vaccinate pregnant females for clostridial diseases 4-6 weeks before birth to pass immunity to offspring. Castrate and tail-dock lambs within the first week. Tag or notch all newborns for identification. Begin pasture turnout once grass is 10-15 cm tall; rotational graze to prevent over-grazing young growth. Shear sheep before lambing (pre-lamb shearing) or 4-6 weeks after, depending on climate. Start beehive inspections (see [Beekeeping](beekeeping.md)).
 
@@ -174,7 +173,7 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 | Abortion storm in sheep (multiple ewes aborting) | Toxoplasmosis (cat feces in feed); Campylobacter; listeriosis from spoiled silage | Keep cats away from feed stores; feed only well-fermented silage (pH <4.5); vaccinate breeding ewes for campylobacter and toxoplasmosis where available; isolate aborting ewes immediately |
 | Predation losses (lambs, kids, poultry) | Inadequate fencing; no guard animals; night exposure | Install guard dogs (2–3 per 100 sheep); house poultry in predator-proof coop at night; repair fence gaps; remove carrion that attracts predators |
 
-### Handling and Health
+## Handling and Health
 
 **Restraint techniques**: A well-constructed crush (narrow stall with head catch and side panels) is essential for cattle handling. Halter training (rope or leather headcollar) works for horses, donkeys, and halter-broken cattle. A leg rope or hobble restrains a cow's kick during milking or treatment. Sheep are controlled by sitting them on their hindquarters (the "turn" or "set") which calms them. Sheep crook (long pole with curved neck) catches individuals from a flock without chasing. Nose rings (copper or iron, 8-12 cm diameter) prevent bulls from pushing or charging. Pig boards (solid wooden panel 60 × 90 cm) shield handlers from charging sows.
 
@@ -190,7 +189,7 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 - **Brucellosis**: Abortion in late pregnancy, retained placenta, infertility. Transmissible to humans (undulant fever). Test breeding stock regularly.
 - **Avian influenza (fowl plague)**: Respiratory distress, swollen head, cyanotic comb and wattles, sudden high mortality in poultry. Wild waterfowl are reservoirs; keep domestic poultry separated from wild bird contact.
 
-### Record-Keeping
+## Record-Keeping
 
 **Individual identification**: Tag every breeding animal with a unique number. Ear tags (plastic or metal) are the simplest method — apply at birth or within the first week. Ear notches (using a standardized notch code: different positions on left and right ear encode digits) provide permanent identification that does not fall out. Brands (freeze-brand with copper-alginate paste at -40°C, or hot iron for extensive rangeland systems) mark ownership. Microchips require electronic readers and are unnecessary at the stone-age level.
 
@@ -200,7 +199,7 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 
 **Feed inventory**: Record hay and grain stores monthly. A 500 kg cow eating 12 kg hay/day consumes 1,440 kg over a 120-day winter. Know your total winter feed requirement (sum of all animals × daily need × winter days + 15% buffer) before autumn, and acquire or grow enough. Running out of feed in February is a catastrophe that record-keeping prevents.
 
-### Cross-Domain Links
+## Cross-Domain Links
 
 - **[Draft Power & Harnessing](draft-power.md)**: working oxen, horses, and donkeys for plowing, transport, and milling depends on domestication and training
 - **[Animal-Derived Materials](animal-materials.md)**: leather, tallow, wool, horn, bone, sinew, and hide glue all come from domesticated livestock
@@ -209,7 +208,7 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 - **[Food & Agriculture](../foundations/food-agriculture.md)**: manure sustains crop yields; meat, milk, and eggs are primary protein sources
 - **[Medicine](../health/medicine.md)**: disease diagnosis and treatment for both livestock and zoonotic transmission to humans
 
-### Grazing Systems
+## Grazing Systems
 
 **Rotational grazing**: Divide available pasture into 6-12 paddocks using temporary electric fencing or permanent fences. Graze each paddock for 3-5 days, then rotate to the next. Rest period allows regrowth: 20-30 days in spring (fast growth), 40-60 days in summer (slower growth). This system increases forage utilization by 20-30% compared to continuous grazing, reduces selective grazing (animals eat everything rather than only preferred species), and breaks parasite life cycles because most nematode larvae die within 60-90 days without a host on the pasture.
 
@@ -219,7 +218,7 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 
 **Dry lot and sacrifice paddocks**: In wet climates or during winter, keep animals on a well-drained lot (gravel or concrete pad, 15-25 m² per cattle beast) and bring feed to them rather than turning them onto saturated pasture where hoof damage destroys the sod. This sacrifice area preserves the main pasture for spring growth. Feed hay and silage in racks or bunks to reduce waste (floor feeding loses 25-40% to trampling and fouling; rack feeding loses 5-10%).
 
-### Safety
+## Safety
 
 **Zoonotic diseases**: Any disease that jumps from animals to humans is a zoonosis. The most significant in a livestock context: brucellosis (unpasteurized milk from infected cows or goats), ringworm (direct skin contact with infected animals), leptospirosis (urine-contaminated water), Q fever (birth fluids and manure aerosol), and rabies (bites from infected mammals). Pasteurize all milk (heat to 63°C for 30 minutes or 72°C for 15 seconds) to kill brucellosis organisms. Wear gloves when handling birth fluids or manure. Wash hands with soap after every contact with animals or their environment.
 
@@ -239,6 +238,6 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 
 **Predator protection**: Wolves, coyotes, foxes, big cats, and birds of prey all threaten livestock. Guard dogs (raised with the flock from puppyhood, 2-3 dogs per 100 head of sheep) are the most effective deterrent. Llamas and donkeys also guard sheep and goats against canids. Night housing in predator-proof enclosures (tight fencing, covered where hawks are a threat) reduces losses. Remove carrion promptly — it attracts predators. Electric fencing (one wire at 25 cm and one at 60 cm, 3,000-5,000 V pulse) deters most predators but requires wire and an energizer.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Animals](index.md)

@@ -11,7 +11,7 @@
 
 These processes represent the transition from baseline IC fabrication ([Core Fab Processes](../photolithography/fab-processes.md)) to sub-micron manufacturing. Each enables a capability impossible with diffusion doping, wet etching, or simple CVD alone. They are developed incrementally — ion implantation replaces diffusion first, then plasma etching replaces wet etching, then ALD and CMP enable multi-level metallization, and finally copper damascene replaces aluminum interconnects.
 
-### Ion Implantation
+## Ion Implantation
 
 Replaces thermal diffusion ([Core Fab Processes — Doping](../photolithography/fab-processes.md)) with precise, low-temperature doping control.
 
@@ -41,7 +41,7 @@ Replaces thermal diffusion ([Core Fab Processes — Doping](../photolithography/
 - Implantation amorphizes the crystal lattice — requires annealing step that partially redistributes dopants
 - Beam scanning of large 300 mm wafers is slow — high-current implanters process only 10-30 wafers/hour
 
-### Reactive Ion Etching (RIE) and Deep RIE (DRIE)
+## Reactive Ion Etching (RIE) and Deep RIE (DRIE)
 
 Replaces wet etching ([Core Fab Processes — Etching](../photolithography/fab-processes.md)) with anisotropic, high-fidelity pattern transfer.
 
@@ -69,7 +69,7 @@ Replaces wet etching ([Core Fab Processes — Etching](../photolithography/fab-p
 - Photoresist selectivity of only 5:1 to 50:1 limits etch depth per mask — deep etches require hard masks
 - Bosch DRIE scalloping (50-200 nm per cycle) degrades sidewall smoothness — problematic for optical MEMS
 
-### Atomic Layer Deposition (ALD)
+## Atomic Layer Deposition (ALD)
 
 Angstrom-level thickness control for ultra-thin conformal films. Unlike CVD ([Core Fab Processes — Deposition](../photolithography/fab-processes.md)), ALD is self-limiting — each cycle deposits exactly one atomic layer regardless of substrate geometry.
 
@@ -97,7 +97,7 @@ Angstrom-level thickness control for ultra-thin conformal films. Unlike CVD ([Co
 - 100 nm film requires ~1000 cycles (~1 hour) — far too slow for bulk films where CVD is preferred
 - Precursor chemistries (TMA, TDMAH, TiCl₄) are pyrophoric or corrosive — dedicated gas handling required
 
-### Chemical Mechanical Polishing (CMP)
+## Chemical Mechanical Polishing (CMP)
 
 Global planarization enabling multi-level metallization. Without CMP, topography accumulates with each deposited layer, making subsequent lithography impossible at sub-micron feature sizes.
 
@@ -126,7 +126,7 @@ Global planarization enabling multi-level metallization. Without CMP, topography
 - Slurry particles (30-100 nm) embed in wafer surface — require aggressive post-CMP brush scrubbing
 - Downforce at 2-5 psi can cause dishing (over-polishing of soft copper in wide features) and erosion
 
-### Copper Damascene Interconnects
+## Copper Damascene Interconnects
 
 Replaces aluminum metallization ([Core Fab Processes — Metallization](../photolithography/fab-processes.md)) with lower-resistance copper interconnects (ρ_Cu = 1.68 μΩ·cm vs ρ_Al = 2.65 μΩ·cm). Copper cannot be dry-etched with available chemistries, so a damascene (inlaid) process is used instead.
 
@@ -152,7 +152,7 @@ Replaces aluminum metallization ([Core Fab Processes — Metallization](../photo
 - Ta/TaN barrier layer (5-20 nm) consumes ~10-30% of trench cross-section at fine pitches, negating some of Cu's resistivity advantage
 - Porous low-k dielectrics (k ≈ 2.0-2.5) have poor mechanical strength — crack during CMP and packaging
 
-### High-End Solar Cells
+## High-End Solar Cells
 
 Advanced processes enable significant efficiency gains over baseline screen-printed solar cells.
 
@@ -181,7 +181,7 @@ Advanced processes enable significant efficiency gains over baseline screen-prin
 - Ni/Cu/Ag plated contacts require dedicated plating line and careful Cu contamination control — more complex than screen-printed Ag paste
 - Porous low-k dielectrics in PERC rear stacks introduce mechanical fragility during module lamination
 
-### Hazards & Safety
+## Hazards & Safety
 
 - **CMP slurry hazards**: Slurries combine fine abrasive particles (silica 30-50 nm, alumina 50-100 nm) with aggressive chemistry (KOH at pH 10-11, H₂O₂ oxidizer, KIO₃). Skin contact causes chemical burns and abrasive irritation; inhalation of dried slurry dust damages lungs. Wear chemical-resistant gloves, splash goggles, and apron during slurry handling and CMP operation. Slurry waste is hazardous — collect for treatment (neutralization + filtration) before disposal; do not drain.
 - **Copper contamination concerns**: Copper is a fast diffuser in silicon and SiO₂ — even trace contamination (ppb levels) poisons minority-carrier lifetime in devices, causing leakage and yield loss. Dedicated Cu processing areas must be physically separated from front-end (FEOL) process areas. Cu tools, wafer carriers, and cleaning equipment must never be shared with non-Cu processes. Implement copper cross-contamination monitoring (surface wipe tests, TXRF analysis) on all wafers entering FEOL zones.
@@ -189,7 +189,7 @@ Advanced processes enable significant efficiency gains over baseline screen-prin
 
 
 
-### Rapid Thermal Processing (RTP)
+## Rapid Thermal Processing (RTP)
 
 RTP replaces batch furnace processing for temperature-sensitive steps where precise ramp rates and short dwell times are critical. A single wafer is heated by an array of high-intensity halogen lamps (tungsten-halogen, 1-2 kW each, typically 100-300 lamps) to 600-1200°C in seconds, held for 1-120 seconds, then cooled rapidly.
 
@@ -212,7 +212,7 @@ RTP replaces batch furnace processing for temperature-sensitive steps where prec
 - Halogen lamp arrays (100-300 lamps) have non-uniform aging — requires frequent zonal recalibration to maintain ±2-5°C across 300 mm
 - Pyrometer accuracy depends on wafer emissivity — patterned wafers with varying film stacks cause ±5-10°C measurement error
 
-### Plasma-Enhanced CVD (PECVD)
+## Plasma-Enhanced CVD (PECVD)
 
 PECVD deposits dielectric and passivation films at temperatures 200-400°C — far below the 600-900°C required for thermal CVD or LPCVD — by using plasma energy instead of thermal energy to drive film-forming reactions. This enables deposition on wafers with aluminum or copper metallization already in place.
 
@@ -240,7 +240,7 @@ PECVD deposits dielectric and passivation films at temperatures 200-400°C — f
 - Plasma damage to underlying layers (ion bombardment at 100-500 eV) degrades gate oxide quality — PECVD cannot be used directly on thin gate dielectrics
 - Film stoichiometry is less pure than LPCVD — higher hydrogen content (10-25 at%) degrades electrical stability under bias temperature stress
 
-### Thin Film Stress Management
+## Thin Film Stress Management
 
 Every deposited film carries intrinsic stress (from the deposition process) and thermal stress (from CTE mismatch during cooling). Uncontrolled stress causes wafer bow, film cracking, delamination, and device parameter shifts.
 
@@ -259,7 +259,7 @@ Every deposited film carries intrinsic stress (from the deposition process) and 
 - Cumulative stress from 10+ deposited layers is difficult to predict — each new film changes the bow and affects subsequent lithography focus
 - Porous low-k dielectrics have low elastic modulus (~5-10 GPa vs 70 GPa for SiO₂) — vulnerable to cracking under tensile stress during CMP
 
-### Process Integration: 65 nm CMOS Flow
+## Process Integration: 65 nm CMOS Flow
 
 A representative 65 nm CMOS process flow shows how the individual unit processes combine into a complete manufacturing sequence. The full flow requires 35-45 mask layers and 400-600 individual process steps over 6-8 weeks of factory time.
 
@@ -297,5 +297,5 @@ A representative 65 nm CMOS process flow shows how the individual unit processes
 - Spike anneal at 1050-1080°C must limit junction diffusion to <2 nm — equipment failure during ramp destroys the entire wafer
 
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*
+
+[← Back to VLSI Scaling](index.md)

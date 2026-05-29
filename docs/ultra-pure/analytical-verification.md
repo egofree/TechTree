@@ -8,7 +8,6 @@
 > **Outputs**: contamination_data, purity_certification
 > **Tags**: materials=[chemicals], capability=[measurement], era=semiconductor
 
-## Overview
 
 You cannot produce what you cannot measure. Ultra-pure materials — 9N chemicals and 18.2 MΩ·cm water — require analytical instrumentation capable of detecting contaminants at parts-per-trillion (ppt) concentrations. One ppt corresponds to one gram of impurity in one million metric tons of material — roughly one grain of salt dissolved in an Olympic swimming pool.
 
@@ -43,14 +42,14 @@ ICP-MS is the workhorse instrument for trace metal analysis in ultra-pure materi
 - Sample contamination risk at ppt detection levels requires ISO Class 4 cleanroom preparation
 - Spectral interferences from polyatomic ions require collision/reaction cell technology or mathematical correction
 
-### Principle
+## Principle
 
 1. **Sample introduction**: Liquid sample is nebulized into an aerosol by a pneumatic nebulizer in a spray chamber. Fine droplets (1-3 μm) enter the plasma torch.
 2. **Ionization**: The aerosol enters an argon plasma at 6,000-10,000 K. At this temperature, all elements are atomized and ionized to +1 charge state. The plasma is sustained by RF induction coil at 27 or 40 MHz.
 3. **Mass separation**: Ions are extracted from the plasma through a series of cones (sampler cone and skimmer cone) into a high-vacuum mass spectrometer. A quadrupole mass filter separates ions by mass-to-charge ratio (m/z). Each element has a unique m/z (or set of m/z values for isotopes).
 4. **Detection**: Ions strike an electron multiplier detector. Counting rates are proportional to concentration. Detection limits: 0.01-10 ppt depending on element and matrix.
 
-### Equipment
+## Equipment
 
 **RF generator**: 27.12 MHz or 40.68 MHz, 1.0-1.6 kW output. Solid-state RF generators are preferred over older tube-based designs for stability.
 
@@ -64,7 +63,7 @@ ICP-MS is the workhorse instrument for trace metal analysis in ultra-pure materi
 
 **Vacuum system**: Two-stage: rotary vane pump (rough vacuum, ~1 Torr) + turbomolecular pump (high vacuum, 10⁻⁶ Torr). Interface region: ~2 Torr. Analyzer region: ~10⁻⁶ Torr.
 
-### Sample Preparation
+## Sample Preparation
 
 **Cleanroom environment**: All sample preparation must be performed in an ISO Class 4 (Class 10) cleanroom or better. Sample vials, pipettes, and reagents must be electronic-grade.
 
@@ -76,7 +75,7 @@ ICP-MS is the workhorse instrument for trace metal analysis in ultra-pure materi
 
 **Blanks**: Method blanks (reagents only, no sample) run with every batch of 10 samples. Blank subtraction corrects for background contamination from reagents and vials.
 
-### Calibration
+## Calibration
 
 **External calibration**: Prepare multi-element standard solutions from certified stock solutions (1,000 ppm single-element standards in 2-5% HNO₃). Serial dilution in electronic-grade 2% HNO₃ to create calibration curve points: 0 (blank), 0.1, 1, 10, 100 ppt (or appropriate range for elements of interest).
 
@@ -88,7 +87,7 @@ ICP-MS is the workhorse instrument for trace metal analysis in ultra-pure materi
 
 **Quality control samples**: Certified reference materials (CRMs) with known trace metal concentrations run at beginning, middle, and end of each batch. Recovery must be 85-115% for acceptance.
 
-### SEMI Standard Method
+## SEMI Standard Method
 
 SEMI C35 (Specifications and Guidelines for Hydrogen Fluoride) defines the required analytical methods and detection limits for electronic-grade HF. Similar SEMI standards exist for HCl (C36), HNO₃ (C37), H₂SO₄ (C38), H₂O₂ (C30), and NH₄OH (C39).
 
@@ -106,7 +105,7 @@ TOC analysis quantifies the total amount of dissolved organic carbon in UPW and 
 - UV lamp output degrades over 6-12 months affecting oxidation efficiency
 - Combustion method at 680-800°C requires catalyst and higher sample volume
 
-### UV-Persulfate Method (Standard for UPW)
+## UV-Persulfate Method (Standard for UPW)
 
 1. **Acidification**: Add phosphoric acid to sample, lower pH to 2-3.
 2. **Sparging**: Purge inorganic carbon (CO₂, HCO₃⁻, CO₃²⁻) with carrier gas (O₂ or N₂).
@@ -114,7 +113,7 @@ TOC analysis quantifies the total amount of dissolved organic carbon in UPW and 
 4. **Detection**: CO₂ is carried by gas stream to a non-dispersive infrared (NDIR) detector. CO₂ concentration is proportional to TOC.
 5. **Calibration**: Potassium hydrogen phthalate (KHP) standard solutions at 0, 5, 10, 50, 100 ppb TOC.
 
-### Combustion Method (for Chemicals)
+## Combustion Method (for Chemicals)
 
 For chemicals with higher organic content or complex matrices:
 1. Inject sample into a combustion tube at 680-800°C with platinum catalyst.
@@ -127,7 +126,7 @@ For chemicals with higher organic content or complex matrices:
 
 Ion chromatography separates and quantifies dissolved ionic species — anions and cations — at sub-ppb concentrations. Essential for monitoring UPW quality and detecting trace ionic contamination in electronic-grade chemicals.
 
-### Principle
+## Principle
 
 1. **Eluent**: A dilute alkaline solution (Na₂CO₃/NaHCO₃ for anions, methanesulfonic acid for cations) flows through the system at 0.5-2.0 mL/min.
 2. **Injection**: Sample loop (10-500 μL) injects sample into eluent stream.
@@ -135,7 +134,7 @@ Ion chromatography separates and quantifies dissolved ionic species — anions a
 4. **Suppression**: A suppressor membrane converts eluent ions to low-conductivity forms (e.g., Na⁺ → H⁺) while passing analyte ions. This dramatically improves signal-to-noise ratio.
 5. **Detection**: Conductivity detector measures the conductivity of the eluent stream. Each ion produces a peak at a characteristic retention time. Peak area is proportional to concentration.
 
-### Typical UPW IC Results
+## Typical UPW IC Results
 
 | Analyte | Detection Limit | SEMI F63 Limit | Typical UPW Value |
 |---------|----------------|----------------|-------------------|
@@ -157,20 +156,20 @@ Ion chromatography separates and quantifies dissolved ionic species — anions a
 
 Particles are the leading cause of yield loss in semiconductor manufacturing. Laser particle counters detect and size individual particles suspended in liquids.
 
-### Principle
+## Principle
 
 **Light scattering**: A laser diode (typically 650-780 nm) is focused into the sample stream through a sapphire window. When a particle passes through the beam, it scatters light in all directions. A photodetector collects scattered light at a fixed angle (typically 90°). The pulse amplitude is proportional to particle size.
 
 **Light extinction** (for larger particles): The particle blocks a portion of the laser beam. The decrease in transmitted light is proportional to the particle cross-sectional area. Used for particles >1 μm.
 
-### Configuration for UPW
+## Configuration for UPW
 
 - **Sample flow**: 10-100 mL/min through a precision flow cell
 - **Sensitivity**: 0.05 μm (50 nm) for state-of-the-art instruments
 - **Size channels**: 0.05, 0.1, 0.2, 0.5, 1.0, 2.0 μm (configurable)
 - **Sampling rate**: Continuous or periodic (e.g., 1 minute every 15 minutes)
 
-### Particle Sources and Control
+## Particle Sources and Control
 
 | Source | Typical Particle Size | Control Method |
 |--------|----------------------|----------------|
@@ -185,7 +184,7 @@ Particles are the leading cause of yield loss in semiconductor manufacturing. La
 
 Dissolved oxygen (DO) in UPW causes uncontrolled native oxide growth on silicon surfaces, which degrades gate oxide quality and uniformity.
 
-### Measurement Methods
+## Measurement Methods
 
 **Electrochemical (Clark-type)**: A gas-permeable membrane covers a gold cathode and silver anode in an electrolyte solution. Oxygen diffuses through the membrane and is reduced at the cathode. Current is proportional to oxygen concentration. Detection limit: ~1 ppb. Requires frequent membrane replacement and electrolyte replenishment.
 
@@ -195,7 +194,7 @@ Dissolved oxygen (DO) in UPW causes uncontrolled native oxide growth on silicon 
 
 Inline resistivity measurement is the primary continuous indicator of UPW ionic purity. Resistivity at 18.2 MΩ·cm at 25°C indicates total dissolved ionic solids below ~0.5 ppb.
 
-### Instrument
+## Instrument
 
 **Toroidal (electrodeless) conductivity cell**: An oscillating magnetic field induces a current in the water flowing through the toroid. The induced current is proportional to water conductivity (inverse of resistivity). No electrodes contact the water — no polarization, no fouling, no drift from electrode contamination.
 
@@ -203,7 +202,7 @@ Inline resistivity measurement is the primary continuous indicator of UPW ionic 
 
 ## Quality Assurance Framework
 
-### Incoming Chemical Inspection
+## Incoming Chemical Inspection
 
 Every batch of electronic-grade chemical must be tested before release to the fab:
 
@@ -213,7 +212,7 @@ Every batch of electronic-grade chemical must be tested before release to the fa
 4. **Concentration**: Titration or density measurement to verify stated concentration ±0.5%.
 5. **Certificate of Analysis (CoA)**: Manufacturer provides test results. Verify against SEMI specification.
 
-### Continuous UPW Monitoring
+## Continuous UPW Monitoring
 
 | Parameter | Frequency | Method | Alert Threshold |
 |-----------|-----------|--------|-----------------|
@@ -228,7 +227,7 @@ Every batch of electronic-grade chemical must be tested before release to the fa
 | Full IC panel | Monthly | Ion chromatography | Any anion/cation >0.1 ppb |
 | Full ICP-MS panel | Monthly | ICP-MS | Any metal >1 ppt |
 
-### Failure Response
+## Failure Response
 
 **Resistivity excursion**: Isolate affected distribution loop. Switch to backup train. Investigate mixed-bed exhaustion or RO degradation. Do not resume UPW delivery until resistivity recovers to 18.2 MΩ·cm.
 
@@ -263,6 +262,6 @@ Every batch of electronic-grade chemical must be tested before release to the fa
 - [Chemistry / Acids](../chemistry/acids.md) — Bulk acid production
 - [Optics](../optics/index.md) — Optical components for analytical instruments
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) | [Ultra-Pure Materials](./index.md) | [All Domains](../index.md)*
+
+[← Back to Ultra-Pure Materials](index.md)

@@ -152,7 +152,6 @@ Feed: preheated crude oil (350-380°C from tube-still furnace) enters as partial
 
  ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
 
 ## Column Design Parameters
 

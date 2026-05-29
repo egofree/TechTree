@@ -22,7 +22,7 @@ The history of explosives mirrors the history of industrial civilization. Black 
 
 ## Tier 1: Black Powder Era
 
-### Black Powder
+## Black Powder
 
 **Chemistry**: 75% KNO₃ (potassium nitrate), 15% charcoal, 10% sulfur. The three components serve distinct roles: nitrate provides oxygen for rapid combustion, charcoal is the fuel, sulfur lowers ignition temperature and increases burn rate.
 
@@ -79,11 +79,10 @@ Storage requires a dry, cool, well-ventilated magazine away from other structure
 - Sensitive to spark, friction, and static electricity during manufacture
 - Much less powerful than nitroglycerin-based explosives (1/5 the energy per unit mass of dynamite)
 
----
 
 ## Tier 2: Nitration Chemistry
 
-### Nitrocellulose (Guncotton)
+## Nitrocellulose (Guncotton)
 
 **Chemistry**: Cellulose (cotton linters or wood pulp) + nitric acid + sulfuric acid produces nitrocellulose (cellulose nitrate). Nitration substitutes -NO₂ groups onto cellulose hydroxyls. Degree of nitration determines properties:
 
@@ -137,9 +136,8 @@ Mixed acid (HNO₃ + H₂SO₄) causes severe chemical burns. Wear acid-resistan
 - Mixed acid handling is extremely hazardous
 - Long stabilization process (days of boiling) is labor and energy intensive
 
----
 
-### Nitroglycerin
+## Nitroglycerin
 
 **Chemistry**: Glycerol + mixed acid (HNO₃ + H₂SO₄) at 10-15°C. The nitration substitutes three nitro groups onto the glycerol molecule. Overall: C₃H₅(OH)₃ + 3HNO₃ → C₃H₅(ONO₂)₃ + 3H₂O.
 
@@ -194,9 +192,8 @@ Frozen NG (below 13°C) is even more sensitive than liquid. Crystal fractures fr
 - Requires dedicated remote manufacturing facility with blast shields and emergency dump
 - No practical standalone use; must be absorbed into a carrier (dynamite) or combined with nitrocellulose (double-base powder)
 
----
 
-### Dynamite
+## Dynamite
 
 **Chemistry**: Alfred Nobel, 1867, discovered that absorbing nitroglycerin into diatomaceous earth (kieselguhr) produces a stable, handleable solid. The diatomaceous earth acts as an inert absorbent that desensitizes the NG while preserving its explosive power.
 
@@ -248,9 +245,8 @@ Dynamite comes in several grades by NG content: 40% dynamite (lower power, less 
 - Being replaced by ANFO for most mining applications
 - Shorter storage life than TNT or ANFO due to NG exudation
 
----
 
-### Smokeless Powders
+## Smokeless Powders
 
 **Chemistry**: Smokeless powders are based on nitrocellulose, alone or combined with nitroglycerin. The gelatinized nitrocellulose burns progressively, with surface area controlling burn rate. Two main types:
 
@@ -310,11 +306,10 @@ Stabilizer (diphenylamine) content must be monitored. As the stabilizer is consu
 - Solvent recovery is essential for economics (ether is expensive and highly flammable)
 - Grain geometry must be precisely controlled for consistent ballistics
 
----
 
 ## Tier 3: Military & Industrial High Explosives
 
-### TNT (Trinitrotoluene)
+## TNT (Trinitrotoluene)
 
 **Chemistry**: Toluene nitrated in three stages with mixed acid (HNO₃ + H₂SO₄), progressively increasing acid strength and temperature. Overall: C₇H₈ + 3HNO₃ → C₇H₅N₃O₆ + 3H₂O. Three stages:
 
@@ -374,9 +369,8 @@ TNT is one of the safest high explosives to handle. It can be melted and poured 
 
 **Quality control**: Each batch of TNT must pass the melting point test (mp 80.2-80.8°C for acceptable material). Lower melting point indicates residual isomers that must be removed by additional sulfite washing. Acidity test: dissolve a sample in warm water and titrate to verify no residual acid (acidic TNT is unstable). Moisture content is measured by drying a weighed sample and reweighing (must be below 0.1%). For military-grade TNT, additional tests include gap test (sensitivity to initiation through an air gap), sand test (brisance measurement by crushing standard sand), and ballistic mortar test (relative power compared to standard TNT).
 
----
 
-### RDX (Cyclonite / Cyclotrimethylenetrinitramine)
+## RDX (Cyclonite / Cyclotrimethylenetrinitramine)
 
 **Chemistry**: Hexamine (hexamethylenetetramine) + nitric acid → RDX. Molecular formula C₃H₆N₆O₆. Also known as cyclonite, hexogen, T4. One of the most powerful conventional explosives, approximately 1.5× TNT by weight. Two main production routes:
 
@@ -449,9 +443,8 @@ RDX is toxic. Chronic exposure causes seizures, liver damage, and kidney damage.
 
 **Quality control**: RDX purity is verified by melting point (204°C with decomposition, so melting point is measured by capillary method with controlled heating rate). Acetone insolubles indicate contamination. Acidity test (pH of water extract must be neutral). Granulometry (particle size distribution) affects loading density and sensitivity. Military-grade RDX must meet minimum purity standards (typically >99% RDX by weight). The performance is verified by detonation velocity test and sensitivity tests (impact, friction).
 
----
 
-### ANFO (Ammonium Nitrate / Fuel Oil)
+## ANFO (Ammonium Nitrate / Fuel Oil)
 
 The most widely used industrial explosive worldwide. Cheap, safe, and effective for mining and quarrying.
 
@@ -508,11 +501,10 @@ Water-resistant versions (emulsions, water gels) use gelling agents and fuel pha
 
 **Quality control**: ANFO performance depends on fuel oil content (6% ± 0.5%). Too much oil produces CO and reduces energy; too little produces NO₂ and reduces energy. Verify oil content by solvent extraction (dissolve the oil from a weighed sample with hexane, evaporate, and weigh the residue). Prill density and porosity affect oil absorption and detonation sensitivity. Measure prill bulk density (should be 0.75-0.85 g/cm³ for porous prills). Detonation velocity test: fire a charge with timing probes at known spacing and measure the shockwave transit time. ANFO that detonates below 2,500 m/s is underperforming and may indicate poor mixing, wet prills, or insufficient confinement.
 
----
 
 ## Supporting Sections
 
-### Blasting Caps & Initiating Systems
+## Blasting Caps & Initiating Systems
 
 High explosives (dynamite, TNT, ANFO) cannot be initiated by flame or spark alone. They require a strong shockwave from a primary explosive, delivered by a blasting cap. The cap contains a small charge of primary explosive that detonates from a fuse or electric current, producing a shockwave sufficient to initiate the main charge.
 
@@ -549,9 +541,8 @@ Loading blasting caps is the most dangerous operation in the explosive manufactu
 
 **Explosive train design**: Every blast requires a chain of increasingly sensitive explosives, each initiated by the one before it. The typical train for an ANFO blast: electric current → bridge wire (hot wire in blasting cap) → primary charge (lead azide, 0.1-0.3 g) → base charge in cap (RDX or PETN, 0.5-1.0 g) → booster (Comp B or pentolite, 100-500 g) → main charge (ANFO, 50-500 kg). Each link in the chain amplifies the detonation energy. The blasting cap alone cannot initiate ANFO. The booster is the critical link: it generates enough detonation pressure (15-25 GPa) to shock the insensitive ANFO into stable detonation. Skipping the booster is the most common cause of ANFO misfires. For dynamite blasts, the booster is unnecessary: the blasting cap output directly initiates the dynamite cartridge. For TNT-filled munitions, a tetryl or RDX booster pellet bridges the gap between the cap and the main TNT charge. The explosive train must be designed with no weak links: every interface must have enough energy transfer to reliably initiate the next element.
 
----
 
-### Demolition Explosives
+## Demolition Explosives
 
 **Shaped charges (hollow charges)**: A cone or hemisphere of high explosive (Composition B or RDX/wax) with a metal liner (copper, steel, or molybdenum, 1-3 mm thick) on the cavity side. Upon detonation, the liner collapses and forms a high-velocity jet of metal plasma (tip velocity 7,000-10,000 m/s, tail 2,000-4,000 m/s) that penetrates armor steel to a depth of 4-8× the charge diameter. The stand-off distance (distance from charge base to target) is critical: optimum stand-off is 2-6× charge diameter. Used in military anti-tank warheads, oil well perforating guns (penetrate steel casing and rock formation), and industrial metal cutting. The jet formation is governed by the Birkhoff-McDougall theory: the liner material is accelerated to different velocities along its length, stretching into a thin, fast-moving jet followed by a slower-moving slug.
 
@@ -561,9 +552,8 @@ Loading blasting caps is the most dangerous operation in the explosive manufactu
 
 **Explosive hardening**: High explosives can work-harden austenitic manganese steel (Hadfield steel, used in crusher jaws and railroad frogs). A layer of explosive (usually sheet explosive) is placed directly on the surface and detonated. The shock wave plastically deforms the surface layer, increasing hardness from ~200 HB to ~400 HB. This is a specialized application, but useful for extending the life of rock-crushing equipment in mining operations. The same principle applies to explosive compaction of powder metallurgy preforms.
 
----
 
-### Detonation Physics
+## Detonation Physics
 
 **Detonation velocity**: Speed of the supersonic shockwave through the explosive. Higher velocity = more brisant (shattering) effect. Key comparison:
 
@@ -596,9 +586,8 @@ Loading blasting caps is the most dangerous operation in the explosive manufactu
 - **Impact sensitivity test**: a standard weight (2 kg) dropped from increasing heights onto a small sample (40 mg) of explosive between two steel surfaces. The height at which 50% of drops cause detonation is the impact sensitivity. Lead azide: 5-10 cm. Nitroglycerin: 10-15 cm. RDX: 30-40 cm. TNT: 100+ cm (very insensitive). ANFO: no detonation at maximum drop height (extremely insensitive).
 - **Gap test**: measures the minimum distance through which the shockwave from a donor charge will initiate an acceptor charge through an air or water gap. Higher gap sensitivity means the explosive is easier to initiate. ANFO has very low gap sensitivity (requires direct contact with booster). TNT has moderate gap sensitivity. Detonating cord has high gap sensitivity (can initiate through several cm of air).
 
----
 
-### Blasting Design Parameters
+## Blasting Design Parameters
 
 **Powder factor**: Mass of explosive per unit volume of rock broken (kg/m³) or per tonne of rock (kg/t). Typical values: hard granite quarrying 0.4-0.7 kg/m³ ANFO, limestone 0.2-0.4 kg/m³, coal stripping 0.1-0.3 kg/m³. Higher powder factor produces finer fragmentation but increases cost and vibration. Optimizing powder factor balances explosive cost against downstream processing (crusher throughput, loader productivity).
 
@@ -610,9 +599,8 @@ The burden must be correctly calculated for each blasting situation. Too much bu
 
 **Worked example**: A limestone quarry bench blast with the following parameters: bench height 12 m, borehole diameter 100 mm, burden 3.0 m, spacing 3.5 m, subdrilling 1.0 m, stemming 2.5 m, 3 rows × 5 holes per row = 15 holes total. ANFO at density 0.85 g/cm³. Charge length per hole = 12 m - 2.5 m stemming + 1.0 m subdrilling = 10.5 m. Charge volume per hole = π × (0.05)² × 10.5 = 0.0825 m³. Charge mass per hole = 0.0825 × 850 = 70 kg ANFO. Total charge = 15 × 70 = 1,050 kg. Rock volume broken = 3 rows × 5 holes × 3.0 m burden × 3.5 m spacing × 12 m height = 1,890 m³. Powder factor = 1,050 / 1,890 = 0.56 kg/m³ (within the 0.2-0.4 kg/m³ range for limestone, perhaps slightly high, indicating good fragmentation). Timing: 25 ms between holes in a row, 75 ms between rows. Maximum charge per delay = 70 kg (one hole per delay). Total blast duration = (5-1) × 25 + (3-1) × 75 = 100 + 150 = 250 ms.
 
----
 
-### Blasting Vibration and Air Overpressure
+## Blasting Vibration and Air Overpressure
 
 **Ground vibration**: Detonation generates seismic waves that propagate through rock and soil. Peak particle velocity (PPV) is the standard measurement (mm/s). Damage thresholds: residential plaster cracks at PPV >5 mm/s, cosmetic cracking at >12.5 mm/s, structural damage at >50 mm/s. Vibration attenuation with distance: PPV = K × (D/√W)^-n, where D = distance, W = maximum charge per delay, K and n are site constants (K ≈ 500-2000, n ≈ 1.5-2.0 for typical rock). At 200 m distance, 50 kg per delay produces PPV of 2-8 mm/s (below damage threshold for most structures but perceptible and potentially objectionable).
 
@@ -622,7 +610,6 @@ Controlling vibration is critical for blasting near populated areas. The most ef
 
 **Flyrock control**: Rock fragments thrown beyond the expected blast area are the most dangerous blasting hazard. Flyrock range: 50-500 m for large blasts if uncontrolled. Control measures: (1) adequate burden and stemming (prevents gas from lifting rock vertically), (2) accurate drilling (burden errors cause flyrock), (3) delayed initiation pattern (allows rock to move into void created by earlier-delayed holes), (4) blasting mats for blasts near occupied areas (worn conveyor belts chained together or steel mesh mats), (5) exclusion zone (typically 300-500 m radius for personnel during blasting). The blaster in charge is responsible for calculating the expected flyrock range and setting the exclusion zone. A flyrock incident that injures someone outside the exclusion zone is a catastrophic safety failure. Within the exclusion zone, all personnel must be in blast shelters (reinforced earth berms or concrete bunkers) or at a safe distance during firing.
 
----
 
 ## Selection Guide
 
@@ -638,7 +625,6 @@ Controlling vibration is critical for blasting near populated areas. The most ef
 | RDX (Comp B) | 7,800 | 1.7 | 5.1 | Low (phlegmatized) | Military warheads, shaped charges |
 | ANFO | 2,500-4,000 | 0.8-1.0 | 3.7 | Very low | Large-scale mining, cheapest per joule |
 
----
 
 ## Applications by Sector
 
@@ -653,7 +639,7 @@ Controlling vibration is critical for blasting near populated areas. The most ef
 | Seismic exploration | ANFO or dynamite | 1-50 kg/shot | Shallow boreholes, geophone arrays |
 | Avalanche control | ANFO or dynamite | 1-5 kg per charge | Triggering controlled avalanches from safe positions |
 
-### Explosive Selection for Common Tasks
+## Explosive Selection for Common Tasks
 
 Choosing the right explosive for a task requires matching the explosive's properties to the rock type, borehole size, water conditions, and regulatory requirements.
 
@@ -667,7 +653,6 @@ Choosing the right explosive for a task requires matching the explosive's proper
 
 **Soil and soft rock excavation**: ANFO or black powder (in a bootstrapping context) in shallow, closely-spaced holes. Soft materials require high heaving force rather than high brisance. Powder factor is low (0.1-0.3 kg/m³) because the material breaks easily. The main purpose of the explosive is to lift and displace the material, not to shatter it.
 
----
 
 ## Integration Points
 
@@ -680,7 +665,6 @@ Choosing the right explosive for a task requires matching the explosive's proper
 | Industrial Mining (Modern) | ANFO dominates surface mining worldwide. Cheap, safe, and effective in large boreholes. Heavy ANFO for wet conditions. Electronic delay detonators enable precise blasting near populated areas with minimal vibration. Bulk ANFO trucks mix and load 50 tonnes per day into boreholes. |
 | Petroleum & Chemical | Ammonium nitrate (ANFO precursor) from ammonia + nitric acid. Toluene (TNT precursor) from petroleum refining or coal tar. Hexamine (RDX precursor) from ammonia + formaldehyde. The explosive industry is a major consumer of chemical industry outputs. |
 
----
 
 ## Key Deliverables
 
@@ -688,7 +672,6 @@ Choosing the right explosive for a task requires matching the explosive's proper
 - **Tier 2** (Years 10-20): Nitroglycerin, dynamite, and nitrocellulose for construction blasting and military applications. Requires mixed acid production (nitric + sulfuric) and glycerol. Dynamite transforms mining productivity again: higher energy density allows smaller boreholes, less drilling, and better fragmentation. Smokeless powders modernize firearms, giving military advantage and enabling modern small arms. Nitrocellulose also provides lacquers, film base, and dope for early aircraft. Safety fuse and blasting caps (mercury fulminate, then lead azide) are developed in parallel.
 - **Tier 3** (Years 20-30+): TNT, RDX, smokeless powders, and ANFO for industrial and military use. TNT requires three-stage nitration and toluene (from petroleum or coal tar). RDX requires hexamine and acetic anhydride. ANFO requires ammonium nitrate prills and diesel fuel. These represent the mature industrial explosive palette. TNT becomes the reference standard for all explosive power comparisons. RDX enables shaped charge warheads and modern military munitions. ANFO becomes the cheapest and most widely used industrial explosive, dominating surface mining worldwide. Electronic delay detonators provide millisecond-precision timing for controlled blasting near populated areas.
 
----
 
 ## General Safety & Hazards
 
@@ -707,7 +690,6 @@ Choosing the right explosive for a task requires matching the explosive's proper
 - **Fire in a magazine**: If a fire breaks out in an explosives storage area, evacuate immediately to at least the quantity-distance and do not attempt to fight the fire. The transition from fire to detonation can occur without warning, especially if NG-based explosives are involved. The only safe response to a magazine fire is evacuation. Notify emergency services and establish a perimeter at the quantity-distance radius. Do not re-enter the area until the fire has been extinguished and the area has been declared safe by explosive ordnance disposal personnel.
 - **Training and competency**: All personnel handling explosives must be trained and, in regulated environments, licensed. Training covers: explosive properties and hazards, safe handling and storage procedures, blasting cap and initiating system operation, misfire procedures, and emergency response. Untrained personnel must never handle explosives. In a bootstrapping civilization, this training must be developed from scratch, ideally by the people who developed the explosive manufacturing process. Institutional knowledge about safe practices is as important as the technical knowledge of how to manufacture the explosives. A single serious accident can destroy the confidence needed to operate an explosives program.
 
----
 
 ## Limitations
 
@@ -719,7 +701,6 @@ Choosing the right explosive for a task requires matching the explosive's proper
 - **Supply chain depth**: Modern explosives like RDX require hexamine (ammonia + formaldehyde), acetic anhydride, and concentrated nitric acid. Each of these has its own supply chain. The full depth from raw materials to RDX touches ammonia synthesis (Haber-Bosch), methanol production, formaldehyde oxidation, acetic acid fermentation or synthesis, and nitric acid production (Ostwald process). This supply chain depth means RDX and other advanced explosives arrive late in the bootstrapping sequence, long after black powder and dynamite have served the civilization's explosive needs.
 - **Environmental impact**: Large-scale blasting produces noise, vibration, dust, and nitrate contamination. Ammonium nitrate residue from ANFO blasting leaches into groundwater, contributing to nitrate pollution. In sensitive watersheds, blast site runoff must be contained and treated. Noise from quarry blasting travels several kilometers and is a common source of community complaints. Dust from blasting is controlled by water spraying and blast blankets, but cannot be eliminated entirely. Underground blasting in sulfide-bearing ore bodies can generate sulfuric acid when sulfide minerals are exposed to air and water in the fractured rock (acid mine drainage), a long-term environmental liability that persists long after the mine closes.
 
----
 
 ## See Also
 
@@ -730,6 +711,6 @@ Choosing the right explosive for a task requires matching the explosive's proper
 - **[Nitric Acid](acids.md)**: Ostwald process producing nitric acid for nitration
 - **[Ammonia Production](ammonia.md)**: Haber-Bosch process for ammonia, the precursor to ammonium nitrate and hexamine
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+[← Back to Chemistry](index.md)

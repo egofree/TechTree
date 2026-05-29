@@ -72,7 +72,7 @@ Vacuum technology creates and maintains low-pressure environments essential for 
 - **Helium leak detector**: Mass spectrometer tuned to He. Spray He on exterior, detect He entering vacuum system. Sensitivity ~10⁻¹² atm·cc/s. The gold standard.
 - **Tesla coil**: High-frequency spark probe. Spark penetrates small holes in glass apparatus (visible discharge inside). Glass systems only.
 
-### Vacuum System Design
+## Vacuum System Design
 
 **[Two-stage pump system](../glossary/two-stage-pump-system.md)** (standard for high vacuum):
 - **[Roughing pump](../glossary/roughing-pump.md)** (rotary vane or diaphragm): Pulls system from atmospheric pressure (~10⁵ Pa) down to ~0.1-1 Pa. This is the "rough vacuum" phase. The roughing pump handles the bulk of the gas load — most of the air molecules are removed in this stage.
@@ -80,7 +80,7 @@ Vacuum technology creates and maintains low-pressure environments essential for 
 - **Pump-down sequence**: Open roughing valve, close high-vacuum valve. Rough to ~1 Pa. Close roughing valve, open high-vacuum valve. Continue pumping to target base pressure (10⁻⁴ to 10⁻⁶ Pa for most semiconductor processes).
 - **Turbomolecular pump vs. diffusion pump**: Turbo pump — fast startup (1-3 min), clean (no oil vapor), expensive to build (precision rotor at 30,000-90,000 RPM). Diffusion pump — slower startup (15-30 min), requires cold trap to prevent oil backstreaming, simpler construction, lower cost.
 
-### Outgassing Rates by Material
+## Outgassing Rates by Material
 
 Every surface in a vacuum system releases adsorbed gas molecules — this is outgassing, and it dominates pump-down time below ~1 Pa.
 
@@ -96,7 +96,7 @@ Every surface in a vacuum system releases adsorbed gas molecules — this is out
 
 Design rule: minimize internal surface area, avoid elastomers where possible, bake if target pressure is below 10⁻⁵ Pa.
 
-### Bake-Out Procedures
+## Bake-Out Procedures
 
 - **Purpose**: Accelerate desorption of water vapor, dissolved gases, and volatile contaminants from vacuum chamber walls. A system that takes 2 weeks to reach 10⁻⁶ Pa without bake-out can reach it in 24-48 hours with bake-out.
 - **Temperature**: 150-300°C depending on chamber materials and seals. Stainless steel chambers with copper CF gaskets: 250-300°C. Viton-sealed chambers: 150°C maximum (Viton degrades above 200°C). Glass systems: 200-300°C.
@@ -104,7 +104,7 @@ Design rule: minimize internal surface area, avoid elastomers where possible, ba
 - **Method**: Wrap chamber with heating tape (nichrome or silicone rubber insulated) or use custom-fitted band heaters. Cover with aluminum foil or fiberglass insulation to maintain uniform temperature. Monitor with thermocouples taped to multiple points on the chamber surface (top, bottom, side, ports). Avoid hot spots — local overheating warps flanges and ruins sealing surfaces.
 - **Cool-down**: After bake, turn off heaters. Allow system to cool naturally while still under vacuum. Do not vent until below 50°C — rapid cooling with air exposure re-adsorbs moisture, undoing much of the bake-out benefit.
 
-### Additional Vacuum Pump Types
+## Additional Vacuum Pump Types
 
 **[Diaphragm pump](../glossary/diaphragm-pump.md)** (oil-free roughing):
 - **Principle**: Flexible PTFE or elastomer diaphragm oscillates in a chamber, drawing gas in through an inlet valve and expelling it through an outlet valve. The diaphragm separates the drive mechanism from the gas stream, so no oil contacts the gas.
@@ -122,7 +122,7 @@ Design rule: minimize internal surface area, avoid elastomers where possible, ba
 - **Performance**: 10⁻³ to 10⁻¹⁰ mbar (with appropriate backing and baking). Pumping speed 50-5,000 L/s. Compression ratio for N₂: >10⁹; for H₂: ~10³-10⁵ (light gases are the hardest to pump).
 - **Advantages**: Clean (no oil vapor), fast startup (1-3 minutes to full speed), no backstreaming. Disadvantages: Precision rotor at extreme RPM requires high-quality bearings (ceramic ball bearings or magnetic levitation), expensive to manufacture, vulnerable to mechanical shock and sudden pressure bursts (vents the system slowly).
 
-### Vacuum Measurement in Detail
+## Vacuum Measurement in Detail
 
 **Rough vacuum gauges**:
 - **Bourdon tube gauge**: Curved hollow metal tube connected to vacuum system. External atmospheric pressure vs. internal pressure difference deflects the tube, moving a needle on a dial. Range: 1000-1 mbar. Simple, rugged, requires no power. Accuracy ±2-5% of full scale. Cannot measure below ~1 mbar. Useful for monitoring roughing pump performance.
@@ -135,7 +135,7 @@ Design rule: minimize internal surface area, avoid elastomers where possible, ba
 - **Penning cold cathode gauge**: High voltage (2-5 kV) applied between cathode and anode in a magnetic field. Electrons spiral in the magnetic field, ionizing gas molecules. Ion current is proportional to gas density (pressure). Range: 10⁻³-10⁻⁷ mbar. Robust (no hot filament to burn out). Cannot be used above 10⁻² mbar (arcing). Ignition delay at very low pressures (may read zero briefly until discharge starts).
 - **Bayard-Alpert hot cathode ion gauge**: Heated filament emits electrons (typically at 30-100 mA emission current). Electrons accelerated toward a grid, ionizing gas molecules. Ions collected on a thin central wire (collector). Ion current proportional to pressure. Range: 10⁻³-10⁻¹¹ mbar. Most accurate and widest-range vacuum gauge. Filament can burn out (replaceable tubes). Do not operate above 10⁻³ mbar (filament oxidizes and fails rapidly).
 
-### Vacuum System Design Principles
+## Vacuum System Design Principles
 
 **Outgassing and bake-out**:
 - Every surface in a vacuum system releases adsorbed gas molecules (primarily water vapor, also CO, CO₂, H₂). This outgassing dominates pump-down time below ~1 Pa. The rate decreases over time as the most loosely bound molecules desorb first.
@@ -147,7 +147,7 @@ Design rule: minimize internal surface area, avoid elastomers where possible, ba
 - **Rule of thumb**: Keep foreline piping between the vacuum chamber and the pump as short and wide as practical. A 1 m length of 25 mm ID pipe has a molecular flow conductance of ~30 L/s for N₂. If the pump has a speed of 300 L/s but is connected through this pipe, the effective pumping speed at the chamber is only ~27 L/s. The pipe chokes the pump. Double the pipe diameter → four times the conductance.
 - **Valve conductance**: Every valve in the system adds flow resistance. Gate valves have the highest conductance (nearly full pipe bore when open). Angle valves have lower conductance (gas must change direction 90°). Factor valve conductance into system design calculations.
 
-### Safety & Hazards
+## Safety & Hazards
 
 **Implosion risk from glass vacuum chambers**: Glass bell jars and glass vacuum apparatus are under ~1 atmosphere (14.7 psi) of external pressure when evacuated. A flaw, scratch, or star crack concentrates stress and can cause sudden catastrophic implosion — the glass fragments are accelerated inward by atmospheric pressure, then bounce outward at high velocity. Risk mitigation: inspect all glassware for scratches, chips, and internal stresses before each use. Wrap glass chambers with adhesive-backed shatter film or multiple layers of tape (contains fragments if implosion occurs). Use polycarbonate safety shields between the operator and the glass chamber. Wear safety glasses at all times near evacuated glass systems. For larger chambers, prefer steel or stainless steel construction over glass.
 
@@ -157,7 +157,7 @@ Design rule: minimize internal surface area, avoid elastomers where possible, ba
 
 **Cryogenic trap handling**: Cold traps cooled with liquid nitrogen (LN₂, -196°C) present cold burn and condensation hazards. Skin contact with LN₂-cooled surfaces causes immediate frostbite (tissue destruction identical to burns). Wear insulated cryogenic gloves (not just leather work gloves — cold penetrates thin gloves rapidly) and face shield when handling LN₂ or manipulating cold traps. When filling a cold trap, add LN₂ slowly — rapid pouring causes violent boiling and splashing. **Critical hazard**: if a cold trap is left filled with LN₂ after the vacuum system is vented to air, the trap will condense liquid oxygen from the air (LOX boils at -183°C, warmer than LN₂ at -196°C). LOX is a powerful oxidizer — contact with any organic material (oil, grease, vacuum grease, O-rings) can cause spontaneous ignition or explosion. Always empty cold traps before venting the vacuum system, or warm the trap to above -183°C before air exposure.
 
-### Vacuum Sealing Techniques
+## Vacuum Sealing Techniques
 
 **Elastomer O-ring seals**:
 - **Material**: Viton (FKM, fluorocarbon) is the standard for vacuum O-rings. Temperature range -20°C to 200°C. Outgassing rate ~10⁻⁶ Pa·m³/s·m² unbaked. Buna-N (nitrile) is cheaper but has higher outgassing and lower temperature limit (~120°C). Silicone O-rings have the widest temperature range (-60°C to 230°C) but highest outgassing and are too soft for some applications.
@@ -174,7 +174,7 @@ Design rule: minimize internal surface area, avoid elastomers where possible, ba
 - **Types**: Apiezon L (hydrocarbon, lowest vapor pressure ~10⁻⁸ Pa at 20°C, for high vacuum). Apiezon N (general purpose, higher vapor pressure). Silicone vacuum grease (wide temperature range, but can migrate and contaminate surfaces). Fomblin (perfluorinated polyether, chemically inert, for oxygen and reactive gas service).
 - **Application rule**: Use as little as possible. Excess grease migrates to chamber walls, increasing outgassing. Apply a thin film, then wipe off the excess with a lint-free cloth until the surface appears only slightly glossy.
 
-### Partial Pressure Measurement
+## Partial Pressure Measurement
 
 **Residual gas analyzer (RGA)**:
 - **Principle**: A miniature mass spectrometer mounted on the vacuum system. Ionizes gas molecules, separates ions by mass-to-charge ratio using a quadrupole mass filter (four parallel rods with RF+DC voltages), and detects ions with a Faraday cup or electron multiplier.
@@ -182,7 +182,7 @@ Design rule: minimize internal surface area, avoid elastomers where possible, ba
 - **Applications**: Identify what gases remain in the vacuum system (water at 18 amu, nitrogen at 28, oxygen at 32, carbon monoxide at 28, argon at 40, hydrogen at 2, helium at 4). Detect leaks (sudden increase in atmospheric gases). Monitor outgassing during bake-out (watch water peak decrease). Verify process gas purity (contaminants in sputtering or CVD gas streams).
 - **Leak detection with RGA**: Spray helium outside the vacuum system while monitoring mass 4 on the RGA. A sudden spike in helium partial pressure indicates the location of the leak. Sensitivity: ~10⁻¹² Pa·m³/s, comparable to dedicated helium leak detectors.
 
-### Vacuum System Materials
+## Vacuum System Materials
 
 **Stainless steel (304L / 316L)**: The standard chamber and piping material for high and ultra-high vacuum. Both grades have low outgassing rates (<10⁻⁹ Torr·L/s·cm² after bake-out), good weldability (the "L" designation means low carbon, which prevents carbide precipitation and corrosion at weld seams), and adequate mechanical strength. 316L is preferred for corrosive gas applications (contains molybdenum for pitting resistance). Electropolishing the interior surface reduces the effective surface area by roughly 50% compared to mechanically polished surfaces, which directly reduces outgassing by cutting the number of adsorption sites for water and gas molecules. Electropolishing also creates a smooth, chromium-rich passive layer that is easier to clean.
 
@@ -190,13 +190,13 @@ Design rule: minimize internal surface area, avoid elastomers where possible, ba
 
 **Viton O-rings (FKM)**: The standard elastomer for O-ring sealed vacuum flanges (ISO-KF and similar). Usable down to ~10⁻⁸ Torr with proper bake-out. Bakeable to 200°C (short excursions to 250°C are possible but accelerate hardening). Above 200°C, Viton begins to decompose, releasing fluorocarbon fragments that contaminate the vacuum system. For pressures below 10⁻⁸ Torr, Viton's outgassing and helium permeation rate become the limiting factor, and metal seals (copper CF gaskets) are required.
 
-### Leak Detection Methods
+## Leak Detection Methods
 
 **Helium mass spectrometer leak detection**: The most sensitive and widely used method for finding vacuum leaks. A mass spectrometer tuned to helium (mass 4) is connected to the vacuum system. Two modes: (1) Vacuum mode (spray probe): the system is under vacuum and connected to the leak detector. Helium is sprayed on the exterior surface using a fine nozzle. When the spray passes over a leak, helium enters the system and is detected within seconds (response time depends on pumping speed and internal volume). Sensitivity: 10⁻¹² atm·cc/s. (2) Sniffer mode: the system is pressurized with helium (or a helium-air mixture) and a sniffer probe connected to the leak detector is passed over the exterior. Helium escaping through leaks is drawn into the probe. Used for gross leak detection in large systems that cannot easily be evacuated.
 
 **Bubble testing**: The simplest leak detection method, suitable for finding gross leaks (>10⁻⁴ atm·cc/s). Pressurize the system with dry air or nitrogen to 1-2 bar above atmospheric. Apply a soap solution (commercial leak detection fluid or diluted dish soap) to all joints, welds, and fittings. Watch for bubble formation. Each bubble indicates a leak path. The method is inexpensive and requires no special equipment, but it cannot detect the small leaks that matter in high-vacuum systems.
 
-### Pump-Down Time Estimation
+## Pump-Down Time Estimation
 
 The time to pump a vacuum chamber from atmospheric pressure to a target pressure can be estimated from the ideal gas law and the pumping speed. For the roughing phase (above 1 Pa), where outgassing is negligible compared to the gas volume being removed:
 
@@ -206,7 +206,7 @@ where V is the chamber volume (liters), S is the effective pumping speed (liters
 
 Below 1 Pa, outgassing dominates. The pump-down time to reach 10⁻⁴ Pa (10⁻⁶ Torr) depends on the total outgassing rate of all internal surfaces, not on the chamber volume. A chamber with a large surface area, or one made with high-outgassing materials (Viton, unbaked steel), may take days to reach 10⁻⁴ Pa. Baking the chamber accelerates outgassing by 10-100×, allowing the system to reach base pressure in hours instead of days.
 
-### Vacuum Hygiene
+## Vacuum Hygiene
 
 The cleanliness of components installed in a vacuum system directly determines the achievable base pressure and the time to reach it. Contamination from handling, storage, and assembly introduces water, oils, and organic residues that outgas slowly and raise the base pressure.
 

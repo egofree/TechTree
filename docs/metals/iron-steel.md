@@ -8,7 +8,7 @@
 > **Outputs**: wrought_iron, steel, iron_bloom, heat_treated_steel, forge_welds, brazed_joints, soldered_joints, springs, bellows, tongs, ...
 > **Critical**: true
 
-### Iron Production
+## Iron Production
 
 Iron requires higher temperatures than copper (melting point 1538°C, but bloomery process works below melting point). This is the critical metallurgical capability that enables all subsequent phases.
 
@@ -38,7 +38,7 @@ Iron requires higher temperatures than copper (melting point 1538°C, but bloome
 - Bloom consolidation requires 10-30 cycles of reheating and hammering — labor-intensive and slow (hours per 5-20 kg bloom).
 - Yields are modest: 4-8 kg charcoal per kg ore, with 30-60% iron recovery depending on ore grade and operator skill.
 
-### Cast Iron
+## Cast Iron
 
 Iron with 2-4.3% carbon — significantly more than wrought iron (<0.1% C) and steel (0.1-2% C). This is what blast furnaces naturally produce when iron is fully melted in contact with carbon fuel. Cast iron is not forgeable (too brittle), but it excels at being cast into complex shapes in sand molds.
 
@@ -84,7 +84,7 @@ Blast furnace smelting produces pig iron with typical composition: ~4% C, ~1% Si
 - All cast irons are brittle (elongation <1%) — cannot be forged, rolled, or used in tensile-load applications without risk of sudden fracture.
 - Pig iron from blast furnaces requires further processing (cupola remelt or steelmaking) for most structural uses.
 
-### Metalworking Tools
+## Metalworking Tools
 
 **Anvil evolution**:
 - **Stone anvil**: Large flat granite or basalt boulder (50+ kg). Bounces hammer energy but works for copper and early iron. Use flat face for hammering, edge for bending.
@@ -116,7 +116,7 @@ Blast furnace smelting produces pig iron with typical composition: ~4% C, ~1% Si
 - Iron anvil production itself requires advanced forging capability — a bootstrapping challenge (need iron to make the tools to work iron).
 - Skin/bag bellows produce intermittent blast and wear out quickly (leather degrades at high temperatures). Multiple replacement sets needed per smelting season.
 
-### Joining Metals — Forge Welding, Brazing & Soldering
+## Joining Metals — Forge Welding, Brazing & Soldering
 
 **[Forge welding](../glossary/forge-welding.md)** (the oldest welding method):
 - **Principle**: Heat two pieces of iron/steel to bright yellow-white (~1300-1400°C) where the surface becomes pasty. Place together and hammer forcefully. The combination of heat, pressure, and clean surfaces causes a solid-state weld (atomic diffusion across interface).
@@ -154,7 +154,7 @@ Blast furnace smelting produces pig iron with typical composition: ~4% C, ~1% Si
 - Forge welding demands precise temperature control (1300-1400°C, bright yellow-white) — too cold and the weld fails, too hot and the metal burns.
 - Brazing and soldering introduce dissimilar filler metals that can create galvanic corrosion couples in hostile environments.
 
-### Carbon Steel Grades
+## Carbon Steel Grades
 
 Plain carbon steels are classified by the SAE/AISI 10xx system, where "10" denotes plain carbon steel and "xx" gives the carbon content in hundredths of a percent (e.g., 1020 = 0.20% C). Carbon is the dominant alloying element — each 0.1% increase in carbon raises tensile strength by ~70-80 MPa and hardness by ~15-20 HRC (after quenching), but reduces ductility and weldability. Manganese (0.3-0.6% in most grades) provides deoxidation and moderate solid-solution strengthening. Phosphorus and sulfur are impurities kept below 0.05% and 0.05% respectively — they cause temper brittleness and hot shortness.
 
@@ -184,7 +184,7 @@ Plain carbon steels are classified by the SAE/AISI 10xx system, where "10" denot
 - Plain carbon steels have poor hardenability — only thin sections (<25 mm) through-harden with water quench. Alloy steels required for larger sections.
 - Corrosion resistance is negligible without protective coatings (paint, galvanizing, plating). Annual corrosion losses estimated at 1-5% of steel in service.
 
-### Heat Treatment in Depth
+## Heat Treatment in Depth
 
 The iron-carbon phase diagram defines the transformations that make steel uniquely versatile among structural metals. Steel can be hardened because iron undergoes an allotropic transformation: ferrite (BCC, α-iron) transforms to austenite (FCC, γ-iron) at 727°C (the eutectoid temperature) in the presence of carbon. The FCC structure dissolves up to 2.14% carbon; the BCC structure dissolves only 0.022%. This difference is the engine of heat treatment.
 
@@ -215,7 +215,7 @@ The iron-carbon phase diagram defines the transformations that make steel unique
 - Quenching introduces distortion and residual stress — precision parts require post-quench grinding to restore tolerances (±0.01-0.05 mm).
 - Tempering is a time-sensitive process: undertempering leaves brittleness, overtempering loses hardness. Temperature control within ±10°C is essential.
 
-### Quality and Testing
+## Quality and Testing
 
 The mechanical properties of iron and steel must be verified at every stage — from incoming raw material to finished component. The following test methods form the core of ferrous metallurgical quality control.
 
@@ -258,7 +258,7 @@ The mechanical properties of iron and steel must be verified at every stage — 
 - Tensile and impact testing are destructive — consume specimens. Statistical sampling required, meaning some defective parts may pass undetected between samples.
 - Metallography requires sectioning, mounting, polishing, and etching — a time-consuming preparation cycle (4-8 hours per specimen) requiring specialized consumables.
 
-### Wrought Iron vs Steel vs Cast Iron
+## Wrought Iron vs Steel vs Cast Iron
 
 These three forms of iron-carbon alloy represent fundamentally different material classes, each suited to different applications. The carbon content — and the form that carbon takes — is the primary differentiator.
 
@@ -293,13 +293,13 @@ These three forms of iron-carbon alloy represent fundamentally different materia
 - Wrought iron is obsolete for structural use — replaced by steel after 1860 due to labor-intensive bloomery process and inability to heat-treat.
 - Cast iron's nil ductility limits it to compressive-load applications — it cannot serve as a general structural material.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Extreme heat and burn risk**: Bloomery furnaces reach 1200-1400°C; extracted blooms glow white-hot at ~1200°C. Forge welding requires heating iron to 1300-1400°C (bright yellow-white). At these temperatures, radiation burns occur within seconds of close proximity. Wear heavy leather apron, gloves, face shield, and closed-toe boots. Use tongs sized to the work — dropping white-hot iron causes severe burns and fires. Maintain a clear, dry floor around the forge (no water puddles — steam explosions from spilled molten slag).
 - **Carbon monoxide from charcoal combustion**: Bloomery smelting consumes charcoal at high rates, producing large volumes of carbon monoxide. CO is colorless, odorless, and causes headache, confusion, loss of consciousness, and death. Never operate a bloomery or forge in an enclosed space. Ensure cross-ventilation. If an operator becomes confused or lethargic, move them to fresh air immediately and monitor breathing.
 - **Spark and slag spray during bloom consolidation**: Hammering the white-hot bloom ejects slag particles and sparks at temperatures exceeding 1000°C. Eye protection (safety glasses or face shield) is essential for this operation. Long sleeves and leather gloves prevent spark burns on forearms and hands.
 - **Lead and zinc fume hazards from soldering and brazing**: Soft solder (60/40 tin-lead alloy) produces lead fumes above 500°C; brass brazing filler (60/40 copper-zinc) produces zinc oxide fumes at ~900°C. Zinc oxide fume causes "metal fume fever" (flu-like symptoms: chills, fever, muscle ache, 4-8 hours after exposure). Lead fume causes cumulative neurological and organ damage. Solder and braze with local exhaust ventilation. Avoid breathing fumes directly. Wash hands after handling solder materials.
 - **Quenching hazards**: Plunging hot steel (780-850°C) into water produces violent boiling and steam splash. Oil quenching (used for springs and high-carbon steel to prevent cracking) creates risk of oil ignition — the oil can flash if the workpiece is too hot. Use a deep quench tank, lower the workpiece quickly and completely, and keep a lid nearby to smother oil fires. Do not use oil quenching near open flames.
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Metals](index.md)

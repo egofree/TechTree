@@ -7,13 +7,12 @@
 > **Timeline**: Years 20-40
 > **Outputs**: aluminum ingots, extrusions, castings, sheet
 
-### Overview
 
 Aluminum is the most abundant metal in Earth's crust (8.1% by weight) but never occurs natively — it is always chemically bound, most commonly as aluminum silicates in clays and feldspars. The metal remained unknown until 1825 (isolated by Ørsted as an impure powder) and was more valuable than gold until the Hall-Héroult process (1886) made bulk production possible. Modern civilization depends on aluminum for electrical conductors, structural components, packaging, transportation, and as the primary structural metal for aerospace.
 
 Aluminum production is a two-stage process: the Bayer process converts bauxite ore to pure alumina (Al₂O₃), and the Hall-Héroult process electrolytically reduces alumina to metallic aluminum. The overall energy intensity is 13-15 kWh/kg — aluminum production consumes ~3-4% of global electricity. Recycling requires only 5% of that energy, making secondary aluminum one of the most economically valuable recycled materials.
 
-### Bayer Process — Bauxite to Alumina
+## Bayer Process — Bauxite to Alumina
 
 The Bayer process (1887) extracts pure alumina from bauxite ore via selective dissolution in hot sodium hydroxide. Bauxite typically contains 30-55% Al₂O₃ as gibbsite (Al(OH)₃), boehmite (AlO(OH)), or diaspore (AlO(OH)), along with iron oxides (the red color), silica, and titania as impurities.
 
@@ -42,7 +41,7 @@ The Bayer process (1887) extracts pure alumina from bauxite ore via selective di
 - Gas-suspension calciner ( flash calciner): Higher energy efficiency (2.8-3.2 GJ/tonne), shorter residence time (<1 second in the hot zone), smaller footprint. Products fine, highly reactive alumina (higher surface area → dissolves faster in cryolite bath).
 - Product specification: Smelter-grade alumina (SGA) is >99.5% Al₂O₃, typically 99.6-99.8%. Key impurities: SiO₂ (<0.015%), Fe₂O₃ (<0.015%), Na₂O (<0.4%), LOI (loss on ignition, <1.0%).
 
-### Hall-Héroult Process — Electrolytic Reduction
+## Hall-Héroult Process — Electrolytic Reduction
 
 The Hall-Héroult process dissolves alumina in molten cryolite (Na₃AlF₆) and electrolyzes it to produce aluminum metal and CO/CO₂ gas. Invented independently by Charles Hall (US) and Paul Héroult (France) in 1886 — the foundational process unchanged in principle for 140 years.
 
@@ -78,7 +77,7 @@ The Hall-Héroult process dissolves alumina in molten cryolite (Na₃AlF₆) and
 - Potline operation is continuous — shutting down causes the bath to freeze in the pots, destroying the cathode linings (a "freeze-up" costs millions in reconstruction). Automatic bypass switches allow individual pots to be cut out for maintenance without interrupting the series current.
 - Aluminum is tapped from each pot every 24-48 hours by siphoning or vacuum crucible. A 500 kA pot produces ~3.7 tonnes per day.
 
-### Anode Production
+## Anode Production
 
 Carbon anodes are consumed at ~400-450 kg per tonne of aluminum produced. Anode quality directly affects metal purity, energy consumption, and emissions.
 
@@ -103,7 +102,7 @@ Carbon anodes are consumed at ~400-450 kg per tonne of aluminum produced. Anode 
 - **CF₄ emissions**: Carbon tetrafluoride has a global warming potential (GWP-100) of 6,620 — a single anode effect event can release kg of CF₄. Modern smelters target <0.1 anode effects per pot-day (some achieve <0.01) through automated feed control and rapid alumina feeding on voltage rise detection.
 - **Quenching**: Feed alumina rapidly, lower the anode to break the gas film, or short-circuit the cell briefly. Automated systems handle most anode effects within 1-3 minutes.
 
-### Aluminum Alloys
+## Aluminum Alloys
 
 Pure aluminum (99.0-99.99%) is soft (tensile strength 40-50 MPa) and has limited structural use. Alloying with small quantities of other elements dramatically improves mechanical properties — alloyed aluminum reaches 500-600 MPa tensile strength.
 
@@ -163,7 +162,7 @@ Pure aluminum (99.0-99.99%) is soft (tensile strength 40-50 MPa) and has limited
 - **7075-T6 for high-stress structural components**: Used for wafer transport robot arms (high stiffness-to-weight ratio enables rapid wafer handling with minimal vibration), lithography stage structural members, and precision equipment mounts. Elastic modulus 71.7 GPa, fatigue endurance limit 159 MPa (R=-1, 5×10⁸ cycles). Not suitable for vacuum chamber walls — higher Zn content increases outgassing and makes welding unreliable.
 - **1100-O for chemical equipment**: ≥99.0% purity provides excellent corrosion resistance to many chemicals (not alkalis — Al dissolves in NaOH). Used for acid handling tanks, heat exchanger tubing in wet processing stations, and chemical distribution piping. Low strength limits use to non-structural applications. Easily formed — deep drawn into tanks and vessels.
 
-### Semiconductor-Grade Aluminum
+## Semiconductor-Grade Aluminum
 
 Ultra-high-purity aluminum (≥99.999%, "5N") is essential for semiconductor metallization — the conductive interconnect layers on integrated circuits. The purity requirements far exceed those of structural aluminum and demand dedicated refining processes.
 
@@ -191,7 +190,7 @@ Ultra-high-purity aluminum (≥99.999%, "5N") is essential for semiconductor met
 - Sputtering target production: 5N aluminum is cast into cylindrical targets (200-400 mm diameter × 6-12 mm thickness for semiconductor tools, up to 3000 mm × 250 mm for display tools), then machined to ±0.05 mm flatness and bonded to copper backing plates using indium or epoxy thermal interface material. Target grain size <100 μm ensures uniform sputtering rate. Typical target life: 500-2000 kWh of sputtering power before replacement.
 - **Metallization applications**: Physical vapor deposition (PVD sputtering) of 5N Al produces 0.3-2.0 μm thick interconnect layers. Al-Si (1% Si) and Al-Cu (0.5% Cu) alloy targets suppress electromigration and spiking. The Al layer is patterned by photolithography and plasma etching (Cl₂/BCl₃ chemistry) to form interconnect lines. Al metallization is being replaced by Cu (Damascene process) at nodes below 130 nm but remains in use for upper metal layers, bond pads, and power distribution.
 
-### Aluminum Casting
+## Aluminum Casting
 
 **Melting and melt treatment**:
 - Primary melting in reverberatory furnaces (natural gas or oil fired, 30-100 tonne capacity) or induction furnaces (cleaner, more precise temperature control, smaller capacity). Melt temperature: 700-750°C.
@@ -218,7 +217,7 @@ Ultra-high-purity aluminum (≥99.999%, "5N") is essential for semiconductor met
 - Water spray directly onto the solidifying shell provides intense cooling (solidification rate 10-100 mm/min). Fine dendrite arm spacing → homogeneous microstructure.
 - Critical issues: Shell tearing, center cracks, bleed-out. Controlled by mold design, water flow rate, casting speed, and metal level control.
 
-### Aluminum Extrusion
+## Aluminum Extrusion
 
 Extrusion forces a heated aluminum billet through a steel die to produce profiles of constant cross-section — the most efficient way to make complex shapes from aluminum.
 
@@ -239,7 +238,7 @@ Extrusion forces a heated aluminum billet through a steel die to produce profile
 - **Stretching**: Profile is gripped at both ends and stretched 0.5-3% to straighten and relieve residual stresses.
 - **Artificial aging**: Heat to 160-200°C for 4-12 hours (T5 temper — press-quenched + aged). For higher properties, full T6 treatment (separate solution treat + quench + age) is used.
 
-### Aluminum Recycling
+## Aluminum Recycling
 
 Recycling is integral to the aluminum industry — not an afterthought. The energy savings are enormous: remelting requires only 5% of the energy of primary production (~0.6-0.8 kWh/kg vs. 13-15 kWh/kg). Approximately 75% of all aluminum ever produced (over 1 billion tonnes cumulative) is still in productive use.
 
@@ -262,7 +261,7 @@ Recycling is integral to the aluminum industry — not an afterthought. The ener
 
 **Recycling rates**: Beverage cans: ~70% globally (Brazil >95%, US ~45%). Automotive aluminum: ~90%. Building and construction: ~95%. The closed-loop can-to-can recycling cycle takes as little as 60 days.
 
-### Safety & Hazards
+## Safety & Hazards
 
 **Hall-Héroult cell hazards**:
 - Molten cryolite bath at 960-980°C causes severe burns on skin contact. Molten aluminum at ~960°C — any moisture contacting the bath or metal causes violent steam explosions. All tools and materials must be thoroughly preheated and dry before contacting the melt.
@@ -276,6 +275,6 @@ Recycling is integral to the aluminum industry — not an afterthought. The ener
 - Aluminum melt at 700-750°C (casting temperature) — standard foundry hazards. Moisture in molds, tools, or charge materials causes explosive spattering. Preheat all tools to 150°C+ before immersion. Wear face shield, aluminized apron, leather gloves, and safety glasses.
 - Dross handling: Hot dross can contain unreacted aluminum and generates fine particulate. Handle in ventilated areas. Dross fires (aluminum burning) are difficult to extinguish — smother with dry sand or Class D extinguisher. Do NOT use water.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Metals](index.md)

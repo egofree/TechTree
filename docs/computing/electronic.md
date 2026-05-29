@@ -19,7 +19,7 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 - [Photolithography](../photolithography/fab-processes.md) — IC fabrication processes
 - [Silicon basic devices](../silicon/basic-devices.md) — diodes, transistors, and IC manufacturing
 
-### Vacuum Tube Logic
+## Vacuum Tube Logic
 
 **Triode operation**:
 - **[Vacuum tube](../glossary/vacuum-tube.md)** (thermionic valve): Heated cathode emits electrons → electrons flow toward positively-charged anode (plate) through vacuum. Control grid between cathode and anode modulates electron flow — small voltage change on grid produces large change in plate current. This is amplification, the basis for all active electronic switching.
@@ -37,7 +37,7 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 - **Performance**: 5,000 additions per second, 357 multiplications per second. 1,000× faster than electromechanical relay calculators.
 - **Reliability**: Several tube failures per day. Diagnosed by margin testing (reducing voltages to find marginal tubes). Replacement required every 2-3 days on average.
 
-### Transistor Circuits
+## Transistor Circuits
 
 **Bipolar Junction Transistor (BJT) switching**:
 - **npn transistor**: Emitter grounded, base driven high → collector current flows (transistor on, Vce ≈ 0.2 V saturation). Base driven low → collector current ceases (transistor off, Vce ≈ supply voltage). One transistor + one resistor = digital inverter. Switching speed: 1-100 MHz depending on construction (alloy junction = slow, diffused planar = fast).
@@ -49,7 +49,7 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 
 **Advantages over tubes**: 100× smaller, 1000× more reliable (no filament burnout), 10-100× lower power, instant-on (no warm-up), compatible with printed circuit boards. Enables computers that run for months without hardware failure.
 
-### Stored-Program Architecture (von Neumann)
+## Stored-Program Architecture (von Neumann)
 
 **Principle**: Program instructions stored in same memory as data — contrast with ENIAC's cable-patching. Computer fetches, decodes, and executes instructions sequentially. Changed instructions change program without rewiring.
 
@@ -60,7 +60,7 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 
 **Instruction cycle**: Fetch instruction from memory address in program counter → increment program counter → decode instruction → fetch operands → execute in ALU → store result → repeat. Clock rate: 100 kHz (early tube machines) to 1-10 MHz (transistor machines). One instruction typically takes 1-20 clock cycles.
 
-### Memory Systems
+## Memory Systems
 
 **Magnetic core memory**:
 - **Structure**: Grid of tiny ferrite rings (0.5-2 mm outer diameter), each threaded with 3-4 wires. Each core stores one bit (clockwise vs counterclockwise magnetization). Core planes stacked to form multi-bit words.
@@ -84,7 +84,7 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 - **[Intel 1103](../glossary/intel-1103.md)** (1970): 1 Kbit chip. First commercially successful DRAM. Replaced core memory in most systems by 1974. Access time: 300-600 ns.
 - **Scaling**: DRAM density doubles roughly every 3 years (1 Kbit → 4 Kbit → 16 Kbit → 64 Kbit...). Each generation uses finer photolithography. DRAM becomes the technology driver for semiconductor manufacturing.
 
-### Transistor Revolution: From Tubes to Solid State
+## Transistor Revolution: From Tubes to Solid State
 
 **[Point-contact transistor](../glossary/point-contact-transistor.md)** (Bardeen and Brattain, December 1947):
 - **Structure**: Two fine gold contacts (~50 μm spacing) pressed against a germanium crystal surface. The germanium slab sits on a metal base. One contact is the emitter, one is the collector, the base is the crystal itself.
@@ -98,7 +98,7 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 
 **Advantages over vacuum tubes**: 100× smaller, 1000× more reliable (no filament burnout), 10-100× lower power, instant-on (no warm-up), compatible with printed circuit boards. Enables computers that run for months without hardware failure.
 
-### Logic Families
+## Logic Families
 
 **Direct-coupled transistor logic (DCTL)**:
 - Simplest transistor logic. Output of one transistor directly drives base of the next. No resistors between stages. Minimal component count. Poor noise margin and severe fanout limitation (current hogging: one transistor with slightly lower Vbe steals base current from paralleled transistors). Obsolete for practical systems.
@@ -113,7 +113,7 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 - **7400 series**: 5 V supply, 10 ns typical propagation delay, 10 mW per gate, fanout 10. Multi-emitter input transistor replaces DTL input diodes. Totem-pole output stage provides active pull-up and pull-down for fast edges.
 - **Variants**: Low-power TTL (74L series, 1 mW/gate, 33 ns), high-speed TTL (74H, 22 mW, 6 ns), Schottky TTL (74S, 19 mW, 3 ns — Schottky clamped transistor prevents deep saturation, faster turn-off), low-power Schottky (74LS, 2 mW, 9 ns — the most popular variant).
 
-### Input/Output Systems
+## Input/Output Systems
 
 **Punched card I/O**: 80-column Hollerith cards (see [Electromechanical Computing](./electromechanical.md)). Card reader: 100-2,000 cards/minute. Card punch: 50-300 cards/minute. Primary input medium through the 1970s.
 
@@ -123,7 +123,7 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 
 **Line printer**: Print one full line (80-132 characters) at a time via impact. Chain printer: character slugs on rotating chain, hammer fires when correct character aligns with print position. Speed: 300-2,000 lines/minute. Noisy but fast — primary output for batch computing.
 
-### Programming
+## Programming
 
 **Machine code**: Binary instruction patterns loaded directly into memory. Each instruction = opcode + operand(s). Example: 0010 0001 0101 = "add contents of address 21 to accumulator." Error-prone, no readability. Earliest programs entered via front-panel switches (toggle binary into memory locations).
 
@@ -133,7 +133,7 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 
 **Compiler**: Translates high-level language (Fortran, COBOL, ALGOL) to machine code. Fortran (1957): first widely-used compiler. Optimizing compiler for scientific computation. Converts mathematical expressions to efficient register usage and instruction sequences. Enables programmers to write 5-10× faster than assembly.
 
-### Early Computer Architectures
+## Early Computer Architectures
 
 **Accumulator machine**: Single implicit register (accumulator) receives all ALU results. Instructions: `ADD address`, `SUB address`, `STORE address`, `LOAD address`. Simple to implement, few transistors. Most early architectures (EDVAC, EDSAC, PDP-8). 1-address instruction format.
 
@@ -141,14 +141,14 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 
 **Word sizes**: Define data width and address space. 8-bit (microcontrollers, early hobby computers), 12-bit (PDP-8), 16-bit (PDP-11, early minicomputers), 32-bit (IBM System/360, VAX). Larger word = larger directly-addressable memory (16-bit → 64 KB, 32-bit → 4 GB) and wider arithmetic. Word size determines ALU width, register width, data bus width, and memory alignment.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **CRT high voltage (25-30 kV)**: Cathode ray tubes and large vacuum tube circuits operate at lethal potentials. The CRT envelope and its anode connection carry 25-30 kV during operation, and the tube's internal capacitance can retain a dangerous charge for hours or days after power-off. Always discharge CRT anodes and high-voltage capacitors to chassis ground using a properly insulated discharge tool before servicing. Observe the one-hand rule: keep one hand behind your back when probing live high-voltage circuits to prevent current across the chest.
 - **Vacuum tube implosion**: Large vacuum tubes (especially CRTs) hold a hard vacuum behind a glass envelope. Atmospheric pressure (~101 kPa) loads every square centimeter of the glass. A crack or impact can cause sudden violent implosion, launching glass fragments at high velocity. Wear eye protection (safety goggles or face shield) when handling vacuum tubes. Handle tubes by their bases, not the glass envelope. Dispose of cracked tubes by contained implosion in a heavy cloth bag or puncture the anode button to equalize pressure slowly.
 - **Solder fumes (lead-based solder)**: Traditional tin-lead solder (60/40 or 63/37 Sn-Pb) generates fumes during soldering — primarily from the rosin flux core, which releases formaldehyde and other irritants. Lead itself does not vaporize at soldering temperatures (~230°C) but accumulates on surfaces and hands as oxide dust. Use local exhaust ventilation (fume extractor or open window). Wash hands thoroughly after soldering, especially before eating. Lead-free solders (SAC305: Sn-Ag-Cu) eliminate lead exposure but produce similar flux fumes.
 - **Stored energy in capacitors**: Power supply filter capacitors in tube-era and transistor-era equipment store lethal energy — a 100 µF capacitor charged to 300 V holds 4.5 J, enough to cause ventricular fibrillation. Large high-voltage capacitors in CRT circuits store far more. Charge can persist for hours after power-off due to low leakage paths. Always discharge all capacitors with a bleed resistor (100 Ω to 1 kΩ, 2 W minimum) before touching any circuitry. Never short capacitor terminals with a screwdriver — the arc damages components and can spray molten metal.
 
-### EDVAC Architecture: Stored-Program Design
+## EDVAC Architecture: Stored-Program Design
 
 The EDVAC (Electronic Discrete Variable Automatic Computer), described in John von Neumann's 1945 "First Draft" report, established the architecture that nearly all subsequent computers follow:
 
@@ -165,7 +165,7 @@ The EDVAC (Electronic Discrete Variable Automatic Computer), described in John v
 - **Magnetic tape**: Early magnetic tape systems recorded data on paper or plastic tape coated with iron oxide particles. Recording density: 100-500 bits per inch. Read/write speed: 50-150 inches per second. Replaced paper tape and punch cards for program and data storage due to higher capacity and rewritability.
 - **Magnetic drum**: Rotating drum (see Electromechanical Computing) served as random-access secondary storage. Capacity: 1,000-16,000 words. Access time: 8-50 ms. Used for programs, subroutines, and data files too large for main memory.
 
-### Software Development on Early Machines
+## Software Development on Early Machines
 
 **Program loading**: On stored-program machines, a small "bootstrap" program is entered by hand via front-panel switches (toggle binary instructions directly into memory addresses). This bootstrap program reads a larger loader program from paper tape or magnetic drum, which in turn loads the user's application program. The term "bootstrapping" (later shortened to "booting") comes from this sequence: the computer pulls itself up by its own bootstraps.
 
@@ -173,7 +173,7 @@ The EDVAC (Electronic Discrete Variable Automatic Computer), described in John v
 
 **Error detection**: Parity bits appended to each memory word detect single-bit errors (if the parity is wrong, the word is corrupt). Hamming codes detect and correct single-bit errors while detecting double-bit errors. These coding schemes become essential as memory sizes increase and error rates become statistically significant.
 
-### Printed Circuit Board Technology
+## Printed Circuit Board Technology
 
 **Board construction**:
 - **Substrate**: FR-4 (flame-retardant epoxy resin reinforced with woven fiberglass cloth). Thickness: 0.8-3.2 mm (1.6 mm most common). Copper foil (35 μm thick, "1 oz copper") laminated to one or both surfaces.
@@ -186,7 +186,7 @@ The EDVAC (Electronic Discrete Variable Automatic Computer), described in John v
 - **Through-hole**: Component leads inserted through drilled holes, soldered on the opposite side. Wave soldering: board passes over a wave of molten solder (260°C Sn-Pb or Sn-Ag-Cu) that contacts the bottom surface, soldering all joints simultaneously. Manual soldering for prototypes and rework.
 - **Surface mount (SMT)**: Components soldered directly to surface pads (no through-holes). Smaller components, higher density. Solder paste (solder powder + flux, printed onto pads through a stainless steel stencil). Components placed by pick-and-place machine. Reflow soldering: board passes through a conveyor oven with temperature profile (preheat 150°C, ramp to 250°C peak, cool). The solder paste melts, wets the pads and component leads, and solidifies on cooling.
 
-### Power Supply Design
+## Power Supply Design
 
 **Linear power supply**:
 - **Transformer**: Steps AC mains voltage down to the desired level (e.g., 120V AC → 12V AC). Laminated iron core transformer, efficiency 85-95%. Output is isolated from mains (safety).
@@ -203,7 +203,7 @@ The EDVAC (Electronic Discrete Variable Automatic Computer), described in John v
 - **RC relaxation oscillator**: Capacitor charges through resistor toward supply voltage. When capacitor voltage reaches a threshold, a discharge path activates, discharging the capacitor rapidly. The cycle repeats. Frequency: f ≈ 1/(2RC × ln(3)) for a simple Schmitt trigger oscillator. Stability: poor (±10-20% with temperature and supply variation). Adequate for clock generation where precise frequency is not critical.
 - **Crystal oscillator**: Piezoelectric quartz crystal resonates at a precise frequency determined by its physical dimensions (thickness for AT-cut crystals). Frequency stability: ±10-50 ppm over temperature (-40°C to +85°C). Used for all precision timing: CPU clocks, real-time clocks, communication system frequency references. Standard frequencies: 32.768 kHz (real-time clocks, 2¹⁵ = 32768), 3.579545 MHz (NTSC color burst), 10 MHz (frequency standard). The crystal operates as a very high-Q (10,000-1,000,000) resonant element in the feedback loop of an amplifier.
 
-### Memory Evolution: From Cores to Chips
+## Memory Evolution: From Cores to Chips
 
 **Magnetic core memory (4-wire threading detail)**:
 - **Wire functions**: Each core is threaded with four wires: X select and Y select (each carries half-switching current, addressing a specific core at the intersection), sense wire (detects the voltage pulse when a core flips state during read), and inhibit wire (carries opposing current during write to prevent unwanted switching of cores on the same X or Y line). Threading requires high dexterity or semi-automated machines.

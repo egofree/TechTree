@@ -20,7 +20,6 @@ Textile production requires strong, fine, continuous fibers for weaving high-qua
 - [Water access](../agriculture/irrigation.md) — clean water for reeling basin, humidity control, and cleaning
 - [Textile fiber processing](../textiles/fibers.md) — downstream spinning, weaving, and finishing capability
 
-## Overview
 
 Sericulture is the controlled rearing of silkworms (*Bombyx mori*) for silk fiber production. It is the only animal husbandry practice where the output is a continuous filament rather than a staple fiber that must be spun from short lengths. A single cocoon yields 300-900 m of continuous silk thread, and the resulting fiber has a higher strength-to-weight ratio than steel. No other natural material matches silk's combination of tensile strength, fineness, and luster.
 
@@ -32,13 +31,13 @@ Silk production originated in China before 3000 BCE and remained a closely guard
 
 White mulberry (*Morus alba*) is the preferred species for silkworm feeding. The leaves are tender, palatable, and nutritionally superior to other *Morus* species. Black mulberry (*Morus nigra*) and red mulberry (*Morus rubra*) leaves are acceptable but produce slower larval growth and lower cocoon yields.
 
-### Planting and Spacing
+## Planting and Spacing
 
 Propagation by hardwood cuttings is the standard method. Select 20-25 cm cuttings from vigorous one-year-old wood in late winter or early spring. Plant in prepared soil with two-thirds of the cutting below ground. Rooting takes 4-6 weeks. Space trees 3-4 m apart in rows 3-4 m apart, giving 625-1,100 trees per hectare. Closer spacing increases early leaf yield but requires pruning to prevent shading.
 
 Mulberry grows in any well-drained soil with pH 6.0-7.0. It tolerates poor conditions, but leaf quality and protein content drop on acidic or waterlogged ground. A soil test before planting avoids disappointment later. Light sandy loam is ideal. Heavy clay needs drainage channels or raised beds.
 
-### Leaf Yield and Harvest
+## Leaf Yield and Harvest
 
 Trees reach harvestable size 3-4 years after planting. Full production begins around year 5-7. Leaf yield on established trees runs 10-15 tonnes of fresh leaves per hectare per year, harvested in 3-4 cuttings per growing season.
 
@@ -46,7 +45,7 @@ Harvest by stripping leaves from branches or by cutting whole branches and strip
 
 Productive lifespan of a mulberry tree is 30-50 years. Annual pruning maintains accessible height (1.5-2.0 m) and stimulates fresh shoot growth. Coppicing, cutting the tree to stump height every 8-12 years, rejuvenates old plantations and maintains leaf quality.
 
-### Leaf Nutrient Profile
+## Leaf Nutrient Profile
 
 Fresh mulberry leaves contain 20-25% dry matter. Of that dry matter: 15-28% crude protein, 2-4% crude fat, 8-12% crude fiber, and 10-15% minerals. The high protein content drives silkworm growth and silk protein synthesis. Water-stressed trees produce lower-protein leaves, which translates directly into smaller cocoons and less silk.
 
@@ -54,7 +53,7 @@ One hectare of mature mulberry supports 10-15 boxes of silkworm eggs per rearing
 
 ## Silkworm Rearing
 
-### Lifecycle
+## Lifecycle
 
 *Bombyx mori* is a fully domesticated moth that cannot survive in the wild. It has been bred for silk production for over 5,000 years and has lost the ability to fly, find food, or evade predators. The entire lifecycle depends on human management.
 
@@ -72,7 +71,7 @@ The lifecycle from egg to moth runs approximately 45-60 days:
 | Pupa | 10-14 days | Metamorphosis inside the cocoon. This stage is interrupted by stifling (see Cocoon Harvesting). |
 | Moth | 1-2 days (if allowed) | Emerges by secreting an enzyme to soften the cocoon and pushing through. Breaks the continuous filament, making the silk useless for reeling. This is why pupae are killed before emergence. |
 
-### Environmental Control
+## Environmental Control
 
 Temperature and humidity are the primary environmental variables. The rearing room must maintain tight tolerances:
 
@@ -84,7 +83,7 @@ Ventilation must provide fresh air without drafts. Carbon dioxide from larval re
 
 Light should be natural and diffuse. Direct sunlight dries out larvae and causes uneven heating. Darkness during spinning encourages uniform cocoon formation.
 
-### Feeding
+## Feeding
 
 Fresh mulberry leaves 3-4 times daily. Early morning, late morning, afternoon, and evening feedings are standard. The 5th instar larva eats 20-25 g of fresh leaf per day, roughly 5 times its own body weight.
 
@@ -92,7 +91,7 @@ One box of silkworm eggs contains approximately 20,000 larvae and requires 500-6
 
 Feed quality degrades after picking. Keep harvested leaves in a cool, shaded place and cover with damp cloth to slow wilting. Never feed frost-damaged, diseased, or pesticide-contaminated leaves. Even small amounts of leaf contamination cause larval die-offs.
 
-### Rearing Equipment
+## Rearing Equipment
 
 **Trays**: Bamboo or wooden trays, typically 90 x 60 cm, with 2-5 cm raised edges. Each tray holds 200-500 larvae depending on instar. Stack trays on wooden or bamboo racks, spaced 15-20 cm apart vertically for air circulation and access. A rack holding 20 trays at 5 levels supports 4,000-10,000 larvae per rearing cycle.
 
@@ -100,7 +99,7 @@ Feed quality degrades after picking. Keep harvested leaves in a cool, shaded pla
 
 **Spinning mounts**: When 5th instar larvae stop feeding and begin wandering, transfer them to spinning mounts. Traditional mounts are straw bundles, corrugated cardboard frames, or paper cones arranged on trays. Each larva needs a separate cell or space roughly 3 x 3 cm. Spinning density: 400-500 cocoons per m² of mount surface.
 
-### Disease Management
+## Disease Management
 
 Silkworms are susceptible to several diseases that spread rapidly in crowded rearing conditions:
 
@@ -113,13 +112,13 @@ Prevention is the only viable strategy. Disinfect all trays, racks, and the rear
 
 ## Cocoon Harvesting
 
-### Timing
+## Timing
 
 Harvest cocoons on day 7-8 of spinning, when the cocoon wall is fully formed and the larva has pupated inside. Harvesting too early yields incomplete or thin-walled cocoons. Harvesting too late risks moth emergence, which ruins the filament for reeling.
 
 Sort harvested cocoons by quality. Firm, uniformly shaped cocoons with a dense, even wall are preferred for reeling. Thin, soft, or irregular cocoons are set aside for lower-grade "spun silk" production (broken filaments carded and spun like other staple fibers). Double cocoons (two larvae spinning together) produce a coarser, tangled filament used for heavier fabrics. Remove any cocoons with visible holes, stains, or mold.
 
-### Stifling
+## Stifling
 
 The pupae must be killed before they can emerge and break the silk filament. Three traditional methods work:
 
@@ -129,7 +128,7 @@ The pupae must be killed before they can emerge and break the silk filament. Thr
 
 After stifling, dried cocoons can be stored for months before reeling. Keep them dry and protected from insects, particularly dermestid beetles, which will eat the pupal remains inside and damage the cocoon wall.
 
-### Yield
+## Yield
 
 One box of silkworm eggs (20,000 larvae) yields:
 - 30-40 kg fresh cocoons (1.5-2.0 g per cocoon)
@@ -142,13 +141,13 @@ Pupal remains are high-protein animal feed. In silk-producing regions, they are 
 
 Reeling is the process of unwinding the continuous silk filament from the cocoon and combining multiple filaments into a single thread strong enough for textile use.
 
-### Degumming for Reeling (Brushing)
+## Degumming for Reeling (Brushing)
 
 Place stifled cocoons in a pot of water at 95-100°C. Boil for 5-10 minutes to soften the sericin gum that holds the cocoon layers together. The outer floss (loose, tangled filament on the cocoon surface) is removed by hand.
 
 Find the filament end by brushing the softened cocoon with a bamboo whisk or small broom. The whisk catches the loose end of the continuous filament. A skilled reeler locates the end in seconds. The filament pays out from the cocoon like thread from a spool.
 
-### Filament Properties and Reeling Practice
+## Filament Properties and Reeling Practice
 
 Each cocoon contains a single continuous filament 300-900 m long. Only the inner 200-700 m is usable; the outer layer is too fine and tangled, and the innermost layer wraps too tightly around the pupa. Filament diameter is 15-25 μm, thinner than a human hair and invisible to the naked eye at individual scale.
 
@@ -158,7 +157,7 @@ A single filament is too fine for practical use. Reel 5-10 cocoon filaments toge
 
 As a cocoon runs out of filament, it must be replaced with a fresh one to maintain consistent thread thickness. The reeler continuously adds new cocoons to the basin and joins their filaments to the running thread. This is the skill that takes months to learn. Uneven joining produces weak spots and slubs in the finished thread.
 
-### Reeling Water
+## Reeling Water
 
 Water quality affects silk luster and color. Hard water leaves mineral deposits on the filament, producing a dull, rough thread. Soft or filtered water is essential for high-quality silk. Rainwater, passed through sand and cloth, works well. The reeling basin water must be changed frequently as dissolved sericin builds up.
 
@@ -181,19 +180,19 @@ Silk is the strongest natural fiber. Its strength-to-weight ratio exceeds that o
 
 ## Products and Applications
 
-### Textiles
+## Textiles
 
 The primary use. Silk fabric is smooth, lightweight, and breathable. A single silk kimono requires the output of roughly 3,000-5,000 cocoons. Woven silk has been traded as currency, used as diplomatic gifts, and valued above gold by weight in several historical periods. The weaving techniques are covered in [Fiber Processing](../textiles/fibers.md).
 
-### Medical Sutures
+## Medical Sutures
 
 Silk thread is an absorbable surgical suture with a degradation time of 6-8 weeks in body tissue. The protein fiber is biocompatible, causes minimal inflammatory response, and handles well during suturing due to its flexibility and knot-holding ability. Braided silk sutures remain in use today alongside synthetic alternatives. For suture production, the silk is degummed, braided, and sterilized by autoclaving or gamma irradiation.
 
-### Parachutes and Cordage
+## Parachutes and Cordage
 
 Silk's combination of high strength, low weight, and resistance to sudden loading made it the standard parachute material from the late 18th century through World War II. A standard personnel parachute required 30-35 m² of silk fabric. Silk cord and fishing line exploit the same properties: thin, strong, and flexible. Silk fishing line was preferred over horsehair and gut for its knot strength and abrasion resistance.
 
-### Industrial Applications
+## Industrial Applications
 
 - **Powderless gloves**: Silk fabric gloves prevent static discharge and particulate contamination. Used in clean environments.
 - **Electrical insulation**: Thin silk paper, layers of flattened silk thread bonded with shellac or varnish, insulates transformer windings and motor coils. Silk paper has higher dielectric strength than cotton and can be made thinner. This application persists in some high-voltage equipment.
@@ -212,7 +211,7 @@ Silk's combination of high strength, low weight, and resistance to sudden loadin
 | Thread breaks frequently during reeling | Water too cool (<90°C), filament tension too high, or poor-quality cocoons | Maintain basin at 95-100°C; adjust reel tension; grade cocoons before reeling |
 | Yellowed or discolored silk | Incomplete degumming or iron-contaminated water | Extend degumming time; use soft water; avoid iron vessels |
 
-### Safety
+## Safety
 
 - **Inhalation of cocoon debris**: Cocoon floss, dust, and frass become airborne during sorting and stifling. Prolonged inhalation causes respiratory irritation and allergic reactions. Work in ventilated spaces. Wear a cloth mask over nose and mouth when handling large quantities of dry cocoons.
 - **Hot water burns during reeling**: The reeling basin holds water at 95-100°C. Hands and forearms pass near the surface repeatedly. Burns from splashing or accidental immersion are the most common reeling injury. Use long tongs or bamboo sticks to handle cocoons in the basin. Keep a bucket of cool water nearby for immediate first aid.
@@ -220,7 +219,7 @@ Silk's combination of high strength, low weight, and resistance to sudden loadin
 - **Steam exposure during stifling**: Steam at 100°C causes scalds faster than hot water. Use tongs or thick gloves when loading and unloading steaming racks. Do not lean over the steam source.
 - **Dermestid beetles and stored cocoons**: Dried cocoons stored for extended periods attract dermestid beetles, which bore through the cocoon wall and consume the pupal remains. Infested cocoons cannot be reeled for quality silk. Store dried cocoons in sealed containers or bags, and inspect regularly for signs of insect damage.
 
-### See Also
+## See Also
 
 - [Animal Domestication](domestication.md) — principles of captive animal management
 - [Fiber Processing](../textiles/fibers.md) — silk thread weaving and knitting techniques

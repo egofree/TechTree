@@ -7,9 +7,7 @@
 > **Timeline**: Years 5-50+
 > **Outputs**: fortifications, defensive_structures, walls, towers, castle_fortifications
 
----
 
-## Overview
 
 Fortification engineering is the design and construction of defensive structures that protect people, resources, and infrastructure from military attack. From simple log palisades to star forts resisting cannon bombardment, fortifications represent the largest material investments any community makes in its defense.
 
@@ -17,7 +15,6 @@ Fortifications are fundamentally civil engineering projects with defensive desig
 
 The critical design principle for all fortifications is layered defense in depth: no single wall or obstacle should be the only barrier between attackers and the defended objective. Concentric castle design, multiple ditches, interlocking fields of fire, and interior lines of communication ensure that breaching one element exposes attackers to defense from the next. A well-designed fortification with a competent garrison historically resists attack at 3:1 odds or worse.
 
----
 
 ## Bill of Materials
 
@@ -31,11 +28,10 @@ The critical design principle for all fortifications is layered defense in depth
 | Star fort bastion | Earth + stone facing | 5000 m3 earth, 500 m3 stone | 10,000 m3 excavation for ditches | [Mining](../mining/index.md) |
 | Gabion wall (2 m) | Willow/hazel withies + earth | 200-300 gabions, 60-100 cm dia | Iron wire for tying, stakes for anchoring | [Foundations](../foundations/index.md) |
 
----
 
 ## Fortification Types by Era
 
-### Palisades & Basic Field Defenses (Years 0-5)
+## Palisades & Basic Field Defenses (Years 0-5)
 
 **Simple palisade**: Vertical logs (15-30 cm diameter, 2-4 m exposed height above ground, 0.8-1.2 m buried) set in continuous trench (0.5 m wide x 1.0 m deep), packed with earth and rubble. Log preparation: debarked hardwood (oak, chestnut preferred), pointed tops, fire-hardened tips. Construction rate: 8-12 m of palisade per 20-person work party per day. Provides barrier against infantry assault and cavalry charge. Vulnerable to fire (counter: plaster with clay or keep wet).
 
@@ -71,7 +67,7 @@ The critical design principle for all fortifications is layered defense in depth
 - Logs rot at ground contact — 5-15 year lifespan unless replaced at ground line with stone
 - No protection against determined ram assault — requires supplementary ditch and abatis
 
-### Earthwork Fortifications (Years 5-15)
+## Earthwork Fortifications (Years 5-15)
 
 **Earthen rampart**: Compacted earth and clay, 3-8 m height, 60 degree slope on outer face (steeper requires revetment), 30-45 degrees on inner face for easy access. Crown width: 2-4 m (accommodates defenders walking and fighting). Construction: layered earth (0.3-0.5 m lifts) compacted by tamping. Core: alternate layers of earth and gravel for drainage. Turf facing on outer slope prevents erosion. Rampart volume: 1 m of 5 m high rampart requires ~15 m3 of earth -- 200-300 worker-days per 100 m of rampart.
 
@@ -81,7 +77,7 @@ The critical design principle for all fortifications is layered defense in depth
 
 **Gabion**: Cylindrical basket (60-100 cm diameter x 80-120 cm height) woven from willow or hazel withies, filled with earth or rock. Used for: revetment of earthwork slopes, parapet construction under fire (fill and stack gabions rapidly), and temporary field fortification. Gabion wall: stacked 2-3 high provides 1.5-2.5 m protection. Stop small-arms fire and artillery fragments. Assembly rate: 1 gabion per 30 minutes by 2 workers.
 
-### Stone Fortifications (Years 10-30)
+## Stone Fortifications (Years 10-30)
 
 **Stone curtain wall**: Dressed stone (limestone, sandstone, granite) laid in courses with lime mortar (see [Cement](../chemistry/cement.md) for mortar production). Dimensions: 6-12 m height, 1.5-3.0 m thickness at base, 0.8-1.5 m at parapet. Foundation: trench 1.5-2.0 m deep to subsoil, wider than wall base by 0.5 m each side. Wall walk: 1.5-2.5 m wide behind parapet, protected by crenellations (merlon height 1.5-2.0 m, crenel width 0.5-0.8 m, merlon width 1.5-2.5 m). Construction rate: 2-5 m of wall height per year for 100-m crew (dressing stone is the bottleneck -- 5-10 dressed stones per mason per day).
 
@@ -117,7 +113,7 @@ The critical design principle for all fortifications is layered defense in depth
 - Requires skilled stonemasons and organized lime mortar production
 - Vertical profile vulnerable to cannon fire — post-gunpowder fortifications require lower, thicker earthwork design
 
-### Castle Architecture (Years 15-40)
+## Castle Architecture (Years 15-40)
 
 **Castle keep (donjon)**: Massive stone tower, final stronghold. Dimensions: 15-30 m height, 8-15 m sides (square) or 10-18 m diameter (round). Wall thickness: 2.5-4.0 m at base, 1.5-2.5 m at top. Materials: ashlar (dressed stone) facing with rubble core, lime mortar. Internal floors: 3-5 levels (ground: storage/well, 1st: great hall, 2nd: lord's chamber, top: fighting platform). Entry: first floor level via external stone staircase (removable wooden section) -- eliminates direct ground-level assault on door. Door: iron-bound oak, 10-15 cm thick, behind stone archway.
 
@@ -125,7 +121,7 @@ The critical design principle for all fortifications is layered defense in depth
 
 **Postern gate**: Small secondary gate (1.0-1.5 m wide) in concealed location, for sorties and emergency escape. Protected by: iron grille, concealed approach, guarded passage. If discovered and attacked: small size limits assault force to 2-3 men abreast -- easily defended.
 
-### Star Forts & Trace Italienne (Years 25-50)
+## Star Forts & Trace Italienne (Years 25-50)
 
 **Gunpowder revolution**: Cannon rendered high vertical stone walls obsolete -- stone curtain wall breached by sustained cannon fire in hours to days. Response: low, thick earthwork fortifications (absorb cannon shot without catastrophic failure) with angled bastions providing mutual flanking fire.
 
@@ -135,7 +131,7 @@ The critical design principle for all fortifications is layered defense in depth
 
 **Siege resistance**: Well-designed star fort with competent garrison resists siege for months. Defenders' advantages: interior lines of communication (move troops rapidly behind walls), flanking fire from bastions covers all approaches, counter-mining to intercept besieger's tunnels, sorties through sally ports to disrupt siege works. Attackers must approach by zigzag trenches (saps) to avoid enfilade fire from bastions -- slow, labor-intensive process.
 
-### Modern Fortification Elements (Years 30-50+)
+## Modern Fortification Elements (Years 30-50+)
 
 **Bunker and pillbox**: Reinforced concrete shelter for troops and weapons. Concrete: 300-1000 mm roof thickness (resists 75-150 mm shell), reinforced with steel rebar (see [Cement](../chemistry/cement.md) for concrete mix design). Steel-reinforced door and ventilation. Firing port: 15-30 cm wide, for machine gun or rifle. Sited for mutually supporting fields of fire.
 
@@ -143,11 +139,10 @@ The critical design principle for all fortifications is layered defense in depth
 
 **Barbed wire obstacle**: 3-5 belts of concertina wire, each 10-15 m deep, spaced 20-30 m apart. Wire: 2-strand twisted wire with barbs at 10-15 cm intervals, 1.6-2.0 mm wire diameter. Concertina coil: 75-100 cm diameter, 15 m stretched length per coil. Delays assaulting infantry 3-5 minutes per belt under fire -- decisive tactical advantage for defenders.
 
----
 
 ## Quantitative Parameters
 
-### Fortification Material Quantities
+## Fortification Material Quantities
 
 | Fortification Type | Material per 100 m Frontage | Labor (worker-days) | Construction Time |
 |--------------------|---------------------------|--------------------|--------------------|
@@ -157,7 +152,7 @@ The critical design principle for all fortifications is layered defense in depth
 | Stone curtain wall (8x2 m) | 1600 m3 stone, 200 m3 mortar | 5000-10000 | 6-18 months |
 | Star fort bastion | 5000 m3 earth, 500 m3 stone facing | 8000-15000 | 1-3 years |
 
-### Stone Strength by Type
+## Stone Strength by Type
 
 | Stone Type | Compressive Strength (MPa) | Workability | Weathering Resistance | Best Use |
 |------------|---------------------------|-------------|----------------------|----------|
@@ -167,7 +162,7 @@ The critical design principle for all fortifications is layered defense in depth
 | Flint (knapped) | 200+ | Difficult | Excellent | Facing, defensive surfaces |
 | Marble | 50-150 | Moderate | Good | Decorative elements (not structural) |
 
-### Mortar Strength Comparison
+## Mortar Strength Comparison
 
 | Mortar Type | Compressive Strength (MPa) | Setting Mechanism | Set Time | Best Application |
 |-------------|---------------------------|-------------------|----------|-----------------|
@@ -176,7 +171,7 @@ The critical design principle for all fortifications is layered defense in depth
 | Roman concrete (pozzolana) | 5-20 | Hydration | Days | Underwater structures, piers |
 | Portland cement concrete | 20-40 | Hydration | 28 days (full strength) | Modern fortifications, bunkers |
 
-### Defensive Engagement Ranges
+## Defensive Engagement Ranges
 
 | Defender Weapon | Effective Range (m) | Coverage from Wall | Minimum Wall Height for Advantage |
 |----------------|--------------------|--------------------|-----------------------------------|
@@ -186,7 +181,6 @@ The critical design principle for all fortifications is layered defense in depth
 | Musket | 50-80 | From parapet to glacis | 4 m |
 | Cannon (siege) | 200-600 | From bastion to approach works | N/A (platform) |
 
----
 
 ## Wall Construction Techniques
 
@@ -196,7 +190,7 @@ The critical design principle for all fortifications is layered defense in depth
 
 **Dry-stone construction**: Stone walls built without mortar, relying on gravity and friction for stability. Requires skillful selection and placement -- each stone must be precisely fitted. Common in early fortifications where lime mortar not available. Maximum height: 3-5 m (taller walls require mortar for bonding). More vulnerable to sapping (no mortar to resist undermining) and weathering (joints erode).
 
-### Mortar & Concrete for Fortifications
+## Mortar & Concrete for Fortifications
 
 **Lime mortar**: Quicklime (CaO, produced by calcining limestone at 900-1000 degrees C) slaked with water to produce lime putty (Ca(OH)2), mixed with sand aggregate at 1:2 to 1:3 ratio. Sets by carbonation (absorbing CO2 from air -> CaCO3), which is slow (weeks to months for full set). Compressive strength: 2-5 MPa (adequate for wall construction, not for horizontal spans). Mortar joints: 5-15 mm typical. See [Chemistry: Cement](../chemistry/cement.md) for production details.
 
@@ -204,7 +198,6 @@ The critical design principle for all fortifications is layered defense in depth
 
 **Concrete (Portland cement era)**: 1:2:4 mix (cement:sand:gravel) by volume, compressive strength 20-40 MPa at 28 days. Reinforced with steel rebar (deformed bars, 10-25 mm diameter, 150-300 mm spacing). Reinforced concrete fortification: 300-1000 mm wall thickness resists artillery shells. Requires industrial chemistry for Portland cement production -- see [Cement](../chemistry/cement.md).
 
----
 
 ## Gate & Entry Defense in Detail
 
@@ -214,7 +207,6 @@ The critical design principle for all fortifications is layered defense in depth
 
 **Drawbridge mechanics**: Counterweighted bascule bridge (hinged at gatehouse end). Counterweight in pit below bridge level -- when chains release, counterweight pulls bridge up. Alternative: chain-lifted bridge wound by windlass in gatehouse chamber. Bridge span: 3-5 m (width of moat at crossing point). Bridge deck: 10-15 cm oak planks on timber framework, iron-strapped joints. Defensive: when raised, the gap is an unbridgeable void over the moat.
 
----
 
 ## Water Supply & Drainage
 
@@ -224,7 +216,6 @@ The critical design principle for all fortifications is layered defense in depth
 
 **Drainage**: Interior courtyards and wall walks must drain to prevent waterlogging and structural damage. Stone-lined drainage channels (15-30 cm wide, 5-10 cm deep) with 1-2% gradient. Drain outlets through wall base: stone spouts projecting 20-30 cm from wall face (prevent water running down wall and eroding mortar). French drain (gravel-filled trench) behind retaining walls relieves hydrostatic pressure on earth ramparts -- prevents waterlogged soil from collapsing the wall.
 
----
 
 ## Scaling Notes
 
@@ -234,7 +225,6 @@ The critical design principle for all fortifications is layered defense in depth
 - **Star fort (military garrison, 500-3000 soldiers)**: 4-8 bastions, 500-2000 m perimeter, ditches, glacis, covered way, powder magazine, barracks. Construction: 1-5 years, 50000-200000 worker-days. Earth moving is the primary labor (5000-20000 m3 per bastion). Requires military engineer for layout, large labor force, and state-level funding.
 - **Garrison sizing**: Minimum 1 soldier per 2-3 m of curtain wall for effective defense. Castle: 30-100 soldiers. Star fort: 500-3000 soldiers. Under-garrisoned fortifications cannot man all sectors simultaneously, creating exploitable weak points.
 
----
 
 ## Troubleshooting
 
@@ -251,7 +241,6 @@ The critical design principle for all fortifications is layered defense in depth
 | Cistern water contamination | Open cistern, animal/bird access, sediment | Cover cistern with stone cap; install sand filter at inlet; clean sediment annually |
 | Drawbridge mechanism jamming | Rusted chains, swollen timber, counterweight shift | Oil chains and pivot points weekly; use seasoned oak for bridge; inspect counterweight shaft for debris |
 
----
 
 ## Safety Considerations
 
@@ -263,7 +252,6 @@ The critical design principle for all fortifications is layered defense in depth
 - **Powder magazine explosion risk**: Gunpowder storage in fortifications requires bomb-proof construction (earth-bermed, stone-vaulted chamber). No naked flames, no metal-sparking tools, single entrance with blast deflection wall. Magazine detonation destroys adjacent structures and kills garrison within 50 m.
 - **Structural overload during siege**: Sustained bombardment weakens walls unpredictably. Evacuate wall walks under cannon fire. Inspect walls after bombardment for structural cracks before re-manning. Partially collapsed wall can give way without warning under the weight of defenders.
 
----
 
 ## Field Fortification Tactics
 
@@ -275,7 +263,6 @@ The critical design principle for all fortifications is layered defense in depth
 
 **Camouflage and deception**: Field fortifications concealed from enemy observation using natural materials (branches, sod, netting). Dummy positions constructed to draw fire and mislead enemy about true defensive layout. Decoy fires, false trench lines, and fabricated equipment visible from the air or elevated positions. Effective deception delays enemy reconnaissance and causes misallocation of artillery fire.
 
----
 
 ## Fortification Lifecycle & Maintenance
 
@@ -285,7 +272,6 @@ The critical design principle for all fortifications is layered defense in depth
 
 **Supply storage**: Fortress stores for sustained siege: grain (2 kg per soldier per day x siege duration x garrison size), salted meat/fish, dried legumes, beer or wine (water safety), firewood (2-3 kg per soldier per day for cooking), ammunition (arrows: 50-100 per defender, powder and shot for artillery), medical supplies. Storage rooms: vaulted stone chambers on ground floor of keep or towers -- cool, dry, protected from fire.
 
----
 
 ## Limitations
 
@@ -302,9 +288,8 @@ The critical design principle for all fortifications is layered defense in depth
 - **Historical attrition**: Most fortifications were captured by treachery, surprise, or starvation -- not by assault. Direct assault on prepared fortifications has historically low success rate (20-30%). Besiegers prefer to wait for defenders to run out of food or negotiate surrender. This means logistics and morale matter more than wall thickness in most sieges.
 - **Redundancy principle**: No single defensive element should be critical. Multiple walls, multiple gates, multiple water sources, multiple lines of fire. If any one element falls, the defense continues from the next layer. Concentric castle design embodies this principle -- breach the outer wall and you face a taller inner wall with fresh defenders.
 
----
 
-## References
+## See Also
 
 - **[Cement & Concrete](../chemistry/cement.md)** -- Mortar and concrete for fortification construction
 - **[Ceramics & Refractories](../ceramics/index.md)** -- Firebrick for kiln and furnace construction
@@ -313,6 +298,7 @@ The critical design principle for all fortifications is layered defense in depth
 - **[Construction](../construction/index.md)** -- General building techniques used in fortification
 - **[Governance](../economics-organization/governance.md)** -- Organizational structures for mobilizing fortification labor
 
----
 
  *Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*
+
+[← Back to defense](index.md)

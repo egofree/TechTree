@@ -8,7 +8,6 @@
 > **Outputs**: electric_arc_furnaces, resistance_heaters, eaf_steel
 > **Critical**: Yes — electric furnaces are the only route to temperatures above 1500°C in controlled atmosphere; essential for steel recycling, silicon reduction, and ferroalloy production
 
-## Overview
 
 Electric furnaces convert electrical energy into high-temperature heat for smelting, melting, and heat treatment. They are the only practical route to temperatures above ~1500°C in a controlled atmosphere, making them indispensable for steel recycling, silicon reduction, ferroalloy production, and advanced ceramics. Three main families exist: **[electric arc furnaces](../glossary/electric-arc-furnaces.md)** (EAF), **[submerged arc furnaces](../glossary/submerged-arc-furnaces.md)** (SAF), and **resistance heating furnaces**. For a broader electrical context, see [electricity.md](electricity.md); for silicon-specific EAF operation, see [mg-si-production.md](../silicon/mg-si-production.md).
 

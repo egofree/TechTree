@@ -220,7 +220,6 @@ Shellac was one of the first materials traded on a large scale between Asia and 
 
 **Shellac's enduring value**: Despite 100+ years of synthetic alternatives, shellac survives because it combines properties that no single synthetic material matches: non-toxic (GRAS food-safe), fast-drying (15-30 minutes — faster than any synthetic varnish), reversible (dissolves in ethanol — allows repair and restoration), excellent adhesion to almost any substrate, natural product (renewable, biodegradable), and produces a distinctive warm, deep finish that synthetic finishes cannot replicate. These properties ensure shellac's continued use in specialized applications long after its mass-market roles have been taken over by synthetics.
 
----
 
 
 ## Comparison with Synthetic Finishes

@@ -17,23 +17,23 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 
 ## Prerequisites
 
-### Materials
+## Materials
 
 - **Recording media**: Clay tablets (50-500 per year for active accounts), papyrus/paper (20-100 sheets per year), or wax tablets for temporary records. Quantity scales with transaction volume.
 
-### Tools and Equipment
+## Tools and Equipment
 
 - [Writing implements](../knowledge/writing.md): Styluses for clay, pens/brushes for papyrus or paper.
 - [Calculation tools](../mathematics/core-mathematics.md): Abacus or counting board for rapid arithmetic. An abacus reduces calculation time by 3-5x compared to mental arithmetic for multi-digit operations.
 - Balance scales: For inventory verification (weighing stock against records).
 
-### Knowledge
+## Knowledge
 
 - **Arithmetic proficiency**: Addition, subtraction, multiplication, and division of quantities and values. Minimum: facility with 4-digit numbers for accumulated totals.
 - **Double-entry principles**: Every transaction recorded in two places (debit and credit) so that the sum of all accounts always balances. This error-detection mechanism is the foundation of reliable accounting.
 - **Classification systems**: The ability to group transactions into categories (materials purchased, labor costs, goods sold, overhead) for meaningful analysis.
 
-### Infrastructure
+## Infrastructure
 
 - Secure records storage: Dry, fire-protected space for ledgers. Accounting records are irreplaceable — loss of records means loss of economic memory.
 - Work surfaces: Tables or desks for writing and calculation.
@@ -52,7 +52,7 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 
 ## Process Description
 
-### 4.1 Setting Up an Accounting System
+## 4.1 Setting Up an Accounting System
 
 1. **Define the unit of account**: Choose a standard value unit. If [currency](./currency.md) exists, use the monetary unit (e.g., "copper coins"). If not, use a commodity reference (e.g., "kg grain equivalent"). All transactions are recorded in this unit.
 
@@ -69,7 +69,7 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 
 **Decision criteria**: Use single-entry (cash book) when transaction volume is <50/month and the community has <50 regular trading partners. Switch to double-entry when any of these thresholds is exceeded, or when error rates in single-entry exceed 3% per 100 entries.
 
-### 4.2 Recording Transactions
+## 4.2 Recording Transactions
 
 4. **Record each transaction in real-time**: Do not batch — record as transactions occur. For each trade, purchase, or production input consumed:
    - Identify the two accounts affected (e.g., "Inventory" and "Cash")
@@ -90,7 +90,7 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 - Time overhead — every transaction recorded twice doubles recording time vs single-entry
 - No fraud prevention — colluding bookkeepers can create balanced but fictitious entries
 
-### 4.3 Periodic Reporting
+## 4.3 Periodic Reporting
 
 7. **Close the books monthly**: Sum each account's balance. Calculate key metrics:
    - Total inventory value
@@ -121,7 +121,7 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 
 ## Quantitative Parameters
 
-### Accounting Precision Requirements
+## Accounting Precision Requirements
 
 | Metric | Bronze-Age (Clay Tablets) | Iron-Age (Papyrus/Paper) | Industrial (Bound Ledgers) |
 |--------|---------------------------|--------------------------|----------------------------|
@@ -133,7 +133,7 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 | Record retention period | Permanent (baked clay) | 10-50 years (papyrus) | 7-30 years (paper) |
 | Ledger capacity (entries per volume) | 50-200 per tablet | 500-2,000 per scroll | 5,000-20,000 per bound book |
 
-### Key Financial Ratios for Bootstrap Communities
+## Key Financial Ratios for Bootstrap Communities
 
 | Ratio | Formula | Healthy Range | Warning Threshold |
 |-------|---------|---------------|-------------------|
@@ -193,7 +193,7 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 | Clay token accounting | Shaped clay tokens represent goods quantities | Earliest accounting (pre-writing) | No written detail; limited to simple counting |
 | Spreadsheet (paper) | Tabular format with rows and columns | Multi-category analysis | Labor-intensive for large datasets |
 
-### Accounting Method Trade-offs
+## Accounting Method Trade-offs
 
 | Method | Error Detection | Scalability | Training Required | Setup Cost | Best Transaction Volume |
 |--------|:-:|:-:|:-:|:-:|:-:|
@@ -204,7 +204,7 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 | Clay tokens | Low (physical count) | Poor | Low (hours) | Near zero | <30/month |
 | Spreadsheet | Moderate (formula check) | Moderate | Moderate | Low | 100-1000/month |
 
-### Accounting System Evolution by Era
+## Accounting System Evolution by Era
 
 | Era | Recording Medium | Calculation Tool | Typical Ledger Size | Key Innovation |
 |-----|-----------------|-----------------|---------------------|----------------|

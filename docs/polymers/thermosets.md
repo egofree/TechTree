@@ -22,7 +22,7 @@ The major thermoset families — phenolic (Bakelite), epoxy, unsaturated polyest
 
 ## Materials and Processes
 
-### Phenol-Formaldehyde (Bakelite)
+## Phenol-Formaldehyde (Bakelite)
 
 First synthetic plastic (commercialized 1909). Phenol + formaldehyde condensation polymerization, two distinct routes:
 
@@ -36,7 +36,7 @@ First synthetic plastic (commercialized 1909). Phenol + formaldehyde condensatio
 - Applications: electrical insulators, switchgear components, distributor caps, molded fittings, early plastic goods
 - Note: novolac resins are also the basis for positive-tone photoresist binders in [Photolithography](../photolithography/resists-masks.md)
 
-### Epoxy Resins
+## Epoxy Resins
 
 Bisphenol-A + epichlorohydrin yields diglycidyl ether of bisphenol-A (DGEBA), the workhorse epoxy prepolymer. The epoxy group (three-membered oxirane ring) is highly strained and reactive with nucleophiles (amines, acids, thiols). Cured with hardeners in a two-part formulation:
 
@@ -53,7 +53,7 @@ Properties: high adhesive strength (tensile shear on Al-Al: 15-25 MPa for room-t
 
 Applications: die attach adhesive ([Semiconductor Packaging](../chemistry/packaging-testing.md) — epoxy-silver adhesive attaches the silicon die to the lead frame with both mechanical bonding and thermal conductivity), IC encapsulation (transfer-molded epoxy with silica filler encapsulates the integrated circuit for mechanical and environmental protection — >95% of all ICs are packaged in epoxy molding compound), composite matrix resin (see [Composites](./composites.md)), structural adhesive (aircraft, automotive, and construction bonding — epoxy adhesives can replace rivets and bolts in many applications, distributing stress more evenly across the joint), PCB substrate bonding (copper-clad FR-4 laminate — the epoxy matrix bonds copper foil to the glass-fiber substrate), protective coatings (pipeline coatings, tank linings, marine anti-corrosion primers — epoxy provides the best adhesion to steel of any organic coating).
 
-### Phenolic Laminates (FR-4 / G-10)
+## Phenolic Laminates (FR-4 / G-10)
 
 Phenolic or epoxy resin impregnated into paper (phenolic grades) or woven glass fabric (epoxy grades), then layered and hot-pressed. The resulting laminate is a rigid, dimensionally stable sheet with excellent electrical insulation properties.
 
@@ -66,7 +66,7 @@ Properties: excellent electrical insulation (surface resistivity >10¹³ Ω), di
 
 Applications: **[PCB substrates](../glossary/pcb-substrates.md)** (critical dependency for [Photolithography](../photolithography/resists-masks.md) semiconductor path), electrical panels, terminal boards, brake linings, bearing retainers, structural insulating panels.
 
-### Unsaturated Polyester Resin
+## Unsaturated Polyester Resin
 
 Propylene glycol + maleic anhydride (unsaturated dibasic acid, provides the C=C double bonds for cross-linking) + phthalic anhydride (saturated modifier, adjusts rigidity and cost — more phthalic = more rigid, lower cost) condensed into a low-molecular-weight polyester prepolymer (1000-3000 g/mol). Dissolved in styrene monomer (~30–40% by weight) as reactive diluent and cross-linking co-monomer.
 
@@ -77,7 +77,7 @@ Cure mechanism: free-radical polymerization initiated by MEKP (methyl ethyl keto
 - Properties: good strength-to-weight ratio (specific tensile strength ~80-120 kN·m/kg — comparable to aluminum at ~100 kN·m/kg), corrosion resistant (no rust, no galvanic corrosion — fiberglass tanks are standard for chemical storage), easily molded into complex shapes
 - Applications: fiberglass composite matrix (most common resin for hand layup — ~80% of all fiberglass production uses polyester resin), boat hulls (the largest single application — a 10 m sailboat hull requires ~500-800 kg of fiberglass/polyester composite), tanks, panels, corrosion-resistant equipment, structural enclosures, automotive body panels (Corvette body has been fiberglass-reinforced polyester since 1953)
 
-### Polyurethane / Polyurea
+## Polyurethane / Polyurea
 
 Isocyanate chemistry is the foundation. Diisocyanates (TDI: toluene diisocyanate, density 1.22 g/cm³, boiling point 251°C; or MDI: methylene diphenyl diisocyanate, melting point 40°C for 4,4'-MDI) react with nucleophiles:
 
@@ -93,7 +93,7 @@ Material forms:
 
 **Complexity warning**: Isocyanate production is non-trivial. The industrial route reacts primary amines with phosgene (COCl₂), which itself requires chlorine + carbon monoxide (CO + Cl₂ → COCl₂ over activated carbon at 200-300°C — the reaction is moderately exothermic and must be temperature-controlled). Phosgene is one of the most toxic industrial chemicals (immediately dangerous to life at 2 ppm — see Safety below). Non-phosgene routes exist (thermal cleavage of urethane to isocyanate + alcohol, or carbonylation of nitroaromatics with CO over Pd catalyst) but are less mature and more expensive. Isocyanates are also toxic respiratory sensitizers and require careful handling, ventilation, and PPE. The entire isocyanate supply chain — from phosgene production through final polymer — demands rigorous safety engineering at every step.
 
-### Phenolic Resin Processing Detail
+## Phenolic Resin Processing Detail
 
 **[Resole route](../glossary/resole-route.md)** (base-catalyzed, one-stage): Phenol + formaldehyde at 1:1.5-2.0 molar ratio, NaOH catalyst (1-5% based on phenol weight). React at 70-90°C for 2-4 hours. The excess formaldehyde ensures methylol groups form on the phenol ring. The resulting resole is a viscous liquid or low-melting solid that self-cures on further heating without any added hardener. Cure schedule: 140-160°C for 5-30 minutes at 10-30 MPa in a compression mold. Resoles are used for: foundry binders (sand casting cores — phenolic resin coats sand grains, cured with ester hardener at room temperature), bonding 25-40% of all foundry sand cores worldwide.
 
@@ -101,7 +101,7 @@ Material forms:
 
 **Molding compound preparation**: Blend novolac resin + hexamine hardener + wood flour filler (40-60% by weight — reduces cost and shrinkage) + hexamine (10-15%) + lime (CaO, 1-2% as acid scavenger) + lubricant (zinc stearate, 1%) + pigment (carbon black, iron oxide). Pelletize on a two-roll mill at 70-90°C (warm enough to soften resin but below cure temperature). Compression mold at 150-180°C, 15-30 MPa, 1-5 minutes per mm wall thickness.
 
-### Epoxy Resin Processing Detail
+## Epoxy Resin Processing Detail
 
 **Resin synthesis**: Bisphenol A (BPA) + epichlorohydrin in molar ratio 1:2-10 (excess epichlorohydrin for higher molecular weight). NaOH (50% aqueous) added as both catalyst and to dehydrohalogenate the chlorohydrin intermediate. Reaction at 50-60°C for 2-4 hours. Product: DGEBA (diglycidyl ether of bisphenol A) — a viscous liquid (n ≈ 0.1-0.2, epoxy equivalent weight 180-190 g/eq). Higher molecular weight versions (n ≈ 2-30) are solid resins used in powder coatings.
 
@@ -109,19 +109,19 @@ Material forms:
 
 **[Anhydride hardeners](../glossary/anhydride-hardeners.md)** (methyltetrahydrophthalic anhydride, MTHPA, at 80-90 phr): Longer pot life (4-8 hours at 25°C) than amine hardeners. Cure schedule: 2 hours at 100°C + 4 hours at 150°C (requires elevated temperature — will not fully cure at room temperature). Superior electrical properties (higher dielectric strength, lower dissipation factor) — preferred for electrical potting and encapsulation.
 
-### Polyester Resin Processing Detail
+## Polyester Resin Processing Detail
 
 **Resin synthesis**: Propylene glycol + maleic anhydride (provides unsaturated C=C sites for cross-linking) + phthalic anhydride (saturated modifier, adjusts rigidity and cost). Molar ratio typically 1.1:0.5:0.5 (glycol:maleic:phthalic), with 10% excess glycol to control molecular weight. Condensation at 180-210°C under nitrogen blanket for 6-10 hours until acid number drops below 30 mg KOH/g. Dissolve in styrene monomer (30-40% by weight — styrene acts as reactive diluent and cross-linking co-monomer). Add hydroquinone (100-200 ppm) as inhibitor to prevent premature gelation during storage.
 
 **Cure system**: MEKP (methyl ethyl ketone peroxide) catalyst at 1-2% by resin weight. Cobalt naphthenate or cobalt octoate accelerator at 0.2-0.5%. The cobalt ion decomposes the peroxide into free radicals, which initiate the chain-growth copolymerization of styrene with the unsaturated polyester chains. Gel time: 15-30 minutes at 25°C (adjustable by varying catalyst and accelerator concentration — more cobalt = faster gel). Peak exotherm temperature: 80-150°C depending on laminate thickness (thick sections generate more heat due to greater resin volume, which accelerates cure but risks thermal runaway and cracking — limit single-pour thickness to 10-15 mm).
 
-### Urea-Formaldehyde and Melamine-Formaldehyde
+## Urea-Formaldehyde and Melamine-Formaldehyde
 
 **Urea-formaldehyde (UF)**: Urea (CO(NH₂)₂, produced from ammonia + CO₂ at 135-200°C, 100-200 atm) + formaldehyde at 1:1.5-2.0 molar ratio. Base-catalyzed methylolation at 50-60°C (urea + formaldehyde → methylol urea), then acid-catalyzed condensation to desired molecular weight. Primary use: wood adhesive for plywood, particleboard, and MDF (medium-density fiberboard — the world's largest industrial use of any thermoset resin by volume, >10 million tonnes/year globally). Cured in hot press at 100-120°C, 1-2 MPa, 3-5 minutes per mm board thickness. UF-bonded panels dominate interior-grade engineered wood products due to low cost (~$0.30-0.50/kg resin solids — the cheapest wood adhesive) and fast cure. Water resistance: limited — UF bonds degrade with prolonged moisture exposure (hydrolysis of the methylene ether and methylene bridges in the cured network). For exterior-grade panels, use melamine-fortified UF (MUF, 20-30% melamine replacement) or phenol-formaldehyde.
 
 **Melamine-formaldehyde (MF)**: Melamine (C₃H₆N₆, produced from urea at 350-400°C, 70-150 atm — the high temperature causes urea to decompose and recombine into the triazine ring structure of melamine) + formaldehyde at 1:2-3 molar ratio. Base-catalyzed methylolation at 60-80°C, followed by acid cure. MF resins cure to hard, heat-resistant (continuous service to 150°C — higher than UF at ~80°C), scratch-resistant, and chemical-resistant surfaces. The fully cured melamine network has superior cross-link density compared to UF due to the three amino groups on the melamine ring (each capable of reacting with up to two formaldehyde molecules, giving a theoretical maximum of six methylol groups per melamine molecule vs. four per urea molecule). Applications: decorative laminates (Formica-type countertops — MF-impregnated decorative paper layered over phenolic-impregnated kraft paper core, pressed at 140°C, 7-10 MPa, 30-60 minutes — the MF surface provides scratch and stain resistance while the phenolic core provides structural strength), dinnerware (melamine plates and bowls — compression molded, lightweight, break-resistant, heat resistant to 150°C), textile treatment (permanent press finishes for cotton fabrics — MF resin cross-links cellulose fibers, providing wrinkle resistance).
 
-### Safety Data
+## Safety Data
 
 **Formaldehyde exposure**: OSHA PEL (permissible exposure limit) 0.75 ppm 8-hour TWA (time-weighted average). STEL (short-term exposure limit) 2 ppm for 15-minute exposure. IARC Group 1 carcinogen (nasopharyngeal cancer). Immediately detectable odor at 0.5-1.0 ppm (warning property — if you can smell it, you're near or above the TWA). Monitor with colorimetric detector tubes or electrochemical sensors. Ventilation: local exhaust at resin synthesis reactors and molding presses. Respiratory protection: full-face respirator with formaldehyde cartridge for exposures above PEL.
 
@@ -129,7 +129,7 @@ Material forms:
 
 **Epichlorohydrin**: Used in epoxy resin synthesis. OSHA PEL 2 ppm 8-hour TWA (skin notation — absorbed through skin). IARC Group 2A. Strong, irritating odor. Handle in closed systems with local exhaust. Skin contact causes delayed burns — wear chemical-resistant gloves and splash protection.
 
-### Phenolic Molding Compounds
+## Phenolic Molding Compounds
 
 Phenolic molding compounds are the oldest industrial thermoset molding materials, still widely used for their heat resistance, dimensional stability, and electrical insulation.
 
@@ -141,7 +141,7 @@ Phenolic molding compounds are the oldest industrial thermoset molding materials
 
 **Electrical grade**: Novolac + hexamine + mica powder (15-30%) or glass fiber (20-30%). Highest dielectric strength (16-20 kV/mm) and arc resistance (60-180 seconds — the mineral filler prevents carbon tracking). Tracking resistance is critical for high-voltage switchgear — phenolic compounds that track (form conductive carbon paths) across the surface under arcing conditions cause catastrophic flashover. Mica-filled grades have the best anti-tracking performance. Used for: high-voltage insulators, circuit breaker components, arc chutes, transformer terminal boards.
 
-### Epoxy Coating and Flooring
+## Epoxy Coating and Flooring
 
 Epoxy coatings are two-component systems (resin + hardener) that cure to tough, chemically resistant films. Applied by brush, roller, or spray.
 
@@ -149,7 +149,7 @@ Epoxy coatings are two-component systems (resin + hardener) that cure to tough, 
 
 **100% solids epoxy**: No solvent — all applied material becomes the cured film. Applied by airless spray or plural-component spray equipment (resin and hardener mixed at the spray gun). Film thickness: 200-500 μm in single coat. Used for: secondary containment floors (chemical spill resistance), food processing plants (hygienic, seamless surface), pharmaceutical clean rooms.
 
-### Polyurethane Foam in Construction
+## Polyurethane Foam in Construction
 
 **[Rigid PU foam](../glossary/rigid-pu-foam.md)** is one of the most effective insulation materials available:
 
@@ -162,7 +162,7 @@ Epoxy coatings are two-component systems (resin + hardener) that cure to tough, 
 
 **Spray PU foam**: Applied on-site by plural-component spray equipment (two heated hoses — one for isocyanate component, one for polyol blend — meeting at a mixing gun that impingement-mixes the two streams at >2000 psi pressure differential). R-value ~6.5 per inch (RSI ~1.1 per 25 mm). Seals gaps and irregular cavities that batt insulation cannot fill. Used for: wall cavities, roof decks, rim joists, pipe insulation, tank insulation. Requires trained applicators — proper mixing ratio (typically 1:1 by volume, but varies by formulation) and ambient temperature (15-30°C) are critical for full cure and consistent density. Off-ratio spray produces soft, sticky foam (isocyanate-deficient) or brittle, crumbly foam (isocyanate-rich). Cure time: tack-free 10-30 seconds, can be trimmed after 2-5 minutes, full properties after 24 hours.
 
-### Cyanate Ester and Bismaleimide (Advanced Thermosets)
+## Cyanate Ester and Bismaleimide (Advanced Thermosets)
 
 These high-performance thermosets serve in extreme environments beyond the capability of standard epoxies:
 
@@ -170,13 +170,13 @@ These high-performance thermosets serve in extreme environments beyond the capab
 
 **Bismaleimide (BMI)**: Maleic anhydride + methylenedianiline → bismaleimide prepolymer. Cured by addition polymerization at 200-250°C. Tg after cure: 280-320°C. Excellent retention of mechanical properties at 250°C+ — used where epoxy would soften. Applications: military aircraft composite structures (F-22, F-35 airframe components operate at 180-230°C during supersonic flight), engine cowlings, high-temperature tooling. Processing similar to epoxy prepregs (layup + autoclave cure at 200-250°C, 0.3-0.7 MPa).
 
-### Thermoset Processing Equipment
+## Thermoset Processing Equipment
 
 **Compression press**: The workhorse of thermoset molding. Hydraulic press with heated platens (electric cartridge heaters or steam). Capacity: 10-500+ tons clamping force. Platen temperature control: ±5°C uniformity across the platen surface (critical for consistent cure — hot spots cause overcure, cold spots cause undercure). Mold: two steel plates with machined cavity, guide pins, ejector pins. Cycle: load preform → close mold → apply pressure → cure (heat + time) → open mold → eject part. Cycle time: 2-10 minutes for small parts, 30-60+ minutes for large laminates.
 
 **Autoclave curing**: For composite layups and prepregs. The part is vacuum-bagged (see [Composites](./composites.md)) and placed inside a pressure vessel (autoclave). The autoclave pressurizes with heated air or nitrogen to 0.3-0.7 MPa (3-7 bar) at 120-180°C. The combination of vacuum (removes volatiles and air from the laminate) and external pressure (consolidates the layup) produces void-free, high-quality composites. Cure cycle: heat-up at 1-3°C/min → hold at cure temperature for 1-4 hours → cool-down at 1-3°C/min under pressure. The slow, controlled temperature ramp prevents thermal shock and residual stress in thick laminates.
 
-### Key Milestones
+## Key Milestones
 
 Ordered by approximate phase availability:
 
@@ -193,7 +193,7 @@ Ordered by approximate phase availability:
 - ☐ **Photolithography stage**: Novolac-based photoresist resin for photolithography (same chemistry as Bakelite novolac route — the novolac resin is blended with a photoactive compound, typically DNQ, which acts as a dissolution inhibitor. UV exposure converts DNQ to indene carboxylic acid, making the exposed region soluble in aqueous developer — the basis for positive-tone photoresist)
 - ☐ **Photolithography stage**: Epoxy die attach and IC encapsulation materials qualified for fab use (epoxy-silver adhesive for die attach, epoxy molding compound with fused silica filler for encapsulation — both materials must meet strict purity requirements: total ionic impurities <10 ppm, alpha particle emission <0.01 counts/cm²/hr to prevent soft errors in memory chips)
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Formaldehyde (IARC Group 1 carcinogen)**: A confirmed human carcinogen used in both phenol-formaldehyde (Bakelite) and urea-formaldehyde resin production. Inhalation of formaldehyde vapor causes nasal and respiratory tract irritation at 0.5-1 ppm (detectable by odor — the pungent, suffocating smell is a good warning property); chronic exposure increases cancer risk (nasopharyngeal cancer — IARC classification based on epidemiological evidence from industrial workers with prolonged high-level exposure). Use in well-ventilated areas with local exhaust. Wear chemical splash goggles and a respirator with formaldehyde cartridge when handling formaldehyde solutions or during resin synthesis. Monitor airborne concentrations — OSHA PEL is 0.75 ppm (8-hour TWA), STEL 2 ppm (15-minute short-term exposure limit). Formaldehyde also off-gasses from cured UF-bonded particleboard and plywood — indoor air concentrations in structures with extensive UF-bonded paneling can reach 0.1-0.5 ppm, causing eye and respiratory irritation (this "sick building" issue led to the development of low-emission UF resins and formaldehyde-free alternatives). Phenol-formaldehyde bonded panels off-gas negligible formaldehyde due to the more stable cured network (the higher cross-link density of PF resins traps residual formaldehyde more effectively than UF).
 - **Phenol (chemical burns, skin absorption)**: Causes severe chemical burns on contact — initially painless because it simultaneously anesthetizes tissue, leading to deeper injury before the victim notices (the local anesthetic effect is caused by phenol's disruption of nerve cell membranes). Absorbed rapidly through intact skin; systemic toxicity targets the liver and kidneys (phenol is metabolized to hydroquinone and other toxic intermediates in the liver). Fatal dose through skin absorption: ~50 g for an adult (a surprisingly small amount — a splash covering the palm of one hand could deliver a lethal dose if not immediately removed). Wear nitrile or neoprylene gloves (not latex — phenol penetrates latex in <10 minutes), chemical splash goggles, and a face shield during phenol handling. In case of skin contact, flush with large amounts of water immediately and seek medical attention — do not rely on pain as an indicator of exposure severity (by the time pain appears, significant tissue damage may have already occurred). Polyethylene glycol (PEG 400) is the preferred decontamination solution for phenol skin exposure — it complexes with phenol and enhances removal from skin more effectively than water alone.
@@ -201,10 +201,9 @@ Ordered by approximate phase availability:
 - **Ammonia (respiratory irritant)**: Used as a base catalyst in the resole route for phenol-formaldehyde. Ammonia gas is a powerful respiratory and eye irritant — 300 ppm is immediately dangerous to life. Handle concentrated ammonia solutions in ventilated areas. Wear eye protection and a respirator if ventilation is insufficient.
 - **Styrene (IARC Group 2A)**: Present as reactive diluent in unsaturated polyester resin at 30-40% by weight. CNS depressant at 100+ ppm. Possible carcinogen. OSHA PEL 50 ppm TWA. Room-temperature hand layup with open molds produces significant styrene emissions — typical worker exposure 20-80 ppm without local exhaust ventilation. Install local exhaust at mold work surfaces. Use low-styrene-emission resin grades (wax additives form a surface barrier, reducing emissions by 50-70%).
 
----
 
 
-### Thermoset vs Thermoplastic Selection Guide
+## Thermoset vs Thermoplastic Selection Guide
 
 | Property | Thermosets | Thermoplastics |
 |---|---|---|

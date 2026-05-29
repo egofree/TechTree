@@ -8,7 +8,6 @@
 > **Outputs**: vegetable_oil, tallow, lard, olive_oil, linseed_oil, soap_stock, oilseed_meal, rendered_fat
 > **Critical**: No — oil processing enhances food quality and enables soap, but basic nutrition and hygiene have alternatives
 
-## Overview
 
 Oil and fat processing extracts edible and industrial lipids from plant seeds, fruit pulp, and animal tissues. Cooking oils triple the caloric density of meals and enable high-temperature cooking methods (frying, sautéing) that inactivate foodborne pathogens. Rendered animal fats (tallow, lard) serve triple duty as cooking fat, soap-making feedstock (see [Chemistry: Soap](../chemistry/soap.md)), and candle fuel. Industrial oils (linseed, tung) become paints, varnishes, and wood preservatives.
 
@@ -18,7 +17,7 @@ The extraction progression moves from simple pressing (stone-age, 40-60% yield) 
 
 ## Prerequisites
 
-### Materials
+## Materials
 
 - **Oilseeds**: Sunflower, rapeseed (canola), sesame, flax (linseed), cottonseed, peanut, or hemp seed. Oil content varies 20-50% by weight. Source: [Agriculture](../foundations/food-agriculture.md).
 - **Olives**: 15-30% oil by weight. Source: [Agriculture](../foundations/food-agriculture.md) — requires Mediterranean or similar climate.
@@ -26,7 +25,7 @@ The extraction progression moves from simple pressing (stone-age, 40-60% yield) 
 - **Water**: For olive oil washing and animal fat rendering. Source: [Water Supply](../water/basic-treatment.md).
 - **Heat source**: Charcoal, wood fire, or steam for pressing temperature control. Source: [Energy](../energy/engine.md).
 
-### Tools and Equipment
+## Tools and Equipment
 
 - **Seed press**: Stone mortar and pestle (simplest), wedge press (wooden), screw press (iron), or expeller (steel). See Equipment section for construction details.
 - **Rendering vessels**: Iron or ceramic pots, 10-100 L capacity. Source: [Ceramics](../ceramics/index.md), [Metals](../metals/index.md).
@@ -34,7 +33,7 @@ The extraction progression moves from simple pressing (stone-age, 40-60% yield) 
 - **Settling tanks**: Ceramic or wooden containers for gravity separation of oil from water and sediment.
 - **Screw press or hydraulic press**: For seed pressing. Iron construction required for pressures above 50 bar. Source: [Machine Tools](../machine-tools/index.md).
 
-### Knowledge
+## Knowledge
 
 - Identification of oil-bearing seeds and their oil content
 - Understanding of temperature thresholds for oil quality (smoke point, rancidity)
@@ -51,7 +50,7 @@ The extraction progression moves from simple pressing (stone-age, 40-60% yield) 
 | Water (for rendering) | 0.5-1.0 L per kg fat | [Water](../water/index.md) | Not substitutable |
 | Firewood or charcoal | 0.5-1.0 kg per kg fat rendered | [Energy](../energy/charcoal.md) | Any heat source |
 
-### Oilseed Yields and Properties
+## Oilseed Yields and Properties
 
 | Seed | Oil Content | Press Yield | Smoke Point | Primary Use |
 |------|:-----------:|:-----------:|:-----------:|:-----------:|
@@ -66,7 +65,7 @@ The extraction progression moves from simple pressing (stone-age, 40-60% yield) 
 
 ## Process Description
 
-### Olive Oil Production (Cold Press)
+## Olive Oil Production (Cold Press)
 
 Olive oil is unique among vegetable oils because it is extracted from the fruit pulp rather than the seed. Cold pressing below 27°C preserves flavor compounds and antioxidants:
 
@@ -90,7 +89,7 @@ Olive oil is unique among vegetable oils because it is extracted from the fruit 
 - Cold pressing extracts only 70-85% of available oil — the remaining pomace requires solvent extraction or is wasted
 - Olive trees take 5-8 years to reach productive maturity and require Mediterranean climate (hot dry summers, mild winters)
 
-### Seed Oil Pressing (Expeller Method)
+## Seed Oil Pressing (Expeller Method)
 
 1. **Seed preparation**: Clean seeds to remove chaff, stones, and stems. Dry to 8-10% moisture. Moist seeds clog the press; overly dry seeds produce dusty meal and lower yield.
 2. **Dehulling** (optional): Remove seed coats for sunflower and cottonseed. Hulls absorb oil and reduce yield by 5-10%. Dehull with roller mill or attrition mill.
@@ -114,7 +113,7 @@ Olive oil is unique among vegetable oils because it is extracted from the fruit 
 - Hot pressing above 80°C degrades heat-sensitive nutrients (vitamin E, polyphenols) and requires refining to remove off-flavors
 - Refining sequence (degumming, neutralization, bleaching, deodorization) requires 4 separate processing steps with chemical inputs (NaOH, bleaching earth)
 
-### Animal Fat Rendering
+## Animal Fat Rendering
 
 Rendering melts fat from animal tissues by heating. Two methods:
 
@@ -156,7 +155,7 @@ Rendering melts fat from animal tissues by heating. Two methods:
 
 ## Quantitative Parameters
 
-### Pressing Parameters by Oilseed
+## Pressing Parameters by Oilseed
 
 | Seed | Press Temperature | Pressure (bar) | Yield (%) | Oil Flow Rate |
 |------|:-----------------:|:--------------:|:---------:|:-------------:|
@@ -167,7 +166,7 @@ Rendering melts fat from animal tissues by heating. Two methods:
 | Flax | 50-70°C | 60-90 | 55-70 | 6-12 kg/h |
 | Coconut (copra) | 80-100°C | 80-130 | 60-75 | 8-15 kg/h |
 
-### Fat Rendering Parameters
+## Fat Rendering Parameters
 
 | Fat Type | Rendering Temp | Duration | Yield (kg fat/kg raw) | Smoke Point |
 |----------|:--------------:|:--------:|:---------------------:|:-----------:|
@@ -177,7 +176,7 @@ Rendering melts fat from animal tissues by heating. Two methods:
 | Chicken fat (schmaltz) | 90-110°C | 2-3 hours | 0.60-0.75 | 185-195°C |
 | Duck fat | 90-110°C | 2-3 hours | 0.65-0.80 | 190°C |
 
-### Oil Stability and Shelf Life
+## Oil Stability and Shelf Life
 
 | Oil Type | Free Fatty Acid % | Peroxide Value (meq/kg) | Shelf Life | Storage |
 |----------|:-----------------:|:-----------------------:|:----------:|:-------:|
@@ -242,7 +241,7 @@ Rendering melts fat from animal tissues by heating. Two methods:
 
 **Nut oils**: Walnuts, hazelnuts, and almonds produce flavorful oils but pressing requires low temperature to prevent bitterness. Nut oils are premium products with limited yield — 1 kg nuts yields 300-600 mL oil.
 
-## References
+## See Also
 
 - [Brewing & Distilling](brewing.md) — uses grain oils and fats as byproducts
 - [Dairy Processing](dairy.md) — butter and ghee as alternative cooking fats
@@ -252,6 +251,6 @@ Rendering melts fat from animal tissues by heating. Two methods:
 - [Chemistry: Soap](../chemistry/soap.md) — tallow and vegetable oil as soap feedstock
 - [Machine Tools](../machine-tools/index.md) — precision machining for expeller screws
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*
+
+[← Back to Food Processing](index.md)

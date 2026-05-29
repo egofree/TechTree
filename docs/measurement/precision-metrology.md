@@ -21,7 +21,7 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 
 ## Technologies & Systems
 
-### Base Unit Standards
+## Base Unit Standards
 
 **Length standard**:
 - Define the base unit of length as a physical artifact: a bar of low-expansion alloy (invar — 64% Fe, 36% Ni, thermal expansion coefficient ~1.2 × 10⁻⁶/°C, Chemistry stage) or, before invar, well-annealed steel bar stored at constant temperature.
@@ -42,7 +42,7 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 - **Mercury-in-glass thermometer**: Capillary tube (0.1-0.3 mm bore) with bulb, filled with mercury. Mercury expands linearly with temperature (over range -38°C to +357°C). Mark scale by immersing in reference point baths. Divide scale by precision dividing engine. Accuracy: ±0.1°C for well-made thermometers. Read to 0.01°C with magnifier and etched scale.
 - **Thermocouple**: Two dissimilar metals joined at measurement junction. Voltage generated proportional to temperature difference between measurement junction and reference junction. Type K (chromel/alumel): -200°C to +1300°C, ~41 μV/°C. Type S (Pt/Pt-10%Rh): 0°C to +1600°C, ~6 μV/°C. Read with precision millivoltmeter or potentiometer. Accuracy ±1-2°C with reference junction compensation.
 
-### Timekeeping
+## Timekeeping
 
 **Water clock (clepsydra)**:
 - Regulated outflow vessel — water flows through small orifice at bottom of conical vessel. Water level drops linearly with time (if vessel is conical with correct taper) or marks on vessel indicate elapsed time. Accuracy: ±5-15 minutes per day. Adequate for process timing (reaction durations, firing cycles).
@@ -57,7 +57,7 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 **Electrical clocks**:
 - Synchronous motor clock: AC synchronous motor runs at speed locked to AC line frequency (3600 RPM at 60 Hz, 3000 RPM at 50 Hz). Gear train reduces to drive hands. Accuracy limited only by power grid frequency stability (typically ±0.02 Hz → ±30 seconds/day long-term, but short-term accuracy excellent). Main problem: power interruptions stop clock.
 
-### Precision Instruments
+## Precision Instruments
 
 **Rules and straight edges**:
 - **Steel rule**: Hardened and tempered spring steel, photo-etched or engine-divided graduations. Length 150-1000 mm. Graduated in mm and 0.5 mm. Flatness ≤0.02 mm over 300 mm. Made by surface grinding against lapped surface plate (from the Machine Tools stage iterative metrology bootstrap).
@@ -91,7 +91,7 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 - **Protractor**: Circular scale divided in degrees (1° resolution). Pivot arm rotates. Read angle directly. Vernier protractor: 5 arc-minute (1/12°) resolution.
 - **Sine bar**: Precision bar with two cylindrical rollers at known center distance (L, typically 100 mm or 200 mm). Place gauge blocks under one roller → bar tilts to precise angle: sin(θ) = h/L, where h = gauge block stack height. Angle accuracy depends on gauge block accuracy and sine bar geometry — typically ±3 arc-seconds for precision sine bars. Essential for machine setup, fixture fabrication, and angle gauge calibration.
 
-### Calibration Infrastructure
+## Calibration Infrastructure
 
 **Calibration room requirements**:
 - Temperature controlled to 20°C ±0.5°C (air conditioning or basement with thermal mass).
@@ -105,7 +105,7 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 - **Method**: Compare instrument readings against more accurate reference standards. Record deviations. Apply correction factors if within tolerance. Remove from service if out of tolerance. Label with calibration sticker (date calibrated, next due date, calibration status).
 - **Traceability chain**: Working micrometer → calibrated against inspection gauge blocks → calibrated against master gauge blocks → calibrated against length standard. Each step adds uncertainty. Total uncertainty = root-sum-square of all contributing uncertainties.
 
-### Electrical Standards
+## Electrical Standards
 
 **Voltage standard**:
 - **Weston standard cell**: Cd-Hg amalgam anode | CdSO₄ solution | Hg₂SO₄ paste | Hg cathode. Voltage: 1.01864V at 20°C (temperature coefficient ~-40 μV/°C). Stable to ±10 μV/year. Used as voltage reference for potentiometer measurements. NEVER draw current from standard cell (even 1 μA polarizes cell, takes hours to recover). Use in null-balance (potentiometer) circuit only.
@@ -121,7 +121,7 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 - **Quartz crystal oscillator**: AT-cut quartz crystal resonates at precise frequency (32,768 Hz for watches, 1-10 MHz for instrumentation). Frequency stability: ±10-50 ppm over -40°C to +85°C (uncompensated), ±0.1-1 ppm with temperature compensation (TCXO), ±0.001-0.01 ppm in oven-controlled enclosure (OCXO). Requires quartz crystal production from the Silicon stage.
 - Used for: clock references, timer circuits, frequency counters, telecommunications timing.
 
-### Optical Metrology
+## Optical Metrology
 
 **Interferometry**:
 - **Flatness measurement**: Place optical flat (quartz or glass, flat to λ/10) on surface to be measured. Illuminate with monochromatic light (sodium lamp, λ = 589 nm). Interference fringes appear between flat and test surface. Straight, equally-spaced fringes = flat surface. Curved fringes = surface deviation. One fringe deviation = λ/2 = 295 nm flatness error.
@@ -150,13 +150,13 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 - Calibration laboratory with temperature control and traceability chain
 - Electrical standards (voltage, resistance) and measurement instruments
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Laser safety**: Laser interferometers (HeNe, Class II/IIIa) can cause retinal damage from direct or specular beam exposure. Never look directly into beam. Use beam stops and enclosures where possible. Label all laser equipment with class rating.
 - **Mercury exposure**: Broken mercury thermometers release toxic mercury vapor (IDLH 10 mg/m³). Clean spills with mercury absorbent sponge or zinc dust — never vacuum. Use mercury-free alternatives (alcohol thermometers, thermocouples) where precision permits.
 - **Calibration fluids**: Some calibration standards (acids for pH, solvent-based density fluids) are corrosive or toxic. Handle in fume hood with gloves. Label all calibration chemicals with hazard information.
 
-### Surface Plate Calibration
+## Surface Plate Calibration
 
 **Autocollimator flatness scan**:
 - Measure flatness at 50-100 mm grid intervals across the plate surface using an autocollimator (optical instrument that measures small angular changes by reflecting a light beam off a flat mirror target placed on the plate). At each grid point, record the angular deviation in two perpendicular directions. Plot a contour map with 0.5 μm resolution showing the complete surface topology of the plate.
@@ -165,13 +165,13 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 **Three-plate method maintenance**:
 - Surface plates are re-scraped to restore flatness as they wear from use. Shop plates (Grade B, daily use): re-scrape annually. Laboratory plates (Grade A, careful use): re-scrape every 5 years. Reference plates (Grade AA, minimal contact): re-scrape every 10 years or when calibration reveals deviation exceeding grade tolerance. Re-scraping is performed by hand using a hardened steel scraper — the operator applies marking compound (Prussian blue), rubs the plate against a master reference, then scrapes the high spots (blue contact points) until uniform contact is achieved across the entire surface.
 
-### Thread Measurement
+## Thread Measurement
 
 **[Three-wire method](../glossary/three-wire-method.md)** (pitch diameter measurement):
 - Place three precision wires of calculated diameter d into the thread grooves — two wires on one side, one on the opposite side. Measure the distance M over the wires with a precision micrometer. The wire diameter is chosen so the wires contact the thread flanks at the pitch line: d = 0.57735 × pitch (for 60° metric threads). For example, an M10 × 1.5 thread uses wires of d = 0.866 mm diameter.
 - Calculate pitch diameter E from the measurement: E = M - 1.5155 × d (for 60° threads). This formula accounts for the geometry of the wire sitting in the V-shaped thread groove. The pitch diameter is the most critical thread parameter — it determines whether two threaded parts will mate correctly. Wire accuracy: ±0.0001 mm for precision wire sets (tungsten carbide or hardened steel wires, lapped to size).
 
-### Gear Measurement
+## Gear Measurement
 
 **Tooth thickness**: Measure with a gear tooth vernier caliper at the pitch circle — the caliper has two scales, one setting the vertical distance from the tooth tip to the pitch line (chordal addendum), the other measuring the chordal tooth thickness at that height. Tolerance: ±0.02 mm for quality 6 gears. Tooth thickness directly controls backlash and load-carrying capacity of the gear mesh.
 
@@ -179,7 +179,7 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 
 **[Composite error](../glossary/composite-error.md)** (double-flank rolling test): Mesh the test gear with a precision master gear on a rolling test fixture. Rotate through one full revolution while measuring the center distance variation between the two gear shafts. Total composite error ≤0.05 mm for quality 6 gears per ISO 1328. This test catches a range of errors simultaneously — tooth profile, pitch, runout, and eccentricity — making it the most practical single test for incoming gear inspection.
 
-### Angle Standards
+## Angle Standards
 
 **Sine bar accuracy**: ±3 arcseconds when used with grade 0 gauge blocks on a surface plate of grade A or better flatness. The sine bar provides angle measurement traceable to the length standard (gauge blocks) — the angle is computed from sin(θ) = h/L, where h is the gauge block stack height and L is the sine bar roller center distance (typically 100 mm or 200 mm).
 
@@ -187,7 +187,7 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 
 **Precision polygon**: A 12-face or 24-face steel or quartz polygon where each face is at an exact angular spacing — 30° for 12-face, 15° for 24-face — with each face flat and perpendicular to the rotation axis within ±1 arcsecond. Used with an autocollimator to calibrate rotary tables and dividing heads: the autocollimator measures the angular deviation of each face from the nominal position, producing a complete calibration table of the rotary device's errors at 12 or 24 equally-spaced positions.
 
-### Roundness & Form Measurement
+## Roundness & Form Measurement
 
 **[Roundness measurement](../glossary/roundness-measurement.md)** (out-of-roundness):
 - Rotate the part on a precision spindle (radial error ≤0.1 μm) while a displacement transducer (LVDT or capacitance probe) contacts the surface. Record the radial deviation at hundreds of points around one complete revolution. Plot the polar profile — deviations from a perfect circle appear as lobing or irregularity. Evaluate against a reference circle (least-squares circle, minimum zone circle, or maximum inscribed/minimum circumscribed circle per ASME B89.3.1). Typical roundness tolerance for precision shafts: 2-5 μm total out-of-roundness.
@@ -198,7 +198,7 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 - **Stylus profilometer**: Diamond-tipped stylus (2 μm radius tip) traversed across the surface at constant speed (0.1-1.0 mm/s). Stylus vertical displacement converted to electrical signal, recorded as the surface profile. Calculate Ra (arithmetic average roughness) over a sampling length (typically 0.8 mm for machined surfaces). Typical values: grinding Ra 0.4-1.6 μm, turning Ra 0.8-3.2 μm, milling Ra 1.6-6.3 μm, lapping Ra 0.05-0.4 μm.
 - **Comparison standard**: When a profilometer is unavailable, surface finish can be estimated by comparison with tactile reference specimens — a set of metal blocks with known Ra values produced by different machining processes. Run a fingernail across the workpiece and the standards; match the "feel." Accuracy ±one grade (roughly ±50% of the Ra value) — adequate for most workshop purposes.
 
-### Measurement Uncertainty
+## Measurement Uncertainty
 
 **[Every measurement has uncertainty](../glossary/every-measurement-has-uncertainty.md)** — the true value lies within a range around the reported value. Understanding and quantifying this uncertainty is essential for making reliable engineering decisions based on measurement data.
 - **Sources of uncertainty**: Instrument resolution (± half the smallest division), instrument calibration error (traceable to calibration certificate), thermal expansion effects (if temperature deviates from 20°C reference), operator repeatability (different operators obtain different readings from the same instrument), and workpiece geometry (form errors, surface finish effects on contact measurement).

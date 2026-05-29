@@ -7,7 +7,6 @@
 > **Timeline**: Years 5-15
 > **Outputs**: lime, quicklime, mortar, plaster, whitewash
 
-## Overview
 
 Lime is one of the most versatile industrial materials in the bootstrap sequence. Produced from abundant limestone by a simple thermal process (heating to ~900°C), quicklime and its derivatives — slaked lime, lime mortar, lime plaster, whitewash — serve as the primary binder for construction, a flux for metallurgy, a chemical feedstock for industry, and a treatment agent for agriculture and water purification. No other single material touches as many domains at as many stages of development.
 
@@ -15,7 +14,7 @@ The lime cycle is elegantly simple: heat limestone to drive off CO₂, add water
 
 ## Limestone Identification & Quarrying
 
-### Finding Limestone
+## Finding Limestone
 
 Limestone (CaCO₃) is one of the most common sedimentary rocks on Earth. Identifying it in the field:
 
@@ -25,7 +24,7 @@ Limestone (CaCO₃) is one of the most common sedimentary rocks on Earth. Identi
 - **Associated geology**: Found in former seabeds — hills, cliffs, and plateaus in sedimentary terrain. Often exposed in road cuts, river valleys, and quarry faces.
 - **[Dolomite](../glossary/dolomite.md)** (CaCO₃·MgCO₃): Similar appearance but effervesces only in powdered form with weak acid. Produces dolomitic lime — valuable for refractory applications. Requires higher firing temperature (1600-1800°C).
 
-### Quality Assessment
+## Quality Assessment
 
 Not all limestone is equal for lime production. Key properties:
 
@@ -35,7 +34,7 @@ Not all limestone is equal for lime production. Key properties:
 - **Silica (SiO₂)**: <5% for most applications. Higher silica means harder burning and more residue.
 - **Test method**: Crush sample, dissolve in HCl, weigh insoluble residue. Lower residue = purer limestone.
 
-### Quarrying Methods
+## Quarrying Methods
 
 - **Open-pit**: Strip soil overburden, break limestone with wedges and hammers (or black powder once available). Break stone into 10-20 cm pieces for kiln loading.
 - **Cliff face / outcrop**: Work exposed face horizontally. Pry loose blocks with iron crowbars. Stack waste rock for later crushing.
@@ -43,7 +42,7 @@ Not all limestone is equal for lime production. Key properties:
 
 ## Lime Production Process
 
-### Calcination (Burning)
+## Calcination (Burning)
 
 Heat limestone (CaCO₃) in a kiln to 900-1000°C for 4-8 hours. The thermal decomposition reaction:
 
@@ -55,7 +54,7 @@ This is an endothermic reaction requiring ~1.78 MJ per kg of CaCO₃ decomposed 
 - **Complete decomposition**: All CO₂ must be driven off. The centre of large stones may remain unconverted if firing is too short or temperature too low. Break a sample piece open — the core should be the same white/gray as the surface, not darker.
 - **Kiln atmosphere**: Excess air ensures complete fuel combustion but cools the kiln. Restricted air (reducing atmosphere) wastes fuel and produces CO. Target slight excess air for maximum temperature with minimum fuel.
 
-### Slaking (Hydration)
+## Slaking (Hydration)
 
 Add water to quicklime — a vigorous exothermic reaction:
 
@@ -70,7 +69,7 @@ Temperature reaches ~150°C during slaking of pure quicklime. The reaction produ
 
 **Safety**: Slaking generates intense heat and steam. Always add quicklime to water slowly, never the reverse. The reverse causes violent spattering of hot lime. Wear eye protection, leather gloves, and long sleeves. Perform outdoors or in well-ventilated area.
 
-### Storage
+## Storage
 
 - **Quicklime (CaO)**: Store in dry, airtight containers. Quicklime is hygroscopic — absorbs moisture and CO₂ from air, gradually reverting to calcium carbonate (air-slaking). Even 5% air-slaking noticeably reduces quality. Sealed barrels or covered bins in a dry building.
 - **Lime putty**: Store in covered pit or tub under a layer of water. Exclude air to prevent premature carbonation. Keeps indefinitely if kept wet and covered. Putty that has dried out can be re-soaked, though quality degrades.
@@ -78,7 +77,7 @@ Temperature reaches ~150°C during slaking of pure quicklime. The reaction produ
 
 ## Lime Kiln Designs
 
-### Simple Batch Kiln (First Kiln)
+## Simple Batch Kiln (First Kiln)
 
 The simplest purpose-built lime kiln — a vertical shaft built from stone or firebrick:
 
@@ -88,7 +87,7 @@ The simplest purpose-built lime kiln — a vertical shaft built from stone or fi
 - **Cooling**: Seal kiln. Let cool 12-24 hours. Extract lime through the draw arch.
 - **Yield**: 50-70% of theoretical (significant losses from incomplete burning of outer stones and overburning near the fire). ~1-2 tonnes quicklime per batch.
 
-### Shaft Kiln (Continuous Operation)
+## Shaft Kiln (Continuous Operation)
 
 A scaled-up version enabling continuous production:
 
@@ -97,7 +96,7 @@ A scaled-up version enabling continuous production:
 - **Efficiency**: 2-3 tonnes fuel per tonne of quicklime. Much more efficient than batch kilns because waste heat preheats incoming stone and air.
 - **Throughput**: 5-20 tonnes quicklime per day depending on shaft size.
 
-### Test Lime Quality
+## Test Lime Quality
 
 - **Reactivity test**: Drop a piece of quicklime into water. It should slake vigorously within 5 minutes, crumbling to powder with visible steam and heat.
 - **Underburned**: Contains unconverted CaCO₃. Slakes slowly, leaves gritty residue. Common cause: insufficient temperature or time.
@@ -132,21 +131,21 @@ Limestone containing 5-20% clay (aluminosilicate) impurities produces hydraulic 
 
 ## Lime Mortar
 
-### Mixing
+## Mixing
 
 - **Proportions**: Slaked lime putty + sand + water. Ratio 1:2 to 1:3 (lime:sand by volume). More sand = stronger but less workable. More lime = more plastic and sticky but weaker.
 - **Sand selection**: Sharp, angular sand (pit sand or crushed stone) produces the strongest mortar. Rounded river sand is weaker but more workable. Clean sand — no clay, silt, or organic matter.
 - **Mixing process**: Combine lime putty and sand on a board or in a mortar tub. Beat vigorously with hoe or paddle mixer for 10-15 minutes — "fat" mortar should hold shape when cut with trowel and spread without tearing. Let stand 30 minutes before use (water fully penetrates lime particles, improving workability).
 - **Water**: Add sparingly — mortar should be stiff enough to hold its shape on a trowel held vertically. Too wet = weak, shrinks on drying. Too dry = unworkable, poor bond.
 
-### Application & Curing
+## Application & Curing
 
 - **Initial set**: Carbonation begins at surface (Ca(OH)₂ + CO₂ → CaCO₃ + H₂O). Surface firms within hours to days depending on temperature, humidity, and wall thickness.
 - **Full hardening**: Months to years as CO₂ slowly penetrates to core. Thick walls may take years to fully carbonate. This is not a defect — it is how lime mortar works.
 - **[Keep mortar damp for 7+ days](../glossary/keep-mortar-damp-for-7-days.md)** after application — prevents cracking from too-rapid drying. Mist the wall periodically, or cover with damp burlap. In hot, dry weather, protect from direct sun and wind.
 - **Freeze protection**: Do not lay lime mortar when temperature is below 5°C. Freezing before set disrupts the carbonation process and causes permanent weakness.
 
-### Properties of Lime Mortar
+## Properties of Lime Mortar
 
 - **Compressive strength**: 1-5 MPa at 28 days (much lower than Portland cement mortar at 15-40 MPa). Adequate for low-rise masonry construction.
 - **Flexibility**: Lime mortar is more flexible than cement mortar — accommodates minor building movement without cracking. This is why historic lime-mortared buildings survive earthquakes better than rigid cement-mortared ones.
@@ -155,14 +154,14 @@ Limestone containing 5-20% clay (aluminosilicate) impurities produces hydraulic 
 
 ## Lime Plaster & Render
 
-### Interior Plaster
+## Interior Plaster
 
 - **Coats**: Apply in 2-3 coats. **[Scratch coat](../glossary/scratch-coat.md)** (first, 10-15 mm thick, scratched with comb to provide key for next coat). **[Brown coat](../glossary/brown-coat.md)** (second, 6-10 mm, floated to flat). **[Finish coat](../glossary/finish-coat.md)** (third, 3-5 mm, troweled smooth or textured).
 - **Mix**: Lime putty + fine sand (1:2 ratio) for scratch and brown coats. Lime putty alone or with very fine sand for finish coat.
 - **Application**: Apply to dampened surface (masonry, lath, or reed mat). Press firmly into key. Each coat must set partially before the next is applied (1-3 days between coats depending on conditions).
 - **Result**: Smooth, white, breathable wall surface. Naturally antiseptic (alkaline pH inhibits mold). Absorbs and releases moisture — regulates indoor humidity.
 
-### Exterior Render (Stucco)
+## Exterior Render (Stucco)
 
 - **Mix**: Hydraulic lime + coarse sand (1:3 ratio) for durability. Non-hydraulic lime acceptable for sheltered locations.
 - **Coats**: 2-3 coats as interior plaster. Final coat may be limewashed for additional weather protection and whiteness.
@@ -180,21 +179,21 @@ Limestone containing 5-20% clay (aluminosilicate) impurities produces hydraulic 
 
 Lime (or more precisely, the lye derived from wood ashes) is the key reagent in soap production — the first manufactured surfactant.
 
-### Lye (Alkali) Production from Wood Ashes
+## Lye (Alkali) Production from Wood Ashes
 
 - **Source**: Hardwood ashes (oak, beech, maple) contain 3-8% potassium carbonate (K₂CO₃). Softwood ashes are less rich.
 - **Leaching**: Build a barrel or tub with a drain at the bottom. Fill with hardwood ash. Pour hot water through the ash bed slowly. Collect the effluent — lye solution (KOH and K₂CO₃ dissolved in water).
 - **Concentration**: Boil the lye solution to concentrate. Test strength: float an egg — if it bobs with dime-sized area exposed, concentration is ~10% (correct for soap making). For stronger lye, boil longer.
 - **Alternative**: Potash (K₂CO₃) can be extracted by evaporating lye solution to dryness, then heating the residue in a kiln (calcining) to convert carbonate to oxide (K₂O). K₂O + water = KOH (caustic potash).
 
-### Cold Process Soap
+## Cold Process Soap
 
 - Heat animal fat (tallow or lard) to 40-50°C. Slowly add lye solution (KOH or NaOH) with stirring.
 - **Ratio**: ~1 kg fat to 130-150 g KOH (or 100-120 g NaOH). Calculate exact ratio based on saponification value of the fat.
 - Stir to trace (mixture thickens, drips leave visible marks on the surface). Pour into mold, cure 4-6 weeks.
 - **Result**: Soft soap (KOH — "black soap" or "soft soap") or hard soap (NaOH — "bar soap"). KOH soap is paste-like, used for laundry and general cleaning. NaOH soap is solid, used for personal washing.
 
-### Hot Process and Graining Out
+## Hot Process and Graining Out
 
 - Heat fat to 38°C (saponification temperature). Add lye gradually with constant stirring. Continue heating for 2-3 hours until mixture thickens.
 - **Graining out**: Add salt (NaCl) to the hot mixture — salt causes soap to separate and float to top as curds. Salt addition: ~100 g per kg of fat. Remove soap curds, press to remove excess liquid, mold and dry.
@@ -203,7 +202,7 @@ Lime (or more precisely, the lye derived from wood ashes) is the key reagent in 
 
 ## Lime in Industry
 
-### Steel and Metallurgy
+## Steel and Metallurgy
 
 Quicklime (CaO) is a critical flux in steelmaking:
 
@@ -211,28 +210,28 @@ Quicklime (CaO) is a critical flux in steelmaking:
 - **Electric arc furnace**: Similar function — lime flux purifies the steel melt.
 - **[Dolomitic lime](../glossary/dolomitic-lime.md)** (CaO·MgO, from dolomite CaCO₃·MgCO₃ fired at 1600-1800°C): Lines the refractory vessels themselves. Dolomitic refractory withstands the basic slag environment that would dissolve acidic (silica-based) refractories.
 
-### Agriculture
+## Agriculture
 
 - **Soil amendment**: Agricultural lime (ground limestone, CaCO₃) and quicklime are spread on acidic soils at 2-5 tonnes/hectare to raise pH toward neutral (6.0-7.0). Most crops yield best at pH 6.0-7.5.
 - **Soil structure**: Lime improves soil structure in clay soils — flocculates clay particles, creating aggregates that improve drainage and aeration.
 - **Calcium supply**: Lime supplies calcium, an essential plant nutrient (cell wall structure, root development).
 - **Application timing**: Apply in autumn or early spring. Allow 2-3 months for lime to react with soil before planting. Do not apply simultaneously with nitrogen fertilizers (lime causes ammonia volatilization).
 
-### Water and Sewage Treatment
+## Water and Sewage Treatment
 
 - **pH adjustment**: Add hydrated lime Ca(OH)₂ to raise pH of acidic water to 8.5-9.0, causing dissolved heavy metals (Fe, Mn, Al) to precipitate as hydroxides. Filter the precipitate for clean water.
 - **Sewage treatment**: Lime raises pH above 11, killing pathogens and reducing odor. The resulting sludge is stable and can be landfilled or used as soil conditioner.
 - **Softening**: Lime precipitates calcium and magnesium from hard water (water softening). Reduces scale formation in boilers and pipes.
 
-### Sugar Refining
+## Sugar Refining
 
 In the carbonation process: add lime (Ca(OH)₂) to raw sugar juice, then bubble CO₂ through the mixture. CaCO₃ precipitates, entrapping impurities (wax, protein, colloids). Filter the CaCO₃ cake to obtain clarified juice.
 
-### Paper Making
+## Paper Making
 
 Lime is used in the Kraft process for paper pulping: NaOH + Na₂S (white liquor) dissolves lignin from wood chips. The spent cooking liquor (black liquor) is treated with CaO to regenerate NaOH (causticizing): Na₂CO₃ + CaO + H₂O → 2NaOH + CaCO₃. The CaCO₃ mud is reburned to CaO in a lime kiln, closing the chemical loop.
 
-### Tanning (Hide Processing)
+## Tanning (Hide Processing)
 
 Quicklime is used in the beamhouse stage of leather tanning to dehair hides. A lime-sulfide solution (Ca(OH)₂ + Na₂S) loosens hair and epidermis, which are scraped off mechanically. Lime also swells the collagen fibers, opening the hide structure for tanning agents to penetrate.
 
@@ -258,6 +257,6 @@ Quicklime is used in the beamhouse stage of leather tanning to dehair hides. A l
 - **[Glass](../glass/index.md)** (limestone as raw material): [glass.md](../glass/index.md)
 - **[Chemistry](../chemistry/index.md)** (alkali production): [alkalis.md](../chemistry/index.md)
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*
+
+[← Back to Ceramics & Refractories](index.md)

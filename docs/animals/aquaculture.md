@@ -21,7 +21,7 @@ The practice splits into freshwater pond farming (the primary focus here) and co
 - [Food and agriculture](../foundations/food-agriculture.md) — manure for pond fertilization, crop byproducts for feed
 - [Water management](../foundations/index.md) — reliable water source and drainage
 
-### Pond Construction
+## Pond Construction
 
 #### Site Selection
 
@@ -49,7 +49,7 @@ Pond dimensions for subsistence production: 500-2000 m² surface area. Depth 1.5
 
 **Inlet channel**: If stream-fed or spring-fed, dig a channel from the source to the pond. Include a settling basin (a widened section of channel, 1 × 1 × 0.5 m) to trap silt before it enters the pond. Fit a screen (woven willow or wire mesh, 5-10 mm openings) at the pond entrance to exclude wild fish predators.
 
-### Fish Species
+## Fish Species
 
 #### Carp (*Cyprinus carpio*)
 
@@ -79,7 +79,7 @@ Hardy bottom-dwellers tolerant of turbid, low-oxygen water (down to 2-3 mg/L due
 
 Mature weight 2-10 kg, faster growing than carp in warm water. Omnivorous scavengers: consume dead organic matter, insects, small fish, and supplemental feed. Can be raised at higher densities than carp due to air-breathing capability in some species. Handling requires care: spined fins can puncture skin.
 
-### Stocking and Feeding
+## Stocking and Feeding
 
 #### Stocking
 
@@ -113,7 +113,7 @@ Adding manure to the pond stimulates plankton blooms that form the base of the a
 
 Monitor water color: a healthy fertilized pond has a green tint (plankton bloom) with visibility of 25-40 cm (Secchi disk depth). If you can see the bottom at 50+ cm, the pond needs more fertilizer. If visibility drops below 20 cm, suspend fertilization until it clears; oxygen depletion follows overly dense blooms.
 
-### Net and Trap Making
+## Net and Trap Making
 
 #### Cast Nets
 
@@ -143,7 +143,7 @@ Seining is the most efficient method for harvesting a pond completely. Draw the 
 
 **Hook making**: Bone hooks (cut from large mammal rib or scapula, sharpened to a point, bent in boiling water or over a heated stone) work for small to medium fish. Iron wire hooks (forged from 2-4 mm wire) are stronger and hold their point longer. Sizes range from 2 cm (small panfish) to 10 cm (large catfish, river fish). Barbless hooks are simpler to make but lose more fish during the fight.
 
-### Fish Processing
+## Fish Processing
 
 Fresh fish spoils within 6-12 hours at 25-30°C. Processing extends shelf life from days to months.
 
@@ -179,7 +179,7 @@ Salt preserves fish by drawing out moisture and creating a hypertonic environmen
 
 Fish sauce production requires large quantities of salt but preserves protein indefinitely and produces a high-value seasoning that stores and transports easily.
 
-### Shellfish Harvesting
+## Shellfish Harvesting
 
 #### Oyster Cultivation
 
@@ -203,7 +203,7 @@ Mussels settle on any firm surface in the intertidal zone. Cultivation uses rope
 
 Seed clams in sandy or muddy intertidal areas. Mark beds with stakes. Clams grow by filter feeding, requiring no input. Growth to harvest size (5-8 cm) takes 1.5-3 years depending on species and conditions. Harvest by digging with a fork or rake at low tide.
 
-### Safety
+## Safety
 
 **Waterborne parasites**: Freshwater fish in warm climates carry parasitic flukes (*Clonorchis*, *Opisthorchis*) in their flesh. Infection occurs when fish is eaten raw or undercooked. Cook all freshwater fish to an internal temperature of 63°C or above. Freezing at -20°C for 7 days also kills parasites, but this is impractical without modern freezer infrastructure. Salting and smoking at adequate temperatures reduce but do not eliminate all parasitic risk.
 

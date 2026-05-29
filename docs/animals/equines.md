@@ -8,7 +8,7 @@
 > **Outputs**: draft_power, transport, manure, hides
 > **Critical**: Yes — primary large draft and transport animals for field work, hauling, and riding
 
-## 1. Overview
+## Overview
 
 Equines — horses (*Equus caballus*) and donkeys (*Equus africanus asinus*) — are the primary large draft and transport animals for a bootstrapping civilization. Horses provide the greatest pulling power per animal, while donkeys offer superior endurance, disease resistance, and ability to thrive on poor forage. Together they cover the full range of traction, packing, and riding needs from farm work to long-distance transport. Both species were domesticated by 3500-4000 BCE and have been central to every major agricultural and transport system since.
 
@@ -24,7 +24,7 @@ Equines — horses (*Equus caballus*) and donkeys (*Equus africanus asinus*) —
 | Gestation | 335 days (320-350) | 365 days (340-390) | Sterile |
 | Pasture requirement | 1.0-1.5 ha | 0.3-0.5 ha | 0.8-1.2 ha |
 
-## 2. Prerequisites
+## Prerequisites
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -36,7 +36,7 @@ Equines — horses (*Equus caballus*) and donkeys (*Equus africanus asinus*) —
 | Horseshoes and nails | [`metals`](../metals/index.md) | Reset every 6-8 weeks |
 | Farrier tools (nippers, rasp, hammer) | [`metals`](../metals/index.md) | For shoeing and hoof trimming |
 
-## 3. Bill of Materials
+## Bill of Materials
 
 Materials listed per 2-horse team per year.
 
@@ -50,9 +50,9 @@ Materials listed per 2-horse team per year.
 | Salt | 20-30 kg loose salt | [`mining`](../mining/index.md) | Salt block, free-choice |
 | Bedding (straw/shavings) | 2,000-4,000 kg | [`plants`](../plants/index.md) | For stabled horses |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Draft Power
+## 4.1 Draft Power
 
 **Principle**: Horses convert chemical energy from forage and grain into mechanical pulling force. A single draft horse (700-900 kg) pulls 500-800 kg on level ground at 4-5 km/h for 4-6 hours. Two-horse teams double capacity. Donkeys provide less absolute power but sustain work longer on poorer feed.
 
@@ -83,7 +83,7 @@ Materials listed per 2-horse team per year.
 - Shoeing required every 6-8 weeks — farrier skill takes years to develop
 - Harness sores sideline animals for weeks if not caught immediately
 
-### 4.2 Breeding and Foaling
+## 4.2 Breeding and Foaling
 
 **Principle**: Mares breed seasonally (spring/summer), with 335-day gestation producing a single foal. Foals reach skeletal maturity at 4-5 years. Breeding management determines the quality and availability of future working stock.
 
@@ -112,7 +112,7 @@ Materials listed per 2-horse team per year.
 - Dystocia (difficult birth) is a life-threatening emergency — veterinary assistance often needed
 - Twin pregnancies in horses rarely produce two surviving foals — manual reduction of one embryo at 14-16 days is standard practice
 
-### 4.3 Shoeing and Hoof Care
+## 4.3 Shoeing and Hoof Care
 
 **Principle**: Equine hooves grow continuously (6-9 mm/month) and wear on hard surfaces. Domestic working equines need shoes to prevent excessive wear, cracking, and lameness. Shoes are reset every 6-8 weeks.
 
@@ -141,7 +141,7 @@ Materials listed per 2-horse team per year.
 - Shoes wear out: 2-4 sets per year per working horse, each requiring fresh bar stock
 - Neglected shoeing (beyond 8 weeks) causes hoof imbalance, lameness, and long recovery
 
-### 4.4 Training
+## 4.4 Training
 
 **Principle**: Equines learn through pressure-release and repetition. Training is a multi-year progression from imprint handling at birth to full work capacity at 4-5 years. Rushed training produces dangerous animals.
 
@@ -169,9 +169,9 @@ Materials listed per 2-horse team per year.
 - Donkeys' freeze-and-assess response ("stubbornness") frustrates force-based trainers
 - Poorly trained equines are dangerous — a 500 kg frightened horse can kill
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Feed Requirements by Workload (500 kg Horse)
+## Feed Requirements by Workload (500 kg Horse)
 
 | Work Level | Dry Matter/day | Hay/Pasture | Grain Supplement | Water/day |
 |------------|---------------|-------------|-----------------|-----------|
@@ -180,7 +180,7 @@ Materials listed per 2-horse team per year.
 | Moderate work (2-4 hr) | 12-14 kg | 8-10 kg | 2-4 kg oats | 50-70 L |
 | Heavy work (4-6 hr) | 14-16 kg | 8-10 kg | 4-5 kg oats | 60-80 L |
 
-### Feed Requirements by Workload (200 kg Donkey)
+## Feed Requirements by Workload (200 kg Donkey)
 
 | Work Level | Dry Matter/day | Forage | Grain Supplement | Water/day |
 |------------|---------------|--------|-----------------|-----------|
@@ -188,7 +188,7 @@ Materials listed per 2-horse team per year.
 | Light work | 5-6 kg | 5-6 kg | 0-0.5 kg | 20-30 L |
 | Heavy work | 6-8 kg | 5-6 kg | 1-2 kg | 30-45 L |
 
-### Breeds by Use
+## Breeds by Use
 
 | Breed | Weight | Use | Pulling Capacity |
 |-------|--------|-----|------------------|
@@ -199,7 +199,7 @@ Materials listed per 2-horse team per year.
 | Standard donkey | 180-250 kg | Pack transport, light draft | 50-80 kg pack |
 | Mammoth Jackstock | 400-550 kg | Mule breeding, draft | 100-150 kg pack |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 A 2-horse draft team requires 2-3 hectares of productive pasture or 5,500-7,300 kg stored hay per winter, plus 1,500-2,500 kg grain supplement per year. Two horses plow 1.0-1.6 hectares per day — sufficient for a 20-40 hectare farm with rotational use.
 
@@ -207,7 +207,7 @@ A 2-horse draft team requires 2-3 hectares of productive pasture or 5,500-7,300 
 
 **Scale bottlenecks**: Feed production and storage capacity limit team size more than any other factor. Each additional draft horse requires 1.0-1.5 hectares of dedicated hay land.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -218,7 +218,7 @@ A 2-horse draft team requires 2-3 hectares of productive pasture or 5,500-7,300 
 | Weight loss despite adequate feed | Dental problems (sharp enamel points) | Float (rasp) teeth — check every 6-12 months; look for quidding (dropped feed) |
 | Cribbing (biting wood, gulping air) | Boredom, stall confinement | Increase turnout time; provide companionship; anti-crib collar as last resort |
 
-## 8. Safety
+## Safety
 
 **Handling**: Always alert an equine to your presence — speak calmly, approach from the side (not directly from behind). Equines have a blind spot directly behind them; startling triggers a kick reflex.
 
@@ -232,7 +232,7 @@ A 2-horse draft team requires 2-3 hectares of productive pasture or 5,500-7,300 
 
 **Colic**: The leading cause of death in domestic horses. Prevent with gradual feed transitions (7-10 days), constant clean water, regular exercise, and dental maintenance. Walking a colicking horse gently may help mild cases — never let a colicking horse roll violently (intestinal torsion is fatal without surgery).
 
-## 9. Quality Control
+## Quality Control
 
 **Body condition scoring**: Use a 9-point scale (1 = emaciated, 9 = obese). Working horses should score 5-6. Ribs should be felt but not visible. Loss of condition despite adequate feed indicates dental or health problems requiring investigation.
 
@@ -240,7 +240,7 @@ A 2-horse draft team requires 2-3 hectares of productive pasture or 5,500-7,300 
 
 **Dental maintenance**: Float (rasp) teeth every 6-12 months. Signs of dental problems: dropping feed (quidding), undigested grain in manure, head-tossing while eating, weight loss. Wolf teeth (vestigial premolars in 50-70% of horses) must be removed before bitting.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 **Oxen alternative**: Cattle trained as draft animals (oxen) are slower than horses but pull heavier loads relative to body weight, require no grain, and have longer working lives. See [`cattle`](cattle.md).
 
@@ -250,7 +250,7 @@ A 2-horse draft team requires 2-3 hectares of productive pasture or 5,500-7,300 
 
 **Cold climate**: Both species tolerate cold well with adequate forage — forage digestion generates internal heat. Provide windbreaks and ensure water is not frozen (horses drink 40% more warm water than ice-cold water in winter).
 
-## 11. Cross-Domain Links
+## Cross-Domain Links
 
 - [`animals.draft-power`](draft-power.md) — hitch configurations, implements, and team management for equine draft power
 - [`animals.domestication`](domestication.md) — equine domestication history and comparative livestock data
@@ -258,5 +258,5 @@ A 2-horse draft team requires 2-3 hectares of productive pasture or 5,500-7,300 
 - [`agriculture`](../agriculture/index.md) — plowing, cultivation, and harvesting with equine power
 - [`leather`](leather.md) — equine hide processing and harness leather
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Animals](index.md)

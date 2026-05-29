@@ -8,35 +8,35 @@
 > **Outputs**: wiring_harnesses, switches, connectors, circuit_breakers, transformers, motors
 > **Critical**: Yes — electrical systems deliver power from generators to every industrial machine, lighting circuit, and electronic device; without reliable wiring, switchgear, and protection, electrification is impossible
 
-## 1. Overview
+## Overview
 
 Electrical systems cover power distribution wiring, switches, connectors, fuses, breakers, transformers, and motor-generator sets — the infrastructure that delivers electricity from generators to loads. Reliable electrical systems are a prerequisite for industrial machinery, lighting, communications, and all post-steam power applications.
 
 This document is a Conceptual/Organizational guide: it provides decision criteria for selecting components, implementation steps for building power distribution systems, and trade-off comparisons between alternatives. Construction details for individual passive components are in [Passive Components](passive-components.md).
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 - **Copper wire**: Drawn from [electrolytic copper](../chemistry/electrolysis.md), diameters 0.05-10 mm, purity >99.9%
 - **Insulation materials**: [Thermoplastics](../polymers/thermoplastics.md) — PVC (160-200°C extrusion), XLPE (150-180°C + cross-linking), PTFE (350-400°C)
 - **Silicon steel laminations**: 3% Si-Fe, 0.23-0.35 mm thick, for transformer and motor cores
 - **Ceramic and thermoplastic insulators**: For switches, breaker housings, and terminal blocks
 - **Solder and flux**: From [metals processing](../metals/iron-steel.md) for wire termination
 
-### Tools
+## Tools
 - [Wire drawing dies](../machine-tools/machining.md) for consistent wire diameters
 - Insulation resistance tester (megger, 500-5000V DC)
 - Multimeter (voltage, current, resistance measurement)
 - Conduit benders, cable pullers, and termination crimp tools
 - [Electrical measurement](../measurement/electrical-instruments.md) instruments
 
-### Knowledge
+## Knowledge
 - Ohm's Law: V = IR; Power: P = VI = I²R = V²/R
 - Three-phase AC theory: 120° phase relationship, line-to-line vs. line-to-neutral voltage
 - NEC (NFPA 70) code requirements for conductor sizing, overcurrent protection, and grounding
 - Lockout/tagout procedures for safe equipment isolation
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity (per 100m industrial power circuit, 480V 3-phase, 100A) | Source | Alternatives |
 |----------|------------------------------------------------------------------|--------|-------------|
@@ -47,9 +47,9 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 | Circuit breaker (100A, 480V, 3-pole) | 1 unit | [Metals](../metals/index.md) + [Plastics](../polymers/thermoplastics.md) | Fused disconnect (lower cost, one-time protection) |
 | Terminal lugs (2-hole, 3 AWG) | 6 pcs | [Metals](../metals/index.md) | Mechanical connectors (spring type) |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Wire and Cable Production
+## 4.1 Wire and Cable Production
 
 **Copper wire drawing**: Copper rod (8 mm diameter, from [electrorefining](../chemistry/electrolysis.md) at 99.99% purity) drawn through a series of progressively smaller tungsten carbide dies. Each die reduces diameter by 20-30%. Drawing speed: 500-2000 m/min. Lubrication: soap solution or oil emulsion. Annealing between passes at 400-600°C to restore ductility (cold drawing work-hardens copper). Final wire diameter: 0.05-10 mm.
 
@@ -75,7 +75,7 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 - PVC insulation releases hydrogen chloride gas when burned (>200°C) — in building fires, burning PVC cable creates corrosive, toxic smoke that damages equipment and threatens life safety
 - Voltage drop limits practical run lengths: at 240V single-phase, a 12 AWG circuit carrying 16A drops 2.6V per 30m (1.1%) — the NEC 3% branch circuit limit is reached at ~82m, requiring larger wire for longer runs
 
-### 4.2 Switches, Contactors, and Relays
+## 4.2 Switches, Contactors, and Relays
 
 **Manual switches**: Knife switch (bare copper blades hinged into jaw contacts — earliest type, for visible disconnect). Toggle switch (bat-handle actuator, 3-15A at 125-250V AC, 10,000-100,000 cycle life). Rotary switch (multi-position, up to 12 positions, for selection of circuits). Push-button (momentary or maintained contact, 5-10A). Limit switch (actuated by machine motion, 5-15A, IP67 rated when sealed).
 
@@ -93,7 +93,7 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 - Contactors generate audible noise (hum at 50/60 Hz from electromagnetic coil vibration) — in quiet environments (offices, laboratories), the 40-60 dB(A) hum is objectionable and requires special quiet-duty contactors with DC coils
 - Contact bounce on closure (3-10 ms of intermittent contact) creates electrical noise and false triggering in high-speed digital circuits — requires debouncing circuits or software filtering in control systems
 
-### 4.3 Fuses and Circuit Breakers
+## 4.3 Fuses and Circuit Breakers
 
 **Fuses**: One-time current-interrupting device — melts a calibrated element when current exceeds rating. Types:
 - Cartridge fuse (glass or ceramic tube, 0.25A-600A, 125V-600V). Fast-acting: opens in <1 second at 200% rating. Time-delay (slow-blow): holds 200% for 5-30 seconds (allows motor starting inrush).
@@ -112,7 +112,7 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 - Circuit breaker interrupting time (1-5 cycles for standard MCCBs, 16-83 ms at 60 Hz) is 4-20× slower than HRC fuses — the longer clearing time allows more energy through during a fault, increasing arc-flash incident energy
 - Molded-case breakers lose calibration over time — thermal trip points drift 5-15% after 10-20 years of thermal cycling, requiring periodic testing and eventual replacement
 
-### 4.4 Transformers
+## 4.4 Transformers
 
 **Principle**: Two coils wound on a shared magnetic core transfer AC power with voltage conversion. V₁/V₂ = N₁/N₂ (voltage ratio equals turns ratio). Power conserved (minus losses): V₁ × I₁ ≈ V₂ × I₂.
 
@@ -132,7 +132,7 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 - Oil-filled transformers above ~500 kVA present fire risk — mineral oil is combustible (flash point 140-160°C), and internal faults can ignite the oil, requiring fire-rated vaults or outdoor pad-mount installations with oil containment
 - Inrush current on energization (10-25× rated current for the first 0.1-0.5 seconds) stresses upstream breakers and can cause nuisance tripping — requires coordination with protective device settings
 
-### 4.5 Power Distribution Systems
+## 4.5 Power Distribution Systems
 
 **Three-phase power**: Industrial power is distributed as three-phase AC (three conductors carrying sinusoidal voltage 120° apart in phase). Advantages over single-phase: 1.5× more power per conductor, constant instantaneous power (no pulsation), simpler motors (self-starting, no capacitor needed). Standard voltages: 208V, 240V, 480V, 4160V, 13.8 kV, 34.5 kV.
 
@@ -152,7 +152,7 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 - Grounding system effectiveness depends on soil resistivity — rocky or sandy soil may require multiple ground rods, chemical ground enhancement, or ground grids to achieve the <25 Ω target
 - Three-phase systems are susceptible to single-phasing (loss of one phase from fuse blow or broken conductor) — motors continue running on two phases but draw 1.7-2.0× rated current in the remaining phases, causing rapid overheating unless phase-loss protection is installed
 
-### 4.6 Motors and Generators
+## 4.6 Motors and Generators
 
 **DC motor**: Armature (rotating winding) on shaft, field winding (stationary) on stator frame. Brushes (carbon-graphite, 8-25 mm wide) conduct current to commutator segments (copper, insulated by mica, 1-3 mm wide each). Speed: N = (V - IₐRₐ) / (Kφ). Speed control: vary armature voltage (0-100% rated) or field current (field weakening above base speed gives 2-4× base speed). Typical ratings: 0.5-500 HP, 90-240V or 500V.
 
@@ -170,7 +170,7 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 - DC motor brushes wear at 0.5-2.0 mm per 1000 hours and must be replaced every 2000-5000 hours — brush replacement requires motor shutdown and access to the commutator, creating maintenance burden
 - Generator voltage regulation requires excitation current control — loss of excitation causes terminal voltage collapse and possible motoring (reverse power flow), requiring reverse-power relay protection
 
-### 4.7 Lighting Systems
+## 4.7 Lighting Systems
 
 **Incandescent lamp**: Tungsten filament (0.02-0.05 mm diameter, 500-1500 mm coiled length) in evacuated glass bulb (or filled with argon-nitrogen gas at 0.5-0.8 atm to reduce evaporation). Filament temperature: 2500-3000K. Luminous efficacy: 8-17 lumens/watt (very inefficient — 80-90% of energy radiated as infrared heat, not visible light). Lifetime: 750-2000 hours (halogen: 2000-4000 hours). Power: 15-1500W. Voltage: 120V or 240V. Glass bulb temperature: 150-300°C. Base types: Edison screw (E26/E27), bayonet (BA15d). Production requires [glass blowing](../glass/basic.md) and tungsten wire drawing.
 
@@ -188,9 +188,9 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 - Fluorescent lamps contain mercury (3-5 mg per tube) — breakage releases mercury vapor (TLV 0.025 mg/m³), requiring careful cleanup and disposal as hazardous waste
 - All lighting technologies generate heat that must be managed: a 400W metal halide lamp in an enclosed fixture produces >300W of thermal energy, raising ambient temperature 5-15°C in unventilated spaces
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Power Cable Ratings by Installation
+## Power Cable Ratings by Installation
 
 | Installation Method | Derating Factor | Max Conductor Temperature | Notes |
 |--------------------|-----------------|--------------------------|-------|
@@ -202,7 +202,7 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 
 Voltage drop: limit to 3% for branch circuits, 5% total from service to load. At 240V, a 30m run of 12 AWG carrying 16A drops 2.6V (1.1%).
 
-### Motor Selection by Load Type
+## Motor Selection by Load Type
 
 | Load Type | Torque Characteristic | Recommended Motor | Key Parameter |
 |-----------|----------------------|-------------------|---------------|
@@ -211,7 +211,7 @@ Voltage drop: limit to 3% for branch circuits, 5% total from service to load. At
 | Crushers, ball mills | High starting torque, shock loads | High-slip induction (Design D) | Locked-rotor torque: 275-300% of rated |
 | Precision positioning | Constant torque, precise speed | PMSM servo with encoder | Speed regulation: ±0.01%, position: ±1-10 counts |
 
-### Motor Efficiency Standards
+## Motor Efficiency Standards
 
 | Standard | Efficiency Range | Notes |
 |----------|-----------------|-------|
@@ -222,13 +222,13 @@ Voltage drop: limit to 3% for branch circuits, 5% total from service to load. At
 
 Efficiency penalty for operating at 50% load: 1-3% drop from full-load efficiency. Oversizing a motor by >50% wastes energy continuously.
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Early industrial (Year 15-20)**: Bare copper conductors on ceramic insulators, knife switches, lead-sheathed paper-insulated cable. Distribution at 120-240V DC or single-phase AC. Motors: 0.5-10 HP. Lighting: incandescent and carbon arc.
 - **Mature industrial (Year 20-30)**: Three-phase AC at 208-480V, PVC/XLPE insulated cable, molded-case breakers, contactors. Distribution transformers to 2500 kVA. Motors: 1-500 HP. Lighting: fluorescent.
 - **Advanced (Year 30+)**: 4.16-34.5 kV distribution, vacuum and SF6 switchgear, digital protective relays, VFD motor control. See [Power Electronics](power-electronics.md) for motor drive details.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -241,7 +241,7 @@ Efficiency penalty for operating at 50% load: 1-3% drop from full-load efficienc
 | Fluorescent lamp flickering | Aging lamp or failing ballast | Replace lamp first; if flickering persists, replace ballast |
 | Breaker won't reset | Fault still present on circuit or breaker mechanically damaged | Verify fault is cleared (megger test); replace breaker if mechanism is damaged |
 
-## 8. Safety
+## Safety
 
 **Arc flash hazard**: Short-circuit current in 480V systems can reach 20-65 kA. Arc temperature: 20,000°C (4× surface of sun). Arc blast pressure: 500-2000 lb/ft² at 0.6 m. Incident energy: 1-100+ cal/cm² (1.2 cal/cm² causes second-degree burn). PPE required: arc-rated clothing (8-100 cal/cm² depending on incident energy), face shield, voltage-rated gloves, hearing protection. Arc flash boundary: distance where incident energy = 1.2 cal/cm² (typically 0.3-3.0 m from equipment).
 
@@ -251,22 +251,22 @@ Efficiency penalty for operating at 50% load: 1-3% drop from full-load efficienc
 
 **High voltage (above 600V)**: Requires qualified personnel, insulated tools, voltage-rated gloves (Class 00 to Class 4, 500V to 36,000V AC), and minimum approach distances per NFPA 70E Table 130.4(D)(a). For 480V systems: limited approach boundary = 1.06 m, restricted approach boundary = 0.30 m.
 
-## 9. Quality Control
+## Quality Control
 
-### Commissioning Tests
+## Commissioning Tests
 - **Insulation resistance**: Megger all conductors before energizing. Acceptable: >1 MΩ per kV + 1 MΩ. Test at 500V DC for 600V systems, 1000V DC for 5 kV systems.
 - **Continuity and grounding**: Verify all equipment grounding conductors are continuous (<1 Ω from any metallic enclosure to ground bus). Ground electrode resistance: <25 Ω (building), <5 Ω (industrial facility), <1 Ω (substation).
 - **Protective device coordination**: Verify breaker trip curves are coordinated — upstream breaker must not trip before downstream breaker for faults within downstream zone. Test by injecting current and measuring trip time.
 - **Motor rotation check**: Jog motor (brief energization) and verify rotation direction before coupling to load. Reverse two phases on the motor terminal block to reverse direction.
 
-### Power Quality Measurements
+## Power Quality Measurements
 - **Voltage regulation**: Measure voltage at service entrance and at end of longest branch circuit under load. Must be within ±10% of nominal at service, ±3% drop on branch circuits.
 - **Power factor**: Measure with power analyzer. Target: >0.95 lagging. Below 0.90: install capacitor banks (kVAR = 25-40% of motor HP).
 - **Harmonic distortion**: Measure THD at service entrance with power analyzer. IEEE 519 limit: <5% THD at point of common coupling. Above 5%: install harmonic filters or 12-pulse rectifiers.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Conductor Material Selection
+## Conductor Material Selection
 
 | Conductor | Conductivity (% IACS) | Weight | Cost | Best For |
 |-----------|----------------------|--------|------|----------|
@@ -277,7 +277,7 @@ Efficiency penalty for operating at 50% load: 1-3% drop from full-load efficienc
 
 Decision criterion: Use aluminum when conductor cross-section >35 mm² (2 AWG) and weight or cost is a primary concern — aluminum requires 1.6× the cross-section but weighs 48% less and costs 30-50% less per ampere-meter.
 
-### Overcurrent Protection Selection
+## Overcurrent Protection Selection
 
 | Device | Interrupting Speed | Reset? | Interrupting Capacity | Best For |
 |--------|-------------------|--------|----------------------|----------|
@@ -289,7 +289,7 @@ Decision criterion: Use aluminum when conductor cross-section >35 mm² (2 AWG) a
 
 Decision criterion: Use HRC fuses when available fault current >65 kA or when protecting semiconductor devices. Use MCCBs for all general industrial branch circuits. Use PTCs only for low-voltage (<60V) electronic protection.
 
-### Electrical Calculation Reference
+## Electrical Calculation Reference
 
 **Ohm's Law**: V = I × R, where V = voltage (volts), I = current (amperes), R = resistance (ohms).
 
@@ -299,7 +299,7 @@ Decision criterion: Use HRC fuses when available fault current >65 kA or when pr
 
 **Short-circuit current**: For a 1000 kVA transformer at 480V with 5.75% impedance: I_sc = kVA × 1000 / (√3 × V × %Z/100) = 1,000,000 / (1.732 × 480 × 0.0575) = 20,900A symmetrical RMS.
 
-## 11. References
+## References
 
 - **[Basic Semiconductor Devices](../silicon/basic-devices.md)**: semiconductor devices used in power electronics and control circuits
 - **[Electronics Assembly](assembly.md)**: PCB fabrication and soldering for control electronics
@@ -310,6 +310,6 @@ Decision criterion: Use HRC fuses when available fault current >65 kA or when pr
 - **[Power Electronics](power-electronics.md)**: VFDs, inverters, and converters for motor control
 - **[Passive Components](passive-components.md)**: transformers, inductors for power distribution
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*
+
+[← Back to Electronics](index.md)

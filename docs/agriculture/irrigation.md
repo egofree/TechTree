@@ -8,7 +8,7 @@
 > **Outputs**: irrigation_water, irrigated_land, water_delivery_infrastructure
 > **Critical**: Yes — in arid and semi-arid climates, irrigation is the difference between productive agriculture and subsistence failure
 
-## 1. Overview
+## Overview
 
 Irrigation is the controlled delivery of water to crops at times and quantities that natural rainfall does not provide. Without irrigation, agriculture is limited to regions and seasons where precipitation meets crop water requirements — roughly 500-800 mm during the growing season for most cereals. Irrigation extends cultivation into arid regions, lengthens growing seasons, and stabilizes yields against drought. The earliest irrigation systems — simple diversion canals from rivers — predate written records and were the enabling technology for the first civilizations in Mesopotamia, the Nile valley, the Indus valley, and China.
 
@@ -16,7 +16,7 @@ The core engineering challenge is moving water from a source (river, well, sprin
 
 Position in the dependency chain: irrigation requires [Water Procurement](../water/procurement.md) (a water source and basic collection infrastructure) and builds on [Foundations → Agriculture](../foundations/food-agriculture.md) (basic cultivation knowledge). It enables reliable [Food Processing](../food-processing/index.md) by guaranteeing crop yields and supports [Soil Management](soil-management.md) by providing the water needed for cover crop establishment and compost activation.
 
-## 2. Prerequisites
+## Prerequisites
 
 **Materials**:
 - Water source (river, stream, spring, well, or reservoir) with reliable minimum flow
@@ -42,9 +42,9 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 - Cleared and graded land suitable for canal or furrow construction
 - Access to water source with legal/social allocation (water rights, communal scheduling)
 
-## 3. Bill of Materials
+## Bill of Materials
 
-### Gravity Canal System (1 km canal, 50 L/sec capacity)
+## Gravity Canal System (1 km canal, 50 L/sec capacity)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -55,7 +55,7 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 | Gravel for canal bed (anti-erosion) | 20-50 tonnes | River gravel | Compacted clay base |
 | Labor for construction | 200-500 person-days | Community labor | Draft animal assistance for earth-moving |
 
-### Shaduf (Single Water-Lifting Device)
+## Shaduf (Single Water-Lifting Device)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -66,7 +66,7 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 | Pivot post | 1.5-2 m wooden post | Local timber | Stone pillar with notch |
 | Stone foundation | 100-200 kg | Field stone | Compacted earth pad |
 
-### Low-Pressure Drip System (1 Hectare, Clay Pipe)
+## Low-Pressure Drip System (1 Hectare, Clay Pipe)
 
 | Material | Quantity per Hectare | Source | Alternatives |
 |----------|---------------------|--------|-------------|
@@ -76,9 +76,9 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 | Emitters (perforated clay plugs) | 2,000-5,000 units | [Ceramics](../ceramics/pottery.md) | Small holes drilled in bamboo |
 | Gravel for bed preparation | 5-10 m³ | River gravel | Sand base |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Gravity Canal Construction
+## 4.1 Gravity Canal Construction
 
 1. **Survey the route**: Walk the path from water source to field. Use a water level (two stakes 5-10 m apart, connect with water-filled channel or hose) to establish a consistent gradient of 0.1-0.5% (10-50 cm drop per 100 m). Too steep: water erodes the canal bed. Too flat: water pools, silts up, flow slows.
 2. **Mark the alignment**: Drive stakes every 5-10 m along the planned canal center-line. Connect with string. The canal follows the contour, not the straight line — contour following minimizes earth-moving.
@@ -98,7 +98,7 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 - Annual de-silting costs 20-50 person-days per km of canal in silty water regions
 - Unlined sandy canals lose 40-60% of water to seepage; clay lining requires 50-100 m³ per km
 
-### 4.2 Furrow Irrigation
+## 4.2 Furrow Irrigation
 
 1. **Prepare the field**: Plow or hoe the field into raised beds (beds) and channels (furrows). Bed width: 60-100 cm. Furrow depth: 15-25 cm. Furrow spacing: matched to crop row spacing.
 2. **Set the siphon or gate**: At the head of each furrow, install a small gate (wooden slide) or use a siphon (clay tube over the field boundary) to control flow into each furrow.
@@ -116,7 +116,7 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 - Uneven water distribution on sloped or uneven fields without precise leveling
 - Furrow erosion on sandy soils at gradients above 0.5% — limits use on steep terrain
 
-### 4.3 Water-Lifting with a Shaduf
+## 4.3 Water-Lifting with a Shaduf
 
 1. **Set up the shaduf**: Mount the lever beam on the pivot post so the bucket end is longer than the counterweight end (ratio 3:1 to 5:1). Attach the bucket to the long end and the counterweight to the short end.
 2. **Fill the bucket**: Pull the bucket end down to the water source (river, canal, or well). The counterweight assists the pull. Submerge the bucket to fill — allow 10-20 liters.
@@ -134,7 +134,7 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 - Sustained operation is physically taxing — 6-8 hours of shaduf operation causes shoulder and back strain
 - Single operator irrigates only 0.1-0.2 ha per day — insufficient for fields larger than 1 ha without multiple devices
 
-### 4.4 Archimedes Screw Operation
+## 4.4 Archimedes Screw Operation
 
 1. **Build the screw**: Construct a helical blade inside a wooden or metal cylinder, 20-40 cm diameter, 2-5 m long. The cylinder sits in a trough or pipe at 30-45° angle from horizontal. Blade pitch: 15-25 cm between turns.
 2. **Install at the water source**: Place the lower end submerged in the water source. The upper end empties into an irrigation channel or reservoir.
@@ -152,9 +152,9 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 - Blade-to-casing gap of >5 mm causes 20-40% efficiency loss — regular adjustment needed
 - Limited to lifts of 1-5 m — deeper wells require Persian wheel or bucket chain systems
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Crop Water Requirements by Growth Stage
+## Crop Water Requirements by Growth Stage
 
 | Crop | Total Season (mm) | Establishment (mm/day) | Vegetative (mm/day) | Flowering (mm/day) | Grain Fill (mm/day) |
 |------|-------------------|----------------------|--------------------|--------------------|--------------------|
@@ -165,7 +165,7 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 | Vegetables (mixed) | 400-600 | 3-4 | 4-6 | 5-7 | 4-5 |
 | Cotton | 600-1,000 | 2-3 | 4-6 | 7-9 | 3-5 |
 
-### Water-Lifting Device Comparison
+## Water-Lifting Device Comparison
 
 | Device | Maximum Lift (m) | Flow Rate (L/hr) | Operators Required | Energy Source | Construction Complexity |
 |--------|------------------|-------------------|--------------------|--------------|-----------------------|
@@ -176,7 +176,7 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 | Persian wheel (animal) | 5-15 | 15,000-50,000 | 1 animal + 1 person | Animal | Medium |
 | Counterpoise lift | 1-2 | 3,000-8,000 | 1 | Human | Low |
 
-### Canal Flow Rates by Channel Dimensions
+## Canal Flow Rates by Channel Dimensions
 
 | Channel Width × Depth (cm) | Gradient (%) | Flow Rate (L/sec) | Hectares Served |
 |----------------------------|-------------|-------------------|-----------------|
@@ -188,7 +188,7 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 
 Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0.025-0.035. Lined canals (clay, stone) carry 15-30% more water at the same gradient.
 
-### Irrigation Application Efficiency by Method
+## Irrigation Application Efficiency by Method
 
 | Method | Application Efficiency | Labor per Hectare per Irrigation | Water Loss (Evaporation + Runoff) | Suitable Soil Types |
 |--------|----------------------|--------------------------------|-----------------------------------|--------------------|
@@ -198,7 +198,7 @@ Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0
 | Drip (clay pipe) | 70-90% | 1-2 person-hours (once installed) | 10-30% | All soils |
 | Sprinkler (pressurized) | 65-80% | 0.5-1 person-hours | 20-35% | All soils |
 
-### Head Loss in Earthen Canals
+## Head Loss in Earthen Canals
 
 | Parameter | Typical Value | Impact |
 |-----------|--------------|--------|
@@ -208,7 +208,7 @@ Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0
 | Siltation rate | 5-20 cm depth per year (murky water) | Requires annual de-silting |
 | Vegetation obstruction | 10-30% flow reduction if unmanaged | Clear weeds monthly during irrigation season |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 **Individual garden (0.05-0.2 ha)**: Hand-watering with buckets or clay pots directly from a well or river. Daily labor: 1-2 hours. No infrastructure required beyond the water source. Suitable for household vegetable gardens. Yield improvement over rain-fed: 50-100%.
 
@@ -220,7 +220,7 @@ Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0
 
 **Key bottleneck**: Siltation. Every canal silts up. Without annual de-silting (clearing accumulated sediment), flow capacity drops 20-40% per year. De-silting is the single largest maintenance cost of any gravity canal system.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -233,7 +233,7 @@ Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0
 | Uneven water distribution | Canal gradient not uniform; some furrows steeper than others | Re-survey and re-grade canal; install flow dividers at distribution points; adjust individual furrow gates |
 | Algae blocking emitters (drip system) | Sunlight on water in pipes promotes algal growth | Cover header pipes with earth or black cloth; install coarse filter at intake; flush lines weekly |
 
-## 8. Safety
+## Safety
 
 - **Drowning hazard**: Canals and reservoirs with steep banks and murky water. Children and non-swimmers are at highest risk. Fence canal crossings near settlements. Mark deep sections. Never work alone near deep water.
 - **Waterborne disease**: Irrigation water from rivers or open canals may carry pathogens (E. coli, Giardia, Schistosoma). Do not drink irrigation water without treatment (see [Water → Basic Treatment](../water/basic-treatment.md)). Wear boots in flooded fields — schistosomiasis and leptospirosis infect through skin contact with contaminated water.
@@ -242,9 +242,9 @@ Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0
 - **Physical injury from water-lifting devices**: Shaduf and scoop wheel mechanisms have moving parts that pinch fingers and strike heads. Keep clothing and hair clear of rotating shafts. Maintain wooden pivots — worn pivots cause sudden drops.
 - **Hypothermia**: Working in flooded fields in cold weather. Water conducts heat 25× faster than air. Limit exposure to cold irrigation water to 2-3 hours maximum. Wear waterproof boots and change wet clothes promptly.
 
-## 9. Quality Control
+## Quality Control
 
-### Canal Flow Verification
+## Canal Flow Verification
 
 | Parameter | Acceptable Range | Test Method |
 |-----------|-----------------|-------------|
@@ -254,7 +254,7 @@ Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0
 | Silt depth | <10 cm accumulated | Probe canal bed with marked stick at 50 m intervals |
 | Gate seal leakage | <5% of flow when closed | Visual: no visible water passing closed gate |
 
-### Irrigation Application Check
+## Irrigation Application Check
 
 | Parameter | Target | Test Method |
 |-----------|--------|-------------|
@@ -263,9 +263,9 @@ Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0
 | Distribution uniformity | >75% (ratio of minimum to maximum infiltration) | Measure soil moisture at 5+ points across the field 24 hours after irrigation |
 | Salinity (if applicable) | <4 dS/m in root zone (salt-sensitive crops) | Taste test: salty taste indicates problem; confirm with conductivity meter when available |
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Irrigation Method Selection by Situation
+## Irrigation Method Selection by Situation
 
 | Situation | Recommended Method | Why |
 |-----------|-------------------|-----|
@@ -278,14 +278,14 @@ Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0
 | Rice paddy | Controlled flooding with bunds | Rice requires continuous shallow flooding |
 | Seasonally waterlogged lowland | Raised beds with drainage channels | Combines drainage and irrigation in one system |
 
-### Regional Historical Systems
+## Regional Historical Systems
 
 - **Mesopotamian canal networks** (3000 BCE+): Canals 10-30 km long diverting Tigris/Euphrates water. Supported the first urban civilization. Required centralized labor organization for construction and de-silting — irrigation and state formation were inseparable.
 - **Egyptian basin irrigation** (Nile flood): Low basins (1-2 m deep, 500-5,000 hectares each) flooded annually by the Nile inundation. No lifting required — the river did the work. Supported dense populations for millennia with minimal technology.
 - **Qanat systems** (Persia, 1000 BCE+): Gently sloping underground tunnels carrying water from aquifer outcrops on mountain slopes to surface fields 5-30 km away. Eliminated evaporation losses. Construction required precise surveying over long distances. Still operational in Iran today.
 - **Chinampas** (Aztec, Lake Texcoco): Lake-based raised beds irrigated by capillary rise from surrounding water. No canals or lifting needed. Extremely productive (up to 7 harvests/year).
 
-### Water Conservation Strategies
+## Water Conservation Strategies
 
 | Strategy | Water Saved | Trade-off |
 |----------|------------|-----------|
@@ -295,7 +295,7 @@ Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0
 | Drip vs. flood (reduce total application) | 30-50% | Higher infrastructure cost, more maintenance |
 | deficit irrigation (apply less than full ET) | 20-40% | 10-30% yield reduction; acceptable for some crops |
 
-## 11. References
+## References
 
 - [Foundations → Agriculture & Food Production](../foundations/food-agriculture.md) — basic cultivation, grain yields, food preservation
 - [Water → Procurement](../water/procurement.md) — water sources, well digging, spring capture
@@ -307,6 +307,6 @@ Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0
 - [Foundations → Stone & Wood Tools](../foundations/tools-basic.md) — digging sticks, hoes, wooden construction
 - [Textiles → Fibers](../textiles/fibers.md) — rope and cordage for lifting devices
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*
+
+[← Back to Agriculture](index.md)

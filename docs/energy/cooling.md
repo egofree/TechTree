@@ -7,11 +7,10 @@
 > **Timeline**: Years 20-30
 > **Outputs**: refrigeration, industrial_cooling, ice_production
 
-### Overview
 
 Refrigeration moves heat from a cold region to a hot region using external energy — it does not "make cold" but pumps heat against its natural gradient. Two principal cycles serve bootstrap industry: **[absorption refrigeration](../glossary/absorption-refrigeration.md)** (heat-driven, no moving parts in the refrigerant circuit, usable with waste heat or flame) and **[vapor-compression refrigeration](../glossary/vapor-compression-refrigeration.md)** (mechanically driven, higher COP, requires electric motor or engine). Both cycles depend on a refrigerant that evaporates at low temperature (absorbing heat) and condenses at higher temperature (rejecting heat). Ice manufacturing and cold storage extend these cycles into practical food preservation and process cooling.
 
-### Absorption Refrigeration
+## Absorption Refrigeration
 
 **[Ammonia-water system](../glossary/ammonia-water-system.md)** (the first practical refrigeration cycle, industrially deployed from the 1850s):
 
@@ -48,7 +47,7 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 - COP of 0.4-0.7 means 140-250 kW of heat input per 100 kW of cooling — significant fuel consumption unless waste heat is available
 - Bulky equipment: generator, condenser, absorber, and solution heat exchanger occupy 3-5× the floor space of an equivalent vapor-compression unit
 
-### Vapor-Compression Refrigeration
+## Vapor-Compression Refrigeration
 
 **[The dominant modern cycle](../glossary/the-dominant-modern-cycle.md)** (requires electric motor or engine drive):
 
@@ -86,7 +85,7 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 - Requires reliable electricity or engine drive — unusable during power outages without backup generation
 - Compressor has many moving parts (pistons, valves, bearings) requiring regular maintenance (oil changes, valve replacement every 10,000-20,000 hours)
 
-### Refrigerant Properties
+## Refrigerant Properties
 
 | Refrigerant | Designation | Boiling point (1 atm) | ODP | GWP | Safety | Notes |
 |-------------|-------------|----------------------|-----|-----|--------|-------|
@@ -98,7 +97,7 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 
 - **Bootstrap recommendation**: Ammonia (R-717) is the first-choice refrigerant. It can be produced from coke oven ammonia liquor (byproduct of coke production — see [Fuel Production](fuels.md)), has excellent thermodynamic properties (high latent heat ~1370 kJ/kg), and zero environmental impact. CO₂ (R-744) is the second choice — available from combustion or fermentation, but the high operating pressures demand stronger vessel construction.
 
-### Ice Manufacturing
+## Ice Manufacturing
 
 **[Can ice system](../glossary/can-ice-system.md)** (the earliest industrial ice production method):
 
@@ -134,7 +133,7 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 **[Plate ice and flake ice](../glossary/plate-ice-and-flake-ice.md)** (continuous production, later development):
 - Refrigerant flows inside vertical plates; water flows over outside surface. Ice forms as 5-15 mm layer, harvested by hot-gas defrost cycle. Higher throughput but more complex machinery.
 
-### Cold Storage Design
+## Cold Storage Design
 
 **[Insulation materials](../glossary/insulation-materials.md)** (in order of availability):
 
@@ -150,7 +149,7 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 - **Floor insulation**: 150-200 mm of insulation under concrete slab on grade. Heater cables or ventilation under slab to prevent ground freezing (frost heave destroys floors at -20°C rooms).
 - **Temperature zones**: +2 to +5°C (chill store, fruit/vegetables), -18 to -25°C (frozen store), -30 to -40°C (hard frozen / blast freezer). Each zone requires its own insulated room and evaporator.
 
-### Cold Storage Room Construction
+## Cold Storage Room Construction
 
 **Wall assembly (cold store at -18°C)**: A typical wall section from inside to outside consists of the inner cladding (galvanized steel or aluminum sheet, 0.5-1.0 mm), insulation layer, vapor barrier, structural wall, and outer cladding. The insulation is the critical element.
 
@@ -170,14 +169,14 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 
 **Insulated doors**: Cold store doors are a major source of heat gain. Standard construction: 100 mm thick insulated panel (same material as walls), clad in steel or aluminum on both faces. Magnetic or compression gaskets around the perimeter maintain an air-tight seal when closed. Sliding doors preferred (no swing clearance needed). Door heaters (low-wattage electric resistance wires in the frame) prevent ice buildup on the gasket at temperatures below -10°C.
 
-### Industrial Process Cooling
+## Industrial Process Cooling
 
 - **Compressor intercoolers**: Multi-stage air compressors require interstage cooling (water jackets or shell-and-tube) to approach isothermal compression. Uncooled two-stage compressor loses ~15% efficiency.
 - **Chemical reactor cooling**: Exothermic reactions (nitric acid absorption, polymerization) require jacketed reactors with chilled water or brine circulation. Chilled water at 5-10°C from refrigeration plant.
 - **Bearing and machine tool cooling**: Continuous oil or water cooling on heavy machine tools (grinders, large lathes) removes cutting heat. Typically 15-25°C cooling water circulated through machine.
 - **Semiconductor fab cooling**: Cleanrooms require precise temperature control (22 ± 0.5°C) and humidity control (40-50% RH). Chilled water (5-7°C) feeds air handling units. Process tools (implanters, CVD reactors) may require glycol-chilled water at -10 to +10°C.
 
-### Refrigeration Load Calculation
+## Refrigeration Load Calculation
 
 The total refrigeration load for a cold storage room has four components that must be calculated independently and summed.
 
@@ -189,7 +188,7 @@ The total refrigeration load for a cold storage room has four components that mu
 
 **Equipment load**: Heat from lights, motors, and people inside the room. Electric lights: 10-20 W/m² of floor area. Fan motors on evaporator coils: 0.5-2 kW each. Workers: each person contributes roughly 250-300 W of sensible and latent heat. Sum all internal heat sources.
 
-### Safety
+## Safety
 
 - **Ammonia (NH₃)**: IDLH (Immediately Dangerous to Life or Health) = 300 ppm. Irritating at 25-50 ppm. Lethal at 5000+ ppm. Flammable range 15-28% in air. Detectors mandatory in all ammonia plant rooms. Emergency ventilation at 30+ air changes per hour. Full-face respirator with ammonia cartridges for entry into plant rooms. Ammonia leaks detected by smell at 5 ppm (excellent self-alarming property).
 - **CO₂ (R-744)**: Asphyxiant at >10% concentration. High-pressure hazard — 40-100 bar operating pressure requires rated pressure vessels, relief valves, and burst discs. CO₂ leaks are odorless — detectors required.
@@ -197,7 +196,7 @@ The total refrigeration load for a cold storage room has four components that mu
 - **Brine**: CaCl₂ brine is corrosive to steel. Use corrosion inhibitors (sodium chromate or sodium nitrite, 2000-3000 ppm). Inspect brine tank and coils annually.
 - **Pressure vessels**: Condensers, receivers, and evaporators are pressure vessels. Design to ASME or equivalent code. Hydrostatic test at 1.5× design pressure. Relief valves on every pressure vessel, piped to safe discharge point.
 
-### Parameters Summary
+## Parameters Summary
 
 | Parameter | Absorption (NH₃-H₂O) | Vapor-compression (R-717) |
 |-----------|-----------------------|--------------------------|
@@ -209,7 +208,7 @@ The total refrigeration load for a cold storage room has four components that mu
 | Refrigerant cost | Low (NH₃ from coke ovens) | Low |
 | Noise | Low | Moderate to high |
 
-### Absorption Cycle: Detailed Operating Parameters
+## Absorption Cycle: Detailed Operating Parameters
 
 The ammonia absorption cycle runs on four main temperature zones, each corresponding to a major component. Getting these zones right determines whether the cycle produces ice or wastes fuel.
 
@@ -223,7 +222,7 @@ The ammonia absorption cycle runs on four main temperature zones, each correspon
 
 **COP range**: Single-effect ammonia absorption achieves COP of 0.5-0.7 under design conditions. This means 100 kW of cooling requires 140-200 kW of heat input. Lower than vapor-compression, but the heat can come from waste sources: engine exhaust, boiler flue gas, solar thermal collectors, or process steam.
 
-### Ice Block Production Details
+## Ice Block Production Details
 
 **Ice can sizing**: Standard can sizes produce blocks from 25 kg to 135 kg. A 25 kg block (roughly 250 × 150 × 250 mm) freezes in 12-18 hours. A 135 kg block (roughly 550 × 250 × 350 mm) takes 36-48 hours. Larger blocks are more energy-efficient per kilogram (lower surface-to-volume ratio means less brine circulation needed per unit of ice).
 
@@ -233,7 +232,7 @@ The ammonia absorption cycle runs on four main temperature zones, each correspon
 
 **Harvesting cycle**: After the freeze period, an overhead hoist lifts can racks from the brine. Each can is dipped in a warm water trough (40-50°C) for 30-60 seconds, melting a thin layer against the can wall. The block slides out onto a gravity conveyor. Cans are refilled with fresh water and returned to the brine tank. A well-run plant turns over cans 1-2 times per day.
 
-### Materials
+## Materials
 
 **Refrigerants**:
 - **Ammonia (NH₃, R-717)**: First-choice bootstrap refrigerant. Produced from coke oven ammonia liquor or Haber-Bosch synthesis. High latent heat (~1370 kJ/kg), zero ODP/GWP.
@@ -246,14 +245,14 @@ The ammonia absorption cycle runs on four main temperature zones, each correspon
 
 **Cold storage construction**: Galvanized steel or aluminum sheet cladding, Portland cement concrete floor, pressure-treated timber framing, rubber gaskets for doors.
 
-### Equipment
+## Equipment
 
 - **Absorption system**: Generator (steel pressure vessel, 10-15 bar), condenser (shell-and-tube or air-cooled), expansion valve, evaporator (coils in brine tank or air duct), absorber, solution heat exchanger, solution pump (0.5-2 kW for 100 kW cooling)
 - **Vapor-compression system**: Compressor (reciprocating 5-500 kW, rotary 10-2000 kW, centrifugal 300+ kW), condenser, thermostatic expansion valve, evaporator, receiver tank
 - **Ice production**: Brine tank (concrete or steel-lined wood, CaCl₂ brine), ice cans (sheet metal molds, 25-150 kg), agitator, overhead hoist, warm water dip tank
 - **Cold storage**: Insulated panels, door assemblies with heaters, evaporator coils, defrost system
 
-### Limitations
+## Limitations
 
 - **Ammonia toxicity**: NH₃ is lethal at 5000+ ppm and flammable at 15-28% in air. Leak detection and emergency ventilation are mandatory, limiting use in occupied spaces.
 - **Absorption COP**: Single-effect COP of 0.4-0.7 means 140-250 kW of heat input per 100 kW of cooling — significant fuel consumption unless waste heat is available.
@@ -262,7 +261,7 @@ The ammonia absorption cycle runs on four main temperature zones, each correspon
 - **Cold store energy**: Continuous refrigeration load even when empty (transmission losses through insulation). Power interruption causes temperature rise and potential product loss within hours.
 - **Brine corrosion**: CaCl₂ brine is corrosive to steel, requiring inhibitors (sodium chromate/nitrite, 2000-3000 ppm) and annual inspection.
 
-### See Also
+## See Also
 
 - [Ammonia Production](../chemistry/ammonia.md) — NH₃ feedstock for absorption refrigeration
 - [Coke Production](coke.md) — Coke oven ammonia liquor as NH₃ source
@@ -270,6 +269,6 @@ The ammonia absorption cycle runs on four main temperature zones, each correspon
 - [Air Separation](../chemistry/air-separation.md) — Cryogenic processes requiring refrigeration
 - [Energy Storage](storage.md) — Cold thermal energy storage
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+
+[← Back to Energy](index.md)

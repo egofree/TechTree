@@ -22,7 +22,7 @@ A 300 mm semiconductor fab processes 40,000-100,000 wafers per month. Each wafer
 | Development or low-volume fab | Manual transport with push carts | Lowest cost, maximum flexibility, acceptable when throughput is not critical |
 | Mixed 200/300 mm fab | OHT for 300 mm bay + AGV for 200 mm bay | Each bay uses appropriate automation level for its wafer size |
 
-### Implementation Steps
+## Implementation Steps
 
 1. **Map material flow**: Analyze process flow to determine interbay and intrabay transport volumes, peak demand times, and delivery time requirements
 2. **Design track layout**: Plan OHT rail network (or AGV paths) with stocker placement at bay boundaries. Minimize distance between high-traffic tool pairs
@@ -31,7 +31,7 @@ A 300 mm semiconductor fab processes 40,000-100,000 wafers per month. Each wafer
 5. **Integrate with MES**: Configure [Equipment Communication](equipment-communication.md) for FOUP RFID tracking, transport request dispatch, and delivery confirmation
 6. **Commission and tune**: Run production simulations, adjust dispatch algorithms, optimize traffic management zones. Allow 3-6 months for system tuning
 
-### Transport System Trade-offs
+## Transport System Trade-offs
 
 | Parameter | OHT | Floor AGV | RGV |
 |-----------|-----|-----------|-----|
@@ -45,7 +45,7 @@ A 300 mm semiconductor fab processes 40,000-100,000 wafers per month. Each wafer
 
 ## FOUP (Front-Opening Unified Pod)
 
-### Design Standards
+## Design Standards
 
 The FOUP is the standardized wafer carrier for 300 mm fabs, defined by SEMI E1.9 and related standards.
 
@@ -66,7 +66,7 @@ The FOUP is the standardized wafer carrier for 300 mm fabs, defined by SEMI E1.9
 - **Read range**: 100-300 mm from RFID reader antenna. Readers mounted at load ports, stockers, AGVs, and OHT pick points read the tag automatically.
 - **Data capacity**: 256 bytes to 2 KB depending on tag model. Read/write time: <100 ms.
 
-### FOUP Handling Requirements
+## FOUP Handling Requirements
 
 - **Acceleration limits**: Maximum 0.5 g (4.9 m/s²) during transport to prevent wafer sliding within slots. Higher acceleration causes wafers to shift, risking contact with slot walls (particle generation) or adjacent wafers (scratching).
 - **Vibration limits**: 0.1 g RMS maximum in the 10-500 Hz frequency range during transport. Vibration causes wafer micro-motion against support structures, generating particles.
@@ -75,7 +75,7 @@ The FOUP is the standardized wafer carrier for 300 mm fabs, defined by SEMI E1.9
 
 ## Automated Guided Vehicles (AGVs)
 
-### Design and Operation
+## Design and Operation
 
 AGVs are self-navigating vehicles that transport FOUPs along the fab floor between stockers, tools, and interbay transfer stations.
 
@@ -97,7 +97,7 @@ AGVs are self-navigating vehicles that transport FOUPs along the fab floor betwe
 - Dispatch algorithm assigns the nearest idle AGV or en-route AGV (if it can divert to pick up on its current path). Optimization targets: minimize delivery time, balance AGV utilization, avoid traffic congestion.
 - Traffic management: AGVs request permission to enter track segments from a zone controller. Only one AGV per zone at a time — prevents collisions at intersections. Zone sizes typically 3-5 meters along the track.
 
-### Performance Metrics
+## Performance Metrics
 
 - **Delivery time**: Average 3-8 minutes per FOUP transport (depending on fab size and traffic). Hot lot (highest priority): 1-3 minutes.
 - **Throughput**: 30-60 FOUP deliveries per hour per AGV (depends on average distance and loading/unloading time). A fab with 100 AGVs achieves 3,000-6,000 FOUP moves per hour.
@@ -122,7 +122,7 @@ AGVs are self-navigating vehicles that transport FOUPs along the fab floor betwe
 
 ## Overhead Hoist Transport (OHT)
 
-### Design and Operation
+## Design and Operation
 
 OHT vehicles run on ceiling-mounted rails, providing FOUP transport without consuming floor space. OHT is the dominant transport system in 300 mm fabs.
 
@@ -145,7 +145,7 @@ OHT vehicles run on ceiling-mounted rails, providing FOUP transport without cons
 - **Communication**: Vehicle communicates with central controller via wireless LAN (2.4 GHz or 5 GHz) or infrared along the rail. Message latency: <50 ms for commands.
 - **Traffic optimization**: Central controller computes optimal routes considering current vehicle positions, traffic density, and switch states. Re-routes vehicles around congestion in real-time.
 
-### OHT vs AGV Comparison
+## OHT vs AGV Comparison
 
 | Parameter | OHT | Floor AGV |
 |-----------|-----|-----------|
@@ -214,7 +214,7 @@ Stocker systems store FOUPs when they are not actively being processed. A large 
 
 ## Fab Logistics Coordination
 
-### MES Integration
+## MES Integration
 
 The Manufacturing Execution System coordinates all material transport:
 
@@ -223,18 +223,18 @@ The Manufacturing Execution System coordinates all material transport:
 3. **MCS dispatch**: Material Control System selects the transport vehicle (OHT, AGV, or RGV), computes the route, and dispatches the vehicle.
 4. **Delivery confirmation**: Vehicle confirms FOUP pickup and delivery via RFID read at each location. MES updates lot status and tool queue.
 
-### Hot Lot Management
+## Hot Lot Management
 
 - **Hot lots** (priority lots for development or critical customer orders) receive preemptive transport: other vehicles are rerouted to clear the path. Target delivery time: ≤2 minutes for any destination in the fab.
 - **Super hot lots**: Extremely high priority (typically <1% of lots). Entire tool dedication — the tool processes only this lot until complete. Transport vehicles assigned exclusively.
 
-### Deadlock Prevention
+## Deadlock Prevention
 
 - **Buffer management**: When a tool's input buffer is full, incoming FOUPs must be rerouted to a stocker. The MCS monitors buffer occupancy and reroutes transport proactively.
 - **Vehicle starvation prevention**: MCS distributes transport requests across available vehicles to prevent some vehicles from being overloaded while others idle.
 - **Traffic congestion detection**: When transport delivery times exceed threshold (e.g., >10 minutes for a normally 3-minute route), MCS reroutes traffic and may temporarily store FOUPs at intermediate stockers.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **FOUP drop risk**: OHT vehicle dropping a FOUP from overhead height (2.5-3.5 m) is a catastrophic event — wafer destruction and potential injury. Redundant grip mechanisms (mechanical latch plus vacuum hold) and continuous grip-force monitoring prevent drops. Drop rate target: <1 per 10 million transports.
 - **OHT collision**: Overhead vehicles can collide at switches or merge points. Zone control, anti-collision sensors, and emergency stop systems prevent collisions. System must fail-safe — on communication loss, vehicle stops and lowers FOUP to nearest safe position.
@@ -243,7 +243,7 @@ The Manufacturing Execution System coordinates all material transport:
 
 ## Interbay vs Intrabay Transport
 
-### Transport Hierarchy
+## Transport Hierarchy
 
 A fab is organized into bays — physically separate areas housing groups of related process tools. Transport operates at two levels:
 
@@ -259,7 +259,7 @@ A fab is organized into bays — physically separate areas housing groups of rel
 - Throughput requirement: 100-300 intrabay moves per hour per bay.
 - Direct tool-to-tool transfers (bypassing stocker) are preferred to reduce delivery time. Requires coordination between MES, MCS, and tool scheduling.
 
-### Unified MCS Architecture
+## Unified MCS Architecture
 
 The Material Control System (MCS) manages the entire transport hierarchy:
 
@@ -275,7 +275,7 @@ Even in highly automated fabs, operators occasionally handle FOUPs manually (too
 - **Ergonomic load port height**: Load ports positioned 900-1,100 mm above floor (waist height for average operator). Eliminates bending for FOUP loading/unloading.
 - **Manual transport carts**: Push carts carrying 2-8 FOUPs for short-distance moves during tool maintenance. Cart wheel diameter ≥100 mm for smooth rolling on raised-floor panels. Caster brakes prevent uncontrolled rolling.
 
-### Raised Floor Considerations
+## Raised Floor Considerations
 
 Most 300 mm fabs use raised access flooring (perforated panels 300-600 mm above structural slab) for under-floor air return and utility routing:
 
@@ -283,6 +283,6 @@ Most 300 mm fabs use raised access flooring (perforated panels 300-600 mm above 
 - **Panel gap management**: Gaps between raised floor panels must be ≤1 mm to prevent AGV wheels catching. Anti-static panels (resistivity 10⁶-10⁹ Ω/sq) prevent static discharge damage to passing FOUPs.
 - **Floor loading**: Raised floor rated for 5-12 kPa uniform load. FOUP stockers (2,000-5,000 kg) require reinforced floor sections or direct slab mounting.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Automation & Robotics](./index.md) • [All Domains](../index.md)*
+
+[← Back to Automation & Robotics](index.md)

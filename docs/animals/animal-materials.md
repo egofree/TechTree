@@ -28,7 +28,7 @@ Leather is animal hide preserved against rot by stabilizing its collagen fibers.
 
 > **For detailed leather production** — hide preparation (curing, soaking, fleshing, dehairing), chrome tanning, post-tanning operations, mechanical properties, industrial applications, quality grading, and testing standards — see [Leather Production](leather.md).
 
-### Rawhide
+## Rawhide
 
 The simplest preserved hide. No tanning agents involved, just mechanical preparation and drying.
 
@@ -36,7 +36,7 @@ The simplest preserved hide. No tanning agents involved, just mechanical prepara
 
 **Applications**: Drum heads (stretches tight as it dries on the shell), shields (layered rawhide over wooden frame), lashings (cut into strips, soaked to soften, shrinks tight on drying), containers (folded and stitched with sinew), thongs for binding tool hafts.
 
-### Brain Tanning
+## Brain Tanning
 
 The oldest soft-tanning method, producing buckskin. Uses the animal's own brain tissue as the tanning agent. Brain matter contains lecithin and other emulsified oils that coat collagen fibers and prevent them sticking together as the hide dries.
 
@@ -44,7 +44,7 @@ The oldest soft-tanning method, producing buckskin. Uses the animal's own brain 
 
 **Smoke treatment**: Untreated brain-tanned leather re-stiffens when wet. Smoke fixes the softening. Smoke over a smoldering fire of willow or pine for 2-4 hours at 50-60°C. The aldehydes and phenolic compounds in wood smoke cross-link with the collagen, making the buckskin permanently soft and water-resistant.
 
-### Vegetable Tanning
+## Vegetable Tanning
 
 The dominant method for producing thick, durable leather suitable for soles, harnesses, belts, and heavy goods. Uses tannins, polyphenolic compounds found in tree bark, to bind collagen fibers.
 
@@ -59,7 +59,7 @@ The dominant method for producing thick, durable leather suitable for soles, har
 
 **Faster methods**: Rocker pits agitate the hides mechanically, reducing time by 30-50%. Drum tanning (rotating wooden drums with bark liquor) cuts the process to 2-4 weeks but requires more energy and equipment.
 
-### Alum Tawing
+## Alum Tawing
 
 Produces white, smooth leather used for gloves, bookbinding, and fine garments. Not true tanning (no permanent collagen cross-linking), but the treatment preserves the hide and makes it supple.
 
@@ -67,13 +67,13 @@ Produces white, smooth leather used for gloves, bookbinding, and fine garments. 
 
 **Limitation**: Alum-tawed leather stiffens and degrades if soaked in water. Not suitable for outdoor or wet applications. The treatment can be partially reversed by prolonged water exposure.
 
-### Oil Tanning
+## Oil Tanning
 
 Produces chamois leather, the softest and most absorbent of all leathers.
 
 **Process**: Work cod liver oil or neatsfoot oil (rendered from cattle feet) into a dehaired hide at 30-40°C. The oil oxidizes in contact with air and collagen, forming aldehydes that cross-link the fibers. Repeat the oiling and stretching cycle over 1-2 weeks until the hide is uniformly soft and flexible.
 
-### Currying
+## Currying
 
 Finishing steps applied after tanning to produce the final leather product.
 
@@ -89,19 +89,19 @@ Finishing steps applied after tanning to produce the final leather product.
 
 Animal fats yield two major products: tallow (from cattle and sheep) and lard (from pigs). Both are rendered by melting raw fat and straining out the connective tissue. The rendering temperature and fat source determine the properties of the finished product.
 
-### Beef Tallow
+## Beef Tallow
 
 Rendered from suet, the hard fat surrounding the kidneys and loins of cattle. Suet yields the highest quality tallow, with a melting point of 40-45°C and a dense, waxy texture.
 
 **Process**: Mince suet into small pieces (1-2 cm). Heat in a large iron pot or cauldron at 80-100°C, stirring to prevent scorching. The fat liquefies and separates from the connective tissue (cracklings). Strain the liquid tallow through linen cloth to remove solids. Pour into molds and cool. Yield: 70-80% of raw fat weight.
 
-### Pork Lard
+## Pork Lard
 
 Rendered from leaf fat (the sheet of fat surrounding the abdominal cavity of pigs). Leaf fat produces the whitest, mildest lard, best for food use.
 
 **Process**: Mince leaf fat finely. Render at a lower temperature than tallow, 70-85°C, to preserve flavor and prevent browning. Strain through cloth. Cool in sealed containers. Yield: 75-85% of raw fat weight.
 
-### Applications
+## Applications
 
 | Use | Fat Type | Details |
 |-----|----------|---------|
@@ -116,21 +116,21 @@ Rendered from leaf fat (the sheet of fat surrounding the abdominal cavity of pig
 
 Wool is the most versatile animal fiber for textiles, combining warmth, elasticity, fire resistance, and the ability to absorb up to 30% of its weight in moisture without feeling wet. Preparing raw fleece for spinning requires four sequential steps: shearing, skirting, scouring, and carding or combing.
 
-### Shearing
+## Shearing
 
 Clip the fleece from the sheep in one piece using hand shears or blade shears. Annual shearing in spring, before lambing and warm weather. Yield: 2-5 kg per sheep for common breeds; Merino sheep produce up to 8 kg of fine fleece. A skilled shearer processes 100-200 sheep per day with blade shears.
 
-### Skirting
+## Skirting
 
 Remove the inferior wool from the edges of the spread fleece. Discard belly wool (short, dirty), tags (dung-encrusted locks from the hindquarters), and heavy vegetable matter. Retain 70-80% of the original fleece weight. Grade the remaining wool by fiber diameter and staple length.
 
-### Scouring
+## Scouring
 
 Wash the skirted fleece to remove lanolin (10-25% of raw fleece weight), dirt, and suint (natural salts from sheep sweat).
 
 **Process**: Fill tubs with hot water at 50-60°C. Add an alkali, either potash (potassium carbonate from wood ash, 1-2% solution) or soda ash (sodium carbonate). Immerse fleece, agitate gently by hand or with a wooden paddle. Remove fleece, rinse in 2-3 successive baths of clean warm water to remove all soap and suspended dirt. Dry on racks in a well-ventilated area. The spent wash water, rich in lanolin, can be cooled and the lanolin skimmed from the surface for use in waterproofing and lubricants.
 
-### Carding vs. Combing
+## Carding vs. Combing
 
 Two distinct fiber preparation methods that produce fundamentally different yarn types.
 
@@ -142,7 +142,7 @@ Two distinct fiber preparation methods that produce fundamentally different yarn
 
 Horn and bone provide the hardest and most workable biological materials available before metal tools become common. Both can be cut, carved, and shaped with simple tools, and horn becomes thermoplastic when heated.
 
-### Horn
+## Horn
 
 Horn is composed of keratin, the same protein in hair and nails. It is thermoplastic: softens at 100-150°C, becoming moldable like hard clay.
 
@@ -150,7 +150,7 @@ Horn is composed of keratin, the same protein in hair and nails. It is thermopla
 
 **Products**: Combs (cut from flat sheets with a saw, teeth filed individually), buttons (punched from sheets or turned on a lathe), drinking vessels (molded from heated horn), lantern panes (thin horn sheets transmit a warm, diffuse light, used before glass became cheap), powder flasks, and musical instrument mouthpieces.
 
-### Bone
+## Bone
 
 Bone is harder and more brittle than horn. It does not become thermoplastic but can be worked with saws, files, knives, and abrasives.
 
@@ -158,7 +158,7 @@ Bone is harder and more brittle than horn. It does not become thermoplastic but 
 
 **Products**: Knife handles (sawn to shape, pinned through tang), awls (sharpened bone splinters for piercing leather and wood), fish hooks (carved from ribs or splints), needles (shaped from flat bone splinters, eye drilled with a flint burin), buttons, dice, gaming pieces, and decorative inlays.
 
-### Antler
+## Antler
 
 Antler is denser and tougher than bone, with a solid outer sheath and spongy core. Worked the same way as bone but requires more force to cut. Preferred for high-wear tools: awls, pressure flakers for stone knapping (the compact outer layer is hard enough to press flakes from flint without crumbling), and comb teeth. Harvested from shed antlers (deer drop them annually) or from hunted animals.
 
@@ -175,7 +175,7 @@ Sinew (tendon) is the connective tissue linking muscle to bone. It is one of the
 - **Bowstrings**: Bundle and twist multiple fibers into a cord. Leg sinew, though shorter, produces the strongest bowstrings.
 - **Reinforcing bindings**: Wrap wet sinew around joints, arrow fletching, tool hafts, and bow limbs. As it dries, it shrinks up to 30% and hardens to a rigid, glassy finish.
 
-### Sinew Glue
+## Sinew Glue
 
 A secondary product from sinew. Soak pounded sinew fibers in water for 12-24 hours. Simmer at 70-80°C for 4-6 hours (do not boil vigorously, which breaks down the collagen chains). The collagen dissolves into a thick, sticky liquid. Strain through cloth. Cool to a firm gel. Dry into sheets for storage. Reconstitute by soaking in warm water. This glue is waterproof when dry and bonds wood, leather, and sinew with high strength.
 

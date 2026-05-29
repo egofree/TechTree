@@ -8,13 +8,12 @@
 > **Outputs**: stainless steel, tool steel, superalloys, titanium alloys, specialty copper alloys
 > **Critical**: true
 
-### Overview
 
 Specialty alloys are engineered metallic systems where precise additions of alloying elements transform base metals into materials with exceptional corrosion resistance, high-temperature strength, wear resistance, or specific physical properties. Unlike plain carbon steels and basic bronzes (covered in [Iron & Steel](iron-steel.md) and [Copper & Bronze](copper-bronze.md)), specialty alloys require controlled-atmosphere melting, precise compositional analysis, and multi-step heat treatments. They represent the frontier of metallurgical capability — the materials that enable chemical processing equipment, gas turbines, medical implants, and precision tooling.
 
 Alloy development depends on understanding phase diagrams, solid-state phase transformations, and the interplay between composition, processing, and microstructure. The key strengthening mechanisms — solid solution, precipitation, dispersion, and grain-boundary hardening — are combined to produce properties far beyond what any pure metal can achieve.
 
-### Stainless Steels
+## Stainless Steels
 
 Stainless steels are iron alloys containing ≥10.5% chromium, which forms a self-healing passive Cr₂O₃ film (~1-3 nm thick) on the surface. This invisible oxide layer provides corrosion resistance in oxidizing environments. The chromium content is non-negotiable — below 10.5%, the passive film is discontinuous and corrosion resistance collapses.
 
@@ -51,7 +50,7 @@ Stainless steels are iron alloys containing ≥10.5% chromium, which forms a sel
 - Sensitization (Cr₂₃C₆ precipitation at 425-815°C) depletes chromium from grain boundaries below the 10.5% threshold — requires L-grades (≤0.03% C) or stabilized grades (321, 347) for welded service.
 - Austenitic stainless is susceptible to chloride stress corrosion cracking in hot chloride environments (>60°C) — limits use in marine heat exchangers without duplex or cupronickel substitution.
 
-### Tool Steels
+## Tool Steels
 
 Tool steels are specially alloyed and heat-treated steels designed for cutting, forming, and shaping other materials. They must maintain hardness at elevated temperatures (red-hardness), resist abrasion, and withstand cyclic mechanical and thermal loading. The AISI classification uses a single-letter prefix:
 
@@ -79,7 +78,7 @@ Tool steels are specially alloyed and heat-treated steels designed for cutting, 
 - HSS requires multiple tempers (2-3 cycles) to decompose retained austenite — each cycle is a 2-hour heat treatment at 540-560°C.
 - D-series tool steels (12% Cr, massive carbide volume) have limited toughness — not suitable for impact applications despite exceptional wear resistance.
 
-### Manganese Steel (Hadfield Steel)
+## Manganese Steel (Hadfield Steel)
 
 Hadfield steel (invented 1882) is the archetype of a work-hardening alloy:
 
@@ -100,7 +99,7 @@ Hadfield steel (invented 1882) is the archetype of a work-hardening alloy:
 - Nearly impossible to machine conventionally — any cutting tool work-hardens the surface ahead of the cut. Must be ground or cast to near-net shape.
 - Requires solution treatment at 1050-1100°C followed by rapid water quench to retain austenitic structure — precise heat treatment control mandatory.
 
-### Superalloys
+## Superalloys
 
 Superalloys are nickel, iron-nickel, or cobalt-based alloys designed for service at temperatures above 540°C, where most steels have lost their strength. They are the materials that make gas turbines, jet engines, and nuclear reactors possible.
 
@@ -129,7 +128,7 @@ Superalloys are nickel, iron-nickel, or cobalt-based alloys designed for service
 - Superalloy composition involves 8-12 controlled alloying elements — precise melting and analysis required (AOD, VIM, ESR, or VAR processing).
 - Investment casting with ceramic cores for internal cooling passages is the only fabrication route for turbine blades — complex, expensive, and limited to specialized foundries.
 
-### Specialty Copper Alloys
+## Specialty Copper Alloys
 
 Beyond the basic brasses and bronzes covered in [Copper & Bronze](copper-bronze.md), several copper alloys serve critical specialized roles:
 
@@ -158,7 +157,7 @@ Beyond the basic brasses and bronzes covered in [Copper & Bronze](copper-bronze.
 - Beryllium is extremely toxic — inhalation of >0.1 μg/m³ can cause chronic beryllium disease. Strict PPE and ventilation mandatory for all Be-Cu machining.
 - Cupronickel is expensive relative to steel and requires nickel (strategic metal) — limited to marine and chemical applications where corrosion resistance justifies cost.
 
-### Titanium Alloys
+## Titanium Alloys
 
 Titanium alloys occupy a critical niche: high strength-to-weight ratio (density 4.51 g/cm³, ~60% of steel), excellent corrosion resistance (TiO₂ passive film similar to stainless steel), and biocompatibility. The primary limitation is cost — titanium extraction (Kroll process, see [Aluminum](aluminum.md) for comparable electrolytic metal production) is energy-intensive and batch-process-based.
 
@@ -188,7 +187,7 @@ Titanium alloys occupy a critical niche: high strength-to-weight ratio (density 
 - Kroll process extraction (Mg reduction of TiCl₄) is batch-based and energy-intensive — titanium costs 5-10× more than steel per kg.
 - Poor wear resistance and galling tendency require surface treatments (nitriding, PVD coatings) for any bearing or sliding contact application.
 
-### Aluminum Alloys
+## Aluminum Alloys
 
 Primary aluminum production is covered in [Aluminum](aluminum.md). The major alloy systems are summarized here:
 
@@ -216,7 +215,7 @@ Primary aluminum production is covered in [Aluminum](aluminum.md). The major all
 - 7xxx alloys are susceptible to stress corrosion cracking in peak-aged condition (T6) — require overaging (T73) that sacrifices 10-15% strength.
 - 2xxx alloys (Al-Cu) have poor corrosion resistance — require alclad (pure Al cladding) for atmospheric exposure, adding weight and manufacturing complexity.
 
-### Alloy Design Principles
+## Alloy Design Principles
 
 The development of new alloys follows a systematic approach rooted in thermodynamics and kinetics:
 
@@ -247,7 +246,7 @@ The development of new alloys follows a systematic approach rooted in thermodyna
 - Phase diagram complexity increases exponentially with each added element — ternary and quaternary systems require extensive experimentation and computational thermodynamics (CALPHAD) to map.
 - Trade-offs between properties are inherent: higher strength reduces ductility and often weldability; higher alloy content increases cost and processing complexity.
 
-### Safety & Hazards
+## Safety & Hazards
 
 **Beryllium and beryllium copper**:
 - Beryllium dust, fumes, and oxide are extremely toxic. Inhalation of airborne Be particles (>0.1 μg/m³) can cause chronic beryllium disease (CBD, berylliosis) — a granulomatous lung disease that may manifest years after exposure and is potentially fatal. Sensitization occurs in ~2-5% of the exposed population regardless of exposure level — it is an immune-mediated response.
@@ -271,6 +270,6 @@ The development of new alloys follows a systematic approach rooted in thermodyna
 - Quenching oils present fire risk — oil can ignite if workpiece temperature exceeds flash point. Use tempered quench oils with adequate fire suppression. Never quench in water after heating in a salt bath — residual salt contacting water can cause explosive spattering.
 - Protective atmospheres for heat treatment (hydrogen, argon, vacuum) present asphyxiation hazards in confined spaces. Hydrogen is also explosive (LEL 4% in air). Monitor atmospheres continuously.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Metals](index.md)

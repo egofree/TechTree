@@ -22,7 +22,7 @@ Photomask substrates demand glass tolerances 10-100× tighter than standard opti
 - [Machine tools](../machine-tools/index.md) — precision grinding and polishing equipment
 - [Refractories](../chemistry/refractories.md) — high-temperature furnace linings for glass melting
 
-### Substrate Materials
+## Substrate Materials
 
 **Fused silica (amorphous SiO₂)** — the dominant photomask substrate material:
 - **Composition**: 100% SiO₂, amorphous (non-crystalline). Produced by flame hydrolysis of SiCl₄ or by melting natural quartz crystal.
@@ -40,7 +40,7 @@ Photomask substrates demand glass tolerances 10-100× tighter than standard opti
 - **Limitation**: Higher CTE limits use to coarse-feature lithography. UV transmission degrades below 300 nm (boron absorption edge), unsuitable for deep UV lithography.
 - **Use case**: Prototyping, low-volume mask production for features ≥5 μm, alignment masks, and test structures.
 
-### ULE Glass (Ultra-Low Expansion)
+## ULE Glass (Ultra-Low Expansion)
 
 ULE glass (Corning Code 7972) is a titanium silicate glass with a coefficient of thermal expansion approaching zero — the most thermally stable glass available for photomask and precision optical applications:
 
@@ -53,7 +53,7 @@ ULE glass (Corning Code 7972) is a titanium silicate glass with a coefficient of
 - **Knoop hardness**: 480 kg/mm². Slightly softer than fused silica — requires gentler polishing to avoid subsurface damage.
 - **Applications in EUV lithography**: ULE glass is the substrate material for EUV photomask blanks (reflective masks, not transmissive). EUV masks use a multilayer Mo/Si Bragg reflector stack on a ULE substrate. The near-zero CTE prevents dimensional drift of the absorber pattern relative to the multilayer reflector during exposure. EUV mask blanks require flatness <50 nm p-v over 100 mm × 130 mm active area — feasible only with ULE's dimensional stability.
 
-### Photomask Substrate Manufacturing
+## Photomask Substrate Manufacturing
 
 **Fused silica blank production (flame hydrolysis / soot process)**:
 1. **Feedstock**: Silicon tetrachloride (SiCl₄) vapor carried in oxygen gas. SiCl₄ produced from metallurgical-grade silicon + chlorine, or from high-purity quartz + chlorine at 600-800°C.
@@ -74,7 +74,7 @@ ULE glass (Corning Code 7972) is a titanium silicate glass with a coefficient of
 4. **Precision polishing**: Polish on polyurethane polishing pads with colloidal silica slurry (30-80 nm particle size, pH 10-11). Chemical-mechanical polishing (CMP) mechanism: the alkaline slurry slightly dissolves the silica surface while the abrasive particles mechanically remove the softened layer. Material removal rate: 0.1-0.5 μm/hour. Target surface roughness: <0.5 nm RMS (measured by atomic force microscope over 1 μm × 1 μm area).
 5. **Flatness correction**: Local polishing with small-diameter tools (20-40 mm) to correct residual flatness errors. Guided by interferometric flatness map. Iterative process — measure, polish, re-measure — achieving final flatness <250 nm peak-to-valley over 152 mm × 152 mm.
 
-### Specifications
+## Specifications
 
 **Standard 6-inch (152 mm) photomask blank specifications**:
 
@@ -104,7 +104,7 @@ ULE glass (Corning Code 7972) is a titanium silicate glass with a coefficient of
 - ULE 6" blank (uncoated): $2000-5000
 - EUV ULE blank (with Mo/Si multilayer): $50,000-100,000+
 
-### Chromium Film Deposition
+## Chromium Film Deposition
 
 Photomask blanks are coated with an opaque film that is patterned to create the mask image:
 
@@ -118,7 +118,7 @@ Photomask blanks are coated with an opaque film that is patterned to create the 
 - **MoSi (molybdenum silicide)**: Used for phase-shift masks (attenuated PSM). Thickness 60-80 nm. Transmits 4-8% at exposure wavelength with 180° phase shift relative to clear areas. Requires reactive sputtering in Ar/O₂ mixture.
 - **TaBN (tantalum boron nitride)**: Used for EUV absorber layers. Higher etch selectivity than Cr for fine-feature patterning.
 
-### Substrate Quality Control
+## Substrate Quality Control
 
 **Flatness measurement**:
 - **Fizeau interferometer**: The definitive flatness measurement. A reference optical flat (λ/20 flatness, certified) is placed above the substrate with a small air wedge. Laser illumination (He-Ne, 633 nm) creates interference fringes (Fizeau fringes). Each fringe corresponds to λ/2 = 316 nm height difference. Flatness is reported as peak-to-valley (p-v) deviation across the clear aperture. Automated fringe analysis (phase-shifting interferometry) achieves λ/100 (6 nm) resolution.
@@ -132,7 +132,7 @@ Photomask blanks are coated with an opaque film that is patterned to create the 
 **Birefringence measurement**:
 - A polarized laser beam passes through the substrate. Stress birefringence rotates the polarization plane proportionally to the internal stress. A rotating analyzer measures the rotation angle. Residual stress must be <2 nm/cm (retardation) to prevent polarization-dependent effects during exposure.
 
-### Thermal Management During Exposure
+## Thermal Management During Exposure
 
 During lithographic exposure, the photomask absorbs a fraction of the exposure energy, causing local heating:
 
@@ -146,7 +146,7 @@ During lithographic exposure, the photomask absorbs a fraction of the exposure e
 - Thermal expansion per °C for 152 mm ULE substrate: 152 mm × 30 × 10⁻⁹/°C = 4.6 nm/°C (maximum, using the ±30 ppb spec). This is 17× less than fused silica.
 - For EUV masks, the thermal stability of ULE is essential: EUV absorber patterns at 13.5 nm wavelength require placement accuracy of <1 nm, and even micro-degree temperature fluctuations would cause unacceptable pattern drift on fused silica.
 
-### Substrate Handling and Storage
+## Substrate Handling and Storage
 
 **Cleaning**:
 - **Spin-rinse-dry (SRD)**: Rinse substrate with ultra-pure water (18.2 MΩ·cm) while spinning at 2000-4000 RPM. Centrifugal force removes particles. Final rinse with isopropyl alcohol for spot-free drying. Particle removal efficiency: >95% for particles >0.5 μm.
@@ -159,7 +159,7 @@ During lithographic exposure, the photomask absorbs a fraction of the exposure e
 - Shelf life: Indefinite for fused silica and ULE if kept clean. Chromium film may oxidize over years in humid air — store at <40% relative humidity.
 - Handle only with vacuum wands (never manual) after final cleaning. Finger oils create permanent stains on the chromium surface.
 
-### Substrate Sizing for Different Lithography Generations
+## Substrate Sizing for Different Lithography Generations
 
 | Mask Format | Substrate Size | Thickness | Typical Use |
 |-------------|---------------|-----------|-------------|
@@ -171,7 +171,7 @@ During lithographic exposure, the photomask absorbs a fraction of the exposure e
 
 The 6-inch format is standard since the 1990s. The 0.25× reticle field on a 6-inch mask (maximum ~104 mm × 132 mm patterned area at 4× reduction) provides a 26 mm × 33 mm exposure field on the wafer, sufficient for most die sizes.
 
-### Bootstrap Sequencing
+## Bootstrap Sequencing
 
 Producing photomask substrates from scratch requires the full glass production chain plus semiconductor-grade cleanliness:
 
@@ -183,7 +183,7 @@ Producing photomask substrates from scratch requires the full glass production c
 6. **Cleanroom handling**: Substrate cleaning and inspection in Class 100 (ISO 5) or better environment. Requires [`photolithography.cleanrooms`](../photolithography/cleanrooms.md).
 7. **Metrology**: Fizeau interferometer for flatness, AFM for roughness, laser scattering for defects, polarimeter for birefringence. Total metrology investment significant but achievable with optical domain capability.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Silicon tetrachloride handling**: SiCl₄ is corrosive, reacts violently with water/moisture producing HCl gas and silica particulate. Causes severe respiratory damage. Handle in closed, dry systems with acid-resistant seals. Emergency: flood with water — SiCl₄ hydrolysis generates heat and HCl but dilution is the only practical response. Use full-face respirator with acid gas cartridges for spill response.
 - **Titanium tetrachloride handling**: TiCl₄ is even more reactive with water than SiCl₄, producing dense white TiO₂/HCl fume clouds. Extremely hazardous — both corrosive and obscuring vision. Double-contained piping mandatory. Store under inert atmosphere.
@@ -192,7 +192,7 @@ Producing photomask substrates from scratch requires the full glass production c
 - **Vacuum system hazards**: Sputtering systems operate at high vacuum with large glass viewports. Implosion risk — all vacuum chamber viewports must be safety-shielded. High voltage (500-1000 V DC) for sputtering plasma — lockout/tagout mandatory during maintenance.
 - **Chromium toxicity**: Chromium metal is less toxic than hexavalent chromium (Cr VI), but sputtering targets and deposited films generate fine particles during handling and cleaning. Inhalation of Cr particles causes respiratory sensitization. Use HEPA-filtered local exhaust ventilation when handling Cr targets or cleaning sputtering chambers.
 
-### Phase-Shift Mask Substrate Considerations
+## Phase-Shift Mask Substrate Considerations
 
 Phase-shift masks (PSM) require additional optical specifications beyond standard binary masks:
 
@@ -205,7 +205,7 @@ Phase-shift masks (PSM) require additional optical specifications beyond standar
 - Requires substrate regions that are either etched to a precise depth (λ/2n depth where n is the refractive index of the substrate at the exposure wavelength) or left unetched. For fused silica at 365 nm: etch depth = 365 / (2 × 1.511) = 120.8 nm. Etch depth tolerance: ±3 nm.
 - The substrate must withstand reactive ion etching (RIE) with CHF₃/CF₄ chemistry to create the phase trenches without inducing micro-cracking or sub-surface damage. Fused silica etch rate in CHF₃: ~30 nm/minute.
 
-### Substrate Reclamation
+## Substrate Reclamation
 
 Damaged or obsolete photomask blanks can be reclaimed, reducing the cost of substrate production:
 

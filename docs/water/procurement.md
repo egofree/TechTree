@@ -8,7 +8,7 @@
 > **Outputs**: raw_water, groundwater, rainwater
 > **Critical**: Yes — no water source means no settlement, no agriculture, no industry
 
-## 1. Overview
+## Overview
 
 Locating and extracting water from natural sources. Before any distribution network or treatment plant can function, a reliable source must be found, developed, and maintained. This capability covers the full range of procurement methods available from stone-age conditions through early industrial development.
 
@@ -16,26 +16,26 @@ A human requires 2-5 liters of drinking water per day for survival. At 50 liters
 
 Water sources fall into three categories: surface water (rivers, lakes, streams), groundwater (wells, springs, aquifers), and captured precipitation (rainwater, snowmelt). Each has different reliability, quality, and development effort.
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 - [Stone and wood tools](../foundations/tools-basic.md) — digging sticks, shovels, stone hammers for early construction
 - [Rope and cordage](../textiles/rope-making.md) — for well buckets, lifting, and construction
 - [Timber](../plants/structural-plants.md) — for well lining, support structures, guttering
 
-### Tools
+## Tools
 - Digging implements (wooden or metal shovels, picks)
 - Measuring cord and plumb bob for well verticality
 - Bucket and rope for water lifting and debris removal
 
-### Knowledge
+## Knowledge
 - Basic geology — where water accumulates underground
 - Surveying — measuring contours for gravity-fed collection
 
-### Infrastructure
+## Infrastructure
 - Labor force (2-10 people for well digging depending on depth)
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity per well | Source | Alternatives |
 |----------|------------------|--------|-------------|
@@ -45,9 +45,9 @@ Water sources fall into three categories: surface water (rivers, lakes, streams)
 | Bucket (wood or metal) | 1-2 | [Metals](../metals/index.md) or woodworking | Clay vessel |
 | Sand and gravel (filter pack) | 1-5 m³ | River or quarry | None — essential for well protection |
 
-## 4. Process Description
+## Process Description
 
-### Water Source Identification
+## Water Source Identification
 
 Several natural indicators reveal subsurface water:
 
@@ -66,7 +66,7 @@ Several natural indicators reveal subsurface water:
 - Seasonal indicators may be misleading during wet years
 - Requires local knowledge or extended observation period
 
-### Hand-Dug Wells
+## Hand-Dug Wells
 
 The most universal procurement method across civilizations.
 
@@ -100,7 +100,7 @@ The most universal procurement method across civilizations.
 - Risk of collapse during construction without proper shoring
 - Contamination risk if headwall and drainage apron are inadequate
 
-### Driven Wells
+## Driven Wells
 
 A screened pipe driven into unconsolidated soil using a driving cap and hammer.
 
@@ -134,7 +134,7 @@ A screened pipe driven into unconsolidated soil using a driving cap and hammer.
 - Screen can become clogged with fine sediment or biofilm
 - Limited to shallow aquifers
 
-### Spring Development
+## Spring Development
 
 Springs are ideal water sources — naturally filtered groundwater emerging at the surface.
 
@@ -166,7 +166,7 @@ Springs are ideal water sources — naturally filtered groundwater emerging at t
 - Vulnerable to contamination if collection basin is poorly sealed
 - Freezing in cold climates can interrupt flow
 
-### Rainwater Harvesting
+## Rainwater Harvesting
 
 Collecting precipitation from roofs or prepared surfaces.
 
@@ -197,7 +197,7 @@ Collecting precipitation from roofs or prepared surfaces.
 - Thatch roofs yield lower quality water (dissolved organics)
 - Freezing climates require frost-proof storage
 
-### Surface Water Collection
+## Surface Water Collection
 
 Rivers, lakes, and streams provide the highest-volume sources but require more treatment than groundwater.
 
@@ -226,7 +226,7 @@ Rivers, lakes, and streams provide the highest-volume sources but require more t
 - Seasonal variation in quality (flood turbidity, drought concentration)
 - Intake structures vulnerable to flood damage
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
 | Parameter | Hand-dug well | Driven well | Spring box | Roof catchment | River intake |
 |-----------|--------------|-------------|------------|---------------|-------------|
@@ -237,7 +237,7 @@ Rivers, lakes, and streams provide the highest-volume sources but require more t
 | Service life | 50+ years | 10-30 years | 2,000+ years (some) | 10-30 years (tank) | 20-50 years (intake) |
 | People served | 50-200 | 20-100 | 100-10,000+ | 1-5 per household | 500-50,000+ |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Household scale** (1-5 people): Rainwater harvesting from 20-50 m² roof with 2-5 m³ cistern. Driven well if soil permits. Cost: minimal.
 - **Village scale** (50-500 people): Hand-dug wells (multiple), spring development, or small river intake with settling. Requires community labor organization.
@@ -246,7 +246,7 @@ Rivers, lakes, and streams provide the highest-volume sources but require more t
 
 The jump from village to town scale is the critical threshold: it requires mechanized pumping, pipe networks, and treatment capability.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -258,7 +258,7 @@ The jump from village to town scale is the critical threshold: it requires mecha
 | River intake blocked | Flood debris, sediment, or ice blocking intake screen | Install a trash rack (coarse bar screen) upstream of intake. Clear debris regularly. In freezing climates, route intake below frost line. |
 | Water tastes or smells of rotten eggs | Hydrogen sulfide (H₂S) in groundwater — common in some aquifers | Aerate water by cascading from one tank to another (H₂S gas escapes). Alternatively, chlorinate to oxidize H₂S. Test for other contaminants. |
 
-## 8. Safety
+## Safety
 
 - **Well construction collapses**: The leading cause of death during hand-dug well construction. Shore every meter of depth with timber boards before continuing. Never enter a well deeper than 1.5 m without shoring. Fatal collapses occur in sand, silt, and loose gravel — cohesive clay is safer but still requires shoring below 3 m.
 - **Deep well gases**: Carbon dioxide (CO₂, heavier than air) and hydrogen sulfide (H₂S, toxic at 10 ppm) accumulate in deep wells. Always lower a lit candle before descending — if it extinguishes, do not enter. Ventilate by operating a fan or bellows at the surface for 15-30 minutes before entry. Use a safety harness with a rope tended by a second person at the surface.
@@ -266,14 +266,14 @@ The jump from village to town scale is the critical threshold: it requires mecha
 - **Well contamination**: The most common failure mode is surface runoff carrying fecal matter into the well. Prevent with a raised headwall (0.5 m+), drainage apron sloping away, tight-fitting cover, and locating wells at least 30 m uphill from latrines and animal pens.
 - **Drowning**: Open wells and cisterns are drowning hazards, especially for children. Install tight-fitting covers and lockable lids on all water storage.
 
-## 9. Quality Control
+## Quality Control
 
 - **Turbidity test**: Fill a clear glass container. If you can read text through 20 cm of water, turbidity is approximately <5 NTU (acceptable for most uses). If cloudy, settling or filtration is needed.
 - **Sanitary survey**: Inspect the water source monthly. Check for: cracked well lining, standing water within 3 m of the wellhead, missing or broken cover, livestock access within 30 m, latrines uphill within 30 m.
 - **Simple bacterial test**: Hydrogen sulfide (H₂S) presence/absence test — a strip or bottle that turns black if fecal contamination is present. Low cost, no laboratory required.
 - **Yield measurement**: For wells, measure static water level and pumping level. The difference (drawdown) indicates aquifer response. Record seasonally to track long-term aquifer health.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 - **Qanats (infiltration galleries)**: Persian water tunnels that tap groundwater at the base of hills and deliver it to valleys via gently sloping underground tunnels. Gradient: 0.05-0.5%. No pumping required. Some have operated for 2,000+ years. Labor-intensive to construct but extremely long-lived.
 - **Bored wells**: Auger-based drilling for deeper aquifers (15-50 m). Requires metal tools and mechanical advantage (windlass or capstan). Casing with clay or concrete to seal surface contamination.
@@ -289,7 +289,7 @@ The jump from village to town scale is the critical threshold: it requires mecha
 | River intake | Large settlements | Unlimited | Moderate | 5+ |
 | Qanat | Arid regions, hills | 43,200-4,320,000 L/day | High | 5+ |
 
-## 11. References
+## References
 
 - [Water Distribution](distribution.md) — procurement is prerequisite for distribution
 - [Basic Water Treatment](basic-treatment.md) — raw water requires treatment for safe consumption
@@ -297,5 +297,5 @@ The jump from village to town scale is the critical threshold: it requires mecha
 - [Foundations: Basic Tools](../foundations/tools-basic.md) — digging implements and construction tools
 - [Metals: Iron & Steel](../metals/iron-steel.md) — pipe and pump components for developed sources
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*
+
+[← Back to Water](index.md)

@@ -8,7 +8,7 @@
 > **Outputs**: balanced_nutrient_solution
 > **Critical**: No — this is an advanced optimization of hydroponic nutrient management; conventional hydroponics with manual pH adjustment is a functional alternative
 
-## 1. Overview
+## Overview
 
 The low-cost ion exchange membranes developed by SEM Tech (see [SEM Tech](../chemistry/sem-tech.md)) enable precise nutrient ion management in hydroponic growing systems. While SEM Tech's primary application is chlor-alkali electrolysis, the same membrane platform — pulverized pre-functionalized resin beads in a PVC/CPVC binder — can be applied to electrodialysis for controlled-environment agriculture.
 
@@ -20,7 +20,7 @@ Position in the dependency chain: SEM Tech hydroponics requires [SEM Tech membra
 
 **This article describes a speculative application.** No SEM-Tech-specific hydroponic data exists. The following describes a plausible application based on established electrodialysis principles and SEM Tech membrane capabilities.
 
-## 2. Prerequisites
+## Prerequisites
 
 **Materials**:
 - Ion exchange resin beads: strong acid cation resin (sulfonic acid, R-SO₃H) and strong base anion resin (quaternary ammonium, R-N⁺(CH₃)₃)
@@ -50,9 +50,9 @@ Position in the dependency chain: SEM Tech hydroponics requires [SEM Tech membra
 - Workshop space for membrane fabrication and stack assembly
 - [SEM Tech membrane manufacturing capability](../chemistry/sem-tech.md)
 
-## 3. Bill of Materials
+## Bill of Materials
 
-### Membrane Materials (10 cell pairs, 200 cm² active area)
+## Membrane Materials (10 cell pairs, 200 cm² active area)
 
 | Material | Quantity | Source | Notes |
 |----------|----------|--------|-------|
@@ -61,7 +61,7 @@ Position in the dependency chain: SEM Tech hydroponics requires [SEM Tech membra
 | PVC or CPVC resin (pellets or powder) | 50-100 g | Plumbing supply, [Chemistry](../chemistry/index.md) | Binder matrix for membranes |
 | Organic solvent (THF, cyclohexanone, or MEK) | 200-500 mL | [Chemistry → Solvents](../chemistry/solvents.md) | For dissolving PVC/CPVC binder |
 
-### Stack Hardware Materials
+## Stack Hardware Materials
 
 | Material | Quantity | Source | Notes |
 |----------|----------|--------|-------|
@@ -72,7 +72,7 @@ Position in the dependency chain: SEM Tech hydroponics requires [SEM Tech membra
 | Tie rods with nuts and washers (stainless steel) | 4-8 sets, 200-300 mm length | [Metals](../metals/index.md) or hardware | Stack compression |
 | Thick PVC or steel end plates (15-25 mm) | 2 pieces | [Metals](../metals/index.md) or hardware | Stack end compression plates |
 
-### Plumbing and Integration Materials
+## Plumbing and Integration Materials
 
 | Material | Quantity | Source | Notes |
 |----------|----------|--------|-------|
@@ -82,9 +82,9 @@ Position in the dependency chain: SEM Tech hydroponics requires [SEM Tech membra
 | Hose barbs, connectors, valves | Assorted | Hardware store | Plumbing connections |
 | Sediment filter (50-100 micron) | 1 unit | Water filter supply | Downstream particulate capture |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Membrane Fabrication
+## 4.1 Membrane Fabrication
 
 Follow the SEM Tech membrane manufacturing process (see [SEM Tech](../chemistry/sem-tech.md) for full details).
 
@@ -104,7 +104,7 @@ Follow the SEM Tech membrane manufacturing process (see [SEM Tech](../chemistry/
 - Organic solvents (THF, MEK, cyclohexanone) are required — these may not be available until [organic chemical synthesis](../chemistry/index.md) is established
 - Membrane quality depends on uniform resin-binder mixing — poor mixing produces areas of variable ion transport
 
-### 4.2 ED Stack Assembly
+## 4.2 ED Stack Assembly
 
 1. **Prepare spacer gaskets**: Cut PVC or CPVC sheet into rectangular frames that define the flow channels. Each frame has an open center (the active membrane area) and holes at opposite ends for inlet/outlet manifolds. Prepare two types: diluate spacers and concentrate spacers, differing only in manifold hole placement.
 2. **Assemble the stack**: On a flat surface, build up the stack in this repeating sequence from anode to cathode:
@@ -130,7 +130,7 @@ Follow the SEM Tech membrane manufacturing process (see [SEM Tech](../chemistry/
 - PVC cement fumes are toxic — assembly must be done in a well-ventilated area
 - Compression must be even across the entire stack — overtightening tears membranes, undertightening causes leaks
 
-### 4.3 System Operation
+## 4.3 System Operation
 
 1. **Calibrate sensors**: Calibrate pH probe using standard buffer solutions (pH 4.0, 7.0, 10.0). Calibrate EC sensor using standard KCl solution. Set target thresholds: pH 5.8-6.2 (or crop-specific range), EC 1.5-3.0 mS/cm (or crop-specific target).
 2. **Start the side-stream pump**: Begin circulating nutrient solution through the ED stack at 5-20 L/min. Check all connections for leaks. Verify flow through both diluate and concentrate channels.
@@ -153,7 +153,7 @@ Follow the SEM Tech membrane manufacturing process (see [SEM Tech](../chemistry/
 - Organic fouling from root exudates increases membrane resistance 10-40% over 30-60 days, requiring regular CIP cleaning
 - Membrane replacement every 6-12 months — each replacement requires 2-4 hours of disassembly, casting, and reassembly
 
-### 4.4 pH Stabilization
+## 4.4 pH Stabilization
 
 pH drift in hydroponics results from differential ion uptake. Plants absorbing more cations than anions release H⁺, lowering pH. Conversely, excess anion uptake releases HCO₃⁻/OH⁻, raising pH.
 
@@ -173,7 +173,7 @@ This replaces conventional pH correction (manual addition of phosphoric acid or 
 - pH sensor accuracy limits system precision — sensor drift of ±0.1 pH units equals the entire control band
 - Power outage during pH correction allows drift to continue uncontrolled until power returns
 
-### 4.5 Nutrient Ion Management
+## 4.5 Nutrient Ion Management
 
 In a recirculating hydroponic system, plants selectively absorb ions at different rates. Nitrogen is consumed rapidly; calcium and sulfate accumulate. Over time, the solution drifts from its target composition. Electromembrane-based management addresses this by:
 - **Selective ion removal**: An ED stack can extract excess ions (accumulated Ca²⁺, SO₄²⁻, Na⁺) from the nutrient solution, restoring balance without full replacement.
@@ -190,9 +190,9 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 - Does not remove pathogens — separate UV, ozone, or biological treatment is required for disease management
 - Ion transport rate at 10 mA/cm² across 200 cm²: 26.8 meq/min — adequate for gradual correction but too slow for rapid emergency adjustments
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Membrane Specifications for Hydroponic ED
+## Membrane Specifications for Hydroponic ED
 
 | Parameter | CEM (Cation) | AEM (Anion) |
 |-----------|-------------|-------------|
@@ -203,7 +203,7 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 | Cost per 200 cm² membrane | ~$0.11 | ~$0.11 |
 | Estimated area resistance | 20-50 Ω·cm² | 20-50 Ω·cm² |
 
-### ED System Operating Parameters
+## ED System Operating Parameters
 
 | Parameter | Small (50-200 L) | Medium (200-2,000 L) | Large (2,000-20,000 L) |
 |-----------|------------------|----------------------|------------------------|
@@ -216,7 +216,7 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 | Correction cycle time | 30-90 min | 20-60 min | 20-60 min |
 | Total membrane cost | $1-3 | $5-15 | $15-50 |
 
-### Nutrient Solution Ion Transport Rates
+## Nutrient Solution Ion Transport Rates
 
 | Ion | Concentration in Hoagland Solution | Transport Rate at 2A (10 cell pairs) | Time to Reduce 50 mg/L Ca²⁺ in 500 L |
 |-----|------------------------------------|---------------------------------------|--------------------------------------|
@@ -225,7 +225,7 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 | NO₃⁻ | 1,000 mg/L (16 mM) | 1.08 g/min | — |
 | SO₄²⁻ | 192 mg/L (2 mM) | 0.97 g/min | — |
 
-### Cost Analysis
+## Cost Analysis
 
 | Component | Cost |
 |-----------|------|
@@ -247,7 +247,7 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 | Annual CIP chemicals | — | $5-10 |
 | **Total annual operating cost** | **~$130/year** | **~$43/year** |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 **Small-scale (50-200 L reservoir)**: Single ED module with 5 cell pairs, 100 cm² active area per membrane. Suitable for hobby greenhouses and research growth chambers. Processes 1-2 L/min of side-stream flow. Full correction cycle: 30-90 minutes.
 
@@ -259,7 +259,7 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 
 **Key bottleneck**: Organic solvent availability. Membrane fabrication requires THF, MEK, or cyclohexanone. These solvents require [organic chemical synthesis](../chemistry/index.md) capability that may not be available in early bootstrap scenarios.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -270,7 +270,7 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 | Micronutrient depletion in nutrient solution | Non-selective ED co-removes micronutrients along with target ions | Add staged ED operation with selective membrane formulation; supplement micronutrients separately |
 | Membrane tearing during assembly | Overtightening tie rods or uneven gasket surface | Hand-tighten nuts in cross-pattern; use torque-limiting technique; inspect membranes for defects before installation |
 
-## 8. Safety
+## Safety
 
 - **Solvent handling during membrane fabrication**: THF, MEK, and cyclohexanone are flammable organic solvents with TLV-TWA values of 200-590 ppm. Use in well-ventilated areas away from ignition sources. THF forms explosive peroxides on prolonged storage — use fresh solvent or test for peroxides before use. Wear nitrile gloves and safety goggles when handling solvents.
 - **Electrical safety near water**: The ED module operates at low DC voltage (5-30V) which presents minimal shock hazard, but all electrical connections must be waterproofed. Ground-fault circuit interrupters (GFCIs) are mandatory on the power supply. The ED module housing must be sealed and drip-proof.
@@ -278,9 +278,9 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 - **Concentrated nutrient solutions**: ED concentrate streams contain high levels of dissolved ions. Standard chemical handling practices apply: gloves, eye protection, and clearly labeled containers. Concentrated potassium hydroxide (used in some hydroponic formulations) is caustic and requires the same precautions as any strong base (pH >13 in concentrated form; causes chemical burns on skin contact).
 - **Membrane integrity**: Degraded membranes could release resin particles into the nutrient solution. A sediment filter (50-100 micron) downstream of the ED module catches any particulate matter. Inspect filter monthly and replace when clogged.
 
-## 9. Quality Control
+## Quality Control
 
-### ED Stack Performance Verification
+## ED Stack Performance Verification
 
 | Parameter | Target | Test Method |
 |-----------|--------|-------------|
@@ -290,7 +290,7 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 | Stack pressure drop | <50 kPa at design flow rate | Pressure gauge at inlet and outlet |
 | Membrane resistance increase | <20% per month (after CIP cleaning) | Measure stack voltage at constant current; compare to baseline |
 
-### Nutrient Solution Quality Targets
+## Nutrient Solution Quality Targets
 
 | Parameter | Target Range | Out-of-Range Action |
 |-----------|-------------|-------------------|
@@ -300,9 +300,9 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 | Nitrate-N | 100-200 mg/L | Supplement if depleted; remove excess via ED |
 | Iron | 2-5 mg/L | Add chelated iron supplement (ED cannot selectively add iron) |
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Nutrient Management Method Comparison
+## Nutrient Management Method Comparison
 
 | Method | pH Precision | Annual Cost | Complexity | Water Waste |
 |--------|-------------|------------|-----------|------------|
@@ -311,7 +311,7 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 | SEM Tech ED control | ±0.1 units | ~$43/year | High | Low (semi-annual replacement) |
 | [Aquaponics](aquaponics.md) (biological) | ±0.3-0.5 units | ~$50/year (fish food) | Medium (living system) | Very low (continuous recirculation) |
 
-### Crop-Specific Nutrient Profiles
+## Crop-Specific Nutrient Profiles
 
 | Crop | EC Target (mS/cm) | pH Target | Key Nutrient Emphasis | Notes |
 |------|-------------------|-----------|----------------------|-------|
@@ -321,7 +321,7 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 | Cucumber | 2.0-3.0 | 5.5-6.0 | Balanced N-P-K | Fast growth; frequent correction needed |
 | Herbs (basil, mint) | 1.0-2.0 | 5.5-6.5 | Moderate nitrogen | Continuous harvest; steady demand |
 
-## 11. References
+## References
 
 - [SEM Tech Ion Exchange Membrane](../chemistry/sem-tech.md) — parent article on SEM Tech membrane manufacturing and properties
 - [Electrodialysis](../chemistry/sem-tech-electrodialysis.md) — electrochemical ion separation using SEM Tech membranes
@@ -331,6 +331,6 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 - [Energy → Electricity](../energy/electricity.md) — electrical supply for ED stack operation
 - [Electronics](../electronics/index.md) — pH probes, EC sensors, and microcontroller circuits
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*
+
+[← Back to Agriculture](index.md)

@@ -8,7 +8,7 @@
 > **Outputs**: electrolysis, chlorine, hydrogen, oxygen, aluminum, caustic_soda, pure_copper
 > **Critical**: Yes — the chlor-alkali process produces chlorine, hydrogen, and NaOH simultaneously, which are required for HCl synthesis, PVC production, semiconductor-grade hydrogen, and aluminum smelting. Electrolysis is one of the most electricity-intensive industrial processes and a prerequisite for the chemical industry.
 
-### Electrolysis Scale-Up
+## Electrolysis Scale-Up
 
 **[Chlor-alkali process](../glossary/chlor-alkali-process.md)** (most important industrial electrolysis):
 - **Cell types**:
@@ -104,7 +104,7 @@ The overall cell reaction is 2Al₂O₃ + 3C → 4Al + 3CO₂. The carbon anode 
 - **Anode slime processing**: Slime (0.1-0.5% of anode weight) settles to tank bottom, collected every anode change cycle (3-4 weeks). Composition: 10-30% Ag, 0.5-5% Au, plus Se, Te, Pt, Pd. Processing: pressure-leach with H₂SO₄ + O₂ to dissolve Cu, Se, Te. Smelt residual in precious metals furnace → Doré bullion (95%+ Ag + Au). Electrorefine silver in Balbach-Thum cells (Ag → 99.99% pure). Gold and PGMs recovered from silver refining slimes by aqua regia dissolution and selective precipitation.
 - **Energy**: Very low — only 250-350 kWh per tonne of refined copper (vs. ~13,000-15,000 kWh/t for aluminum). The dominant cost is labor and working capital (metal tied up in process), not electricity.
 
-### Electrode Materials & Cell Design
+## Electrode Materials & Cell Design
 
 **Electrode materials by process**:
 
@@ -122,7 +122,7 @@ The overall cell reaction is 2Al₂O₃ + 3C → 4Al + 3CO₂. The carbon anode 
 - **Filter press cell**: Flat electrodes and separators clamped together like a stack. Electrolyte flows through channels between plates. Continuous operation, compact, good heat removal. Used for chlor-alkali and advanced water electrolysis. Higher manufacturing precision required.
 - **[Membrane cell](../glossary/membrane-cell.md)** (chlor-alkali specific): Ion-exchange membrane (Nafion) replaces diaphragm. Allows Na⁺ through but blocks Cl⁻ and OH⁻. Produces higher-purity NaOH directly at 30-35% concentration. Requires fluoropolymer chemistry.
 
-### Power Supply for Electrolysis
+## Power Supply for Electrolysis
 
 All electrolysis processes require **direct current (DC)**. The conversion from AC grid power to DC is itself a significant engineering challenge.
 
@@ -134,7 +134,7 @@ All electrolysis processes require **direct current (DC)**. The conversion from 
   - Copper refining: 100-200V DC at 10,000-30,000 A
 - **Bus bar design**: Massive copper or aluminum bus bars carry current between rectifier and cells. At 200 kA, even 0.001 Ω resistance dissipates 40 kW as heat. Bus bars must be short, thick, and well-cooled. Typical cross-section: 200-1000 mm² per 1000 A.
 
-### Safety
+## Safety
 
 - **Chlorine gas**: Toxic (IDLH 10 ppm). Fatal at 1000 ppm. Chlor-alkali plants require gas detection, ventilation, emergency scrubbers (NaOH solution absorbs Cl₂), and full-face supplied-air respirators for emergency response. Chlorine is heavier than air — accumulates in low points.
 - **Hydrogen gas**: Explosive in air at 4-75% concentration. Ignition energy very low (0.017 mJ). All hydrogen systems must be purged with inert gas (N₂) before introduction of H₂. No open flames, sparks, or static discharge near hydrogen equipment.
@@ -142,7 +142,7 @@ All electrolysis processes require **direct current (DC)**. The conversion from 
 - **Electrical**: All electrolysis uses high DC currents at potentially lethal voltages. Insulation, grounding, and lockout/tagout procedures mandatory. Electrolyte is conductive — wet surfaces near cells are shock hazards.
 - **Asbestos** (diaphragm cells): Known carcinogen. Handling asbestos fiber for diaphragm deposition requires respiratory protection, enclosure, and wet methods. Modern plants have replaced asbestos with polymer diaphragms.
 
-### Other Electrolysis Processes
+## Other Electrolysis Processes
 
 **Sodium production (Downs cell)**:
 - Molten NaCl electrolysis at 580-600°C (NaCl-CaCl₂ eutectic mixture lowers melting point from 801°C). Steel cell, carbon anode, iron or copper cathode. 4-6V, 30-40 kA. Products: sodium metal (cathode) + chlorine gas (anode). Na rises to surface (density 0.97 g/cm³), collected under inert atmosphere. CaCl₂ addition (58-59% NaCl / 41-42% CaCl₂) reduces operating temperature below Na boiling point (883°C), preventing sodium vapor loss. Sodium metal used for titanium reduction (Kroll process), organic synthesis, and as coolant in fast breeder nuclear reactors.
@@ -155,7 +155,7 @@ All electrolysis processes require **direct current (DC)**. The conversion from 
 **[Electrowinning](../glossary/electrowinning.md)** (extracting metal from leach solutions):
 - Used when metal is dissolved in solution (heap leaching of copper ores, zinc roaster leach). Electrolyte contains metal ions (Cu²⁺, Zn²⁺) in H₂SO₄ solution. Inert anode (Pb-Sn-Ca alloy, oxygen-evolving). Cathode: aluminum or stainless steel blank. Metal plates on cathode, O₂ evolves at anode. Higher voltage than electrorefining (1.8-3.5V per cell vs. 0.3V) because the anode reaction is water oxidation rather than metal dissolution.
 
-### Scale and Economics
+## Scale and Economics
 
 Electrolysis is among the most electricity-intensive industrial processes. Approximate energy costs per kg of product:
 
@@ -172,7 +172,6 @@ Cheap, abundant electricity is the prerequisite for all electrolysis. Without re
 
  ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
 
 ## Chlor-Alkali Membrane Cell: Detailed Parameters
 
@@ -251,6 +250,6 @@ Faraday's first law of electrolysis: the mass of substance deposited or dissolve
 - **[Hydrogen and Silane](hydrogen-silane.md)**: Hydrogen as a feedstock for silane and semiconductor gases
 - **[Aluminum Production](../metals/aluminum.md)**: Hall-Héroult electrolysis for aluminum
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+[← Back to Chemistry](index.md)

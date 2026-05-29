@@ -7,9 +7,7 @@
 > **Timeline**: Years 0-30+
 > **Outputs**: weapons, blades, spears, bows, small_arms, muskets
 
----
 
-## Overview
 
 Weapons and edged tools encompass the development of offensive and defensive instruments from stone-age knapping through black-powder firearms. This capability tracks the material science, engineering, and production techniques required to manufacture weapons at each technological tier — from flint hand-axes to rifled muskets.
 
@@ -17,7 +15,6 @@ Weapon development is a direct proxy for metallurgical capability. The progressi
 
 Weapon production scales from individual craftsmanship (a single smith making swords) to industrial arsenals (thousands of muskets per month with interchangeable parts). The resource demands are significant: a 1000-soldier force equipped with muskets consumes 30-120 kg of black powder and 60-70 kg of lead per minute of combat, requiring industrial-scale [chemistry](../chemistry/index.md) and [mining](../mining/index.md).
 
----
 
 ## Bill of Materials
 
@@ -32,11 +29,10 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 | Matchlock musket | Wrought iron/low-C steel | 3-5 kg barrel stock | Saltpeter 15-25 g/shot, lead ball 25-35 g/shot, hemp match cord | [Explosives](../chemistry/explosives.md) |
 | Arrows (war, per 12) | Iron/steel | 240-600 g total points | Ash shafts 60-80 cm, goose feathers 36, birch tar | [Textiles](../textiles/index.md) |
 
----
 
 ## Weapon Development by Era
 
-### Stone-Age Weapons (Years 0-5)
+## Stone-Age Weapons (Years 0-5)
 
 **Chipped stone blades**: Flint, chert, and obsidian knapped to cutting edges. Hardness: flint Mohs 7, obsidian Mohs 5-5.5 (but produces edges under 1 um -- sharper than surgical steel scalpel at 3-5 um). Flint knapping techniques: hard hammer (bipolar percussion for initial reduction), soft hammer (antler or wood billet for thinner flakes), pressure flaking (antler tine for final edge shaping and serration). Edge durability: 10-30 minutes of active cutting before resharpening needed on hide/wood; breaks on bone contact.
 
@@ -72,7 +68,7 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 - Weather-dependent — wet bowstrings stretch and lose performance; rain weakens horn/sinew composite bows
 - Arrow consumption — 20-60 arrows per archer per battle; resupply requires organized production
 
-### Bronze-Age Weapons (Years 5-10)
+## Bronze-Age Weapons (Years 5-10)
 
 **Bronze alloy for weapons**: Copper-tin alloy, 8-12% tin for weapons (harder than pure copper). Tin content tradeoff: higher tin = harder but more brittle. Optimal weapon bronze: 10% tin -> HB 120-150 (Brinell hardness), tensile strength 350-450 MPa. Cast in two-piece stone or clay molds.
 
@@ -82,7 +78,7 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 
 **Bronze axe**: Socketed axe head, 10-20 cm cutting edge, 200-500 g. Edge angle: 25-35 degrees (compromise between sharpness and durability). Used as both tool and weapon.
 
-### Iron-Age Weapons (Years 5-15)
+## Iron-Age Weapons (Years 5-15)
 
 **Wrought iron weapons**: Bloomery iron (0.02-0.08% carbon) hammered into bars and forged to shape. Hardness: HB 90-120 (softer than bronze weapons but more available material). Advantage: iron ore far more abundant than copper and tin. Wrought iron bends rather than shatters -- field-repairable by any smith.
 
@@ -125,7 +121,7 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 - Heat treatment failure ruins the blade — quenching without tempering produces brittle martensite
 - Rust — steel blade rusts within hours in humid conditions without oil maintenance
 
-### Steel Weapons (Years 10-25)
+## Steel Weapons (Years 10-25)
 
 **Crucible steel (Wootz method)**: Iron + carbon (1.0-2.0%) + trace elements (vanadium, chromium from specific ores) sealed in clay crucible, heated to 1300-1400 degrees C for 4-6 hours. Slow cooling produces cementite dendrites in pearlite matrix -> characteristic damascene pattern when etched. Hardness: HRC 55-65. Superior to pattern-welded blades -- more uniform carbon distribution.
 
@@ -133,7 +129,7 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 
 **Steel arrowheads**: Bodkin point (armor-piercing, 4-sided pyramidal cross-section, no cutting edges -> concentrates force on small area). At 60 lb draw, bodkin arrow (50 g, 55 m/s) delivers ~75 J kinetic energy. Penetrates mail at 20 m, but NOT plate armor -- defeated by 2+ mm tempered steel plate at oblique angle.
 
-### Black Powder Firearms (Years 15-30)
+## Black Powder Firearms (Years 15-30)
 
 **Matchlock musket**: Smoothbore barrel, 17.5-19 mm bore diameter (.69-.75 caliber), 90-120 cm barrel length. Barrel material: wrought iron or low-carbon steel, 3-5 mm wall thickness at chamber. Lock mechanism: smoldering slow match (saltpeter-impregnated hemp cord, ~10 cm/hr burn rate) lowered into flash pan by trigger lever. Propellant: black powder charge 15-25 g (see [Explosives](../chemistry/explosives.md) for propellant composition: 75% KNO3, 15% charcoal, 10% sulfur). Projectile: lead ball, 25-35 g (fitting loosely in bore -- windage 1-2 mm). Muzzle velocity: 350-450 m/s. Effective range: 50-80 m aimed, 150-200 m volley fire. Rate of fire: 1-2 rounds per minute. Misfire rate: 20-30% in damp conditions (slow match ignites powder in flash pan, which ignites main charge through touch hole).
 
@@ -173,15 +169,14 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 - High material consumption — 15-25 g powder and 25-35 g lead per shot requires industrial supply chain
 - Misfire rate 20-30% — unreliable ignition in damp conditions; slow match is visible at night
 
----
 
 ## Specialized Weapon Systems
 
-### Crossbow
+## Crossbow
 
 **Construction**: Prod (bow limb) from composite (horn + sinew + wood) or steel. Steel prod: 50-100 cm span, 400-1200 lb draw weight (requires spanning lever, cranequin, or windlass for cocking). Bolt: 30-50 cm, 60-100 g, iron or steel bodkin point. Muzzle velocity: 50-70 m/s. Kinetic energy: 100-200 J. Effective range: 40-60 m armor-piercing, 100-150 m unarmored target. Rate of fire: 1-2 bolts per minute (spanning mechanism adds significant reload time). Advantage over hand bow: requires less training for proficiency, higher armor penetration at close range.
 
-### Polearms & Formation Weapons
+## Polearms & Formation Weapons
 
 **Spear (infantry)**: Universal weapon from stone-age through modern bayonet. Iron-age infantry spear: 1.5-2.5 m ash shaft (25-35 mm diameter), 20-40 cm iron spearhead with socket. Weight: 1.0-2.0 kg. Used in formation (shield wall, phalanx) -- mass of spear points creates impenetrable hedge. Individual spear combat: thrust and recover, don't overextend. Spear wins vs sword at range (first strike advantage), loses if swordsman closes past spear point.
 
@@ -189,7 +184,7 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 
 **Pike**: Long spear (3.5-6.0 m ash shaft, small steel point). Weight: 2.5-5.0 kg. Defensive formation weapon -- pike square presents hedge of 100+ points to cavalry. Pikes planted at 45 degree angle (braced butt on ground, points at horse chest height) stop cavalry charge. Pike and shot tactics (1500-1700): pike block protects musketeers while they reload, musketeers provide firepower. Requires disciplined formation -- individual pike ineffective.
 
-### Bow Types & Archery Mechanics
+## Bow Types & Archery Mechanics
 
 **Self bow**: Single piece of wood (yew, elm, osage orange, ash). Yew is optimal: heartwood (compression strength) on belly, sapwood (tensile strength) on back. Draw weight: 50-80 lb for war bow (Mary Rose longbows: 100-180 lb). Arrow velocity: 55-65 m/s. String: linen or hemp, 3-5 mm diameter, served (wrapped) at nocking point and loops. Bow stringer: essential for safe stringing -- prevents limb breakage and injury. Bow life: 6-12 months of regular use before replacement (compression set -- bow loses draw weight).
 
@@ -197,7 +192,7 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 
 **Arrow mechanics**: Arrow spine (stiffness) must match bow draw weight -- underspined arrow flexes excessively and flies erratically, overspined arrow doesn't flex properly around bow shelf. Arrow weight: 30-60 g for war arrow. Fletching: 3 feathers (goose preferred), 5-10 cm length, slight helical twist for spin stabilization. Point types: broadhead (cutting, for unarmored targets), bodkin (armor-piercing), barbed (hunting, difficult to extract). Arrow production: 12-24 arrows per fletcher per day.
 
-### Blade Geometry & Mechanics
+## Blade Geometry & Mechanics
 
 **Cutting mechanics**: A blade cuts by concentrating force on a narrow edge. Edge performance depends on edge angle, steel hardness, and blade geometry. Edge angle (included angle): 20-30 degrees for cutting/slicing weapons (swords, knives), 40-60 degrees for chopping weapons (axes). Thinner edge = sharper but more fragile. Harder steel holds thin edge longer but chips more easily. Optimal for sword: edge angle 25-30 degrees, HRC 45-50, with fuller (groove) reducing blade weight 15-20%.
 
@@ -209,7 +204,7 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 
 **Center of percussion**: The point on a blade (~1/3 from tip) where impact produces minimum shock to the wielder's hand. Determined by blade mass distribution and pivot point (grip). A well-designed sword aligns the center of percussion with the primary striking zone -- this is the "sweet spot" that maximizes energy transfer while minimizing discomfort.
 
-### Sling & Thrown Weapons
+## Sling & Thrown Weapons
 
 **Sling**: Two cords (50-80 cm) attached to a pouch holding a stone or lead bullet (20-80 g). Spun overhead and one cord released. Sling bullet velocity: 60-80 m/s. Kinetic energy: 40-250 J (lead glandes bullets from Balearic slingers were reportedly lethal through simple helmets). Range: 100-200 m (exceeds bow range). Ammunition: any rounded stone or cast lead bullet. Advantage: virtually free ammunition, very lightweight, easy to learn basics (mastery takes years). Used by skirmishers to harass enemy formations from beyond bow range.
 
@@ -217,11 +212,10 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 
 **Javelin**: Light throwing spear (1.5-2.0 m, 300-600 g total). Throwing range: 20-35 m. Enhanced by thong (ankyle): 30-50 cm leather strap wound around shaft -> imparts spin and additional lever arm, increasing range 20-30% and accuracy. Roman pilum: heavy javelin (1.5-2.0 kg, 1.5-2.0 m) with long iron shank (60-90 cm) and pyramidal point. Designed to penetrate shield and bend on impact (enemy cannot throw it back). Effective range: 15-25 m.
 
----
 
 ## Quantitative Parameters
 
-### Weapon Performance Comparison
+## Weapon Performance Comparison
 
 | Weapon | Blade/Projectile | Energy at Target (J) | Effective Range (m) | Rate of Fire |
 |--------|-----------------|----------------------|---------------------|--------------|
@@ -234,7 +228,7 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 | Flintlock musket | 30 g lead ball | 2000-3000 | 50-80 | 2-3/min |
 | Rifled musket | 33 g Minie ball | 2600-4000 | 300-500 | 2-3/min |
 
-### Material Hardness Reference
+## Material Hardness Reference
 
 | Material/Alloy | Hardness Scale | Value | Application |
 |---------------|----------------|-------|-------------|
@@ -247,7 +241,7 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 | High-C steel (quenched + tempered) | HRC | 55-62 | Knife edges, axe bits |
 | Crucible steel (Wootz) | HRC | 55-65 | Premium blades |
 
-### Firearm Ammunition Specifications
+## Firearm Ammunition Specifications
 
 | Parameter | Matchlock Musket | Flintlock Musket | Rifled Musket |
 |-----------|-----------------|-----------------|---------------|
@@ -258,7 +252,6 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 | Effective range (aimed) | 50-80 m | 50-80 m | 300-500 m |
 | Misfire rate | 20-30% | 10-15% | <5% (percussion) |
 
----
 
 ## Weapon Maintenance
 
@@ -266,7 +259,6 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 
 **Firearm maintenance**: Black powder residue is hygroscopic and corrosive. After firing, barrel must be cleaned with hot water (dissolves salt residue), dried, and oiled within 24 hours or rust begins. Cleaning kit: worm (corkscrew puller for stuck balls), brush, cleaning jag (fits patch), oil bottle. Touch hole (vent) must be kept clear -- blocked vent prevents ignition. Lock mechanism: disassemble and clean weekly in active service.
 
----
 
 ## Scaling Notes
 
@@ -276,7 +268,6 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 - **Arrow production scaling**: 100 archers expend 2000-6000 arrows per battle. Fletchers must produce 100-300 arrows/day to sustain an archery corps. Requires organized supply of shafts, points, feathers, and glue.
 - **Training time bottleneck**: Bow proficiency requires 2-5 years of muscle development. Musket drill: 4-8 weeks. When raising forces quickly, firearms are decisive despite higher material cost. Pike drill: 2-4 weeks for formation competence.
 
----
 
 ## Troubleshooting
 
@@ -293,7 +284,6 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 | Bronze casting porosity | Insufficient mold venting, pour temperature too low | Add vent channels to mold; heat melt to 1100-1200 degrees C before pouring |
 | Spearhead separates from shaft | Hafting failure (binding or adhesive) | Use socket construction when possible; ensure birch tar is fresh; rawhide binding must be wet-stretched then dried tight |
 
----
 
 ## Safety Considerations
 
@@ -305,7 +295,6 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 - **Quenching hazards**: Quenching hot steel in water or oil produces violent steam or oil spatter. Wear face shield and leather apron. Oil quench tanks can ignite if steel is too hot -- keep fire extinguishing sand nearby.
 - **Heat treatment fumes**: Salt bath nitriding (advanced heat treatment) produces toxic fumes. Work in ventilated area. Standard forge work produces CO -- ensure chimney or cross-ventilation in smithy.
 
----
 
 ## Limitations
 
@@ -320,9 +309,8 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 
 - **Combined arms**: No single weapon dominates. Spears hold formation, bows provide ranged fire, swords and axes for close combat, polearms counter cavalry, firearms deliver decisive ranged lethality. Effective military organizations integrate multiple weapon types in mutual support.
 
----
 
-## References
+## See Also
 
 - **[Explosives & Propellants](../chemistry/explosives.md)** -- Black powder composition, smokeless powders, and propellant manufacture
 - **[Iron & Steel Production](../metals/iron-steel.md)** -- Weapon-grade steel heat treatment and carburization
@@ -331,6 +319,7 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 - **[Machine Tools](../machine-tools/index.md)** -- Barrel drilling and interchangeable parts
 - **[Mining](../mining/index.md)** -- Iron ore, copper, tin, and lead extraction
 
----
 
  *Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*
+
+[← Back to defense](index.md)

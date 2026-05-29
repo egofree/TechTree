@@ -20,13 +20,12 @@ Wired communication (telegraph, telephone) requires physical infrastructure — 
 - [Metals](../metals/index.md) — copper wire for coils and antennas, brass for spark gaps, tungsten for tube filaments
 - [Semiconductor materials](../electronics/index.md) — mineral crystals for detector diodes (galena, carborundum)
 
-## Overview
 
 Radio communication transmits information via electromagnetic waves propagating through free space, eliminating the need for wires between transmitter and receiver. The progression from spark-gap transmitters (1895-1910) through crystal detectors to vacuum tube transmitters and receivers (1906-1920) represents one of the most rapid technology evolutions in history — from laboratory curiosity to intercontinental communication in under 20 years.
 
 Radio enables communication with ships at sea, aircraft in flight, and remote locations where wire installation is impractical. It is the foundation of broadcast (one-to-many) communication, transforming information distribution from point-to-point to mass media.
 
-### Electromagnetic Wave Propagation Fundamentals
+## Electromagnetic Wave Propagation Fundamentals
 
 **Frequency and wavelength**: wavelength = c/f, where c is the speed of light (3 x 10^8 m/s) and f is frequency. The radio spectrum spans from ~3 kHz (wavelength = 100 km) to ~300 GHz (wavelength = 1 mm). Early radio operated at 100-1000 kHz (wavelengths 300-3000 m), known as the "long wave" band.
 
@@ -36,7 +35,7 @@ Radio enables communication with ships at sea, aircraft in flight, and remote lo
 
 **Path loss**: Signal strength decreases with distance. Free-space path loss: L = (4*pi*d/wavelength)^2. For a 300 kHz signal at 100 km: L ~ 62 dB. At 500 km: L ~ 76 dB. Each doubling of distance adds ~6 dB of loss.
 
-### Spark-Gap Transmitter (1895-1910)
+## Spark-Gap Transmitter (1895-1910)
 
 The first practical radio transmitter. A high-voltage spark across a gap excites a tuned circuit (inductor + capacitor) that rings at its resonant frequency, producing damped radio-frequency oscillations radiated from an antenna wire.
 
@@ -51,7 +50,7 @@ The first practical radio transmitter. A high-voltage spark across a gap excites
 
 **Fundamental limitation**: The spark gap transmitter radiates on many frequencies simultaneously (broadband emission). A single transmitter creates interference across a wide swath of the radio spectrum. By 1910-1912, regulatory pressure demanded narrower-band transmissions, driving the transition to arc transmitters and vacuum tube oscillators.
 
-### Crystal Detector Receiver (1900-1920)
+## Crystal Detector Receiver (1900-1920)
 
 The simplest radio receiver — no power source required. The antenna picks up the radio signal, a tuned circuit selects the desired frequency, and a crystal detector rectifies the RF to recover the audio envelope. High-impedance headphones convert the audio to sound.
 
@@ -69,7 +68,7 @@ The simplest radio receiver — no power source required. The antenna picks up t
 
 **Sensitivity**: A crystal receiver with a good antenna can detect signals from a 1 kW spark transmitter at 100-300 km. Limiting factor is headphone sensitivity — must produce audible sound from signals as weak as 1-10 uW.
 
-### Vacuum Tube Development (1904-1920)
+## Vacuum Tube Development (1904-1920)
 
 The vacuum tube transformed radio from a limited point-to-point technology into a universal communication medium.
 
@@ -88,7 +87,7 @@ The vacuum tube transformed radio from a limited point-to-point technology into 
 - **Advantages over spark gap**: Single frequency (no broadband interference), continuous wave, frequency stability, much higher efficiency (20-50% vs. 10-30%).
 - **Frequency range**: 20 kHz to 30 MHz with appropriate LC values.
 
-### Antenna Systems
+## Antenna Systems
 
 **Marconi antenna (monopole)**: Vertical wire or mast, grounded at the base. For a quarter-wave antenna at 300 kHz (wavelength = 1000 m), ideal height is 250 m — impractical. Short antennas (20-100 m) work but with reduced efficiency. A 50 m vertical wire at 300 kHz has radiation efficiency ~5-15%.
 
@@ -96,7 +95,7 @@ The vacuum tube transformed radio from a limited point-to-point technology into 
 
 **Ground system**: Buried copper wire radials (10-20 wires, each 100+ m at 300 kHz). Good ground resistance: <5 ohm. Poor ground (>20 ohm) wastes 50-80% of transmitter power.
 
-### Radio Receiver Evolution
+## Radio Receiver Evolution
 
 **Regenerative receiver (Armstrong, 1912)**: A triode amplifier with controlled positive feedback. Provides gain equivalent to 3-5 stages of conventional amplification in a single tube. However, excessive feedback causes oscillation — the receiver becomes a transmitter, interfering with nearby receivers.
 
@@ -104,7 +103,7 @@ The vacuum tube transformed radio from a limited point-to-point technology into 
 
 ## Bill of Materials
 
-### Spark-Gap Transmitter Station (1 kW)
+## Spark-Gap Transmitter Station (1 kW)
 
 | Material | Quantity | Specification | Source |
 |----------|----------|---------------|--------|
@@ -117,7 +116,7 @@ The vacuum tube transformed radio from a limited point-to-point technology into 
 | Telegraph key | 1 | Heavy-duty contact key | [Metals](../metals/index.md) |
 | Battery (primary cells) | 6-12 V bank | Lead-acid or Leclanche, 1-5 kW capacity | [Chemistry](../chemistry/index.md) |
 
-### Crystal Receiver Station
+## Crystal Receiver Station
 
 | Material | Quantity | Specification | Source |
 |----------|----------|---------------|--------|
@@ -130,7 +129,7 @@ The vacuum tube transformed radio from a limited point-to-point technology into 
 
 ## Quantitative Parameters
 
-### Transmitter Specifications by Era
+## Transmitter Specifications by Era
 
 | Parameter | Spark Gap (1895-1910) | Vacuum Tube CW (1915-1930) |
 |-----------|----------------------|---------------------------|
@@ -142,7 +141,7 @@ The vacuum tube transformed radio from a limited point-to-point technology into 
 | Range (sky wave) | 200-3000 km | 500-15,000 km |
 | Operating voltage | 10-50 kV | 50-2000 V (plate) |
 
-### Receiver Sensitivity by Type
+## Receiver Sensitivity by Type
 
 | Receiver Type | Minimum Detectable Signal | Power Required | Selectivity |
 |---------------|--------------------------|----------------|-------------|
@@ -150,7 +149,7 @@ The vacuum tube transformed radio from a limited point-to-point technology into 
 | Regenerative (1 tube) | ~1 uW | 5-10 W (filament + plate) | Good (with regeneration) |
 | Superheterodyne (5 tubes) | ~0.1 uW | 10-20 W (filament + plate) | Excellent (IF filtering) |
 
-### Vacuum Tube Operating Parameters
+## Vacuum Tube Operating Parameters
 
 **Receiving tube** (Type 01A, 1920s):
 - Filament: 5.0 V, 0.25 A (1.25 W). Plate: 45-90 V, 1.5-3.0 mA. Grid bias: -4.5 to -9.0 V.
@@ -163,7 +162,7 @@ The vacuum tube transformed radio from a limited point-to-point technology into 
 
 **Transmitter tube** (Type UV-204A, 250 W): Filament 11 V / 3.5 A = 38.5 W. Plate: 1000-2000 V at 150-250 mA. RF output: ~150-200 W (60-75% efficiency). Tube life: 1,000-3,000 hours.
 
-### Frequency Bands and Propagation Characteristics
+## Frequency Bands and Propagation Characteristics
 
 | Band | Frequency | Wavelength | Primary Mode | Typical Range |
 |------|-----------|-----------|--------------|---------------|
@@ -174,15 +173,15 @@ The vacuum tube transformed radio from a limited point-to-point technology into 
 
 ## Scaling Notes
 
-### Short-Range Station (5-50 km)
+## Short-Range Station (5-50 km)
 
 Crystal receiver + low-power spark or tube transmitter (0.1-0.5 kW). Ship-to-shore, harbor communication, local military coordination. Antenna height: 10-30 m. Construction cost: $200-500. No amplification needed at receiver if transmitter is within 50 km. Operating power: 100-500 W transmitter, zero for crystal receivers.
 
-### Medium-Range Station (50-500 km)
+## Medium-Range Station (50-500 km)
 
 1-5 kW tube transmitter + regenerative or superheterodyne receiver. Ground wave propagation on long wave (150-500 kHz). Antenna: 30-80 m vertical mast with ground radials. Requires skilled operator for tuning and maintenance. Construction cost: $2,000-10,000. Typical shore-to-ship service radius.
 
-### Long-Range / Intercontinental Station (1,000-15,000 km)
+## Long-Range / Intercontinental Station (1,000-15,000 km)
 
 10-50 kW tube transmitter + directional antenna arrays. Sky wave propagation on short wave (5-25 MHz). Antenna: 50-200 m masts or horizontal wire arrays. Requires frequency selection based on time of day, season, and sunspot cycle. Construction cost: $50,000-500,000. Staff: 10-30 technicians for 24-hour operation. The minimum practical transmitter for reliable intercontinental communication is 5 kW with a well-engineered antenna.
 
@@ -210,7 +209,7 @@ Crystal receiver + low-power spark or tube transmitter (0.1-0.5 kW). Ship-to-sho
 - **Ozone and nitrogen oxides**: Spark gaps produce ozone (O3) and nitrogen oxides (NOx) from the air. These are lung irritants. Ventilate the transmitter room.
 - **RF burns**: Antenna terminals carry high-voltage RF during transmission. RF burns are deep and slow to heal. Never touch the antenna during transmission.
 
-### See Also
+## See Also
 
 - [Electrical Telegraph Networks](electric-telegraph.md) — Morse code and wire-based telegraph systems
 - [Telephone Systems](telephone.md) — wire-based voice communication

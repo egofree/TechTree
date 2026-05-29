@@ -7,11 +7,11 @@
 > **Timeline**: Years 25-40
 > **Outputs**: vacuum_measurement, leak_detection, rga_analysis, pressure_gauges
 
-### Vacuum Measurement & Leak Detection
+## Vacuum Measurement & Leak Detection
 
 For basic vacuum gauge descriptions (Bourdon, Pirani, ion gauge principles), see [Gas Handling: Vacuum](../gas-handling/vacuum.md). This document covers detailed gauge specifications, residual gas analysis, leak detection methodology, and vacuum system diagnostics.
 
-### Pressure Gauge Classification
+## Pressure Gauge Classification
 
 | Gauge Type | Measurement Range (Torr) | Measurement Range (Pa) | Principle | Gas-Dependent? |
 |---|---|---|---|---|
@@ -25,7 +25,7 @@ For basic vacuum gauge descriptions (Bourdon, Pirani, ion gauge principles), see
 | Bayard-Alpert (hot cathode) | 10⁻³ – 10⁻¹¹ | 0.1 – 10⁻⁹ | Electron impact ionization | Yes |
 | Spinning rotor | 10⁻² – 10⁻⁷ | 1 – 10⁻⁵ | Viscous drag on rotating ball | Mildly |
 
-### Gauge Specifications
+## Gauge Specifications
 
 **Capacitance diaphragm gauge (CDG)**:
 
@@ -89,14 +89,14 @@ For basic vacuum gauge descriptions (Bourdon, Pirani, ion gauge principles), see
 - **Advantages**: No hot filament (cannot burn out, rugged, can survive exposure to atmospheric pressure). Low power consumption. Used as a reliable indicator of high-vacuum conditions.
 - **Disadvantages**: "Ignition delay" at very low pressures — the discharge may take seconds to minutes to start below 10⁻⁵ Torr, during which the gauge reads zero (falsely indicating lower pressure than actual). Limited accuracy (±50-100%). Can create contamination — sputtered cathode material deposits on nearby surfaces.
 
-### Gauge Tubulation and Mounting
+## Gauge Tubulation and Mounting
 
 - **Connection location**: Mount gauges as close to the chamber as possible, on a short, wide tube. A gauge on a long, narrow tube reads a pressure that differs from the chamber pressure because of conductance-limited gas flow between chamber and gauge. For accurate readings: gauge tubulation ID ≥25 mm, length ≤50 mm.
 - **Orientation**: Bayard-Alpert gauges should be mounted with the filament horizontal or vertical (filament down). Avoid filament-up orientation — the hot filament creates convection currents that affect the ionization environment.
 - **Magnetic fields**: Ion gauges are sensitive to external magnetic fields (the electron trajectories in the gauge are affected). Keep ion gauges at least 30 cm from ion pumps, permanent magnets, or magnetically levitated turbopumps.
 - **Stray light**: Do not expose ion gauge tubes to strong light — UV photons can generate photoelectrons at the collector, adding to the signal and causing falsely high pressure readings. Shield the gauge from direct light.
 
-### Residual Gas Analyzer (RGA)
+## Residual Gas Analyzer (RGA)
 
 **Operating principle** (see also [Gas Handling: Vacuum](../gas-handling/vacuum.md) for basic RGA description):
 
@@ -144,7 +144,7 @@ The RGA is a miniature quadrupole mass spectrometer permanently mounted on the v
 
 5. **Contamination identification**: After a poor-quality deposition (e.g., hazy aluminum film), run an RGA scan. Hydrocarbon peaks (masses 15, 27, 29, 39, 41, 43, 55, 57) indicate oil contamination (from roughing pump backstreaming). Water peak (mass 18) indicates inadequate bake-out. Oxygen (mass 32) indicates air leak during deposition.
 
-### Leak Detection Methods
+## Leak Detection Methods
 
 **Helium mass spectrometer leak detection (primary method)**:
 
@@ -192,7 +192,7 @@ The helium leak detector is a dedicated mass spectrometer tuned to mass 4 (He), 
 
 **Ultrasonic leak detection**: Pressurize the system and scan with an ultrasonic detector (headphones + directional microphone tuned to 40 kHz). Gas flowing through a leak creates ultrasonic turbulence. Can detect leaks down to ~10⁻³ atm·cc/s. Useful for preliminary screening of large systems before He testing.
 
-### Vacuum System Diagnostics
+## Vacuum System Diagnostics
 
 **Pump-down curve analysis**: Log pressure vs. time during pump-down. Compare to expected curve. Deviations indicate problems:
 
@@ -219,7 +219,7 @@ The helium leak detector is a dedicated mass spectrometer tuned to mass 4 (He), 
 | Argon residual | Mass 40. From sputtering process gas or air leak. |
 | Hydrogen in UHV | Mass 2. From stainless steel outgassing (H₂ dissolved in bulk metal diffuses to surface). Dominant residual gas in baked stainless steel UHV systems. |
 
-### Gauge Calibration
+## Gauge Calibration
 
 **Primary standard — McLeod gauge**: Compresses a known volume of gas into a small capillary tube and measures the resulting pressure by the height of a mercury column. Provides an absolute pressure measurement (no calibration against another gauge needed). Range: 10 – 10⁻⁴ Torr. Accuracy: ±1-2%. Used as a transfer standard for calibrating other gauges. Being phased out due to mercury toxicity but remains the most accurate method for medium vacuum calibration.
 
@@ -232,19 +232,18 @@ The helium leak detector is a dedicated mass spectrometer tuned to mass 4 (He), 
 - Penning cold cathode: 12 months
 - RGA mass scale: 6 months (mass scale calibration using known peaks: He at 4, N₂ at 28, Ar at 40)
 
-### Gauge Protection
+## Gauge Protection
 
 - **Interlocking**: Connect the ion gauge controller to a relay that closes the gate valve if pressure exceeds a threshold (e.g., 10⁻³ Torr). This protects the ion gauge filament from burning out during a sudden pressure burst (e.g., load lock valve accidentally opened). The same interlock can trigger an audible alarm.
 - **Filament protection**: Never operate a Bayard-Alpert gauge above 10⁻³ Torr. The filament oxidizes rapidly in the presence of oxygen at high temperature. In process tools, install the ion gauge behind a throttle valve so that process pressure (which may be much higher than 10⁻³ Torr) does not reach the gauge.
 - **RGA protection**: Install a gate valve between the RGA and the chamber. Close this valve during chamber vent and during high-pressure process steps. The RGA filament and electron multiplier are expensive and fragile.
 
-### Safety
+## Safety
 
 - **Mercury gauges**: McLeod gauges and some manometers contain mercury. Mercury vapor is toxic (TLV 0.025 mg/m³). A broken mercury manometer in a vacuum lab requires professional hazmat cleanup. Use electronic gauges wherever possible. If mercury gauges must be used, install them in a ventilated enclosure with a mercury vapor trap on the exhaust.
 - **Ion gauge high voltage**: Bayard-Alpert gauges have 150-200 V on the grid and the filament runs at ~1800°C. Never touch the gauge connections while powered. Use insulated connectors. The gauge envelope is glass — handle carefully to avoid breakage.
 - **Penning gauge high voltage**: 2-5 kV between electrodes. Maintain clearances per electrical safety standards. The magnetic field from the permanent magnet can attract ferromagnetic objects (keep steel tools away from the gauge body).
 
----
 
 ## See Also
 
@@ -253,4 +252,5 @@ The helium leak detector is a dedicated mass spectrometer tuned to mass 4 (He), 
 - **[Vacuum Chambers & Sealing](chambers.md)**: Chamber design and virtual leak prevention
 - **[Measurement](../measurement/index.md)**: General measurement and instrumentation
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*
+
+[← Back to Vacuum](index.md)

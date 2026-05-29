@@ -21,7 +21,7 @@ Semiconductor fabrication equipment demands elastomeric seals, gaskets, O-rings,
 - [Vacuum technology](../gas-handling/vacuum.md) — vacuum seal requirements and outgassing
 - [Fluorine chemistry](../chemistry/index.md) — required for FKM and FFKM synthesis
 
-### Chemical Resistance Properties Table
+## Chemical Resistance Properties Table
 
 Comparison of elastomer resistance to chemicals encountered in semiconductor fabrication. Ratings: **A** = Excellent (<10% volume swell, suitable for continuous service), **B** = Good (10–30% swell, acceptable for intermittent use), **C** = Fair (30–60% swell, limited service life), **D** = Poor (>60% swell or chemical attack, not recommended), **F** = Fails (rapid degradation).
 
@@ -50,7 +50,7 @@ Comparison of elastomer resistance to chemicals encountered in semiconductor fab
 
 **PTFE note**: PTFE (Teflon) is included as a reference — it is chemically inert to virtually all process chemicals but is not an elastomer (it cold-flows under load, cannot function as a compression seal without backup). Used as a liner material rather than a sealing material.
 
-### O-Ring Selection for Semiconductor Wet Process Equipment
+## O-Ring Selection for Semiconductor Wet Process Equipment
 
 **Wet benches** (etching, cleaning, stripping stations that use concentrated acids and solvents):
 
@@ -76,7 +76,7 @@ Comparison of elastomer resistance to chemicals encountered in semiconductor fab
 - Silicone O-rings have higher outgassing than FKM (10⁻⁸ vs. 10⁻⁹ Torr·L/(s·cm²)) and are used only in non-critical vacuum applications.
 - Pre-baking vacuum O-rings at 150°C for 4–24 hours under vacuum removes adsorbed water and volatile compounds, reducing outgassing by 10–100×.
 
-### FKM Grades for Semiconductor Service
+## FKM Grades for Semiconductor Service
 
 **Standard FKM (Viton A)**: Copolymer of VDF + HFP. 66% fluorine. General-purpose chemical resistance. Service -20 to +200°C.
 
@@ -98,7 +98,7 @@ Comparison of elastomer resistance to chemicals encountered in semiconductor fab
 | Cost multiplier vs. NR | 20–50× | 100–500× | 10–30× |
 | Outgassing (Torr·L/s/cm²) | 1.5 × 10⁻⁹ | 5 × 10⁻¹⁰ | N/A |
 
-### Cleanroom-Compatible Elastomer Requirements
+## Cleanroom-Compatible Elastomer Requirements
 
 Elastomers used in semiconductor cleanrooms (ISO Class 4–6) must meet stringent cleanliness requirements:
 
@@ -115,7 +115,7 @@ Elastomers used in semiconductor cleanrooms (ISO Class 4–6) must meet stringen
 - Particle count per SEMI E49
 - Outgassing rate per SEMI E42
 
-### Chemical-Resistant Linings
+## Chemical-Resistant Linings
 
 Semiconductor wet benches and chemical distribution systems use elastomeric and fluoropolymer linings to protect structural materials from chemical attack:
 
@@ -125,7 +125,7 @@ Semiconductor wet benches and chemical distribution systems use elastomeric and 
 
 **FKM-lined components**: FKM sheet lining (3–6 mm) bonded to metal substrates with adhesive for chemical pump seals, valve bodies, and tank linings. Service to 200°C. Used for: wet bench process tanks, pump casings handling concentrated acids.
 
-### Vibration Isolation Pads
+## Vibration Isolation Pads
 
 Semiconductor fabrication equipment (steppers, scanners, electron microscopes, precision measurement tools) requires vibration isolation to sub-micron levels:
 
@@ -135,7 +135,7 @@ Semiconductor fabrication equipment (steppers, scanners, electron microscopes, p
 
 **Active vibration isolation**: Pneumatic air springs with servo-controlled pressure provide isolation below 1 Hz — required for lithography steppers and scanning electron microscopes. Air supply at 3–7 bar, response time <10 ms. The elastomeric air bag provides the spring element; a piezoelectric or electromagnetic actuator provides active damping.
 
-### Hose and Tubing for Chemical Distribution
+## Hose and Tubing for Chemical Distribution
 
 **PTFE-lined hoses**: PTFE inner tube (1.5–2.0 mm) with stainless steel braid reinforcement. Chemical resistance: universal. Pressure rating: 10–20 bar at 20°C. Bend radius: 10× hose diameter (stiffer than rubber hoses). Used for: concentrated acid distribution in semiconductor fabs.
 
@@ -143,7 +143,7 @@ Semiconductor fabrication equipment (steppers, scanners, electron microscopes, p
 
 **EPDM hoses**: Standard for UPW distribution and dilute chemical transfer. Low extractable levels when properly compounded. Temperature range: -50 to +150°C. Cost: 3–5× less than FKM hoses.
 
-### Material Selection Decision Tree
+## Material Selection Decision Tree
 
 1. **Is the seal for vacuum service?**
    - Yes → Go to 2
@@ -168,7 +168,7 @@ Semiconductor fabrication equipment (steppers, scanners, electron microscopes, p
    - Cleanroom (ISO 6) → Low-extractable grade FKM, pre-cleaned
    - Critical wet bench → FFKM (Kalrez) or PTFE-lined, certified to SEMI F57
 
-### Bill of Materials
+## Bill of Materials
 
 | Material | Grade | Application | Notes |
 |---|---|---|---|
@@ -194,9 +194,8 @@ Semiconductor fabrication equipment (steppers, scanners, electron microscopes, p
 | PTFE liner cold-flow failure | Sustained pressure >10 bar at elevated temperature | Add metal reinforcement; reduce operating pressure; consider PVDF alternative |
 | FKM failure in acetone/NMP service | FKM is incompatible with ketones and esters (F-rating) | Switch to EPDM (A-rated for acetone/NMP) or PTFE-encapsulated |
 
----
 
-### See Also
+## See Also
 
 - [Rubber Production](rubber.md) — overview of rubber and elastomer manufacturing
 - [Vulcanization](rubber.vulcanization.md) — cross-linking parameters and hardness scales

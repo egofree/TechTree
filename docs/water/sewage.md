@@ -8,7 +8,7 @@
 > **Outputs**: treated_wastewater, sewage_disposal, biogas
 > **Critical**: Yes — cholera epidemics in 19th-century cities demonstrated that sewage management is a prerequisite for urban civilization at any scale
 
-## 1. Overview
+## Overview
 
 Collection, conveyance, and treatment of wastewater and sewage. In any settled community, the volume of wastewater generated (drinking, cooking, washing, latrine flush) rapidly contaminates surface and groundwater sources if not managed. Cholera epidemics in 19th-century cities demonstrated that sewage management is not optional — it is a prerequisite for urban civilization at any scale.
 
@@ -16,27 +16,27 @@ A community of 1,000 people generates approximately 50-200 m³ of wastewater per
 
 This capability covers the full range of sewage management from pit latrines (achievable from Year 0) through activated sludge treatment (requiring industrial infrastructure).
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 - [Cement and concrete](../chemistry/cement.md) — for tanks, pipes, and treatment structures
 - [Clay pipes](../ceramics/kilns.md) or [cast iron pipes](../metals/iron-steel.md) — for sewer networks
 - Stone or brick — for tank and basin construction
 
-### Tools
+## Tools
 - Surveying instruments for pipe gradient control
 - Digging tools for trench excavation
 - Concrete forming and pouring tools
 
-### Knowledge
+## Knowledge
 - Basic hydraulics (flow, gradient, friction)
 - Understanding of disease transmission pathways
 - Anaerobic digestion principles
 
-### Infrastructure
+## Infrastructure
 - [Water distribution](distribution.md) system (sewage volume correlates with water supply volume)
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity per 1,000 people | Source | Alternatives |
 |----------|--------------------------|--------|-------------|
@@ -45,9 +45,9 @@ This capability covers the full range of sewage management from pit latrines (ac
 | Gravel for leach fields | 10-50 m³ | Quarry or river | Crushed stone |
 | Sand for filter beds | 20-100 m³ | Quarry or river | No substitute |
 
-## 4. Process Description
+## Process Description
 
-### Pit Latrines
+## Pit Latrines
 
 The most basic sanitation facility. Achievable from Year 0 with no prerequisites beyond digging tools.
 
@@ -80,7 +80,7 @@ The most basic sanitation facility. Achievable from Year 0 with no prerequisites
 - Requires periodic relocation or manual emptying
 - Does not treat wastewater — only contains solids
 
-### Septic Tanks
+## Septic Tanks
 
 On-site treatment for settlements too small or dispersed for sewer networks.
 
@@ -111,7 +111,7 @@ On-site treatment for settlements too small or dispersed for sewer networks.
 - Requires periodic desludging (tank must be accessible to pump truck or manual labor)
 - Nutrient removal minimal — nitrogen and phosphorus pass through
 
-### Simplified Sewerage
+## Simplified Sewerage
 
 Low-cost sewer networks for dense settlements.
 
@@ -141,7 +141,7 @@ Low-cost sewer networks for dense settlements.
 - Requires downstream treatment facility
 - Not gravity-feasible in very flat terrain without lift stations
 
-### Waste Stabilization Ponds
+## Waste Stabilization Ponds
 
 The simplest secondary treatment — large shallow ponds relying on natural biological processes. Ideal for early-stage civilization.
 
@@ -175,7 +175,7 @@ The simplest secondary treatment — large shallow ponds relying on natural biol
 - Odor from anaerobic zones (setback distance 200+ m from housing)
 - Mosquito breeding if embankments are not maintained
 
-### Activated Sludge Process
+## Activated Sludge Process
 
 The most common secondary treatment method in industrialized nations. Requires energy and mechanical equipment.
 
@@ -205,7 +205,7 @@ The most common secondary treatment method in industrialized nations. Requires e
 - Produces large volumes of waste sludge requiring treatment
 - Not feasible without reliable electricity
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
 | Parameter | Pit latrine | Septic tank | Stabilization pond | Activated sludge |
 |-----------|------------|------------|-------------------|-----------------|
@@ -217,14 +217,14 @@ The most common secondary treatment method in industrialized nations. Requires e
 | Skill level | Very low | Low | Low | High |
 | Scale | Household | Household | Community+ | Town+ |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Household scale** (1-10 people): Pit latrine or septic tank. No external infrastructure. Cost: $5-500.
 - **Village scale** (50-500 people): Simplified sewerage to stabilization ponds. Requires community organization for construction and maintenance. Cost: $5,000-50,000.
 - **Town scale** (2,000-20,000 people**: Sewer network with trickling filter or activated sludge treatment. Requires organized water utility and continuous power. Cost: $500,000-5,000,000.
 - **City scale** (100,000+ people): Full sewer network with activated sludge and anaerobic sludge digestion (produces biogas: 60-70% methane). Requires industrial-scale infrastructure.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -235,7 +235,7 @@ The most common secondary treatment method in industrialized nations. Requires e
 | Biogas production low from digester | Temperature below 30°C; toxic inhibition (heavy metals, antibiotics); insufficient retention time | Heat digester to 35°C (mesophilic range). Test feed for toxic compounds. Increase retention time to 15-30 days. |
 | Sewer gas (H₂S) in buildings | Dry P-trap allowing gas to pass; blocked vent pipe; cracked sewer pipe | Pour water into all drains to refill P-traps. Clear vent pipes on roof. Inspect and repair cracked pipes. H₂S at 100 ppm is immediately dangerous; at 10 ppm causes eye irritation. |
 
-## 8. Safety
+## Safety
 
 - **Hydrogen sulfide (H₂S)**: Sewer gas is a lethal hazard. H₂S paralyzes the olfactory nerve at concentrations above 100 ppm — victims cannot smell it and lose consciousness rapidly. IDLH: 100 ppm. Fatal at 300-500 ppm for 5-10 minutes. Never enter a confined sewer space without testing with a gas detector or lowered candle. Ventilate before entry. Use a safety harness with a surface attendant.
 - **Sewage pathogens**: Raw sewage contains 10⁶-10⁸ fecal coliforms per 100 mL. Contact with broken skin or mucous membranes transmits disease. Wear waterproof gloves and boots when handling sewage or maintenance equipment. Wash hands thoroughly after any contact.
@@ -243,21 +243,21 @@ The most common secondary treatment method in industrialized nations. Requires e
 - **Gases in deep manholes**: Carbon dioxide (heavier than air, displaces oxygen), methane (lighter, explosive), and hydrogen sulfide all accumulate in deep manholes. Test atmosphere before entry. If a lowered candle extinguishes, the atmosphere will not support human respiration.
 - **Structural collapse**: Deep excavation for sewer trenches and tank construction is subject to cave-in. Shore any trench deeper than 1.5 m. Keep spoil piles at least 0.5 m back from trench edge.
 
-## 9. Quality Control
+## Quality Control
 
 - **BOD test**: Measure biochemical oxygen demand of influent and effluent. Target: <30 mg/L BOD in effluent (95% reduction from raw sewage at 200-400 mg/L). Standard 5-day BOD test (BOD₅) requires incubation at 20°C for 5 days.
 - **Suspended solids**: Target <30 mg/L total suspended solids in effluent. Simple gravimetric test: filter a known volume through a pre-weighed filter paper, dry at 105°C, re-weigh.
 - **Fecal coliforms**: Target <1,000 per 100 mL for stabilization pond effluent. Membrane filtration test: filter sample, incubate on selective media at 44.5°C for 24 hours, count colonies.
 - **Visual inspection**: Treated effluent should be light green (from algae in ponds) or clear (from activated sludge). Dark grey or black indicates inadequate treatment. Regular checks of pond color, aeration tank foam, and clarifier clarity provide early warning of process upsets.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 - **Trickling filters**: Lower energy alternative using beds of stone or plastic media. Sewage trickles over the stone surface; biological film consumes organic matter. Removes 70-90% BOD. Energy: only pumping to the top of the filter. Advantage over activated sludge: no aeration blowers. Limitation: less controllable, fly and odor nuisance if overloaded.
 - **Anaerobic digestion**: Heated (35°C) enclosed tanks digest primary and waste activated sludge. 15-30 day retention. Produces biogas (60-70% methane) usable for heating and power generation. Reduces sludge volume by 30-50%. Valuable co-product: biogas at 22 MJ/m³ heating value.
 - **Constructed wetlands**: Emergent aquatic plants (reed, cattail, bulrush) growing in gravel beds treat wastewater through plant uptake and rhizosphere microbial activity. BOD removal 70-90%, pathogen removal 90-99%. Land area: 2-5 m² per person. Aesthetic and ecological co-benefits.
 - **Composting toilets**: Waterless systems that aerobically decompose feces and urine with carbon-rich bulking material (sawdust, straw). Produces compost suitable for non-food agriculture. No water or sewer infrastructure required. Suitable for water-scarce areas.
 
-## 11. References
+## References
 
 - [Water Distribution](distribution.md) — pipe and channel construction skills transfer to sewage collection
 - [Chemistry: Cement & Concrete](../chemistry/cement.md) — tanks, pipes, and treatment structures
@@ -265,5 +265,5 @@ The most common secondary treatment method in industrialized nations. Requires e
 - [Health: Sanitation](../health/sanitation.md) — sewage treatment is the infrastructure backbone of public sanitation
 - [Agriculture](../agriculture/index.md) — treated effluent and composted sludge for irrigation and fertilization
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*
+
+[← Back to Water](index.md)

@@ -8,7 +8,7 @@
 > **Outputs**: viable_seed, adapted_varieties, seed_stock
 > **Critical**: Yes — without saved seed, each growing season depends on finding wild seed; saved seed is the foundation of agricultural continuity
 
-## 1. Overview
+## Overview
 
 Seed saving is the practice of harvesting, processing, drying, storing, and testing seeds from one growing season to plant in the next. It is the oldest biotechnology: for 10,000+ years, every farmer on Earth was a seed saver and plant breeder. The transition from wild seed gathering to deliberate seed saving and selection marks the beginning of agriculture itself. Without saved seed, each generation of crops must be re-established from wild populations — a process that wastes a growing season and loses any genetic improvements made by previous selection.
 
@@ -18,7 +18,7 @@ The critical constraint is viability. Seeds are living organisms in a dormant st
 
 Position in the dependency chain: seed saving builds on [Foundations → Agriculture](../foundations/food-agriculture.md) (basic cultivation and harvest) and supports every other agriculture capability — [Crop Rotation](crop-rotation.md) requires diverse seed stocks, [Pest Management](pest-management.md) depends on locally adapted pest-resistant varieties, and [Irrigation](irrigation.md) needs crops adapted to irrigated conditions.
 
-## 2. Prerequisites
+## Prerequisites
 
 **Materials**:
 - Mature, healthy crop plants from which to save seed
@@ -46,9 +46,9 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 - Cool, dark storage location (cellar, underground pit, or cool room)
 - Isolation distances between varieties to prevent cross-pollination (varies by crop: 15-1,500 m)
 
-## 3. Bill of Materials
+## Bill of Materials
 
-### Seed Processing Station (Annual, Multi-Crop)
+## Seed Processing Station (Annual, Multi-Crop)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -60,7 +60,7 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 | Desiccant (dry wood ash) | 1-5 kg | [Fire-Making](../foundations/fire.md) | Charcoal powder, dry sand, dried leaves |
 | Labeling material | As needed | Wooden tags, cloth strips | Scratched marks on containers |
 
-### Germination Test Kit
+## Germination Test Kit
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -69,9 +69,9 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 | Water | As needed | [Water Procurement](../water/procurement.md) | — |
 | Counting markers (pebbles or beans) | 100 | On-site | Tally marks on wood |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Selection: Choosing Which Plants to Save Seed From
+## 4.1 Selection: Choosing Which Plants to Save Seed From
 
 1. **Mark superior plants during the growing season**: Before harvest, walk the field and identify the best plants. Tie a colored cord or attach a tag to each selected plant. Selection criteria vary by crop and local priorities:
    - **Yield**: Most grain per plant, most pods per bean plant, largest heads on cabbage
@@ -92,7 +92,7 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 - Subjective judgment — different selectors may choose different plants based on visual assessment
 - Slow feedback loop — the results of selection are not visible until the following generation is grown
 
-### 4.2 Harvesting Seed
+## 4.2 Harvesting Seed
 
 1. **Wait for full maturity**: Seed must be fully mature before harvest. Indicators by crop:
    - **Grains (wheat, barley, rye)**: Seed heads dry and brittle, grain hard (cracks when bitten), no green color
@@ -113,7 +113,7 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 - Seed shattering in brassicas and small grains causes 5-20% seed loss even with careful timing
 - Requires daily monitoring of seed maturity during the harvest window (labor cost: 30-60 minutes per hectare)
 
-### 4.3 Processing Seed
+## 4.3 Processing Seed
 
 **For dry-seeded crops (grains, legumes, brassicas)**:
 
@@ -148,7 +148,7 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 - Wet processing uses significant water (20-50 L per 10 kg of fruit)
 - Limited to a few crop families (Solanaceae, Cucurbitaceae) — not applicable to most staple grains
 
-### 4.4 Drying Seed to Storage Moisture
+## 4.4 Drying Seed to Storage Moisture
 
 1. **Spread seed in a thin layer** (1-2 cm deep) on drying screens in a warm (25-35°C), dry, well-ventilated location. Do NOT dry seed in direct sun at temperatures above 35°C — high temperature kills embryos. Shade-dry or indirect sun only.
 2. **Stir daily** to ensure even drying. Seeds on the edges of the screen dry faster than those in the center.
@@ -168,7 +168,7 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 - Humid tropical conditions make it difficult to reach 8% moisture without a dehydrator or solar dryer
 - Daily stirring requirement means the drying area must be checked every day for 5-14 days
 
-### 4.5 Storage
+## 4.5 Storage
 
 1. **Select container**: Airtight clay jar with tight-fitting lid, sealed gourd, or wooden box with clay-sealed lid. The container must exclude moisture and insects.
 2. **Add desiccant (recommended)**: Place a cloth bag of dry wood ash or charcoal (100-200 g per 10 L container) in the bottom of the storage container. Ash absorbs residual moisture.
@@ -186,7 +186,7 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 - Cool, dark storage space is limited in tropical and subtropical regions
 - Rodent and insect damage to stored seed can destroy an entire season's supply if containers are breached
 
-### 4.6 Germination Testing
+## 4.6 Germination Testing
 
 Test seed viability 2-4 weeks before planting season. Do not plant untested seed.
 
@@ -208,9 +208,9 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 - Destructive test (seeds used for germination testing cannot be planted afterward)
 - Environmental conditions during the test (temperature fluctuations, drying out) can produce misleading results
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Seed Viability Period by Species (Proper Storage: 5°C, 40% RH, Dark)
+## Seed Viability Period by Species (Proper Storage: 5°C, 40% RH, Dark)
 
 | Crop | Viability (years) | Germination Rate Year 1 (%) | 50% Viability (years) | Notes |
 |------|-------------------|----------------------------|----------------------|-------|
@@ -235,7 +235,7 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 | Sunflower | 3-5 | 85-90 | 4 | Large seed, vulnerable to insect damage |
 | Cotton | 3-5 | 80-85 | 3-4 | Seeds contain oil, rancidity risk |
 
-### Storage Conditions and Seed Lifespan
+## Storage Conditions and Seed Lifespan
 
 | Storage Condition | Temperature (°C) | Relative Humidity (%) | Estimated Lifespan (years, wheat) |
 |-------------------|-----------------|----------------------|----------------------------------|
@@ -247,7 +247,7 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 
 **Rule of thumb**: The sum of storage temperature (°C) and relative humidity (%) should be below 60 for good seed storage. Below 40 is excellent.
 
-### Isolation Distances to Prevent Cross-Pollination
+## Isolation Distances to Prevent Cross-Pollination
 
 | Crop | Pollination Mode | Minimum Isolation Distance (m) | Notes |
 |------|-----------------|-------------------------------|-------|
@@ -266,7 +266,7 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 | Sunflowers | Cross (insects) | 300-500 | — |
 | Beets / chard | Cross (wind) | 800-1,000+ | Wind-blown pollen, extreme distances needed |
 
-### Seed Production Rates (How Much Seed to Save)
+## Seed Production Rates (How Much Seed to Save)
 
 | Crop | Seed Yield per Plant | Plants Needed for Next Season (1 ha) | % of Harvest to Reserve for Seed |
 |------|---------------------|--------------------------------------|---------------------------------|
@@ -279,7 +279,7 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 | Squash | 20-100 g | Need 1-3 kg seed/ha → 10-150 plants | 2-5 fruits for seed |
 | Maize | 80-200 g | Need 15-25 kg seed/ha → 75-310 plants | 5-8% of ears |
 
-### Germination Test Parameters by Crop
+## Germination Test Parameters by Crop
 
 | Crop | Temperature (°C) | Days to First Germination | Days to Final Count | Minimum Acceptable Germination (%) |
 |------|-----------------|--------------------------|--------------------|-----------------------------------|
@@ -296,7 +296,7 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 | Onion | 20 | 5-10 | 14 | 70 |
 | Lettuce | 15-20 | 3-5 | 10 | 80 |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 **Household seed saving (garden-scale)**: Save seed from 5-20 plants per crop. Process by hand, dry on screens in the sun (shaded), store in small clay pots or paper envelopes. Germination test with 20-50 seeds. Labor: 2-4 hours per crop per year. This is sufficient for household food production continuity.
 
@@ -308,7 +308,7 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 
 **Key bottleneck**: Maintaining genetic diversity. Saving seed from too few plants causes genetic drift (loss of alleles by chance) and inbreeding depression (reduced vigor from homozygosity). The minimum effective population size varies: 20+ plants for self-pollinators, 80-100+ for outcrossers. Below these thresholds, each generation loses 1-5% of genetic variability.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -321,7 +321,7 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 | Hybrid seed producing variable offspring | Saved seed from F1 hybrid plants | Only save seed from open-pollinated varieties; mark hybrid plantings clearly; accept variability if F1 seed is the only option (stabilize by selecting over 5-7 generations) |
 | Birds or animals eating seed in the field | Seed heads exposed during drying phase | Cover seed heads with netting or cloth bags as they mature; harvest promptly at maturity; dry indoors |
 
-## 8. Safety
+## Safety
 
 - **Seed treatment chemicals**: This guide covers only untreated seed. If fungicide-treated seed (pink or blue coating) is encountered, do not eat it, feed it to animals, or handle it without gloves. Treated seed is for planting only.
 - **Moldy seed**: Seeds with visible mold (white, green, black, or pink growth) may contain mycotoxins. Do not eat moldy seed. Do not feed to livestock without testing. Discard or compost heavily moldy seed. Handle with gloves — inhalation of mold spores causes respiratory irritation and allergic reactions.
@@ -329,9 +329,9 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 - **Physical injury during threshing**: Flails, beating sticks, and winnowing baskets create dust. Wear a cloth mask over nose and mouth during threshing to avoid inhaling grain dust (causes respiratory irritation and can trigger asthma). Use gloves to prevent blisters during prolonged flail use.
 - **Heavy lifting**: Full seed storage containers (50 L clay jar of grain: 30-40 kg). Lift with legs, not back. Use two-person carry for containers above 25 kg. Store containers at waist height when possible to avoid bending and reaching.
 
-## 9. Quality Control
+## Quality Control
 
-### Seed Quality Standards
+## Seed Quality Standards
 
 | Parameter | Acceptable | Reject | Test Method |
 |-----------|-----------|--------|-------------|
@@ -342,14 +342,14 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 | Seed-borne disease | No visible mold, discoloration, or ergot | Any mold, discoloration, or ergot sclerotia | Visual inspection under good light |
 | Physical damage (cracked, split, insect-bored seeds) | <3% of sample | >5% | Inspect 200-seed random sample under magnification |
 
-### Germination Record Template
+## Germination Record Template
 
 | Batch ID | Crop | Variety | Harvest Date | Test Date | Seeds Tested | Germinated Day 3 | Germinated Day 7 | Total Germinated | Germination % | Action |
 |----------|------|---------|-------------|-----------|-------------|-----------------|-----------------|----------------|---------------|--------|
 | W-2026-01 | Wheat | Local landrace | Aug 2026 | Feb 2027 | 100 | 65 | 22 | 87 | 87% | Plant at normal rate |
 | B-2026-01 | Beans | Red kidney | Sep 2026 | Feb 2027 | 50 | 20 | 15 | 35 | 70% | Increase seeding rate 50% |
 
-### Selection Record Template
+## Selection Record Template
 
 | Crop | Year | Selection Criteria | Plants Selected | Population Size | Selection Intensity | Notes |
 |------|------|-------------------|----------------|----------------|--------------------|-------|
@@ -357,9 +357,9 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 | Beans | 2026 | Most pods, no disease symptoms | 40 | 300 | 13% | Selected for resistance to anthracnose |
 | Tomato | 2026 | Largest fruit, best flavor, early ripening | 25 | 150 | 17% | 3rd year of selection; flavor improving |
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Seed Processing Methods by Crop Type
+## Seed Processing Methods by Crop Type
 
 | Crop Type | Threshing Method | Cleaning Method | Special Handling |
 |-----------|-----------------|----------------|-----------------|
@@ -372,7 +372,7 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 | Root crops (carrot, beet) | Hand-rub dry umbels | Sieve + winnow | Biennial — must overwinter to produce seed |
 | Alliums (onion, leek) | Hand-rub dry flower heads | Sieve + winnow | Very short-lived seed — save fresh annually |
 
-### Emergency Seed Preservation
+## Emergency Seed Preservation
 
 In a crisis (impending crop failure, seed stock at risk), these shortcuts preserve viability:
 
@@ -383,7 +383,7 @@ In a crisis (impending crop failure, seed stock at risk), these shortcuts preser
 | Salt/sand burial | Seal dried seed in clay pot, bury 50+ cm deep below frost line | Cool, stable temperature | Must mark and remember location; flooding risk |
 | Seed balls (mud coating) | Mix seed with clay soil, form 2-3 cm balls, dry hard | Protects from rodents, birds | Lower germination rate; use for restoration, not primary seed stock |
 
-### Long-Term Seed Preservation Strategies
+## Long-Term Seed Preservation Strategies
 
 | Strategy | Implementation | Genetic Diversity Maintained | Labor |
 |----------|---------------|------------------------------|-------|
@@ -392,7 +392,7 @@ In a crisis (impending crop failure, seed stock at risk), these shortcuts preser
 | Variety collection | Maintain 5-10 varieties of each staple crop | Maximum diversity; breeding material | Each variety needs isolation and separate processing |
 | Community seed bank | Centralized cool storage with shared inventory | Pool of diverse genetics accessible to all | Requires governance and trust |
 
-## 11. References
+## References
 
 - [Foundations → Agriculture & Food Production](../foundations/food-agriculture.md) — basic grain cultivation, harvesting, and storage
 - [Agriculture → Crop Rotation](crop-rotation.md) — diverse seed stock requirements for rotation systems
@@ -403,6 +403,6 @@ In a crisis (impending crop failure, seed stock at risk), these shortcuts preser
 - [Ceramics → Pottery](../ceramics/pottery.md) — clay storage vessels and processing equipment
 - [Plants → Edible Plants](../plants/edible-plants.md) — crop species identification and wild seed collection
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*
+
+[← Back to Agriculture](index.md)

@@ -29,7 +29,7 @@
 
 ## Process Description
 
-### Writing System Development
+## Writing System Development
 
 **Alphabet design**:
 - Create a **[phonetic alphabet](../glossary/phonetic-alphabet.md)** of 20-30 symbols, each representing one sound (consonant or vowel). Phonetic systems are far more compact and learnable than logographic systems (one symbol per word) or syllabic systems (one symbol per syllable).
@@ -47,7 +47,7 @@
 - Technical notation symbols must be agreed upon before any two workshops can exchange unambiguous specifications
 - Numerals and mathematical operators are abstract conventions with no self-evident meaning — every new reader must be explicitly taught the notation system
 
-### Historical Development of Writing Systems
+## Historical Development of Writing Systems
 
 **[Cuneiform development](../glossary/cuneiform-development.md)** (Mesopotamia, ~3400 BCE onward):
 - **[Proto-cuneiform](../glossary/proto-cuneiform.md)** (~3400-3000 BCE): Sumerian pictographic impressions on clay tablets for administrative record-keeping — livestock counts, grain disbursements, tax receipts. Approximately 900 distinct signs, each representing a commodity or numeric concept. Stylus: reed cut to produce wedge-shaped impressions (Latin *cuneus* = wedge).
@@ -71,7 +71,7 @@
 - Logographic systems (Chinese) require thousands of symbols, making literacy a years-long commitment that limits the educated population
 - Spoken language drift means historical documents become progressively harder to read — Sumerian was a dead language within centuries of the last native speakers
 
-### Writing Surfaces & Materials
+## Writing Surfaces & Materials
 
 **Clay tablets**:
 - **Preparation**: Knead fine clay (no grit or organic matter) to uniform consistency. Form into flat tablets (palm-sized for receipts, up to 40×30 cm for administrative records). Write with a reed stylus cut to triangular cross-section — press the corner into wet clay to produce wedge-shaped marks. Multiple strokes combine into signs.
@@ -112,7 +112,7 @@
 - Parchment requires animal skins (1 sheep = 2-4 pages), creating a high per-page cost and competing with food production for livestock
 - Paper is susceptible to moisture, mold, insects, and fire — requires controlled storage conditions (18-22°C, 40-55% RH) for long-term survival
 
-### Writing Instruments & Tools
+## Writing Instruments & Tools
 
 **Reed pen (calamus)**:
 - Cut from large reeds (*Arundo donax* or *Phragmites communis*). Harvest in autumn, season for several months. Cut to 15-25 cm length. Shape nib: flatten the end, cut a slit 1-2 cm long from the tip (the slit acts as an ink reservoir via capillary action), then cut the tip to a chisel or pointed shape. Reed pens wear down quickly — resharpen every 2-3 pages. Used with ink on papyrus and parchment. Standard writing instrument for 3000+ years in the Mediterranean and Near East.
@@ -136,7 +136,7 @@
 - Steel nib production requires wire-drawing and stamping infrastructure — unavailable at the earliest bootstrap stages
 - Brush writing requires practiced hand control for consistent strokes — longer learning curve than pen-based instruments for technical drawing
 
-### Ink Formulation & Technical Drawing
+## Ink Formulation & Technical Drawing
 
 **Ink production**:
 - **[Iron gall ink](../glossary/iron-gall-ink.md)** (permanent, archival): Dissolve 40 g iron sulfate (FeSO₄·7H₂O, green vitriol) in 200 mL water. Separately, extract tannic acid by soaking 30 g crushed oak galls in 200 mL warm water for 24 hours. Mix solutions. Add 20 g gum arabic (acacia tree sap — binder, controls flow and adhesion). Ink starts pale gray, darkens to deep black as iron-tannate complex oxidizes over 1-2 days. Permanent on parchment and paper — chemically bonds to cellulose. THE standard writing ink of Western civilization for 1500+ years.
@@ -158,7 +158,7 @@
 - Iron sulfate (green vitriol) requires specific chemical preparation — not as simply sourced as carbon soot from a lamp
 - Sepia ink supply depends on cuttlefish fishing — limited and seasonally variable, making it impractical as a primary ink
 
-### Record Keeping
+## Record Keeping
 
 **Process recipes**: For every critical process, record:
 - Input materials and quantities (with units)
@@ -201,7 +201,7 @@
 - Failure logs require a culture of honesty about mistakes — organizations that punish failure produce incomplete or falsified logs
 - Maintaining comprehensive material property tables requires testing equipment and standardized measurement procedures
 
-### Early Record-Keeping Systems
+## Early Record-Keeping Systems
 
 **[Clay token system](../glossary/clay-token-system.md)** (~8000 BCE, Near East):
 - Before writing, Mesopotamian communities used small clay tokens (geometric shapes — spheres, cones, disks, tetrahedra) to represent commodities: one sphere = one measure of grain, one cone = one jar of oil, one cylinder = one animal. Tokens sealed inside a hollow clay envelope (*bulla*) served as a contract or receipt — the tokens inside recorded the quantity, and the bulla's exterior could be impressed with the seals of the parties involved.
@@ -211,7 +211,7 @@
 - The impressions on bullae evolved into systematic marks on flat clay tablets — the beginning of proto-cuneiform. The transition from three-dimensional tokens to two-dimensional impressed marks is the origin of abstract written numbers and commodity symbols. Within 300 years, these marks evolved from simple quantity records to full administrative accounts listing commodities, parties, dates, and transactions.
 - **Administrative revolution**: Writing enabled the management of large-scale economies — temple granaries distributing rations to thousands of workers, taxation of agricultural production, long-distance trade contracts. Without writing, societies larger than a few thousand people cannot maintain complex economic organization. Writing is therefore not merely a cultural achievement but a prerequisite for urban civilization.
 
-### Scribal Training & Literacy
+## Scribal Training & Literacy
 
 **[Scribal education](../glossary/scribal-education.md)** (ancient model):
 - Training began in childhood (age 8-12). Student copied model texts repeatedly: first individual signs, then sign combinations, then complete compositions. Progressed from simple lists (vocabulary, metrological tables) to complex documents (legal contracts, mathematical problems, literary works).
@@ -229,7 +229,7 @@
 - Literacy rates of 1-5% (historical norm without mass education) severely limit the pool of people who can read technical documents
 - Technical literacy (reading drawings, formulas, notation) is an additional layer beyond basic reading — requires specialized instruction that few practitioners can provide
 
-### Numeracy & Mathematical Notation
+## Numeracy & Mathematical Notation
 
 **Development of numerical systems**:
 - **[Tally marks](../glossary/tally-marks.md)** (~40,000 BCE): Notched bones (Ishango bone, Lebombo bone) — earliest known counting records. One mark per item. Limited to small numbers, no arithmetic.
@@ -245,7 +245,7 @@
 - **Chemical notation**: Berzelius, 1814 — letter symbols for elements (H, O, C, Fe), subscript numbers for proportions (H₂O, Fe₂O₃). Molecular formulas convey exact chemical composition in minimal space. Structural formulas (Kekulé, 1865) add spatial arrangement — essential for organic chemistry.
 - **Engineering drawing conventions**: Third-angle or first-angle projection (standardize one — third-angle is conventional in North America, first-angle in Europe). Hatching for section cuts. Dimension lines with arrows. Tolerance notation (±0.05 mm). Surface finish symbols (Ra values). All of these must be standardized before any two workshops can exchange manufacturing specifications.
 
-### Writing Systems Comparison
+## Writing Systems Comparison
 
 **[Logographic vs. syllabic vs. alphabetic](../glossary/logographic-vs-syllabic-vs-alphabetic.md)** — choosing a system for bootstrap:
 
@@ -274,7 +274,7 @@
 - Punctuation and decimal conventions vary between cultures (decimal point vs. comma) — choosing one requires enforcing it consistently or risking calculation errors
 - Chemical element symbols (Fe, Cu, Si) are arbitrary conventions with no self-evident meaning — every practitioner must memorize the symbol set
 
-### Sealing, Authentication & Documents
+## Sealing, Authentication & Documents
 
 **Seal systems**:
 - **[Cylinder seals](../glossary/cylinder-seals.md)** (Mesopotamia, ~3500 BCE): Small cylinder of stone or shell (~2-3 cm long, 1-1.5 cm diameter) carved in reverse with a unique design. Rolled across wet clay to leave a continuous impressed frieze — serves as signature, authentication mark, and tamper evidence. Each seal is unique to its owner. Seals were worn on a cord around the neck and were among the most valued personal possessions. Applied to clay tablet envelopes, jar stoppers, and door lugs (clay tags sealing doors — if the seal is broken, the room has been entered).
@@ -295,11 +295,11 @@
 - Wax seals are fragile — heat softens wax, cracking breaks the seal, and rough handling damages the impression
 - Standard forms require [Printing](printing.md) infrastructure for mass production; hand-drawn forms are slow and inconsistent
 
-### Printing & Book Production
+## Printing & Book Production
 
 For paper production, movable type, press construction, typesetting, printing ink, bookbinding, and mass production of text, see [Printing & Book Production](printing.md).
 
-### Writing System Preservation & Archival Stability
+## Writing System Preservation & Archival Stability
 
 **Clay tablet durability**: Fired clay tablets represent the most durable writing medium in human history. The ~500,000 surviving cuneiform tablets from Mesopotamia, many readable after 4000+ years, testify to ceramic permanence. Tablets fired to 800-1000°C become chemically stable and resistant to water, insects, mold, and fire (they are already fired ceramic). The main degradation mechanisms are physical breakage and salt efflorescence in humid conditions. Storage recommendation: stable temperature 15-25°C, relative humidity 40-50%, flat on shelves with padding to prevent edge chipping.
 
@@ -319,9 +319,8 @@ For paper production, movable type, press construction, typesetting, printing in
 - Acidic paper (groundwood pulp) self-destructs within 50-100 years — the majority of mass-produced paper from 1850-1990 is already brittle
 - Digital formats have short proven lifespans (10-30 years for magnetic media) and risk format obsolescence — digitization supplements but cannot replace physical media
 
----
 
-### Cross-Domain Dependencies
+## Cross-Domain Dependencies
 
 - Writing enables [Education](../knowledge/education.md) and all technical knowledge transfer. Clay fired in [Kilns](../ceramics/kilns.md). Ink related to [Dyeing](../textiles/dyeing.md). Mass reproduction via [Printing](../knowledge/printing.md).
 
@@ -345,6 +344,6 @@ For paper production, movable type, press construction, typesetting, printing in
 - [Education](education.md) — literacy training and knowledge transfer
 - [Chemistry](../chemistry/index.md) — ink formulation, solvent production
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*
+
+[← Back to Knowledge](index.md)

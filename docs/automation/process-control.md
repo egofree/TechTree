@@ -22,7 +22,7 @@ A semiconductor wafer undergoes 400-700 individual process steps over 4-8 weeks 
 | New process with unknown parameter sensitivities | Design of Experiments (DOE) + FMEA | Systematically explore parameter space before production commitment |
 | Critical dimension with tight tolerance (±2 nm) | R2R + FDC + inline metrology | Layered defense: FDC catches acute faults, R2R compensates chronic drift |
 
-### Implementation Steps
+## Implementation Steps
 
 1. **Define process flows in MES**: Enter complete fabrication sequence (800-1,000 steps) with tool type, recipe, and qualification requirements for each operation
 2. **Deploy recipe management**: Load approved recipes into MES with version control, approval workflows, and safety limit enforcement
@@ -31,7 +31,7 @@ A semiconductor wafer undergoes 400-700 individual process steps over 4-8 weeks 
 5. **Implement R2R control**: For CMP (thickness) and lithography (CD), connect post-process metrology to R2R controller with EWMA algorithm. Start with λ=0.2
 6. **Establish equipment qualification**: Define IQ/OQ/PQ protocols for each tool type. Schedule monitor wafers at regular intervals (every 100 wafers or 24 hours)
 
-### Process Control Trade-offs
+## Process Control Trade-offs
 
 | Method | Detection Speed | Implementation Cost | Skill Required | Best Application | Limitation |
 |--------|----------------|--------------------|---------------|-----------------|------------|
@@ -106,7 +106,7 @@ A semiconductor wafer undergoes 400-700 individual process steps over 4-8 weeks 
 
 ## Recipe Management
 
-### Recipe Structure
+## Recipe Structure
 
 A process recipe defines the complete sequence of operations a tool must perform on a wafer. Recipes are the executable programs of semiconductor manufacturing.
 
@@ -152,14 +152,14 @@ RECIPE: Gate_Poly_Etch_7nm_Rev3
     Duration: 15 s
 ```
 
-### Recipe Version Control
+## Recipe Version Control
 
 - **Versioning**: Each recipe has a unique version identifier (e.g., `Gate_Poly_Etch_7nm_Rev3.2`). Minor revisions (parameter tuning) increment the decimal. Major revisions (new step sequence) increment the integer.
 - **Approval workflow**: Recipe changes require approval from process engineer → section manager → quality assurance before release to production. Each approval recorded with timestamp and electronic signature (21 CFR Part 11 compliance for medical device fabs).
 - **Change control**: When a recipe is modified, all previous production lots remain associated with the version used at the time of processing. Full audit trail: who changed what, when, and why.
 - **Recipe download**: MES sends the approved recipe to the tool via SECS/GEM S7F3 (Process Program Send) before the lot arrives at the tool. The tool acknowledges recipe receipt and verifies checksum (CRC-32 or MD5). If checksum fails, the tool rejects the recipe and the lot is not processed.
 
-### Recipe Parameter Limits
+## Recipe Parameter Limits
 
 - **Safety limits**: Hard limits that cannot be exceeded regardless of recipe settings. Defined by equipment engineering based on physical constraints (e.g., maximum gas flow = 500 sccm because MFC full-scale range is 500 sccm; maximum RF power = 1000 W because matching network rating is 1000 W). Enforced at the tool controller level — recipe values exceeding safety limits are rejected at download.
 - **Process window limits**: Soft limits defining the acceptable process parameter range for yield optimization. Width typically ±10-20% of setpoint. Violations trigger alarms but do not stop the process (the recipe continues, but the event is logged for investigation).
@@ -167,13 +167,13 @@ RECIPE: Gate_Poly_Etch_7nm_Rev3
 
 ## Lot Tracking
 
-### Lot Identification
+## Lot Identification
 
 - **Lot ID**: Unique identifier for a group of wafers processed together (typically 25 wafers per lot for 300 mm). Format: alphanumeric, typically 10-20 characters. Example: `A1234567.01` where `A` = fab code, `1234567` = sequence number, `.01` = split lot indicator.
 - **Wafer ID**: Individual wafer within a lot. Typically `Lot_ID-W01` through `Lot_ID-W25`. Some fabs laser-serialize each wafer with a 2D DataMatrix code (≈1 mm²) on the wafer edge for individual traceability.
 - **Cassette/FOUP mapping**: The MES knows which wafer occupies which slot in which FOUP. When a FOUP arrives at a tool, the MES sends the wafer map (SECS/GEM S6F11 event with slot/wafer ID association) to the tool controller.
 
-### Track-In / Track-Out Flow
+## Track-In / Track-Out Flow
 
 1. **Track-in**: When a lot arrives at a tool, the operator or automated system scans the FOUP RFID. MES verifies:
    - Correct lot for this tool and process step (prevent wrong-step processing).
@@ -186,7 +186,7 @@ RECIPE: Gate_Poly_Etch_7nm_Rev3
 
 3. **Track-out**: When processing completes, MES records end time, process status (pass/fail/abort), and wafer-by-wafer results (if the tool provides per-wafer data such as etch rate uniformity or deposition thickness). MES updates the lot's route — the next process step is determined by the process flow definition.
 
-### Wafer Genealogy
+## Wafer Genealogy
 
 - **Forward traceability**: Given a starting lot, trace every process step, tool, chamber, recipe, and parameter it experienced. Used for yield analysis — identify common process conditions in high-yield vs. low-yield lots.
 - **Backward traceability**: Given a finished die (identified by wafer ID and die X,Y coordinates), trace every process step that contributed to its fabrication. Used for failure analysis — when a customer reports a defective chip, identify which process step may have caused the defect.
@@ -195,14 +195,14 @@ RECIPE: Gate_Poly_Etch_7nm_Rev3
 
 ## Process Sequencing
 
-### Route Management
+## Route Management
 
 - **Process flow**: A directed graph of process steps defining the complete fabrication sequence for a product. A typical 7 nm logic process has 800-1,000 steps organized into 50-70 loops (a loop is a group of steps that repeats for each metal layer).
 - **Route definition**: Stored in MES as a sequence of operations, each operation specifying: required tool type, recipe, qualifying criteria, and next operation(s). Branching operations (test insertions, rework loops) have conditional next steps.
 - **Dynamic routing**: MES selects the specific tool instance at runtime based on tool availability, qualification status, WIP balancing, and tool dedication rules (some tools are dedicated to specific layers or products to prevent cross-contamination).
 - **Rework loops**: When inline inspection detects a defect that can be repaired (e.g., a lithography re-exposure, a re-etch to remove residue), the MES reroutes the lot through a rework sequence before returning it to the main flow. Rework percentage typically 2-10% of lots; higher indicates process instability.
 
-### Dispatch Rules
+## Dispatch Rules
 
 MES uses dispatch rules to determine which lot should be processed next at each tool:
 
@@ -214,7 +214,7 @@ MES uses dispatch rules to determine which lot should be processed next at each 
 
 ## Fault Detection and Classification (FDC)
 
-### Real-Time Signal Monitoring
+## Real-Time Signal Monitoring
 
 FDC systems analyze equipment sensor data in real-time to detect process anomalies before they produce defective wafers.
 
@@ -232,7 +232,7 @@ FDC systems analyze equipment sensor data in real-time to detect process anomali
 - **Hold**: Stop processing after current wafer completes. Lot placed on hold for engineer disposition. Prevents processing remaining wafers in the lot through a suspect chamber.
 - **Abort**: Immediately terminate the process. Used when sensor readings indicate imminent equipment damage (e.g., RF matching failure, pressure excursion).
 
-### Fault Classification
+## Fault Classification
 
 When FDC detects an anomaly, classification identifies the root cause category:
 
@@ -245,24 +245,24 @@ Classification accuracy target: >80% correct classification. Remaining cases esc
 
 ## Run-to-Run (R2R) Control
 
-### Motivation
+## Motivation
 
 Even when each process run stays within spec, systematic drift (chamber wall film buildup, consumable wear, gas cylinder depletion) causes the process mean to shift over time. Run-to-run control compensates for this drift by adjusting recipe parameters between runs, keeping the process centered on target.
 
-### Control Architecture
+## Control Architecture
 
 - **Pre-process metrology**: Measure wafer before processing (e.g., incoming film thickness). Provides input to the R2R controller.
 - **Post-process metrology**: Measure wafer after processing (e.g., etched feature depth, deposited film thickness). Provides the controlled output.
 - **R2R controller**: Computes recipe adjustments for the next run based on post-process metrology feedback. Standard algorithm: EWMA (Exponentially Weighted Moving Average) controller.
 - **EWMA update**: θ̂(t) = λ × y(t) + (1 - λ) × θ̂(t-1). Where θ̂(t) is the estimated process disturbance, y(t) is the latest metrology measurement minus model prediction, and λ is the smoothing factor (typically 0.1-0.3). The recipe adjustment is b⁻¹ × [target - θ̂(t)], where b is the process gain (change in output per unit change in input).
 
-### R2R Application Examples
+## R2R Application Examples
 
 - **CMP (Chemical Mechanical Polishing)**: Measure post-polish film thickness. Adjust polish time for next wafer to compensate for pad wear rate. Without R2R: thickness drifts ±200 Å over pad life. With R2R: thickness maintained within ±50 Å of target.
 - **Lithography CD (Critical Dimension) control**: Measure post-etch CD on test structures. Adjust exposure dose for next lot to compensate for scanner drift and resist aging. CD control improves from ±5 nm to ±2 nm with R2R.
 - **CVD deposition**: Measure post-deposition thickness. Adjust deposition time to compensate for chamber seasoning effects (first few wafers after chamber clean deposit slightly different rate than seasoned chamber).
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Recipe corruption in R2R**: An R2R controller bug could compute an invalid recipe adjustment (e.g., negative gas flow, RF power exceeding hardware limits). All R2R adjustments must pass safety limit checks before being downloaded to the tool. Never allow R2R to modify safety limits — only process parameters within approved ranges.
 - **Model divergence**: If the process changes fundamentally (new chamber hardware, different gas supplier, maintenance event), the R2R model may be invalid. Model mismatch causes R2R to make wrong adjustments, driving the process further from target. Implement model health monitoring (track prediction error over time) and automatic model reset when prediction error exceeds threshold.
@@ -271,7 +271,7 @@ Even when each process run stays within spec, systematic drift (chamber wall fil
 
 ## Equipment Qualification
 
-### Tool Qualification for Production
+## Tool Qualification for Production
 
 Before a tool is authorized to run production wafers, it must pass qualification testing:
 
@@ -289,13 +289,13 @@ Before a tool is authorized to run production wafers, it must pass qualification
 - Run 3-5 consecutive lots with production wafers. Demonstrate that process results are stable and within spec over the qualification period.
 - Process Capability Index (Cpk) must be ≥1.33 for all critical parameters during PQ. Cpk = min[(USL - μ), (μ - LSL)] / (3σ), where USL/LSL are spec limits, μ is the process mean, σ is the standard deviation.
 
-### Ongoing Qualification
+## Ongoing Qualification
 
 - **Monitor wafers**: Run a monitor wafer at regular intervals (e.g., every 100 wafers or every 24 hours) to track chamber performance trends. If monitor results drift beyond warning limits, schedule preventive maintenance. If beyond control limits, quarantine the tool and investigate.
 - **Chamber matching re-verification**: After any maintenance event (chamber clean, parts replacement), re-run qualification wafers to verify chamber performance has not shifted.
 - **Tool dedication**: Some tools are dedicated to specific process layers (e.g., "Chamber 3 is only for gate etch") to prevent cross-contamination and reduce qualification burden. Tool dedication is maintained in MES — the MES will not dispatch incompatible lots to a dedicated tool.
 
-### Data Infrastructure
+## Data Infrastructure
 
 **Process data warehouse**:
 - All trace data, event data, alarm data, metrology results, and lot tracking records flow into a central data warehouse (typically a time-series database like InfluxDB or a columnar store like Apache Parquet on HDFS).
@@ -307,6 +307,6 @@ Before a tool is authorized to run production wafers, it must pass qualification
 - **WIP map**: Display of all lots in the fab, color-coded by process step and time-in-step. Bottleneck tools identified by WIP accumulation (many lots queuing = bottleneck).
 - **FDC alarm summary**: Current active alarms, alarm rate trend, and fault classification breakdown. Escalation indicators for alarms not addressed within SLA time.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Automation & Robotics](./index.md) • [All Domains](../index.md)*
+
+[← Back to Automation & Robotics](index.md)

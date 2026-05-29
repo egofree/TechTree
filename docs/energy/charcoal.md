@@ -14,7 +14,7 @@ Charcoal has several advantages over raw wood as a metallurgical fuel: roughly d
 
 ## Wood Selection & Preparation
 
-### Species Selection
+## Species Selection
 
 Hardwood produces denser, hotter charcoal. Softwood produces lighter, faster-burning charcoal:
 
@@ -30,7 +30,7 @@ Hardwood produces denser, hotter charcoal. Softwood produces lighter, faster-bur
 
 **General rule**: The densest hardwoods available make the best metallurgical charcoal. In tropical regions, mangrove, eucalyptus, and dense tropical hardwoods serve well. Avoid resinous softwoods (pine, spruce) for metallurgy — the resin creates tarry smoke that contaminates metal.
 
-### Preparation
+## Preparation
 
 - **Cut to uniform lengths**: ~30-60 cm for pit/mound kilns, 15-30 cm for simple kilns. Uniform pieces carbonize evenly.
 - **Split to 5-10 cm diameter**: Thick pieces may leave uncarbonized cores. Thin pieces are easier to stack and carbonize evenly. Use wedge and maul for splitting.

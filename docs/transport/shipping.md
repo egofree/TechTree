@@ -8,7 +8,7 @@
 > **Outputs**: canals, water_transport
 > **Critical**: No
 
-### Water Transport
+## Water Transport
 
 **Canal construction**:
 - **Route**: Follow contour lines to minimize elevation change. Where elevation must change, use locks.
@@ -57,7 +57,7 @@
 **Port facilities**:
 - Wharf or pier: timber or stone construction. Crane for loading/unloading (wooden derrick with hand-winch or horse whim, lift 1-5 tonnes). Warehouse adjacent. 100-500 tonnes/day throughput for well-equipped port.
 
-### Vessel Construction Methods
+## Vessel Construction Methods
 
 **[Dugout canoe](../glossary/dugout-canoe.md)** (Stone Age):
 - Select a straight-trunked tree: oak, pine, cedar, or basswood. Fell with axes. Length 3-8 m, diameter 0.4-0.8 m.
@@ -83,7 +83,7 @@
 - **[Copper sheathing](../glossary/copper-sheathing.md)** (later stage): Thin copper sheets (0.5-1.0 mm) nailed to hull below waterline. Prevents fouling (barnacles, weed growth) and boring worm attack. Reduces drag and increases speed 1-2 knots. Requires copper available from metallurgy.
 - **Lead sheeting**: Alternative to copper, cheaper but less effective against fouling. Used on hull bottoms and rudder faces.
 
-### Sail Rig Details
+## Sail Rig Details
 
 **Square sail mechanics**:
 - Rectangular canvas hung from a horizontal yardarm. Effective only when wind is within 50° of dead astern (170° arc). Cannot sail upwind at all. To change tack (reverse direction relative to wind), lower yard, swing to opposite side, re-secure. Slow maneuver.
@@ -99,7 +99,7 @@
 - Four-sided sail with a gaff (wooden spar) along the upper edge. The gaff hinges at the mast, allowing the sail to be raised and lowered without removing the spar. Combines good upwind performance (points 40-50° off wind) with easy handling.
 - The head of the sail extends above the mast when hoisted, adding area without increasing mast height. Typical gaff angle 30-45° from horizontal when sailing close-hauled.
 
-### Navigation Methods
+## Navigation Methods
 
 **Coastal pilotage**:
 - Navigate by visible landmarks: headlands, lighthouses, church towers, distinctive trees. Estimate distance by apparent height. A 30 m lighthouse visible from 5 m eye height appears at ~18 km (geographic horizon formula: distance in nautical miles = 2.08 × (√h₁ + √h₂) where h is height in meters).
@@ -111,7 +111,7 @@
 - **Latitude by noon sun**: Measure sun's altitude at local noon (highest point of the sun's daily arc). Declination of sun (angle above/below celestial equator) varies from +23.45° (summer solstice) to -23.45° (winter solstice). Latitude = 90° - observed altitude + declination. Requires an almanac of daily solar declination values. Accuracy with a sextant: ±15 arcminutes (±15 nautical miles).
 - **Sextant**: Measures angle between two objects (e.g., sun and horizon) to ±1 arcminute precision. Split-image optics: adjust mirror until sun limb touches horizon in the eyeshade. Read angle from calibrated arc. Requires a clear horizon and visible celestial body.
 
-### Cargo Handling
+## Cargo Handling
 
 **Tonnage measurement**:
 - Displacement tonnage: total weight of water displaced by the hull (Archimedes' principle). Equals total weight of vessel plus cargo plus crew plus fuel plus stores.
@@ -127,7 +127,7 @@
 - **Derrick**: Timber or steel mast with a boom (spar). Hoisting rope passes through block-and-tackle at boom tip. Guy wires stabilize the mast. Lift capacity 1-10 tonnes depending on boom length and rope size. Swings cargo from ship to wharf and back.
 - **Block and tackle**: Multiple pulley blocks multiply lifting force. A 4-part tackle (2 double blocks) gives a 4:1 mechanical advantage. A 100 kg pull on the fall line lifts 400 kg. Friction reduces actual advantage by 10-20%.
 
-### Harbor and Port Facilities
+## Harbor and Port Facilities
 
 **Breakwater**:
 - Rubble mound construction: dump large quarry stone (1-5 tonnes each) to form a trapezoidal barrier. Base width 3-5× the height. Armor layer of the largest stones on the seaward face to absorb wave energy. Core of smaller quarry run stone. Crest elevation 2-4 m above highest expected wave height.
@@ -143,7 +143,7 @@
 - Light source: oil lamp (whale oil, then kerosene) with parabolic reflector (polished copper or silvered glass) to concentrate the beam. Rotation via clockwork mechanism (weights descend, turning the lens assembly). Produces a characteristic flash pattern for identification.
 - Structure: stone tower (tapered, 1:10 batter ratio for stability) or cast iron plate tower bolted to a stone foundation. Height 20-60 m. Withstands storm winds and waves.
 
-### Rope, Rigging, and Cordage
+## Rope, Rigging, and Cordage
 
 **Rope materials**:
 - **Manila**: Made from abacá (Musa textilis) fiber. Strong, flexible, resistant to saltwater. Breaking strength: 10 mm diameter = 10 kN; 25 mm = 50 kN; 50 mm = 180 kN. Stretch under load: 10-15% elongation at breaking point. The standard maritime rope for centuries.
@@ -158,7 +158,7 @@
 - A block is a pulley: a wooden or metal shell with one or more sheaves (grooved wheels, usually lignum vitae hardwood or bronze) rotating on a steel pin. A single block changes the direction of pull. Multiple blocks in a tackle multiply force.
 - Mechanical advantage equals the number of rope parts supporting the load. A gun tackle (1 double block + 1 single block, reeved with one rope) gives 2:1 or 3:1 advantage. A luff tackle (1 double + 1 triple block) gives 3:1 or 4:1. Friction loss: roughly 5-10% per sheave. A 4:1 tackle with 4 sheaves delivers ~3.2:1 actual advantage.
 
-### Stability and Loading
+## Stability and Loading
 
 **Metacentric height (GM)**:
 - GM is the measure of a vessel's initial stability. A larger GM means a stiffer ship (resists heel, snaps back upright quickly). Too large GM produces a violent, uncomfortable roll. Too small GM means the ship is tender (heels easily, recovers slowly, risk of capsizing).
@@ -169,7 +169,7 @@
 - Place heavy cargo low in the hold (lowers the center of gravity, increases GM). Top-weight (heavy loads on deck) raises the center of gravity, reduces GM, and can make the vessel unmanageable or capsize.
 - Securing cargo: block and brace against the hull structure with timber shoring. Lash with rope or chain to fixed points (cleats, pad eyes). A 45° lash angle resists both lateral and vertical forces. Check lashings daily at sea (working loose under vibration and wave motion). A shifted cargo load changes the center of gravity and can cause a dangerous list or capsize.
 
-### Canal Engineering
+## Canal Engineering
 
 **Lock gates**:
 - Mitre gates: two gates meeting at an angle (pointing upstream when closed). Water pressure on the upstream face pushes both gates firmly shut. Each gate is a timber framework (oak or elm, 20-30 cm framed members) with planking on the upstream face. Iron hinges (pintles and sockets) at the heel post. Gate width: half the lock chamber width plus clearance. A 5 m wide lock has gates 2.7-3.0 m wide each.
@@ -182,7 +182,7 @@
 **Canal capacity**:
 - A single lock can pass 10-20 barges per day in each direction (each transit takes 10-20 minutes plus approach and departure time). A canal with 1-2 locks moves 1000-4000 tonnes of cargo per day, far exceeding a single-track road. Canal construction cost per km: 2-5× the cost of a road, but operating cost per tonne-km is 1/10 to 1/50.
 
-### Ship Resistance and Speed
+## Ship Resistance and Speed
 
 **Hull speed**:
 - Displacement hulls (vessels that push through the water rather than planing on top of it) have a practical speed limit. Hull speed in knots = 1.34 × √waterline_length_in_feet. A 10 m (33 ft) waterline vessel has hull speed = 1.34 × √33 = 7.7 knots. A 30 m (98 ft) vessel: hull speed = 1.34 × √98 = 13.3 knots. Exceeding hull speed requires exponentially more power (the bow wave builds into a wall the vessel must climb).
@@ -193,7 +193,7 @@
 - Wave-making resistance: energy lost to creating the bow wave and stern wave. Increases rapidly above 0.3 × hull speed. A fine (narrow, sharp) bow entry reduces wave-making resistance compared to a blunt bow. This is why fast vessels have long, slender hulls.
 - Total resistance for a 30 m cargo vessel at 8 knots: roughly 15-25 kN (1500-2500 kgf drag). Required propulsive power = resistance × speed / propulsive efficiency = 20,000 N × 4.1 m/s / 0.5 = 164 kW (220 HP). A 200 HP steam engine is adequate for this size and speed.
 
-### Knots and Splicing
+## Knots and Splicing
 
 **Essential maritime knots**:
 - **Bowline**: Forms a fixed loop that neither slips nor jams under load. The workhorse knot of maritime work. Used to attach lines to posts, rings, and spars. Can be tied one-handed (important for rescue). Breaking strength retention: ~60% of rope rated strength (knots always weaken rope at the bend point).
@@ -206,7 +206,7 @@
 - Short splice: joins two rope ends by interweaving strands. Stronger than a knot but increases the rope diameter at the splice point (will not pass through a block). Used for permanent joins where the splice won't need to pass through sheaves.
 - Whipping: bind the end of a rope with waxed thread to prevent unraveling. A sailmaker's whipping (stitched through the rope core) is permanent and will not work loose.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Drowning**: The primary hazard of all water transport. All crew should be competent swimmers. Life jackets or flotation devices (cork, balsa wood, inflated animal bladders) mandatory for deck work and harbor operations. Rescue lines and ring buoys at rail.
 - **Cargo handling injuries**: Loading/unloading heavy crates, barrels, and sacks causes crush injuries, hernias, and musculoskeletal damage. Use block-and-tackle or derricks for loads >25 kg. Train crew in proper lifting technique. Stack cargo to prevent shifting in rough seas — secure with rope lashings.
@@ -214,7 +214,7 @@
 - **Confined space entry**: Ship holds, bilges, and cargo tanks can accumulate toxic gases (CO from engines, H₂S from decomposing cargo, low O₂ from rusting steel). Ventilate before entry. Use gas detectors. Never enter alone — station a safety watch at the hatch.
 - **Hypothermia**: Water draws body heat 25× faster than air at the same temperature. A person in 10°C water loses consciousness in 30-60 minutes. In 0°C water, exhaustion and unconsciousness in 15 minutes. Wear warm layers under waterproof outer garments. Get wet crew members out of the water and into dry clothes immediately.
 
-### Ship Propulsion Calculations
+## Ship Propulsion Calculations
 
 **Hull speed**: V = 1.34 × √LWL, where LWL is waterline length in feet and V is speed in knots. A 15 m (49 ft) waterline vessel has hull speed = 1.34 × √49 = 9.4 knots. A 30 m (98 ft) vessel: 13.3 knots. Exceeding hull speed requires exponentially more power — the bow wave builds into a wall the hull must climb. Displacement hulls cannot practically exceed 1.2× hull speed.
 
@@ -224,16 +224,15 @@
 
 **Power requirement for engine propulsion**: P = Δ^(2/3) × V³ / K, where P is shaft power in kW, Δ is displacement in tonnes, V is speed in knots, and K is a hull form factor (150-170 for fine-lined vessels, 170-200 for full-bodied cargo hulls). A 420-tonne vessel at 8 knots with K = 180: P = 420^(2/3) × 8³ / 180 = 57.2 × 512 / 180 = 163 kW (218 HP).
 
----
 
-### Materials
+## Materials
 
 - **Hull construction**: Oak, pine, cedar, or elm timber for planking and frames. Iron or copper fasteners (nails, trenails, rivets). Oakum (frayed hemp) for caulking, pitch or tar for waterproofing.
 - **Sails**: Woven flax or hemp canvas, treated with tar. Bolt rope sewn to edges for reinforcement. Manila, hemp, or sisal for rope and cordage.
 - **Anchors**: Iron with wooden stock. Anchor rode: manila or hemp rope, or iron chain.
 - **Later improvements**: Copper sheathing (0.5-1.0 mm sheets) for anti-fouling. Steel plate hulls (requires rolling mill).
 
-### Equipment
+## Equipment
 
 - **Construction**: Adzes, axes, saws, caulking irons, treenail drivers. Shipyard slipway or building berth with ways and launching cradle.
 - **Rigging**: Blocks (pulley shells with lignum vitae or bronze sheaves), tackles, winches, capstans.
@@ -241,7 +240,7 @@
 - **Cargo handling**: Treadwheel crane (2-5 tonnes), derricks, block and tackle. Wharves with warehouses.
 - **Harbor works**: Breakwater (rubble mound, 10,000-50,000 tonnes stone), quay walls (timber or masonry), lighthouse (stone tower, oil lamp with parabolic reflector).
 
-### Limitations
+## Limitations
 
 - **Speed constraint**: Displacement hulls limited to hull speed (V = 1.34 × √LWL in knots). Exceeding this requires exponentially more power.
 - **Weather dependency**: Sail vessels cannot make progress to windward effectively (45-60° off wind at best). Storms can drive vessels onto lee shores.
@@ -250,7 +249,7 @@
 - **Hull maintenance**: Re-caulking every 3-5 years, anti-fouling annually. Marine boring worms attack untreated timber.
 - **Capacity vs. speed tradeoff**: Larger vessels are faster (higher hull speed) and carry more cargo but require deeper water, larger ports, and bigger crews.
 
-### See Also
+## See Also
 
 - [Roads & Bridges](roads.md) — Land transport infrastructure
 - [Railways](railways.md) — Rail transport for bulk freight
@@ -259,6 +258,6 @@
 - [Steam Power](../energy/steam-power.md) — Steam propulsion for vessels
 - [Internal Combustion Engines](../energy/engine.md) — Diesel propulsion for ships
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*
+
+[← Back to Transport](index.md)

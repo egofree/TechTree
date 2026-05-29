@@ -16,7 +16,7 @@ In semiconductor manufacturing, incoming inspection validates raw materials (pho
 
 ## Acceptance Sampling Fundamentals
 
-### Decision Framework: Choosing a Sampling Plan
+## Decision Framework: Choosing a Sampling Plan
 
 | Scenario | Recommended Plan | Rationale |
 |----------|-----------------|-----------|
@@ -27,7 +27,7 @@ In semiconductor manufacturing, incoming inspection validates raw materials (pho
 | Continuous flow production (no discrete lots) | Continuous sampling (CSP-1) | Starts at 100% inspection, transitions to sampling after clearance number |
 | Critical safety items (AQL <0.1%) | Tightened inspection with 100% final test | Maximum consumer protection; accept on zero defects only |
 
-### Implementation Steps
+## Implementation Steps
 
 1. **Classify all incoming materials** by criticality: Assign AQL values based on failure consequence (0.10% for safety-critical, 0.65% for standard semiconductor materials)
 2. **Establish sampling procedures**: Document lot size determination, sample size selection, and accept/reject criteria for each material category using MIL-STD-105E tables
@@ -36,7 +36,7 @@ In semiconductor manufacturing, incoming inspection validates raw materials (pho
 5. **Integrate with [SPC](statistical-process-control.md)**: Feed inspection results into control charts for trend detection before lots reach action limits
 6. **Review quarterly**: Assess supplier quality trends, adjust AQL targets, and evaluate skip-lot eligibility
 
-### Operating Characteristic (OC) Curve
+## Operating Characteristic (OC) Curve
 
 Every sampling plan has an OC curve that plots the probability of accepting a lot against the actual defect rate. Two key points define the curve:
 
@@ -45,7 +45,7 @@ Every sampling plan has an OC curve that plots the probability of accepting a lo
 
 The gap between AQL and LTPD defines the discrimination ability of the sampling plan. A narrow gap requires large sample sizes but provides sharper accept/reject decisions.
 
-### Types of Sampling
+## Types of Sampling
 
 **Single sampling**: Draw one sample of size n from the lot. If the number of defects d ≤ acceptance number c, accept the lot. If d > c, reject. Simplest plan, easiest to administer.
 
@@ -112,7 +112,7 @@ The gap between AQL and LTPD defines the discrimination ability of the sampling 
 
 MIL-STD-105E (also known as ANSI/ASQ Z1.4, ISO 2859-1) is the standard attribute sampling system for inspection by attributes. It provides sampling plans indexed by lot size and AQL.
 
-### Lot Size Determination
+## Lot Size Determination
 
 The lot is the collection of units offered for inspection at one time. Lot size determines the sample size code letter:
 
@@ -134,7 +134,7 @@ The lot is the collection of units offered for inspection at one time. Lot size 
 | 150,001-500,000 | P |
 | 500,001+ | Q |
 
-### Sample Size Code Letter to Sample Size
+## Sample Size Code Letter to Sample Size
 
 | Code | Sample Size (Single Normal) |
 |------|---------------------------|
@@ -154,7 +154,7 @@ The lot is the collection of units offered for inspection at one time. Lot size 
 | P | 800 |
 | Q | 1,250 |
 
-### AQL Selection by Application
+## AQL Selection by Application
 
 | Application | Typical AQL | Rationale |
 |-------------|------------|-----------|
@@ -167,7 +167,7 @@ The lot is the collection of units offered for inspection at one time. Lot size 
 | Cosmetic defects | 2.5% - 4.0% | Functional quality unaffected |
 | Non-critical packaging | 4.0% - 6.5% | Low impact |
 
-### Worked Example: Incoming Wafer Inspection
+## Worked Example: Incoming Wafer Inspection
 
 A fab receives a lot of 500 silicon wafers. AQL = 0.25%, normal inspection, single sampling.
 
@@ -177,7 +177,7 @@ A fab receives a lot of 500 silicon wafers. AQL = 0.25%, normal inspection, sing
 
 Interpretation: Inspect 50 wafers. If zero defective wafers are found, accept the lot. If one or more defective wafers are found, reject the lot. The probability of accepting a lot that is actually at 0.25% defective is 88%. The probability of accepting a lot at 1% defective is 61%.
 
-### Switching Rules
+## Switching Rules
 
 MIL-STD-105E defines a dynamic system that adjusts inspection severity based on supplier quality history:
 
@@ -197,7 +197,7 @@ This dynamic switching creates a feedback loop: consistently good suppliers earn
 
 ## Inspection Types
 
-### Incoming Inspection
+## Incoming Inspection
 
 Validates raw materials and components before they enter the production process. In semiconductor manufacturing:
 
@@ -209,7 +209,7 @@ Validates raw materials and components before they enter the production process.
 
 **Etchants and cleaning chemicals**: Concentration (titration, ±0.1%), metallic contamination (ICP-MS, ≤1 ppb for critical metals: Fe, Cu, Ni, Zn, Cr), particle count. Sample: 1 bottle per batch.
 
-### In-Process Inspection
+## In-Process Inspection
 
 Monitors critical process steps during manufacturing. Distinguished from SPC monitoring by focusing on pass/fail decisions on production material rather than statistical trend analysis.
 
@@ -221,7 +221,7 @@ Monitors critical process steps during manufacturing. Distinguished from SPC mon
 
 **Metal deposition inspection**: Sheet resistance (four-point probe, ±1%), step coverage on cross-sectioned test structures (SEM, ≥50% of nominal thickness on vertical sidewalls). Sample: monitor wafer per deposition run.
 
-### Final Test
+## Final Test
 
 The last quality gate before product shipment. For semiconductor die:
 
@@ -233,7 +233,7 @@ The last quality gate before product shipment. For semiconductor die:
 
 ## Sampling Plan Design
 
-### Variables Sampling
+## Variables Sampling
 
 When measurements are on a continuous scale (dimensions, voltages, weights), variables sampling plans are more efficient than attribute plans — they require smaller sample sizes for equivalent protection.
 
@@ -248,7 +248,7 @@ When measurements are on a continuous scale (dimensions, voltages, weights), var
 
 **Advantage over attribute sampling**: For the same OC curve, variables sampling typically requires 30-50% fewer samples. Critical in semiconductor where each measurement may be expensive (destructive testing, SEM time, wafer consumption).
 
-### Skip-Lot Sampling
+## Skip-Lot Sampling
 
 When a supplier has demonstrated consistent quality over an extended period (20+ consecutive lots accepted), skip-lot sampling inspects only a fraction of lots:
 
@@ -258,7 +258,7 @@ When a supplier has demonstrated consistent quality over an extended period (20+
 
 ## Semiconductor-Specific Inspection Standards
 
-### MIL-STD-883 (Microcircuit Test Methods)
+## MIL-STD-883 (Microcircuit Test Methods)
 
 The foundational standard for integrated circuit testing, defining test methods, inspection procedures, and quality conformance requirements:
 
@@ -268,7 +268,7 @@ The foundational standard for integrated circuit testing, defining test methods,
 - **Method 2032**: X-ray radiographic inspection (wire bonds, die attach quality)
 - **Method 5004**: Screening procedures (burn-in, temperature cycling, centrifuge, fine/gross leak)
 
-### JEDEC Standards
+## JEDEC Standards
 
 - **JESD22**: Reliability test methods for packaged devices
 - **JESD51**: Thermal measurement standards
@@ -309,6 +309,6 @@ The foundational standard for integrated circuit testing, defining test methods,
 - [Measurement](../measurement/index.md) — instruments and calibration for inspection
 - [Optics](../optics/index.md) — optical inspection and microscopy
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Quality Control](./index.md) • [All Domains](../index.md)*
+
+[← Back to quality-control](index.md)

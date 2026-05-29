@@ -53,7 +53,7 @@ Every industrial civilization discovered or invented glass independently. The ma
 - **Working**: Gather molten glass on iron blowpipe (1-1.5 m, 1-2 cm diameter). Blow, shape with wet wooden tools, anneal in cooling oven (500-600°C initially, cool slowly over 4-12 hours).
 - **Early products**: Beads, simple vessels, flat window glass (crown method: spin blown sphere until it flattens into a disk), glass beads for trade.
 
-### Batch Composition (Soda-Lime Glass)
+## Batch Composition (Soda-Lime Glass)
 
 **[Standard proportions](../glossary/standard-proportions.md)** (by weight):
 - **Silica (SiO₂)**: 70-74% — glass former, provides network structure
@@ -64,7 +64,7 @@ Every industrial civilization discovered or invented glass independently. The ma
 
 Adjust proportions within these ranges based on raw material purity and desired working properties. Higher soda → easier melting but softer glass. Higher lime → harder but more prone to devitrification.
 
-### Bill of Materials (per 100 kg soda-lime glass)
+## Bill of Materials (per 100 kg soda-lime glass)
 
 | Material | Quantity per 100 kg glass | Source | Alternatives |
 |----------|---------------------------|--------|-------------|
@@ -77,7 +77,7 @@ Adjust proportions within these ranges based on raw material purity and desired 
 | Fuel (charcoal, wood, or gas) | 200-500 kg per 100 kg glass | [Charcoal](../energy/charcoal.md) or [natural gas](../energy/fuels.md) | Wood (less efficient, more smoke), [producer gas](../energy/biomass-energy.md) |
 | Colorants (optional) | 0.01-3 kg depending on metal oxide | [Mining](../mining/extraction.md) — cobalt, copper, iron, manganese minerals | Natural impurities in sand produce green tint without any addition |
 
-### Melting Procedure
+## Melting Procedure
 
 1. **Batch mixing**: Weigh ingredients to ±2% accuracy. Mix dry in clean container until uniform color. Add 15-25% cullet (crushed scrap glass) to speed melting by providing a liquid phase early.
 2. **Initial melt (fritting)**: 800-1000°C. Raw materials react (carbonates decompose, release CO₂). Foam rises and subsides. Result is a semi-fused mass (frit).
@@ -86,28 +86,28 @@ Adjust proportions within these ranges based on raw material purity and desired 
 5. **Working temperature**: Cool to 1000-1200°C. Glass has honey-like viscosity — workable but holds shape.
 6. **Annealing**: Transfer finished piece to Lehr furnace at 500-550°C (see below).
 
-### Forming Techniques
+## Forming Techniques
 
 - **Blowing**: Gather molten glass on blowpipe (iron tube, 1-1.5 m). Roll on marver (flat iron plate) to shape gather. Blow to inflate, reheat as needed. Shape with wet wooden paddles, jacks (tongs), and shears. Speed is essential — glass stiffens noticeably in 30-60 seconds at working temperature.
 - **Casting**: Pour molten glass into preheated iron or sand molds. Tap mold to release bubbles. For thick sections, pour in layers to avoid internal stress. Good for tiles, slabs, and simple shapes.
 - **Pressing**: Press molten glass into mold with iron plunger. Produces uniform, detailed shapes. Used for lenses, tiles, and decorative items.
 - **Rolling (flat glass)**: Pour molten glass onto flat iron table, roll to uniform thickness with iron roller. Grind and polish surfaces flat. Produces window glass of consistent quality. Alternative: cylinder method — blow large cylinder, cut open, flatten on hot table.
 
-### Annealing Process
+## Annealing Process
 
 - **Purpose**: Remove internal thermal stress caused by uneven cooling. Unannealed glass can shatter spontaneously from minor temperature changes or mechanical shock.
 - **Lehr furnace**: Long tunnel furnace with controlled temperature gradient. For batch production, use a brick kiln with separate heating zone.
 - **Annealing schedule**: Heat to annealing point (~500°C for soda-lime glass). Hold until temperature is uniform throughout the piece (30 min per 6 mm thickness). Cool at 1-5°C/min through the strain point (~450°C). Below strain point, faster cooling is safe (5-10°C/min to room temperature).
 - **Stress checking**: View finished glass between crossed polarizers (polarizing film or calcite crystals). Colored fringes indicate residual stress — uniform dark field indicates well-annealed glass.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Molten glass burns**: Glass batch melts at 1100-1400°C and working temperatures reach 1500-1600°C during fining. Molten glass adheres to skin and causes severe deep burns that are extremely difficult to remove. Wear heat-resistant gloves, arm protection, face shield, and closed-toe boots at all times near the furnace. Use properly sized gathering irons and blowing pipes — a dropped gather of molten glass splatters widely. Never use wet or damp tools to contact molten glass; trapped moisture causes steam explosions.
 - **Silica dust inhalation**: Raw silica sand (SiO₂, >95% purity) produces respirable crystalline silica dust during weighing, sieving (60-100 mesh), mixing, and crushing cullet. Inhalation of crystalline silica causes silicosis — an irreversible, progressive lung disease. Wear a particulate respirator (P100 or equivalent) when handling dry silica powder. Mix batch ingredients wet when possible. Use local exhaust ventilation at mixing stations.
 - **Toxic fining agents**: Arsenic trioxide and antimony trioxide are listed as fining agents (0.1-0.5% addition) used during the fining stage at 1500-1600°C. Both are toxic by inhalation and ingestion. Arsenic trioxide is a known carcinogen. Handle as sealed, pre-weighed additions whenever possible. Avoid creating dust. Use gloves and respiratory protection when measuring and adding fining agents to the melt.
 - **Thermal stress fracture**: Unannealed or improperly annealed glass can shatter spontaneously, sometimes hours or days after cooling, sending sharp fragments at high velocity. Always follow the annealing schedule (500°C hold, cool at 1-5°C/min through strain point). Never skip annealing for any glass item intended for use or handling.
 
-### Glass Composition Details
+## Glass Composition Details
 
 The properties of glass depend directly on its composition. Three families cover most industrial and scientific applications:
 
@@ -134,7 +134,7 @@ The properties of glass depend directly on its composition. Three families cover
 - Chemical resistance: resists most acids (except HF and hot phosphoric acid), alkalis, and water attack. The go-to material for laboratory glassware.
 - Boron sourced from borax (Na₂B₄O₇·10H₂O) or kernite deposits. Major sources: Turkey (73% of world supply), California, Argentina.
 
-### Raw Material Preparation
+## Raw Material Preparation
 
 **[Silica sand quality](../glossary/silica-sand-quality.md)** has a direct impact on glass clarity and color:
 - **Container glass and window glass**: >95% SiO₂, <0.3% Fe₂O₃. Iron imparts a green tint that increases with thickness.
@@ -147,7 +147,7 @@ The properties of glass depend directly on its composition. Three families cover
 - Sort cullet by color (clear, green, amber) and composition. Mixing borosilicate cullet into soda-lime batch changes the thermal expansion and can cause spontaneous breakage.
 - Crush cullet to 5-20 mm pieces before adding. Remove metal caps, ceramics, and stones (non-glass contaminants cause defects).
 
-### Melting Detail
+## Melting Detail
 
 **[Batch melting](../glossary/batch-melting.md)** (1400-1500°C):
 - At ~600°C, carbonates begin decomposing: CaCO₃ → CaO + CO₂, Na₂CO₃ → Na₂O + CO₂. Massive CO₂ evolution causes foaming. The batch puffs up to 2-3× its original volume.
@@ -163,7 +163,7 @@ The properties of glass depend directly on its composition. Three families cover
 - After fining, stir the melt thoroughly. Inhomogeneous glass has streaks (cord) with different refractive indices — visible as distortion and weak points.
 - Platinum-lined crucibles with mechanical stirrers produce the most homogeneous glass. For basic operations, an iron rod with a flat paddle, rotated slowly for 30-60 minutes, suffices.
 
-### Annealing Schedule Detail
+## Annealing Schedule Detail
 
 Proper annealing removes internal stress caused by uneven cooling through the glass transition range:
 
@@ -172,7 +172,7 @@ Proper annealing removes internal stress caused by uneven cooling through the gl
 - **Schedule**: (1) Heat to annealing point. (2) Hold until temperature is uniform throughout the piece — allow 30 minutes per 6 mm of wall thickness. (3) Cool at 3-5°C/min through the strain point region. (4) Below the strain point, faster cooling is safe (5-10°C/min to room temperature).
 - Total annealing time for a 6 mm thick soda-lime vessel: ~3-4 hours. For a 25 mm thick piece: ~8-12 hours. Skipping annealing or cooling too fast leaves the glass fragile and prone to spontaneous fracture days or weeks later.
 
-### Glass Properties
+## Glass Properties
 
 **[Mechanical properties](../glossary/mechanical-properties.md)** of soda-lime glass:
 - Compressive strength: 700-1000 MPa (very strong in compression — comparable to concrete). This is why glass supports heavy loads in structural applications when loaded in pure compression.
@@ -180,7 +180,7 @@ Proper annealing removes internal stress caused by uneven cooling through the gl
 - Elastic modulus: ~70 GPa. Glass is rigid, not ductile. It deforms elastically up to fracture — no plastic deformation, no warning before failure.
 - Hardness: 6-7 Mohs. Can be scratched by quartz (7), topaz (8), and hardened steel. Cannot be scratched by a knife blade (5.5). This hardness enables glass to be ground and polished to optical precision.
 
-### Glass Forming Methods
+## Glass Forming Methods
 
 **Pressing**: Molten glass dropped into a metal mold, pressed with a plunger. Produces uniform shapes with good detail replication at 100-500 pieces per hour. Used for lenses, tiles, tableware. Mold temperature maintained at 400-500°C to prevent thermal shock. Press molds made from cast iron or steel.
 
@@ -195,7 +195,7 @@ Proper annealing removes internal stress caused by uneven cooling through the gl
 - The glass ribbon travels 50-70 m across the tin bath, cooling from 1050°C to ~600°C. Exits onto rollers and into the annealing lehr.
 - Produces perfectly flat, parallel surfaces with no grinding or polishing required. ~80% of flat glass worldwide is float glass. Tin bath dimensions: 4-6 m wide, 50-70 m long. Tin depth: ~60-100 mm.
 
-### Glass Colorants
+## Glass Colorants
 
 Adding small amounts of metal oxides to the batch produces colored glass. The color depends on the metal, its oxidation state, and the base glass composition:
 
@@ -205,7 +205,7 @@ Adding small amounts of metal oxides to the batch produces colored glass. The co
 - **Manganese (MnO₂)**: Purple at 1-3%. Also used as a decolorizer at low concentrations: MnO₂ oxidizes Fe²⁺ (blue-green) to Fe³⁺ (pale yellow), and the resulting purple-yellow combination produces a neutral gray that appears colorless in thin sections. Roman glassmakers called manganese the "glassmaker's soap."
 - **Lead (PbO)**: Not primarily a colorant, but lead glass has a higher refractive index (1.6-1.7) that makes it appear more brilliant and "brighter" than soda-lime glass. Lead glass used for cut crystal and optical elements.
 
-### Glass Defects and Quality Control
+## Glass Defects and Quality Control
 
 **Seeds (small bubbles)**: Caused by insufficient fining. Bubbles <0.5 mm are called seeds; larger ones are blisters. Both weaken the glass and distort vision. Fix: extend fining time, add fining agents, increase fining temperature.
 
@@ -244,14 +244,14 @@ Key scaling principle: glass production benefits enormously from scale. A tank f
 
 See [Glass Furnace Types](#glass-furnace-types) above for construction details of each furnace type.
 
-### Enamel and Glass Coatings
+## Enamel and Glass Coatings
 
 Glass coatings applied to metal substrates combine the chemical resistance of glass with the structural strength of metal:
 
 - **Vitreous enamel**: Powdered glass (low-melting composition, 650-850°C) applied to cleaned metal (iron, steel, copper, gold) as a slurry, then fired at 750-850°C. The glass melts, flows, and bonds to the metal surface. Multiple coats (ground coat + cover coat) produce a smooth, glossy, chemically inert surface. Enamel-coated steel is used for chemical reactor vessels, cookware, and architectural panels.
 - **Glass lining for chemical vessels**: Thick glass coating (1-3 mm) applied to the interior of steel tanks and reactors. Provides resistance to all acids except HF and hot concentrated phosphoric acid. The glass composition is typically a borosilicate modified for low thermal expansion to match the steel substrate. Thermal shock resistance is the main limitation: maximum temperature change rate ~120°C per hour.
 
-### Recycling and Cullet Use
+## Recycling and Cullet Use
 
 Glass is one of the most recyclable materials in the bootstrap sequence:
 
@@ -260,7 +260,7 @@ Glass is one of the most recyclable materials in the bootstrap sequence:
 - **Contamination removal**: Ceramics, stones, and metals in cullet cause defects (stones, cords) in the melt. Hand-sort cullet on a picking belt before crushing. Pass crushed cullet over a magnetic separator to remove iron and steel contaminants. Density separation removes ceramics and stones (glass SG ~2.5, ceramics 2.0-2.8, metals 7-8).
 - **Cullet crushing**: Break glass into 5-20 mm pieces with a jaw crusher or stamp mill. Avoid over-crushing to dust (<1 mm) — excessive fines increase dust exposure without improving melt rate.
 
-### Glass Furnace Types
+## Glass Furnace Types
 
 The furnace design determines the scale and quality of glass production:
 
@@ -270,7 +270,7 @@ The furnace design determines the scale and quality of glass production:
 
 **[Day tank](../glossary/day-tank.md)** (intermediate scale): A small tank furnace charged, melted, and worked in a single day. Capacity: 200-2000 kg. Charged in the morning, melted by midday, worked in the afternoon, drained or cooled overnight. Allows larger batches than pot furnaces without the capital investment of a full continuous tank. Good for art glass and specialty production.
 
-### Glass Batch Calculation
+## Glass Batch Calculation
 
 Calculating batch weights from a desired glass composition:
 
@@ -292,6 +292,6 @@ Calculating batch weights from a desired glass composition:
 - [Energy: Charcoal](../energy/charcoal.md) — furnace fuel
 - [Energy: Electric Furnaces](../energy/electric-furnaces.md) — electric melting for high-quality glass
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*
+
+[← Back to Glass](index.md)

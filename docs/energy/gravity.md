@@ -8,7 +8,6 @@
 > **Outputs**: water_power, mechanical_rotation, ground_grain, pumped_water
 > **Critical**: No — water power provides reliable mechanical energy but alternative power sources (steam, wind) can substitute where water is unavailable
 
-### Overview
 
 Water power converts the gravitational potential energy of flowing or falling water into rotational mechanical work. Historically the first non-animal industrial power source, water wheels enabled surplus grain milling, metalworking (bellows and trip hammers), wood sawing, and textile fulling centuries before wind or steam. A reliable stream with 2 m of head and 100 L/s flow can deliver ~1.5 kW (2 HP) of continuous mechanical power — day and night, rain or shine, fuel-free.
 
@@ -17,7 +16,7 @@ Water power converts the gravitational potential energy of flowing or falling wa
 - Where: η = overall efficiency (0.20-0.90 depending on wheel/turbine type), ρ = water density (1000 kg/m³), g = gravitational acceleration (9.81 m/s²), Q = volumetric flow rate (m³/s), H = available head (m)
 - Example: Overshot wheel, η = 0.65, Q = 0.1 m³/s, H = 4 m → P = 0.65 × 1000 × 9.81 × 0.1 × 4 = ~2,551 W (~3.4 HP)
 
-### Water Wheel Types
+## Water Wheel Types
 
 **[Undershot wheel](../glossary/undershot-wheel.md)** (simplest, lowest efficiency — ancient, widely used):
 - **Principle**: Flat paddles dip into flowing water below the wheel. Water current pushes paddles, turning the wheel. No head required — works on horizontal flow velocity alone.
@@ -122,7 +121,7 @@ Water power converts the gravitational potential energy of flowing or falling wa
 - Needs dam or weir plus headrace — substantial civil engineering
 - Vulnerable to flood damage and winter icing of headrace
 
-### Dam and Mill Pond Construction
+## Dam and Mill Pond Construction
 
 **[Dam basics](../glossary/dam-basics.md)** (creating the head and pond):
 - **[Earth dam](../glossary/earth-dam.md)** (simplest): Compacted clay core with earth and stone shoulders. Height 2-5 m, crest width 2-3 m, upstream slope 1:2 (horizontal:vertical), downstream slope 1:2.5. Puddle clay core (0.5-1 m thick) keyed into natural subsoil to prevent seepage. Overflow spillway on one side to pass flood water safely.
@@ -130,7 +129,7 @@ Water power converts the gravitational potential energy of flowing or falling wa
 - **Masonry dam**: Stone blocks laid in lime or cement mortar on bedrock. Requires quarry stone, masonry skills, and cement. For heads 3-8 m. Longest-lasting option.
 - **Mill pond**: Storage volume to buffer flow variability. Even a small pond (50-200 m³) allows the wheel to run at full power during brief low-flow periods. Intake screen (timber bar rack with 5-10 cm spacing) prevents debris from entering the headrace.
 
-### Water Turbines
+## Water Turbines
 
 Water turbines replace water wheels where higher heads and efficiencies are available. They rotate faster (100-1000+ RPM vs. 5-20 RPM for wheels) and are far more compact for equivalent power. Turbines require iron or steel construction and precision machining — they are a post-water-wheel technology dependent on `machine-tools`.
 
@@ -188,7 +187,7 @@ Water turbines replace water wheels where higher heads and efficiencies are avai
 - **Advantages**: Excellent for low-head, high-flow sites where Francis turbines would be too large. Adjustable blades maintain efficiency across varying flows. Compact for its power.
 - **Limitations**: Requires the most precision manufacturing of any turbine type. Cavitation risk is high at low heads — runner must be set below tailwater level.
 
-### Power Transmission
+## Power Transmission
 
 **[Getting rotational power from wheel/turbine to the load:](../glossary/getting-rotational-power-from-wheelturbine-to-the-load.md)**
 
@@ -202,7 +201,7 @@ Water turbines replace water wheels where higher heads and efficiencies are avai
 - **Wooden gears**: Apple, hornbeam, or ironbark teeth on oak hubs. Grease with tallow. Wooden teeth wear and break — designed for easy replacement. Typical gear ratio 3:1 to 8:1 from water wheel to millstones.
 - **Iron gears**: Cast iron gear rims with machined teeth, far more durable. Require foundry and machine tools. Standard for all post-1700 installations.
 
-### Site Assessment and Construction Sequence
+## Site Assessment and Construction Sequence
 
 1. **Survey for head and flow**: Measure available fall (head) with level and staff — even 1 m of head is usable. Estimate flow by timing a float over a known distance (surface speed × 0.8 × cross-section area ≈ flow rate). Record seasonal variations — a wheel sized for spring flood will idle in summer drought.
 2. **Select wheel type by head**: 0-1 m → undershot; 1-3 m → breastshot; 3+ m → overshot. Higher heads open turbine options.
@@ -212,7 +211,7 @@ Water turbines replace water wheels where higher heads and efficiencies are avai
 6. **Connect to load**: Millstones, saw, bellows, or generator. Gear ratio and belt drive to match load speed requirements.
 7. **Maintain**: Grease bearings daily (tallow). Inspect for ice damage after winter. Replace worn paddles/buckets. Clear debris from intake screen and tailrace.
 
-### Water Power Parameters (Quick Reference)
+## Water Power Parameters (Quick Reference)
 
 | Parameter | Undershot | Breastshot | Overshot | Pelton | Francis | Kaplan |
 |-----------|-----------|------------|----------|--------|---------|--------|
@@ -223,7 +222,7 @@ Water turbines replace water wheels where higher heads and efficiencies are avai
 | Construction | Wood | Wood/iron | Wood/iron | Iron/steel | Iron/steel | Iron/steel |
 | Precision required | Low | Low | Moderate | Moderate | High | Very high |
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Dam failure**: Dam breaches release catastrophic flood waves. Historical death tolls in thousands. Proper dam construction: wide base, compacted earth or masonry, overflow spillway for flood events, regular inspection for seepage and cracking. Never build large dams on unstable foundations.
 - **Water wheel entanglement**: Water wheels and turbines have powerful rotating components. Guard all accessible moving parts. Never approach a running water wheel — the force can pull a person under. Emergency stop mechanism for maintenance.
@@ -231,7 +230,7 @@ Water turbines replace water wheels where higher heads and efficiencies are avai
 - **Flash floods**: Water-powered installations on rivers are vulnerable to flash floods. Monitor upstream conditions. Emergency shutdown procedure. Evacuation plan for flood events.
 - **Drowning**: Working near water intakes, dams, and mill races. Drowning risk. Safety ropes. Never work alone near water installations. Life jackets when working on or near water.
 
-### Dam Construction in Detail
+## Dam Construction in Detail
 
 **Earth dam cross-section**: A small earth dam for a mill pond (2-10 m height) follows a standard profile. The clay core is the waterproof barrier, 1-2 m wide at the crest and expanding to 3-5 m at the base in a trapezoidal shape. The core is keyed into the natural subsoil or bedrock (a trench cut below the dam base and filled with puddled clay) to prevent under-seepage. On both sides of the core, compacted earth shoulders provide structural mass.
 
@@ -241,7 +240,7 @@ Water turbines replace water wheels where higher heads and efficiencies are avai
 
 **Overflow spillway**: A concrete or masonry spillway with an ogee crest (S-shaped profile matching the underside of a nappe of falling water) is the safest flood passage. The spillway is sized for the maximum probable flood, not the average flood. For small dams, a broad-crested weir or drop-inlet spillway may substitute. The spillway must be separate from the dam embankment if possible (cut into the adjacent hillside) so that overflow never flows over the earth dam itself, which would erode it rapidly.
 
-### Water Wheel Efficiency Comparison
+## Water Wheel Efficiency Comparison
 
 **Undershot wheel (20-30% efficient)**: The simplest construction but least efficient. Flat paddles dip into the current and the wheel is driven entirely by the impulse of flowing water. Most energy is lost to turbulence as water deflects around the paddles without doing work. Improved versions use a close-fitting stone or timber channel (mill race) that concentrates flow onto the paddles, raising efficiency to perhaps 30%. Best for flat terrain with no available head.
 
@@ -249,7 +248,7 @@ Water turbines replace water wheels where higher heads and efficiencies are avai
 
 **Overshot wheel (60-75% efficient)**: Water is delivered to the top of the wheel via a headrace and flume, filling buckets at the crown. This is primarily a gravity machine: the weight of water in the descending half of the wheel provides the driving force. The buckets must be closely spaced with retaining lips to hold water during the descent, and the wheel must be sized so buckets empty cleanly at the bottom without dragging water back up. The headrace requires its own engineering: a wooden flume or stone-lined channel delivering water from the mill pond to the wheel crown, with a sluice gate for flow control.
 
-### Power Transmission with Wooden Gear Trains
+## Power Transmission with Wooden Gear Trains
 
 **Lantern pinion and crown gear**: The standard gear pair for converting slow wheel rotation to faster output speeds. The crown gear (also called the wallower or face gear) is a flat disc with wooden or iron teeth pegged around its circumference. The lantern pinion is a pair of flanged discs connected by iron or hardwood staves (round pins). The two mesh at 90° to transfer motion between horizontal wheel shaft and vertical millstone shaft. A single stage achieves 3-5:1 speed ratio.
 
@@ -259,7 +258,7 @@ Water turbines replace water wheels where higher heads and efficiencies are avai
 
 **Multi-stage gearing**: For applications needing higher speed ratios (such as driving a generator from a slow water wheel), two or more gear stages are cascaded. Each stage adds a 3-5:1 ratio, so two stages yield 9-25:1 and three stages yield 27-125:1. Each stage introduces friction losses of 2-5%, so total transmission efficiency drops with each added stage. A well-maintained two-stage wooden gear train transmits power at roughly 85-90% efficiency.
 
-### Specific Power Calculation Examples
+## Specific Power Calculation Examples
 
 The fundamental hydraulic power formula P = η × ρ × g × Q × H applies to every water power installation.
 
@@ -269,7 +268,7 @@ The fundamental hydraulic power formula P = η × ρ × g × Q × H applies to e
 
 **Example 3, Pelton turbine**: Mountain stream with 80 m head and 10 L/s (0.01 m³/s) flow. Pelton efficiency 88%: P = 0.88 × 1000 × 9.81 × 0.01 × 80 = 6,906 W ≈ 9.3 HP. Enough to drive a small generator producing 5-6 kW of electricity.
 
-### Dam Construction in Detail
+## Dam Construction in Detail
 
 **Earth dam cross-section**: A small earth dam for a mill pond (2-10 m height) follows a standard profile. The clay core is the waterproof barrier, 1-2 m wide at the crest and expanding to 3-5 m at the base in a trapezoidal shape. The core is keyed into the natural subsoil or bedrock (a trench cut below the dam base and filled with puddled clay) to prevent under-seepage. On both sides of the core, compacted earth shoulders provide structural mass.
 
@@ -279,7 +278,7 @@ The fundamental hydraulic power formula P = η × ρ × g × Q × H applies to e
 
 **Overflow spillway**: A concrete or masonry spillway with an ogee crest (S-shaped profile matching the underside of falling water) is the safest flood passage. The spillway is sized for the maximum probable flood, not the average flood. For small dams, a broad-crested weir or drop-inlet spillway substitutes. The spillway should be cut into the adjacent hillside so overflow never flows over the earth dam itself.
 
-### Water Wheel Efficiency Comparison
+## Water Wheel Efficiency Comparison
 
 **Undershot wheel (20-30% efficient)**: The simplest construction but least efficient. Flat paddles dip into the current. Improved versions use a close-fitting stone or timber channel that concentrates flow onto the paddles, raising efficiency to perhaps 30%. Best for flat terrain with no available head.
 
@@ -287,7 +286,7 @@ The fundamental hydraulic power formula P = η × ρ × g × Q × H applies to e
 
 **Overshot wheel (60-75% efficient)**: Water delivered to the top via headrace and flume fills buckets at the crown. Primarily a gravity machine. Buckets must be closely spaced with retaining lips and sized to empty cleanly at the bottom.
 
-### Power Transmission with Wooden Gear Trains
+## Power Transmission with Wooden Gear Trains
 
 **Lantern pinion and crown gear**: The standard gear pair for converting slow wheel rotation to faster output. The crown gear (face gear) is a flat disc with wooden or iron teeth pegged around its circumference. The lantern pinion is a pair of flanged discs connected by iron or hardwood staves. The two mesh at 90°. A single stage achieves 3-5:1 speed ratio.
 
@@ -301,7 +300,7 @@ The fundamental hydraulic power formula P = η × ρ × g × Q × H applies to e
 
 **Line shaft distribution**: A single water wheel of 10 HP can drive an entire small workshop of 5-8 machines simultaneously via a horizontal line shaft. The iron shaft (50-100 mm diameter) runs the length of the workshop, supported by hung bearings from ceiling joists. Each machine connects via its own belt drive from a countershaft, with cone pulleys providing 2-4 speed ranges.
 
-### Limitations
+## Limitations
 
 - **Power ceiling**: Water wheels top out at ~50-100 kW for the largest installations. Overshot wheels rarely exceed 3-4 m width and 10 m diameter due to structural limits of timber construction.
 - **Site dependency**: Water power requires flowing water with usable head. Suitable sites are fixed by geography and cannot be relocated. Drought and freezing can halt production seasonally.
@@ -309,7 +308,7 @@ The fundamental hydraulic power formula P = η × ρ × g × Q × H applies to e
 - **Head limitations**: Gravity-powered mechanical systems (weights, pendulums) provide extremely low energy density. A 1-tonne weight falling 10 m stores only 98 kJ — equivalent to ~2 grams of gasoline.
 - **Ice and debris**: Winter freezing blocks water channels. Debris (leaves, branches, silt) requires constant trash rack cleaning. Flood events can damage or destroy water wheel installations.
 
-### See Also
+## See Also
 
 - [Water Turbines](water-turbines.md) — Modern evolution of water power
 - [Pumped Hydro](pumped-hydro.md) — Gravity-based energy storage at scale
@@ -318,6 +317,6 @@ The fundamental hydraulic power formula P = η × ρ × g × Q × H applies to e
 - [Energy Storage](storage.md) — Overview of energy storage technologies
 - [Wind Power](wind.md) — Another renewable energy source
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+
+[← Back to Energy](index.md)

@@ -7,13 +7,13 @@
 > **Timeline**: Years 30-40
 > **Outputs**: ar_coated_lenses, aluminized_mirrors, coated_optical_components
 
-### Why Optical Coatings Matter
+## Why Optical Coatings Matter
 
 Every air-glass interface reflects a portion of incident light. For uncoated glass (refractive index n ≈ 1.5), Fresnel reflection at normal incidence is approximately 4% per surface ((n-1)/(n+1))² = (0.5/2.5)² = 0.04). A simple camera lens with 4 elements (8 air-glass surfaces) transmits only ~72% of entering light — 28% is lost to reflections. These reflections also cause ghost images, flare, and reduced contrast.
 
 Anti-reflection (AR) coatings reduce surface reflections, increasing light transmission and image quality. Reflective coatings maximize mirror reflectivity for telescopes, beam delivery, and illumination systems. Both are essential for [precision instruments](precision-instruments.md).
 
-### Vacuum Deposition Fundamentals
+## Vacuum Deposition Fundamentals
 
 Optical coatings are applied by **[thermal evaporation](../glossary/thermal-evaporation.md)** in a vacuum chamber — the most accessible deposition technology at bootstrap stage.
 
@@ -38,7 +38,7 @@ Optical coatings are applied by **[thermal evaporation](../glossary/thermal-evap
 - Porous, columnar film microstructure absorbs moisture over time, shifting optical properties (refractive index drifts upward by 1-3%)
 - Poor step coverage — films are thin on vertical surfaces, causing defects on non-planar substrates
 
-### Anti-Reflection Coating: Single-Layer MgF₂
+## Anti-Reflection Coating: Single-Layer MgF₂
 
 **Principle**: A single thin layer of magnesium fluoride (MgF₂) on a glass surface reduces reflection by destructive interference. Light reflected from the air-MgF₂ interface and the MgF₂-glass interface travel different optical path lengths. At the target wavelength, these reflected waves are exactly out of phase (180° difference) and cancel each other.
 
@@ -66,7 +66,7 @@ Optical coatings are applied by **[thermal evaporation](../glossary/thermal-evap
 - Residual ~1.3% reflection per surface — insufficient for multi-element lens systems where 8+ surfaces compound losses
 - Wavelength-dependent performance: reflection dips to 1.3% only at the 550 nm design wavelength; rises to ~2% at spectrum edges
 
-### Mirror Coating: Aluminum
+## Mirror Coating: Aluminum
 
 **Principle**: Evaporate a thin layer of pure aluminum onto a polished glass (or other) substrate. The aluminum layer, typically 80-150 nm thick, forms a highly reflective metallic surface.
 
@@ -93,7 +93,7 @@ Optical coatings are applied by **[thermal evaporation](../glossary/thermal-evap
 - 92% reflectivity is lower than silver (~95%) and protected-silver coatings (~97%), losing 8% of incident light per reflection
 - Aluminum is soft (Mohs 2-3) — bare coatings scratch easily during cleaning; SiO₂ overcoat is needed for durability
 
-### Thickness Monitoring
+## Thickness Monitoring
 
 Precise control of coating thickness is essential — the difference between a functional AR coating and a useless one is ~10 nm (10% of the target thickness).
 
@@ -117,7 +117,7 @@ Precise control of coating thickness is essential — the difference between a f
 - QCM crystals degrade with accumulated coating mass and must be replaced every 10-20 depositions
 - Optical monitoring requires optical access through the chamber (viewport) and is difficult to implement for complex multi-layer stacks
 
-### Coating Defects and Troubleshooting
+## Coating Defects and Troubleshooting
 
 - **Pinholes**: Small uncoated spots caused by dust on the substrate or spitting from the evaporation source. Prevent by thorough substrate cleaning and pre-melting source material with shutter closed. Pinholes scatter light and reduce coating performance.
 - **Poor adhesion**: Coating flakes or rubs off substrate. Caused by contaminated substrates (oils, fingerprints) or insufficient substrate cleaning. Plasma cleaning (glow discharge in vacuum) immediately before deposition improves adhesion by removing the last molecular layers of contamination.
@@ -125,7 +125,7 @@ Precise control of coating thickness is essential — the difference between a f
 - **Stress cracking**: Coating cracks after removal from vacuum. Caused by excessive thermal stress (substrate too hot during deposition) or intrinsic stress in the film. MgF₂ tends toward compressive stress; aluminum has tensile stress. Control deposition rate and substrate temperature.
 - **Haze/scattering**: Coated surface appears foggy rather than clear. Caused by porous film (deposited at too high a chamber pressure), or by micro-particles from a dirty chamber. Clean chamber regularly. Ensure adequate base pressure before deposition.
 
-### Coating Performance Summary
+## Coating Performance Summary
 
 | Coating Type | Layers | Thickness (nm) | Reflection (%) | Bandwidth | Durability |
 |---|---|---|---|---|---|
@@ -137,7 +137,7 @@ Precise control of coating thickness is essential — the difference between a f
 | Protected aluminum (Al+SiO₂) | 2 | 100+80 | ~91 across 400-700 nm | Broad | Good |
 | Dielectric mirror (HL)⁵H | 11 | ~1500 total | >99.5 at design λ | ±90 nm | Excellent |
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Vacuum chamber implosion**: Glass bell jars and vacuum chambers under vacuum can collapse violently if cracked or chipped. Wrap glass bell jars with tape or mesh for fragmentation retention. Inspect for chips, scratches, and star cracks before every use — never use damaged glassware under vacuum. Metal chambers are preferred for safety. Wear face shield when pumping down or venting.
 - **Hot evaporation sources**: Tungsten boats and baskets operate at 1200-2000°C during deposition — glowing yellow-white. Severe thermal burns on contact. Allow sources to cool fully (10-20 minutes) before opening chamber. Handle boats with tongs during loading and unloading.
@@ -145,7 +145,7 @@ Precise control of coating thickness is essential — the difference between a f
 - **Vacuum pump fluids**: Diffusion pumps use silicone or hydrocarbon oil that can backstream into the chamber and contaminate coatings. Use a cold trap (liquid nitrogen or chilled baffle) between pump and chamber. Diffusion pump oil is hot during operation (~200°C) — thermal burn risk if pump is opened while hot.
 - **Electrical hazards**: Evaporation sources carry high current (10-50 A) at low voltage (3-10 V) from a heavy-duty power supply. The current is sufficient to cause severe burns or fire if cables short. Insulate all connections. Use properly rated cables and connectors. Interlock the chamber door to cut power when opened.
 
-### Multi-Layer Anti-Reflection Coatings
+## Multi-Layer Anti-Reflection Coatings
 
 Single-layer MgF₂ reduces reflection to ~1.3% at one wavelength. Multi-layer coatings push this further by adding additional quarter-wave layers of alternating high and low refractive index materials.
 
@@ -175,7 +175,7 @@ Single-layer MgF₂ reduces reflection to ~1.3% at one wavelength. Multi-layer c
 - Each additional layer requires ±2 nm thickness control — cumulative error degrades performance
 - Longer deposition time per batch (1-3 hours for 4 layers vs. 20 minutes for single-layer) reduces throughput
 
-### High-Reflection Coatings
+## High-Reflection Coatings
 
 **Quarter-wave stack (dielectric mirror)**:
 - Principle: alternate quarter-wave layers of high-index (H) and low-index (L) materials. At the design wavelength, reflections from each interface add constructively (in phase), building up total reflectivity. The more layer pairs, the higher the reflectivity.
@@ -203,7 +203,7 @@ Single-layer MgF₂ reduces reflection to ~1.3% at one wavelength. Multi-layer c
 - Metal absorption limits maximum reflectivity to ~97-98% (vs. >99.9% for pure dielectric stacks)
 - Aluminum thermal expansion mismatch with dielectric layers can cause stress cracking under thermal cycling
 
-### Optical Filters
+## Optical Filters
 
 **Bandpass interference filters**:
 - Design: two quarter-wave reflector stacks separated by a half-wave spacer layer (Fabry-Perot cavity). The cavity creates a narrow transmission peak between two reflection bands.
@@ -223,7 +223,7 @@ Single-layer MgF₂ reduces reflection to ~1.3% at one wavelength. Multi-layer c
 - Metallic ND filters: thin Inconel (Ni-Cr-Fe alloy) or carbon film deposited on glass. Optical density proportional to film thickness. OD 0.1 (79% transmission) to OD 4.0 (0.01% transmission). Spectrally flat from 400-2000 nm. Absorbing: incident power converts to heat, which limits maximum power handling.
 - Reflective ND filters: partially transparent metallic film that reflects rather than absorbs. Lower thermal load. Used for high-power laser applications.
 
-### Sputter Deposition
+## Sputter Deposition
 
 Thermal evaporation produces porous, columnar films that absorb moisture over time, shifting their optical properties. Sputtering produces denser, more durable coatings.
 
@@ -243,7 +243,7 @@ Thermal evaporation produces porous, columnar films that absorb moisture over ti
 **RF sputtering for insulators**:
 - DC sputtering only works with conductive targets (charge buildup on insulating targets stops the process). RF sputtering at 13.56 MHz alternates the polarity, preventing charge accumulation. Works for SiO₂, TiO₂, Al₂O₃, and other dielectric coating materials. Requires an impedance-matching network between the RF generator and the sputtering chamber.
 
-### Durable Coatings for Demanding Applications
+## Durable Coatings for Demanding Applications
 
 **Hard carbon coatings for IR optics**:
 - Germanium and zinc selenide IR optics (thermal imaging, 8-14 μm band) require anti-reflection coatings that survive harsh environments. Diamond-like carbon (DLC) coatings provide both AR function (n ≈ 1.8-2.2, intermediate between air and Ge at n ≈ 4.0) and extreme mechanical durability (hardness ~20-40 GPa). DLC is deposited by plasma-enhanced chemical vapor deposition (PECVD) from hydrocarbon gas (CH₄ or C₂H₂). Thickness: 1-3 μm. Survives rain erosion at high velocity, sand impact, and salt spray.
@@ -254,13 +254,13 @@ Thermal evaporation produces porous, columnar films that absorb moisture over ti
 - Typical performance: electron-beam deposited SiO₂/Ta₂O₅ stacks achieve >1 J/cm² LDT at 1064 nm, 10 ns pulse. Ion-assisted deposition (IAD, where an ion beam bombards the growing film) produces denser films with LDT >5 J/cm².
 - Thermal management: high-power CW laser mirrors (kW-class) absorb 0.1-1% of incident power as heat. Substrate must be thermally conductive (copper, aluminum, or silicon) and may require active water cooling. Coating thermal expansion mismatch causes stress that can crack the film if temperature excursions exceed ~50°C.
 
-### Coating Design and Simulation
+## Coating Design and Simulation
 
 Designing multi-layer coatings requires calculating reflection and transmission for arbitrary stacks of thin films. The transfer matrix method solves this: each layer is represented by a 2×2 matrix relating electric field amplitudes at its boundaries. The total stack response is the matrix product of all individual layer matrices.
 
 For bootstrap design work, a simple spreadsheet can compute reflectivity of a 1-4 layer stack at normal incidence. The inputs are layer thicknesses, refractive indices, and the wavelength range. Iterate layer parameters to minimize reflection (AR) or maximize reflection (mirror) at the target wavelength. Free software tools (OpenFilters, Essential Macleod) automate this optimization for complex designs.
 
-### Coating Durability Testing
+## Coating Durability Testing
 
 Applied coatings must survive handling, cleaning, and environmental exposure. Standard tests qualify coating durability:
 
@@ -269,7 +269,7 @@ Applied coatings must survive handling, cleaning, and environmental exposure. St
 - **Humidity test**: Expose coated optics to 95% relative humidity at 50°C for 24 hours. Inspect for haze, spotting, or adhesion failure. Porous thermal-evaporated films are more susceptible than dense sputtered films. Humidity causes refractive index shifts in porous films as water fills voids, permanently altering the optical performance.
 - **Salt spray (for external optics)**: Expose to 5% NaCl fog at 35°C for 24-48 hours per ASTM B117. Simulates marine and coastal environments. Tests both coating and substrate corrosion resistance. Protected aluminum mirrors (SiO₂ overcoat) survive; bare aluminum develops pinhole corrosion.
 
-### Half-Wave Absentee Layers and Matching
+## Half-Wave Absentee Layers and Matching
 
 A half-wave optical thickness layer (λ/2n physical thickness) acts as an absentee layer at the design wavelength. It has no effect on the reflectance or phase of the stack at that wavelength, because the round-trip optical path through the layer is exactly one wavelength, returning the reflected and transmitted beams to their original phase relationship.
 
@@ -277,7 +277,7 @@ This property is useful as a spacer and matching tool. In a quarter-wave stack m
 
 Half-wave layers also serve as non-interfering "buffer" layers during deposition. If a particular material combination has poor adhesion or high stress, a thin half-wave layer of a compatible intermediate material (often Al₂O₃, n ≈ 1.62) can be inserted without affecting optical performance, improving mechanical durability.
 
-### Admittance Diagrams for Multi-Layer Optimization
+## Admittance Diagrams for Multi-Layer Optimization
 
 The optical admittance of a coating stack at each interface determines the overall reflectance. Admittance Y is defined as the ratio of the magnetic to electric field amplitudes at a given plane in the coating. Starting from the substrate (admittance Y_sub = n_sub), each layer transforms the admittance according to its thickness and refractive index. Plotting the admittance trajectory in the complex plane (real vs. imaginary parts) as you move through the layer stack reveals the coating behavior at a glance.
 
@@ -285,7 +285,7 @@ An admittance circle traces a semicircle in the complex plane for each quarter-w
 
 This graphical approach helps designers understand why certain layer sequences work, diagnose problems in existing designs (a loop in the admittance plot indicates an impedance mismatch at that wavelength), and identify where additional layers would help. It is especially valuable for non-quarter-wave designs, where layer thicknesses deviate from the λ/4 rule and the admittance trajectory is not a simple semicircle.
 
-### Thermal Evaporation Process Parameters
+## Thermal Evaporation Process Parameters
 
 **Resistive evaporation**: A tungsten or molybdenum boat (0.1-0.5 mm thick sheet, folded into a "V" or dimpled shape) carries the source material. Current of 10-50 A at 3-10 V heats the boat by Joule heating. Temperature control is by variac or SCR power supply. Deposition rate depends on source temperature and source-to-substrate distance: typical rates 0.1-5 nm/s for common coating materials. The quartz crystal monitor reads thickness in real time with ±1 nm accuracy, and the operator manually adjusts power to maintain a constant rate.
 
@@ -313,6 +313,6 @@ This graphical approach helps designers understand why certain layer sequences w
 - [Chemistry](../chemistry/index.md) — precursor materials, solvent supply
 - [Glass](../glass/index.md) — optical glass substrates
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Optics](./index.md) • [All Domains](../index.md)*
+
+[← Back to Optics](index.md)

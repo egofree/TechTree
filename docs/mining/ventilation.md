@@ -44,7 +44,7 @@ The simplest ventilation relies on density differences between air columns in tw
 - Maximum effective depth ~200-300 m with dual shafts — deeper mines need mechanical assistance
 - Cannot adjust airflow volume — design is fixed by shaft geometry and climate
 
-### Furnace Ventilation
+## Furnace Ventilation
 
 When natural draft is insufficient, a fire at the base of the upcast shaft heats the exhaust air column, increasing the density difference and driving force.
 
@@ -68,7 +68,7 @@ When natural draft is insufficient, a fire at the base of the upcast shaft heats
 - No airflow control — fire must burn continuously or mine gases accumulate
 - Fuel consumption of 20-100 kg/hour adds ongoing cost and logistics burden
 
-### Fan Ventilation
+## Fan Ventilation
 
 Mechanical fans provide controlled, reliable airflow regardless of weather or season. Two main types serve mine ventilation: centrifugal and axial.
 
@@ -93,7 +93,7 @@ Mechanical fans provide controlled, reliable airflow regardless of weather or se
 - Fan and motor represent a single point of failure — loss of power stops all ventilation
 - Centrifugal impellers at 500-2000 RPM create noise and vibration requiring robust mountings
 
-### Ventilation Network Design
+## Ventilation Network Design
 
 **[Forcing system](../glossary/forcing-system.md)** (fan on intake side):
 - Fan pushes fresh air into the mine. The mine is pressurized relative to atmosphere (positive pressure of 100-500 Pa inside). Leakage tends to be outward (mine air escaping to surface through cracks and old workings), which is safer than inward leakage of contaminated air.
@@ -111,7 +111,7 @@ Mechanical fans provide controlled, reliable airflow regardless of weather or se
 - Exhausting auxiliary fan: pulls contaminated air from the face through duct. Fresh air enters the heading naturally from the main ventilation. Better for dust and fume removal at the face, but the fan handles dirty air and needs more maintenance.
 - Effective range: duct friction limits airflow to 100-200 m from the fan for a single stage. Longer headings require booster fans in series, spaced every 100-150 m.
 
-### Air Quantity Requirements
+## Air Quantity Requirements
 
 Minimum airflow rates for underground mines, calculated from the sum of all contaminant sources:
 
@@ -125,7 +125,7 @@ Minimum airflow rates for underground mines, calculated from the sum of all cont
 
 **Example calculation**: A heading with 10 workers and one 50 kW diesel loader requires 0.03 × 10 + 0.06 × 50 = 3.3 m³/s minimum. After blasting 20 kg of explosive, an additional 0.6-1.0 m³/s is needed for 15-30 minutes. Practical design provides 150-200% of minimum to account for leakage (10-30% of total airflow leaks through seals and old workings) and uneven distribution.
 
-### Methane Detection and Control
+## Methane Detection and Control
 
 Methane (CH₄) seeps from coal seams and carbonaceous rock. It is colorless, odorless, and explosive at 5-15% concentration in air. Ignition temperature: 595°C. A single spark from a rock fall, electrical switch, or static discharge can trigger a detonation.
 
@@ -140,7 +140,7 @@ Methane (CH₄) seeps from coal seams and carbonaceous rock. It is colorless, od
 - Methane is lighter than air (density 0.72 kg/m³ vs. 1.2 kg/m³ for air). In poorly ventilated headings, methane accumulates in the roof zone as a distinct, invisible layer. The layer thickens over time until it reaches an ignition source (ceiling-mounted equipment, roof bolt drilling, even static discharge from ventilation duct).
 - Prevention: minimum air velocity of 0.5 m/s at the roof to disrupt stratification and mix the methane with the main airflow. Higher velocities (1.0-2.0 m/s) provide a greater safety margin. In inclined headings (where methane tends to flow uphill), airflow must be directed upward to sweep the gas out.
 
-### Mine Air Cooling
+## Mine Air Cooling
 
 In deep mines (below 1000-1500 m), the virgin rock temperature reaches 35-50°C due to the geothermal gradient. Ventilation alone cannot maintain acceptable working conditions at these depths because the air heats up as it travels through the workings. The wet-bulb temperature (which accounts for humidity and determines the actual thermal stress on workers) must be kept below 28-30°C for sustained work.
 
@@ -149,7 +149,7 @@ In deep mines (below 1000-1500 m), the virgin rock temperature reaches 35-50°C 
 - Refrigeration plant: vapor-compression cycle, typically ammonia (NH₃) or R-134a as the refrigerant. Compressor (500-2000 kW) driven by electric motor. Condenser cooled by surface water (cooling tower or river). Evaporator cools the chilled water circuit. Coefficient of performance (COP): 3-5 (removes 3-5 kW of heat per kW of compressor input).
 - A large deep mine may require 5-20 MW of refrigeration capacity. The chilled water circuit (100-200 mm pipe) is insulated (polyurethane foam, 25-50 mm thick) to minimize heat gain during the long descent to the working levels.
 
-### Dust Control
+## Dust Control
 
 Rock dust, especially crystalline silica (quartz), causes silicosis when inhaled. Particles smaller than 10 μm reach the bronchioles. Particles below 5 μm penetrate deep into the alveoli, where the body cannot expel them. Silicosis is irreversible, progressive, and fatal over 10-30 years of exposure.
 
@@ -167,7 +167,7 @@ Rock dust, especially crystalline silica (quartz), causes silicosis when inhaled
 - **[Half-face respirator](../glossary/half-face-respirator.md)** with P100 filter cartridges: tight seal required on face. Fit testing mandatory (quantitative fit test: the wearer performs exercises in a test aerosol, and the respirator must demonstrate a fit factor > 100). Inhalation resistance increases as filter loads with dust. Cartridges replaced when breathing becomes noticeably difficult or after 40-80 hours of use.
 - **Powered air-purifying respirator (PAPR)**: battery-driven fan (4-8 hours per charge) pulls air through HE filters and delivers clean air under positive pressure to a hood or full facepiece. No breathing resistance. Filter class HE (high efficiency, 99.97% at 0.3 μm). The positive pressure means that even a poor face seal does not allow contaminated air inward.
 
-### Airway Resistance and Fan Sizing
+## Airway Resistance and Fan Sizing
 
 Airflow through a mine is governed by fluid dynamics. The pressure drop across each airway segment depends on its dimensions and surface roughness:
 
@@ -175,7 +175,7 @@ Airflow through a mine is governed by fluid dynamics. The pressure drop across e
 - **[Resistance](../glossary/resistance.md)** depends on cross-section, perimeter, length, and roughness. A 3×3 m heading with smooth concrete walls has a resistance of roughly 0.005 Ns²/m⁸ per 100 m length. The same heading with rough, timber-supported walls and scattered equipment has 2-5× higher resistance.
 - **Fan selection**: calculate total mine resistance at design airflow, add 20-30% margin for future development and aging (airways roughen with time, new headings add resistance). Select a fan whose pressure-volume characteristic curve passes through this operating point at or near its peak efficiency (typically 65-80% for well-designed fans).
 
-### Ventilation Surveying
+## Ventilation Surveying
 
 Measuring actual airflow and pressure distribution in an operating mine identifies problems: short-circuits (air bypassing working areas), recirculation (contaminated air drawn back into intake), and inadequate flow at individual faces.
 
@@ -190,7 +190,7 @@ Measuring actual airflow and pressure distribution in an operating mine identifi
 - A barometer or differential pressure gauge (manometer, diaphragm type, 0-2000 Pa range) measures static pressure at key points in the ventilation network. By measuring pressure drop across each airway segment, the resistance of each segment can be calculated and compared to design values. High resistance indicates an obstruction (roof fall, equipment blocking the airway, closed door) that needs attention.
 - The survey is conducted by walking the entire ventilation circuit from intake to exhaust, recording pressure, velocity, and temperature at each measuring station. A complete survey of a medium mine takes 4-8 hours and should be performed monthly or after any significant change in mine layout.
 
-### Emergency Ventilation
+## Emergency Ventilation
 
 Normal ventilation fails when power is lost, fans break down, or a fire underground reverses airflow. Emergency procedures must be pre-planned and practiced.
 
@@ -203,14 +203,14 @@ Normal ventilation fails when power is lost, fans break down, or a fire undergro
 - A fire in the mine produces hot gases that create their own chimney effect, potentially reversing normal airflow direction and drawing smoke and CO through the mine in an unexpected direction. This is the most dangerous ventilation emergency.
 - Reversing the main fan (if equipped with reversible motors) can push fresh air down the return shaft and force smoke out the intake, providing an escape route. Not all fans are reversible; this must be designed in at installation.
 
-### Man Doors and Air Locks
+## Man Doors and Air Locks
 
 Every point where personnel must cross between intake and return airways needs a door system that prevents air from short-circuiting.
 
 - **Single doors**: a heavily-built door (steel or timber frame, sheet metal or heavy timber facing) that opens toward the higher-pressure side (so air pressure holds it closed). Rubber or felt sealing strips around the edges reduce leakage. A single door leaks 0.5-2 m³/s depending on pressure differential and fit quality.
 - **Air locks**: two doors in series, 5-10 m apart. Only one door is open at a time (person enters the lock, closes the first door, then opens the second). Air locks reduce leakage to near zero and are required at high-pressure barriers (between intake and return near the fan). The lock chamber is sized to accommodate a mine crew (2-3 m wide, 3-5 m long).
 
-### Key Deliverables
+## Key Deliverables
 
 - Natural ventilation design for shallow mines
 - Furnace ventilation as interim solution

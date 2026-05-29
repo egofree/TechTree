@@ -8,7 +8,7 @@
 > **Outputs**: fiber, packing_transport, guard_services, manure
 > **Critical**: No — valuable for luxury fiber and guard services but not essential for basic food security
 
-## 1. Overview
+## Overview
 
 South American camelids — alpacas (*Vicugna pacos*) and llamas (*Lama glama*) — are dual-purpose livestock providing luxury fiber (alpacas) and pack transport plus guard duties (llamas). Domesticated in the Andes over 6,000 years ago, they are exceptionally well-adapted to marginal land, require minimal infrastructure compared to other livestock, and have few health problems. Alpacas produce 2-5 kg of fine fleece every 12-18 months in a range of 22 natural colors. Llamas carry 25-30% of their body weight as pack animals and a single llama can serve as an effective guardian for a flock of 200+ sheep against canine and coyote predators.
 
@@ -25,7 +25,7 @@ South American camelids — alpacas (*Vicugna pacos*) and llamas (*Lama glama*) 
 | Water/day | 5-10 L | 10-20 L |
 | Manure/day | 5-8 kg | 8-12 kg |
 
-## 2. Prerequisites
+## Prerequisites
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -36,7 +36,7 @@ South American camelids — alpacas (*Vicugna pacos*) and llamas (*Lama glama*) 
 | Shearing tools (hand shears or electric) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Every 12-18 months |
 | Loose mineral supplement (no copper) | [`mining`](../mining/index.md) | Use sheep mineral formulation |
 
-## 3. Bill of Materials
+## Bill of Materials
 
 Materials listed per 10-alpaca fiber herd per year.
 
@@ -49,9 +49,9 @@ Materials listed per 10-alpaca fiber herd per year.
 | Halter and lead rope | 10 sets | [`textiles`](../textiles/index.md) | For handling and training |
 | Fencing (1.0-1.2 m woven wire) | Perimeter of pasture | [`metals`](../metals/index.md) | Standard sheep fencing suffices |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Fiber Production (Alpaca)
+## 4.1 Fiber Production (Alpaca)
 
 **Principle**: Alpacas produce 2-5 kg of fine fleece (18-30 microns) every 12-18 months in 22 natural colors. The fiber has no lanolin (unlike sheep wool) and can be spun directly. Alpaca fiber has a hollow core, making it lighter and warmer than sheep wool of equivalent diameter.
 
@@ -81,7 +81,7 @@ Materials listed per 10-alpaca fiber herd per year.
 - Fiber diameter increases with age — older animals produce coarser, less valuable fleece
 - Low individual yield (2-5 kg/year) requires larger herds for commercial fiber production
 
-### 4.2 Guard Llama Services
+## 4.2 Guard Llama Services
 
 **Principle**: A single llama bonded to a sheep flock provides effective predator defense through instinctive alarm-calling, positioning between flock and threat, and charging/kicking/stomping approaching predators. No training required — the behavior is innate.
 
@@ -111,7 +111,7 @@ Materials listed per 10-alpaca fiber herd per year.
 - Initial bonding period of 1-2 weeks requires small pen management
 - Llama may interfere with herding dogs — coordinate guardian and herding strategies
 
-### 4.3 Pack Transport (Llama)
+## 4.3 Pack Transport (Llama)
 
 **Principle**: Llamas carry 25-30% of body weight (30-60 kg) over rough, mountainous terrain where horses and mules cannot safely travel. Their soft-padded feet minimize trail erosion. Distance: 15-20 km/day on trails.
 
@@ -140,7 +140,7 @@ Materials listed per 10-alpaca fiber herd per year.
 - Requires balance — unbalanced loads cause saddle sores within hours
 - Limited to terrain navigable on foot — cannot cross deep water or very steep rock faces
 
-### 4.4 Reproduction and Cria Care
+## 4.4 Reproduction and Cria Care
 
 **Principle**: Camelids are induced ovulators — females do not have a heat cycle, ovulation is triggered by the act of breeding. Gestation is 11.5 months (350 days). Single cria per pregnancy; twins are extremely rare.
 
@@ -172,9 +172,9 @@ Materials listed per 10-alpaca fiber herd per year.
 - Crias born without passive immunity — 4-hour colostrum window is critical and unforgiving
 - First-time mothers may have poor maternal behavior — require monitoring
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Fiber Grading (Alpaca)
+## Fiber Grading (Alpaca)
 
 | Grade | Micron Range | Quality | Use |
 |-------|-------------|---------|-----|
@@ -185,7 +185,7 @@ Materials listed per 10-alpaca fiber herd per year.
 | Strong | 29-32 μm | Coarse | Rugs, rope, felting |
 | Adult | > 32 μm | Very coarse | Carpet, insulation |
 
-### Manure Composition
+## Manure Composition
 
 | Parameter | Alpaca | Llama | Cattle (comparison) |
 |-----------|--------|-------|---------------------|
@@ -195,7 +195,7 @@ Materials listed per 10-alpaca fiber herd per year.
 | Can apply fresh? | Yes (low burn risk) | Yes | No (must compost) |
 | Collection method | Communal dung piles | Communal dung piles | Scattered |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 A founding herd of 5-10 alpacas (4-8 females, 1-2 males) establishes a self-sustaining fiber-producing flock within 3-4 years. First offspring shearing at 12-18 months yields 1.5-2.5 kg of marketable fleece.
 
@@ -205,7 +205,7 @@ A founding herd of 5-10 alpacas (4-8 females, 1-2 males) establishes a self-sust
 
 **Scale bottlenecks**: Shearing labor is the primary constraint — each alpaca takes 10-45 minutes depending on method.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -216,7 +216,7 @@ A founding herd of 5-10 alpacas (4-8 females, 1-2 males) establishes a self-sust
 | Parasite load (barber pole worm) | Warm, wet pasture conditions | Fecal egg counts quarterly; treat with ivermectin or fenbendazole at camelid dosages; rotate pastures |
 | Failure of passive transfer (cria) | Cria did not nurse colostrum within 4 hours | Tube-feed or bottle-feed colostrum supplement; monitor for infections in first months |
 
-## 8. Safety
+## Safety
 
 **Handling**: Camelids are generally docile and non-aggressive. They do not kick forward like horses (they kick backward and downward, less forceful). They may spit regurgitated stomach contents when stressed — unpleasant but not dangerous (rinse with water).
 
@@ -228,7 +228,7 @@ A founding herd of 5-10 alpacas (4-8 females, 1-2 males) establishes a self-sust
 
 **Copper toxicity**: Camelids are sensitive to copper (like sheep). Never use cattle or horse mineral supplements — use sheep or camelid-specific formulations. Copper toxicity causes fatal liver damage.
 
-## 9. Quality Control
+## Quality Control
 
 **Fiber quality**: Measure fiber diameter with a micron meter or by sending samples to a testing lab. Target under 26 microns for premium grade. Sort into grades at shearing: blanket (finest), neck (medium), legs (coarsest). Store clean, skirted fleece in paper bags (not plastic — moisture causes mildew).
 
@@ -236,7 +236,7 @@ A founding herd of 5-10 alpacas (4-8 females, 1-2 males) establishes a self-sust
 
 **Breeding records**: Track breeding dates, birth dates, cria weights, and fiber diameter per animal. Cull animals producing fiber above 30 microns or with poor conformation.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 **Sheep alternative**: Sheep ([`sheep`](sheep.md)) produce more fleece per animal (3-8 kg/year) and are more widely available. Alpaca fiber is finer and softer but sheep are more productive per hectare.
 
@@ -246,12 +246,12 @@ A founding herd of 5-10 alpacas (4-8 females, 1-2 males) establishes a self-sust
 
 **Hot climate**: Heat stress above 30°C with humidity over 75% reduces feed intake 20-30% and increases parasitic load. Shearing before summer reduces heat stress mortality from 5-8% to under 1%.
 
-## 11. Cross-Domain Links
+## Cross-Domain Links
 
 - [`textiles.fibers`](../textiles/fibers.md) — alpaca and llama fiber processing, carding, spinning, and weaving
 - [`animals.domestication`](domestication.md) — camelid domestication history and comparative livestock data
 - [`animals.pest-management`](pest-management.md) — guard llama use for predator control in livestock operations
 - [`agriculture`](../agriculture/index.md) — manure application and pasture management for camelid operations
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Animals](index.md)

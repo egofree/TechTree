@@ -8,7 +8,6 @@
 > **Outputs**: MLCC capacitors, ferrite cores, PZT actuators, getter materials, ceramic substrates, varistors, thermistors
 > **Critical**: Yes — passive components (capacitors, inductors, varistors) required for every semiconductor device and power supply
 
-## Overview
 
 Electronic ceramics are a specialized class of ceramics whose useful properties are electrical, magnetic, or electromechanical rather than structural. While [Advanced Ceramics & Refractories](advanced-ceramics.md) covers structural alumina, zirconia, SiC, and Si₃N₄, this capability addresses the functional ceramics that enable capacitors, inductors, piezoelectric actuators, varistors, thermistors, and vacuum tube maintenance. Without electronic ceramics, semiconductor devices lack the passive components they need to function, and vacuum systems cannot maintain the ultra-high purity environments that fabrication demands.
 
@@ -22,7 +21,7 @@ The critical electronic ceramic families:
 
 ## Prerequisites
 
-### Materials
+## Materials
 
 - **Barium carbonate** (BaCO₃, ≥99% purity) — from [Chemistry](../chemistry/acids-bases.md) (barite ore processing)
 - **Titanium dioxide** (TiO₂, rutile or anatase, ≥99% purity) — from [Mining](../mining/processing.md) (ilmenite or rutile sands)
@@ -34,7 +33,7 @@ The critical electronic ceramic families:
 - **Nickel powder** (for MLCC electrodes) — from [Metals](../metals/iron-steel.md)
 - **Alumina substrate** (96% Al₂O₃) — from [Advanced Ceramics](advanced-ceramics.md)
 
-### Tools and Equipment
+## Tools and Equipment
 
 - **Ball mill** (zirconia or alumina media) — see [Machine Tools](../machine-tools/index.md)
 - **Tape casting machine** (doctor blade, 5-20 μm gap) — see [Machine Tools](../machine-tools/index.md)
@@ -43,7 +42,7 @@ The critical electronic ceramic families:
 - **Hydraulic press** (50-100 MPa) — see [Machine Tools](../machine-tools/index.md)
 - **DC power supply** (for poling PZT, 2-4 kV/mm) — [Electricity](../energy/electricity.md)
 
-### Infrastructure
+## Infrastructure
 
 - **Clean processing environment** (dust control critical — contaminant particles cause short circuits in MLCCs)
 - **Controlled atmosphere furnace** (N₂/H₂ reducing atmosphere for Ni-electrode MLCCs) — [Gas Handling](../gas-handling/index.md)
@@ -69,7 +68,7 @@ The critical electronic ceramic families:
 
 ## Process Description
 
-### 4.1 Barium Titanate (BaTiO₃) — MLCC Capacitors
+## 4.1 Barium Titanate (BaTiO₃) — MLCC Capacitors
 
 #### Principle
 
@@ -149,7 +148,7 @@ Barium titanate crystallizes in the perovskite structure (ABO₃). Above the Cur
 - Microphonics — BaTiO₃'s piezoelectric response converts mechanical vibration into electrical noise
 - Sintering Ni-electrode MLCCs requires precise oxygen partial pressure control (pO₂ < 10⁻¹² atm) — atmosphere control failure ruins the entire batch
 
-### 4.2 Ferrites — Magnetic Ceramics
+## 4.2 Ferrites — Magnetic Ceramics
 
 #### Principle
 
@@ -225,7 +224,7 @@ Ferrites are ceramic magnetic materials based on iron oxide (Fe₂O₃) combined
 - Ferrites are brittle — mechanical shock and thermal shock cause cracking. Cannot be machined with standard cutting tools (diamond grinding only)
 - Curie temperature is relatively low (100-250°C for MnZn) — magnetic properties collapse above Curie temperature
 
-### 4.3 PZT — Lead Zirconate Titanate (Piezoelectric Ceramics)
+## 4.3 PZT — Lead Zirconate Titanate (Piezoelectric Ceramics)
 
 #### Principle
 
@@ -301,7 +300,7 @@ PZT (Pb[ZrₓTi₁₋ₓ]O₃) is the dominant piezoelectric ceramic. Near the m
 - Brittle — PZT ceramics crack under tensile stress, impact, or rapid thermal cycling. Cannot be used in bending without pre-compression
 - Lead volatility during sintering (PbO vapor pressure exceeds 1 mmHg above 800°C) causes compositional drift if atmosphere control is imperfect
 
-### 4.4 Getter Materials — Vacuum Maintenance
+## 4.4 Getter Materials — Vacuum Maintenance
 
 #### Principle
 
@@ -370,7 +369,7 @@ Getters are chemically active materials that sorb (absorb or adsorb) residual ga
 - Ba evaporable getters are single-use — once flashed, they cannot be re-activated. If Ba film saturates before tube end-of-life, vacuum degrades
 - Ti sublimation pumps consume titanium wire — finite filament lifetime (10-100 sublimation cycles per filament)
 
-### 4.5 Ceramic Substrates for Electronics
+## 4.5 Ceramic Substrates for Electronics
 
 #### Principle
 
@@ -447,7 +446,7 @@ Alumina substrates (96% Al₂O₃) provide the mechanical base and electrical in
 - Alumina CTE (6.5-7.5 × 10⁻⁶/°C) does not match silicon (4.5 × 10⁻⁶/°C) — thermal stress on large dies in cofired packages
 - Thick-film resistors have limited precision (±1% after trimming) compared to thin-film (±0.01%)
 
-### 4.6 Varistors and Thermistors
+## 4.6 Varistors and Thermistors
 
 #### Principle
 
@@ -523,7 +522,7 @@ ZnO varistors protect circuits from voltage transients. Grain boundaries in poly
 
 ## Quantitative Parameters
 
-### Electronic Ceramic Property Comparison
+## Electronic Ceramic Property Comparison
 
 | Property | BaTiO₃ (X7R) | MnZn Ferrite | PZT-5A | 96% Al₂O₃ Substrate |
 |----------|-------------|-------------|--------|---------------------|
@@ -533,7 +532,7 @@ ZnO varistors protect circuits from voltage transients. Grain boundaries in poly
 | Max processing temp | 1350°C (sinter) | 1400°C (sinter) | 1300°C (sinter) | 1600°C (cofire) |
 | Density | 5.5-6.0 g/cm³ | 4.8-5.0 g/cm³ | 7.5-8.0 g/cm³ | 3.65-3.75 g/cm³ |
 
-### Sintering Parameters by Ceramic Type
+## Sintering Parameters by Ceramic Type
 
 | Ceramic | Sintering Temp | Atmosphere | Soak Time | Shrinkage |
 |---------|---------------|------------|-----------|-----------|
@@ -546,17 +545,17 @@ ZnO varistors protect circuits from voltage transients. Grain boundaries in poly
 
 ## Scaling Notes
 
-### MLCC Scale
+## MLCC Scale
 
 - **Bench scale**: Tape cast 100-500 layers by hand. Fire in small box kiln. Produces 100-1000 MLCCs per batch. Suitable for prototyping and material development.
 - **Production scale**: Automated tape casting, stacking (1000+ layers), and dicing. A single production line produces 1-10 million MLCCs per day. Layer thickness drives capacitance density — state of art: 0.5 μm dielectric layers.
 
-### Ferrite Core Scale
+## Ferrite Core Scale
 
 - **Small batch**: Manual pressing, 50-200 cores per kiln load. Laboratory or small production.
 - **Industrial**: Automated presses (10-20 parts/minute), tunnel kiln firing. 10,000-100,000 cores per day.
 
-### Key Bottleneck: PbO Handling
+## Key Bottleneck: PbO Handling
 
 PZT manufacturing at any scale requires lead oxide handling infrastructure: ventilated enclosures, HEPA-filtered exhaust, dedicated worker protection, and hazardous waste disposal. This regulatory and safety burden makes PZT production a bottleneck that does not scale easily from bench to factory.
 
@@ -575,7 +574,7 @@ PZT manufacturing at any scale requires lead oxide handling infrastructure: vent
 
 ## Safety
 
-### Lead Compounds
+## Lead Compounds
 
 PZT manufacturing involves PbO (lead oxide), which is highly toxic:
 
@@ -585,30 +584,30 @@ PZT manufacturing involves PbO (lead oxide), which is highly toxic:
 - **Sintering**: PbO is volatile above 800°C (vapor pressure >1 mmHg). Sealed crucibles with sacrificial PbO packing essential. Exhaust gas must pass through HEPA filters and wet scrubbers.
 - **Disposal**: PZT waste is hazardous waste (RCRA). Cannot be landfilled. Recycling processes recover lead.
 
-### Barium Compounds
+## Barium Compounds
 
 BaCO₃ (used in BaTiO₃ synthesis) is toxic if ingested — soluble barium compounds cause cardiac arrhythmia and muscle paralysis. BaCO₃ is soluble in stomach acid (solubility in HCl: ~20 g/L). Keep away from food/food areas. Wash hands thoroughly after handling.
 
-### Beryllium Oxide
+## Beryllium Oxide
 
 BeO substrates are safe in fired, monolithic form but **extremely hazardous as powder or dust**. Chronic beryllium disease (CBD, berylliosis) is a disabling granulomatous lung disease caused by inhaling BeO particles <10 μm. Sensitization can occur at very low exposure levels (<0.2 μg/m³). Machining, grinding, or breaking BeO ceramics must be done with wet methods and full respiratory protection (P100). Most applications now substitute AlN (aluminum nitride).
 
 ## Quality Control
 
-### Incoming Raw Material Checks
+## Incoming Raw Material Checks
 
 - **BaCO₃ purity**: Test by XRF or wet chemistry. Target: ≥99%. Sr and Ca impurities shift Curie temperature.
 - **Fe₂O₃ purity**: Test for SiO₂ and Al₂O₃ contaminants. Target: ≥99%. Silica contamination reduces permeability in ferrites.
 - **PbO purity**: Test for Fe, Cu, and Ag contaminants. Target: ≥99.5%. Metallic impurities degrade PZT resistivity.
 - **TiO₂ polymorph check**: XRD to confirm rutile or anatase phase. Target: >99% one polymorph. Mixed phases cause inconsistent reactivity.
 
-### In-Process Checks
+## In-Process Checks
 
 - **Calcination completeness**: XRD on calcined BaTiO₃ — no residual BaCO₃ peaks (peak at 2θ ≈ 24°C must be absent).
 - **Green density**: Measure pressed compact mass and volume. Target: 55-65% theoretical.
 - **Tape thickness**: Measure with micrometer at 5+ locations. Target: ±5% of nominal across the web.
 
-### Final Product Acceptance
+## Final Product Acceptance
 
 - **MLCC**: Capacitance within ±10% (X7R) or ±20% (Y5V). DF <2.5%. IR >10 GΩ·μF. Visual: no cracks.
 - **Ferrite cores**: Permeability within ±20% of specification. Core loss < specification at rated frequency and flux density.
@@ -617,7 +616,7 @@ BeO substrates are safe in fired, monolithic form but **extremely hazardous as p
 
 ## Variations and Alternatives
 
-### Passive Component Technology Selection
+## Passive Component Technology Selection
 
 | Application | Primary Technology | Alternative | Reason for Primary |
 |-------------|-------------------|-------------|-------------------|
@@ -630,13 +629,13 @@ BeO substrates are safe in fired, monolithic form but **extremely hazardous as p
 | Temperature sensing (±0.1°C) | NTC thermistor | Pt RTD | NTC: higher sensitivity, lower cost, smaller package |
 | Hermetic IC package | Cofired alumina | Plastic (epoxy molding) | Alumina: hermetic seal, >150°C operation, lower moisture ingress |
 
-### Lead-Free Piezoelectric Alternatives
+## Lead-Free Piezoelectric Alternatives
 
 - **KNN** (potassium sodium niobate): d₃₃ ≈ 100-200 pC/N. Lead-free but lower performance and more difficult to process than PZT.
 - **BNT-BT** (bismuth sodium titanate - barium titanate): d₃₃ ≈ 150-200 pC/N. Lead-free but depolarization temperature is low (~200°C).
 - **Quartz** (single crystal SiO₂): d₁₁ ≈ 2.3 pC/N. Very low piezoelectric response but excellent stability and no poling required. Used for timing crystals, not actuators.
 
-## References
+## See Also
 
 - [Advanced Ceramics & Refractories](advanced-ceramics.md) — structural alumina, zirconia, SiC, Si₃N₄ processing
 - [Kiln Construction](kilns.md) — kiln design for ceramic firing
@@ -650,6 +649,6 @@ BeO substrates are safe in fired, monolithic form but **extremely hazardous as p
 - [Machine Tools](../machine-tools/index.md) — pressing, grinding, screen printing equipment
 - [Photolithography](../photolithography/index.md) — downstream use of ceramic substrates and PZT actuators
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*
+
+[← Back to Ceramics & Refractories](index.md)

@@ -7,7 +7,7 @@
 > **Timeline**: Years 0-10+
 > **Outputs**: food_surplus, grain, preserved_food
 
-### Agriculture & Food
+## Agriculture & Food
 
 **Grain cultivation**:
 - **Crops**: Wheat, barley, rye (temperate); rice, millet (subtropical); maize (Americas).
@@ -262,7 +262,7 @@ Bee pollination increases crop yields 20-30%.
 - Harvest timing is weather-dependent: rain during the grain harvest (autumn) can ruin an entire year's crop in days
 - Labor bottleneck at harvest requires the entire community to participate — sickness or conflict during this period causes crop loss
 
-### Cross-Domain Links
+## Cross-Domain Links
 
 - **[Animals → Domestication](../animals/domestication.md)** — Livestock species, housing, breeding
 - **[Animals → Draft Power](../animals/draft-power.md)** — Animal-powered plowing and transport
@@ -275,7 +275,7 @@ Bee pollination increases crop yields 20-30%.
 - **[Woodworking](../foundations/tools-basic.md)** — Wooden press construction, tool handles, churns
 - **[Machine Tools](../machine-tools/machining.md)** — Precision gearing for watermills
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Grain dust explosions**: Suspended grain dust explodes at 50-100 g/m³.
   Ventilation, dust collection, no ignition sources, brass tools, ground equipment.
@@ -287,6 +287,6 @@ Bee pollination increases crop yields 20-30%.
   and suffocation. Never enter alone.
   Phosphine fumigants are lethal — ventilate thoroughly before entry.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Foundations](./index.md) • [All Domains](../index.md)*
+
+[← Back to Foundations](index.md)

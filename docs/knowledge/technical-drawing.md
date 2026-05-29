@@ -31,7 +31,7 @@ This capability covers manual drafting (pencil, ink, T-square, compass) as the b
 
 ## Process Description
 
-### Manual Drafting Procedure
+## Manual Drafting Procedure
 
 1. **Mount paper**: Tape drawing paper to board at all four corners with drafting tape. Verify T-square rides flat across the full sheet width.
 2. **Layout border and title block**: Draw border rectangle 10-15 mm from all edges. Draw title block in lower right corner (typical size: 180 × 56 mm for A2 sheet). Title block fields: part name, drawing number, scale, date, drawn-by, checked-by, material, tolerances, revision letter.
@@ -53,7 +53,7 @@ This capability covers manual drafting (pencil, ink, T-square, compass) as the b
 - Inking requires steady hand and careful technique — errors in ink require scraping with a knife and re-drawing, unlike pencil which erases cleanly
 - Paper is dimensionally unstable — humidity changes cause expansion/contraction that can shift dimensions by 0.1-0.5 mm on large sheets
 
-### Section View Construction
+## Section View Construction
 
 When internal features cannot be shown clearly with hidden lines, cut the imaginary object along a plane and draw the exposed interior. Section views use hatching (parallel lines at 45°, 2-4 mm spacing) to indicate cut material. Different materials use different hatch patterns: steel (45° parallel lines), cast iron (45° lines with alternating dots), copper alloys (45° lines alternating direction), and wood (grain pattern). Label the cutting plane with letters (A-A, B-B) and annotate the section view accordingly.
 
@@ -61,7 +61,7 @@ When internal features cannot be shown clearly with hidden lines, cut the imagin
 
 **Weaknesses**: Incorrect section plane selection can obscure rather than clarify — the drafter must understand which internal features are most important to show. Hatching adds significant drawing time for complex multi-part assemblies.
 
-### Dimensioning Rules
+## Dimensioning Rules
 
 Follow these rules to produce unambiguous dimensioned drawings:
 - Dimension to visible outlines, never to hidden lines (hidden lines represent uncertain geometry).
@@ -77,7 +77,7 @@ Follow these rules to produce unambiguous dimensioned drawings:
 
 ## Quantitative Parameters
 
-### Standard Sheet Sizes (ISO A-series)
+## Standard Sheet Sizes (ISO A-series)
 
 | Size | Dimensions (mm) | Typical Use |
 |------|-----------------|-------------|
@@ -87,7 +87,7 @@ Follow these rules to produce unambiguous dimensioned drawings:
 | A3 | 297 × 420 | Small parts, detail drawings, workshop reference copies |
 | A4 | 210 × 297 | Sketches, parts lists, small component drawings |
 
-### Line Type Specifications
+## Line Type Specifications
 
 | Line Type | Style | Weight (mm) | Application |
 |-----------|-------|-------------|-------------|
@@ -99,7 +99,7 @@ Follow these rules to produce unambiguous dimensioned drawings:
 | Chain thin-double-dash | —··—··— | 0.18-0.25 | Outlines of adjacent parts (context) |
 | Wavy thin | ~~~~~~ | 0.18-0.25 | Break lines (long uniform sections) |
 
-### Standard Scale Ratios
+## Standard Scale Ratios
 
 | Category | Ratios | Application |
 |----------|--------|-------------|
@@ -108,7 +108,7 @@ Follow these rules to produce unambiguous dimensioned drawings:
 | Enlargement | 2:1, 5:1, 10:1 | Small features, watchmaking, instrument parts |
 | Preferred | 1:1, 1:2, 1:5, 1:10, 1:20, 1:50 | Use first; avoid odd scales |
 
-### Dimensioning Tolerance Classes
+## Dimensioning Tolerance Classes
 
 | Tolerance Class | Tolerance (mm) | Typical Application | Manufacturing Method |
 |----------------|----------------|--------------------|--------------------|
@@ -155,7 +155,7 @@ Follow these rules to produce unambiguous dimensioned drawings:
 
 ## Variations and Alternatives
 
-### First-Angle vs. Third-Angle Projection
+## First-Angle vs. Third-Angle Projection
 
 Two conventions exist for arranging orthographic views on the sheet. Third-angle (used in North America, increasingly global standard): the top view is placed above the front view, the right-side view to the right. First-angle (European historical): the top view is placed below, the right-side view to the left. Either works; the critical requirement is to standardize on one and label every drawing with the projection symbol (truncated cone).
 
@@ -163,7 +163,7 @@ Two conventions exist for arranging orthographic views on the sheet. Third-angle
 
 **Weaknesses**: Mixing conventions within a single workshop or between trading partners causes manufacturing errors — a part built from first-angle drawings read as third-angle will be mirrored. Switching conventions after adoption requires retraining all drafters and machinists.
 
-### Isometric and Pictorial Views
+## Isometric and Pictorial Views
 
 Orthographic projections are unambiguous but require training to read. Isometric views (30° axes, no foreshortening) and oblique views provide a three-dimensional appearance that helps non-specialists understand the part shape. Use as supplementary views, never as the sole representation for manufacturing — isometric dimensions are distorted and cannot convey tolerances.
 
@@ -171,7 +171,7 @@ Orthographic projections are unambiguous but require training to read. Isometric
 
 **Weaknesses**: Isometric dimensions are foreshortened and distorted — dimensions measured from an isometric view are unreliable for manufacturing. Cannot convey tolerances or GD&T requirements.
 
-### Freehand Sketching
+## Freehand Sketching
 
 Before committing to a formal drawing, designers sketch freehand to explore concepts. Graph paper (5 mm grid) aids proportion. Sketching is faster than formal drawing for iteration — a designer should produce 10-50 sketches for every finished drawing. No instruments required beyond pencil and paper.
 
@@ -179,7 +179,7 @@ Before committing to a formal drawing, designers sketch freehand to explore conc
 
 **Weaknesses**: Freehand sketches lack dimensional precision — they convey concept but not manufacturing specification. Sketches are not archival quality and fade or smudge over time.
 
-### Drawing Storage and Handling
+## Drawing Storage and Handling
 
 Engineering drawings are master documents — loss of a master drawing means loss of the design. Storage requirements:
 - Flat storage in shallow drawers (never rolled — rolling causes permanent curl and crease damage at fold points).
@@ -189,7 +189,7 @@ Engineering drawings are master documents — loss of a master drawing means los
 - Handle originals with clean, dry hands. Never mark on an original drawing with anything other than the official revision stamp.
 - Maximum of 50 drawings per drawer to prevent compression damage and enable retrieval within 2 minutes.
 
-### Geometric Dimensioning and Tolerancing (GD&T)
+## Geometric Dimensioning and Tolerancing (GD&T)
 
 For precision parts, simple ±tolerances are insufficient because they do not control the *geometry* of features — only their size. GD&T provides a symbolic language for controlling:
 - **Flatness**: The surface must lie between two parallel planes separated by the tolerance value (e.g., 0.05 mm flatness).
@@ -201,11 +201,11 @@ For precision parts, simple ±tolerances are insufficient because they do not co
 
 GD&T symbols are placed in a feature control frame (rectangular box) attached to the feature being controlled. The frame contains: the symbol, the tolerance value, and any datum references. While GD&T adds complexity to drawings, it is essential for precision assemblies where geometric relationships between features matter as much as dimensions.
 
-### CAD (Computer-Aided Design)
+## CAD (Computer-Aided Design)
 
 Replaces manual drafting tools with a computer program. Advantages: parametric models (change one dimension, all related features update automatically), 3D modeling, interference checking, automated dimensioning, instant revision tracking. Requires [Computing](../computing/index.md) hardware, display technology, and software development. The drafting conventions (line types, dimensioning, tolerancing, title blocks) remain identical to manual practice.
 
-### Surface Finish Specification
+## Surface Finish Specification
 
 Surface texture is specified using Ra (roughness average) values in micrometers (μm). The standard machining processes produce characteristic surface finish ranges:
 

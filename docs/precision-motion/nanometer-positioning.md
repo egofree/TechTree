@@ -35,7 +35,7 @@ The [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md) domain achieves
 
 Piezoelectric actuators convert electrical voltage directly to mechanical displacement via the inverse piezoelectric effect in ferroelectric ceramics (lead zirconate titanate, PZT). No gears, no bearings, no friction — the crystal lattice itself deforms, providing essentially infinite positioning resolution limited only by drive electronics noise.
 
-### Stack Actuators
+## Stack Actuators
 
 Multiple thin PZT ceramic discs (0.1-1 mm thick) are mechanically stacked in series and electrically connected in parallel. Each disc expands ~0.1% of its thickness at maximum field strength (2 kV/mm).
 
@@ -57,7 +57,7 @@ Multiple thin PZT ceramic discs (0.1-1 mm thick) are mechanically stacked in ser
 - **Hysteresis**: ±10-15% open-loop due to ferroelectric domain switching. This is the primary nonlinearity — closed-loop operation with strain gauge or capacitive sensor feedback is mandatory for repeatable positioning.
 - **Creep**: After a voltage step, the actuator continues to creep ~1-5% over the first 10 minutes logarithmically. Closed-loop feedback compensates automatically.
 
-### Flexure-Guided Stages
+## Flexure-Guided Stages
 
 Stack actuators provide only raw expansion. To create useful XY or XYZ motion, the actuator is mounted in a flexure guide — a monolithic metal or silicon structure with carefully designed flexure hinges that constrain motion to the desired axis.
 
@@ -76,7 +76,7 @@ Stack actuators provide only raw expansion. To create useful XY or XYZ motion, t
 - **Parasitic motion**: Well-designed flexures limit off-axis error to < 10 μrad pitch/yaw over full travel.
 - **Resonant frequency**: 200-2000 Hz for complete stages (lower than bare actuator due to flexure compliance and moving mass).
 
-### Long-Travel Piezo Stages (Piezo-Walk / Piezo-Stepping)
+## Long-Travel Piezo Stages (Piezo-Walk / Piezo-Stepping)
 
 Conventional piezo stacks are limited to ~200 μm travel. For millimeter-to-centimeter travel with nanometer precision, two approaches extend the range:
 
@@ -120,7 +120,7 @@ Air bearings support the moving stage on a thin film (3-10 μm) of pressurized a
 - Load capacity limited: 5-50 N/cm² — heavy payloads require large bearing areas
 - Resonance amplification at natural frequency (0.5-3 Hz): low-frequency vibration is amplified, not attenuated
 
-### Aerostatic Flat Pad Bearings
+## Aerostatic Flat Pad Bearings
 
 Air is fed through a pattern of small orifices (0.1-0.3 mm diameter) or porous restrictors in a flat pad, creating a pressurized air film between the pad and the guide surface.
 
@@ -131,7 +131,7 @@ Air is fed through a pattern of small orifices (0.1-0.3 mm diameter) or porous r
 - **Pitch/yaw error**: 0.1-1 arc-second over 300 mm.
 - **Air consumption**: 5-30 liters/min per bearing pad at 4 bar supply. Requires clean, dry, oil-free air (1 μm filtration minimum).
 
-### Aerostatic Spindle Bearings
+## Aerostatic Spindle Bearings
 
 For rotary motion (e.g., wafer rotation during exposure), air-bearing spindles provide:
 
@@ -141,7 +141,7 @@ For rotary motion (e.g., wafer rotation during exposure), air-bearing spindles p
 - **Stiffness**: 50-500 N/μm radial.
 - **Application**: Wafer rotation stages (300 mm wafers at 1000-3000 RPM in scanners), lens element rotation during polishing, precision rotary indexing.
 
-### Guide Surface Requirements
+## Guide Surface Requirements
 
 The guide surface (the rail or flat that the air bearing rides on) directly determines motion accuracy:
 
@@ -150,7 +150,7 @@ The guide surface (the rail or flat that the air bearing rides on) directly dete
 - **Surface finish**: ≤ 0.05 μm Ra. Scratches or imperfections create localized pressure variations in the air film.
 - **Thermal stability**: ±0.1°C control needed to maintain sub-micron straightness over long travel. Granite's low thermal expansion coefficient (4-8 × 10⁻⁶/°C) helps but does not eliminate the requirement.
 
-### Orifice vs. Porous Restrictors
+## Orifice vs. Porous Restrictors
 
 The air supply restriction method affects bearing performance:
 
@@ -178,7 +178,7 @@ Ball screws and lead screws (covered in [EDM, CNC & Precision Grinding](../machi
 - Motor coils heat the stage — water cooling required, thermal management adds complexity
 - No self-locking: stage drifts when power removed — brakes or counterbalance required for vertical axes
 
-### Iron-Core Linear Motors
+## Iron-Core Linear Motors
 
 Copper windings embedded in a laminated iron core interact with permanent magnets on the stationary rail. Maximum force and efficiency, but with cogging.
 
@@ -188,7 +188,7 @@ Copper windings embedded in a laminated iron core interact with permanent magnet
 - **Mass of moving part**: Iron core adds mass. Higher moving mass reduces acceleration and increases settling time.
 - **Application**: High-force axes in machine tools, large wafer stage coarse positioning.
 
-### Ironless (U-Channel) Linear Motors
+## Ironless (U-Channel) Linear Motors
 
 Copper windings in a non-magnetic (epoxy-potted) coil assembly sit between two rows of permanent magnets in a U-shaped rail. No iron in the coil — zero cogging, minimum force ripple.
 
@@ -199,7 +199,7 @@ Copper windings in a non-magnetic (epoxy-potted) coil assembly sit between two r
 - **Thermal isolation**: Coil can be thermally isolated from the stage via ceramic or composite spacers, minimizing thermal coupling.
 - **Application**: Wafer stage fine positioning, reticle stages, inspection stages — any application requiring smooth, high-acceleration motion.
 
-### Linear Motor Specifications for Semiconductor Equipment
+## Linear Motor Specifications for Semiconductor Equipment
 
 | Parameter | Wafer Stage (Coarse) | Wafer Stage (Fine) | Reticle Stage |
 |-----------|---------------------|-------------------|---------------|
@@ -260,7 +260,7 @@ For rotary axes where air bearings cannot provide sufficient stiffness or where 
 
 Nanometer positioning is extremely sensitive to thermal expansion. A 300 mm granite stage with α = 6 × 10⁻⁶/°C expands 1.8 μm per °C — 180× the 10 nm positioning budget. Thermal management is therefore as critical as mechanical design.
 
-### Material Selection
+## Material Selection
 
 | Material | CTE (×10⁻⁶/°C) | Stiffness (GPa) | Density (g/cm³) | Application |
 |----------|-----------------|-----------------|------------------|-------------|
@@ -271,7 +271,7 @@ Nanometer positioning is extremely sensitive to thermal expansion. A 300 mm gran
 | Aluminum | 22-24 | 70 | 2.7 | Actively cooled stages (high CTE compensated by cooling) |
 | Carbon fiber composite | -1 to +8 (tailorable) | 100-400 | 1.5-2.0 | Lightweight stage structures |
 
-### Thermal Control Strategies
+## Thermal Control Strategies
 
 1. **Material selection**: Low-CTE materials (Invar, Zerodur) minimize dimensional change per degree.
 2. **Active liquid cooling**: Temperature-controlled water (±0.01°C) circulated through channels in the stage structure. Removes motor heat and environmental drift.
@@ -283,7 +283,7 @@ Nanometer positioning is extremely sensitive to thermal expansion. A 300 mm gran
 
 Nanometer positioning requires multi-layer feedback control:
 
-### PID Control Loop
+## PID Control Loop
 
 The fundamental feedback loop compares commanded position to measured position (from encoders or interferometers):
 
@@ -292,7 +292,7 @@ The fundamental feedback loop compares commanded position to measured position (
 - **Derivative gain**: Damps oscillation by responding to rate of error change.
 - **Typical bandwidth**: 200-1000 Hz for the primary position loop.
 
-### Feedforward Compensation
+## Feedforward Compensation
 
 Feedback alone cannot track fast motion with nanometer error. Feedforward adds predicted control signals:
 
@@ -301,7 +301,7 @@ Feedback alone cannot track fast motion with nanometer error. Feedforward adds p
 - **Friction feedforward**: For systems with any friction (even small), adds compensation based on velocity direction.
 - **Result**: With good feedforward, tracking error drops from hundreds of nanometers to <10 nm during constant-velocity scanning.
 
-### Notch Filters and Disturbance Observers
+## Notch Filters and Disturbance Observers
 
 Mechanical resonances in the stage structure limit the achievable feedback bandwidth:
 
@@ -317,7 +317,7 @@ Mechanical resonances in the stage structure limit the achievable feedback bandw
 - **High voltage**: Piezo amplifiers produce 0-150V or 0-1000V at high frequency. Proper insulation and grounding required. Never disconnect piezo cables while amplifier is powered — the inductive kick can be dangerous.
 - **Cleanroom compatibility**: Air bearings exhaust air into the environment. In cleanroom applications, the exhaust must be filtered. Linear motor heat may require water cooling to maintain cleanroom temperature specs.
 
-## References
+## See Also
 
 - Precision machining of stage components: [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md)
 - Precision measurement for calibration: [Precision Metrology](../measurement/precision-metrology.md)
@@ -326,13 +326,13 @@ Mechanical resonances in the stage structure limit the achievable feedback bandw
 - Wafer stage applications: [Wafer Stages & Scanner Systems](./wafer-stages.md)
 - Electricity supply for motors and controllers: [Electricity Generation & Distribution](../energy/electricity.md)
 
-### See Also
+## See Also
 
 - [Machine Tools Overview](../machine-tools/index.md) — Conventional precision manufacturing
 - [Measurement & Instrumentation](../measurement/index.md) — Metrology foundations
 - [Optics](../optics/index.md) — Optical components used in encoder systems
 - [Precision Motion Control](./index.md) — Domain overview
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Precision Motion Control](./index.md) • [All Domains](../index.md)*
+
+[← Back to Precision Motion](index.md)

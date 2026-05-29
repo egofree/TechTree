@@ -8,9 +8,8 @@
 > **Outputs**: industrial_facilities, machine_foundations, vibration_isolation, crane_runways, factory_floors
 > **Critical**: Yes — precision manufacturing requires vibration-isolated foundations; heavy industry requires crane runways and reinforced floors
 
----
 
-## 1. Overview
+## Overview
 
 Industrial buildings differ fundamentally from residential construction. They must support heavy point loads from machinery (5-50 tonnes per machine), resist dynamic forces from forging hammers and stamping presses (5-50 kJ per blow), provide clear spans of 15-30 m for production lines, and accommodate overhead cranes moving 5-50 tonnes. The building is not just shelter — it is an integral part of the production system.
 
@@ -18,39 +17,37 @@ Every machine tool, forge hammer, steam engine, and generator requires a foundat
 
 This capability depends on [building materials](./building-materials.md) for basic construction, [structural engineering](./structural-engineering.md) for design calculations, [electricity](../energy/electricity.md) for power distribution, and [cement and concrete](../chemistry/cement.md) for reinforced concrete structures.
 
----
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 
 - **[Structural steel](../metals/iron-steel.md)**: HEB 200-400 columns, IPE 300-600 beams. Grade S235 or S355.
 - **[Cement and concrete](../chemistry/cement.md)**: Minimum C25/30 for floors, C30/37 for machine foundations. Coarse aggregate 10-20 mm, clean sand, potable water.
 - **[Reinforcing steel](../metals/iron-steel.md)**: Rebar 8-32 mm diameter, grade 400-500 MPa yield. Deformed bars for bond.
 - **Crushed stone subbase**: 150-300 mm compacted layer, 20-40 mm aggregate.
 
-### Tools and Equipment
+## Tools and Equipment
 
 - [Concrete mixing equipment](../chemistry/cement.md): Batch mixer or continuous mixer.
 - [Steel erection tools](../metals/iron-steel.md): Cranes, bolt torque wrenches, welding equipment.
 - Surveying instruments: Theodolite or level for foundation layout (±5 mm tolerance over 30 m).
 - Concrete vibrator: For compacting poured concrete (eliminates voids >5 mm).
 
-### Knowledge
+## Knowledge
 
 - **Reinforced concrete design**: Understanding of rebar placement, cover requirements, and load paths.
 - **Vibration isolation theory**: Natural frequency, damping, transmissibility calculations.
 - **Machine foundation design**: Mass ratio, bearing pressure, dynamic load factors.
 
-### Infrastructure
+## Infrastructure
 
 - Road access for concrete delivery trucks and steel delivery vehicles.
 - Power supply for concrete mixers, vibrators, and cranes.
 - Water supply for concrete mixing and curing.
 
----
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity per 1000 m² Factory | Source | Alternatives |
 |----------|------------------------------|--------|-------------|
@@ -63,11 +60,10 @@ This capability depends on [building materials](./building-materials.md) for bas
 | Waterproofing membrane | 500-1000 m² | [Chemistry](../chemistry/index.md) | Bituminous coating (shorter lifespan) |
 | Expansion joint filler | 50-100 m | [Polymers](../polymers/index.md) or cork | Bitumen-impregnated fiberboard |
 
----
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Steel-Frame Factory Construction
+## 4.1 Steel-Frame Factory Construction
 
 **Principle**: Steel columns at regular spacing support roof trusses spanning 15-30 m, providing column-free interior space for production lines. The steel frame carries all vertical and lateral loads. Cladding provides weather enclosure only — it is not structural.
 
@@ -127,7 +123,7 @@ This capability depends on [building materials](./building-materials.md) for bas
 - Thermal conductivity — steel frames conduct heat, creating thermal bridges that increase heating/cooling costs
 - Skilled erection required — crane operation, bolt tightening, welding must meet specifications
 
-### 4.2 Machine Foundation Construction
+## 4.2 Machine Foundation Construction
 
 **Principle**: Machine foundations isolate dynamic equipment vibrations from the building structure and prevent excessive settlement under static and dynamic loads. Foundation mass (3-10× machine mass) absorbs vibration energy. Proper isolation prevents a forge hammer from cracking its own foundation and the adjacent precision grinder from producing out-of-tolerance parts.
 
@@ -184,7 +180,7 @@ This capability depends on [building materials](./building-materials.md) for bas
 - Difficult to modify — once poured, foundation dimensions cannot be easily changed
 - Soil-dependent — performance depends on soil bearing capacity; weak soils require piling or mat foundations
 
-### 4.3 Industrial Floor Construction
+## 4.3 Industrial Floor Construction
 
 **Principle**: Industrial floors carry concentrated point loads from machinery, forklifts (2-5 tonnes), and stored materials. Floor flatness directly affects equipment installation precision and forklift operation. Reinforced concrete slab-on-grade is the standard solution.
 
@@ -244,11 +240,10 @@ This capability depends on [building materials](./building-materials.md) for bas
 - Limited resistance to chemical spillage — acids and solvents attack concrete surface; requires chemical-resistant coating (epoxy, minimum 3 mm)
 - Heavy equipment point loads may exceed design — always check concentrated loads separately from uniform load rating
 
----
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Vibration Isolation Parameters
+## Vibration Isolation Parameters
 
 | Equipment Type | Max Floor Velocity (mm/s) | Max Floor Displacement (mm) | Isolation Method |
 |---------------|:-------------------------:|:--------------------------:|------------------|
@@ -258,7 +253,7 @@ This capability depends on [building materials](./building-materials.md) for bas
 | Standard machine tool | 0.5 | 0.025 | Neoprene pads (5-15 Hz) |
 | General factory floor | 1.0 | 0.050 | Cork pads or direct mount |
 
-### Crane Runway Design Parameters
+## Crane Runway Design Parameters
 
 | Parameter | Light Crane (<10 t) | Heavy Crane (≥10 t) |
 |-----------|:-------------------:|:-------------------:|
@@ -268,7 +263,7 @@ This capability depends on [building materials](./building-materials.md) for bas
 | Lateral load (% capacity) | 10% | 10% |
 | Rail clip spacing | 500-600 mm | 500-600 mm |
 
-### Concrete Mix Ratios for Industrial Use
+## Concrete Mix Ratios for Industrial Use
 
 | Application | Mix (C:S:A by weight) | W/C Ratio | 28-day Strength (MPa) | Notes |
 |-------------|:---------------------:|:---------:|:---------------------:|-------|
@@ -277,7 +272,7 @@ This capability depends on [building materials](./building-materials.md) for bas
 | Foundation blinding | 1:3:6 | 0.60 | 15-20 | Leveling layer only |
 | Grout (non-shrink) | 1:1 (cement:sand) | 0.30 | 50+ | Machine leveling pads |
 
-### Rebar Reference
+## Rebar Reference
 
 | Bar Diameter (mm) | Cross-section (mm²) | Weight (kg/m) | Yield Strength (MPa) |
 |:-----------------:|:-------------------:|:-------------:|:-------------------:|
@@ -288,9 +283,8 @@ This capability depends on [building materials](./building-materials.md) for bas
 | 25 | 491 | 3.85 | 400-500 |
 | 32 | 804 | 6.31 | 400-500 |
 
----
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Small workshop (100-300 m²)**: Single-story, timber or light steel frame, 150 mm concrete floor on compacted subbase. No crane. Hand-operated hoists. Construction: 4-8 weeks.
 
@@ -300,9 +294,8 @@ This capability depends on [building materials](./building-materials.md) for bas
 
 - **Machine foundation scaling**: Lathe (1-5 t): 1.5-2.5 m deep block, 1.2× machine footprint. Forge hammer (5-50 kJ): 10-15× hammer weight, timber/cork padding, sand gap isolation. Steam engine (50-500 HP): 2-3 m deep, isolated from floor slab. Generator (100-1000 kVA): mass ≥5× generator mass, anti-vibration mounts at base.
 
----
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -315,9 +308,8 @@ This capability depends on [building materials](./building-materials.md) for bas
 | Machine foundation settling unevenly | Weak soil pocket under one corner, inadequate subgrade preparation | Underpin settled corner with concrete pile or grout injection; for new foundations: probe subgrade before pouring |
 | Roof leaking at penetration (vent, skylight) | Inadequate flashing, no curb, sealant failure | Install raised curb (150 mm) around penetration; flash with 0.5 mm copper; reseal annually |
 
----
 
-## 8. Safety
+## Safety
 
 - **Concrete burns**: Wet cement (pH 12-13) causes chemical burns with prolonged skin contact. Wear gauntlet gloves when handling wet concrete. Wash skin immediately if contact occurs. Eye protection mandatory during concrete pouring — splatter can cause corneal burns.
 
@@ -331,9 +323,8 @@ This capability depends on [building materials](./building-materials.md) for bas
 
 - **Reinforcing steel impalement**: Exposed rebar sticking up from foundations presents impalement hazard. Cover all exposed bar ends with plastic caps or bend over before leaving work area.
 
----
 
-## 9. Quality Control
+## Quality Control
 
 - **Concrete testing**: Take 3 test cylinders per 50 m³ poured. Crush at 7 and 28 days. Reject batches that fail to meet 28-day specified strength. Slump test at delivery: 75-125 mm. Reject concrete with slump >150 mm (excess water weakens concrete).
 
@@ -345,9 +336,8 @@ This capability depends on [building materials](./building-materials.md) for bas
 
 - **Crane runway alignment**: Rail straightness ±1 mm per 10 m, gauge ±0.5 mm. Runway beam camber within L/1000 of design.
 
----
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 | Foundation Type | Load Capacity | Vibration Isolation | Cost | Best For |
 |----------------|:------------:|:-------------------:|:----:|----------|
@@ -357,16 +347,15 @@ This capability depends on [building materials](./building-materials.md) for bas
 | Direct mount on slab | Low (no isolation) | None | Low | Light equipment, storage racks, workbenches |
 | Pile-supported foundation | Very high (transfers to deep strata) | Good (mass + isolation) | Very high | Very heavy machines on weak soil |
 
-### Decision Criteria for Foundation Type
+## Decision Criteria for Foundation Type
 
 - **Use block foundation when**: single machine, soil bearing capacity >150 kN/m², vibration isolation needed but not extreme.
 - **Use mat foundation when**: multiple machines close together, soil <150 kN/m², differential settlement must be minimized.
 - **Use table foundation when**: precision equipment (grinders, CMMs), vibration must be <0.1 mm/s at floor level.
 - **Use direct mount when**: light equipment (<500 kg), no dynamic loads, vibration not a concern.
 
----
 
-## 11. References
+## References
 
 - [Building Materials & Methods](./building-materials.md) — Timber framing, masonry, scaffolding
 - [Structural Engineering](./structural-engineering.md) — Beam design, column design, foundation theory
@@ -376,6 +365,6 @@ This capability depends on [building materials](./building-materials.md) for bas
 - [Machine Tools](../machine-tools/index.md) — The heavy equipment that requires specialized foundations
 - [Iron & Steel](../metals/iron-steel.md) — Structural steel production and properties
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Construction](./index.md) • [All Domains](../index.md)*
+
+[← Back to Construction](index.md)

@@ -8,7 +8,6 @@
 > **Outputs**: surgical_capability, medical_treatment
 > **Critical**: Yes — basic medical capability reduces preventable death more than any other single intervention
 
-## Overview
 
 Medicine and surgery in a bootstrap civilization encompasses pharmaceutical production from plant and synthetic sources, basic surgical capability (wound management, fracture reduction, amputation), diagnostic examination, emergency procedures, and infection control. The foundational tier relies on plant-derived medicines and manual techniques; later stages add synthetic pharmaceuticals, laboratory diagnostics, and increasingly sophisticated surgical interventions.
 
@@ -16,7 +15,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 
 ## Materials
 
-### Pharmaceutical Materials
+## Pharmaceutical Materials
 
 | Material | Source | Use |
 |----------|--------|-----|
@@ -31,7 +30,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 | Iodine | Seaweed ash or caliche | Antiseptic tincture |
 | Gypsum (CaSO₄·2H₂O) | Mineral deposit | Plaster of Paris for casts |
 
-### Surgical Materials
+## Surgical Materials
 
 | Material | Use | Notes |
 |----------|-----|-------|
@@ -62,7 +61,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 
 ## Steps
 
-### Performing Wound Irrigation and Closure
+## Performing Wound Irrigation and Closure
 
 1. **Assess the wound**: Determine depth, length, contamination level, and neurovascular status distal to the wound. Check for foreign bodies. Assess tetanus immunization status.
 2. **Anesthetize if needed**: For large or deep wounds, provide local anesthesia (ether inhalation for general effect) or regional block if available.
@@ -88,7 +87,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - Irrigation requires a syringe capable of generating adequate pressure — pouring water over a wound is ineffective
 - Without antibiotics, post-closure infection requires reopening the wound, negating the benefit of primary closure
 
-### Setting a Fracture (Closed Reduction)
+## Setting a Fracture (Closed Reduction)
 
 1. **Assess**: Confirm fracture by deformity, crepitus, abnormal mobility, and pain. Check distal pulse, sensation, and motor function. If open fracture, treat as wound emergency first.
 2. **Provide analgesia**: Administer morphine, ethanol, or ether anesthesia before manipulation.
@@ -114,7 +113,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - Plaster casts cause compartment syndrome if applied too tightly — this is a limb-threatening emergency
 - Fracture reduction is painful — adequate analgesia (morphine, ether) is required before manipulation
 
-### Performing START Triage
+## Performing START Triage
 
 1. **Clear walking wounded**: Ask everyone who can walk to move to a designated area. Tag these patients **green (minor/delayed)**.
 2. **Assess respirations** (non-ambulatory patients, <30 seconds each): Not breathing after airway repositioning → **black (expectant)**. Breathing >30/minute → **red (immediate)**. Breathing <30/minute → proceed.
@@ -159,7 +158,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - **Iodine tincture**: Extract iodine from seaweed ash (kelp) or caliche deposits (Chilean saltpeter). Dissolve in ethanol + KI solution (5% iodine, 10% KI in 70% ethanol). Apply to wounds as antiseptic. Stains brown — normal.
 - **Hydrogen peroxide (H₂O₂)**: Antiseptic, wound cleaning. Produce by electrolysis of cold dilute sulfuric acid → peroxydisulfuric acid → hydrolysis → H₂O₂ + H₂SO₄. Distill under vacuum (bp 150°C at 1 atm — decomposes; distill at reduced pressure ~10 kPa, bp ~70°C). 3% solution for wound care. Store in dark bottle (decomposes in light).
 
-### PPE Fabrication
+## PPE Fabrication
 
 **Eye protection**:
 - **Safety glasses**: Flat glass lenses (from glass production) in wire or stamped metal frames. Side shields from leather or sheet metal. For grinding and cutting operations — prevent flying particles.
@@ -180,7 +179,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - **Rubber aprons**: For chemical handling. Sheet rubber with neck loop and waist ties.
 - **[Cleanroom garments](../glossary/cleanroom-garments.md)** (Photolithography): Woven synthetic coveralls, hoods, booties (from synthetic polymer fibers — see Polymers). Lint-free. Washed in ultra-pure water. Worn over street clothes. Changed every entry to cleanroom.
 
-### Surgical Capability
+## Surgical Capability
 
 **Wound treatment**:
 - **Cleaning**: Irrigate wound with clean water (boiled then cooled). Remove debris. For deep wounds, irrigate under pressure (syringe with 18-gauge needle, 5-10 mL).
@@ -199,7 +198,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - **Procedures**: Amputation (last resort — guillotine method, tie off major vessels with catgut ligatures, flap skin over stump), abscess drainage (incise, pack with iodoform gauze), wound debridement (remove dead tissue), foreign body removal.
 - **Post-operative**: Monitor for hemorrhage and infection. Keep wound clean and dry. Antibiotics not available until advanced microbiology — rely on antisepsis and natural healing.
 
-### Gas Detection & Monitoring
+## Gas Detection & Monitoring
 
 **Simple detectors**:
 - **Candle/flame test**: If flame flickers, dims, or extinguishes → oxygen displacement or toxic gas. Evacuate.
@@ -211,14 +210,14 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - **Draeger-style tubes**: Glass tube filled with chemical reagent, calibrated markings. Draw known air volume through tube with hand pump. Color change length indicates gas concentration. Available for CO, H₂S, Cl₂, NH₃, NO₂, SO₂, and many others.
 - **Palladium chloride paper for CO**: Palladium chloride paper turns dark when CO present. Imprecise but gives warning.
 
-### Dental Care
+## Dental Care
 
 **Basic procedures**:
 - **Extraction**: Extraction forceps (forged steel, angled jaws shaped to grip tooth root). Rock tooth buccolingually to widen socket, then lift. Control bleeding with gauze pressure pack. Indicated for gross decay, abscess, or crowding.
 - **Fillings**: Clean decayed cavity with hand instruments (excavators, probes). Fill with softened gutta-percha (trans-polyisoprene from Palaquium gutta trees — a hard, non-elastic natural thermoplastic, not to be confused with elastic natural latex, softens at 70°C, sets rigid at body temperature) or beeswax (temporary). For permanent fillings: tin foil or gold foil (malleted into cavity — requires precision). Amalgam (mercury + silver-tin alloy) available at advanced Chemistry stage — durable but mercury toxicity requires careful handling.
 - **Prevention**: Twigs of neem or willow for chewing (antibacterial, mechanical cleaning). Salt water rinse (9 g/L NaCl, warm) reduces gum inflammation.
 
-### Basic Diagnostics
+## Basic Diagnostics
 
 **Vital signs**:
 - **Pulse**: Rate (beats/minute), rhythm (regular/irregular), strength (thready/bounding). Normal resting: 60-80 bpm. Fast (>100) = fever, blood loss, shock. Slow (<50) = hypothermia, certain poisonings. Irregular = heart disease.
@@ -231,7 +230,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - **[Delayed](../glossary/delayed.md)** (green): Minor fractures, minor burns, superficial lacerations. Treat within 4-6 hours.
 - **[Expectant](../glossary/expectant.md)** (black): Injuries incompatible with survival given available resources. Comfort measures only. Difficult but necessary when resources are limited.
 
-### Diagnostic Examination Techniques
+## Diagnostic Examination Techniques
 
 **Pulse examination**:
 - **Rate**: Normal resting pulse 60-100 beats per minute in adults. Rate >100 bpm (tachycardia) indicates fever, blood loss, shock, pain, or anxiety. Rate <50 bpm (bradycardia) suggests hypothermia, heart block, or certain poisonings (opiates, organophosphates). Count for a full 60 seconds for accuracy, or 15 seconds and multiply by 4 if rhythm is regular.
@@ -253,7 +252,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - **White blood cell count**: Fill hemocytometer chamber with diluted blood (1:20 dilution in white cell diluting fluid, which lyses red cells). Count cells in the four corner squares under microscope. Multiply by dilution factor and chamber factor. Normal: 4,000-11,000/μL. Elevated (leukocytosis) in bacterial infection, inflammation. Low (leukopenia) in viral infection, bone marrow suppression, severe sepsis.
 - **Peripheral blood smear**: Drop of blood on glass slide, spread into thin film by a second slide held at 30° angle. Air dry. Stain with Wright's or Giemsa stain. Examine under oil immersion (1000×). Assess red cell morphology (size, shape, color), white cell differential (neutrophils, lymphocytes, monocytes, eosinophils, basophils), and platelet estimate.
 
-### Wound Management in Detail
+## Wound Management in Detail
 
 **Wound irrigation**:
 - **Technique**: Use a syringe (20-60 mL) with an 18-gauge needle to irrigate under pressure. Apply 8-12 psi by forcefully expressing the syringe. Use 200-500 mL of clean (boiled then cooled) water or sterile saline. Direct the stream at the wound surface from 2-3 cm distance. Irrigation pressure matters more than solution type — mechanical removal of bacteria and debris does the heavy lifting.
@@ -268,7 +267,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - **[Delayed primary closure](../glossary/delayed-primary-closure.md)** (4-5 days after injury): For contaminated wounds that have been cleaned and observed for signs of infection. If no infection develops by day 4-5, close the wound. Combines safety of open wound management with cosmetic/functional benefit of closure.
 - **[Secondary intention](../glossary/secondary-intention.md)** (leave open to heal by granulation): For heavily contaminated wounds, bites, crush injuries, or wounds older than 6-8 hours. Wound fills with granulation tissue from the base upward. Slower but safer for high-infection-risk wounds.
 
-### Fracture Management Detail
+## Fracture Management Detail
 
 **Reduction**:
 - **Closed reduction**: Manipulate bone ends externally to restore alignment. Apply longitudinal traction (pull along the bone axis) to disimpact fragments. Then adjust angular and rotational alignment. Check alignment by comparing to the uninjured limb (length, alignment, rotation). Provide analgesia (ether, morphine, or ethanol) before reduction.
@@ -279,7 +278,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - **Application**: Roll plaster-impregnated bandages (or dip dry plaster bandages in water at 20-25°C for 3-5 seconds, squeeze out excess). Apply 5-8 layers for upper extremity casts, 8-12 layers for lower extremity. Mold smoothly without wrinkles (wrinkles cause pressure sores). Pad all bony prominences (elbow, wrist, heel, ankle) with cotton or felt before plaster application.
 - **Setting time**: Initial set in 5-8 minutes. Full strength in 24-48 hours (keep cast dry during this period). Patients must be warned about compartment syndrome (severe pain, numbness, pallor, pulselessness distal to cast) — requires immediate cast removal or bivalving.
 
-### Infection Management
+## Infection Management
 
 **Wound antisepsis**:
 - **Ethanol**: 70% concentration (by weight) is optimal. Applied to intact skin before procedures. Denatures bacterial proteins and disrupts cell membranes. Not effective against spores or some viruses. Fast-acting (15-30 seconds contact). Flammable.
@@ -287,7 +286,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - **Chlorhexidine 4%**: Persistent antimicrobial activity (remains effective on skin for hours after application). More effective than povidone-iodine for surgical hand scrubs. Not effective against spores. Rare allergic reactions. Less inactivated by blood than iodine. Used for surgical site preparation and hand hygiene.
 
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Infection risk**: Surgical and wound care procedures carry infection risk. Sterilize instruments (boil 20+ minutes minimum, or autoclave at 121°C for 15 minutes). Wash hands before any wound contact. Clean wounds thoroughly before dressing.
 - **Drug overdose**: Many pharmaceutical compounds have narrow therapeutic windows. Weigh all drugs on accurate scales. Start with lowest effective dose. Digitalis, morphine, and ether have particularly dangerous overdose profiles.
@@ -295,7 +294,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - **Mercury toxicity**: If mercury compounds are used (topical antiseptics, syphilis treatment), they are cumulative neurotoxins. Limit exposure. Never heat mercury. Use in ventilated areas.
 - **Ether explosion risk**: Ether is highly flammable and forms explosive peroxides on storage. No flames, sparks, or electrical equipment in anesthesia area. Ventilate to prevent vapor accumulation.
 
-### Emergency Procedures
+## Emergency Procedures
 
 **Hemorrhage control**:
 - **Direct pressure**: Apply firm manual pressure to the wound with a clean cloth or gauze pad. Maintain continuous pressure for at least 10-15 minutes without lifting to check (lifting disrupts the forming clot). This stops 90% of external hemorrhage.
@@ -313,7 +312,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - **Fluid resuscitation**: If IV access is available, administer lactated Ringer's or 0.9% NaCl rapidly (1-2 L in the first hour). If no IV capability, oral rehydration with salt-sugar solution (1 L water + 6 level teaspoons sugar + ½ level teaspoon salt) if the patient is conscious and can swallow.
 - **Cause identification**: Hypovolemic (blood loss, dehydration — most common), cardiogenic (heart failure), septic (infection), anaphylactic (allergic reaction). Treatment differs by cause; fluid resuscitation is the universal first step for hypovolemic and septic shock.
 
-### Basic Laboratory Setup
+## Basic Laboratory Setup
 
 **Equipment for a rudimentary medical laboratory**:
 - **Microscope**: Brightfield compound microscope with 10×, 40×, and 100× (oil immersion) objectives. Eyepiece 10× gives total magnifications of 100×, 400×, and 1000×. Used for: blood smears (malaria parasites, blood cell morphology), urine sediment (cells, crystals, casts), sputum (acid-fast bacteria for TB), stool (parasites, ova). Illumination: mirror (daylight) or LED/lamp. Requires glass slides and coverslips.
@@ -327,7 +326,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - **Urine protein**: Add 1 mL 20% sulfosalicylic acid to equal volume of clear urine. Cloudiness indicates protein present. Grade 0 (clear, negative) to 4+ (dense precipitate). Persistent proteinuria suggests kidney disease.
 - **Hemoglobin**: Add a drop of blood to guaiac-impregnated paper, then add hydrogen peroxide. Blue color indicates hemoglobin (blood in stool — occult blood screening for gastrointestinal bleeding). False positives from red meat and certain vegetables; restrict diet before testing.
 
-### Medical Instrument Sterilization
+## Medical Instrument Sterilization
 
 **Methods by capability level**:
 - **Boiling**: Submerge instruments in boiling water for 20+ minutes. Kills most bacteria and viruses. Does NOT kill bacterial spores (Clostridium tetani, C. perfringens, B. anthracis). Acceptable for instruments used in low-risk procedures (wound care, injections) when no better method is available.
@@ -335,7 +334,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - **Chemical sterilization**: Soak clean instruments in 2% glutaraldehyde solution for 10 hours (kills all microorganisms including spores). Rinse thoroughly with sterile water before use. Glutaraldehyde is toxic and irritating to skin and respiratory tract — use in a fume hood with gloves. Alternative: 6-8% hydrogen peroxide solution for 6 hours.
 - **Dry heat**: 160°C for 2 hours or 170°C for 1 hour in a dry oven. Suitable for oils, powders, and instruments that corrode in steam. No corrosion risk, but takes much longer than autoclaving. Must use glass or metal containers (paper and cloth char at these temperatures).
 
-### Mass Casualty Triage
+## Mass Casualty Triage
 
 **START (Simple Triage and Rapid Treatment) protocol**:
 - **Step 1**: Ask everyone who can walk to move to a designated area. Those who comply are tagged **green (minor/delayed)**. This clears the immediate scene and identifies the walking wounded in seconds.
@@ -365,6 +364,6 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - [Acids and Bases](../chemistry/acids-bases.md) — sulfuric acid, hydrochloric acid production for pharmaceutical synthesis
 - [Energy](../energy/index.md) — power for autoclaves, centrifuges, microscopes
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Health](./index.md) • [All Domains](../index.md)*
+
+[← Back to Health](index.md)

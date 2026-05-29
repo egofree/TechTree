@@ -8,13 +8,12 @@
 > **Outputs**: hepa_filters, ulpa_filters, laminar_flow_systems, fan_filter_units
 > **Critical**: Yes — HEPA/ULPA filtration removes sub-micron particles from air supply; without it, no cleanroom can achieve even ISO Class 8
 
-### Overview
 
 High-efficiency particulate air (HEPA) and ultra-low penetration air (ULPA) filters are the core contamination removal technology in clean rooms. Without effective filtration, no clean room can achieve even ISO 8 classification. A single HEPA filter removes 99.97% of particles at the most penetrating particle size (MPPS) of 0.3 μm; ULPA extends this to 99.999% at 0.12 μm. Modern semiconductor fabrication at 5 nm nodes requires particle control 10-100× smaller than a single transistor gate — demanding ULPA filtration and laminar flow discipline simultaneously.
 
 This capability covers the engineering of filter media, filter housing and sealing, fan-filter unit (FFU) design, pre-filtration stages, laminar flow physics, and integrity testing. It does NOT cover the facility design (see [Facility Design & HVAC](facility-design.md)) or contamination control protocols (see [Contamination Control](contamination-control.md)).
 
-### Filter Media Construction
+## Filter Media Construction
 
 **Borosilicate glass microfiber media**:
 
@@ -40,7 +39,7 @@ The filter medium is a mat of borosilicate glass microfibers with diameters rang
 - Media is fragile — shipping, handling, and installation require care to avoid tears that create bypass leaks negating the filter's purpose
 - Acrylic binder degrades above 90°C, limiting HEPA filter use in high-temperature applications (e.g., inline exhaust duct heaters require heat-resistant filter media)
 
-### HEPA Filtration Physics
+## HEPA Filtration Physics
 
 **Three capture mechanisms** operate simultaneously in a HEPA filter. Understanding these is essential for filter selection and performance prediction:
 
@@ -64,7 +63,7 @@ The filter medium is a mat of borosilicate glass microfibers with diameters rang
 - MPPS efficiency testing is destructive (performed at the factory, not in-situ) — installed filter performance depends entirely on seal integrity, verified only by annual DOP/PAO scans
 - Pressure drop doubles from clean to fully loaded, requiring variable-speed fans or oversized motors to maintain constant airflow throughout the filter's service life
 
-### ULPA Filtration — Extended Requirements
+## ULPA Filtration — Extended Requirements
 
 ULPA filters are required for ISO Class 3-4 cleanrooms (semiconductor fabrication at sub-micron nodes). The tighter filtration imposes additional design constraints:
 
@@ -81,7 +80,7 @@ ULPA filters are required for ISO Class 3-4 cleanrooms (semiconductor fabricatio
 - Double the pressure drop of HEPA requires roughly double the fan energy per unit airflow (8-12 kW vs. 4-6 kW for a 100 m² cleanroom)
 - Finer ULPA media is more fragile during shipping and installation — damage that creates a pinhole leak defeats the filter's entire purpose since a 0.01% bypass introduces as many particles as the filter face captures
 
-### Pre-Filtration Stages
+## Pre-Filtration Stages
 
 Pre-filters extend HEPA/ULPA life by removing the bulk of large particles before they reach the final filter. A well-designed pre-filtration cascade can extend final filter life by 2-3×:
 
@@ -94,7 +93,7 @@ Pre-filters extend HEPA/ULPA life by removing the bulk of large particles before
 **Stage 3 — Final filter (HEPA/ULPA)**:
 - The cleanest air reaches the final filter with only sub-micron particles remaining. Pre-filters remove 90-95% of the total particulate mass, reducing HEPA loading to 5-10% of what it would be without pre-filtration. The economics are clear: pre-filters cost $5-30 each; HEPA filters cost $200-800 each. Replacing pre-filters quarterly is far cheaper than replacing HEPA filters annually.
 
-### Fan-Filter Unit (FFU) Design
+## Fan-Filter Unit (FFU) Design
 
 The FFU integrates the fan, pre-filter, and HEPA/ULPA filter into a single ceiling-tile-sized module:
 
@@ -113,7 +112,7 @@ The FFU integrates the fan, pre-filter, and HEPA/ULPA filter into a single ceili
 - Noise level of 45-55 dBA at 1 m from hundreds of FFUs creates a fatiguing acoustic environment for operators during 8-12 hour shifts
 - Power consumption of 100-300 W per FFU adds up to 27-81 kW for a 100 m² ISO 5 cleanroom — the single largest operating cost after process equipment electricity
 
-### Laminar Flow Design
+## Laminar Flow Design
 
 **Vertical laminar flow** (ceiling-to-floor) is the standard for semiconductor cleanrooms:
 
@@ -140,7 +139,7 @@ The FFU integrates the fan, pre-filter, and HEPA/ULPA filter into a single ceili
 - Any obstruction (equipment, personnel, carts) creates a downstream wake zone 5-10 diameters long where particles accumulate — impossible to eliminate in a working cleanroom
 - Face velocity above 0.5 m/s causes turbulence from equipment interaction and increases energy costs disproportionately, while below 0.3 m/s the flow becomes unstable
 
-### Filter Integrity Testing
+## Filter Integrity Testing
 
 **DOP/PAO challenge test** (performed annually and after installation):
 
@@ -166,7 +165,7 @@ The integrity test verifies that the installed filter has no bypass leaks (at th
 - **Replacement trigger**: When pressure drop reaches 2× the initial value (or the manufacturer's specified terminal pressure drop, whichever is lower), replace the filter. Operating beyond this point wastes fan energy and risks media rupture.
 - **Trend analysis**: Plot pressure drop over time. A sudden increase indicates a process upset (excessive particle generation upstream). A gradual increase is normal filter loading. The rate of increase predicts remaining filter life.
 
-### HEPA Filter Bootstrapping Sequence
+## HEPA Filter Bootstrapping Sequence
 
 Manufacturing HEPA filters from scratch requires several upstream capabilities:
 
@@ -176,7 +175,7 @@ Manufacturing HEPA filters from scratch requires several upstream capabilities:
 4. **Frame fabrication**: Aluminum extrusion is cut and welded into rectangular frames. Gasket channels are formed into the frame edge.
 5. **Assembly and testing**: Pleated media is bonded into the frame with polyurethane potting compound (seals media edges to frame). Each filter is tested for efficiency (particle penetration test at MPPS) and pressure drop before shipping.
 
-### Energy Considerations
+## Energy Considerations
 
 Cleanroom air handling is energy-intensive. A 100 m² ISO 5 cleanroom with 100% HEPA coverage at 0.45 m/s:
 
@@ -200,7 +199,7 @@ Optimization strategies:
 - Even optimized, a 100 m² ISO 5 cleanroom consumes ~500,000 kWh/year ($50,000-100,000), representing a major ongoing operational expense
 - Variable-speed FFU ramp-down during unoccupied periods risks contamination events if ramp-up is too slow when production resumes
 
-### Filter Selection Guide
+## Filter Selection Guide
 
 Choosing between HEPA and ULPA depends on the target ISO class and the sensitivity of the process:
 
@@ -215,14 +214,14 @@ Choosing between HEPA and ULPA depends on the target ISO class and the sensitivi
 
 **Cost implications**: ULPA filters cost 2-3× more than HEPA ($400-1200 vs. $200-400 per panel). ULPA systems require 2× the fan energy. However, the cost of contamination-caused defects far exceeds the filtration premium — a single spoiled wafer lot at a modern fab can cost $50,000-500,000.
 
-### Filter Storage and Handling
+## Filter Storage and Handling
 
 - **Storage**: Filters must be stored in their original packaging in a clean, dry environment. Do not stack — the weight compresses the gaskets. Storage temperature: 10-35°C. Humidity: <80% RH. Shelf life: 5 years in original packaging.
 - **Handling**: Carry filters by the frame, never by the media. The media is fragile and tears easily. Do not set filters face-down on surfaces. Use the protective plastic caps on the gasket during transport. Inspect each filter for shipping damage (dented frame, torn media, displaced gasket) before installation.
 - **Installation sequence**: Remove protective caps → inspect gasket for damage → position filter in ceiling grid with airflow arrow pointing down → press firmly to compress gasket → verify seal visually. After installation, run the integrity test before commissioning the cleanroom.
 - **Post-installation protection**: If the cleanroom is not immediately commissioned, cover the filter faces with clean plastic sheeting to prevent premature loading from construction dust.
 
-### Materials
+## Materials
 
 | Material | Use | Specification |
 |----------|-----|---------------|
@@ -235,14 +234,14 @@ Choosing between HEPA and ULPA depends on the target ISO class and the sensitivi
 | Corrugated aluminum | Pleat separator | Maintains pleat spacing under airflow pressure |
 | Galvanized steel | Filter housing | Powder-coated, corrosion-resistant |
 
-### Limitations
+## Limitations
 
 - **No chemical filtration**: HEPA/ULPA filters remove particles, not gases or vapors. Chemical vapor contamination (acid fumes, solvent vapors, ammonia) requires activated carbon filters or chemical scrubbers in a separate stage upstream of the particulate filters.
 - **No living organism elimination**: While HEPA captures bacteria and fungi (0.5-5 μm), it does not kill them. Captured microorganisms can grow on the filter media if conditions are favorable (high humidity, nutrient availability). Biocidal-treated media and regular filter replacement prevent biological growth.
 - **Finite capacity**: Every filter has a finite dust-holding capacity. In heavily loaded environments, pre-filters may need weekly replacement and HEPA filters may last only 1-2 years instead of 3-7 years. Pressure drop monitoring is the only reliable predictor of remaining filter life.
 - **Bypass vulnerability**: A filter is only as good as its installation seal. A 1 mm gap in the gasket seal bypasses more particles than the entire filter face captures. This is why integrity testing (DOP/PAO scan) is mandatory after installation and annually thereafter.
 
-### Safety
+## Safety
 
 **DOP/PAO aerosol hazard**: The challenge aerosol used for filter integrity testing (PAO — polyalphaolefin, replacing DOP/dioctyl phthalate) is a fine mist with mass median diameter 0.3 μm. Inhalation of PAO aerosol at high concentrations causes respiratory irritation. Perform integrity testing with adequate ventilation. Wear N95 or better respirator when generating challenge aerosol in enclosed spaces.
 
@@ -252,14 +251,14 @@ Choosing between HEPA and ULPA depends on the target ISO class and the sensitivi
 
 **Gel sealant chemical exposure**: Non-drying silicone gel used for ULPA filter seals can cause skin irritation with prolonged contact. Wear nitrile gloves when handling gel seal material. Polyurethane potting compound used to bond media to frame is a skin sensitizer — avoid repeated exposure.
 
-### See Also
+## See Also
 
 - [Contamination Control](contamination-control.md) — gowning, monitoring, ESD, ISO classification
 - [Facility Design & HVAC](facility-design.md) — walls, floors, ceiling, HVAC, pressure cascading
 - [Photolithography Cleanrooms](../photolithography/cleanrooms.md) — semiconductor-specific cleanroom integration with fab processes
 - [Health: Sanitation](../health/sanitation.md) — water purification, contamination principles (different scale and methodology)
 
-### Equipment
+## Equipment
 
 | Equipment | Purpose | Specification |
 |-----------|---------|---------------|
@@ -268,6 +267,6 @@ Choosing between HEPA and ULPA depends on the target ISO class and the sensitivi
 | Photometer | Leak scanning | 0.001% sensitivity minimum |
 | Differential pressure gauge | Filter loading monitor | 0-1000 Pa range, ±2% accuracy |
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Clean Room Technology](./index.md) • [All Domains](../index.md)*
+
+[← Back to cleanrooms](index.md)

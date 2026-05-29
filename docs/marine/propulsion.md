@@ -41,7 +41,7 @@ The simplest marine drive: direct conversion of human muscle to thrust.
 - **Bireme**: two banks of oars per side, 50-100 oars total. Requires shorter oars and precise timing between banks.
 - **Trireme**: three banks, 150-170 oars, 3 m overlapping stroke. The pinnacle of oared warship design. 37 m × 5.5 m, 50 tonnes displacement, crew of 200. Speed 7-8 knots burst, 4-5 knots sustained.
 
-### Sail Propulsion
+## Sail Propulsion
 
 For detailed sail mechanics, rig types, and sail area calculations, see [Water Transport](../transport/shipping.md).
 
@@ -55,7 +55,7 @@ For detailed sail mechanics, rig types, and sail area calculations, see [Water T
 - At 20 knots wind with same sail: F = 0.5 × 1.225 × 10.29² × 100 × 1.0 = 6,488 N (662 kgf) — 4× the force for 2× the wind speed
 - Sail must be reefed (area reduced) in strong winds to prevent capsize or rig failure
 
-### Steam Propulsion
+## Steam Propulsion
 
 Steam engines adapted for marine use must address unique challenges: saltwater corrosion, space constraints, weight distribution, and variable loading from waves.
 
@@ -105,7 +105,7 @@ Steam engines adapted for marine use must address unique challenges: saltwater c
 - Vacuum in the condenser (0.05-0.15 bar absolute) increases engine efficiency by lowering the exhaust back-pressure
 - Condenser tube material: copper-nickel alloy (90/10 or 70/30) resists saltwater corrosion. Tube diameter 15-25 mm, wall thickness 1-1.5 mm.
 
-### Screw Propeller
+## Screw Propeller
 
 The screw propeller replaces paddle wheels for most applications by the 1860s.
 
@@ -139,7 +139,7 @@ The screw propeller replaces paddle wheels for most applications by the 1860s.
 - Shaft power (PS) = PD / ηshaft, where ηshaft = shaft bearing efficiency (0.95-0.98)
 - Brake power (PB) = PS / ηgear, where ηgear = reduction gear efficiency (0.95-0.98)
 
-### Paddle Wheel
+## Paddle Wheel
 
 The earlier alternative to screw propellers.
 
@@ -162,7 +162,7 @@ The earlier alternative to screw propellers.
 - Speed variation with vessel loading — as the ship sits lower in the water, paddle immersion increases, changing efficiency
 - Obsolete for ocean-going vessels by the 1860s — screw propellers are superior in every respect for open water
 
-### Internal Combustion Engine Propulsion
+## Internal Combustion Engine Propulsion
 
 **Marine diesel engine (1900s+)**:
 
@@ -190,7 +190,7 @@ The earlier alternative to screw propellers.
 - Marine diesel oil (MDO): lighter, cleaner, more expensive. Used in smaller engines and in emission control areas.
 - Energy density: HFO ~40,000 kJ/kg, MDO ~42,000 kJ/kg
 
-### Propulsion Power Calculations
+## Propulsion Power Calculations
 
 **Resistance-based power estimation**:
 
@@ -206,7 +206,7 @@ For a 100 m cargo vessel at 12 knots:
 - At 12 knots, range 5,000 nm requires: 5,000 / 12 = 417 hours × 449 = 187,233 kg (187 tonnes fuel)
 - Steam turbine (SFC 220 g/kWh): 2,644 × 0.220 = 582 kg/hour, 242 tonnes for same range
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Boiler explosion**: Steam at 15 bar contains enormous energy. A boiler explosion kills everyone in the engine room and can breach the hull. Safety valves (set to lift at design pressure +10%), water level gauges, and regular inspection prevent this. Never bypass safety valves.
 - **Fuel oil fires**: HFO heated to 130°C for injection ignites easily if sprayed. Fuel line integrity is critical. Fire suppression (CO₂ flooding) in engine rooms mandatory.
@@ -214,7 +214,7 @@ For a 100 m cargo vessel at 12 knots:
 - **Propeller entanglement**: Rope, netting, or debris wrapping around the propeller shaft stops the engine and requires divers or dry-docking to clear. Rope cutters fitted on shafts reduce this risk.
 - **Carbon monoxide**: Diesel engine exhaust contains CO. Exhaust systems must be gas-tight and discharge above deck level. Never run engines in enclosed spaces without ventilation.
 
-### Propulsion Evolution Summary
+## Propulsion Evolution Summary
 
 | Era | Propulsion | Power Range | Efficiency | Fuel | Speed (100m vessel) |
 |-----|-----------|-------------|-----------|------|-------------------|

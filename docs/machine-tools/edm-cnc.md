@@ -13,7 +13,7 @@ Conventional machining (lathe, mill, drill — covered in [Machining](./machinin
 
 EDM removes material by controlled electrical sparks eroding the workpiece in a dielectric fluid bath. No mechanical cutting force is applied — the tool electrode never touches the workpiece. This enables machining of any electrically conductive material regardless of hardness, including hardened tool steel (60+ HRC), tungsten carbide, and titanium alloys.
 
-### Spark Erosion Physics
+## Spark Erosion Physics
 
 Each spark discharge follows a sequence occurring in 1-100 μs:
 
@@ -26,7 +26,7 @@ Material removal rate: 1-100 mm³/min depending on power, electrode area, and ma
 
 **Spark gap (overcut)**: The discharge gap is typically 0.01-0.05 mm per side. This must be compensated in electrode dimensions — a 10.00 mm electrode produces a ~10.04-10.10 mm cavity in the workpiece.
 
-### Wire EDM
+## Wire EDM
 
 A thin brass or coated wire (0.05-0.30 mm diameter) serves as the electrode, continuously fed from a spool through the workpiece. The workpiece is mounted on an X-Y table that traces the cut profile.
 
@@ -38,7 +38,7 @@ A thin brass or coated wire (0.05-0.30 mm diameter) serves as the electrode, con
 - **Dielectric**: Deionized water (resistivity 1-20 MΩ·cm). Water quality directly affects cut quality — must maintain filtration and deionization.
 - **Applications**: Extrusion dies, progressive stamping dies, gear profiles, turbine blade roots, IC leadframe dies, micro-mechanical components.
 
-### Sinker EDM (Ram EDM)
+## Sinker EDM (Ram EDM)
 
 A shaped electrode (typically copper, graphite, or copper-tungsten) is lowered into the workpiece, reproducing the electrode geometry as a cavity. No wire — the electrode is a 3D form.
 
@@ -49,7 +49,7 @@ A shaped electrode (typically copper, graphite, or copper-tungsten) is lowered i
 - **Dielectric fluid**: Hydrocarbon oil (kerosene-based, flash point >90°C) or synthetic dielectric. Oil provides better surface finish than water for sinker EDM but is a fire hazard at high power. Must be filtered to <5 μm particle size.
 - **Applications**: Injection molds, die-casting dies, forging dies, turbine blade cooling holes, IC packaging mold cavities, connector housings.
 
-### Small Hole EDM (Hole Drilling)
+## Small Hole EDM (Hole Drilling)
 
 Specialized EDM for drilling small, deep holes using a tubular electrode.
 
@@ -58,7 +58,7 @@ Specialized EDM for drilling small, deep holes using a tubular electrode.
 - **Speed**: 1-30 mm/min penetration rate. Faster than conventional drilling for hard materials.
 - **Applications**: Turbine blade cooling holes (0.3-1.0 mm, angled), fuel injector spray holes, start holes for wire EDM threading.
 
-### EDM Process Parameters
+## EDM Process Parameters
 
 | Parameter | Wire EDM | Sinker EDM | Hole Drilling |
 |-----------|----------|------------|---------------|
@@ -69,7 +69,7 @@ Specialized EDM for drilling small, deep holes using a tubular electrode.
 | Surface finish | 0.2-1.6 μm Ra | 0.8-6 μm Ra | 1-5 μm Ra |
 | Accuracy | ±2-5 μm | ±5-10 μm | ±10-20 μm |
 
-### Limitations
+## Limitations
 
 - **Conductivity requirement**: Only works on electrically conductive materials. Cannot machine ceramics, glass, plastics, or diamond directly.
 - **Recast layer**: EDM leaves a thin (1-10 μm) resolidified and heat-affected layer on the machined surface. This layer is hard and brittle with micro-cracks. Critical parts may require post-EDM grinding or polishing to remove it.
@@ -81,7 +81,7 @@ Specialized EDM for drilling small, deep holes using a tubular electrode.
 
 CNC replaces manual handwheel operation with motor-driven axes controlled by a computer executing programmed motion commands (G-code). This provides repeatable, programmable positioning accuracy far beyond manual machining, enabling complex 3D contours, automated tool changes, and consistent production of identical parts.
 
-### Servo and Stepper Drive Systems
+## Servo and Stepper Drive Systems
 
 CNC machines use electric motors to drive each axis. Two types dominate:
 
@@ -99,7 +99,7 @@ CNC machines use electric motors to drive each axis. Two types dominate:
 - **Maximum speed**: Rapid traverse 20-60 m/min. Cutting feed up to 10 m/min.
 - **Application**: All precision CNC machine tools, semiconductor equipment, wafer stages.
 
-### Ball Screws and Linear Motion
+## Ball Screws and Linear Motion
 
 Ball screws convert rotary motion to linear motion with minimal friction and backlash:
 
@@ -110,7 +110,7 @@ Ball screws convert rotary motion to linear motion with minimal friction and bac
 - **Maximum length**: Practical limit ~3-5 m before screw whip (critical speed). Longer axes use rack-and-pinion or linear motors.
 - **Lubrication**: Grease or oil bath. Cleanliness critical — contamination accelerates wear. Semiconductor equipment uses cleanroom-compatible lubricants.
 
-### Linear Encoders and Feedback
+## Linear Encoders and Feedback
 
 Closed-loop positioning requires accurate position measurement:
 
@@ -118,7 +118,7 @@ Closed-loop positioning requires accurate position measurement:
 - **Magnetic linear encoders**: Magnetic tape with pole spacing (1-5 mm). Hall effect sensors read position. Less precise (1-5 μm resolution) but more robust against contamination. Used in harsh environments.
 - **Laser interferometers**: HeNe laser (632.8 nm wavelength) measures position by counting interference fringes. Resolution: 0.001 μm (1 nm). Used for calibration and ultra-precision machines. Requires stable temperature (±0.1°C) and air refractivity compensation.
 
-### 5-Axis Machining
+## 5-Axis Machining
 
 Simultaneous control of five axes (typically X, Y, Z linear + two rotary axes) enables:
 
@@ -128,7 +128,7 @@ Simultaneous control of five axes (typically X, Y, Z linear + two rotary axes) e
 - **Configurations**: Trunnion (rotary table + tilting rotary), swivel-head (tilting spindle + rotary table), and gantry (large 5-axis for aerospace).
 - **Positioning accuracy for 5-axis**: ±3-10 μm linear, ±5-10 arc-seconds rotary on precision machines.
 
-### G-Code Basics
+## G-Code Basics
 
 CNC programs use G-code (ISO 6983 / RS274) to specify toolpath, feed rate, spindle speed, and auxiliary functions:
 
@@ -166,7 +166,7 @@ M30
 
 Modern CNC also supports conversational programming and CAM-generated toolpaths for complex geometry.
 
-### CNC Precision Capabilities
+## CNC Precision Capabilities
 
 | Parameter | Standard CNC | Precision CNC | Ultra-Precision CNC |
 |-----------|-------------|---------------|---------------------|
@@ -183,7 +183,7 @@ Ultra-precision CNC machines (e.g., Moore Nanotech, Precitech) use air bearings,
 
 [Machining](./machining.md) covers basic surface and cylindrical grinding to ±0.005 mm. Semiconductor equipment requires grinding processes that push a full order of magnitude further — into the sub-micron regime for flatness, parallelism, and surface finish.
 
-### Jig Grinding
+## Jig Grinding
 
 Jig grinding uses a precision grinding spindle mounted on a CNC-controlled X-Y table to grind holes, profiles, and contours to extreme accuracy:
 
@@ -192,7 +192,7 @@ Jig grinding uses a precision grinding spindle mounted on a CNC-controlled X-Y t
 - **Spindle speed**: 20,000-175,000 RPM (air-bearing spindles for highest precision).
 - **Application**: Die guide pin holes, punch bushings, precision lens molding die bores, semiconductor fixture alignment holes.
 
-### Surface Grinding (Precision Grade)
+## Surface Grinding (Precision Grade)
 
 Beyond the basic surface grinding covered in [Machining](./machining.md), precision surface grinding achieves:
 
@@ -203,7 +203,7 @@ Beyond the basic surface grinding covered in [Machining](./machining.md), precis
 - **Spark-out**: Final 5-10 passes with zero downfeed allow the wheel to "spark out" — removing the last microns of material as the system relaxes elastically. Essential for achieving sub-micron flatness.
 - **Wheel selection for precision**: Fine-grit wheels (320-800 grit, 60-120 μm abrasive size) for finish grinding. Very fine grit (1000+ grit, <20 μm) for mirror finish.
 
-### Cylindrical Grinding (Precision Grade)
+## Cylindrical Grinding (Precision Grade)
 
 Precision cylindrical grinding for shafts, spindles, and bearing journals used in semiconductor equipment:
 
@@ -214,7 +214,7 @@ Precision cylindrical grinding for shafts, spindles, and bearing journals used i
 - **Infeed**: 0.5-2 μm per pass for finishing.
 - **Application**: Air-bearing spindles, wafer stage guide shafts, precision lead screws, lens polishing machine spindles.
 
-### Centerless Grinding
+## Centerless Grinding
 
 Workpiece is supported between a grinding wheel and a regulating wheel (no centers or chuck). Enables high-throughput grinding of cylindrical parts:
 
@@ -224,7 +224,7 @@ Workpiece is supported between a grinding wheel and a regulating wheel (no cente
 - **Throughfeed rate**: 1-10 m/min for small parts. Can process hundreds of parts per hour continuously.
 - **Application**: Bearing rollers, guide pins, piston pins, stylus shafts, probe needles.
 
-### Grinding Wheel Selection
+## Grinding Wheel Selection
 
 Wheel specification follows the standard marking system: **abrasive type – grit size – grade – bond type – structure**.
 
@@ -250,7 +250,7 @@ Wheel specification follows the standard marking system: **abrasive type – gri
 
 **Wheel speed**: 25-35 m/s for conventional abrasives. 45-120 m/s for CBN/diamond superabrasive wheels. Higher speed = more cutting events per second = better finish, but requires stronger wheel bonds and machine guarding.
 
-### Coolant and Thermal Management
+## Coolant and Thermal Management
 
 Precision grinding generates substantial heat in a very small zone (1,000-2,000°C at the grain-workpiece interface). Thermal management is critical:
 
@@ -259,7 +259,7 @@ Precision grinding generates substantial heat in a very small zone (1,000-2,000�
 - **Temperature control**: ±0.5°C for precision grinding. ±0.1°C for ultra-precision. Machine structure and workpiece must reach thermal equilibrium — warm-up period of 30-120 minutes.
 - **Nozzle design**: Shoe-type nozzle matching wheel profile delivers coolant into the grinding zone at 70-90% of wheel speed. Prevents air barrier from deflecting coolant.
 
-### Surface Finish Specifications
+## Surface Finish Specifications
 
 | Process | Ra (μm) | Rz (μm) | Application |
 |---------|---------|---------|-------------|
@@ -274,7 +274,7 @@ Ra = arithmetic average roughness. Rz = average maximum peak-to-valley height (�
 
 ## Semiconductor Equipment Applications
 
-### Wafer Stage Manufacturing
+## Wafer Stage Manufacturing
 
 The wafer stage holds and positions silicon wafers during photolithography exposure. It is the most mechanically demanding single component in semiconductor manufacturing:
 
@@ -283,7 +283,7 @@ The wafer stage holds and positions silicon wafers during photolithography expos
 - **Materials**: Low-expansion materials (granite, ceramics, Invar) to minimize thermal drift. Aluminum for lightweight stages with thermal management.
 - **Manufacturing sequence**: Rough machine → stress relief anneal → semi-finish grind → precision surface grind → lap → polish. Multiple intermediate measurement steps with laser interferometry.
 
-### Lens and Optic Molding
+## Lens and Optic Molding
 
 Precision glass molding for camera lenses, projector optics, and photolithography lens elements:
 
@@ -291,7 +291,7 @@ Precision glass molding for camera lenses, projector optics, and photolithograph
 - **Mold material**: Tungsten carbide or silicon carbide (maintains shape at 500-700°C molding temperature). Mold life: 5,000-50,000 parts before refurbishment.
 - **Manufacturing**: CNC machining of mold blank → precision grinding to near-net shape → ultra-precision CNC grinding to ±1 μm → magnetorheological finishing (MRF) or ion beam figuring for final figure correction.
 
-### IC Package Mold Making
+## IC Package Mold Making
 
 Transfer molds for encapsulating integrated circuits in epoxy-silica compound:
 
@@ -323,7 +323,7 @@ Each level requires roughly 10× the investment in machine capability, environme
 - **Grinding dust**: Fine metallic dust is a respiratory hazard and explosion risk. Dust collection mandatory. Coolant mist from high-speed grinding requires extraction.
 - **Noise**: Grinding and EDM generate 80-100+ dB. Hearing protection required.
 
-## References
+## See Also
 
 - Basic machining operations: [Machining](./machining.md)
 - Cutting tool materials and abrasives: [Bearings & Abrasives](./bearings-abrasives.md)
@@ -333,13 +333,13 @@ Each level requires roughly 10× the investment in machine capability, environme
 - Lubrication: [Lubricants](../chemistry/lubricants.md)
 - Silicon crystal growth (requires precision equipment): [Crystal Growth](../silicon/crystal-growth.md)
 
-### See Also
+## See Also
 
 - [Machining](machining.md) — Conventional machining operations (lathe, mill, drill, basic grinding)
 - [Bearings & Abrasives](bearings-abrasives.md) — Abrasive materials and bearing manufacturing
 - [Iterative Bootstrap](./iterative-bootstrap.md) — Precision improvement pathway
 - [Machine Tools Overview](./index.md) — Complete machine tools reference
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*
+
+[← Back to Machine Tools](index.md)

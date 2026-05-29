@@ -8,7 +8,7 @@
 > **Outputs**: fish, vegetables, herbs, filtered_water
 > **Critical**: No — aquaponics provides high-density integrated food production but is not the only path to reliable agriculture; conventional soil-based farming and separate aquaculture are viable alternatives
 
-## 1. Overview
+## Overview
 
 Aquaponics is an integrated food production system that combines fish farming (aquaculture) with soil-less plant cultivation in a single recirculating water loop. Fish produce ammonia-rich waste; bacteria convert that ammonia to nitrate; plants absorb the nitrate as fertilizer; the cleaned water returns to the fish tank. The result is two crops (fish and plants) from one water input, with the plants serving as the water filtration system for the fish and the fish providing free fertilizer for the plants.
 
@@ -18,7 +18,7 @@ A small aquaponic system — a 500-1000 L fish tank, a 1-2 m² grow bed, an air 
 
 Position in the dependency chain: aquaponics depends on [Aquaculture](../animals/aquaculture.md) (fish farming knowledge) and [Agriculture](./index.md) (plant cultivation). It enables the more advanced [SEM Tech Hydroponics](./sem-tech-hydroponics.md) systems and supports [Food Processing](../food-processing/index.md) with consistent fish and vegetable harvests.
 
-## 2. Prerequisites
+## Prerequisites
 
 **Materials**:
 - Fish tank (500-1000 L for household system): food-grade polyethylene, or concrete/brick tank lined with pond liner
@@ -48,9 +48,9 @@ Position in the dependency chain: aquaponics depends on [Aquaculture](../animals
 - Sheltered location (greenhouse, indoor room, or covered area) for temperature control
 - Water source for initial fill and make-up water (see [Water Procurement](../water/procurement.md))
 
-## 3. Bill of Materials
+## Bill of Materials
 
-### Household Aquaponic System (1000 L fish tank)
+## Household Aquaponic System (1000 L fish tank)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -64,7 +64,7 @@ Position in the dependency chain: aquaponics depends on [Aquaculture](../animals
 | Fish fingerlings | 20-50 | [Aquaculture](../animals/aquaculture.md) | Wild-caught (disease risk) |
 | Water test kit (ammonia, nitrite, nitrate, pH) | 1 | Chemical supply | Visual observation (less precise) |
 
-### Supplemental Mineral Amendments
+## Supplemental Mineral Amendments
 
 | Material | Quantity | Purpose | Source |
 |----------|----------|---------|--------|
@@ -72,9 +72,9 @@ Position in the dependency chain: aquaponics depends on [Aquaculture](../animals
 | Wood ash | 100-200 g per 100 L weekly | Potassium supplement | [Fire-Making](../foundations/fire.md) |
 | Chelated iron (iron DTPA) | 2-5 mg/L every 2-4 weeks | Iron supplement (prevents chlorosis) | [Chemistry](../chemistry/index.md) or commercial |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 System Design and Assembly
+## 4.1 System Design and Assembly
 
 **Fish tank**: 500-1000 L for a household system. Food-grade polyethylene tank, or a concrete/brick tank lined with pond liner or waterproofed with cement render. Opaque or dark-colored to reduce algae growth. Minimum depth 40-60 cm. Located at or below the level of the grow beds to allow gravity drain-back.
 
@@ -113,7 +113,7 @@ Cycle: Water fills the grow bed to the top of the standpipe. The bell siphon tri
 - Gravel media (200-400 L) is heavy — grow beds weigh 300-600 kg when full and must be supported
 - PVC plumbing requires precise fitting — leaks cause water loss and can drain the fish tank
 
-### 4.2 Nitrogen Cycle Establishment
+## 4.2 Nitrogen Cycle Establishment
 
 Aquaponics depends on the nitrogen cycle — bacteria convert toxic fish waste into plant-available nutrients. This cycle must be established before adding fish.
 
@@ -150,7 +150,7 @@ Before adding fish, the system must develop sufficient bacterial colonies to pro
 - Nitrite spike during weeks 2-3 is toxic to fish — any fish added prematurely will die
 - Bacterial colonies crash if the pump stops for more than 4-6 hours (bacteria suffocate without oxygenated water flow)
 
-### 4.3 Fish Management
+## 4.3 Fish Management
 
 #### Tilapia (*Oreochromis* spp.)
 
@@ -188,7 +188,7 @@ Start conservative. Stock at 10-15 kg/m³ when fish are small and increase as th
 - Overfeeding is the most common cause of ammonia spikes — 15-minute feeding rule requires daily attention
 - Fish disease spreads rapidly in recirculating systems — one sick fish can infect the entire tank within 24-48 hours
 
-### 4.4 Plant Management
+## 4.4 Plant Management
 
 **Excellent aquaponic crops** (leafy greens and herbs — thrive on nitrogen-rich fish water):
 - **Lettuce** (all varieties): 4-6 weeks from transplant to harvest. The most reliable aquaponic crop.
@@ -222,7 +222,7 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 - Iron deficiency develops in most systems within 2-3 months without chelated iron supplement
 - Root crops and large fruiting trees are unsuitable for aquaponic growing
 
-### 4.5 Water Quality Management
+## 4.5 Water Quality Management
 
 **pH**: Target: 6.5-7.0. This is a compromise between fish comfort (prefer 7.0-8.0), plant nutrient availability (prefer 5.5-6.5), and bacterial activity (prefer 7.0-8.0).
 
@@ -252,7 +252,7 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 - Dissolved oxygen below 5 mg/L is lethal to fish within hours in warm water — continuous aeration is mandatory
 - Ammonia spikes from overfeeding or dead fish can kill an entire tank within 24 hours
 
-### 4.6 System Startup and Operation
+## 4.6 System Startup and Operation
 
 1. **Build the system**: Assemble fish tank, grow bed(s), plumbing, bell siphon, pump, and air pump. Check all connections. Fill with dechlorinated water. Test the bell siphon cycle (fill and drain 3-4 times).
 2. **Add bio-media and plant**: Fill grow beds with washed gravel or clay pebbles. Plant seedlings (start with fast-growing plants: lettuce, basil).
@@ -272,9 +272,9 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 - System requires daily monitoring (5-10 minutes) — neglect for more than 24 hours can kill fish
 - First-time systems commonly lose fish during the learning curve — start with inexpensive fish
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Fish Growth Rates in Aquaponics
+## Fish Growth Rates in Aquaponics
 
 | Species | Optimal Temperature (°C) | Time to 500 g | Feed Conversion Ratio | Stocking Density (kg/m³) |
 |---------|-------------------------|----------------|----------------------|--------------------------|
@@ -283,7 +283,7 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 | Catfish | 24-28 | 4-6 months | 1.8-2.5 | 30-50 |
 | Trout | 10-15 | 8-12 months | 1.2-1.5 | 15-25 |
 
-### Aquaponic Crop Yield and Timeline
+## Aquaponic Crop Yield and Timeline
 
 | Crop | Time to Harvest (weeks) | Yield per m² per Year (kg) | Notes |
 |------|------------------------|---------------------------|-------|
@@ -294,7 +294,7 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 | Tomatoes | 12-16 | 10-20 | Requires K and Ca supplementation |
 | Cucumbers | 8-12 | 15-30 | Requires trellising |
 
-### Aquaponic System Water Budget
+## Aquaponic System Water Budget
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
@@ -304,7 +304,7 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 | Annual water use | 2,000-7,000 L/year | Compare: soil garden uses 50,000-100,000 L/year for same area |
 | Water use efficiency vs. soil | 90-95% less water than soil-based growing | Primary advantage of recirculating systems |
 
-### pH, Ammonia, Nitrite, and Nitrate Targets
+## pH, Ammonia, Nitrite, and Nitrate Targets
 
 | Parameter | Target Range | Danger Level | Effect of Deviation |
 |-----------|-------------|-------------|-------------------|
@@ -315,7 +315,7 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 | Dissolved oxygen | >5 mg/L | <3 mg/L | Fish die within 1-2 hours below 2 mg/L in warm water |
 | Temperature (tilapia) | 26-30°C | <15°C or >33°C | Growth stops below 20°C; death below 10°C or above 35°C |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 **Household system (500-1,000 L)**: Single fish tank + 1-2 grow beds. Produces 20-40 kg fish and 30-60 kg vegetables per year in 3-4 m² footprint. Daily maintenance: 5-10 minutes (feeding, visual check). Weekly maintenance: 15-30 minutes (water testing, filter cleaning). Suitable for a family's supplemental protein and greens.
 
@@ -325,7 +325,7 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 
 **Key bottleneck**: Continuous electricity. Pumps and aerators must run 24/7. A power outage exceeding 2-4 hours in warm weather kills fish from oxygen depletion. Solar + battery backup is mandatory for any system in an area with unreliable grid power.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -339,7 +339,7 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 | Bell siphon not triggering | Clogged with debris or wrong standpipe height | Clean media guard; adjust standpipe height; check for root intrusion |
 | Fish not eating | Water temperature too low (tilapia <20°C), or disease | Check temperature; test ammonia and nitrite; observe fish for signs of disease |
 
-## 8. Safety
+## Safety
 
 - **Waterborne disease**: Aquaponic water contains fish waste and bacteria. Do not drink system water. Wash hands after handling fish, grow bed media, or system water. Fish can carry *Salmonella* and *Streptococcus* spp. — maintain good hygiene around the system, especially if children have access.
 - **Electrical safety near water**: Water pumps and air pumps operate in and around water. Use ground-fault circuit interrupters (GFCIs) on all electrical outlets near the system. Secure all cables above water level. Do not operate damaged pumps. Solar-powered systems with low-voltage DC pumps (12V) reduce shock risk significantly compared to mains-powered AC pumps.
@@ -347,9 +347,9 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 - **Heavy metals**: Do not use galvanized metal (zinc-coated) components in the system — zinc is toxic to fish at concentrations as low as 0.1 mg/L. Copper is also toxic to fish (and to invertebrates like shrimp and snails) at concentrations above 0.02 mg/L. Use plastic, stainless steel, or ceramic components for plumbing and fittings. Lead solder in plumbing is a contamination risk — use lead-free connections.
 - **Plant food safety**: Fish waste can contain human pathogens if the fish are fed manure or contaminated feed. Use only clean feed sources (commercial pellets, BSF larvae raised on food waste, duckweed from clean water). Wash all aquaponic produce before eating. Leafy greens grown in media beds may have gravel particles trapped in leaves — rinse thoroughly.
 
-## 9. Quality Control
+## Quality Control
 
-### Water Quality Monitoring Schedule
+## Water Quality Monitoring Schedule
 
 | Parameter | Frequency | Target | Action Threshold |
 |-----------|-----------|--------|-----------------|
@@ -360,7 +360,7 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 | Dissolved oxygen | Daily observation of fish behavior | >5 mg/L | Fish gasping at surface: increase aeration immediately |
 | Temperature | Daily | Species-dependent (see table) | Outside range: add/remove heat source |
 
-### System Performance Benchmarks
+## System Performance Benchmarks
 
 | Metric | Target | Warning | Measurement Method |
 |--------|--------|---------|-------------------|
@@ -369,9 +369,9 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 | Water clarity | Clear to slightly green | Brown or opaque | Visual inspection (turbidity indicates solids problem) |
 | Bell siphon cycle frequency | 3-4 cycles per hour | <2 or >6 per hour | Time fill and drain cycles |
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Aquaponics vs Other Growing Methods
+## Aquaponics vs Other Growing Methods
 
 | Parameter | Aquaponics | Soil-Based Gardening | Hydroponics |
 |-----------|-----------|---------------------|-------------|
@@ -383,7 +383,7 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 | Startup time | 6-10 weeks | Days (plant seeds) | 1-2 weeks |
 | Failure mode | Fish death (catastrophic) | Pest/disease (gradual) | Nutrient imbalance (gradual) |
 
-### System Configuration Selection
+## System Configuration Selection
 
 | Situation | Recommended Configuration | Why |
 |-----------|--------------------------|-----|
@@ -393,7 +393,7 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 | Semi-arid, water-scarce | NFT pipes + tilapia + greens | Lowest water use of any food production method |
 | Integration with BSF farming | Media bed + tilapia + fruiting crops | BSF larvae feed fish; fish waste feeds plants |
 
-## 11. References
+## References
 
 - [Aquaculture](../animals/aquaculture.md) — fish farming techniques, pond construction, fish species, and feeding that underpin aquaponic fish production
 - [Insect Farming](../animals/insect-farming.md) — BSF larvae as fish feed, closing the nutrient loop
@@ -405,6 +405,6 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 - [Foundations → Agriculture](../foundations/food-agriculture.md) — basic cultivation knowledge
 - [Food Processing](../food-processing/index.md) — downstream processing of aquaponic fish and vegetables
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*
+
+[← Back to Agriculture](index.md)

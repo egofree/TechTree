@@ -18,13 +18,13 @@ The refining process chain follows a clear progression: separation (distillation
 
 The first and most fundamental refining process. Separates crude oil into fractions by boiling point at near-atmospheric pressure (1-2 bar). The atmospheric distillation unit (ADU) processes the entire crude oil throughput and sets the stage for all downstream units.
 
-### Feed Preparation (Desalting)
+## Feed Preparation (Desalting)
 
 Crude oil from the wellhead contains salt water (1-5% water, 50-300 ppm salt), sand, and sediments. Salt causes severe corrosion in downstream equipment (HCl formation at distillation temperatures).
 
 **Electrostatic desalter**: Mix crude with 3-10% fresh water at 120-150°C. Add emulsion-breaking chemicals. Pass through electrostatic coalescer (20-60 kV electric field causes water droplets to merge and separate). Settling tank: water (denser, containing dissolved salts) settles to bottom, desalted crude floats to top. Remove salt to <5 PTB (pounds per thousand barrels). Single stage achieves 90-95% salt removal; two stages in series achieve 98-99%.
 
-### Distillation Conditions & Products
+## Distillation Conditions & Products
 
 Preheated crude enters the tube-still furnace (fuel-fired, 70-80% thermal efficiency, heat duty 30-80 MW for a 50,000-200,000 bbl/day unit) and is heated to 350-385°C. The hot crude enters the flash zone of the atmospheric column as a partially vaporized mixture (typically 40-60% vaporized at the feed point).
 
@@ -45,7 +45,7 @@ Preheated crude enters the tube-still furnace (fuel-fired, 70-80% thermal effici
 
 **Heat integration**: Crude preheat train — cold crude passes through a series of shell-and-tube heat exchangers connected to hot product streams. Recovers 60-70% of product heat energy before the crude enters the furnace. This is the largest and most complex heat exchanger network in the refinery, typically 10-20 exchangers in series-parallel arrangement. Proper crude preheat design reduces furnace fuel consumption by 30-50%.
 
-### Crude Oil Types & Yield Impact
+## Crude Oil Types & Yield Impact
 
 Different crude oils produce very different product distributions:
 
@@ -61,7 +61,7 @@ Light crudes yield more valuable naphtha and middle distillate directly; heavy c
 
 Atmospheric residue (bp >350°C) cannot be further distilled at atmospheric pressure without thermal cracking (decomposition begins above ~380°C for heavy fractions). The VDU reduces column pressure to 10-30 mmHg absolute, lowering boiling points by 150-200°C and enabling distillation of high-boiling materials at 350-400°C without degradation.
 
-### Column Specifications
+## Column Specifications
 
 - **Pressure**: 10-30 mmHg (absolute) at top, 30-50 mmHg at flash zone
 - **Diameter**: 6-12 m (larger than ADU because vapor specific volume expands at low pressure — lower density requires larger cross-section)
@@ -70,7 +70,7 @@ Atmospheric residue (bp >350°C) cannot be further distilled at atmospheric pres
 
 **Vacuum system**: Multi-stage steam ejectors (3-4 stages with intercondensers). First stage pulls to ~100 mmHg, second to ~25 mmHg, third and fourth to 5-15 mmHg. Steam consumption: 5-15 kg steam per kg of non-condensable gas removed. Alternative: liquid ring vacuum pumps for smaller units.
 
-### Products
+## Products
 
 | Fraction | Temperature Range (equiv. at 1 atm) | Yield from residue | Primary Use |
 |----------|--------------------------------------|---------------------|-------------|
@@ -84,7 +84,7 @@ Atmospheric residue (bp >350°C) cannot be further distilled at atmospheric pres
 
 The most important conversion process in modern refining. Converts heavy gas oil (bp 340-550°C, low-value) into gasoline, diesel, and light gases (high-value) using a solid acid catalyst. Produces approximately 40% of all gasoline in the United States.
 
-### Process Description
+## Process Description
 
 Preheated gas oil feed (350°C) contacts hot regenerated catalyst (680-720°C) at the bottom of the riser reactor. The catalyst is a fine powder (average particle size ~60 µm) that behaves like a fluid when aerated (fluidized bed). The dramatic temperature increase (feed at 350°C meets catalyst at 700°C) vaporizes the feed and initiates cracking reactions instantly.
 
@@ -96,7 +96,7 @@ Preheated gas oil feed (350°C) contacts hot regenerated catalyst (680-720°C) a
 
 **Catalyst regeneration**: Coke-laden catalyst flows to the regenerator — a large fluidized bed vessel where air (not just oxygen — the nitrogen provides fluidization and heat capacity) burns the coke off at 650-720°C. The regenerator is thermally balanced: the exothermic combustion of coke provides all the heat needed for the endothermic cracking reactions. Hot regenerated catalyst flows back to the riser, completing the continuous catalyst circulation loop. Catalyst circulation rate: 20-50 tonnes/minute.
 
-### FCC Yields
+## FCC Yields
 
 | Product | Yield Range | Properties |
 |---------|-------------|------------|
@@ -123,7 +123,7 @@ Preheated gas oil feed (350°C) contacts hot regenerated catalyst (680-720°C) a
 - Catalyst deactivates from metals contamination (vanadium, nickel from feed) and requires continuous makeup (0.5-2 tonnes/day)
 - Particulate emissions from catalyst fines require electrostatic precipitators on regenerator flue gas
 
-### FCC Catalyst
+## FCC Catalyst
 
 Zeolite Y (synthetic faujasite, Na₅₆[(AlO₂)₅₆(SiO₂)₁₃₆]·250H₂O after sodium removal) in an amorphous silica-alumina matrix. Zeolite provides the strong acid sites for cracking; matrix provides macroporosity for pre-cracking large molecules before they enter zeolite pores (pore diameter ~0.74 nm). Catalyst inventory: 100-300 tonnes per unit. Make-up rate: 0.5-2 tonnes/day (catalyst deactivates over time from metals contamination and hydrothermal degradation).
 
@@ -131,7 +131,7 @@ Zeolite Y (synthetic faujasite, Na₅₆[(AlO₂)₅₆(SiO₂)₁₃₆]·250H�
 
 A catalytic process that converts heavy feedstocks (vacuum gas oil, heavy gas oil, atmospheric residue) into high-quality middle distillates (diesel, jet fuel) and naphtha in the presence of hydrogen. Complements FCC: where FCC maximizes gasoline, hydrocracking maximizes diesel and jet fuel.
 
-### Process Conditions
+## Process Conditions
 
 | Parameter | Value |
 |-----------|-------|
@@ -142,7 +142,7 @@ A catalytic process that converts heavy feedstocks (vacuum gas oil, heavy gas oi
 | Liquid hourly space velocity (LHSV) | 0.5-2.0 h⁻¹ |
 | Reactor type | Fixed-bed, downflow, trickle-bed (liquid and gas flow concurrently downward over catalyst) |
 
-### Product Yields
+## Product Yields
 
 | Product | Yield (from VGO) |
 |---------|-------------------|
@@ -150,14 +150,14 @@ A catalytic process that converts heavy feedstocks (vacuum gas oil, heavy gas oi
 | Diesel / jet fuel | 40-65% |
 | Unconverted oil (recycle) | 5-15% |
 
-### Advantages over FCC
+## Advantages over FCC
 
 - **Superior middle distillate quality**: Hydrocracked diesel has cetane number 55-65 (vs. 20-35 for FCC LCO). Hydrocracked jet fuel meets all Jet A-1 specifications directly.
 - **Feedstock flexibility**: Handles heavier, higher-sulfur feeds than FCC. Can process coker gas oil, deasphalted oil, and even atmospheric residue.
 - **Product flexibility**: Adjusting catalyst and operating conditions can shift yield from gasoline to diesel/jet fuel.
 - **Desulfurization**: Hydrogen atmosphere removes sulfur as H₂S (captured in amine units and converted to elemental sulfur in the Claus process).
 
-### Disadvantage
+## Disadvantage
 
 High hydrogen consumption (150-400 Nm³/tonne) requires a dedicated hydrogen production unit (steam methane reformer, ~9 Nm³ H₂ per Nm³ natural gas). High pressure (80-200 bar) demands thick-walled alloy steel reactors — the most expensive single pieces of equipment in a refinery. Capital cost: $3,000-8,000 per daily barrel of capacity.
 
@@ -181,7 +181,7 @@ High hydrogen consumption (150-400 Nm³/tonne) requires a dedicated hydrogen pro
 
 Converts low-octane heavy naphtha (C₆-C₁₀ paraffins and naphthenes, RON 40-60) into high-octane reformate rich in aromatics (RON 95-105) and produces hydrogen as a valuable byproduct.
 
-### Process Conditions
+## Process Conditions
 
 | Parameter | Value |
 |-----------|-------|
@@ -191,14 +191,14 @@ Converts low-octane heavy naphtha (C₆-C₁₀ paraffins and naphthenes, RON 40
 | LHSV | 1-3 h⁻¹ |
 | Hydrogen recycle | 3-6 mol H₂/mol feed (suppresses coking) |
 
-### Key Reactions
+## Key Reactions
 
 1. **Dehydrogenation of naphthenes → aromatics + H₂**: Cyclohexane → benzene + 3H₂ (ΔH = +206 kJ/mol, endothermic). The primary octane-boosting reaction. Produces 3 moles of hydrogen per mole of naphthene converted.
 2. **Dehydrocyclization of paraffins → aromatics + H₂**: n-hexane → benzene + 4H₂. Converts linear paraffins (low octane) to aromatics (high octane). Less favorable thermodynamically and slower kinetically than naphthene dehydrogenation.
 3. **Isomerization**: n-paraffins → iso-paraffins (modest octane increase, no hydrogen production).
 4. **Hydrocracking** (undesired side reaction): C₇+ → C₃-C₄ gases + C₅-C₆ naphtha. Reduces reformate yield. Favored at higher pressure and temperature.
 
-### Products
+## Products
 
 | Product | Yield | Use |
 |---------|-------|-----|
@@ -224,7 +224,7 @@ H₂S and NH₃ removed from the product stream in a high-pressure separator and
 
 Refineries produce marketable products by blending components from multiple process units:
 
-### Gasoline Blending
+## Gasoline Blending
 
 | Component | RON | Typical Blend % |
 |-----------|-----|-----------------|
@@ -238,21 +238,21 @@ Refineries produce marketable products by blending components from multiple proc
 
 **Octane specification**: Regular unleaded RON 91; premium RON 95-98. The blend must meet the target RON while staying within vapor pressure (RVP 60-90 kPa summer, higher winter), benzene (<1%), and sulfur (<10 ppm) specifications.
 
-### Diesel Blending
+## Diesel Blending
 
 Blended from straight-run diesel, hydrocracked diesel (highest quality, cetane 55-65), and FCC light cycle oil (lowest quality, cetane 20-35, used in limited quantities). Target: cetane number >50, sulfur <10 ppm, cold filter plugging point below ambient minimum temperature.
 
 ## Refinery Configuration & Complexity
 
-### Simple (Hydroskimming) Refinery
+## Simple (Hydroskimming) Refinery
 
 ADU + VDU + catalytic reformer + hydrotreaters. Can process light sweet crude into gasoline, diesel, kerosene, fuel oil, and asphalt. Cannot convert heavy residue into lighter products. Minimum ~50,000 bbl/day throughput. Suitable for light crudes.
 
-### Complex (Conversion) Refinery
+## Complex (Conversion) Refinery
 
 Adds FCC or hydrocracking + alkylation + coking. Can process heavy sour crudes and convert low-value residue into high-value products. Residual fuel oil yield reduced from 30-40% to 5-10%. This is the configuration that makes economic sense for heavy crudes (which trade at $10-20/barrel discount to light crudes). 100,000+ bbl/day typical.
 
-### Refinery Energy Balance
+## Refinery Energy Balance
 
 A refinery consumes 5-10% of its crude oil throughput as fuel (for furnaces, steam generation, hydrogen production). Heat integration (crude preheat train, pumparound heat recovery, cold feed-effluent exchangers) recovers 50-70% of available process heat. The remaining energy is supplied by burning refinery gas (produced internally), fuel oil, and purchased natural gas.
 
@@ -277,6 +277,6 @@ A refinery consumes 5-10% of its crude oil throughput as fuel (for furnaces, ste
 - **Petrochemical feedstocks**: [Petrochemical Feedstocks](petrochemicals.md)
 - **Coal tar alternative**: [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md)
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Petroleum Extraction & Refining](./index.md) • [All Domains](../index.md)*
+
+[← Back to Petroleum Extraction & Refining](index.md)

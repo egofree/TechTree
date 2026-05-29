@@ -36,7 +36,7 @@ This reaction does not proceed directly — it requires ammonia as an intermedia
 
 ## Detailed Process Steps
 
-### Brine Preparation and Purification
+## Brine Preparation and Purification
 
 Raw salt solution (from solution mining of underground salt deposits or dissolution of rock salt) contains impurities that must be removed before the process. Saturated brine at 20°C contains ~300 g/L NaCl (26.4% by weight).
 
@@ -49,13 +49,13 @@ Raw salt solution (from solution mining of underground salt deposits or dissolut
 
 Impure brine causes scaling in carbonation towers (CaCO₃, Mg(OH)₂ deposits), reduces crystal purity, and increases ammonia losses. Complete purification is essential for efficient operation.
 
-### Ammonia Absorption Tower
+## Ammonia Absorption Tower
 
 Saturated purified brine flows downward through a packed or bubble-cap absorption tower (8-12 m tall, 1.5-3.0 m diameter). NH₃ gas (from the ammonia still) rises countercurrently. The absorption is strongly exothermic — cooling water jackets or internal coils maintain temperature below 30°C (higher temperature reduces NH₃ solubility and shifts equilibrium against carbonation).
 
 Ammoniated brine composition: ~260 g/L NaCl, ~90-100 g/L NH₃, ~20-30 g/L CO₂ (absorbed from ammonia recovery section). The NH₃:NaCl molar ratio is maintained at ~1.1:1 (slight excess NH₃ ensures complete carbonation).
 
-### Carbonation Tower
+## Carbonation Tower
 
 The carbonation tower is the heart of the Solvay plant: a tall steel vessel (20-30 m tall, 2-3 m diameter) with internal bubble-cap trays or packed sections. The tower operates in two zones:
 
@@ -71,7 +71,7 @@ Temperature profile is critical: too cold → slow reaction, fine crystals diffi
 
 **Weaknesses**: Tower is capital-intensive (20-30 m tall steel vessel with bubble-cap trays); temperature profile must be maintained within narrow range; CO₂ absorption limited to 80-90% (tail gas requires scrubbing); cooling water demand is substantial.
 
-### Filtration
+## Filtration
 
 The NaHCO₃ slurry (30-40% solids) from the carbonation tower bottom is filtered on rotary vacuum filters (2-4 m diameter drum, rotating at 0.5-2.0 RPM) or centrifuges (pusher or peeler type, 800-1500 RPM).
 
@@ -79,7 +79,7 @@ Filter cake composition: ~85% NaHCO₃, ~10% H₂O, ~4% NH₄Cl, ~1% NaCl (as tr
 
 Mother liquor (filtrate) composition: ~200 g/L NH₄Cl, ~70 g/L NaCl, some (NH₄)₂CO₃ and NH₄HCO₃. This is the feed for ammonia recovery.
 
-### Calcination (Thermal Decomposition)
+## Calcination (Thermal Decomposition)
 
 Wet NaHCO₃ cake is dried and calcined in a rotary kiln or fluidized-bed calciner.
 
@@ -95,7 +95,7 @@ Wet NaHCO₃ cake is dried and calcined in a rotary kiln or fluidized-bed calcin
 
 **Weaknesses**: Rotary kiln is energy-intensive (3.5-4.5 GJ/tonne); wet cake requires significant heat input just for drying before calcination begins; light ash is dusty and difficult to handle without densification step; refractory lining in kiln requires periodic replacement.
 
-### Ammonia Recovery (Distillation)
+## Ammonia Recovery (Distillation)
 
 The mother liquor from filtration contains valuable NH₃ (as NH₄Cl) that must be recovered. This is the key to the process economics — only 1-2 kg NH₃ makeup is needed per tonne Na₂CO₃ because the NH₃ is continuously recycled.
 
@@ -109,7 +109,7 @@ The mother liquor from filtration contains valuable NH₃ (as NH₄Cl) that must
 
 **Weaknesses**: ~10 tonnes of CaCl₂ waste solution per tonne product (major disposal problem); CaCl₂ discharge increases waterway salinity; ammonia still requires 15-25 m tall column with steam injection (capital cost); Ca(OH)₂ slurry handling is messy and caustic.
 
-### Lime Kiln and Slaker
+## Lime Kiln and Slaker
 
 **Lime kiln**: Vertical shaft kiln (6-10 m tall, 2-4 m diameter) or rotary kiln (30-60 m long). Feed limestone (CaCO₃, 50-150 mm pieces) and fuel (coke, natural gas, or coal). Temperature: 900-1100°C in the calcination zone. Reaction: CaCO₃ → CaO + CO₂. CO₂ (30-40% concentration in the exit gas, mixed with N₂ from combustion air) is cooled, scrubbed (removes SO₂ and dust), and sent to the carbonation tower.
 

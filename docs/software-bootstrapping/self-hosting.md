@@ -28,16 +28,16 @@ From this point forward, any change to the compiler's source code is compiled by
 
 ## Prerequisites
 
-### Software
+## Software
 - **Working compiler for the target language** ([compilers](compilers.md)): Either a minimal version written in assembly, or a cross-compiler running on a different machine.
 - **Assembler** ([assemblers](assemblers.md)): Needed to build the initial seed compiler from assembly source.
 - **Operating system with file system** ([operating-systems](operating-systems.md)): The bootstrap process involves many file operations — source files, intermediate files, compiled binaries, test programs.
 
-### Knowledge
+## Knowledge
 - **Complete language specification**: The self-hosted compiler must handle every language feature that appears in its own source code. If the compiler uses feature X, the compiler must be able to compile feature X.
 - **Metacircularity**: Understanding that a program can process programs — the compiler is both the tool and the artifact it produces.
 
-### Hardware
+## Hardware
 - **Sufficient memory**: The compiler compiling itself requires enough memory for the compiler's symbol tables, AST, and code generation during compilation of its own (large) source file. Typically 2-4× the memory needed to compile a normal program.
 
 ## Bill of Materials
@@ -51,7 +51,7 @@ From this point forward, any change to the compiler's source code is compiled by
 
 ## Process Description
 
-### Phase 1: Write the Seed Compiler in Assembly
+## Phase 1: Write the Seed Compiler in Assembly
 
 Write a minimal compiler in assembly language that understands enough of the target language to compile a simplified version of itself.
 
@@ -72,7 +72,7 @@ Write a minimal compiler in assembly language that understands enough of the tar
 - Arrays (for symbol table, buffers)
 - No separate compilation (one source file only)
 
-### Phase 2: Write the Full Compiler in the Target Language
+## Phase 2: Write the Full Compiler in the Target Language
 
 Using the seed compiler to test incrementally, write the full compiler in the target language:
 
@@ -86,7 +86,7 @@ Using the seed compiler to test incrementally, write the full compiler in the ta
 
 **Testing at each step**: After writing each component, compile it with the seed compiler and run test programs. Fix any bugs in both the component and the seed compiler (the seed compiler may have limitations that surface when compiling more complex code).
 
-### Phase 3: The Self-Compilation (T0 — Bootstrap Moment)
+## Phase 3: The Self-Compilation (T0 — Bootstrap Moment)
 
 This is the critical moment — compile the full compiler with itself:
 
@@ -121,7 +121,7 @@ run test_v1.bin   # Produces expected output
 run test_v2.bin   # Produces identical expected output
 ```
 
-### Phase 4: Iterative Improvement
+## Phase 4: Iterative Improvement
 
 Once self-hosting is achieved, the compiler can be improved using itself:
 
@@ -145,7 +145,7 @@ Once self-hosting is achieved, the compiler can be improved using itself:
 | Bootstrap iterations (typical) | 3-10 | Bug-fix cycles before v1 and v2 agree |
 | Total bootstrap effort | 6-18 months | From start to self-hosting, one developer |
 
-### Bootstrap Complexity by Language
+## Bootstrap Complexity by Language
 
 | Language Complexity | Seed Compiler LOC | Full Compiler LOC | Bootstrap Effort |
 |--------------------|--------------------|--------------------|-----------------|

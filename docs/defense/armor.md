@@ -7,9 +7,7 @@
 > **Timeline**: Years 5-30+
 > **Outputs**: armor, helmets, shields, body_armor, plate_armor
 
----
 
-## Overview
 
 Armor and protective systems encompass the materials, construction techniques, and design principles for personal and structural defense against weapons. From rawhide jerkins to full plate harness, armor development mirrors the metallurgical and textile capabilities of each technological tier.
 
@@ -17,7 +15,6 @@ Armor design is fundamentally an exercise in materials engineering: managing the
 
 Armor production consumes significant resources. A full plate harness requires 200-500 worker-hours from a skilled armorer. Mail requires 50-180 worker-days of ring production and assembly. These costs limit armor distribution -- historically, infantry wore padded jacks or brigandines while only elite heavy cavalry could afford plate. The industrial base for armor production is the same as for tools and construction: [iron and steel production](../metals/iron-steel.md), [textile manufacturing](../textiles/index.md), and [leatherworking](../foundations/index.md).
 
----
 
 ## Bill of Materials
 
@@ -32,11 +29,10 @@ Armor production consumes significant resources. A full plate harness requires 2
 | Full plate harness | Medium-C steel | 20-30 kg steel | Leather straps, buckles, quilted arming doublet | [Iron & Steel](../metals/iron-steel.md) |
 | Shield (round) | Lime/poplar planks | 5-8 planks, 60-90 cm diameter | Rawhide facing, iron boss, iron rim band | [Foundations](../foundations/index.md) |
 
----
 
 ## Armor Types by Material
 
-### Leather & Organic Armor (Years 0-10)
+## Leather & Organic Armor (Years 0-10)
 
 **Rawhide armor**: Dried cattle or horse hide, 3-5 mm thick after processing (soak in water, stretch, dry under tension, optional oil treatment for flexibility). Properties: cut resistance ~30% greater than equivalent-thickness textile, puncture resistance moderate. Rawhide hardening: boil in water or wax -> shrinks, thickens, becomes rigid. Boiled leather (cuir bouilli): heat-formed to body shape, provides rigid plate-like protection at half the weight of bronze. Weight: 3-5 kg for torso cuirass. Stops slashing attacks; punctured by thrusting weapons (spear, arrow) with moderate force.
 
@@ -72,7 +68,7 @@ Armor production consumes significant resources. A full plate harness requires 2
 - Hot in summer — 15-30 layers of linen trap body heat; heat exhaustion risk in sustained combat
 - Degrades when wet — soaked gambeson loses 20-30% of protective value and triples in weight
 
-### Scale & Lamellar Armor (Years 5-15)
+## Scale & Lamellar Armor (Years 5-15)
 
 **Scale armor**: Small rectangular or rounded plates (scales) of bronze, iron, or rawhide (3-6 cm long x 2-4 cm wide x 1-2 mm thick), laced or riveted in overlapping rows to fabric or leather backing. Each scale overlaps the one below by 50-70%. Rows spaced 1.5-2.5 cm apart. Weight: 10-15 kg for full torso. Advantages: relatively easy to manufacture (individual scales are simple cast or cut pieces), repairable by replacing damaged scales. Disadvantages: scales can be lifted by upward thrust, lacing vulnerable to cutting.
 
@@ -106,7 +102,7 @@ Armor production consumes significant resources. A full plate harness requires 2
 - Rivets are failure points — if rivets shear, plates separate from backing
 - Interior difficult to inspect — damaged backing fabric or loose rivets may go unnoticed until failure
 
-### Mail Armor (Years 10-25)
+## Mail Armor (Years 10-25)
 
 **Riveted mail (chain mail)**: Interlocking iron or steel rings, each ring riveted closed. Ring dimensions: 6-12 mm internal diameter, 1.0-2.0 mm wire gauge (wire diameter). Ring density: ~25,000-45,000 rings for full hauberk (knee-length shirt with sleeves). Weight: 10-15 kg for full hauberk.
 
@@ -144,7 +140,7 @@ Armor production consumes significant resources. A full plate harness requires 2
 - Time-consuming production — 50-180 worker-days for a single hauberk
 - Arrow vulnerability — bodkin points can wedge between rings at 60-80 J impact
 
-### Plate Armor (Years 15-30)
+## Plate Armor (Years 15-30)
 
 **Full plate harness**: Articulated steel plates covering entire body. Weight: 20-30 kg (well-distributed across body -- less fatiguing than 15 kg concentrated on shoulders in mail). Armor thickness varies by body region:
 
@@ -200,7 +196,7 @@ Armor production consumes significant resources. A full plate harness requires 2
 - Enclosed armor creates heat exhaustion risk — internal temperature reaches 40-50°C within 15 minutes in sun
 - Firearm vulnerability — musket balls penetrate plate armor at <30 m range
 
-### Shields (Years 0-30)
+## Shields (Years 0-30)
 
 **Materials and construction**: Wooden core (lime, poplar, or fir -- lightweight, resistant to splitting), covered with rawhide or leather (glued and stitched), painted surface. Rim: rawhide or iron binding. Center grip or enarmes (leather straps for forearm and hand).
 
@@ -242,11 +238,10 @@ Armor production consumes significant resources. A full plate harness requires 2
 - Encumbers one arm — shield bearer has reduced offensive capability
 - Bulky to carry on march — shields are awkward to transport when not in combat formation
 
----
 
 ## Quantitative Parameters
 
-### Armor vs Weapon Interaction
+## Armor vs Weapon Interaction
 
 | Armor Type | Sword Cut | Sword Thrust | Arrow (50 lb bow) | Crossbow (800 lb) | Musket Ball |
 |------------|-----------|-------------|-------------------|--------------------|-------------|
@@ -256,7 +251,7 @@ Armor production consumes significant resources. A full plate harness requires 2
 | Plate (2 mm, curved) | Deflected | Deflected | Deflected | Deflected (80%) | Pen. at <30 m |
 | Plate (3 mm, curved) | Deflected | Deflected | Deflected | Deflected (95%) | Pen. at <20 m |
 
-### Armor Thickness and Weight Reference
+## Armor Thickness and Weight Reference
 
 | Armor Component | Thickness (mm) | Area Coverage (m2) | Weight (kg) | Steel Type |
 |----------------|----------------|-------------------|-------------|------------|
@@ -272,7 +267,7 @@ Armor production consumes significant resources. A full plate harness requires 2
 | Sabatons (pair) | 0.8-1.2 | 0.06-0.08 | 0.8-1.5 | Low-C, annealed |
 | **Full harness total** | -- | **~1.5-2.0** | **20-30** | -- |
 
-### Armor Weight Comparison by Type
+## Armor Weight Comparison by Type
 
 | Armor Type | Weight (kg) | Coverage | Production Time | Threat Level Stopped |
 |------------|-------------|----------|-----------------|---------------------|
@@ -281,7 +276,6 @@ Armor production consumes significant resources. A full plate harness requires 2
 | Mail hauberk | 10-15 | Full torso + upper arms + thighs | 2-4 months (workshop) | All slashing, moderate thrusts with gambeson |
 | Full plate harness | 20-30 | Full body | 2-6 months (armorer) | All edged weapons, arrows, crossbow bolts (80-95%) |
 
----
 
 ## Scaling Notes
 
@@ -291,7 +285,6 @@ Armor production consumes significant resources. A full plate harness requires 2
 - **Horse armor (barding)**: Adds 20-35 kg per horse. Only for elite heavy cavalry with large draft horses (destrier: 600-800 kg). Horse armor production comparable to human plate armor but larger -- 300-600 worker-hours per set.
 - **Armor recovery and recycling**: Battlefield salvage reduces new production demand by 30-50%. Captured armor repaired and reissued. Scrap mail rings melted and re-drawn. Damaged plate re-forged. This recycling loop is essential for sustaining armies in prolonged campaigns.
 
----
 
 ## Troubleshooting
 
@@ -308,7 +301,6 @@ Armor production consumes significant resources. A full plate harness requires 2
 | Scale armor lacing cut through | Exposed lacing at scale edges, worn cord | Use doubled linen or sinew cord; lace through holes (not around edges); inspect before battle |
 | Gauntlet fingers too stiff | Too many small plates, insufficient articulation | Reduce plate count per finger; ensure plates overlap in flexion direction |
 
----
 
 ## Safety Considerations
 
@@ -320,7 +312,6 @@ Armor production consumes significant resources. A full plate harness requires 2
 - **Eye injury during riveting**: Mail rivet peening sends small metal fragments flying. Wear eye protection during ring closing operations. Long-term mail makers develop cataracts from accumulated eye injuries without protection.
 - **Leatherworking chemicals**: Rawhide processing uses lime (CaO) for dehairing, which causes chemical burns. Wear gloves when handling lime solutions. Tannins used in leather curing are also skin irritants with prolonged exposure.
 
----
 
 ## Armor Production & Craftsmanship
 
@@ -330,7 +321,6 @@ Armor production consumes significant resources. A full plate harness requires 2
 
 **Fitting and customization**: Plate armor fitted to individual wearer -- crucial for comfort and mobility. Measurements: torso circumference, shoulder width, arm length, thigh length. Adjustments: plates can be re-heated and re-shaped. Straps: leather (cowhide, 3-5 mm) with iron buckles. Padding: quilted linen garment (arming doublet) with leather points (laces) for attaching armor plates. Custom-fitted plate armor takes 2-6 months to produce.
 
----
 
 ## Horse Armor (Barding)
 
@@ -338,7 +328,6 @@ Armor production consumes significant resources. A full plate harness requires 2
 
 **Mail barding**: Mail curtain hung from saddle covering horse's neck, chest, and flanks. Weight: 15-25 kg. Simpler to produce than plate barding (mail scales more easily to non-standard shapes). Common in Islamic and Central Asian cavalry traditions.
 
----
 
 ## Modern Protective Systems (Years 30+)
 
@@ -346,7 +335,6 @@ Armor production consumes significant resources. A full plate harness requires 2
 
 **Body armor (early)**: Silk or nylon fabric layered vest (15-30 layers) stops low-velocity pistol bullets (.38 Special, 9mm) by catching and deforming projectile in fabric weave. Flak jacket (Korean War): 6-12 layers nylon duck, 3-5 kg -- stops artillery fragments, not bullets. Modern body armor requires synthetic fibers beyond bootciv scope (Kevlar, 1965).
 
----
 
 ## Limitations
 
@@ -361,9 +349,8 @@ Armor production consumes significant resources. A full plate harness requires 2
 - **Transport and storage**: Full plate armor stored in purpose-built chest (wood, iron-bound, 40x30x30 cm). Mail hung on wall peg or mannequin to prevent tangling. Shields stored flat in racks. Armor requires 0.5-1.0 m2 of storage space per set -- significant logistical burden for armies on campaign. Baggage train carries reserve armor and repair materials (rivets, leather straps, oil).
 - **Armor recovery**: Battlefield salvage of armor from the dead and wounded is standard practice in all pre-industrial armies. Scavenged armor repaired and reissued. Captured enemy armor reused -- plate armor has no allegiance markings on the steel itself. After major battles, armorers work for days repairing salvaged equipment. This recycling loop reduces the industrial demand for new armor production by 30-50%.
 
----
 
-## References
+## See Also
 
 - **[Weapons & edged tools](weapons.md)** -- The weapons this armor defends against
 - **[Iron & Steel Production](../metals/iron-steel.md)** -- Steel heat treatment and tempering for armor
@@ -371,6 +358,7 @@ Armor production consumes significant resources. A full plate harness requires 2
 - **[Textiles](../textiles/index.md)** -- Linen and wool for gambeson padding
 - **[Foundations](../foundations/index.md)** -- Leatherworking and rawhide processing
 
----
 
  *Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*
+
+[← Back to defense](index.md)

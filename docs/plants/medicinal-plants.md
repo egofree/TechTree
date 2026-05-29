@@ -8,13 +8,13 @@
 > **Outputs**: medicinal_herbs, therapeutic_compounds, herbal_remedies
 > **Critical**: Yes — herbal remedies are the earliest and most accessible healthcare technology, directly reducing mortality
 
-## 1. Overview
+## Overview
 
 Identification, cultivation, preparation, and application of plant species with therapeutic properties for treating illness, injury, and disease. Plants synthesize hundreds of chemical compounds for defense against insects, fungi, and herbivores — many of these compounds have pharmacological effects on humans. Medicinal plants are the foundation of all pharmacology and the earliest healthcare technology available from Year 0.
 
 Basic herbal remedies reduce mortality from infection, fever, pain, and digestive disorders. This directly improves labor productivity and population survival, creating the positive feedback loop that enables specialist labor to develop subsequent technologies. Of the 57 medicinal-use species cataloged in the botanical survey, five are prioritized in the tech tree as representative species covering the major therapeutic categories.
 
-### Active Compound Extraction
+## Active Compound Extraction
 
 Plants store active compounds in different tissues — leaves, stems, roots, bark, flowers, and seeds — each requiring appropriate extraction methods. The method chosen depends on the compound's solubility and heat sensitivity.
 
@@ -86,7 +86,7 @@ Plants store active compounds in different tissues — leaves, stems, roots, bar
 - Not suitable for non-volatile compounds — only extracts components that vaporize with steam
 - Most complex preparation method — requires skill to operate and maintain the distillation apparatus
 
-### Preparation & Dosage
+## Preparation & Dosage
 
 **Dosage principles**: Plant preparations vary in potency between harvests, growing conditions, and preparation methods. Start with the lowest dose that produces a therapeutic effect. Increase gradually. Weigh dried herbs on a balance (0.1 g minimum precision) for consistency.
 
@@ -99,7 +99,7 @@ Plants store active compounds in different tissues — leaves, stems, roots, bar
 
 **Storage**: Dry harvested plant material in a well-ventilated, shaded area (direct sunlight degrades active compounds). Store dried herbs in sealed containers, cool and dark. Label with species name, harvest date, and plant part. Dried herbs remain viable for 1-2 years; tinctures for 2-5 years. Water-based preparations spoil within 24 hours without preservative.
 
-### Safety & Toxicity
+## Safety & Toxicity
 
 **Proper identification is critical**: Many medicinal plants have toxic lookalikes. Positive identification requires verification of leaf shape, flower structure, stem characteristics, and smell. When in doubt, do not harvest. Train multiple people in identification to reduce error.
 
@@ -111,7 +111,7 @@ Plants store active compounds in different tissues — leaves, stems, roots, bar
 
 **Cumulative toxicity**: Some compounds accumulate in the body with repeated dosing. Do not exceed recommended treatment durations. Take breaks between courses (e.g., 2 weeks on, 1 week off) to allow elimination.
 
-### Key Species
+## Key Species
 
 These five species are the tech-tree nodes representing the major categories of plant-derived medicine. The broader botanical survey catalogs 57 species with medicinal uses across 30+ plant families.
 
@@ -123,7 +123,7 @@ These five species are the tech-tree nodes representing the major categories of 
 | *Artemisia inculta* | Asteraceae | Antimicrobial, digestive | Decoction of aerial parts | Related to wormwood species with similar bitter compounds (absinthin-class). Antimicrobial and digestive stimulant properties. Native to North Africa and Middle East — drought-adapted aromatic undershrub. Rare in the wild; cultivation recommended. |
 | *Botryodiscia tetrandra* | Menispermaceae | Antipyretic, analgesic | Decoction of roots and stems | Alkaloids characteristic of Menispermaceae family (tetrandrine-class compounds). Traditional use in southern China, Hainan, Taiwan, and Vietnam for fever reduction and pain relief. Herbaceous perennial vine or scrambling subshrub. **Caution**: Menispermaceae alkaloids can be toxic — use conservative doses. |
 
-### Additional Medicinal Species (from botanical survey)
+## Additional Medicinal Species (from botanical survey)
 
 The plant catalog includes 52 additional species with medicinal uses alongside other functions (edible, fiber, structural). Notable examples from the survey data include:
 
@@ -133,7 +133,7 @@ The plant catalog includes 52 additional species with medicinal uses alongside o
 - *Acorus* species (Acoraceae) — aromatic rhizome used for digestive and respiratory complaints
 - *Arctium minus* (lesser burdock, Asteraceae) — root decoction as blood purifier and diuretic
 
-### Major Medicinal Plants (Reference Species)
+## Major Medicinal Plants (Reference Species)
 
 Beyond the five tech-tree catalog species, the following plants are historically critical medicines that any civilization bootstrapping effort must prioritize. These species represent the most important pharmacological discoveries derived from plants:
 
@@ -200,7 +200,7 @@ Beyond the five tech-tree catalog species, the following plants are historically
 
 **Storage**: Dried opium stores indefinitely in sealed containers away from light and moisture. Morphine sulfate powder is shelf-stable for years. Tincture of opium (laudanum: 10% opium in ethanol) remains pharmacologically active for decades.
 
-### Compound Extraction Reference
+## Compound Extraction Reference
 
 Summary of extraction methods matched to compound classes:
 
@@ -213,7 +213,7 @@ Summary of extraction methods matched to compound classes:
 | Flavonoids (luteolin) | Moderately water-soluble | Infusion or ethanol tincture | Weld, chamomile |
 | Resins | Alcohol-soluble | Ethanol tincture | Mastic, frankincense |
 
-### Storage and Potency
+## Storage and Potency
 
 Medicinal plant preparation shelf life under proper storage conditions (cool, dark, airtight):
 
@@ -226,13 +226,13 @@ Medicinal plant preparation shelf life under proper storage conditions (cool, da
 | Dried opium/alkaloid extract | 5+ years (sealed, dry) | Very stable when kept from light and moisture |
 | Steam-distilled essential oil | 1-3 years | Oxidation causes rancid smell; store in dark glass |
 
-### Dependencies
+## Dependencies
 
 - Requires: [Plants & Botanical Resources](./index.md) (tool)
 - Enables: [Pharmacology](../health/pharmacology.md) (material — plant-derived medicines feed pharmaceutical production)
 - See also: [Medicine & Surgery](../health/medicine.md) — clinical application of plant-derived drugs (willow bark/salicin, opium/morphine, cinchona/quinine, ephedra/ephedrine, digitalis)
 
-### Plant Collection & Processing Detail
+## Plant Collection & Processing Detail
 
 **Harvest timing for maximum potency**:
 - **Leaves**: Harvest at peak flowering for maximum alkaloid and volatile oil content — the plant concentrates defense compounds in foliage during reproductive phase to protect flowers and seeds. For example, *Artemisia* species yield 2-3× more essential oil at early flowering than at vegetative stage. Harvest in the morning after dew has dried but before the heat of the day causes volatile oil evaporation.
@@ -244,7 +244,7 @@ Medicinal plant preparation shelf life under proper storage conditions (cool, da
 - Hang harvested material in loose bundles in a warm (30-40°C), well-ventilated area away from direct sunlight — UV radiation degrades many alkaloids and glycosides. Spread leaves and small stems on wire screens or slatted trays for even airflow around all surfaces. Turn daily. Drying time: 5-10 days depending on tissue thickness and humidity.
 - **Endpoint**: Moisture content should reach 8-12% for stable storage. Bend test — stems should snap cleanly (not bend), leaves should crumble when crushed between fingers. Under-dried material (moisture >15%) develops mold in storage; over-dried material becomes brittle and loses volatile compounds.
 
-### Specific Extraction Examples
+## Specific Extraction Examples
 
 **Willow bark salicin extraction**:
 - Harvest bark from 2-3 year old branches in spring (highest salicin content, 1.0-1.5% by dry weight in *Salix purpurea*). Dry bark in thin strips in shade for 7-10 days. Grind dried bark to coarse powder (1-3 mm particles — fine powder degrades faster). Macerate at a 1:5 ratio (1 g bark to 5 mL solvent) in 25% ethanol for 5 days at room temperature, agitating twice daily. Filter through cloth, then through fine paper. Evaporate the filtrate at 40°C (water bath, not direct heat — salicin degrades above 60°C) to a soft extract consistency. The resulting soft extract contains concentrated salicin suitable for dosing by weight.
@@ -258,6 +258,6 @@ Medicinal plant preparation shelf life under proper storage conditions (cool, da
 - Verify plant identity before processing using multiple characters (leaf shape, stem cross-section, flower structure, aroma). Misidentification is the leading cause of adverse reactions. Maintain a pressed herbarium voucher specimen for each batch — if a problem arises later, the voucher confirms the source material.
 - Label every container with: botanical name (Latin binomial), plant part, harvest date and location, preparation method, batch number, recommended dose range, and expiration date. This labeling discipline enables traceability and dose consistency across batches — essential when potency varies with growing conditions and harvest timing.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*
+
+[← Back to Plants](index.md)

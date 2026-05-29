@@ -7,7 +7,7 @@
 > **Timeline**: Years 0-5
 > **Outputs**: fire
 
-### Fire-Making
+## Fire-Making
 
 **Friction fire (bow drill method)**:
 - **Materials**: Straight hardwood stick (hearth board: cedar, cottonwood, or willow; drill: harder wood like oak or maple), bow (curved stick with cordage from animal sinew or plant fiber), bearing block (stone or hardwood with grease-filled depression)
@@ -53,7 +53,7 @@
 - Hand drill method requires sustained stamina and drier wood than bow drill — fails in humid or cold conditions
 - Fire banking preserves coals for only 8-12 hours; if the fire goes out during the night, friction fire must start again from scratch
 
-### Fire Temperature Management
+## Fire Temperature Management
 
 Controlling fire temperature is the single most important skill that separates a cooking fire from a forge, and a forge from a furnace. Without thermometers, temperature is estimated by the color of glowing material (iron, ceramic, or thick furnace walls).
 
@@ -96,7 +96,7 @@ The fuel itself sets the ceiling. Softwoods (pine, spruce, fir) contain resins t
 - Single hide bag bellows produces intermittent airflow (air only on compression stroke) — temperature fluctuates unless two bags are operated alternately
 - Tuyere placement requires trial and error: air aimed too high misses the fuel bed, aimed too low cools the hearth bottom
 
-### Charcoal Production (Foundation Level)
+## Charcoal Production (Foundation Level)
 
 Charcoal is the fuel that makes metallurgy possible. Wood fires cannot reliably exceed 1000°C. Charcoal fires can. Every civilization that worked metal started by making charcoal.
 
@@ -136,7 +136,7 @@ Good char cloth is uniformly black, flexible (not crispy or brittle), and holds 
 - Burn cycle takes 24-48 hours of monitoring (smoke color) plus 12-24 hours cooling — labor-intensive for the output
 - Premature opening of the pit introduces oxygen and the entire batch can flash to ash — requires experienced judgment of when carbonization is complete
 
-### Basic Forge Construction
+## Basic Forge Construction
 
 A forge is a contained fire with controlled air delivery. The first forges were holes in the ground. They don't need to be complicated. Any pit or raised hearth that holds fuel and directs air into the combustion zone works. The critical elements are a refractory lining (clay or stone), an air delivery pipe (tuyere), and a bellows or blower.
 
@@ -176,7 +176,7 @@ A box bellows is a wooden box, typically 50-60 cm long, 30-40 cm wide, and 20-30
 - Single hide bag bellows produces intermittent air — temperature drops between strokes unless two bags are operated alternately
 - Without a dedicated stone or clay lining, sandy soil collapses into the pit and loamy soil cracks and crumbles
 
-### Fire-Starting in Adverse Conditions
+## Fire-Starting in Adverse Conditions
 
 The ability to make fire in fair weather is a hobby skill. The ability to make fire in rain, cold, and exhaustion is a survival necessity.
 
@@ -213,7 +213,7 @@ At temperatures below -10°C, hands lose dexterity fast. Friction fire becomes m
 
 In extreme cold below -30°C, wood itself becomes brittle. Hearth boards crack under drill pressure, and the dust produced by friction is too cold to coalesce into an ember before heat dissipates. Pre-warm the hearth board and drill by holding them against your body for 10-15 minutes before attempting friction fire. This raises the wood temperature enough to make the difference between success and failure.
 
-### Coal Identification
+## Coal Identification
 
 Coal is a concentrated fossil fuel with 2-3 times the energy density of wood by weight. Knowing how to find and identify it matters because coal fires reach temperatures (1300-1500°C) that charcoal cannot match, enabling iron smelting at scale.
 
@@ -245,20 +245,18 @@ Store coal under cover to keep it dry. Wet coal doesn't burn as hot and produces
 - Bituminous coal spontaneously combusts in piles over 3-4 tonnes — requires active pile management and ventilation
 - Lignite (brown coal, 30-50% moisture) produces low heat and hisses as water boils off — the lowest quality coal with limited industrial use
 
-### Related Capabilities
+## Related Capabilities
 
 - **[Energy → Charcoal](../energy/charcoal.md)**: Full charcoal production detail, industrial-scale methods, coke production
 - **[Ceramics → Pottery](../ceramics/pottery.md)**: Pottery kiln firing temperatures and techniques
 - **[Metals → Copper-Bronze](../metals/copper-bronze.md)**: Forge-based metallurgy requiring controlled fire temperatures
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Burn injuries**: All friction-fire methods generate embers at 300-500°C and open flames shortly after. Hand drill and bow drill methods place hands and face close to the ember point. Flint-and-steel sparks reach ~800°C. Keep tinder bundles on a non-combustible surface (bare earth, flat stone). Have water or sand ready to extinguish accidental fires. Tie back long hair and secure loose clothing before friction fire practice. Treat all ember contact as a burn risk — first aid is immediate cool water immersion for 10-20 minutes.
 - **Carbon monoxide poisoning**: Indoor fires (hearths, fire-banked coals in shelters) produce carbon monoxide. CO is odorless and causes headache, drowsiness, confusion, and death at sustained high concentration. Never burn charcoal or use a Dakota fire pit inside an enclosed shelter. Ensure ventilation — at minimum a high vent and a low vent for airflow. Fire banking (coals buried in ash at 300-500°C for 8-12 hours) inside a shelter requires careful venting; the smoldering coals continue to produce CO. If occupants wake with headache or nausea, evacuate immediately and ventilate.
 - **Wildfire risk**: Fire-making in dry grassland, forest, or brush carries significant wildfire risk. Clear a fire ring to bare mineral soil at least 1 m in all directions. Keep the fire small and attended at all times. Extinguish completely before leaving — drown with water, stir ashes, drown again. In windy conditions, use the Dakota fire pit or a rock-ringed fire sheltered from wind. Be aware of local dry-season fire danger before striking sparks or building any fire.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Foundations](./index.md) • [All Domains](../index.md)*
 
 [← Back to Foundations](./index.md)

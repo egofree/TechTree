@@ -8,7 +8,7 @@
 > **Outputs**: fab_processes, early_ics, msi, patterned_oxide, doped_regions, metal_interconnects
 > **Critical**: Yes — core IC fabrication processes are the foundation of all semiconductor manufacturing
 
-### Core Fab Processes
+## Core Fab Processes
 
 #### Thermal Oxidation
 - Grow SiO₂ on silicon wafer in high-temperature furnace (900-1200°C)
@@ -119,7 +119,7 @@
 - Evaporation has poor step coverage (line-of-sight) — shadows at step edges cause thin spots
 - Aluminum melts at 660°C, limiting all subsequent processing to below ~450°C
 
-### Process Metrology
+## Process Metrology
 Every process step must be measured. "If you can't measure it, you can't control it."
 
 - **[Ellipsometry](../glossary/ellipsometry.md)** (film thickness): Monochromatic or spectroscopic light (632.8 nm HeNe laser, or broad spectrum 250-1000 nm) reflects off the thin film surface at a known angle (70-75°). Measures change in polarization (Ψ, Δ) upon reflection. Fits to optical model (Cauchy or Sellmeier dispersion) to extract film thickness and refractive index. Accuracy: ±0.5 nm for oxides, ±2 nm for thicker films. Measures: SiO₂, SiNₓ, photoresist, poly-Si, metals (with appropriate model). Non-destructive, fast (~1 sec per site). Maps wafer uniformity (49-point or 121-point contour map).
@@ -136,7 +136,7 @@ Every process step must be measured. "If you can't measure it, you can't control
 - Dektak profilometer stylus (12.5-50 μm radius) can scratch soft films (photoresist, aluminum) at higher forces
 - Yield model (1 - D·A)ⁿ assumes independent defects — real defect clustering makes predictions optimistic
 
-### Planar Process & Integration
+## Planar Process & Integration
 - The fundamental IC manufacturing method: sequential layers of patterned oxide, doped regions, and metal on a flat silicon surface
 - **Start simple**: Single-layer metal, large features (10+ μm), few mask layers
 - **Progress to**: Multiple layers, smaller features, more complex circuits
@@ -164,7 +164,7 @@ Every process step must be measured. "If you can't measure it, you can't control
 - First IC runs expect <1% yield — requires extensive iteration on contamination control and process uniformity
 - Gate oxide quality (breakdown >8 MV/cm) is the single most critical step — any compromise kills transistor performance
 
-### Hazards & Safety
+## Hazards & Safety
 
 - **Hydrofluoric acid (HF)** — CRITICAL: HF at 5-49 % concentration causes severe, deep-tissue burns that may not be immediately painful — pain onset can be delayed hours while fluoride ions destroy bone and tissue. **Always have calcium gluconate gel (2.5 %) immediately available at every HF station.** Apply to any skin contact immediately, then seek emergency medical care. Wear heavy-duty acid gloves (Neoprene or thick nitrile), face shield, acid apron, and work only in a fume hood. HF burns can be fatal at body surface area exposures as small as 2-5 %.
 - **POCl₃ doping**: Phosphorus oxychloride reacts violently with moisture to produce phosphoric acid and HCl gas (corrosive, toxic). Use in enclosed, gas-cabinet-fed furnace tubes with toxic-gas monitoring (HCl detector). Exhaust gas scrubbers (caustic wet scrubber) mandatory. Leak protocol: evacuate area, wear self-contained breathing apparatus (SCBA).
@@ -172,7 +172,7 @@ Every process step must be measured. "If you can't measure it, you can't control
 - **Furnace temperatures (800-1200 °C)**: Severe burn hazard. Use heat-resistant gloves (Kevlar, rated to 1000 °C) and face shield when loading/unloading wafer boats. Quartz furnace tubes are fragile when hot — avoid thermal shock (push/pull boats slowly, <5 cm/min). Allow furnaces to cool below 200 °C before maintenance.
 - **Plasma/RIE gases**: SF₆ (GWP 23,900× CO₂), CF₄ (GWP 6,630× CO₂), and NF₃ (GWP 17,200× CO₂) are potent greenhouse gases. Install point-of-use abatement (burn boxes or plasma destruct units, >99 % destruction efficiency) on all exhaust lines. NF₃ and CF₄ also produce toxic byproducts (HF, COF₂) in plasma — downstream scrubbing required.
 
-### Wet Etch Processes
+## Wet Etch Processes
 
 **Silicon dioxide etching**:
 - **Buffered HF (BHF)**: NH₄F:HF 7:1 mixture. Etch rate 70-100 nm/min for thermal SiO₂. The ammonium fluoride buffers the HF concentration, maintaining a stable etch rate over time. Selectivity to photoresist ~5:1. Selectivity to silicon >100:1 (HF does not attack crystalline silicon). Temperature: room temperature (20-25°C). Used for: contact hole opens, gate oxide removal, general oxide patterning.
@@ -194,7 +194,7 @@ Every process step must be measured. "If you can't measure it, you can't control
 - TMAH selectivity to SiO₂ (~20:1) is lower than KOH (~50:1), requiring thicker oxide masks
 - Hot H₃PO₄ at 155-180°C for Si₃N₄ requires reflux condenser and poses severe burn/chemical hazard
 
-### Dry Etch Processes
+## Dry Etch Processes
 
 **Reactive Ion Etching (RIE)**:
 - **Principle**: RF plasma (typically 13.56 MHz) generates reactive species (ions, radicals) from feed gases. A DC self-bias develops on the powered electrode (cathode), accelerating positive ions into the wafer surface. This combines chemical etching (neutral radicals react with the material) with physical sputtering (ion bombardment removes material and reaction products). The result: anisotropic etching (vertical sidewalls) because ions bombard vertically while chemical etching would be isotropic.
@@ -218,7 +218,7 @@ Every process step must be measured. "If you can't measure it, you can't control
 - RIE selectivity to resist is only 5-10:1 — thick resist or hard mask required for deep etches
 - Bosch DRIE produces scalloped sidewalls (50-200 nm amplitude) from alternating etch/passivation cycles
 
-### Deposition Processes
+## Deposition Processes
 
 **Thermal oxidation in detail**:
 - **Dry oxidation**: Si + O₂ → SiO₂ at 900-1200°C in pure O₂ atmosphere. Growth rate: ~1-5 nm/min in the linear regime, slowing as oxide thickens (parabolic regime). Produces the highest-quality oxide: dense, uniform, low defect density, breakdown field >10 MV/cm. Used exclusively for gate oxides (where quality is paramount) and thin screening oxides.
@@ -247,7 +247,7 @@ Every process step must be measured. "If you can't measure it, you can't control
 - Sputtering step coverage is moderate — insufficient for high-aspect-ratio contact holes without collimation
 - Evaporation is line-of-sight only — cannot fill re-entrant features or high-aspect-ratio trenches
 
-### Chemical-Mechanical Planarization (CMP)
+## Chemical-Mechanical Planarization (CMP)
 
 **Process principle**: Simultaneous chemical and mechanical removal of material to create a flat surface. The wafer is pressed face-down against a rotating polishing pad while slurry flows between wafer and pad. The slurry chemistry attacks the material; the mechanical action of the pad and slurry particles removes the reaction products.
 
@@ -264,7 +264,7 @@ Every process step must be measured. "If you can't measure it, you can't control
 - Colloidal silica slurry at pH 10-11 is a chemical burn hazard requiring dedicated waste treatment
 - Post-CMP cleaning adds a PVA brush scrub and dilute HF step — extra process complexity and HF handling
 
-### Tungsten (W) Plug Process
+## Tungsten (W) Plug Process
 
 **Problem**: Contact holes and via holes between metal layers must be filled with a conductive material. Aluminum does not fill high-aspect-ratio holes well (it bulges at the top and leaves voids).
 
@@ -282,7 +282,7 @@ Every process step must be measured. "If you can't measure it, you can't control
 - WF₆ source gas reacts with moisture to produce HF — requires TiN barrier layer and careful gas handling
 - Additional CMP step (tungsten etchback) adds process complexity and cost beyond simple aluminum patterning
 
-### Process Integration
+## Process Integration
 
 **Process sequence for a two-level metal CMOS IC**:
 1. Isolation (LOCOS or shallow trench isolation)
@@ -307,6 +307,6 @@ Every process step must be measured. "If you can't measure it, you can't control
 - 11-step process means 11 opportunities for yield loss — each step must achieve >99% yield for overall >90% wafer yield
 - Cumulative thermal budget of 2-3 hours above 900°C limits flexibility for rework or additional high-temperature steps
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Photolithography](./index.md) • [All Domains](../index.md)*
+
+[← Back to Photolithography](index.md)

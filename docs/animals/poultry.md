@@ -8,7 +8,7 @@
 > **Outputs**: meat, eggs, feathers, manure, pest_control
 > **Critical**: Yes — fastest-converting livestock; first animals to establish after securing grain production
 
-## 1. Overview
+## Overview
 
 Poultry farming is the managed raising of domesticated birds for meat, eggs, feathers, and other products. Poultry are the fastest-converting livestock — turning grain and forage into high-quality protein within weeks rather than months. They require less space, less feed, and less infrastructure than any mammalian livestock, making them the first animals a settlement should establish after securing grain production. Seven primary species span a wide range of sizes, temperaments, and specializations, from the universal chicken to the pest-hunting guinea fowl to the self-foraging pigeon.
 
@@ -22,7 +22,7 @@ Poultry farming is the managed raising of domesticated birds for meat, eggs, fea
 | [Guinea Fowl](poultry-guinea-fowl.md) | 1.2-1.6 kg | 80-130 | 26-28 | 30-80 | Free range |
 | [Pigeons](poultry-pigeons.md) | 350-800 g | 400+ potential | 17 | 30-50 | 0.2 (loft) |
 
-## 2. Prerequisites
+## Prerequisites
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -33,7 +33,7 @@ Poultry farming is the managed raising of domesticated birds for meat, eggs, fea
 | Clean water system | [`water`](../water/index.md) | 250-400 mL/bird/day; doubles in heat |
 | Fencing (wire mesh or electric) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Perimeter + covered runs |
 
-## 3. Bill of Materials
+## Bill of Materials
 
 Materials listed for a 50-bird mixed flock per year.
 
@@ -46,9 +46,9 @@ Materials listed for a 50-bird mixed flock per year.
 | Wire mesh (1-2 cm openings) | 20-30 m² | [`metals`](../metals/index.md) | For vents and run enclosures |
 | Feed storage (metal bins) | 3-4 units (35-50 L each) | [`metals`](../metals/index.md) | Rodent-proof containers |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Egg Production
+## 4.1 Egg Production
 
 **Principle**: Laying hens convert grain and protein feed into eggs at 2.0-2.5 kg feed per kg of egg mass. Each egg contains approximately 6 g protein, 5 g fat, and 70 kcal. Peak production at 22-72 weeks of age at 80-90% lay rate.
 
@@ -78,7 +78,7 @@ Materials listed for a 50-bird mixed flock per year.
 - Predation from hawks, foxes, raccoons, and weasels requires secure housing and covered runs
 - Cannibalism and feather-picking develop in overcrowded or bored flocks — space and enrichment needed
 
-### 4.2 Meat Production (Broilers)
+## 4.2 Meat Production (Broilers)
 
 **Principle**: Broiler chickens convert feed to meat at 1.5-1.8 kg feed per kg of live weight — the most efficient of any terrestrial livestock. Broilers reach 2.0-2.5 kg at 6-8 weeks. Heritage breeds grow slower (12-16 weeks) but reproduce naturally and forage on range.
 
@@ -107,7 +107,7 @@ Materials listed for a 50-bird mixed flock per year.
 - Brooder heating required for first 3 weeks — energy cost or fuel consumption
 - Disease spreads rapidly in confined flocks — biosecurity is essential
 
-### 4.3 Multi-Species Integration
+## 4.3 Multi-Species Integration
 
 **Principle**: Running multiple poultry species on shared range utilizes different ecological niches. Chickens scratch at ground level, ducks forage in wet areas, guinea fowl hunt in tall grass, geese graze pasture, turkeys forage woodland edges. Each species fills a different role.
 
@@ -137,7 +137,7 @@ Materials listed for a 50-bird mixed flock per year.
 - Waterfowl wet litter rapidly — damage housing and create disease risk for land poultry
 - Different feeding schedules and rations increase management complexity
 
-### 4.4 Incubation and Brooding
+## 4.4 Incubation and Brooding
 
 **Principle**: All poultry eggs require specific temperature (37.5°C), humidity (55-65%), and regular turning for successful incubation. Incubation periods range from 17 days (quail, pigeons) to 30 days (geese). Newly hatched chicks need supplemental heat starting at 35°C, reducing by 3°C per week.
 
@@ -168,9 +168,9 @@ Materials listed for a 50-bird mixed flock per year.
 - Broody behavior is unreliable in many modern breeds — heritage breeds retain the instinct
 - Chicks are fragile for the first 2 weeks — mortality 5-10% even with good management
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Manure Composition by Species
+## Manure Composition by Species
 
 | Species | Nitrogen (%) | Phosphorus (%) | Potassium (%) | Manure/Bird/Year (kg) |
 |---------|-------------|----------------|---------------|------------------------|
@@ -181,7 +181,7 @@ Materials listed for a 50-bird mixed flock per year.
 | Guinea Fowl | 1.5-1.8 | 1.0-1.3 | 0.5-0.7 | 25-40 |
 | Pigeons | 4.0-5.0 | 2.0-3.0 | 1.5-2.0 | 10-15 |
 
-### Protein Requirements by Age
+## Protein Requirements by Age
 
 | Species | Starter (0-3 wk) | Grower (3-8 wk) | Layer/Adult |
 |---------|-------------------|------------------|-------------|
@@ -191,7 +191,7 @@ Materials listed for a 50-bird mixed flock per year.
 | Goslings | 18-20% | 15-16% | 14-15% |
 | Quail | 24-28% | 20-24% | 16-20% |
 
-### Egg Production Benchmarks
+## Egg Production Benchmarks
 
 | Species | Eggs/Hen/Year | Egg Weight | Feed per Dozen Eggs |
 |---------|---------------|------------|---------------------|
@@ -201,7 +201,7 @@ Materials listed for a 50-bird mixed flock per year.
 | Geese | 30-60 | 140-170 g | 6-10 kg |
 | Turkeys | 60-120 | 70-90 g | 4-6 kg |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 **Minimum viable scale**: 10-20 chickens (2-3 hens per rooster for breeding, plus 10-15 hens for egg production) produce 2,000-4,000 eggs per year within the first 6 months.
 
@@ -211,7 +211,7 @@ Materials listed for a 50-bird mixed flock per year.
 
 **Housing**: 50 layers need 5-10 m² indoor floor space (0.1-0.2 m²/bird) plus 200-300 m² outdoor run (4-6 m²/bird).
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -222,7 +222,7 @@ Materials listed for a 50-bird mixed flock per year.
 | Respiratory disease | Ammonia buildup, poor ventilation, mycoplasma | Increase ventilation; clean litter; 0.1 m² opening per 10 birds at roofline |
 | Predation (missing birds) | Foxes, hawks, raccoons, weasels | Secure housing at night; covered runs; electric fence at 10-15 cm and 30-40 cm; lock up at dusk |
 
-## 8. Safety
+## Safety
 
 **Zoonotic diseases**: All poultry carry *Salmonella* and *Campylobacter*. Wash hands after handling birds, eggs, or litter. Cook poultry meat and eggs thoroughly. Pregnant women should avoid cleaning poultry litter (listeria risk from contaminated dust).
 
@@ -234,7 +234,7 @@ Materials listed for a 50-bird mixed flock per year.
 
 **Processing safety**: Use sharp knives. Scalding water at 60°C causes burns — use tongs and protective gloves. Chill processed birds to 4°C within 1 hour to prevent bacterial growth.
 
-## 9. Quality Control
+## Quality Control
 
 **Egg quality**: Candle eggs against bright light (100+ lumens). Fresh eggs: tight centered yolk, air cell under 3 mm. Stale eggs: large mobile yolk, air cell above 5 mm. Shell thickness above 0.33 mm; below 0.28 mm indicates calcium deficiency. Blood spots (1-2% of eggs) are safe — not a sign of fertilization.
 
@@ -244,7 +244,7 @@ Materials listed for a 50-bird mixed flock per year.
 
 **Vaccination schedule**: Marek's disease (day 1, subcutaneous), Newcastle/bronchitis (day 10-14, booster at 4-6 weeks), fowl pox (6-8 weeks, wing web stab). Deworm at beginning and end of grazing season (spring and autumn) with 7-14 day egg withdrawal period.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 **Egg preservation**: Waterglass (sodium silicate, 1:10 ratio with water) preserves eggs 6-12 months at 10-15°C by sealing shell pores. Mineral oil coating extends shelf life to 4-6 months. Salt curing produces preserved eggs with concentrated yolks. Pickling in spiced vinegar brine (5% acetic acid) preserves hard-boiled eggs 3-6 months refrigerated.
 
@@ -254,7 +254,7 @@ Materials listed for a 50-bird mixed flock per year.
 
 **Cold climate**: Insulated walls (R-10 to R-15), deep litter composting heat, supplemental lighting (14-16 hours via 5-10 watt LED per 10 m²). Ducks excel in tropical and monsoon climates; geese thrive in cold temperate zones.
 
-## 11. Cross-Domain Links
+## Cross-Domain Links
 
 - [`animals.domestication`](domestication.md) — livestock husbandry foundations, fencing, shelter construction
 - [`agriculture`](../agriculture/index.md) — feed grain production, pasture management, range rotation
@@ -263,5 +263,5 @@ Materials listed for a 50-bird mixed flock per year.
 - [`animals.pest-management`](pest-management.md) — integrated pest management with poultry
 - [`knowledge`](../knowledge/index.md) — homing pigeons for long-distance messaging
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Animals](index.md)

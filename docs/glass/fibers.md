@@ -22,7 +22,7 @@ The ratio of glass surface area to volume increases by a factor of 10,000-100,00
 - [Energy / furnaces](../energy/index.md) — high-temperature melting (1400-1600°C for E-glass)
 - [Machine tools](../machine-tools/index.md) — bushing manufacturing and fiber-handling equipment
 
-### Fiberglass Production (Continuous Filament)
+## Fiberglass Production (Continuous Filament)
 
 Continuous fiberglass begins with molten glass, similar to conventional glassmaking, but the melt composition and forming process differ significantly from container or window glass.
 
@@ -51,7 +51,7 @@ Continuous fiberglass begins with molten glass, similar to conventional glassmak
 - **Chopped strand mat (CSM)**: randomly oriented chopped fibers (25-50 mm long) held together by a powder binder (polyester resin, 3-7% by weight). Supplied in rolls 1-2 m wide. Used in hand lay-up composites. Fiber content in the final laminate: 20-35% by weight. CSM is the cheapest and easiest form of fiberglass to work with.
 - **Yarn**: continuous filaments twisted together into a textile yarn (similar to wool or cotton yarn, but made of glass). Can be woven into fine fabrics (100-300 g/m²) for printed circuit board substrates, electrical insulation, and filter fabrics.
 
-### Glass Wool Insulation
+## Glass Wool Insulation
 
 Glass wool is a mass of randomly oriented glass fibers, formed into blankets or batts for thermal and acoustic insulation. It is produced by a fundamentally different process than continuous filament, using a centrifugal spinning method that produces short fibers rather than continuous ones.
 
@@ -71,7 +71,7 @@ Glass wool is a mass of randomly oriented glass fibers, formed into blankets or 
 - The resin is diluted to 5-10% solids in water for spray application during wool forming. Acid catalyst (p-toluenesulfonic acid, 1-3% of resin solids) may be added to promote curing in the oven.
 - Phenolic resin is the oldest synthetic thermoset polymer (1907). It is fire-resistant (char formation rather than melting), dimensionally stable, and relatively low cost.
 
-### Optical Fiber Basics
+## Optical Fiber Basics
 
 Optical fiber transmits light through a thin glass core by total internal reflection. A cladding layer of lower refractive index surrounds the core, keeping the light confined. The physics is straightforward; the manufacturing precision required to achieve it is extreme.
 
@@ -96,7 +96,7 @@ Optical fiber transmits light through a thin glass core by total internal reflec
 - **OVDD (Outside Vapor Deposition)**: soot deposited on the outside of a rotating bait rod, then consolidated. Higher throughput than MCVD for large preforms. Used for high-volume single-mode fiber production.
 - **VAD (Vapor Axial Deposition)**: soot deposited on the end of a growing porous rod, then consolidated. Allows continuous preform fabrication (no tube size limitation). Developed in Japan, now widely used.
 
-### Specialty Glass Fibers
+## Specialty Glass Fibers
 
 Beyond standard E-glass and S-glass, several specialty glass fiber types serve niche applications.
 
@@ -113,7 +113,7 @@ Beyond standard E-glass and S-glass, several specialty glass fiber types serve n
 - Tensile strength: 3.0-4.8 GPa (comparable to S-glass). Better alkali resistance than E-glass (but not as good as AR-glass). Operating temperature range: -260 to +700°C. Density: 2.65-2.80 g/cm³ (slightly heavier than E-glass at 2.54-2.60 g/cm³).
 - Advantage: single raw material (basalt quarry rock), no chemical additives. Simpler supply chain than E-glass, which requires separate supplies of silica sand, limestone, alumina, and boric acid. Disadvantage: basalt composition varies between quarries and even between layers in the same quarry, causing inconsistent fiber properties and melting behavior.
 
-### Fiber Products for Composites
+## Fiber Products for Composites
 
 **Woven roving**:
 - Continuous roving woven into a coarse fabric (plain or twill weave, 200-800 g/m² areal weight). Used in hand lay-up and vacuum bagging for boat hulls, tanks, and structural panels. Higher fiber content than CSM (50-60% by weight in the finished laminate), giving better mechanical properties per unit weight.
@@ -128,7 +128,7 @@ Beyond standard E-glass and S-glass, several specialty glass fiber types serve n
 **Veil mat**:
 - A very thin (30-50 g/m²) mat of randomly oriented fine glass fibers (10-13 μm diameter), held together with a small amount of binder. Used as a surface layer in composites to create a smooth, resin-rich surface that hides the fiber pattern of the underlying reinforcement. Also used in corrosion-resistant linings for chemical tanks and pipes.
 
-### Health and Safety
+## Health and Safety
 
 Glass fibers pose specific hazards during manufacture and handling that differ from bulk glass.
 
@@ -148,7 +148,7 @@ Glass fibers pose specific hazards during manufacture and handling that differ f
 - Glass fiber waste (offcuts, trimmings, production scrap) is inert and non-hazardous in landfill. However, large quantities of glass fiber waste in landfill are bulky and do not decompose. Recycling options: grinding scrap back into cullet for glass melting (requires clean, uncontaminated fiber) or shredding for use as a filler in asphalt and concrete.
 - Phenolic binder in glass wool releases formaldehyde during the curing oven step and at low levels throughout the product's life. Modern phenolic resins are formulated for low formaldehyde emission (< 0.05 mg/m³ in standard chamber testing), but older formulations emitted significantly more. Formaldehyde is a known carcinogen (IARC Group 1).
 
-### Quality Control in Fiber Production
+## Quality Control in Fiber Production
 
 Consistent fiber quality is essential for both composite applications (where fiber diameter and strength determine laminate properties) and optical fiber (where diameter tolerance determines splice loss and signal integrity).
 
@@ -161,7 +161,7 @@ Consistent fiber quality is essential for both composite applications (where fib
 - Strand tensile test: a bundle of filaments (typically 100-200 fibers) is tested as a unit. More representative of real-world performance because it includes fiber-to-fiber variability and the effect of sizing on load transfer between filaments.
 - Proof testing for optical fiber: the entire fiber length is passed over a pair of small rollers (capstans) under controlled tension (typically 100 kpsi / ~700 MPa). Any section with a critical flaw breaks during proof testing. The break is detected, and the fiber is re-spliced. Proof testing guarantees a minimum strength level for the entire shipped length.
 
-### Composite Manufacturing with Fiberglass
+## Composite Manufacturing with Fiberglass
 
 Fiberglass is rarely used as bare fiber. Its value is as reinforcement in a polymer matrix, where the glass fibers carry the mechanical load and the polymer matrix transfers stress between fibers and protects them from damage.
 
@@ -181,7 +181,7 @@ Fiberglass is rarely used as bare fiber. Its value is as reinforcement in a poly
 - Pull speed: 0.5-3 m/min. Fiber content: 60-70% by weight (the highest of any composite process, because the die compresses the fiber bundle and squeezes out nearly all excess resin). Produces structural profiles with higher specific strength than steel (strength-to-weight ratio 3-5× steel) and excellent corrosion resistance.
 - Pultruded profiles are used as structural members in bridges, building frames, walkways, and chemical plant infrastructure where steel would corrode. A pultruded glass-polyester I-beam (100 × 50 mm) has a flexural strength of 300-500 MPa at a density of 1.8-2.0 g/cm³ (vs. steel at 7.8 g/cm³).
 
-### Key Deliverables
+## Key Deliverables
 
 - Continuous fiberglass production (E-glass, direct melt process, platinum bushing)
 - Glass wool insulation (rotary process, phenolic binder, thermal properties)
@@ -192,7 +192,7 @@ Fiberglass is rarely used as bare fiber. Its value is as reinforcement in a poly
 - Health and safety protocols for glass fiber manufacturing and handling
 - Quality control methodology for fiber diameter and tensile strength
 
-### Cross-References
+## Cross-References
 
 - **Glass melting furnaces**: [Glass Production](basic.md)
 - **Platinum for bushings**: platinum bushings (see [Metals](../metals/non-ferrous.md))
@@ -201,7 +201,7 @@ Fiberglass is rarely used as bare fiber. Its value is as reinforcement in a poly
 - **Chemical precursors (SiCl₄, GeCl₄)**: [silicon processing](../silicon/index.md)
 - **Silica raw material**: [Glass Composition](basic.md)
 
-### Fiberglass Composite Manufacturing Detail
+## Fiberglass Composite Manufacturing Detail
 
 **Hand layup procedure (step-by-step)**:
 1. Prepare the mold surface: apply mold release wax (2 coats, buffed smooth) to prevent the cured laminate from bonding to the mold.

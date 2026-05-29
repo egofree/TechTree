@@ -8,7 +8,7 @@
 > **Outputs**: argon, nitrogen, oxygen
 > **Critical**: Yes — high-purity argon is the inert atmosphere for CZ silicon crystal growth; bulk oxygen is required for steelmaking and welding; nitrogen is the universal inert blanket gas for chemistry and metallurgy.
 
-## 1. Overview
+## Overview
 
 Air separation produces bulk quantities of nitrogen (N₂), oxygen (O₂), and argon (Ar) from atmospheric air by cryogenic fractional distillation. Air is 78% N₂ (boiling point -196°C), 21% O₂ (bp -183°C), and 0.93% Ar (bp -186°C). The Linde double-column distillation process cools air until it liquefies, then separates the components by exploiting their different boiling points.
 
@@ -20,7 +20,7 @@ Three methods span the capability range:
 
 Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../metals/steelmaking.md) requires O₂; [CZ crystal growth](../silicon/crystal-growth.md) requires Ar as an inert atmosphere.
 
-## 2. Prerequisites
+## Prerequisites
 
 **Materials**:
 - [Compressed air supply](../gas-handling/basic.md) — atmospheric air at 5-10 bar
@@ -40,7 +40,7 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 - Vacuum-insulated storage dewars for liquid products
 - Compressed gas cylinders for gaseous products
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity per tonne O₂ produced | Source | Alternatives |
 |----------|-------------------------------|--------|-------------|
@@ -51,9 +51,9 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 | Perlite insulation | 5-20 m³ (cold box fill) | [Mining](../mining/processing.md) — expanded volcanic glass | Mineral wool, multi-layer insulation |
 | Palladium catalyst (argon polishing) | 0.1-1 kg (5-10 year life) | [Precious metals](../metals/precious-metals.md) | No alternative for O₂ removal from crude argon |
 
-## 4. Process Description
+## Process Description
 
-### Cryogenic Distillation (Linde Double-Column Cycle)
+## Cryogenic Distillation (Linde Double-Column Cycle)
 
 **Principle**: Air is compressed, cleaned of H₂O and CO₂, cooled to cryogenic temperatures by counter-current heat exchange with outgoing product streams, then liquefied and fractionally distilled in a double-column system. The lower column operates at 5-6 bar (N₂ bp ~-177°C); the upper column at ~1.2 bar (N₂ bp ~-196°C, O₂ bp ~-183°C). The pressure difference between columns creates the temperature differential needed for thermal coupling of the lower column condenser to the upper column reboiler.
 
@@ -101,7 +101,7 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 - Economical only at scale >50 tonnes O₂/day — smaller operations should use PSA
 - Cold box has zero maintenance access during operation — any internal failure requires full warm-up (24-48 hours)
 
-### Pressure Swing Adsorption (PSA)
+## Pressure Swing Adsorption (PSA)
 
 **Principle**: Zeolite molecular sieves adsorb different gas molecules at high pressure and release them at low pressure. For O₂ production: 13X zeolite adsorbs N₂ preferentially (N₂ quadrupole moment interacts with zeolite cation sites). For N₂ production: carbon molecular sieve (CMS) adsorbs O₂ faster (kinetic diameter 0.346 nm vs. N₂ at 0.364 nm — O₂ diffuses into pores faster).
 
@@ -146,7 +146,7 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 - Higher energy per unit gas than large cryogenic plants at equivalent purity
 - Adsorbent beds require periodic replacement (3-7 year life) at $50,000-200,000 per bed changeout
 
-### Membrane Separation
+## Membrane Separation
 
 **Principle**: Hollow fiber polymer membranes (polyimide or polysulfone) separate gases by solution-diffusion mechanism. O₂ (kinetic diameter 0.346 nm) permeates through the fiber wall faster than N₂ (0.364 nm). Compressed air flows through the fiber bores; O₂-rich permeate exits the shell side; N₂-rich product exits the bore at the opposite end.
 
@@ -187,7 +187,7 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 - Higher energy consumption than PSA or cryogenic for equivalent N₂ purity
 - Membrane modules degrade over time (5-10 year life) and require replacement
 
-### Argon Purification
+## Argon Purification
 
 **Principle**: Argon's boiling point (-186°C) falls between N₂ (-196°C) and O₂ (-183°C), causing it to accumulate at an intermediate point in the upper distillation column at ~10-15% concentration. A side-draw feeds a separate argon column that produces crude argon (95-98% Ar). Catalytic deoxidation and final distillation produce 99.999% Ar.
 
@@ -229,9 +229,9 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 - Palladium catalyst is expensive and sourced from [precious metals](../metals/precious-metals.md)
 - Hydrogen supply required for catalytic deoxidation — adds infrastructure dependency
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Method Comparison
+## Method Comparison
 
 | Parameter | Cryogenic ASU | PSA | Membrane |
 |-----------|--------------|-----|----------|
@@ -245,7 +245,7 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 | Capital cost | High | Medium | Low |
 | Maintenance complexity | High (cryogenic) | Medium (valve switching) | Low (filter replacement) |
 
-### Cryogenic Operating Parameters
+## Cryogenic Operating Parameters
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
@@ -260,7 +260,7 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 | Molecular sieve regeneration temperature | 200-300°C | Heated N₂ purge for 2-4 hours |
 | Cold box warm-up time | 24-48 hours | From -180°C to +20°C |
 
-### Product Storage Parameters
+## Product Storage Parameters
 
 | Product | Storage temp (°C) | Density (kg/L) | Expansion ratio (liquid:gas) | Evaporation loss (%/day) |
 |---------|-------------------|-----------------|------------------------------|--------------------------|
@@ -268,14 +268,14 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 | Liquid N₂ | -196 | 0.81 | 694:1 | 0.5-2.0 |
 | Liquid Ar | -186 | 1.40 | 840:1 | 0.5-1.5 |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Cryogenic ASU**: Economical above ~500 Nm³/hour output (50 tonnes O₂/day). Below this, PSA is more cost-effective. Small bootstrap cryogenic plant: 1-5 tonnes/day O₂ requires 200-500 kW electrical power. World-scale: 3000 t/d O₂ draws 25-40 MW.
 - **PSA**: Scales linearly from 1 to 3000 Nm³/hour by adding adsorbent beds in parallel. Each bed pair produces the same purity regardless of total flow rate.
 - **Membrane**: Scales linearly by adding parallel membrane modules. Each module is independent — no interaction between modules.
 - **Argon production**: Requires the full cryogenic ASU infrastructure. Argon yield is 1-3% of air input — a 100 t/d O₂ plant produces only 1-3 t/d Ar. Argon demand for CZ crystal growth is typically 10-50 Nm³/hour per puller.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -287,7 +287,7 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 | Argon purity below specification | Crude Ar column upset or Pd catalyst deactivated | Check crude Ar column reflux ratio. Test Pd catalyst: measure O₂ before and after catalyst bed. Replace catalyst if O₂ removal <90%. |
 | Cold box pressure rise | Air leak into cold box (moisture ingress) or internal process leak | Check N₂ purge flow to cold box (maintain slight positive pressure). Monitor cold box internal pressure. If internal leak suspected: warm up and inspect. |
 
-## 8. Safety
+## Safety
 
 - **Cryogenic burns**: LOX (-183°C) and LN₂ (-196°C) cause severe frostbite on skin contact — tissue damage identical to third-degree thermal burns. Insulated gloves (cryogenic-rated), face shield, long sleeves, closed-toe boots mandatory. Never touch uninsulated cryogenic piping or vessels.
 - **Oxygen-enriched fire hazard**: Materials that barely burn in air ignite violently in >25% O₂ atmospheres. LOX-soaked clothing becomes explosive — a static spark can cause ignition. Oil or grease on LOX-wetted surfaces can auto-ignite. Designate oxygen-safe zones: no petroleum products, no organic flooring, no oily tools. LOX spills on asphalt require exclusion until evaporation is complete.
@@ -295,7 +295,7 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 - **Acetylene accumulation in LOX**: Trace acetylene (C₂H₂) from air inlet can accumulate in liquid oxygen and detonate. Acetylene is soluble in LOX and can reach explosive concentrations if LOX is stored for extended periods. Remove hydrocarbons at air inlet with activated carbon filters. Monitor LOX for acetylene content. Do not store LOX for >30 days without analysis.
 - **Hydrogen in argon polishing**: Hydrogen mixed with crude argon for catalytic deoxidation creates a flammable mixture if H₂ concentration exceeds 4% in air. Keep H₂ addition rate precisely controlled (2-4% relative to O₂ content). Install H₂ leak detector and automatic shutoff. Flashback arrestors on H₂ supply line.
 
-## 9. Quality Control
+## Quality Control
 
 **Oxygen product**:
 - Purity analysis: paramagnetic O₂ analyser (accuracy ±0.1%). Target: 99.5%+ (cryogenic), 90-95% (PSA).
@@ -314,20 +314,20 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 
 **Molecular sieve adsorber monitoring**: Track CO₂ breakthrough time. If CO₂ appears at adsorber outlet before the scheduled switch, the bed is exhausted and requires regeneration or replacement.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Vacuum Swing Adsorption (VSA)
+## Vacuum Swing Adsorption (VSA)
 
 Lithium-exchanged zeolite (LiLSX) selectively adsorbs N₂ from air at near-ambient pressure (1.2-1.5 bar). Desorption by applying vacuum (50-100 mbar). Simpler than PSA — uses a blower instead of a compressor. Purity: 90-93% O₂. Flow: 5-150 tonnes/day. Lower energy than PSA for O₂ production.
 
-### Bootstrap Sequence
+## Bootstrap Sequence
 
 1. **No ASU**: Obtain O₂ from thermal decomposition of metal oxides (limited quantities). N₂ from combustion gas displacement.
 2. **PSA unit**: Air compressor + zeolite beds + pressure vessels. Provides 90-95% purity O₂ or 95-99.5% N₂ at small scale. No cryogenic infrastructure needed.
 3. **Small cryogenic ASU**: Compressor + countercurrent heat exchanger + insulated cold box + double distillation column. Produces liquid O₂/N₂ and crude argon. Entry point for semiconductor-capable gas production.
 4. **Full-scale ASU**: Rare gas recovery (Ne, Kr, Xe), expansion turbines (not just J-T valves), product liquefaction. Supports all downstream processes at scale.
 
-## 11. References
+## References
 
 - [Cryogenics](../cryogenics/air-separation.md) — cryogenic engineering fundamentals
 - [Gas Handling](../gas-handling/basic.md) — compressed gas systems, piping, cylinders
@@ -338,6 +338,6 @@ Lithium-exchanged zeolite (LiLSX) selectively adsorbs N₂ from air at near-ambi
 - [Hydrogen and Silane](hydrogen-silane.md) — H₂ used in argon polishing catalytic deoxidation
 - [Electrolysis](electrolysis.md) — H₂ supply for argon purification
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+[← Back to Chemistry](index.md)

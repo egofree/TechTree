@@ -14,7 +14,7 @@ Without propulsion technology, civilization is limited to ground and water trans
 
 ## Technologies & Systems
 
-### Internal Combustion Engine for Aircraft
+## Internal Combustion Engine for Aircraft
 
 **[Engine design](../glossary/engine-design.md)** (single-cylinder or twin-cylinder, air-cooled):
 - **Configuration**: Horizontally opposed twin (boxer) — compact, good balance, air cooling. Displacement 500-1200 cc. Power target 20-65 HP at 2000-3500 RPM. Weight target <30 kg (power-to-weight >0.5 HP/kg).
@@ -68,7 +68,7 @@ Without propulsion technology, civilization is limited to ground and water trans
 - Aluminum cylinder heads demand aluminum-silicon casting capability (8-12% Si alloy)
 - Valve springs must prevent valve float at 2000-3500 RPM — requires spring steel (0.6-0.7% C, heat-treated)
 
-### Airframe Construction
+## Airframe Construction
 
 **Design** (tube-and-fabric ultralight):
 - **Wingspan**: 8-12 m. **Wing area**: 12-20 m². **Wing loading**: 20-40 kg/m² (lower = lower stall speed, gentler handling). **Empty weight**: 150-250 kg. **Gross weight**: 250-400 kg. **Stall speed**: 35-50 km/h. **Cruise speed**: 70-120 km/h. **Range**: 100-300 km.
@@ -92,7 +92,7 @@ Without propulsion technology, civilization is limited to ground and water trans
 - **Tricycle or tailwheel**: Tailwheel simpler, lighter, more demanding to ground-handle (tends to ground-loop — uncontrolled swerve on landing). Tricycle: steerable nosewheel, more stable, easier to land. Choose based on pilot experience.
 - **Main gear**: Steel tube struts with bungee cord or rubber spring shock absorption (bungee cord: multiple wraps of rubber rope absorbing vertical impact). Axle: steel tube, 20-25 mm diameter. Wheels: 350-500 mm diameter, spoked or solid disc. Tires: pneumatic, 2-4 bar pressure, 150-250 mm wide. Brake: drum brake on main wheels (mechanical — cable operated, differential braking for steering on tailwheel type).
 
-### Propeller
+## Propeller
 
 **Design**:
 - **Diameter**: 1.5-2.0 m. **Pitch**: 800-1200 mm (theoretical forward travel per revolution). **Blades**: 2. **RPM**: 2000-3000 (direct drive from engine, or reduction gear for larger prop at lower RPM).
@@ -104,7 +104,7 @@ Without propulsion technology, civilization is limited to ground and water trans
 - **Protection**: Apply multiple coats of linseed oil or varnish (waterproof, prevent moisture absorption → weight change and imbalance). Leading edge protection: brass or copper tipping strip (screws + epoxy) — protects against stone/erosion damage.
 - **Finish**: Sand smooth (120 → 220 → 400 grit). Final coat of clear varnish or paint. Check balance after finishing. Mark tracking marks (chalk on each blade tip — spin and observe marks should overlap perfectly from the side).
 
-### Fabric Covering & Finishing
+## Fabric Covering & Finishing
 
 **Fabric**:
 - Cotton or linen fabric (Textiles), tightly woven, ~100-200 g/m². Grade A aircraft cotton (Mercerized — treated with NaOH to increase strength and dye affinity) or linen. Modern alternative: Dacron (polyester — much stronger, more durable, but requires advanced polymer chemistry). Cut fabric panels with 5-10 cm overlap at edges.
@@ -120,7 +120,7 @@ Without propulsion technology, civilization is limited to ground and water trans
 - **Properties**: Dope shrinks as solvent evaporates → further tightens fabric. Forms hard, waterproof, taut skin. Nitrocellulose is flammable — apply in well-ventilated area, no ignition sources. Acetone fumes are heavier than air — explosive mixture. Fire hazard is REAL — many early aircraft were lost to hangar fires from dope fumes.
 - **Alternative dope**: Cellulose acetate butyrate (CAB) dope — less flammable than nitrocellulose. Requires cellulose acetate (from cellulose + acetic anhydride + acetic acid — see Petrochemicals, Polymers).
 
-### Flight Testing
+## Flight Testing
 
 **Ground testing first**:
 - **Engine test stand**: Bolt engine to heavy wooden or steel test stand. Run at varying throttle for hours. Monitor temperature (cylinder head <250°C for air-cooled), oil pressure, fuel consumption, spark plug condition. Fix all issues before installing on aircraft.
@@ -156,7 +156,7 @@ Without propulsion technology, civilization is limited to ground and water trans
 
 ## Flight Instruments & Navigation
 
-### Basic Instruments
+## Basic Instruments
 
 **[Altimeter](../glossary/altimeter.md)** (barometric):
 - An aneroid barometer calibrated in altitude. A sealed metal capsule (thin-walled brass or beryllium copper, partially evacuated) expands as atmospheric pressure decreases with altitude. A mechanical linkage converts capsule expansion to needle rotation on a dial marked 0-3000 m (or higher). Sensitivity: 10 m per hPa pressure change near sea level.
@@ -171,7 +171,7 @@ Without propulsion technology, civilization is limited to ground and water trans
 - A magnetized needle or card pivoting on a jewel bearing in a fluid-filled case (mineral oil dampens oscillation). Reads magnetic heading relative to Earth's magnetic field. Errors: deviation (magnetic fields from the engine and steel airframe distort the compass reading; compensate with small corrector magnets, and record residual deviation on a correction card mounted next to the compass, e.g., "for N steer 358°, for E steer 092°").
 - Acceleration error: on east/west headings, accelerating makes the compass swing toward north, decelerating toward south. Turning error: during a banked turn, the compass lags on northerly headings and leads on southerly headings. The rule "north lags, south leads" reminds pilots to roll out of turns early on cardinal headings.
 
-### Navigation Calculations
+## Navigation Calculations
 
 **Wind triangle**:
 - Three vectors: heading/airspeed (the direction the aircraft points and its speed through the air), wind direction/speed (the movement of the air mass), and track/groundspeed (the actual path over the ground). The heading vector plus the wind vector equals the track vector.
@@ -182,7 +182,7 @@ Without propulsion technology, civilization is limited to ground and water trans
 - Plot the intended course on a map. Measure distance and true heading. Apply magnetic variation (difference between true north and magnetic north, varies by location, shown on aviation charts) to get magnetic heading. Apply compass deviation from the correction card to get compass heading.
 - Calculate groundspeed from TAS and wind. Divide leg distance by groundspeed to get estimated time en route (ETE). Multiply fuel consumption rate (8-12 kg/hour for a 40 HP engine) by ETE to get fuel required. Add 30 minutes reserve fuel (mandatory for VFR flight).
 
-### Doped Fabric Construction
+## Doped Fabric Construction
 
 **Fabric shrinkage and tensioning**:
 - Cotton and linen fabric shrinks when treated with nitrocellulose dope. The dope solvent (acetone + butyl acetate) evaporates and the nitrocellulose film contracts, pulling the fabric drum-tight. Cotton shrinks approximately 5-10% overall through the doping process. This tension is what gives the fabric covering its aerodynamic smoothness and structural contribution (a doped fabric panel resists air loads in the same way a drum head resists a drumstick).
@@ -207,15 +207,14 @@ Without propulsion technology, civilization is limited to ground and water trans
 - **Midair collision**: See and avoid other aircraft. Scan the sky in 10° sectors, pausing at each sector for 1-2 seconds to detect traffic. Blind spots below the nose and behind the tail. Fly standard traffic patterns (left-hand circuits at 300-400 m altitude, downwind leg parallel to runway) at designated airfields to maintain predictable separation.
 - **Bird strike**: Birds can shatter propellers, puncture fabric covering, or jam control surfaces. A 1 kg bird at 90 km/h relative speed delivers 312 J of kinetic energy, enough to dent sheet metal or tear fabric. Avoid flying at dawn and dusk when birds are most active near rivers and coastlines. If a bird strikes the propeller, land and inspect before continuing flight (hairline cracks in wooden propellers propagate to catastrophic failure under centrifugal load).
 
-### Aviation Fuel Specifications
+## Aviation Fuel Specifications
 
 **Avgas 80/87**: The standard low-lead aviation gasoline for low-compression engines. Octane rating 80 (lean mixture) / 87 (rich mixture). Leaded with tetraethyl lead (TEL) at 0.5 mL/L to boost octane and lubricate valves. Color: red dye. Suitable for engines with compression ratios up to 7:1. Phased out in many countries but still the simplest aviation fuel to refine from petroleum.
 
 **Aviation kerosene (Jet A / Jet A-1)**: The standard turbine fuel. Flash point 38°C minimum (safe handling). Freeze point: -40°C for Jet A, -47°C for Jet A-1 (the lower freeze point enables long-range high-altitude flight where fuel temperatures drop below -30°C). Energy density: 43.15 MJ/kg (higher than gasoline at 43.0 MJ/kg by mass, though lower by volume due to higher density). Specific gravity: 0.775-0.840 at 15°C. Distillation range: 150-300°C boiling fraction from petroleum crude.
 
----
 
-### Limitations
+## Limitations
 
 - **Weather dependency**: Ultralight aircraft have no de-icing capability and minimal structural margin for turbulence. Visual flight rules only — no instrument flying capability.
 - **Range and payload**: 100-300 km range with 250-400 kg gross weight. Not competitive with ground transport for heavy cargo.

@@ -12,7 +12,7 @@
 
 Dyeing transforms undyed cloth and yarn into colored textiles using natural pigments extracted from plants, minerals, and insects. Color-fast results depend on proper mordanting (fixing dye to fiber), the right dye plants for the target hue, and careful control of bath temperature, pH, and duration. Protein fibers (wool, silk) take dye far more readily than cellulose fibers (linen, cotton) — a critical distinction that shapes the entire dyeing workflow.
 
-### Prerequisites
+## Prerequisites
 
 - [Chemistry](../chemistry/index.md) — mordant chemistry, pH control, and extraction
 - [Textiles / Fibers](fibers.md) — fiber preparation and properties
@@ -40,7 +40,7 @@ Mordants are chemical intermediaries that bond dye molecules to fiber. Without a
 
 **Mordant chemistry**: Alum forms aluminum hydroxide complexes that bridge between fiber hydroxyl groups and dye carbonyl/hydroxyl groups. The aluminum ion (Al³⁺) coordinates with both the fiber surface and the dye molecule, creating a stable three-way bond. This coordination chemistry is why alum-mordanted fiber retains color through dozens of wash cycles while unmordanted fiber fades in 2-3 washes. Iron (Fe²⁺) and copper (Cu²⁺) function similarly but also form dark-colored metal-dye complexes that shift the hue.
 
-### Dye Plant Cultivation
+## Dye Plant Cultivation
 
 Growing dye plants ensures a reliable, renewable color supply. Most dye plants are undemanding perennials or self-seeding annuals:
 
@@ -50,7 +50,7 @@ Growing dye plants ensures a reliable, renewable color supply. Most dye plants a
 - **[Dyer's coreopsis](../glossary/dyers-coreopsis.md)** (*Coreopsis tinctoria*): Annual, easy from seed. 60-90 cm tall, covered with red-orange-yellow flowers. Harvest flowers as they open. Rich in flavonoid dyes (luteolin, apigenin, coreopsin). Self-seeds prolifically.
 - **[Japanese indigo](../glossary/japanese-indigo.md)** (*Persicaria tinctoria*): Annual in temperate zones. Higher indigotin yield than woad — 5-10× per kg of fresh leaf. Requires rich, moist soil and warm growing season. Harvest leaves 2-3 times per season. Best choice for blue where climate permits (USDA Zone 6+).
 
-### Dye Plants & Color Range
+## Dye Plants & Color Range
 
 - **Red**: Madder root (*Rubia tinctorum*) — harvest 3-year-old roots, dry, chop, extract at 70-80°C (higher temperatures degrade the alizarin pigment). Yields turkey red on alum-mordanted wool. Use 50-100% of fiber weight.
 - **Blue**: Woad leaves (*Isatis tinctoria*) or true indigo (*Indigofera tinctoria*). Unlike other dyes, indigo requires no mordant — it bonds directly through reduction.
@@ -58,7 +58,7 @@ Growing dye plants ensures a reliable, renewable color supply. Most dye plants a
 - **Brown/Black**: Walnut hulls (rich brown, no mordant needed). Oak bark, cutch (from acacia). For true black, overdye: indigo base + iron-tannin saddening, or madder + iron.
 - **Orange**: Coreopsis, dyer's chamomile, or madder at lower concentrations with a tin mordant.
 
-### Indigo Vat Process
+## Indigo Vat Process
 
 Indigo pigment (indigotin) is insoluble in water. It must be chemically reduced to leuco-indigo (water-soluble, colorless) for dyeing. The fiber absorbs leuco-indigo; exposure to air re-oxidizes it back to insoluble blue pigment trapped inside the fiber.
 
@@ -76,7 +76,7 @@ Indigo pigment (indigotin) is insoluble in water. It must be chemically reduced 
 - Indigotin is insoluble in water — requires careful reduction chemistry to make a working dye bath
 - Vat is sensitive to temperature and pH excursions; a failed vat wastes all ingredients
 
-### Protein vs Cellulose Fiber Differences
+## Protein vs Cellulose Fiber Differences
 
 | Property | Protein (wool, silk) | Cellulose (linen, cotton) |
 |----------|---------------------|--------------------------|
@@ -86,7 +86,7 @@ Indigo pigment (indigotin) is insoluble in water. It must be chemically reduced 
 | Typical uptake | Strong color at lower dye concentrations | Requires 2-3× more dye for equivalent shade |
 | Indigo | Excellent — no mordant needed | Good — no mordant needed |
 
-### Dye Bath Preparation & Calculations
+## Dye Bath Preparation & Calculations
 
 Quantities scale with fiber weight. All percentages are **weight of dye material as a percentage of dry fiber weight** (WOF).
 
@@ -101,7 +101,7 @@ Quantities scale with fiber weight. All percentages are **weight of dye material
 - Weld yellow: 1,500 g dried weld (150% WOF), 150 g alum (15% WOF), 100 liters water. Simmer at 85°C for 1 hour.
 - Walnut brown: 1,000 g walnut hulls (100% WOF), no mordant needed, 100 liters water. Simmer at 90°C for 2 hours.
 
-### Color Mixing & Overdyeing
+## Color Mixing & Overdyeing
 
 Complex colors are built by layering dyes in sequence. Overdyeing follows the subtractive color model — each dye layer subtracts wavelengths from the reflected light:
 
@@ -113,7 +113,7 @@ Complex colors are built by layering dyes in sequence. Overdyeing follows the su
 
 **Overdyeing procedure**: Complete the first dye bath fully (dye, rinse, dry). Then mordant again if needed for the second dye, and enter the second dye bath. The second dye must be a different chemical class or applied at a different pH to avoid simply stripping the first color. Indigo is ideal as an overdye because it does not require a mordant and bonds through a completely different mechanism (oxidation vs. coordination chemistry).
 
-### Resist Dyeing
+## Resist Dyeing
 
 Resist dyeing creates patterns by blocking dye from reaching selected areas of the cloth. Three principal methods:
 
@@ -134,13 +134,13 @@ Resist dyeing creates patterns by blocking dye from reaching selected areas of t
 - Dye the cloth by dipping or brushing. Paste-resisted areas remain undyed. Remove paste by washing in warm water.
 - Japanese katazome uses rice paste (komon nori) applied through stencils cut from mulberry paper waterproofed with persimmon tannin. Produces sharp, repeatable patterns suitable for production work.
 
-### Fastness Testing
+## Fastness Testing
 
 - **Wash fastness**: Wash dyed sample in warm water with mild soap (5 min, 40°C). Compare color loss against unwashed control. Acceptable: minimal fading after 5 washes. Rate on 1-5 scale (5 = no change).
 - **Light fastness**: Expose half the sample to direct sunlight for 1-2 weeks (cover the other half). Compare. Rate on 1-8 Blue Wool scale. Weld yellow and indigo blue rate 6-7 (excellent); many berry dyes rate 1-2 (poor — fade rapidly).
 - **Rub fastness (crocking)**: Rub dyed fabric against white undyed cloth. Transfer indicates poor bonding — re-mordant and re-dye. Wet and dry rub tests are both performed. Acceptable: no visible transfer on dry rub, minimal on wet rub.
 
-### Equipment
+## Equipment
 
 - Large non-reactive vessels: earthenware, ceramic, or stainless steel pots (iron pots act as a mordant and shift colors; copper pots brighten greens; avoid aluminum which corrodes in acid dye baths). Volume: 20-50 liters for cloth production.
 - Heat source: wood fire with grate, or charcoal brazier. Temperature control by adjusting fuel and distance.
@@ -150,11 +150,10 @@ Resist dyeing creates patterns by blocking dye from reaching selected areas of t
 - Tjanting tools for batik: copper spout (1-3 mm opening) on a wooden or bamboo handle. Wax melting pot (small iron or ceramic vessel with direct heat).
 - pH testing: litmus paper or pH indicator solution. Critical for indigo vat management and mordant bath preparation.
 
----
 
 *Dependencies: [Spinning](spinning.md) for yarn, [Weaving](weaving.md) for cloth, [Chemistry](../chemistry/index.md) for alum and iron sulfate production at scale*
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Toxic mordants**: Alum (aluminum potassium sulfate) is relatively safe. Iron sulfate is a mild irritant. Copper sulfate is toxic if ingested. Chrome mordant (potassium dichromate, K₂Cr₂O₇) is a known carcinogen and must be handled with gloves. Tin chloride is toxic. Wear gloves when handling mordants.
 - **Dye chemical hazards**: Some natural dyes contain toxic compounds. Logwood contains hematoxylin (moderately toxic). Indigo processing uses strong alkalis (slaked lime, NaOH). Weld and other plant dyes are generally safe.
@@ -162,11 +161,9 @@ Resist dyeing creates patterns by blocking dye from reaching selected areas of t
 - **Urine fermentation**: Historical indigo vats use fermented urine (ammonia source). Unpleasant odor, ammonia fumes irritating to eyes and respiratory tract. Ventilate dye work areas.
 - **Wax burns (batik)**: Molten wax at 60-80°C causes burns. Use double-boiler heating to prevent overheating and flash fire. Never heat wax over open flame — risk of ignition at ~200°C. Keep a lid nearby to smother wax fires.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*
 
-### Mordant Chemistry Detail
+## Mordant Chemistry Detail
 
 **Alum (Al₂(SO₄)₃ or KAl(SO₄)₂)**: The workhorse mordant for both protein and cellulose fibers.
 - **Protein fibers** (wool, silk): Apply at 10-25% of fiber weight (owf). Dissolve in warm water at 60-80°C. Enter fiber, bring to 80-90°C over 30 minutes, hold 45-60 minutes. Wool and silk have amino and carboxyl groups in their protein structure that readily form coordination bonds with the aluminum ion (Al³⁺). The aluminum acts as a bridge: one coordination bond to the fiber surface, one to the dye molecule's hydroxyl or carbonyl groups. This three-way bond is the basis of color fastness. Higher alum concentrations produce deeper color but risk stiffening the fiber — stay below 25% for wool.
@@ -178,7 +175,7 @@ Resist dyeing creates patterns by blocking dye from reaching selected areas of t
 
 **Chrome (K₂Cr₂O₇, potassium dichromate)**: Brightens and deepens colors at 1-3% owf. Produces especially rich reds and yellows on wool. Chrome mordanting was standard in professional dyeing for centuries. However, hexavalent chromium (Cr⁶⁺) is a known carcinogen, causes skin ulcers on contact, and damages kidneys and liver. Handle with nitrile gloves in a well-ventilated area. Avoid generating dust when weighing. Spent chrome baths are hazardous waste — collect and treat with reducing agent (sodium bisulfite) to convert Cr⁶⁺ to less toxic Cr³⁺ before disposal. Consider whether the color result justifies the health risk; alum and tin are safer alternatives for most colors.
 
-### Dye Bath Calculations
+## Dye Bath Calculations
 
 **Dyebath ratio**: The ratio of water to fiber by weight. Standard range: 20:1 to 40:1 (e.g., 20 liters water per 1 kg fiber). A lower ratio concentrates the dye and exhausts faster but risks uneven dyeing because the fiber cannot move freely. A higher ratio produces more even results but wastes fuel heating excess water. For immersion dyeing of cloth, 30:1 is a practical compromise.
 
@@ -186,7 +183,7 @@ Resist dyeing creates patterns by blocking dye from reaching selected areas of t
 
 **Hold time**: Maintain peak temperature for 30-60 minutes, depending on the dye and fiber type. Short holds (30 min) suit high-affinity combinations (wool + madder). Long holds (60 min) suit low-affinity combinations (cotton + weld). For the deepest shades, turn off the heat after the hold and let the fiber cool in the bath overnight (exhaust dyeing). The fiber continues to absorb dye as the bath cools.
 
-### Overdyeing Procedure
+## Overdyeing Procedure
 
 Layering dyes to create compound colors follows a reliable workflow:
 
@@ -194,7 +191,7 @@ Layering dyes to create compound colors follows a reliable workflow:
 - **Red + blue → purple**: Dye with madder at 30-50% WOF for a pink-red base. Rinse, dry. Overdye in indigo (1-2 dips). The combination produces purple, with the exact shade determined by the relative strength of the red base and the blue overdye. More madder → warmer purple. More indigo → cooler purple.
 - **General rule**: Always dye the lighter shade first. A light color cannot cover a dark one. If the first dye bath is red and the second is yellow, the result will look orange-yellow, not green. Plan the sequence based on which dye has the stronger affinity and which contributes the dominant hue.
 
-### Resist Dyeing Detail
+## Resist Dyeing Detail
 
 **[Tie-dye](../glossary/tie-dye.md)** (bound resist): Bind sections of pre-wetted cloth tightly with waxed linen thread or sinew. Wrap 5-10 times at each binding point, pulling very tight to compress the fabric through its full thickness. The compressed areas resist dye penetration. Immersion dyeing for 30+ minutes in a warm dye bath gives the best penetration. Multiple binding patterns: concentric circles (pinch a point, spiral the fabric around it, bind at intervals), parallel stripes (accordion-fold the cloth, bind at regular intervals), and random patterns (pinch individual points, bind tightly). After dyeing and rinsing, snip the bindings and unfold. The resisted areas show the original cloth color against the dyed background.
 
@@ -202,7 +199,7 @@ Layering dyes to create compound colors follows a reliable workflow:
 
 **Paste resist (flour/rice paste)**: Mix flour or rice paste with water to a thick, creamy consistency (like cake batter). Apply through a stencil cut from waterproofed paper or thin sheet metal. Let dry completely (12-24 hours) until the paste forms a hard, crack-resistant crust. Dye by dipping or brushing. The paste blocks dye from reaching the covered areas. Remove the paste by washing in warm water. Japanese katazome uses rice paste (komon nori) applied through mulberry paper stencils waterproofed with persimmon tannin, producing sharp, repeatable patterns suitable for production-scale work.
 
-### Dye Bath Temperature Control
+## Dye Bath Temperature Control
 
 Temperature management is the single most important factor in consistent dyeing. The target temperature determines dye uptake rate, color development, and fiber integrity:
 
@@ -211,7 +208,7 @@ Temperature management is the single most important factor in consistent dyeing.
 - **Indigo vat**: 30-40°C (hand-warm). The bacterial fermentation in a traditional vat is killed above 55°C. A chemical reduction vat (using sodium dithionite or thiourea dioxide) can operate at 50-60°C, but higher temperatures risk over-reduction and unstable color.
 - **Temperature ramp**: Raise the bath at 1-2°C/minute. Faster heating produces temperature gradients within the fiber — the outer layers absorb dye at a higher rate than the interior, producing ring-dyeing (color on the surface only, pale core). This is the most common cause of uneven dyeing.
 
-### Mordant Bath Reuse
+## Mordant Bath Reuse
 
 Mordant baths can be reused for multiple batches, reducing chemical consumption:
 
@@ -219,7 +216,7 @@ Mordant baths can be reused for multiple batches, reducing chemical consumption:
 - Replenish the bath by adding 50-75% of the original mordant quantity before the next batch. The fiber absorbs roughly 50-80% of the dissolved alum during a standard mordanting session, depending on fiber type and duration.
 - A well-maintained mordant bath can process 5-10 batches before the accumulation of impurities (dissolved organics from the fiber, hardness minerals from the water) requires the bath to be discarded. Discarded alum baths are not highly toxic (alum is used in water purification) but should be diluted before discharge.
 
-### Color Fastness Standards
+## Color Fastness Standards
 
 Quantifying dye permanence allows consistent quality control across batches:
 

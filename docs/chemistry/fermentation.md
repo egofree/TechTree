@@ -52,7 +52,7 @@ Fermentation converts sugars and starches into alcohols, solvents, and organic a
 
 **Weaknesses**: Azeotrope limits distillation to 95.6% ABV (anhydrous requires extra steps); 12-15% ABV ceiling from batch fermentation (dilute feedstock means large volumes to distill); energy-intensive distillation (2.5-4.0 kg steam per liter of 95% ethanol); competes with food supply for grain feedstock.
 
-### Weizmann Acetone-Butanol Process
+## Weizmann Acetone-Butanol Process
 
 **Organism**: *Clostridium acetobutylicum* (anaerobic bacterium, Gram-positive, spore-forming). Can be isolated from soil or maintained as preserved culture on agar slants.
 
@@ -72,7 +72,7 @@ Fermentation converts sugars and starches into alcohols, solvents, and organic a
 
 **Weaknesses**: Butanol toxicity limits product concentration to 12-15 g/L (dilute broth = high distillation cost); strict anaerobic requirements increase contamination risk; product ratio (3:6:1 acetone:butanol:ethanol) is fixed by organism — not tunable; bacterium forms spores that complicate continuous fermentation.
 
-### Acetic Acid Production
+## Acetic Acid Production
 
 **[Vinegar method](../glossary/vinegar-method.md)** (biological):
 - Expose ethanol solution to air with *Acetobacter* bacteria (present on fruit surfaces, in unpasteurized vinegar).
@@ -89,7 +89,7 @@ Fermentation converts sugars and starches into alcohols, solvents, and organic a
 
 **Weaknesses**: Biological route is slow (days to weeks) and limited to 12-14% acid concentration; chemical oxidation requires 300-400°C copper catalyst and careful temperature control; vinegar method needs continuous aeration (energy for air pumping); both routes consume ethanol feedstock that could be used for fuel.
 
-### Methanol from Wood Pyrolysis
+## Methanol from Wood Pyrolysis
 
 **Process**: Heat hardwood in closed iron retort to 400-500°C. Destructive distillation produces: charcoal (solid), wood tar (liquid), pyroligneous acid (aqueous condensate containing methanol, acetic acid, acetone).
 
@@ -101,7 +101,7 @@ Fermentation converts sugars and starches into alcohols, solvents, and organic a
 
 **Weaknesses**: Wood pyrolysis yield is extremely low (~1-2% by weight of wood); methanol is highly toxic (10 mL causes blindness, 30 mL death); requires careful fractionation to separate from acetic acid and acetone in pyroligneous acid; synthetic route needs coal gasification infrastructure (high pressure, catalyst).
 
-### Temperature Control
+## Temperature Control
 
 Fermentation is exothermic — uncontrolled temperature kills yeast or produces off-flavors:
 
@@ -109,11 +109,11 @@ Fermentation is exothermic — uncontrolled temperature kills yeast or produces 
 - **Methods**: Submerge fermentation vessel in cold water bath. Wrap with wet cloth (evaporative cooling). For large-scale: water jacket or cooling coil with circulating cold water. Monitor with thermometer twice daily minimum.
 - **Kill temperature**: >45°C kills *Saccharomyces* within minutes. >35°C promotes production of fusel alcohols and esters (irrelevant for industrial ethanol, but wastes sugar carbon).
 
-### Butanol and Biobutanol (ABE Fermentation)
+## Butanol and Biobutanol (ABE Fermentation)
 
 The **[Weizmann process](../glossary/weizmann-process.md)** (Clostridium acetobutylicum) produces acetone, butanol, and ethanol in a 3:6:1 ratio. Butanol (C₄H₉OH) is a superior fuel to ethanol: higher energy density (29.2 MJ/L vs 21.2 MJ/L), miscible with gasoline at any ratio, lower hygroscopicity (doesn't absorb water), usable in unmodified engines. Feedstocks: corn starch, molasses, cellulose hydrolysate. Conditions: 30-37°C, anaerobic, pH controlled (switches from acidogenesis to solventogenesis at pH ~5). Yield: 10-20 g/L total solvents (low — product toxicity limits concentration). Modern strain improvement targets: higher tolerance (butanol inhibits growth above 12-15 g/L), continuous product removal by gas stripping or pervaporation membranes.
 
-### Lactic Acid Fermentation
+## Lactic Acid Fermentation
 
 Lactic acid bacteria (Lactobacillus, Streptococcus, Pediococcus) convert sugars to lactic acid (C₃H₆O₃) via homofermentative pathway (2 mol lactic acid per mol glucose, yield >90%) or heterofermentative pathway (lactic acid + ethanol + CO₂). Industrial production: 30-45°C, pH 5-7 (neutralized with CaCO₃ or NaOH to prevent acid inhibition). Feedstock: glucose from corn starch or cane sugar. Downstream: calcium lactate filtered, acidified with H₂SO₄ to free lactic acid, purified. **Polylactic acid (PLA)**: Lactic acid oligomerized to lactide (cyclic dimer), then ring-opening polymerized to PLA — biodegradable thermoplastic for packaging, textiles, 3D printing filament. NatureWorks (USA) produces 150,000 tonnes/year PLA.
 
@@ -129,13 +129,13 @@ Lactic acid bacteria (Lactobacillus, Streptococcus, Pediococcus) convert sugars 
 
 **Weaknesses** (biogas): Biogas only 55-70% CH₄ (requires upgrading for pipeline quality); HRT of 15-30 days requires large reactor volume; ammonia inhibition above 1500 mg/L NH₃-N with protein-rich feedstocks; thermophilic operation (higher yield) is less stable and more energy-intensive to maintain.
 
-### Fermentation Equipment Design
+## Fermentation Equipment Design
 
 **Bioreactor types**: (1) **[Stirred tank](../glossary/stirred-tank.md)** — impeller (Rushton turbine or marine blade) provides mixing and O₂ transfer, baffles prevent vortexing. Standard for aerobic fermentations (citric acid, antibiotics). (2) **[Air-lift](../glossary/air-lift.md)** — rising bubbles in the riser section create circulation through the downcomer — no mechanical seals, lower shear. Used for shear-sensitive cells and large-scale single-cell protein. (3) **[Bubble column](../glossary/bubble-column.md)** — simplest: sparge air at the bottom, bubbles rise through liquid. Low cost, good for viscous broths. (4) **[Packed bed / fluidized bed](../glossary/packed-bed-fluidized-bed.md)** — immobilized cells on solid support (ceramic, alginate beads). Continuous operation. (5) **[Anaerobic digester](../glossary/anaerobic-digester.md)** — CSTR with gas-tight cover, heating jacket or heat exchanger (maintain 35°C), gas collection system.
 
 **Sterilization**: Critical for pure-culture fermentations (contaminants compete for substrate and may produce toxins). Methods: (1) **[Heat](../glossary/heat.md)** — steam at 121°C for 15-30 minutes (batch sterilization of medium in the vessel). (2) **[Continuous HTST](../glossary/continuous-htst.md)** — 140°C for 5-10 seconds in a heat exchanger, then flash-cooled. More energy-efficient for large volumes. (3) **[Filter sterilization](../glossary/filter-sterilization.md)** — 0.2 µm membrane filters for heat-sensitive components (vitamins, some growth factors). Equipment sterilization: steam all pipes, valves, and seals before filling — any dead leg or unsterilized pocket becomes a contamination source.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Ethanol fire**: Ethanol burns with nearly invisible blue flame. Cannot be seen in daylight. Keep away from open flames and sparks. Store in sealed metal containers. Fire extinguisher (CO₂ or dry chemical) required near distillation equipment.
 - **Methanol toxicity**: Methanol is metabolized to formaldehyde and formic acid — causes blindness and death. As little as 10 mL can cause permanent blindness. Absorbed through skin. Label all containers clearly. NEVER store near food or drink. Use different-shaped containers than food/water vessels.

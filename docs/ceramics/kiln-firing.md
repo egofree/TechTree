@@ -137,7 +137,7 @@ Cooling is as critical as heating. All ceramics undergo a reverse quartz inversi
 - **Crack prevention**: Even wall thickness, proper drying before firing, and controlled cooling eliminate 90%+ of firing failures.
 - **Crazing vs. shivering**: If glaze cools with fine crackle lines (crazing), the glaze contracts more than the body — adjust glaze recipe (increase silica, decrease flux). If glaze flakes off (shivering), the body contracts more — decrease silica in glaze or increase in body.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Thermal burns (600-1700°C)**: Kiln interiors reach extreme temperatures during all firing cycles. Wear heat-resistant gloves (leather or Kevlar) and a face shield when loading, adjusting dampers, or checking cones through spy holes. Assume all kiln surfaces are hot until confirmed otherwise.
 - **Thermal shock cracking**: Rapid temperature changes through the quartz inversion zone (~573°C) cause catastrophic cracking of ware and kiln furniture. Follow controlled heating and cooling schedules strictly — never rush the ramp through 500-650°C.
@@ -145,7 +145,7 @@ Cooling is as critical as heating. All ceramics undergo a reverse quartz inversi
 - **Kiln structural failure**: Poorly constructed kilns (inadequate mortar, insufficient wall thickness, missing expansion joints) can collapse under thermal cycling. Inspect kiln structure before each firing campaign. Never stand on or lean against a kiln during firing.
 - **Steam explosions from greenware**: Incompletely dried clay contains residual mechanical water. If heated too rapidly during the water-smoke phase (ambient → 150°C), trapped water flashes to steam and violently shatters the piece — potentially ejecting sharp ceramic fragments. Ensure greenware is fully air-dried (1-2 weeks minimum for thick pieces) before loading, and never skip the slow candle phase.
 
-### Detailed Firing Schedules by Ware Type
+## Detailed Firing Schedules by Ware Type
 
 **[Earthenware bisque](../glossary/earthenware-bisque.md)** (Cone 06-04, 980-1000°C):
 - Total firing time: 6-8 hours. Fuel: 15-30 kg hardwood.
@@ -167,7 +167,7 @@ Cooling is as critical as heating. All ceramics undergo a reverse quartz inversi
 - Ramp: 40°C/hr to 200°C, 60°C/hr to 600°C, 100°C/hr to 1100°C, 80°C/hr to peak. Soak 45-60 min.
 - Porcelain demands the most precise temperature control. Under-firing leaves the body opaque and porous. Over-firing causes bloating, slumping, and warping. The body vitrifies within a narrow range of ~30°C. Pyrometric cones are essential — do not fire porcelain by visual estimate alone.
 
-### Glaze Chemistry
+## Glaze Chemistry
 
 **[Unity formula](../glossary/unity-formula.md)** (Seger formula): The standard method for expressing glaze composition. Recalculates raw material percentages into molar ratios of three component groups: fluxes (RO/R₂O), alumina (Al₂O₃), and silica (SiO₂). The flux sum is normalized to 1.0. This allows direct comparison of glazes regardless of which raw materials supply the oxides.
 
@@ -176,7 +176,7 @@ Cooling is as critical as heating. All ceramics undergo a reverse quartz inversi
 - **Stoneware (Cone 8-10)**: Flux 1.0, Al₂O₃ 0.3-0.7, SiO₂ 3.0-6.0. Higher alumina and silica create a more viscous, durable melt. Well-formulated stoneware glazes resist scratching and chemical attack.
 - **Porcelain (Cone 10-12)**: Flux 1.0, Al₂O₃ 0.4-0.8, SiO₂ 4.0-8.0. The highest silica levels produce a hard, glassy surface. The high firing temperature ensures complete melting even with these refractory proportions.
 
-### Glaze Defects and Corrections
+## Glaze Defects and Corrections
 
 **Crawling**: Glaze pulls back from the surface during firing, leaving bare patches. Causes: glaze applied too thick, dusty or oily bisque surface, glaze shrinkage too high during drying. Fix: thin the glaze (lower SG to 1.3-1.4), clean bisque with a damp sponge before glazing, ensure bisque is fully fired (underfired bisque is dusty).
 
@@ -201,7 +201,7 @@ Cooling is as critical as heating. All ceramics undergo a reverse quartz inversi
 | Kiln shelves stuck to ware | Glaze ran onto shelf; missing or worn kiln wash; stilts failed | Apply fresh kiln wash (alumina-kaolin) to shelves before each firing; use stilts for fully glazed pieces; leave 3-5 mm bare foot on all pieces |
 | Refractory cracking in kiln structure | Thermal cycling; inadequate expansion joints; moisture in refractory before first firing | Add expansion joints in kiln walls; dry-fire new kiln slowly (first firing: ramp 30°C/hr to peak with no ware); repair cracks with refractory mortar before they propagate |
 
-### Raku Firing
+## Raku Firing
 
 Raku is a rapid, dramatic firing technique that produces unique surface effects:
 
@@ -209,7 +209,7 @@ Raku is a rapid, dramatic firing technique that produces unique surface effects:
 - **Effects**: The reduction atmosphere causes metallic lusters, copper flash (metallic red patches from copper glazes), and carbon trapping in the glaze crackle pattern. Unglazed areas turn black from absorbed carbon. Each piece is unique and unpredictable.
 - **Safety**: Raku involves handling pottery at 1000°C with tongs. Serious burn risk. Wear full heat protection: Kevlar gloves, face shield, long sleeves. The rapid thermal shock destroys most pots that are not specifically formulated for raku (use a grogged, open body with 20-30% grog to resist thermal shock). Fire outdoors only — the reduction smoke is copious and contains CO. Never use raku-fired vessels for food or drink.
 
-### Kiln Loading Best Practices
+## Kiln Loading Best Practices
 
 How ware is placed in the kiln affects heat distribution, air flow, and the final result:
 
@@ -218,7 +218,7 @@ How ware is placed in the kiln affects heat distribution, air flow, and the fina
 - **Height distribution**: Place large, thick pieces near the bottom of the kiln (hotter zone in an updraft kiln). Place small, thin pieces higher. Glazed pieces must not touch each other or the shelves — fused pieces are total losses.
 - **Witness cones**: Place cone packs (3 cones: one below target, one at target, one above) at top, middle, and bottom of the kiln. Read through spy holes during firing to monitor temperature distribution. A difference of more than 2 cone numbers between top and bottom indicates uneven heating — adjust damper settings, fuel distribution, or kiln design.
 
-### Glaze Calculation
+## Glaze Calculation
 
 Developing a glaze recipe from raw materials requires understanding the unity (Seger) formula:
 
@@ -227,7 +227,7 @@ Developing a glaze recipe from raw materials requires understanding the unity (S
 - **Step 3**: Calculate the batch recipe by converting the unity formula molar proportions to raw material weights. Use a spreadsheet or glaze calculation software. The calculation iterates: assign each oxide to a raw material, check that the totals match the target formula, adjust.
 - **Step 4**: Test fire the glaze on small test tiles (2 × 5 cm bisque tiles dipped in glaze). Evaluate at 3 different temperatures (below, at, and above target) to determine the melting range. Adjust the recipe based on results: too runny → increase alumina; too matte → decrease alumina or increase flux; crawling → thin the glaze or clean the bisque surface.
 
-### Kiln Thermometry
+## Kiln Thermometry
 
 Accurate temperature measurement transforms firing from guesswork into a repeatable process:
 
@@ -237,7 +237,7 @@ Accurate temperature measurement transforms firing from guesswork into a repeata
 
 **Optical pyrometer**: Measures temperature by comparing the color of the kiln interior to a calibrated filament. No contact with the kiln required — read from outside through the spy hole. Range: 700-3000°C. Accuracy: ±10-20°C. Good for high-temperature refractory firing where thermocouple life is limited. Requires a clear line of sight to the hot zone.
 
-### Firing Fuel Consumption
+## Firing Fuel Consumption
 
 Estimating fuel requirements before a firing prevents running out mid-fire:
 
@@ -259,6 +259,6 @@ Estimating fuel requirements before a firing prevents running out mid-fire:
 - [Glass: Basic](../glass/basic.md) — glass melting requires kilns with refractory linings
 - [Chemistry: Glazes](../chemistry/index.md) — glaze chemistry and raw materials
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*
+
+[← Back to Ceramics & Refractories](index.md)

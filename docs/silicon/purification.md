@@ -8,7 +8,7 @@
 > **Outputs**: purified_silicon, polysilicon, chlorosilanes
 > **Critical**: Yes — 9N+ purity polysilicon is required for all electronic-grade semiconductor devices
 
-### Purification Pathways
+## Purification Pathways
 
 #### Option A: Chemical Purification (Siemens-like Process)
 
@@ -94,11 +94,11 @@ Directional solidification and zone refining effectively remove most metallic im
 - 3-8% silicon yield loss per pass from slag entrainment — direct product waste
 - Boron distribution ratio L_B of only 2-5 requires multiple passes and high slag-to-silicon ratios (up to 2:1 by weight)
 
-### Czochralski (CZ) Crystal Growth
+## Czochralski (CZ) Crystal Growth
 
 See [Crystal Growth & Wafering](crystal-growth.md) for CZ pulling details.
 
-### Hydrogen Sourcing for Trichlorosilane Route
+## Hydrogen Sourcing for Trichlorosilane Route
 
 The Siemens process requires large volumes of H₂ for both the hydrochlorination step and the CVD deposition:
 - **Electrolysis of water**: H₂O → H₂ + ½O₂. Most common source for high-purity H₂. Requires ~4.5-5.5 kWh per Nm³ H₂ (alkaline electrolysis at 70-80% efficiency). A polysilicon plant producing 1000 tonnes/year needs ~3,000-5,000 Nm³ H₂/hour — a dedicated electrolysis plant.
@@ -113,7 +113,7 @@ The Siemens process requires large volumes of H₂ for both the hydrochlorinatio
 - A 1000 t/yr polysilicon plant needs 3,000-5,000 Nm³ H₂/hour — a dedicated electrolysis plant consuming 15-25 MW
 - H₂ storage at 200-350 bar or -253°C requires specialized pressure vessels or cryogenic infrastructure
 
-### SiCl₄ Byproduct Management
+## SiCl₄ Byproduct Management
 
 The Siemens process generates ~3-5 kg SiCl₄ per kg of polysilicon. This is a significant waste stream that must be managed:
 - **Recycle to trichlorosilane**: React SiCl₄ with MG-Si powder and H₂ in a fluidized bed (hydrogenation): 3SiCl₄ + Si + 2H₂ → 4SiHCl₃. Converts low-value SiCl₄ back to useful trichlorosilane. This is the preferred route — most modern plants are closed-loop.
@@ -128,7 +128,7 @@ The Siemens process generates ~3-5 kg SiCl₄ per kg of polysilicon. This is a s
 - SiCl₄ is produced in large volumes — a 1000 t/yr polysilicon plant generates 3,000-5,000 t/yr SiCl₄ requiring dedicated handling
 - Fumed silica conversion requires H₂/O₂ flame at high temperature, adding energy cost and combustion complexity
 
-### Waste Handling
+## Waste Handling
 
 The chlorosilane purification process generates several hazardous waste streams:
 - **HCl neutralization**: Scrubber systems (packed column, caustic recirculation) neutralize HCl gas from CVD reactor exhaust. NaOH or Ca(OH)₂ scrubbing solution absorbs HCl → NaCl or CaCl₂ brine. Brine is disposed as industrial wastewater or evaporated to dry salt.
@@ -143,7 +143,7 @@ The chlorosilane purification process generates several hazardous waste streams:
 - Chlorosilane hydrolysis generates large volumes of acidic wastewater requiring neutralization before discharge
 - Heavy metal chloride distillation bottoms classify as hazardous waste, incurring $200-500/tonne disposal costs
 
-### Energy Comparison
+## Energy Comparison
 
 Energy consumption varies dramatically across the silicon processing chain. Approximate values per kg of product:
 
@@ -158,7 +158,7 @@ Energy consumption varies dramatically across the silicon processing chain. Appr
 
 The energy intensification from MG-Si to single-crystal wafers is roughly 20-40×. A polysilicon plant is fundamentally an energy conversion facility — cheap, abundant electricity is the primary siting requirement.
 
-### Safety Hazards
+## Safety Hazards
 
 Silicon purification involves some of the most dangerous chemicals in semiconductor manufacturing:
 - **Pyrophoric SiHCl₃**: Trichlorosilane ignites spontaneously on contact with air (autoignition ~185°C, but can flash at room temperature if warm or in fine mist). All handling must be under inert atmosphere (N₂ or Ar) in sealed systems. Leaks produce dense white HCl/SiO₂ smoke and fire. Firefighting: CO₂ or dry chemical. Do NOT use water — it accelerates decomposition and generates HCl.
@@ -167,7 +167,7 @@ Silicon purification involves some of the most dangerous chemicals in semiconduc
 - **Chlorosilane water reactivity**: All chlorosilanes (SiHCl₃, SiCl₄, SiH₂Cl₂) react violently with water, producing HCl gas and heat. The reaction can be explosive if water contacts bulk liquid chlorosilane. Strict segregation of water lines from chlorosilane lines. Double-walled piping for chlorosilane transfer. Secondary containment for storage tanks.
 - **Personal protective equipment**: Chemical splash suit (PVC or butyl rubber), face shield, chemical-resistant gloves, self-contained breathing apparatus (SCBA) for emergency response. Standard PPE is insufficient for a major chlorosilane release — SCBA is mandatory.
 
-### Siemens Process Detail
+## Siemens Process Detail
 
 **Reactor construction**:
 - **Bell jar**: Quartz (fused silica) or stainless steel cylindrical vessel, 500-1000 mm diameter, 1-2 m tall. Quartz is preferred for purity (no metal contamination) but is fragile and expensive. The jar must withstand atmospheric pressure on the outside when evacuated, then contain inert gas at slightly above atmospheric pressure during deposition.
@@ -189,7 +189,7 @@ Silicon purification involves some of the most dangerous chemicals in semiconduc
 - 100-200 kWh/kg energy consumption is the highest in the entire silicon chain — dominated by resistive rod heating
 - Only 20-30% gas conversion efficiency per pass means 70-80% of TCS must be recycled through distillation columns
 
-### Alternative Purification Methods
+## Alternative Purification Methods
 
 **Fluidized bed reactor (FBR)**:
 - **Principle**: Silicon seed particles (100-500 μm diameter) are suspended in an upward gas flow of silane (SiH₄) or TCS + H₂. Silane decomposes on the heated particle surfaces, depositing silicon. Particles grow larger over time, eventually becoming too heavy for the gas flow and falling to the product collection zone. New seed particles are added continuously.
@@ -212,7 +212,7 @@ Silicon purification involves some of the most dangerous chemicals in semiconduc
 - FBR granular product has higher surface contamination than Siemens rods due to greater surface-area-to-volume ratio
 - UMG-Si limited to 4N purity — insufficient for semiconductor devices or high-efficiency (>20%) solar cells
 
-### Analytical Methods for Silicon Purity
+## Analytical Methods for Silicon Purity
 
 **ICP-MS (Inductively Coupled Plasma Mass Spectrometry)**:
 - **Principle**: Dissolve a silicon sample in HF/HNO₃ mixture. Introduce the solution into an argon plasma (~7000°C) that ionizes all elements. Ions pass through a mass spectrometer that separates them by mass-to-charge ratio. Count individual ions.
@@ -233,7 +233,7 @@ Silicon purification involves some of the most dangerous chemicals in semiconduc
 - **Principle**: Argon plasma sputters atoms directly from a solid silicon sample. Sputtered atoms ionized in the plasma and analyzed by mass spectrometer. Measures bulk impurity content without dissolution.
 - **Detection limits**: 1-100 ppb for most elements. Broader elemental coverage than ICP-MS (measures everything simultaneously). Used for certification of polysilicon purity grades (6N, 9N, 11N).
 
-### Purity Requirements by Application
+## Purity Requirements by Application
 
 **Solar grade silicon (5-7N)**:
 - **Metals**: Total metallic impurities <1 ppm (Fe <0.1 ppm, Al <0.1 ppm, Ti <0.01 ppm). Metallic impurities form recombination centers that reduce minority carrier lifetime and solar cell efficiency.
@@ -250,7 +250,7 @@ Silicon purification involves some of the most dangerous chemicals in semiconduc
 - **Oxygen**: 10-20 ppma for CZ-grown (inherent from crucible dissolution). For FZ-grown: <1 ppma.
 - **Source**: Siemens process polysilicon only, followed by CZ or FZ crystal growth.
 
-### Chlorosilane Chemistry
+## Chlorosilane Chemistry
 
 **Key compounds and properties**:
 
@@ -266,5 +266,5 @@ Silicon purification involves some of the most dangerous chemicals in semiconduc
 - **SiHCl₃ / PCl₃ separation**: PCl₃ boils at 76°C, 44°C above SiHCl₃. Easier separation but still requires careful fractionation.
 - **SiHCl₃ / SiCl₄ separation**: 25.8°C boiling point difference. Straightforward separation in a moderate-height column.
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*
+
+[← Back to Silicon](index.md)

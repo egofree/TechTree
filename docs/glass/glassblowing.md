@@ -8,13 +8,13 @@
 > **Outputs**: glass_apparatus, laboratory_glassware
 > **Critical**: Yes — laboratory glassware (flasks, condensers, tubing) is required for all wet chemistry, distillation, and gas handling in the bootstrap sequence.
 
-## 1. Overview
+## Overview
 
 Glassblowing transforms glass tubing and rod into scientific apparatus, containers, and precision instruments. Two main techniques exist: **furnace glassblowing** (gathering molten glass on a blowpipe) for containers and window glass, and **lampworking** (bench-scale torch work) for precision laboratory glassware. Lampworking is the primary technique for producing the flasks, condensers, distillation columns, and tubing assemblies required by [chemistry](../chemistry/index.md), [silicon purification](../silicon/purification.md), and [gas handling](../gas-handling/index.md).
 
 This capability depends on [advanced glass production](advanced.md) for borosilicate tubing and soda-lime glass melt. Downstream, every chemical process — [distillation](../chemistry/distillation.md), [ammonia synthesis](../chemistry/ammonia.md), [electrolysis](../chemistry/electrolysis.md) — uses glass apparatus produced by this capability.
 
-## 2. Prerequisites
+## Prerequisites
 
 **Materials**:
 - [Borosilicate glass tubing](advanced.md) (3-50 mm OD, 0.5-2.5 mm wall) — primary raw material for lampworking
@@ -34,7 +34,7 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 - Ventilation (fume hood or exhaust fan) for torch work
 - Compressed gas supply (O₂ at 0.1-0.3 MPa, fuel gas at 0.01-0.05 MPa)
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity per typical session (4 hours) | Source | Alternatives |
 |----------|----------------------------------------|--------|-------------|
@@ -45,9 +45,9 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 | Annealing oven fuel/power | 2-5 kWh | [Electricity](../energy/electricity.md) | Gas-fired kiln |
 | Rubber hose (for blow tube) | 0.5-1 m | [Rubber processing](../chemistry/adhesives-coatings.md) | Latex tubing, direct mouth blow |
 
-## 4. Process Description
+## Process Description
 
-### Lampworking (Bench-Scale Torch Work)
+## Lampworking (Bench-Scale Torch Work)
 
 **Principle**: Glass rod and tubing are heated in a bench-mounted torch flame until they soften, then shaped by blowing, pulling, pushing, and fusing. The flame temperature determines which glass types can be worked: gas-air (~1200°C) for soft glass, gas-oxygen (~2000°C) for borosilicate, oxy-hydrogen (~2800°C) for fused silica.
 
@@ -87,7 +87,7 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 - Production rate limited by operator skill — not scalable without more operators
 - Borosilicate requires oxygen supply — gas-air torches are insufficient for reliable borosilicate work
 
-### Furnace Glassblowing (Container Production)
+## Furnace Glassblowing (Container Production)
 
 **Principle**: A blowpipe (hollow iron tube) is used to gather molten glass from a furnace, shape it by blowing and tooling, and transfer it to an annealing oven. Used for bottles, flasks, window glass, and large vessels.
 
@@ -130,7 +130,7 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 - Wall thickness and volume less precise than lampworked apparatus
 - Hot glass is invisible — high burn risk if proper protocols are not followed
 
-### Laboratory Apparatus Assembly
+## Laboratory Apparatus Assembly
 
 **Principle**: Standard laboratory glassware items are assembled from borosilicate tubing using lampworking techniques. Each item has a defined construction procedure that produces a functional, annealed apparatus.
 
@@ -174,7 +174,7 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 - Annealing is critical — improperly annealed ring seals crack under thermal cycling
 - Inner tube alignment requires care — offset inner tube causes uneven condensation
 
-### Glass-to-Metal Seals
+## Glass-to-Metal Seals
 
 **Principle**: Sealing glass to metal enables electrical feedthroughs, electrode connections, and structural attachments. The thermal expansion coefficient (CTE) of the glass must match the metal closely enough that the seal survives thermal cycling without cracking.
 
@@ -216,7 +216,7 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 - Pre-oxidation step is required — bare metal does not wet glass reliably
 - Large diameter seals (>2 mm wire) require graded intermediate glasses to bridge CTE mismatch
 
-### Thermometer Construction
+## Thermometer Construction
 
 **Principle**: A capillary tube with a bulb reservoir is filled with a temperature-sensitive liquid (alcohol or mercury) and sealed. The liquid column height changes linearly with temperature, enabling temperature measurement.
 
@@ -257,7 +257,7 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 - Capillary must be precision-bore (±0.02 mm) — non-uniform bore causes non-linear scale
 - Glass breakage releases fill liquid — mercury contamination requires specialized cleanup
 
-### Graduated Cylinder Construction
+## Graduated Cylinder Construction
 
 **Principle**: A uniform cylinder with flat base is blown, annealed, and etched with volume graduation marks calibrated by weighing water (1 mL water = 1.000 g at 4°C).
 
@@ -299,9 +299,9 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 - Uniform wall thickness requires skilled glassblowing — inconsistent walls distort volume readings
 - Calibration is temperature-dependent — accuracy degrades if used at temperatures far from calibration temperature
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Torch Types and Capabilities
+## Torch Types and Capabilities
 
 | Parameter | Gas-air | Gas-oxygen | Oxy-hydrogen |
 |-----------|---------|------------|-------------|
@@ -312,7 +312,7 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 | Eye protection | Standard safety glasses | Shade #3-#5 | Shade #5-#7 (welding grade) |
 | Complexity | Low (single gas line) | Medium (two gas lines) | High (flashback arrestors mandatory) |
 
-### Annealing Parameters
+## Annealing Parameters
 
 | Glass type | Annealing temp (°C) | Hold time | Cooling rate | Strain point (°C) |
 |-----------|---------------------|-----------|-------------|-------------------|
@@ -320,7 +320,7 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 | Borosilicate | 560 | 30-60 min (1 h per 25 mm wall) | 1-3°C/min | 510 |
 | Fused silica | 1100-1200 | 1-2 hours | 5-10°C/min | 990 |
 
-### Standard Apparatus Dimensions
+## Standard Apparatus Dimensions
 
 | Apparatus | Typical size range | Wall thickness | Key tolerance |
 |-----------|--------------------|----------------|---------------|
@@ -330,7 +330,7 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 | Capillary tubing | 0.5-1.0 mm bore | 0.3-0.5 mm wall | Bore diameter ±0.02 mm |
 | Graduated cylinder | 10-2000 mL | 1.5-2.5 mm | Volume accuracy ±1% |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Lampworking**: Solo activity. One skilled lampworker produces 5-15 joints per hour. Scaling requires more operators and more torch stations, not larger equipment.
 - **Furnace glassblowing**: Minimum team is 3 people (gaffer, assistant, servitor). A 3-person team produces 50-100 simple vessels per day, or 10-20 complex pieces.
@@ -338,7 +338,7 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 - **Tubing stock**: The Danner process ([advanced glass](advanced.md)) produces tubing at 1-20 m/min. A single day's tubing production supplies a lampworking shop for weeks.
 - **Minimum economic scale**: A single lampworker with a torch and annealing oven can produce useful quantities of laboratory glassware. This is the entry point for the bootstrap sequence.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -351,7 +351,7 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 | Glass-to-metal seal leaks | Wire not pre-oxidized; CTE mismatch too large | Pre-oxidize tungsten at 800°C for 30-60 seconds. Verify CTE match is within 2 × 10⁻⁶/°C. |
 | Polarizer test shows color fringes | Residual stress from insufficient annealing or too-fast cooling | Re-anneal at 560°C for 60 minutes. Cool at 1°C/min to below strain point. |
 
-## 8. Safety
+## Safety
 
 - **Burns from hot glass**: Glassblowing involves 800-2800°C material. Hot glass below ~500°C looks identical to cold glass but causes severe burns on contact. Assume ALL glass near the workstation is hot until verified cold. Wear Kevlar or leather heat-resistant gloves, safety glasses with side shields, long-sleeve cotton clothing.
 - **Eye injury from UV/IR radiation**: Oxy-hydrogen and oxy-acetylene torches emit UV radiation that causes welder's flash (photokeratitis — corneal sunburn, onset 4-8 hours after exposure). Wear didymium glass lenses for soda-lime work (filters sodium D-line at 589 nm). Use shaded lenses #3-#5 for gas-oxygen, #5-#7 for oxy-hydrogen. Impact-resistant frames required.
@@ -360,7 +360,7 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 - **Hydrogen explosion**: Oxy-hydrogen torch systems involve stored hydrogen gas. Hydrogen LEL: 4% in air. Ignition energy: 0.017 mJ (a static spark is sufficient). Leak-test all connections with soap solution before each use. Flashback arrestors mandatory on both gas lines. Store cylinders outside the work area.
 - **HF acid burns (graduated cylinder etching)**: Hydrofluoric acid used for etching graduation marks penetrates skin and causes deep tissue burns by complexing calcium. Burns may not be immediately painful. Calcium gluconate gel (2.5%) must be on-site before any HF use. Apply gel immediately to any skin contact and seek medical attention.
 
-## 9. Quality Control
+## Quality Control
 
 **Annealing verification**: Examine every finished piece between crossed polarizers. Stressed areas show bright interference colors (yellow, red, blue bands). Uniform dark field = stress-free. Build a polariscope from two polarizing sheets and a light box (10 minutes to construct).
 
@@ -370,15 +370,15 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 
 **Volume calibration**: For graduated cylinders and volumetric glassware, calibrate by weighing deionized water. 1.000 g water = 1.000 mL at 4°C. Record calibration temperature on each piece. Re-calibrate if glass is heated above 200°C (thermal expansion affects volume).
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Window Glass Methods
+## Window Glass Methods
 
 **Crown method**: Blow a large sphere (~30 cm diameter), transfer to punty, spin rapidly. Centrifugal force flattens the sphere into a disc 1-1.5 m diameter, 2-4 mm thick. Quality is uneven — concentric distortion rings, thick center (bullseye). Largely replaced by cylinder and float methods.
 
 **Cylinder method (broad glass)**: Blow a large cylinder (2-3 m long, 15-25 cm diameter). Score lengthwise, reheat, flatten on a hot iron table. Produces larger, more uniform panes than crown method. Common in the 18th and 19th centuries before float glass.
 
-### Glass Color and Decoration
+## Glass Color and Decoration
 
 **Cased glass**: Gather a second layer of differently colored glass over the first. Cut through the outer layer (wheel engraving or acid etching) to reveal the contrasting inner layer.
 
@@ -386,7 +386,7 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 
 **Iridescence**: Spray hot glass surface with tin chloride or lead chloride vapor. Metal compounds deposit as an ultra-thin film (~100-300 nm) that refracts light into rainbow colors through thin-film interference.
 
-## 11. References
+## References
 
 - [Advanced Glass Production](advanced.md) — borosilicate and fused silica glass compositions
 - [Basic Glass Production](basic.md) — soda-lime glass melting fundamentals
@@ -396,6 +396,6 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 - [Precision Metrology](../measurement/precision-metrology.md) — analytical balances for volumetric calibration
 - [Refractory Metals](../metals/refractory-metals.md) — tungsten wire for glass-to-metal seals
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*
+
+[← Back to Glass](index.md)

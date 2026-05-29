@@ -16,14 +16,14 @@ A semiconductor fab gas distribution system typically spans 10-500 meters of pip
 
 The design process starts with demand analysis (flow rates and pressures at each point of use), proceeds through pipe sizing (balancing pressure drop against cost), material selection (compatibility with the gas and purity requirements), jointing method selection (welded, threaded, or compression), installation, pressure testing, leak testing, purging, and finally commissioning into service.
 
-## 2. Prerequisites
+## Prerequisites
 
 - **Materials**: Carbon steel pipe (ASTM A106 Grade B for steam and inert gases), stainless steel 316L pipe (ASTM A312 for corrosive and high-purity gases), copper tubing (ASTM B68 for water, air, and non-corrosive gases), PTFE or PFA tubing (for laboratory-scale corrosive service)
 - **Tools and equipment**: [Machine tools](../machine-tools/index.md) — pipe threading machine, tube bending tools, orbital welding system; [Gas handling](basic.md) — pressure test pumps, helium leak detector, pressure gauges
 - **Knowledge**: Fluid mechanics (pressure drop calculations, Reynolds number, Darcy-Weisbach equation), pipe stress analysis, material compatibility with process gases, welding metallurgy
 - **Infrastructure**: Pipe fabrication shop (cutting, threading, welding), blast-resistant pressure test area, clean assembly environment (for high-purity systems)
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity (per 100 m run) | Source | Alternatives |
 |----------|-------------------------|--------|-------------|
@@ -37,7 +37,7 @@ The design process starts with demand analysis (flow rates and pressures at each
 | Valves (ball, gate, diaphragm) | 5-15 per 100 m | [Machine tools](../machine-tools/machining.md) | Plug valves (higher torque, less common) |
 | Pipe insulation (mineral wool, foam) | 100 m (if required) | [Chemistry](../chemistry/index.md) | Pre-insulated pipe (factory-applied, higher cost) |
 
-## 4. Process Description
+## Process Description
 
 ## 4.1 System Design
 
@@ -99,7 +99,7 @@ The design process starts with demand analysis (flow rates and pressures at each
 - Degreasing with trisodium phosphate solution leaves moisture that must be completely dried before introducing reactive gases — incomplete drying creates contamination
 - Purge verification requires a calibrated O₂ monitor at the outlet — without measurement, the actual O₂ concentration is unknown
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
 ## Pipe Sizing — Maximum Flow Rates for Gas Service (m³/h at STP)
 
@@ -126,14 +126,14 @@ The design process starts with demand analysis (flow rates and pressures at each
 | Copper (12.7 mm OD, 1 mm wall) | Brazed | 20-50 bar | 200°C | Refrigeration, water |
 | PTFE tubing (6 mm OD) | Compression | 3-5 bar | 200°C | Laboratory corrosive gas |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Laboratory scale**: 6-12 mm OD tubing with compression fittings, routed along bench walls. Manual valve isolation. Single gas source (cylinder) to 1-3 points of use. Total system volume <1 L. Leak test with soap solution. Install in 1-2 days.
 - **Pilot plant scale**: 15-25 mm NB steel or stainless pipe, threaded or socket-welded. Gas supply from cylinder manifold or small bulk tank to 5-20 points of use. Total system volume 5-50 L. Hydrostatic test and helium leak test. Install in 1-2 weeks.
 - **Semiconductor fab scale**: 12.7-25 mm OD electropolished stainless steel 316L tubing, orbital-welded with VCR fittings at connection points. 5-30 gas species, each with dedicated piping. Automatic switchover manifolds at the gas source. 20-200+ tool connection points. Total installed pipe length: 1-50 km across all gas species. Vacuum helium leak test every joint. Install over 3-12 months. Gas panel design (mini-manifolds at each tool) is a specialty skill requiring 6-12 months of training.
 - **Scale bottleneck**: Weld quality control at fab scale. Manual TIG welding cannot consistently produce the internal bead quality required for electropolished high-purity systems. Orbital welding machines are essential. Each weld requires documentation, visual inspection (borescope of internal bead), and periodic radiographic or ultrasonic examination.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -145,7 +145,7 @@ The design process starts with demand analysis (flow rates and pressures at each
 | Water hammer or liquid slugging | Condensate accumulating in low spots, then propelled by gas flow | Install drain points (drip legs with automatic drain valves) at all low spots. Verify slope of horizontal piping (minimum 1:200 slope toward drain points). |
 | Gas cross-contamination | Cross-connected piping, or shared purge line between incompatible gases | Verify piping is dedicated per gas species (no shared lines for incompatible gases). Eliminate cross-connections. Install check valves to prevent backflow. Label all piping at regular intervals. |
 
-## 8. Safety
+## Safety
 
 **Confined space entry during installation**: Pipe trenches, utility tunnels, and crawl spaces where gas piping is routed may contain hazardous atmospheres (low O₂ from nitrogen purging, accumulated heavier-than-air gases like propane or CO₂). Test atmosphere with a calibrated four-gas monitor (O₂, LEL, CO, H₂S) before entry. Use supplied-air respirator if gas contamination is possible. Never enter a confined space alone — always have an attendant at the entry point.
 
@@ -157,7 +157,7 @@ The design process starts with demand analysis (flow rates and pressures at each
 
 **Oxygen piping fire risk**: Oxygen at high pressure lowers the autoignition temperature of organic materials. A greasy fingerprint inside an oxygen pipe can ignite at 30-40 bar. All oxygen piping must be oxygen-cleaned before installation (degreased with hot alkaline wash, rinsed with deionized water, blown dry with oil-free nitrogen). Inspect with UV light for hydrocarbon residues (fluoresce under UV). Valves for oxygen service must be cleaned and labeled "OXYGEN" — never use a valve previously in hydrocarbon service on an oxygen line.
 
-## 9. Quality Control
+## Quality Control
 
 **Weld inspection**: Visual inspection of every weld (external and internal via borescope). Acceptance: full penetration, no porosity visible at 10× magnification, no undercut deeper than 0.8 mm, no cracks. For high-purity systems: 100% radiographic inspection of butt welds. For toxic gas systems: 100% radiographic or ultrasonic examination. For utility systems: 10-20% spot radiography.
 
@@ -169,7 +169,7 @@ The design process starts with demand analysis (flow rates and pressures at each
 
 **Flushing and cleanliness verification**: After pressure testing and before purging, flush the system with filtered nitrogen (0.2 μm particulate filter). Measure particulate concentration at the outlet with an online particle counter. Acceptance: <100 particles ≥0.2 μm per cubic foot for semiconductor-grade systems. For utility systems: blow down with compressed air until a white cloth held at the outlet shows no visible discoloration.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 | Piping System Type | Material | Joint Method | Best For | Cost (per meter installed) |
 |-------------------|----------|-------------|----------|---------------------------|

@@ -8,7 +8,6 @@
 > **Outputs**: bearings, ball_bearings, abrasives, cutting_tools, taps, dies, hss_tool_bits
 > **Critical**: Yes — precision enablers for all machine tool construction
 
-## Overview
 
 Bearings, abrasives, and cutting tools are the precision enablers of machine tool construction. Without bearings, shafts seize and machines destroy themselves from friction. Without abrasives and cutting tools, metal cannot be shaped to the tolerances that make interchangeable parts possible. This capability represents the transition from "rough iron castings" to "precision machines" — the difference between a crude lathe that wobbles and a precision lathe that can turn a true cylinder to ±0.01 mm.
 
@@ -16,7 +15,7 @@ For the machine tool construction sequence, see [Iterative Bootstrap](./iterativ
 
 ## Abrasives & Grinding Media
 
-### Natural Abrasives (Available Immediately)
+## Natural Abrasives (Available Immediately)
 
 Natural abrasives require no industrial infrastructure — they are collected from geological deposits and graded by sieving. They provide the starting point for all precision grinding and polishing.
 
@@ -38,7 +37,7 @@ Natural abrasives require no industrial infrastructure — they are collected fr
 - Lower cutting efficiency — natural grains fracture irregularly, producing duller cutting edges
 - Limited supply in non-volcanic regions (pumice, emery are geographically restricted)
 
-### Grit Grading System
+## Grit Grading System
 
 Sieve abrasive through woven wire screens. Screen mesh number = grit number (60 mesh = 60 grit, particles ~250 μm). Stack sieves coarse to fine, shake, weigh fractions:
 
@@ -74,7 +73,7 @@ Sieve abrasive through woven wire screens. Screen mesh number = grit number (60 
 - Fine grades (below 400 mesh) are increasingly difficult to produce by sieving alone — sedimentation becomes necessary
 - Irregularly shaped particles pass diagonally, introducing grading errors
 
-### Synthetic Abrasives (Require Electric Arc Furnace)
+## Synthetic Abrasives (Require Electric Arc Furnace)
 
 - **[Silicon carbide (SiC)](../glossary/silicon-carbide-sic.md)** — Acheson process: Silica sand + petroleum coke, heat in electric furnace to 2200-2500°C for 36-48 hours. SiO₂ + 3C → SiC + 2CO. Green to black crystalline mass. Crush, grade. Harder than aluminum oxide (9.5 Mohs), sharp fracture pattern — ideal for grinding glass, stone, cast iron, and non-ferrous metals.
 - **[Aluminum oxide (Al₂O₃)](../glossary/aluminum-oxide-alo.md)** — Bauxite fused in electric arc furnace at 2000-2200°C. Cool, crush, grade. Tougher than SiC (less brittle), better for grinding steel and alloys. 9 Mohs.
@@ -102,7 +101,7 @@ Sieve abrasive through woven wire screens. Screen mesh number = grit number (60 
 - SiC is brittle and fractures too quickly for grinding tough steels — better suited for cast iron and non-ferrous metals
 - Production scale: minimum practical batch size is several tons
 
-### Grinding Wheel Construction
+## Grinding Wheel Construction
 
 **Construction steps for a vitrified grinding wheel**:
 1. Weigh abrasive grain (selected grit grade), clay bonding agent (10-20% by weight for medium-grade wheel), and temporary binder (dextrin or sodium silicate, 2-3%). Mix dry for 10 minutes, then add 5-8% water and mix to uniform consistency.
@@ -130,7 +129,7 @@ Sieve abrasive through woven wire screens. Screen mesh number = grit number (60 
 - Wheel speed is a critical safety parameter — exceeding rated speed causes explosive failure
 - Requires careful balance — an unbalanced wheel vibrates, degrading surface finish and bearing life
 
-### Lapping and Honing
+## Lapping and Honing
 
 **Lapping construction steps**:
 1. Cast a lapping plate from gray cast iron, 200-300 mm diameter × 20-30 mm thick. Machine the working surface flat to 0.002 mm over the full diameter on a surface grinder. Cut three radial grooves (2 mm wide × 1 mm deep) spaced 120° apart to distribute abrasive slurry.
@@ -159,7 +158,7 @@ Sieve abrasive through woven wire screens. Screen mesh number = grit number (60 
 
 ## Thread Standards & Fastener Production
 
-### Thread Profile Standard
+## Thread Profile Standard
 
 Choose ONE system and standardize immediately. Mixing thread standards is catastrophic for interchangeable parts.
 
@@ -175,7 +174,7 @@ Choose ONE system and standardize immediately. Mixing thread standards is catast
 - Once committed to a standard, changing is extremely costly (all tooling, fasteners, and gauges must be replaced)
 - Thread gauges for each size are required for quality control — significant tooling investment
 
-### Thread Cutting on Lathe
+## Thread Cutting on Lathe
 
 **Construction steps for thread cutting setup**:
 1. Mount workpiece in [lathe chuck](../glossary/lathe-chuck.md) (3-jaw self-centering for round stock, ±0.05 mm runout). Face the end and turn a pilot diameter 0.1-0.2 mm below the thread major diameter for the first 3-5 mm of length — this pilot guides the threading tool.
@@ -199,7 +198,7 @@ Choose ONE system and standardize immediately. Mixing thread standards is catast
 - Requires correct change gear setup for each pitch — wrong gears produce wrong pitch
 - Cannot disengage half-nut mid-thread without losing synchronization (except at specific dial positions)
 
-### Tap and Die Production
+## Tap and Die Production
 
 **Construction steps for a hand tap**:
 1. Turn [HSS](../glossary/hardness-retained-to-600c.md) rod to nominal diameter +0.05 mm (e.g., 8.05 mm for M8 tap) on a lathe between centers. Turn the shank to 6.0 mm for a tap wrench fit, with a 1 mm radius shoulder transition.
@@ -234,7 +233,7 @@ Choose ONE system and standardize immediately. Mixing thread standards is catast
 - Thread quality depends on the tap remaining perpendicular to the work surface — requires careful starting technique
 - Dies produce less accurate threads than lathe-cut threads due to limited alignment control
 
-### Bolt Making
+## Bolt Making
 
 **Construction steps for a bolt (M8 × 40 mm, grade 8.8)**:
 1. Cut [mild steel](../metals/iron-steel.md) rod to 45 mm length (40 mm grip + 5 mm for heading). Diameter: 7.8-8.0 mm (slightly undersized for heading).
@@ -261,7 +260,7 @@ Choose ONE system and standardize immediately. Mixing thread standards is catast
 
 ## Bearing Design & Production
 
-### Plain (Journal) Bearings
+## Plain (Journal) Bearings
 
 The simplest and most robust bearing type. A cylindrical shaft rotates inside a slightly larger cylindrical housing, separated by a thin film of lubricant.
 
@@ -291,7 +290,7 @@ The simplest and most robust bearing type. A cylindrical shaft rotates inside a 
 - Requires continuous lubrication — oil starvation causes rapid failure (minutes to hours)
 - Limited speed capability — above 1500 RPM, friction heat overwhelms cooling capacity
 
-### Rolling Element Bearings (Precision)
+## Rolling Element Bearings (Precision)
 
 Ball and roller bearings reduce friction and enable high-speed machinery (machine tool spindles, engines, generators).
 
@@ -320,7 +319,7 @@ Ball and roller bearings reduce friction and enable high-speed machinery (machin
 - Sensitive to contamination — even 1-5 μm particles cause raceway damage and premature failure
 - Finite fatigue life (L10) — even properly loaded bearings eventually develop subsurface spalling
 
-### Bearing Selection Guide
+## Bearing Selection Guide
 
 | Application | Type | Speed | Load | Lubrication |
 |-------------|------|-------|------|-------------|
@@ -333,7 +332,7 @@ Ball and roller bearings reduce friction and enable high-speed machinery (machin
 
 ## Lubrication & Coolants
 
-### Bearing Lubricants
+## Bearing Lubricants
 
 - **Mineral oil**: Refined petroleum oil. Standard lubricant for most bearings. Viscosity grade selected by speed and load (thicker oil for slower speeds and heavier loads).
 - **Animal fat (tallow, lard)**: Pre-petroleum lubricant. Works well for plain bearings and slow-speed applications. Lard oil as cutting fluid for turning and threading — reduces friction, improves finish.
@@ -348,7 +347,7 @@ Ball and roller bearings reduce friction and enable high-speed machinery (machin
 - Lubricant contamination (dirt, water, metal particles) degrades performance and accelerates wear
 - Some lubricants (vegetable oil, animal fat) have limited shelf life — they oxidize and become acidic
 
-### Cutting Fluids
+## Cutting Fluids
 
 - **Water with soluble oil**: Best for heavy machining (grinding, milling). 20:1 water-to-emulsifiable-oil ratio. Cools AND lubricates. Primary cutting fluid for production machining.
 - **Sulfurized cutting oil**: For heavy turning and gear cutting. Add flowers of sulfur (5-10%) to mineral oil or lard oil. Extreme pressure lubrication — sulfur compounds react with metal surface to prevent welding of chip to tool.
@@ -357,7 +356,7 @@ Ball and roller bearings reduce friction and enable high-speed machinery (machin
 
 ## Cutting Tool Materials
 
-### Carbon Steel Tool Bits (First Available)
+## Carbon Steel Tool Bits (First Available)
 
 **Construction steps**:
 1. Forge or grind high-carbon steel rod (0.8-1.3% C, 10 × 10 × 100 mm blank) to the desired tool geometry: rake angle 5-15° (positive for aluminum/brass), relief angle 6-12°, nose radius 0.5-2 mm for finishing.
@@ -381,7 +380,7 @@ Ball and roller bearings reduce friction and enable high-speed machinery (machin
 - Tool life is short (15-30 minutes) compared to HSS or carbide
 - Limited cutting speed (5-10 m/min for steel) makes production slow
 
-### High-Speed Steel (HSS)
+## High-Speed Steel (HSS)
 
 - **Composition**: Tungsten (18%), chromium (4%), vanadium (1%), carbon (0.7-0.8%) — classic T1 grade. M2 grade (more common): 6% W, 5% Mo, 4% Cr, 2% V, 0.85% C.
 - **[Hardness retained to ~600°C](../glossary/hardness-retained-to-600c.md)** — 3-5× faster cutting than carbon steel. The "red hardness" property means HSS tools cut effectively even when glowing dull red.
@@ -399,7 +398,7 @@ Ball and roller bearings reduce friction and enable high-speed machinery (machin
 - Triple temper cycle (3 × 1-2 hours at 540-570°C) is time-consuming and requires temperature-controlled furnaces
 - Maximum cutting speed in steel is still limited to ~45 m/min — carbide tools are 3-5× faster
 
-### Tool Grinding
+## Tool Grinding
 
 Grind tool bits on abrasive wheel to correct geometry:
 
@@ -434,7 +433,7 @@ Grind tool bits on abrasive wheel to correct geometry:
 - [Iron & Steel](../metals/iron-steel.md) — bearing steel (52100) and tool steel production
 - [Casting](./casting.md) — casting bearing shells and grinding wheel molds
 
-### FEPA Abrasive Grading System
+## FEPA Abrasive Grading System
 
 The Federation of European Producers of Abrasives (FEPA) defines two standard grit ranges for bonded and coated abrasives. Understanding this system is essential for selecting the correct abrasive for each machining operation.
 
@@ -446,7 +445,7 @@ The Federation of European Producers of Abrasives (FEPA) defines two standard gr
 
 **Grit selection by operation**: Rough grinding cast iron welds: F24-F46. General tool sharpening: F60-F80. Finish grinding tool bits: F100-F150.
 
-### Limitations
+## Limitations
 
 - **Precision grinding heat**: Grinding generates intense localized heat (1000-1500°C at the grain-workpiece interface). Without adequate coolant, workpiece surface burns, develops tensile residual stresses, or suffers metallurgical damage (rehardening burns, temper burns).
 - **Bearing speed limits**: Ball and roller bearings have maximum speed ratings (dN value = bore diameter × speed). Exceeding limits causes lubricant breakdown, cage failure, and seizure. High-speed applications require special designs (angular contact, hybrid ceramic).
@@ -455,7 +454,7 @@ The Federation of European Producers of Abrasives (FEPA) defines two standard gr
 - **Grinding wheel dressing**: Grinding wheels require periodic dressing (truing and sharpening) with diamond tools to restore geometry and expose fresh abrasive grains. Wheel wear limits dimensional consistency in long production runs.
 - **Contamination sensitivity**: Bearing performance degrades rapidly with particulate contamination. Even 1-5 μm particles cause surface damage. Clean assembly environments and effective sealing are essential.
 
-### See Also
+## See Also
 
 - [Machining](machining.md) — Pre-grinding machining operations
 - [Forming](forming.md) — Forming operations requiring bearing-equipped presses
@@ -463,6 +462,6 @@ The Federation of European Producers of Abrasives (FEPA) defines two standard gr
 - [Iron & Steel](../metals/iron-steel.md) — Bearing steel (52100, SUJ2) and abrasive grit materials
 - [Machine Tools Overview](./index.md) — Complete machine tools reference
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*
+
+[← Back to Machine Tools](index.md)

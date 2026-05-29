@@ -8,9 +8,8 @@
 > **Outputs**: structural_designs, load_calculations, foundation_plans, connection_details
 > **Critical**: Yes — every permanent structure from houses to factories requires structural engineering to avoid collapse
 
----
 
-## 1. Overview
+## Overview
 
 Structural engineering ensures buildings and structures support their intended loads without excessive deflection, cracking, or collapse. Three fundamental principles govern all structural design: equilibrium (forces must balance), compatibility (deformations must be physically possible), and constitutive relations (material behavior under stress defines capacity).
 
@@ -18,36 +17,34 @@ This capability provides the calculation methods and design tables for beams, co
 
 The capability depends on [iron and steel](../metals/iron-steel.md) for structural steel members and reinforcing bar, and on [core mathematics](../mathematics/core-mathematics.md) for the arithmetic, geometry, and algebra needed for structural calculations. Downstream, [industrial buildings](./industrial-buildings.md) and [fortifications](../defense/fortifications.md) apply these design methods to specific building types.
 
----
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 
 - **Structural steel**: S235 or S355 grade for beams, columns, and connections. See [Iron & Steel](../metals/iron-steel.md).
 - **Timber**: Softwood grade C24 or hardwood oak for beam and column design. See [Building Materials](./building-materials.md).
 - **Concrete and rebar**: For reinforced concrete design. See [Cement & Concrete](../chemistry/cement.md).
 
-### Tools and Equipment
+## Tools and Equipment
 
 - [Measuring instruments](../measurement/index.md): Steel tape (30 m), spirit level (1 m), plumb bob, theodolite or transit for survey.
 - Calculation tools: Abacus, slide rule, or mechanical calculator for arithmetic.
 - Drawing instruments: Straightedge, compass, protractor for design sketches.
 
-### Knowledge
+## Knowledge
 
 - **[Core mathematics](../mathematics/core-mathematics.md)**: Arithmetic (4-digit numbers), algebra (solving equations), geometry (areas, volumes, angles).
 - **Material properties**: Characteristic strengths of steel (235-355 MPa), concrete (25-50 MPa), timber (7.5-50 MPa depending on species and property), masonry (5-20 MPa).
 - **Load calculation**: Estimating dead loads, live loads, wind loads, and snow loads for structural design.
 
-### Infrastructure
+## Infrastructure
 
 - Drawing office or workspace for design calculations and sketches.
 - Reference tables: Section properties (Ixx, area, mass per meter) for standard steel profiles.
 
----
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Item | Quantity per Project | Source | Notes |
 |------|---------------------|--------|-------|
@@ -56,11 +53,10 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 | Reference tables | 1 copy per engineer | [Printing](../knowledge/printing.md) | Steel section properties, timber grades |
 | Testing equipment | 1 set per workshop | [Precision Metrology](../measurement/precision-metrology.md) | Calipers, scales, hardness tester |
 
----
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Beam Design
+## 4.1 Beam Design
 
 **Principle**: A beam carries loads perpendicular to its length, developing internal bending moments and shear forces. Beam design ensures the maximum bending stress does not exceed the allowable material stress, and the maximum deflection stays within serviceability limits.
 
@@ -110,7 +106,7 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 - Lateral-torsional buckling in steel — tall narrow beams twist under load if not laterally restrained
 - Connection design is as critical as member design — beam failures often originate at connections, not midspan
 
-### 4.2 Column Design
+## 4.2 Column Design
 
 **Principle**: Columns carry axial compression loads. Unlike beams, columns fail by buckling (lateral instability) at loads far below the material crushing strength. The Euler buckling formula predicts the critical load for slender columns.
 
@@ -160,7 +156,7 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 - Slender columns are dramatically weaker than stocky columns — doubling the length can halve the capacity
 - Connection detailing is critical — eccentric beam connections introduce bending moments that reduce column capacity
 
-### 4.3 Foundation Design
+## 4.3 Foundation Design
 
 **Principle**: Foundations transfer structural loads to the ground. The bearing capacity of the soil determines the foundation area. Weak soils require larger or deeper foundations. Differential settlement (one corner settling more than another) causes wall cracking and structural distress.
 
@@ -208,7 +204,7 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 - Hidden conditions — groundwater, soft pockets, buried organic material may not be detected during investigation
 - Settlement continues for months to years after construction on clay soils (consolidation settlement)
 
-### 4.4 Truss and Connection Design
+## 4.4 Truss and Connection Design
 
 **Principle**: Trusses convert loads into axial forces (tension and compression) in individual members, enabling long spans with lightweight structures. Connections (bolted, welded, or timber joinery) transfer forces between members. The connection is typically the weakest point in the structural system.
 
@@ -259,11 +255,10 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 - Buckling of compression members — requires careful bracing and design
 - Fabrication accuracy — member lengths must be within ±2 mm for proper fit; field modifications are difficult
 
----
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Steel Beam Selection Table (S235, fy = 235 MPa)
+## Steel Beam Selection Table (S235, fy = 235 MPa)
 
 | Section | Depth (mm) | Mass (kg/m) | Ixx (cm⁴) | Max UDL Span (m) at 10 kN/m |
 |---------|:----------:|:-----------:|:----------:|:---------------------------:|
@@ -274,7 +269,7 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 | IPE 450 | 450 | 77.6 | 33,742 | 12.5 |
 | IPE 600 | 600 | 122.4 | 92,080 | 17.0 |
 
-### Steel Column Load Table (S235, Pinned-Pinned, Safety Factor 1.5)
+## Steel Column Load Table (S235, Pinned-Pinned, Safety Factor 1.5)
 
 | Section | Length 3 m | Length 4 m | Length 5 m | Length 6 m |
 |---------|:----------:|:----------:|:----------:|:----------:|
@@ -283,7 +278,7 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 | HEB 220 | 2,100 kN | 1,780 kN | 1,470 kN | 1,220 kN |
 | HEB 260 | 3,000 kN | 2,580 kN | 2,180 kN | 1,840 kN |
 
-### Safety Factors by Material
+## Safety Factors by Material
 
 | Material | Safety Factor (ULS) | Safety Factor (SLS) | Reason |
 |----------|:-------------------:|:-------------------:|--------|
@@ -292,7 +287,7 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 | Timber | 2.0-3.0 | 1.0-1.5 | Natural defects, moisture variability |
 | Masonry | 3.0-5.0 | 1.0 | Highly variable, no tensile capacity |
 
-### Soil Bearing Capacity
+## Soil Bearing Capacity
 
 | Soil Type | Allowable Bearing (kN/m²) | Notes |
 |-----------|:-------------------------:|-------|
@@ -303,7 +298,7 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 | Soft clay | 50-100 | Poor — settlement problems |
 | Organic soil | <25 | Unusable — must excavate or pile |
 
-### Connection Capacities
+## Connection Capacities
 
 | Connection Type | Capacity | Notes |
 |----------------|----------|-------|
@@ -312,9 +307,8 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 | 20 mm bolt in timber (75 mm thick) | ~15 kN | Softwood, single shear |
 | Timber peg (25 mm oak) | ~2-4 kN | Mortise-tenon joint |
 
----
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **House (single-story, 100 m²)**: Timber beams (50 × 200 mm at 600 mm spacing) for floor and roof. Timber posts (100 × 100 mm) or masonry walls for vertical support. Strip footing 500 mm wide × 300 mm deep. No structural steel needed. Design time: 1-2 days by experienced designer.
 
@@ -324,9 +318,8 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 
 - **Bridge (5-20 m span)**: Truss or beam bridge. Requires understanding of moving loads (vehicle axle loads), fatigue (repeated loading), and scour (water erosion of foundations). See [Transport](../transport/index.md) for bridge design details.
 
----
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -339,9 +332,8 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 | Concrete column spalling | Rebar corrosion from inadequate cover, freeze-thaw | Chip damaged concrete; clean rebar; apply corrosion inhibitor; repair with polymer-modified mortar; increase cover in future designs |
 | Timber beam splitting at connection | Notch or bolt hole creating stress concentration | Avoid notching beams (reduce capacity by 50%+ at notch); move bolt holes away from high-stress zones; use metal connectors instead of through-bolts |
 
----
 
-## 8. Safety
+## Safety
 
 - **Structural collapse during construction**: The most dangerous phase is when the structure is partially complete and temporary bracing is the only thing preventing collapse. Never remove temporary bracing until all permanent connections are complete and verified. Designate a competent person to inspect all temporary works daily.
 
@@ -355,9 +347,8 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 
 - **Overload testing hazard**: When load-testing completed structures, stand clear of the structure during loading. Monitor deflection in real-time. If deflection exceeds calculated values by >50%, stop loading and investigate — the structure may be weaker than designed.
 
----
 
-## 9. Quality Control
+## Quality Control
 
 - **Material verification**: Verify steel grade with mill certificates or hardness test. Verify concrete strength with test cylinders (3 per 50 m³). Verify timber grade by visual inspection (knots, grain, moisture content).
 
@@ -369,9 +360,8 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 
 - **Foundation settlement monitoring**: Survey reference points on foundations weekly during construction and monthly for the first year. Document all readings. Flag any settlement exceeding predictions by >50%.
 
----
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 | Structural System | Span Range (m) | Load Capacity | Material | Best For |
 |------------------|:--------------:|:------------:|----------|----------|
@@ -383,7 +373,7 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 | Portal frame (steel) | 10-30 | Medium | Steel I-sections | Industrial buildings, warehouses |
 | Flat slab (RC) | 6-8 | Medium | Concrete + rebar | Multi-story buildings, simple formwork |
 
-### Design Method Selection
+## Design Method Selection
 
 - **Use timber beams when**: span <8 m, loads are light (<5 kN/m), timber is locally available, no fire rating required.
 - **Use steel beams when**: span 3-20 m, loads are moderate to heavy, clear spans needed, industrial application.
@@ -391,9 +381,8 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 - **Use trusses when**: span >10 m, lightweight roof system needed, prefabrication is advantageous.
 - **Use arches when**: only compression materials available (stone, brick), no tensile capacity in the structural material.
 
----
 
-## 11. References
+## References
 
 - [Building Materials & Methods](./building-materials.md) — Timber, masonry, and roofing material properties
 - [Industrial Buildings & Heavy Foundations](./industrial-buildings.md) — Machine foundations and vibration isolation
@@ -403,6 +392,6 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 - [Mathematics](../mathematics/index.md) — Calculus and geometry for structural analysis
 - [Fortifications](../defense/fortifications.md) — Defensive wall and tower structural design
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Construction](./index.md) • [All Domains](../index.md)*
+
+[← Back to Construction](index.md)

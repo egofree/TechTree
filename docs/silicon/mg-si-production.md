@@ -9,7 +9,7 @@
 > **Outputs**: mg_silicon
 > **Critical**: Yes — gateway to all semiconductor and solar cell manufacturing
 
-### Metallurgical-Grade Silicon (MG-Si) Production
+## Metallurgical-Grade Silicon (MG-Si) Production
 
 **Process**: Carbothermic reduction of quartz in submerged arc electric furnace.
 - **Reaction**: SiO₂ + 2C → Si + 2CO (endothermic, ΔH ≈ +690 kJ/mol)
@@ -35,7 +35,7 @@
 - Enormous energy consumption at 11-13 kWh/kg makes MG-Si production uneconomic without cheap, continuous electricity
 - Product purity limited to 97-99% — insufficient for electronics or efficient solar cells without further purification
 
-### Yield & Material Balance
+## Yield & Material Balance
 
 - **Silicon yield**: 75-85% of theoretical. Losses come from SiO gas escaping the furnace (SiO₂ + C → SiO + CO at intermediate temperatures), silicon dissolving into slag, and spillage during tapping.
 - **Specific consumption**: ~2.7-3.0 tonnes quartz + 1.0-1.4 tonnes carbon reductant per tonne of MG-Si produced. Wood chips add ~0.5-1.0 tonnes for porosity (partial reductant, partial gas channel).
@@ -49,7 +49,7 @@
 - 15-25% of silicon input lost as SiO fume and slag — represents significant raw material waste
 - Yield highly sensitive to charge porosity; requires experienced operators to tune wood chip ratio for specific quartz/reductant combinations
 
-### Electrode Consumption
+## Electrode Consumption
 
 Electrodes are a major operating cost and a bootstrapping dependency:
 - **Prebaked graphite electrodes**: Consumption ~400-500 kg per tonne Si. Higher cost, lower consumption, more consistent operation. Must be manufactured off-site (see [electric-furnaces.md](../energy/electric-furnaces.md) for electrode manufacturing).
@@ -64,7 +64,7 @@ Electrodes are a major operating cost and a bootstrapping dependency:
 - Both electrode types consume 300-500 kg per tonne Si — a major operating cost and continuous supply chain burden
 - Søderberg paste baking releases volatile organic emissions requiring dedicated capture and treatment
 
-### Off-Gas Handling
+## Off-Gas Handling
 
 The furnace produces large volumes of hot, toxic gas:
 - **CO gas**: ~2.5-3.5 tonnes CO per tonne Si. Carbon monoxide is flammable (LFL 12.5% in air) and acutely toxic (binds hemoglobin 200× stronger than O₂). Must be captured, never vented untreated.
@@ -81,7 +81,7 @@ The furnace produces large volumes of hot, toxic gas:
 - CO is acutely toxic and flammable — any off-gas system leak creates immediate life safety hazard
 - Silica fume particles (<1 μm) require baghouse filtration; filter bags need frequent replacement
 
-### Slag Management
+## Slag Management
 
 - **Slag formation**: Impurities in quartz and reductant (Al₂O₃, CaO, FeO, MgO) form a molten slag layer floating above the denser silicon. Slag is intentionally managed — sometimes flux (lime, silica) is added to control slag viscosity and trap impurities.
 - **Slag composition** (typical): 30-50% SiO₂, 15-30% Al₂O₃, 10-20% CaO, 5-15% SiC, balance FeO, MgO. Varies with raw material quality.
@@ -96,7 +96,7 @@ The furnace produces large volumes of hot, toxic gas:
 - Slag carries 3-8% entrained silicon per pass — a direct product loss
 - Heavy metal content in slag may classify it as hazardous waste, requiring specialized disposal
 
-### Furnace Startup & Shutdown
+## Furnace Startup & Shutdown
 
 - **Cold startup** (from ambient): Preheat furnace with gas burners or resistive heating to ~800-1000°C over 24-48 hours. This dries the lining and prevents thermal shock cracking of carbon refractory. Then charge raw materials, lower electrodes, strike arc, and gradually increase power over 6-12 hours to full load. Full production reached in 24-72 hours.
 - **Hot restart** (after brief interruption <4 hours): Electrodes still hot, lining warm. Re-strike arc and ramp power over 2-4 hours.
@@ -111,7 +111,7 @@ The furnace produces large volumes of hot, toxic gas:
 - Cold startup takes 24-72 hours to reach full production — a significant productivity loss
 - Emergency shutdown often requires oxygen lancing to clear frozen taphole, adding hazard and downtime
 
-### Raw Material Preparation
+## Raw Material Preparation
 
 **Quartz processing**:
 - **Source**: High-purity quartzite or vein quartz with SiO₂ content >98%. Lower purity quartz introduces more Fe, Al, and Ca into the silicon product, increasing downstream refining burden.
@@ -133,7 +133,7 @@ The furnace produces large volumes of hot, toxic gas:
 - Fines (<5 mm) from quartz crushing reduce charge permeability and must be screened out, wasting 5-15% of crushed quartz
 - Moisture in stored quartz causes steam explosions in the furnace, requiring covered storage in all weather
 
-### Furnace Operation Detail
+## Furnace Operation Detail
 
 **Submerged arc furnace**:
 - **Electrical system**: 3-phase AC power supply. Each of three electrodes carries one phase. Current passes from electrode through the charge material (which acts as resistance) to the reaction zone. Voltage between electrodes: 100-250V. Current per electrode: 20,000-100,000 A. Total power: 10,000-30,000 kVA for a medium furnace.
@@ -155,7 +155,7 @@ The furnace produces large volumes of hot, toxic gas:
 - Electrode consumption of 80-120 kg/t Si requires continuous section addition — any interruption in electrode supply halts the furnace
 - Taphole refractory erosion necessitates re-lining every few weeks, requiring planned maintenance shutdowns
 
-### MG-Si Refining
+## MG-Si Refining
 
 **Gas blowing** (post-tap refining in the ladle):
 - **Purpose**: Reduce impurity levels in tapped MG-Si from ~95-97% to 97-99% before casting.
@@ -172,7 +172,7 @@ The furnace produces large volumes of hot, toxic gas:
 - Chlorine blowing produces toxic HCl and Cl₂ gas requiring wet scrubbing — adds complexity and hazard
 - Oxygen blowing oxidizes some silicon along with impurities, reducing yield by 2-5%
 
-### Production Scale and Economics
+## Production Scale and Economics
 
 **Furnace sizes**:
 - **Small (5-10 MVA)**: Produces 2,000-4,000 tonnes MG-Si per year. Suitable for bootstrap-scale operations. Can be built with moderate industrial capability. Power consumption: 5-10 MW continuous.
@@ -192,7 +192,7 @@ The furnace produces large volumes of hot, toxic gas:
 - 11-15 kWh/kg energy intensity means a 10 t/day furnace draws 110-150 MWh/day — requiring dedicated power infrastructure
 - 24/7/365 operation with no tolerance for interruptions excludes solar/wind without massive battery storage
 
-### Safety Hazards
+## Safety Hazards
 
 Operating a submerged arc furnace for silicon production involves severe hazards:
 - **CO gas poisoning**: Carbon monoxide is colorless, odorless, and lethal at 0.1% concentration in air for 1 hour. Off-gas system leaks are the primary risk. Fixed CO detectors with audible alarms mandatory in furnace building. Personnel must evacuate at >50 ppm. Never enter furnace hood area without supplied-air respirator during operation.
@@ -202,7 +202,7 @@ Operating a submerged arc furnace for silicon production involves severe hazards
 - **Burns from hot surfaces**: Furnace shell, electrode columns, and tap ladles are 200-600°C on exterior. Thermal gloves (rated to 500°C minimum) and face protection for all tapping operations. Mark hot zones with barricades.
 - **Cooling water hazard**: Furnace components (electrode clamps, shell panels) are water-cooled. A cooling water leak into the furnace causes immediate steam explosion. Monitor cooling water flow and temperature continuously. Automatic shutdown on flow loss.
 
-### Environmental Management
+## Environmental Management
 
 **Air emissions control**:
 - **Particulate matter**: Baghouse filters (fabric filter bags, 2-5 m long, in a steel housing) capture SiO₂ fume and dust at >99.5% efficiency. Filter bags made of woven fiberglass or PTFE felt, rated for continuous operation at 200-260°C. Gas enters the baghouse, particles deposit on the outside of the bags, clean gas exits through the bag interior. Bags cleaned periodically by reverse air pulse or mechanical shaking. Captured silica fume collected in sealed hoppers for sale or disposal.
@@ -222,7 +222,7 @@ Operating a submerged arc furnace for silicon production involves severe hazards
 - CO recovery requires gas cleaning and compression before combustion — adds capital cost and maintenance
 - Baghouse filter bags (fiberglass/PTFE) require replacement every 2-5 years at significant cost
 
-### Quality Control in MG-Si Production
+## Quality Control in MG-Si Production
 
 **Chemical analysis**:
 - **X-ray fluorescence (XRF)**: Non-destructive technique that measures elemental composition of solid samples. X-rays excite inner-shell electrons in the sample; emitted characteristic X-rays identify and quantify each element. Measures all elements heavier than sodium simultaneously. Accuracy: ±0.1-1% for major elements (Si, Fe, Al, Ca). Analysis time: 5-15 minutes per sample. No sample dissolution required.
@@ -242,7 +242,7 @@ Operating a submerged arc furnace for silicon production involves severe hazards
 - Segregation during solidification means a single grab sample is not representative — requires 5+ locations per ingot
 - Both XRF and Spark OES require certified reference standards for calibration, adding a supply chain dependency
 
-### Furnace Design Variants
+## Furnace Design Variants
 
 **Single-phase vs. three-phase**:
 - **Three-phase furnace**: Three electrodes arranged in a triangle (delta configuration). Most common design for medium and large furnaces. Balanced three-phase load on the power supply. Current paths between electrode pairs create three independent reaction zones that merge in the center of the furnace bed.
@@ -260,7 +260,7 @@ Operating a submerged arc furnace for silicon production involves severe hazards
 - Prebaked electrodes require a dedicated graphitization furnace at 2500-3000°C (~3-5 kWh/kg) — a significant energy investment
 - Single-phase furnaces create unbalanced grid loads, limiting their use to smaller installations
 
-### Silicon Carbide (SiC) Formation
+## Silicon Carbide (SiC) Formation
 
 An inevitable side reaction in the silicon furnace:
 - SiO₂ + 3C → SiC + 2CO (at 1500-1800°C)
@@ -276,7 +276,7 @@ An inevitable side reaction in the silicon furnace:
 - SiC crusts reduce gas permeability, forcing operators to manually poke the charge — a hazardous operation near 500-800°C charge surface
 - SiC formation consumes both silicon and carbon without producing salable product, directly reducing yield
 
-### Silicon Casting and Solidification
+## Silicon Casting and Solidification
 
 **Ingot casting**:
 - **Mold preparation**: Cast iron or steel molds, preheated to 200-400°C to prevent thermal shock. Coat mold interior with a refractory wash (SiC or Si₃N₄-based) to prevent iron contamination of the silicon and to ease ingot release. The coating must be dry before pouring (residual moisture causes steam explosions).
@@ -300,7 +300,7 @@ An inevitable side reaction in the silicon furnace:
 - Ball milling with steel media introduces iron contamination (~0.01-0.05% Fe per pass), requiring magnetic separation
 - Silicon's 10% volume contraction on solidification causes shrinkage cavities that reduce usable ingot yield
 
-### Energy Balance and Sustainability
+## Energy Balance and Sustainability
 
 **Energy accounting for the silicon production chain**:
 - MG-Si production: 11-15 kWh/kg (submerged arc furnace, electricity)
@@ -319,7 +319,7 @@ An inevitable side reaction in the silicon furnace:
 - Total MG-Si gate energy of 12-16 kWh/kg makes silicon one of the most energy-intensive bulk materials produced
 - CO₂ emissions of 3.5-8.5 t/t Si (depending on power source) are significant without renewable electricity
 
-### Silicon Dust Handling
+## Silicon Dust Handling
 
 **Dust explosion hazard**: Silicon powder finer than 100 μm is a combustible dust. When suspended in air at concentrations above ~100 g/m³, it can ignite and explode. The minimum ignition energy is ~100 mJ (low enough for static discharge). Kst value (dust explosion class): ~100-200 bar·m/s (St class 1, moderate explosion hazard). Prevention: enclose crushing and milling equipment, collect dust at source with local exhaust ventilation, use explosion-proof electrical equipment in dusty areas, ground all equipment to prevent static buildup, and store fine powder in sealed containers away from ignition sources.
 
@@ -335,7 +335,7 @@ An inevitable side reaction in the silicon furnace:
 - Full chain (quarry to wafers) requires 50-100 MW — a major infrastructure commitment before any semiconductor output
 - Silicon powder finer than 100 μm is a combustible dust (Kst 100-200 bar·m/s) requiring explosion-proof equipment
 
-### Casting Practice and Powder Production
+## Casting Practice and Powder Production
 
 **Standard casting parameters**: Cast iron molds preheated to 200-300°C prevent thermal cracking of the ingot surface. Typical ingot size for chemical-grade production: 5-50 kg. Cooling time before demolding: 2-4 hours for standard ingots. Larger ingots (>100 kg, used for aluminum alloying or direct sales) require controlled cooling at 50-100°C/hour through the 1414°C solidification point to prevent internal stress cracking from silicon's unusually high volume contraction (~10%) on solidification. Without controlled cooling, large ingots develop radial cracks that render portions unusable for chemical processing.
 
@@ -349,5 +349,5 @@ An inevitable side reaction in the silicon furnace:
 - Controlled cooling of large ingots at 50-100°C/hour extends casting cycle time significantly
 - Ball milling is energy-intensive at 0.5-1.0 kWh/kg, adding to the already high energy cost of the silicon chain
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*
+
+[← Back to Silicon](index.md)

@@ -18,13 +18,13 @@ Core mathematics gives engineers algebra and geometry — tools for static, dete
 
 ## Calculus
 
-### The Concept of a Limit
+## The Concept of a Limit
 
 The foundation of calculus. A limit describes the value a function approaches as its input approaches some value. lim(x→a) f(x) = L means f(x) gets arbitrarily close to L as x gets close to a.
 
 **Why it matters for engineering**: Many physical quantities are defined as limits — instantaneous velocity is the limit of average velocity as the time interval approaches zero. The area of a curved shape is the limit of the sum of increasingly thin rectangular strips. Limits make these intuitive ideas mathematically precise.
 
-### Differential Calculus
+## Differential Calculus
 
 The derivative f'(x) = lim(h→0) [f(x+h) − f(x)] / h measures the instantaneous rate of change of a function. Geometrically, it is the slope of the tangent line at point x.
 
@@ -42,7 +42,7 @@ The derivative f'(x) = lim(h→0) [f(x+h) − f(x)] / h measures the instantaneo
 - **Electrical circuits**: Current i = dQ/dt (rate of charge flow). Voltage across an inductor: V = L × di/dt. These relationships define circuit behavior.
 - **Optimization**: Find the maximum or minimum of a function by setting its derivative to zero. Used for maximizing efficiency, minimizing material usage, finding optimal operating points.
 
-### Integral Calculus
+## Integral Calculus
 
 The integral is the inverse of the derivative. If F'(x) = f(x), then ∫f(x)dx = F(x) + C. The definite integral ∫ₐᵇ f(x)dx computes the area under the curve f(x) from x=a to x=b.
 
@@ -55,11 +55,11 @@ The integral is the inverse of the derivative. If F'(x) = f(x), then ∫f(x)dx =
 - **Mass and heat balance**: Total mass flow through a pipe with varying velocity: ∫ρv(x) dA. Heat absorbed during a temperature change: Q = ∫m·c(T)dT.
 - **Average values**: Average of f over [a,b] = (1/(b−a)) ∫ₐᵇ f(x)dx. Average power, average temperature, average flow rate.
 
-### Differential Equations (Overview)
+## Differential Equations (Overview)
 
 Equations involving derivatives: f(t, y, dy/dt, d²y/dt², …) = 0. These model any system that changes over time. Detailed treatment below, but the calculus connection: solving a differential equation means finding a function whose derivatives satisfy the given relationship.
 
-### Multivariable Calculus
+## Multivariable Calculus
 
 Engineering problems involve multiple variables simultaneously: temperature depends on position (x, y, z) and time (t); stress in a beam depends on the location within the beam.
 
@@ -71,7 +71,7 @@ Engineering problems involve multiple variables simultaneously: temperature depe
 
 ## Linear Algebra
 
-### Vectors
+## Vectors
 
 A vector represents a quantity with both magnitude and direction: velocity (50 km/h northeast), force (100 N downward), electric field (5 V/m in the x-direction).
 
@@ -81,7 +81,7 @@ A vector represents a quantity with both magnitude and direction: velocity (50 k
 - **Dot product**: a·b = a₁b₁ + a₂b₂ + … = |a||b|cos(θ). Gives the projection of one vector onto another. Used for work (W = F·d), angle between vectors, and checking orthogonality (a·b = 0 means perpendicular).
 - **Cross product** (3D only): a×b produces a vector perpendicular to both a and b, with magnitude |a||b|sin(θ). Used for torque (τ = r×F) and electromagnetic force (F = qv×B).
 
-### Matrices
+## Matrices
 
 A matrix is a rectangular array of numbers. Matrices represent linear transformations, systems of equations, and data tables.
 
@@ -91,13 +91,13 @@ A matrix is a rectangular array of numbers. Matrices represent linear transforma
 - **Determinant**: det(A) is a scalar that indicates whether a matrix is invertible (det ≠ 0) and measures volume scaling. Used for solving systems and checking singularity.
 - **Inverse**: A⁻¹ such that AA⁻¹ = I (identity). Used to solve Ax = b → x = A⁻¹b.
 
-### Systems of Linear Equations
+## Systems of Linear Equations
 
 A system of n equations in n unknowns: Ax = b, where A is an n×n matrix, x is the unknown vector, b is the right-hand side. Solve by Gaussian elimination (row reduction) or matrix inversion.
 
 **Engineering application**: Structural analysis of a truss: each joint has force balance equations (ΣFₓ = 0, ΣFᵧ = 0). With 10 joints, there are 20 equations in 20 unknowns (the member forces). Solving this system determines whether the structure is safe.
 
-### Eigenvalues and Eigenvectors
+## Eigenvalues and Eigenvectors
 
 For a matrix A, an eigenvector v satisfies Av = λv, where λ is the eigenvalue. The eigenvector is a direction that the matrix only scales (does not rotate). The eigenvalue is the scaling factor.
 
@@ -108,7 +108,7 @@ For a matrix A, an eigenvector v satisfies Av = λv, where λ is the eigenvalue.
 
 ## Differential Equations
 
-### Ordinary Differential Equations (ODEs)
+## Ordinary Differential Equations (ODEs)
 
 Equations involving derivatives of a function of one variable. Classified by order (highest derivative) and linearity.
 
@@ -121,7 +121,7 @@ Equations involving derivatives of a function of one variable. Classified by ord
 - **RLC circuit**: L(d²q/dt²) + R(dq/dt) + q/C = V(t). Electrically identical to spring-mass-damper: L↔m, R↔c, 1/C↔k. Natural frequency ω₀ = 1/√(LC), damping ratio ζ = R/(2√(L/C)).
 - **Heat conduction**: ∂T/∂t = α(∂²T/∂x²) (one-dimensional, this is actually a PDE — see below). Determines how long it takes for a forging to reach uniform temperature, or how fast heat leaks through a furnace wall.
 
-### Partial Differential Equations (PDEs)
+## Partial Differential Equations (PDEs)
 
 Equations involving partial derivatives of functions of multiple variables. Most real engineering problems produce PDEs rather than ODEs.
 
@@ -133,7 +133,7 @@ Equations involving partial derivatives of functions of multiple variables. Most
 
 **Engineering application**: Designing a heat treatment cycle for steel requires solving the heat equation to determine how long to hold at temperature for the heat to penetrate to the core of the workpiece. For a cylindrical billet of radius R with thermal diffusivity α, the characteristic time is t ≈ R²/(4α). A 5 cm radius steel billet (α ≈ 12 mm²/s) needs about 5²/(4×0.012) ≈ 520 seconds ≈ 9 minutes for thermal equilibration.
 
-### Laplace Transforms
+## Laplace Transforms
 
 A technique for converting differential equations into algebraic equations. L{f(t)} = F(s) = ∫₀^∞ f(t)e⁻ˢᵗ dt. Transforms derivatives into multiplications by s: L{df/dt} = sF(s) − f(0).
 
@@ -141,7 +141,7 @@ A technique for converting differential equations into algebraic equations. L{f(
 
 ## Probability & Statistics
 
-### Descriptive Statistics
+## Descriptive Statistics
 
 **Measures of central tendency**: Mean (average: μ = Σxᵢ/n), median (middle value), mode (most frequent). For manufacturing, the mean gives the typical dimension; the median is robust against outliers.
 
@@ -149,7 +149,7 @@ A technique for converting differential equations into algebraic equations. L{f(
 
 **Engineering application**: A production line turns out steel rods with diameter μ = 10.00 mm, σ = 0.02 mm. If the specification is 10.00 ± 0.05 mm, virtually all rods pass (±2.5σ). If σ were 0.03 mm, about 5% would fail. Reducing σ directly improves yield.
 
-### Probability Distributions
+## Probability Distributions
 
 **Normal (Gaussian) distribution**: The bell curve. Defined by mean μ and standard deviation σ. About 68% of values within ±1σ, 95% within ±2σ, 99.7% within ±3σ. Models measurement errors, manufacturing variations, and natural phenomena.
 
@@ -159,13 +159,13 @@ A technique for converting differential equations into algebraic equations. L{f(
 
 **Engineering application**: Yield analysis for semiconductor fabrication. If each process step has 99% yield and there are 100 steps, overall yield = 0.99¹⁰⁰ ≈ 37%. To achieve 90% overall yield, each step must yield approximately 99.9%.
 
-### Statistical Process Control (SPC)
+## Statistical Process Control (SPC)
 
 Monitor a manufacturing process using control charts. Plot sample means (X̄ chart) and ranges (R chart) over time. If a point falls outside the control limits (typically ±3σ from the mean), the process is out of control — investigate and correct before producing defective parts.
 
 **Engineering application**: A foundry tracks the weight of cast ingots. Control chart shows the process mean is 10.2 kg with control limits at 10.0 and 10.4 kg. When a point falls at 10.5 kg, the operator knows the mold has worn or the pour temperature has drifted — correct before producing off-spec product.
 
-### Regression and Curve Fitting
+## Regression and Curve Fitting
 
 Fit a mathematical model to experimental data. Least-squares regression finds the line (or curve) that minimizes the sum of squared errors between model predictions and observations.
 
@@ -173,7 +173,7 @@ Fit a mathematical model to experimental data. Least-squares regression finds th
 
 **Engineering application**: Calibrate a thermocouple by measuring its voltage at known temperatures. Linear regression gives the calibration curve V(T) = aT + b. All subsequent temperature readings use this curve. Similar calibration applies to pressure gauges, flow meters, and load cells.
 
-### Hypothesis Testing
+## Hypothesis Testing
 
 Formally test whether observed data is consistent with a hypothesis. Example: Is a new alloy significantly stronger than the old one, or is the observed difference just random variation?
 
@@ -183,11 +183,11 @@ Formally test whether observed data is consistent with a hypothesis. Example: Is
 
 ## Numerical Methods
 
-### Why Numerical Methods?
+## Why Numerical Methods?
 
 Most real-world engineering problems cannot be solved analytically (in closed form). The differential equations are too complex, the geometries are irregular, or the material properties are nonlinear. Numerical methods compute approximate solutions to any desired accuracy.
 
-### Root Finding
+## Root Finding
 
 Find x such that f(x) = 0.
 
@@ -197,7 +197,7 @@ Find x such that f(x) = 0.
 
 **Engineering application**: Find the operating point of a nonlinear circuit (diode equation: I = I₀(e^(V/Vₜ) − 1)). Find the temperature at which a material phase transition occurs. Find the flow rate at which pipe friction equals available pressure head.
 
-### Numerical Integration
+## Numerical Integration
 
 Compute ∫ₐᵇ f(x)dx when no antiderivative exists in closed form.
 
@@ -207,7 +207,7 @@ Compute ∫ₐᵇ f(x)dx when no antiderivative exists in closed form.
 
 **Engineering application**: Compute the energy produced by a varying power source over time: E = ∫₀ᵀ P(t)dt. Compute total heat absorbed by a material during heating with temperature-dependent specific heat: Q = ∫m·c(T)dT.
 
-### Numerical Solution of ODEs
+## Numerical Solution of ODEs
 
 **Euler's method**: yₙ₊₁ = yₙ + h×f(tₙ, yₙ). Simple but inaccurate (first-order). Step size h must be very small for acceptable error.
 
@@ -215,7 +215,7 @@ Compute ∫ₐᵇ f(x)dx when no antiderivative exists in closed form.
 
 **Engineering application**: Simulate the temperature evolution of a furnace during heating and cooling cycles. Simulate the transient response of an electronic circuit. Simulate the trajectory of a projectile with air resistance (nonlinear ODE with no closed-form solution).
 
-### Finite Difference Methods for PDEs
+## Finite Difference Methods for PDEs
 
 Replace continuous derivatives with discrete differences: ∂T/∂t ≈ (Tᵢⁿ⁺¹ − Tᵢⁿ)/Δt, ∂²T/∂x² ≈ (Tᵢ₊₁ − 2Tᵢ + Tᵢ₋₁)/Δx². This converts the PDE into a system of algebraic equations that can be solved iteratively.
 

@@ -8,7 +8,6 @@
 > **Outputs**: kilns, furnaces, ovens
 > **Critical**: Yes — the kiln is the single most enabling piece of infrastructure in the bootstrap sequence; without controlled high-temperature chambers there is no pottery, metals, glass, lime, or chemistry
 
-## Overview
 
 Kilns are the controlled high-temperature chambers that enable ceramics, metallurgy, glass, lime, and chemistry. Without kilns that can reliably reach and hold specific temperatures, there is no pottery, no bricks, no metal smelting, no glass, no lime mortar, and no chemical processing. The kiln is arguably the single most enabling piece of infrastructure in the entire bootstrap sequence, second only to fire itself.
 
@@ -16,7 +15,7 @@ This document covers the design and construction of kilns from the simplest eart
 
 ## Prerequisites
 
-### Materials
+## Materials
 
 - **Clay** (common earthenware clay for basic kilns; [fire clay](pottery.md) for permanent kilns — kaolin-rich, high alumina, low iron)
 - **Sand and gravel** (for foundation and drainage)
@@ -24,14 +23,14 @@ This document covers the design and construction of kilns from the simplest eart
 - **Stone or brick** (for structural walls of larger kilns)
 - **Wood fuel** (16-18 MJ/kg dry) — [Forestry](../plants/structural-plants.md); or [charcoal](../energy/charcoal.md) (28-30 MJ/kg)
 
-### Tools and Equipment
+## Tools and Equipment
 
 - **Shovels and picks** — for excavation and earth moving
 - **Brick molds** (wood, standard size 230 × 114 × 65 mm) — see [Pottery](pottery.md)
 - **Measuring tools** — tape measure, spirit level, plumb bob
 - **Tongs and rakes** — long-handled (1.5-2.0 m) for fuel stoking and ware handling
 
-### Infrastructure
+## Infrastructure
 
 - **Open-air site** (away from structures — fire risk extends 5-10 m from kiln)
 - **Fuel storage** — dry, covered, separated from kiln by minimum 3 m
@@ -59,7 +58,7 @@ This document covers the design and construction of kilns from the simplest eart
 
 ## Process Description
 
-### 4.1 Scove Kiln (Simplest — No Construction Required)
+## 4.1 Scove Kiln (Simplest — No Construction Required)
 
 #### Principle
 
@@ -121,7 +120,7 @@ The scove kiln is the absolute minimum firing method: stack dried pots in a pyra
 - Maximum temperature limited to 600-800°C — insufficient for stoneware (1200°C) or any metallurgy
 - Cannot fire large or thick-walled pieces — rapid, uneven heating causes catastrophic cracking
 
-### 4.2 Pit Kiln
+## 4.2 Pit Kiln
 
 #### Principle
 
@@ -181,7 +180,7 @@ A pit dug into the ground provides better insulation and more uniform heat distr
 - Pit fills with rainwater if not covered between firings
 - No precise temperature control — firing results are variable between batches
 
-### 4.3 Updraft Kiln (First Purpose-Built Kiln)
+## 4.3 Updraft Kiln (First Purpose-Built Kiln)
 
 #### Principle
 
@@ -258,7 +257,7 @@ The updraft kiln is the simplest permanent kiln design: hot gases rise directly 
 - Heat loss through the top flue is significant — 60-70% of heat escapes in the exhaust
 - Manual fuel stoking requires continuous attention for 4-8 hours during firing
 
-### 4.4 Downdraft Kiln (Higher Temperature, Uniform Firing)
+## 4.4 Downdraft Kiln (Higher Temperature, Uniform Firing)
 
 #### Principle
 
@@ -326,7 +325,7 @@ The downdraft design achieves higher temperatures and more uniform heat distribu
 - More complex to load — ware must be arranged to allow gas flow downward through the chamber
 - Larger thermal mass requires longer heat-up and cool-down times (12-24 hours each) compared to smaller updraft kilns
 
-### 4.5 Climbing Kiln (Anagama / Dragon Kiln)
+## 4.5 Climbing Kiln (Anagama / Dragon Kiln)
 
 #### Principle
 
@@ -389,7 +388,7 @@ Built on hillside slopes, climbing kilns exploit natural draft for fuel efficien
 - Massive thermal mass means very long cooling time (3-7 days) — cannot turn around quickly
 - Temperature gradient along the length means ware must be matched to position: less-refined ware in cooler lower chambers, glazed ware in hotter upper chambers
 
-### 4.6 Tunnel Kiln (Continuous Firing — Industrial Scale)
+## 4.6 Tunnel Kiln (Continuous Firing — Industrial Scale)
 
 #### Principle
 
@@ -462,7 +461,7 @@ The tunnel kiln is a long horizontal tunnel (20-100+ m) where ware travels on ki
 
 ## Quantitative Parameters
 
-### Kiln Type Comparison
+## Kiln Type Comparison
 
 | Kiln Type | Max Temp | Efficiency | Capacity | Cycle Time | Construction Cost |
 |-----------|----------|-----------|----------|------------|-------------------|
@@ -474,7 +473,7 @@ The tunnel kiln is a long horizontal tunnel (20-100+ m) where ware travels on ki
 | Bottle | 900-1300°C | 20-30% | 500-2000 pieces | 48-120 hours | Medium-High |
 | Tunnel | 900-1400°C | 40-60% | 5-15 tonnes/day | Continuous | High |
 
-### Kiln Construction Materials Selection
+## Kiln Construction Materials Selection
 
 | Material | Max Service Temp | Thermal Conductivity | Best Use |
 |----------|-----------------|---------------------|----------|
@@ -485,7 +484,7 @@ The tunnel kiln is a long horizontal tunnel (20-100+ m) where ware travels on ki
 | Ceramic fiber blanket | 1200-1600°C | 0.05-0.15 W/(m·K) | Wrap insulation, seals |
 | Packed earth / mud | ~600°C | 0.5-0.8 W/(m·K) | Earliest kiln construction |
 
-### Kiln Insulation Thickness Requirements
+## Kiln Insulation Thickness Requirements
 
 Wall thickness determines steady-state heat loss. For insulating firebrick (thermal conductivity ~0.25 W/(m·K)):
 
@@ -499,21 +498,21 @@ Use composite wall: dense firebrick hot-face (2-3 courses, 65 mm each) for struc
 
 ## Scaling Notes
 
-### From Scove to Production
+## From Scove to Production
 
 1. **Scove/pit** (0-2 years): Proof of concept. 5-50 pieces per firing. Fuel: wood, dung.
 2. **Updraft kiln** (2-5 years): Permanent structure. 10-50 pieces per firing. Repeatable results.
 3. **Downdraft kiln** (5-10 years): Higher temperature (1200-1300°C). 50-500 pieces. Stoneware capable.
 4. **Tunnel kiln** (10+ years): Continuous production. 5-15 tonnes/day. Standardized products.
 
-### Thermal Efficiency by Kiln Type and Fuel
+## Thermal Efficiency by Kiln Type and Fuel
 
 - **Wood-fired batch kiln** (updraft, earth-covered): 15-25% thermal efficiency. Most heat escapes through chimney and walls.
 - **Coal-fired downdraft kiln**: 20-30% efficiency. Coal's higher energy density (24-30 MJ/kg vs 16-18 MJ/kg for wood) partially compensates for similar thermal losses.
 - **Gas-fired kiln**: 25-40% efficiency. Precise air-fuel ratio control and clean combustion improve heat transfer.
 - **Electric kiln** (resistance heating): 80-95% efficiency. Nearly all electrical energy converts to heat inside the chamber; no flue gas losses. Highest-efficiency option but requires [electrical infrastructure](../energy/electricity.md).
 
-### Energy Requirements for Firing
+## Energy Requirements for Firing
 
 The specific heat of dry clay is approximately 1.0 kJ/(kg·K). To fire 100 kg of ware from 20°C ambient to 1200°C peak, theoretical minimum energy for heating: 100 kg × (1200 - 20) K × 1.0 kJ/(kg·K) = 118 MJ. Add 20-50 MJ for chemically combined water evolution and mineral transformations (endothermic dehydroxylation of kaolinite at 450-600°C absorbs ~500 kJ/kg). Total theoretical: ~140-170 MJ for 100 kg ware.
 
@@ -535,41 +534,41 @@ Actual consumption is 3-7× higher due to kiln wall losses, flue gas losses, and
 
 ## Safety
 
-### Carbon Monoxide Poisoning
+## Carbon Monoxide Poisoning
 
 Wood and charcoal-fueled kilns produce CO in enclosed spaces. CO is colorless, odorless, lethal at 0.1% concentration (1,000 ppm) for 1-hour exposure (NIOSH IDLH: 1,200 ppm). Ventilate all kiln areas — work outdoors or with forced draft. Install CO detectors in enclosed firing spaces. Evacuate at >50 ppm. Chronic exposure at 30-50 ppm causes headaches and fatigue.
 
-### Thermal Burns
+## Thermal Burns
 
 Kiln surfaces exceed 1000°C internally and outer surfaces can reach 200-400°C. Surfaces above 60°C cause burns on contact; above 200°C, contact burns are deep tissue within seconds. Use long tongs (1.5-2.0 m) and heat-resistant gloves (Kevlar or leather, rated to 500°C) for loading/unloading. Allow adequate cooling before opening. Mark hot zones clearly. Assume all kiln surfaces are hot until confirmed otherwise with infrared thermometer or thermocouple.
 
-### Silica Dust (Silicosis)
+## Silica Dust (Silicosis)
 
 Dry clay mixing, grog crushing, and fireclay handling generate respirable crystalline silica (quartz, cristobalite). Prolonged inhalation causes silicosis — irreversible lung scarring. ACGIH TLV: 0.025 mg/m³ respirable. Wear particulate respirators (P100 minimum), wet-mix clays when possible, use local exhaust ventilation for dry processing. Wet grinding and wet clay mixing eliminate airborne dust.
 
-### Fuel Hazards
+## Fuel Hazards
 
 Wood and charcoal stores are fire risks. Keep fuel separated from kilns by minimum 3 m clear distance. Have sand and water buckets for fire suppression. Never use liquid accelerants (gasoline, kerosene) to start or boost kiln fires — vapor explosion risk.
 
-### Structural Failure
+## Structural Failure
 
 Poorly constructed kilns (insufficient wall thickness, missing mortar, thermal cycling damage) can collapse. Inspect kiln structure before each firing campaign — look for cracks >3 mm width, bulging walls, loose bricks, or mortar deterioration. Never lean against or stand on a kiln during firing.
 
 ## Quality Control
 
-### Kiln Performance Testing
+## Kiln Performance Testing
 
 - **Peak temperature**: Verify with pyrometric cones or thermocouple. Must reach rated temperature for the ware type (e.g., cone 6 ≈ 1222°C for stoneware).
 - **Temperature uniformity**: Place cones or thermocouples at multiple locations within the ware chamber. Variation should be within ±30°C for batch kilns, ±10°C for tunnel kilns.
 - **Atmosphere control**: Monitor O₂ content with zirconia sensor. Oxidizing: >5% O₂. Neutral: 3-5% O₂. Reducing: <1% O₂.
 
-### Ware Quality Checks
+## Ware Quality Checks
 
 - **Ring test**: Strike fired pot with knuckle. Clear ring = well-fired. Dull thud = underfired or cracked.
 - **Water absorption**: Soak fired sample 24 hours, measure weight gain. Earthenware: 5-15%. Stoneware: 1-3%. Porcelain: <0.5%.
 - **Visual inspection**: No cracks, chips, or glaze defects >2 mm. Uniform color indicates even firing.
 
-### Kiln Integrity Checks
+## Kiln Integrity Checks
 
 - **Pre-firing inspection**: Check walls for cracks, spalling, or loose bricks. Check chimney for blockages. Check dampers for free movement.
 - **Post-firing inspection**: Document any new cracks or damage. Measure crack width — cracks >3 mm require repair before next firing.
@@ -577,7 +576,7 @@ Poorly constructed kilns (insufficient wall thickness, missing mortar, thermal c
 
 ## Variations and Alternatives
 
-### Kiln Selection Guide by Product
+## Kiln Selection Guide by Product
 
 | Product | Required Temp | Recommended Kiln | Alternative |
 |---------|-------------|-------------------|-------------|
@@ -591,7 +590,7 @@ Poorly constructed kilns (insufficient wall thickness, missing mortar, thermal c
 | Glass melting | 1400-1600°C | Tank furnace — see [Glass](../glass/index.md) | Pot furnace |
 | Ceramic firing (production) | 1200-1400°C | Tunnel kiln | Downdraft (batch) |
 
-### Raku Firing (Fast Alternative)
+## Raku Firing (Fast Alternative)
 
 A variation of updraft kiln for small-scale artistic pottery:
 - Small kiln (30-50 cm cube), gas or wood fired, heats to 1000°C in 15-30 minutes
@@ -599,7 +598,7 @@ A variation of updraft kiln for small-scale artistic pottery:
 - Produces dramatic, unpredictable glaze effects
 - Not suitable for functional ware — rapid cooling causes micro-cracking, high porosity
 
-### Electric Kilns
+## Electric Kilns
 
 When [Electricity](../energy/electricity.md) is available:
 - Resistance heating elements (SiC or MoSi₂ "glow-bars" — see [Advanced Ceramics](advanced-ceramics.md))
@@ -608,7 +607,7 @@ When [Electricity](../energy/electricity.md) is available:
 - Clean firing — no ash or combustion products contaminating ware
 - Limited to elements available: SiC elements to 1600°C, MoSi₂ to 1700°C
 
-## References
+## See Also
 
 - [Kiln Firing Protocols](kiln-firing.md) — temperature schedules, atmosphere control, pyrometric cone reference
 - [Pottery & Clay Products](pottery.md) — clay preparation, brick production, fireclay sourcing
@@ -621,6 +620,6 @@ When [Electricity](../energy/electricity.md) is available:
 - [Electricity](../energy/electricity.md) — power for electric kilns, pyrometry, and fans
 - [Gas Handling](../gas-handling/index.md) — natural gas supply for gas-fired kilns
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*
+
+[← Back to Ceramics & Refractories](index.md)

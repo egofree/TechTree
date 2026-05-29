@@ -8,7 +8,6 @@
 > **Outputs**: forge_welds, brazed_joints, soldered_joints, riveted_joints, welded_joints, acetylene, tig_welds, mig_welds, resistance_welds, electron_beam_welds, ultrasonic_bonds, friction_stir_welds, laser_welds, diffusion_bonds, hermetic_seals, wire_bonds
 > **Critical**: Yes — makes machinery possible by assembling individual parts into structures, mechanisms, and pressure vessels
 
-## Overview
 
 Metal joining is the capability that makes machinery possible. Individual forged or cast parts are rarely useful alone — they must be assembled into structures, mechanisms, pressure vessels, and frames. This file covers the full spectrum of joining methods in bootstrap order: forge welding (earliest, requires only a forge and hammer), brazing and soldering (require filler alloys), riveting (mechanical joining requiring no heat at the joint), oxy-acetylene welding (requires gas production infrastructure), and arc welding/SMAW (requires electrical power). The advanced sections cover TIG, MIG, resistance, electron beam, ultrasonic, friction stir, laser, and diffusion bonding — techniques essential for vacuum chamber fabrication, semiconductor equipment, and hermetic sealing.
 
@@ -611,6 +610,6 @@ Advanced joining processes are critical enablers for vacuum technology and semic
 | Laser | N/A (photon→heat) | 350-520 MPa | Laser, optics, shielding gas | High-speed welding, precision, automation |
 | Diffusion bonding | 50-80% Tm | 80-100% parent | Hot press or HIP, vacuum furnace | Dissimilar metals, UHV components, complex internals |
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*
+
+[← Back to Machine Tools](index.md)

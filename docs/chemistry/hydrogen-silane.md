@@ -20,7 +20,7 @@ Semiconductor manufacturing and ammonia synthesis both require ultra-pure hydrog
 - [Refractories and furnaces](../energy/electric-furnaces.md) — high-temperature reactors
 - [Chemistry fundamentals](./index.md) — acid-base reactions, distillation, gas laws
 
-### Hydrogen Production
+## Hydrogen Production
 
 **Electrolysis of water**:
 - **Apparatus**: Electrolytic cell with nickel or platinum electrodes. Electrolyte: 20-30% KOH solution (better conductivity than pure water, prevents corrosion of electrodes). Steel cell body. Asbestos or polymer diaphragm separates anode and cathode compartments (prevents H₂ and O₂ mixing).
@@ -39,7 +39,7 @@ Semiconductor manufacturing and ammonia synthesis both require ultra-pure hydrog
 - Remove CO₂ with amine scrubber or pressure swing adsorption (PSA). Result: 95-99% H₂.
 - Much cheaper than electrolysis if methane is available.
 
-### Steam-Methane Reforming (SMR) — Detailed Process
+## Steam-Methane Reforming (SMR) — Detailed Process
 
 When natural gas (methane, CH₄) is available, SMR is the dominant industrial route to hydrogen — responsible for ~95% of global H₂ production. The process operates in three main stages:
 
@@ -72,7 +72,7 @@ When natural gas (methane, CH₄) is available, SMR is the dominant industrial r
 - 50-55 kWh/kg H₂ (including compression). No CO₂ emissions if electricity is renewable.
 - Currently 2-3× more expensive than SMR per kg H₂, but costs declining with cheaper renewable electricity.
 
-### Water Electrolysis — Process Detail
+## Water Electrolysis — Process Detail
 
 When methane is unavailable or carbon-free hydrogen is required, water electrolysis is the alternative route:
 
@@ -81,7 +81,7 @@ When methane is unavailable or carbon-free hydrogen is required, water electroly
 - **Energy**: Thermodynamic minimum for water splitting = 39.4 kWh/kg H₂ (HHV). Real systems: 50-55 kWh/kg including compression and system losses. This means ~70% round-trip efficiency from electricity to H₂ HHV.
 - **Water quality**: Deionized water required (<1 µS/cm conductivity for PEM, <5 µS/cm for alkaline). Dissolved minerals cause scaling on electrodes and diaphragm blockage. Water consumption: ~9 L per kg H₂ (stoichiometric) + ~2 L/kg for purification system blowdown.
 
-### Silane Alternative Production Routes
+## Silane Alternative Production Routes
 
 Beyond the standard trichlorosilane route, several alternative paths to silane exist with different trade-offs:
 
@@ -90,7 +90,7 @@ Beyond the standard trichlorosilane route, several alternative paths to silane e
 - **[Magnesium silicide route](../glossary/magnesium-silicide-route.md)** (laboratory): Mg₂Si + 4HCl → 2MgCl₂ + SiH₄. Produces impure silane with phosphine (PH₃) and arsine (AsH₃) contaminants — dangerous and unsuitable for semiconductor-grade material. Only for small-scale/non-electronic applications.
 - **Union Carbide process**: Fluidized-bed reactor with metallurgical silicon and HCl at 300-350°C. The SiHCl₃ product undergoes multiple redistribution stages to maximize SiH₄ yield. Overall silicon-to-silane yield: ~15-20% per pass with recycle. This is the industrial standard adapted by major silane producers.
 
-### Silane Production (SiH₄)
+## Silane Production (SiH₄)
 
 **[Process route](../glossary/process-route.md)** (from MG-Si, Silicon stage):
 1. **Trichlorosilane synthesis**: MG-Si + 3HCl → SiHCl₃ + H₂ (fluidized bed reactor, 280-350°C, Cu catalyst). SiHCl₃ boils at 31.8°C — distill from higher-boiling SiCl₄ (bp 57.6°C) and lower-boiling gases.
@@ -103,7 +103,7 @@ Beyond the standard trichlorosilane route, several alternative paths to silane e
 - Leak detection: silane sniffers (thermal conductivity sensors). If silane leaks and ignites, water spray to cool surroundings — do not attempt to extinguish burning silane (let it burn off, the alternative is accumulating explosive gas).
 - **NEVER** allow silane to accumulate in confined spaces. Even 2-3% concentration in air can auto-detonate.
 
-### Storage & Distribution
+## Storage & Distribution
 
 **Hydrogen storage**:
 - **Compressed gas**: Steel or composite cylinders at 200-700 bar. Simple and widely used. Energy density: 0.8-2.7 MJ/L at 200-700 bar. Heavier than other options per unit energy stored.
@@ -122,7 +122,7 @@ Beyond the standard trichlorosilane route, several alternative paths to silane e
 - **Silane**: Electropolished stainless steel (316L or 304L) with PTFE-lined valves. VCR-type face-seal fittings — no elastomer O-rings (silane attacks many organics). All lines purged with N₂ or Ar before introducing silane. Minimum dead legs (pockets where gas can stagnate).
 - **Leak detection**: Thermal conductivity sensors (silane has different thermal conductivity than air). Hydrogen: catalytic sensors or electrochemical cells. Ultrasonic leak detectors for high-pressure lines. Check all joints with helium mass spectrometer during commissioning.
 
-### Hydrogen Purification Methods
+## Hydrogen Purification Methods
 
 **Pressure Swing Adsorption (PSA)**: The standard method for purifying SMR-derived hydrogen. Four to twelve adsorption vessels in parallel, filled with layered beds: activated carbon (removes H₂O, CO₂), zeolite 5A (removes CH₄, CO), and zeolite 13X (final polishing). Feed gas (SMR output shifted to maximize H₂, CO₂ removed) at 15-30 bar passes through beds — impurities adsorbed, H₂ passes through at 99.97-99.999% purity. Recovery: 75-90% of feed hydrogen. Cycle: 3-10 minutes per vessel. PSA tail gas (containing CO, CO₂, CH₄) used as fuel for the SMR furnace — improves overall thermal efficiency to 70-80%.
 
@@ -130,7 +130,7 @@ Beyond the standard trichlorosilane route, several alternative paths to silane e
 
 **Cryogenic separation**: Not common for H₂ purification alone, but used in syngas plants to recover H₂ and CO separately. Hydrogen (bp -253°C) is the most volatile component — remains as gas while CO, CH₄, CO₂ condense. Purity: 95-98% H₂. Used in refinery and methanol plants.
 
-### Silane Production — Detailed Process Routes
+## Silane Production — Detailed Process Routes
 
 **[Metallurgical-grade silicon route](../glossary/metallurgical-grade-silicon-route.md)** (dominant): (1) MG-Si (98-99% Si, produced from quartz + carbon in electric arc furnace at 1900°C) ground to powder <150 µm. (2) React with HCl gas at 300-400°C in a fluidized bed: Si + 3HCl → SiHCl₃ + H₂ (trichlorosilane, TCS). (3) Purify TCS by distillation (bp 31.8°C) — multiple distillation columns remove Fe, Al, B, P chlorides. (4) Reduce TCS with hydrogen in a Siemens reactor: SiHCl₃ + H₂ → Si + 3HCl. Polysilicon rods heated to 1100-1200°C by direct current; TCS + H₂ gas flows over rods; silicon deposits on rod surface. Rods grow from 8 mm to 150-200 mm over 5-7 days. Energy: 100-200 kWh/kg polysilicon (traditional Siemens).
 
@@ -138,7 +138,7 @@ Beyond the standard trichlorosilane route, several alternative paths to silane e
 
 **Direct silane route**: TCS further converted to silane by catalytic disproportionation: 4SiHCl₃ → SiH₄ + 3SiCl₄ (over amine catalyst, 60-80°C). Silane purified by cryogenic distillation (bp -112°C). Silane is pyrophoric (ignites spontaneously in air) — handling requires extreme care. Used primarily in FBR polysilicon production and semiconductor CVD (chemical vapor deposition) for epitaxial silicon and silicon nitride (Si₃N₄) layers.
 
-### Semiconductor-Grade Gases Beyond Silane
+## Semiconductor-Grade Gases Beyond Silane
 
 **Dopant gases**: Arsine (AsH₃) and phosphine (PH₃) — extremely toxic (IDLH 3 ppm and 50 ppm respectively). Used in ion implantation and epitaxial doping. Stored in cylinder cabinets with gas detectors, automatic shutoff valves, and scrubbers (thermal oxidation or wet chemical). Boron trifluoride (BF₃) — p-type dopant, less toxic but corrosive.
 
@@ -146,14 +146,14 @@ Beyond the standard trichlorosilane route, several alternative paths to silane e
 
 **CVD precursor gases**: Tungsten hexafluoride (WF₆) for tungsten metallization. Tetraethylorthosilicate (TEOS, Si(OC₂H₅)₄) for oxide deposition. Trimethylaluminum (TMA, Al(CH₃)₃) for Al₂O₃ dielectric — pyrophoric. Tetramethylammonium hydroxide (TMAH) for silicon etching.
 
-### Safety
+## Safety
 
 - **Hydrogen flammability**: H₂ has an extremely wide explosive range in air — 4-75% concentration (by volume). The lower explosive limit (LEL) of 4% is the primary concern; even small leaks can create explosive atmospheres in confined spaces. Hydrogen flames are nearly invisible in daylight — detect by thermal imaging, not visual observation. Minimum ignition energy: 0.017 mJ (10× lower than gasoline vapor — static electricity sparks can ignite H₂). All H₂ systems must be electrically bonded and grounded.
 - **Silane pyrophoricity**: SiH₄ auto-ignites on contact with air at room temperature or below (if impure). Even 2-3% silane in air can auto-detonate without an ignition source. Silane fires burn intensely (producing SiO₂ fume and H₂). **Cannot be extinguished with water or CO₂** — water reacts with burning silane to produce more H₂; CO₂ provides no suppression effect. The only safe approach: let the fire burn itself out while cooling surrounding equipment with water spray. Stop the silane supply (close source valve) if possible.
 - **Confined space hazards**: Both H₂ and SiH₄ pose severe confined-space risks. Silane leak in enclosed area → auto-ignition → pressure wave from rapid combustion. Continuous gas monitoring with automatic shutdown is mandatory for all indoor silane installations. Emergency ventilation at 20+ air changes/hour.
 - **Trichlorosilane (SiHCl₃) hazards**: Corrosive liquid (bp 31.8°C — evaporates readily). Fumes are HCl on contact with atmospheric moisture. Skin and respiratory burns. Store in sealed, vented containers. Full chemical suit and self-contained breathing apparatus (SCBA) for spill response.
 
-### Quality Analysis
+## Quality Analysis
 
 - **Gas chromatography (GC)**: Separate gas mixture on packed column (molecular sieve or porous polymer), detect with thermal conductivity detector (TCD). Quantifies impurities to ppm levels. Essential for H₂ purity (N₂, O₂, CO, CO₂, CH₄ contaminants) and SiH₄ purity (Si₂H₆, Si₃H₈, chlorosilanes, hydrocarbons).
 - **Dew point measurement**: Quantifies moisture content. Aluminum oxide or capacitive sensor. Moisture is critical contaminant — causes oxidation in semiconductor processes. H₂ dew point must be below −70°C (<2.6 ppm H₂O).
@@ -161,7 +161,7 @@ Beyond the standard trichlorosilane route, several alternative paths to silane e
 - **Purity grades**: Semiconductor-grade H₂ requires >99.9999% (6N) purity. Silane for CVD requires >99.9% (3N) minimum, preferably >99.99% (4N). Each "N" represents an order of magnitude reduction in total impurities.
 - **Mass spectrometry**: For the most critical purity verification (especially SiH₄), quadrupole mass spectrometry detects impurities at ppb (parts per billion) levels. Can distinguish SiH₄ (mass 32) from O₂ (also mass 32) by fragmentation pattern. Required for semiconductor-grade qualification of silane batches.
 
-### Silane Production — Expanded Process Routes
+## Silane Production — Expanded Process Routes
 
 **[Metallurgical route](../glossary/metallurgical-route.md)** (dominant industrial path, from MG-Si to SiH₄):
 - Step 1: React MG-Si powder (<150 µm) with anhydrous HCl gas at 300°C in a fluidized bed reactor over copper catalyst (1-5% Cu deposited from CuCl₂ solution onto silicon surface). Si + 3HCl → SiHCl₃ + H₂ (trichlorosilane, TCS). Copper promotes selective TCS formation over SiCl₄. Conversion: ~90% TCS, ~10% SiCl₄ by-product.
@@ -171,7 +171,7 @@ Beyond the standard trichlorosilane route, several alternative paths to silane e
 
 **[Direct synthesis route](../glossary/direct-synthesis-route.md)** (simpler, lower yield): Si + 2H₂ → SiH₄ at 200-300°C and 200-300 bar pressure with copper catalyst. Thermodynamically unfavorable at standard conditions, but high pressure shifts the equilibrium toward the product. Yield: 5-15% per pass, requiring extensive recycle of unreacted hydrogen. Lower yield than the chlorosilane route but simpler equipment (no chlorosilane handling, no cryogenic distillation). The high compression energy cost (200-300 bar) is the main drawback. Potentially attractive for bootstrap production where chlorosilane infrastructure is unavailable.
 
-### Silane Physical Properties and Safety
+## Silane Physical Properties and Safety
 
 **Physical constants**: Molecular weight 32.12 g/mol. Boiling point -112°C. Melting point -185°C. Gas density at STP: 1.11 kg/m³ (slightly lighter than air). Liquid density at boiling point: 680 kg/m³. Pyrophoric: ignites spontaneously in air at concentrations below 1%. Auto-ignition occurs at room temperature or below for impure silane. The flame is pale blue and hard to see in daylight.
 
@@ -183,7 +183,7 @@ Beyond the standard trichlorosilane route, several alternative paths to silane e
 
 **Abatement systems**: Two options for silane exhaust treatment. Burn box: oxidizing furnace at 800-1000°C converts SiH₄ to SiO₂ fume and H₂O, which are then filtered. Used for continuous vent streams. Wet scrubber: 5-20% NaOH solution in a packed-column scrubber absorbs silane and any chlorosilane by-products, converting them to sodium silicate and sodium chloride. Used for batch venting and emergency relief. Most installations use both in series.
 
-### Silane Storage and Distribution
+## Silane Storage and Distribution
 
 **Cylinder storage**: Silane stored in 316L stainless steel cylinders at 150 bar (2,200 psi). Standard cylinder: 44 L water capacity, containing ~6 kg silane. Cylinders equipped with pressure relief devices (rupture disc) venting to the abatement system, not to atmosphere. Cylinder valve: diaphragm-sealed (no packing gland leak path).
 
@@ -191,7 +191,7 @@ Beyond the standard trichlorosilane route, several alternative paths to silane e
 
 **Fluidized bed reactor polysilicon deposition**: Silane is the preferred feedstock for FBR polysilicon production. SiH₄ injected into a fluidized bed of silicon seed particles at 600-700°C decomposes on contact: SiH₄ → Si + 2H₂. Seed particles grow from 0.1 mm to 1-2 mm and are continuously withdrawn as granular polysilicon. Energy consumption: 15-30 kWh/kg, compared to 100-200 kWh/kg for Siemens rod reactors. The granular product flows freely and loads easily into CZ crucibles, unlike the fragile rod segments from Siemens process.
 
-### Silane Quality Grades and Analysis
+## Silane Quality Grades and Analysis
 
 **Purity requirements by application**: Semiconductor-grade silane requires 6N+ (99.9999%) purity. The most critical contaminants are oxygen (as SiH₃OCH₃ or SiH₃OH, target <100 ppb), moisture (H₂O, target <50 ppb), higher silanes (Si₂H₆, Si₃H₈, target <10 ppm total), and chlorosilanes (SiH₃Cl, SiH₂Cl₂, target <1 ppm). Metallic contaminants (Fe, Cu, Ni from piping) are controlled to <1 ppb each by electropolished 316L stainless steel delivery systems.
 
@@ -199,7 +199,6 @@ Beyond the standard trichlorosilane route, several alternative paths to silane e
 
 **Silane vs TCS for polysilicon production**: Silane offers higher silicon deposition rate per unit energy in FBR reactors because the decomposition reaction (SiH₄ → Si + 2H₂) is simpler than the TCS reduction (SiHCl₃ + H₂ → Si + 3HCl) and produces no corrosive by-products. However, silane's pyrophoric nature makes handling more hazardous. TCS is a liquid at room temperature (bp 31.8°C), easier to store and transport, but produces HCl during deposition, requiring corrosion-resistant reactor internals. The choice between silane and TCS feedstock depends on whether the polysilicon producer prioritizes energy efficiency (silane) or handling safety (TCS).
 
----
 
 **Chlorosilane Handling Infrastructure**: The TCS route generates byproduct SiCl4 (1.0-1.5 kg per kg SiH4). SiCl4 is corrosive liquid (bp 57.6C, density 1.48 g/cm3) fuming in moist air. Storage: glass-lined or PTFE-lined tanks, N2 blanketed, secondary containment 110% tank volume. SiCl4 recycling: react with H2 at 1000-1200C to regenerate TCS, or hydrolyze to fumed silica (SiCl4 + 2H2O -> SiO2 + 4HCl). HCl byproduct absorbed in water for reuse in TCS synthesis.
 

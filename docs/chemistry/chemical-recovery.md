@@ -16,7 +16,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 ## Prerequisites
 
-### Materials
+## Materials
 
 | Material | Specification | Source |
 |----------|--------------|--------|
@@ -26,7 +26,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 | Heat source | Steam or direct heating at 60–300°C | [Energy](../energy/engine.md) |
 | Cooling water | 10–30 m³/hour per column | [Water Treatment](water-treatment.md) |
 
-### Tools & Equipment
+## Tools & Equipment
 
 | Equipment | Purpose | Source |
 |-----------|---------|--------|
@@ -36,7 +36,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 | Storage tanks | Segregated collection of spent and recovered chemicals | [Metals](../metals/index.md) |
 | Pumps and piping | Chemical transfer | [Gas Handling](../gas-handling/index.md) |
 
-### Knowledge
+## Knowledge
 
 - Distillation theory: boiling point, reflux ratio, number of theoretical plates
 - Chemical compatibility: which solvents can be mixed safely, which produce hazardous reactions
@@ -44,7 +44,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 ## Bill of Materials
 
-### BOM: Solvent Recovery by Distillation (per 1,000 L spent solvent)
+## BOM: Solvent Recovery by Distillation (per 1,000 L spent solvent)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -55,7 +55,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 | Molecular sieve (drying) | 5–20 kg (regenerable) | [Chemistry](./distillation.md) | CaCl₂ desiccant (consumed, not regenerated) |
 | Electrical energy | 10–50 kWh | [Energy](../energy/engine.md) | Steam-driven pumps if available |
 
-### BOM: Acid Recovery by Diffusion Dialysis (per 1,000 L spent acid)
+## BOM: Acid Recovery by Diffusion Dialysis (per 1,000 L spent acid)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -66,7 +66,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 ## Process Description
 
-### 4.1 Solvent Recovery by Fractional Distillation
+## 4.1 Solvent Recovery by Fractional Distillation
 
 1. **Collect and segregate spent solvents.** Store each solvent type in dedicated tanks. Never mix solvent families — halogenated and non-halogenated solvents require separate recovery trains. Label all containers with solvent identity and estimated purity.
 
@@ -86,7 +86,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 7. **Collect residue.** The reboiler residue contains high-boiling contaminants, dissolved metals, and polymerized organics. Dispose via [Waste Management](../ehs/waste-management.md) or further processing.
 
-### 4.2 Acid Recovery by Diffusion Dialysis
+## 4.2 Acid Recovery by Diffusion Dialysis
 
 1. **Feed preparation.** Filter spent acid through a 5–25 μm filter to remove suspended solids that would foul membranes. Measure acid concentration and dissolved metal content.
 
@@ -98,7 +98,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 5. **Manage metal-rich stream.** The depleted acid stream contains concentrated metal salts. Route to metal recovery (precipitation or electrowinning) or to waste treatment.
 
-### 4.3 Catalyst Recovery
+## 4.3 Catalyst Recovery
 
 1. **Collect spent catalyst.** Solid catalysts (metals on carbon or alumina supports) are filtered or decanted from process streams. Homogeneous catalysts remain dissolved and require different recovery methods.
 
@@ -108,7 +108,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 ## Quantitative Parameters
 
-### Solvent Recovery Rates and Purity
+## Solvent Recovery Rates and Purity
 
 | Solvent | Boiling Point | Recovery Rate | Achievable Purity | Energy (kWh/1000L) |
 |---------|--------------|---------------|-------------------|---------------------|
@@ -119,7 +119,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 | PGMEA | 146°C | 85–93% | 98.5–99.5% | 25–45 |
 | Methanol | 65°C | 90–96% | 99.0–99.5% | 12–28 |
 
-### Acid Recovery by Method
+## Acid Recovery by Method
 
 | Method | Acids Recovered | Recovery Rate | Purity | Energy |
 |--------|----------------|---------------|--------|--------|
@@ -128,7 +128,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 | Thermal decomposition | H₂SO₄ (to SO₃ → H₂SO₄) | 90–98% | >95% | High (furnace at 800°C) |
 | Ion exchange | All mineral acids | 85–95% | 90–95% | 20–80 kWh/m³ |
 
-### Membrane Performance Parameters
+## Membrane Performance Parameters
 
 | Parameter | Diffusion Dialysis | Electrodialysis |
 |-----------|-------------------|-----------------|
@@ -173,7 +173,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 ## Quality Control
 
-### Recovered Solvent Specification
+## Recovered Solvent Specification
 
 | Parameter | Test Method | Typical Specification |
 |-----------|------------|---------------------|
@@ -184,7 +184,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 | Color | Visual/UV-Vis | Clear, colorless |
 | Specific gravity | Hydrometer or digital density meter | Within 0.001 of pure solvent value |
 
-### Recovered Acid Specification
+## Recovered Acid Specification
 
 | Parameter | Test Method | Typical Specification |
 |-----------|------------|---------------------|
@@ -193,7 +193,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 | Total suspended solids | Gravimetric (0.45 μm filter) | <50 mg/L |
 | Organic contamination | TOC analysis or UV-Vis | <500 ppm C |
 
-### Field Tests (No Lab Required)
+## Field Tests (No Lab Required)
 
 - **Specific gravity**: Float a hydrometer in the recovered solvent. Compare to published values for pure solvent. Deviation indicates contamination.
 - **Water test**: Add anhydrous copper sulfate (white) to the solvent. If it turns blue, water is present (CuSO₄ + 5H₂O → CuSO₄·5H₂O, blue).
@@ -201,7 +201,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 ## Variations and Alternatives
 
-### Recovery Method Selection Guide
+## Recovery Method Selection Guide
 
 | Situation | Best Method | Why |
 |-----------|------------|-----|
@@ -213,7 +213,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 | Precious metal catalyst | Dissolution + precipitation/electrowinning | Metal value justifies recovery cost |
 | Mixed solvent waste (unidentified) | Incineration with heat recovery | Separation not feasible; energy recovery is the only option |
 
-### Comparison: Recovery vs. Disposal
+## Comparison: Recovery vs. Disposal
 
 | Factor | Recovery | Disposal |
 |--------|----------|----------|

@@ -32,7 +32,7 @@ This capability covers the *process* of creating, maintaining, and enforcing sta
 
 ## Process Description
 
-### Standards Development Lifecycle
+## Standards Development Lifecycle
 
 1. **Need identification**: A practitioner or organization identifies a problem caused by lack of standardization — parts don't fit, measurements don't agree, materials perform unpredictably. Document the specific failure and its economic cost.
 2. **Working group formation**: Convene 5-15 domain experts representing different stakeholders (producers, users, testers). Diversity of perspective prevents standards that serve only one interest.
@@ -46,7 +46,7 @@ This capability covers the *process* of creating, maintaining, and enforcing sta
 
 **Weaknesses**: 15-43 month development timeline is slow — urgent standardization needs (e.g., safety standards after an accident) cannot wait for the full cycle. Consensus process can deadlock when stakeholders have conflicting interests.
 
-### Critical Standard Categories
+## Critical Standard Categories
 
 **Measurement standards**: Define units, reference artifacts, calibration chains, and measurement procedures. Without these, no two instruments read the same value. Examples: meter standard, kilogram prototype, thermocouple reference tables, thread gauge specifications.
 
@@ -70,7 +70,7 @@ This capability covers the *process* of creating, maintaining, and enforcing sta
 
 ## Quantitative Parameters
 
-### Standard Development Timeline
+## Standard Development Timeline
 
 | Phase | Duration | Participants | Deliverable |
 |-------|----------|-------------|-------------|
@@ -82,7 +82,7 @@ This capability covers the *process* of creating, maintaining, and enforcing sta
 | Publication | 1-2 months | Editorial staff | Published standard document |
 | **Total (typical)** | **15-43 months** | | |
 
-### Standards Categories and Estimated Counts
+## Standards Categories and Estimated Counts
 
 | Category | Examples | Bootstrap Priority | Estimated Count by Year 50 |
 |----------|---------|-------------------|---------------------------|
@@ -95,7 +95,7 @@ This capability covers the *process* of creating, maintaining, and enforcing sta
 | Safety codes | Pressure vessels, electrical, structural | High (Year 20-30) | 15-25 |
 | Quality management | Inspection, sampling, SPC | Medium (Year 20-30) | 10-15 |
 
-### Consensus Process Parameters
+## Consensus Process Parameters
 
 | Parameter | Value | Rationale |
 |-----------|-------|-----------|
@@ -140,7 +140,7 @@ This capability covers the *process* of creating, maintaining, and enforcing sta
 
 ## Variations and Alternatives
 
-### De Facto Standards (Market-Driven)
+## De Facto Standards (Market-Driven)
 
 When one manufacturer's design dominates the market, it becomes a de facto standard regardless of any formal process. Example: the QWERTY keyboard layout. Fast to emerge, but may not be technically optimal. Acceptable as a transitional measure while formal standards are developed.
 
@@ -148,7 +148,7 @@ When one manufacturer's design dominates the market, it becomes a de facto stand
 
 **Weaknesses**: May lock in a suboptimal design — the QWERTY layout was designed to prevent typewriter jams, not for typing speed. No mechanism for revision when better alternatives emerge.
 
-### Regulatory Standards (Government-Imposed)
+## Regulatory Standards (Government-Imposed)
 
 Government mandates compliance with specific standards, typically for safety. Effective enforcement but risks political capture (standards written to favor incumbents). Best for safety-critical domains where market forces alone are insufficient.
 
@@ -156,7 +156,7 @@ Government mandates compliance with specific standards, typically for safety. Ef
 
 **Weaknesses**: Risk of political capture — incumbents may influence standards to exclude competitors. Government-mandated standards may lag behind technology because the regulatory process is slower than innovation.
 
-### Industry Consortium Standards
+## Industry Consortium Standards
 
 A group of producers in the same industry agrees on common specifications. Faster than government standards, but may exclude smaller producers from the process. Requires anti-monopoly safeguards.
 
@@ -164,7 +164,7 @@ A group of producers in the same industry agrees on common specifications. Faste
 
 **Weaknesses**: May exclude smaller producers who lack resources to participate in consortium meetings. Risk of anti-competitive standardization — consortium members may agree on specifications that exclude non-members.
 
-### Bootstrapping Priority Order
+## Bootstrapping Priority Order
 
 The first standards to develop, in order of criticality:
 
@@ -176,7 +176,7 @@ The first standards to develop, in order of criticality:
 6. **Electrical standards** (Year 20-30): Voltage levels, frequency, wire gauge, connector pinouts. Required once electrification begins.
 7. **Safety codes** (Year 20-30): Pressure vessel codes, structural loading, electrical installation safety. Required before complex infrastructure.
 
-### Standards Document Structure
+## Standards Document Structure
 
 Every published standard document follows a consistent structure for readability and reference:
 
@@ -189,23 +189,23 @@ Every published standard document follows a consistent structure for readability
 7. **Marking and labeling**: How compliant products are identified. What information must appear on the product or its packaging.
 8. **Annexes**: Supplementary information (informative, not normative) — examples, calculation methods, rationale for specific requirements.
 
-### Historical Precedent: Whitworth Thread Standard
+## Historical Precedent: Whitworth Thread Standard
 
 Joseph Whitworth's 1841 proposal for a unified screw thread standard (55° thread angle, constant pitch-to-diameter ratio) illustrates the bootstrap value of standards. Before Whitworth, every British workshop used its own thread profiles — bolts from one factory would not fit nuts from another. Whitworth's standard was adopted voluntarily by major manufacturers because it reduced costs (no need to stock multiple thread-cutting tools) and enabled inter-company trade. Within 20 years, the Whitworth thread became the de facto British standard, later formalized as BS 84. The lesson: the economic value of interoperability drives voluntary adoption when the standard is technically sound.
 
-### Metric System as Foundation Standard
+## Metric System as Foundation Standard
 
 The metric system (SI units) is the single most impactful standard for a bootstrap civilization. Define the meter, kilogram, second, kelvin, ampere, and mole as the base units. Derive all other units from these (Newton = kg·m/s², Joule = N·m, Watt = J/s, Pascal = N/m²). The decimal structure (prefixes: milli-, centi-, kilo-, mega-) eliminates conversion arithmetic that plagues imperial systems. Adopt SI exclusively — do not maintain dual systems, as conversion errors between systems are a persistent source of engineering mistakes.
 
-### Bootstrapping Approach
+## Bootstrapping Approach
 
 In a bootstrap context, the standards body starts with the minimum set that enables inter-workshop collaboration and expands as the civilization's technological complexity grows. Priority order: measurement units → screw threads → material grades → drawing conventions → electrical standards → safety codes.
 
-### Standards Compliance Marking
+## Standards Compliance Marking
 
 Products that comply with a standard should carry a compliance mark — a symbol, stamp, or label indicating the standard number and certifying body. Compliance marks enable purchasers to verify quality without testing every item themselves. The mark must be difficult to forge (use a registered die stamp or watermarked paper for certificates). Unauthorized use of the compliance mark is treated as fraud.
 
-### Standards Discovery and Access
+## Standards Discovery and Access
 
 A standard that practitioners cannot find or read is useless. Ensure every published standard is:
 - Cataloged in a central registry with subject index, standard number, and revision date.

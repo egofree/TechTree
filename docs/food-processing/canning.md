@@ -8,7 +8,6 @@
 > **Outputs**: canned_food, retort_pouched_food, sterilized_food, sealed_containers
 > **Critical**: Yes — canning provides the only reliable multi-year food storage method that preserves complete nutrition without refrigeration, enabling urban workforce concentration and long-distance food logistics
 
-## Overview
 
 Canning is the industrial process of preserving food by heating it in hermetically sealed containers to destroy all viable microorganisms, then maintaining the seal to prevent recontamination. Invented by Nicolas Appert in 1809 (glass containers) and industrialized with tin-plated steel cans by Peter Durand in 1810, canning remains the gold standard for shelf-stable food preservation. Properly canned food retains nutritional value for 2-5 years at ambient temperature — no refrigeration, no freezing, no ongoing energy input required.
 
@@ -18,7 +17,7 @@ While [Food Preservation](preservation.md) covers the full spectrum of preservat
 
 ## Prerequisites
 
-### Materials
+## Materials
 
 - **Tinplate**: Steel sheet coated with 0.5-1.5 μm tin. Sheet thickness 0.15-0.30 mm. Tin prevents iron-catalyzed food oxidation and corrosion. Source: [Metals](../metals/iron-steel.md) — requires tinplating capability.
 - **Glass jars**: Soda-lime glass with wide mouth, heat-resistant to 150°C+ (thermal shock resistant). Source: [Glass](../glass/basic.md) or [Ceramics](../ceramics/kilns.md).
@@ -27,7 +26,7 @@ While [Food Preservation](preservation.md) covers the full spectrum of preservat
 - **Water**: For food preparation, brine, syrup, and cooling. Must be potable. Source: [Water Supply](../water/basic-treatment.md).
 - **Steam**: For retort processing at 100-130°C, 0-30 psi gauge pressure. Source: [Energy](../energy/engine.md) — requires boiler.
 
-### Tools and Equipment
+## Tools and Equipment
 
 - **Retort (pressure vessel)**: Horizontal or vertical cylindrical vessel rated for 15-30 psi (1-2 bar) at 121°C+. Equipped with steam inlet, vent, drain, pressure gauge, safety relief valve, and temperature recorder. Source: [Metals](../metals/iron-steel.md) — riveted or welded steel construction.
 - **Can seamer**: Double-seam machine that hermetically seals can ends to bodies. First operation roll curls cover hook; second operation roll compresses seam. Precision mechanism requiring ±0.05 mm tolerance. Source: [Machine Tools](../machine-tools/index.md).
@@ -36,7 +35,7 @@ While [Food Preservation](preservation.md) covers the full spectrum of preservat
 - **Boiler**: Steam generation at 5-15 bar for retort operation and exhaust box. Source: [Energy](../energy/engine.md).
 - **Cooling system**: Water bath or spray cooling. Potable water with 2-5 ppm free chlorine to prevent post-seam contamination.
 
-### Knowledge
+## Knowledge
 
 - Microbiology: understanding of *Clostridium botulinum* spore heat resistance and the 12D reduction concept
 - Thermodynamics: steam pressure-temperature relationships, heat penetration measurement
@@ -56,7 +55,7 @@ While [Food Preservation](preservation.md) covers the full spectrum of preservat
 
 ## Process Description
 
-### Can Manufacturing (Three-Piece Tinplate Can)
+## Can Manufacturing (Three-Piece Tinplate Can)
 
 1. **Shearing**: Cut tinplate sheets into body blanks (rectangle that wraps to form cylinder) and end discs (circular). Body blank dimensions: circumference × can height + overlap for side seam. End disc diameter: slightly larger than body diameter for double-seam engagement.
 2. **Body forming**: Roll body blank into cylinder. The tinplate curls naturally when passed through forming rolls set to the correct radius.
@@ -80,7 +79,7 @@ While [Food Preservation](preservation.md) covers the full spectrum of preservat
 - Side-seam soldering with lead-free solder (98% Sn / 2% Ag) consumes expensive tin; welded seams require electrical power
 - Can seamer mechanism requires ±0.05 mm precision — needs dedicated machine tools for manufacture and maintenance
 
-### Thermal Processing (The Core of Canning)
+## Thermal Processing (The Core of Canning)
 
 #### Water Bath Canning (Acid Foods, pH < 4.6)
 
@@ -139,7 +138,7 @@ Low-acid foods (vegetables, meat, seafood, soups) **must** be processed at 116-1
 - Processing times are long (25-100 minutes at 121°C) and energy-intensive, requiring 150-300 kg steam per 1000 cans
 - Retort venting is critical: air pockets create cold spots — incomplete venting is the most common cause of under-processing and botulism risk
 
-### Pasteurization (High-Temperature Short-Time)
+## Pasteurization (High-Temperature Short-Time)
 
 For products where sterilization would destroy quality (juice, beer, dairy):
 
@@ -159,7 +158,7 @@ For products where sterilization would destroy quality (juice, beer, dairy):
 
 ## Quantitative Parameters
 
-### Thermal Death Time Parameters for C. botulinum
+## Thermal Death Time Parameters for C. botulinum
 
 | Temperature | D-value (min) | F-value for 12D (min) | Z-value |
 |:-----------:|:--------------:|:----------------------:|:-------:|
@@ -171,7 +170,7 @@ For products where sterilization would destroy quality (juice, beer, dairy):
 
 D-value = time to reduce population by 90% (1 log). 12D reduction (F₀ = D × 12) is the industry standard for commercial sterility. At 121°C, F₀ = 2.52 minutes minimum. Most canning processes target F₀ = 3.0-6.0 minutes for safety margin.
 
-### Heat Penetration Factors by Container
+## Heat Penetration Factors by Container
 
 | Container | Size | Fill Weight (g) | Cold Spot Location | Lag Factor (jh) | Heating Rate (fh, min) |
 |-----------|------|:----------------:|-------------------|:----------------:|:----------------------:|
@@ -182,7 +181,7 @@ D-value = time to reduce population by 90% (1 log). 12D reduction (F₀ = D × 1
 
 Retort pouches heat 2-3× faster than cans due to thinner profile, enabling shorter process times and better quality retention.
 
-### Steam Pressure-Temperature Relationship
+## Steam Pressure-Temperature Relationship
 
 | Gauge Pressure (psi) | Temperature (°C) | Temperature (°F) |
 |:--------------------:|:-----------------:|:-----------------:|
@@ -250,7 +249,7 @@ These values assume sea level and pure steam (no air). Air in the retort lowers 
 
 **Natural fermentation alternative**: In regions where canning equipment is unavailable, [Food Fermentation](fermentation.md) provides preservation without thermal processing. Fermented vegetables keep 6-12 months without cans or retorts. Not as universally applicable as canning but achievable with stone-age technology.
 
-## References
+## See Also
 
 - [Food Preservation](preservation.md) — broader preservation methods, drying, salting, refrigeration
 - [Food Fermentation](fermentation.md) — biological preservation, acidification
@@ -262,6 +261,6 @@ These values assume sea level and pure steam (no air). Air in the retort lowers 
 - [Machine Tools](../machine-tools/index.md) — precision machining for can seamers
 - [Health & Sanitation](../health/sanitation.md) — microbiology, hygiene, food safety
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*
+
+[← Back to Food Processing](index.md)

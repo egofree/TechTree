@@ -9,7 +9,7 @@
 
 This document covers the CZ puller as a **machine** — design, materials, fabrication, and assembly from scratch. For the crystal growth process theory (seed insertion, neck growth, shoulder, body, tail-out), see [Crystal Growth & Wafering](./crystal-growth.md). For the polysilicon feedstock, see [MG-Si Production](./mg-si-production.md) and [Silicon Purification](./purification.md).
 
-### Puller Chamber Assembly
+## Puller Chamber Assembly
 
 **Main vessel**:
 - Water-cooled stainless steel (304 or 316) cylindrical chamber. Two sections: upper (pull chamber, 300-500 mm diameter, 800-1200 mm tall) and lower (furnace chamber, 400-600 mm diameter, 400-600 mm tall). Separated by a gate valve to allow crystal removal without exposing hot crucible to air.
@@ -31,7 +31,7 @@ This document covers the CZ puller as a **machine** — design, materials, fabri
 - 5-10 mm stainless steel plate requires heavy welding (TIG or MIG) with full-penetration seams — challenging for small workshops
 - Water cooling channels are prone to mineral scale buildup in hard-water regions, requiring periodic descaling with inhibited HCl
 
-### Pull Mechanism — Precision Motion System
+## Pull Mechanism — Precision Motion System
 
 **Seed holder and pull rod**:
 - Seed crystal holder: Machined from high-purity graphite or molybdenum. Three- or four-jaw collet grips the seed crystal (5-10 mm square, 50-80 mm long, oriented <100> or <111>).
@@ -56,7 +56,7 @@ This document covers the CZ puller as a **machine** — design, materials, fabri
 - Ferrofluidic vacuum feedthrough (zero leak, preferred) requires ferrofluid synthesis — magnetic coupling is buildable but has slightly higher leak rate (~10⁻⁸ mbar·L/s)
 - Vibration isolation adds 1-5 tonnes of concrete inertia block, requiring reinforced floor and crane access for installation
 
-### Thermal System
+## Thermal System
 
 **Graphite resistance heater**:
 - Cylindrical heater: Machined from isostatically pressed graphite (grade G347 or equivalent, density >1.70 g/cm³). Cylindrical shape, 300-450 mm inner diameter, 250-400 mm tall, 15-25 mm wall thickness. Slotted vertically (8-16 slots) to create a long current path and uniform heating. Electrode connections at top and bottom via graphite blocks and water-cooled copper bus bars.
@@ -78,7 +78,7 @@ This document covers the CZ puller as a **machine** — design, materials, fabri
 - 500-3000 A current requires massive water-cooled copper bus bars (25-50 mm² cross section) — a cooling water leak near bus bars causes electrolysis and eventual arc flash
 - Graphite heater lifetime is limited to 6-12 months by sublimation at 1400°C in argon; replacement requires full hot zone rebuild (8-16 hours downtime)
 
-### Crucible and Support
+## Crucible and Support
 
 **Fused silica (SiO₂) crucible**:
 - 300-450 mm diameter (for 150-300 mm crystals), 200-300 mm tall, 5-10 mm wall thickness. Fabricated by arc fusion of high-purity SiO₂ powder against a rotating graphite mandrel — see [Advanced Glass Production](../glass/advanced.md).
@@ -99,7 +99,7 @@ This document covers the CZ puller as a **machine** — design, materials, fabri
 - Single-use fused silica crucible is the highest consumable cost per crystal — each crucible requires arc-fusion fabrication from high-purity SiO₂ powder
 - Crucible dissolution introduces 10-20 ppma oxygen into the crystal, limiting electrical properties compared to float-zone (oxygen-free) silicon
 
-### Atmosphere Control
+## Atmosphere Control
 
 **Argon inert gas system**:
 - Flow rate: 10-30 L/min, continuous. Slight positive pressure in chamber (5-50 mbar above ambient). Argon prevents oxidation of graphite heater/insulation (C + O₂ → CO/CO₂ at >400°C) and suppresses SiO volatilization from melt surface.
@@ -115,7 +115,7 @@ This document covers the CZ puller as a **machine** — design, materials, fabri
 - Argon consumption of 2-5 m³ per crystal run is a significant ongoing cost — requires a dedicated air separation unit or regular gas deliveries
 - Argon is heavier than air — any leak pools at floor level, creating an asphyxiation hazard in enclosed spaces
 
-### Defect Mechanisms and Mitigation
+## Defect Mechanisms and Mitigation
 
 **Dislocations**:
 - Origin: Seed-melt contact stress, thermal shock, inclusions. A single dislocation threading through the crystal makes it useless for semiconductor devices (dislocations act as recombination centers and short circuits).
@@ -129,7 +129,7 @@ This document covers the CZ puller as a **machine** — design, materials, fabri
 - Source: Graphite heater/insulation → CO → dissolved C in melt. Target: <1 ppma. Controlled by argon flow rate, chamber tightness, and thorough purge before melt.
 - Carbon above 5 ppma causes SiC precipitates in crystal — hard particles that disrupt wafer slicing and device fabrication.
 
-### Resource Budget Per Crystal (150 mm, ~15 kg)
+## Resource Budget Per Crystal (150 mm, ~15 kg)
 
 | Resource | Quantity | Notes |
 |----------|----------|-------|
@@ -139,11 +139,11 @@ This document covers the CZ puller as a **machine** — design, materials, fabri
 | Electricity | ~200-400 kWh | Heater + motors + cooling water pumps |
 | Graphite susceptor | ~0.01 (amortized) | Lasts 50-100 pulls |
 
-### Downstream
+## Downstream
 
 Pulled ingots proceed to [Crystal Growth & Wafering](./crystal-growth.md) for cropping, grinding to diameter, wire saw slicing, lapping, and CMP polishing. Finished wafers feed [Basic Semiconductor Devices](./basic-devices.md) — primarily solar cells in early production, with the solar cell feedback loop (electricity → more furnaces → more silicon → more solar cells) driving exponential capacity growth.
 
-### Safety Hazards
+## Safety Hazards
 
 The CZ puller combines extreme heat, high electrical current, precision mechanisms, and argon atmosphere — all in one machine:
 - **Molten silicon spill**: 10-30 kg of silicon at 1420°C. Worst case: quartz crucible ruptures (wall thins from dissolution, thermal shock cracks) and molten silicon contacts water-cooled chamber shell → steam explosion. Crucible inspection before each run. Automatic thermal runaway shutdown. Secondary containment tray under crucible platform.
@@ -153,7 +153,7 @@ The CZ puller combines extreme heat, high electrical current, precision mechanis
 - **Rotation mechanism hazards**: Counter-rotating seed (5-15 RPM) and crucible (3-10 RPM) create pinch points. The crucible rotation drive is below the furnace — access during operation is prohibited. Guards on all rotating components. Emergency stop accessible from operator position.
 - **Burn hazards**: Chamber walls are water-cooled but internal graphite components remain at >1400°C. Even after power-off, thermal mass keeps the hot zone above 1000°C for hours. Cool-down period mandatory before chamber entry. Thermal gloves rated to 500°C for any post-run internal access.
 
-### Czochralski Process Detail
+## Czochralski Process Detail
 
 #### Apparatus Configuration
 
@@ -260,7 +260,7 @@ The hot zone is everything inside the furnace chamber between the heater and the
 - Hot zone rebuild after 100-300 hours takes 8-16 hours of downtime — new crucible, susceptor inspection, insulation replacement, SiO deposit cleaning
 - Radiation shields add thermal mass that slows temperature changes, reducing the response time of the diameter control PID loop
 
-### Pulling Procedure, Step by Step
+## Pulling Procedure, Step by Step
 
 Every CZ pull follows the same sequence. Timing and temperature control at each stage determine whether the result is a device-grade ingot or scrap silicon.
 
@@ -282,7 +282,7 @@ At full diameter, pull speed settles to 0.5-2.0 mm/min. This is the longest phas
 **Tail-out**:
 Near the end of the pull, melt volume is low and thermal gradients steepen. Rather than yanking the crystal free (which causes thermal shock dislocations in the last 20-30 mm of ingot), pull speed is gradually increased to narrow the crystal into a tail. Diameter shrinks over 10-30 minutes until the crystal detaches naturally from the melt. The finished ingot is lifted into the upper chamber, the gate valve closes, and the crystal cools under argon before removal.
 
-### Dopant Addition and Resistivity Control
+## Dopant Addition and Resistivity Control
 
 Electrical properties of the crystal come from dopants added to the melt before pulling. The choice of dopant and its concentration determine resistivity, which in turn determines whether the wafer works for a given device.
 
@@ -298,7 +298,7 @@ Typical targets: 1-100 Ω·cm. Solar cells use 1-10 Ω·cm (moderately doped for
 **Oxygen from crucible dissolution**:
 Fused silica crucibles slowly dissolve into the melt during growth, introducing 5-20 ppma (parts per million atomic) of oxygen into the crystal. This is not purely harmful. When wafers are heat-treated at 600-800°C in subsequent processing, interstitial oxygen precipitates as SiO₂ clusters in the wafer bulk. These clusters act as gettering sites: they trap metallic impurities (iron, copper, nickel) that would otherwise degrade device performance in the active surface region. This "internal gettering" is a deliberate feature of CZ-grown silicon. Float-zone silicon, by contrast, has oxygen below 1 ppma and lacks this built-in gettering.
 
-### Crystal Properties and Defect Classification
+## Crystal Properties and Defect Classification
 
 Not all crystals are created equal. The defect density determines whether an ingot is electronic grade, solar grade, or scrap.
 
@@ -314,7 +314,7 @@ Crystal originated particles (COP) are tiny octahedral voids, 50-200 nm in size,
 **Nitrogen doping for COP suppression**:
 Adding 1-5×10¹⁴ nitrogen atoms/cm³ to the melt suppresses COP formation. Nitrogen atoms bind to vacancies during growth, preventing them from clustering into voids. The nitrogen is introduced as Si₃N₄ powder mixed into the polysilicon charge. For bootstrap production targeting solar cells rather than sub-micron ICs, COP suppression is a low priority. But if the goal is CMOS logic at 1 μm or below, nitrogen-doped CZ silicon is worth the added process complexity.
 
-### Hot Zone Design and Maintenance
+## Hot Zone Design and Maintenance
 
 The "hot zone" is everything inside the furnace chamber that is not the crystal or the melt: heater, insulation, susceptor, radiation shields, gas flow channels, and structural supports. Hot zone design determines temperature uniformity, power consumption, crystal quality, and operational lifetime.
 
@@ -330,7 +330,7 @@ The fused silica crucible dissolves at 0.01-0.03 mm per hour into the melt. A cr
 **Power efficiency and thermal balance**:
 A 200 mm CZ puller running a 20 kg crystal consumes roughly 200-400 kWh over its 24-48 hour cycle. Of the total heater input power (50-100 kW), only about 10-15 kW goes into maintaining the melt at 1420°C. The rest is lost to radiation, convection in the argon, and conduction through supports. Good insulation and radiation shielding are not luxury features; they are the difference between a puller that runs on 50 kW and one that needs 100 kW, which matters enormously when your electricity supply is limited. Every kilowatt saved on the puller is a kilowatt available for another furnace, another process step, another step up the production curve.
 
-### Process Parameter Summary
+## Process Parameter Summary
 
 | Parameter | Value | Tolerance |
 |-----------|-------|-----------|
@@ -345,6 +345,6 @@ A 200 mm CZ puller running a 20 kg crystal consumes roughly 200-400 kWh over its
 | Dash neck diameter | ~3 mm | ±0.5 mm |
 | Pull rod straightness | — | <0.05 mm over 1200 mm |
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*
+
+[← Back to Silicon](index.md)

@@ -8,13 +8,12 @@
 > **Outputs**: adhesives, coatings, anodized_aluminum, galvanized_steel
 > **Critical**: No — adhesives and coatings enhance product durability but do not enable new capabilities until semiconductor packaging
 
-## Overview
 
 Adhesives bond materials by surface attachment rather than mechanical fastening. From birch tar hafting in the stone age to epoxy molding compounds in semiconductor packaging, adhesive technology spans every era of industrial development. This capability covers natural adhesives (hide glue, casein, starch paste, birch tar), synthetic adhesives (phenolic, epoxy, cyanoacrylate, silicone, UV-cure), and semiconductor-specific adhesives (epoxy molding compounds, die attach films). Also covers anodizing and galvanizing as metal coating processes complementary to the paint and powder coating systems covered in [Paints, Coatings & Inks](coatings.md).
 
 ## Natural Adhesives
 
-### Hide Glue (Animal Glue)
+## Hide Glue (Animal Glue)
 
 **Chemistry**: Collagen hydrolysis. Animal hides, bones, and sinew contain collagen — a triple-helix protein that denatures and dissolves in hot water. Upon cooling, the randomly coiled protein chains entangle and form hydrogen bonds, creating a rigid gel.
 
@@ -35,7 +34,7 @@ Adhesives bond materials by surface attachment rather than mechanical fastening.
 
 **Weaknesses**: Not water-resistant — moisture destroys the bond; limited to porous substrates (wood, paper, canvas); requires heated application (60-70°C); susceptible to bacterial/mold degradation in humid conditions.
 
-### Casein Glue
+## Casein Glue
 
 **Chemistry**: Casein is the principal protein in milk (80% of milk protein). In acid conditions (pH 4.6), casein precipitates as a curd. When redissolved in alkali (lime, NaOH, or borax), it forms a viscous adhesive.
 
@@ -56,7 +55,7 @@ Adhesives bond materials by surface attachment rather than mechanical fastening.
 
 **Weaknesses**: Limited pot life (2-4 hours after mixing); susceptible to mold without preservatives; requires precise pH control for casein precipitation; not suitable for continuous industrial production (batch mixing only).
 
-### Starch Paste
+## Starch Paste
 
 **Chemistry**: Starch is a polysaccharide (amylose + amylopectin) from grain (wheat, rice, corn) or tubers (potato, cassava/tapioca). When heated in water (60-80°C), starch granules swell and burst, releasing amylose that thickens the suspension into a paste (gelatinization).
 
@@ -73,7 +72,7 @@ Adhesives bond materials by surface attachment rather than mechanical fastening.
 
 **Weaknesses**: Very low structural strength (1-3 MPa); poor water resistance (reverts to paste when wet); short shelf life (2-7 days, ferments at room temperature); limited to paper and light wood bonding.
 
-### Blood Glue
+## Blood Glue
 
 **Chemistry**: Blood albumin (serum albumin protein) denatures and coagulates with heat, forming an insoluble, water-resistant bond. Blood glue was a major industrial adhesive for plywood production before synthetic resins.
 
@@ -90,7 +89,7 @@ Adhesives bond materials by surface attachment rather than mechanical fastening.
 
 **Weaknesses**: Requires fresh blood supply (biological material handling); limited pot life once mixed with lime; hot-press equipment needed (80-120°C, 1.0-1.5 MPa); completely displaced by phenolic resins in modern industry.
 
-### Birch Tar
+## Birch Tar
 
 **Chemistry**: Dry distillation of birch bark (Betula species) at 300-400°C in the absence of air. The bark contains betulin (a triterpene) and other terpenoid compounds that thermally decompose into a sticky, waterproof tar. See [Stone & Wood Tools](../foundations/tools-basic.md) for the hafting application.
 
@@ -109,7 +108,7 @@ Adhesives bond materials by surface attachment rather than mechanical fastening.
 
 ## Synthetic Adhesives
 
-### Phenolic Resin Adhesive
+## Phenolic Resin Adhesive
 
 **Chemistry**: Phenol-formaldehyde condensation polymerization. Phenol (C₆H₅OH) reacts with formaldehyde (CH₂O) in alkaline conditions (NaOH catalyst) to form methylol phenols, which then condense to form a cross-linked thermoset network. This is the Bakelite process.
 
@@ -123,7 +122,7 @@ Adhesives bond materials by surface attachment rather than mechanical fastening.
 
 **Weaknesses**: Requires heat cure (140-170°C) — not room-temperature curable; dark brown bond line (visible through thin veneers); formaldehyde emissions during cure (health concern); brittle — not suitable for flexible or dynamic joints; exothermic cure can scorch thick sections.
 
-### Epoxy Adhesive
+## Epoxy Adhesive
 
 **Chemistry**: Bisphenol A diglycidyl ether (DGEBA) epoxy resin reacted with a curing agent (hardener). The most common system:
 
@@ -145,7 +144,7 @@ Adhesives bond materials by surface attachment rather than mechanical fastening.
 
 **Weaknesses**: Two-part mixing required (precise ratio critical); limited pot life after mixing (30-60 min); moderate heat resistance (Tg 80-120°C for RT cure); UV degradation in outdoor exposure without protective coating; water absorption reduces bond strength 10-30% over time.
 
-### Cyanoacrylate Adhesive
+## Cyanoacrylate Adhesive
 
 **Chemistry**: Alkyl cyanoacrylate monomers (methyl, ethyl, butyl, or octyl esters) polymerize by anionic initiation. Trace moisture on the substrate surface provides hydroxide ions (OH⁻) that initiate rapid chain-growth polymerization. The reaction is exothermic and essentially instantaneous (hence "instant glue" or "superglue").
 
@@ -159,7 +158,7 @@ Adhesives bond materials by surface attachment rather than mechanical fastening.
 
 **Weaknesses**: Very brittle — low peel and impact strength; poor gap-filling (optimal 0.05-0.15 mm); degrades in moist environments over months; poor heat resistance (Tg 80-120°C); blooming (white residue on nearby surfaces); inhibited by acidic surfaces.
 
-### Silicone Adhesive
+## Silicone Adhesive
 
 **Chemistry**: RTV (Room-Temperature Vulcanizing) silicone adhesives. Polydimethylsiloxane (PDMS) polymer cross-linked by one of two mechanisms:
 
@@ -174,7 +173,7 @@ Adhesives bond materials by surface attachment rather than mechanical fastening.
 
 **Weaknesses**: Very low structural strength (1-5 MPa lap shear); poor adhesion without primer; slow through-cure (24-48 hours for thick beads); acetoxy cure releases corrosive acetic acid; cannot be painted (silicone prevents paint adhesion).
 
-### UV-Cure Adhesives
+## UV-Cure Adhesives
 
 **Chemistry**: Acrylate or epoxy-based resins containing photoinitiators that generate free radicals or cations upon exposure to ultraviolet light (200-400 nm). The activated species initiate rapid chain polymerization, curing the adhesive in seconds.
 
@@ -188,7 +187,7 @@ Adhesives bond materials by surface attachment rather than mechanical fastening.
 
 ## Semiconductor-Specific Adhesives
 
-### Epoxy Molding Compounds (EMC)
+## Epoxy Molding Compounds (EMC)
 
 **Chemistry**: Epoxy resin (typically cresol novolac epoxy) with phenolic novolac hardener, filled with 70-90% by weight spherical fused silica (SiO₂) for low coefficient of thermal expansion (CTE), plus accelerator, coupling agent (silane), flame retardant (antimony trioxide or phosphorus-based), and stress-relief additives.
 
@@ -215,7 +214,7 @@ Adhesives bond materials by surface attachment rather than mechanical fastening.
 
 **Weaknesses**: Popcorning failure during solder reflow from absorbed moisture (requires JEDEC MSL handling); opaque — prevents visual inspection of die after molding; irreversible — cannot rework defective packages; ionic impurities (Na⁺, Cl⁻) must be <5 ppm to prevent corrosion; exothermic cure in thick sections.
 
-### Die Attach Films (DAF)
+## Die Attach Films (DAF)
 
 **Epoxy-based DAF**: B-stage epoxy film (partially cured, tacky solid at room temperature) applied between die and substrate/leadframe. Lamination at 80-100°C, 0.5-2.0 MPa for 5-30 seconds to bond. Final cure: 150-175°C for 30-60 minutes. Film thickness: 10-40 μm (controlled by the film manufacturer). Bond strength: 10-25 MPa (die shear). Thermal conductivity: 0.5-3.0 W/m·K (filled with silver particles for electrically conductive versions, or alumina for electrically insulating).
 
@@ -227,7 +226,7 @@ Adhesives bond materials by surface attachment rather than mechanical fastening.
 
 **Weaknesses (DAF)**: Expensive vs. paste adhesives; limited shelf life (B-stage epoxy must be refrigerated); film must be cut or patterned for each die size; voids trapped under large die if lamination pressure insufficient.
 
-### Photoresist as Coating
+## Photoresist as Coating
 
 Photoresist functions as a temporary protective coating during semiconductor fabrication. See [Paints, Coatings & Inks](coatings.md) for detailed photoresist chemistry. Key coating parameters for semiconductor use:
 
@@ -236,7 +235,7 @@ Photoresist functions as a temporary protective coating during semiconductor fab
 - **Soft bake**: 90-110°C for 60-90 seconds on hotplate (removes casting solvent, typically PGMEA or ethyl lactate). Solvent content reduced from 30-50% to <5%
 - **Post-exposure bake (PEB)**: 80-130°C for 60-90 seconds. For chemically amplified resists: drives the acid-catalyzed deprotection reaction
 
-### Wafer Mounting Tapes
+## Wafer Mounting Tapes
 
 **Backgrinding tape**: UV-curable adhesive tape applied to wafer frontside before backgrinding (wafer thinning from 725 μm to 100-200 μm). Adhesive: acrylic-based, moderate tack (holds wafer during grinding, releases cleanly after UV exposure). UV cure reduces adhesive bond strength by 80-90%, enabling damage-free wafer removal after thinning. Tape thickness: 80-130 μm (PVC or PO base film + 5-15 μm adhesive layer).
 
@@ -244,7 +243,7 @@ Photoresist functions as a temporary protective coating during semiconductor fab
 
 ## Metal Coating Processes
 
-### Anodizing
+## Anodizing
 
 **Chemistry**: Electrochemical conversion of aluminum surface to aluminum oxide (Al₂O₃). The aluminum workpiece serves as the anode in an electrolytic cell. Oxygen generated at the anode reacts with aluminum to form a porous oxide layer.
 
@@ -264,7 +263,7 @@ Photoresist functions as a temporary protective coating during semiconductor fab
 
 **Weaknesses**: Only applicable to aluminum (not steel or other metals); sulfuric acid electrolyte requires careful handling and waste treatment; tight temperature control required (18-22°C for Type II, -1 to +5°C for Type III); reduces fatigue strength by 10-20% (surface oxide acts as stress concentrator); coating dimension adds to part (50% penetration, 50% growth).
 
-### Hot-Dip Galvanizing
+## Hot-Dip Galvanizing
 
 See [Paints, Coatings & Inks](coatings.md) for detailed galvanizing process parameters. Summary of key parameters:
 
@@ -316,6 +315,6 @@ See [Paints, Coatings & Inks](coatings.md) for detailed galvanizing process para
 - Anodizing depends on [Acids](acids.md) (sulfuric acid electrolyte) and [Electrolysis](electrolysis.md) (DC power supply)
 - Galvanizing depends on [Metals](../metals/index.md) (zinc supply) and [Energy](../energy/index.md) (process heat at 460°C)
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+[← Back to Chemistry](index.md)

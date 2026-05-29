@@ -9,7 +9,7 @@
 
 Vulcanization is the irreversible chemical process that converts raw rubber (thermoplastic, sticky, temperature-sensitive) into a durable elastomer with stable mechanical properties across a useful temperature range. The process was discovered by Charles Goodyear in 1839 when he accidentally heated a rubber-sulfur mixture on a stove. This single discovery enabled every application of rubber that matters: tires, seals, gaskets, hoses, belts, and vibration isolators. See [Rubber Production](./rubber.md) for an overview and [Natural Rubber](./natural.md) for raw rubber processing.
 
-### Vulcanization Chemistry
+## Vulcanization Chemistry
 
 **Sulfur cross-linking mechanism**: Sulfur atoms form covalent bridges (polysulfide chains —Sₓ—, where x = 1–8) between adjacent polymer chains at allylic carbon positions. These bridges create a three-dimensional molecular network that prevents permanent chain slippage under deformation. The cross-linked rubber recovers its original shape after stretching because the network stores elastic energy.
 
@@ -22,7 +22,7 @@ Vulcanization is the irreversible chemical process that converts raw rubber (the
 | Monosulfide (—S—) | Short | High (stable to 160°C) | Lower tear strength | Moderate |
 | Carbon-carbon (peroxide) | None | Very high (stable >200°C) | Moderate | Lower |
 
-### Cure Systems
+## Cure Systems
 
 Three main cure system families control the type and density of cross-links:
 
@@ -51,7 +51,7 @@ Three main cure system families control the type and density of cross-links:
 - Applications: general-purpose molded goods, O-rings, gaskets
 - Cure conditions: 140–160°C, 10–25 minutes
 
-### Cure Parameters by Rubber Type
+## Cure Parameters by Rubber Type
 
 | Rubber Type | Cure Agent | Temperature (°C) | Time (min) | Pressure (MPa) | Notes |
 |---|---|---|---|---|---|
@@ -64,7 +64,7 @@ Three main cure system families control the type and density of cross-links:
 | FKM (Viton) | Bisphenol or peroxide | 170–200 | 5–15 | 7–20 | Post-cure 200–250°C, 4–24 hrs |
 | Butyl (IIR) | Sulfur 1.5–2.5 phr | 150–170 | 15–30 | 5–20 | Halobutyl cures faster |
 
-### Vulcanization Equipment
+## Vulcanization Equipment
 
 **Compression molding press**:
 - Hydraulic press, 10–200 tons clamp force. Platens heated by steam, oil, or electric cartridges.
@@ -92,7 +92,7 @@ Three main cure system families control the type and density of cross-links:
 - Cure time depends on steam pressure and article thickness: 30–120 minutes typical.
 - Used for: hoses (wrapped on mandrels), conveyor belts (built on flat tables, cured in long autoclaves), extruded weatherstripping.
 
-### Cure Monitoring and Control
+## Cure Monitoring and Control
 
 **Oscillating Disc Rheometer (ODR) / Moving Die Rheometer (MDR)**:
 - The standard instrument for measuring vulcanization behavior. A small rubber sample (5–10 g) is heated to the test temperature (typically 150°C or 160°C) in a sealed die. A disc or die oscillates at small amplitude (±0.5° or ±1°), and the torque required for oscillation is measured continuously.
@@ -105,7 +105,7 @@ Three main cure system families control the type and density of cross-links:
 
 **Practical cure time selection**: Production cure time = t_90 + safety margin (typically +10–20%). For thick parts, add extra time for heat penetration to the center (rule of thumb: add 1 minute per mm of thickness above 3 mm).
 
-### Post-Cure Processing
+## Post-Cure Processing
 
 After demolding, vulcanized rubber parts require:
 - **Deflashing**: Remove flash (excess material at mold parting lines) by:
@@ -114,7 +114,7 @@ After demolding, vulcanized rubber parts require:
   - Buffing (abrasive wheel grinding — for precision surfaces)
 - **Post-cure oven** (for FKM, silicone, and some peroxide-cured compounds): Heat to 200–250°C for 4–24 hours in a circulating air oven. Drives off volatile byproducts and completes residual cross-linking. Essential for FKM — without post-cure, compression set is unacceptably high (>50% vs. <25% after proper post-cure).
 
-### Hardness Scales
+## Hardness Scales
 
 Rubber hardness is measured by the depth of indentation of a standardized indenter under a specified force. Two scales are used for elastomeric materials:
 
@@ -157,7 +157,7 @@ Rubber hardness is measured by the depth of indentation of a standardized indent
 | Vibration isolators | 40–60 | Low stiffness for maximum isolation |
 | Backup rings | 85–95 | High modulus prevents extrusion |
 
-### Compounding Ingredients Detail
+## Compounding Ingredients Detail
 
 **Reinforcing fillers**:
 
@@ -187,7 +187,7 @@ Rubber hardness is measured by the depth of indentation of a standardized indent
 - 6PPD (N-(1,3-dimethylbutyl)-N'-phenyl-p-phenylenediamine): 1–3 phr. Combined antioxidant and antiozonant. Protects tire sidewalls from ozone cracking — the primary failure mode for outdoor-exposed rubber. Migrates to the rubber surface to react with ozone before it can attack the polymer backbone.
 - Wax (paraffin or microcrystalline, 1–2 phr): Blooms to the rubber surface forming a physical barrier against ozone. Effective for static seals but not dynamic applications (flexing breaks the wax film).
 
-### Reversion and Overcure
+## Reversion and Overcure
 
 Natural rubber undergoes "reversion" when overcured — the polysulfide cross-links thermally break, and the main chain undergoes chain scission. This reduces cross-link density, softens the rubber, and degrades mechanical properties. Indicators:
 - Decreasing torque on rheometer after peak (the classic "reversion curve")
@@ -199,7 +199,7 @@ Natural rubber undergoes "reversion" when overcured — the polysulfide cross-li
 
 Synthetic rubbers (SBR, BR, NBR) are less prone to reversion than NR — their cross-links are more thermally stable. This is one reason SBR is blended with NR in tire compounds: the SBR component provides reversion resistance during high-temperature curing.
 
-### Non-Sulfur Cure Systems
+## Non-Sulfur Cure Systems
 
 **Peroxide cure** (for silicone, EPDM, and some specialty compounds):
 - Dicumyl peroxide (DCP): 1–3 phr. Decomposes at 150–175°C to generate free radicals that create carbon-carbon cross-links between polymer chains.
@@ -215,7 +215,7 @@ Synthetic rubbers (SBR, BR, NBR) are less prone to reversion than NR — their c
 - Bisphenol AF + phosphonium salt accelerator. Requires high-temperature post-cure (200–250°C, 4–24 hours).
 - Produces cross-links with excellent chemical and thermal resistance.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Vulcanization burns**: Press platens at 140–180°C and autoclave steam at 3–10 bar cause severe thermal burns and scalds. Steam burns are especially severe due to latent heat of condensation (2260 kJ/kg at 1 atm). Use thermal gloves, face shields, and long sleeves.
 - **Nitrosamine formation**: Certain accelerators (TMTD, DTDM, MOR) form N-nitrosamines during vulcanization — confirmed carcinogens. Use nitrosamine-safe alternatives (TBzTD, ZBEC) where possible.

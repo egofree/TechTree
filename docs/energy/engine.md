@@ -26,11 +26,10 @@ The economic impact is hard to overstate. A single diesel generator producing 50
 
 The four thermodynamic cycles that underpin these engines differ in how they handle the compression, combustion, and expansion phases. The Stirling cycle compresses and expands isothermally (at constant temperature), with heat addition and rejection occurring through external heat exchangers. The Otto cycle compresses a fuel-air mixture, adds heat by rapid combustion at near-constant volume (the power stroke), then expands and exhausts. The Diesel cycle compresses air alone to higher pressure and temperature, then adds heat by injecting fuel gradually during the expansion stroke (constant-pressure combustion). The Brayton cycle compresses air continuously, adds heat at constant pressure in a combustor, and expands through a turbine. Each cycle's efficiency depends primarily on its compression ratio and peak temperature, which is why the progression from Stirling through Otto to Diesel to Brayton mirrors a progression in operating severity and manufacturing difficulty.
 
----
 
 ## Tier 1: External Combustion Bridge (Years 15-25)
 
-### Stirling Engine
+## Stirling Engine
 
 Closed-cycle external combustion engine. Working gas (air, helium, or hydrogen) is permanently sealed inside the engine and alternately heated and cooled. No valves, no explosions, just smooth, quiet operation. Invented by Robert Stirling in 1816, decades before internal combustion engines.
 
@@ -103,11 +102,10 @@ Power modulation in Stirling engines is less responsive than in internal combust
 
 **Two-stroke Stirling variants**: Some Stirling engine designs use a single piston that serves as both displacer and power piston, eliminating the separate displacer mechanism. These "free-piston" Stirling engines use gas springs and the pressure differential between hot and cold spaces to drive the piston oscillation without a crankshaft. The simplicity is attractive, but tuning the gas spring resonance to match the desired operating frequency requires precise design. Free-piston Stirling engines have been developed for space power applications (radioisotope Stirling generators) where long life and zero maintenance matter more than simplicity of design.
 
----
 
 ## Tier 2: Internal Combustion — Otto Cycle (Years 20-30)
 
-### Otto Cycle (Four-Stroke Gasoline Engine)
+## Otto Cycle (Four-Stroke Gasoline Engine)
 
 Invented by Nikolaus Otto (1876). The dominant engine for road vehicles and small aircraft. Internal combustion engines convert chemical energy in fuel directly into mechanical work inside the engine itself, unlike steam engines (external combustion) where fuel burns in a separate boiler. The key advantage is power-to-weight ratio: a gasoline engine produces 0.5-5 kW per kilogram of engine weight, compared to 0.01-0.05 kW/kg for a steam engine.
 
@@ -180,11 +178,10 @@ Knock, or detonation, is the primary limit on Otto cycle performance. Normal com
 
 **Supercharging and turbocharging (gasoline)**: Gasoline engines can also be supercharged or turbocharged to increase power output. A supercharger is mechanically driven by the engine (belt or gear), consuming some of the engine's output to compress the intake air. A turbocharger uses exhaust gas energy, similar to diesel turbocharging. The challenge with boosting gasoline engines is knock: the higher cylinder pressure and temperature from compressed intake air push the mixture closer to auto-ignition. Boosted gasoline engines therefore require lower compression ratios (typically 8:1 to 10:1 vs. 10:1 to 12:1 for naturally aspirated), higher-octane fuel, and often an intercooler to reduce intake air temperature. Despite these challenges, turbocharged gasoline engines (particularly small-displacement "downsized" engines) are common in modern vehicles because they offer the power of a larger engine with better part-load efficiency. For bootstrap production, naturally aspirated gasoline engines are simpler and more robust, and the additional complexity of turbocharging is better applied to diesel engines where the benefits are greater and the knock constraint does not exist.
 
----
 
 ## Tier 3: Internal Combustion — Diesel Cycle (Years 25-40)
 
-### Diesel Cycle
+## Diesel Cycle
 
 Invented by Rudolf Diesel (1892). Higher efficiency than Otto cycle, used for trucks, heavy equipment, ships, and generators. The diesel engine's ability to burn less refined fuel and extract more work per unit of fuel made it the backbone of heavy transport and stationary power.
 
@@ -269,11 +266,10 @@ Invented by Rudolf Diesel (1892). Higher efficiency than Otto cycle, used for tr
 - Higher weight per kW than gasoline engines
 - Produces more particulate matter and NOx than gasoline engines per unit of fuel
 
----
 
 ## Tier 4: Advanced Engines (Years 35-50+)
 
-### Gas Turbines (Brayton Cycle)
+## Gas Turbines (Brayton Cycle)
 
 Continuous-flow engine operating on the Brayton cycle: compressor, combustor, turbine. Air is compressed, fuel is injected and burned at constant pressure, and the resulting hot gas expands through the turbine. First practical gas turbines developed by Frank Whittle (UK) and Hans von Ohain (Germany), independently in the 1930s. The gas turbine was the last fundamental heat engine type invented, and it remains the most demanding to manufacture.
 
@@ -356,7 +352,6 @@ The fundamental challenge of the gas turbine is that the compressor and turbine 
 - Late-stage technology, not achievable early in the bootstrap process
 - Blade life limited by creep, thermal fatigue, and oxidation (inspection and replacement at defined intervals)
 
----
 
 ## Materials of Construction
 
@@ -419,7 +414,6 @@ These tolerances require the full machine tool bootstrap: lathe, mill, drill pre
 
 **Alternative fuel production for engines**: In the absence of petroleum, several engine fuels can be produced from biomass or coal. Producer gas (also called wood gas or syngas) is generated by partial combustion of wood or charcoal in a gasifier. The gas contains roughly 20% CO, 15-20% H₂, 10-15% CO₂, and 50-60% N₂, with a heating value of 5-6 MJ/m³ (about 1/6 the energy density of natural gas by volume). Producer gas can power modified gasoline engines: the carburetor is replaced with a gas mixer, and the ignition timing is advanced to compensate for the slower flame speed of the gas. Power output drops to 40-60% of gasoline operation because the gas displaces some of the intake air and has lower energy per unit volume. Ethanol is produced by fermenting sugars or starches (from grain, sugar cane, or cellulosic biomass after hydrolysis) and distilling to 95% (or higher with molecular sieve dehydration). Ethanol has an octane rating of 109 RON, making it an excellent gasoline substitute for engines designed or modified to run on it. However, ethanol has only ~26 MJ/kg energy density (vs. ~44 MJ/kg for gasoline), meaning fuel consumption increases by volume. Ethanol is also hygroscopic (absorbs water from air) and can corrode certain metals and swell some elastomers not designed for alcohol service. Biodiesel is produced by transesterification of vegetable oil or animal fat with methanol in the presence of a catalyst (sodium or potassium hydroxide). The resulting fatty acid methyl ester (FAME) has properties similar to petroleum diesel and can be used in unmodified diesel engines at blend levels up to B100 (100% biodiesel), though cold flow properties are worse and oxidation stability is shorter.
 
----
 
 ## Applications
 
@@ -443,7 +437,6 @@ The range of applications for heat engines reflects the wide spectrum of power d
 
 **Cogeneration (CHP)**: When an engine drives a generator, 55-75% of the fuel energy becomes waste heat in the exhaust and cooling system. Combined heat and power (CHP) systems capture this waste heat for space heating, water heating, industrial process heat, or absorption refrigeration. A diesel generator with CHP can utilize 75-85% of the fuel energy, compared to 35-45% for electricity generation alone. Gas turbines are especially attractive for CHP because the exhaust temperature (450-600°C) is high enough to drive industrial processes directly (drying, steam generation, absorption chillers). In a bootstrap economy where every unit of fuel energy matters, CHP significantly improves the return on scarce petroleum or biomass resources.
 
----
 
 ## Selection Guide
 
@@ -519,7 +512,7 @@ For electricity generation specifically, diesel generators are the default choic
 - **Weight and vibration**: Internal combustion engines are heavy relative to their power output compared to electric motors. Single-cylinder engines produce significant vibration requiring massive foundations or balance weights. Multi-cylinder configurations reduce vibration but add complexity. Gas turbines are the exception: they achieve high power-to-weight ratios through continuous flow and high RPM.
 - **Thermal efficiency ceiling**: Practical diesel engines achieve 35-45% thermal efficiency; gasoline engines 25-35%. The remaining 55-75% of fuel energy is lost as waste heat through exhaust and cooling systems. This waste heat can be partially recovered (combined cycle, cogeneration) but never eliminated. The Carnot limit sets a hard ceiling on how much of the fuel energy can become mechanical work.
 
-### Efficiency Comparison by Engine Type
+## Efficiency Comparison by Engine Type
 
 | Engine Type | Compression Ratio | Peak Cylinder Pressure (bar) | Peak Temperature (°C) | Thermal Efficiency | Exhaust Temperature (°C) |
 |------------|-------------------|------------------------------|----------------------|-------------------|------------------------|
@@ -537,7 +530,7 @@ For electricity generation specifically, diesel generators are the default choic
 **Comparison with electric motors**: Electric motors achieve 85-97% efficiency (vs. 25-50% for heat engines), have one moving part (the rotor), require no fuel or lubrication system, produce zero emissions at point of use, and operate silently. However, electric motors require electricity, which must be generated somewhere (often by heat engines). The choice between engine-driven and electric-driven systems is ultimately a question of energy infrastructure. Where grid electricity is available, electric motors are almost always superior for stationary applications. Heat engines come into their own where portable power is needed (vehicles, aircraft, remote locations) or where the electricity grid does not reach. In a bootstrap economy, the sequence is: first build engines for mechanical power, then build generators to convert engine power to electricity, then build electric motors for stationary applications where the grid exists, and use engines for mobile power where the grid cannot reach.
 - **Infrastructural dependency**: Engines require a supply chain for fuel, lubricating oil, spare parts (filters, belts, hoses, gaskets), and skilled mechanics. A diesel generator is useless without diesel fuel, and a gasoline engine with a clogged carburetor is a paperweight. In a bootstrap scenario, the fuel supply chain (petroleum extraction, transport, refining, distribution) may be more constraining than the engine manufacturing itself. Alternative fuels (producer gas, biodiesel) can fill the gap, but each requires its own production infrastructure.
 
-### Common Failure Modes
+## Common Failure Modes
 
 Understanding how engines fail is essential for design, maintenance, and diagnosis. The most common failure modes for reciprocating internal combustion engines are:
 
@@ -563,9 +556,8 @@ Understanding how engines fail is essential for design, maintenance, and diagnos
 - [Machining](../machine-tools/machining.md) — Precision machining for engine components
 - [Precision Metrology](../measurement/precision-metrology.md) — Measurement instruments for engine assembly
 
----
 
-### Engine Glossary
+## Engine Glossary
 
 - **Bore**: Cylinder internal diameter. Typical range 60-120 mm for automotive engines, up to 960 mm for marine diesels.
 - **Stroke**: Distance the piston travels from TDC to BDC. Determines displacement together with bore. Typical range 60-120 mm for automotive engines.
@@ -582,6 +574,6 @@ Understanding how engines fail is essential for design, maintenance, and diagnos
 - **Scavenging**: The process of clearing exhaust gases from the cylinder and replacing them with fresh charge. In four-stroke engines, the exhaust stroke handles this. In two-stroke engines, the incoming fresh charge pushes the exhaust out through the open ports.
 - **Overspeed**: Engine speed exceeding the design limit. In diesel engines, overspeed occurs if the load is lost and the governor fails. In gas turbines, overspeed occurs on load rejection. Overspeed causes catastrophic mechanical failure from centrifugal forces exceeding the design strength of rotating components.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+
+[← Back to Energy](index.md)

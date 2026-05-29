@@ -7,7 +7,6 @@
 > **Timeline**: Years 0-25+
 > **Outputs**: beer, wine, spirits, industrial_ethanol, spent_grain, vinegar
 
-## Overview
 
 Brewing and distilling are the earliest industrial biotechnology. Beer and wine were historically safer to drink than water (the ethanol and low pH kill pathogens), making them workforce fuel rather than luxury goods. Distillation produces concentrated spirits (water purification: whiskey, brandy, rum) and industrial ethanol (solvent, fuel, chemical feedstock). The same fermentation knowledge that produces beer and wine also produces vinegar (acetic acid), a critical food preservative and cleaning agent.
 
@@ -15,7 +14,7 @@ For industrial fermentation chemistry (ethanol, acetone, butanol as chemical fee
 
 ## Bill of Materials
 
-### Beer Brewing Materials
+## Beer Brewing Materials
 
 | Material | Quantity per 100 L beer (5% ABV) | Source | Alternatives |
 |----------|:---------------------------------:|--------|-------------|
@@ -26,7 +25,7 @@ For industrial fermentation chemistry (ethanol, acetone, butanol as chemical fee
 | Calcium sulfate (gypsum) | 50-150 g | [Mining](../mining/index.md) | Calcium chloride (CaCl₂) — different ion profile |
 | Cleaning sanitizer | 50-100 mL 5% solution | [Chemistry](../chemistry/index.md) | Boiling water or steam |
 
-### Wine Making Materials
+## Wine Making Materials
 
 | Material | Quantity per 100 L wine (12% ABV) | Source | Alternatives |
 |----------|:---------------------------------:|--------|-------------|
@@ -35,7 +34,7 @@ For industrial fermentation chemistry (ethanol, acetone, butanol as chemical fee
 | Sulfur dioxide (Campden tablets) | 5-10 g | [Chemistry](../chemistry/index.md) | Pasteurization for stabilization |
 | Oak barrels (optional) | 1-4 barrels (225 L each) | [Forestry](../plants/index.md) | Stainless steel tanks (no oak character) |
 
-### Distilling Materials
+## Distilling Materials
 
 | Material | Quantity per L spirit (40% ABV) | Source | Alternatives |
 |----------|:-------------------------------:|--------|-------------|
@@ -46,7 +45,7 @@ For industrial fermentation chemistry (ethanol, acetone, butanol as chemical fee
 
 ## Process Description
 
-### Beer Brewing
+## Beer Brewing
 
 Beer is fermented malted grain. The basic process: malt grain → mash → boil with hops → ferment → condition.
 
@@ -96,7 +95,7 @@ Beer is fermented malted grain. The basic process: malt grain → mash → boil 
 - Temperature control demands consistent cooling (refrigeration or cellar at 8-15°C) — not available in hot climates without ice or mechanical cooling
 - Fermentation takes 1-4 weeks, requiring many vessels to maintain throughput
 
-### Wine Making
+## Wine Making
 
 **Grape wine**:
 1. **Harvest**: Grapes at 20-25° Brix (sugar content), pH 3.2-3.5. Harvest by hand or machine.
@@ -118,7 +117,7 @@ Beer is fermented malted grain. The basic process: malt grain → mash → boil 
 - Oak barrel aging ties up resources (225 L barrels costing timber and cooperage labor) for 6-24 months with no intermediate return
 - Malolactic fermentation is unpredictable without temperature control and can produce off-flavors if it occurs after bottling
 
-### Distilling
+## Distilling
 
 Distillation separates ethanol (boiling point 78.3°C) from water (100°C) by selective evaporation and condensation. Produces spirits of 40-95% ABV.
 
@@ -152,7 +151,7 @@ Distillation separates ethanol (boiling point 78.3°C) from water (100°C) by se
 - **Brandy**: Oak barrels, 2-10+ years. Similar principles to whiskey aging.
 - **Rum**: Oak barrels (often used bourbon barrels), 1-7+ years.
 
-### Industrial Ethanol
+## Industrial Ethanol
 
 Ethanol for industrial use (solvent, fuel, chemical feedstock) follows the same fermentation and distillation principles:
 
@@ -171,7 +170,7 @@ Ethanol for industrial use (solvent, fuel, chemical feedstock) follows the same 
 - Grain-based ethanol competes directly with food for grain supply — 1 L ethanol requires ~2.5 kg grain that could feed 5 people for a day
 - Denaturants (methanol, denatonium benzoate) make industrial ethanol toxic, requiring separate handling and storage from food-grade ethanol
 
-### Vinegar Production
+## Vinegar Production
 
 Vinegar (acetic acid 5-8% in water) is produced by aerobic oxidation of ethanol by Acetobacter bacteria:
 
@@ -194,7 +193,7 @@ Vinegar (acetic acid 5-8% in water) is produced by aerobic oxidation of ethanol 
 
 ## Quantitative Parameters
 
-### Fermentation Yields and Efficiency
+## Fermentation Yields and Efficiency
 
 | Product | Feedstock | Yield (L product per kg feedstock) | ABV | Primary Process Temperature |
 |---------|-----------|:----------------------------------:|:---:|:---------------------------:|
@@ -205,7 +204,7 @@ Vinegar (acetic acid 5-8% in water) is produced by aerobic oxidation of ethanol 
 | Neutral spirits (column) | Grain/sugar | 0.35-0.45 L/kg | 95.6% (max) | 78-100°C (distillation) |
 | Vinegar (submerged) | Wine/cider | 0.90-0.95 L/L | 5-15% acetic acid | 28-32°C |
 
-### Mashing Temperature Ranges and Effects
+## Mashing Temperature Ranges and Effects
 
 | Temperature Range | Enzyme Active | Effect on Wort |
 |:-----------------:|:-------------:|:--------------|
@@ -214,7 +213,7 @@ Vinegar (acetic acid 5-8% in water) is produced by aerobic oxidation of ethanol 
 | 68-72°C | α-amylase | Dextrin production → full body, less fermentable |
 | 76-78°C | None (mash-out) | Denatures all enzymes, fixes sugar profile |
 
-### Distillation Cut Points
+## Distillation Cut Points
 
 | Fraction | Temperature Range | ABV | Composition | Disposition |
 |----------|:-----------------:|:---:|-------------|:-----------:|
@@ -222,7 +221,7 @@ Vinegar (acetic acid 5-8% in water) is produced by aerobic oxidation of ethanol 
 | Hearts | 78-82°C | 65-80% | Clean ethanol | Product |
 | Tails | 82-95°C | 5-40% | Fusel alcohols, fatty acids | Redistill or discard |
 
-### Wort Gravity and Alcohol Calculations
+## Wort Gravity and Alcohol Calculations
 
 | Parameter | Symbol | Typical Range | Formula |
 |-----------|:------:|:-------------:|---------|
@@ -266,14 +265,14 @@ Vinegar (acetic acid 5-8% in water) is produced by aerobic oxidation of ethanol 
 
 ## Quality Control
 
-### Quality Control in Brewing
+## Quality Control in Brewing
 
 - **pH monitoring**: Mash pH must be 5.2-5.6 for optimal enzyme activity. Adjust with calcium salts (gypsum CaSO₄ at 100-300 mg/L, or calcium chloride CaCl₂ at 100-200 mg/L). Beer pH after fermentation: 3.8-4.4. pH >4.6 indicates incomplete fermentation or contamination.
 - **Microbiological testing**: Plate counts for wild yeast and bacteria. Lactic acid bacteria (Lactobacillus, Pediococcus) cause souring. Acetobacter produces vinegar. Wild yeast (Brettanomyces) produces barnyard flavors (desired in some Belgian styles, fault in most others).
 - **Diacetyl test**: Diacetyl (2,3-butanedione) produces a buttery flavor. Formed during fermentation, reabsorbed by yeast during conditioning. Diacetyl rest: raise temperature to 15-18°C for 2-3 days near end of fermentation. Test: heat sample to 60°C for 10 min, cool, smell for butter. If present, extend diacetyl rest.
 - **Carbonation**: Target 2.2-2.8 volumes CO₂ for most ales (1 volume = 1 L CO₂ per L beer at STP). Force carbonation at 10-15 psi at 4°C. Natural carbonation via priming sugar at 4-5 g/L.
 
-### Fermentation Biochemistry
+## Fermentation Biochemistry
 
 Understanding the chemistry of fermentation is essential for process control:
 
@@ -292,7 +291,7 @@ Glucose → 2 ethanol + 2 carbon dioxide + energy (for yeast)
 - **Alcohol by volume (ABV)**: ABV ≈ (OG - FG) × 131.25. Example: OG 1.050, FG 1.012 → ABV = (1.050 - 1.012) × 131.25 = 4.99%.
 - **Attenuation**: Percentage of sugars consumed. (OG - FG)/(OG - 1) × 100. Typical ale: 70-80%. High attenuation = dry beer. Low attenuation = sweet, full-bodied.
 
-## References
+## See Also
 
 - [Food Fermentation](fermentation.md) — broader fermentation biology, lactic acid fermentation
 - [Food Preservation](preservation.md) — vinegar as preservative, pasteurization
@@ -303,6 +302,6 @@ Glucose → 2 ethanol + 2 carbon dioxide + energy (for yeast)
 - [Energy](../energy/index.md) — heat for mashing, boiling, distillation
 - [Health & Sanitation](../health/sanitation.md) — microbiology, food safety
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*
+
+[← Back to Food Processing](index.md)

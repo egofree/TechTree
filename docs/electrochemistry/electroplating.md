@@ -20,13 +20,12 @@ Semiconductor interconnects — the microscopic copper wiring that connects tran
 - [Semiconductor fab processes](../photolithography/fab-processes.md) — damascene patterning and CMP planarization
 - [Cleanroom capability](../photolithography/cleanrooms.md) — contamination control for plating baths
 
-### Overview
 
 Electroplating deposits metal from solution onto a conductive substrate by reducing metal cations at the cathode using externally applied current. While the fundamental principle is shared with electrorefining (see [Electrolysis](../chemistry/electrolysis.md)), semiconductor electroplating demands far greater precision: feature sizes from 25 nm to 10 μm, aspect ratios up to 10:1, and film uniformity of ±5% across 300 mm wafers. The copper damascene process — where electroplated copper fills etched trenches and vias in the dielectric — has been the dominant interconnect technology since its introduction by IBM in 1997, replacing physical vapor deposition (PVD) aluminum at the 250 nm node and below.
 
 For bootstrapping semiconductor manufacturing, electroplating is the only practical method to fill high-aspect-ratio features with copper. PVD and CVD cannot achieve conformal coverage in deep, narrow trenches — the mean free path of sputtered atoms and the sticking coefficient of CVD precursors both work against complete fill. Electroplating achieves bottom-up fill through additive-controlled suppression and acceleration of deposition kinetics, enabling void-free copper in features smaller than 50 nm.
 
-### Copper Damascene Electroplating
+## Copper Damascene Electroplating
 
 The copper damascene process is the cornerstone of modern semiconductor interconnect fabrication. It replaces the earlier aluminum subtractive etch process with an additive (damascene) approach where copper is electroplated into patterned dielectric trenches and then planarized by CMP.
 
@@ -57,7 +56,7 @@ The copper damascene process is the cornerstone of modern semiconductor intercon
 3. **Bottom-up fill**: The accelerator (SPS) preferentially adsorbs at the feature bottom where the suppressor (PEG) concentration is lowest (limited diffusion into the feature). This causes faster plating at the bottom than at the opening, resulting in a V-shaped fill front that advances upward. Fill time: 10-60 seconds depending on feature depth and aspect ratio.
 4. **Overburden**: After the feature is filled, copper continues to build on the wafer surface (overburden). Overburden thickness: 0.5-5 μm, removed by CMP. Excessive overburden increases CMP time and cost.
 
-### Nickel Electroplating
+## Nickel Electroplating
 
 Nickel plating serves as a diffusion barrier and adhesion layer in semiconductor packaging and PCB fabrication.
 
@@ -76,7 +75,7 @@ Nickel plating serves as a diffusion barrier and adhesion layer in semiconductor
 - Internal stress: 20-50 MPa tensile (vs. 150-250 MPa for Watts bath). The low stress enables thick deposits (up to several mm) without cracking or delamination.
 - Applications: Electroformed stampers for CD/DVD/Blu-ray mastering, micro-molds for embossing, precision metal bellows, and rocket engine thrust chamber liners.
 
-### Gold Electroplating
+## Gold Electroplating
 
 Gold plating provides wire-bondable, corrosion-resistant, low-contact-resistance surfaces for semiconductor die bonding and connector contacts.
 
@@ -90,7 +89,7 @@ Gold plating provides wire-bondable, corrosion-resistant, low-contact-resistance
 
 **ENIG integration**: Gold plating for PCB pads uses a different approach — immersion gold over electroless nickel (see [Electrochemical Surface Processes](electrochemical-processes.md)). The immersion gold process is self-limiting (0.03-0.08 μm thick) because gold displaces nickel from the surface; when all exposed nickel is covered, the reaction stops.
 
-### Tin Electroplating
+## Tin Electroplating
 
 Tin plating provides solderable surfaces for electronic assembly and component leads.
 
@@ -104,7 +103,7 @@ Tin plating provides solderable surfaces for electronic assembly and component l
 
 **Tin whisker mitigation**: Pure tin develops conductive crystalline filaments (whiskers) over time — a reliability risk in lead-free electronics. Mitigation: post-plating annealing at 150°C for 1 hour (recrystallizes the tin, relieving internal compressive stress that drives whisker growth), or alloying with 2-3% bismuth. Tin-lead (Sn-Pb) plating does not whisker but is banned by RoHS for most applications.
 
-### Process Control & Metrology
+## Process Control & Metrology
 
 **Thickness control** (Faraday's law):
 - Mass deposited: m = (I × t × M) / (n × F)
@@ -123,7 +122,7 @@ Tin plating provides solderable surfaces for electronic assembly and component l
 - CVS (cyclic voltammetric stripping): measures organic additive concentrations by plating/stripping copper on a rotating disk electrode. The charge required to strip the plated copper is proportional to the effective accelerator/suppressor ratio. Essential for production bath control.
 - ICP-OES (inductively coupled plasma optical emission spectroscopy): measures dissolved metal and impurity concentrations in the bath. Critical for monitoring anode dissolution rate and contaminant buildup.
 
-### Copper Damascene in Semiconductor Fabrication
+## Copper Damascene in Semiconductor Fabrication
 
 The copper damascene process is integrated into the semiconductor fab flow after photolithography and etch of the dielectric (SiO₂ or low-k material). Each metal layer follows this sequence:
 
@@ -144,7 +143,7 @@ The copper damascene process is integrated into the semiconductor fab flow after
 
 At smaller nodes, the barrier and seed layers consume an increasing fraction of the via cross-section, reducing the conductive copper area. This drives the development of thinner barriers (2-3 nm by ALD) and thinner seeds (20-30 nm by CVD or electroless methods).
 
-### Plating Cell Design
+## Plating Cell Design
 
 **Wafer plating cell** (for semiconductor damascene copper):
 - **Vertical cup cell**: The wafer (cathode) is held face-down by a seal ring that exposes only the front surface to the electrolyte. A copper anode sits below. The cell volume is small (2-5 liters) to minimize bath inventory and additive consumption. The seal ring must not damage the wafer edge — vacuum chuck or elastomer O-ring seal.
@@ -156,7 +155,7 @@ At smaller nodes, the barrier and seed layers consume an increasing fraction of 
 - Parts are held on titanium or phosphor-bronze racks with individual contacts. Rack design is critical — contacts must hold parts securely, provide good electrical contact, and not shield any surface from the plating bath. Complex parts may need auxiliary anodes (small internal anodes placed inside cavities) to plate recessed areas.
 - Barrel plating: Small parts (fasteners, contacts) tumbled in a rotating perforated barrel immersed in the plating bath. The barrel rotation provides electrical contact through the tumbling action. Current density is lower and less uniform than rack plating, but throughput is high and labor is minimal.
 
-### Wastewater Treatment
+## Wastewater Treatment
 
 **Heavy metal removal**:
 - Rinse water from copper, nickel, and tin plating contains dissolved metals at 10-500 mg/L (well above discharge limits of 0.5-2 mg/L). Treatment: adjust pH to 9-11 with NaOH → metal hydroxide precipitation (Cu(OH)₂, Ni(OH)₂, Sn(OH)₂) → flocculate with polymer → settle in clarifier → filter sludge → dewater in filter press → dispose as hazardous waste.
@@ -165,7 +164,7 @@ At smaller nodes, the barrier and seed layers consume an increasing fraction of 
 **Cyanide destruction**:
 - Alkaline chlorination: Add sodium hypochlorite (NaOCl) to cyanide-containing waste at pH 10-11. First stage: CN⁻ + OCl⁻ → OCN⁻ (cyanate, much less toxic). Second stage: OCN⁻ + 2OCl⁻ + H₂O → CO₂ + N₂ + 2Cl⁻ + 2OH⁻ (complete oxidation). Monitor oxidation-reduction potential (ORP) to confirm complete destruction. Cyanide concentration in treated effluent must be <0.2 mg/L (EPA standard).
 
-### Defect Analysis
+## Defect Analysis
 
 **Common electroplating defects and remedies**:
 - **Pitting**: Small holes (1-50 μm) in the deposit caused by hydrogen bubbles adhering to the cathode surface. Remedy: increase agitation, add pit-blocking agents (wetting agents), reduce current density.
@@ -174,7 +173,7 @@ At smaller nodes, the barrier and seed layers consume an increasing fraction of 
 - **Poor adhesion**: Deposit peels or blisters from the substrate. Caused by contaminated surface (oil, oxide), insufficient strike plating, or wrong pre-treatment sequence. Remedy: improve cleaning, add strike layer, verify surface activation.
 - **Nodules**: Bumpy, rough projections on the deposit surface. Caused by particulate contamination (anode sludge, airborne particles) in the bath that act as nucleation sites. Remedy: continuous bath filtration (1-5 μm cartridge filters), anode bags (polypropylene fabric), clean room environment for semiconductor plating.
 
-### Plating Bath Chemistry Management
+## Plating Bath Chemistry Management
 
 **Copper damascene bath aging and replenishment**:
 - The plating bath is a living chemical system that evolves continuously during operation. Copper is consumed from the bath by deposition onto wafers and replenished by dissolution of the copper anode. In theory, the copper concentration remains constant (deposition = anode dissolution). In practice, the anode efficiency slightly exceeds the cathode efficiency (because some cathode current goes to H₂ evolution), causing copper concentration to slowly increase. Monitor Cu²⁺ by titration or atomic absorption weekly.
@@ -189,7 +188,7 @@ At smaller nodes, the barrier and seed layers consume an increasing fraction of 
 - Chloride (Cl⁻): 50-100 ppm (controlled parameter, not impurity)
 - Organic carbon (TOC): <100 ppm (excess organics cause voids and poor fill)
 
-### Environmental Regulations
+## Environmental Regulations
 
 **Restriction of Hazardous Substances (RoHS)**:
 - Lead (Pb): Banned in plating at >0.1% by weight. Historically used in tin-lead (Sn-Pb) solder plating; replaced by pure tin, tin-silver, or tin-bismuth alloys.
@@ -200,7 +199,7 @@ At smaller nodes, the barrier and seed layers consume an increasing fraction of 
 - Per- and polyfluoroalkyl substances (PFAS): Some plating bath formulations contain PFAS-based surfactants and mist suppressants. Under regulatory scrutiny — replacements under development.
 - Metal discharge limits: EPA Clean Water Act limits for electroplating wastewater discharge: Cu <0.5 mg/L, Ni <0.5 mg/L, Cr <0.5 mg/L, Cd <0.05 mg/L, Pb <0.1 mg/L, CN⁻ <0.2 mg/L. Achieved by chemical precipitation + ion exchange + activated carbon treatment.
 
-### Safety
+## Safety
 
 **Copper sulfate and acid hazard**: Copper damascene baths contain 40-100 g/L CuSO₄ in 50-100 g/L H₂SO₄. The sulfuric acid concentration (~5-10%) causes chemical burns on skin contact. Copper salts are toxic if ingested (target organs: liver, kidneys). Wear chemical splash goggles, face shield, acid-resistant apron, and nitrile gloves. Emergency eyewash and safety shower within 10 seconds travel time. Copper sulfate solution has a characteristic blue color — any skin contact is immediately visible and should be rinsed for 15 minutes.
 
@@ -222,7 +221,7 @@ At smaller nodes, the barrier and seed layers consume an increasing fraction of 
 | High plating stress (film cracking) | Additive imbalance or excessive current density | Reduce current density; adjust leveler concentration; post-plate anneal at 200-400°C |
 | Tin whisker growth | Pure tin without whisker mitigation | Anneal at 150°C for 1 hour; alloy with 2-3% bismuth; use nickel underlayer |
 
-### See Also
+## See Also
 
 - **[Anodizing](anodizing.md)**: Electrochemical oxide growth on aluminum and titanium
 - **[Electrochemical Surface Processes](electrochemical-processes.md)**: Electropolishing, electroforming, and electroless plating

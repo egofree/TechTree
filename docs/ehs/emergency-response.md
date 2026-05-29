@@ -24,7 +24,7 @@ Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas 
 | Fire or explosion | Full evacuation + fire dept | Pull fire alarm, evacuate, call emergency services | All personnel |
 | Multiple casualties | Mass casualty protocol | Triage, mutual aid activation, hospital notification | ERT + EMS + management |
 
-### Implementation Steps
+## Implementation Steps
 
 1. **Establish emergency response team**: Minimum 6 trained members on duty during all operating hours. All trained in SCBA, chemical spill response, and first aid. Conduct quarterly drills.
 2. **Install emergency equipment**: Eyewash stations and deluge showers within 10 seconds travel of every chemical hazard. Spill kits at every chemical storage and dispensing point. SCBA pre-positioned near gas cabinet areas.
@@ -35,7 +35,7 @@ Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas 
 
 ## Emergency Equipment Placement
 
-### Eyewash Stations
+## Eyewash Stations
 
 **Type**: Plumbed (preferred) or self-contained (gravity-fed, portable). Not handheld squeeze bottles (insufficient volume and flow).
 
@@ -53,7 +53,7 @@ Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas 
 - Unobstructed access at all times — no storage, equipment, or carts blocking the path
 - Weekly inspection log posted at the station
 
-### Emergency Deluge Showers
+## Emergency Deluge Showers
 
 **Specifications**:
 - Flow rate: 75 L/min minimum (20 GPM) at 210 kPa (30 psi) minimum supply pressure
@@ -70,7 +70,7 @@ Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas 
 - Clearly marked, illuminated sign, unobstructed access
 - Annual flow test (verify 75 L/min flow rate and spray pattern)
 
-### Spill Kits
+## Spill Kits
 
 **Location**: At every chemical storage area, chemical dispensing station, and gas cylinder storage area.
 
@@ -120,7 +120,7 @@ Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas 
 
 ## Chemical Exposure First Aid
 
-### Hydrofluoric Acid Exposure
+## Hydrofluoric Acid Exposure
 
 **Skin contact** (most common HF emergency):
 1. Immediately remove all contaminated clothing while flushing with water. Do not waste time — seconds matter.
@@ -143,7 +143,7 @@ Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas 
 3. Monitor for pulmonary edema (delayed onset, 12-24 hours). Symptoms: progressive shortness of breath, cough, pink frothy sputum.
 4. Nebulized calcium gluconate (2.5% solution) may be administered for symptomatic relief (reduces pulmonary fluoride absorption).
 
-### Silane Exposure / Silane Fire
+## Silane Exposure / Silane Fire
 
 **Gas leak (no fire)**:
 1. Evacuate area immediately — silane can auto-ignite at any moment if concentration exceeds 1.4% in air.
@@ -160,7 +160,7 @@ Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas 
 4. Silane fires produce SiO₂ fume (white smoke) — respiratory hazard. Wear respiratory protection during response.
 5. Never use CO₂ extinguishers on silane fires — the cold CO₂ stream can cause silane to condense and pool, creating an explosion risk when it vaporizes.
 
-### Arsine / Phosphine Exposure
+## Arsine / Phosphine Exposure
 
 **Inhalation (primary route of exposure for gases)**:
 1. Move victim to fresh air immediately. Rescuer must wear SCBA — arsine at 0.5 ppm is dangerous, and IDLH is 3 ppm (arsine) or 50 ppm (phosphine). You cannot smell either gas reliably.
@@ -176,7 +176,7 @@ Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas 
 4. If gas is confined to gas cabinet with exhaust operational: allow cabinet exhaust and scrubber system to capture the release. Verify scrubber operation. Monitor exhaust stack for breakthrough.
 5. If gas has escaped to fab area: Full building evacuation. Fire department hazmat response.
 
-### General Acid/Base Exposure
+## General Acid/Base Exposure
 
 **Skin contact**:
 - Acids: Flush 15+ minutes with water. Remove contaminated clothing immediately. Do not attempt neutralization on skin (the neutralization reaction is exothermic and causes additional thermal burns).
@@ -187,7 +187,7 @@ Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas 
 
 ## Evacuation Procedures
 
-### Alarm System
+## Alarm System
 
 Semiconductor fabs use a multi-tier alarm system:
 
@@ -203,7 +203,7 @@ Semiconductor fabs use a multi-tier alarm system:
 - Condition: External hazard (chemical release from adjacent facility, severe weather) making outdoor evacuation more dangerous than staying inside
 - Action: Move to designated interior shelter areas. Seal doors and windows. Shut down outside air intake if possible.
 
-### Evacuation Routes
+## Evacuation Routes
 
 - Minimum two independent exit paths from any location in the fab (no dead-end corridors longer than 6 meters)
 - Exit routes do not pass through gas cylinder storage, chemical storage, or utility corridors with gas piping
@@ -211,7 +211,7 @@ Semiconductor fabs use a multi-tier alarm system:
 - Photoluminescent (glow-in-the-dark) directional markers on floor and at low level (smoke rises, visibility at floor level may be better)
 - Exit doors open outward, equipped with panic hardware (push bar), not locked from inside during occupancy
 
-### Assembly Points
+## Assembly Points
 
 - Located upwind and upgrade from the building, minimum 100 meters from gas cylinder storage and chemical loading areas
 - Multiple assembly points for large facilities, preventing all personnel from gathering at a single location
@@ -220,7 +220,7 @@ Semiconductor fabs use a multi-tier alarm system:
 
 ## Emergency Response Organization
 
-### Response Team Roles
+## Response Team Roles
 
 **First responder** (nearest qualified person):
 - Assess the situation from a safe distance
@@ -239,7 +239,7 @@ Semiconductor fabs use a multi-tier alarm system:
 - Responsible for evacuation decisions, emergency shutdown authorization, coordination with external responders
 - Communications: Radio channel dedicated to emergency operations
 
-### Drill Requirements
+## Drill Requirements
 
 | Drill Type | Frequency | Duration | Participants |
 |------------|-----------|----------|-------------|
@@ -251,7 +251,7 @@ Semiconductor fabs use a multi-tier alarm system:
 
 ## Emergency Equipment Maintenance
 
-### Inspection Schedule
+## Inspection Schedule
 
 | Equipment | Inspection | Frequency | Standard |
 |-----------|-----------|-----------|----------|
@@ -272,6 +272,6 @@ Semiconductor fabs use a multi-tier alarm system:
 - [Waste Management](waste-management.md) — Disposal of contaminated spill cleanup materials
 - [Occupational Health](../health/occupational-health.md) — General emergency first aid procedures
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*
+
+[← Back to EHS](index.md)

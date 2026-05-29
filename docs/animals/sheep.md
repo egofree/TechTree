@@ -8,7 +8,7 @@
 > **Outputs**: wool, mutton, milk, lanolin, sheepskins, manure
 > **Critical**: Yes — premier fiber and meat species with lowest infrastructure requirements
 
-## 1. Overview
+## Overview
 
 Sheep are the most versatile small ruminant for a bootstrapping civilization — producing wool (the premier natural fiber for textiles), meat (lamb and mutton), milk (for cheese and fermented products), and pelts. Their modest size (mature weight 60-120 kg depending on breed) makes them easier to handle than cattle, and their gregarious flocking instinct simplifies herding. Gestation is 147 days (range 144-152), with typical litters of singles for hill breeds, twins for lowland breeds, and occasional triplets. A well-managed flock of 50-100 ewes on 10-15 hectares of improved pasture can sustain a small community with food, fiber, and fertilizer.
 
@@ -25,7 +25,7 @@ Sheep are particularly valuable in early-stage agriculture because they graze cl
 | Wool yield | 2-8 kg greasy fleece/year | Depends on breed |
 | Productive lifespan | 5-7 lambing seasons | Lowland breeds |
 
-## 2. Prerequisites
+## Prerequisites
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -37,7 +37,7 @@ Sheep are particularly valuable in early-stage agriculture because they graze cl
 | Basic veterinary supplies | [`health.medicine`](../health/medicine.md) | Iodine, dewormer, antibiotics |
 | Guardian animal or fencing for predators | [`animals.pest-management`](pest-management.md) | LGD, donkey, or llama |
 
-## 3. Bill of Materials
+## Bill of Materials
 
 Materials listed per 50-ewe flock per year.
 
@@ -52,9 +52,9 @@ Materials listed per 50-ewe flock per year.
 | Iodine solution (7%) | 0.5-1 L | [`health.medicine`](../health/medicine.md) | Other antiseptics |
 | Lambing pens (1.5-2.0 m² each) | 5-8 pens | [`foundations.tools-basic`](../foundations/tools-basic.md) | Portable panels or straw bales |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Wool Production
+## 4.1 Wool Production
 
 **Principle**: Sheep produce a fleece of keratin fiber that grows continuously and is harvested annually by shearing. Wool fibers have natural crimp (wave pattern) and scales that interlock during spinning and felting, creating strong yarn and fabric. The fleece also contains lanolin (wool wax) that protects the fiber and has industrial applications.
 
@@ -86,7 +86,7 @@ Materials listed per 50-ewe flock per year.
 - Greasy fleece contains 25-40% impurities requiring scouring before use
 - Wool prices fluctuate widely ($3-30/kg depending on micron and quality)
 
-### 4.2 Lambing Management
+## 4.2 Lambing Management
 
 **Principle**: Sheep give birth after 147 days of gestation. Lambs are precocial — standing and nursing within 30 minutes. Colostrum (first milk) provides passive immunity. Lambing percentage (lambs born per ewe) ranges from 100% (hill breeds, singles) to 300% (prolific breeds, twins and triplets).
 
@@ -119,7 +119,7 @@ Materials listed per 50-ewe flock per year.
 - Mastitis and pregnancy toxemia threaten ewe health in late gestation
 - mismothering (ewe rejecting a lamb) requires intervention or fostering
 
-### 4.3 Meat Production
+## 4.3 Meat Production
 
 **Principle**: Lambs convert pasture to meat with dressing percentages of 45-55%. Growth from birth to slaughter takes 4-12 months depending on system and target weight. Sheep produce three categories: lamb (under 12 months), hogget (12-24 months), and mutton (over 24 months).
 
@@ -148,7 +148,7 @@ Materials listed per 50-ewe flock per year.
 - Stronger flavor in older animals limits mutton market
 - Predation and parasite losses reduce effective yield
 
-### 4.4 Flock Health and Parasite Management
+## 4.4 Flock Health and Parasite Management
 
 **Principle**: Sheep are susceptible to internal parasites (especially *Haemonchus contortus*), foot rot, and flystrike. Integrated management combining pasture rotation, targeted treatment, and monitoring maintains flock health without relying solely on chemical dewormers.
 
@@ -178,9 +178,9 @@ Materials listed per 50-ewe flock per year.
 - Flystrike kills sheep within 48-72 hours if undetected
 - Labor-intensive monitoring during parasite season (2-4 week intervals)
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Production Benchmarks by Breed Type
+## Production Benchmarks by Breed Type
 
 | Parameter | Merino (Wool) | Suffolk (Meat) | East Friesian (Dairy) | Corriedale (Dual) |
 |-----------|--------------|----------------|----------------------|-------------------|
@@ -192,7 +192,7 @@ Materials listed per 50-ewe flock per year.
 | Daily gain lambs (g/day) | 150-200 | 300-400 | 250-350 | 250-350 |
 | Feed DM per day (kg) | 1.5-2.5 | 2.0-3.0 | 2.5-3.5 | 2.0-3.0 |
 
-### Scale Estimates per 50-Ewe Flock
+## Scale Estimates per 50-Ewe Flock
 
 | Output | Annual Quantity | Notes |
 |--------|----------------|-------|
@@ -201,7 +201,7 @@ Materials listed per 50-ewe flock per year.
 | Manure | 36-55 tonnes | Fertilizes 2-5 hectares |
 | Sheep milk (dairy flock) | 20,000-30,000 L | East Friesian breed only |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 A founding flock of 10-20 ewes and 1-2 rams expands to 50-100 head within 4-5 years at 150% lambing with 85% weaning rate. Expansion is limited by pasture area and winter feed — each ewe needs 0.1-0.3 hectares of improved pasture during grazing season and 150-250 kg of hay for winter.
 
@@ -209,7 +209,7 @@ A founding flock of 10-20 ewes and 1-2 rams expands to 50-100 head within 4-5 ye
 
 **Scale bottlenecks**: Predator protection scales poorly — one guardian dog per 50-200 sheep. Shearing is a peak labor demand (1-2 days per 50 ewes). Winter feeding requires 7.5-12.5 tonnes hay storage per 50 ewes.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -220,7 +220,7 @@ A founding flock of 10-20 ewes and 1-2 rams expands to 50-100 head within 4-5 ye
 | Wool break (tender fleece) | Illness or nutritional stress during growth | Maintain consistent nutrition; avoid sudden feed changes during fiber growth |
 | Foot rot | Wet conditions, infected animals | Foot bath in 5-10% copper sulfate weekly; cull chronically infected ewes |
 
-## 8. Safety
+## Safety
 
 **Ram handling**: Rams can be aggressive during breeding season (autumn). A charging ram knocks adults down and causes serious injury. Signs of aggression: lowering head, pawing, charging. Never turn your back on a ram. Use a handling shield or staff. A spray bottle of water to the face interrupts a charge.
 
@@ -230,7 +230,7 @@ A founding flock of 10-20 ewes and 1-2 rams expands to 50-100 head within 4-5 ye
 
 **Quarantine**: New animals quarantined 30 days and tested for foot rot, caseous lymphadenitis, ovine progressive pneumonia, and scrapie before flock introduction. A single infected introduction can devastate a naive flock.
 
-## 9. Quality Control
+## Quality Control
 
 **Wool grading**: Classify fleece by fiber diameter (microns), staple length, crimp, color, vegetable matter contamination, and strength. Test for tender break (fibers break along a line, caused by illness or stress during growth). Target: under 19 microns for fine wool ($12-25/kg), 25-32 microns for medium wool ($4-8/kg).
 
@@ -240,7 +240,7 @@ A founding flock of 10-20 ewes and 1-2 rams expands to 50-100 head within 4-5 ye
 
 **Flock records**: Track lambing date, litter size, birth weights, weaning weights per ewe. Calculate kg of lamb weaned per ewe per year. Target: 60-80 kg. Cull ewes producing below flock average for two consecutive years.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 **Hill and mountain systems**: Hill breeds (Scottish Blackface, Welsh Mountain, Swaledale) thrive on nutrient-poor grazing at 300-900 m elevation. Ewes weigh 45-60 kg, produce 1.5-2.5 kg fleeces, but survive on pasture that would starve any other livestock. Transhumance — seasonal movement between lowland winter and mountain summer pasture — requires no winter housing.
 
@@ -250,7 +250,7 @@ A founding flock of 10-20 ewes and 1-2 rams expands to 50-100 head within 4-5 ye
 
 **Goat alternative**: Goats browse rather than graze, preferring woody vegetation. Mixed sheep-goat grazing utilizes both pasture types. See [`animals.goats`](goats.md).
 
-## 11. Cross-Domain Links
+## Cross-Domain Links
 
 - [`animals.domestication`](domestication.md) — livestock principles: housing, nutrition, breeding, health fundamentals
 - [`animals.animal-materials`](animal-materials.md) — wool processing, leather tanning, lanolin extraction
@@ -259,5 +259,5 @@ A founding flock of 10-20 ewes and 1-2 rams expands to 50-100 head within 4-5 ye
 - [`agriculture`](../agriculture/index.md) — pasture management, crop residues as winter feed, manure as fertilizer
 - [`animals.pest-management`](pest-management.md) — guardian dogs, predator control strategies
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Animals](index.md)

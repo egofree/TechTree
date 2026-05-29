@@ -38,13 +38,12 @@ The scale: a single integrated steel mill produces 2-5 million tonnes of rolled 
 | Hydraulic system | 200-350 bar, 500-2000 L/min | 1 system per stand | Roll gap control (AGC) to ±0.05 mm |
 | Water treatment | Recirculating, cooling towers, filtration | 10,000-20,000 m³/hr | Scale and heat removal from mill |
 
-### Overview
 
 Primary metal forming transforms molten or freshly cast metal into the stock shapes that feed all downstream manufacturing — slab, plate, bar, rod, structural sections, extrusions, and forgings. These processes operate at or near the smelter or mill, handling metal at temperatures where yield strength is 60-80% below room-temperature values. This page covers **bulk forming at the mill**: continuous casting, hot rolling, extrusion, wire rod rolling, production forging, and structural section rolling.
 
 Secondary operations — cold rolling to final gauge, stamping, deep drawing, wire drawing from rod, and sheet metal forming — are covered in [Machine Tools Forming](../machine-tools/forming.md).
 
-### Process Flow
+## Process Flow
 
 Liquid steel from the [steelmaking](./steelmaking.md) ladle or aluminum from [smelting](./aluminum.md) enters primary forming through one of two routes:
 
@@ -55,7 +54,7 @@ The choice between routes depends on product mix and capital availability. Integ
 
 **Energy intensity**: Hot rolling consumes 1.5-2.5 GJ per ton of finished steel (primarily for reheating). This is 5-8% of the total energy used in steelmaking from iron ore. Continuous casting with hot charging (transfer slabs to the reheat furnace while still at 600-800°C from the caster) reduces reheating fuel consumption by 30-50%.
 
-### Continuous Casting
+## Continuous Casting
 
 Continuous casting solidifies liquid metal into semi-finished shapes (slab, bloom, billet) in a single continuous operation, replacing the older ingot-teeming → soaking-pit → blooming-mill sequence.
 
@@ -79,7 +78,7 @@ Continuous casting solidifies liquid metal into semi-finished shapes (slab, bloo
 
 **Thin-slab casting (Compact Strip Production — CSP)**: Casts 50-80 mm slab directly into an in-line tunnel furnace (holding at 1100°C), then into a 5-6 stand hot strip mill. Eliminates the conventional slab reheating step entirely. Capital cost 40-50% lower than conventional thick-slab route. Product: hot-rolled coil down to 1.0 mm thickness.
 
-### Hot Rolling
+## Hot Rolling
 
 Hot rolling deforms metal above its recrystallization temperature (typically 1100-1250°C for steel), producing plate, strip, and coil. The metal recrystallizes continuously during deformation, preventing work hardening.
 
@@ -97,7 +96,7 @@ Hot rolling deforms metal above its recrystallization temperature (typically 110
 
 **Roll wear and maintenance**: Work rolls in the finishing mill wear rapidly — a set of work rolls lasts 2,000-5,000 tons of steel before requiring regrinding. Rolls are removed, ground to restore concentricity and surface finish, and reinstalled at progressively wider gauge positions. Total roll life: 30,000-100,000 tons before the roll diameter is too small for further use. Backup rolls (forged steel, 1250-1600 mm diameter) last 10-20× longer than work rolls.
 
-### Extrusion
+## Extrusion
 
 Extrusion forces heated metal through a die to produce profiles of constant cross-section — rods, tubes, and complex shapes impossible or impractical by rolling.
 
@@ -127,7 +126,7 @@ Extrusion forces heated metal through a die to produce profiles of constant cros
 - **Surface tearing**: Caused by excessive exit temperature (>550°C for 6xxx alloys) or too-high speed. Controlled by reducing ram speed or preheat temperature.
 - **Coarse grain ring**: Over-aging in the extrusion can produce a peripheral coarse grain layer (1-3 mm deep) with poor mechanical properties. Controlled by exit temperature and quench delay time.
 
-### Wire Rod Rolling
+## Wire Rod Rolling
 
 Wire rod rolling converts billets (100-150 mm square) into coiled rod of 5-25 mm diameter at high speed. This rod is the feedstock for wire drawing (see [Machine Tools Forming](../machine-tools/forming.md)).
 
@@ -145,7 +144,7 @@ Wire rod rolling converts billets (100-150 mm square) into coiled rod of 5-25 mm
 
 **Tolerances**: ±0.15 mm on 5.5 mm rod (±2.7%). Ovality ≤ 0.3 mm. These tolerances matter because wire drawing dies require consistent input diameter.
 
-### Forging at Scale
+## Forging at Scale
 
 Production forging produces high-integrity components with directional grain flow aligned to the part geometry — a metallurgical advantage over casting or machining from billet.
 
@@ -168,7 +167,7 @@ Production forging produces high-integrity components with directional grain flo
 - Advantage over machining from billet: grain flow follows the ring circumference (circumferential grain orientation), maximizing fatigue strength. Material utilization 75-90% vs 30-50% for machining from solid.
 - Ring rolling mill capacities: radial force 500-5,000 kN. Main roll diameter 400-1400 mm. Mandrel diameter 80-500 mm (consumable — replaced frequently due to wear and thermal fatigue).
 
-### Section and Structural Rolling
+## Section and Structural Rolling
 
 Structural rolling produces the shaped cross-sections that are the skeleton of construction and infrastructure: I-beams, H-beams, channels, angles, tees, and rails.
 
@@ -203,7 +202,7 @@ Structural rolling produces the shaped cross-sections that are the skeleton of c
 | Rebar | Diameter 10-50 mm | ±0.5 mm (under nominal) |
 | H-beam | Depth 100-1100 mm | ±2-4 mm |
 
-### Material Considerations
+## Material Considerations
 
 **Hot shortness**: Steel containing >0.03% sulfur becomes "hot short" — cracks during hot working because FeS forms a low-melting eutectic (988°C) that coats grain boundaries. Manganese is added (Mn:S ratio ≥ 4:1) to form MnS inclusions (melting point 1610°C) instead. This is why all structural steel specifications require minimum manganese content.
 
@@ -244,7 +243,7 @@ Structural rolling produces the shaped cross-sections that are the skeleton of c
 - [Chemistry: Refractories](../chemistry/refractories.md) — furnace and ladle linings
 - [Mining: Processing](../mining/processing.md) — iron ore beneficiation for steelmaking feed
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Molten metal contact**: Continuous casting and forging handle metal at 1100-1300°C. Enclosed operating stations with thermal shielding. Infrared temperature monitoring with automatic shutdown on anomalies. PPE: aluminized heat-resistant clothing, face shields, safety boots with metatarsal guards.
 - **Mechanical energy**: Rolling mills develop 5,000-40,000 kN roll force. Pinch points between work rolls, between stock and roll table, and at shears are the leading cause of amputations in steel mills. Light curtains, safety mats, and two-hand controls are mandatory at operator stations.
@@ -252,6 +251,6 @@ Structural rolling produces the shaped cross-sections that are the skeleton of c
 - **Noise**: Rod mills at 100+ m/s exit speed produce 100-110 dB at the laying head. Hearing protection mandatory. Control rooms are acoustically isolated.
 - **Breakout**: Continuous casting breakout releases 10-50 tons of liquid steel. Emergency spray systems (100+ L/s water capacity) cool and contain the spill. Evacuation triggers are automatic on breakout detection.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Metals](index.md)

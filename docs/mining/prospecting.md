@@ -61,7 +61,7 @@ Prospecting locates ore deposits and evaluates their economic potential before c
 - Visual identification fails for fine-grained or similar-looking minerals (e.g., chalcopyrite vs. pyrite)
 - Panning recovery drops sharply for gold <0.1 mm — fine gold is easily lost
 
-### Geological Survey Methods
+## Geological Survey Methods
 
 **Stratigraphic mapping**:
 - Map exposed rock layers (strata) in outcrops, road cuts, and stream banks. Record rock type, thickness, color, grain size, and fossil content for each layer. Establish the vertical sequence — ore deposits often occur at specific stratigraphic horizons (e.g., copper in Permian sandstones, iron in Precambrian banded iron formations averaging 200-400 m thick).
@@ -73,7 +73,7 @@ Prospecting locates ore deposits and evaluates their economic potential before c
 - **Folds**: Anticlines (arched upward) trap migrating hydrocarbons and can concentrate ore fluids in their crests. Synclines (bowl-shaped) may collect heavy minerals by gravity. Map fold axes by tracking dip reversals across strike. Iron ore deposits in folded banded iron formations reach ore grades of 55-65% Fe in fold hinges where silica has been leached.
 - **Joints and fractures**: Systematic fracture sets create permeability for fluid flow and mineral deposition. Count fractures per meter in outcrop — high fracture density (10-30 fractures/m) indicates zones of enhanced fluid flow and potential mineralization. Measure fracture orientation to predict subsurface trends.
 
-### Mineral Identification Techniques
+## Mineral Identification Techniques
 
 **Hardness test (Mohs scale)**:
 - Rank mineral hardness by scratch testing against reference minerals. Talc (1) scratched by fingernail. Gypsum (2) scratched by fingernail (~2.5). Calcite (3) scratched by copper coin. Fluorite (4) scratched by iron nail. Apatite (5) scratched by knife blade (~5.5). Orthoclase (6) scratched by steel file. Quartz (7) scratches glass. Topaz (8), corundum (9), diamond (10). Ore minerals: pyrite 6-6.5, magnetite 5.5-6.5, hematite 5-6, cassiterite 6-7, galena 2.5.
@@ -89,7 +89,7 @@ Prospecting locates ore deposits and evaluates their economic potential before c
 **Specific gravity measurement**:
 - Specific gravity (SG) = mineral density ÷ water density. Galena (SG 7.4-7.6) and cassiterite (SG 6.8-7.1) feel noticeably heavy for their size. Heft test: compare weight of unknown mineral to a similar-sized rock of known type. For precise measurement, weigh specimen in air (W_air) and suspended in water (W_water). SG = W_air ÷ (W_air - W_water). Gold (SG 19.3) is unmistakably heavy; quartz (SG 2.65) feels normal.
 
-### Geochemical Prospecting
+## Geochemical Prospecting
 
 **Soil sampling**:
 - Collect soil samples on a regular grid (25-100 m spacing) across the survey area. Sample the B-horizon soil (30-60 cm depth) where metals accumulate by adsorption onto clays and iron oxides. A-horizon (topsoil) is too affected by organic activity; C-horizon (weathered bedrock) is too localized. Sample mass: 200-500 g per site, sieved to <80 mesh (177 μm) for analysis.
@@ -106,7 +106,7 @@ Prospecting locates ore deposits and evaluates their economic potential before c
 - **Gravimetric assay**: Dissolve sample, precipitate the target element as an insoluble compound, filter, dry, and weigh. Barium precipitates as BaSO₄ (barium sulfate). Nickel precipitates as NiDMG (nickel dimethylglyoxime, bright red). Accuracy ±0.1% for major element concentrations.
 - **Titrimetric assay (volumetric)**: Dissolve sample, react the target element with a standard solution of known concentration until the endpoint is reached (indicated by color change). Iodometric titration for copper: dissolve in acid, add KI, titrate liberated iodine with sodium thiosulfate (Na₂S₂O₃) using starch indicator (blue → colorless endpoint). Each mL of 0.1 N Na₂S₂O₃ = 6.35 mg Cu. Accuracy ±0.2% for copper concentrations >1%.
 
-### Geophysical Methods
+## Geophysical Methods
 
 **Magnetic survey (for iron ores)**:
 - Magnetometer surveys detect magnetic anomalies caused by subsurface magnetite (Fe₃O₄) or pyrrhotite (Fe₁₋ₓS). Total field magnetic intensity measured in nanotesla (nT). Background Earth field: 25,000-65,000 nT depending on latitude. Anomalies of 100-10,000 nT indicate significant magnetite bodies. Ground traverse spacing: 10-50 m, station spacing 5-25 m. Survey lines perpendicular to expected strike of the ore body.
@@ -133,7 +133,7 @@ Prospecting locates ore deposits and evaluates their economic potential before c
 - Resistivity surveys require electrode spacings of 50-200 m for 50-100 m depth — labor-intensive layout
 - Gravity surveys need extensive corrections (latitude, elevation, terrain, tides) for reliable anomalies
 
-### Panning Technique Detail
+## Panning Technique Detail
 
 **Gravel sampling protocol**:
 - Collect 5-10 kg of gravel from each sample site, targeting the coarsest material in the active stream channel. Dig to bedrock or an impermeable clay layer where heavy minerals concentrate — the "false bedrock." Use a shovel or mattock to break up consolidated gravel. Process the entire sample through the pan to avoid bias. Record sample location, depth, and gravel lithology for each site.
@@ -159,7 +159,7 @@ Prospecting locates ore deposits and evaluates their economic potential before c
 - Panning is slow: one pan processes ~10 kg in 5-10 minutes; a full day yields limited sample coverage
 - Riffle box requires 50-100 L/min water flow — not feasible in seasonal or low-flow streams
 
-### Indicator Minerals
+## Indicator Minerals
 
 **Diamond indicator minerals**:
 - Garnet (G9 and G10 pyrope garnets, deep red to purple), ilmenite (black, metallic), chromite (black, submetallic, SG 4.5-4.8), and diopside (pale green to colorless, vitreous) are carried to the surface from mantle depths (150-200 km) by kimberlite eruptions. Finding these minerals in stream sediment indicates a kimberlite pipe within 5-20 km upstream. Garnet composition (measured by electron microprobe) distinguishes diamondiferous (G10, high-Cr, low-Ca) from barren (G9) kimberlite.
@@ -174,7 +174,7 @@ Prospecting locates ore deposits and evaluates their economic potential before c
 - Primary dispersion: elements distributed in rock around the ore body by the same hydrothermal fluids that formed the deposit. Mercury (Hg) halos extend 200-500 m from gold deposits, detectable at 10-100 ppb in soil. Arsenic (As) halos extend 100-300 m from gold and base metal deposits, detectable at 20-500 ppm in soil.
 - Secondary dispersion: elements released by weathering and transported by groundwater or surface water downslope and downstream. Mechanical dispersion (clastic transport of mineral grains) forms elongate anomalies in the downslope direction, typically 50-200 m from source. Chemical dispersion (dissolved ions in groundwater) forms broader, more diffuse anomalies extending 100-500 m. Sampling the correct dispersion medium (soil, stream sediment, or vegetation) at the correct depth maximizes anomaly contrast.
 
-### Claim Staking & Legal Framework
+## Claim Staking & Legal Framework
 
 **Physical claim marking**:
 - Mark claim boundaries with posts (10×10 cm wood, 1.2 m above ground) at each corner. Cut blaze marks on adjacent trees facing the claim. Record claim coordinates and dimensions relative to a surveyed reference point. Typical claim size: 150-500 m along strike × 150-300 m across strike (varies by jurisdiction). Post a notice at each corner with claim name, date, and prospector's name.
@@ -192,7 +192,7 @@ Prospecting locates ore deposits and evaluates their economic potential before c
 **Royalty and taxation**:
 - Most jurisdictions levy a royalty on mineral production, typically 2-5% of gross revenue (ad valorem royalty) or 2-10% of net smelter return (NSR royalty). The NSR is the payment received from the smelter after deducting treatment charges, refining costs, and transport. Income tax on mining profits applies separately, typically 25-35% corporate rate. Some jurisdictions offer accelerated depreciation for mine development expenditure to encourage investment. Tax stabilization agreements fix the fiscal terms for 10-20 years to protect against future tax increases.
 
-### Deposit Modeling & Resource Estimation
+## Deposit Modeling & Resource Estimation
 
 **Trenching and test pitting**:
 - Excavate trenches (1-2 m wide, 2-5 m deep, 10-50 m long) across the strike of mineralized outcrops to expose fresh bedrock below weathered surface. Space trenches 25-100 m apart along strike. Map and sample the trench walls in detail — record rock type, alteration, mineralization, and structure for each meter of trench length. Channel sample across the full width of mineralization (cut a continuous groove 10 cm wide × 5 cm deep with a chisel) for assay. Trenching costs 10-50× less than drilling per meter of geological information.
@@ -204,7 +204,7 @@ Prospecting locates ore deposits and evaluates their economic potential before c
 - **Measured resource**: Confirmed by detailed sampling at close spacing (10-25 m). Tonnage and grade known within 10-20%. Sufficient for detailed mine planning and investment decisions.
 - **Grade-tonnage curve**: Plot cumulative tonnage vs. cutoff grade. Higher cutoff grade = higher average grade but lower tonnage. Lower cutoff = more ore but lower average grade. The economic cutoff grade is the lowest grade at which mining is profitable, determined by metal price, recovery rate, and operating cost. Typical copper cutoff: 0.2-0.5% Cu. Typical gold cutoff: 0.5-1.5 g/t Au.
 
-### Field Mapping Procedures
+## Field Mapping Procedures
 
 **Geological mapping at prospect scale**:
 - Produce a geological map at 1:5,000 to 1:10,000 scale covering the prospect area and surrounding 500-1000 m. Walk all outcrops, recording rock type, mineralization, alteration, structure (strike/dip of bedding, faults, joints), and sample locations on a topographic base map. Outcrop mapping is the foundation — every geological interpretation starts from observed rock. Color-code rock units on the map; use standard symbols for structural measurements.
@@ -219,16 +219,15 @@ Prospecting locates ore deposits and evaluates their economic potential before c
 **Photo documentation**:
 - Photograph every outcrop, trench, and sample site with a scale reference (ruler, lens cap, or person) and a north arrow. Record photo number, location, and description in the field notebook. Outcrop photos provide a permanent record of geological relationships that may be destroyed by subsequent excavation. Shoot in consistent lighting — morning and afternoon sun produce shadows that reveal texture and structure better than midday overhead light.
 
----
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Terrain hazards**: Prospecting involves traversing rugged, unstable terrain. Rockfalls, loose scree, steep slopes. Sturdy boots, careful footing. Never prospect alone in remote areas. Carry a basic first aid kit, map, compass, whistle, and emergency shelter blanket. A personal locator beacon (PLB) provides satellite distress signaling in areas without cell coverage.
 - **Water hazards**: River banks and lake shores (where minerals concentrate) are slippery and subject to flash floods. Be aware of upstream weather. Never wade in fast-moving water above knee depth. Wear a personal flotation device when panning from a boat or working along steep stream banks.
 - **Toxic minerals**: Some ore minerals contain arsenic (arsenopyrite), mercury (cinnabar), or lead (galena). Handle with gloves. Do not inhale dust from crushing test samples. Wash hands before eating. Arsenic compounds are tasteless and odorless — never eat, drink, or smoke while handling ore samples. Mercury vapor from cinnabar (HgS) accumulates in enclosed spaces — assay mercury ores only in well-ventilated areas with activated carbon traps.
 - **Underground hazards**: If test pits or adits are dug, ensure roof support. Bad air (low oxygen, methane, CO₂) in enclosed spaces — ventilate before entering. Never enter alone. Test pits deeper than 1.2 m must be shored or sloped to prevent collapse. Excavated material must be placed at least 1 m from the pit edge. Atmospheric oxygen below 19.5% causes impaired judgment; below 16% is immediately dangerous to life.
 
-### Geochemical Stream Sediment Sampling Technique
+## Geochemical Stream Sediment Sampling Technique
 
 Stream sediment sampling is the most cost-effective regional exploration method for base metals and gold. The procedure: collect 10-50 g of the minus-80 mesh (<177 μm) fraction from active stream sediment, typically from behind boulders or in meander pools where fines accumulate. Sieve the bulk sample in the field using nested brass sieves (80 mesh = 177 μm openings). The fine fraction captures trace metals adsorbed onto iron-manganese oxide coatings on sediment grains. Analyze the sample for pathfinder elements: Cu, Pb, Zn by atomic absorption spectroscopy (AAS) with detection limits of 1-5 ppm, or Au by fire assay with a 10-50 g charge accurate to 0.01 g/t. Sample spacing: 100-500 m along drainage, with at least one sample per first-order stream catchment. Anomalies exceeding 3× background concentration warrant upstream follow-up with soil sampling on 50-100 m grid spacing.
 

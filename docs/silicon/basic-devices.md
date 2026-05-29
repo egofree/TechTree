@@ -7,7 +7,7 @@
 > **Timeline**: Years 30-50
 > **Outputs**: solar_cells, diodes, transistors
 
-### Basic Semiconductor Devices
+## Basic Semiconductor Devices
 
 #### Solar Cells (Primary Target — simplest useful semiconductor device)
 
@@ -109,7 +109,7 @@
 
 **[Scaling](../glossary/scaling.md)** (Dennard scaling rules): Shrink all device dimensions (channel length, oxide thickness, junction depth) by factor k while scaling voltage by k. Result: transistors are k² times smaller (2× per generation → 4× more per chip), k times faster, and power density remains constant. This held from the 1970s to ~2006. Breakdown cause: as oxide thickness approached a few nm, gate leakage current from quantum tunneling became unacceptable. Voltage could no longer scale proportionally → power density increased → the "power wall." Modern scaling continues geometry reduction but requires architectural workarounds (finFETs, multi-core, dark silicon).
 
-### Metallization & Contacts
+## Metallization & Contacts
 
 **[Vacuum evaporation](../glossary/vacuum-evaporation.md)** (simplest deposition method):
 - **Process**: Place metal source (Al, Au, Ti) in tungsten or molybdenum boat or basket in vacuum chamber. Pump to 10⁻⁵ to 10⁻⁶ Torr. Heat source resistively (current through boat) to metal's evaporation temperature (Al: 1200°C, Au: 1500°C). Metal vapor travels in straight lines to substrate. Deposit 0.1-2 μm film.
@@ -133,7 +133,7 @@
 - **DC sputtering**: Conductive targets only (metals). 200-1000V, 0.1-10 Torr Ar.
 - **RF sputtering**: Any target material (including insulators). 13.56 MHz standard frequency.
 
-### Semiconductor Device Physics
+## Semiconductor Device Physics
 
 **P-N junction**:
 - **Depletion region**: At the junction between p-type and n-type silicon, electrons diffuse from the n-side into the p-side and recombine with holes. This creates a region depleted of free carriers (the depletion region), leaving behind fixed ionized dopant atoms: negative acceptor ions on the p-side, positive donor ions on the n-side. The resulting electric field (built-in potential, Vbi ≈ 0.7V for silicon) opposes further diffusion.
@@ -158,7 +158,7 @@
 - **On-resistance (RDS(on))**: 0.01-10 Ω depending on device size and voltage rating. For power MOSFETs: RDS(on) × area ≈ constant for a given voltage rating. Higher voltage devices have higher specific on-resistance (more drift region to sustain voltage).
 - **Gate charge (Qg)**: Total charge that must be supplied to the gate to turn the device fully on. Determines switching speed: ton ≈ Qg/Ig where Ig is the gate driver current. Typical values: 1-100 nC depending on device size. Gate charge is a key parameter for switching loss calculation: Pswitch = Qg × Vgs × f.
 
-### Simple Circuit Building Blocks
+## Simple Circuit Building Blocks
 
 **Full-wave bridge rectifier**: Four diodes in a bridge configuration. AC input across two opposite corners, DC output across the other two. Converts AC to pulsating DC. Output voltage = |Vac| - 2×Vd (two diode drops, ~1.4V for silicon). With a filter capacitor: Vdc ≈ Vpeak - 1.4V - (Iload)/(2·f·C). The capacitor smooths the pulsating DC; larger capacitance gives less ripple.
 
@@ -166,7 +166,7 @@
 
 **Astable multivibrator**: Two transistors, two collector resistors, two base resistors, and two coupling capacitors. Each transistor alternately turns on and off. Frequency: f = 1/(1.4·R·C) where R is the base resistor and C is the coupling capacitor (symmetric circuit). Used as a simple clock oscillator. Output: square wave at the collector of either transistor. Duty cycle ~50% with equal R and C values.
 
-### Safety Hazards
+## Safety Hazards
 
 Semiconductor device fabrication uses some of the most dangerous chemicals in industrial processing:
 - **Hydrofluoric acid (HF)**: Used at 5-10% concentration for phosphorus glass removal and oxide etching. HF penetrates skin painlessly, attacks deep tissue and bone, and causes systemic fluoride poisoning. A splash covering ~2.5% of body surface area (palm-sized) from 50% HF can be lethal; even 5-10% solutions cause serious burns. **Calcium gluconate gel (2.5%) must be on-site and accessible before any HF work begins.** Apply to exposed area immediately and seek emergency medical treatment — do not wait for pain. PPE: neoprene or thick nitrile gloves (double-gloving recommended), face shield, chemical splash apron, closed-toe shoes. Work in fume hood with local exhaust. Never store or handle HF in glass containers — use PTFE or polyethylene only.
@@ -175,7 +175,7 @@ Semiconductor device fabrication uses some of the most dangerous chemicals in in
 - **Belt furnace burn hazard**: Metal contacts are fired at 700-800°C on a moving belt. Exposed hot surfaces, infrared radiation. Thermal gloves and face shield for loading/unloading. Belt pinch points — keep hands clear of moving belt edges.
 - **Vacuum chamber implosion**: Evaporation and sputtering chambers are evacuated to 10⁻⁵-10⁻⁶ Torr. A flawed glass viewport or corroded chamber wall can implode violently. Inspect viewports for scratches or star cracks before each pump-down. Safety glasses at all times near evacuated chambers. Never exceed rated pressure differential.
 
-### Process Integration for Simple Devices
+## Process Integration for Simple Devices
 
 **Rectifier diode fabrication flow** (simplest discrete device):
 1. **Starting wafer**: n-type <111> silicon, 5-20 Ω·cm, 300-500 μm thick.
@@ -206,7 +206,7 @@ Semiconductor device fabrication uses some of the most dangerous chemicals in in
 - **Surface passivation**: The SiNₓ anti-reflection coating deposited by PECVD also provides surface passivation. Hydrogen atoms in the SiNₓ film diffuse to the silicon surface during the firing step, terminating dangling bonds that would otherwise act as recombination centers. This passivation is critical for achieving >16% efficiency.
 - **Firing optimization**: The rapid thermal processing (belt furnace, 700-800°C peak, ~30 seconds) serves three purposes simultaneously: (1) Ag paste etches through SiNₓ to contact the n+ emitter, (2) Al alloys with silicon to form the p+ back surface field, and (3) hydrogen from SiNₓ passivates surface and bulk defects. Temperature must be precisely controlled: too low → poor contact, too high → junction degradation.
 
-### Device Testing
+## Device Testing
 
 **I-V characterization**:
 - **Diode testing**: Measure forward voltage at a specified current (e.g., Vf at 1 mA, 10 mA, 100 mA). Normal silicon diode: Vf ≈ 0.6-0.7V at 1 mA. Higher Vf indicates poor contact or high series resistance. Measure reverse leakage at rated voltage (e.g., leakage at 50V). Good rectifier diode: leakage <1 μA at rated voltage.
@@ -216,7 +216,7 @@ Semiconductor device fabrication uses some of the most dangerous chemicals in in
 - **BJT gain measurement**: Apply known base current (e.g., 10 μA), measure collector current. β = Ic/Ib. Test at multiple base currents (1 μA to 10 mA) to characterize gain variation. Plot gain vs. collector current (gain peaks at intermediate current, falls at both extremes).
 - **MOSFET threshold voltage**: Apply gate voltage sweep from 0 to 5V with drain at 0.1V. Plot Id vs. Vg. Threshold voltage Vth = gate voltage where drain current reaches a specified value (e.g., 1 μA × W/L). Check that Vth is within specification (typically 0.5-2V for enhancement mode).
 
-### Reliability and Failure Modes
+## Reliability and Failure Modes
 
 **Common failure mechanisms for semiconductor devices**:
 - **Electrostatic discharge (ESD)**: A static discharge as low as 50-100V can puncture the thin gate oxide of a MOSFET, creating a short circuit from gate to channel. Even non-catastrophic ESD events degrade oxide integrity, leading to premature failure weeks or months later. Prevention: grounded wrist straps, conductive flooring, ionizers, ESD-safe packaging (conductive foam or bags).
@@ -229,7 +229,7 @@ Semiconductor device fabrication uses some of the most dangerous chemicals in in
 - **Burn-in**: Operate devices at elevated temperature (125-150°C) and maximum rated voltage for 24-168 hours. Weeds out "infant mortality" failures (devices with latent defects that fail early in life). The bathtub curve: high failure rate in the first few hundred hours (infant mortality), low constant rate during operational life, rising rate at end of life (wearout).
 - **High temperature operating life (HTOL)**: Operate at maximum rated temperature and voltage for 1000 hours. Measures long-term reliability and extracts failure rate data for lifetime predictions.
 
-### Device Packaging
+## Device Packaging
 
 **Discrete device packages**:
 - **DO-41 (axial lead)**: Glass-sealed cylindrical package for small-signal and rectifier diodes. Glass body (2-4 mm diameter, 4-6 mm long) with axial metal leads (copper or steel, 0.5-0.8 mm diameter). Glass-to-metal seal hermetically seals the die. Rated to 500V-1000V, 1A average forward current. The simplest and cheapest diode package. Color band on cathode end indicates polarity.
@@ -249,7 +249,7 @@ Semiconductor device fabrication uses some of the most dangerous chemicals in in
 - **Hermetic (metal or ceramic)**: Metal can (TO-3, TO-5, TO-99) with glass-to-metal seal feedthroughs, or ceramic dual-in-line package (CERDIP) with glass-sealed lid. Gas-tight seal protects the die from moisture and contaminants. Required for military, aerospace, and high-reliability applications. Leak tested with helium mass spectrometer (reject rate >10⁻⁸ atm·cc/s). Shelf life: unlimited in dry storage.
 - **Non-hermetic (plastic)**: Epoxy or silicone resin molded around the die and lead frame (transfer molding at 175°C, 5-10 MPa). Lower cost (10-100× cheaper than ceramic). Moisture can penetrate plastic over time (absorption rate ~0.1-1% by weight at 85°C/85% RH). Moisture inside the package causes corrosion of aluminum bond wires and die metallization, especially during solder reflow (popcorn cracking: absorbed moisture vaporizes explosively during reflow heating, cracking the package). Mitigated by: moisture barrier bags for storage, bake-out before soldering, and moisture-absorbing die attach materials.
 
-### Semiconductor Process Flow Summary
+## Semiconductor Process Flow Summary
 
 **Solar cell process flow** (simplest useful semiconductor device):
 1. Wafer incoming inspection (resistivity, thickness, TTV, particles)
@@ -282,7 +282,7 @@ Semiconductor device fabrication uses some of the most dangerous chemicals in in
 | Current range | 0.1-50A | 5-1000 mA | 1 mA-1A | 1 μA-50A | 0-9A (156mm cell) |
 | Key metric | Vf at rated I | Vz tolerance | β (50-300) | Vth (0.5-2V) | η (15-18%) |
 
-### Circuit Design Examples
+## Circuit Design Examples
 
 #### Rectifier Bridge
 
@@ -335,6 +335,6 @@ The op-amp is a high-gain differential amplifier with two inputs (inverting -, n
 - **Practical limits**: Input offset voltage (1-5 mV for general-purpose op-amps like LM741) adds a DC error. Input bias current (100 nA for bipolar, 1 pA for FET-input) flows through input resistors, creating additional offset. Bandwidth: 1-10 MHz gain-bandwidth product for general-purpose parts. At gain = 100, bandwidth = GBW/100 = 10-100 kHz.
 - **Output drive**: Output impedance <100 Ω at DC (with feedback), rising at higher frequencies. Maximum output current: 20-40 mA for general-purpose op-amps. Output voltage swing: within 1-2V of the supply rails (0-5V swing from ±15V supplies). Rail-to-rail output op-amps swing to within millivolts of the supply rails.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*
+
+[← Back to Silicon](index.md)

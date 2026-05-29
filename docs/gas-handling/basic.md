@@ -8,7 +8,7 @@
 > **Outputs**: gas_handling, compressed_gases, purified_gases
 > **Critical**: No — basic gas handling supports many processes but individual processes can use simpler alternatives
 
-### Infrastructure
+## Infrastructure
 
 **Piping, valves, pumps**:
 - **Pipes**: Cast iron (water, dilute alkalis), lead (H₂SO₄ <80%), copper (organic solvents, water), ceramic (acids at high temperature), glass (laboratory scale). Steel for steam and high-pressure gas.
@@ -28,7 +28,7 @@
 - **Storage**: Gas holders (water-sealed bell-type for low pressure), steel cylinders (high pressure, 150-200 bar). Liquified gases in insulated tanks.
 - **Purification**: Drying (CaCl₂, silica gel, molecular sieves), scrubbing (water, NaOH solution for acid gases), catalytic getters (for trace impurity removal).
 
-### Pipe Fitting Techniques
+## Pipe Fitting Techniques
 
 - **Threaded connections (NPT — National Pipe Thread Tapered)**: Taper of 1:16 (3/4 inch per foot). Threads seal by deformation of mating surfaces as fitting is tightened. Wrap male threads with PTFE (Teflon) tape — 2-3 wraps clockwise, or apply pipe dope (linseed oil-based paste with fillers). NPT seals are not truly gas-tight at high pressure without sealant. Torque to 1-2 turns past hand-tight. Maximum reliable pressure: ~20 bar for steel, ~10 bar for brass. For higher pressures, use flanged or welded connections.
 - **Flanged connections**: Flat-faced or raised-face flanges bolted together with gasket between. Bolt pattern (number and circle diameter) standardized by pressure class (e.g., 4 bolts for 1" Class 150, 8 bolts for 4" Class 150). Tighten bolts in crisscross pattern to seat gasket evenly. Allow re-torque after first thermal cycle.
@@ -41,7 +41,7 @@
 - NPT seals are not truly gas-tight at high pressure without sealant — micro-leakage through thread roots is inherent to the tapered thread design
 - Flanged connections are bulky and heavy compared to welded or compression fittings, and the gasket is a periodic replacement item
 
-### Gasket Material Selection
+## Gasket Material Selection
 
 | Material | Service | Temperature Range | Notes |
 |----------|---------|-------------------|-------|
@@ -51,7 +51,7 @@
 | **[Compressed fiber](../glossary/compressed-fiber.md)** | Steam, water, inert gases | up to 400°C | Traditional gasket material (asbestos historically, now aramid or glass fiber). Good for utility services. |
 | **[Rubber (NBR/EPDM)](../glossary/rubber-nbrepdm.md)** | Air, water, inert gases at moderate temp | -30°C to 120°C | Cheap, forgiving. Not for hydrocarbons (NBR) or steam (EPDM preferred). |
 
-### Compressor Types
+## Compressor Types
 
 - **Reciprocating (piston)**: Pressure ratio 3-5 per stage. For >5 bar discharge, use multi-stage with intercoolers between stages (cool gas back to near-ambient before next compression stage — reduces work and prevents excessive discharge temperature). Lubricated cylinders for most gases; non-lubricated (PTFE piston rings) for purity-critical service.
 - **Diaphragm**: Gas separated from drive mechanism by flexible metal diaphragm. Zero oil contamination — essential for ultra-pure gases (semiconductor-grade H₂, O₂, Ar). Pressure ratio 3-10 per stage. Lower flow rates than piston type.
@@ -65,7 +65,7 @@
 - Reciprocating piston compressors require multi-stage intercooling above 5 bar discharge — each stage adds cost, piping, and a heat exchanger
 - Oil-free (dry screw) rotary compressors consume 15-25% more power than oil-flooded versions due to the lack of oil sealing between rotors
 
-### Gas Cylinder Filling
+## Gas Cylinder Filling
 
 - **Pressure ratings**: Standard industrial cylinders: 150-200 bar at 15°C. High-pressure cylinders: 250-300 bar. Cylinder stamped with test pressure, date, and serial number.
 - **Hydrostatic testing**: Pressurize cylinder with water to 5/3 of working pressure every 5-10 years. Measure permanent expansion (<10% of total expansion). Reject if exceeds limit or if visual inspection finds corrosion, dents, or fire damage.
@@ -80,7 +80,7 @@
 - Hydrostatic retesting every 5-10 years removes cylinders from service and requires specialized test equipment
 - Fill by weight requires a calibrated scale at each fill station; fill by pressure alone risks overfilling due to temperature-dependent gas density
 
-### Safety & Hazards
+## Safety & Hazards
 
 **Compressed gas cylinder safety**:
 - **Securing cylinders**: Cylinders must be chained or strapped to a wall, bench, or cylinder cart at all times — both in storage and in use. An unsecured cylinder knocked over can snap the valve off, turning the cylinder into an unguided projectile (a 50 kg cylinder at 200 bar contains enough energy to penetrate a concrete wall). Use two chains: one at upper third, one at lower third of cylinder body.
@@ -99,7 +99,7 @@
 - Inert gas asphyxiation produces no physiological warning — the breathing reflex is triggered by CO₂, not O₂ depletion, so victims feel euphoric before losing consciousness
 - Color-coding is supplier-specific and unreliable — content misidentification from color alone has caused fatal accidents
 
-### Gas Cylinder Specifications
+## Gas Cylinder Specifications
 
 **Cylinder construction**:
 - **Material**: Seamless steel (manganese steel or chromium-molybdenum alloy). Drawn from a single steel disc, no welded seams (seamless construction eliminates the weakest point). Outer surface painted with identifying color and labeled. Inner surface clean and dry.
@@ -115,7 +115,7 @@
 - Seamless steel cylinders weigh 30-80 kg empty — heavy to move and handle, requiring purpose-built carts
 - Diaphragm valves for high-purity service cost 5-10× more than packed valves, justified only for semiconductor-grade gases
 
-### Pressure Regulators
+## Pressure Regulators
 
 **Single-stage regulator**:
 - **Construction**: Brass body (for inert and non-corrosive gases) or stainless steel (for corrosive gases like HCl, Cl₂, H₂S). High-pressure inlet gauge (0-300 bar), low-pressure delivery gauge (0-10 bar typical). Adjustable spring-loaded diaphragm controls outlet pressure.
@@ -134,7 +134,7 @@
 - Single-stage regulator's decaying inlet characteristic causes delivery pressure to creep up as cylinder empties — unacceptable for analytical instruments without frequent manual correction
 - Two-stage regulators cost 2-3× more than single-stage and have more internal components that can fail
 
-### Gas Distribution Hardware
+## Gas Distribution Hardware
 
 **Tubing selection**:
 - **Copper**: Soft-annealed copper tubing (6-12 mm OD, 1 mm wall) for most gases at <10 bar. Flared or compression fittings. Easy to bend and form. Not suitable for ammonia (forms complex), acetylene (forms explosive copper acetylide), or ultra-high-purity applications (copper particles shed from inner surface).
@@ -153,7 +153,7 @@
 - Copper tubing cannot be used for ammonia (forms complex), acetylene (forms explosive copper acetylide), or ultra-high-purity service (particles shed from inner surface)
 - PTFE tubing is permeable to He and H₂ — small molecules diffuse through the wall, making it unsuitable for containment of these gases over long periods
 
-### Gas Detection Systems
+## Gas Detection Systems
 
 **Combustible gas detection**:
 - **Catalytic bead (pellistor) sensor**: Two platinum wire coils embedded in ceramic beads, one coated with a catalyst (active bead) and one without (reference). Both heated to ~500°C. Combustible gas oxidizes on the active bead, raising its temperature and resistance. The resistance difference between active and reference beads is proportional to gas concentration. Measures 0-100% LEL (lower explosive limit). Responds to all combustible gases but with varying sensitivity. Poisoned by silicones, lead, and halogenated compounds.
@@ -174,7 +174,7 @@
 - Catalytic bead sensors are poisoned by silicones, lead, and halogenated compounds — one exposure to silicone sealant fumes can permanently disable the sensor
 - Electrochemical cells have 1-3 year service life and cross-sensitivity issues (H₂S sensors respond to SO₂) — false alarms and missed detections are both possible
 
-### Gas Purification and Drying
+## Gas Purification and Drying
 
 **Drying agents (desiccants)**:
 - **Calcium chloride (CaCl₂)**: Inexpensive, absorbs water to form hydrated salts. Capacity: ~30% of its weight in water. Non-regenerable (discard when saturated). Used for rough drying of gases. Leaves traces of CaCl₂ dust in the gas stream, so a particulate filter downstream is needed.
@@ -195,7 +195,7 @@
 - Calcium chloride is non-regenerable and releases dust into the gas stream — requires a downstream particulate filter, adding complexity
 - Activated carbon saturates unpredictably depending on contaminant load — breakthrough occurs suddenly, releasing accumulated contaminants downstream
 
-### Specialized Gas Handling
+## Specialized Gas Handling
 
 **[Acetylene handling](../glossary/acetylene-handling.md)** (exceptionally dangerous gas):
 - **Properties**: Acetylene (C₂H₂) is unstable and can decompose explosively without oxygen at pressures above ~2 bar. It cannot be stored in plain steel cylinders like other gases.
@@ -215,7 +215,7 @@
 - Acetylene withdrawal rate limited to 1/7 of cylinder contents per hour — faster withdrawal carries acetone out, depleting the stabilizer and risking decomposition
 - Oxygen service contamination hazard is invisible — a greasy fingerprint on an O₂ fitting can cause spontaneous ignition, and there is no warning before ignition occurs
 
-### Ventilation for Gas Storage and Use
+## Ventilation for Gas Storage and Use
 
 **Gas cabinet design**: Toxic, corrosive, and pyrophoric gas cylinders must be stored and used in ventilated enclosures (gas cabinets). The cabinet is a sheet metal enclosure with a clear viewing window, an access door, and an exhaust duct connection. The exhaust system maintains a face velocity of 100-200 feet per minute (0.5-1.0 m/s) at the cabinet access opening, ensuring that any leak inside the cabinet is captured and exhausted outside the building rather than entering the workspace. The exhaust duct runs directly to the building exterior, with no recirculation. A flow sensor in the exhaust duct triggers an alarm if face velocity drops below the minimum threshold.
 
@@ -231,7 +231,7 @@
 - Exhaust system is a single point of failure — if the exhaust fan stops, the cabinet loses containment and toxic gas enters the workspace
 - Fume hood face velocity testing is annual; a sash adjustment or equipment relocation between tests can create low-velocity zones that leak contaminants
 
-### Inert Gas Purging
+## Inert Gas Purging
 
 **Purpose**: Before introducing a flammable or reactive gas into a piping system, vessel, or enclosure, the air (and its oxygen content) must be displaced with an inert gas (nitrogen or argon) to prevent forming a flammable mixture. Similarly, before opening a vessel that contained a toxic gas, purge with inert gas to displace the toxic atmosphere before introducing air for personnel entry.
 
@@ -249,7 +249,7 @@
 - Poor mixing from internal baffles and dead zones extends purge time beyond the theoretical 3-5 volume changes — stagnant pockets may retain O₂ well after bulk concentration reads safe
 - Hot work requires BOTH combustible gas <1% LEL AND O₂ <1% — checking only one condition has caused re-ignition explosions
 
-### Piping System Design
+## Piping System Design
 
 **Pressure drop calculation**: Gas flowing through a pipe loses pressure due to friction against the pipe wall. The Darcy-Weisbach equation gives the pressure drop: ΔP = f × (L/D) × (ρv²/2), where f is the friction factor (from Moody chart, depends on pipe roughness and Reynolds number), L is pipe length, D is pipe inside diameter, ρ is gas density, and v is gas velocity. For long distribution lines, pressure drop limits the flow rate. Size the pipe so that the pressure drop from source to point-of-use is less than 10% of the supply pressure.
 
@@ -267,7 +267,7 @@
 - Oxygen velocity limit of 8 m/s in steel pipe constrains flow rates — high-demand O₂ systems require larger-diameter piping than equivalent inert gas services
 - Dead legs (<6× pipe diameter) trap stagnant gas and collect condensate, creating corrosion pockets that are difficult to inspect
 
-### Pressure Testing and Commissioning
+## Pressure Testing and Commissioning
 
 **Hydrostatic testing**: Before placing a new piping system in gas service, pressure-test it with water (hydrostatic test) at 1.5× the maximum allowable working pressure (MAWP). Water is incompressible, so a failure during hydrostatic testing releases a small volume of water rather than the violent energy release of compressed gas. Hold test pressure for 30 minutes minimum while inspecting all joints for leaks (visually and by wiping joints with a dry cloth and checking for moisture). Drain and dry the system thoroughly after testing. For systems that cannot tolerate residual moisture (instrument air, high-purity gas), purge with dry nitrogen after draining.
 
@@ -283,7 +283,7 @@
 - Pneumatic testing at 1.1× MAWP stores enormous energy in compressed gas — a failure creates a blast wave, requiring personnel exclusion from the entire test area
 - Hydrostatic testing leaves residual moisture that must be purged with dry nitrogen before introducing moisture-sensitive gases — adds time and dry gas cost
 
-### Emergency Procedures
+## Emergency Procedures
 
 **Gas leak response**: If a gas leak is detected (odor, alarm, or visible damage to piping), the first priority is to stop the flow. Close the nearest upstream valve. For cylinder leaks where the valve cannot be closed (valve packing failure, damaged valve seat), evacuate the area and summon the fire department or hazmat team. Do not attempt to cap or plug a leaking cylinder. For toxic gas leaks, evacuate the area immediately and do not re-enter until the gas detector reads zero and the space has been verified safe with a calibrated monitor. For flammable gas leaks, eliminate all ignition sources (no switches, no phones, no static-generating activity) and ventilate the area before attempting to close any valve.
 
@@ -299,7 +299,7 @@
 - For toxic gas cylinder valve failures, the only safe response is building evacuation and emergency services — no safe DIY mitigation exists
 - Regulator fires in oxygen service cannot be extinguished at the cylinder valve — the operator must reach a remote shutoff while the cylinder burns
 
-### Gas Storage and Inventory Management
+## Gas Storage and Inventory Management
 
 **Cylinder storage areas**: Store gas cylinders in a designated, well-ventilated area, protected from weather and direct sunlight (sun heating raises cylinder pressure). Store full and empty cylinders separately, clearly labeled. Flammable gas storage must be at least 20 feet from oxidizer storage, or separated by a fire-rated barrier (minimum 1/2 hour rating). Toxic gas cylinders in ventilated gas cabinets or dedicated gas rooms with continuous exhaust and leak detection. Maximum cylinder quantities per storage area are defined by fire code (typically 2,500 ft³ of flammable gas or 6,000 ft³ of inert gas in unsprinklered spaces).
 
@@ -315,7 +315,7 @@
 
 **Cylinder handling and transport**: Move cylinders only with a purpose-built hand cart or cylinder trolley, never rolled or dragged. Cap the valve protection cap during transport (the metal cap protects the valve from impact). Never lift a cylinder by the valve or cap. Secure the cylinder to the cart with a chain or strap. For loading docks and elevators, cylinders are transported upright and secured. In laboratory settings, cylinders must be supported by a bench clamp, wall bracket, or floor stand at all times, not merely stood upright against a bench where they can be knocked over.
 
-### Flow Measurement and Control
+## Flow Measurement and Control
 
 **Mass flow controllers (MFCs)**: For process gas delivery in semiconductor and chemical manufacturing, the gas flow rate must be precisely controlled. An MFC measures the mass flow rate (not volume flow rate, which varies with temperature and pressure) using a thermal sensor. A portion of the gas stream passes through a capillary tube with a heated element and two temperature sensors upstream and downstream. The temperature difference between the two sensors is proportional to the mass flow. A control valve (solenoid or piezoelectric) adjusts the gas flow to match the setpoint. Accuracy: ±1% of full scale. Range: typically 10-100% of full scale rating. MFCs are calibrated for a specific gas; using the wrong gas requires a correction factor based on the ratio of specific heats and thermal conductivities.
 
@@ -331,7 +331,7 @@
 - MFCs are gas-specific — using the wrong gas without applying correction factors introduces errors of 20-50%
 - Rotameters at ±5-10% accuracy are unsuitable for process-critical dosing; recalibration of MFCs every 6-12 months adds maintenance burden
 
-### Emergency Response for Gas Incidents
+## Emergency Response for Gas Incidents
 
 **Leaking cylinder**: If a cylinder valve leaks and cannot be tightened, move the cylinder outdoors or to a well-ventilated area. For toxic gases, evacuate the building and call emergency services. Attempt to stop the leak by tightening the valve packing nut (the nut around the valve stem) with a wrench. If the leak is from the cylinder body (rare, indicates corrosion or damage), the cylinder cannot be repaired. Isolate it, vent contents safely through a scrubber if possible, and return to supplier.
 
@@ -349,7 +349,7 @@
 - H₂S olfactory fatigue above 100 ppm eliminates the natural warning — workers may believe the gas has dissipated when concentration is actually lethal
 - Toxic gas exposure effects can be delayed (CO binds hemoglobin with symptoms worsening over hours) — victims who seem fine may deteriorate rapidly
 
-### Gas Storage Layout
+## Gas Storage Layout
 
 The physical arrangement of gas storage affects both safety and operational efficiency:
 
@@ -365,7 +365,6 @@ The physical arrangement of gas storage affects both safety and operational effi
 - Outdoor storage exposes cylinders to weather and corrosion — painted surfaces degrade requiring periodic repaint
 - 6 m and 15 m separation distances consume significant facility footprint for diverse gas inventories
 
----
 
 ## Limitations
 
@@ -390,4 +389,5 @@ The physical arrangement of gas storage affects both safety and operational effi
 - **[SEM Tech](../chemistry/sem-tech.md)**: Chlorine and hydrogen gas handling in chlor-alkali cells
 - **[Welding](../machine-tools/joining.md)**: Shielding gas (Ar, CO₂, He) distribution for welding
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*
+
+[← Back to Gas Handling](index.md)

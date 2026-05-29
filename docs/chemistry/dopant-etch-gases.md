@@ -38,7 +38,7 @@ Semiconductor manufacturing requires two classes of specialty gases: dopant gase
 **[Exhaust gas abatement](../glossary/exhaust-gas-abatement.md)** (critical safety system):
 - All dopant gas exhaust lines connect to dedicated abatement system. Burn exhaust gases at 800-1000°C (thermal oxidation). Resulting oxides captured: As₂O₃, P₂O₅, B₂O₃ — solid particulates trapped in HEPA filters, water-soluble compounds in wet scrubbers (NaOH solution). Scrubber water tested for heavy metals before discharge. Spent HEPA filters disposed as hazardous waste.
 
-### Etch Gases
+## Etch Gases
 
 **Chlorine (Cl₂)**:
 - From chlor-alkali electrolysis (Chemistry). Compress into steel cylinders. Purity 99.5%+ for semiconductor use (further purified by distillation — Cl₂ bp -34°C).
@@ -60,7 +60,7 @@ Semiconductor manufacturing requires two classes of specialty gases: dopant gase
 
 **Weaknesses**: Pd membrane is expensive and fragile (poisoned by sulfur compounds); molecular sieves require periodic thermal regeneration (energy cost); cryogenic trapping needs liquid N₂ supply; all purification stages add pressure drop and complexity to gas distribution system; getters are consumed and require replacement.
 
-### Gas Distribution System
+## Gas Distribution System
 
 **Piping**: Electropolished 316L stainless steel tubing. Internal surface roughness <0.5 μm Ra (electropolishing removes micro-roughness where particles and contaminants could trap). Orbital-welded joints (automated TIG welding in inert atmosphere — no internal weld beads or discoloration). VCR-type face-seal fittings for connections to equipment. Minimum dead legs (no T-connections pointing down where gas stagnates).
 
@@ -68,7 +68,7 @@ Semiconductor manufacturing requires two classes of specialty gases: dopant gase
 
 **Mass flow controllers (MFCs)**: Thermal measurement of gas flow. Heated sensor tube — gas flowing carries heat downstream. Temperature difference between upstream and downstream sensors proportional to mass flow. Control valve adjusts to maintain setpoint. Accuracy ±1% of full scale. Calibrate for each specific gas (heat capacity differs). Essential for semiconductor process control — gas flow determines deposition rates, etch rates, doping levels.
 
-### Dopant Gases — Detailed Chemistry
+## Dopant Gases — Detailed Chemistry
 
 **Arsine (AsH₃)**: Used for n-type doping of silicon in ion implantation (10¹⁴-10¹⁶ atoms/cm² dose) and epitaxial deposition. Molecular weight 77.95, boiling point -62.5°C. Pyrophoric but the primary hazard is extreme toxicity — hemolytic agent that destroys red blood cells. IDLH (immediately dangerous to life and health): 3 ppm. TLV-TWA: 0.005 ppm (5 ppb). Detrimental effects appear hours after exposure — insidious. Stored at <1000 ppm concentration in H₂ or N₂ balance in dedicated gas cabinets with continuous AsH₃ monitoring (electrochemical sensors, detection limit <10 ppb). Exhaust abatement: thermal oxidation (combustion chamber at 900°C) or wet scrubbing (NaOCl solution oxidizes AsH₃ to soluble arsenate, AsO₄³⁻). Arsenic-containing waste classified as hazardous — requires specialized disposal.
 
@@ -78,13 +78,13 @@ Semiconductor manufacturing requires two classes of specialty gases: dopant gase
 
 **Diborane (B₂H₆)**: p-type dopant for epitaxial silicon and polysilicon deposition. Pyrophoric (ignites spontaneously in air). Highly toxic (TLV-TWA 0.1 ppm). Decomposes at room temperature — must be used promptly after generation or stored diluted. Generated on-site by reacting NaBH₄ with H₃PO₄ when needed, or purchased as 1-5% in H₂. Used in PECVD (plasma-enhanced CVD) for boron-doped films.
 
-### Etch Gases — Process Details
+## Etch Gases — Process Details
 
 **Fluorine-based etching chemistry**: Silicon etching relies on generation of atomic fluorine radicals in plasma: CF₄ + e⁻ → CF₃· + F· + e⁻. Fluorine radicals react with silicon: Si + 4F· → SiF₄ (volatile, bp -86°C). Etch rate depends on F· concentration, ion energy, and substrate temperature. Selectivity (etching Si vs SiO₂) controlled by gas chemistry: adding O₂ to CF₄ increases F· concentration (etches Si faster), adding CHF₃ or C₄F₈ increases polymer deposition on SiO₂ (protecting oxide — selective oxide etch). **[Bosch process](../glossary/bosch-process.md)** for deep silicon etching (MEMS, TSV): alternates etch step (SF₆ plasma → isotropic Si etch) and passivation step (C₄F₈ plasma → fluorocarbon polymer deposition) at 10-100 Hz cycling. Achieves vertical sidewalls with scalloping of 50-200 nm per cycle. Etch rate: 5-20 µm/min. Aspect ratio: up to 30:1.
 
 **Chlorine-based etching**: Cl₂, BCl₃, HCl used for aluminum metallization etching. Chlorine radicals etch aluminum: 2Al + 6Cl· → 2AlCl₃ (volatile above 180°C). BCl₃ serves dual purpose: Cl source and native oxide (Al₂O₃) removal (2BCl₃ + Al₂O₃ → 2AlCl₃ + B₂O₃). Aluminum etch requires heating the wafer chuck to 40-70°C to volatilize AlCl₃. Corrosion concern: residual Cl on etched surfaces attacks aluminum — post-etch passivation with CHF₃ or H₂O rinse required.
 
-### Gas Distribution Systems
+## Gas Distribution Systems
 
 **Piping**: Electropolished 316L stainless steel tubing, orbital-welded joints (no mechanical connections in gas lines). Internal surface roughness Ra <0.25 µm to prevent particle generation and gas adsorption. Tube bends: minimum 3× OD radius to prevent flow restriction and particulate generation. All lines passivated with fluorine or oxygen before service.
 
@@ -92,7 +92,7 @@ Semiconductor manufacturing requires two classes of specialty gases: dopant gase
 
 **Gas cabinet safety**: Automatic shutoff valve (normally closed pneumatic valve — closes on power loss, gas detection alarm, or fire alarm). Exhaust ventilation: 100+ ft³/min flow through cabinet. Continuous gas monitoring: toxic gas sensors at cabinet exhaust, room ambient, and exhaust stack (three-tier monitoring). Flashback arrestors on hydrogen lines. Excess flow valves (shut off if flow exceeds setpoint — indicates line break). Emergency abort button (closes all cylinder valves, purges lines with N₂).
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Hydrofluoric acid (HF)**: Dissolves bone. Lethal at low exposure. ANTIDOTE: Calcium gluconate gel — must be on hand before ANY HF handling.
 - **Phosgene (COCl₂)**: WWI weapon. Lethal at 3 ppm, delayed onset. Sealed systems only.
@@ -100,9 +100,7 @@ Semiconductor manufacturing requires two classes of specialty gases: dopant gase
 - **Arsine (AsH₃)**: TLV 50 ppb; lethal at low ppm concentrations. Continuous monitoring required.
 
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
 
 ## Silane and CVD Precursor Gases
 

@@ -8,7 +8,7 @@
 > **Outputs**: beef, dairy, tallow, leather_hides, manure, draft_power
 > **Critical**: Yes — most productive multi-purpose livestock species
 
-## 1. Overview
+## Overview
 
 Cattle are the single most productive domesticated species for a bootstrapping civilization. A mature cow converts pasture and roughage into high-value protein (meat and milk), provides draft power for plowing and transport, produces leather and tallow as industrial materials, and generates 30-40 kg of nitrogen-rich manure per day that sustains soil fertility. Mature weight ranges from 400-800 kg (cows at the lower end, bulls and oxen at the upper). Gestation is 283 days (range 279-290), producing a single calf per pregnancy (twins in roughly 1-2% of births).
 
@@ -25,7 +25,7 @@ No other livestock species matches cattle for combined output of food, fiber, po
 | Daily water intake | 40-80 L | Doubles above 30°C |
 | Manure production | 30-40 kg/day | 8-12 tonnes/year |
 
-## 2. Prerequisites
+## Prerequisites
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -37,7 +37,7 @@ No other livestock species matches cattle for combined output of food, fiber, po
 | Shelter for calving and extreme weather | [`construction`](../construction/index.md) | Three-sided barn or bedded-pack structure |
 | Milking equipment (dairy operations) | [`ceramics.pottery`](../ceramics/pottery.md) | Buckets, straining cloth, cooling tank |
 
-## 3. Bill of Materials
+## Bill of Materials
 
 Materials listed per 20-cow operation per year.
 
@@ -51,9 +51,9 @@ Materials listed per 20-cow operation per year.
 | Fencing materials | Wire, posts, hardware | [`metals.iron-steel`](../metals/index.md) | Hedgerows, stone walls |
 | Breeding bull or AI supplies | 1 bull per 25 cows | Natural service or [`health.medicine`](../health/medicine.md) | AI straws (requires liquid nitrogen) |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Dairy Management
+## 4.1 Dairy Management
 
 **Principle**: Cattle convert pasture and forage into milk — a complete protein food containing 3.2-5.5% butterfat, 3.0-4.0% protein, and 4.8% lactose. Milking stimulates continued lactation through a 305-day cycle, after which the cow is dried off for 60 days before calving again.
 
@@ -86,7 +86,7 @@ Materials listed per 20-cow operation per year.
 - High feed requirements: 0.4-0.6 kg dry matter per liter of milk produced
 - Winter housing and stored feed necessary in cold climates (4-6 months/year)
 
-### 4.2 Beef Production
+## 4.2 Beef Production
 
 **Principle**: Cattle convert pasture and forage into meat through growth from calf to finished animal over 18-30 months. A 500 kg cow yields a dressed carcass of 55-60% (275-300 kg), breaking down into 45-50% retail cuts, 15-20% bone, and 10-15% fat trim.
 
@@ -115,7 +115,7 @@ Materials listed per 20-cow operation per year.
 - Requires significant land area (0.5-2.0 ha per animal)
 - Vulnerable to predation, disease, and weather events during long growth period
 
-### 4.3 Breeding and Calving
+## 4.3 Breeding and Calving
 
 **Principle**: Cattle reproduction follows a 283-day gestation with targeted 365-day calving interval. Calves are born precocial — standing within 30 minutes and nursing within 2-4 hours. Passive immunity transfers through colostrum (first milk containing immunoglobulins).
 
@@ -147,7 +147,7 @@ Materials listed per 20-cow operation per year.
 - Calf mortality 5-10% in first week (hypothermia, scours, inadequate colostrum)
 - Bull handling poses significant safety risk (800 kg animal, unpredictable)
 
-### 4.4 Ox Training for Draft Power
+## 4.4 Ox Training for Draft Power
 
 **Principle**: Castrated male cattle (oxen) trained to pull loads provide sustained traction at 0.5-0.75 HP per animal. Oxen are slower than horses but stronger pound-for-pound, thrive on roughage alone, and have calmer temperaments. Training begins at 1-2 years and takes 2-3 years to produce a fully trained team.
 
@@ -175,7 +175,7 @@ Materials listed per 20-cow operation per year.
 - Cannot sweat efficiently — require rest and shade in heat above 30°C
 - Single ox out of service sidelines the entire team
 
-### 4.5 Pasture and Feed Management
+## 4.5 Pasture and Feed Management
 
 **Principle**: Cattle are ruminants that convert cellulose in grasses and legumes into energy through microbial fermentation in the rumen. Rotational grazing management optimizes forage utilization, prevents overgrazing, distributes manure evenly, and reduces parasite loads.
 
@@ -206,9 +206,9 @@ Materials listed per 20-cow operation per year.
 - Drought reduces pasture productivity by 40-60%, requiring supplemental feed
 - Overgrazing degrades pasture rapidly — recovery takes 1-3 years
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Production Benchmarks by Breed Type
+## Production Benchmarks by Breed Type
 
 | Parameter | Holstein (Dairy) | Jersey (Dairy) | Hereford (Beef) | Dual-Purpose |
 |-----------|------------------|----------------|-----------------|--------------|
@@ -220,7 +220,7 @@ Materials listed per 20-cow operation per year.
 | Feed DM per day (kg) | 18-25 | 12-17 | 12-20 | 12-18 |
 | Feed cost per L milk ($) | 0.15-0.25 | 0.12-0.20 | — | 0.20-0.35 |
 
-### Scale Estimates per 20-Cow Operation
+## Scale Estimates per 20-Cow Operation
 
 | Output | Annual Quantity | Notes |
 |--------|----------------|-------|
@@ -231,7 +231,7 @@ Materials listed per 20-cow operation per year.
 | Tallow | 100-200 kg | From rendered fat |
 | Leather (hides) | 8-12 hides | 3-5 m² each after tanning |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 A founding herd of 10-15 cattle (8-10 cows, 2-3 heifers, 1-2 bulls) expands to 40-60 head within 8-10 years using natural service at a 1:25 bull-to-cow ratio. Expansion is limited by feed supply and winter housing capacity — each additional animal requires 0.5-2.0 hectares of pasture and 1.2-1.8 tonnes of stored hay.
 
@@ -239,7 +239,7 @@ A founding herd of 10-15 cattle (8-10 cows, 2-3 heifers, 1-2 bulls) expands to 4
 
 **Scale bottlenecks**: Winter feed storage limits herd size more than summer pasture. A 20-cow herd requires 41-62 tonnes of stored hay, requiring 80-120 m² of hayloft space. Water supply must deliver 800-1,600 L/day. Milking labor scales linearly — one person can hand-milk 10-15 cows in 1.5-2 hours per session.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -250,7 +250,7 @@ A founding herd of 10-15 cattle (8-10 cows, 2-3 heifers, 1-2 bulls) expands to 4
 | Poor weight gain | Internal parasites, insufficient pasture, low-quality hay | Fecal egg count; deworm with ivermectin; supplement with grain; test hay protein content |
 | Retained placenta | Deficient selenium/vitamin E, difficult birth, infection | Do not force removal; monitor for fever (>39.5°C indicates metritis); antibiotics if infected |
 
-## 8. Safety
+## Safety
 
 **Bull handling**: Never enter a pen with a bull alone. A 800 kg bull charging at 35 km/h delivers massive blunt force. Use a bull staff (rigid pole with snap latch attached to nose ring) for control. Signs of aggression: pawing ground, head rubbing, broadside display, vocalizing. Breeding bulls require dedicated escape-proof pens with heavy gates.
 
@@ -260,7 +260,7 @@ A founding herd of 10-15 cattle (8-10 cows, 2-3 heifers, 1-2 bulls) expands to 4
 
 **Kicking and crushing**: Cows kick forward and to the side (unlike horses, which kick backward). Stand to the side when working near the rear. Never stand behind a cow in a confined space. A 500 kg animal stepping on a foot causes serious injury — wear reinforced boots with steel toe caps.
 
-## 9. Quality Control
+## Quality Control
 
 **Milk quality**: Test for mastitis at every milking using strip cup (visual inspection for clots or discoloration) or California Mastitis Test (CMT reagent reacts with somatic cells). Somatic cell count (SCC) below 200,000/mL indicates healthy udder. Above 500,000/mL indicates infection. Bacterial count below 20,000 CFU/mL for Grade A milk. Cool milk to 4°C within 30 minutes of milking.
 
@@ -268,7 +268,7 @@ A founding herd of 10-15 cattle (8-10 cows, 2-3 heifers, 1-2 bulls) expands to 4
 
 **Breeding records**: Track breeding date, expected calving date (+283 days), actual calving date, calf birth weight, calving ease score (1-5), and rebreeding date. Target calving interval under 370 days. Cull cows failing to conceive within 90 days postpartum or producing below 70% of herd average.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 **Tropical adaptation**: Zebu-type breeds (*Bos indicus*) — Brahman, Nelore, Gir — tolerate 25-35°C with sweat glands 3-4× denser than *Bos taurus*, loose skin for cooling, and resistance to ticks and tropical parasites. Brahman crossbreeds (Brangus: 3/8 Brahman × 5/8 Angus) combine tropical adaptation with meat quality.
 
@@ -280,7 +280,7 @@ A founding herd of 10-15 cattle (8-10 cows, 2-3 heifers, 1-2 bulls) expands to 4
 
 **Bison alternative**: American bison (*Bison bison*) produce leaner meat (2-3% fat vs 10-15% for beef) on grass alone with no grain finishing and minimal disease susceptibility. See [`animals.bison`](bison.md). Bison require stronger fencing and handling facilities due to wilder temperament.
 
-## 11. Cross-Domain Links
+## Cross-Domain Links
 
 - [`animals.domestication`](domestication.md) — livestock principles: housing, nutrition, breeding, herd health
 - [`animals.draft-power`](draft-power.md) — ox training, yoke construction, hitching systems, load calculations
@@ -289,5 +289,5 @@ A founding herd of 10-15 cattle (8-10 cows, 2-3 heifers, 1-2 bulls) expands to 4
 - [`agriculture`](../agriculture/index.md) — pasture management, crop rotation, manure as fertilizer
 - [`health.medicine`](../health/medicine.md) — disease treatment, vaccination, veterinary supplies
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Animals](index.md)

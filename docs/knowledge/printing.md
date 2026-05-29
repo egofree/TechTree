@@ -29,7 +29,7 @@
 
 ## Process Description
 
-### Paper Production
+## Paper Production
 
 **Raw materials**: Wood pulp (softwood — spruce, pine, fir) or cotton/linen rag (higher quality, longer fibers). Also: hemp, bamboo, straw.
 
@@ -68,7 +68,7 @@
 - Papermaking is water-intensive (large volumes needed for vat preparation and rinsing) and requires a drying loft or heated cylinders
 - Rag supply is a perennial bottleneck — a busy print shop consuming 500 sheets/day requires 30-50 kg of sorted rags per week
 
-### Woodblock Printing
+## Woodblock Printing
 
 **[Woodblock printing](../glossary/woodblock-printing.md)** (China, ~700 CE; Europe, ~1400 CE):
 - **Block preparation**: Select a close-grained hardwood block — cherry, boxwood, or pear wood are preferred (fine, even grain holds detail). Plane one face perfectly flat. Size to page dimensions plus 2 cm margin on all sides. Draw or transfer the text/image to be printed onto the block surface in reverse (mirror image). This can be done by drawing on thin paper, placing it face-down on the block, and rubbing the back to transfer the image.
@@ -88,7 +88,7 @@
 - A skilled carver completes only one page block in 1-2 days — production rate is limited by carving speed, not printing speed
 - Storage of carved blocks requires significant space and protection from insects, mold, and warping
 
-### Movable Type
+## Movable Type
 
 **[Early movable type](../glossary/early-movable-type.md)** — Bi Sheng's ceramic type (China, ~1040 CE):
 - **Manufacture**: Carve individual characters into fine clay to create positive models. Press clay into shallow mold to create negative impression. Fill mold with fine, moist clay. Fire in kiln at ~1000°C to produce hard ceramic type pieces. Each piece is a small rectangular block with a raised character on one face.
@@ -117,7 +117,7 @@
 - **Imposition and forme**: Arrange galley pages into the forme (the complete assembly of type that will be printed in one press impression). For a folio format, two pages are imposed side-by-side on the forme. Quarto: four pages imposed. The pages must be arranged so that when the printed sheet is folded, the pages appear in correct numerical order — this is the art of imposition, and incorrect imposition produces mispaginated books. Lock the forme in an iron chase (frame) using wooden or metal quoins (expandable wedges) driven tight with a mallet to hold all type securely in position.
 - **Distribution**: After printing, the type must be distributed (sorted back into the type case, each piece in its correct compartment). This is slow, tedious work but essential for reusing the type. A skilled compositor can set 1-2 pages of text per hour; distribution takes approximately the same time as composition.
 
-### Gutenberg Press
+## Gutenberg Press
 
 **Press construction**: The Gutenberg press was adapted from the wooden screw press used for wine and olive pressing. Key components:
 - **Housing**: Heavy wooden frame (elm or oak timbers, mortise-and-tenon joints, bolted with iron rods for rigidity). Approximately 1.8 m tall, 1.2 m wide, 0.6 m deep. Weight: 200-300 kg. Later iron-frame presses (19th century) are more rigid, allowing higher pressures and more consistent impression.
@@ -142,7 +142,7 @@
 - Each impression prints only one side of one sheet in one color — multi-color work requires multiple precisely registered press runs
 - The platen area (~30×40 cm) limits the printable page size; larger formats require a larger, heavier press
 
-### Ink Formulation
+## Ink Formulation
 
 **[Carbon ink](../glossary/carbon-ink.md)** (printing ink base): Soot (lampblack from burning oil or resin) + linseed oil binder + rosin (improves tack and drying). Grind soot with oil on stone slab with muller (flat glass or stone disk) until uniform smooth paste. Consistency: thick enough to adhere to type face without running, thin enough for even transfer. Boil linseed oil to polymerize (thickens from low-viscosity oil to honey-like consistency) before mixing with soot. This "burnt oil" or "varnish" is the critical ingredient — the degree of polymerization determines ink viscosity and tack.
 
@@ -164,7 +164,7 @@
 - Drying time of 4-24 hours per side limits production speed; printed sheets must be hung and dried before the second pass or binding
 - Color printing requires separate pigments (Prussian blue, vermilion, etc.) — some historical pigments contain toxic heavy metals (mercury sulfide, lead chromate)
 
-### Bookbinding
+## Bookbinding
 
 **Collating and folding**: Fold printed sheets into gatherings (signatures — typically 4, 8, or 16 pages per gathering). A full sheet printed on both sides, folded once, makes a folio (4 pages). Folded again makes a quarto (8 pages). Folded again makes an octavo (16 pages). Collate gatherings in correct order.
 
@@ -184,7 +184,7 @@
 - Leather and cloth covering materials add cost and require animal husbandry or textile production infrastructure
 - Hand binding quality varies between practitioners — uneven sewing tension causes loose pages, and poor gluing causes spine separation over time
 
-### Knowledge Distribution Impact
+## Knowledge Distribution Impact
 
 Printing enables mass distribution of technical knowledge — process recipes, engineering drawings, scientific observations. Before printing, knowledge propagation was limited by the number of scribes (linear growth — each copy requires full manual reproduction). After printing, exponential growth — each press run produces hundreds of identical copies from a single typesetting effort.
 
@@ -200,7 +200,7 @@ Printing enables mass distribution of technical knowledge — process recipes, e
 - **Time to produce**: A compositor can set 1-2 pages/hour. A press can print 250 sheets/hour (one side). A 200-page book (25 sheets, 8 pages per sheet = octavo format) requires approximately 25 hours of typesetting + 1 hour of press time per side (50 sheets × 2 sides ÷ 250/hour) = ~26 hours of labor per edition, plus paper and binding. An edition of 500 copies of a 200-page book is producible in 2-3 weeks by a small print shop (2-3 workers).
 - **Knowledge multiplier**: A single technical manual in a scribe-based system might have 10-50 copies across a civilization (each copy takes weeks of skilled labor). The same manual printed in an edition of 500 copies can be distributed to every workshop, school, and library in the civilization within months. This acceleration of knowledge transmission is the single most important consequence of printing technology.
 
-### Illustration & Image Reproduction
+## Illustration & Image Reproduction
 
 **[Woodcut illustration](../glossary/woodcut-illustration.md)** (concurrent with woodblock text printing):
 - **Relief woodcut**: Same technique as woodblock text, but carving images rather than letters. The illustrator draws on the block; the carver removes background. Woodcut illustrations can be printed alongside text on the same page by cutting the image block to type-height and locking it in the forme with the type. The earliest printed books with illustrations (e.g., the Nuremberg Chronicle, 1493) used this technique. Line work only — tone is suggested by hatching (parallel lines) and cross-hatching.
@@ -221,7 +221,7 @@ Printing enables mass distribution of technical knowledge — process recipes, e
 - Copper plates wear with each impression — after 500-1000 impressions, fine lines become faint; steel-facing extends life but adds an electroplating step
 - Each illustration method requires separate skills (wood carving, burin engraving, acid etching) — a print shop must train or hire specialists for each technique
 
-### Press Evolution
+## Press Evolution
 
 **From Gutenberg to industrial press**:
 - **[Common press](../glossary/common-press.md)** (Gutenberg design, ~1440-1800): Wooden frame, screw mechanism. 250 sheets/hour maximum (skilled two-man team: beater inks the type, puller operates the press). Printable area ~30×40 cm. This design, with minor refinements, served for 350 years.
@@ -243,7 +243,7 @@ Printing enables mass distribution of technical knowledge — process recipes, e
 - Higher-speed presses demand continuous paper feed (roll paper), which requires a paper machine rather than hand production
 - Plate duplication (stereotyping, electrotyping) adds lead exposure risk from molten type metal handling and acid baths for etching
 
-### Paper Requirements for Printing
+## Paper Requirements for Printing
 
 **Paper properties that affect print quality**:
 - **Smoothness**: Rough paper produces uneven ink transfer — some areas receive heavy ink, others none. Calendering (pressing between polished rollers) smooths the surface for letterpress. For intaglio, the paper must be soft enough to be pressed into engraved grooves — dampening before printing (soaking in water for 2-4 hours, then blotting) makes paper fibers pliable.
@@ -252,7 +252,7 @@ Printing enables mass distribution of technical knowledge — process recipes, e
 - **Bulk and opacity**: Thin paper (below 60 g/m²) is translucent — print on one side shows through to the other (show-through). Minimum 70 g/m² for acceptable opacity in single-sided printing; 80-100 g/m² for double-sided printing without show-through. Bulk (thickness per unit weight) varies with fiber type and beating — lightly beaten fibers produce bulkier paper; heavily beaten fibers produce denser, smoother, more transparent paper.
 - **pH and permanence**: Acidic paper (groundwood pulp, alum-rosin sized) degrades within 50-100 years (see [Libraries & Information Systems](libraries.md) for preservation). For archival printed works, use alkaline paper (kraft pulp, calcium carbonate filler, neutral or alkaline sizing). The cost premium for archival paper is modest (perhaps 20-50% above acidic paper) and pays for itself many times over in reduced preservation costs and survived knowledge.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Lead toxicity**: Type metal is 80-85% lead. Lead dust from grinding or trimming type is hazardous by inhalation and ingestion. Wear gloves when handling type metal. Melt type in ventilated area — lead fumes are produced above 500°C (type melts at 300°C, so fume risk is low but real with overheating). Wash hands before eating.
 - **Ink solvents**: Linseed oil, rosin, and turpentine are flammable. Store away from heat sources. Work in ventilated area — solvent vapors cause headaches and dizziness.
@@ -260,7 +260,7 @@ Printing enables mass distribution of technical knowledge — process recipes, e
 - **Paper dust**: Dried paper pulp dust is a respiratory irritant. Wear dust mask during papermaking. Ensure good ventilation in paper drying lofts.
 - **Acid hazards**: Copperplate etching uses nitric acid (HNO₃) or ferric chloride (FeCl₃) solutions. Nitric acid produces toxic nitrogen dioxide gas (brown fumes) during etching — work only in a fume hood or well-ventilated outdoor workspace. Ferric chloride is less hazardous (no toxic gas) but stains everything brown and corrodes metal tools. Wear rubber gloves and eye protection. Neutralize acid spills with sodium bicarbonate (baking soda).
 
-### Printing Economics & Production Rates
+## Printing Economics & Production Rates
 
 **Press output by era**:
 - **[Hand press](../glossary/hand-press.md)** (Gutenberg-style common press, 1440-1800): 250 sheets/hour single-color, requiring a skilled two-operator team (beater inks the type, puller operates the press). Each sheet requires one pull of the bar. A full working day (10-12 hours) produces 2,000-3,000 impressions, but only half are usable on each side of a sheet, so effective production for a two-sided sheet is ~1,250 sheets/day. Setup time (make-ready) adds 1-2 hours per forme before production begins.
@@ -290,7 +290,7 @@ Printing enables mass distribution of technical knowledge — process recipes, e
 - A steam-powered rotary press shop (1860s) requires 6-10 workers: 2-3 feeders at different stations, 2 fly persons to catch output, 1 pressman supervising ink and impression, 1 engineer tending the steam engine. This team produces 50,000-100,000 sheets per day — a 25-50× productivity increase per worker compared to hand press operation.
 - Binding is a separate operation requiring additional labor roughly equal to the press crew: 2-3 binders can fold, gather, sew, and bind 100-200 books per day by hand. Machine binding (case-making, sewing machines, rounding and backing machines) from the 1870s increased binding throughput to 1,000-2,000 books per day with the same crew size.
 
-### Industrial Binding Methods
+## Industrial Binding Methods
 
 **Saddle-stitch binding**: Fold signatures and nest them one inside another, then staple through the fold with two wire staples (stitching wire: 24-26 gauge). Suitable for booklets of 80 pages or fewer. Fast and cheap: a saddle-stitcher binds 3,000-8,000 booklets per hour. Limitation: pages pull out under heavy use because the wire is the sole attachment.
 
@@ -298,15 +298,14 @@ Printing enables mass distribution of technical knowledge — process recipes, e
 
 **[Case binding](../glossary/case-binding.md)** (hardcover): Sew signatures through the fold onto linen tapes or cords (3-5 per spine). Glue the spine with PVA adhesive. Round and back the spine. Endpapers glued to the first and last signatures attach the text block to the hardcover boards (cardboard or millboard, 2-3 mm thick). Cover the boards with cloth or leather glued over the boards and spine. Case binding is the most durable method: sewn signatures retain flexibility and the hard case protects the text block. A well-made case binding withstands 500+ circulations in a lending library.
 
-### Illustration Reproduction Methods
+## Illustration Reproduction Methods
 
 **[Lithography](../glossary/lithography.md)** (Alois Senefelder, 1796): Draw or write on a flat slab of fine-grained limestone (Bavarian Solnhofen limestone is the historical standard) with a grease-based crayon or tusche (liquid grease ink). The grease is absorbed into the stone pores. Dampen the stone surface with water — the water wets the bare stone but is repelled by the greasy drawn areas. Roll oil-based ink over the dampened stone — the ink adheres only to the greasy drawn areas and is repelled by the water film on bare stone. Press paper onto the inked stone to transfer the image. Lithography prints directly from the flat surface (no carving required), allowing the artist to draw freely with a crayon, producing tonal gradation impossible in woodcut or engraving. A lithographic stone can produce 5,000-10,000 impressions before the image degrades.
 
 **[Screen printing](../glossary/screen-printing.md)** (serigraphy): Stretch a fine mesh screen (silk historically, now polyester or nylon, 80-200 threads per inch depending on detail required) tightly over a wooden or aluminum frame. Block areas of the screen that should not print using a stencil (paper, film, or photo-emulsion). Force ink through the open mesh areas onto the substrate below using a squeegee (rubber blade). Screen printing deposits a thicker ink film (20-40 μm) than any other printing method, producing vivid, opaque color even on dark surfaces. Used for posters, signage, textile printing, and circuit board patterning. Mesh count determines detail resolution: 80 threads/inch for heavy coverage on textiles, 200 threads/inch for fine line work on paper.
 
----
 
-### Cross-Domain Dependencies
+## Cross-Domain Dependencies
 
 - Printing requires [Writing](../knowledge/writing.md) systems and [Education](../knowledge/education.md) literacy. Paper from [Pulp Chemicals](../chemistry/pulp-chemicals.md). Ink from [Solvents](../chemistry/solvents.md). Stored in [Libraries](../knowledge/libraries.md).
 
@@ -324,6 +323,6 @@ Printing enables mass distribution of technical knowledge — process recipes, e
 - [Education](education.md) — literacy enables readership for printed materials
 - [Chemistry](../chemistry/index.md) — paper production, ink formulation, solvent supply
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*
+
+[← Back to Knowledge](index.md)

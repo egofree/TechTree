@@ -32,7 +32,7 @@ Optical encoders measure linear displacement by detecting the passage of a preci
 - Sensitive to contamination: a fingerprint on the scale causes signal dropout
 - Maximum speed limited by signal processing bandwidth: 5-20 m/s
 
-### Incremental Encoders
+## Incremental Encoders
 
 The most common encoder type for precision motion. A glass or steel scale carries a precise grating (typically 20 μm or 4 μm pitch). An index grating in the read head creates a Moiré interference pattern that cycles through light and dark as the read head moves relative to the scale.
 
@@ -43,7 +43,7 @@ The most common encoder type for precision motion. A glass or steel scale carrie
 - **Repeatability**: ±0.02-0.1 μm — significantly better than absolute accuracy.
 - **Maximum speed**: 5-20 m/s. Signal processing bandwidth limits the maximum speed at which interpolation works correctly.
 
-### Scale Materials and Mounting
+## Scale Materials and Mounting
 
 | Scale Type | Substrate | CTE (×10⁻⁶/°C) | Max Length | Application |
 |------------|-----------|-----------------|-----------|-------------|
@@ -57,7 +57,7 @@ The most common encoder type for precision motion. A glass or steel scale carrie
 - **Scale mounting**: Adhesive-bonded or clamped. Must not be stretched or compressed during mounting — forces distort the grating pitch.
 - **Read head gap**: 0.3-1.0 mm air gap between read head and scale surface. Tolerant of small variations but must not contact the scale.
 
-### Absolute Encoders
+## Absolute Encoders
 
 Incremental encoders lose position count if power is interrupted. Absolute encoders encode unique position in a multi-track code pattern:
 
@@ -80,7 +80,7 @@ Laser interferometers measure displacement by counting interference fringes prod
 - Cosine error, Abbe error, and dead path error require careful alignment and multi-beam configurations
 - Expensive: $50,000-200,000+ per multi-axis interferometer system
 
-### Michelson Interferometer (Basic)
+## Michelson Interferometer (Basic)
 
 The fundamental configuration:
 
@@ -94,7 +94,7 @@ The fundamental configuration:
 - **Accuracy**: ±0.1-1 ppm of measured distance in controlled environment. At 300 mm: ±0.03-0.3 μm.
 - **Non-contact**: The measurement beam reflects off a mirror on the stage — no physical contact between sensor and moving part.
 
-### Heterodyne Interferometers
+## Heterodyne Interferometers
 
 The standard for semiconductor lithography equipment. A Zeeman-split HeNe laser produces two closely-spaced frequencies (f1 and f2, separated by ~1.5-2 MHz) with orthogonal linear polarizations:
 
@@ -108,7 +108,7 @@ The standard for semiconductor lithography equipment. A Zeeman-split HeNe laser 
 - **Bidirectional sensing**: Phase of the beat signal relative to a reference indicates direction.
 - **Multi-axis capability**: Different polarization or frequency encoding allows multiple axes from one laser source.
 
-### Interferometer Accuracy Limitations
+## Interferometer Accuracy Limitations
 
 The vacuum wavelength of HeNe laser light is 632.8 nm. In air, the wavelength changes with refractive index:
 
@@ -136,7 +136,7 @@ Where n (refractive index of air) depends on temperature, pressure, humidity, an
 - **Dead path error**: The non-changing portion of the beam path (between beam splitter and reference mirror) is sensitive to refractive index changes. Minimized by keeping dead path short (< 50 mm).
 - **Target mirror flatness**: Mirror figure error directly adds to measurement error. Mirror flatness must be < λ/10 (63 nm) for standard precision, < λ/50 (12 nm) for nanometer-level work.
 
-### Multi-Axis Interferometer Configurations
+## Multi-Axis Interferometer Configurations
 
 Wafer stages require simultaneous X, Y, and angular measurement:
 
@@ -149,7 +149,7 @@ Wafer stages require simultaneous X, Y, and angular measurement:
 - 2-3 Y-axis beams (measuring Y position and pitch)
 - Total: 5-7 interferometer measurement channels per stage
 
-### Interferometer Specifications for Semiconductor Equipment
+## Interferometer Specifications for Semiconductor Equipment
 
 | Parameter | Production Scanner | Research/Ultra-Precision |
 |-----------|-------------------|--------------------------|
@@ -164,7 +164,7 @@ Wafer stages require simultaneous X, Y, and angular measurement:
 
 ## Encoder Signal Processing
 
-### Analog Interpolation
+## Analog Interpolation
 
 Raw encoder signals are sinusoidal. Extracting sub-period position requires precise interpolation:
 
@@ -172,7 +172,7 @@ Raw encoder signals are sinusoidal. Extracting sub-period position requires prec
 - **Signal quality**: Real encoder signals have amplitude mismatch (1-5%), phase error (90° ± 1-5°), and DC offset (0.5-5% of amplitude). These errors create interpolation errors (sub-divisional error, SDE).
 - **Sub-divisional error (SDE)**: Periodic error within one signal period, typically ±5-50 nm for optical encoders. For nanometer positioning, SDE must be < ±2 nm. Achieved by careful signal conditioning and calibration.
 
-### Digital Signal Processing
+## Digital Signal Processing
 
 Modern encoder interfaces digitize the analog signals and apply real-time correction:
 
@@ -180,7 +180,7 @@ Modern encoder interfaces digitize the analog signals and apply real-time correc
 - **Harmonic compensation**: SDE is decomposed into Fourier harmonics of the signal period. The dominant harmonics (1st, 2nd, 3rd, 4th) are corrected in real-time.
 - **Noise filtering**: Anti-alias filters and digital smoothing reduce high-frequency noise. Careful filter design preserves phase margin in the servo loop.
 
-### Latency and Phase Delay
+## Latency and Phase Delay
 
 Position feedback latency directly impacts servo performance:
 

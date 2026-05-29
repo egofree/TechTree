@@ -8,7 +8,6 @@
 > **Outputs**: potable_water, sanitized_water
 > **Critical**: Yes — safe drinking water is the single most impactful public health intervention
 
-## Overview
 
 Water treatment for health and sanitation focuses on making water safe for human consumption: settling, sand filtration, boiling, chlorination, and UV treatment. Access to clean drinking water is the single most impactful public health intervention, preventing waterborne diseases (cholera, typhoid, dysentery) that would otherwise devastate a nascent industrial workforce.
 
@@ -223,7 +222,7 @@ Dose calculation: For a 10,000 L storage tank requiring 1.0 mg/L chlorine dose: 
 
 ## Materials
 
-### Treatment Chemicals
+## Treatment Chemicals
 
 | Material | Purpose | Typical Dose | Source |
 |----------|---------|-------------|--------|
@@ -236,7 +235,7 @@ Dose calculation: For a 10,000 L storage tank requiring 1.0 mg/L chlorine dose: 
 | Bone char | Fluoride removal | Column media | Animal bones, charred |
 | Colloidal silver | Ceramic filter enhancement | 0.1-0.5 mg/L capacity | Chemical supply |
 
-### Filtration Media
+## Filtration Media
 
 | Material | Specification | Purpose |
 |----------|--------------|---------|
@@ -246,7 +245,7 @@ Dose calculation: For a 10,000 L storage tank requiring 1.0 mg/L chlorine dose: 
 | Ceramic clay | 60-70% clay + 30-40% sawdust | Pot filters (fired at 900-1000°C) |
 | Activated charcoal | Granular, 0.5-2.0 mm | Taste/odor removal, organic adsorption |
 
-### Construction Materials
+## Construction Materials
 
 | Material | Use | Notes |
 |----------|-----|-------|
@@ -303,6 +302,6 @@ Dose calculation: For a 10,000 L storage tank requiring 1.0 mg/L chlorine dose: 
 - [Food & Agriculture](../foundations/food-agriculture.md) — irrigation water quality and food safety
 - [Energy](../energy/index.md) — energy requirements for pumping, boiling, and UV treatment
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Health](./index.md) • [All Domains](../index.md)*
+
+[← Back to Health](index.md)

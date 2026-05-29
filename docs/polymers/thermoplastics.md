@@ -8,36 +8,36 @@
 > **Outputs**: polyethylene, PVC, nylon, polystyrene, PTFE
 > **Critical**: No — thermoplastics expand material capability but the critical path uses metals and ceramics at earlier stages
 
-## 1. Overview
+## Overview
 
 Thermoplastic polymers soften when heated and harden when cooled — a reversible process that enables melting, shaping, and recycling. Unlike [thermosets](./thermosets.md) (which permanently crosslink during cure), thermoplastics can be repeatedly remelted and reprocessed, making them the dominant class of polymers by volume. Global thermoplastic production exceeds 350 million tonnes/year, with polyethylene alone accounting for over 100 million tonnes.
 
 The thermoplastics covered here span from polyethylene (achievable at Chemistry stage with high-pressure reactors) through PVC and nylon (Chemistry–Vacuum stages) to PTFE and polycarbonate (advanced petrochemical industry). Processing methods — injection molding, extrusion, blow molding, thermoforming, compression molding — convert raw polymer granules into finished products. Feedstocks come from [petrochemical cracking](../chemistry/petroleum-alternatives.md); polymerization reactors and extruders rely on [machine tools](../machine-tools/index.md).
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 - Ethylene, propylene, styrene, vinyl chloride monomer (from [petrochemicals](../chemistry/petroleum-alternatives.md))
 - Chlorine (for PVC — from [chlor-alkali electrolysis](../chemistry/electrolysis.md))
 - HF (for PTFE — from fluorspar CaF₂ + H₂SO₄)
 - Adipic acid + hexamethylenediamine (for nylon 6,6 — from cyclohexane/benzene via petrochemical routes)
 - Titanium tetrachloride + triethylaluminum (Ziegler-Natta catalyst for HDPE, PP)
 
-### Tools and Equipment
+## Tools and Equipment
 - [Extruder](../machine-tools/machining.md) (single-screw or twin-screw, L/D 20-30:1, with heated barrel)
 - [Injection molding machine](../machine-tools/forming.md) (hydraulic or toggle clamp, 50-500 tons)
 - Compression mold or heated press (for thermoforming)
 - Blow molding equipment (for bottles and hollow parts)
 
-### Infrastructure
+## Infrastructure
 - Electrical power (continuous, for extruder and injection molding machine heaters — 5-50 kW)
 - Cooling water (for mold cooling and extrusion sizing — 5-20 liters/minute)
 - Compressed air (for blow molding — 0.2-1.5 MPa)
 - Ventilation (for polymer fume extraction during melt processing)
 
-## 3. Bill of Materials
+## Bill of Materials
 
-### Polyethylene (HDPE) — per tonne polymer
+## Polyethylene (HDPE) — per tonne polymer
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -46,7 +46,7 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 | Triethylaluminum (co-catalyst) | 0.2-0.5 kg | Organic synthesis — Al + H₂ + C₂H₄ | None — pyrophoric, handle under nitrogen |
 | Hexane (solvent, for slurry process) | 50-100 kg (recovered) | [Solvents](../chemistry/solvents.md) | Isobutane (slightly higher boiling point) |
 
-### PVC (Rigid) — per tonne polymer
+## PVC (Rigid) — per tonne polymer
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -56,7 +56,7 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 | Calcium stearate (lubricant) | 10-50 kg | [Chemistry](../chemistry/alkalis.md) | Paraffin wax |
 | Impact modifier (MBS or CPE) | 0-100 kg | [Petrochemicals](../chemistry/petroleum-alternatives.md) | None needed for non-impact applications |
 
-### Nylon 6,6 — per tonne polymer
+## Nylon 6,6 — per tonne polymer
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -64,9 +64,9 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 | Hexamethylenediamine (HMDA) | 0.52 tonnes | [Petrochemicals](../chemistry/petroleum-alternatives.md) — butadiene + HCN → adiponitrile → hydrogenation | From acrylonitrile electrolytic dimerization |
 | Nitrogen (inert atmosphere) | 50-100 m³ | [Air separation](../chemistry/air-separation.md) | Argon (more expensive) |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Polyethylene (LDPE and HDPE)
+## 4.1 Polyethylene (LDPE and HDPE)
 
 **Principle**: Ethylene (C₂H₄) polymerizes to form long chains of —CH₂—CH₂— units. Two industrial routes produce different chain structures: high-pressure free-radical polymerization creates branched chains (LDPE, flexible, transparent), while low-pressure Ziegler-Natta catalytic polymerization creates linear chains (HDPE, stiff, opaque, higher crystallinity).
 
@@ -115,7 +115,7 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - HDPE: Opaque (not transparent), higher processing temperature required, susceptible to environmental stress cracking in certain grades
 - Both: Flammable (burn like hydrocarbon fuel), poor UV resistance without stabilizers, creep under sustained load
 
-### 4.2 Polyvinyl Chloride (PVC)
+## 4.2 Polyvinyl Chloride (PVC)
 
 **Principle**: Vinyl chloride monomer (VCM) polymerizes via free-radical suspension polymerization. Water is the continuous phase; VCM droplets (stabilized by suspending agents) polymerize to form porous PVC powder particles (100-150 μm). The resulting polymer is inherently rigid and heat-sensitive — it begins to decompose (releasing HCl) above 200°C, requiring heat stabilizers for processing.
 
@@ -159,7 +159,7 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - VCM is a confirmed human carcinogen (IARC Group 1, causing angiosarcoma of the liver) — monomer handling requires closed systems, continuous air monitoring, and explosion-proof equipment
 - Plasticizer migration — flexible PVC loses plasticizers over time, becoming brittle; phthalate plasticizers (DOP) are endocrine disruptors under regulatory scrutiny
 
-### 4.3 Nylon (Polyamide 6,6)
+## 4.3 Nylon (Polyamide 6,6)
 
 **Principle**: Nylon 6,6 is formed by melt condensation polymerization of adipic acid (6 carbons) with hexamethylenediamine (6 carbons). The reaction produces amide bonds (—NH—CO—) and water as a byproduct. Removing water drives the equilibrium toward high molecular weight. The polymer has high crystallinity, giving excellent mechanical properties (tensile 70-85 MPa molded, 500-900 MPa as drawn fiber).
 
@@ -203,7 +203,7 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - Requires drying before processing — nylon granules must be dried to <0.2% moisture before melt processing or steam bubbles cause voids and surface defects
 - Limited high-temperature capability — continuous service limited to 80-120°C (dry) or 60-80°C (wet); loses 50% stiffness above Tg (~50°C dry, lower when wet)
 
-### 4.4 PTFE (Teflon)
+## 4.4 PTFE (Teflon)
 
 **Principle**: Tetrafluoroethylene (TFE) polymerizes to form polytetrafluoroethylene — a fully fluorinated carbon chain (—CF₂—CF₂—)ₙ. The strong C—F bonds and fluorine shielding of the carbon backbone create a chemically inert, thermally stable material with the lowest coefficient of friction of any solid (0.04-0.10). PTFE does not melt-flow — it must be sintered above 327°C or paste-extruded with a lubricant carrier.
 
@@ -245,7 +245,7 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - Creep (cold flow) — PTFE deforms under sustained load even at room temperature; gaskets require reinforcement (filled PTFE with glass or bronze) or design accommodation (full-face gaskets, not line-contact)
 - PTFE fume hazard — overheating above 350°C produces toxic pyrolysis products including PFIB (lethal at low ppm). Sintering at 380°C must use calibrated controllers with high-limit shutoff
 
-### 4.5 Injection Molding
+## 4.5 Injection Molding
 
 **Principle**: Heat plastic granules to melt temperature (180-320°C depending on polymer), inject under high pressure (50-200 MPa) into a closed steel mold, cool until solid, eject finished part. The highest-volume plastic processing method — over 50% of all thermoplastic products are injection-molded.
 
@@ -287,7 +287,7 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - Long lead time for molds — 4-12 weeks from design to production mold
 - Limited to parts with uniform wall thickness — thick sections require disproportionately long cooling time (cooling scales with wall thickness²); thin-wall design (1-3 mm) is optimal
 
-### 4.6 Extrusion
+## 4.6 Extrusion
 
 **Principle**: A rotating screw pushes melted plastic through a shaped die, producing a product of constant cross-section indefinitely. The most versatile thermoplastic processing method — pipes, sheets, films, wire insulation, and profiles are all extruded.
 
@@ -325,9 +325,9 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - Dimensional control depends on consistent screw speed, temperature, and puller speed — requires active monitoring and adjustment
 - Start-up waste — 5-20 kg of material wasted during start-up until process stabilizes and dimensions are on-spec
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Thermoplastic Properties Comparison
+## Thermoplastic Properties Comparison
 
 | Property | LDPE | HDPE | PP | Rigid PVC | Nylon 6,6 | PS (crystal) | PTFE |
 |----------|------|------|-----|-----------|-----------|---------------|------|
@@ -338,7 +338,7 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 | Shrinkage (%) | 1.5-3.0 | 1.5-3.0 | 1.0-2.5 | 0.2-0.4 | 1.0-1.5 | 0.3-0.6 | 3.0-6.0 |
 | Water absorption (%) | <0.01 | <0.01 | <0.01 | <0.1 | 2.0-2.5 | <0.05 | <0.01 |
 
-### Processing Methods Comparison
+## Processing Methods Comparison
 
 | Method | Output | Cycle Speed | Tooling Cost | Best For |
 |--------|--------|-------------|-------------|----------|
@@ -348,7 +348,7 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 | Thermoforming | Sheet-formed parts | 1-5 min cycle | Very low ($50-1K) | Large flat/curved parts, short runs |
 | Compression molding | Flat/simple parts | 2-10 min cycle | Low ($500-5K) | [Thermosets](./thermosets.md), rubber, large parts |
 
-### Extrusion Temperature Profiles (°C)
+## Extrusion Temperature Profiles (°C)
 
 | Polymer | Zone 1 | Zone 2 | Zone 3 | Zone 4 (Die) |
 |---------|--------|--------|--------|--------------|
@@ -358,14 +358,14 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 | PS | 170 | 190 | 200 | 210 |
 | Nylon 6,6 | 240 | 250 | 270 | 280 |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Injection molding**: Clamp force scales with projected area of the part. A 200 cm² part needs 60-100 tons clamp. Industrial machines range from 50 tons (small parts) to 5000+ tons (automotive bumpers). Bootstrapping: manual plunger machine (heated barrel, lever-actuated plunger, simple brass mold) produces functional parts at a fraction of the cost.
 - **Extrusion**: Output rate scales with screw diameter. 30 mm screw: 10-30 kg/hour. 60 mm screw: 50-200 kg/hour. 120 mm screw: 500-1500 kg/hour. Longer L/D ratio (25-30:1) provides better mixing and more stable output than short screws (15-20:1).
 - **Blow molding**: Extrusion blow molding is the simplest route for hollow parts. Mold can be aluminum or even wood for low-pressure, short-run products — much cheaper than injection molds. PET stretch-blow molding requires two-stage process (preform injection → reheat → stretch-blow) but produces the strongest, clearest bottles.
 - **Minimum bootstrap scale**: A hand-cranked extruder (20 mm screw, 500 mm L/D) can produce small-diameter rod and tube from LDPE or PS. An electrically heated plunger molder can produce simple parts. Both are achievable at moderate technology level without precision hydraulics.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -378,7 +378,7 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 | PVC discoloration (yellow/brown) | Temperature exceeded 200°C; insufficient stabilizer | Lower barrel temperature; verify tin stabilizer at 0.5-3 phr; check for hot spots in barrel |
 | Extrudate dimension variation | Screw speed fluctuation; inconsistent feed; temperature variation | Stabilize screw speed (DC drive controller); ensure consistent hopper feeding; check barrel heater zones |
 
-## 8. Safety
+## Safety
 
 - **PTFE fume fever**: Overheating PTFE above 350°C decomposes it into toxic pyrolysis products including perfluoroisobutylene (PFIB, lethal at low ppm) and carbonyl fluoride. Inhalation causes polymer fume fever — flu-like symptoms (chills, fever, cough) appearing 4-8 hours after exposure. Sintering at 380°C must use calibrated temperature controllers with high-limit shutoff. Never smoke after handling PTFE (contaminated hands transfer PTFE to cigarettes, which pyrolyze it at the tip). Ventilate sintering ovens to outside air.
 - **Pyrophoric triethylaluminum (TEA)**: The Ziegler-Natta co-catalyst for HDPE ignites spontaneously on contact with air. Handle only under inert atmosphere (nitrogen) in sealed, purged systems. For fires: Class D dry powder extinguisher (dry sand or Met-L-X). NEVER use water, CO₂, or foam. TEA autoignition temperature: below room temperature on contact with air.
@@ -386,41 +386,41 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - **Plastic dust explosions**: Fine thermoplastic powders (PE, PVC, PS) form explosive dust clouds. PE dust MEC: 20-30 g/m³. PS dust Kst: 110-160 bar·m/s (St Class 1). Ground all equipment. Maintain ventilation. Clean up accumulated dust regularly.
 - **VCM exposure** (PVC production): Confirmed human carcinogen (IARC Group 1). Closed systems, continuous air monitoring, explosion-proof equipment. See [Synthetic Polymers](./synthetic.md) for full hazard data. Residual VCM in finished PVC: <1 ppm (food-grade: <0.1 ppm).
 
-## 9. Quality Control
+## Quality Control
 
-### Incoming Resin
+## Incoming Resin
 - **Melt Flow Index (MFI)**: ASTM D1238. Verify MFI is within specification (±10% of nominal). Out-of-range MFI indicates wrong grade, degradation, or contamination.
 - **Moisture content**: Karl Fischer titration. Nylon and PET must be <0.2% before processing. PE, PP, PVC: <0.05%.
 - **Visual**: Check granules for contamination (black specks, foreign material, color variation).
 
-### Processed Parts
+## Processed Parts
 - **Dimensional inspection**: Digital calipers at critical dimensions, every 50-100 shots. Record and trend — gradual drift indicates mold wear or process drift.
 - **Weight consistency**: Weigh 10 consecutive parts. Variance must be <0.5%.
 - **Visual inspection**: Flash, short shots, sink marks, burns, silver streaks, weld lines, discoloration.
 - **Tensile test** (destructive, periodic): ASTM D638. Verify tensile strength and elongation meet material specification.
 
-### Extruded Products
+## Extruded Products
 - **OD and wall thickness**: Ultrasonic gauge or caliper at 3 points per 1 m sample. Wall thickness tolerance: ±5-10%.
 - **Surface quality**: Visual — no sharkskin, die lines, or discoloration.
 - **Pressure test** (PVC pipe): Hydrostatic test at 2× working pressure for 1 hour. No leaks, no deformation.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Blow Molding
+## Blow Molding
 - **Extrusion blow molding**: Continuous parison extruded downward, enclosed in split mold, inflated with compressed air (0.2-1.0 MPa). Produces bottles, jerry cans, fuel tanks. Blow ratio (max diameter / initial parison diameter): 2:1 to 7:1. Mold can be aluminum or wood for low-pressure products.
 - **Injection blow molding**: Injection mold a preform (test-tube shape), then reheat and stretch-blow with air (0.3-1.5 MPa). Biaxial stretching orients PET molecules, improving barrier properties (O₂ permeability reduced 2-3×) and tensile strength (300%+ improvement). Used for PET beverage bottles.
 
-### Thermoforming
+## Thermoforming
 - **Vacuum forming**: Heat sheet to just above Tg (PS ~95°C, PE ~110-120°C, PVC ~80-90°C). Apply vacuum through 0.5-1 mm holes in mold surface. Atmospheric pressure (0.1 MPa) pushes sheet onto mold. Mold can be wood, plaster, or cast aluminum. Products: trays, containers, signs, boat hulls.
 - **Pressure forming**: Compressed air (0.3-0.7 MPa) above sheet + vacuum below. Higher forming pressure for sharper detail. Draw ratio limited to 0.5:1 for vacuum, 1.5:1 for pressure forming with plug assist.
 
-### Additional Thermoplastics (Name-Only References)
+## Additional Thermoplastics (Name-Only References)
 - **Polycarbonate**: Bisphenol-A + phosgene; impact resistance 850-1000 kJ/m²; optical discs (CD/DVD); safety goggles. See [Synthetic Polymers](./synthetic.md).
 - **ABS**: Acrylonitrile + butadiene + styrene; LEGO bricks (tolerance ±0.01 mm); 3D printing filament (FDM at 220-250°C). See [Synthetic Polymers](./synthetic.md).
 - **Acrylic (PMMA)**: Light transmission 92%; aircraft canopies; aquariums. See [Synthetic Polymers](./synthetic.md).
 - **Polypropylene (PP)**: Density 0.90 g/cm³ (lightest commodity plastic); living hinge (0.2-0.5 mm, millions of flex cycles); autoclavable at 121°C. Similar to PE but higher service temperature.
 
-## 11. References
+## References
 
 - **[Thermosets](thermosets.md)**: Irreversibly crosslinked polymers — higher temperature capability but cannot be reprocessed
 - **[Composites](composites.md)**: Fiber-reinforced polymers using thermoplastic or thermoset matrices
@@ -433,5 +433,5 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - **[Electrical Systems](../electronics/electrical-systems.md)**: Wire and cable insulation using PE, PVC, and silicone
 - **[Data Storage](../computing/data-storage.md)**: Optical disc substrates (polycarbonate, PMMA)
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*
+
+[← Back to Polymers & Composites](index.md)

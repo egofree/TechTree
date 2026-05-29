@@ -8,13 +8,13 @@
 > **Outputs**: natural_dyes, plant_pigments
 > **Critical**: No — color is important for signaling and trade but not strictly required for survival
 
-## 1. Overview
+## Overview
 
 Plants that yield natural colorants for dyeing textiles, leather, wood, ink, and coatings. Natural dyes have been the primary source of color for human material culture from prehistory through the 19th century, when synthetic aniline dyes superseded them. In a bootstrap context, dye plants provide the only practical path to colored textiles before the organic chemistry infrastructure needed for synthetic dyes exists. Color serves not only aesthetics but signaling (military uniforms, trade goods, social markers) and functional purposes (UV protection, mildew resistance from tannin-rich dyes).
 
 This capability covers the cultivation, harvesting, and primary extraction of dye substances from plant material. The downstream application of dyes to fiber and cloth is covered in [Dyeing](../textiles/dyeing.md).
 
-## 2. Dye Extraction Methods
+## Dye Extraction Methods
 
 The three principal methods for extracting color from plant material, listed in order of increasing complexity:
 
@@ -70,7 +70,7 @@ The three principal methods for extracting color from plant material, listed in 
 - Fire risk with alcohol solvents — ethanol vapors are flammable
 - Not needed for most common dye plants — overkill when simple water extraction suffices
 
-## 3. Mordanting and Color Fixation
+## Mordanting and Color Fixation
 
 Most natural dyes are not substantive — they do not bond directly to fiber and require a mordant to achieve wash-fastness. The choice of mordant dramatically shifts the final color from a given dye plant. Common mordants available in a bootstrap context:
 
@@ -81,7 +81,7 @@ Most natural dyes are not substantive — they do not bond directly to fiber and
 
 See [Dyeing](../textiles/dyeing.md) for detailed mordant preparation procedures and fiber-specific protocols.
 
-## 4. Color Range and Key Species
+## Color Range and Key Species
 
 Different plant organs produce different color families. Understanding which part to harvest and when is essential for predictable results:
 
@@ -96,7 +96,7 @@ Different plant organs produce different color families. Understanding which par
 | Black | Oak galls + iron, or indigo + madder + iron | Galls, leaves | Always an overdye — no single plant gives true black |
 | Purple | Logwood (*Haematoxylum campechianum*), bedstraw + iron | Heartwood, roots | Logwood was a major colonial-era trade commodity |
 
-### Common Dye Plants
+## Common Dye Plants
 
 Well-known dye plants that should be prioritized for cultivation in a bootstrap setting, selected for color yield, ease of cultivation, and historical importance:
 
@@ -119,7 +119,7 @@ Well-known dye plants that should be prioritized for cultivation in a bootstrap 
 
 Note: The current plants species catalog (plants.json) does not yet include dedicated dye plant entries. The species listed above are documented from general botanical and historical knowledge. Adding targeted dye species to the catalog is a future data-enrichment task.
 
-### Woad — *Isatis tinctoria* (Brassicaceae)
+## Woad — *Isatis tinctoria* (Brassicaceae)
 
 Woad is the only practical source of blue dye in temperate climates. It was the primary blue dye plant of Europe from the Iron Age through the Middle Ages, until supplanted by imported indigo in the 16th century.
 
@@ -135,7 +135,7 @@ Woad is the only practical source of blue dye in temperate climates. It was the 
 
 **Application**: Indigo pigment is insoluble in water. To dye fiber, the pigment must be reduced (indigo vat) using a reducing agent (fermented bran, urine, or later, sodium hydrosulfite). The reduced form (leuco-indigo, yellow-green) is water-soluble and penetrates fiber. Upon exposure to air, it re-oxidizes to blue indigo, trapped permanently within the fiber. No mordant required — indigo is a substantive (vat) dye.
 
-### Madder — *Rubia tinctorum* (Rubiaceae)
+## Madder — *Rubia tinctorum* (Rubiaceae)
 
 Madder roots produce the most important natural red dye, used since antiquity (evidence from 3,000 BCE Egypt). The active dye compound is alizarin (1,2-dihydroxyanthraquinone), along with purpurin and other anthraquinones.
 
@@ -149,7 +149,7 @@ Madder roots produce the most important natural red dye, used since antiquity (e
 
 **Colorfastness**: Excellent lightfastness (rating 6-7 on 8-point blue wool scale). Good wash-fastness when properly mordanted. Alizarin is one of the most stable natural dye compounds — madder-dyed textiles from ancient Egypt retain visible red color after 5,000 years.
 
-### Weld — *Reseda luteola* (Resedaceae)
+## Weld — *Reseda luteola* (Resedaceae)
 
 Weld produces the clearest, most lightfast yellow of any natural dye plant. Known since the Neolithic (identified on Iron Age textile finds from Hallstatt, Austria).
 
@@ -161,7 +161,7 @@ Weld produces the clearest, most lightfast yellow of any natural dye plant. Know
 
 **Colorfastness**: Best lightfastness of any natural yellow dye (rated 6-7 on blue wool scale). This is why weld was the primary yellow dye of the European textile industry for over 2,000 years, used for the yellow component of the Lincoln Green (weld yellow + woad blue).
 
-### Walnut — *Juglans regia* (Juglandaceae)
+## Walnut — *Juglans regia* (Juglandaceae)
 
 Walnut hulls produce a rich, lightfast brown dye that requires no mordant — one of the few substantive non-indigo natural dyes.
 
@@ -173,7 +173,7 @@ Walnut hulls produce a rich, lightfast brown dye that requires no mordant — on
 
 **Colorfastness**: Excellent lightfastness and wash-fastness. Juglone is chemically stable and forms covalent bonds with protein fiber. One of the most reliable and easy-to-use natural dyes. Also functions as a mild insect repellent on dyed fabric.
 
-### Cultivation Yields per Hectare
+## Cultivation Yields per Hectare
 
 Approximate annual dry dye material yields under hand cultivation:
 
@@ -187,7 +187,7 @@ Approximate annual dry dye material yields under hand cultivation:
 
 True indigo is the most productive blue dye source by 5-10x over woad. Where climate permits (frost-free tropical/subtropical), indigo (*Indigofera tinctoria*) should always be preferred over woad for blue.
 
-### Mordant Requirements by Plant and Fiber
+## Mordant Requirements by Plant and Fiber
 
 | Dye Plant | Wool (protein) | Cotton/Linen (cellulose) | Notes |
 |-----------|---------------|--------------------------|-------|
@@ -199,7 +199,7 @@ True indigo is the most productive blue dye source by 5-10x over woad. Where cli
 | Pomegranate rind | None (high tannin) | None (acts as own mordant) | Produces yellow-brown; tannin-rich |
 | Oak galls | Iron (5-10% WOF) | Iron | Produces blue-black; tannin content very high |
 
-### Colorfastness Reference
+## Colorfastness Reference
 
 Lightfastness and wash-fastness ratings for key natural dyes (8-point scale; 8 = excellent):
 
@@ -213,7 +213,7 @@ Lightfastness and wash-fastness ratings for key natural dyes (8-point scale; 8 =
 | Coreopsis | Orange | 4-5 | 3-4 | Moderate lightfastness — fades to lighter orange with UV exposure |
 | Safflower (carthamin) | Pink | 2-3 | 2-3 | Poor lightfastness — fades significantly within months. Not suitable for permanent color |
 
-### Cultivation Considerations
+## Cultivation Considerations
 
 Dye plant cultivation integrates into existing agricultural patterns without requiring specialized equipment:
 
@@ -224,7 +224,7 @@ Dye plant cultivation integrates into existing agricultural patterns without req
 
 Most dye plants tolerate poor soils and require minimal inputs beyond weeding and moderate water. Weld and woad grow well on marginal land unsuitable for food crops.
 
-### Harvesting and Processing
+## Harvesting and Processing
 
 Timing affects dye yield significantly:
 
@@ -235,7 +235,7 @@ Timing affects dye yield significantly:
 
 Fresh plant material gives stronger colors than dried, but dried material stores for years and enables trade. Dry all material in shade to prevent UV degradation of pigments.
 
-### Yield and Economics
+## Yield and Economics
 
 Approximate dry plant material needed per 100g of wool fiber (alum-mordanted):
 
@@ -247,7 +247,7 @@ Approximate dry plant material needed per 100g of wool fiber (alum-mordanted):
 
 Indigo is the most labor-intensive dye per unit color — roughly 4-5 kg of fresh woad leaves yield 1 gram of indigo pigment. True indigo (*Indigofera*) is roughly 5-10x more productive per leaf weight than woad, making it the preferred species wherever climate allows.
 
-## 9. Safety
+## Safety
 
 - **Alum (potassium aluminum sulfate)**: The most common mordant. Irritant to skin and eyes at concentrated solutions (20%+ w/v). Inhalation of alum powder irritates respiratory tract. Handle with gloves when preparing solutions. Dissolve in hot water in a ventilated area.
 - **Copper sulfate**: Toxic by ingestion (vomiting at 100 mg dose, lethal at 10-20 g). Blue crystals resemble candy — store in labeled containers away from food. Causes liver and kidney damage with chronic exposure. Handle with gloves; never pour copper-laden dye bath into waterways — toxic to aquatic life at <1 mg/L.
@@ -256,12 +256,12 @@ Indigo is the most labor-intensive dye per unit color — roughly 4-5 kg of fres
 - **Wood ash lye (potassium carbonate)**: pH 11-12. Causes severe chemical burns to skin and eyes. Always add lye to water (never water to lye — causes splashing). Wear eye protection when preparing lye solutions.
 - **General dye plant hazards**: Some dye plants (dyer's broom, broom) contain quinolizidine alkaloids — toxic if ingested in large quantities. Handle dye plants as you would any mildly toxic plant: wash hands after handling, keep away from food preparation areas.
 
-## 10. References
+## References
 
 - [Textiles: Dyeing](../textiles/dyeing.md) — downstream application of natural dyes to fiber and cloth
 - [Fiber Plants](./fiber-plants.md) — companion capability for fiber production
 - [Chemistry](../chemistry/index.md) — alum, copper sulfate, and other mordant production
 - [Plants & Botanical Resources](./index.md) — species catalog and botanical knowledge
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*
+
+[← Back to Plants](index.md)

@@ -54,7 +54,7 @@ Materials listed per 20-cow bison herd per year.
 
 ## Process Description
 
-### 4.1 Grass-Finished Meat Production
+## 4.1 Grass-Finished Meat Production
 
 **Principle**: Bison convert native grass to lean meat (2-3% fat) without grain supplementation. They graze a wider variety of plants than cattle, including tough native grasses (switchgrass, big bluestem, Indiangrass) that cattle avoid. Bison reach 350-450 kg slaughter weight at 18-24 months on grass alone.
 
@@ -84,7 +84,7 @@ Materials listed per 20-cow bison herd per year.
 - First calving at 3 years (later than cattle at 2 years) — slower herd growth rate
 - Bison kill more people in North America than any other large animal, including bears
 
-### 4.2 Reproduction and Calving
+## 4.2 Reproduction and Calving
 
 **Principle**: Bison are seasonal breeders with rut in July-September. Cows calve in spring (April-June) with minimal assistance — over 95% of births are unassisted. Calves are born small (15-25 kg) and grow rapidly on grass and mother's milk.
 
@@ -113,7 +113,7 @@ Materials listed per 20-cow bison herd per year.
 - Bulls fight during rut — dominance contests through head-butting charges can be fatal
 - First calving at 3 years vs 2 years for cattle — 50% longer wait for first offspring
 
-### 4.3 Hide and Horn Processing
+## 4.3 Hide and Horn Processing
 
 **Principle**: Bison hide is thick (8-12 mm on the back, 4-6 mm on the sides) and extremely durable. Horn sheaths separate from the bony core after death and are worked like cattle horn. Both are valuable secondary products.
 
@@ -143,7 +143,7 @@ Materials listed per 20-cow bison herd per year.
 
 ## Quantitative Parameters
 
-### Bison vs Cattle Nutritional Comparison (per 100 g, cooked)
+## Bison vs Cattle Nutritional Comparison (per 100 g, cooked)
 
 | Nutrient | Bison | Beef (lean) |
 |----------|-------|-------------|
@@ -156,7 +156,7 @@ Materials listed per 20-cow bison herd per year.
 | Vitamin B12 | 2.5-3.0 μg | 1.5-2.5 μg |
 | Zinc | 4.5-5.0 mg | 4.0-5.0 mg |
 
-### Bison Physical Capabilities
+## Bison Physical Capabilities
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|

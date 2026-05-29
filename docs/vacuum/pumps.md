@@ -7,11 +7,11 @@
 > **Timeline**: Years 25-40
 > **Outputs**: vacuum_pumps, roughing_pumps, high_vacuum_pumps, uhv_pumps
 
-### Vacuum Pumps
+## Vacuum Pumps
 
 For foundational vacuum pump descriptions (rotary vane, diffusion, scroll, diaphragm principles), see [Gas Handling: Vacuum](../gas-handling/vacuum.md). This document covers pump selection, advanced pump types, performance specifications, and system design.
 
-### Pump Classification by Pressure Range
+## Pump Classification by Pressure Range
 
 | Vacuum Range | Pressure (Torr) | Pressure (Pa) | Primary Pump Types | Typical Application |
 |---|---|---|---|---|
@@ -21,7 +21,7 @@ For foundational vacuum pump descriptions (rotary vane, diffusion, scroll, diaph
 | Ultra-high vacuum (UHV) | 10⁻⁸ – 10⁻¹¹ | 10⁻⁶ – 10⁻⁹ | Ion pump, cryopump, NEG, titanium sublimation | Surface science, MBE, particle accelerators |
 | Extreme high vacuum (XHV) | <10⁻¹¹ | <10⁻⁹ | Combination NEG + ion + cryo | Space simulation, fundamental physics |
 
-### Roughing Pumps — Detailed Specifications
+## Roughing Pumps — Detailed Specifications
 
 **Rotary vane pump** (see [Gas Handling: Vacuum](../gas-handling/vacuum.md) for operating principle):
 
@@ -71,7 +71,7 @@ For foundational vacuum pump descriptions (rotary vane, diffusion, scroll, diaph
 - **Advantages for semiconductor processing**: Oil-free exhaust means no hydrocarbon backstreaming contamination of the process chamber. Critical for: sputtering (even trace oil on target or substrate ruins film quality), CVD (oil contamination poisons catalysts and creates defects), and surface analysis (XPS, Auger detect hydrocarbons at monolayer levels).
 - **Maintenance**: Scroll tip seals wear over time. Typical seal life: 15,000-30,000 hours. Seal replacement requires factory service or trained technician — not field-serviceable in most models. Plan for pump rotation or scheduled maintenance.
 
-### High-Vacuum Pumps — Detailed Specifications
+## High-Vacuum Pumps — Detailed Specifications
 
 **Turbomolecular pump** (see [Gas Handling: Vacuum](../gas-handling/vacuum.md) for operating principle):
 
@@ -129,7 +129,7 @@ For foundational vacuum pump descriptions (rotary vane, diffusion, scroll, diaph
 - **Cold trap requirements**: A liquid nitrogen (LN₂) cooled baffle between the diffusion pump and the chamber is essential. Without it, backstreaming oil vapor contaminates the vacuum chamber at a rate of ~10⁻⁶ g/cm²/min. With a properly maintained LN₂ cold trap: backstreaming <10⁻¹⁰ g/cm²/min. The cold trap also acts as a cryopump for condensable gases (water, CO₂, solvents), improving effective pumping speed.
 - **Cooling water interlock**: The most critical safety system on a diffusion pump. Install a water flow switch that shuts off the heater if cooling water flow drops below minimum. Without cooling, the boiler overheats, oil decomposes (producing flammable gases), and the pump body can reach temperatures that damage seals and nearby equipment. Test the interlock monthly.
 
-### Ultra-High Vacuum Pumps
+## Ultra-High Vacuum Pumps
 
 **Cryopumps**: Condense and trap gas molecules on cold surfaces. The pump contains a refrigerated cold head (closed-cycle helium refrigerator, typically 10-20 K for the second stage, 40-80 K for the first stage).
 
@@ -163,7 +163,7 @@ For foundational vacuum pump descriptions (rotary vane, diffusion, scroll, diaph
 - **Capacity**: For H₂: extremely high (dissolves into bulk, ~50 Torr·L/g of alloy). For CO, N₂, O₂: limited by monolayer surface coverage (~1 Torr·L per 100 cm² of NEG surface). Can be re-activated by re-heating after saturation.
 - **Advantages**: No moving parts, no power during pumping, no vibration, no magnetic field, compact, can be installed inside the vacuum chamber (no external footprint). Ideal for particle accelerators and portable UHV systems. **Disadvantages**: Does not pump noble gases or methane, requires periodic re-activation, heating during activation releases some previously pumped gas.
 
-### Pump Selection Matrix for Semiconductor Applications
+## Pump Selection Matrix for Semiconductor Applications
 
 | Application | Base Pressure Required | Primary Pump | Backing Pump | Notes |
 |---|---|---|---|---|
@@ -176,7 +176,7 @@ For foundational vacuum pump descriptions (rotary vane, diffusion, scroll, diaph
 | Surface analysis (XPS, AES) | 10⁻⁹ – 10⁻¹⁰ Torr | Ion pump + NEG + TSP | Turbo (for initial pump-down) | UHV required for clean surfaces. |
 | Crystal growth (CZ puller) | 10⁻³ – 10⁻⁴ Torr (argon atmosphere at ~10-30 Torr) | Roots blower + rotary vane | — | Roughing pumps for argon recirculation. |
 
-### Pump-Down Time Calculations
+## Pump-Down Time Calculations
 
 **Roughing phase** (atmospheric to ~1 Pa, outgassing negligible):
 
@@ -206,7 +206,7 @@ q(t) = q₀ × t⁻¹
 
 where q₀ is the initial outgassing rate and t is time in hours. For a stainless steel chamber (electropolished, unbaked), q₀ ≈ 2×10⁻⁶ Pa·m³/s·m². After 10 hours of pumping, q drops to ~2×10⁻⁷. After baking at 250°C for 24 hours: q drops to ~10⁻⁸ to 10⁻⁹ Pa·m³/s·m².
 
-### Backing Pump Sizing
+## Backing Pump Sizing
 
 The backing pump must maintain foreline pressure below the high-vacuum pump's critical backing pressure at maximum throughput:
 
@@ -220,7 +220,7 @@ S_backing ≥ 10 / 1 = 10 L/s = 600 L/min
 
 A 600 L/min rotary vane pump is required as backing for this gas load.
 
-### Pump Maintenance Schedule
+## Pump Maintenance Schedule
 
 | Pump Type | Maintenance Item | Interval |
 |---|---|---|
@@ -241,14 +241,13 @@ A 600 L/min rotary vane pump is required as backing for this gas load.
 | TSP | Filament replacement | 30-100 sublimations per filament |
 | NEG | Re-activation | When saturated (months to years) |
 
-### Safety & Hazard Summary
+## Safety & Hazard Summary
 
 - **Turbomolecular pump mechanical hazard**: Rotor at 20,000-90,000 RPM. Never open the pump inlet while rotor is spinning. Wait for complete stop before servicing. A broken rotor blade becomes a high-velocity projectile.
 - **Diffusion pump fire hazard**: Cooling water failure → oil overheats → decomposition gases (flammable) → air ingress → ignition. Mandatory: water flow interlock that cuts heater power.
 - **Cryopump cold burn hazard**: Cold head at 10-20 K causes immediate frostbite on contact. Use cryogenic gloves. LN₂ cold traps: same hazard plus LOX condensation risk if trap is vented while still cold (see [Gas Handling: Vacuum](../gas-handling/vacuum.md)).
 - **Electrical hazard**: Ion pumps operate at 3-7 kV DC. TSP filaments at 30-50 A. Diffusion pump heaters at 200-500°C surface temperature. Lock-out/tag-out procedures for all maintenance.
 
----
 
 ## See Also
 
@@ -257,4 +256,5 @@ A 600 L/min rotary vane pump is required as backing for this gas load.
 - **[Vacuum Measurement & Leak Detection](measurement.md)**: Pressure gauges and leak detection
 - **[Lubricants, Oils & Fluid Mechanics](../chemistry/lubricants.md)**: Vacuum oil specifications
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*
+
+[← Back to Vacuum](index.md)

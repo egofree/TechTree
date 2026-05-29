@@ -10,7 +10,6 @@
 
 **Credit**: SEM Tech (Salt Electro Mining Technology) membranes were developed by **Robert Karas**, founder of Rowow LLC. The technology is released under **CC0 1.0 Universal** (public domain). This article covers the application of SEM Tech membranes to salinity-gradient power generation via reverse electrodialysis.
 
-## Overview
 
 **Strengths**:
 - Continuous baseload power from the natural mixing of river water and seawater — no fuel, no intermittency
@@ -30,7 +29,7 @@ Reverse electrodialysis (RED) is the inverse of conventional electrodialysis (se
 
 **Important caveat**: No SEM-Tech-specific reverse electrodialysis test data has been published as of this writing. RED performance figures in this article reference established research using conventional membranes. SEM Tech application to blue energy remains speculative at TRL 5 (laboratory validation for chlor-alkali; untested for RED).
 
-### Historical Development
+## Historical Development
 
 The concept of generating electricity from salinity gradients was first proposed by R.E. Pattle in 1954, who demonstrated a "hydroelectric pile" using 47 pairs of alternating acidic and basic membranes that produced 0.2 W/m² and 3.1V. Sidney Loeb (co-inventor of the reverse osmosis membrane) proposed pressure-retarded osmosis for osmotic power in 1975 and patented a RED device in 1977. Theoretical models were developed by Fair and Osterle in 1971.
 
@@ -48,7 +47,7 @@ The energy density is modest but reliable. Seawater at 35 g/L NaCl mixing with f
 
 ## Reverse Electrodialysis
 
-### Principle of Operation
+## Principle of Operation
 
 A RED stack consists of alternating cation exchange membranes (CEM) and anion exchange membranes (AEM) arranged between two electrodes:
 
@@ -59,14 +58,14 @@ The concentration difference across each membrane creates a **[Nernst potential]
 
 Each membrane pair contributes approximately 0.1-0.2V. A practical stack with 50-100 membrane pairs generates 5-20V, sufficient for DC power conversion. The process is the exact reverse of conventional electrodialysis described in [SEM Tech Electrodialysis](../chemistry/sem-tech-electrodialysis.md).
 
-### Key Parameters
+## Key Parameters
 
 - **Open-circuit voltage per cell pair**: ~0.1-0.2V (depends on salinity ratio)
 - **Current density**: 1-10 mA/cm² (limited by concentration polarization)
 - **Power density**: 0.5-2.0 W/m² membrane area
 - **Energy conversion efficiency**: 30-45% of Gibbs free energy (practical stacks)
 
-### Thermodynamics
+## Thermodynamics
 
 The voltage across each ion exchange membrane arises from the **Nernst equation** for concentration cells. For a single membrane separating a concentrated solution (activity a_H) from a dilute solution (activity a_L):
 
@@ -99,13 +98,13 @@ For seawater (0.6 M) and river water (0.015 M) at 25°C, this yields approximate
 
 ## SEM Tech Membrane Advantage
 
-### The Cost Barrier
+## The Cost Barrier
 
 Reverse electrodialysis is conceptually proven but has never been economically viable. The reason is simple: power density is low (0.5-2.0 W/m²), so **massive membrane areas** are required for useful power output. A 1 MW RED plant needs roughly 500,000 to 2,000,000 square meters of membrane.
 
 At conventional membrane prices ($100-400/sq ft for Nafion), the membrane cost alone for a 1 MW plant would be $500 million to $8 billion -- obviously prohibitive. SEM Tech membranes at less than $1/sq ft bring the membrane cost for the same plant to $5-20 million, a transformative reduction that could make RED economically competitive.
 
-### Why RED Needs Both Membrane Types
+## Why RED Needs Both Membrane Types
 
 Unlike chlor-alkali cells that need only one membrane type, RED requires matched pairs of cation and anion exchange membranes. The SEM Tech manufacturing process produces both types by selecting the appropriate resin beads:
 
@@ -196,7 +195,7 @@ Beyond the materials listed above, a RED power plant requires the following equi
 
 ## Steps
 
-### Manufacturing the Membranes
+## Manufacturing the Membranes
 
 **Step 1 -- Pulverize cation resin**: Place strong acid cation exchange resin beads in a blender or ball mill. Pulverize until particle size is below 200 μm (a fine powder that passes through a 70-mesh sieve). If wet pulverizing is used, dry the powder thoroughly before proceeding -- residual moisture causes voids in the finished membrane.
 
@@ -210,7 +209,7 @@ Beyond the materials listed above, a RED power plant requires the following equi
 
 **Step 6 -- Cut and inspect membranes**: Cut dried membrane sheets to stack dimensions with a sharp blade or scissors. Inspect each sheet against light for pinholes, tears, or uneven areas. Discard defective sections -- a single defective membrane in a 100-cell-pair stack compromises the entire unit.
 
-### Assembling the RED Stack
+## Assembling the RED Stack
 
 **Step 7 -- Prepare stack end plates**: Cut PVC/CPVC end plates to size. Drill manifold ports (inlet and outlet for concentrate, diluate, and electrode rinse). Drill alignment holes for tie rods. Clean all machined surfaces to remove chips and burrs.
 
@@ -222,7 +221,7 @@ Beyond the materials listed above, a RED power plant requires the following equi
 
 **Step 11 -- Connect manifolds**: Attach external PVC piping to the manifold ports on the end plates using PVC cement. Verify four separate flow circuits: concentrate in/out, diluate in/out, anode rinse in/out, cathode rinse in/out. Pressure-test each circuit with fresh water before proceeding.
 
-### Commissioning and Operation
+## Commissioning and Operation
 
 **Step 12 -- Install pretreatment**: Set up bar screens, sand filters, and any chemical dosing systems on the seawater and fresh water intake lines. Flush pretreatment systems with clean water before connecting to the RED stack. Verify that filtered water meets target quality: TSS below 5 mg/L, turbidity below 1 NTU.
 
@@ -240,7 +239,7 @@ Beyond the materials listed above, a RED power plant requires the following equi
 
 ## Stack Design
 
-### Membrane Stack Configuration
+## Membrane Stack Configuration
 
 A RED stack for blue energy generation contains:
 
@@ -250,17 +249,17 @@ A RED stack for blue energy generation contains:
 4. **Diluate spacers**: Matching channels carrying fresh water
 5. **Manifolds**: Distributing feed water evenly across the membrane area
 
-### Flow Configuration
+## Flow Configuration
 
 Seawater and fresh water flow cocurrently through their respective channels at 1-5 cm/s. Sufficient flow velocity minimizes concentration polarization -- ion depletion near the membrane surface that increases resistance and reduces output.
 
-### Materials Compatibility
+## Materials Compatibility
 
 SEM Tech membranes use PVC/CPVC binder, inherently resistant to saltwater corrosion. Stack frames and housings can use the same PVC/CPVC materials with solvent-welded joints as in SEM Tech electrolysis cells.
 
 ## Performance
 
-### Expected Performance with SEM Tech Membranes
+## Expected Performance with SEM Tech Membranes
 
 **Note: No SEM-Tech-specific RED test data exists. The following projections are based on SEM Tech membrane properties from chlor-alkali testing, extrapolated to RED conditions.**
 
@@ -284,19 +283,19 @@ A practical RED power plant using SEM Tech membranes would be sized as follows f
 
 ## Deployment Scenarios
 
-### River Mouths and Estuaries
+## River Mouths and Estuaries
 
 The primary blue energy resource exists where rivers meet the sea. A RED plant at a river mouth would withdraw seawater and fresh river water, pass them through the membrane stack, and discharge the mixed brackish effluent. The continuous, predictable nature of river flow provides baseload power.
 
-### Desalination Brine Outfalls
+## Desalination Brine Outfalls
 
 Seawater desalination plants (see [SEM Tech Electrodialysis](../chemistry/sem-tech-electrodialysis.md)) discharge concentrated brine. Pairing a RED plant with a desalination facility captures energy from the salinity gradient between brine and ambient seawater. This is a higher-gradient source than river-sea mixing, yielding greater power density per membrane area.
 
-### Industrial Brine Streams
+## Industrial Brine Streams
 
 Salt production, chlor-alkali plants, and mining operations produce concentrated brine waste. RED can harvest energy from these streams before discharge.
 
-### Integration with Power Infrastructure
+## Integration with Power Infrastructure
 
 RED stacks produce low-voltage DC (5-20V per stack). Practical power generation requires electrical infrastructure to convert, regulate, and deliver this energy:
 
@@ -351,17 +350,17 @@ Pretreatment energy and chemical costs add approximately $0.001-0.005/kWh to the
 
 ## Environmental Impact
 
-### Comparison with Hydroelectric Power
+## Comparison with Hydroelectric Power
 
 RED has a substantially lower environmental footprint than conventional hydroelectric dams. No dam or reservoir is needed -- the plant occupies only the footprint of the stack array and intake structures (500-2,000 m² for a 1 MW plant, vs. the reservoir flooding typical of hydroelectric projects). Fish migration is not blocked. Land is not inundated. The plant can be constructed underground or within existing waterfront structures, minimizing visual impact.
 
-### Water Withdrawal Effects
+## Water Withdrawal Effects
 
 A RED plant withdraws water from both a freshwater source (river) and a saltwater source (ocean or estuary). For most river-mouth sites, the fraction of total river flow diverted through the plant is negligible (0.01-0.1% for a 10 MW plant at a major river). However, at smaller rivers or during low-flow conditions, intake withdrawal could affect downstream flow volume and salinity intrusion patterns.
 
 **Entrainment and impingement**: Aquatic organisms near intake points may be drawn into the plant (entrainment -- passing through screens and the membrane stack) or trapped against intake screens (impingement). Wedgewire screens with 0.5-2.0 mm slot width and low intake velocity (below 0.15 m/s) minimize both effects. The RED stack's wide flow channels (100-300 μm spacers) are less damaging to organisms that do pass through than the high-pressure pumps in desalination plants, but biological survival after stack passage is not well studied.
 
-### Discharge Effects
+## Discharge Effects
 
 RED effluent is **brackish water** -- a mixture of the freshwater and saltwater feed streams. The discharge salinity depends on the mixing ratio but typically falls in the 5-20 g/L range (brackish). This is less saline than seawater and substantially less saline than desalination brine (60-80 g/L). Key considerations:
 
@@ -369,7 +368,7 @@ RED effluent is **brackish water** -- a mixture of the freshwater and saltwater 
 - **Temperature**: RED operation does not significantly heat or cool the water. Effluent temperature is essentially the average of the two intake temperatures, posing no thermal pollution concern.
 - **Chemical residuals**: If chlorination is used for biofouling control, residual chlorine in the discharge must be neutralized (with sodium bisulfite) or kept below toxic thresholds (<0.01 mg/L free chlorine for most marine organisms). The Fe²⁺/Fe³⁺ electrode rinse is a closed loop and does not contact the process water.
 
-### Mitigation Measures
+## Mitigation Measures
 
 - **Subsurface intakes**: Drawing water through seabed or riverbed wells eliminates entrainment entirely, as natural sand/gravel filtration removes organisms before they reach the plant. Feasible where geology permits (sandy seabeds, gravel riverbeds).
 - **Timing restrictions**: Reducing or halting water withdrawal during fish spawning seasons or migration periods minimizes ecological impact at biologically sensitive sites.
@@ -388,14 +387,14 @@ RED effluent is **brackish water** -- a mixture of the freshwater and saltwater 
 
 ## Limitations
 
-### Technology Readiness
+## Technology Readiness
 
 - SEM Tech is at **TRL 5** for chlor-alkali applications. RED application is **untested at any scale**.
 - No published RED performance data using SEM Tech membranes exists.
 - SEM Tech membrane resistance in thin multi-cell RED stacks is uncharacterized.
 - Fouling behavior with natural river water and seawater is unknown.
 
-### Performance Limitations
+## Performance Limitations
 
 - **Low power density**: 0.5-2.0 W/m² means large installations for modest power output. A 1 MW plant requires roughly 500,000-2,000,000 m² of membrane area.
 - **Pumping parasitics**: Circulating large water volumes through narrow channels consumes 10-25% of generated power.
@@ -403,7 +402,7 @@ RED effluent is **brackish water** -- a mixture of the freshwater and saltwater 
 - **Seasonal variation**: River flow varies seasonally, affecting power output. Drought conditions reduce or eliminate generation.
 
 
-### Economic Uncertainty
+## Economic Uncertainty
 
 Even with SEM Tech membranes at less than $1/sq ft, total system cost (intake structures, pumps, stacks, power conversion, installation) must be competitive with other generation. The case is strongest at sites with high salinity gradients and existing infrastructure — particularly at desalination plant outfalls where concentrated brine (60,000-80,000 mg/L TDS) mixes with ambient seawater (35,000 mg/L), yielding power densities of 1.5-3.5 W/m² — 2-5x higher than natural river-sea mixing.
 
@@ -411,7 +410,7 @@ Even with SEM Tech membranes at less than $1/sq ft, total system cost (intake st
 
 RED is one of several technologies proposed for harvesting salinity-gradient power. The alternatives have different operating principles and tradeoffs.
 
-### Pressure-Retarded Osmosis (PRO)
+## Pressure-Retarded Osmosis (PRO)
 
 PRO uses a semipermeable membrane (similar to reverse osmosis) to exploit osmotic pressure rather than ionic voltage. Freshwater permeates through the membrane into pressurized saltwater, increasing the volume of the pressurized stream. This augmented flow drives a turbine. The saltwater is pressurized to 50-85% of the osmotic pressure (~12-15 bar for seawater/freshwater).
 
@@ -419,19 +418,19 @@ Statkraft (Norway) opened the world's first osmotic power plant at Tofte in 2009
 
 PRO has a thermodynamic advantage over RED: osmotic pressure scales linearly with concentration difference, while RED's Nernst potential scales logarithmically. PRO can theoretically achieve higher energy efficiency (54-56% vs. RED's 30-45%). However, PRO requires high-pressure equipment (turbines, pressure exchangers, pressure vessels), making the balance of plant more complex and expensive than RED. SEM Tech membranes are ion-exchange membranes and are not directly applicable to PRO, which requires semipermeable (RO-type) membranes.
 
-### Capacitive Mixing (CAPMIX)
+## Capacitive Mixing (CAPMIX)
 
 CAPMIX extracts energy from the expansion and contraction of the electric double layer at porous electrodes (typically activated carbon) when the surrounding salinity changes. A four-step cycle charges electrodes in seawater, switches to freshwater (voltage rises due to double-layer expansion), discharges at higher voltage through a load, then switches back to seawater. Variants include capacitive Donnan potential (CDP, using ion-exchange membranes on the electrodes) and mixing entropy batteries (using faradaic/battery electrodes such as Ag/AgCl).
 
 CAPMIX remains at TRL 3-4. Power densities are low (0.05-0.4 W/m² for pure CAPMIX; up to 5.3 W/m² for a capacitive-RED hybrid at laboratory scale as of 2025). The cyclic (batch) operation, low power density, and unproven scalability make it less practical than RED for utility-scale generation. SEM Tech membranes could potentially serve as the ion-exchange membranes in CDP configurations.
 
-### Microbial Reverse Electrodialysis Cell (MRC)
+## Microbial Reverse Electrodialysis Cell (MRC)
 
 An MRC integrates a microbial fuel cell with a RED stack. Exoelectrogenic bacteria oxidize organic matter in wastewater at the anode, while the RED stack adds salinity-driven voltage on top of the bioelectrochemical voltage. The combined system achieves higher power density per membrane area (~3-6 W/m² cathode area) with fewer membrane pairs (5-10 vs. 50-100+) than standalone RED, while simultaneously treating wastewater.
 
 MRC remains at TRL 3-4. Challenges include biological stability, difficult scale-up of bioelectrochemical systems, and substrate dependency. SEM Tech membranes could reduce the membrane cost component of MRC stacks.
 
-### Comparison
+## Comparison
 
 | Parameter | RED | PRO | CAPMIX | MRC |
 |---|---|---|---|---|
@@ -452,6 +451,6 @@ RED is currently the leading approach because it produces electricity directly w
 - [SEM Tech Redox Flow Batteries](sem-tech-redox-flow-batteries.md) -- grid storage for dispatchable power from continuous RED generation
 - [Electricity](electricity.md) -- electrical generation and distribution infrastructure
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+
+[← Back to Energy](index.md)

@@ -12,7 +12,7 @@ Maritime infrastructure enables vessels to operate safely: harbors for shelter, 
 
 For basic harbor and port facility descriptions, see [Water Transport](../transport/shipping.md).
 
-### Harbor Design
+## Harbor Design
 
 **Site selection criteria**:
 - Natural protection from prevailing wind and waves (headlands, islands, bays)
@@ -76,7 +76,7 @@ For basic harbor and port facility descriptions, see [Water Transport](../transp
 - Orientation: avoid prevailing wind and wave direction. Entrance on the lee side of the breakwater.
 - Navigation channel: marked with buoys and leading lights. Minimum depth 1.15× the deepest draft vessel (allows for squat at speed).
 
-### Dock and Quay Construction
+## Dock and Quay Construction
 
 **Quay wall types**:
 
@@ -101,7 +101,7 @@ For basic harbor and port facility descriptions, see [Water Transport](../transp
 - Mooring dolphin: provides secure mooring point for lines
 - Construction: timber piles (300-500 mm diameter) or steel pipe piles (600-1,200 mm diameter), driven in groups of 3-8 piles, connected by a cap
 
-### Dry Dock Facilities
+## Dry Dock Facilities
 
 **Graving dock (dry dock)**:
 - Excavated chamber with watertight gate at the entrance
@@ -169,7 +169,7 @@ For basic harbor and port facility descriptions, see [Water Transport](../transp
 - Track maintenance underwater — submerged rail sections corrode and require periodic inspection
 - Weather-sensitive — hauling operations halted in heavy seas when vessel motion prevents safe cradle alignment
 
-### Lighthouse Engineering
+## Lighthouse Engineering
 
 **Structural design**:
 - **Stone tower**: granite or limestone blocks, tapered (1:10 to 1:15 batter ratio — base diameter is 10-15% wider than top). Wall thickness decreases with height. Height 20-60 m. Base diameter 5-15 m. Withstands hurricane-force winds and wave impact at the base.
@@ -187,7 +187,7 @@ For basic harbor and port facility descriptions, see [Water Transport](../transp
 - Fuel store: oil or kerosene storage in a fire-resistant building separate from the tower
 - Fog signal: bell, horn, or siren for fog conditions. Compressed air horn: audible 3-5 nautical miles. Requires an air compressor and reservoir.
 
-### Submarine Cable Engineering
+## Submarine Cable Engineering
 
 **Telegraph cable design**:
 - **Conductor**: copper wire, 7-strand (one center wire surrounded by six). Diameter 1.5-3.0 mm. Conductivity: >95% IACS (International Annealed Copper Standard). Carries pulsed DC current (Morse code).
@@ -227,7 +227,7 @@ For basic harbor and port facility descriptions, see [Water Transport](../transp
 - Grapnel: a hooked iron bar towed across the seabed to catch and lift the cable
 - Lift cable to surface, cut, bring both ends aboard the repair ship, insert a new section (repair length), splice both ends, lower back to the seabed
 
-### Corrosion Prevention
+## Corrosion Prevention
 
 Seawater (3.5% NaCl, pH 8.0-8.3) is one of the most corrosive natural environments for metals. Steel corrosion rate in seawater: 0.1-0.3 mm/year without protection. A 10 mm steel hull plate loses 1-3 mm per decade.
 
@@ -295,7 +295,7 @@ Seawater (3.5% NaCl, pH 8.0-8.3) is one of the most corrosive natural environmen
 - Total dry film thickness: 300-500 μm for submerged service, 200-300 μm for atmospheric exposure.
 - Surface preparation: abrasive blasting to Sa 2.5 (near-white metal, ISO 8501-1). All rust, mill scale, and old paint removed. Surface profile 50-100 μm for coating adhesion.
 
-### Underwater Construction
+## Underwater Construction
 
 **Caisson (cofferdam) construction**:
 - For building harbor walls, bridge piers, or other structures below the waterline
@@ -309,7 +309,7 @@ Seawater (3.5% NaCl, pH 8.0-8.3) is one of the most corrosive natural environmen
 - Mix design: high cement content (350-450 kg/m³), low water/cement ratio (0.40-0.45), 10-20 mm aggregate. Slump: 150-200 mm (very workable for placement through tremie).
 - Anti-washout admixtures (cellulose ethers) increase cohesiveness of concrete in water.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Drowning**: The primary hazard of all marine construction. Life jackets mandatory for all personnel working within 2 m of water edge or on floating plant. Safety boats standing by during in-water work.
 - **Compressed air work**: Caisson disease (decompression sickness) affects workers in pneumatic caissons. Strict decompression schedules mandatory. Medical lock on site for emergency recompression.
@@ -317,7 +317,7 @@ Seawater (3.5% NaCl, pH 8.0-8.3) is one of the most corrosive natural environmen
 - **Cable laying tensions**: Cable under tension stores enormous energy. A cable parting under load whips violently. Personnel must stand clear of the cable path during laying operations. Steel blast shields around the paying-out gear.
 - **Chemical exposure**: Anti-fouling paints, solvents, and epoxy coatings contain toxic compounds (copper compounds, isocyanates). Respiratory protection and skin protection mandatory during application.
 
-### Infrastructure Specifications Summary
+## Infrastructure Specifications Summary
 
 | Structure | Key Dimension | Material | Quantity | Construction Time |
 |-----------|--------------|----------|----------|------------------|
@@ -327,7 +327,7 @@ Seawater (3.5% NaCl, pH 8.0-8.3) is one of the most corrosive natural environmen
 | Lighthouse | 20-60 m height | Stone/cast iron/concrete | 500-5,000 tonnes | 6-24 months |
 | Submarine cable | 100-5,000 km | Copper, gutta-percha, steel | 200-40,000 tonnes | 1-12 months (laying) |
 
-### See Also
+## See Also
 
 - [Water Transport](../transport/shipping.md) — basic harbor facilities, port operations
 - [Metals: Iron & Steel](../metals/iron-steel.md) — materials for construction
@@ -336,6 +336,6 @@ Seawater (3.5% NaCl, pH 8.0-8.3) is one of the most corrosive natural environmen
 - [Cement & Concrete](../chemistry/cement.md) — concrete for harbor and dock construction
 - [Hull Construction](shipbuilding.md) — shipbuilding for cable ships and construction vessels
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval](./index.md) • [All Domains](../index.md)*
+
+[← Back to Marine & Naval Engineering](index.md)

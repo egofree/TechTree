@@ -8,11 +8,11 @@
 > **Outputs**: sulfuric_acid, nitric_acid, hydrochloric_acid, hydrofluoric_acid, oleum
 > **Critical**: Yes — sulfuric acid is the single most important industrial chemical; the contact process enables fertilizer production, metal pickling, petroleum refining, and semiconductor wafer processing. No chemical industry operates without mineral acids.
 
-## 1. Overview
+## Overview
 
 Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It is used in every subsequent phase: steel pickling, petroleum refining, fertilizer production, etching, and semiconductor processing. A civilization's industrial maturity can be measured by its sulfuric acid production.
 
-## 2. Prerequisites
+## Prerequisites
 
 **Materials**:
 - [Elemental sulfur or pyrite](../mining/processing.md) — sulfur source for SO₂ generation
@@ -30,7 +30,7 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 - [Electrical power](../energy/electricity.md) — for pumps, blowers, and instrumentation
 - [Compressed air](../gas-handling/basic.md) — for sulfur combustion and gas transport
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity per tonne H₂SO₄ | Source | Alternatives |
 |----------|--------------------------|--------|-------------|
@@ -40,9 +40,9 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 | Lead sheet (3-6 mm) | 5-20 tonnes (one-time, chamber) | [Metals](../metals/non-ferrous.md) | Steel with acid-resistant brick lining |
 | Cast iron pipe and valves | 1-5 tonnes (one-time) | [Metals](../metals/iron-steel.md) | Stainless steel 316L for concentrated acid |
 
-## 4. Process Description
+## Process Description
 
-### Lead Chamber Process (62-70% H₂SO₄)
+## Lead Chamber Process (62-70% H₂SO₄)
 
 **Principle**: SO₂ reacts with NO₂ (nitrogen dioxide catalyst), H₂O, and O₂ in large lead-lined chambers to produce H₂SO₄. Nitrogen oxides shuttle oxygen from air to sulfur dioxide — they are regenerated continuously, acting as homogeneous catalysts.
 
@@ -89,7 +89,7 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 
 **Throughput**: 1-10 tonnes H₂SO₄ per day per plant.
 
-### Contact Process (96-98% H₂SO₄)
+## Contact Process (96-98% H₂SO₄)
 
 **Principle**: Catalytic oxidation of SO₂ to SO₃ over vanadium pentoxide (V₂O₅) catalyst at 400-600°C, followed by absorption of SO₃ in 98% H₂SO₄ (not water — direct absorption creates an impossible-to-condense acid mist).
 
@@ -132,7 +132,7 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 - Sulfur feed must be clean — arsenic, selenium, and halogens poison the catalyst; pyrite requires extensive gas cleaning
 - Higher capital cost than lead chamber — converter, absorption towers, gas cleaning train, and inter-stage cooling equipment
 
-### Nitric Acid Production
+## Nitric Acid Production
 
 **Principle**: Nitric acid (HNO₃) is produced from sodium nitrate (Chile saltpeter) and concentrated sulfuric acid via acid displacement, or from ammonia via the Ostwald process (see [Ammonia Production](ammonia.md) for detailed Ostwald description).
 
@@ -171,7 +171,7 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 - Ostwald process requires [ammonia from Haber-Bosch](ammonia.md) — itself a high-pressure, catalyst-dependent process
 - HNO₃ is a powerful oxidizer — contact with organic materials causes fire; storage requires aluminum or glass, never steel
 
-### Hydrochloric Acid Production
+## Hydrochloric Acid Production
 
 **Principle**: HCl gas is generated from NaCl + H₂SO₄ (Leblanc salt cake reaction) or by direct synthesis from H₂ + Cl₂ (burns in quartz combustion chamber). The gas is absorbed in water to produce 30-38% hydrochloric acid.
 
@@ -211,7 +211,7 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 - Fuming above 25% concentration — HCl gas escapes, requiring ventilated storage and handling areas
 - Cannot exceed 38% concentration by simple absorption — higher concentrations require pressurized absorption or chilled water
 
-### Hydrofluoric Acid Production
+## Hydrofluoric Acid Production
 
 **Principle**: Fluorite (CaF₂) reacts with concentrated sulfuric acid at 200-300°C to produce hydrogen fluoride gas (HF, bp 19.5°C). HF gas is absorbed in water to produce 48-50% aqueous HF, or distilled to produce anhydrous HF.
 
@@ -252,7 +252,7 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 - Attacks glass, ceramics, and all silica-containing materials — all equipment must be metal, PTFE, or polyethylene
 - Calcium gluconate gel antidote must be staged at every HF handling location before any work begins
 
-### Other Acid Types
+## Other Acid Types
 
 #### Aqua Regia
 
@@ -279,7 +279,7 @@ Phosphoric acid (H₃PO₄) bridges mineral acid production to fertilizer chemis
 
 **Fertilizer bridge**: Phosphoric acid is reacted with ammonia to produce monoammonium phosphate (MAP, 11-52-0) and diammonium phosphate (DAP, 18-46-0) — the world's most important phosphate fertilizers. Reacted with phosphate rock to produce superphosphate (single: Ca(H₂PO₄)₂, or triple: higher P content).
 
-### Pickling Acids
+## Pickling Acids
 
 Steel pickling removes oxide scale (mill scale, rust) from steel surfaces before further processing (galvanizing, plating, cold rolling, welding).
 
@@ -291,7 +291,7 @@ Steel pickling removes oxide scale (mill scale, rust) from steel surfaces before
 - 15-20% HCl at 35-40°C. Faster than sulfuric (2-10 minutes). Less base metal attack, less hydrogen embrittlement, better surface finish. Scale dissolves: Fe₂O₃ + 6HCl → 2FeCl₃ + 3H₂O.
 - Spent acid recovery: spray roaster produces Fe₂O₃ (sellable pigment) and HCl gas (absorbed in water → regenerated acid). Closed-loop acid recovery is standard in modern steel plants.
 
-### Semiconductor-Grade Acid Production
+## Semiconductor-Grade Acid Production
 
 Semiconductor processing requires ultra-pure acids (trace metal impurities at ppb — parts per billion — levels). Standard industrial acids contain Fe, Cu, Pb, As at ppm levels — unsuitable for wafer processing.
 
@@ -303,7 +303,7 @@ Semiconductor processing requires ultra-pure acids (trace metal impurities at pp
 
 **Grade specifications**: SEMI Grade (semiconductor): <10 ppb each for 30+ trace metals. Trace metal analysis by ICP-MS (inductively coupled plasma mass spectrometry). Each batch certified with certificate of analysis.
 
-### Historical Development Timeline
+## Historical Development Timeline
 
 1. **Pre-1700 (alchemy)**: "Oil of vitriol" (dilute H₂SO₄) by distilling green vitriol (FeSO₄·7H₂O). "Aqua fortis" (HNO₃) from saltpeter + vitriol. "Spirit of salt" (HCl) from salt + vitriol.
 2. **1746**: Joshua Ward's lead chamber process — first industrial H₂SO₄. Lead chambers, 6×6×6 feet.
@@ -314,16 +314,16 @@ Semiconductor processing requires ultra-pure acids (trace metal impurities at pp
 7. **1960s**: Semiconductor-grade acid purification begins. Sub-boiling distillation, PTFE containers, ppb trace metal specifications.
 8. **Present**: Global H₂SO₄ production ~250 million tonnes/year (largest-volume chemical). Most goes to fertilizer production (phosphoric acid, ammonium sulfate).
 
-## 8. Safety
+## Safety
 
 - **Sulfuric acid (H₂SO₄)**: Concentrated acid (98%, density 1.84 g/mL) causes severe chemical burns and is intensely dehydrating — chars organic matter on contact. Heat of dilution: 880 kJ/kg. ALWAYS add acid to water, NEVER water to acid — adding water to concentrated acid creates a small volume of boiling, concentrated solution that violently spatters. PPE: acid-resistant gloves (neoprene), face shield, chemical apron. Emergency: flush with copious water for 15+ minutes. Store concentrated H₂SO₄ in carbon steel tanks (passivates steel at >85% concentration); dilute acid requires rubber-lined steel or 316L stainless steel.
 - **Nitric acid (HNO₃)**: Concentrated HNO₃ (68%, density 1.41 g/mL) is a powerful oxidizer. Contact with organic materials (paper, wood, solvents) causes fire. Produces toxic NO₂ fumes (brown gas, TLV 3 ppm, IDLH 20 ppm — lung damage at low concentrations). Store in aluminum tanks (HNO₃ passivates aluminum, forming Al₂O₃ film) or glass carboys. NEVER store in carbon steel (vigorous reaction). PPE: face shield, acid-resistant gloves, chemical apron. Work under fume hood.
 - **Hydrochloric acid (HCl)**: Fumes are corrosive to respiratory tract — detectable at 5 ppm, dangerous at 100 ppm, IDLH 50 ppm. Scrub vent gases through NaOH solution. Store in rubber-lined steel, glass, or PVC containers. Carbon steel is NOT suitable for HCl service. PPE: chemical splash goggles, neoprene gloves, face shield.
 - **Hydrofluoric acid (HF)**: EXCEPTIONALLY DANGEROUS. Dissolves bone by binding calcium. Penetrates skin without immediate pain — the delay makes exposure more dangerous. Lethal at ~2.5% body surface area exposure to 50% HF (a hand-sized splash can kill via hypocalcemia-induced cardiac arrest). **Calcium gluconate gel (2.5%) MUST be on-site before any HF handling** — apply immediately to exposed skin, massage for 15+ minutes, seek emergency medical treatment. PPE: neoprene gloves (NOT latex — HF penetrates latex), face shield, chemical apron. Storage: PTFE or polyethylene containers ONLY. NEVER glass (HF etches SiO₂). Double-contained: primary container inside secondary containment tray.
 
-## 9. Quantitative Parameters
+## Quantitative Parameters
 
-### Acid Concentration and Properties
+## Acid Concentration and Properties
 
 | Acid | Concentration | Density (g/mL) | Boiling Point (°C) | Storage Material |
 |------|--------------|----------------|--------------------|-----------------|
@@ -335,7 +335,7 @@ Semiconductor processing requires ultra-pure acids (trace metal impurities at pp
 | HF (commercial) | 48-50% | 1.15-1.17 | 112 (azeo) | PTFE, polyethylene |
 | Oleum | 20-65% free SO₃ | 1.89-2.00 | — | Carbon steel |
 
-### Materials of Construction for Acid Service
+## Materials of Construction for Acid Service
 
 | Material | H₂SO₄ (dilute) | H₂SO₄ (conc.) | HCl | HNO₃ | HF | NaOH |
 |----------|----------------|----------------|-----|------|----|------|
@@ -346,7 +346,7 @@ Semiconductor processing requires ultra-pure acids (trace metal impurities at pp
 | PTFE (Teflon) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | PVC/CPVC | ✓ (room temp) | ✗ (hot) | ✓ | ✓ (dilute) | ✓ | ✓ |
 
-### Acid Azeotropes
+## Acid Azeotropes
 
 | Acid | Azeotrope Concentration | Boiling Point at 1 atm |
 |------|------------------------|----------------------|
@@ -355,7 +355,7 @@ Semiconductor processing requires ultra-pure acids (trace metal impurities at pp
 | H₂SO₄ | 98.3% (technical max) | 337°C |
 | HF | 38% | 112°C |
 
-## 10. Semiconductor-Grade Acid Production
+## Semiconductor-Grade Acid Production
 
 Semiconductor processing requires ultra-pure acids (trace metal impurities at ppb — parts per billion — levels). Standard industrial acids contain Fe, Cu, Pb, As at ppm levels — unsuitable for wafer processing.
 
@@ -367,7 +367,7 @@ Semiconductor processing requires ultra-pure acids (trace metal impurities at pp
 
 **Grade specifications**: SEMI Grade (semiconductor): <10 ppb each for 30+ trace metals. Trace metal analysis by ICP-MS. Each batch certified with certificate of analysis.
 
-## 11. Historical Development Timeline
+## Historical Development Timeline
 
 1. **Pre-1700 (alchemy)**: "Oil of vitriol" (dilute H₂SO₄) by distilling green vitriol (FeSO₄·7H₂O). "Aqua fortis" (HNO₃) from saltpeter + vitriol. "Spirit of salt" (HCl) from salt + vitriol.
 2. **1746**: Joshua Ward's lead chamber process — first industrial H₂SO₄.
@@ -378,7 +378,7 @@ Semiconductor processing requires ultra-pure acids (trace metal impurities at pp
 7. **1960s**: Semiconductor-grade acid purification begins. Sub-boiling distillation, PTFE containers, ppb trace metal specifications.
 8. **Present**: Global H₂SO₄ production ~250 million tonnes/year (largest-volume chemical).
 
-## 12. References
+## References
 
 - [Alkalis](alkalis.md) — complementary acid-base chemistry (NaOH, Na₂CO₃ production)
 - [Electrolysis](electrolysis.md) — chlor-alkali process producing HCl and Cl₂
@@ -388,6 +388,6 @@ Semiconductor processing requires ultra-pure acids (trace metal impurities at pp
 - [Coatings](coatings.md) — acid etching and pickling of metal surfaces
 - [Ammonia](ammonia.md) — ammonia as feedstock for Ostwald nitric acid process
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+[← Back to Chemistry](index.md)

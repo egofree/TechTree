@@ -8,7 +8,7 @@
 > **Outputs**: pcb_bare_boards, copper_clad_laminate, etched_circuits
 > **Critical**: Yes — PCBs are the universal interconnection substrate for all electronic assemblies from simple controllers to multi-GHz computers
 
-## 1. Overview
+## Overview
 
 Printed circuit board (PCB) fabrication transforms copper-clad insulating substrates into precise patterned circuit interconnects. The PCB provides mechanical support, electrical connections between components, thermal management, and electromagnetic shielding. Every electronic device — from a 555-timer circuit to a GPU — mounts on a PCB.
 
@@ -16,9 +16,9 @@ PCB fabrication occupies a critical position in the electronics chain. It requir
 
 This document covers the full PCB fabrication process from laminate production through finished bare board, with emphasis on the chemical and mechanical processes at each stage. Component placement and soldering are covered separately in [Electronics Assembly](assembly.md).
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 - **Copper foil**: Electrodeposited (ED) or rolled, 17.5 μm (½ oz) or 35 μm (1 oz) thickness, >99.8% purity. From [copper electrorefining](../chemistry/electrolysis.md).
 - **Fiberglass cloth**: Woven E-glass fabric (thickness 0.05-0.35 mm, styles 106, 1080, 2113, 2116, 7628). From [glass fiber](../glass/fibers.md) production.
 - **Epoxy resin**: Difunctional or multifunctional bisphenol-A/epichlorohydrin epoxy, flame-retardant grade (FR-4 = Flame Retardant 4). From [thermoset polymer](../polymers/thermosets.md) chemistry.
@@ -26,20 +26,20 @@ This document covers the full PCB fabrication process from laminate production t
 - **Etchant chemicals**: Ferric chloride (FeCl₃), ammonium persulfate ((NH₄)₂S₂O₈), or cupric chloride (CuCl₂) with hydrogen peroxide.
 - **Drill bits**: Tungsten carbide micro-drills, 0.1-6.5 mm diameter.
 
-### Tools
+## Tools
 - [CNC drilling machine](../machine-tools/edm-cnc.md) with 50,000-200,000 RPM spindle
 - UV exposure unit (365 nm wavelength, 100-500 mJ/cm²)
 - Chemical processing tanks (etch, develop, strip, plating)
 - Hydraulic laminating press (170-200°C, 200-400 psi)
 - [Precision measurement](../measurement/precision-metrology.md) tools for dimensional verification
 
-### Knowledge
+## Knowledge
 - Photolithography fundamentals: exposure → development → pattern transfer
 - Copper etching chemistry: oxidation-reduction reactions
 - Lamination parameters: temperature, pressure, vacuum, cure cycle
 - IPC standards: IPC-6012 (rigid PCB qualification), IPC-A-600 (acceptability)
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity (per m² of 1.6mm FR-4 PCB) | Source | Alternatives |
 |----------|--------------------------------------|--------|-------------|
@@ -53,9 +53,9 @@ This document covers the full PCB fabrication process from laminate production t
 | Solder mask ink (photoimageable) | 100-200 mL | [Polymers](../polymers/thermosets.md) | Screen-printed epoxy mask |
 | Tungsten carbide drill bits (0.3-1.0 mm) | 5-20 bits per m² | [Machine tools](../machine-tools/index.md) | — |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Laminate Production (Copper-Clad Laminate)
+## 4.1 Laminate Production (Copper-Clad Laminate)
 
 1. **Weave fiberglass cloth**: E-glass fibers (5-13 μm diameter) woven into fabric. Common weave: plain or twill. Yarn count: 42-60 ends/inch.
 2. **Impregnate with B-stage epoxy**: Pass fiberglass cloth through epoxy resin bath. Epoxy is partially cured (B-staged) to a tacky, non-flowing state. Resin content: 35-55% by weight. Volatile content: <0.5%. This produces "prepreg" (pre-impregnated) sheets.
@@ -73,7 +73,7 @@ This document covers the full PCB fabrication process from laminate production t
 - Long cycle time: each lamination cycle takes 2-4 hours regardless of panel count — lamination is the throughput bottleneck in multi-layer production
 - Moisture sensitivity: B-stage prepreg absorbs humidity from air during storage, requiring refrigerated storage (2-10°C) and limited shelf life (3-6 months)
 
-### 4.2 Single-Sided PCB (Photoimageable Method)
+## 4.2 Single-Sided PCB (Photoimageable Method)
 
 1. **Cut panels**: Shear laminate to panel size (typically 300 × 300 mm or 450 × 600 mm). Deburr edges.
 2. **Drill holes**: CNC drill at 50,000-150,000 RPM with carbide bits. Hit rate: 100-300 holes/minute. Entry/exit material (aluminum sheet, phenolic board) prevents burrs and reduces bit breakage. For non-plated holes: drill after etching. For plated through-holes: drill before plating.
@@ -95,7 +95,7 @@ This document covers the full PCB fabrication process from laminate production t
 - Multiple wet chemical processing steps (develop, etch, strip) each require temperature-controlled tanks, rinse stages, and waste treatment — chemical handling infrastructure is significant
 - Single-sided boards have no plated through-holes, requiring manual wire links or jumpers for any cross-board connections — limits circuit complexity
 
-### 4.3 Plated Through-Hole (Double-Sided)
+## 4.3 Plated Through-Hole (Double-Sided)
 
 1. **Drill all holes** on CNC drill before plating.
 2. **Deburr and clean**: Mechanical deburr + chemical clean.
@@ -115,7 +115,7 @@ This document covers the full PCB fabrication process from laminate production t
 - Palladium-tin catalyst is expensive and sensitive to contamination — a single contaminated panel can poison an entire catalyst bath, requiring costly replacement
 - Process has 7+ sequential wet chemistry steps (deburr, catalyst, accelerator, electroless, electrolytic, strip, etch) — each step is a potential yield loss point and requires separate chemical management
 
-### 4.4 Multi-Layer PCB
+## 4.4 Multi-Layer PCB
 
 1. **Produce inner layer cores**: Etch circuit patterns on both sides of thin cores (0.1-0.8 mm) using the single-sided process on each side.
 2. **Inspection (AOI)**: Automated optical inspection of inner layer patterns before lamination — defects sealed inside a multi-layer board are impossible to repair.
@@ -135,7 +135,7 @@ This document covers the full PCB fabrication process from laminate production t
 - Registration accuracy across layers must be <0.05 mm for 4+ layers — requires optical alignment systems and controlled-environment lamination to prevent thermal expansion misalignment
 - Sequential lamination for blind/buried vias multiplies process time: each sub-lamination requires a full 2-4 hour press cycle, making HDI boards 3-5× more expensive than standard multi-layer
 
-### 4.5 Solder Mask, Legend, and Surface Finish
+## 4.5 Solder Mask, Legend, and Surface Finish
 
 1. **Solder mask**: Apply photoimageable solder mask (LPI — liquid photoimageable) by screen printing or curtain coating (15-30 μm dry). Expose through mask (UV, 300-600 mJ/cm²). Develop with Na₂CO₃. Cure: 150°C for 30-60 min (thermal) or UV post-cure. Color: green (standard), blue, red, black, yellow, white. Purpose: prevents solder bridges, protects traces from oxidation and contamination, provides electrical insulation.
 2. **Silkscreen legend**: Screen-print white epoxy ink for component reference designators (R1, C2, U3), polarity marks, test point labels, and board identification. Cure at 150°C for 15-20 min.
@@ -156,7 +156,7 @@ This document covers the full PCB fabrication process from laminate production t
 - HASL produces uneven solder coating (1-30 μm) that is incompatible with fine-pitch components (<0.5 mm pitch) — the thickness variation causes coplanarity issues
 - ENIG process uses nickel sulfate and potassium gold cyanide — both are toxic, and the cyanide gold bath requires emergency antidote kits and strict handling protocols, adding cost and safety burden
 
-### 4.6 Electrical Test and Profiling
+## 4.6 Electrical Test and Profiling
 
 1. **Electrical test**: Flying probe (movable pin heads contact each net) or bed-of-nails (fixed fixture with spring pins for every net). Test all nets: continuity (every connection <10 Ω), isolation (every isolation >10 MΩ at 250-500V). Test time: flying probe 2-10 min/board, bed-of-nails 10-60 sec/board.
 2. **Route/profile**: CNC router cuts individual boards from panel. Tool: 2.0-3.2 mm carbide router bit at 20,000-30,000 RPM, feed 10-30 mm/sec. Scoring (V-groove) for snap-apart panels: score 1/3 board thickness from each side.
@@ -172,9 +172,9 @@ This document covers the full PCB fabrication process from laminate production t
 - Electrical test verifies only connectivity, not signal integrity — impedance mismatches, excessive trace length, and crosstalk are not detected without dedicated TDR or network analyzer testing
 - CNC routing generates fiberglass dust and requires carbide tooling that wears rapidly — a 2.0-3.2 mm router bit lasts 50-200 linear meters of cutting in FR-4 before edge quality degrades
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Laminate Properties (FR-4)
+## Laminate Properties (FR-4)
 
 | Parameter | Standard FR-4 | High-Tg FR-4 | Polyimide |
 |-----------|--------------|--------------|-----------|
@@ -188,7 +188,7 @@ This document covers the full PCB fabrication process from laminate production t
 | Water absorption | 0.1-0.3% | 0.05-0.15% | 0.3-0.5% |
 | Flammability rating | UL 94 V-0 | UL 94 V-0 | UL 94 V-0 |
 
-### Etching Parameters
+## Etching Parameters
 
 | Parameter | Ferric Chloride | Ammonium Persulfate | Cupric Chloride/H₂O₂ |
 |-----------|----------------|--------------------|--------------------|
@@ -201,7 +201,7 @@ This document covers the full PCB fabrication process from laminate production t
 | Waste handling | Heavy metal disposal | Oxidizer disposal | Copper recovery by electrowinning |
 | Copper capacity | 30-50 g/L before exhaustion | 15-25 g/L | >100 g/L (regenerable) |
 
-### Drilling Parameters
+## Drilling Parameters
 
 | Hole Diameter | Spindle Speed | Feed Rate | Hit Rate | Bit Life |
 |---------------|--------------|-----------|----------|----------|
@@ -211,7 +211,7 @@ This document covers the full PCB fabrication process from laminate production t
 | 1.0 mm | 30,000-60,000 RPM | 2.0-4.0 m/min | 250-350/min | 3000-8000 hits |
 | 3.0 mm | 15,000-30,000 RPM | 2.0-5.0 m/min | 100-200/min | 5000-15,000 hits |
 
-### PCB Design Capability by Layer Count
+## PCB Design Capability by Layer Count
 
 | Feature | 1 Layer | 2 Layers | 4 Layers | 6-8 Layers | 10+ Layers |
 |---------|---------|----------|----------|------------|------------|
@@ -223,25 +223,25 @@ This document covers the full PCB fabrication process from laminate production t
 | Impedance control | No | ±10% | ±5% | ±5% | ±3% |
 | Typical applications | Simple controllers | Most electronics | Computers, telecom | Servers, medical | Aerospace, supercomputers |
 
-## 6. Scaling Notes
+## Scaling Notes
 
-### From Bench to Factory
+## From Bench to Factory
 
 - **Bench scale (prototyping)**: Toner transfer method — laser-print circuit pattern onto glossy paper, iron onto copper-clad laminate, soak off paper in water, etch in FeCl₃ tray. Output: 1-5 boards per day. Trace/space: 0.3-0.5 mm. No plated through-holes. Suitable for simple, single-sided prototypes.
 - **Workshop scale**: UV exposure unit, spray etcher, manual drill press. Output: 10-50 boards per day. Trace/space: 0.15-0.25 mm. Double-sided with through-hole plating possible. Sufficient for small-batch production.
 - **Production scale**: Fully automated line (CNC drill, automatic dry film laminator, dual-sided exposure, conveyorized spray etch/plating, AOI, electrical test). Output: 100-10,000 boards per day. Trace/space: 0.05-0.10 mm. Multi-layer (2-32+). Automated optical inspection on every layer.
 
-### Critical Scale Transitions
+## Critical Scale Transitions
 
 - **Single to double-sided**: Requires electroless copper plating capability — the most chemistry-intensive step. The Pd-Sn catalyst and formaldehyde-based electroless copper bath are sensitive to contamination and require regular analysis and replenishment.
 - **Double to multi-layer**: Requires vacuum laminating press and inner-layer AOI. Registration accuracy must be <0.05 mm across the panel for 4+ layers. Lamination is the bottleneck — each cycle takes 2-4 hours regardless of panel count.
 - **Standard to HDI (High-Density Interconnect)**: Requires laser drilling (UV or CO₂ laser, 0.05-0.15 mm microvias), sequential lamination, and fine-line etching capability. This is a major capability jump — essentially a different manufacturing process.
 
-### Minimum Economic Scale
+## Minimum Economic Scale
 
 A workshop with UV exposure, spray etch tank, and drill press can produce functional PCBs at $5-20 per board (single-sided, 100 × 100 mm) in batches of 10-50. A full production line requires $500K-$5M capital investment and needs >1,000 boards/week to amortize.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -258,7 +258,7 @@ A workshop with UV exposure, spray etch tank, and drill press can produce functi
 | Solder mask peeling | Insufficient surface preparation, undercure | Roughen surface slightly before mask application; verify cure temperature and time |
 | Misregistration between layers | Pin alignment error, laminate movement during press | Use optical alignment targets; check press platen flatness; verify pin fit |
 
-## 8. Safety
+## Safety
 
 - **Etchant chemicals**: Ferric chloride is corrosive (pH <1), stains skin and clothing brown (iron hydrolysis to Fe(OH)₃), and generates HCl fumes. Wear splash goggles, nitrile gloves, and acid-resistant apron. Work in ventilated area. Ammonium persulfate is a strong oxidizer — contact with organic materials can cause fire. Cupric chloride solutions contain dissolved copper — treat as heavy metal waste.
 - **Photoresist chemicals**: Dry film resist contains acrylic polymers, photoinitiators, and solvents (MEK, acetone). Developer and stripper solutions are alkaline (Na₂CO₃, NaOH at 30-60°C). Hot alkali causes chemical burns, especially to eyes. Chemical splash goggles required (not just safety glasses). Monomers in some liquid resists are skin sensitizers.
@@ -267,33 +267,33 @@ A workshop with UV exposure, spray etch tank, and drill press can produce functi
 - **Lamination press**: Hydraulic press at 200-400 psi (14-28 bar) with heated platens at 170-185°C. Pinch hazard from press closure. Burn hazard from heated platens and freshly pressed laminate. Use thermal gloves. Never reach into press during operation. Two-hand safety controls required on production presses.
 - **Laser drilling** (HDI/advanced): UV and CO₂ lasers are Class 4 laser hazards — eye and skin damage. Enclose beam path. Laser safety goggles matched to wavelength. Warning signs and interlocked enclosure doors.
 
-## 9. Quality Control
+## Quality Control
 
-### Incoming Material Inspection
+## Incoming Material Inspection
 - **Laminate**: Measure thickness (micrometer at 9+ points across panel, ±10% of nominal). Visual check for pits, dents, scratches, inclusions in copper. Copper peel strength test (peel 25 mm strip at 90° angle, >1.0 N/mm). Glass transition temperature by TMA or DSC.
 - **Copper foil**: Measure thickness by cross-section (35 ± 3.5 μm for 1 oz). Surface roughness: Rz = 3-10 μm (determines adhesion to laminate).
 
-### In-Process Controls
+## In-Process Controls
 - **Exposure dose**: Measure UV intensity with radiometer before each shift. Verify exposure time gives 100-300 mJ/cm². Stouffer 21-step sensitivity guide on every panel: target step 6-8 developed clear for dry film.
 - **Etch rate check**: Measure copper thickness before and after etch with eddy-current thickness gauge. Verify etch uniformity across panel: ±10% of target trace width.
 - **Plating thickness**: Cross-section and measure plated copper in holes (target 20-25 μm). X-ray fluorescence (XRF) for non-destructive plating thickness measurement on surface.
 - **Registration**: Measure alignment marks on each layer. Misregistration must be <0.05 mm for 4+ layer boards.
 
-### Final Board Inspection
+## Final Board Inspection
 - **Dimensional**: Routed edges ±0.1 mm, hole diameter ±0.05 mm, board outline ±0.13 mm.
 - **Visual**: No shorts, opens, nail heads (drill smear), burrs, delamination, measling (micro-cracks in glass-epoxy), blistering.
 - **Electrical**: 100% net connectivity and isolation test (flying probe or bed-of-nails). Continuity <10 Ω per net, isolation >10 MΩ at 250-500V between all isolated nets.
 - **Microsection** (cross-section): Cut a plated through-hole, mount in epoxy, polish, examine under microscope at 100-500×. Measure: inner copper foil thickness, plated copper thickness, hole wall quality, laminate integrity, drill smear. Perform once per lot or per 100 panels.
 - **Solder float test**: Float specimen on 288°C solder bath for 10 seconds. No delamination or blistering. Tests laminate thermal integrity.
 
-### Standards
+## Standards
 - IPC-6012: Qualification and performance specification for rigid PCBs
 - IPC-A-600: Acceptability of printed circuit boards (visual acceptance criteria)
 - IPC-4101: Specification for base materials (laminate and prepreg)
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Substrate Materials
+## Substrate Materials
 
 | Material | εᵣ | Tg | Cost | Application |
 |----------|-----|-----|------|-------------|
@@ -305,7 +305,7 @@ A workshop with UV exposure, spray etch tank, and drill press can produce functi
 | Aluminum core | — | — | $$ | High-power LED, motor drives (thermal) |
 | Paper/phenolic (FR-2) | 4.5 | — | ¢ | Consumer electronics, calculators, toys |
 
-### PCB Types by Complexity
+## PCB Types by Complexity
 
 | Type | Layers | Typical Use | Bootstrap Sequence |
 |------|--------|-------------|-------------------|
@@ -317,7 +317,7 @@ A workshop with UV exposure, spray etch tank, and drill press can produce functi
 | Flexible (polyimide) | 1-4 | Wearables, connectors | Requires polyimide film and adhesive |
 | Metal core (MCPCB) | 1-2 | LED lighting, motor drives | Aluminum substrate + dielectric layer |
 
-### Bootstrap Path for PCB Fabrication
+## Bootstrap Path for PCB Fabrication
 
 1. **Toner transfer** (Year 25): Laser printer + iron + FeCl₃ etch. Single-sided, 0.3-0.5 mm traces. No plated holes — use wire links for double-sided connections. Adequate for simple microcontroller circuits.
 2. **Photoimageable, single-sided** (Year 28): Dry film resist + UV exposure. Better resolution (0.15-0.20 mm traces). Solder mask. Professional appearance.
@@ -325,7 +325,7 @@ A workshop with UV exposure, spray etch tank, and drill press can produce functi
 4. **Multi-layer** (Year 38): Vacuum laminating press + inner layer AOI. 4-8 layer boards. Required for high-speed digital (impedance control) and complex computing.
 5. **HDI** (Year 50+): Laser drilling + sequential lamination. Fine-line (0.05 mm) with microvias. Required for advanced computing and high-density packaging.
 
-## 11. References
+## References
 
 - **[Electronics Assembly](assembly.md)**: component placement and soldering onto fabricated PCBs
 - **[Passive Components](passive-components.md)**: components mounted on PCBs
@@ -336,6 +336,6 @@ A workshop with UV exposure, spray etch tank, and drill press can produce functi
 - **[CNC Machine Tools](../machine-tools/edm-cnc.md)**: drilling and routing equipment
 - **[Cleanrooms](../photolithography/cleanrooms.md)**: controlled environment for fine-line PCB production
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*
+
+[← Back to Electronics](index.md)

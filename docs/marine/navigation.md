@@ -24,7 +24,7 @@ Marine navigation is the science and craft of determining position and directing
 
 For operational navigation procedures (tide calculations, cargo handling, pilotage methods), see [Water Transport](../transport/shipping.md). This document covers the instruments, techniques, and engineering specifications of navigation systems.
 
-### Coastal Piloting
+## Coastal Piloting
 
 The earliest and most reliable form of navigation. Operates within sight of land using visual references.
 
@@ -59,7 +59,7 @@ The earliest and most reliable form of navigation. Operates within sight of land
 - Unusable in fog, darkness, or heavy rain
 - Requires local knowledge — a stranger to the coast has none
 
-### Celestial Navigation
+## Celestial Navigation
 
 Using celestial bodies to determine position on the open ocean, beyond sight of land.
 
@@ -102,7 +102,7 @@ Using celestial bodies to determine position on the open ocean, beyond sight of 
 - Chronometer method for longitude depends on precision timepiece (not available until 18th century)
 - Accuracy limited to ±1-15 nm depending on instrument
 
-### Navigation Instruments
+## Navigation Instruments
 
 **Magnetic compass**:
 - Magnetized iron needle (or steel wire) pivoting on a jewel bearing, or floating in liquid
@@ -139,7 +139,7 @@ Using celestial bodies to determine position on the open ocean, beyond sight of 
 - Ship typically carries 3 chronometers — majority vote if one drifts
 - Check against radio time signals when available (post-1905)
 
-### Dead Reckoning
+## Dead Reckoning
 
 Estimating current position from a known starting point by tracking course and distance sailed.
 
@@ -161,7 +161,7 @@ Estimating current position from a known starting point by tracking course and d
 - A 1,000 nm voyage with 5% error: position uncertainty of ±50 nm (93 km) at arrival
 - Requires periodic celestial fixes to reset the estimated position
 
-### Chart Making
+## Chart Making
 
 **Coastal surveying**:
 - Station a theodolite or transit at a known point on shore. Measure angles to coastal features.
@@ -192,7 +192,7 @@ Estimating current position from a known starting point by tracking course and d
 - Mercator distortion increases dramatically at high latitudes
 - Printing and reproduction requires [printing capability](../knowledge/printing.md)
 
-### Navigation Accuracy Specifications
+## Navigation Accuracy Specifications
 
 | Instrument | Measurement | Accuracy | Position Error |
 |-----------|-------------|----------|----------------|
@@ -204,7 +204,7 @@ Estimating current position from a known starting point by tracking course and d
 | Magnetic compass | Bearing | ±1-2° (corrected) | ±1-2° course error |
 | Chip log | Speed | ±0.5 knots | Distance ±2-5% |
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Navigation error**: A 1° error in celestial observation produces 60 nm position error. In coastal waters, this can put the vessel on rocks. Always cross-check with depth soundings and visual bearings when available.
 - **Compass failure**: Carry a spare compass. In extremis, magnetize a sewing needle by stroking with silk or through a coil of wire, float it on water on a leaf.
@@ -223,7 +223,7 @@ Estimating current position from a known starting point by tracking course and d
 | Chip log underestimating speed | Line tangling or sandglass inaccurate | Ensure log line runs free; calibrate sandglass against chronometer; average multiple runs |
 | Sextant index error | Mirrors misaligned from handling or temperature | Check index error by observing horizon; adjust mirrors or apply correction to all readings |
 
-### See Also
+## See Also
 
 - [Water Transport](../transport/shipping.md) — navigation operational procedures, piloting, tide calculations
 - [Marine Infrastructure](infrastructure.md) — ports, lighthouses, and navigation aids

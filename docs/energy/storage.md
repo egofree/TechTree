@@ -21,7 +21,7 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 
 ## Technologies & Systems
 
-### Lead-Acid Battery
+## Lead-Acid Battery
 
 **Strengths**:
 - Well-understood chemistry with 160+ years of industrial use
@@ -54,7 +54,7 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 - Determine critical load (W) and required backup time (hours). Calculate required energy: E = P × t (Wh). Battery capacity: C = E / (V × DOD × η), where V = battery voltage, DOD = depth of discharge (maximum 50-80% for lead-acid — deeper discharge shortens life), η = inverter efficiency (~0.85-0.95).
 - Example: 2 kW critical load, 4-hour backup. E = 2000 × 4 = 8000 Wh. At 48V system, 50% DOD, 90% efficiency: C = 8000 / (48 × 0.5 × 0.9) = 370 Ah. This requires ~370 kg of lead-acid batteries (at 25 Wh/kg). Heavy, but achievable.
 
-### Nickel-Iron (Edison) Battery
+## Nickel-Iron (Edison) Battery
 
 **Strengths**:
 - Extremely long cycle life (3,000-10,000+ cycles vs. 300-1,500 for lead-acid)
@@ -73,7 +73,7 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 - **Negative plates**: Iron powder mixed with small amounts of mercury (reduces passivation, improves conductivity) in perforated steel pockets.
 - **Assembly**: Similar to lead-acid — alternating plates with separators in alkaline-resistant container (nickel-plated steel or plastic).
 
-### Mechanical Energy Storage
+## Mechanical Energy Storage
 
 **Pumped hydroelectric storage**:
 - **Principle**: During surplus power, pump water from lower reservoir to upper reservoir (elevation gain). During demand, release water through turbine → generate electricity. Round-trip efficiency: 70-85%.
@@ -94,7 +94,7 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 - **Compressor**: Multi-stage reciprocating or centrifugal compressor. Intercoolers between stages (remove heat of compression → less work required for next stage).
 - **Applications**: Grid-scale energy storage (100+ MWh), industrial compressed air systems (pneumatic tools, actuators, instrument air).
 
-### Energy Diversification
+## Energy Diversification
 
 **Hydroelectric power**:
 - **Resource assessment**: Measure stream/river flow rate (m³/s) and available head (vertical drop, m). Power potential: P = ρ × g × Q × h × η, where Q = flow rate, η = overall efficiency (0.6-0.85). Example: 1 m³/s flow, 10 m head = 1000 × 9.81 × 1 × 10 × 0.75 = ~73.6 kW. Reliable, continuous baseload power.
@@ -114,7 +114,7 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 - Wood gasification (see Petrochemicals): gasifier + internal combustion engine + generator. Fuel: wood chips, agricultural waste, charcoal. 15-25% overall efficiency (biomass energy → electricity). Reliable if fuel supply is consistent. ~1 kg wood → ~1 kWh electricity.
 - **Biogas**: Anaerobic digestion of organic waste (manure, food waste, crop residues) in sealed tank at 30-40°C. Produces biogas (~60% CH₄, ~40% CO₂). Burn in engine or boiler. ~0.3 m³ biogas per kg of organic waste.
 
-### Grid Infrastructure
+## Grid Infrastructure
 
 **Power distribution**:
 - **Transmission**: High voltage (10-100+ kV) reduces line losses (P_loss = I²R — higher voltage = lower current = lower loss for same power). Step up at generator with transformer, step down at load. Three-phase AC transmission (3 conductors, 120° phase separation — most efficient wire utilization). Copper or aluminum conductors on wooden or steel towers.
@@ -151,7 +151,7 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 - Online UPS for semiconductor fabrication equipment (zero transfer time)
 - Pumped hydro for large-scale storage (if geography permits)
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Lead-acid batteries**: Sulfuric acid electrolyte (30-40%) causes severe chemical burns. Wear acid-resistant gloves and eye protection when handling cells. Spills neutralized with baking soda (NaHCO₃). Lead exposure risk during plate manufacturing — wash hands, avoid inhalation of lead oxide dust.
 - **Hydrogen gas explosion**: Charging above 2.4V/cell electrolyzes water, producing H₂ + O₂. Hydrogen is explosive at 4-74% concentration in air. Battery rooms require forced ventilation (minimum 2 air changes/hour), no open flames, explosion-proof electrical fittings.
@@ -160,7 +160,7 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 
 ## Lead-Acid Battery Construction Detail
 
-### Paste Mixing
+## Paste Mixing
 
 The active material for each plate type requires a different paste formulation:
 
@@ -168,7 +168,7 @@ The active material for each plate type requires a different paste formulation:
 - **Negative paste**: Same base (PbO + H₂SO₄ + water) but with expanders added: barium sulfate (BaSO₄, 0.3-1.0% by weight, acts as nucleation sites for lead sulfate crystals during discharge), carbon black (0.1-0.5%, improves conductivity), and lignin or organic expander (0.2-0.6%, prevents sintering of the spongy lead active material during cycling). Without expanders, the negative paste densifies over 100-200 cycles and loses capacity.
 - **Paste application (pasting)**: Feed lead grids through a belt pasting machine. A hopper deposits paste onto the grid, and a roller or trowel presses paste into the lattice openings. Excess paste is scraped off. Pasted plates are flash-dried at 60-80°C for 1-2 hours to develop handling strength. Plate weight after pasting: 2-5 kg per plate depending on size.
 
-### Curing
+## Curing
 
 Freshly pasted plates undergo a controlled curing process that converts the paste from a soft mass into a hard, porous, mechanically robust active material:
 
@@ -177,7 +177,7 @@ Freshly pasted plates undergo a controlled curing process that converts the past
 - **Formation charging**: Cured plates are assembled into cells with dilute electrolyte (SG 1.05-1.10) and connected to a DC power supply. The formation process is a controlled first charge that electrochemically converts the paste: positive plates oxidize to PbO₂ (chocolate brown), negative plates reduce to spongy lead (gray). Formation protocol: 3-stage charging. Stage 1: constant current at C/20 rate (capacity divided by 20 hours) until cell voltage reaches 2.35V. Stage 2: constant voltage at 2.4V per cell, current tapers. Stage 3: finish at 2.5V per cell until specific gravity stabilizes and gas evolution is steady. Total formation time: 24-72 hours depending on plate thickness.
 - **Electrolyte**: After formation, electrolyte is adjusted to its operating specific gravity: 1.25-1.28 SG (30-40% H₂SO₄ by weight) for flooded lead-acid batteries. The acid concentration corresponds to approximately 4.2-4.5 molar H₂SO₄. Freezing point of fully charged electrolyte (SG 1.28): approximately -70°C. Discharged electrolyte (SG 1.12): freezes near -10°C, a critical winter failure mode for undercharged batteries.
 
-### Performance Specifications
+## Performance Specifications
 
 - **Specific energy**: 30-40 Wh/kg (flooded), 25-35 Wh/kg (deep-cycle with thicker plates). A 12V, 100 Ah automotive battery weighs approximately 25-30 kg.
 - **Cycle life**: 200-500 cycles for automotive starting batteries (thin plates, optimized for high current bursts not deep cycling). 500-1500 cycles for deep-cycle traction batteries (thick plates, 3-5 mm active material, designed for 80% depth of discharge). Cycle life degrades sharply below 20% state of charge, where irreversible lead sulfate crystallization (sulfation) accelerates.
@@ -197,7 +197,7 @@ The nickel-iron cell, patented by Thomas Edison in 1901, uses rugged materials s
 - **Overcharge/overdischarge tolerance**: The nickel-iron cell can be overcharged indefinitely (excess current electrolyzes water, but the electrodes are not damaged) and can be fully discharged to 0V without permanent damage. This makes the battery nearly indestructible in service, a major advantage for remote or unattended installations.
 - **Disadvantage**: High self-discharge (20-40% per month). Not suitable for standby applications where the battery sits idle for months. Best used in daily cycling applications (solar off-grid, traction, mine locomotives) where the battery is continuously charged and discharged.
 
-### Battery Bank Configuration
+## Battery Bank Configuration
 
 Individual cells are connected in series and parallel to achieve the required system voltage and capacity:
 
@@ -206,7 +206,7 @@ Individual cells are connected in series and parallel to achieve the required sy
 - **Series-parallel**: For a 48V, 200 Ah system: two parallel strings of 24 series-connected 2V, 100 Ah cells. Total: 48 cells, weight approximately 800-1000 kg for lead-acid.
 - **Battery room requirements**: Level floor capable of supporting 500-1500 kg/m² (battery racks are heavy). Temperature maintained at 20-25°C (capacity drops ~1% per °C below 25°C; life drops ~50% for every 8°C sustained above 25°C). Forced ventilation at minimum 2 air changes per hour for hydrogen removal. Acid-resistant flooring (epoxy paint or ceramic tile) with a containment berm to catch electrolyte spills. No open flames, no spark-producing equipment within the battery room.
 
-### Charging System Design
+## Charging System Design
 
 Battery charging requires a DC power source matched to the battery bank voltage and capacity:
 
@@ -214,9 +214,8 @@ Battery charging requires a DC power source matched to the battery bank voltage 
 - **Temperature compensation**: Lead-acid charge voltage must decrease by 3-4 mV per cell per °C above 25°C (and increase by the same amount below 25°C). Without compensation, a battery at 40°C will be overcharged at the 25°C voltage setting, accelerating water loss and grid corrosion. Most commercial chargers include a temperature probe that plugs into the battery and adjusts voltage automatically.
 - **Equalizing charge**: Performed monthly on flooded lead-acid batteries to reverse stratification (dense acid settles to the bottom of the cell, dilute acid floats to the top). Apply 2.5V per cell (30V for a 24-cell 48V bank) for 2-4 hours after reaching full charge. The elevated voltage drives gas evolution, which physically mixes the electrolyte. Specific gravity should be measured in each cell after equalizing and should read within 0.020 of the average. Cells more than 0.030 below average may be failing.
 
----
 
-### Limitations
+## Limitations
 
 - **Lead-acid weight**: At 25-35 Wh/kg, large backup banks are extremely heavy (370 kg for a 2 kW, 4-hour system). Not viable for mobile applications beyond forklifts and mine locomotives.
 - **Lead-acid cycle life**: 200-500 cycles for automotive batteries, 500-1500 for deep-cycle. At one cycle per day, a deep-cycle bank lasts 1.5-4 years before replacement.

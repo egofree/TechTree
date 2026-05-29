@@ -28,7 +28,7 @@
 
 ## Process Description
 
-### Education System
+## Education System
 
 **[Apprenticeships](../glossary/apprenticeships.md)** (Foundations+):
 - Duration: 4-7 years per skill. Apprentice works under master, learning by doing. Start with simple tasks → progress to complex. Master evaluates and certifies competency.
@@ -62,7 +62,7 @@
 - University-level education requires substantial infrastructure (library, laboratories, qualified faculty) that takes years to build
 - Curriculum design requires foresight about future technology needs — a curriculum optimized for current technology may under-prepare graduates for emerging fields
 
-### Guild Structure & Apprenticeship System
+## Guild Structure & Apprenticeship System
 
 **[The guild model](../glossary/the-guild-model.md)** (proven over centuries of European craft training):
 - **[Apprentice](../glossary/apprentice.md)** (years 1-7): Bound by contract to a master. Lives in the master's household or workshop. Performs menial tasks initially (sweeping, material preparation, tool maintenance) while observing the master at work. Gradually gains hands-on experience with supervised tasks. Keeps a notebook of observations, recipes, and measurements. The master provides food, lodging, basic literacy instruction, and trade training. The apprentice (or apprentice's family) may pay a premium (fee) for the training.
@@ -85,7 +85,7 @@
 - Trade secrets are protected from outsiders — this restricts knowledge flow and can cause permanent skill loss if a guild collapses
 - Guild pricing and quality standards can become monopolistic, suppressing innovation and excluding new entrants who cannot afford the apprenticeship premium
 
-### Technical School Models
+## Technical School Models
 
 **[Ecole Polytechnique](../glossary/ecole-polytechnique.md)** (Paris, founded 1794):
 - Created to address France's shortage of trained engineers and scientists after the Revolution. Standardized, rigorous, meritocratic admission (competitive examination — no aristocratic preference). Curriculum: mathematics (advanced calculus, differential equations, descriptive geometry), physics, chemistry, mechanics, drawing. Duration: 3 years. Graduates entered government service as engineers (bridges, roads, artillery, mines, naval construction).
@@ -112,7 +112,7 @@
 - Laboratory instruction consumes materials and equipment (chemicals, metal stock, broken tools) — ongoing consumable costs are significant
 - Cooperative education requires existing industry partners with capacity to host students — not available until industrial production reaches minimum scale
 
-### Textbook Design Principles
+## Textbook Design Principles
 
 **Structure for learning**:
 - **Prerequisites stated explicitly**: Each chapter begins with a list of knowledge and skills the reader must already possess. This prevents the reader from starting a topic they lack the foundation for, which leads to frustration and misunderstanding.
@@ -136,7 +136,7 @@
 - Textbook content becomes outdated as technology advances — requires periodic revision (every 5-10 years) to stay current
 - Printed textbooks require [Printing](printing.md) infrastructure — hand-copied manuscripts cannot serve a school of 20+ students practically
 
-### Assessment & Competency Verification
+## Assessment & Competency Verification
 
 **Practical exams**: Demonstrate skill under observation.
 - Blacksmithing: forge a specified tool to dimension (e.g., a 25 mm cold chisel from medium-carbon steel — evaluate: dimensional accuracy ±1 mm, edge hardness, heat treatment quality, handle fit).
@@ -160,7 +160,7 @@
 - Oral examinations require experienced examiners who can formulate probing follow-up questions — a scarce resource in early bootstrap
 - Written examinations test theoretical knowledge but do not verify that the candidate can apply it in the workshop — a separate practical test is always needed
 
-### Libraries & Archives
+## Libraries & Archives
 
 **Central library requirements**:
 - Fireproof construction (stone or brick walls, vaulted ceiling, iron doors). No open flames. Lightning protection.
@@ -182,7 +182,7 @@
 | Acidic paper (groundwood) | 50-100 years | Yellowing, brittleness |
 | Microfilm | 100-500 years | Requires reader |
 
-### Digital Knowledge Storage
+## Digital Knowledge Storage
 - Once semiconductor capability exists, transition critical knowledge to digital format.
 - **Encoding**: Binary representation of text (ASCII or UTF-8), images, and data.
 - **Storage media progression**: Magnetic tape → floppy disk → hard drive → optical disc → flash memory.
@@ -190,7 +190,7 @@
 - **Format longevity**: Use open, well-documented file formats (plain text, CSV, TIFF). Avoid proprietary formats that may become unreadable.
 - **Self-documenting**: Include file format specification with every archive. A future reader must be able to decode the format without external references.
 
-### Safety & Competency
+## Safety & Competency
 
 **Safety training curriculum**:
 - **Shop safety**: Eye protection mandatory for all machining, grinding, chipping. No loose clothing or jewelry near rotating machinery. Lockout/tagout before maintenance (physically disconnect power, attach tag). Fire extinguisher training (sand bucket for metal fires, water for wood/paper, CO₂ or dry chemical for electrical and oil fires). First aid for cuts, burns, eye injuries.
@@ -201,14 +201,14 @@
 - **Practical exams**: Demonstrate skill under observation. Blacksmithing: forge a specified tool to dimension. Machining: turn a shaft to ±0.05 mm tolerance. Chemistry: prepare a solution of specified molarity and titrate to verify. Welding: produce test joint, inspect for penetration and porosity.
 - **Journeyman testing**: After apprenticeship, produce a "master piece" — a complete, functional artifact demonstrating full command of the trade. Evaluated by two or more masters. Pass = independent practitioner certification. Fail = continue apprenticeship. Standard ensures quality across the civilization.
 
-### Continuing Education & Professional Development
+## Continuing Education & Professional Development
 
 **Knowledge does not stop at certification**:
 - **Refresher training**: Even experienced practitioners need periodic review. Techniques improve, materials change, safety understanding evolves. Schedule annual refresher sessions (1-2 days) for each trade — review new methods, discuss recent failures and lessons learned, practice infrequently-used but critical skills.
 - **Cross-training**: Specialists in one field benefit from exposure to related fields. A machinist who understands basic metallurgy makes better decisions about cutting speeds and tool selection. A chemist who has spent time in a glassblowing workshop designs better apparatus. Schedule cross-training visits: one week per year, each practitioner works in a different department or workshop.
 - **Journal clubs and technical societies**: Groups of practitioners meet regularly (monthly) to discuss new technical publications, share experimental results, and debate methods. The society format (membership, elected officers, regular meetings, published proceedings) creates a professional community that sustains and advances knowledge beyond any single workshop or institution.
 
-### Teacher Training & Pedagogical Methods
+## Teacher Training & Pedagogical Methods
 
 **Training the trainers**:
 - Not every skilled practitioner can teach effectively — teaching is itself a skill that must be trained. The best practitioners often make mediocre instructors because they cannot remember what it was like not to know the subject (the "curse of expertise"). Deliberate teacher training addresses this.
@@ -216,7 +216,7 @@
 - **Teacher preparation**: Before teaching a new topic, the instructor should: (1) review the subject matter (ensure their own knowledge is current and complete), (2) prepare a lesson plan with objectives, key concepts, demonstration steps, exercises, and assessment criteria, (3) gather all materials and equipment needed for demonstrations and practice, (4) anticipate safety hazards specific to the lesson and prepare controls, (5) prepare a written handout summarizing key points and procedures — students can refer to this during practice and after the lesson.
 - **Socratic method for technical reasoning**: Instead of telling students the answer, ask questions that lead them to discover it. "What happens if we increase the carbon content above 0.8% in steel?" → student must reason from the iron-carbon phase diagram → deeper understanding than memorizing "hypereutectoid steel." This method requires more time but produces practitioners who can reason about novel situations rather than merely following recipes.
 
-### Workshop Layout for Education
+## Workshop Layout for Education
 
 **Training workshop design**:
 - **Demonstration area**: Elevated platform or raised bench where the instructor performs demonstrations visible to all students. Lighting: bright, shadow-free (overhead fixtures plus focused task light). Mirror or video display for small-scale operations (e.g., watchmaking, electronics soldering) where direct observation is difficult.
@@ -225,7 +225,7 @@
 - **Safety stations**: Eyewash, first aid kit, fire extinguisher, and emergency shutoff (for powered equipment) at clearly marked, universally accessible locations in every training workshop. No workstation more than 10 m from a safety station. Post safety rules prominently at every station.
 - **Material storage**: Stock raw materials (metal bar, sheet, rod; wood blanks; chemical reagents) in a separate storage room — not at the workstations. Issue materials against a requisition for each exercise. This teaches material planning, prevents waste, and controls consumption costs.
 
-### Historical Technical Education Examples
+## Historical Technical Education Examples
 
 **[Roman engineering training](../glossary/roman-engineering-training.md)** (Republic and Empire, ~300 BCE - 400 CE):
 - Roman engineers (*architecti* and *fabri*) were trained through a combination of military service and apprenticeship. The Roman army's engineering corps built roads, bridges, aqueducts, fortifications, and siege works — every legion included specialist engineers. Training was practical: young officers learned surveying (groma for right angles, chorobates for leveling), materials (concrete: hydraulic lime + pozzolana sand), structural design (arches, vaults, dome construction), and hydraulics (aqueduct gradient: typically 0.1-0.3% for gravity flow, calculated by surveying instruments). Vitruvius's *De Architectura* (~25 BCE) codified Roman engineering knowledge in ten books covering materials, construction methods, water supply, timekeeping, and military machines — a technical textbook that survived the fall of Rome through monastic copying.
@@ -236,14 +236,14 @@
 **[German technical education](../glossary/german-technical-education.md)** (19th century model):
 - **[Technische Hochschulen](../glossary/technische-hochschulen.md)** (Technical Universities): The German model (Charlottenburg/Berlin 1879, Aachen 1870, Munich 1868) combined the theoretical rigor of universities with the practical focus of trade schools. Professors were both researchers and experienced practitioners. Curriculum: 4 years, alternating theoretical semesters with industrial placements. Graduate thesis: a substantial engineering project, not a purely academic dissertation. This model produced the engineers who built Germany's chemical, electrical, and heavy industries — and was copied worldwide (Tokyo Institute of Technology 1881, Carnegie Institute of Technology 1900).
 
-### Practical Workshop Assessment
+## Practical Workshop Assessment
 
 **[Timed practical exams](../glossary/timed-practical-exams.md)** — standardized tasks with explicit pass/fail criteria:
 - **Welding**: Weld a 6 mm steel plate tee-joint in 15 minutes meeting visual inspection criteria — no undercut exceeding 0.8 mm depth, no porosity visible at 10× magnification, weld reinforcement (crown height) between 0.5-3.0 mm above parent metal surface. Destructive testing on sample coupons: face bend test to 180° with no cracks exceeding 3 mm in weld metal or heat-affected zone.
 - **Machining**: Turn a steel shaft to 25.00 ±0.02 mm diameter × 100 mm length in 30 minutes. Evaluate with micrometer at three points along the length — all three readings must fall within tolerance. Surface finish: visual and tactile comparison to 1.6 μm Ra standard sample. Concentricity between two diameters: dial indicator reading ≤0.03 mm total indicator runout.
 - **Transformer winding**: Wind a transformer with a specified turns ratio of 10:1 (primary 200 turns, secondary 20 turns) to ±2% accuracy on a laminated iron core. Test: apply known AC voltage to primary, measure secondary voltage, calculate turns ratio from voltage ratio. Resistance check: measured winding resistance within 10% of calculated value for the wire gauge used.
 
-### Documentation Standards for Technical Knowledge
+## Documentation Standards for Technical Knowledge
 
 **[Procedure format](../glossary/procedure-format.md)** — every technical process documented in a standardized structure:
 1. **Title and identification**: Process name, document number, revision date, author
@@ -256,7 +256,7 @@
 8. **Troubleshooting table**: Symptom, probable cause, corrective action format (e.g., "Dimensional oversize by 0.05-0.10 mm → tool wear → replace insert and re-machine; chatter marks → insufficient rigidity → tighten work holding")
 9. **Revision history**: Date, author, description of change — enables traceability when a procedure is modified
 
-### Knowledge Transfer Metrics
+## Knowledge Transfer Metrics
 
 **[Time to competency](../glossary/time-to-competency.md)** — measured in supervised practice hours:
 - **[Basic machining](../glossary/basic-machining.md)** (lathe, mill, drill press operations): 200-400 hours supervised practice to achieve independent operation capability. This includes: tool sharpening (20 hours), basic turning (80 hours), milling and drilling (60 hours), measurement and inspection (40 hours), simple project work (100-200 hours integrating all skills). Competency assessment: produce a specified part to drawing tolerance without instructor intervention.
@@ -278,9 +278,8 @@
 - Complex manual skills degrade to 70-80% of peak after 12 months without practice — mandatory refresher training consumes instructor time and workshop capacity
 - Cross-disciplinary synthesis is valuable but requires additional training time — encouraging secondary skills extends the already lengthy training timeline
 
----
 
-### Cross-Domain Dependencies
+## Cross-Domain Dependencies
 
 - Education requires [Writing](../knowledge/writing.md) for documentation. Trains practitioners for [Machine Tools](../machine-tools/iterative-bootstrap.md), [Metals](../metals/iron-steel.md), [Ceramics](../ceramics/pottery.md), [Textiles](../textiles/weaving.md). Uses [Printing](../knowledge/printing.md) textbooks.
 
@@ -299,6 +298,6 @@
 - [Machine Tools](../machine-tools/iterative-bootstrap.md) — the primary technical skill set requiring education
 - [Measurement](../measurement/precision-metrology.md) — precision skills taught in technical education
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*
+
+[← Back to Knowledge](index.md)

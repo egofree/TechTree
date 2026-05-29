@@ -63,7 +63,7 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 - **Primary use**: Water pumping (drainage of lowlands, polders). Scoop wheel or Archimedes screw driven by wind via gear train.
 - **Common in**: Netherlands, East Anglia (England). Some drove sawmills or oil presses instead.
 
-### Sail and Blade Design
+## Sail and Blade Design
 
 **[Common sail](../glossary/common-sail.md)** (cloth on wooden frame — standard for centuries):
 - **Frame**: Wooden lattice of spruce or pine, ~1.0-1.5 m wide × 5-12 m long per sail. 4-8 horizontal bars (sail bars) connected to main stock (longitudinal beam bolted to windshaft).
@@ -79,7 +79,7 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 **[Patent sail](../glossary/patent-sail.md)** (spring sail variant with hinged flaps):
 - Each shutter pivots on a central axis. Connected via rods to adjustable spider on windshaft. Allows variable pitch from inside mill — like a giant throttle. Most advanced traditional sail type.
 
-### Wind Speed Measurement and Site Assessment
+## Wind Speed Measurement and Site Assessment
 
 **[Anemometer](../glossary/anemometer.md)** (cup anemometer, 1846 — but simpler methods suffice):
 - **Basic method**: Wind vane for direction. Beaufort scale estimation by observation (leaves rustle = 1-2 m/s, small branches move = 3-5 m/s, small trees sway = 6-8 m/s, large branches move = 9-12 m/s).
@@ -88,7 +88,7 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 - **Terrain effects**: Ridge tops and hilltops accelerate wind (speed-up factor 1.2-1.8×). Valleys channel wind along axis. Forests and buildings create turbulence — site at least 10× height of upwind obstacles away.
 - **Prevailing wind**: Determine dominant wind direction(s). Mill must face into prevailing wind for maximum operating hours. Record wind direction with simple vane and counting board.
 
-### Mechanical Power Transmission
+## Mechanical Power Transmission
 
 **[Gear train](../glossary/gear-train.md)** (wooden gears — standard technology):
 - **Windshaft to vertical shaft**: Brake wheel (large crown gear, 1.5-3 m diameter, cast iron or oak with wooden teeth) on horizontal windshaft meshes with wallower (lantern gear — two flanged discs connected by wooden or iron staves) on vertical main shaft. Gear ratio typically 5:1 to 8:1 — converts slow sail rotation (10-25 RPM) to faster stone speed (60-150 RPM).
@@ -97,7 +97,7 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 - **Sack hoist**: Auxiliary drive from upright shaft via belt or chain to lift grain sacks to top of mill. Saves enormous manual labor.
 - **Brake**: Large wooden brake blocks clamping the brake wheel rim. Operated by lever from inside mill. Essential — must stop mill in storms or emergencies.
 
-### Wind Pump (Water Pumping)
+## Wind Pump (Water Pumping)
 
 **[Farm wind pump](../glossary/farm-wind-pump.md)** (American water-pumping windmill — 1854 onward, but buildable with iron-age technology):
 - **Rotor**: Multi-bladed (12-24) steel or wooden vanes on 3-8 m diameter wheel. High starting torque (many blades) — essential for starting a loaded pump. Low tip-speed ratio (~1.0) optimized for torque, not speed.
@@ -106,7 +106,7 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 - **Overspeed protection**: Tail vane hinged with spring or counterweight. Excessive wind pushes rotor out of wind (furling). Returns automatically when wind drops.
 - **Critical for**: Drinking water, livestock watering, small-scale irrigation, drainage. Runs unattended for days. No fuel required.
 
-### Construction Sequence
+## Construction Sequence
 
 1. **Select site**: Elevated, unobstructed, prevailing wind direction. Measure wind for months if possible.
 2. **Build tower/foundation**: Stone or timber. Must withstand full wind load on furled sails — worst case. Guy wires or struts for post mill.
@@ -116,7 +116,7 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 6. **Connect to load**: Millstones, saw, pump, or generator.
 7. **Install brake and storm protection**: Non-negotiable. Uncontrolled runaway mill destroys itself in minutes.
 
-### Wind Power Parameters (Quick Reference)
+## Wind Power Parameters (Quick Reference)
 
 | Parameter | Post Mill | Tower Mill | Wind Pump |
 |-----------|-----------|------------|-----------|
@@ -129,16 +129,15 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 | Useful wind range | 5-14 m/s | 5-18 m/s | 3-12 m/s |
 | Primary load | Grain milling | Multi-purpose | Water pumping |
 
----
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Structural failure**: Windmill towers and rotors are subject to extreme forces in high winds. Overspeed in storms can destroy rotors and throw debris hundreds of meters. Furling mechanism (turns rotor out of wind) or brakes must be functional. Never approach a windmill in high winds.
 - **Height hazards**: Windmill towers require climbing for maintenance. Fall protection needed. Ladders with rest platforms every 10m. Never climb in icy or high-wind conditions.
 - **Rotating machinery**: Windmill main shaft, gear train, and machinery move with significant force. Guard all rotating components. Disconnect or brake before maintenance.
 - **Lightning**: Tall windmill towers attract lightning. Ground the structure. Do not approach during electrical storms.
 
-### Blade and Sail Construction Detail
+## Blade and Sail Construction Detail
 
 **Wooden frame sail**: The traditional windmill sail is built around a spruce spar (the main longitudinal member), typically 50 × 75 mm cross-section for a 5 m blade length. Horizontal sail bars (roughly 25 × 50 mm, spaced 400-600 mm apart) are mortised through or bolted to the spar, creating a ladder-like frame. Canvas or hemp sailcloth is laced or nailed to this frame. The cloth is tensioned with ropes threaded through grommets, allowing the miller to adjust the camber (belly) of the sail. Angle of attack is set at 5-15° relative to the plane of rotation and can be adjusted by spring or counterweight mechanisms that allow the sail to feather (turn parallel to the wind) in gusts.
 
@@ -146,7 +145,7 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 
 **Spring-loaded regulation**: The spring sail (invented 1772) replaces canvas with wooden shutters hinged along their top edge. Each shutter is connected by iron linkage rods to a longitudinal batten, which is spring-loaded. When wind pressure on a shutter exceeds the spring tension, the shutter opens, spilling excess air. The spring tension is adjustable from inside the mill, so the miller can regulate speed without stopping or climbing the sails. Response time: 1-2 seconds.
 
-### Tower Mill Construction
+## Tower Mill Construction
 
 **Tower structure**: A brick or stone tower 8-15 m tall, tapering from 4-8 m diameter at the base to 3-5 m at the cap curb (the circular track on which the cap rotates). Wall thickness: 0.3-0.6 m at the base, thinning to 0.2-0.4 m at the top. The tower must be plumb and the cap curb perfectly level and circular for smooth cap rotation. Brick towers used English bond or Flemish bond for structural strength. Stone towers used dressed ashlar or rubble masonry with lime mortar.
 
@@ -154,7 +153,7 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 
 **Wooden gear mechanism inside the tower**: The brake wheel (large crown gear, 1.5-3 m diameter) is mounted on the horizontal windshaft. It meshes with the wallower (a lantern pinion) on the vertical upright shaft. Below, the great spur wheel (another large crown gear on the upright shaft) drives the stone nuts (smaller gear wheels directly above each pair of millstones). Each stone nut can be engaged or disengaged independently via a tampian bar (lighting gear), allowing the miller to run one, two, or three pairs of stones depending on available wind power.
 
-### Water Pumping Windmill Detail
+## Water Pumping Windmill Detail
 
 **Halladay pattern (1854)**: The classic American farm windmill, designed by Daniel Halladay. The multiblade rotor consists of 15-30 flat or slightly curved steel (or wooden) vanes mounted on a lattice frame. Rotor diameter 3-8 m. The high number of blades gives a high starting torque, essential for starting a reciprocating pump under load. Low tip-speed ratio (~1.0, compared to 5-7 for electricity-generating rotors) means the wheel turns slowly but powerfully.
 
@@ -164,7 +163,7 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 
 **Overspeed protection**: The tail vane is hinged and spring-loaded. In normal wind, the tail holds the rotor perpendicular to the wind. When wind speed exceeds the safe operating range (typically 12-15 m/s), the wind force on the offset rotor pushes the rotor out of the wind (furling), reducing the swept area presented to the wind. The spring tension determines the furling speed. The rotor returns to face the wind automatically when the wind drops.
 
-### Wind Resource Assessment
+## Wind Resource Assessment
 
 **Power in the wind**: The fundamental relationship is P = 0.5 × ρ × A × v³ × Cp. Air density ρ = 1.225 kg/m³ at sea level and 15°C (decreasing with altitude and temperature). The cubic dependence on wind speed means small increases in wind speed produce large increases in power. A site with 8 m/s average wind delivers (8/5)³ = 4.1× the power of a 5 m/s site.
 
@@ -174,7 +173,7 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 
 **Wind measurement protocol**: Measure wind speed at the proposed hub height for at least 3-12 months using a cup anemometer and data logger. Shorter measurement periods risk missing seasonal variations. Compare measurements against a nearby long-term reference station to correct for atypical years. The economic viability of a wind power installation depends critically on the actual wind resource, which cannot be estimated reliably from maps or casual observation.
 
-### Storm Protection Methods
+## Storm Protection Methods
 
 **Turning sails parallel to wind**: The oldest method of storm protection. In a post mill, the miller turns the entire mill body so the sail frame faces edge-on to the wind. In a tower mill, the cap is rotated to point the sails away from the wind. This must be done before the storm arrives. Once the wind is at storm force, manual rotation becomes impossible.
 
@@ -182,13 +181,13 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 
 **Mechanical brake band**: A friction brake (wooden or iron brake blocks clamping the brake wheel rim) provides positive stopping. The brake is operated by a lever inside the mill, typically with a screw or ratchet mechanism to hold it engaged. The brake must be strong enough to hold the windshaft stationary in a full gale with furled sails. If the brake fails and the sails are caught in a storm, the only recourse is to cut the sail frames away with axes before the mill destroys itself.
 
-### Blade and Sail Construction Detail
+## Blade and Sail Construction Detail
 
 **Wooden frame sail**: The traditional sail is built around a spruce spar (50 × 75 mm cross-section for a 5 m blade). Horizontal sail bars (25 × 50 mm, spaced 400-600 mm) are mortised through the spar, creating a ladder-like frame. Canvas or hemp sailcloth is laced to this frame and tensioned with ropes through grommets. Angle of attack: 5-15° relative to the rotation plane, adjustable by spring or counterweight mechanisms that feather the sail in gusts.
 
 **Sailcloth**: Standard hemp or flax canvas, 0.4-0.6 kg/m², lasts 2-5 years before UV degradation. Tarred canvas lasts longer but is heavier and stiffer. Must be kept dry when idle to prevent rot.
 
-### Tower Mill Construction
+## Tower Mill Construction
 
 **Tower structure**: Brick or stone, 8-15 m tall, tapering from 4-8 m diameter at base to 3-5 m at the cap curb. Wall thickness: 0.3-0.6 m at base, thinning to 0.2-0.4 m at top. The cap curb must be perfectly level and circular for smooth cap rotation.
 
@@ -196,7 +195,7 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 
 **Internal gear train**: Brake wheel (crown gear, 1.5-3 m diameter) on the windshaft meshes with the wallower (lantern pinion) on the upright shaft. The great spur wheel on the upright shaft drives stone nuts above each pair of millstones. Each stone nut engages or disengages independently, letting the miller run 1-3 pairs of stones depending on wind power.
 
-### Water Pumping Windmill (Halladay Pattern)
+## Water Pumping Windmill (Halladay Pattern)
 
 **Multiblade rotor**: 15-30 flat or slightly curved vanes on a lattice frame, 3-8 m diameter. High blade count gives high starting torque for starting a loaded pump. Low tip-speed ratio (~1.0) optimized for torque, not speed. Starts reliably in 3 m/s wind.
 
@@ -204,7 +203,7 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 
 **Overspeed protection**: Hinged tail vane with spring. Wind force on the offset rotor pushes it out of the wind above 12-15 m/s (furling). Returns automatically when wind drops.
 
-### Wind Resource Assessment
+## Wind Resource Assessment
 
 **Power formula**: P = 0.5 × ρ × A × v³ × Cp. Air density ρ = 1.225 kg/m³ at sea level, 15°C. The cubic dependence on wind speed means an 8 m/s site delivers (8/5)³ = 4.1× the power of a 5 m/s site.
 
@@ -220,7 +219,7 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 
 **Anemometer calibration**: Cup anemometers require calibration against a known standard. A simple field method: mount the anemometer on a vehicle driven at constant speed on a calm day, recording rotation rate versus vehicle speed. Factor in vehicle speedometer error. Periodic recalibration ensures data reliability for investment decisions.
 
-### Limitations
+## Limitations
 
 - **Intermittency**: Wind is variable and unpredictable. Capacity factors typically 20-40% — a 1 MW turbine produces 0.2-0.4 MW on average. Requires energy storage or backup generation.
 - **Site dependency**: Wind resources vary dramatically by location. Good sites require annual average wind speeds >6 m/s at hub height. Detailed wind survey (12+ months) needed before investment.

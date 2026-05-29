@@ -8,7 +8,7 @@
 > **Outputs**: honey, beeswax, propolis, pollination_services
 > **Critical**: yes
 
-## 1. Overview
+## Overview
 
 Beekeeping (apiculture) is the managed cultivation of honey bees (*Apis mellifera*) for honey, beeswax, propolis, and pollination services. Honey bees are the only domesticated insect — they require no feeding (they forage), produce multiple high-value materials, and provide pollination that increases crop yields 20-30% on average. A single well-managed hive yields 10-25 kg honey and 0.5-2 kg beeswax per year while supporting agriculture within a 1-2 km foraging radius.
 
@@ -28,7 +28,7 @@ The species *Apis mellifera* (Western honey bee) is the primary managed bee worl
 | Nectar foraging radius | 1-2 km typical | Up to 5 km in scarce conditions |
 | Foraging trips per bee per day | 10-15 trips | 50-100 flowers per trip |
 
-## 2. Prerequisites
+## Prerequisites
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -41,7 +41,7 @@ The species *Apis mellifera* (Western honey bee) is the primary managed bee worl
 | Access to flowering vegetation | [`foundations.food-agriculture`](../foundations/food-agriculture.md) | Nectar and pollen sources within 2 km |
 | Metalworking (optional, for frame hives) | [`metals.copper-bronze`](../metals/copper-bronze.md) | For precision tools (wire, nails, hinges) |
 
-## 3. Materials per Hive
+## Materials per Hive
 
 Materials listed per single hive unit. Quantities vary by hive type.
 
@@ -57,9 +57,9 @@ Materials listed per single hive unit. Quantities vary by hive type.
 | Smoker fuel | 0.5-1 kg per inspection | Dried plant material | Wood chips, burlap, pine needles |
 | Wire (for frame hives) | 2-3 m per frame | [`metals.copper-bronze`](../metals/copper-bronze.md) | Embed in foundation for comb support |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Log Hive Beekeeping
+## 4.1 Log Hive Beekeeping
 
 **Principle**: A hollow tree trunk section provides a natural cavity that mimics the wild bee nest environment. Bees build comb freely inside. This is the oldest form of managed beekeeping — humans have harvested honey from log hives for at least 10,000 years (evidence from cave paintings in Valencia, Spain, dated ~8000 BCE).
 
@@ -91,7 +91,7 @@ Materials listed per single hive unit. Quantities vary by hive type.
 - Heavy and difficult to move once occupied
 - Comb is attached to walls — cannot remove individual combs
 
-### 4.2 Skep Beekeeping
+## 4.2 Skep Beekeeping
 
 **Principle**: An inverted woven basket provides a lightweight, portable hive enclosure. Bees attach comb directly to the interior walls. Skeps were the dominant hive type in northern Europe from the early Middle Ages through the 1800s. Still used for swarm collection.
 
@@ -122,7 +122,7 @@ Materials listed per single hive unit. Quantities vary by hive type.
 - No internal structure — cannot inspect individual combs
 - Illegal in some jurisdictions (cannot inspect for disease)
 
-### 4.3 Top-Bar Hive Beekeeping
+## 4.3 Top-Bar Hive Beekeeping
 
 **Principle**: A horizontal trough with removable wooden bars across the top allows bees to build comb downward from each bar. Individual bars can be lifted for non-destructive inspection and harvest. This is the recommended intermediate technology for bootstrap beekeeping — it provides modern management capability without precision woodworking.
 
@@ -155,7 +155,7 @@ Materials listed per single hive unit. Quantities vary by hive type.
 - Requires sawn lumber (more processed material than logs or baskets)
 - Comb must be cut from bars during harvest (crush-and-strain method)
 
-### 4.4 Frame Hive Beekeeping (Langstroth)
+## 4.4 Frame Hive Beekeeping (Langstroth)
 
 **Principle**: Stackable rectangular boxes (supers) with precisely spaced removable frames. The critical innovation is "bee space" (7-9 mm) — bees respect this gap and do not glue surfaces together with propolis or comb. Frames hold foundation sheets embossed with hexagonal cell pattern (5.2-5.4 mm cell diameter) that guides comb construction. This enables non-destructive extraction via centrifugal force, comb reuse, and easy colony inspection.
 
@@ -187,7 +187,7 @@ Materials listed per single hive unit. Quantities vary by hive type.
 - Heavier to lift when full (a deep super with honey weighs 30-35 kg)
 - Cell size on foundation may not match natural bee preferences (potential impact on varroa resistance)
 
-### 4.5 Colony Management
+## 4.5 Colony Management
 
 **Principle**: Honey bee colonies are superorganisms that self-regulate temperature, humidity, and brood production. Management consists of providing space, preventing swarming, monitoring health, and ensuring adequate winter stores. The beekeeper works with — not against — colony instincts.
 
@@ -222,7 +222,7 @@ The queen is 20-25 mm long (longer than workers at 12-15 mm), with a tapered abd
 - Swarm prevention requires timely intervention — missing by even a few days can result in swarm loss
 - Colony splitting reduces honey yield in the split year (both halves rebuild)
 
-### 4.6 Honey Harvesting and Extraction
+## 4.6 Honey Harvesting and Extraction
 
 **Principle**: Honey is ripe when bees cap cells with wax at moisture content below 20%. Harvesting removes capped honey while returning empty comb (in frame hives) or cutting comb (in top-bar/log/skep hives). Smoke masks alarm pheromone and triggers feeding response, making bees docile.
 
@@ -277,7 +277,7 @@ The queen is 20-25 mm long (longer than workers at 12-15 mm), with a tapered abd
 - Honey moisture must be monitored — fermented honey is unsuitable for storage
 - Processing leaves residual wax and propolis that require cleanup
 
-### 4.7 Beeswax Processing
+## 4.7 Beeswax Processing
 
 **Principle**: Beeswax (melting point 62-64°C, density 0.95 g/cm³) is less dense than water and floats when melted. Rendering separates wax from comb debris by melting in water and skimming the solidified wax cake. Multiple melting and filtering cycles increase purity.
 
@@ -308,9 +308,9 @@ The queen is 20-25 mm long (longer than workers at 12-15 mm), with a tapered abd
 - Brood comb wax contains impurities requiring extra purification steps
 - Wax is flammable (flash point ~210°C) — requires temperature control during rendering
 
-## 5. Species-Specific Data
+## Species-Specific Data
 
-### Apis mellifera Biological Parameters
+## Apis mellifera Biological Parameters
 
 | Parameter | Value | Source/Basis |
 |-----------|-------|--------------|
@@ -331,7 +331,7 @@ The queen is 20-25 mm long (longer than workers at 12-15 mm), with a tapered abd
 | Nectar load per trip | 30-40 mg | Approximately 25-50% of body weight |
 | Pollen load per trip | 10-20 mg | Carried in corbiculae (pollen baskets) on hind legs |
 
-### Climate Adaptation by Subspecies
+## Climate Adaptation by Subspecies
 
 | Subspecies | Climate Zone | Winter Hardiness | Swarming Tendency | Temperament |
 |------------|-------------|------------------|-------------------|-------------|
@@ -341,7 +341,7 @@ The queen is 20-25 mm long (longer than workers at 12-15 mm), with a tapered abd
 | *A. m. caucasica* (Caucasian) | Mountain/temperate | Good | Low | Gentle |
 | *A. m. scutellata* (African) | Tropical/subtropical | Poor (absconds) | High | Defensive |
 
-### Yield Expectations by Region and Hive Type
+## Yield Expectations by Region and Hive Type
 
 | Region | Nectar Season Length | Top-Bar Yield | Frame Hive Yield | Notes |
 |--------|---------------------|---------------|------------------|-------|
@@ -351,42 +351,42 @@ The queen is 20-25 mm long (longer than workers at 12-15 mm), with a tapered abd
 | Subtropical | 8-10 months | 15-25 kg | 25-40 kg | Nearly year-round foraging |
 | Tropical | Year-round | 10-20 kg | 15-30 kg | *A. mellifera* competes with native *Apis* spp. |
 
-## 6. Seasonal Calendar
+## Seasonal Calendar
 
-### Spring (Colony Buildup)
+## Spring (Colony Buildup)
 
 First inspection when temperature exceeds 15°C. Check for queen presence (eggs and young larvae present). Assess food stores — feed sugar syrup (1:1 sugar:water by weight) if stores are low before nectar flow begins. Add supers or bars as population expands. Monitor for swarm cells (queen cups on comb bottom edges) and split colonies or add space to prevent swarming. Replace old or damaged comb. Entrance reducer open to medium setting as temperatures rise. Pollen availability drives brood production — protein from pollen is essential for larval development. A colony consumes 15-30 kg pollen per year.
 
 **Timing**: Weeks 10-22 (March-May, Northern Hemisphere). Nectar flow begins with early spring bloom (willow, dandelion, fruit trees).
 
-### Summer (Honey Flow)
+## Summer (Honey Flow)
 
 Peak nectar collection period. Add supers ahead of colony needs (bees need space to store incoming nectar). Inspect every 7-10 days for swarm signs, queen health, and disease. Harvest honey when frames are 80%+ capped. Maintain water source. In hot climates, provide shade or ventilation to prevent bees from expending energy on hive cooling rather than foraging. Monitor for robbing behavior (bees from other colonies stealing honey) — reduce entrance if robbing is observed. Queen may slow laying during extreme heat.
 
 **Timing**: Weeks 22-35 (June-August). Main nectar flow from clover, basswood/linden, wildflowers. Second harvest possible in late summer.
 
-### Autumn (Preparation)
+## Autumn (Preparation)
 
 Final honey harvest — leave 15-20 kg honey on the hive for winter food. Assess colony strength; combine weak colonies. Treat for [varroa mites](../glossary/varroa-destructor.md) if present (primary bee parasite — monitoring and treatment essential). Reduce entrance size to prevent robbing by other bees and wasp intrusion. Install mouse guard at hive entrance. Ensure hive is weather-tight. Tilt hive slightly forward (2-3°) so rainwater drains out rather than pooling on the floor board. Remove queen excluders if used — the cluster must be able to move upward through the hive during winter.
 
 **Timing**: Weeks 35-44 (September-October). Nectar flow ends. Goldenrod and aster may provide late flow.
 
-### Winter (Dormancy)
+## Winter (Dormancy)
 
 Minimal intervention. Bees form a tight cluster around the queen, maintaining 20-35°C at cluster center by vibrating flight muscles. The cluster slowly moves upward through the honey stores over winter. Do not open hive below 10°C — breaking the cluster exposes brood to cold and wastes energy. Heft hive periodically to estimate remaining honey stores by weight (a full deep frame weighs ~3.5 kg, empty ~0.5 kg — experienced beekeepers can judge stores by tilting the hive from the back). If dangerously light, feed fondant or candy board on top bars (not liquid syrup — bees cannot evaporate moisture in cold weather). Clear dead bees from entrance to maintain ventilation. Check for animal damage (woodpeckers, mice). Ensure hive is not exposed to persistent cold wind.
 
 **Timing**: Weeks 44-10 (November-February). Colony consumes 15-20 kg honey for heating energy. Winter mortality rate: 10-30% in managed colonies (varroa-related losses account for most).
 
-## 7. Products and Applications
+## Products and Applications
 
-### Honey
+## Honey
 
 - **Food**: 3,030 kcal/kg energy density. Primarily fructose (38%) and glucose (31%), with water (17-20%), maltose (7%), and trace minerals/vitamins. Requires no preparation — eat directly.
 - **Wound treatment**: Osmotic effect draws moisture from bacteria (dehydrating them). Glucose oxidase enzyme produces low levels of hydrogen peroxide (antiseptic). Low pH (3.2-4.5) inhibits microbial growth. Apply medical-grade honey directly to wounds — Manuka-type honey (high methylglyoxal content) is particularly effective. See [`health.medicine`](../health/medicine.md).
 - **Mead fermentation**: 1 kg honey + 4 L water + yeast (*Saccharomyces cerevisiae*) → ~5 L mead at 8-12% ABV. Fermentation time: 2-6 weeks at 18-22°C. Honey's antimicrobial properties require adequate yeast pitching and nutrient supplements (fermentation nutrients, or add fruit juice for tannins and acids). Mead is the oldest fermented beverage — evidence dates to 7000 BCE in China.
 - **Preservative**: High osmotic pressure and low pH preserve fruits, herbs, and meats when immersed in honey.
 
-### Beeswax
+## Beeswax
 
 (melting point 62-64°C, density 0.95 g/cm³)
 
@@ -399,19 +399,19 @@ Minimal intervention. Bees form a tight cluster around the queen, maintaining 20
 - **Dental temporary fillings**: Wax plug seals cavities temporarily — softens at body temperature, molds to cavity shape.
 - **Sealant**: Wax seals on jars, letters, containers. Takes impressions well when warm.
 
-### Propolis
+## Propolis
 
 Resin mixture collected by bees from tree buds (especially poplar and birch), mixed with beeswax and enzymes. Bees use it to seal gaps and sterilize the hive interior. Antimicrobial (flavonoids, caffeic acid phenethyl ester). Human applications: wound treatment (antibacterial/antifungal), wood varnish (hard, water-resistant finish), tincture (propolis dissolved in alcohol for medicinal use — see [`health.pharmacology`](../health/pharmacology.md)). Yield: 50-100 g per hive per year.
 
-### Royal Jelly (Advanced)
+## Royal Jelly (Advanced)
 
 Secreted by nurse bees, fed exclusively to queen larvae. Nutritional supplement — contains proteins, fatty acids, B vitamins. Harvest requires specialized queen-rearing techniques. Limited yield and high labor.
 
-### Venom (Advanced)
+## Venom (Advanced)
 
 Bee venom (apitoxin) contains melittin (50% of dry weight), phospholipase A₂, and hyaluronidase. Used in immunotherapy for bee sting allergy (desensitization protocols). Collection requires electric stimulus frames. Yield: ~0.1 μg venom per bee per stimulation.
 
-## 8. Pollination Services
+## Pollination Services
 
 A single honey bee colony forages within a 1-2 km radius from the hive (up to 5 km in scarce conditions). Each forager makes 10-15 trips per day, visiting 50-100 flowers per trip. A strong colony deploys 15,000-30,000 foragers per day during peak season. Pollination increases yields in [`crop rotation`](../agriculture/crop-rotation.md) systems and is essential for [`seed saving`](../agriculture/seed-saving.md) in many species.
 
@@ -427,32 +427,32 @@ Position hives 50-100 m from crop boundary. Shelter from prevailing wind. Mornin
 
 **Scale estimate**: At 2-4 hives per hectare of orchard, pollination services increase fruit yield by 80-90%. Revenue from pollination contracts often exceeds honey revenue for commercial beekeepers (typical pollination fee: $50-150 USD per hive per season for almond pollination in California).
 
-## 9. Bootstrap Sequence
+## Bootstrap Sequence
 
 1. **Log hive / tree colony** (Year 0-2): Harvest honey from wild colonies in hollow trees. Observe bee behavior. Learn to use smoke. Minimal investment — follow bees to their nests, cut out comb. Establish first managed log hives near settlements. Risk: destructive harvest weakens or kills colonies.
 2. **Skep beekeeping** (Year 2-5): Construct woven skeps. Bait and capture swarms. Learn seasonal management by observation. Harvest by cutting comb — accept colony losses. Begin rendering beeswax. Multiply colonies by collecting multiple swarms each spring.
 3. **Top-bar hive** (Year 5-8): Construct top-bar hives from sawn lumber. Transfer colonies from skeps. Non-destructive inspection enables disease monitoring and swarm prevention. Honey yields double. Begin systematic pollination of adjacent crops. Select calm colonies for breeding.
 4. **Frame hive with extraction** (Year 8-10+): Precision woodworking enables Langstroth-style frame hives. Centrifugal extractor preserves comb. Multiple supers per colony. Maximum yield. Queen rearing and colony multiplication under control. Pollination contracts for agriculture. Full product range (honey, wax, propolis) at commercial scale.
 
-## 10. Safety
+## Safety
 
-### Bee Stings
+## Bee Stings
 
 Each sting delivers 50-140 μg venom (apitoxin). Pain response is immediate (melittin damages cell membranes). Remove stinger promptly by scraping sideways with a fingernail or hive tool (pinching injects more venom from the attached venom sac, which continues pulsing for 2-3 minutes after detachment). Lethal dose: approximately 10 stings per kg body weight (500-700 stings for a 70 kg adult). Most healthy adults tolerate 10-20 stings without systemic effects beyond local swelling lasting 24-48 hours. Beekeepers develop tolerance over repeated exposure — higher baseline IgG blocks allergic response.
 
-### Anaphylaxis
+## Anaphylaxis
 
 1-3% of the population is hypersensitive to bee venom (IgE-mediated). Symptoms: generalized hives, throat swelling, difficulty breathing, rapid pulse, drop in blood pressure. Onset within 5-30 minutes. Fatal if untreated (airway obstruction or cardiovascular collapse). Treatment: epinephrine auto-injector (0.3 mg IM for adults, 0.15 mg for children) injected into outer thigh. Second dose after 5-15 minutes if symptoms persist. Emergency medical attention required even after epinephrine — biphasic reactions recur 4-12 hours later in 20% of cases. Anyone keeping bees should identify hypersensitive individuals in the household and keep an emergency plan.
 
-### Smoke Inhalation
+## Smoke Inhalation
 
 Smoker fuel produces carbon monoxide and particulate matter. Use in well-ventilated outdoor areas only. Avoid inhaling smoke directly — position yourself upwind. Never use synthetic materials as smoker fuel (plastics, rubber) — toxic fumes harm bees and beekeeper. Symptoms of CO exposure: headache, dizziness, nausea at 100-200 ppm; loss of consciousness at 600-700 ppm.
 
-### Falls from Height
+## Falls from Height
 
 Log hives positioned 1-3 m above ground in trees require ladder access. Inspect ladder condition before each use. Maintain three points of contact when climbing. Work with a partner when accessing elevated hives. A fall from 2 m onto hard ground causes fractures in 10-15% of cases.
 
-### Protective Equipment
+## Protective Equipment
 
 - **Veil**: Mesh hood preventing stings to face and neck — the most critical protection. Bees target the face and breath (CO₂ attracts them). Round veil (Elizabethan style) or folding veil attached to a hat.
 - **Gloves**: Leather or canvas, reaching to elbow. Cuff should overlap with sleeve. Experienced beekeepers often work without gloves for dexterity, accepting occasional stings.
@@ -460,7 +460,7 @@ Log hives positioned 1-3 m above ground in trees require ladder access. Inspect 
 - **Hive tool**: Flat steel bar (20-25 cm) for prying apart frames glued together with propolis. Never force frames — pry gently at multiple points. Also used for scraping propolis and wax buildup.
 - **Suit or coveralls**: Light-colored (bees are less defensive around light colors — dark colors resemble predators like bears), smooth fabric (bees snag on wool and become agitated). Tuck pants into boots or secure with straps to prevent bees crawling up legs.
 
-### Apiary Safety Practices
+## Apiary Safety Practices
 
 - Work hives during midday (10:00-15:00) when most foragers are away from the hive.
 - Move slowly and deliberately — rapid movements trigger defensive response.
@@ -471,7 +471,7 @@ Log hives positioned 1-3 m above ground in trees require ladder access. Inspect 
 - Inspect hives every 7-10 days during active season for signs of disease (foulbrood, nosema, chalkbrood) or queen failure.
 - Maintain apiary hygiene: sterilize tools between hives using lye solution or flame, replace old comb every 3-5 years to reduce pathogen buildup.
 
-## 11. Cross-Domain Links
+## Cross-Domain Links
 
 - [`foundations.fire`](../foundations/fire.md) — smoker fuel and fire for wax melting
 - [`metals.copper-bronze`](../metals/copper-bronze.md) — lost-wax investment casting using beeswax patterns
@@ -482,5 +482,5 @@ Log hives positioned 1-3 m above ground in trees require ladder access. Inspect 
 - [`agriculture.crop-rotation`](../agriculture/crop-rotation.md) — pollination services increase crop yields
 - [`agriculture.seed-saving`](../agriculture/seed-saving.md) — bee pollination essential for seed production in many crops
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Animals](index.md)

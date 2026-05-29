@@ -45,7 +45,7 @@ Fulling cleans, shrinks, and felts woven cloth. The process transforms a loose, 
 - Fulling stocks require water wheel or steam power for the cam shaft
 - Incomplete rinsing leaves chalky residue that stiffens fabric and attracts dirt
 
-### Napping (Raising)
+## Napping (Raising)
 
 Napping pulls fiber ends to the surface of the cloth, creating a soft, fuzzy pile. This improves insulation (trapped air in the nap) and gives the fabric a warmer hand feel.
 
@@ -58,7 +58,7 @@ Napping pulls fiber ends to the surface of the cloth, creating a soft, fuzzy pil
 - Steel wire cards (hooked wire teeth set in a rubber or canvas backing) replace teazles. More durable and consistent than teazles, but harsher on fibers. Wire raising can break delicate fibers if the wire angle or pressure is set incorrectly.
 - Wire raising is standard in modern finishing. Card clothing with 20-40 wire points per cm² in various wire profiles (straight, curved, sawtooth) for different fabric types and nap heights.
 
-### Calendering
+## Calendering
 
 Calendering presses cloth between heavy rollers under heat and pressure to produce a smooth, polished surface. The rollers compress the fabric, flatten yarn irregularities, and create a sheen.
 
@@ -85,7 +85,7 @@ Calendering presses cloth between heavy rollers under heat and pressure to produ
 - Calender finishes are not permanent — washing and wear diminish glazed and embossed effects
 - Roller temperature must be uniform across full width or finish is uneven edge-to-edge
 
-### Singeing
+## Singeing
 
 Loose fiber ends on the cloth surface create a fuzzy appearance that accepts dye unevenly and attracts dirt. Singeing burns these protruding fibers off by passing the fabric rapidly over a gas flame or between heated plates. The process reduces surface hairiness by 70-90%, producing a cleaner, smoother surface.
 
@@ -100,7 +100,7 @@ Loose fiber ends on the cloth surface create a fuzzy appearance that accepts dye
 **[Desizing](../glossary/desizing.md)** (usually follows singeing):
 - Warp yarns are coated with size (starch, PVA, or other adhesive) during weaving to strengthen them. After weaving, the size must be removed so the fabric can absorb dyes and finishing chemicals. Desizing dissolves or degrades the size by enzymatic action (amylase enzyme for starch, 60-70°C, pH 6-7, 4-8 hours), acid hydrolysis (dilute H₂SO₄, 0.5-1%, 50-60°C), or oxidation (hydrogen peroxide).
 
-### Mercerization
+## Mercerization
 
 Mercerization treats cotton with concentrated sodium hydroxide (NaOH) solution under tension. The treatment swells the cotton fibers, changing their cross-section from kidney-shaped to round. This increases luster, tensile strength (20-30% improvement), and dye affinity (dyes penetrate more readily and produce deeper shades).
 
@@ -127,7 +127,7 @@ Mercerization treats cotton with concentrated sodium hydroxide (NaOH) solution u
 - Must treat fabric under tension at 15-20°C — chain stenter is a 20-40 m long machine
 - Without tension, fabric shrinks 20-25% and becomes weaker (slack mercerization)
 
-### Waterproofing
+## Waterproofing
 
 Wool and cotton absorb water readily (cotton holds up to 25% of its weight in water). Waterproofing treatments prevent water penetration while allowing the fabric to flex and breathe to varying degrees.
 
@@ -146,7 +146,7 @@ Wool and cotton absorb water readily (cotton holds up to 25% of its weight in wa
 - Vulcanization (adding sulfur, 2-4% by weight of rubber, plus heat at 140-160°C) cross-links the rubber polymer chains, improving elasticity, strength, and temperature resistance. Unvulcanized rubber becomes sticky in heat and brittle in cold.
 - Mackintosh rainwear (1823) used rubber-coated fabric sandwiched between two layers of wool. The rubber layer made it fully waterproof but the early unvulcanized rubber deteriorated quickly. Vulcanized rubber coatings (post-1840) were far more durable.
 
-### Fireproofing
+## Fireproofing
 
 Cellulose fibers (cotton, linen) and protein fibers (wool, silk) burn. Fireproofing treatments retard ignition and slow flame spread, buying time for escape. No treatment makes fabric completely fireproof; they make it flame-resistant.
 
@@ -160,7 +160,7 @@ Cellulose fibers (cotton, linen) and protein fibers (wool, silk) burn. Fireproof
 - DAP treatment is durable through 10-15 washes. It does not affect fabric hand (feel) significantly. Cost is low (DAP is a common fertilizer ingredient).
 - Not suitable for fabrics that contact skin for long periods (slight skin irritation from residual phosphate). Used for curtains, upholstery, stage curtains, and tentage.
 
-### Finishing Sequence Summary
+## Finishing Sequence Summary
 
 The typical finishing sequence differs for each fiber type, because each fiber responds differently to the various processes. Getting the sequence right is critical: many finishing steps are irreversible.
 
@@ -184,7 +184,7 @@ The typical finishing sequence differs for each fiber type, because each fiber r
 8. Shearing → trims nap to uniform height
 9. Calendering or pressing → produces final surface finish
 
-### Dyeing Interaction with Finishing
+## Dyeing Interaction with Finishing
 
 The finishing sequence interacts with dyeing in important ways. Getting the order wrong wastes both time and materials. A typical finishing sequence for cotton is: singe → desize → scour → bleach → mercerize → dye → finish (calender, stenter). For wool: full → bleach → dye → finish (napping, calender).
 
@@ -193,7 +193,7 @@ The finishing sequence interacts with dyeing in important ways. Getting the orde
 - **Mercerize before dyeing** (for cotton): mercerization increases dye affinity by 20-40%. Mercerized cotton accepts dye more deeply and produces brighter shades from the same dye concentration. The savings in dye cost alone can justify the expense of mercerization for fabrics destined for deep or bright colors.
 - **Bleach before dyeing**: bleaching removes natural pigments that would shift the final dye shade. Even dark-colored fabrics benefit from bleaching because residual yellow pigments in unbleached cotton shift blue dyes toward green and red dyes toward brown.
 
-### Bleaching
+## Bleaching
 
 Bleaching removes the natural color of fibers (yellowish in cotton, brownish in linen, creamy in wool) to produce a white base that accepts dyes more predictably. Even fabrics destined for dark colors benefit from bleaching because residual natural pigments can shift the final shade unpredictably.
 
@@ -206,7 +206,7 @@ Bleaching removes the natural color of fibers (yellowish in cotton, brownish in 
 - Wool is more sensitive to alkali than cotton (alkali dissolves the cystine cross-links in wool keratin, weakening the fiber), so hydrogen peroxide is used at lower temperature (50-60°C) and near-neutral pH (8-9) with a reduced dwell time (30-45 minutes). Over-bleaching degrades the wool fiber, causing yellowing and loss of tensile strength (10-20% strength loss is the maximum acceptable penalty).
 - Alternative: sulfur dioxide (SO₂) gas stoving. Wool is exposed to SO₂ gas in a sealed chamber for 4-12 hours. The sulfur dioxide reduces colored impurities (a reductive bleach, as opposed to peroxide which is oxidative). Less damaging than peroxide but requires gas handling (SO₂ is toxic, TLV 2 ppm, and produces sulfurous acid on contact with moist mucous membranes) and produces a less permanent white (the yellowing returns over months with light exposure).
 
-### Stentering and Heat Setting
+## Stentering and Heat Setting
 
 After wet processing (fulling, bleaching, dyeing, mercerization), fabric is tensioned and dried to its final dimensions. Stentering pins the fabric edge to a chain that travels through a heated chamber, holding the fabric flat and at the correct width while moisture evaporates. This is the step that sets the final fabric width and length, preventing later shrinkage in washing or wear.
 
@@ -215,14 +215,14 @@ After wet processing (fulling, bleaching, dyeing, mercerization), fabric is tens
 - Overfeed: the fabric is fed into the stenter 2-5% faster than the chain speed, allowing it to relax lengthwise while being held at width. This reduces residual tension and minimizes later shrinkage in washing. A fabric that is stentered without overfeed will shrink 3-5% in the first wash; with proper overfeed, shrinkage is reduced to 1-2%.
 - Heat setting (for synthetic fabrics like polyester and nylon): heating above the glass transition temperature (polyester Tg ~70°C, Nylon Tg ~50°C) but below the melting point (polyester Tm ~260°C, Nylon Tm ~220°C) allows the polymer chains to relax into a stable configuration. The fabric "remembers" the dimensions it held during cooling, resisting shrinkage and wrinkling in subsequent use and washing.
 
-### Decating
+## Decating
 
 Decating is a finishing process for wool fabrics that sets the surface and improves luster and handle. The fabric is wound under tension onto a perforated drum, and steam is passed through the fabric layer for 5-15 minutes. The combination of moisture, heat, and pressure sets the nap direction and gives the fabric a smooth, stable surface that resists wrinkling and holds its shape during wear.
 
 - Continuous decating: fabric passes between a heated cylinder (200-250°C, 300-500 mm diameter) and a pressing belt (endless felt or rubber belt, 3-5 mm thick). Steam is injected at the nip point. Speed: 10-30 m/min. Used for worsted suitings and dress fabrics where a permanent set is required.
 - Batch decating: fabric is wound onto a perforated stainless steel drum (400-600 mm diameter) and steamed in a pressure vessel at 100-120°C for 10-20 minutes. More effective than continuous decating for heavy fabrics because the longer steam exposure penetrates the full fabric thickness. Produces a permanent set because the wool fibers are plasticized by steam and re-form disulfide bonds in their new configuration as they cool and dry.
 
-### Key Deliverables
+## Key Deliverables
 
 - Fulling and napping for wool fabric densification and insulation
 - Calendering for smooth, finished surfaces (glazing, embossing, Schreiner)

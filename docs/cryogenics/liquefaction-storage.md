@@ -8,11 +8,10 @@
 > **Outputs**: cryogenic_storage, liquid_gases, dewar_vessels, cold_boxes
 > **Critical**: No — cryogenic storage is the most efficient bulk gas delivery method but compressed gas cylinders are an alternative
 
-### Overview
 
 Gas liquefaction converts atmospheric gases into compact, dense liquids for storage, transport, and use. Liquid nitrogen (LIN) at -196°C has 694× the density of gaseous N₂ at STP; liquid oxygen (LOX) at -183°C is 860× denser than gaseous O₂. This density advantage makes cryogenic storage the only practical method for supplying thousands of tonnes of gas per year to a semiconductor fabrication facility. This file covers the engineering of liquefaction systems, storage vessels (dewars), cold box insulation, and cryogenic fluid handling.
 
-### Gas Properties at Cryogenic Conditions
+## Gas Properties at Cryogenic Conditions
 
 | Property | LIN (-196°C, 77 K) | LOX (-183°C, 90 K) | LAR (-186°C, 87 K) | LH₂ (-253°C, 20 K) | LHe (-269°C, 4.2 K) |
 |----------|-------------------:|--------------------:|--------------------:|--------------------:|---------------------:|
@@ -28,7 +27,7 @@ Gas liquefaction converts atmospheric gases into compact, dense liquids for stor
 
 **Sensible heat vs latent heat**: Cooling 1 kg of gaseous nitrogen from +20°C to -196°C requires approximately 410 kJ of heat removal (sensible heat). Condensing 1 kg of gaseous nitrogen at -196°C to liquid requires 199 kJ (latent heat). The total energy to liquefy nitrogen from ambient gas is thus ~610 kJ/kg (0.17 kWh/kg). Real liquefaction plants consume 0.5-1.2 kWh/kg due to thermodynamic irreversibilities.
 
-### Dewar Vessel Design
+## Dewar Vessel Design
 
 A dewar (named after Sir James Dewar, who invented the vacuum flask in 1892) is a double-walled vessel with vacuum between the walls to minimize heat transfer to the cryogenic liquid.
 
@@ -68,7 +67,7 @@ The evaporation loss decreases with tank size because heat leak is proportional 
 - Vacuum integrity is the single point of failure — a leak into the insulation space increases heat leak by 100-1000×, causing rapid pressure rise and emergency venting
 - Support design is a compromise between mechanical stiffness (resist seismic/shipping loads) and thermal conductivity (minimize heat leak) — thin fiberglass straps are fragile
 
-### Cold Box Insulation Systems
+## Cold Box Insulation Systems
 
 **Perlite insulation**: The workhorse of large cryogenic installations. Expanded perlite is a lightweight, inorganic granular material produced by heating volcanic glass until it expands (pops like popcorn) to 10-20× its original volume.
 
@@ -97,7 +96,7 @@ The evaporation loss decreases with tank size because heat leak is proportional 
 - MLI must be wrapped by hand with 10-60 layers per cm, each layer smooth and overlapping — extremely labor-intensive and any wrinkle creates a thermal short circuit
 - Perlite settles 10-20% over 10 years from vibration and thermal cycling, creating uninsulated gaps at the top that must be topped up during maintenance outages
 
-### Vacuum Systems for Cryogenic Insulation
+## Vacuum Systems for Cryogenic Insulation
 
 Maintaining vacuum in the insulation space is essential for both MLI and vacuum powder insulation.
 
@@ -120,7 +119,7 @@ Maintaining vacuum in the insulation space is essential for both MLI and vacuum 
 - Outgassing from internal surfaces (primarily water vapor) extends pumpdown time to 12-48 hours — baking at 80-120°C accelerates the process but adds complexity
 - Vacuum monitoring gauges (Pirani, thermocouple) drift over time and require annual calibration; a failed gauge means undetected vacuum degradation
 
-### Liquefaction Cycles
+## Liquefaction Cycles
 
 **Nitrogen liquefier (standard Claude cycle)**: The most common standalone liquefier, producing LIN at -196°C for distribution.
 
@@ -153,7 +152,7 @@ Maintaining vacuum in the insulation space is essential for both MLI and vacuum 
 - Helium liquefaction (Collins cycle) requires liquid nitrogen pre-cooling and multiple expansion engines — specific energy of 30-100 kWh/kg is 60-200× higher than nitrogen liquefaction
 - Collins cycle complexity (two expansion engines, LN₂ pre-cooling bath, J-T valve) limits reliability — a single component failure stops liquid production
 
-### Cryogenic Transfer Systems
+## Cryogenic Transfer Systems
 
 **Vacuum-insulated transfer lines**: Rigid or flexible piping for moving cryogenic liquids between vessels. Inner tube: stainless steel. Outer tube: stainless steel. Vacuum space between, with MLI wrapping on the inner tube. Bayonet connections at each end for quick connect/disconnect. Typical heat leak: 0.5-2 W/m of line length.
 
@@ -171,7 +170,7 @@ Maintaining vacuum in the insulation space is essential for both MLI and vacuum 
 - Extended-stem cryogenic valves require 0.5-2 m stems to keep the packing gland above 0°C — long stems are flexible and prone to vibration at high flow rates
 - Submerged cryogenic centrifugal pumps cannot be maintained without warming the dewar to ambient temperature and draining the liquid — pump failure means loss of product during warm-up
 
-### Fill and Transfer Operations
+## Fill and Transfer Operations
 
 **Fill procedures**: Transferring cryogenic liquid from a supply dewar to a receiving vessel:
 
@@ -189,7 +188,7 @@ Maintaining vacuum in the insulation space is essential for both MLI and vacuum 
 - 5-15% fill loss from flash evaporation is unavoidable for ambient-temperature receivers — each transfer wastes product proportional to the vessel's thermal mass
 - Venting cryogenic boiloff in enclosed spaces creates oxygen deficiency risk — all vents must be routed outdoors above roof level
 
-### Pressure Relief and Safety Systems
+## Pressure Relief and Safety Systems
 
 **Relief valves**: Every cryogenic vessel must have at least one pressure relief device sized to handle the maximum possible heat input. If the vacuum is lost on an MLI-insulated dewar, heat leak increases by 100-1000×, causing rapid evaporation and pressure rise. The relief valve must be able to vent the resulting vapor flow at a pressure below the vessel's MAWP.
 
@@ -207,7 +206,7 @@ Maintaining vacuum in the insulation space is essential for both MLI and vacuum 
 - Burst disc rupture is non-resetting — the disc must be replaced, requiring vessel warm-up and product loss
 - Relief valve sizing must account for vacuum loss scenario (100-1000× heat leak increase), requiring oversized valves that are expensive and add heat leak through the valve body
 
-### Transport and Distribution
+## Transport and Distribution
 
 **Road tankers**: Vacuum-insulated tankers with 10,000-25,000 L capacity. Double-walled stainless steel construction with vacuum + MLI insulation. Evaporation loss during transport: <0.5%/day. The tanker is a horizontal cylindrical pressure vessel on a truck chassis, equipped with a cryogenic pump for discharge. Discharge rate: 200-500 L/min. A full tanker delivers ~7,000-17,000 Nm³ of gaseous nitrogen (after vaporization) — enough for 1-3 days of supply at a small fab.
 
@@ -223,7 +222,7 @@ Maintaining vacuum in the insulation space is essential for both MLI and vacuum 
 - Frost buildup on ambient vaporizer fins reduces effectiveness within hours, requiring alternating pairs (one operating, one thawing) and doubling the installed equipment
 - Steam-heated vaporizers introduce an energy dependency (steam supply) and thermal stress from the large temperature gradient across tube walls
 
-### Material Compatibility
+## Material Compatibility
 
 **Materials suitable for cryogenic service**:
 - **Stainless steel 304/304L/316/316L**: Fully austenitic, remains ductile to -270°C. Standard for all cryogenic vessels, piping, and fittings.
@@ -246,7 +245,7 @@ Maintaining vacuum in the insulation space is essential for both MLI and vacuum 
 - Carbon steel and cast iron become catastrophically brittle below -20°C — accidental substitution in cryogenic service causes immediate fracture risk
 - 9% nickel steel requires careful welding with nickel-based filler metal — standard carbon steel welding procedures produce brittle joints
 
-### Cryogenic Safety Equipment and Procedures
+## Cryogenic Safety Equipment and Procedures
 
 **Personal protective equipment (PPE)**:
 - **Insulated gloves**: Loose-fitting so they can be thrown off quickly if cryogenic liquid splashes inside. Leather or specialized cryogenic gloves. Never use rubber or plastic — cryogenic liquid penetrates and freezes the material to the skin.
@@ -273,7 +272,7 @@ Maintaining vacuum in the insulation space is essential for both MLI and vacuum 
 - Electrochemical O₂ sensor cells drift over time and have 1-2 year service life — quarterly calibration is mandatory but often neglected in practice
 - A full dewar with blocked relief valve will pressurize to burst disc rating within hours to days — there is no graceful degradation, only a binary transition from safe to explosive
 
-### Liquid Hydrogen and Liquid Helium (Advanced)
+## Liquid Hydrogen and Liquid Helium (Advanced)
 
 Beyond the common industrial gases (N₂, O₂, Ar), cryogenic technology extends to much lower temperatures:
 
@@ -289,7 +288,7 @@ Beyond the common industrial gases (N₂, O₂, Ar), cryogenic technology extend
 - LH₂ has an extremely wide flammable range (4-75% in air) with invisible flames — leaks are undetectable by human senses and ignition sources are ubiquitous
 - LHe costs $5-30/liter due to specific energy of 30-100 kWh/kg — boiloff recovery and reliquefaction is economically mandatory, adding system complexity
 
-### Limitations
+## Limitations
 
 - **Energy intensity**: Liquefying nitrogen requires 0.5-1.2 kWh/kg — roughly 10× the energy to produce the same mass as compressed gas. Cryogenic storage is economical only when the storage density or distribution advantages outweigh the energy penalty.
 - **Boiloff losses**: Even the best insulation cannot completely stop heat leak. Long-term storage always involves evaporative losses (0.1-3%/day). Products that cannot tolerate any loss (e.g., rare gases like krypton and xenon) are stored as compressed gas rather than cryogenic liquid.
@@ -304,7 +303,7 @@ Beyond the common industrial gases (N₂, O₂, Ar), cryogenic technology extend
 - Liquefaction energy of 0.5-1.2 kWh/kg is ~10× the energy to produce the same mass as compressed gas — only justified when storage density or distribution advantages outweigh the penalty
 - Boiloff losses of 0.1-3%/day are unavoidable — rare gases (Kr, Xe) must be stored as compressed gas because their value makes any loss unacceptable
 
-### See Also
+## See Also
 
 - **[Refrigeration Fundamentals](refrigeration.md)**: Thermodynamic cycles for achieving cryogenic temperatures
 - **[Cryogenic Air Separation](air-separation.md)**: Claude cycle integration and distillation at cryogenic temperatures
@@ -312,6 +311,6 @@ Beyond the common industrial gases (N₂, O₂, Ar), cryogenic technology extend
 - **[Basic Gas Handling](../gas-handling/basic.md)**: Gas cylinders, piping, and distribution at ambient temperature
 - **[Vacuum Technology](../gas-handling/vacuum.md)**: Vacuum pumps and measurement for insulation systems
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Cryogenics](./index.md) • [All Domains](../index.md)*
+
+[← Back to cryogenics](index.md)

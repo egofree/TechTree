@@ -8,7 +8,7 @@
 > **Timeline**: Years 15-30
 > **Outputs**: generators, motors, transformers, wire_cables, electricity, insulated_wire, clean_power_systems, ups_systems, backup_generators, power_distribution_units, electric_arc_furnaces, resistance_heaters, eaf_steel, internal_combustion_engines, ...
 
-### Electricity Generation
+## Electricity Generation
 
 **Strengths**:
 - Voltaic piles provide the first electrical source — no moving parts, works with basic materials (copper, zinc, brine)
@@ -55,15 +55,15 @@
 - **[AC system](../glossary/ac-system.md)** (Westinghouse/Tesla): 110-220V AC, stepped up to 1000-10000V for transmission, stepped down at load. Much longer range. Requires alternators and transformers. Eventually wins.
 - **Wire sizing**: Copper wire, sized by current capacity. Rule of thumb: 3-5 A per mm² of cross-section for acceptable heating. Example: 10 A load at 110V over 100 m needs ~6 mm² wire (≈ 2.8 mm diameter) to keep voltage drop under 5%.
 
-### Electric Furnaces
+## Electric Furnaces
 
 Electric arc furnaces, submerged arc furnaces, and resistance heating furnaces are covered in detail in [electric-furnaces.md](electric-furnaces.md), including construction, operation, power requirements, and electrode manufacturing. Electrode manufacturing specifics are in [electrode-manufacturing.md](electrode-manufacturing.md).
 
-### Internal Combustion Engines
+## Internal Combustion Engines
 
 Otto-cycle piston engines, diesel engines, and their critical components (cylinders, pistons, crankshafts, carburetors, ignition systems) are covered in detail in [engine.md](engine.md). Power-to-weight ratios and aviation applications are discussed in [aviation.md](../transport/aviation.md).
 
-### Electrolysis Foundations
+## Electrolysis Foundations
 
 **Electrolytic cells**:
 - **Principle**: Pass DC current through ionic solution or molten salt → chemical decomposition at electrodes. Anode (+) attracts anions (oxidation). Cathode (-) attracts cations (reduction).
@@ -75,7 +75,7 @@ Otto-cycle piston engines, diesel engines, and their critical components (cylind
   - **[Aluminum](../metals/aluminum.md)** (Hall-Héroult, later): Al₂O₃ dissolved in molten cryolite (Na₃AlF₆) at 950-1000°C. Carbon anodes. Aluminum deposits at carbon-lined cathode. 4-5V, 100,000+ A. ~13-15 kWh/kg Al. Requires enormous power.
   - **Copper refining**: Impure copper anode → pure copper cathode (99.99%) in CuSO₄/H₂SO₄ electrolyte. Voltage ~0.3V. Gold, silver, platinum collect in anode slimes — valuable byproducts.
 
-### Wire Drawing Bootstrap
+## Wire Drawing Bootstrap
 
 - **Chicken-and-egg problem**: you need wire for generators, but hardened steel dies for drawing that wire require decent steel, which itself needs powered machinery
 - First wire: hammered or swaged copper rod pulled through hand-punched holes in hardened steel plates, iterating through successively smaller die openings
@@ -83,7 +83,7 @@ Otto-cycle piston engines, diesel engines, and their critical components (cylind
 - Wire annealing between passes restores ductility lost from cold working
 - Insulation (rubber, varnished cloth, gutta-percha) is applied after drawing, not during
 
-### Electrical Engineering Reference
+## Electrical Engineering Reference
 
 **[Copper wire gauge table](../glossary/copper-wire-gauge-table.md)** (practical reference for all electrical work):
 | Diameter (mm) | Cross-section (mm²) | Resistance (Ω/km) | Max current (A) | Typical use |
@@ -117,25 +117,25 @@ Otto-cycle piston engines, diesel engines, and their critical components (cylind
 - **Capacity**: C = P × t / V, where P = load (W), t = backup time (hours), V = system voltage. Example: 500W load, 4-hour backup, 48V system: C = 500 × 4 / 48 = 41.7 Ah. Add 50% margin for depth-of- discharge limit: 62.5 Ah bank.
 - **Charging current**: C/10 rate (capacity ÷ 10 hours) for maximum battery life. For 62.5 Ah bank: charge at ~6.25A, 48V = 300W charger needed. Charge time: ~12-14 hours from fully discharged.
 
-### Permanent Magnets
+## Permanent Magnets
 
 - **[Lodestone](../glossary/lodestone.md)** (naturally magnetized magnetite) for early compasses and basic magnetic experiments
 - **Magnetized iron/steel bars**: Stroke with lodestone or place in Earth's magnetic field yields magnets for early generator field poles and galvanometers. For stronger magnets: place steel bar inside coil, pass DC current (electromagnet method) — steel retains magnetism after current removed.
 - **Keeper**: Store magnets with soft iron bar across poles (keeper) to prevent demagnetization over time.
  - **[Later materials](../glossary/later-materials.md)** (Alnico, ferrite) arrive with Chemistry stage alloy development
 
-### Elastomer Processing
+## Elastomer Processing
 
 - **Natural rubber vulcanization**: latex from *Hevea brasiliensis* or temperate alternatives (guayule, Russian dandelion) is coagulated, masticated on a two-roll mill, then compounded with sulfur (1.5-3 phr) and zinc oxide as activator
 - **[Heat curing](../glossary/heat-curing.md)** at 140-180°C in electric vulcanizing presses or steam autoclaves (3-10 bar) using the Energy stage electric heating and boiler steam; cycle times 5-30 minutes depending on thickness
 - **Applications beyond wire insulation**: shaft seals, gaskets, flat belts and V-belts for power transmission, hoses, vibration dampers, and tire construction for wheeled vehicles
 - **[Synthetic rubbers](../polymers/synthetic.md)** (nitrile, neoprene) require petrochemical feedstocks from [Petrochemicals](../chemistry/petroleum-alternatives.md); see [Polymers](../polymers/index.md) for the full elastomer development roadmap
 
-### Advanced Welding
+## Advanced Welding
 
 Oxy-acetylene welding and cutting, arc welding (stick/SMAW), joint preparation, and welding safety are covered in detail in [joining.md](../machine-tools/joining.md).
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Electrocution**: Electrical current through the body causes death at surprisingly low levels — 100 mA across the chest can cause ventricular fibrillation. Even "low" voltages (50V+) can be lethal under wet conditions. ALWAYS de-energize circuits before working on them (lock-out/tag-out). Use insulated tools. One-hand rule when working near live circuits (keep one hand in pocket — prevents current across chest).
 - **Arc flash**: Short circuits can produce arcs reaching 20,000°C. Arc blast pressure can throw a person across a room. Arc-rated face shield and flame-resistant clothing for any work on energized panels. Minimum approach distances based on voltage level.
@@ -143,7 +143,7 @@ Oxy-acetylene welding and cutting, arc welding (stick/SMAW), joint preparation, 
 - **Fire risk**: Electrical faults (short circuits, overloaded wiring, poor connections) are a leading cause of industrial fires. Proper fusing and circuit breakers on all circuits. No overloaded outlets. Inspect wiring for damage regularly.
 - **Generator mechanical hazards**: Generators have rotating shafts and belts. Guard all moving parts. Entanglement hazard — no loose clothing near running generators.
 
-### Power Transmission
+## Power Transmission
 
 Long-distance power transmission requires stepping voltage up at the generating station and back down at the load center. The physics is straightforward: power loss in transmission lines scales as I²R (current squared times resistance). For a given power delivery (P = V × I), doubling the voltage halves the current, and quartering the current reduces losses by a factor of 16. This makes high-voltage transmission essential for any plant more than a few kilometers from its load.
 
@@ -157,7 +157,7 @@ Long-distance power transmission requires stepping voltage up at the generating 
 
 **Voltage regulation**: Line voltage drops under load (I × R drop plus I × X reactive drop). At the load center, a step-down transformer reduces transmission voltage to distribution levels (3.3-11 kV), then further to utilization voltage (110-415 V). On-load tap changers on transformers adjust the turns ratio under load to compensate for voltage drop, maintaining ±5% voltage at the consumer.
 
-### Electrical Insulation Classes
+## Electrical Insulation Classes
 
 Electrical insulation degrades with temperature. The thermal class rating of insulation determines the maximum operating temperature and thus the power density achievable in motors, generators, and transformers:
 
@@ -172,7 +172,7 @@ Electrical insulation degrades with temperature. The thermal class rating of ins
 
 Hot-spot temperature must not exceed the class rating by more than 10°C for rated life (typically 20,000 hours). Every 8-10°C above rated temperature approximately halves insulation life (the "10-degree rule"). A Class B motor running at 145°C hotspot will survive roughly half as long as one running at 130°C.
 
-### Ground Fault Protection
+## Ground Fault Protection
 
 Ground faults occur when current leaks from a conductor to ground through an unintended path (damaged insulation, moisture, equipment frame contact). Left undetected, ground faults cause fires, equipment damage, and electrocution:
 
@@ -180,7 +180,7 @@ Ground faults occur when current leaks from a conductor to ground through an uni
 - **Equipment grounding**: All exposed metal parts of electrical equipment are connected to a grounding conductor, which is bonded to earth at the service entrance (ground rod driven into soil, resistance <25 Ω to earth). A ground fault that energizes the equipment frame creates a low-impedance return path, causing high fault current that trips the overcurrent protective device (fuse or breaker) quickly.
 - **Ground fault indicators**: For industrial systems with insulated neutrals (IT systems), a ground fault does not cause immediate trip but is indicated by a monitoring relay. This allows continued operation while the fault is located and repaired, important for continuous processes.
 
-### Transmission Line Construction
+## Transmission Line Construction
 
 Overhead transmission lines consist of conductors suspended from insulators on poles or towers. For the bootstrap, wooden pole construction is the most accessible:
 
@@ -189,7 +189,7 @@ Overhead transmission lines consist of conductors suspended from insulators on p
 - **Conductor sag and tension**: Conductors hang in a catenary between supports. Sag depends on span length, conductor weight, temperature, and ice/wind loading. Maximum sag occurs at maximum temperature (thermal expansion) and maximum ice loading. Minimum clearance from ground must be maintained at maximum sag: 5-6 m for roads, 7-8 m for railways, 3-4 m over agricultural land. Tension must not exceed the rated breaking strength of the conductor divided by the safety factor (typically 2.0-2.5).
 - **Lightning protection**: Overhead ground wire (steel or ACSR) strung above the phase conductors intercepts lightning strikes, conducting them to ground through pole grounding. Ground resistance at each pole: <25 Ω in normal soil, <10 Ω in high-resistivity soil with driven ground rods or counterpoise wires. Lightning arresters (gap-type or metal oxide varistor) at transformer terminals divert surge energy to ground.
 
-### Power Factor and Reactive Power
+## Power Factor and Reactive Power
 
 AC electrical systems carry two components of power: real power (watts, W) that does useful work, and reactive power (volt-amperes reactive, VAR) that oscillates between source and load without doing net work. The apparent power (volt-amperes, VA) is the vector sum. Power factor (PF) is the ratio of real to apparent power (0.0 to 1.0). A purely resistive load (heating elements, incandescent lamps) has PF = 1.0. Inductive loads (motors, transformers, welders) have PF = 0.6-0.85, meaning 15-40% of the current capacity is wasted on reactive power.
 
@@ -197,7 +197,7 @@ Low power factor penalties: A factory drawing 100 kW at PF = 0.7 requires 143 kV
 
 Correction: Install capacitor banks (static capacitors, 10-100 kVAR each) in parallel with inductive loads. Capacitors draw leading reactive current that cancels the lagging reactive current from motors. Target PF = 0.90-0.95. Capacitor sizing: Q_cap = P × (tan θ_before - tan θ_target), where θ = arccos(PF). For a 50 kW motor load at PF = 0.75 corrected to 0.95: Q_cap = 50 × (0.882 - 0.329) = 27.6 kVAR.
 
-### Three-Phase Power Systems
+## Three-Phase Power Systems
 
 Three-phase AC power is the standard for industrial generation and distribution. Three conductors carry AC voltage waveforms offset by 120° from each other. Advantages over single-phase: 1.5× the power delivery for the same conductor material (three conductors vs. two for single-phase), constant instantaneous power delivery (single-phase pulsates at twice the line frequency), and naturally rotating magnetic fields in motors (no starting capacitor or split-phase winding needed).
 
@@ -205,7 +205,7 @@ Three-phase AC power is the standard for industrial generation and distribution.
 - **Star (wye) connection**: Each phase winding connects to a common neutral point. Provides both line-to-line and line-to-neutral voltages. Neutral carries only the unbalanced current between phases. Used for distribution transformers and generator windings.
 - **Delta connection**: Phase windings connect in a closed loop (triangle). No neutral point. Only line-to-line voltage available. Used for transformer primary windings and some motor configurations. Delta-wye transformer configurations (delta primary, wye secondary) provide a neutral for distribution while blocking zero-sequence fault currents from passing through.
 
-### Electric Power Systems for Semiconductor Fabrication
+## Electric Power Systems for Semiconductor Fabrication
 
 Semiconductor fabrication equipment demands power quality far exceeding general industrial requirements. A voltage sag of just 10% lasting less than one cycle (16.7 ms at 60 Hz) can cause lithography equipment to abort exposures, ion implanters to lose beam current calibration, and etch chambers to drift out of recipe parameters — destroying work-in-progress worth thousands to millions of dollars per wafer lot. This section specifies the power infrastructure needed to deliver ultra-clean, ultra-reliable electricity to fab tools.
 
@@ -400,7 +400,7 @@ Before a fab begins production, the entire electrical system undergoes rigorous 
 
 **Partial discharge monitoring**: For medium-voltage switchgear and transformers, continuous partial discharge sensors (high-frequency current transformers on ground connections, or ultrasonic sensors) detect insulation degradation before it progresses to complete failure. Partial discharges are small electrical sparks within insulation voids that erode insulation over months to years. Early detection allows scheduled replacement rather than unplanned outage. Sensors communicate to a central monitoring system that trends discharge activity over time and alarms on increasing trends.
 
-### Limitations
+## Limitations
 
 **Strengths** (of the overall electrical system):
 - Electricity is the most versatile energy carrier — converts to heat, light, mechanical work, and chemical reactions
@@ -421,7 +421,7 @@ Before a fab begins production, the entire electrical system undergoes rigorous 
 - **Bootstrapping challenge**: Wire drawing requires hardened steel dies, which require powered machinery — a chicken-and-egg problem resolved by starting with hammered wire through hand-punched holes.
 - **Copper demand**: Electrical infrastructure is copper-intensive. A 100 kW generator requires ~50-100 kg of copper wire. Transmission lines, motors, and transformers add further demand. Aluminum can substitute for some applications but with 60% of copper's conductivity per unit area.
 
-### See Also
+## See Also
 
 - [Energy Storage](storage.md) — Batteries, pumped hydro, grid infrastructure, UPS battery sizing
 - [Electric Furnaces](electric-furnaces.md) — EAF, SAF, resistance, induction furnaces
@@ -432,6 +432,6 @@ Before a fab begins production, the entire electrical system undergoes rigorous 
 - [Telegraph](../transport/telegraph.md) — Early electrical communication system
 - [Measurement](../measurement/index.md) — Power quality monitoring instruments
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+
+[← Back to Energy](index.md)

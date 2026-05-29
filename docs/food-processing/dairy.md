@@ -7,7 +7,6 @@
 > **Timeline**: Years 0-20
 > **Outputs**: butter, cheese, cream, yogurt, whey, ghee
 
-## Overview
 
 Dairy processing converts raw milk — one of the most perishable foods (spoils in 4-6 hours at room temperature) — into stable, protein-rich products with shelf lives measured in weeks to months. A single dairy cow produces 15-25 liters of milk per day. Without processing, this bounty rots within hours. With processing, it becomes butter (weeks), cheese (months), or ghee (years). Cheese is perhaps the most calorie-efficient preservation method: 10 liters of milk (34 MJ) yields ~1 kg cheese (17 MJ) with months of shelf life and no refrigeration required.
 
@@ -15,7 +14,7 @@ Dairy depends on [ceramics](../ceramics/index.md) for storage vessels and cheese
 
 ## Bill of Materials
 
-### Cheese Making Materials
+## Cheese Making Materials
 
 | Material | Quantity per 10 kg cheese | Source | Alternatives |
 |----------|:------------------------:|--------|-------------|
@@ -25,7 +24,7 @@ Dairy depends on [ceramics](../ceramics/index.md) for storage vessels and cheese
 | Salt (NaCl) | 150-250 g (1.5-2.5% of cheese) | [Mining](../mining/index.md) | Sea salt; non-iodized preferred |
 | Calcium chloride (CaCl₂) | 10-20 g per 100 L milk | [Chemistry](../chemistry/index.md) | Restores calcium in pasteurized milk |
 
-### Butter Production Materials
+## Butter Production Materials
 
 | Material | Quantity per 10 kg butter | Source | Alternatives |
 |----------|:------------------------:|--------|-------------|
@@ -35,7 +34,7 @@ Dairy depends on [ceramics](../ceramics/index.md) for storage vessels and cheese
 
 ## Process Description
 
-### Milk Composition
+## Milk Composition
 
 Understanding milk composition is essential for all dairy processing:
 
@@ -49,7 +48,7 @@ Understanding milk composition is essential for all dairy processing:
 | Minerals | 0.7-0.8% | Calcium, phosphorus |
 | Total solids | 12-13% | Everything except water |
 
-### Cream Separation
+## Cream Separation
 
 The first step in most dairy processing. Fat globules (1-10 μm diameter) are lighter than the milk serum and rise naturally, but slowly.
 
@@ -74,7 +73,7 @@ The first step in most dairy processing. Fat globules (1-10 μm diameter) are li
 - Bearings at high radial loads need regular lubrication and replacement (every 1-3 years for industrial units)
 - Stainless steel or tinned copper construction demands precision metalworking capability
 
-### Butter Production
+## Butter Production
 
 Butter is 80-82% milk fat, 15-16% water, 1-2% milk solids, and 1-2% salt (if salted).
 
@@ -99,7 +98,7 @@ Butter is 80-82% milk fat, 15-16% water, 1-2% milk solids, and 1-2% salt (if sal
 - Butter melts above 32°C, limiting storage and transport in hot climates without cooling infrastructure
 - Churning temperature is critical: 8-12°C in summer, 12-15°C in winter — deviation produces soft or granular butter
 
-### Cheese Making
+## Cheese Making
 
 Cheese making is controlled coagulation of milk protein (casein) to separate curds (solid) from whey (liquid). The curds are then processed and aged.
 
@@ -143,7 +142,7 @@ Cheese making is controlled coagulation of milk protein (casein) to separate cur
 - Aging hard cheese for 3-18 months requires temperature-controlled storage (8-15°C, 80-90% humidity) — a dedicated cellar or cave
 - Rennet extraction requires calf stomach lining, creating a dependency on slaughter byproducts; vegetable rennet (cardoon thistle) is less consistent
 
-### Yogurt and Fermented Dairy
+## Yogurt and Fermented Dairy
 
 **Yogurt**: Heat milk to 85°C for 30 minutes (denatures whey proteins for thicker texture). Cool to 42-45°C. Inoculate with 2-3% starter culture (Lactobacillus delbrueckii subsp. bulgaricus + Streptococcus thermophilus). Incubate at 42°C for 4-6 hours until pH reaches 4.4-4.6. Cool immediately to 4°C. Shelf life: 2-3 weeks refrigerated.
 
@@ -161,7 +160,7 @@ Cheese making is controlled coagulation of milk protein (casein) to separate cur
 
 ## Quantitative Parameters
 
-### Dairy Product Yields per 100 L Milk
+## Dairy Product Yields per 100 L Milk
 
 | Product | Yield (kg or L) | Milk Required (L/kg) | Shelf Life | Key Parameter |
 |---------|:---------------:|:--------------------:|:----------:|:-------------:|
@@ -173,7 +172,7 @@ Cheese making is controlled coagulation of milk protein (casein) to separate cur
 | Yogurt | 90-95 L | 1.05-1.1 L/L | 2-3 weeks (refrigerated) | pH 4.4-4.6 |
 | Cream (35% fat) | 10-15 L | — | 5-7 days (refrigerated) | Fat 35-40% |
 
-### Dairy Animal Productivity
+## Dairy Animal Productivity
 
 | Animal | Milk (L/day) | Butterfat % | Season | Key Traits |
 |--------|:-----------:|:----------:|:------:|-----------|
@@ -184,7 +183,7 @@ Cheese making is controlled coagulation of milk protein (casein) to separate cur
 | Yak | 1-3 | 5-7 | Seasonal | High altitude, cold climates |
 | Camel | 5-10 | 2.5-5.5 | Year-round | Arid regions, drought-resistant |
 
-### Milk Spoilage Rates by Temperature
+## Milk Spoilage Rates by Temperature
 
 | Temperature | Time to Souring | Dominant Spoilage | Preventive Action |
 |:-----------:|:--------------:|:-----------------:|:-----------------:|
@@ -194,7 +193,7 @@ Cheese making is controlled coagulation of milk protein (casein) to separate cur
 | 4°C (refrigerated) | 5-7 days | Pseudomonas, Listeria | Pasteurize for longer storage |
 | -18°C (frozen) | 6-12 months | Enzymatic (lipolysis) | Limit to 6 months for quality |
 
-### Nutritional Comparison of Dairy Products
+## Nutritional Comparison of Dairy Products
 
 | Product | Energy (kcal/100 g) | Protein (g/100 g) | Fat (g/100 g) | Calcium (mg/100 g) |
 |---------|:-------------------:|:------------------:|:-------------:|:------------------:|
@@ -239,7 +238,7 @@ Cheese making is controlled coagulation of milk protein (casein) to separate cur
 
 ## Quality Control
 
-### Dairy Equipment Construction
+## Dairy Equipment Construction
 
 The key pieces of dairy processing equipment and their construction:
 
@@ -257,7 +256,7 @@ The key pieces of dairy processing equipment and their construction:
 - **Dash churn**: Plunger type — wooden dasher with cross-holes agitates cream in tall narrow vessel. Oldest design, labor-intensive but effective.
 - **Continuous butter maker** (industrial): Forced cream through high-shear zone at controlled temperature. Produces butter continuously at 500-5000 kg/hour. Requires precise temperature control and cream quality.
 
-### Cheese Ripening Science
+## Cheese Ripening Science
 
 The transformation of fresh curd into aged cheese involves complex biochemical changes:
 
@@ -266,7 +265,7 @@ The transformation of fresh curd into aged cheese involves complex biochemical c
 - **Texture development**: Calcium phosphate dissolution during aging softens the protein matrix. Moisture loss (1-2% per month) firms the paste. Proteolysis breaks the casein network, changing from elastic (young cheese) to crumbly (aged cheddar) to crystalline (parmesan). Tyrosine crystals in parmesan are visible amino acid crystals — a sign of extensive proteolysis, not a defect.
 - **Rind formation**: Surface drying creates a protective rind. Natural rind: simply air-dried. Washed rind: brine-washed periodically (promotes Brevibacterium linens growth — orange, pungent). White mold rind: Penicillium camemberti (Camembert/Brie) — the mold creates a soft, gooey interior by breaking down proteins from outside in.
 
-## References
+## See Also
 
 - [Ceramics](../ceramics/index.md) — storage vessels, cheese molds, butter churns
 - [Health & Sanitation](../health/index.md) — hygiene protocols, germ theory for safe milk handling
@@ -276,6 +275,6 @@ The transformation of fresh curd into aged cheese involves complex biochemical c
 - [Energy](../energy/index.md) — mechanical power for cream separators, cooling for storage
 - [Metals](../metals/index.md) — stainless steel for dairy equipment, tin for separator bowls
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*
+
+[← Back to Food Processing](index.md)

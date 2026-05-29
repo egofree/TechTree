@@ -21,7 +21,7 @@ A modern semiconductor fab contains hundreds of process tools — etchers, CVD r
 | Safety-critical gas cabinet communication | HSMS with dual redundant paths | Fault tolerance for life-safety systems |
 | Lab-scale or development tools | SECS-I serial or HSMS with minimal GEM | Lowest integration cost for non-production equipment |
 
-### Implementation Steps
+## Implementation Steps
 
 1. **Inventory all process tools**: Document each tool's communication capability (SECS-I, HSMS, GEM compliance level, GEM300 support)
 2. **Deploy SECS gateway server**: Install centralized gateway with HSMS connections to all HSMS-capable tools and serial-to-HSMS converters for legacy tools
@@ -32,7 +32,7 @@ A modern semiconductor fab contains hundreds of process tools — etchers, CVD r
 
 ## SECS Protocol Family
 
-### SECS-I (SEMI E4)
+## SECS-I (SEMI E4)
 
 SECS-I defines the physical and data link layer for serial communication between equipment and host computers.
 
@@ -64,7 +64,7 @@ SECS-I defines the physical and data link layer for serial communication between
 - No built-in network addressing — the host must have one RS-232 port per tool.
 - A fab with 200 tools requires 200 serial ports and 200 RS-232 cables. This cabling nightmare motivated the development of HSMS.
 
-### SECS-II (SEMI E5)
+## SECS-II (SEMI E5)
 
 SECS-II defines the message content — the application-layer protocol that structures data into hierarchical messages regardless of transport (SECS-I or HSMS).
 
@@ -97,7 +97,7 @@ SECS-II defines the message content — the application-layer protocol that stru
 - **S7F3/F4**: Process Program Send/Acknowledge. Transfer recipe to equipment.
 - **S7F5/F6**: Process Program Request/Acknowledge. Upload recipe from equipment.
 
-### HSMS (SEMI E37)
+## HSMS (SEMI E37)
 
 High-Speed SECS Message Services replaces SECS-I with TCP/IP networking, solving the cabling and throughput limitations.
 
@@ -127,7 +127,7 @@ High-Speed SECS Message Services replaces SECS-I with TCP/IP networking, solving
 
 **Throughput**: Ethernet at 100 Mbps delivers effective SECS message throughput of ~500 messages per second (limited by message processing, not bandwidth). This is 50× faster than SECS-I serial at 115,200 baud.
 
-### GEM (SEMI E30)
+## GEM (SEMI E30)
 
 GEM (Generic Equipment Model) builds on SECS-II messaging to define standard equipment behavior for factory automation.
 
@@ -166,7 +166,7 @@ Equipment follows a defined state machine with states:
 - **Link Event Report**: S2F35 links a CEID to an RPTID. "When event 101 occurs, send report 5 (containing temperature, pressure, gas flow)."
 - **Enable Event Report**: S2F37 enables/disables reporting for specific CEIDs.
 
-### Equipment Integration Architecture
+## Equipment Integration Architecture
 
 **Host-to-equipment data flow**:
 1. Host connects via HSMS TCP/IP to equipment.
@@ -185,7 +185,7 @@ Equipment follows a defined state machine with states:
 - **S2F42 rejection codes**: HCACK (Host Command Acknowledge) = 0 (acknowledged), 1 (rejected: invalid command), 2 (rejected: cannot perform now), 3 (rejected: parameter error).
 - **T3 timeout**: If equipment does not reply within T3 seconds, the host logs a communication error and may retry or escalate to operator intervention.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Remote control risk**: GEM allows the host to start and stop equipment remotely. Incorrect commands can cause equipment damage or operator injury. All remotely-triggered equipment actions must have safety interlocks independent of the communication channel (hardware E-stop, door interlocks, gas detection).
 - **Recipe corruption**: A corrupted recipe downloaded via S7F3 can cause equipment to operate outside safe parameters (e.g., wrong gas flow, excessive RF power). Validate recipe checksums before loading. Maintain recipe revision control with approval workflows.
@@ -209,7 +209,7 @@ Equipment follows a defined state machine with states:
 - **Trace data throughput**: Continuous trace reporting (20 variables at 1 Hz per tool): 20 messages/second × 200 bytes/message = 4 KB/s per tool. A fab with 200 tools generates 800 KB/s of trace data continuously. FDC servers must ingest and process this in real-time.
 - **Event processing**: Equipment state changes generate 5-20 events per process run. With 200 tools each processing 10 lots/day: 10,000-40,000 events/day. MES must process each event within 1 second to maintain real-time lot tracking.
 
-### GEM300 Extensions
+## GEM300 Extensions
 
 For 300 mm fabs, SEMI E38 (GEM300) adds capabilities specific to automated wafer handling:
 
@@ -231,7 +231,7 @@ For 300 mm fabs, SEMI E38 (GEM300) adds capabilities specific to automated wafer
 - **Terminal mode**: Provides a text-based operator interface on the equipment display for MES to send instructions, display lot information, and prompt operator actions (e.g., "Load FOUP A12345 at Load Port 1").
 - **Remote display**: MES can push messages to the equipment's operator panel, eliminating the need for separate terminal displays at each tool.
 
-### Communication Redundancy
+## Communication Redundancy
 
 - **Dual network paths**: Critical tools may have dual HSMS connections (primary and backup Ethernet paths) for fault tolerance. If the primary network switch fails, the backup path takes over within 5 seconds.
 - **Local operation mode**: If all communication with MES is lost, the tool must continue operating in local mode. The operator selects recipes manually from the tool's control panel and monitors the process using the tool's built-in displays. Local operation is logged and reported when communication is restored.

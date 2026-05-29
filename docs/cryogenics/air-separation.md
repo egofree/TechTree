@@ -8,11 +8,10 @@
 > **Outputs**: cryogenic_distillation, liquid_nitrogen, liquid_oxygen, liquid_argon
 > **Critical**: No — PSA and membrane alternatives exist for moderate purities; cryogenic ASU provides highest purity and scale
 
-### Overview
 
 Cryogenic air separation exploits the different boiling points of air's components — nitrogen (-196°C), oxygen (-183°C), and argon (-186°C) — to produce high-purity gases and liquids at industrial scale. This file covers the cryogenic engineering of the separation process: the Claude and Linde cycles, expansion turbine integration, double-column thermodynamic coupling, and column internal design. For product specifications, argon purification, PSA alternatives, and plant operations, see [Air Separation & Bulk Gas Production](../chemistry/air-separation.md) in the Chemistry domain.
 
-### The Engineering Problem
+## The Engineering Problem
 
 Air is 78.08% N₂, 20.95% O₂, 0.93% Ar by volume. The boiling points at 1 atm are:
 - **Nitrogen**: -195.8°C (77.4 K)
@@ -23,7 +22,7 @@ The temperature differences are small — only 12.8°C between the highest (O₂
 
 The key engineering challenge is producing and maintaining the -180°C to -196°C temperature range continuously and reliably while handling enormous gas flows. A world-scale ASU processes 50,000-200,000 Nm³/hour of air and produces 3,000+ tonnes/day of O₂.
 
-### Claude Cycle Integration for Air Separation
+## Claude Cycle Integration for Air Separation
 
 The Claude cycle is the standard refrigeration architecture for all modern air separation units. It combines expansion turbines with countercurrent heat exchange to provide both the refrigeration needed for liquefaction and the process cooling to maintain column temperatures.
 
@@ -47,7 +46,7 @@ The Claude cycle is the standard refrigeration architecture for all modern air s
 - Main air compressor consumes 15-30 MW for a 3,000 t/d plant — the largest single electrical load, requiring reliable grid power or dedicated power generation
 - Molecular sieve pre-purification vessels must switch every 4-8 hours (one adsorbing, one regenerating at 200-300°C), adding valve and control complexity
 
-### Double-Column Thermodynamic Coupling
+## Double-Column Thermodynamic Coupling
 
 The double-column system is the thermodynamic heart of a modern ASU. Its genius lies in thermally coupling the condenser of the high-pressure column with the reboiler of the low-pressure column, eliminating the need for external heating or cooling at the column junction.
 
@@ -67,7 +66,7 @@ The double-column system is the thermodynamic heart of a modern ASU. Its genius 
 - The 5-7°C temperature difference across the condenser-reboiler represents irreversibility — a larger ΔT wastes energy, but a smaller ΔT requires more heat transfer area (1000-2000 m² already)
 - Upper column pressure must be precisely controlled (±0.01 bar) because a 0.1 bar shift changes boiling points by ~0.3°C, disrupting the thermal coupling
 
-### Column Internal Design
+## Column Internal Design
 
 **Structured packing** (modern standard): Corrugated metal sheets (aluminum or stainless steel) arranged in modules, with corrugations inclined at alternating angles to promote mixing. Specific surface area: 250-500 m²/m³. Advantages over traditional sieve trays:
 - Lower pressure drop: 0.05-0.15 kPa per theoretical stage vs 0.5-1.0 kPa for trays. Lower pressure drop means less compression work and better separation efficiency.
@@ -90,7 +89,7 @@ The double-column system is the thermodynamic heart of a modern ASU. Its genius 
 - Structured packing is sensitive to liquid maldistribution — the distributor at the top of each packed section must achieve uniform flow within ±5% across the column cross-section
 - Sieve trays with 3-8 mm holes are prone to fouling from frozen contaminants if pre-purification is incomplete
 
-### Heat Exchanger Design for Cryogenic Service
+## Heat Exchanger Design for Cryogenic Service
 
 **Brazed aluminum plate-fin heat exchanger (BAHX)**: The standard heat exchanger for cryogenic air separation. Multiple layers of corrugated aluminum fins brazed between flat aluminum plates create separate flow channels for each stream. A single BAHX unit may handle 4-10 separate fluid streams simultaneously.
 
@@ -117,7 +116,7 @@ The double-column system is the thermodynamic heart of a modern ASU. Its genius 
 - Vacuum furnace brazing at ~600°C with Al-Si filler is a specialized manufacturing process requiring precise temperature control — not available in early bootstrap stages
 - Cannot be repaired in the field — internal leaks between passages require factory re-brazing or replacement of the entire unit ($500K-$2M)
 
-### Expansion Turbine Engineering
+## Expansion Turbine Engineering
 
 **Radial inflow turbine design**: The workhorse of modern ASU refrigeration. Gas enters through a volute (spiral casing) that distributes it evenly around the periphery of the turbine wheel. The gas flows inward through the rotating blade passages, expanding and accelerating. Work is extracted as the gas changes direction from tangential to axial, exiting through a diffuser at the center.
 
@@ -147,7 +146,7 @@ The double-column system is the thermodynamic heart of a modern ASU. Its genius 
 - Tip speeds of 300-500 m/s approach material stress limits for aluminum — wheel failure at 20,000-80,000 RPM releases high-energy fragments requiring blast containment
 - Oil-lubricated bearing systems risk oil contamination of the cold box if seals fail — oil freezes at cryogenic temperatures and blocks heat exchanger passages
 
-### Cold Box Engineering
+## Cold Box Engineering
 
 The "cold box" is the insulated enclosure containing all cryogenic equipment: heat exchangers, distillation columns, expansion turbines, valves, piping, and instrumentation.
 
@@ -172,7 +171,7 @@ The "cold box" is the insulated enclosure containing all cryogenic equipment: he
 - Perlite settles 10-20% over 10 years, creating uninsulated gaps at the top of the cold box that increase heat leak — requires periodic shutdown for topping up
 - Cold box is a monolithic structure (20-40 m tall, welded steel) — any internal component failure requires full warm-up to ambient (12-48 hours) before personnel can enter for repairs
 
-### Start-Up from Ambient Temperature
+## Start-Up from Ambient Temperature
 
 Starting an ASU from ambient temperature to full cryogenic operation requires 12-48 hours. The process cannot be rushed — the large thermal mass of the cold box (hundreds of tonnes of steel, aluminum, and perlite) must be cooled gradually to avoid thermal stress damage.
 
@@ -194,7 +193,7 @@ Starting an ASU from ambient temperature to full cryogenic operation requires 12
 - 12-48 hour start-up from ambient means the plant is unproductive for 1-2 days after any shutdown, consuming full-load power the entire time
 - Large thermal mass (500+ tonnes of steel, aluminum, perlite) constrains the cooling rate — rapid cooling causes thermal stress cracking in aluminum heat exchangers
 
-### Product Liquefaction
+## Product Liquefaction
 
 An ASU configured for gaseous product output produces minimal liquid — just enough to maintain column inventories. To produce liquid products (LOX, LIN, LAR) for storage and distribution, additional refrigeration is required.
 
@@ -213,7 +212,7 @@ An ASU configured for gaseous product output produces minimal liquid — just en
 - Adding a liquefier increases total plant power by 30-50% — specific energy for liquefaction (0.5-0.8 kWh/kg LIN) is roughly double that of gaseous production
 - Liquid storage dewars boil off at 0.1-0.5% per day — product is continuously lost if not consumed or re-liquefied
 
-### Scale and Performance Benchmarks
+## Scale and Performance Benchmarks
 
 | Plant Size | O₂ Production | Power | Specific Energy | Expansion Turbine Power |
 |------------|---------------|-------|-----------------|------------------------|
@@ -224,7 +223,7 @@ An ASU configured for gaseous product output produces minimal liquid — just en
 
 A semiconductor fab consuming 5,000-10,000 Nm³/hour of nitrogen and 500-2,000 Nm³/hour of argon would require a medium-sized ASU (50-200 t/d O₂ equivalent).
 
-### Instrumentation and Control
+## Instrumentation and Control
 
 Modern ASU control relies on precise measurement and feedback loops to maintain product purity and energy efficiency.
 
@@ -248,7 +247,7 @@ Modern ASU control relies on precise measurement and feedback loops to maintain 
 - DCS complexity — a modern ASU has 500-2,000 I/O points and 50-100 PID loops; tuning and maintaining the control system requires specialized instrumentation engineers
 - Condenser-reboiler liquid level measurement at -183°C is prone to density-variation errors during transient conditions (start-up, load changes)
 
-### Bootstrap Path to Cryogenic Air Separation
+## Bootstrap Path to Cryogenic Air Separation
 
 For a civilization rebuilding from scratch, the path to cryogenic air separation proceeds in stages:
 
@@ -272,7 +271,7 @@ For a civilization rebuilding from scratch, the path to cryogenic air separation
 - Step 5 (expansion turbine with precision-machined wheel at 20,000-80,000 RPM) represents a major manufacturing capability threshold that requires years of industrial development
 - Argon production (step 6) requires palladium catalyst for deoxidation — a strategic material dependency that may be difficult to source in a bootstrap scenario
 
-### Relationship to Chemistry Air Separation
+## Relationship to Chemistry Air Separation
 
 This file covers the cryogenic engineering — how to achieve and maintain -196°C, how the refrigeration cycle integrates with the distillation process, and the mechanical design of the equipment. The [Chemistry domain's air-separation file](../chemistry/air-separation.md) covers:
 - The complete Linde cycle step-by-step process description
@@ -285,7 +284,7 @@ This file covers the cryogenic engineering — how to achieve and maintain -196�
 
 Both files are needed for a complete understanding of air separation technology.
 
-### Safety
+## Safety
 
 **Oxygen-rich liquid fire hazard**: Liquid oxygen (LOX) at -183°C has a density of 1,141 kg/m³. LOX spills on asphalt or organic materials (clothing, oil, grease) can cause spontaneous ignition. A LOX-saturated cloth ignites from a static spark. Exclude all ignition sources from a 10-meter radius around LOX transfer points. Use only stainless steel, copper, or Monel for LOX piping — never carbon steel (becomes brittle at cryogenic temperatures and shatters on impact).
 
@@ -295,13 +294,13 @@ Both files are needed for a complete understanding of air separation technology.
 
 **Cold burn from cryogenic surfaces**: Uninsulated cryogenic piping at -180°C to -196°C causes immediate tissue destruction on contact. Insulate all cold surfaces accessible to personnel. Wear insulated cryogenic gloves (not leather work gloves), face shield, and closed-toe shoes when working near cold box equipment.
 
-### See Also
+## See Also
 
 - **[Refrigeration Fundamentals](refrigeration.md)**: Thermodynamic principles underlying all cryogenic processes
 - **[Gas Liquefaction & Storage](liquefaction-storage.md)**: Dewar design, cold boxes, insulation systems
 - **[Air Separation & Bulk Gas Production](../chemistry/air-separation.md)**: Complete ASU process, argon production, PSA alternatives
 - **[Basic Gas Handling](../gas-handling/basic.md)**: Gas compression and purification infrastructure
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Cryogenics](./index.md) • [All Domains](../index.md)*
+
+[← Back to cryogenics](index.md)

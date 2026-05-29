@@ -39,7 +39,7 @@ A bootstrap civilization faces a uniquely severe durability challenge: the entir
 
 ## Process Description
 
-### Archival Media Selection
+## Archival Media Selection
 
 1. **Classify the information**: Rate each document on two axes — criticality (loss = civilization setback) and replacement difficulty (can it be reconstructed from other sources?). Critical + irreplaceable documents get the most durable media and the most redundancy.
 2. **Select media by criticality tier**:
@@ -52,7 +52,7 @@ A bootstrap civilization faces a uniquely severe durability challenge: the entir
 
 **Weaknesses**: Classification decisions require judgment — a document's future criticality may be difficult to predict at the time of initial storage. Tier 1 storage (fired clay + vellum + acid-free paper) is significantly more expensive per document than Tier 3.
 
-### Environmental Controls
+## Environmental Controls
 
 Maintain archival storage rooms at:
 - Temperature: 18-22°C (±2°C stability)
@@ -66,7 +66,7 @@ Maintain archival storage rooms at:
 
 **Weaknesses**: Maintaining 18-22°C and 40-55% RH continuously requires either passive design (thick walls, earth-sheltered) or active climate control — both add cost. Daily environmental monitoring is essential but labor-intensive without automated systems.
 
-### Migration Protocol
+## Migration Protocol
 
 1. **Schedule**: Set migration interval based on medium lifespan — migrate at 50% of projected lifespan (e.g., acidic paper at 25-50 years, magnetic tape at 5-15 years, optical disc at 25-50 years).
 2. **Verification**: After migration, compare new copy to original (character-by-character for text, bit-by-bit for digital). Any discrepancy triggers re-migration from a different copy.
@@ -77,7 +77,7 @@ Maintain archival storage rooms at:
 
 **Weaknesses**: Migration is a perpetual obligation — magnetic tape must be refreshed every 5-15 years indefinitely, consuming ongoing labor and media costs. Retaining originals after migration doubles storage requirements during the verification period.
 
-### Rosetta Project Protocol
+## Rosetta Project Protocol
 
 For the most critical knowledge (Tier 1), create self-decoding archives:
 
@@ -92,7 +92,7 @@ For the most critical knowledge (Tier 1), create self-decoding archives:
 
 ## Quantitative Parameters
 
-### Media Lifespan by Storage Condition
+## Media Lifespan by Storage Condition
 
 | Medium | Ideal (18-22°C, 45% RH, dark) | Average (room temp, variable RH) | Poor (uncontrolled) | Degradation Mode |
 |--------|-------------------------------|----------------------------------|---------------------|-----------------|
@@ -106,7 +106,7 @@ For the most critical knowledge (Tier 1), create self-decoding archives:
 | Optical disc | 50-100+ years (claimed) | 20-50 years | 5-15 years | Disc rot (delamination), dye fade |
 | Flash memory | 10-20 years (unpowered) | 5-10 years | 2-5 years | Charge leakage from floating gates |
 
-### Migration Intervals
+## Migration Intervals
 
 | Medium | Recommended Migration Interval | Migration Method | Labor per Unit |
 |--------|-------------------------------|-----------------|----------------|
@@ -120,7 +120,7 @@ For the most critical knowledge (Tier 1), create self-decoding archives:
 | Optical disc | 25-50 years | Re-burn to fresh disc or migrate to new format | 0.01-0.1 hour/disc |
 | Flash memory | 5-10 years | Copy to fresh media, verify bit-for-bit | 0.01-0.1 hour/device |
 
-### Rosetta Project Parameters
+## Rosetta Project Parameters
 
 The Rosetta approach ensures that future readers can decode stored information even if the reading technology has been lost:
 
@@ -168,23 +168,23 @@ The Rosetta approach ensures that future readers can decode stored information e
 
 ## Variations and Alternatives
 
-### Multi-Media Redundancy (Rosetta Strategy)
+## Multi-Media Redundancy (Rosetta Strategy)
 
 Store the same critical information on multiple media types simultaneously. If one medium fails, others survive. Example: civilization-critical process recipes stored on (1) fired clay tablets, (2) acid-free printed paper, (3) microfilm, (4) digital storage. The probability of simultaneous total loss across all four media is vanishingly small.
 
-### Distributed Geographic Storage
+## Distributed Geographic Storage
 
 Store copies in geographically separate locations (different buildings, ideally different settlements). A single fire, flood, or military action cannot destroy all copies. Minimum: 3 copies of Tier 1 documents in 3 separate buildings. Preferred: copies in different settlements.
 
-### Generational Oral Transmission
+## Generational Oral Transmission
 
 Complement written records with structured oral transmission — trained practitioners who memorize and recite critical knowledge. The Vedas were transmitted orally for ~3,000 years before being written down, with exacting error-detection rituals (recitation in pairs with cross-checking). Oral transmission is slow and low-bandwidth but requires no physical media and survives any disaster that spares the practitioners.
 
-### Encrypted/Encoded Archives
+## Encrypted/Encoded Archives
 
 For sensitive information (weapon designs, location of hazardous materials), encode archives so that only authorized readers can decode them. Trade-off: encoding adds a failure mode (if the key is lost, the information is permanently inaccessible). Use encoding only when the risk of unauthorized access exceeds the risk of key loss.
 
-### Archive Audit Schedule
+## Archive Audit Schedule
 
 Conduct formal archive audits on a fixed schedule:
 - **Monthly**: Environmental monitoring log review (temperature, humidity readings). Alert on any excursion beyond limits.
@@ -192,7 +192,7 @@ Conduct formal archive audits on a fixed schedule:
 - **Annually**: Sample 5-10% of holdings for condition assessment. Verify catalog accuracy against physical items. Test retrieval time for random catalog entries (target: <5 minutes per item).
 - **Every 5 years**: Full condition survey of Tier 1 holdings. Review and update migration schedule. Test stored reading equipment for operability.
 
-### Archive Organizational Structure
+## Archive Organizational Structure
 
 A durable archive requires institutional continuity:
 
@@ -201,7 +201,7 @@ A durable archive requires institutional continuity:
 - **Legal framework**: Archive maintenance is a legal obligation, not a discretionary activity. Laws requiring annual funding, staffing, and audit ensure the archive survives changes in political priorities.
 - **Training program**: Archive management is a specialized skill. Train at least 2 archivists at all times, with a curriculum covering: media handling, environmental control, cataloging, migration procedures, emergency response.
 
-### Emergency Response Protocol
+## Emergency Response Protocol
 
 When a threat to the archive is detected (fire, flood, structural failure, pest infestation):
 

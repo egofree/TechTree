@@ -8,7 +8,7 @@
 > **Outputs**: diodes, transistors, thyristors, voltage_references
 > **Critical**: Yes — diodes and transistors are the fundamental active components enabling all power conversion, signal processing, and digital logic
 
-## 1. Overview
+## Overview
 
 This document covers the physics, construction, and application of discrete semiconductor devices at the component level — diodes, bipolar junction transistors (BJTs), field-effect transistors (FETs), and thyristors. These are the active devices that make amplification, switching, rectification, and logic possible.
 
@@ -16,28 +16,28 @@ This document covers the physics, construction, and application of discrete semi
 
 Semiconductor devices sit at the heart of the electronics bootstrap chain. [Passive components](passive-components.md) alone cannot amplify signals or perform logic — active devices are required. Every [power electronics](power-electronics.md) converter relies on diodes and transistors for switching. Every [computing](../computing/electronic.md) system uses transistors as logic switches.
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 - **Silicon wafers**: Single-crystal, 50-300 mm diameter, p-type (boron) or n-type (phosphorus), from [wafer production](../silicon/wafering.md)
 - **Dopant sources**: Phosphorus (POCl₃ gas, PH₃ gas), boron (BBr₃ gas, B₂H₆ gas), arsenic (AsH₃ gas), antimony (Sb)
 - **Metallization**: Aluminum (1% Si, 99.99% purity), gold wire (25 μm for wire bonding)
 - **Oxidation gases**: O₂ (dry oxidation), H₂ + O₂ (wet oxidation — grows oxide 5-10× faster)
 - **Encapsulation**: Epoxy molding compound, ceramic (alumina) for hermetic packages, Kovar lead frames
 
-### Tools
+## Tools
 - [Diffusion furnace](../energy/electric-furnaces.md) (800-1200°C, ±0.5°C uniformity)
 - [Vacuum equipment](../gas-handling/vacuum.md) for deposition processes
 - [Photolithography](../photolithography/resists-masks.md) equipment for patterned doping
 - [Wire bonding](assembly.md) equipment for package interconnect
 - [Electrical measurement](../measurement/electrical-instruments.md) instruments for device characterization
 
-### Knowledge
+## Knowledge
 - Semiconductor physics: band gap (Si: 1.12 eV), intrinsic carrier concentration, doping, pn junction
 - Device equations: diode (I = Iₛ(e^(V/nVt) - 1)), BJT (Ic = β × Ib), MOSFET (Id = ½μnCox(W/L)(Vgs-Vth)²)
 - Thermal management: junction temperature, thermal resistance, power dissipation
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity (per 1000 discrete transistors, TO-92 package) | Source | Alternatives |
 |----------|--------------------------------------------------------|--------|-------------|
@@ -49,9 +49,9 @@ Semiconductor devices sit at the heart of the electronics bootstrap chain. [Pass
 | Epoxy molding compound | 0.5-1.0 kg | [Polymers](../polymers/thermosets.md) | Ceramic hermetic package (military/space) |
 | Copper alloy lead frame (42 pins/strip) | 5-10 strips | [Metals](../metals/index.md) | Kovar alloy (CTE-matched for hermetic) |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Diode Construction
+## 4.1 Diode Construction
 
 #### Discrete PN Junction Diode
 
@@ -83,7 +83,7 @@ Metal-semiconductor junction (no p-type region). Aluminum, platinum, or titanium
 - Zener diodes below 5V have soft knee characteristics and high temperature coefficient — voltage regulation degrades significantly with load current and temperature variation
 - Schottky diodes have high reverse leakage current (1-100 μA) that doubles every 10°C — at elevated temperatures, leakage power dissipation can exceed forward conduction savings
 
-### 4.2 Bipolar Junction Transistor (BJT)
+## 4.2 Bipolar Junction Transistor (BJT)
 
 #### NPN Transistor Construction
 
@@ -112,7 +112,7 @@ Metal-semiconductor junction (no p-type region). Aluminum, platinum, or titanium
 - Secondary breakdown: localized thermal runaway at high Vce × Ic combinations creates destruction zones that limit safe operating area (SOA) — MOSFETs do not have this failure mode
 - β varies with temperature (doubles from 25°C to 100°C), collector current (peaks at 1-100 mA, drops at high and low current), and between individual devices — requires careful bias circuit design for linear applications
 
-### 4.3 MOSFET (Metal-Oxide-Semiconductor FET)
+## 4.3 MOSFET (Metal-Oxide-Semiconductor FET)
 
 #### N-Channel Enhancement MOSFET
 
@@ -141,7 +141,7 @@ Metal-semiconductor junction (no p-type region). Aluminum, platinum, or titanium
 - Rds(on) ∝ Vds²·⁵ for silicon — above ~600V, the on-resistance becomes impractically high, making MOSFETs unsuitable for high-voltage switching where IGBTs or thyristors are required
 - Gate charge (Qgs = 1-200 nC) must be supplied and removed each switching cycle — at high frequency, gate drive power (Pgate = Qgs × Vgs × fsw) becomes significant and requires careful driver design
 
-### 4.4 Thyristor (SCR — Silicon Controlled Rectifier)
+## 4.4 Thyristor (SCR — Silicon Controlled Rectifier)
 
 Four-layer pnpn device. Latches on when gate current is applied while anode is positive relative to cathode. Remains conducting until anode current drops below holding current (Ih, typically 5-50 mA). Used for AC power control (light dimmers, motor speed control, HVDC transmission).
 
@@ -163,9 +163,9 @@ Four-layer pnpn device. Latches on when gate current is applied while anode is p
 - Susceptible to false triggering from rapid voltage transients (dv/dt > 50-1000 V/μs) — requires snubber circuits (RC network across the device) that add cost and complexity
 - Slow turn-on (di/dt limited to 50-500 A/μs) — the conducting area spreads from the gate region at ~0.1 mm/μs, creating localized hot spots if current rises faster than the conducting area expands
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Diode Parameters
+## Diode Parameters
 
 | Parameter | Signal Diode (1N4148) | Rectifier Diode (1N5408) | Schottky (1N5822) | Zener (1N4736A) |
 |-----------|----------------------|--------------------------|-------------------|-----------------|
@@ -178,7 +178,7 @@ Four-layer pnpn device. Latches on when gate current is applied while anode is p
 | Power dissipation | 500 mW | 3W (with leads) | 3W | 1W |
 | Operating temperature | -65 to 200°C | -65 to 175°C | -65 to 150°C | -65 to 200°C |
 
-### BJT Parameters
+## BJT Parameters
 
 | Parameter | Small-Signal (2N3904) | Power (TIP31C) | Darlington (TIP122) | RF (2N2222) |
 |-----------|----------------------|----------------|---------------------|-------------|
@@ -191,7 +191,7 @@ Four-layer pnpn device. Latches on when gate current is applied while anode is p
 | Power dissipation | 625 mW | 40W (on heatsink) | 65W (on heatsink) | 1.8W |
 | Package | TO-92 | TO-220 | TO-220 | TO-18/TO-92 |
 
-### MOSFET Parameters
+## MOSFET Parameters
 
 | Parameter | Logic-Level (2N7002) | Standard (IRF540N) | High-Voltage (FQA11N90) | Low-Rds (IRL3803) |
 |-----------|---------------------|---------------------|-------------------------|-------------------|
@@ -204,7 +204,7 @@ Four-layer pnpn device. Latches on when gate current is applied while anode is p
 | Power dissipation | 0.35W | 130W (heatsink) | 250W (heatsink) | 200W (heatsink) |
 | Package | SOT-23 | TO-220 | TO-247 | TO-220 |
 
-### Thyristor Parameters
+## Thyristor Parameters
 
 | Parameter | Sensitive Gate (MCR100) | Standard (2N6509) | Power (SKKT106) | High-Voltage (5STP 52) |
 |-----------|------------------------|--------------------|-----------------|----------------------|
@@ -216,16 +216,16 @@ Four-layer pnpn device. Latches on when gate current is applied while anode is p
 | di/dt | 50 A/μs | 100 A/μs | 200 A/μs | 500 A/μs |
 | Package | TO-92 | TO-220 | Disc (hockey-puck) | Disc (hockey-puck) |
 
-## 6. Scaling Notes
+## Scaling Notes
 
-### From Discrete to Integrated
+## From Discrete to Integrated
 
 - **Discrete devices** (1-10 mm² die): Individual diodes, transistors, thyristors in their own packages. Simple fabrication (3-6 lithography steps). Yield per die: 95-99%. Used for power applications and prototyping.
 - **Small-scale integration (SSI)**: 1-100 transistors on one die. 6-10 lithography steps. Yield: 80-95%. Logic gates, flip-flops, op-amps.
 - **Large-scale integration (LSI)**: 1,000-100,000 transistors. 10-20 lithography steps. Requires [photolithography](../photolithography/fab-processes.md) processes.
 - **VLSI/ULSI**: >100,000 transistors. 20-40+ lithography steps. Microprocessors, memory, GPUs. Covered in [VLSI Scaling](../vlsi-scaling/index.md).
 
-### Power Device Scaling
+## Power Device Scaling
 
 Power semiconductor capability scales with die area and blocking voltage. Key trade-off: Rds(on) ∝ Vds²·⁵ for silicon MOSFETs. For applications above ~600V, IGBTs (Insulated Gate Bipolar Transistors) are preferred — they combine MOSFET gate drive simplicity with BJT-like conduction at high voltage.
 
@@ -237,7 +237,7 @@ Power semiconductor capability scales with die area and blocking voltage. Key tr
 | 500W-10kW | Large-area MOSFET/IGBT | 10-25 mm dia | Module (multi-die) | Industrial drives, EV traction |
 | >10kW | Thyristor/GTO/IGCT | 25-150 mm dia | Disc (hockey-puck) | HVDC, FACTS, steel melting |
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -251,7 +251,7 @@ Power semiconductor capability scales with die area and blocking voltage. Key tr
 | BJT secondary breakdown | Localized hot spot from non-uniform current distribution at high Vce and high Ic simultaneously | Operate within safe operating area (SOA) curve; use MOSFETs instead for linear applications; add emitter ballast resistors for parallel operation |
 | Wire bond failure in package | Thermal cycling fatigue, moisture-induced corrosion | Use gold wire for high-reliability; control molding compound moisture; follow MSL handling procedures |
 
-## 8. Safety
+## Safety
 
 - **Hydrogen gas**: Wet oxidation and epitaxial deposition use H₂ gas. Hydrogen is explosive at 4-75% concentration in air. Use hydrogen detectors, adequate ventilation, and nitrogen purge before introducing hydrogen. Never use open flames near hydrogen systems.
 - **Dopant gases**: PH₃ (phosphine), B₂H₆ (diborane), AsH₃ (arsine) are extremely toxic (TLV: 0.3 ppm for PH₃, 0.05 ppm for AsH₃). All are pyrophoric (ignite spontaneously in air). Use in gas cabinets with continuous monitoring, automatic shutoff, and exhaust scrubbing. Emergency procedures: evacuate immediately if leak detected. Liquid dopants (POCl₃, BBr₃) are less immediately dangerous but are corrosive and moisture-sensitive (react with humidity to release toxic fumes).
@@ -260,27 +260,27 @@ Power semiconductor capability scales with die area and blocking voltage. Key tr
 - **High-temperature furnaces**: Diffusion and oxidation furnaces operate at 900-1200°C. External surfaces: 50-80°C (burn risk). Loading/unloading wafers requires long quartz loading rods — hot wafers and quartz ware cause severe burns. Use thermal gloves rated to 500°C. Gas burn hazard: furnace exhaust gases may be hot and contain toxic species.
 - **Electrical testing of power devices**: High-voltage devices are tested at hundreds to thousands of volts. Capacitive energy storage in test equipment can deliver lethal shocks. Use insulated probes, discharge capacitors before handling, and maintain one-hand rule (never have both hands in the test fixture simultaneously).
 
-## 9. Quality Control
+## Quality Control
 
-### Wafer-Level Tests (Probe Test)
+## Wafer-Level Tests (Probe Test)
 - **Die-by-die probe**: Automated probe card contacts each die on the wafer. Measures key parameters: Vf (diodes), β and Vce(sat) (BJTs), Vth and Rds(on) (MOSFETs), Vdrm and Igt (thyristors). Inking or electronic mapping of failed die. Wafer probe yield target: 85-98% depending on die size and process maturity.
 - **Breakdown voltage test**: Ramp voltage to rated Vdrm/Vceo/Vds and verify leakage is within spec. Apply 10-20% above rated for screening.
 
-### Package-Level Tests
+## Package-Level Tests
 - **Parameter verification**: 100% tested at final test. All datasheet parameters within specification at 25°C.
 - **Burn-in**: Power devices stressed at 100-150°C, rated voltage and current for 24-168 hours. Eliminates infant mortality failures. Failure rate during burn-in: 0.1-2%. Power cycling (on/off cycles) for MOSFETs and IGBTs: 10,000-100,000 cycles.
 - **Hermeticity test** (ceramic/metal packages): Fine leak: <1×10⁻⁸ atm·cm³/s He (helium mass spectrometer). Gross leak: bubble test in fluorocarbon fluid at 125°C.
 - **Visual inspection**: Optical microscope at 10-40× for wire bonds, die attach, mold defects, lead condition.
 
-### Reliability Qualification
+## Reliability Qualification
 - **High-temperature operating life (HTOL)**: 1000 hours at 125°C junction temperature under bias. Parameter drift <10%.
 - **Temperature cycling**: -65°C to +150°C, 500-1000 cycles. Checks die attach, wire bond, and package integrity.
 - **Highly accelerated stress test (HAST)**: 130°C, 85% RH, 96 hours under bias. Tests moisture resistance.
 - **Electrostatic discharge (ESD)**: HBM (Human Body Model): 100 pF through 1.5 kΩ. MOSFETs: 200-2000V rating. Diodes: 2000-15,000V.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Device Technology Trade-offs
+## Device Technology Trade-offs
 
 | Application | Best Device | Reason | Alternative |
 |-------------|-----------|--------|-------------|
@@ -293,7 +293,7 @@ Power semiconductor capability scales with die area and blocking voltage. Key tr
 | Voltage reference | Zener diode | Simple, low cost | Bandgap reference (better accuracy and TC) |
 | Logic switching | MOSFET (CMOS) | Zero static power, high density | BJT (ECL — faster but power-hungry) |
 
-### Emerging Wide-Bandgap Semiconductors
+## Emerging Wide-Bandgap Semiconductors
 
 | Property | Silicon (Si) | Silicon Carbide (SiC) | Gallium Nitride (GaN) |
 |----------|-------------|----------------------|----------------------|
@@ -306,7 +306,7 @@ Power semiconductor capability scales with die area and blocking voltage. Key tr
 | Switching frequency (practical max) | 1-10 MHz | 10-100 MHz | 100-1000 MHz |
 | Status in bootstrap | Standard | Advanced (Year 60+) | Advanced (Year 80+) |
 
-### Historical Bootstrap Path
+## Historical Bootstrap Path
 
 1. **Crystal diode** (Year 15-20): Cat's whisker detector — galena (PbS) crystal with fine wire contact. Unreliable but demonstrates rectification. Silicon crystal detectors for early radio.
 2. **Germanium diode and transistor** (Year 25-30): Lower processing temperature (Ge melts at 938°C vs. Si at 1414°C). Point-contact transistor (fragile, unreliable). Alloy junction transistor. Germanium has lower band gap (0.67 eV) — higher leakage at elevated temperature. First practical transistors used germanium because it required lower purity than silicon.
@@ -314,7 +314,7 @@ Power semiconductor capability scales with die area and blocking voltage. Key tr
 4. **Power MOSFET** (Year 35-45): Vertical DMOS structure enables high voltage and high current. Rds(on) steadily decreasing with each generation.
 5. **IGBT** (Year 40-50): Combines MOS gate drive with bipolar conduction. Dominates medium-to-high power conversion (1 kW to 10 MW).
 
-## 11. References
+## References
 
 - **[Basic Semiconductor Devices](../silicon/basic-devices.md)**: wafer-level processes for creating pn junctions and basic devices
 - **[Passive Components](passive-components.md)**: resistors, capacitors, and inductors used in circuits with semiconductor devices
@@ -325,6 +325,6 @@ Power semiconductor capability scales with die area and blocking voltage. Key tr
 - **[Vacuum Systems](../gas-handling/vacuum.md)**: vacuum equipment for deposition processes
 - **[Electric Furnaces](../energy/electric-furnaces.md)**: diffusion and oxidation furnace requirements
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*
+
+[← Back to Electronics](index.md)

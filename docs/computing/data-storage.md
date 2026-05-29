@@ -69,11 +69,11 @@ The IBM 650 computer (1954) used a magnetic drum as its primary memory, holding 
 
 ## Magnetic Disk
 
-### IBM 350 RAMAC (1956)
+## IBM 350 RAMAC (1956)
 
 The first commercial hard disk drive. Stored 5 million characters (5 MB) on 50 spinning platters, each 24 inches in diameter. Two independent read/write heads accessed data with average seek time of ~600 ms. Weight: over one ton. The RAMAC proved the concept that disks could provide fast random access to large datasets.
 
-### Hard Disk Architecture
+## Hard Disk Architecture
 
 Modern hard disks use the same principles at vastly smaller scale:
 
@@ -83,11 +83,11 @@ Modern hard disks use the same principles at vastly smaller scale:
 - **Read/write heads**: One per surface. Heads fly on an air bearing 5-10 nm above the platter surface (closer than a fingerprint ridge). A head crash (contact with the platter) destroys data and the head. The slider aerodynamics that maintain this flying height are a precision engineering achievement.
 - **Actuator**: A voice-coil motor swings the head arm across the platter radius. Seek time: 3-5 ms average for modern drives.
 
-### Encoding Schemes
+## Encoding Schemes
 
 Early drives used simple FM (frequency modulation) encoding: a clock bit precedes every data bit, doubling the required flux transitions. MFM (modified frequency modulation) eliminates the clock bit when the previous and current data bits are both zero, roughly doubling the effective density. RLL (run-length limited) encoding, specifically RLL 2,7, packs 1.5× more data than MFM by constraining the minimum and maximum run lengths of identical bits. Modern drives use PRML (partial response, maximum likelihood) and EPRML (extended PRML) signal processing, which sample the analog readback waveform at intervals and use Viterbi detection to determine the most likely bit sequence, achieving much higher areal densities than peak-detection methods.
 
-### Capacity Progression
+## Capacity Progression
 
 | Year | Drive | Capacity | Platters | Areal Density |
 |------|-------|----------|----------|---------------|
@@ -98,55 +98,55 @@ Early drives used simple FM (frequency modulation) encoding: a clock bit precede
 
 ## Magnetic Tape
 
-### Reel-to-Reel
+## Reel-to-Reel
 
 Half-inch wide magnetic tape on 10.5-inch reels, typically 2400 feet long. Data recorded in 9 tracks (8 data bits + 1 parity). Recording density progressed: 800 bpi (NRZI), 1600 bpi (PE), 6250 bpi (GCR). A 2400-foot reel at 6250 bpi stores approximately 180 MB. Tape drive speeds: 75-200 inches per second. Start/stop time: 1-5 ms. Sequential access only, making tape best for backup, archival, and batch processing.
 
-### Cassette Tape
+## Cassette Tape
 
 Compact audio cassettes adapted for data storage. The Kansas City standard (1975) used audio frequency shift keying: 1200 Hz for 0, 2400 Hz for 1, at 300 baud. A 60-minute cassette held ~60-600 KB depending on encoding and tape quality. The Coleco Adam and various home computers used cassette storage as the cheapest option. For bootstrapping, audio cassette storage is achievable with minimal electronics: a tape recorder, a tone decoder, and a UART.
 
-### Cartridge Tape
+## Cartridge Tape
 
 Modern tape cartridges (LTO, IBM 3592) store 6-18 TB per cartridge on half-inch tape with 8000+ tracks. Servo tracks guide the head precisely. Linear tape-open (LTO-9) stores 18 TB native (45 TB compressed) on a single cartridge. Transfer rate: 400 MB/s. Used exclusively for backup and archival in data centers.
 
 ## Floppy Disk
 
-### 8-Inch (1971)
+## 8-Inch (1971)
 
 IBM's first floppy: a flexible Mylar disk 8 inches in diameter in a protective sleeve. Single-sided, single-density: 80 KB. Double-sided, double-density: 1.2 MB. Rotation: 360 RPM. Transfer rate: 250 kbps. The floppy introduced inexpensive, transportable data storage to computing.
 
-### 5.25-Inch (1976)
+## 5.25-Inch (1976)
 
 Shugart Associates shrunk the format. Single-sided 160 KB, double-sided 360 KB, high-density 1.2 MB. The flexible sleeve was genuinely floppy (hence the name). Widely used for software distribution through the 1980s.
 
-### 3.5-Inch (1982)
+## 3.5-Inch (1982)
 
 Sony's rigid-shell format became the standard. Double-density: 720 KB. High-density (HD): 1.44 MB (the most widely recognized capacity). The rigid plastic shell with sliding metal shutter protected the disk far better than the flexible 5.25-inch sleeve. Rotation: 300 RPM. Track density: 135 tpi. The 1.44 MB floppy persisted as a boot and transfer medium well into the 2000s.
 
 ## Optical Storage
 
-### Compact Disc (CD)
+## Compact Disc (CD)
 
 Originally developed for audio (1982, Sony/Philips), adapted for data (CD-ROM, 1985). A 120 mm polycarbonate disc with data encoded as pits molded into the surface, read by a 780 nm infrared semiconductor laser. Pit length varies from 0.83 to 3.05 μm. Track pitch: 1.6 μm (spiral track, ~22,188 revolutions). Capacity: 650-700 MB (Mode 1). Data rate: 150 KB/s at 1× speed, up to 7.2 MB/s at 48×.
 
 Recordable CD (CD-R) uses a dye layer that absorbs laser energy and becomes opaque, mimicking a pit. Writable once. CD-RW uses a phase-change alloy that switches between amorphous (low reflectivity) and crystalline (high reflectivity) states, allowing rewriting (~1000 cycles).
 
-### DVD and Blu-ray
+## DVD and Blu-ray
 
 DVD (1995): 650 nm red laser, 0.74 μm track pitch, 4.7 GB single-layer. Blu-ray (2006): 405 nm blue-violet laser, 0.32 μm track pitch, 25 GB single-layer, 128 GB quad-layer. Optical storage trades access time (100-200 ms seek) for high capacity, low media cost, and longevity (50+ year claimed archival life for properly stored discs).
 
 ## Solid-State Memory
 
-### ROM and EPROM
+## ROM and EPROM
 
 Mask ROM: programmed during fabrication, unchangeable. PROM: one-time programmable by blowing nichrome fuses. EPROM (Erasable Programmable ROM, 1971): uses floating-gate MOSFETs. A high voltage (12-25V) injects charge onto the floating gate through Fowler-Nordheim tunneling or hot-carrier injection. Erased by exposing the chip to UV light through a quartz window for 15-20 minutes. The UV photons give trapped electrons enough energy to escape. EPROMs are recognizable by the distinctive quartz window on the package. Typical endurance: 100-1000 erase cycles.
 
-### EEPROM
+## EEPROM
 
 Electrically Erasable Programmable ROM. Each byte can be individually erased and reprogrammed electrically, no UV needed. Byte-level erasure is convenient but makes the cell larger than EPROM (two transistors per cell vs one). Endurance: 10,000-100,000 cycles. Slower write than read (1-10 ms per byte). Used for small configuration stores (BIOS settings, calibration data).
 
-### Flash Memory
+## Flash Memory
 
 Flash is a type of EEPROM that erases in blocks (not byte-by-byte), enabling smaller cells and higher density. Two architectures:
 
@@ -167,7 +167,7 @@ Flash is a type of EEPROM that erases in blocks (not byte-by-byte), enabling sma
 | Semiconductor fab | EPROM/EEPROM | Firmware for process controllers, calibration data |
 | Full computing | Flash memory (NOR/NAND) | Boot firmware, solid-state mass storage |
 
-### Bootstrapping Sequence
+## Bootstrapping Sequence
 
 The progression of storage technology follows manufacturing capability. At the lowest level, punch cards and paper tape require only paper, punching tools, and mechanical readers. A wooden or metal template guides hole positions; a spring-loaded punch mechanism drives a pin through the card. Readers use either mechanical pin sensing (a pin drops through a hole, closing a contact) or photoelectric sensing (a lamp on one side, a photocell on the other).
 
@@ -220,7 +220,7 @@ Each layer is roughly 10-100× slower but 10-100× cheaper per bit than the laye
 | EPROM data loss | UV exposure erased floating-gate charge through window | Cover quartz window with opaque label; reprogram if device supports it |
 | Data corruption after power loss | Write in progress when power failed | Use journaling filesystem; check ECC/crc; restore from last known good backup |
 
-### See Also
+## See Also
 
 - [Electromechanical Computing](electromechanical.md) — relay and early computing hardware that used punch cards and paper tape
 - [Electronic Computing](electronic.md) — semiconductor-based computing requiring firmware storage

@@ -8,13 +8,12 @@
 > **Outputs**: cleanroom_facilities, pressure_cascade_systems, raised_floor_systems, hvac_systems
 > **Critical**: Yes — cleanroom facility design provides the structural envelope that enables all semiconductor manufacturing
 
-### Overview
 
 The physical facility is the structural envelope that houses clean room operations. A clean room is not a regular building with filters bolted on — it is a purpose-engineered structure where every surface, joint, penetration, and air path is designed for contamination control. The wall system must be airtight and non-shedding. The floor must drain static charges and return air. The ceiling must support filter modules and maintain level alignment. The HVAC system must deliver conditioned air at precise temperature (22±0.5°C) and humidity (43±3% RH) continuously, 24 hours per day, 365 days per year.
 
 This capability covers modular wall systems, raised flooring, ceiling grids, make-up air handling, temperature and humidity control, positive pressure cascading, and airlock design. It does NOT cover filtration technology (see [HEPA/ULPA Filtration](hepa-ulpa-filtration.md)) or contamination protocols (see [Contamination Control](contamination-control.md)).
 
-### Modular Wall Panel Construction
+## Modular Wall Panel Construction
 
 **Panel construction**:
 
@@ -47,7 +46,7 @@ Every pipe, conduit, cable, and duct that passes through the cleanroom wall must
 - Silicone sealant between panel joints requires periodic inspection and reapplication as it ages (5-10 year service life before hardening and cracking)
 - Coved corners with 30-50 mm radius reduce usable floor space compared to sharp corners — a significant penalty in expensive cleanroom floor area
 
-### Raised Floor Systems
+## Raised Floor Systems
 
 The raised floor serves dual purposes: it provides the cleanroom working surface (perforated, anti-static tiles) and creates a return air plenum beneath for vertical laminar flow:
 
@@ -82,7 +81,7 @@ The raised floor serves dual purposes: it provides the cleanroom working surface
 - **Obstructions**: Minimize underfloor obstructions (cables, pipes, structural members). Obstructions disrupt return airflow uniformity. Route cables in trays along the perimeter where possible.
 - **Drainage**: The structural slab should slope toward floor drains (for wet cleaning and spill containment). The raised floor perimeter is sealed with a gasket to prevent underfloor air bypass.
 
-### Ceiling Grid Systems
+## Ceiling Grid Systems
 
 **Aluminum T-grid system**:
 
@@ -107,7 +106,7 @@ The raised floor serves dual purposes: it provides the cleanroom working surface
 - Level tolerance of ±1.5 mm across the entire ceiling is difficult to achieve in practice — thermal cycling and building settlement cause drift over time
 - UV-filtering fixtures and yellow-tinted environments impair color discrimination for visual inspection tasks (resist color verification, defect identification)
 
-### Positive Pressure Cascading
+## Positive Pressure Cascading
 
 **Principle**: The cleanroom is maintained at a higher air pressure than surrounding areas. When doors open, clean air flows outward, preventing infiltration of contaminated air. The pressure cascade creates a one-way barrier:
 
@@ -141,7 +140,7 @@ The raised floor serves dual purposes: it provides the cleanroom working surface
 - Pressure differentials of 5-15 Pa are small — a single open door or large unsealed penetration can equalize the gradient and allow contaminated air infiltration
 - Air showers (20-30 m/s jets for 15-30 seconds) are unpleasant for operators and generate turbulence that can re-entrain particles from the garment surface rather than removing them
 
-### Temperature and Humidity Control
+## Temperature and Humidity Control
 
 **Temperature control (22±0.5°C)**:
 
@@ -172,7 +171,7 @@ Tight temperature control is essential because photoresist dimensions are temper
 - Maintaining 22±0.5°C requires N+1 chiller redundancy — a single chiller failure raises temperature beyond tolerance in minutes due to process equipment heat load (200-500 W/m²)
 - Dehumidification by over-cooling followed by reheat wastes energy — the cooling coil must remove more heat than needed, then the reheat coil adds heat back, consuming 30-50% more energy than direct humidity control
 
-### HVAC System Architecture
+## HVAC System Architecture
 
 **Air handling unit (AHU)**:
 
@@ -199,7 +198,7 @@ The AHU conditions outside air and recirculated air to the required temperature 
 - AHU maintenance requires system shutdown or bypass, causing cleanroom pressure loss during service windows
 - Once-through systems for hazardous gas service consume 3-5× more energy, justified only when recirculation is unsafe
 
-### Make-Up Air Details
+## Make-Up Air Details
 
 **Make-up air volume calculation**:
 
@@ -221,7 +220,7 @@ Typical make-up air: 15-30% of total cleanroom airflow. For a 100 m² ISO 5 clea
 4. **Reheating**: Electric or hot water coil brings air to 22°C.
 5. **Final filtration**: HEPA filter on the make-up air stream ensures the fresh air does not introduce particles.
 
-### Support Systems
+## Support Systems
 
 **Bulk gas distribution**:
 
@@ -237,7 +236,7 @@ Typical make-up air: 15-30% of total cleanroom airflow. For a 100 m² ISO 5 clea
 
 - Separate drain systems for acid waste, solvent waste, and general waste. Acid waste collected in chemical-resistant tanks (HDPE or FRP), neutralized before discharge. Solvent waste collected in grounded metal tanks, recycled or incinerated. Never mix acid and solvent waste streams.
 
-### Cleanroom Floor Plan and Workflow
+## Cleanroom Floor Plan and Workflow
 
 **Equipment placement principles**:
 
@@ -254,7 +253,7 @@ Typical make-up air: 15-30% of total cleanroom airflow. For a 100 m² ISO 5 clea
 - Service chase adds 20-30% to the total building footprint, increasing construction cost per square meter of usable cleanroom
 - Process flow sequence (clean → coat → expose → develop → etch → deposit → test) constrains equipment placement — deviations from the optimal flow increase wafer transport distance and contamination risk
 
-### Design Parameters Summary
+## Design Parameters Summary
 
 | Parameter | Value | Tolerance | Notes |
 |-----------|-------|-----------|-------|
@@ -270,7 +269,7 @@ Typical make-up air: 15-30% of total cleanroom airflow. For a 100 m² ISO 5 clea
 | Ceiling level tolerance | ±1.5 mm | — | Across entire ceiling |
 | Wall surface smoothness | <0.8 μm Ra | — | Mirror-finish epoxy |
 
-### Safety
+## Safety
 
 **Positive pressure hazard**: Cleanrooms maintained at +15-25 Pa above ambient create outward air flow when doors open. Interlocked airlock doors prevent both doors opening simultaneously, but manual override must only be used in emergencies. Door interlocks are fail-safe — both doors lock if power is lost.
 
@@ -282,7 +281,7 @@ Typical make-up air: 15-30% of total cleanroom airflow. For a 100 m² ISO 5 clea
 
 **Hot surface burns**: Heating coils in reheating sections of AHUs operate at 60-80°C. Insulate all accessible hot surfaces. Post warning signs on AHU access panels.
 
-### See Also
+## See Also
 
 - [HEPA/ULPA Filtration](hepa-ulpa-filtration.md) — filter technology integrated into the ceiling system
 - [Contamination Control](contamination-control.md) — operational protocols within the facility
@@ -290,6 +289,6 @@ Typical make-up air: 15-30% of total cleanroom airflow. For a 100 m² ISO 5 clea
 - [Construction](../construction/index.md) — general building construction principles (different discipline)
 - [Energy](../energy/index.md) — power requirements for HVAC and support systems
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Clean Room Technology](./index.md) • [All Domains](../index.md)*
+
+[← Back to cleanrooms](index.md)

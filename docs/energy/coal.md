@@ -34,7 +34,7 @@ Not all coal is equal. Rank (degree of metamorphism) determines energy content, 
 
 **Selection for coking**: Bituminous coal with 20-30% volatile matter, low sulfur (<1%), moderate ash (<10%). Not all coal makes good coke — test by heating a small sealed sample and checking if the residue is hard and porous (good coke) vs. powdery (non-coking coal).
 
-### Coal Rank Progression
+## Coal Rank Progression
 
 Coal forms from plant material buried and compressed over geological time. The rank progression reflects increasing heat and pressure over millions of years. Peat accumulates in wetlands where plant debris does not fully decompose (anaerobic conditions). As peat is buried under sediment, increasing pressure drives out water and increasing temperature drives off volatile compounds, concentrating fixed carbon. Progression from peat to anthracite typically requires 50-300 million years. Higher-rank coal is found in geologically older, more deeply buried deposits.
 
@@ -64,7 +64,7 @@ The rank of a coal deposit is determined primarily by the maximum temperature an
 | Ash content | 5-15% | 5-15% | 3-20% | 5-15% |
 | Sulfur content | 0.5-3% | 0.3-2% | 0.5-5% | 0.5-1.5% |
 
-### Coal Mining
+## Coal Mining
 
 See [Mining](../mining/extraction.md) for full extraction methods. Key considerations for coal specifically:
 
@@ -78,7 +78,7 @@ See [Mining](../mining/extraction.md) for full extraction methods. Key considera
 - **Room-and-pillar**: Mine horizontal tunnels (rooms) into the coal seam, leaving pillars of coal for roof support. Pillars are typically 8-15 m square, rooms 5-10 m wide. Recovery ~50% (half the coal stays in pillars). Used for flat-lying seams at moderate depth. Can extract pillars on retreat (retreat mining) for higher recovery, but with increased roof collapse risk.
 - **Longwall**: A shearer (rotary cutting drum on an armored chain) moves back and forth along a coal face 200-300 m wide, cutting coal in slices 0.6-1.0 m thick. Hydraulic roof supports (chocks, individually adjustable) advance with the shearer. Roof is allowed to collapse behind the supports (goaf). Recovery ~80%, the highest of any underground method. Requires sophisticated hydraulic equipment. Most productive underground method for thick, uniform seams. Well-suited to the steam-hydraulic technology level.
 
-### Coal Preparation
+## Coal Preparation
 
 Raw coal contains rock, clay, and sulfur-bearing minerals that reduce efficiency and increase smoke:
 
@@ -90,7 +90,7 @@ Raw coal contains rock, clay, and sulfur-bearing minerals that reduce efficiency
 - **Briquetting**: Press fines and dust into briquettes using a binder (pitch, tar, or clay at 5-10% by weight). Roll press or ram extruder at 100-200 bar. Converts waste fines into usable fuel. Essential for lignite fines, which are otherwise too dusty to handle and burn poorly. Briquette energy density: 18-22 MJ/kg with clay binder, 24-28 MJ/kg with pitch binder.
 - **Washing yield**: Typical washed coal yield from run-of-mine bituminous coal is 60-80% by weight (20-40% rejected as waste rock and mineral matter). The calorific value of the washed product increases 15-30% relative to raw coal.
 
-### Combustion Methods
+## Combustion Methods
 
 How coal is burned matters as much as what type of coal is used. The combustion method determines efficiency, labor requirements, and how completely the fuel is consumed:
 
@@ -100,7 +100,7 @@ How coal is burned matters as much as what type of coal is used. The combustion 
 
 **Ash fusion temperature**: Critical for all combustion methods — if ash melts (typically 1100-1400°C for bituminous coal), it forms clinker that blocks grates and gasifiers. High-ash-fusion coal (>1400°C) is preferred for stoker firing. Low-ash-fusion coal can be used in slagging gasifiers where molten ash is tapped continuously, like blast furnace slag.
 
-### Environmental Concerns
+## Environmental Concerns
 
 - **Sulfur content (0.5-5%)**: On combustion, sulfur oxidizes to SO₂, which forms sulfuric acid in the atmosphere → acid rain. Damages forests, acidifies waterways, corrodes stone and metal structures. Wash coal to reduce sulfur before burning. Flue gas desulfurization (scrubbers using limestone slurry) removes SO₂ post-combustion but is complex.
 - **Ash (5-20%)**: Non-combustible mineral residue. Disposal requires ash ponds or landfill. Fly ash (fine particles carried in flue gas) must be captured with electrostatic precipitators or bag filters to prevent air pollution. Bottom ash can be used as aggregate in concrete and road base.
@@ -108,7 +108,7 @@ How coal is burned matters as much as what type of coal is used. The combustion 
 - **Firedamp (methane)**: Methane (CH₄) trapped in coal seams is released during mining. Concentrations of 5-15% in air are explosive. Control by ventilation — large fans drive fresh air through mine workings. The **[Davy safety lamp](../glossary/davy-safety-lamp.md)** (invented 1815) encloses the flame in fine wire gauze screen — the gauze cools flame below ignition temperature, preventing firedamp ignition. The lamp flame changes color/height in the presence of methane, serving as a gas detector. Modern mines use electronic gas detectors.
 - **Spontaneous combustion**: See [Storage & Safety](#storage-safety) below.
 
-### Coal Combustion Calculations
+## Coal Combustion Calculations
 
 Understanding stoichiometric air requirements is essential for efficient furnace and boiler design:
 
@@ -118,7 +118,7 @@ Understanding stoichiometric air requirements is essential for efficient furnace
 - **Theoretical flame temperature**: Bituminous coal with 20% excess air reaches ~1900-2100°C adiabatic flame temperature. Actual flame temperature is lower (~1200-1500°C) due to heat losses and dissociation.
 - **Heat balance**: Of the coal's calorific value, roughly 80-90% is released as sensible heat in the furnace. Losses include: dry flue gas (10-20% — heated nitrogen and CO₂ leaving the stack), moisture in fuel and air (2-5%), unburned carbon in ash (1-5%), radiation from boiler surfaces (1-3%).
 
-### Coal Grading by Calorific Value
+## Coal Grading by Calorific Value
 
 Industrial consumers select coal grades by energy content, ash, and sulfur to match their application:
 
@@ -132,7 +132,7 @@ Industrial consumers select coal grades by energy content, ash, and sulfur to ma
 
 **Blending**: Power stations often blend high-ash and low-ash coals to meet boiler specifications. A typical blend ratio: 60% medium-ash (20% ash) + 40% low-ash (8% ash) → blended ash ~15.2%. Sulfur can also be managed by blending — mix high-sulfur coal with low-sulfur coal to stay below emission thresholds.
 
-### Coke Production Cross-Reference
+## Coke Production Cross-Reference
 
 Coking coal is the specific grade of bituminous coal (20-30% volatile matter, low sulfur, low ash) that softens, swells, and re-solidifies into hard, porous coke when heated to 900-1100°C in the absence of air. Coke is the indispensable fuel for blast furnace ironmaking and silicon reduction, burning at 1800-2100°C — far hotter than raw coal can achieve.
 
@@ -140,7 +140,7 @@ Coking coal is the specific grade of bituminous coal (20-30% volatile matter, lo
 - **Coking coal is a strategic resource**: Not all bituminous coal is suitable for coking. Low-phosphorus coking coal (<0.05% P) is particularly scarce and valuable — phosphorus cannot be removed from steel and causes cold shortness.
 - **See full detail**: [coke.md](coke.md) for beehive ovens, by-product recovery ovens, coke quality specifications, and quenching methods.
 
-### Coal Gasification
+## Coal Gasification
 
 Coal can be converted to combustible gases by partial combustion or reaction with steam — useful for producing fuel gas without full combustion. Gasification is the bridge between solid coal and gaseous/liquid fuel applications:
 
@@ -155,7 +155,7 @@ Coal can be converted to combustible gases by partial combustion or reaction wit
 
 **[Gasifier construction](../glossary/gasifier-construction.md)** (for producer gas — simplest type): Vertical cylindrical shaft of firebrick or steel-lined refractory. Coal/charcoal charged from top. Air inlet (tuyere) near bottom. Grate at bottom supports fuel bed. Gas outlet near top (updraft) or at grate level (downdraft — cleaner gas, less tar). Diameter 0.5-3 m depending on output. Typical output: 100-5000 m³ gas/hour. The gasifier grate must rotate or be shaken periodically to break up clinker (ash that has fused into solid masses at high temperature). Clinker formation is worse with high-ash coal — use washed coal for gasification. Gas exit temperature: 400-600°C (updraft, sensible heat in gas) or 100-200°C (downdraft, heat consumed by reduction reactions).
 
-### Storage & Safety
+## Storage & Safety
 
 Coal in large piles can self-heat and ignite spontaneously from bacterial oxidation of pyrite (FeS₂) and slow reaction with air. This is a serious hazard at mines, power stations, and any facility storing large quantities of coal:
 - **Pile size**: Limit stockpile height to 3-5 m. Avoid compaction (compressed coal oxidizes faster).
@@ -166,7 +166,7 @@ Coal in large piles can self-heat and ignite spontaneously from bacterial oxidat
 - **Coal workers' pneumoconiosis (black lung)**: Chronic inhalation of coal dust causes progressive lung fibrosis. Prevention: wet cutting (water spray on drill and cutting heads), ventilation, and respiratory protection for all underground workers. Dust concentration limit: <2 mg/m³ of respirable dust.
 - **Subsidence**: Underground mining removes support, causing surface ground to subside. Building damage, altered drainage, and disrupted infrastructure result. Fill mined voids with waste rock (stowing) where possible.
 
-### Cross-References
+## Cross-References
 
 - **Coke production** (refined coal): [coke.md](coke.md)
 - **Steam power** (primary coal consumer): [steam-power.md](steam-power.md)
@@ -174,7 +174,7 @@ Coal in large piles can self-heat and ignite spontaneously from bacterial oxidat
 - **Mining methods**: [extraction.md](../mining/extraction.md)
 - **Iron smelting** (coke-fueled blast furnace): [iron-steel.md](../metals/iron-steel.md)
 
-### Combustion Equipment Selection
+## Combustion Equipment Selection
 
 Matching combustion method to application determines overall system efficiency:
 
@@ -189,29 +189,26 @@ Matching combustion method to application determines overall system efficiency:
 
 **Ash handling**: All coal combustion produces ash (5-20% of fuel weight). Bottom ash falls through the grate into an ash pit — remove regularly to prevent airflow blockage. Fly ash (fine particles entrained in flue gas) must be captured with cyclone separators (60-80% capture) or electrostatic precipitators (99%+ capture, requires electricity). Fly ash is usable as pozzolanic additive in cement, replacing 15-30% of Portland cement.
 
-### Environmental Controls
+## Environmental Controls
 
 - **Particulate emission**: Uncontrolled coal combustion emits 10-50 kg of fly ash per tonne of coal burned. Cyclone collectors reduce this to 2-10 kg/t, bag filters to <0.05 kg/t, and electrostatic precipitators to <0.02 kg/t. Without particulate control, surrounding areas suffer severe air quality degradation.
 - **SO₂ control**: Flue gas desulfurization (FGD) sprays limestone (CaCO₃) slurry into the flue gas. Reaction: CaCO₃ + SO₂ + ½O₂ → CaSO₄·2H₂O (gypsum). Removes 90-97% of SO₂. Gypsum byproduct is usable in wallboard manufacture. Alternatively, simple wet scrubbers using seawater or alkaline waste water achieve 70-90% removal.
 - **NOx control**: Formed from nitrogen in combustion air at temperatures above 1300°C. Control methods: staged combustion (primary zone fuel-rich, secondary zone air-rich — reduces peak temperature), flue gas recirculation (dilutes combustion air with inert gas, lowering peak temperature by 100-200°C), and low-NOx burners (designed to delay fuel-air mixing).
 
-### Coal Storage & Transport
+## Coal Storage & Transport
 
 - **Stockpile management**: Coal stored outdoors degrades from weathering (oxidation, moisture cycling). Lignite degrades fastest — loses 5-15% calorific value per year of outdoor storage. Bituminous coal is more stable but still loses 1-3% per year. Anthracite is essentially stable indefinitely.
 - **Transport**: By barge (cheapest per tonne-km, ~0.01-0.03 $/tkm), rail (standard for inland transport, 0.03-0.08 $/tkm), truck (flexible but expensive, 0.10-0.30 $/tkm), or conveyor (mine-mouth to power station, <10 km distance). A standard rail gondola car carries 90-100 tonnes of coal; a unit train of 100 cars delivers ~10,000 tonnes.
 - **Handling equipment**: Bucket ladder reclaimer for stockpile retrieval (500-5000 t/hour). Conveyor belts (0.5-2.0 m wide, 2-5 m/s belt speed) for movement between receiving, storage, and consumption points. Chutes and transfer towers must be designed with minimum 50° angles to prevent coal bridging and plugging.
 
-### Summary
+## Summary
 
 Coal is the foundational fossil fuel of industrial civilization. It provides the highest energy density of any solid fuel, powers steam engines and furnaces, and feeds coke ovens for iron smelting. Understanding coal rank is essential: burning lignite where bituminous is needed wastes energy on evaporating moisture, while using anthracite for coking fails entirely (it won't soften and fuse). Coal gasification extends coal's utility to gaseous fuel applications, and town gas was historically the path to urban lighting and the chemical industry. The environmental costs — acid rain, mine drainage, air pollution — must be managed from the outset through coal washing, ventilation, and proper waste handling.
 
 **Critical path**: The sequence from raw coal to industrial capability is: mine coal → wash and size → burn in boilers for steam power → select coking coal → produce coke → smelt iron at scale → build machines → generate electricity → bootstrap all subsequent industry.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
 
----
 
 **[Coal data summary](../glossary/coal-data-summary.md)** (typical bituminous, washed):
 - Calorific value: 26-32 MJ/kg
@@ -220,7 +217,7 @@ Coal is the foundational fossil fuel of industrial civilization. It provides the
 - Stoichiometric air: ~8 kg air/kg coal
 - Ash fusion temperature: 1100-1400°C
 
-### Limitations
+## Limitations
 
 - **Environmental impact**: Coal combustion produces CO₂ (the dominant greenhouse gas), SO₂ (acid rain), NOₓ, and particulate matter. Sulfur content 0.5-2% creates significant air quality concerns.
 - **Mining hazards**: Underground coal mining risks include methane explosions, coal dust explosions, roof collapse, and black lung disease. Surface mining causes habitat destruction and acid mine drainage.

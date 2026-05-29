@@ -8,7 +8,6 @@
 > **Outputs**: pharmaceuticals
 > **Critical**: Yes — without pharmacological knowledge, drug preparation is unstandardized and potentially dangerous
 
-## Overview
 
 Pharmacology in a bootstrap civilization covers the extraction, preparation, formulation, quality control, and safe administration of therapeutic substances. The earliest phase relies on plant-derived medicines (salicin from willow bark, morphine from opium poppy, quinine from cinchona bark). As chemical manufacturing capability develops, synthetic pharmaceuticals become available — aspirin from Kolbe-Schmitt synthesis, ether and chloroform for anesthesia, phenol for antisepsis. Quality control advances from simple organoleptic testing (appearance, odor, taste) to thin-layer chromatography and microbial limit testing.
 
@@ -16,7 +15,7 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 
 ## Materials
 
-### Drug Source Materials
+## Drug Source Materials
 
 | Material | Active Compound | Harvest/Source | Preparation |
 |----------|----------------|---------------|-------------|
@@ -27,7 +26,7 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 | Digitalis leaves | Digoxin, digitoxin | Dried foxglove leaves | Alcohol tincture |
 | Kelp / seaweed ash | Iodine | Dried, burned seaweed | Acid extraction, sublimation |
 
-### Pharmaceutical Excipients and Reagents
+## Pharmaceutical Excipients and Reagents
 
 | Material | Use | Source |
 |----------|-----|--------|
@@ -58,7 +57,7 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 
 ## Steps
 
-### Preparing a Willow Bark Decoction
+## Preparing a Willow Bark Decoction
 
 1. **Harvest bark**: Collect willow bark in spring when sap flows. Strip bark from branches 2-5 cm diameter. Dry in shade for 2-3 days.
 2. **Grind**: Break dried bark into small pieces (1-3 cm) using mortar and pestle.
@@ -82,7 +81,7 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 - Water-based decoction spoils within 24 hours at room temperature — must be prepared fresh daily
 - Salicin is less potent than synthetic aspirin — patients need to consume large volumes of bitter liquid
 
-### Performing TLC Drug Identity Testing
+## Performing TLC Drug Identity Testing
 
 1. **Prepare plate**: Cut silica-gel TLC plate to size. Draw pencil line 1 cm from bottom (origin).
 2. **Spot samples**: Apply test sample and reference standard side by side on origin line using capillary tube. Keep spots <3 mm.
@@ -106,7 +105,7 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 - Silica-gel plates require manufacturing capability (sodium silicate + acid precipitation → silica gel → coating on glass/aluminum)
 - Rf values shift with temperature, humidity, and solvent batch — always requires a same-plate reference standard
 
-### Solvent Extraction Methods
+## Solvent Extraction Methods
 
 **Solvent extraction methods**:
 - **Maceration**: Soak crushed plant material in solvent at room temperature for 24-72 hours. Agitate periodically. Strain through cloth or filter. Best for heat-sensitive compounds. Ratio: typically 1:5 to 1:10 (plant weight:solvent volume).
@@ -119,7 +118,7 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 - **Ethanol**: Extracts alkaloids, flavonoids, resins, essential oils. 40-70% ethanol optimal for most plant compounds. Preservative — tinctures shelf-stable for years. Requires distillation capability.
 - **Oil (fixed)**: Olive, sesame, or animal fat. Extracts lipid-soluble compounds (fat-soluble vitamins, certain alkaloids). Use for topical preparations. Gentle heat (50-60°C) speeds extraction.
 
-### Dosage Forms
+## Dosage Forms
 
 **[Tinctures](../glossary/tinctures.md)** (ethanol-based extracts):
 - Prepare by maceration or percolation with 40-70% ethanol. Standard ratios: 1:5 (1 g plant per 5 mL solvent) for dried herbs; 1:2 for fresh herbs (higher water content). Let steep 14+ days, shake daily. Decant, press residue, filter. Dose: typically 1-5 mL diluted in water. Example: iodine tincture (5% I₂, 10% KI in 70% ethanol).
@@ -135,7 +134,7 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 
 **Suppositories**: Melt cocoa butter (theobroma oil, melts at 30-35°C — body temperature) or glycerinated gelatin. Mix in drug. Pour into molds (bullet-shaped, 2-3 g each). Cool, wrap in foil or wax paper. For rectal or vaginal drug delivery.
 
-### Key Drug Categories
+## Key Drug Categories
 
 **[Analgesics](../glossary/analgesics.md)** (see medicine.md for clinical use):
 - Willow bark: salicin extraction by water decoction (30 g bark per 500 mL). Later acetylated to aspirin at 85°C with acetic anhydride.
@@ -154,21 +153,21 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 - Diethyl ether: ethanol + H₂SO₄ at 140°C. Distill at 34.6°C. Forms explosive peroxides in storage — test with starch-iodide paper before use (blue = discard).
 - Chloroform: acetone or ethanol + bleaching powder. BP 61°C. Hepatotoxic with repeated exposure.
 
-### Drug Delivery Routes
+## Drug Delivery Routes
 
 - **Oral**: Simplest. Tinctures, powders, pills, decoctions. First-pass metabolism reduces bioavailability (drug passes through liver before systemic circulation).
 - **Topical**: Ointments, salves, tinctures applied to skin or mucous membranes. Local effect. Limited systemic absorption.
 - **Inhalation**: Volatile anesthetics (ether, chloroform) via cloth mask or vaporizer. Rapid onset — direct to lungs to blood to brain.
 - **[Injection](../glossary/injection.md)** (advanced — requires glass syringes + needles): Intravenous (immediate onset), intramuscular (sustained release). Sterile technique mandatory. Hypodermic needle: drawn-glass syringe + steel needle (requires precision metalworking).
 
-### Quality Control
+## Quality Control
 
 - **Identity testing**: Compare color, smell, taste, crystal form to known reference. Simple chemical tests — e.g., FeCl₃ turns purple with salicylates, orange with tannins. Melting point determination (pure substances melt sharply over 1-2°C range).
 - **Purity assessment**: Check for contamination (microbial growth, particulate matter). Water content (dry weight). Crystal appearance — cloudy or off-color indicates impurities.
 - **Dosage uniformity**: Weigh individual tablets/pills from each batch. All must be within ±10% of target weight. Adjust press or molding process if outside range.
 - **Stability testing**: Store samples at elevated temperature (40°C) for 1 month as accelerated aging. Check potency, appearance, dissolution. If stable at 40°C for 1 month → estimated 2-year shelf life at room temperature.
 
-### Drug Preparation Techniques
+## Drug Preparation Techniques
 
 **Extraction methods in detail**:
 - **Maceration**: Submerge crushed plant material in solvent at room temperature. Agitate daily. Duration 3-7 days for complete extraction. Decant supernatant, press residue to recover trapped solvent, combine extracts. Suitable for heat-labile compounds (alkaloids, glycosides). Disadvantage: slow, and water-based macerations may ferment if left too long.
@@ -189,14 +188,14 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 - **Digitalis leaf**: Harvest second-year leaves of Digitalis purpurea at the start of flowering (highest glycoside content). Dry rapidly at 60°C (prevents enzymatic degradation of cardiac glycosides). The dried leaf is powdered and formulated into tablets. Potency varies between batches and must be assayed. Historically, bioassay on cats (comparing the lethal dose to a reference standard) was used to standardize potency. Therapeutic dose: 0.1-0.2 mg digitoxin equivalent daily. The therapeutic and toxic doses are very close.
 - **Quinine from Cinchona bark**: Cinchona bark contains 2-7% total alkaloids (quinine, quinidine, cinchonine, cinchonidine). Extract with hot water (decoction, 10 g bark per 100 mL water, boil 20 minutes). Filter hot. Add lime (CaO) or NaOH to alkalize the solution (pH >9). Quinine precipitates as free base. Collect precipitate by filtration. Dissolve in dilute sulfuric acid to form quinine sulfate (more soluble, stable salt). Recrystallize from hot water. Quinine sulfate: white crystalline powder, melting point 205°C. Dose: 600 mg quinine sulfate every 8 hours for 7 days for malaria treatment.
 
-### Storage
+## Storage
 
 - **Containers**: Amber glass bottles (blocks UV light degradation). Seal with cork or glass stopper. Label with drug name, concentration, preparation date, expiration.
 - **Conditions**: Cool (below 25°C), dry, dark. Refrigerate tinctures and perishable preparations (2-8°C) if possible. Desiccants (silica gel packets) for hygroscopic drugs (absorbs atmospheric moisture, prevents caking and degradation).
 - **Expiration**: Assign based on stability testing. General guidance: water-based preparations 1-2 weeks (refrigerated), tinctures 2-5 years, dried herbs 1-2 years, tablets 2-3 years. Mark date clearly on label. Discard expired drugs — degraded compounds may be toxic (e.g., degraded tetracycline causes kidney damage).
 - **Special hazards**: Ether → store in dark, sealed containers, test for peroxides. Opium/morphine → secure storage, inventory control. Iodine → sealed glass (sublimes at room temperature).
 
-### Dosing Reference Table
+## Dosing Reference Table
 
 > **WARNING**: These dosages are rough historical references for educational and bootstrap-context use only. Clinical expertise is irreplaceable. Many of these drugs have narrow therapeutic windows and serious side effects. Weigh all compounds on an accurate balance (0.1 g minimum precision). When in doubt, underdose and observe rather than overdose.
 
@@ -211,14 +210,14 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 | Epinephrine (adrenaline) | 0.3-0.5 mg (1:1000) | IM | 2-5 min | 10-30 min | For anaphylaxis and cardiac arrest; do not give IV unless cardiac arrest |
 | Sulfonamide (prontosil/sulfa) | 2-4 g initial, then 1 g every 6 hr | Oral | 1-2 hr | 6 hr | Adequate fluid intake required (crystalluria risk); first synthetic antibiotic |
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Drug toxicity and overdose**: Many pharmaceutical compounds have narrow therapeutic windows (e.g., digitalis: therapeutic dose 0.125 mg, toxic dose close above). Weigh all compounds on accurate balance (0.1 g minimum precision). When uncertain, underdose and observe. Start with lowest effective dose.
 - **Mercury and arsenic compounds**: Historical pharmaceutical ingredients (mercury for syphilis, arsenic for various treatments) are highly toxic. Mercury is a cumulative neurotoxin. Arsenic is acutely lethal at ~100 mg. Avoid if safer alternatives exist.
 - **Ether anesthesia**: Explosive. No flames, sparks, or electrical equipment that could spark in the operating area. Use in well-ventilated space to prevent vapor accumulation.
 - **Contamination**: Pharmaceutical production requires clean conditions. Contaminated drugs cause infections or unpredictable effects. Sterilize equipment and containers.
 
-### Drug Stability and Degradation
+## Drug Stability and Degradation
 
 **Common degradation pathways**:
 - **Hydrolysis**: Water reacts with drug molecules, breaking ester and amide bonds. Aspirin hydrolyzes to salicylic acid and acetic acid (vinegar smell indicates degradation). Store aspirin in dry conditions. Rate increases dramatically with humidity and temperature.
@@ -231,7 +230,7 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 - **Accelerated**: Store at 40±2°C, 75±5% RH for 6 months. If the drug remains within specifications (assay 90-110% of label claim, degradation products below limits), a provisional shelf life of 2 years at room temperature can be assigned.
 - **Freeze-thaw**: Cycle between -10°C and +25°C (3 cycles over 72 hours). Tests whether the formulation separates, precipitates, or changes consistency. Required for liquid dosage forms that may be shipped through cold climates.
 
-### Compounding and Formulation
+## Compounding and Formulation
 
 **Suppository formulation**:
 - **Base selection**: Cocoa butter (theobroma oil) melts at 30-35°C (just below body temperature). Pour melted base into molds, refrigerate to set. For drugs that interact with cocoa butter, use glycerinated gelatin (gelatin + glycerin + water, dissolves rather than melts at body temperature).
@@ -245,7 +244,7 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 - **Glass ampoules**: Seal drug solution in glass ampoules (drawn glass tube, flame-sealed). Autoclave at 121°C for 15 minutes to sterilize. Break ampoule neck to open. Use once, discard.
 - **Rubber-stoppered vials**: Multi-dose vials with rubber stopper penetrated by hypodermic needle. Preservative (benzyl alcohol 0.9% or phenol 0.5%) prevents bacterial growth after first puncture. Sterilize by autoclaving after filling and sealing.
 
-### Drug Interactions and Contraindications
+## Drug Interactions and Contraindications
 
 **Common dangerous interactions**:
 - **Digitalis + potassium depletion**: Low serum potassium (hypokalemia, from diuretic use or severe diarrhea) potentiates digitalis toxicity. The heart becomes dangerously sensitive to digitalis at normal doses when potassium is low. Monitor serum potassium in patients on digitalis. Supplement potassium orally (KCl 20-40 mEq/day) if levels are low.
@@ -258,7 +257,7 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 - Specific teratogens: quinine (high doses cause congenital deafness), tetracycline (discolors developing teeth and bones), warfarin (skeletal and CNS abnormalities), most chemotherapy agents.
 - Safe in pregnancy: acetaminophen (paracetamol) for pain/fever, penicillin antibiotics, iron supplements, folic acid (reduces neural tube defects at 0.4-4 mg/day).
 
-### Pharmaceutical Weighing and Measurement
+## Pharmaceutical Weighing and Measurement
 
 **Balance types for drug preparation**:
 - **Analytical balance**: Beam balance with knife-edge fulcrum, sensitivity 0.1 mg. Required for weighing potent drugs (digitalis, morphine, atropine) where dose accuracy is critical. Enclosed in a glass draft shield to prevent air currents from affecting readings. Calibrate with certified weight set before each use session.
@@ -267,7 +266,7 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 
 **Temperature measurement**: Mercury or alcohol thermometer, 0-200°C range, 1°C graduations. Used for monitoring: melting points (purity verification), reaction temperatures during synthesis, storage temperatures, autoclave cycles. Melting point apparatus: Thiele tube (oil-filled tube with side arm, heated with Bunsen burner) holds capillary tube containing the sample. Observe the temperature range over which the sample melts (sharp melting over 1-2°C = pure; broad range = impure).
 
-### Drug Naming and Documentation
+## Drug Naming and Documentation
 
 **Nomenclature conventions**:
 - **Botanical name**: Genus and species in italics (e.g., *Salix alba* for white willow). The botanical name is unambiguous, unlike common names which vary by region and language.
@@ -279,7 +278,7 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 - **Batch record**: For each batch of drug prepared, document: date, starting materials (source, lot, weight), process steps (times, temperatures, observations), yield, quality control test results, and expiry date assigned. This record enables traceability and investigation of any adverse reactions.
 - **Adverse reaction tracking**: Log all suspected drug reactions with: drug name, batch, dose, route, time to onset, symptoms, severity, treatment, and outcome. Patterns of adverse reactions with specific batches indicate manufacturing problems. Patterns with specific drugs indicate dosing or safety issues.
 
-### Regulatory and Ethical Considerations
+## Regulatory and Ethical Considerations
 
 **Informed consent in a bootstrap context**:
 - Every patient has the right to know: what drug is being given, what it is expected to do, what the known side effects are, and what alternatives exist. In a resource-limited setting where options are fewer, informed consent carries greater weight because the patient bears greater risk.
@@ -291,7 +290,7 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 - **Distribution**: Record lot numbers and expiry dates at each transfer point. First-expire, first-out (FEFO) stock rotation. Segregate expired drugs for disposal (never re-label or redistribute).
 - **Counterfeit detection**: In a rebuilding scenario, counterfeit and substandard drugs are a significant risk. Check: packaging quality, label accuracy, lot number consistency, physical appearance (color, odor, texture), and perform basic chemical tests (melting point, simple reagent tests) on suspicious batches.
 
-### Analytical Quality Control
+## Analytical Quality Control
 
 **Thin-layer chromatography (TLC) for drug identity**:
 - **Method**: Spot the test sample and a known reference standard side by side on a silica-gel TLC plate (glass or aluminum sheet coated with silica gel, 0.2 mm thickness). Develop in a sealed chamber containing a shallow pool of mobile phase solvent (e.g., ethyl acetate:methanol:water 77:15:8 for alkaloids; chloroform:methanol 9:1 for many plant compounds). Capillary action draws the solvent up the plate. Different compounds travel at different rates based on polarity and interaction with the silica stationary phase.
@@ -303,7 +302,6 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 - **Specific pathogens**: Absence of *E. coli*, *Salmonella*, *S. aureus*, and *P. aeruginosa* in 1 g (oral products) or 10 g (topical products). Test by enrichment culture in selective broth, then subculture on selective agar (MacConkey for *E. coli*, bismuth sulfite for *Salmonella*).
 - **Heavy metals**: Lead <20 ppm, arsenic <5 ppm, cadmium <1 ppm, mercury <1 ppm. Test by colorimetric methods (lead: extract with dithizone in chloroform, compare color intensity to standards) or, at advanced capability, atomic absorption spectroscopy. Contamination sources: soil (plants absorb metals from contaminated ground), processing equipment (lead solder, brass fittings), and vehicle/industrial emissions near growing areas.
 
----
 
 ## Limitations
 
@@ -323,6 +321,6 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 - [Acids and Bases](../chemistry/acids-bases.md) — sulfuric acid, hydrochloric acid for synthesis
 - [Chemistry](../chemistry/index.md) — organic synthesis, distillation, extraction
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Health](./index.md) • [All Domains](../index.md)*
+
+[← Back to Health](index.md)

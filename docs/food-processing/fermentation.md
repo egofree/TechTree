@@ -8,7 +8,6 @@
 > **Outputs**: sourdough_bread, sauerkraut, kimchi, soy_sauce, miso, tempeh, pickles, vinegar
 > **Critical**: No — fermentation enhances nutrition and preservation but other methods can substitute
 
-## Overview
 
 Food fermentation is the controlled cultivation of microorganisms — lactic acid bacteria, yeasts, molds, and acetic acid bacteria — to transform raw foods into more stable, nutritious, and digestible products. Unlike the alcoholic fermentation covered in [Brewing & Distilling](brewing.md), food fermentation focuses on non-alcoholic transformations: vegetables into sauerkraut and kimchi, soybeans into soy sauce and tempeh, milk into yogurt and cheese (see [Dairy Processing](dairy.md)), and flour into sourdough bread.
 
@@ -18,7 +17,7 @@ For industrial ethanol and solvent fermentation, see [Chemistry: Fermentation](.
 
 ## Prerequisites
 
-### Materials
+## Materials
 
 - **Salt (NaCl)**: 2-3% concentration for vegetable fermentation; 12-18% for soy sauce brine. Non-iodized salt preferred — iodine inhibits lactic acid bacteria. Source: [Mining](../mining/processing.md) or solar evaporation of seawater.
 - **Water**: Clean, chlorine-free. Chlorine in municipal water kills lactic acid bacteria. Remove by boiling and cooling, or by leaving uncovered for 24 hours. Source: [Water Supply](../water/basic-treatment.md).
@@ -27,7 +26,7 @@ For industrial ethanol and solvent fermentation, see [Chemistry: Fermentation](.
 - **Vegetables**: Cabbage, radish, cucumber, carrot, and other produce. Source: [Agriculture](../foundations/food-agriculture.md).
 - **Soybeans**: For soy sauce, miso, tempeh, natto. Source: [Agriculture](../foundations/food-agriculture.md).
 
-### Tools and Equipment
+## Tools and Equipment
 
 - **Fermentation vessels**: Ceramic crocks (glazed or unglazed), glass jars, wooden barrels. Must be non-reactive — no bare iron, copper, or aluminum (metals leach into acidic ferment). Source: [Ceramics](../ceramics/index.md).
 - **Weights**: To submerge vegetables under brine. Glass disks, boiled stones, or food-grade plastic bags filled with brine.
@@ -35,7 +34,7 @@ For industrial ethanol and solvent fermentation, see [Chemistry: Fermentation](.
 - **Thermometer**: Range -10°C to 100°C, accuracy ±1°C. Fermentation temperature control is critical for consistent results.
 - **pH meter or strips**: Range 2.0-7.0, accuracy ±0.2. Target pH <4.6 for safety confirmation.
 
-### Knowledge
+## Knowledge
 
 - Understanding of anaerobic vs. aerobic conditions and their effect on microbial selection
 - Ability to identify contamination by sight (mold colors, texture changes) and smell (putrid, acetone, solvent odors)
@@ -56,7 +55,7 @@ For industrial ethanol and solvent fermentation, see [Chemistry: Fermentation](.
 
 ## Process Description
 
-### Sourdough Bread
+## Sourdough Bread
 
 Sourdough uses wild yeast (*Saccharomyces exiguus*, *Candida milleri*) and lactic acid bacteria (*Lactobacillus sanfranciscensis*, *L. brevis*) maintained in a flour-water culture called a starter or levain.
 
@@ -89,7 +88,7 @@ Sourdough uses wild yeast (*Saccharomyces exiguus*, *Candida milleri*) and lacti
 - Sourdough timing is temperature-sensitive: ±3°C changes fermentation speed by 50%, making consistent results difficult without temperature control
 - High-humidity doughs (72%+ hydration) are sticky and difficult to handle — require practiced technique and well-floured surfaces
 
-### Vegetable Fermentation (Sauerkraut)
+## Vegetable Fermentation (Sauerkraut)
 
 1. **Selection**: Fresh, compact cabbage heads. Outer leaves removed. Core retained — highest lactobacillus population.
 2. **Shredding**: Slice cabbage 1-3 mm thick using knife or mandoline. Thinner = faster fermentation, softer texture. Thicker = crunchier.
@@ -115,7 +114,7 @@ Sourdough uses wild yeast (*Saccharomyces exiguus*, *Candida milleri*) and lacti
 - Temperature above 25°C produces mushy texture and off-flavors from rapid fermentation; below 15°C fermentation stalls
 - High sodium content (600-1,500 mg per 100 g) is a health concern for workers with hypertension
 
-### Kimchi
+## Kimchi
 
 Korean-style fermented vegetables, typically napa cabbage and Korean radish with chili, garlic, ginger, and fermented seafood:
 
@@ -136,7 +135,7 @@ Korean-style fermented vegetables, typically napa cabbage and Korean radish with
 - Seasoning paste must coat every leaf individually — labor-intensive process requiring 20-40 minutes per cabbage head
 - Carbon dioxide from fermentation builds pressure in sealed containers; glass jars can crack if not vented
 
-### Soy Sauce (Shoyu)
+## Soy Sauce (Shoyu)
 
 Soy sauce production is a two-stage fermentation spanning 6-18 months:
 
@@ -166,7 +165,7 @@ Soy sauce production is a two-stage fermentation spanning 6-18 months:
 - Koji incubation temperature must stay below 40°C or the mold dies — requires daily monitoring and active cooling in hot climates
 - Pressing moromi at 50-100 kg/cm² requires a heavy-duty screw press or hydraulic press — not achievable with simple wooden presses
 
-### Tempeh
+## Tempeh
 
 Tempeh is fermented soybean cake from Indonesia, produced by *Rhizopus oligosporus* mold:
 
@@ -189,7 +188,7 @@ Tempeh is fermented soybean cake from Indonesia, produced by *Rhizopus oligospor
 
 ## Quantitative Parameters
 
-### Fermentation Parameters by Product
+## Fermentation Parameters by Product
 
 | Parameter | Sourdough | Sauerkraut | Soy Sauce | Tempeh | Miso |
 |-----------|:---------:|:----------:|:---------:|:------:|:----:|
@@ -199,7 +198,7 @@ Tempeh is fermented soybean cake from Indonesia, produced by *Rhizopus oligospor
 | Salt concentration | 1.8-2.2% | 2.0-2.5% | 16-18% (brine) | None | 10-13% |
 | Primary organism | *L. sanfranciscensis* | *L. plantarum* | *A. oryzae* + LAB | *R. oligosporus* | *A. oryzae* + LAB |
 
-### Lactic Acid Fermentation Progression (Sauerkraut)
+## Lactic Acid Fermentation Progression (Sauerkraut)
 
 | Day | pH | LAB Population (CFU/g) | Dominant Species | Sensory |
 |:---:|:--:|:----------------------:|------------------|---------|
@@ -210,7 +209,7 @@ Tempeh is fermented soybean cake from Indonesia, produced by *Rhizopus oligospor
 | 21 | 3.4-3.8 | 10⁷-10⁸ | *L. plantarum*, *L. brevis* | Fully sour |
 | 30+ | 3.2-3.6 | 10⁶-10⁷ | *Pediococcus* species | Very sour, soft |
 
-### Sourdough Hydration and Flour Ratios
+## Sourdough Hydration and Flour Ratios
 
 | Hydration % | Dough Character | Crumb Structure | Handling Difficulty | Typical Use |
 |:-----------:|:---------------:|:---------------:|:-------------------:|:-----------:|
@@ -277,7 +276,7 @@ Tempeh is fermented soybean cake from Indonesia, produced by *Rhizopus oligospor
 
 **Low-salt alternatives**: For situations where salt is scarce, reduce salt to 1.5% and rely on starter culture (*Lactobacillus plantarum* at 10⁶ CFU/g) to outcompete undesirable organisms. Risk increases — monitor pH closely.
 
-## References
+## See Also
 
 - [Brewing & Distilling](brewing.md) — alcoholic fermentation, distillation chemistry, and yeast biology
 - [Food Preservation](preservation.md) — broader preservation methods including fermentation overview
@@ -287,6 +286,6 @@ Tempeh is fermented soybean cake from Indonesia, produced by *Rhizopus oligospor
 - [Chemistry: Fermentation](../chemistry/fermentation.md) — industrial fermentation chemistry, ethanol production
 - [Health & Sanitation](../health/sanitation.md) — food safety and hygiene protocols
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*
+
+[← Back to Food Processing](index.md)

@@ -8,7 +8,6 @@
 > **Outputs**: toxic_substance_databases, exposure_limits, antidote_protocols, material_safety_data
 > **Critical**: No — enhances safety but chemical handling can proceed at basic level without formal toxicology
 
-## Overview
 
 Toxicology covers the identification, quantification, and management of toxic substances encountered in industrial, pharmaceutical, and environmental contexts. This capability extends [chemical-safety](chemical-safety.md) — which focuses on semiconductor process chemicals — into general toxicology for the full range of industrial chemicals a bootstrap civilization will encounter: smelting fumes, acid mists, organic solvents, heavy metals, and plant/animal toxins.
 
@@ -24,7 +23,7 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 | Chemical identification (unknown) | GC-MS or FTIR analysis | ±1-5% | $200-500 per sample | Hours to days |
 | Biological exposure assessment | Blood/urine biomarker analysis | ±10-20% | $50-300 per test | Days (lab analysis) |
 
-### Implementation Steps
+## Implementation Steps
 
 1. **Inventory all chemical hazards**: Document every chemical in use with SDS on file. For each, identify exposure route, TLV, and IDLH.
 2. **Establish baseline monitoring**: Conduct initial full-shift personal air sampling for all job categories with chemical exposure potential. Use results to prioritize control efforts.
@@ -33,7 +32,7 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 5. **Build antidote stockpile**: Ensure calcium gluconate gel (HF), sodium thiosulfate (cyanide), and atropine (organophosphates) are available at every first aid station.
 6. **Review quarterly**: Analyze exposure trends. Investigate any result above 50% of TLV. Update monitoring strategy when processes change.
 
-### Toxic Response Trade-offs
+## Toxic Response Trade-offs
 
 | Response Strategy | Speed | Effectiveness | Risk | Best For |
 |------------------|-------|--------------|------|---------|
@@ -44,14 +43,14 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 
 ## Prerequisites
 
-### Materials
+## Materials
 
 - Reference materials: chemical identification charts, SDS (Safety Data Sheet) library
 - Detection equipment: gas detector tubes (colorimetric), pH paper, chlorine test strips
 - Emergency supplies: calcium gluconate gel (HF antidote), activated charcoal (oral poison adsorbent), sodium thiosulfate (cyanide antidote), oxygen supply
 - Sample collection: impinger bottles, sorbent tubes, filter cassettes for air sampling
 
-### Tools and Equipment
+## Tools and Equipment
 
 - Analytical balance (0.01 g)
 - Fume hood or well-ventilated workspace for testing
@@ -59,14 +58,14 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 - Personal air sampling pumps (if available)
 - Biological testing supplies: urine collection containers, blood collection tubes
 
-### Knowledge
+## Knowledge
 
 - Dose-response relationships: LD50, LC50, NOAEL, LOAEL concepts
 - Exposure routes: inhalation, dermal absorption, ingestion, injection
 - Target organ toxicology: which chemicals damage which organs
 - Antidote mechanisms: specific vs. nonspecific, when each is appropriate
 
-### Infrastructure
+## Infrastructure
 
 - Ventilated workspace for handling toxic materials
 - Emergency eyewash and shower (see [emergency-response](emergency-response.md))
@@ -86,21 +85,21 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 
 ## Process Description
 
-### Toxic Substance Identification
+## Toxic Substance Identification
 
 1. **Gather information**: Identify the chemical by name, formula, and CAS number. Consult SDS (Safety Data Sheet) — Section 2 (hazard identification), Section 8 (exposure controls), Section 10 (stability/reactivity), Section 11 (toxicological information). If SDS unavailable, use chemical name to search available references.
 2. **Classify the hazard**: Determine acute toxicity (LD50/LC50), chronic toxicity (target organs, carcinogenicity), physical hazards (flammability, reactivity), and environmental hazards. Assign NFPA 704 diamond rating (see [chemical-safety](chemical-safety.md)).
 3. **Determine exposure route**: Inhalation (gases, vapors, dusts, fumes), dermal (skin contact, absorption), ingestion (hand-to-mouth, contaminated food/water), or injection (puncture wounds, needles).
 4. **Assess exposure level**: Compare measured or estimated exposure concentration to established limits (TLV-TWA, TLV-STEL, PEL, IDLH). Use detector tubes, electronic monitors, or air sampling to measure concentration.
 
-### Air Monitoring Procedure
+## Air Monitoring Procedure
 
 1. **Select monitoring method**: Colorimetric detector tubes for quick spot checks (±25% accuracy). Personal air sampling pumps with sorbent tubes for full-shift TWA measurements (±10% accuracy). Direct-reading instruments for real-time monitoring (requires electronics).
 2. **Position detector tube**: Break both ends of the glass detector tube. Insert into pump. Pull handle for specified number of strokes (each stroke = 100 mL air volume). Read concentration directly from tube color change scale.
 3. **Full-shift personal sampling**: Attach sampling pump to worker's collar (breathing zone). Set flow rate per method specification (typically 50-200 mL/min). Run for minimum 6 hours of 8-hour shift. Send sorbent tube to laboratory for analysis (if laboratory available).
 4. **Interpret results**: Compare to TLV-TWA for 8-hour average, TLV-STEL for 15-minute peak. If measured >50% of TLV, implement controls (ventilation, PPE, process change). If measured >TLV, mandatory corrective action and resampling.
 
-### Exposure Assessment Methods Compared
+## Exposure Assessment Methods Compared
 
 **Colorimetric detector tubes**:
 - Quick spot-check method — break sealed glass tube, pull air through with hand pump, read concentration from stain length on tube scale
@@ -161,7 +160,7 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 - Limited sensor lifespan — electrochemical cells deplete in 1-3 years and must be replaced
 - Cross-sensitivity and interference — some sensors respond to non-target gases, causing false readings
 
-### Acute Poisoning Response
+## Acute Poisoning Response
 
 1. **Secure the scene**: Remove patient from exposure source. Do NOT become a victim yourself — wear appropriate PPE before entering contaminated area. For gas releases, approach from upwind.
 2. **Assess ABCs**: Airway, Breathing, Circulation. If any compromised, provide basic life support. Administer oxygen if available and breathing is present.
@@ -172,7 +171,7 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 
 ## Quantitative Parameters
 
-### TLV-TWA Values for Common Industrial Chemicals
+## TLV-TWA Values for Common Industrial Chemicals
 
 | Chemical | TLV-TWA (ppm) | TLV-STEL (ppm) | PEL (ppm) | IDLH (ppm) | Primary Target Organ |
 |----------|--------------|----------------|-----------|-------------|---------------------|
@@ -192,7 +191,7 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 | Crystalline silica (quartz) | 0.025 mg/m³ | — | 0.05 mg/m³ | 50 mg/m³ | Lungs (silicosis) |
 | Asbestos (all forms) | 0.1 f/cc | — | 0.1 f/cc | — | Lungs (mesothelioma, asbestosis) |
 
-### Acute Toxicity Data (LD50) — Common Industrial Chemicals
+## Acute Toxicity Data (LD50) — Common Industrial Chemicals
 
 | Substance | LD50 Oral (rat, mg/kg) | LD50 Dermal (rat, mg/kg) | LC50 Inhalation (rat, ppm/4hr) | GHS Acute Toxicity Category |
 |-----------|----------------------|--------------------------|-------------------------------|---------------------------|
@@ -206,7 +205,7 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 | Arsenic trioxide | 15 | — | — | 2 |
 | Sodium fluoride | 52 | — | — | 2 |
 
-### Antidote Reference Table
+## Antidote Reference Table
 
 | Poison | Antidote | Mechanism | Dose (Adult) | Critical Note |
 |--------|---------|-----------|-------------|--------------|
@@ -219,7 +218,7 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 | Lead | Calcium disodium EDTA | Chelates lead for urinary excretion | 30-50 mg/kg/day IV or IM in divided doses | Also used: dimercaprol (BAL), succimer (oral); risk of lead redistribution to brain |
 | Hydrofluoric acid (HF) | Calcium gluconate (topical or injection) | Binds fluoride ions, preventing tissue destruction and hypocalcemia | Topical: 2.5% gel applied continuously; Intra-arterial: 10 mL 10% solution | For systemic toxicity: IV calcium gluconate 10 mL 10% solution; monitor ECG |
 
-### Exposure Duration Limits
+## Exposure Duration Limits
 
 | Scenario | CO (ppm) | H₂S (ppm) | SO₂ (ppm) | NH₃ (ppm) |
 |----------|----------|-----------|-----------|-----------|
@@ -273,7 +272,7 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 
 ## Variations and Alternatives
 
-### Toxic Substances by Industrial Sector
+## Toxic Substances by Industrial Sector
 
 | Sector | Key Toxic Exposures | Primary Control | Medical Surveillance |
 |--------|---------------------|----------------|---------------------|
@@ -284,13 +283,13 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 | Pharmaceuticals | Drug APIs, solvents, dust | Containment, LEV, glove boxes | Drug-specific biological monitoring |
 | Construction | Asbestos, silica, lead (paint), noise | Wet methods, respiratory protection, hearing protection | Spirometry, chest X-ray, audiometry |
 
-### Historical Toxicology
+## Historical Toxicology
 
 - **Paracelsus (1493-1541)**: Established dose-response principle. "All things are poison and nothing is without poison; only the dose permits something not to be poisonous." Before Paracelsus, substances were classified as simply "poisonous" or "not poisonous."
 - **Percival Pott (1775)**: Identified chimney sweeps' carcinoma (scrotal cancer from soot) — first recognized occupational cancer. Demonstrated that environmental exposures cause cancer decades after exposure.
 - **Alice Hamilton (1869-1970)**: Pioneer of industrial toxicology in the United States. Documented lead poisoning in pottery workers, mercury poisoning in hatters, and carbon disulfide poisoning in rubber workers. Established the field of occupational medicine.
 
-## References
+## See Also
 
 - [Chemical Safety](chemical-safety.md) — semiconductor process chemical hazards, NFPA ratings
 - [Emergency Response](emergency-response.md) — spill response, chemical exposure first aid
@@ -300,6 +299,6 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 - [Occupational Health](../health/occupational-health.md) — workplace exposure monitoring and medical surveillance
 - [Acids & Bases](../chemistry/acids-bases.md) — acid and alkali toxicity data
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*
+
+[← Back to EHS](index.md)

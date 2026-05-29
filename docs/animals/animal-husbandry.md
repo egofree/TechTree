@@ -21,7 +21,6 @@ A bootstrapping civilization needs reliable sources of labor, food, fiber, and f
 - [Medicine](../health/medicine.md) — basic disease diagnosis and treatment capability
 - [Iron working](../metals/iron-steel.md) — for horseshoes, harness hardware, fencing staples, and tools
 
-## Overview
 
 Animal husbandry — the domestication, breeding, and management of livestock — provides labor power (oxen, horses, mules), raw materials (wool, leather, tallow, bone), and food (milk, meat, eggs). It is a prerequisite for pre-industrial transport, textile production, and sustainable agriculture.
 
@@ -216,7 +215,7 @@ Wolves, coyotes, foxes, big cats, and birds of prey all threaten livestock. Loss
 | Diarrhea in young stock | Scours (E. coli, crypto, coccidia) | Electrolyte therapy; isolate affected; ensure colostrum; clean bedding |
 | Aggressive bull/stallion | Sexual behavior, inadequate handling | Use experienced handler; breeding harness; cull dangerous animals |
 
-### See Also
+## See Also
 
 - [Livestock Domestication](domestication.md) — species-specific husbandry for all fifteen farmed species
 - [Draft Power & Harnessing](draft-power.md) — working oxen, horses, and donkeys for plowing, transport, and milling

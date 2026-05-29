@@ -8,7 +8,7 @@
 > **Outputs**: clean_water, sanitation
 > **Critical**: Yes — clean water and sewage disposal prevent more disease than all medical treatments combined
 
-### Water Supply & Purification
+## Water Supply & Purification
 
 **Well construction**:
 - **Dug wells**: Hand-dug 1-2 m diameter, 5-20 m deep. Line with stone or brick (dry-laid, mortar at top to prevent surface contamination). Cover with wooden or stone cap. Rope and bucket for drawing. Locate uphill and ≥30 m from latrines, graves, animal pens.
@@ -24,7 +24,7 @@
 - **Dosage**: 1-3 mg/L free chlorine residual. Test with starch-iodide paper or orthotolidine reagent (turns yellow in presence of chlorine). Contact time ≥30 minutes. Chlorine kills bacteria and most viruses.
 - **Alternative**: Boil water vigorously for 1+ minute (5+ minutes at altitude >2000 m). Simple, effective, fuel-intensive.
 
-### Sewage & Waste Disposal
+## Sewage & Waste Disposal
 
 **Latrines**:
 - **Pit latrine**: Dig pit 1 m diameter × 3-5 m deep. Platform with hole on top. Privacy enclosure. Add lime or ash after each use to reduce odor and flies. When pit is ½ full, fill with soil, relocate. Simple, effective for small populations.
@@ -39,7 +39,7 @@
 - **Heavy metals**: Precipitate with NaOH or Na₂S → metal hydroxide or sulfide sludge. Collect, store, potentially recover metal.
 - **[Never discharge](../glossary/never-discharge.md)** HF, cyanide, or strong oxidizers to waterways. Neutralize or contain in sealed vessels.
 
-### Hygiene & Prevention
+## Hygiene & Prevention
 
 **Handwashing**: Soap + running water. Scrub all surfaces for 20+ seconds. Dry with clean cloth or air dry. Required before eating, after latrine use, before wound care, before food preparation. Soap making: animal fat + lye (NaOH from leached wood ash — see Chemistry) → soap + glycerol. Saponification at 60-80°C for 1-2 hours. Pour into molds. Cure 4-6 weeks.
 
@@ -61,7 +61,7 @@
 - **Insect control**: Diatomaceous earth (abrasive to insect exoskeletons, causes dehydration). Plant-derived insecticides: pyrethrin (from chrysanthemum flowers, 0.1-0.5% spray), nicotine sulfate (tobacco extract, toxic to insects and humans — handle with gloves). Boric acid powder for cockroach control (ingestion poison, low mammalian toxicity). Remove standing water to control mosquito breeding.
 - **Rodent control**: Metal traps (snap traps). Keep food in rodent-proof containers (metal or heavy ceramic with tight lids). Cats as biological control. Eliminate nesting sites (rubbish piles, tall grass near buildings). Poison: phosphorus paste or arsenic — use with extreme caution, keep away from children and livestock.
 
-### Water Treatment Systems
+## Water Treatment Systems
 
 **Slow sand filter design and operation**:
 - **Filtration rate**: 0.3-0.5 m/h (0.1-0.4 m/h in some references depending on raw water quality). At this rate, a 50 m² filter produces 15-25 m³/hour of treated water, enough for a small community of 500-1,000 people at 25-50 L/person/day.
@@ -81,7 +81,7 @@
 - **Contact tank**: Designed for plug flow with 30-minute minimum residence time at peak flow. Baffled to prevent short-circuiting. Chlorine dosed at tank inlet.
 - **Dosing methods**: Hypochlorinator (drip feed of NaOCl solution, gravity or metering pump), gas chlorinator (regulated Cl₂ gas feed through solution tank, requires Cl₂ cylinders and ventilation).
 
-### Sewage Treatment
+## Sewage Treatment
 
 **Primary treatment detail**:
 - **Screening**: Bar screens (6-25 mm spacing) remove large debris (rags, sticks, plastics). Manually raked at small plants, mechanically raked at larger ones. Screenings buried or incinerated.
@@ -98,7 +98,7 @@
 - **Biogas yield**: 0.3-0.5 m³ biogas per kg volatile solids destroyed. 50-60% volatile solids destruction in mesophilic digestion. A city of 100,000 people produces enough biogas to generate 200-500 kW continuously.
 - **Digested sludge**: Stabilized, reduced in volume, and much less odorous. Dewatered on sand beds or by mechanical presses (5-10% solids after dewatering). Composted or applied to land as soil conditioner (pathogen reduction verified, heavy metals below regulatory limits).
 
-### Latrine Design Parameters
+## Latrine Design Parameters
 
 **Pit latrine specifications**:
 - **Pit dimensions**: 0.3-0.5 m² cross-section × 2-3 m depth (deeper pits last longer but are harder to dig). A 0.5 m² × 3 m pit = 1.5 m³ volume, serving a family of 6 for approximately 5-6 years at 0.04 m³/person/year fill rate.
@@ -106,14 +106,14 @@
 - **Ventilated improved pit (VIP) latrine**: Adds a vent pipe (minimum 150 mm diameter PVC or brick) extending at least 0.5 m above the roofline, topped with a fly screen (stainless steel mesh, 1-2 mm openings). Dark interior + bright vent top creates updraft. Flies attracted to light fly up the pipe and are trapped by the screen. Reduces fly breeding by 90-95% and significantly reduces odor. Pit should be at least 3 m deep to allow adequate air volume.
 
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Sewage pathogen exposure**: Raw sewage contains bacteria (cholera, typhoid, dysentery), viruses (hepatitis), and parasites. Avoid direct contact. Wear waterproof gloves and boots when handling sewage or maintaining latrines. Wash hands thoroughly after any contact. Disinfect with bleach solution.
 - **Water contamination**: Untreated water carries disease. Always treat drinking water (boil 1+ minute, chlorinate, or filter). Test water quality regularly. Contaminated wells must be sealed and abandoned or disinfected (shock chlorination with concentrated bleach solution, flush before reuse).
 - **Gas hazards in enclosed spaces**: Sewers, septic tanks, and enclosed latrines can accumulate methane (explosive) and hydrogen sulfide (toxic — lethal at 100 ppm, paralyzes olfactory nerve so you stop smelling it at dangerous concentrations). Never enter enclosed sewage spaces without ventilation and gas testing. Multiple fatalities common when rescuers enter without protection.
 - **Solid waste hazards**: Burning waste produces toxic fumes (dioxins from plastics, heavy metals). Landfill leachate contaminates groundwater. Site landfills away from water sources, line with clay, monitor groundwater.
 
-### Water Distribution Systems
+## Water Distribution Systems
 
 **Pipe materials and sizing**:
 - **Cast iron**: Standard for municipal water distribution since the 19th century. Available in diameters 50-1200 mm. Joint types: bell-and-spigot with lead or rubber ring gasket, or flanged. Working pressure: 10-25 bar. Lifespan: 50-100+ years if soil conditions are non-corrosive. Internal cement-mortar lining prevents tuberculation (iron oxide nodules that reduce flow capacity).
@@ -126,7 +126,7 @@
 - **Booster pumps**: Installed at intermediate points in the distribution network to maintain pressure in high-elevation zones or at the end of long pipe runs. Pressure switch starts pump when pressure drops below setpoint (typically 2-3 bar), stops when it reaches the upper setpoint (3.5-4.5 bar).
 - **Pressure tank**: Hydropneumatic tank (200-5,000 L) with air bladder at the top. Compressed air maintains system pressure between pump cycles, reducing pump on/off frequency. Pre-charge pressure: typically 70% of cut-out pressure.
 
-### Water Quality Testing
+## Water Quality Testing
 
 **Field tests for potability**:
 - **Turbidity**: Fill clear glass container, hold against white background. Cloudy water indicates suspended particles (clay, silt, organic matter). Turbidity >5 NTU is visible; >1 NTU may shield bacteria from chlorination. Turbidity tube (graduated plastic tube with black cross pattern on the bottom): fill until cross disappears, read turbidity from calibration marks.
@@ -140,7 +140,7 @@
 - **Settling test**: Let a sample stand 1 hour. If sediment settles, note the volume. High sediment indicates well construction problems or source water contamination.
 - **Electrical conductivity**: Dissolved minerals increase conductivity. A simple conductivity meter (two electrodes in a cell, measuring resistance with a bridge circuit) gives a rough indication of total dissolved solids. TDS (mg/L) ≈ 0.65 × conductivity (μS/cm). Drinking water TDS should be <1,000 mg/L.
 
-### Solid Waste Management
+## Solid Waste Management
 
 **Landfill design**:
 - **Site selection**: Minimum 300 m from water supply sources, 30 m from property lines. Avoid floodplains, wetlands, and areas with high water table (seasonal high water table >1.5 m below proposed base). Geology: clay-rich soils preferred (natural low permeability, <10⁻⁷ cm/s hydraulic conductivity).
@@ -159,7 +159,7 @@
 4. **Recover**: Burn combustible waste for energy (incineration with heat recovery). Requires emission controls (particulate filters, acid gas scrubbers). Reduces volume by 90% and mass by 70%.
 5. **Dispose**: Landfill only what cannot be handled by steps 1-4. The option of last resort.
 
-### Vector Control
+## Vector Control
 
 **Mosquito-borne disease prevention**:
 - **Breeding site elimination**: Remove standing water (empty containers, fill potholes, clear blocked gutters). For water that cannot be eliminated (water tanks, ponds): add Bacillus thuringiensis israelensis (Bti, a naturally occurring bacterium toxic to mosquito larvae but harmless to humans and fish) at 1-5 g/m², or apply a thin film of oil (polystyrene or vegetable oil) on the water surface to suffocate larvae.
@@ -172,7 +172,7 @@
 - **Sanitation**: Store food in rodent-proof containers (metal or thick plastic with tight lids). Keep garbage in sealed cans. Clean up food spills immediately. Remove clutter that provides nesting sites.
 - **Trapping**: Snap traps baited with peanut butter, bacon, or dried fruit, placed along walls where rodents travel (perpendicular to the wall, trigger end toward the wall). Set multiple traps (10-20) in areas with active signs. Check daily. Dispose of dead rodents by burial or incineration (do not handle with bare hands).
 
-### Construction Site Sanitation
+## Construction Site Sanitation
 
 **Temporary facilities for settlement construction**:
 - **Temporary latrines**: One latrine per 20 workers minimum. Locate 30+ m from any water source and 15+ m from food preparation areas. Construct from local materials (wood frame, canvas or metal sheeting for privacy). Pit: 1 m diameter × 2 m deep. Platform: wooden planks with 25×30 cm hole. Lid over the hole when not in use (reduces fly breeding). Provide handwashing station adjacent: water container with tap, soap, and drainage to a soak pit.
@@ -180,7 +180,7 @@
 - **Waste collection**: Covered containers at work areas for construction debris and food waste. Empty daily to a designated disposal area. Separate hazardous waste (paint, solvents, asbestos-containing materials) for special handling.
 - **Shower facilities**: Minimum one shower head per 25 workers. Hot water via solar water heater or wood-fired boiler. Drainage to a soak pit or settling tank. Provide soap and clean towels.
 
-### Decentralized Wastewater Treatment
+## Decentralized Wastewater Treatment
 
 **[Septic tank systems](../glossary/septic-tank-systems.md)** (individual households or small clusters):
 - **Design**: Rectangular or cylindrical watertight tank (concrete, fiberglass, or brick with cement mortar). Minimum 2-day hydraulic retention time. For a household of 5: tank volume 2.5-3.5 m³ (sizing rule: 1 m³ base + 0.2 m³ per person). Inlet and outlet T-pipes (or baffles) prevent short-circuiting and retain floating scum. Two-compartment design (first chamber ⅔ of total volume) improves settling.
@@ -193,7 +193,7 @@
 - **Requirements**: Water must have low turbidity (<1 NTU) for UV light to penetrate effectively. Pre-filtration is mandatory. Low-pressure mercury vapor lamps produce UV-C at 254 nm. Lamp life: 8,000-12,000 hours. Dose: 30-40 mJ/cm² for most pathogens. No residual disinfectant remains in the water (unlike chlorine), so treated water should be consumed promptly or stored in sealed, clean containers.
 - **Limitations**: Requires reliable electricity. Turbidity-sensitive. Does not provide residual protection in distribution systems. Best suited for point-of-use treatment rather than community-scale distribution.
 
-### Water Treatment Process Integration
+## Water Treatment Process Integration
 
 **[Conventional water treatment train](../glossary/conventional-water-treatment-train.md)** (for surface water sources):
 1. **Coagulation and flocculation**: Add alum (Al₂(SO₄)₃, 10-50 mg/L) to raw water. Rapid mix (300-500 RPM, 30-60 seconds) disperses coagulant. Slow mix (20-40 RPM, 15-30 minutes) allows floc particles to grow.
@@ -234,7 +234,7 @@
 
 ## Steps
 
-### Constructing a VIP Latrine
+## Constructing a VIP Latrine
 
 1. **Site selection**: Locate at least 30 m from any water source (well, spring, stream) and downhill from water sources. Soil should be stable (not loose sand or collapsing clay). Minimum 5 m from dwelling foundation.
 2. **Dig the pit**: 0.3-0.5 m² cross-section, 3-5 m deep. For a family of 6, a 0.5 m² × 3 m pit lasts approximately 5-6 years. Pile excavated soil nearby for later use.
@@ -259,7 +259,7 @@
 - Pit has a finite lifespan of 5-6 years for a family — requires space to dig a replacement pit
 - VIP effectiveness depends on the superstructure being dark inside (to attract flies toward the light at the vent top) — poor construction defeats the design
 
-### Building a Slow Sand Filter
+## Building a Slow Sand Filter
 
 1. **Construct the tank**: Build a watertight tank (concrete, ferrocement, or brick with cement plaster). Dimensions: 2-4 m deep, area sized for demand (0.5-1.0 m² per 50-200 L/day). Include inlet and outlet structures with weirs to control flow.
 2. **Install underdrain**: Place graded gravel (30 cm depth, coarse at bottom, fine at top) over the underdrain system (perforated pipes or clay tile drains).
@@ -304,6 +304,6 @@
 - [Energy](../energy/index.md) — pumping and treatment energy requirements
 - [Occupational Health](occupational-health.md) — workplace safety and hazard control
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Health](./index.md) • [All Domains](../index.md)*
+
+[← Back to Health](index.md)

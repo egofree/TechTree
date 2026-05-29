@@ -8,7 +8,6 @@
 > **Outputs**: structured_curricula, skill_certification, practitioner_ladders
 > **Critical**: Yes — without structured learning sequences, knowledge transfer becomes ad hoc and unreliable, producing practitioners of inconsistent quality
 
-## Overview
 
 Education pathways are the structured sequences through which knowledge and skill are transmitted from experienced practitioners to new ones. While [Education & Training](education.md) covers the institutional forms (apprenticeships, trade schools, universities), this capability addresses the *content architecture* of learning: how skills are decomposed into teachable units, sequenced into progressive curricula, assessed at each stage, and certified upon completion. A civilization bootstrapping from scratch must not only preserve knowledge in [Writing](writing.md) and [Printing](printing.md) — it must design deliberate pathways that turn written knowledge into embodied skill.
 
@@ -33,7 +32,7 @@ The distinction matters: a library of technical manuals without a structured pat
 
 ## Process Description
 
-### 1. Skill Decomposition
+## Skill Decomposition
 
 Break each target capability into discrete, assessable sub-skills. For example, machining decomposes into: tool sharpening, basic turning, facing, drilling, boring, threading, milling, and grinding. Each sub-skill has defined entry requirements, practice hours, and assessment criteria.
 
@@ -41,7 +40,7 @@ Break each target capability into discrete, assessable sub-skills. For example, 
 
 **Weaknesses**: Over-decomposition risks fragmenting holistic skills into disconnected micro-tasks. Requires domain experts to define meaningful sub-skill boundaries — no generic method works across all trades.
 
-### 2. Curriculum Sequencing
+## Curriculum Sequencing
 
 Order sub-skills so that each builds on previously mastered ones. The prerequisite chain must be acyclic — no skill requires a skill that depends on it. Map the skill dependency graph explicitly before designing the curriculum.
 
@@ -49,7 +48,7 @@ Order sub-skills so that each builds on previously mastered ones. The prerequisi
 
 **Weaknesses**: Long prerequisite chains create bottlenecks — a student who struggles at one gate blocks all downstream skills. Real-world skills sometimes have mutual dependencies that resist clean linear ordering.
 
-### 3. Assessment Gate Design
+## Assessment Gate Design
 
 At each gate, the student demonstrates competency under observation. Pass criteria are quantitative: dimensional tolerance ±X mm, surface finish ≤X μm Ra, calculation accuracy within X%. Students who fail a gate repeat the preceding module — no advancement with gaps.
 
@@ -57,7 +56,7 @@ At each gate, the student demonstrates competency under observation. Pass criter
 
 **Weaknesses**: Gate failures require repeating the entire preceding module — costly in time and materials. Rigid gate criteria may not accommodate students who are competent by alternative methods.
 
-### 4. Certification Levels
+## Certification Levels
 
 Define named certification levels with explicit requirements. A journeyman machinist certification requires passing all gates in the machining curriculum, producing a journeyman piece to specification, and passing a written examination on theory.
 
@@ -65,7 +64,7 @@ Define named certification levels with explicit requirements. A journeyman machi
 
 **Weaknesses**: Certification standards must be maintained consistently across all training sites — without calibration, a journeyman from one site may have very different skills than a journeyman from another. Certification creates a bureaucratic layer that requires administrative resources.
 
-### 5. Curriculum Maintenance
+## Curriculum Maintenance
 
 Review and update each curriculum annually. Collect performance data from recent graduates: time to first independent production, error rate in first year, supervisor assessments of readiness. Compare against curriculum objectives. Modules where more than 30% of students struggle may need redesign — either the prerequisites are insufficient, the teaching method is ineffective, or the module scope is too large.
 
@@ -73,7 +72,7 @@ Review and update each curriculum annually. Collect performance data from recent
 
 **Weaknesses**: Annual review requires data collection infrastructure and master practitioners willing to serve on review committees — ongoing labor cost. Frequent revisions frustrate instructors who must continuously update their teaching materials.
 
-### 6. Cross-Domain Bridge Modules
+## Cross-Domain Bridge Modules
 
 Design short modules (20-40 hours) that connect knowledge between domains. A machinist who understands basic metallurgy makes better cutting parameter decisions. A chemist who has operated a furnace scales up reactions more reliably. Bridge modules are not full cross-training but targeted conceptual links that improve decision quality in the practitioner's primary domain.
 
@@ -81,7 +80,7 @@ Design short modules (20-40 hours) that connect knowledge between domains. A mac
 
 **Weaknesses**: Bridge modules compete for time in an already crowded curriculum — adding modules means extending the training timeline or cutting depth elsewhere. Designing effective bridge modules requires instructors who understand both domains — a scarce combination.
 
-### 7. Annual Curriculum Review Cycle
+## Annual Curriculum Review Cycle
 
 Establish a fixed annual cycle for curriculum updates. Month 1: collect data from the past year (assessment results, graduate feedback, employer reports). Month 2-3: working group of 3-5 master practitioners reviews data and proposes revisions. Month 4: revised curriculum draft circulated for comment. Month 5: final revisions approved. Month 6: updated materials printed and distributed. This cycle ensures the curriculum evolves with practice while maintaining stability (most revisions are minor adjustments, not overhauls).
 
@@ -89,7 +88,7 @@ Establish a fixed annual cycle for curriculum updates. Month 1: collect data fro
 
 **Weaknesses**: 6-month cycle from data collection to distribution means curriculum lags behind practice by up to a year. Printing and distributing updated materials requires [Printing](printing.md) capacity each cycle.
 
-### 8. Practitioner Exchange Program
+## Practitioner Exchange Program
 
 Arrange for journeymen from one workshop to spend 2-4 weeks at another workshop, learning different methods and approaches. This prevents local skill stagnation and spreads innovations. Budget one exchange per journeyman per year. The hosting workshop benefits from the visiting practitioner's fresh perspective; the visitor brings back new techniques to their home workshop.
 
@@ -99,7 +98,7 @@ Arrange for journeymen from one workshop to spend 2-4 weeks at another workshop,
 
 ## Quantitative Parameters
 
-### Training Duration by Skill Domain
+## Training Duration by Skill Domain
 
 | Skill Domain | Hours to Basic Competency | Hours to Journeyman | Hours to Master | Instructor:Student Ratio |
 |-------------|--------------------------|--------------------|--------------------|--------------------------|
@@ -112,7 +111,7 @@ Arrange for journeymen from one workshop to spend 2-4 weeks at another workshop,
 | Technical drawing (manual drafting) | 100-200 | 1,000-1,500 | 5,000+ | 1:10-12 |
 | Blacksmithing (forge, heat treat) | 200-400 | 2,500-4,000 | 10,000+ | 1:4-6 |
 
-### Skill Progression Milestones
+## Skill Progression Milestones
 
 | Level | Title | Typical Duration | Assessment Method | Privileges |
 |-------|-------|-----------------|-------------------|------------|
@@ -123,7 +122,7 @@ Arrange for journeymen from one workshop to spend 2-4 weeks at another workshop,
 | 4 | Master | 7-15 years | Masterpiece + panel evaluation | Independent workshop, train apprentices |
 | 5 | Senior Master | 15+ years | Peer recognition, published contributions | Guild/examination board membership, curriculum design |
 
-### Knowledge Transfer Rates
+## Knowledge Transfer Rates
 
 | Method | Information Retention (1 week) | Skill Acquisition Rate | Scalability |
 |--------|-------------------------------|----------------------|-------------|
@@ -171,7 +170,7 @@ Arrange for journeymen from one workshop to spend 2-4 weeks at another workshop,
 
 ## Variations and Alternatives
 
-### Apprenticeship-Only Pathway
+## Apprenticeship-Only Pathway
 
 The historical default: a single master trains 1-3 apprentices over 4-7 years. Maximum skill depth, minimum throughput. Viable when: practitioner demand is low (a few dozen specialists), the knowledge is predominantly tacit (hands-on skill that cannot be written down), and time pressure is low.
 
@@ -179,7 +178,7 @@ The historical default: a single master trains 1-3 apprentices over 4-7 years. M
 
 **Weaknesses**: Throughput of 1-3 graduates per master per cycle is insufficient for rapid civilization-scale scaling. Knowledge quality depends entirely on a single master's competence — no peer review or standardization.
 
-### Polytechnic/Trade School Pathway
+## Polytechnic/Trade School Pathway
 
 Formalized 2-4 year program with structured curriculum, multiple instructors, standardized assessments. Moderate skill depth, high throughput (20-40 graduates per year per school). Viable when: textbook infrastructure exists ([Printing](printing.md)), demand exceeds apprenticeship capacity, and standardized quality is required across multiple production sites.
 
@@ -187,7 +186,7 @@ Formalized 2-4 year program with structured curriculum, multiple instructors, st
 
 **Weaknesses**: Requires textbook infrastructure ([Printing](printing.md)) and multiple qualified instructors — unavailable at the earliest bootstrap stages. Shorter duration than apprenticeship may sacrifice deep tacit skill development.
 
-### University Research Pathway
+## University Research Pathway
 
 4-8 year program combining theoretical foundations with original research. Produces innovators, not just practitioners. Required for advancing beyond known techniques into novel territory (semiconductor physics, advanced metallurgy). Minimum viable university: 5-10 faculty, 30-50 students, library of 1,000+ volumes, laboratory facilities.
 
@@ -195,7 +194,7 @@ Formalized 2-4 year program with structured curriculum, multiple instructors, st
 
 **Weaknesses**: Highest infrastructure requirement (library, labs, qualified faculty) — only viable at later stages of development. 4-8 year program length and theoretical emphasis means graduates may lack hands-on production skills.
 
-### Competency-Based Training
+## Competency-Based Training
 
 No fixed time requirements — students advance when they demonstrate competency, not when calendar time expires. Efficient for experienced practitioners crossing domains (e.g., a blacksmith learning machining). Requires robust assessment infrastructure and self-paced learning materials.
 
@@ -203,7 +202,7 @@ No fixed time requirements — students advance when they demonstrate competency
 
 **Weaknesses**: Requires robust assessment infrastructure to verify competency at each gate — more assessment events per student than time-based programs. Self-paced learning demands high student motivation and discipline — not all learners thrive without structured schedules.
 
-### Comparison Table
+## Comparison Table
 
 | Method | Time to Journeyman | Throughput | Depth | Standardization | Infrastructure Required |
 |--------|-------------------|------------|-------|-----------------|------------------------|
@@ -212,7 +211,7 @@ No fixed time requirements — students advance when they demonstrate competency
 | University | 4-8 years | 10-20/year/program | Theoretical highest | High | High (library, labs, faculty) |
 | Competency-based | Variable (1-5 years) | Variable | Moderate-High | High | High (assessment infrastructure) |
 
-### Curriculum Design Example: Machining Pathway
+## Curriculum Design Example: Machining Pathway
 
 A concrete example of a structured pathway for machining:
 
@@ -258,7 +257,7 @@ A concrete example of a structured pathway for machining:
 - Execute the plan independently, with periodic instructor check-ins
 - Final assessment: part meets all dimensions and tolerances on the drawing
 
-## References
+## See Also
 
 - [Education & Training](education.md) — institutional structures for education
 - [Writing & Record-Keeping](writing.md) — documentation and knowledge recording systems
@@ -268,6 +267,6 @@ A concrete example of a structured pathway for machining:
 - [Technical Drawing](technical-drawing.md) — drawing skills pathway within engineering education
 - [Standards Bodies](standards-bodies.md) — certification standards for practitioner qualification
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Knowledge Preservation & Education](./index.md) · [All Domains](../index.md)*
+
+[← Back to Knowledge](index.md)

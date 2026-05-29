@@ -8,7 +8,7 @@
 > **Outputs**: potable_water, filtered_water
 > **Critical**: Yes — waterborne diseases are among the greatest killers in pre-industrial civilizations; treatment reduces mortality by 50-80%
 
-## 1. Overview
+## Overview
 
 Purifying raw water for safe human consumption. Waterborne diseases — cholera (Vibrio cholerae), typhoid (Salmonella typhi), dysentery (Shigella spp.), and giardiasis (Giardia lamblia) — are among the greatest killers in all pre-industrial civilizations. The 1854 Broad Street cholera outbreak in London killed 616 people in two weeks from a single contaminated well. Simple treatment methods dramatically reduce disease burden and are achievable with minimal technology.
 
@@ -20,29 +20,29 @@ Water treatment operates on a spectrum from coarse to fine:
 
 Each stage is valuable on its own. The combination provides safe drinking water. This capability covers methods available from stone-age conditions through early industrial development.
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 - [Raw water](procurement.md) from any source
 - Sand (0.15-0.35 mm effective size for slow sand filters)
 - Gravel (15-30 cm graded layer)
 - Concrete or ferrocement for filter tanks — from [Chemistry: Cement](../chemistry/cement.md)
 - Chlorine compounds for disinfection — from [Chemistry](../chemistry/acids-bases.md)
 
-### Tools
+## Tools
 - Basic construction tools for tank and filter construction
 - Containers for boiling and chemical storage
 - Turbidity tube for water quality testing
 
-### Knowledge
+## Knowledge
 - Understanding of biological contamination pathways
 - Basic chemistry for disinfection dosing
 
-### Infrastructure
+## Infrastructure
 - Level ground for filter construction
 - Water-tight tank or basin (1-50 m² depending on scale)
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity per filter (serving 200 people) | Source | Alternatives |
 |----------|----------------------------------------|--------|-------------|
@@ -52,9 +52,9 @@ Each stage is valuable on its own. The combination provides safe drinking water.
 | Drainage pipe (perforated) | 5-15 m | [Metals](../metals/index.md) or [Ceramics](../ceramics/index.md) | Bamboo (short-lived) |
 | Chlorine (calcium hypochlorite) | 0.5-2 kg/month | [Chemistry](../chemistry/acids-bases.md) | Boiling (requires 10× fuel) |
 
-## 4. Process Description
+## Process Description
 
-### Slow Sand Filtration
+## Slow Sand Filtration
 
 The most important low-technology water treatment method. Developed in Scotland in 1804, slow sand filtration produces safe drinking water with no chemicals and minimal maintenance. Used by London from 1829 to eliminate cholera from the water supply.
 
@@ -87,7 +87,7 @@ The most important low-technology water treatment method. Developed in Scotland 
 - Cannot handle very turbid water (>50 NTU) without pre-sedimentation
 - Ineffective against dissolved chemical contaminants (heavy metals, salts)
 
-### Settling and Clarification
+## Settling and Clarification
 
 The simplest treatment: let water sit still so particles sink by gravity.
 
@@ -113,7 +113,7 @@ The simplest treatment: let water sit still so particles sink by gravity.
 - Requires large tank volume relative to throughput
 - Sludge accumulation requires periodic cleaning
 
-### Boiling
+## Boiling
 
 The oldest and most universal disinfection method.
 
@@ -144,7 +144,7 @@ The oldest and most universal disinfection method.
 - Impractical for community-scale supply (fuel consumption prohibitive)
 - Time-consuming at household scale for large volumes
 
-### Solar Disinfection (SODIS)
+## Solar Disinfection (SODIS)
 
 UV radiation and thermal energy from sunlight inactivate pathogens.
 
@@ -173,7 +173,7 @@ UV radiation and thermal energy from sunlight inactivate pathogens.
 - Small batch size (1-2 L per bottle)
 - Does not remove chemical contaminants
 
-### Chlorination
+## Chlorination
 
 The most widely used disinfection method worldwide since the early 1900s.
 
@@ -204,7 +204,7 @@ The most widely used disinfection method worldwide since the early 1900s.
 - Taste and odor complaints at doses above 1 mg/L
 - Forms disinfection byproducts (trihalomethanes) if organic matter is present — not a concern at early-stage development but worth monitoring
 
-### Simple Household Filters
+## Simple Household Filters
 
 Intermediate methods between boiling nothing and building a slow sand filter.
 
@@ -225,7 +225,7 @@ Intermediate methods between boiling nothing and building a slow sand filter.
 - Cloth and charcoal filters do not provide reliable pathogen removal
 - Requires periodic cleaning or replacement
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
 | Method | Pathogen removal | Flow rate | Cost per 1000L | Energy required |
 |--------|-----------------|-----------|---------------|----------------|
@@ -235,7 +235,7 @@ Intermediate methods between boiling nothing and building a slow sand filter.
 | Chlorination | 99.99% bacteria | Unlimited | $0.01-0.05 | None (mixing only) |
 | Ceramic filter | 50-99% bacteria | 1-4 L/hour | $0.10-0.50 | None (gravity) |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Household scale** (1-5 people): Boiling, SODIS, or ceramic candle filter. Cost: $0-10. No infrastructure needed.
 - **Community scale** (50-500 people): Slow sand filter (2-10 m² filter bed) plus chlorination. Requires construction materials and basic chemistry for chlorine. Cost: $50-500.
@@ -243,7 +243,7 @@ Intermediate methods between boiling nothing and building a slow sand filter.
 
 The key scaling breakpoint is the jump from household to community scale: this requires shared infrastructure and organizational capacity for maintenance.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -254,28 +254,28 @@ The key scaling breakpoint is the jump from household to community scale: this r
 | Boiled water making people sick | Recontamination from dirty storage container | Store boiled water in clean, covered containers. Use narrow-mouth containers to prevent hand contact. Apply chlorine residual after boiling if recontamination persists. |
 | SODIS not effective | Cloudy weather; turbid water; colored bottles | Filter water through cloth first. Use only clear PET or glass bottles. Increase exposure time to 2 full days during cloudy periods. |
 
-## 8. Safety
+## Safety
 
 - **Chlorine gas**: Toxic at 10 ppm IDLH (immediately dangerous to life and health). Calcium hypochlorite dust is corrosive to skin, eyes, and respiratory tract. Handle with gloves, goggles, and in a ventilated area. Store in sealed containers away from organic materials and acids — mixing chlorine with acid releases lethal chlorine gas.
 - **Hot water scalds**: Boiling water at 100°C causes third-degree burns in 1 second of skin contact. Use insulated containers. Keep children away from boiling operations.
 - **Alum (aluminum sulfate)**: Used as coagulant in rapid sand filtration. Mildly acidic (pH 3-4 in solution). Irritant to skin and eyes. Handle with gloves and eye protection.
 - **Chemical contamination**: Boiling, filtration, and chlorination do NOT remove heavy metals (lead, arsenic, mercury), pesticides, or industrial chemicals from water. If chemical contamination is suspected, additional treatment (activated carbon, ion exchange, or distillation) is required.
 
-## 9. Quality Control
+## Quality Control
 
 - **Turbidity tube**: Fill a transparent tube with treated water. Look down through the water at a black-and-white disc at the bottom. The depth at which the disc becomes invisible indicates turbidity. Treated water should be visible at >20 cm depth (<5 NTU).
 - **Chlorine residual test**: DPD colorimetric test kit. Add DPD reagent to water sample — turns pink in proportion to chlorine concentration. Compare to color chart. Target: 0.2-0.5 mg/L free chlorine after 30 minutes contact.
 - **Hydrogen sulfide test**: Simple presence/absence test for fecal contamination. Water sample turns black if contaminated. No laboratory equipment needed. Use weekly as a screening test.
 - **Sanitary inspection**: Monthly visual inspection of treatment system — check for cracks in filter tanks, clogged drainage, contamination sources upstream, and proper cover integrity.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 - **Rapid sand filtration**: 50× faster flow rate than slow sand (5-15 m/hour) but requires chemical coagulation (alum or ferric chloride) as pretreatment. Depends on [chemistry capability](../chemistry/index.md). Less biological removal than slow sand but higher throughput.
 - **UV disinfection**: Low-pressure mercury vapor lamp (254 nm) at 40 mJ/cm² provides effective disinfection without chemicals. Requires clear water and reliable electricity. No residual protection.
 - **Distillation**: Boil water and condense the steam. Removes all contaminants (biological, chemical, dissolved solids). Energy-intensive: 620 kWh per 1,000 L (latent heat of vaporization). Practical only for small volumes or where energy is abundant.
 - **Biosand filter**: A household-scale adaptation of slow sand filtration using a concrete or plastic container (~0.3 m² filter area). Intermittent operation (pour water through, collect from outlet). Removes 95-99% bacteria after biological layer develops. Flow rate: 0.5-1.0 L/minute.
 
-## 11. References
+## References
 
 - [Water Procurement](procurement.md) — raw water must be collected before treatment
 - [Ceramics](../ceramics/index.md) — ceramic filter elements, tank construction
@@ -283,5 +283,5 @@ The key scaling breakpoint is the jump from household to community scale: this r
 - [Health: Sanitation](../health/sanitation.md) — clean water is fundamental to sanitation
 - [SEM Tech Water Treatment](sem-tech-water-treatment.md) — advanced desalination and purification
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*
+
+[← Back to Water](index.md)

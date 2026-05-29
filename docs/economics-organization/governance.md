@@ -8,9 +8,8 @@
 > **Outputs**: institutional_structures, regulatory_frameworks, dispute_resolution
 > **Critical**: No
 
----
 
-## 1. Overview
+## Overview
 
 Governance and institutional design is the creation and maintenance of decision-making structures for large-scale resource allocation, dispute resolution, and collective action. Where [division of labor](./division-of-labor.md) coordinates individual tasks, governance coordinates organizations — establishing rules, authority structures, and mechanisms for making collective decisions that affect hundreds or thousands of people.
 
@@ -20,36 +19,34 @@ This capability covers the design of organizational structures — not political
 
 Governance depends on [writing](../knowledge/writing.md) for written laws, contracts, and administrative records, and on [division of labor](./division-of-labor.md) to create the specialized administrative roles (scribes, judges, tax collectors) that governance requires.
 
----
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 
 - **Writing media**: Laws, regulations, contracts, and administrative records require permanent written documentation. Estimate: 100-1,000+ pages/tablets per year depending on population and administrative complexity.
 
-### Tools and Equipment
+## Tools and Equipment
 
 - [Writing systems](../knowledge/writing.md): For recording laws, contracts, court decisions, and administrative orders.
 - Meeting/gathering spaces: Formal spaces for council meetings, courts, and public announcements. Minimum: 50-100 m² for a town council, 200-500 m² for a city assembly.
 - Archives: Secure storage for legal and administrative records. These are the institutional memory — loss means starting over.
 
-### Knowledge
+## Knowledge
 
 - **Rule design**: The ability to write clear, unambiguous rules that achieve their intended effect. Badly written laws create loopholes and disputes.
 - **Dispute resolution procedures**: Formal processes for hearing complaints, evaluating evidence, and rendering decisions.
 - **Organizational design**: Understanding of hierarchy, span of control, delegation, and accountability structures.
 - **Precedent systems**: The practice of recording decisions and using them to guide future cases (common law tradition).
 
-### Infrastructure
+## Infrastructure
 
 - Council/chamber buildings: Dedicated spaces for governance functions.
 - Record archives: Fire-protected, dry, organized storage for legal and administrative documents.
 - Communication systems: For disseminating laws, regulations, and decisions to the population.
 
----
 
-## 3. Bill of Materials (BOM)
+## Bill of Materials (BOM)
 
 | Material | Quantity per Year (Town of 2,000) | Source | Alternatives |
 |----------|-----------------------------------|--------|-------------|
@@ -59,11 +56,10 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 | Council chamber space | 50-100 m² | [Construction](../construction/index.md) | Open-air meeting area (weather-dependent) |
 | Seal/stamp (official authentication) | 1-3 metal or stone seals | [Metals](../metals/index.md) | Thumbprint, witnessed signatures |
 
----
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Establishing Governance Structures
+## 4.1 Establishing Governance Structures
 
 1. **Define the scope of governance**: Determine what decisions the governance structure will make. Common categories:
    - Resource allocation (land use, water rights, mining claims)
@@ -105,7 +101,7 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 - Overly harsh penalties reduce compliance — proportional consequences work better than extreme punishment
 - Rules cannot anticipate every situation — gaps require judgment and interpretation, which creates disputes
 
-### 4.2 Operating Governance
+## 4.2 Operating Governance
 
 5. **Convene regular sessions**: Governance bodies meet at defined intervals. Weekly for urgent matters, monthly for routine business, annually for major decisions (budget, leadership selection).
 
@@ -125,7 +121,7 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 - Record-keeping overhead — documenting every decision requires dedicated scribe time
 - Feedback processing capacity — high petition volume can overwhelm governance if no triage system exists
 
-### 4.3 Dispute Resolution
+## 4.3 Dispute Resolution
 
 9. **Establish a formal hearing process**:
    - Complaint filed in writing (or orally transcribed by scribe)
@@ -146,7 +142,7 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 - Requires literate scribes for documentation — illiterate communities cannot maintain formal records
 - Appeals add delay and cost — every dispute potentially heard twice before final resolution
 
-### Governance Model Trade-offs
+## Governance Model Trade-offs
 
 | Model | Decision Speed | Legitimacy | Scalability | Corruption Risk | Best Population |
 |-------|:-:|:-:|:-:|:-:|:-:|
@@ -156,11 +152,10 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 | Administrative hierarchy | Fast | Low-Moderate (impersonal) | Excellent | High (concentrated power) | 1,000+ |
 | Representative council | Moderate | High (elected) | Good | Moderate (accountability mechanisms) | 5,000+ |
 
----
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Governance Scale Thresholds
+## Governance Scale Thresholds
 
 | Population | Governance Model | Officials/Administrators | Administrative Cost (% of GDP equivalent) | Decision Cycle Time |
 |------------|-----------------|--------------------------|-------------------------------------------|---------------------|
@@ -171,7 +166,7 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 | 10,000-100,000 | Multi-tier administration | 50-500 | 10-15% | 14-90 days |
 | 100,000+ | Full bureaucracy | 500+ | 10-20% | 30-180 days |
 
-### Span of Control Guidelines
+## Span of Control Guidelines
 
 | Management Level | Direct Reports per Manager | Communication Frequency | Decision Authority |
 |-----------------|---------------------------|------------------------|-------------------|
@@ -181,7 +176,7 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 | District administrator | 3-7 department heads | Weekly | Policy within district |
 | Council/executive | 5-9 administrators | Monthly | Organization-wide policy |
 
-### Dispute Resolution Metrics
+## Dispute Resolution Metrics
 
 | Metric | Village Level (50-500) | Town Level (500-5,000) | City Level (5,000+) |
 |--------|------------------------|------------------------|---------------------|
@@ -190,9 +185,8 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 | Enforcement compliance rate | 85-95% (social pressure) | 70-90% | 60-85% (formal enforcement needed) |
 | Scribes/administrators per case | 0-1 | 1-2 | 2-5 |
 
----
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Dunbar's number threshold (~150)**: Below this, governance is largely informal. Above it, formal structures must emerge. The transition is critical — communities that fail to formalize governance at this threshold experience coordination failures, unresolvable disputes, and potential fragmentation.
 - **Administrative cost floor**: Governance costs 2-5% of economic output even at minimal levels. This is an overhead that must be budgeted. Below this funding level, governance fails to perform its functions.
@@ -200,9 +194,8 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 - **Legitimacy maintenance**: Governance structures lose effectiveness when the governed perceive them as illegitimate. Maintain legitimacy through: transparent decision-making, consistent enforcement, responsive feedback mechanisms, and periodic leadership renewal (election, selection, or rotation).
 - **Guild governance**: For coordinating specialist workers, guild structures are more effective than general governance. A metal-workers' guild sets quality standards, resolves trade disputes, and manages apprenticeship — functions that a general city council cannot perform competently.
 
----
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -213,18 +206,16 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 | Rules becoming outdated | No formal amendment process; resistance to change | Establish regular review cycle (annual); create a petition mechanism for rule revision; allow temporary waivers pending review |
 | Dispute resolution perceived as unfair | Bias in decision-makers; opaque process | Use neutral arbiters for sensitive disputes; publish reasoning alongside decisions; allow appeal to higher authority |
 
----
 
-## 8. Safety
+## Safety
 
 - **Political violence**: Governance disputes can escalate to physical violence. Maintain armed security at governance proceedings when tensions are high. Separate disputing parties during hearings.
 - **Record security**: Governance records (laws, court decisions, property records) are critical infrastructure. Store in fireproof, flood-protected facilities with access controls. Maintain duplicate archives in a separate location.
 - **Retaliation against officials**: Those who enforce unpopular decisions may face reprisals. Provide personal security for enforcement officials; establish legal protections against retaliation; prosecute threats against officials.
 - **Meeting safety**: Large assemblies (100+ people) in enclosed spaces risk stampedes and structural overload. Ensure meeting spaces have adequate exits (minimum 2 exits, 1 m width per 100 occupants); limit occupancy to rated capacity.
 
----
 
-## 9. Quality Control
+## Quality Control
 
 - **Decision documentation**: Every governance decision recorded within 24 hours, including date, participants, matter, decision, and reasoning. Undocumented decisions are not binding.
 - **Enforcement tracking**: For each rule or decision, track enforcement actions taken and outcomes. Non-enforcement of a rule for >6 months triggers review (repeal or recommit).
@@ -232,9 +223,8 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 - **Precedent consistency**: New decisions must be consistent with established precedent. Departures from precedent require explicit justification recorded in the decision document.
 - **Participation metrics**: Track attendance and participation in governance proceedings. Declining participation (<30% of eligible members) signals legitimacy problems.
 
----
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 | Governance Model | Description | Population Scale | Key Advantage | Key Risk |
 |-----------------|-------------|------------------|---------------|----------|
@@ -245,9 +235,8 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 | Administrative bureaucracy | Professional administrators manage by procedure | 1,000+ | Consistency; scalability; impersonal fairness | Rigidity; detachment from governed; overhead cost |
 | Feudal hierarchy | Nested personal loyalty oaths | 1,000-100,000 | Clear authority chain; military coordination | Exploitation; rigidity; succession crises |
 
----
 
-## 11. References
+## References
 
 - [Writing](../knowledge/writing.md) — the documentation system for laws, contracts, and administrative records
 - [Division of Labor](./division-of-labor.md) — the specialization that governance formalizes and coordinates
@@ -255,6 +244,6 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 - [Trade](./trade.md) — the exchange system that governance regulates (weights, measures, market rules)
 - [Accounting](./accounting.md) — the financial records that governance uses for resource allocation
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*
+
+[← Back to Economics & Organization](index.md)

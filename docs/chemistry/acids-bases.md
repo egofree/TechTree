@@ -8,7 +8,6 @@
 > **Outputs**: sulfuric_acid, hydrochloric_acid, nitric_acid, sodium_hydroxide, sodium_carbonate
 > **Critical**: No — overview capability linking acid and base production; see individual articles for detailed processes
 
-## Overview
 
 Industrial acids and alkalis underpin nearly all chemical processing: ore leaching, metal pickling, glass etching, textile finishing, soap and detergent production, and semiconductor wafer cleaning. The progression runs from wood-ash lye (K₂CO₃) through lime (CaO), soda ash (Na₂CO₃), and on to strong mineral acids and caustic soda (NaOH).
 
@@ -270,6 +269,6 @@ Lead is uniquely suited for dilute H₂SO₄ (<78%) — forms protective PbSO₄
 - **[Iron & Steel](../metals/iron-steel.md)**: pickling acid consumption in steel processing
 - **[Basic Semiconductor Devices](../silicon/basic-devices.md)**: HF and H₂SO₄ in wafer processing
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+[← Back to Chemistry](index.md)

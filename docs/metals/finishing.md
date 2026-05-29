@@ -7,7 +7,6 @@
 > **Timeline**: Years 15-40
 > **Outputs**: galvanized steel, plated parts, anodized aluminum, hardened surfaces, coated components
 
-## Overview
 
 Metal finishing transforms the surface properties of metals without altering bulk chemistry. A thin surface layer — sometimes only micrometers thick — provides corrosion resistance, wear resistance, electrical conductivity, or decorative appearance that the base metal cannot. The economic importance is enormous: roughly half the steel produced globally receives some form of protective coating, and virtually every electronic device depends on electroplated connectors. Surface treatment processes range from simple acid dips (passivation) to complex electrochemical systems (hard chromium plating) and high-energy thermal processes (plasma spraying).
 

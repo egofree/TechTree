@@ -8,7 +8,6 @@
 > **Outputs**: goose_meat, goose_eggs, down, feathers, manure, guardian_services
 > **Critical**: No — most feed-efficient poultry on pasture but slow-reproducing and seasonal
 
-## Overview
 
 Domestic geese are the largest poultry species commonly kept, derived primarily from the greylag goose (*Anser anser domesticus*) in Europe and the swan goose (*Anser cygnoides domesticus*) in Asia. Adults weigh 5-12 kg depending on breed, with ganders (males) consistently heavier than geese (females). Geese are long-lived (20-30 years in managed care), exceptionally hardy, and among the most efficient converters of pasture to meat of any livestock — on good grass, geese obtain 70-80% of their dietary needs from grazing alone, requiring minimal supplemental feed.
 

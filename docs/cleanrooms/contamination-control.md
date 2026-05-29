@@ -8,7 +8,6 @@
 > **Outputs**: contamination_control_protocols, iso_classification, esd_control, particle_monitoring
 > **Critical**: Yes — semiconductor fabrication at sub-micron nodes is impossible without contamination control; a single particle destroys a die
 
-### Overview
 
 Contamination control is the operational discipline that keeps a clean room clean. Filtration removes particles from the air supply (see [HEPA/ULPA Filtration](hepa-ulpa-filtration.md)), but the facility itself generates particles continuously — from people, processes, equipment, and materials. Without rigorous contamination control protocols, even the most expensive HEPA/ULPA filtration system cannot maintain ISO Class 5 or better.
 
@@ -16,7 +15,7 @@ A single 100 nm particle on a semiconductor die can destroy it. At 5 nm process 
 
 This capability covers contamination sources and their control, garment systems, particle monitoring, ESD control, ISO 14644-1 classification, and personnel training. It does NOT cover filtration hardware (see [HEPA/ULPA Filtration](hepa-ulpa-filtration.md)) or facility construction (see [Facility Design & HVAC](facility-design.md)).
 
-### ISO 14644-1 Cleanroom Classification
+## ISO 14644-1 Cleanroom Classification
 
 The ISO 14644-1 standard defines cleanroom classes by the maximum allowable particle concentration (particles per cubic meter) at specified particle sizes. This is the definitive classification system used worldwide:
 
@@ -46,7 +45,7 @@ The ISO 14644-1 standard defines cleanroom classes by the maximum allowable part
 - Classification measures airborne particles only — does not address surface contamination, molecular contamination, or electrostatic discharge risks
 - Higher ISO classes (lower numbers) require exponentially more air changes (ISO 5 at 60 ACH vs. ISO 8 at 10-25 ACH), driving energy costs up dramatically
 
-### Contamination Sources
+## Contamination Sources
 
 **People — the dominant source**:
 
@@ -78,7 +77,7 @@ A fully gowned cleanroom operator at rest emits approximately 100,000 particles 
 - People remain the dominant source regardless of garment quality — eliminating 100% of human-generated particles requires full automation
 - Process-generated contamination (evaporation, CMP, etch byproducts) cannot be eliminated, only managed through enclosure and exhaust design
 
-### Garment Systems
+## Garment Systems
 
 **Materials**:
 
@@ -119,7 +118,7 @@ A fully gowned cleanroom operator at rest emits approximately 100,000 particles 
 - Gowning takes 5-10 minutes per entry and must follow exact sequence — any deviation compromises the seal
 - Full bunny suit with hood causes heat stress during 8-12 hour shifts in 22°C environments; personnel productivity decreases with comfort
 
-### Particle Monitoring Systems
+## Particle Monitoring Systems
 
 **Continuous airborne particle counters**:
 
@@ -149,7 +148,7 @@ A fully gowned cleanroom operator at rest emits approximately 100,000 particles 
 - Particle counters measure quantity and size but not composition — a count spike cannot identify the source (human, process, or equipment) without additional investigation
 - Monitoring equipment is expensive (multi-channel counters: $5,000-20,000 each) and requires annual calibration against traceable standards
 
-### Electrostatic Discharge (ESD) Control
+## Electrostatic Discharge (ESD) Control
 
 ESD destroys MOS gate oxides at discharge voltages as low as 50 V. A person walking on a synthetic floor accumulates 5-20 kV. ESD control is mandatory for all semiconductor and electronics clean rooms:
 
@@ -182,7 +181,7 @@ ESD destroys MOS gate oxides at discharge voltages as low as 50 V. A person walk
 - Wrist straps tether operators to ground points, restricting movement — incompatible with mobile wafer transport or equipment maintenance tasks
 - Ionizer needles degrade and accumulate contamination, requiring cleaning every 2-4 weeks; neglected ionizers produce unbalanced ion output that charges surfaces instead of neutralizing them
 
-### Personnel Training Requirements
+## Personnel Training Requirements
 
 **Initial cleanroom training** (before first entry):
 
@@ -211,7 +210,7 @@ ESD destroys MOS gate oxides at discharge voltages as low as 50 V. A person walk
 - Training is time-consuming (4-8 hours initial + annual recertification) and must be repeated for every new hire
 - Body box testing equipment costs $50,000-100,000 and requires dedicated space; smaller facilities may skip this verification
 
-### Recovery After Contamination Events
+## Recovery After Contamination Events
 
 **Particle spike recovery**:
 
@@ -244,7 +243,7 @@ After a transient particle event (dropped wafer, door left open, torn garment):
 - Post-maintenance recovery requires 30-60 minutes at full air handling capacity, during which the cleanroom is unproductive
 - Chemical spill recovery with IPA-dampened wipes introduces solvent vapor that must be monitored to baseline before resuming operations
 
-### Contamination Control for Different ISO Classes
+## Contamination Control for Different ISO Classes
 
 The rigor of contamination control protocols scales with the target ISO class. Requirements become progressively more stringent:
 
@@ -268,7 +267,7 @@ The rigor of contamination control protocols scales with the target ISO class. R
 - The gap between ISO 5 and ISO 3 requirements is enormous (daily garment change vs. every entry, continuous monitoring vs. weekly grab samples), requiring separate facility designs for each tier
 - ISO 3-4 requirements (stand still at workstation, continuous wipe-down) severely limit personnel productivity and are incompatible with manual wafer handling
 
-### Materials
+## Materials
 
 | Material | Use | Specification |
 |----------|-----|---------------|
@@ -279,13 +278,13 @@ The rigor of contamination control protocols scales with the target ISO class. R
 | Conductive vinyl | ESD flooring | 10⁶-10⁹ Ω/square surface resistance |
 | Carbon-loaded foam | Wrist strap band | Adjustable, 1 MΩ resistor inline |
 
-### Limitations
+## Limitations
 
 - **People are always the weakest link**: Even perfectly gowned operators emit 100,000+ particles per minute. The best contamination control strategy minimizes the number of people in the cleanroom (automation, robotic wafer handling, service chase access).
 - **No protocol eliminates all contamination**: Cleanrooms manage contamination to acceptable levels for the process, not to zero particles. ISO 3 still allows 1,000 particles/m³ at 0.1 μm. The question is whether the remaining contamination causes defects at an acceptable rate (yield).
 - **Protocol compliance degrades over time**: Personnel become complacent, skip gowning steps, or develop bad habits. Regular auditing, body box testing, and particle monitoring provide objective compliance checks.
 
-### Safety
+## Safety
 
 **Chemical exposure in cleaning**: IPA (isopropyl alcohol) used for surface wipe-down has a flash point of 12°C and is flammable. Use in well-ventilated areas away from ignition sources. Wear nitrile gloves and safety glasses. Isopropanol vapor causes eye and respiratory irritation at concentrations above 400 ppm (TWA TLV).
 
@@ -295,13 +294,13 @@ The rigor of contamination control protocols scales with the target ISO class. R
 
 **Photoionization detector hazards**: PID lamps used for chemical spill monitoring emit UV radiation at 10.6 eV. Never look directly at the lamp window when activated. The PID lamp contains proprietary gases under pressure — handle carefully to avoid breakage.
 
-### See Also
+## See Also
 
 - [HEPA/ULPA Filtration](hepa-ulpa-filtration.md) — filter technology that enables contamination control
 - [Facility Design & HVAC](facility-design.md) — physical infrastructure for clean room operation
 - [Photolithography Cleanrooms](../photolithography/cleanrooms.md) — semiconductor-specific contamination protocols
 - [Health: Sanitation](../health/sanitation.md) — contamination control at a different scale (biological, not particulate)
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Clean Room Technology](./index.md) • [All Domains](../index.md)*
+
+[← Back to cleanrooms](index.md)

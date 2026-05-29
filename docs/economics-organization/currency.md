@@ -22,38 +22,36 @@ The development of currency requires [metals](../metals/index.md) for producing 
 - [Precision Metrology](../measurement/precision-metrology.md) — standardized weights for coin quality
 - [Trade & Barter](./trade.md) — the exchange system currency enhances
 
----
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 
 - **Metal for coinage**: Copper, silver, or gold in workable quantities. Minimum: 50-100 kg of coinage metal to establish a viable currency system for a community of ~1,000 people.
 - [Metals production](../metals/iron-steel.md): Reliable smelting and refining capability to produce metal of consistent purity.
 
-### Tools and Equipment
+## Tools and Equipment
 
 - [Precision metrology](../measurement/precision-metrology.md): Standardized weight sets for verifying coin weight. Tolerance: ±1-2% of standard weight.
 - Coin dies: Hardened metal or stone stamps for impressing designs on coin blanks. Each die produces 5,000-20,000 coins before wearing out.
 - Balance scales: Sensitive to at least 0.1 g for weighing individual coins and detecting clipping or debasement.
 - Furnace or forge: For melting and casting coin blanks (flans).
 
-### Knowledge
+## Knowledge
 
 - **Metallurgical purity assessment**: The ability to test metal purity (touchstone method for gold/silver, color and fracture inspection for copper).
 - **Arithmetic**: Ability to calculate quantities, make change, and compute interest.
 - **Diesinking**: The craft of engraving coin dies with designs that are hard to counterfeit.
 
-### Infrastructure
+## Infrastructure
 
 - Minting facility: A secure, controlled space for coin production.
 - Secure storage (vaults): Strong rooms for storing coinage reserves. Thick walls (≥0.5 m stone or 5 cm iron-reinforced wood), locked doors.
 
----
 
-## 3. Bill of Materials (BOM)
+## Bill of Materials (BOM)
 
-### Coin Production (per 1,000 copper coins, ~5 g each)
+## Coin Production (per 1,000 copper coins, ~5 g each)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -64,11 +62,10 @@ The development of currency requires [metals](../metals/index.md) for producing 
 | Standardized weights (for calibration) | 1 set (1 g to 500 g) | [Precision Metrology](../measurement/precision-metrology.md) | Reference coins from trusted source |
 | Hammer (1-3 kg) | 1 | [Basic Tools](../foundations/index.md) | Any heavy striking tool |
 
----
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Establishing the Currency Standard
+## 4.1 Establishing the Currency Standard
 
 1. **Select the monetary metal**: Choose based on availability and value density. Copper for small-denomination everyday coins (suitable for communities producing copper). Silver for larger denominations (requires silver mining). Gold for highest denominations (rare, high value density).
 
@@ -90,7 +87,7 @@ The development of currency requires [metals](../metals/index.md) for producing 
 - Susceptible to debasement — reducing metal content erodes trust and triggers Gresham's Law
 - Initial adoption requires state backing — coins must be accepted for tax payment or they circulate poorly
 
-### 4.2 Minting Operations
+## 4.2 Minting Operations
 
 5. **Melt the metal**: Heat copper to 1,085°C (melting point) in a crucible. Skim slag and impurities from the surface. Pour into molds to create flans (coin blanks).
 
@@ -110,17 +107,16 @@ The development of currency requires [metals](../metals/index.md) for producing 
 - Weight tolerance enforcement is labor-intensive — every coin must be individually checked
 - Die wear requires periodic replacement — each die lasts 5,000-20,000 coins before quality degrades
 
-### 4.3 Circulation Management
+## 4.3 Circulation Management
 
 9. **Initial distribution**: Introduce coins by paying them to specialist workers, soldiers, or officials as wages. Accept coins back as payment for taxes, market fees, or state goods. This bootstraps circulation.
 
 10. **Withdraw and remint debased coins**: Over time, coins in circulation lose weight through wear, clipping, and deliberate debasement. Schedule periodic recoinage: recall worn coins, remelt, and restrike at the standard weight. Charge a minting fee (seigniorage) of 2-5% to fund the operation.
 
----
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Coinage Parameters
+## Coinage Parameters
 
 | Parameter | Copper Coin | Silver Coin | Gold Coin |
 |-----------|-------------|-------------|-----------|
@@ -134,7 +130,7 @@ The development of currency requires [metals](../metals/index.md) for producing 
 | Weight tolerance | ±1-2% | ±1-2% | ±1-2% |
 | Wear rate (circulation) | 0.5-2% weight loss/year | 0.3-1% weight loss/year | 0.2-0.5% weight loss/year |
 
-### Monetary Stock Estimates
+## Monetary Stock Estimates
 
 | Community Size | Coinage Stock (copper equivalent) | Annual Minting Need | Denominations |
 |----------------|-----------------------------------|---------------------|---------------|
@@ -143,7 +139,7 @@ The development of currency requires [metals](../metals/index.md) for producing 
 | 2,000-10,000 | 2,000-10,000 kg | 200-1,000 kg/year | 4-6 |
 | 10,000-50,000 | 10,000-50,000 kg | 1,000-5,000 kg/year | 5-8 |
 
-### Purchasing Power Reference (Copper-Based)
+## Purchasing Power Reference (Copper-Based)
 
 | Item | Price (copper coins, ~5 g each) |
 |------|------|
@@ -157,9 +153,8 @@ The development of currency requires [metals](../metals/index.md) for producing 
 | 1 sheep | 50-100 coins |
 | 1 hectare agricultural land | 5,000-15,000 coins |
 
----
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Minimum viable currency**: ~100 kg of coinage metal supports a community of 200-500 people. Below this, commodity money (grain, salt) is more practical.
 - **Minting throughput**: A team of 3 (melter, flan preparer, striker) can produce 100-300 coins per day manually. This is sufficient for communities up to ~5,000 people. Larger communities need mechanized minting (screw press, water-powered trip hammer).
@@ -167,9 +162,8 @@ The development of currency requires [metals](../metals/index.md) for producing 
 - **Monetary velocity**: In a healthy economy, each coin circulates 3-10 times per year. If velocity drops below 2, the economy is hoarding — consider reducing coinage weight or increasing minting to stimulate circulation.
 - **Transition from commodity money**: Introduce coinage alongside existing commodity money. Accept both at fixed exchange rates (e.g., 1 copper coin = 5 kg grain). Gradually phase out commodity money as coinage gains trust.
 
----
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -180,27 +174,24 @@ The development of currency requires [metals](../metals/index.md) for producing 
 | Inflation (prices rising, coin value falling) | Excessive minting; debasement; loss of confidence | Reduce minting; restore weight standard; withdraw debased coins through recoinage |
 | Gresham's Law (bad money drives out good) | Mixed-quality coins in circulation at same face value | Withdraw underweight coins; refuse to accept clipped/debased coins at face value;定期 recoinage |
 
----
 
-## 8. Safety
+## Safety
 
 - **Minting hazards**: Molten copper at 1,085°C causes severe burns. Silver at 962°C, gold at 1,064°C — similar burn risk. Mandatory: leather aprons, gauntlets, face shields, closed-toe boots. No loose clothing near furnaces.
 - **Heavy metal exposure**: Copper, silver, and especially lead (common impurity) are toxic with chronic exposure. Mint workers must wash hands before eating; ventilation in minting areas to disperse metal fumes; rotate mint workers every 2-3 hours.
 - **Security**: Mints are high-value targets for theft. Locate mint within or adjacent to a fortified structure. Minimum 2 guards during operations; sealed vault storage for finished coinage; daily accounting of metal inputs vs. coin outputs with <0.5% discrepancy tolerance.
 - **Dies and tools**: Striking coins requires heavy hammer blows. Missed strikes can shatter dies, sending metal fragments at high velocity. Eye protection mandatory.
 
----
 
-## 9. Quality Control
+## Quality Control
 
 - **Weight verification**: Every coin weighed individually during production. Tolerance: ±1-2% of standard. Batch sample weight check in circulation: weigh 100 random coins, average must be within ±0.5% of standard.
 - **Purity testing**: Touchstone method for gold/silver coins (streak color comparison against known-purity reference). For copper: fracture test (pure copper shows characteristic red fracture surface) or specific gravity test (8.96 g/cm³ for pure copper).
 - **Die integrity**: Inspect dies every 500 strikes for cracking or wear. Replace at first sign of degradation — degraded dies produce blurry coins that erode trust.
 - **Counterfeit detection**: Train merchants to check weight, ring (genuine coins have a characteristic resonant tone when struck), and design detail. Suspicious coins are weighed and compared against the standard.
 
----
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 | Currency Type | Description | Era of First Use | Advantages | Limitations |
 |--------------|-------------|------------------|------------|-------------|
@@ -213,7 +204,7 @@ The development of currency requires [metals](../metals/index.md) for producing 
 | Paper money (representative) | Paper notes backed by metal reserves | Medieval (China) | Lightweight; portable; scalable | Requires trust in issuing authority; counterfeiting risk |
 | Fiat money | Currency with value by decree | Modern | Flexible supply; no metal backing needed | Requires strong governance; inflation risk |
 
-### Currency System Trade-offs
+## Currency System Trade-offs
 
 | Currency Type | Durability | Divisibility | Portability | Trust Required | Inflation Risk | Best Community Size |
 |--------------|:-:|:-:|:-:|:-:|:-:|:-:|

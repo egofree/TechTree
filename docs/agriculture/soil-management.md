@@ -8,7 +8,7 @@
 > **Outputs**: compost, humus, biochar, amended_soil, mulch, green_manure
 > **Critical**: Yes — depleted soils collapse within 3-5 years of continuous cropping; soil management is the foundation of agricultural permanence
 
-## 1. Overview
+## Overview
 
 Soil management is the foundation of sustainable agriculture. Every civilization that has exhausted its soils has collapsed; every civilization that has maintained soil fertility has endured. The core principle is simple: return to the soil what you take from it, and add more than you remove. In practice this means composting organic waste, rotating crops, managing pH and mineral balance, and building organic matter content over years and decades.
 
@@ -18,7 +18,7 @@ This article covers composting methods (turned windrow, static pile, vermicompos
 
 Position in the dependency chain: soil management depends on [Foundations → Agriculture](../foundations/food-agriculture.md) (basic cultivation and harvest knowledge) and supports [Crop Rotation](crop-rotation.md) (rotation builds on soil fertility), [Pest Management](pest-management.md) (healthy soil produces pest-resistant plants), and [Irrigation](irrigation.md) (soil structure determines water infiltration).
 
-## 2. Prerequisites
+## Prerequisites
 
 **Materials**:
 - Organic waste (crop residues, kitchen waste, manure, leaves, straw)
@@ -46,9 +46,9 @@ Position in the dependency chain: soil management depends on [Foundations → Ag
 - Storage for finished compost (covered area or bins)
 - Space for cover crop cultivation within rotation system
 
-## 3. Bill of Materials
+## Bill of Materials
 
-### Turned Windrow Composting System (5 tonnes capacity)
+## Turned Windrow Composting System (5 tonnes capacity)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -59,7 +59,7 @@ Position in the dependency chain: soil management depends on [Foundations → Ag
 | Temperature probe (metal rod, 1 m) | 1 | Metalworking or repurposed | Wooden stick (less precise) |
 | Compost bin or windrow markers | As needed | [Tools → Woodworking](../foundations/tools-basic.md) | Earth berms, concrete blocks |
 
-### Biochar Production (Batch Kiln)
+## Biochar Production (Batch Kiln)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -68,9 +68,9 @@ Position in the dependency chain: soil management depends on [Foundations → Ag
 | Water (for quenching) | 50-200 L | [Water Procurement](../water/procurement.md) | — |
 | Compost or manure (for biochar activation) | 100-200 kg | On-site compost | Manure slurry, compost tea |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Turned Windrow Composting
+## 4.1 Turned Windrow Composting
 
 The most common and reliable composting method. Organic materials are piled in long, trapezoidal windrows and turned periodically to reintroduce oxygen.
 
@@ -101,7 +101,7 @@ Maintain temperature at 55°C or above for a minimum of 3 consecutive days (for 
 - Requires carbon-rich "brown" materials that may be scarce in some farming systems (straw has competing uses as animal bedding)
 - 4-9 month total timeline means compost produced this year serves next year's crops — planning ahead is mandatory
 
-### 4.2 Static Pile (Passive Aeration)
+## 4.2 Static Pile (Passive Aeration)
 
 Compost pile built over a network of perforated pipes or a coarse material base (wood chips, stalks) that allows air to enter passively without turning. Lower labor but slower and less uniform than turned windrow.
 
@@ -123,7 +123,7 @@ Compost pile built over a network of perforated pipes or a coarse material base 
 - Uneven decomposition — material at edges may not reach pathogen-killing temperatures
 - Not suitable for humanure unless temperature monitoring confirms all material reaches 55°C+
 
-### 4.3 Vermicomposting
+## 4.3 Vermicomposting
 
 Composting using earthworms (*Eisenia fetida*), which consume organic matter and produce nutrient-rich castings. Faster than hot composting for suitable materials, produces a superior product with higher plant-available nutrients and beneficial microbial communities. See the dedicated article: [Vermiculture](./soil-management-vermiculture.md).
 
@@ -150,7 +150,7 @@ Composting using earthworms (*Eisenia fetida*), which consume organic matter and
 - Temperature-sensitive — worms die above 35°C and below 0°C, requiring climate management
 - Slower than thermophilic composting at processing large volumes of coarse material
 
-### 4.4 Biochar Production and Application
+## 4.4 Biochar Production and Application
 
 Biochar is charcoal produced specifically for soil amendment. It is created by slow pyrolysis (heating biomass to 400-500°C in a low-oxygen environment), resulting in a highly porous, stable carbon structure that persists in soil for centuries to millennia. Biochar improves soil water retention, nutrient holding capacity (cation exchange capacity), and microbial habitat.
 
@@ -179,7 +179,7 @@ Build a cone or trench kiln from earth or bricks. Fill with dry woody biomass (b
 - Production requires controlled pyrolysis (400-500°C) — uncontrolled burning produces ash, not biochar
 - Yield response is highly variable (10-40%) — benefits are greatest on degraded soils and marginal on already fertile soils
 
-### 4.5 Green Manures and Cover Crops
+## 4.5 Green Manures and Cover Crops
 
 Plants grown specifically to benefit the soil rather than for harvest. They protect soil from erosion, add organic matter, fix atmospheric nitrogen (legumes), suppress weeds, and break pest cycles.
 
@@ -208,7 +208,7 @@ Sow cover crops immediately after harvesting the main crop. Incorporate into soi
 - Requires seed stock for 2-5 different cover crop species (see [Seed Saving](seed-saving.md) for seed production)
 - Legume residues must be incorporated at the correct growth stage — too early wastes nitrogen potential, too late results in woody, slow-decomposing material
 
-### 4.6 Mulching
+## 4.6 Mulching
 
 Covering the soil surface with organic or mineral material to conserve moisture, suppress weeds, moderate soil temperature, and add organic matter as the mulch decomposes.
 
@@ -233,7 +233,7 @@ Covering the soil surface with organic or mineral material to conserve moisture,
 - Straw and wood chip mulch can harbor slugs and snails, increasing pest pressure on susceptible crops
 - Fresh wood chips mixed into soil cause nitrogen lock-up — must be kept on the surface only
 
-### 4.7 Soil Testing and Amendments
+## 4.7 Soil Testing and Amendments
 
 **pH management**:
 Target pH 6.0-7.0 for most crops (slightly acidic to neutral). Below 5.5: aluminum and manganese toxicity, phosphorus lock-up, reduced microbial activity. Above 7.5: iron, manganese, zinc, and phosphorus become less available.
@@ -271,7 +271,7 @@ Target pH 6.0-7.0 for most crops (slightly acidic to neutral). Below 5.5: alumin
 - Over-liming raises pH above 7.5, causing micronutrient lock-up (iron, manganese, zinc deficiency)
 - Visual nutrient diagnosis is imprecise — multiple deficiencies produce similar symptoms
 
-### 4.8 Mycorrhizal Inoculation
+## 4.8 Mycorrhizal Inoculation
 
 Mycorrhizal fungi form symbiotic associations with plant roots, extending the effective root network by 10-100x through fungal hyphae that explore soil pores too small for roots to enter. The fungi receive carbohydrates from the plant and in return provide water and nutrients (especially phosphorus, zinc, and copper) from beyond the root zone.
 
@@ -297,9 +297,9 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 - Excessive phosphorus fertilization causes plants to abandon the symbiosis — counterproductive if P is already abundant
 - Inoculant must come from healthy ecosystems — collecting from diseased or contaminated soil introduces pathogens
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Compost Feedstock C:N Ratios
+## Compost Feedstock C:N Ratios
 
 | Material | C:N Ratio | Category |
 |----------|-----------|----------|
@@ -314,7 +314,7 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 | Shredded newspaper | 150-200:1 | Brown (carbon) |
 | Wood chips | 400-800:1 | Brown (carbon) |
 
-### Compost Temperature and Pathogen Kill
+## Compost Temperature and Pathogen Kill
 
 | Temperature | Duration Required | Pathogens Killed |
 |-------------|-------------------|-----------------|
@@ -323,7 +323,7 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 | 50-55°C | 7-14 days | Most bacterial pathogens (not all helminth eggs) |
 | Below 45°C | Extended | Insufficient for reliable pathogen kill |
 
-### Soil Amendment Application Rates
+## Soil Amendment Application Rates
 
 | Amendment | Application Rate | Effect | Frequency |
 |-----------|-----------------|--------|-----------|
@@ -333,7 +333,7 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 | Wood ash | 0.5-1 kg/m² | Raises pH, adds potassium | Annual |
 | Elemental sulfur | 0.5-2 kg/100 m² | Lowers pH 0.5-1.0 units | As needed |
 
-### Cover Crop Seeding Rates and Biomass Production
+## Cover Crop Seeding Rates and Biomass Production
 
 | Cover Crop | Seeding Rate (kg/ha) | Biomass in 90 days (tonnes/ha) | N Content of Biomass (kg/ha) | Winter Kill? |
 |------------|---------------------|-------------------------------|------------------------------|-------------|
@@ -344,7 +344,7 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 | Buckwheat | 40-60 | 2-4 | 20-40 | Yes (frost sensitive) |
 | Radish (daikon) | 8-15 | 3-6 | 25-50 | Yes (below -5°C) |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 **Household composting (garden-scale, 0.05-0.2 ha)**: Single compost bin or pile (1-2 m³). Kitchen waste, garden trimmings, and small animal manure. Turn by hand every 1-2 weeks. Produces 0.5-1.0 m³ of compost per year — sufficient for garden beds. Labor: 1-2 hours per week.
 
@@ -356,7 +356,7 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 
 **Key bottleneck**: Organic matter supply. The gap between what continuous cropping removes (3-5 tonnes organic matter/ha/year) and what composting returns is difficult to close without integrating livestock manure, cover crops, and external organic inputs.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -369,7 +369,7 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 | Lime not raising pH | Insufficient time (takes 2-6 months), or soil has high buffering capacity | Wait longer; increase application rate by 50%; incorporate into soil rather than surface application |
 | Cover crop not establishing | Poor seed-to-soil contact, drought, or incorrect planting depth | Roll or tread after broadcasting; plant before rain; check depth (clover 0.5-1.5 cm, vetch 1-2 cm) |
 
-## 8. Safety
+## Safety
 
 - **Pathogen risks in composting**: Raw manure and human waste contain pathogens (*E. coli* O157:H7, *Salmonella*, *Campylobacter*, helminth eggs). Thermophilic composting at 55°C+ for the required duration kills these organisms. Always verify pile temperature with a probe. If the pile does not reach temperature (insufficient nitrogen, too small, too dry), do not use the compost on food crops.
 - **Compost leachate**: Liquid draining from compost piles contains concentrated nutrients, dissolved organic compounds, and potentially pathogens. Do not allow leachate to enter waterways (causes algal blooms and oxygen depletion). Collect in a sump or allow to infiltrate soil through a vegetated buffer zone. Leachate diluted 1:10-1:20 can be used as liquid fertilizer.
@@ -378,9 +378,9 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 - **Humanure precautions**: If composting human waste, never shortcut the thermophilic phase. Never apply inadequately composted humanure to food crops. Maintain separate tools for handling raw humanure and finished compost. Wash hands thoroughly after handling any composting materials.
 - **Lime handling**: Agricultural lime (calcium carbonate) is a mild irritant. Dolomite lime contains silica dust. Wear a mask when spreading dry lime to avoid inhalation. Eye protection recommended — lime dust in eyes causes irritation.
 
-## 9. Quality Control
+## Quality Control
 
-### Compost Maturity Indicators
+## Compost Maturity Indicators
 
 | Parameter | Finished Compost | Immature/Incomplete | Test Method |
 |-----------|-----------------|---------------------|-------------|
@@ -391,7 +391,7 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 | C:N ratio | 15-20:1 | Above 25:1 | Laboratory analysis or germination test |
 | Seed germination | >80% in compost extract | <50% (phytotoxic compounds) | Germinate cress seeds in compost extract |
 
-### Soil Health Monitoring
+## Soil Health Monitoring
 
 | Indicator | Target | Warning Threshold | Test Method |
 |-----------|--------|-------------------|-------------|
@@ -401,9 +401,9 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 | Infiltration rate | 15-30 mm/hr | <5 mm/hr (compacted) | Timed pouring of known water volume into ring |
 | Root depth | >30 cm (crop-dependent) | <15 cm (compacted or acidic) | Dig cross-section with shovel |
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Composting Method Selection
+## Composting Method Selection
 
 | Situation | Recommended Method | Why |
 |-----------|-------------------|-----|
@@ -414,7 +414,7 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 | Sandy, degraded soil needing carbon | Biochar + compost | Biochar provides persistent carbon structure; compost adds nutrients |
 | Acidic tropical soil (pH <5.0) | Biochar + lime + green manure | Biochar raises CEC, lime corrects pH, green manure adds organic matter |
 
-### Soil Amendment Decision Matrix
+## Soil Amendment Decision Matrix
 
 | Problem | Amendment | Application Rate | Expected Result |
 |---------|-----------|-----------------|-----------------|
@@ -424,7 +424,7 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 | Low phosphorus | Mycorrhizal inoculation + bone meal | 1 handful forest soil per planting hole; 200-500 kg/ha bone meal | +20-50% P uptake efficiency |
 | Compacted soil | Deep-rooted cover crop (daikon radish, alfalfa) | Sow at standard rate; allow roots to penetrate 30-60 cm | Improved infiltration and aeration |
 
-## 11. References
+## References
 
 - [Vermiculture](./soil-management-vermiculture.md) — worm-based composting produces the highest-quality soil amendment
 - [Foundations → Agriculture](../foundations/food-agriculture.md) — soil management is the foundation of sustainable crop production
@@ -437,6 +437,6 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 - [Plants → Edible Plants](../plants/edible-plants.md) — crop species selection and green manure options
 - [Plants → Forestry](../plants/index.md) — forest soil as mycorrhizal inoculant source; wood ash for pH amendment
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*
+
+[← Back to Agriculture](index.md)

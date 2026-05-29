@@ -8,7 +8,7 @@
 > **Outputs**: biogas, producer_gas, biofuel, biomass_heat, biomass_electricity
 > **Critical**: No — biomass supplements other energy sources and provides fuel security when petroleum and coal are unavailable
 
-## 1. Overview
+## Overview
 
 Biomass energy converts organic material — wood, agricultural residues, animal manure, food waste, and purpose-grown energy crops — into useful heat, combustible gas, or liquid fuels. It is the oldest energy source (fire) and remains relevant at every stage of industrial development: from simple wood fires for heating, through biogas digesters for gas production, to biomass gasification powering internal combustion engines for electricity generation.
 
@@ -16,9 +16,9 @@ In the bootstrap context, biomass energy fills a critical gap: it is the only re
 
 Three primary conversion pathways are covered here: direct combustion for heat, anaerobic digestion for biogas, and thermochemical gasification for producer gas. Each has distinct feedstock requirements, outputs, and scale characteristics. Liquid biofuel production (ethanol, biodiesel) is mentioned but detailed in [Chemistry](../chemistry/index.md) since the primary processes are chemical rather than energy-focused.
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 
 - **Biomass feedstock** — Wood chips, agricultural residues (straw, husks, stalks), animal manure, food waste, energy crops (miscanthus, switchgrass). See [Plants](../plants/structural-plants.md).
 - **Steel plate and pipe** — For gasifier construction, digester tanks, and piping. See [Iron & Steel](../metals/iron-steel.md).
@@ -26,22 +26,22 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 - **Sealing materials** — Clay, tar, or rubber gaskets for digester gas-tightness.
 - **Water** — For digester slurry mixing and gas scrubbing. See [Water](../water/basic-treatment.md).
 
-### Tools and Equipment
+## Tools and Equipment
 
 - **Welding equipment** — For gasifier and digester construction. See [Joining](../machine-tools/joining.md).
 - **Engine-generator set** — For converting gas to electricity. See [Heat Engines](engine.md) and [Electricity](electricity.md).
 - **Gas storage** — Gasometer (floating bell gas holder) or pressurized tank for biogas storage.
 - **Pumps** — For circulating digester slurry and feeding gasifiers.
 
-### Knowledge
+## Knowledge
 
 - Anaerobic digestion biology (methanogenic archaea, temperature ranges, C:N ratio)
 - Gasification chemistry (partial combustion, reduction zone, tar cracking)
 - Engine modification for gaseous fuel (carburetor replacement, air-fuel ratio control)
 
-## 3. Bill of Materials
+## Bill of Materials
 
-### Small Biogas Digester (6 m³, family-scale)
+## Small Biogas Digester (6 m³, family-scale)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -52,7 +52,7 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 | Valve (brass or steel, 25 mm) | 2-3 pcs | [Metals](../metals/index.md) | Plug valve from wood and clay |
 | Cement and sand (mortar) | 500 kg cement, 1,500 kg sand | [Chemistry](../chemistry/index.md) | Clay mortar (higher leakage) |
 
-### Downdraft Gasifier (10-50 kW, wood-chip fueled)
+## Downdraft Gasifier (10-50 kW, wood-chip fueled)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -64,9 +64,9 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 | Sawdust filter drum (200 liter) | 1 unit | [Forestry](../plants/index.md) | Cloth bag filter |
 | Gas cooling pipe (finned, 50 mm) | 3-5 m | [Iron & Steel](../metals/iron-steel.md) | Steel pipe in water bath |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Anaerobic Digestion (Biogas Production)
+## 4.1 Anaerobic Digestion (Biogas Production)
 
 1. **Build the digester**: Construct a cylindrical or rectangular underground tank (6-10 m³ volume for family scale, 50-500 m³ for village scale). Inlet pipe near the bottom for fresh feed, outlet pipe at the opposite end for spent slurry. Gas collection dome at the top — either a fixed dome (gas pressure varies) or a floating bell (gas holder rises as gas accumulates, maintains constant low pressure).
 
@@ -116,7 +116,7 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 - Biogas has low energy density (21-24 MJ/m³) compared to natural gas (36-40 MJ/m³)
 - Slow process — 20-40 day retention time means slow response to increased demand
 
-### 4.2 Biomass Gasification (Producer Gas)
+## 4.2 Biomass Gasification (Producer Gas)
 
 1. **Construct the gasifier**: Build a downdraft (Imbert-type) gasifier — a vertical cylindrical reactor with a throated combustion zone. The throat (constriction) forces all gas through the hottest zone, cracking tars. Diameter: 300-600 mm for 10-50 kW engines. Height: 1.0-1.5 m. Air enters through tuyeres (nozzles) at the throat.
 
@@ -169,7 +169,7 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 - Requires consistent fuel moisture (<20%) — wet fuel causes tar spikes and unstable operation
 - Gas cannot be stored at pressure — must be consumed immediately or flared
 
-### 4.3 Direct Combustion for Heat
+## 4.3 Direct Combustion for Heat
 
 1. **Prepare fuel**: Air-dry biomass to <20% moisture content. Green wood (>50% moisture) wastes 30-50% of combustion energy evaporating water. Chip or cut to uniform size for consistent feeding.
 
@@ -211,9 +211,9 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 - High particulate emissions without electrostatic precipitators or bag filters
 - Moisture content directly reduces usable heat — green wood wastes 30-50% of combustion energy evaporating water
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### 5.1 Biogas Yield by Feedstock
+## 5.1 Biogas Yield by Feedstock
 
 | Feedstock | Biogas Yield (m³/kg VS added) | Methane Content (%) | C:N Ratio | Notes |
 |-----------|-------------------------------|---------------------|-----------|-------|
@@ -227,7 +227,7 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 
 VS = volatile solids (organic matter). Actual biogas yield depends on temperature, retention time, and C:N ratio.
 
-### 5.2 Gasifier Performance by Fuel Type
+## 5.2 Gasifier Performance by Fuel Type
 
 | Parameter | Wood Chips | Charcoal | Agricultural Residues |
 |-----------|-----------|----------|----------------------|
@@ -242,7 +242,7 @@ VS = volatile solids (organic matter). Actual biogas yield depends on temperatur
 
 Cold gas efficiency = energy in product gas / energy in fuel input. Overall electrical efficiency (fuel to electricity) = cold gas efficiency × engine efficiency × generator efficiency ≈ 15-25%.
 
-### 5.3 Biomass Heating Values
+## 5.3 Biomass Heating Values
 
 | Fuel | Higher Heating Value (MJ/kg) | Bulk Density (kg/m³) | Energy Density (GJ/m³) |
 |------|------------------------------|----------------------|----------------------|
@@ -255,27 +255,27 @@ Cold gas efficiency = energy in product gas / energy in fuel input. Overall elec
 | Biogas (per m³) | 21-24 | 0.85-1.1 | 0.02 |
 | Producer gas (per m³) | 4.5-6.0 | 0.9-1.2 | 0.005 |
 
-## 6. Scaling Notes
+## Scaling Notes
 
-### Family Scale (1-5 kW thermal / 0.5-2 kW electric)
+## Family Scale (1-5 kW thermal / 0.5-2 kW electric)
 
 A 6 m³ biogas digester fed with manure from 5-10 cattle produces 1-3 m³ biogas per day (6-18 kWh thermal). Sufficient for a family's cooking needs. A small gasifier (10 cm diameter throat) consuming 2-5 kg/hour wood chips powers a 1-3 kW engine-generator. Construction: brick or concrete digester, steel gasifier, simple gas cleaning. Build time: 1-4 weeks.
 
-### Village Scale (20-100 kW thermal / 10-50 kW electric)
+## Village Scale (20-100 kW thermal / 10-50 kW electric)
 
 A 50-100 m³ digester processes waste from 50-100 cattle or equivalent food waste, producing 15-50 m³ biogas/day (90-300 kWh thermal). A 30 cm diameter gasifier consuming 15-30 kg/hour wood chips drives a 10-30 kW engine-generator, providing electricity for 50-200 households. Requires: steel tank construction, gas piping network, engine maintenance skills. Build time: 2-6 months.
 
-### Industrial Scale (500+ kW electric)
+## Industrial Scale (500+ kW electric)
 
 A 100 cm diameter gasifier consuming 100-300 kg/hour fuel drives a 100-500 kW engine-generator set. Alternatively, a biomass-fired steam boiler (2-10 tonnes steam/hour) drives a steam turbine at 20-35% thermal efficiency. Requires: consistent fuel supply chain (1,000-5,000 tonnes/year), mechanical fuel handling, water treatment for boiler, and skilled operators.
 
-### Minimum Economic Scale
+## Minimum Economic Scale
 
 - **Biogas digester**: 6 m³ (family) is break-even. Below this, gas production is too low to justify construction effort.
 - **Gasifier**: 10 kW electrical output. Below this, the gas cleaning complexity per unit power is excessive.
 - **Biomass boiler**: 50 kW thermal. Below this, simple direct combustion in a stove is more practical.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -287,47 +287,47 @@ A 100 cm diameter gasifier consuming 100-300 kg/hour fuel drives a 100-500 kW en
 | Gasifier bridge formation (fuel stops flowing) | Irregular fuel size, or high moisture causing swelling and bridging | Screen fuel to uniform size; dry fuel thoroughly; install mechanical agitator or stirrer in hopper |
 | Flame burn-back into gasifier | Insufficient gas velocity through reactor, or air leak on gas line | Maintain minimum gas flow rate; check all gas connections for air ingress; install flame arrestor (water seal or fine mesh) on gas line |
 
-## 8. Safety
+## Safety
 
-### Carbon Monoxide Poisoning
+## Carbon Monoxide Poisoning
 
 Producer gas contains 18-32% CO — lethal at 0.1% (1,000 ppm) concentration in air for 1 hour exposure. Biogas from the digester contains minimal CO, but any incomplete combustion of biogas in a confined space produces CO. Operate gasifiers and gas engines only in well-ventilated areas or outdoors. Install CO detectors in any enclosed space where gas equipment operates. Symptoms of CO poisoning: headache, dizziness, nausea, confusion. Evacuate immediately and ventilate if CO is suspected.
 
-### Biogas Explosion
+## Biogas Explosion
 
 Biogas (60% CH₄) is explosive at 5-15% concentration in air. The digester gas holder stores gas at low pressure (10-50 mbar) — a leak into an enclosed space creates explosion risk. Install gas detectors in the vicinity of digesters. No open flames, welding, or spark sources near gas holders and piping. Ground all metal gas piping to prevent static discharge ignition.
 
-### Gasifier High Temperature
+## Gasifier High Temperature
 
 Gasifier combustion zone reaches 1,000-1,200°C. The outer shell may reach 200-400°C without insulation. Install firebrick lining and outer insulation. Wear heat-resistant gloves when operating any valve or port on a running gasifier. Never open the fuel hopper lid while the gasifier is running — flash-back can ignite fuel in the hopper.
 
-### Digestate Pathogens
+## Digestate Pathogens
 
 Anaerobic digestion reduces pathogens significantly but does not eliminate them completely (especially at mesophilic temperatures). Treat digestate as potentially infectious material. Wear gloves when handling. Apply to fields with a minimum 30-day interval before harvest of crops consumed raw. Thermophilic digestion (50-60°C) achieves better pathogen kill (>99%).
 
-### Gas Cleaning Chemicals
+## Gas Cleaning Chemicals
 
 Iron sponge (iron oxide chips used for H₂S removal) generates iron sulfide, which is pyrophoric — it can spontaneously ignite when exposed to air after becoming saturated with H₂S. Replace iron sponge in a well-ventilated area away from ignition sources. Moisten spent iron sponge with water before disposal to prevent spontaneous combustion.
 
-## 9. Quality Control
+## Quality Control
 
-### Biogas Composition
+## Biogas Composition
 
 Measure methane content with a portable biogas analyzer (infrared methane sensor) or by simple combustion test (biogas that supports a stable blue flame has >50% methane). Target: 55-70% CH₄. Below 50%: digester is underperforming — check temperature, pH, and feedstock balance.
 
-### Producer Gas Quality
+## Producer Gas Quality
 
 - **Tar content**: <50 mg/m³ for engine use (higher tar fouls engine valves and piston rings within hours). Test: pass a known volume of gas through a filter, weigh tar deposit. If tar >100 mg/m³: improve throat design, add secondary air, or improve cooling/filtering.
 - **Gas heating value**: 4-6 MJ/m³ for wood producer gas. Measure with a gas calorimeter or estimate from gas composition (measured by gas chromatography or Orsat apparatus).
 - **Particulate content**: <50 mg/m³ for engine use. Test: filter sample, weigh deposit.
 
-### Digestate Fertilizer Quality
+## Digestate Fertilizer Quality
 
 Measure pH (target 7.0-8.0), total nitrogen content (target 1.5-3.0% on dry basis), and heavy metals (if industrial waste is co-digested). Compare to raw manure: digestate should have 10-20% higher plant-available nitrogen due to mineralization during digestion.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Comparison of Biomass Conversion Pathways
+## Comparison of Biomass Conversion Pathways
 
 | Pathway | Output | Efficiency (fuel-to-useful) | Complexity | Scale | Best For |
 |---------|--------|---------------------------|------------|-------|----------|
@@ -338,19 +338,19 @@ Measure pH (target 7.0-8.0), total nitrogen content (target 1.5-3.0% on dry basi
 | Pyrolysis (slow) | Char + bio-oil + gas | 30-50% (char yield) | Medium | Any | Charcoal production with liquid fuel co-product |
 | Ethanol fermentation | Liquid fuel | 30-45% (sugar-to-ethanol) | High | 1,000+ L/batch | Transport fuel from sugar/starch crops |
 
-### Updraft vs Downdraft Gasification
+## Updraft vs Downdraft Gasification
 
 Downdraft gasifiers pass gas downward through the combustion zone, cracking tars at high temperature. This produces clean gas suitable for engines. However, downdraft gasifiers require uniform, low-ash fuel and have limited throughput per unit cross-section.
 
 Updraft gasifiers pass gas upward through the fuel bed. The gas exits through the pyrolysis and drying zones, picking up tars. Gas tar content: 10,000-50,000 mg/m³ — unsuitable for engines without extensive cleaning. However, updraft gasifiers handle higher moisture and ash content, and achieve higher cold gas efficiency (70-85%). Best for direct combustion of the gas in boilers or kilns where tar is not a problem.
 
-### Liquid Biofuels
+## Liquid Biofuels
 
 - **Ethanol**: Ferment sugar or starch crops (sugarcane, corn, cassava), distill to 95% (azeotrope) or 99.5% (with molecular sieve dehydration). See [Fermentation](../chemistry/fermentation.md). Energy density: 23-24 MJ/kg (about 65% of gasoline). Used as gasoline substitute or blend component.
 - **Biodiesel**: Transesterification of vegetable oils or animal fats with methanol and NaOH catalyst. Energy density: 37-38 MJ/kg (similar to diesel). Used as diesel substitute or blend. Requires oilseed press and methanol production (chemistry-dependent).
 - **Wood diesel (Fischer-Tropsch)**: Catalytic conversion of syngas (from gasification) to liquid hydrocarbons. Complex catalyst system (iron or cobalt-based). Efficiency: 30-45% (fuel-to-liquid). Requires advanced chemical engineering — late bootstrap technology.
 
-## 11. References
+## References
 
 - **[Charcoal Production](charcoal.md)** — Charcoal as gasifier fuel, pyrolysis chemistry
 - **[Heat Engines](engine.md)** — Internal combustion engines modified for gas fuel
@@ -361,6 +361,6 @@ Updraft gasifiers pass gas upward through the fuel bed. The gas exits through th
 - **[Plants](../plants/structural-plants.md)** — Energy crop species and yields
 - **[Fuel Production](fuels.md)** — Comparative fuel properties
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+
+[← Back to Energy](index.md)

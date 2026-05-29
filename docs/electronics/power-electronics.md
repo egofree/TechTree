@@ -8,7 +8,7 @@
 > **Outputs**: rectifiers, inverters, converters, motor_drives, ups_systems
 > **Critical**: Yes — power electronics enables efficient energy conversion, motor control, and solar/grid integration without which industrial electrification is impossible
 
-## 1. Overview
+## Overview
 
 Power electronics is the technology of converting and controlling electrical power using semiconductor switching devices. It encompasses rectifiers (AC→DC), inverters (DC→AC), DC-DC converters, and AC-AC converters. Every modern power system — from [solar inverters](../energy/index.md) to variable-frequency motor drives to welding machines to [computer power supplies](../computing/electronic.md) — relies on power electronics.
 
@@ -16,9 +16,9 @@ The core principle is high-frequency switching (1 kHz to 1 MHz) of semiconductor
 
 Power electronics depends on [semiconductor devices](semiconductor-devices.md) (switches and diodes), [passive components](passive-components.md) (inductors, capacitors for energy storage and filtering), [PCB fabrication](pcb-fabrication.md) (high-current, thermally-managed circuit boards), and [electrical systems](electrical-systems.md) (power distribution). It enables efficient industrial automation, renewable energy integration, and virtually all modern power management.
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 - **Power semiconductors**: Diodes, MOSFETs, IGBTs, thyristors (from [Semiconductor Devices](semiconductor-devices.md))
 - **Magnetic cores**: Ferrite (MnZn, NiZn) for high-frequency transformers and inductors, iron powder or amorphous metal for high-power inductors
 - **Magnet wire**: Copper wire (0.1-3.0 mm dia) with enamel insulation (polyurethane, polyester, or polyimide), rated 155-220°C
@@ -27,21 +27,21 @@ Power electronics depends on [semiconductor devices](semiconductor-devices.md) (
 - **Thermal interface materials**: Thermal grease (1-5 W/m·K), mica or silicone pads, aluminum or copper heatsinks
 - **Gate driver ICs**: Or discrete gate drive circuits using small-signal transistors and optocouplers
 
-### Tools
+## Tools
 - [Oscilloscope](../measurement/electrical-instruments.md) (100+ MHz, 2+ channels) for switching waveform analysis
 - [Power analyzer](../measurement/electrical-instruments.md) for efficiency measurement (±0.1-0.5% accuracy)
 - [LCR meter](../measurement/electrical-instruments.md) for inductor/capacitor characterization
 - Thermal imaging camera or thermocouples for thermal validation
 - [Electronics assembly](assembly.md) equipment (soldering, PCB fabrication)
 
-### Knowledge
+## Knowledge
 - PWM (pulse-width modulation) theory: duty cycle D = ton/(ton + toff), average output = D × input
 - Switching loss analysis: Psw = ½ × V × I × (tr + tf) × fsw
 - Magnetic design: volt-second balance, core selection (Ae, le, Bmax), copper loss (proximity effect, skin effect)
 - Control theory: voltage-mode control, current-mode control, feedback loop stability (Bode plot, phase margin)
 - Thermal design: junction-to-heatsink thermal resistance chain, forced vs. natural convection
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity (per 1 kW DC-DC converter, 48V→12V) | Source | Alternatives |
 |----------|---------------------------------------------|--------|-------------|
@@ -56,9 +56,9 @@ Power electronics depends on [semiconductor devices](semiconductor-devices.md) (
 | Thermal grease | 2-5 g | [Polymers](../polymers/index.md) | Thermal pad (higher Rth but cleaner) |
 | Inductor core (iron powder, 33 μH) | 1 core | [Passive Components](passive-components.md) | Ferrite + gap (lower loss, tighter tolerance) |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Rectifiers (AC → DC)
+## 4.1 Rectifiers (AC → DC)
 
 #### Uncontrolled Rectifier (Diode Bridge)
 
@@ -80,7 +80,7 @@ Replace diodes with thyristors (SCRs). Control firing angle α (0-180°) to vary
 - Rectifiers draw non-sinusoidal input current (flat-topped waveform with current peaks near voltage peaks), generating harmonics (5th, 7th, 11th) that distort the AC supply — IEEE 519 limits total harmonic distortion to 5% at the point of common coupling, often requiring input harmonic filters
 - Thyristor rectifiers draw reactive power proportional to firing angle (power factor = cos(α)) — at half output voltage, power factor is only 0.5, requiring capacitor banks for correction
 
-### 4.2 DC-DC Converters
+## 4.2 DC-DC Converters
 
 #### Buck Converter (Step-Down)
 
@@ -130,7 +130,7 @@ Buck-boost: inverting output (negative voltage). Vout = -D × Vin / (1 - D). Use
 - Flyback converters (the simplest isolated topology) store all energy in the transformer air gap during each cycle, limiting practical power to ~200W — above this, forward or bridge topologies are required with increased component count
 - All DC-DC converters generate conducted and radiated EMI from high di/dt and dv/dt switching — compliance with FCC Part 15 or CISPR 32 requires input EMI filters that add 10-20% to converter cost and volume
 
-### 4.3 Inverters (DC → AC)
+## 4.3 Inverters (DC → AC)
 
 #### Single-Phase H-Bridge Inverter
 
@@ -158,7 +158,7 @@ Buck-boost: inverting output (negative voltage). Vout = -D × Vin / (1 - D). Use
 - Shoot-through fault (both switches in one leg conducting simultaneously) creates a DC bus short circuit that destroys both switches in microseconds — requires careful gate drive timing and fast overcurrent protection (desaturation detection for IGBTs, current-sense comparator for MOSFETs)
 - Output LC filter resonant frequency must be carefully placed between the output frequency (50/60 Hz) and switching frequency (5-20 kHz) — too low degrades transient response, too high allows switching harmonics into the load
 
-### 4.4 Motor Drives (VFD — Variable Frequency Drive)
+## 4.4 Motor Drives (VFD — Variable Frequency Drive)
 
 1. **Rectifier stage**: Three-phase diode bridge converts AC line to DC. 575V DC bus for 480V AC input.
 2. **DC bus**: Capacitor bank (1000-10,000 μF) smooths DC ripple. Bus voltage: 300V (240V input), 575V (480V input), 1150V (960V input).
@@ -175,7 +175,7 @@ Buck-boost: inverting output (negative voltage). Vout = -D × Vin / (1 - D). Use
 - High carrier frequency increases switching losses by 1-2% per kHz above 4 kHz — a 16 kHz carrier reduces drive efficiency from 97% to ~85% and requires derating the drive output current by 15-20%
 - VFDs generate common-mode voltage on the motor shaft, causing bearing current flow that produces electrical discharge machining (EDM) pits in bearing races — shaft grounding rings or insulated bearings are required for reliable long-term operation
 
-### 4.5 UPS (Uninterruptible Power Supply)
+## 4.5 UPS (Uninterruptible Power Supply)
 
 Online (double-conversion) UPS topology:
 1. Rectifier: AC input → DC bus (maintains battery charge)
@@ -195,9 +195,9 @@ Efficiency: 90-95% (double conversion always active). Battery runtime: 5-30 minu
 - Battery bank replacement every 3-5 years for VRLA lead-acid types is the largest lifecycle cost — battery replacement typically exceeds the original UPS purchase price over a 15-year system life
 - Battery runtime is inherently limited (5-30 minutes at full load) — a UPS alone cannot sustain operation through extended outages and must be paired with a standby generator for continuous availability
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Converter Topology Comparison
+## Converter Topology Comparison
 
 | Topology | Power Range | Efficiency | Isolation | Complexity | Typical Application |
 |----------|------------|-----------|-----------|-----------|-------------------|
@@ -212,7 +212,7 @@ Efficiency: 90-95% (double conversion always active). Battery runtime: 5-30 minu
 | Push-pull | 100W-5kW | 85-93% | Yes | Medium | DC-DC converters, telecom |
 | Three-phase inverter | 1kW-10MW | 90-98% | Yes (if transformer) | High | Motor drives, grid-tie |
 
-### Switching Device Selection
+## Switching Device Selection
 
 | Device | Voltage Range | Frequency Range | Switching Loss | Conduction Loss | Best For |
 |--------|--------------|----------------|---------------|----------------|----------|
@@ -222,7 +222,7 @@ Efficiency: 90-95% (double conversion always active). Battery runtime: 5-30 minu
 | SiC MOSFET | 650-3300V | 50-250 kHz | Very low | Low (wide bandgap) | High-efficiency, high-voltage |
 | GaN HEMT | 40-650V | 100-1000 kHz | Ultra-low | Very low | High-frequency, compact |
 
-### Magnetic Component Design Parameters
+## Magnetic Component Design Parameters
 
 | Core Material | Frequency Range | Bmax (at frequency) | Core Loss (mW/cm³) | Relative Cost |
 |--------------|----------------|---------------------|-------------------|---------------|
@@ -233,7 +233,7 @@ Efficiency: 90-95% (double conversion always active). Battery runtime: 5-30 minu
 | Nanocrystalline | 10-200 kHz | 0.8-1.0 T | 10-100 | 5-10× |
 | Sendust (Fe-Si-Al) | 1-500 kHz | 0.5-0.8 T | 100-500 | 1-2× |
 
-### Power Converter Efficiency by Power Level
+## Power Converter Efficiency by Power Level
 
 | Power Level | Typical Efficiency | Key Losses | Dominant Loss Mechanism |
 |-------------|-------------------|-----------|------------------------|
@@ -244,16 +244,16 @@ Efficiency: 90-95% (double conversion always active). Battery runtime: 5-30 minu
 | 10-100kW | 95-98% | IGBT Vce(sat), transformer | Conduction + core |
 | 100kW-10MW | 96-99% | Transformer, filter | Magnetic losses |
 
-## 6. Scaling Notes
+## Scaling Notes
 
-### Power Level Scaling
+## Power Level Scaling
 
 - **1-100W**: Single MOSFET, PCB-mount inductors, electrolytic capacitors. Air cooling. Design time: hours. Cost: $2-20.
 - **100W-10kW**: Multiple MOSFETs or IGBTs in parallel, custom-wound transformers on ferrite cores, forced-air cooled heatsinks. Design time: days to weeks. Cost: $20-500.
 - **10-100kW**: IGBT modules (multi-chip), liquid-cooled heatsinks, laminated bus bars, LCL filters. Design time: weeks to months. Cost: $500-10,000.
 - **100kW-10MW**: Series/parallel IGBT stacks or thyristor valves, oil-immersed transformers, water cooling, custom control systems. Design time: months to years. Cost: $10,000-1,000,000.
 
-### Frequency Scaling
+## Frequency Scaling
 
 Higher switching frequency shrinks magnetic components but increases switching losses. Practical limits:
 - Silicon MOSFETs: 20-500 kHz (above 500 kHz, switching losses dominate)
@@ -261,13 +261,13 @@ Higher switching frequency shrinks magnetic components but increases switching l
 - SiC MOSFETs: 50-250 kHz (10-50× lower switching loss than Si)
 - GaN HEMTs: 100-1000 kHz (enables MHz-class converters for very compact designs)
 
-### Integration Level
+## Integration Level
 
 - **Discrete design**: Individual switches, gate drivers, magnetics on PCB. Maximum flexibility. Standard approach for 1W-100kW.
 - **Power module**: Pre-packaged IGBT or MOSFET dies in single package with internal isolation. Reduced parasitic inductance. Easier thermal management. Common above 5 kW.
 - **Power IC**: Controller + switches on one chip. Limited power (<50W). Highest integration. Used in POL (point-of-load) converters.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -282,7 +282,7 @@ Higher switching frequency shrinks magnetic components but increases switching l
 | Intermittent resets under load | Input voltage sagging below UVLO, ground bounce | Add input capacitance; verify PCB ground plane integrity; check input cable resistance; use remote voltage sensing |
 | Capacitor lifetime short | High ripple current, excessive ambient temperature | Derate ripple current to <70% of rated; use higher-temperature rated capacitors (105°C vs. 85°C); improve airflow |
 
-## 8. Safety
+## Safety
 
 - **High energy storage**: Power converters store energy in capacitors (½CV²) and inductors (½LI²). A 4700 μF capacitor charged to 400V stores 376 J — enough to cause severe burns, cardiac arrest, or arc flash. **Always discharge capacitors** through a bleeder resistor (100-1000 Ω, rated for peak power) before servicing. Wait 5× the RC time constant for full discharge. Never short charged capacitors with a screwdriver — the arc causes copper vapor and shrapnel.
 - **High voltage**: Off-line converters (rectified mains: 170V DC for 120V AC, 340V DC for 240V AC) present lethal shock hazard. Creepage and clearance requirements: 3-6 mm for 240V mains. All high-voltage sections must be insulated and marked. Service personnel must use isolated tools and insulating mats. GFCI protection on test bench circuits.
@@ -292,31 +292,31 @@ Higher switching frequency shrinks magnetic components but increases switching l
 - **Gate driver hazards**: High-side gate drivers float at the switch node voltage (0 to Vbus). Isolated gate drive circuits use optocouplers or pulse transformers to level-shift. Never probe high-side gate drive circuits with a grounded oscilloscope — use differential probes or isolated oscilloscope channels.
 - **Inductor/transformer safety**: Magnetic components can generate high voltage spikes (V = L × dI/dt) during switching transients. A 1 mH inductor with 10A interrupted in 100 ns produces a 100 kV spike. Clamp inductive kicks with snubber circuits (RCD clamp: fast diode + resistor + capacitor) or TVS (transient voltage suppression) diodes.
 
-## 9. Quality Control
+## Quality Control
 
-### Component-Level Tests
+## Component-Level Tests
 - **MOSFET/IGBT verification**: Measure Rds(on) or Vce(sat) at rated current. Verify breakdown voltage (ramp to Vds(max) or Vces(max), confirm leakage < datasheet limit). Gate threshold check: Vgs(th) within specified range.
 - **Capacitor ESR**: Measure at switching frequency (100 kHz) with ESR meter. Compare to specification. ESR >2× initial value indicates degradation.
 - **Inductor/transformer**: Measure inductance at operating frequency (LCR meter). Verify saturation current (increase DC bias until inductance drops 10%). Hipot test: 1500-3000V between primary and secondary (isolated converters) for 60 seconds.
 
-### Board-Level Tests
+## Board-Level Tests
 - **Functional test**: Apply input power, verify output voltage, regulation, and ripple under no-load, half-load, and full-load conditions. Measure efficiency at each load point.
 - **Dynamic response**: Step load from 10% to 90% and back. Measure voltage deviation and recovery time. Target: deviation <5% of Vout, recovery <500 μs.
 - **Thermal validation**: Run at full load in worst-case ambient temperature (40-50°C). Measure semiconductor junction temperatures (thermocouple on case, calculate Tj = Tc + Pd × Rth(jc)). All Tj < rated maximum with 15-25°C margin.
 
-### EMC (Electromagnetic Compatibility)
+## EMC (Electromagnetic Compatibility)
 - **Conducted emissions**: Measure on AC input and DC output with LISN and spectrum analyzer (150 kHz to 30 MHz). Must meet IEC 61000-4-6 or FCC Part 15.
 - **Radiated emissions**: Measure with antenna at 3-10 m distance (30 MHz to 1 GHz). Must meet CISPR 32 or FCC Part 15 Class A/B.
 - **Immunity**: Surge (IEC 61000-4-5: 1-6 kV), EFT/burst (IEC 61000-4-4: 0.5-4 kV), ESD (IEC 61000-4-2: 4-8 kV contact, 8-15 kV air). Converter must operate correctly during and after these disturbances.
 
-### Reliability Qualification
+## Reliability Qualification
 - **Thermal cycling**: -40°C to +125°C, 500-2000 cycles. Check for solder joint cracks, PCB delamination, wire bond failures.
 - **HTOL (High Temperature Operating Life)**: 1000 hours at maximum rated Tj under full electrical stress.
 - **HALT (Highly Accelerated Life Test)**: Temperature + vibration + electrical stress combined. Identify weak points.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Converter Topology Selection Guide
+## Converter Topology Selection Guide
 
 | Requirement | Recommended Topology | Key Advantage |
 |-------------|---------------------|---------------|
@@ -331,13 +331,13 @@ Higher switching frequency shrinks magnetic components but increases switching l
 | Battery backup | Online UPS | Zero transfer time, continuous conditioning |
 | Renewable grid-tie | Grid-tied inverter with MPPT | Maximum power point tracking, anti-islanding |
 
-### Soft Switching Techniques
+## Soft Switching Techniques
 
 - **ZVS (Zero Voltage Switching)**: Switch turns on when Vds = 0V. Eliminates capacitive turn-on loss. Achieved with resonant or quasi-resonant topologies (LLC resonant converter, phase-shifted full bridge). Reduces switching loss by 50-90%. Enables higher frequency operation.
 - **ZCS (Zero Current Switching)**: Switch turns off when Id = 0A. Eliminates inductive turn-off loss. Used with IGBTs (eliminates tail current loss). Less common with MOSFETs.
 - **Trade-off**: Soft switching adds circuit complexity (resonant components, auxiliary switches) but dramatically reduces EMI and allows higher switching frequency → smaller magnetics. LLC resonant converters achieve 95-97% efficiency at 500W-5 kW with switching frequencies of 100-500 kHz.
 
-### Control Methods
+## Control Methods
 
 | Method | Implementation | Performance | Cost |
 |--------|---------------|-------------|------|
@@ -347,7 +347,7 @@ Higher switching frequency shrinks magnetic components but increases switching l
 | Hysteresis (bang-bang) | Comparator with hysteresis band | Fastest response, variable frequency | Very low |
 | Sliding mode | State-space control with discontinuous surface | Very robust, handles large perturbations | Medium |
 
-## 11. References
+## References
 
 - **[Semiconductor Devices](semiconductor-devices.md)**: diodes, MOSFETs, IGBTs, and thyristors used as switching elements
 - **[Passive Components](passive-components.md)**: inductors, capacitors, and transformers used in power converters
@@ -358,6 +358,6 @@ Higher switching frequency shrinks magnetic components but increases switching l
 - **[Photovoltaics](../energy/index.md)**: solar inverters that convert DC to grid-compatible AC
 - **[Energy Storage](../energy/storage.md)**: battery systems that power electronics charge and discharge
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*
+
+[← Back to Electronics](index.md)

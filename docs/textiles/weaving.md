@@ -159,7 +159,6 @@ Systematic inspection catches defects before cloth is cut or sold:
 
 For dyeing processes (mordanting, indigo vat, dye plant cultivation, fastness testing), see [Dyeing](dyeing.md).
 
----
 
 ## Safety & Hazards
 
@@ -169,7 +168,6 @@ For dyeing processes (mordanting, indigo vat, dye plant cultivation, fastness te
 - **Repetitive strain**: Hand loom weaving involves repetitive motion. Take breaks. Vary posture. Ergonomic bench height reduces back strain (bench height should place thighs parallel to floor, feet flat on treadles).
 - **Noise**: Power looms generate 90-100 dB noise levels — hearing damage with prolonged exposure. Hearing protection required in power weaving sheds.
 
----
 
 *Dependencies: [Spinning](spinning.md) for yarn, [Fiber Preparation](fibers.md) for raw fiber, [Finishing](finishing.md) for post-weave processing*
 

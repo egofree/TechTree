@@ -8,13 +8,12 @@
 > **Outputs**: visual_signaling, semaphore_networks, beacon_systems
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival
 
-## Overview
 
 Before electrical communication, civilizations developed optical and acoustic signaling systems for transmitting information across distances. These systems range from simple signal fires visible for 5-50 km to sophisticated semaphore networks capable of relaying complex messages at 150-300 km/h across hundreds of kilometers. Every pre-electric signaling system encodes information into a physical medium (light, sound, smoke) that propagates through the environment.
 
 **Fundamental constraint**: Pre-electric systems are line-of-sight limited. The curvature of the Earth restricts visibility from a tower of height *h* to approximately sqrt(2Rh) meters, where R is Earth's radius (6,371 km). A 10 m tower sees ~11 km; a 30 m tower sees ~20 km; a 100 m tower on a hill 200 m above surroundings sees ~60 km.
 
-### Signal Fires and Beacons
+## Signal Fires and Beacons
 
 The oldest long-distance signaling technology. A controlled fire on a hilltop or tower, visible for 5-50 km depending on height and atmospheric conditions.
 
@@ -44,7 +43,7 @@ The oldest long-distance signaling technology. A controlled fire on a hilltop or
 
 **Beacon chain logistics**: A line of 20 beacon stations covering 500 km requires 20 teams of 2-4 people each, stationed permanently or on alert. Fuel must be pre-positioned and kept dry. Each station needs shelter for the watch team. Manning cost: 40-80 people full-time for a single chain.
 
-### Semaphore Lines (Chappe Telegraph)
+## Semaphore Lines (Chappe Telegraph)
 
 The first practical telecommunication network. Developed by Claude Chappe in France (1792). A mechanical apparatus on tower rooftops encodes messages as the angular positions of articulated arms, visible through telescopes at the next station 10-20 km away.
 
@@ -84,7 +83,7 @@ The first practical telecommunication network. Developed by Claude Chappe in Fra
 - Mechanical maintenance burden — pivot bearings, cables, and wooden arms require quarterly inspection
 - Limited by telescope resolution — station spacing capped at 10-20 km by atmospheric clarity
 
-### Heliograph (Mirror Signaling)
+## Heliograph (Mirror Signaling)
 
 Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a distant station. Effective range: 10-160 km depending on mirror size and atmospheric conditions.
 
@@ -116,7 +115,7 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 - Mirror tarnish degrades performance — polished metal mirrors require regular repolishing
 - Eye hazard for operators — sustained sun-facing causes eye strain; misaligned beams can blind nearby observers
 
-### Flag Signaling
+## Flag Signaling
 
 **Naval flag codes**: Ships communicate via encoded flag hoists. Each flag represents a letter, number, or pre-assigned meaning. The international maritime signal code uses 40 flags (26 letters, 10 numbers, 3 substitutes, 1 answering pennant). Range: 2-8 km for visual flag reading.
 
@@ -140,7 +139,7 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 - Difficult to see against cluttered backgrounds — flags blend with terrain at distance
 - Daylight only, clear weather — darkness, fog, and heavy rain prevent reception
 
-### Acoustic Signaling
+## Acoustic Signaling
 
 **Drums**: Hollow-log or skin drums transmit coded messages 3-10 km through forested terrain. The "talking drums" of West Africa encode tonal language patterns into drum rhythms. Low-frequency drums (bass tones ~60-80 Hz) carry 5-10 km in forest. Propagation speed through relay villages: 8-15 km/h.
 
@@ -164,7 +163,7 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 
 ## Bill of Materials
 
-### Signal Fire Station
+## Signal Fire Station
 
 | Material | Quantity per Station | Specification | Source |
 |----------|---------------------|---------------|--------|
@@ -173,7 +172,7 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 | Pitch or tar | 5-10 kg | For smoke production in daytime | [Chemistry](../chemistry/index.md) |
 | Shelter for watch team | 1 small hut | Windproof, 2-4 person capacity | [Construction](../construction/index.md) |
 
-### Semaphore Station
+## Semaphore Station
 
 | Material | Quantity per Station | Specification | Source |
 |----------|---------------------|---------------|--------|
@@ -184,7 +183,7 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 | Refracting telescope | 1 | 30-60x magnification, brass tube | [Glass](../glass/index.md) |
 | Code book | 1 per operator | 92-page code book, updated periodically | [Writing](../knowledge/writing.md) |
 
-### Heliograph Station
+## Heliograph Station
 
 | Material | Quantity per Station | Specification | Source |
 |----------|---------------------|---------------|--------|
@@ -195,7 +194,7 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 
 ## Quantitative Parameters
 
-### Signal Propagation Comparison
+## Signal Propagation Comparison
 
 | System | Range (km) | Speed (msg/hr) | Bandwidth (distinct messages/hr) | Operating Conditions | Power Required |
 |--------|-----------|----------------|--------------------------------|---------------------|----------------|
@@ -207,7 +206,7 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 | Drums | 3-10 | 1-2 phrases/min | 30-60 messages/day | Any (limited by wind) | Human (drumming) |
 | Horns | 2-8 | 1-2 calls/min | 10-20 distinct calls | Any (limited by wind) | Human (blowing) |
 
-### Line-of-Sight Range vs. Tower Height
+## Line-of-Sight Range vs. Tower Height
 
 | Tower Height (m) | Horizon Distance (km) | With 5 m Target Height (km) | Notes |
 |------------------|-----------------------|-----------------------------|-------|
@@ -218,7 +217,7 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 | 50 | 25 | 34 | Hilltop beacon with tall mast |
 | 100 | 36 | 44 | Elevated fortress or hilltop tower |
 
-### Acoustic Signal Attenuation
+## Acoustic Signal Attenuation
 
 | Frequency (Hz) | Range in Open Terrain (km) | Range in Forest (km) | Atmospheric Absorption Rate |
 |----------------|---------------------------|---------------------|---------------------------|
@@ -229,15 +228,15 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 
 ## Scaling Notes
 
-### Local Communication (1-10 km)
+## Local Communication (1-10 km)
 
 Signal fires, drums, horns, and flags cover local needs. Single stations, no relay infrastructure needed. Staffing: 2-4 people for continuous watch. Cost: minimal (a few hundred francs for a permanent signal fire platform or drum). Suitable for military camp coordination, village alerts, and harbor signaling.
 
-### Regional Network (50-200 km)
+## Regional Network (50-200 km)
 
 Semaphore line or heliograph chain. Requires 5-15 relay stations for semaphore, each with 2 operators, telescopes, and tower maintenance. A 100 km semaphore line needs ~8 stations, 16 operators, and costs ~50,000 francs to build. Heliograph chains are cheaper per station (20-50 francs) but require sunlight. Staffing is the dominant ongoing cost.
 
-### Continental Network (500+ km)
+## Continental Network (500+ km)
 
 Only semaphore networks achieved this scale pre-electrically. The French network reached 5,000+ km with 500+ stations. Staffing: 1,000+ operators full-time. Construction cost: ~7.5 million francs. Operating cost: ~2.5 million francs/year. Such networks were government-only investments — no commercial return justified the cost. A 500 km semaphore line transmits a message in 2-3 hours; an electrical telegraph covers the same distance in minutes. The performance gap made pre-electric networks uneconomic once telegraph lines arrived.
 
@@ -276,11 +275,11 @@ Every pre-electric system has the same fundamental limitations:
 
 The electrical telegraph solved all five problems simultaneously. When telegraph lines reached a city, the semaphore and heliograph links to that city were dismantled within months.
 
-### See Also
+## See Also
 
 - [Electrical Telegraph Networks](electric-telegraph.md) — The electrical successor that overcame all pre-electric limitations
 - [Writing & Record-Keeping](../knowledge/writing.md) — Encoding systems that pre-electric signaling borrows from
 - [Telegraph Communication](../transport/telegraph.md) — The electrical telegraph hardware details
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Telecommunications](./index.md) • [All Domains](../index.md)*
+
+[← Back to Telecommunications](index.md)

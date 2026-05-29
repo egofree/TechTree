@@ -7,7 +7,6 @@
 > **Timeline**: Years 0-20
 > **Outputs**: flour, bran, grits, meal
 
-## Overview
 
 Grain milling converts harvested grain into flour — the single most important food processing operation in civilization. A workforce that eats bread is 2-3x more calorie-efficient than one eating whole-grain porridge. Milling also produces bran (animal feed), grits (coarse meal), and germ (oil source). The progression from hand-powered stone grinding to water-powered millstones to roller milling mirrors the broader energy revolution: each step multiplies throughput by 5-10x while reducing human labor.
 
@@ -15,7 +14,7 @@ This capability begins with stone-age saddle querns (covered in [Agriculture & F
 
 ## Bill of Materials
 
-### Stone Milling Materials
+## Stone Milling Materials
 
 | Material | Quantity per tonne flour | Source | Alternatives |
 |----------|:-----------------------:|--------|-------------|
@@ -24,7 +23,7 @@ This capability begins with stone-age saddle querns (covered in [Agriculture & F
 | Water (tempering) | 100-150 L per tonne grain | [Water](../water/index.md) | Must be clean; 15-16% target moisture |
 | Wire mesh screens | 2-4 sets per mill | [Metals](../metals/index.md) — steel wire | Silk cloth (finer, less durable) |
 
-### Roller Milling Materials (Industrial)
+## Roller Milling Materials (Industrial)
 
 | Material | Quantity per tonne white flour | Source | Alternatives |
 |----------|:-----------------------------:|--------|-------------|
@@ -36,7 +35,7 @@ This capability begins with stone-age saddle querns (covered in [Agriculture & F
 
 ## Process Description
 
-### Milling Technology Progression
+## Milling Technology Progression
 
 **Stage 1: Rotary Quern** (Years 0-5)
 
@@ -146,7 +145,7 @@ Cast iron or steel rollers replace millstones. Each pair of rollers has progress
 - 30-50 kW power requirement per tonne/hour demands steam engine or electric motor — not achievable with water or animal power
 - Multiple break and reduction stages (12-17 roller pairs) make the system complex to operate and maintain
 
-### Flour Grades
+## Flour Grades
 
 | Grade | Extraction % | Particle Size | Color | Use |
 |-------|:-----------:|:--------------|:------|:----|
@@ -156,7 +155,7 @@ Cast iron or steel rollers replace millstones. Each pair of rollers has progress
 | Semolina | N/A | 150-500 μm | Yellow | Pasta, couscous |
 | Bran | N/A | >500 μm | Brown | Animal feed, fiber |
 
-### Baking (Flour's Primary Use)
+## Baking (Flour's Primary Use)
 
 Bread is the primary use of flour and the staple calorie source for industrial workforces:
 
@@ -166,7 +165,7 @@ Bread is the primary use of flour and the staple calorie source for industrial w
 - **Oven design**: Beehive oven (brick dome, 60-100 cm diameter). Heat with wood fire for 2-3 hours until dome is white-hot. Remove coals, mop floor. Bake bread using stored heat (temperature declining from 300°C to 180°C over 1-2 hours). A single firing can bake 20-50 loaves in sequence.
 - **Flour requirement**: A workforce of 100 people needs ~30-40 kg flour/day (assuming 300-400 g bread per person). This requires milling 40-55 kg wheat/day, achievable with a single water-powered mill running 2-3 hours/day.
 
-### Grain Storage Before Milling
+## Grain Storage Before Milling
 
 Proper grain storage is critical to prevent losses between harvest and milling:
 
@@ -178,7 +177,7 @@ Proper grain storage is critical to prevent losses between harvest and milling:
 
 ## Quantitative Parameters
 
-### Milling Throughput by Technology Stage
+## Milling Throughput by Technology Stage
 
 | Stage | Power Source | Output (kg flour/hour) | Extraction Rate | Labor (persons) | Energy Input |
 |:-----:|:-----------:|:---------------------:|:---------------:|:---------------:|:------------:|
@@ -188,7 +187,7 @@ Proper grain storage is critical to prevent losses between harvest and milling:
 | Wind mill | Wind sails (2-10 HP) | 100-500 | 70-80% | 1-2 | 2-10 kW (intermittent) |
 | Roller mill | Steam/electric (30-50 HP) | 200-2000 | 72-76% (white) | 3-5 | 25-40 kW |
 
-### Flour Particle Size and Screen Specifications
+## Flour Particle Size and Screen Specifications
 
 | Fraction | Particle Size (μm) | Screen Mesh | Typical Yield (%) | Primary Use |
 |----------|:------------------:|:-----------:|:-----------------:|:-----------:|
@@ -200,7 +199,7 @@ Proper grain storage is critical to prevent losses between harvest and milling:
 | Fine bran | 860-1320 | 14 mesh | 3-5 | Animal feed |
 | Coarse bran | >1320 | — | 10-15 | Animal feed, fiber |
 
-### Millstone Dressing Parameters
+## Millstone Dressing Parameters
 
 | Parameter | Specification | Notes |
 |-----------|:------------:|:-----:|
@@ -212,7 +211,7 @@ Proper grain storage is critical to prevent losses between harvest and milling:
 | Dressing frequency (granite) | 2-3 months | Hard stone wears slowly |
 | Dressing time per pair | 4-8 hours | Skilled stone dresser required |
 
-### Grain Storage Parameters
+## Grain Storage Parameters
 
 | Parameter | Safe Range | Failure Mode if Exceeded |
 |-----------|:----------:|:------------------------:|
@@ -255,7 +254,7 @@ Proper grain storage is critical to prevent losses between harvest and milling:
 
 ## Quality Control
 
-### Millstone Dressing and Maintenance
+## Millstone Dressing and Maintenance
 
 Millstones require regular maintenance to maintain grinding efficiency. The grooves (lands and furrows) wear flat over time, reducing cutting action and increasing friction heat.
 
@@ -265,7 +264,7 @@ Millstones require regular maintenance to maintain grinding efficiency. The groo
 - **Stone balance**: Runner stone must be dynamically balanced to prevent vibration. Unbalanced stones cause bearing wear, uneven grinding, and structural damage. Balance checked by rotating empty stone and observing for wobble.
 - **Stone selection**: French burrstone (siliceous limestone from La Ferté-sous-Jouarre) was historically the premium millstone material — porous, hard, self-sharpening. Equivalent: any fine-grained siliceous stone with natural porosity.
 
-### Power Transmission for Mills
+## Power Transmission for Mills
 
 Converting water wheel or wind shaft rotation to millstone rotation requires a power transmission system:
 
@@ -276,7 +275,7 @@ Converting water wheel or wind shaft rotation to millstone rotation requires a p
 - **Bearings**: Wooden bearing blocks lubricated with tallow (simple, needs frequent replacement). Babbitt metal bearings (tin-antimony-copper alloy) for iron shafts — much longer lasting, still require oil lubrication.
 - **Power losses**: Typical 15-25% power loss through gear friction and belt slip in a well-maintained mill. Poorly maintained mills lose 40-60%.
 
-### Byproducts and Waste Utilization
+## Byproducts and Waste Utilization
 
 Milling produces valuable byproducts beyond flour:
 
@@ -286,7 +285,7 @@ Milling produces valuable byproducts beyond flour:
 - **Mill screen waste**: Oversize particles caught on final screen. Can be re-milled or fed to livestock.
 - **Dust**: Flour dust is explosive. Minimum explosive concentration: 40-60 g/m³. All electrical equipment in mills must be explosion-proof. Dust collection systems (cyclone separators + bag filters) are mandatory. Historical flour mill explosions were a major industrial hazard.
 
-## References
+## See Also
 
 - [Foundations: Food & Agriculture](../foundations/food-agriculture.md) — grain cultivation provides the raw material
 - [Energy](../energy/index.md) — water/wind/steam power drives the millstones or rollers
@@ -296,6 +295,6 @@ Milling produces valuable byproducts beyond flour:
 - [Ceramics](../ceramics/index.md) — grain storage vessels
 - [Machine Tools](../machine-tools/index.md) — precision machining for roller mill components
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*
+
+[← Back to Food Processing](index.md)

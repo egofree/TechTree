@@ -8,7 +8,6 @@
 > **Outputs**: deionized_water, purified_water, ultrapure_water
 > **Critical**: Yes — ultrapure water (UPW, >18.2 MΩ·cm resistivity) is consumed at 5-10 tonnes per day per semiconductor fab. Without UPW, semiconductor manufacturing is impossible. Industrial water treatment is also required for boiler feed, cooling, and process water in all chemical plants.
 
-## Overview
 
 Water purification for industrial use ranges from simple settling and sand filtration (potable grade) through distillation and ion exchange (deionized) to reverse osmosis and ultrafiltration (ultrapure, 18 MΩ·cm). High-purity water is essential for acid dilution, electroplating baths, glass working, and especially semiconductor fabrication where contaminants at ppb levels can destroy yields.
 
@@ -242,7 +241,7 @@ Industrial water treatment includes treating used water before discharge. The st
 
 ## Steps
 
-### Building a Two-Bed Deionization System
+## Building a Two-Bed Deionization System
 
 1. **Install pretreatment**: Multimedia filter → activated carbon filter → water softener. Pretreatment protects the ion exchange resins from fouling, oxidation, and hardness scaling. Carbon removes chlorine (which degrades resins). Softener removes Ca²⁺/Mg²⁺ (which precipitate in the anion bed).
 2. **Install cation exchange vessel**: Fiberglass-reinforced plastic (FRP) or 316L SS tank, rated for system pressure. Load with strong acid cation resin (H⁺ form). Resin converts feed salts to their corresponding acids: NaCl → HCl + Na⁺(on resin).
@@ -251,7 +250,7 @@ Industrial water treatment includes treating used water before discharge. The st
 5. **Add optional mixed-bed polisher**: For higher purity, pass two-bed effluent through a mixed-bed unit (cation + anion resin intimately mixed). Product: up to 18.2 MΩ·cm.
 6. **Monitor quality**: Install resistivity cell at the outlet. When resistivity drops below setpoint, the resin is exhausted and requires regeneration.
 
-### Regenerating Cation Exchange Resin
+## Regenerating Cation Exchange Resin
 
 1. **Backwash**: Reverse flow through the resin bed at 5-10 m/h for 10-15 minutes to remove trapped particulates and classify the resin (remove fines).
 2. **Acid injection**: Pump 5-10% HCl solution through the bed at 2-4 bed volumes over 30-45 minutes. H⁺ ions displace the accumulated cations (Na⁺, Ca²⁺, Mg²⁺, etc.) from the resin.
@@ -283,6 +282,6 @@ Industrial water treatment includes treating used water before discharge. The st
 - [Electrolysis](./electrolysis.md) — chlorine and hydrogen production
 - [Chemicals](./index.md) — acid and base production
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+[← Back to Chemistry](index.md)

@@ -28,7 +28,7 @@
 
 ## Process Description
 
-### Library Construction
+## Library Construction
 
 **Building design**:
 - **Structural requirements**: Load-bearing masonry walls (stone or brick, minimum 300 mm thick). Reinforced concrete or vaulted ceiling for fire resistance. Iron or steel framing for multi-story stacks. Floor loading: books average ~1 kg each; full shelving runs 200-300 kg per linear meter — design floors for 5-7 kN/m² minimum.
@@ -46,7 +46,7 @@
 - Maintaining 18-22°C and 45-55% RH requires either thick passive-design walls or active climate control systems — both add significant cost
 - North-facing clerestory windows for natural light require specific building orientation and taller walls — constrains site selection
 
-### Shelving & Storage
+## Shelving & Storage
 
 **Shelf design**:
 - **Wooden shelving**: Dressed hardwood (oak, ash) boards, 20-25 mm thick, 200-250 mm deep, spans up to 900 mm between uprights. Uprights: 50×75 mm posts with routed dadoes for adjustable shelf placement at 25 mm increments. Back panel prevents items falling behind. Load test each shelf to 50 kg before committing to layout. A well-built oak shelf holds approximately 200 kg of books safely. Coat with linseed oil or wax to prevent moisture absorption — raw wood warps in humid conditions.
@@ -64,7 +64,7 @@
 - Steel shelving conducts heat faster than wood — placing steel shelves against exterior walls in cold climates causes condensation on books
 - Minimum 900 mm aisle width for access plus 1500 mm for main aisles means only ~50% of floor area is usable shelving space
 
-### Library Classification Systems
+## Library Classification Systems
 
 **[Dewey Decimal Classification](../glossary/dewey-decimal-classification.md)** (Melvil Dewey, 1876):
 - Organizes all knowledge into ten main classes, each subdivided decimally: 000 Computer science/information/general works, 100 Philosophy/psychology, 200 Religion, 300 Social sciences, 400 Language, 500 Pure science, 600 Technology/applied science, 700 Arts/recreation, 800 Literature, 900 History/geography. Subdivision by additional digits: 540 = Chemistry, 546 = Inorganic chemistry, 546.3 = Specific elements. For a bootstrap technical library, classes 500-600 are the most densely populated. The system is simple to implement and well-suited for collections under 100,000 volumes.
@@ -76,7 +76,7 @@
 - Top-level divisions: 100 Mathematics, 200 Physics, 300 Chemistry, 400 Materials, 500 Engineering (Mechanical), 600 Engineering (Electrical), 700 Mining & Metallurgy, 800 Manufacturing, 900 Reference (dictionaries, indexes, standards). Subdivide with decimal notation (e.g., 310.5 = Inorganic Chemistry → Electrochemistry).
 - Each book receives a class mark (e.g., "510.2 CLA" = Mechanical Engineering, Bearings, author Clarke). Print class mark on spine label and title page.
 
-### Cataloging Practices
+## Cataloging Practices
 
 **Card catalog**:
 - Three card trays per collection: author alphabet, title alphabet, subject index. Each card: 75×125 mm card stock, handwritten or typeset. Fields: author, title, class mark, year, page count, acquisition date, shelf location code.
@@ -87,7 +87,7 @@
 **Descriptive cataloging standards**:
 - Record author (last name, first name), full title, edition, place of publication, publisher, year, physical description (pages, illustrations, size), series, subject headings, and notes (translation of, revised edition of, supplements). Standardized format enables any user to identify and locate a specific work from the catalog entry alone. Cross-reference variant forms of author names and titles.
 
-### Archival Storage Conditions
+## Archival Storage Conditions
 
 **Temperature and humidity control**:
 - **Target range**: Temperature 18-22°C, relative humidity 40-55%. Fluctuation is more damaging than steady-state conditions outside the ideal range — avoid daily swings exceeding ±2°C or ±5% RH. Hygroscopic materials (paper, parchment, leather, glue) expand and contract with humidity changes, causing mechanical stress → cracking, warping, delamination.
@@ -98,7 +98,7 @@
 **Light exposure**:
 - Ultraviolet light is the primary agent of paper degradation — it breaks cellulose chains (photochemical degradation), causing yellowing, embrittlement, and loss of tensile strength. Keep light exposure below 50 lux (5 foot-candles) for sensitive materials, below 300 lux for general collections. Filter UV from all light sources (UV-absorbing sleeves on fluorescent tubes, UV-filtering glazing on windows). Store most sensitive items (manuscripts, photographs, early printed books) in opaque enclosures — light damage is cumulative and irreversible.
 
-### Preservation Techniques
+## Preservation Techniques
 
 **Paper and binding care**:
 - Store acid-free paper items separately from acidic groundwood paper — acid migrates (accelerated degradation in adjacent materials). Interleave with acid-free buffer sheets (calcium carbonate-impregnated tissue).
@@ -133,7 +133,7 @@
 - Microfilm readers require optical manufacturing capability (ground glass lenses, light source) — another dependency for the bootstrap chain
 - Digitization at 300-600 DPI produces large files (~50 MB per page uncompressed TIFF) — storage requirements scale quickly for large collections
 
-### Environmental Hazards
+## Environmental Hazards
 
 **Mold**: Spores activate above 65% RH. Prevention: maintain ventilation (2-4 air changes/hour), use silica gel desiccant canisters in enclosed cases (indicator beads turn from blue to pink when saturated — regenerate at 120°C for 2 hours). If mold appears: isolate affected items, dry thoroughly, brush spores outdoors (wear mask), wipe shelves with 70% ethanol.
 
@@ -143,7 +143,7 @@
 - **Water damage**: Freeze wet items within 48 hours to halt mold. Freeze-dry (sublimation under vacuum) or air-dry with fans. Interleave pages with blotting paper, replace as saturated.
 - **Fire damage**: Prioritize salvage of unique items. Handle charred material on support boards — do not pick up by edges. Remove soot with dry chemical sponge. Deodorize with activated charcoal in sealed containers.
 
-### Information Retrieval
+## Information Retrieval
 
 **Shelf arrangement**: Books shelved by class mark in strict alphanumeric order. Oversize volumes on bottom shelves or separate folio section. Reference section (encyclopedias, dictionaries, standards) shelved near the reading area, not loanable.
 
@@ -166,7 +166,7 @@
 - Shelf reading (verifying books are in correct order) must be done systematically and annually — misfiled books are effectively lost until the next shelf reading
 - Controlled vocabulary requires ongoing maintenance — new technical terms must be added and cross-referenced, or the thesaurus falls behind the literature
 
-### Digital Storage Considerations
+## Digital Storage Considerations
 
 Once semiconductor manufacturing is available:
 - **[Punched cards](../glossary/punched-cards.md)** (pre-electronic): 80 characters/card, ~150 cards/kg. Robust but extremely low density. Useful as a bridge technology for numerical data.
@@ -174,7 +174,7 @@ Once semiconductor manufacturing is available:
 - **[Optical media](../glossary/optical-media.md)** (CD-ROM, later DVD): 50-100 year claimed lifespan for gold-reflector discs. Read-only after mastering — immune to accidental overwrite. Requires precise manufacturing tolerances (see Photolithography domain).
 - **Migration strategy**: Refresh all digital media every 10-15 years onto current format. Maintain format documentation with every archive. Use open, self-describing formats (plain text ASCII/UTF-8, TIFF for images, CSV for tabular data).
 
-### Library Network & Acquisition
+## Library Network & Acquisition
 
 **Interlibrary cooperation**:
 - Standardize classification and cataloging across settlements so that any library can locate materials in any other.
@@ -187,7 +187,7 @@ Once semiconductor manufacturing is available:
 3. Advanced capability: Electronics, semiconductors, telecommunications
 4. Cultural: History, literature, philosophy — preserve but not at the expense of technical works
 
-### Reading Rooms & Physical Layout
+## Reading Rooms & Physical Layout
 
 **Reading room design**:
 - **Dimensions**: Minimum 6 m × 8 m for a small reading room (seats 12-16 readers at individual desks). Larger institutions: reading rooms of 15 m × 20 m or more, accommodating 50+ readers. Ceiling height minimum 3.5 m for natural light penetration and air volume.
@@ -195,7 +195,7 @@ Once semiconductor manufacturing is available:
 - **Reference collection**: Encyclopedias, dictionaries, atlases, standards documents, handbook series shelved along the reading room walls — immediately accessible without going to the stacks. These are the most frequently consulted works and should never be loaned out.
 - **Map and drawing storage**: Flat files (plan chests) — wide, shallow drawers (A0 size: 850 mm × 1200 mm, 50 mm deep) for engineering drawings, maps, and architectural plans. Store flat, never rolled (rolling causes cracking and makes retrieval difficult). Label each drawer with content range. Acid-free interleaving tissue between items.
 
-### Library Staffing & Operations
+## Library Staffing & Operations
 
 **Staffing requirements**:
 - **Librarian**: Trained in classification, cataloging, reference services, and collection management. One librarian per 5,000-10,000 volumes for adequate service levels. The librarian decides acquisition priorities, manages the catalog, trains subordinate staff, and answers research queries.
@@ -208,7 +208,7 @@ Once semiconductor manufacturing is available:
 - **Circulation**: Loan transaction: record borrower name, item title, class mark, loan date, due date in the loan register (bound ledger or card system). Stamp due date on the due-date slip in the book pocket. On return: strike through the loan record, re-shelve. Overdue tracking: review loan register weekly for items past due date. Send reminder notices. After 90 days overdue: declare item lost, begin replacement process.
 - **Stack maintenance**: Weekly shelf reading of one section (systematically rotating through the entire collection annually). Straighten shifted books. Remove any items showing mold, insect damage, or water damage for immediate conservation assessment.
 
-### Serial Publications & Periodical Management
+## Serial Publications & Periodical Management
 
 **Periodicals in a technical civilization**:
 - **Journal structure**: A technical journal publishes research articles, experimental reports, book reviews, and letters at regular intervals (monthly, quarterly, or annually). Each article undergoes peer review — submitted to 1-3 independent experts who evaluate methodology, conclusions, and significance before publication. Peer review is the primary quality filter for technical knowledge.
@@ -216,7 +216,7 @@ Once semiconductor manufacturing is available:
 - **Binding periodicals**: After a volume year is complete, bind all issues together as a single book. Remove original paper covers, collate issues in order, sew through the fold, bind in cloth or buckram covers with the journal title, volume number, and year stamped on the spine. Bound periodicals are more durable, easier to shelve, and easier to handle than loose issues.
 - **Indexing periodicals**: At the end of each volume year, compile a subject and author index for that volume. Bind the index at the front of the bound volume. Additionally, maintain a cumulative index across all volumes of each journal — this enables researchers to locate every article on a given topic published over the journal's entire run.
 
-### Archival Records Management
+## Archival Records Management
 
 **Records lifecycle**:
 - **Active records**: Documents in regular use — stored in the office or workshop where they are created and consulted. No special preservation measures beyond basic filing (acid-free folders, metal filing cabinets, labeled by subject and date).
@@ -227,7 +227,7 @@ Once semiconductor manufacturing is available:
 **[Archival organization](../glossary/archival-organization.md)** (original order principle):
 - Maintain records in the order created by their originating office — this order carries information about organizational structure and work processes that reorganization destroys. Do not rearrange files by subject (that is the catalog's job, not the shelf arrangement's job). Describe each file unit (folder, box, series) in the finding aid — a structured guide listing: originating office, date range, contents summary, physical extent (number of boxes, linear meters of shelf space), access restrictions.
 
-### Statistical Records & Collection Metrics
+## Statistical Records & Collection Metrics
 
 **Measuring the library**:
 - **Collection size**: Track total volumes, serial subscriptions, map/drawing sheets, microfilm rolls. Annual growth rate (new acquisitions minus withdrawals).
@@ -235,7 +235,7 @@ Once semiconductor manufacturing is available:
 - **Turnover rate**: Loans ÷ collection size. A healthy circulating collection turns over 0.5-2.0 times per year (each book is borrowed once every 6-24 months on average). Below 0.3 suggests the collection does not meet user needs; above 3.0 suggests the collection is too small for the demand.
 - **Fill rate**: Percentage of user requests successfully fulfilled from the collection. Target: 85-95% for a well-developed collection. Below 80% signals gaps requiring acquisition or interlibrary loan.
 
-### Conservation & Book Repair
+## Conservation & Book Repair
 
 **[Rebacking](../glossary/rebacking.md)** (restoring a deteriorated spine):
 - Remove the old spine material carefully with a thin lifting knife, preserving any spine lettering or decoration. Clean the exposed spine and sewing supports. Reinforce the spine with muslin cloth adhered with pH-neutral PVA (polyvinyl acetate) adhesive, extending the muslin 25-30 mm onto each board to create new hinge material. Reattach the original spine material (if salvageable) over the muslin with PVA, aligning it carefully. Dry under weight (boards and weights or a nipping press) for 24 hours to prevent warping. Rebacking extends the service life of a heavily used binding by 20-50 years.
@@ -247,7 +247,7 @@ Once semiconductor manufacturing is available:
 **[Mass deacidification](../glossary/mass-deacidification.md)** (Wei T'o process):
 - Spray or immerse acidic paper items in a solution of magnesium methoxy carbonate in a fluorocarbon or alcohol carrier solvent. The magnesium compound penetrates the paper, neutralizing existing acid and depositing an alkaline reserve (magnesium carbonate) that provides ongoing protection. The treatment raises paper pH to 7.5-9.0 (from acidic pH 4-5), extending paper life by 3-5× — a book with 50 years of remaining life gains 150-250 years. Non-aqueous formulation avoids wetting and distortion of the paper.
 
-### Disaster Recovery Procedures
+## Disaster Recovery Procedures
 
 **Water damage response**:
 - Freeze wet items within 48 hours at -20°C to halt mold growth (mold spores germinate above 65% RH, which saturated books reach within 2-3 days). Freezing does not kill mold but stops it from spreading. After freezing, vacuum freeze-dry (sublimation under vacuum at -20°C to -40°C) removes ice as vapor without liquid water passing through the pages — minimizes ink bleeding, paper swelling, and adhesion between pages. Air-drying (fans and interleaved blotting paper) is acceptable for small quantities but causes more physical distortion than freeze-drying.
@@ -269,9 +269,8 @@ Once semiconductor manufacturing is available:
 - Ozone treatment for smoke odor weakens paper — the treatment itself causes damage, forcing a trade-off between odor removal and paper strength
 - Mass deacidification (Wei T'o process) requires industrial-scale chemical processing — unavailable until chemical manufacturing reaches moderate capability
 
----
 
-### Cross-Domain Dependencies
+## Cross-Domain Dependencies
 
 - Libraries preserve [Writing](../knowledge/writing.md) on [Printing](../knowledge/printing.md)-produced materials. Paper from [Pulp Chemicals](../chemistry/pulp-chemicals.md). Serves [Education](../knowledge/education.md) programs.
 
@@ -294,6 +293,6 @@ Once semiconductor manufacturing is available:
 - [Education](education.md) — literacy and knowledge transfer
 - [Chemistry](../chemistry/index.md) — paper production, preservation chemicals
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*
+
+[← Back to Knowledge](index.md)

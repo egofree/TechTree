@@ -7,7 +7,6 @@
 > **Timeline**: Years 0-30+
 > **Outputs**: preserved_food, canned_food, pasteurized_food, refrigerated_food, dried_food, salted_food, smoked_food, fermented_food
 
-## Overview
 
 Food preservation is the technology that eliminates seasonal starvation. Without it, food rots within days to weeks and populations face annual hunger gaps between harvests. With it, food becomes a stable, bankable commodity — enabling urban concentration, specialist labor, and long-distance trade. Every preservation method either removes water (drying, salting), creates hostile chemistry (fermentation, pickling), kills microorganisms with heat (canning, pasteurization), or slows microbial growth (refrigeration, freezing).
 
@@ -15,7 +14,7 @@ Preservation depends on [ceramics](../ceramics/index.md) for storage vessels, [h
 
 ## Bill of Materials
 
-### Drying Materials
+## Drying Materials
 
 | Material | Quantity per 100 kg fresh food | Source | Alternatives |
 |----------|:------------------------------:|--------|-------------|
@@ -24,7 +23,7 @@ Preservation depends on [ceramics](../ceramics/index.md) for storage vessels, [h
 | Fuel (for kiln drying) | 5-15 kg wood per 10 kg food | [Energy](../energy/index.md) | Solar drying (climate dependent) |
 | Storage containers (sealed) | As needed | [Ceramics](../ceramics/index.md) | Glass jars, metal tins |
 
-### Salting and Curing Materials
+## Salting and Curing Materials
 
 | Material | Quantity per 100 kg meat/fish | Source | Alternatives |
 |----------|:----------------------------:|--------|-------------|
@@ -32,7 +31,7 @@ Preservation depends on [ceramics](../ceramics/index.md) for storage vessels, [h
 | Potassium nitrate (KNO₃) | 100-200 g (0.1-0.2%) | [Mining](../mining/index.md) or [Chemistry](../chemistry/index.md) | Sodium nitrite (120-150 ppm, more effective) |
 | Barrels or crocks | 5-10 per 100 kg | [Ceramics](../ceramics/index.md) or [Forestry](../plants/index.md) | Food-grade plastic buckets |
 
-### Canning Materials
+## Canning Materials
 
 | Material | Quantity per 1000 jars/cans | Source | Alternatives |
 |----------|:--------------------------:|--------|-------------|
@@ -43,7 +42,7 @@ Preservation depends on [ceramics](../ceramics/index.md) for storage vessels, [h
 
 ## Process Description
 
-### Preservation Method Progression
+## Preservation Method Progression
 
 **Drying** (Years 0+, stone-age)
 
@@ -193,7 +192,7 @@ Mechanical cooling slows microbial growth, chemical degradation, and enzymatic a
 - Cold chain is fragile: a single power failure or equipment breakdown can destroy an entire inventory of frozen food
 - Blast freezing (-30°C to -40°C) is needed for quality preservation; slow freezing creates large ice crystals that rupture cell walls and produce mushy texture on thawing
 
-### Food Spoilage Mechanisms
+## Food Spoilage Mechanisms
 
 Understanding *why* food spoils is essential for choosing the right preservation method:
 
@@ -205,7 +204,7 @@ Understanding *why* food spoils is essential for choosing the right preservation
 | Moisture migration | Water activity differential | Days | Proper packaging, moisture barriers |
 | Insect/rodent damage | Physical access | Days to weeks | Sealed containers, elevated storage |
 
-### Industrial Canning Line
+## Industrial Canning Line
 
 An industrial canning operation for the industrial era:
 
@@ -220,7 +219,7 @@ An industrial canning operation for the industrial era:
 
 ## Quantitative Parameters
 
-### Preservation Method Comparison
+## Preservation Method Comparison
 
 | Method | Water Activity (aw) | Temperature | Processing Time | Shelf Life | Energy Required |
 |--------|:-------------------:|:-----------:|:---------------:|:----------:|:---------------:|
@@ -236,7 +235,7 @@ An industrial canning operation for the industrial era:
 | UHT sterilization | 0.99+ | 135-150°C | 2-8 seconds | 6+ months (ambient) | 0.3-0.5 MJ/L |
 | Freezing | 0.99+ | -18°C | Ongoing | 6-12 months | 0.5-1.0 MJ/kg (initial) + 0.05 MJ/kg/day |
 
-### Thermal Death Parameters for C. botulinum
+## Thermal Death Parameters for C. botulinum
 
 | Temperature | D-value (min) | F-value for 12D (min) | Z-value |
 |:-----------:|:--------------:|:----------------------:|:-------:|
@@ -248,7 +247,7 @@ An industrial canning operation for the industrial era:
 
 D-value = time to reduce population by 90% (1 log). 12D reduction (F₀ = D × 12) is the industry standard for commercial sterility. At 121°C, F₀ = 2.52 minutes minimum. Most canning processes target F₀ = 3.0-6.0 minutes for safety margin.
 
-### Steam Pressure-Temperature Relationship
+## Steam Pressure-Temperature Relationship
 
 | Gauge Pressure (psi) | Temperature (°C) | Temperature (°F) |
 |:--------------------:|:-----------------:|:-----------------:|
@@ -262,7 +261,7 @@ D-value = time to reduce population by 90% (1 log). 12D reduction (F₀ = D × 1
 
 Values assume sea level and pure steam (no air). Air in the retort lowers actual temperature — 5% air at 15 psi reduces temperature from 121°C to ~118°C.
 
-### Water Activity Thresholds for Microbial Growth
+## Water Activity Thresholds for Microbial Growth
 
 | Organism Type | Minimum aw for Growth | Examples | Key Products Affected |
 |:-------------:|:---------------------:|:--------:|:--------------------:|
@@ -273,7 +272,7 @@ Values assume sea level and pure steam (no air). Air in the retort lowers actual
 | Xerophilic molds | 0.61 | Aspergillus restrictus | Dried grains, spices |
 | No microbial growth | <0.60 | — | Fully dried foods (stable) |
 
-### Food Spoilage Rates by Temperature
+## Food Spoilage Rates by Temperature
 
 | Food | Room Temp (25°C) | Refrigerated (4°C) | Frozen (-18°C) |
 |------|:----------------:|:------------------:|:--------------:|
@@ -309,7 +308,7 @@ Values assume sea level and pure steam (no air). Air in the retort lowers actual
 
 ## Safety
 
-### Food Safety Reference
+## Food Safety Reference
 
 | Hazard | Source | Prevention | Lethal Dose |
 |--------|--------|-----------|-------------|
@@ -325,7 +324,7 @@ Values assume sea level and pure steam (no air). Air in the retort lowers actual
 - **Smoke inhalation**: Wood smoke contains polycyclic aromatic hydrocarbons (PAHs), some carcinogenic. Smokehouses require ventilation. Do not stand in smoke for extended periods.
 - **Phosphine fumigation**: Aluminum phosphide tablets release phosphine gas (PH₃) — lethal at 0.01% in air. Apply only to sealed storage. Aerate for 48+ hours before re-entry. Phosphine is heavier than air — evacuate from bottom up.
 
-## References
+## See Also
 
 - [Canning & Thermal Sterilization](canning.md) — detailed thermal processing methodology
 - [Food Fermentation](fermentation.md) — biological preservation, acidification
@@ -337,6 +336,6 @@ Values assume sea level and pure steam (no air). Air in the retort lowers actual
 - [Energy](../energy/index.md) — steam for canning retorts, electricity for refrigeration
 - [Mining](../mining/index.md) — salt production for curing and preservation
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*
+
+[← Back to Food Processing](index.md)

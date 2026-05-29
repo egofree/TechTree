@@ -8,11 +8,10 @@
 > **Outputs**: photoresist, tmah_developer, boe_etchant, cmp_slurry, cleanroom_chemicals
 > **Critical**: Yes — semiconductor process chemicals (photoresist, etchants, CMP slurries, cleaning solutions) are consumed in every step of integrated circuit fabrication. Without ultra-pure chemicals at ppb trace metal levels, semiconductor manufacturing yields collapse to zero.
 
-### Overview
 
 Semiconductor fabrication consumes chemicals at purity levels 1000× stricter than reagent grade — metallic impurities below 1 ppb, particles filtered to 0.003 μm. This page covers the liquid-phase process chemicals distinct from the gas-phase dopant and etch gases cataloged in [Dopant & Etch Gases](dopant-etch-gases.md): photoresists (organic polymers patterned by UV light), developers (TMAH), wet etchants (buffered oxide etch), CMP slurries (mechanochemical planarization), and cleanroom cleaning chemicals. Solvents used in wafer cleaning (IPA, acetone, xylene) are cataloged in [Solvents](solvents.md); this page addresses their specific semiconductor applications without duplicating general solvent chemistry.
 
-### Photoresist Chemistry
+## Photoresist Chemistry
 
 Photoresists are radiation-sensitive polymer films that transfer a mask pattern onto a wafer surface. They are the enabling material of photolithography — without them, there is no integrated circuit fabrication.
 
@@ -60,7 +59,7 @@ Required for deep UV (DUV, 248 nm and 193 nm) lithography where photon flux is l
 
 **Resolution achievements**: CAR at 193 nm with immersion lithography (water between lens and wafer, NA >1.0) resolves features to ~38 nm half-pitch (double-patterning techniques extend this further).
 
-### TMAH Developer
+## TMAH Developer
 
 Tetramethylammonium hydroxide (N(CH₃)₄OH, TMAH) is the standard aqueous developer for positive photoresists.
 
@@ -83,7 +82,7 @@ Tetramethylammonium hydroxide (N(CH₃)₄OH, TMAH) is the standard aqueous deve
 
 **Toxicity**: TMAH is highly corrosive and toxic. Dermal contact with concentrated solutions causes severe chemical burns and systemic toxicity (tetramethylammonium ion is a neurotoxin — blocks neuromuscular transmission). Fatal industrial accidents have occurred from skin exposure to 25% TMAH. Handle in enclosed systems with chemical-resistant gloves (butyl rubber) and eye protection. At 2.38% concentration (developer strength), acute toxicity is lower but still requires proper PPE.
 
-### Buffered Oxide Etch (BOE)
+## Buffered Oxide Etch (BOE)
 
 Buffered oxide etch (also called BHF — buffered hydrofluoric acid) is the standard wet etchant for silicon dioxide (SiO₂) in semiconductor fabrication. It provides controlled, uniform etching without the rapid, aggressive attack of concentrated HF.
 
@@ -109,7 +108,7 @@ Buffered oxide etch (also called BHF — buffered hydrofluoric acid) is the stan
 
 **Safety**: BOE contains HF. All HF safety protocols apply (see [Acids](acids.md) for HF hazards). Calcium gluconate gel must be immediately available. Etch bench must have: HF-resistant container (PTFE or HDPE — never glass), calcium gluconate station within 10 seconds reach, eye wash and safety shower, HF-specific training for all operators. Even dilute HF (<1%) can cause delayed but serious burns — the fluoride ion penetrates skin and decalcifies bone.
 
-### CMP Slurry Chemistry
+## CMP Slurry Chemistry
 
 Chemical mechanical polishing (CMP) planarizes wafer surfaces between deposition and lithography steps, enabling multilayer interconnect. The CMP process is covered in detail in [Dopant & Etch Gases](dopant-etch-gases.md); this section provides the chemical formulation details. CMP slurry is a colloidal suspension of abrasive particles in a chemically reactive solution.
 
@@ -150,7 +149,7 @@ After polishing, slurry particles and metallic contaminants must be completely r
 2. **Megasonic clean**: 0.8-1.6 MHz acoustic cavitation in DI water generates microscopic bubbles that implode at the wafer surface, dislodging sub-micron particles without mechanical contact. Power density: 10-50 W/cm².
 3. **Marangoni drying**: IPA vapor introduced at the meniscus between the water film and wafer surface. Surface tension gradient (water: 72 mN/m → IPA-water: ~23 mN/m) pulls the water film off the surface, leaving a dry, particle-free surface without water marks.
 
-### Cleanroom Chemicals
+## Cleanroom Chemicals
 
 #### Ultrapure Water (UPW)
 
@@ -229,7 +228,7 @@ A brief dip in dilute HF (0.5-2% aqueous) strips the native or chemical oxide fr
 - Stability: H-terminated surface is metastable — it re-oxidizes in air over hours to days. Process wafers quickly after HF dip (within 30 minutes for gate oxide growth, within 2 hours for less critical steps).
 - Safety: All HF protocols apply. At 0.5-2% concentration, the immediate burn risk is lower than concentrated HF, but systemic fluoride toxicity (hypocalcemia) is still possible from prolonged skin contact. Same PPE as BOE.
 
-### Wet Etch Process Integration
+## Wet Etch Process Integration
 
 Wet etching is isotropic (etches equally in all directions) — this limits its use for fine features. Below ~2 μm feature size, anisotropic dry (plasma) etching in [Dopant & Etch Gases](dopant-etch-gases.md) is required. However, wet etching remains essential for:
 
@@ -258,6 +257,6 @@ Wet etching is isotropic (etches equally in all directions) — this limits its 
 - **[Cleanrooms](../photolithography/cleanrooms.md)**: Cleanroom construction and contamination control
 - **[Core Fab Processes](../photolithography/fab-processes.md)**: Full IC fabrication flow using wet and dry etch
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+[← Back to Chemistry](index.md)

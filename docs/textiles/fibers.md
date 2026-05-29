@@ -83,7 +83,7 @@ Fiber preparation transforms raw plant stems, animal fleece, and silk cocoons in
 - **Processing**: Dry tendons completely (air dry or by low heat). Pound dried tendon with smooth stone or wooden mallet until it separates into individual fibers. Fibers are white, translucent, and extremely strong in tension.
 - **Use**: Not spun conventionally — dampen to make flexible, then wrap around bindings (arrow fletching, tool hafting, seam reinforcement). Dries hard and shrinks tight, creating extremely strong join. Primary sewing thread for leather before manufactured thread.
 
-### Processing Equipment Construction
+## Processing Equipment Construction
 
 **Flax brake**: Wooden frame (~80 cm tall) with two sets of interlocking wooden blades. Upper blades are hinged and raised by a lever arm. Place retted, dried flax stalks across the lower blades. Slam upper blades down — the narrow gap (2-3 mm) between upper and lower blades crushes the woody shives without cutting the fibers. Construction: hardwood (ash or oak) blades, 3-5 cm wide, 40-60 cm long, spaced 2-3 cm apart. Frame joints: mortise and tenon, pinned with wooden dowels. A well-made brake processes 5-10 kg of retted stalk per hour.
 
@@ -91,7 +91,7 @@ Fiber preparation transforms raw plant stems, animal fleece, and silk cocoons in
 
 **Hackle (hatchel) comb**: Flat wooden board (15 × 30 cm) with rows of sharp iron teeth (nails or specially drawn wire) driven through and bent to a slight upward angle. Three grades: coarse (teeth 8-10 cm long, 3-5 mm spacing), medium (6-8 cm, 2-3 mm spacing), fine (4-6 cm, 1-2 mm spacing). Draw flax fibers through each grade in sequence. The coarse hackle removes remaining shives and short fibers. The fine hackle separates the long line fibers (30-90 cm) from short tow. Construction: iron nails driven through a 2 cm thick hardwood board and clinched (bent over) on the back side for security. Teeth must be sharp, straight, and evenly spaced — crooked teeth pull fibers unevenly. Protect hackle teeth with a wooden cover when not in use (safety hazard — teeth are razor-sharp).
 
-### Cotton Gin Construction
+## Cotton Gin Construction
 
 The cotton gin separates cotton fiber (lint) from seeds. Two designs, differing in throughput and fiber quality:
 
@@ -107,7 +107,7 @@ The cotton gin separates cotton fiber (lint) from seeds. Two designs, differing 
 - Production: 50-200 kg lint per hour (machine-powered). 10-40× faster than the roller gin. Damages long fibers (cuts them to the saw spacing length) — acceptable for short-staple upland cotton but destroys premium long-staple cotton quality.
 - Construction requires iron saw blades, precision bearings, and a power source (water wheel, animal power, or steam engine). The grid bars must be precisely spaced — uneven spacing lets seeds through or blocks fiber.
 
-### Retting Water Management
+## Retting Water Management
 
 Retting uses bacterial decomposition to separate bast fibers (flax, hemp, nettle) from the woody core. Water management is critical for consistent quality:
 
@@ -121,7 +121,7 @@ Retting uses bacterial decomposition to separate bast fibers (flax, hemp, nettle
 
 **Environmental impact**: Retting water becomes highly polluting — rich in organic acids (butyric, acetic), dissolved pectin, and bacteria. Historical flax retting ponds killed fish and rendered water undrinkable for weeks downstream. Modern practice: treat retting effluent in settling ponds before release, or use dew retting where water quality is a concern.
 
-### Fiber Grading
+## Fiber Grading
 
 Standardized grading ensures consistent fiber quality for spinning and weaving:
 
@@ -139,7 +139,7 @@ Standardized grading ensures consistent fiber quality for spinning and weaving:
 
 **Flax grading**: Line fibers sorted by length, color, and fineness. #1 line: longest (60+ cm), pale blonde, fine and strong. #2 line: 40-60 cm, light brown. Tow: short (5-15 cm), darker, coarser — sold for rope, twine, and coarse cloth.
 
-### Degumming Chemistry
+## Degumming Chemistry
 
 Removing sericin (silk gum) from raw silk illustrates the chemistry of protein-based fiber processing. The same principles apply to ramie degumming:
 
@@ -150,7 +150,7 @@ Removing sericin (silk gum) from raw silk illustrates the chemistry of protein-b
 
 **Ramie degumming**: Ramie (*Boehmeria nivea*) bast fiber contains 20-30% gum (pectin and hemicellulose) that must be removed before spinning. Treatment: 1-5% NaOH solution at 90-100°C for 1-4 hours. Multiple treatments may be needed for complete removal. Degummed ramie fibers are white, strong (~600 MPa tensile), and lustrous — similar to linen but stronger. Ramie yields ~1,500-2,000 kg fiber per hectare — the highest yield of any bast fiber.
 
-### Fiber Identification Tests
+## Fiber Identification Tests
 
 Quick field tests to identify unknown fibers:
 
@@ -160,11 +160,11 @@ Quick field tests to identify unknown fibers:
   - **Synthetic fibers** (not applicable at bootstrap stage, but for reference): Melt and bead up. Nylon smells like celery; polyester smells sweet. Hard bead residue.
 - **Microscopic examination** (if a simple lens is available): Cotton fibers show characteristic twisted ribbon appearance. Flax fibers show bamboo-like nodes (cross-markings). Wool shows overlapping scales. Silk shows smooth, uniform filaments with triangular cross-section.
 
-### Cordage & Rope
+## Cordage & Rope
 
 For rope and cordage production, see [Rope Making](rope-making.md).
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Fiber dust (byssinosis)**: Cotton and other plant fiber processing generates fine dust. Chronic inhalation causes byssinosis ("brown lung") — chest tightness, reduced lung function. Ventilation in processing areas. Respirators when dust is visible.
 - **Chemical retting hazards**: Retting (decomposing pectin to separate fibers) uses stagnant water — bacterial and fungal exposure risk. Alkaline retting uses NaOH or Ca(OH)₂ — caustic, eye damage. Wear gloves and eye protection.
@@ -172,11 +172,10 @@ For rope and cordage production, see [Rope Making](rope-making.md).
 - **Chemical processing**: Mercerization uses concentrated NaOH (caustic burns). Fiber bleaching uses chlorine compounds or hydrogen peroxide (chemical burns, oxygen enrichment fire risk). PPE for all chemical treatments.
 - **Gin machinery**: Saw gin blades are sharp and rotate at high speed (300-400 rpm). Entanglement hazard — keep hands clear of hopper and cylinder. Guard the drive mechanism. Roller gins present nip points between the rollers — maintain guards.
 
----
 
 *Dependencies: [Agriculture](../agriculture/index.md) for fiber crop cultivation, [Spinning](spinning.md) for converting prepared fibers to yarn*
 
-### Fiber Cultivation Yields
+## Fiber Cultivation Yields
 
 Understanding yield per hectare is essential for planning textile production at any scale:
 
@@ -195,7 +194,7 @@ Understanding yield per hectare is essential for planning textile production at 
 - Seed yield: approximately 1.5× the lint yield by weight. Cottonseed is pressed for oil (cooking, soap-making) and the meal is high-protein animal feed (after gossypol removal).
 - Yield variation is extreme: 500 kg/ha in dryland (rain-fed) cultivation, 1,000-1,500 kg/ha with irrigation and improved varieties. Extra-long staple cotton (Egyptian, Pima) yields at the lower end (500-700 kg/ha) but commands premium prices for its superior spinning quality.
 
-### Processing Equipment Construction Detail
+## Processing Equipment Construction Detail
 
 **Flax brake**: Construct a wooden frame approximately 80 cm tall × 40 cm wide × 60 cm long. The lower jaw consists of 5-7 hardwood blades (ash or oak, 5-8 cm wide, 40-60 cm long) fixed horizontally in the frame, spaced 2-3 cm apart. The upper jaw is a matching set of blades hinged at one end on a wooden or iron pin. The gap between upper and lower blades is 2-3 mm — just wide enough for flax fibers to pass without being cut, but narrow enough to crush the woody shives. Operation: place a handful of retted, dried flax stalks across the lower blades, slam the upper blades down repeatedly. The shives crack and break into short pieces while the long fibers flex and remain intact. A well-made brake processes 5-10 kg of retted stalk per hour.
 
@@ -205,13 +204,13 @@ Understanding yield per hectare is essential for planning textile production at 
 
 **Cotton gin (Whitney-type, 1793)**: The hand-cranked version processes approximately 5 kg of lint per hour, versus 0.5 kg/hr by hand. The key components: a rotating cylinder (~15 cm diameter) with wire teeth (iron or steel, 5-8 mm long) mounted in rows along its length. A grid of iron bars with slots (~5 mm wide) covers the cylinder. Cotton is fed into the hopper. The wire teeth grab the fiber and pull it through the grid slots. The seeds are too large to fit and are swept away. A brush cylinder removes lint from the wire teeth. Construction requires iron or steel wire for the teeth, a wooden frame and housing, and a crank mechanism with bearings. The grid bar spacing must be precise: too narrow and fiber cannot pass; too wide and seeds slip through.
 
-### Degumming Detail
+## Degumming Detail
 
 **Ramie degumming**: Ramie (*Boehmeria nivea*) is a bast fiber with exceptional tensile strength (~600 MPa, stronger than flax at ~500 MPa) but requires aggressive chemical processing to remove the 20-30% gum (pectin and hemicellulose) binding the fiber bundles. Treatment: 1-4% NaOH solution at 90-100°C for 1-2 hours, with agitation. Multiple treatments may be needed for complete removal. Rinse thoroughly in water after degumming to remove residual alkali. Degummed ramie fibers are white, lustrous, and spinnable on standard flax equipment. Ramie yields 1,500-2,000 kg fiber per hectare, the highest of any bast fiber, but the chemical processing requirement makes it more expensive to produce than flax or hemp.
 
 **Retting water management**: Change retting water every 2-3 days for consistent quality. Spent retting water contains organic acids (butyric acid, acetic acid), dissolved pectin, and anaerobic bacteria. It has a strong, unpleasant odor and is polluting to waterways. In a retting tank operation, drain the spent water to a settling pond before releasing it. The solids (pectin, plant debris) settle out, and the clarified water can be reused for the next batch or released after biological treatment. Do not discharge retting effluent directly into streams — historical retting operations killed fish populations for miles downstream.
 
-### Fiber Properties Comparison
+## Fiber Properties Comparison
 
 | Property | Flax | Hemp | Cotton | Wool | Silk |
 |----------|------|------|--------|------|------|
@@ -227,7 +226,7 @@ Understanding yield per hectare is essential for planning textile production at 
 
 Key takeaways: Hemp is the strongest natural fiber and the most rot-resistant, making it the best choice for rope and canvas. Flax produces the finest linen cloth. Wool stretches more than any plant fiber, giving woolen fabrics their characteristic elasticity. Silk is the only continuous-filament natural fiber, producing the strongest and finest yarns per unit cross-section. Cotton is unique among natural fibers in becoming weaker when wet.
 
-### Fiber Storage and Preservation
+## Fiber Storage and Preservation
 
 Proper storage prevents fiber degradation before processing:
 

@@ -38,7 +38,6 @@ BSF farming closes the loop between waste and food production. Settlement waste 
 | Drying screens | Wire mesh on wooden frames, 1 × 2 m | 2-3 frames | For sun-drying harvested prepupae |
 | Storage containers | Sealed buckets or barrels with tight lids | 2-4 | For dried larvae; must be rodent-proof and dry |
 
-## Overview
 
 Insect farming with Black Soldier Fly (BSF, *Hermetia illucens*) converts organic waste into high-protein animal feed and nutrient-rich fertilizer using minimal land, water, and infrastructure. BSF larvae consume almost any organic matter — food waste, manure, brewery grain, slaughter byproducts — and convert it to body mass at remarkable efficiency: 1 tonne of biowaste yields 150-200 kg of fresh larvae in just 14-18 days.
 

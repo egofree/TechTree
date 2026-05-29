@@ -208,7 +208,6 @@ Gutta-percha is one of the safer polymer materials to handle — it is non-toxic
 - **Dust inhalation**: Sawing, filing, or grinding hardened gutta-percha produces fine dust. Use dust extraction or wear respirator. Gutta-percha dust is not known to be toxic (it is biocompatible and used in dentistry) but any fine particulate (<10 μm) is a respiratory hazard with chronic exposure — the body cannot clear particles that penetrate deep into the lungs, and long-term exposure can cause pneumoconiosis-like conditions.
 - **Allergic reactions**: Some individuals develop contact dermatitis from gutta-percha — reported primarily among dental workers handling gutta-percha points. The reaction is typically a delayed hypersensitivity (Type IV) response to residual proteins or processing chemicals. Dental patients with gutta-percha root canal fillings rarely develop reactions due to the material's isolation from the immune system within the root canal.
 
----
 
 
 ## Comparison: Gutta-Percha vs. Natural Rubber vs. Polyethylene

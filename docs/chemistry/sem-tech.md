@@ -10,7 +10,6 @@
 
 **Credit**: SEM Tech (Salt Electro Mining Technology) was developed by **Robert Karas**, founder of Rowow LLC. The technology is released under **CC0 1.0 Universal** (public domain). Technical details are drawn from the open-source patent application (see Rowow1/Open-sourced-off-the-shelf-ion-exchange-membrane on GitHub).
 
-## Overview
 
 SEM Tech (Salt Electro Mining Technology) is an open-source approach to ion exchange membrane manufacturing and electrochemical processing, developed by Robert Karas of Rowow LLC. The core innovation is a method for producing homogeneous ion exchange membranes from off-the-shelf commercial water softener resin beads, at a cost of less than $1 per square foot -- compared to $100-400 per square foot for conventional membranes like Nafion.
 
@@ -251,6 +250,6 @@ The SEM Tech membrane occupies a unique position: far cheaper and more accessibl
 - [Water Treatment](../water/sem-tech-water-treatment.md) -- desalination and contaminant removal
 - [Hydroponics](../agriculture/sem-tech-hydroponics.md) -- nutrient and pH control in soilless growing
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) | [Chemistry](./index.md) | [All Domains](../index.md)*
+
+[← Back to Chemistry](index.md)

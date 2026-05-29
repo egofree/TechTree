@@ -8,7 +8,7 @@
 > **Outputs**: eda_tools, gpus, advanced_packaging, vlsi_designs
 > **Critical**: No — EDA tools accelerate design but are not a manufacturing capability themselves
 
-### Electronic Design Automation (EDA)
+## Electronic Design Automation (EDA)
 
 - Requires: computers (from the Photolithography stage ICs), display technology, storage, software engineering
 - **Logic synthesis**: Converting behavioral HDL descriptions (Verilog, VHDL equivalents) to gate-level netlists. Maps Boolean operations to available standard cells.
@@ -25,7 +25,7 @@
 - EDA tools require computers built from previous-generation ICs — circular dependency means first-generation ICs must be designed by hand
 - Full-chip SPICE simulation is infeasible for billion-transistor designs — accuracy is limited to block-level analysis
 
-### Schematic Capture
+## Schematic Capture
 
 The entry point for all IC design. Engineers describe circuit topology before any physical layout occurs.
 
@@ -44,7 +44,7 @@ The entry point for all IC design. Engineers describe circuit topology before an
 - Library characterization requires weeks of SPICE simulation across all process corners, input transitions, and output loads — compute-intensive upfront investment
 - Netlist interchange formats (EDIF, SPICE) between tools from different vendors cause compatibility issues requiring manual debugging
 
-### Logic Synthesis
+## Logic Synthesis
 
 Converting behavioral descriptions into manufacturable gate-level circuits.
 
@@ -64,7 +64,7 @@ Converting behavioral descriptions into manufacturable gate-level circuits.
 - MCMM optimization is NP-hard — each added scenario exponentially increases compute time for large designs
 - Clock gating insertion during synthesis requires accurate activity estimation — wrong toggle rates cause over/under-gating, wasting power or failing timing
 
-### Place & Route (P&R)
+## Place & Route (P&R)
 
 Physical implementation — converting the gate-level netlist into actual geometric layout on the die.
 
@@ -85,7 +85,7 @@ Physical implementation — converting the gate-level netlist into actual geomet
 - Placement is NP-hard — simulated annealing produces good but not optimal results; 5-15 floorplan iterations common before tapeout
 - Power grid IR drop analysis requires solving finite-element models with 10⁸ nodes — hours of compute time per iteration
 
-### Verification
+## Verification
 
 Ensuring the design works correctly before committing to expensive mask fabrication. A single mask set for an advanced node costs $5-20M — verification errors that escape to silicon are catastrophically expensive.
 
@@ -106,7 +106,7 @@ Ensuring the design works correctly before committing to expensive mask fabricat
 - Full-chip SPICE simulation is infeasible beyond ~10,000 transistors — analog accuracy limited to block-level analysis
 - PEX extraction for billion-net designs requires hours of compute time and produces gigabytes of parasitic data — iterative extraction-synthesis loops are expensive
 
-### Design Rules
+## Design Rules
 
 Manufacturing constraints that define the boundary between manufacturable and non-manufacturable layouts. Violating any rule means the design cannot be reliably fabricated.
 
@@ -126,7 +126,7 @@ Manufacturing constraints that define the boundary between manufacturable and no
 - Rule count doubles each node (~500 at 130 nm to ~5000+ at 7 nm) — context-dependent rules require foundry-certified DRC engines that cost millions to develop
 - Electromigration rules require current density analysis per wire segment — billion-net designs need distributed parallel computation
 
-### Lithography Simulation
+## Lithography Simulation
 
 Predicting and compensating for the distortions that occur during optical projection lithography.
 
@@ -145,7 +145,7 @@ Predicting and compensating for the distortions that occur during optical projec
 - Full-chip OPC for 10⁸-10⁹ shapes requires 100-1000 CPUs running for hours to days per layer — extreme compute cost
 - Single-layer mask data output of 100 GB-1 TB strains mask writer throughput and storage infrastructure
 
-### Design for Test (DFT)
+## Design for Test (DFT)
 
 Making the manufactured IC testable — ensuring defective chips can be identified and discarded.
 
@@ -165,7 +165,7 @@ Making the manufactured IC testable — ensuring defective chips can be identifi
 - Scan chain insertion adds 5-15% area overhead (scan flip-flops larger than standard flip-flops) and increases design complexity
 - Burn-in at 125-150°C for 4-48 hours is expensive — each oven handles limited throughput, and powered boards must be designed per chip
 
-### High-End Solar Cells
+## High-End Solar Cells
 
 - **PERC (Passivated Emitter and Rear Cell)**: Rear surface passivation (Al₂O₃ + SiNₓ stack) reflects unabsorbed light back through cell. Localized rear contacts (laser contact opening). Efficiency improvement: 2-3% absolute over standard cells. Target: 20-22% module efficiency.
 - **Better passivation**: Thermal SiO₂ + SiNₓ stack on front and rear. Al₂O₃ for p-type surface passivation (negative fixed charges repel electrons from surface). Surface recombination velocity <10 cm/s achievable.
@@ -184,7 +184,7 @@ Making the manufactured IC testable — ensuring defective chips can be identifi
 - TOPCon requires LPCVD polysilicon deposition + boron/phosphorus doping — 3-4 additional process steps over PERC
 - HJT amorphous silicon layers degrade under UV and thermal stress — long-term stability requires careful encapsulation
 
-### GPUs & Complex Logic
+## GPUs & Complex Logic
 
 - **Architecture design**: Parallel processing units, memory hierarchy (register file → L1 cache → L2 cache → DRAM), I/O interfaces. Hardware description language (HDL) specifies behavior.
 - **Billions of transistors**: Requires mature VLSI processes (sub-100 nm), high yield (>80%), large die (100-800 mm²) or chiplet architectures.
@@ -209,7 +209,7 @@ Making the manufactured IC testable — ensuring defective chips can be identifi
 - TDP of 150-450W in 200-800 mm² die area creates 50-200 W/cm² power density — requires liquid cooling above 300W
 - 3D stacking with TSVs concentrates heat vertically — thermal management limits stacking to 2-4 active dies
 
-### Ethics & Intellectual Property
+## Ethics & Intellectual Property
 
 - **Design piracy**: An IC mask set or HDL source represents years of engineering effort and millions in investment. Reverse engineering a chip (delayer by layer, image each layer, reconstruct schematics) is technically possible but expensive and time-consuming. Legal protections (mask work rights under treaties, patent protection on novel circuits) provide recourse against copying. In a bootstrapping context, open design methodologies and shared cell libraries are more productive than proprietary hoarding — the constraint is building capability, not defending market share.
 - **IP reuse and licensing**: Standard cell libraries, memory compilers, I/O pad cells, and processor cores (soft IP in HDL, hard IP as placed layout) are licensed building blocks. A modern SoC may integrate 50-200 IP blocks from multiple vendors. IP quality directly impacts yield — a faulty IP block can kill an entire chip design. Verification of third-party IP is a significant engineering challenge.
@@ -225,7 +225,7 @@ Making the manufactured IC testable — ensuring defective chips can be identifi
 - 100-500 engineer-years per GPU design — human errors in HDL, constraints, or floorplanning cause first-silicon failures costing $5-20M per respin
 - EDA tool chains (20-50 separate tools) represent decades of specialized algorithm development — rebuilding from scratch would take years even with documentation
 
-### Hazards & Safety
+## Hazards & Safety
 
 *Note: The hazards listed here relate to the EDA software development and GPU design process. For semiconductor fabrication hazards (ion implantation, toxic gases, plasma etching), see [Advanced Processes](advanced-processes.md).*
 
@@ -236,7 +236,7 @@ Making the manufactured IC testable — ensuring defective chips can be identifi
 
 
 
-### Signoff Flow and Tapeout Checklist
+## Signoff Flow and Tapeout Checklist
 
 Before a design is released to the mask shop ("tapeout"), it must pass a rigorous signoff flow that verifies every electrical, physical, and manufacturing requirement. A single error that escapes signoff costs $5-20M in wasted mask sets and 3-6 months of schedule delay.
 
@@ -262,7 +262,7 @@ Before a design is released to the mask shop ("tapeout"), it must pass a rigorou
 - Any single signoff failure blocks tapeout — 5-15 floorplan iterations before all checks pass simultaneously
 - GDSII files of 10-500 GB per layer require dedicated high-bandwidth transfer to mask shop — data pipeline is a logistical challenge
 
-### Design Rules by Process Node
+## Design Rules by Process Node
 
 Design rules define the boundary between manufacturable and non-manufacturable layouts. Each node's rule deck reflects the physical limitations of lithography, etch, CMP, and thin-film processes at that technology generation.
 
@@ -292,7 +292,7 @@ Design rules define the boundary between manufacturable and non-manufacturable l
 - Rule count doubles each node (~500 → ~5000+) — context-dependent rules require foundry-certified DRC engines that cost millions
 - Color-aware multiple patterning constraints add NP-hard graph coloring to the routing problem — uncolorable layouts require manual intervention
 
-### Yield Modeling and DFM Optimization
+## Yield Modeling and DFM Optimization
 
 Yield is not purely a manufacturing problem — the design itself determines how susceptible a chip is to random and systematic defects. Design-for-manufacturing (DFM) techniques modify the layout to minimize critical area (the region where a randomly placed defect of given size would cause a functional failure).
 
@@ -314,7 +314,7 @@ Yield is not purely a manufacturing problem — the design itself determines how
 - Dummy metal fill for CMP uniformity adds parasitic capacitance — must be carefully tuned to avoid degrading signal integrity
 
 
-### IP Integration and Reuse
+## IP Integration and Reuse
 
 Modern SoC designs integrate 50-200 IP (intellectual property) blocks from multiple sources. No single company designs every component — the economics of chip design demand reuse of proven, pre-verified building blocks.
 
@@ -338,7 +338,7 @@ Modern SoC designs integrate 50-200 IP (intellectual property) blocks from multi
 - IP integration errors cause ~30-40% of first-silicon respins in complex SoCs — misconnected buses and clock domain crossing faults are common
 - Hard IP must be re-designed for each new process node — analog IP (PLLs, ADCs, SerDes) cannot be automatically ported
 
-### Reliability Analysis and Signoff
+## Reliability Analysis and Signoff
 
 Semiconductor devices degrade over time under electrical and thermal stress. Reliability analysis ensures that a chip meets its specified lifetime (typically 10 years for consumer, 15-20 years for automotive/industrial) under operating conditions.
 
@@ -359,6 +359,6 @@ Semiconductor devices degrade over time under electrical and thermal stress. Rel
 - NBTI recovery effect makes measurement methodology-dependent — over/under-estimation of Vth shift causes either wasted margin or field failures
 
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*
+
+[← Back to VLSI Scaling](index.md)

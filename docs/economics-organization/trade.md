@@ -17,22 +17,22 @@ Trade depends on [transport](../transport/index.md) to move goods between locati
 
 ## Prerequisites
 
-### Materials
+## Materials
 
 - **Surplus goods**: At least one party must have goods beyond their own consumption needs. Minimum viable trade surplus: 10-20% of production above personal/family needs.
 
-### Tools and Equipment
+## Tools and Equipment
 
 - [Transport infrastructure](../transport/index.md): Paths, roads, waterways, or pack animals. Trade range scales with transport capacity: foot paths (5-15 km), pack animals (30-80 km), water transport (100-500 km), carts on roads (50-200 km).
 - [Writing systems](../knowledge/writing.md): Trade agreements, debt records, inventory lists, price documentation.
 
-### Knowledge
+## Knowledge
 
 - **Relative valuation**: The ability to compare the value of dissimilar goods (how many pots equal one knife?).
 - **Route knowledge**: Awareness of which communities produce which goods, and where to find them.
 - **Negotiation**: The social skill of reaching mutually acceptable exchange terms.
 
-### Infrastructure
+## Infrastructure
 
 - Market spaces: Physical locations where traders meet. Can be informal (crossroads gathering) or formal (dedicated market square).
 - Storage at trade points: Warehouses or secure areas for goods awaiting exchange.
@@ -52,7 +52,7 @@ Trade is an organizational capability. Physical inputs are minimal:
 
 ## Process Description
 
-### 4.1 Establishing a Barter System
+## 4.1 Establishing a Barter System
 
 1. **Survey local surpluses and deficits**: Catalog what each specialist or community produces in surplus and what they need. A copper-producing village has surplus metal but needs grain; an agricultural village has surplus grain but needs tools.
 
@@ -76,7 +76,7 @@ Trade is an organizational capability. Physical inputs are minimal:
 - Grain-reference pricing depends on stable grain supply — crop failure destabilizes the entire price system
 - Credit requires trust and enforcement — defaults destroy the credit system if not addressed
 
-### 4.2 Scaling to Multi-Party Trade
+## 4.2 Scaling to Multi-Party Trade
 
 6. **Identify trade intermediaries**: Some individuals naturally facilitate exchange — they know who has what and who needs what. Encourage these individuals to act as brokers. Brokers take a small commission (5-10% of trade value) in goods.
 
@@ -94,7 +94,7 @@ Trade is an organizational capability. Physical inputs are minimal:
 - Trade routes are vulnerable to banditry and conflict — armed escort increases transport cost
 - Fairs are seasonal — goods needed between fairs must be stockpiled, increasing storage costs
 
-### 4.3 Trade Record-Keeping
+## 4.3 Trade Record-Keeping
 
 9. **Standardize measures**: Use agreed-upon volume and weight units for trade. A "bushel" of grain, a "talent" of copper, a "cubit" of cloth. These standards reduce disputes. Link to [precision metrology](../measurement/precision-metrology.md) for standardized weights.
 
@@ -110,7 +110,7 @@ Trade is an organizational capability. Physical inputs are minimal:
 - Record-keeping requires literacy — limits this approach to communities with scribes or widespread basic literacy
 - Records are only as honest as the record-keeper — fraudulent entries undermine trust in the system
 
-### Trade System Trade-offs
+## Trade System Trade-offs
 
 | System | Range | Goods Traded | Currency Required | Trust Required | Best For |
 |--------|-------|-------------|-------------------|----------------|----------|
@@ -123,7 +123,7 @@ Trade is an organizational capability. Physical inputs are minimal:
 
 ## Quantitative Parameters
 
-### Trade Route Parameters
+## Trade Route Parameters
 
 | Route Type | Range (one-way) | Speed | Cargo Capacity | Cost per tonne-km |
 |------------|-----------------|-------|----------------|-------------------|
@@ -135,7 +135,7 @@ Trade is an organizational capability. Physical inputs are minimal:
 | River transport (upstream) | 15-25 km/day | 1-3 km/h (poling/towing) | 2-20 tonnes | Low |
 | Sea coastal | 50-100 km/day | 5-8 km/h (sailing) | 10-100 tonnes | Very low |
 
-### Market Frequency by Population
+## Market Frequency by Population
 
 | Community Size | Market Frequency | Typical Traders per Market | Goods Categories |
 |----------------|-----------------|---------------------------|------------------|
@@ -144,7 +144,7 @@ Trade is an organizational capability. Physical inputs are minimal:
 | 1,000-5,000 | Weekly | 50-200 | 15-30 |
 | 5,000-50,000 | Daily (permanent market) | 200-2,000 | 30-100+ |
 
-### Barter Exchange Ratios (Representative)
+## Barter Exchange Ratios (Representative)
 
 | Good A | Quantity | Good B | Quantity | Notes |
 |--------|----------|--------|----------|-------|
@@ -204,7 +204,7 @@ Trade is an organizational capability. Physical inputs are minimal:
 | Fair-based trade | Seasonal large markets drawing distant traders | 100-10,000+ parties, inter-regional | High |
 | Currency-based trade | Goods exchanged for standardized money | Unlimited | See [currency](./currency.md) |
 
-### Bootstrap Trade Network Growth
+## Bootstrap Trade Network Growth
 
 Trade networks grow in predictable stages as production complexity increases:
 

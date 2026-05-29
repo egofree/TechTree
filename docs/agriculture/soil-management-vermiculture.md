@@ -8,7 +8,7 @@
 > **Outputs**: vermicompost, worm_castings, worm_tea, worms
 > **Critical**: No — vermiculture produces premium compost but is not the only path to soil fertility; thermophilic composting is a viable alternative
 
-## 1. Overview
+## Overview
 
 Vermiculture is the controlled breeding of earthworms to process organic waste into vermicompost — a dark, crumbly, nutrient-rich soil amendment superior to thermophilic compost in plant-available nutrients, microbial diversity, and growth-stimulating compounds. The primary species used is *Eisenia fetida* (red wiggler), a surface-dwelling worm adapted to decomposing organic matter rather than soil.
 
@@ -18,7 +18,7 @@ Vermiculture complements rather than replaces hot composting. Hot composting han
 
 This article is a child of [Soil Management](./soil-management.md), which covers the full range of composting and soil fertility methods. Vermicompost also provides nutrient supplements for [Aquaponics](./aquaponics.md) systems.
 
-## 2. Prerequisites
+## Prerequisites
 
 **Materials**:
 - Worm stock (*Eisenia fetida*): 1 kg per 0.5 m² of bin surface area (approximately 1,000 worms per kg)
@@ -43,9 +43,9 @@ This article is a child of [Soil Management](./soil-management.md), which covers
 - Temperature management capability (indoor space or insulated bins for cold climates)
 - Drainage for bins (elevated on blocks with collection tray beneath)
 
-## 3. Bill of Materials
+## Bill of Materials
 
-### Wooden Worm Bin (Household Scale, 1 m × 2 m × 0.6 m)
+## Wooden Worm Bin (Household Scale, 1 m × 2 m × 0.6 m)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -56,7 +56,7 @@ This article is a child of [Soil Management](./soil-management.md), which covers
 | Breathing fabric (burlap, old carpet) | 1-2 m² | [Textiles](../textiles/fibers.md) | Cardboard, newspaper layers |
 | Bedding material (shredded newspaper/coir) | 30-50 L | Recycled paper, coconut coir | Aged manure, shredded cardboard |
 
-### Worm Tea Production Kit
+## Worm Tea Production Kit
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -67,9 +67,9 @@ This article is a child of [Soil Management](./soil-management.md), which covers
 | Air pump + airstone | 1 unit | [Electronics](../electronics/index.md) or commercial | Daily manual stirring (non-aerated tea) |
 | Dechlorinated water | 10-20 L | [Water Procurement](../water/procurement.md) (let sit 24 hrs) | Rainwater |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Species Selection and Stocking
+## 4.1 Species Selection and Stocking
 
 **Eisenia fetida (Red Wiggler)**: The standard vermicomposting worm worldwide. Stripe-banded (alternating dark red-brown and yellowish bands), 6-13 cm long at maturity, 3-5 mm diameter. Surface-dwelling epigeic species — naturally found in leaf litter, manure piles, and decaying vegetation rather than in mineral soil.
 
@@ -107,7 +107,7 @@ Why *E. fetida* dominates vermicomposting:
 - Tropical species (*P. excavatus*, *E. eugeniae*) are prone to mass migration when disturbed
 - Sourcing initial stock may require purchase from a worm farm or collection from wild compost piles — not always available in remote locations
 
-### 4.2 Bin Construction
+## 4.2 Bin Construction
 
 **Wooden Bin**: Simple, effective, breathable. Construct from untreated timber (pine, oak, or any available hardwood). Do not use treated lumber (copper-chrome-arsenate or other preservatives are toxic to worms).
 
@@ -141,7 +141,7 @@ Advantage: No manual separation of worms from finished castings. Continuous prod
 - Concrete bins are permanent structures — cannot be relocated or resized
 - Stacked tray systems require precise mesh size (5-10 mm) — too large and worms fall through, too small and migration is blocked
 
-### 4.3 Bedding Preparation
+## 4.3 Bedding Preparation
 
 Bedding is the worm's living environment. It must be moist, airy, carbon-rich, and free of toxins.
 
@@ -171,7 +171,7 @@ Preparation: Fill bin 15-20 cm deep with bedding material. Moisturize to 70-80% 
 - Bedding must be re-moistened every 1-2 weeks — neglect causes worm mortality from desiccation
 - Aged manure requires 2-4 weeks of pre-composting before it is safe for worms
 
-### 4.4 Feeding
+## 4.4 Feeding
 
 **What to feed**:
 
@@ -195,7 +195,7 @@ Rate: 0.5 kg food per kg of worms per day (approximately 25% of their body weigh
 - Cannot process meat, dairy, or oily foods — these require separate thermophilic composting
 - Chopping food to <5 cm pieces accelerates processing but adds preparation labor (10-15 minutes per feeding)
 
-### 4.5 Population Management and Reproduction
+## 4.5 Population Management and Reproduction
 
 Initial stocking: 1 kg of worms per 0.5 m² of surface area. A 1 × 2 m bin (2 m² surface area) starts with 4 kg of worms (approximately 4,000 individuals — roughly 1,000 worms per kg for *E. fetida*).
 
@@ -223,7 +223,7 @@ Population regulation: Worm populations self-regulate based on available food an
 - Wild-caught worms may introduce predatory insects (centipedes, flatworms) or parasites
 - Optimal reproduction requires 20-25°C and 70-80% moisture — narrow environmental tolerance
 
-### 4.6 Harvesting
+## 4.6 Harvesting
 
 **Dump and Sort**: The simplest method. Empty the entire bin contents onto a tarp or table in a cone-shaped mound under bright light. Worms are photophobic and retreat into the center of the mound. Wait 15-30 minutes, then scrape away the outer layer of castings (worm-free). Repeat until a concentrated ball of worms remains. Return worms to freshly bedded bin.
 
@@ -249,7 +249,7 @@ Harvest frequency: Every 2-4 months, depending on temperature, food input, and w
 - Light migration leaves 10-20% of worms in the harvested castings — reduces breeding population over time
 - Continuous flow-through bins require specific construction (mesh bottom, scraper bar) that adds complexity to bin building
 
-### 4.7 Environmental Management
+## 4.7 Environmental Management
 
 **Temperature**: Optimal range: 15-25°C for *E. fetida*. Growth and processing rate peak at 20-25°C.
 
@@ -279,7 +279,7 @@ Too wet (above 85%): Anaerobic pockets develop, producing foul odors (hydrogen s
 - Freezing is lethal — outdoor bins in cold climates require relocation or heavy insulation for 4-6 months per year
 - Moisture management requires checking bins every 2-3 days — neglect for 1-2 weeks in summer can cause desiccation
 
-### 4.8 Worm Tea Production
+## 4.8 Worm Tea Production
 
 Worm tea is a liquid extract of vermicompost used as a foliar spray or soil drench. It provides nutrients and beneficial microorganisms directly to plant surfaces and root zones.
 
@@ -307,9 +307,9 @@ Application:
 - Non-aerated tea (steeped 7-14 days) may contain anaerobic pathogens — use only as soil drench, not foliar spray on food crops
 - Requires an air pump and airstone — if these are unavailable, only non-aerated tea can be produced
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Vermicompost Nutrient Analysis
+## Vermicompost Nutrient Analysis
 
 | Nutrient | Concentration (% dry weight) | Form |
 |----------|------------------------------|------|
@@ -321,7 +321,7 @@ Application:
 | Iron | 0.1-0.3% | — |
 | Humic acids | 2-5% | Stimulates root growth |
 
-### Comparison with Thermophilic Compost
+## Comparison with Thermophilic Compost
 
 | Parameter | Vermicompost | Thermophilic Compost |
 |-----------|-------------|---------------------|
@@ -334,7 +334,7 @@ Application:
 | Processing time | 2-4 months | 3-6 months |
 | Feedstock range | Narrow (soft materials) | Wide (all organics) |
 
-### Temperature and Processing Rate
+## Temperature and Processing Rate
 
 | Temperature (°C) | Feeding Rate (fraction of body weight/day) | Reproduction | Notes |
 |-------------------|-------------------------------------------|-------------|-------|
@@ -347,7 +347,7 @@ Application:
 | 30-35 | Declining | Ceased | Worms attempt escape |
 | Above 35 | Lethal | — | Death within hours |
 
-### Application Rates
+## Application Rates
 
 | Use | Rate | Frequency | Notes |
 |-----|------|-----------|-------|
@@ -358,7 +358,7 @@ Application:
 | Worm tea (foliar) | Dilute 1:5 with water | Every 2-4 weeks | Spray in early morning |
 | Worm tea (soil drench) | Dilute 1:2-1:5 with water | Every 2-4 weeks | Apply to root zone |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 **Household bin (0.5-2 m²)**: Single wooden or tray bin processing 2-10 kg of kitchen waste per day. Produces 20-50 kg of castings per month. Serves a family's food waste disposal and garden fertilization needs. Labor: 10-15 minutes per day for feeding and moisture check; 2-4 hours per quarter for harvesting.
 
@@ -370,7 +370,7 @@ Application:
 
 **Key bottleneck**: Temperature control. In temperate climates, 4-6 months of the year require indoor or insulated bin operation. Without climate management, processing drops to near-zero during winter.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Cause | Solution |
 |---------|-------|----------|
@@ -383,7 +383,7 @@ Application:
 | Worms dying | Pesticide residue, salt, extreme temperature, anaerobic conditions | Identify and remove toxic material, check moisture and temperature, aerate bedding |
 | White worms (potworms) | Acidic conditions, excess moisture | Add crushed eggshells or agricultural lime (small amount), reduce moisture |
 
-## 8. Safety
+## Safety
 
 - **Pathogens**: Vermicomposting operates at ambient temperatures (15-25°C), well below the 55°C+ required for reliable pathogen kill in thermophilic composting. While the worm gut and associated microorganisms reduce pathogen levels significantly (studies show 90-99% reduction of *E. coli* and *Salmonella*), vermicompost should not be assumed pathogen-free if the feedstock contains pathogens. Do not vermicompost raw humanure, pet waste, or diseased plant material. Pre-compost these materials at 55°C+ before feeding to worms.
 - **Allergens**: Worm castings contain high levels of organic dust and fungal spores. Wear a mask when harvesting large quantities of dry castings. People with mold allergies should use caution when handling vermicompost or worm tea.
@@ -391,9 +391,9 @@ Application:
 - **Heavy metals**: Worms bioaccumulate certain heavy metals (cadmium, lead, mercury) from contaminated feedstocks. Do not use vermicompost from worms fed on industrially contaminated waste near food crops. Use clean kitchen waste, manure from healthy animals, and garden trimmings.
 - **Treated lumber**: Do not use copper-chrome-arsenate (CCA) treated wood for bin construction — the preservative chemicals leach into the bedding and are toxic to worms at low concentrations. Use untreated timber, concrete, or food-grade plastic.
 
-## 9. Quality Control
+## Quality Control
 
-### Vermicompost Maturity Indicators
+## Vermicompost Maturity Indicators
 
 | Parameter | Finished Vermicompost | Immature/Incomplete | Test Method |
 |-----------|----------------------|---------------------|-------------|
@@ -403,7 +403,7 @@ Application:
 | Worm population | Few worms in finished castings | Many worms present | Visual (worms should have migrated to food) |
 | Seed germination | >80% in castings extract | <50% (phytotoxic) | Germinate cress seeds in castings extract |
 
-### Bin Environment Monitoring
+## Bin Environment Monitoring
 
 | Parameter | Target | Danger Zone | Test Method |
 |-----------|--------|-------------|-------------|
@@ -412,9 +412,9 @@ Application:
 | pH | 6.5-7.5 | <5.5 or >8.0 | pH paper on wet bedding extract |
 | Food remaining | All consumed within 48 hours | Food accumulating >72 hours | Visual check of feeding pocket |
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Vermicompost System Selection
+## Vermicompost System Selection
 
 | Situation | Recommended System | Why |
 |-----------|-------------------|-----|
@@ -424,7 +424,7 @@ Application:
 | Cold climate (below 0°C winter) | Indoor bins or insulated bins | Worms cannot survive freezing outdoors |
 | Community waste processing | Multiple large bins in rotation | Scalable by adding bins; one person manages feeding |
 
-### Integration with Other Systems
+## Integration with Other Systems
 
 | System | Integration | Benefit |
 |--------|------------|---------|
@@ -433,7 +433,7 @@ Application:
 | [Aquaponics](./aquaponics.md) | Worm tea as supplemental plant nutrient source | Provides micronutrients and growth hormones not in fish waste |
 | [Garden beds](./soil-management.md) | Apply castings as top-dressing or mix into potting soil | Improves soil structure, water retention, and microbial activity |
 
-## 11. References
+## References
 
 - [Soil Management](./soil-management.md) — parent article covering all composting methods, biochar, green manures, and soil amendments
 - [Insect Farming](../animals/insect-farming.md) — BSF frass as worm feed; two-stage waste processing
@@ -442,6 +442,6 @@ Application:
 - [Food Processing](../food-processing/index.md) — organic waste from food processing as worm feedstock
 - [Plants → Edible Plants](../plants/edible-plants.md) — crop species that benefit from vermicompost application
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*
+
+[← Back to Agriculture](index.md)

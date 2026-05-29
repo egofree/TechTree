@@ -16,11 +16,11 @@ This capability covers Boolean algebra (the mathematics of digital circuits), in
 
 ## Boolean Algebra
 
-### Origins and Motivation
+## Origins and Motivation
 
 George Boole (1815-1864) sought to reduce logical reasoning to algebraic calculation. His insight: logical statements can be represented as variables taking values True (1) or False (0), and logical operations (AND, OR, NOT) follow algebraic laws. This mathematical system turned out to be exactly what digital circuit designers need — every logic gate, every processor instruction, every digital communication protocol is an application of Boolean algebra.
 
-### Axioms of Boolean Algebra
+## Axioms of Boolean Algebra
 
 A Boolean algebra consists of a set B = {0, 1} with three operations:
 
@@ -45,7 +45,7 @@ Subject to these axioms (for all a, b, c ∈ B):
 
 Notice the **duality principle**: swapping AND ↔ OR and 0 ↔ 1 in any valid identity produces another valid identity. This is not a coincidence — it reflects a deep symmetry in the algebra.
 
-### Boolean Functions and Truth Tables
+## Boolean Functions and Truth Tables
 
 A Boolean function maps n input bits to one output bit. For n inputs, there are 2ⁿ possible input combinations and 2^(2ⁿ) possible functions.
 
@@ -66,7 +66,7 @@ Example — majority function (output 1 if more than half of inputs are 1):
 
 **Engineering application**: Any digital circuit's behavior is specified by a truth table. The design process: specify behavior as a truth table → derive Boolean expression → simplify → implement with logic gates.
 
-### Canonical Forms
+## Canonical Forms
 
 **Sum of Products (SOP) / Disjunctive Normal Form**: Write the function as an OR of AND terms. For each row where output = 1, create an AND term (product) of all inputs (complemented if 0, uncomplemented if 1). OR all these terms together.
 
@@ -76,7 +76,7 @@ For the majority function: M = ĀBC + AB̄C + ABC̄ + ABC
 
 Both forms can represent any Boolean function. Choice between them depends on which gives a simpler circuit.
 
-### Simplification Methods
+## Simplification Methods
 
 **Algebraic simplification**: Apply Boolean algebra axioms to reduce the expression. For the majority function: M = ĀBC + AB̄C + ABC̄ + ABC = BC(Ā+A) + AC(B̄+B) + AB(C̄+C) = BC + AC + AB.
 
@@ -84,7 +84,7 @@ Both forms can represent any Boolean function. Choice between them depends on wh
 
 **Engineering application**: Circuit cost is proportional to the number of gates and gate inputs. Simplification reduces transistor count, power consumption, propagation delay, and manufacturing cost. A 4-variable function might reduce from 16 gates to 4 after K-map simplification.
 
-### Universal Gate Sets
+## Universal Gate Sets
 
 Not all operations are necessary. Two gate types are each "universal" — any Boolean function can be implemented using only that gate type:
 
@@ -93,7 +93,7 @@ Not all operations are necessary. Two gate types are each "universal" — any Bo
 
 **Engineering application**: Early IC fabrication could reliably produce only NAND or NOR gates. Having a universal gate type means one manufacturing process produces all logic circuits. Modern CMOS uses NAND and NOR as primitive building blocks.
 
-### Boolean Algebra for Circuit Design Workflow
+## Boolean Algebra for Circuit Design Workflow
 
 1. **Specification**: Describe the desired behavior in natural language or timing diagrams
 2. **Truth table**: Enumerate all input combinations and required outputs
@@ -106,11 +106,11 @@ Not all operations are necessary. Two gate types are each "universal" — any Bo
 
 ## Information Theory
 
-### The Measurement Problem
+## The Measurement Problem
 
 How much information does a message contain? How much can you compress a data stream? What is the maximum rate at which you can send data over a noisy channel? Claude Shannon answered these questions in 1948, founding information theory.
 
-### Entropy (Information Content)
+## Entropy (Information Content)
 
 The entropy of a source that produces symbol i with probability pᵢ is:
 
@@ -120,7 +120,7 @@ Entropy measures the average information content (surprise) of each symbol. If a
 
 **Engineering application**: Data compression. English text has entropy ≈ 1.0-1.5 bits per character (much less than the 8 bits per character in ASCII). This means English text can be compressed by 5-7× without loss. Compression algorithms (Huffman coding, LZW) exploit this redundancy.
 
-### Source Coding Theorem
+## Source Coding Theorem
 
 Shannon's source coding theorem: A source with entropy H can be encoded using at least H bits per symbol (on average). No compression scheme can do better. This sets the theoretical limit for lossless data compression.
 
@@ -128,7 +128,7 @@ Shannon's source coding theorem: A source with entropy H can be encoded using at
 
 **Engineering application**: Every data storage and transmission system uses compression. Without understanding entropy, you cannot design efficient coding schemes. In the bootstrap sequence, efficient use of limited storage (punch cards, paper tape, magnetic media) requires compression.
 
-### Channel Capacity
+## Channel Capacity
 
 Shannon's noisy-channel coding theorem: For a channel with bandwidth B (Hz), signal power S, and noise power N, the maximum error-free data rate is:
 
@@ -138,7 +138,7 @@ This is the **Shannon limit**. It says you can transmit data at any rate below C
 
 **Engineering application**: A telephone line has bandwidth 3,000 Hz and signal-to-noise ratio 30 dB (S/N = 1,000). Maximum data rate: C = 3,000 × log₂(1,001) ≈ 3,000 × 10 = 30,000 bits/second. This is why early telephone modems maxed out at about 30 kbps — they were approaching the Shannon limit.
 
-### Error Detection and Correction
+## Error Detection and Correction
 
 **Parity check**: Add one bit that makes the total number of 1s even (or odd). Detects any single-bit error. Cannot correct — you know something is wrong but not which bit.
 
@@ -148,7 +148,7 @@ This is the **Shannon limit**. It says you can transmit data at any rate below C
 
 **Engineering application**: Semiconductor memory uses error-correcting codes (ECC) to protect against soft errors (cosmic ray bit flips). A server with 64 GB of RAM experiences roughly one bit flip per hour due to cosmic rays. Without ECC, data corruption is certain. With ECC (typically SECDED — single error correction, double error detection), these errors are silently corrected.
 
-### Redundancy and Coding Gain
+## Redundancy and Coding Gain
 
 Redundancy (extra bits beyond the information content) enables error correction. The coding gain is the reduction in required signal-to-noise ratio for the same error rate. Modern codes (LDPC, Turbo codes) achieve coding gains of 8-10 dB — meaning they can operate reliably with 6-10× less transmit power than uncoded transmission.
 
@@ -156,7 +156,7 @@ Redundancy (extra bits beyond the information content) enables error correction.
 
 ## Computation Theory
 
-### Formal Languages
+## Formal Languages
 
 A formal language is a set of strings over a finite alphabet, defined by rules (a grammar). The Chomsky hierarchy classifies languages by the complexity of their generating rules:
 
@@ -173,7 +173,7 @@ A formal language is a set of strings over a finite alphabet, defined by rules (
 - **Context-sensitive languages**: Type checking, variable declarations before use
 - **Recursively enumerable**: Full programming language semantics
 
-### Finite Automata
+## Finite Automata
 
 A **deterministic finite automaton (DFA)** is a mathematical model of a machine with:
 - A finite set of states S
@@ -188,7 +188,7 @@ The DFA reads input symbols one at a time, transitioning between states. If it e
 
 **Engineering application**: Every digital circuit with state (flip-flops, counters, controllers) is a finite automaton. Traffic light controllers, vending machines, elevator controllers, and processor control units are all designed as state machines. The formal automaton model ensures the design is complete (handles all inputs) and correct (reaches the right state).
 
-### Turing Machines and Computability
+## Turing Machines and Computability
 
 A Turing machine is an abstract computing device with:
 - An infinite tape divided into cells, each holding one symbol
@@ -202,7 +202,7 @@ The Church-Turing thesis states that any function that can be computed by any me
 
 **Engineering application**: Understanding what computers can and cannot do. The halting problem means there can be no universal program verifier — you cannot write a program that takes another program as input and determines whether it has bugs. This has practical implications for software engineering: automated testing can find bugs but cannot prove their absence (in the general case).
 
-### Complexity Classes
+## Complexity Classes
 
 **P (polynomial time)**: Problems solvable by a deterministic Turing machine in time polynomial in the input size. These are "tractable" — feasible to compute.
 
@@ -215,7 +215,7 @@ The Church-Turing thesis states that any function that can be computed by any me
 - Scheduling (production line, batch processing) is often NP-hard. Practical systems use approximation algorithms with guaranteed performance bounds.
 - Boolean satisfiability (SAT) is NP-complete but modern SAT solvers handle industrial instances with millions of variables. Used for formal verification of hardware and software.
 
-### Formal Verification
+## Formal Verification
 
 Using mathematical proof techniques to verify that a system meets its specification. Complementary to testing (which can only find bugs, not prove their absence).
 
@@ -227,7 +227,7 @@ Using mathematical proof techniques to verify that a system meets its specificat
 
 ## Cross-Cutting Applications
 
-### Digital Circuit Design Pipeline
+## Digital Circuit Design Pipeline
 
 1. **Specification**: Describe desired behavior in a hardware description language (HDL like Verilog/VHDL)
 2. **Boolean synthesis**: Compile specification to Boolean expressions
@@ -238,7 +238,7 @@ Using mathematical proof techniques to verify that a system meets its specificat
 
 Every step relies on formal systems: Boolean algebra (steps 2-4), automata theory (step 1 — HDL compilation), complexity theory (step 5 — NP-hard placement), and formal verification (step 6).
 
-### Communication System Design Pipeline
+## Communication System Design Pipeline
 
 1. **Source coding**: Compress data to remove redundancy (entropy coding, Huffman, arithmetic coding)
 2. **Channel coding**: Add controlled redundancy for error correction (Hamming, Reed-Solomon, LDPC, Turbo codes)
@@ -268,5 +268,5 @@ Steps 1-2 are pure information theory. Step 5 requires coding theory and statist
 - **Applied mathematics** (`mathematics.applied-mathematics`): Probability theory (information theory requires probability), linear algebra (coding theory uses matrix operations)
 - **Enables**: Digital logic design (`computing.digital-logic`), communication systems, data storage (`computing.data-storage`), formal verification, and compiler construction
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Mathematics & Formal Sciences](./index.md) • [All Domains](../index.md)*
+
+[← Back to Mathematics](index.md)

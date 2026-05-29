@@ -8,13 +8,13 @@
 > **Outputs**: structural_timber, building_materials, thatch, wattle, poles
 > **Critical**: Yes — all early construction depends on plant-derived structural materials
 
-## 1. Overview
+## Overview
 
 Plant species harvested for their structural properties — timber, poles, thatch, and woven building materials. Before fired brick, concrete, or steel, all construction depended on plant-derived materials: timber frames for buildings, woven wattle panels plastered with clay, thatched reed or straw roofs, and split-lath fencing. Even after stone and metal become available, wood remains indispensable for scaffolding, formwork, tool handles, and temporary structures.
 
 This capability covers the selection, harvesting, processing, and structural use of woody plants, large grasses, and reeds for construction. All early shelter — from wattle-and-daub huts to timber-framed longhouses — depends on these materials.
 
-### Harvesting
+## Harvesting
 
 **Tree felling**:
 - **Stone axes**: Hard stone (basalt, granite) ground to a cutting edge, mounted on a handle with birch tar or rawhide binding. Slow — 1-4 hours to fell a 30 cm diameter tree. Axe blade must be wider than the handle to prevent binding.
@@ -71,7 +71,7 @@ This capability covers the selection, harvesting, processing, and structural use
 
 **Extraction**: Drag logs from forest using animal power (oxen, horses) or human crews with rope and rollers. Skid roads follow natural contours. In wet terrain, use log slides (greased timber tracks) or wait for frozen ground.
 
-### Processing
+## Processing
 
 **Seasoning (drying)**:
 - **Air drying**: Stack lumber with stickers (thin cross-battens) between layers for airflow. Protect from rain with a roof or tarp. Drying time: 6-12 months for softwood (50 mm boards), 1-3 years for hardwood. Target moisture content: 15-20% for structural use.
@@ -118,7 +118,7 @@ This capability covers the selection, harvesting, processing, and structural use
 - **Lap joints**: Overlap two timbers, cut half the thickness from each where they cross. Used where beams meet posts at right angles.
 - **Notching**: Saddle notches and V-notches lock round logs together in log cabin construction. Simple, strong, requires only an axe.
 
-### Structural Properties
+## Structural Properties
 
 **Load-bearing characteristics**:
 - **Compressive strength (parallel to grain)**: 30-60 MPa for common hardwoods. Wood is strongest in compression along the grain — suitable for posts and columns.
@@ -126,7 +126,7 @@ This capability covers the selection, harvesting, processing, and structural use
 - **Bending strength**: 40-80 MPa for structural hardwoods. Determines beam and rafter sizing. A 150×150 mm oak beam spans ~4 m under typical floor loads.
 - **Weakness**: Shear strength across the grain is only 5-15 MPa. Failures occur at joints, not in mid-span. Connection design is more critical than member sizing.
 
-### Timber Properties by Species
+## Timber Properties by Species
 
 Approximate mechanical and physical properties of key structural timbers:
 
@@ -145,7 +145,7 @@ Approximate mechanical and physical properties of key structural timbers:
 
 **Wood moisture and shrinkage**: All wood shrinks as it dries. Tangential shrinkage (around growth rings): 6-12%. Radial shrinkage (across rings): 2-6%. Longitudinal (along grain): <0.3%. Differential shrinkage between tangential and radial planes causes warping and checking. Heartwood shrinks less than sapwood.
 
-### Bamboo Construction
+## Bamboo Construction
 
 Bamboo (*Bambusa*, *Dendrocalamus*, *Phyllostachys* spp.) is a grass, not a tree, but provides structural material rivaling timber:
 
@@ -160,7 +160,7 @@ Bamboo (*Bambusa*, *Dendrocalamus*, *Phyllostachys* spp.) is a grass, not a tree
 
 **Joinery**: Bamboo cannot be nailed or screwed (splitting). Traditional joints use lashing (rattan or cordage), dowels (bamboo pins through pre-drilled holes), and notching (cutting fish-mouth joints where horizontal members meet verticals). Steel banding or wire ties become possible once metal is available.
 
-### Thatching Detail
+## Thatching Detail
 
 **Reed thatch (*Phragmites australis*)**:
 - Roof lifespan: 30-40 years for a well-laid reed thatch (up to 50-80 years with maintenance and proper pitch)
@@ -177,7 +177,7 @@ Bamboo (*Bambusa*, *Dendrocalamus*, *Phyllostachys* spp.) is a grass, not a tree
 ** Heather thatch (*Calluna vulgaris*)**:
 - Used in upland Britain and Scandinavia where reeds are scarce. Creates a dense, springy roof. Lifespan: 20-30 years. Harvested in late summer when flowering.
 
-### Willow Withies and Basketry
+## Willow Withies and Basketry
 
 Willow (*Salix* spp.) provides flexible rods (withies) essential for basketry, wattle panels, and structural ties:
 
@@ -189,7 +189,7 @@ Willow (*Salix* spp.) provides flexible rods (withies) essential for basketry, w
 
 **Basketry structures**: Woven baskets use a simple over-under pattern on a rigid framework (stakes). Randing (single-rod weaving), pairing (two-rod twist), and waling (three-rod weave) produce progressively stronger baskets. A skilled basket-maker produces 2-4 medium baskets per day.
 
-### Coppicing Cycles
+## Coppicing Cycles
 
 Managed coppice woodland provides a perpetual supply of straight poles and withies without replanting:
 
@@ -204,7 +204,7 @@ Managed coppice woodland provides a perpetual supply of straight poles and withi
 
 A hectare of mixed coppice (hazel-ash-chestnut) yields 2-5 tonnes of air-dry wood per rotation. Managed coppice stools can be productive for 500+ years — some medieval English coppice stools are documented at over 1,000 years old.
 
-### Wood Seasoning Detail
+## Wood Seasoning Detail
 
 **Air drying**: Stack lumber with stickers (thin cross-battens, 20-25 mm thick) between each layer for airflow. Protect from rain with a roof or tarp (do not enclose sides — airflow is essential). General rule: **1 year per 25 mm of thickness** for hardwoods; half that for softwoods. A 50 mm oak board air-dries in 2 years. A 100 mm pine beam in 1 year.
 
@@ -290,7 +290,7 @@ A hectare of mixed coppice (hazel-ash-chestnut) yields 2-5 tonnes of air-dry woo
 - **Pitch**: Minimum 45° slope for water shedding. Steeper is better — 50-55° is ideal.
 - **Fire risk**: Thatch is extremely flammable. Spark arrestors on chimneys are mandatory. Lime wash or alum treatment provides marginal fire retardancy. Keep open flames and sparks well away.
 
-### Key Species
+## Key Species
 
 The following species from the plant catalog provide structural timber, poles, thatch, or building materials:
 
@@ -307,7 +307,7 @@ The following species from the plant catalog provide structural timber, poles, t
 | Archidasyphyllum diacanthoides | Asteraceae | Tree | Structural timber | Native to Chile/Argentina; large tree |
 | Artemisia capillaris (capillary wormwood) | Asteraceae | Perennial herb | Thatching, woven panels | Widespread in east Asia; stems used for woven wall panels |
 
-### Wattle-and-Daub Construction
+## Wattle-and-Daub Construction
 
 Wattle-and-daub is the earliest and most accessible structural building technique — it requires no sawn lumber, only saplings, mud, and labor.
 
@@ -318,7 +318,7 @@ Wattle-and-daub is the earliest and most accessible structural building techniqu
 
 Wall thickness: 100-150 mm. Insulation value: moderate (poorer than solid masonry, better than single-skin timber). Infill panels in timber-framed buildings use this technique worldwide.
 
-### Dependencies
+## Dependencies
 
 - Requires: [Plants & Botanical Resources](./index.md) (tool) — plant identification, propagation, and management knowledge
 - Requires: [Stone & Wood Tools](../foundations/tools-basic.md) (tool) — axes, wedges, mauls for felling and processing
@@ -326,13 +326,13 @@ Wall thickness: 100-150 mm. Insulation value: moderate (poorer than solid masonr
 - Enables: [Fuel Production](../energy/fuels.md) (material) — wood offcuts and non-structural roundwood become fuel
 - Enables: [Charcoal Production](../energy/charcoal.md) (material) — scrap timber and branches feed charcoal kilns
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Tree felling**: The most dangerous operation in forestry. Always plan the fall direction (wedge cuts on the fall side, back cut on the opposite). Retreat at 45° from the fall line the moment the tree starts to go. Never fell alone. A leaning tree can barber-chair (split vertically and kick back).
 - **Saw injuries**: Hand saws and axes cause lacerations. Keep blades sharp (dull tools require more force and are harder to control). Cut away from the body. Secure the workpiece before cutting.
 - **Structural collapse**: Green timber settles and joints loosen as wood dries. Design joints with wooden pegs that can be re-driven. Inspect roof trusses seasonally. Never exceed beam spans — a cracked beam under load fails without warning.
 - **Rot and decay**: Inspect structural posts at ground line annually. Probe with a knife — soft wood indicates rot. Replace compromised members immediately. A rotted post can collapse the entire frame.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*
+
+[← Back to Plants](index.md)

@@ -22,7 +22,7 @@ For semiconductor manufacturing, electropolishing produces the ultra-smooth, chr
 - [Metals / Alloys](../metals/alloys.md) — stainless steel, nickel, copper, and gold source materials
 - [Electricity](../energy/electricity.md) — rectified DC power supplies for electropolishing
 
-### Electropolishing
+## Electropolishing
 
 Electropolishing is the reverse of electroplating — the workpiece is the anode (not the cathode), and material is selectively dissolved from the surface. The process preferentially removes microscopic peaks and asperities (where current density is highest), producing a smooth, bright, defect-free surface. The result is simultaneously the smoothest surface finish achievable by any method and a chromium-enriched passive layer (for stainless steel).
 
@@ -50,7 +50,7 @@ Electropolishing is the reverse of electroplating — the workpiece is the anode
 - CVD chamber components: Electropolished 316L stainless steel or Inconel 625 for gas distribution manifolds, susceptor supports, and showerhead plates. Surface roughness Ra <0.25 μm prevents film buildup and particle generation.
 - Vacuum fittings: CF (ConFlat) flanges with electropolished knife-edge sealing surfaces. The electropolished surface ensures reliable metal-to-metal sealing with copper gaskets at pressures below 10⁻¹¹ Torr.
 
-### Electroforming
+## Electroforming
 
 Electroforming builds freestanding metal parts by electrodepositing a thick metal layer onto a precisely machined mandrel (pattern master), then separating the deposited metal from the mandrel. The deposited metal replicates the mandrel surface with sub-micron fidelity — features on the mandrel are reproduced as negative impressions in the electroform.
 
@@ -73,7 +73,7 @@ Electroforming builds freestanding metal parts by electrodepositing a thick meta
 - **Current density**: 15-30 mA/cm².
 - **Applications**: High-density interconnect (HDI) PCB microvias, micro-coils for MEMS inductors, X-ray mask membranes (2-5 μm thick, >90% X-ray transparent).
 
-### Electroless Plating
+## Electroless Plating
 
 Electroless plating deposits metal from solution by autocatalytic chemical reduction — no external current is applied. The reducing agent (typically sodium hypophosphite for nickel, formaldehyde or glyoxylic acid for copper) reduces metal ions on the catalyzed surface. The deposit itself catalyzes further deposition, making the process self-sustaining once initiated. The key advantage is perfectly uniform coating thickness on all surfaces — no current distribution issues, no shielding, no anode placement constraints.
 
@@ -108,7 +108,7 @@ ENIG is the dominant surface finish for printed circuit boards, providing a flat
 - **Surface preparation** (critical for non-conductors): The dielectric substrate (FR-4 epoxy-glass) must be catalytically activated before electroless copper will deposit. Sequence: (1) Etch in chromic acid or permanganate to create micro-roughness for mechanical adhesion. (2) Sensitize in SnCl₂ solution (adsorbs Sn²⁺ ions). (3) Activate in PdCl₂ solution (Sn²⁺ reduces Pd²⁺ to Pd⁰, creating palladium catalytic nuclei on the surface). (4) Immerse in electroless copper bath — copper deposits autocatalytically on the palladium nuclei.
 - **Thickness**: Initial electroless copper deposit: 0.5-2 μm. This thin conductive layer is then thickened by electrolytic copper plating (electroplating) to 20-35 μm. The combination of electroless (for adhesion and coverage) + electrolytic (for thickness and speed) is the standard through-hole metallization process.
 
-### Process Integration in Semiconductor Manufacturing
+## Process Integration in Semiconductor Manufacturing
 
 **ENIG for BGA substrate fabrication**:
 - BGA (ball grid array) substrates use ENIG on copper pads for solder ball attachment. Nickel thickness: 5-8 μm. Gold thickness: 0.03-0.05 μm. The flat ENIG surface ensures reliable solder ball placement and reflow.
@@ -121,7 +121,7 @@ ENIG is the dominant surface finish for printed circuit boards, providing a flat
 **Electroforming for microstructures**:
 - LIGA (Lithographie, Galvanoformung, Abformung) process: X-ray lithography creates high-aspect-ratio PMMA resist molds (height: 100-1000 μm, aspect ratio up to 100:1). Nickel is electroformed into the mold, then the PMMA is dissolved, leaving freestanding nickel microstructures. Applications: micro-gears, micro-springs, micro-fluidic channels, and X-ray opaque masks for semiconductor lithography.
 
-### Bath Management and Waste Treatment
+## Bath Management and Waste Treatment
 
 **Electroless bath maintenance**:
 - Nickel concentration: Replenish as depleted (monitored by colorimetric analysis or atomic absorption). Typical consumption: 5-10 g/L per hour of operation.
@@ -134,7 +134,7 @@ ENIG is the dominant surface finish for printed circuit boards, providing a flat
 - **Spent baths**: Acidic nickel or copper solutions with high metal content. Treatment: neutralize with NaOH to pH 9-11, precipitate metal hydroxides, filter sludge. Recover metals from sludge by acid leaching and electrowinning where economically justified.
 - **Cyanide-containing waste** (from gold baths): Cyanide destruction by alkaline chlorination (NaOCl at pH 10-11: CN⁻ → OCN⁻ → CO₂ + N₂) or hydrogen peroxide oxidation. Must be performed before acidification to prevent HCN gas evolution.
 
-### Electropolishing of Different Metals
+## Electropolishing of Different Metals
 
 **Aluminum electropolishing**:
 - Electrolyte: Perchloric acid (HClO₄, 5-20%) in ethanol or acetic acid. **Extremely dangerous** — perchloric acid is a powerful oxidizer and forms explosive mixtures with organic solvents. Must be performed in a dedicated fume hood with wash-down capability. Temperature: <25°C (water-cooled cell). Voltage: 15-30V. Current density: 10-30 mA/cm².
@@ -149,7 +149,7 @@ ENIG is the dominant surface finish for printed circuit boards, providing a flat
 - Electrolyte: Phosphoric acid (H₃PO₄, 50-70%) in water. Temperature: 20-30°C. Voltage: 1.5-2.5V. Current density: 10-30 mA/cm². The low voltage reflects copper's low anodic dissolution potential.
 - Application: Smoothing copper foil for PCB laminates, and polishing copper alloy components for optical applications.
 
-### Electropolishing Equipment and Tooling
+## Electropolishing Equipment and Tooling
 
 **Power supply**:
 - Constant-current DC rectifier: 0-20V, 0-5000 A depending on workload size. Ripple <5%. Constant-current mode is preferred because the workpiece surface area changes as material dissolves (constant voltage would cause current to increase as the surface smooths, potentially leading to pitting).
@@ -165,7 +165,7 @@ ENIG is the dominant surface finish for printed circuit boards, providing a flat
 - Pitting resistance (ASTM B117 salt spray): Electropolished 316L stainless steel typically achieves 500-2000+ hours to first rust spot, compared to 24-100 hours for mechanically polished surfaces.
 - Outgassing rate: Measured by throughput method in a vacuum chamber. Electropolished + baked 316L: ~10⁻¹⁰ Torr·L/s·cm². Mechanically polished: ~10⁻⁸ Torr·L/s·cm².
 
-### Electroforming Process Detail
+## Electroforming Process Detail
 
 **Mandrel preparation and separation**:
 - **Conductive mandrels** (stainless steel, nickel): The mandrel surface must be passivated to prevent the electroform from bonding permanently. Treatment: immersion in sodium dichromate (Na₂Cr₂O₇, 2-5%, 50-60°C, 10-30 min) or boiling in deionized water (forms a thin oxide release layer). After electroforming, mechanical force or thermal shock separates the electroform from the mandrel.
@@ -175,7 +175,7 @@ ENIG is the dominant surface finish for printed circuit boards, providing a flat
 **Multi-layer electroforming**:
 - Complex parts can be built by sequentially electroforming different layers with different properties. Example: A mold insert with a hard wear surface and a tough backing — first deposit hard nickel (450 HV, with sulfur co-deposition from saccharin), then switch to ductile sulfamate nickel (200 HV) for the backing. The transition between layers must be clean (rinse, activate) to ensure interlayer adhesion.
 
-### Electroless Plating on Non-Conductors
+## Electroless Plating on Non-Conductors
 
 **Surface activation sequence** (for plastic and ceramic substrates):
 1. **Etching**: Chromic acid (CrO₃, 300-500 g/L + H₂SO₄, 200-400 g/L, 60-70°C, 5-20 min) creates micro-roughness and introduces polar functional groups (-OH, -COOH) on the plastic surface for mechanical and chemical adhesion. The etch also removes surface contamination. Alternative for RoHS compliance: permanganate etch (KMnO₄, 30-50 g/L, NaOH, 60-70°C).
@@ -192,7 +192,7 @@ ENIG is the dominant surface finish for printed circuit boards, providing a flat
 5. Electrolytic copper: Panel plate the entire board with 20-35 μm electrolytic copper, building up the through-hole copper thickness. Current density: 15-30 mA/cm², time: 60-90 minutes.
 6. Pattern and etch: Apply photoresist, pattern the circuit, and etch the unwanted copper. The through-holes remain plated.
 
-### Defect Analysis
+## Defect Analysis
 
 **Electropolishing defects**:
 - **Pitting**: Small holes (10-100 μm) caused by inclusions in the base metal or excessive current density. Inclusions (sulfides, oxides) dissolve faster than the surrounding metal, creating pits. Prevention: use high-purity starting material, optimize current density.
@@ -203,7 +203,7 @@ ENIG is the dominant surface finish for printed circuit boards, providing a flat
 - **Bath decomposition**: Spontaneous nickel plating throughout the bath (on tank walls, particles, everywhere) caused by too-high temperature, too-low stabilizer, or phosphite accumulation. The bath turns dark and must be discarded. Prevention: maintain temperature ±2°C, monitor stabilizer concentration, replace bath before phosphite exceeds limit.
 - **Skip plating**: Unplated areas on an otherwise properly activated surface. Caused by insufficient surface activation (palladium coverage incomplete), contamination masking the surface, or insufficient etch. Remedy: verify activation solution freshness, increase etch time, clean the surface.
 
-### Safety
+## Safety
 
 **Perchloric acid explosion hazard**: Aluminum electropolishing uses 5-20% HClO₄ in ethanol or acetic acid. Perchloric acid is a powerful oxidizer that forms explosive perchlorate esters with organic solvents. Perchloric acid electropolishing MUST be performed in a dedicated fume hood with wash-down capability (perchloric acid fumes condense in ductwork and form explosive crystalline deposits). Never store perchloric acid near organic materials. A perchloric acid spill on organic flooring can cause delayed explosion.
 

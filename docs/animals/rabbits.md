@@ -28,7 +28,7 @@ Rabbits (*Oryctolagus cuniculus*) are the highest-efficiency terrestrial livesto
 | Space per doe | 0.5-0.8 m² cage | Most space-efficient livestock |
 | Manure N content | 2.0-2.4% | Can apply fresh — does not burn plants |
 
-## 2. Prerequisites
+## Prerequisites
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -39,7 +39,7 @@ Rabbits (*Oryctolagus cuniculus*) are the highest-efficiency terrestrial livesto
 | Clean water (nipple or crock) | [`water`](../water/index.md) | 100-300 mL/day per adult |
 | Ventilated shelter | [`construction`](../construction/index.md) | Protect from heat above 30°C |
 
-## 3. Bill of Materials
+## Bill of Materials
 
 Materials listed per 10-doe rabbitry per year.
 
@@ -52,9 +52,9 @@ Materials listed per 10-doe rabbitry per year.
 | Pine shavings/straw | 200-400 kg | [`plants`](../plants/index.md) | For nesting |
 | Water system | Nipple or crock | [`water`](../water/index.md) | 1 per 5 rabbits |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Meat Production
+## 4.1 Meat Production
 
 **Principle**: Rabbits convert forage and pellets to meat at 2.5-3.5:1 feed conversion ratio. A doe produces 4-6 litters per year of 6-12 kits each. Kits reach 2-2.5 kg slaughter weight in 10-12 weeks.
 
@@ -88,7 +88,7 @@ Materials listed per 10-doe rabbitry per year.
 - Pasteurellosis ("snuffles") is nearly impossible to eradicate once established — cull affected animals
 - Does cannibalize kits if underfed or stressed during kindling
 
-### 4.2 Angora Wool Production
+## 4.2 Angora Wool Production
 
 **Principle**: Angora rabbits produce one of the finest natural fibers at 12-16 microns diameter — finer than cashmere. The fiber is 7× warmer than sheep wool by weight due to hollow core. Annual yield: 400-1,200 g per rabbit depending on breed.
 
@@ -116,7 +116,7 @@ Materials listed per 10-doe rabbitry per year.
 - English Angora requires daily grooming (5-10 min/rabbit) to prevent matting
 - Heat stress risk higher than meat breeds — dense fleece reduces cooling
 
-### 4.3 Reproduction and Breeding
+## 4.3 Reproduction and Breeding
 
 **Principle**: Does are induced ovulators — no estrus cycle, breeding can be scheduled at any time. Ovulation occurs 10-13 hours after mating. This enables year-round production with proper management.
 
@@ -146,9 +146,9 @@ Materials listed per 10-doe rabbitry per year.
 - Kits born naked and blind — die within hours without nest warmth
 - Cannibalism risk if doe is underfed or stressed post-kindling
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Production Benchmarks
+## Production Benchmarks
 
 | Parameter | New Zealand White | Californian | Angora (Giant) |
 |-----------|------------------|-------------|----------------|
@@ -159,7 +159,7 @@ Materials listed per 10-doe rabbitry per year.
 | Dressing percentage (%) | 55-60 | 55-60 | — |
 | Fiber yield (g/year) | — | — | 800-1,200 |
 
-### Feed Requirements by Stage
+## Feed Requirements by Stage
 
 | Stage | Pellets/day | Hay | Notes |
 |-------|------------|-----|-------|
@@ -169,7 +169,7 @@ Materials listed per 10-doe rabbitry per year.
 | Growing fryer (4-12 weeks) | Unlimited | Unlimited | Restrict after 12 weeks |
 | Angora (fiber production) | 130-180 g | Unlimited | Higher protein for fiber |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 A 10-doe rabbitry (1 buck) in 15-25 m² produces 300 kg dressed meat per year — 12-20 kg meat per m² of housing. No other livestock achieves this density. Stackable cages (2-3 tiers) fit a complete operation in a 2 × 3 m footprint.
 
@@ -177,7 +177,7 @@ A 10-doe rabbitry (1 buck) in 15-25 m² produces 300 kg dressed meat per year �
 
 **Scale bottlenecks**: Heat management is the primary constraint — temperatures above 30°C reduce fertility and above 35°C kill. Feed costs scale linearly. Slaughter processing takes 10-15 minutes per fryer.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -188,7 +188,7 @@ A 10-doe rabbitry (1 buck) in 15-25 m² produces 300 kg dressed meat per year �
 | Sore hocks | Wire floor without resting board | Add solid resting board covering 25-30% of floor; keep dry |
 | Wool block (Angora) | Ingested fiber blocking gut | Daily grooming; unlimited hay; papaya enzyme weekly |
 
-## 8. Safety
+## Safety
 
 **Handling**: Rabbits have powerful hind legs with sharp claws. An improperly restrained rabbit can kick hard enough to fracture its own spine. Always support the hindquarters when lifting — one hand under chest, the other under rump. Never pick up by ears or scruff alone. Rabbits are prey animals — approach calmly, avoid sudden movements.
 
@@ -196,7 +196,7 @@ A 10-doe rabbitry (1 buck) in 15-25 m² produces 300 kg dressed meat per year �
 
 **Processing safety**: Dispatch by cervical dislocation requires proper technique to ensure humane death and avoid self-injury from sharp knives during processing.
 
-## 9. Quality Control
+## Quality Control
 
 **Meat quality**: Dressed carcass should be 55-60% of live weight. Flesh light-colored (like chicken breast), mild flavor. Chill to 4°C within 1 hour of slaughter. Process fryers at 10-12 weeks — older than 14 weeks produces tougher meat.
 
@@ -204,7 +204,7 @@ A 10-doe rabbitry (1 buck) in 15-25 m² produces 300 kg dressed meat per year �
 
 **Breeding records**: Track breeding date, kindling date, litter size, mortality, weaning weight per doe. Cull does producing below 6 kits per litter or with kit mortality above 30%.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 **Cold climate**: Rabbits tolerate cold to -10°C with adequate bedding and shelter from wind. Deep straw in nest boxes insulates kits. Outdoor hutches with solid walls on three sides suffice. Freeze water bottles for summer cooling.
 

@@ -8,13 +8,13 @@
 > **Outputs**: plant_fibers, raw_fiber
 > **Critical**: Yes — cordage and textiles from plant fibers are Year 0 necessities for shelter, tools, and clothing
 
-## 1. Overview
+## Overview
 
 Fiber plants are the botanical source of the cordage, thread, and woven materials that underpin every stage of civilization bootstrapping. Before metal wire or synthetic polymers, all rope, twine, netting, basketry, and textiles came from plant (and animal) fibers. Cordage is a Year 0 necessity — binding spear points to shafts, lashing shelter frames, making snares and fishnets, carrying loads with simple bags. As material culture advances, spun and woven plant fibers become clothing, sailcloth, canvas, sacks, hammocks, and eventually the belts and drive bands for early machinery.
 
 This capability covers the cultivation, harvesting, and primary extraction of bast (stem), leaf, and seed fibers from plant species. The downstream processing of extracted fibers into yarn, cordage, and cloth is covered in [Fiber Preparation](../textiles/fibers.md) and [Spinning](../textiles/spinning.md).
 
-### Fiber Categories by Plant Anatomy
+## Fiber Categories by Plant Anatomy
 
 Different plant organs yield fibers with distinct properties, requiring different extraction methods:
 
@@ -23,7 +23,7 @@ Different plant organs yield fibers with distinct properties, requiring differen
 - **Seed/fruit fibers**: Attached to seeds or fruit husks. Shorter staple length, processed differently from bast/leaf fibers. Examples: cotton (seed fiber), coir (coconut husk fiber).
 - **Whole-stem grasses**: Some grasses and reeds are used whole (split or unsplit) for basketry, thatching, and wattle. Not true fiber extraction — see [Structural Plants](./structural-plants.md).
 
-### Fiber Extraction Methods
+## Fiber Extraction Methods
 
 **[Retting](../glossary/retting.md)** (for bast fibers — flax, hemp, jute, ramie, nettle):
 
@@ -89,7 +89,7 @@ Separate the seed from the fiber. Hand-ginning (finger-picking) processes ~500 g
 
 Soak coconut husks in water (brackish or fresh) for 2-6 months to soften the pith, then beat with wooden mallets to loosen fibers. Hand-strip long fibers from the softened husk. Coir fiber is exceptionally rot-resistant, making it ideal for marine rope, matting, and erosion control.
 
-### Key Species
+## Key Species
 
 Species cataloged in the tech tree with fiber use from the plants database:
 
@@ -115,7 +115,7 @@ Well-known fiber plants that should be prioritized for cultivation in a bootstra
 
 Note: The current plants species catalog (plants.json) contains only 2 species with `primary_use: "fiber"` (Allium paniculatum, Amaranthus albus). The major fiber crops listed above are documented from general botanical and historical knowledge. Adding targeted fiber crop species to the catalog is a future data-enrichment task.
 
-### Cultivation Considerations
+## Cultivation Considerations
 
 Fiber crop cultivation ranges from zero-effort foraging (nettle) to intensive agriculture (cotton):
 
@@ -125,7 +125,7 @@ Fiber crop cultivation ranges from zero-effort foraging (nettle) to intensive ag
 - **Nettle**: No cultivation required in most temperate zones. Harvest wild stands in late summer when stems are mature. Stands regenerate from rhizomes. Manage by cutting annually to prevent woody overgrowth.
 - **Hemp**: The most forgiving fiber crop. Grows on marginal soil, needs minimal fertilizer, suppresses weeds through dense canopy shading. Deep taproot improves soil structure. Historically the most widely cultivated fiber plant for rope and canvas.
 
-### Harvesting and Processing
+## Harvesting and Processing
 
 Timing of harvest critically affects fiber quality:
 
@@ -136,7 +136,7 @@ Timing of harvest critically affects fiber quality:
 
 After extraction, all plant fibers must be dried thoroughly before storage. Moist fiber molds rapidly and loses strength. Store dried fiber in dry, ventilated conditions protected from rodents.
 
-### Yields and Economics
+## Yields and Economics
 
 Approximate dry fiber yields under hand-cultivation conditions:
 
@@ -150,7 +150,7 @@ Approximate dry fiber yields under hand-cultivation conditions:
 
 Labor requirements vary enormously. Cotton requires the most hand-labor per unit fiber (picking individual bolls). Hemp and jute are the most labor-efficient per hectare for bulk fiber. Nettle is free but yields the least per area.
 
-### Flax Processing Detail
+## Flax Processing Detail
 
 Flax (*Linum usitatissimum*) produces the finest plant fiber — linen — and warrants detailed treatment of each processing stage:
 
@@ -170,7 +170,7 @@ Flax (*Linum usitatissimum*) produces the finest plant fiber — linen — and w
 - Fine hackle: Splits fiber bundles, produces smooth, aligned sliver. Tow (short fiber, 5-15 cm) collected separately — spun into coarse yarn for sacking and tow cloth
 - Line fiber yield: ~15% of dry stalk weight. Tow fiber yield: ~5-8%
 
-### Hemp Processing
+## Hemp Processing
 
 Hemp (*Cannabis sativa*) is the most productive and forgiving bast fiber crop:
 
@@ -182,7 +182,7 @@ Hemp (*Cannabis sativa*) is the most productive and forgiving bast fiber crop:
 
 Hemp fiber length: 0.5-5.5 m (bundle length); individual fiber cells 0.5-5.0 cm long, 10-50 μm diameter. Tensile strength: 550-900 MPa (fiber bundle). Hemp produces 2-3x more fiber per hectare than flax under equivalent conditions.
 
-### Cotton Cultivation Detail
+## Cotton Cultivation Detail
 
 Cotton (*Gossypium* spp.) is unique as a seed fiber — the only widely cultivated plant fiber that does not require retting or decortication:
 
@@ -201,7 +201,7 @@ Cotton (*Gossypium* spp.) is unique as a seed fiber — the only widely cultivat
 
 **Varieties by climate**: Upland cotton (*G. hirsutum*) — temperate/subtropical, 90% of world production; Pima/Egyptian (*G. barbadense*) — hot arid, extra-long staple (33-38 mm); Tree cotton (*G. arboreum*) — tropical, drought-tolerant, short staple.
 
-### Jute, Ramie, and Sisal
+## Jute, Ramie, and Sisal
 
 **Jute (*Corchorus capsularis*, *C. olitorius*)**:
 - Highest yielding bast fiber: 1,500-2,500 kg/ha dry fiber
@@ -224,7 +224,7 @@ Cotton (*Gossypium* spp.) is unique as a seed fiber — the only widely cultivat
 - Tensile strength: 350-600 MPa. Resists degradation in saltwater — used for marine rope, twine
 - Drought-tolerant; grows in semi-arid tropical regions on poor soils
 
-### Fiber Testing and Quality
+## Fiber Testing and Quality
 
 Assessing fiber quality without modern laboratory equipment:
 
@@ -236,7 +236,7 @@ Assessing fiber quality without modern laboratory equipment:
 
 **Color and cleanliness**: Clean, well-retted fiber is pale (flax: light gold; hemp: light gray-brown). Dark, muddy fiber indicates over-retting or dirty retting water. Green patches indicate under-retting.
 
-### Fiber Blending for Application
+## Fiber Blending for Application
 
 Different applications benefit from combining fibers with complementary properties:
 
@@ -251,14 +251,14 @@ Different applications benefit from combining fibers with complementary properti
 - Cotton-linen blends (50:50) combine cotton's softness with linen's strength for clothing
 - Nettle fiber can substitute for flax in any application with comparable results; nettle cloth historically called " Scots cloth"
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Skin irritation**: Nettle stems and leaves cause contact dermatitis (urticaria) from formic acid and histamine in trichomes. Wear thick gloves when harvesting. The irritation fades within hours and does not cause lasting damage.
 - **Retting water contamination**: Water retting produces foul-smelling, bacteria-laden water. Do not ret in drinking water sources. Retting ponds should be downstream and separate from water supply. The organic load from retting can deplete oxygen and kill fish in small water bodies.
 - **Dust inhalation**: Processing dry fiber (hacking, scutching) generates fine dust. Work in well-ventilated areas. Prolonged exposure causes byssinosis (brown lung) — a chronic respiratory condition.
 - **Hemp confusion**: Industrial hemp (*Cannabis sativa* grown for fiber) contains negligible psychoactive compounds but is visually identical to drug varieties. In a bootstrap context this distinction is irrelevant — all hemp is a fiber crop.
 
-### Dependencies
+## Dependencies
 
 - Requires: [Plants & Botanical Resources](./index.md) (tool) — botanical knowledge and species identification
 - Feeds into: [Fiber Preparation](../textiles/fibers.md) (material — raw_fiber)
@@ -266,6 +266,6 @@ Different applications benefit from combining fibers with complementary properti
 - Related: [Edible Plants](./edible-plants.md) (dual-use species — flax seeds, agave, coconut)
 - Related: [Structural Plants](./structural-plants.md) (thatching and wattle materials)
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*
+
+[← Back to Plants](index.md)

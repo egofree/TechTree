@@ -7,7 +7,6 @@
 > **Timeline**: Years 40-80
 > **Outputs**: TiN hard masks, Ti diffusion barriers, W contact plugs, Mo gate electrodes, Cu damascene interconnects, Mo/Cu heat sinks
 
-## Overview
 
 Four metals — titanium (Ti), tungsten (W), molybdenum (Mo), and copper (Cu) — form the structural and electrical backbone of every GPU interconnect stack. Titanium nitride (TiN) serves as the hard mask for dual damascene patterning and as a secondary diffusion barrier. Tungsten fills contact vias and through-silicon vias (TSVs) by CVD from WF₆. Molybdenum provides gate electrodes at advanced nodes where poly-Si resistance is prohibitive, and Mo/Cu heat sinks extract waste heat from multi-hundred-watt GPU dies. Copper, deposited by electroplating into damascene trenches, carries 10-50 km of wiring per metal layer across 10-15 layers in a modern GPU. Without these four metals, interconnect resistance and RC delay would render any sub-100 nm chip non-functional.
 
@@ -15,7 +14,7 @@ Extraction of bulk Ti (Kroll process) and bulk W/Mo (powder metallurgy, hydrogen
 
 ## Titanium (Ti) — Hard Masks, Barriers, and Dielectrics
 
-### Properties Relevant to Semiconductor Use
+## Properties Relevant to Semiconductor Use
 
 | Property | Value | Significance |
 |----------|-------|--------------|
@@ -28,7 +27,7 @@ Extraction of bulk Ti (Kroll process) and bulk W/Mo (powder metallurgy, hydrogen
 | TiO₂ bandgap | 3.0-3.2 eV | Transparent to visible light |
 | CTE | 8.6 × 10⁻⁶/°C | Closer to Si than most metals |
 
-### Kroll Process (Bulk Titanium — Summary)
+## Kroll Process (Bulk Titanium — Summary)
 
 Bulk titanium production via the Kroll process is detailed in [Non-Ferrous Metals](non-ferrous.md). Key semiconductor-relevant points:
 
@@ -38,7 +37,7 @@ Bulk titanium production via the Kroll process is detailed in [Non-Ferrous Metal
 
 **Semiconductor-grade Ti**: For sputtering targets, further purification by electron beam melting (EBM) under high vacuum (<10⁻³ Pa) achieves 99.95-99.99% Ti. Key impurity limits: O <300 ppm, Fe <50 ppm, C <50 ppm. Interstitial oxygen increases resistivity and embrittles the metal — must be minimized.
 
-### TiN Hard Mask (PVD)
+## TiN Hard Mask (PVD)
 
 **Purpose**: In dual damascene Cu patterning, the dielectric stack (SiO₂/Si₃N₄ or low-k material) must be etched with precise feature profiles. A hard mask layer of TiN (100-200 nm) provides etch selectivity >10:1 over SiO₂ in fluorocarbon plasmas (CF₄, C₄F₈), whereas photoresist alone provides only ~2:1 selectivity. Without TiN hard masks, deep dielectric trenches cannot be patterned without excessive resist erosion.
 
@@ -48,7 +47,7 @@ Bulk titanium production via the Kroll process is detailed in [Non-Ferrous Metal
 
 **Etch selectivity**: TiN etches in Cl₂/BCl₃ plasma at 30-80 nm/min, vs. SiO₂ at 200-500 nm/min in CF₄/C₄F₈ plasma. During dielectric etch, the TiN hard mask erodes <10% while the dielectric is fully cleared. After dielectric etch, the TiN hard mask is stripped in wet H₂O₂/H₂SO₄ (piranha) or dry Cl₂ plasma.
 
-### Ti/TiN Diffusion Barrier (Alternative to TaN/Ta)
+## Ti/TiN Diffusion Barrier (Alternative to TaN/Ta)
 
 TiN serves as a diffusion barrier for aluminum interconnects (250 nm node and above) and as an adhesion/barrier layer for tungsten plug fill. While TaN/Ta has replaced TiN as the primary Cu barrier (see [Refractory & Specialty Metals](refractory-specialty.md)), Ti/TiN remains critical for:
 
@@ -58,7 +57,7 @@ TiN serves as a diffusion barrier for aluminum interconnects (250 nm node and ab
 
 **TiN barrier performance**: Time-to-failure in BTS test at 350°C, 1 MV/cm: TiN (10 nm) fails in <10 minutes for Cu barrier application (vs. TaN at >60 minutes). This is why TaN replaced TiN for Cu damascene — Cu diffuses through grain boundaries in polycrystalline TiN at temperatures >250°C. However, for W barrier applications where the filled metal has low diffusivity, TiN is perfectly adequate.
 
-### TiO₂ High-k Dielectric
+## TiO₂ High-k Dielectric
 
 **Properties**: TiO₂ in rutile phase has dielectric constant ε_r = 80-100 (one of the highest simple binary oxides). Thin films deposited by ALD (TiCl₄ + H₂O at 150-300°C) or MOCVD (TTIP — titanium tetraisopropoxide, Ti(OiPr)₄ + O₂ at 250-450°C) achieve ε_r = 40-80 for amorphous/nanocrystalline films.
 
@@ -68,7 +67,7 @@ TiN serves as a diffusion barrier for aluminum interconnects (250 nm node and ab
 
 ## Tungsten (W) — Contact Plug Fill and TSVs
 
-### Properties Relevant to Semiconductor Use
+## Properties Relevant to Semiconductor Use
 
 | Property | Value | Significance |
 |----------|-------|--------------|
@@ -80,13 +79,13 @@ TiN serves as a diffusion barrier for aluminum interconnects (250 nm node and ab
 | CTE | 4.5 × 10⁻⁶/°C | Close match to Si (4.1) |
 | WF₆ boiling point | 17°C | Gas at room temperature — ideal for CVD |
 
-### WF₆ — Tungsten Hexafluoride
+## WF₆ — Tungsten Hexafluoride
 
 **Production**: WF₆ is the universal tungsten CVD precursor. Produced by direct fluorination of tungsten metal powder: W + 3F₂ → WF₆ at 250-350°C. F₂ gas is generated by electrolysis of KF·2HF (see [Dopant & Etch Gases](../chemistry/dopant-etch-gases.md)). WF₆ is a colorless gas (bp 17°C, mp -0.5°C) stored as a liquefied compressed gas in nickel or Monel cylinders. Purity: 99.99% WF₆ with impurity limits: SiF₄ <10 ppm, HF <50 ppm, MoF₆ <10 ppm, UF₆ <1 ppm (uranium contamination from ore). WF₆ is extremely corrosive and reacts violently with moisture: WF₆ + 3H₂O → WO₃ + 6HF. All piping, valves, and regulators must be nickel, Monel, or PTFE-lined stainless steel.
 
 **Supply**: Global WF₆ production: ~25,000-30,000 tonnes/year. Price: $30-60/kg. Major producers: Linde, Air Products, Air Liquide, Central Glass (Japan). Semiconductor-grade WF₆ represents ~40% of demand by value but <10% by volume (remaining demand is for WC-Co hardfacing and CVD coating of cutting tools).
 
-### W CVD Plug Fill (Blanket + Etchback)
+## W CVD Plug Fill (Blanket + Etchback)
 
 **Process flow for contact via fill**:
 
@@ -104,7 +103,7 @@ TiN serves as a diffusion barrier for aluminum interconnects (250 nm node and ab
 
 **Alternative: W etchback by RIE**: Before CMP was available, blanket W was removed by reactive ion etching in SF₆/Cl₂ plasma. RIE etchback produces more dishing and is less planar — CMP is the modern standard.
 
-### W Fill for Through-Silicon Vias (TSVs)
+## W Fill for Through-Silicon Vias (TSVs)
 
 **3D packaging**: In advanced GPU packaging (HBM — high bandwidth memory), multiple DRAM die are stacked vertically and interconnected by TSVs — vertical metal columns passing through the silicon substrate. TSVs are 5-10 μm diameter, 50-150 μm deep (AR 10-30), filled with tungsten or copper.
 
@@ -112,7 +111,7 @@ TiN serves as a diffusion barrier for aluminum interconnects (250 nm node and ab
 
 **TSV keep-out zone**: Due to CTE mismatch between W (4.5 ppm/°C) and Si (4.1 ppm/°C), thermal cycling induces mechanical stress in the silicon surrounding the TSV. This stress affects carrier mobility in nearby transistors. Keep-out zone: 5-20 μm from TSV edge where no transistor should be placed. W TSVs have a smaller keep-out zone than Cu TSVs because W's CTE is closer to Si than Cu's CTE (16.5 ppm/°C).
 
-### W Film Stress Management
+## W Film Stress Management
 
 CVD W films are inherently tensile (0.5-1.5 GPa), which causes wafer bowing and can crack fragile low-k dielectrics. Stress reduction techniques:
 
@@ -122,7 +121,7 @@ CVD W films are inherently tensile (0.5-1.5 GPa), which causes wafer bowing and 
 
 ## Molybdenum (Mo) — Gate Electrodes and Heat Sinks
 
-### Properties Relevant to Semiconductor Use
+## Properties Relevant to Semiconductor Use
 
 | Property | Value | Significance |
 |----------|-------|--------------|
@@ -133,7 +132,7 @@ CVD W films are inherently tensile (0.5-1.5 GPa), which causes wafer bowing and 
 | Work function | 4.6-4.9 eV | Tuneable — suitable for gate electrodes |
 | Density | 10.22 g/cm³ | Moderate |
 
-### Mo Sputtering Target Manufacturing
+## Mo Sputtering Target Manufacturing
 
 Bulk Mo production from molybdenite ore (MoS₂) is covered in [Refractory Metals](refractory-metals.md). For semiconductor applications, the critical step is producing high-purity sputtering targets:
 
@@ -143,7 +142,7 @@ Bulk Mo production from molybdenite ore (MoS₂) is covered in [Refractory Metal
 
 **Target purity requirements**: For gate electrode applications at sub-10 nm nodes: Mo >99.97%, Fe <10 ppm, Ni <5 ppm, Cu <5 ppm, O <50 ppm, N <30 ppm, C <30 ppm, K <1 ppm, U/Th <1 ppb each (alpha particle emitters cause soft errors in SRAM). Radioactive impurity control is the most challenging specification — U and Th are present in Mo ore at 1-10 ppm and must be reduced to ppb levels.
 
-### Mo Gate Electrodes for Advanced Nodes
+## Mo Gate Electrodes for Advanced Nodes
 
 **Why Mo replaces poly-Si at sub-22 nm**: Traditional polysilicon gate electrodes have sheet resistance of 10-100 Ω/sq at gate lengths >100 nm. Below 22 nm gate length, the poly-Si line width shrinks to ~20 nm and the gate electrode resistance exceeds 500 Ω/sq — prohibitive for high-frequency operation. Metal gate electrodes (Mo, TiN, TaN, or work-function-tuned alloys) provide sheet resistance <5 Ω/sq.
 
@@ -153,7 +152,7 @@ Bulk Mo production from molybdenite ore (MoS₂) is covered in [Refractory Metal
 
 **Mo ALD**: MoCl₅ + H₂ at 400-500°C, or Mo(CO)₆ at 150-250°C. ALD Mo achieves conformal fill in high-AR gate cavities (AR 5-15) with resistivity 15-30 μΩ·cm (higher than bulk Mo due to carbon and chlorine contamination, but acceptable for short gate lengths). Film thickness: 5-30 nm.
 
-### Mo Heat Sinks and Thermal Management
+## Mo Heat Sinks and Thermal Management
 
 **GPU thermal challenge**: A high-end GPU die (800 mm², 300-450 W) generates heat flux of 40-60 W/cm². The thermal interface between die and heat spreader must conduct this heat with minimal temperature drop. Mo and Mo-Cu composites provide this function.
 
@@ -165,7 +164,7 @@ Bulk Mo production from molybdenite ore (MoS₂) is covered in [Refractory Metal
 
 ## Copper (Cu) — Dual Damascene Interconnects
 
-### Properties Relevant to Semiconductor Use
+## Properties Relevant to Semiconductor Use
 
 | Property | Value | Significance |
 |----------|-------|--------------|
@@ -179,7 +178,7 @@ Bulk Mo production from molybdenite ore (MoS₂) is covered in [Refractory Metal
 
 Bulk copper extraction and electrolytic refining are covered in [Copper & Bronze Production](copper-bronze.md). Semiconductor-grade copper for electroplating is discussed below.
 
-### Dual Damascene Process
+## Dual Damascene Process
 
 The dual damascene process is the defining interconnect technology for sub-250 nm ICs. It simultaneously forms trenches (for wire routing) and vias (for vertical connections between layers) in a single metal fill step, avoiding the via misalignment problem of subtractive Al etching.
 
@@ -203,7 +202,7 @@ The dual damascene process is the defining interconnect technology for sub-250 n
 
 **Repeat** for each metal layer. A modern GPU has 10-15 metal layers, each requiring the full dual damascene cycle.
 
-### Cu Electroplating (Electrochemical Deposition)
+## Cu Electroplating (Electrochemical Deposition)
 
 **Plating bath chemistry**:
 
@@ -222,7 +221,7 @@ The dual damascene process is the defining interconnect technology for sub-250 n
 
 **Post-plating anneal**: After plating, anneal at 200-300°C for 30-60 minutes in N₂/H₂. This recrystallizes the as-plated Cu (fine-grained, ~50 nm) to large grains (0.5-5 μm) that reduce resistivity from 2.5-3.0 μΩ·cm (as-plated) to 1.8-2.2 μΩ·cm (annealed). The large grain structure also improves electromigration resistance by reducing grain boundary diffusion paths.
 
-### Cu CMP (Chemical Mechanical Planarization)
+## Cu CMP (Chemical Mechanical Planarization)
 
 **Purpose**: Remove Cu overburden (0.5-2.0 μm thick) and barrier (TaN/Ta, 2-10 nm) to leave Cu only in trenches and vias, with a flat surface for the next layer.
 
@@ -238,7 +237,7 @@ The dual damascene process is the defining interconnect technology for sub-250 n
 
 **Post-CMP clean**: Brush scrubber with dilute citric acid (0.5-2% wt) at pH 3-5 to remove slurry particles and organic residues, followed by megasonic DI water rinse at 50-80°C. Defect target: <50 adders per 300 mm wafer at >0.12 μm particle size.
 
-### Electromigration and Reliability
+## Electromigration and Reliability
 
 **Failure mechanism**: Cu atoms migrate along grain boundaries and interfaces under the "electron wind" of high current density (10⁶-10⁷ A/cm²). This creates voids at the upstream (cathode) end and hillocks at the downstream (anode) end. Void growth eventually severs the interconnect — open circuit failure.
 
@@ -248,7 +247,7 @@ The dual damascene process is the defining interconnect technology for sub-250 n
 
 ## Supply Chain and Critical Dependencies
 
-### Global Production and Prices
+## Global Production and Prices
 
 | Metal | Annual Production | Price Range | Critical Semiconductor Use |
 |-------|------------------|-------------|---------------------------|
@@ -257,7 +256,7 @@ The dual damascene process is the defining interconnect technology for sub-250 n
 | Molybdenum | 280,000-300,000 t Mo | $10-40/kg Mo | Mo gate electrodes, heat sinks (<1% of Mo demand) |
 | Copper | 22-25 million tonnes Cu | $7-10/kg Cu | Cu damascene interconnects (~2% of Cu demand) |
 
-### Critical Supply Risks
+## Critical Supply Risks
 
 **Tungsten**: China controls 80%+ of mine production and >90% of WF₆ manufacturing capacity. A single Chinese export restriction could halt global W CVD plug fill within 6-12 months. Mitigation: recycle W from CMP slurry (economic at >5% recovery), develop Mo or Co as alternative plug fill materials.
 
@@ -289,6 +288,6 @@ These four metals converge at specific points in GPU fabrication:
 
 **Packaging/thermal**: Mo heat spreaders and Mo-Cu composites extract heat from the GPU die. W TSVs enable 3D stacking of HBM memory on the GPU interposer. Cu pillar bumps provide the die-to-substrate connection in flip-chip packages.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Metals](./index.md) · [Refractory Metals](refractory-metals.md) · [Refractory & Specialty Metals](refractory-specialty.md) · [Non-Ferrous Metals](non-ferrous.md)*
+
+[← Back to Metals](index.md)

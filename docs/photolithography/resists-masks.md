@@ -8,7 +8,7 @@
 > **Outputs**: photoresists, masks, lithography_tools, patterned_wafers
 > **Critical**: Yes — photolithographic patterning is the defining process of semiconductor manufacturing
 
-### Photoresists
+## Photoresists
 
 **[Bitumen resist](../glossary/bitumen-resist.md)** (simplest, historical — Niépce, 1826):
 - Dissolve bitumen of Judea (natural asphalt) in lavender oil or turpentine. Coat on substrate. Expose to UV through mask (hours of exposure — very slow). Exposed areas harden (polymerize), unexposed areas dissolve in solvent. Low resolution (~100 μm+), very slow, but requires zero chemistry infrastructure.
@@ -39,14 +39,14 @@
 - Bitumen resist requires hours of exposure with ~100 μm+ resolution — only suitable for initial experimentation
 - Isoprene-based negative resists suffer swelling during development, limiting resolution to ~2-3 μm
 
-### Polymer Packaging Materials
+## Polymer Packaging Materials
 - **Epoxy encapsulation**: Two-part epoxy for die attach and hermetic sealing — see [Polymers](../polymers/index.md) and [Semiconductor Packaging & Testing](../chemistry/packaging-testing.md)
 - **Plastic substrates and lead frames**: Molded plastic packages for integrated circuits
 - **Phenolic laminate (FR-4)**: PCB substrate material from phenolic or epoxy resin impregnated glass fabric — see [Polymers](../polymers/index.md)
 - **Photoresist dependency**: Novolac resin (phenol + formaldehyde condensation polymer) production path documented in [Polymers](../polymers/index.md), with monomer feedstocks from [Petrochemicals](../polymers/index.md)
 - **Solvent recovery**: PGMEA and ethyl lactate can be reclaimed by fractional distillation for reuse, reducing cost and waste stream. Acetone recovery similarly practical.
 
-### Mask Making
+## Mask Making
 - **Mask blanks**: Fused quartz (synthetic silica) substrate, 6″×6″×0.25″ (152×152×6.35 mm), polished to λ/4 flatness. Chrome layer (80-100 nm sputtered Cr) provides opaque regions. Resist coated on top of chrome for patterning. Quartz is essential for i-line (365 nm) transmission — soda-lime glass absorbs below 350 nm.
 - **1× masks (contact/proximity printing)**: Pattern generated at 1:1 scale. Photo-repeater: a precision X-Y stage positions a small aperture over the mask blank; a single pattern feature is exposed, then the stage steps to the next position. Repeats the same pattern across the entire mask. Alignment marks exposed at the same time. Resolution limited to ~2-3 μm due to 1:1 imaging.
 - **4×/5× reticles (projection steppers)**: Pattern drawn at 4× or 5× final size on the reticle. Stepper optics reduce to 1× on wafer. Allows higher mask resolution and easier defect management. Written by electron-beam (e-beam) lithography: focused 10-30 keV electron beam raster-scans the resist on the chrome. Spot size 10-50 nm. Write time: 1-8 hours per reticle depending on pattern density.
@@ -62,7 +62,7 @@
 - E-beam write time of 1-8 hours per reticle makes masks expensive ($5K-50K each)
 - FIB mask repair introduces Ga⁺ contamination and ≤10 nm substrate damage — repaired sites have slightly different optical properties
 
-### Lithography Tools
+## Lithography Tools
 - **Contact/proximity printing**: Mask touches (or nearly touches) wafer → UV exposure
   - Simple but damages mask and wafer. Proximity gap of 10-50 μm reduces damage at cost of resolution loss (near-field diffraction limits minimum feature to ~√(λ × gap) ≈ 2-5 μm for 20 μm gap at i-line).
 - **Projection printing**: Lens projects mask image onto wafer
@@ -82,7 +82,7 @@
 - Depth of focus shrinks as NA increases (DoF ≈ ±k₂·λ/NA²) — requires flatter wafers and better autofocus
 - Mercury arc lamps degrade ~10% per 100 hours and risk catastrophic envelope rupture releasing mercury
 
-### Resist Stripping
+## Resist Stripping
 
 After pattern transfer (etch or implant), photoresist must be removed before the next process step. Stripping method depends on whether the resist has been hard-baked, plasma-etched, or implanted (crosslinked resist is much harder to remove). Incomplete resist removal is a common yield killer — residue particles cause defects in subsequent deposition and etch steps.
 - **Oxygen plasma ashing**: RF plasma (13.56 MHz, 100-500 W, O₂ flow 50-200 sccm, 0.5-2 Torr, 150-300°C). Oxygen radicals oxidize resist to CO₂ + H₂O (volatile products). Removes ~1-5 μm/min depending on conditions. Dry process — no liquid waste. Typically used as first step to remove bulk resist, followed by wet clean for residue.
@@ -99,7 +99,7 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - Piranha solution (H₂SO₄:H₂O₂ 3:1) reaches 100-130°C and can explode on contact with organics — the most dangerous wet chemical in the fab
 - Acetone cannot remove hard-baked or plasma-crosslinked resist — limited to non-critical stripping only
 
-### Hazards & Safety
+## Hazards & Safety
 
 - **PGMEA developer / ethyl lactate carrier**: Both cause respiratory and eye irritation at concentrations above 50 ppm. Use in ventilated wet benches with local exhaust. Wear nitrile gloves and safety glasses. Prolonged skin contact causes defatting and dermatitis.
 - **Dichromate toxicity**: Ammonium dichromate ((NH₄)₂Cr₂O₇) contains Cr(VI), a confirmed human carcinogen (lung, nasal sinus). Inhalation of dust or mist is the primary route. If dichromated-gelatin resists are used for mask blanks, handle powder in a fume hood with particulate respirator (P100). Substitute novolac/DNQ resists whenever possible to eliminate chromium exposure entirely.
@@ -107,7 +107,7 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - **Piranha solution** (H₂SO₄:H₂O₂ 3:1): The most dangerous wet chemical in photoresist stripping. Mix only in dedicated fume hood with acid-resistant PPE (face shield, heavy-duty acid gloves, chemical apron). Always add peroxide TO acid, never reverse — violent exotherm can cause boiling and spattering. Never store — decompose with excess water before disposal. Contact with organics can cause explosion.
 - **Photoresist disposal**: Spent resist, developer, and rinse water containing dissolved organics are hazardous waste. Collect in labeled, compatible containers. Do not pour down any drain. PGMEA and ethyl lactate waste can be reclaimed by fractional distillation; contaminated waste must be incinerated by licensed hazardous-waste contractor.
 
-### Positive Photoresist Chemistry
+## Positive Photoresist Chemistry
 
 **Novolac-DNQ system in detail**:
 - **Novolac resin**: A condensation polymer of m-cresol (or a mixture of m-cresol and p-cresol) with formaldehyde. The cresol-formaldehyde ratio and reaction conditions control molecular weight (target: 2,000-5,000 Da). Novolac is soluble in aqueous base on its own. The dissolution rate in TMAH developer is high (~100-500 nm/s).
@@ -124,7 +124,7 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - Resolution limited to 0.25-1.0 μm with i-line (365 nm) — shorter wavelengths require different resist chemistry
 - Novolac resin requires phenol-formaldehyde polymerization — organic chemistry infrastructure dependency
 
-### Negative Photoresist Chemistry
+## Negative Photoresist Chemistry
 
 **SU-8 thick resist**:
 - **Composition**: Epoxy novolac resin (average 8 epoxy groups per molecule — the source of the name "SU-8") + triarylsulfonium salt photoacid generator (PAG). The PAG generates a strong acid (HF or HSbF₆) upon UV exposure.
@@ -144,7 +144,7 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - SU-8 swelling during PGMEA development distorts features below ~2 μm and degrades to 10-20 μm resolution for films >100 μm
 - Isoprene-based negative resists suffer xylene swelling that limits resolution to ~2-3 μm — replaced by positive resists in 1970s
 
-### Resist Processing Parameters
+## Resist Processing Parameters
 
 **Spin coating physics**:
 - **Thickness relationship**: t ∝ 1/√ω, where t is film thickness and ω is angular velocity. Doubling spin speed reduces thickness by ~30% (1/√2). For a given resist viscosity η and spin speed ω: t ≈ k × (η/ω)^(1/2), where k is a constant depending on resist solids content and evaporation rate.
@@ -170,7 +170,7 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - Edge bead requires separate EBR solvent spray step — adds process complexity
 - CD depends on 6+ simultaneous parameters (dose, focus, resist thickness, development time, PEB temperature, reticle CD) — complex statistical process control required
 
-### Mask Fabrication Detail
+## Mask Fabrication Detail
 
 **Photomask blank manufacturing**:
 - **Quartz substrate**: Synthetic fused silica, 152×152×6.35 mm (6"×6"×¼"), polished to λ/4 flatness (λ = 633 nm, so ~160 nm peak-to-valley surface deviation). Surface roughness <0.5 nm Ra. The substrate must transmit >90% at the exposure wavelength (i-line 365 nm). Soda-lime glass is NOT suitable because it absorbs below ~350 nm.
@@ -195,7 +195,7 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - E-beam write time of 1-8 hours per reticle makes masks expensive and creates a throughput bottleneck
 - FIB Ga⁺ repair introduces ion contamination and ≤10 nm substrate damage at repaired sites
 
-### Lithography Process Optimization
+## Lithography Process Optimization
 
 **Focus-exposure matrix (FEM)**:
 - **Purpose**: Determine the optimal exposure dose and focus setting for each lithography layer. The FEM is the most critical characterization experiment in lithography process development.
@@ -221,7 +221,7 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - DoF of only ±1.0 μm for i-line at NA 0.50 — any wafer topography or tilt degrades CD uniformity
 - CD budget of 100 nm (3σ) for 1.0 μm features must be allocated across 6+ error sources, leaving thin margins
 
-### Defect Density and Yield
+## Defect Density and Yield
 
 **Yield model**: Yield = (1 - D·A)ⁿ, where D = defect density (defects/cm² per layer), A = die area (cm²), n = number of critical lithography layers. For a die of 0.5 cm² with 7 critical layers and a defect density of 0.5 defects/cm² per layer: Yield = (1 - 0.5 × 0.5)⁷ = (0.75)⁷ = 0.133 = 13.3%. Reducing defect density to 0.1/cm² per layer: Yield = (0.95)⁷ = 0.698 = 69.8%. This exponential relationship between defect density and yield is why cleanroom discipline and contamination control are so important.
 
@@ -238,7 +238,7 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - Exponential yield model means each additional lithography layer multiplies yield loss — 7 critical layers is already challenging
 - Defect density is cumulative across all process steps — contamination from any single step degrades overall yield
 
-### Lithography Equipment Maintenance
+## Lithography Equipment Maintenance
 
 **Mercury lamp maintenance**:
 - **Lifetime tracking**: Mercury arc lamps degrade with use. Output intensity drops ~10% per 100 hours of operation. Replace at manufacturer-rated lifetime (typically 800-1200 hours) or when intensity drops below the process minimum (established during qualification). A lamp that fails catastrophically (envelope rupture) releases mercury into the exposure tool housing, requiring extensive cleanup.
@@ -262,7 +262,7 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - Mercury lamp replacement every 800-1200 hours requires 30+ minute cooldown, lamp alignment, and intensity recalibration
 - Lens cleaning risks damaging $100K-$1M optics — single-wipe-only protocol with no rubbing allowed
 
-### Alignment and Overlay Control
+## Alignment and Overlay Control
 
 **Alignment mark design**:
 - **Marks must survive all process steps** from first lithography through final passivation. Choose mark structures in areas that will not be covered by opaque metal layers. Common design: a cross-in-box pattern (a cross etched into the wafer, surrounded by a rectangular frame, also etched) at the first lithography level. Subsequent layers have matching cross-in-box patterns that overlay on the original marks.
@@ -285,7 +285,7 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - Alignment marks degrade with each process step (oxidation, etch, deposition) — must be designed 5-10× larger than minimum features
 - Common process window shrinks as feature sizes decrease — tighter tolerance on all parameters simultaneously
 
-### Photoresist Stripper Chemistry
+## Photoresist Stripper Chemistry
 
 **Resist removal after high-dose implant or plasma etch**:
 - Heavily crosslinked resist (from ion implantation at >10¹⁵ ions/cm², or from extended plasma etching with polymerizing chemistries) becomes essentially a carbonaceous glass. Standard solvents cannot dissolve it. Oxygen plasma ashing removes the bulk, but a thin carbon-rich crust remains.
@@ -300,7 +300,7 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - Piranha attacks most organic drain materials — requires dedicated acid-resistant plumbing and fume hood
 - Piranha must be decomposed by slow dilution with cold water before disposal — cannot be stored
 
-### Chemically Amplified Resists (CAR)
+## Chemically Amplified Resists (CAR)
 
 **Principle**: Developed for deep UV (DUV) lithography at 248 nm (KrF excimer) and 193 nm (ArF excimer) wavelengths. A photoacid generator (PAG, typically triphenylsulfonium or onium salt) absorbs a photon and releases a strong acid (e.g., HSbF₆, HBF₄). During post-exposure bake (PEB), the acid catalyzes deprotection of the resist polymer — each acid molecule participates in 100-1000 deprotection reactions before being consumed. This chemical amplification means one photon triggers many chemical events, dramatically increasing sensitivity. CAR sensitivity: 10-50 mJ/cm² versus 100-200 mJ/cm² for conventional DNQ-novolac resists at comparable wavelengths. The amplified reaction chain also improves contrast (γ = 5-15) because the amplification is highly nonlinear — a small dose difference produces a large solubility change.
 
@@ -316,7 +316,7 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - Ppb-level airborne amines neutralize photogenerated acid, causing T-topping — requires chemical filtration in cleanroom air
 - PAG loading trades sensitivity against etch resistance — higher PAG reduces plasma resistance
 
-### Multilayer Resist Systems
+## Multilayer Resist Systems
 
 **Bottom anti-reflective coating (BARC)**: A thin organic or inorganic layer (30-80 nm) spun onto the wafer before photoresist. BARC absorbs exposure light that passes through the resist, preventing reflection from the substrate. Without BARC, reflected light creates standing wave interference in the resist, causing linewidth rippling on sidewalls and swing curves (periodic CD variation with resist thickness). BARC optical properties: refractive index n and extinction coefficient k tuned so that reflected light from the BARC-substrate interface cancels by destructive interference. BARC is removed during the plasma etch that transfers the resist pattern to the underlying film — it etches at a controlled rate relative to the resist (etch selectivity 1:1 to 2:1).
 
@@ -330,7 +330,7 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - BARC adds an extra spin-coat step and must be removed during pattern transfer etch — added process complexity
 - Top coat must balance hydrophobicity (70-90° contact angle) with developer strippability — narrow formulation window
 
-### Pellicle Detail
+## Pellicle Detail
 
 **Construction**: A thin transparent membrane stretched taut over an aluminum frame (5-10 mm standoff height above the mask chrome surface). Two pellicle materials are common: (1) nitride membrane, ~800 nm thick, for i-line and g-line exposure — silicon nitride deposited by LPCVD on a silicon carrier, then released by etching the carrier away; (2) fluoropolymer membrane (CYTOP or Teflon AF), ~2.8 μm thick, for DUV wavelengths where nitride absorbs too strongly. Both achieve >99% transmission at their designed exposure wavelength.
 
@@ -346,7 +346,7 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - Nitride pellicles absorb at DUV wavelengths, requiring fluoropolymer alternatives — additional material supply chain
 - Rated lifetime of ~10,000 cycles means pellicles are consumables requiring regular inspection and replacement
 
-### Advanced Mask Inspection and Repair
+## Advanced Mask Inspection and Repair
 
 **Actinic inspection**: Die-to-die comparison at the exposure wavelength (actinic inspection) catches defects that would print on the wafer but might be invisible at other inspection wavelengths. KLA/Tencor systems scan at 1-5 cm²/min with sensitivity down to 50 nm defects on 4× reticles. The tool compares transmitted and reflected light images from two adjacent die sites on the mask; any difference exceeding the detection threshold flags as a defect. Actinic inspection is slower than broadband brightfield but catches wavelength-specific printing failures that other methods miss.
 
@@ -360,6 +360,6 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - Actinic inspection at 1-5 cm²/min is slow — full reticle inspection takes 30-60 minutes
 - Repaired sites have slightly different optical density than original chrome, causing minor but measurable CD variation
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Photolithography](./index.md) • [All Domains](../index.md)*
+
+[← Back to Photolithography](index.md)

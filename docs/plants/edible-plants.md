@@ -21,13 +21,13 @@ Every human settlement needs reliable caloric intake to survive, work, and repro
 - [Soil Management](../agriculture/soil-management.md) — maintaining fertility through rotation and amendment
 - [Seed Saving](../agriculture/seed-saving.md) — maintaining viable planting stock year to year
 
-## 1. Overview
+## Overview
 
 Edible plants are the primary caloric and nutritional source for any human population. Before agriculture, wild foraging provides immediate food security — roots, greens, fruits, seeds, and stems sustain small groups with minimal tools. As populations grow, deliberate cultivation of staple crops becomes essential to produce surplus, which in turn enables specialist labor and all downstream civilization.
 
 This capability covers identification, harvesting, cultivation, processing, and storage of plant species consumed as food. The plants cataloged here span multiple climate zones and include species usable as both food and other resources (fiber, medicine, structural material).
 
-### Foraging (Wild Harvest)
+## Foraging (Wild Harvest)
 
 Wild edible plants provide food from Year 0 with no cultivation effort:
 
@@ -37,7 +37,7 @@ Wild edible plants provide food from Year 0 with no cultivation effort:
 - **Seeds and nuts**: Collect seed heads when dry and brown. Shell nuts with stones. Seeds are the densest plant source of calories and protein — grasses (wild cereals), legumes, and tree nuts are the most important wild staples.
 - **Stems and shoots**: Harvest young shoots in spring. Peel outer fibers before eating. Asparagus-like shoots and bamboo shoots are examples. Many Allium species (wild onions, leeks) provide edible stems and bulbs with strong flavor and antimicrobial properties.
 
-### Cultivation Basics
+## Cultivation Basics
 
 Once seed-saving and planting cycles are understood, deliberate cultivation dramatically increases food output per unit area:
 
@@ -47,7 +47,7 @@ Once seed-saving and planting cycles are understood, deliberate cultivation dram
 - **Watering**: Most crops need 25-50 mm of water per week. Mulch around plants (straw, leaves) to reduce evaporation. In dry climates, concentrate planting near reliable water and use channel irrigation.
 - **Harvest timing**: Grains — harvest when seed heads droop and kernels are hard. Roots — harvest after tops die back (energy stored underground). Fruits — harvest when fully colored and slightly soft. Greens — harvest before flowering (bolting makes leaves bitter).
 
-### Processing
+## Processing
 
 Raw plant foods often require processing to improve digestibility, neutralize toxins, and extend shelf life:
 
@@ -57,7 +57,7 @@ Raw plant foods often require processing to improve digestibility, neutralize to
 - **Fermentation**: Wild yeast on fruit skins initiates fermentation. Allow mashed fruit or grain slurries to ferment for alcoholic beverages (caloric and preservative value). Lacto-fermentation of vegetables in salt brine preserves greens and produces tangy, probiotic food. Fermentation also reduces anti-nutrients in seeds (phytic acid) and makes minerals more bioavailable.
 - **Leaching**: Some starchy roots (e.g., cassava relatives) contain toxic cyanogenic glycosides. Grate, soak in running water for 24-48 hours, then cook thoroughly. Bitter-tasting roots should always be leached before consumption.
 
-### Storage
+## Storage
 
 Food preservation is critical for surviving winter, drought, and crop failures:
 
@@ -67,7 +67,7 @@ Food preservation is critical for surviving winter, drought, and crop failures:
 - **Smoke-drying**: Hang fruits, fish, or meat over slow, cool smoky fire for hours to days. Smoke deposits antimicrobial compounds on the surface while heat removes moisture. Produces intensely flavored preserved food.
 - **Underground storage**: Root crops (potatoes, turnips, carrots) store well in cool underground pits. Layer roots in dry sand or sawdust in a pit below frost line. Keeps for 3-6 months at 2-8°C.
 
-### Key Species
+## Key Species
 
 Species cataloged in the tech tree with confirmed edible use from the plants database:
 
@@ -81,7 +81,7 @@ Species cataloged in the tech tree with confirmed edible use from the plants dat
 
 Additional edible species in the broader catalog include representatives from Amaranthaceae (*Amaranthus hybridus* — edible leaves and seeds, high-protein grain), Brassicaceae (*Alliaria petiolata* — garlic mustard, edible leaves with garlic flavor), and many Allium species (wild onions and garlics) providing reliable flavor and nutrition across temperate zones.
 
-### Calorie Crops: Staple Grains and Tubers
+## Calorie Crops: Staple Grains and Tubers
 
 Staple crops provide the caloric foundation for agricultural societies. Yields vary enormously by crop, climate, and cultivation intensity:
 
@@ -115,7 +115,7 @@ Staple crops provide the caloric foundation for agricultural societies. Yields v
 - Growing cycle: 90-120 days; requires 500-800 mm water; warm-season (frost-sensitive)
 - Plant in hills (3-5 seeds per hill, 75-100 cm spacing) or rows; detassel for cross-pollination control
 
-### Root Crops and Cyanide Detoxification
+## Root Crops and Cyanide Detoxification
 
 Root crops are critical calorie sources in tropical and subtropical zones where grain cultivation is difficult:
 
@@ -138,7 +138,7 @@ Root crops are critical calorie sources in tropical and subtropical zones where 
 - Contains calcium oxalate crystals (raphides) causing severe throat irritation if eaten raw
 - **Must be cooked**: Boil 20-30 minutes or bake thoroughly to dissolve oxalate crystals. Adding a pinch of baking soda (sodium bicarbonate) accelerates oxalate breakdown
 
-### Grain Processing
+## Grain Processing
 
 Post-harvest processing converts standing grain into storable, edible flour:
 
@@ -154,7 +154,7 @@ Post-harvest processing converts standing grain into storable, edible flour:
 - Rotary quern: Two circular stones, upper rotates on lower. 3-5 kg flour/hour. Invented ~300 BCE Mediterranean
 - Water mill: Overshot wheel drives stone pair. 50-100 kg flour/hour. Requires water wheel infrastructure
 
-### Seed Saving
+## Seed Saving
 
 Maintaining viable seed stock is essential for agricultural continuity. Seeds are living organisms in dormant state:
 
@@ -163,7 +163,7 @@ Maintaining viable seed stock is essential for agricultural continuity. Seeds ar
 - **Storage**: Cool, dry, dark. Clay jars with tight lids, sealed with wax. Add powdered neem leaves or ash as insect repellent. Viability declines ~1-3% per year at ambient temperature; frozen seed retains >90% viability for decades
 - **Viability testing**: Place 10 seeds between damp cloth in a warm location. Count germination after 7-14 days. Below 50% germination — sow seed more densely or obtain fresh stock
 
-### Crop Rotation
+## Crop Rotation
 
 Sustained productivity requires rotating crop families to break pest cycles and manage soil nutrients. The classic four-course rotation (Norfolk system, developed 18th century England):
 
@@ -174,7 +174,7 @@ Sustained productivity requires rotating crop families to break pest cycles and 
 
 Simpler two-field rotation (grain-fallow) is the starting point; three-field (winter grain / spring grain / fallow) is the medieval standard. Each improvement increases effective land utilization by reducing fallow fraction.
 
-### Nutrition Reference
+## Nutrition Reference
 
 Approximate composition of major staple crops (per 100g edible portion, cooked unless noted):
 
@@ -203,7 +203,7 @@ Approximate composition of major staple crops (per 100g edible portion, cooked u
 | Taro throat irritation | Calcium oxalate crystals (raphides) in raw tissue | Boil 20-30 minutes minimum; add pinch of baking soda to cooking water |
 | Grain mold (mycotoxins) | Harvested wet or stored damp — *Aspergillus*, *Fusarium* | Discard moldy grain (do not eat — aflatoxin is carcinogenic); dry to <14% before storage |
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Toxicity from misidentification**: Many edible plants have toxic lookalikes. Never eat a plant you cannot identify with certainty. Learn 10-20 local species thoroughly before expanding your foraging range. When uncertain, apply the universal edibility test: fast for 8 hours, then rub the plant on inner wrist, wait 15 minutes for irritation. Place on lips, wait 3 minutes. Hold on tongue for 15 seconds without chewing. Chew briefly, hold in mouth 15 minutes. If no burning or nausea, swallow. Wait 8 hours. If no ill effects, the plant is likely safe.
 - **Anti-nutrients**: Many raw plants contain compounds that interfere with nutrient absorption or are mildly toxic. Oxalates (spinach, rhubarb leaves) can cause kidney damage at high doses — boil and discard water. Phytic acid in raw seeds and grains binds minerals — soaking, sprouting, or fermentation neutralizes it. Tannins in acorns and some tree fruits are bitter and reduce protein digestion — leach in repeated changes of water.
@@ -211,7 +211,7 @@ Approximate composition of major staple crops (per 100g edible portion, cooked u
 - **Allergenic potential**: Any new food can trigger allergic reaction. Introduce unfamiliar plants one at a time in small quantities. Watch for hives, swelling, difficulty breathing, or gastrointestinal distress for 24 hours after first consumption.
 - **Cumulative toxins**: Some plants (bracken fern, sassafras) contain carcinogens that accumulate with regular consumption. Use as occasional food, not daily staple.
 
-### Climate-Adapted Staple Selection
+## Climate-Adapted Staple Selection
 
 Choosing the right staple crop for the local climate is the single most important agricultural decision:
 
@@ -221,7 +221,7 @@ Choosing the right staple crop for the local climate is the single most importan
 - **Semi-arid (250-500 mm rainfall)**: Sorghum (*Sorghum bicolor*, 1-3 tonnes/ha), pearl millet (*Pennisetum glaucum*, 0.5-2 tonnes/ha), cowpea (*Vigna unguiculata*). These C4 grasses use water more efficiently than wheat or rice. Sorghum grain: ~340 kcal/100g, 10% protein; also yields sweet stalk syrup
 - **Highland tropical (>1,500 m)**: Potato (native to Andes at 2,000-4,000 m), oca (*Oxalis tuberosa*), quinoa (*Chenopodium quinoa*, 4-8% protein, complete amino acid profile), kiwicha (*Amaranthus caudatus*)
 
-### See Also
+## See Also
 
 - [Plants & Botanical Resources](./index.md) — botanical knowledge and species identification
 - [Food & Agriculture](../foundations/food-agriculture.md) — cultivated edible plants as the foundation of agricultural surplus

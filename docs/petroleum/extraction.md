@@ -16,7 +16,7 @@ The extraction progression follows a clear technological ladder: surface collect
 
 ## Surface Collection & Seeps
 
-### Natural Oil Seeps
+## Natural Oil Seeps
 
 Oil reaches the surface in many geological settings where an impermeable cap rock has been breached by erosion, faulting, or unconformity. Ancient civilizations from Mesopotamia to the Caspian collected petroleum from seeps for waterproofing, medicinal use, and lamp fuel.
 
@@ -29,7 +29,7 @@ Oil reaches the surface in many geological settings where an impermeable cap roc
 
 **Quality**: Seep oil is typically weathered — lighter fractions (gasoline-range) have evaporated, leaving heavier, more viscous oil. Still suitable for distillation into kerosene, diesel, and fuel oil but yields less light fractions than fresh reservoir oil.
 
-### Oil Sands and Heavy Oil
+## Oil Sands and Heavy Oil
 
 Where oil has migrated to the surface and degraded extensively (bacteria consume light fractions, leaving heavy residuum), the result is oil sands (tar sands) — a mixture of bitumen (~10-12% by weight), sand (~80-85%), and water (~4-5%). The Athabasca deposits in Canada and Orinoco belt in Venezuela represent enormous reserves.
 
@@ -39,11 +39,11 @@ Where oil has migrated to the surface and degraded extensively (bacteria consume
 
 ## Cable-Tool (Percussion) Drilling
 
-### Principle
+## Principle
 
 A heavy steel bit (chisel or club shape, 50-200 kg) is repeatedly lifted and dropped onto the rock at the bottom of the borehole. Each impact crushes a few millimeters of rock. Debris (cuttings) is periodically bailed out with a sand pump (a valved tube lowered on a separate cable). The technique is ancient — Chinese brine wells reached 1,000+ m depth using bamboo cables and cast iron bits by the 1800s.
 
-### Rig Components
+## Rig Components
 
 | Component | Description | Material |
 |-----------|-------------|----------|
@@ -56,7 +56,7 @@ A heavy steel bit (chisel or club shape, 50-200 kg) is repeatedly lifted and dro
 | Casing | Iron or steel pipe 10-15 cm diameter. Driven into hole as drilling progresses to prevent collapse and exclude groundwater | Iron or steel |
 | Power source | Steam engine (5-20 HP) or horse/ox walking in circle (1-3 HP). Engine dramatically increases drilling speed | — |
 
-### Drilling Procedure
+## Drilling Procedure
 
 1. **Site preparation**: Level ground, erect derrick, install walking beam and power source. Dig starter hole 1-2 m deep, set conductor pipe (large diameter pipe to guide initial drilling).
 2. **Spudding**: Lower drill bit on cable. Walking beam lifts bit 0.5-1.5 m and drops it on each stroke. Stroke rate: 20-60 strokes/minute. Drill at vertical — use plumb bob to check every 10 m.
@@ -65,7 +65,7 @@ A heavy steel bit (chisel or club shape, 50-200 kg) is repeatedly lifted and dro
 5. **Well completion**: When oil-bearing formation is reached (recognized by oil show in bailer samples, gas pressure at wellhead, or drilling rate increase in porous rock), set production casing. Perforate casing at the production zone (shoot perforations with explosive bullets or mechanical perforator). Install wellhead (pipe fittings controlling flow from the well).
 6. **Production**: If reservoir pressure is sufficient (artesian flow), oil flows to surface unassisted. If not, install a downhole pump (sucker rod pump driven by walking beam at surface — the iconic "pumpjack" motion).
 
-### Performance
+## Performance
 
 | Parameter | Value |
 |-----------|-------|
@@ -75,17 +75,17 @@ A heavy steel bit (chisel or club shape, 50-200 kg) is repeatedly lifted and dro
 | Casing requirement | Continuous in soft formations; intermittent in competent rock |
 | Major limitation | Cannot handle soft, unconsolidated formations (hole collapses before casing can be set) |
 
-### Historical Context
+## Historical Context
 
 Colonel Edwin Drake's 1859 well at Titusville, Pennsylvania reached 21 m using cable-tool drilling and struck oil at ~1,000 liters/day — the first commercial oil well. By 1900, cable-tool rigs had drilled thousands of wells to depths of 500-1,500 m across Pennsylvania, Ohio, Texas, and Romania. The technique remained dominant until rotary drilling surpassed it in the 1920s-1930s.
 
 ## Rotary Drilling
 
-### Principle
+## Principle
 
 A rotating drill bit grinds rock at the bottom of the borehole. Continuous circulation of drilling fluid (mud) carries cuttings to the surface, cools the bit, and maintains hydrostatic pressure against formation fluids. Rotary drilling is faster, reaches deeper, and handles all formation types — it replaced cable-tool for virtually all drilling above 500 m depth.
 
-### Rig Components
+## Rig Components
 
 | Component | Description |
 |-----------|-------------|
@@ -97,7 +97,7 @@ A rotating drill bit grinds rock at the bottom of the borehole. Continuous circu
 | Blowout preventer (BOP) | Stack of hydraulic rams installed below the rig floor at the wellhead. In an emergency (well kicks — formation fluid enters the borehole uncontrollably), the BOP seals the well to prevent uncontrolled flow (blowout). Rams can close around pipe (pipe rams), close completely (blind rams), or shear pipe and seal (shear rams). |
 | Mud system | Mud tanks, shale shaker (vibrating screen removes cuttings from returning mud), desander and desilter (hydrocyclones remove fine particles), mud mixer (bentonite, barite, chemicals blended into water base). |
 
-### Drilling Mud
+## Drilling Mud
 
 Drilling mud serves four critical functions simultaneously:
 
@@ -110,7 +110,7 @@ Drilling mud serves four critical functions simultaneously:
 
 **Oil-based mud (OBM)**: Diesel or mineral oil continuous phase + water emulsion (10-30%) + emulsifiers + organophilic clay + barite. Superior wellbore stability in water-sensitive shales (clays that swell on water contact, causing hole collapse). Better lubrication for directional drilling. Higher cost, environmental concerns with disposal.
 
-### Drilling Procedure
+## Drilling Procedure
 
 1. **Spudding**: Set conductor pipe (large diameter, 30-50 cm, driven or drilled to 10-50 m). Install BOP stack. Rig up mud circulation system.
 2. **Drilling surface hole**: Drill large diameter hole (25-45 cm) to below fresh water aquifers (~100-500 m). Run and cement surface casing. Cement pumped down casing, returns to surface in annulus — isolates aquifers.
@@ -119,7 +119,7 @@ Drilling mud serves four critical functions simultaneously:
 5. **Well logging**: Before completing, lower instruments on wireline to measure formation properties: spontaneous potential (identifies permeable zones), resistivity (identifies hydrocarbon vs. water-bearing zones), gamma ray (identifies clay/shale vs. clean sand/carbonate), density porosity, and sonic travel time. These logs determine which zones to produce.
 6. **Completion**: Run production casing (10-15 cm) through the reservoir. Cement. Perforate at the target zone using shaped-charge perforating guns lowered on wireline (explosive charges create 1-3 cm diameter holes through casing and cement into the formation, connecting reservoir to wellbore). Install tubing (production conduit inside casing) and wellhead (Christmas tree — valve assembly controlling production flow).
 
-### Directional and Horizontal Drilling
+## Directional and Horizontal Drilling
 
 Modern drilling rarely stays vertical. Directional drilling uses a bent sub (angled connector near the bit) or rotary steerable system (downhole motor that pushes the bit in a controlled direction) to navigate the drill string along a planned trajectory. Horizontal wells extend 500-3,000 m laterally through the reservoir, exposing far more reservoir rock to the wellbore than a vertical well (which intersects only the reservoir thickness, typically 5-50 m).
 
@@ -127,7 +127,7 @@ Modern drilling rarely stays vertical. Directional drilling uses a bent sub (ang
 
 **Measurement while drilling (MWD)**: Sensors near the bit transmit directional data (inclination, azimuth) to surface via pressure pulses in the mud column. The driller adjusts trajectory in real-time based on this feedback.
 
-### Performance
+## Performance
 
 | Parameter | Value |
 |-----------|-------|
@@ -139,7 +139,7 @@ Modern drilling rarely stays vertical. Directional drilling uses a bent sub (ang
 
 ## Well Production
 
-### Natural Flow (Artesian)
+## Natural Flow (Artesian)
 
 If reservoir pressure exceeds the hydrostatic head of the oil column in the wellbore, oil flows to the surface unassisted. The driving force is reservoir pressure from compressed gas, water influx, or rock compaction. Flow rate depends on reservoir permeability, pressure differential, and oil viscosity.
 
@@ -147,7 +147,7 @@ If reservoir pressure exceeds the hydrostatic head of the oil column in the well
 
 **Decline curve**: All wells decline over time as reservoir pressure depletes. Initial production rate may be 100-10,000 bbl/day; after 5-10 years, typical decline to 10-30% of initial rate. The exponential decline curve (q = qᵢ × e^(-Dt), where D is the decline rate) approximates most well behavior.
 
-### Artificial Lift
+## Artificial Lift
 
 When reservoir pressure is insufficient for natural flow, artificial lift methods bring oil to the surface:
 
@@ -217,7 +217,7 @@ When reservoir pressure is insufficient for natural flow, artificial lift method
 
 Primary recovery (natural and artificial lift) typically recovers only 15-30% of the original oil in place (OOIP). EOR methods target the remaining 70-85%.
 
-### Waterflooding (Secondary Recovery)
+## Waterflooding (Secondary Recovery)
 
 Inject water into injection wells to maintain reservoir pressure and physically sweep oil toward production wells. The most widely applied EOR method — used in virtually all major fields after primary depletion.
 
@@ -225,13 +225,13 @@ Inject water into injection wells to maintain reservoir pressure and physically 
 
 **Breakthrough**: Injected water eventually reaches production wells (water breakthrough), and produced fluid becomes increasingly water-cut. A mature waterflood may produce 95% water and 5% oil — still economic if oil price justifies the operating cost of handling large water volumes.
 
-### Thermal Methods (Heavy Oil and Bitumen)
+## Thermal Methods (Heavy Oil and Bitumen)
 
 **Cyclic steam stimulation (CSS)**: Inject steam into a single well for days-weeks. Shut in for soak period (days, allowing heat to diffuse into the reservoir and reduce oil viscosity from ~10⁴-10⁶ cP to ~10-100 cP). Then produce back from the same well. Repeat cycles. Recovery: 15-25% of OOIP. Used extensively in California heavy oil and Venezuelan Orinoco belt.
 
 **Steam flooding**: Continuous steam injection into dedicated injection wells, with oil driven to separate production wells. Recovery: 40-60% of OOIP in suitable reservoirs. Requires ~2-4 barrels of steam (as cold water equivalent) per barrel of oil recovered. Steam generation is the major energy cost — typically burns produced heavy oil or natural gas in boilers.
 
-### Chemical and Miscible Methods (Tertiary Recovery)
+## Chemical and Miscible Methods (Tertiary Recovery)
 
 **CO₂ flooding**: Inject CO₂ (compressed to supercritical or liquid state) into the reservoir. CO₂ dissolves in crude oil, swelling its volume and reducing viscosity. Also achieves miscible displacement — CO₂ and oil become a single phase, eliminating capillary forces that trap oil in pore spaces. Recovery: 10-20% additional OOIP. Requires a CO₂ source (natural CO₂ deposits, power plant flue gas capture, or ammonia plant byproduct). Widely used in the Permian Basin (West Texas).
 
@@ -239,7 +239,7 @@ Inject water into injection wells to maintain reservoir pressure and physically 
 
 ## Safety & Environmental Concerns
 
-### Blowout Prevention
+## Blowout Prevention
 
 A blowout — uncontrolled flow of oil and gas from the well — is the most catastrophic drilling accident. Prevention requires:
 
@@ -248,7 +248,7 @@ A blowout — uncontrolled flow of oil and gas from the well — is the most cat
 - **BOP operation**: Close BOP rams immediately on detecting a kick. Kill the well by pumping heavy mud through the choke line (controlled flow path through the BOP) to overbalance formation pressure.
 - **Well control training**: All drilling crews must be trained in well control procedures. Simulated kick exercises regularly.
 
-### Environmental Protection
+## Environmental Protection
 
 - **Casing and cement**: Proper casing and cementing isolates freshwater aquifers from hydrocarbon-bearing zones. Cement bond logs verify isolation quality.
 - **Drilling waste management**: Drill cuttings and used mud must be contained, treated (solid separation, chemical neutralization), and disposed of properly. OBM cuttings require special handling due to oil content.
@@ -263,6 +263,6 @@ A blowout — uncontrolled flow of oil and gas from the well — is the most cat
 - **Refining**: Extraction provides the crude oil feedstock — [Petroleum Refining](refining.md)
 - **Chemistry alternatives**: Coal tar and fermentation as petroleum-independent paths — [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md)
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Petroleum Extraction & Refining](./index.md) • [All Domains](../index.md)*
+
+[← Back to Petroleum Extraction & Refining](index.md)

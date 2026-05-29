@@ -219,7 +219,6 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 - **Worker visibility**: Road construction crews working alongside live traffic must wear high-visibility garments (fluorescent orange or yellow vests with retroreflective stripes). At night, each worker needs at least 0.1 m² of retroreflective material visible from all directions. Without this, drivers at 60 km/h may not see a worker until 30 m away, leaving less than 2 seconds to react.
 - **Underground utility strikes**: Before excavating, survey for buried utilities (water, gas, electric, telegraph lines). Hand-dig within 1 m of known utility locations. A gas line strike can cause an explosion. An electric cable strike causes electrocution. A water main strike floods the excavation. Utility markings (colored paint on the road surface) indicate horizontal location only, not depth.
 
----
 
 ## Limitations
 

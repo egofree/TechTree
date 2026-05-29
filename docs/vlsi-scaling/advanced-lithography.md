@@ -8,7 +8,7 @@
 > **Outputs**: advanced_lithography, euv_capability, duv_capability
 > **Critical**: Yes — advanced lithography is the primary enabler of feature size scaling below 250 nm
 
-### Advanced Lithography Scaling
+## Advanced Lithography Scaling
 
 **[Contact/proximity printing](../glossary/contactproximity-printing.md)** (Photolithography baseline — features down to ~2-5 μm):
 - Mask contacts or nearly contacts wafer. Simple, but mask damage from contact limits yield. Good enough for early production.
@@ -38,7 +38,7 @@
 - EUV requires 10-mirror reflective optics with <0.1 nm RMS figure accuracy — only one supplier (ASML/Zeiss) worldwide
 - EUV source wall-plug efficiency ~0.01-0.02% — enormous energy cost per exposed wafer
 
-### Stepper and Scanner Mechanical Design
+## Stepper and Scanner Mechanical Design
 
 A modern lithography scanner is one of the most precise machines ever built. The wafer stage must position a 300 mm silicon wafer with nanometer accuracy while moving at 500-700 mm/s.
 
@@ -58,7 +58,7 @@ A modern lithography scanner is one of the most precise machines ever built. The
 - Reticle stage must move 4× faster than wafer stage while maintaining <1 nm synchronization — extreme mechanical demands
 - Heterodyne interferometer positioning requires temperature-stable, magnetically-shielded environment
 
-### Excimer Laser Construction
+## Excimer Laser Construction
 
 Excimer (excited dimer) lasers produce DUV light from gas mixtures that only lase in an excited state. They are the workhorse light source for DUV lithography.
 
@@ -84,7 +84,7 @@ Excimer (excited dimer) lasers produce DUV light from gas mixtures that only las
 - Fluorine gas in the laser mixture is extremely corrosive — requires nickel/alloy discharge tubes and passivated gas handling
 - Gas lifetime only 1-5 million pulses before exchange — frequent maintenance interrupting production
 
-### Immersion Fluid System
+## Immersion Fluid System
 
 At 193 nm (ArF), dry lithography hits a numerical aperture ceiling of ~0.93 due to the maximum practical lens half-angle. Immersion introduces a fluid (ultrapure water) between the final lens element and the wafer, raising NA to 1.35 and enabling ~40 nm half-pitch resolution.
 
@@ -104,7 +104,7 @@ At 193 nm (ArF), dry lithography hits a numerical aperture ceiling of ~0.93 due 
 - Water leaches photoresist components onto the lens — requires topcoat or hydrophobic resist formulations
 - Meniscus must track lens across wafer at 500+ mm/s without bubbles — complex fluid dynamics
 
-### Resolution Enhancement Techniques (RET)
+## Resolution Enhancement Techniques (RET)
 
 Lithography at k₁ < 0.5 (well below the coherent imaging limit of k₁ = 0.5, approaching the theoretical minimum of k₁ = 0.25) requires aggressive optical tricks to print features that the raw lens cannot resolve.
 
@@ -124,7 +124,7 @@ Lithography at k₁ < 0.5 (well below the coherent imaging limit of k₁ = 0.5, 
 - OPC requires full-chip simulation on large compute clusters — significant EDA infrastructure dependency
 - Off-axis illumination improves specific pattern orientations but restricts pattern flexibility — not universally applicable
 
-### Throughput and Cost
+## Throughput and Cost
 
 Lithography is typically the throughput bottleneck and cost driver of a semiconductor fab.
 
@@ -147,7 +147,7 @@ Lithography is typically the throughput bottleneck and cost driver of a semicond
 - EUV scanner at $200-350M is the most expensive single tool in any fab — only justifiable at highest volume
 - Multiple patterning below 38 nm half-pitch doubles/quadruples litho-etch cost per layer
 
-### Hazards & Safety
+## Hazards & Safety
 
 - **F₂ gas (157 nm lithography)**: Molecular fluorine is extremely reactive — etches glass, ignites organic materials on contact, and causes severe chemical burns to lungs and skin. Storage and delivery require passivated nickel or Monel plumbing; no glass or elastomer components in the gas path. F₂ scrubbers (soda-lime or activated alumina) mandatory on all exhaust. Never deployed in volume production partly due to these handling difficulties.
 - **Kr / Ar excimer gas mixtures**: The noble gases (Kr, Ar) with fluorine are asphyxiation risks in confined spaces — they are odorless, colorless, and displace oxygen. Use O₂ monitors in laser rooms; alarm at 19.5 % O₂. Fluorine component adds the reactivity hazards noted above.
@@ -156,7 +156,7 @@ Lithography is typically the throughput bottleneck and cost driver of a semicond
 
 
 
-### EUV Source Technology
+## EUV Source Technology
 
 The EUV light source is the single most complex subsystem in an EUV lithography scanner. Generating 13.5 nm photons at industrial scale required solving problems across plasma physics, high-power lasers, vacuum engineering, and optical collection.
 
@@ -181,7 +181,7 @@ The EUV light source is the single most complex subsystem in an EUV lithography 
 - Wall-plug efficiency ~0.01-0.02% — each watt of EUV at wafer requires 100-200 W of CO₂ laser input
 - Sn debris limits collector mirror lifetime to 3-6 months even with active hydrogen mitigation
 
-### Multiple Patterning Techniques
+## Multiple Patterning Techniques
 
 When single-exposure 193 nm immersion lithography reaches its resolution limit (~38 nm half-pitch with NA = 1.35), multiple patterning extends the technology to smaller features by decomposing a single design layer into two or more mask exposures.
 
@@ -211,7 +211,7 @@ When single-exposure 193 nm immersion lithography reaches its resolution limit (
 - LELE double patterning requires <3 nm overlay between two exposures — extremely demanding alignment
 - SAQP spacer patterns form closed loops requiring cut mask lithography — adds complexity for non-regular layouts
 
-### Mask Making and Inspection
+## Mask Making and Inspection
 
 Photomasks (reticles) are the master patterns from which every wafer is printed. A single mask defect prints on every die on every wafer — mask quality directly determines yield.
 
@@ -237,7 +237,7 @@ Photomasks (reticles) are the master patterns from which every wafer is printed.
 - E-beam mask write time of 10-40 hours per reticle is the throughput bottleneck for mask fabrication
 - EUV mask stack requires 40-50 Mo/Si bilayer pairs with ±0.01 nm thickness control — extreme deposition precision
 
-### Overlay and Edge Placement Error
+## Overlay and Edge Placement Error
 
 Overlay — the accuracy with which each patterned layer aligns to previously patterned layers — is a fundamental scaling limiter. As feature sizes shrink below 20 nm, overlay must improve proportionally, requiring metrology and correction capabilities at the atomic scale.
 
@@ -259,7 +259,7 @@ Overlay — the accuracy with which each patterned layer aligns to previously pa
 - Total EPE budget of ~5 nm at 5 nm node leaves almost zero margin — overlay, CD, and etch must all be near-perfect simultaneously
 - Process-induced distortion from film stress and CMP non-uniformity consumes ±1.5 nm of overlay budget before scanner errors
 
-### Photoresist Chemistry for Advanced Nodes
+## Photoresist Chemistry for Advanced Nodes
 
 Resist materials must satisfy three competing requirements simultaneously: resolution (smallest printable feature), sensitivity (dose needed for exposure — lower is better for throughput), and line-edge roughness (LER — statistical variation in feature edge position). This "RLS trade-off" (Resolution-LER-Sensitivity) is fundamental: improving one typically degrades another.
 
@@ -281,7 +281,7 @@ Resist materials must satisfy three competing requirements simultaneously: resol
 - RLS trade-off is fundamental — improving resolution degrades LER and/or sensitivity simultaneously
 - EUV shot noise at ~5-10 photons per 10 nm pixel causes 10-20% dose variation, directly translating to LER
 
-### DUV Scanner Architecture
+## DUV Scanner Architecture
 
 A DUV scanner integrates optical, mechanical, thermal, and control subsystems into a machine weighing 50-100 tonnes that positions a 300 mm wafer with nanometer precision at 600-700 mm/s scan speed.
 
@@ -308,5 +308,5 @@ A DUV scanner integrates optical, mechanical, thermal, and control subsystems in
 - Lens barrel length ~1-1.5 m with ±0.1 μm spacing tolerance — requires athermalized Invar or carbon-fiber structures
 
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*
+
+[← Back to VLSI Scaling](index.md)

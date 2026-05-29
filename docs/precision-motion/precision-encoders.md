@@ -6,8 +6,17 @@
 > **Outputs**: laser_interferometers, optical_encoders, encoder_feedback_systems
 > **Dependencies**: [Nanometer Positioning](./nanometer-positioning.md), [Optics](../optics/index.md), [Precision Metrology](../measurement/precision-metrology.md)
 > **Enables**: [Wafer Stages & Scanner Systems](./wafer-stages.md), [Vibration Isolation](./vibration-isolation.md)
+> **Critical**: Yes — sub-nanometer position feedback is required for photolithography wafer stages
+
+## Problem
 
 Nanometer positioning stages (see [Nanometer Positioning](./nanometer-positioning.md)) are only as accurate as their position feedback. A piezo stage may have 0.01 nm actuator resolution, but if the position sensor measures to only 10 nm, the effective positioning accuracy is 10 nm. This document covers the encoder and interferometer technologies that close the feedback loop for nanometer-precision motion: optical scale encoders, laser interferometers, and the signal processing that extracts sub-nanometer position from optical measurements.
+
+## Prerequisites
+
+- [Nanometer Positioning](nanometer-positioning.md) — the actuation systems these encoders serve
+- [Optics](../optics/index.md) — optical components and laser sources
+- [Precision Metrology](../measurement/precision-metrology.md) — measurement foundations
 
 ## Optical Linear Encoders
 
@@ -209,21 +218,24 @@ For short-range, ultra-high-resolution position measurement (alternative to enco
 - **Cleanliness**: Encoder scales and interferometer optics are sensitive to contamination. A fingerprint on an encoder scale causes signal dropout. Handle with gloves and clean with isopropanol.
 - **Beam alignment**: Misaligned interferometer beams give incorrect readings. Regular verification with a reference standard is required.
 
-## References
+## Troubleshooting
 
-- Nanometer positioning stages using encoder feedback: [Nanometer Positioning](./nanometer-positioning.md)
-- Wafer stage interferometer configurations: [Wafer Stages & Scanner Systems](./wafer-stages.md)
-- Optical components for encoder systems: [Optical Inspection](../optics/inspection.md)
-- Precision metrology foundations: [Precision Metrology](../measurement/precision-metrology.md)
-- Laser sources: [Optics](../optics/index.md)
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Encoder signal dropout or noise | Contamination on scale or read head | Clean scale and read head with isopropanol; handle with gloves only; check for dust or fingerprints |
+| Interferometer reading drift | Thermal expansion of optics or air path refractive index change | Control ambient temperature to ±0.1°C; compensate for air temperature/pressure/humidity; use common-path optics |
+| Subdivision error (SDE) periodic | Imperfect scale grating or misaligned read head | Realign read head to scale; verify grating quality; run manufacturer calibration routine |
+| Position jumps at direction reversal | Mechanical backlash or hysteresis in stage | Check for loose mechanical coupling; add backlash compensation in controller; verify preload on bearings |
+| Signal loss at high speed | Bandwidth limit of photodetector or interpolation electronics | Reduce traverse speed; upgrade to higher-bandwidth read head; check cable length (signal degradation >3 m) |
+| Interferometer fringes unstable | Vibration or air turbulence in beam path | Improve vibration isolation; enclose beam path; reduce air flow near interferometer |
 
-### See Also
+## See Also
 
-- [Nanometer Positioning](nanometer-positioning.md) — Actuation technologies
-- [Wafer Stages & Scanner Systems](wafer-stages.md) — Lithography stage systems
-- [Vibration Isolation](vibration-isolation.md) — Environmental control
-- [Precision Motion Control](./index.md) — Domain overview
+- [Nanometer Positioning](nanometer-positioning.md) — actuation technologies for precision stages
+- [Wafer Stages & Scanner Systems](wafer-stages.md) — lithography stage systems using encoder feedback
+- [Vibration Isolation](vibration-isolation.md) — environmental control for nanometer precision
+- [Optical Inspection](../optics/inspection.md) — optical components for encoder systems
+- [Precision Metrology](../measurement/precision-metrology.md) — measurement foundations
+- [Precision Motion Control](./index.md) — domain overview
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Precision Motion Control](./index.md) • [All Domains](../index.md)*
+[← Back to Precision Motion Control](index.md)

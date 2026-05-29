@@ -27,7 +27,7 @@ The packaging and testing stage is often the bottleneck for semiconductor produc
 
 **Gloves**: Nitrile rubber (synthetic rubber — acrylonitrile + butadiene copolymer, from Polymers). 0.2-0.3 mm thickness for dexterity. Powder-free (powder contaminates cleanroom). Chlorinated inner surface for easy donning. Tested for pinholes (water-fill test), particle count, extractable ions. Change every 2 hours or when contaminated.
 
-### Semiconductor Packaging
+## Semiconductor Packaging
 
 **Die preparation**:
 - **Wafer backgrinding**: Grind back of completed wafer from ~725 μm to 200-350 μm (thinner die fit in thinner packages, better heat dissipation). Diamond-grit grinding wheel, water coolant. Multi-step: coarse grind (30 μm grit, ~600 μm/min removal) → fine grind (5 μm grit, ~100 μm/min) → polish (1 μm grit). Stress relief etch (brief HF dip to remove grinding damage).
@@ -54,7 +54,7 @@ The packaging and testing stage is often the bottleneck for semiconductor produc
 **Lead forming and finishing**:
 - Trim and form lead frame leads (cut free from frame, bend to required shape — DIP, SOP, QFP lead shapes). Apply solder finish (dip in Sn-Pb or Sn-Ag-Cu solder bath at 230-260°C) for solderability. Mark package top with laser (part number, date code, lot code).
 
-### Testing Infrastructure
+## Testing Infrastructure
 
 **[Wafer probing](../glossary/wafer-probing.md)** (test before packaging):
 - **Probe card**: Printed circuit board or ceramic substrate with precisely positioned probe needles (tungsten-rhenium or beryllium-copper, tip diameter 12-25 μm). Needles aligned to bond pad pattern. 50-500+ needles per card for complex ICs.
@@ -90,7 +90,7 @@ The packaging and testing stage is often the bottleneck for semiconductor produc
 - Wafer probing and parametric test capability
 - Burn-in and final test infrastructure
 
-### Cleanroom Consumables — Detailed Specifications
+## Cleanroom Consumables — Detailed Specifications
 
 **Wipers**: Ultra-low lint wipers made from polyester (knitted, sealed-edge) for ISO Class 1-4 environments, or nonwoven polyester-cellulose blend for ISO Class 5-7. Critical parameters: particles released (ASTM E2090, <50 particles ≥0.5 µm per cm² for Class 10 wipers), non-volatile residue (NVR <1 mg per m²), ionic extractables (<1 ppm Na⁺, K⁺, Cl⁻). Pre-wetted wipers (with IPA/DI water blend) reduce particle generation during wiping. Cost: $0.50-3.00 per wiper.
 
@@ -98,7 +98,7 @@ The packaging and testing stage is often the bottleneck for semiconductor produc
 
 **Chemicals and solvents**: Ultra-pure grades for semiconductor use — "semiconductor grade" or "electronic grade" with specifications tighter than ACS reagent grade. Isopropanol (IPA): <1 ppb each metallic impurity (Fe, Cu, Na, K). Particle specification: <100 particles/mL ≥0.5 µm. Hydrogen peroxide (H₂O₂, 30%): <10 ppb total metallic impurities. Ammonium hydroxide (NH₄OH, 29%): similar metallic specs. These three plus DI water form the "RCA clean" solutions: SC-1 (NH₄OH:H₂O₂:H₂O = 1:1:5) for organic/particle removal; SC-2 (HCl:H₂O₂:H₂O = 1:1:6) for metallic contamination removal.
 
-### Wafer Probing and Test
+## Wafer Probing and Test
 
 **Probe cards**: Interface between automated test equipment (ATE) and the wafer — an array of fine needles (tungsten-rhenium or cantilever-style) that make electrical contact to bond pads (50-100 µm aluminum pads) on each die. Modern probe cards use MEMS technology for fine-pitch probing (<50 µm pad pitch). Contact resistance must be <1 Ω per probe. Probe marks on pads must be small enough not to interfere with subsequent wire bonding — typically <25 µm diameter mark. Probe cards are the most expensive consumable in wafer test ($5,000-50,000 each, lifetime 100,000-1,000,000 touchdowns).
 
@@ -106,7 +106,7 @@ The packaging and testing stage is often the bottleneck for semiconductor produc
 
 **Automated test equipment (ATE)**: Tester applies test patterns (input stimuli) and measures output responses. Timing accuracy: ±50-100 ps for high-speed digital. Parametric measurement units (PMUs) force voltage/measure current (or force current/measure voltage) with picoamp resolution. Test programs generated from design simulation vectors — "design for test" (DFT) structures like scan chains and built-in self-test (BIST) embedded in the chip during design enable comprehensive testing with reasonable test time.
 
-### Reliability Testing
+## Reliability Testing
 
 **Accelerated life testing**: Devices stressed beyond normal operating conditions to predict lifetime. Arrhenius model: failure rate doubles for every 10°C temperature increase. Typical acceleration: operating at 125°C for 1000 hours ≈ equivalent to 10+ years at 55°C use temperature.
 
@@ -114,7 +114,7 @@ The packaging and testing stage is often the bottleneck for semiconductor produc
 
 **Failure analysis techniques**: (1) **[Optical microscopy](../glossary/optical-microscopy.md)** and **[SEM](../glossary/sem.md)** for visual inspection. (2) **[Acoustic microscopy](../glossary/acoustic-microscopy.md)** (C-SAM) for delamination and void detection — non-destructive. (3) **Decapsulation**: acid (fuming HNO₃ or H₂SO₄) or laser to remove package molding compound and expose die for analysis. (4) **FIB (focused ion beam)**: cross-section specific features for SEM inspection, or cut circuit traces for circuit edit. (5) **EMMI (emission microscopy)**: detects photon emission from defective transistors (hot carrier luminescence, avalanche breakdown). (6) **OBIRCH (optical beam induced resistance change)**: laser scanning detects thermal response changes — localizes shorts and leakage paths.
 
-### Reliability Standards
+## Reliability Standards
 
 **[JEDEC](../glossary/jedec.md)** standards define test methods and acceptance criteria: JESD22 (test methods), JESD47 (stress-test-driven qualification), JESD74 (early life failure rate). **[AEC-Q100](../glossary/aec-q100.md)** for automotive electronics: more stringent than JEDEC — temperature range -40 to +150°C (Grade 0), zero defects philosophy, additional tests (electromigration, soft error rate). **[MIL-STD-883](../glossary/mil-std-883.md)** for military/space: even more stringent — radiation testing (total ionizing dose, single event effects), outgassing testing (ASTM E595, <1% total mass loss, <0.1% collected volatile condensable materials for spacecraft materials).
 

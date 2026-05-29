@@ -8,6 +8,36 @@
 > **Outputs**: livestock, breeding_stock, manure, dairy, meat, eggs
 > **Critical**: Yes — foundation node enabling all livestock and poultry species
 
+## Problem
+
+Domestication converts wild fauna into reliable, renewable sources of labor, food, fiber, and materials. Before domestication, humans rely entirely on hunting and gathering — protein intake is unpredictable, labor is limited to human muscle, and fiber comes only from wild plants. Domesticated animals provide continuous output: daily milk, annual fleece, seasonal offspring, steady draft power, and manure that sustains crop yields. A single dairy cow produces 3,000–6,000 liters of milk per year — equivalent to the protein from dozens of wild game animals, without the uncertainty of the hunt.
+
+Without livestock you cannot plow: hand-digging limits farms to 0.5–1 hectare per family; ox-plowed farms reach 5–10 hectares. You cannot produce milk or dairy — the most efficient conversion of pasture to human-edible calories. You cannot source wool or leather from managed herds (hunt-based supply is seasonal and unreliable). You cannot maintain soil fertility — without manure, yields decline 2–5% per year under continuous cropping. You cannot produce eggs — the highest feed-to-protein conversion ratio of any food animal. You cannot transport goods beyond human carrying capacity. Without livestock, settlements remain small, farms remain limited, and surplus production is impossible.
+
+Domestication is not a one-time event. It requires continuous daily management — feeding, watering, health monitoring, breeding, shelter maintenance — for the lifetime of the herd. A dairy cow produces for 5–10 lactations but needs milking every day during each 305-day lactation. Sheep need shearing annually. Fences need repair after every storm. This daily obligation is the price of the steady output that livestock provide.
+
+## Prerequisites
+
+- **Materials**: [Fencing materials](../construction/index.md) (timber posts, split rails, or stone for walls), [straw bedding](../plants/fiber-plants.md) (2–5 kg/day per large animal), [stored hay or silage](../foundations/food-agriculture.md) (1.2–1.8 tonnes per cattle beast for 120-day winter), [grain](../foundations/food-agriculture.md) for working animals and supplements (oats, barley, corn), [clean water](../foundations/index.md) source (40–80 L/day per cattle beast, 4–10 L/day per sheep)
+- **Tools**: [Axes and saws](../machine-tools/index.md) for fence construction, [rope and harness](../textiles/rope-making.md) for leading and restraint, [pitchforks and wheelbarrows](../machine-tools/index.md) for mucking, [milking equipment](./index.md) (pails, stools, udder cloths), [ear tags or notching tools](./index.md) for identification, [hoof trimmers](./index.md) and [shears](./index.md) for sheep
+- **Knowledge**: Animal behavior and flight zone (understanding stress-free handling), breeding cycles and estrus detection for each species, nutritional requirements by life stage (growth, lactation, pregnancy, work), common diseases and vaccination schedules, pasture management and rotational grazing principles
+- **Infrastructure**: Secure fencing (post-and-rail, stone wall, or hedgerow — minimum 1.2 m for cattle, 1.0 m for sheep), shelter with dry bedding and ventilation, clean water delivery (troughs or piped spring), feed storage (hay barn, grain silo, or rodent-proof bins), quarantine enclosure at least 15 m from main herd
+
+## Bill of Materials — Minimum Viable Homestead Livestock (5 species)
+
+| Item | Specification | Quantity | Notes |
+|------|--------------|----------|-------|
+| Breeding cattle (1 bull + 3 cows) | 400–800 kg each, mixed ages | 4 head | 283-day gestation; first calves at 2–3 years |
+| Breeding sheep (1 ram + 6 ewes) | 80–120 kg each | 7 head | 147-day gestation; twins are the management target |
+| Breeding goats (1 buck + 3 does) | 30–80 kg each | 4 head | 150-day gestation; 2–3 kids per birth common |
+| Breeding pigs (1 boar + 2 sows) | 150–250 kg each | 3 head | 114-day gestation; 8–12 piglets per litter |
+| Laying hens (hens + 1 cockerel per 10) | 1.5–4.5 kg each | 20 hens + 2 cockerels | 200–300 eggs/hen/year; replace flock every 2–3 years |
+| Fencing (post-and-rail) | Timber posts + split rails, 1.2–1.5 m high | 400–600 m | Encloses ~1 hectare at 400 m perimeter; add internal divisions for rotation |
+| Winter hay | Sun-dried at early heading, baled or loose | 8–12 tonnes | 3 cattle × 1.5 t + 7 sheep × 0.4 t + 4 goats × 0.3 t + 15% buffer |
+| Grain supplement | Oats, barley, or cracked corn | 500–1000 kg | For working oxen, lactating cows, and poultry through winter |
+| Shelter (3-sided shed) | Timber frame, thatch or shingle roof, 3–4 m² per cattle beast | 50–60 m² floor area | Separate areas for cattle, small ruminants, and poultry |
+| Water trough | Wood or stone, 100–200 L capacity | 2–3 units | Clean, fresh water daily; freeze-proof in winter |
+
 ### Overview
 
 Animal domestication converts wild fauna into reliable, renewable sources of labor, food, fiber, and materials. Fifteen primary farmed species — eight mammalian livestock, seven poultry, plus insects — form the core of any pre-industrial animal husbandry system. Each fills a distinct niche in the settlement ecology, from traction power and milk production to waste conversion and pest control.
@@ -128,6 +158,21 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 **Autumn**: Breeding season for sheep and goats (shortening daylight triggers estrus). Flush ewes (increase nutrition 2-3 weeks before breeding) to increase ovulation rate and twinning percentage. Pregnancy-check cattle 40-60 days post-breeding. Cull open (non-pregnant) females and low producers. Stockpile feed: test hay quality, calculate winter feed budget (multiply daily needs by 120-150 winter days, add 15% buffer). Treat all livestock for internal parasites before housing. Shore up fencing and repair shelters. Harvest root crops for winter feed. Wean lambs and kids.
 
 **Winter**: Feed stored forage (hay, silage, root crops). Cattle require 10-15 kg hay/day; sheep 1.5-2.5 kg/day; horses 8-15 kg/day. Provide windbreaks; effective temperature drops 1°C per 1 km/h wind speed above 8 km/h. Increase grain supplementation for working animals and pregnant females in the last trimester. Break ice on water troughs twice daily. Monitor body condition: dairy cows should maintain body condition score 2.5-3.0 on a 5-point scale; ribs should be palpable but not visible. Difficult births increase by 30-50% in under-conditioned females. Keep poultry houses above 0°C with deep bedding; egg production declines below 12°C daylight hours without supplemental light.
+
+## Troubleshooting — Common Livestock Problems
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Cow not coming into estrus (anestrus) | Poor body condition (BCS <2.0 on 5-point scale); mineral deficiency (phosphorus, selenium); cystic ovaries | Improve nutrition — increase energy intake 10–15% above maintenance; supplement phosphorus (bone meal or dicalcium phosphate at 50–100 g/day); veterinary exam for ovarian cysts |
+| Calf scours (diarrhea in neonates) | Inadequate colostrum; E. coli or rotavirus infection; cold, wet conditions | Ensure colostrum within 6 hours of birth; isolate scouring calves; oral electrolyte solution (NaCl 4 g + KCl 1 g + glucose 40 g per 2 L water, fed warm); clean and dry bedding |
+| Bloat in cattle on legume pasture | Rapid fermentation of clover/alfalfa produces trapped gas in rumen | Transition animals to legume pasture gradually over 7–10 days; provide dry hay before turnout; in emergency: pass stomach tube to release gas, or trocar (puncture) left flank at the triangle between hip, last rib, and transverse processes |
+| Sheep losing condition despite adequate pasture | Internal parasites (Haemonchus, Ostertagia); trace mineral deficiency (cobalt, copper) | Fecal egg count to confirm parasites; dose with anthelmintic; move to clean pasture after treatment; supplement trace minerals via loose mineral lick |
+| Pigs fighting and tail-biting | Overcrowding; boredom; inadequate feed or water; drafts | Provide minimum 0.7 m² per grower pig; add chains, straw, or objects for enrichment; ensure continuous access to feed and water; eliminate drafts |
+| Egg production drop in hens | Reduced daylight (<14 hours); molting; inadequate calcium; disease | Provide 14–16 hours light (artificial supplementation in winter); supplement calcium (crushed oyster shell ad lib); check for parasites and respiratory disease |
+| Horses losing weight in winter | Insufficient energy intake; dental problems (hooks, waves); internal parasites | Increase hay to 2–2.5% of body weight; check teeth and float (file) sharp points if needed; deworm; provide windbreak shelter |
+| Lame sheep (foot rot) | Bacterial infection (Fusobacterium) in wet conditions | Trim affected hooves; walk sheep through 5–10% copper sulfate foot bath; move to dry pasture; cull chronically affected animals |
+| Abortion storm in sheep (multiple ewes aborting) | Toxoplasmosis (cat feces in feed); Campylobacter; listeriosis from spoiled silage | Keep cats away from feed stores; feed only well-fermented silage (pH <4.5); vaccinate breeding ewes for campylobacter and toxoplasmosis where available; isolate aborting ewes immediately |
+| Predation losses (lambs, kids, poultry) | Inadequate fencing; no guard animals; night exposure | Install guard dogs (2–3 per 100 sheep); house poultry in predator-proof coop at night; repair fence gaps; remove carrion that attracts predators |
 
 ### Handling and Health
 

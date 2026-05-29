@@ -8,9 +8,15 @@
 > **Outputs**: sodium_carbonate, sodium_bicarbonate, calcium_chloride
 > **Critical**: Yes — the Solvay process is the most efficient route to soda ash (Na₂CO₃), which is required for glass manufacturing, detergent production, and as a chemical feedstock for NaOH production via causticization.
 
-## Overview
+## Problem
 
 The Solvay process produces sodium carbonate (soda ash, Na₂CO₃) from brine (NaCl) and limestone (CaCO₃) using ammonia as a recyclable catalyst. Soda ash is the workhorse alkaline chemical for glass making, soap production, water softening, and chemical synthesis. The process superseded the Leblanc method industrially due to lower cost and fewer toxic byproducts.
+
+## Prerequisites
+
+- [Ammonia Production](ammonia.md) — Haber-Bosch process supplying the 1-2 kg/tonne NH₃ makeup
+- [Mining / Processing](../mining/processing.md) — limestone quarrying and brine extraction
+- [Alkali Production](alkalis.md) — broader context including Leblanc process and causticization
 
 ## Process Chemistry
 
@@ -213,16 +219,25 @@ The key innovation was the closed ammonia loop — previous attempts at ammonia-
 
 **Sesquicarbonate route**: In some natural deposits, sodium sesquicarbonate (Na₂CO₃·NaHCO₃·2H₂O, trona) is mined directly. Trona is calcined at 150-200°C to produce soda ash: 2(Na₂CO₃·NaHCO₃·2H₂O) → 3Na₂CO₃ + 5H₂O + CO₂. The Green River formation in Wyoming (USA) contains an estimated 127 billion tonnes of trona — enough for thousands of years of production at current rates. Trona mining eliminates the need for the Solvay process entirely where deposits exist.
 
-## Cross-Domain Links
+## Troubleshooting
 
-- **[Alkali Production](alkalis.md)**: broader context including Leblanc process, causticization, and potash
-- **[Ammonia Production](ammonia.md)**: Haber-Bosch process supplying the 1-2 kg/tonne NH₃ makeup
-- **[Acids & Bases](./acids-bases.md)**: soda ash as a key industrial base
-- **[Lime Chemistry](alkalis.md)**: lime kiln design, slaking, and the lime cycle
-- **[Glass Making](../glass/basic.md)**: Na₂CO₃ as flux lowering SiO₂ melting point from 1710°C to ~1000°C
-- **[Soap Production](alkalis.md)**: Na₂CO₃ for water softening and as NaOH feedstock
-- **[Electrolysis](electrolysis.md)**: alternative route to NaOH via chlor-alkali process
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Low NaHCO₃ precipitation yield | CO₂ concentration too low or temperature too high | Increase CO₂ gas flow; cool carbonation tower to 25-30°C; check for leaks in CO₂ delivery |
+| Ammonia losses exceeding 2 kg/tonne | Leaks in ammonia recovery still or absorber | Pressure-test ammonia circuit; check condenser cooling water flow; repair valve seals |
+| CaCl₂ waste disposal issues | Accumulation of calcium chloride in effluent | Crystallize CaCl₂ for road de-icing use; evaporate to solid for landfill; explore Hou process co-product route |
+| Crude soda ash discolored (gray/brown) | Iron or organic impurities in brine | Pre-treat brine with settling and filtration; add bleach oxidation step; use purified brine source |
+| Scaling in carbonation tower | NaHCO₃ crystallizing on tower walls | Maintain proper temperature gradient; periodic acid wash; control supersaturation with residence time |
+| Low NH₃ absorption in brine | Brine temperature too high or NH₃ concentration low | Cool brine to 25-30°C before absorber; check NH₃ compressor output; verify absorber tower packing |
 
----
+## See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+- [Alkali Production](alkalis.md) — broader context including Leblanc process, causticization, and potash
+- [Ammonia Production](ammonia.md) — Haber-Bosch process supplying NH₃ makeup
+- [Acids & Bases](acids-bases.md) — soda ash as a key industrial base
+- [Glass Making](../glass/basic.md) — Na₂CO₃ as flux lowering SiO₂ melting point from 1710°C to ~1000°C
+- [Soap Production](soap.md) — Na₂CO₃ for water softening and as NaOH feedstock
+- [Electrolysis](electrolysis.md) — alternative route to NaOH via chlor-alkali process
+- [Lime Chemistry](alkalis.md) — lime kiln design, slaking, and the lime cycle
+
+[← Back to Chemistry](index.md)

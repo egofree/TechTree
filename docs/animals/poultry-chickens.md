@@ -3,12 +3,12 @@
 > **Node ID**: animals.poultry.chickens
 > **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.poultry`](poultry.md), [`animals.insect-farming`](insect-farming.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`food-processing`](../food-processing/index.md), [`agriculture.soil-management`](../agriculture/soil-management.md)
 > **Timeline**: Years 0-5
 > **Outputs**: eggs, chicken_meat, feathers, manure
 > **Critical**: Yes — gateway livestock for settlement food systems; lowest barriers to entry of any domestic animal
 
-### Overview
+## Problem
 
 Chickens are the most widely kept poultry species worldwide, descended from the red junglefowl (*Gallus gallus*) of Southeast Asia. Domesticated approximately 8,000 years ago, chickens provide eggs, meat, feathers, and manure with relatively modest infrastructure requirements. A small flock of 10-20 hens supplies a household with 15-30 eggs per week while producing nitrogen-rich manure (1.5% N — the highest of any common livestock) for garden fertility. Chickens are the gateway livestock for settlement food systems: they accept a wide range of feeds, reproduce readily, reach slaughter weight quickly, and require no specialized butchering equipment.
 
@@ -219,6 +219,24 @@ The hen-to-human ratio for self-sufficiency is approximately 2-3 hens per person
 A well-managed 25-hen flock also produces 500-700 kg of nitrogen-rich manure per year, fertilizing 100-350 m² of intensive vegetable production and closing the nutrient loop between livestock and crop production in the settlement food system.
 This integration of egg, meat, and fertilizer production from a single species with minimal infrastructure makes chickens the cornerstone of any settlement's livestock strategy.
 
----
+## Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Hens stop laying | Insufficient light (<14 hrs), molt, or stress | Provide supplemental light (14-16 hrs/day); allow molt to complete (6-8 weeks); reduce stress |
+| Egg eating | Nutritional deficiency or broken egg habit | Provide oyster shell supplement; collect eggs frequently; darken nest boxes; cull persistent offenders |
+| Feather pecking / cannibalism | Overcrowding, boredom, or protein deficiency | Increase space (min 0.4 m²/bird indoors); provide forage/scratch; ensure 16% protein feed |
+| Respiratory disease (sneezing, swelling) | Poor ventilation or infectious coryza | Improve coop ventilation (ammonia <10 ppm); isolate sick birds; treat with appropriate medication |
+| Predation (missing birds) | Inadequate fencing or open pop hole at night | Secure run with hardware cloth apron; close pop hole at dusk; install automatic door |
+| Mites/lice | Infestation from wild birds or gaps in housing | Dust with diatomaceous earth; treat coop with permethrin spray; seal roost gaps |
+
+## See Also
+
+- [Poultry Overview](poultry.md) — all poultry species comparison
+- [Insect Farming](insect-farming.md) — insect meal as supplemental feed
+- [Food Processing](../food-processing/index.md) — egg and meat preservation
+- [Agriculture / Soil Management](../agriculture/soil-management.md) — chicken manure as fertilizer
+- [Domestication](domestication.md) — poultry domestication history
+- [Rabbits](rabbits.md) — alternative small-scale protein source
+
+[← Back to Animals](index.md)

@@ -1,10 +1,12 @@
 # SEM Tech Lithium Separation: Selective Ion Recovery
 
-> **Node ID**: chemistry.lithium-separation
-> **Domain**: Chemistry
+> **Node ID**: chemistry.sem-tech-lithium-separation
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.sem-tech`](sem-tech.md), [`chemistry.sem-tech-electrodialysis`](sem-tech-electrodialysis.md)
+> **Enables**: [`metals.battery-materials`](../metals/index.md)
 > **Timeline**: Years 25-40
 > **Outputs**: lithium_compounds
-> **Tags**: materials=[chemicals, polymers], era=industrial
+> **Critical**: No — lithium separation supports battery manufacturing but is downstream of core chemical capabilities
 
 The low-cost ion exchange membranes developed by SEM Tech (see [SEM Tech](sem-tech.md)) enable selective lithium ion separation as a downstream application of the membrane platform. The SEM Tech patent describes a microporous ion-selective separator configured for lithium separation — blocking larger sodium ions while allowing lithium passage (patent line 107). Electrodialysis (see [SEM Tech Electrodialysis](sem-tech-electrodialysis.md)) is the primary mechanism by which this selective transport is achieved at scale.
 
@@ -34,6 +36,10 @@ The SEM Tech patent (line 107) specifically mentions a "microporous ion selectiv
 **Key mechanism**: The microporous separator exploits differences in hydrated ionic radius. While bare Li⁺ is smaller than Na⁺, the hydrated lithium ion (Li⁺·nH₂O) is actually larger due to its higher charge density attracting a stronger hydration shell. A membrane with appropriately sized pores and selective functional groups can preferentially transport Li⁺ while blocking Na⁺, K⁺, and Mg²⁺.
 
 **Membrane manufacturing**: The standard SEM Tech process applies — pulverize specialized ion exchange resin beads, mix with PVC/CPVC binder in solvent, cast, dry. Resin selection and loading would be tuned for lithium selectivity rather than general cation transport. The patent's embodiment list (line 104-107) includes coatings on electrodes and microporous ion-selective separators alongside rare-earth and platinum group metal resins, placing lithium separation within the same tunable membrane framework.
+
+**Strengths**: Electrodialysis-based lithium extraction is continuous (vs months-long evaporation ponds); exploits hydrated radius difference between Li⁺ and Na⁺ for selectivity; SEM Tech membrane cost enables economic viability; applicable to both primary brine extraction and battery recycling streams; tunable resin loading allows optimization for specific brine chemistries.
+
+**Weaknesses**: Lithium-selective SEM Tech membranes are claimed in patent but NOT yet experimentally demonstrated; Li⁺/Na⁺ selectivity is extremely challenging (similar ionic properties); high Mg²⁺/Li⁺ ratios in South American brines complicate separation; membrane fouling by organic and colloidal matter in natural brines; competitive with well-established evaporation pond technology that has near-zero energy cost.
 
 **Relationship to electrodialysis**: The selective membrane alone does not perform separation — it requires an electric field to drive ion transport. Electrodialysis (see [SEM Tech Electrodialysis](sem-tech-electrodialysis.md)) provides this framework, using stacked membrane pairs between electrodes to continuously move target ions from a feed stream into a concentrate stream.
 
@@ -298,4 +304,4 @@ The lithium separation system depends on several upstream capabilities. The PVC/
 ---
 
 
-*Part of the [Bootciv Tech Tree](../index.md) | [Chemistry](./index.md) | [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

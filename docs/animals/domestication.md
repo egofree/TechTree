@@ -1,13 +1,12 @@
 # Livestock Domestication & Husbandry
 
 > **Node ID**: animals.domestication
-> **Dependencies**: `animals`
+> **Domain**: [Animals](./index.md)
+> **Dependencies**: [`foundations.tools-basic`](../foundations/tools-basic.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
 > **Enables**: [`animals.animal-materials`](animal-materials.md), [`animals.cattle`](cattle.md), [`animals.draft-power`](draft-power.md), [`animals.equines`](equines.md), [`animals.goats`](goats.md), [`animals.insect-farming`](insect-farming.md), [`animals.pest-management`](pest-management.md), [`animals.pigs`](pigs.md), [`animals.sericulture`](sericulture.md), [`animals.sheep`](sheep.md)
-> **Era**: Stone-age
-> **Parent**: animals
-> **Status**: Critical
 > **Timeline**: Years 1-30+
 > **Outputs**: livestock, breeding_stock, manure, dairy, meat, eggs
+> **Critical**: Yes — foundation node enabling all livestock and poultry species
 
 ### Overview
 
@@ -197,6 +196,4 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 
 ---
 
-*Part of the [Animals Domain](index.md) • [All Domains](../index.md)*
-
-[← Back to Animals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

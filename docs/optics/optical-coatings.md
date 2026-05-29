@@ -11,7 +11,7 @@
 
 Every air-glass interface reflects a portion of incident light. For uncoated glass (refractive index n ≈ 1.5), Fresnel reflection at normal incidence is approximately 4% per surface ((n-1)/(n+1))² = (0.5/2.5)² = 0.04). A simple camera lens with 4 elements (8 air-glass surfaces) transmits only ~72% of entering light — 28% is lost to reflections. These reflections also cause ghost images, flare, and reduced contrast.
 
-Anti-reflection (AR) coatings reduce surface reflections, increasing light transmission and image quality. Reflective coatings maximize mirror reflectivity for telescopes, beam delivery, and illumination systems. Both are essential for precision optical instruments.
+Anti-reflection (AR) coatings reduce surface reflections, increasing light transmission and image quality. Reflective coatings maximize mirror reflectivity for telescopes, beam delivery, and illumination systems. Both are essential for [precision instruments](precision-instruments.md).
 
 ### Vacuum Deposition Fundamentals
 
@@ -30,9 +30,22 @@ Optical coatings are applied by **[thermal evaporation](../glossary/thermal-evap
 5. **Deposit**: Open shutter. Heat source material to evaporation temperature. Vapor travels upward and condenses on substrate surfaces. Monitor thickness in real-time. Close shutter when target thickness is reached.
 6. **Cool and vent**: Allow substrates to cool (10-20 minutes) before venting chamber. Rapid cooling can cause thermal stress cracking in the coating. Vent with dry nitrogen if available (prevents moisture condensation on fresh coating).
 
+**Strengths**:
+- Equipment is buildable from basic vacuum components — no ion sources, RF generators, or precision magnetrons required
+- Wide range of coating materials can be evaporated: metals (Al, Au, Ag), fluorides (MgF₂), and oxides (SiO₂ at higher temperature)
+
+**Weaknesses**:
+- Porous, columnar film microstructure absorbs moisture over time, shifting optical properties (refractive index drifts upward by 1-3%)
+- Poor step coverage — films are thin on vertical surfaces, causing defects on non-planar substrates
+
 ### Anti-Reflection Coating: Single-Layer MgF₂
 
 **Principle**: A single thin layer of magnesium fluoride (MgF₂) on a glass surface reduces reflection by destructive interference. Light reflected from the air-MgF₂ interface and the MgF₂-glass interface travel different optical path lengths. At the target wavelength, these reflected waves are exactly out of phase (180° difference) and cancel each other.
+
+**Materials**:
+- Magnesium fluoride (MgF₂) powder, 99.99% purity, grain size <100 μm
+- Tungsten boat (0.1-0.3 mm thick, folded "V" shape, 50-80 mm long)
+- Source-to-substrate distance: 250-400 mm
 
 **Design parameters**:
 - **Material**: Magnesium fluoride (MgF₂), refractive index n ≈ 1.38. This is between air (n = 1.0) and glass (n ≈ 1.5), which is necessary — the intermediate index ensures the two reflected waves have comparable amplitudes (necessary for effective cancellation).
@@ -45,9 +58,22 @@ Optical coatings are applied by **[thermal evaporation](../glossary/thermal-evap
 - Wavelength dependence: optimal at the design wavelength, less effective at shorter and longer wavelengths. Reflection increases to ~2% at the extremes of the visible spectrum (400 nm and 700 nm). This residual reflection gives coated lenses a characteristic purple/violet tint (reflected light peaks at wavelengths where coating is less effective — blue and red).
 - Limitation: single-layer MgF₂ is adequate for BK7-type glass (n ≈ 1.52) but less effective for high-index glass (n > 1.7), where the index mismatch between MgF₂ and glass is larger. Multi-layer coatings (2-7+ layers of alternating high and low index materials) achieve <0.5% reflection across the full visible band but require precise thickness control and multiple deposition steps.
 
+**Strengths**:
+- Single material, single layer — simplest possible AR coating, requiring one deposition step
+- MgF₂ is mechanically hard (Mohs 5-6), providing durable scratch resistance compared to softer coatings
+
+**Weaknesses**:
+- Residual ~1.3% reflection per surface — insufficient for multi-element lens systems where 8+ surfaces compound losses
+- Wavelength-dependent performance: reflection dips to 1.3% only at the 550 nm design wavelength; rises to ~2% at spectrum edges
+
 ### Mirror Coating: Aluminum
 
 **Principle**: Evaporate a thin layer of pure aluminum onto a polished glass (or other) substrate. The aluminum layer, typically 80-150 nm thick, forms a highly reflective metallic surface.
+
+**Materials**:
+- High-purity aluminum wire (99.99%), 0.5-1.0 mm diameter, coiled in tungsten basket
+- Tungsten basket (0.3 mm wire, 15-20 mm diameter)
+- Substrate: optically polished glass, surface quality λ/10 or better (errors < 55 nm peak-to-valley at λ = 550 nm)
 
 **Deposition**:
 - **Source**: High-purity aluminum wire (99.99%) coiled in a tungsten basket or boat. Aluminum melts at 660°C and evaporates rapidly at ~1200°C.
@@ -58,6 +84,14 @@ Optical coatings are applied by **[thermal evaporation](../glossary/thermal-evap
 - **Fresh aluminum**: ~92% reflectivity across the visible spectrum (400-700 nm). Relatively uniform — aluminum is a broadband reflector, unlike silver which varies more across wavelengths.
 - **Protective overcoat**: Bare aluminum oxidizes quickly in air, forming a thin (2-5 nm) Al₂O₃ layer. This native oxide stabilizes the surface and is transparent, so it does not significantly reduce reflectivity. For enhanced protection (against abrasion and chemical attack), apply a quarter-wave layer of SiO₂ (silicon dioxide) over the aluminum. The SiO₂ overcoat extends mirror life significantly with minimal reflectance loss (<1%).
 - **Comparison with silver**: Silver has higher peak reflectivity (~95% at 550 nm) but tarnishes rapidly in air (sulfide formation, turning dark). Aluminum is preferred for general-purpose mirrors due to its stability and ease of application. Silver requires a protective overcoat (SiO₂, MgF₂, or Al₂O₃) and is used where maximum reflectivity is critical.
+
+**Strengths**:
+- ~92% broadband reflectivity across the full visible spectrum — usable from UV (down to ~200 nm) through visible
+- Native Al₂O₃ oxide passivates the surface, providing long-term stability without protective coatings for moderate environments
+
+**Weaknesses**:
+- 92% reflectivity is lower than silver (~95%) and protected-silver coatings (~97%), losing 8% of incident light per reflection
+- Aluminum is soft (Mohs 2-3) — bare coatings scratch easily during cleaning; SiO₂ overcoat is needed for durability
 
 ### Thickness Monitoring
 
@@ -75,6 +109,14 @@ Precise control of coating thickness is essential — the difference between a f
 - As coating thickness increases, the optical signal oscillates (constructive/destructive interference). The signal passes through extrema (maxima or minima) at each quarter-wave thickness increment.
 - Advantages: directly measures optical thickness (what matters for coating function), insensitive to temperature. Disadvantage: requires optical access through viewport and more complex setup.
 
+**Strengths**:
+- QCM provides real-time, quantitative thickness readout with ±1-2 nm accuracy — sufficient for single-layer AR coatings
+- Optical monitoring directly measures the optical property of interest (reflectance/transmittance), avoiding material-dependent calibration errors
+
+**Weaknesses**:
+- QCM crystals degrade with accumulated coating mass and must be replaced every 10-20 depositions
+- Optical monitoring requires optical access through the chamber (viewport) and is difficult to implement for complex multi-layer stacks
+
 ### Coating Defects and Troubleshooting
 
 - **Pinholes**: Small uncoated spots caused by dust on the substrate or spitting from the evaporation source. Prevent by thorough substrate cleaning and pre-melting source material with shutter closed. Pinholes scatter light and reduce coating performance.
@@ -83,11 +125,23 @@ Precise control of coating thickness is essential — the difference between a f
 - **Stress cracking**: Coating cracks after removal from vacuum. Caused by excessive thermal stress (substrate too hot during deposition) or intrinsic stress in the film. MgF₂ tends toward compressive stress; aluminum has tensile stress. Control deposition rate and substrate temperature.
 - **Haze/scattering**: Coated surface appears foggy rather than clear. Caused by porous film (deposited at too high a chamber pressure), or by micro-particles from a dirty chamber. Clean chamber regularly. Ensure adequate base pressure before deposition.
 
+### Coating Performance Summary
+
+| Coating Type | Layers | Thickness (nm) | Reflection (%) | Bandwidth | Durability |
+|---|---|---|---|---|---|
+| Bare glass | 0 | 0 | 4.0 per surface | Broad | N/A |
+| Single-layer MgF₂ | 1 | ~100 | 1.3 at 550 nm | Moderate | Good (Mohs 5-6) |
+| V-coat (2-layer) | 2 | ~200 total | <0.2 at design λ | Narrow (±20 nm) | Good |
+| Broadband AR (4-layer) | 4 | ~400 total | <0.25 across 400-700 nm | Broad | Moderate |
+| Bare aluminum | 1 | 80-150 | ~92 across 400-700 nm | Broad | Poor (soft) |
+| Protected aluminum (Al+SiO₂) | 2 | 100+80 | ~91 across 400-700 nm | Broad | Good |
+| Dielectric mirror (HL)⁵H | 11 | ~1500 total | >99.5 at design λ | ±90 nm | Excellent |
+
 ### Safety & Hazards
 
 - **Vacuum chamber implosion**: Glass bell jars and vacuum chambers under vacuum can collapse violently if cracked or chipped. Wrap glass bell jars with tape or mesh for fragmentation retention. Inspect for chips, scratches, and star cracks before every use — never use damaged glassware under vacuum. Metal chambers are preferred for safety. Wear face shield when pumping down or venting.
 - **Hot evaporation sources**: Tungsten boats and baskets operate at 1200-2000°C during deposition — glowing yellow-white. Severe thermal burns on contact. Allow sources to cool fully (10-20 minutes) before opening chamber. Handle boats with tongs during loading and unloading.
-- **Toxic coating materials**: MgF₂ dust is moderately toxic if inhaled (fluoride compounds affect bone and kidneys). Handle powder source material with gloves and dust mask. Avoid generating dust. Aluminum is lower hazard but fine powder is a fire and inhalation risk.
+- **Toxic coating materials**: MgF₂ dust is moderately toxic if inhaled (fluoride compounds affect bone and kidneys at chronic doses >3 mg/day). Handle powder source material with N95 or better respirator and nitrile gloves. Avoid generating dust. Aluminum is lower hazard but fine powder is a fire and inhalation risk.
 - **Vacuum pump fluids**: Diffusion pumps use silicone or hydrocarbon oil that can backstream into the chamber and contaminate coatings. Use a cold trap (liquid nitrogen or chilled baffle) between pump and chamber. Diffusion pump oil is hot during operation (~200°C) — thermal burn risk if pump is opened while hot.
 - **Electrical hazards**: Evaporation sources carry high current (10-50 A) at low voltage (3-10 V) from a heavy-duty power supply. The current is sufficient to cause severe burns or fire if cables short. Insulate all connections. Use properly rated cables and connectors. Interlock the chamber door to cut power when opened.
 
@@ -100,10 +154,26 @@ Single-layer MgF₂ reduces reflection to ~1.3% at one wavelength. Multi-layer c
 - Performance: <0.2% reflection at the design wavelength. But the bandwidth is narrow — reflection rises steeply on either side. Useful for monochromatic systems (laser optics, narrowband sensors) where performance at one wavelength is paramount.
 - Deposition: two sequential evaporation steps without breaking vacuum. Deposit Al₂O₃ first (sublimes from tungsten boat at ~1800°C), then MgF₂. The quartz crystal monitor tracks each layer independently.
 
+**Strengths**:
+- <0.2% reflection at design wavelength — nearly perfect transmission for monochromatic systems
+- Only 2 layers, deposited in a single pump-down cycle without breaking vacuum
+
+**Weaknesses**:
+- Narrow bandwidth (±20 nm from design wavelength) — unusable for broadband imaging
+- Tight thickness tolerance (±2 nm per layer) demands precise monitoring equipment
+
 **Broadband multi-layer AR (2-4 layers)**:
 - Design: stack of 2-4 quarter-wave layers with carefully chosen refractive indices. Common material pairs: TiO₂ (n ≈ 2.3, high) / SiO₂ (n ≈ 1.46, low), or Ta₂O₅ (n ≈ 2.1) / SiO₂. Each additional layer adds a degree of freedom for optimizing the reflection curve across a wider wavelength band.
 - Performance: <0.5% average reflection across the full visible spectrum (400-700 nm). A 4-layer design can push this to <0.25% across visible and into the near-IR.
 - Trade-off: more layers require tighter thickness control (±2 nm per layer) and longer deposition time. Each layer must be deposited without breaking vacuum to avoid interfacial contamination.
+
+**Strengths**:
+- <0.5% reflection across the full visible spectrum — suitable for multi-element photographic and instrument lenses
+- 4-layer designs push below 0.25%, approaching the performance of complex commercial coatings
+
+**Weaknesses**:
+- Each additional layer requires ±2 nm thickness control — cumulative error degrades performance
+- Longer deposition time per batch (1-3 hours for 4 layers vs. 20 minutes for single-layer) reduces throughput
 
 ### High-Reflection Coatings
 
@@ -113,9 +183,25 @@ Single-layer MgF₂ reduces reflection to ~1.3% at one wavelength. Multi-layer c
 - Materials: TiO₂/SiO₂ for visible, Si/SiO₂ for near-IR, ZnSe/ThF₄ for mid-IR. The index contrast between H and L materials determines how many pairs are needed: higher contrast means fewer pairs for the same reflectivity.
 - Performance: 5-7 pairs achieve >99% reflectivity. 10-15 pairs reach >99.9%. The reflection band has a finite width centered on the design wavelength: Δλ/λ ≈ (4/π)·arcsin((nH - nL)/(nH + nL)). For TiO₂/SiO₂: bandwidth ~180 nm centered on 550 nm.
 
+**Strengths**:
+- >99.9% reflectivity with 10-15 layer pairs — far exceeds any metal mirror
+- No absorption at the design wavelength, enabling use with high-power lasers (no thermal damage)
+
+**Weaknesses**:
+- Finite reflection bandwidth (~180 nm for TiO₂/SiO₂) — reflectivity drops sharply outside the design band
+- 20-30 layers require extended deposition time (4-8 hours) and precise thickness control for each layer
+
 **Metal + dielectric enhancement**:
 - An aluminum mirror overcoated with a quarter-wave stack (2-4 layers) boosts reflectivity from ~92% to >97% across the visible. The dielectric layers enhance reflection by constructive interference while the aluminum provides a broadband base.
 - Advantage over bare dielectric mirror: broader bandwidth, fewer layers needed. The metal layer ensures reasonable reflectivity even at wavelengths outside the dielectric design band.
+
+**Strengths**:
+- >97% reflectivity across the visible with only 3-5 total layers — fewer deposition steps than a full dielectric stack
+- Broadband performance: aluminum base ensures >85% reflectivity even outside the dielectric enhancement band
+
+**Weaknesses**:
+- Metal absorption limits maximum reflectivity to ~97-98% (vs. >99.9% for pure dielectric stacks)
+- Aluminum thermal expansion mismatch with dielectric layers can cause stress cracking under thermal cycling
 
 ### Optical Filters
 
@@ -145,6 +231,14 @@ Thermal evaporation produces porous, columnar films that absorb moisture over ti
 - Process: Argon gas at 1-10 mTorr is ionized by a DC plasma (~500 V, 1-10 kW). A magnetic field behind the target traps electrons near the target surface, increasing ionization efficiency. Ar⁺ ions bombard the target, ejecting atoms that deposit on the substrate. Deposition rate: 0.1-5 nm/s depending on material and power.
 - Advantages over thermal evaporation: denser films (bulk-like density), better adhesion (arriving atoms have higher kinetic energy), more uniform composition for alloys (thermal evaporation fractionates by vapor pressure). The dense film structure resists moisture absorption, so the optical properties remain stable over time.
 - Disadvantages: higher equipment complexity (magnetron, RF power supply for insulating targets), higher argon consumption, slower deposition rate for some materials compared to thermal evaporation.
+
+**Strengths**:
+- Dense, bulk-like film structure eliminates moisture absorption and refractive index drift
+- Higher kinetic energy of arriving atoms improves adhesion — sputtered films survive tape adhesion tests that thermal-evaporated films fail
+
+**Weaknesses**:
+- DC magnetron requires conductive targets — insulating materials (SiO₂, TiO₂) need RF sputtering at 13.56 MHz, adding a costly impedance-matching network
+- Deposition rates for some dielectrics (0.1-0.5 nm/s) are slower than thermal evaporation (1-5 nm/s)
 
 **RF sputtering for insulators**:
 - DC sputtering only works with conductive targets (charge buildup on insulating targets stops the process). RF sputtering at 13.56 MHz alternates the polarity, preventing charge accumulation. Works for SiO₂, TiO₂, Al₂O₃, and other dielectric coating materials. Requires an impedance-matching network between the RF generator and the sputtering chamber.
@@ -205,7 +299,7 @@ This graphical approach helps designers understand why certain layer sequences w
 
 ## Limitations
 
-- **Vacuum requirement**: Thin-film deposition requires vacuum chambers (10⁻⁵ to 10⁻⁶ torr). Vacuum pump technology (mechanical rotary + diffusion or turbomolecular) is a prerequisite. This limits coating production to facilities with vacuum capability.
+- **Vacuum requirement**: Thin-film deposition requires vacuum chambers (10⁻⁵ to 10⁻⁶ torr). Vacuum pump technology (mechanical rotary + diffusion or turbomolecular) is a prerequisite. This limits coating production to facilities with [vacuum](../vacuum/pumps.md) capability.
 - **Thickness control**: Coating performance depends on precise thickness control (±2-5 nm for single-layer AR coatings). Quartz crystal monitoring provides adequate control but adds complexity. Visual color monitoring (watching reflected color change during deposition) is less precise but workable for single-layer coatings.
 - **Adhesion and durability**: Deposited films may delaminate under thermal cycling, humidity, or mechanical abrasion. Substrate cleaning (solvent degreasing, plasma cleaning) critically affects adhesion. Protective overcoats (SiO₂) improve durability at the cost of an additional deposition step.
 - **Material availability**: High-purity deposition materials (MgF₂, SiO₂, TiO₂, Al₂O₃) must be sourced or synthesized. Magnesium fluoride requires hydrofluoric acid in its synthesis. Titanium dioxide requires titanium metal or titanium tetrachloride as precursors.

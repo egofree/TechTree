@@ -27,7 +27,7 @@ This document covers the full PCB fabrication process from laminate production t
 - **Drill bits**: Tungsten carbide micro-drills, 0.1-6.5 mm diameter.
 
 ### Tools
-- [CNC drilling machine](../machine-tools/cnc.md) with 50,000-200,000 RPM spindle
+- [CNC drilling machine](../machine-tools/edm-cnc.md) with 50,000-200,000 RPM spindle
 - UV exposure unit (365 nm wavelength, 100-500 mJ/cm²)
 - Chemical processing tanks (etch, develop, strip, plating)
 - Hydraulic laminating press (170-200°C, 200-400 psi)
@@ -63,6 +63,16 @@ This document covers the full PCB fabrication process from laminate production t
 4. **Laminate in press**: Load into vacuum hydraulic press. Cycle: evacuate to <50 mbar → heat to 170-185°C at 2-5°C/min → apply 200-400 psi (14-28 bar) → hold 60-90 minutes at temperature → cool to <50°C under pressure → release. Total cycle: 2-4 hours.
 5. **Inspect laminate**: Check thickness (1.60 ± 0.16 mm for standard), copper peel strength (>1.0 N/mm), glass transition temperature (Tg = 130-140°C standard, 170-180°C high-Tg). Warpage: <0.8% for 1.6 mm board.
 
+**Strengths**:
+- Vacuum lamination produces void-free, uniform dielectric — critical for controlled impedance and reliable plated through-holes
+- B-stage prepreg process allows storage of partially cured sheets for on-demand laminate production, decoupling resin preparation from PCB manufacturing
+- Multi-layer capability: stacking multiple prepreg/core combinations enables complex interconnect (2-32+ layers) from the same basic process
+
+**Weaknesses**:
+- High capital investment: vacuum hydraulic press ($50K-$500K) with precise temperature and pressure control is the single most expensive piece of equipment
+- Long cycle time: each lamination cycle takes 2-4 hours regardless of panel count — lamination is the throughput bottleneck in multi-layer production
+- Moisture sensitivity: B-stage prepreg absorbs humidity from air during storage, requiring refrigerated storage (2-10°C) and limited shelf life (3-6 months)
+
 ### 4.2 Single-Sided PCB (Photoimageable Method)
 
 1. **Cut panels**: Shear laminate to panel size (typically 300 × 300 mm or 450 × 600 mm). Deburr edges.
@@ -75,6 +85,16 @@ This document covers the full PCB fabrication process from laminate production t
 8. **Strip resist**: Spray 3-5% NaOH at 50-60°C for 30-60 seconds. Removes crosslinked resist. Rinse thoroughly.
 9. **Inspect circuit pattern**: Check for shorts (copper bridges between traces), opens (missing copper in traces), over-etch (traces narrower than specified), under-etch (copper residue between traces). Minimum trace/space: 0.15 mm for standard process, 0.05 mm for HDI.
 
+**Strengths**:
+- Dry film photoresist + UV exposure achieves fine resolution (0.10-0.15 mm trace/space) with good process tolerance — exposure dose window of ±30% still yields acceptable results
+- Spray etching provides uniform, repeatable copper removal across the panel — etch rate controlled to ±10% by temperature and Baume concentration
+- Toner transfer bypass eliminates phototool cost entirely for simple prototypes — a laser printer and household iron produce functional boards in under 30 minutes
+
+**Weaknesses**:
+- Undercut during etching limits minimum trace width — side etch attacks copper beneath resist at a 1:1 to 2:1 ratio, requiring wider resist openings than the desired finished trace
+- Multiple wet chemical processing steps (develop, etch, strip) each require temperature-controlled tanks, rinse stages, and waste treatment — chemical handling infrastructure is significant
+- Single-sided boards have no plated through-holes, requiring manual wire links or jumpers for any cross-board connections — limits circuit complexity
+
 ### 4.3 Plated Through-Hole (Double-Sided)
 
 1. **Drill all holes** on CNC drill before plating.
@@ -85,6 +105,16 @@ This document covers the full PCB fabrication process from laminate production t
 6. **Strip resist, etch**: Strip off photoresist. Etch original base copper (the foil that was under the resist) using the same process as single-sided. The plated copper is protected by tin (tin plating applied before strip as etch resist) or the photoresist pattern.
 7. **Result**: Through-holes plated with 20-25 μm copper. Hole resistance: <5 mΩ per hole.
 
+**Strengths**:
+- Electroless copper + electrolytic plating produces reliable, low-resistance hole barrels (<5 mΩ per hole) — enables true double-sided circuit routing with automatic layer-to-layer connections
+- Electrolytic plating deposits copper at 20-25 μm in a single 30-90 minute cycle — produces robust mechanical connection that survives 1000+ thermal cycles
+- The process extends naturally to multi-layer boards — same plating chemistry connects any number of internal copper layers
+
+**Weaknesses**:
+- Electroless copper bath uses formaldehyde (carcinogen, 5-15 g/L concentration) as reducing agent — requires ventilated process area with continuous air monitoring and OSHA exposure limit compliance (0.75 ppm TWA)
+- Palladium-tin catalyst is expensive and sensitive to contamination — a single contaminated panel can poison an entire catalyst bath, requiring costly replacement
+- Process has 7+ sequential wet chemistry steps (deburr, catalyst, accelerator, electroless, electrolytic, strip, etch) — each step is a potential yield loss point and requires separate chemical management
+
 ### 4.4 Multi-Layer PCB
 
 1. **Produce inner layer cores**: Etch circuit patterns on both sides of thin cores (0.1-0.8 mm) using the single-sided process on each side.
@@ -94,6 +124,16 @@ This document covers the full PCB fabrication process from laminate production t
 5. **Laminate**: Vacuum press at 170-185°C, 200-400 psi, 60-120 min. Cool under pressure.
 6. **Drill, plate, etch outer layers**: Same as double-sided process. Through-holes connect all copper layers.
 7. **Blind and buried vias** (advanced): Sequential lamination — drill and plate subsets of layers, then laminate together. Blind via: outer layer to inner layer (does not pass through entire board). Buried via: inner layer to inner layer.
+
+**Strengths**:
+- Enables impedance-controlled signal routing (±3-5% tolerance) required for high-speed digital buses (USB, HDMI, DDR memory) — inner reference planes provide consistent return paths
+- Power and ground planes on dedicated layers provide low-inductance power distribution, reducing voltage ripple and EMI by 10-50× compared to routed power traces
+- Increased routing density: 4-8 layer boards provide 2-4 signal layers plus dedicated power/ground planes, enabling complex circuits (microprocessors with 500+ pins) that are impossible on 2-layer boards
+
+**Weaknesses**:
+- Inner layer defects (shorts, opens) sealed during lamination are impossible to repair — a single defective inner layer scraps the entire multi-layer panel, reducing yield to 85-95% vs. 95-99% for double-sided
+- Registration accuracy across layers must be <0.05 mm for 4+ layers — requires optical alignment systems and controlled-environment lamination to prevent thermal expansion misalignment
+- Sequential lamination for blind/buried vias multiplies process time: each sub-lamination requires a full 2-4 hour press cycle, making HDI boards 3-5× more expensive than standard multi-layer
 
 ### 4.5 Solder Mask, Legend, and Surface Finish
 
@@ -106,11 +146,31 @@ This document covers the full PCB fabrication process from laminate production t
    - **Immersion Silver**: 0.1-0.3 μm Ag. Good solderability, moderate shelf life. Tarnishes in high-sulfur environments.
    - **Immersion Tin**: 0.8-1.2 μm Sn. Flat surface. Tin whisker risk for high-reliability applications.
 
+**Strengths**:
+- Photoimageable solder mask provides precise pad openings (±0.05 mm) and reliable solder dam between fine-pitch component pads (0.5 mm pitch QFP) — prevents solder bridges during reflow
+- ENIG surface finish provides flat, coplanar pads (0.03-0.08 μm Au over 3-5 μm Ni) essential for BGA and fine-pitch component soldering — gold surface remains solderable for 12+ months
+- Multiple surface finish options allow cost/performance optimization: HASL (cheapest, $0.05/board), OSP ($0.10/board, shortest shelf life), ENIG ($0.50/board, best for fine-pitch)
+
+**Weaknesses**:
+- Solder mask curing at 150°C for 30-60 minutes adds significant process time — the entire panel must dwell in a thermal oven, creating a production bottleneck
+- HASL produces uneven solder coating (1-30 μm) that is incompatible with fine-pitch components (<0.5 mm pitch) — the thickness variation causes coplanarity issues
+- ENIG process uses nickel sulfate and potassium gold cyanide — both are toxic, and the cyanide gold bath requires emergency antidote kits and strict handling protocols, adding cost and safety burden
+
 ### 4.6 Electrical Test and Profiling
 
 1. **Electrical test**: Flying probe (movable pin heads contact each net) or bed-of-nails (fixed fixture with spring pins for every net). Test all nets: continuity (every connection <10 Ω), isolation (every isolation >10 MΩ at 250-500V). Test time: flying probe 2-10 min/board, bed-of-nails 10-60 sec/board.
 2. **Route/profile**: CNC router cuts individual boards from panel. Tool: 2.0-3.2 mm carbide router bit at 20,000-30,000 RPM, feed 10-30 mm/sec. Scoring (V-groove) for snap-apart panels: score 1/3 board thickness from each side.
 3. **Final inspection**: Visual check for defects. Dimensional check (±0.1 mm for routed edges, ±0.05 mm for drilled holes). Surface quality. Pack with desiccant for moisture protection.
+
+**Strengths**:
+- Flying probe test requires no fixture — programs are generated directly from CAD data, enabling same-day test setup for prototype and low-volume boards (test time: 2-10 min/board)
+- Bed-of-nails fixture provides high-speed production testing (10-60 sec/board) with >99% fault coverage — detects all shorts, opens, and incorrect net connections
+- Electrical test catches defects invisible to visual inspection: high-resistance connections (>10 Ω) from incomplete plating and near-shorts (<10 MΩ isolation) from residual copper between traces
+
+**Weaknesses**:
+- Flying probe test is slow (2-10 min/board) — unsuitable for production volumes >100 boards/day where bed-of-nails fixtures are required (fixture cost: $500-$5000 per board design)
+- Electrical test verifies only connectivity, not signal integrity — impedance mismatches, excessive trace length, and crosstalk are not detected without dedicated TDR or network analyzer testing
+- CNC routing generates fiberglass dust and requires carbide tooling that wears rapidly — a 2.0-3.2 mm router bit lasts 50-200 linear meters of cutting in FR-4 before edge quality degrades
 
 ## 5. Quantitative Parameters
 
@@ -273,7 +333,7 @@ A workshop with UV exposure, spray etch tank, and drill press can produce functi
 - **[Glass Fibers](../glass/fibers.md)**: fiberglass cloth for FR-4 substrate
 - **[Thermoset Polymers](../polymers/thermosets.md)**: epoxy resin for laminate bonding
 - **[Electrolysis](../chemistry/electrolysis.md)**: copper production for traces and plating
-- **[CNC Machine Tools](../machine-tools/cnc.md)**: drilling and routing equipment
+- **[CNC Machine Tools](../machine-tools/edm-cnc.md)**: drilling and routing equipment
 - **[Cleanrooms](../photolithography/cleanrooms.md)**: controlled environment for fine-line PCB production
 
 ---

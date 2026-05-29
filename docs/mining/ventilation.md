@@ -2,10 +2,11 @@
 
 > **Node ID**: mining.ventilation
 > **Domain**: [Mining](./index.md)
-> **Dependencies**: [`energy.steam-power`](../energy/steam-power.md), `mining`
+> **Dependencies**: [`energy.steam-power`](../energy/steam-power.md), [`mining`](./index.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 10-18
 > **Outputs**: breathable_air, methane_control, dust_suppression
+> **Critical**: No
 
 ### Why Ventilation Matters
 
@@ -27,6 +28,16 @@ The simplest ventilation relies on density differences between air columns in tw
 - Maximize shaft separation: intake and exhaust shafts should be as far apart as possible at the surface to prevent short-circuiting (exhaust air being drawn back into the intake).
 - Airway cross-section matters enormously. Doubling the cross-sectional area reduces resistance roughly four-fold (airflow resistance is inversely proportional to the cube of the cross-sectional area for a given perimeter). A 2×2 m heading has roughly four times the resistance of a 3×3 m heading.
 
+**Strengths**:
+- No energy input required — driven entirely by temperature differential between mine and surface
+- Provides 5-20 m³/s airflow in well-designed shafts at 100 m depth
+- Simpler and cheaper than any mechanical system — just two shafts and connecting airways
+
+**Weaknesses**:
+- Flow reverses seasonally in some climates; stops when surface and underground temperatures match
+- Maximum effective depth ~200-300 m with dual shafts — deeper mines need mechanical assistance
+- Cannot adjust airflow volume — design is fixed by shaft geometry and climate
+
 ### Furnace Ventilation
 
 When natural draft is insufficient, a fire at the base of the upcast shaft heats the exhaust air column, increasing the density difference and driving force.
@@ -40,6 +51,16 @@ When natural draft is insufficient, a fire at the base of the upcast shaft heats
 - Fire risk to the shaft timbering. Fire at shaft bottom can ignite wooden lagging, staging, or rope guides. Stone-lined or brick-lined shafts are much safer.
 - No control over airflow volume. Cannot reduce ventilation when not needed (weekends, holidays). Fire must burn continuously or the mine gases accumulate.
 - Historically replaced by mechanical fans by the 1860s-1880s, but furnace ventilation persisted in remote mines without reliable power well into the 1920s.
+
+**Strengths**:
+- Adds 30-100 Pa driving pressure beyond natural draft for deeper or more resistant airways
+- Simple to build — a fire grate at the shaft bottom with coal or wood fuel
+- No mechanical equipment required — works in remote mines without electricity or steam power
+
+**Weaknesses**:
+- Fire risk to shaft timbering — stone or brick lining strongly recommended
+- No airflow control — fire must burn continuously or mine gases accumulate
+- Fuel consumption of 20-100 kg/hour adds ongoing cost and logistics burden
 
 ### Fan Ventilation
 
@@ -55,6 +76,16 @@ Mechanical fans provide controlled, reliable airflow regardless of weather or se
 - Propeller-like blades spinning inside a cylindrical housing. Air flows parallel to the shaft axis. Blade pitch adjustable (some designs allow pitch change while running, enabling airflow adjustment without changing motor speed).
 - Performance range: 10-200 m³/s at 200-2000 Pa. Higher volume than centrifugal for same physical footprint. Typically direct-coupled to electric motor for simplicity and efficiency.
 - Construction: cast or fabricated hub with bolted-on steel or aluminum blades. Cylindrical steel housing with guide vanes downstream of the impeller to recover swirl energy (the vane-axial type). Contra-rotating designs (two impellers spinning in opposite directions on the same shaft) double the pressure capability without increasing diameter.
+
+**Strengths**:
+- Centrifugal fans tolerate dusty air and can be built in a basic workshop with welding capability
+- Axial fans deliver 10-200 m³/s in a compact housing — high volume per unit floor space
+- Adjustable blade pitch or V-belt drive allows airflow matching to actual mine requirements
+
+**Weaknesses**:
+- Requires electric motor or steam engine — not operable without a reliable power source
+- Fan and motor represent a single point of failure — loss of power stops all ventilation
+- Centrifugal impellers at 500-2000 RPM create noise and vibration requiring robust mountings
 
 ### Ventilation Network Design
 
@@ -199,6 +230,4 @@ The wet bulb globe temperature (WBGT) index combines dry-bulb temperature, natur
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Mining](./index.md) · [All Domains](../index.md)*
-
-[← Back to Mining](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining](./index.md) • [All Domains](../index.md)*

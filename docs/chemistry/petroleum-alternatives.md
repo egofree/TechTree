@@ -1,11 +1,12 @@
 # Petroleum & Alternative Chemistry
 
 > **Node ID**: chemistry.petroleum-alternatives
-> **Domain**: [Petroleum & Alternative Chemistry](./index.md)
-> **Dependencies**: `foundations`
-> **Enables**: [`chemistry.coatings`](coatings.md), [`chemistry.lubricants`](lubricants.md), [`chemistry.petroleum-alternatives.fermentation`](fermentation.md), [`chemistry.petroleum-alternatives.wood-gasification`](wood-gasification.md), [`chemistry.soap`](soap.md), [`chemistry.solvents`](solvents.md), [`energy.cooling`](../energy/cooling.md), [`energy.electric-furnaces.electrode-manufacturing`](../energy/electrode-manufacturing.md), [`polymers.rubber.synthetic`](../polymers/synthetic.md), [`polymers.thermoplastics`](../polymers/thermoplastics.md), [`polymers.thermosets`](../polymers/thermosets.md), [`transport.aviation`](../transport/aviation.md)
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`foundations.tools-basic`](../foundations/tools-basic.md)
+> **Enables**: [`chemistry.coatings`](coatings.md), [`chemistry.lubricants`](lubricants.md), [`chemistry.fermentation`](fermentation.md), [`chemistry.wood-gasification`](wood-gasification.md), [`chemistry.soap`](soap.md), [`chemistry.solvents`](solvents.md), [`energy.cooling`](../energy/cooling.md), [`polymers.synthetic`](../polymers/synthetic.md), [`polymers.thermoplastics`](../polymers/thermoplastics.md), [`polymers.thermosets`](../polymers/thermosets.md), [`transport.aviation`](../transport/aviation.md)
 > **Timeline**: Years 5-50+
-> **Outputs**: gasoline, kerosene, diesel, lubricating_oil, benzene, phenol, ethanol, acetone, methanol, producer_gas, ...
+> **Outputs**: gasoline, kerosene, diesel, lubricating_oil, benzene, phenol, ethanol, acetone, methanol, producer_gas
+> **Critical**: No — petroleum alternatives provide chemical feedstocks but individual capabilities depend on specific downstream processes
 
 ## Problem
 
@@ -45,6 +46,10 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
   - **[Residual fuel oil / asphalt](../glossary/residual-fuel-oil-asphalt.md)** (>500°C): Boiler fuel, road paving, waterproofing (~15-30%)
 - **Yield**: ~40-60% usable products from simple distillation. Residue can be cracked thermally (heat to 450-500°C in closed vessel → breaks large molecules into smaller ones, yields more gasoline/kerosene).
 - **Safety**: NEVER distill in sealed vessel — pressure explosion risk. Use open system with vent. Fire risk extreme — have sand and fire blankets ready. No open flames near crude oil. Work outdoors or in well-ventilated shed.
+
+**Strengths**: Batch still is constructible from iron/copper and basic plumbing — achievable at early metallurgical stages; produces multiple fuel grades from a single feedstock; thermal cracking extends gasoline yield from heavy residue; 40-60% of crude becomes usable products.
+
+**Weaknesses**: Poor separation compared to fractional column (overlapping boiling ranges); batch operation is labor-intensive and slow; fire/explosion risk from petroleum vapors is extreme; residue disposal (asphalt, heavy fuel oil) requires planning; no catalysts means limited conversion of heavy fractions.
 
 **[Fractional distillation column](../glossary/fractional-distillation-column.md)** (continuous):
 - **Construction**: Vertical column 5-20 m tall, 0.3-1.5 m diameter. Iron or steel construction. Internal trays (bubble-cap or sieve trays) every 0.3-0.6 m — each tray is a theoretical separation stage. 15-40 trays typical. Reboiler at bottom (steam-heated or oil-fired). Condenser at top (water-cooled).

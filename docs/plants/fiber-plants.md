@@ -2,12 +2,13 @@
 
 > **Node ID**: plants.fiber-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
-> **Dependencies**: `plants`, [`textiles.spinning`](../textiles/spinning.md)
+> **Dependencies**: [`plants`](./index.md), [`textiles.spinning`](../textiles/spinning.md)
 > **Enables**: `plants.fiber-plants.allium-paniculatum`, `plants.fiber-plants.amaranthus-albus`, [`textiles.fibers`](../textiles/fibers.md)
 > **Timeline**: Years 0-10
 > **Outputs**: plant_fibers, raw_fiber
+> **Critical**: Yes — cordage and textiles from plant fibers are Year 0 necessities for shelter, tools, and clothing
 
-### Overview
+## 1. Overview
 
 Fiber plants are the botanical source of the cordage, thread, and woven materials that underpin every stage of civilization bootstrapping. Before metal wire or synthetic polymers, all rope, twine, netting, basketry, and textiles came from plant (and animal) fibers. Cordage is a Year 0 necessity — binding spear points to shafts, lashing shelter frames, making snares and fishnets, carrying loads with simple bags. As material culture advances, spun and woven plant fibers become clothing, sailcloth, canvas, sacks, hammocks, and eventually the belts and drive bands for early machinery.
 
@@ -29,8 +30,50 @@ Different plant organs yield fibers with distinct properties, requiring differen
 Retting uses moisture and microbial action to decompose the pectins binding fiber bundles to the woody core (shives) and outer bark. The three principal methods:
 
 1. **Water retting**: Submerge bundled stalks in a pond, slow river, or purpose-built retting tank for 5-14 days (temperature dependent — warm water rets faster). Anaerobic bacteria break down pectin. Produces the highest-quality fiber. Test readiness by bending a stalk — fibers should separate cleanly from the woody core. Over-retting weakens fiber significantly.
+
+**Strengths**:
+- Highest fiber quality — uniform pectin breakdown produces long, clean, strong fibers
+- Fastest retting method — 5-14 days vs. 2-5 weeks for dew retting
+- Controllable — water temperature and duration can be adjusted to match conditions
+- Produces the finest linen — water-retted flax yields fibers smooth enough for fine cloth
+- Consistent results between batches when water temperature is managed
+
+**Weaknesses**:
+- Requires a pond, tank, or slow-moving river — not available in all locations
+- Water pollution — retting water becomes foul-smelling and depletes oxygen (anaerobic bacterial activity)
+- Labor-intensive — stalks must be bundled, weighted down, then retrieved from water
+- Over-retting risk — leaving stalks too long weakens fiber significantly; requires frequent testing
+- Retting tanks occupy space and require maintenance — purpose-built tanks are a capital investment
+
 2. **Dew retting**: Spread stalks thinly on a grass field, turn periodically. Dew and rainfall provide moisture; aerobic fungi and bacteria do the work. Takes 2-5 weeks depending on climate. Lower quality than water retting but requires no water infrastructure.
+
+**Strengths**:
+- No water infrastructure required — uses only dew and rainfall
+- Lowest labor input — spread stalks and turn occasionally, no bundling or retrieval
+- No water pollution — aerobic decomposition does not produce foul anaerobic byproducts
+- Scalable — can be done across any grass field large enough to spread stalks thinly
+- Works in any climate with regular dew or rainfall
+
+**Weaknesses**:
+- Slowest reliable method — 2-5 weeks vs. 5-14 days for water retting
+- Lower fiber quality — uneven pectin breakdown produces coarser, less uniform fibers
+- Weather-dependent — drought stalls retting; heavy rain can over-ret and rot the fibers
+- Large land area required — stalks must be spread thinly (not stacked) for even moisture exposure
+- Less consistent between batches — temperature and humidity vary daily
+
 3. **Stand retting**: Leave cut stalks standing in the field. Slowest method, least labor. Suitable for coarse fiber (rope, sacking) where fine quality is not needed.
+
+**Strengths**:
+- Least labor of any method — cut stalks and leave them, no handling until fully retted
+- No infrastructure or land preparation — uses the field where the crop grew
+- Zero water consumption — relies entirely on natural precipitation and humidity
+- Lowest cost — no investment in tanks, ponds, or field preparation
+
+**Weaknesses**:
+- Slowest method — 4-8+ weeks depending on weather
+- Lowest fiber quality — uneven, coarse fibers suitable only for rope and sacking
+- Unreliable — dependent entirely on weather; drought years produce un-retted, unusable stalks
+- Risk of total loss — standing stalks can be blown down, eaten by animals, or destroyed by heavy rain
 
 After retting, stalks are dried thoroughly before further processing (breaking, scutching, hackling — see [Fiber Preparation](../textiles/fibers.md)).
 
@@ -225,4 +268,4 @@ Different applications benefit from combining fibers with complementary properti
 
 ---
 
-[← Back to Plants](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*

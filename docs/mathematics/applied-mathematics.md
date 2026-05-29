@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 15-70
 > **Outputs**: calculus, linear_algebra, differential_equations, probability_theory, statistical_methods, numerical_methods
+> **Critical**: Yes — mathematics is the shared language of quantitative reasoning for all engineering
 
 ## Problem
 
@@ -232,3 +233,6 @@ Replace continuous derivatives with discrete differences: ∂T/∂t ≈ (Tᵢⁿ
 
 - **Core mathematics** (`mathematics.core-mathematics`): Algebra, trigonometry, and coordinate geometry are prerequisites for calculus and all subsequent applied topics
 - **Enables**: Process modeling (chemistry), circuit design (electronics), structural analysis (machine tools), quality control (manufacturing), and all numerical computation (computing)
+
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Mathematics & Formal Sciences](./index.md) • [All Domains](../index.md)*

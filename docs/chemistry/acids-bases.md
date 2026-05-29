@@ -1,11 +1,12 @@
 # Acids & Bases
 
 > **Node ID**: chemistry.acids-bases
-> **Domain**: Chemistry
+> **Domain**: [Chemistry](./index.md)
 > **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Enables**: [`chemistry.acids`](acids.md), [`chemistry.alkalis`](alkalis.md), [`chemistry.soap`](soap.md), [`metals.finishing`](../metals/finishing.md)
 > **Timeline**: Years 10-30
 > **Outputs**: sulfuric_acid, hydrochloric_acid, nitric_acid, sodium_hydroxide, sodium_carbonate
+> **Critical**: No — overview capability linking acid and base production; see individual articles for detailed processes
 
 ## Overview
 
@@ -22,7 +23,10 @@ Sulfuric acid (H₂SO₄) is the most-produced industrial chemical globally (~20
 4. Acid condenses on chamber walls and drips to collection troughs. Product: 62-70% H₂SO₄ (chamber acid). Concentrate by boiling in glass or lead vessels: water boils off, acid concentrates to 78% (boiling point 185°C at 78% concentration).
 5. Lead is used because 78% H₂SO₄ forms an insoluble PbSO₄ layer that protects the metal from further attack. Above 85%, lead dissolves — use glass or steel.
 6. Yield: 2-3 tonnes H₂SO₄ per tonne sulfur burned. NOₓ loss: 5-10 kg HNO₃ per tonne H₂SO₄ (makeup required).
-7. Disadvantages: dilute product, lead construction required, NOₓ emissions. Advantages: no expensive catalyst, works at moderate temperature.
+
+**Strengths**: No expensive vanadium catalyst required; operates at moderate temperature (30-50°C); mechanically simple — lead-lined chambers are straightforward to construct; tolerant of impure SO₂ feed (pyrite-derived gas acceptable).
+
+**Weaknesses**: Dilute product (62-70%, requires further concentration); NOₓ emissions and ongoing HNO₃ makeup consumption; lead construction required (toxic, heavy, limited corrosion resistance above 78%); lower overall yield than contact process.
 
 **Contact process** (higher purity, requires catalyst):
 1. Burn sulfur to SO₂ (same as above, but target 7-10% SO₂ in air, dried through sulfuric acid scrubbers).
@@ -30,7 +34,11 @@ Sulfuric acid (H₂SO₄) is the most-produced industrial chemical globally (~20
 3. Catalytic oxidation: 2SO₂ + O₂ ⇌ 2SO₃ over vanadium pentoxide catalyst (V₂O₅, 7-10% on silica support, promoted with K₂O and Na₂O). Operating temperature: 400-450°C (first pass), cooling to 400°C between stages. Pressure: 1-2 atm. Conversion: 97-99.5% through 3-4 catalyst beds with inter-stage cooling.
 4. SO₃ absorption: Pass SO₃ through 98% H₂SO₄ in a packed absorption tower. SO₃ + H₂O (in H₂SO₄) → H₂SO₄. Do NOT absorb directly into water — forms a persistent, dangerous sulfuric acid mist. Product: 98-99% H₂SO₄ or 20-22% oleum (H₂SO₄ dissolved in SO₃, used for sulfonation reactions).
 5. Double absorption (modern): After the first absorption, remaining SO₂ is passed through another catalyst bed and second absorber to achieve 99.5%+ conversion, reducing emissions to <100 ppm SO₂.
-6. Catalyst: V₂O₅ on silica, promoted with K₂SO₄/Na₂SO₄. Life: 5-10 years. Temperature activation: above 380°C. Does not deactivate from mild poisoning (robust). See [Catalyst Production](./catalysts.md) for vanadium sourcing.
+6. Catalyst: V₂O₅ on silica, promoted with K₂SO₄/Na₂SO₄. Life: 5-10 years. Temperature activation: above 380°C. Does not deactivate from mild poisoning (robust). See Catalyst Production for vanadium sourcing.
+
+**Strengths**: Concentrated product (96-98% directly); high conversion (97-99.5%); catalyst is robust with 5-10 year life; double absorption reduces emissions to <100 ppm; feed gas must be clean and dry.
+
+**Weaknesses**: Requires vanadium catalyst (V₂O₅ is a strategic material); gas must be scrupulously dried (water poisons catalyst); higher operating temperature (400-450°C); oleum handling adds complexity.
 
 **Sulfuric acid properties**: Density 1.84 g/mL (98%). Boiling point 337°C (98%). Miscible with water — extremely exothermic (always add acid to water, never water to acid: the heat of dilution is 880 kJ/kg H₂SO₄). Concentrated acid chars organic matter on contact by dehydration. Freezing point: 10°C for 98%, 3°C for 93%.
 
@@ -46,11 +54,19 @@ HCl gas dissolves in water to form hydrochloric acid (up to 38% w/w at room temp
 - Capture HCl gas by bubbling through water in absorption towers (graphite or glass-packed). Product: 30-32% HCl (concentrated hydrochloric acid, density 1.16 g/mL).
 - This route produces HCl as a byproduct of soda ash production — economically attractive.
 
+**Strengths**: Produces both HCl and Na₂SO₄ (salt cake) from cheap feedstocks (salt, H₂SO₄); well-established technology; no electrolysis required.
+
+**Weaknesses**: Two-stage high-temperature process (up to 600°C); HCl gas is corrosive and requires careful capture; produces Na₂SO₄ co-product that must find a market or disposal route.
+
 **Direct synthesis from hydrogen and chlorine**:
 - H₂ + Cl₂ → 2HCl (burns in quartz or graphite combustion chamber at 2000°C+)
 - Feed gases: electrolytic H₂ and Cl₂ from [chlor-alkali process](./electrolysis.md)
 - Burner: quartz tube 10-15 cm diameter, graphite-lined combustion chamber. Gas flow: stoichiometric ratio H₂:Cl₂ = 1:1. Product gas is 100% HCl, absorbed in water to 31-33%.
 - Most economical route when chlor-alkali electrolysis is operational.
+
+**Strengths**: Produces very pure HCl (100% gas → 31-33% solution); compact equipment (quartz burner + absorption tower); fast and continuous.
+
+**Weaknesses**: Requires both H₂ and Cl₂ from electrolysis; burner operates at 2000°C+ (quartz/graphite construction); explosion risk if H₂:Cl₂ ratio deviates from stoichiometric.
 
 **Organic chlorination byproduct**: Chlorination of hydrocarbons (e.g., benzene + Cl₂ → chlorobenzene + HCl) produces HCl as a byproduct. Absorb in water to produce commercial HCl. Typically 80-90% of organic industry HCl comes from this route.
 
@@ -66,11 +82,19 @@ HCl gas dissolves in water to form hydrochloric acid (up to 38% w/w at room temp
 - Yield: ~0.8 kg HNO₃ per kg NaNO₃. Requires concentrated H₂SO₄ (93%+).
 - Limited by saltpeter availability — suitable for bootstrap but not scalable.
 
+**Strengths**: Simple equipment (retort + condenser); no catalyst required; useful for early-stage HNO₃ before ammonia infrastructure exists.
+
+**Weaknesses**: Dependent on natural saltpeter deposits (geographically limited); yields only ~80% of theoretical; consumes concentrated H₂SO₄ as co-reagent; not scalable beyond small batches.
+
 **Ostwald process** (industrial, from ammonia):
 1. Catalytic oxidation: 4NH₃ + 5O₂ → 4NO + 6H₂O over Pt-Rh gauze (90% Pt / 10% Rh) at 850-950°C. Contact time <1 millisecond. Conversion: 95-98%. Air-NH₃ mixture: 9-12% NH₃ (below lower explosive limit ~15%).
 2. NO oxidation: 2NO + O₂ → 2NO₂ at 20-50°C (slow, third-order kinetics). Requires large reaction volume or elevated pressure (4-8 bar) to achieve acceptable rate.
 3. Absorption: 3NO₂ + H₂O → 2HNO₃ + NO in packed column at 4-10 bar. The NO byproduct re-oxidizes and is re-absorbed in subsequent trays. Column height: 20-40 m. Product: 55-68% HNO₃.
 4. Concentration to 90-100% requires dehydration: mix with concentrated H₂SO₄ or Mg(NO₃)₂ to "drag" water out, then distill HNO₃ at reduced pressure (bp 83°C at 1 atm for 68%, lower at reduced pressure for higher concentrations).
+
+**Strengths**: Scalable to thousands of tonnes/day; 95-98% conversion from NH₃; Pt-Rh catalyst is recoverable; net energy exporter (waste heat from NH₃ oxidation generates steam); feedstock (ammonia + air) is abundant once Haber-Bosch is operational.
+
+**Weaknesses**: Requires Pt-Rh gauze catalyst (expensive, ~0.05-0.5 g Pt lost per tonne HNO₃); NO oxidation is slow (third-order kinetics) requiring large equipment or high pressure; product limited to 68% by azeotrope — higher concentrations need additional dehydration; NO₂ emissions from absorption tail gas must be scrubbed.
 
 **Properties**: 68% HNO₃ (concentrated, azeotrope) has density 1.41 g/mL. Fuming nitric acid (86-100%) is a powerful oxidizer — ignites organic matter on contact. Yellow color from dissolved NO₂. Attacks all metals except gold, platinum, and some stainless alloys. Stored in aluminum or stainless steel tanks (forms passive oxide layer).
 
@@ -86,9 +110,17 @@ HCl gas dissolves in water to form hydrochloric acid (up to 38% w/w at room temp
 - Energy: 2-3 tonnes steam per tonne NaOH (50% solution).
 - See [Alkali Production](./alkalis.md) for detailed process description.
 
+**Strengths**: No electrolysis required — works with soda ash and lime (both available from Solvay/Leblanc + limestone); CaCO₃ byproduct can be reburned to close the lime loop; straightforward equipment (agitated tank + filter + evaporator).
+
+**Weaknesses**: Incomplete conversion (85-92%); significant energy consumption for evaporation (2-3 t steam/t NaOH); CaCO₃ sludge handling and reburning adds complexity; produces only 50% NaOH — higher concentrations need nickel-clad vessels.
+
 **Electrolytic NaOH** (from [chlor-alkali process](./electrolysis.md)):
 - Co-product with Cl₂ and H₂ from brine electrolysis. Membrane cells produce 30-33% NaOH directly; diaphragm cells produce 10-12% requiring evaporation.
 - Higher purity and lower cost at scale, but requires electricity (2,100-2,500 kWh per tonne Cl₂) and membrane or diaphragm technology.
+
+**Strengths**: Highest purity NaOH; co-produces valuable Cl₂ and H₂; most economical at large scale (>100 t/day); membrane cells produce 30-33% NaOH directly.
+
+**Weaknesses**: Requires reliable electricity supply (2,100-2,500 kWh/t Cl₂); membrane or diaphragm technology is complex; Cl₂ demand must match NaOH demand (fixed 1:1.12 mass ratio); high capital cost for cell rooms.
 
 **Properties**: 50% NaOH solution has density 1.53 g/mL. Solid NaOH (flake or pearl) melts at 318°C. Dissolution in water releases 44.5 kJ/mol — adding 1 kg NaOH to 1 L water raises temperature above 90°C. Extremely caustic: causes deep, penetrating chemical burns that may not be immediately painful (alkali anesthetizes nerve endings). PPE: chemical splash goggles, face shield, neoprene gloves, rubber apron.
 
@@ -102,17 +134,29 @@ HCl gas dissolves in water to form hydrochloric acid (up to 38% w/w at room temp
 3. Leach Na₂CO₃ with water. CaS residue (4 tonnes per tonne Na₂CO₃) produces toxic H₂S when wet — oxidize to CaSO₄ (gypsum) before disposal.
 4. Energy-intensive and polluting but produces both Na₂CO₃ and HCl from salt and sulfur.
 
+**Strengths**: Produces both soda ash and HCl from cheap, abundant feedstocks (salt, sulfuric acid, limestone, coke); no ammonia required — suitable for early bootstrapping before Haber-Bosch; well-understood chemistry dating to 1791.
+
+**Weaknesses**: Massive CaS waste (4 tonnes per tonne Na₂CO₃) that releases toxic H₂S; extremely energy-intensive (multiple furnace stages at 150-1000°C); historically caused severe environmental damage; displaced by Solvay wherever ammonia is available.
+
 **Solvay process** (preferred when ammonia available):
 - NaCl + NH₃ + CO₂ + H₂O → NaHCO₃↓ + NH₄Cl. Heat NaHCO₃ → Na₂CO₃ + CO₂ + H₂O.
 - Ammonia recovered by distilling NH₄Cl with Ca(OH)₂ (from limestone). CO₂ from lime kiln. NH₃ makeup only 1-2 kg per tonne Na₂CO₃.
 - Throughput: 100-3000 tonnes/day. Energy: 7-10 GJ/tonne Na₂CO₃.
 - See [Solvay Process](./solvay.md) for detailed step-by-step.
 
+**Strengths**: Continuous process with high throughput (100-3000 t/day); ammonia is efficiently recycled (only 1-2 kg makeup per tonne Na₂CO₃); lower energy than Leblanc (7-10 GJ/t); much less pollution — CaCl₂ waste is less hazardous than CaS.
+
+**Weaknesses**: Requires ammonia supply (from Haber-Bosch or coke ovens); CaCl₂ waste (~10 t per t Na₂CO₃) causes salinity if discharged to freshwater; capital-intensive (carbonation towers, calciner, ammonia still); NaCl conversion limited to ~72-75%.
+
 **Uses**: Glass manufacturing (Na₂CO₃ lowers SiO₂ melting point from 1710°C to ~1000°C — 15-20% Na₂CO₃ in glass batch). Detergent builder (water softener: Na₂CO₃ precipitates Ca²⁺ as CaCO₃). Chemical feedstock (converted to NaOH via causticization). pH adjustment in water treatment.
 
 ## Hydrofluoric Acid Production
 
 CaF₂ (fluorite/fluorspar) + H₂SO₄ (conc.) → 2HF↑ + CaSO₄ at 150-300°C in horizontal rotary kiln (steel shell, internally carbon-lined). Absorb HF gas in water to 48-50% concentration (density 1.16 g/mL). Anhydrous HF (bp 19.5°C) produced by distillation — stored in steel cylinders (HF passivates steel surface).
+
+**Strengths**: Simple single-step reaction from abundant minerals (fluorite + sulfuric acid); anhydrous HF is readily separated by distillation (bp 19.5°C); steel construction is adequate (HF passivates steel surface); CaSO₄ byproduct is inert and disposable.
+
+**Weaknesses**: HF is uniquely lethal — penetrates skin, binds calcium, causes cardiac arrest at small exposure areas; requires calcium gluconate antidote stations; anhydrous HF boils at 19.5°C (dangerous volatility); fluorite/fluorspar deposits are geographically limited.
 
 **Hazards**: HF is uniquely dangerous among acids. It penetrates skin immediately, binds calcium in tissue → hypocalcemia → cardiac arrest. Even 2.5% body surface area exposure to concentrated HF can be lethal. Treatment: calcium gluconate gel (2.5%) applied immediately to exposed skin, massaged in for 15+ minutes. Full PPE mandatory: face shield, neoprene gloves (not latex — HF penetrates latex), rubber apron. All HF work areas must have calcium gluconate stations within 10 seconds reach.
 
@@ -127,7 +171,15 @@ Steel pickling generates spent acid containing FeSO₄ or FeCl₂ (100-150 g/L i
 - Fe₂O₃ byproduct: 50-65% Fe, suitable for iron ore sinter feed or pigment production.
 - Energy: 2.5-3.5 GJ per tonne regenerated HCl.
 
+**Strengths**: Closes the acid loop — regenerated HCl is reused for pickling; Fe₂O₃ byproduct has value as iron ore feed or pigment; eliminates hazardous waste discharge; well-established industrial technology.
+
+**Weaknesses**: High energy consumption (2.5-3.5 GJ/t regenerated HCl); requires roaster operating at 600-800°C; not suitable for sulfuric acid pickling liquor (different regeneration chemistry); capital-intensive spray roasting equipment.
+
 **Neutralization**: Treat spent acid with lime (Ca(OH)₂) or NaOH to pH 8-9. Iron precipitates as Fe(OH)₃. Filter sludge (20-40% solids). Landfill sludge. Simple but wastes the acid value.
+
+**Strengths**: Simple equipment and chemistry; cheap reagents (lime); effective for small operations.
+
+**Weaknesses**: Destroys the acid value entirely; generates large volumes of Fe(OH)₃ sludge for landfill; neutralization of concentrated acid is exothermic and requires careful temperature control.
 
 ## Acid-Base Safety
 
@@ -153,11 +205,19 @@ Phosphoric acid (H₃PO₄) is the gateway to phosphate fertilizers, which suppl
 - Concentrate by vacuum evaporation to 40-54% P₂O₅. Fluorine evolves as SiF₄/HF — scrub with water to produce fluosilicic acid (H₂SiF₆, used for water fluoridation or AlF₃ production).
 - For higher purity (food-grade): solvent extraction with organic solvents (tributyl phosphate in kerosene) separates H₃PO₄ from impurities.
 
+**Strengths**: Lowest cost route to phosphoric acid; uses abundant phosphate rock and sulfuric acid; gypsum byproduct has construction uses; fluosilicic acid byproduct is saleable; scalable to millions of tonnes/year.
+
+**Weaknesses**: Product is impure (contains Fe, Al, Mg, F) — unsuitable for food or electronics without further purification; large gypsum waste stream (~5 t per t P₂O₅); fluorine emissions require scrubbing; requires fine grinding (<150 μm) of phosphate rock.
+
 **Thermal process** (from elemental phosphorus):
 - Reduce phosphate rock with coke in an electric arc furnace at 1400-1500°C: Ca₃(PO₄)₂ + 3SiO₂ + 5C → 3CaSiO₃ + 5CO + P₂↑. Condense P₂ vapor as white phosphorus (P₄, mp 44°C, highly toxic, ignites spontaneously in air).
 - Burn P₄ in air: P₄ + 5O₂ → P₄O₁₀ (phosphorus pentoxide, extremely hygroscopic).
 - Hydrate: P₄O₁₀ + 6H₂O → 4H₃PO₄. Product: 85% H₃PO₄, very pure (suitable for food and electronics).
 - Energy-intensive (electric arc furnace at 1500°C consumes ~14,000 kWh per tonne P₄) but produces ultra-pure acid.
+
+**Strengths**: Produces ultra-pure H₃PO₄ (food-grade, electronics-grade); simpler product purification than wet process; P₄ intermediate is useful for phosphorus chemicals (organophosphorus compounds, phosphides).
+
+**Weaknesses**: Extremely energy-intensive (~14,000 kWh per tonne P₄); white phosphorus (P₄) is pyrophoric and highly toxic — requires careful handling; electric arc furnace at 1400-1500°C is capital-intensive; uneconomic compared to wet process for fertilizer-grade acid.
 
 **Properties**: 85% H₃PO₄ has density 1.69 g/mL. Non-volatile (does not fume). Mild acid (pKₐ₁ = 2.1). Non-oxidizing at room temperature — safer to handle than HNO₃ or H₂SO₄. Solidifies at 21°C (85%). Stored in steel or rubber-lined tanks.
 
@@ -212,6 +272,4 @@ Lead is uniquely suited for dilute H₂SO₄ (<78%) — forms protective PbSO₄
 
 ---
 
-*Part of the [Chemistry Domain](index.md) • [All Domains](../index.md)*
-
-[← Back to Chemistry](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

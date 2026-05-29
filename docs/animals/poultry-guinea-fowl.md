@@ -2,14 +2,37 @@
 
 > **Node ID**: animals.poultry.guinea-fowl
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.poultry`](poultry.md)
+> **Dependencies**: [`animals.poultry`](poultry.md), [`agriculture`](../agriculture/soil-management.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 1-10+
 > **Outputs**: guinea_meat, guinea_eggs, pest_control, feathers, manure
+> **Critical**: No — unmatched for pest control but chickens are more productive for food
 
 ### Overview
 
 Helmeted guinea fowl (*Numida meleagris*) are hardy, disease-resistant poultry originally domesticated in Africa. Weighing just 1.2-1.6 kg, they are smaller than chickens but excel in two unique roles: pest control and guardianship. Guinea fowl actively hunt ticks, insects, small rodents, and snakes — a flock of 20-30 birds can significantly reduce tick populations across 1-2 hectares. Their loud, raucous alarm calls at the approach of predators or strangers make them effective living alarms for other poultry and livestock. Guinea fowl are extremely hardy, disease-resistant, and thrive on free-range systems with minimal supplemental feed.
+
+### Prerequisites
+
+| Requirement | Source | Notes |
+|-------------|--------|-------|
+| Free-range area (1-2 hectares per 20-30 birds) | [`agriculture`](../agriculture/soil-management.md) | Guinea fowl are free-range specialists |
+| Supplemental grain (wheat, milo) | [`agriculture`](../agriculture/soil-management.md) | 30-80 g/day; obtain 60-80% from foraging |
+| Secure coop with high roosts (1.5-2.0 m) | [`construction`](../construction/building-materials.md) | 0.3-0.4 m² per bird; imprint keets on coop |
+| High-protein keet starter (24-28%) | [`agriculture`](../agriculture/soil-management.md) | Higher than chicken starter; first 6 weeks |
+| Clean water | [`water`](../water/basic-treatment.md) | 100-200 mL/day per bird |
+
+### Bill of Materials
+
+Materials listed for a 25-bird guinea fowl flock per year.
+
+| Material | Quantity | Source | Alternatives |
+|----------|----------|--------|-------------|
+| Supplemental grain | 300-700 kg | [`agriculture`](../agriculture/soil-management.md) | Reduced 60-80% when foraging is good |
+| Keet starter (24-28% protein) | 20-40 kg per batch | [`agriculture`](../agriculture/soil-management.md) | Turkey starter can substitute |
+| Range area (mixed pasture/woodland) | 1-2 hectares | [`agriculture`](../agriculture/soil-management.md) | Tick control effective at 20-30 birds/ha |
+| Coop with high roosts | 4-6 m² floor area | [`construction`](../construction/building-materials.md) | Must train keets to return at dusk |
+| Oyster shell and grit | 10-20 kg | [`mining`](../mining/index.md) | For breeding hens in lay |
 
 ### Breeds and Varieties
 
@@ -217,4 +240,4 @@ Cull hens producing fewer than 60 eggs per season and toms showing aggressive be
 
 ---
 
-[← Back to Animals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

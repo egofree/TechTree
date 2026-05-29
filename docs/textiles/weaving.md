@@ -1,11 +1,12 @@
 # Weaving
 
 > **Node ID**: textiles.weaving
-> **Domain**: Textiles, Fiber & Cordage
+> **Domain**: [Textiles](./index.md)
 > **Dependencies**: [`textiles.dyeing`](dyeing.md)
 > **Enables**: [`textiles.finishing`](finishing.md), [`textiles.sewing-tailoring`](sewing-tailoring.md), [`textiles.spinning`](spinning.md)
 > **Timeline**: Years 0-10
 > **Outputs**: cloth, canvas
+> **Critical**: No
 
 ### Weaving & Cloth Production
 
@@ -17,6 +18,16 @@
 - **Construction**: Heavy wooden frame, 1-1.5 m weaving width. Warp wrapped around cloth beam (front) and warp beam (back). Treadles (foot pedals) raise and lower shafts (frames holding heddles — string or wire loops, one per warp thread). 2-8 shafts for different weave structures. Beater (reed frame) packs weft tight.
 - **Operation**: Depress treadle → shaft lifts → shed opens → throw shuttle (boat shuttle carrying weft yarn) through shed → beat weft with beater → change treadle → repeat. Rhythm: 30-60 picks (weft passes) per minute.
 - **Production**: 1-3 m²/hour of medium-weight cloth. A weaver can produce ~5-10 m² of cloth per day.
+
+**Strengths**:
+- Frame loom requires only a wooden rectangle — the simplest loom to build
+- Treadle loom produces 1-3 m²/hour with both hands free for shuttle and beater
+- 2-8 shafts enable plain, twill, satin, and complex weave structures on one loom
+
+**Weaknesses**:
+- Frame loom limited to 30-60 cm width and 0.5-1 m²/hour — very slow production
+- Treadle loom requires 20-30 board-feet of hardwood and iron hardware (ratchets, pins, bearings)
+- Warp threads break under tension — each broken thread must be hand-tied before weaving continues
 
 ### Treadle Loom Construction Plans
 
@@ -34,6 +45,16 @@ Building a floor loom requires ~20-30 board-feet of hardwood (ash, oak, or maple
 - **Bench**: Hardwood plank (30 × 40 cm) mounted on the loom frame at ~45 cm seat height. Must be comfortable for hours of sitting.
 
 **Shed geometry**: The shed (gap between raised and lowered warp threads) must be clean and large enough for the shuttle to pass. Ideal shed angle: 30-45° from horizontal. Shed depth (front-to-rear distance from heddles to fell line): 60-80 cm. Smaller shed = less strain on warp threads but harder shuttle passage. Adjust by varying the distance between heddle frames and beater.
+
+**Strengths**:
+- All joints are mortise-and-tenon or bolted — standard woodworking joinery
+- Ratchet and pawl on cloth/warp beams maintains tension without constant adjustment
+- 2-8 shafts suspended from rollers give clean shed opening with light treadle pressure
+
+**Weaknesses**:
+- 20-30 board-feet of hardwood (ash, oak, maple) required — significant timber investment
+- Iron ratchet mechanisms need a foundry or blacksmith for the pawl, ratchet wheel, and bolts
+- Reed at 12 dpi needs ~470 individual cane or metal dents — time-consuming to make by hand
 
 ### Heddle Making
 
@@ -64,6 +85,16 @@ The reed is a comb-like beater that spaces warp threads evenly and packs weft ag
 - **Point twill (diamond twill)**: Twill advances in one direction, then reverses — forming diamond or zigzag patterns. 4-8 shafts. Common in medieval European textiles. Creates decorative fabric without additional complexity.
 - **Double weave**: Two layers woven simultaneously, connected at one edge to form a tube or at intervals to form a double-thickness cloth. Requires twice the shafts. Produces tube fabric (bags, sleeves), double-width cloth (wider than loom), and stuffed double cloth (padding). 8+ shafts.
 - **Leno (gauze weave)**: Warp threads twist around each other between weft picks, creating an open, stable mesh. Used for netting, gauze, and sheer fabrics. Requires special doup heddles or a leno mechanism. Does not ravel — edges are stable without hemming.
+
+**Strengths**:
+- Tabby (plain weave) is the strongest structure per thread — maximizes fabric durability
+- Twill drapes better and is more flexible than tabby — preferred for clothing
+- Double weave produces tubes, double-width cloth, and padding on a single loom
+
+**Weaknesses**:
+- Satin weave has long floats that catch and snag — least durable basic structure
+- Complex structures (double weave, leno) require 8+ shafts and special heddles
+- Each additional shaft adds mechanical complexity to the treadle tie-up
 
 ### Warping Procedure
 
@@ -203,4 +234,6 @@ Inspect each piece of finished cloth for defects before grading:
 
 - Yarn from [Spinning](../textiles/spinning.md), cloth finished via [Finishing](../textiles/finishing.md) and [Dyeing](../textiles/dyeing.md). Loom uses [Wood](../plants/structural-plants.md) and [Metals](../metals/iron-steel.md). Power from [Steam](../energy/steam-power.md) and [Electricity](../energy/electricity.md).
 
-[← Back to Textiles](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

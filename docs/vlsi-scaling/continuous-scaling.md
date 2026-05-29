@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 70-200+
 > **Outputs**: larger_wafers, finer_features, higher_yield
+> **Critical**: No — describes scaling progression rather than a specific manufacturing capability
 
 ### Continuous Scaling
 
@@ -38,6 +39,14 @@ Each jump requires: larger crystal pullers, bigger processing equipment, more ma
 - 6-8 layers: Complex SoCs (VLSI)
 - 10+ layers: Modern GPUs, CPUs
 
+**Strengths**:
+- Wafer area doubles with each transition (100→150→200→300 mm), spreading fixed process costs over more die — cost per transistor drops ~30% per generation
+- Feature size scaling from 10 μm to 7 nm represents ~1400× linear shrink, ~2M× density increase — enables billion-transistor processors
+
+**Weaknesses**:
+- Each wafer size transition requires entirely new equipment fleet ($1-10B for 300 mm fab) — no incremental upgrade path
+- Yield at each new node starts near zero — takes 2-3 years of process learning to reach 80%+ maturity
+
 ### Scaling Transition Details
 
 **10 μm → 3 μm (1970s)**: The first shrink. Contact printing gives way to 1:1 projection — a lens images the mask onto the wafer without physical contact, eliminating mask damage. Overlay tolerance relaxes from ±1 μm to ±0.5 μm with basic mechanical alignment stages. Wet etching still adequate. Yield challenge: defect density dominates — even 1 defect/cm² kills most die. Cleanroom discipline (Class 10,000) becomes essential. Equipment: mercury arc lamp sources (g-line 436 nm), basic optical projection lenses.
@@ -50,6 +59,14 @@ Each jump requires: larger crystal pullers, bigger processing equipment, more ma
 
 **130 nm → 65 nm and below (2000s+)**: Immersion lithography (water between lens and wafer) boosts numerical aperture above 1.0. Gate dielectric hits physical limit — SiO₂ at ~1.2 nm has intolerable leakage (see Gate Dielectric Scaling below). Strained silicon engineering introduced. Multiple patterning (double, quad) extends 193 nm lithography far beyond its natural resolution. Yield challenge: variability — random dopant fluctuations, line-edge roughness, systematic layout-dependent effects.
 
+**Strengths**:
+- Each transition (10 μm → 3 μm → 1 μm → 350 nm → 130 nm → 65 nm) follows a predictable pattern: new lithography source, tighter overlay, and new materials — roadmap-driven investment reduces risk
+- Step-and-repeat reduction projection (5:1) dramatically reduces mask cost and improves resolution simultaneously
+
+**Weaknesses**:
+- Every generation requires a new lithography source (g-line → i-line → KrF → ArF → immersion → EUV) — each takes 10-15 years and $1-5B to develop
+- Variability (random dopant fluctuation, line-edge roughness) becomes dominant yield limiter below 65 nm — no longer solvable by process tuning alone
+
 ### Interconnect Scaling Roadmap
 
 As transistors shrink, interconnects become the performance bottleneck — RC delay and power dissipation in wiring dominate over gate delay below ~250 nm.
@@ -60,6 +77,14 @@ As transistors shrink, interconnects become the performance bottleneck — RC de
 - Barrier layers: Ta/TaN (5-20 nm) line every trench to prevent Cu diffusion into SiO₂, which poisons devices. Barrier becomes a larger fraction of wire cross-section at each node, partially offsetting Cu's resistivity advantage.
 
 **Low-κ dielectrics**: SiO₂ (κ ≈ 4.0) inter-layer dielectric causes high inter-wire capacitance. Replacement progression: F-doped SiO₂ (κ ≈ 3.5) → organosilicate glass (κ ≈ 2.5-3.0) → porous OSG (κ ≈ 2.0-2.5). Each step reduces RC delay but trades mechanical strength — porous dielectrics crack during CMP and packaging. Air gaps (κ ≈ 1.0) in research.
+
+**Strengths**:
+- Copper damascene reduces interconnect resistance by 37% vs aluminum — directly improves clock speed and power
+- Low-κ dielectric progression from κ=4.0 to κ=2.0 reduces inter-wire capacitance by ~50%, cutting RC delay
+
+**Weaknesses**:
+- Ta/TaN barrier (5-20 nm) occupies increasing fraction of wire cross-section at each node — at 30 nm pitch, barrier is ~50% of trench width
+- Porous low-κ dielectrics crack under CMP downforce and packaging stress — mechanical reliability limits further κ reduction
 
 ### Gate Dielectric Scaling
 
@@ -72,6 +97,14 @@ The gate oxide is the critical dimension controlling transistor switching. Scali
 **High-κ + metal gate (45 nm and below)**: Hafnium oxide (HfO₂, κ ≈ 20-25) deposited by ALD replaces SiO₂. A 2 nm HfO₂ film has the same gate capacitance as ~0.4 nm SiO₂ ("equivalent oxide thickness" or EOT) but is physically thick enough to suppress tunneling leakage by orders of magnitude. Deposited by ALD for Angstrom-level thickness control (see [Advanced Processes](advanced-processes.md)).
 
 The polysilicon gate electrode must also be replaced: HfO₂ traps at the poly-Si interface (Fermi-level pinning). Metal gates (TiN, TaN, or work-function-tuned metal stacks) solve this. The "gate-last" (replacement gate) process removes the poly-Si after source/drain formation and replaces it with metal, preserving the high-κ dielectric.
+
+**Strengths**:
+- HfO₂ (κ ≈ 20-25) provides equivalent capacitance to 0.4 nm SiO₂ in a physically 2 nm film — suppresses tunneling leakage by orders of magnitude
+- Gate-last process decouples gate electrode formation from high-temperature source/drain anneal — preserves both threshold voltage control and dopant activation
+
+**Weaknesses**:
+- ALD HfO₂ requires sub-angstrom thickness control — a 0.1 nm variation shifts threshold voltage by ~10-20 mV
+- Metal gate work function must be tuned separately for NMOS (~4.1 eV) and PMOS (~5.2 eV) — requires two different metal stacks
 
 ### Bootstrap Roadmap
 
@@ -86,6 +119,14 @@ Not every node requires every technology. A practical bootstrap sequence:
 | 65 nm and below | GPU-class silicon | Immersion scanner, high-κ/metal gate, ALD |
 
 Each generation's equipment is built using the previous generation's ICs (for control electronics, alignment systems, sensors). This self-reinforcing feedback loop is why the bootstrap takes 70-200+ years from first transistor.
+
+**Strengths**:
+- Each node (10 μm → 3 μm → 1 μm → 350 nm → 130 nm → 65 nm) requires only 1-2 new capabilities beyond the previous — incremental investment
+- Self-reinforcing loop: each generation's ICs become control electronics for next-generation equipment
+
+**Weaknesses**:
+- 70-200+ year bootstrap timeline assumes continuous investment — any gap in capability development resets the feedback loop
+- 300 mm fab at 65 nm node costs $3-5B — capital requirements become prohibitive for small civilizations
 
 ### Hazards & Safety
 
@@ -131,6 +172,14 @@ Gordon Moore's 1965 observation (refined in 1975) that transistor count per chip
 
 Each node nominally shrinks gate pitch by 0.7× (half the area per transistor) and metal pitch by 0.7-0.8×. The move from planar transistors to FinFETs at 22 nm interrupted pure 2D scaling — fins add a third dimension for gate control, effectively increasing drive current per footprint without shrinking the gate length proportionally.
 
+**Strengths**:
+- Transistor density scaled from ~1.5 MTr/mm² (130 nm) to ~300 MTr/mm² (3 nm) — a 200× increase enabling billion-transistor processors
+- Chiplet architecture (AMD Epyc Rome, 39.5B transistors) bypasses reticle size limits by stitching multiple dies in package
+
+**Weaknesses**:
+- Die area growth stalled at ~800-840 mm² (reticle limit 26×33 mm) — further density gains require either chiplets or 3D stacking
+- Apple M1 Ultra at 114B transistors on 5 nm requires TSMC's most advanced node — only 2-3 companies worldwide can afford this
+
 ### Dennard Scaling and Its Breakdown
 
 Robert Dennard's 1974 paper established that shrinking MOSFET dimensions by a factor κ while scaling voltage by the same κ yields transistors that are κ² times smaller, κ times faster, and consume the same power density. This "constant-field scaling" held from the 1970s until approximately 2006.
@@ -148,6 +197,14 @@ Robert Dennard's 1974 paper established that shrinking MOSFET dimensions by a fa
 - **Subthreshold leakage**: Threshold voltage Vth must scale with Vdd to maintain drive current. But subthreshold swing (minimum ~60 mV/decade at room temperature) means reducing Vth exponentially increases off-state leakage current (Ioff ∝ 10^(-Vth/S), where S ≈ 60-100 mV/decade). Below ~0.7V Vth, leakage becomes unacceptable. Since Vdd must stay above Vth by ~3-5× for noise margin, Vdd bottomed out around 0.8-1.0V and has remained there since the 90 nm node.
 - **Power wall consequence**: With voltage no longer scaling but transistor density still doubling, power density increased from ~30 W/cm² at 130 nm to 100+ W/cm² at 28 nm. Modern high-performance CPUs reach 150-300 W/cm² — comparable to the heat flux on a nuclear reactor fuel rod. This drives the shift to multi-core processors ("dark silicon": only a fraction of transistors can be simultaneously active within the thermal budget) and domain-specific accelerators.
 
+**Strengths**:
+- Dennard scaling held for 30+ years (1974-2006) — each generation delivered higher speed, lower power per transistor, and smaller area simultaneously
+- Constant power density meant thermal design was straightforward — the same cooling solution worked across nodes
+
+**Weaknesses**:
+- Gate oxide tunneling at <1.2 nm SiO₂ broke voltage scaling — Vdd stalled at 0.8-1.0V since the 90 nm node
+- Subthreshold swing limit of ~60 mV/decade prevents Vth from scaling further — leakage current increases exponentially below ~0.7V threshold
+
 ### FinFET and Gate-All-Around Architectures
 
 Planar MOSFETs lose gate control over the channel below ~20-25 nm gate length — the drain electric field penetrates underneath the gate, causing drain-induced barrier lowering (DIBL) and severe short-channel effects. 3D transistor geometries restore gate control by wrapping the gate electrode around multiple sides of the channel.
@@ -163,6 +220,14 @@ Planar MOSFETs lose gate control over the channel below ~20-25 nm gate length �
 - **Fabrication**: Start with alternating Si/SiGe epitaxial layers. Pattern vertical pillars, then selectively etch the SiGe layers to release the Si nanosheets. Deposit gate dielectric (high-κ) and metal gate around the suspended sheets. The selective SiGe removal requires extreme etch selectivity (>100:1 SiGe:Si) and precise endpoint control.
 - **Samsung MBCFET** (3 nm): Replaces FinFET with GAA nanosheets. Claims 30% power reduction, 23% performance improvement, and 16% area reduction vs. 5 nm FinFET at the same node.
 - **Effective channel width per footprint**: GAA nanosheets can achieve 3-4× the effective width of a single FinFET fin, enabling higher drive current in a smaller footprint. This is the key scaling advantage — voltage and gate length are near their practical limits, so architecture provides the density gains.
+
+**Strengths**:
+- FinFET gate wraps three sides of the channel — subthreshold slope improved from ~100 mV/decade (planar) to ~65-70 mV/decade, restoring gate control below 20 nm
+- GAA nanosheets wrap all four sides — 3-4× effective channel width per footprint vs single FinFET fin, enabling further scaling at 3 nm
+
+**Weaknesses**:
+- Fin width at 6-8 nm (5 nm node) requires SADP + EUV — patterning tolerance is ±0.5 nm on a 7 nm feature
+- GAA fabrication requires selective SiGe:Si etch with >100:1 selectivity — one of the most demanding etch processes in semiconductor manufacturing
 
 ### Process Node Cost Scaling
 
@@ -185,6 +250,14 @@ Each technology node requires exponentially more capital investment per wafer, d
 
 **Cost per good die**: Die cost = (wafer cost) / (dies per wafer × yield). A 100 mm² die on 5 nm at 80% yield: wafer cost ~$15,000, ~650 dies per 300 mm wafer, ~520 good dies → $29/die. The same die on 28 nm at 90% yield with $7,000 wafer cost yields ~580 good dies → $12/die. Advanced nodes only make economic sense when the performance or density advantage commands a premium price.
 
+**Strengths**:
+- Transistor cost drops ~50× from 130 nm to 3 nm despite rising wafer cost — density scaling outpaces cost inflation
+- Mask set cost ($0.3-40M) is amortized over millions of production wafers — negligible per-die at volume
+
+**Weaknesses**:
+- Fab capital cost escalated from ~$5-8B (28 nm) to $20-30B (3 nm) — only TSMC, Samsung, and Intel can afford leading-edge fabs
+- Mask set cost at 3 nm ($20-40M) makes low-volume ASIC production economically impossible — forces use of older nodes
+
 ### Yield and Defect Density
 
 Yield — the fraction of manufactured chips that function correctly — is the dominant economic variable in semiconductor manufacturing. A 1% yield improvement at an advanced node can be worth hundreds of millions of dollars per year.
@@ -205,6 +278,14 @@ Yield — the fraction of manufactured chips that function correctly — is the 
 Each masking layer adds independently to defect density: D₀_total = N_layers × D₀_layer. A 14 nm process with 50 masking layers and D₀_layer = 0.002 defects/cm² gives D₀_total = 0.1 defects/cm². Yield for a 200 mm² die: Y = e^(-0.1×2) ≈ 82%. This is why reducing layer count and improving per-layer defect density are both critical yield levers.
 
 **Systematic vs. random defects**: Random defects (particles, contamination) follow statistical models. Systematic defects (lithography hotspots, CMP dishing patterns, design-dependent failures) are reproducible and must be eliminated through design rule refinement and process optimization. At advanced nodes, systematic defects can account for 30-50% of yield loss in early production. Design-for-manufacturing (DFM) rules and lithography hotspot checks (see [EDA Design](eda-design.md)) target systematic yield limiters specifically.
+
+**Strengths**:
+- Negative binomial yield model accurately predicts mature yield from defect density and die area — enables rational fab investment decisions
+- Reducing D₀_layer from 0.01 to 0.002 defects/cm² per masking layer yields exponential improvement — each clean process step multiplies overall yield
+
+**Weaknesses**:
+- 50+ masking layers at 14 nm mean D₀_total compounds linearly — a single dirty process step dominates total defect density
+- Systematic defects (30-50% of yield loss at advanced nodes) cannot be modeled statistically — require design-specific DFM analysis
 
 
 ---

@@ -1,9 +1,12 @@
 # Lithography
 
 > **Node ID**: vlsi-scaling.lithography
-> **Domain**: VLSI Scaling
+> **Domain**: [VLSI Scaling & Advanced Semiconductor](./index.md)
+> **Dependencies**: [`photolithography.resists-masks`](../photolithography/resists-masks.md), [`optics.inspection`](../optics/inspection.md), [`vlsi-scaling.vacuum-systems`](vacuum-systems.md)
+> **Enables**: [`vlsi-scaling.advanced-processes`](advanced-processes.md), [`vlsi-scaling.continuous-scaling`](continuous-scaling.md)
 > **Timeline**: Years 40-60
 > **Outputs**: patterned_wafers, photomasks, exposure_systems
+> **Critical**: Yes — lithography resolution is the primary determinant of achievable feature size
 
 ## Overview
 
@@ -28,6 +31,14 @@ The ArF immersion generation has been the most productive in semiconductor histo
 
 **Historical wavelength selection**: The 157 nm F₂ excimer laser was developed as the intended successor to 193 nm ArF (~$2B invested industry-wide, 1998-2003). Abandoned because CaF₂ lens materials (the only option at 157 nm — fused silica absorbs above ~6.7 eV photon energy) had insufficient birefringence control for projection lens elements. The industry pivoted to immersion lithography at 193 nm, extending the ArF wavelength for an additional 15+ years through water immersion (NA boost to 1.35) and multiple patterning techniques.
 
+**Strengths**:
+- ArF immersion at 193 nm has enabled nodes from 45 nm through 10 nm — the most productive wavelength generation in semiconductor history
+- Resolution formula (k₁ × λ / 2NA) provides a clear roadmap: reduce wavelength, increase NA, or push k₁ lower through RET
+
+**Weaknesses**:
+- Each new wavelength generation (436→365→248→193→13.5 nm) required 10-15 years and $1-5B to develop
+- 157 nm F₂ laser was abandoned after $2B investment — CaF₂ birefringence was an unsolvable materials problem at the time
+
 ### Projection Stepper and Scanner Design
 
 A projection stepper exposes one field at a time and steps across the wafer. A scanner adds continuous synchronized motion during exposure, enabling larger field sizes with smaller optical elements. Modern scanners weigh 50-100 tonnes and position wafers with nanometer precision at 500-700 mm/s scan speed.
@@ -44,6 +55,14 @@ A projection stepper exposes one field at a time and steps across the wafer. A s
 
 **Reticle stage**: Scans at 4× wafer velocity (up to 2-3 m/s for 4:1 reduction). Synchronization error: <1 nm during scan. Independent air-bearing design with interferometric feedback. Mass: 10-20 kg (including reticle). Acceleration: 10-20 m/s² (higher than wafer stage due to lower mass and higher velocity requirement).
 
+**Strengths**:
+- 4:1 reduction ratio relaxes mask fabrication requirements — 20 nm wafer feature needs only 80 nm mask feature
+- Air bearing stage with heterodyne laser interferometers achieves <0.3 nm RMS position noise at 500-700 mm/s scan speed
+
+**Weaknesses**:
+- Scanner mass of 50-100 tonnes with 10-30 tonne granite foundation — requires specialized facility with vibration-isolated floor
+- Reticle stage must synchronize at <1 nm error while scanning at 2-3 m/s — extreme mechanical precision demand
+
 ### Projection Optics
 
 The projection lens is the heart of the scanner — a stack of 20-30 precision optical elements that images the mask pattern onto the wafer with atomic-level fidelity.
@@ -53,6 +72,14 @@ The projection lens is the heart of the scanner — a stack of 20-30 precision o
 **Aberration control**: Each lens element mounted with 6-degree-of-freedom adjustment (3 translation + 3 rotation) driven by piezoelectric actuators. Total system wavefront error: <0.5 mλ RMS (at 193 nm, this equals 0.1 nm — the optical system must be perfect to within one atom across the full aperture). Lens spacing tolerance: ±0.1 μm over 1 m barrel length, achieved with athermalized Invar or carbon-fiber composite structures (CTE <1×10⁻⁶/°C).
 
 **Lens heating compensation**: Absorption of DUV light (even at 193 nm, fused silica absorbs ~0.1-1%/cm) causes localized heating and refractive index changes in the lens elements. Index change: dn/dT ≈ 10×10⁻⁶/°C for fused silica at 193 nm. A 0.01°C temperature shift in a lens element causes ~1 nm focus drift. Active thermal control: lens barrel surrounded by temperature-controlled water jacket (±0.01°C). Lens heating models predict and pre-compensate for drift during the scan based on exposure dose history.
+
+**Strengths**:
+- 20-30 element refractive lens achieves <0.5 mλ RMS wavefront error (0.1 nm at 193 nm) — atomic-scale optical perfection
+- Active thermal compensation (water jacket ±0.01°C + predictive lens heating model) maintains focus stability during production scanning
+
+**Weaknesses**:
+- Each lens element requires 6-DOF piezoelectric adjustment — ~150 actuators must be simultaneously calibrated and maintained
+- EUV reflective system loses ~97% of source light through 10 Mo/Si mirrors (0.70^10 ≈ 2.8% transmission) — extreme source power required
 
 ### Alignment and Overlay Control
 
@@ -74,6 +101,14 @@ Overlay — the accuracy with which each patterned layer aligns to previously pa
 
 At 3 nm node, overlay requirement tightens to ~2 nm, demanding improved stage precision, higher-order correction models, and reduced process-induced distortion through tighter CMP and thin-film stress control.
 
+**Strengths**:
+- Phase-grating alignment achieves <1 nm measurement precision from diffracted signal analysis — sub-atomic positioning feedback
+- Three-level correction hierarchy (per-wafer + per-field + real-time at 20-50 kHz) achieves <2.5 nm (3σ) overlay on 300 mm wafers
+
+**Weaknesses**:
+- Process-induced distortion from film stress and CMP consumes ±1.5 nm of the ~3.2 nm overlay budget at 7 nm node — nearly half the total
+- At 3 nm node, overlay requirement of ~2 nm leaves almost zero margin for stage, mask, and process errors simultaneously
+
 ### Resolution Enhancement Techniques
 
 When feature sizes approach or fall below the exposure wavelength, diffraction distorts the printed image. RET compensates through mask modification and illumination optimization — these are not optional refinements but essential enablers for every node below ~130 nm.
@@ -93,6 +128,14 @@ When feature sizes approach or fall below the exposure wavelength, diffraction d
 - Freeform: Arbitrary pupil fill pattern computationally optimized via source-mask optimization (SMO). Best results, highest compute cost.
 - k₁ factor reduction: Conventional ~0.5-0.6. OAI + OPC + PSM pushes to 0.25-0.35. Below k₁ = 0.25, imaging is fundamentally impossible regardless of RET.
 
+**Strengths**:
+- Model-based OPC corrects mask shapes iteratively until simulated wafer image matches target within ±1-2 nm — enables sub-wavelength patterning at k₁ < 0.35
+- Alternating PSM effectively doubles resolution through destructive interference — single most powerful resolution enhancement for dense lines
+
+**Weaknesses**:
+- Full-chip OPC requires 50-500 CPU-hours per layer and generates 100 GB-1 TB of corrected mask data — extreme compute and storage cost
+- Freeform illumination (SMO) with 10,000+ CPU-hours per layer is practical only for the most critical layers (gate, M1, contact)
+
 ### Computational Lithography
 
 Computational lithography uses mathematical simulation to predict and optimize printed patterns. It has become as important as the physical optics — without it, features below ~100 nm cannot be manufactured.
@@ -106,6 +149,14 @@ Computational lithography uses mathematical simulation to predict and optimize p
 
 **Inverse lithography technology (ILT)**: Starts from desired wafer image and mathematically inverts imaging equations to compute optimal mask shape. Produces curvilinear mask features (rather than Manhattan rectangles) providing 10-20% larger process windows. Requires multi-beam mask writers for curvilinear patterns — deployed for EUV at 5 nm and below. Mask write time: 2-5× longer than rectangular OPC, but yield benefit justifies cost for critical layers.
 
+**Strengths**:
+- Resist + etch models predict CD within ±2 nm across full process window — enables first-pass OPC convergence without trial wafers
+- ILT curvilinear mask features provide 10-20% larger process windows — significant yield benefit at 5 nm and below
+
+**Weaknesses**:
+- SMO requires 10,000+ CPU-hours per layer — only affordable for the most critical mask levels
+- ILT curvilinear patterns require multi-beam mask writers with 2-5× longer write time — increases mask cost by ~$50-100K per layer
+
 ### Immersion Lithography
 
 At 193 nm (ArF), the maximum dry NA is ~0.93, limited by the practical maximum lens half-angle. Ultrapure water (refractive index n = 1.44 at 193 nm) between final lens and wafer raises NA to 1.35 — exceeding the dry limit and enabling ~38 nm half-pitch single exposure.
@@ -117,6 +168,14 @@ At 193 nm (ArF), the maximum dry NA is ~0.93, limited by the practical maximum l
 **Higher-index fluids research**: Second-generation immersion fluids (aqueous solutions or organic liquids with n > 1.55 at 193 nm) were investigated to push NA above 1.45. No material achieved the required purity, transparency, and stability simultaneously. High-NA EUV became the preferred path instead.
 
 **High-NA EUV (future)**: Standard EUV NA = 0.28-0.33 (4:1 reduction). High-NA EUV targets NA = 0.55 with 8:1 anamorphic reduction (different X/Y magnification). Resolution: ~8 nm half-pitch single exposure (enabling ~2 nm node without multiple patterning). Mirrors ~1 m+ diameter, new mask format (no backward compatibility). Estimated cost: $500-700M per scanner. First production expected 2025-2027.
+
+**Strengths**:
+- Water immersion (n = 1.44) raises NA from 0.93 (dry) to 1.35 — single change extends 193 nm wavelength through 4+ technology nodes
+- Immersion defect density target of <0.01 defects/cm² achieved with topcoat barriers and hydrophobic resist surfaces
+
+**Weaknesses**:
+- Water temperature must be controlled to ±0.01°C — refractive index changes ~1×10⁻⁴/°C cause focus drift
+- Higher-index fluids (n > 1.55) never achieved required purity and transparency simultaneously — NA ceiling at 1.35
 
 ### EUV Lithography
 
@@ -133,6 +192,14 @@ EUV at 13.5 nm is absorbed by all materials including gases, requiring reflectiv
 
 **Vacuum requirement**: EUV absorbed by any gas. Entire beam path at ~10⁻⁵ to 10⁻⁷ Torr. Chamber volume 10-20 m³. Pumping: turbomolecular + dry scroll + cryopumps. See [Vacuum Systems](vacuum-systems.md) for detailed pump technology.
 
+**Strengths**:
+- EUV at 13.5 nm enables sub-7 nm features in a single exposure — eliminates multiple patterning for critical layers
+- Sn plasma source power progression from 80 W (2016) to 500 W (2024+) supports 100-180 WPH throughput
+
+**Weaknesses**:
+- Wall-plug efficiency ~0.01-0.02% — each watt of EUV at wafer requires 100-200 W of CO₂ laser input
+- 10-mirror system transmits only ~2.8% of source EUV — extreme source power needed to achieve usable dose at wafer
+
 ### Multiple Patterning
 
 When single-exposure resolution is insufficient, multiple patterning decomposes one layer into multiple mask exposures.
@@ -144,6 +211,14 @@ When single-exposure resolution is insufficient, multiple patterning decomposes 
 **SAQP (self-aligned quadruple patterning)**: SADP applied twice. 76 nm mandrel → 38 nm first spacer → 19 nm second spacer. CD uniformity: ±1.5 nm (3σ) across 300 mm wafer. Used at 10 nm and 7 nm for gate and fin layers. Two cut masks required to trim unwanted patterns.
 
 **LE³/LE⁴ (triple/quad litho-etch)**: 3-4 mask exposures per layer. Each adds ~2-3 nm overlay consumption from ~5 nm total edge placement error budget. Used at 10 nm / 7 nm for contact/via layers where SADP geometry constraints don't apply.
+
+**Strengths**:
+- SADP achieves 1× pitch division via CVD spacer thickness (±1 nm accuracy) — no overlay error from second lithography exposure
+- SAQP produces 19 nm pitch from 76 nm mandrel with ±1.5 nm CD uniformity — extends 193 nm immersion through 7 nm node
+
+**Weaknesses**:
+- LELE double patterning requires <3 nm overlay between two exposures — extremely demanding alignment precision
+- SAQP spacer patterns form closed loops requiring cut mask lithography — adds complexity for non-regular layouts
 
 ### Mask Technology
 
@@ -162,6 +237,14 @@ Masks are master templates. A single mask defect prints on every die on every wa
 
 **Mask repair**: FIB (Ga⁺ ions, 5-30 keV) removes excess material. E-beam-induced deposition (organometallic precursor gas) adds missing material. Accuracy: ±5-10 nm. Unrepairable critical defects (CD errors on dense patterns, multilayer damage on EUV) require mask remake at $100,000-500,000 and 2-4 weeks of delay.
 
+**Strengths**:
+- 4:1 reduction means 20 nm wafer defect requires only 80 nm mask feature — relaxes mask fabrication requirements
+- Die-to-database inspection detects 30-50 nm mask defects (8-12 nm on wafer) — catches defects before they print on millions of dies
+
+**Weaknesses**:
+- E-beam mask writing takes 10-40 hours per mask — throughput bottleneck for mask fabrication
+- EUV mask blank ($50,000-100,000) with 40-50 Mo/Si bilayer pairs — single unrepairable defect wastes the entire blank
+
 ### Process Window and CD Control
 
 **CD variation budget** (7 nm node):
@@ -173,6 +256,14 @@ Masks are master templates. A single mask defect prints on every die on every wa
 **Depth of focus (DOF)**: ~100-150 nm for dense features at 193 nm immersion, NA = 1.35. Topography from underlying layers (CMP non-uniformity, film steps) consumes 30-80 nm of this budget. CMP planarization (see [Advanced Processes](advanced-processes.md)) is essential to preserve DOF. For EUV at NA = 0.33: DOF ~80-120 nm.
 
 **Common process window**: The overlap region where all feature types (isolated lines, dense lines, contacts, line ends) simultaneously meet CD specifications. At k₁ < 0.35, the common window shrinks dramatically, requiring SMO or freeform illumination to maintain manufacturable margins.
+
+**Strengths**:
+- Total CD variation budget of ±2.0 nm (3σ) at 7 nm node is decomposed into traceable contributions (litho ±1.5, etch ±0.8, resist ±0.5) — enables root-cause analysis for yield excursions
+- CMP planarization preserves 30-80 nm of the 100-150 nm DOF budget — essential for maintaining process window at sub-20 nm features
+
+**Weaknesses**:
+- At k₁ < 0.35, common process window shrinks dramatically — all feature types must simultaneously meet CD specs, which is geometrically constraining
+- EUV DOF of only 80-120 nm at NA = 0.33 leaves less topography margin than 193 nm immersion
 
 ### Throughput and Cost of Ownership
 
@@ -188,11 +279,27 @@ Masks are master templates. A single mask defect prints on every die on every wa
 
 **EUV economic threshold**: EUV at $300M per scanner replaces 2-3 DUV immersion passes with 1 EUV pass. Break-even requires >85% utilization and >250 W source power. At lower utilization or power, the per-wafer cost exceeds the DUV multiple-patterning alternative.
 
+**Strengths**:
+- I-line stepper at $3-5M provides 80-120 WPH at $0.50-1.00/wafer — cost-effective for mature nodes (>350 nm)
+- EUV replaces 2-3 DUV passes with 1 pass, reducing cycle time and overlay accumulation
+
+**Weaknesses**:
+- EUV scanner at $200-350M with $8-15/wafer cost — only economical for high-volume products at leading nodes
+- 20 critical layers double-patterned at 14 nm = 40 litho passes at $60-100/wafer — lithography dominates wafer cost
+
 ### Photoresist Processing
 
 **CAR (chemically amplified resist)**: PAG molecules (5-15 wt%) absorb DUV photon → generate strong acid → catalytically cleave 10-100 polymer protecting groups during PEB (90-130°C, 60-90 sec). Amplification factor ~50×. Required dose: 20-40 mJ/cm² for 193 nm ArF. Environmental sensitivity: airborne amines (NMP, ammonia) neutralize acid. Amine concentration in litho bay: <1 ppb. Chemical air filtration on all recirculation ducts.
 
 **Resist track system**: Automated wafer processing: spin coat (1000-4000 RPM, 20-60 sec → 50-500 nm film) → soft bake (90-130°C, 60-90 sec, hot plate) → expose (scanner) → PEB (90-130°C, 60-90 sec) → develop (0.26N TMAH aqueous, 23°C, 30-60 sec puddle) → hard bake (100-150°C, 60-90 sec). Track-to-scanner interface: wafer handler transfers in <10 sec. Typical configuration: 2-4 coaters + 2-4 developers per scanner, processing 3-4 wafers simultaneously through the coat-develop cycle.
+
+**Strengths**:
+- CAR amplification factor ~50× enables practical doses of 20-40 mJ/cm² — without chemical amplification, DUV resists would require impractically high dose
+- Automated resist track system processes 3-4 wafers simultaneously with <10 sec scanner transfer — high throughput
+
+**Weaknesses**:
+- CAR environmental sensitivity requires amine concentration <1 ppb in litho bay — chemical air filtration on all recirculation ducts
+- EUV shot noise at ~5-10 photons per 10 nm pixel causes 10-20% dose variation — fundamentally limits LER to 3-5 nm
 
 ### Hazards & Safety
 

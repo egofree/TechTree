@@ -70,6 +70,22 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 6. **Compress tablets**: Set tablet press to target weight (e.g., 500 mg ±5%). Compress first 20 tablets. Weigh each individually. All must be within ±5% of target weight. Measure hardness with a tablet hardness tester (target: 4-8 kgf). Adjust compression force as needed. Test disintegration: drop one tablet into 37°C water — should disintegrate within 15 minutes.
 7. **Inspect and package**: Visually inspect every tablet for defects (chipping, capping, lamination, discoloration). Reject defective tablets (>2% defect rate triggers process investigation). Package in amber glass bottles with desiccant. Label with: drug name, strength, batch number, manufacture date, expiry date, storage conditions.
 
+**Verification**: Weigh 20 tablets individually from each batch — all must be within ±5% of target weight. Test hardness (4-8 kgf), disintegration (<15 min in 37°C water), and friability (<1% weight loss in 100-revolution tumble test). Perform assay by TLC densitometry or titration (90-110% of label claim).
+
+**Expected outcome**: Tablet weight uniformity RSD <3% for 20 tablets. Assay 95-105% of label claim for a well-controlled process. Yield: 95-98% of theoretical (accounting for material lost in mixing, screening, and dust). Defect rate <1% for a properly calibrated press.
+
+**Materials**: API (purity >95%), starch (10% w/v paste as binder), lactose or dicalcium phosphate (filler, 200-500 g per 1000 tablets), starch or microcrystalline cellulose (disintegrant, 20-50 g per 1000 tablets), talc or magnesium stearate (lubricant, 5-15 g per 1000 tablets). Tablet press die: 6-10 mm diameter, adjustable fill depth 3-12 mm.
+
+**Strengths**:
+- Tablet compression produces exact, repeatable doses — eliminates the dose variability of hand-rolled pills or plant preparations
+- Single-punch tablet press is achievable with basic machine tools — a hand-operated press produces 500-2000 tablets per hour
+- Tablets are stable for 2-3 years when properly packaged, enabling stockpiling and distribution
+
+**Weaknesses**:
+- Mixing uniformity is the bottleneck — poor mixing creates tablets with dose variation exceeding ±15%, some dangerously high
+- Tablet press requires precision-machined dies and punches (±0.01 mm tolerance) that wear over 50,000-100,000 compressions
+- Moisture-sensitive APIs degrade during wet granulation — dry compaction is possible but produces weaker tablets
+
 ### Tincture Production (Batch)
 
 1. **Prepare plant material**: Dry plant material at 40-60°C to constant weight. Grind to coarse powder (passes #20 sieve). Record starting weight.
@@ -79,6 +95,22 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 5. **Standardize**: Measure specific gravity with hydrometer (indicates ethanol content). Perform TLC to verify active compound presence (compare to reference standard). If reference standard available, adjust concentration by dilution or further extraction.
 6. **Package**: Fill amber glass bottles. Seal with cork or glass stopper. Label with: plant name (botanical), preparation date, solvent concentration, batch number, dosage range, warnings.
 
+**Verification**: Measure specific gravity with hydrometer (correlates with ethanol content — target 40-70% ethanol by volume). Perform TLC against a reference standard to confirm active compound presence. Test pH (should be 4-7 for most herbal tinctures). Inspect for cloudiness or sediment indicating microbial contamination.
+
+**Expected outcome**: Tincture potency varies with plant source and extraction time — expect 70-90% extraction efficiency at 21 days. Ethanol content 40-70% ensures shelf stability for 2-5 years. Volume yield: 80-90% of input solvent volume (remainder retained in plant marc).
+
+**Materials**: Dried plant material (ground to pass #20 sieve, 840 μm). Ethanol 45-70% (v/v) — produced by [distillation](../chemistry/distillation.md). Glass maceration vessel with tight seal (1-10 L capacity). Amber glass bottles (100-500 mL) with cork or glass stoppers. Filter paper or fine cloth.
+
+**Strengths**:
+- Tincture production requires no specialized equipment beyond glass vessels and ethanol — achievable at early chemistry stage
+- Ethanol acts as both extraction solvent and preservative — tinctures remain shelf-stable for 2-5 years without refrigeration
+- Flexible dosing: tinctures can be diluted in water and dose-adjusted by volume (1-5 mL)
+
+**Weaknesses**:
+- Potency varies between batches due to plant material variability — difficult to standardize without TLC and reference standards
+- 14-28 day maceration time is slow compared to percolation or decoction methods
+- Ethanol content makes tinctures unsuitable for children, recovering alcoholics, and patients with liver disease
+
 ### Sterile Liquid Production (for Injections)
 
 1. **Prepare solution**: Dissolve drug in Water for Injection (WFI — water distilled and filtered through 0.22 μm filter). Add preservative if multi-dose vial (benzyl alcohol 0.9% or phenol 0.5%). Adjust pH to physiological range (pH 4.5-7.0 for most drugs).
@@ -86,6 +118,22 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 3. **Fill aseptically**: In a clean environment, fill sterile glass vials or ampoules. Seal immediately — flame-seal ampoules, crimp rubber stoppers on vials with aluminum caps.
 4. **Terminal sterilize**: Autoclave at 121°C for 15 minutes (if drug is heat-stable). For heat-labile drugs, rely on aseptic processing and filter sterilization only (higher sterility risk).
 5. **Test sterility**: Incubate samples in thioglycollate broth (bacteria) and soybean-casein digest broth (fungi) at 30-35°C and 20-25°C respectively for 14 days. No growth = passes sterility test.
+
+**Verification**: Perform bubble point test on 0.22 μm membrane filter before use — apply air pressure to the wetted filter; bubble formation at ≥3.5 bar (50 psi) confirms filter integrity. After filling, inspect every vial or ampoule for particulate matter, cracks, and proper sealing. Verify fill volume by weighing 10 vials against a tare.
+
+**Expected outcome**: Sterility assurance level (SAL) of 10⁻⁶ (probability of a single viable organism ≤1 in 1,000,000 units). Particulate matter <10 particles per mL ≥10 μm diameter. Fill volume within ±2% of target.
+
+**Materials**: Water for Injection (WFI) — distilled and filtered through 0.22 μm membrane. Drug substance (purity >98%). Preservative (benzyl alcohol 0.9% or phenol 0.5% for multi-dose vials). Glass vials (2-20 mL) or ampoules (1-10 mL). Rubber stoppers (bromobutyl or silicone-coated). Aluminum crimp seals. 0.22 μm membrane filter (cellulose acetate or PVDF).
+
+**Strengths**:
+- Injectable drugs achieve 100% bioavailability — the full dose reaches systemic circulation, unlike oral administration with variable absorption
+- Terminal sterilization (autoclave) provides SAL 10⁻⁶ — the highest sterility assurance achievable
+- Glass ampoules provide hermetic seal with zero gas exchange — shelf life exceeds 2 years at room temperature
+
+**Weaknesses**:
+- Filter sterilization through 0.22 μm membrane requires manufacturing capability for synthetic membranes (cellulose acetate or PVDF)
+- Aseptic filling demands a clean environment and trained operators — a single contamination event ruins the entire batch
+- Glass ampoules require flame-sealing capability; rubber-stoppered vials require aluminum crimping tools
 
 ## Quantitative Parameters
 

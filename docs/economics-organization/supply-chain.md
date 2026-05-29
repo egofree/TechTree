@@ -79,9 +79,21 @@ Supply chain coordination is an organizational capability. The "materials" are d
 
 3. **Calculate buffer stock requirements**: For each input, determine the safety stock needed to absorb supply variability. Formula:
 
-   Safety stock = (Maximum lead time − Average lead time) × Daily consumption rate × Safety factor (1.5-2.0)
+    Safety stock = (Maximum lead time − Average lead time) × Daily consumption rate × Safety factor (1.5-2.0)
 
-   Example: If charcoal lead time varies from 2-5 days and daily consumption is 1.75 tonnes, safety stock = (5-2) × 1.75 × 1.5 = 7.9 tonnes of charcoal buffer.
+    Example: If charcoal lead time varies from 2-5 days and daily consumption is 1.75 tonnes, safety stock = (5-2) × 1.75 × 1.5 = 7.9 tonnes of charcoal buffer.
+
+**Decision criteria**: Map the supply chain when production involves >3 sequential specialist steps or >5 distinct input materials. For simpler operations (single-step, <3 inputs), informal coordination suffices. Identify single points of failure — any input with only one source must have a contingency plan (alternative source, strategic stockpile, or substitute material).
+
+**Strengths**:
+- Visual mapping reveals hidden dependencies — the dependency graph shows critical path inputs
+- Safety stock calculation is quantitative — buffer sizes based on measured lead-time variability, not guesswork
+- Single-point-of-failure identification enables proactive risk mitigation before disruption occurs
+
+**Weaknesses**:
+- Dependency mapping requires detailed knowledge of every input — missing inputs create blind spots
+- Safety stock formula assumes stable lead-time distribution — new suppliers or routes invalidate historical data
+- Map maintenance is ongoing — supply chains change as suppliers and routes evolve; outdated maps are misleading
 
 ### 4.2 Procurement Planning
 
@@ -93,6 +105,16 @@ Supply chain coordination is an organizational capability. The "materials" are d
 
 6. **Track order status**: Maintain an order tracking log: order placed date, expected delivery date, actual delivery date, quantity received, quality on arrival. Identify late deliveries immediately.
 
+**Strengths**:
+- Reorder points automate procurement decisions — no need for daily judgment on when to order
+- Purchase orders create enforceable agreements — quantity, quality, and price documented before delivery
+- Order tracking enables supplier performance measurement — identifies unreliable suppliers for replacement
+
+**Weaknesses**:
+- Reorder points assume constant consumption — demand spikes cause stockouts despite safety stock
+- Purchase order lead time — written orders sent by messenger add 1-3 days to procurement cycle
+- Tracking requires discipline — missed log entries create gaps in delivery history
+
 ### 4.3 Inventory Management
 
 7. **Implement first-in-first-out (FIFO)**: Use oldest stock first to prevent spoilage and degradation. Physically organize storage so that incoming stock is placed behind existing stock.
@@ -101,11 +123,42 @@ Supply chain coordination is an organizational capability. The "materials" are d
 
 9. **Report discrepancies immediately**: Any discrepancy between physical count and ledger value >2% triggers an investigation: recount, check receiving records, check issuing records, inspect for theft or spoilage.
 
+**Strengths**:
+- FIFO prevents spoilage — oldest stock used first, reducing waste from expiration
+- Cycle counting spreads workload — continuous verification instead of disruptive full inventory counts
+- Early discrepancy detection enables rapid investigation — theft or spoilage caught before compounding
+
+**Weaknesses**:
+- FIFO requires organized storage — incoming stock must be placed behind existing; disorganized warehouses defeat the system
+- Cycle counting assumes accurate records — if base records are wrong, cycle counts perpetuate errors
+- 2% threshold may miss slow, small-scale theft — pilferage below the threshold accumulates over time
+
 ### 4.4 Logistics Coordination
 
 10. **Schedule transport**: Coordinate material movements to minimize empty return trips and maximize load factors. Target: >70% load factor on all transport movements.
 
 11. **Stage materials for production**: Deliver inputs to the production point in the sequence they are needed, not all at once. This reduces the staging area required and ensures fresh materials.
+
+**Strengths**:
+- Transport scheduling reduces empty return trips — >70% load factor cuts transport costs
+- Staged delivery matches material flow to production sequence — reduces staging area requirements
+- Coordinated scheduling prevents production idle time from material stockouts
+
+**Weaknesses**:
+- Requires reliable transport — delayed delivery disrupts the entire production schedule
+- Staging depends on accurate production forecasting — wrong sequence creates bottlenecks
+- Coordination overhead increases with number of supply chain nodes — complexity grows non-linearly
+
+### Supply Chain Model Trade-offs
+
+| Model | Flexibility | Reliability | Cost | Inventory Required | Best For |
+|-------|:-:|:-:|:-:|:-:|----------|
+| Direct procurement | High | Low (single source) | Low | None (buy as needed) | Small-scale, local operations |
+| Market-based | High | Moderate | Moderate | Low | Active markets with many suppliers |
+| Contract-based | Low | High (guaranteed supply) | Moderate | Moderate | Predictable, high-volume demand |
+| Vertical integration | Very Low | Very High (self-controlled) | High | Variable | Strategic, supply-critical inputs |
+| Just-in-time (JIT) | Low | Low (fragile) | Low | Minimal | Highly reliable transport and supply |
+| Strategic stockpiling | Moderate | Very High | High | Very High | Unreliable supply or strategic materials |
 
 ---
 

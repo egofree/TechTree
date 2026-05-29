@@ -20,20 +20,20 @@ While [Food Preservation](preservation.md) covers the full spectrum of preservat
 
 ### Materials
 
-- **Tinplate**: Steel sheet coated with 0.5-1.5 μm tin. Sheet thickness 0.15-0.30 mm. Tin prevents iron-catalyzed food oxidation and corrosion. Source: [Metals](../metals/index.md) — requires tinplating capability.
-- **Glass jars**: Soda-lime glass with wide mouth, heat-resistant to 150°C+ (thermal shock resistant). Source: [Glass](../glass/index.md) or [Ceramics](../ceramics/index.md).
-- **Sealing compound**: Rubber gaskets for glass jars (natural rubber + sulfur vulcanization), or sealing compound for can ends (modified rubber or polymer). Source: [Polymers](../polymers/index.md) or natural rubber.
-- **Food-grade solder** (for three-piece cans): 98% tin / 2% silver, or lead-free solder. Lead solder was historically used but is toxic — never use lead for food containers. Source: [Metals](../metals/index.md).
-- **Water**: For food preparation, brine, syrup, and cooling. Must be potable. Source: [Water Supply](../water/index.md).
-- **Steam**: For retort processing at 100-130°C, 0-30 psi gauge pressure. Source: [Energy](../energy/index.md) — requires boiler.
+- **Tinplate**: Steel sheet coated with 0.5-1.5 μm tin. Sheet thickness 0.15-0.30 mm. Tin prevents iron-catalyzed food oxidation and corrosion. Source: [Metals](../metals/iron-steel.md) — requires tinplating capability.
+- **Glass jars**: Soda-lime glass with wide mouth, heat-resistant to 150°C+ (thermal shock resistant). Source: [Glass](../glass/basic.md) or [Ceramics](../ceramics/kilns.md).
+- **Sealing compound**: Rubber gaskets for glass jars (natural rubber + sulfur vulcanization), or sealing compound for can ends (modified rubber or polymer). Source: [Polymers](../polymers/thermoplastics.md) or natural rubber.
+- **Food-grade solder** (for three-piece cans): 98% tin / 2% silver, or lead-free solder. Lead solder was historically used but is toxic — never use lead for food containers. Source: [Metals](../metals/iron-steel.md).
+- **Water**: For food preparation, brine, syrup, and cooling. Must be potable. Source: [Water Supply](../water/basic-treatment.md).
+- **Steam**: For retort processing at 100-130°C, 0-30 psi gauge pressure. Source: [Energy](../energy/engine.md) — requires boiler.
 
 ### Tools and Equipment
 
-- **Retort (pressure vessel)**: Horizontal or vertical cylindrical vessel rated for 15-30 psi (1-2 bar) at 121°C+. Equipped with steam inlet, vent, drain, pressure gauge, safety relief valve, and temperature recorder. Source: [Metals](../metals/index.md) — riveted or welded steel construction.
+- **Retort (pressure vessel)**: Horizontal or vertical cylindrical vessel rated for 15-30 psi (1-2 bar) at 121°C+. Equipped with steam inlet, vent, drain, pressure gauge, safety relief valve, and temperature recorder. Source: [Metals](../metals/iron-steel.md) — riveted or welded steel construction.
 - **Can seamer**: Double-seam machine that hermetically seals can ends to bodies. First operation roll curls cover hook; second operation roll compresses seam. Precision mechanism requiring ±0.05 mm tolerance. Source: [Machine Tools](../machine-tools/index.md).
 - **Can body maker**: Tinplate shearing, body forming (cylinder), side-seam soldering or welding. Three-piece can construction.
 - **Exhaust box**: Steam or hot water tunnel to heat sealed cans to 75-85°C before seaming, removing air (prevents paneling and oxidative quality loss).
-- **Boiler**: Steam generation at 5-15 bar for retort operation and exhaust box. Source: [Energy](../energy/index.md).
+- **Boiler**: Steam generation at 5-15 bar for retort operation and exhaust box. Source: [Energy](../energy/engine.md).
 - **Cooling system**: Water bath or spray cooling. Potable water with 2-5 ppm free chlorine to prevent post-seam contamination.
 
 ### Knowledge
@@ -46,11 +46,11 @@ While [Food Preservation](preservation.md) covers the full spectrum of preservat
 
 | Material | Quantity per 1000 cans (1 lb / 500 g) | Source | Alternatives |
 |----------|:--------------------------------------:|--------|-------------|
-| Tinplate (bodies + ends) | 45-55 kg | [Metals](../metals/index.md) — tinplated steel | Glass jars (heavier, fragile, reusable) |
-| Tin (for plating) | 0.3-0.5 kg | [Metals](../metals/index.md) | Not substitutable for steel cans |
-| Sealing compound (gaskets) | 0.5-1.0 kg | [Polymers](../polymers/index.md) — rubber | Natural rubber + sulfur |
-| Solder (lead-free) | 0.5-1.0 kg | [Metals](../metals/index.md) | Welded side seam (requires electric welding) |
-| Steam (processing) | 150-300 kg | [Energy](../energy/index.md) — boiler | Direct-fired retort (less uniform) |
+| Tinplate (bodies + ends) | 45-55 kg | [Metals](../metals/iron-steel.md) — tinplated steel | Glass jars (heavier, fragile, reusable) |
+| Tin (for plating) | 0.3-0.5 kg | [Metals](../metals/iron-steel.md) | Not substitutable for steel cans |
+| Sealing compound (gaskets) | 0.5-1.0 kg | [Polymers](../polymers/thermoplastics.md) — rubber | Natural rubber + sulfur |
+| Solder (lead-free) | 0.5-1.0 kg | [Metals](../metals/iron-steel.md) | Welded side seam (requires electric welding) |
+| Steam (processing) | 150-300 kg | [Energy](../energy/engine.md) — boiler | Direct-fired retort (less uniform) |
 | Cooling water | 500-1000 L | [Water](../water/index.md) | Recirculated with cooling tower |
 | Labels (paper) | 1000 sheets | [Paper](../foundations/food-agriculture.md) | Unlabeled (identify by can code stamp) |
 
@@ -70,6 +70,16 @@ While [Food Preservation](preservation.md) covers the full spectrum of preservat
    - **Second operation** (roll 2): Seaming roll compresses the interlocked hooks tightly, squeezing the sealing compound into a continuous gasket.
    - **Seam specifications** (for a standard 211 × 300 can): Seam length 2.80-3.10 mm, seam thickness 1.20-1.40 mm, body hook 1.80-2.10 mm, cover hook 1.90-2.15 mm, overlap ≥1.00 mm, tightness 70-95% (wrinkle rating).
 
+**Strengths**:
+- Tinplate cans are lightweight (~50 g for a 500 g can) and nearly unbreakable — suitable for rough transport over poor roads
+- Three-piece can construction uses simple roll-forming and soldering/welding — achievable with iron-age metalworking
+- Double-seam construction creates a hermetic seal verifiable by micrometer measurement (±0.05 mm tolerance)
+
+**Weaknesses**:
+- Tinplate requires tin-plated steel sheet (0.5-1.5 μm tin coating on 0.15-0.30 mm steel) — demands both steel rolling and tin electroplating capability
+- Side-seam soldering with lead-free solder (98% Sn / 2% Ag) consumes expensive tin; welded seams require electrical power
+- Can seamer mechanism requires ±0.05 mm precision — needs dedicated machine tools for manufacture and maintenance
+
 ### Thermal Processing (The Core of Canning)
 
 #### Water Bath Canning (Acid Foods, pH < 4.6)
@@ -87,6 +97,16 @@ Acid foods do not require pressure processing because *C. botulinum* spores cann
    - Jams and jellies (high sugar, pH <3.5): 5-10 minutes
 6. **Cooling**: Remove jars. Cool undisturbed 12-24 hours at room temperature. Lids pop down (vacuum seal forms as contents contract during cooling). Test seal: press center of lid — it should not flex.
 7. **Altitude adjustment**: Boiling point drops with altitude. At 1500 m, water boils at 95°C. Increase processing time by 5 minutes (below 1000 m) to 15+ minutes (above 2000 m). For altitude >1000 m, use pressure canning for all foods.
+
+**Strengths**:
+- Acid foods (pH <4.6) require only boiling water (100°C) — no pressure vessel needed, making this accessible with a simple pot and heat source
+- Short processing times (5-45 minutes) allow high throughput with minimal energy expenditure per jar
+- Visual seal confirmation (lid pops down) gives immediate feedback that the process succeeded
+
+**Weaknesses**:
+- Only works for acid foods (tomatoes, fruit, pickles) — vegetables, meat, and soups require the more complex pressure canning method
+- Altitude above 1000 m lowers boiling point and compromises processing — communities in mountainous regions need pressure canners for all foods
+- Glass jars break during thermal shock if cooled too rapidly; loss rate of 2-5% per batch is typical
 
 #### Pressure Canning (Low-Acid Foods, pH > 4.6)
 
@@ -109,6 +129,16 @@ Low-acid foods (vegetables, meat, seafood, soups) **must** be processed at 116-1
    - Clams: 70 minutes (pints)
 7. **Cooling**: Turn off steam. Allow pressure to drop to zero naturally — **never** rapid-cool a retort by opening the vent (jars boil over, seals break, cans buckle). Open retort when pressure reads zero. Remove containers. Cool to 38°C within 60 minutes to prevent thermophilic spoilage.
 
+**Strengths**:
+- Pressure canning at 121°C achieves 12D reduction of C. botulinum spores (F₀ = 2.52 min minimum) — the gold standard for food safety
+- Works for all food types including low-acid vegetables, meats, and seafood — no pH restriction
+- Properly pressure-canned food stores 2-5 years at ambient temperature with zero energy input after processing
+
+**Weaknesses**:
+- Requires a pressure vessel rated for 15-30 psi (1-2 bar) — forged or riveted steel construction, not achievable with stone-age technology
+- Processing times are long (25-100 minutes at 121°C) and energy-intensive, requiring 150-300 kg steam per 1000 cans
+- Retort venting is critical: air pockets create cold spots — incomplete venting is the most common cause of under-processing and botulism risk
+
 ### Pasteurization (High-Temperature Short-Time)
 
 For products where sterilization would destroy quality (juice, beer, dairy):
@@ -116,6 +146,16 @@ For products where sterilization would destroy quality (juice, beer, dairy):
 1. **Heat exchanger**: Pump product through plate heat exchanger. Hot water or steam on one side heats product on the other to 72°C for 15 seconds (HTST milk), 63°C for 30 minutes (LTLT batch), or 135°C for 2-8 seconds (UHT).
 2. **Hold tube**: After heating, product flows through insulated tube sized for the required hold time at temperature. Tube length = flow rate × hold time. Temperature monitored at tube exit — divert valve activates if temperature drops below setpoint.
 3. **Cooling**: Regenerative cooling — hot outgoing product preheats incoming cold product (80-90% energy recovery). Final cooling with cold water or chilled glycol to 4°C.
+
+**Strengths**:
+- HTST pasteurization (72°C for 15 seconds) achieves 5-log reduction of pathogens in milk while preserving flavor and nutritional quality
+- Regenerative heat recovery recovers 80-90% of thermal energy, reducing fuel costs to 0.1-0.3 MJ/L
+- Continuous flow processing enables throughput of 5,000-20,000 L/hour with a single heat exchanger unit
+
+**Weaknesses**:
+- Requires plate heat exchanger with precision-machined stainless steel plates and food-grade gaskets — not achievable without industrial metalworking
+- Pasteurized products still require refrigeration (0-4°C) and have limited shelf life (5-7 days for HTST milk) — does not eliminate cold chain dependency
+- Divert valve mechanism requires reliable temperature-sensing instrumentation — mechanical or electrical failure sends under-pasteurized product to packaging
 
 ## Quantitative Parameters
 
@@ -216,9 +256,9 @@ These values assume sea level and pure steam (no air). Air in the retort lowers 
 - [Food Fermentation](fermentation.md) — biological preservation, acidification
 - [Dairy Processing](dairy.md) — pasteurization of milk and dairy products
 - [Brewing & Distilling](brewing.md) — pasteurization of beer and wine
-- [Metals](../metals/index.md) — tinplate production, steel for retorts
-- [Glass](../glass/index.md) — glass jar production
-- [Energy](../energy/index.md) — steam generation for retorts and boilers
+- [Metals](../metals/iron-steel.md) — tinplate production, steel for retorts
+- [Glass](../glass/basic.md) — glass jar production
+- [Energy](../energy/engine.md) — steam generation for retorts and boilers
 - [Machine Tools](../machine-tools/index.md) — precision machining for can seamers
 - [Health & Sanitation](../health/sanitation.md) — microbiology, hygiene, food safety
 

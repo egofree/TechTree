@@ -80,7 +80,17 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
    - **Drought tolerance**: Plants that yielded well without irrigation
    - **Flavor or quality**: Best-tasting fruit, best baking-quality wheat
 2. **Select from a population, not isolated plants**: Save seed from 20-50+ plants of the same crop, not just the single best plant. Genetic diversity within the saved seed population prevents inbreeding depression (loss of vigor from too-narrow genetics). Minimum population sizes: 20+ plants for self-pollinating crops (wheat, beans, peas, tomatoes), 50-100+ plants for cross-pollinating crops (corn, squash, brassicas, onions).
-3. **Rogue out off-types**: Remove plants that show undesirable traits (disease susceptibility, unusual color, poor growth) before they can cross-pollinate with selected plants. Rogue during flowering for cross-pollinating crops, or simply do not save their seed for self-pollinating crops.
+ 3. **Rogue out off-types**: Remove plants that show undesirable traits (disease susceptibility, unusual color, poor growth) before they can cross-pollinate with selected plants. Rogue during flowering for cross-pollinating crops, or simply do not save their seed for self-pollinating crops.
+
+**Strengths**:
+- Requires no equipment or technology — observation and tagging is sufficient
+- Creates locally adapted genetics within 5-10 generations that outperform generic seed stock
+- Selecting from a broad population (20-100+ plants) maintains genetic diversity while improving the mean
+
+**Weaknesses**:
+- Requires walking the field multiple times during the growing season (labor cost: 1-2 hours per hectare per visit)
+- Subjective judgment — different selectors may choose different plants based on visual assessment
+- Slow feedback loop — the results of selection are not visible until the following generation is grown
 
 ### 4.2 Harvesting Seed
 
@@ -90,8 +100,18 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
    - **Brassicas (cabbage, radish, mustard)**: Seed pods (siliques) dry and papery, seeds dark brown to black
    - **Solanaceae (tomato, pepper, eggplant)**: Fruit fully ripe (past eating stage for tomatoes — slightly overripe is fine), seeds easily separated from flesh
    - **Cucurbits (squash, melon, cucumber)**: Fruit past ripe stage, skin hard, seeds fully formed and firm
-2. **Harvest before shattering**: Many crops (especially brassicas and small grains) shatter (drop their seeds) when fully dry. Harvest when 80-90% of seeds are mature, then finish drying on screens. Cut entire seed stalks or pull whole plants.
+ 2. **Harvest before shattering**: Many crops (especially brassicas and small grains) shatter (drop their seeds) when fully dry. Harvest when 80-90% of seeds are mature, then finish drying on screens. Cut entire seed stalks or pull whole plants.
 3. **Harvest in dry weather**: After 3+ days without rain. Moisture on seed heads at harvest promotes mold during drying. If rain threatens, cut and hang indoors to finish drying.
+
+**Strengths**:
+- Harvest timing is straightforward — visual indicators (brittle heads, rattling pods, hard grain) are reliable across crop types
+- Can be done with basic hand tools (sickle, knife, or bare hands for many crops)
+- Harvesting at 80-90% maturity and finishing on screens avoids catastrophic seed loss from shattering
+
+**Weaknesses**:
+- Weather-dependent — unexpected rain during the harvest window can delay drying and promote mold
+- Seed shattering in brassicas and small grains causes 5-20% seed loss even with careful timing
+- Requires daily monitoring of seed maturity during the harvest window (labor cost: 30-60 minutes per hectare)
 
 ### 4.3 Processing Seed
 
@@ -99,14 +119,34 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 
 1. **Thresh**: Beat dried seed heads with a flail on a hard, clean surface (wooden floor, tarp, or stone). Alternatively: place seed heads in a cloth bag and beat against the ground. Goal: separate seeds from pods, hulls, and stems.
 2. **Winnow**: Pour threshed material from one basket to another in a gentle breeze or in front of a fan. Chaff and light debris blow away; heavy seeds fall into the lower basket. Repeat 3-5 times until seed is clean.
-3. **Sieve**: Pass winnowed seed through sieves to remove remaining debris. Use a coarse sieve (5 mm) first to remove large pieces, then a fine sieve (2 mm) to remove dust and small weed seeds. The seed should pass through the coarse sieve but not the fine sieve.
+ 3. **Sieve**: Pass winnowed seed through sieves to remove remaining debris. Use a coarse sieve (5 mm) first to remove large pieces, then a fine sieve (2 mm) to remove dust and small weed seeds. The seed should pass through the coarse sieve but not the fine sieve.
+
+**Strengths (dry-seeded processing)**:
+- Threshing and winnowing use simple, locally made tools (flail, baskets)
+- Processing 50-100 kg of grain seed takes 2-4 hours with practice
+- Winnowing uses natural wind — no energy input required
+
+**Weaknesses (dry-seeded processing)**:
+- Generates significant dust during threshing — respiratory protection needed
+- Small seeds (brassica, clover) are difficult to clean completely and require fine mesh sieves
+- Loss rate of 5-15% of seed during threshing and winnowing is normal
 
 **For wet-seeded crops (tomatoes, cucumbers, melons)**:
 
 1. **Extract seed**: Cut open ripe fruit. Scoop out seeds and surrounding gel/pulp into a container.
 2. **Ferment (tomatoes and cucumbers)**: Place seed-gel mixture in a jar with water. Let ferment 2-4 days at 20-25°C. Fermentation dissolves the gel coating (which contains germination inhibitors) and kills some seed-borne pathogens. A mold layer forms on top — this is normal.
 3. **Wash**: After fermentation, add water and stir. Viable seeds sink; dead seeds and debris float. Pour off floating material. Repeat until water runs clear.
-4. **Dry**: Spread washed seeds thinly on a screen or cloth in a well-ventilated area. Stir daily. Dry for 5-14 days until seeds snap when bent (not flex).
+ 4. **Dry**: Spread washed seeds thinly on a screen or cloth in a well-ventilated area. Stir daily. Dry for 5-14 days until seeds snap when bent (not flex).
+
+**Strengths (wet-seeded processing)**:
+- Fermentation kills seed-borne pathogens and dissolves germination-inhibiting gel coatings
+- Float test (viable seeds sink) provides a quick viability check during processing
+- Process handles high-moisture fruit without requiring pre-drying
+
+**Weaknesses (wet-seeded processing)**:
+- Fermentation requires 2-4 days and must be monitored — over-fermentation damages seeds
+- Wet processing uses significant water (20-50 L per 10 kg of fruit)
+- Limited to a few crop families (Solanaceae, Cucurbitaceae) — not applicable to most staple grains
 
 ### 4.4 Drying Seed to Storage Moisture
 
@@ -116,7 +156,17 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
    - **Bite test**: Seed should be hard and crack or shatter when bitten, not dent or feel leathery
    - **Snap test**: Large seeds (beans, peas, squash) should snap cleanly when bent
    - **Hammer test**: Grain seeds should shatter when hit with a hammer, not flatten
-4. **Target moisture content**: 4-8% for most crop seeds. At this moisture level, seeds are dormant and metabolic activity is minimal.
+ 4. **Target moisture content**: 4-8% for most crop seeds. At this moisture level, seeds are dormant and metabolic activity is minimal.
+
+**Strengths**:
+- Simple field tests (bite, snap, hammer) require no equipment and give reliable results
+- Shade drying at 25-35°C is achievable in most climates without energy input
+- Properly dried seed (4-8% moisture) stores for 3-10+ years depending on species
+
+**Weaknesses**:
+- Direct sun above 35°C kills embryos — limits drying methods in hot climates
+- Humid tropical conditions make it difficult to reach 8% moisture without a dehydrator or solar dryer
+- Daily stirring requirement means the drying area must be checked every day for 5-14 days
 
 ### 4.5 Storage
 
@@ -124,7 +174,17 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 2. **Add desiccant (recommended)**: Place a cloth bag of dry wood ash or charcoal (100-200 g per 10 L container) in the bottom of the storage container. Ash absorbs residual moisture.
 3. **Fill and seal**: Pour dried seed into container. Fill to 80-90% capacity (leave headspace). Seal lid. If using clay jar, seal lid with a clay plug or wax seal.
 4. **Label**: Attach a label with crop name, variety (if known), date of harvest, and number of plants seed was saved from.
-5. **Store in cool, dark location**: Temperature below 15°C (ideally 5-10°C), relative humidity below 40%. Underground cellars, cool pantries, or north-facing storerooms are suitable. Every 5°C reduction in storage temperature roughly doubles seed lifespan (within viable range).
+ 5. **Store in cool, dark location**: Temperature below 15°C (ideally 5-10°C), relative humidity below 40%. Underground cellars, cool pantries, or north-facing storerooms are suitable. Every 5°C reduction in storage temperature roughly doubles seed lifespan (within viable range).
+
+**Strengths**:
+- Clay jars with tight lids and desiccant provide effective storage without modern materials
+- Cool cellars (5-10°C) extend seed viability to 5-15 years for most grain crops
+- The temperature + humidity rule of thumb (sum below 60) is easy to apply without instruments
+
+**Weaknesses**:
+- Airtight sealing is critical — poorly sealed containers lose viability within 1-2 years in humid climates
+- Cool, dark storage space is limited in tropical and subtropical regions
+- Rodent and insect damage to stored seed can destroy an entire season's supply if containers are breached
 
 ### 4.6 Germination Testing
 
@@ -136,7 +196,17 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 4. **Maintain moisture and temperature**: Keep at 20-25°C for most temperate crops (15-20°C for cool-season crops like lettuce). Do not let the medium dry out. Cover with a second damp cloth.
 5. **Count germination**: Check daily. A seed is "germinated" when the root radical (first root) emerges 2+ mm. Record cumulative germination over 7-14 days (varies by crop — see table below).
 6. **Calculate germination rate**: (Number germinated ÷ number tested) × 100. Example: 87 out of 100 seeds germinated = 87% germination rate.
-7. **Decision**: Germination rate >80%: plant at normal seeding rate. 60-80%: increase seeding rate by 25-50%. 40-60%: increase seeding rate by 100% and plant thicker, then thin. Below 40%: discard and obtain fresh seed if possible, or plant very thickly and accept poor stand.
+ 7. **Decision**: Germination rate >80%: plant at normal seeding rate. 60-80%: increase seeding rate by 25-50%. 40-60%: increase seeding rate by 100% and plant thicker, then thin. Below 40%: discard and obtain fresh seed if possible, or plant very thickly and accept poor stand.
+
+**Strengths**:
+- Test uses materials available in any household (tray, cloth, water, seeds)
+- Provides quantitative data (germination percentage) for planting decisions
+- Prevents the catastrophe of planting dead seed — a failed crop from dead seed wastes an entire growing season
+
+**Weaknesses**:
+- Requires 7-21 days depending on crop species — must be planned 2-4 weeks before planting
+- Destructive test (seeds used for germination testing cannot be planted afterward)
+- Environmental conditions during the test (temperature fluctuations, drying out) can produce misleading results
 
 ## 5. Quantitative Parameters
 

@@ -1,15 +1,29 @@
 # Energy Refining
 
 > **Node ID**: energy.refining
-> **Domain**: Energy
+> **Domain**: [Energy](./index.md)
+> **Dependencies**: [`energy.fuels`](fuels.md), `mining`, `chemistry`
+> **Enables**: [`energy.engine`](engine.md), `petroleum`
 > **Timeline**: Years 10-25
 > **Outputs**: refined_fuel, distilled_oil, cracked_products
+> **Critical**: No — refining enables liquid fuels for engines but is not required for the earliest bootstrap stages
 
 ## Overview
 
 Energy refining covers the processing of crude fuels into usable forms: fractional distillation of petroleum, coal tar distillation, wood tar processing, and thermal cracking. These refined products power internal combustion engines, gas turbines, and chemical synthesis, and provide feedstocks for the petrochemical industry.
 
 ## Petroleum Fractional Distillation
+
+**Strengths**:
+- Single column separates crude oil into 6+ useful fractions by boiling point
+- Heat integration (feed-product exchange) recovers 60-70% of distillation energy
+- Well-understood process — atmospheric distillation has been practiced since the 1850s
+
+**Weaknesses**:
+- Requires crude oil supply — a depleting geological resource
+- Fired heater consumes 30-40% of crude throughput as fuel gas
+- Atmospheric residue (15-30% of crude) needs vacuum distillation for further processing
+- Sulfur, nitrogen, and metal contaminants in crude require downstream treatment
 
 Crude petroleum is a complex mixture of hydrocarbons (C₁-C₆₀+) that must be separated into fractions by boiling point. Atmospheric distillation is the primary separation step.
 
@@ -192,14 +206,15 @@ Raw natural gas from wells contains methane (70-90%), ethane (1-10%), propane/bu
 ## Cross-Domain Links
 
 - **[Steam Power](steam-power.md)**: boilers burning refined fuel oil for steam generation
-- **[Internal Combustion Engines](../transport/ice.md)**: gasoline and diesel fueling engines
-- **[Petrochemicals](../chemistry/petrochemicals.md)**: naphtha and gas oil as chemical feedstocks
+- **[Internal Combustion Engines](../energy/engine.md)**: gasoline and diesel fueling engines
+- **[Petrochemicals](../petroleum/petrochemicals.md)**: naphtha and gas oil as chemical feedstocks
 - **[Aluminum Production](../metals/aluminum.md)**: petroleum coke for carbon anodes
 - **[Polymer Production](../polymers/thermoplastics.md)**: ethylene and propylene from catalytic cracking
-- **[Roads and Infrastructure](../foundations/roads.md)**: asphalt from atmospheric residue
+- **[Roads](../transport/roads.md)**: asphalt from atmospheric residue
 
 ---
 
 *Part of the [Energy Domain](index.md) · [All Domains](../index.md)*
 
-[← Back to Energy](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

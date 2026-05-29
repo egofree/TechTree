@@ -2,14 +2,37 @@
 
 > **Node ID**: animals.poultry.pigeons
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.poultry`](poultry.md)
+> **Dependencies**: [`animals.poultry`](poultry.md), [`agriculture`](../agriculture/soil-management.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 1-10+
 > **Outputs**: squab_meat, pigeon_eggs, guano_fertilizer, feathers
+> **Critical**: No — premium products (squab, guano) but chickens produce more food per unit feed
 
 ### Overview
 
 Domestic pigeons (*Columba livia*) are among the most productive and low-maintenance poultry species. Bred for millennia for meat (squab), messaging, and fertilizer, pigeons offer unique advantages: they forage for much of their own food, breed year-round in managed conditions, and produce squab (26-30 day old juveniles) that reach 350-500 g dressed weight with minimal feed input. Pigeon guano is the richest common animal manure — approximately 4-5% nitrogen, 2-3% phosphorus, 1.5-2% potassium — making it a premium fertilizer worth more per kilogram than any other poultry manure. Pigeons also produce crop milk, a protein-rich secretion fed to squab by both parents, enabling exceptionally fast juvenile growth without external feed inputs for the first two weeks.
+
+### Prerequisites
+
+| Requirement | Source | Notes |
+|-------------|--------|-------|
+| Whole grain feed (corn, wheat, peas) | [`agriculture`](../agriculture/soil-management.md) | 30-50 g/day per pigeon; foraging reduces 30-70% |
+| Pigeon loft (1 m² per 5 pairs) | [`construction`](../construction/building-materials.md) | Weatherproof, ventilated, with nest boxes |
+| Nest boxes (30 × 30 × 30 cm, 2 per pair) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Pigeons overlap clutches — need two nests |
+| Grit and oyster shell | [`mining`](../mining/processing.md) | Free-choice; pigeons eat whole grains |
+| Nest bowls (20-25 cm diameter) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Clay or wire mesh, with nesting material |
+
+### Bill of Materials
+
+Materials listed for a 20-pair breeding loft per year.
+
+| Material | Quantity | Source | Alternatives |
+|----------|----------|--------|-------------|
+| Whole grain (corn, wheat, peas mix) | 440-730 kg | [`agriculture`](../agriculture/soil-management.md) | Free-flight reduces 30-70% |
+| Grit (2-5 mm stones) | 20-40 kg | [`mining`](../mining/processing.md) | Collected from gravel deposits |
+| Oyster shell | 15-25 kg | [`mining`](../mining/processing.md) | For breeding hens |
+| Nesting material (straw, pine needles) | 10-20 kg | [`plants`](../plants/index.md) | 10-15 cm lengths |
+| Loft construction materials | 4 m² floor area | [`construction`](../construction/building-materials.md) | Wood frame, solid walls, wire aviary |
 
 ### Breeds
 
@@ -211,4 +234,4 @@ Shorter winter daylight (under 10 hours) reduces or halts breeding in temperate 
 
 ---
 
-[← Back to Animals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

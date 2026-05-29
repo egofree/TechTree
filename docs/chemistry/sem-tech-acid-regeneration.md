@@ -1,10 +1,12 @@
 # SEM Tech Acid Regeneration: Bipolar Membrane Electrodialysis for Acid Recovery
 
-> **Node ID**: chemistry.acid-regeneration
-> **Domain**: Chemistry
+> **Node ID**: chemistry.sem-tech-acid-regeneration
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.sem-tech`](sem-tech.md), [`chemistry.sem-tech-electrodialysis`](sem-tech-electrodialysis.md)
+> **Enables**: [`chemistry.chemical-recovery`](chemical-recovery.md), [`metals.finishing`](../metals/finishing.md)
 > **Timeline**: Years 20-35
 > **Outputs**: regenerated_acid, recovered_base
-> **Tags**: materials=[chemicals, polymers], era=industrial
+> **Critical**: No — acid regeneration reduces chemical waste and cost but does not enable new capabilities
 
 The low-cost ion exchange membranes developed by SEM Tech (see [SEM Tech](sem-tech.md)) enable acid recovery and regeneration via bipolar membrane electrodialysis (BMED), a process variant of [SEM Tech Electrodialysis](sem-tech-electrodialysis.md). Where conventional electrodialysis separates ions from water, BMED goes further: it splits water into protons and hydroxide ions at a membrane junction, producing concentrated acid and base from waste salt solutions without electrode-driven electrolysis.
 
@@ -46,6 +48,10 @@ This water-splitting reaction requires approximately 0.83V at the bipolar juncti
 3. **Salt compartment**: Feed solution loses cations (to the base compartment) and anions (to the acid compartment). Result: salt is depleted.
 
 A BMED stack contains many such repeating units between two electrodes. The electrodes serve only to apply the driving voltage; no electrochemical reaction occurs at the electrodes beyond minor water splitting.
+
+**Strengths**: BMED regenerates both acid AND base from waste salt — dual product recovery; water splitting at bipolar junction requires only 0.83V (vs 1.23V for electrode electrolysis — 33% less energy); no electrode consumption or chlorine gas generation; SEM Tech membranes make BMED economically viable at <$1/ft² membrane cost; closes the material loop for steel pickling and metal finishing acids.
+
+**Weaknesses**: Bipolar membrane fabrication is more complex than single-layer membranes (requires lamination of cation + anion layers); feed stream must be pre-filtered to prevent membrane fouling; iron and multivalent cations can precipitate as hydroxides in the base compartment (scaling); current efficiency decreases at higher acid/base concentrations (back-diffusion); membrane lifetime under BMED conditions not yet characterized for SEM Tech membranes.
 
 ## SEM Tech Membrane Application
 
@@ -440,4 +446,4 @@ At the projected SEM Tech membrane cost of $10-15/m² (including bipolar membran
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) | [Chemistry](./index.md) | [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

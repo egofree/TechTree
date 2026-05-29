@@ -1,11 +1,12 @@
 # Railways
 
 > **Node ID**: transport.railways
-> **Domain**: Transportation & Logistics
+> **Domain**: [Transport](./index.md)
 > **Dependencies**: [`energy.steam-power`](../energy/steam-power.md), [`metals.forming`](../metals/forming.md), [`metals.iron-steel`](../metals/iron-steel.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 20-50+
 > **Outputs**: railways
+> **Critical**: No
 
 ### Railways
 
@@ -21,6 +22,16 @@
 - **Cylinders**: 2 cylinders, 30-50 cm bore, 40-60 cm stroke. Steam admitted alternately on each side of piston (double-acting). Slide valve or piston valve, actuated by Stephenson valve gear (link motion — adjustable cutoff for steam economy). Operating pressure: 0.7-1.0 MPa.
 - **Power**: 50-200 HP. Speed: 30-80 km/h. Tractive effort: 2000-10000 kgf. Haul 50-200 tonnes on level track.
 - **Driving wheels**: 4-8 driven wheels (coupled by connecting rods). Leading and trailing trucks (unpowered wheels) for stability.
+
+**Strengths**:
+- Hauls 50-200 tonnes on level track at 30-80 km/h — far beyond animal-drawn cart capacity
+- Steam locomotives can be built with iron/steel and coal — no petroleum required
+- Standard gauge (1435 mm) enables network interoperability across all connected lines
+
+**Weaknesses**:
+- Maximum 2-3% grade for steam locomotives — requires heavy earthwork for gentle gradients
+- Iron or steel T-rails (15-30 kg/m) require a rolling mill — significant industrial investment
+- Coal consumption ~2-5 kg/km per locomotive — logistics chain must keep pace
 
 ### Telegraph Communication
 

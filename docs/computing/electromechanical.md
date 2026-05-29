@@ -1,11 +1,12 @@
 # Electromechanical Computing
 
 > **Node ID**: computing.electromechanical
-> **Domain**: Computing & Automation
+> **Domain**: [Computing](./index.md)
 > **Dependencies**: [`computing.mechanical`](mechanical.md), [`energy.electricity`](../energy/electricity.md)
 > **Enables**: [`computing.electronic`](electronic.md)
 > **Timeline**: Years 30-50
 > **Outputs**: automated_machines, punch_cards
+> **Critical**: No — computing enhances capability but is not strictly required for survival
 
 ### Automation & Control
 

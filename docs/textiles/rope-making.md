@@ -1,11 +1,12 @@
 # Rope Making
 
 > **Node ID**: textiles.rope-making
-> **Domain**: Textiles, Fiber & Cordage
+> **Domain**: [Textiles](./index.md)
 > **Dependencies**: [`textiles.fibers`](fibers.md), [`textiles.spinning`](spinning.md)
-> **Enables**: `construction`
+> **Enables**: [`construction`](../construction/index.md)
 > **Timeline**: Years 0-10
 > **Outputs**: rope, tarred_rope, spliced_rope, lifting_slings
+> **Critical**: No
 
 ### Fiber Selection
 
@@ -34,6 +35,16 @@ The 3-strand laid rope is the most common rope construction, used for millennia 
 5. The counter-twist causes the strands to wrap around each other naturally, forming a round, balanced rope. Guide the rope by hand to ensure even, tight laying without gaps or loose spots.
 6. Continue until the full length is laid. Secure the rope end (back splice or seizing) to prevent unraveling.
 7. Two-person operation minimum — one cranking, one walking back and guiding.
+
+**Strengths**:
+- Counter-twist principle produces balanced rope that does not kink or untwist under load
+- Simple equipment (wooden jack with hooks and crank) — no precision parts needed
+- Adaptable to any length up to the ropewalk distance
+
+**Weaknesses**:
+- Requires two operators for consistent quality — one cranking, one guiding
+- Hand-cranked jack limits production speed to ~50-100 m/hour
+- Uneven tension during laying produces weak spots in the finished rope
 
 **[Ropewalk method](../glossary/ropewalk-method.md)** (for long ropes):
 - Purpose-built long building (historically up to 370 m at Portsmouth Royal Dockyard). Yarns are stretched the full length of the ropewalk and laid by walking the length while turning. The ropewalk allows production of the longest continuous ropes — limited only by building length. Essential for ship rigging, where a single continuous rope (no splices) is strongest. Historically, naval ropewalks were the longest industrial buildings of their era.
@@ -96,6 +107,16 @@ Brushing hot pine tar onto finished rope preserves it against moisture, rot, and
 - **Tar source**: Pine tar produced by destructive distillation of pine wood (heartwood of Pinus species). Slow heating in a retort or covered pit drives off volatile compounds, leaving a dark, viscous tar.
 - **Application**: Heat tar to ~60-80°C (fluid but not smoking). Lay finished rope over a tarring kettle and brush hot tar along the length, working it into the rope strands with a tar brush. Ensure full penetration — surface coating alone is insufficient for long-term protection.
 - **Effects**: Tar saturates the fibers, making the rope water-repellent and rot-resistant. Significantly extends rope service life in marine environments (2-5× untreated rope life). Trade-offs: tarred rope is darker, stiffer, heavier, and rougher on hands. Tar makes rope harder to splice and knot (tar stiffens the strands).
+
+**Strengths**:
+- Extends rope service life 2-5× in marine and outdoor environments
+- Pine tar available from destructive distillation of pine heartwood — no industrial chemicals
+- Simple brush-on application at 60-80°C with no specialized equipment
+
+**Weaknesses**:
+- Tarred rope is stiffer, heavier, and rougher on hands — harder to handle and splice
+- Hot tar (60-80°C) causes thermal burns; tar fumes irritate eyes and respiratory tract
+- Tar darkens rope to near-black, obscuring visual inspection of fiber condition underneath
 
 ### Breaking Strength
 
@@ -207,4 +228,6 @@ Rope for lifting and life-safety applications must be proof-tested and certified
 
 - Fibers from [Fiber Preparation](../textiles/fibers.md). Rope for [Mining](../mining/extraction.md) hoisting and [Shipping](../transport/shipping.md) rigging. Power transmission in [Gravity](../energy/gravity.md) systems. Yarn from [Spinning](../textiles/spinning.md).
 
-[← Back to Textiles](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

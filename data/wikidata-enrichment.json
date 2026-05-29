@@ -30,6 +30,25 @@
       "name": "Pottery & Clay Products",
       "wikidataId": "Q11642"
     },
+    "energy": {
+      "aliases": {},
+      "descriptions": {
+        "de": "fundamentale physikalische Größe",
+        "en": "quantitative property of a physical system, recognizable in the performance of work and in the form of heat and light",
+        "es": "capacidad de un sistema para generar trabajo o radiación electromagnética",
+        "fr": "grandeur physique qui caractérise la capacité d'un système à modifier un état et à produire un travail ou un rayonnement électromagnétique",
+        "zh": "物理概念"
+      },
+      "labels": {
+        "de": "Energie",
+        "en": "energy",
+        "es": "energía",
+        "fr": "énergie",
+        "zh": "能量"
+      },
+      "name": "Energy",
+      "wikidataId": "Q11379"
+    },
     "energy.fuels.charcoal": {
       "aliases": {
         "de": [
@@ -64,6 +83,77 @@
       "name": "Charcoal Production",
       "wikidataId": "Q177463"
     },
+    "energy.wind": {
+      "aliases": {
+        "de": [
+          "Windkraftenergie"
+        ],
+        "en": [
+          "wind power energy"
+        ],
+        "es": [
+          "Energía eólica marina",
+          "Minieolica",
+          "Energia Eólica",
+          "Eolica",
+          "Eólica",
+          "Energía Eolica",
+          "Energia eolica",
+          "Microeolica",
+          "Minieólica",
+          "Microeólica",
+          "Energia eolica marina"
+        ],
+        "fr": [
+          "électricité éolienne"
+        ],
+        "zh": [
+          "風力發電",
+          "風電"
+        ]
+      },
+      "descriptions": {
+        "de": "Umwandlung von Windenergie in eine nutzbare Form",
+        "en": "conversion of wind energy into a useful form",
+        "es": "tipo de energía renovable",
+        "fr": "énergie du vent",
+        "zh": "能源類型"
+      },
+      "labels": {
+        "de": "Windkraft",
+        "en": "wind power",
+        "es": "energía eólica",
+        "fr": "énergie éolienne",
+        "zh": "風能"
+      },
+      "name": "Wind Power",
+      "wikidataId": "Q43302"
+    },
+    "gas-handling.vacuum": {
+      "aliases": {
+        "en": [
+          "vacuum technology"
+        ],
+        "es": [
+          "Tecnicas de vacio"
+        ]
+      },
+      "descriptions": {
+        "de": "Teilgebiet der Technik",
+        "en": "Technology to lower gas pressures for various technical and scientific purposes",
+        "es": "procedimiento técnico",
+        "fr": "techniques pour produire, maintenir et mesurer le vide"
+      },
+      "labels": {
+        "de": "Vakuumtechnik",
+        "en": "vacuum engineering",
+        "es": "Técnicas de vacío",
+        "fr": "technologie du vide",
+        "zh": "真空工程"
+      },
+      "name": "Vacuum Technology",
+      "wikidataId": "Q692958"
+    },
     "glass.basic": {
       "aliases": {},
       "descriptions": {
@@ -82,6 +172,40 @@
       },
       "name": "Basic Glass Production",
       "wikidataId": "Q11469"
+    },
+    "metals": {
+      "aliases": {
+        "de": [
+          "Metall"
+        ],
+        "en": [
+          "metals",
+          "jin",
+          "kin",
+          "kine"
+        ],
+        "es": [
+          "metales"
+        ],
+        "zh": [
+          "金"
+        ]
+      },
+      "descriptions": {
+        "de": "Gruppe chemischer Elemente",
+        "en": "element, compound, or alloy that is a good conductor of both electricity and heat",
+        "es": "elemento, aleación o compuesto conductor de electricidad y calor",
+        "fr": "classe de matériaux dont les atomes sont unis par des liaisons métalliques"
+      },
+      "labels": {
+        "de": "Metalle",
+        "en": "metal",
+        "es": "metal",
+        "fr": "métal",
+        "zh": "金屬"
+      },
+      "name": "Metals",
+      "wikidataId": "Q11426"
     },
     "metals.aluminum": {
       "aliases": {
@@ -215,6 +339,41 @@
       "name": "Modern Steelmaking",
       "wikidataId": "Q11427"
     },
+    "mining.ventilation": {
+      "aliases": {
+        "de": [
+          "Wetterkamin",
+          "Grubenbewetterung",
+          "Sonderbewetterung",
+          "Grenzläufige Wetterführung",
+          "Zentrale Wetterführung",
+          "Rückläufige Wetterführung",
+          "Wetterbewegung",
+          "Abfallende Bewetterung",
+          "Aufsteigende Bewetterung"
+        ],
+        "en": [
+          "ventilation",
+          "mine ventilation"
+        ],
+        "es": [
+          "Ventilacion de minas"
+        ]
+      },
+      "descriptions": {
+        "de": "Begriff im Grubenbau",
+        "en": "air ventilation for a mine",
+        "fr": "terme d'exploitation minière souterraine"
+      },
+      "labels": {
+        "de": "Bewetterung",
+        "en": "underground mine ventilation",
+        "es": "Ventilación de minas",
+        "fr": "aérage"
+      },
+      "name": "Mine Ventilation",
+      "wikidataId": "Q852747"
+    },
     "silicon.mg-si-production": {
       "aliases": {
         "de": [
@@ -251,9 +410,90 @@
       },
       "name": "Metallurgical-Grade Silicon Production",
       "wikidataId": "Q670"
+    },
+    "transport.shipping": {
+      "aliases": {
+        "de": [
+          "Schiffahrt",
+          "Transport zu Wasser",
+          "Schiffsverkehr"
+        ],
+        "en": [
+          "ship transportation",
+          "boat transportation",
+          "transport by boat",
+          "boat travel",
+          "transport by water",
+          "shipping",
+          "nautical transport",
+          "maritime transport",
+          "water transportation",
+          "marine transport",
+          "marine transportation"
+        ],
+        "es": [
+          "transporte acuatico",
+          "transporte naval",
+          "transporte por vía acuática",
+          "transporte hidroviario",
+          "transporte marítimo y fluvial",
+          "navegación",
+          "transporte por barco",
+          "transporte por agua"
+        ],
+        "fr": [
+          "transport naval"
+        ],
+        "zh": [
+          "水上交通",
+          "不定期船運",
+          "水上运输",
+          "定期船運"
+        ]
+      },
+      "descriptions": {
+        "de": "Benutzung von Wasserfahrzeugen",
+        "en": "transportation on water surface (sea, lake, river, ...) or through water entity, using watercrafts",
+        "es": "modalidad de transporte que consiste en trasladar personas, mercancías u objetos a través de cuerpos de agua (mares, ríos, lagos, canales) utilizando embarcaciones o buques",
+        "fr": "transport de personnes ou de biens par voix maritime ou fluviale"
+      },
+      "labels": {
+        "de": "Schifffahrt",
+        "en": "water transport",
+        "es": "transporte acuático",
+        "fr": "transport maritime",
+        "zh": "航运"
+      },
+      "name": "Water Transport",
+      "wikidataId": "Q155930"
+    },
+    "vacuum": {
+      "aliases": {
+        "en": [
+          "vacuum technology"
+        ],
+        "es": [
+          "Tecnicas de vacio"
+        ]
+      },
+      "descriptions": {
+        "de": "Teilgebiet der Technik",
+        "en": "Technology to lower gas pressures for various technical and scientific purposes",
+        "es": "procedimiento técnico",
+        "fr": "techniques pour produire, maintenir et mesurer le vide"
+      },
+      "labels": {
+        "de": "Vakuumtechnik",
+        "en": "vacuum engineering",
+        "es": "Técnicas de vacío",
+        "fr": "technologie du vide",
+        "zh": "真空工程"
+      },
+      "name": "Vacuum Technology",
+      "wikidataId": "Q692958"
     }
   },
-  "generated_at": "2026-05-27T17:22:00Z",
+  "generated_at": "2026-05-27T18:03:50Z",
   "languages": [
     "en",
     "es",

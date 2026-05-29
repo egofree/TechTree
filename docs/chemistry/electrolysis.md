@@ -1,11 +1,12 @@
 # Electrolysis
 
 > **Node ID**: chemistry.electrolysis
-> **Domain**: Chemistry
-> **Dependencies**: `chemistry.electrodialysis`, `chemistry.lithium-separation`, `chemistry.water-electrolysis`, [`energy.electricity`](../energy/electricity.md), `energy.fuel-cell`, `energy.redox-flow-battery`
-> **Enables**: [`chemistry.ammonia`](ammonia.md), [`chemistry.dopant-etch-gases`](dopant-etch-gases.md), [`chemistry.hydrogen-silane`](hydrogen-silane.md), [`chemistry.pulp-chemicals`](pulp-chemicals.md), `electrochemistry`, [`electronics.electrical-systems`](../electronics/electrical-systems.md), [`metals.aluminum`](../metals/aluminum.md), [`metals.finishing`](../metals/finishing.md)
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.sem-tech`](sem-tech.md), [`energy.electricity`](../energy/electricity.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: [`chemistry.ammonia`](ammonia.md), [`chemistry.dopant-etch-gases`](dopant-etch-gases.md), [`chemistry.hydrogen-silane`](hydrogen-silane.md), [`chemistry.pulp-chemicals`](pulp-chemicals.md), [`electrochemistry.anodizing`](../electrochemistry/anodizing.md), [`electronics.electrical-systems`](../electronics/electrical-systems.md), [`metals.aluminum`](../metals/aluminum.md), [`metals.finishing`](../metals/finishing.md)
 > **Timeline**: Years 20-30
 > **Outputs**: electrolysis, chlorine, hydrogen, oxygen, aluminum, caustic_soda, pure_copper
+> **Critical**: Yes — the chlor-alkali process produces chlorine, hydrogen, and NaOH simultaneously, which are required for HCl synthesis, PVC production, semiconductor-grade hydrogen, and aluminum smelting. Electrolysis is one of the most electricity-intensive industrial processes and a prerequisite for the chemical industry.
 
 ### Electrolysis Scale-Up
 
@@ -17,6 +18,10 @@
 - **Cathode**: Steel or nickel. Hydrogen evolves at cathode: 2H₂O + 2e⁻ → H₂ + 2OH⁻.
 - **Operating conditions**: 3.2-3.8V per cell, 2-5 kA/m² current density. Temperature 80-90°C. NaCl concentration ~25%.
 - **Energy consumption**: ~2,100-2,500 kWh per tonne of Cl₂. Major power load.
+
+**Strengths (chlor-alkali)**: Produces three critical products simultaneously (Cl₂, H₂, NaOH) from cheap feedstock (salt + water); well-established technology with 100+ years of optimization; membrane cells produce 30-35% NaOH directly; scalable to 3,000+ tonnes/day.
+
+**Weaknesses (chlor-alkali)**: Extremely electricity-intensive (2,100-2,500 kWh/t Cl₂); Cl₂ gas is toxic — requires extensive safety systems; membrane cells require Nafion (complex fluoropolymer); brine must be ultra-purified (Ca²⁺, Mg²⁺ < 20 ppb for membrane cells); Cl₂ and H₂ must never mix (explosive).
 
 **Chlor-alkali diaphragm cell — detailed construction and operation**:
 
@@ -35,6 +40,10 @@ The chlor-alkali process produces three critical products simultaneously: chlori
 - **Alkaline electrolyzer**: 25-30% KOH electrolyte. Nickel electrodes. Temperature 60-80°C. Cell voltage 1.8-2.2V. Current efficiency ~95-99%.
 - **Products**: Ultra-pure H₂ and O₂. H₂ purity critical for semiconductor processes (see [Hydrogen & Silane Production](hydrogen-silane.md)).
 - **Energy**: ~50-55 kWh per kg H₂ (thermodynamic minimum 33 kWh/kg).
+
+**Strengths (alkaline water electrolysis)**: Produces ultra-pure H₂ (>99.5%) and O₂; no carbon emissions with renewable electricity; KOH electrolyte is not consumed — only water is split; well-established technology; alkaline electrolyzers do not require precious metal catalysts or fluoropolymer membranes.
+
+**Weaknesses (alkaline water electrolysis)**: 5-10× more expensive than SMR-derived H₂ per kg; requires ~50-55 kWh/kg H₂ (30-40% thermodynamic efficiency); H₂ purity requires additional catalytic recombination step for trace O₂ removal; electrolyte management (KOH concentration monitoring, impurity accumulation); large footprint per unit H₂ production.
 
 **Water electrolysis — detailed procedures**:
 
@@ -58,6 +67,10 @@ The chlor-alkali process produces three critical products simultaneously: chlori
 - **Operating conditions**: 4.0-4.5V, 150-400 kA per cell, ~13-15 kWh/kg Al.
 - **Power requirement**: A small aluminum plant (10,000 tonnes/year) needs ~15 MW continuous. This is why aluminum was more expensive than gold before cheap electricity.
 
+**Strengths (Hall-Héroult)**: Produces 99.5-99.8% pure aluminum directly from alumina; well-established process (130+ years); carbon anode provides part of the energy chemically (reduces electrical input); continuous operation with periodic metal tapping; cryolite solvent is largely non-consumed.
+
+**Weaknesses (Hall-Héroult)**: Enormous electricity consumption (13-15 kWh/kg Al — 60-70% of production cost); CO₂ emissions from carbon anode (~1.5 t CO₂/t Al); fluoride emissions (HF, CF₄, C₂F₆) require dry scrubbing; bath at 960°C — severe thermal and chemical hazards; cathode life only 3-8 years before relining.
+
 **Hall-Héroult process — detailed cell construction and operation**:
 
 The overall cell reaction is 2Al₂O₃ + 3C → 4Al + 3CO₂. The carbon anode is consumed as a reactant, not merely as an electrode.
@@ -76,6 +89,10 @@ The overall cell reaction is 2Al₂O₃ + 3C → 4Al + 3CO₂. The carbon anode 
 - **Reaction**: Cu (anode) → Cu²⁺ + 2e⁻ (dissolution). Cu²⁺ + 2e⁻ → Cu (cathode, pure deposit). Cell voltage only 0.2-0.3 V (very low — most energy goes to pumping electrolyte, not overcoming thermodynamics). Current density: 200-300 A/m².
 - **Impurities**: Ag, Au, Pt, Se, Te do not dissolve — settle as "anode slime" (valuable byproduct, recovered for precious metals). Ni, Fe, Zn dissolve but do not plate at cathode with proper voltage control. As, Sb, Bi must be controlled — can co-deposit.
 - **Anode slime recovery**: Collect slime, treat with H₂SO₄ + oxidant → dissolve Cu, Se, Te. Melt residual → Doré metal (Ag + Au). Electrorefine silver. Gold and PGMs recovered from silver cell slimes. Revenue from precious metals often exceeds cost of copper refining.
+
+**Strengths (copper electrorefining)**: Produces 99.99% pure copper; very low energy consumption (250-350 kWh/t Cu — among the lowest electrolytic processes); anode slime is a valuable byproduct (Ag, Au, Pt, Pd — revenue often exceeds refining cost); simple cell design (tank + electrodes + electrolyte circulation).
+
+**Weaknesses (copper electrorefining)**: High working capital (metal tied up in process for 14-28 days); requires impure copper anodes from smelter as feedstock; anode slime processing is complex (pressure leaching, precious metals furnace, silver electrorefining); labor-intensive tankhouse operations (anode/cathode handling).
 
 **Copper electrorefining — detailed cell design and operation**:
 
@@ -233,3 +250,7 @@ Faraday's first law of electrolysis: the mass of substance deposited or dissolve
 - **[Acids](acids.md)**: HCl and acid production linked to chlor-alkali process
 - **[Hydrogen and Silane](hydrogen-silane.md)**: Hydrogen as a feedstock for silane and semiconductor gases
 - **[Aluminum Production](../metals/aluminum.md)**: Hall-Héroult electrolysis for aluminum
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

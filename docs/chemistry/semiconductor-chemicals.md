@@ -1,11 +1,12 @@
 # Semiconductor Process Chemicals
 
 > **Node ID**: chemistry.semiconductor-chemicals
-> **Domain**: Chemistry
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.acids`](acids.md), [`chemistry.hydrogen-silane`](hydrogen-silane.md), [`chemistry.dopant-etch-gases`](dopant-etch-gases.md)
+> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
 > **Timeline**: Years 40-70
 > **Outputs**: photoresist, tmah_developer, boe_etchant, cmp_slurry, cleanroom_chemicals
+> **Critical**: Yes — semiconductor process chemicals (photoresist, etchants, CMP slurries, cleaning solutions) are consumed in every step of integrated circuit fabrication. Without ultra-pure chemicals at ppb trace metal levels, semiconductor manufacturing yields collapse to zero.
 
 ### Overview
 
@@ -38,6 +39,10 @@ The workhorse resist for feature sizes down to ~0.35 μm (i-line, 365 nm). Two-c
 4. **Post-exposure bake (PEB)**: 100-120°C for 60 seconds. Completes the Wolff rearrangement and improves pattern fidelity by reducing standing wave effects (interference between incident and reflected light creates sinusoidal dose variation through the resist thickness).
 5. **Development**: 2.38% TMAH aqueous solution (see TMAH section below). 60-90 seconds with gentle agitation. Dissolves exposed regions. Development rate ratio (exposed:unexposed) >1000:1 for high-contrast resists.
 6. **Hard bake**: 120-140°C for 60 seconds. Crosslinks residual resin to improve etch resistance and adhesion. Must stay below Tg of the resist to prevent thermal flow.
+
+**Strengths**: DNQ/novolac resist system is well-proven for 350 nm+ features with >1000:1 dissolution contrast; spin coating produces uniform films across 200-300 mm wafers; aqueous TMAH developer is non-toxic compared to organic solvent developers; six-step process is standardized across the entire industry.
+
+**Weaknesses**: DNQ/novolac cannot resolve below ~250 nm (absorbs at DUV wavelengths); CAR resists are extremely sensitive to airborne amine contamination at ppb levels (requires filtered cleanroom air); spin coating wastes ~95% of dispensed resist; photoresist is a single-use consumable with no recovery path; tight process windows (±0.5°C temperature, ±5% thickness) require precise equipment control.
 
 **Resolution vs sensitivity tradeoff**: Higher PAC loading increases contrast (steeper dissolution curve) but requires higher exposure dose. Thinner resist films resolve smaller features but provide less etch resistance. For i-line lithography at 0.35 μm: ~1.0 μm resist thickness, ~150 mJ/cm² dose, contrast (γ) ≈ 3-5.
 

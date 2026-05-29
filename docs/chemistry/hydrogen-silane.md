@@ -1,11 +1,12 @@
 # Hydrogen & Silane Production
 
 > **Node ID**: chemistry.hydrogen-silane
-> **Domain**: Chemistry
+> **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`chemistry.electrolysis`](electrolysis.md), [`gas-handling.basic`](../gas-handling/basic.md)
-> **Enables**: [`metals.powder-metallurgy`](../metals/powder-metallurgy.md), [`silicon.purification`](../silicon/purification.md)
+> **Enables**: [`metals.powder-metallurgy`](../metals/powder-metallurgy.md), [`silicon.purification`](../silicon/purification.md), [`semiconductor-chemicals`](semiconductor-chemicals.md)
 > **Timeline**: Years 25-50
 > **Outputs**: hydrogen, silane, trichlorosilane
+> **Critical**: Yes — silane (SiH₄) is the primary silicon source for semiconductor CVD processes. Trichlorosilane (SiHCl₃) feeds the Siemens polysilicon process. Ultra-pure hydrogen is required for semiconductor fabrication and ammonia synthesis.
 
 ### Hydrogen Production
 
@@ -15,6 +16,10 @@
 - **Conditions**: 1.8-2.2 V per cell, 50-80°C, 0.1-3 MPa pressure. Current density 200-400 mA/cm². Stack multiple cells in series for desired production rate.
 - **Energy consumption**: ~4-5 kWh per Nm³ H₂ (theoretical minimum 3.0 kWh/Nm³). Production rate proportional to current (Faraday's law: 1 A produces ~0.42 L H₂/hour at STP).
 - **Purification**: Pass through palladium membrane (Pd tube heated to 300-400°C — only H₂ diffuses through Pd lattice, all other gases excluded). Or catalytic recombination (remove O₂ traces by reacting with H₂ over platinum catalyst → water, remove water with desiccant). Achieve 99.999%+ purity.
+
+**Strengths**: Produces carbon-free hydrogen when powered by renewable electricity; palladium membrane purification achieves 99.999%+ purity (semiconductor grade); modular — scale by adding cells; O₂ byproduct has value (medical, steelmaking); alkaline electrolysis is mature technology with 60,000+ hour stack lifetime.
+
+**Weaknesses**: 4-5 kWh/Nm³ is 2-3× more expensive than SMR per kg H₂; Pd membrane is expensive and fragile; KOH electrolyte is corrosive; deionized water required (<5 µS/cm); 70% round-trip efficiency limits use as energy storage; Ir/Pt catalysts in PEM variant are scarce and expensive.
 
 **[Steam reforming](../glossary/steam-reforming.md)** (if natural gas or methane available):
 - CH₄ + H₂O → CO + 3H₂ (endothermic, 700-900°C, Ni catalyst, 2-3 MPa)
@@ -215,4 +220,4 @@ For bootstrapping, alkaline electrolysis is the clear choice: proven technology 
 - **[Vacuum Systems](../gas-handling/vacuum.md)**: Vacuum technology for CVD deposition
 - **[Electrolysis](electrolysis.md)**: Alkaline water electrolysis for hydrogen production
 
-*Part of the [Bootciv Tech Tree](../index.md) - [Chemistry](./index.md) - [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

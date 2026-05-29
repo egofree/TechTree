@@ -1,10 +1,12 @@
 # SEM Tech Water Treatment: Membrane Desalination and Purification
 
-> **Node ID**: water.desalination
-> **Domain**: Water
+> **Node ID**: water.sem-tech-water-treatment
+> **Domain**: [Water](./index.md)
+> **Dependencies**: [`chemistry.sem-tech`](../chemistry/sem-tech.md), [`water.basic-treatment`](basic-treatment.md), [`energy.electricity`](../energy/electricity.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 20-35
 > **Outputs**: fresh_water, brine
-> **Tags**: materials=[polymers], era=industrial
+> **Critical**: No — advanced capability for brackish water desalination, not required for basic water supply
 
 The low-cost ion exchange membranes developed by SEM Tech (see [SEM Tech Membranes](../chemistry/sem-tech.md)) make electrodialysis (ED) desalination practical at a fraction of the cost of conventional membrane processes. While reverse osmosis dominates large-scale seawater desalination today, ED excels at brackish water treatment (1,000–10,000 mg/L TDS) where it consumes significantly less energy. The SEM Tech membrane — manufactured from pulverized water softener resin beads in a PVC/CPVC binder at under $1 per square foot — removes the single largest cost barrier to deploying ED in bootstrap and small-scale water treatment scenarios.
 
@@ -577,4 +579,4 @@ The SEM Tech water treatment system depends on upstream capabilities from severa
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) | [Water](./index.md) | [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*

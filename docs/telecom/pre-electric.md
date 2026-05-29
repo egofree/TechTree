@@ -2,10 +2,11 @@
 
 > **Node ID**: telecom.pre-electric
 > **Domain**: [Telecommunications](./index.md)
-> **Dependencies**: `foundations`, [`knowledge.writing`](../knowledge/writing.md)
+> **Dependencies**: [`foundations`](../foundations/index.md), [`knowledge.writing`](../knowledge/writing.md)
 > **Enables**: [`telecom.electric-telegraph`](electric-telegraph.md)
 > **Timeline**: Years 10-25
 > **Outputs**: visual_signaling, semaphore_networks, beacon_systems
+> **Critical**: No — communication accelerates coordination but is not strictly required for survival
 
 ## Overview
 
@@ -25,6 +26,21 @@ The oldest long-distance signaling technology. A controlled fire on a hilltop or
 **Range**: 5-50 km. A chain of beacon hills can relay a signal across 500+ km in under 1 hour if each station is manned and prepared. The beacon chain along the English coast in 1588 warned of the Spanish Armada's approach across 400 km in under 30 minutes.
 
 **Limitations**: Binary (lit/unlit) with limited encoding. Weather-dependent (fog, heavy rain obscure visibility). No confirmation of receipt. Cannot transmit arbitrary text.
+
+**Strengths**:
+- Simplest possible long-distance signaling — requires only dry wood, fire, and an elevated platform
+- Lowest technology threshold — no optics, no mechanics, no literacy required
+- Fastest signal propagation for pre-arranged messages — 400+ km in under 30 minutes with a prepared chain
+- Works at night when most other visual systems cannot operate
+- Minimal infrastructure — stone platform and fuel supply, no moving parts to maintain
+
+**Weaknesses**:
+- Lowest information bandwidth of any system — binary (lit/unlit) limits to 4-8 pre-arranged messages
+- Weather-dependent — fog, heavy rain, and snow obscure visibility completely
+- No confirmation of receipt — sender cannot verify the signal was seen at the next station
+- Cannot transmit arbitrary text — limited to pre-agreed meanings
+- High fuel logistics for sustained operation — each station burns 20-50 kg wood per signal, must keep reserves dry
+- Fire hazard — hilltop beacons risk wildfire, especially in dry seasons
 
 **Beacon chain logistics**: A line of 20 beacon stations covering 500 km requires 20 teams of 2-4 people each, stationed permanently or on alert. Fuel must be pre-positioned and kept dry. Each station needs shelter for the watch team. Manning cost: 40-80 people full-time for a single chain.
 
@@ -54,6 +70,20 @@ The first practical telecommunication network. Developed by Claude Chappe in Fra
 
 **Napoleonic network**: The Paris-to-Lille line (230 km, 15 stations) became operational in 1794. By 1850, the French network extended over 5,000 km with 500+ stations. Cost to build: ~150,000 francs per 100 km. Operating cost: ~50,000 francs/year per 100 km.
 
+**Strengths**:
+- Highest information bandwidth of any pre-electric system — 8,464 encoded phrases via code book
+- Can transmit arbitrary text letter-by-letter if needed — not limited to pre-arranged messages
+- Proven at continental scale — French network covered 5,000+ km with 500+ stations
+- Mechanical operation requires no fuel — human-powered winch, no consumables
+- Relay speed of 200-300 km/hour for individual symbols — a message crosses 500 km in 2-3 hours
+
+**Weaknesses**:
+- Highest infrastructure cost — towers, telescopes, mechanisms, and trained operators at every station
+- Daylight-only operation — fog, rain, and darkness halt all communication (60-70% uptime)
+- Large permanent staff — 2 operators per station, 50-200 full-time staff for a 500 km line
+- Mechanical maintenance burden — pivot bearings, cables, and wooden arms require quarterly inspection
+- Limited by telescope resolution — station spacing capped at 10-20 km by atmospheric clarity
+
 ### Heliograph (Mirror Signaling)
 
 Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a distant station. Effective range: 10-160 km depending on mirror size and atmospheric conditions.
@@ -72,6 +102,20 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 
 **Military use**: The British Army used heliographs extensively in India and Africa (1870s-1900s). In the Second Boer War (1899-1902), the British heliograph network covered 1,500+ km of signaling lines.
 
+**Strengths**:
+- Longest range of any portable pre-electric system — 50-160 km with 30 cm mirror in clear air
+- Zero fuel or consumables — operates entirely on reflected sunlight
+- Transmits arbitrary text via Morse code — not limited to pre-arranged messages
+- Highest message throughput of any visual system — 5-15 WPM, 200-500 messages/day
+- Lightweight and portable — a complete heliograph station fits in a backpack (2-5 kg)
+
+**Weaknesses**:
+- Sunlight-only operation — clouds, fog, and darkness halt communication entirely
+- Aiming requires skill — beam must be tracked as the sun moves, target must be in direct line of sight
+- Cannot operate toward the sun — stations east of the sender cannot receive morning signals
+- Mirror tarnish degrades performance — polished metal mirrors require regular repolishing
+- Eye hazard for operators — sustained sun-facing causes eye strain; misaligned beams can blind nearby observers
+
 ### Flag Signaling
 
 **Naval flag codes**: Ships communicate via encoded flag hoists. Each flag represents a letter, number, or pre-assigned meaning. The international maritime signal code uses 40 flags (26 letters, 10 numbers, 3 substitutes, 1 answering pennant). Range: 2-8 km for visual flag reading.
@@ -82,6 +126,20 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 - **Range**: 2-5 km unaided, 8-15 km with telescopes.
 - **Speed**: 5-10 words per minute for a skilled signaler.
 
+**Strengths**:
+- Most portable signaling system — a flag and staff weigh <1 kg, fit in a pocket
+- No infrastructure required — no towers, no fuel, no mirrors, works anywhere with line of sight
+- Transmits arbitrary text via Morse code — flexible encoding for any message
+- Fast deployment — a trained signaler can begin transmitting within seconds
+- Works in overcast conditions where heliographs and signal fires fail
+
+**Weaknesses**:
+- Shortest visual range — 2-5 km unaided, 15 km maximum with telescopes
+- Requires trained signaler — Morse code proficiency takes weeks of practice to reach 5+ WPM
+- Fatiguing for the signaler — constant arm motion limits continuous operation to 20-30 minutes
+- Difficult to see against cluttered backgrounds — flags blend with terrain at distance
+- Daylight only, clear weather — darkness, fog, and heavy rain prevent reception
+
 ### Acoustic Signaling
 
 **Drums**: Hollow-log or skin drums transmit coded messages 3-10 km through forested terrain. The "talking drums" of West Africa encode tonal language patterns into drum rhythms. Low-frequency drums (bass tones ~60-80 Hz) carry 5-10 km in forest. Propagation speed through relay villages: 8-15 km/h.
@@ -89,6 +147,20 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 **Horns and trumpets**: Animal horns, conch shells, and brass trumpets carry coded signals 2-8 km. Roman army tuba (4 m straight horn, fundamental ~130 Hz) for battlefield commands. Maximum practical range: 3-5 km in open terrain.
 
 **Bell towers**: Community alert systems. Specific bell patterns encode the alarm nature (fire, invasion, celebration). Range: 3-10 km depending on bell size and wind. The Great Tom of Lincoln (5.5 tonnes) could be heard 8 km in calm conditions.
+
+**Strengths**:
+- Only pre-electric method that works in darkness, fog, and heavy weather — sound penetrates all visual obstructions
+- No line-of-sight requirement — sound bends around hills and through forests
+- Immediate community alert — everyone within earshot receives the signal simultaneously
+- Simple encoding — rhythm patterns (number of strikes, intervals) convey meaning without literacy
+- Drums and horns require no infrastructure beyond the instrument itself
+
+**Weaknesses**:
+- Lowest bandwidth of any method — limited to 10-20 distinct calls or rhythmic patterns
+- Wind-dependent — headwinds reduce range by 50% or more; crosswinds distort directional information
+- No arbitrary text transmission — cannot encode complex messages beyond pre-agreed alarm patterns
+- Shortest useful range for most instruments — 3-10 km for drums and horns, not suitable for long-distance networks
+- Relay speed slowest of all methods — drum relay networks propagate at only 8-15 km/h through villages
 
 ## Bill of Materials
 

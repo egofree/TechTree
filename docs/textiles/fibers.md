@@ -1,11 +1,12 @@
 # Fiber Preparation
 
 > **Node ID**: textiles.fibers
-> **Domain**: Textiles, Fiber & Cordage
+> **Domain**: [Textiles](./index.md)
 > **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md), [`animals.camelids`](../animals/camelids.md), [`animals.goats`](../animals/goats.md), [`animals.rabbits`](../animals/rabbits.md), [`animals.sheep`](../animals/sheep.md), [`foundations.tools-basic`](../foundations/tools-basic.md), [`plants.fiber-plants`](../plants/fiber-plants.md), [`textiles.spinning`](spinning.md)
 > **Enables**: [`knowledge.printing`](../knowledge/printing.md), [`textiles.rope-making`](rope-making.md)
 > **Timeline**: Years 0-5
 > **Outputs**: prepared_fibers
+> **Critical**: No
 
 ### Fiber Sources
 
@@ -16,6 +17,16 @@
 - **Scutching**: Beat broken stalks with flat wooden knife against vertical board. Knock away remaining woody fragments.
 - **Hackling (combing)**: Draw fibers through graduated iron or thorn combs (hackles). Coarse hackle removes remaining shives. Fine hackle separates long line fibers (30-90 cm) from short tow (5-15 cm). Line fibers become high-quality linen; tow becomes coarse cloth or rope.
 - **Yield**: ~200-400 kg fiber per hectare. Long line fiber ~30% of total; tow ~20%.
+
+**Strengths**:
+- Flax produces the finest natural bast fiber — line fibers 50-90 cm long spin into strong, smooth linen
+- Dual-purpose crop: fiber for textiles, linseed for oil (35-40% oil content)
+- Retting requires only water and time — no chemicals or energy input
+
+**Weaknesses**:
+- Retting window is narrow: 1-2 days between under-retted and over-retted in warm water
+- Hackling separates only ~30% as long line fiber; the rest is short tow for coarse applications
+- Requires 100+ days growing season and consistent moisture (600-800 mm rainfall)
 
 **Hemp**:
 - **Cultivation**: Annual, 2-4 m tall. Extremely hardy, minimal water. Harvest at pollen shedding (before seeds mature for best fiber). Processing identical to flax: ret (5-10 days in water), break, scutch, hackle.
@@ -44,6 +55,16 @@
 - **Retting**: Bundle stems and submerge in water for 2-4 weeks (or dew-ret on grass for 4-6 weeks). Bacteria decompose pectin binding bark fibers to woody core. Test by checking if fibers peel away cleanly from stem.
 - **Decortication**: Beat or crush dried retted stems to break woody core. Peel bark strips containing fiber bundles. Scrape away remaining woody fragments with blunt blade.
 - **Properties**: Similar to linen — strong, long-staple fiber. Traditionally used for sailcloth, fishing nets, and coarse cloth in northern Europe before flax became dominant. Yields less than flax per hectare but grows wild without cultivation.
+
+**Strengths**:
+- Nettle grows wild across temperate regions — no cultivation required for a usable fiber supply
+- Fiber properties similar to linen: strong, long-staple, suitable for sailcloth and fishing nets
+- Harvest in late summer provides fiber without competing with food crops for prime agricultural land
+
+**Weaknesses**:
+- Stinging hairs (formic acid, histamine) require gloves during harvest — unpleasant handling
+- Retting takes 2-4 weeks (water) or 4-6 weeks (dew) — slower than flax
+- Yield per hectare is lower than cultivated flax, making it a supplementary rather than primary source
 
 **[Sinew](../glossary/sinew.md)** (animal tendon):
 - **Source**: Leg tendons and long backstrap tendons from deer, elk, cattle. Harvest from fresh carcass — peel away surrounding tissue while tendon is still wet.
@@ -203,4 +224,6 @@ Proper storage prevents fiber degradation before processing:
 - **Flax and hemp line fiber**: Store in dry, well-ventilated conditions. Line fibers (long, combed) are bundled into stricks (twisted hanks, 200-400 g each) and packed in burlap sacks. Tow (short fibers) is baled. Bast fibers are less vulnerable to insects than wool but will mildew if stored damp.
 - **Silk**: Store raw silk in dry, dark conditions. Sunlight degrades silk fibroin (UV breaks peptide bonds), causing yellowing and progressive weakening. Moths also attack silk. Acid-free tissue paper wrapping for fine silk hanks. Degummed silk is more vulnerable than raw silk because the sericin coating provides some UV and abrasion protection.
 
-[← Back to Textiles](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

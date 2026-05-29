@@ -1,11 +1,12 @@
 # Industrial Water Treatment
 
 > **Node ID**: chemistry.water-treatment
-> **Domain**: Chemistry
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.alkalis`](alkalis.md), [`chemistry.acids`](acids.md), [`energy.electricity`](../energy/electricity.md)
+> **Enables**: [`semiconductor-chemicals`](semiconductor-chemicals.md), [`health.occupational-health`](../health/occupational-health.md), [`chemistry.electrolysis`](electrolysis.md)
 > **Timeline**: Years 10-30
 > **Outputs**: deionized_water, purified_water, ultrapure_water
+> **Critical**: Yes — ultrapure water (UPW, >18.2 MΩ·cm resistivity) is consumed at 5-10 tonnes per day per semiconductor fab. Without UPW, semiconductor manufacturing is impossible. Industrial water treatment is also required for boiler feed, cooling, and process water in all chemical plants.
 
 ## Overview
 
@@ -36,9 +37,17 @@ Water purification is a staged process, each stage removing a specific class of 
 - Regeneration: cation resin with 4-8% HCl (100-150 g/L resin), anion resin with 4-8% NaOH (50-100 g/L resin). Regeneration waste is acidic or alkaline — neutralize before discharge.
 - Throughput: 1 m³ resin treats 500-2,000 m³ water before regeneration, depending on influent TDS. Typical service flow rate: 10-40 bed volumes/hour.
 
+**Strengths**: Produces water up to 18 MΩ·cm resistivity (near-theoretical purity); resin regeneration with HCl/NaOH is straightforward; well-established technology with 70+ years of industrial practice; modular — scale by adding resin vessels; no heat or high pressure required.
+
+**Weaknesses**: Resin exhausted by feed water TDS — high-TDS feed requires frequent regeneration (acid/caustic consumption); regeneration waste streams need neutralization before discharge; free chlorine destroys resin (carbon pretreatment mandatory); resin lifespan 3-7 years (fouling, oxidation, thermal degradation); silica removal limited by anion resin type.
+
 **Stage 5: Membrane processes** (removes dissolved ions and organics at molecular level):
 
 *Reverse osmosis (RO)*: Forces water through a semipermeable membrane (polyamide thin-film composite, 0.1-1.0 nm pore size) at 10-70 bar pressure. Rejects 95-99% of dissolved ions, 99%+ organics, and 99.9%+ bacteria and particles. Energy: 3-8 kWh/m³ product water. Recovery: 50-80% (remainder is concentrate/brine). Single-pass RO produces 5-20 μS/cm water; double-pass (RO permeate through a second RO stage) achieves <1 μS/cm.
+
+**Strengths**: RO removes 95-99% of all dissolved ions in a single pass; no chemical regeneration needed (unlike ion exchange); compact footprint compared to distillation; continuous operation; double-pass RO achieves <1 μS/cm without ion exchange; EDI polishing eliminates chemical regeneration entirely.
+
+**Weaknesses**: Polyamide membranes destroyed by free chlorine (carbon pretreatment mandatory); high pressure (10-70 bar) requires robust pumps and energy input; membrane fouling by scale, biofilm, and organics reduces flux over time; 20-50% of feed water wasted as concentrate/brine; seawater RO energy cost is 3-5 kWh/m³ (significant power demand).
 
 *Nanofiltration (NF)*: Similar to RO but at lower pressure (5-20 bar) with larger pores (1-5 nm). Rejects 80-95% divalent ions (Ca²⁺, Mg²⁺, SO₄²⁻) but only 20-50% monovalent ions (Na⁺, Cl⁻). Useful for water softening before RO.
 
@@ -193,7 +202,7 @@ Industrial water treatment includes treating used water before discharge. The st
 - **[SEM Tech Water Treatment](../water/sem-tech-water-treatment.md)**: electrodialysis desalination using ion exchange membranes
 - **[Electrolysis](./electrolysis.md)**: chlor-alkali process producing chlorine for water disinfection
 - **[Basic Semiconductor Devices](../silicon/basic-devices.md)**: UPW requirements for wafer processing
-- **[Wafer Production](../silicon/wafer-production.md)**: CMP slurries and rinsing demand for ultrapure water
+- **[Wafer Production](../silicon/wafering.md)**: CMP slurries and rinsing demand for ultrapure water
 - **[Vacuum Systems](../vlsi-scaling/vacuum-systems.md)**: sealed water-cooled systems and deionized coolant
 - **[Glass Fibers](../glass/fibers.md)**: high-purity water for optical fiber preform processing
 
@@ -276,4 +285,4 @@ Industrial water treatment includes treating used water before discharge. The st
 
 ---
 
-*Part of the [Chemistry Domain](index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

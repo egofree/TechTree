@@ -6,6 +6,7 @@
 > **Enables**: [`computing.digital-logic`](../computing/digital-logic.md)
 > **Timeline**: Years 25-70
 > **Outputs**: boolean_algebra, information_theory, formal_languages, automata_theory
+> **Critical**: Yes — mathematics is the shared language of quantitative reasoning for all engineering
 
 ## Problem
 
@@ -266,3 +267,6 @@ Steps 1-2 are pure information theory. Step 5 requires coding theory and statist
 - **Core mathematics** (`mathematics.core-mathematics`): Algebra (Boolean algebra is a specialized algebra), set theory (formal languages operate on sets of strings), and logical reasoning
 - **Applied mathematics** (`mathematics.applied-mathematics`): Probability theory (information theory requires probability), linear algebra (coding theory uses matrix operations)
 - **Enables**: Digital logic design (`computing.digital-logic`), communication systems, data storage (`computing.data-storage`), formal verification, and compiler construction
+
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Mathematics & Formal Sciences](./index.md) • [All Domains](../index.md)*

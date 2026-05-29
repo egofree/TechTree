@@ -1,11 +1,12 @@
 # Energy Storage & Diversification
 
 > **Node ID**: energy.storage
-> **Domain**: [Energy Storage & Diversification](./index.md)
+> **Domain**: [Energy](./index.md)
 > **Dependencies**: `chemistry`, `energy`, `metals`, [`polymers.rubber`](../polymers/rubber.md)
 > **Enables**: `energy.electricity.power-systems`
 > **Timeline**: Years 15-200+
 > **Outputs**: lead_acid_batteries, grid_infrastructure, ups_systems, hydroelectric_power, wind_power
+> **Critical**: No — energy storage enables renewable intermittency management and power backup but is not on the critical bootstrap path
 
 ## Problem
 
@@ -14,6 +15,18 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 ## Technologies & Systems
 
 ### Lead-Acid Battery
+
+**Strengths**:
+- Well-understood chemistry with 160+ years of industrial use
+- Recyclable — >95% of lead is recoverable from spent batteries
+- Surge current capability — can deliver 5-10× rated current briefly for motor starting
+- Tolerant of overcharging compared to lithium-ion (gassing vents excess energy)
+
+**Weaknesses**:
+- Low energy density (25-35 Wh/kg) — heavy for the energy stored
+- Limited cycle life (300-1,500 cycles depending on depth of discharge)
+- Contains lead and sulfuric acid — toxic and corrosive, requires careful handling and disposal
+- Self-discharge rate of 3-5% per month — not suitable for long-term storage without maintenance charging
 
 **Chemistry**:
 - **Discharge**: Pb (anode) + PbO₂ (cathode) + 2H₂SO₄ → 2PbSO₄ + 2H₂O (cell voltage: 2.05V nominal)
@@ -36,17 +49,13 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 
 ### Nickel-Iron (Edison) Battery
 
-**Chemistry**:
-- **Discharge**: Fe (anode) + 2NiOOH + 2H₂O → Fe(OH)₂ + 2Ni(OH)₂ (cell voltage: 1.2V nominal)
-- **Electrolyte**: 20-25% KOH (potassium hydroxide) solution — alkaline, NOT acid.
+**Strengths**:
+- Extremely long cycle life (3,000-10,000+ cycles vs. 300-1,500 for lead-acid)
+- Tolerant of abuse — overcharge, overdischarge, and short circuits do not destroy the battery
+- Wide temperature range (-40°C to +60°C) — suitable for harsh environments
+- Nickel and iron are more geologically available than lead in some locations
 
-**Advantages over lead-acid**:
-- Extremely long cycle life (3000-10000+ cycles vs. 300-1500 for lead-acid).
-- Tolerant of abuse (overcharge, overdischarge, short circuit).
-- Wide temperature range (-40°C to +60°C).
-- Nickel and iron are more available than lead in some locations.
-
-**Disadvantages**:
+**Weaknesses**:
 - Lower energy density (20-30 Wh/kg).
 - Higher self-discharge rate (20-40% per month vs. 5% for lead-acid).
 - Voltage decreases significantly during discharge (1.2V → 1.0V vs. relatively flat 2.0V for lead-acid).

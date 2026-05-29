@@ -1,11 +1,12 @@
 # Alkali Production
 
 > **Node ID**: chemistry.alkalis
-> **Domain**: Chemistry
-> **Dependencies**: `mining`
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`mining.processing`](../mining/processing.md)
 > **Enables**: [`chemistry.explosives`](explosives.md), [`chemistry.pulp-chemicals`](pulp-chemicals.md), [`chemistry.soap`](soap.md), [`metals.aluminum`](../metals/aluminum.md), [`textiles.finishing`](../textiles/finishing.md)
 > **Timeline**: Years 20-35
 > **Outputs**: soda_ash, caustic_soda, sodium_carbonate
+> **Critical**: Yes — soda ash (Na₂CO₃) and caustic soda (NaOH) are essential for glass manufacturing, soap production, paper pulping, and aluminum extraction. The Solvay process is one of the foundational chemical industries.
 
 ### Alkali Production
 
@@ -15,6 +16,10 @@
 - **Step 3**: Leach black ash with water. Na₂CO₃ dissolves. CaS and impurities remain as residue. Crystallize Na₂CO₃ (soda ash) from solution by evaporation.
 - **Pollution**: CaS waste (4 tonnes per tonne Na₂CO₃) creates H₂S (rotten egg gas) when exposed to rain. Major environmental problem historically. Oxidize with air to convert to CaSO₄ (gypsum — useful building material).
 
+**Strengths**: First synthetic route to soda ash from salt (1791); produces HCl as valuable co-product; no ammonia required — suitable for early bootstrapping; well-understood batch chemistry.
+
+**Weaknesses**: Massive CaS waste (4 t per t Na₂CO₃) releasing toxic H₂S; energy-intensive (multiple furnace stages at 150-1000°C); historically caused severe environmental damage; completely displaced by Solvay wherever ammonia is available.
+
 **[Solvay process](../glossary/solvay-process.md)** (more efficient, later):
 - **Principle**: NaCl + NH₃ + CO₂ + H₂O → NaHCO₃ (precipitates) + NH₄Cl. Heat NaHCO₃ → Na₂CO₃ + CO₂ + H₂O. Recycle NH₃ and CO₂.
 - **Ammonia recovery**: Heat NH₄Cl with Ca(OH)₂ (slaked lime) → NH₃ + CaCl₂ + H₂O. Calcium chloride is waste product.
@@ -22,15 +27,31 @@
 - **Advantages over Leblanc**: Less waste, lower energy, continuous process. But requires ammonia (from coal distillation or Haber-Bosch).
 - **Throughput**: 100-1000+ tonnes/day in mature plants.
 
+**Strengths**: Continuous process with low operating costs; ammonia efficiently recycled (1-2 kg makeup per tonne Na₂CO₃); much less waste and pollution than Leblanc; scalable to 3,000 tonnes/day.
+
+**Weaknesses**: Requires ammonia supply (from Haber-Bosch or coke ovens); CaCl₂ waste (~10 t per t Na₂CO₃) causes salinity in waterways; capital-intensive (carbonation towers, calciner, ammonia still); NaCl conversion limited to ~72-75%.
+
 **Caustic soda (NaOH)**:
 - **Lime-soda process**: Na₂CO₃ + Ca(OH)₂ → 2NaOH + CaCO₃ (precipitates). Filter, evaporate to 50% NaOH solution. Simple but produces CaCO₃ sludge.
 - **[Electrolysis of brine](../glossary/electrolysis-of-brine.md)** (preferred): See [Electrolysis](electrolysis.md). Produces Cl₂ + H₂ + NaOH simultaneously. Most efficient route.
+
+**Strengths (lime-soda)**: No electricity required; simple equipment (tank + filter + evaporator); CaCO₃ can be reburned to close the lime loop; works with Solvay/Leblanc soda ash.
+
+**Weaknesses (lime-soda)**: Only 85-92% conversion; high steam consumption (2-3 t/t NaOH); CaCO₃ sludge handling; max 50% NaOH without nickel-clad equipment.
+
+**Strengths (electrolytic)**: Highest purity NaOH; co-produces valuable Cl₂ and H₂; most economical at large scale.
+
+**Weaknesses (electrolytic)**: Requires reliable electricity (2,100-2,500 kWh/t Cl₂); Cl₂/NaOH demand ratio is fixed; high capital cost for cell rooms.
 
 **Potash (K₂CO₃) — pre-industrial alkali**:
 - **Source**: Plant ashes, especially hardwood (oak, beech, maple). Land plants concentrate potassium from soil.
 - **Process**: Leach wood ash with water → dissolve K₂CO₃ (sodium and calcium salts are less soluble). Filter through cloth or sand bed. Evaporate filtrate in iron or clay pots → crude potash (brown, 50-70% K₂CO₃). Calcine (heat to 800-900°C) to burn off organic impurities → pearl ash (white, 80-95% K₂CO₃).
 - **Yield**: 5-10% of dry wood weight. One hectare of forest yields ~1-2 tonnes potash. Very land-intensive.
 - **Uses**: Glass making (K₂CO₃ lowers melting point of silica), soap (potash + fat → soft soap), fertilizer (potassium source).
+
+**Strengths**: Available from wood ashes with Stone Age technology; no industrial infrastructure needed; co-produces soft soap (potassium-based); potassium is essential for plant growth (fertilizer).
+
+**Weaknesses**: Extremely land-intensive (1-2 t/ha, decades regrowth); low yield (5-10% of wood weight); impure product (50-70% K₂CO₃ before calcination); cannot scale to industrial volumes; deforestation pressure.
 
 **Baking soda (NaHCO₃) via Solvay intermediates**:
 - The Solvay process precipitates NaHCO₃ before thermal decomposition. Divert this intermediate: NaCl + NH₃ + CO₂ + H₂O → NaHCO₃↓ + NH₄Cl. Filter, wash, dry at low temperature (<50°C to prevent decomposition). Food-grade NaHCO₃ requires additional purification.
@@ -78,6 +99,10 @@ The Solvay (ammonia-soda) process produces sodium carbonate (Na₂CO₃, soda as
 - NH₃ makeup: ~1-2 kg
 - Energy: ~7-10 GJ/tonne Na₂CO₃
 
+**Strengths (Solvay detailed)**: Near-complete ammonia recycle (only 1-2 kg makeup per tonne); CO₂ also recycled from calciner and lime kiln; well-established continuous process operable by medium-skilled workforce; 100-3000 tonnes/day throughput.
+
+**Weaknesses (Solvay detailed)**: CaCl₂ waste (10 t per t Na₂CO₃) with limited market; NaCl conversion limited to 72-75% — remainder recycled but increases brine handling; carbonation tower temperature must be precisely controlled (15-20°C optimal); requires parallel lime kiln and ammonia still operations.
+
 ### Leblanc Process — Detailed Steps
 
 The Leblanc process was the first industrial method for producing soda ash from salt (patented 1791). It is more polluting and less efficient than Solvay but requires no ammonia, making it potentially relevant for bootstrapping:
@@ -86,6 +111,10 @@ The Leblanc process was the first industrial method for producing soda ash from 
 - **Step 2 (Black ash)**: Na₂SO₄ + 2C (coke/charcoal) + CaCO₃ (limestone) → Na₂CO₃ + CaS + 2CO₂. Rotary furnace or reverberatory furnace at 900-1000°C. Mix and roast for 1-2 hours. The coal reduces Na₂SO₄ to Na₂S, which reacts with CaCO₃.
 - **Step 3 (Leaching)**: Crush and leach black ash with water. Na₂CO₃ dissolves (soluble). CaS and unreacted solids remain as residue. Crystallize Na₂CO₃·10H₂O (washing soda) by cooling, or calcine to anhydrous Na₂CO₃ (soda ash) by heating to 150°C.
 - **Pollution**: CaS waste (~4 tonnes per tonne Na₂CO₃) creates H₂S (toxic, rotten-egg gas) when exposed to rainwater. Historically caused massive environmental damage. Mitigation: oxidize CaS waste with air to CaSO₄ (gypsum — useful for plaster and wallboard).
+
+**Strengths**: No ammonia required — key advantage for early bootstrapping before Haber-Bosch; produces HCl as valuable co-product for steel pickling and chemical synthesis; batch process compatible with simple furnace construction; historically proven (dominated 1791-1880s).
+
+**Weaknesses**: CaS waste (4 t per t Na₂CO₃) releases toxic H₂S when wet; multiple high-temperature furnace stages (150-1000°C); much higher energy consumption than Solvay; HCl emissions historically killed surrounding vegetation; completely displaced by Solvay where ammonia is available.
 
 ### Causticization — Converting Soda Ash to Caustic Soda
 
@@ -99,6 +128,10 @@ Sodium hydroxide (NaOH, caustic soda) is produced from sodium carbonate by react
 - **Energy**: ~2-3 tonnes steam per tonne NaOH (50% solution).
 - This route is simpler than electrolysis but produces CaCO₃ sludge and is less economical at large scale. For bootstrapping without electrolysis infrastructure, causticization provides NaOH from Solvay soda ash.
 
+**Strengths**: No electricity or membrane technology required; CaCO₃ byproduct can be reburned to close the lime loop; straightforward equipment (agitated tank + filter + evaporator); well-suited for bootstrapping scenarios.
+
+**Weaknesses**: Equilibrium-limited to 85-92% conversion; high steam consumption for evaporation (2-3 t/t NaOH); produces 50% NaOH max in steel equipment — higher concentrations need nickel-clad vessels; CaCO₃ sludge handling adds operational complexity.
+
 ### Potash from Wood Ashes — Pre-Industrial Alkali
 
 Before synthetic alkalis, potash (K₂CO₃) was the primary alkali source for glassmaking, soap, and textile processing:
@@ -111,6 +144,10 @@ Before synthetic alkalis, potash (K₂CO₃) was the primary alkali source for g
 - **Land intensity**: One hectare of mature hardwood forest yields ~1-2 tonnes of potash per harvest cycle (decades of regrowth required). This is a hunter-gatherer approach to alkali — useful for bootstrapping but not scalable to industrial volumes.
 - **Industrial potash**: Modern K₂CO₃ is produced from mined potassium minerals (e.g., reaction of KCl with MgCO₃, or electrolysis of KCl).
 
+**Strengths**: Requires only fire, water, and clay/iron pots — Stone Age technology; produces both alkali (K₂CO₃) and soft soap directly; potassium is essential for glass, soap, and fertilizer; pearl ash (>95% K₂CO₃) achievable with simple calcination.
+
+**Weaknesses**: Catastrophically land-intensive (1-2 t/ha, decades of forest regrowth); yield is only 5-10% of dry wood weight; cannot scale beyond artisanal production; deforestation is inevitable at scale; conifer ash gives much lower K₂CO₃ yield than hardwood.
+
 ### Lime Chemistry Detail
 
 **Quicklime (CaO) production**: Limestone (CaCO₃) heated in a lime kiln to 900-1200°C. CaCO₃ → CaO + CO₂. The reaction is endothermic (ΔH = +178 kJ/mol) — requires substantial fuel. Shaft kiln (vertical, continuous): limestone fed at top, fuel (coke, gas, wood) burned in middle, quicklime drawn at bottom. Temperature gradient: top 400°C (preheat), middle 1100°C (calcination zone), bottom 100°C (cooling). Rotary kiln: inclined rotating cylinder 30-60 m long. Better heat transfer, higher throughput, but higher capital cost. Yield: 56 kg CaO per 100 kg CaCO₃ (theoretical — practical yield ~95%).
@@ -120,6 +157,10 @@ Before synthetic alkalis, potash (K₂CO₃) was the primary alkali source for g
 **Lime mortar setting**: Ca(OH)₂ + CO₂ (from air) → CaCO₃ + H₂O. Sets by carbonation — absorbs CO₂ from atmosphere over weeks to months. Hydraulic lime (containing clay impurities) also sets by hydration of calcium silicates — sets underwater. Roman concrete (opus caecementicium) used hydraulic lime + volcanic ash (pozzolana) — 2000-year durability.
 
 **Lime kiln designs**: (1) Flare kiln (batch): stone arch with fuel underneath, limestone stacked above. Simple, labor-intensive. (2) Shaft kiln (continuous): feed at top, discharge at bottom, fuel injected at middle. Most common for moderate scale. (3) Rotary kiln: inclined rotating tube 30-60 m long. Fuel and limestone enter same end, product exits the other. Best quality and throughput.
+
+**Strengths (lime cycle)**: Limestone is abundant worldwide; shaft kiln is simple continuous equipment; CaCO₃ → CaO → Ca(OH)₂ → CaCO₃ loop is closable; lime has dozens of uses (mortar, causticization, water treatment, flue gas desulfurization, steel flux); 56 kg CaO per 100 kg CaCO₃ with 90-95% practical yield.
+
+**Weaknesses (lime cycle)**: Calcination is strongly endothermic (+178 kJ/mol) — fuel-intensive; quicklime is hazardous (violent reaction with water, caustic burns); slaked lime has limited solubility (1.73 g/L at 20°C); kiln thermal efficiency only 50-70%; CO₂ emissions are intrinsic to the chemistry.
 
 ### Ammonia Sources for Solvay
 
@@ -228,3 +269,7 @@ The lime cycle (CaCO₃ → CaO → Ca(OH)₂ → CaCO₃) is central to alkali 
 - **[Solvay Process](solvay.md)**: Detailed sodium carbonate production
 - **[Acids](acids.md)**: Complementary acid-base chemistry
 - **[Soap](soap.md)**: NaOH in saponification
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

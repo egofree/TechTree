@@ -2,10 +2,11 @@
 
 > **Node ID**: textiles.sewing-tailoring
 > **Domain**: [Textiles](./index.md)
-> **Dependencies**: [`metals.copper-bronze`](../metals/copper-bronze.md), `textiles`, [`textiles.weaving`](weaving.md)
+> **Dependencies**: [`metals.copper-bronze`](../metals/copper-bronze.md), [`textiles`](./index.md), [`textiles.weaving`](weaving.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 5-10
 > **Outputs**: garments, tents, sails, bags, belting
+> **Critical**: No
 
 ### Needle Making
 
@@ -17,6 +18,16 @@ A sewing needle is a slender steel shaft with a point at one end and an eye (hol
 - The point is ground on a stone wheel or formed by swaging (hammering the tip between shaped dies). Needle points vary by purpose: sharp (for woven fabrics), ball point (for knits, slides between yarns without cutting them), wedge point (for leather, cuts a small slit).
 - Hardening: heat to 750-800°C (bright cherry red), quench in oil or water. Tempering at 300-400°C to reduce brittleness while maintaining hardness (Rockwell C 50-55 for standard needles).
 - Polishing: needles are tumbled in a barrel with abrasive powder (emery or pumice) for 8-24 hours to achieve a smooth surface. Final polish with iron oxide (rouge) for corrosion resistance.
+
+**Strengths**:
+- Hand needle manufacture uses only iron/steel wire, a punch, and grinding stone — minimal tooling
+- Ball-point needles slide between knit yarns without cutting them — prevents run damage
+- Barrel polishing produces smooth, burr-free eyes that do not shred thread
+
+**Weaknesses**:
+- Eye must be deburred perfectly — any rough edge breaks thread repeatedly during sewing
+- Hardening and tempering (750-800°C quench, 300-400°C temper) requires temperature control
+- Tumbling polish takes 8-24 hours per batch — slow throughput
 
 **Needle sizing**:
 - Hand needles are sized by number (1-12 in the Singer system). A size 9 needle (most common for general sewing) is about 0.8 mm diameter × 40 mm long. A size 1 (heavy duty) is about 1.5 mm × 55 mm.
@@ -65,6 +76,16 @@ A seam is only as strong as its construction. Different seam types suit differen
 - Fabric is stitched wrong sides together (first pass, narrow seam allowance of 5-7 mm), then turned inside out and stitched right sides together (second pass, 8-10 mm from the folded edge), enclosing the raw edges.
 - Strength retention: 85-90%. Two stitching lines share the load. Neat finish on both sides with no visible raw edges.
 - Used for sheer fabrics (chiffon, organza), lingerie, and children's clothing where bulk and exposed edges are unacceptable.
+
+**Strengths**:
+- Felled and flat-felled seams retain 90-100% of fabric strength with self-enclosed edges
+- French seam hides all raw edges in two-pass stitching — clean finish on both sides
+- Plain seam is fast to construct and retains 80-90% fabric strength for most garments
+
+**Weaknesses**:
+- Felled seam adds four layers of bulk — unsuitable for fine or lightweight fabrics
+- Flat-felled seam requires precision folding; hand sewing needs basting before final stitching
+- Plain seam raw edges fray unless finished separately (zigzag, overlock, or binding)
 
 ### Garment Construction
 
@@ -115,6 +136,16 @@ The lockstitch machine (invented by Elias Howe, 1846; refined by Isaac Singer) c
 **Machine construction** (bootstrap overview):
 - Frame: cast iron, providing the rigidity needed for high-speed operation without vibration. The main shaft runs in two bronze bearings. The needle bar, presser bar, and feed dog are all driven by cams on the main shaft.
 - Power: originally treadle-driven (foot pedal, 60-100 W human power). Later, belt-driven from a line shaft or electric motor. Industrial machines use a clutch motor (100-500 W) that allows the operator to control speed by foot pedal pressure.
+
+**Strengths**:
+- Lockstitch produces identical appearance on both sides — professional finish
+- Industrial machines run 3000-5000 SPM — 10-20× faster than hand sewing
+- Cast iron frame eliminates vibration at high speed — consistent stitch quality
+
+**Weaknesses**:
+- Rotary hook and bobbin require precision machining — ±0.05 mm tolerance on hook timing
+- Thread tension must be balanced per fabric/thread combination — setup skill required
+- Bobbin runs out and must be replaced frequently during long seams
 
 ### Hand Sewing Stitches
 
@@ -195,11 +226,9 @@ Proper fit requires systematic body measurement and pattern adjustment. A poorly
 - **Woven cloth**: [weaving](weaving.md)
 - **Steel for needles**: [iron and steel](../metals/iron-steel.md)
 - **Canvas and fabric**: [weaving](weaving.md)
-- **Leather for belts**: [leather](../materials/index.md)
+- **Leather for belts**: [leather](../animals/leather.md)
 - **Sewn products used in mining**: [mining equipment](../mining/index.md)
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Textiles](./index.md) · [All Domains](../index.md)*
-
-[← Back to Textiles](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

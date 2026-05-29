@@ -1,0 +1,360 @@
+entity_id	entity_name	domain	candidate_qid	candidate_label	candidate_description	confidence_score	match_reason	status
+water.basic-treatment	Basic Water Treatment	water				0.0	zero_results	no_match
+water.desalination	Desalination	water				0.0	zero_results	no_match
+water.distribution	Water Distribution	water				0.0	zero_results	no_match
+water.procurement	Water Procurement	water				0.0	zero_results	no_match
+water.sewage	Sewage Collection & Treatment	water				0.0	zero_results	no_match
+water	Water	water				0.0	zero_results	no_match
+foundations.fire	Fire-Making	foundations				0.0	zero_results	no_match
+foundations.food-agriculture	Agriculture & Food Production	foundations				0.0	zero_results	no_match
+foundations	Foundations	foundations				0.0	zero_results	no_match
+foundations.tools-basic	Stone & Wood Tools	foundations				0.0	zero_results	no_match
+foundations.water-procurement	Water Procurement	foundations				0.0	zero_results	no_match
+machine-tools.bearings-abrasives	Bearings, Abrasives & Cutting Tools	machine-tools				0.0	zero_results	no_match
+machine-tools.casting	Metal Casting	machine-tools				0.0	zero_results	no_match
+machine-tools.edm-cnc	EDM, CNC & Precision Grinding	machine-tools				0.0	zero_results	no_match
+machine-tools.forming	Metal Forming	machine-tools				0.0	zero_results	no_match
+machine-tools.iterative-bootstrap	Iterative Machine Bootstrap	machine-tools				0.0	zero_results	no_match
+machine-tools.joining.diffusion-bonding	Diffusion Bonding	machine-tools				0.0	zero_results	no_match
+machine-tools.joining.electron-beam	Electron Beam Welding	machine-tools				0.0	zero_results	no_match
+machine-tools.joining.friction-stir	Friction Stir Welding	machine-tools				0.0	zero_results	no_match
+machine-tools.joining	Metal Joining	machine-tools				0.0	zero_results	no_match
+machine-tools.joining.laser-welding	Laser Welding	machine-tools				0.0	zero_results	no_match
+machine-tools.joining.mig-welding	MIG Welding (GMAW)	machine-tools				0.0	zero_results	no_match
+machine-tools.joining.resistance-welding	Resistance Welding (Spot & Seam)	machine-tools				0.0	zero_results	no_match
+machine-tools.joining.tig-welding	TIG Welding (GTAW)	machine-tools				0.0	zero_results	no_match
+machine-tools.joining.ultrasonic-bonding	Ultrasonic Welding & Wire Bonding	machine-tools				0.0	zero_results	no_match
+machine-tools	Machine Tools Bootstrap	machine-tools				0.0	zero_results	no_match
+machine-tools.machining	Machining	machine-tools				0.0	zero_results	no_match
+petroleum.extraction.cable-tool	Cable-Tool Drilling	petroleum				0.0	zero_results	no_match
+petroleum.extraction	Crude Oil Extraction	petroleum				0.0	zero_results	no_match
+petroleum.extraction.rotary	Rotary Drilling	petroleum				0.0	zero_results	no_match
+petroleum.petrochemicals	Petrochemical Feedstocks	petroleum				0.0	zero_results	no_match
+petroleum.petrochemicals.steam-cracking	Steam Cracking (Olefin Production)	petroleum				0.0	zero_results	no_match
+petroleum	Petroleum Extraction & Refining	petroleum				0.0	zero_results	no_match
+petroleum.refining.cracking	Catalytic Cracking & Conversion	petroleum				0.0	zero_results	no_match
+petroleum.refining.distillation	Atmospheric & Vacuum Distillation	petroleum				0.0	zero_results	no_match
+petroleum.refining	Petroleum Refining	petroleum				0.0	zero_results	no_match
+energy.blue-energy	Blue Energy (Osmotic Power)	energy				0.0	zero_results	no_match
+energy.cooling	Cooling Systems & Refrigeration	energy				0.0	zero_results	no_match
+energy.electric-furnaces.electrode-manufacturing	Graphite Electrode Manufacturing	energy				0.0	zero_results	no_match
+energy.electric-furnaces	Electric Furnaces	energy				0.0	zero_results	no_match
+energy.electricity	Electricity Generation & Distribution	energy				0.0	zero_results	no_match
+energy.electricity.power-systems	Electric Power Systems for Semiconductor Fabrication	energy				0.0	zero_results	no_match
+energy	Energy	energy	Q11379	energy	quantitative property of a physical system, recognizable in the performance of work and in the form of heat and light	0.4231	name=1.00 desc=0.08	pending
+energy	Energy	energy	Q15765728	Energy	scientific journal	0.4000	name=1.00	pending
+energy	Energy	energy	Q27727257	Energy Research & Social Science	journal	0.4000	name=1.00	pending
+energy.engine	Heat Engines	energy				0.0	zero_results	no_match
+energy.fuel-cell	Fuel Cell	energy				0.0	zero_results	no_match
+energy.fuels.charcoal	Charcoal Production	energy	Q177463	Charcoal Production		1.0	existing_wikidataId	existing
+energy.fuels.coal	Coal Mining & Combustion	energy				0.0	zero_results	no_match
+energy.fuels.coke	Coke Production	energy				0.0	zero_results	no_match
+energy.fuels	Fuel Production	energy				0.0	zero_results	no_match
+energy.gravity	Water Power	energy				0.0	zero_results	no_match
+energy.gravity.water-turbines	Water Turbines	energy				0.0	zero_results	no_match
+energy.redox-flow-battery	Redox Flow Battery	energy				0.0	zero_results	no_match
+energy.steam-power	Steam Power	energy				0.0	zero_results	no_match
+energy.steam-power.steam-turbines	Steam Turbines	energy				0.0	zero_results	no_match
+energy.storage	Energy Storage & Diversification	energy				0.0	zero_results	no_match
+energy.storage.pumped-hydro	Pumped Hydroelectric Storage	energy				0.0	zero_results	no_match
+energy.wind	Wind Power	energy	Q43302	wind power	conversion of wind energy into a useful form	0.7000	name=1.00 tag=1.00	pending
+energy.wind	Wind Power	energy	Q129968305	Wind power energy in Brazil: public financing and future perspectives	scholarly article published in 2018	0.4000	name=1.00	pending
+energy.wind	Wind Power	energy	Q59450568	Wind Power Energy in Southern Brazil: Evaluation using a Mesoscale Meteorological Model	article	0.4000	name=1.00	pending
+transport.aviation	Aviation	transport	Q56758119	Aviation Transport Security Amendment (Screening) Act 2012	Act of the Parliament of Australia, currently registered as C2012A00116	0.4000	name=1.00	pending
+transport.aviation	Aviation	transport	Q56758694	Aviation Transport Security Amendment (Cargo) Act 2015	Act of the Parliament of Australia, currently registered as C2015A00165	0.4000	name=1.00	pending
+transport.aviation	Aviation	transport	Q56758379	Aviation Transport Security Amendment (Air Cargo) Act 2011	Act of the Parliament of Australia, currently registered as C2013C00616	0.4000	name=1.00	pending
+transport.railways	Railways	transport				0.0	zero_results	no_match
+transport.roads	Road & Bridge Construction	transport				0.0	zero_results	no_match
+transport.shipping	Water Transport	transport	Q155930	water transport	transportation on water surface (sea, lake, river, ...) or through water entity, using watercrafts	0.4333	name=1.00 desc=0.11	pending
+transport.shipping	Water Transport	transport	Q14820652	water transport	directed movement of water (H2O) into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore	0.4333	name=1.00 desc=0.11	pending
+transport.shipping	Water Transport	transport	Q29584313	water transport	economic activity	0.4000	name=1.00	pending
+transport.telegraph	Telegraph Communication	transport				0.0	zero_results	no_match
+transport	Transportation & Logistics	transport				0.0	zero_results	no_match
+defense.armor	Armor & Protective Systems	defense				0.0	zero_results	no_match
+defense	Defense & Military Engineering	defense				0.0	zero_results	no_match
+defense.fortifications	Fortification Engineering	defense				0.0	zero_results	no_match
+defense.siege-warfare	Siege Engineering & Military Logistics	defense				0.0	zero_results	no_match
+defense.weapons	Weapons & edged tools	defense				0.0	zero_results	no_match
+photolithography.cleanrooms	Cleanrooms	photolithography	Q85839308	Cleanrooms and tissue banking how happy I could be with either GMP or GTP?	scientific article published on 04 January 2013	0.4075	name=1.00 desc=0.03	pending
+photolithography.fab-processes	Core Fab Processes	photolithography				0.0	zero_results	no_match
+photolithography	Photolithography & IC Fabrication	photolithography				0.0	zero_results	no_match
+photolithography.resists-masks	Photoresists, Masks & Lithography	photolithography				0.0	zero_results	no_match
+polymers.composites	Composite Materials	polymers				0.0	zero_results	no_match
+polymers	Polymers & Composites	polymers				0.0	zero_results	no_match
+polymers.rubber.gutta-percha	Gutta-Percha Processing	polymers				0.0	zero_results	no_match
+polymers.rubber	Rubber Production	polymers				0.0	zero_results	no_match
+polymers.rubber.natural	Natural Rubber & Vulcanization	polymers				0.0	zero_results	no_match
+polymers.rubber.shellac	Shellac Production	polymers				0.0	zero_results	no_match
+polymers.rubber.synthetic	Synthetic Rubbers	polymers				0.0	zero_results	no_match
+polymers.rubber.vulcanization	Vulcanization & Hardness	polymers				0.0	zero_results	no_match
+polymers.thermoplastics	Thermoplastic Polymers	polymers				0.0	zero_results	no_match
+polymers.thermosets	Thermosetting Polymers	polymers	Q135394886	Thermosetting Polymers from Lignin Model Compounds and Depolymerized Lignins		0.4000	name=1.00	pending
+polymers.thermosets	Thermosetting Polymers	polymers	Q89543297	Thermosetting Polymers from Lignin Model Compounds and Depolymerized Lignins	scientific article published on 10 July 2018	0.4000	name=1.00	pending
+polymers.thermosets	Thermosetting Polymers	polymers	Q118163905	Thermosetting polymers in cold sintering: The fabrication of ZnO‐polydimethylsiloxane composites		0.4000	name=1.00	pending
+health.diagnostics	Diagnostics	health				0.0	zero_results	no_match
+health	Public Health, Sanitation & Medicine	health				0.0	zero_results	no_match
+health.medical-instruments	Medical Instrument Manufacturing	health				0.0	zero_results	no_match
+health.medicine	Medicine & Surgery	health				0.0	zero_results	no_match
+health.occupational-health	Occupational Health & Industrial Hygiene	health				0.0	zero_results	no_match
+health.pharmaceutical-production	Pharmaceutical Production	health				0.0	zero_results	no_match
+health.pharmacology	Pharmacology	health				0.0	zero_results	no_match
+health.sanitation	Water Supply & Sanitation	health				0.0	zero_results	no_match
+health.surgery-basics	Surgery Basics	health				0.0	zero_results	no_match
+chemistry.acid-regeneration	Acid Regeneration	chemistry				0.0	zero_results	no_match
+chemistry.acids-bases	Acids & Bases (Comprehensive Reference)	chemistry				0.0	zero_results	no_match
+chemistry.acids	Mineral Acid Production	chemistry				0.0	zero_results	no_match
+chemistry.adhesives-coatings	Adhesives & Specialty Coatings	chemistry				0.0	zero_results	no_match
+chemistry.air-separation	Air Separation & Bulk Gas Production	chemistry				0.0	zero_results	no_match
+chemistry.alkalis	Alkali Production	chemistry				0.0	zero_results	no_match
+chemistry.ammonia	Ammonia & Fertilizer Production	chemistry				0.0	zero_results	no_match
+chemistry.cement	Cement & Concrete	chemistry				0.0	zero_results	no_match
+chemistry	Chemistry	chemistry				0.0	zero_results	no_match
+chemistry.coatings	Paints, Coatings & Inks	chemistry				0.0	zero_results	no_match
+chemistry.distillation	Distillation	chemistry				0.0	zero_results	no_match
+chemistry.dopant-etch-gases	Dopant & Etch Gases	chemistry				0.0	zero_results	no_match
+chemistry.e-methanol	E-Methanol Synthesis	chemistry				0.0	zero_results	no_match
+chemistry.electrodialysis	Electrodialysis	chemistry				0.0	zero_results	no_match
+chemistry.electrolysis	Electrolysis	chemistry				0.0	zero_results	no_match
+chemistry.electrolysis.sem-tech	Semiconductor-Grade Electrolysis	chemistry				0.0	zero_results	no_match
+chemistry.explosives	Explosives and Propellants	chemistry				0.0	zero_results	no_match
+chemistry.hydrogen-silane	Hydrogen & Silane Production	chemistry				0.0	zero_results	no_match
+chemistry.lithium-separation	Lithium Separation	chemistry				0.0	zero_results	no_match
+chemistry.lubricants	Lubricants, Oils & Fluid Mechanics	chemistry				0.0	zero_results	no_match
+chemistry.packaging-testing	Semiconductor Packaging & Testing	chemistry				0.0	zero_results	no_match
+chemistry.petroleum-alternatives.fermentation	Fermentation Chemistry	chemistry				0.0	zero_results	no_match
+chemistry.petroleum-alternatives	Petroleum & Alternative Chemistry	chemistry				0.0	zero_results	no_match
+chemistry.petroleum-alternatives.wood-gasification	Wood Gasification	chemistry				0.0	zero_results	no_match
+chemistry.pulp-chemicals	Pulp & Paper Chemicals	chemistry				0.0	zero_results	no_match
+chemistry.refractories	Refractory Materials	chemistry				0.0	zero_results	no_match
+chemistry.semiconductor-chemicals	Semiconductor Process Chemicals	chemistry				0.0	zero_results	no_match
+chemistry.soap	Soap & Detergent Production	chemistry				0.0	zero_results	no_match
+chemistry.solvents	Solvent Production	chemistry				0.0	zero_results	no_match
+chemistry.water-electrolysis	Water Electrolysis	chemistry				0.0	zero_results	no_match
+chemistry.water-treatment	Industrial Water Treatment	chemistry				0.0	zero_results	no_match
+vlsi-scaling.advanced-lithography	Advanced Lithography	vlsi-scaling				0.0	zero_results	no_match
+vlsi-scaling.advanced-processes	Advanced Processes	vlsi-scaling				0.0	zero_results	no_match
+vlsi-scaling.continuous-scaling	Continuous Scaling	vlsi-scaling				0.0	zero_results	no_match
+vlsi-scaling.eda-design	EDA, GPU Design & Advanced Packaging	vlsi-scaling				0.0	zero_results	no_match
+vlsi-scaling	VLSI Scaling & Advanced Semiconductor	vlsi-scaling				0.0	zero_results	no_match
+mathematics.applied-mathematics	Applied Mathematics	mathematics				0.0	zero_results	no_match
+mathematics.core-mathematics	Core Mathematics	mathematics				0.0	zero_results	no_match
+mathematics.formal-systems	Formal Systems	mathematics				0.0	zero_results	no_match
+mathematics	Mathematics & Formal Sciences	mathematics				0.0	zero_results	no_match
+gas-handling.basic	Basic Gas Handling	gas-handling				0.0	zero_results	no_match
+gas-handling	Gas Handling	gas-handling				0.0	zero_results	no_match
+gas-handling.vacuum	Vacuum Technology	gas-handling	Q25615829	vacuum technology		0.4000	name=1.00	pending
+gas-handling.vacuum	Vacuum Technology	gas-handling	Q35997892	Vacuum technology considerations for mass metrology	scientific article published on July 1, 2011	0.4000	name=1.00	pending
+gas-handling.vacuum	Vacuum Technology	gas-handling	Q692958	vacuum engineering	Technology to lower gas pressures for various technical and scientific purposes	0.2107	name=0.50 desc=0.04	pending
+cryogenics.air-separation	Cryogenic Air Separation	cryogenics				0.0	zero_results	no_match
+cryogenics	Cryogenics	cryogenics				0.0	zero_results	no_match
+cryogenics.liquefaction-storage	Gas Liquefaction & Storage	cryogenics				0.0	zero_results	no_match
+cryogenics.refrigeration	Refrigeration Fundamentals	cryogenics				0.0	zero_results	no_match
+animals.animal-materials	Animal-Derived Materials Processing	animals				0.0	zero_results	no_match
+animals	Animals & Animal Husbandry	animals				0.0	zero_results	no_match
+animals.aquaculture	Aquaculture & Fisheries	animals				0.0	zero_results	no_match
+animals.beekeeping	Apiculture (Beekeeping)	animals				0.0	zero_results	no_match
+animals.bison	Bison Husbandry	animals				0.0	zero_results	no_match
+animals.camelids	Camelid Husbandry	animals				0.0	zero_results	no_match
+animals.cattle	Cattle Husbandry	animals				0.0	zero_results	no_match
+animals.domestication	Livestock Domestication & Husbandry	animals				0.0	zero_results	no_match
+animals.draft-power	Animal Draft Power & Harnessing	animals				0.0	zero_results	no_match
+animals.equines	Equine Husbandry	animals				0.0	zero_results	no_match
+animals.goats	Goat Husbandry	animals				0.0	zero_results	no_match
+animals.insect-farming	Insect Farming (BSF)	animals				0.0	zero_results	no_match
+animals.leather	Leather Production	animals				0.0	zero_results	no_match
+animals.pest-management	Biological Pest Management	animals	Q115581804	Biological pest management by predators and parasitoids in the greenhouse vegetables in China	scientific article published in 2014	0.4094	name=1.00 desc=0.03	pending
+animals.pest-management	Biological Pest Management	animals	Q51387428	Biological pest management for interior plantscapes	Vegreville, Alta.: Alberta Environmental Centre, 1987.	0.4000	name=1.00	pending
+animals.pigs	Pig Husbandry	animals				0.0	zero_results	no_match
+animals.poultry.chickens	Chickens	animals				0.0	zero_results	no_match
+animals.poultry.coturnix	Coturnix Quail	animals				0.0	zero_results	no_match
+animals.poultry.ducks	Ducks	animals				0.0	zero_results	no_match
+animals.poultry.geese	Geese	animals				0.0	zero_results	no_match
+animals.poultry.guinea-fowl	Guinea Fowl	animals				0.0	zero_results	no_match
+animals.poultry	Poultry Farming	animals				0.0	zero_results	no_match
+animals.poultry.pigeons	Pigeons & Squab	animals				0.0	zero_results	no_match
+animals.poultry.turkeys	Turkeys	animals				0.0	zero_results	no_match
+animals.rabbits	Rabbit Husbandry	animals				0.0	zero_results	no_match
+animals.sericulture	Sericulture (Silkworm Rearing)	animals				0.0	zero_results	no_match
+animals.sheep	Sheep Husbandry	animals				0.0	zero_results	no_match
+electrochemistry.anodizing	Anodizing	electrochemistry				0.0	zero_results	no_match
+electrochemistry.electrochemical-processes	Electrochemical Surface Processes	electrochemistry				0.0	zero_results	no_match
+electrochemistry	Electrochemistry & Plating	electrochemistry				0.0	zero_results	no_match
+electrochemistry.electroplating.copper-damascene	Copper Damascene Plating	electrochemistry				0.0	zero_results	no_match
+electrochemistry.electroplating	Electroplating	electrochemistry				0.0	zero_results	no_match
+economics-organization.accounting	Accounting & Record-Keeping	economics-organization				0.0	zero_results	no_match
+economics-organization.currency	Currency & Standardized Exchange	economics-organization				0.0	zero_results	no_match
+economics-organization.division-of-labor	Division of Labor	economics-organization				0.0	zero_results	no_match
+economics-organization	Economics & Organization	economics-organization				0.0	zero_results	no_match
+economics-organization.governance	Governance & Institutional Design	economics-organization				0.0	zero_results	no_match
+economics-organization.supply-chain	Supply Chain Coordination	economics-organization				0.0	zero_results	no_match
+economics-organization.trade	Trade & Barter	economics-organization				0.0	zero_results	no_match
+silicon.basic-devices	Basic Semiconductor Devices	silicon				0.0	zero_results	no_match
+silicon.crystal-growth.cz-pulling	Czochralski Crystal Pulling	silicon				0.0	zero_results	no_match
+silicon.crystal-growth	Crystal Growth & Wafering	silicon				0.0	zero_results	no_match
+silicon.mg-si-production	Metallurgical-Grade Silicon Production	silicon	Q670	Metallurgical-Grade Silicon Production		1.0	existing_wikidataId	existing
+silicon.purification	Silicon Purification	silicon	Q65557741	Silicon Purification by a New Type of Solar Furnace		0.4000	name=1.00	pending
+silicon	Silicon	silicon	Q670	silicon	chemical element with symbol Si and atomic number 14	0.4083	name=1.00 desc=0.03	pending
+silicon	Silicon	silicon	Q3483874	Silicon	scientific journal	0.4000	name=1.00	pending
+silicon	Silicon	silicon	Q623459	Silicon Graphics	former American company	0.4000	name=1.00	pending
+silicon.wafering.epitaxy	Epitaxial Layer Growth	silicon				0.0	zero_results	no_match
+silicon.wafering	Wafer Slicing & Polishing	silicon				0.0	zero_results	no_match
+silicon.wafering.soi	SOI Wafer Production	silicon				0.0	zero_results	no_match
+telecom.electric-telegraph	Electrical Telegraph Networks	telecom				0.0	zero_results	no_match
+telecom.pre-electric	Pre-Electric Communication	telecom				0.0	zero_results	no_match
+telecom.radio	Radio Communication	telecom				0.0	zero_results	no_match
+telecom.submarine-cables	Submarine Cable Systems	telecom				0.0	zero_results	no_match
+telecom	Telecommunications	telecom				0.0	zero_results	no_match
+telecom.telephone	Telephone Systems	telecom				0.0	zero_results	no_match
+computing	Computing & Automation	computing				0.0	zero_results	no_match
+computing.data-storage	Data Storage Systems	computing	Q121898945	Data storage systems and methods for improved recovery after a write abort event	US patent 11264104	0.4000	name=1.00	pending
+computing.data-storage	Data Storage Systems	computing	Q121832132	Data storage systems and methods for optimized scheduling of background management operations	US patent 11442635	0.4000	name=1.00	pending
+computing.digital-logic	Digital Logic Design	computing	Q132594326	Digital Logic Design: Meeting Industry’s Needs through University &amp; Community College Collaboration	scientific article published on 04 September 2020	0.4000	name=1.00	pending
+computing.electromechanical	Electromechanical Computing	computing	Q34137116	Electromechanical computing at 500 degrees C with silicon carbide.	scientific article	0.4000	name=1.00	pending
+computing.electronic	Electronic Computing	computing	Q21660538	Electronic Computing Technology Scientific-Research Center	Soviet and Russian computer R&D facility	0.4273	name=1.00 desc=0.09	pending
+computing.electronic	Electronic Computing	computing	Q123199414	Electronic Computing Equipment	superseded SIC industry classification	0.4000	name=1.00	pending
+computing.electronic	Electronic Computing	computing	Q58938294	Electronic Computing Laboratory of the University of Leeds: Dr. A. S. Douglas	scientific article published in Nature	0.4000	name=1.00	pending
+computing.mechanical	Mechanical Calculation	computing				0.0	zero_results	no_match
+cleanrooms	Clean Room Technology	cleanrooms				0.0	zero_results	no_match
+cleanrooms.contamination-control	Contamination Control	cleanrooms				0.0	zero_results	no_match
+cleanrooms.facility-design	Facility Design & HVAC	cleanrooms				0.0	zero_results	no_match
+cleanrooms.hepa-ulpa-filtration	HEPA/ULPA Filtration & Laminar Flow	cleanrooms				0.0	zero_results	no_match
+construction.building-materials	Building Materials & Methods	construction				0.0	zero_results	no_match
+construction	Construction & Structural Engineering	construction				0.0	zero_results	no_match
+construction.industrial-buildings	Industrial Buildings & Heavy Foundations	construction				0.0	zero_results	no_match
+construction.structural-engineering	Structural Engineering	construction				0.0	zero_results	no_match
+optics.inspection	Optical Inspection	optics				0.0	zero_results	no_match
+optics.inspection.optical-coatings	Optical Coatings	optics				0.0	zero_results	no_match
+optics	Optics	optics				0.0	zero_results	no_match
+optics.precision-instruments	Precision Optical Instruments	optics				0.0	zero_results	no_match
+automation	Automation & Robotics	automation				0.0	zero_results	no_match
+automation.equipment-communication	Equipment Communication	automation				0.0	zero_results	no_match
+automation.material-transport	Material Transport	automation	Q59764658	Material transport map of Titan: The fate of dunes	scientific article	0.4000	name=1.00	pending
+automation.material-transport	Material Transport	automation	Q44777126	Material transport within specialised ciliary shafts on Rhabdopleura zooids	scientific article published in May 1977	0.4000	name=1.00	pending
+automation.material-transport	Material Transport	automation	Q107275411	Material transport in laser-heated diamond anvil cell melting experiments	scientific article	0.4000	name=1.00	pending
+automation.process-control	Process Control & Lot Tracking	automation				0.0	zero_results	no_match
+automation.wafer-handling	Wafer Handling Robots	automation				0.0	zero_results	no_match
+vacuum.chambers	Vacuum Chambers & Sealing	vacuum				0.0	zero_results	no_match
+vacuum.measurement	Vacuum Measurement & Leak Detection	vacuum				0.0	zero_results	no_match
+vacuum.pumps	Vacuum Pumps	vacuum	Q74791606	Vacuum pumps and water treatment	scientific article published on 01 June 1994	0.4000	name=1.00	pending
+vacuum	Vacuum Technology	vacuum	Q35997892	Vacuum technology considerations for mass metrology	scientific article published on July 1, 2011	0.4057	name=1.00 desc=0.02	pending
+vacuum	Vacuum Technology	vacuum	Q25615829	vacuum technology		0.4000	name=1.00	pending
+vacuum	Vacuum Technology	vacuum	Q692958	vacuum engineering	Technology to lower gas pressures for various technical and scientific purposes	0.2283	name=0.50 desc=0.09	pending
+textiles.dyeing	Dyeing	textiles				0.0	zero_results	no_match
+textiles.fibers	Fiber Preparation	textiles				0.0	zero_results	no_match
+textiles.finishing	Fabric Finishing	textiles				0.0	zero_results	no_match
+textiles.rope-making	Rope and Cordage	textiles				0.0	zero_results	no_match
+textiles.sewing-tailoring	Sewing & Tailoring	textiles				0.0	zero_results	no_match
+textiles.spinning	Spinning	textiles				0.0	zero_results	no_match
+textiles	Textiles, Fiber & Cordage	textiles				0.0	zero_results	no_match
+textiles.weaving	Weaving	textiles				0.0	zero_results	no_match
+measurement.electrical-instruments	Electrical Measurement Instruments	measurement				0.0	zero_results	no_match
+measurement	Measurement & Instrumentation	measurement	Q98798404	Measurement Instrumentation System Reliability and Model Analysis	article published in 1992	0.4000	name=1.00	pending
+measurement.optical-instruments	Optical Measurement Instruments	measurement				0.0	zero_results	no_match
+measurement.precision-metrology	Precision Metrology & Standards	measurement				0.0	zero_results	no_match
+measurement.temperature-pressure	Temperature & Pressure Measurement	measurement				0.0	zero_results	no_match
+ultra-pure.analytical-verification	PPT-Level Analytical Verification	ultra-pure				0.0	zero_results	no_match
+ultra-pure.high-purity-chemicals	High-Purity Chemical Purification	ultra-pure				0.0	zero_results	no_match
+ultra-pure	Ultra-Pure Materials	ultra-pure				0.0	zero_results	no_match
+ultra-pure.upw	Ultra-Pure Water Production	ultra-pure				0.0	zero_results	no_match
+precision-motion.nanometer-positioning	Nanometer Positioning	precision-motion				0.0	zero_results	no_match
+precision-motion.precision-encoders	Precision Encoders & Feedback	precision-motion				0.0	zero_results	no_match
+precision-motion	Precision Motion Control	precision-motion				0.0	zero_results	no_match
+precision-motion.vibration-isolation	Vibration Isolation	precision-motion				0.0	zero_results	no_match
+precision-motion.wafer-stages	Wafer Stages & Scanner Systems	precision-motion				0.0	zero_results	no_match
+ehs.chemical-safety	Chemical Safety & Toxicology	ehs				0.0	zero_results	no_match
+ehs	Environmental Health & Safety	ehs				0.0	zero_results	no_match
+ehs.emergency-response	Emergency Response	ehs				0.0	zero_results	no_match
+ehs.ppe	Personal Protective Equipment	ehs				0.0	zero_results	no_match
+ehs.radiation-safety	Radiation Safety	ehs				0.0	zero_results	no_match
+ehs.toxicology	Toxicology	ehs				0.0	zero_results	no_match
+ehs.ventilation-exhaust	Ventilation & Exhaust Systems	ehs				0.0	zero_results	no_match
+ehs.waste-management	Waste Management	ehs				0.0	zero_results	no_match
+ceramics.advanced-ceramics	Advanced Ceramics & Refractories	ceramics				0.0	zero_results	no_match
+ceramics	Ceramics & Refractories	ceramics				0.0	zero_results	no_match
+ceramics.electronic-ceramics	Electronic Ceramics	ceramics				0.0	zero_results	no_match
+ceramics.kilns	Kiln Construction	ceramics				0.0	zero_results	no_match
+ceramics.lime	Lime Production	ceramics				0.0	zero_results	no_match
+ceramics.pottery	Pottery & Clay Products	ceramics	Q11642	Pottery & Clay Products		1.0	existing_wikidataId	existing
+ceramics.pottery.kiln-firing	Kiln Firing	ceramics				0.0	zero_results	no_match
+metals.alloys	Specialty Alloys	metals				0.0	zero_results	no_match
+metals.aluminum	Aluminum Production	metals	Q663	Aluminum Production		1.0	existing_wikidataId	existing
+metals.aluminum.semiconductor-grade	Semiconductor-Grade Aluminum Production	metals				0.0	zero_results	no_match
+metals.copper-bronze	Copper & Bronze Production	metals	Q753	Copper & Bronze Production		1.0	existing_wikidataId	existing
+metals.finishing	Metal Finishing & Surface Treatment	metals				0.0	zero_results	no_match
+metals.forming	Primary Metal Forming	metals				0.0	zero_results	no_match
+metals.iron-steel.blast-furnace	Blast Furnace and Cast Iron	metals				0.0	zero_results	no_match
+metals.iron-steel	Iron & Steel Production	metals	Q11427	Iron & Steel Production		1.0	existing_wikidataId	existing
+metals	Metals	metals	Q27724617	Metals	Scientific journal	0.4000	name=1.00	pending
+metals	Metals	metals	Q11426	metal	element, compound, or alloy that is a good conductor of both electricity and heat	0.0353	desc=0.12	pending
+metals	Metals	metals	Q105789	heavy metal	loosely defined subset of elements that exhibit metallic properties	0.0176	desc=0.06	pending
+metals.non-ferrous	Non-Ferrous Metal Production	metals				0.0	zero_results	no_match
+metals.powder-metallurgy	Powder Metallurgy & Advanced Materials	metals				0.0	zero_results	no_match
+metals.precious-metals	Precious Metal Production (Gold & Silver)	metals				0.0	zero_results	no_match
+metals.refractory-specialty	Refractory & Specialty Metals for Semiconductor Manufacturing	metals				0.0	zero_results	no_match
+metals.specialty-semiconductor	Specialty Metals for Semiconductor Interconnects & Barrier Layers	metals				0.0	zero_results	no_match
+metals.steelmaking	Modern Steelmaking	metals	Q11427	Modern Steelmaking		1.0	existing_wikidataId	existing
+marine.infrastructure	Maritime Infrastructure & Underwater Engineering	marine				0.0	zero_results	no_match
+marine	Marine & Naval Engineering	marine				0.0	zero_results	no_match
+marine.navigation	Marine Navigation	marine				0.0	zero_results	no_match
+marine.propulsion	Marine Propulsion Systems	marine				0.0	zero_results	no_match
+marine.shipbuilding	Hull Construction & Shipbuilding	marine				0.0	zero_results	no_match
+food-processing.brewing	Brewing & Distilling	food-processing				0.0	zero_results	no_match
+food-processing.dairy	Dairy Processing	food-processing				0.0	zero_results	no_match
+food-processing	Food Processing	food-processing				0.0	zero_results	no_match
+food-processing.milling	Grain Milling	food-processing				0.0	zero_results	no_match
+food-processing.preservation	Food Preservation	food-processing				0.0	zero_results	no_match
+knowledge.education	Education & Training	knowledge	Q30282799	Education Training And Research	nonprofit organization in Scotts Valley, United States	0.4000	name=1.00	pending
+knowledge.education	Education & Training	knowledge	Q30297496	Education Training & Consulting Company (Slovakia)	company in Košice, Slovakia	0.4000	name=1.00	pending
+knowledge.education	Education & Training	knowledge	Q67527506	Education training programs in ultrasound	scientific article published on 01 October 1976	0.4000	name=1.00	pending
+knowledge	Knowledge Preservation & Education	knowledge				0.0	zero_results	no_match
+knowledge.libraries	Libraries & Information Systems	knowledge				0.0	zero_results	no_match
+knowledge.printing	Paper and Printing Press	knowledge				0.0	zero_results	no_match
+knowledge.writing	Writing & Record-Keeping	knowledge				0.0	zero_results	no_match
+glass.advanced.glassblowing	Glassblowing and Scientific Apparatus	glass				0.0	zero_results	no_match
+glass.advanced	Advanced Glass Production	glass				0.0	zero_results	no_match
+glass.basic	Basic Glass Production	glass	Q11469	Basic Glass Production		1.0	existing_wikidataId	existing
+glass.fibers	Glass Fiber Production	glass				0.0	zero_results	no_match
+glass	Glass	glass	Q11469	glass	amorphous solid that exhibits a glass transition when heated towards the liquid state	0.7150	name=1.00 desc=0.05 tag=1.00	pending
+glass	Glass	glass	Q16870200	Glass	family name	0.4000	name=1.00	pending
+glass	Glass	glass	Q614235	Charles Edward Glass	American botanist (1934–1998)	0.4000	name=1.00	pending
+glass.photomask-substrates	Photomask Glass Substrates & ULE Glass	glass				0.0	zero_results	no_match
+mining.drilling	Mechanical Drilling	mining				0.0	zero_results	no_match
+mining.extraction.black-powder	Black Powder Explosives	mining				0.0	zero_results	no_match
+mining.extraction	Mining Extraction	mining				0.0	zero_results	no_match
+mining	Mining Engineering & Extractive Metallurgy	mining				0.0	zero_results	no_match
+mining.processing	Ore Processing	mining				0.0	zero_results	no_match
+mining.prospecting	Prospecting & Surveying	mining				0.0	zero_results	no_match
+mining.ventilation	Mine Ventilation	mining	Q27038925	Mine ventilation	underground mine’s ventilation network must deliver sufficient air to all working places to dilute and remove harmful gases, dust and heat and achieve acceptable concentrations of these contaminants	0.5143	name=1.00 desc=0.38	pending
+mining.ventilation	Mine Ventilation	mining	Q852747	underground mine ventilation	air ventilation for a mine	0.4429	name=1.00 desc=0.14	pending
+mining.ventilation	Mine Ventilation	mining	Q27038924	Mine ventilation	book	0.4000	name=1.00	pending
+quality-control.defect-analysis	Defect Analysis & Yield Modeling	quality-control				0.0	zero_results	no_match
+quality-control.inspection-sampling	Inspection & Sampling Plans	quality-control				0.0	zero_results	no_match
+quality-control	Quality Control & Statistical Process Control	quality-control				0.0	zero_results	no_match
+quality-control.spc	Statistical Process Control	quality-control				0.0	zero_results	no_match
+plants.dye-plants	Dye Plants	plants				0.0	zero_results	no_match
+plants.edible-plants.agave	Agave	plants				0.0	zero_results	no_match
+plants.edible-plants.allium-ampeloprasum	Allium ampeloprasum	plants				0.0	zero_results	no_match
+plants.edible-plants.artemisia-absinthium	Artemisia absinthium	plants				0.0	zero_results	no_match
+plants.edible-plants.balanites-aegyptiaca	Balanites aegyptiaca	plants				0.0	zero_results	no_match
+plants.edible-plants.bitter-orange	Bitter orange	plants				0.0	zero_results	no_match
+plants.edible-plants	Edible Plants	plants				0.0	zero_results	no_match
+plants.fiber-plants.allium-paniculatum	Allium paniculatum	plants				0.0	zero_results	no_match
+plants.fiber-plants.amaranthus-albus	Amaranthus albus	plants				0.0	zero_results	no_match
+plants.fiber-plants	Fiber Plants	plants				0.0	zero_results	no_match
+plants.medicinal-plants.agrimonia-pilosa	Agrimonia pilosa	plants				0.0	zero_results	no_match
+plants.medicinal-plants.aloe-officinalis	Aloe officinalis	plants				0.0	zero_results	no_match
+plants.medicinal-plants.artemisia-douglasiana	Artemisia douglasiana	plants				0.0	zero_results	no_match
+plants.medicinal-plants.artemisia-inculta	Artemisia inculta	plants				0.0	zero_results	no_match
+plants.medicinal-plants.botryodiscia	Botryodiscia	plants				0.0	zero_results	no_match
+plants.medicinal-plants	Medicinal Plants	plants				0.0	zero_results	no_match
+plants	Plants & Botanical Resources	plants				0.0	zero_results	no_match
+plants.structural-plants.artemisia-capillaris	Artemisia capillaris	plants				0.0	zero_results	no_match
+plants.structural-plants	Structural Plants	plants				0.0	zero_results	no_match
+electronics.assembly	Electronics Assembly	electronics				0.0	zero_results	no_match
+electronics.electrical-systems	Electrical Systems	electronics				0.0	zero_results	no_match
+electronics	Electronics	electronics				0.0	zero_results	no_match
+agriculture	Agriculture	agriculture	Q124169658	Agriculture Biomass Characterization and Exploitation		0.4000	name=1.00	pending
+agriculture.aquaponics	Aquaponics	agriculture				0.0	zero_results	no_match
+agriculture.hydroponic-ph-control	Hydroponic pH Control	agriculture				0.0	zero_results	no_match
+agriculture.soil-management	Soil Management & Composting	agriculture				0.0	zero_results	no_match
+agriculture.soil-management.vermiculture	Vermiculture	agriculture				0.0	zero_results	no_match

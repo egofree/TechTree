@@ -1,11 +1,12 @@
 # Dopant & Etch Gases
 
 > **Node ID**: chemistry.dopant-etch-gases
-> **Domain**: Chemistry
-> **Dependencies**: `chemistry`, [`chemistry.electrolysis`](electrolysis.md)
-> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), `silicon.wafering.epitaxy`, [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.electrolysis`](electrolysis.md), [`chemistry.hydrogen-silane`](hydrogen-silane.md)
+> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.crystal-growth`](../silicon/crystal-growth.md), [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
 > **Timeline**: Years 30-70
 > **Outputs**: dopant_gases, etch_gases, fluorine
+> **Critical**: Yes — dopant gases (PH₃, AsH₃, B₂H₆) enable semiconductor doping, and etch gases (CF₄, Cl₂, SF₆) enable pattern transfer in photolithography. Without these gases, semiconductor manufacturing is impossible.
 
 ### Dopant Gases
 
@@ -43,6 +44,10 @@
 - **Molecular sieves**: Synthetic zeolite beads (3Å, 4Å, 5Å, 13X pore sizes). Adsorb molecules smaller than pore diameter. 3Å removes water. 4Å removes H₂O, CO₂, H₂S. 13X removes larger molecules. Regenerate by heating to 200-300°C under vacuum or dry gas purge. Use in pairs — one adsorbing, one regenerating (twin-tower system).
 - **Cryogenic trapping**: Cool gas stream to very low temperature (liquid N₂ temperature, -196°C). Impurities condense/freeze out while target gas remains volatile. For final ultra-purification.
 - **Palladium membrane**: For H₂ purification only. Pd alloy tube heated to 300-400°C. Only hydrogen diffuses through Pd lattice — produces 99.999999% pure H₂.
+
+**Strengths**: Multiple complementary purification methods allow targeting specific impurities; catalytic getters and molecular sieves are regenerable (not consumable); palladium membrane achieves 8N hydrogen purity; cryogenic trapping provides final ultra-purification for semiconductor-grade gases.
+
+**Weaknesses**: Pd membrane is expensive and fragile (poisoned by sulfur compounds); molecular sieves require periodic thermal regeneration (energy cost); cryogenic trapping needs liquid N₂ supply; all purification stages add pressure drop and complexity to gas distribution system; getters are consumed and require replacement.
 
 ### Gas Distribution System
 
@@ -216,3 +221,7 @@ A typical semiconductor etch or CVD tool requires 6-12 gas lines converging at t
 - **[Gas Handling Basics](../gas-handling/basic.md)**: Piping, valves, and gas distribution infrastructure
 - **[Packaging and Testing](packaging-testing.md)**: Post-fabrication IC testing and reliability
 - **[SEM Tech](sem-tech.md)**: Membrane technology for gas purification applications
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

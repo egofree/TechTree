@@ -1,7 +1,7 @@
 # Weapons & Edged Tools
 
 > **Node ID**: defense.weapons
-> **Domain**: Defense & Military Engineering
+> **Domain**: [Defense](./index.md)
 > **Dependencies**: None (root capability)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 0-30+
@@ -46,6 +46,32 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 
 **Bow and arrow**: Self bow from yew, elm, or osage orange (1.5-1.8 m, 25-50 lb draw weight at 28 inch draw). Arrow: 60-80 cm shaft, flint or bone point, fletched with 3 flight feathers (goose or turkey). Effective range: 20-30 m for accurate hunting shot, 50-80 m maximum. Arrow velocity: 45-55 m/s. Kinetic energy at impact: 25-40 J. Arrow penetration: 5-10 cm in soft tissue, stopped by 2-3 mm rawhide armor.
 
+**Construction (self bow, yew)**:
+
+1. Select yew stave: 1.6-1.8 m long, 35-50 mm wide, straight grain with no knots. Split from log (do not saw — split follows grain). Sapwood (light outer wood) preserved on back of bow for tensile strength; heartwood (dark inner wood) on belly for compression strength.
+
+2. Rough out bow shape: taper limbs from 40 mm wide at handle to 20 mm at tips. Reduce belly thickness gradually from 30 mm at handle to 15 mm at tips. Use drawknife and rasp.
+
+3. Tillering (balancing limb bend): string bow loosely (4-6 inch brace height). Mount on tillering stick and check bend. Both limbs must bend in matching arcs. Remove wood from stiff areas (belly side only) until limbs bend evenly. Target: full draw at 28 inches with smooth, even arc. Tolerance: limb deflection within 10% of each other at any point along the limb.
+
+4. Cut nocks (string grooves) at tips: 3-4 mm deep, angled 45°. Smooth with sandstone. Apply thin coat of linseed oil to entire bow — prevents moisture absorption.
+
+5. Make string: linen or hemp, 3-5 mm diameter, 12-15 strands, twisted and served (wrapped) at nocking point and loops. String length: 10-15 cm shorter than bow length (creates brace height when strung).
+
+**Verification**: Draw bow to full 28-inch draw 50 times — no cracking or delamination. Measure draw weight: 25-50 lb at 28 inches for hunting bow, 80-180 lb for war bow (longbow). Arrow speed test: chronograph or ballistic pendulum — 45-55 m/s for 25-50 lb bow.
+
+**Expected performance**: Arrow velocity: 45-55 m/s. Kinetic energy at impact: 25-40 J. Penetration: 5-10 cm soft tissue, stopped by 2-3 mm rawhide. Effective range: 20-30 m accurate, 50-80 m maximum. Bow lifespan: 6-12 months of regular use before replacement (compression set reduces draw weight). Production time: 4-8 hours for completed bow.
+
+**Strengths**:
+- ranged attack — strike enemy before melee contact
+- Ammunition can be produced from local materials — flint, bone, or iron points
+- Silent operation — no noise signature to reveal position
+
+**Weaknesses**:
+- Long training required — 2-5 years of regular practice to reach military proficiency with war bow
+- Weather-dependent — wet bowstrings stretch and lose performance; rain weakens horn/sinew composite bows
+- Arrow consumption — 20-60 arrows per archer per battle; resupply requires organized production
+
 ### Bronze-Age Weapons (Years 5-10)
 
 **Bronze alloy for weapons**: Copper-tin alloy, 8-12% tin for weapons (harder than pure copper). Tin content tradeoff: higher tin = harder but more brittle. Optimal weapon bronze: 10% tin -> HB 120-150 (Brinell hardness), tensile strength 350-450 MPa. Cast in two-piece stone or clay molds.
@@ -69,7 +95,35 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 
 **Iron-age sword**: Straight double-edged blade, 70-90 cm length, 4-5 cm width, 3-5 mm spine thickness tapering to edge. Weight: 1000-1500 g (steel blades lighter than bronze for equivalent length due to higher strength). Fullered blade (groove reduces weight 15-20% without significant strength loss). Center of percussion located 1/3 from tip -- impact at this point delivers maximum energy with minimum shock to wielder's hand.
 
-**Polearms**: Spear (1.5-3.0 m shaft, iron or steel head). Halberd (1.5-2.0 m shaft, axe blade + spike + hook, 2-3 kg head). Pike (3.5-6.0 m shaft, small steel point, defensive formation weapon -- stop cavalry charge at 3-5 m range).
+**Construction (steel sword blade)**:
+
+1. Select medium-carbon steel bar (0.5-0.7% C): 80-100 cm long × 30-40 mm wide × 6-8 mm thick. Check carbon content by spark test on grinding wheel: moderate carbon produces moderate-length yellow-orange sparks with small forks.
+
+2. Forge blade shape: heat to cherry red (780-830°C). Draw out tang (100-120 mm long, 12-15 mm wide, 5-6 mm thick). Taper blade from 5 mm spine at hilt to 2 mm at point. Fuller (groove): heat blade, hammer groove along center line using fullering tool — reduces weight 15-20%.
+
+3. Normalize: heat to 780-830°C, air cool to relieve forging stresses. Repeat 2 times. This refines grain structure before hardening.
+
+4. Edge preparation: file edges to 25-30° included angle. Do not sharpen to final edge — leave 0.5 mm blunt for heat treatment.
+
+5. Heat treat: heat entire blade to 780-830°C (cherry red, non-magnetic). Quench in warm oil (40-60°C) — reduces thermal shock vs water quench. Immediately temper at 250-350°C for 30-60 minutes. Target: HRC 45-50 at edge, HRC 35-40 at spine (differential temper if spine is heated separately).
+
+6. Grind and sharpen: remove scale with grindstone. Sharpen edge on coarse then fine whetstone to final edge angle 25-30°. Check hardness with file test at 3 points: file should barely mark edge (HRC >45) and cut spine (HRC <40).
+
+7. Fit hilt: forge or cast iron crossguard (100-150 mm wide × 30-40 mm tall). Slide over tang. Fit wooden grip plates (2 halves, 80-100 mm long × 30 mm diameter) around tang. Bind with leather or wire. Peen tang end over iron pommel.
+
+**Verification**: Flex test: support blade at ends, apply 5 kg weight at center — blade must flex 20-30 mm and spring back straight with no permanent set. Cut test: single clean cut through 5 cm softwood or 2-3 cm green bone. Impact test: strike oak block at full force — blade must not chip, crack, or bend >5° permanently.
+
+**Expected performance**: Cutting: clean cut through 5-8 cm softwood or 2-3 cm green bone in single stroke. Thrusting: penetrates 15-25 cm soft tissue, stopped by mail over padding at 4-6 cm. Weight: 1,000-1,500 g. Blade hardness: HRC 45-50 (edge), HRC 35-40 (spine). Production time: 20-40 hours from bar stock to finished sword.
+
+**Strengths**:
+- Effective cutting and thrusting weapon — steel holds sharp edge through extended combat
+- Fullered blade optimizes strength-to-weight — lighter than equivalent bronze weapon
+- Field-serviceable — can be resharpened with whetstone, re-heat-treated by any forge
+
+**Weaknesses**:
+- Requires skilled smith and quality steel — 0.5-0.7% carbon content is critical
+- Heat treatment failure ruins the blade — quenching without tempering produces brittle martensite
+- Rust — steel blade rusts within hours in humid conditions without oil maintenance
 
 ### Steel Weapons (Years 10-25)
 
@@ -90,6 +144,34 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 **Rifled musket**: Spiral grooves cut into bore interior (3-7 grooves, 1 turn in 100-120 cm) impart spin to elongated bullet. Spin stabilizes projectile in flight -> dramatic accuracy improvement. Effective range: 300-500 m aimed (vs 50-80 m smoothbore). Muzzle velocity: 400-500 m/s with Minie ball (hollow-base bullet that expands into rifling on firing). Ammunition: .58 caliber (14.7 mm) Minie ball, 30-35 g, powder charge 50-60 g.
 
 **Bayonet**: Blade (30-45 cm) attached to musket muzzle, converting firearm into short pike. Socket bayonet fits over barrel, allows simultaneous loading and bayonet fixing. Combined weapon length: 1.5-1.8 m. Bayonet charge effective at <30 m. Wound channel: 1-2 cm wide, 15-30 cm deep -- high lethality due to infection risk in pre-antibiotic era.
+
+**Construction (matchlock musket)**:
+
+1. Forge barrel: wrap low-carbon steel bar (3-5 mm thick × 40-50 mm wide) around mandrel (17.5-19 mm diameter steel rod). Forge-weld longitudinal seam. Alternatively, drill bore from solid steel billet using [machine tools](../machine-tools/index.md) for superior barrel.
+
+2. Ream bore: drive reaming tool (17.5-19 mm diameter, 4-flute) through barrel to smooth interior. Bore must be straight and uniform diameter ±0.5 mm over full length. Check with tight-fitting plug — plug must pass through without binding.
+
+3. Fit touch hole: drill 2-3 mm hole at 90° to bore, 10-15 mm from closed (breech) end. Thread for removable vent if desired.
+
+4. Shape barrel exterior: file or grind to round or octagonal profile. Wall thickness: minimum 3 mm at thinnest point (breech end, where pressure is highest).
+
+5. Stock (wooden): Carve walnut or ash stock from single piece, 120-140 cm long. Inlet barrel channel (tight fit — barrel should require light tapping to seat). Inlet lock mortise. Attach barrel with 3-4 iron bands or pins.
+
+6. Install lock mechanism: trigger lever lowers smoldering slow match (hemp cord impregnated with saltpeter, burn rate ~10 cm/hr) into flash pan containing priming powder. Test lock action: trigger must move smoothly and lower match into pan without snagging.
+
+**Verification**: Proof fire: charge with double powder load (40-50 g), seat lead ball, fire from remote position behind barricade. Accept: barrel holds without bulging or bursting. Bore inspection after proof: ream must still pass through freely.
+
+**Expected performance**: Muzzle velocity: 350-450 m/s. Effective range: 50-80 m aimed, 150-200 m volley fire. Rate of fire: 1-2 rounds per minute. Misfire rate: 20-30% in damp conditions. Barrel life: 500-1000 shots before bore erosion degrades accuracy. Weight: 4-6 kg loaded.
+
+**Strengths**:
+- Decisive ranged lethality — projectile energy 2,000-3,000 J vs 25-200 J for bows and crossbows
+- Short training time — 4-8 weeks drill for basic proficiency vs 2-5 years for war bow
+- Bayonet converts to melee weapon — dual-purpose arm, no need for separate sidearm
+
+**Weaknesses**:
+- Black powder hygroscopy — absorbs moisture, degrades performance in wet weather
+- High material consumption — 15-25 g powder and 25-35 g lead per shot requires industrial supply chain
+- Misfire rate 20-30% — unreliable ignition in damp conditions; slow match is visible at night
 
 ---
 
@@ -251,4 +333,4 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 
 ---
 
- *Part of the [Bootciv Tech Tree](../index.md) • [Defense & Military](./index.md) • [All Domains](../index.md)*
+ *Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*

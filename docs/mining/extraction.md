@@ -1,11 +1,12 @@
 # Mining Extraction
 
 > **Node ID**: mining.extraction
-> **Domain**: Mining Engineering & Extractive Metallurgy
+> **Domain**: [Mining](./index.md)
 > **Dependencies**: [`animals.draft-power`](../animals/draft-power.md), [`foundations.tools-basic`](../foundations/tools-basic.md), [`mining.prospecting`](prospecting.md)
-> **Enables**: [`mining.extraction.black-powder`](black-powder.md), [`mining.processing`](processing.md), `transport`
+> **Enables**: [`mining.extraction.black-powder`](black-powder.md), [`mining.processing`](processing.md), [`transport`](../transport/index.md)
 > **Timeline**: Years 0-20
 > **Outputs**: raw_ore
+> **Critical**: No
 
 ### Mining Methods
 
@@ -29,6 +30,16 @@
 **Drift/adit mining** (horizontal entry from hillside):
 - Drive horizontal tunnel into hillside at or slightly above valley floor level. Gravity drainage — no pumping needed. Most economical method for hillslope deposits. Minimum 1.5 m wide × 2 m tall. Timber supports every 1-2 m in unstable ground.
 
+**Strengths**:
+- Surface (open pit) mining allows large-scale mechanized extraction with straightforward logistics
+- Placer mining recovers heavy minerals with minimal equipment (pan, sluice, water)
+- Shaft and drift methods access deep ore bodies that surface mining cannot reach
+
+**Weaknesses**:
+- Open pit stripping ratio must stay below 3:1 (waste:ore) for economic viability
+- Underground shaft mining requires timber or masonry lining and ongoing ground control
+- All methods depend on water management — pumping capacity limits achievable depth
+
 ### Rock Breaking Techniques
 
 **Hand tools**:
@@ -47,6 +58,16 @@
   4. Dry cakes, crush and sieve to desired grain size (coarse = slower burn, more lifting power; fine = faster burn, more shattering).
 - **Blasting procedure**: Drill hole (2.5-4 cm diameter, 0.5-2 m deep) with jumper drill (steel bar, 1-3 m long, struck with 4-8 kg hammer). Clean hole with scraper. Fill bottom 1/3 with powder. Insert safety fuse (black powder core in tarred cotton sheath) — cut to length for 30-60 second delay. Tamp remaining hole with clay or damp sand (NOT dry sand — sparks from tamping rod ignite powder). Light fuse, retreat. 1-2 kg powder breaks 2-10 m³ rock depending on placement.
 - **Safety**: NO smoking, open flames, or spark-producing tools near powder. Store in dry, cool location away from mine. Use non-sparking tools (copper or bronze) for loading. Multiple shots wired to single fuse for simultaneous blast.
+
+**Strengths**:
+- Wedge and feather splitting produces clean breaks along a controlled line with no explosives
+- Fire-setting breaks hard rock (granite, quartz) without steel tools — only wood/charcoal and water
+- Black powder blasting breaks 2-10 m³ per kg of powder — orders of magnitude faster than hand tools
+
+**Weaknesses**:
+- Hand chisel and hammer: only 0.1-0.5 m³/shift in hard rock — very slow
+- Fire-setting consumes enormous quantities of wood/charcoal (2-4 hours of burning per face)
+- Black powder is hygroscopic and unreliable in wet ground without waterproofed charges
 
 ### Ventilation
 
@@ -127,6 +148,16 @@
 - Production: 2,000-5,000 tonnes per day from a single face. Requires continuous conveyor belt transport along the face and in the gate roads.
 - Subsidence: the surface above a longwall panel subsides predictably (1-2 m for a 2 m seam at moderate depth). Plan surface use accordingly.
 
+**Strengths**:
+- Room and pillar: simple layout, suitable for flat-lying deposits, 50-60% recovery
+- Cut and fill: 85-95% recovery with excellent ground control — follows irregular ore boundaries
+- Longwall: 80-90% recovery with 2,000-5,000 tonnes/day from a single face — highest productivity
+
+**Weaknesses**:
+- Room and pillar: leaves 40-50% of ore in pillars; retreat mining risks roof collapse
+- Shrinkage stoping: miners work under unsupported ore above their heads — high fall-of-ground risk
+- Longwall: causes predictable surface subsidence (1-2 m); requires continuous conveyor and hydraulic shields
+
 ### Surface Mining Detail
 
 **Open pit design**:
@@ -154,6 +185,16 @@
 6. Water: as the shaft deepens, water inflow increases. Install a chain pump or bucket bailing system at the shaft bottom. Grade the shaft bottom slightly to direct water to a sump.
 
 **Lining**: As the shaft deepens past the weathered surface rock and into solid ground, install permanent lining. Brick lining: lay courses of firebrick or common brick with Portland cement mortar, starting from the bottom and working upward. The lining provides a smooth surface for airflow (reduces ventilation resistance) and prevents loose rock from falling into the shaft. In wet ground, install a concrete lining (150-300 mm thick) with waterproofing admixture to keep the shaft dry.
+
+**Strengths**:
+- Hand-drill and blast method requires only steel bars, hammers, black powder, and a windlass
+- Progress rate of 0.5-2 m/day in hard rock achievable with a 4-person crew
+- Brick or concrete lining provides permanent, fire-resistant shaft support
+
+**Weaknesses**:
+- Water inflow increases with depth — pumping must keep pace or the shaft floods
+- Each blast round produces toxic fumes (CO, NOₓ) requiring 15-30 minute ventilation delay
+- Mucking (removing broken rock) by bucket and windlass is the slowest step — limits advance rate
 
 ---
 

@@ -46,6 +46,14 @@ The design process starts with demand analysis (flow rates and pressures at each
 3. **Material selection**: Select pipe material based on gas compatibility. Inert gases (N₂, Ar, He, CO₂, compressed air): carbon steel or copper, standard fittings. Corrosive gases (HCl, Cl₂, H₂S, HF): stainless steel 316L with welded joints. Ultra-high-purity semiconductor gases: electropolished stainless steel 316L with orbital-welded joints and VCR fittings. Oxygen service: steel, copper, or Monel, oxygen-clean. Fuel gases (H₂, CH₄): steel or stainless steel. Acetylene: steel only (never copper alloys).
 4. **Layout design**: Route piping to minimize length, avoid dead legs, provide isolation valves at each branch, and include drain points at all low spots. Route through pipe chases or utility corridors, not through occupied spaces (for toxic and flammable gases). Include expansion loops or bellows for long straight runs subject to thermal cycling.
 
+**Strengths:**
+- Darcy-Weisbach-based pipe sizing with 10% pressure drop budget provides predictable, quantifiable performance from source to farthest point of use
+- Material selection scheme (carbon steel for inert, 316L for corrosive, EP 316L for UHP) matches cost to purity requirement
+
+**Weaknesses:**
+- Each gas species requires dedicated piping — a fab with 20 gases needs 20 independent distribution networks, multiplying installation cost
+- Dead legs and low spots are inevitable in complex routing — they trap stagnant gas and condensate, requiring drain points and careful slope design
+
 ### 4.2 Pipe Fabrication and Installation
 
 1. **Cutting**: Cut pipe to length with a pipe cutter (rotary cutting wheel for copper and thin-wall steel) or a band saw (for thick-wall steel). Deburr the cut end inside and out — burrs create turbulence, restrict flow, and generate particles. For stainless steel, use a dedicated cutting tool (not one previously used on carbon steel) to prevent iron contamination of the stainless surface (free iron particles rust and contaminate the gas stream).
@@ -55,17 +63,41 @@ The design process starts with demand analysis (flow rates and pressures at each
 5. **Jointing — orbital welding (semiconductor-grade, automated)**: Use a computer-controlled orbital weld head that rotates the TIG torch around the joint circumference. Program the weld current, rotation speed, and pulse parameters for each joint. The automated process produces repeatable, high-quality welds with consistent penetration and internal bead profile. Essential for electropolished stainless steel gas distribution systems where manual weld quality is inconsistent. Each weld is documented with a weld log recording the joint number, weld parameters, and operator.
 6. **Jointing — compression fittings (tubing, <100 bar)**: For stainless steel or copper tubing with compression fittings, fully insert the tube into the fitting body. Tighten the nut by hand until resistance is felt, then tighten with wrenches the specified number of turns past finger-tight (typically 1-1/4 turns for new stainless steel fittings). The front ferrule bites into the tube surface, creating a metal-to-metal seal. Do not mix ferrules from different manufacturers.
 
+**Strengths:**
+- Orbital welding produces repeatable, documented welds with consistent internal bead profile — essential for electropolished UHP systems where manual weld quality is inconsistent
+- Compression fittings are removable and re-sealable, allowing system modification without cutting and rewelding
+
+**Weaknesses:**
+- NPT threaded connections are limited to ~20 bar (steel) and are not acceptable for toxic gas or semiconductor-grade service — seal quality depends on PTFE tape installation technique
+- Butt weld root pass requires argon purge on the pipe inside to prevent oxidation ("sugar") — missed purge produces black oxide that contaminates the gas stream
+
 ### 4.3 Pressure Testing
 
 1. **Hydrostatic test**: After installation and before insulation, pressure-test the completed piping system with water at 1.5× the maximum allowable working pressure (MAWP). Fill the system with water from the lowest point, venting air from the highest point (air pockets compress during testing and mask leaks). Hold test pressure for 30 minutes minimum. Inspect all joints visually for leaks (wipe joints with a dry cloth and check for moisture). Any leak requires draining, repair, and retest.
 2. **Pneumatic test (when hydrostatic is impractical)**: If the system cannot be dried after water exposure (e.g., instrument air, high-purity gas), test with nitrogen or dry air at 1.1× MAWP. This is less safe than hydrostatic testing — a pneumatic failure releases stored energy. Exclude personnel from the test area during pressurization. Use soap solution or ultrasonic leak detector to find leaks.
 3. **Leak testing (sensitivity verification)**: For flammable and toxic gas systems, perform a helium leak test after pressure testing. Pressurize the system with a helium-nitrogen mixture (5-10% He, balance N₂) to operating pressure. Scan all joints with a helium sniffer probe (sensitivity ~10⁻⁶ atm·cc/s). For semiconductor-grade systems, use a vacuum helium leak test: evacuate the piping and spray helium on the exterior; detect He entering through leaks with a mass spectrometer leak detector (sensitivity ~10⁻¹⁰ atm·cc/s). Document all leak test results. Zero detected leaks is the acceptance criterion.
 
+**Strengths:**
+- Hydrostatic testing with water at 1.5× MAWP is inherently safe — water is incompressible, so a failure releases minimal stored energy
+- Vacuum helium leak testing at 10⁻¹⁰ atm·cc/s sensitivity finds leaks invisible to soap bubble or pressure decay methods — essential for toxic gas systems
+
+**Weaknesses:**
+- Pneumatic testing at 1.1× MAWP stores enormous energy — a 100 m run of 25 mm pipe at 200 bar contains ~10 MJ, equivalent to 2.4 kg TNT
+- Hydrostatic testing leaves residual moisture requiring dry nitrogen purge before introducing moisture-sensitive gases
+
 ### 4.4 Purging and Commissioning
 
 1. **Degreasing**: Before introducing process gas, degrease the piping system if oil or grease may be present from fabrication. Fill the system with a degreasing solvent (trisodium phosphate solution, or commercial degreaser) and circulate for 30 minutes. Drain and flush with clean water. Blow dry with oil-free nitrogen.
 2. **Inert gas purge**: Connect a nitrogen source to one end of the piping system and open the far end to atmosphere. Flow nitrogen through the system at a rate that achieves 3-5 volume changes (one volume change = flowing a volume of nitrogen equal to the internal volume of the piping). For a 100 m run of 25 mm ID pipe (internal volume ~49 L), flow nitrogen at 50 L/min for 5 minutes (≈5 volume changes). Verify O₂ content at the outlet with an oxygen monitor — must be below 1% before introducing flammable gas, or below 100 ppm for high-purity inert gas service.
 3. **Pressure stabilization**: Pressurize the system to operating pressure with the process gas. Monitor pressure for 24 hours — any pressure drop indicates a leak. For toxic and flammable gas systems, zero pressure drop over 24 hours is required before the system is placed in service.
+
+**Strengths:**
+- Inert gas purge with 3-5 volume changes reduces O₂ to below 1% with simple, predictable dilution physics
+- 24-hour pressure stabilization test provides definitive leak verification — any pressure drop over a full diurnal temperature cycle indicates a real leak
+
+**Weaknesses:**
+- Degreasing with trisodium phosphate solution leaves moisture that must be completely dried before introducing reactive gases — incomplete drying creates contamination
+- Purge verification requires a calibrated O₂ monitor at the outlet — without measurement, the actual O₂ concentration is unknown
 
 ## 5. Quantitative Parameters
 

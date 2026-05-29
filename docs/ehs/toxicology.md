@@ -14,6 +14,34 @@ Toxicology covers the identification, quantification, and management of toxic su
 
 The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison." Every substance is toxic at sufficient dose; the task is to define safe exposure limits and manage risks accordingly. For industrial chemicals, this means establishing TLV-TWA (Threshold Limit Value — Time Weighted Average) concentrations that workers can breathe for 8 hours per day, 40 hours per week, over a working lifetime without adverse effect. For acute exposures, it means knowing IDLH (Immediately Dangerous to Life or Health) concentrations and having antidotes available.
 
+## Decision Framework: Exposure Assessment Method
+
+| Scenario | Recommended Method | Accuracy | Cost | Turnaround |
+|----------|-------------------|----------|------|------------|
+| Quick check during operation | Colorimetric detector tube | ±25% | $5-15 per tube | Immediate (2-5 min) |
+| Compliance TWA measurement | Personal air sampling pump + sorbent tube | ±10% | $50-150 per sample | Days (lab analysis) |
+| Real-time area monitoring | Direct-reading electronic monitor | ±5-10% | $500-5,000 instrument | Continuous |
+| Chemical identification (unknown) | GC-MS or FTIR analysis | ±1-5% | $200-500 per sample | Hours to days |
+| Biological exposure assessment | Blood/urine biomarker analysis | ±10-20% | $50-300 per test | Days (lab analysis) |
+
+### Implementation Steps
+
+1. **Inventory all chemical hazards**: Document every chemical in use with SDS on file. For each, identify exposure route, TLV, and IDLH.
+2. **Establish baseline monitoring**: Conduct initial full-shift personal air sampling for all job categories with chemical exposure potential. Use results to prioritize control efforts.
+3. **Deploy detector tubes for routine checks**: Station colorimetric tubes at each process area. Train operators to use them for quick spot-checks before and during chemical operations.
+4. **Implement medical surveillance**: For workers above 50% of TLV, establish annual biological monitoring (blood lead, urinary mercury, cholinesterase activity per chemical).
+5. **Build antidote stockpile**: Ensure calcium gluconate gel (HF), sodium thiosulfate (cyanide), and atropine (organophosphates) are available at every first aid station.
+6. **Review quarterly**: Analyze exposure trends. Investigate any result above 50% of TLV. Update monitoring strategy when processes change.
+
+### Toxic Response Trade-offs
+
+| Response Strategy | Speed | Effectiveness | Risk | Best For |
+|------------------|-------|--------------|------|---------|
+| Immediate decontamination (flush/discard clothing) | Seconds | High for dermal exposure | Low | Acid/base skin contact, solvent splash |
+| Specific antidote administration | Minutes | High for specific poisons | Medium (wrong antidote can harm) | Known poison with available antidote (HF → Ca gluconate, cyanide → thiosulfate) |
+| Supportive care only (O₂, fluids, monitoring) | Minutes | Variable | Low | Unknown poison, no specific antidote available |
+| Gastric lavage / activated charcoal | Minutes-Hours | Moderate (time-dependent) | Medium (aspiration risk) | Recent oral ingestion (<1 hour) |
+
 ## Prerequisites
 
 ### Materials
@@ -71,6 +99,67 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 2. **Position detector tube**: Break both ends of the glass detector tube. Insert into pump. Pull handle for specified number of strokes (each stroke = 100 mL air volume). Read concentration directly from tube color change scale.
 3. **Full-shift personal sampling**: Attach sampling pump to worker's collar (breathing zone). Set flow rate per method specification (typically 50-200 mL/min). Run for minimum 6 hours of 8-hour shift. Send sorbent tube to laboratory for analysis (if laboratory available).
 4. **Interpret results**: Compare to TLV-TWA for 8-hour average, TLV-STEL for 15-minute peak. If measured >50% of TLV, implement controls (ventilation, PPE, process change). If measured >TLV, mandatory corrective action and resampling.
+
+### Exposure Assessment Methods Compared
+
+**Colorimetric detector tubes**:
+- Quick spot-check method — break sealed glass tube, pull air through with hand pump, read concentration from stain length on tube scale
+- Accuracy ±25%, range depends on tube formulation (0-500 ppm for most gases)
+- Cost: $5-15 per tube, $200-400 for hand pump
+
+**Strengths**:
+- Fastest results of any method — 2-5 minutes from tube break to reading
+- No power supply or calibration required — hand pump is purely mechanical
+- Lowest cost per measurement ($5-15 per tube) — affordable for any facility
+- Visual result — stain length directly readable on tube scale, no electronic interpretation needed
+- Specific to target chemical — each tube formulation reacts only to one gas or gas class
+- Portable — hand pump and tubes fit in a belt pouch for walk-around surveys
+
+**Weaknesses**:
+- Lowest accuracy (±25%) — insufficient for compliance-grade TWA measurements
+- Single-use — each tube consumed in one measurement, no repeat reading possible
+- Cross-sensitivity — some tube formulations react to interfering gases (check cross-sensitivity chart)
+- No continuous monitoring — provides a snapshot concentration, not a time-weighted average
+- Limited shelf life — tubes expire 1-3 years from manufacture, must be stored at 4-25°C
+- Cannot measure below tube detection limit — low-concentration exposures may read as zero
+
+**Personal air sampling pumps**:
+- Worker-worn pump draws air through sorbent tube or filter cassette at controlled flow rate (50-200 mL/min) for full shift (6-8 hours)
+- Sorbent tube sent to laboratory for analysis (GC, HPLC, or ICP depending on analyte)
+- Accuracy ±10% with proper calibration and flow control
+
+**Strengths**:
+- Gold standard for compliance TWA measurement — ±10% accuracy meets regulatory requirements
+- Measures actual worker exposure — pump worn in breathing zone captures what the worker inhales
+- Full-shift time-weighted average — integrates variable concentrations over entire workday
+- Laboratory analysis provides definitive chemical identification and quantification
+- Covers the broadest range of chemicals — different sorbent media for organics, acids, metals, particulates
+
+**Weaknesses**:
+- Slowest turnaround — lab analysis takes days to weeks; no immediate result
+- Higher per-sample cost ($50-150) plus laboratory fees ($100-500 per analysis)
+- Requires calibrated pump — flow rate must be verified before and after each sample with a bubble burette
+- Does not identify peak exposures — full-shift average masks short-term concentration spikes
+- Pump must be maintained and charged — battery failure during shift invalidates the sample
+
+**Direct-reading electronic monitors**:
+- Electrochemical, infrared, or PID sensors provide continuous real-time concentration readings
+- Accuracy ±5-10%, depending on sensor type and calibration
+- Data logging records concentration vs. time for trend analysis
+
+**Strengths**:
+- Real-time continuous monitoring — detects concentration spikes and excursions instantly
+- Data logging captures time-resolved exposure profile — identifies when and where peaks occur
+- Can trigger alarms at preset thresholds — automated safety system integration
+- Best accuracy for time-varying exposures — does not average away peaks like sorbent tubes
+- Multiple sensor configurations available — multi-gas monitors detect 4-6 gases simultaneously
+
+**Weaknesses**:
+- Highest instrument cost ($500-5,000 per unit) — expensive to deploy across many workers
+- Requires regular calibration — sensor drift means recalibration every 1-3 months with known standard gases
+- Sensor-specific — electrochemical cells detect only one gas each; multi-gas monitors need multiple cells
+- Limited sensor lifespan — electrochemical cells deplete in 1-3 years and must be replaced
+- Cross-sensitivity and interference — some sensors respond to non-target gases, causing false readings
 
 ### Acute Poisoning Response
 
@@ -213,4 +302,4 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [EHS](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

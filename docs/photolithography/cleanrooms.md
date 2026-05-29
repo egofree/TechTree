@@ -2,10 +2,11 @@
 
 > **Node ID**: photolithography.cleanrooms
 > **Domain**: [Photolithography & IC Fabrication](./index.md)
-> **Dependencies**: `ceramics`, `chemistry`
+> **Dependencies**: [`ceramics.refractories`](../ceramics/index.md), [`chemistry.basic`](../chemistry/index.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 40-70
 > **Outputs**: cleanrooms, ultra_pure_water, cleanroom_consumables
+> **Critical**: Yes — contamination control is the single largest yield determinant in semiconductor manufacturing
 
 ### Cleanrooms
 Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill an entire chip. Cleanroom class determines minimum feature size achievable: Class 1000 (ISO 6) for >5 μm features, Class 100 (ISO 5) for 1-5 μm, Class 10 (ISO 4) for sub-micron.
@@ -25,6 +26,14 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
   - **Distribution**: PVDF or PFA piping (no leaching). Continuous recirculation (no dead legs where bacteria grow).
   - **Quality testing**: Online resistivity monitoring, particle counting, TOC (total organic carbon) analysis
 
+**Strengths**:
+- Positive pressure (10-20 Pa) ensures air leaks outward, preventing unfiltered infiltration through any gap
+- HEPA filtration at 99.97% efficiency (0.3 μm MPPS) provides clean air sufficient for features down to ~1 μm
+
+**Weaknesses**:
+- UPW production chain (sand filter → RO → DI → UV → UF) is multi-stage and requires continuous monitoring to maintain 18 MΩ·cm
+- Full cleanroom garment ensemble causes heat stress — limited to 2-hour continuous sessions with cooling breaks
+
 ### Operational Protocols
 - **[Gowning sequence](../glossary/gowning-sequence.md)** (order matters — cover dirtiest areas first):
   1. Hair cover (bouffant cap — covers all hair, no exposed scalp)
@@ -37,6 +46,14 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
 - **Airlock entry procedure**: Personnel airlock with interlocked doors (one must close before the other opens). Air shower (high-velocity filtered air jets from multiple nozzles, 15-30 seconds) dislodges particles from garments. Material airlock (pass-through) for tools, wafers, chemicals — items wiped with IPA-dampened wipes before entry. No cardboard, paper, or wood in cleanroom (uses cleanroom-rated polypropylene or polycarbonate alternatives).
 - **Behavioral rules**: No rapid movements (creates turbulence and particle shedding). No cosmetics, perfumes, or hair products. No writing with pencils (graphite particles) — use cleanroom-rated pens. Touch wafer only with wafer wands or vacuum wands, never gloved hands directly.
 
+**Strengths**:
+- Structured gowning sequence (cover dirtiest areas first) reduces operator-borne contamination by >98% compared to ungowned entry
+- Air shower with high-velocity filtered air jets dislodges residual particles from garments before cleanroom entry
+
+**Weaknesses**:
+- Full gowning takes 5-10 minutes per entry — significant productivity overhead in high-traffic fabs
+- Double-gloving and boot covers are uncomfortable, limiting continuous wear time to ~2 hours
+
 ### Vibration & ESD Control
 - **Vibration isolation**: Precision photolithography tools (steppers, mask aligners) require vibration <0.1 μm displacement. Vibration isolation pads (neoprene rubber or air-spring mounts) under tool bases. Massive concrete inertia blocks (2-5 tonnes) decouple tools from floor vibrations. Facility sited away from heavy machinery, rail lines, and road traffic if possible.
 - **ESD (electrostatic discharge) control**: MOS devices are destroyed by static discharges as low as 50-100 V. Human body model (HBM) discharge: 100 pF through 1.5 kΩ — a person walking on a synthetic floor can accumulate 5-20 kV. Countermeasures:
@@ -45,16 +62,40 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
   - Ionizers (fan-driven or corona-discharge type) neutralize static on insulators that cannot be grounded (wafer surfaces, plastic wafer carriers)
   - Humidity control at 40-50% RH (lower humidity increases static buildup — below 30% RH is dangerous)
 
+**Strengths**:
+- Air-spring vibration isolation with 2-5 tonne concrete inertia blocks achieves <0.1 μm displacement — sufficient for sub-micron lithography
+- Conductive flooring at 10⁶-10⁹ Ω/sq with grounded wrist straps eliminates >99% of ESD risk to MOS devices
+
+**Weaknesses**:
+- Vibration isolation requires massive concrete foundations and careful site selection away from roads and rail lines
+- Humidity below 30% RH creates dangerous static conditions — requires active humidification in dry climates
+
 ### HEPA Filter Bootstrapping
 - **Filter media**: Borosilicate glass microfibers (fiber diameter 0.5-4 μm), formed into a pleated paper-like mat. Pleating increases surface area 20-50× versus flat media, reducing pressure drop. Media binder: acrylic resin (holds fiber matrix together).
 - **Filter efficiency**: 99.97% capture at 0.3 μm (the most penetrating particle size — MPPS). Larger particles are intercepted directly; smaller particles are captured by diffusion. HEPA grade is defined by this single-point efficiency.
 - **Filter frame construction**: Rigid frame of aluminum or galvanized steel (wood frames warp). Gasket seal (neoprene or closed-cell foam) between filter and ceiling grid — any bypass leak defeats the entire filter. Gel sealant (non-drying silicone or urethane) for critical installations. Filter life: 3-7 years depending on particulate loading; pressure drop monitoring indicates replacement time.
 - **Fan/filter unit (FFU) design**: Integrated module — centrifugal fan motor + HEPA filter + pre-filter in a single ceiling tile-sized panel (2×2 ft or 2×4 ft standard). Speed control (adjustable fan RPM for desired air velocity, typically 0.3-0.5 m/s). Modular installation: mount in cleanroom ceiling grid, wire to power, adjust speed. Enables incremental cleanroom expansion.
 
+**Strengths**:
+- Pleated media increases surface area 20-50× versus flat, reducing pressure drop while maintaining 99.97% capture at MPPS
+- Modular FFU design enables incremental cleanroom expansion — add ceiling tiles as needed without redesigning air handling
+
+**Weaknesses**:
+- Borosilicate glass microfiber media requires specialized manufacturing (0.5-4 μm fiber diameter) — not trivially bootstrappable
+- Filter life of 3-7 years means ongoing replacement cost and DOP/PAO integrity testing annually
+
 ### Cleanroom Garments
 - **Materials**: Tyvek (spun-bonded polyethylene — disposable, inexpensive, good particle containment but low durability), or polyester (woven, reusable, excellent particle containment, durable for 50+ wash cycles). Polyester preferred for production cleanrooms.
 - **Construction**: Sealed or bound seams (no raw edges that shed fibers). No pockets, zippers, or buttons (particle sources). Garments are continuous-filament woven fabric — no staple fibers to shed. Coverall design with integrated hood or separate hood with face opening. Snap closures or velcro (no hooks that catch particles).
 - **Laundry**: Specialized cleanroom laundry — ultra-pure water wash, non-ionic detergent, drying in HEPA-filtered environment. Garments tested for particle shedding after each wash (Helmke drum test or body box test). Typically replaced after 30-50 wash cycles when particle shedding exceeds specification.
+
+**Strengths**:
+- Polyester woven garments withstand 50+ wash cycles with consistent particle containment — cost-effective for production
+- Sealed seams and continuous-filament fabric eliminate fiber shedding, the primary garment contamination source
+
+**Weaknesses**:
+- Tyvek garments are disposable (single-use or few uses) — high consumable cost for large fab operations
+- Specialized cleanroom laundry with UPW wash and HEPA-filtered drying is a dedicated infrastructure requirement
 
 ### Hazards & Safety
 
@@ -81,6 +122,14 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
 - **Temperature**: 22±0.5°C. Tight control required because photoresist dimensions are temperature-sensitive (thermal expansion of silicon at 2.6×10⁻⁶/°C, and resist viscosity changes with temperature affect spin-coated thickness).
 - **Humidity**: 43±3% RH. Low humidity increases static charge buildup (ESD risk to MOS devices). High humidity causes photoresist to absorb moisture, affecting exposure and development characteristics. Humidity also affects particle behavior (humid particles agglomerate and settle faster).
 
+**Strengths**:
+- Modular sandwich panels with cam-lock fasteners enable rapid construction without through-bolts that create particle traps
+- Vertical laminar flow at 0.3-0.5 m/s with 99.97% HEPA filtration achieves ISO 5 (Class 100) with 20-60 air changes/hour
+
+**Weaknesses**:
+- Temperature control of ±0.5°C requires continuous chilled water circulation at 50-200 W/m² — significant energy cost
+- ULPA filtration (99.999% at 0.12 μm) has ~2× the pressure drop of HEPA, doubling fan energy per air change
+
 ### Contamination Sources and Control
 
 **People** (the dominant contamination source):
@@ -97,12 +146,28 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
 - **Outgassing**: Plastics (cable insulation, wafer carriers, gaskets) release volatile organic compounds (VOCs) under vacuum or elevated temperature. These VOCs deposit on wafer surfaces as thin organic films. Use low-outgassing materials (PTFE, PFA, stainless steel) for all components in contact with wafers or vacuum.
 - **Vibration**: Mechanical vibration from pumps, motors, and air handling equipment transmits through the floor to sensitive tools (steppers, mask aligners). Vibration degrades lithographic resolution. Isolate vibration-sensitive tools on separate inertia blocks.
 
+**Strengths**:
+- Laminar airflow sweeps particles away from wafer surfaces at 0.3-0.5 m/s — active contamination removal rather than passive containment
+- Full-body garments with integrated hoods contain ~98% of human skin flakes, the dominant particle source
+
+**Weaknesses**:
+- A gowned operator at moderate activity emits ~1,000,000 particles/min — people are always the dominant contamination source despite best protocols
+- Process equipment (evaporation sources, spin coaters) generates metal and resist particles that require regular chamber cleaning
+
 ### Electrostatic Discharge (ESD) Control
 
 **Ionizer systems**:
 - **Alpha ionizers**: Polonium-210 (Po-210) radioactive sources emit alpha particles that ionize air molecules, creating equal numbers of positive and negative ions. The ions neutralize static charges on wafer surfaces and equipment. No power required. Limited lifetime (Po-210 half-life = 138 days; replace every 12-18 months). Regulatory issues with radioactive materials in some jurisdictions.
 - **Corona ionizers**: High-voltage needles (±5-10 kV) generate corona discharge, producing ions. AC ionizers alternate polarity every few milliseconds, providing balanced ion output. DC ionizers use separate positive and negative emitter points. Balance adjustment: ±50V offset from zero (measured with a charged plate monitor). Require periodic cleaning (needle contamination reduces ion output).
 - **Air-assisted ionizers**: Fan blows ionized air toward the work surface. Extends effective range from ~100 mm (passive) to ~500-1000 mm. Used at wafer handling stations, inspection areas, and packaging lines.
+
+**Strengths**:
+- Corona ionizers with AC polarity switching provide balanced ion output (±50V offset) without radioactive material
+- Air-assisted ionizers extend effective neutralization range to 500-1000 mm, covering entire wafer handling stations
+
+**Weaknesses**:
+- Alpha ionizers (Po-210) require replacement every 12-18 months due to 138-day half-life and regulatory burden
+- Corona emitter needles require periodic cleaning — contamination reduces ion output and unbalances polarity
 
 ### Monitoring and Maintenance
 
@@ -114,6 +179,14 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
 **HEPA filter maintenance**:
 - **Life prediction**: Monitor pressure drop across each HEPA filter. As the filter loads with particles, pressure drop increases. When it reaches 2× the initial pressure drop (typically from ~250 Pa to ~500 Pa), replace the filter. Typical HEPA life: 3-7 years in a Class 100 cleanroom.
 - **Integrity testing**: DOP (dioctyl phthalate) or PAO (polyalphaolefin) challenge test annually. Generate a uniform aerosol upstream of the filter and scan the downstream face with a photometer. Any leak >0.01% of the upstream concentration indicates a defect (pinhole, gasket leak, damaged media). Repair or replace.
+
+**Strengths**:
+- Continuous laser-scattering particle counters provide real-time monitoring with automatic alarms at threshold levels — immediate contamination detection
+- DOP/PAO integrity testing detects leaks >0.01% — catches filter defects before they impact wafer yield
+
+**Weaknesses**:
+- Quarterly ISO 14644-1 certification by third-party testing adds recurring cost and requires production scheduling around testing
+- HEPA replacement at 2× initial pressure drop means 3-7 year cycle requiring cleanroom shutdown for filter swap
 
 ### Cleanroom Protocol Details
 
@@ -132,6 +205,14 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
 - Process-specific training for each chemical and equipment station: chemical hazards, spill response, emergency shower and eyewash locations, fire extinguisher locations.
 - Annual recertification: gowning proficiency test (particle shedding measurement in a body box counter), written test on protocols, practical demonstration of emergency response.
 
+**Strengths**:
+- Material pre-cleaning in airlock with IPA wipes removes >99% of surface particles before entry
+- Daily/weekly/monthly cleaning cadence with IPA and HEPA vacuum maintains particle counts within specification
+
+**Weaknesses**:
+- Annual gowning recertification with body box particle counting is time-consuming but necessary to catch protocol drift
+- IPA consumed in large quantities for daily surface wiping — flammable storage and ventilation requirements
+
 ### Cleanroom Support Systems
 
 **Chilled water system**: Temperature control (22±0.5°C) requires chilled water at ~7°C supplied to air handling units. Chiller capacity: 50-200 W per m² of cleanroom floor area (depending on internal heat load from process equipment). Redundant chillers (N+1) ensure continuous cooling during maintenance.
@@ -141,6 +222,14 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
 **Bulk chemical distribution**: Centralized chemical storage room with pumped distribution lines to process stations. Benefits: fewer bottles in the cleanroom (reduced contamination risk), automated dispensing, leak detection on distribution lines. Materials: PTFE or PFA tubing, double-contained for hazardous chemicals (HF, H₂SO₄). Distribution pump: diaphragm type (no seals that leak), with leak detector in the secondary containment.
 
 **Waste collection**: Separate drain systems for acid waste, solvent waste, and general waste. Acid waste collected in chemical-resistant tanks (HDPE or FRP), neutralized before discharge. Solvent waste collected in grounded metal tanks, recycled or incinerated. Never mix acid and solvent waste streams.
+
+**Strengths**:
+- Centralized bulk chemical distribution with PTFE/PFA tubing reduces bottle handling in the cleanroom, lowering contamination risk
+- N+1 redundant chillers ensure continuous temperature control during maintenance — no process interruption
+
+**Weaknesses**:
+- Chilled water system at 50-200 W/m² cooling load is a major energy consumer — a 2000 m² cleanroom needs 100-400 kW just for temperature control
+- Separate acid and solvent waste drain systems double the plumbing infrastructure cost
 
 ### ISO Cleanroom Classification
 
@@ -165,6 +254,14 @@ A cleanroom loses air through exhaust systems (wet benches, solvent benches, pro
 - **Positive pressurization**: The cleanroom is maintained at 10-20 Pa (0.04-0.08 inches of water gauge) above the surrounding corridors. This ensures that when doors open, clean air flows outward, preventing infiltration of contaminated air from less-clean areas. Pressure is maintained by supplying slightly more air than is exhausted. Pressure differential is monitored continuously with a magnahelic gauge; an alarm sounds if pressurization is lost.
 - **Airlock pressure cascades**: Personnel and material airlocks form pressure steps between the cleanroom and the outside. A typical cascade: outside (ambient) → gowning room (+5 Pa) → cleanroom (+15 Pa). Each step prevents backflow of contaminated air. Interlocked doors (only one open at a time) maintain the pressure barrier even during transit.
 
+**Strengths**:
+- Positive pressurization at 10-20 Pa ensures clean air leaks outward through any gap — passive contamination barrier requiring no operator intervention
+- Airlock pressure cascades with interlocked doors maintain the pressure barrier even during personnel and material transit
+
+**Weaknesses**:
+- 15-30% make-up air requires continuous heating, cooling, and dehumidifying of outside air — significant energy cost
+- Loss of pressurization (fan failure, door propped open) immediately compromises the cleanroom, requiring recovery time
+
 ### Recovery After Contamination Events
 
 When a contamination event occurs (spill, equipment failure, filter breach, or improper gowning), the cleanroom must recover to specification:
@@ -174,6 +271,14 @@ When a contamination event occurs (spill, equipment failure, filter breach, or i
 - **Filter breach**: If a HEPA filter develops a leak (detected by routine DOP/PAO integrity testing), the affected area shows elevated particle counts. Seal the leak with gel sealant or replace the filter. The area downstream of the breach must be cleaned and particle counts verified before resuming operations.
 - **Post-maintenance recovery**: After any maintenance activity that opens process equipment or the cleanroom envelope, run the air handling system at full capacity for 30-60 minutes before resuming production. Wipe all accessible surfaces in the affected area. Verify particle counts at the nearest monitoring station.
 
+**Strengths**:
+- Particle spike recovery in 5-8 minutes (3-5 air change cycles) means transient events have minimal production impact
+- Calculated recovery time (t ≈ -ln(C_target/C_initial) × V/Q) enables predictive scheduling after contamination events
+
+**Weaknesses**:
+- Chemical spill recovery requires PID monitoring until baseline — may take hours for volatile solvents
+- Filter breach requires DOP/PAO testing and possible filter replacement, taking the affected area offline for hours to days
+
 ### Cleanroom Floor Plan and Workflow
 
 The layout of a cleanroom directly affects contamination control and operational efficiency:
@@ -182,6 +287,14 @@ The layout of a cleanroom directly affects contamination control and operational
 - **Process flow**: Arrange equipment in the sequence of wafer processing (clean → coat → expose → develop → etch → deposit → test) to minimize wafer transport distance. Each unnecessary transport step increases the risk of particle contamination and handling damage. Wafers travel in sealed carriers between stations.
 - **Service chase**: A separate corridor behind the cleanroom wall houses pumps, gas panels, electrical distribution, and exhaust ducting. Maintenance personnel access equipment from the chase side without entering the cleanroom. This separation keeps tools and repair activities (which generate particles) outside the clean envelope. Plumbing and electrical connections pass through sealed wall penetrations.
 - **Pass-through windows**: Material transfer between rooms occurs through double-door pass-through chambers with interlocked doors. Load items from the service corridor, wipe down, close the outer door, then retrieve from inside the cleanroom. This eliminates the need to carry materials through the gowning room.
+
+**Strengths**:
+- Service chase separation keeps pumps, gas panels, and maintenance activities outside the clean envelope — repairs don't require gowning
+- Sequential process flow layout minimizes wafer transport distance, reducing particle contamination risk at each transfer
+
+**Weaknesses**:
+- Equipment placement constrained by laminar airflow direction — most sensitive tools must be upstream, limiting layout flexibility
+- Sealed wall penetrations for plumbing and electrical add construction complexity and potential leak points
 
 ### Cleanroom Flooring Systems
 
@@ -196,6 +309,14 @@ The floor is a critical contamination control surface and must meet several requ
 - **Light levels**: 800-1200 lux at wafer height for visual inspection and alignment tasks. 300-500 lux for general process areas. Color rendering index (CRI) >80 for accurate visual color matching (important for resist color inspection).
 - **UV filtering**: If photoresist is present in the room, light fixtures must block wavelengths below ~450 nm to prevent accidental resist exposure. UV-blocking sleeves over fluorescent tubes or UV-filtering lens material. This is why cleanrooms often have a slightly yellowish appearance.
 
+**Strengths**:
+- Raised perforated floor with 20-25% open area provides uniform return airflow while supporting 5-30 kPa floor loading
+- Multi-layer sticky mats allow quick refresh by peeling off the top layer — no downtime for mat replacement
+
+**Weaknesses**:
+- Raised floor at 300-600 mm above structural slab requires significant building height and adjustable pedestal installation
+- UV-blocking lenses give cleanrooms a yellowish tint that can cause eye strain during extended shifts
+
 ### Cleanroom Construction Parameters
 
 **Wall panels**: Painted steel or aluminum honeycomb sandwich panels, 50-100 mm thick. Aluminum honeycomb core (cell size 6-12 mm, foil 0.05 mm) provides stiffness at low weight. Sealed joints with neoprene gasket strips between panels prevent particle leakage. Wall surface smoothness <0.8 μm Ra (mirror-finish epoxy paint) for easy cleaning and minimal particle adhesion. Corners coved with 30-50 mm radius to eliminate particle traps.
@@ -206,6 +327,14 @@ The floor is a critical contamination control surface and must meet several requ
 
 **Air handling parameters**: Make-up air supplies 10-20% of total airflow volume, maintaining positive pressure at 10-25 Pa above ambient to prevent infiltration. Cooling load: 200-500 W/m² of cleanroom floor area from process equipment heat dissipation (vacuum pumps, RF generators, bake plates). Humidity control via chilled water cooling coils (dehumidification) and clean steam humidification (re-humidification), maintaining 43±3% RH.
 
+**Strengths**:
+- Aluminum honeycomb sandwich panels (50-100 mm) provide high stiffness at low weight — structural efficiency for modular construction
+- 100% HEPA ceiling coverage in ISO 5 areas ensures uniform laminar flow with no turbulent dead zones
+
+**Weaknesses**:
+- Cooling load of 200-500 W/m² from process equipment requires oversized chillers — a 2000 m² fab needs 400-1000 kW cooling capacity
+- Wall surface smoothness <0.8 μm Ra requires factory-applied mirror-finish epoxy paint, not field-applied coatings
+
 ### Gowning Room Protocol
 
 **Airlock entry cascade**: Three-stage progression — pre-change room (ambient pressure) → gowning room (+5 Pa) → cleanroom (+15 Pa). Interlocked doors prevent two adjacent doors from opening simultaneously, maintaining the pressure barrier. Sticky adhesive mat at each threshold removes particles from shoe covers and cart wheels (peel off top layer when visibly soiled).
@@ -214,6 +343,14 @@ The floor is a critical contamination control surface and must meet several requ
 
 **Garment change frequency**: Daily change for ISO 5 (Class 100) and cleaner environments — garments accumulate skin flakes and particles with each wearing. Twice-weekly for ISO 6 (Class 1000). Weekly for ISO 7 (Class 10,000). Garments are numbered and tracked by serial number through the laundry cycle to enforce change schedule.
 
+**Strengths**:
+- Three-stage airlock cascade (ambient → +5 Pa → +15 Pa) with interlocked doors provides redundant contamination barriers
+- Serial-numbered garment tracking through laundry enforces change schedule and identifies garments past their wash cycle limit
+
+**Weaknesses**:
+- Daily garment change for ISO 5 environments requires large garment inventory and frequent specialized laundry service
+- Full-length mirror self-inspection relies on human compliance — no automated verification of proper gowning
+
 ### Cleanroom Disciplines
 
 **Prohibited items and practices**: No cosmetics, perfumes, or aftershave (particles and volatile organics). No paper products — use cleanroom-compatible synthetic paper (polypropylene-based) for notes and documentation. No pencils (graphite particles) — use cleanroom-rated ballpoint pens with retained caps. No food, drink, or smoking within the gowning area.
@@ -221,6 +358,14 @@ The floor is a critical contamination control surface and must meet several requ
 **Movement and behavior**: Move slowly and deliberately to minimize particle generation (a walking person sheds 5-10× more particles than one standing still). Avoid rapid arm movements. Keep conversations brief and quiet. Never touch wafer surfaces directly, even with gloved hands — use wafer wands or vacuum pickups only.
 
 **Daily cleaning protocol**: Wipe all work surfaces, equipment handles, and keyboard covers with 70% IPA (isopropyl alcohol) dampened lint-free wipes at the start and end of each shift. IPA evaporates quickly without residue. Replace sticky mats at entrances when tack diminishes. Empty and wipe process tool catch trays. Inspect and clean wafer carrier interiors before each use.
+
+**Strengths**:
+- Slow, deliberate movement reduces particle shedding by 5-10× compared to normal walking pace
+- 70% IPA wipes evaporate without residue, making daily surface cleaning fast and effective
+
+**Weaknesses**:
+- Prohibition on paper, pencils, and cosmetics requires complete behavioral change from normal work habits
+- Walking personnel shed 5-10× more particles than standing — even compliant behavior generates contamination
 
 ---
 

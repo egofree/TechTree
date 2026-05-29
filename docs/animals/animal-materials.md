@@ -1,11 +1,12 @@
 # Animal-Derived Materials
 
 > **Node ID**: animals.animal-materials
-> **Domain**: Animals & Animal Husbandry
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.cattle`](cattle.md), [`animals.domestication`](domestication.md), [`animals.sheep`](sheep.md), [`ceramics.lime`](../ceramics/lime.md)
 > **Enables**: [`chemistry.lubricants`](../chemistry/lubricants.md), [`knowledge.writing`](../knowledge/writing.md), [`machine-tools.forming`](../machine-tools/forming.md), [`machine-tools.iterative-bootstrap`](../machine-tools/iterative-bootstrap.md), [`textiles.fibers`](../textiles/fibers.md)
 > **Timeline**: Years 0-10
 > **Outputs**: leather, buckskin, rawhide, tallow, lard, wool_fleece, horn_sheets, bone_tools, sinew_thread, hide_glue, blood_meal
+> **Critical**: Yes — tallow, hide glue, horn, and bone are irreplaceable materials for pre-industrial technology
 
 ## Overview
 
@@ -213,4 +214,6 @@ Animal blood, often wasted, has several industrial uses.
 - **Rendering fumes**: Heating fat produces acrolein and other irritating fumes. Render outdoors or in a space with good cross-ventilation. Prolonged exposure to rendering smoke causes respiratory irritation.
 - **Hide glue temperature**: The glue pot operates at 50-60°C, hot enough to cause burns. Use tongs or a brush for application, not bare hands.
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

@@ -29,9 +29,9 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 |----------|--------------|--------|
 | Mine tailings | Accessible tailings deposit with assay data | Existing mine waste (historical or active) |
 | Leaching agents | H₂SO₄, HCl, NaOH, NaCN, or biological culture | [Mineral Acids](../chemistry/acids.md), [Alkalis](../chemistry/alkalis.md) |
-| Flocculants and collectors | Xanthates, frothers, anionic polymers | [Chemistry](../chemistry/index.md) |
+| Flocculants and collectors | Xanthates, frothers, anionic polymers | [Chemistry](../chemistry/acids-bases.md) |
 | Water | 2–10 m³ per tonne of tailings processed | [Water Treatment](../chemistry/water-treatment.md) |
-| Energy | 15–50 kWh per tonne processed | [Energy](../energy/index.md) |
+| Energy | 15–50 kWh per tonne processed | [Energy](../energy/engine.md) |
 
 ### Tools & Equipment
 
@@ -41,8 +41,8 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Hydrocyclones and classifiers | Size classification | [Ore Processing](processing.md) |
 | Flotation cells | Mineral separation by surface chemistry | [Ore Processing](processing.md) |
 | Leach tanks (agitated) | Chemical dissolution of metals | [Metals](../metals/index.md) |
-| Thickeners and filters | Solid-liquid separation | [Chemistry](../chemistry/index.md) |
-| Solvent extraction or ion exchange | Metal purification from leach solutions | [Chemistry](../chemistry/index.md) |
+| Thickeners and filters | Solid-liquid separation | [Chemistry](../chemistry/acids-bases.md) |
+| Solvent extraction or ion exchange | Metal purification from leach solutions | [Chemistry](../chemistry/acids-bases.md) |
 
 ### Knowledge
 
@@ -60,19 +60,19 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Copper tailings | 1,000 kg (0.3% Cu = 3 kg Cu) | Mine waste deposit | N/A — feedstock |
 | Sulfuric acid (H₂SO₄) | 15–40 kg | [Mineral Acids](../chemistry/acids.md) | Bioleaching (slower, no acid purchase) |
 | Oxidant (air/O₂ or Fe³⁺) | 5–15 kg Fe²⁺/tonne recycled | Ferric iron in solution | Hydrogen peroxide (costly) |
-| Flocculant | 10–50 g | [Chemistry](../chemistry/index.md) | Settling pond (slower, larger footprint) |
+| Flocculant | 10–50 g | [Chemistry](../chemistry/acids-bases.md) | Settling pond (slower, larger footprint) |
 | Limestone (neutralization) | 20–60 kg | [Lime](../ceramics/lime.md) | Caustic soda (more expensive) |
 | Water | 3–8 m³ | [Water Treatment](../chemistry/water-treatment.md) | Recycled process water |
-| Electricity | 15–30 kWh | [Energy](../energy/index.md) | Diesel generator |
+| Electricity | 15–30 kWh | [Energy](../energy/engine.md) | Diesel generator |
 
 ### BOM: Gold Tailings Retreatment (per tonne of tailings at 0.8 g/t Au)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
 | Gold tailings | 1,000 kg (0.8 g Au = 0.8 g) | Mine waste deposit | N/A — feedstock |
-| Sodium cyanide (NaCN) | 0.2–0.5 kg | [Chemistry](../chemistry/index.md) | Thiosulfate (less toxic, more expensive) |
+| Sodium cyanide (NaCN) | 0.2–0.5 kg | [Chemistry](../chemistry/acids-bases.md) | Thiosulfate (less toxic, more expensive) |
 | Hydrated lime (pH modifier) | 2–8 kg | [Lime](../ceramics/lime.md) | Caustic soda |
-| Activated carbon | 0.5–2.0 kg (regenerable) | [Chemistry](../chemistry/index.md) | Zinc precipitation (Merrill-Crowe) |
+| Activated carbon | 0.5–2.0 kg (regenerable) | [Chemistry](../chemistry/acids-bases.md) | Zinc precipitation (Merrill-Crowe) |
 | Oxygen or air | 0.1–0.5 m³ | [Air Separation](../chemistry/air-separation.md) | Compressed air |
 | Water | 2–5 m³ | [Water Treatment](../chemistry/water-treatment.md) | Recycled from tailings pore water |
 
@@ -92,6 +92,16 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 
 6. **Dewater and dispatch.** Thicken and filter the final concentrate to 8–12% moisture. Ship to smelter. Process tailings from the flotation circuit are re-deposited in a engineered facility.
 
+**Strengths**:
+- Tailings are already crushed and ground — saves 20-40% processing cost vs. primary ore
+- Desliming and regrinding improve flotation recovery by 10-20 percentage points over original processing
+- Proven circuit design (rougher → scavenger → cleaner) adapts directly from primary flotation practice
+
+**Weaknesses**:
+- Fine particles (<10 μm) consume reagents without floating — desliming loses some contained metal
+- Tailings impoundment excavation can destabilize the dam structure if not geotechnically engineered
+- Recovered concentrate grade may be lower than primary ore due to complex mineral locking
+
 ### 4.2 Acid Leaching of Metal-Bearing Tailings
 
 1. **Characterize the tailings.** Assay for target metals (Cu, Zn, Co, Ni, REE). Determine mineralogy (oxide vs. sulfide), acid consumption (carbonate content), and permeability. High carbonate tailings (>5% CaCO₃) consume excessive acid — consider alkaline leaching instead.
@@ -106,6 +116,16 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 
 6. **Neutralize spent leach solution.** Raise pH to 8–9 with limestone or lime. Precipitate remaining metals as hydroxides. Discharge clarified solution or recycle to leach circuit.
 
+**Strengths**:
+- Dissolves oxide and some sulfide metals at 65-85% recovery with simple chemistry (H₂SO₄ + oxidant)
+- Heap leaching handles large volumes (>100,000 tonnes) at low capital cost
+- Tank leaching completes in 24-96 hours — fast kinetics for high-value metals
+
+**Weaknesses**:
+- High carbonate tailings (>5% CaCO₃) consume excessive acid — may be uneconomic without pre-treatment
+- Heap leach cycles run 30-120 days — slow return on capital invested in leach pad construction
+- Spent leach solution must be neutralized to pH 8-9 before discharge — continuous limestone consumption
+
 ### 4.3 Bioleaching of Sulfide Tailings
 
 1. **Inoculate with bacteria.** Culture iron- and sulfur-oxidizing bacteria (Acidithiobacillus ferrooxidans, Acidithiobacillus thiooxidans). These microorganisms oxidize sulfide minerals, releasing metals into solution. Optimal conditions: pH 1.5–2.5, temperature 30–40°C.
@@ -115,6 +135,16 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 3. **Maintain biological activity.** Monitor pH, redox potential (Eh >600 mV), temperature, and iron concentration. Add nutrients (NH₄⁺, PO₄³⁻) at trace levels if deficient. Bioleach cycle: 6–24 months (heap) or 3–10 days (tank).
 
 4. **Recover metals from bioleach solution.** Same as acid leaching — solvent extraction, electrowinning, or precipitation.
+
+**Strengths**:
+- Bacteria generate their own leaching agent (sulfuric acid) from sulfide minerals — low reagent cost
+- Operates at ambient temperature (30-40°C) and atmospheric pressure — no energy-intensive heating
+- Recovers metals from low-grade sulfide tailings (0.1-0.5% Cu) that acid leaching cannot process economically
+
+**Weaknesses**:
+- Bioleach cycle is slow: 6-24 months for heap leaching vs. 30-120 days for acid heap leach
+- Bacteria are sensitive to temperature excursions, toxic metals (As, Hg), and nutrient deficiency
+- Requires continuous aeration of heap or reactor — compressor energy cost over months of operation
 
 ## 5. Quantitative Parameters
 
@@ -248,4 +278,4 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Mining](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining](./index.md) • [All Domains](../index.md)*

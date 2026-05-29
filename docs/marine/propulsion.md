@@ -1,12 +1,12 @@
 # Marine Propulsion Systems
 
 > **Node ID**: marine.propulsion
-> **Domain**: Marine & Naval Engineering
+> **Domain**: [Marine & Naval Engineering](./index.md)
 > **Dependencies**: [`energy.engine`](../energy/engine.md), [`energy.steam-power`](../energy/steam-power.md), [`metals.iron-steel`](../metals/iron-steel.md)
 > **Enables**: None (leaf capability)
-> **Parent**: marine
 > **Timeline**: Years 0-50+
 > **Outputs**: marine engines, propellers, paddle wheels
+> **Critical**: No — specialized maritime capability, not required for land-based civilization
 
 Marine propulsion evolves through four stages: oar (muscle), sail (wind), steam (coal), and internal combustion (liquid fuel). Each stage increases power density and operational independence from weather. This document covers the engineering of marine propulsion systems — the adaptation of power sources for shipboard use.
 
@@ -217,4 +217,4 @@ For a 100 m cargo vessel at 12 knots:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Marine & Naval](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval](./index.md) • [All Domains](../index.md)*

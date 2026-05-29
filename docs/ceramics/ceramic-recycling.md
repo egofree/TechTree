@@ -26,7 +26,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 |----------|--------------|--------|
 | Waste ceramics | Broken pottery, spent refractories, manufacturing rejects | Collection from potters, demolition, furnace relining |
 | Clay (if making new products with grog) | Plastic clay body for re-forming | [Pottery](pottery.md) |
-| Energy (crushing) | 5–30 kWh per tonne of ceramic waste | [Energy](../energy/index.md) |
+| Energy (crushing) | 5–30 kWh per tonne of ceramic waste | [Energy](../energy/engine.md) |
 
 ### Tools & Equipment
 
@@ -51,7 +51,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
 | Waste ceramics (broken pots, rejects) | 1,050–1,100 kg | Potters, manufacturing waste | Spent refractories (different properties) |
-| Electricity (crushing) | 10–30 kWh | [Energy](../energy/index.md) | Manual crushing with sledgehammer (labor-intensive) |
+| Electricity (crushing) | 10–30 kWh | [Energy](../energy/engine.md) | Manual crushing with sledgehammer (labor-intensive) |
 | Water (dust suppression) | 50–200 L | [Water Treatment](../chemistry/water-treatment.md) | Dry process with dust collection |
 | Screens (replacement wear) | 1–5 m²/year | [Metals](../metals/index.md) | Hand-sorting by size (slow, inconsistent) |
 
@@ -62,7 +62,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 | Spent refractories (mixed) | 1,000 kg | Furnace relining waste | N/A — feedstock |
 | Steel (anchors, bands) | 10–50 kg recovered | Magnetic separation | Sell as scrap metal |
 | Sorting labor | 1–4 person-hours/tonne | Manual sorting | Automated XRF sorting (high capital cost) |
-| Crushing energy | 15–40 kWh/tonne | [Energy](../energy/index.md) | Drop-weight crusher (lower throughput) |
+| Crushing energy | 15–40 kWh/tonne | [Energy](../energy/engine.md) | Drop-weight crusher (lower throughput) |
 
 ## 4. Process Description
 

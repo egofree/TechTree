@@ -21,7 +21,7 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 - Shielding materials: lead sheet (0.5-3 mm for X-ray), concrete (15-30 cm for general shielding), steel plate, barium sulfate (for painted shielding)
 - Dosimetry materials: photographic film (film badge dosimeter), thermoluminescent crystals (TLD — LiF:Mg,Ti), or optically stimulated luminescence (OSL) badges (requires electronics)
 - Warning signs: trefoil radiation symbol, posted at access points
-- Survey instruments: Geiger-Müller counter, ionization chamber, or scintillation detector (requires [electronics](../electronics/index.md))
+- Survey instruments: Geiger-Müller counter, ionization chamber, or scintillation detector (requires [electronics](../electronics/assembly.md))
 - Decontamination supplies: absorbent paper, detergent, chelating agents (EDTA, DTPA) for radioactive metal contamination
 
 ### Tools and Equipment
@@ -59,6 +59,16 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 
 ### Shielding Design for X-Ray Room
 
+**Strengths**:
+- Concrete shielding is widely available, inexpensive, and provides structural walls simultaneously
+- Lead sheet shielding is extremely space-efficient (1.6 mm Pb equivalent to 15 cm concrete for 100 kVp X-ray)
+- Calculation methods are well-standardized (NCRP Report 147, IAEA Safety Series)
+
+**Weaknesses**:
+- Shielding gaps at joints, door frames, and penetrations (electrical conduit, HVAC) are common failure points — require detailed construction oversight
+- Lead is toxic and requires protected handling during installation and future demolition
+- Retrofitting inadequate shielding is extremely expensive (room may need to be rebuilt)
+
 1. **Determine workload**: Estimate weekly X-ray workload in mA-minutes per week. Example: 50 patients/week × 2 exposures each × 100 mA × 0.1 s = 1,000 mA-min/week.
 2. **Calculate primary barrier thickness**: Determine distance from X-ray source to occupied area. Use inverse square law: dose at distance d = dose at 1 m / d². Calculate required barrier transmission factor to meet dose limit (0.02 mSv/week for controlled areas, 0.02 mSv/week for uncontrolled).
 3. **Calculate secondary barrier**: Account for scattered radiation (0.1% of primary beam at 90° at 1 m) and leakage radiation (<1 mGy/hr at 1 m for diagnostic units). Secondary barriers are typically thinner than primary barriers.
@@ -67,12 +77,30 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 
 ### Personal Dosimetry Program
 
+**Strengths**:
+- Film badges and TLDs require no electronics — can be deployed at any technology level
+- Provides permanent, legal-quality dose record for regulatory compliance
+- Cumulative tracking catches chronic low-level overexposure that acute symptoms would miss
+
+**Weaknesses**:
+- Monthly/quarterly readout delay means acute overexposures are discovered after the fact
+- Film badges are sensitive to heat, moisture, and light — improper storage causes false readings
+- Does not provide real-time dose rate information (worker cannot self-monitor during a procedure)
+
 1. **Issue dosimeters**: Each occupationally exposed worker receives a personal dosimeter worn at chest or waist level (collar if lead apron worn — to estimate unshielded dose). Dosimeter worn during all working hours in radiation areas.
 2. **Collect and read**: Collect dosimeters monthly (film badge) or quarterly (TLD). Process through dosimetry laboratory. Record cumulative dose for each worker.
 3. **Investigate overexposures**: Any dosimeter reading >10% of annual limit triggers investigation. Determine cause (unusual workload, shielding failure, improper technique). Implement corrective action.
 4. **Maintain lifetime records**: Cumulative dose records maintained for each worker's entire career plus 30 years. Many radiation effects (cancer) have long latency periods.
 
 ### Contamination Control
+
+**Strengths**:
+- GM counter provides immediate feedback on decontamination effectiveness — no laboratory analysis needed
+- Most surface contamination can be removed with soap, water, and chelating agents — no exotic materials required
+
+**Weaknesses**:
+- Porous surfaces (concrete, wood) can absorb contamination permanently — may require surface removal or replacement
+- Internal contamination (inhalation, ingestion) cannot be removed by surface decontamination — requires medical intervention
 
 1. **Survey work area**: Before beginning work with unsealed radioactive materials, survey the area with GM counter to establish background. After work, survey all surfaces, equipment, and personnel.
 2. **Contain spills**: If radioactive material spills, alert personnel, isolate area, and don PPE. Cover spill with absorbent material. Work from outside inward to prevent spread. Place contaminated materials in labeled waste container.
@@ -216,4 +244,4 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [EHS](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

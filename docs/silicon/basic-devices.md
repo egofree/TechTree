@@ -2,7 +2,7 @@
 
 > **Node ID**: silicon.basic-devices
 > **Domain**: [Silicon](./index.md)
-> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`gas-handling.vacuum`](../gas-handling/vacuum.md), `metals.aluminum.semiconductor-grade`, [`silicon.crystal-growth`](crystal-growth.md), [`silicon.wafering`](wafering.md), [`vacuum.pumps`](../vacuum/pumps.md)
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`gas-handling.vacuum`](../gas-handling/vacuum.md), [`metals.aluminum`](../metals/aluminum.md), [`silicon.crystal-growth`](crystal-growth.md), [`silicon.wafering`](wafering.md), [`vacuum.pumps`](../vacuum/pumps.md)
 > **Enables**: [`computing.electronic`](../computing/electronic.md), [`electronics.assembly`](../electronics/assembly.md), [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
 > **Timeline**: Years 30-50
 > **Outputs**: solar_cells, diodes, transistors
@@ -12,6 +12,14 @@
 #### Solar Cells (Primary Target — simplest useful semiconductor device)
 
 **Structure**: Large-area (100-300 cm²) pn junction on single-crystal or multicrystalline silicon wafer.
+
+**Materials**:
+- P-type (boron-doped) silicon wafer, 1-10 Ω·cm, <100> orientation, 180-300 μm thick
+- POCl₃ gas (phosphorus oxychloride) for n-type emitter diffusion
+- HF (hydrofluoric acid), 5-10% concentration, for phosphorus glass removal
+- SiNₓ (silicon nitride) for anti-reflection coating, deposited by PECVD
+- Silver paste (front contacts): finger width 50-100 μm, bus bar 1-2 mm
+- Aluminum paste (rear contact): full-area coverage
 
 **Process flow**:
 1. **Starting wafer**: p-type (boron-doped), 1-10 Ω·cm, <100> orientation, 180-300 μm thick. Saw-damage etch in NaOH or KOH (20-40%, 80°C, 2-5 min) to remove ~10-20 μm of damaged surface.
@@ -24,6 +32,12 @@
 8. **Edge isolation**: Laser scribe or plasma etch around wafer edge to prevent front-rear short circuit through junction that wraps around edges.
 9. **Testing**: I-V curve under simulated sunlight (AM1.5, 1000 W/m²). Measure Voc, Isc, fill factor, efficiency.
 
+**Verification**:
+1. Measure I-V curve under AM1.5 solar simulator (1000 W/m², 25°C)
+2. Check Voc > 0.58V and Isc > 8.0A for a 156×156 mm cell
+3. Measure fill factor (FF) > 0.75; if lower, check for shunts via dark I-V measurement
+4. Verify no front-rear short by measuring isolation resistance > 1 MΩ at 500V
+
 **Expected performance**:
 - First cells: 5-10% efficiency (poor passivation, simple contacts)
 - Mature process: 15-18% efficiency (screen-printed, BSF, AR coating)
@@ -31,13 +45,45 @@
 
 **Solar cell as energy amplifier**: Each cm² of 15% efficient solar cell produces ~15 mW peak. A 156×156 mm cell produces ~3.6 W peak. Over 20-year lifetime: ~50 kWh per cell. Energy payback time: 1-3 years. The solar cell feedback loop (solar → electricity → more silicon furnaces → more solar cells) is one of the most important positive feedback loops in the entire tech tree.
 
+**Strengths**:
+- Simplest semiconductor device to fabricate — requires only one diffusion step, screen-printed contacts, and no photolithography
+- Energy payback time of 1-3 years means each cell produces 10-50× the energy used to manufacture it over its lifetime
+
+**Weaknesses**:
+- Single-junction silicon cells are thermodynamically limited to ~33% efficiency (Shockley-Queisser limit); practical cells reach 15-22%
+- Requires high-purity silicon feedstock from [silicon purification](purification.md) — impurity levels above 10¹⁶/cm³ kill carrier lifetime
+
 #### Diodes & Simple Transistors
 
 **Point-contact diode**: Sharpened tungsten or phosphor-bronze wire whisker pressed against n-type silicon crystal. Forms small p-type region at contact point (metal-semiconductor junction). Simple, requires no processing. Used for: rectifiers, radio detectors.
 
+**Strengths**:
+- Requires no diffusion furnace, no photolithography, no cleanroom — buildable with a crystal and a whisker
+- Adjustable by moving the whisker contact point, allowing tuning of the I-V characteristic
+
+**Weaknesses**:
+- Unreliable contact — mechanical vibration shifts the whisker, changing characteristics or destroying the junction
+- Low reverse breakdown voltage (<10V typically) and high series resistance limit use to signal-level applications
+
 **Alloy junction transistor**: Place indium dots on both sides of thin n-type germanium or silicon wafer (~100-200 μm). Heat to 500-600°C. Indium alloys into semiconductor, creating p-type regions. Result: pnp transistor. Simple but low performance (low frequency, high leakage). Historically important (first transistors, 1950s).
 
+**Strengths**:
+- No photolithography or oxide masking required — the alloy process is entirely thermal
+- Works with germanium (lower processing temperature than silicon), enabling transistor fabrication with 1950s-era furnaces
+
+**Weaknesses**:
+- Gain-bandwidth product limited to ~1 MHz — the large, uncontrolled junction geometry has high capacitance
+- High leakage current (μA range at room temperature) makes alloy transistors unsuitable for precision analog circuits
+
 **Diffused transistor**: Phosphorus diffused into p-type wafer through oxide mask window to form base and emitter. More controlled geometry. Requires: oxidation furnace, photolithography (or shadow masking), diffusion furnace. Bridge to the Photolithography stage planar process.
+
+**Strengths**:
+- Oxide-masked diffusion produces well-defined junction geometry with controllable depth (±0.1 μm) and doping profile
+- Planar process is directly scalable to IC fabrication — the same equipment makes both discrete transistors and integrated circuits
+
+**Weaknesses**:
+- Requires oxidation furnace (900-1100°C, dry or wet O₂) and photoresist processing — significantly more infrastructure than alloy junction
+- Shadow masking provides lower resolution (~50 μm) than photolithography (~1 μm), limiting device performance
 
 #### MOSFETs & CMOS
 
@@ -48,6 +94,14 @@
 **[PMOS](../glossary/pmos.md)** (P-channel MOSFET): Holes carry current in p-type channel induced in n-type substrate. Slower than NMOS due to lower hole mobility, but was actually developed first because it was easier to manufacture with early processing (contamination issues favored p-channel operation). Substrate is n-type silicon, source and drain are p+ doped regions. Used in combination with NMOS to form CMOS circuits.
 
 **[CMOS](../glossary/cmos.md)** (Complementary MOS): The key breakthrough that enabled VLSI. Uses NMOS and PMOS transistors in complementary pairs. In a CMOS inverter: when input is high, NMOS turns on and PMOS turns off → output pulled low. When input is low, PMOS turns on and NMOS turns off → output pulled high. In either steady state, only one transistor is on and there is no DC path from power to ground — **near-zero static power dissipation**. This is the fundamental advantage over NMOS-only logic (which draws static power through load transistors). Power consumption scales with switching frequency and capacitance only (P = fCV²). CMOS enabled billion-transistor chips that would be thermally impossible with NMOS alone.
+
+**Strengths**:
+- Near-zero static power dissipation — no DC path from VDD to ground in either steady state, enabling billion-transistor chips
+- Full rail-to-rail output swing provides maximum noise margin in digital circuits
+
+**Weaknesses**:
+- Requires both NMOS and PMOS transistors (complementary pairs), doubling the number of implantation and masking steps compared to NMOS-only
+- Latchup risk: parasitic NPN and PNP bipolar transistors in the CMOS structure can fire under certain conditions, shorting VDD to ground and destroying the chip
 
 **Gate oxide**: SiO₂ grown by thermal oxidation of silicon (dry O₂ at 900-1100°C or wet O₂/H₂O at 800-950°C). Thickness 5-50 nm depending on technology generation. Thinner oxide → stronger gate coupling → faster switching, but exponentially higher gate leakage current (quantum tunneling through oxide). Oxide quality is critical — even a single defect in the gate oxide can cause catastrophic breakdown (short circuit from gate to channel). Oxide integrity requires ultra-clean processing and careful handling.
 
@@ -62,6 +116,14 @@
 - **Rate monitoring**: Quartz crystal microbalance — crystal oscillation frequency decreases as metal deposits. Calibrated to thickness.
 - **Uniformity**: Source-to-substrate distance 30-50 cm. Rotating planetary fixture for uniform thickness on multiple wafers.
 - **Pattern definition**: Shadow mask (thin metal sheet with cutout pattern held against wafer during deposition) or lift-off (pattern photoresist before deposition, dissolve resist after — metal on resist lifts off, leaving patterned metal on wafer).
+
+**Strengths**:
+- Simplest thin-film deposition method — requires only a vacuum chamber, a boat, and a DC power supply
+- High deposition rate (1-5 nm/s for aluminum) enables rapid throughput
+
+**Weaknesses**:
+- Poor step coverage — evaporated atoms travel in straight lines, creating thin spots on vertical surfaces
+- Alloy fractionation: components with different vapor pressures evaporate at different rates, altering film composition
 
 **[Screen printing](../glossary/screen-printing.md)** (for solar cell contacts):
 - Print conductive paste (Ag, Al, or carbon) through mesh screen with patterned emulsion. Squeegee forces paste through open areas onto wafer. Dry and fire. Simpler than evaporation, lower resolution (~50 μm minimum line width).
@@ -124,6 +186,20 @@ Semiconductor device fabrication uses some of the most dangerous chemicals in in
 6. **Alloy**: Heat to 450°C for 15 minutes in forming gas (N₂/H₂). Aluminum alloys with silicon at the contact, forming a low-resistance ohmic contact.
 7. **Scribe and break**: Separate individual diodes from the wafer by diamond scribing and snapping. Typical die size: 1×1 mm to 5×5 mm depending on current rating.
 8. **Package**: Solder die into metal-glass or plastic package. Wire bond from package lead to front contact. Seal.
+
+**Verification**:
+1. Measure forward voltage drop at 10 mA — expect 0.6-0.7V for silicon
+2. Measure reverse leakage at rated voltage — expect <1 μA
+3. Check reverse breakdown voltage matches specification (e.g., 100V ±10%)
+4. Thermal imaging under forward bias to verify uniform current distribution
+
+**Strengths**:
+- Simplest discrete semiconductor device to fabricate — requires only one diffusion, one metallization, and no photolithography
+- Rectifier diodes are the highest-volume semiconductor product by unit count, making them the ideal first device for a new fab
+
+**Weaknesses**:
+- Manual scribe-and-break produces inconsistent die sizes, requiring post-selection by testing
+- Shadow-mask metallization limits contact pattern resolution to ~100 μm, wasting active area compared to photolithographic patterning
 
 **Solar cell process optimization**:
 - **Gettering**: Phosphorus diffusion for the n+ emitter also acts as a gettering step (phosphorus atoms in the near-surface region attract and trap metallic impurities from the bulk silicon). This improves minority carrier lifetime in the base, increasing open-circuit voltage. Process: extend the POCl₃ pre-deposition time by 10-15 minutes beyond what is needed for junction depth alone.
@@ -188,13 +264,23 @@ Semiconductor device fabrication uses some of the most dangerous chemicals in in
 10. Edge isolation (laser scribe or plasma etch)
 11. I-V testing and sorting
 
-**Typical yield**: First runs 30-50%, improving to 80-95% with process optimization. Key yield limiters: contamination (particles on wafer surface kill cells), uniformity (non-uniform diffusion creates shunts), and mechanical breakage (thin wafers are fragile). Each step requires process control and monitoring to maintain yield. For integrated circuits, typical IC yield at the 180nm node runs 80-90% for simple logic and 50-70% for large SoC designs. Yield follows the Poisson model: yield = (1-D×A)^N, where D is defect density (defects/cm² per masking level), A is chip area (cm²), and N is the number of masking levels. Cost per good die = wafer cost / (dies per wafer × yield), which means yield improvement has a direct, leveraged impact on cost.
+**Typical yield**: First runs 30-50%, improving to 80-95% with process optimization. Key yield limiters: contamination (particles on wafer surface kill cells), uniformity (non-uniform diffusion creates shunts), and mechanical breakage (thin wafers are fragile). Each step requires process control and monitoring to maintain yield. For integrated circuits, typical IC yield at the 180nm node runs 80-90% for simple logic and 50-70% for large SoC designs. Yield follows the Poisson model: yield = (1-D×A)^N, where D is defect density (defects/cm² per masking level), A is chip area (cm²), and N is the number of masking levels. Cost per good die = wafer cost / (dies per wafer × yield), which means yield improvement has a direct, multiplied impact on cost.
 
 **Solar cell parameter relationships**:
 - **Efficiency**: η = (Voc × Jsc × FF) / Pin, where Voc is open-circuit voltage (V), Jsc is short-circuit current density (mA/cm²), FF is fill factor (dimensionless, 0.7-0.85), and Pin is incident power density (100 mW/cm² at AM1.5).
 - **Voc**: Typically 0.55-0.72V for crystalline silicon. Increases with: higher base resistivity (lower doping → less Auger recombination), better surface passivation, and lower temperature (Voc decreases ~2.2 mV/°C).
 - **Jsc**: Typically 30-42 mA/cm² for crystalline silicon. Increases with: better light trapping (texturing, anti-reflection coating), higher minority carrier lifetime in the base, and thinner metal grid lines (less shading).
 - **Temperature sensitivity**: Solar cell efficiency decreases ~0.3-0.5% per °C above 25°C. A module at 60°C produces ~10-15% less power than at 25°C. This is a fundamental semiconductor property (increased temperature increases dark current, reducing Voc).
+
+**Device parameter comparison**:
+
+| Parameter | Rectifier diode | Zener diode | BJT (small signal) | MOSFET (logic) | Solar cell |
+|---|---|---|---|---|---|
+| Forward voltage | 0.6-0.7V | N/A (reverse) | Vce(sat) ~0.2V | RDS(on) × Id | N/A |
+| Breakdown voltage | 50-2000V | 2.7-200V | BVceo 20-80V | 10-20V (logic) | N/A |
+| Speed (tr/tf) | 1-50 μs | N/A | 10-100 ns | 1-10 ns | N/A |
+| Current range | 0.1-50A | 5-1000 mA | 1 mA-1A | 1 μA-50A | 0-9A (156mm cell) |
+| Key metric | Vf at rated I | Vz tolerance | β (50-300) | Vth (0.5-2V) | η (15-18%) |
 
 ### Circuit Design Examples
 

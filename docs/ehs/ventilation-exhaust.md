@@ -11,6 +11,36 @@
 
 Semiconductor fabrication releases toxic, pyrophoric, and corrosive gases and vapors that must be captured at the source and rendered safe before discharge to atmosphere. General dilution ventilation is entirely inadequate — a 1 ppm silane leak in a fab ballroom would require 25,000 room air changes per hour to dilute below the TLV. Local exhaust ventilation (LEV), gas cabinets with dedicated exhaust, and point-of-use abatement systems are the primary engineering controls for semiconductor chemical hazards. This document covers the design, operation, and maintenance of ventilation and exhaust systems specific to semiconductor manufacturing.
 
+## Decision Framework: Exhaust System Selection
+
+| Exhaust Source | Recommended System | Key Design Parameter | Abatement Required |
+|---------------|-------------------|---------------------|-------------------|
+| Wet bench (acids: HF, HNO₃, H₂SO₄) | Enclosed bench with LEV + central acid scrubber | 150-250 CFM/ft, PVDF duct | Yes — caustic scrubber (>99% acid removal) |
+| Wet bench (solvents: IPA, acetone, NMP) | Enclosed bench with LEV + carbon adsorber | 150-250 CFM/ft, galvanized duct | Yes — activated carbon or thermal oxidizer |
+| Gas cabinet (toxic: AsH₃, PH₃) | Dedicated exhaust + POU oxidizing scrubber | 250-400 CFM/cabinet, 316L SS duct | Yes — oxidizing scrubber (NaOCl/KMnO₄) |
+| Gas cabinet (pyrophoric: SiH₄) | Dedicated exhaust + POU thermal oxidizer | 250-400 CFM/cabinet, 316L SS duct | Yes — burner box (>99% DRE) |
+| Etch tool exhaust (PFCs, Cl₂) | POU plasma abater + central scrubber | 100-300 CFM/tool, fluoropolymer-lined duct | Yes — plasma destruction (>90% DRE for CF₄) |
+| General fab return air | HEPA filtration + chemical filtration | 500-750 ACH for ISO Class 1-5 | No — recirculated with filtration |
+
+### Implementation Steps
+
+1. **Classify all exhaust sources**: Inventory every process tool, wet bench, gas cabinet, and chemical dispensing point. For each, identify chemical class (acid, solvent, toxic gas, pyrophoric, inert) and flow requirement.
+2. **Segregate exhaust systems**: Never combine incompatible streams (acid + solvent, toxic gas + general). Design separate duct systems for each chemical class.
+3. **Size abatement systems**: Calculate total contaminant load from all sources on each exhaust system. Select POU abatement for high-concentration sources and central scrubbers for aggregated low-concentration streams.
+4. **Install monitoring**: Continuous flow sensors in every exhaust duct (alarm at <80% design flow). Continuous gas detection at scrubber outlets. pH monitoring on scrubber liquor.
+5. **Validate with smoke tests**: After installation, verify capture at every hood and bench with visible smoke. All points must show complete capture with no escape to breathing zone.
+6. **Establish maintenance schedule**: Quarterly duct inspection, monthly scrubber efficiency testing, quarterly fan performance checks, annual face velocity verification.
+
+### Abatement Technology Trade-offs
+
+| Technology | Target Contaminants | DRE | Energy Use | Waste Stream | Cost |
+|-----------|---------------------|-----|-----------|-------------|------|
+| Thermal oxidizer (burner box) | SiH₄, PH₃, flammable organics | >99% | High (natural gas/H₂ fuel) | Acid scrub water (HF, HCl) | High |
+| Plasma abatement | PFCs (CF₄, C₂F₆, NF₃) | 90-97% | Medium (RF power) | HF scrub water | Medium-High |
+| Wet packed-bed scrubber | Acid gases (HF, HCl, Cl₂) | >99% | Low (pump energy) | Spent caustic solution | Medium |
+| Dry adsorbent cartridge | Low-flow organics, backup polishing | 90-99% (until breakthrough) | Very low | Spent media (hazardous waste) | Low-Medium |
+| Central acid scrubber (multi-stage) | Aggregated acid exhaust | >99.9% | Medium | Spent NaOH + CaF₂ sludge | High |
+
 ## Local Exhaust Ventilation (LEV)
 
 ### Principles
@@ -113,12 +143,42 @@ POU abatement treats exhaust at or near the process tool before it enters the ce
 - Effluent treatment: Hot combustion gases pass through water scrubber or wet electrostatic precipitator to remove acid gases (HF, HCl, P₂O₅) formed during combustion
 - Monitoring: Temperature sensor at combustion chamber (must maintain >800°C for effective destruction). Flame detector confirms burner operation. Backup electric ignition for automatic restart
 
+**Strengths**:
+- Highest destruction efficiency (>99% DRE) for silane, phosphine, and flammable organics
+- Handles variable flow rates and concentrations — robust against process transients
+- Can process multiple gas types simultaneously in a single unit
+- Thermal energy recoverable from combustion exhaust for process heating
+- Proven technology with decades of deployment in semiconductor and petrochemical industries
+
+**Weaknesses**:
+- Highest energy consumption — requires continuous natural gas or hydrogen fuel for combustion
+- Generates secondary waste stream — acid gases (HF, HCl) from combustion require downstream scrubbing
+- High operating temperature (800-1,200°C) requires refractory-lined combustion chamber and regular inspection
+- Flame-out risk — loss of flame without gas shutoff creates explosive atmosphere
+- NOₓ generation from high-temperature combustion — may require selective catalytic reduction
+- Not suitable for PFC destruction — requires plasma temperatures for CF₄ dissociation
+
 **Plasma abatement**:
 - Uses RF or microwave plasma to dissociate perfluorocarbons (PFCs: CF₄, C₂F₆, C₃F₈, C₄F₈) and NF₃
 - Reaction: CF₄ + O₂ (in plasma) → CO₂ + 2F₂ → CO₂ + 2HF (after water scrubbing)
 - DRE: 90-97% for CF₄, >99% for C₂F₆ and higher PFCs
 - Advantage: Operates at lower temperature than thermal abatement, lower energy consumption for PFC destruction
 - Typically installed at etch tool exhaust
+
+**Strengths**:
+- Only effective method for destroying perfluorocarbons (PFCs: CF₄, C₂F₆) — 90-97% DRE
+- Lower operating temperature than thermal oxidation — reduced refractory maintenance
+- Operates on electrical power alone — no combustion fuel required
+- Compact footprint — can be installed at point-of-use near individual etch tools
+- Rapid response to changing gas composition — plasma adapts to variable process exhaust
+
+**Weaknesses**:
+- High capital cost — RF power supply and plasma chamber are expensive components
+- Medium-high energy consumption — RF generator draws significant electrical power
+- Generates HF as byproduct — requires downstream wet scrubber for acid gas removal
+- Electrode erosion in plasma chamber — periodic electrode replacement increases operating cost
+- Limited effectiveness for CF₄ (90% DRE) compared to higher PFCs (>99% for C₂F₆)
+- RF interference with nearby electronic equipment requires shielding
 
 **Wet scrubber (packed bed)**:
 - Counter-current packed tower: Exhaust gas flows upward through packed bed (polypropylene or ceramic packing), scrubbing liquid flows downward
@@ -127,11 +187,43 @@ POU abatement treats exhaust at or near the process tool before it enters the ce
 - Typical operating parameters: Liquid-to-gas ratio 5-15 L/m³, packing depth 1.5-3.0 m, gas velocity 1-2 m/s (superficial)
 - Blowdown: Continuous or periodic discharge of spent scrubbing solution. Must be treated as chemical waste (see [Waste Management](waste-management.md))
 
+**Strengths**:
+- Very high removal efficiency (>99%) for acid gases at proper liquor concentration and flow rate
+- Low energy consumption — only pump energy required, no combustion or plasma generation
+- Scalable from small point-of-use to large central systems (100-50,000 CFM)
+- Simple, well-understood technology — decades of industrial operating experience
+- Handles large gas volumes economically — preferred for central scrubber applications
+- Can scrub multiple acid gases simultaneously with caustic solution
+
+**Weaknesses**:
+- Liquid waste stream — spent scrubber solution (NaOH + dissolved acids, fluorides) requires wastewater treatment
+- Packing fouling — scale, biological growth, and particulate buildup reduce efficiency over time
+- Requires continuous chemical feed — NaOH consumption and pH monitoring add operating cost
+- Inadequate for insoluble gases (PFCs, CO, H₂) — only effective for water-soluble or reactive contaminants
+- Freeze risk in cold climates — scrubber liquor must be heated or drained during shutdown
+- Mist carryover — entrained droplets can escape separator, requiring mist eliminators
+
 **Dry scrubber (adsorbent)**:
 - Granular adsorbent media in a disposable cartridge: activated carbon (organics), impregnated alumina (acid gases), specialized media for hydrides
 - Advantage: No liquid waste stream. Simple change-out when media exhausted.
 - Disadvantage: Limited capacity. Media disposal as hazardous waste. Not suitable for high-concentration streams.
 - Application: Backup scrubbing, low-flow tool exhaust, gas cabinet exhaust polishing
+
+**Strengths**:
+- No liquid waste stream — eliminates wastewater treatment requirement entirely
+- Simplest change-out procedure — swap cartridge, no chemical handling or pH adjustment
+- Lowest capital cost of all abatement types — no pumps, tanks, or combustion equipment
+- Can be installed at point-of-use for individual tool exhaust — no central ductwork required
+- Zero energy consumption during operation — no pumps, blowers, or heaters (relies on exhaust fan pressure)
+- Silent operation — no moving parts or combustion noise
+
+**Weaknesses**:
+- Limited adsorption capacity — cartridges saturate quickly under high-concentration or high-flow conditions
+- Spent media disposal as hazardous waste — loaded carbon or alumina requires licensed waste handling
+- Not suitable for high-concentration streams — breakthrough occurs rapidly with concentrated exhaust
+- No real-time exhaustion indicator — requires scheduled change-out or breakthrough monitoring
+- Selective media required — carbon does not adsorb acid gases, alumina does not adsorb organics
+- Higher long-term operating cost than wet scrubbers for high-volume applications — frequent cartridge replacement
 
 ### Centralized Scrubbing Systems
 
@@ -204,4 +296,4 @@ The high exhaust volumes in semiconductor fabs represent significant energy loss
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [EHS](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

@@ -1,17 +1,27 @@
 # Precision Encoders & Feedback
 
 > **Node ID**: precision-motion.precision-encoders
-> **Domain**: Precision Motion Control
+> **Domain**: [Precision Motion Control](./index.md)
 > **Timeline**: Years 35-55
 > **Outputs**: laser_interferometers, optical_encoders, encoder_feedback_systems
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [Nanometer Positioning](./nanometer-positioning.md), [Optics](../optics/index.md), [Precision Metrology](../measurement/precision-metrology.md)
+> **Enables**: [Wafer Stages & Scanner Systems](./wafer-stages.md), [Vibration Isolation](./vibration-isolation.md)
 
 Nanometer positioning stages (see [Nanometer Positioning](./nanometer-positioning.md)) are only as accurate as their position feedback. A piezo stage may have 0.01 nm actuator resolution, but if the position sensor measures to only 10 nm, the effective positioning accuracy is 10 nm. This document covers the encoder and interferometer technologies that close the feedback loop for nanometer-precision motion: optical scale encoders, laser interferometers, and the signal processing that extracts sub-nanometer position from optical measurements.
 
 ## Optical Linear Encoders
 
 Optical encoders measure linear displacement by detecting the passage of a precision grating pattern. A light source illuminates a graduated scale; photodetectors read the resulting interference pattern.
+
+**Strengths**:
+- High resolution: down to 0.24 nm with 4 μm pitch + 16,384× interpolation
+- Repeatability ±0.02-0.1 μm — significantly better than absolute accuracy
+- Non-contact measurement: read head never touches the scale
+
+**Weaknesses**:
+- Sub-divisional error (SDE): ±5-50 nm periodic error within one signal period
+- Sensitive to contamination: a fingerprint on the scale causes signal dropout
+- Maximum speed limited by signal processing bandwidth: 5-20 m/s
 
 ### Incremental Encoders
 
@@ -50,6 +60,16 @@ Incremental encoders lose position count if power is interrupted. Absolute encod
 ## Laser Interferometers
 
 Laser interferometers measure displacement by counting interference fringes produced by a coherent laser beam. They provide the highest accuracy linear position measurement available, limited only by the wavelength of light and the stability of the optical path.
+
+**Strengths**:
+- Highest accuracy available: ±0.02-0.1 ppm of measured distance (±0.03-0.3 μm at 300 mm)
+- Non-contact: measurement beam reflects off mirror on moving stage
+- Traceable to fundamental physical constant (wavelength of light)
+
+**Weaknesses**:
+- Refractive index of air changes wavelength: requires continuous environmental compensation (temperature, pressure, humidity)
+- Cosine error, Abbe error, and dead path error require careful alignment and multi-beam configurations
+- Expensive: $50,000-200,000+ per multi-axis interferometer system
 
 ### Michelson Interferometer (Basic)
 

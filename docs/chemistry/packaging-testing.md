@@ -1,11 +1,12 @@
 # Semiconductor Packaging & Testing
 
 > **Node ID**: chemistry.packaging-testing
-> **Domain**: Chemistry
-> **Dependencies**: `machine-tools`, `machine-tools.joining.ultrasonic-bonding`, [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`polymers.thermosets`](../polymers/thermosets.md)
-> **Enables**: None (leaf capability)
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`machine-tools.machining`](../machine-tools/machining.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`polymers.thermosets`](../polymers/thermosets.md)
+> **Enables**: [`electronics.electrical-systems`](../electronics/electrical-systems.md)
 > **Timeline**: Years 40-70
 > **Outputs**: packaged_ics, tested_ics, yield_data
+> **Critical**: Yes — semiconductor packaging protects the die from physical damage, moisture, and contamination. Without packaging, fabricated integrated circuits cannot be used in any electronic system.
 
 ## Overview
 
@@ -43,6 +44,10 @@ The packaging and testing stage is often the bottleneck for semiconductor produc
 - **Gold ball bonding**: 25 μm (1 mil) diameter gold wire. Form ball on wire tip by electric spark (flame-off). Bond ball to die pad by thermosonic bonding — apply heat (200-250°C), ultrasonic energy (60-120 kHz, 0.5-2 W), and force (0.3-0.8 N) simultaneously. Gold deforms and bonds to aluminum pad. Loop wire to lead frame pad. Bond second end by crescent (wedge) bond. Break wire, repeat. 10-20 bonds/second. Wire length 2-5 mm, loop height 0.2-0.5 mm.
 - **Aluminum wedge bonding**: 25-50 μm Al wire. Ultrasonic energy only (room temperature). Wedge tool presses wire against pad. Lower cost but slower. Used for power devices (thicker wire carries more current).
 - **Wire drawing for bonding wire**: Draw gold wire through successively smaller diamond dies. Start with 2 mm rod → draw through 20+ dies to 25 μm. Anneal between passes (heat to 500-600°C to restore ductility). Final tensile strength ~200-300 MPa, elongation 2-5%.
+
+**Strengths**: Gold ball bonding is fast (10-20 bonds/second) and reliable — industry standard for 50+ years; thermosonic bonding works at moderate temperature (200-250°C) protecting the die; wire drawing from 2 mm to 25 μm uses standard metalworking techniques; aluminum wedge bonding is cheaper and avoids gold cost.
+
+**Weaknesses**: Gold wire is expensive ($50-80/g); bond pad damage from ultrasonic energy can cause latent failures; wire sweep during molding (flowing epoxy displaces wires) limits loop height and wire length; 25 μm wire is fragile — requires cleanroom handling; bond placement accuracy must be ±5 μm for fine-pitch pads.
 
 **Encapsulation**:
 - **[Transfer molding](../glossary/transfer-molding.md)** (most common for plastic packages): Place die + wire-bonded lead frame in mold cavity. Inject molding compound (epoxy resin + silica filler 70-80% by weight + catalyst + mold release agent) at 175°C, 6-10 MPa pressure. Cure 2-5 minutes. Mold compound protects die from moisture, mechanical damage, contamination. Silica filler reduces thermal expansion coefficient (match silicon → less stress).
@@ -226,3 +231,7 @@ ICH (International Council for Harmonisation) guidelines define standard conditi
 - **[Thermoplastics](../polymers/thermoplastics.md)**: Polymer materials for packaging and cleanroom consumables
 - **[Thermosets](../polymers/thermosets.md)**: Epoxy molding compounds for IC encapsulation
 - **[Analytical Testing](solvents.md)**: Titration, spectrophotometry, and chromatography methods
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 35-50
 > **Outputs**: persistent_storage, removable_media, solid_state_memory
+> **Critical**: No — computing enhances capability but is not strictly required for survival
 
 ## Problem
 
@@ -197,6 +198,5 @@ Each layer is roughly 10-100× slower but 10-100× cheaper per bit than the laye
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Computing](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*
 
-[← Back to Computing](index.md)

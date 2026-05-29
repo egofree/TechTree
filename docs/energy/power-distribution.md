@@ -22,10 +22,10 @@ This document covers transformer construction, core and winding manufacturing, i
 
 - **Copper wire** — Drawn from electrorefined copper (99.99% purity). Magnet wire from 0.05 mm to 5.0 mm diameter with enamel insulation. See [Wire Drawing](electricity.md).
 - **Silicon steel sheet** — 3-4% silicon-iron alloy, 0.23-0.50 mm thick, for laminated cores. Reduces eddy current losses. See [Iron & Steel](../metals/iron-steel.md).
-- **Insulation materials** — Kraft paper (0.05-0.25 mm), pressboard (1-3 mm), varnish (shellac or synthetic), enamel for magnet wire. Higher temperature classes use mica, glass fiber, or silicone. See [Polymers](../polymers/index.md).
+- **Insulation materials** — Kraft paper (0.05-0.25 mm), pressboard (1-3 mm), varnish (shellac or synthetic), enamel for magnet wire. Higher temperature classes use mica, glass fiber, or silicone. See [Polymers](../polymers/thermoplastics.md).
 - **Transformer oil** — Refined mineral oil (flash point >140°C, dielectric strength >30 kV/mm). Provides both electrical insulation and convective cooling.
 - **Steel plate** — For transformer tanks, radiators, and structural supports. 3-12 mm thick.
-- **Porcelain insulators** — For bushings and terminal connections. See [Ceramics](../ceramics/index.md).
+- **Porcelain insulators** — For bushings and terminal connections. See [Ceramics](../ceramics/kilns.md).
 
 ### Tools and Equipment
 
@@ -55,7 +55,7 @@ This document covers transformer construction, core and winding manufacturing, i
 | Pressboard (1-3 mm) | 5-8 kg | [Chemistry](../chemistry/index.md) — cellulose processing | Phenolic laminate |
 | Transformer oil | 180-250 liters | [Petroleum](../chemistry/petroleum-alternatives.md) — refined mineral oil | Silicone fluid (higher fire point, 3-5× cost) or dry-type air-cooled (no oil) |
 | Steel plate (3-6 mm, tank) | 120-160 kg | [Iron & Steel](../metals/iron-steel.md) | Cast iron tank (heavier, brittle) |
-| Porcelain bushings (4 off) | 4 pcs | [Ceramics](../ceramics/index.md) | Epoxy resin bushings (lower voltage rating) |
+| Porcelain bushings (4 off) | 4 pcs | [Ceramics](../ceramics/kilns.md) | Epoxy resin bushings (lower voltage rating) |
 | Varnish / impregnating resin | 5-8 liters | [Chemistry](../chemistry/index.md) | Shellac (lower temperature class) |
 | Hardware (bolts, clamps, gaskets) | 10-15 kg | [Metals](../metals/index.md) | — |
 
@@ -71,7 +71,37 @@ This document covers transformer construction, core and winding manufacturing, i
 
 4. **Stack laminations** in the core frame, alternating the overlap pattern by one lamination per layer (two-over-two or three-over-three pattern). This eliminates air gaps at the joints — each joint is bridged by the overlapping layer. Tighten clamping bolts to 20-30 Nm, maintaining uniform pressure across the core cross-section.
 
-5. **Anneal the assembled core** (if grain-oriented steel is not available): heat to 800-850°C in a reducing atmosphere (to prevent oxidation), hold 2-4 hours, cool slowly at 50°C/hour to below 200°C. This relieves mechanical stresses from cutting and improves magnetic permeability by 20-40%.
+ 5. **Anneal the assembled core** (if grain-oriented steel is not available): heat to 800-850°C in a reducing atmosphere (to prevent oxidation), hold 2-4 hours, cool slowly at 50°C/hour to below 200°C. This relieves mechanical stresses from cutting and improves magnetic permeability by 20-40%.
+
+**Materials**:
+- [Silicon steel sheet](../metals/iron-steel.md) (0.3 mm thick, 3% Si, 280-320 kg for 100 kVA core)
+- [Phenolic or epoxy varnish](../chemistry/index.md) (5-10 liters for lamination coating)
+- [Core clamping bolts](../metals/index.md) (M12-M16, grade 8.8, 8-16 pieces with flat washers)
+- [Kraft paper strips](../plants/index.md) (0.1-0.25 mm thick, for inter-lamination insulation if uncoated)
+
+**Calibration / Verification**:
+1. Measure each lamination's dimensions with calipers: length ±0.5 mm, width ±0.1 mm tolerance. Out-of-spec laminations cause uneven stacking.
+2. Test inter-lamination resistance: stack 10 laminations under 20 N load, apply 500V DC across the stack. Leakage current must be <1 mA (indicates adequate insulation between laminations).
+3. After annealing, measure core loss with a no-load test: apply rated voltage to the primary winding and measure watts consumed (target: core loss within ±10% of design — 220-320 W for 100 kVA).
+4. Verify core dimensions: stack height, leg width, and window opening must match design within ±1 mm.
+
+**Expected Performance**:
+- Core loss: 220-320 W for 100 kVA transformer (constant regardless of load)
+- Magnetic flux density: 1.5-1.7 Tesla at rated voltage
+- No-load exciting current: 1-3% of rated current
+- Annealing improvement: 20-40% reduction in core loss vs. unannealed
+
+**Strengths**:
+- Step-by-step process achievable with sheet metal shear and hand tools
+- Annealing improves core quality by 20-40%, allowing use of non-grain-oriented steel
+- Laminated core design eliminates eddy currents that would waste energy as heat
+- Standardized lamination shapes (E-I, U-I) simplify cutting and stacking
+
+**Weaknesses**:
+- Annealing requires a furnace capable of 850°C in reducing atmosphere — not trivial
+- Tight tolerances (±0.1 mm on width) demand precision cutting tools
+- Core stacking is labor-intensive — 4-8 hours for a 100 kVA core
+- Burrs from imprecise cutting create inter-lamination shorts, increasing core loss
 
 ### 4.2 Winding
 
@@ -85,7 +115,39 @@ This document covers transformer construction, core and winding manufacturing, i
 
 10. **Wind primary (high voltage)** over the insulation barrier. Layer-wound with 0.1 mm kraft paper between each layer. At 1,100 turns and ~100 turns per layer, expect ~11 layers. Provide tapping points at ±2.5% and ±5% of rated voltage by bringing out looped turns at calculated positions (typically at turns 1,045 and 1,055 for ±5%).
 
-11. **Secure and tie** all windings with cotton or glass tape at regular intervals (every 50-100 mm). Apply varnish by brushing or dipping. Bake at 110-130°C for 4-8 hours to cure varnish and drive out moisture.
+ 11. **Secure and tie** all windings with cotton or glass tape at regular intervals (every 50-100 mm). Apply varnish by brushing or dipping. Bake at 110-130°C for 4-8 hours to cure varnish and drive out moisture.
+
+**Materials**:
+- [Copper magnet wire](../chemistry/electrolysis.md) (enamel-insulated, 0.5-3.0 mm diameter, 85-110 kg for 100 kVA)
+- [Flat copper strap](electricity.md) (6 mm × 8 mm or similar, for secondary winding, 8-12 kg)
+- [Kraft paper insulation](../plants/index.md) (0.05-0.25 mm thick, 12-18 kg for layer insulation)
+- [Pressboard](../chemistry/index.md) (1-3 mm thick, 5-8 kg for major insulation barrier)
+- [Varnish/impregnating resin](../chemistry/index.md) (5-8 liters, shellac or synthetic)
+- [Cotton or glass tape](../textiles/index.md) (25 mm wide, 100-200 m for tying and securing)
+
+**Calibration / Verification**:
+1. Count turns on a test winding before committing to full production. Verify volts-per-turn ratio: apply 100V AC to the primary, measure secondary voltage. Ratio must match design within ±0.5%.
+2. Measure DC resistance of each completed winding with a Kelvin bridge. Compare phases: all three must match within 2%.
+3. Perform insulation resistance test between primary and secondary: apply 2,500V DC (megger). Minimum acceptable: 50 MΩ at room temperature before varnish impregnation.
+4. Measure winding dimensions: build-up (radial thickness) and axial height must be within ±2 mm of design to fit in the core window.
+
+**Expected Performance**:
+- Winding resistance: primary 1.5-3.0 Ω, secondary 0.01-0.05 Ω (varies by design)
+- Full-load copper loss: 1,700-2,300 W for 100 kVA transformer
+- Current density: 3 A/mm² (oil-filled), 2-2.5 A/mm² (dry-type)
+- Insulation class: Class A (105°C) or Class B (130°C) depending on varnish and paper grade
+
+**Strengths**:
+- Well-defined calculation procedure (turns ratio, wire gauge) reduces design errors
+- Layer-wound construction provides predictable voltage distribution and good heat dissipation
+- Tap changers (±2.5%, ±5%) allow output voltage adjustment in the field
+- Varnish impregnation solidifies windings, improving mechanical strength and heat transfer
+
+**Weaknesses**:
+- Winding 1,100 turns of primary wire is slow and tedious (4-12 hours per phase)
+- Constant tension (10-20 N) must be maintained — loose turns vibrate and abrade insulation
+- Insulation defects between layers cause partial discharge that degrades transformer over time
+- Copper wire is expensive and heavy — 85-110 kg for a single 100 kVA transformer
 
 ### 4.3 Assembly and Tanking
 
@@ -103,7 +165,41 @@ This document covers transformer construction, core and winding manufacturing, i
 
 18. **Fill with transformer oil** under vacuum if possible (removes air bubbles from insulation, extends oil life). Fill rate: slow, to allow air to escape. Fill to the marked oil level on the sight glass.
 
-19. **Seal and allow oil to impregnate** the paper and pressboard insulation for 24-48 hours before testing. Oil penetrates cellulose insulation, dramatically increasing dielectric strength.
+ 19. **Seal and allow oil to impregnate** the paper and pressboard insulation for 24-48 hours before testing. Oil penetrates cellulose insulation, dramatically increasing dielectric strength.
+
+**Materials**:
+- [Transformer oil](../chemistry/petroleum-alternatives.md) (refined mineral oil, flash point >140°C, 180-250 liters for 100 kVA)
+- [Steel plate](../metals/iron-steel.md) (3-6 mm thick, 120-160 kg for tank fabrication)
+- [Porcelain bushings](../ceramics/index.md) (4 pieces, rated for 11 kV, creepage distance ≥275 mm)
+- [Cork-rubber or nitrile gasket](../polymers/index.md) (oil-resistant, 5-10 m for tank cover and bushing seals)
+- [Pressure relief device](../metals/index.md) (spring-loaded vent, set to 0.35-0.7 bar gauge)
+- [Radiator fins](../metals/iron-steel.md) (welded steel panels, 5-8 m² surface area per 100 kVA losses)
+
+**Calibration / Verification**:
+1. Perform turns ratio test: apply 100V AC to primary, measure secondary voltage. Ratio must match nameplate within ±0.5% (for 27.5:1 ratio: 100V input → 3.636V ±0.018V output).
+2. Insulation resistance test (megger): apply 2,500V DC between primary-secondary, primary-ground, secondary-ground. Minimum: 50 MΩ at room temperature. Polarization index (10 min / 1 min resistance) must be >2.0.
+3. Oil dielectric breakdown test: sample oil from the drain valve, test in a standard cup with 2.5 mm gap. Raise voltage at 2 kV/s until breakdown. Minimum acceptable: 30 kV (new oil tests at 40-50 kV).
+4. Load test (heat run): energize at full rated current for 8-24 hours. Monitor top-oil temperature rise (target: ≤55°C for 65°C rise class). Verify no leaks at gaskets, valves, or bushings.
+5. Measure no-load and full-load losses. Compare to design specification: core loss 220-320 W, copper loss 1,700-2,300 W for 100 kVA.
+
+**Expected Performance**:
+- Total losses at full load: 1,920-2,620 W (1.9-2.6% of 100 kVA rating)
+- Efficiency at 50% load: 98.8%, at 100% load: 98.0%
+- Temperature rise: 50-65°C above ambient at full load
+- Oil dielectric strength: >30 kV in 2.5 mm gap (new oil: 40-50 kV)
+- Audible noise: 50-65 dB at 1 m distance (from magnetostriction in core)
+
+**Strengths**:
+- Oil provides both electrical insulation and convective cooling in one medium
+- Sealed tank protects windings from moisture, dust, and mechanical damage
+- Pressure relief device prevents tank rupture during internal faults
+- Oil impregnation of paper insulation increases dielectric strength by 5-10× over dry paper
+
+**Weaknesses**:
+- Mineral oil is flammable (flash point 140-160°C) — creates fire risk if tank ruptures
+- Oil filling and vacuum processing require specialized equipment (vacuum pump, oil filtration unit)
+- Drying cycle (90-110°C for 24-48 hours) adds significant production time
+- Oil must be tested periodically — moisture and dissolved gases degrade insulation over time
 
 ## 5. Quantitative Parameters
 
@@ -301,8 +397,8 @@ A single winding with a tap point serves as both primary and secondary. The comm
 - **[Electrical Insulation Classes](electricity.md)** — thermal class ratings (Class A through H) for transformer insulation life calculations.
 - **[Wire Drawing](electricity.md)** — copper wire production process and gauge reference tables used in transformer winding.
 - **[Iron & Steel](../metals/iron-steel.md)** — silicon steel production for transformer cores, steel plate for tanks and structural components.
-- **[Ceramics](../ceramics/index.md)** — porcelain insulator and bushing production.
-- **[Polymers](../polymers/index.md)** — insulation materials (PVC, XLPE, epoxy resin, varnish).
+- **[Ceramics](../ceramics/kilns.md)** — porcelain insulator and bushing production.
+- **[Polymers](../polymers/thermoplastics.md)** — insulation materials (PVC, XLPE, epoxy resin, varnish).
 - **[Lubricants](../chemistry/lubricants.md)** — transformer oil specification, testing, and filtration.
 - **[Measurement Instruments](../measurement/electrical-instruments.md)** — megger, multimeter, power analyzer for transformer testing.
 

@@ -23,7 +23,29 @@ For foundational vacuum pump descriptions (rotary vane, diffusion, scroll, diaph
 
 ### Roughing Pumps — Detailed Specifications
 
-**[Rotary vane pump](../glossary/rotary-vane-pump.md)** (see [Gas Handling: Vacuum](../gas-handling/vacuum.md) for operating principle):
+**Rotary vane pump** (see [Gas Handling: Vacuum](../gas-handling/vacuum.md) for operating principle):
+
+**Strengths**:
+- Proven, reliable technology with 20+ year service life under normal operation
+- High pumping speed for cost: 100-500 L/min from a single unit
+- Tolerates moderate vapor loads when operated with gas ballast
+
+**Weaknesses**:
+- Oil backstreaming contaminates vacuum system — oil mist eliminator required on exhaust
+- Noise level 50-75 dB — requires enclosure or remote placement in quiet environments
+- Oil must be changed every 3-6 months — maintenance burden and hazardous waste generation
+
+**Scroll pump** — oil-free roughing (see [Gas Handling: Vacuum](../gas-handling/vacuum.md) for operating principle):
+
+**Strengths**:
+- Oil-free: no hydrocarbon backstreaming — critical for sputtering, CVD, and surface analysis
+- Lower noise: 45-55 dB vs. 50-75 dB for rotary vane
+- Dry exhaust — no oil mist contamination of lab environment
+
+**Weaknesses**:
+- Tip seals wear: 15,000-30,000 hour lifetime, factory service required for replacement
+- Lower ultimate vacuum than two-stage rotary vane (~7.5×10⁻³ Torr vs. ~5×10⁻⁴ Torr)
+- Higher initial cost than equivalent rotary vane pump
 
 | Parameter | Small (1-10 L/min) | Medium (10-100 L/min) | Large (100-500 L/min) |
 |---|---|---|---|
@@ -51,7 +73,29 @@ For foundational vacuum pump descriptions (rotary vane, diffusion, scroll, diaph
 
 ### High-Vacuum Pumps — Detailed Specifications
 
-**[Turbomolecular pump](../glossary/turbomolecular-pump.md)** (see [Gas Handling: Vacuum](../gas-handling/vacuum.md) for operating principle):
+**Turbomolecular pump** (see [Gas Handling: Vacuum](../gas-handling/vacuum.md) for operating principle):
+
+**Strengths**:
+- Clean, dry vacuum — no working fluid, no backstreaming contamination
+- Compression ratio >10⁹ for N₂ — effectively zero throughput for heavy gases
+- Fast startup: 1-5 minutes to full speed for small-medium pumps
+
+**Weaknesses**:
+- Cannot exhaust to atmosphere — requires backing pump at all times
+- Poor compression for light gases (H₂: 10³-10⁵, He: 10⁴-10⁶) — limits ultimate vacuum
+- Rotor at 20,000-90,000 RPM — catastrophic failure if foreign object enters during operation
+
+**Diffusion pump** (see [Gas Handling: Vacuum](../gas-handling/vacuum.md) for operating principle):
+
+**Strengths**:
+- No moving parts — extremely reliable, 20+ year service life typical
+- High pumping speed at low cost: 1,000-10,000 L/s for large pumps
+- Handles high gas loads without stalling
+
+**Weaknesses**:
+- Working fluid backstreaming requires LN₂ cold trap — adds operating cost and complexity
+- Cannot start at atmospheric pressure — requires roughing pump to reach <0.5 Torr first
+- Cooling water failure causes oil overheating and decomposition — fire hazard without interlock
 
 | Parameter | Small (50-200 L/s) | Medium (200-1000 L/s) | Large (1000-5000 L/s) |
 |---|---|---|---|

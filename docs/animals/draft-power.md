@@ -1,12 +1,12 @@
 # Draft Power & Harnessing
 
 > **Node ID**: animals.draft-power
-> **Domain**: Animals & Animal Husbandry
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.cattle`](cattle.md), [`animals.domestication`](domestication.md), [`animals.equines`](equines.md), [`foundations.tools-basic`](../foundations/tools-basic.md)
 > **Enables**: [`mining.extraction`](../mining/extraction.md), [`transport.roads`](../transport/roads.md)
 > **Timeline**: Years 0-10
 > **Outputs**: plowing, hauling, milling, mine hoisting, irrigation pumping
-> **Tags**: material: [biomass], capability: [energy, transport], era: stone-age
+> **Critical**: Yes — draft power is the primary motive force for agriculture, transport, and mining before steam engines
 
 ## Overview
 
@@ -216,4 +216,6 @@ Inspect harness leather before each work day. Check for:
 
 A broken trace under full load causes the animal to lunge sideways, potentially spooking, bolting, or overturning the load. The harness is a safety-critical system, not just a convenience.
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

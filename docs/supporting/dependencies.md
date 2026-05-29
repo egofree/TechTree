@@ -2,7 +2,7 @@
 
 ## Cross-Domain Dependency Matrix
 
-Key domain-to-domain dependencies derived from [edges.json](../../data/edges.json). Each row shows a dependent domain and the prerequisite it requires.
+Key domain-to-domain dependencies derived from `edges.json`. Each row shows a dependent domain and the prerequisite it requires.
 
 | From Domain | To Domain | Key Dependency |
 |------------|-----------|---------------|

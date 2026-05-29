@@ -2,7 +2,7 @@
 
 > **Node ID**: food-processing.preservation
 > **Domain**: [Food Processing](./index.md)
-> **Dependencies**: `ceramics`, [`chemistry.petroleum-alternatives.fermentation`](../chemistry/fermentation.md), [`health.sanitation`](../health/sanitation.md)
+> **Dependencies**: [`ceramics`](../ceramics/index.md), [`chemistry.petroleum-alternatives.fermentation`](../chemistry/fermentation.md), [`health.sanitation`](../health/sanitation.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 0-30+
 > **Outputs**: preserved_food, canned_food, pasteurized_food, refrigerated_food, dried_food, salted_food, smoked_food, fermented_food
@@ -56,6 +56,16 @@ The oldest and simplest preservation method. Reduces water activity (aw) below 0
 - **Shelf life**: 6-12 months at room temperature when stored in dry, dark conditions. Insect-resistant packaging essential.
 - **Limitations**: Climate dependent (fails in humid regions). Nutrient loss (vitamin C degrades). Texture changes. Labor intensive for large volumes.
 
+**Strengths**:
+- Sun drying requires no energy input — free solar energy reduces moisture below 0.60 water activity, inhibiting virtually all microbial growth
+- Weight reduction of 70-90% (water removal) dramatically reduces transport and storage costs
+- Achievable with zero technology: clean flat surfaces and sunlight are sufficient
+
+**Weaknesses**:
+- Fails in humid climates (>60% RH) where evaporation cannot reduce moisture to the safe threshold of 10-20%
+- Vitamin C loss of 10-30% during drying reduces nutritional value vs. fresh produce
+- Sun-dried food is vulnerable to insect infestation and dust contamination during the 2-5 day drying period
+
 **Salting & Curing** (Years 0+, stone-age)
 
 Salt (NaCl) creates osmotic pressure that kills or inhibits bacteria and molds. Dry salting or brining.
@@ -67,6 +77,16 @@ Salt (NaCl) creates osmotic pressure that kills or inhibits bacteria and molds. 
 - **Shelf life**: Salted meat/fish: 6-18 months. Heavily salted cod (bacalao) stores for years.
 - **Limitation**: Salt was historically expensive and strategically critical — same salt used for food was needed for leather tanning, chemical production, and metal processing. Salt supply chains are a civilization-level dependency.
 
+**Strengths**:
+- Heavy salt curing (20-30% by weight) preserves meat and fish for 6-18 months without refrigeration or any energy input
+- Salt is reusable: brine can be boiled down and the salt recovered for subsequent batches
+- Nitrates (KNO₃ at 0.1-0.2%) prevent botulism in cured meats and maintain appealing red color
+
+**Weaknesses**:
+- Salt was historically a strategic resource — preserving 1 tonne of meat requires 200-300 kg salt, competing with leather tanning and chemical production
+- Heavy salt consumption (>5 g/day) increases blood pressure and cardiovascular risk in the workforce
+- Nitrate-cured meats form nitrosamines (carcinogenic) when cooked at high temperatures — fry bacon at moderate temperature only
+
 **Smoking** (Years 0+, stone-age)
 
 Smoke contains antimicrobial compounds (phenols, formaldehyde, acetic acid) and deposits a preservative layer. Combined with partial drying.
@@ -76,6 +96,16 @@ Smoke contains antimicrobial compounds (phenols, formaldehyde, acetic acid) and 
 - **Smoke composition**: Hardwoods (hickory, oak, apple, cherry) preferred. Softwoods (pine) produce bitter, resinous smoke. Key antimicrobial compounds: guaiacol, syringol, catechol.
 - **Water activity after smoking**: Reduced to 0.75-0.85. Shelf life: 1-4 weeks without refrigeration, 2-6 months with refrigeration.
 - **Safety**: Must be combined with salting for reliable preservation. Smoking alone is insufficient.
+
+**Strengths**:
+- Smoke deposits antimicrobial phenols (guaiacol, syringol) and formaldehyde on food surface, extending shelf life 2-6× over salting alone
+- Hot smoking (60-80°C) simultaneously cooks and preserves — reduces fuel needed for separate cooking
+- Hardwood smoke adds flavor compounds that improve palatability of preserved meats, increasing willingness to eat preserved food
+
+**Weaknesses**:
+- Smoking alone is insufficient for preservation — must be combined with prior salting or brining
+- Cold smoking (20-30°C) creates botulism risk if temperature exceeds 30°C in anaerobic conditions
+- Wood smoke contains polycyclic aromatic hydrocarbons (PAHs), some carcinogenic — prolonged exposure during smoking operations is a health hazard
 
 **Fermentation** (Years 0+, stone-age → industrial)
 
@@ -87,6 +117,16 @@ Controlled microbial growth that produces acids (lactic, acetic) lowering pH bel
 - **Safety critical**: Fermentation pH must reach <4.6 within 48 hours to prevent botulism. If pH stalls above 4.6 after 48 hours, discard the batch.
 
 See also: [Brewing & Distilling](brewing.md) for alcoholic fermentation, and [Chemistry: Fermentation](../chemistry/fermentation.md) for industrial fermentation chemistry.
+
+**Strengths**:
+- Lactic acid fermentation lowers pH below 4.6 (botulism-safe threshold) using only salt and the naturally present LAB on vegetable surfaces — no starter culture needed
+- Fermented foods contain B vitamins and bioavailable minerals produced by microbial metabolism — nutritional value increases vs. raw ingredients
+- Minimal energy input: vegetable fermentation proceeds at ambient temperature (18-22°C) for 1-4 weeks with no heat required
+
+**Weaknesses**:
+- pH must reach <4.6 within 48 hours to prevent botulism — requires adequate salt concentration and viable LAB population
+- Temperature sensitivity: below 15°C fermentation stalls; above 25°C texture degrades and off-flavors develop
+- Fermented products are high in sodium (sauerkraut: 600-1,500 mg Na per 100 g; soy sauce: 5,000-7,000 mg Na per 100 mL)
 
 **Canning** (Years 15-25, industrial)
 
@@ -104,6 +144,16 @@ Nicholas Appert's method (1809): heat food in sealed containers to destroy all m
   - Fish (pint jar): 100 minutes
   - Soup (quart jar): 60-90 minutes depending on ingredients
 
+**Strengths**:
+- Pressure canning achieves 12D reduction of C. botulinum at 121°C — the only preservation method that guarantees sterilization of all microorganisms including heat-resistant spores
+- Shelf-stable for 2-5 years at ambient temperature with zero energy input after processing — no refrigeration, no ongoing cost
+- Works for complete meals (soups, stews, meat + vegetables together), not just single ingredients
+
+**Weaknesses**:
+- Requires precision pressure vessel rated for 15-30 psi and can seamer with ±0.05 mm tolerance — industrial-era technology
+- Botulism risk from under-processing is lethal (LD₅₀ ~1 ng/kg): there is no safe shortcut, and errors are catastrophic
+- Nutrient loss from thermal processing: vitamin C degrades 30-50%, texture softens, color changes in canned vegetables
+
 **Pasteurization** (Years 15-25, industrial)
 
 Heat treatment that destroys pathogenic microorganisms without sterilizing the food. Named after Louis Pasteur (1864). Critical for milk, juice, beer, and other liquid foods.
@@ -114,6 +164,16 @@ Heat treatment that destroys pathogenic microorganisms without sterilizing the f
 - **Verification**: Phosphatase test confirms adequate milk pasteurization. Alkaline phosphatase is destroyed at the same temperature as Mycobacterium tuberculosis (the target pathogen). Negative test = properly pasteurized.
 - **Temperature monitoring**: Mercury or digital thermometers calibrated to ±0.5°C. Recording thermometers provide continuous documentation. Divert valve activates if temperature drops below setpoint.
 
+**Strengths**:
+- HTST pasteurization (72°C for 15 seconds) achieves 5-log pathogen reduction while preserving flavor, color, and nutritional quality
+- Regenerative heat recovery in plate heat exchangers recovers 80-90% of thermal energy — fuel cost of only 0.1-0.3 MJ/L
+- Phosphatase test provides simple verification: negative result confirms adequate heat treatment
+
+**Weaknesses**:
+- Pasteurized milk still requires refrigeration (0-4°C) with shelf life of only 5-7 days — does not eliminate cold chain dependency
+- Plate heat exchanger requires stainless steel construction and food-grade gaskets — not available in early bootstrap
+- Post-pasteurization contamination is the leading cause of spoilage: any breach in sanitary handling re-introduces pathogens
+
 **Refrigeration** (Years 20-30, industrial)
 
 Mechanical cooling slows microbial growth, chemical degradation, and enzymatic activity. Extends fresh food shelf life by 5-20×.
@@ -122,6 +182,16 @@ Mechanical cooling slows microbial growth, chemical degradation, and enzymatic a
 - **Microbial growth rates**: At 4°C, most bacteria double every 12-24 hours (vs. 20 minutes at 37°C). At -18°C, growth is essentially halted.
 - **Ice production**: Pre-mechanical: ice harvested from frozen lakes, stored in insulated ice houses (sawdust insulation, underground). 50-70% of stored ice survives summer. Mechanical ice production: ammonia absorption or vapor-compression cycle.
 - **Cold chain**: Continuous refrigeration from production to consumption. A single break in the cold chain can allow dangerous bacterial growth. Temperature monitoring with recording devices is essential.
+
+**Strengths**:
+- At 4°C, bacterial doubling time extends from 20 minutes (37°C) to 12-24 hours — extends fresh food shelf life by 5-20×
+- Freezing at -18°C halts microbial growth entirely, preserving food for 6-12 months with minimal quality loss
+- Ice harvesting from frozen lakes provides 50-200 tonnes of natural ice per winter, enabling cold storage without mechanical refrigeration
+
+**Weaknesses**:
+- Mechanical refrigeration requires 0.5-2.0 kW per m³ of cold storage and 200-500 kWh/day for a 100 m³ freezer — massive energy demand
+- Cold chain is fragile: a single power failure or equipment breakdown can destroy an entire inventory of frozen food
+- Blast freezing (-30°C to -40°C) is needed for quality preservation; slow freezing creates large ice crystals that rupture cell walls and produce mushy texture on thawing
 
 ### Food Spoilage Mechanisms
 

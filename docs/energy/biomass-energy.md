@@ -20,11 +20,11 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 
 ### Materials
 
-- **Biomass feedstock** — Wood chips, agricultural residues (straw, husks, stalks), animal manure, food waste, energy crops (miscanthus, switchgrass). See [Plants](../plants/index.md).
+- **Biomass feedstock** — Wood chips, agricultural residues (straw, husks, stalks), animal manure, food waste, energy crops (miscanthus, switchgrass). See [Plants](../plants/structural-plants.md).
 - **Steel plate and pipe** — For gasifier construction, digester tanks, and piping. See [Iron & Steel](../metals/iron-steel.md).
-- **Refractory lining** — Firebrick or castable refractory for gasifier combustion zones. See [Ceramics](../ceramics/index.md).
+- **Refractory lining** — Firebrick or castable refractory for gasifier combustion zones. See [Ceramics](../ceramics/kilns.md).
 - **Sealing materials** — Clay, tar, or rubber gaskets for digester gas-tightness.
-- **Water** — For digester slurry mixing and gas scrubbing. See [Water](../water/index.md).
+- **Water** — For digester slurry mixing and gas scrubbing. See [Water](../water/basic-treatment.md).
 
 ### Tools and Equipment
 
@@ -45,7 +45,7 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
-| Brick or concrete (walls) | 2,000-3,000 bricks or 3 m³ concrete | [Ceramics](../ceramics/index.md) | Ferrocement (thinner walls, less material) |
+| Brick or concrete (walls) | 2,000-3,000 bricks or 3 m³ concrete | [Ceramics](../ceramics/kilns.md) | Ferrocement (thinner walls, less material) |
 | Steel plate (3 mm, gas holder dome) | 15-25 kg | [Iron & Steel](../metals/iron-steel.md) | Flexible membrane (PVC/HDPE, limited lifespan) |
 | PVC pipe (110 mm, inlet/outlet) | 6-10 m | [Polymers](../polymers/index.md) | Clay pipe (more leakage risk) |
 | Gas pipe (25 mm galvanized steel) | 5-10 m | [Iron & Steel](../metals/iron-steel.md) | PVC pipe (lower pressure rating) |
@@ -57,7 +57,7 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
 | Steel plate (6-10 mm, gasifier body) | 150-300 kg | [Iron & Steel](../metals/iron-steel.md) | Used propane tank (limited size) |
-| Firebrick (230 × 115 × 65 mm) | 30-60 pcs | [Ceramics](../ceramics/index.md) | Castable refractory (easier to form complex shapes) |
+| Firebrick (230 × 115 × 65 mm) | 30-60 pcs | [Ceramics](../ceramics/kilns.md) | Castable refractory (easier to form complex shapes) |
 | Steel pipe (50 mm, air nozzles) | 3-5 m | [Iron & Steel](../metals/iron-steel.md) | Stainless steel (longer life in oxidation zone) |
 | Steel grate (15 mm bar, 20 mm spacing) | 1 unit | [Iron & Steel](../metals/iron-steel.md) | Cast iron grate |
 | Cyclone separator (sheet steel) | 1 unit | [Iron & Steel](../metals/iron-steel.md) | Fabric filter (higher pressure drop) |
@@ -80,7 +80,41 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 
 6. **Collect and use the biogas**: Biogas (~60% CH₄, ~35-40% CO₂, trace H₂S) rises to the gas holder. Calorific value: 21-24 MJ/m³ (60% of natural gas). Pipe to burners for cooking, lamps, or an engine-generator. Remove H₂S with iron oxide chips (iron sponge) in a filter before the engine — H₂S corrodes engine parts and produces sulfuric acid in crankcase oil.
 
-7. **Utilize the digestate**: The spent slurry exiting the digester is a nitrogen-rich organic fertilizer (higher plant-available nitrogen than raw manure, since anaerobic digestion mineralizes organic nitrogen). Apply to fields or compost further.
+ 7. **Utilize the digestate**: The spent slurry exiting the digester is a nitrogen-rich organic fertilizer (higher plant-available nitrogen than raw manure, since anaerobic digestion mineralizes organic nitrogen). Apply to fields or compost further.
+
+**Materials**:
+- [Brick or concrete](../ceramics/index.md) (2,000-3,000 bricks or 3 m³ concrete for 6 m³ digester walls)
+- [Steel plate](../metals/iron-steel.md) (3 mm thick, 15-25 kg for gas holder dome)
+- [PVC pipe](../polymers/index.md) (110 mm OD, 6-10 m for inlet/outlet)
+- [Galvanized steel pipe](../metals/iron-steel.md) (25 mm, 5-10 m for gas delivery)
+- [Cement and sand](../chemistry/index.md) (500 kg cement + 1,500 kg sand for mortar)
+- [Iron oxide chips](../chemistry/index.md) (5-10 kg for H₂S filter, replaced monthly)
+
+**Calibration / Verification**:
+1. Check digester temperature daily with a thermometer inserted 30 cm into the slurry (target: 30-40°C for mesophilic, 50-60°C for thermophilic).
+2. Measure pH of digester slurry weekly (target: 6.8-7.5). pH below 6.5 indicates acid accumulation — stop feeding and add lime.
+3. Test biogas composition with a portable analyzer or flame test: stable blue flame indicates >50% methane. Below 45% methane — check temperature, C:N ratio, and retention time.
+4. Monitor daily gas production volume with a gas meter or by measuring gas holder displacement (target: 0.3-0.6 m³ biogas per m³ digester volume per day).
+5. Measure hydraulic retention time: add a tracer dye to the inlet, measure time until it appears at outlet (target: 20-40 days for mesophilic).
+
+**Expected Performance**:
+- Biogas yield: 0.3-0.6 m³ per m³ digester volume per day at steady state
+- Methane content: 55-70% of biogas by volume
+- Calorific value of biogas: 21-24 MJ/m³
+- Daily gas production per cattle: 0.5-1.0 m³ biogas per 500 kg animal
+- Hydraulic retention time: 20-40 days (mesophilic), 10-20 days (thermophilic)
+
+**Strengths**:
+- Converts waste (manure, food scraps) into useful energy and fertilizer simultaneously
+- Continuous process — daily feeding produces steady gas output, no batch downtime
+- Simple construction with low-tech materials (brick, concrete, steel plate)
+- Digestate has higher plant-available nitrogen than raw manure due to mineralization
+
+**Weaknesses**:
+- Requires consistent daily feeding — interrupted feeding causes process instability
+- Temperature-sensitive — below 20°C, methanogenic bacteria become inactive
+- Biogas has low energy density (21-24 MJ/m³) compared to natural gas (36-40 MJ/m³)
+- Slow process — 20-40 day retention time means slow response to increased demand
 
 ### 4.2 Biomass Gasification (Producer Gas)
 
@@ -98,7 +132,42 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 
 5. **Clean and cool the gas**: Raw gas exits at 400-600°C containing ash, soot, tars, and water vapor. Clean with: (a) cyclone separator (removes >90% of particles >10 μm), (b) cooling tube (reduce to <30°C — cooler gas is denser, improves engine volumetric efficiency), (c) sawdust or fabric filter (final particulate removal to <50 mg/m³).
 
-6. **Feed to engine**: Connect the cleaned, cooled gas to the engine intake via a gas-air mixer. Adjust air-to-gas ratio (stoichiometric: ~1.0:1.2 for producer gas, compared to ~1.0:6.5 for gasoline). Engine power output on producer gas: 40-60% of gasoline rating due to lower energy density and slower combustion.
+ 6. **Feed to engine**: Connect the cleaned, cooled gas to the engine intake via a gas-air mixer. Adjust air-to-gas ratio (stoichiometric: ~1.0:1.2 for producer gas, compared to ~1.0:6.5 for gasoline). Engine power output on producer gas: 40-60% of gasoline rating due to lower energy density and slower combustion.
+
+**Materials**:
+- [Steel plate](../metals/iron-steel.md) (6-10 mm thick, 150-300 kg for gasifier body)
+- [Firebrick](../ceramics/index.md) (230 × 115 × 65 mm, 30-60 pieces, rated to 1,200°C)
+- [Steel pipe](../metals/iron-steel.md) (50 mm OD, 3-5 m for air nozzles and gas outlet)
+- [Steel grate bars](../metals/iron-steel.md) (15 mm square, 20 mm spacing)
+- [Cyclone separator](../metals/iron-steel.md) (sheet steel, 1.5-3 mm thick, 200-400 mm diameter)
+- [Sawdust filter](../plants/index.md) (200 liter drum filled with dry sawdust, 100-200 mm bed depth)
+
+**Calibration / Verification**:
+1. After lighting and reaching steady operation (10-20 minutes), measure gas temperature at the gasifier outlet (target: 400-600°C raw, <30°C after cooling).
+2. Test gas quality by connecting to a test flare: producer gas should burn with a stable blue-yellow flame. Sooty orange flame indicates excessive tars — improve throat design or add secondary air.
+3. Measure tar content by passing a known volume of gas through a filter and weighing the deposit (target: <50 mg/m³ for engine use, >100 mg/m³ fouls engine within hours).
+4. Verify gas composition with an Orsat analyzer or gas chromatograph (target: 18-25% CO, 12-20% H₂, 2-4% CH₄).
+5. Measure cold gas efficiency: energy in product gas / energy in fuel input (target: 65-75% for wood chips).
+
+**Expected Performance**:
+- Gas heating value: 4.5-6.0 MJ/m³ (wood chips), 4.0-5.5 MJ/m³ (charcoal)
+- Cold gas efficiency: 65-75% (wood), 70-80% (charcoal)
+- Fuel consumption: 1.0-1.5 kg wood chips per kWh electrical output
+- Tar content after cleaning: <50 mg/m³ for engine operation
+- Engine power derating: 40-60% of gasoline rating on producer gas
+- Gasifier throughput: 15-50 kg fuel per hour for 10-50 kW systems
+
+**Strengths**:
+- Converts solid biomass (wood chips, agricultural residues) into combustible gas for engines
+- Works with locally available fuels — no petroleum or coal required
+- Charcoal gasification produces very clean gas (<50 mg/m³ tar)
+- Can power existing internal combustion engines with intake modification
+
+**Weaknesses**:
+- Wood gasification produces high tar loads (500-5,000 mg/m³) requiring extensive cleaning
+- Engine power derated to 40-60% of gasoline rating due to low gas energy density
+- Requires consistent fuel moisture (<20%) — wet fuel causes tar spikes and unstable operation
+- Gas cannot be stored at pressure — must be consumed immediately or flared
 
 ### 4.3 Direct Combustion for Heat
 
@@ -106,7 +175,41 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 
 2. **Combust in furnace or boiler**: Grate-fired furnace for chunky biomass (wood pieces, briquettes). Fluidized bed combustor for fine material (sawdust, rice husks) — air blown upward through a sand bed suspends and burns fine particles uniformly.
 
-3. **Recover heat**: Boiler tubes in the combustion chamber generate steam. Flue gas exits at 150-250°C (below this, condensation causes corrosion). Overall combustion efficiency: 60-75% for well-designed grate furnaces, 80-90% for fluidized bed combustors.
+ 3. **Recover heat**: Boiler tubes in the combustion chamber generate steam. Flue gas exits at 150-250°C (below this, condensation causes corrosion). Overall combustion efficiency: 60-75% for well-designed grate furnaces, 80-90% for fluidized bed combustors.
+
+**Materials**:
+- [Seasoned firewood](../plants/index.md) (moisture <20%, 14-16 MJ/kg, hardwood preferred)
+- [Steel boiler tubes](../metals/iron-steel.md) (50-80 mm OD, 3-5 mm wall, seamless, 50-200 m total length)
+- [Refractory lining](../ceramics/index.md) (firebrick, 230 × 115 × 65 mm, rated to 1,400°C)
+- [Steel grate bars](../metals/iron-steel.md) (25 mm square, 30 mm spacing for wood pieces)
+- [Insulation](../chemistry/index.md) (mineral wool, 100 mm thick, 500 kg/m³ density around boiler shell)
+- [Flue damper and chimney](../metals/iron-steel.md) (steel plate, 3 mm thick, chimney height 5-15 m for natural draft)
+
+**Calibration / Verification**:
+1. Measure flue gas temperature with a thermocouple in the exhaust stack (target: 150-250°C). Below 150°C risks acid condensation; above 300°C wastes heat.
+2. Measure flue gas oxygen content with a zirconia sensor or Orsat analyzer (target: 4-8% O₂ indicates optimal excess air). Below 2% O₂ = incomplete combustion (CO production). Above 12% O₂ = too much excess air (heat wasted up chimney).
+3. Measure steam pressure and temperature at boiler outlet — compare to design specification (target: 2-10 bar, 120-180°C for low-pressure heating boilers).
+4. Weigh a known quantity of fuel and measure heat output over a timed period. Calculate combustion efficiency: η = heat output / (fuel mass × HHV). Target: >65% for grate furnace, >80% for fluidized bed.
+5. Inspect ash residue — white/light gray indicates complete combustion. Black, unburned chunks indicate poor air distribution or oversized fuel.
+
+**Expected Performance**:
+- Combustion efficiency: 60-75% (grate furnace), 80-90% (fluidized bed)
+- Steam output: 5-15 kg steam per kg of dry wood at 2-10 bar
+- Flue gas temperature: 150-250°C (optimal range)
+- Firebox temperature: 800-1,100°C with natural draft
+- Fuel consumption rate: 5-20 kg/hour per 100 kW thermal output
+
+**Strengths**:
+- Simplest biomass conversion — direct fire with minimal processing
+- Works with any dry biomass (wood, straw, husks, briquettes)
+- Grate furnaces are buildable with basic metalworking skills
+- No chemical processing or gas cleaning required
+
+**Weaknesses**:
+- Low combustion efficiency (60-75%) compared to gasification or oil burning
+- Requires continuous fuel feeding — manual labor for small systems
+- High particulate emissions without electrostatic precipitators or bag filters
+- Moisture content directly reduces usable heat — green wood wastes 30-50% of combustion energy evaporating water
 
 ## 5. Quantitative Parameters
 
@@ -255,7 +358,7 @@ Updraft gasifiers pass gas upward through the fuel bed. The gas exits through th
 - **[Chemistry / Fermentation](../chemistry/fermentation.md)** — Ethanol production chemistry
 - **[Steam Power](steam-power.md)** — Biomass-fired steam boilers
 - **[Energy Storage](storage.md)** — Gas storage systems
-- **[Plants](../plants/index.md)** — Energy crop species and yields
+- **[Plants](../plants/structural-plants.md)** — Energy crop species and yields
 - **[Fuel Production](fuels.md)** — Comparative fuel properties
 
 ---

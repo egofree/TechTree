@@ -1,11 +1,12 @@
 # Explosives
 
 > **Node ID**: chemistry.explosives
-> **Domain**: Chemistry
-> **Dependencies**: [`chemistry.acids`](acids.md), [`chemistry.alkalis`](alkalis.md), [`energy.fuels.charcoal`](../energy/charcoal.md)
-> **Enables**: `defense`, [`mining.extraction.black-powder`](../mining/black-powder.md)
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.acids`](acids.md), [`chemistry.alkalis`](alkalis.md), [`energy.charcoal`](../energy/charcoal.md)
+> **Enables**: [`mining.black-powder`](../mining/black-powder.md), [`metals.finishing`](../metals/finishing.md)
 > **Timeline**: Years 5-30+
 > **Outputs**: black_powder, nitrocellulose, dynamite, smokeless_powder
+> **Critical**: No — explosives accelerate mining and construction but are not prerequisites for core capabilities
 
 ### Black Powder
 
@@ -24,6 +25,10 @@
 
 **Blasting procedure**: Drill hole (2.5-4 cm diameter, 0.5-2 m deep) with jumper drill. Clean hole with scraper. Fill bottom 1/3 with powder. Insert safety fuse (black powder core in tarred cotton sheath) — cut to length for 30-60 second delay. Tamp remaining hole with clay or damp sand (NOT dry sand — sparks from tamping rod ignite powder). Light fuse, retreat. 1-2 kg powder breaks 2-10 m³ rock depending on placement.
 
+**Strengths**: Simplest explosive to manufacture from basic materials (saltpeter, charcoal, sulfur); stable in storage when kept dry; burn rate tunable by grain size; low-cost for quarrying and mining; doubles as propellant for firearms.
+
+**Weaknesses**: Low brisance (400 m/s detonation velocity — poor shattering effect); produces 60% solid residue (heavy smoke); hygroscopic — moisture degrades performance; sensitive to spark, friction, and static electricity during manufacture.
+
 ### Nitrocellulose (Guncotton)
 
 **Chemistry**: Cellulose (cotton linters or wood pulp) + nitric acid + sulfuric acid → nitrocellulose (cellulose nitrate). Nitration substitutes –NO₂ groups onto cellulose hydroxyls. Degree of nitration determines properties.
@@ -32,6 +37,10 @@
 - **[Pyroxylin / collodion cotton](../glossary/pyroxylin-collodion-cotton.md)** (10.5-12% nitrogen): Lower nitration. Soluble in ether-alcohol and acetone. Used for lacquers, film base, dope.
 
 **Manufacture**: Soak cellulose in mixed acid (HNO₃ + H₂SO₄) at 20-30°C for 30-60 minutes. Nitration is strongly exothermic — cool to prevent runaway reaction (thermal decomposition → fire → explosion). Dump into large volume of water to quench. Wash extensively with boiling water to remove all residual acid (incomplete washing = unstable product that can decompose spontaneously). Boil in water for stabilization (removes unstable low-nitration products). Dry.
+
+**Strengths**: Burns rapidly without residue (cleaner than black powder); energy density 3× black powder; tunable properties via degree of nitration (guncotton vs pyroxylin); soluble forms enable lacquers, film base, and propellant gel formulation.
+
+**Weaknesses**: Strongly exothermic nitration requires precise temperature control (runaway → explosion); residual acid causes spontaneous decomposition — requires extensive washing and boiling; degradation products (NO₂) autocatalyze further decomposition in storage; mixed acid handling (HNO₃ + H₂SO₄) is extremely hazardous.
 
 ### Dynamite
 
@@ -42,6 +51,10 @@
 **Dynamite composition**: 75% nitroglycerin absorbed in 25% diatomaceous earth (inert absorbent). Press into cardboard cartridges (2-5 cm diameter × 10-30 cm long). Stable to shock and friction — can be dropped, thrown, and transported safely. Detonated with blasting cap (small charge of mercury fulminate or lead azide, initiated by safety fuse or electric current).
 
 **Strength**: 5-10x black powder per unit mass. Detonation velocity ~4000-6000 m/s (high explosive). Produces mostly gas with minimal solid residue (clean break in rock). Replaced black powder for most mining and construction blasting.
+
+**Strengths**: 5-10× the energy of black powder per unit mass; stable to shock and friction (safe to transport and handle); detonation velocity 4000-6000 m/s gives excellent shattering effect in rock; cardboard cartridges are easy to load into boreholes.
+
+**Weaknesses**: Nitroglycerin exudes from absorbent over time ("sweating") creating sensitive liquid pools; freezes at 13°C — frozen dynamite is more sensitive than liquid; headaches from NG skin absorption (early warning of exposure); requires mercury fulminate or lead azide blasting cap to initiate.
 
 ### Smokeless Powders
 
@@ -74,6 +87,10 @@
 
 **Applications**: Military shells, bombs, demolition charges. Industrial: mixed with ammonium nitrate as amatol (TNT shortage substitute). Melt-cast filling: heat TNT to 85-90°C, pour into shell casing, insert booster charge, cool slowly.
 
+**Strengths**: Mechanically insensitive — safe to handle, transport, and press into munitions; melt-cast at 85-90°C (low melting point simplifies shell filling); burns without detonation if unconfined (can be extinguished with water); well-characterized properties over 100+ years of use.
+
+**Weaknesses**: Three-stage nitration requires progressively stronger acid and higher temperature — complex process control; crude TNT contains unstable isomers requiring sulfite purification; toluene feedstock depends on petroleum or coal tar; yellow color stains skin and is toxic (liver damage from chronic exposure).
+
 ### ANFO (Ammonium Nitrate / Fuel Oil)
 
 The most widely used industrial explosive worldwide — cheap, safe, effective for mining and quarrying.
@@ -85,6 +102,10 @@ The most widely used industrial explosive worldwide — cheap, safe, effective f
 **Properties**: Detonation velocity: 2,500-4,000 m/s (density dependent). Very insensitive — requires a booster charge (dynamite or cast booster) to initiate. Cannot be detonated by blasting cap alone. Safe to transport (classified as oxidizer, not explosive, until mixed with fuel). Energy: 3.7 MJ/kg. Cost: 5-10× cheaper than dynamite per unit energy.
 
 **Safety concern — ammonium nitrate disasters**: Pure NH₄NO₃ can decompose explosively under confinement and intense heat. Texas City disaster (1947): 2,300 tonnes AN on ship caught fire → detonation killed 581 people. Beirut explosion (2020): 2,750 tonnes AN stored unsafely → 218 dead. AN must be stored away from heat, fuels, and confined spaces. Contamination with organics or metals increases sensitivity.
+
+**Strengths**: Cheapest industrial explosive per unit energy (5-10× cheaper than dynamite); extremely insensitive — classified as oxidizer, not explosive, until mixed with fuel; simple on-site mixing (AN prills + diesel in concrete mixer); no toxic fumes from complete detonation; ideal for large-scale mining and quarrying.
+
+**Weaknesses**: Very low density (0.8 g/cm³) limits energy per unit volume — requires large-diameter boreholes; critical diameter 50-100 mm (detonation dies in smaller holes); poor water resistance — dissolves in wet boreholes; requires booster charge to initiate (blasting cap alone insufficient); AN prills absorb moisture and cake in storage.
 
 ### Detonation Physics
 
@@ -216,3 +237,7 @@ Toluene nitrates in three stages, each requiring progressively stronger mixed ac
 - **[Wood Gasification](wood-gasification.md)**: Charcoal production for black powder
 - **[Petrochemicals](petroleum-alternatives.md)**: Hydrocarbon feedstocks for modern explosives
 - **[Nitric Acid](acids.md)**: Ostwald process producing nitric acid for nitration
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

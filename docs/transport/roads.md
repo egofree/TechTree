@@ -1,11 +1,12 @@
 # Road & Bridge Construction
 
 > **Node ID**: transport.roads
-> **Domain**: Transportation & Logistics
-> **Dependencies**: [`animals.draft-power`](../animals/draft-power.md), [`foundations.tools-basic`](../foundations/tools-basic.md), `mining`
+> **Domain**: [Transport](./index.md)
+> **Dependencies**: [`animals.draft-power`](../animals/draft-power.md), [`foundations.tools-basic`](../foundations/tools-basic.md), [`mining`](../mining/index.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 5-30
 > **Outputs**: roads, bridges
+> **Critical**: No
 
 ### Road Construction
 
@@ -23,6 +24,16 @@
 - **Timber beam bridge**: Simple span up to 10 m. Wooden beams (30-50 cm diameter logs or 20×30 cm sawn timbers) on stone abutments. Deck planking on top. Design load: 2-5 tonnes for cart traffic. Pressure-treat timber with creosote (Chemistry) or replace every 10-20 years.
 - **Stone arch bridge**: Spans 5-30+ m. Build timber centering (temporary falsework) in arch shape. Lay stone voussoirs (wedge-shaped stones) from both abutments toward center. Place keystone. Remove centering. Arch is self-supporting — load transfers horizontally to abutments. Extremely durable (centuries). Requires skilled masonry.
 - **[Truss bridge](../glossary/truss-bridge.md)** (the Machine Tools-Energy stage transition): Triangular framework of iron or steel members. Pratt or Howe truss design. Spans 20-100+ m. Calculate member sizes from expected loads (dead load + live load + wind load with safety factor of 2-4). Connections: riveted or pinned. Much faster to erect than stone arch.
+
+**Strengths**:
+- Macadam road (three layers of progressively finer stone) handles heavy cart traffic in all weather
+- Stone arch bridges last centuries with minimal maintenance — load transfers horizontally to abutments
+- Truss bridges span 20-100+ m with iron/steel — far beyond timber beam limits
+
+**Weaknesses**:
+- Dirt roads become impassable mud in wet weather — require gravel or macadam surfacing
+- Timber beam bridges limited to 10 m spans and need replacement every 10-20 years
+- Stone arch construction requires skilled masonry and timber centering (temporary falsework)
 
 ### Wheeled Vehicles
 

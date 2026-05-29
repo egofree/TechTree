@@ -48,6 +48,10 @@ A bootstrap civilization faces a uniquely severe durability challenge: the entir
    - **Tier 3 (Reference)**: Supplementary texts, historical records, non-critical documentation. Store on: acid-free paper. Single copy with scheduled migration.
 3. **Document the selection decision**: Record why each medium was chosen for each document, including expected lifespan and migration schedule.
 
+**Strengths**: Three-tier classification focuses resources on the most critical documents — Tier 1 items get the most durable media and triple redundancy without wasting resources on Tier 3 reference material. Matching media to criticality ensures no single medium's failure mode can destroy all copies.
+
+**Weaknesses**: Classification decisions require judgment — a document's future criticality may be difficult to predict at the time of initial storage. Tier 1 storage (fired clay + vellum + acid-free paper) is significantly more expensive per document than Tier 3.
+
 ### Environmental Controls
 
 Maintain archival storage rooms at:
@@ -58,12 +62,20 @@ Maintain archival storage rooms at:
 - Fire protection: Stone/concrete vault with iron doors; no combustible materials in storage area; sprinkler system (if water supply available) or inert gas suppression
 - Pest control: Exclude insects and rodents (physical barriers, controlled access)
 
+**Strengths**: Tight environmental control (±2°C, ±5% RH) dramatically extends media lifespan — acidic paper survives 50-100 years in controlled storage vs. 10-20 years uncontrolled. Fireproof vault construction (stone/concrete, iron doors) eliminates the most catastrophic risk to archives.
+
+**Weaknesses**: Maintaining 18-22°C and 40-55% RH continuously requires either passive design (thick walls, earth-sheltered) or active climate control — both add cost. Daily environmental monitoring is essential but labor-intensive without automated systems.
+
 ### Migration Protocol
 
 1. **Schedule**: Set migration interval based on medium lifespan — migrate at 50% of projected lifespan (e.g., acidic paper at 25-50 years, magnetic tape at 5-15 years, optical disc at 25-50 years).
 2. **Verification**: After migration, compare new copy to original (character-by-character for text, bit-by-bit for digital). Any discrepancy triggers re-migration from a different copy.
 3. **Retain originals**: Do not destroy original copies after migration — retain until the new copies have been verified for at least one year without issues.
 4. **Update catalog**: Record the migration date, new medium, new location, and verification status in the archive catalog.
+
+**Strengths**: Migrating at 50% of projected lifespan provides a safety margin — even if the medium degrades faster than expected, migration occurs before data loss. Bit-by-bit verification (checksums for digital, character-by-character for text) catches migration errors immediately.
+
+**Weaknesses**: Migration is a perpetual obligation — magnetic tape must be refreshed every 5-15 years indefinitely, consuming ongoing labor and media costs. Retaining originals after migration doubles storage requirements during the verification period.
 
 ### Rosetta Project Protocol
 
@@ -73,6 +85,10 @@ For the most critical knowledge (Tier 1), create self-decoding archives:
 2. **Reading instructions**: Begin each archive with explicit instructions for decoding the medium itself. For paper: "This document contains written symbols representing spoken language. Read left to right, top to bottom." For digital media: describe the binary encoding, character set, and file format in human-readable text stored alongside the digital data.
 3. **Visual dictionaries**: Include illustrated glossaries where each technical term is shown with a drawing of the object it names. A future reader who has lost the language can reconstruct vocabulary from pictures.
 4. **Mathematical primers**: Include basic numeracy instruction (counting, arithmetic, geometry) as the foundation for all technical content. Mathematics is the closest thing to a universal language.
+
+**Strengths**: Self-decoding archives survive the loss of reading technology and language knowledge — a future reader can reconstruct the meaning from parallel texts and visual dictionaries. Mathematical primers are language-independent — numeracy instruction is decodable regardless of the reader's spoken language.
+
+**Weaknesses**: Creating self-decoding archives multiplies the labor per document — each critical text must be written in multiple languages with illustrations and reading instructions. Visual dictionaries require skilled illustration — a poorly drawn technical diagram may mislead rather than inform a future reader.
 
 ## Quantitative Parameters
 

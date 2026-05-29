@@ -1,11 +1,12 @@
 # Wood Gasification
 
-> **Node ID**: chemistry.petroleum-alternatives.wood-gasification
-> **Domain**: Chemistry
-> **Dependencies**: [`chemistry.petroleum-alternatives`](petroleum-alternatives.md)
-> **Enables**: None (leaf capability)
+> **Node ID**: chemistry.wood-gasification
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.petroleum-alternatives`](petroleum-alternatives.md), [`energy.charcoal`](../energy/charcoal.md)
+> **Enables**: [`energy.fuels`](../energy/index.md), [`chemistry.solvents`](solvents.md)
 > **Timeline**: Years 10-30
 > **Outputs**: producer_gas, charcoal, wood_tar
+> **Critical**: No — wood gasification provides fuel gas and chemical feedstocks from biomass but is superseded by coal and petroleum routes
 
 ### Producer Gas
 
@@ -30,6 +31,10 @@
 6. **Ash grate**: Charcoal and ash collect here. Periodically shake or rotate grate to drop ash into ash pit. Maintain gas flow through bed.
 
 **Fuel requirements**: Hardwood chips (2-5 cm pieces), charcoal, or coke. Moisture content <20% (wet fuel produces steam, cools the bed, reduces gas quality). Fuel consumption: ~1-2 kg wood per kWh of engine output. Gas production: ~2-3 m³ gas per kg of dry wood.
+
+**Strengths**: Proven technology — over 1 million WWII vehicles ran on wood gas; operates on locally available biomass (energy independence); charcoal byproduct has multiple uses (metallurgy, water filtration, soil amendment); dual-fuel diesel operation gives 80-95% diesel displacement; no petroleum required.
+
+**Weaknesses**: Producer gas has only 4-6 MJ/Nm³ heating value (vs 35 for natural gas — 6× lower); engine power derated to 40-60% of gasoline rating; tar is the primary operational problem — condenses in piping and destroys engines without multi-stage cleaning; fuel must be dried to <20% moisture and chipped to uniform 2-5 cm size; startup takes 10-20 minutes from cold.
 
 ### Gas Cleaning System
 
@@ -216,3 +221,7 @@ Wood gasification technology occupies a pragmatic niche in the energy landscape:
 - **[Solvents](solvents.md)**: Turpentine and methanol from wood pyrolysis
 - **[Explosives](explosives.md)**: Charcoal as a component of black powder
 - **[Energy](../energy/index.md)**: Power generation from producer gas
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

@@ -1,7 +1,7 @@
 # Siege Engineering & Military Logistics
 
 > **Node ID**: defense.siege-warfare
-> **Domain**: Defense & Military Engineering
+> **Domain**: [Defense](./index.md)
 > **Dependencies**: None (root capability)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 5-50+
@@ -44,6 +44,30 @@ This capability covers siege engines (battering rams, siege towers, torsion arti
 
 **Effectiveness**: Battering ram breaks wooden palisade gate in 15-30 minutes of sustained ramming. Iron-shod ram breaches stone wall only if wall is thin (<1.5 m) or poorly mortared -- typically used against gates rather than walls. Counter: iron-bound gates, earthen fill behind gates, portcullis, murder holes for dropping projectiles onto ram crew.
 
+**Construction (covered ram, 4 m)**:
+
+1. Select primary beam: oak or ash, 4-5 m long × 30-40 cm diameter (200-350 kg). Peel bark. Shape tip to blunt point. Cap with iron shoe (5-10 kg, forged to fit beam tip, pinned with 2 iron wedges).
+
+2. Build protective shed (testudo): timber frame 4-5 m long × 2.5 m wide × 2.0 m high. Wall planks: 25 mm timber. Roof: layered construction — planks + rawhide + 50-100 mm earth fill. Cover with fresh animal hides during approach.
+
+3. Suspend beam: bore 2 holes through beam at 1/3 points from each end. Pass manila rope (25 mm diameter, safe working load 400 kg per rope) through holes and up to frame crossbeam. Beam hangs level, swings freely with 300-500 mm clearance from ground.
+
+4. Mount on wheels: 4 spoked wheels, 50-60 cm diameter, iron-tired axles. Wheels allow crew to push entire structure forward.
+
+**Verification**: Swing ram by hand — beam must swing freely through 1.0 m arc without jamming. Pull test: 10 men push ram forward — shed must roll on level ground. Weight test: verify frame supports beam weight + dynamic swing load (factor 3:1 on rope strength).
+
+**Expected performance**: Impact energy per swing: 2,000-6,000 J. Breaks wooden palisade gate in 15-30 minutes of sustained ramming (100-300 impacts). Breaches stone wall <1.5 m thick in 4-8 hours. Rate: 20-40 swings per minute. Crew: 10-30 men (10 to swing ram, 10-20 to push structure, crew rotation every 5-10 minutes).
+
+**Strengths**:
+- Direct mechanical assault — does not require sophisticated technology beyond timber and rope
+- Effective against timber gates and thin stone walls
+- Protected crew can operate under missile fire from defenders
+
+**Weaknesses**:
+- Requires flat approach terrain — cannot be used on steep or broken ground
+- Vulnerable to fire — defenders drop incendiary materials (Greek fire, burning pitch) onto shed roof
+- Large target — cannot be concealed; defenders can concentrate fire on ram approach
+
 ### Siege Towers (Years 10-25)
 
 **Construction**: Multi-story wooden tower on wheels. Dimensions: 10-20 m height x 4-6 m wide x 4-6 m deep (must be taller than target wall by 2-3 m). Stories: 3-5 levels. Ground floor: protected approach gangway. Upper floors: archers/javelinmen firing platforms. Top floor: drawbridge to bridge onto wall walk. Weight: 5000-15,000 kg.
@@ -76,6 +100,34 @@ This capability covers siege engines (battering rams, siege towers, torsion arti
 **Rate of fire**: 1 shot per 5-15 minutes (resetting counterweight, loading projectile, aiming). Crew: 12-50 men for operation (hauling counterweight back to firing position is the labor bottleneck). Aiming: adjust sling release point (release earlier = higher trajectory + shorter range, release later = lower trajectory + longer range). Trained crews achieve 10-20 m accuracy at 150 m range.
 
 **Construction time**: 2-4 weeks with 20-50 workers for medium trebuchet. Timber requirements: 5-10 m3 of oak or elm for beam and frame, plus rope and iron fittings. Must be assembled on-site (too large to transport assembled).
+
+**Construction (medium trebuchet)**:
+
+1. Select beam: oak or elm, 8 m long, tapered from 200 mm × 200 mm at pivot to 120 mm × 120 mm at sling end. Pivot at 1:5 ratio (1.3 m short arm, 6.7 m long arm). Check grain — reject beam with grain deviation >15° from long axis.
+
+2. Build A-frame supports: two A-frames of oak, 3-4 m tall, spaced 2 m apart. Cross-beam (pivot axle) between A-frames: 150 mm diameter iron-shod timber. Pivot bearing: iron band around beam at pivot point, rotating on greased axle.
+
+3. Construct counterweight box: timber box on short arm, 1.5 m × 1.0 m × 1.0 m, lined with iron straps. Fill with 8 tonnes stone or lead. Box must slide freely on short arm for variable counterweight adjustment.
+
+4. Make sling: canvas or leather pouch, 0.5 m × 0.3 m, with two rope lines (25 mm diameter, 4-5 m long). One line permanently attached to beam tip; other line loops over release prong (steel hook at beam tip). Sling release angle determines range.
+
+5. Install trigger: timber latch holding beam in cocked position (counterweight raised, sling on ground). Release by pulling rope to trip latch. Trigger must hold 8 tonnes of counterweight tension and release cleanly without binding.
+
+6. Erect on-site: assemble A-frames, install pivot beam, attach counterweight box, attach sling. Level the base: timber crib foundation on compacted earth, 3 m × 4 m × 0.5 m.
+
+**Verification**: Dry fire (no projectile) — release trigger, beam swings freely through full arc. Counterweight must not swing laterally. Check all joints: no loose pegs, no cracked timbers. Load test with 50 kg stone — verify sling releases at correct angle for 100-150 m range.
+
+**Expected performance**: 80-150 kg projectile, 150-250 m range. Rate of fire: 1 shot per 10 minutes (resetting counterweight is labor bottleneck). Accuracy: 10-20 m at 150 m range with trained crew. Crew: 20-35 men for operation. Timber required: 5-10 m³ for frame, 8 tonnes stone counterweight, 200 m rope.
+
+**Strengths**:
+- Greatest range and payload of any pre-gunpowder siege engine
+- Gravity-powered — no torsion springs to maintain, no performance degradation from humidity
+- Simple construction — timber frame with no precision machining required
+
+**Weaknesses**:
+- Massive labor requirement — 20-35 men to operate, 2-4 weeks to construct
+- Must be built on-site — too large to transport assembled
+- Fixed position once built — cannot be repositioned quickly to adjust aim
 
 ---
 
@@ -275,4 +327,4 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 
 ---
 
- *Part of the [Bootciv Tech Tree](../index.md) • [Defense & Military](./index.md) • [All Domains](../index.md)*
+ *Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*

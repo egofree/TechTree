@@ -45,6 +45,14 @@ This capability also covers cylinder production (seamless steel tube forming), h
 4. **Machining**: Thread the neck opening with a tapered internal thread (typically 25 mm ISO taper, 1:16 taper ratio) on a lathe. Machine the bottom to form a convex base (hemispherical or elliptical head distributes stress uniformly). Grind the exterior to remove scale and surface defects.
 5. **Surface finishing**: Shot-blast exterior to remove oxide scale. Apply primer and paint. Paint color indicates gas contents per CGA color code (though color-coding alone is unreliable — the label is authoritative).
 
+**Strengths:**
+- Seamless construction from a single billet eliminates welded seams — the most common failure point in pressure vessels
+- Hot drawing work-hardens the steel, achieving 800-1000 MPa tensile strength in Cr-Mo alloy without requiring post-forming cold work
+
+**Weaknesses:**
+- Tube forming requires 1100-1200°C furnace temperature and precision die sets — significant energy and tooling investment
+- Improper heat treatment (wrong temper temperature, uneven quench) leaves residual stresses that cause premature fatigue failure under pressure cycling
+
 ### 4.2 Cylinder Inspection and Preparation for Filling
 
 1. **Visual inspection**: Examine every cylinder before filling. Reject cylinders with: visible rust or corrosion (especially at the base where moisture collects), dents deeper than 2 mm, arc burns or fire damage (discolors and weakens steel), cracked or damaged valve threads, illegible markings or expired test date. Mark rejected cylinders "REJECT" and segregate for retesting or scrapping.
@@ -52,6 +60,14 @@ This capability also covers cylinder production (seamless steel tube forming), h
 3. **Verify valve condition**: Ensure the cylinder valve operates smoothly (opens and closes without excessive force). Check valve outlet thread for damage. Verify the CGA connection matches the gas to be filled (wrong CGA connection = wrong gas type = potential cross-contamination or dangerous reaction).
 4. **Evacuate residual gas**: Connect the cylinder to a vacuum pump and evacuate to below 100 mbar. This removes residual gas from the previous fill and any moisture that entered during storage. For cylinders that previously contained a different gas, perform three purge cycles (fill with nitrogen to 2 bar, evacuate, repeat) to ensure no cross-contamination.
 5. **Weigh empty cylinder (tare weight)**: Record the tare weight to the nearest 50 g. The tare weight plus the target gas fill weight gives the final gross weight. This is the primary verification of fill completeness.
+
+**Strengths:**
+- Visual inspection catches obvious defects (dents, corrosion, fire damage) before filling — preventing pressurization of compromised vessels
+- Three purge cycles for gas changeover ensure no cross-contamination — critical when switching between incompatible gases
+
+**Weaknesses:**
+- 5-year hydrostatic retest interval means a cylinder with developing fatigue cracks can be in service for years between inspections
+- Visual inspection cannot detect internal corrosion or wall thinning — only hydrostatic testing measures actual material condition
 
 ### 4.3 Filling Procedure
 
@@ -61,6 +77,14 @@ This capability also covers cylinder production (seamless steel tube forming), h
 4. **Verify fill pressure**: After the cylinder has cooled to ambient temperature (wait 2-4 hours or quench in a water bath to 15°C), verify the pressure matches the target fill pressure ±2%. If pressure is below specification, add gas. If above, vent to specification.
 5. **Leak test**: Apply leak detection solution (soap solution or commercial Snoop) to the valve outlet, valve body-to-cylinder connection, and pressure relief device. Any bubble formation indicates a leak. Tighten the leaking joint or replace the valve. Do not ship a leaking cylinder.
 6. **Label and document**: Affix a label showing: gas name, chemical formula, hazard class, UN number, NFPA diamond, cylinder serial number, fill date, fill pressure, and filler's identity. Record the fill in the cylinder tracking log (serial number, gas type, tare weight, gross weight, fill pressure, date, operator initials).
+
+**Strengths:**
+- Fill by weight (not pressure) is temperature-independent — eliminates the adiabatic heating error that causes 5-15% pressure overread during rapid filling
+- Staged pressurization (30→80→target bar) allows thermal equilibration, reducing the magnitude of adiabatic heating effects
+
+**Weaknesses:**
+- Adiabatic heating during rapid fill causes 30-80°C temperature rise — a cylinder filled to rated pressure while hot will be 5-15% underfilled after cooling
+- Brass CGA fitting threads deform if overtightened (>50 N·m), creating a permanent leak path that requires valve replacement
 
 ### 4.4 Hydrostatic Retesting
 
@@ -72,6 +96,14 @@ This capability also covers cylinder production (seamless steel tube forming), h
 6. Release pressure. Measure permanent volumetric expansion (the cylinder does not fully return to its original volume — some plastic deformation occurs). Calculate permanent expansion as a percentage of total expansion.
 7. **Acceptance criteria**: Permanent expansion must be less than 10% of total expansion. If permanent expansion exceeds 10%, the cylinder has yielded plastically and must be condemned. Also reject if the cylinder bursts during testing (obvious), or if visual inspection reveals wall thinning, corrosion pitting deeper than 1 mm, or cracks.
 8. Stamp the test date and tester's mark into the cylinder shoulder. Reinstall the valve and return to service.
+
+**Strengths:**
+- Water-filled hydrostatic testing at 5/3× MAWP is inherently safe — water is incompressible, so a cylinder rupture releases minimal stored energy
+- Permanent expansion <10% criterion detects material yield before catastrophic failure — a quantitative, objective pass/fail threshold
+
+**Weaknesses:**
+- Valve removal and reinstallation for retesting risks cross-threading the neck — the tapered thread is easily damaged if the valve is inserted at an angle
+- 5-year retest interval allows fatigue cracks to develop and grow between inspections — cylinders in severe service should be tested more frequently
 
 ## 5. Quantitative Parameters
 

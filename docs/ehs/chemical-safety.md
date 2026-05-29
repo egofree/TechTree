@@ -11,6 +11,27 @@
 
 Semiconductor fabrication uses the most hazardous chemicals in industrial production: hydrofluoric acid (HF) for silicon etching, silane (SiH₄) for silicon deposition, arsine (AsH₃) for N-type doping, phosphine (PH₃) for N-type doping, and dozens of corrosive, pyrophoric, and carcinogenic compounds. These chemicals demand safety protocols far beyond general industrial hygiene. A single silane leak can auto-ignite at concentrations above 1.4% in air; arsine exposure at 0.05 ppm for extended periods causes hemolytic anemia and renal failure. This document establishes the chemical safety knowledge base specific to semiconductor manufacturing environments.
 
+## Decision Framework: Chemical Hazard Response
+
+| Detection Scenario | Initial Response | PPE Required | Follow-Up |
+|-------------------|-----------------|-------------|-----------|
+| Gas alarm (low — 50% TLV) | Investigate source, verify reading | Half-face respirator with appropriate cartridge | Locate source, repair if possible |
+| Gas alarm (high — TLV) | Evacuate area, activate emergency shutoff | Full-face SCBA or supplied air | Emergency response team investigates |
+| Gas alarm (critical — 2× TLV) | Immediate evacuation, building alarm | SCBA only | Fire department hazmat notification |
+| Liquid acid spill (<1 L) | Don PPE, contain with absorbent | Neoprene gloves, goggles, apron | Neutralize, collect, dispose as hazardous waste |
+| HF spill (any size) | Don HF-specific PPE, contain with CaCO₃ | Double neoprene gloves, face shield, apron + calcium gluconate ready | Neutralize to CaF₂, medical evaluation for any skin contact |
+| Solvent spill (<1 L) | Eliminate ignition sources, absorb | Nitrile gloves, safety glasses | Collect in solvent waste container |
+| Unknown chemical release | Treat as worst case (toxic + flammable) | Full SCBA + chemical suit | Identify chemical before approach |
+
+### Chemical Response Trade-offs
+
+| Response Approach | Speed | Safety Margin | Resource Cost | Best For |
+|------------------|-------|--------------|---------------|---------|
+| Immediate evacuation + SCBA team | Minutes | Highest | High (team on standby) | Toxic gas releases (AsH₃, PH₃) |
+| Shelter-in-place + isolate source | Seconds | Moderate | Low | Confined leaks in gas cabinets with working exhaust |
+| Contain + neutralize in place | 10-30 min | Moderate | Low | Known liquid spills with trained responders |
+| Full-building evacuation + fire dept | 5-15 min | Highest | Very high | Large releases, fires, explosions |
+
 ## Semiconductor Process Chemicals
 
 ### Hydrofluoric Acid (HF)
@@ -39,6 +60,17 @@ Semiconductor fabrication uses the most hazardous chemicals in industrial produc
 
 **First aid**: Immediate flushing with water for 15+ minutes. Apply calcium gluconate gel (2.5%) generously to affected area and massage in continuously. For eye exposure, flush 30+ minutes and apply calcium gluconate drops. Seek emergency medical care for any exposure larger than a small spot.
 
+**Strengths (as a process chemical)**:
+- Unique selectivity: etches SiO₂ rapidly while leaving silicon, photoresist, and most metals untouched
+- Controllable etch rate: 20-2,000 nm/min depending on concentration and formulation (BOE, diluted HF)
+- Volatile reaction products (SiF₄ gas) leave the surface clean — no insoluble residues
+
+**Weaknesses**:
+- Extreme toxicity through skin absorption — 2.5% body surface area exposure to >50% HF can be lethal
+- Pain may be delayed 12-24 hours for dilute solutions, causing victims to underestimate severity
+- Attacks glass, concrete, and most ceramics — incompatible with standard lab infrastructure
+- Requires dedicated PPE, calcium gluconate stations, and HF-specific spill kits at every use point
+
 ### Silane (SiH₄)
 
 **Properties**: Colorless gas with repulsive odor (may not be detectable at low concentrations). Molecular weight 32.12 g/mol. Boiling point -112°C. Density 1.15× air (heavier than air, accumulates at floor level). Autoignition temperature varies: as low as 21°C for concentrated releases; typically 500°C for diluted mixtures. Flammable range: 1.4% to 96% in air.
@@ -64,6 +96,16 @@ Semiconductor fabrication uses the most hazardous chemicals in industrial produc
 
 **Special precautions**: Gas cabinets with continuous exhaust ventilation (minimum 200 ft³/min, typically 250-400 CFM per cabinet). Exhaust monitoring with silane-specific sensors (infrared or thermal conductivity detectors). Automatic shutoff valves triggered by gas detection or seismic sensors. Purge panels with inert gas (N₂) for cylinder change procedures. Maximum cylinder size indoors: typically restricted to 45 kg for production use.
 
+**Strengths (as a process gas)**:
+- Excellent silicon source for both poly-Si and a-Si deposition — single-chemistry process
+- Decomposes cleanly at moderate temperatures (580-650°C) — no chlorine or halogen byproducts
+- Enables silicon nitride deposition with NH₃ — critical passivation layer
+
+**Weaknesses**:
+- Pyrophoric above 1.4% in air — can auto-ignite at room temperature in concentrated releases
+- Extremely wide flammable range (1.4-96%) — nearly any air mixture is flammable
+- Heavier than air — accumulates at floor level, creating hidden explosion hazards in cable trays and under-floor plenums
+
 ### Arsine (AsH₃)
 
 **Properties**: Colorless gas with mild garlic-like odor (detectable at 0.5 ppm, but odor not reliable — olfactory fatigue occurs rapidly). Molecular weight 77.95 g/mol. Boiling point -62.5°C. Density 2.7× air (heavier than air). Decomposes on heating above 300°C, releasing arsenic.
@@ -88,6 +130,16 @@ Semiconductor fabrication uses the most hazardous chemicals in industrial produc
 **NFPA 704 Diamond**: Health 4 (deadly), Flammability 4 (extremely flammable), Instability 2 (violent chemical change at elevated temperatures), Special: None
 
 **Special precautions**: Use only in gas cabinets with dedicated exhaust (scrubbed — see [Ventilation](ventilation-exhaust.md)). Continuous gas monitoring with electrochemical or infrared sensors capable of detecting at 1 ppb resolution. Dual-sensor monitoring (redundancy) for life-safety applications. Minimum detection alarm at 50% of PEL (0.025 ppm). Cylinder valves must be fail-closed (normally closed solenoid valves). Stainless steel tubing (316L) with VCR or welded fittings throughout. No brass or copper fittings (forms toxic arsine-copper complexes).
+
+**Strengths (as a dopant source)**:
+- Precise N-type doping via ion implantation — arsine provides atomic arsenic with excellent dose control
+- Enables GaAs epitaxial growth for high-frequency and optoelectronic devices
+- Gas-phase delivery allows fine flow control (sccm range) for concentration profiling
+
+**Weaknesses**:
+- Among the most toxic industrial gases — TLV of 5 ppb is three orders of magnitude below detection by smell
+- Hemolytic mechanism: destroys red blood cells with delayed onset (2-24 hr), making initial exposure seem harmless
+- All exhaust must be scrubbed before discharge — arsine cannot be vented directly
 
 ### Phosphine (PH₃)
 
@@ -317,4 +369,4 @@ Routine industrial hygiene surveys assess worker exposure to chemical, physical,
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [EHS](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

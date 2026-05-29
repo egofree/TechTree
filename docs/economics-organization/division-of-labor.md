@@ -73,6 +73,18 @@ Division of labor is an organizational capability, not a physical production pro
 
 5. **Set up food distribution**: Create a mechanism for transferring food surplus to specialist workers. Options: central storehouse with rations, tax-in-kind (specialists receive food in exchange for goods), or family-based support (specialist's extended family farms on their behalf).
 
+**Decision criteria**: Use central storehouse distribution when >10 specialists are supported. Use family-based support for initial 3-5 specialists (simpler, no administrative overhead). Switch to tax-in-kind when [governance](./governance.md) structures exist to manage the collection and distribution.
+
+**Strengths**:
+- Each specialist produces 3-7× more output per hour than a generalist attempting the same task
+- Surplus from specialist efficiency funds further specialization — positive feedback loop
+- Quality improves with focused practice — specialist products are measurably better than generalist equivalents
+
+**Weaknesses**:
+- Specialists are entirely dependent on food distribution — any disruption to agriculture creates immediate crisis for non-farming specialists
+- Initial specialists must be supported during their learning period (3-12 months of below-target output)
+- Community must produce genuine surplus — allocating specialists without surplus reduces total output
+
 ### 4.2 Scaling Beyond Initial Specialists
 
 6. **Add specialists incrementally**: For every 10% increase in food surplus, add 2-3 new specialists. Prioritize specializations that create the most downstream value: metal-workers first, then potters, carpenters, weavers, masons.
@@ -81,11 +93,40 @@ Division of labor is an organizational capability, not a physical production pro
 
 8. **Formalize task handoff protocols**: Document how work-in-progress moves between specialists. A smelter produces billets; a forger shapes them; a finisher sharpens and polishes. Each handoff requires a quality check to prevent defective work from propagating.
 
+**Strengths**:
+- Sub-specialization increases per-worker output by 20-40% vs generalist specialists
+- Quality checkpoints at handoffs catch defects early — defective work is not passed downstream
+- Written handoff protocols scale beyond oral coordination limits
+
+**Weaknesses**:
+- More handoffs create more potential failure points — each transfer is a delay and quality risk
+- Sub-specialists may lose understanding of the overall product — "not my job" attitude degrades quality
+- Requires written records — illiterate communities cannot manage formal handoff systems
+
 ### 4.3 Coordination at Scale
 
 9. **Appoint coordination roles**: When the specialist workforce exceeds ~15 workers, appoint a dedicated coordinator (foreman, guild master). This person does not produce goods — they allocate tasks, resolve scheduling conflicts, and track output.
 
 10. **Establish regular planning cycles**: Weekly or biweekly planning meetings where specialists report output, request materials, and flag bottlenecks. Written minutes distributed to all specialists.
+
+**Strengths**:
+- Dedicated coordinator prevents scheduling conflicts and resource contention
+- Regular planning cycles identify bottlenecks before they cause production delays
+- Written minutes create accountability — commitments are recorded and tracked
+
+**Weaknesses**:
+- Coordinator is a non-producing overhead cost — justified only when specialist workforce exceeds ~15 workers
+- Planning meetings consume productive time — limit to 1-2 hours per week
+- Written distribution requires literacy — restricts this model to communities with widespread basic literacy
+
+### Specialization Model Trade-offs
+
+| Model | Productivity Gain | Food Security Risk | Skill Development | Scalability | Best For |
+|-------|:-:|:-:|:-:|:-:|----------|
+| Full-time specialization | 3-7× | High (dependent on distribution) | Deep (years of practice) | Good (to 100+ specialists) | Communities with >30% surplus |
+| Part-time specialization | 1.5-2× | Low (farms part-time) | Moderate | Poor (limited practice time) | Communities <50 people |
+| Guild system | 4-8× | High (dependent on trade) | Very deep (master-apprentice) | Good (to 50+ per guild) | Towns/cities 500+ people |
+| Household autarky | 1× (baseline) | None (self-sufficient) | Shallow (generalist) | None | Emergency fallback, isolated families |
 
 ---
 

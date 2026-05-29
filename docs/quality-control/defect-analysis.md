@@ -13,6 +13,43 @@ Semiconductor fabrication involves 500+ sequential process steps across photolit
 
 Yield for mature semiconductor nodes typically runs 60-90%, meaning 10-40% of manufactured die are thrown away. For leading-edge nodes, yield drops below 50% during initial production. At a fab producing 50,000 wafers per month with each wafer worth $5,000-50,000, every percentage point of yield improvement translates to millions of dollars in revenue. Defect analysis provides the systematic methodology to identify, prioritize, and eliminate yield-limiting mechanisms.
 
+## Decision Framework: Selecting the Right Analysis Tool
+
+| Situation | Use This Tool | Why |
+|-----------|--------------|-----|
+| Multiple defect types, unknown priorities | Pareto analysis | Identifies the "vital few" defect types causing 80% of yield loss |
+| Single defect type, unknown root cause | Fishbone (Ishikawa) diagram | Systematically catalogs all potential causes by category |
+| New process being designed | FMEA | Proactively identifies failure modes before production begins |
+| Need to predict yield from defect density | Yield modeling (Murphy/Seeds) | Quantifies relationship between D₀, die area, and expected yield |
+| Sudden yield drop in production | Root cause analysis (5 Whys, Kepner-Tregoe) | Drills from symptoms to fundamental correctable cause |
+| Need to compare multiple process options | DOE with defect analysis | Quantifies which process variables affect defect rates |
+
+## Implementation Steps
+
+### Step 1: Establish Data Collection Infrastructure
+1. Deploy inline inspection tools at critical process steps (post-lithography, post-etch, post-CMP)
+2. Configure [SECS/GEM](../automation/equipment-communication.md) data collection for defect counts per wafer, per chamber, per lot
+3. Set up yield database with lot-level tracking linking defect data to electrical test results
+4. Define defect taxonomy: particle, scratch, pattern defect, contamination, thickness non-uniformity
+
+### Step 2: Run Weekly Pareto Analysis
+1. Extract defect data from the past 1-4 weeks of production
+2. Categorize by defect type and process step
+3. Sort by frequency, compute cumulative percentage
+4. Present Pareto chart to engineering team for priority assignment
+
+### Step 3: Conduct Fishbone Analysis on Top Defects
+1. Select top 3-5 yield-limiting defects from Pareto analysis
+2. For each defect, assemble cross-functional team (process, equipment, materials, quality engineers)
+3. Construct fishbone diagram using 6M framework
+4. Prioritize hypothesized causes using [SPC](statistical-process-control.md) data and maintenance logs
+
+### Step 4: Update FMEA Annually
+1. Review all process FMEAs for completeness with cross-functional team
+2. Update RPN scores based on actual production defect data
+3. Implement corrective actions for all RPN > 100 items
+4. Verify corrective action effectiveness with confirmation runs
+
 ## Pareto Analysis
 
 The Pareto principle (80/20 rule) states that approximately 80% of defects come from 20% of the causes. Pareto analysis identifies the "vital few" defect types that dominate yield loss, enabling focused engineering effort on the highest-impact problems.
@@ -106,6 +143,16 @@ For manufacturing defect analysis, causes are organized into six categories (the
 ## FMEA (Failure Mode and Effects Analysis)
 
 FMEA is a systematic, proactive method for identifying potential failure modes, assessing their risk, and prioritizing corrective actions before failures occur in production. It is performed during process design — before manufacturing begins — to build quality into the process.
+
+**Strengths**:
+- Proactive — identifies and mitigates risks before production begins, preventing costly yield loss
+- Structured prioritization via RPN (S × O × D) focuses engineering effort on highest-impact items
+- Creates institutional knowledge: documented failure modes and corrective actions serve as training reference
+
+**Weaknesses**:
+- Quality depends on team experience — unknown failure modes escape analysis until they manifest
+- Time-intensive: comprehensive FMEA for a 500-step process requires weeks of cross-functional team effort
+- RPN prioritization can miss interactions: individually low-RPN items may combine to cause significant failures
 
 ### FMEA Structure
 
@@ -282,6 +329,17 @@ In semiconductor fabs with extensive data collection (FDC — Fault Detection an
 - **Time-series correlation**: Correlate defect rate with process parameter logs (temperature, pressure, gas flow). A step-change in etch temperature coinciding with the defect onset is strong evidence of a causal relationship.
 
 ## Integration Points
+
+## Analysis Method Trade-offs
+
+| Method | Best For | Time Investment | Data Required | Skill Level | Cost |
+|--------|----------|----------------|---------------|-------------|------|
+| Pareto analysis | Prioritizing defect types for focused effort | Low (1-2 hours) | Defect counts by category | Low | Low |
+| Fishbone diagram | Brainstorming root causes with cross-functional team | Medium (2-4 hours per defect) | Process knowledge, not quantitative | Medium | Low |
+| FMEA | Proactive risk assessment during process design | High (days per process) | Process flow, failure history | High | Medium (team time) |
+| Yield modeling | Predicting yield from defect density; product sizing | Medium (4-8 hours) | D₀ measurements, die area | Medium | Low |
+| 5 Whys / RCA | Investigating specific yield excursions | Medium (4-8 hours per event) | SPC data, tool logs, wafer maps | Medium | Low |
+| Data mining / FDC correlation | Finding hidden relationships in large datasets | High (days to weeks) | FDC trace data for all tools and lots | High | High (computing infrastructure) |
 
 | Phase | Contribution |
 |-------|-------------|

@@ -10,6 +10,16 @@
 
 ### Electricity Generation
 
+**Strengths**:
+- Voltaic piles provide the first electrical source — no moving parts, works with basic materials (copper, zinc, brine)
+- Daniell cell produces stable 1.1V — sufficient for telegraph operation and electroplating
+- Generators convert any rotational power (water, steam, wind, diesel) into electricity
+
+**Weaknesses**:
+- Batteries have low energy density (lead-acid: 25-35 Wh/kg) — not practical for industrial power
+- Wire drawing is a chicken-and-egg problem: you need wire for generators, but hardened steel dies for drawing wire require powered machinery
+- Early generators are inefficient (70-90%) — significant mechanical energy is lost as heat
+
 **[Voltaic piles / batteries](../glossary/voltaic-piles-batteries.md)** (first electrical source):
 - **Construction**: Stack alternating disks: copper plate → cardboard soaked in brine (or sulfuric acid) → zinc plate → repeat. 10-20 cells produce 10-20V DC at low current.
 - **Output**: ~1V per cell, ~50-100 mA. Sufficient for early electroplating experiments, telegraph operation, electrochemistry exploration. Not sufficient for industrial power.
@@ -391,6 +401,14 @@ Before a fab begins production, the entire electrical system undergoes rigorous 
 **Partial discharge monitoring**: For medium-voltage switchgear and transformers, continuous partial discharge sensors (high-frequency current transformers on ground connections, or ultrasonic sensors) detect insulation degradation before it progresses to complete failure. Partial discharges are small electrical sparks within insulation voids that erode insulation over months to years. Early detection allows scheduled replacement rather than unplanned outage. Sensors communicate to a central monitoring system that trends discharge activity over time and alarms on increasing trends.
 
 ### Limitations
+
+**Strengths** (of the overall electrical system):
+- Electricity is the most versatile energy carrier — converts to heat, light, mechanical work, and chemical reactions
+- AC transmission with transformers enables long-distance power distribution (hundreds of km)
+- Electric motors are more efficient (85-95%) than any heat engine at converting energy to mechanical work
+- Semiconductor fabrication equipment demands ultra-clean, ultra-reliable electricity — driving power quality standards that benefit all electrical systems
+
+**Weaknesses** (of the overall electrical system):
 
 - **Clean power cost**: UPS and backup generation infrastructure can add 30-50% to the electrical system cost of a semiconductor fab. Double-conversion UPS wastes 6-10% of all power passing through it as heat, requiring additional cooling capacity.
 - **Generator emissions**: Diesel generators produce NOₓ, particulate matter, and CO₂. Emissions permits may limit annual run hours. Catalytic converters and diesel particulate filters reduce but do not eliminate emissions.

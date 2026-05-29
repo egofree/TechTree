@@ -2,16 +2,40 @@
 
 > **Node ID**: animals.poultry.chickens
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.insect-farming`](insect-farming.md), [`animals.poultry`](poultry.md)
+> **Dependencies**: [`animals.poultry`](poultry.md), [`animals.insect-farming`](insect-farming.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 0-5
 > **Outputs**: eggs, chicken_meat, feathers, manure
+> **Critical**: Yes — gateway livestock for settlement food systems; lowest barriers to entry of any domestic animal
 
 ### Overview
 
 Chickens are the most widely kept poultry species worldwide, descended from the red junglefowl (*Gallus gallus*) of Southeast Asia. Domesticated approximately 8,000 years ago, chickens provide eggs, meat, feathers, and manure with relatively modest infrastructure requirements. A small flock of 10-20 hens supplies a household with 15-30 eggs per week while producing nitrogen-rich manure (1.5% N — the highest of any common livestock) for garden fertility. Chickens are the gateway livestock for settlement food systems: they accept a wide range of feeds, reproduce readily, reach slaughter weight quickly, and require no specialized butchering equipment.
 
 Mature weight ranges from 1.5-2.5 kg for hens to 2.5-3.5 kg for roosters in dual-purpose breeds. Point-of-lay occurs at 18-22 weeks. Broilers reach slaughter weight (2.0-2.5 kg) at 6-8 weeks on intensive feed, or 12-16 weeks on range. A well-managed laying hen produces 200-300 eggs per year in modern breeds, 150-200 in heritage breeds, with each egg weighing 50-65 g.
+
+### Prerequisites
+
+| Requirement | Source | Notes |
+|-------------|--------|-------|
+| Grain feed (corn, wheat, oats) | [`agriculture`](../agriculture/soil-management.md) | 100-150 g/day per hen |
+| Protein supplement (soy, peas) | [`agriculture`](../agriculture/soil-management.md) | 14-24% of diet depending on age |
+| Secure coop with wire mesh | [`construction`](../construction/building-materials.md) | 0.1-0.2 m² per bird indoor |
+| Oyster shell or limestone grit | [`mining`](../mining/processing.md) | Free-choice for layers |
+| Clean water system | [`water`](../water/basic-treatment.md) | 250-400 mL/bird/day |
+| Brooder with heat source | [`foundations.tools-basic`](../foundations/tools-basic.md) | 35°C initial for chicks |
+
+### Bill of Materials
+
+Materials listed for a 25-hen flock per year.
+
+| Material | Quantity | Source | Alternatives |
+|----------|----------|--------|-------------|
+| Layer feed (16-18% protein) | 1,000-1,400 kg | [`agriculture`](../agriculture/soil-management.md) | Home-mixed grain + protein supplement |
+| Oyster shell | 25-50 kg | [`mining`](../mining/processing.md) | Crushed eggshells (recycled) |
+| Bedding (pine shavings/straw) | 200-400 kg | [`plants`](../plants/index.md) | Deep litter method |
+| Feed storage (metal bins) | 2-3 units (35-50 L) | [`metals`](../metals/index.md) | Rodent-proof containers |
+| Wire mesh (hardware cloth) | 10-20 m² | [`metals`](../metals/index.md) | For coop vents and run |
 
 ### Breed Selection
 
@@ -197,4 +221,4 @@ This integration of egg, meat, and fertilizer production from a single species w
 
 ---
 
-[← Back to Animals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

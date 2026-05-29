@@ -73,6 +73,16 @@ Same process as standard diode but with heavily doped p and n regions to achieve
 
 Metal-semiconductor junction (no p-type region). Aluminum, platinum, or titanium deposited directly on n-type silicon. Forward voltage drop: 0.2-0.4V (vs. 0.6-0.7V for silicon pn junction). Faster switching (no minority carrier storage). Used in high-frequency rectification and power conversion. Reverse leakage higher than pn diodes: 1-100 μA at rated voltage (increases exponentially with temperature).
 
+**Strengths** (diode family):
+- PN junction diodes are the simplest semiconductor device (single diffusion step after oxidation) — process complexity is minimal, enabling early bootstrap production with a single furnace and basic photolithography
+- Zener diodes provide voltage reference and regulation from a two-terminal device with no external bias circuitry — available in 24 standard voltages from 3.3V to 47V
+- Schottky diodes have 50-70% lower forward voltage drop (0.2-0.4V) than PN diodes, reducing rectifier power loss proportionally — critical for high-efficiency power converters
+
+**Weaknesses** (diode family):
+- PN junction diodes have relatively slow reverse recovery (2-10 μs for rectifier types) due to stored minority carrier charge — this limits usable switching frequency to <100 kHz for standard diodes
+- Zener diodes below 5V have soft knee characteristics and high temperature coefficient — voltage regulation degrades significantly with load current and temperature variation
+- Schottky diodes have high reverse leakage current (1-100 μA) that doubles every 10°C — at elevated temperatures, leakage power dissipation can exceed forward conduction savings
+
 ### 4.2 Bipolar Junction Transistor (BJT)
 
 #### NPN Transistor Construction
@@ -91,6 +101,16 @@ Metal-semiconductor junction (no p-type region). Aluminum, platinum, or titanium
 - Vbe (base-emitter voltage): 0.6-0.7V at moderate currents (silicon). Temperature coefficient: -2.2 mV/°C.
 - Vce(sat) (collector-emitter saturation voltage): 0.1-0.5V. Determines power dissipation when used as a switch.
 - Ft (transition frequency): 100-500 MHz (general purpose), 1-10 GHz (RF). Ft = gm / (2π × (Cbe + Cbc)). Above Ft, β drops below 1 — device cannot amplify.
+
+**Strengths**:
+- Low saturation voltage (Vce(sat) = 0.1-0.5V) provides efficient switching for power applications — lower conduction loss than MOSFETs at high voltage (>600V) where MOSFET Rds(on) becomes prohibitive
+- Current-controlled operation provides inherent current limiting — the base current proportionally controls collector current, making BJT circuits naturally protected against load faults in linear regulator and amplifier applications
+- Mature, well-understood fabrication process with only 2 diffusion steps (base + emitter) — requires fewer photolithography masks than MOSFET, reducing process complexity and cost
+
+**Weaknesses**:
+- Current-driven input requires continuous base current to maintain conduction — a power BJT switching 10A with β=20 needs 500 mA base drive, wasting 2.5% of switched power as gate drive loss
+- Secondary breakdown: localized thermal runaway at high Vce × Ic combinations creates destruction zones that limit safe operating area (SOA) — MOSFETs do not have this failure mode
+- β varies with temperature (doubles from 25°C to 100°C), collector current (peaks at 1-100 mA, drops at high and low current), and between individual devices — requires careful bias circuit design for linear applications
 
 ### 4.3 MOSFET (Metal-Oxide-Semiconductor FET)
 
@@ -111,6 +131,16 @@ Metal-semiconductor junction (no p-type region). Aluminum, platinum, or titanium
 - Qgs (total gate charge): 1-200 nC (determines switching speed and gate drive power). Switching time ≈ Qgs / Ig. Pgate = Qgs × Vgs × fsw.
 - Id (continuous drain current): 0.1-200A (package-limited at high current).
 
+**Strengths**:
+- Voltage-driven gate requires negligible steady-state gate current (<1 nA leakage) — a single gate driver can control multiple parallel MOSFETs without the power waste of BJT base drive
+- No secondary breakdown — the positive temperature coefficient of Rds(on) causes current to redistribute away from hot spots, enabling safe paralleling of multiple devices and wider SOA than BJTs
+- Fast switching (10-100 ns) with no minority carrier storage charge — enables high-frequency operation (20-500 kHz) for switching power converters, reducing magnetic component size proportionally
+
+**Weaknesses**:
+- Gate oxide is the most fragile element in any semiconductor device — a single defect in the 10-100 nm SiO₂ layer causes gate leakage or catastrophic oxide rupture from ESD (as low as 100V for thin-oxide types)
+- Rds(on) ∝ Vds²·⁵ for silicon — above ~600V, the on-resistance becomes impractically high, making MOSFETs unsuitable for high-voltage switching where IGBTs or thyristors are required
+- Gate charge (Qgs = 1-200 nC) must be supplied and removed each switching cycle — at high frequency, gate drive power (Pgate = Qgs × Vgs × fsw) becomes significant and requires careful driver design
+
 ### 4.4 Thyristor (SCR — Silicon Controlled Rectifier)
 
 Four-layer pnpn device. Latches on when gate current is applied while anode is positive relative to cathode. Remains conducting until anode current drops below holding current (Ih, typically 5-50 mA). Used for AC power control (light dimmers, motor speed control, HVDC transmission).
@@ -122,6 +152,16 @@ Four-layer pnpn device. Latches on when gate current is applied while anode is p
 5. **Package**: Large-area devices (10-150 mm diameter die) in hockey-puck packages (disc-type, clamped between heat sinks with 5-30 kN force) or stud-mount (screw-base for easy mounting on heat sinks).
 
 **Key parameters**: Vdrm (repetitive peak off-state voltage): 100-10,000V. It(av) (average on-state current): 1-5000A. Igt (gate trigger current): 5-200 mA. Vt (on-state voltage): 1.0-2.0V at rated current. di/dt rating: 50-500 A/μs (exceeding causes localized hot spots). dv/dt rating: 50-1000 V/μs (exceeding causes false triggering).
+
+**Strengths**:
+- Highest voltage and current capability of any semiconductor switch (up to 10,000V, 5000A in a single device) — a 150 mm diameter thyristor die handles power levels that would require hundreds of paralleled MOSFETs
+- Low on-state voltage (1.0-2.0V) at rated current provides efficient conduction — lower total loss than MOSFET or IGBT at very high current due to the double-sided injection from the pnpn structure
+- Self-latching: once triggered, the thyristor remains conducting without continuous gate drive — simplifies control circuitry for AC phase-angle power control and HVDC transmission
+
+**Weaknesses**:
+- Cannot be turned off by the gate — current must be forced below the holding current (5-50 mA) by external circuit action (natural AC zero-crossing or forced commutation), making thyristors unsuitable for DC circuit breaking or PWM applications
+- Susceptible to false triggering from rapid voltage transients (dv/dt > 50-1000 V/μs) — requires snubber circuits (RC network across the device) that add cost and complexity
+- Slow turn-on (di/dt limited to 50-500 A/μs) — the conducting area spreads from the gate region at ~0.1 mm/μs, creating localized hot spots if current rises faster than the conducting area expands
 
 ## 5. Quantitative Parameters
 

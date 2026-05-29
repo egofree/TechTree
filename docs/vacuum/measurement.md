@@ -28,6 +28,28 @@ For basic vacuum gauge descriptions (Bourdon, Pirani, ion gauge principles), see
 ### Gauge Specifications
 
 **Capacitance diaphragm gauge (CDG)**:
+
+**Strengths**:
+- Best accuracy in its range: ±0.5-1% of reading — gas-independent true total pressure
+- No hot filament — no risk of burnout, can operate at any pressure
+- High resolution: 0.01% of full scale
+
+**Weaknesses**:
+- Damaged by overpressure (>2× full scale) — requires protection valve
+- Temperature sensitivity requires 15-30 minute warm-up for thermal equilibrium
+- Limited range: each sensor covers ~4 decades of pressure
+
+**Bayard-Alpert hot cathode ionization gauge (detailed)**:
+
+**Strengths**:
+- Widest measurement range: 10⁻³ – 10⁻¹¹ Torr (9 decades)
+- Well-understood physics with standardized sensitivity factors for different gases
+- X-ray limit of ~10⁻¹¹ Torr — sufficient for most UHV applications
+
+**Weaknesses**:
+- Hot filament (1800°C) burns out if operated above 10⁻³ Torr or exposed to oxygen
+- Electron-stimulated desorption from grid creates false pressure readings during degassing
+- Gas-dependent sensitivity requires correction factors for non-N₂ gases
 - **Principle**: A thin metal diaphragm separates the vacuum system from a sealed reference cavity. A capacitance sensor on each side measures the diaphragm deflection. The pressure difference across the diaphragm causes proportional deflection, and the capacitance change is converted to a pressure reading.
 - **Range**: 1000 – 10⁻⁴ Torr (multi-range models cover 1000-1, 100-10⁻², 10-10⁻⁴ Torr)
 - **Accuracy**: ±0.5-1% of reading (best of any vacuum gauge in its range)

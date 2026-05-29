@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 5-15
 > **Outputs**: wind_power, mechanical_rotation, ground_grain, pumped_water
+> **Critical**: No — wind supplements water and steam power; wind variability limits reliability without storage or complementary sources
 
 ### Overview
 
@@ -26,12 +27,32 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 - **Advantages**: Simple construction, entire mechanism accessible for maintenance, can be built with timber and basic ironwork.
 - **Limitations**: Small size limited by structural stability of post, manual wind-tracking is slow and dangerous in storms, entire structure must be shut down and restrained when not in use.
 
+**Strengths**:
+- Simplest windmill to build — timber and basic ironwork only
+- Entire mechanism accessible for maintenance from inside the mill body
+- Can be rotated to face any wind direction via tail pole
+
+**Weaknesses**:
+- Structural stability limits size — post mills rarely exceed 8 HP
+- Manual wind-tracking is slow and dangerous in storms
+- Entire structure must be shut down and restrained in high winds
+
 **[Tower mill](../glossary/tower-mill.md)** (improved — 14th century onward):
 - **Structure**: Fixed masonry or brick tower (cylindrical or tapered, 6-12 m tall, 4-8 m diameter at base, walls 0.3-0.6 m thick). Only the cap (roof) with attached sails rotates to face wind. Much more stable than post mill — allows larger sails and taller towers for stronger, steadier wind.
 - **Cap rotation**: Tail fan (small secondary rotor) or fantail automatically turns cap to face wind. Pre-fantail: manual capstan with chain and worm gear. Fantail (invented 1745): small 6-bladed rotor mounted at 90° to main sails. When wind blows from the side, fantail spins, driving worm gear that rotates cap until fantail faces wind edge-on and stops. Self-regulating.
 - **Sails**: 4 sails, span 8-15 m each (diameter 16-30 m). Windshaft of cast iron or forged steel, 0.15-0.25 m diameter, 3-5 m long.
 - **Power output**: 5-20 HP at rated wind speed. Can drive 2-3 pairs of millstones simultaneously.
 - **Tower height**: Each meter of height above ground gains ~0.1-0.2 m/s wind speed over flat terrain (wind shear effect). Tower mills at 10-15 m effective hub height capture significantly more energy than post mills at 5-8 m.
+
+**Strengths**:
+- Fixed tower is structurally stable — allows larger sails and taller towers for more power
+- Fantail mechanism provides automatic wind-tracking without operator intervention
+- Multiple pairs of millstones (2-3) can be driven simultaneously
+
+**Weaknesses**:
+- Masonry tower requires brick or stone construction skills — more resource-intensive than post mill
+- Cap rotation mechanism (worm gear, fantail) adds mechanical complexity
+- Tall tower is a lightning strike target — requires grounding
 
 **[Smock mill](../glossary/smock-mill.md)** (tower mill variant — common for drainage pumping):
 - **Structure**: Octagonal (usually) wooden tower clad in weatherboard, with rotating cap. Shaped like a traditional smock — wider at base, tapering to top. Cheaper than masonry tower, lighter on foundations.

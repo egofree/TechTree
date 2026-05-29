@@ -1,11 +1,12 @@
 # Mechanical Calculation
 
 > **Node ID**: computing.mechanical
-> **Domain**: Computing & Automation
-> **Dependencies**: `machine-tools`, [`mathematics.core-mathematics`](../mathematics/core-mathematics.md), `metals`
+> **Domain**: [Computing](./index.md)
+> **Dependencies**: [`machine-tools`](../machine-tools/index.md), [`mathematics.core-mathematics`](../mathematics/core-mathematics.md), [`metals`](../metals/index.md)
 > **Enables**: [`computing.electromechanical`](electromechanical.md)
 > **Timeline**: Years 10-40
 > **Outputs**: calculation_aids
+> **Critical**: No — computing enhances capability but is not strictly required for survival
 
 ### Manual Calculation Aids
 

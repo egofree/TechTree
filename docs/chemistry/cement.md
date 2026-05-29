@@ -1,11 +1,12 @@
 # Cement & Concrete
 
 > **Node ID**: chemistry.cement
-> **Domain**: Chemistry
-> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), `mining`
-> **Enables**: `construction`
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), [`mining.processing`](../mining/processing.md)
+> **Enables**: [`construction.foundation`](../construction/index.md), [`machine-tools.machining`](../machine-tools/machining.md)
 > **Timeline**: Years 20-35
 > **Outputs**: cement, concrete, reinforced_concrete
+> **Critical**: Yes — Portland cement is the second most consumed material on Earth after water. Reinforced concrete is the structural backbone of all industrial infrastructure: factory foundations, dams, roads, chemical plants, and semiconductor fabs.
 
 ### Portland Cement Manufacture
 
@@ -25,6 +26,10 @@
    - **[Ferrite](../glossary/ferrite.md)** (Ca₄Al₂Fe₂O₁₀ / C₄AF): 6-10%. Moderate hydration rate. Provides gray color.
 5. **Cooling**: Rapid air quench from 1450°C to <100°C. Preserves reactive crystal forms. Hot cooling air returns to kiln (recovers heat).
 6. **Finish grinding**: Grind clinker with **2-5% gypsum** (CaSO₄·2H₂O) in ball mill to Blaine fineness 300-400 m²/kg. Gypsum controls setting time — without it, C₃A hydrates instantly ("flash set") and the concrete is unworkable.
+
+**Strengths**: Produces the most versatile construction material known; raw materials (limestone, clay) are abundant worldwide; 28-day compressive strength of 20-50 MPa exceeds most natural stone; compatible with steel reinforcement; fire-resistant (2-4 hour rating); low maintenance after curing.
+
+**Weaknesses**: Extremely energy-intensive (3-5 GJ/t clinker, 1450°C kiln); responsible for ~8% of global CO₂ emissions; heavy and bulky — transport beyond 200-300 km is uneconomical; quality requires precise raw material proportioning and kiln temperature control; water/cement ratio must be tightly controlled for structural strength.
 
 ### Concrete Production
 
@@ -66,13 +71,25 @@ Concrete excels in compression but fails in tension at only 2-5 MPa (roughly 10%
 - **Manufacture**: Heat limestone (CaCO₃) to 900-1000°C in lime kiln → quicklime (CaO). Slake with water → slaked lime (Ca(OH)₂). Mix with sand at 1:2.5-3 (lime:sand by volume).
 - **Setting**: Carbonation — Ca(OH)₂ slowly absorbs CO₂ from air → CaCO₃. Very slow (weeks-months to full harden). Softer than Portland cement mortar — flexible, self-healing (microcracks heal as CO₂ continues carbonating). Ideal for historic restoration and soft stone masonry.
 
+**Strengths**: Simplest possible cement technology (limestone + fire + water); self-healing microcracks through continued carbonation; flexible — accommodates building movement without cracking; breathable — allows moisture to escape from walls; ideal for soft stone and historic masonry.
+
+**Weaknesses**: Very slow setting (weeks-months vs. hours for Portland); low compressive strength (1-5 MPa vs. 20-50 MPa); not suitable for structural concrete or reinforced concrete; requires CO₂ from air — cannot set underwater or in thick masses.
+
 **[Pozzolanic cement](../glossary/pozzolanic-cement.md)** (Roman concrete):
 - **Principle**: Mix slaked lime (Ca(OH)₂) with pozzolan (reactive silica — volcanic ash, diatomaceous earth, calcined clay). Silica reacts with lime + water → calcium silicate hydrate (same binding gel as Portland cement). Sets underwater — hydraulic cement.
 - **Roman concrete**: Lime + volcanic ash (pozzolana from Pozzuoli, Italy) + aggregate. Pumice for lightweight. Structures still standing after 2000 years (Pantheon dome, aqueducts). Seawater exposure actually strengthens it (alkali-silica reaction forms additional C-A-S-H gel).
 - **Modern pozzolans**: Fly ash (coal combustion), silica fume, metakaolin (calcined kaolin clay at 600-800°C). Replace 15-40% of Portland cement — reduces cost, heat of hydration, and improves long-term durability.
 
+**Strengths**: Sets underwater (hydraulic cement) — enables marine and foundation construction; Roman concrete structures still standing after 2000 years; seawater exposure actually strengthens it; fly ash and slag pozzolans reduce Portland cement consumption 15-40%.
+
+**Weaknesses**: Requires reactive silica source (volcanic ash deposits are geographically limited); slower early strength gain than pure Portland cement; fly ash supply depends on coal power plants; quality varies with pozzolan source.
+
 **[Alumina cement](../glossary/alumina-cement.md)** (calcium aluminate cement):
 - Bauxite + limestone, fused at 1400-1600°C. Primarily monocalcium aluminate (CaO·Al₂O₃). Sets rapidly (2-6 hours), high early strength. Heat-resistant — service to 1600°C with alumina aggregate. Used for refractory castables and emergency repairs.
+
+**Strengths**: Rapid setting (2-6 hours) with high early strength; heat-resistant to 1600°C with alumina aggregate — ideal for refractory castables; useful for emergency concrete repairs; resistant to sulfate attack and acidic environments.
+
+**Weaknesses**: Much more expensive than Portland cement (bauxite feedstock); loss of strength over time ("conversion" of hydrated phases) in warm, humid conditions; requires higher kiln temperature (1400-1600°C vs. 1450°C); limited to specialty applications due to cost and long-term durability concerns.
 
 ### Concrete Properties
 
@@ -230,4 +247,8 @@ The four clinker minerals hydrate at different rates and contribute to concrete 
 - **[Mining](../mining/index.md)**: Limestone quarrying and raw material extraction
 - **[Ceramics](../ceramics/index.md)**: Related high-temperature materials processing
 - **[Lime](../ceramics/lime.md)**: Calcium oxide production, a precursor to cement chemistry
-- **[Construction Materials](../materials/index.md)**: Concrete and building applications
+- **[Construction](../construction/index.md)**: Concrete and building applications
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

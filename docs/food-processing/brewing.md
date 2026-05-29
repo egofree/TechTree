@@ -2,7 +2,7 @@
 
 > **Node ID**: food-processing.brewing
 > **Domain**: [Food Processing](./index.md)
-> **Dependencies**: [`chemistry.petroleum-alternatives.fermentation`](../chemistry/fermentation.md), `energy`
+> **Dependencies**: [`chemistry.petroleum-alternatives.fermentation`](../chemistry/fermentation.md), [`energy`](../energy/index.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 0-25+
 > **Outputs**: beer, wine, spirits, industrial_ethanol, spent_grain, vinegar
@@ -86,6 +86,16 @@ Beer is fermented malted grain. The basic process: malt grain → mash → boil 
 - **Bottling**: Add priming sugar (4-5 g/L) before sealing. Bottle conditioning produces natural carbonation over 1-2 weeks at 18-20°C. Shelf life: 6-12 months.
 - **Kegging**: Force carbonate with CO₂ at 10-15 psi at 4°C. Immediate carbonation. Shelf life: 2-4 weeks once tapped.
 
+**Strengths**:
+- Beer provides safe hydration: ethanol content (4-6% ABV) and low pH (3.8-4.4) kill most waterborne pathogens
+- Spent grain from mashing is nutritious livestock feed (18-22% protein, 10-15% fiber by dry weight)
+- Brewing sanitizes water through boiling and fermentation without requiring separate water treatment
+
+**Weaknesses**:
+- Grain-to-beer conversion is calorie-inefficient: ~50% of grain calories are lost to CO₂ and spent grain
+- Temperature control demands consistent cooling (refrigeration or cellar at 8-15°C) — not available in hot climates without ice or mechanical cooling
+- Fermentation takes 1-4 weeks, requiring many vessels to maintain throughput
+
 ### Wine Making
 
 **Grape wine**:
@@ -98,6 +108,16 @@ Beer is fermented malted grain. The basic process: malt grain → mash → boil 
 
 **Fruit wines and mead**: Same basic process with different sugar sources. Honey mead requires 15-18% dilution and yeast nutrient additions (honey lacks nutrients for yeast).
 
+**Strengths**:
+- Wine provides high alcohol content (11-15% ABV) that kills pathogens and extends shelf life to years in sealed containers
+- Grape skins carry wild yeast (Saccharomyces), enabling fermentation without purchased starter cultures
+- Wine production converts perishable fruit (shelf life: days) into a stable product (shelf life: years)
+
+**Weaknesses**:
+- Wine requires 130-170 kg grapes per 100 L — a significant agricultural commitment for a single product
+- Oak barrel aging ties up resources (225 L barrels costing timber and cooperage labor) for 6-24 months with no intermediate return
+- Malolactic fermentation is unpredictable without temperature control and can produce off-flavors if it occurs after bottling
+
 ### Distilling
 
 Distillation separates ethanol (boiling point 78.3°C) from water (100°C) by selective evaporation and condensation. Produces spirits of 40-95% ABV.
@@ -106,9 +126,9 @@ Distillation separates ethanol (boiling point 78.3°C) from water (100°C) by se
 - **Design**: Copper pot (50-2000 L) with swan neck, lyne arm, and condenser (worm coil in cold water bath). Copper catalytically removes sulfur compounds (dimethyl sulfide, hydrogen sulfide) that cause off-flavors.
 - **First distillation (stripping run)**: Distill fermented wash at 85-95°C. Collect "low wines" at 20-30% ABV. Discard first 2-5% ("foreshots" — methanol, acetone, highly toxic). Stop collecting at 5-10% ABV ("tails" — fusel oils, congeners).
 - **Second distillation (spirit run)**: Redistill low wines with finer cuts:
-  - **Heads/foreshots** (first 2-5%): Methanol (boiling point 64.7°C), acetone (56°C), ethyl acetate. **Discard — methanol causes blindness and death.** Methanol content in heads: 0.5-2% of distillate.
-  - **Hearts** (middle 60-70%): Clean ethanol at 65-80% ABV. The drinkable product.
-  - **Tails** (last 20-30%): Fusel alcohols (propanol, butanol, amyl alcohol), fatty acids. May be redistilled or discarded.
+   - **Heads/foreshots** (first 2-5%): Methanol (boiling point 64.7°C), acetone (56°C), ethyl acetate. **Discard — methanol causes blindness and death.** Methanol content in heads: 0.5-2% of distillate.
+   - **Hearts** (middle 60-70%): Clean ethanol at 65-80% ABV. The drinkable product.
+   - **Tails** (last 20-30%): Fusel alcohols (propanol, butanol, amyl alcohol), fatty acids. May be redistilled or discarded.
 - **Yield**: 1 kg fermentable sugar yields ~0.51 kg ethanol (theoretical maximum by mass). Practical yield: 0.40-0.45 kg ethanol per kg sugar. For grain: 1 kg malted barley yields ~0.35 L pure ethanol.
 
 **Column still distillation** (continuous):
@@ -116,6 +136,16 @@ Distillation separates ethanol (boiling point 78.3°C) from water (100°C) by se
 - **Advantage**: Continuous operation, higher throughput, more consistent product. Can produce 95.6% ABV (azeotrope limit for ethanol-water).
 - **Products**: Neutral spirits (vodka, gin base), grain whisky (partially refined), industrial ethanol.
 - **Beyond 95.6%**: Azeotropic distillation with benzene or cyclohexane, or molecular sieves (3 Å zeolite), required for absolute (anhydrous) ethanol.
+
+**Strengths**:
+- Distillation produces industrial ethanol (solvent, fuel, chemical feedstock) from any fermentable sugar source — grain, fruit, or molasses
+- Copper stills remove volatile sulfur compounds catalytically, improving flavor without chemical additives
+- Concentrated spirits (40%+ ABV) are self-preserving: ethanol concentration kills all pathogens, giving indefinite shelf life
+
+**Weaknesses**:
+- Distillation is energy-intensive: 5-10 MJ/L ethanol required (latent heat of vaporization + column losses), making it one of the most fuel-demanding food processes
+- Methanol in foreshots is lethal: improper cuts cause blindness (10 mL) or death (30-100 mL) — requires trained operators and rigorous procedures
+- Column stills require 3-10 m vertical structures and precision-perforated plates — beyond stone-age construction capability
 
 **Aging spirits**:
 - **Whiskey**: Oak barrels (charred American oak or toasted European oak), 3-12+ years. Char layer filters and adds flavor compounds. 2% volume loss per year ("angel's share"). Climate-controlled warehouse: 15-20°C, 60-70% humidity.
@@ -131,6 +161,16 @@ Ethanol for industrial use (solvent, fuel, chemical feedstock) follows the same 
 - **Denaturing**: Add bitterant (denatonium benzoate, 10 ppm) or toxicant (methanol, 5-10%) to prevent human consumption of industrial ethanol. Denatured spirits ("denatured alcohol") is tax-exempt in most jurisdictions.
 - **Fuel ethanol**: Blended with gasoline at 10-85% (E10 to E85). Requires anhydrous ethanol (<0.5% water) to prevent phase separation.
 
+**Strengths**:
+- Sugarcane feedstock yields 7,000 L ethanol/hectare/year — the highest biofuel yield per hectare of any crop
+- Denatured ethanol serves as solvent, fuel, and chemical feedstock simultaneously, reducing the need for petroleum-derived alternatives
+- Fermentation + distillation uses well-understood technology achievable at village scale
+
+**Weaknesses**:
+- Fuel-grade ethanol requires anhydrous (<0.5% water) purity, needing molecular sieves or azeotropic distillation beyond simple pot still capability
+- Grain-based ethanol competes directly with food for grain supply — 1 L ethanol requires ~2.5 kg grain that could feed 5 people for a day
+- Denaturants (methanol, denatonium benzoate) make industrial ethanol toxic, requiring separate handling and storage from food-grade ethanol
+
 ### Vinegar Production
 
 Vinegar (acetic acid 5-8% in water) is produced by aerobic oxidation of ethanol by Acetobacter bacteria:
@@ -141,6 +181,16 @@ Vinegar (acetic acid 5-8% in water) is produced by aerobic oxidation of ethanol 
 - **Distilled white vinegar**: 5% acetic acid from grain alcohol. Standard for pickling and cleaning.
 - **Apple cider vinegar**: 5-6% acetic acid from hard cider. Popular for food use.
 - **Cleaning application**: 5% acetic acid solution kills 80-90% of bacteria and 90%+ of mold on surfaces. Food-safe disinfectant for dairy and brewing equipment.
+
+**Strengths**:
+- Vinegar production converts spoiled or low-value alcoholic beverages into a valuable preservative and cleaning agent using only Acetobacter bacteria and air
+- Acetic acid at 5% concentration is a food-safe disinfectant that kills 80-90% of bacteria — no toxic residues
+- Submerged culture method produces 12-15% acetic acid in 20-40 hours, far faster than the 1-3 month traditional method
+
+**Weaknesses**:
+- Acetobacter is strictly aerobic — any anaerobic pockets in the fermentation vessel allow competing organisms (lactic acid bacteria, wild yeast) to thrive
+- Traditional Orleans method requires 1-3 months and large barrel inventory — capital-intensive for the throughput
+- Distilled white vinegar production requires a separate distillation step, adding energy cost (5-10 MJ/L)
 
 ## Quantitative Parameters
 

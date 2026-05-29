@@ -23,8 +23,8 @@ The extraction progression moves from simple pressing (stone-age, 40-60% yield) 
 - **Oilseeds**: Sunflower, rapeseed (canola), sesame, flax (linseed), cottonseed, peanut, or hemp seed. Oil content varies 20-50% by weight. Source: [Agriculture](../foundations/food-agriculture.md).
 - **Olives**: 15-30% oil by weight. Source: [Agriculture](../foundations/food-agriculture.md) — requires Mediterranean or similar climate.
 - **Animal fat**: Beef suet, pork fatback, sheep tail fat, poultry fat. Source: [Agriculture](../foundations/food-agriculture.md) or hunting.
-- **Water**: For olive oil washing and animal fat rendering. Source: [Water Supply](../water/index.md).
-- **Heat source**: Charcoal, wood fire, or steam for pressing temperature control. Source: [Energy](../energy/index.md).
+- **Water**: For olive oil washing and animal fat rendering. Source: [Water Supply](../water/basic-treatment.md).
+- **Heat source**: Charcoal, wood fire, or steam for pressing temperature control. Source: [Energy](../energy/engine.md).
 
 ### Tools and Equipment
 
@@ -80,6 +80,16 @@ Olive oil is unique among vegetable oils because it is extracted from the fruit 
 6. **Settling**: Allow oil to settle 1-3 weeks in stainless steel or glass containers. Sediment falls to bottom. Rack (decant) clear oil off sediment.
 7. **Storage**: Dark glass bottles or stainless steel containers, 14-18°C, away from light and heat. Olive oil oxidizes when exposed to light — rancidity develops in weeks in clear bottles.
 
+**Strengths**:
+- Cold pressing below 27°C preserves polyphenols, tocopherols, and flavor compounds — extra virgin olive oil has the highest antioxidant content of any cooking oil
+- Olive trees produce fruit for 100+ years with minimal maintenance — a permanent oil-producing asset once established
+- Pit fragments in the paste create channels that aid oil release without any chemical processing
+
+**Weaknesses**:
+- Olives must be processed within 24 hours of harvest — oxidation begins immediately after picking, requiring proximity of press to grove
+- Cold pressing extracts only 70-85% of available oil — the remaining pomace requires solvent extraction or is wasted
+- Olive trees take 5-8 years to reach productive maturity and require Mediterranean climate (hot dry summers, mild winters)
+
 ### Seed Oil Pressing (Expeller Method)
 
 1. **Seed preparation**: Clean seeds to remove chaff, stones, and stems. Dry to 8-10% moisture. Moist seeds clog the press; overly dry seeds produce dusty meal and lower yield.
@@ -93,6 +103,16 @@ Olive oil is unique among vegetable oils because it is extracted from the fruit 
    - **Neutralization**: Add 12-16% NaOH solution to neutralize free fatty acids. Soap stock forms and settles. Centrifuge.
    - **Bleaching**: Add 1-3% activated bleaching earth at 90-110°C under vacuum. Removes pigments and residual soap.
    - **Deodorization**: Steam distillation at 230-260°C under high vacuum (1-5 mmHg) for 30-60 minutes. Removes volatile flavor compounds and free fatty acids. Produces neutral-flavored, high smoke-point oil.
+
+**Strengths**:
+- Expeller pressing handles multiple seed types (sunflower, rapeseed, peanut, sesame) with the same equipment — one press serves all oilseeds
+- Press cake byproduct contains 30-45% protein and is valuable as animal feed — dual revenue stream from single input
+- Conditioning at 60-90°C doubles yield vs. cold pressing while maintaining acceptable oil quality
+
+**Weaknesses**:
+- Expeller screw and cage bars require hardened steel to withstand 50-150 bar pressure and abrasive seed particles — demands industrial metallurgy
+- Hot pressing above 80°C degrades heat-sensitive nutrients (vitamin E, polyphenols) and requires refining to remove off-flavors
+- Refining sequence (degumming, neutralization, bleaching, deodorization) requires 4 separate processing steps with chemical inputs (NaOH, bleaching earth)
 
 ### Animal Fat Rendering
 
@@ -113,6 +133,26 @@ Rendering melts fat from animal tissues by heating. Two methods:
 2. **Heat without water**: Place fat in heavy-bottomed pot or rendering tank. Heat slowly to 110-130°C. Fat melts out of the tissue. Higher temperature than wet rendering, but no water means clearer fat.
 3. **Duration**: 2-6 hours depending on batch size and temperature. Stir occasionally to prevent sticking.
 4. **Strain and cool**: Same as wet rendering step 4-6.
+
+**Strengths (Wet Rendering)**:
+- Wet rendering requires only a pot, water, and fire — achievable from Year 0 with ceramic or iron vessels
+- Water prevents scorching at 90-95°C simmer, producing cleaner fat than dry rendering
+- Cracklings (pressed solids) are high-protein food or animal feed — 60-70% protein by dry weight
+
+**Weaknesses (Wet Rendering)**:
+- Wet-rendered fat contains residual water (1-3%) that limits shelf life to 2-4 months unless clarified by reheating to 110-120°C
+- Emulsification risk if boiled vigorously — fat and water form a cloudy mixture that does not separate on cooling
+- Duration of 2-4 hours of simmering per batch requires constant attention and significant fuel
+
+**Strengths (Dry Rendering)**:
+- Dry rendering produces clearer fat with no emulsification risk and longer shelf life (6-12 months)
+- Higher rendering temperature (110-130°C) extracts fat more completely — yield 0.70-0.85 kg fat per kg raw beef suet
+- No water addition means no separate clarification step needed
+
+**Weaknesses (Dry Rendering)**:
+- Requires heavier pot (cast iron preferred) to distribute heat evenly without water as a temperature buffer
+- Higher temperature (110-130°C) increases fire risk and burn hazard compared to wet rendering's 90-95°C simmer
+- Fat can scorch if not stirred regularly — scorched fat has off-flavors and reduced shelf life
 
 ## Quantitative Parameters
 

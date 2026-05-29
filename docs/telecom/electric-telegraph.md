@@ -2,10 +2,11 @@
 
 > **Node ID**: telecom.electric-telegraph
 > **Domain**: [Telecommunications](./index.md)
-> **Dependencies**: [`energy.electricity`](../energy/electricity.md), `metals`, [`telecom.pre-electric`](pre-electric.md), [`transport.telegraph`](../transport/telegraph.md)
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md), [`metals`](../metals/index.md), [`telecom.pre-electric`](pre-electric.md), [`transport.telegraph`](../transport/telegraph.md)
 > **Enables**: [`telecom.radio`](radio.md), [`telecom.submarine-cables`](submarine-cables.md), [`telecom.telephone`](telephone.md)
 > **Timeline**: Years 20-40
 > **Outputs**: telegraph_networks, block_signaling_systems, message_routing
+> **Critical**: No — communication accelerates coordination but is not strictly required for survival
 
 ## Overview
 

@@ -3,7 +3,7 @@
 > **Node ID**: foundations.food-agriculture
 > **Domain**: [Foundations](./index.md)
 > **Dependencies**: [`agriculture.soil-management`](../agriculture/soil-management.md), [`animals.beekeeping`](../animals/beekeeping.md), [`animals.pigs`](../animals/pigs.md), [`animals.rabbits`](../animals/rabbits.md), [`foundations.tools-basic`](tools-basic.md), [`plants.edible-plants`](../plants/edible-plants.md)
-> **Enables**: [`animals.poultry`](../animals/poultry.md), `food-processing`, [`knowledge.writing`](../knowledge/writing.md)
+> **Enables**: [`animals.poultry`](../animals/poultry.md), [`food-processing`](../food-processing/index.md), [`knowledge.writing`](../knowledge/writing.md)
 > **Timeline**: Years 0-10+
 > **Outputs**: food_surplus, grain, preserved_food
 
@@ -19,6 +19,16 @@
 - **Harvesting**: Sickle (stone or iron blade, curved handle) cuts grain stalks.
   Threshing (beat with flail to separate grain from chaff). Winnowing (toss in wind, chaff blows away).
 - **Yield targets**: 1:5 to 1:15 seed-to-harvest ratio (ancient averages). Modern with no inputs: ~1-2 tonnes/hectare.
+
+**Strengths**:
+- Grain provides 3,400-3,600 kcal/kg — the highest caloric density of any staple crop, feeding 4-6 people per hectare per year with hand tools
+- Wheat and barley serve triple duty: food (bread, porridge), drink (beer), and animal feed (straw, chaff)
+- Grain stores for 2-5 years at <14% moisture in sealed containers — the most stable food reserve before canning
+
+**Weaknesses**:
+- Grain cultivation requires cleared, prepared fields — clearing 1 hectare of forest with stone tools takes 20-40 worker-days
+- Seed-to-harvest ratio of 1:5 to 1:15 means 50-100 kg seed per hectare must be reserved from the previous harvest, reducing food available during lean years
+- Continuous grain cropping without rotation depletes soil nitrogen in 3-5 years, dropping yields to uneconomic levels
 
 **Grain milling**:
 - **Saddle quern**: Flat stone base 30-50 cm × 20-30 cm with a hand-held rubbing stone 15-20 cm.
@@ -41,6 +51,16 @@
   The watermill frees enormous human labor and is one of the highest-return investments
   in a growing community.
 
+**Strengths**:
+- Saddle quern requires only two suitable stones — the simplest milling method, achievable at Year 0
+- Rotary quern produces 1-5 kg flour/hour (5× saddle quern improvement) with less physical effort, operated seated
+- Watermill produces 50-100 kg flour/hour — one mill feeds an entire settlement, freeing labor for other tasks
+
+**Weaknesses**:
+- Saddle quern produces only ~1 kg flour/hour — 2-4 hours daily grinding to feed a family
+- Rotary quern stones need periodic re-cutting (dressing) as grooves wear smooth — requires a skilled stone dresser
+- Watermill requires 100-300 L/s water flow with 2-4 m head — not available in all locations
+
 **Animal domestication**: See [Animals → Domestication](../animals/domestication.md) for livestock
 species profiles, housing, feed requirements, and breeding.
 See [Animals → Draft Power](../animals/draft-power.md) for plowing and cart operations.
@@ -54,6 +74,16 @@ See [Animals → Draft Power](../animals/draft-power.md) for plowing and cart op
   dairy (yogurt, cheese: lactic acid bacteria coagulate milk proteins).
 - **Root cellaring**: Cool (3-10°C), humid (85-95% RH), dark underground storage
   for root vegetables, apples, cabbage. Maintained by ventilation control.
+
+**Strengths**:
+- Drying reduces food to 10-20% of original weight, enabling transport and long-term storage (6-12 months) with no energy input
+- Fermentation preserves food and increases nutritional value (B vitamins, bioavailable minerals) using only salt and naturally occurring bacteria
+- Root cellaring maintains 3-10°C year-round underground, extending fresh vegetable shelf life from days to months
+
+**Weaknesses**:
+- Salting consumes 10-30% of food weight in salt — salt supply chains are a civilization-level dependency
+- Sun drying fails in humid climates (>60% RH) and takes 2-5 days of clear weather
+- Smoking requires 4-48 hours of sustained low heat and constant monitoring of the fire
 
 **Irrigation**:
 - **Shaduf**: Counterweighted lever arm to lift water ~1-2 m.
@@ -221,6 +251,16 @@ Bee pollination increases crop yields 20-30%.
   Maintain infrastructure: clear drainage ditches, repair roof thatch, service irrigation channels.
   Process stored food: mill grain into flour, render fat, make cheese from stored milk.
   Spin wool into yarn during indoor hours.
+
+**Strengths**:
+- 3-field crop rotation (grain → legume → fallow) maintains soil fertility indefinitely by fixing 40-80 kg nitrogen/hectare from legume crops
+- Seasonal calendar distributes labor evenly across the year — peak demand at harvest, minimum in winter for tool repair and planning
+- Composting converts all organic waste (crop residues, animal manure, ash) into fertilizer at zero cost
+
+**Weaknesses**:
+- 3-field rotation leaves one-third of arable land fallow each year — reduces effective food production area by 33%
+- Harvest timing is weather-dependent: rain during the grain harvest (autumn) can ruin an entire year's crop in days
+- Labor bottleneck at harvest requires the entire community to participate — sickness or conflict during this period causes crop loss
 
 ### Cross-Domain Links
 

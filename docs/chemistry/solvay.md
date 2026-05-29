@@ -1,9 +1,12 @@
 # Solvay Process
 
 > **Node ID**: chemistry.solvay
-> **Domain**: Chemistry
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.ammonia`](ammonia.md), [`mining.processing`](../mining/processing.md)
+> **Enables**: [`chemistry.alkalis`](alkalis.md), [`glass.basic`](../glass/basic.md), [`chemistry.soap`](soap.md)
 > **Timeline**: Years 15-30
 > **Outputs**: sodium_carbonate, sodium_bicarbonate, calcium_chloride
+> **Critical**: Yes — the Solvay process is the most efficient route to soda ash (Na₂CO₃), which is required for glass manufacturing, detergent production, and as a chemical feedstock for NaOH production via causticization.
 
 ## Overview
 
@@ -58,6 +61,10 @@ NaCl conversion efficiency: 72-75%. The remaining 25-28% of NaCl stays in the mo
 
 Temperature profile is critical: too cold → slow reaction, fine crystals difficult to filter; too warm → increased NaHCO₃ solubility, reduced yield. The tower is cooled by internal coils or external water jackets at multiple levels.
 
+**Strengths**: Produces NaHCO₃ precipitate that drives equilibrium forward; 72-75% NaCl conversion per pass (unreacted salt recycled); continuous operation with steady-state control; crystal size controllable via cooling rate for good filtration.
+
+**Weaknesses**: Tower is capital-intensive (20-30 m tall steel vessel with bubble-cap trays); temperature profile must be maintained within narrow range; CO₂ absorption limited to 80-90% (tail gas requires scrubbing); cooling water demand is substantial.
+
 ### Filtration
 
 The NaHCO₃ slurry (30-40% solids) from the carbonation tower bottom is filtered on rotary vacuum filters (2-4 m diameter drum, rotating at 0.5-2.0 RPM) or centrifuges (pusher or peeler type, 800-1500 RPM).
@@ -78,6 +85,10 @@ Wet NaHCO₃ cake is dried and calcined in a rotary kiln or fluidized-bed calcin
 
 **Product**: Light soda ash (Na₂CO₃, density ~500 kg/m³). Convert to dense soda ash (density ~1000 kg/m³) by rehydration (Na₂CO₃ + 10H₂O → Na₂CO₃·10H₂O at 35°C) and recalcination — denser product is easier and cheaper to transport. Dense soda ash flows like sand; light soda ash is fluffy and dusty.
 
+**Strengths**: CO₂ byproduct is concentrated (~90%+) and directly recyclable to carbonation tower — reduces fresh CO₂ demand; fluidized-bed option offers 20-30% energy savings over rotary kiln; dense ash conversion doubles bulk density for cheaper transport.
+
+**Weaknesses**: Rotary kiln is energy-intensive (3.5-4.5 GJ/tonne); wet cake requires significant heat input just for drying before calcination begins; light ash is dusty and difficult to handle without densification step; refractory lining in kiln requires periodic replacement.
+
 ### Ammonia Recovery (Distillation)
 
 The mother liquor from filtration contains valuable NH₃ (as NH₄Cl) that must be recovered. This is the key to the process economics — only 1-2 kg NH₃ makeup is needed per tonne Na₂CO₃ because the NH₃ is continuously recycled.
@@ -88,6 +99,10 @@ The mother liquor from filtration contains valuable NH₃ (as NH₄Cl) that must
 
 **Still bottom liquor**: Contains CaCl₂ (~10% solution), unreacted NaCl, and traces of Ca(OH)₂. Discharged as waste — this is the main waste stream, ~10 tonnes per tonne Na₂CO₃. CaCl₂ has commercial uses (de-icing roads at eutectic -51°C, dust control, concrete accelerator at 1-2% by weight of cement), but the volume produced far exceeds market demand.
 
+**Strengths**: Only 1-2 kg NH₃ makeup per tonne Na₂CO₃ — closed-loop recycling is the key economic advantage; steam stripping recovers >99% of NH₃; lime from same limestone source provides Ca(OH)₂ for the reaction; CO₂ from lime kiln feeds carbonation — integrated material flows.
+
+**Weaknesses**: ~10 tonnes of CaCl₂ waste solution per tonne product (major disposal problem); CaCl₂ discharge increases waterway salinity; ammonia still requires 15-25 m tall column with steam injection (capital cost); Ca(OH)₂ slurry handling is messy and caustic.
+
 ### Lime Kiln and Slaker
 
 **Lime kiln**: Vertical shaft kiln (6-10 m tall, 2-4 m diameter) or rotary kiln (30-60 m long). Feed limestone (CaCO₃, 50-150 mm pieces) and fuel (coke, natural gas, or coal). Temperature: 900-1100°C in the calcination zone. Reaction: CaCO₃ → CaO + CO₂. CO₂ (30-40% concentration in the exit gas, mixed with N₂ from combustion air) is cooled, scrubbed (removes SO₂ and dust), and sent to the carbonation tower.
@@ -95,6 +110,10 @@ The mother liquor from filtration contains valuable NH₃ (as NH₄Cl) that must
 Lime kiln fuel: 0.08-0.12 tonnes coke per tonne CaO produced. The CO₂ from the lime kiln accounts for roughly half the CO₂ needed for carbonation; the other half comes from the NaHCO₃ calciner. Yield: 56 kg CaO per 100 kg CaCO₃ (theoretical), 90-95% practical.
 
 **Slaker**: CaO + H₂O → Ca(OH)₂, highly exothermic (65 kJ/mol). Add quicklime to water (never water to lime) in a slaking tank at 80-90°C. The resulting milk of lime (15-25% solids) is the feed for ammonia recovery. Excess water controls temperature — the reaction can generate >150°C locally if not well-mixed.
+
+**Strengths**: Lime kiln provides both CaO for slaking AND CO₂ for carbonation from a single feedstock (limestone); shaft kiln design is simple and well-proven; 90-95% practical CaO yield; CO₂ from kiln accounts for ~half the carbonation CO₂ demand.
+
+**Weaknesses**: Kiln temperature 900-1100°C requires refractory lining and significant fuel; CO₂ from kiln only 30-40% concentration (diluted by combustion N₂); slaking is violently exothermic — careful water addition required; dual fuel and feedstock logistics (coke + limestone) add transport complexity.
 
 ## Material and Energy Balance
 
@@ -206,6 +225,4 @@ The key innovation was the closed ammonia loop — previous attempts at ammonia-
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*
-
-[← Back to Chemistry](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

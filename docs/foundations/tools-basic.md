@@ -1,7 +1,7 @@
 # Stone & Wood Tools
 
 > **Node ID**: foundations.tools-basic
-> **Domain**: Foundations
+> **Domain**: [Foundations](./index.md)
 > **Dependencies**: None (root capability)
 > **Enables**: [`animals.aquaculture`](../animals/aquaculture.md), [`animals.beekeeping`](../animals/beekeeping.md), [`animals.draft-power`](../animals/draft-power.md), [`ceramics.pottery`](../ceramics/pottery.md), [`construction.building-materials`](../construction/building-materials.md), [`foundations.food-agriculture`](food-agriculture.md), [`foundations.water-procurement`](water-procurement.md), [`knowledge.writing`](../knowledge/writing.md), [`mining.extraction`](../mining/extraction.md), [`textiles.fibers`](../textiles/fibers.md), [`transport.roads`](../transport/roads.md)
 > **Timeline**: Years 0-5
@@ -16,11 +16,31 @@
 - **Heat treatment**: Some cherts improve flaking quality after slow heating to 250-350°C in sand or ash, held at temperature for several hours, then cooled slowly. Heat treatment makes the stone more glass-like and easier to pressure flake. Test on a small sample before committing good material. Overheating causes crazing (surface cracks) and ruins the stone.
 - **Tool types**: Hand axes (bifacial), scrapers (hide processing, wood shaping), projectile points (hunting), drill bits (rotating between hands or with bow drill attachment), burins (engraving, scoring), knives (cutting, butchering).
 
+**Strengths**:
+- Obsidian pressure-flaked edges are ~3 nm wide — sharper than surgical steel scalpels (~500 nm), producing cleaner cuts with less tissue damage
+- Flint and chert are widely available in sedimentary geology — raw material is free and abundant in most regions
+- Heat treatment at 250-350°C improves flaking quality of marginal cherts, expanding the range of usable stone
+
+**Weaknesses**:
+- Stone edges are brittle — obsidian fractures on contact with bone or hard materials, requiring frequent re-sharpening
+- Heat treatment is risky: overheating causes crazing (surface cracks) that ruins the stone permanently
+- Pressure flaking produces sharp edges but cannot create complex shapes like curved blades or hollow-ground tools
+
 **Ground stone tools**:
 - **Pecking**: Repeatedly striking granite, basalt, or greenstone with hammerstone to rough out shape. Pecking leaves a rough but controlled surface. The process is slow but produces tools far tougher than flaked stone, capable of withstanding heavy impact.
 - **Grinding**: Rub against flat abrasive stone (sandstone) with water and sand slurry. Hours of grinding produce polished, sharp edges. A full-sized axe head takes 6-12 hours to grind to completion, depending on the hardness of the stone.
 - **Tool types**: Axes (grooved for handle attachment), adzes (woodworking, blade set perpendicular to handle for hollowing), mortars and pestles (grain processing, 15-30 cm bowl depth), manos and metates (grain grinding, flat stone with hand-held grinder), grooved mauls (heavy splitting tools, 2-5 kg).
 - **Hafting ground stone axes**: Cut a tapered slot in a hardwood handle, fit the grooved stone head into the slot, and bind tightly with rawhide or wet sinew. As the binding dries, it shrinks and locks the head in place. Add pine pitch or birch tar for extra security. A well-hafted ground stone axe can fell a 30 cm tree in 20-40 minutes.
+
+**Strengths**:
+- Ground stone axes withstand heavy impact that would shatter flaked stone — capable of felling 30 cm trees in 20-40 minutes
+- Grinding produces polished surfaces that reduce friction and resist wear — ground axe heads last 10-50× longer than flaked equivalents
+- Pecking and grinding techniques work with tough stone (granite, basalt, greenstone) that is too hard for knapping
+
+**Weaknesses**:
+- Grinding a full axe head takes 6-12 hours of continuous abrasion against sandstone with water slurry — extremely labor-intensive
+- Hafting failure (binding loosens, adhesive cracks) sends the stone head flying — a significant safety hazard during tree felling
+- Grooved axe heads require a specific stone shape (oval or rectangular with a circumferential groove) that not all stone sources provide
 
 **Wooden tools and implements**:
 - **Hafting**: Attach stone heads to wooden handles using sinew, rawhide, or plant-fiber cordage, secured with pine pitch or birch tar adhesive. The binding wraps around the stone head and handle in a figure-eight pattern. Wet rawhide shrinks as it dries, creating a tight, self-tightening grip. A properly hafted axe survives hundreds of strikes before re-binding.
@@ -29,6 +49,16 @@
 - **Digging sticks**: Fire-harden tip of hardwood stick (heat until brown, not black) for soil penetration. A fire-hardened digging stick penetrates packed soil that would blunt a raw wood tip. Length 1-1.5 m, diameter 2-3 cm. Attach a foot-step (crosswise peg or stone weight lashed near the tip) to push with the foot for deeper digging.
 - **Wooden bowls and spoons**: Carve from a greenwood block using a curved knife (crook knife) or burning and scraping. Burn the hollow with embers, scrape the char with a stone or shell, repeat until the bowl reaches the desired depth. Seal with oil or fat to reduce water absorption.
 
+**Strengths**:
+- Birch tar adhesive is the strongest natural adhesive available — waterproof, slightly flexible, and absorbs shock without cracking
+- Fire-hardened digging sticks penetrate packed soil that would blunt raw wood tips — durable enough for repeated use
+- Rawhide hafting shrinks as it dries, creating a self-tightening grip that holds stone heads securely through hundreds of strikes
+
+**Weaknesses**:
+- Birch tar requires heating birch bark to 300-400°C in a sealed container — hot tar causes severe burns and sticks to skin
+- Wooden tool handles split if dried too fast (checking) — ash and hickory must be dried slowly over weeks
+- Pine pitch adhesive softens above 80°C, limiting use near fires and forges
+
 **Cordage and rope making**:
 - **Fiber extraction**: Harvest plant stems (hemp, flax, jute, nettle, dogbane). Ret in water for 1-2 weeks to decompose pectin binding fibers. Beat stems against stone or wood to separate bast fibers from woody core (shives). Comb through coarse teeth to separate and align. The resulting long, aligned fibers are called tow or sliver.
 - **Reverse-wrap technique (2-strand)**: Hold two fiber strands side by side. Twist both clockwise until they kink, then fold in half, and they naturally wrap counterclockwise around each other. Continue adding fibers by splicing in new strands before reaching the ends. Produces uniform cordage. This is the default method for making thin cordage (1-4 mm) used in binding, sewing, net-making, and fishing line.
@@ -36,6 +66,16 @@
 - **Strength by diameter**: 1 cm hemp rope holds ~100 kg; 2 cm holds ~400 kg. Wet natural fiber rope is stronger than dry (fibers swell and grip tighter). These are working loads; breaking strength is 5-8 times higher, but never approach breaking strength in practice.
 - **Splicing**: To join two ropes or repair breaks, unlay strands 10-15 cm, interleave with matching strands from the other end, and wrap tightly with thin cordage. A good splice retains ~80% of rope strength. Practice splicing on scrap rope until the tapered ends blend smoothly; a lumpy splice snags on pulleys and edges.
 - **Rope maintenance**: Keep natural fiber rope dry when not in use. Rot and mildew weaken rope rapidly in damp storage. Coil properly (following the natural lay of the rope) to prevent kinks. Inspect ropes before critical use: look for chafed spots, broken strands, or discoloration indicating rot. Retire suspect rope to non-critical tasks.
+
+**Strengths**:
+- Hemp rope at 1 cm diameter holds ~100 kg working load; at 2 cm holds ~400 kg — sufficient for construction, hauling, and lifting
+- Wet natural fiber rope is stronger than dry (fibers swell and grip tighter) — performs well in maritime and wet conditions
+- Plant fiber cordage requires only retting (1-2 weeks in water) and hand-twisting — achievable from Year 0
+
+**Weaknesses**:
+- Retting takes 1-2 weeks and produces foul-smelling water from decomposing pectin — must be done away from drinking water sources
+- Natural fiber rope degrades in damp storage: rot and mildew reduce breaking strength by 30-50% within months
+- Splicing retains only ~80% of rope strength vs. a continuous rope — every joint is a weak point
 
 **Antler and bone tools**:
 - **Pressure flaker**: Antler tine (deer, elk) for pressure flaking flint. Harder than wood, softer than stone, making it ideal for controlled flake removal. An antler tine lasts for many hours of flaking before it rounds over. Sharpen on a coarse stone to restore the tip.
@@ -56,6 +96,16 @@
 - **Floor construction**: For a raised floor, lay horizontal beams between the lowest wall plates, then lay split logs or planks across the beams. For an earthen floor, pack the ground level with tamped clay-soil mix 5-10 cm thick, then seal with a thin layer of diluted animal blood or linseed oil. An earthen floor is warm, cheap, and surprisingly durable if kept dry.
 - **Thatched roof**: Bundle reed, straw, or long grass (~60 cm bundles). Tie to roof poles with cordage, overlapping from eave to ridge like shingles. 30-40 cm thatch depth sheds water for 20-30 years. Roof pitch minimum 45° for water run-off. Steeper pitch (50-60°) lasts longer because water clears faster. A 5 m by 8 m roof needs 300-500 bundles and 2-3 workers for a week. Harvest thatching reed in winter when dry and stiff.
 - **Simple door and shutters**: Split planks with a wedge and mallet, smooth with an adze. Peg planks to two horizontal battens. Hang on wooden pivot hinges (wooden pins set into holes in the lintel and sill). A pivot hinge is simpler than strap hinges and requires no ironwork.
+
+**Strengths**:
+- Wattle-and-daub walls provide insulation (~10 cm thick) from readily available materials (saplings, clay, straw) — no timber framing needed
+- Post-and-beam construction lasts 20-40 years when post ends are charred to slow rot — permanent shelter from basic materials
+- Thatched roof at 45-60° pitch sheds water for 20-30 years — 300-500 bundles cover a 5×8 m roof
+
+**Weaknesses**:
+- Wattle-and-daub walls are not load-bearing beyond a single story — limited to low structures
+- Thatched roof is flammable: a single spark from a chimney or hearth can ignite dry thatch, destroying the entire structure
+- Post-and-beam posts rot at ground level within 20-40 years even when charred — replacement requires jacking up the structure
 
 **Advanced woodworking**:
 - **Steam bending**: Place green wood strip (1-3 cm thick) inside a sealed wooden steam box with a steam inlet from a boiling water pot. Steam for 1-2 hours per cm of thickness. Pull the softened strip out, bend it around a wooden form, clamp it in place, and let it dry for 24-48 hours. The lignin in the wood resets around the new shape. Used for boat ribs, chair backs, barrel staves, and any curved structural member. Over-steaming makes the wood brittle; under-steaming causes springback. Oak, ash, and elm bend well. Pine and spruce tend to split. Always bend with the grain, not across it.
@@ -174,6 +224,16 @@
 - **Screw press with lever**: a screw press driven by a long lever arm instead of a direct handle. The lever feeds force into the screw, and the screw feeds force into the pressing plate. Combined MA can exceed 100:1, enough to extract oil from seeds or press paper pulp.
 - **Block and tackle on a tripod**: three poles lashed together at the top, forming a freestanding gantry. Suspend a 4-sheave block and tackle from the apex. Used for lifting heavy stones onto walls, positioning timber beams, or hauling equipment. The tripod is self-supporting and doesn't require attachment to a building frame.
 - **Well sweep**: a Class 1 lever with the fulcrum (a forked post) near one end. A long pole (3-5 m) pivots on the fork, with a bucket hanging from the short end and a counterweight (stone or heavy log) on the long end. Pull the long end down to lower the bucket into the well, and the counterweight helps raise the full bucket. Simple, reliable, and needs no rope or pulley. Used for shallow wells (5-10 m depth).
+
+**Strengths**:
+- Block and tackle with 4 pulleys gives MA = 4:1, letting a single person lift 200 kg with 50 kg of pull — sufficient for construction hoisting
+- Screw press with lever arm achieves MA exceeding 100:1 — enough force to extract oil from seeds or press paper pulp
+- Well windlass (50 cm crank on 6 cm drum, MA = 10:1) enables one person to raise 40 kg of water with modest effort
+
+**Weaknesses**:
+- Wooden pulleys wear at the axle pin and can split under heavy loads — require regular inspection and replacement
+- Rope under tension in block-and-tackle systems stores enormous energy — a rope failure releases that energy suddenly, creating a hazard
+- Wooden screws are difficult to cut accurately without metal taps and dies — thread quality varies, producing uneven pressure in screw presses
 
 ---
 

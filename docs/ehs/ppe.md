@@ -11,6 +11,36 @@
 
 Semiconductor fabrication exposes workers to hydrofluoric acid, pyrophoric silane, toxic hydride gases, strong oxidizers, and organic solvents — often simultaneously in the same work area. PPE selection for semiconductor manufacturing must account for multiple hazard types, chemical compatibility with specific process chemicals, cleanroom compatibility (low particle generation), and the potential for rapid escalation (a silane leak can flash to fire within seconds). This document defines PPE requirements specific to semiconductor fab operations, supplementing the general PPE guidance in [Occupational Health](../health/occupational-health.md).
 
+## Decision Framework: Respiratory Protection Selection
+
+| Hazard Level | Concentration Range | Required Respirator | Protection Factor | Use Case |
+|-------------|-------------------|--------------------|--------------------|----------|
+| Below PEL | <PEL | None (or surgical mask for particulate) | N/A | Routine cleanroom work |
+| Up to 10× PEL | PEL to 10× PEL | Half-face elastomeric with appropriate cartridge | 10× | Wet bench acid work, solvent handling |
+| Up to 50× PEL | 10× PEL to 50× PEL | Full-face elastomeric with appropriate cartridge | 50× | Acid dispensing, piranha preparation |
+| Up to 1,000× PEL | 50× PEL to 1,000× PEL | PAPR (tight-fitting full-face) or supplied air | 1,000× | HF bench maintenance, bulk chemical handling |
+| IDLH or unknown | Any IDLH atmosphere | SCBA (45-min cylinder) | 10,000× | Gas leak response, confined space rescue |
+
+### PPE Selection Trade-offs
+
+| Factor | Half-Face Respirator | Full-Face Respirator | PAPR | SCBA |
+|--------|---------------------|---------------------|------|------|
+| Protection factor | 10× | 50× | 25-1,000× | 10,000× |
+| Wear time (comfort) | 2-4 hours | 1-2 hours | 4-8 hours | 30-60 min (cylinder limit) |
+| Mobility | Full | Full | Moderate (battery pack) | Limited (cylinder weight) |
+| Communication | Clear | Muffled | Good (positive pressure) | Difficult |
+| Cost per unit | $30-50 | $80-150 | $800-1,500 | $3,000-6,000 |
+| Training required | Annual fit test | Annual fit test | Annual fit test + battery care | Monthly drill + medical clearance |
+
+### Implementation Steps
+
+1. **Conduct hazard assessment**: Document every chemical operation with exposure potential. For each, identify chemical(s), exposure route(s), and maximum foreseeable concentration.
+2. **Select PPE by operation**: Use the PPE Selection Matrix below. Match cartridge type to chemical class (acid gas = yellow, organic vapor = black, P100 = magenta).
+3. **Fit test all respirator users**: Qualitative (saccharin/bitrex taste test) or quantitative (portacount, fit factor ≥100 for half-face, ≥500 for full-face). Annual retest.
+4. **Establish cartridge change schedule**: Based on breakthrough time data, not subjective detection. Post change schedule at every respirator storage location.
+5. **Train on donning/doffing**: Practice prevents self-contamination during removal. Verify seal check before every use.
+6. **Inspect and maintain**: Daily user inspection. Monthly SCBA inspection. Annual flow test for PAPR/SCBA.
+
 ## PPE Selection Matrix
 
 ### Chemical Handling PPE by Operation
@@ -42,6 +72,22 @@ Semiconductor fabrication exposes workers to hydrofluoric acid, pyrophoric silan
 - Cartridge change schedule: Based on breakthrough time, not subjective detection. For semiconductor applications, establish change schedule from manufacturer data or air sampling results. Typical: organic vapor cartridges changed after 8 hours of use or when odor detected (whichever first). Acid gas cartridges changed after each shift in continuous acid exposure.
 - Fit testing: Required annually (OSHA 29 CFR 1910.134). Qualitative (taste test with saccharin or bitrex) or quantitative (portapcount, measured fit factor ≥100 for half-face). No facial hair in seal area
 
+**Strengths**:
+- Lowest cost respiratory protection ($30-50 per unit) for moderate exposure levels
+- Lightweight and compact — minimal interference with vision, communication, and manual tasks
+- Widest cartridge selection — color-coded cartridges for every chemical class encountered in fabs
+- Compatible with safety glasses and hard hats — no interference with other PPE
+- Comfortable for extended wear (2-4 hours) in non-IDLH environments
+- Simple donning/doffing — quick seal check before each use
+
+**Weaknesses**:
+- Lowest protection factor (10×) — insufficient for exposures above 10× PEL
+- No eye protection — separate goggles or face shield required for chemical splash protection
+- Requires tight face seal — facial hair, glasses, or facial structure can prevent adequate fit
+- Cartridge breakthrough is invisible — no warning when acid gas cartridges are exhausted
+- Breathing resistance increases as filters load — fatiguing during heavy physical exertion
+- Cannot be used in oxygen-deficient atmospheres (<19.5% O₂)
+
 **Full-face elastomeric respirator**:
 - Protection factor: 50× (reduces exposure to 1/50th ambient)
 - Use when: Airborne concentrations up to 50× PEL, eye protection needed against gas/vapor, splash risk
@@ -49,12 +95,43 @@ Semiconductor fabrication exposes workers to hydrofluoric acid, pyrophoric silan
 - Same cartridge selection as half-face
 - Fit factor requirement: ≥500 (quantitative fit test)
 
+**Strengths**:
+- 5× higher protection factor than half-face (50× vs. 10×) — covers exposures up to 50× PEL
+- Integrated face shield — simultaneous eye and respiratory protection from chemical splash
+- Tighter seal than half-face — larger sealing surface improves fit reliability
+- Same cartridge ecosystem as half-face — no separate supply chain
+- Better for acid and solvent operations — splash protection combined with respiratory protection
+
+**Weaknesses**:
+- More fatiguing for extended wear (1-2 hours) — larger seal area causes facial pressure and sweat
+- Muffled communication — full facepiece distorts speech, making verbal instructions difficult
+- Fogging risk — exhaled moisture condenses on lens unless anti-fog coating or nose cup is used
+- Higher cost than half-face ($80-150 per unit)
+- Requires quantitative fit testing (more expensive than qualitative)
+- Peripheral vision reduced — facepiece frame limits side vision compared to half-face with safety glasses
+
 **Powered air-purifying respirator (PAPR)**:
 - Protection factor: 25-1,000× depending on facepiece type (loose-fitting hood: 25×; tight-fitting full-face: 1,000×)
 - Use when: Extended wear required, facial hair prevents tight-fitting respirator seal, higher protection factor needed
 - Battery-powered blower draws air through filters/cartridges and delivers filtered air to headpiece at 4-6 CFM
 - Advantage: No breathing resistance (positive pressure), cooling airflow, integrated head/face/neck protection
 - Typical semiconductor use: HF bench maintenance, chemical spill cleanup, bulk chemical dispensing
+
+**Strengths**:
+- No breathing resistance — battery-powered blower pushes filtered air, reducing worker fatigue
+- Higher protection factor with loose-fitting hood (25×) — accommodates facial hair and glasses
+- Up to 1,000× protection with tight-fitting full-face PAPR
+- Cooling airflow — positive pressure air circulation reduces heat stress during extended operations
+- Most comfortable respirator for long-duration tasks (4-8 hours continuous wear)
+- Integrated head, face, and neck protection with hood-style headpiece
+
+**Weaknesses**:
+- High cost ($800-1,500 per unit) — 10-20× more expensive than half-face respirator
+- Battery management required — 4-8 hour runtime, batteries need daily charging and replacement scheduling
+- Bulky — battery pack and blower unit add weight and limit mobility in confined spaces
+- Motor and blower generate noise — may interfere with hearing warning alarms
+- Moving parts require more maintenance — blower, filters, and battery all need periodic inspection
+- Loose-fitting hoods offer lower protection (25×) than tight-fitting versions
 
 **Self-contained breathing apparatus (SCBA)**:
 - Protection factor: 10,000×
@@ -227,4 +304,4 @@ Pre-positioned at strategic locations near gas cabinets and VMBs:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [EHS](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

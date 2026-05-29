@@ -2,18 +2,19 @@
 
 > **Node ID**: plants.dye-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
-> **Dependencies**: `plants`, [`textiles.dyeing`](../textiles/dyeing.md)
+> **Dependencies**: [`plants`](./index.md), [`textiles.dyeing`](../textiles/dyeing.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 5-10
 > **Outputs**: natural_dyes, plant_pigments
+> **Critical**: No — color is important for signaling and trade but not strictly required for survival
 
-### Overview
+## 1. Overview
 
 Plants that yield natural colorants for dyeing textiles, leather, wood, ink, and coatings. Natural dyes have been the primary source of color for human material culture from prehistory through the 19th century, when synthetic aniline dyes superseded them. In a bootstrap context, dye plants provide the only practical path to colored textiles before the organic chemistry infrastructure needed for synthetic dyes exists. Color serves not only aesthetics but signaling (military uniforms, trade goods, social markers) and functional purposes (UV protection, mildew resistance from tannin-rich dyes).
 
 This capability covers the cultivation, harvesting, and primary extraction of dye substances from plant material. The downstream application of dyes to fiber and cloth is covered in [Dyeing](../textiles/dyeing.md).
 
-### Dye Extraction Methods
+## 2. Dye Extraction Methods
 
 The three principal methods for extracting color from plant material, listed in order of increasing complexity:
 
@@ -23,7 +24,53 @@ The three principal methods for extracting color from plant material, listed in 
 
 3. **Solvent extraction**: For concentrated dyes or when water extraction is inefficient. Uses alcohol (ethanol from fermentation) or alkaline solutions to pull pigments from tough plant material like bark, roots, and heartwood. Requires a closed vessel to prevent solvent evaporation. Yields more concentrated dye stuff suitable for trade or storage.
 
-### Mordanting and Color Fixation
+**Hot water extraction (decoction)**:
+
+**Strengths**:
+- Simplest method — requires only a pot, water, and heat source
+- Works for the majority of dye plants (madder, weld, walnut, onion skins)
+- No special equipment or chemicals — water is the universal solvent
+- Dye bath reusable 2-3 times — multiple dips per batch of material
+- Fast — 30-60 minutes to produce a working dye bath
+
+**Weaknesses**:
+- Cannot extract water-insoluble pigments — indigo precursors require fermentation instead
+- Heat degrades some delicate pigments — madder alizarin breaks down above 85°C
+- Dilute dye bath — large volumes of water needed relative to pigment yield
+- Bulky to store and transport — water-based dye baths are heavy and spoil within days
+- Inefficient for tough materials — bark and heartwood release little pigment in plain water
+
+**Fermentation extraction**:
+
+**Strengths**:
+- Only method for indigo precursor extraction — no alternative for blue dye production
+- Uses free materials — plant leaves, water, and alkaline ash lye (no purchased chemicals)
+- Produces concentrated, storable indigo cakes — a trade-grade commodity
+- Low technology — requires only a vat, warmth, and time
+
+**Weaknesses**:
+- Slow — 12-48 hours fermentation plus settling time
+- Unpleasant — anaerobic fermentation produces strong odors
+- Requires fresh leaf material — dried leaves lose indican content rapidly
+- Low yield — woad produces only 0.1-0.2% indigo by weight (1-2 g per kg leaves)
+- Temperature-sensitive — must maintain 40-50°C; too hot kills bacteria, too cold stalls fermentation
+
+**Solvent extraction**:
+
+**Strengths**:
+- Highest dye concentration — produces concentrated dyestuff suitable for trade and long-term storage
+- Extracts pigments from tough materials — bark, roots, and heartwood that resist water extraction
+- Smaller volumes than water extraction — concentrated product is lighter to transport
+- Works for pigments that are poorly water-soluble — alcohol and alkaline solutions reach compounds water cannot
+
+**Weaknesses**:
+- Requires closed vessel — solvent evaporation wastes alcohol and creates fire hazard
+- Higher technology threshold — needs ethanol production (distillation) or prepared alkaline solutions
+- More expensive per batch — solvent costs exceed water extraction significantly
+- Fire risk with alcohol solvents — ethanol vapors are flammable
+- Not needed for most common dye plants — overkill when simple water extraction suffices
+
+## 3. Mordanting and Color Fixation
 
 Most natural dyes are not substantive — they do not bond directly to fiber and require a mordant to achieve wash-fastness. The choice of mordant dramatically shifts the final color from a given dye plant. Common mordants available in a bootstrap context:
 
@@ -34,7 +81,7 @@ Most natural dyes are not substantive — they do not bond directly to fiber and
 
 See [Dyeing](../textiles/dyeing.md) for detailed mordant preparation procedures and fiber-specific protocols.
 
-### Color Range by Plant Source
+## 4. Color Range and Key Species
 
 Different plant organs produce different color families. Understanding which part to harvest and when is essential for predictable results:
 
@@ -200,12 +247,21 @@ Approximate dry plant material needed per 100g of wool fiber (alum-mordanted):
 
 Indigo is the most labor-intensive dye per unit color — roughly 4-5 kg of fresh woad leaves yield 1 gram of indigo pigment. True indigo (*Indigofera*) is roughly 5-10x more productive per leaf weight than woad, making it the preferred species wherever climate allows.
 
-### Dependencies
+## 9. Safety
 
-- Requires: [Plants & Botanical Resources](./index.md) (tool)
-- Feeds into: [Dyeing](../textiles/dyeing.md) (material — natural_dyes, plant_pigments)
-- Related: [Fiber Plants](./fiber-plants.md) (companion capability — fiber production)
+- **Alum (potassium aluminum sulfate)**: The most common mordant. Irritant to skin and eyes at concentrated solutions (20%+ w/v). Inhalation of alum powder irritates respiratory tract. Handle with gloves when preparing solutions. Dissolve in hot water in a ventilated area.
+- **Copper sulfate**: Toxic by ingestion (vomiting at 100 mg dose, lethal at 10-20 g). Blue crystals resemble candy — store in labeled containers away from food. Causes liver and kidney damage with chronic exposure. Handle with gloves; never pour copper-laden dye bath into waterways — toxic to aquatic life at <1 mg/L.
+- **Iron sulfate**: Moderately toxic. Causes gastrointestinal distress at 1-5 g doses. Overuse on fiber degrades protein fibers (wool, silk) — iron acts as a catalyst for oxidative fiber damage, causing blackened, brittle fabric over years. Limit to 5-10% WOF on protein fibers.
+- **Indigo vat (alkaline reducing solution)**: Traditional urine vats reach pH 9-10 (skin irritant). Chemical reduction vats using sodium hydrosulfite release sulfur dioxide gas — use in ventilated area. Alkaline solutions cause chemical burns on prolonged skin contact.
+- **Wood ash lye (potassium carbonate)**: pH 11-12. Causes severe chemical burns to skin and eyes. Always add lye to water (never water to lye — causes splashing). Wear eye protection when preparing lye solutions.
+- **General dye plant hazards**: Some dye plants (dyer's broom, broom) contain quinolizidine alkaloids — toxic if ingested in large quantities. Handle dye plants as you would any mildly toxic plant: wash hands after handling, keep away from food preparation areas.
+
+## 10. References
+
+- [Textiles: Dyeing](../textiles/dyeing.md) — downstream application of natural dyes to fiber and cloth
+- [Fiber Plants](./fiber-plants.md) — companion capability for fiber production
+- [Chemistry](../chemistry/index.md) — alum, copper sulfate, and other mordant production
+- [Plants & Botanical Resources](./index.md) — species catalog and botanical knowledge
 
 ---
-
-[← Back to Plants](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*

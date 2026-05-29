@@ -6,6 +6,7 @@
 > **Enables**: `electrochemistry.electroplating.copper-damascene`
 > **Timeline**: Years 30-70
 > **Outputs**: copper_interconnects, plated_nickel, plated_gold, plated_tin, copper_filled_vias
+> **Critical**: Yes — copper damascene electroplating is the only practical method to fill high-aspect-ratio interconnect features below 250 nm
 
 ### Overview
 
@@ -186,6 +187,16 @@ At smaller nodes, the barrier and seed layers consume an increasing fraction of 
 **REACH and wastewater regulations**:
 - Per- and polyfluoroalkyl substances (PFAS): Some plating bath formulations contain PFAS-based surfactants and mist suppressants. Under regulatory scrutiny — replacements under development.
 - Metal discharge limits: EPA Clean Water Act limits for electroplating wastewater discharge: Cu <0.5 mg/L, Ni <0.5 mg/L, Cr <0.5 mg/L, Cd <0.05 mg/L, Pb <0.1 mg/L, CN⁻ <0.2 mg/L. Achieved by chemical precipitation + ion exchange + activated carbon treatment.
+
+### Safety
+
+**Copper sulfate and acid hazard**: Copper damascene baths contain 40-100 g/L CuSO₄ in 50-100 g/L H₂SO₄. The sulfuric acid concentration (~5-10%) causes chemical burns on skin contact. Copper salts are toxic if ingested (target organs: liver, kidneys). Wear chemical splash goggles, face shield, acid-resistant apron, and nitrile gloves. Emergency eyewash and safety shower within 10 seconds travel time. Copper sulfate solution has a characteristic blue color — any skin contact is immediately visible and should be rinsed for 15 minutes.
+
+**Electrical hazard at high current**: Damascene plating cells operate at 0.3-1.5 V but deliver 50-500+ A. Low voltage is generally safe, but the high current creates a hazard if the cell is short-circuited through jewelry, watches, or metal tools. Remove all jewelry and conductive items before operating plating equipment. The power supply rectifier (0-20 V, 0-5000 A) has stored energy in its capacitor bank — de-energize and wait 30 seconds before servicing.
+
+**Cyanide in gold plating**: Potassium gold cyanide (KAu(CN)₂) in gold plating baths releases cyanide ions in acidic conditions. Never mix gold cyanide baths with acid waste streams — this generates lethal HCN gas. Gold bath waste is treated by alkaline chlorination (NaOCl at pH 10-11: CN⁻ → OCN⁻ → CO₂ + N₂). Test treated effluent for residual cyanide (<0.2 mg/L EPA limit).
+
+**Tin whisker electrical short risk**: Pure tin plating develops conductive crystalline whiskers (1-5 mm long, 1-2 μm diameter) over months to years, causing electrical shorts in fine-pitch electronics. Mitigate by post-plating annealing at 150°C for 1 hour or by alloying with 2-3% bismuth. Never use pure tin plating on conductor spacings below 0.5 mm without whisker mitigation.
 
 ### See Also
 

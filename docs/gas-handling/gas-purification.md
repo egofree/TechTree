@@ -47,6 +47,14 @@ This capability covers four purification methods ordered by increasing specifici
 5. For general particulate and soluble gas removal: use water scrubbing. Water absorbs water-soluble species (HCl, HF, NH₃, SO₂) by physical dissolution.
 6. Collect spent scrubber solution in a holding tank for neutralization and disposal. Never discharge untreated scrubber effluent.
 
+**Strengths:**
+- Countercurrent packed-column design maximizes gas-liquid contact area, achieving 90-99% removal of target contaminants in a single pass
+- NaOH scrubber converts toxic acid gases (Cl₂, HCl, H₂S) to non-toxic salts, enabling safe atmospheric discharge
+
+**Weaknesses:**
+- Scrubber solutions become spent and require neutralization and disposal — continuous waste stream generation
+- Cannot achieve ppb-level purity — residual contaminant levels of 10-100 ppm are the practical floor for wet scrubbing
+
 ### 4.2 Adsorption Drying and Purification
 
 1. Load two adsorber vessels in a lead-lag (twin-bed) configuration. While vessel A is online adsorbing moisture from the process gas, vessel B is offline being regenerated. Switch when the online vessel reaches breakthrough (downstream moisture exceeds specification).
@@ -56,12 +64,28 @@ This capability covers four purification methods ordered by increasing specifici
 5. Regenerate the spent vessel by heating to 250-350°C while flowing a purge gas (dry nitrogen or a slipstream of the purified product gas) through the bed in the reverse direction (countercurrent to the adsorption flow). The heated purge gas drives off adsorbed water and contaminants. Continue for 4-8 hours until outlet dew point reaches -70°C or lower.
 6. Cool the regenerated bed to operating temperature by flowing cold purge gas before placing it back in service.
 
+**Strengths:**
+- Twin-bed lead-lag configuration provides continuous purification — one bed is always online while the other regenerates
+- Molecular sieve 3Å achieves <1 ppm H₂O outlet purity with 15-25% water capacity by weight, and is fully regenerable at 250-350°C for 3-7 year service life
+
+**Weaknesses:**
+- Regeneration requires 250-350°C heating for 4-8 hours — significant energy input (50-200 kWh/ton adsorbent)
+- Gas channeling at velocities above 0.3 m/s bypasses adsorbent, causing premature breakthrough
+
 ### 4.3 Catalytic Purification (Oxygen and Hydrogen Removal)
 
 1. For oxygen removal from inert gases (N₂, Ar, He): pass the gas through a bed of reduced copper catalyst at 200-400°C. Copper reacts with trace O₂ to form CuO, removing oxygen to below 1 ppb. The catalyst bed is contained in a heated stainless steel vessel with internal thermocouples to verify uniform temperature.
 2. Regenerate the spent copper catalyst by flowing dilute hydrogen (2-5% H₂ in N₂) through the bed at 250-350°C. Hydrogen reduces CuO back to metallic copper (CuO + H₂ → Cu + H₂O). The water vapor is carried out by the purge gas. Monitor exit gas for moisture to confirm regeneration is complete.
 3. For hydrogen removal from inert or oxygen-containing streams: pass gas through a palladium or platinum catalyst bed at ambient to 100°C. The catalyst promotes oxidation of H₂ to H₂O (if O₂ is present) or adsorption onto the catalyst surface. The resulting water is removed by a downstream adsorbent dryer.
 4. For hydrocarbon removal: catalytic oxidation at 300-400°C over a platinum or palladium catalyst converts hydrocarbons to CO₂ and H₂O, which are then removed by downstream adsorption. This approach removes methane, ethylene, and other light hydrocarbons that adsorbents capture poorly.
+
+**Strengths:**
+- Copper catalyst removes O₂ to below 1 ppb — the deepest oxygen removal achievable by any non-cryogenic method
+- Catalytic oxidation converts trace hydrocarbons to easily-removable CO₂ and H₂O, solving the problem of methane's poor adsorption
+
+**Weaknesses:**
+- Reduced copper and palladium catalysts are pyrophoric — exposure to air after regeneration causes rapid oxidation and potential ignition
+- Catalysts are poisoned by sulfur compounds and halogens — a single exposure to H₂S or chlorine permanently degrades the catalyst bed
 
 ### 4.4 Cryogenic Separation
 
@@ -71,6 +95,14 @@ Cryogenic separation is covered in detail in [Air Separation](../chemistry/air-s
 2. Further cool to the target separation temperature using liquid nitrogen (LN₂, -196°C) or controlled Joule-Thomson expansion. For CO₂ removal from methane, cool to -55°C (CO₂ freezes at -78.5°C at 1 atm but deposits from gas streams at higher temperatures under pressure). For N₂/CH₄ separation, cool to -160 to -180°C.
 3. Separate the condensed or frozen fraction from the remaining gas by gravity in a phase separator or by filtration. The condensed fraction is the higher-boiling-point component.
 4. Warm the purified gas stream through the countercurrent heat exchanger, recovering cold energy from the incoming stream. This recuperative heat exchange reduces LN₂ consumption by 70-90%.
+
+**Strengths:**
+- Exploits boiling-point differences for bulk separation — achieves 99-99.999% purity in a single stage for favorable mixtures
+- Countercurrent heat recovery reduces LN₂ consumption by 70-90%, making the process economically viable
+
+**Weaknesses:**
+- Requires liquid nitrogen (-196°C) — cryogenic infrastructure is a major capital investment
+- Feed gas must be pre-dried to <1 ppm H₂O to prevent ice formation that blocks heat exchanger passages
 
 ## 5. Quantitative Parameters
 

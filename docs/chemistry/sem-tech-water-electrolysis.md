@@ -1,10 +1,12 @@
 # PEM Water Electrolysis with SEM Tech Membranes
 
-> **Node ID**: chemistry.water-electrolysis
-> **Domain**: Chemistry
+> **Node ID**: chemistry.sem-tech-water-electrolysis
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.sem-tech`](sem-tech.md), [`energy.electricity`](../energy/electricity.md)
+> **Enables**: [`chemistry.hydrogen-silane`](hydrogen-silane.md), [`chemistry.ammonia`](ammonia.md)
 > **Timeline**: Years 20-35
 > **Outputs**: hydrogen, oxygen
-> **Tags**: materials=[chemicals, polymers], era=industrial
+> **Critical**: No — SEM Tech membranes enable lower-cost PEM water electrolysis but are an alternative to alkaline electrolysis, not a unique enabler
 
 ## Overview
 
@@ -37,6 +39,10 @@ Two main technologies exist for water electrolysis:
 - Hydrogen purity: 99.99%+ directly from the cell
 - Advantages: compact (high current density), rapid dynamic response (sub-second), no liquid electrolyte, high purity, operates under pressure
 - Disadvantages: expensive membrane ($100-400/sq ft for Nafion), precious metal catalysts, acidic environment demands corrosion-resistant materials
+
+**Strengths**: PEM electrolysis produces 99.99%+ pure H₂ directly (no downstream purification needed for most applications); sub-second dynamic response matches intermittent renewable electricity perfectly; 5-10× higher current density than alkaline means compact footprint; no corrosive liquid electrolyte (KOH) to handle; operates under pressure (reduces compression cost for H₂ storage).
+
+**Weaknesses**: Nafion membrane costs $100-400/ft² (dominant capital cost); Ir and Pt catalysts are scarce and expensive; acidic environment requires titanium or gold-coated cell components; membrane degradation from peroxide radical attack limits lifetime; SEM Tech PVC-based membrane has NOT yet been demonstrated for PEM water electrolysis — performance is theoretical.
 
 The critical barrier to PEM adoption is membrane cost. SEM Tech membranes, at less than $1 per square foot, could eliminate this barrier entirely -- but only if they perform adequately in the PEM water electrolysis environment.
 

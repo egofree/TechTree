@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 40-70
 > **Outputs**: cleanroom_facilities, pressure_cascade_systems, raised_floor_systems, hvac_systems
+> **Critical**: Yes — cleanroom facility design provides the structural envelope that enables all semiconductor manufacturing
 
 ### Overview
 
@@ -38,6 +39,14 @@ Every pipe, conduit, cable, and duct that passes through the cleanroom wall must
 - **Pipe sealing**: Process pipes (water, chemicals, gases) pass through sealed wall sleeves with O-ring compression seals. The seal allows axial movement (thermal expansion) while maintaining an airtight barrier.
 - **Design rule**: Minimize the number of penetrations. Route as many services as possible through the service chase (rear access corridor) rather than through the cleanroom wall. Every penetration is a potential leak point.
 
+**Strengths:**
+- Cam-lock fastener panel system enables modular construction — walls can be assembled, disassembled, and reconfigured without welding or permanent modification
+- Surface smoothness <0.8 μm Ra prevents particle adhesion and enables effective chemical decontamination with a single wipe pass
+
+**Weaknesses:**
+- Silicone sealant between panel joints requires periodic inspection and reapplication as it ages (5-10 year service life before hardening and cracking)
+- Coved corners with 30-50 mm radius reduce usable floor space compared to sharp corners — a significant penalty in expensive cleanroom floor area
+
 ### Raised Floor Systems
 
 The raised floor serves dual purposes: it provides the cleanroom working surface (perforated, anti-static tiles) and creates a return air plenum beneath for vertical laminar flow:
@@ -57,6 +66,14 @@ The raised floor serves dual purposes: it provides the cleanroom working surface
 - **Level tolerance**: ±1.5 mm across the entire floor. Uneven panels create turbulence in the return airflow and trip hazards for personnel. Level is set during installation and verified with a laser level.
 - **Stringers**: Horizontal steel channels connecting pedestals at the top. Stringers provide lateral stability and prevent pedestal sway under dynamic loads (personnel walking, carts). Not always required at low heights (<300 mm) but recommended for all installations.
 - **Grounding**: Each pedestal is electrically bonded to the building grounding system. The conductive floor panels discharge static through the pedestals to ground. Ground continuity is tested at installation and annually.
+
+**Strengths:**
+- Perforated panels (20-25% open area) provide uniform return airflow for vertical laminar flow while maintaining structural load capacity (5-10 kPa general, 20-30 kPa equipment areas)
+- Modular 600 × 600 mm panels allow quick underfloor access for maintenance without tools — lift a panel and set it aside
+
+**Weaknesses:**
+- Pedestal height of 300-600 mm above structural slab creates a large underfloor plenum that must be kept clean — construction debris left during installation becomes a permanent particle source
+- Level tolerance of ±1.5 mm across the entire floor is demanding; exceeding this tolerance creates turbulence in the return airflow and trip hazards for personnel
 
 **Underfloor plenum**:
 
@@ -81,6 +98,14 @@ The raised floor serves dual purposes: it provides the cleanroom working surface
 - **Light levels**: 800-1200 lux at wafer height for visual inspection and alignment. 300-500 lux for general process areas.
 - **Color rendering**: CRI >80 for accurate visual color matching (resist color inspection).
 - **UV filtering**: Fixtures must block wavelengths below ~450 nm to prevent accidental photoresist exposure. UV-blocking sleeves over fluorescent tubes or UV-filtering lens material. Cleanrooms often appear slightly yellow for this reason.
+
+**Strengths:**
+- Standard T-grid system (610 × 610 mm modules) allows mix-and-match of filter modules, blank panels, and lighting fixtures in any configuration
+- Gel seal technology provides bubble-tight seal accommodating minor frame irregularities, eliminating bypass leaks in ISO 3-4 installations
+
+**Weaknesses:**
+- Level tolerance of ±1.5 mm across the entire ceiling is difficult to achieve in practice — thermal cycling and building settlement cause drift over time
+- UV-filtering fixtures and yellow-tinted environments impair color discrimination for visual inspection tasks (resist color verification, defect identification)
 
 ### Positive Pressure Cascading
 
@@ -108,6 +133,14 @@ The raised floor serves dual purposes: it provides the cleanroom working surface
 - **Personnel airlock**: A small room (1.5 × 2 m) with interlocked doors on opposite walls. The operator enters from the gowning room, the inner door closes and locks, then the outer door to the cleanroom opens. Air shower: high-velocity filtered air jets (20-30 nozzles at 20-30 m/s) bombard the gowned operator for 15-30 seconds, dislodging particles from the garment surface. The airlock maintains +5 Pa above the gowning room.
 - **Material airlock (pass-through)**: A double-door chamber (0.6 × 0.6 × 0.6 m or larger) built into the cleanroom wall. Materials are loaded from the service corridor side, wiped with IPA-dampened lint-free wipes, the outer door closes and locks, then the inner door opens for retrieval inside the cleanroom. Eliminates the need to carry materials through the gowning room.
 
+**Strengths:**
+- Positive pressure cascade creates a passive one-way barrier — when doors open, clean air flows outward, requiring no active contamination control at the boundary
+- Interlocked airlock doors prevent simultaneous opening, maintaining the pressure barrier even during high-traffic periods
+
+**Weaknesses:**
+- Pressure differentials of 5-15 Pa are small — a single open door or large unsealed penetration can equalize the gradient and allow contaminated air infiltration
+- Air showers (20-30 m/s jets for 15-30 seconds) are unpleasant for operators and generate turbulence that can re-entrain particles from the garment surface rather than removing them
+
 ### Temperature and Humidity Control
 
 **Temperature control (22±0.5°C)**:
@@ -131,6 +164,14 @@ Tight temperature control is essential because photoresist dimensions are temper
 - **Dehumidification**: Chilled water cooling coils below the dew point condense moisture from the air. The condensate is drained away. Over-cooling followed by reheat maintains both temperature and humidity within tolerance.
 - **Humidification**: Clean steam (steam generated from deionized water, free of minerals and boiler chemicals) injected into the air stream. Potable steam (from treated boiler water) is NOT acceptable — it introduces mineral particles.
 
+**Strengths:**
+- Tight temperature control (±0.5°C) ensures wafer thermal expansion is predictable (0.78 μm per °C for 300 mm wafer), maintaining alignment precision across process tools
+- Humidity range of 40-50% RH simultaneously suppresses ESD (below 30% RH risk increases) and prevents moisture-related defects (above 60% RH)
+
+**Weaknesses:**
+- Maintaining 22±0.5°C requires N+1 chiller redundancy — a single chiller failure raises temperature beyond tolerance in minutes due to process equipment heat load (200-500 W/m²)
+- Dehumidification by over-cooling followed by reheat wastes energy — the cooling coil must remove more heat than needed, then the reheat coil adds heat back, consuming 30-50% more energy than direct humidity control
+
 ### HVAC System Architecture
 
 **Air handling unit (AHU)**:
@@ -149,6 +190,14 @@ The AHU conditions outside air and recirculated air to the required temperature 
 
 - **Recirculation system**: 70-85% of the air is recirculated through HEPA filters back to the cleanroom. 15-30% is fresh make-up air. Recirculation is energy-efficient (less outside air to heat/cool/dehumidify) but dilutes contaminants more slowly.
 - **Once-through system**: 100% outside air, conditioned and filtered, passed through the cleanroom once, and exhausted. Used for cleanrooms with hazardous processes (toxic gas exhaust, solvent evaporation) where recirculation would concentrate contaminants. Energy cost is 3-5× higher than recirculation.
+
+**Strengths:**
+- Centralized AHU handles all air treatment in one location, simplifying maintenance and monitoring
+- Recirculation mode reduces energy consumption by 60-80% compared to once-through systems
+
+**Weaknesses:**
+- AHU maintenance requires system shutdown or bypass, causing cleanroom pressure loss during service windows
+- Once-through systems for hazardous gas service consume 3-5× more energy, justified only when recirculation is unsafe
 
 ### Make-Up Air Details
 
@@ -197,6 +246,14 @@ Typical make-up air: 15-30% of total cleanroom airflow. For a 100 m² ISO 5 clea
 3. **Process flow**: Equipment arranged in wafer processing sequence (clean → coat → expose → develop → etch → deposit → test) to minimize wafer transport distance. Each unnecessary transport step increases contamination risk.
 4. **Service chase**: A separate corridor behind the cleanroom wall houses pumps, gas panels, electrical distribution, and exhaust ducting. Maintenance personnel access equipment from the chase side without entering the cleanroom, keeping tool maintenance activities (which generate particles) outside the clean envelope.
 
+**Strengths:**
+- Upstream-downstream equipment placement receives the cleanest air at the most contamination-sensitive processes (lithography, gate oxidation) first
+- Service chase design separates maintenance activities from the cleanroom, reducing particle-generating work in the controlled environment
+
+**Weaknesses:**
+- Service chase adds 20-30% to the total building footprint, increasing construction cost per square meter of usable cleanroom
+- Process flow sequence (clean → coat → expose → develop → etch → deposit → test) constrains equipment placement — deviations from the optimal flow increase wafer transport distance and contamination risk
+
 ### Design Parameters Summary
 
 | Parameter | Value | Tolerance | Notes |
@@ -212,6 +269,18 @@ Typical make-up air: 15-30% of total cleanroom airflow. For a 100 m² ISO 5 clea
 | Floor level tolerance | ±1.5 mm | — | Across entire floor |
 | Ceiling level tolerance | ±1.5 mm | — | Across entire ceiling |
 | Wall surface smoothness | <0.8 μm Ra | — | Mirror-finish epoxy |
+
+### Safety
+
+**Positive pressure hazard**: Cleanrooms maintained at +15-25 Pa above ambient create outward air flow when doors open. Interlocked airlock doors prevent both doors opening simultaneously, but manual override must only be used in emergencies. Door interlocks are fail-safe — both doors lock if power is lost.
+
+**Chemical exposure in construction**: Epoxy paint and silicone sealant emit VOCs during application. Neutral-cure silicone sealant is required (not acetoxy, which releases acetic acid that corrodes metal and contaminates wafers). Apply in well-ventilated areas with respirator (organic vapor cartridge, NIOSH-approved).
+
+**Raised floor collapse risk**: Floor panels support 5-10 kPa for general access. Overloading with heavy equipment (ion implanters at 10,000+ kg) without structural reinforcement causes panel collapse. Verify load rating before placing any item heavier than 200 kg on raised floor. Use load-spreading plates under heavy equipment.
+
+**Electrical safety in ceiling grid**: FFU power is 100-300 W per unit at 120-240 VAC. A cleanroom with 270 FFUs has 27-81 kW of electrical load in the ceiling. All maintenance on ceiling-mounted FFUs requires lockout/tagout. Never service an FFU while standing on a raised floor panel (no stable footing — use a grounded work platform).
+
+**Hot surface burns**: Heating coils in reheating sections of AHUs operate at 60-80°C. Insulate all accessible hot surfaces. Post warning signs on AHU access panels.
 
 ### See Also
 

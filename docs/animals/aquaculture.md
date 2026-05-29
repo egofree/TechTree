@@ -1,13 +1,12 @@
 # Aquaculture & Fisheries
 
 > **Node ID**: animals.aquaculture
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.insect-farming`](insect-farming.md), [`foundations.tools-basic`](../foundations/tools-basic.md)
 > **Enables**: [`agriculture.aquaponics`](../agriculture/aquaponics.md)
-> **Era**: Stone-age
-> **Parent**: animals
-> **Status**: Critical
 > **Timeline**: Years 2-10+
 > **Outputs**: fish, shellfish, fish_oil, dried_fish, smoked_fish, fish_sauce, fish_guano
+> **Critical**: Yes — highest protein conversion efficiency of any animal production system
 
 ### Overview
 
@@ -216,4 +215,6 @@ Seed clams in sandy or muddy intertidal areas. Mark beds with stakes. Clams grow
 
 **Water quality hazards**: Stagnant pond water can harbor *Leptospira* bacteria (from rodent urine), *Naegleria fowleri* (in warm freshwater), and harmful algal blooms (cyanobacteria, recognizable by blue-green surface scum). Do not drink untreated pond water. Avoid swimming in or contacting water with visible algal scum. Filter or boil all water drawn from ponds before consumption.
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

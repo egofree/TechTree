@@ -1,9 +1,12 @@
 # Animal Husbandry
 
 > **Node ID**: animals.animal-husbandry
-> **Domain**: Animals
+> **Domain**: [Animals](./index.md)
+> **Dependencies**: [`animals.domestication`](domestication.md)
+> **Enables**: [`animals.draft-power`](draft-power.md), [`animals.animal-materials`](animal-materials.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
 > **Timeline**: Years 0-10
 > **Outputs**: draft_animals, wool, hides, milk, meat, dung
+> **Critical**: Yes — core knowledge for managing all livestock species productively
 
 ## Overview
 
@@ -105,11 +108,11 @@ Processing chain: shear → skirt (remove stained edges) → wash (50-55°C wate
 | Chickens | 1.5-3.0 | 70-75 | 1.1-2.3 | 65-70 |
 | Rabbits | 2.0-2.5 | 55-60 | 1.1-1.5 | 60-65 |
 
-**Carcass utilization**: Blood (3-4% live weight, 15-20 L from a steer) — blood sausage or blood meal fertilizer (13% N). Organs: liver 1.5-2.0 kg, heart 1.5-2.0 kg — consume within 24 hours or cook and pot. Bones (15-20% of carcass) — bone broth (boil 12-24 hours with vinegar), bone meal fertilizer (calcine at 800°C, grind, 3% N, 12% P₂O₅), tools, buttons, glue. Fat (15-25 kg kidney/pelvic fat from steer) — render at 90-100°C into tallow for candles, [soap](../chemistry/alkalis.md), and lubricant. Hide — see [Leather Production](../materials/leather.md).
+**Carcass utilization**: Blood (3-4% live weight, 15-20 L from a steer) — blood sausage or blood meal fertilizer (13% N). Organs: liver 1.5-2.0 kg, heart 1.5-2.0 kg — consume within 24 hours or cook and pot. Bones (15-20% of carcass) — bone broth (boil 12-24 hours with vinegar), bone meal fertilizer (calcine at 800°C, grind, 3% N, 12% P₂O₅), tools, buttons, glue. Fat (15-25 kg kidney/pelvic fat from steer) — render at 90-100°C into tallow for candles, [soap](../chemistry/alkalis.md), and lubricant. Hide — see [Leather Production](../animals/leather.md).
 
 **Preservation without refrigeration**: (1) Salting — pack in coarse salt 10-15% by weight for 7-14 days at 2-5°C. Water activity below 0.85 inhibits bacteria. Keeps 6-12 months at 10-15°C. (2) Smoking — hang salted meat over hardwood fire at 50-70°C for 12-48 hours. Antimicrobial phenols in smoke. Combined: 12-18 months shelf life. (3) Jerky — cut lean meat 5-10 mm thick, dry at 50-60°C to <15% moisture. Weight loss 70-75%. Keeps 6-12 months. (4) Potting — cook meat, pack in crocks, cover with 1 cm rendered fat (excludes air). Keeps 3-6 months at 5-10°C.
 
-**Sausage**: Grind meat (3-8 mm plate), mix with 2.5-3.0% salt, 0.25% sodium nitrite (from [nitrates](../chemistry/nitrates.md), prevents botulism), 15-30% fat, spices. Stuff into natural casings (sheep intestine 20-22 mm, pig intestine 28-35 mm). Fresh: cook within 3 days. Fermented: add lactic culture, ferment at 20-25°C for 24-72 hours (pH 4.6-5.0), dry at 12-15°C, 70-80% humidity for 3-8 weeks until 30-40% weight loss. Shelf stable.
+**Sausage**: Grind meat (3-8 mm plate), mix with 2.5-3.0% salt, 0.25% sodium nitrite (from [nitrates](../chemistry/acids-bases.md), prevents botulism), 15-30% fat, spices. Stuff into natural casings (sheep intestine 20-22 mm, pig intestine 28-35 mm). Fresh: cook within 3 days. Fermented: add lactic culture, ferment at 20-25°C for 24-72 hours (pH 4.6-5.0), dry at 12-15°C, 70-80% humidity for 3-8 weeks until 30-40% weight loss. Shelf stable.
 
 ## Dung & Manure Management
 
@@ -189,13 +192,11 @@ Wolves, coyotes, foxes, big cats, and birds of prey all threaten livestock. Loss
 
 - **[Livestock Domestication](domestication.md)**: species-specific husbandry for all fifteen farmed species
 - **[Draft Power & Harnessing](draft-power.md)**: working oxen, horses, and donkeys for plowing, transport, and milling
-- **[Animal-Derived Materials](animal-materials.md)**: [leather](../materials/leather.md), tallow, wool, horn, bone, sinew, and hide glue
+- **[Animal-Derived Materials](animal-materials.md)**: [leather](../animals/leather.md), tallow, wool, horn, bone, sinew, and hide glue
 - **[Food & Agriculture](../foundations/food-agriculture.md)**: manure sustains crop yields; meat, milk, eggs are primary protein sources
 - **[Medicine](../health/medicine.md)**: disease diagnosis, treatment, and zoonotic disease prevention
 - **[Insect Farming](insect-farming.md)**: black soldier fly larvae for waste conversion and animal feed protein
 
 ---
 
-*Part of the [Animals Domain](index.md) • [All Domains](../index.md)*
-
-[← Back to Animals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

@@ -1,11 +1,12 @@
 # Ammonia Production
 
 > **Node ID**: chemistry.ammonia
-> **Domain**: Chemistry
-> **Dependencies**: [`chemistry.air-separation`](air-separation.md), [`chemistry.electrolysis`](electrolysis.md), `energy`, `metals`
-> **Enables**: [`chemistry.acids`](acids.md), `health`
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.air-separation`](air-separation.md), [`chemistry.electrolysis`](electrolysis.md), [`energy.electricity`](../energy/electricity.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: [`chemistry.acids`](acids.md), [`chemistry.alkalis`](alkalis.md), [`health.pharmacology`](../health/pharmacology.md), [`chemistry.explosives`](explosives.md)
 > **Timeline**: Years 20-50
 > **Outputs**: ammonia, ammonium_nitrate, urea, nitric_acid
+> **Critical**: Yes — the Haber-Bosch process feeds roughly half the world's population through synthetic fertilizers. Without industrial ammonia, agriculture is limited to natural nitrogen sources. The nitrogen constraint is one of the hardest limits on civilization growth.
 
 ### Overview
 
@@ -28,6 +29,10 @@ The triple bond in N₂ (945 kJ/mol) is one of the strongest in chemistry. Break
 - **Conversion per pass**: Only 10-15% of the N₂+H₂ feed converts to NH₃ per pass through the converter. The unreacted gas is recycled — this is critical to process economics.
 - **Equilibrium conversion**: At 450°C and 20 MPa with a 3:1 H₂:N₂ feed, equilibrium gives ~16% NH₃. At 30 MPa, ~27%. The gap between equilibrium and actual conversion represents the catalyst's kinetic limitation.
 
+**Strengths**: Simple, well-understood reaction chemistry (N₂ + 3H₂ → 2NH₃); iron catalyst is cheap and robust (5-10 year life); feedstocks (N₂ from air, H₂ from SMR or electrolysis) are abundant; product is liquid at moderate pressure (easily stored and transported).
+
+**Weaknesses**: Extreme pressure required (15-30 MPa) demands specialized alloy steel vessels; only 10-15% conversion per pass requires large recycle compressors; hydrogen embrittlement risk in high-pressure equipment; energy-intensive compression (0.5-0.8 MWh/t NH₃ for synthesis loop alone).
+
 **Converter design principles**:
 - The reaction is exothermic, so the converter must remove heat to maintain the 400-500°C operating window while achieving high conversion.
 - Feed gas enters cold and is preheated by the hot product gas in internal heat exchangers. The temperature profile through the catalyst beds is the primary design variable.
@@ -44,11 +49,19 @@ Three major converter designs represent the historical progression of Haber-Bosc
 - Maximum bed inlet temperature controlled by quench flow rate. Typical profile: bed 1 inlet 400°C → outlet 500°C, quench to 425°C, bed 2 inlet 425°C → outlet 475°C, quench to 430°C, bed 3 inlet 430°C → outlet 460°C.
 - Still used in some older plants due to mechanical simplicity and ease of catalyst loading.
 
+**Strengths**: Simple mechanical construction — no internal cooling tubes; easy catalyst loading and unloading; well-proven design (100+ years of operation); lowest capital cost of the three converter types.
+
+**Weaknesses**: Crude temperature control — quench dilutes reacting gas with cold feed, reducing conversion; lowest single-pass conversion (10-13%); inefficient use of catalyst volume; higher recycle gas flow increases compressor energy.
+
 **Tube-cooled (TVA-type) converter**:
 - Catalyst packed outside tubes; cold feed gas flows through tubes embedded in the catalyst bed. Heat transfers continuously from catalyst to tube gas, providing near-isothermal operation.
 - Better temperature control than quench design. Higher conversion per pass (12-17% vs. 10-13%).
 - Disadvantage: tubes complicate catalyst loading and unloading. Tube leaks are difficult to repair — require complete shutdown and catalyst removal.
 - Internal heat exchanger at the top of the vessel preheats incoming gas using hot product gas.
+
+**Strengths**: Near-isothermal operation provides better temperature control than quench design; higher conversion per pass (12-17%); more efficient catalyst use.
+
+**Weaknesses**: Tubes complicate catalyst loading and unloading; tube leaks require complete shutdown and catalyst removal; higher manufacturing cost than quench converter; limited to moderate-capacity plants.
 
 **[Radial-flow converter](../glossary/radial-flow-converter.md)** (modern, 1960s-present):
 - Gas flows radially inward through an annular catalyst bed (from outer perimeter to central collection pipe) rather than axially through a cylindrical bed.
@@ -56,6 +69,10 @@ Three major converter designs represent the historical progression of Haber-Bosc
 - Typically 2-3 beds in series with inter-stage cooling (indirect heat exchangers or quench).
 - Highest single-pass conversion of the three designs (14-18%). Favored for modern large-capacity plants (1,000-3,000 tonnes NH₃/day).
 - Examples: Haldor Topsøe S-200/S-250, KBR advanced ammonia process (KAAP) using ruthenium-based catalyst on graphite support for the top bed.
+
+**Strengths**: Lowest pressure drop (0.2-0.5 MPa vs. 1-2 MPa axial) allows smaller catalyst particles with higher activity; highest single-pass conversion (14-18%); favored for modern large-capacity plants (1,000-3,000 t NH₃/day); can use Ru catalyst in top bed for even higher efficiency.
+
+**Weaknesses**: Most complex mechanical design of the three types; higher capital cost; catalyst loading requires careful distribution to avoid flow maldistribution; maintenance access to internal components is limited.
 
 ### Recycle Loop and Product Recovery
 
@@ -85,11 +102,19 @@ The two feedstocks — hydrogen and nitrogen — come from very different source
 - **Step 5 — Methanation**: Residual CO and CO₂ (0.2-0.5%) are hydrogenated back to CH₄ over Ni catalyst at 300-400°C. CO and CO₂ are severe catalyst poisons for the Haber-Bosch iron catalyst — must be reduced to <10 ppm total. The small amount of CH₄ formed is tolerated as an inert.
 - **Overall SMR stoichiometry**: CH₄ + 2H₂O → CO₂ + 4H₂ (after shift and CO₂ removal). Plus N₂ from the air in the secondary reformer. Feed gas to synthesis: ~74% H₂, ~24% N₂, ~1-2% CH₄, <10 ppm CO+CO₂.
 
+**Strengths (SMR)**: Lowest-cost hydrogen route at scale; secondary reformer introduces N₂ from air — no separate air separation unit needed; well-established 5-step process with 100+ years of optimization; natural gas is energy-dense and transportable.
+
+**Weaknesses (SMR)**: Emits ~1.6 tonnes CO₂ per tonne NH₃ (largest single source of GHG in ammonia production); requires natural gas infrastructure (pipelines or LNG); sulfur in feed gas permanently poisons Ni reforming catalyst; primary reformer furnace is the most expensive single equipment item.
+
 **[Hydrogen from electrolysis](../glossary/hydrogen-from-electrolysis.md)** (clean route, growing):
 - Water electrolysis produces pure H₂ and O₂. See [Electrolysis](electrolysis.md) for detailed cell designs.
 - N₂ must be supplied separately (from air separation) since there is no secondary reformer to introduce air.
 - Energy: ~50-55 kWh per kg H₂ (alkaline electrolysis). Ammonia requires ~178 kg H₂ per tonne NH₃ → ~9-10 MWh per tonne NH₃ just for hydrogen. This is 5-10× the energy cost of SMR-derived hydrogen, but produces zero CO₂ emissions if the electricity is renewable.
 - Currently economic only where electricity is very cheap (<$0.02/kWh) or where carbon pricing is high.
+
+**Strengths (electrolysis)**: Zero CO₂ emissions with renewable electricity; produces ultra-pure H₂ (no sulfur or CO contamination); decouples ammonia production from natural gas supply; modular — can be scaled incrementally.
+
+**Weaknesses (electrolysis)**: 5-10× higher energy cost than SMR per tonne NH₃; requires dedicated air separation unit for N₂; currently economic only with very cheap electricity (<$0.02/kWh); electrolyzer capital cost is significant.
 
 **Nitrogen from air separation**:
 - See [Air Separation](air-separation.md) for detailed plant design.
@@ -175,6 +200,10 @@ The Ostwald process converts ammonia to nitric acid (HNO₃) via catalytic oxida
 
 See [Mineral Acid Production](acids.md) for complete Ostwald process detail including plant scale, energy balance, and higher-concentration methods.
 
+**Strengths (Ostwald)**: 95-98% conversion from NH₃ to NO; net energy exporter (waste heat generates high-pressure steam); Pt-Rh catalyst is recoverable from downstream filters; scalable to thousands of tonnes/day; feeds directly into fertilizer (NH₄NO₃) and explosives production.
+
+**Weaknesses (Ostwald)**: Pt-Rh gauze is expensive and slowly evaporates (0.05-0.5 g Pt lost per tonne HNO₃); NO oxidation is slow (third-order kinetics) requiring large equipment or high pressure; product limited to 55-68% by azeotrope — higher concentrations need dehydration with H₂SO₄ or Mg(NO₃)₂; NO₂ tail gas emissions must be scrubbed.
+
 ### Other Applications
 
 **Solvay ammonia supply**: The Solvay process (see [Alkali Production](alkalis.md)) uses NH₃ as a recyclable intermediate in soda ash production. While most NH₃ is recovered internally, the 1-2 kg/tonne makeup requirement plus initial plant charge demand a continuous ammonia source. Haber-Bosch ammonia replaced coke-oven gas as the primary Solvay NH₃ supply after 1910.
@@ -196,11 +225,19 @@ The Haber-Bosch iron catalyst is itself a product of industrial chemistry:
 - The promoters serve distinct functions: Al₂O₃ and CaO form structural "scaffolding" within the reduced iron particles, preventing sintering (loss of surface area) during years of operation at 400-500°C. K₂O is an electronic promoter — it donates electrons to the iron surface, weakening N₂ adsorption and facilitating hydrogenation of surface nitrogen atoms.
 - **Activation**: The magnetite (Fe₃O₄) must be reduced to metallic iron in-situ by flowing H₂/N₂ synthesis gas at 350-450°C for 24-72 hours. Reduction is exothermic — must be controlled carefully to avoid sintering the freshly formed iron. The reduced catalyst is pyrophoric — ignites spontaneously in air. Must be passivated (thin oxide layer) for safe handling and transport.
 
+**Strengths (iron catalyst)**: Cheap raw materials (Fe₃O₄ + promoter oxides); long service life (5-10 years); tolerant of trace poisons (robust); well-understood activation and passivation procedures; effective across 400-500°C operating range.
+
+**Weaknesses (iron catalyst)**: Requires 24-72 hour in-situ reduction before operation; reduced catalyst is pyrophoric (dangerous if exposed to air); irreversible poisoning by sulfur, chlorine, and phosphorus compounds; promoter distribution affects activity uniformly; must be replaced as whole bed (cannot replace individual granules).
+
 **[Ruthenium catalyst](../glossary/ruthenium-catalyst.md)** (advanced, used in KBR KAAP process):
 - Ru on graphite (activated carbon) support, promoted with Ba and K. 10-20× higher activity per unit mass than iron catalyst.
 - Enables operation at lower pressure (7-10 MPa) and moderate temperature (350-450°C).
 - Cost: Ruthenium is rare (~$500-1000/oz). Only economic for the top bed of a multi-bed converter, where it handles the most kinetically demanding conversion.
 - Sensitivity: Ru catalyst is poisoned by trace oxygen compounds. Requires very clean synthesis gas (<1 ppm O₂, H₂O, CO, CO₂).
+
+**Strengths (Ru catalyst)**: 10-20× higher activity per unit mass than iron catalyst; enables operation at lower pressure (7-10 MPa); reduces energy consumption for synthesis gas compression.
+
+**Weaknesses (Ru catalyst)**: Ruthenium is extremely rare and expensive (~$500-1000/oz); only economic for the top bed of a multi-bed converter; extremely sensitive to oxygen compound poisoning (requires <1 ppm O₂, H₂O, CO, CO₂); limited commercial availability.
 
 ### Bootstrap Sequence
 

@@ -1,11 +1,12 @@
 # Refractory Materials
 
 > **Node ID**: `chemistry.refractories`
-> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), `mining`
-> **Enables**: `glass`, `metals`, [`metals.steelmaking`](../metals/steelmaking.md)
-> **Parent**: [Chemistry](index.md)
-> **Era**: Early Industrial
-> **Tags**: `material`, `capability`, `critical`
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), [`mining.processing`](../mining/processing.md)
+> **Enables**: [`glass.basic`](../glass/basic.md), [`metals.steelmaking`](../metals/steelmaking.md), [`chemistry.cement`](cement.md)
+> **Timeline**: Years 15-35
+> **Outputs**: firebrick, magnesia_refractory, alumina_refractory, silica_refractory
+> **Critical**: Yes — refractory linings are required for every high-temperature industrial process: blast furnaces, cement kilns, glass tanks, ceramic kilns, and incinerators. Without refractories, industrial metallurgy and ceramics are impossible.
 
 ## Overview
 
@@ -41,6 +42,10 @@ Refractories are heat-resistant ceramic materials that line furnaces, kilns, inc
 3. **Forming**: Pressing under 50-200 MPa in hydraulic or friction screw presses. Large shapes may be air-rammed or vibration-cast. Pressing density directly determines fired density and porosity.
 4. **Drying**: Remove moisture at 80-110°C (24-48 hours). Prevents steam spalling during firing.
 5. **Firing (sintering)**: Tunnel kiln at 1300-1800°C (temperature depends on composition). 12-48 hours. Sintering bonds particles by partial melting (liquid-phase sintering) or solid-state diffusion. Fireclay: 1300-1400°C. High-alumina: 1500-1600°C. Magnesite: 1700-1800°C. Shrinkage: 2-8% (controlled by raw material selection and pressing density).
+
+**Strengths**: Standardized brick shapes enable modular furnace construction and repair; particle size grading maximizes density and slag resistance; tunnel kiln firing is continuous and energy-efficient at scale; fireclay bricks are inexpensive and adequate for most applications below 1400°C.
+
+**Weaknesses**: Tunnel kiln requires 1300-1800°C — significant energy investment; magnesite and high-alumina bricks are 3-6× more expensive than fireclay; refractory linings are consumable (6-15 kg per tonne of steel produced); thermal shock spalling limits lifetime during temperature cycling; silica bricks catastrophically fail below 600°C (α→β quartz transition).
 
 **Unshaped refractories (monolithics)**:
 - **Castables**: Refractory aggregate + calcium aluminate cement (CAC) binder. Mixed with water on-site, poured or pumped into forms, vibrated to consolidate. CAC hydrates and sets like Portland cement but withstands 1500-1700°C after firing. Low-cement castables (LCC, 3-8% CaO) use ultra-fine alumina powder (fume) to improve particle packing and reduce cement content — higher density, better hot strength, superior slag resistance. Ultra-low-cement castables (ULCC, <3% CaO) for the most demanding applications.
@@ -205,3 +210,7 @@ Magnesite bricks (MgO >85%) are the foundation of basic steelmaking refractories
 
 - Refractories line [Kilns](../ceramics/kilns.md), [Blast Furnaces](../metals/blast-furnace.md), and [Steelmaking](../metals/steelmaking.md) vessels. Alumina from [Aluminum](../metals/aluminum.md) refining. Silica from [Mining](../mining/processing.md) quartz.
 
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

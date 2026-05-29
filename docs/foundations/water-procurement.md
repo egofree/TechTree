@@ -2,7 +2,7 @@
 
 > **Node ID**: foundations.water-procurement
 > **Domain**: [Foundations](./index.md)
-> **Dependencies**: `foundations`, [`foundations.tools-basic`](tools-basic.md)
+> **Dependencies**: [`foundations`](./index.md), [`foundations.tools-basic`](tools-basic.md)
 > **Enables**: [`health.sanitation`](../health/sanitation.md)
 > **Timeline**: Years 0-5
 > **Outputs**: fresh_water, stored_water
@@ -35,6 +35,16 @@ Spread wool or linen cloth over grass before dawn, weighted with stones to keep 
 
 Where no spring or surface water exists, dig a well. A hand-dug well 1-1.5 m in diameter and 5-15 m deep can reach the water table in many landscapes. Dig during the dry season when the water table is at its lowest, ensuring year-round supply. Shore the walls with stone or timber as you dig to prevent collapse. A well 1.2 m in diameter with stone lining requires 3-5 tons of stone per 3 m of depth. When you hit water, continue digging 1-2 m below the water table to create a sump that stores water between draw cycles. A well producing 200-500 liters per day supports a household. Cover the top with a stone or wooden cap to prevent contamination and accidents. A simple windlass (crank and rope) with a bucket raises water from depths up to 15 m.
 
+**Strengths**:
+- Hand-dug well provides year-round water independent of rainfall — a reliable dry-season water source
+- 1.2 m diameter is wide enough to dig by hand and narrow enough to line with stone or timber without excessive material
+- Covering with stone cap and windlass prevents contamination and accidents while enabling easy water extraction
+
+**Weaknesses**:
+- Digging 5-15 m deep by hand takes 10-30 worker-days depending on soil type and depth to water table
+- Well walls must be shored with stone or timber as digging progresses — 3-5 tonnes of stone per 3 m of depth for a 1.2 m well
+- Well water in areas with latrines or animal pens within 30 m uphill can become contaminated with fecal bacteria
+
 ### Solar Still
 
 Dig a pit 60-100 cm in diameter and 40-60 cm deep. Place a collection container in the center. Cover the pit with a clear plastic sheet, sealing the edges with soil or stones. Weight the center of the sheet with a stone so it forms a cone shape pointing down into the container. Moisture evaporates from the soil, condenses on the plastic, runs to the lowest point, and drips into the container. Yield: 0.5-2 liters per day depending on soil moisture. Adding green vegetation or urine to the pit soil increases output by 30-50%. This technique produces distilled water, which is free of pathogens and salts. For higher yield, dig multiple stills rather than making one larger pit. A still 1 m in diameter works better than a 2 m one because the condensation distance from soil to plastic is shorter.
@@ -54,6 +64,16 @@ The first rain after a dry period carries dust, bird droppings, leaves, and inse
 ### Cistern Design
 
 Underground cisterns store harvested rainwater for dry periods. Build from stone or brick, 5-20 m³ capacity for a household. Waterproof the interior with lime plaster applied 3-5 mm thick in 2-3 coats, allowing each coat to dry before applying the next. Cover the cistern with a stone or wood lid to prevent mosquito breeding and contamination from falling debris. An overflow pipe near the top prevents overfilling. Position the cistern slightly below the roof gutter outlet to allow gravity feeding. A settlement chamber before the cistern inlet lets sand and silt drop out of the water column before entering storage. A household of 5 people consuming 100 liters per day needs a 10 m³ cistern to bridge a 100-day dry season.
+
+**Strengths**:
+- 100 m² roof in temperate climate (500-800 mm/year) collects 50,000-80,000 L annually — sufficient for a household of 5
+- First-flush diverter removes 80-90% of rooftop contaminants with a single simple device
+- Underground cistern with lime plaster stores water at 10-15°C year-round, slowing bacterial growth
+
+**Weaknesses**:
+- Guttering must slope 1-2 cm per meter toward cistern — improper slope causes pooling and overflow
+- Thatched roofs shed organic matter that discolors water; settling for 24 hours required before use
+- Lime plaster interior needs replastering every 10-15 years to maintain waterproofing
 
 ### Ground Catchment
 
@@ -76,6 +96,16 @@ Fence a 10-15 m radius around the spring to prevent livestock from contaminating
 ### Hillside Seep Collection
 
 Where groundwater seeps from a hillside rather than emerging at a single point, collect it with a gravel-filled trench. Dig a trench 30-40 cm wide and 40-60 cm deep along the seep line, running perpendicular to the slope. Fill with clean gravel or crushed stone. Place a perforated clay pipe or stone channel at the bottom of the trench to carry collected water to a storage tank. A seep trench 10 m long can collect 50-200 liters per day depending on the groundwater flow rate. Cover the trench surface with clay to prevent surface water from entering and contaminating the supply.
+
+**Strengths**:
+- Spring box provides naturally filtered groundwater that requires no treatment beyond basic screening — lower pathogen risk than surface water
+- A single spring yielding 1 L/min produces 1,440 L/day, supporting 10-20 people at 70-140 L/person/day
+- Hillside seep collection captures diffuse groundwater that would otherwise go unused — converting seepage into a piped supply
+
+**Weaknesses**:
+- Seasonal flow variation: wet-season yield of 5 L/min may drop to 0.5 L/min in dry season — must measure at end of dry season before sizing infrastructure
+- Spring box requires stone or concrete construction plus screening — not achievable without basic masonry skills
+- Neglected spring boxes fill with silt, reducing flow by 30-50% within a year — requires quarterly inspection and annual sediment removal
 
 ## Water Transport
 
@@ -116,6 +146,16 @@ Earthen dams 2-5 m high create reservoirs of 1,000-10,000 m³ capacity. A clay c
 ### Seasonal Planning
 
 Size water storage to the longest dry period. A climate with a 4-month dry season and 200 people at 70 liters per person per day needs 1,680 m³ of stored water minimum. Add 20-30% margin for evaporation and seepage losses. Divide storage across multiple cisterns and reservoirs rather than relying on a single structure. A single point of failure in water supply is a community-ending risk. In freezing climates, bury storage below the frost line (0.5-1.5 m depth depending on latitude) or insulate with earth berms 50-100 cm thick to prevent ice formation.
+
+**Strengths**:
+- Underground cisterns maintain 10-15°C year-round without energy input — natural cooling slows bacterial growth
+- Lime-plastered stone cisterns last 50-100 years with only occasional replastering every 10-15 years — permanent infrastructure
+- Earthen dam reservoirs store 1,000-10,000 m³ of water — sufficient for community supply or irrigation through a dry season
+
+**Weaknesses**:
+- Earthen dams require a clay core (30-50 cm thick) and width-to-height ratio of 3:1 — dam failure causes catastrophic flooding downstream
+- Underground storage requires excavation, stone or brick construction, and lime plastering — labor-intensive initial construction
+- Standing water in uncovered storage breeds mosquitoes carrying malaria, dengue, and other diseases — all containers must have tight-fitting lids
 
 ## Water Quality Indicators
 
@@ -199,4 +239,6 @@ Standing water breeds mosquitoes that carry malaria, dengue, and other diseases.
 
 **Seasonal inspection cycle**: Before the wet season, clean gutters and first-flush diverters, check cistern lids and screens for integrity, and verify overflow pipes are clear. After the wet season, inspect cistern interiors for sediment accumulation (drain and remove silt if depth exceeds 5 cm), check lime plaster for cracks or spalling, and repair before the next refill cycle. Annual maintenance of catchment infrastructure prevents the gradual capacity losses that accumulate when small problems go unaddressed for years.
 
-[← Back to Foundations](./index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Foundations](./index.md) • [All Domains](../index.md)*

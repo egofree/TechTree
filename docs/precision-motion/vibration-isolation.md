@@ -1,11 +1,11 @@
 # Vibration Isolation
 
 > **Node ID**: precision-motion.vibration-isolation
-> **Domain**: Precision Motion Control
+> **Domain**: [Precision Motion Control](./index.md)
 > **Timeline**: Years 35-60
 > **Outputs**: vibration_isolation_systems, isolation_platforms, vibration_specs
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [Nanometer Positioning](./nanometer-positioning.md), [Precision Metrology](../measurement/precision-metrology.md), [Gas Handling](../gas-handling/index.md)
+> **Enables**: [Wafer Stages & Scanner Systems](./wafer-stages.md), [Precision Encoders & Feedback](./precision-encoders.md)
 
 Nanometer positioning (covered in [Nanometer Positioning](./nanometer-positioning.md)) assumes a vibration-free environment. In reality, semiconductor fabs and precision laboratories are full of vibration sources: rotating machinery, foot traffic, HVAC systems, external road traffic, and even the motion of the precision equipment itself. This document covers the passive and active vibration isolation systems that create the ultra-quiet mechanical environment required for nanometer-precision work. A wafer stage positioning to ±5 nm is meaningless if the floor vibrates by 100 nm — the isolation system must attenuate floor vibration to well below the positioning budget.
 
@@ -53,6 +53,16 @@ The precision equipment itself generates vibration during operation:
 ## Passive Vibration Isolation
 
 Passive isolation uses mechanical elements (springs, dampers, pneumatic air springs) to attenuate floor vibration before it reaches the payload. No sensors, no electronics, no power required.
+
+**Strengths**:
+- No power required — passive systems work during power outages
+- >99% isolation above 5× natural frequency (e.g., >99% at 50 Hz for 1.5 Hz fn system)
+- Proven reliability: pneumatic isolators last 10-20 years with minimal maintenance
+
+**Weaknesses**:
+- Amplifies vibration at resonance (natural frequency): 3-10× amplification at fn
+- Limited low-frequency isolation: cannot attenuate vibration below ~1 Hz
+- Settling time 2-5 seconds after disturbance — too slow for active wafer stage compensation
 
 ### Pneumatic Air Spring Isolation
 
@@ -108,7 +118,17 @@ Simple rubber pads or molded mounts provide minimal isolation:
 
 ## Active Vibration Isolation
 
-Active isolation adds sensors and actuators to the passive system, enabling:
+Active isolation adds sensors and actuators to the passive system, enabling better low-frequency isolation, narrow-band cancellation, and active leveling.
+
+**Strengths**:
+- Attenuates vibration below passive natural frequency: transmissibility <0.5 at 1 Hz
+- Fast settling: 0.2-0.5 s after disturbance (10× faster than passive)
+- Can target specific disturbance frequencies (e.g., 50/60 Hz mains harmonics)
+
+**Weaknesses**:
+- Requires continuous power: 50-500 W per isolation axis
+- 3-10× higher cost than passive-only systems
+- Active system failure reverts to passive mode with possible transient oscillation
 
 1. **Better low-frequency isolation**: Cancel vibration below the passive natural frequency where passive systems amplify.
 2. **Narrow-band cancellation**: Target specific disturbance frequencies (e.g., 50 Hz from electrical mains).

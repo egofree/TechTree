@@ -1,11 +1,12 @@
 # Water Transport
 
 > **Node ID**: transport.shipping
-> **Domain**: Transportation & Logistics
-> **Dependencies**: `textiles`
-> **Enables**: `marine`, [`marine.shipbuilding`](../marine/shipbuilding.md), [`telecom.submarine-cables`](../telecom/submarine-cables.md)
+> **Domain**: [Transport](./index.md)
+> **Dependencies**: [`textiles`](../textiles/index.md)
+> **Enables**: [`marine`](../marine/index.md), [`marine.shipbuilding`](../marine/shipbuilding.md), [`telecom.submarine-cables`](../telecom/submarine-cables.md)
 > **Timeline**: Years 5-50+
 > **Outputs**: canals, water_transport
+> **Critical**: No
 
 ### Water Transport
 
@@ -25,6 +26,16 @@
 - **Lateen sail**: Triangular canvas on long yard angled fore-and-aft. Can tack upwind (sail at 45-60° to wind direction). More complex rigging but far more maneuverable. Dominant in Mediterranean and Indian Ocean.
 - **Rig types**: Single mast (simplest, 5-15 m boats), ketch (two masts, mizzen shorter and stepped aft of rudder), schooner (two+ masts, foremast equal or shorter than main). Sail area to displacement ratio ~15-25 m²/tonne for reasonable speed (5-8 knots).
 - **Sailcloth**: Woven flax or hemp canvas, treated with tar for waterproofing. Bolt rope sewn to edges for reinforcement.
+
+**Strengths**:
+- Lateen sail tacks upwind at 45-60° to wind — far more maneuverable than square sail
+- Canal transport costs 10-50× less per tonne-km than road transport for bulk materials
+- Dugout canoe requires only fire and axes — the simplest watercraft to build
+
+**Weaknesses**:
+- Square sail efficient only downwind — cannot make progress against the wind
+- Canal locks require stone or timber chambers with mitre gates — significant construction effort
+- Celestial navigation limited by overcast skies; longitude requires accurate chronometer
 
 **Navigation**:
 - **Coastal**: Navigate by landmarks, depth sounding (lead line marked in fathoms), and bottom sampling (tallow on lead picks up sand/mud/shell). Stay within sight of shore. Knowledge of tides, currents, and harbor entrances passed as pilotage.

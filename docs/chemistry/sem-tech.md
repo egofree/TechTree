@@ -1,12 +1,12 @@
 # SEM Tech: Low-Cost Ion Exchange Membrane Electrolysis
 
-> **Node ID**: chemistry.electrolysis.sem-tech
-> **Domain**: Chemistry
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Node ID**: chemistry.sem-tech
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.electrolysis`](electrolysis.md), [`polymers.thermoplastics`](../polymers/thermoplastics.md)
+> **Enables**: [`chemistry.electrolysis`](electrolysis.md), [`chemistry.sem-tech-electrodialysis`](sem-tech-electrodialysis.md), [`chemistry.sem-tech-acid-regeneration`](sem-tech-acid-regeneration.md)
 > **Timeline**: Years 20-30
 > **Outputs**: chlorine, hydrogen, caustic_soda, ion_exchange_membrane, critical_minerals
-> **Tags**: materials=[chemicals, membranes], era=industrial
+> **Critical**: Yes — SEM Tech's low-cost ion exchange membranes (<$1/ft² vs $500-2000/m² for Nafion) enable chlor-alkali electrolysis, electrodialysis, and metal recovery well before fluoropolymer chemistry is available. This is a bootstrap-critical technology for the chemical industry.
 
 **Credit**: SEM Tech (Salt Electro Mining Technology) was developed by **Robert Karas**, founder of Rowow LLC. The technology is released under **CC0 1.0 Universal** (public domain). Technical details are drawn from the open-source patent application (see Rowow1/Open-sourced-off-the-shelf-ion-exchange-membrane on GitHub).
 
@@ -55,6 +55,10 @@ The polymer-to-solvent ratio is approximately 3:7 by weight, producing a viscous
 - **Pouring**: Simple gravity casting for thicker membranes
 
 **Step 5 -- Dry and cure**: The applied film dries at ambient temperature as the solvent evaporates. No heating is required. Drying time depends on solvent choice, film thickness, and ambient conditions. The result is a homogeneous ion exchange membrane with functional groups distributed throughout the PVC/CPVC matrix.
+
+**Strengths**: Materials cost <$1/ft² vs $100-400/ft² for Nafion — 100-400× cheaper; no fluoropolymer chemistry required (PVC + water softener resin); ambient temperature processing — no heating, curing, or cleanroom; resin beads arrive pre-functionalized — no post-sulfonation or amination; tunable properties via resin loading (10-70% by volume).
+
+**Weaknesses**: TRL 5 — validated in lab but not yet proven at industrial scale; PVC binder has limited chemical resistance vs perfluorinated polymers; mechanical strength lower than commercial membranes (needs structural reinforcement); solvent handling (THF, cyclohexanone) requires ventilation; long-term durability in harsh electrochemical environments not yet characterized.
 
 **Step 6 -- Optional structural enhancement**: Fiberglass, fumed silica, or sand can be incorporated into the mixture to improve mechanical strength, dimensional stability, or abrasion resistance. This is useful for membranes that will be subjected to physical stress in electrochemical cells.
 

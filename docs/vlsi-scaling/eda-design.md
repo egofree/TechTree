@@ -2,10 +2,11 @@
 
 > **Node ID**: vlsi-scaling.eda-design
 > **Domain**: [VLSI Scaling & Advanced Semiconductor](./index.md)
-> **Dependencies**: [`chemistry.dopant-etch-gases`](../chemistry/dopant-etch-gases.md), `computing`, [`electronics.assembly`](../electronics/assembly.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
+> **Dependencies**: [`chemistry.dopant-etch-gases`](../chemistry/dopant-etch-gases.md), [`computing.basic`](../computing/index.md), [`electronics.assembly`](../electronics/assembly.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 70-200+
 > **Outputs**: eda_tools, gpus, advanced_packaging, vlsi_designs
+> **Critical**: No — EDA tools accelerate design but are not a manufacturing capability themselves
 
 ### Electronic Design Automation (EDA)
 
@@ -15,6 +16,14 @@
 - **Simulation**: SPICE circuit simulation (solve differential equations for voltage/current over time), timing analysis (critical path delay), power analysis (switching + leakage).
 - **Design rule checking (DRC)**: Verify layout meets manufacturing constraints (minimum width, spacing, enclosure, density rules). Automated geometric checks.
 - **Mask data preparation**: Convert design to mask patterns. OPC (optical proximity correction) adjusts mask features to compensate for lithography distortions.
+
+**Strengths**:
+- Logic synthesis converts behavioral HDL to optimized gate-level netlists automatically — handles millions of gates that would be impossible to design manually
+- DRC checks 10⁸ geometric features in hours — exhaustive verification of manufacturing constraints
+
+**Weaknesses**:
+- EDA tools require computers built from previous-generation ICs — circular dependency means first-generation ICs must be designed by hand
+- Full-chip SPICE simulation is infeasible for billion-transistor designs — accuracy is limited to block-level analysis
 
 ### Schematic Capture
 
@@ -27,6 +36,14 @@ The entry point for all IC design. Engineers describe circuit topology before an
 - **Standard cell libraries**: A characterized library of 200-1000 cells is the foundation of digital IC design. Each cell has a schematic, layout, timing model (NLDM or CCS — nonlinear delay model or composite current source), and parasitic extraction model. Cells range from simple inverters and buffers to complex adders, multiplexers, and flip-flops. Library characterization runs SPICE on every cell across all input transitions, output loads, process corners, and temperatures — generating lookup tables for synthesis and STA. Characterization of a single library takes weeks of compute time.
 - **Schematic symbol and instance management**: Each cell has a graphical symbol for schematic entry. Instances reference the master cell — changes propagate to all instances. Parameterized cells (p-cells) allow instance-specific customization (e.g., transistor width). Version control tracks design revisions; release management ensures only validated cell versions are used in production designs.
 
+**Strengths**:
+- Hierarchical design decomposes billion-transistor GPUs into 50-200 independently verifiable blocks — enables team parallelism
+- Standard cell libraries (200-1000 cells) with pre-characterized timing/area/power models eliminate transistor-level design for digital logic
+
+**Weaknesses**:
+- Library characterization requires weeks of SPICE simulation across all process corners, input transitions, and output loads — compute-intensive upfront investment
+- Netlist interchange formats (EDIF, SPICE) between tools from different vendors cause compatibility issues requiring manual debugging
+
 ### Logic Synthesis
 
 Converting behavioral descriptions into manufacturable gate-level circuits.
@@ -38,6 +55,14 @@ Converting behavioral descriptions into manufacturable gate-level circuits.
 - **Equivalence checking**: After synthesis, formal verification proves the gate-level netlist is logically identical to the RTL source — every possible input combination produces the same output. Exhaustive simulation is impossible for billion-gate designs; formal verification is mathematical proof.
 - **Physical synthesis**: Traditional synthesis operates on an abstract netlist without physical information. Physical synthesis iterates between synthesis and placement — the tool re-synthesizes paths based on actual wire loads from placement rather than statistical wire load models. Critical for sub-130nm designs where interconnect delay dominates. Resizing cells, inserting buffers, and restructuring logic based on physical reality can improve timing by 10-30% over pure logical synthesis.
 - **Multi-corner multi-mode (MCMM) optimization**: Modern designs must meet timing at multiple operating conditions simultaneously: fast process corner at low temperature (hold checks), slow process corner at high temperature (setup checks), multiple supply voltage modes (nominal, low-power), and multiple clock configurations. Each combination is a "scenario." The optimizer must find a single netlist that passes all scenarios — a change that helps one scenario may hurt another. MCMM optimization is computationally expensive but necessary for robust designs.
+
+**Strengths**:
+- Formal equivalence checking provides mathematical proof that synthesized netlist matches RTL — exhaustive verification impossible to achieve through simulation
+- Physical synthesis iterates with actual wire loads from placement, improving timing 10-30% over statistical wire load models at sub-130 nm
+
+**Weaknesses**:
+- MCMM optimization is NP-hard — each added scenario exponentially increases compute time for large designs
+- Clock gating insertion during synthesis requires accurate activity estimation — wrong toggle rates cause over/under-gating, wasting power or failing timing
 
 ### Place & Route (P&R)
 
@@ -52,6 +77,14 @@ Physical implementation — converting the gate-level netlist into actual geomet
 - **Signal integrity (SI) analysis**: Inter-wire coupling capacitance causes crosstalk — a switching aggressor wire injects noise onto a quiet victim wire. If noise exceeds the switching threshold of the receiving gate, it causes a functional error. SI analysis identifies victim nets, quantifies noise pulses, and adds shielding (ground wires between signals) or increases spacing where needed. At sub-130nm nodes, crosstalk can add or subtract 20-50% of a signal's delay, making SI analysis essential for timing signoff.
 - **Power grid analysis**: Verify the VDD and VSS distribution networks can deliver required current without excessive voltage drop. IR drop (voltage = current × resistance) reduces supply voltage at the transistor, slowing it down and potentially causing timing failures. Simultaneous switching noise (di/dt × L) causes transient voltage spikes on the power rails. Power grid analysis uses finite-element techniques on the mesh of power wires to compute voltage at every point. Minimum 5-10% margin on supply voltage is standard.
 
+**Strengths**:
+- Clock tree synthesis achieves <50 ps skew across billions of flip-flops — enables GHz-frequency synchronous design
+- Signal integrity analysis catches crosstalk-induced failures before silicon — 20-50% delay variation from coupling at sub-130 nm
+
+**Weaknesses**:
+- Placement is NP-hard — simulated annealing produces good but not optimal results; 5-15 floorplan iterations common before tapeout
+- Power grid IR drop analysis requires solving finite-element models with 10⁸ nodes — hours of compute time per iteration
+
 ### Verification
 
 Ensuring the design works correctly before committing to expensive mask fabrication. A single mask set for an advanced node costs $5-20M — verification errors that escape to silicon are catastrophically expensive.
@@ -65,6 +98,14 @@ Ensuring the design works correctly before committing to expensive mask fabricat
 - **Layout versus schematic (LVS)**: Extracts the circuit from the physical layout (identify transistors from drawn geometries, trace connectivity through metal layers) and compares it to the original schematic/netlist. Catches errors where layout connections differ from the intended circuit — a single misrouted wire can cause functional failure that simulation won't catch if the wrong path happens to be functionally similar. LVS must report a clean match before tapeout.
 - **Parasitic extraction (PEX)**: After layout, extract the parasitic resistance (R) and capacitance (C) of every wire. These parasitics add delay and coupling noise that aren't present in the pre-layout netlist. Post-layout STA with extracted parasitics gives the most accurate timing prediction. Interconnect delay dominates total path delay at nodes below 130 nm — wire RC can exceed gate delay.
 
+**Strengths**:
+- STA checks all paths exhaustively across all process corners — guarantees no timing violation escapes, unlike simulation which only covers tested vectors
+- Formal verification provides mathematical proof of equivalence — eliminates the need to simulate every possible input combination for billion-gate designs
+
+**Weaknesses**:
+- Full-chip SPICE simulation is infeasible beyond ~10,000 transistors — analog accuracy limited to block-level analysis
+- PEX extraction for billion-net designs requires hours of compute time and produces gigabytes of parasitic data — iterative extraction-synthesis loops are expensive
+
 ### Design Rules
 
 Manufacturing constraints that define the boundary between manufacturable and non-manufacturable layouts. Violating any rule means the design cannot be reliably fabricated.
@@ -77,6 +118,14 @@ Manufacturing constraints that define the boundary between manufacturable and no
 - **Electromigration rules**: Current flowing through metal wires causes atomic migration over time — the wire gradually thins until it opens (breaks) or hillocks (shorts to adjacent wire). Electromigration lifetime is modeled by Black's equation: MTTF ∝ J^(-n) × exp(Ea/kT), where J is current density, Ea is activation energy, and n ≈ 1-2. Rules specify maximum allowed current density per wire width, typically ensuring >10-year lifetime at maximum operating temperature. Wider wires required for higher currents. Copper is more electromigration-resistant than aluminum by ~10×.
 - **Electrical design rules**: Maximum gate oxide voltage (prevents time-dependent dielectric breakdown), maximum transistor width per finger (prevents gate resistance from degrading performance), minimum coupling capacitance between signal nets (prevents crosstalk-induced failures), maximum simultaneous switching current per power pin (prevents IR drop and ground bounce). These rules come from the foundry's process characterization data and are non-negotiable for design signoff.
 
+**Strengths**:
+- Antenna rules prevent gate oxide destruction during plasma etching — simple area ratio check catches a catastrophic failure mode automatically
+- Density rules (20-80%) with automatic dummy fill ensure CMP uniformity — prevent dishing and erosion without designer intervention
+
+**Weaknesses**:
+- Rule count doubles each node (~500 at 130 nm to ~5000+ at 7 nm) — context-dependent rules require foundry-certified DRC engines that cost millions to develop
+- Electromigration rules require current density analysis per wire segment — billion-net designs need distributed parallel computation
+
 ### Lithography Simulation
 
 Predicting and compensating for the distortions that occur during optical projection lithography.
@@ -87,6 +136,14 @@ Predicting and compensating for the distortions that occur during optical projec
 - **Lithography simulation tools**: Solve the Maxwell equations for electromagnetic wave propagation through the projection optics (NA, aberrations, illumination shape) and photoresist (refractive index, absorption, development rate). Predict the printed wafer pattern from the mask pattern. Computationally intensive — fast aerial image simulation uses Hopkins formulation for partially coherent illumination. Simulation results feed back into OPC optimization loops.
 - **Computational lithography at scale**: A modern system-on-chip has 10^8-10^9 shapes per layer, with 30-50 mask layers. Full-chip OPC optimization requires evaluating every shape through the lithography model, computing corrections, and iterating until convergence. Runtime: hours to days per layer on compute clusters with 100-1000 CPUs. GPU-accelerated lithography simulation reduces this by 10-50×. The OPC-optimized mask data is enormous — a single layer's mask file can be 100 GB - 1 TB. Mask data preparation compresses and formats this for the mask writer (electron beam or laser pattern generator).
 - **Source mask optimization (SMO)**: Jointly optimizes both the illumination source shape and the mask pattern for maximum process window. Traditional OPC assumes a fixed source; SMO explores source-mask combinations to find the pair that gives the best depth of focus and exposure latitude simultaneously. Particularly important for the most critical layers (metal 1, gate, contact). SMO is the frontier of computational lithography — it pushes k₁ factor below 0.3, enabling features far below the Rayleigh resolution limit of the exposure wavelength.
+
+**Strengths**:
+- OPC reduces 50 nm feature printing errors from 10-20 nm to <2 nm — makes sub-wavelength lithography viable
+- SMO jointly optimizes source and mask, pushing k₁ below 0.3 — enables features at 1/3 the wavelength limit
+
+**Weaknesses**:
+- Full-chip OPC for 10⁸-10⁹ shapes requires 100-1000 CPUs running for hours to days per layer — extreme compute cost
+- Single-layer mask data output of 100 GB-1 TB strains mask writer throughput and storage infrastructure
 
 ### Design for Test (DFT)
 
@@ -100,6 +157,14 @@ Making the manufactured IC testable — ensuring defective chips can be identifi
 - **IDDQ testing**: Measures quiescent power supply current (IDD when all gates are static — the Q in IDDQ). A defect-free CMOS IC draws only leakage current (nA-μA range) when static. A defective IC with a bridge fault or gate oxide short draws abnormally high current. IDDQ testing catches defects that functional tests miss — particularly effective for detecting subtle manufacturing defects that don't cause immediate functional failure but cause reliability problems later.
 - **Burn-in testing**: Accelerated life screening that operates chips at elevated temperature (125-150°C) and elevated voltage (1.2-1.5× nominal) for 4-48 hours. Infant mortality defects (weak gate oxides, marginal via contacts, contamination) fail during burn-in rather than in the field. Burn-in is expensive (dedicated ovens, powered boards, handling equipment) but necessary for high-reliability applications. Monitoring burn-in current per chip detects failing devices without running functional tests.
 
+**Strengths**:
+- Scan chains convert sequential testing (2^N states) into combinational testing — reduces test complexity from exponential to linear
+- IDDQ testing catches bridge faults and gate oxide shorts that functional tests miss — detects latent reliability defects
+
+**Weaknesses**:
+- Scan chain insertion adds 5-15% area overhead (scan flip-flops larger than standard flip-flops) and increases design complexity
+- Burn-in at 125-150°C for 4-48 hours is expensive — each oven handles limited throughput, and powered boards must be designed per chip
+
 ### High-End Solar Cells
 
 - **PERC (Passivated Emitter and Rear Cell)**: Rear surface passivation (Al₂O₃ + SiNₓ stack) reflects unabsorbed light back through cell. Localized rear contacts (laser contact opening). Efficiency improvement: 2-3% absolute over standard cells. Target: 20-22% module efficiency.
@@ -110,6 +175,14 @@ Making the manufactured IC testable — ensuring defective chips can be identifi
 - **Tunnel oxide passivated contact (TOPCon)**: Ultra-thin tunnel oxide (1-2 nm SiO₂) + doped polysilicon layer on rear surface. Electrons tunnel through oxide but holes are blocked — carrier selectivity without metal-semiconductor contact recombination. Efficiency: 23-25% in production. Replaces PERC as the dominant technology for high-efficiency cells. Requires: thermal oxidation for tunnel oxide, LPCVD or PECVD polysilicon deposition, and boron/phosphorus doping.
 - **Heterojunction technology (HJT)**: Amorphous silicon (a-Si) layers on both sides of crystalline silicon wafer form heterojunctions that provide excellent surface passivation. Intrinsic a-Si layer passivates; doped a-Si provides carrier selectivity. Low-temperature processing (<250°C) — compatible with thin wafers (<130 μm). Symmetric structure enables bifaciality factor > 0.90. Temperature coefficient half that of conventional cells — less power loss at high ambient temperature. Efficiency: 23-26% in production.
 - **Cell-to-module (CTM) optimization**: Module power exceeds sum of cell powers through optical gains: light captured from between cells is reflected back by white backsheet or encapsulant. Half-cut cells reduce resistive losses by 75%. Multi-busbar reduces shading. Shingled cells overlap edges (no gap, no busbar shading) for maximum active area. Module power 300-700+ W at 30-45 V.
+
+**Strengths**:
+- TOPCon tunnel oxide (1-2 nm SiO₂) achieves 23-25% production efficiency — carrier selectivity without metal recombination
+- HJT symmetric structure enables bifaciality factor > 0.90 with low-temperature processing (<250°C) compatible with thin wafers
+
+**Weaknesses**:
+- TOPCon requires LPCVD polysilicon deposition + boron/phosphorus doping — 3-4 additional process steps over PERC
+- HJT amorphous silicon layers degrade under UV and thermal stress — long-term stability requires careful encapsulation
 
 ### GPUs & Complex Logic
 
@@ -128,6 +201,14 @@ Making the manufactured IC testable — ensuring defective chips can be identifi
 - **Design for manufacturing (DFM)**: Beyond DRC, DFM optimizes layout for maximum yield. Critical area analysis identifies locations where a random defect of given size would cause a short or open — layouts are modified to reduce critical area. Via redundancy (double vias where routing allows) prevents single-via opens. Wire spreading increases spacing between long parallel runs to reduce the probability of particle-caused shorts. Metal fill optimization for CMP uniformity. These yield-enhancement techniques are applied automatically by EDA tools and manually by designers for critical blocks.
 - **Tapeout and mask making**: The final design release ("tapeout") generates a GDSII or OASIS file containing all geometric data for all layers. This file is sent to the mask shop, where electron beam lithography writes the patterns onto quartz mask blanks (chrome on quartz for binary masks, phase-shift materials for PSM). Mask inspection (die-to-die or die-to-database comparison at nanometer resolution) verifies no defects on the mask — a single mask defect prints on every chip on every wafer. Mask repair (focused ion beam or electron beam) fixes minor defects. A complete mask set for an advanced node contains 30-50 masks, costs $5-20M, and takes 2-6 weeks to manufacture.
 
+**Strengths**:
+- Chiplet architecture bypasses reticle size limits — multiple dies on shared interposer enable 39.5B+ transistor designs without single-die yield penalty
+- HBM stacks deliver >1 TB/s bandwidth through 1024-4096 vertical TSV traces — solves memory-bound bottleneck for GPU compute
+
+**Weaknesses**:
+- TDP of 150-450W in 200-800 mm² die area creates 50-200 W/cm² power density — requires liquid cooling above 300W
+- 3D stacking with TSVs concentrates heat vertically — thermal management limits stacking to 2-4 active dies
+
 ### Ethics & Intellectual Property
 
 - **Design piracy**: An IC mask set or HDL source represents years of engineering effort and millions in investment. Reverse engineering a chip (delayer by layer, image each layer, reconstruct schematics) is technically possible but expensive and time-consuming. Legal protections (mask work rights under treaties, patent protection on novel circuits) provide recourse against copying. In a bootstrapping context, open design methodologies and shared cell libraries are more productive than proprietary hoarding — the constraint is building capability, not defending market share.
@@ -135,6 +216,14 @@ Making the manufactured IC testable — ensuring defective chips can be identifi
 - **Supply chain trust**: Hardware Trojans — malicious modifications inserted during design or fabrication — are a concern for critical applications. Counterfeit ICs (remarked parts, recycled parts sold as new) cause reliability failures. Trusted fabrication facilities and supply chain tracking mitigate these risks. In a bootstrapping context, the fabricator is the designer — supply chain trust is inherent.
 - **Design complexity and human error**: A billion-transistor GPU design requires 100-500 engineer-years of effort. Human errors in HDL code, constraint specification, or floorplanning cause first-silicon failures (respins cost $5-20M per attempt). Methodology enforcement (lint checks, CDC/RDC analysis for clock domain crossings, power intent verification with UPF) catches classes of errors automatically. The trend toward higher abstraction (high-level synthesis from C/C++, system-level design in SystemC) reduces human error by reducing lines of code the designer must write — but shifts verification burden to proving the synthesis tool is correct.
 - **Knowledge preservation for EDA**: EDA tool chains are among the most complex software systems ever built — a full flow from RTL to GDSII involves 20-50 separate tools, each with specialized algorithms developed over decades. In a bootstrapping context, the first "EDA tools" would be pencil-and-paper schematics, manual layout on graph paper, and hand calculation of timing. Each generation of computing capability enables better EDA tools, which enable better ICs, which enable better computing — a positive feedback loop.
+
+**Strengths**:
+- Open design methodologies and shared cell libraries are more productive in bootstrapping — the constraint is building capability, not defending market share
+- Higher abstraction (HLS from C/C++) reduces lines of code designers must write — fewer opportunities for human error
+
+**Weaknesses**:
+- 100-500 engineer-years per GPU design — human errors in HDL, constraints, or floorplanning cause first-silicon failures costing $5-20M per respin
+- EDA tool chains (20-50 separate tools) represent decades of specialized algorithm development — rebuilding from scratch would take years even with documentation
 
 ### Hazards & Safety
 
@@ -165,6 +254,14 @@ Before a design is released to the mask shop ("tapeout"), it must pass a rigorou
 
 **Tapeout data package**: The deliverable to the mask shop includes: GDSII or OASIS file (10-500 GB per layer), mask order form specifying polarity (dark-field or clear-field), critical dimension specifications, OPC instructions, and inspection criteria. The mask shop reverse-engineers the tapeout data to verify design rule compliance independently before committing $5-20M in mask fabrication.
 
+**Strengths**:
+- 10-item signoff checklist catches every class of error before $5-20M mask fabrication — DRC, LVS, STA, SI, EM, antenna, density, DFT, formal verification, and GDSII integrity
+- Formal verification provides mathematical proof of equivalence — catches synthesis bugs that simulation cannot
+
+**Weaknesses**:
+- Any single signoff failure blocks tapeout — 5-15 floorplan iterations before all checks pass simultaneously
+- GDSII files of 10-500 GB per layer require dedicated high-bandwidth transfer to mask shop — data pipeline is a logistical challenge
+
 ### Design Rules by Process Node
 
 Design rules define the boundary between manufacturable and non-manufacturable layouts. Each node's rule deck reflects the physical limitations of lithography, etch, CMP, and thin-film processes at that technology generation.
@@ -187,6 +284,14 @@ Design rules define the boundary between manufacturable and non-manufacturable l
 
 **Color-aware design rules** (multiple patterning)**: At 14 nm and below, some metal layers require triple patterning (LELELE) or SAQP. The designer must assign "colors" (mask assignments) to each wire segment to ensure that no two adjacent wires share the same mask. This coloring constraint becomes an additional design rule — DRC checks not only geometric spacing but also legal color decomposability. Uncolorable layouts (odd-cycle conflicts where three mutually adjacent features require three masks but only two or three are available) must be fixed by moving wires.
 
+**Strengths**:
+- Tabulated minimum dimensions per node (130 nm → 7 nm) give designers precise layout targets — removes guesswork from physical implementation
+- SRAM 6T cell shrinks from 2.5 μm² (130 nm) to 0.027 μm² (7 nm) — 93× area reduction enables large on-chip caches
+
+**Weaknesses**:
+- Rule count doubles each node (~500 → ~5000+) — context-dependent rules require foundry-certified DRC engines that cost millions
+- Color-aware multiple patterning constraints add NP-hard graph coloring to the routing problem — uncolorable layouts require manual intervention
+
 ### Yield Modeling and DFM Optimization
 
 Yield is not purely a manufacturing problem — the design itself determines how susceptible a chip is to random and systematic defects. Design-for-manufacturing (DFM) techniques modify the layout to minimize critical area (the region where a randomly placed defect of given size would cause a functional failure).
@@ -199,6 +304,14 @@ Yield is not purely a manufacturing problem — the design itself determines how
 **Via redundancy**: Every via has a probability of being defective (void in copper fill, misalignment, contamination). A single-via failure opens the net — fatal for the circuit. Where routing space permits, DFM tools add redundant vias (two or more parallel vias) to critical nets. Single-via failure rate: ~10⁻⁸ to 10⁻⁹ per via. For a design with 10⁸ vias and no redundancy: expected via opens = 0.1-1 per chip. With double vias on 80% of connections: expected opens reduced by ~5×. Via redundancy is the single most impactful DFM technique for yield improvement.
 
 **Metal fill and CMP uniformity**: CMP removal rate depends on local pattern density — dense areas polish faster (dishing), sparse areas polish slower (erosion). Density rules (20-80% metal fill in every 100 μm × 100 μm window) ensure uniform removal. DFM tools insert non-functional metal fill shapes (dummy patterns) automatically. Fill shape parameters (size, spacing, orientation) are tuned per foundry process to minimize impact on coupling capacitance and signal integrity.
+
+**Strengths**:
+- Via redundancy (double vias on 80% of connections) reduces expected via opens by ~5× — single most impactful DFM technique for yield
+- Wire spreading reduces random defect yield loss by 5-15% with no area penalty — uses unused routing channels
+
+**Weaknesses**:
+- Critical area analysis for 10⁸ features across all defect size bins requires hours of compute per layer — iterative DFM loops are expensive
+- Dummy metal fill for CMP uniformity adds parasitic capacitance — must be carefully tuned to avoid degrading signal integrity
 
 
 ### IP Integration and Reuse
@@ -217,6 +330,14 @@ Modern SoC designs integrate 50-200 IP (intellectual property) blocks from multi
 - **Signal integrity at IP boundaries**: Signals crossing between IP blocks traverse longer wires with more coupling capacitance. Boundary signals need explicit timing budgets and noise analysis. IP-level SI assumptions may not hold at full-chip integration scale.
 - **Power delivery to IP blocks**: Each IP block draws a known current profile. The full-chip power grid must deliver adequate current to every block simultaneously under worst-case switching conditions. IR drop analysis at IP boundaries often reveals undersized power straps, requiring floorplan iteration to widen power bus widths.
 
+**Strengths**:
+- Soft IP (synthesizable HDL) enables design reuse across process nodes — same ARM Cortex core targets 130 nm through 5 nm with re-synthesis
+- Memory compilers generate custom SRAM configurations on demand — eliminates need to hand-design each memory instance
+
+**Weaknesses**:
+- IP integration errors cause ~30-40% of first-silicon respins in complex SoCs — misconnected buses and clock domain crossing faults are common
+- Hard IP must be re-designed for each new process node — analog IP (PLLs, ADCs, SerDes) cannot be automatically ported
+
 ### Reliability Analysis and Signoff
 
 Semiconductor devices degrade over time under electrical and thermal stress. Reliability analysis ensures that a chip meets its specified lifetime (typically 10 years for consumer, 15-20 years for automotive/industrial) under operating conditions.
@@ -228,6 +349,14 @@ Semiconductor devices degrade over time under electrical and thermal stress. Rel
 **Hot carrier injection (HCI)**: High electric fields near the transistor drain accelerate carriers to energies sufficient to inject into the gate oxide, causing threshold voltage shift and transconductance degradation over time. HCI lifetime ∝ exp(Vgs/γ_hci), where γ_hci ≈ 0.1-0.3 V/decade. Worse at higher Vdd and lower temperature (counterintuitively — lower temperature means carriers retain more energy). Mitigated by LDD (lightly-doped drain) structures and operating voltage reduction. HCI analysis runs SPICE simulations of worst-case input transitions and computes accumulated degradation over the specified lifetime.
 
 **Negative bias temperature instability (NBTI)**: PMOS transistors under negative gate bias at elevated temperature develop interface traps, causing Vth to increase (shift positive) over time. NBTI is the dominant reliability concern for PMOS at 65 nm and below. Recovery effect: removing the stress partially reverses the Vth shift, making measurement methodology critical. Design impact: NBTI-induced Vth shift reduces timing margin over product lifetime — STA signoff must include NBTI derating (e.g., add 5-10% to path delays at end-of-life).
+
+**Strengths**:
+- Black's equation for electromigration provides quantitative lifetime prediction from current density and temperature — enables rule-based EM signoff on every wire segment
+- TDDB voltage acceleration model (~1-2 decades/V for HfO₂) enables conservative voltage derating that ensures <10 FIT failure rate
+
+**Weaknesses**:
+- EM signoff on billion-net designs requires distributed parallel analysis — each wire segment checked against current density limits at all temperature corners
+- NBTI recovery effect makes measurement methodology-dependent — over/under-estimation of Vth shift causes either wasted margin or field failures
 
 
 ---

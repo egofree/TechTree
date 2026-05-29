@@ -1,10 +1,12 @@
 # SEM Tech in e-Methanol Synthesis (Power-to-Liquids)
 
-> **Node ID**: chemistry.e-methanol
-> **Domain**: Chemistry
+> **Node ID**: chemistry.sem-tech-e-methanol
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.sem-tech`](sem-tech.md), [`chemistry.electrolysis`](electrolysis.md)
+> **Enables**: [`energy.fuels`](../energy/index.md), [`chemistry.solvents`](solvents.md)
 > **Timeline**: Years 25-40
 > **Outputs**: methanol
-> **Tags**: materials=[chemicals, polymers], era=industrial
+> **Critical**: No — e-methanol provides a liquid fuel route but requires cheap hydrogen and captured CO₂
 
 The [SEM Tech membrane](sem-tech.md) enables low-cost ion exchange membrane manufacturing at less than $1 per square foot. This article examines how that cost advantage applies to e-methanol synthesis — a power-to-liquids technology that converts green hydrogen and captured CO₂ into methanol.
 
@@ -41,6 +43,10 @@ A side reaction also occurs — the reverse water-gas shift:
 - CO₂ + H₂ → CO + H₂O
 
 The water produced must be separated from the methanol product via distillation. The reaction equilibrium favors methanol at lower temperatures, but kinetics require elevated temperatures — hence the compromise operating range of 220-280°C.
+
+**Strengths**: Methanol is a liquid at room temperature (easy storage and transport, unlike H₂); well-established Cu/ZnO/Al₂O₃ catalyst from conventional methanol industry; exothermic reaction generates useful heat; methanol is a versatile chemical feedstock (formaldehyde, acetic acid, MTBE, DME); carbon-neutral when using green H₂ + captured CO₂.
+
+**Weaknesses**: Requires 50-55 kWh/kg H₂ for green hydrogen — energy-intensive first step; CO₂ capture and purification adds cost; per-pass conversion only 40-60% (requires large recycle loop); water byproduct must be distilled from methanol (additional energy); catalyst deactivated by sulfur and chlorine impurities in feed gas.
 
 ## Role of SEM Tech Membranes
 
@@ -234,4 +240,4 @@ For regions with both cheap renewable electricity and access to point-source CO�
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) | [Chemistry](./index.md) | [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

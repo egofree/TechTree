@@ -1,11 +1,12 @@
 # Coke Production
 
 > **Node ID**: energy.fuels.coke
-> **Domain**: Energy
+> **Domain**: [Energy](./index.md)
 > **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), [`energy.fuels`](fuels.md), `mining`
 > **Enables**: [`metals.iron-steel.blast-furnace`](../metals/blast-furnace.md)
 > **Timeline**: Years 15-25
 > **Outputs**: coke, coal_gas, coal_tar, ammonia_liquor, benzol
+> **Critical**: Yes — coke is the only fuel that sustains blast furnace temperatures (1800-2100°C); without coke, iron production remains limited to small bloomeries
 
 ## Overview
 
@@ -26,6 +27,17 @@ Not all coal makes good coke. Only certain bituminous coals ("coking coals" or "
 
 ## Beehive Oven Method
 
+**Strengths**:
+- Simple construction — dome of brick or stone, no moving parts
+- No external fuel required after ignition — volatile gases from the coal sustain the coking
+- Operated for 200+ years — well-understood process with documented results
+
+**Weaknesses**:
+- No byproduct recovery — all coal gas, tar, and ammonia are lost to the atmosphere
+- Low coke yield (55-65% by weight) compared to by-product ovens (72-78%)
+- Pollution — large volumes of smoke and toxic gases vented without treatment
+- Manual labor intensive — coke is hand-raked from the oven
+
 The simplest and earliest coke production method. Used from the 1700s through the early 1900s.
 
 - **Construction**: Dome-shaped brick or stone chamber, ~3-4 m diameter, 2 m tall at the crown. Opening at top (trunnel head) for charging coal and ignition, side opening (door) for air control and coke removal. Floor slopes slightly toward the door for drainage.
@@ -41,6 +53,18 @@ The simplest and earliest coke production method. Used from the 1700s through th
 - **Limitation**: Volatile byproducts are burned rather than captured — wasteful of valuable chemical feedstocks but extremely simple. A battery of 50-100 beehive ovens operating in sequence provides continuous coke supply.
 
 ## By-Product Recovery Oven (Advanced)
+
+**Strengths**:
+- Recovers all volatile byproducts — coal gas, tar, benzol, ammonia, sulfur — each a valuable chemical feedstock
+- Higher coke yield (72-78% by weight) and more uniform quality than beehive ovens
+- Self-sustaining — cleaned coke oven gas heats the ovens, no external fuel needed
+- Near-continuous operation — battery of ovens allows one to be charged while another discharges
+
+**Weaknesses**:
+- Complex construction — silica brick chambers, gas collection system, chemical recovery plant
+- Requires 20-100 ovens per battery to be economical — high capital cost
+- Chemical recovery plant is a significant industrial facility in its own right
+- Precise temperature control needed across the full chamber length — uneven heating produces inconsistent coke
 
 The modern method — captures all volatile byproducts while producing higher-quality coke.
 

@@ -1,9 +1,9 @@
 # Ultra-Pure Water (UPW) Production
 
 > **Node ID**: ultra-pure.upw
-> **Domain**: Ultra-Pure Materials
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Domain**: [Ultra-Pure Materials](./index.md)
+> **Dependencies**: [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md), [Polymers](../polymers/index.md), [Energy](../energy/index.md)
+> **Enables**: [High-Purity Chemicals](high-purity-chemicals.md), [Analytical Verification](analytical-verification.md)
 > **Timeline**: Years 40-70
 > **Outputs**: ultra_pure_water
 > **Tags**: materials=[water, chemicals], era=semiconductor
@@ -64,6 +64,16 @@ Pretreatment removes the bulk of contaminants from the feed water, protecting do
 
 Primary purification removes >99% of dissolved ions, organics, and particles through membrane-based separation.
 
+**Strengths**:
+- RO removes 95-99% of dissolved ions and 99% of organics >200 Da in a single pass
+- EDI provides continuous ion removal without chemical regeneration downtime
+- Membrane processes scale linearly — add more membrane modules for higher capacity
+
+**Weaknesses**:
+- RO requires 10-15 bar operating pressure — significant energy consumption for high-pressure pumping
+- Membranes foul over time and require periodic cleaning or replacement (3-5 year life)
+- EDI cannot achieve 18.2 MΩ·cm alone — requires downstream mixed-bed polishing
+
 **Reverse osmosis (RO) — first pass**: Polyamide thin-film composite (TFC) membrane at 10-15 bar operating pressure. Rejects 95-99% of dissolved ions, 99% of organics >200 Da, and 99% of particles >0.01 μm. Permeate quality: 0.5-5 mg/L TDS, TOC <50 ppb. Recovery: 75-85%.
 
 **RO — second pass (optional)**: A second RO pass on the first-pass permeate further reduces TDS to <0.1 mg/L and TOC to <10 ppb. Used when feed water is high in dissolved silica or boron.
@@ -75,6 +85,16 @@ Primary purification removes >99% of dissolved ions, organics, and particles thr
 ### Block 3: Polishing
 
 Polishing removes the last traces of contaminants to reach semiconductor-grade purity. Each polishing stage targets a specific contaminant class.
+
+**Strengths**:
+- Mixed-bed ion exchange achieves 18.0-18.2 MΩ·cm resistivity — the final ion barrier
+- UV oxidation reduces TOC by 50-90% and provides continuous bacterial control
+- Ultrafiltration at 10 nm pore size removes bacteria, endotoxins, and colloidal silica
+
+**Weaknesses**:
+- Mixed-bed resin exhausts in months and must be regenerated or replaced off-site
+- UV lamps degrade over 6-12 months — 185 nm output diminishes affecting TOC removal
+- UF membranes require automatic backwash every 15-30 minutes, consuming product water
 
 **Mixed-bed ion exchange**: Strong acid cation + strong base anion exchange resins in a single vessel. Removes the final traces of dissolved ions that pass through EDI. Product resistivity: 18.0-18.2 MΩ·cm. The mixed-bed is the final ion barrier — when its effluent resistivity drops below 18.0 MΩ·cm, the resin is exhausted and must be replaced or regenerated off-site.
 

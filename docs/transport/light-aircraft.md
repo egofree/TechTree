@@ -1,9 +1,12 @@
 # Light Aircraft
 
 > **Node ID**: transport.light-aircraft
-> **Domain**: Transport
+> **Domain**: [Transport](./index.md)
+> **Dependencies**: [`transport.aviation`](aviation.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 30-50
 > **Outputs**: light_aircraft, aerial_reconnaissance, short_range_cargo
+> **Critical**: No
 
 ## Overview
 
@@ -47,6 +50,16 @@ Light aircraft — single-engine propeller planes of wood-and-fabric or aluminum
 
 **Time Between Overhaul (TBO)**: Aircraft engines are overhauled at a factory-specified interval regardless of condition (typically 1500-2000 hours for Lycoming/Continental four-cylinder engines). Overhaul: disassemble, inspect all parts to dimensional limits, replace pistons, rings, bearings, seals, and any parts beyond tolerance, reassemble and test. Cost: $15,000-30,000. Engine life can be extended by careful operation: avoid sudden throttle changes (shock cooling cracks cylinder heads), monitor CHT and oil temperature (keep below limits), use correct fuel-air mixture, and change oil at recommended intervals.
 
+**Strengths**:
+- Horizontally opposed configuration gives natural balance and compact frontal area (low drag)
+- Air cooling eliminates radiator, water pump, coolant — fewer failure modes
+- Power-to-weight ratio of 1.0-1.4 hp/kg exceeds most industrial engines
+
+**Weaknesses**:
+- Requires 100LL avgas (100 octane, leaded) — petroleum refining and tetraethyl lead needed
+- TBO of 1500-2000 hours means factory overhaul every 2-3 years of regular use
+- Cylinder head temperatures must stay below 300°C — aluminum alloy loses strength above this
+
 ## Flight Instruments
 
 **Six-pack basic instrument panel**: (1) Airspeed indicator (ASI): pitot-static system measures dynamic pressure (pitot tube total pressure minus static port pressure) and displays as airspeed via an aneroid capsule. Range: 40-200 knots (80-370 km/h). Color-coded arcs: white (flap operating range), green (normal operating), yellow (caution — smooth air only), red line (never exceed, Vne). (2) Attitude indicator (artificial horizon): gyroscope (electric or vacuum-driven at 10,000-20,000 RPM) maintains a reference horizon, showing pitch and roll attitude. Tumble limit: ±60° pitch, ±90° roll (exceeding these limits causes the gyro to tumble and provide erroneous readings until it erects, ~1-5 minutes). (3) Altimeter: aneroid barometer calibrated in feet or meters. Sensitive altimeter: adjustable barometric pressure setting (Kollsman window) compensates for local atmospheric pressure. At 1013.25 hPa (standard sea level pressure), altimeter reads pressure altitude. Accuracy: ±30 m at sea level. (4) Turn coordinator: electric gyro shows rate of turn (standard rate = 3°/s, completing a 360° turn in 2 minutes) and coordination (slip/skid ball — ball centered = coordinated flight). (5) Heading indicator (directional gyro): gyro-stabilized compass, not affected by magnetic dip or acceleration errors like a magnetic compass. Must be reset to magnetic compass every 10-15 minutes (gyro precession causes 2-5°/hour drift). (6) Vertical speed indicator (VSI): rate of climb/descent in feet per minute (range ±2000 fpm, ±10 m/s). Lag: 3-9 seconds to stabilize at the correct rate after a change in vertical speed.
@@ -66,6 +79,16 @@ Light aircraft — single-engine propeller planes of wood-and-fabric or aluminum
 **Riveted aluminum assembly**: Cut and form skin panels to shape (brake press for bending, English wheel for compound curves). Drill all rivet holes with a pneumatic drill (#30 or #40 drill bit, 3.3-2.8 mm diameter for 3.2 mm rivets). Deburr holes. Apply sealant (chromate primer + polysulfide sealant in lap joints for corrosion protection and fuel tank integrity). Insert rivets from the outside, buck from inside with a bucking bar (hardened steel, 150-400 g). Drive with pneumatic riveting gun (2-3 Hz cycle rate). Inspect: rivet head height above skin surface 0.8-1.5 mm (flush rivets: countersunk, head within +0.00/-0.10 mm of skin surface). Typical build time: 2000-4000 hours for a four-seat aluminum aircraft (kit-built). Factory production: 800-2000 hours with jigs and fixtures.
 
 **Composite construction** (fiberglass/carbon fiber): Lay up epoxy resin + fiberglass cloth (E-glass or S-glass, 200-600 g/m²) or carbon fiber cloth (200-400 g/m²) in female molds. Laminate schedule: 2-4 layers of cloth for skins, with foam or honeycomb core (5-25 mm Divinycell PVC foam or Nomex aramid honeycomb) in a sandwich construction for stiffness (sandwich panel bending stiffness is proportional to core thickness cubed — doubling core thickness increases stiffness 8×). Cure at room temperature for 24 hours or at 60-80°C for 4-8 hours (elevated temperature cure increases Tg and mechanical properties). Post-cure at 80-100°C for 4-8 hours. Weight savings vs. aluminum: 15-25% for equivalent strength. Composite aircraft (e.g., Cirrus SR20/SR22) have smoother surfaces (no rivets, 5-10% less drag), better fatigue resistance, and unlimited airframe life (no metal fatigue or corrosion), but require temperature-controlled storage (epoxy softens above Tg of 60-80°C — a hot hangar can damage the structure) and are harder to repair after damage.
+
+**Strengths**:
+- Riveted aluminum construction uses standard sheet, angles, and solid rivets — no exotic materials
+- Wood-and-fabric build is 15-25% lighter than aluminum and needs only spruce, plywood, and fabric
+- Composite sandwich panels double core thickness for 8× stiffness gain — efficient structural design
+
+**Weaknesses**:
+- Aluminum riveted airframe has 5,000-15,000 rivets — 2,000-4,000 hours to build by hand
+- Wood-and-fabric requires recover every 10-20 years (fabric UV degradation)
+- Composites need temperature-controlled cure (60-80°C) and storage below Tg — limited in hot climates
 
 ## Avionics and Navigation
 
@@ -121,7 +144,7 @@ Light aircraft — single-engine propeller planes of wood-and-fabric or aluminum
 
 **Dead reckoning navigation**: The fundamental navigation method for light aircraft (supplementing pilotage — visual reference to ground features). Plot the intended course on an aeronautical chart (1:500,000 sectional chart). Measure true course (TC) with a protractor. Apply magnetic variation (VAR: east is least/subtract, west is best/add — obtained from isogonic lines on the chart). Apply wind correction angle (WCA) computed from the E-6B flight computer (a circular slide rule): given true airspeed (TAS), wind direction/speed, and true course, calculate heading (HDG) and ground speed (GS). Example: TC 090°, TAS 110 kt, wind from 180° at 20 kt → WCA -10° (crab 10° into wind), HDG 080°M, GS 107 kt. Fuel required = (distance / GS) × fuel flow + reserve. For a 200 NM leg at 107 kt GS with 12 gal/hr flow: 200/107 = 1.87 hr × 12 = 22.4 gal + 8 gal reserve = 30.4 gal total (check: 42 gal usable → 11.6 gal margin).
 
-**Pilotage (visual navigation)**: Identify ground features visible from the air and match them to the sectional chart. Key references: rivers (sinuous, reflective), highways (straight gray lines), railroads (straight with gentle curves, dark line), towns (clusters of buildings), towers (tall structures with flashing lights, marked on chart with height MSL). Checkpoints every 10-20 NM along the planned route. At each checkpoint: record time, compare actual vs. planned ground speed (if slower than planned, recalculate fuel remaining and arrival time). Off-course correction: double the angular drift for a reciprocal heading (if 5° right of course after 50 NM, turn left 10° to parallel the course, then 5° more to intercept). See [Navigation](../foundations/navigation.md).
+**Pilotage (visual navigation)**: Identify ground features visible from the air and match them to the sectional chart. Key references: rivers (sinuous, reflective), highways (straight gray lines), railroads (straight with gentle curves, dark line), towns (clusters of buildings), towers (tall structures with flashing lights, marked on chart with height MSL). Checkpoints every 10-20 NM along the planned route. At each checkpoint: record time, compare actual vs. planned ground speed (if slower than planned, recalculate fuel remaining and arrival time). Off-course correction: double the angular drift for a reciprocal heading (if 5° right of course after 50 NM, turn left 10° to parallel the course, then 5° more to intercept). See [Navigation](../marine/navigation.md).
 
 **Radio navigation (VOR)**: VHF Omnidirectional Range — a ground-based transmitter (108.0-117.95 MHz) that broadcasts a directional signal allowing the aircraft receiver to determine the magnetic bearing (radial) from the station. Accuracy: ±1-2°. Range: 50-200 NM depending on altitude and terrain. The pilot selects a VOR frequency on the NAV receiver and observes the Course Deviation Indicator (CDI) needle — centered when on the selected radial, deflecting 2° per dot (5 dots full scale = 10° off course). To fly to a VOR station: tune the frequency, identify the station (Morse code identifier), rotate the OBS (Omnibearing Selector) to center the CDI needle with a TO indication, and fly the heading shown on the OBS. Distance Measuring Equipment (DME): co-located with VOR, provides slant range distance to the station (accuracy ±0.5 NM). DME operates at 962-1213 MHz, transponder-based (aircraft interrogator → ground transponder → aircraft receiver, round-trip time × speed of light / 2 = distance).
 
@@ -168,7 +191,7 @@ Light aircraft — single-engine propeller planes of wood-and-fabric or aluminum
 
 **Airworthiness certification**: In the US, light aircraft are certified under FAR Part 23 (small airplanes, <19,000 lb / 8,600 kg MTOW, <19 passengers). The manufacturer must demonstrate compliance with ~500+ regulations covering structural strength (limit loads × 1.5 = ultimate loads, no failure), flight characteristics (stall warning, spin recovery for single-engine aircraft, controllability at VMC), engine and systems (fuel system integrity, electrical fire protection, oxygen system for flight above 12,500 ft), and crashworthiness (shoulder harness loads of 9g forward, seat/restraint system must protect occupants in a 26g vertical impact per FAR 23.562). Certification flight test program: 200-500 flight hours over 1-3 years, demonstrating safe operation across the full envelope (altitude, temperature, loading, CG positions). Cost: $10-50 million for a new type certificate. Once certified, each individual aircraft receives an airworthiness certificate after a final inspection. The airworthiness certificate remains valid as long as the aircraft is maintained per FAR Part 43 (annual inspections, airworthiness directives compliance) and operated per FAR Part 91 (general operating and flight rules).
 
-**Pilot certification**: Private pilot license (PPL) minimum requirements (ICAO / FAA): 40 hours total flight time (national average: 55-70 hours), including 20 hours dual instruction, 10 hours solo, 5 hours solo cross-country, 3 hours instrument training, 3 hours night flight, 3 hours test preparation. Written exam: 60 questions, 70% pass mark, covering aerodynamics, weather, navigation, regulations, aircraft systems, and flight planning. Practical test (checkride): oral exam (1-2 hours) + flight test (1.5-2 hours) covering preflight inspection, takeoff/landing, ground reference maneuvers, navigation, stall recovery, emergency procedures, and night operations. Medical certificate: Class 3 (valid 24 months for pilots under 40, 60 months over 40) — requires vision 20/40 correctable, no epilepsy, no insulin-dependent diabetes, no psychosis. Cost to obtain PPL: $8,000-15,000 (aircraft rental $120-180/hr × 55-70 hours + instructor $50-80/hr × 30-40 hours + written exam $150 + checkride $600-800 + medical $100-200). See [Education](../foundations/education.md).
+**Pilot certification**: Private pilot license (PPL) minimum requirements (ICAO / FAA): 40 hours total flight time (national average: 55-70 hours), including 20 hours dual instruction, 10 hours solo, 5 hours solo cross-country, 3 hours instrument training, 3 hours night flight, 3 hours test preparation. Written exam: 60 questions, 70% pass mark, covering aerodynamics, weather, navigation, regulations, aircraft systems, and flight planning. Practical test (checkride): oral exam (1-2 hours) + flight test (1.5-2 hours) covering preflight inspection, takeoff/landing, ground reference maneuvers, navigation, stall recovery, emergency procedures, and night operations. Medical certificate: Class 3 (valid 24 months for pilots under 40, 60 months over 40) — requires vision 20/40 correctable, no epilepsy, no insulin-dependent diabetes, no psychosis. Cost to obtain PPL: $8,000-15,000 (aircraft rental $120-180/hr × 55-70 hours + instructor $50-80/hr × 30-40 hours + written exam $150 + checkride $600-800 + medical $100-200). See [Education](../knowledge/education.md).
 
 ## Maintenance and Inspection
 
@@ -187,7 +210,7 @@ Light aircraft — single-engine propeller planes of wood-and-fabric or aluminum
 ## Cross-Domain Links
 
 - **[Aluminum Production](../metals/aluminum.md)**: primary structural material for airframes
-- **[Internal Combustion Engines](../energy/engines.md)**: aircraft powerplant design and fuels
+- **[Internal Combustion Engines](../energy/engine.md)**: aircraft powerplant design and fuels
 - **[Machine Tools](../machine-tools/index.md)**: milling, riveting, and forming equipment
 - **[Electrical Systems](../electronics/electrical-systems.md)**: avionics, wiring, and battery systems
 - **[Petroleum Refining](../energy/refining.md)**: aviation gasoline production (100LL avgas)
@@ -195,6 +218,4 @@ Light aircraft — single-engine propeller planes of wood-and-fabric or aluminum
 
 ---
 
-*Part of the [Transport Domain](index.md) · [All Domains](../index.md)*
-
-[← Back to Transport](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*

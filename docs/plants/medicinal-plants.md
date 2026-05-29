@@ -2,12 +2,13 @@
 
 > **Node ID**: plants.medicinal-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
-> **Dependencies**: [`health.pharmacology`](../health/pharmacology.md), `plants`
+> **Dependencies**: [`health.pharmacology`](../health/pharmacology.md), [`plants`](./index.md)
 > **Enables**: `plants.medicinal-plants.agrimonia-pilosa`, `plants.medicinal-plants.aloe-officinalis`, `plants.medicinal-plants.artemisia-douglasiana`, `plants.medicinal-plants.artemisia-inculta`, `plants.medicinal-plants.botryodiscia`
 > **Timeline**: Years 0-10
 > **Outputs**: medicinal_herbs, therapeutic_compounds, herbal_remedies
+> **Critical**: Yes — herbal remedies are the earliest and most accessible healthcare technology, directly reducing mortality
 
-### Overview
+## 1. Overview
 
 Identification, cultivation, preparation, and application of plant species with therapeutic properties for treating illness, injury, and disease. Plants synthesize hundreds of chemical compounds for defense against insects, fungi, and herbivores — many of these compounds have pharmacological effects on humans. Medicinal plants are the foundation of all pharmacology and the earliest healthcare technology available from Year 0.
 
@@ -24,6 +25,66 @@ Plants store active compounds in different tissues — leaves, stems, roots, bar
 **Tincture (ethanol extraction)**: Macerate dried plant material in 40-70% ethanol for 14+ days, agitating daily. Strain and filter. Ethanol extracts alkaloids, flavonoids, resins, and essential oils that water cannot reach. Tinctures are shelf-stable for 2-5 years. Standard ratio: 1:5 (1 g dried herb per 5 mL solvent). Requires distillation capability for ethanol production.
 
 **Steam distillation**: Pass steam through plant material. Volatile essential oils vaporize and condense with the steam. Separate the oil layer (lighter, floats). Used for aromatic compounds from Artemisia species. Yields typically 0.5-3% by weight. Requires distillation apparatus (glass or metal condenser).
+
+**Infusion (tea)**:
+
+**Strengths**:
+- Simplest preparation — pour boiling water over plant material, steep 10-15 minutes
+- No special equipment — a pot and cloth strainer suffice
+- Extracts water-soluble compounds effectively (tannins, glycosides, some alkaloids)
+- Gentle heat preserves heat-sensitive compounds that decoction would destroy
+- Rapid preparation — ready within 15 minutes
+
+**Weaknesses**:
+- Cannot extract water-insoluble compounds — alkaloids, resins, and essential oils remain in the plant material
+- Very short shelf life — water extracts spoil within 24 hours without preservative
+- Low concentration — large volumes of liquid needed for therapeutic doses
+- Inconsistent potency — depends on water temperature, steeping time, and plant material fineness
+
+**Decoction**:
+
+**Strengths**:
+- Breaks down tough cell walls in roots, bark, and seeds — extracts compounds infusion cannot reach
+- Higher extraction efficiency for woody plant parts — sustained boiling pulls out more active material
+- No special equipment beyond a pot and heat source
+- Proven over millennia — the standard preparation method in traditional medicine systems
+
+**Weaknesses**:
+- Heat destroys some volatile and heat-sensitive compounds — essential oils evaporate during boiling
+- Bitter and unpleasant taste — prolonged boiling extracts tannins and bitter compounds along with actives
+- Short shelf life — same 24-hour spoilage limit as infusions
+- Difficult to standardize — potency varies with boiling time, plant material particle size, and water volume
+
+**Tincture (ethanol extraction)**:
+
+**Strengths**:
+- Broadest extraction profile — ethanol pulls alkaloids, flavonoids, resins, and essential oils that water cannot reach
+- Long shelf life — 2-5 years without refrigeration (ethanol is its own preservative)
+- Concentrated — small volume delivers therapeutic dose (typically 1-5 mL vs. 150+ mL for infusions)
+- Precise dosing — liquid can be measured by the drop with a simple pipette
+- Stable potency — ethanol extraction is more consistent between batches than water methods
+
+**Weaknesses**:
+- Requires ethanol — depends on distillation capability, a significant technology threshold
+- Long preparation time — 14+ days of maceration before the tincture is ready
+- Higher cost — ethanol is a valuable commodity with competing uses
+- Alcohol content — unsuitable for children, pregnant women, and individuals avoiding alcohol
+- Glass vessel required — must be sealed to prevent ethanol evaporation during maceration
+
+**Steam distillation**:
+
+**Strengths**:
+- Only method for extracting volatile essential oils — yields pure aromatic compounds
+- Produces shelf-stable essential oils — concentrated, potent, and tradeable
+- Separates oil from water-soluble impurities — cleaner product than solvent extraction
+- Used for antiseptic and aromatic compounds (Artemisia, eucalyptus, lavender)
+
+**Weaknesses**:
+- Requires distillation apparatus — glass or metal condenser, heat source, collection vessel
+- Very low yield — 0.5-3% by weight, requires large quantities of plant material
+- Heat-intensive — some compounds degrade at distillation temperatures
+- Not suitable for non-volatile compounds — only extracts components that vaporize with steam
+- Most complex preparation method — requires skill to operate and maintain the distillation apparatus
 
 ### Preparation & Dosage
 
@@ -199,4 +260,4 @@ Medicinal plant preparation shelf life under proper storage conditions (cool, da
 
 ---
 
-[← Back to Plants](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*

@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 0-10
 > **Outputs**: biological_pest_control, crop_protection, guardian_services, rodent_suppression
+> **Critical**: No — valuable for crop protection but not a foundation node
 
 ## Overview
 
@@ -197,4 +198,6 @@ Any new guardian or pest control animal should be quarantined for 14-30 days bef
 
 All mammals are potential rabies vectors. Bats, raccoons, skunks, and foxes are the primary wildlife reservoirs. Unvaccinated cats that hunt outdoors are at elevated risk. If a pest control animal shows neurological symptoms (aggression, lethargy, difficulty swallowing, excessive salivation), isolate it immediately and consult a veterinarian. Rabies is fatal once symptoms appear. Vaccinate all dogs and cats on the farm.
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

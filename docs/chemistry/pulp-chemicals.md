@@ -1,11 +1,12 @@
 # Pulp & Paper Chemicals
 
 > **Node ID**: `chemistry.pulp-chemicals`
+> **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`chemistry.alkalis`](alkalis.md), [`chemistry.electrolysis`](electrolysis.md)
-> **Enables**: `knowledge`, `textiles`
-> **Parent**: [Chemistry](index.md)
-> **Era**: Early Industrial
-> **Tags**: `material`, `capability`, `early-win`
+> **Enables**: [`textiles.finishing`](../textiles/finishing.md), [`foundations.knowledge-preservation`](../foundations/index.md)
+> **Timeline**: Years 15-35
+> **Outputs**: wood_pulp, paper, kraft_liquor, tall_oil
+> **Critical**: No — pulp chemicals support paper and textile production but are not prerequisites for core industrial capabilities
 
 ## Overview
 
@@ -22,6 +23,10 @@ Pulp and paper chemicals enable the conversion of wood and plant fibers into pap
 **White liquor preparation**: NaOH + Na₂S solution. Sodium sulfate (Na₂SO₄) purchased or produced from salt + sulfuric acid → reduced to Na₂S in the recovery furnace by carbon (from burned black liquor): Na₂SO₄ + 4C → Na₂S + 4CO. Causticizing: Na₂CO₃ (from recovery furnace) + Ca(OH)₂ → NaOH + CaCO₃. CaCO₃ → CaO + CO₂ in lime kiln. CaO + H₂O → Ca(OH)₂ (slaked lime). The kraft chemical cycle is a closed loop — inorganic chemicals are recovered and reused with >95% efficiency.
 
 **Digester**: Wood chips (20-30 mm) cooked with white liquor at 160-175°C for 1-3 hours. Lignin reacts with NaOH and Na₂S: Na₂S hydrolyzes to NaSH + NaOH. Sulfide ions (HS⁻) attack lignin β-aryl ether bonds, fragmenting the polymer into smaller, alkali-soluble fragments. Simultaneously, NaOH saponifies ester bonds and neutralizes acidic groups. H-factor (reaction severity) combines temperature and time into a single parameter. Batch digesters: 100-300 m³, 8-12 charges per day. Continuous digesters (Kamyr): chip column moves downward through impregnation, cooking, and wash zones — superior uniformity and energy efficiency.
+
+**Strengths**: Kraft chemical recovery is >95% efficient — closed-loop NaOH/Na₂S cycle minimizes fresh chemical purchases; recovery boiler generates steam making modern mills energy self-sufficient; tall oil byproduct (rosin + fatty acids) is a valuable chemical feedstock; produces the strongest paper of any pulping method (hence "kraft" = German for "strength").
+
+**Weaknesses**: Recovery boiler is the single most expensive and critical equipment piece — mill shuts down if it trips; kraft pulp is dark brown and requires multi-stage bleaching; sulfur-containing emissions (TRS — total reduced sulfur) cause notorious "rotten egg" odor; capital cost for a modern kraft mill exceeds $1 billion.
 
 **Black liquor**: The spent cooking liquor — contains dissolved lignin (as alkali lignin), hemicellulose degradation products, and the inorganic cooking chemicals. Concentration: 15-18% solids from digester, concentrated in multi-effect evaporators to 65-80% solids. **Recovery boiler**: Concentrated black liquor burned — organic material (lignin, hemicellulose) provides fuel energy (recovery boiler generates steam for the mill — modern kraft mills are energy self-sufficient), inorganic sodium salts melt and drain from the furnace bottom as smelt (Na₂CO₃ + Na₂S). Smelt dissolved in water → green liquor → causticized with lime → white liquor (NaOH + Na₂S) returned to digester. Recovery boiler is the heart of a kraft mill — a single point of failure that shuts the entire mill if it trips.
 
@@ -206,3 +211,7 @@ The global shift toward sustainable packaging is driving renewed investment in c
 
 - Paper supports [Printing](../knowledge/printing.md) and [Libraries](../knowledge/libraries.md). Kraft process uses [Alkalis](../chemistry/alkalis.md). Bleaching via [Air Separation](../chemistry/air-separation.md) chlorine. Cellulose feeds [Polymers](../polymers/synthetic.md).
 
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

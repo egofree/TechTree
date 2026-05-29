@@ -1,11 +1,12 @@
 # Ore Processing
 
 > **Node ID**: mining.processing
-> **Domain**: Mining Engineering & Extractive Metallurgy
+> **Domain**: [Mining](./index.md)
 > **Dependencies**: [`energy.fuels`](../energy/fuels.md), [`mining.extraction`](extraction.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 0-20
 > **Outputs**: concentrated_ore
+> **Critical**: No
 
 ### Ore Dressing (processing raw rock to concentrated ore)
 
@@ -38,6 +39,16 @@
 **Tailings management**:
 - Tailings pond: Excavated or dammed basin downstream of processing plant. Fine waste slurry pumped in, solids settle, clarified water decanted and recycled. Dam construction from compacted earth or mine waste — engineered for stability. Water recycling critical — processing uses 2-10 m³ water per tonne ore.
 - Environmental: Tailings may contain residual chemicals (cyanide, flotation reagents, heavy metals). Neutralize before discharge — cyanide destroyed by oxidation (hydrogen peroxide or natural UV degradation). Monitor groundwater. Re-vegetate completed tailings areas.
+
+**Strengths**:
+- Gravity separation (jigs, sluices) recovers 85-95% of dense minerals with no chemical reagents
+- Flotation achieves 85-95% recovery for sulfide ores (copper, lead, zinc) at industrial scale
+- Multiple methods (gravity, magnetic, flotation, leaching) can be combined to process complex ores
+
+**Weaknesses**:
+- Crushing and grinding consume 50-70% of total plant energy (10-30 kWh/tonne for ball milling alone)
+- Flotation requires ongoing reagent supply (xanthates, frothers, lime) that must be manufactured
+- Cyanide leaching demands pH >10 at all times — acidic conditions release lethal HCN gas
 
 ### Common Ore Flowsheets
 
@@ -78,6 +89,16 @@
 
 **Shaking table**: A sloped, riffled table (1.2 × 2.4 m typical) that oscillates longitudinally at 200-300 strokes/minute with a 10-20 mm stroke length. A thin film of water flows across the table at right angles to the oscillation. Particles separate by density and size: heavy minerals ride the riffles uphill toward the concentrate discharge, light minerals wash across the riffles to the tailings discharge. Very effective for fine-grained ores (0.05-2 mm). Produces a visible fan-shaped product distribution: concentrate at one end, middlings in the center, tailings at the other. One table processes 0.5-2 tonnes/hour depending on feed size.
 
+**Strengths**:
+- Sluice boxes recover 70-90% of gold >0.1 mm with no chemical reagents — only water and gravity
+- Jigs achieve 85-95% recovery for dense minerals at 2-20 mm feed size with simple mechanics
+- Shaking tables produce visible product separation — operator can adjust in real time
+
+**Weaknesses**:
+- Gravity methods require a specific gravity difference ≥1.5 between ore and gangue
+- Fine gold (<0.1 mm) passes through sluice riffles — needs amalgamation or cyanide for recovery
+- Shaking tables process only 0.5-2 tonnes/hour each — many tables needed for high throughput
+
 ### Magnetic Separation
 
 **[Low-intensity magnetic separators](../glossary/low-intensity-magnetic-separators.md)** (0.1-0.3 Tesla): Capture strongly magnetic minerals — primarily magnetite (Fe₃O₄). A rotating drum with internal permanent magnets or electromagnets attracts magnetic particles, which cling to the drum surface and are carried to a separate discharge point. Non-magnetic gangue falls straight through. Used for iron ore beneficiation (magnetite ores) and for removing tramp iron from process streams. Throughput: 10-100 tonnes/hour.
@@ -91,6 +112,16 @@
 - pH: maintained at 10-11 with lime (CaO) or sodium hydroxide. Below pH 10, cyanide converts to HCN gas (hydrogen cyanide, lethal at 100 ppm). This is the critical safety requirement: never allow cyanide solutions to become acidic.
 - Leach time: 24-72 hours for tank leaching, 30-180 days for heap leaching. Temperature: ambient (15-30°C). Dissolved oxygen required: typically 5-8 ppm. Aeration may be needed in tank leaching.
 - Recovery: 85-95% of contained gold for typical ores. Gold is recovered from solution by adsorption onto activated carbon (carbon-in-pulp or carbon-in-leach), then stripped from carbon with hot caustic solution and electrowon onto steel wool cathodes.
+
+**Strengths**:
+- Dissolves gold at low reagent concentration (0.01-0.05% NaCN) — cost-effective per ounce recovered
+- Tank leaching completes in 24-72 hours; heap leaching handles large volumes at low capital cost
+- Carbon adsorption selectively loads gold from solution, simplifying downstream recovery
+
+**Weaknesses**:
+- Cyanide is acutely lethal (200-300 mg oral dose) — requires strict pH control >10 and emergency antidote on site
+- Heap leach cycles run 30-180 days — slow cash flow return on leach pad investment
+- Dissolved oxygen must be maintained at 5-8 ppm — aeration adds energy cost to tank leaching
 
 ### Smelting Preparation
 
@@ -109,6 +140,16 @@
 - **Retorting**: Heat the amalgam in a sealed iron retort to 400-500°C. Mercury vaporizes (boiling point 357°C) and condenses in a water-cooled condenser for reuse. Gold remains in the retort as a porous sponge (sponge gold), which is then melted into a doré button. Mercury recovery rate: 95-98% with a good condenser.
 - **Environmental hazard**: Mercury vapor is a cumulative neurotoxin. Retort in a well-ventilated area with a gas-tight system. Never heat mercury in an open vessel — the vapor is invisible, odorless, and extremely dangerous. Historical gold mining released vast quantities of mercury into watersheds, contaminating food chains for centuries.
 
+**Strengths**:
+- Recovers 60-80% of free gold from concentrate without chemical reagents — only mercury and heat
+- Retorting recovers 95-98% of mercury for reuse, keeping operating costs low
+- Works on coarse and fine gold alike, unlike sluice boxes which lose fine gold
+
+**Weaknesses**:
+- Mercury is a cumulative neurotoxin — vapor exposure causes irreversible neurological damage
+- Does not recover gold locked inside sulfide grains (requires cyanide or pressure oxidation first)
+- Environmental contamination from mercury spills persists for centuries in watersheds
+
 ### Flotation Detail
 
 **[Froth flotation](../glossary/froth-flotation.md)** is the most important concentration method for sulfide ores (copper, lead, zinc, nickel). It exploits differences in surface chemistry between sulfide minerals and silicate gangue:
@@ -117,6 +158,16 @@
 - **Reagents**: Three categories. (1) **[Collector](../glossary/collector.md)** (xanthate, 20-100 g/tonne): Adsorbs on sulfide mineral surfaces, making them hydrophobic (water-repellent). Sodium ethyl xanthate is the most common. (2) **[Frother](../glossary/frother.md)** (MIBC or pine oil, 20-50 g/tonne): Stabilizes air bubbles into a persistent froth. Without frother, bubbles coalesce and pop too quickly. (3) **[Modifier](../glossary/modifier.md)** (lime, cyanide, zinc sulfate): Adjusts pH and suppresses unwanted minerals. Lime raises pH to 9-11 (depresses pyrite). Cyanide depresses sphalerite (zinc sulfide) in copper-zinc ores.
 - **Mechanism**: In the flotation cell, air bubbles rise through the agitated slurry. Hydrophobic sulfide particles attach to bubble surfaces and are carried upward into the froth layer. Hydrophilic gangue particles remain in the slurry. The froth overflows into a launder as concentrate.
 - **Circuit design**: A flotation circuit includes rougher cells (initial separation), scavenger cells (recover remaining values from rougher tailings), and cleaner cells (upgrade rougher concentrate to final grade). A copper flotation circuit typically produces concentrate at 20-30% Cu from ore containing 0.5-2% Cu. Recovery: 85-95%.
+
+**Strengths**:
+- Achieves 85-95% recovery for sulfide ores — the dominant concentration method worldwide
+- Selective: different collectors and pH modifiers separate copper from zinc, lead from iron
+- Handles low-grade feed (0.5-2% Cu) and upgrades to smelter-grade concentrate (20-30% Cu)
+
+**Weaknesses**:
+- Requires grinding to 50-200 μm for mineral liberation — energy-intensive comminution
+- Reagent supply (xanthates, MIBC, lime) must be continuously manufactured and dosed
+- Over-grinding produces ultra-fine particles (<10 μm) that float poorly, reducing recovery
 
 ### Thickening and Filtration
 

@@ -6,6 +6,7 @@
 > **Enables**: [`construction.structural-engineering`](../construction/structural-engineering.md), [`energy.cooling`](../energy/cooling.md), [`energy.gravity.water-turbines`](../energy/water-turbines.md), [`energy.steam-power`](../energy/steam-power.md), [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md), [`knowledge.printing`](../knowledge/printing.md), [`machine-tools.casting`](../machine-tools/casting.md), [`machine-tools.forming`](../machine-tools/forming.md), [`machine-tools.joining`](../machine-tools/joining.md), [`marine.infrastructure`](../marine/infrastructure.md), [`marine.propulsion`](../marine/propulsion.md), [`marine.shipbuilding`](../marine/shipbuilding.md), [`metals.alloys`](alloys.md), [`metals.iron-steel.blast-furnace`](blast-furnace.md), [`metals.steelmaking`](steelmaking.md), [`transport.railways`](../transport/railways.md), [`transport.telegraph`](../transport/telegraph.md)
 > **Timeline**: Years 5-15
 > **Outputs**: wrought_iron, steel, iron_bloom, heat_treated_steel, forge_welds, brazed_joints, soldered_joints, springs, bellows, tongs, ...
+> **Critical**: true
 
 ### Iron Production
 
@@ -28,6 +29,14 @@ Iron requires higher temperatures than copper (melting point 1538°C, but bloome
 2. **Reheating**: Bloom cools quickly. Reheat in forge (charcoal + bellows, ~1100-1200°C) every 2-3 minutes of hammering. Repeat 10-30 cycles.
 3. **Folding and welding**: Heat to bright yellow-orange (~1200-1300°C). Fold iron on itself, hammer to weld the layers together (the heat and pressure cause solid-state welding). This homogenizes the metal and works out remaining slag. Each fold doubles the layers. 6-8 folds = well-consolidated bar.
 4. **Result**: Wrought iron bar — soft, ductile, fibrous fracture surface, ~0.02-0.08% carbon. Excellent for forging. Not suitable for edge tools without further treatment.
+
+**Strengths**:
+- Bloomery smelting operates below iron's melting point (1200-1400°C vs. 1538°C), requiring simpler furnace construction than cast iron production.
+- Wrought iron is highly ductile and forgeable, with excellent corrosion resistance due to fibrous slag inclusions that interrupt corrosion paths.
+
+**Weaknesses**:
+- Bloom consolidation requires 10-30 cycles of reheating and hammering — labor-intensive and slow (hours per 5-20 kg bloom).
+- Yields are modest: 4-8 kg charcoal per kg ore, with 30-60% iron recovery depending on ore grade and operator skill.
 
 ### Cast Iron
 
@@ -67,6 +76,14 @@ Blast furnace smelting produces pig iron with typical composition: ~4% C, ~1% Si
 - **Quenching**: Heat to 780-850°C (cherry red for ~0.8% C steel), plunge into water (hard quench) or oil (softer quench). Makes steel extremely hard but brittle.
 - **Tempering**: After quenching, reheat to 200-350°C (pale straw to brown oxidation colors on polished surface) for 30-60 minutes. Reduces brittleness while retaining most hardness. Temperature controls hardness-toughness tradeoff.
 
+**Strengths**:
+- Cast iron pours at 1150-1200°C (low melting point from high carbon), making it far easier to cast than wrought iron or steel.
+- Gray cast iron provides excellent vibration damping (graphite absorbs vibration) and machinability (graphite acts as chip breaker) — ideal for machine bases.
+
+**Weaknesses**:
+- All cast irons are brittle (elongation <1%) — cannot be forged, rolled, or used in tensile-load applications without risk of sudden fracture.
+- Pig iron from blast furnaces requires further processing (cupola remelt or steelmaking) for most structural uses.
+
 ### Metalworking Tools
 
 **Anvil evolution**:
@@ -90,6 +107,14 @@ Blast furnace smelting produces pig iron with typical composition: ~4% C, ~1% Si
 - Swages (shaped recesses for forming specific profiles)
 - Fuller (round-nosed tool for grooving/necking stock)
 - Slack tub (water barrel for quenching, ~50 liters)
+
+**Strengths**:
+- Stone anvils require no metallurgy to produce — available at the earliest stages. Iron anvils with steel faces return hammer energy efficiently and last decades.
+- Piston bellows provide consistent 60-100 strokes/minute airflow, enabling temperatures of 1200-1400°C in bloomery furnaces.
+
+**Weaknesses**:
+- Iron anvil production itself requires advanced forging capability — a bootstrapping challenge (need iron to make the tools to work iron).
+- Skin/bag bellows produce intermittent blast and wear out quickly (leather degrades at high temperatures). Multiple replacement sets needed per smelting season.
 
 ### Joining Metals — Forge Welding, Brazing & Soldering
 
@@ -121,6 +146,14 @@ Blast furnace smelting produces pig iron with typical composition: ~4% C, ~1% Si
 - **Flat spring**: Thin strip of hardened and tempered spring steel. Used in locks, snaps, electrical contacts, measuring instruments (galvanometer springs). File to consistent thickness, bend to shape, heat treat.
 - **Testing**: Compress/bend spring and measure recovery. Spring should return to original shape without permanent deformation. Fatigue test: cycle spring many times (1000+) — if it breaks, temper at slightly higher temperature to increase toughness.
 
+**Strengths**:
+- Forge welding requires no filler metal — the base metal itself fuses under heat and pressure, producing joints as strong as the parent metal when done correctly.
+- Soft soldering operates at low temperature (~190-227°C), enabling safe joining of heat-sensitive components and dissimilar metals.
+
+**Weaknesses**:
+- Forge welding demands precise temperature control (1300-1400°C, bright yellow-white) — too cold and the weld fails, too hot and the metal burns.
+- Brazing and soldering introduce dissimilar filler metals that can create galvanic corrosion couples in hostile environments.
+
 ### Carbon Steel Grades
 
 Plain carbon steels are classified by the SAE/AISI 10xx system, where "10" denotes plain carbon steel and "xx" gives the carbon content in hundredths of a percent (e.g., 1020 = 0.20% C). Carbon is the dominant alloying element — each 0.1% increase in carbon raises tensile strength by ~70-80 MPa and hardness by ~15-20 HRC (after quenching), but reduces ductility and weldability. Manganese (0.3-0.6% in most grades) provides deoxidation and moderate solid-solution strengthening. Phosphorus and sulfur are impurities kept below 0.05% and 0.05% respectively — they cause temper brittleness and hot shortness.
@@ -142,6 +175,14 @@ Plain carbon steels are classified by the SAE/AISI 10xx system, where "10" denot
 - **Properties**: Tensile strength 700-1300 MPa (heat-treated). Elongation 5-12%. Very high hardness and wear resistance after quenching (55-65 HRC for 0.8-1.0% C). Low ductility — cannot be cold-formed extensively. Poor weldability — requires careful preheat and post-weld heat treatment. High spring properties (high elastic limit, good fatigue resistance).
 - **Uses**: Springs (leaf, coil, flat — see Spring Making above), cutting tools (chisels, plane blades, knives, axes), wire (music wire, piano wire at 0.8-0.9% C — tensile strength up to 3000 MPa as cold-drawn), saw blades, files, rasps, agricultural cutting edges (scythes, sickles), wear plates.
 - **Eutectoid composition**: At 0.76-0.83% C, the steel is exactly at the eutectoid point. Slow cooling produces 100% pearlite (alternating lamellae of ferrite and cementite, spacing ~0.1-1 μm). This composition has the finest pearlite and the most uniform response to heat treatment — preferred for blades and springs.
+
+**Strengths**:
+- Carbon steels span an enormous property range: tensile strength 300-1300 MPa, hardness 120-650 HBW, controlled by carbon content and heat treatment.
+- Mild steel (~90% of all steel produced) is inexpensive, weldable without preheat, formable, and recyclable — the structural backbone of industrial civilization.
+
+**Weaknesses**:
+- Plain carbon steels have poor hardenability — only thin sections (<25 mm) through-harden with water quench. Alloy steels required for larger sections.
+- Corrosion resistance is negligible without protective coatings (paint, galvanizing, plating). Annual corrosion losses estimated at 1-5% of steel in service.
 
 ### Heat Treatment in Depth
 
@@ -165,6 +206,14 @@ The iron-carbon phase diagram defines the transformations that make steel unique
 - **Nitriding**: Heat medium-carbon steel (containing nitride-forming elements Al, Cr, Mo, V) to 500-590°C in ammonia gas (NH₃) atmosphere for 20-100 hours. Nitrogen from dissociated NH₃ diffuses into the surface and forms hard nitride precipitates (AlN, VN, CrN). Surface hardness 65-70 HRC (harder than carburized case). No quenching required — minimal distortion. Excellent fatigue life. Slow process but produces the hardest surface of any common treatment. Used for: precision gears, valve seats, injector nozzles, die surfaces.
 - **Induction hardening**: Place steel part inside water-cooled copper induction coil. High-frequency alternating current (10-500 kHz) induces eddy currents in the part surface, heating it to austenitizing temperature (850-950°C) within seconds. Immediately spray-quench with water. Only the surface layer transforms to martensite; the core remains unaffected. Case depth controlled by frequency: higher frequency = shallower case (0.5-2 mm at 200-500 kHz; 2-5 mm at 10-50 kHz). Fast, localized, repeatable — ideal for high-volume production. Used for: shaft journals, gear teeth, cam lobes, bearing seats, piston rods.
 - **Flame hardening**: Oxy-acetylene or oxy-propane torch heats the surface to austenitizing temperature, followed immediately by water spray quench. Manual or mechanized. Less precise than induction but requires no special equipment beyond a torch and water spray. Used for: large gears, crane wheels, rail ends, wear plates — parts too large for induction coils.
+
+**Strengths**:
+- Heat treatment tunes the same piece of steel across a 3× range of hardness and strength — no other structural metal offers comparable versatility from a single composition.
+- Surface hardening methods (carburizing, nitriding, induction) combine a hard wear surface with a tough core — the optimal combination for gears, bearings, and shafts.
+
+**Weaknesses**:
+- Quenching introduces distortion and residual stress — precision parts require post-quench grinding to restore tolerances (±0.01-0.05 mm).
+- Tempering is a time-sensitive process: undertempering leaves brittleness, overtempering loses hardness. Temperature control within ±10°C is essential.
 
 ### Quality and Testing
 
@@ -201,6 +250,14 @@ The mechanical properties of iron and steel must be verified at every stage — 
 - **Dye penetrant testing (PT)**: Clean the surface, apply red dye penetrant (let dwell 10-30 minutes to seep into surface defects), wipe off excess, apply white developer (draws dye back out of defects). Red indications on white background show surface-breaking cracks, porosity, laps. Works on any non-porous material. Simpler than MPI but detects only surface-breaking defects.
 - **Radiographic testing (RT)**: X-ray or gamma ray (Ir-192 or Co-60 source) passes through the part onto film or digital detector. Internal defects (porosity, slag inclusions, incomplete fusion, cracks oriented parallel to the beam) appear as density variations on the radiograph. The most expensive and slowest NDT method but the only one that provides a permanent visual record of internal condition. Standard for pressure vessel welds and critical structural castings.
 
+**Strengths**:
+- Non-destructive testing (UT, MPI, radiography) detects internal defects as small as 0.5 mm without destroying the part — critical for pressure vessels and structural components.
+- Hardness testing (Brinell, Rockwell, Vickers) provides rapid, non-destructive strength estimation: UTS (MPa) ≈ 3.45 × HBW for carbon steels.
+
+**Weaknesses**:
+- Tensile and impact testing are destructive — consume specimens. Statistical sampling required, meaning some defective parts may pass undetected between samples.
+- Metallography requires sectioning, mounting, polishing, and etching — a time-consuming preparation cycle (4-8 hours per specimen) requiring specialized consumables.
+
 ### Wrought Iron vs Steel vs Cast Iron
 
 These three forms of iron-carbon alloy represent fundamentally different material classes, each suited to different applications. The carbon content — and the form that carbon takes — is the primary differentiator.
@@ -227,6 +284,14 @@ These three forms of iron-carbon alloy represent fundamentally different materia
 - Wrought iron's fibrous slag inclusions give it a wood-like grain structure. It is remarkably resistant to fatigue and corrosion — Victorian wrought iron structures survive after 150+ years with minimal maintenance. However, it cannot be hardened by heat treatment and is labor-intensive to produce (bloomery + extensive forging). Obsolete for structural use but still made in small quantities for restoration and decorative work.
 - Steel is the chameleon material — its properties can be tuned across an enormous range by varying carbon content, heat treatment, and alloying. Mild steel (0.15-0.25% C) is ductile and weldable for structures. Medium carbon (0.35-0.50% C) quenched and tempered provides the best balance for machine parts. High carbon (0.70-1.0% C) hardened and tempered gives maximum hardness for tools and springs.
 - Cast iron's advantage is economy — it can be poured directly into complex shapes from a cupola furnace at relatively low temperature. Its disadvantages (brittleness, no ductility) limit it to compressive-load applications and situations where vibration damping outweighs strength requirements. Ductile iron (spheroidal graphite — produced by Mg or Ce inoculation of the melt) bridges the gap: 350-700 MPa tensile strength with 2-10% elongation.
+
+**Strengths**:
+- The iron-carbon system provides three distinct material classes (wrought iron, steel, cast iron) from the same raw materials, selected by carbon content and processing route.
+- Ductile iron (Mg-inoculated cast iron) bridges the gap between cast iron and steel: 350-700 MPa tensile with 2-10% elongation, producible in a cupola furnace.
+
+**Weaknesses**:
+- Wrought iron is obsolete for structural use — replaced by steel after 1860 due to labor-intensive bloomery process and inability to heat-treat.
+- Cast iron's nil ductility limits it to compressive-load applications — it cannot serve as a general structural material.
 
 ### Safety & Hazards
 

@@ -6,7 +6,7 @@ A dependency relationship in the tech tree: capability A requires capability B a
 
 ## Context in the Tech Tree
 
-"Requires" is the fundamental dependency verb in the tech tree's knowledge structure. Every capability node has dependencies — materials and tools that must exist before the capability can be implemented. These dependencies are captured in [edges.json](../../data/edges.json) and visualized in the Mermaid dependency diagrams. Understanding what each capability requires is essential for planning the bootstrap sequence: you cannot purify silicon without first producing metallurgical-grade silicon, which requires carbon reductants and quartz, which require mining and charcoal production.
+"Requires" is the fundamental dependency verb in the tech tree's knowledge structure. Every capability node has dependencies — materials and tools that must exist before the capability can be implemented. These dependencies are captured in `edges.json` and visualized in the Mermaid dependency diagrams. Understanding what each capability requires is essential for planning the bootstrap sequence: you cannot purify silicon without first producing metallurgical-grade silicon, which requires carbon reductants and quartz, which require mining and charcoal production.
 
 ## Technical Details
 

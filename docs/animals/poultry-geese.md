@@ -2,10 +2,11 @@
 
 > **Node ID**: animals.poultry.geese
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.poultry`](poultry.md)
+> **Dependencies**: [`animals.poultry`](poultry.md), [`agriculture`](../agriculture/soil-management.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 0-5
 > **Outputs**: goose_meat, goose_eggs, down, feathers, manure, guardian_services
+> **Critical**: No — most feed-efficient poultry on pasture but slow-reproducing and seasonal
 
 ### Overview
 
@@ -14,6 +15,29 @@ Domestic geese are the largest poultry species commonly kept, derived primarily 
 Geese serve multiple roles beyond meat and egg production: they are effective weeders in cotton fields, strawberry beds, and orchards (selectively grazing grasses and broadleaf weeds while ignoring established crops); they provide loud alarm calls that deter predators and intruders (guardian behavior); and their down (the fine underplumage) is one of the most effective natural insulating materials known. A single goose yields 100-150 g of raw down, enough for a small pillow.
 
 Egg production is modest (30-50 eggs per year) but each egg is substantial (150-200 g, roughly three times the weight of a chicken egg). Geese are seasonal layers, producing eggs primarily in late winter through spring (February to May in the northern hemisphere). Their strong pair bonds, territorial nature, and longevity make them unique among poultry — geese recognize individual humans and respond differently to familiar keepers versus strangers.
+
+### Prerequisites
+
+| Requirement | Source | Notes |
+|-------------|--------|-------|
+| Pasture (4-6 m² per goose) | [`agriculture`](../agriculture/soil-management.md) | Geese obtain 70-80% of diet from grazing |
+| Supplemental grain (wheat, corn) | [`agriculture`](../agriculture/soil-management.md) | 50-100 g/day on good pasture; 150-250 g/day winter |
+| Three-sided shelter | [`construction`](../construction/building-materials.md) | 0.5-1.0 m² per bird; cold-hardy but need wind/rain protection |
+| Water for drinking/head-washing | [`water`](../water/basic-treatment.md) | Swimming water beneficial but not required |
+| Low fencing (90-120 cm) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Most breeds too heavy to fly |
+| Gosling starter (18-20% protein) | [`agriculture`](../agriculture/soil-management.md) | Non-medicated; 3-4 weeks only |
+
+### Bill of Materials
+
+Materials listed for a 10-goose flock per year.
+
+| Material | Quantity | Source | Alternatives |
+|----------|----------|--------|-------------|
+| Pasture/hay | 0.5-1.0 hectare grazing | [`agriculture`](../agriculture/soil-management.md) | Geese maintain on grass alone in growing season |
+| Supplemental grain | 200-400 kg | [`agriculture`](../agriculture/soil-management.md) | Reduced to 50-100 g/day on good pasture |
+| Gosling starter feed | 30-50 kg | [`agriculture`](../agriculture/soil-management.md) | 18-20% protein, first 3-4 weeks |
+| Nesting material (straw) | 50-100 kg | [`plants`](../plants/index.md) | For shelter bedding and nests |
+| Fencing (90-120 cm) | Perimeter of range | [`metals`](../metals/index.md) | Standard woven wire or electric |
 
 ### Key Breeds
 
@@ -227,4 +251,4 @@ Track egg weight (target 150-200 g for standard breeds, 140-160 g for Chinese ge
 
 ---
 
-[← Back to Animals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

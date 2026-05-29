@@ -1,11 +1,12 @@
 # Soap & Detergents
 
 > **Node ID**: chemistry.soap
-> **Domain**: Chemistry
+> **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`chemistry.alkalis`](alkalis.md), [`chemistry.petroleum-alternatives`](petroleum-alternatives.md), [`metals.non-ferrous`](../metals/non-ferrous.md)
-> **Enables**: `health`
+> **Enables**: [`health.occupational-health`](../health/occupational-health.md)
 > **Timeline**: Years 5-30
 > **Outputs**: soap, glycerol, detergent
+> **Critical**: No — soap and detergents improve sanitation but are not prerequisites for core industrial capabilities
 
 ### Overview
 
@@ -43,6 +44,10 @@ All traditional methods share the same chemistry: fat + alkali → soap + glycer
 
 **[Cold process](../glossary/cold-process.md)** (simplest, longest cure):
 - Heat fats and oils to 38-43°C (100-110°F). Separately dissolve NaOH in cold water (exothermic — solution reaches 80-90°C; cool to 38-43°C). Pour lye solution into fats with constant stirring (stick blender accelerates emulsification). Stir to "trace" — mixture thickens so that drips leave visible marks on the surface (indicates emulsion stability). Add fragrance or colorants at trace. Pour into insulated molds. Gel phase: 24-48 hours (internal temperature reaches 60-70°C as saponification completes). Unmold after 48-72 hours. Cure 4-6 weeks (water evaporates, bar hardens, residual saponification completes, pH drops from ~11 to ~9.5).
+
+**Strengths**: Simplest soap-making method — no external heating after initial melt; retains all glycerol in the bar (moisturizing); easily customized with fragrances, colors, and additives; low equipment cost (<$500 for small-scale); produces hard, long-lasting bar soap.
+
+**Weaknesses**: 4-6 week cure time before bar is ready to use; NaOH handling required (caustic burns risk); exact lye calculation critical (excess lye = harsh soap, insufficient lye = greasy bar); superfatting must be calculated precisely; not suitable for glycerol recovery (glycerol is trapped in the bar).
 - **Lye calculation**: Weight of oil × SV ÷ 1000 × 0.713 (ratio of NaOH molecular weight to KOH) = grams NaOH needed. Apply superfat discount (typically 5%).
 - **Water amount**: Typically 30-40% of oil weight. Less water → faster trace, harder bar sooner, but higher risk of lye pockets. More water → slower trace (more working time), longer cure. "Water as percent of lye" method: 2:1 to 3:1 water:lye ratio by weight.
 - **Mold insulation**: Wrap molds in towels or blankets during gel phase. Full gel (entire batch reaches translucent gel state) produces uniform texture. Partial gel (center gels, edges don't) causes uneven texture — cosmetic issue only, does not affect soap quality.
@@ -51,11 +56,19 @@ All traditional methods share the same chemistry: fat + alkali → soap + glycer
 - Heat fat to 70-80°C. Add KOH solution (from [Alkalis](alkalis.md)) gradually with constant stirring. Maintain temperature for 2-4 hours with periodic stirring until mixture reaches "trace" and then thickens further into a translucent paste (KOH soaps remain paste-like). The extended cooking accelerates saponification — soap is usable within days rather than weeks. KOH soap (soft soap) is stored in containers rather than molded into bars.
 - Hot process with NaOH is also possible: cook the traced soap in a slow cooker or double boiler at 75-85°C for 1-2 hours until it reaches a translucent, vaseline-like consistency. This forces saponification to complete rapidly. Soap is usable immediately after cooling (no 4-6 week cure needed), though an additional 1-2 weeks of drying improves bar hardness.
 
+**Strengths**: Soap usable within 1-3 days (no 4-6 week cure); heat drives saponification to completion — no risk of unreacted fat; works with KOH to produce soft/liquid soap for textile scouring and cleaning; more forgiving of imprecise lye measurements than cold process.
+
+**Weaknesses**: Requires sustained external heat source (fuel cost); KOH soap is paste/liquid — cannot form hard bars; constant stirring needed to prevent scorching; glycerol retained in soap (no recovery); higher energy input than cold process.
+
 **[Kettle process (graining out)](../glossary/kettle-process-graining-out.md)** — the traditional batch method for glycerol recovery:
 - Heat fat to 38°C in a large kettle (iron or steel, 1-5 tonne capacity). Add concentrated NaOH solution (or KOH for soft soap) gradually with constant stirring. Continue heating and stirring for 2-3 hours until saponification is complete (mixture thickens, no free fat remains — test by dissolving a sample in hot alcohol; cloudiness indicates unsaponified fat).
 - **Graining out**: Add NaCl (common salt, ~100-150 g per kg of original fat) to the completed saponification mixture. Salt causes the soap to separate and float to top as curds ("graining") while glycerol, excess lye, and salt remain in the lower aqueous layer ("spent lye" or "soap waste liquor"). Remove soap curds, wash with brine to remove residual glycerol and lye, press to remove excess liquid, mold into bars, and dry.
 - **Spent lye**: Contains glycerol (8-15%), salt, and residual NaOH — the primary feedstock for glycerol recovery.
 - **Kettle construction**: Wrought iron or steel, riveted or welded, with a firebox beneath and a draw-off valve near the bottom. Capacity: 5-20 tonnes of batch material. Steam coils or jacket for temperature control preferred over direct fire (more uniform heating, less scorching).
+
+**Strengths**: Recovers glycerol as valuable co-product (enables explosives production); salt separation produces harder, purer soap than cold/hot process; scalable to 5-20 tonne batches; well-established industrial method for 200+ years.
+
+**Weaknesses**: Requires large iron/steel kettle and salt supply; multi-step process (saponify, grain, wash, press, dry); glycerol recovery needs separate evaporation/distillation equipment; spent lye disposal if glycerol not recovered.
 
 **Lye from wood ash (pre-industrial)**:
 - Hardwood ash (oak, beech, maple) leached with water produces KOH solution. Boil to concentrate. Test concentration: float a fresh egg — if it bobs with ~2 cm (dime-sized area) exposed, concentration is approximately 10% KOH, suitable for soap making. This method produces soft soap (potassium-based). See [Alkalis](alkalis.md) for potash production details.
@@ -67,6 +80,10 @@ All traditional methods share the same chemistry: fat + alkali → soap + glycer
 - Fat and concentrated NaOH solution (30-50%) fed continuously into a saponification reactor at controlled ratio. The Sharples or Mazzoni continuous process uses a high-shear mixing column — fat and lye enter at bottom, react during upward flow, and fully saponified soap exits at top. Residence time: 15-30 minutes. Temperature: 70-80°C. Throughput: 1-10 tonnes/hour.
 - The key engineering challenge is maintaining exact stoichiometric ratio: excess lye produces harsh, alkaline soap; excess fat leaves unsaponified grease. Inline conductivity or pH measurement controls lye feed rate automatically.
 - Soap exits the reactor as a homogeneous hot mass (soap base, ~30% water). Feed directly into a vacuum spray dryer — atomize soap into a vacuum chamber, water flashes off. Soap emerges as dry flakes or "noodles" (extruded strands, 10-13% moisture). These soap noodles are the intermediate commodity traded between soap manufacturers.
+
+**Strengths**: Highest throughput (1-10 tonnes/hour); consistent product quality via automated ratio control; continuous operation — no batch turnaround time; soap noodles are storable/tradeable intermediate commodity.
+
+**Weaknesses**: High capital cost ($1-10M for full line); requires precise instrumentation (pH/conductivity control); not economical below ~100 tonnes/day; vacuum spray dryer adds complexity and energy cost.
 
 **[Bar finishing](../glossary/bar-finishing.md)** (from soap noodles to finished bar):
 - **Mixing**: Soap noodles + additives (fragrance, color, titanium dioxide whitener, antibacterial agents, moisturizers) mixed in an amalgamator (screw mixer) at 40-50°C.
@@ -97,6 +114,10 @@ Glycerol (C₃H₈O₃, 1,2,3-propanetriol) is the critical byproduct of saponif
 - **Yield**: ~10% glycerol by weight of fat saponified (tallow yields ~9-10%, coconut oil ~12-13%).
 - **Energy cost**: Glycerol recovery from spent lye consumes ~3-5 tonnes steam per tonne of glycerol (primarily for multiple-effect evaporation). The vacuum distillation step adds another 0.5-1 tonne steam per tonne glycerol. Total energy: roughly 2-4 GJ per tonne of refined glycerol.
 
+**Strengths**: Converts waste byproduct into high-value chemical feedstock; glycerol enables nitroglycerin explosives production (strategic); salt recycles back to graining process; pharmaceutical-grade glycerol commands premium price.
+
+**Weaknesses**: Energy-intensive (2-4 GJ/tonne glycerol); requires multiple-effect evaporators and vacuum distillation equipment; acrolein formation at distillation temperatures is a serious hazard; 90% of output is CaCl₂ waste stream with limited market.
+
 **[Alternative glycerol sources](../glossary/alternative-glycerol-sources.md)** (post-petroleum):
 - **Hydrolysis of fats (not saponification)**: Fat + water (at 250-260°C, 40-50 bar, in an autoclave) → fatty acids + glycerol. No alkali consumed. The "Twitchell process" uses sulfuric acid + aromatic sulfonic acid catalyst. The "Colgate-Emery process" uses continuous high-pressure hydrolysis without catalyst. Fatty acids separated by distillation. Glycerol recovered from aqueous phase by evaporation and distillation. This route produces fatty acids for further chemical processing rather than soap directly.
 - **Fermentation**: Certain yeasts and bacteria produce glycerol during fermentation of sugars. The "neutral sulfite process" (adding Na₂SO₃ to yeast fermentation) diverts ethanol fermentation toward glycerol production. Yields: 20-30% of sugar weight as glycerol. Historically important during World War I when German glycerol supplies were blockaded. Not economically competitive with soap-waste glycerol under normal conditions.
@@ -118,6 +139,10 @@ Soap has a critical limitation: in hard water, calcium and magnesium ions precip
 - **Sulfonation**: React LAB with SO₃ (or concentrated H₂SO₄, or oleum) → linear alkylbenzene sulfonic acid (LABSA). SO₃ sulfonation is preferred — higher yield, less waste. SO₃ produced by catalytic oxidation of sulfur (vanadium pentoxide catalyst, see sulfuric acid production in [Acids](acids.md)).
 - **Neutralization**: LABSA + NaOH → sodium linear alkylbenzene sulfonate (LAS). Water-soluble anionic surfactant. Biodegradable (the linear alkyl chain differentiates LAS from the older, environmentally persistent branched alkylbenzene sulfonate — ABS).
 - **Application**: Primary surfactant in laundry detergents, dish liquids, all-purpose cleaners. Typical concentration: 10-25% in liquid detergent, 8-15% in powder.
+
+**Strengths**: Functions in hard water without precipitation (unlike soap); effective across wide pH range (acidic to alkaline); biodegradable linear chain; 60+ years of proven industrial-scale production; versatile across laundry, dish, and industrial cleaning.
+
+**Weaknesses**: Requires petroleum cracking or Fischer-Tropsch feedstock; benzene is a confirmed carcinogen (handling risk in alkylation unit); SO₃ sulfonation is extremely corrosive and hazardous; phosphate builders needed for full performance (eutrophication concern).
 
 **Alkyl sulfates**:
 - **Sodium lauryl sulfate (SLS)**: Coconut or palm kernel fatty alcohol (C12-C14) + SO₃ or chlorosulfonic acid → alkyl sulfate. Excellent foaming and cleaning, used in shampoos, toothpaste, and bubble bath. Produced from oleochemical feedstocks (renewable route) or from petrochemical ethylene (Ziegler alcohol process).

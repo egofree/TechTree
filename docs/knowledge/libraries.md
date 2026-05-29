@@ -1,11 +1,32 @@
 # Libraries & Information Systems
 
 > **Node ID**: knowledge.libraries
-> **Domain**: Knowledge Preservation & Education
+> **Domain**: [Knowledge Preservation & Education](./index.md)
 > **Dependencies**: [`knowledge.education`](education.md), [`knowledge.writing`](writing.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 10-200+
 > **Outputs**: libraries
+> **Critical**: Yes — a library is the institutional memory of a civilization; without organized storage and retrieval, accumulated knowledge becomes inaccessible
+
+## Prerequisites
+
+- **Materials**: Paper, ink, binding materials from [Printing](printing.md); shelving lumber (oak, ash) or steel angle-iron; acid-free folders and boxes for archival storage
+- **Tools**: [Writing](writing.md) instruments for catalog cards, measuring tools for environmental monitoring (thermometers, hygrometers), basic woodworking tools for shelving
+- **Knowledge**: [Writing](writing.md) for documentation and cataloging, [Education](education.md) for trained librarians, classification system design
+- **Infrastructure**: Fireproof building (stone or brick walls, minimum 300 mm thick), climate-controlled storage (18-22°C, 40-55% RH), reading room (minimum 6 m × 8 m)
+
+## Bill of Materials
+
+| Material | Quantity per 5,000-volume library | Source | Alternatives |
+|----------|----------------------------------|--------|-------------|
+| Shelving (oak) | 500-800 linear meters | Forestry + [Machine Tools](../machine-tools/index.md) | Steel angle-iron (heavier, requires welding) |
+| Card stock (catalog) | 10,000-15,000 cards | [Printing](printing.md) | Ledger-bound catalog (less flexible) |
+| Acid-free folders | 2,000-5,000 | [Chemistry](../chemistry/index.md) (alkaline paper) | Regular folders (acid migration degrades contents) |
+| Environmental monitors | 4-8 hygrometers + thermometers | [Measurement](../measurement/index.md) | Hair-tension hygrometer (less precise) |
+| Binding repair materials | Japanese tissue, wheat starch paste, linen thread | [Textiles](../textiles/fibers.md), [Agriculture](../agriculture/index.md) | Standard paper patches (less durable) |
+| Fire suppression equipment | Sand buckets, water pumps, CO₂ extinguishers | [Chemistry](../chemistry/index.md) | Water buckets only (limited effectiveness) |
+
+## Process Description
 
 ### Library Construction
 
@@ -15,6 +36,16 @@
 - **Lighting**: Natural light via north-facing clerestory windows (diffuse, no direct UV). Oil lamps for early libraries — enclosed glass-body lamps reduce fire risk. Electric lighting: incandescent bulbs, low UV output, positioned to avoid heat buildup near shelves.
 - **Fire protection**: No open flames, no combustible finishes on walls or ceilings. Lightning rod (copper strip to ground). Sand buckets and water pumps at each floor. Fire doors (iron-clad wood or solid iron). Stone or tile floors only — no wood in stack areas.
 
+**Strengths**:
+- Masonry construction (300 mm stone or brick) provides natural fire resistance and thermal mass — thick walls damp daily temperature fluctuations without powered climate control
+- Floor loading design at 5-7 kN/m² accommodates dense book storage — 200-300 kg per linear meter of shelving is supported without structural concern
+- Passive climate methods (earth-sheltered construction, thermal mass) work without electricity — viable at the earliest stages of library construction
+
+**Weaknesses**:
+- Fireproof construction requires stone or brick — wood-frame buildings (cheaper, faster to build) are unacceptable for library use due to fire risk
+- Maintaining 18-22°C and 45-55% RH requires either thick passive-design walls or active climate control systems — both add significant cost
+- North-facing clerestory windows for natural light require specific building orientation and taller walls — constrains site selection
+
 ### Shelving & Storage
 
 **Shelf design**:
@@ -22,6 +53,16 @@
 - **Steel shelving**: Angle-iron uprights with clip-in shelf brackets. Thinner shelves (1.5 mm sheet steel) hold more weight per unit than wood. Corrosion-resistant paint or galvanized finish. Steel conducts heat faster than wood — avoid placing steel shelves against exterior walls in cold climates (condensation risk on books).
 - **Aisle width**: Minimum 900 mm for single-person access, 1200 mm for two-way traffic or cart passage. Main aisles: 1500 mm minimum to accommodate book carts and allow two people to pass comfortably.
 - **Compact storage**: For high-density archival storage, use sliding (mobile) shelving on floor rails — halves the aisle space required. Floor must be dead-level (self-leveling compound or precision-shimmed rails) — any slope causes mobile shelving to drift.
+
+**Strengths**:
+- Adjustable wooden shelving (dadoes at 25 mm increments) accommodates books of all sizes — the same uprights serve for folio volumes, octavo books, and pamphlet boxes
+- Oak shelving holds 200 kg per shelf safely — sufficient for dense book storage without sagging over decades
+- Mobile shelving halves the aisle space required, effectively doubling storage capacity in a given floor area
+
+**Weaknesses**:
+- Wooden shelving requires periodic maintenance (linseed oil or wax treatment) — raw wood warps in humid conditions
+- Steel shelving conducts heat faster than wood — placing steel shelves against exterior walls in cold climates causes condensation on books
+- Minimum 900 mm aisle width for access plus 1500 mm for main aisles means only ~50% of floor area is usable shelving space
 
 ### Library Classification Systems
 
@@ -82,6 +123,16 @@
 - **Metadata**: Record for each item: title, author, date, page count, scan date, scanner operator, resolution, file format, file size, checksum (MD5 or SHA-256 for integrity verification). Dublin Core metadata standard provides 15 elements for resource description.
 - **Storage and backup**: 3-2-1 rule (3 copies, 2 media types, 1 offsite). Format migration every 10-15 years onto current storage technology. Maintain format documentation with every archive.
 
+**Strengths**:
+- Deacidification with magnesium bicarbonate extends acidic paper life by 3-5× — a book with 50 years remaining life gains 150-250 years at modest cost
+- Microfilming compresses 10,000 volumes (2 million pages) into 60-100 cabinet drawers occupying 2-3 m² — a 1000× space reduction compared to physical books
+- Silver halide microfilm on polyester base lasts 100-500 years under proper storage — longer than any digital medium
+
+**Weaknesses**:
+- Deacidification only works on paper that is still flexible (pH below 6, folding endurance above 20 MIT folds) — brittle paper cannot be saved
+- Microfilm readers require optical manufacturing capability (ground glass lenses, light source) — another dependency for the bootstrap chain
+- Digitization at 300-600 DPI produces large files (~50 MB per page uncompressed TIFF) — storage requirements scale quickly for large collections
+
 ### Environmental Hazards
 
 **Mold**: Spores activate above 65% RH. Prevention: maintain ventilation (2-4 air changes/hour), use silica gel desiccant canisters in enclosed cases (indicator beads turn from blue to pink when saturated — regenerate at 120°C for 2 hours). If mold appears: isolate affected items, dry thoroughly, brush spores outdoors (wear mask), wipe shelves with 70% ethanol.
@@ -104,6 +155,16 @@
 **Physical access systems**:
 - **[Closed stacks](../glossary/closed-stacks.md)** (staff retrieves books): Maximum preservation — no public access to shelves, reduced theft risk, controlled environment. Slower access (request → retrieve → read → return). Preferred for rare and archival materials.
 - **[Open stacks](../glossary/open-stacks.md)** (browsing): Users access shelves directly. Faster access, encourages discovery. Requires wider aisles, more robust shelving, security measures (exit checks). Preferred for general circulating collections.
+
+**Strengths**:
+- Classification systems (Dewey, Library of Congress) provide a proven, systematic arrangement — any user who knows the system can locate any book in any library using the same scheme
+- Controlled vocabulary (thesaurus) prevents literature fragmentation — every concept has one preferred term, eliminating confusion from synonyms
+- Card catalog with author/title/subject triples provides multiple access paths to the same work — users can find a book by any of three approaches
+
+**Weaknesses**:
+- Cataloging is labor-intensive — each item requires 10-30 minutes of professional time for complete descriptive cataloging with subject headings
+- Shelf reading (verifying books are in correct order) must be done systematically and annually — misfiled books are effectively lost until the next shelf reading
+- Controlled vocabulary requires ongoing maintenance — new technical terms must be added and cross-referenced, or the thesaurus falls behind the literature
 
 ### Digital Storage Considerations
 
@@ -198,6 +259,16 @@ Once semiconductor manufacturing is available:
 
 **Pre-disaster preparedness**: Maintain a prioritized salvage list identifying the most valuable and vulnerable items in the collection, with their shelf locations and handling instructions. Store disaster recovery supplies (freeze-drying equipment contracts, blotting paper rolls, plastic sheeting, fans, portable generators) in an accessible location separate from the library building. Train all staff in the salvage priority order and basic recovery techniques — in the first 48 hours after a disaster, trained responders are more valuable than any equipment.
 
+**Strengths**:
+- Freezing wet items within 48 hours halts mold growth — buys time for systematic recovery rather than panicked salvage
+- Japanese tissue (kozo fiber) and wheat starch paste repairs are reversible and archival — conservation treatments do not damage the original material
+- Pre-disaster preparedness (prioritized salvage list, supplies stored separately) enables rapid, organized response — the first 48 hours determine whether a collection survives
+
+**Weaknesses**:
+- Vacuum freeze-drying requires specialized equipment that may not exist in a bootstrap context — air-drying causes more distortion and ink bleeding
+- Ozone treatment for smoke odor weakens paper — the treatment itself causes damage, forcing a trade-off between odor removal and paper strength
+- Mass deacidification (Wei T'o process) requires industrial-scale chemical processing — unavailable until chemical manufacturing reaches moderate capability
+
 ---
 
 ### Cross-Domain Dependencies
@@ -225,4 +296,4 @@ Once semiconductor manufacturing is available:
 
 ---
 
-*Part of the [Knowledge Domain](index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*

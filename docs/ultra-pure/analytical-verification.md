@@ -1,8 +1,8 @@
 # Analytical Verification: PPT-Level Contamination Detection
 
 > **Node ID**: ultra-pure.analytical-verification
-> **Domain**: Ultra-Pure Materials
-> **Dependencies**: None (root capability)
+> **Domain**: [Ultra-Pure Materials](./index.md)
+> **Dependencies**: [Measurement](../measurement/index.md), [Ultra-Pure Water](upw.md), [High-Purity Chemicals](high-purity-chemicals.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 40-80
 > **Outputs**: contamination_data, purity_certification
@@ -32,6 +32,16 @@ The analytical verification capability is the enabling technology for the entire
 ## ICP-MS (Inductively Coupled Plasma Mass Spectrometry)
 
 ICP-MS is the workhorse instrument for trace metal analysis in ultra-pure materials. It can simultaneously quantify 60+ metallic elements at sub-ppt concentrations.
+
+**Strengths**:
+- Multi-element capability: 60+ metallic elements simultaneously in a single analysis
+- Ultra-low detection limits: 0.01-10 ppt depending on element
+- Wide dynamic range: 9 orders of magnitude (ppt to ppm) in a single run
+
+**Weaknesses**:
+- High instrument cost: $150,000-$500,000 per unit
+- Sample contamination risk at ppt detection levels requires ISO Class 4 cleanroom preparation
+- Spectral interferences from polyatomic ions require collision/reaction cell technology or mathematical correction
 
 ### Principle
 
@@ -85,6 +95,16 @@ SEMI C35 (Specifications and Guidelines for Hydrogen Fluoride) defines the requi
 ## TOC Analysis (Total Organic Carbon)
 
 TOC analysis quantifies the total amount of dissolved organic carbon in UPW and electronic-grade chemicals. Organic contaminants leave carbonaceous residues on wafer surfaces, interfere with photoresist adhesion, and create nucleation sites for crystal defects.
+
+**Strengths**:
+- Direct measurement of total organic load regardless of individual species
+- UV-persulfate method achieves 0.5-1 ppb TOC detection limit
+- Continuous inline monitoring possible for UPW distribution systems
+
+**Weaknesses**:
+- Cannot identify specific organic compounds — only total carbon content
+- UV lamp output degrades over 6-12 months affecting oxidation efficiency
+- Combustion method at 680-800°C requires catalyst and higher sample volume
 
 ### UV-Persulfate Method (Standard for UPW)
 

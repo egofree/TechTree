@@ -2,16 +2,39 @@
 
 > **Node ID**: animals.poultry.ducks
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.poultry`](poultry.md)
+> **Dependencies**: [`animals.poultry`](poultry.md), [`agriculture`](../agriculture/soil-management.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 0-5
 > **Outputs**: duck_eggs, duck_meat, duck_feathers, down, manure
+> **Critical**: No — excellent for wet environments but chickens are more universally adaptable
 
 ### Overview
 
 Domestic ducks comprise two primary species: the mallard-derived duck (*Anas platyrhynchos domesticus*) and the Muscovy duck (*Cairina moschata*), a distinct species descended from tree-dwelling wild Muscovies of Central and South America. Ducks are exceptionally hardy, disease-resistant foragers that thrive in wetter environments where chickens struggle. They consume slugs, snails, aquatic plants, insects, and weeds that other poultry ignore, making them outstanding biological pest controllers in gardens, rice paddies, and orchards.
 
 Duck eggs are larger than chicken eggs (70-80 g vs 50-65 g), richer in fat and protein, and prized for baking (higher egg white protein produces lighter, higher-rising cakes and pastries). Duck breeds range from the prolific Khaki Campbell (250-340 eggs per year) to the heavy Pekin (4-5 kg, the standard meat duck). Adult weight spans 1.5-5 kg depending on breed, with Muscovy drakes reaching 5-7 kg. Ducks are generally more disease-resistant than chickens and better suited to free-range systems in damp climates.
+
+### Prerequisites
+
+| Requirement | Source | Notes |
+|-------------|--------|-------|
+| Water for drinking/head-washing (10-15 cm depth) | [`water`](../water/basic-treatment.md) | 500-1000 mL/day per duck |
+| Grain feed (non-medicated) | [`agriculture`](../agriculture/soil-management.md) | Never use medicated chicken feed — toxic to ducks |
+| Protein supplement (16-18% layer) | [`agriculture`](../agriculture/soil-management.md) | Duckweed provides 35-43% protein supplement |
+| Weatherproof shelter with deep bedding | [`construction`](../construction/building-materials.md) | 0.2-0.3 m² per bird; ducks sleep on ground |
+| Low fencing (60-90 cm) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Most breeds don't fly; Muscovies need wing clipping |
+
+### Bill of Materials
+
+Materials listed for a 15-duck flock per year.
+
+| Material | Quantity | Source | Alternatives |
+|----------|----------|--------|-------------|
+| Layer feed (16-18% protein) | 650-1,000 kg | [`agriculture`](../agriculture/soil-management.md) | Foraging reduces 30-50% in season |
+| Duckweed or forage supplement | 50-100 kg dry equivalent | [`agriculture`](../agriculture/soil-management.md) | Grows in ponds; 35-43% protein |
+| Bedding (straw/shavings) | 300-500 kg | [`plants`](../plants/index.md) | Ducks wet bedding rapidly |
+| Oyster shell and grit | 15-30 kg | [`mining`](../mining/index.md) | Free-choice for layers |
+| Water container (10-15 cm depth) | 2-3 units | [`foundations.tools-basic`](../foundations/tools-basic.md) | Stock tank or wading pool |
 
 ### Key Breeds
 
@@ -232,4 +255,4 @@ A sudden change of 20% or more in water consumption often indicates illness 24-4
 
 ---
 
-[← Back to Animals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

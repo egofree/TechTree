@@ -2,10 +2,11 @@
 
 > **Node ID**: health.occupational-health
 > **Domain**: [Health](./index.md)
-> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), `health`
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`health.medicine`](medicine.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 10-25
 > **Outputs**: hazard_controls, exposure_monitoring, protective_equipment, safety_protocols
+> **Critical**: No — reduces chronic illness and disability but production can proceed at higher human cost without formal occupational health programs
 
 ## Problem
 
@@ -55,6 +56,14 @@ Controls are applied in order of effectiveness. Higher-level controls protect al
 
 Remove the hazard entirely. Use a non-toxic solvent instead of benzene. Eliminate manual lifting with mechanical aids. Substitute a less hazardous material: water-based cleaners instead of chlorinated solvents, lead-free solder (tin-silver-copper) instead of tin-lead.
 
+**Strengths**:
+- Eliminates the hazard at the source — no ongoing exposure monitoring or PPE compliance required
+- Substitution often reduces both health costs and waste disposal costs simultaneously
+
+**Weaknesses**:
+- Not always technically feasible — some processes have no non-toxic alternative (e.g., HF for glass etching, lead for battery plates)
+- Substitute materials may be more expensive or require process re-engineering
+
 ### Engineering Controls
 
 Physical modifications to the workplace that isolate workers from hazards:
@@ -67,6 +76,16 @@ Physical modifications to the workplace that isolate workers from hazards:
 
 **Isolation**: Place hazardous processes in separate buildings or rooms with negative air pressure (air flows in, not out). Operators monitor from outside via windows or cameras. Remote handling tools for radioactive or highly toxic materials.
 
+**Strengths**:
+- Local exhaust ventilation captures contaminants at the source, reducing breathing-zone concentrations by 90-99%
+- Enclosures and machine guards protect all workers passively — protection does not depend on individual compliance
+- Engineering controls reduce long-term liability and healthcare costs compared to PPE-based programs
+
+**Weaknesses**:
+- LEV systems require fan power (1-5 kW per hood), ductwork fabrication, and regular maintenance — filters clog, belts break, fans fail
+- Enclosed machinery is harder to access for maintenance, creating new hazards during servicing unless lockout/tagout is enforced
+- Engineering controls have high upfront capital cost compared to administrative controls or PPE
+
 ### Administrative Controls
 
 Work procedures and policies that reduce exposure duration or number of exposed workers:
@@ -75,6 +94,16 @@ Work procedures and policies that reduce exposure duration or number of exposed 
 - **Training**: Hazard communication (knowing what chemicals are present, reading SDS, understanding PELs), safe work procedures, emergency response.
 - **Housekeeping**: Regular cleaning prevents accumulation of toxic dusts (lead, silica) on surfaces. Wet methods (hosing, mopping) suppress dust resuspension. Dry sweeping disperses settled dust back into the air.
 - **Medical surveillance**: Pre-employment and periodic medical examinations for workers in hazardous exposures. Blood lead level testing for lead workers (action level: 40 μg/dL, removal at 50 μg/dL). Spirometry for workers exposed to respiratory hazards. Audiometry for noise-exposed workers (annual testing, comparing to baseline).
+
+**Strengths**:
+- Time rotation limits individual dose while maintaining production output — no equipment modification needed
+- Medical surveillance detects health effects before they become irreversible (e.g., 10 dB hearing shift at 4000 Hz triggers intervention)
+- Low capital cost compared to engineering controls — primarily requires training and scheduling
+
+**Weaknesses**:
+- Depends on worker compliance and management enforcement — easily circumvented under production pressure
+- Rotation does not reduce total workforce exposure, only distributes it among more workers
+- Medical surveillance requires trained medical personnel and laboratory facilities that may not exist in early bootstrap stages
 
 ### Personal Protective Equipment (PPE)
 
@@ -196,6 +225,4 @@ Training records document who received what training, when, and from whom. Refre
 
 **Emergency Response**: Every industrial facility needs an emergency action plan covering fire (extinguisher types: ABC dry chemical for general, CO₂ for electrical, water for paper/wood only), chemical spill (absorbent materials, neutralization agents, evacuation distances for toxic releases — H₂SO₄ spill: evacuate 50 m radius minimum), medical emergency (first aid station location, AED placement within 3-minute walk of any point, emergency phone numbers posted), and rescue (confined space rescue team with SCBA, rope rescue capability for elevated work). Drill frequency: fire evacuation quarterly, chemical release annually, full response exercise annually.
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Health](./index.md) · [All Domains](../index.md)*
-
-[← Back to Health](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Health](./index.md) • [All Domains](../index.md)*

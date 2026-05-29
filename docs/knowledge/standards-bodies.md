@@ -17,7 +17,7 @@ This capability covers the *process* of creating, maintaining, and enforcing sta
 ## Prerequisites
 
 - **Materials**: Paper and printing for standard documents ([Printing](printing.md))
-- **Tools**: [Technical Drawing](technical-drawing.md) instruments for illustrating standard specifications, [Measurement](../measurement/index.md) instruments for reference standards
+- **Tools**: [Technical Drawing](technical-drawing.md) instruments for illustrating standard specifications, [Measurement](../measurement/precision-metrology.md) instruments for reference standards
 - **Knowledge**: [Writing](writing.md) for unambiguous specification language, engineering knowledge in the domain to be standardized
 - **Infrastructure**: Meeting facilities, document storage and distribution system, testing facilities for validating compliance
 
@@ -26,7 +26,7 @@ This capability covers the *process* of creating, maintaining, and enforcing sta
 | Material/Resource | Quantity per Standard | Source | Alternatives |
 |-------------------|----------------------|--------|-------------|
 | Printed standard documents | 50-500 copies per standard | [Printing](printing.md) | Hand-copied (10× cost, 100× slower) |
-| Reference measurement artifacts | 1-3 master sets per standard type | [Measurement](../measurement/index.md) | No substitute — must be manufactured to specified accuracy |
+| Reference measurement artifacts | 1-3 master sets per standard type | [Measurement](../measurement/precision-metrology.md) | No substitute — must be manufactured to specified accuracy |
 | Test specimens for validation | 10-100 per validation round | Relevant domain (metals, ceramics, etc.) | Reduced sample size (lower statistical confidence) |
 | Meeting facilities | Shared across all standards activities | [Construction](../construction/index.md) | Correspondence-based process (slower, 5-10× timeline) |
 
@@ -42,6 +42,10 @@ This capability covers the *process* of creating, maintaining, and enforcing sta
 6. **Publication and adoption**: Publish the approved standard as a numbered document. Set an adoption timeline: voluntary for 1-2 years, then mandatory for government procurement and safety-critical applications.
 7. **Revision cycle**: Review every 5-10 years. Incorporate lessons learned, new technology, and changed circumstances. Maintain backward compatibility where possible.
 
+**Strengths**: Consensus-based process (resolve objections through technical argument) produces standards with broad buy-in — stakeholders who participated in development are more likely to adopt. Validation testing confirms the standard is achievable in practice before publication.
+
+**Weaknesses**: 15-43 month development timeline is slow — urgent standardization needs (e.g., safety standards after an accident) cannot wait for the full cycle. Consensus process can deadlock when stakeholders have conflicting interests.
+
 ### Critical Standard Categories
 
 **Measurement standards**: Define units, reference artifacts, calibration chains, and measurement procedures. Without these, no two instruments read the same value. Examples: meter standard, kilogram prototype, thermocouple reference tables, thread gauge specifications.
@@ -53,6 +57,16 @@ This capability covers the *process* of creating, maintaining, and enforcing sta
 **Process standards**: Define procedures for critical operations. Without these, every practitioner develops their own method, and quality varies unpredictably. Examples: welding procedure specifications, heat treatment protocols, inspection sampling plans.
 
 **Safety standards**: Define minimum safety requirements for products and processes. Without these, the cost of accidents is borne by the user rather than prevented at the design stage. Examples: pressure vessel codes, electrical installation codes, machine guarding requirements.
+
+**Strengths**:
+- Measurement standards eliminate the most fundamental source of inter-workshop disagreement — no two instruments read the same without a common calibration chain
+- Interoperability standards (screw threads, flanges, connectors) enable parts from different manufacturers to work together — the single highest economic impact of standardization
+- Safety standards shift accident prevention upstream to the design stage — cheaper and more effective than compensating victims after failures
+
+**Weaknesses**:
+- Material standards require testing equipment and reference specimens — not available until measurement infrastructure is established
+- Process standards can become prescriptive enough to stifle innovation — practitioners may stick to the standard method even when better alternatives exist
+- Safety standards require enforcement (inspection, liability) to be effective — unenforced standards are ignored
 
 ## Quantitative Parameters
 
@@ -130,13 +144,25 @@ This capability covers the *process* of creating, maintaining, and enforcing sta
 
 When one manufacturer's design dominates the market, it becomes a de facto standard regardless of any formal process. Example: the QWERTY keyboard layout. Fast to emerge, but may not be technically optimal. Acceptable as a transitional measure while formal standards are developed.
 
+**Strengths**: Emerges immediately from market competition — no committee process or bureaucratic delay. The dominant design is already proven in practice by the time it becomes a standard.
+
+**Weaknesses**: May lock in a suboptimal design — the QWERTY layout was designed to prevent typewriter jams, not for typing speed. No mechanism for revision when better alternatives emerge.
+
 ### Regulatory Standards (Government-Imposed)
 
 Government mandates compliance with specific standards, typically for safety. Effective enforcement but risks political capture (standards written to favor incumbents). Best for safety-critical domains where market forces alone are insufficient.
 
+**Strengths**: Enforcement is backed by legal authority — non-compliance carries penalties, creating strong incentive for adoption. Effective for safety-critical domains where market incentives alone are insufficient (pressure vessels, electrical installations).
+
+**Weaknesses**: Risk of political capture — incumbents may influence standards to exclude competitors. Government-mandated standards may lag behind technology because the regulatory process is slower than innovation.
+
 ### Industry Consortium Standards
 
 A group of producers in the same industry agrees on common specifications. Faster than government standards, but may exclude smaller producers from the process. Requires anti-monopoly safeguards.
+
+**Strengths**: Faster development than formal consensus process — participants share commercial incentive to agree. Produced by practitioners with direct domain expertise, reducing the risk of impractical specifications.
+
+**Weaknesses**: May exclude smaller producers who lack resources to participate in consortium meetings. Risk of anti-competitive standardization — consortium members may agree on specifications that exclude non-members.
 
 ### Bootstrapping Priority Order
 
@@ -192,7 +218,7 @@ A standard that practitioners cannot find or read is useless. Ensure every publi
 - [Writing & Record-Keeping](writing.md) — the documentation foundation for standards
 - [Printing & Book Production](printing.md) — distribution of standard documents
 - [Technical Drawing](technical-drawing.md) — drawing conventions are a key early standard
-- [Measurement](../measurement/index.md) — measurement standards are the most fundamental category
+- [Measurement](../measurement/precision-metrology.md) — measurement standards are the most fundamental category
 - [Education Pathways](education-pathways.md) — teaching standards to new practitioners
 - [Information Durability](information-durability.md) — preserving standards documents across generations
 - [Quality Control](../quality-control/index.md) — the quality management systems that standards enable

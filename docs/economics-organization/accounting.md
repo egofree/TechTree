@@ -74,6 +74,8 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
    Date | Description | Debit (value in) | Credit (value out) | Balance
    ```
 
+**Decision criteria**: Use single-entry (cash book) when transaction volume is <50/month and the community has <50 regular trading partners. Switch to double-entry when any of these thresholds is exceeded, or when error rates in single-entry exceed 3% per 100 entries.
+
 ### 4.2 Recording Transactions
 
 4. **Record each transaction in real-time**: Do not batch — record as transactions occur. For each trade, purchase, or production input consumed:
@@ -84,6 +86,16 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 5. **Maintain subsidiary ledgers**: For high-volume accounts (e.g., individual trader accounts), maintain separate sub-ledgers that roll up into the main ledger. One sub-ledger per trader, one per production workshop.
 
 6. **Reconcile daily**: At end of each business day, sum all debits and all credits across all accounts. Total debits must equal total credits. Any discrepancy indicates a recording error.
+
+**Strengths**:
+- Double-entry detects errors immediately — debits must equal credits for every transaction
+- Complete audit trail — every entry linked to a source document
+- Real-time financial visibility — daily reconciliation catches problems before they compound
+
+**Weaknesses**:
+- Requires trained bookkeeper — double-entry rules must be learned and applied consistently
+- Time overhead — every transaction recorded twice doubles recording time vs single-entry
+- No fraud prevention — colluding bookkeepers can create balanced but fictitious entries
 
 ### 4.3 Periodic Reporting
 
@@ -97,9 +109,21 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 8. **Conduct physical inventory count**: Monthly, physically count and weigh all stored goods. Compare to ledger values. Discrepancies >2% trigger investigation (theft, spoilage, recording error).
 
 9. **Prepare summary reports**: For the coordinator/governance, provide:
-   - Balance sheet (assets vs. liabilities)
-   - Income statement (revenue minus costs)
-   - Inventory status (stock levels vs. minimum thresholds)
+    - Balance sheet (assets vs. liabilities)
+    - Income statement (revenue minus costs)
+    - Inventory status (stock levels vs. minimum thresholds)
+
+**Decision criteria**: Close books monthly for operations exceeding 200 transactions/month. For smaller operations, quarterly closing may suffice. Close immediately if a discrepancy >5% is detected — do not wait for the scheduled close.
+
+**Strengths**:
+- Provides decision-making data — balance sheet reveals solvency, income statement reveals profitability
+- Physical inventory count detects theft and spoilage — discrepancies >2% trigger investigation
+- Standardized reports enable comparison across time periods and between operations
+
+**Weaknesses**:
+- Monthly close delays information — decisions made with data up to 30 days old
+- Physical inventory counting is labor-intensive — requires temporary halt to production for accurate count
+- Summary reports simplify complex reality — a single net income figure can mask important details
 
 ---
 
@@ -181,6 +205,17 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 | Quipu (knotted cord) | Knot patterns encode numerical data | Communities without writing | Limited to numerical data; no narrative descriptions |
 | Clay token accounting | Shaped clay tokens represent goods quantities | Earliest accounting (pre-writing) | No written detail; limited to simple counting |
 | Spreadsheet (paper) | Tabular format with rows and columns | Multi-category analysis | Labor-intensive for large datasets |
+
+### Accounting Method Trade-offs
+
+| Method | Error Detection | Scalability | Training Required | Setup Cost | Best Transaction Volume |
+|--------|:-:|:-:|:-:|:-:|:-:|
+| Single-entry | None | Poor (<50/month) | Low (hours) | Near zero | <50/month |
+| Double-entry | High (daily balance) | Good (500+/day) | Moderate (weeks) | Low (1-2 days) | 50-500/day |
+| Tally stick | None | Very poor | Low (hours) | Near zero | <20/month |
+| Quipu | Low (visual check) | Moderate | Moderate (weeks) | Low | 50-200/month |
+| Clay tokens | Low (physical count) | Poor | Low (hours) | Near zero | <30/month |
+| Spreadsheet | Moderate (formula check) | Moderate | Moderate | Low | 100-1000/month |
 
 ### Accounting System Evolution by Era
 

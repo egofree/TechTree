@@ -6,6 +6,7 @@
 > **Enables**: [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md), [`machine-tools.joining`](../machine-tools/joining.md), [`metals.powder-metallurgy`](powder-metallurgy.md)
 > **Timeline**: Years 20-50
 > **Outputs**: stainless steel, tool steel, superalloys, titanium alloys, specialty copper alloys
+> **Critical**: true
 
 ### Overview
 
@@ -42,6 +43,14 @@ Stainless steels are iron alloys containing ≥10.5% chromium, which forms a sel
 **Precipitation-hardening (PH) stainless steels**:
 - **[Type 17-4PH](../glossary/type-17-4ph.md)** (17Cr-4Ni-4Cu-0.3Nb): Solution-treated at 1040°C (single-phase martensite), then aged at 480-620°C. Cu-rich precipitates form during aging, providing strengthening. HRC 28-44 depending on aging temperature. Used for aerospace structural components, nuclear reactor parts, medical devices. Combines the corrosion resistance of austenitic stainless with the strength of martensitic grades.
 
+**Strengths**:
+- Austenitic stainless (304, 316) provides corrosion resistance in atmospheric and mildly corrosive environments without any coating — maintenance-free service life.
+- Duplex grades (2205) provide twice the yield strength of austenitic grades (450 vs. 205 MPa) with superior chloride stress corrosion cracking resistance.
+
+**Weaknesses**:
+- Sensitization (Cr₂₃C₆ precipitation at 425-815°C) depletes chromium from grain boundaries below the 10.5% threshold — requires L-grades (≤0.03% C) or stabilized grades (321, 347) for welded service.
+- Austenitic stainless is susceptible to chloride stress corrosion cracking in hot chloride environments (>60°C) — limits use in marine heat exchangers without duplex or cupronickel substitution.
+
 ### Tool Steels
 
 Tool steels are specially alloyed and heat-treated steels designed for cutting, forming, and shaping other materials. They must maintain hardness at elevated temperatures (red-hardness), resist abrasion, and withstand cyclic mechanical and thermal loading. The AISI classification uses a single-letter prefix:
@@ -62,6 +71,14 @@ Tool steels are specially alloyed and heat-treated steels designed for cutting, 
 **Shock-resistant tool steels**:
 - **[S-series](../glossary/s-series.md)** (e.g., S7): 0.5% C, 3.25% Cr, 1.4% Mo. Lower carbon than other tool steels for maximum toughness. Used for chisels, punch pins, shear blades, jackhammer bits. Hardness: HRC 54-56. Can withstand repeated impact without fracturing.
 
+**Strengths**:
+- M2 HSS retains HRC 60+ at cutting edge temperatures of ~600°C — 3-5× higher cutting speeds than plain carbon steel tools.
+- H13 hot-work steel resists thermal fatigue cracking ("heat checking") at 500-600°C in die-casting service — the dominant grade for aluminum die casting worldwide.
+
+**Weaknesses**:
+- HSS requires multiple tempers (2-3 cycles) to decompose retained austenite — each cycle is a 2-hour heat treatment at 540-560°C.
+- D-series tool steels (12% Cr, massive carbide volume) have limited toughness — not suitable for impact applications despite exceptional wear resistance.
+
 ### Manganese Steel (Hadfield Steel)
 
 Hadfield steel (invented 1882) is the archetype of a work-hardening alloy:
@@ -72,6 +89,16 @@ Hadfield steel (invented 1882) is the archetype of a work-hardening alloy:
 - **Applications**: Rock crusher jaws and cone liners, ball mill liners, railway track components (frogs, switches), excavator bucket teeth, armor plating. Any application requiring high impact resistance combined with abrasive wear resistance.
 - **Machining difficulty**: Nearly impossible to machine conventionally — any cutting tool work-hardens the surface ahead of the cut. Must be ground, or machined with extreme care using sharp tools and minimal feed. Cast to near-net shape whenever possible.
 - **Welding**: Requires careful preheat and post-weld solution treatment to restore austenitic structure in the heat-affected zone. Without re-solutionizing, the HAZ becomes embrittled by carbide precipitation and partial martensitic transformation.
+
+- **Welding**: Requires careful preheat and post-weld solution treatment to restore austenitic structure in the heat-affected zone. Without re-solutionizing, the HAZ becomes embrittled by carbide precipitation and partial martensitic transformation.
+
+**Strengths**:
+- Work-hardening rate 10-15× that of plain carbon steel — surface hardness increases from HB 200 to HB 500-550 under impact, while core remains ductile.
+- Excellent combination of impact resistance and abrasive wear resistance in a single material — ideal for rock crusher jaws, ball mill liners, and excavator bucket teeth.
+
+**Weaknesses**:
+- Nearly impossible to machine conventionally — any cutting tool work-hardens the surface ahead of the cut. Must be ground or cast to near-net shape.
+- Requires solution treatment at 1050-1100°C followed by rapid water quench to retain austenitic structure — precise heat treatment control mandatory.
 
 ### Superalloys
 
@@ -94,6 +121,14 @@ Superalloys are nickel, iron-nickel, or cobalt-based alloys designed for service
 - **Single-crystal (SX) blades**: A helical grain selector at the base of the mold allows only one grain to propagate into the blade cavity. Zero grain boundaries. Further 2-3× improvement in creep life over DS. Used in modern jet engine and industrial gas turbine first-stage blades operating at >1,000°C (with internal air cooling channels and thermal barrier coatings).
 - **[Investment casting](../glossary/investment-casting.md)** is the only practical method — the complex internal cooling passages are formed by ceramic cores that are leached out after casting.
 
+**Strengths**:
+- Nickel superalloys maintain useful strength above 650°C where all steels have lost theirs — γ' (Ni₃Al) precipitate strength INCREASES with temperature up to ~800°C, unique among structural materials.
+- Single-crystal turbine blades (zero grain boundaries) achieve 30-60× creep life improvement over equiaxed castings — enables turbine inlet temperatures >1000°C with internal air cooling.
+
+**Weaknesses**:
+- Superalloy composition involves 8-12 controlled alloying elements — precise melting and analysis required (AOD, VIM, ESR, or VAR processing).
+- Investment casting with ceramic cores for internal cooling passages is the only fabrication route for turbine blades — complex, expensive, and limited to specialized foundries.
+
 ### Specialty Copper Alloys
 
 Beyond the basic brasses and bronzes covered in [Copper & Bronze](copper-bronze.md), several copper alloys serve critical specialized roles:
@@ -112,6 +147,16 @@ Beyond the basic brasses and bronzes covered in [Copper & Bronze](copper-bronze.
 **[Cupronickel](../glossary/cupronickel.md)** (copper-nickel):
 - **[90/10 Cu-Ni](../glossary/9010-cu-ni.md)** (C70600): 90% Cu, 10% Ni, 1.5% Fe, 0.5% Mn. Excellent seawater corrosion resistance — the nickel stabilizes the protective oxide film. Biofouling resistance (copper ions inhibit marine organism attachment). Used for seawater desalination tubing, ship hull cladding, offshore platform piping.
 - **[70/30 Cu-Ni](../glossary/7030-cu-ni.md)** (C71500): Higher strength and slightly better corrosion resistance than 90/10, but more expensive. Used for condenser tubes in power plants, naval ship piping.
+
+- **Health hazard**: Beryllium dust and fumes cause chronic beryllium disease (berylliosis) — a serious and potentially fatal lung condition. Machining requires strict dust control, ventilation, and respiratory protection. See Safety section.
+
+**Strengths**:
+- Be-Cu achieves HRC 36-44 — the highest hardness of any copper alloy — while maintaining non-sparking and non-magnetic properties.
+- Cupronickel (90/10 and 70/30) provides excellent seawater corrosion resistance with inherent biofouling resistance (copper ions inhibit marine organism attachment).
+
+**Weaknesses**:
+- Beryllium is extremely toxic — inhalation of >0.1 μg/m³ can cause chronic beryllium disease. Strict PPE and ventilation mandatory for all Be-Cu machining.
+- Cupronickel is expensive relative to steel and requires nickel (strategic metal) — limited to marine and chemical applications where corrosion resistance justifies cost.
 
 ### Titanium Alloys
 
@@ -133,6 +178,16 @@ Titanium alloys occupy a critical niche: high strength-to-weight ratio (density 
 **α titanium alloys**:
 - Commercially pure titanium (CP Grades 1-4, varying oxygen content from 0.18% to 0.40%): Single-phase α. Oxygen is an interstitial strengthener — Grade 4 (0.40% O) has ~550 MPa yield vs. Grade 1 (0.18% O) at ~170 MPa. Used where corrosion resistance is paramount: chemical plant equipment, marine, architectural, heat exchanger tubing. Grade 1 is used for deep-drawing applications due to excellent formability.
 
+- **Limitations**: Poor tribological properties (galling, poor wear resistance) — requires surface treatments or coatings for bearing surfaces. Low thermal conductivity makes machining difficult (heat concentrates at the cutting edge). Reactive with oxygen above ~600°C — all hot working must be done in inert atmosphere or with protective coatings.
+
+**Strengths**:
+- Ti-6Al-4V provides strength-to-weight ratio (σ/ρ ≈ 200 kN·m/kg) matching 7075-T6 aluminum at 580°C service temperature — irreplaceable for jet engine fan blades.
+- Titanium's osseointegration ability (direct bone-to-implant bonding) is unique among structural metals — the foundation of orthopedic and dental implant technology.
+
+**Weaknesses**:
+- Kroll process extraction (Mg reduction of TiCl₄) is batch-based and energy-intensive — titanium costs 5-10× more than steel per kg.
+- Poor wear resistance and galling tendency require surface treatments (nitriding, PVD coatings) for any bearing or sliding contact application.
+
 ### Aluminum Alloys
 
 Primary aluminum production is covered in [Aluminum](aluminum.md). The major alloy systems are summarized here:
@@ -150,6 +205,16 @@ Primary aluminum production is covered in [Aluminum](aluminum.md). The major all
 - **[Chrome-silicon spring steel](../glossary/chrome-silicon-spring-steel.md)** (0.55% C, 0.7% Cr, 1.5% Si, e.g., AISI 9254): Silicon raises the elastic limit and improves temper resistance. Oil-quenched from 860-900°C, tempered at 400-450°C. Used for high-stress valve springs, clutch springs. Silicon also increases resistance to stress relaxation at elevated temperatures.
 
 **[Casting alloys](../glossary/casting-alloys.md)** (e.g., A356 = Al-7Si-0.3Mg): Silicon improves castability (fluidity, reduced shrinkage). Heat-treatable via Mg₂Si precipitation. Used for engine blocks, transmission cases, wheels. Al-Si eutectic (12.6% Si) provides the best fluidity — hypereutectic alloys (e.g., A390, 17% Si) used for wear-resistant cylinder liners where primary Si particles provide abrasion resistance.
+
+**[Casting alloys](../glossary/casting-alloys.md)** (e.g., A356 = Al-7Si-0.3Mg): Silicon improves castability (fluidity, reduced shrinkage). Heat-treatable via Mg₂Si precipitation. Used for engine blocks, transmission cases, wheels. Al-Si eutectic (12.6% Si) provides the best fluidity — hypereutectic alloys (e.g., A390, 17% Si) used for wear-resistant cylinder liners where primary Si particles provide abrasion resistance.
+
+**Strengths**:
+- 7075-T6 achieves ~570 MPa tensile strength at only 2.81 g/cm³ density — the highest strength-to-weight ratio of any common structural metal.
+- 6061-T6 provides excellent formability, weldability, and corrosion resistance at moderate strength (~310 MPa) — the most versatile aluminum alloy for general engineering.
+
+**Weaknesses**:
+- 7xxx alloys are susceptible to stress corrosion cracking in peak-aged condition (T6) — require overaging (T73) that sacrifices 10-15% strength.
+- 2xxx alloys (Al-Cu) have poor corrosion resistance — require alclad (pure Al cladding) for atmospheric exposure, adding weight and manufacturing complexity.
 
 ### Alloy Design Principles
 
@@ -171,6 +236,16 @@ The development of new alloys follows a systematic approach rooted in thermodyna
 - **Corrosion resistance**: Determine the specific environment (oxidizing vs. reducing, chlorides, acids, temperature). Select by PREN (pitting resistance equivalent number): PREN = %Cr + 3.3×%Mo + 16×%N. Higher PREN = better localized corrosion resistance.
 - **Temperature capability**: Ferritic steels to ~500°C, austenitic stainless to ~750°C, Ni-superalloys to ~1,000°C (cooled components in gas turbines to ~1,100°C). Creep rate accelerates exponentially with temperature — a factor of 10× per 20-30°C increase in many alloys.
 - **Fabricability**: Weldability, castability, machinability, formability. A high-performance alloy that cannot be fabricated into the required shape is useless. Welding is the most common limitation — high-strength alloys are often unweldable due to hot cracking, HAZ softening, or stress corrosion susceptibility.
+
+- **Fabricability**: Weldability, castability, machinability, formability. A high-performance alloy that cannot be fabricated into the required shape is useless. Welding is the most common limitation — high-strength alloys are often unweldable due to hot cracking, HAZ softening, or stress corrosion susceptibility.
+
+**Strengths**:
+- Grain boundary strengthening (Hall-Petch: σ_y = σ₀ + k·d^(-1/2)) is the only mechanism that improves both yield strength AND toughness simultaneously — controlled rolling and microalloy additions (Nb, Ti, Al) exploit this.
+- Precipitation hardening provides 2-5× strength increase over the solution-treated condition through controlled aging — applicable across aluminum, nickel, copper, and iron alloy systems.
+
+**Weaknesses**:
+- Phase diagram complexity increases exponentially with each added element — ternary and quaternary systems require extensive experimentation and computational thermodynamics (CALPHAD) to map.
+- Trade-offs between properties are inherent: higher strength reduces ductility and often weldability; higher alloy content increases cost and processing complexity.
 
 ### Safety & Hazards
 

@@ -1,11 +1,12 @@
 # Medicine & Surgery
 
 > **Node ID**: health.medicine
-> **Domain**: Public Health, Sanitation & Medicine
+> **Domain**: [Health](./index.md)
 > **Dependencies**: [`animals.beekeeping`](../animals/beekeeping.md), [`health.sanitation`](sanitation.md), [`knowledge.writing`](../knowledge/writing.md)
-> **Enables**: [`health.pharmacology`](pharmacology.md)
+> **Enables**: [`health.pharmacology`](pharmacology.md), [`health.surgery-basics`](surgery-basics.md), [`health.diagnostics`](diagnostics.md)
 > **Timeline**: Years 5-100+
 > **Outputs**: surgical_capability, medical_treatment
+> **Critical**: Yes — basic medical capability reduces preventable death more than any other single intervention
 
 ## Overview
 
@@ -71,6 +72,22 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 6. **Dress**: Apply sterile cotton gauze over the wound. Secure with bandage. Change daily or when soaked.
 7. **Monitor for infection**: Check daily for spreading redness, increasing pain, swelling, warmth, red streaks (lymphangitis), or fever. If infected → open wound, re-irrigate, apply antiseptic.
 
+**Verification**: After wound closure, verify hemostasis (no active bleeding), approximation (wound edges touching without gaps), and neurovascular integrity distal to the wound (pulse present, sensation intact, motor function preserved). Document wound length, depth, and structures involved.
+
+**Expected outcome**: Clean wounds closed within 6 hours heal by primary intention with <5% infection rate. Contaminated wounds left open for delayed closure at day 4-5 have <10% infection rate.
+
+**Materials**: Syringe 20-60 mL with 18-gauge needle (generates ~8 psi irrigation pressure). Sterile saline or clean water, 200-500 mL per wound. Scalpel or scissors for debridement. Suture material (silk 3-0 or 4-0 for skin, catgut 2-0 for deep tissue).
+
+**Strengths**:
+- Pressurized irrigation removes >90% of wound bacteria mechanically — more effective than any antiseptic rinse
+- Primary closure of clean wounds restores skin integrity within hours, reducing infection risk and speeding healing
+- Technique requires only basic instruments and clean water — achievable at the earliest medical capability stage
+
+**Weaknesses**:
+- Wound closure timing is a judgment call — closing a contaminated wound seals bacteria inside, converting a treatable situation into a life-threatening infection
+- Irrigation requires a syringe capable of generating adequate pressure — pouring water over a wound is ineffective
+- Without antibiotics, post-closure infection requires reopening the wound, negating the benefit of primary closure
+
 ### Setting a Fracture (Closed Reduction)
 
 1. **Assess**: Confirm fracture by deformity, crepitus, abnormal mobility, and pain. Check distal pulse, sensation, and motor function. If open fracture, treat as wound emergency first.
@@ -81,6 +98,22 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 6. **Monitor**: Check distal circulation (pulse, capillary refill, sensation, warmth) after cast application. Instruct patient to report immediately if numbness, severe pain, or coldness develops distally (compartment syndrome).
 7. **Follow up**: Recheck alignment at 1 week and 3 weeks. Typical healing: 6-8 weeks for simple fractures, 12+ weeks for weight-bearing bones.
 
+**Verification**: After reduction and immobilization, verify five things: (1) distal pulse present, (2) capillary refill <2 seconds, (3) sensation intact distally, (4) toe/finger movement preserved, (5) no worsening pain. Recheck at 24 hours and 1 week. Persistent severe pain or absent pulse = compartment syndrome requiring immediate cast removal.
+
+**Expected outcome**: Closed reduction achieves acceptable alignment in 80-90% of simple fractures. Clinical union (stable on gentle stress) at 6-8 weeks for upper extremity, 10-14 weeks for lower extremity. Full functional recovery at 3-6 months with rehabilitation.
+
+**Materials**: Plaster of Paris bandages (gypsum plaster CaSO₄·½H₂O on cotton gauze, 10 cm width), dipped in water at 20-25°C. Cotton padding for bony prominences. Wooden splints (2.5 × 30 cm) as alternative when plaster is unavailable. Elastic or cloth bandage for wrapping.
+
+**Strengths**:
+- Closed reduction avoids surgical wound infection risk — no skin incision means no surgical site infection
+- Plaster of Paris sets in 5-8 minutes and reaches full strength in 24-48 hours, providing rigid immobilization
+- Technique requires no imaging — alignment verified by clinical examination and comparison to the uninjured limb
+
+**Weaknesses**:
+- Without X-ray verification, malalignment up to 15° angulation may go undetected, causing permanent deformity
+- Plaster casts cause compartment syndrome if applied too tightly — this is a limb-threatening emergency
+- Fracture reduction is painful — adequate analgesia (morphine, ether) is required before manipulation
+
 ### Performing START Triage
 
 1. **Clear walking wounded**: Ask everyone who can walk to move to a designated area. Tag these patients **green (minor/delayed)**.
@@ -88,6 +121,22 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 3. **Assess perfusion**: Capillary refill >2 seconds or no radial pulse → **red (immediate)**. Adequate perfusion → proceed.
 4. **Assess mental status**: Cannot follow simple commands → **red (immediate)**. Can follow commands → **yellow (urgent)**.
 5. **Tag all patients**: Use colored tape, cloth strips, or marker. Re-triage every 30-60 minutes as conditions change.
+
+**Verification**: After initial triage, reassess all patients in the immediate (red) and urgent (yellow) categories every 30 minutes. Patients who deteriorate get upgraded; patients who stabilize get downgraded. Document triage category and time on each patient.
+
+**Expected outcome**: START triage categorizes 20-30 patients per minute per triage officer. Accuracy: correctly identifies >90% of patients needing immediate intervention. Over-triage rate (labeling stable patients as immediate): 15-25%, acceptable because the cost of under-triage (missing a dying patient) is much higher.
+
+**Materials**: Colored tags or tape (red, yellow, green, black/white). Pen or marker for documenting time and category on each patient. Clipboard with triage reference card.
+
+**Strengths**:
+- Processes one patient in under 30 seconds — scales to mass casualty events with hundreds of patients
+- Decision tree uses only three checks (respiration, perfusion, mental status) — no diagnostic equipment needed
+- Walking wounded self-segregate in the first step, clearing the scene for immediate assessment of the non-ambulatory
+
+**Weaknesses**:
+- Sacrifices individual accuracy for throughput — some patients will be over-triaged or under-triaged
+- Does not account for injuries that worsen over time (e.g., slow intracranial bleeding may not show mental status changes initially)
+- Requires re-triage at regular intervals — initial categorization becomes stale within 30-60 minutes
 
 ## Safety & Hazards
 
@@ -207,7 +256,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 ### Wound Management in Detail
 
 **Wound irrigation**:
-- **Technique**: Use a syringe (20-60 mL) with an 18-gauge needle to irrigate under pressure. Apply 8-12 psi by forcefully expressing the syringe. Use 200-500 mL of clean (boiled then cooled) water or sterile saline. Direct the stream at the wound surface from 2-3 cm distance. Irrigation pressure is more important than solution type — mechanical removal of bacteria and debris does the heavy lifting.
+- **Technique**: Use a syringe (20-60 mL) with an 18-gauge needle to irrigate under pressure. Apply 8-12 psi by forcefully expressing the syringe. Use 200-500 mL of clean (boiled then cooled) water or sterile saline. Direct the stream at the wound surface from 2-3 cm distance. Irrigation pressure matters more than solution type — mechanical removal of bacteria and debris does the heavy lifting.
 - **Solutions**: Clean water is nearly as effective as sterile saline for wound irrigation. Dilute povidone-iodine solution (1%) adds antibacterial activity. Do NOT use hydrogen peroxide for wound irrigation (it damages healthy tissue and has minimal antimicrobial benefit in wounds).
 
 **Debridement**:

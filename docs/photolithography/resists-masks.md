@@ -2,10 +2,11 @@
 
 > **Node ID**: photolithography.resists-masks
 > **Domain**: [Photolithography & IC Fabrication](./index.md)
-> **Dependencies**: `chemistry`, [`glass.basic`](../glass/basic.md), [`polymers.thermosets`](../polymers/thermosets.md)
+> **Dependencies**: [`chemistry.basic`](../chemistry/index.md), [`glass.basic`](../glass/basic.md), [`polymers.thermosets`](../polymers/thermosets.md)
 > **Enables**: [`vlsi-scaling.advanced-lithography`](../vlsi-scaling/advanced-lithography.md)
 > **Timeline**: Years 40-70
 > **Outputs**: photoresists, masks, lithography_tools, patterned_wafers
+> **Critical**: Yes — photolithographic patterning is the defining process of semiconductor manufacturing
 
 ### Photoresists
 
@@ -30,6 +31,14 @@
 - **[SU-8](../glossary/su-8.md)** (epoxy-based, modern): Epoxy novolac resin + triarylsulfonium salt photoacid generator (PAG). UV exposure generates acid → PEB causes acid-catalyzed epoxy cross-linking. Highly cross-linked, excellent chemical resistance. Can pattern thick films (5-500 μm) in a single coat. Used for MEMS structures, thick passivation, electroplating molds. Resolution limited by swelling during development (~2-5 μm minimum for thin films).
 - **[Isoprene-based](../glossary/isoprene-based.md)** (historical): Cyclized polyisoprene + bis-azide sensitizer. UV exposure causes azide to form nitrene radicals, cross-linking the rubber. Unexposed regions dissolve in xylene. Swelling during development limits resolution to ~2-3 μm. Historically important (Kodak KTFR, early IC production in 1960s-70s). Largely replaced by positive resists due to swelling artifacts.
 
+**Strengths**:
+- Novolac/DNQ positive-tone system provides 0.25-1.0 μm resolution with i-line exposure — well-understood chemistry with 50+ years of production use
+- SU-8 negative resist can pattern 5-500 μm thick films in a single coat — unmatched for MEMS and electroplating molds
+
+**Weaknesses**:
+- Bitumen resist requires hours of exposure with ~100 μm+ resolution — only suitable for initial experimentation
+- Isoprene-based negative resists suffer swelling during development, limiting resolution to ~2-3 μm
+
 ### Polymer Packaging Materials
 - **Epoxy encapsulation**: Two-part epoxy for die attach and hermetic sealing — see [Polymers](../polymers/index.md) and [Semiconductor Packaging & Testing](../chemistry/packaging-testing.md)
 - **Plastic substrates and lead frames**: Molded plastic packages for integrated circuits
@@ -45,6 +54,14 @@
 - **Mask repair**: Focused ion beam (FIB) — Ga⁺ ions sputter-remove chrome bridges (clear defects) or deposit carbon patches to fill missing chrome (opaque defects). Laser repair for larger defects. Repaired masks are re-inspected. Yield: a good 1× mask is critical — one defect repeats on every die.
 - **Pellicles**: Thin transparent membrane (nitrocellulose ~1 μm thick, or fluoropolymer such as CYTOP) mounted on an aluminum frame (5-10 mm standoff height above mask surface). Seals the mask pattern area — any particle that lands on the pellicle is far enough above the mask plane to be out of focus and not print. Pellicle must transmit >99% at exposure wavelength. Replaceable when damaged. Essential for production masks; omit for development or low-volume work.
 
+**Strengths**:
+- E-beam mask writing at 10-50 nm spot size enables 4×/5× reticles with features far smaller than optical lithography limits
+- Pellicle membrane keeps particles 5-10 mm above mask plane — out of depth of focus, so they don't print as defects
+
+**Weaknesses**:
+- E-beam write time of 1-8 hours per reticle makes masks expensive ($5K-50K each)
+- FIB mask repair introduces Ga⁺ contamination and ≤10 nm substrate damage — repaired sites have slightly different optical properties
+
 ### Lithography Tools
 - **Contact/proximity printing**: Mask touches (or nearly touches) wafer → UV exposure
   - Simple but damages mask and wafer. Proximity gap of 10-50 μm reduces damage at cost of resolution loss (near-field diffraction limits minimum feature to ~√(λ × gap) ≈ 2-5 μm for 20 μm gap at i-line).
@@ -57,6 +74,14 @@
 - **Focus and depth of focus (DoF)**: DoF ≈ ±k₂·λ/NA² where k₂ ≈ 0.5-1.0. For i-line (365 nm) at NA 0.45: DoF ≈ ±1.8 μm. Gate-level lithography requires tight focus control — any wafer topography or tilt degrades critical dimension uniformity. Auto-focus systems (air gauge or optical) compensate at each exposure field.
 - **Coherence and standing waves**: Partial coherence of illumination (σ parameter, typically 0.5-0.7) controls the balance between resolution and standing-wave interference effects in the resist. Standing waves cause linewidth rippling on sidewalls — mitigated by post-exposure bake (PEB) which promotes acid diffusion and smooths the profile.
 
+**Strengths**:
+- Projection printing with NA 0.28-0.60 achieves sub-micron resolution via the Rayleigh criterion (k₁·λ/NA)
+- Laser interferometer stage positioning with λ/1000 ≈ 0.6 nm resolution enables precise step-and-repeat exposure
+
+**Weaknesses**:
+- Depth of focus shrinks as NA increases (DoF ≈ ±k₂·λ/NA²) — requires flatter wafers and better autofocus
+- Mercury arc lamps degrade ~10% per 100 hours and risk catastrophic envelope rupture releasing mercury
+
 ### Resist Stripping
 
 After pattern transfer (etch or implant), photoresist must be removed before the next process step. Stripping method depends on whether the resist has been hard-baked, plasma-etched, or implanted (crosslinked resist is much harder to remove). Incomplete resist removal is a common yield killer — residue particles cause defects in subsequent deposition and etch steps.
@@ -65,6 +90,14 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - **Acetone**: For non-crosslinked resist (resist that has not been severely hard-baked or plasma-damaged). Soak 5-10 min at room temperature or 50°C. Acetone swells and dissolves the resin. Follow with IPA rinse (acetone leaves residue) and N₂ dry. Cannot remove hard-baked or plasma-crosslinked resist.
 - **Standard strip sequence**: Oxygen plasma ash (remove bulk) → piranha clean (remove residue and metals) → DI water rinse → N₂ dry. For non-critical steps: acetone → IPA → N₂ dry.
 - **Safety notes**: Piranha solution is the most dangerous wet chemical in the fab. Mix only in dedicated fume hood with acid-resistant PPE (face shield, acid gloves, apron). Never store piranha — decompose with excess water before disposal. Oxygen plasma equipment requires proper RF grounding and O₂ leak detection. Acetone and IPA are fire hazards — no ignition sources, use in ventilated areas.
+
+**Strengths**:
+- Oxygen plasma ashing removes bulk resist at 1-5 μm/min as volatile CO₂ + H₂O — no liquid waste stream
+- Standard ash → piranha → rinse sequence removes all resist types including heavily crosslinked post-implant crust
+
+**Weaknesses**:
+- Piranha solution (H₂SO₄:H₂O₂ 3:1) reaches 100-130°C and can explode on contact with organics — the most dangerous wet chemical in the fab
+- Acetone cannot remove hard-baked or plasma-crosslinked resist — limited to non-critical stripping only
 
 ### Hazards & Safety
 
@@ -83,6 +116,14 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - **Resolution**: 0.25-1.0 μm with i-line (365 nm) exposure, depending on NA and process optimization. The theoretical limit for i-line is ~0.25 μm (k₁ = 0.25 at NA 0.65), but practical production limits are 0.35-0.5 μm.
 - **Contrast (γ)**: 2-4 for DNQ-novolac resists. Contrast determines how sharply the resist transitions from unexposed (not dissolved) to exposed (fully dissolved). Higher contrast → steeper sidewalls → better pattern transfer. γ is measured from the characteristic curve (normalized resist thickness remaining vs. log exposure dose).
 
+**Strengths**:
+- DNQ dissolution inhibitor provides 100-1000× dissolution rate contrast between exposed and unexposed regions — sharp pattern definition
+- TMAH developer is metal-ion-free, eliminating Na/K contamination that shifts MOS threshold voltage
+
+**Weaknesses**:
+- Resolution limited to 0.25-1.0 μm with i-line (365 nm) — shorter wavelengths require different resist chemistry
+- Novolac resin requires phenol-formaldehyde polymerization — organic chemistry infrastructure dependency
+
 ### Negative Photoresist Chemistry
 
 **SU-8 thick resist**:
@@ -94,6 +135,14 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 **Historical isoprene-based negative resist** (KTFR-type):
 - **Composition**: Cyclized polyisoprene (synthetic rubber) + bis-azide photosensitizer. Upon UV exposure, bis-azide photolyzes to form nitrene radicals, which cross-link the rubber chains at random points. Cross-linked rubber is insoluble in xylene developer.
 - **Swelling problem**: During development, the developer (xylene) penetrates and swells the un-crosslinked resist. When the resist is rinsed (IPA or heptane), it shrinks back, but the pattern dimensions have shifted. This swelling limits resolution to ~2-3 μm and causes pattern distortion in dense features. The shift from negative to positive resists in the 1970s was driven primarily by this swelling limitation.
+
+**Strengths**:
+- SU-8 chemical amplification provides extreme sensitivity — one photon triggers 100-1000 cross-linking reactions
+- SU-8 patterns 5-500 μm thick films in a single coat — unmatched for MEMS structures and electroplating molds
+
+**Weaknesses**:
+- SU-8 swelling during PGMEA development distorts features below ~2 μm and degrades to 10-20 μm resolution for films >100 μm
+- Isoprene-based negative resists suffer xylene swelling that limits resolution to ~2-3 μm — replaced by positive resists in 1970s
 
 ### Resist Processing Parameters
 
@@ -113,6 +162,14 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - **Development time**: Puddle development: dispense developer onto stationary wafer, let stand 30-60 seconds, then spin dry. Over-development erodes resist sidewalls (CD loss). Under-development leaves scum (unexposed resist residue in cleared areas). Optimize by developing test wafers at varying times and measuring linewidth with a microscope.
 - **Critical dimension (CD) control**: Target ±5-10% of nominal linewidth for production. CD depends on exposure dose, development time, bake temperatures, resist thickness, and substrate conditions. All must be controlled simultaneously.
 
+**Strengths**:
+- Spin coating thickness follows t ∝ 1/√ω — predictable and repeatable from 0.5-5 μm by adjusting spin speed
+- Soft bake at 90-110°C for 60-90 seconds achieves ±1°C uniformity on hot plate — sufficient for CD control
+
+**Weaknesses**:
+- Edge bead requires separate EBR solvent spray step — adds process complexity
+- CD depends on 6+ simultaneous parameters (dose, focus, resist thickness, development time, PEB temperature, reticle CD) — complex statistical process control required
+
 ### Mask Fabrication Detail
 
 **Photomask blank manufacturing**:
@@ -129,6 +186,14 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - **Die-to-die comparison**: Compare two identical die patterns on the same mask using a scanning electron beam or UV microscope. Any difference between the two indicates a defect. Detects all defect types but requires two identical pattern areas on the mask.
 - **Die-to-database comparison**: Compare the mask pattern against the design database (CAD data). Detects both defects and dimensional errors (CD variations). More comprehensive but requires precise registration between the inspection image and the design data. Minimum detectable defect size: ≥0.25 μm for advanced masks.
 - **Focused ion beam (FIB) repair**: Ga⁺ ion beam at 30 keV. For opaque defects (extra chrome where it should be clear): Ga⁺ ions sputter-etch away the excess chrome. For clear defects (missing chrome): ion-beam-induced deposition of a carbon-based patch to fill the gap. Damage to the quartz substrate limited to ≤10 nm depth. Repaired sites are slightly higher or lower than the surrounding chrome, causing minor CD variation but vastly better than leaving the defect unrepaired.
+
+**Strengths**:
+- Fused silica mask substrate polished to λ/4 flatness with Cr optical density >3.0 — blocks >99.9% of exposure light
+- E-beam placement accuracy of ±20 nm over 100×100 mm pattern area enables 4× reticles for sub-micron wafer features
+
+**Weaknesses**:
+- E-beam write time of 1-8 hours per reticle makes masks expensive and creates a throughput bottleneck
+- FIB Ga⁺ repair introduces ion contamination and ≤10 nm substrate damage at repaired sites
 
 ### Lithography Process Optimization
 
@@ -148,6 +213,14 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - **Sources of overlay error**: Reticle placement error (±20 nm), stage positioning error (±10 nm with laser interferometer), lens distortion (±30 nm across the field), wafer distortion (thermal expansion, stress from deposited films).
 - **Correction**: Modern steppers apply intra-field corrections (grid scaling, rotation, lens distortion correction) and inter-field corrections (wafer scaling, rotation, translation) based on overlay measurements from a calibration wafer. Residual overlay error after correction: ±30-50 nm for i-line steppers.
 
+**Strengths**:
+- Focus-exposure matrix (FEM) identifies the process "sweet spot" where CD is most tolerant of dose and focus variations
+- SPC with X-bar and R charts catches CD drift before it impacts production yield
+
+**Weaknesses**:
+- DoF of only ±1.0 μm for i-line at NA 0.50 — any wafer topography or tilt degrades CD uniformity
+- CD budget of 100 nm (3σ) for 1.0 μm features must be allocated across 6+ error sources, leaving thin margins
+
 ### Defect Density and Yield
 
 **Yield model**: Yield = (1 - D·A)ⁿ, where D = defect density (defects/cm² per layer), A = die area (cm²), n = number of critical lithography layers. For a die of 0.5 cm² with 7 critical layers and a defect density of 0.5 defects/cm² per layer: Yield = (1 - 0.5 × 0.5)⁷ = (0.75)⁷ = 0.133 = 13.3%. Reducing defect density to 0.1/cm² per layer: Yield = (0.95)⁷ = 0.698 = 69.8%. This exponential relationship between defect density and yield is why cleanroom discipline and contamination control are so important.
@@ -156,6 +229,14 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - **Particles**: Largest category. Sources: people, process chemicals, equipment wear, wafer handling. Detected by laser scattering inspection. Prevented by: cleanroom protocols, point-of-use chemical filtration (0.05-0.2 μm filters on all process chemicals), clean wafer handling (vacuum wands, not manual).
 - **Pattern defects**: Missing features, bridges, CD errors. Sources: reticle defects, focus/exposure errors, resist scumming. Detected by die-to-die inspection of patterned wafers. Prevented by: reticle inspection and repair, FEM optimization, proper development.
 - **Scratches**: Mechanical damage from wafer handling, probing, or cassette transfer. Detected by visual inspection and scatterometry. Prevented by: proper wafer handling procedures, clean cassette maintenance.
+
+**Strengths**:
+- Yield model (1 - D·A)ⁿ provides clear quantitative link between defect density and profitability — drives investment in contamination control
+- Reducing defect density from 0.5 to 0.1/cm² per layer improves yield from 13% to 70% for a 7-layer process — enormous economic incentive
+
+**Weaknesses**:
+- Exponential yield model means each additional lithography layer multiplies yield loss — 7 critical layers is already challenging
+- Defect density is cumulative across all process steps — contamination from any single step degrades overall yield
 
 ### Lithography Equipment Maintenance
 
@@ -173,6 +254,14 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - **Laser interferometer alignment**: The X-Y stage position is measured by reflecting a HeNe laser beam off mirrors attached to the stage. Interference fringes count stage position with λ/4 resolution (~158 nm for 633 nm HeNe). The interferometer beams must be aligned parallel to the stage travel direction within ±5 arc-seconds, or cosine error accumulates over long travels. Realign after any stage maintenance or mechanical shock.
 - **Stage flatness mapping**: Use an autocollimator or capacitive probe to map the stage surface flatness across the entire travel range. Deviation from flat causes focus errors. Shim the stage mounting points to correct tilt. Re-map after any mechanical adjustment.
 
+**Strengths**:
+- Laser interferometer stage positioning at λ/4 ≈ 158 nm resolution provides repeatable field-to-field placement
+- Nitrogen-purged lens barrel at ±0.1°C prevents contamination and refractive index drift in $100K-$1M projection optics
+
+**Weaknesses**:
+- Mercury lamp replacement every 800-1200 hours requires 30+ minute cooldown, lamp alignment, and intensity recalibration
+- Lens cleaning risks damaging $100K-$1M optics — single-wipe-only protocol with no rubbing allowed
+
 ### Alignment and Overlay Control
 
 **Alignment mark design**:
@@ -188,12 +277,28 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - **CD vs. pitch**: Measure CD at different pitches (line width vs. space width) to verify that dense and isolated features print at the same size. Dense features receive less exposure due to diffraction effects, while isolated features receive more. The difference is "proximity effect." Correct by optical proximity correction (OPC) on the reticle (adding serifs or hammerheads to feature corners to compensate for the optical diffraction that rounds them during exposure).
 - **Process window analysis**: Vary exposure dose and focus on a test reticle containing dense, isolated, and minimum-size features. For each feature type, determine the dose/focus region where CD is within specification. The intersection of all individual process windows is the common process window. If the common window is too small, process adjustments are needed (different NA, illumination mode, or resist process).
 
+**Strengths**:
+- Grid correction (translation, rotation, scaling) from calibration wafer measurements reduces systematic overlay errors to ±30-50 nm residual
+- OPC on reticles compensates for proximity effect — dense and isolated features print at the same CD
+
+**Weaknesses**:
+- Alignment marks degrade with each process step (oxidation, etch, deposition) — must be designed 5-10× larger than minimum features
+- Common process window shrinks as feature sizes decrease — tighter tolerance on all parameters simultaneously
+
 ### Photoresist Stripper Chemistry
 
 **Resist removal after high-dose implant or plasma etch**:
 - Heavily crosslinked resist (from ion implantation at >10¹⁵ ions/cm², or from extended plasma etching with polymerizing chemistries) becomes essentially a carbonaceous glass. Standard solvents cannot dissolve it. Oxygen plasma ashing removes the bulk, but a thin carbon-rich crust remains.
 - **[Piranha clean](../glossary/piranha-clean.md)** (H₂SO₄:H₂O₂ 3:1 to 4:1): The most aggressive organic removal chemistry available. The mixture generates persulfuric acid (Caro's acid, H₂SO₅), a powerful oxidizer that attacks even heavily crosslinked carbon. Temperature: 100-130°C (exothermic mixing provides the heat). Immersion time: 10-30 minutes for heavily crosslinked resist. Must be used in a dedicated acid fume hood with acid-resistant plumbing (Piranha attacks most organic drain materials). Never store: decompose by slow dilution with cold water before disposal.
 - **Downstream plasma ash**: Remote plasma (oxygen plasma generated upstream, neutral oxygen radicals flow to the wafer without ion bombardment). Gentler than direct plasma ashing (no physical damage to underlying films). Used as a pre-clean before Piranha to remove the bulk of the resist, reducing Piranha consumption and extending bath life.
+
+**Strengths**:
+- Piranha (H₂SO₄:H₂O₂ 3:1) generates persulfuric acid that attacks even heavily crosslinked carbon crust — the most aggressive organic removal available
+- Downstream plasma ash removes bulk resist without ion bombardment damage to underlying films
+
+**Weaknesses**:
+- Piranha attacks most organic drain materials — requires dedicated acid-resistant plumbing and fume hood
+- Piranha must be decomposed by slow dilution with cold water before disposal — cannot be stored
 
 ### Chemically Amplified Resists (CAR)
 
@@ -203,11 +308,27 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 
 **Environmental stability**: CAR resists are sensitive to airborne basic contaminants (amines, ammonia, NMP). Even ppb-level amine contamination neutralizes the photogenerated acid at the resist surface, causing "T-topping" — a narrowed resist profile at the top. Solution: amine-free cleanroom air (chemical filtration with activated carbon or citric acid-impregnated filters), sealed resist bottles, and minimal air exposure between coating and PEB.
 
+**Strengths**:
+- Chemical amplification provides 10-50 mJ/cm² sensitivity vs. 100-200 mJ/cm² for DNQ-novolac — 4-10× faster exposure
+- CAR contrast (γ = 5-15) is much higher than DNQ-novolac (γ = 2-4) — steeper sidewalls for better pattern transfer
+
+**Weaknesses**:
+- Ppb-level airborne amines neutralize photogenerated acid, causing T-topping — requires chemical filtration in cleanroom air
+- PAG loading trades sensitivity against etch resistance — higher PAG reduces plasma resistance
+
 ### Multilayer Resist Systems
 
 **Bottom anti-reflective coating (BARC)**: A thin organic or inorganic layer (30-80 nm) spun onto the wafer before photoresist. BARC absorbs exposure light that passes through the resist, preventing reflection from the substrate. Without BARC, reflected light creates standing wave interference in the resist, causing linewidth rippling on sidewalls and swing curves (periodic CD variation with resist thickness). BARC optical properties: refractive index n and extinction coefficient k tuned so that reflected light from the BARC-substrate interface cancels by destructive interference. BARC is removed during the plasma etch that transfers the resist pattern to the underlying film — it etches at a controlled rate relative to the resist (etch selectivity 1:1 to 2:1).
 
 **Top coat for immersion lithography**: At 193 nm immersion, water fills the gap between the projection lens and the wafer. The top coat is a thin (30-90 nm) hydrophobic polymer layer spun onto the resist surface to prevent water from leaching resist components (PAG, solvent) into the immersion fluid. Top coat contact angle with water: 70-90° (hydrophobic enough to prevent water residues, wettable enough for uniform water meniscus during scanning). After exposure, the top coat is stripped in developer or a separate solvent before development of the underlying resist.
+
+**Strengths**:
+- BARC eliminates standing wave interference and swing curves — dramatically improves CD uniformity across varying substrate reflectivities
+- Immersion top coat prevents PAG leaching into water, protecting both resist performance and lens contamination
+
+**Weaknesses**:
+- BARC adds an extra spin-coat step and must be removed during pattern transfer etch — added process complexity
+- Top coat must balance hydrophobicity (70-90° contact angle) with developer strippability — narrow formulation window
 
 ### Pellicle Detail
 
@@ -217,11 +338,27 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 
 **Lifetime and replacement**: Pellicle membranes degrade under prolonged UV exposure (photolysis and ozone attack). Rated lifetime: ~10,000 exposure cycles for i-line nitride pellicles. Inspect pellicles before each production run for tears, wrinkles, or accumulated particles. Replace damaged pellicles immediately — a torn pellicle provides zero protection.
 
+**Strengths**:
+- Pellicle keeps particles 5-10 mm above mask plane — out of depth of focus, so they don't print as repeating defects on every die
+- >99% transmission at exposure wavelength means no measurable light loss in the imaging path
+
+**Weaknesses**:
+- Nitride pellicles absorb at DUV wavelengths, requiring fluoropolymer alternatives — additional material supply chain
+- Rated lifetime of ~10,000 cycles means pellicles are consumables requiring regular inspection and replacement
+
 ### Advanced Mask Inspection and Repair
 
 **Actinic inspection**: Die-to-die comparison at the exposure wavelength (actinic inspection) catches defects that would print on the wafer but might be invisible at other inspection wavelengths. KLA/Tencor systems scan at 1-5 cm²/min with sensitivity down to 50 nm defects on 4× reticles. The tool compares transmitted and reflected light images from two adjacent die sites on the mask; any difference exceeding the detection threshold flags as a defect. Actinic inspection is slower than broadband brightfield but catches wavelength-specific printing failures that other methods miss.
 
 **Mask repair precision**: FIB systems using Ga⁺ ions at 30 keV sputter-remove chrome opaque defects with 10 nm precision. For clear defects, electron beam induced deposition (EBID) builds up a carbon-containing patch from a precursor gas to fill the gap. Post-repair inspection verifies each repair site meets quality requirements with ≤10 nm placement error relative to the intended mask geometry. Repaired sites have slightly different optical density than original chrome, causing minor CD variation, but this is always preferable to leaving the defect unrepaired.
+
+**Strengths**:
+- Actinic inspection at exposure wavelength catches defects that would print but are invisible at other wavelengths
+- FIB repair achieves 10 nm precision with ≤10 nm placement error — makes otherwise scrap masks usable
+
+**Weaknesses**:
+- Actinic inspection at 1-5 cm²/min is slow — full reticle inspection takes 30-60 minutes
+- Repaired sites have slightly different optical density than original chrome, causing minor but measurable CD variation
 
 ---
 

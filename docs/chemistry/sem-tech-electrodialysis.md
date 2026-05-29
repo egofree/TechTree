@@ -1,10 +1,12 @@
 # SEM Tech Electrodialysis: Electrochemical Ion Separation
 
-> **Node ID**: chemistry.electrodialysis
-> **Domain**: Chemistry
+> **Node ID**: chemistry.sem-tech-electrodialysis
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.sem-tech`](sem-tech.md), [`energy.electricity`](../energy/electricity.md)
+> **Enables**: [`chemistry.chemical-recovery`](chemical-recovery.md), [`chemistry.sem-tech-acid-regeneration`](sem-tech-acid-regeneration.md), [`chemistry.sem-tech-lithium-separation`](sem-tech-lithium-separation.md)
 > **Timeline**: Years 20-35
 > **Outputs**: separated_ions, desalted_water, concentrated_brine
-> **Tags**: materials=[chemicals, polymers], era=industrial
+> **Critical**: No — electrodialysis enables efficient ion separation but requires SEM Tech membranes and electricity
 
 The low-cost ion exchange membranes developed by SEM Tech (see [SEM Tech](sem-tech.md)) enable electrodialysis (ED) as a practical separation technology well before conventional fluoropolymer membranes become available. While SEM Tech's primary application is chlor-alkali electrolysis, the same membrane manufacturing process — pulverizing pre-functionalized resin beads in a PVC/CPVC binder — produces membranes suitable for electrodialysis at less than $1 per square foot.
 
@@ -19,7 +21,7 @@ The Rowow LLC Technical Volume (lines 82-84) describes the discovery of related 
 Electrodialysis works by applying a direct current across a stack of alternating cation and anion exchange membranes placed between two electrodes:
 
 - **[Anode](../glossary/anodes.md)** (positively charged electrode): attracts anions (negatively charged ions)
-- **[Cathode](../glossary/cathodes.md)** (negatively charged electrode): attracts cations (positively charged ions)
+- **[Cathode](../glossary/cathode.md)** (negatively charged electrode): attracts cations (positively charged ions)
 - **Cation exchange membranes (CEM)**: permit passage of cations, block anions
 - **Anion exchange membranes (AEM)**: permit passage of anions, block cations
 
@@ -38,6 +40,10 @@ A practical electrodialysis stack consists of many membrane pairs arranged in se
 4. Concentrate channel (receiving ions)
 
 A commercial stack may contain 100-600 cell pairs. The voltage drop across each pair is small (0.5-1.5V), so the total stack voltage scales linearly with the number of pairs. Current density typically ranges from 10-50 mA/cm² depending on feed concentration and membrane properties.
+
+**Strengths**: No electrochemical reactions at electrodes (only ion transport) — inherently more energy-efficient than electrolysis for separation; SEM Tech membranes at <$1/ft² make ED economically viable before fluoropolymer chemistry; 100-600 cell pairs per stack provide massive throughput in compact footprint; purely physical separation — no chemical addition to feed stream; simultaneous diluate (purified water) and concentrate (brine) production.
+
+**Weaknesses**: Membrane fouling by organics, scale, and colloids requires periodic cleaning; multivalent cations (Ca²⁺, Mg²⁺) can precipitate in concentrate channels; spacer gaskets (0.5-2 mm) are flow restrictions that create pressure drop; current efficiency decreases at very low or very high feed concentrations; requires stable DC power supply and careful voltage control to avoid water splitting.
 
 **Flow configuration**: Diluate and concentrate solutions flow through their respective channels in parallel, typically in a tortuous-path or sheet-flow spacer design. Solutions are recirculated until the desired level of ion removal or concentration is achieved.
 
@@ -240,4 +246,4 @@ At each scale, the SEM Tech membrane cost is so low relative to other system com
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) | [Chemistry](./index.md) | [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

@@ -3,12 +3,10 @@
 > **Node ID**: energy.wind
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`chemistry.lubricants`](../chemistry/lubricants.md), `textiles`
-> **Enables**: None (leaf capability)
+> **Enables**: [`energy.storage`](storage.md), [`energy.electricity`](electricity.md)
 > **Timeline**: Years 5-15
 > **Outputs**: wind_power, mechanical_rotation, ground_grain, pumped_water
 > **Critical**: No — wind supplements water and steam power; wind variability limits reliability without storage or complementary sources
-
-### Overview
 
 Wind power converts kinetic energy of moving air into rotational mechanical work via sails or blades mounted on a rotating shaft. Historically the second major mechanical power source after water (see [Gravity/Water](./gravity.md)), windmills enabled settlement of plains and coasts where flowing water was unavailable. Power available in wind scales with the cube of wind speed — a site with 8 m/s wind delivers almost 5× the power of a 5 m/s site, making site selection critical.
 
@@ -17,7 +15,13 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 - Where: ρ = air density (~1.225 kg/m³ at sea level, 15°C), A = swept area (m²), v = wind speed (m/s), Cp = power coefficient (theoretical max 0.593 — the Betz limit)
 - Example: 6 m diameter rotor at 7 m/s: A = 28.3 m², P_theoretical = 0.5 × 1.225 × 28.3 × 343 = ~5,950 W. At Cp = 0.25 (typical traditional mill): ~1,490 W (~2 HP)
 
-### Windmill Types
+## Prerequisites
+
+- [Lubricants](../chemistry/lubricants.md) — bearing lubrication for rotating machinery
+- [Textiles](../textiles/index.md) — sail cloth for traditional windmills
+- [Iron & Steel](../metals/iron-steel.md) — shafts, gears, and tower construction
+
+## Windmill Types
 
 **[Post mill](../glossary/post-mill.md)** (earliest, simplest — 12th century onward):
 - **Structure**: Entire mill body (wooden house containing gears and millstones) sits on a massive vertical wooden post (~0.5-0.8 m diameter oak or chestnut). Body rotates around post to face wind. Four horizontal cross-trees at base support post via quarter-bars and sloping struts.
@@ -225,15 +229,24 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 - **Material demands**: Large blades require lightweight composites (fiberglass, carbon fiber). Tower construction uses significant steel and concrete.
 - **Noise and visual impact**: Mechanical noise from gearboxes and aerodynamic noise from blade tips. Large turbines visible from considerable distances.
 
-### See Also
+## Troubleshooting
 
-- [Energy Storage](storage.md) — Battery and other storage for intermittent wind power
-- [Electricity Generation](electricity.md) — Generators and grid integration
-- [Pumped Hydro](pumped-hydro.md) — Large-scale storage complementary to wind
-- [Redox Flow Batteries](sem-tech-redox-flow-batteries.md) — Medium-duration grid storage
-- [Composites](../polymers/composites.md) — Materials for turbine blade construction
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Windmill producing less power than expected | Poor blade angle or low wind speed at hub height | Adjust sail/blade pitch; raise tower height (wind speed increases with height); verify wind survey data |
+| Excessive vibration or rumbling | Blade imbalance or bearing wear | Balance blades (add/remove weight); check main shaft bearings; inspect gear teeth for wear |
+| Yaw mechanism stuck (not facing wind) | Rust or mechanical seizure in turntable | Lubricate turntable bearing; free seized mechanism; check wind vane linkage |
+| Blade fatigue cracking | Cyclic loading exceeding design limits | Reduce operational speed in high winds; add blade tip brakes; inspect blades monthly for crack initiation |
+| Generator overheating | Sustained high wind overloading electrical system | Install overspeed protection (mechanical brake, feathering); verify generator rating matches rotor output |
+| Tower base corrosion | Moisture accumulation at ground level | Apply protective coating; improve drainage around base; inspect annually and repaint |
 
----
+## See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+- [Energy Storage](storage.md) — battery and other storage for intermittent wind power
+- [Electricity Generation](electricity.md) — generators and grid integration
+- [Pumped Hydro](pumped-hydro.md) — large-scale storage complementary to wind
+- [Redox Flow Batteries](sem-tech-redox-flow-batteries.md) — medium-duration grid storage
+- [Composites](../polymers/composites.md) — materials for turbine blade construction
+- [Gravity & Water](gravity.md) — water power as complementary mechanical energy source
 
+[← Back to Energy](index.md)

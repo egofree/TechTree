@@ -8,6 +8,17 @@
 > **Outputs**: electronic_computers
 > **Critical**: No — computing enhances capability but is not strictly required for survival
 
+### Problem
+
+Electronic computing replaces slow, power-hungry electromechanical relays and mechanical calculators with switching elements that operate at MHz–GHz speeds. A vacuum tube switches in microseconds (vs. 10 ms for a relay); a transistor switches in nanoseconds. This speed increase makes real-time computation, signal processing, and large-scale data handling possible. Without electronic computing, there are no digital controllers, no CAD tools, no semiconductor design automation — and therefore no path to the complex ICs that modern technology depends on.
+
+### Prerequisites
+
+- [Electromechanical computing](electromechanical.md) — relay logic, memory, and I/O concepts
+- [Electronics assembly](../electronics/assembly.md) — PCBs, soldering, and component integration
+- [Photolithography](../photolithography/fab-processes.md) — IC fabrication processes
+- [Silicon basic devices](../silicon/basic-devices.md) — diodes, transistors, and IC manufacturing
+
 ### Vacuum Tube Logic
 
 **Triode operation**:
@@ -219,6 +230,24 @@ The EDVAC (Electronic Discrete Variable Automatic Computer), described in John v
 - **[Video display terminal](../glossary/video-display-terminal.md)** (1970s): 9,600 baud serial, 24 × 80 character CRT display. Cursor addressing enables full-screen editing.
 - **[Graphics display](../glossary/graphics-display.md)** (1970s-1980s): Bitmapped 1024 × 768 pixels. Frame buffer memory maps to screen. Enables CAD, visualization, GUIs.
 
----
+### Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Vacuum tube circuit dead | Filament burned out or lost vacuum (silvery deposit inside glass) | Replace tube; check heater supply voltage; log tube hours for preventive replacement |
+| DRAM bit errors (random) | Soft error from cosmic ray or alpha particle, or refresh timing too slow | Implement ECC (error-correcting code); verify refresh interval (≤8 ms); check power supply ripple |
+| CPU overheating | Heat sink clogged or fan failed | Clean heat sink; replace fan; verify thermal compound; check ambient temperature |
+| EPROM data loss over time | Floating gate charge leakage (10-20 year retention) | Re-program from backup; store critical code in mask ROM for permanent applications |
+| Board-level timing errors | Clock skew or signal reflection on long traces | Shorten trace lengths; add termination resistors; verify clock distribution network |
+| I/O device not responding | Interface protocol mismatch or cable fault | Verify baud rate and handshake lines; check cable continuity; swap with known-good device |
+
+## See Also
+
+- [Electromechanical Computing](electromechanical.md) — relay-based computing (predecessor)
+- [Digital Logic](digital-logic.md) — gate-level design and Boolean algebra
+- [Electronics Assembly](../electronics/assembly.md) — PCB design and component integration
+- [Silicon Basic Devices](../silicon/basic-devices.md) — transistor and IC manufacturing
+- [Machine Code](../software-bootstrapping/machine-code.md) — programming electronic computers
+- [Photolithography](../photolithography/fab-processes.md) — IC fabrication
+
+[← Back to Computing](index.md)

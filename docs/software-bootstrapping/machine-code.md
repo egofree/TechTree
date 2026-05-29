@@ -8,11 +8,9 @@
 > **Outputs**: binary_programs, bootstrap_loaders
 > **Critical**: Yes — all software begins here; without machine code entry, the computer is inert hardware
 
-## Overview
+## Problem
 
-Machine code programming is the act of writing programs as raw binary numbers and entering them directly into a computer's memory. It is the starting point of all software: before assemblers, compilers, or operating systems exist, the only way to make a computer do anything useful is to toggle binary instruction patterns into memory addresses using front-panel switches or hex keyboards.
-
-Every higher-level software tool traces back to this capability. The first assembler was written in machine code. The first compiler was assembled from machine code. The first operating system was bootstrapped from machine code entered by hand. This is the bedrock of the software bootstrap chain.
+A computer without software is an expensive space heater. Before assemblers, compilers, or operating systems exist, the only way to make a computer do anything useful is to toggle binary instruction patterns into memory addresses using front-panel switches or hex keyboards. Every higher-level software tool traces back to this capability. The first assembler was written in machine code. The first compiler was assembled from machine code. The first operating system was bootstrapped from machine code entered by hand. This is the bedrock of the software bootstrap chain.
 
 The process demands intimate knowledge of the target processor's instruction set architecture (ISA) — the hardware specification documented in [Electronic Computing](../computing/electronic.md). The programmer must encode each operation as a numeric opcode, calculate memory addresses for branch targets and data locations by hand, and track register usage and memory layout on paper. One wrong bit toggled into memory means the program crashes or produces wrong results. There is no editor, no debugger, no error checking — just the programmer, the front panel, and a pad of octal or hex notation.
 
@@ -199,7 +197,18 @@ Once the bootstrap loader is toggled in and verified (24 bytes, ~10 minutes), it
 
 **Cross-development alternative**: If another working computer exists, write and assemble programs on the host machine, then transfer the binary to the target machine via paper tape or serial link. This eliminates hand-toggling for all programs except the initial bootstrap loader.
 
-## References
+### Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Program crashes immediately on RUN | Wrong opcode toggled, or reset vector incorrect | Re-verify first 3-5 bytes against listing; confirm reset vector address matches hardware documentation |
+| Infinite loop (no output) | Branch target address wrong by one byte | Recalculate all branch offsets; verify address labels match hex listing |
+| Garbage on output device | I/O port address wrong or baud rate mismatch | Check I/O device address in ISA manual; verify serial baud rate and parity settings |
+| Program works once then crashes | Self-modifying code corrupting instructions, or stack overflow | Trace through program on paper; check that data areas do not overlap code areas |
+| Wrong results from arithmetic | Carry/overflow flag not handled, or wrong addressing mode | Re-verify each instruction's addressing mode bits; check flag behavior for subtract and compare |
+| Paper tape loads garbage | Reader misaligned or tape not punched correctly | Clean reader heads; verify tape by visually inspecting punch holes; re-enter via front panel as fallback |
+
+## See Also
 
 - [Electronic Computing](../computing/electronic.md) — The hardware that runs machine code; ISA specifications, memory systems, I/O devices
 - [Data Storage](../computing/data-storage.md) — Paper tape, magnetic media for program storage
@@ -207,5 +216,4 @@ Once the bootstrap loader is toggled in and verified (24 bytes, ~10 minutes), it
 - [Assemblers, Linkers & Loaders](assemblers.md) — The next step: mnemonic representation replaces raw binary
 - [Operating System Construction](operating-systems.md) — The monitor program that replaces manual entry
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../index.md)*
+[← Back to Software Bootstrapping](index.md)

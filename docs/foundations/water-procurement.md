@@ -124,7 +124,7 @@ Gravity-fed channels move large volumes of water over distance. Clay or stone-li
 Sealed pipes move water uphill using siphon action, provided the outlet is below the water source. Clay pipes 5-10 cm in diameter, joined with lime mortar, carry water over distances of 100-500 m. A siphon works only if the pipe is full of water and free of air pockets. Maximum lift height for a water siphon at sea level is approximately 10 m (limited by atmospheric pressure). At 2,000 m elevation the limit drops to 8 m. Bamboo stems with nodes removed make natural pipes 2-5 m long, suitable for short-distance water conveyance over rough terrain.
 
 
-## Clay Pots
+## Clay Pot Storage
 
 Large clay pots store 50-200 liters each. Seal with a fitted lid and store in a cool, shaded location or partially bury in earth. Underground storage keeps water at 15-20°C. The porous walls provide passive cooling through evaporation. Replace pots that develop cracks, as contaminated water enters through the fissures. A household storing 500 liters needs 3-5 large pots. Arrange them in a shaded pit 30-50 cm deep to reduce temperature fluctuations.
 

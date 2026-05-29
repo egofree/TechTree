@@ -135,7 +135,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - Does not account for injuries that worsen over time (e.g., slow intracranial bleeding may not show mental status changes initially)
 - Requires re-triage at regular intervals — initial categorization becomes stale within 30-60 minutes
 
-## Safety & Hazards
+## Pharmaceutical Safety & Hazards
 
 **[Plant-derived medicines](../glossary/plant-derived-medicines.md)** (Foundations+):
 - **Willow bark (salicin → salicylic acid → aspirin)**: Harvest bark from willow (Salix species) in spring when sap flows. Dry bark. Extract by boiling 30 g bark in 500 mL water for 15 minutes. Strain. Dose: 1 cup of decoction for pain/fever. Contains salicin (prodrug of salicylic acid). Later (Chemistry), synthesize acetylsalicylic acid (aspirin) from salicylic acid + acetic anhydride.

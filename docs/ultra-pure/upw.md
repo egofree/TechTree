@@ -190,30 +190,6 @@ Continuous inline monitoring is essential for UPW quality assurance. The system 
 | Bacteria detected in product water | Biofilm in dead legs or insufficient sanitization | Eliminate dead legs (no pipe runs >6× diameter without flow); hot water sanitize at 80°C for 2 hours; increase UV dose |
 | Resistivity drops at point of use but not at system outlet | Contamination pickup in distribution piping | Flush loop; replace aging piping sections; verify all connections are sanitary (no threaded fittings) |
 
-## Resistivity Below 18.2 MΩ·cm
-
-**Causes**: Mixed-bed ion exchange exhaustion. RO membrane degradation (salt passage increase). CO₂ absorption through tank headspace. Piping leak introducing atmospheric CO₂.
-
-**Resolution**: Replace mixed-bed resin. Check RO rejection rate (should be >98%). Verify nitrogen blanket on storage tanks. Pressure-test distribution loop for leaks.
-
-## TOC Excursion (>1 ppb)
-
-**Causes**: UV lamp failure (185 nm output degrades over 6-12 months). New piping component releasing organics (insufficient flushing). Bacterial bloom in stagnant zone. Activated carbon exhaustion in pretreatment.
-
-**Resolution**: Replace UV lamps (schedule annually). Flush new components for 24-48 hours before commissioning. Check loop flow velocity (must maintain >1.5 m/s). Replace GAC if chlorine breakthrough detected.
-
-## High Particle Counts
-
-**Causes**: UF membrane breach. Distribution pipe corrosion. Pump seal wear generating particles. Construction debris in new piping. Bacterial growth (biofilm sloughing).
-
-**Resolution**: Integrity-test UF membranes (bubble point test). Inspect pump seals. Flush and sanitize loop. Verify no dead legs in piping. Sanitize with hot water (80°C) or hydrogen peroxide (3%).
-
-## Bacterial Contamination
-
-**Causes**: Insufficient UV dose. Stagnant water in dead legs. Biofilm establishment in low-flow zones. Contaminated replacement filters or resin.
-
-**Resolution**: Sanitize entire loop with hot UPW (80°C for 2 hours) or ozone (0.5-1.0 ppm for 30 minutes). Eliminate dead legs. Verify UV lamp output with radiometer. Use only pre-sterilized replacement components.
-
 ## Cross-Domain Dependencies
 
 - **[Water Treatment](../water/sem-tech-water-treatment.md)**: Provides pretreated feed water (RO permeate or deionized water at <10 mg/L TDS) as UPW system input.

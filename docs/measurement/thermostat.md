@@ -464,9 +464,10 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 3. **Make the bellows**: Deep-draw or hydroform a brass bellows (25 mm diameter, 15 mm free length, 8 convolutions). Alternatively, weld individual stamped diaphragms together. Test by pressurizing to 5 bar under water and checking for bubbles.
 
 4. **Connect bulb to capillary to bellows**: Braze the capillary tube to the open end of the sensing bulb. Braze the other end of the capillary to the bellows inlet. All joints must be leak-tight. Use silver solder for copper-to-copper joints.
-3. **Evacuate and seal**: Before sealing, evacuate the system to remove air. Air in the system adds a partial pressure that is independent of temperature, adding a constant offset that reduces the dynamic range of the pressure signal. Connect a vacuum pump to the fill port, evacuate to below 1 mbar, then seal by crimping and brazing.
 
-4. **Add the actuator mechanism**: The bellows or bourdon tube moves proportionally to vapor pressure. Since vapor pressure is an exponential function of temperature, the actuator motion is non-linear with respect to temperature. This means the calibration scale is compressed at the low end and expanded at the high end. Account for this in the linkage design or calibration marks.
+5. **Evacuate and seal**: Before sealing, evacuate the system to remove air. Air in the system adds a partial pressure that is independent of temperature, adding a constant offset that reduces the dynamic range of the pressure signal. Connect a vacuum pump to the fill port, evacuate to below 1 mbar, then seal by crimping and brazing.
+
+6. **Add the actuator mechanism**: The bellows or bourdon tube moves proportionally to vapor pressure. Since vapor pressure is an exponential function of temperature, the actuator motion is non-linear with respect to temperature. This means the calibration scale is compressed at the low end and expanded at the high end. Account for this in the linkage design or calibration marks.
 
 **Calibration**:
 

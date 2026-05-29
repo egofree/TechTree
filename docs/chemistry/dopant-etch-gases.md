@@ -8,7 +8,18 @@
 > **Outputs**: dopant_gases, etch_gases, fluorine
 > **Critical**: Yes — dopant gases (PH₃, AsH₃, B₂H₆) enable semiconductor doping, and etch gases (CF₄, Cl₂, SF₆) enable pattern transfer in photolithography. Without these gases, semiconductor manufacturing is impossible.
 
-### Dopant Gases
+## Problem
+
+Semiconductor manufacturing requires two classes of specialty gases: dopant gases to introduce controlled impurities into silicon crystal (changing its electrical properties), and etch gases to selectively remove material during pattern transfer. Phosphine (PH₃), arsine (AsH₃), and diborane (B₂H₆) dope silicon n-type or p-type. Fluorine-based gases (CF₄, SF₆, NF₃) etch silicon, silicon dioxide, and silicon nitride. Chlorine-based gases (Cl₂, BCl₃) etch aluminum and other metals. Without these gases, there are no transistors, no ICs, no semiconductor industry.
+
+## Prerequisites
+
+- [Electrolysis](electrolysis.md) — chlorine and hydrogen production
+- [Hydrogen and silane](hydrogen-silane.md) — carrier gas and silicon source
+- [Gas handling](../gas-handling/basic.md) — piping, valves, and gas distribution
+- [Vacuum systems](../gas-handling/vacuum.md) — process chamber vacuum
+
+## Dopant Gases
 
 **Phosphine (PH₃)**:
 - **Synthesis**: White phosphorus + KOH + H₂O → PH₃ + KH₂PO₂ (boiling phosphorus with strong base). Or Ca₃P₂ + 6H₂O → 2PH₃ + 3Ca(OH)₂ (calcium phosphide + water).
@@ -214,14 +225,24 @@ A typical semiconductor etch or CVD tool requires 6-12 gas lines converging at t
 - **Exotic materials of construction**: Fluorine, ClF₃, NF₃, and WF₆ require nickel, Monel, or Hastelloy piping and components — standard stainless steel corrodes rapidly. Cylinder valves use nickel-plated or PTFE-packed stems. Gas panels for corrosive gases are 3-10× more expensive than for inert gases.
 - **Supply chain concentration**: Many specialty gases are produced by a small number of suppliers (2-4 globally for electronic-grade silane, germane, and dopant hydrides). Supply disruptions affect all semiconductor fabs simultaneously.
 
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Non-uniform doping across wafer | Gas flow imbalance or temperature gradient | Check mass flow controller calibration; verify showerhead uniformity; adjust gas injection geometry |
+| Etch rate drift | Gas purity degradation or chamber wall conditioning | Replace gas cylinder; run conditioning wafers; clean chamber walls |
+| Particle contamination on wafer | Gas line particles or valve wear | Install 0.003 μm point-of-use filter; purge lines with N₂; replace worn valves |
+| PH₃/AsH₃ alarm triggering | Micro-leak in gas cabinet | Evacuate area; close source valve; N₂ purge system; locate leak with PH₃ detector |
+| Fluorine gas line corrosion | Stainless steel exposed to F₂ or NF₃ | Replace with nickel or Monel piping; verify all seals are PTFE or Kalrez |
+| Low etch selectivity (etching mask) | Wrong gas mixture or excess bias power | Adjust CF₄/O₂ ratio; reduce RF bias power; verify mask material compatibility |
+
 ## See Also
 
-- **[Hydrogen and Silane](hydrogen-silane.md)**: Silane production and pyrophoric safety
-- **[Vacuum Systems](../gas-handling/vacuum.md)**: Vacuum pumps for etch and deposition chambers
-- **[Gas Handling Basics](../gas-handling/basic.md)**: Piping, valves, and gas distribution infrastructure
-- **[Packaging and Testing](packaging-testing.md)**: Post-fabrication IC testing and reliability
-- **[SEM Tech](sem-tech.md)**: Membrane technology for gas purification applications
+- [Hydrogen and Silane](hydrogen-silane.md) — silane production and pyrophoric safety
+- [Vacuum Systems](../gas-handling/vacuum.md) — vacuum pumps for etch and deposition chambers
+- [Gas Handling Basics](../gas-handling/basic.md) — piping, valves, and gas distribution infrastructure
+- [Packaging and Testing](packaging-testing.md) — post-fabrication IC testing and reliability
+- [SEM Tech](sem-tech.md) — membrane technology for gas purification applications
+- [Photolithography](../photolithography/fab-processes.md) — the process these gases serve
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+[← Back to Chemistry](index.md)

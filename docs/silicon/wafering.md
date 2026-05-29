@@ -529,4 +529,13 @@ Wafering involves mechanical cutting, chemical etching, and polishing with hazar
 - **Electronics assembly (die attach, wire bonding)**: [assembly](../electronics/assembly.md)
 
 
+## See Also
+
+- [Crystal Growth](crystal-growth.md) — single-crystal ingot production
+- [Basic Devices](basic-devices.md) — device fabrication from wafers
+- [Czochralski Pulling](cz-pulling.md) — CZ ingot pulling process
+- [Purification](purification.md) — polysilicon purification upstream
+- [MG-Si Production](mg-si-production.md) — metallurgical-grade silicon feedstock
+- [Precision Metrology](../measurement/precision-metrology.md) — wafer flatness measurement
+
 [← Back to Silicon](index.md)

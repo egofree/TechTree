@@ -384,4 +384,13 @@ Building digital logic from discrete transistors is educational but impractical 
 
 
 
+## See Also
+
+- [Formal Systems](../mathematics/formal-systems.md) — Boolean algebra and automata theory
+- [Electronic Computing](electronic.md) — transistor-based computer architecture
+- [Computing Index](index.md) — computing overview and timeline
+- [Computer Architecture](computer-architecture.md) — processor and memory design
+- [Logic Design](logic-design.md) — digital circuit design methodology
+- [Electromechanical Computing](electromechanical.md) — relay-based predecessors
+
 [← Back to Computing](index.md)

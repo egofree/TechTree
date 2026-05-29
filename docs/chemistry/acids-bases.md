@@ -271,4 +271,13 @@ Lead is uniquely suited for dilute H₂SO₄ (<78%) — forms protective PbSO₄
 
 
 
+## See Also
+
+- [Acids](acids.md) — sulfuric, hydrochloric, and nitric acid production
+- [Alkalis](alkalis.md) — sodium hydroxide and sodium carbonate
+- [Soap](soap.md) — saponification with alkalis
+- [Metal Finishing](../metals/finishing.md) — pickling, etching, and plating
+- [Ammonia](ammonia.md) — nitrogen chemistry for acid production
+- [Distillation](distillation.md) — acid concentration and purification
+
 [← Back to Chemistry](index.md)

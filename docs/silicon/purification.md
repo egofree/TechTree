@@ -267,4 +267,13 @@ Silicon purification involves some of the most dangerous chemicals in semiconduc
 - **SiHCl₃ / SiCl₄ separation**: 25.8°C boiling point difference. Straightforward separation in a moderate-height column.
 
 
+## See Also
+
+- [Distillation](../chemistry/distillation.md) — chlorosilane fractional distillation
+- [Hydrogen & Silane](../chemistry/hydrogen-silane.md) — precursor gases for CVD
+- [Gas Handling Basic](../gas-handling/basic.md) — gas piping and containment
+- [Crystal Growth](crystal-growth.md) — single-crystal silicon from purified feedstock
+- [MG-Si Production](mg-si-production.md) — metallurgical-grade silicon upstream
+- [Silicon Index](index.md) — silicon production chain overview
+
 [← Back to Silicon](index.md)

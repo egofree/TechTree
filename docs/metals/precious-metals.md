@@ -272,4 +272,13 @@ Precious metal production depends heavily on existing metallurgical and chemical
 
 
 
+## See Also
+
+- [Non-Ferrous Metals](non-ferrous.md) — base metals smelting
+- [Copper & Bronze](copper-bronze.md) — primary non-ferrous metallurgy
+- [Acids](../chemistry/acids.md) — aqua regia and refining solutions
+- [Metal Finishing](finishing.md) — surface treatment of precious metals
+- [Electroplating](../electrochemistry/electroplating.md) — gold and silver plating
+- [Zinc](zinc.md) — zinc for precious metal recovery
+
 [← Back to Metals](index.md)

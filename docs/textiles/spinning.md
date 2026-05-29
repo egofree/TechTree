@@ -129,4 +129,13 @@ Mechanized spinning multiplies output by 10-100× over hand spinning:
 - Open-end rotor yarn is hairier and 10-20% weaker than ring-spun — limited to coarse fabrics
 
 
+## See Also
+
+- [Weaving](weaving.md) — loom-based cloth production from spun yarn
+- [Textile Fibers](fibers.md) — fiber sources and preparation
+- [Rope Making](rope-making.md) — twisted and braided cordage
+- [Fiber Plants](../plants/fiber-plants.md) — plant fiber crops for spinning
+- [Dyeing](dyeing.md) — coloring spun yarn and cloth
+- [Sewing & Tailoring](sewing-tailoring.md) — garment construction from woven cloth
+
 [← Back to Textiles](index.md)

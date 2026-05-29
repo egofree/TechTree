@@ -612,4 +612,14 @@ Advanced joining processes are critical enablers for vacuum technology and semic
 
 
 
+## See Also
+
+- [Iron & Steel](../metals/iron-steel.md) — primary metals for welding
+- [Specialty Alloys](../metals/alloys.md) — alloy weldability and filler metals
+- [Electricity](../energy/electricity.md) — power for arc welding processes
+- [Chemistry Index](../chemistry/index.md) — flux chemistry and shielding gases
+- [Steam Power](../energy/steam-power.md) — boiler fabrication with welded joints
+- [Metal Forming](../metals/forming.md) — shaping before joining
+- [Machining](machining.md) — post-weld finishing and repair
+
 [← Back to Machine Tools](index.md)

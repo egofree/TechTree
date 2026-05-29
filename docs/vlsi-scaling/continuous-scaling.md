@@ -289,4 +289,13 @@ Each masking layer adds independently to defect density: D₀_total = N_layers �
 
 
 
+## See Also
+
+- [Core Fab Processes](../photolithography/fab-processes.md) — baseline semiconductor fabrication
+- [Advanced Processes](advanced-processes.md) — ion implantation, ALD, and CMP
+- [Lithography](lithography.md) — photolithography scaling
+- [Advanced Lithography](advanced-lithography.md) — DUV and EUV lithography
+- [EDA Design](eda-design.md) — VLSI design automation
+- [Vacuum Systems](vacuum-systems.md) — vacuum requirements for scaling
+
 [← Back to VLSI Scaling](index.md)

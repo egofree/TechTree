@@ -298,4 +298,13 @@ A representative 65 nm CMOS process flow shows how the individual unit processes
 
 
 
+## See Also
+
+- [Core Fab Processes](../photolithography/fab-processes.md) — baseline process technology
+- [Specialty Semiconductor Metals](../metals/specialty-semiconductor.md) — interconnect and barrier metals
+- [Continuous Scaling](continuous-scaling.md) — scaling roadmap
+- [Lithography](lithography.md) — patterning technology
+- [Advanced Lithography](advanced-lithography.md) — EUV and DUV systems
+- [Vacuum Systems](vacuum-systems.md) — high-vacuum process chambers
+
 [← Back to VLSI Scaling](index.md)

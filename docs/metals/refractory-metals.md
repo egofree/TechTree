@@ -394,4 +394,13 @@ VAR furnaces draw 2,000-20,000 A at 20-40 V DC. While the voltage is low, the av
 
 
 
+## See Also
+
+- [Iron & Steel](iron-steel.md) — prerequisite ferrous metallurgy
+- [Non-Ferrous Metals](non-ferrous.md) — base metals for alloying
+- [Acids](../chemistry/acids.md) — leaching and purification
+- [Electric Furnaces](../energy/electric-furnaces.md) — high-temperature melting
+- [Machining](../machine-tools/machining.md) — tungsten carbide cutting tools
+- [Passive Components](../electronics/passive-components.md) — tantalum capacitors
+
 [← Back to Metals](index.md)

@@ -347,4 +347,13 @@ A 200 mm CZ puller running a 20 kg crystal consumes roughly 200-400 kWh over its
 
 
 
+## See Also
+
+- [Crystal Growth](crystal-growth.md) — parent capability for ingot production
+- [Temperature & Pressure](../measurement/temperature-pressure.md) — pyrometry and thermal control
+- [Wafering](wafering.md) — ingot slicing into wafers
+- [Basic Devices](basic-devices.md) — device fabrication from CZ wafers
+- [MG-Si Production](mg-si-production.md) — metallurgical-grade silicon feedstock
+- [Purification](purification.md) — polysilicon purification for crystal growth
+
 [← Back to Silicon](index.md)

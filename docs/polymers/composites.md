@@ -248,4 +248,13 @@ structural reinforcement in hybrid composites.
 
 - Fiber from [Glass Fibers](../glass/fibers.md) or [Textile Fibers](../textiles/fibers.md). Matrix from [Thermosets](../polymers/thermosets.md) or [Thermoplastics](../polymers/thermoplastics.md). [Coatings](../chemistry/coatings.md) for gel coat.
 
+## See Also
+
+- [Glass Fibers](../glass/fibers.md) — fiberglass reinforcement
+- [Thermosets](thermosets.md) — epoxy and polyester matrix resins
+- [Thermoplastics](thermoplastics.md) — thermoplastic matrix composites
+- [Rubber](rubber.md) — elastomeric materials
+- [Synthetic Polymers](synthetic.md) — polymer chemistry fundamentals
+- [Coatings](../chemistry/coatings.md) — gel coats and protective finishes
+
 [← Back to Polymers](index.md)

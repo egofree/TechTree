@@ -261,4 +261,13 @@ Materials listed for a 50-bird mixed flock per year.
 - [`knowledge`](../knowledge/index.md) — homing pigeons for long-distance messaging
 
 
+## See Also
+
+- [Agriculture & Food Production](../foundations/food-agriculture.md) — feed grain and forage
+- [Livestock Domestication](domestication.md) — poultry domestication history
+- [Poultry Chickens](poultry-chickens.md) — primary egg and meat production
+- [Poultry Ducks](poultry-ducks.md) — wetland and rice-paddy poultry
+- [Poultry Geese](poultry-geese.md) — down, guardian, and weed control birds
+- [Insect Farming](insect-farming.md) — alternative protein source
+
 [← Back to Animals](index.md)

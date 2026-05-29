@@ -255,4 +255,13 @@ A founding herd of 10-15 goats (8-10 does, 1-2 bucks) reaches 40-60 head within 
 - [`agriculture`](../agriculture/index.md) — brush clearing as land reclamation, manure as fertilizer
 
 
+## See Also
+
+- [Livestock Domestication](domestication.md) — breeding and husbandry fundamentals
+- [Sheep](sheep.md) — wool production from a related species
+- [Camelids](camelids.md) — mohair and cashmere fiber animals
+- [Textile Fibers](../textiles/fibers.md) — fiber spinning and processing
+- [Agriculture & Food Production](../foundations/food-agriculture.md) — dairy and land management
+- [Food Processing](../food-processing/dairy.md) — cheese and milk processing
+
 [← Back to Animals](index.md)

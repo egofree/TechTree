@@ -361,4 +361,14 @@ Semiconductor devices degrade over time under electrical and thermal stress. Rel
 
 
 
+## See Also
+
+- [Core Fab Processes](../photolithography/fab-processes.md) — design-to-fab handoff
+- [Basic Semiconductor Devices](../silicon/basic-devices.md) — transistor-level building blocks
+- [Electronics Assembly](../electronics/assembly.md) — die packaging and PCB assembly
+- [Dopant & Etch Gases](../chemistry/dopant-etch-gases.md) — process chemistry for fabrication
+- [Advanced Processes](advanced-processes.md) — process node scaling
+- [Continuous Scaling](continuous-scaling.md) — technology progression
+- [Computer Architecture](../computing/computer-architecture.md) — GPU and processor design
+
 [← Back to VLSI Scaling](index.md)

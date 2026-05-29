@@ -286,4 +286,14 @@ The path to industrial ammonia production follows a specific build order constra
 
 
 
+## See Also
+
+- [Air Separation](air-separation.md) — nitrogen supply from liquefied air
+- [Electrolysis](electrolysis.md) — hydrogen production for Haber-Bosch
+- [Iron & Steel](../metals/iron-steel.md) — steel reactors for high-pressure synthesis
+- [Electricity](../energy/electricity.md) — power for compressors and heaters
+- [Acids](acids.md) — nitric acid from ammonia oxidation
+- [Alkalis](alkalis.md) — sodium carbonate via Solvay process
+- [Explosives](explosives.md) — ammonium nitrate and TNT
+
 [← Back to Chemistry](index.md)

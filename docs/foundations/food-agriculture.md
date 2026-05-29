@@ -289,4 +289,13 @@ Bee pollination increases crop yields 20-30%.
 
 
 
+## See Also
+
+- [Stone & Wood Tools](tools-basic.md) — essential implements for planting and harvesting
+- [Edible Plants](../plants/edible-plants.md) — staple crops and wild food plants
+- [Beekeeping](../animals/beekeeping.md) — honey production and pollination services
+- [Soil Management](../agriculture/soil-management.md) — soil fertility and composting
+- [Poultry Farming](../animals/poultry.md) — egg and meat production enabled by agriculture
+- [Food Processing](../food-processing/index.md) — milling, brewing, and preservation
+
 [← Back to Foundations](index.md)

@@ -362,4 +362,14 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 
 
 
+## See Also
+
+- [Basic Glass](../glass/basic.md) — glass substrates for photomasks
+- [Thermosets](../polymers/thermosets.md) — polymer chemistry for photoresists
+- [Chemistry Index](../chemistry/index.md) — chemical synthesis fundamentals
+- [Core Fab Processes](fab-processes.md) — lithography in the fab process flow
+- [Cleanrooms](cleanrooms.md) — cleanroom requirements for lithography
+- [Advanced Lithography](../vlsi-scaling/advanced-lithography.md) — DUV and EUV scaling
+- [Photomask Substrates](../glass/photomask-substrates.md) — mask blank materials
+
 [← Back to Photolithography](index.md)

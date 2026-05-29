@@ -197,4 +197,13 @@
 - Mucking (removing broken rock) by bucket and windlass is the slowest step — limits advance rate
 
 
+## See Also
+
+- [Prospecting](prospecting.md) — ore body discovery and assessment
+- [Draft Power](../animals/draft-power.md) — animal-powered mine haulage
+- [Stone & Wood Tools](../foundations/tools-basic.md) — early mining implements
+- [Black Powder](black-powder.md) — blasting for hard-rock mining
+- [Ore Processing](processing.md) — crushing, grinding, and concentration
+- [Drilling](drilling.md) — borehole drilling for exploration and blasting
+
 [← Back to Mining](index.md)

@@ -251,4 +251,12 @@ A founding herd of 5-10 alpacas (4-8 females, 1-2 males) establishes a self-sust
 - [`agriculture`](../agriculture/index.md) — manure application and pasture management for camelid operations
 
 
+## See Also
+
+- [Livestock Domestication](domestication.md) — domestication principles and species selection
+- [Sheep](sheep.md) — wool production from another fiber species
+- [Goats](goats.md) — mohair and cashmere fiber
+- [Textile Fibers](../textiles/fibers.md) — animal fiber processing and spinning
+- [Animal Pest Management](pest-management.md) — guard animals for crop protection
+
 [← Back to Animals](index.md)

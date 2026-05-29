@@ -260,4 +260,13 @@ A blowout — uncontrolled flow of oil and gas from the well — is the most cat
 
 
 
+## See Also
+
+- [Petroleum Refining](refining.md) — crude oil distillation and cracking
+- [Petrochemicals](petrochemicals.md) — chemical feedstocks from oil
+- [Drilling](../mining/drilling.md) — rotary and cable-tool drilling methods
+- [Mining Extraction](../mining/extraction.md) — resource extraction principles
+- [Fuels](../energy/fuels.md) — combustion fuels from petroleum
+- [Distillation](../chemistry/distillation.md) — separation processes
+
 [← Back to Petroleum Extraction & Refining](index.md)

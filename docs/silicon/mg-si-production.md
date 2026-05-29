@@ -350,4 +350,13 @@ An inevitable side reaction in the silicon furnace:
 - Ball milling is energy-intensive at 0.5-1.0 kWh/kg, adding to the already high energy cost of the silicon chain
 
 
+## See Also
+
+- [Electric Furnaces](../energy/electric-furnaces.md) — carbothermic reduction furnaces
+- [Mining Index](../mining/index.md) — quartz and silica mining
+- [Crystal Growth](crystal-growth.md) — next step: single-crystal growth
+- [Purification](purification.md) — upgrading MG-Si to semiconductor grade
+- [Silicon Index](index.md) — silicon production chain overview
+- [Czochralski Pulling](cz-pulling.md) — CZ crystal pulling from MG-Si
+
 [← Back to Silicon](index.md)

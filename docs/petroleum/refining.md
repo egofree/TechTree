@@ -278,4 +278,13 @@ A refinery consumes 5-10% of its crude oil throughput as fuel (for furnaces, ste
 
 
 
+## See Also
+
+- [Petroleum Extraction](extraction.md) — crude oil production upstream
+- [Distillation](../chemistry/distillation.md) — fractional distillation principles
+- [Petrochemicals](petrochemicals.md) — chemical products from refinery fractions
+- [Internal Combustion Engine](../energy/engine.md) — gasoline and diesel consumers
+- [Fuels](../energy/fuels.md) — fuel types and energy content
+- [Solvents](../chemistry/solvents.md) — petroleum-derived solvents
+
 [← Back to Petroleum Extraction & Refining](index.md)

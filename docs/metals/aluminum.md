@@ -277,4 +277,13 @@ Recycling is integral to the aluminum industry — not an afterthought. The ener
 
 
 
+## See Also
+
+- [Alkalis](../chemistry/alkalis.md) — caustic soda for Bayer process
+- [Electrolysis](../chemistry/electrolysis.md) — Hall-Héroult cell fundamentals
+- [Electricity](../energy/electricity.md) — massive power for aluminum smelting
+- [Metal Forming](forming.md) — aluminum extrusion and rolling
+- [Anodizing](../electrochemistry/anodizing.md) — aluminum surface treatment
+- [Aviation](../transport/aviation.md) — aluminum airframe construction
+
 [← Back to Metals](index.md)

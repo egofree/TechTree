@@ -248,4 +248,13 @@ Recognizing proportionality lets engineers scale designs: if a 10 cm beam deflec
 - **Enables**: All downstream engineering disciplines, applied mathematics, computing, and formal systems
 
 
+## See Also
+
+- [Foundations Index](../foundations/index.md) — prerequisite knowledge
+- [Applied Mathematics](applied-mathematics.md) — calculus, statistics, and engineering math
+- [Formal Systems](formal-systems.md) — Boolean algebra and information theory
+- [Mechanical Computing](../computing/mechanical.md) — early computing using math
+- [Education](../knowledge/education.md) — teaching and learning mathematics
+- [Measurement Index](../measurement/index.md) — metrology and measurement systems
+
 [← Back to Mathematics](index.md)

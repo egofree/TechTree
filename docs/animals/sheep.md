@@ -257,4 +257,13 @@ A founding flock of 10-20 ewes and 1-2 rams expands to 50-100 head within 4-5 ye
 - [`animals.pest-management`](pest-management.md) — guardian dogs, predator control strategies
 
 
+## See Also
+
+- [Livestock Domestication](domestication.md) — breeding and husbandry fundamentals
+- [Goats](goats.md) — related small ruminant for dairy and fiber
+- [Animal Materials](animal-materials.md) — wool processing and lanolin extraction
+- [Textile Fibers](../textiles/fibers.md) — fiber preparation for spinning and weaving
+- [Agriculture & Food Production](../foundations/food-agriculture.md) — pasture management
+- [Food Processing](../food-processing/dairy.md) — sheep milk cheese and dairy
+
 [← Back to Animals](index.md)

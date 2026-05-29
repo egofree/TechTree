@@ -318,4 +318,13 @@ A typical semiconductor process tool (sputtering system, etch chamber, or implan
 - **Noise**: Turbomolecular pumps produce 50-65 dB at 1 m distance (high-pitch whine from rotor blades). Acceptable for continuous exposure but hearing protection recommended for extended time in pump rooms. Dry scroll pumps produce 55-70 dB with characteristic pulsing tone.
 
 
+## See Also
+
+- [Gas Handling Vacuum](../gas-handling/vacuum.md) — vacuum fundamentals and roughing pumps
+- [Precision Metrology](../measurement/precision-metrology.md) — vacuum gauge calibration
+- [Metals Index](../metals/index.md) — stainless steel for vacuum chambers
+- [Core Fab Processes](../photolithography/fab-processes.md) — fab vacuum requirements
+- [Advanced Processes](advanced-processes.md) — high-vacuum deposition and etch
+- [Lithography](lithography.md) — vacuum for lithography tools
+
 [← Back to VLSI Scaling](index.md)

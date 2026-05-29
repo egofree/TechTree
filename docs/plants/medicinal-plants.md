@@ -259,4 +259,13 @@ Medicinal plant preparation shelf life under proper storage conditions (cool, da
 
 
 
+## See Also
+
+- [Pharmacology](../health/pharmacology.md) — drug preparation and dosage
+- [Plants Index](index.md) — overview of all plant resource categories
+- [Edible Plants](edible-plants.md) — food crops with medicinal overlap
+- [Dye Plants](dye-plants.md) — plants with both dye and medicinal uses
+- [Medicine](../health/medicine.md) — clinical use of herbal remedies
+- [Pharmaceutical Production](../health/pharmaceutical-production.md) — industrial drug manufacturing
+
 [← Back to Plants](index.md)

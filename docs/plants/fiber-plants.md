@@ -267,4 +267,13 @@ Different applications benefit from combining fibers with complementary properti
 
 
 
+## See Also
+
+- [Plants Index](index.md) — overview of all plant resource categories
+- [Spinning](../textiles/spinning.md) — yarn production from plant fibers
+- [Textile Fibers](../textiles/fibers.md) — fiber processing and classification
+- [Edible Plants](edible-plants.md) — food crops and land allocation
+- [Dye Plants](dye-plants.md) — plants for textile dyeing
+- [Structural Plants](structural-plants.md) — timber and construction plants
+
 [← Back to Plants](index.md)

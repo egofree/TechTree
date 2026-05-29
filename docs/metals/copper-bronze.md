@@ -425,4 +425,14 @@ Copper and nickel are fully soluble in each other in all proportions (complete s
 - **Slag and spark injuries**: During hot forging and slag skimming, hot slag and metal particles spray out as bright sparks at 700-900 °C. Eye protection (safety glasses rated ANSI Z87.1 or face shield) is essential when hammering hot metal. Slag skimmed from molten copper retains dangerous heat for extended periods — set aside on dry sand or refractory surface, never on combustible material.
 
 
+## See Also
+
+- [Fire-Making](../foundations/fire.md) — smelting heat source
+- [Beekeeping](../animals/beekeeping.md) — beeswax for lost-wax casting
+- [Mining Index](../mining/index.md) — copper ore extraction
+- [Iron & Steel](iron-steel.md) — next metallurgical stage
+- [Non-Ferrous Metals](non-ferrous.md) — brass, zinc, and other copper alloys
+- [Sewing & Tailoring](../textiles/sewing-tailoring.md) — bronze needles and tools
+- [Medical Instruments](../health/medical-instruments.md) — bronze surgical tools
+
 [← Back to Metals](index.md)

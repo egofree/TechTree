@@ -254,4 +254,12 @@ A sudden change of 20% or more in water consumption often indicates illness 24-4
 
 
 
+## See Also
+
+- [Poultry Farming](poultry.md) — parent capability for all poultry species
+- [Poultry Chickens](poultry-chickens.md) — primary egg and meat bird
+- [Poultry Geese](poultry-geese.md) — down and guardian birds
+- [Aquaculture](aquaculture.md) — pond-based food production systems
+- [Soil Management](../agriculture/soil-management.md) — ducks for pest and slug control
+
 [← Back to Animals](index.md)

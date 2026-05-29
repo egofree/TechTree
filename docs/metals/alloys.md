@@ -272,4 +272,14 @@ The development of new alloys follows a systematic approach rooted in thermodyna
 
 
 
+## See Also
+
+- [Iron & Steel](iron-steel.md) — primary ferrous metals
+- [Steelmaking](steelmaking.md) — converting pig iron to alloy steels
+- [Non-Ferrous Metals](non-ferrous.md) — base metals for alloy formulations
+- [Metal Joining](../machine-tools/joining.md) — welding specialty alloys
+- [Powder Metallurgy](powder-metallurgy.md) — sintered alloy production
+- [Steam Turbines](../energy/steam-turbines.md) — superalloy applications
+- [Metal Forming](forming.md) — shaping alloy stock
+
 [← Back to Metals](index.md)

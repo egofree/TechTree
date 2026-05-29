@@ -310,4 +310,13 @@ Masks are master templates. A single mask defect prints on every die on every wa
 - **Scanner noise**: >85 dB during stage step-and-settle acceleration. Hearing protection mandatory in scanner aisles during production operation.
 
 
+## See Also
+
+- [Photoresists & Masks](../photolithography/resists-masks.md) — resist materials and photomasks
+- [Optics Inspection](../optics/inspection.md) — lens quality and alignment
+- [Vacuum Systems](vacuum-systems.md) — vacuum for lithography tools
+- [Advanced Processes](advanced-processes.md) — downstream patterning steps
+- [Continuous Scaling](continuous-scaling.md) — feature size reduction roadmap
+- [Advanced Lithography](advanced-lithography.md) — next-generation lithography
+
 [← Back to VLSI Scaling](index.md)

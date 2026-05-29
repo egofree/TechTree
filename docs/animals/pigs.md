@@ -252,4 +252,12 @@ A founding pair (1 sow + 1 boar) produces 16-24 piglets in the first year — su
 - [`health.medicine`](../health/medicine.md) — disease treatment, zoonotic disease prevention
 
 
+## See Also
+
+- [Livestock Domestication](domestication.md) — breeding and husbandry fundamentals
+- [Cattle](cattle.md) — complementary livestock for dairy and draft
+- [Agriculture & Food Production](../foundations/food-agriculture.md) — integrated farming systems
+- [Animal Materials](animal-materials.md) — bristles, leather, and rendering
+- [Food Processing](../food-processing/index.md) — meat curing and lard rendering
+
 [← Back to Animals](index.md)

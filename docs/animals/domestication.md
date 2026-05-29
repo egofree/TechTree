@@ -239,4 +239,14 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 
 
 
+## See Also
+
+- [Stone & Wood Tools](../foundations/tools-basic.md) — basic implements for herding and fencing
+- [Agriculture & Food Production](../foundations/food-agriculture.md) — feed crops and pasture management
+- [Cattle](cattle.md) — primary draft and dairy species
+- [Sheep](sheep.md) — wool and meat production
+- [Draft Power](draft-power.md) — animal-powered transportation and agriculture
+- [Animal Materials](animal-materials.md) — leather, horn, bone, and sinew processing
+- [Animal Husbandry](animal-husbandry.md) — breeding, health, and herd management
+
 [← Back to Animals](index.md)

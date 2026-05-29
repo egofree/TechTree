@@ -313,4 +313,13 @@ See [Paints, Coatings & Inks](coatings.md) for detailed galvanizing process para
 
 
 
+## See Also
+
+- [Acids](acids.md) — chemical synthesis of adhesive precursors
+- [Coatings](coatings.md) — protective coating formulations
+- [Petroleum Alternatives](petroleum-alternatives.md) — bio-based adhesives
+- [Metal Finishing](../metals/finishing.md) — coated and treated surfaces
+- [Electrical Systems](../electronics/electrical-systems.md) — insulated and sealed electronics
+- [Solvents](solvents.md) — solvent carriers for adhesives
+
 [← Back to Chemistry](index.md)

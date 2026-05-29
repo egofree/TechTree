@@ -257,4 +257,12 @@ Proper storage facilities prevent accidental explosions and protect the powder s
 
 
 
+## See Also
+
+- [Mining Extraction](extraction.md) — parent capability for mine operations
+- [Explosives](../chemistry/explosives.md) — chemistry of explosive formulations
+- [Drilling](drilling.md) — borehole preparation for blasting
+- [Ore Processing](processing.md) — post-blast ore treatment
+- [Ventilation](ventilation.md) — mine air management after blasting
+
 [← Back to Mining](index.md)

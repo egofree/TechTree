@@ -259,4 +259,13 @@ Store coal under cover to keep it dry. Wet coal doesn't burn as hot and produces
 
 
 
+## See Also
+
+- [Stone & Wood Tools](tools-basic.md) — companion root capability for cutting and shaping
+- [Fuels](../energy/fuels.md) — charcoal, coal, and coke production from fire
+- [Copper & Bronze](../metals/copper-bronze.md) — first metallurgy enabled by fire
+- [Beekeeping](../animals/beekeeping.md) — smoke for hive management
+- [Pottery](../ceramics/pottery.md) — kiln-fired ceramics
+- [Plants Index](../plants/index.md) — plant processing with fire
+
 [← Back to Foundations](./index.md)

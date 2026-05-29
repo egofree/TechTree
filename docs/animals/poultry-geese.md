@@ -250,4 +250,12 @@ Track egg weight (target 150-200 g for standard breeds, 140-160 g for Chinese ge
 
 
 
+## See Also
+
+- [Poultry Farming](poultry.md) — parent capability for all poultry species
+- [Poultry Chickens](poultry-chickens.md) — primary egg and meat bird
+- [Poultry Ducks](poultry-ducks.md) — wetland poultry for eggs and pest control
+- [Poultry Turkeys](poultry-turkeys.md) — large poultry for meat
+- [Soil Management](../agriculture/soil-management.md) — weeder geese for weed control
+
 [← Back to Animals](index.md)

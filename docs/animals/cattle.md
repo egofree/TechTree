@@ -287,4 +287,13 @@ A founding herd of 10-15 cattle (8-10 cows, 2-3 heifers, 1-2 bulls) expands to 4
 - [`health.medicine`](../health/medicine.md) — disease treatment, vaccination, veterinary supplies
 
 
+## See Also
+
+- [Livestock Domestication](domestication.md) — breeding and selection principles
+- [Draft Power](draft-power.md) — ox-powered plowing and transport
+- [Animal Materials](animal-materials.md) — leather, tallow, and horn processing
+- [Food Processing](../food-processing/dairy.md) — milk, cheese, and butter production
+- [Agriculture & Food Production](../foundations/food-agriculture.md) — pasture and manure cycling
+- [Equines](equines.md) — alternative draft and transport animals
+
 [← Back to Animals](index.md)

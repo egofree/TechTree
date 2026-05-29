@@ -244,4 +244,14 @@ Paint is the most widely used protective coating for metals, but paint performan
 - Wastewater treatment: Plating and finishing shops generate wastewater containing heavy metals, cyanide, acids, and organic compounds. Treatment: cyanide destruction → chromium reduction (Cr⁶⁺ → Cr³⁺ by NaHSO₃ at pH 2-3) → metal hydroxide precipitation (lime or NaOH at pH 8-10) → settling/filtration → discharge to meet local effluent standards (typically <0.5 mg/L for Cr, Ni, Cu; <0.1 mg/L for Cd).
 
 
+## See Also
+
+- [Acids](../chemistry/acids.md) — pickling and etching solutions
+- [Coatings](../chemistry/coatings.md) — paint, lacquer, and protective finishes
+- [Electrolysis](../chemistry/electrolysis.md) — electroplating fundamentals
+- [Non-Ferrous Metals](non-ferrous.md) — base metals for plating and coating
+- [Metal Forming](forming.md) — shaping metal before finishing
+- [Aluminum](aluminum.md) — anodizing and aluminum surface treatment
+- [Electroplating](../electrochemistry/electroplating.md) — electrodeposition of metal coatings
+
 [← Back to Metals](index.md)

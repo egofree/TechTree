@@ -253,4 +253,13 @@ Quicklime is used in the beamhouse stage of leather tanning to dehair hides. A l
 
 
 
+## See Also
+
+- [Kilns](kilns.md) — lime kiln construction and firing
+- [Mining Index](../mining/index.md) — limestone quarrying
+- [Pottery](pottery.md) — clay and ceramic production
+- [Cement](../chemistry/cement.md) — Portland cement from lime
+- [Building Materials](../construction/building-materials.md) — mortar and plaster in construction
+- [Animal Materials](../animals/animal-materials.md) — lime for hide processing
+
 [← Back to Ceramics & Refractories](index.md)

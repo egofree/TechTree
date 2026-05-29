@@ -285,4 +285,13 @@ These four metals converge at specific points in GPU fabrication:
 
 
 
+## See Also
+
+- [Refractory & Specialty Metals](refractory-specialty.md) — tungsten, molybdenum, and tantalum
+- [Core Fab Processes](../photolithography/fab-processes.md) — semiconductor fabrication
+- [Gas Handling Vacuum](../gas-handling/vacuum.md) — vacuum deposition systems
+- [Advanced Processes](../vlsi-scaling/advanced-processes.md) — interconnect and barrier deposition
+- [Refractory Metals](refractory-metals.md) — high-melting-point metals for tooling
+- [Aluminum](aluminum.md) — aluminum interconnects and metallization
+
 [← Back to Metals](index.md)

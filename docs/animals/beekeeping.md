@@ -477,4 +477,14 @@ Log hives positioned 1-3 m above ground in trees require ladder access. Inspect 
 - [`agriculture.seed-saving`](../agriculture/seed-saving.md) — bee pollination essential for seed production in many crops
 
 
+## See Also
+
+- [Fire-Making](../foundations/fire.md) — smoke for hive management
+- [Stone & Wood Tools](../foundations/tools-basic.md) — hive construction materials
+- [Agriculture & Food Production](../foundations/food-agriculture.md) — pollination services
+- [Medicine](../health/medicine.md) — honey as wound dressing and medicine
+- [Pharmacology](../health/pharmacology.md) — propolis and bee venom therapy
+- [Copper & Bronze](../metals/copper-bronze.md) — lost-wax casting with beeswax
+- [Writing](../knowledge/writing.md) — beeswax tablets
+
 [← Back to Animals](index.md)

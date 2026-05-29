@@ -256,4 +256,12 @@ A 2-horse draft team requires 2-3 hectares of productive pasture or 5,500-7,300 
 - [`leather`](leather.md) — equine hide processing and harness leather
 
 
+## See Also
+
+- [Livestock Domestication](domestication.md) — breeding and training principles
+- [Draft Power](draft-power.md) — animal-powered work and transport
+- [Cattle](cattle.md) — oxen as alternative draft animals
+- [Transport](../transport/index.md) — roads, railways, and shipping
+- [Agriculture Index](../agriculture/index.md) — plowing and cultivation with draft animals
+
 [← Back to Animals](index.md)

@@ -334,4 +334,12 @@ Wall thickness: 100-150 mm. Insulation value: moderate (poorer than solid masonr
 
 
 
+## See Also
+
+- [Plants Index](index.md) — overview of all plant resource categories
+- [Fiber Plants](fiber-plants.md) — bast and leaf fiber crops
+- [Building Materials](../construction/building-materials.md) — timber framing and thatch
+- [Edible Plants](edible-plants.md) — food crop plants
+- [Construction Index](../construction/index.md) — structural engineering and buildings
+
 [← Back to Plants](index.md)

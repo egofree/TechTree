@@ -264,4 +264,13 @@ Steps 1-2 are pure information theory. Step 5 requires coding theory and statist
 - **Enables**: Digital logic design (`computing.digital-logic`), communication systems, data storage (`computing.data-storage`), formal verification, and compiler construction
 
 
+## See Also
+
+- [Core Mathematics](core-mathematics.md) — prerequisite arithmetic and algebra
+- [Digital Logic](../computing/digital-logic.md) — Boolean circuits and logic gates
+- [Applied Mathematics](applied-mathematics.md) — practical mathematics for engineering
+- [Electronic Computing](../computing/electronic.md) — transistor-based computers
+- [Computing Index](../computing/index.md) — computing overview
+- [Logic Design](../computing/logic-design.md) — digital circuit design methodology
+
 [← Back to Mathematics](index.md)

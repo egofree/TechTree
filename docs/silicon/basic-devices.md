@@ -337,4 +337,14 @@ The op-amp is a high-gain differential amplifier with two inputs (inverting -, n
 
 
 
+## See Also
+
+- [Crystal Growth](crystal-growth.md) — single-crystal silicon production
+- [Wafering](wafering.md) — wafer slicing and polishing
+- [Aluminum](../metals/aluminum.md) — aluminum metallization for contacts
+- [Acids](../chemistry/acids.md) — etching and cleaning solutions
+- [Electronic Computing](../computing/electronic.md) — transistors to computers
+- [Electronics Assembly](../electronics/assembly.md) — die attach and packaging
+- [EDA Design](../vlsi-scaling/eda-design.md) — VLSI circuit design
+
 [← Back to Silicon](index.md)

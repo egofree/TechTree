@@ -8,8 +8,6 @@
 > **Outputs**: charcoal, char_cloth, wood_tar, wood_vinegar
 > **Critical**: Yes — charcoal is the primary fuel for all early iron smelting; no charcoal means no iron before coke
 
-## Overview
-
 Charcoal is the primary fuel for all metallurgy until coke arrives in the industrial stage. Every kg of iron requires roughly 1-2 kg of charcoal. It is produced by heating wood in the absence of sufficient oxygen to drive off water and volatile compounds, leaving nearly pure carbon. The process — pyrolysis — is simple in principle but demands careful control of temperature and airflow to convert wood to charcoal without burning it to ash.
 
 Charcoal has several advantages over raw wood as a metallurgical fuel: roughly double the energy density per unit mass (~29 MJ/kg vs ~16-18 MJ/kg for seasoned wood), burns hotter and cleaner (less smoke and tarry residue), and is nearly pure carbon (no moisture to generate steam that would oxidize iron during smelting).
@@ -216,13 +214,16 @@ Different metallurgical processes require different charcoal grades, optimized f
 - **Carbon monoxide**: Charcoal burning produces CO, especially during the pyrolysis phase. Perform all kiln operations outdoors or in well-ventilated spaces. Never operate a kiln indoors. CO is odorless and lethal at 0.1% concentration.
 - **Burns**: Kiln and charcoal handling involves hot surfaces and hot coals. Wear leather gloves and long sleeves during kiln tending and charcoal extraction.
 
-## Cross-References
+## Troubleshooting
 
-- **[Coal & coke](../glossary/coal-coke.md)** (later fuel progression): [coal.md](coal.md), [coke.md](coke.md)
-- **Fuel comparison table**: [fuels.md](fuels.md)
-- **[Early iron smelting](../glossary/early-iron-smelting.md)** (primary consumer): [iron-steel.md](../metals/iron-steel.md)
-- **[Kiln construction](../ceramics/kilns.md)** (firing infrastructure): [kilns.md](../ceramics/kilns.md)
-- **[Wood and forestry](../glossary/wood-and-forestry.md)** (feedstock supply): [plants.md](../plants/index.md)
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Charcoal mostly ash (over-burned) | Too much air entering kiln | Seal air leaks; reduce draft openings; monitor earth kiln for cracks |
+| Charcoal still brown/black wood (under-carbonized) | Temperature too low or time insufficient | Extend burn time; verify earth kiln steam has stopped (signals completion); ensure proper kiln loading density |
+| Low charcoal yield (<15% by weight) | Hardwood too small or over-burned | Use larger billets (10-15 cm diameter); reduce peak temperature; switch to denser hardwood species |
+| Excessive smoke during burn | Wet wood or incomplete sealing | Season wood 6+ months before charring; seal kiln thoroughly; pre-dry wood if necessary |
+| Charcoal fines (too much dust) | Mechanical damage during handling or soft wood species | Use harder wood species; handle charcoal gently; screen and sell fines separately (briquette feedstock) |
+| Kiln won't sustain burn | Green (wet) wood or insufficient kindling | Use dry kindling to start; ensure initial charge is well-dried; build fire from center outward |
 
 ## Charcoal Gasification for Vehicle Fuel
 
@@ -236,6 +237,14 @@ During petroleum shortages, charcoal gasification provides a practical alternati
 
 **Range and performance**: A typical 1940s passenger car (1.5-2.0 L engine) consumed 10-15 kg of charcoal per 100 km, giving a practical range of 30-50 km per 10 kg charcoal load. Top speed reduced by 30-40% compared to gasoline. Hill climbing was noticeably sluggish due to reduced power output. Charcoal quality mattered: metallurgical grade (>85% fixed carbon) produced cleaner gas with fewer tars and better engine performance.
 
----
+## See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+- [Coal](coal.md) and [Coke](coke.md) — later fuel progression beyond charcoal
+- [Fuels](fuels.md) — comparative fuel properties table
+- [Iron & Steel](../metals/iron-steel.md) — primary consumer of metallurgical charcoal
+- [Kilns](../ceramics/kilns.md) — kiln construction for charcoal burning
+- [Plants & Forestry](../plants/index.md) — wood supply as feedstock
+- [Explosives](../chemistry/explosives.md) — charcoal as black powder component
+- [Wood Gasification](../chemistry/wood-gasification.md) — producer gas from wood
+
+[← Back to Energy](index.md)

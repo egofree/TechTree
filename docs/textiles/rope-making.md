@@ -8,7 +8,16 @@
 > **Outputs**: rope, tarred_rope, spliced_rope, lifting_slings
 > **Critical**: No
 
-### Fiber Selection
+## Problem
+
+Rope is the universal load-bearing element of pre-industrial and early industrial civilization: lifting, pulling, rigging, hoisting, binding, and power transmission all depend on it. Rope quality depends on fiber choice, twist geometry, and construction method. The ideal rope fiber is strong, long-staple, flexible, and resistant to degradation. No single fiber excels at all criteria — selection depends on application.
+
+## Prerequisites
+
+- [Fiber Preparation](fibers.md) — prepared fibers for rope making
+- [Spinning](spinning.md) — yarn production as intermediate step
+
+## Fiber Selection
 
 Rope quality depends on fiber choice. The ideal rope fiber is strong, long-staple, flexible, and resistant to degradation. No single fiber excels at all criteria — selection depends on application.
 
@@ -220,14 +229,24 @@ Rope for lifting and life-safety applications must be proof-tested and certified
 
 **Working load limits**: Apply safety factor of 5:1 for general applications (working load = breaking strength ÷ 5). For personnel lifting and overhead loads, use 10:1 safety factor. For example, 12 mm nylon rope with 28.6 kN breaking strength: general working load = 5.7 kN (~580 kg), personnel lifting = 2.9 kN (~290 kg). Document the working load limit on a tag attached to each rope, including rope material, diameter, date of manufacture, and date of last inspection.
 
----
+## Troubleshooting
 
-*Dependencies: [Fiber Preparation](fibers.md) for prepared fibers, [Spinning](spinning.md) for yarn production*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Rope hockling (kinking) | Twist imbalance or wrong lay direction | Ensure twist direction alternates (Z then S lay); store rope coiled with the natural lay; avoid pulling loops tight |
+| Premature rot in hemp/Manila rope | Stored wet or in damp conditions | Dry thoroughly before storage; tar rope for outdoor use; store in dry, ventilated area |
+| Rope breaking below rated strength | UV degradation, abrasion, or chemical damage | Inspect for chafed spots; retire rope with >10% surface fiber wear; protect from sunlight for prolonged outdoor use |
+| Splice pulling out | Insufficient tuck count or wrong splice type | Use minimum 3 full tucks for eye splice; 4-5 tucks for critical loads; taper final tucks to prevent stress concentration |
+| Rope stiff and difficult to handle | Over-tarred or salt crystallization in manila | Rinse fresh-water rope periodically; use minimal tar; work rope to restore flexibility before use |
+| Uneven diameter along length | Inconsistent feeding during laying | Maintain uniform tension during rope walk; check spinning consistency of yarn feed |
 
-### Cross-Domain Dependencies
+## See Also
 
-- Fibers from [Fiber Preparation](../textiles/fibers.md). Rope for [Mining](../mining/extraction.md) hoisting and [Shipping](../transport/shipping.md) rigging. Power transmission in [Gravity](../energy/gravity.md) systems. Yarn from [Spinning](../textiles/spinning.md).
+- [Fiber Preparation](fibers.md) — fiber processing for rope materials
+- [Spinning](spinning.md) — yarn production
+- [Mining / Extraction](../mining/extraction.md) — rope for mine hoisting
+- [Shipping](../transport/shipping.md) — rope for ship rigging
+- [Gravity Systems](../energy/gravity.md) — rope for power transmission
+- [Construction](../construction/index.md) — rope for lifting and rigging
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*
+[← Back to Textiles](index.md)

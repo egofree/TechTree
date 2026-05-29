@@ -14,13 +14,13 @@ The telephone transforms voice into electrical signals that travel over wire, en
 
 The telephone system builds on telegraph infrastructure (pole lines, wires, batteries) but requires fundamentally different terminal equipment (microphones, speakers, ringers) and switching systems (exchanges that connect any pair of subscribers on demand).
 
-### Prerequisites
+## Prerequisites
 
 - [Electricity](../energy/electricity.md) — power for telephone systems and exchanges
 - [Metals](../metals/index.md) — copper wire for telephone lines
 - [Electric telegraph](electric-telegraph.md) — pole lines, wires, and battery infrastructure
 
-### Bell Telephone (1876)
+## Bell Telephone (1876)
 
 **Principle**: A diaphragm vibrating in response to sound waves modulates the magnetic flux through a coil, inducing a varying electrical current. At the receiver, an identical device converts the current back into diaphragm vibration, reproducing the sound.
 
@@ -30,7 +30,7 @@ The telephone system builds on telegraph infrastructure (pole lines, wires, batt
 
 **Performance limitations**: The electromagnetic transmitter produces very weak signals (~1-10 mV). Effective range without amplification: 5-15 km on 1 mm copper wire. The Bell design works well as a receiver (earphone) but poorly as a transmitter.
 
-### Carbon Microphone (Edison/Berliner, 1877-1878)
+## Carbon Microphone (Edison/Berliner, 1877-1878)
 
 The enabling technology that made telephony practical beyond short distances. Produces a signal 50-100x stronger than the electromagnetic transmitter.
 
@@ -42,7 +42,7 @@ The enabling technology that made telephony practical beyond short distances. Pr
 
 **Practical effect**: Carbon microphone enables clear conversations over 30-80 km on 1 mm copper wire without amplification. Maintenance: replace carbon granules every 6-24 months (moisture absorption degrades performance).
 
-### Magneto Ringer
+## Magneto Ringer
 
 Before automatic exchanges, every telephone needed a way to alert the called party. The magneto ringer generates an AC ringing signal by hand-cranking a small generator.
 
@@ -50,7 +50,7 @@ Before automatic exchanges, every telephone needed a way to alert the called par
 
 **Polarized bell**: Two gongs (brass or steel, 25-40 mm diameter) with a clapper driven by a polarized electromagnet. Responds to 20-100 V AC at 15-25 Hz. Does NOT respond to DC voice current.
 
-### Telephone Line Construction
+## Telephone Line Construction
 
 **Wire**: Copper wire, 0.9-1.5 mm diameter (BWG 19-10 gauge). Hard-drawn for aerial lines (tensile strength 400-450 MPa). Resistance: 24-67 ohm/km. For a 10 km loop (20 km round trip): 480-1340 ohm total. With 3 V battery: 2-6 mA loop current — sufficient for intelligible speech.
 
@@ -58,7 +58,7 @@ Before automatic exchanges, every telephone needed a way to alert the called par
 
 **Loading coils**: For long-distance lines (>30 km), 88 mH inductors spaced every 1.8 km extend effective range from ~30 km to ~150 km without amplification. Cutoff frequency: ~3400 Hz — this is why telephone audio is band-limited to 300-3400 Hz.
 
-### Manual Switchboard (Cord Board)
+## Manual Switchboard (Cord Board)
 
 The heart of a manual telephone exchange. An operator connects calling and called parties by plugging patch cords into jacks.
 
@@ -77,7 +77,7 @@ The heart of a manual telephone exchange. An operator connects calling and calle
 
 **Capacity**: One operator handles 100-150 subscriber lines, completing 150-250 calls/hour at peak. A 5,000-subscriber exchange needs 30-50 operators per shift, 3 shifts = 90-150 total.
 
-### Strowger Automatic Exchange (1889)
+## Strowger Automatic Exchange (1889)
 
 Eliminates human operators. A mechanical marvel that routes calls based on dialed digits.
 
@@ -94,7 +94,7 @@ Eliminates human operators. A mechanical marvel that routes calls based on diale
 
 ## Bill of Materials
 
-### Single Telephone Set (manual exchange)
+## Single Telephone Set (manual exchange)
 
 | Material | Quantity | Specification | Source |
 |----------|----------|---------------|--------|
@@ -108,7 +108,7 @@ Eliminates human operators. A mechanical marvel that routes calls based on diale
 | Battery (local) | 2-3 cells | Leclanche or lead-acid, 3-6 V | [Chemistry](../chemistry/index.md) |
 | Terminal block and wiring | 1 set | Brass terminals, insulated copper wire | [Metals](../metals/index.md) |
 
-### Pole Line (per km, 50-pair cable)
+## Pole Line (per km, 50-pair cable)
 
 | Material | Quantity per km | Specification | Source |
 |----------|----------------|---------------|--------|
@@ -117,7 +117,7 @@ Eliminates human operators. A mechanical marvel that routes calls based on diale
 | Suspension strand (steel) | 1 km | 6-8 mm galvanized steel wire | [Metals](../metals/index.md) |
 | Pole hardware | 12-20 sets | Brackets, bolts, cable clamps | [Metals](../metals/index.md) |
 
-### Loading Coils (per 1.8 km section)
+## Loading Coils (per 1.8 km section)
 
 | Material | Quantity per section | Specification | Source |
 |----------|---------------------|---------------|--------|
@@ -125,7 +125,7 @@ Eliminates human operators. A mechanical marvel that routes calls based on diale
 | Copper magnet wire | 50-100 m | 0.2-0.4 mm diameter, enameled | [Metals](../metals/index.md) |
 | Cast iron case | 1 | Weatherproof, sealed | [Metals](../metals/index.md) |
 
-### Manual Switchboard (100-line)
+## Manual Switchboard (100-line)
 
 | Material | Quantity | Specification | Source |
 |----------|----------|---------------|--------|
@@ -138,7 +138,7 @@ Eliminates human operators. A mechanical marvel that routes calls based on diale
 
 ## Quantitative Parameters
 
-### Voice Signal Parameters
+## Voice Signal Parameters
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
@@ -151,7 +151,7 @@ Eliminates human operators. A mechanical marvel that routes calls based on diale
 | Ringing voltage | 50-100 V AC | 15-25 Hz, from magneto or exchange ringer |
 | Ringing frequency | 15-25 Hz | Low enough to pass through ringer coil inductance |
 
-### Line Parameters
+## Line Parameters
 
 | Parameter | 0.5 mm Cu | 0.9 mm Cu | 1.5 mm Cu | Notes |
 |-----------|-----------|-----------|-----------|-------|
@@ -161,7 +161,7 @@ Eliminates human operators. A mechanical marvel that routes calls based on diale
 | Attenuation (unloaded, 1 kHz) | ~1.5 dB/km | ~0.8 dB/km | ~0.4 dB/km | Voice-frequency attenuation |
 | Crosstalk (adjacent pairs) | -60 to -80 dB | -60 to -80 dB | -60 to -80 dB | With twisted pairs |
 
-### Exchange Parameters
+## Exchange Parameters
 
 | Parameter | Manual Cord Board | Strowger (10,000-line) |
 |-----------|-------------------|----------------------|
@@ -176,15 +176,15 @@ Eliminates human operators. A mechanical marvel that routes calls based on diale
 
 ## Scaling Notes
 
-### Single Exchange (50-500 subscribers)
+## Single Exchange (50-500 subscribers)
 
 One exchange building with manual cord board or small Strowger switch. Covers a 5-15 km radius. A rural town exchange with 100 subscribers requires 1-2 operators (manual) or a small Strowger unit (automatic). Construction cost: $5,000-25,000. Local calls use 2-wire circuits with battery from the exchange or subscriber set. No amplification needed for loops under 10 km.
 
-### City Network (2,000-50,000 subscribers)
+## City Network (2,000-50,000 subscribers)
 
 Multiple exchanges connected by inter-exchange trunks. Each exchange covers a 3-5 km radius. Trunks are 4-wire (separate transmit and receive) for full-duplex with amplifiers. A 10,000-subscriber city needs 3-5 exchanges. Staffing (manual): 200-500 operators across all exchanges. Long-distance toll circuits connect to other cities via loading coils and, post-1915, vacuum tube repeater amplifiers.
 
-### Long-Distance Network (100+ km between cities)
+## Long-Distance Network (100+ km between cities)
 
 Toll circuits with loading coils every 1.83 km and vacuum tube repeaters every 80-150 km. A 500 km connection needs 3-6 repeater stations. Each repeater uses 2 vacuum tubes (one per direction) with 150-200 V plate supply. Construction cost: $10,000-30,000 per km for loaded toll cable. The first US transcontinental telephone line (1915, 5,400 km) used 130,000 poles, 2,500 tonnes of copper wire, and 3 vacuum tube repeaters.
 

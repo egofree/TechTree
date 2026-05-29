@@ -3,10 +3,22 @@
 > **Node ID**: electrochemistry.anodizing
 > **Domain**: [Electrochemistry & Plating](./index.md)
 > **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`metals.aluminum`](../metals/aluminum.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`polymers.rubber.semiconductor-apps`](../polymers/rubber.semiconductor-apps.md)
 > **Timeline**: Years 25-60
 > **Outputs**: anodized_aluminum, hard_anodized_surfaces, anodized_titanium, oxide_coatings
 > **Critical**: No — anodizing produces durable oxide coatings for semiconductor equipment but alternative surface treatments exist
+
+### Problem
+
+Aluminum components in corrosive, high-wear, or high-purity environments need surface protection that paint cannot provide and electroplating cannot deliver without adhesion failures. Anodizing grows a ceramic oxide layer directly from the aluminum substrate — the coating is integral to the metal and cannot peel, chip, or delaminate because it IS the metal, oxidized in place. The oxide thickness is voltage-controlled (1.2-1.4 nm/V), giving precise, repeatable coatings from 5 μm (decorative) to 100+ μm (hard anodizing for wear resistance). No other surface treatment produces an integral ceramic coating on aluminum with this level of control.
+
+### Prerequisites
+
+- [Acids](../chemistry/acids.md) — sulfuric acid for Type II/III baths, oxalic acid additive
+- [Aluminum production](../metals/aluminum.md) — aluminum workpieces and alloy selection
+- [Electricity](../energy/electricity.md) — DC power supply (12-75 V, 500-10,000 A)
+- [Water treatment](../chemistry/alkalis.md) — clean rinse water and sealing bath chemistry
+- [Titanium](../metals/titanium.md) — for titanium anodizing applications
 
 ### Overview
 
@@ -204,13 +216,25 @@ Anodizing serves several specific functions in semiconductor equipment fabricati
 
 **Oxalic acid additive toxicity**: Oxalic acid (5-15 g/L) used as a burning suppressant in Type III baths is toxic if ingested (LD₅₀ ~375 mg/kg) and causes kidney damage from calcium oxalate crystal formation. Avoid skin contact. Do not eat or drink in the anodizing area.
 
+### Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Burning (localized pitting) | High current density at sharp edges or poor racking contact | Reduce current density; add oxalic acid suppressant; ensure solid rack contact; avoid sharp edges |
+| Soft or powdery oxide | Bath temperature too high (>25°C for Type II) or low current density | Cool bath to 18-22°C; increase current density to 1.2-1.5 A/dm² |
+| Uneven coloring (dyed parts) | Inconsistent oxide thickness or sealing contamination | Verify uniform anodizing time/current; check dye bath pH; ensure clean seal water |
+| Poor corrosion resistance | Incomplete sealing of porous oxide | Verify seal bath at 95-100°C for 20-30 min; check seal water purity (use DI water) |
+| Blistering or flaking | Aluminum alloy not suitable (high Cu or Si content) | Use 5000 or 6000 series alloys; avoid 2000 series (high Cu) for architectural anodizing |
+| Gray or dull finish | Impurities in bath (dissolved aluminum >15 g/L, chlorides) | Decant and replace bath; install filtration; check chloride contamination |
+| Low oxide thickness | Voltage too low or cycle time insufficient | Increase voltage (oxide grows at 1.2-1.4 nm/V); extend anodizing time |
+
 ### See Also
 
 - **[Electroplating](electroplating.md)**: Copper damascene, nickel, gold, tin plating processes
 - **[Electrochemical Surface Processes](electrochemical-processes.md)**: Electropolishing for ultrapure surfaces
 - **[Metal Finishing](../metals/finishing.md)**: Overview of anodizing in the context of metal surface treatments
 - **[Aluminum Production](../metals/aluminum.md)**: Aluminum alloy properties and heat treatment
+- **[Semiconductor Elastomers](../polymers/rubber.semiconductor-apps.md)**: anodized components in cleanroom equipment
+- **[Cleanrooms](../photolithography/cleanrooms.md)**: particle-free surface requirements
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Electrochemistry & Plating](./index.md) • [All Domains](../index.md)*
+[← Back to Electrochemistry](index.md)

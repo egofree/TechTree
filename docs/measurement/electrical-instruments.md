@@ -3,7 +3,7 @@
 > **Node ID**: measurement.electrical-instruments
 > **Domain**: [Measurement](./index.md)
 > **Dependencies**: [`energy.electricity`](../energy/electricity.md), [`measurement`](./index.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`computing.electromechanical`](../computing/electromechanical.md), [`telecom.radio`](../telecom/radio.md)
 > **Timeline**: Years 20-35
 > **Outputs**: voltmeter, ammeter, ohmmeter, oscilloscope, multimeter, insulation_tester, frequency_counter
 > **Critical**: No — measurement improves quality but civilization can function without precision instruments
@@ -11,6 +11,14 @@
 ## Problem
 
 Electrical systems cannot be built or maintained without measurement. You need to know voltage (is the generator producing what it should?), current (is the load drawing too much?), resistance (is the insulation intact?), frequency (is the alternator spinning at the right speed?), and waveform (is the AC output clean or distorted?). This page covers the instruments that answer these questions, from the fundamental galvanometer movement through digital multimeters, oscilloscopes, and specialized testers.
+
+### Prerequisites
+
+- [Electricity](../energy/electricity.md) — power generation, voltage, current, and circuit fundamentals
+- [Measurement fundamentals](./index.md) — calibration philosophy and traceability
+- [Copper wire](../metals/copper.md) — fine wire for galvanometer coils and instrument windings
+- [Magnets](../metals/magnetism.md) — permanent magnets for meter movements
+- [Glass](../glass/index.md) — CRT envelopes for oscilloscopes
 
 ## Galvanometer (D'Arsonval Movement)
 
@@ -206,6 +214,18 @@ Beyond the standard instruments listed above, several specialized measurements a
 - **Calibration dependency**: All electrical instruments drift with time, temperature, and mechanical shock. Resistors change value with aging. Meter movements lose magnetic strength. Calibration against known standards (standard cells, precision resistors) must be performed every 6-12 months for instruments used in critical measurements.
 - **CRT oscilloscope complexity**: A cathode-ray tube oscilloscope requires a vacuum tube CRT, high-voltage power supply (1-5 kV for acceleration), sweep circuitry, and vertical amplifiers. This represents a significant electronics manufacturing capability. Simpler alternatives (moving-coil meters with rectifiers) sacrifice waveform visualization.
 
+### Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Meter reads zero (no deflection) | Open coil, broken hair spring, or loose connection | Check continuity of coil and leads; inspect hair spring; verify series resistor not open |
+| Meter reads low on all ranges | Weakened permanent magnet or aged calibration | Recalibrate against standard; replace magnet if severely weakened |
+| Voltmeter loads circuit (reads low) | Meter impedance too low for circuit under test | Use FET-input voltmeter or DMM (>10 MΩ input); calculate loading error |
+| Oscilloscope trace drifts vertically | DC offset drift in vertical amplifier | Allow warm-up (15-30 min); check DC balance adjustment; recalibrate |
+| Megger reads too low (false leakage) | Moisture on test leads or surface contamination | Clean terminals and leads; dry insulation before testing; use guard terminal |
+| DMM resistance reading unstable | Dirty test lead contacts or low battery | Clean probe tips; replace battery; check lead resistance by shorting probes |
+| Ammeter reads zero with current flowing | Blown fuse in meter or open shunt resistor | Replace internal fuse; verify shunt resistor continuity; never measure voltage on current range |
+
 ## See Also
 
 - [Precision Metrology](precision-metrology.md) — electrical standards, calibration infrastructure
@@ -213,5 +233,7 @@ Beyond the standard instruments listed above, several specialized measurements a
 - [Optical Instruments](optical-instruments.md) — spectroscopes, refractometers
 - [Electricity](../energy/electricity.md) — power generation, transmission, electrical engineering
 - [Electronics](../electronics/index.md) — vacuum tubes, transistors, circuit design
+- [Electromechanical Computing](../computing/electromechanical.md) — relay logic and early computer instruments
+- [Telecom / Radio](../telecom/radio.md) — RF measurement and signal detection
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Measurement](./index.md) · [All Domains](../index.md)*
+[← Back to Measurement](index.md)

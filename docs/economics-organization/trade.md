@@ -8,19 +8,14 @@
 > **Outputs**: goods_exchange, market_systems, trade_networks
 > **Critical**: No
 
----
-
-## 1. Overview
-
 Trade and barter is the direct exchange of surplus goods between specialists and communities. Where [division of labor](./division-of-labor.md) creates specialists who produce more of one thing than they need, trade provides the mechanism for those specialists to obtain everything else. Without trade, each specialist (or community) must remain self-sufficient, and the productivity gains from specialization cannot be fully realized.
 
 Barter — the direct exchange of goods for goods — is the simplest form of trade. It requires no intermediary technology beyond the goods themselves and mutual agreement on relative value. However, barter suffers from the double-coincidence problem: to trade, both parties must want what the other has, at the same time, in agreeable quantities. This constraint limits barter to small communities with dense social networks where repeated interactions build trust and informal credit.
 
 Trade depends on [transport](../transport/index.md) to move goods between locations and on [writing](../knowledge/writing.md) for contracts, inventories, and price records. The transport network defines the geographic reach of the market; writing defines the complexity of trade relationships that can be managed.
 
----
 
-## 2. Prerequisites
+## Prerequisites
 
 ### Materials
 
@@ -42,9 +37,8 @@ Trade depends on [transport](../transport/index.md) to move goods between locati
 - Market spaces: Physical locations where traders meet. Can be informal (crossroads gathering) or formal (dedicated market square).
 - Storage at trade points: Warehouses or secure areas for goods awaiting exchange.
 
----
 
-## 3. Bill of Materials (BOM)
+## Bill of Materials (BOM)
 
 Trade is an organizational capability. Physical inputs are minimal:
 
@@ -55,9 +49,8 @@ Trade is an organizational capability. Physical inputs are minimal:
 | Storage at market | 10-50 m³ covered storage per market day | [Construction](../construction/index.md) | Open-air stacking (weather risk) |
 | Market space | 100-500 m² flat ground | Natural terrain | Dedicated market building (for permanent markets) |
 
----
 
-## 4. Process Description
+## Process Description
 
 ### 4.1 Establishing a Barter System
 
@@ -127,9 +120,8 @@ Trade is an organizational capability. Physical inputs are minimal:
 | Currency-based | Unlimited | Unlimited | Yes | Moderate (coin trust) | Complex economies — see [currency](./currency.md) |
 | Fair-based | 50-200 km draw | 100+ types | Optional | High (fair reputation) | Seasonal large-scale exchange |
 
----
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
 ### Trade Route Parameters
 
@@ -163,9 +155,8 @@ Trade is an organizational capability. Physical inputs are minimal:
 | Iron axe head | 1 | Grain | 25-40 kg | Production tool, high value |
 | Leather sandals (pair) | 1 | Grain | 3-6 kg | Consumable, steady demand |
 
----
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Minimum viable trade**: Two specialists with complementary surpluses. The smallest trade loop has 2 parties; the smallest multilateral loop has 3 (A gives to B, B gives to C, C gives to A).
 - **Transport bottleneck**: Trade volume is limited by transport capacity. A community producing 5 tonnes of surplus grain per year can only export what it can physically move. With human porters (25 kg each), this requires ~200 porter-trips per year.
@@ -173,9 +164,8 @@ Trade is an organizational capability. Physical inputs are minimal:
 - **Trust radius**: Barter-based trade works within communities where repeated interaction creates trust (Dunbar's number: ~150 people). Beyond this, formal contracts and enforcement mechanisms are needed — see [governance](./governance.md).
 - **Transition to currency**: When trade volume exceeds ~50-100 distinct goods with fluctuating relative values, maintaining a complete exchange rate matrix becomes impractical (N×(N-1)/2 pairs for N goods). Currency reduces this to N prices, each expressed in a single unit of account. See [currency](./currency.md).
 
----
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -186,27 +176,24 @@ Trade is an organizational capability. Physical inputs are minimal:
 | Credit defaults (debts not repaid) | No enforcement mechanism; debtor left community | Limit credit to known, trusted individuals; require collateral (goods held until debt repaid) |
 | Market monopolies (single trader controls a good) | Geographic isolation or trade route control | Encourage competing trade routes; diversify supply sources |
 
----
 
-## 8. Safety
+## Safety
 
 - **Travel hazards**: Trade routes expose traders to robbery, accidents, and exposure. Mitigate with armed caravans (minimum 5-10 people for routes >20 km from settlement), weather planning, and route marking.
 - **Fraud and counterfeit goods**: Adulterated goods (grain mixed with sand, debased metal) undermine trust. Mitigate with quality inspection at point of trade and standardized measurement.
 - **Debt slavery**: Unrepayable trade debts can lead to bondage. Establish debt limits (maximum debt = 50% of annual productive output) and seasonal debt forgiveness (e.g., at harvest).
 - **Market crowd safety**: Markets with >200 people in confined spaces risk stampedes and disease transmission. Ensure adequate space (minimum 2 m² per person), ventilation, and waste disposal.
 
----
 
-## 9. Quality Control
+## Quality Control
 
 - **Goods inspection**: Each good traded must meet minimum quality standards. Grain: <5% chaff, <2% foreign matter. Metal tools: functional (hold edge, no cracks). Pottery: no cracks, watertight.
 - **Weight verification**: All traded goods measured against standardized weights at point of exchange. Discrepancies >5% trigger renegotiation.
 - **Transaction recording**: Every trade documented with date, parties, goods, quantities. Records stored for minimum 1 year for dispute resolution.
 - **Periodic market audits**: Monthly review of trade records to identify patterns of fraud, default, or market manipulation.
 
----
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 | Trade System | Description | Scale | Complexity |
 |-------------|-------------|-------|------------|
@@ -229,9 +216,8 @@ Trade networks grow in predictable stages as production complexity increases:
 | 4. Long-distance trade | 200-2,000 km | Tin, copper, obsidian, spices, silk | 200+ professional traders | Permanent trade posts, currency, written contracts |
 | 5. Industrial supply chains | Unlimited | All manufactured inputs | Thousands | See [supply chain coordination](./supply-chain.md) |
 
----
 
-## 11. References
+## See Also
 
 - [Division of Labor](./division-of-labor.md) — the specialization that creates the surplus goods for trade
 - [Transport](../transport/index.md) — the infrastructure that moves traded goods
@@ -239,6 +225,4 @@ Trade networks grow in predictable stages as production complexity increases:
 - [Currency](./currency.md) — the standardized exchange medium that solves barter's limitations
 - [Supply Chain Coordination](./supply-chain.md) — the planned procurement that trade enables
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*
+[← Back to Economics & Organization](index.md)

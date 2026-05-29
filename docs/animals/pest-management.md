@@ -3,10 +3,40 @@
 > **Node ID**: animals.pest-management
 > **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.domestication`](domestication.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`foundations.food-agriculture`](../foundations/food-agriculture.md) (crop protection and stored grain preservation)
 > **Timeline**: Years 0-10
 > **Outputs**: biological_pest_control, crop_protection, guardian_services, rodent_suppression
 > **Critical**: No — valuable for crop protection but not a foundation node
+
+## Problem
+
+Rats, mice, insects, and predators destroy 10-40% of global food production before it reaches human mouths. A single rat consumes 10-15 kg of grain per year and contaminates 10× that amount with urine and feces. A locust swarm of 1 km² contains 40-80 million insects consuming 1-2 tonnes of vegetation per day. Before synthetic pesticides (which require industrial chemistry infrastructure), biological pest control — using domesticated and managed animals — was the primary defense. It remains effective, sustainable, and requires no industrial supply chain.
+
+Without pest management: no reliable grain storage (rodents consume 5-15% of stored grain annually in unprotected facilities — a family storing 2 tonnes of grain for winter loses 100-300 kg to rats and mice), no orchard production at scale (codling moth damages 20-80% of untreated apples), no livestock grazing without predator losses (unprotected sheep flocks lose 10-30% of lambs to coyotes, wolves, and foxes), no rice production in snail-infested paddies (golden apple snail destroys 25-50% of young rice plants). Each of these losses compounds across the settlement.
+
+No single animal or method provides complete protection. Effective pest management combines multiple species targeting different pests at different times of day and seasons — cats and owls for 24-hour rodent suppression, terriers for burrow clearing, poultry for insect and slug control, guardian dogs for predator defense. The animals themselves require management, housing, feeding, and health care — they are working partners, not self-maintaining tools.
+
+## Prerequisites
+
+- **Materials**: [Cat and dog food](../foundations/food-agriculture.md) (20-30% of caloric needs supplemented for working cats, 1-2 kg/day for guardian dogs), [nest box materials](../machine-tools/index.md) (wood for owl boxes: 40×40×60 cm, 15 cm entrance hole), [portable fencing](../machine-tools/index.md) (electric or woven wire for confining poultry to target areas), [grain](../foundations/food-agriculture.md) for poultry supplemental feed
+- **Tools**: [Sweep nets](./index.md) and sticky traps for monitoring pest populations, [nest box mounting hardware](../machine-tools/index.md) (brackets, screws, lag bolts for 4-6 m height mounting), [dog training equipment](./index.md) (leash, collar, long line for bonding period), [gloves and N95 masks](../ehs/ppe.md) for cleaning rodent-contaminated areas
+- **Knowledge**: Animal behavior and bonding protocols (LGD puppies must spend 24 hrs/day with livestock from 8-12 weeks), pest identification and economic threshold determination, seasonal pest life cycles (codling moth overwintering, rodent population surges), predator behavior patterns (coyotes test boundaries at dawn/dusk)
+- **Infrastructure**: [Secure housing](./domestication.md) for poultry (predator-proof coop with covered run), [nest boxes](./index.md) mounted on barns or poles for barn owls, [fencing](./domestication.md) for livestock pastures (woven wire 1.2-1.5 m with buried apron), quarantine pens for new animals (10-20 m from existing livestock)
+
+## Bill of Materials — Integrated Pest Management Setup (10-hectare mixed farm)
+
+| Item | Specification | Quantity | Notes |
+|------|--------------|----------|-------|
+| Barn cats (mixed breed, working lines) | Lean, active, from mousing mother | 4-6 cats | 1 per 500-1000 m² of storage area; supplement 20-30% of calories |
+| Rat terrier dogs | 5-8 kg, game temperament | 1-2 dogs | For targeted granary clearing; train from 12 weeks |
+| Barn owl nest boxes | Wood, 40×40×60 cm, 15 cm entrance, no perch | 3-4 boxes | Mount at 4-6 m height within 200 m of rodent habitat |
+| Guardian dogs (Great Pyrenees, Anatolian, or similar) | 40-65 kg LGD breed | 1-2 dogs | Place with flock at 8-12 weeks; full effectiveness at 18-24 months |
+| Guinea fowl | Keets (chicks) raised by chicken hen | 20-30 birds | 15-25 per hectare for tick/grasshopper control; semi-wild |
+| Ducks (Indian Runner or Khaki Campbell) | Ducklings, 6-8 weeks old | 15-20 birds | 5-10 per hectare for slug/snail control in wet areas |
+| Free-range chickens | Heritage dual-purpose breeds | 20-30 hens | 10-20 per hectare for general insect control; also produce eggs |
+| Portable electric fencing | 2-3 strands, battery or solar energizer | 200-300 m | For confining poultry to target areas; rotate weekly |
+| Poultry coop and run | Predator-proof, ventilated, 0.1 m² per bird indoor | 1 unit | Covered run essential — hawks, foxes, raccoons |
+| Owl box mounting hardware | Lag bolts, brackets, mounting plate | Per box | Must support box + owl weight (~1.5 kg) at 4-6 m height |
 
 ## Overview
 
@@ -168,12 +198,32 @@ Walk fields weekly during the growing season. Count pest populations using stand
 - **Physical barriers**: fencing (woven wire, 1.2-1.5 m height, with a bottom apron buried 15-20 cm to prevent digging) excludes ground predators. Netting (bird net, 2-5 cm mesh) protects fruit from avian pests. Row covers (spun-bonded polypropylene or fine mesh) exclude flying insects from seedlings.
 - **Chemical control as last resort**: if monitoring shows pest populations exceeding economic thresholds and biological/physical methods are insufficient, targeted application of botanical insecticides (pyrethrin from Chrysanthemum cinerariifolium, neem oil from Azadirachta indica, rotenone from Derris species) provides short-term knockdown. These break down rapidly in sunlight (half-life of pyrethrin: 12 hours) and have low mammalian toxicity compared to synthetic organophosphates or carbamates.
 
-## Cross-Domain Links
+## Troubleshooting — Pest Management Problems
 
-- **[Domestication & Husbandry](domestication.md)** — selective breeding, training, and health management of guardian and pest control animals
-- **[Plants](../plants/index.md)** — companion planting for pest deterrence (marigolds, basil, nasturtiums)
-- **[Food & Agriculture](../foundations/food-agriculture.md)** — crop protection is the primary economic driver for pest management
-- **[Health](../health/index.md)** — zoonotic disease prevention, tick-borne illness reduction, food safety
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Cats not hunting (fat, lazy, sleeping near house) | Over-fed; bonded to humans not territory; no hunger motivation | Reduce supplementary feeding to 20% of caloric needs; do not pet or socialize barn cats; remove food bowls from living areas |
+| Barn owl boxes empty (no owls nesting) | Boxes in wrong location (too close to human activity, facing wrong direction); no prey base nearby | Move boxes to quiet locations within 200 m of fields/grain storage; face entrance away from prevailing wind; ensure short-grass habitat for hunting |
+| Guardian dog chasing or injuring livestock | Inadequate bonding period; dog bonded to humans not flock; play behavior not corrected | Re-bond: confine dog with 3-5 sheep in small pen for 2-4 weeks; correct chase behavior immediately (verbal "NO" + scruff shake); do not bring dog to farmhouse |
+| Poultry destroying crops instead of eating pests | Released too early (crop seedling stage); too high stocking density; wrong species for crop | Confine poultry until plants are 15-20 cm tall; reduce density to 10-15 per hectare; use guinea fowl (don't scratch) instead of chickens in delicate crops |
+| Rodent population rebounding after terrier clearing | Burrow system not destroyed; re-invasion from surrounding habitat; food source still available | Fill burrow entrances with soil and rocks after terrier session; maintain perimeter cat and owl coverage; store grain in rodent-proof containers (metal or tight-lidded wood) |
+| Guinea fowl wandering off property | Not imprinted to coop; no regular feeding routine at coop; flock too small | Raise keets with a chicken hen to imprint coop location; feed at coop every evening at dusk (guinea fowl return for food); maintain minimum flock of 10-15 (small groups wander more) |
+| Ducks not controlling slug population | Insufficient ducks for infestation level; ducks confined away from wet areas; slug population too large | Increase density to 15-20 ducks per hectare for heavy infestation; ensure access to damp areas, drainage ditches, and garden beds where slugs hide; add Indian Runner ducks (most enthusiastic slug hunters) |
+| Guardian donkey aggressive toward sheep | Intact jack (male); donkey not adapted to flock; individual temperament problem | Use only jennies (females) or gelded jacks; introduce donkey to flock gradually over 2-4 weeks in a small pen; cull donkeys that show unprovoked aggression |
+| Tick population high despite guinea fowl | Guinea fowl density too low; habitat favorable for ticks (tall grass, deer traffic); wildlife reservoir | Increase guinea fowl to 25 per hectare; mow field margins to reduce tick questing habitat; exclude deer with fencing if possible; combine with chemical tick tubes (permethrin-treated cotton for mice) |
+| Stored grain still showing rodent damage with cats present | Cats not patrolling grain storage area; grain stored in open or accessible containers; rodent entry points not sealed | Move cat feeding station to grain storage area; store grain in sealed metal or tight-lidded containers; seal all gaps >6 mm (mice enter through 6 mm gaps) with steel wool and caulk |
+
+## See Also
+
+- [Domestication & Husbandry](domestication.md) — breeding, training, and health management of all pest control animals
+- [Poultry Farming](poultry.md) — detailed management of chickens, ducks, and guinea fowl
+- [Equines](equines.md) — donkeys as guardian animals
+- [Insect Farming](insect-farming.md) — black soldier fly for waste conversion (complements pest control)
+- [Plants](../plants/index.md) — companion planting for pest deterrence (marigolds, basil, nasturtiums)
+- [Food & Agriculture](../foundations/food-agriculture.md) — crop protection is the primary economic driver for pest management
+- [Health](../health/index.md) — zoonotic disease prevention, tick-borne illness reduction
+- [Medicine](../health/medicine.md) — rabies vaccination, parasite treatment for working animals
+- [Construction](../construction/index.md) — predator-proof fencing and grain storage construction
 
 ## Safety
 

@@ -8,8 +8,6 @@
 > **Outputs**: firebrick, magnesia_refractory, alumina_refractory, silica_refractory
 > **Critical**: Yes — refractory linings are required for every high-temperature industrial process: blast furnaces, cement kilns, glass tanks, ceramic kilns, and incinerators. Without refractories, industrial metallurgy and ceramics are impossible.
 
-## Overview
-
 Refractories are heat-resistant ceramic materials that line furnaces, kilns, incinerators, and reactors — maintaining structural integrity at temperatures above 1500°C while resisting chemical attack by molten metals, slags, and hot gases. Without refractories, no metallurgy, glass melting, cement production, or high-temperature chemical processing is possible. They are consumable materials — furnace linings wear and must be periodically replaced. A typical steelmaking shop consumes 6-15 kg of refractories per tonne of steel produced.
 
 ## Prerequisites
@@ -226,7 +224,7 @@ Magnesite bricks (MgO >85%) are the foundation of basic steelmaking refractories
 | Dolomite brick hydration in storage | CaO component absorbs atmospheric moisture | Store in dry conditions; use tar-bonded dolomite for moisture protection |
 | Hot spot on furnace shell | Refractory failure — lining worn through | Shut down and inspect; patch with gunning mix or replace failed bricks |
 
-### See Also
+## See Also
 
 - [Ceramic Kilns](../ceramics/kilns.md) — kiln design and firing (primary consumer of refractories)
 - [Blast Furnace](../metals/blast-furnace.md) — refractory-lined iron smelting

@@ -12,6 +12,14 @@
 
 Semiconductor manufacturing tolerances shrink with every generation. Photolithography lenses demand surface figures better than λ/20 (25 nm). Mask flatness must be within λ/10 per centimeter. Alignment stages require angular positioning to arcsecond accuracy. Producing and verifying these surfaces needs instruments that measure what the eye cannot see, pushing optical fabrication from craft into metrology-grade precision.
 
+### Prerequisites
+
+- [Optics fundamentals](./index.md) — refraction, reflection, and basic lens design
+- [Inspection optics](inspection.md) — visual inspection standards and interferometric testing
+- [Glass production](../glass/index.md) — optical glass blanks, fused silica
+- [Machine tools](../machine-tools/index.md) — precision grinding, lapping, and polishing equipment
+- [Precision metrology](../measurement/precision-metrology.md) — gauge blocks, micrometers, and reference standards
+
 ## Precision Lens Manufacturing
 
 Transforming a glass blank into a lens accurate to a fraction of a wavelength requires a controlled sequence of abrasive operations, each progressively finer, followed by polishing and figuring.
@@ -207,6 +215,17 @@ Before any precision flatness measurement, the optical flat and the test piece m
 - **Environmental sensitivity**: Optical measurements are sensitive to temperature (thermal expansion shifts dimensions), vibration (blurs interferometric fringes), and air turbulence (refractive index variations). Precision measurements require temperature-controlled environments (20±0.5°C) and vibration-isolated tables — infrastructure that may not be available in early bootstrap.
 - **Scale of effort**: Producing a single precision optical flat (λ/10 over 100 mm diameter) requires 20-80 hours of skilled hand work plus testing. This is not a rapid-production process. Optical instrument production is inherently limited by skilled labor availability.
 
+### Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Lens surface figure not converging | Polishing stroke pattern too repetitive or lap not conforming | Vary stroke length and direction; re-press lap to match lens curve; test with interferometer frequently |
+| Scratches on polished surface | Contaminated abrasive or dust in workspace | Clean all surfaces between grit stages; use filtered water; work in clean environment |
+| Fringes not straight (flat test) | Optical flat has astigmatism or edge roll | Focus polishing on high zones identified by fringe pattern; use smaller tool for localized correction |
+| Lens centering error (decentered) | Misalignment between optical axis and mechanical axis | Use centering bell on lathe; check runout with dial indicator; re-cement if compound lens |
+| Coating adhesion failure | Surface contamination before coating | Clean with acetone then isopropyl alcohol; plasma clean immediately before coating |
+| Interferometer fringes unstable | Air turbulence, vibration, or thermal drift | Enclose interferometer path; isolate table from vibration; allow thermal equilibrium (1+ hour) |
+
 ## See Also
 
 - [Optical Coatings](optical-coatings.md) — anti-reflection and mirror coatings for optical components
@@ -214,5 +233,6 @@ Before any precision flatness measurement, the optical flat and the test piece m
 - [Measurement](../measurement/index.md) — precision metrology instruments
 - [Glass](../glass/index.md) — optical glass production
 - [Machine Tools](../machine-tools/index.md) — precision grinding and lapping equipment
+- [Photolithography](../photolithography/index.md) — the driver for precision lens requirements
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Optics](./index.md) • [All Domains](../index.md)*
+[← Back to Optics](index.md)

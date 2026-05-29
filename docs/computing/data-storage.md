@@ -2,7 +2,7 @@
 
 > **Node ID**: computing.data-storage
 > **Domain**: [Computing](./index.md)
-> **Dependencies**: `computing`, [`polymers.thermoplastics`](../polymers/thermoplastics.md)
+> **Dependencies**: [`computing`](./index.md), [`polymers.thermoplastics`](../polymers/thermoplastics.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 35-50
 > **Outputs**: persistent_storage, removable_media, solid_state_memory
@@ -11,6 +11,17 @@
 ## Problem
 
 Computing requires persistent, reliable data storage. Programs, datasets, operating systems, and intermediate results must survive power cycles. Storage technology spans a vast range: from punch cards (the earliest automated data media) through magnetic recording (the backbone of mass storage for seven decades) to solid-state flash memory (the modern standard). Each technology trades off capacity, speed, cost, longevity, and manufacturing complexity. Understanding these tradeoffs is essential for choosing the right storage at each stage of the bootstrapping process.
+
+### Prerequisites
+
+- [Computing fundamentals](./index.md) — digital logic, binary encoding, and basic computer architecture
+- [Paper production](../foundations/paper.md) — for punch cards and paper tape (earliest storage media)
+- [Polymer film](../polymers/thermoplastics.md) — polyester/Mylar substrate for magnetic tape and floppy disks
+- [Iron and steel](../metals/iron-steel.md) — magnetic recording heads, spindle shafts, actuator arms
+- [Magnetic materials](../metals/magnetism.md) — iron oxide particles and cobalt alloys for recording media
+- [Precision machining](../machine-tools/index.md) — sub-micron tolerances for disk spindles and head assemblies
+- [Semiconductor fabrication](./electronic.md) — required for EPROM, EEPROM, and flash memory
+- [Laser technology](../optics/lasers.md) — CD, DVD, and Blu-ray optical storage
 
 ## Bootstrapping Progression
 
@@ -196,7 +207,29 @@ Each layer is roughly 10-100× slower but 10-100× cheaper per bit than the laye
 - **Tape handling**: Magnetic tape stretches under tension, causing data errors. Reel-to-reel tapes must be stored at 18-24°C and 30-50% relative humidity. High humidity causes binder hydrolysis (sticky-shed syndrome): the tape binder absorbs moisture and becomes gummy, sticking to the read head and shedding oxide. Bake affected tapes at 50°C for 8-24 hours to temporarily restore playability. Never touch the recording surface of any magnetic media: skin oils contaminate the head-tape interface.
 - **Data integrity**: All storage media degrade over time. Magnetic media lose signal amplitude (print-through from adjacent layers, thermal demagnetization) at 0.5-2% per decade. Optical discs suffer from disc rot (delamination of the reflective layer in poorly sealed discs). Flash memory loses charge from floating gates over time: typical data retention is 10-20 years at room temperature, but only 1-3 years at elevated temperatures (85°C). Regular data migration (copying to fresh media) is the only reliable archival strategy.
 
----
+### Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Magnetic tape won't read | Binder degradation (sticky-shed), oxide shedding, misalignment | Bake at 50°C for 8-24 hours; clean heads with isopropyl alcohol; check tape tension |
+| Hard disk click of death | Head crash or failing actuator | Immediately power down; no field repair possible. Restore from backup |
+| Floppy disk read errors | Magnetic degradation, dust, oxide loss | Clean drive heads; try another drive; copy recoverable files immediately |
+| Garbled data on tape | Print-through from long storage in spooled state | Retension tape (full forward + rewind); no cure for severe print-through |
+| Flash memory write failures | Wear-out — exceeded endurance cycles | Replace media; check wear-leveling stats; restore from backup |
+| CD/DVD read errors | Disc rot, scratches, dye degradation | Clean disc surface; try slower read speed; resurface if commercially available |
+| EPROM data loss | UV exposure erased floating-gate charge through window | Cover quartz window with opaque label; reprogram if device supports it |
+| Data corruption after power loss | Write in progress when power failed | Use journaling filesystem; check ECC/crc; restore from last known good backup |
+
+### See Also
+
+- [Electromechanical Computing](electromechanical.md) — relay and early computing hardware that used punch cards and paper tape
+- [Electronic Computing](electronic.md) — semiconductor-based computing requiring firmware storage
+- [Semiconductor Applications](../semiconductor/semiconductor-apps.md) — flash and solid-state memory fabrication
+- [Thermoplastics](../polymers/thermoplastics.md) — polyester and Mylar substrates for magnetic media
+- [Magnetism](../metals/magnetism.md) — magnetic recording principles and materials
+- [Precision Instruments](../measurement/precision-instruments.md) — sub-micron machining for disk assemblies
+- [Telecom / Radio](../telecom/radio.md) — data transmission that drove storage demand
+- [Optics / Lasers](../optics/lasers.md) — optical disc read/write technology
+
+[← Back to Computing](index.md)
 

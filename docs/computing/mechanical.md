@@ -8,6 +8,16 @@
 > **Outputs**: calculation_aids
 > **Critical**: No — computing enhances capability but is not strictly required for survival
 
+### Problem
+
+Engineering, navigation, ballistics, and bookkeeping all require arithmetic — lots of it. Hand calculation is slow and error-prone: multiplying two 6-digit numbers takes 2-3 minutes by hand, and a single digit transposition invalidates the result. Mechanical calculation aids and computing machines automate arithmetic, trading mechanical complexity for speed and reliability. From the abacus (addition/subtraction at 10-20 operations per second) through the slide rule (multiplication in 5 seconds) to the difference engine (tabulating polynomial tables without human intervention), each device extends the range of computation available before electronic computers exist.
+
+### Prerequisites
+
+- [Machine tools](../machine-tools/index.md) — precision gear cutting, milling, and turning for mechanisms
+- [Mathematics](../mathematics/core-mathematics.md) — logarithms, polynomials, and numerical methods
+- [Metals](../metals/index.md) — brass, steel, and phosphor bronze for gears, springs, and frames
+
 ### Manual Calculation Aids
 
 **Abacus**:
@@ -217,7 +227,23 @@ Mechanical calculators represent numbers through physical position:
 - **3D cam (two-input function)**: A cylindrical cam with a groove or surface that varies in depth along its length (input 1: rotation) and along its axis (input 2: linear shift). A follower riding the groove outputs f(x, y). Used in fire control to compute range corrections as a function of both target range and wind speed.
 - **Manufacturing**: Cut cam profiles on a milling machine using a dividing head for angular positioning. For each angular position, set the cutter to the computed radial depth. Finish with filing and lapping. Hardened steel (Rockwell C 55-60) for wear resistance. The profile must be accurate to ±0.01 mm to achieve ±0.1% function accuracy.
 
----
+### Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Slide rule reading drifts | Cursor hairline misaligned or scales worn | Realign cursor hairline against scale ends; replace worn rule; check for thermal expansion |
+| Arithmometer gives wrong result | Jammed carry mechanism or worn gear teeth | Disassemble and clean carry levers; inspect gear teeth for damage; reassemble with light oil |
+| Difference engine carry fails | Spring fatigue on carry lever or tooth worn | Replace carry lever spring; re-harden tooth surfaces; verify timing alignment |
+| Ball-and-disk integrator output error | Ball carriage slipping on disk (oil contamination) | Clean disk and ball with solvent; check ball spring tension; verify disk surface flatness |
+| Cam follower skips | Weak return spring or cam profile too steep | Increase follower spring tension; reduce cam lift rate; check for surface wear |
+| Gear train backlash exceeds tolerance | Bearing wear or gear tooth wear | Replace worn bearings; adjust gear mounting to reduce center distance; re-cut worn gears |
 
+## See Also
+
+- [Electromechanical Computing](electromechanical.md) — relay-based computing: the next step beyond mechanical
+- [Electronic Computing](electronic.md) — vacuum tube and transistor computing
+- [Machine Tools](../machine-tools/index.md) — gear cutting and precision machining
+- [Mathematics](../mathematics/core-mathematics.md) — logarithms, polynomials, and numerical methods
+- [Metals](../metals/index.md) — materials for precision mechanisms
+
+[← Back to Computing](index.md)

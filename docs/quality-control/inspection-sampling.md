@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 40-100+
 > **Outputs**: sampling_plans, aql_tables, inspection_procedures, acceptance_criteria, switching_rules
+> **Critical**: No — 100% inspection is a viable (expensive) fallback; sampling plans reduce cost and time but are not strictly necessary
 
 ## Problem
 

@@ -3,7 +3,7 @@
 > **Node ID**: glass.photomask-substrates
 > **Domain**: [Glass](./index.md)
 > **Dependencies**: [`glass.advanced`](advanced.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md)
-> **Enables**: [`photolithography`](../photolithography/index.md), [`semiconductors`](../semiconductors/index.md)
+> **Enables**: [`photolithography`](../photolithography/index.md), [`semiconductors`](../electronics/index.md)
 > **Timeline**: Years 40-70
 > **Outputs**: photomask_blanks, ule_glass, precision_optical_substrates
 > **Critical**: Yes — photomask substrates directly determine minimum feature size and yield in IC fabrication; no photolithography without them
@@ -231,7 +231,7 @@ Damaged or obsolete photomask blanks can be reclaimed, reducing the cost of subs
 - [Optical coatings](../optics/optical-coatings.md) — chromium and anti-reflective coating application
 - [Precision instruments](../optics/precision-instruments.md) — interferometric flatness measurement
 - [Photolithography](../photolithography/index.md) — mask use in semiconductor fabrication
-- [Semiconductors](../semiconductors/index.md) — IC manufacturing overview
+- [Semiconductors](../electronics/index.md) — IC manufacturing overview
 - [Inspection](../optics/inspection.md) — defect detection and surface quality standards
 
 [← Back to Glass](index.md)

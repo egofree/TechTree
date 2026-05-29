@@ -3,7 +3,7 @@
 > **Node ID**: metals.powder-metallurgy
 > **Domain**: [Metals](./index.md)
 > **Dependencies**: [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md), [`energy.electric-furnaces`](../energy/electric-furnaces.md), [`metals.alloys`](alloys.md)
-> **Enables**: [`measurement`](../measurement/index.md), [`semiconductors`](../semiconductors/index.md)
+> **Enables**: [`measurement`](../measurement/index.md), [`semiconductors`](../electronics/index.md)
 > **Timeline**: Years 30-60
 > **Outputs**: tungsten products, cemented carbides, PM structural parts, MIM components, additive manufactured parts
 > **Critical**: Yes — tungsten filaments, cemented carbide tooling, and specialty alloys cannot be produced any other way
@@ -235,8 +235,8 @@ SHS (also called combustion synthesis) exploits highly exothermic powder reactio
 - [Electric furnaces](../energy/electric-furnaces.md) — sintering and heat treatment equipment
 - [Machine tools](../machine-tools/index.md) — post-sintering grinding and machining
 - [Casting](../machine-tools/casting.md) — alternative forming method for lower-melting metals
-- [Copper](copper.md) — conductor materials for electrical applications
-- [Semiconductors](../semiconductors/index.md) — high-purity silicon and germanium production
+- [Copper](copper-bronze.md) — conductor materials for electrical applications
+- [Semiconductors](../electronics/index.md) — high-purity silicon and germanium production
 - [Measurement](../measurement/index.md) — density, hardness, and dimensional inspection
 
 [← Back to Metals](index.md)

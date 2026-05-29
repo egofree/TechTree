@@ -3,7 +3,7 @@
 > **Node ID**: measurement.optical-instruments
 > **Domain**: [Measurement](./index.md)
 > **Dependencies**: [`measurement`](./index.md), [`optics.inspection`](../optics/inspection.md)
-> **Enables**: [`photolithography`](../photolithography/index.md), [`semiconductors`](../semiconductors/index.md)
+> **Enables**: [`photolithography`](../photolithography/index.md), [`semiconductors`](../electronics/index.md)
 > **Timeline**: Years 30-45
 > **Outputs**: spectroscopy, refractometry, polarimetry, photometry, interferometry
 > **Critical**: No — measurement improves quality but civilization can function without precision instruments

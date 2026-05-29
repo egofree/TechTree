@@ -16,7 +16,7 @@ A bootstrapping civilization needs reliable sources of labor, food, fiber, and f
 
 - [Livestock domestication](domestication.md) — captive breeding populations of cattle, sheep, goats, pigs, or poultry
 - [Food and agriculture](../foundations/food-agriculture.md) — fodder production (pasture, hay, grain) to feed stock through winter
-- [Basic construction](../foundations/shelter.md) — barns, fences, and shelters for housing and containment
+- [Basic construction](../foundations/index.md) — barns, fences, and shelters for housing and containment
 - [Water access](../agriculture/irrigation.md) — reliable clean water supply (40-100 L/day per cattle head)
 - [Medicine](../health/medicine.md) — basic disease diagnosis and treatment capability
 - [Iron working](../metals/iron-steel.md) — for horseshoes, harness hardware, fencing staples, and tools

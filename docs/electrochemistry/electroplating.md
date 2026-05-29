@@ -3,7 +3,7 @@
 > **Node ID**: electrochemistry.electroplating
 > **Domain**: [Electrochemistry & Plating](./index.md)
 > **Dependencies**: [`chemistry.acids`](../chemistry/acids.md)
-> **Enables**: [`electrochemistry.electroplating.copper-damascene`](copper-damascene.md)
+> **Enables**: [`electrochemistry.electroplating.copper-damascene`](../metals/copper-bronze.md)
 > **Timeline**: Years 30-70
 > **Outputs**: copper_interconnects, plated_nickel, plated_gold, plated_tin, copper_filled_vias
 > **Critical**: Yes — copper damascene electroplating is the only practical method to fill high-aspect-ratio interconnect features below 250 nm

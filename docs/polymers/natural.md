@@ -16,7 +16,7 @@ Industrial machinery requires flexible, elastic materials that can seal gaps, tr
 
 - [Foundations](../foundations/index.md) — basic agricultural and processing infrastructure
 - [Distillation](../chemistry/distillation.md) — ethanol for shellac dissolution and ammonia for latex preservation
-- [Sulfur production](../chemistry/elements.md) — cross-linking agent for vulcanization
+- [Sulfur production](../chemistry/index.md) — cross-linking agent for vulcanization
 - [Zinc oxide](../chemistry/alkalis.md) — accelerator activator in vulcanization
 - Tropical climate (for *Hevea*) or arid/temperate regions (for guayule/dandelion alternatives)
 

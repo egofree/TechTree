@@ -18,7 +18,7 @@ Aluminum components in corrosive, high-wear, or high-purity environments need su
 - [Aluminum production](../metals/aluminum.md) — aluminum workpieces and alloy selection
 - [Electricity](../energy/electricity.md) — DC power supply (12-75 V, 500-10,000 A)
 - [Water treatment](../chemistry/alkalis.md) — clean rinse water and sealing bath chemistry
-- [Titanium](../metals/titanium.md) — for titanium anodizing applications
+- [Titanium](../metals/index.md) — for titanium anodizing applications
 
 ### Overview
 

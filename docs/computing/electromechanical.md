@@ -17,8 +17,8 @@ Before electronic computers, automated computation and control require electrome
 - [Mechanical computing](mechanical.md) — cams, linkages, governors, and mechanical automation
 - [Electricity](../energy/electricity.md) — power generation and distribution for relay and solenoid systems
 - [Iron and steel](../metals/iron-steel.md) — relay contacts, cam blanks, spring wire, armature cores
-- [Copper wire](../metals/copper.md) — relay coils, motor windings, solenoid coils
-- [Paper production](../foundations/paper.md) — punch card stock and paper tape
+- [Copper wire](../metals/copper-bronze.md) — relay coils, motor windings, solenoid coils
+- [Paper production](../chemistry/pulp-chemicals.md) — punch card stock and paper tape
 - [Precision machining](../machine-tools/index.md) — cam profiles, drum bearings, relay armature tolerances
 
 ### Automation & Control
@@ -232,7 +232,7 @@ Before electronic computers, automated computation and control require electrome
 - [Electronic Computing](electronic.md) — transistor-based computing that replaced relay systems
 - [Data Storage](data-storage.md) — punch cards, magnetic media, and solid-state storage
 - [Electricity](../energy/electricity.md) — power generation for electromechanical systems
-- [Precision Instruments](../measurement/precision-instruments.md) — meters, galvanometers, and measurement
+- [Precision Instruments](../optics/precision-instruments.md) — meters, galvanometers, and measurement
 - [Telecom / Radio](../telecom/radio.md) — telegraph and telephone switching systems
 - [Metals / Iron and Steel](../metals/iron-steel.md) — relay frames, contacts, and spring materials
 - [Machine Tools](../machine-tools/index.md) — cam cutting, precision boring, and grinding

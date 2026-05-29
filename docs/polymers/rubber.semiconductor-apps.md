@@ -19,7 +19,7 @@ Semiconductor fabrication equipment demands elastomeric seals, gaskets, O-rings,
 - [Vulcanization](rubber.vulcanization.md) — cross-linking for heat and chemical resistance
 - [Acid production](../chemistry/acids.md) — HF, H₂SO₄, HNO₃ for wet process chemistry
 - [Vacuum technology](../gas-handling/vacuum.md) — vacuum seal requirements and outgassing
-- [Fluorine chemistry](../chemistry/fluorine-chemistry.md) — required for FKM and FFKM synthesis
+- [Fluorine chemistry](../chemistry/index.md) — required for FKM and FFKM synthesis
 
 ### Chemical Resistance Properties Table
 

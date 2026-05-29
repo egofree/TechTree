@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 60-100+
 > **Outputs**: foup_transport, agv_systems, overhead_hoist_transport, fab_logistics
+> **Critical**: No — manual transport with push carts works at lower throughput; automation increases fab productivity but is not a prerequisite
 
 ## Problem
 

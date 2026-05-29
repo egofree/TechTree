@@ -16,8 +16,8 @@ Electrical systems cannot be built or maintained without measurement. You need t
 
 - [Electricity](../energy/electricity.md) — power generation, voltage, current, and circuit fundamentals
 - [Measurement fundamentals](./index.md) — calibration philosophy and traceability
-- [Copper wire](../metals/copper.md) — fine wire for galvanometer coils and instrument windings
-- [Magnets](../metals/magnetism.md) — permanent magnets for meter movements
+- [Copper wire](../metals/copper-bronze.md) — fine wire for galvanometer coils and instrument windings
+- [Magnets](../metals/index.md) — permanent magnets for meter movements
 - [Glass](../glass/index.md) — CRT envelopes for oscilloscopes
 
 ## Galvanometer (D'Arsonval Movement)

@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 60-100+
 > **Outputs**: recipe_management, lot_tracking, process_sequencing, fault_detection, run_to_run_control
+> **Critical**: No — manual recipe execution and lot tracking are possible; automated control improves yield and consistency but does not enable fundamentally new capabilities
 
 ## Problem
 
@@ -38,6 +39,70 @@ A semiconductor wafer undergoes 400-700 individual process steps over 4-8 weeks 
 | FDC (real-time) | Seconds | High | High | Critical tools with fast process dynamics | Requires baseline data and model training |
 | R2R control | Per-run | Medium | Medium | Processes with systematic drift (CMP, litho) | Cannot compensate sudden shifts or random excursions |
 | DOE optimization | Weeks (one-time) | Medium | High | New process development, yield improvement | Not a continuous control method; periodic application |
+
+**SPC Monitoring**:
+
+**Strengths**:
+- Lowest implementation cost — control charts require only a spreadsheet and metrology data
+- Well-understood statistical theory — standard rules (Western Electric, Nelson) for out-of-control detection
+- Applicable to any process parameter — universal method for long-term stability monitoring
+- Requires minimal computing infrastructure — paper charts still work
+- Industry-standard training widely available — shortest learning curve of any control method
+
+**Weaknesses**:
+- Lagging indicator — detects process shifts only after affected lots have been processed
+- Cannot identify root cause — only flags that a shift occurred, not why
+- Slow response time (hours to days) — unsuitable for rapid processes where defects accumulate quickly
+- Requires statistically significant sample sizes — false alarms erode operator confidence if control limits are poorly set
+- Does not prevent defects — only detects them after the fact
+
+**FDC (Real-Time Fault Detection and Classification)**:
+
+**Strengths**:
+- Fastest detection (seconds) — catches anomalies within a single wafer processing cycle
+- Prevents defective wafers — can halt processing before damage accumulates across a lot
+- Multivariate models capture correlated faults that univariate SPC misses
+- Fault classification enables rapid root-cause response — directs maintenance to the right subsystem
+- Highest return on investment for high-value wafers — one prevented scrap lot pays for months of FDC operation
+
+**Weaknesses**:
+- Highest implementation cost — requires real-time data infrastructure, model training, and dedicated servers
+- Requires 50-100 baseline runs per chamber before models are reliable — not usable on day one
+- Model maintenance burden — chamber cleans, part replacements, and recipe changes require model retraining
+- False alarm risk — poorly tuned models alarm on normal process variation, causing unnecessary holds
+- Complex to deploy — needs SECS/GEM data streaming, signal processing, and statistical expertise
+
+**R2R (Run-to-Run) Control**:
+
+**Strengths**:
+- Compensates systematic drift proactively — keeps process centered on target between runs
+- Moderate implementation cost — leverages existing metrology data, no real-time infrastructure needed
+- Proven algorithms (EWMA) — well-understood control theory with predictable behavior
+- Significant improvement for drift-prone processes — CMP thickness variation reduced 4× with R2R
+- Works with existing equipment — only requires metrology feedback loop, no tool modifications
+
+**Weaknesses**:
+- Cannot compensate sudden shifts or random excursions — only addresses gradual, predictable drift
+- Model-dependent — if the process gain (b) is wrong, R2R drives the process further from target
+- Requires post-process metrology — feedback delay means some wafers processed with suboptimal recipe
+- Safety risk if adjustments are unchecked — R2R must never modify safety limits, only process parameters
+- Not applicable to all process steps — only useful where measurable output correlates to adjustable input
+
+**DOE (Design of Experiments)**:
+
+**Strengths**:
+- Systematically explores parameter space — efficient alternative to one-factor-at-a-time experimentation
+- Identifies interactions between factors — discovers non-obvious parameter dependencies
+- One-time investment — optimized process recipe then runs without further DOE intervention
+- Quantifies factor significance — statistical analysis ranks which parameters matter most
+- Essential for new process development — no other method efficiently characterizes a multi-parameter process window
+
+**Weaknesses**:
+- Not a continuous control method — periodic application only, does not monitor ongoing production
+- Requires statistical expertise — fractional factorial designs, ANOVA, and response surface methodology are specialized skills
+- Time-consuming — full DOE on a process with 6 factors requires 16-32 experimental runs plus analysis time
+- Experimental wafers are expensive — DOE consumes tool time and test wafers that could produce revenue
+- Results may not generalize — DOE performed on one chamber may not transfer to another without re-qualification
 
 ## Recipe Management
 

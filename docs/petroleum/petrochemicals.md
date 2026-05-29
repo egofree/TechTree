@@ -83,8 +83,38 @@ The three primary aromatics — benzene, toluene, and xylene (BTX) — are produ
 Mixed xylenes contain three isomers with very close boiling points: para-xylene (px, bp 138.4°C), meta-xylene (mx, bp 139.1°C), ortho-xylene (ox, bp 144.4°C), and ethylbenzene (eb, bp 136.2°C). Para-xylene is by far the most valuable (PET polyester feedstock) and must be separated to >99.7% purity.
 
 **Separation methods**:
+
 - **Adsorptive separation (Parex process)**: Molecular sieve adsorbent selectively adsorbs para-xylene from mixed xylenes in a simulated moving bed (SMB) system. Desorbed with para-diethylbenzene. Produces >99.7% pure para-xylene at 97% recovery per pass. The dominant commercial technology.
+
+  **Strengths**:
+  - Highest recovery per pass (97%) — minimizes recycle volume and isomerization energy
+  - Product purity >99.7% meets PET feedstock specification directly
+  - Continuous process — simulated moving bed operates 24/7 without batch cycling
+  - Lower energy consumption than crystallization — operates near ambient temperature
+  - Proven at scale — >90% of global para-xylene produced via Parex-type units
+
+  **Weaknesses**:
+  - Requires specialized molecular sieve adsorbent — not available in early bootstrap
+  - Simulated moving bed system is mechanically complex — 24-36 rotary valves, adsorbent chambers 6-12 m diameter
+  - Desorbent (para-diethylbenzene) must be recovered and recycled — adds distillation column and energy
+  - Adsorbent degrades over time (5-7 year life) — replacement requires unit shutdown
+  - Not selective between meta- and ortho-xylene — only separates para-xylene from the mixture
+
 - **Crystallization**: Para-xylene has the highest freezing point (+13.3°C vs. -48°C for mx and -25°C for ox). Cool to -60 to -70°C; para-xylene crystallizes first. Filter or centrifuge. Lower recovery per pass (~60%) but simpler technology.
+
+  **Strengths**:
+  - Mechanically simpler — crystallizer, centrifuge, and refrigeration system (no adsorbent or desorbent)
+  - No specialized materials — standard steel equipment with refrigeration compressor
+  - Bootstrap-friendly — can be built with moderate industrial capability
+  - Higher product purity achievable in single stage (crystals are physically separated from mother liquor)
+  - No desorbent contamination risk in the product
+
+  **Weaknesses**:
+  - Low single-pass recovery (~60%) — requires 3-4 crystallize-melt-recrystallize cycles, increasing energy cost
+  - High energy consumption — refrigeration to -60 to -70°C requires significant compressor power
+  - Mother liquor handling — eutectic limits prevent crystallizing all para-xylene; remaining liquid must be isomerized and recycled
+  - Slower throughput — batch or semi-batch operation limits production rate vs. continuous Parex
+  - Crystal washing losses — adhering mother liquor on crystal surfaces reduces purity unless washed (which loses yield)
 
 **Isomerization**: After extracting para-xylene, the remaining xylenes (now depleted in para-xylene) are isomerized back toward equilibrium over a Pt/zeolite catalyst at 250-400°C, regenerating para-xylene for another extraction cycle. Overall para-xylene yield from mixed xylenes: 85-90% after multiple extract-isomerize cycles.
 

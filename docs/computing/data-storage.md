@@ -15,13 +15,13 @@ Computing requires persistent, reliable data storage. Programs, datasets, operat
 ### Prerequisites
 
 - [Computing fundamentals](./index.md) — digital logic, binary encoding, and basic computer architecture
-- [Paper production](../foundations/paper.md) — for punch cards and paper tape (earliest storage media)
+- [Paper production](../chemistry/pulp-chemicals.md) — for punch cards and paper tape (earliest storage media)
 - [Polymer film](../polymers/thermoplastics.md) — polyester/Mylar substrate for magnetic tape and floppy disks
 - [Iron and steel](../metals/iron-steel.md) — magnetic recording heads, spindle shafts, actuator arms
-- [Magnetic materials](../metals/magnetism.md) — iron oxide particles and cobalt alloys for recording media
+- [Magnetic materials](../metals/index.md) — iron oxide particles and cobalt alloys for recording media
 - [Precision machining](../machine-tools/index.md) — sub-micron tolerances for disk spindles and head assemblies
 - [Semiconductor fabrication](./electronic.md) — required for EPROM, EEPROM, and flash memory
-- [Laser technology](../optics/lasers.md) — CD, DVD, and Blu-ray optical storage
+- [Laser technology](../optics/index.md) — CD, DVD, and Blu-ray optical storage
 
 ## Bootstrapping Progression
 
@@ -224,12 +224,12 @@ Each layer is roughly 10-100× slower but 10-100× cheaper per bit than the laye
 
 - [Electromechanical Computing](electromechanical.md) — relay and early computing hardware that used punch cards and paper tape
 - [Electronic Computing](electronic.md) — semiconductor-based computing requiring firmware storage
-- [Semiconductor Applications](../semiconductor/semiconductor-apps.md) — flash and solid-state memory fabrication
+- [Semiconductor Applications](../electronics/index.md) — flash and solid-state memory fabrication
 - [Thermoplastics](../polymers/thermoplastics.md) — polyester and Mylar substrates for magnetic media
-- [Magnetism](../metals/magnetism.md) — magnetic recording principles and materials
-- [Precision Instruments](../measurement/precision-instruments.md) — sub-micron machining for disk assemblies
+- [Magnetism](../metals/index.md) — magnetic recording principles and materials
+- [Precision Instruments](../optics/precision-instruments.md) — sub-micron machining for disk assemblies
 - [Telecom / Radio](../telecom/radio.md) — data transmission that drove storage demand
-- [Optics / Lasers](../optics/lasers.md) — optical disc read/write technology
+- [Optics / Lasers](../optics/index.md) — optical disc read/write technology
 
 [← Back to Computing](index.md)
 

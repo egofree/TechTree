@@ -139,9 +139,20 @@ The earlier alternative to screw propellers.
 
 **Stern paddle wheel**: Single wheel at the stern. Used for river boats. Simpler machinery (one wheel) but poorer steering.
 
-**Efficiency**: 35-50% (significantly worse than screw propellers). Losses from paddle entry/exit splash, lifting water, and air entrainment.
+**Strengths**:
+- Simple mechanical connection — crankshaft drives paddle wheel directly via chain or gear, no complex shaft seals or stern tubes
+- Works in shallow water — paddle dip is adjustable, suitable for rivers and coastal routes
+- Proven at low technology levels — wooden paddles on iron wheels achievable with basic foundry capability
+- Easy maintenance — all moving parts above the waterline, accessible without dry-docking
+- Reverse by reversing engine rotation — no need for reversing gear or controllable-pitch mechanism
 
-**Limitations**: Paddle wheels are inefficient, exposed to damage, and cause the vessel to roll when one wheel dips deeper than the other (especially in beam seas). They also limit the ship's beam (width) and reduce cargo space. Screw propellers replace paddle wheels by the 1860s for ocean-going vessels.
+**Weaknesses**:
+- Low efficiency (35-50%) — significant energy lost to paddle entry/exit splash, lifting water, and air entrainment
+- Roll instability in beam seas — one wheel dips deeper than the other, causing the vessel to heel
+- Limits ship beam (width) — paddle boxes occupy valuable deck space and reduce cargo capacity
+- Exposed to damage — wheels protrude from the hull and are vulnerable to collision, grounding, and enemy fire
+- Speed variation with vessel loading — as the ship sits lower in the water, paddle immersion increases, changing efficiency
+- Obsolete for ocean-going vessels by the 1860s — screw propellers are superior in every respect for open water
 
 ### Internal Combustion Engine Propulsion
 

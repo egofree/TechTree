@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 30-70
 > **Outputs**: respiratory_protection, chemical_suits, glove_selection, eye_protection, ppe_programs
+> **Critical**: No — basic improvised protection enables hazardous work; formal PPE programs dramatically reduce injury rates but are not a prerequisite for civilization-level capabilities
 
 ## Problem
 

@@ -18,7 +18,7 @@ Wired communication (telegraph, telephone) requires physical infrastructure — 
 - [Electric Telegraph](electric-telegraph.md) — Morse code, keying techniques, and telegraph operating practice
 - [Glass](../glass/index.md) — vacuum tube envelopes and Leyden jar capacitors
 - [Metals](../metals/index.md) — copper wire for coils and antennas, brass for spark gaps, tungsten for tube filaments
-- [Semiconductor materials](../semiconductor/index.md) — mineral crystals for detector diodes (galena, carborundum)
+- [Semiconductor materials](../electronics/index.md) — mineral crystals for detector diodes (galena, carborundum)
 
 ## Overview
 
@@ -217,7 +217,7 @@ Crystal receiver + low-power spark or tube transmitter (0.1-0.5 kW). Ship-to-sho
 - [Submarine Cables](submarine-cables.md) — undersea cable communication
 - [Electricity](../energy/electricity.md) — electrical generation and distribution
 - [Glass](../glass/index.md) — glass for vacuum tube envelopes and Leyden jars
-- [Semiconductor](../semiconductor/index.md) — crystal detectors and early solid-state devices
+- [Semiconductor](../electronics/index.md) — crystal detectors and early solid-state devices
 - [Electromechanical Computing](../computing/electromechanical.md) — relay-based switching for telecom networks
 - [Data Storage](../computing/data-storage.md) — magnetic recording for signal logging
 - [Measurement / Electrical Instruments](../measurement/electrical-instruments.md) — galvanometers, oscilloscopes, and signal measurement

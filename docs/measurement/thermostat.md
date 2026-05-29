@@ -1457,4 +1457,4 @@ The PID algorithm in discrete form: output(n) = Kp × e(n) + Ki × Σe(i) × Δt
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Measurement](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*

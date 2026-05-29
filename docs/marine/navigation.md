@@ -18,7 +18,7 @@ Crossing open ocean beyond sight of land requires knowing your position (latitud
 - [Metals](../metals/index.md) — iron and steel for compass needles, sextant frames, and chronometer parts
 - [Glass](../glass/index.md) — lenses for sextants, telescopes, and magnifying reading instruments
 - [Measurement instruments](../measurement/index.md) — precision machining for sextant arcs and chronometer movements
-- [Mathematics](../knowledge/mathematics.md) — trigonometry, spherical geometry, and logarithm tables
+- [Mathematics](../mathematics/core-mathematics.md) — trigonometry, spherical geometry, and logarithm tables
 
 Marine navigation is the science and craft of determining position and directing a vessel's course across water. The progression from coastal piloting to celestial navigation to dead reckoning tracks the development of instruments, mathematics, and timekeeping.
 

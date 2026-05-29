@@ -239,7 +239,7 @@ The compounding nature of this sequence is its greatest strength: once the surfa
 - [Bearings & Abrasives](bearings-abrasives.md) — bearing materials and grinding wheels
 - [Machining](machining.md) — cutting operations on lathe, mill, and shaper
 - [Metals / Iron and Steel](../metals/iron-steel.md) — cast iron and tool steel for machine construction
-- [Precision Instruments](../measurement/precision-instruments.md) — gauge blocks, micrometers, and calibration
+- [Precision Instruments](../optics/precision-instruments.md) — gauge blocks, micrometers, and calibration
 - [Forming](../metals/forming.md) — forging and rolling of bar stock for shafts and leadscrews
 - [Measurement](../measurement/index.md) — surface plates, straightedges, and metrology fundamentals
 

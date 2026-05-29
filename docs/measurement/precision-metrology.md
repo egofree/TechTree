@@ -10,7 +10,14 @@
 
 ## Problem
 
-Precision manufacturing (Machine Tools) and all semiconductor work requires consistent, calibrated measurement. Without standardized units and measuring instruments, interchangeable parts and repeatable processes are impossible.
+Precision manufacturing (Machine Tools) and all semiconductor work requires consistent, calibrated measurement. Without standardized units and measuring instruments, interchangeable parts and repeatable processes are impossible. A machinist who cannot verify dimensions to ±0.01 mm cannot produce interchangeable parts. A semiconductor fab without calibrated flow meters and temperature sensors cannot control a process window.
+
+### Prerequisites
+
+- [Foundations](../foundations/index.md) — basic counting, arithmetic, and record-keeping
+- [Machine tools / Casting](../machine-tools/casting.md) — cast iron for surface plates and straightedges
+- [Metals](../metals/index.md) — steel for gauge blocks, invar for length standards
+- [Optics / Precision Instruments](../optics/precision-instruments.md) — interferometric measurement and optical flats
 
 ## Technologies & Systems
 
@@ -206,6 +213,17 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 - **Skill dependency**: Precision measurement is a manual skill requiring years of training. Reading a vernier scale to 0.02 mm, interpreting interferometric fringes, and correctly applying gauge blocks for comparative measurement all require trained operators. Automation (coordinate measuring machines, laser interferometers) reduces but does not eliminate skill requirements.
 - **Traceability gap**: In a bootstrap setting, no national metrology institute exists to provide primary standards. Local standards must be manufactured and maintained with internal procedures. The accuracy of all measurements traces back to the quality of these local standards, which may have uncertainties orders of magnitude larger than in a developed metrology infrastructure.
 
+### Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Gauge blocks not wringing | Contaminated surfaces (oil, dust, fingerprints) | Clean blocks with lens tissue and solvent; dry thoroughly; wring with sliding motion |
+| Micrometer zero drift | Anvil faces worn or spindle bent | Recalibrate zero setting; check anvil faces with optical flat; replace if scored |
+| Surface plate out of flat | Wear in high-use areas or thermal distortion | Re-scrape surface plate using three-plate method; maintain 20±1°C ambient |
+| Vernier reading inconsistent | Parallax error or incorrect reading technique | View vernier scale perpendicular to face; practice with known gauge blocks; consider digital caliper |
+| Interferometric fringes distorted | Air turbulence, vibration, or thermal gradient | Enclose measurement path; isolate table from vibration; allow thermal equilibration |
+| Calibrated standard disagrees with instrument | Instrument drifted since last calibration | Recheck against second reference standard; adjust instrument or recalibrate; record as-found data |
+
 ## See Also
 
 - [Temperature & Pressure](temperature-pressure.md) — thermocouples, pressure gauges, barometers
@@ -213,7 +231,6 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 - [Electrical Instruments](electrical-instruments.md) — multimeters, oscilloscopes, bridges
 - [Machine Tools](../machine-tools/index.md) — feeds, speeds, tolerances — the primary application of metrology
 - [Optics](../optics/index.md) — optical flats, precision instruments, interferometric testing
+- [Silicon Crystal Growth](../silicon/crystal-growth.md) — precision metrology in semiconductor manufacturing
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*
+[← Back to Measurement](index.md)

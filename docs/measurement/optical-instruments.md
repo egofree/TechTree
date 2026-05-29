@@ -24,7 +24,7 @@ Chemical analysis, material identification, and dimensional metrology at sub-mic
 
 A spectroscope disperses white light into its constituent wavelengths so an observer can see individual spectral lines. Each chemical element produces a unique set of lines at characteristic wavelengths, the definitive method for material identification.
 
-### Prism Spectroscope
+## Prism Spectroscope
 
 A triangular prism of crown glass (refractive index n ≈ 1.52) or flint glass (n ≈ 1.62) separates wavelengths because refraction angle depends on wavelength. Angular dispersion for crown glass is approximately 2° across the visible spectrum (400-700 nm). This is enough to resolve the sodium D doublet at 589.0 and 589.6 nm under moderate magnification, though the two lines appear as one in low-quality instruments.
 
@@ -32,7 +32,7 @@ A triangular prism of crown glass (refractive index n ≈ 1.52) or flint glass (
 
 **Resolving power**: R = λ/Δλ. For a 60° flint glass prism with 50 mm illuminated base, R ≈ 5000 at 500 nm, resolving lines separated by 0.1 nm. Sufficient for most elemental identification tasks.
 
-### Diffraction Grating Spectroscope
+## Diffraction Grating Spectroscope
 
 A diffraction grating is a surface with many parallel grooves. Light diffracts from each groove, and constructive interference produces bright maxima at angles satisfying d·sin(θ) = mλ, where d is the groove spacing, m is the diffraction order, and λ is the wavelength.
 
@@ -57,11 +57,11 @@ A spectrometer adds quantitative measurement to the spectroscope. It records the
 
 Colorimetry quantifies color, linking visual perception to measurable optical properties.
 
-### Visual Color Systems
+## Visual Color Systems
 
 The **[Munsell system](../glossary/munsell-system.md)** organizes colors by three perceptual attributes: hue (angle around color wheel, 10 steps), value (lightness, 0=black to 10=white), and chroma (saturation, 0=neutral to maximum varies by hue). Munsell color charts provide physical reference chips. An observer matches a sample to the nearest chip under standardized illumination (CIE illuminant C, representing average daylight). Accuracy depends on observer skill and consistent lighting.
 
-### CIE 1931 XYZ Color Space
+## CIE 1931 XYZ Color Space
 
 The Commission Internationale de l'Éclairage defined three color-matching functions x̄(λ), ȳ(λ), z̄(λ) based on psychophysical experiments with human observers. Any spectral power distribution S(λ) maps to XYZ tristimulus values by integration:
 
@@ -69,7 +69,7 @@ X = ∫ S(λ)·x̄(λ)·dλ, Y = ∫ S(λ)·ȳ(λ)·dλ, Z = ∫ S(λ)·z̄(λ)�
 
 The Y value equals luminance (perceived brightness). Chromaticity coordinates x = X/(X+Y+Z) and y = Y/(X+Y+Z) map color to the familiar horseshoe-shaped CIE chromaticity diagram. This is the mathematical foundation for all modern color specification.
 
-### Filter Photometer
+## Filter Photometer
 
 A filter photometer measures light transmission through a sample at specific wavelength bands. Light source (tungsten lamp, color temperature 2800-3200 K) → bandpass filter (10 nm bandwidth, center wavelengths selected for the application) → sample cuvette (10-50 mm path length, optical glass) → photodetector (selenium cell or silicon photodiode). Measure reference intensity I₀ (no sample) and sample intensity I, then absorbance A = -log₁₀(I/I₀). Beer-Lambert law: A = ε·c·l, where ε is molar absorptivity, c is concentration, and l is path length. Concentration follows directly from measured absorbance.
 
@@ -77,13 +77,13 @@ A filter photometer measures light transmission through a sample at specific wav
 
 A refractometer measures the refractive index of a liquid or solid, which relates directly to composition and purity.
 
-### Abbé Refractometer
+## Abbé Refractometer
 
 The Abbé refractometer measures refractive index by the critical angle method. A thin layer of sample liquid contacts the hypotenuse face of a high-index glass prism (n ≈ 1.75). Light enters through the lower prism at varying angles. At the critical angle, light grazing the sample-prism interface refracts into the prism at the maximum angle. The telescope sees a sharp boundary between bright and dark fields. The boundary position indicates the critical angle, and from it the sample's refractive index.
 
 **Performance**: Refractive index accuracy ±0.0001. Range: n = 1.300 to 1.700. Temperature control critical (±0.2°C water jacket), since refractive index changes by ~0.0004/°C for most liquids.
 
-### BRIX Scale
+## BRIX Scale
 
 For sugar solutions, refractive index maps to the BRIX scale (percent sucrose by weight, 0-95%). Pure water reads 0°Brix. Fully concentrated sugar syrup reads approximately 80-85°Brix. The scale is standardized to 20°C. Each 0.0001 refractive index unit corresponds to roughly 0.05°Brix. Widely used in food processing, fermentation monitoring, and chemical production quality control.
 
@@ -101,14 +101,14 @@ A polarimeter measures optical rotation: the angle by which an optically active 
 
 Photometry measures light as perceived by the human eye, weighted by the eye's sensitivity function V(λ).
 
-### Fundamental Units
+## Fundamental Units
 
 - **Candela (cd)**: Luminous intensity. The candela is defined by the SI convention. One candela emits 1/683 watt per steradian at 555 nm (peak eye sensitivity).
 - **Lumen (lm)**: Luminous flux. 1 cd source radiating uniformly into 1 steradian = 1 lm. A point source of 1 cd emits 4π lumens total.
 - **Lux (lx)**: Illuminance. 1 lm/m² = 1 lux. Full moonlight ≈ 0.25 lux. Office lighting ≈ 300-500 lux. Direct sunlight ≈ 100,000 lux.
 - **Candela per square meter (cd/m²)**: Luminance. The brightness of a surface. A diffuse white surface under 100 lux has luminance ≈ 30 cd/m².
 
-### Selenium Cell Photometer
+## Selenium Cell Photometer
 
 A selenium photovoltaic cell generates a current proportional to incident light, with spectral response approximating the human eye (peak sensitivity near 550 nm). No external power needed. Connect directly to a microammeter (range 0-100 μA). Calibrate against a standard lamp of known luminous intensity. Accuracy ±2-5% for broadband measurements. Filter corrections extend accuracy for colored light sources. The workhorse photometer for illumination engineering, used until silicon photodiodes became available.
 
@@ -116,7 +116,7 @@ A selenium photovoltaic cell generates a current proportional to incident light,
 
 Interferometry splits a light beam into two paths, then recombines them. Path length differences create interference fringes (bright and dark bands) that reveal distance changes a fraction of a wavelength.
 
-### Michelson Interferometer
+## Michelson Interferometer
 
 **Layout**: Beam splitter (half-silvered mirror at 45°) divides light from a monochromatic source (sodium lamp, laser) into two beams. One beam travels to a fixed mirror, reflects back. The other travels to a movable mirror, reflects back. Both beams recombine at the beam splitter, directed to a detector or screen.
 
@@ -130,11 +130,11 @@ Interferometry splits a light beam into two paths, then recombines them. Path le
 
 A microscope equipped with precision measurement accessories becomes a dimensional metrology instrument for small parts, machined features, and microstructures.
 
-### Stage Micrometer and Eyepiece Reticle
+## Stage Micrometer and Eyepiece Reticle
 
 A **[stage micrometer](../glossary/stage-micrometer.md)** is a microscope slide with a precision-ruled scale, typically 1 mm divided into 100 divisions (0.01 mm per division). Place on the stage, focus, and align with the **[eyepiece reticle](../glossary/eyepiece-reticle.md)** (a glass disc with engraved scale in the eyepiece focal plane). The reticle scale is calibrated against the stage micrometer at each magnification. After calibration, any specimen feature can be measured by counting reticle divisions.
 
-### Filar Micrometer Eyepiece
+## Filar Micrometer Eyepiece
 
 A filar micrometer eyepiece contains a movable crosshair driven by a precision micrometer screw. The screw translates the crosshair across the field of view. Read the micrometer drum before and after aligning the crosshair with two features, and the difference gives the feature separation. With a 10× objective, resolution reaches 0.001 mm (1 μm). The filar micrometer is the standard tool for measuring wire diameters, fiber thicknesses, and machined feature widths under the microscope.
 

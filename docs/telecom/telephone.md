@@ -3,16 +3,22 @@
 > **Node ID**: telecom.telephone
 > **Domain**: [Telecommunications](./index.md)
 > **Dependencies**: [`energy.electricity`](../energy/electricity.md), [`metals`](../metals/index.md), [`telecom.electric-telegraph`](electric-telegraph.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`telecom.radio`](radio.md), [`computing.electromechanical`](../computing/electromechanical.md)
 > **Timeline**: Years 25-50
 > **Outputs**: telephone_service, telephone_exchanges, voice_communication
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival
 
-## Overview
+## Problem
 
 The telephone transforms voice into electrical signals that travel over wire, enabling real-time two-way conversation at any distance. Unlike the telegraph (which transmits coded text requiring trained operators), the telephone allows anyone to communicate directly by speaking. This fundamental shift — from operator-mediated text to direct voice — transformed business, social life, and emergency response.
 
 The telephone system builds on telegraph infrastructure (pole lines, wires, batteries) but requires fundamentally different terminal equipment (microphones, speakers, ringers) and switching systems (exchanges that connect any pair of subscribers on demand).
+
+### Prerequisites
+
+- [Electricity](../energy/electricity.md) — power for telephone systems and exchanges
+- [Metals](../metals/index.md) — copper wire for telephone lines
+- [Electric telegraph](electric-telegraph.md) — pole lines, wires, and battery infrastructure
 
 ### Bell Telephone (1876)
 
@@ -217,12 +223,23 @@ The telephone's growth rate exceeded the telegraph by 10x. In the US, telegraph 
 - **Urban exchange**: 2,000-10,000 subscribers, 20-50 operators or multi-thousand-line Strowger. Covers 3-5 km radius. Multiple exchanges per city connected by inter-exchange trunks.
 - **Toll (long-distance)**: Dedicated 4-wire lines between cities with loading coils and vacuum tube repeaters. A 500 km connection with 3 loading sections and 2 repeaters provides commercial-quality voice.
 
-### See Also
+## Troubleshooting
 
-- [Electrical Telegraph Networks](electric-telegraph.md) — The precursor network that telephone builds upon
-- [Telegraph Communication](../transport/telegraph.md) — Hardware details for telegraph equipment
-- [Radio Communication](radio.md) — Wireless voice communication
-- [Submarine Cable Systems](submarine-cables.md) — Undersea telephone cables
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Faint or distorted voice | Low line voltage or corroded connections | Check battery voltage (min 3V per station); clean all terminal connections; verify wire gauge adequate for distance |
+| Cross-talk (hearing other conversations) | Wire pairs running parallel without twist | Use twisted pair wiring; increase separation between pairs; check for damaged insulation |
+| 50/60 Hz hum on line | Electromagnetic interference from power lines | Maintain 2 m separation from power lines; cross power lines at 90°; install hum filters |
+| Ring signal not reaching subscriber | Broken ringer coil or open circuit | Test continuity of ring wire; check ringer coil resistance (500-2000 Ω typical); verify magneto output |
+| Switchboard connection drops | Dirty switchboard contacts or weak cord relay | Clean switchboard jacks with contact cleaner; replace worn cord relays; verify plug seating |
+| Long-distance signal too weak | Excessive line loss beyond loading coil range | Install vacuum tube repeater at midpoint; verify loading coil spacing (1.8 km typical); check for water in cables |
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Telecommunications](./index.md) • [All Domains](../index.md)*
+## See Also
+
+- [Electrical Telegraph Networks](electric-telegraph.md) — the precursor network that telephone builds upon
+- [Telegraph Communication](../transport/telegraph.md) — hardware details for telegraph equipment
+- [Radio Communication](radio.md) — wireless voice communication
+- [Submarine Cable Systems](submarine-cables.md) — undersea telephone cables
+- [Electromechanical Computing](../computing/electromechanical.md) — relay-based switching technology used in exchanges
+
+[← Back to Telecommunications](index.md)

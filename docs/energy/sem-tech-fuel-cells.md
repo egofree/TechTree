@@ -3,14 +3,22 @@
 > **Node ID**: energy.fuel-cell
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.electricity`](electricity.md), [`chemistry.sem-tech`](../chemistry/sem-tech.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`energy.storage`](storage.md), [`transport.light-aircraft`](../transport/light-aircraft.md)
 > **Timeline**: Years 25-40
 > **Outputs**: electrical_energy, water
 > **Critical**: No — fuel cells are not on the critical bootstrap path; SEM Tech fuel cell application remains speculative at TRL 5
 
-## Overview
+## Problem
 
 Fuel cells convert chemical energy directly into electricity through electrochemical reactions, bypassing the thermodynamic inefficiencies of heat engines. When hydrogen is supplied to a fuel cell, it produces electricity and water as the only byproduct -- no combustion, no moving parts, and theoretical efficiencies of 50-60% (80-90% in combined heat-and-power configurations).
+
+### Prerequisites
+
+- [Electricity Generation](electricity.md) — electrical infrastructure and power distribution
+- [SEM Tech](../chemistry/sem-tech.md) — membrane technology for fuel cell electrolytes
+- [Hydrogen Production](../chemistry/hydrogen-silane.md) — hydrogen fuel supply
+
+### Strengths and Weaknesses
 
 **Strengths**:
 - Theoretical efficiency 50-60% electrical — higher than any heat engine
@@ -207,23 +215,24 @@ Fuel cell systems involve several hazards requiring engineered controls:
 
 **Technology readiness**: SEM Tech is at TRL 5 for electrolysis. Fuel cell application would be TRL 2-3 (technology concept formulated). Significant development effort would be required to reach TRL 5 for fuel cells specifically.
 
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Low power output (below rated) | Membrane dehydration or gas starvation | Increase humidification; verify H₂ supply pressure; check air compressor output |
+| Cell voltage dropping over time | Membrane degradation or catalyst poisoning | Test inlet gas for CO (>10 ppm poisons Pt); replace membrane if pinhole leaks detected; reduce thermal cycling |
+| Flooding (water blocking gas channels) | Excessive humidification or poor water removal | Reduce inlet gas humidity; increase gas flow rate; check drain channels for blockage |
+| Stack overheating | Cooling system failure or excessive current draw | Verify coolant flow; reduce load current; check heat exchanger function |
+| Hydrogen leak detected | Membrane pinhole or seal failure | Shut down immediately; purge with N₂; pressure-test stack; replace damaged cell |
+| Uneven cell voltages across stack | Non-uniform gas distribution or degraded cell | Check manifold for blockage; replace lowest-voltage cell; verify gas flow to each cell |
+
 ## See Also
 
-- [SEM Tech](../chemistry/sem-tech.md) -- parent article on the membrane technology, manufacturing, and properties
-- [SEM Tech Water Electrolysis](../chemistry/sem-tech-water-electrolysis.md) -- hydrogen production via SEM Tech electrolysis (fuel source)
-- [SEM Tech e-Methanol](../chemistry/sem-tech-e-methanol.md) -- electrochemical methanol synthesis (alternative fuel)
-- [SEM Tech Redox Flow Batteries](sem-tech-redox-flow-batteries.md) -- complementary energy storage technology
-- [Electricity Generation](electricity.md) -- full range of electricity generation methods
+- [SEM Tech](../chemistry/sem-tech.md) — parent article on the membrane technology, manufacturing, and properties
+- [SEM Tech Water Electrolysis](../chemistry/sem-tech-water-electrolysis.md) — hydrogen production via SEM Tech electrolysis (fuel source)
+- [SEM Tech e-Methanol](../chemistry/sem-tech-e-methanol.md) — electrochemical methanol synthesis (alternative fuel)
+- [SEM Tech Redox Flow Batteries](sem-tech-redox-flow-batteries.md) — complementary energy storage technology
+- [Electricity Generation](electricity.md) — full range of electricity generation methods
+- [Energy Storage](storage.md) — complementary storage technologies
 
-### Limitations
-
-- **Platinum catalyst cost**: PEM fuel cells require 0.2-0.5 g Pt/kW. At scale, this represents a significant materials cost and creates dependency on scarce platinum group metals.
-- **Hydrogen infrastructure**: Fuel cells require high-purity hydrogen (>99.97% for PEM). Producing, storing, and distributing hydrogen adds system-level complexity and cost.
-- **Durability**: PEM membrane degradation from chemical attack, thermal cycling, and mechanical stress limits stack lifetime to 5,000-20,000 hours depending on operating conditions.
-- **Water management**: PEM cells require precise humidity control — too dry and membrane resistance spikes, too wet and flooding blocks gas channels.
-- **Fuel sensitivity**: PEM cells are poisoned by CO (>10 ppm), H₂S, and ammonia. Reformed hydrocarbon feeds require extensive purification.
-- **Balance of plant**: Fuel cell stacks require air compressors, humidifiers, heat exchangers, and power electronics — the stack is only 30-50% of total system cost.
-
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+[← Back to Energy](index.md)

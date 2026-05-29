@@ -8,22 +8,20 @@
 > **Outputs**: purified_gases, scrubbed_gases, dried_gases, high_purity_gases
 > **Critical**: Yes — semiconductor fabrication requires gases at 99.999-99.9999% purity; impurities at ppb levels kill device yield
 
-## 1. Overview
-
 Gas purification removes contaminants — moisture, oxygen, hydrocarbons, particulates, and trace impurities — from process gas streams to meet the purity requirements of downstream consumers. In the bootstrap chain, basic gas handling produces compressed gases at 98-99% purity, but semiconductor fabrication demands 5N-6N (99.999-99.9999%) purity with individual contaminant species controlled to parts-per-billion levels.
 
 A single water molecule or oxygen atom in a silane stream during CVD deposition creates a defect in the growing silicon film. A hydrocarbon contaminant in an argon stream during crystal growth introduces carbon impurities that degrade minority carrier lifetime in the finished wafer. The economic impact scales exponentially: a 10 ppb increase in O₂ contamination in nitrogen used for wafer handling can reduce yield by 5-15% at sub-micron geometries.
 
 This capability covers four purification methods ordered by increasing specificity: bulk scrubbing (removing percent-level contaminants), adsorption (removing ppm-level contaminants), catalytic purification (removing specific trace species to ppb), and cryogenic separation (exploiting boiling-point differences for bulk gas purification). Each method addresses a different contaminant concentration range, and a complete gas purification train combines multiple stages.
 
-## 2. Prerequisites
+## Prerequisites
 
 - **Materials**: Steel piping, copper tubing, PTFE gaskets, activated carbon, silica gel, molecular sieves (zeolites), copper catalyst, palladium membrane material
 - **Tools and equipment**: [Basic gas handling](basic.md) — compressors, piping, valves, pressure regulators; [Electric furnaces](../energy/electric-furnaces.md) for regeneration heating; [Machine tools](../machine-tools/index.md) for vessel fabrication
 - **Knowledge**: Thermodynamics of adsorption, catalytic reaction kinetics, gas chromatography for purity verification
 - **Infrastructure**: Compressed air or nitrogen for purging, electrical power for heater elements, ventilation for off-gas treatment
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity (per purification train) | Source | Alternatives |
 |----------|-----------------------------------|--------|-------------|
@@ -36,9 +34,9 @@ This capability covers four purification methods ordered by increasing specifici
 | Heating elements (Nichrome) | 2-10 kW per regeneration heater | [Energy](../energy/index.md) — resistance wire | Gas-fired heaters (less precise temperature control) |
 | Calcium chloride (CaCl₂) | 10-50 kg per rough dryer | [Chemistry](../chemistry/index.md) — limestone + HCl | Not regenerable — discard after saturation |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Scrubbing (Bulk Contaminant Removal)
+## 4.1 Scrubbing (Bulk Contaminant Removal)
 
 1. Route contaminated gas stream into the bottom of a packed scrubber column. The column is a vertical steel vessel (0.3-1.5 m diameter, 2-6 m height) filled with ceramic or plastic packing (Raschig rings, Pall rings, or structured packing) to maximize gas-liquid contact area.
 2. Flow scrubbing liquid countercurrent to the gas — liquid enters at the top through a spray distributor and trickles down through the packing by gravity while gas rises. The liquid absorbs target contaminants by dissolution or chemical reaction.
@@ -55,7 +53,7 @@ This capability covers four purification methods ordered by increasing specifici
 - Scrubber solutions become spent and require neutralization and disposal — continuous waste stream generation
 - Cannot achieve ppb-level purity — residual contaminant levels of 10-100 ppm are the practical floor for wet scrubbing
 
-### 4.2 Adsorption Drying and Purification
+## 4.2 Adsorption Drying and Purification
 
 1. Load two adsorber vessels in a lead-lag (twin-bed) configuration. While vessel A is online adsorbing moisture from the process gas, vessel B is offline being regenerated. Switch when the online vessel reaches breakthrough (downstream moisture exceeds specification).
 2. Fill each adsorber vessel with the appropriate adsorbent in layers: coarse activated carbon at the inlet (removes organics and oils), molecular sieve 3Å in the middle (removes water to <1 ppm), and a polishing layer of molecular sieve 4Å or 5Å at the outlet (removes CO₂ and residual traces).
@@ -72,7 +70,7 @@ This capability covers four purification methods ordered by increasing specifici
 - Regeneration requires 250-350°C heating for 4-8 hours — significant energy input (50-200 kWh/ton adsorbent)
 - Gas channeling at velocities above 0.3 m/s bypasses adsorbent, causing premature breakthrough
 
-### 4.3 Catalytic Purification (Oxygen and Hydrogen Removal)
+## 4.3 Catalytic Purification (Oxygen and Hydrogen Removal)
 
 1. For oxygen removal from inert gases (N₂, Ar, He): pass the gas through a bed of reduced copper catalyst at 200-400°C. Copper reacts with trace O₂ to form CuO, removing oxygen to below 1 ppb. The catalyst bed is contained in a heated stainless steel vessel with internal thermocouples to verify uniform temperature.
 2. Regenerate the spent copper catalyst by flowing dilute hydrogen (2-5% H₂ in N₂) through the bed at 250-350°C. Hydrogen reduces CuO back to metallic copper (CuO + H₂ → Cu + H₂O). The water vapor is carried out by the purge gas. Monitor exit gas for moisture to confirm regeneration is complete.
@@ -87,7 +85,7 @@ This capability covers four purification methods ordered by increasing specifici
 - Reduced copper and palladium catalysts are pyrophoric — exposure to air after regeneration causes rapid oxidation and potential ignition
 - Catalysts are poisoned by sulfur compounds and halogens — a single exposure to H₂S or chlorine permanently degrades the catalyst bed
 
-### 4.4 Cryogenic Separation
+## 4.4 Cryogenic Separation
 
 Cryogenic separation is covered in detail in [Air Separation](../chemistry/air-separation.md). For gas purification specifically, partial condensation at controlled cryogenic temperatures exploits differences in boiling points to separate gas mixtures:
 
@@ -104,7 +102,7 @@ Cryogenic separation is covered in detail in [Air Separation](../chemistry/air-s
 - Requires liquid nitrogen (-196°C) — cryogenic infrastructure is a major capital investment
 - Feed gas must be pre-dried to <1 ppm H₂O to prevent ice formation that blocks heat exchanger passages
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
 | Parameter | Scrubbing | Adsorption Drying | Catalytic O₂ Removal | Cryogenic Separation |
 |-----------|-----------|-------------------|----------------------|---------------------|
@@ -116,7 +114,7 @@ Cryogenic separation is covered in detail in [Air Separation](../chemistry/air-s
 | Pressure drop | 0.05-0.3 bar/m bed | 0.02-0.1 bar/m bed | 0.01-0.05 bar/m bed | 0.5-2 bar total |
 | Energy consumption | 0.5-2 kWh/1000 m³ gas | 50-200 kWh/ton adsorbent (regeneration) | 0.5-5 kWh/1000 m³ gas | 0.3-1.5 kWh/Nm³ gas |
 
-### Adsorbent Capacity by Type
+## Adsorbent Capacity by Type
 
 | Adsorbent | Water Capacity (wt%) | Regeneration Temperature | Cycle Life | Target Contaminant |
 |-----------|----------------------|--------------------------|------------|-------------------|
@@ -128,7 +126,7 @@ Cryogenic separation is covered in detail in [Air Separation](../chemistry/air-s
 | Calcium chloride | ~30% (non-regen) | N/A (single use) | Single use | H₂O (rough drying) |
 | P₂O₅ | Reacts to form H₃PO₄ | N/A (single use) | Single use | H₂O (ultimate polishing) |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Bench scale**: Single adsorber column (25-50 mm diameter, 0.5 m bed height) processes 1-10 L/min of gas. Adequate for laboratory purification of cylinder gas. Manual switchover for regeneration.
 - **Pilot scale**: Twin-bed adsorber system (100-200 mm diameter, 1-2 m bed height) processes 10-100 L/min. Automated valve sequencing for lead-lag switching. Heated regeneration with integrated blower. This is the minimum scale for producing semiconductor-grade nitrogen from compressed air.
@@ -136,7 +134,7 @@ Cryogenic separation is covered in detail in [Air Separation](../chemistry/air-s
 - **Scale-up bottleneck**: Adsorbent bed diameter. Above ~1.5 m diameter, gas distribution across the bed becomes non-uniform. Solution: use multiple smaller beds in parallel rather than a single large vessel. Each bed sees the same flow per unit cross-sectional area.
 - **Economic minimum**: A twin-bed adsorber with 100 mm diameter vessels produces ~50 L/min of dried gas (sufficient for one CVD reactor). Below this scale, pre-purified cylinder gas is more cost-effective than on-site purification.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -149,7 +147,7 @@ Cryogenic separation is covered in detail in [Air Separation](../chemistry/air-s
 | Product gas contamination after regeneration | Incomplete cooling before returning to service | Cool regenerated bed to within 10°C of operating temperature before switching online. Hot adsorbent does not adsorb effectively. |
 | Cryogenic separator frosting or ice buildup | Moisture in feed gas freezing at cold surfaces | Install adequate pre-drying (adsorbent dryer) before cryogenic stage. Moisture must be below 1 ppm before reaching cryogenic temperatures. |
 
-## 8. Safety
+## Safety
 
 **Catalyst fire hazard**: Reduced copper and palladium catalysts are pyrophoric when freshly regenerated and exposed to air. The finely divided metal surface oxidizes rapidly, generating enough heat to ignite surrounding materials. After regeneration, cool the catalyst bed under inert gas (N₂ or Ar) to below 50°C before exposing to air. Store spent catalyst in sealed containers under water or inert atmosphere until disposal or reprocessing.
 
@@ -161,7 +159,7 @@ Cryogenic separation is covered in detail in [Air Separation](../chemistry/air-s
 
 **P₂O₅ handling**: Phosphorus pentoxide reacts violently with water to form phosphoric acid, generating heat. Handle with chemical-resistant gloves, face shield, and respiratory protection (dust mask or powered air purifying respirator). Store in sealed containers under dry atmosphere. Spill response: cover with dry sand or vermiculite, then carefully transfer to a container. Do not add water.
 
-## 9. Quality Control
+## Quality Control
 
 **Moisture analysis**: Measure dew point or moisture content at the purification train outlet. For industrial-grade gas: dew point -40°C (~127 ppm H₂O). For semiconductor-grade gas: dew point -70°C (~2.5 ppm H₂O) or better. Electrolytic hygrometer measures 0-1000 ppm with ±5% accuracy. Capacitive hygrometer measures 0.1-1000 ppm with ±2% accuracy. Calibrate monthly against a traceable moisture standard.
 
@@ -173,7 +171,7 @@ Cryogenic separation is covered in detail in [Air Separation](../chemistry/air-s
 
 **Gas chromatography verification**: Monthly analysis of product gas by GC with appropriate detectors (TCD for permanent gases, FID for hydrocarbons, ECD for electronegative species). Confirms that all major contaminants are below specification in a single analytical run.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 | Method | Purity Achievable | Best For | Limitations |
 |--------|-------------------|----------|-------------|
@@ -189,7 +187,7 @@ Cryogenic separation is covered in detail in [Air Separation](../chemistry/air-s
 
 **Getters (metal-based reactive purification)**: Titanium, zirconium, and rare-earth alloy getters chemically bind trace contaminants (O₂, N₂, H₂O, CO, CO₂) at elevated temperatures (400-800°C). Non-evaporable getters (NEG) are heated once to activate and then continuously absorb contaminants at room temperature. Used for maintaining ultra-high purity in sealed systems (vacuum chambers, gas cabinets) over long periods. Capacity is limited (typically 0.1-1% of getter mass in absorbed contaminants). Ideal for polishing the last ppb of contaminants from an already-purified stream.
 
-### Purification Train Configuration by Gas Type
+## Purification Train Configuration by Gas Type
 
 Different gases require different purification stages arranged in series. The general principle: remove bulk contaminants first (cheaper methods), then polish to final purity (expensive methods). Below are the standard trains for common process gases.
 
@@ -214,7 +212,7 @@ Different gases require different purification stages arranged in series. The ge
 4. Zirconium getter (remove N₂, O₂, H₂, CO, CO₂ residual traces)
 5. Result: Ar at 99.9999% (6N), all impurities <1 ppb
 
-### Purification Cost Comparison
+## Purification Cost Comparison
 
 | Method | Capital Cost | Operating Cost | Purity Level | Best Application |
 |--------|-------------|----------------|-------------|-----------------|
@@ -225,14 +223,14 @@ Different gases require different purification stages arranged in series. The ge
 | Pd membrane | $50K-500K | $5-20/KCF gas | 99.99999% | H₂ ultra-purification |
 | Cryogenic plant | $500K-5M | $10-50/KCF gas | 99-99.999% | Bulk air separation |
 
-### Common Purification Mistakes
+## Common Purification Mistakes
 
 - **Putting the dryer before the particulate filter**: Adsorbent beds act as depth filters — particulates clog pore structure and reduce capacity. Always install a particulate filter (5-10 μm) upstream of any adsorbent bed.
 - **Regenerating with wet purge gas**: If the regeneration purge gas contains moisture, the adsorbent re-adsorbs water during the very process meant to clean it. Use dry nitrogen (dew point below -70°C) for regeneration.
 - **Operating catalytic purifiers below minimum temperature**: Copper catalyst kinetics drop sharply below 180°C. The catalyst appears to be working (some O₂ is removed) but outlet purity is 10-100× worse than specification. Always verify catalyst bed temperature with a thermocouple, not the heater setpoint.
 - **Neglecting to replace saturated adsorbent**: Adsorbent capacity is finite. After 2-5 years of operation, the adsorbent's effective capacity drops due to pore fouling, thermal cycling damage, and chemical degradation. A declining cycle time (breakthrough happening sooner) is the early warning sign.
 
-## 11. References
+## See Also
 
 - [Basic Gas Handling](basic.md) — piping, compressors, and gas distribution infrastructure
 - [Air Separation & Bulk Gas Production](../chemistry/air-separation.md) — cryogenic distillation of liquid air
@@ -241,6 +239,4 @@ Different gases require different purification stages arranged in series. The ge
 - [Vacuum Technology](vacuum.md) — vacuum system bake-out and outgassing management
 - [Core Fab Processes](../photolithography/fab-processes.md) — gas purity requirements for CVD and PVD
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*
+[← Back to Gas Handling](index.md)

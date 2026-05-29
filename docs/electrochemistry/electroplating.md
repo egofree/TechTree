@@ -3,10 +3,22 @@
 > **Node ID**: electrochemistry.electroplating
 > **Domain**: [Electrochemistry & Plating](./index.md)
 > **Dependencies**: [`chemistry.acids`](../chemistry/acids.md)
-> **Enables**: `electrochemistry.electroplating.copper-damascene`
+> **Enables**: [`electrochemistry.electroplating.copper-damascene`](copper-damascene.md)
 > **Timeline**: Years 30-70
 > **Outputs**: copper_interconnects, plated_nickel, plated_gold, plated_tin, copper_filled_vias
 > **Critical**: Yes — copper damascene electroplating is the only practical method to fill high-aspect-ratio interconnect features below 250 nm
+
+### Problem
+
+Semiconductor interconnects — the microscopic copper wiring that connects transistors on a chip — require void-free metal fill in trenches and vias as narrow as 25 nm with aspect ratios up to 10:1. Physical vapor deposition (PVD) and chemical vapor deposition (CVD) cannot achieve conformal coverage in these deep, narrow features: sputtered atoms have limited step coverage, and CVD precursors have sticking coefficients that prevent bottom-up fill. Electroplating solves this through additive-controlled deposition kinetics — suppressor molecules dominate on flat surfaces while accelerator molecules concentrate at feature bottoms, creating bottom-up fill that packs copper into sub-50 nm trenches without voids. No other deposition method achieves this.
+
+### Prerequisites
+
+- [Acids](../chemistry/acids.md) — sulfuric acid for copper baths, hydrochloric acid for chloride ions
+- [Electrolysis](../chemistry/electrolysis.md) — fundamental electrochemistry, Faraday's law, and electrorefining
+- [Copper production](../metals/non-ferrous.md) — copper sulfate and anode material
+- [Semiconductor fab processes](../photolithography/fab-processes.md) — damascene patterning and CMP planarization
+- [Cleanroom capability](../photolithography/cleanrooms.md) — contamination control for plating baths
 
 ### Overview
 
@@ -198,6 +210,18 @@ At smaller nodes, the barrier and seed layers consume an increasing fraction of 
 
 **Tin whisker electrical short risk**: Pure tin plating develops conductive crystalline whiskers (1-5 mm long, 1-2 μm diameter) over months to years, causing electrical shorts in fine-pitch electronics. Mitigate by post-plating annealing at 150°C for 1 hour or by alloying with 2-3% bismuth. Never use pure tin plating on conductor spacings below 0.5 mm without whisker mitigation.
 
+### Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Voids in copper fill | Suppressor/accelerator ratio wrong; insufficient wetting of trench bottom | Optimize SPS and PEG concentrations; pre-wet with vacuum assist; increase plating time |
+| Rough, nodular copper deposits | Insufficient chloride or accelerator; too-high current density | Verify Cl⁻ at 50-100 ppm; add SPS to 1-5 ppm; reduce current density |
+| Poor uniformity across wafer | Flow rate non-uniformity; contact resistance variation | Optimize eddy flow or fountain cell geometry; clean contacts; verify seed layer uniformity |
+| Copper delamination from barrier | Poor TaN/Ta adhesion or contaminated seed layer | Improve pre-clean step; verify seed layer continuity; check barrier integrity |
+| Bath contamination (particles) | Filter failure or anode bag degradation | Replace 0.02 μm filter; inspect anode bags; monitor particle count |
+| High plating stress (film cracking) | Additive imbalance or excessive current density | Reduce current density; adjust leveler concentration; post-plate anneal at 200-400°C |
+| Tin whisker growth | Pure tin without whisker mitigation | Anneal at 150°C for 1 hour; alloy with 2-3% bismuth; use nickel underlayer |
+
 ### See Also
 
 - **[Anodizing](anodizing.md)**: Electrochemical oxide growth on aluminum and titanium
@@ -205,8 +229,8 @@ At smaller nodes, the barrier and seed layers consume an increasing fraction of 
 - **[Electrolysis](../chemistry/electrolysis.md)**: Fundamental electrochemistry, copper electrorefining, Faraday's law
 - **[Metal Finishing](../metals/finishing.md)**: General electroplating for industrial applications
 - **[VLSI Scaling](../vlsi-scaling/advanced-processes.md)**: Copper damascene integration in semiconductor fabrication
+- **[Core Fab Processes](../photolithography/fab-processes.md)**: full semiconductor manufacturing workflow
+- **[Refractory Specialty Metals](../metals/refractory-specialty.md)**: TaN/Ta barrier layers
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Electrochemistry & Plating](./index.md) • [All Domains](../index.md)*
+[← Back to Electrochemistry](index.md)
 

@@ -8,10 +8,6 @@
 > **Outputs**: specialist_labor, task_allocation, work_scheduling
 > **Critical**: Yes — every downstream capability from metals to semiconductors implicitly requires specialist workers; generalist production cannot achieve the precision and scale needed
 
----
-
-## 1. Overview
-
 Division of labor is the specialization of individual workers into distinct trades, each focused on a narrow set of tasks. Rather than every person producing all their own food, shelter, tools, and clothing, specialists concentrate on one domain — metallurgy, pottery, carpentry, weaving, or tool-making — and exchange their surplus output for goods produced by other specialists.
 
 This is the foundational organizational technology. Without it, every individual must be a generalist capable of producing everything they need. Complex production chains (blast furnaces, precision optics, semiconductor fabs) require workers with years of focused experience in a single domain — a generalist cannot simultaneously master smelting, glassblowing, and precision grinding to the standards industrial civilization demands.
@@ -226,16 +222,13 @@ For a bootstrap civilization, the optimal order for introducing specialists foll
 | 7 | Tanner / leather worker | Belts, shoes, armor, bellows | Animal hides, tannins |
 | 8 | Farmer / herdsman (specialist) | Food surplus expansion | Plow, domesticated animals |
 
----
-
-## 11. References
+## See Also
 
 - [Food Agriculture](../foundations/food-agriculture.md) — the surplus generator that makes specialization possible
 - [Writing](../knowledge/writing.md) — the coordination tool that scales specialist management beyond oral limits
 - [Trade & Barter](./trade.md) — the exchange system that gives specialists access to goods they don't produce
 - [Accounting](./accounting.md) — the record-keeping system that tracks specialist output and allocation
 - [Governance](./governance.md) — the institutional structures that formalize specialist roles and resolve disputes
+- [Currency](./currency.md) — standardized exchange that facilitates specialist trade
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*
+[← Back to Economics & Organization](index.md)

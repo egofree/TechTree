@@ -6,12 +6,21 @@
 > **Enables**: [`metals.alloys`](alloys.md), [`metals.forming`](forming.md)
 > **Timeline**: Years 15-30
 > **Outputs**: steel billets, slabs, blooms, flat products, long products
+> **Critical**: Yes — steel is the structural material of industrial civilization; no modern manufacturing without it
 
-### Overview
+### Problem
 
 Steelmaking is the refining of pig iron — 3.5-4.5% carbon, 1-3% silicon, 0.5-1.5% manganese, plus sulfur and phosphorus — into steel containing 0.02-1.5% carbon with tightly controlled residual elements. The fundamental chemistry is oxidation: dissolved carbon, silicon, manganese, and phosphorus are oxidized by blowing oxygen through or over the molten metal. The oxidized impurities either escape as gas (CO, CO₂) or partition into a basic slag (SiO₂, MnO, P₂O₅ as calcium compounds). Modern steelmaking produces ~1.9 billion tonnes annually, split between basic oxygen furnaces (~70%) and electric arc furnaces (~30%).
 
-The transition from pig iron to steel is the single most important metallurgical refinement. Pig iron is brittle (cast iron) and limited to cast shapes. Steel combines high strength with ductility, enabling structural sections, pressure vessels, wire, sheet, and every mechanical component of industrial civilization. This page covers the primary steelmaking processes, secondary (ladle) metallurgy, and casting methods — the complete route from liquid pig iron to solid steel products.
+The transition from pig iron to steel is the single most important metallurgical refinement. Pig iron is brittle (cast iron) and limited to cast shapes. Steel combines high strength with ductility, enabling structural sections, pressure vessels, wire, sheet, and every mechanical component of industrial civilization.
+
+### Prerequisites
+
+- [Iron and steel fundamentals](iron-steel.md) — ore types, reduction chemistry, wrought iron
+- [Blast furnace](blast-furnace.md) — pig iron production (primary feedstock)
+- [Refractories](../chemistry/refractories.md) — basic and acid refractory linings for vessels
+- [Fuels](../energy/fuels.md) — coke, gas, and energy for heating
+- [Air separation](../chemistry/air-separation.md) — tonnage oxygen for BOF steelmaking
 
 ### Bessemer Process
 
@@ -216,6 +225,24 @@ Steelmaking capability builds in stages, each requiring progressively more infra
 
 **Why steelmaking matters for bootstrapping**: Steel is the structural material of industrial civilization. Without it: no rails, no bridges, no pressure vessels, no machine tools, no automobiles, no ships, no high-rise buildings, no pipelines. Each stage of steelmaking development unlocks progressively more demanding applications — puddled steel for hand tools, Bessemer steel for rails and boilers, BOF + continuous casting for mass production, EAF + ladle refining for clean specialty grades. The steel plant is the heart of any industrial economy.
 
----
+### Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Steel too high in carbon | Blow stopped too early (Bessemer/BOF) | Continue oxygen blow; sample with spoon and test fracture; target endpoint carbon by calculation |
+| Excessive phosphorus in steel | Acidic slag not removing P, or high-P pig iron | Switch to basic process (Thomas/Gilchrist-Thomas); increase lime addition; verify ore source |
+| Nitrogen embrittlement | Air blow (Bessemer) dissolves N₂ in steel | Switch to oxygen blow (BOF); use bottom-blown or combined blowing; add aluminum to tie up nitrogen |
+| Blistering in continuous casting | Dissolved gas (H₂, N₂) forming bubbles during solidification | Degas in ladle furnace; reduce moisture in refractories and alloys; use vacuum degassing for critical grades |
+| Surface cracks on slabs | Uneven cooling or mold misalignment | Optimize spray cooling pattern; check mold taper and alignment; adjust casting speed |
+| Ingot pipe (shrinkage cavity) | Insufficient hot topping or poor feeding | Use exothermic hot tops; increase pouring temperature; apply sufficient保温 (insulating) cap |
+
+## See Also
+
+- [Iron and Steel](iron-steel.md) — fundamentals, ore types, bloomery smelting
+- [Blast Furnace](blast-furnace.md) — pig iron production
+- [Alloys](alloys.md) — steel alloy design and heat treatment
+- [Forming](forming.md) — rolling, forging, and shaping steel products
+- [Refractories](../chemistry/refractories.md) — furnace linings
+- [Machine Tools](../machine-tools/index.md) — steel as the primary structural material for tools
+
+[← Back to Metals](index.md)

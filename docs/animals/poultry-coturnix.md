@@ -3,12 +3,12 @@
 > **Node ID**: animals.poultry.coturnix
 > **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.poultry`](poultry.md), [`agriculture`](../agriculture/soil-management.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`food-processing`](../food-processing/index.md), [`agriculture.soil-management`](../agriculture/soil-management.md)
 > **Timeline**: Years 0-3
 > **Outputs**: quail_eggs, quail_meat, manure
 > **Critical**: No — fastest-producing micro-livestock but too small for primary protein source
 
-### Overview
+## Problem
 
 The Japanese quail (*Coturnix japonica*) is the smallest domesticated poultry species, offering extraordinary feed efficiency, rapid reproduction, and compact space requirements. Adults weigh 150-200 g (males 100-130 g, females 140-200 g), making them ideal for urban settings, smallholdings, and stealth food production where larger poultry would be impractical or conspicuous. Hens begin laying at 6-7 weeks of age and produce 250-320 eggs per year, each weighing 10-12 g — a remarkable output relative to body weight. Quail reach processing weight at 6-8 weeks, completing an entire production cycle from egg to table in under two months.
 
@@ -219,6 +219,24 @@ A single incubator and 50 hens producing 12,500+ eggs per year in 0.6 m² of flo
 Quail farming scales linearly — each additional 20-hen cage bank adds approximately 5,000-6,400 eggs and $300-1,400 in annual value with only 0.24 m² of additional floor space and 146-183 kg of additional annual feed consumption, making expansion a simple matter of replication rather than complex redesign.
 For bootstrapping purposes, a starting kit of 30 day-old chicks, 50 kg of starter feed, a Styrofoam incubator, and a simple cage bank provides a complete self-sustaining quail operation for under $150 total investment.
 
----
+## Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Low hatch rate (<60%) | Temperature fluctuation or old eggs | Calibrate incubator to 37.5°C (±0.3°C); set eggs within 7 days of lay; turn eggs 3× daily |
+| Chicks piling in corners | Too cold or bright light in brooder | Raise temperature to 35-37°C at chick level; use red/infrared lamp (not white); form brooder into circle |
+| Hens not laying | Insufficient light or immature | Provide 14-16 hours light daily; verify age >6 weeks; check for illness |
+| Cannibalism (pecking) | Overcrowding or protein deficiency | Ensure 150 cm² per bird minimum; increase protein to 24% in feed; provide distraction (leafy greens) |
+| Egg shell thin/soft | Calcium deficiency | Add crushed oyster shell or ground eggshell to feed; ensure layer ration has 2.5-3% calcium |
+| Coccidiosis (bloody droppings) | Wet litter or contaminated water | Keep litter dry; clean water daily; treat with amprolium in water |
+
+## See Also
+
+- [Poultry Overview](poultry.md) — all poultry species comparison
+- [Chickens](poultry-chickens.md) — primary poultry species for eggs and meat
+- [Insect Farming](insect-farming.md) — BSF larvae as quail feed supplement
+- [Food Processing](../food-processing/index.md) — egg and meat preservation
+- [Agriculture / Soil Management](../agriculture/soil-management.md) — quail manure as fertilizer
+- [Rabbits](rabbits.md) — alternative small-scale protein source
+
+[← Back to Animals](index.md)

@@ -6,10 +6,19 @@
 > **Enables**: [`ceramics.advanced-ceramics`](advanced-ceramics.md)
 > **Timeline**: Years 0-10
 > **Outputs**: pottery, crucibles, refractory_linings
+> **Critical**: Yes — refractory vessels for metallurgy and chemistry cannot be made without ceramics; pottery is the foundation of all high-temperature industry
+
+### Problem
+
+Pottery provides containers for storage, transport, cooking, and — critically — refractory vessels for metallurgy and chemistry. Fired clay is the only material available from Year 0 that can hold molten metal, withstand furnace temperatures, and resist chemical attack. Without ceramic crucibles, there is no metallurgy. Without refractory linings, there are no furnaces. Pottery is not decorative — it is the enabling technology for everything that involves heat.
+
+### Prerequisites
+
+- [Fire](../foundations/fire.md) — controlled combustion for kiln firing
+- [Basic tools](../foundations/tools-basic.md) — digging, crushing, and forming implements
+- [Clay sources](../foundations/index.md) — river banks, floodplains, geological deposits
 
 ### Pottery & Kilns
-
-Pottery provides containers for storage, transport, cooking, and — critically — refractory vessels for metallurgy and chemistry.
 
 **Clay identification and processing**:
 - **Source**: River banks, lake shores, floodplains. Clay = earth that becomes plastic and holds shape when wet, hardens permanently when fired.
@@ -218,6 +227,24 @@ A precise bisque schedule prevents loss and produces optimal absorbency for glaz
 
 **Spraying**: Spray glaze with an airbrush or spray gun at 15-25 psi. Build the coating in 3-4 light passes rather than one heavy pass (runs and drips are unrecoverable after firing). Requires a spray booth with exhaust ventilation. Best for large pieces, multi-color effects, and precise layering.
 
----
+### Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Pots cracking during drying | Dried too fast or uneven wall thickness | Dry slowly in shade (2-7 days); ensure uniform wall thickness; avoid direct sun and wind |
+| Explosion in kiln (bisque) | Residual moisture turning to steam | Ensure bone-dry before loading; extend 100°C hold phase; never fire wet pots |
+| Dunting (cracking during cooling) | Cooled through quartz inversion too fast | Slow cooling through 600-500°C range; do not open kiln below 200°C |
+| Glaze crawling (bare patches) | Dust or oil on bisque, or glaze too thick | Clean bisque with damp sponge; apply thinner glaze coat; check glaze specific gravity |
+| Glaze pinholing | Gases escaping through glaze during firing | Increase bisque temperature; extend glaze firing soak; apply thinner glaze |
+| Warping in kiln | Overfiring or inadequate support | Verify cone temperature; use kiln shelves with setters; avoid overloading |
+
+## See Also
+
+- [Kiln Firing](kiln-firing.md) — kiln construction and firing schedules
+- [Advanced Ceramics](advanced-ceramics.md) — technical ceramics for industrial applications
+- [Lime](lime.md) — lime mortar and plaster (related clay processing)
+- [Metals](../metals/index.md) — crucibles and refractory linings for metallurgy
+- [Chemistry](../chemistry/index.md) — ceramic apparatus for chemical processing
+- [Foundations](../foundations/index.md) — fire and basic tools
+
+[← Back to Ceramics](index.md)

@@ -8,6 +8,41 @@
 > **Outputs**: steam_engines, boilers, rotary_power
 > **Critical**: Yes — steam power is the first mechanical energy source independent of geography (unlike water and wind), enabling factories, railways, and mining at any location
 
+## Problem
+
+Steam power is the first mechanical energy source independent of geography. Water wheels require rivers with adequate head and flow rate. Windmills require consistent wind. Animal power requires fodder — land that could grow food for humans instead feeds draft animals. Steam engines work anywhere with fuel and water. This one capability — portable, continuous mechanical power — enabled the entire industrial revolution.
+
+Without steam power, civilization hits a hard ceiling on manufacturing output. No factory-scale production: line shaft drive requires continuous, reliable power that water wheels cannot guarantee (rivers freeze, flood, or dry up). No deep mining: water floods mines below the water table, and steam pumps are the only practical solution at scale — manual bucket chains top out around 30 m depth. No railways: steam locomotives enable land transport independent of animal power and its fodder requirements. No mechanized agriculture: steam traction engines plow, thresh, and haul at speeds no team of horses can match. No electricity generation at scale: steam turbines drive generators. Without steam, civilization remains at water-wheel and animal-power scale.
+
+The bootstrap chain is a feedback loop: steam pumps enable deep mining → deep mining produces coal and iron ore at scale → coal fires boilers and smelts iron → iron and steel make better steam engines → better engines enable factories → factories produce machine tools → machine tools make precise engine cylinders. This loop is the industrial revolution compressed to one sentence.
+
+The critical threshold for the first practical steam engine: precision-bored cylinders (Wilkinson boring machine, ±0.1 mm tolerance), wrought iron plate for boilers (6-12 mm), and reliable valves and fittings. Once the first engine works, it pumps water from mines, producing more coal and ore, which produces more iron, which produces more engines.
+
+## Prerequisites
+
+- **Materials**: [Wrought iron plate](../metals/iron-steel.md) (6-25 mm thick for boilers, cylinders, flues), [cast iron](../machine-tools/casting.md) for cylinder blocks and flywheels, [steel](../metals/iron-steel.md) for high-pressure boiler tubes and stay bolts, [copper or brass](../metals/copper-bronze.md) for valve fittings and condenser tubes, [hemp or leather](../plants/fiber-plants.md) for piston packing and gaskets, [lubricants](../chemistry/lubricants.md) (tallow, mineral oil) for bearings and cylinders, [coal or wood](./fuels.md) for boiler firing
+- **Tools**: [Boring machine](../machine-tools/machining.md) (precision bore cylinders to ±0.1 mm), [riveting equipment](../machine-tools/joining.md) for boiler construction, [foundry](../machine-tools/casting.md) for cast iron cylinders and flywheels, [forge](../metals/forming.md) for wrought iron plate forming, [pipe threading and fitting tools](../machine-tools/machining.md) for steam plumbing
+- **Knowledge**: Thermodynamics (steam pressure-temperature relationships, expansive working), boiler construction (riveted joint design, stay bolt patterns), valve timing (admission, cutoff, release, compression), lubrication under high temperature, feed water treatment
+- **Infrastructure**: Fuel supply (coal mine or forest with charcoal production), water supply (boiler feed water at 2-5 kg per kg of steam produced), [machine shop](../machine-tools/index.md) for precision parts, foundry for castings, transportation for heavy components (engines weigh 5-50 tonnes)
+
+## Bill of Materials — 50 HP Watt-style Stationary Engine
+
+| Component | Material | Approximate Quantity | Notes |
+|-----------|----------|---------------------|-------|
+| Cylinder (bored) | Cast iron | 1 piece, 40 cm bore × 60 cm stroke, ~500 kg | Requires boring machine for ±0.1 mm tolerance |
+| Boiler shell | Wrought iron plate | 8-12 mm thick, ~2000 kg plate | Lancashire type, 2 m dia × 6 m length |
+| Fire tubes (2) | Wrought iron or steel | 60-90 cm dia, corrugated, ~800 kg each | Corrugated resists collapse under external pressure |
+| Stay bolts | Steel | 200-400 bolts, 20-25 mm dia | Connect tube sheets every 150-200 mm grid |
+| Rivets | Wrought iron | 2000-4000 rivets, 16-25 mm dia | Red-hot driven, hammered both sides |
+| Piston and rod | Cast iron piston, wrought iron rod | Piston ~50 kg, rod 80-120 mm dia × 2-3 m | Hemp or leather packing rings for seal |
+| Flywheel | Cast iron | 1.5-3 m diameter, 500-1500 kg | Provides momentum for smooth rotation |
+| Valve gear | Cast iron and wrought iron | Eccentrics, links, slide valve | Controls steam admission and exhaust timing |
+| Steam pipes | Wrought iron or copper | 50-100 mm bore, flanged joints | All joints must hold 5-15 bar without leaking |
+| Governor | Cast iron, brass | Centrifugal flyball type | Speed regulation ±5% |
+| Safety valves (2) | Brass with steel springs | Set at 10% above working pressure | TWO required — never operate with one |
+| Feed pump | Cast iron body, brass valves | Plunger type, 5-10 L/min capacity | Maintains boiler water level |
+| Foundation | Stone or concrete | 3-5 m × 2-3 m × 1 m deep block | Engine + boiler weigh 8-15 tonnes total |
+
 ### Steam Engines
 
 **Strengths** (applies to all steam engines):
@@ -197,6 +232,21 @@ Steam engines produce rotary mechanical power. Transmitting that power to where 
 - **Steam burns**: Steam at 100°C carries 5× more heat energy than water at 100°C (latent heat of vaporization). Steam at working pressure (180°C+) causes instantaneous third-degree burns on contact. Insulate all steam pipes. Never vent steam in occupied areas. Use valve caps and covers.
 - **Carbon monoxide**: Coal-fired boiler rooms accumulate CO from incomplete combustion. Ventilate boiler houses. CO detectors in all enclosed firing spaces.
 
+## Troubleshooting — Steam Engine and Boiler Operation
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Boiler pressure drops, won't reach working pressure | Tube or flue gas leak; excessive steam consumption; insufficient firing rate | Inspect tubes for leaks (look for water seepage); reduce steam demand; increase firing rate; check that dampers are open and chimney is clear |
+| Water level dropping despite steady feed | Blowdown valve leaking; tube leak; feed pump failure | Close and reseat blowdown valve; inspect tubes for leaks (water in ash pit = tube leak); check feed pump output — pressure and flow |
+| Safety valve lifts frequently during normal operation | Firing rate too high for current steam demand; safety valve spring weakened | Reduce firing rate to match load; test safety valve set pressure with calibrated gauge; replace spring if set pressure has drifted >5% below specification |
+| Engine knocking or banging | Water in cylinder (carryover); loose crosshead or connecting rod bearing; piston hitting cylinder head | Open cylinder drain cocks to clear water; check and tighten all bearing bolts; check piston clearance (minimum 3-5 mm at each end of stroke) |
+| Steam leak at cylinder cover joint | Gasket failure; uneven bolt tension; cover warped from thermal cycling | Replace gasket (hemp + red lead or modern equivalent); torque cover bolts in star pattern to even tension; check cover flatness on surface plate |
+| Governor not controlling speed | Linkage binding; spring fatigue; throttle valve stuck | Free and lubricate all governor linkage pivot points; test spring tension; check throttle valve for free movement — disassemble and clean if stuck |
+| Low power output | Steam supply insufficient; valve timing drifted; excessive friction in bearings; low boiler pressure | Check boiler pressure is at working level; verify valve gear timing (cutoff position); check bearing temperatures (hot = excessive friction); lubricate all bearings |
+| Feed pump not delivering water | Pump valve stuck; air leak in suction line; pump packing worn | Disassemble and clean pump valves; tighten all suction line fittings (air leak prevents prime); repack pump gland with new packing |
+| Chimney smoking excessively (black smoke) | Insufficient air for combustion; overfed fire; wet or poor-quality fuel | Open ash pit dampers for more air; spread fire thinner — don't heap coal; use dry fuel; check chimney draft with manometer |
+| Uneven engine running (speed surging) | Governor hunting; inconsistent steam supply; water carryover from boiler | Adjust governor sensitivity (reduce gain); install steam dome or separator to dry steam; keep boiler water level below maximum mark to prevent carryover |
+
 ### Key Deliverables
 
 - Reliable boilers (fire-tube for general industry, water-tube for power generation)
@@ -206,12 +256,23 @@ Steam engines produce rotary mechanical power. Transmitting that power to where 
 - Power transmission systems (line shafts, belt drives, gear reduction)
 - Feed water treatment and boiler maintenance procedures
 
-### Cross-References
+## See Also
 
-- **Boiler fuel**: [coal.md](coal.md), [fuels.md](fuels.md)
-- **Metalworking for boilers**: [metalworking.md](../machine-tools/forming.md)
-- **Electricity generation**: [electricity.md](electricity.md)
-- **Mining pumps** (original application): [extraction.md](../mining/extraction.md)
+- [Fuels](fuels.md) — coal, wood, and other boiler fuels
+- [Charcoal](charcoal.md) — charcoal production for early boiler firing
+- [Iron & Steel](../metals/iron-steel.md) — wrought iron and steel for boilers and cylinders
+- [Metal Forming](../metals/forming.md) — plate rolling for boiler shells
+- [Casting](../machine-tools/casting.md) — cast iron cylinders and flywheels
+- [Machining](../machine-tools/machining.md) — precision boring of cylinders
+- [Joining](../machine-tools/joining.md) — riveting and welding for boiler construction
+- [Steam Turbines](steam-turbines.md) — turbine evolution from reciprocating engines
+- [Electricity Generation](electricity.md) — steam turbines driving generators
+- [Railways](../transport/railways.md) — steam locomotives
+- [Marine Propulsion](../marine/propulsion.md) — steam engines for ship power
+- [Mining: Drilling](../mining/drilling.md) — steam-powered mine drills
+- [Mining: Ventilation](../mining/ventilation.md) — steam-driven mine ventilation fans
+- [Lubricants](../chemistry/lubricants.md) — cylinder oils and bearing lubrication
+- [Refractories](../chemistry/refractories.md) — boiler and furnace linings
 
 ---
 

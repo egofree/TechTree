@@ -1,9 +1,39 @@
 # Zinc Production
 
 > **Node ID**: metals.zinc
-> **Domain**: Metals
+> **Domain**: [Metals](./index.md)
+> **Dependencies**: [`mining.extraction`](../mining/extraction.md), [`energy`](../energy/index.md), [`chemistry.acids-bases`](../chemistry/acids-bases.md)
+> **Enables**: [`metals.copper-bronze`](copper-bronze.md) (brass), [`metals.iron-steel`](iron-steel.md) (galvanizing), [`energy.storage`](../energy/storage.md) (zinc batteries)
 > **Timeline**: Years 15-25
 > **Outputs**: zinc, zinc_oxide, zinc_alloys
+> **Critical**: Yes — zinc provides corrosion protection for steel (galvanizing), is essential for brass alloy, and enables zinc-air batteries for energy storage
+
+## Problem
+
+Zinc is the corrosion protection metal. Without galvanizing, steel structures rust and fail — a bare steel bridge in a marine atmosphere loses 50-100 μm/year of section thickness and becomes structurally unsafe within 10-20 years. Zinc sacrifices itself electrochemically to protect steel (electrode potential -0.76 V vs. SHE, compared to iron's -0.44 V). A galvanized coating of 85 μm provides 50-100+ years of service in rural atmospheres. No other common metal offers this combination of low cost, electrochemical protection, and ease of application.
+
+Without zinc production, you cannot galvanize steel (bridges, buildings, vehicles, pipelines corrode rapidly), cannot make brass (the critical Cu-Zn alloy for valves, fittings, bearings, musical instruments), cannot produce zinc oxide (rubber vulcanization activator, sunscreen, pigments), cannot build zinc-air batteries (200-400 Wh/kg energy density for stationary storage), and cannot reliably die-cast complex parts (Zamak alloys melt at 381°C, enabling high-speed precision casting).
+
+The bootstrap chain runs: zinc enables galvanized steel → long-life infrastructure → bridges, pipelines, marine structures that last 50-100+ years. Without it, every outdoor steel structure has a 5-15 year service life. Zinc's unique metallurgical challenge compounds this: it vaporizes before it melts under atmospheric pressure (bp 907°C, mp 420°C), making it one of the hardest metals to produce. Unlike copper or iron, which can be cast directly from a furnace, zinc requires distillation and condensation in an oxygen-free environment — the metal must be captured as a vapor and condensed without re-oxidation.
+
+## Prerequisites
+
+- **Materials**: [Sphalerite ore](../mining/extraction.md) (ZnS, 3-12% Zn grade), [coke or charcoal](../energy/charcoal.md) for reduction, [sulfuric acid](../chemistry/acids.md) for leaching (electrolytic route), [limestone](../ceramics/lime.md) for pH control in flotation, [copper sulfate](../chemistry/index.md) as flotation activator
+- **Tools**: [Crushing and grinding equipment](../machine-tools/casting.md) (jaw crusher, ball mill), flotation cells, [roaster furnace](../energy/charcoal.md) (fluidized bed, 900-1000°C), retorts or blast furnace for smelting, [electrowinning cells](../chemistry/electrolysis.md) (aluminum cathodes, Pb-Ag anodes), induction furnace for casting (450-500°C)
+- **Knowledge**: Froth flotation chemistry, acid-base leaching and solution purification, electrochemistry (electrowinning at 3.0-3.5 V), distillation and condensation of metal vapors
+- **Infrastructure**: Electrical power supply (100-150 MW for large plant, 3.0-3.5 kWh/kg zinc), water supply for flotation (2-5 m³/tonne ore), SO₂ capture and sulfuric acid plant, ventilation for metal fume and SO₂
+
+## Bill of Materials — Electrolytic Zinc Production
+
+| Material | Quantity per tonne of SHG zinc | Source | Alternatives |
+|----------|--------------------------------|--------|-------------|
+| Zinc concentrate (50-55% Zn) | 1.8-2.0 tonnes | [Mining](../mining/extraction.md) — sphalerite flotation concentrate | Lower-grade concentrates (40-50% Zn) increase processing cost proportionally |
+| Sulfuric acid (H₂SO₄) | 0.2-0.5 tonnes (net consumer; co-produces 1.5-2.0 t from roasting) | [Acids](../chemistry/acids.md) — contact process from roaster SO₂ | Net exporter of acid — the roaster produces more than the leach consumes |
+| Coke or coal (for reduction) | 0.3-0.5 tonnes | [Mining](../mining/extraction.md) or [charcoal](../energy/charcoal.md) | Natural gas (for heating only, not reduction) |
+| Electrical energy | 3,000-3,500 kWh | [Power generation](../energy/index.md) — continuous baseload required | No alternative — electrowinning cannot run on intermittent power |
+| Limestone (CaCO₃) | 0.05-0.1 tonnes | [Mining](../mining/extraction.md) | Lime (CaO) — faster-reacting but more expensive |
+| Zinc dust (for cementation purification) | 30-50 kg | Internal production — atomize zinc | None — zinc dust is the standard purification reagent |
+| Copper sulfate (CuSO₄, flotation activator) | 2-5 kg per tonne of ore | [Chemistry](../chemistry/index.md) | None — CuSO₄ is essential for sphalerite flotation activation |
 
 ## Overview
 
@@ -58,6 +88,21 @@ Zinc (mp 420°C, bp 907°C) is produced by roasting sphalerite (ZnS) to ZnO, the
 **Electrowinning**: Electrolyze the purified ZnSO₄ solution in aluminum cathodes and lead-silver alloy (0.5-1.0% Ag) anodes. Cell conditions: current density 400-600 A/m², cell voltage 3.0-3.5 V, temperature 35-40°C, electrolyte Zn²⁺ concentration 50-65 g/L (in cell), H₂SO₄ concentration 150-200 g/L (acid builds up as zinc deposits). Current efficiency: 85-92% (8-15% of current wasted on hydrogen evolution). Energy consumption: 3.0-3.5 kWh per kg of zinc deposited. Zinc deposits on aluminum cathodes as smooth, dense sheets (2-4 mm thick after 24-48 hours). Strip manually or by machine. Melt cathodes in an induction furnace at 450-500°C, cast into 20-25 kg ingots (jumbo ingots: 1000-2000 kg). Purity: 99.99% SHG (special high grade zinc, per ASTM B6: ≥99.99% Zn, ≤0.003% Pb, ≤0.003% Cd, ≤0.002% Fe).
 
 **Plant scale**: A modern electrolytic zinc plant produces 100,000-300,000 tonnes/year of SHG zinc. Requires 100-150 MW electrical power (for electrowinning at 3.0-3.5 kWh/kg × 300,000 t/year = 900-1050 GWh/year ≈ 100-120 MW average). Sulfuric acid co-production: 1.5-2.0 tonnes H₂SO₄ per tonne of zinc (from roasting off-gas via contact process — see [Acids and Bases](../chemistry/acids-bases.md)). The acid is a valuable byproduct, sold to fertilizer plants and chemical industries.
+
+## Troubleshooting — Electrolytic and Galvanizing Operations
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Low zinc extraction in leach (<85%) | Insufficient acid concentration or temperature | Increase H₂SO₄ to 150-200 g/L; raise temperature to 70-75°C; extend leach time to 3-4 hours; re-grind calcine to finer particle size |
+| High iron in purified solution | Incomplete jarosite/goethite precipitation | Increase oxidation (add MnO₂ or air sparging); raise pH to 3.5-4.0; maintain 90-95°C; ensure adequate settling time |
+| Cadmium breakthrough in purified solution | Insufficient zinc dust addition in cementation | Increase zinc dust to 2-4 g/L; add Sb₂O₃ activator (2-5 mg/L); raise first-stage temperature to 70-75°C |
+| Low current efficiency in electrowinning (<80%) | Impurities (Co, Ni, Ge, Sb) in electrolyte; low temperature; high current density | Re-purify solution (additional cementation stage); maintain 35-40°C; reduce current density to 400-500 A/m² |
+| Rough or burnt zinc deposit on cathodes | Excessive current density; organic contamination | Reduce current density; add licorice or glue (0.1-0.5 mg/L) as leveling agent; filter electrolyte through activated carbon |
+| Zinc re-oxidizes in condenser (pyrometallurgical) | Air leak into condenser; CO₂ levels too high | Seal all condenser joints; maintain reducing atmosphere (CO-rich); control condenser temperature at 450-500°C (above zinc mp, below bp) |
+| Blue-green fume from zinc bath (galvanizing) | Zinc overheating above 480°C; aluminum depletion | Reduce bath temperature to 450-460°C; add Al to 0.1-0.3% (suppresses Fe-Zn alloy growth) |
+| Dross buildup in galvanizing bath (>5 cm) | Excessive iron dissolution from steel parts; bath too hot | Control immersion time (3-10 min); maintain 450-460°C; skim dross regularly; reduce flux contamination |
+| Zinc coating too thin (<45 μm) | Withdrawal speed too fast; low bath temperature | Reduce withdrawal speed to 1-3 m/min; ensure bath at 450-460°C; increase immersion time for thicker sections |
+| Zinc coating spalling or flaking | Excessive Fe-Zn alloy layer growth (brittle); steel surface contaminated | Reduce bath temperature and immersion time; ensure proper surface preparation (degrease → pickle → flux) |
 
 ## Zinc Alloys
 
@@ -187,17 +232,22 @@ Zinc (mp 420°C, bp 907°C) is produced by roasting sphalerite (ZnS) to ZnO, the
 
 **Zinc-rich primers** (expanded detail): Two-component epoxy zinc-rich primer consists of zinc dust (85-93% by weight in the dry film) dispersed in an epoxy resin binder (Epon 828 or equivalent bisphenol-A epoxy, 5-10% by weight) cured with a polyamide or amine hardener. The key requirement: zinc particle loading must exceed the critical pigment volume concentration (CPVC, typically 62-67% by volume) so that zinc particles are in direct electrical contact with each other and with the steel substrate. Below CPVC, binder fills the gaps between particles and electrical contact is broken — the cathodic protection mechanism fails and the coating provides only barrier protection (inferior). Film thickness: 50-100 μm dry. Applied by airless spray (1500-2500 psi, 0.015-0.021" tip) in a single coat. Overcoat with an epoxy intermediate coat (100-200 μm) and polyurethane topcoat (50-75 μm) for appearance and UV resistance. Total system dry film thickness: 200-375 μm. Service life in C5-M marine environment (ISO 12944): 15-25 years to first maintenance. Zinc consumption rate: ~5-15 μm/year of the zinc-rich layer (the zinc slowly corrodes to protect the steel — the primer is a consumable coating).
 
-## Cross-Domain Links
+## See Also
 
-- **[Iron & Steel](iron-steel.md)**: galvanizing steel for corrosion protection
-- **[Copper & Bronze](copper-bronze.md)**: brass production (Cu-Zn alloy)
-- **[Acids and Bases](../chemistry/acids-bases.md)**: co-produced from zinc roaster off-gas
-- **[Electrolysis](../chemistry/electrolysis.md)**: zinc electrowinning technology
-- **[Die Casting](../machine-tools/casting.md)**: zinc alloy die-casting processes
-- **[Refractories](../chemistry/refractories.md)**: furnace linings for zinc distillation
+- [Copper & Bronze](copper-bronze.md) — brass production (Cu-Zn alloy), the most important zinc alloy
+- [Iron & Steel](iron-steel.md) — galvanizing steel for corrosion protection
+- [Acids and Bases](../chemistry/acids-bases.md) — sulfuric acid co-produced from roaster SO₂ gas
+- [Electrolysis](../chemistry/electrolysis.md) — zinc electrowinning technology
+- [Energy Storage](../energy/storage.md) — zinc-air and zinc-carbon batteries
+- [Die Casting](../machine-tools/casting.md) — zinc alloy (Zamak) die-casting processes
+- [Refractories](../chemistry/refractories.md) — furnace linings for zinc distillation retorts
+- [Mining: Extraction](../mining/extraction.md) — sphalerite ore mining
+- [Mining: Processing](../mining/processing.md) — ore beneficiation and flotation
+- [Machine Tools: Machining](../machine-tools/machining.md) — machining free-cutting brass
+- [Polymers: Rubber](../polymers/rubber.md) — zinc oxide as vulcanization activator
+- [Semiconductor: Basic Devices](../silicon/basic-devices.md) — CZTS solar cells and ZnO transparent conductors
+- [Food Processing: Canning](../food-processing/canning.md) — galvanized steel for food preservation equipment
 
 ---
 
-*Part of the [Metals Domain](index.md) · [All Domains](../index.md)*
-
-[← Back to Metals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

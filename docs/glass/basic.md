@@ -2,10 +2,49 @@
 
 > **Node ID**: glass.basic
 > **Domain**: [Glass](./index.md)
-> **Dependencies**: `mining`
+> **Dependencies**: [`mining`](../mining/index.md)
 > **Enables**: [`chemistry.acids`](../chemistry/acids.md), [`glass.advanced`](advanced.md), [`photolithography.resists-masks`](../photolithography/resists-masks.md)
 > **Timeline**: Years 5-15
 > **Outputs**: basic_glass, potash
+> **Critical**: Yes — glass is the universal container material for chemistry, the basis for optics, windows, and laboratory apparatus
+
+## Problem
+
+Glass is chemically inert, transparent, impermeable to gases and liquids, electrically insulating, and infinitely recyclable. No other material combines all five properties. Metals react with acids and corrode. Ceramics are opaque and difficult to form into transparent vessels. Wood rots, burns, and leaks. Plastic requires petroleum cracking — unavailable until late in the bootstrap sequence.
+
+Without glass, several capabilities are blocked entirely. No chemical laboratory: acids dissolve metals, ceramics are opaque and cannot be inspected during reactions, and there is no material transparent enough to observe color changes, precipitates, or distillation. No window glass: buildings stay dark, reliant on open flames for light, with attendant fire risk. No optical instruments: no lenses, no prisms, no microscopes or telescopes — and therefore no precision measurement of the microscopic world. No reliable food preservation containers: canning requires glass jars that survive boiling and pressurization. No vacuum tubes: every early electronic device needs glass envelopes to maintain vacuum around heated filaments.
+
+The dependency chain runs deep. Glass enables chemistry (lab glassware, reagent bottles, reaction vessels), which enables acids and alkalis, which enable chemical processing of ores and semiconductors. Downstream, glass is required for [acids](../chemistry/acids.md), [photolithography masks](../photolithography/resists-masks.md), [solar thermal collectors](../energy/solar-thermal.md), and [advanced glass compositions](advanced.md) including borosilicate and optical glass.
+
+Every industrial civilization discovered or invented glass independently. The material is that fundamental — a bootstrap bottleneck that must be solved early, solved well, and produced in quantity.
+
+## Prerequisites
+
+**Materials:**
+- Silica sand (>95% SiO₂) — washed and sieved to 60-100 mesh
+- [Wood ash or natron](../chemistry/alkalis.md) for flux (source of Na₂O or K₂O)
+- [Limestone](../ceramics/lime.md) for stabilizer (source of CaO)
+- [Charcoal or wood](../energy/charcoal.md) for fuel
+- [Iron bar stock](../metals/iron-steel.md) for blowpipes and tools
+
+**Tools:**
+- [Furnace capable of 1400°C+](../energy/charcoal.md) or [electric furnace](../energy/electric-furnaces.md)
+- Clay crucibles (fireclay pots, 10-100 kg capacity)
+- Iron blowpipe (1-1.5 m long, 1-2 cm diameter bore)
+- Marver (flat iron plate, 30×30 cm minimum)
+- Iron shears and jacks (glassworking tongs)
+- [Annealing oven](../ceramics/kilns.md) or separate lehr furnace
+
+**Knowledge:**
+- Understanding of thermal expansion and viscosity curves in glass
+- Batch calculation from target oxide proportions (see Glass Batch Calculation below)
+- Temperature judgment by visual cues: red heat (~600°C), orange (~900°C), yellow-white (~1200°C), dazzling white (~1500°C)
+
+**Infrastructure:**
+- Covered workspace for batch mixing (keep silica dust out of wind)
+- Furnace with forced air supply (bellows or blower)
+- Ventilation for silica dust and CO₂
+- Fuel storage (dry charcoal or seasoned hardwood)
 
 **Glass production**:
 - **Raw materials**: Silica sand (SiO₂, >95% purity, washed and sieved to 60-100 mesh) + flux (wood ash potash K₂CO₃, or natron Na₂CO₃) + stabilizer (limestone CaCO₃ or dolomite). Typical mix: 70% sand, 20% flux, 10% stabilizer.
@@ -24,6 +63,19 @@
 - **Magnesia (MgO)**: 0.1-1% — prevents devitrification (crystal formation during cooling)
 
 Adjust proportions within these ranges based on raw material purity and desired working properties. Higher soda → easier melting but softer glass. Higher lime → harder but more prone to devitrification.
+
+### Bill of Materials (per 100 kg soda-lime glass)
+
+| Material | Quantity per 100 kg glass | Source | Alternatives |
+|----------|---------------------------|--------|-------------|
+| Silica sand (SiO₂ >95%) | 73 kg | [Mining](../mining/extraction.md) — washed, sieved to 60-100 mesh | Quartzite crushed and ground; lower purity increases green tint |
+| Soda ash (Na₂CO₃) or potash (K₂CO₃) | 24 kg (provides 14 kg Na₂O) | [Solvay process](../chemistry/solvay.md) or wood ash leaching | Natron (natural Na₂CO₃), potash from hardwood ash (K₂CO₃ — different working properties) |
+| Limestone (CaCO₃ >95%) | 18 kg (provides 10 kg CaO) | [Mining](../mining/extraction.md) — crushed | Dolomite (provides CaO + MgO), quicklime (CaO — handle with care, exothermic with water) |
+| Feldspar or nepheline | 5 kg (provides Al₂O₃ + some Na₂O/K₂O) | [Mining](../mining/extraction.md) | Alumina (Al₂O₃) directly — more expensive but purer |
+| Cullet (crushed scrap glass) | 25 kg (20-25% of total batch) | Internal recycling — [Glass recycling](glass-recycling.md) | None — cullet significantly reduces fuel consumption and melting time |
+| Fining agent (Sb₂O₃ or Na₂SO₄) | 0.5-1.0 kg | [Chemistry](../chemistry/index.md) | Arsenic trioxide (As₂O₃ — carcinogen, avoid) |
+| Fuel (charcoal, wood, or gas) | 200-500 kg per 100 kg glass | [Charcoal](../energy/charcoal.md) or [natural gas](../energy/fuels.md) | Wood (less efficient, more smoke), [producer gas](../energy/biomass-energy.md) |
+| Colorants (optional) | 0.01-3 kg depending on metal oxide | [Mining](../mining/extraction.md) — cobalt, copper, iron, manganese minerals | Natural impurities in sand produce green tint without any addition |
 
 ### Melting Procedure
 
@@ -163,6 +215,35 @@ Adding small amounts of metal oxides to the batch produces colored glass. The co
 
 **Devitrification**: Crystallization of the glass surface during cooling, appearing as a cloudy, crystalline film. Occurs when glass is held too long at temperatures where crystal nucleation is rapid (~800-1000°C for soda-lime). Fix: cool rapidly through this temperature range. Devitrified glass is weaker and more brittle than fully amorphous glass.
 
+### Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Seeds (tiny bubbles <0.5 mm) | Insufficient fining time or temperature | Extend fining to 2-6 hours; add fining agents (Sb₂O₃ 0.1-0.5% or Na₂SO₄ 0.5-1%); increase fining temperature to 1500-1600°C |
+| Blisters (bubbles >0.5 mm) | CO₂ trapped from carbonate decomposition | Add cullet to reduce foaming; heat slowly through 600-800°C range; stir melt during fritting stage |
+| Stones (opaque inclusions) | Undissolved silica or eroded crucible material | Extend melting time; improve stirring; use higher-purity crucible linings; ensure sand is 60-100 mesh |
+| Cord (refractive index streaks) | Incomplete mixing of batch components | Extend homogenization; use mechanical stirrer for 30-60 minutes; avoid adding cold batch to partially melted glass |
+| Devitrification (cloudy crystalline surface) | Glass held too long at 800-1000°C | Cool rapidly through 800-1000°C range; avoid holding at these temperatures during forming |
+| Green tint (unwanted) | Iron impurities in sand (Fe₂O₃ >0.03%) | Use higher-purity sand; wash and acid-leach sand; add manganese dioxide as decolorizer (oxidizes Fe²⁺ to Fe³⁺) |
+| Cracking during annealing | Cooling too fast through strain point; uneven wall thickness | Follow annealing schedule strictly (1-5°C/min through 450-500°C); ensure uniform wall thickness in piece |
+| Spontaneous fracture (days/weeks later) | Residual thermal stress from skipped or improper annealing | Always anneal; check with crossed polarizers for stress fringes; re-anneal if fringes detected |
+| Glass won't melt fully | Furnace temperature too low; batch composition wrong | Verify furnace reaches 1400-1500°C; check flux (soda) proportion — increase to 14-16% if needed |
+| Glass too soft / scratches easily | Excess soda (Na₂O >16%); insufficient lime (CaO <10%) | Increase lime to 10-12%; decrease soda to 12-14%; add alumina (Al₂O₃ 1-3%) for hardness |
+
+## Scaling Notes
+
+Glass production scales through three furnace types, each with different economics:
+
+**Pot furnace** (10-100 kg batch): One or more fireclay crucibles in a single furnace chamber. A single pot produces ~50 kg/day, sufficient for small-scale laboratory glassware and containers. Labor-intensive at 2-4 worker-hours per kg of finished glass. Composition flexibility is the advantage — switch between soda-lime, lead, and experimental batches by changing pots. Bottleneck: crucible size and lifespan (3-6 months of daily use before erosion or cracking requires replacement).
+
+**Day tank** (200-2000 kg): A small tank furnace charged, melted, and worked in a single day. Produces 200-2000 kg in a firing cycle. Fuel efficiency improves 20-30% over pot furnaces due to better insulation and larger thermal mass. Labor drops to 0.5-1 worker-hour per kg. Bottleneck: refractory life (6-18 months) and the commitment to a single composition per firing cycle.
+
+**Tank furnace** (1-500 tonnes continuous): Continuous feed and draw. Fuel consumption drops 50-60% per kg compared to pot furnaces due to regenerative heat recovery (checker brick systems store exhaust heat to preheat combustion air). Labor falls below 0.1 worker-hour per kg at scale. Bottleneck: capital cost (refractory construction, regenerator systems) and the requirement for continuous 24/7 operation — stopping and restarting a tank furnace costs days of production and damages refractories.
+
+Key scaling principle: glass production benefits enormously from scale. A tank furnace uses 50-60% less fuel per kg than a pot furnace. For any bootstrap operation producing more than ~500 kg/week, a day tank pays for itself in fuel savings within months.
+
+See [Glass Furnace Types](#glass-furnace-types) above for construction details of each furnace type.
+
 ### Enamel and Glass Coatings
 
 Glass coatings applied to metal substrates combine the chemical resistance of glass with the structural strength of metal:
@@ -197,6 +278,19 @@ Calculating batch weights from a desired glass composition:
 2. Convert each oxide to its raw material source: SiO₂ from sand (assume 99% SiO₂), Na₂O from soda ash (Na₂CO₃ → Na₂O + CO₂; molecular weight ratio: 62/106 = 0.585, so 1 kg Na₂O requires 1.71 kg Na₂CO₃), CaO from limestone (CaCO₃ → CaO + CO₂; ratio 56/100 = 0.56, so 1 kg CaO requires 1.79 kg CaCO₃).
 3. Sum the raw material weights. Add 20% cullet (reduces the raw material requirement proportionally).
 4. Example for 100 kg of glass: 73 kg sand (99% SiO₂), 24 kg soda ash (provides 14 kg Na₂O), 18 kg limestone (provides 10 kg CaO), 5 kg feldspar (provides Al₂O₃ and some Na₂O/K₂O), 2 kg dolomite (provides MgO and CaO). Total raw batch: ~122 kg (yields 100 kg glass + 22 kg CO₂ gas loss). Add 25 kg cullet. Adjust raw materials downward to compensate for cullet contribution.
+
+## See Also
+
+- [Glassblowing](glassblowing.md) — hand-blown glass forming techniques
+- [Advanced Glass](advanced.md) — borosilicate, fused silica, optical glass
+- [Glass Fibers](fibers.md) — fiberglass for insulation and composites
+- [Glass Recycling](glass-recycling.md) — cullet processing and color sorting
+- [Ceramics & Kilns](../ceramics/kilns.md) — kiln construction for annealing and melting
+- [Chemistry: Acids](../chemistry/acids.md) — glass as acid-resistant container material
+- [Chemistry: Alkalis](../chemistry/alkalis.md) — soda ash and potash production for flux
+- [Mining](../mining/extraction.md) — silica sand and limestone extraction
+- [Energy: Charcoal](../energy/charcoal.md) — furnace fuel
+- [Energy: Electric Furnaces](../energy/electric-furnaces.md) — electric melting for high-quality glass
 
 ---
 

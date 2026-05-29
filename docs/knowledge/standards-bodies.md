@@ -8,7 +8,7 @@
 > **Outputs**: technical_standards, measurement_standards, quality_standards, interoperability_specifications
 > **Critical**: Yes — without agreed standards, every workshop produces incompatible parts, measurement systems diverge, and inter-settlement trade in manufactured goods collapses
 
-## Overview
+## Problem
 
 Standards bodies are the organizational mechanisms by which a civilization agrees on common specifications: screw thread profiles, material grades, electrical voltages, paper sizes, drawing conventions, and measurement units. The need emerges as soon as two workshops must produce interchangeable parts, or two settlements must trade goods with agreed-upon quality. Standards prevent the fragmentation of effort that occurs when each practitioner invents their own system.
 
@@ -213,7 +213,18 @@ A standard that practitioners cannot find or read is useless. Ensure every publi
 - Summarized in a quick-reference card (single sheet, both sides) for the most commonly referenced standards (thread sizes, material grades, drawing conventions).
 - Taught as part of [Education Pathways](education-pathways.md) so practitioners know standards exist and how to look them up.
 
-## References
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Parts from two workshops don't fit together | Different workshops using different (or no) thread/material standards | Distribute current standard documents; send inspector to verify compliance; manufacture go/no-go gauges for verification |
+| Standard documents contradictory | Overlapping standards from different bodies or outdated revision | Cross-reference review committee; mark superseded standards as obsolete; publish consolidated revision |
+| Practitioners ignoring standards | Standards unknown, unavailable, or impractical | Audit workshop practices; distribute quick-reference cards; revise standard if genuinely impractical |
+| Standards lagging behind technology | Revision cycle too slow or no process for proposing changes | Create formal amendment proposal process; fast-track urgent revisions; set maximum 5-year review cycle |
+| Measurement disputes between settlements | Reference standards not calibrated to same master | Establish primary reference standards at central body; issue calibrated secondary standards to settlements; periodic recalibration schedule |
+| Standard documents deteriorating | Poor archival storage or insufficient copies | Print on alkaline paper; distribute copies to multiple libraries; see [Information Durability](information-durability.md) |
+
+## See Also
 
 - [Writing & Record-Keeping](writing.md) — the documentation foundation for standards
 - [Printing & Book Production](printing.md) — distribution of standard documents
@@ -223,6 +234,4 @@ A standard that practitioners cannot find or read is useless. Ensure every publi
 - [Information Durability](information-durability.md) — preserving standards documents across generations
 - [Quality Control](../quality-control/index.md) — the quality management systems that standards enable
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) · [Knowledge Preservation & Education](./index.md) · [All Domains](../index.md)*
+[← Back to Knowledge Preservation & Education](index.md)

@@ -8,9 +8,17 @@
 > **Outputs**: paints, coatings, inks, photoresists
 > **Critical**: No — protective coatings extend infrastructure lifespan but do not enable new capabilities directly
 
-## Overview
+## Problem
 
-Protective and decorative coatings prevent corrosion (the largest single cause of material degradation — estimated $2.5 trillion annual global cost), provide wear resistance, thermal insulation, electrical insulation, and aesthetic appearance. Inks enable printing — essential for marking, labeling, circuit board fabrication (screen-printed thick films), and photolithography (photoresists). This capability bridges basic chemistry (pigments, binders, solvents) with advanced materials engineering (semiconductor photoresists, thermal barrier coatings).
+Protective and decorative coatings prevent corrosion (the largest single cause of material degradation — estimated $2.5 trillion annual global cost), provide wear resistance, thermal insulation, electrical insulation, and aesthetic appearance. Inks enable printing — essential for marking, labeling, circuit board fabrication (screen-printed thick films), and photolithography (photoresists). This capability bridges basic chemistry (pigments, binders, solvents) with advanced materials engineering (semiconductor photoresists, thermal barrier coatings). Without coatings, steel structures rust, wood rots, and circuits cannot be patterned.
+
+### Prerequisites
+
+- [Acids](acids.md) — chemical processing and pigment production
+- [Petroleum alternatives](petroleum-alternatives.md) — solvents and synthetic resin feedstocks
+- [Metals](../metals/index.md) — substrates that require protection from corrosion
+- [Polymers](../polymers/index.md) — synthetic resins for modern coatings
+- [Ceramics](../ceramics/index.md) — pigments and mineral fillers
 
 ## Raw Materials
 
@@ -215,11 +223,24 @@ PVC (pigment volume concentration) is the fundamental concept in paint formulati
 
 The coatings industry continues to evolve toward lower VOC, higher durability, and more sustainable raw materials, driven by regulation and customer demand for longer-lasting, more environmentally responsible products.
 
-### Cross-Domain Dependencies
+### Troubleshooting
 
-- Paint formulation depends on [Solvents](../chemistry/solvents.md) and [Polymers](../polymers/natural.md) resins. Coatings protect [Metals](../metals/finishing.md) from corrosion. Related to [Textiles](../textiles/dyeing.md) dyeing chemistry.
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Paint not drying | High humidity, low temperature, or missing drier | Ensure ambient >10°C and <80% RH; add cobalt drier (0.05-0.1% metal on resin solids) |
+| Coating blistering after application | Moisture on substrate or solvent entrapment | Clean and dry substrate; reduce film thickness per coat; extend flash-off time between coats |
+| Poor adhesion (coating peels) | Surface contamination or wrong primer | Degrease with solvent; abrade surface; use appropriate primer for substrate |
+| Color mismatch between batches | Pigment dispersion variation | Use standardized pigment dispersions; measure color with spectrophotometer; batch-adjust |
+| E-coat film too thin | Low bath voltage or low solids | Increase voltage (200-350 V range); check bath solids (target 18-22%); verify bath temperature |
+| Photoresist pattern not resolving | Underexposure, outdated resist, or poor mask contact | Increase exposure dose; check resist shelf life; verify mask-substrate contact |
 
+## See Also
 
----
+- [Solvents](solvents.md) — solvents for coating formulation
+- [Polymers / Natural](../polymers/natural.md) — natural resin binders
+- [Metal Finishing](../metals/finishing.md) — surface preparation and coating application
+- [Textiles / Dyeing](../textiles/dyeing.md) — related dye chemistry
+- [Electronics / Electrical Systems](../electronics/electrical-systems.md) — insulating coatings for wiring
+- [Photolithography Resists](../photolithography/resists-masks.md) — photoresist chemistry for semiconductor patterning
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+[← Back to Chemistry](index.md)

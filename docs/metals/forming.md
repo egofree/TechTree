@@ -6,6 +6,37 @@
 > **Enables**: [`energy.steam-power`](../energy/steam-power.md), [`transport.railways`](../transport/railways.md)
 > **Timeline**: Years 15-30
 > **Outputs**: steel slab, plate, sheet, bar, structural shapes, aluminum profiles, forgings
+> **Critical**: Yes — primary forming produces the stock shapes (plate, bar, structural sections) that ALL downstream manufacturing depends on; without rolling and forging, metal remains locked in ingot form
+
+## Problem
+
+Smelting produces metal in ingot or liquid form — unusable for construction, manufacturing, or machinery. Primary forming converts raw metal into the stock shapes civilization actually needs: plate for ships and pressure vessels, sheet for automotive bodies and appliances, bar for machined components, structural sections for buildings and bridges, wire for electrical conductors and fasteners, forgings for high-integrity mechanical parts. Every piece of steel or aluminum in use passed through a primary forming operation.
+
+Without primary forming: no plate steel (ships, bridges, pressure vessels, boilers), no structural shapes (I-beams, channels — the skeleton of all construction), no bar stock (no machined parts — every shaft, bolt, gear starts as bar), no wire (no electrical conductors, no wire rope, no fasteners), no seamless tube (no boilers, no hydraulic systems, no pipelines), no forgings (no crankshafts, no turbine rotors, no pressure vessel heads). Without forming, civilization has piles of metal ingots but nothing to build with.
+
+The scale: a single integrated steel mill produces 2-5 million tonnes of rolled products per year. A hot strip mill rolls 1,000-2,000 tonnes of coil per shift. A wire rod mill produces 50-120 m/s of rod continuously. These are the highest-throughput, most capital-intensive manufacturing operations in existence — and they are the foundation on which all metal-using industries stand.
+
+## Prerequisites
+
+- **Materials**: [Liquid steel](./steelmaking.md) from basic oxygen or electric arc furnace (150-350 tonnes per heat), [aluminum billets](./aluminum.md) from Hall-Héroult cells, [mold powder/flux](../chemistry/refractories.md) for continuous casting, [lubricants](../chemistry/lubricants.md) for extrusion and forging dies, [HCl or H₂SO₄](../chemistry/acids.md) for pickling (scale removal)
+- **Tools**: [Rolling mill stands](../machine-tools/machining.md) (2-high, 4-high, or universal — work rolls 200-1350 mm diameter), [hydraulic press](../machine-tools/index.md) for forging (1,000-10,000+ ton capacity), [extrusion press](../machine-tools/index.md) (1,000-12,000 ton for aluminum), [reheat furnace](./steelmaking.md) (walking beam, 1200-1300°C), [flying shears](../machine-tools/machining.md) for cut-to-length, [straighteners](../machine-tools/machining.md) (7-21 roll), [mandrel mill](../machine-tools/index.md) for seamless tube
+- **Knowledge**: Plasticity and yield criteria (von Mises, Tresca), rolling theory (bite angle, roll pressure distribution), solidification mechanics (thermal gradients, segregation), recrystallization and grain size control, die design for extrusion and forging, thermomechanical controlled processing (TMCP)
+- **Infrastructure**: Electrical power (5-15 MW per rolling mill stand), water cooling system (3,000-6,000 L/min per stand), crane capacity (50-200 ton overhead cranes for coil and ingot handling), rail or truck access for product shipping, waste water treatment for pickling and descaling effluent
+
+## Bill of Materials — Hot Strip Mill (2 million tonnes/year capacity)
+
+| Component | Specification | Quantity | Notes |
+|-----------|--------------|----------|-------|
+| Reheat furnace | Walking beam, 1200-1300°C, coke oven gas or natural gas | 1-2 units | 200-300 tonnes/hr throughput each |
+| Roughing mill stand | 4-high, 1000-1350 mm work rolls, 20,000-40,000 kN | 1-2 stands | Reversing operation, 5,000-10,000 kW motor |
+| Finishing mill stands | 4-high, 600-800 mm work rolls | 5-7 stands in tandem | Each stand 5,000-8,000 kW, total 30-50 MW |
+| Runout table | 60-120 m length, laminar flow cooling headers | 1 unit | 10-100°C/s cooling rate control |
+| Downcoilers | Mandrel 760 mm, coil weight 15-35 tonnes | 2 units | Alternating operation for continuous production |
+| Work rolls (spare sets) | Forged steel, HSS, or high-chromium cast iron | 20-40 rolls | Each lasts 2,000-5,000 tonnes before regrind |
+| Backup rolls (spare sets) | Forged alloy steel, 1250-1600 mm diameter | 4-8 rolls | Each lasts 30,000-100,000 tonnes |
+| Descaling system | High-pressure water, 15-25 MPa | 2-3 points | Before roughing and between finishing stands |
+| Hydraulic system | 200-350 bar, 500-2000 L/min | 1 system per stand | Roll gap control (AGC) to ±0.05 mm |
+| Water treatment | Recirculating, cooling towers, filtration | 10,000-20,000 m³/hr | Scale and heat removal from mill |
 
 ### Overview
 
@@ -182,13 +213,36 @@ Structural rolling produces the shaped cross-sections that are the skeleton of c
 
 **Aluminum forming temperatures**: Aluminum alloys are hot-worked at 350-500°C — much lower than steel. The oxide film (Al₂O₃, melting point 2072°C) does not flake off like steel scale but forms a tenacious, protective skin that is harder than the underlying metal. This means aluminum forming tools must be harder and more wear-resistant than might be expected for such a soft base metal.
 
-### Cross-References
+## Troubleshooting — Hot Rolling and Continuous Casting
 
-- [Steelmaking](./steelmaking.md) — liquid steel that feeds continuous casting
-- [Aluminum](./aluminum.md) — primary aluminum for extrusion billets
-- [Machine Tools Forming](../machine-tools/forming.md) — secondary operations: cold rolling, stamping, deep drawing, wire drawing, sheet metal forming
-- [Iron & Steel](./iron-steel.md) — alloy properties, heat treatment, and metallurgy
-- [Construction Materials](../construction/index.md) — structural steel consumption
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Breakout in continuous caster (liquid steel escapes shell) | Unstable mold level; insufficient mold powder; excessive casting speed; mold taper incorrect | Maintain mold level ±3 mm (automatic level control); increase powder feed rate; reduce casting speed 10-20%; check and adjust mold taper to match shell shrinkage |
+| Transverse cracks on slab surface | Secondary cooling too aggressive; bending/unbending stresses at too-high temperature; mold powder viscosity mismatch | Reduce spray density in secondary cooling zone; adjust strand straightening temperature to above 900°C; switch to lower-viscosity mold powder for better lubrication |
+| Centerline segregation in billet | Casting speed too high for section size; steel superheat too high (>25°C above liquidus); inadequate electromagnetic stirring | Reduce casting speed 15-25%; lower tundish temperature to ≤20°C above liquidus; activate or increase electromagnetic stirring in mold and/or strand |
+| Rolled-in scale on strip surface | Inadequate descaling before rolling; reheat furnace atmosphere too oxidizing; furnace residence time too long | Increase descaling pressure to 20-25 MPa; control furnace oxygen to 2-5% excess; reduce furnace residence time; install additional descaling point between roughing and finishing |
+| Edge cracking on hot-rolled strip | Low edge temperature (heat loss from exposed edges); incompatible roll contour; material hot shortness (high sulfur) | Install edge heaters (induction) before finishing mill; adjust roll crown and bending force; verify steel chemistry — Mn:S ratio must be ≥4:1 |
+| Uneven gauge (thickness variation) along strip length | Roll gap drift; roll thermal crown change; tension variation between stands | Calibrate automatic gauge control (AGC) system; allow warm-up strips to stabilize roll temperature; check looper tension control between stands |
+| Profile shape defects (camber, sweep) | Uneven heating across slab width; uneven roll wear; misaligned mill housings | Ensure uniform slab temperature (soak time sufficient); schedule roll changes before wear exceeds tolerance; check and realign mill housing alignment |
+| Extrusion surface tearing (aluminum) | Exit temperature too high (>550°C for 6xxx alloys); ram speed too fast; die land too short | Reduce billet preheat temperature by 20-30°C; reduce ram speed 20-30%; increase die land length to 3-5 mm |
+| Forging laps (metal folding on itself) | Incorrect preform shape; too much material in one area; die cavity fills unevenly | Redesign preform to distribute metal progressively; add blocker stage before finisher; verify flash gutter is adequate to accept excess material |
+| Rail head spalling after service | Insufficient head hardness; overheating during head hardening; inclusions at subsurface | Ensure head hardness 300-380 HB; control quench rate to avoid martensite brittleness; improve steel cleanliness (reduce oxygen and sulfur content) |
+
+## See Also
+
+- [Steelmaking](steelmaking.md) — liquid steel that feeds continuous casting
+- [Iron & Steel](iron-steel.md) — alloy properties, heat treatment, and metallurgy
+- [Aluminum](aluminum.md) — primary aluminum for extrusion billets
+- [Machine Tools: Forming](../machine-tools/forming.md) — secondary operations: cold rolling, stamping, deep drawing, wire drawing, sheet metal forming
+- [Machine Tools: Machining](../machine-tools/machining.md) — machining bar stock into finished parts
+- [Machine Tools: Casting](../machine-tools/casting.md) — casting ingots and billets for forming
+- [Machine Tools: Joining](../machine-tools/joining.md) — welding structural sections and plate
+- [Construction Materials](../construction/index.md) — structural steel in buildings and bridges
+- [Energy: Steam Power](../energy/steam-power.md) — boilers require rolled plate and seamless tube
+- [Transport: Railways](../transport/railways.md) — rail production and structural sections
+- [Chemistry: Lubricants](../chemistry/lubricants.md) — roll lubrication and die lubricants
+- [Chemistry: Refractories](../chemistry/refractories.md) — furnace and ladle linings
+- [Mining: Processing](../mining/processing.md) — iron ore beneficiation for steelmaking feed
 
 ### Safety & Hazards
 

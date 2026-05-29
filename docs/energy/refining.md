@@ -2,15 +2,23 @@
 
 > **Node ID**: energy.refining
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.fuels`](fuels.md), `mining`, `chemistry`
-> **Enables**: [`energy.engine`](engine.md), `petroleum`
+> **Dependencies**: [`energy.fuels`](fuels.md), [`mining`](../mining/index.md), [`chemistry`](../chemistry/index.md)
+> **Enables**: [`energy.engine`](engine.md), [`petroleum`](../petroleum/index.md)
 > **Timeline**: Years 10-25
 > **Outputs**: refined_fuel, distilled_oil, cracked_products
 > **Critical**: No — refining enables liquid fuels for engines but is not required for the earliest bootstrap stages
 
-## Overview
+## Problem
 
-Energy refining covers the processing of crude fuels into usable forms: fractional distillation of petroleum, coal tar distillation, wood tar processing, and thermal cracking. These refined products power internal combustion engines, gas turbines, and chemical synthesis, and provide feedstocks for the petrochemical industry.
+Energy refining covers the processing of crude fuels into usable forms: fractional distillation of petroleum, coal tar distillation, wood tar processing, and thermal cracking. These refined products power internal combustion engines, gas turbines, and chemical synthesis, and provide feedstocks for the petrochemical industry. Crude petroleum and raw coal tar are not directly usable in engines or chemical processes — they must be separated into fractions with defined boiling ranges and properties.
+
+### Prerequisites
+
+- [Fuels](fuels.md) — raw fuel sources and combustion fundamentals
+- [Mining](../mining/index.md) — petroleum and coal extraction
+- [Chemistry](../chemistry/index.md) — distillation, cracking, and chemical processing
+- [Steel / Metals](../metals/index.md) — pressure vessels, distillation columns, heat exchangers
+- [Steam power](steam-power.md) — process heat and steam for distillation
 
 ## Petroleum Fractional Distillation
 
@@ -203,18 +211,24 @@ Raw natural gas from wells contains methane (70-90%), ethane (1-10%), propane/bu
 
 **LNG (liquefied natural gas)**: Cool purified natural gas to -162°C at atmospheric pressure. Volume reduction: 600× (density 0.45 g/mL as liquid vs. gas at STP). Stored in double-wall insulated tanks (inner: 9% Ni steel, outer: carbon steel, perlite insulation). Boil-off rate: 0.05-0.15% per day. Regasification: seawater or submerged combustion vaporizers at 5-15 kg/s flow rate per LNG terminal. Liquefaction energy: ~850 kWh/tonne (12-15% of gas energy content).
 
-## Cross-Domain Links
+### Troubleshooting
 
-- **[Steam Power](steam-power.md)**: boilers burning refined fuel oil for steam generation
-- **[Internal Combustion Engines](../energy/engine.md)**: gasoline and diesel fueling engines
-- **[Petrochemicals](../petroleum/petrochemicals.md)**: naphtha and gas oil as chemical feedstocks
-- **[Aluminum Production](../metals/aluminum.md)**: petroleum coke for carbon anodes
-- **[Polymer Production](../polymers/thermoplastics.md)**: ethylene and propylene from catalytic cracking
-- **[Roads](../transport/roads.md)**: asphalt from atmospheric residue
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Column flooding (pressure spike) | Vapor velocity too high or liquid level too high | Reduce boil-up rate; check reflux ratio; verify tray/packing condition |
+| Poor fraction separation (overlapping cuts) | Insufficient reflux or tray damage | Increase reflux ratio; inspect trays/packing; check for channeling |
+| Catalyst deactivation (cracking unit) | Coke buildup or metal contamination (Ni, V) from feed | Regenerate catalyst by burning coke with air; switch to lower-metal feed; add metal traps |
+| Heat exchanger fouling | Wax deposition or salt buildup from crude | Switch to desalted feed; increase exchanger cleaning frequency; add anti-foulant chemical |
+| Gas hydrate formation (gas processing) | Water + high pressure + low temperature | Ensure dehydration upstream (TEG or molecular sieve); inject methanol as emergency antifreeze |
+| High sulfur in product (diesel/gasoline) | Desulfurization unit not operating properly | Check H₂ supply pressure; verify catalyst activity; increase reactor temperature |
 
----
+## See Also
 
-*Part of the [Energy Domain](index.md) · [All Domains](../index.md)*
+- [Steam Power](steam-power.md) — boilers burning refined fuel oil for steam generation
+- [Internal Combustion Engines](engine.md) — gasoline and diesel fueling engines
+- [Petrochemicals](../petroleum/petrochemicals.md) — naphtha and gas oil as chemical feedstocks
+- [Aluminum Production](../metals/aluminum.md) — petroleum coke for carbon anodes
+- [Polymer Production](../polymers/thermoplastics.md) — ethylene and propylene from catalytic cracking
+- [Roads](../transport/roads.md) — asphalt from atmospheric residue
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+[← Back to Energy](index.md)

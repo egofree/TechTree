@@ -3,14 +3,21 @@
 > **Node ID**: telecom.submarine-cables
 > **Domain**: [Telecommunications](./index.md)
 > **Dependencies**: [`metals`](../metals/index.md), [`polymers.rubber.gutta-percha`](../polymers/gutta-percha.md), [`telecom.electric-telegraph`](electric-telegraph.md), [`transport.shipping`](../transport/shipping.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`telecom.radio`](radio.md), [`knowledge.networks`](../knowledge/index.md)
 > **Timeline**: Years 25-55
 > **Outputs**: submarine_cable_capacity, intercontinental_communication
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival
 
-## Overview
+## Problem
 
 Submarine telegraph cables were the first global communications infrastructure, connecting continents across ocean floors. The technical challenges were immense: maintaining electrical insulation under 4-8 km of seawater pressure, protecting the conductor from mechanical damage during laying and over decades of service, and amplifying signals through thousands of ohms of cable resistance and microfarads of capacitance. The first successful transatlantic cable (1866) reduced information transit time between Europe and North America from 10 days (fast steamship) to minutes — a compression factor of ~10,000.
+
+### Prerequisites
+
+- [Metals](../metals/index.md) — copper conductor production and wire drawing
+- [Gutta-percha](../polymers/gutta-percha.md) — the critical insulation material
+- [Electric telegraph](electric-telegraph.md) — onshore telegraph infrastructure and signaling
+- [Shipping](../transport/shipping.md) — cable-laying ships and maritime operations
 
 ### Gutta-Percha Insulation
 
@@ -213,12 +220,23 @@ Requires purpose-built or heavily modified cable ship with 3,000+ km cable capac
 - 1902: Pacific cable (Vancouver to Australia via Honolulu).
 - 1956: First transatlantic telephone cable (TAT-1, 36 voice channels).
 
-### See Also
+### Troubleshooting
 
-- [Electrical Telegraph Networks](electric-telegraph.md) — Onshore telegraph infrastructure
-- [Telegraph Communication](../transport/telegraph.md) — Telegraph hardware and Morse code
-- [Water Transport](../transport/shipping.md) — Cable-laying ships and maritime operations
-- [Rubber Production](../polymers/rubber.md) — Gutta-percha sourcing and rubber processing
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Signal too weak at receiver | Cable resistance too high or insulation leakage | Test cable from both ends to locate fault; replace faulty section with splice; verify repeater spacing |
+| Cable fault (dead section) | Trawl damage, anchor snag, or chafe on seabed | Locate fault with Murray loop test; grapple and recover cable; insert repair splice |
+| Insulation resistance dropping | Gutta-percha absorbing water through pinhole | Locate leak with capacitance/resistance test; cut and splice at fault point |
+| Signal distortion (smeared pulses) | Excessive capacitance on long unrepeatered span | Add inductive loading (Mueller's method); reduce signaling speed; insert repeater |
+| Cable breaks during laying | Tension too high over uneven seabed | Pay out cable at 1.05-1.10× water depth ratio; survey route with sounding; adjust ship speed |
+| Galvanic corrosion of armor | Dissimilar metals in seawater without cathodic protection | Apply zinc sacrificial anodes; verify armor wire coating integrity |
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Telecommunications](./index.md) • [All Domains](../index.md)*
+## See Also
+
+- [Electric Telegraph Networks](electric-telegraph.md) — onshore telegraph infrastructure
+- [Radio](radio.md) — wireless alternative to cable communication
+- [Water Transport](../transport/shipping.md) — cable-laying ships and maritime operations
+- [Gutta-percha](../polymers/gutta-percha.md) — the critical insulation material
+- [Metals](../metals/index.md) — copper conductor production
+
+[← Back to Telecommunications](index.md)

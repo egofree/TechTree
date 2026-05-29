@@ -1,13 +1,42 @@
 # Kiln Firing Protocols
 
 > **Node ID**: ceramics.pottery.kiln-firing
-> **Domain**: Ceramics & Refractories
-> **Dependencies**: [`energy.fuels.charcoal`](../energy/charcoal.md)
-> **Enables**: None (leaf capability)
+> **Domain**: [Ceramics & Refractories](./index.md)
+> **Dependencies**: [`energy.fuels.charcoal`](../energy/charcoal.md), [`ceramics.pottery`](pottery.md)
+> **Enables**: [`ceramics.kilns`](kilns.md) (firing validates kiln construction), [`chemistry.refractories`](../chemistry/refractories.md) (refractory brick firing), [`metals.iron-steel`](../metals/iron-steel.md) (refractories enable smelting furnaces)
 > **Timeline**: Years 0-10
 > **Outputs**: fired_ceramics
+> **Critical**: Yes — kiln firing produces refractory ceramics, which enable all high-temperature metallurgy; without fired refractories, no furnace holds molten metal, and no civilization progresses beyond the stone age
 
 Controlled firing transforms clay from a water-soluble mineral mass into a permanent, hardened ceramic. The schedule — ramp rates, peak temperature, hold times, and cooling — determines whether ware survives, vitrifies properly, or cracks. See [kilns.md](./kilns.md) for kiln construction and [pottery.md](./pottery.md) for clay preparation and forming.
+
+## Problem
+
+Clay is useless without firing. Green (unfired) clay dissolves in water, crumbles under load, and cannot hold liquids. Controlled firing transforms clay into a permanent, hardened ceramic — the first synthetic material humans ever created. But firing is not simply "make it hot." The temperature schedule — ramp rates, soak times, atmosphere, and cooling — determines whether the ware survives, vitrifies properly, or cracks. A kiln is not a bonfire; it is a precision thermal instrument.
+
+Without controlled kiln firing: no refractory bricks (furnaces for smelting, glass melting, and ceramics themselves all require firebrick), no tableware or storage vessels (fired pottery is the first airtight, waterproof container), no electrical insulators (porcelain insulators for power transmission), no crucibles for metal melting, no kiln furniture (shelves and posts that make higher-temperature firing possible). The entire chain from pottery to metallurgy to electronics starts with controlled firing.
+
+Ceramics cannot be welded, machined, or repaired after firing. Every defect formed during the firing cycle is permanent. A cracked kiln load is a total loss — the time and materials invested in forming, drying, and loading are wasted. This is why firing schedules exist: they manage the irreversible physical transformations (dehydration, quartz inversion, sintering, vitrification) that turn clay into ceramic, and they do it without cracking the ware.
+
+## Prerequisites
+
+- **Materials**: [Prepared clay body](./pottery.md) (wedged, de-aired, formed and dried to leather-hard then bone-dry), [glaze materials](./pottery.md) (feldspar, silica, whiting, kaolin, colorant oxides), [fuel](../energy/charcoal.md) (hardwood 20-120 kg per firing, or charcoal 15-40 kg), [kiln furniture](./kilns.md) (cordierite or fireclay shelves, posts, stilts), [pyrometric cones](../glossary/pyrometric-cones.md) (Orton/Seger cones matching target temperature)
+- **Tools**: [Kiln](./kilns.md) (wood, charcoal, or gas-fired — updraft, downdraft, or bottle design), [stoking tools](./kilns.md) (firing forks, pokers, dampers), [thermocouple or optical pyrometer](../measurement/index.md) for temperature monitoring, [tongs and heat-resistant gloves](../ehs/ppe.md) for raku and hot kiln access, [loading tools](./kilns.md) (shelf lifters, wadding tongs)
+- **Knowledge**: Clay mineralogy (kaolinite decomposition at 450-600°C, quartz inversion at 573°C), glaze chemistry (unity formula, limit formulas, flux-alumina-silica balance), atmosphere control (oxidation vs reduction firing), thermal shock mechanics, fuel management and draft control
+- **Infrastructure**: Covered drying area (greenware must dry 1-2 weeks before firing — rain protection essential), fuel storage (seasoned hardwood or charcoal kept dry), kiln shelter (protects kiln and firer from weather), ventilated firing area (CO and SO₂ from fuel and clay — outdoor firing or forced ventilation)
+
+## Bill of Materials — Stoneware Glaze Firing (0.5 m³ kiln)
+
+| Item | Specification | Quantity | Notes |
+|------|--------------|----------|-------|
+| Stoneware greenware (bisqued) | Bone-dry, Cone 06-04 bisque fired | 30-80 pieces | Must be fully dry — 1-2 weeks air drying for thick pieces |
+| Glaze | Mixed from raw materials to target unity formula | 2-5 liters (dip consistency, SG 1.4-1.6) | Apply by dipping, pouring, or brushing; leave 3-5 mm bare foot |
+| Hardwood fuel | Oak, ash, maple — seasoned, split to 5-10 cm × 30-50 cm | 40-80 kg | Softwood acceptable but burns faster; charcoal (15-25 kg) for more control |
+| Pyrometric cones | Orton cone pack: 1 below, target, 1 above | 3-6 cones | Place at top, middle, bottom of kiln |
+| Kiln shelves | Cordierite or fireclay, 30×30 cm to 40×40 cm | 3-5 shelves | Must be flat — warped shelves cause pieces to slide |
+| Kiln posts | Fireclay or cordierite, 5-15 cm tall | 12-20 posts | Support shelves at even height |
+| Stilts (for glazed ware) | Metal or clay, 3-point | As needed | Prevent glazed base from sticking to shelf |
+| Kiln wash | Alumina hydrate + kaolin (50:50) slurry | Applied to shelves | Prevents glaze drips from bonding to shelves; reapply every 3-5 firings |
 
 ## Temperature Indicators
 
@@ -157,6 +186,21 @@ Cooling is as critical as heating. All ceramics undergo a reverse quartz inversi
 
 **Shivering**: Glaze flakes off the body in chips. Opposite of crazing — the body contracts more than the glaze on cooling, putting the glaze in compression until it pops off. Fix: decrease silica in the glaze, or increase it in the body. Also check that the glaze is not applied too thick.
 
+## Troubleshooting — Firing Problems
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Ware cracked during bisque firing | Too-fast ramp through quartz inversion (573°C); insufficient drying before firing; uneven wall thickness | Ramp ≤100°C/hr through 500-650°C zone; dry greenware 1-2 weeks minimum; design pieces with uniform wall thickness |
+| Kiln temperature uneven (top vs bottom >2 cone numbers) | Poor draft; blocked flue; uneven fuel distribution; kiln design flaw | Clear flue and spy holes; distribute fuel evenly across firebox; consider adding a bag wall (baffle) to redirect heat flow; check door and damper seals |
+| Kiln won't reach target temperature | Insufficient fuel; wet or green wood; inadequate draft; kiln too heavily loaded | Increase fuel rate; use dry, seasoned hardwood; open dampers to increase draft; reduce ware density for better gas flow |
+| Glaze crawling (pulls back from surface in patches) | Glaze applied too thick; dusty or oily bisque surface; high glaze shrinkage during drying | Thin glaze to SG 1.3-1.4; wipe bisque with damp sponge before glazing; bisque fire to proper maturity (underfired bisque is dusty) |
+| Glaze pinholing (small holes in glaze surface) | Trapped gas from body impurities; firing too fast through glaze melt range; dusty bisque | Extend soak time 10-15 min at peak; fire slower through final 100°C to peak; ensure bisque is fully fired and clean |
+| Glaze running off pieces onto shelves | Glaze applied too thick; glaze formula too fluid at peak temperature; over-fired (cone past target) | Apply thinner glaze coat; increase alumina in glaze recipe; watch cones carefully — stop firing when target cone bends |
+| Ware bloated or blistered | Over-firing (temperature exceeded); reduction too heavy (carbon trapped in body); sulfates or organics not burned out | Fire to correct cone (do not overshoot); reduce only above 1000°C; ensure bisque firing burned out all organics (good ventilation below 600°C) |
+| Dunting (cracks appearing after cooling) | Too-fast cooling through quartz inversion zone on cooling (~573°C); kiln opened while too hot | Close all dampers during cooling; never open kiln below 200°C; slow cool through 500-650°C zone (50-100°C/hr) |
+| Kiln shelves stuck to ware | Glaze ran onto shelf; missing or worn kiln wash; stilts failed | Apply fresh kiln wash (alumina-kaolin) to shelves before each firing; use stilts for fully glazed pieces; leave 3-5 mm bare foot on all pieces |
+| Refractory cracking in kiln structure | Thermal cycling; inadequate expansion joints; moisture in refractory before first firing | Add expansion joints in kiln walls; dry-fire new kiln slowly (first firing: ramp 30°C/hr to peak with no ware); repair cracks with refractory mortar before they propagate |
+
 ### Raku Firing
 
 Raku is a rapid, dramatic firing technique that produces unique surface effects:
@@ -200,6 +244,20 @@ Estimating fuel requirements before a firing prevents running out mid-fire:
 - **[Wood-fired updraft kiln](../glossary/wood-fired-updraft-kiln.md)** (0.5 m³ chamber): 20-50 kg hardwood per bisque firing, 40-80 kg for stoneware glaze. Softwoods burn faster and produce less heat per kg — use hardwood (oak, ash, maple) for sustained high temperatures.
 - **Charcoal-fired kiln**: 15-40 kg for stoneware temperatures. Charcoal burns hotter and cleaner than wood but costs more (wood → charcoal conversion loses 60-70% of the energy content). Charcoal is preferred for reduction firing because the fuel-to-air ratio is easier to control.
 - **Gas-fired kiln**: Propane or natural gas. Consumption: 2-5 kg propane per hour for a 0.5 m³ kiln at stoneware temperatures. Gas provides the most precise temperature control and is easiest to regulate for reduction/oxidation atmosphere switching.
+
+## See Also
+
+- [Kilns](kilns.md) — kiln construction, updraft, downdraft, and bottle designs
+- [Pottery](pottery.md) — clay preparation, forming, and drying before firing
+- [Lime](lime.md) — lime calcination, another kiln-fired process
+- [Charcoal](../energy/charcoal.md) — charcoal production for kiln fuel
+- [Fuels](../energy/fuels.md) — wood, charcoal, and gas fuels for firing
+- [Refractories](../chemistry/refractories.md) — refractory brick and mortar for kiln linings
+- [Iron & Steel](../metals/iron-steel.md) — smelting requires refractories produced by kiln firing
+- [Measurement](../measurement/index.md) — thermocouples and pyrometers for kiln thermometry
+- [PPE](../ehs/ppe.md) — heat-resistant gloves, face shields, and foundry safety equipment
+- [Glass: Basic](../glass/basic.md) — glass melting requires kilns with refractory linings
+- [Chemistry: Glazes](../chemistry/index.md) — glaze chemistry and raw materials
 
 ---
 

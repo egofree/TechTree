@@ -8,6 +8,19 @@
 > **Outputs**: edible_plants, food_crops, vegetables, fruits, seeds
 > **Critical**: Yes — edible plants are the caloric foundation of all human civilization
 
+### Problem
+
+Every human settlement needs reliable caloric intake to survive, work, and reproduce. Wild foraging sustains small groups at low population density, but cannot support specialist labor, surplus production, or population growth. The transition from foraging to cultivation of edible plants is the inflection point where civilization becomes possible: staple crops produce 2-40 tonnes of food per hectare per year, supporting 5-20 people per hectare vs. 0.01-0.1 people per hectare from wild harvest alone. Identifying which plants are edible, how to cultivate them efficiently, how to process them for safety and digestibility, and how to store surpluses for lean seasons are all essential survival knowledge.
+
+### Prerequisites
+
+- [Plants & Botanical Resources](./index.md) — botanical knowledge and species identification
+- [Fire-making](../foundations/fire.md) — cooking, drying, roasting, and smoke-preservation
+- [Health](../health/index.md) — nutritional requirements and food safety
+- [Water / Irrigation](../agriculture/irrigation.md) — reliable water supply for crop cultivation
+- [Soil Management](../agriculture/soil-management.md) — maintaining fertility through rotation and amendment
+- [Seed Saving](../agriculture/seed-saving.md) — maintaining viable planting stock year to year
+
 ## 1. Overview
 
 Edible plants are the primary caloric and nutritional source for any human population. Before agriculture, wild foraging provides immediate food security — roots, greens, fruits, seeds, and stems sustain small groups with minimal tools. As populations grow, deliberate cultivation of staple crops becomes essential to produce surplus, which in turn enables specialist labor and all downstream civilization.
@@ -176,6 +189,20 @@ Approximate composition of major staple crops (per 100g edible portion, cooked u
 | Taro (cooked) | 112 | 1.5 | 0.2 | 26 | Vitamin E, potassium, magnesium |
 | Soybean (cooked) | 173 | 17 | 9 | 10 | Complete protein, iron (5.1 mg), calcium |
 
+### Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Crop failure (no germination) | Old/viable seed, planted too deep, cold soil, or dry conditions | Viability test before planting; sow at 2-3× seed diameter; wait for soil >10°C; keep moist |
+| Low grain yield | Nutrient depletion, weeds, or disease | Rotate with legumes; weed early and often; select disease-resistant varieties |
+| Cassava poisoning | Inadequate detoxification of cyanogenic glycosides | Peel, grate, soak 24-48 hours in water, then cook; never eat raw bitter cassava |
+| Potato greening | Light exposure during storage produces toxic solanine | Store in dark at 2-4°C; cut away green portions; discard if extensively green |
+| Spoiled stored grain | Moisture above 14%, rodent/insect damage, mold | Dry thoroughly before storage; use sealed containers; inspect regularly |
+| Bitter or inedible greens | Oxalates, tannins, or anti-nutrients in raw leaves | Boil 10-15 minutes; discard cooking water; blanch before eating |
+| Poor seed viability | Storage too warm/humid, or seed too old | Dry to 8-12% moisture; store cool, dark, dry; test germination before sowing |
+| Taro throat irritation | Calcium oxalate crystals (raphides) in raw tissue | Boil 20-30 minutes minimum; add pinch of baking soda to cooking water |
+| Grain mold (mycotoxins) | Harvested wet or stored damp — *Aspergillus*, *Fusarium* | Discard moldy grain (do not eat — aflatoxin is carcinogenic); dry to <14% before storage |
+
 ### Safety & Hazards
 
 - **Toxicity from misidentification**: Many edible plants have toxic lookalikes. Never eat a plant you cannot identify with certainty. Learn 10-20 local species thoroughly before expanding your foraging range. When uncertain, apply the universal edibility test: fast for 8 hours, then rub the plant on inner wrist, wait 15 minutes for irritation. Place on lips, wait 3 minutes. Hold on tongue for 15 seconds without chewing. Chew briefly, hold in mouth 15 minutes. If no burning or nausea, swallow. Wait 8 hours. If no ill effects, the plant is likely safe.
@@ -183,13 +210,6 @@ Approximate composition of major staple crops (per 100g edible portion, cooked u
 - **Parasitic contamination**: Wild plants grown near human or animal waste may carry parasites. Wash all foraged food thoroughly. Cook whenever possible. Avoid harvesting from areas with obvious fecal contamination.
 - **Allergenic potential**: Any new food can trigger allergic reaction. Introduce unfamiliar plants one at a time in small quantities. Watch for hives, swelling, difficulty breathing, or gastrointestinal distress for 24 hours after first consumption.
 - **Cumulative toxins**: Some plants (bracken fern, sassafras) contain carcinogens that accumulate with regular consumption. Use as occasional food, not daily staple.
-
-### Dependencies
-
-- **Requires**: [Plants & Botanical Resources](./index.md) (tool) — botanical knowledge and species identification underpin all foraging and cultivation
-- **Enables**: [Agriculture & Food Production](../foundations/food-agriculture.md) (material) — cultivated edible plants are the foundation of agricultural surplus
-- **Enables**: [Health](../health/index.md) (material) — adequate nutrition from edible plants is prerequisite for population health and labor capacity
-- **Uses**: [Fire-Making](../foundations/fire.md) (tool) — cooking, drying, roasting, and smoke-preservation all depend on controlled fire
 
 ### Climate-Adapted Staple Selection
 
@@ -201,6 +221,16 @@ Choosing the right staple crop for the local climate is the single most importan
 - **Semi-arid (250-500 mm rainfall)**: Sorghum (*Sorghum bicolor*, 1-3 tonnes/ha), pearl millet (*Pennisetum glaucum*, 0.5-2 tonnes/ha), cowpea (*Vigna unguiculata*). These C4 grasses use water more efficiently than wheat or rice. Sorghum grain: ~340 kcal/100g, 10% protein; also yields sweet stalk syrup
 - **Highland tropical (>1,500 m)**: Potato (native to Andes at 2,000-4,000 m), oca (*Oxalis tuberosa*), quinoa (*Chenopodium quinoa*, 4-8% protein, complete amino acid profile), kiwicha (*Amaranthus caudatus*)
 
----
+### See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*
+- [Plants & Botanical Resources](./index.md) — botanical knowledge and species identification
+- [Food & Agriculture](../foundations/food-agriculture.md) — cultivated edible plants as the foundation of agricultural surplus
+- [Crop Rotation](../agriculture/crop-rotation.md) — sustaining soil fertility through rotation cycles
+- [Seed Saving](../agriculture/seed-saving.md) — maintaining viable planting stock
+- [Irrigation](../agriculture/irrigation.md) — water supply for crop production
+- [Soil Management](../agriculture/soil-management.md) — compost, manure, and fertility maintenance
+- [Health / Medicine](../health/index.md) — nutrition requirements and food safety
+- [Fire-making](../foundations/fire.md) — cooking, drying, roasting, and smoke-preservation
+- [Chemistry](../chemistry/index.md) — salt production for food preservation
+
+[← Back to Plants](index.md)

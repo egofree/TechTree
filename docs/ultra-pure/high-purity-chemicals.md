@@ -3,16 +3,23 @@
 > **Node ID**: ultra-pure.high-purity-chemicals
 > **Domain**: [Ultra-Pure Materials](./index.md)
 > **Dependencies**: [Chemistry / Acids](../chemistry/acids.md), [Solvents](../chemistry/solvents.md), [Ultra-Pure Water](upw.md), [Polymers](../polymers/index.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`silicon.purification`](../silicon/purification.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md)
 > **Timeline**: Years 40-80
 > **Outputs**: high_purity_acids, high_purity_solvents, high_purity_gases
-> **Tags**: materials=[chemicals], era=semiconductor
+> **Tags**: materials=[chemicals], era=semiconductor, critical
 
-## Overview
+## Problem
 
 Semiconductor fabrication uses dozens of chemicals at purity levels 6-9 orders of magnitude above standard reagent grade. Electronic-grade hydrofluoric acid (HF) must contain less than 100 ppt (parts per trillion) of each metallic impurity — Fe, Cu, Ni, Cr, Zn, Na, K, Ca, and dozens of others. Standard ACS reagent-grade HF typically contains 0.5-5 ppm of metallic impurities — 5,000-50,000× too contaminated for wafer processing.
 
 The transition from industrial-grade (95-99.5%, or 2-3N purity) to electronic-grade (9N+ purity) is not incremental improvement. It requires fundamentally different equipment, materials, environments, and analytical capabilities. Standard distillation in glass apparatus introduces trace metals from the glass itself. Sub-boiling distillation in PTFE or quartz apparatus is the minimum entry point for electronic-grade production.
+
+## Prerequisites
+
+- [Acids](../chemistry/acids.md) — bulk acid production as starting material
+- [Solvents](../chemistry/solvents.md) — industrial solvent production
+- [Ultra-Pure Water](upw.md) — 18.2 MΩ·cm water for rinsing and dilution
+- [Polymers](../polymers/index.md) — PTFE and PFA for contamination-free equipment
 
 ## Purity Grades
 
@@ -216,14 +223,24 @@ All wetted surfaces in purification and storage equipment must be evaluated for 
 - **Safety**: The chemicals involved (HF, concentrated H₂SO₄, fuming HNO₃) are extremely hazardous even without considering their ultra-pure handling requirements. The combination of extreme toxicity and extreme purity demands creates a unique safety management challenge.
 - **Single-source risk**: Many electronic-grade chemicals are produced by only 2-3 suppliers worldwide. Supply disruption is a significant risk for semiconductor fabrication.
 
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Metallic contamination above spec | Leaching from container walls or transfer lines | Use PFA or PTFE containers only; replace stainless fittings with PFA; test container leach rate |
+| Purity degrading during storage | Container surface leaching or seal contamination | Rotate stock within shelf life; verify container material compatibility; store in cleanroom conditions |
+| Sub-boiling distillation too slow | Heat input too low or condenser too warm | Increase heater to just below boiling point; verify condenser coolant flow; do NOT increase to full boil |
+| Particle count exceeding spec | Dust ingress or equipment shedding | Process in ISO Class 4 cleanroom; install 0.05 μm point-of-use filter; clean all surfaces before use |
+| Inconsistent ICP-MS results | Sample contamination during collection | Use dedicated PFA sampling bottles; handle with powder-free gloves; run blanks alongside samples |
+| Organic contamination (high TOC) | Solvent residues or atmospheric organics | Install activated carbon polish; process under N₂ blanket; verify cleaning procedures for apparatus |
+
 ## See Also
 
 - [Ultra-Pure Water](upw.md) — 18.2 MΩ·cm water for wafer rinsing
 - [Analytical Verification](analytical-verification.md) — PPT-level analysis for quality control
-- [Solvents](../chemistry/solvents.md) — Industrial solvent production and H₂O₂ via anthraquinone process
-- [Chemistry / Acids](../chemistry/acids.md) — Bulk acid production
+- [Solvents](../chemistry/solvents.md) — industrial solvent production and H₂O₂ via anthraquinone process
+- [Chemistry / Acids](../chemistry/acids.md) — bulk acid production
 - [Silicon Purification](../silicon/purification.md) — Siemens process and zone refining for semiconductor-grade silicon
+- [Photolithography Fab Processes](../photolithography/fab-processes.md) — the processes consuming these chemicals
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) | [Ultra-Pure Materials](./index.md) | [All Domains](../index.md)*
+[← Back to Ultra-Pure Materials](index.md)

@@ -6,6 +6,38 @@
 > **Enables**: [`machine-tools.iterative-bootstrap`](iterative-bootstrap.md), [`measurement.precision-metrology`](../measurement/precision-metrology.md)
 > **Timeline**: Years 10-15
 > **Outputs**: cast_iron_parts, cast_aluminum_parts, sand_molds, cast_bronze_parts
+> **Critical**: Yes — casting is the only practical method for producing complex 3D metal parts before machining exists; every machine tool starts as a casting (beds, frames, housings, gear blanks)
+
+## Problem
+
+Casting is step zero of the machine tool bootstrap. Every machine tool starts as a sand-cast iron or aluminum casting — machine beds, column frames, bearing housings, gear blanks, pulleys, and slideway bases all begin as molten metal poured into shaped cavities. Casting is the only practical method for producing complex three-dimensional metal parts before machining capability exists.
+
+Without casting: no machine beds (the rigid foundation of every machine tool), no engine blocks or cylinder heads, no gear blanks (every transmission needs gears), no pipe fittings and valve bodies (fluid handling infrastructure), no flywheels (energy storage for engines), no cookware and stoves (everyday metal goods). Without casting, metalworking is limited to hammering sheet and forging bar — adequate for nails and horseshoes but not for industrial civilization.
+
+The bootstrap sequence is self-improving: a simple clay-graphite crucible + charcoal furnace melts aluminum at 660°C → sand molds produce basic castings → castings become the machine tools → machine tools make better molds and patterns → better patterns produce more precise castings → precise castings enable better machine tools. This loop is the foundry's role in civilization: each generation of castings is better than the last.
+
+## Prerequisites
+
+- **Materials**: [Silica sand](../mining/processing.md) (60-120 mesh, 90-95% SiO₂ — river sand works if clean), [bentonite clay](../ceramics/index.md) (8-12% by weight for green sand binder), [charcoal or coke](../energy/charcoal.md) for furnace fuel, [scrap aluminum or pig iron](../metals/iron-steel.md) as charge material, [limestone](../ceramics/lime.md) (CaCO₃ flux for cupola), [wax or paraffin](../polymers/natural.md) for investment casting patterns
+- **Tools**: [Crucible](../ceramics/index.md) (clay-graphite or silicon carbide), [flasks](../machine-tools/index.md) (cope and drag — wooden or metal boxes), [rammers](./index.md) for sand compaction, [bellows or blower](../energy/charcoal.md) for forced air, [ladles](./index.md) (preheated, for pouring), [thermocouple or optical pyrometer](../measurement/index.md) for temperature measurement, [patterns](./index.md) (wooden or metal master shapes)
+- **Knowledge**: Sand mixing ratios and testing (squeeze test, moisture control), pattern design (shrinkage allowance, draft angles, fillets), gating system design (sprue-runner-gate-riser), solidification and shrinkage mechanics, metal temperature assessment by color, defect identification and correction
+- **Infrastructure**: Covered work area (rain protection for sand molds), fuel storage (charcoal or coke), sand storage (keep dry), metal stockpile (scrap aluminum, pig iron, bronze ingots), ventilation (zinc fume from brass, CO from charcoal — work outdoors or forced ventilation)
+
+## Bill of Materials — Basic Foundry Setup (Green Sand, 50 kg/hr aluminum)
+
+| Item | Specification | Quantity | Notes |
+|------|--------------|----------|-------|
+| Crucible furnace | Charcoal-fired, forced air, clay-graphite crucible 15-25 kg | 1 unit | Reaches 800°C+ for aluminum; iron requires cupola |
+| Cupola furnace (for iron) | Steel shell 5 mm, fireclay lined, 40 cm bore × 2 m tall | 1 unit | 500-1500 kg/hr cast iron; continuous melting |
+| Green sand | Silica sand + 10% bentonite + 4% water | 200-500 kg | Reclaim and re-mull after each pour; top up with fresh sand |
+| Flasks (cope + drag pairs) | Wood or steel, 30×30×15 cm to 60×60×30 cm | 5-10 pairs | Various sizes for different casting sizes |
+| Rammer | Wooden or steel, peen end + flat end | 2-3 | Peen for pattern edges, flat for bulk compaction |
+| Patterns | Wood (pine, shellacked) or aluminum | As needed | 1-2% oversize for shrinkage, 1-3° draft |
+| Ladle | Preheated steel ladle with refractory coating | 1-2 | 5-15 kg capacity; preheat before use |
+| Blower | Electric blower or hand-cranked fan | 1 unit | Cupola: 5-15 kPa forced air at tuyeres |
+| Sieve / screen | 30-60 mesh for sand reclamation | 1 unit | Remove lumps and tramp material from used sand |
+| Hand tools | Trowels, slicks, lifters, vent wire, draw spikes | 1 set | Basic foundry hand tools for mold finishing |
+| Safety equipment | Face shield, leather apron, foundry boots, heat gloves | Per worker | Non-negotiable — molten metal at 700-1400°C |
 
 ## Overview
 
@@ -171,6 +203,21 @@ Casting defects are the primary yield loss in foundry work. Identifying and corr
 - **Heat treatment**: Some castings require heat treatment after casting. Gray iron is typically used as-cast. Ductile iron may be annealed (heat to 900°C, slow cool) to improve machinability. Aluminum alloys are often solution-treated and aged for improved strength.
 - **Machining**: Cast surfaces are not dimensionally accurate enough for precision fits. Machine mating surfaces (bearing bores, slideway faces, flange faces) to final tolerance. See [Machining](./machining.md).
 
+## Troubleshooting — Common Casting Problems
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Porosity (round bubbles in fracture surface) | Dissolved gas (H₂ in aluminum, N₂ in iron); moist sand; damp molds | Degas aluminum melt with N₂ or Cl₂ purge; control sand moisture to 3-6%; preheat molds to 200-400°C before pouring |
+| Shrinkage cavities (angular voids in thick sections) | Insufficient riser volume; no feed path from riser to thick section; gate froze before casting solidified | Enlarge risers (must freeze last); add chills to direct solidification toward risers; ensure gate cross-section > sprue cross-section |
+| Cold shuts / misruns (unfilled areas or visible seams) | Pouring temperature too low; mold too cold; gates too narrow; pour interrupted | Increase pouring temperature 20-50°C; preheat molds; widen gates; pour steadily without stopping |
+| Sand inclusions (embedded sand grains in casting surface) | Mold erosion from high-velocity metal stream; soft sand compaction; loose sand in cavity | Reduce gate velocity (wider gates, tapered sprue); increase sand compaction; clean cavity carefully before closing mold; add ceramic foam filter in runner |
+| Hot tears (cracks during solidification) | Differential shrinkage against rigid mold; sharp corners; uneven wall thickness | Increase fillet radii to 2-5 mm; design uniform wall thickness; improve sand collapsibility (reduce clay content slightly) |
+| Surface roughness (metal penetration into sand pores) | Sand too coarse; inadequate mold compaction; no mold wash | Use finer sand (100-140 mesh); increase ramming density; apply zircon flour mold wash to cavity surfaces |
+| Blowholes (large gas cavities, often at top of casting) | Moisture or binder decomposition gases trapped in mold; insufficient venting | Reduce sand moisture; increase sand permeability (coarser sand or less clay); poke vent holes through cope sand to atmosphere |
+| Short pour (incomplete casting) | Not enough metal; pouring temperature too low; mold too cold; gating too restrictive | Calculate metal volume needed (cavity + sprue + risers + 10% overage); increase pouring temperature; preheat mold; widen gates |
+| Warped or distorted casting | Uneven cooling; casting stressed against rigid mold during solidification; shakeout too early | Design uniform wall thickness; allow casting to cool in mold to below 200°C before shakeout; use chills to promote uniform cooling |
+| Dross inclusions in aluminum castings | Inadequate skimming before pouring; turbulent gating system; oxide skin folded in during pour | Skim dross thoroughly before pouring; design bottom-gating system to minimize turbulence; use ceramic foam filter in runner |
+
 ## Safety
 
 Foundry work involves the highest temperatures in the machine shop. Safety discipline is non-negotiable.
@@ -181,13 +228,22 @@ Foundry work involves the highest temperatures in the machine shop. Safety disci
 - **Moisture explosions**: The most lethal foundry hazard. Any moisture — damp sand, wet molds, condensation on tools, sweat on the floor — in contact with molten metal produces a steam explosion that launches metal in all directions. 1 gram of water → 1.7 liters of steam at 100°C, expanding to 3000+ liters at iron temperatures. Preheat molds to 200-400°C before pouring. Preheat ladles and crucibles. NEVER pour on concrete — use dry sand bed or metal drip tray.
 - **Fire risk**: Foundry work involves open flames, molten metal, and combustible materials. Keep fire extinguishing equipment (dry sand, Class D extinguisher for metal fires) immediately accessible. No water on metal fires — water causes steam explosions.
 
-## Cross-References
+## See Also
 
 - [Iron & Steel](../metals/iron-steel.md) — bloom smelting, crucible steel, heat treatment of cast parts
-- [Forming](./forming.md) — forging, rolling, and wire drawing of cast ingots
-- [Iterative Bootstrap](./iterative-bootstrap.md) — building machine tools from castings
-- [Bearings & Abrasives](./bearings-abrasives.md) — cutting tools and finishing operations for cast parts
+- [Metals: Forming](../metals/forming.md) — rolling, forging, and extrusion of cast ingots
+- [Machining](machining.md) — machining cast surfaces to final tolerance
+- [Forming (Machine Tools)](forming.md) — secondary forming of cast stock
+- [Iterative Bootstrap](iterative-bootstrap.md) — building machine tools from castings
+- [Bearings & Abrasives](bearings-abrasives.md) — cutting tools and finishing operations for cast parts
 - [Ceramics](../ceramics/index.md) — crucibles, refractory linings, and kiln furniture for foundry use
+- [Energy: Charcoal](../energy/charcoal.md) — charcoal and coke for furnace fuel
+- [Chemistry: Refractories](../chemistry/refractories.md) — furnace linings and refractory materials
+- [Metals: Copper-Bronze](../metals/copper-bronze.md) — bronze and brass casting alloys
+- [Metals: Aluminum](../metals/aluminum.md) — aluminum casting alloys and properties
+- [Energy: Steam Power](../energy/steam-power.md) — cast iron engine cylinders and boiler components
+- [Construction](../construction/index.md) — cast iron structural components
+- [Measurement](../measurement/index.md) — dimensional inspection of castings
 
 ## Shell Molding
 

@@ -8,7 +8,7 @@
 > **Outputs**: glass_cullet, recycled_glass, mixed_cullet_feedstock
 > **Critical**: No — reduces raw material consumption but does not unlock new capabilities
 
-## 1. Overview
+## Problem
 
 Glass recycling reclaims glass from end-of-life products (containers, windows, fiberglass, electronic scrap) and processes it into cullet — crushed glass fragments that serve as feedstock for new glass production. Adding cullet to the glass batch reduces raw material consumption (sand, soda ash, limestone) by a proportional amount and lowers melting energy by 2–3% for every 10% cullet in the batch.
 
@@ -17,6 +17,13 @@ Unlike metals, glass is not recycled into its original composition — it is rem
 Glass recycling differs fundamentally from metal recycling in one critical way: glass does not degrade with remelting. Metal alloys accumulate tramp elements over multiple recycling cycles, but glass chemistry is stable — the same SiO₂·Na₂O·CaO molecules can be melted and re-formed indefinitely. This makes glass theoretically 100% recyclable, though practical color sorting and contamination limits restrict actual recovery rates.
 
 The boundary with waste management is clear: this document covers converting waste glass into reusable cullet feedstock. See [Waste Management](../ehs/waste-management.md) for disposal of non-recyclable glass waste (contaminated with hazardous substances, mixed with non-glass materials).
+
+## Prerequisites
+
+- [Basic Glass Production](basic.md) — primary glass melting from raw materials
+- [Advanced Glass Production](advanced.md) — borosilicate and fused silica production
+- [Mining](../mining/index.md) — silica sand source (what recycling replaces)
+- [Energy](../energy/engine.md) — furnace fuel supply
 
 ## 2. Prerequisites
 
@@ -214,17 +221,26 @@ Cullet reduces energy because it is already partially reacted — the silicate n
 - **Highly contaminated glass** (embedded in composite materials, painted, laminated): Cost of cleaning exceeds value of recovered glass.
 - **Small volumes** (<1 tonne/day): Manual sorting and small-batch remelting may work, but energy savings are minimal.
 
-## 11. References
+## Troubleshooting
 
-- [Basic Glass Production](basic.md) — Primary glass melting from raw materials
-- [Advanced Glass Production](advanced.md) — Borosilicate and fused silica production
-- [Mining](../mining/index.md) — Source of silica sand (what recycling replaces)
-- [Energy](../energy/engine.md) — Furnace fuel supply
-- [Metal Recycling](../metals/metal-recycling.md) — Parallel recovery domain for metals
-- [Ceramic Recycling](../ceramics/ceramic-recycling.md) — Related recovery capability for ceramics
-- [Waste Management](../ehs/waste-management.md) — Disposal of non-recyclable glass waste
-- [Ore Processing](../mining/processing.md) — Crushing and separation equipment shared with cullet processing
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Cullet producing off-color glass | Color contamination — mixed cullet in clear batch | Improve optical sorting; separate by color before crushing; use contaminated cullet for amber/green glass only |
+| Seeds and bubbles in remelted glass | Organic contamination (labels, food residue) | Wash cullet before crushing; burn off organics at 500°C preheat; increase fining time in furnace |
+| Furnace refractory damage from cullet | Ceramic or stone contamination in cullet feed | Install magnetic separation for ferrous; density separation for ceramics; manual pick line for large contaminants |
+| Low cullet recovery rate | Breakage during collection or inadequate sorting | Use separate collection bins for glass; reduce handling steps; train collection crews |
+| Ceramic stones in final product | Heat-resistant ceramic (pyroceram) mixed in cullet | UV fluorescence sorting (ceramic glows differently); X-ray transmission sorting for high-value cullet |
+| Excessive fine particles (<0.5 mm) | Over-crushing or insufficient screening | Adjust crusher gap; add screening step; fines can be used in construction aggregate |
 
----
+## See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Glass](./index.md) · [All Domains](../index.md)*
+- [Basic Glass Production](basic.md) — primary glass melting from raw materials
+- [Advanced Glass Production](advanced.md) — borosilicate and fused silica production
+- [Mining](../mining/index.md) — source of silica sand (what recycling replaces)
+- [Energy](../energy/engine.md) — furnace fuel supply
+- [Metal Recycling](../metals/metal-recycling.md) — parallel recovery domain for metals
+- [Ceramic Recycling](../ceramics/ceramic-recycling.md) — related recovery capability for ceramics
+- [Waste Management](../ehs/waste-management.md) — disposal of non-recyclable glass waste
+- [Ore Processing](../mining/processing.md) — crushing and separation equipment shared with cullet processing
+
+[← Back to Glass](index.md)

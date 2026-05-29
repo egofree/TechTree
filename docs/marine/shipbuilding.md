@@ -12,7 +12,7 @@ Shipbuilding evolves through four major construction methods, each enabled by ad
 
 For operational aspects of water transport (navigation, cargo handling, canal engineering), see [Water Transport](../transport/shipping.md).
 
-### Dugout Canoe Construction (Stone Age)
+## Dugout Canoe Construction (Stone Age)
 
 The earliest watercraft: a single tree trunk hollowed by fire and adze work.
 
@@ -35,7 +35,7 @@ The earliest watercraft: a single tree trunk hollowed by fire and adze work.
 
 **Expanded dugout technique**: For wider vessels, soften the completed dugout with steam or boiling water, then spread the sides apart with wooden wedges or thwarts (cross-pieces). This increases beam by 30-50% without sacrificing hull integrity. The expanded hull is held in shape by fixed thwarts. This technique bridges the gap between dugouts and plank-built boats.
 
-### Clinker-Built Construction (Overlapping Planks)
+## Clinker-Built Construction (Overlapping Planks)
 
 The dominant Northern European tradition from the Bronze Age through the Viking era.
 
@@ -74,7 +74,7 @@ The dominant Northern European tradition from the Bronze Age through the Viking 
 - Maximum practical length: ~30 m (Viking longship) — beyond this, the flexible hull lacks sufficient longitudinal strength
 - Weight: 2-10 tonnes empty, cargo capacity 5-20 tonnes for 15-25 m vessels
 
-### Carvel-Built Construction (Edge-to-Edge Planks)
+## Carvel-Built Construction (Edge-to-Edge Planks)
 
 The Mediterranean tradition that enables larger, stiffer hulls. Used for all major sailing ship construction from the 15th century onward.
 
@@ -109,7 +109,7 @@ The Mediterranean tradition that enables larger, stiffer hulls. Used for all maj
 - Copper sheathing (0.5-1.0 mm sheets nailed below waterline) prevents worm damage and fouling
 - Lead sheeting: cheaper alternative for hull protection, less effective against fouling
 
-### Iron and Steel Hull Construction
+## Iron and Steel Hull Construction
 
 The critical transition enabled by iron and steel production and rolling mills.
 
@@ -150,7 +150,7 @@ The critical transition enabled by iron and steel production and rolling mills.
 - Welded joints are inherently watertight (no rivet holes to leak)
 - Quality control critical: X-ray or ultrasonic inspection of critical welds
 
-### Watertight Bulkheads
+## Watertight Bulkheads
 
 Essential for safety on iron and steel vessels. Transverse bulkheads (walls) divide the hull into separate compartments.
 
@@ -166,7 +166,7 @@ Essential for safety on iron and steel vessels. Transverse bulkheads (walls) div
 - If two adjacent compartments flood (one-bulkhead-damage criterion), the ship must remain afloat
 - Passenger vessels must survive flooding of any two adjacent compartments
 
-### Ship Structure Stress Analysis
+## Ship Structure Stress Analysis
 
 **Longitudinal strength**:
 - A ship at sea is supported unevenly by buoyancy — wave crests support the ends while the midship sinks, or vice versa. This creates longitudinal bending stresses.
@@ -180,7 +180,7 @@ Essential for safety on iron and steel vessels. Transverse bulkheads (walls) div
 - Frame loading: p × s × l, where p = water pressure (ρgh), s = frame spacing, l = frame span
 - A frame at 3 m depth with 600 mm spacing and 2 m span carries: 1025 × 9.81 × 3 × 0.6 × 2 = 36,200 N (3,690 kgf)
 
-### Shipyard Facilities
+## Shipyard Facilities
 
 **Building berth (slipway)**:
 - Inclined concrete or stone foundation (1:10 to 1:20 slope)
@@ -202,7 +202,7 @@ Essential for safety on iron and steel vessels. Transverse bulkheads (walls) div
 - Capacity: 1,000-100,000 tonnes lift
 - Mobile — can be towed to where needed
 
-### Sailing Rig Evolution (Summary)
+## Sailing Rig Evolution (Summary)
 
 For detailed sailing mechanics, see [Water Transport](../transport/shipping.md).
 
@@ -211,14 +211,14 @@ For detailed sailing mechanics, see [Water Transport](../transport/shipping.md).
 - **Full-rigged ship** (1400 CE+): Three masts — fore (square), main (square), mizzen (lateen). Combines downwind power with upwind capability. Sail area 200-2000 m² for 100-1000 tonne vessels.
 - **Sail area calculation**: SA/D ratio = sail area (m²) / (displacement in m³)^2/3. Target 15-20 for cargo, 20-30 for performance.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Shipyard injuries**: Falls from height (working on scaffolding up to 15 m), dropped tools/rivets, noise-induced hearing loss from riveting (110-120 dB). Safety nets, hard hats, and hearing protection mandatory.
 - **Welding hazards**: UV radiation burns eyes (arc eye), toxic fumes from flux coatings, fire risk from sparks. Welding screens, ventilation, and fire watches required.
 - **Confined space entry**: Double-bottom tanks, fuel tanks, and ballast tanks accumulate toxic gases. Ventilate and test atmosphere before entry. Never enter alone.
 - **Launch hazards**: Hull accelerates rapidly during launch (0-15 knots in seconds). Clear the path. Standing water ahead of the ways creates a wave that can capsize small boats.
 
-### Materials Summary
+## Materials Summary
 
 | Era | Hull Material | Fasteners | Typical Length | Typical Displacement |
 |-----|--------------|-----------|---------------|---------------------|
@@ -229,7 +229,7 @@ For detailed sailing mechanics, see [Water Transport](../transport/shipping.md).
 | Industrial (iron) | Wrought iron plates | Iron rivets | 30-120 m | 100-5,000 tonnes |
 | Industrial (steel) | Steel plates | Steel rivets/welds | 50-300+ m | 500-50,000+ tonnes |
 
-### See Also
+## See Also
 
 - [Water Transport](../transport/shipping.md) — operational aspects of ships, navigation, cargo handling
 - [Metals: Iron & Steel](../metals/iron-steel.md) — iron and steel production for hull materials
@@ -238,6 +238,4 @@ For detailed sailing mechanics, see [Water Transport](../transport/shipping.md).
 - [Textiles](../textiles/index.md) — sailcloth and rope production
 - [Metal Joining](../machine-tools/joining.md) — riveting, welding, and brazing techniques
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval](./index.md) • [All Domains](../index.md)*
+[← Back to Marine & Naval Engineering](index.md)

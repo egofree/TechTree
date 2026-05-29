@@ -8,9 +8,15 @@
 > **Outputs**: copper_ore, iron_ore, tin_ore, coal, quartz, sulfur, fluorite, concentrated_ore
 > **Critical**: No
 
-### Mining & Prospecting
+Prospecting locates ore deposits and evaluates their economic potential before committing to mining infrastructure. Surface indicators, stream sediment sampling, geophysical surveys, and test pitting narrow the search from landscape-scale to deposit-scale. This document covers prospecting methods and surface mining of placer deposits.
 
-**Surface prospecting**:
+## Prerequisites
+
+- [Writing & Record-Keeping](../knowledge/writing.md) — recording sample locations and assay results
+- [Measurement](../measurement/precision-metrology.md) — compass, level, and assay instruments
+- [Black Powder](black-powder.md) — blasting for test pits and adits
+
+## Surface Prospecting
 - **Visual indicators**: Malachite (green) and azurite (blue) stains on rock = copper ore. Red/rusty soil = iron ore. White/clear crystals = quartz. Yellow crystals = sulfur. Purple/green fluorite = fluorite. Black heavy sand = magnetite (iron).
 - **Stream panning**: Pan stream gravels to concentrate heavy minerals. Gold (yellow, malleable), cassiterite (black, heavy = tin), magnetite (black, magnetic = iron), garnet (red = indicator of metamorphic deposits).
 - **Streak test**: Rub mineral on unglazed porcelain. Hematite streaks red-brown (iron). Magnetite streaks black (iron). Pyrite streaks greenish-black (sulfur/iron).
@@ -226,12 +232,23 @@
 
 Stream sediment sampling is the most cost-effective regional exploration method for base metals and gold. The procedure: collect 10-50 g of the minus-80 mesh (<177 μm) fraction from active stream sediment, typically from behind boulders or in meander pools where fines accumulate. Sieve the bulk sample in the field using nested brass sieves (80 mesh = 177 μm openings). The fine fraction captures trace metals adsorbed onto iron-manganese oxide coatings on sediment grains. Analyze the sample for pathfinder elements: Cu, Pb, Zn by atomic absorption spectroscopy (AAS) with detection limits of 1-5 ppm, or Au by fire assay with a 10-50 g charge accurate to 0.01 g/t. Sample spacing: 100-500 m along drainage, with at least one sample per first-order stream catchment. Anomalies exceeding 3× background concentration warrant upstream follow-up with soil sampling on 50-100 m grid spacing.
 
----
+## Troubleshooting
 
-### Cross-Domain Dependencies
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| No mineral indicators found | Wrong geologic terrain or looking in alluvium far from source | Research regional geology maps; prospect near known fault contacts and intrusive boundaries; follow stream up to headwaters |
+| Stream pan showing only quartz sand | Too far downstream — heavy minerals deposited upstream | Move upstream to higher gradient reaches; pan behind large boulders where heavies accumulate |
+| Test pit hitting water table | Pit too deep or dug in low-lying area | Move pit to higher ground; dig trenches instead to expose bedrock at shallower depth |
+| Assay results inconsistent | Sample contamination or poor sample preparation | Clean tools between samples; use dedicated sample bags; split and duplicate 10% of samples for quality control |
+| False anomaly (high metals, no ore) | Secondary enrichment or anthropogenic contamination | Check for old mine tailings upstream; sample soil profiles vertically; run multi-element analysis to identify pathfinder ratios |
+| Cannot identify mineral visually | Fine-grained or weathered ore masking diagnostic features | Do streak test on porcelain; check hardness with Mohs kit; send sample for petrographic thin section analysis |
 
-- Prospecting finds ore for [Extraction](../mining/extraction.md) and [Processing](../mining/processing.md). Uses [Measurement](../measurement/precision-metrology.md) instruments. [Black Powder](../mining/black-powder.md) for test blasting.
+## See Also
 
----
+- [Extraction](extraction.md) — mining the ore deposits prospecting locates
+- [Ore Processing](processing.md) — concentrating ore after extraction
+- [Black Powder](black-powder.md) — blasting for test pits and development
+- [Precision Metrology](../measurement/precision-metrology.md) — survey instruments and assay equipment
+- [Ventilation](ventilation.md) — underground air management for test adits
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Mining](./index.md) • [All Domains](../index.md)*
+[← Back to Mining](index.md)

@@ -3,10 +3,22 @@
 > **Node ID**: marine.navigation
 > **Domain**: [Marine & Naval Engineering](./index.md)
 > **Dependencies**: [`knowledge.writing`](../knowledge/writing.md), [`metals`](../metals/index.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`marine.infrastructure`](infrastructure.md), [`transport.shipping`](../transport/shipping.md)
 > **Timeline**: Years 0-50+
 > **Outputs**: navigation instruments, nautical charts, position fixing
 > **Critical**: No — specialized maritime capability, not required for land-based civilization
+
+### Problem
+
+Crossing open ocean beyond sight of land requires knowing your position (latitude and longitude) and your heading. Without navigation, a vessel is lost as soon as land disappears over the horizon — unable to reach a destination, unable to return home, and at the mercy of winds and currents. Latitude can be determined from the sun or pole star with simple instruments, but longitude requires an accurate clock (chronometer) or complex lunar observations. The challenge is building instruments and knowledge systems precise enough to fix position within miles across thousands of miles of featureless ocean — getting it wrong by even 1° means being 60 nautical miles off course, which in coastal waters means shipwreck.
+
+### Prerequisites
+
+- [Writing systems](../knowledge/writing.md) — recording observations, charts, and navigation tables
+- [Metals](../metals/index.md) — iron and steel for compass needles, sextant frames, and chronometer parts
+- [Glass](../glass/index.md) — lenses for sextants, telescopes, and magnifying reading instruments
+- [Measurement instruments](../measurement/index.md) — precision machining for sextant arcs and chronometer movements
+- [Mathematics](../knowledge/mathematics.md) — trigonometry, spherical geometry, and logarithm tables
 
 Marine navigation is the science and craft of determining position and directing a vessel's course across water. The progression from coastal piloting to celestial navigation to dead reckoning tracks the development of instruments, mathematics, and timekeeping.
 
@@ -199,14 +211,26 @@ Estimating current position from a known starting point by tracking course and d
 - **Chronometer failure**: Without accurate time, longitude cannot be determined. Use lunar distance method (measure angle between moon and a reference star, consult nautical almanac) — complex but doesn't require a chronometer. Accuracy ±20-30 nm.
 - **Fog and reduced visibility**: Sound fog signals (bell, horn) at regulated intervals. Reduce speed. Post extra lookouts. Use radar if available.
 
+### Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Position fix disagrees with dead reckoning | Celestial observation error or current drift | Re-shoot sights with fresh horizon; check DR for current leeway; cross-check with depth sounding |
+| Compass reading unstable | Magnetic deviation from iron cargo or nearby lightning strike | Move compass away from ferrous objects; compensate with deviation table; use spare compass |
+| Chronometer gaining/losing time | Temperature variation affecting balance spring | Keep chronometer in padded box at stable temperature; apply daily rate correction |
+| Unable to shoot sun (overcast) | Weather blocking celestial observations | Use dead reckoning from last known fix; reduce speed near hazards; sound depth continuously |
+| Latitude fix disagrees with chart | Wrong assumed latitude in sight reduction or almanac error | Recheck arithmetic; verify almanac date and page; shoot multiple stars for cross-check |
+| Chip log underestimating speed | Line tangling or sandglass inaccurate | Ensure log line runs free; calibrate sandglass against chronometer; average multiple runs |
+| Sextant index error | Mirrors misaligned from handling or temperature | Check index error by observing horizon; adjust mirrors or apply correction to all readings |
+
 ### See Also
 
 - [Water Transport](../transport/shipping.md) — navigation operational procedures, piloting, tide calculations
+- [Marine Infrastructure](infrastructure.md) — ports, lighthouses, and navigation aids
 - [Knowledge](../knowledge/index.md) — writing systems for charts and logs, mathematics for calculations
 - [Metals](../metals/index.md) — iron and steel for compass needles and instrument components
 - [Glass](../glass/index.md) — lenses and optics for sextants and telescopes
 - [Measurement](../measurement/index.md) — precision instruments and calibration
+- [Telecom / Radio](../telecom/radio.md) — radio navigation and time signal reception
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval](./index.md) • [All Domains](../index.md)*
+[← Back to Marine](index.md)

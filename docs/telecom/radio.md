@@ -100,7 +100,6 @@ The vacuum tube transformed radio from a limited point-to-point technology into 
 
 **Superheterodyne receiver (Armstrong, 1918)**: The dominant receiver architecture for 100+ years. The incoming RF signal is mixed with a local oscillator to produce an intermediate frequency (IF, typically 455 kHz for AM). IF stages provide fixed-frequency amplification and filtering, offering superior selectivity and stability.
 
-## Bill of Materials
 
 ## Spark-Gap Transmitter Station (1 kW)
 
@@ -126,7 +125,6 @@ The vacuum tube transformed radio from a limited point-to-point technology into 
 | Headphones | 1 pair | 2000-4000 ohm magnetic, high sensitivity | [Metals](../metals/index.md) |
 | Ground rod/wire | 1 | Copper rod 1-2 m + 10 m wire | [Metals](../metals/index.md) |
 
-## Quantitative Parameters
 
 ## Transmitter Specifications by Era
 
@@ -170,7 +168,6 @@ The vacuum tube transformed radio from a limited point-to-point technology into 
 | Short wave (HF) | 3-30 MHz | 10-100 m | Sky wave (ionospheric) | 500-15,000 km |
 | Very high freq (VHF) | 30-300 MHz | 1-10 m | Line of sight | 5-100 km |
 
-## Scaling Notes
 
 ## Short-Range Station (5-50 km)
 

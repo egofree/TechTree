@@ -50,7 +50,6 @@ The three-plate method produces optically flat surfaces without any pre-existing
 
 If A fits B and B fits C and C fits A, all three must be flat. Any curvature would cause a mismatch in at least one pairing. After 3-5 cycles through each grit stage, all three plates achieve flatness within λ/4 (140 nm) over their full aperture. Further polishing with fine figuring brings them to λ/10 or better.
 
-## Angle Measurement
 
 ## Autocollimator
 
@@ -64,7 +63,6 @@ When the target mirror is exactly perpendicular to the optical axis, the reflect
 
 A pentagonal prism or mirror arrangement that deflects light by exactly 90°, regardless of small angular errors in the mounting. Used to establish perpendicular reference lines for machine tool alignment and construction. Accuracy: ±1 arcsecond for a quality pentagonal prism. Simpler than an autocollimator for 90° checks, and more compact than a precision engineer's square.
 
-## Interferometric Flatness Testing
 
 ## Fizeau Interferometer
 
@@ -78,7 +76,6 @@ The Fizeau interferometer is the primary instrument for measuring surface flatne
 
 When a slightly curved lens surface rests on a flat reference surface, the air gap between them creates concentric circular interference fringes (Newton's rings). The radius of the nth dark ring is rₙ = √(nλR), where R is the radius of curvature. Counting rings from the center quantifies the deviation from flatness or the radius of curvature. Quick, requires only a reference flat and a monochromatic light source. Accuracy: λ/2 per ring, limited by contact pressure and cleanliness.
 
-## Precision Levels
 
 ## Tubular Vial Level
 
@@ -101,7 +98,6 @@ A profile projector (optical comparator) casts a magnified shadow of a workpiece
 
 **Applications**: Thread profile inspection, gear tooth measurement, small machined parts, stampings, and molded components. Non-contact: measures soft, fragile, or flexible parts without deformation. The workhorse inspection instrument in any precision machine shop.
 
-## Coordinate Measuring with Optics
 
 ## Toolmaker's Microscope
 

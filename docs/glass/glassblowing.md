@@ -44,7 +44,6 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 | Annealing oven fuel/power | 2-5 kWh | [Electricity](../energy/electricity.md) | Gas-fired kiln |
 | Rubber hose (for blow tube) | 0.5-1 m | [Rubber processing](../chemistry/adhesives-coatings.md) | Latex tubing, direct mouth blow |
 
-## Process Description
 
 ## Lampworking (Bench-Scale Torch Work)
 
@@ -298,7 +297,6 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 - Uniform wall thickness requires skilled glassblowing — inconsistent walls distort volume readings
 - Calibration is temperature-dependent — accuracy degrades if used at temperatures far from calibration temperature
 
-## Quantitative Parameters
 
 ## Torch Types and Capabilities
 
@@ -369,7 +367,6 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 
 **Volume calibration**: For graduated cylinders and volumetric glassware, calibrate by weighing deionized water. 1.000 g water = 1.000 mL at 4°C. Record calibration temperature on each piece. Re-calibrate if glass is heated above 200°C (thermal expansion affects volume).
 
-## Variations and Alternatives
 
 ## Window Glass Methods
 

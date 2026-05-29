@@ -18,7 +18,6 @@ Development tools transform programming from an ordeal into a craft. Each tool a
 - **Build system**: Managing compilation of multi-file projects (replaces manual compile commands)
 - **Version control**: Tracking changes and enabling collaboration (replaces dated file copies)
 
-## Prerequisites
 
 ## Software
 - **Working compiler** ([compilers](compilers.md)): Development tools are written in a high-level language. The compiler is needed to build them.
@@ -42,7 +41,6 @@ Development tools transform programming from an ordeal into a craft. Each tool a
 | Working compiler + assembler | 1 each | [compilers](compilers.md), [assemblers](assemblers.md) | Cross-development on host machine |
 | Operating system | 1 instance | [operating-systems](operating-systems.md) | Bare-metal monitor (minimal tools) |
 
-## Process Description
 
 ## Text Editor
 

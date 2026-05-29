@@ -256,7 +256,6 @@ Small-diameter cutter (3-25 mm) for pockets, slots, profiles, and keyways. The w
 - Chip evacuation in deep slots is poor — chips recut, degrading surface finish and accelerating tool wear
 - Limited depth of cut per pass (1-3 mm) means many passes for deep features
 
-## Drilling, Boring & Reaming
 
 ## Drilling
 

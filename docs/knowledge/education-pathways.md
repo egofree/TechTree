@@ -30,7 +30,6 @@ The distinction matters: a library of technical manuals without a structured pat
 | Drafting instruments | 1 set per student | [Metals](../metals/index.md) | Shared sets (4 students per set) |
 | Measurement tools | 1 set per 2 students | [Measurement](../measurement/precision-metrology.md) | Shared sets with scheduled access |
 
-## Process Description
 
 ## Skill Decomposition
 
@@ -96,7 +95,6 @@ Arrange for journeymen from one workshop to spend 2-4 weeks at another workshop,
 
 **Weaknesses**: Travel logistics and accommodation costs may be prohibitive for distant workshops. The visiting practitioner is temporarily less productive than a local worker familiar with the specific equipment and procedures.
 
-## Quantitative Parameters
 
 ## Training Duration by Skill Domain
 
@@ -168,7 +166,6 @@ Arrange for journeymen from one workshop to spend 2-4 weeks at another workshop,
 - **Training program audit**: Review training effectiveness annually by sampling graduate performance on standardized tasks. If fewer than 80% of recent graduates pass the practical competency assessment on first attempt, the curriculum or instruction quality needs revision. Track the correlation between training hours, instructor-to-student ratio, and assessment pass rates to optimize resource allocation.
 - **Record keeping**: Maintain a training record for every student, documenting: modules completed, assessment results (pass/fail with scores), hours of supervised practice, instructor evaluations, and any safety incidents. These records serve as both individual certification evidence and aggregate data for curriculum improvement. Store records permanently — a practitioner's training history may need verification decades later.
 
-## Variations and Alternatives
 
 ## Apprenticeship-Only Pathway
 

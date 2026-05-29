@@ -50,7 +50,6 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 | Perlite insulation | 5-20 m³ (cold box fill) | [Mining](../mining/processing.md) — expanded volcanic glass | Mineral wool, multi-layer insulation |
 | Palladium catalyst (argon polishing) | 0.1-1 kg (5-10 year life) | [Precious metals](../metals/precious-metals.md) | No alternative for O₂ removal from crude argon |
 
-## Process Description
 
 ## Cryogenic Distillation (Linde Double-Column Cycle)
 
@@ -228,7 +227,6 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 - Palladium catalyst is expensive and sourced from [precious metals](../metals/precious-metals.md)
 - Hydrogen supply required for catalytic deoxidation — adds infrastructure dependency
 
-## Quantitative Parameters
 
 ## Method Comparison
 
@@ -313,7 +311,6 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 
 **Molecular sieve adsorber monitoring**: Track CO₂ breakthrough time. If CO₂ appears at adsorber outlet before the scheduled switch, the bed is exhausted and requires regeneration or replacement.
 
-## Variations and Alternatives
 
 ## Vacuum Swing Adsorption (VSA)
 

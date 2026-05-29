@@ -239,7 +239,6 @@ Industrial water treatment includes treating used water before discharge. The st
 | TOC analyzer | Water quality monitoring | ppb-level detection |
 | Resistivity meter | UPW quality monitoring | 18.2 MΩ·cm full scale |
 
-## Steps
 
 ## Building a Two-Bed Deionization System
 

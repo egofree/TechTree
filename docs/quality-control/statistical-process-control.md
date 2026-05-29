@@ -230,7 +230,6 @@ Before any SPC study, validate the measurement system. A Gage R&R study quantifi
 
 **Semiconductor-specific**: For critical dimension (CD) measurement, the SEM (Scanning Electron Microscope) or CD-SEM Gage R&R must be <5% because the process tolerances are extremely tight (±2-5 nm on 20-40 nm gate lengths). This requires temperature-controlled metrology rooms and automated measurement routines that minimize operator influence.
 
-## Implementation Requirements
 
 ## SPC Software Requirements
 

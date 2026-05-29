@@ -19,7 +19,6 @@ The major thermoset families — phenolic (Bakelite), epoxy, unsaturated polyest
 - [Glass fibers](../glass/fibers.md) — fiberglass reinforcement for polyester composites
 - [Thermoplastics](thermoplastics.md) — complementary polymer processing knowledge
 
-## Materials and Processes
 
 ## Phenol-Formaldehyde (Bakelite)
 

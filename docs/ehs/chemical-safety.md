@@ -31,7 +31,6 @@ Semiconductor fabrication uses the most hazardous chemicals in industrial produc
 | Contain + neutralize in place | 10-30 min | Moderate | Low | Known liquid spills with trained responders |
 | Full-building evacuation + fire dept | 5-15 min | Highest | Very high | Large releases, fires, explosions |
 
-## Semiconductor Process Chemicals
 
 ## Hydrofluoric Acid (HF)
 
@@ -206,7 +205,6 @@ Semiconductor fabrication uses the most hazardous chemicals in industrial produc
 
 **NFPA 704 Diamond**: Health 3 (serious), Flammability 1 (slight), Instability 0, Special: None
 
-## Additional Semiconductor Chemicals
 
 ## Sulfuric Acid (H₂SO₄) — Piranha Clean
 
@@ -323,7 +321,6 @@ Every chemical in the fab must have an accessible SDS (formerly MSDS) covering 1
 15. Regulatory information (applicable regulations, reporting requirements)
 16. Other information (revision date, abbreviations)
 
-## Exposure Monitoring Protocols
 
 ## Continuous Gas Monitoring
 

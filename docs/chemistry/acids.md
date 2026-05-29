@@ -39,7 +39,6 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 | Lead sheet (3-6 mm) | 5-20 tonnes (one-time, chamber) | [Metals](../metals/non-ferrous.md) | Steel with acid-resistant brick lining |
 | Cast iron pipe and valves | 1-5 tonnes (one-time) | [Metals](../metals/iron-steel.md) | Stainless steel 316L for concentrated acid |
 
-## Process Description
 
 ## Lead Chamber Process (62-70% H₂SO₄)
 
@@ -320,7 +319,6 @@ Semiconductor processing requires ultra-pure acids (trace metal impurities at pp
 - **Hydrochloric acid (HCl)**: Fumes are corrosive to respiratory tract — detectable at 5 ppm, dangerous at 100 ppm, IDLH 50 ppm. Scrub vent gases through NaOH solution. Store in rubber-lined steel, glass, or PVC containers. Carbon steel is NOT suitable for HCl service. PPE: chemical splash goggles, neoprene gloves, face shield.
 - **Hydrofluoric acid (HF)**: EXCEPTIONALLY DANGEROUS. Dissolves bone by binding calcium. Penetrates skin without immediate pain — the delay makes exposure more dangerous. Lethal at ~2.5% body surface area exposure to 50% HF (a hand-sized splash can kill via hypocalcemia-induced cardiac arrest). **Calcium gluconate gel (2.5%) MUST be on-site before any HF handling** — apply immediately to exposed skin, massage for 15+ minutes, seek emergency medical treatment. PPE: neoprene gloves (NOT latex — HF penetrates latex), face shield, chemical apron. Storage: PTFE or polyethylene containers ONLY. NEVER glass (HF etches SiO₂). Double-contained: primary container inside secondary containment tray.
 
-## Quantitative Parameters
 
 ## Acid Concentration and Properties
 

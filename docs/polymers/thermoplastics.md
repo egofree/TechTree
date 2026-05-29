@@ -13,7 +13,6 @@ Thermoplastic polymers soften when heated and harden when cooled — a reversibl
 
 The thermoplastics covered here span from polyethylene (achievable at Chemistry stage with high-pressure reactors) through PVC and nylon (Chemistry–Vacuum stages) to PTFE and polycarbonate (advanced petrochemical industry). Processing methods — injection molding, extrusion, blow molding, thermoforming, compression molding — convert raw polymer granules into finished products. Feedstocks come from [petrochemical cracking](../chemistry/petroleum-alternatives.md); polymerization reactors and extruders rely on [machine tools](../machine-tools/index.md).
 
-## Prerequisites
 
 ## Materials
 - Ethylene, propylene, styrene, vinyl chloride monomer (from [petrochemicals](../chemistry/petroleum-alternatives.md))
@@ -34,7 +33,6 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - Compressed air (for blow molding — 0.2-1.5 MPa)
 - Ventilation (for polymer fume extraction during melt processing)
 
-## Bill of Materials
 
 ## Polyethylene (HDPE) — per tonne polymer
 
@@ -63,7 +61,6 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 | Hexamethylenediamine (HMDA) | 0.52 tonnes | [Petrochemicals](../chemistry/petroleum-alternatives.md) — butadiene + HCN → adiponitrile → hydrogenation | From acrylonitrile electrolytic dimerization |
 | Nitrogen (inert atmosphere) | 50-100 m³ | [Air separation](../chemistry/air-separation.md) | Argon (more expensive) |
 
-## Process Description
 
 ## Polyethylene (LDPE and HDPE)
 
@@ -324,7 +321,6 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - Dimensional control depends on consistent screw speed, temperature, and puller speed — requires active monitoring and adjustment
 - Start-up waste — 5-20 kg of material wasted during start-up until process stabilizes and dimensions are on-spec
 
-## Quantitative Parameters
 
 ## Thermoplastic Properties Comparison
 
@@ -385,7 +381,6 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - **Plastic dust explosions**: Fine thermoplastic powders (PE, PVC, PS) form explosive dust clouds. PE dust MEC: 20-30 g/m³. PS dust Kst: 110-160 bar·m/s (St Class 1). Ground all equipment. Maintain ventilation. Clean up accumulated dust regularly.
 - **VCM exposure** (PVC production): Confirmed human carcinogen (IARC Group 1). Closed systems, continuous air monitoring, explosion-proof equipment. See [Synthetic Polymers](./synthetic.md) for full hazard data. Residual VCM in finished PVC: <1 ppm (food-grade: <0.1 ppm).
 
-## Quality Control
 
 ## Incoming Resin
 - **Melt Flow Index (MFI)**: ASTM D1238. Verify MFI is within specification (±10% of nominal). Out-of-range MFI indicates wrong grade, degradation, or contamination.
@@ -403,7 +398,6 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - **Surface quality**: Visual — no sharkskin, die lines, or discoloration.
 - **Pressure test** (PVC pipe): Hydrostatic test at 2× working pressure for 1 hour. No leaks, no deformation.
 
-## Variations and Alternatives
 
 ## Blow Molding
 - **Extrusion blow molding**: Continuous parison extruded downward, enclosed in split mold, inflated with compressed air (0.2-1.0 MPa). Produces bottles, jerry cans, fuel tanks. Blow ratio (max diameter / initial parison diameter): 2:1 to 7:1. Mold can be aluminum or wood for low-pressure products.

@@ -11,7 +11,6 @@ Water procurement is the first and most critical capability in bootstrapping civ
 
 The techniques here require no metal tools and minimal crafted materials. They draw on observation skills, basic construction, and an understanding of how water moves through the landscape. Every method described has been used by human communities for thousands of years and requires only materials available from the natural environment.
 
-## Water Finding
 
 ## Vegetation Indicators
 
@@ -47,7 +46,6 @@ Where no spring or surface water exists, dig a well. A hand-dug well 1-1.5 m in 
 
 Dig a pit 60-100 cm in diameter and 40-60 cm deep. Place a collection container in the center. Cover the pit with a clear plastic sheet, sealing the edges with soil or stones. Weight the center of the sheet with a stone so it forms a cone shape pointing down into the container. Moisture evaporates from the soil, condenses on the plastic, runs to the lowest point, and drips into the container. Yield: 0.5-2 liters per day depending on soil moisture. Adding green vegetation or urine to the pit soil increases output by 30-50%. This technique produces distilled water, which is free of pathogens and salts. For higher yield, dig multiple stills rather than making one larger pit. A still 1 m in diameter works better than a 2 m one because the condensation distance from soil to plastic is shorter.
 
-## Rainwater Harvesting
 
 ## Roof Catchment
 
@@ -77,7 +75,6 @@ Underground cisterns store harvested rainwater for dry periods. Build from stone
 
 Where no roof is available, a prepared ground surface collects rainfall. Smooth a sloped area with compacted clay or stone paving, directing runoff to a central collection point. A 100 m² catchment surface receiving 500 mm of annual rain yields 50,000 liters of potential collection. Actual recovery is 50-80% due to evaporation, surface absorption, and minor losses. Clay loses less water to absorption than sandy soil. Contouring the catchment into shallow channels increases flow speed and reduces evaporation losses. A stone-paved catchment with 2-3% slope achieves recovery rates of 70-85%, among the highest for ground-level collection.
 
-## Spring Development
 
 ## Spring Box Construction
 
@@ -105,7 +102,6 @@ Where groundwater seeps from a hillside rather than emerging at a single point, 
 - Spring box requires stone or concrete construction plus screening — not achievable without basic masonry skills
 - Neglected spring boxes fill with silt, reducing flow by 30-50% within a year — requires quarterly inspection and annual sediment removal
 
-## Water Transport
 
 ## Clay Pots
 
@@ -127,7 +123,6 @@ Gravity-fed channels move large volumes of water over distance. Clay or stone-li
 
 Sealed pipes move water uphill using siphon action, provided the outlet is below the water source. Clay pipes 5-10 cm in diameter, joined with lime mortar, carry water over distances of 100-500 m. A siphon works only if the pipe is full of water and free of air pockets. Maximum lift height for a water siphon at sea level is approximately 10 m (limited by atmospheric pressure). At 2,000 m elevation the limit drops to 8 m. Bamboo stems with nodes removed make natural pipes 2-5 m long, suitable for short-distance water conveyance over rough terrain.
 
-## Water Storage
 
 ## Clay Pots
 
@@ -155,7 +150,6 @@ Size water storage to the longest dry period. A climate with a 4-month dry seaso
 - Underground storage requires excavation, stone or brick construction, and lime plastering — labor-intensive initial construction
 - Standing water in uncovered storage breeds mosquitoes carrying malaria, dengue, and other diseases — all containers must have tight-fitting lids
 
-## Water Quality Indicators
 
 ## Visual Assessment
 

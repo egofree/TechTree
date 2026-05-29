@@ -39,7 +39,6 @@ The most powerful element of rotation is nitrogen fixation by legumes. Leguminou
 - [Irrigation](irrigation.md) or adequate rainfall (500+ mm during growing season)
 - Record-keeping system (even simple tally marks) to track what was planted where and when
 
-## Bill of Materials
 
 ## Three-Field Rotation (1 Hectare per Field, 3 Hectare Total)
 
@@ -60,7 +59,6 @@ The most powerful element of rotation is nitrogen fixation by legumes. Leguminou
 | Barley or oat seed | 50-80 kg | [Seed Saving](seed-saving.md) | Rye |
 | Clover seed | 8-15 kg | [Seed Saving](seed-saving.md) | Alfalfa, vetch |
 
-## Process Description
 
 ## Three-Field Rotation (Medieval Standard)
 
@@ -142,7 +140,6 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 - Fresh green material causes temporary nitrogen tie-up as soil microbes decompose it
 - Rye cover crop must be terminated before seed set or it volunteers as a weed in the next crop
 
-## Quantitative Parameters
 
 ## Nitrogen Budget by Rotation System (kg N/ha/year)
 
@@ -228,7 +225,6 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 - **Sweet clover poisoning**: Moldy sweet clover (Melilotus) hay contains dicoumarol, an anticoagulant. Animals hemorrhage internally. Do not feed moldy sweet clover hay.
 - **Physical injury during field operations**: Plowing, hoeing, and harvesting involve repetitive strain and sharp tools. Rotate tasks between workers. Use ergonomic tool handles (straight, not curved, for hoes). Sharpen tools regularly — dull tools require more force and cause more accidents.
 
-## Quality Control
 
 ## Rotation Effectiveness Indicators
 
@@ -251,7 +247,6 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 | Clover (green manure, plowed) | 3-6 biomass | 0 (all returned) | 80-200 (total biomass N) |
 | Turnips (roots harvested) | 3-5 roots | 20-35 | 10-20 (in tops if returned) |
 
-## Variations and Alternatives
 
 ## Rotation Systems Comparison
 

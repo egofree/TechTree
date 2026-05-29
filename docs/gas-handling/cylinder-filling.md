@@ -33,7 +33,6 @@ This capability also covers cylinder production (seamless steel tube forming), h
 | Pressure relief device (burst disc) | 1 per cylinder | [Metals](../metals/index.md) — stamped Inconel disc | Fusible plug (melts in fire, lower precision) |
 | Label (contents, hazard, DOT spec) | 1 per cylinder | [Printing](../knowledge/printing.md) | Hand-painted marking (less durable) |
 
-## Process Description
 
 ## Cylinder Production
 
@@ -103,7 +102,6 @@ This capability also covers cylinder production (seamless steel tube forming), h
 - Valve removal and reinstallation for retesting risks cross-threading the neck — the tapered thread is easily damaged if the valve is inserted at an angle
 - 5-year retest interval allows fatigue cracks to develop and grow between inspections — cylinders in severe service should be tested more frequently
 
-## Quantitative Parameters
 
 ## Cylinder Specifications by Type
 

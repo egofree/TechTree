@@ -23,7 +23,6 @@ Yield for mature semiconductor nodes typically runs 60-90%, meaning 10-40% of ma
 | Sudden yield drop in production | Root cause analysis (5 Whys, Kepner-Tregoe) | Drills from symptoms to fundamental correctable cause |
 | Need to compare multiple process options | DOE with defect analysis | Quantifies which process variables affect defect rates |
 
-## Implementation Steps
 
 ## Step 1: Establish Data Collection Infrastructure
 1. Deploy inline inspection tools at critical process steps (post-lithography, post-etch, post-CMP)
@@ -327,7 +326,6 @@ In semiconductor fabs with extensive data collection (FDC — Fault Detection an
 - **Tool commonality analysis**: Cross-reference defective wafers with the specific tools they passed through. If all defective wafers used Chamber 3 of the etch tool but good wafers used Chambers 1, 2, and 4, Chamber 3 is the likely source.
 - **Time-series correlation**: Correlate defect rate with process parameter logs (temperature, pressure, gas flow). A step-change in etch temperature coinciding with the defect onset is strong evidence of a causal relationship.
 
-## Integration Points
 
 ## Analysis Method Trade-offs
 

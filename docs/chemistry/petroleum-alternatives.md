@@ -19,7 +19,6 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 - [Iron and steel](../metals/iron-steel.md) — drilling bits, retort construction, catalyst supports
 - [Coal production](../energy/fuels.md) — coal feedstock for gasification and tar distillation
 
-## Technologies & Systems
 
 ## Petroleum Extraction
 

@@ -30,7 +30,6 @@ Armor production consumes significant resources. A full plate harness requires 2
 | Shield (round) | Lime/poplar planks | 5-8 planks, 60-90 cm diameter | Rawhide facing, iron boss, iron rim band | [Foundations](../foundations/index.md) |
 
 
-## Armor Types by Material
 
 ## Leather & Organic Armor (Years 0-10)
 
@@ -239,7 +238,6 @@ Armor production consumes significant resources. A full plate harness requires 2
 - Bulky to carry on march — shields are awkward to transport when not in combat formation
 
 
-## Quantitative Parameters
 
 ## Armor vs Weapon Interaction
 

@@ -11,7 +11,6 @@
 
 Every engineering discipline — from surveying a road to calculating stress in a beam to designing a feedback controller — rests on mathematical foundations. Without a systematic number system, engineers cannot specify dimensions. Without algebra, they cannot solve for unknown quantities. Without geometry and trigonometry, they cannot lay out structures or navigate. Core mathematics provides the shared language of quantitative reasoning that all subsequent technical work requires. This capability covers the mathematical tools that become available from the earliest counting through to the trigonometry and algebra needed for industrial-age engineering.
 
-## Number Systems & Arithmetic
 
 ## Positional Notation
 
@@ -57,7 +56,6 @@ Engineers must estimate before calculating precisely. An order-of-magnitude esti
 
 **Engineering application**: Estimating whether a beam will support a load before performing detailed stress analysis. Estimating material requirements (will a 1-tonne ore shipment yield enough copper for 200 ingots?) before committing resources.
 
-## Algebra
 
 ## Variables and Equations
 
@@ -91,7 +89,6 @@ A function f(x) maps each input to exactly one output. Graphing functions on a c
 
 **Engineering application**: Stress-strain curves, voltage-current characteristics of components, cooling curves (temperature vs. time), production rate vs. input quantity — all are functions. Reading and interpreting graphs is essential for every engineering discipline.
 
-## Geometry
 
 ## Euclidean Geometry
 
@@ -133,7 +130,6 @@ The Cartesian coordinate system (x, y) maps geometry to algebra. Every point is 
 
 **Engineering application**: CNC toolpath programming, surveying (mapping terrain coordinates), and any situation where geometry must be computed numerically rather than constructed physically.
 
-## Trigonometry
 
 ## Right Triangle Trigonometry
 
@@ -173,7 +169,6 @@ arcsin, arccos, arctan: given a ratio, find the angle. Essential for converting 
 
 **Engineering application**: Measure the shadow of a 10 m pole as 6 m. Sun angle = arctan(10/6) ≈ 59°. This technique determines solar elevation for passive solar building design.
 
-## Units, Dimensions, and Dimensional Analysis
 
 ## Unit Systems
 
@@ -197,7 +192,6 @@ Convert between systems: 1 inch = 25.4 mm, 1 pound = 0.4536 kg, 1 psi = 6,895 Pa
 
 **Engineering application**: Import specifications in different unit systems, verify material properties against reference data in different units, convert between measurement systems.
 
-## Mathematical Reasoning & Proof
 
 ## Inductive and Deductive Reasoning
 
@@ -218,7 +212,6 @@ Recognizing proportionality lets engineers scale designs: if a 10 cm beam deflec
 
 **Engineering application**: Scale up a bench-scale chemical reaction to production volumes. If a 1-liter reactor produces 500 g of product in 2 hours, a 100-liter reactor (geometrically similar) does NOT simply produce 50 kg in 2 hours — heat transfer, mixing, and reaction kinetics scale differently. Understanding scaling laws prevents expensive failures.
 
-## Practical Computation Methods
 
 ## Manual Calculation Techniques
 

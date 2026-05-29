@@ -21,7 +21,6 @@ The efficiency gap between a bad harness and a good one is enormous. A horse in 
 - [Basic tools](../foundations/tools-basic.md) — wood and leather working for harness and vehicles
 - [Leather](leather.md) — harness and collar materials
 
-## Harness Systems
 
 ## Neck Yoke (Oxen)
 
@@ -66,7 +65,6 @@ Breeching is a leather strap, 8-10 cm wide, passing around the horse's haunches 
 
 Without breeching, a loaded wagon on a downhill runs into the horse. The options are: breeching (correct), a person with a drag brake (less reliable), or the horse getting crushed (bad). Every horse-drawn vehicle working in hilly terrain needs breeching.
 
-## Plowing Applications
 
 ## Ard Plow (Scratch Plow)
 
@@ -96,7 +94,6 @@ Timing depends on soil type and climate, but general principles hold:
 - **Fall plowing**: for winter-sown crops (winter wheat, rye). Exposes soil to freeze-thaw cycles that break clods naturally. Inverts vegetation and manure, letting it decompose over winter.
 - **Depth by crop**: shallow-rooted grains need 15-20 cm. Deep-rooted vegetables (carrots, parsnips, potatoes) need 25-30 cm. Pasture renovation: 10-15 cm is sufficient.
 
-## Carts and Wagons
 
 ## Two-Wheel Cart
 
@@ -147,7 +144,6 @@ A vertical wooden drum, 6-10 m in diameter, mounted on a central pivot post. The
 
 The horse whim replaced hand winding for shafts deeper than about 20 m. Below that depth, the weight of rope plus ore makes manual winding impractical. A whim can service shafts to 100-150 m depth, beyond which the rope weight becomes prohibitive and steam winding engines take over.
 
-## Milling Applications
 
 ## Animal-Powered Millstones
 

@@ -13,7 +13,6 @@ Physical engineering — building furnaces, machining parts, generating electric
 
 This capability covers Boolean algebra (the mathematics of digital circuits), information theory (the mathematics of communication), and computation theory (the mathematics of what can and cannot be computed). Together, these formal systems bridge the gap between continuous physical engineering and the discrete world of digital technology.
 
-## Boolean Algebra
 
 ## Origins and Motivation
 
@@ -103,7 +102,6 @@ Not all operations are necessary. Two gate types are each "universal" — any Bo
 
 **Engineering application**: Design an alarm system that activates when (motion detected AND system armed) OR (glass break detected AND system armed) OR (door opened AND system armed AND NOT override). Each condition is a Boolean variable; the alarm logic is a Boolean function.
 
-## Information Theory
 
 ## The Measurement Problem
 
@@ -153,7 +151,6 @@ Redundancy (extra bits beyond the information content) enables error correction.
 
 **Engineering application**: Deep-space probes (Voyager, Mars rovers) use powerful error-correcting codes because their signals are incredibly weak by the time they reach Earth. Without coding, the data would be unrecoverable.
 
-## Computation Theory
 
 ## Formal Languages
 
@@ -224,7 +221,6 @@ Using mathematical proof techniques to verify that a system meets its specificat
 
 **Engineering application**: Verifying that a digital circuit implementation matches its Boolean specification. Verifying that a communication protocol cannot deadlock. Verifying that safety-critical software (medical devices, avionics) meets its requirements.
 
-## Cross-Cutting Applications
 
 ## Digital Circuit Design Pipeline
 

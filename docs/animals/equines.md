@@ -49,7 +49,6 @@ Materials listed per 2-horse team per year.
 | Salt | 20-30 kg loose salt | [`mining`](../mining/index.md) | Salt block, free-choice |
 | Bedding (straw/shavings) | 2,000-4,000 kg | [`plants`](../plants/index.md) | For stabled horses |
 
-## Process Description
 
 ## Draft Power
 
@@ -168,7 +167,6 @@ Materials listed per 2-horse team per year.
 - Donkeys' freeze-and-assess response ("stubbornness") frustrates force-based trainers
 - Poorly trained equines are dangerous — a 500 kg frightened horse can kill
 
-## Quantitative Parameters
 
 ## Feed Requirements by Workload (500 kg Horse)
 

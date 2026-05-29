@@ -11,7 +11,6 @@
 
 Electronics assembly encompasses PCB fabrication, component placement, soldering (through-hole and surface mount), conformal coating, and testing. It bridges semiconductor device fabrication and functional electronic systems — from discrete transistor circuits to multi-chip modules and early integrated circuit packaging.
 
-## Prerequisites
 
 ## Materials
 - **Copper-clad laminate**: FR-4 substrate (woven [fiberglass](../glass/fibers.md) + [epoxy resin](../polymers/thermosets.md)), copper foil 17.5-35 μm thickness
@@ -50,7 +49,6 @@ Electronics assembly encompasses PCB fabrication, component placement, soldering
 | Ferric chloride etchant (42° Baumé) | 2-4 L | [Chemical supply](../chemistry/acids.md) | Ammonium persulfate (slower, cleaner) |
 | Photoresist (dry film, 38 μm) | 1-2 sheets | Photochemical supply | Liquid photoresist (screen-printed) |
 
-## Process Description
 
 ## PCB Fabrication (Single-Sided)
 
@@ -212,7 +210,6 @@ Semiconductor die must be packaged for handling, electrical connection, and envi
 - Functional test coverage is only 70-90% — cannot detect marginal timing issues, noise susceptibility, or thermal performance problems that only appear in the field
 - X-ray inspection equipment costs $50K-$200K and requires radiation safety protocols (interlocked enclosure, operator dosimeter badges) — the cost is only justified for BGA-dense boards or high-reliability applications
 
-## Quantitative Parameters
 
 ## Solder Defect Analysis
 
@@ -333,7 +330,6 @@ Electronics assembly involves hot solder, chemical exposures, electrical testing
 - First aid kit and eyewash station accessible within 10 seconds travel from all chemical and soldering workstations
 - Fire extinguisher (CO₂ for electrical fires, dry chemical for general) at each soldering station
 
-## Quality Control
 
 ## Design for Reliability
 - Use components rated 25°C above maximum operating temperature

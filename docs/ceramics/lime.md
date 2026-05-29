@@ -12,7 +12,6 @@ Lime is one of the most versatile industrial materials in the bootstrap sequence
 
 The lime cycle is elegantly simple: heat limestone to drive off CO₂, add water to create a workable paste, let it re-absorb CO₂ from air to harden back into stone. This reversible cycle, understood since antiquity, underpins all lime-based construction and makes lime the gateway material to cement, concrete, and modern binders.
 
-## Limestone Identification & Quarrying
 
 ## Finding Limestone
 
@@ -40,7 +39,6 @@ Not all limestone is equal for lime production. Key properties:
 - **Cliff face / outcrop**: Work exposed face horizontally. Pry loose blocks with iron crowbars. Stack waste rock for later crushing.
 - **River gravel**: Some limestone is found as rounded cobbles in river beds. Wash to remove silt, sort by size. Lower quality (water-worn, may contain impurities) but requires no quarrying.
 
-## Lime Production Process
 
 ## Calcination (Burning)
 
@@ -75,7 +73,6 @@ Temperature reaches ~150°C during slaking of pure quicklime. The reaction produ
 - **Lime putty**: Store in covered pit or tub under a layer of water. Exclude air to prevent premature carbonation. Keeps indefinitely if kept wet and covered. Putty that has dried out can be re-soaked, though quality degrades.
 - **Hydrated lime powder**: Store in moisture-proof bags. Less reactive than quicklime — easier to handle and transport.
 
-## Lime Kiln Designs
 
 ## Simple Batch Kiln (First Kiln)
 
@@ -129,7 +126,6 @@ Limestone containing 5-20% clay (aluminosilicate) impurities produces hydraulic 
 
 **Natural cement**: Overfired hydraulic lime (1100-1200°C) produces a quick-setting cement. Grind the resulting clinker to fine powder. Mix with water — sets in 15-30 minutes. Stronger than hydraulic lime. Roman cement (natural cement from septaria nodules) was the standard water-resistant binder before Portland cement. The step from natural cement to Portland cement is small — it requires only a slightly higher firing temperature (1400-1450°C) and a precisely controlled raw mix.
 
-## Lime Mortar
 
 ## Mixing
 
@@ -152,7 +148,6 @@ Limestone containing 5-20% clay (aluminosilicate) impurities produces hydraulic 
 - **Self-healing**: Microcracks in lime mortar allow CO₂ to penetrate and carbonate the freshly exposed lime, naturally sealing the crack. Cement mortars cannot self-heal.
 - **Breathability**: Lime mortar is vapor-permeable — allows moisture to evaporate from walls. Reduces damp, rot, and freeze-thaw damage. Essential for historic building conservation and healthy buildings.
 
-## Lime Plaster & Render
 
 ## Interior Plaster
 
@@ -200,7 +195,6 @@ Lime (or more precisely, the lye derived from wood ashes) is the key reagent in 
 - **Advantages**: Faster than cold process (no 4-6 week cure). Produces harder, longer-lasting soap. Glycerol remains in the lye solution (recoverable by distillation as a valuable byproduct).
 - **Salt requirement**: Need ~1 kg salt per 10 kg of soap. Salt is produced by evaporating seawater or mining rock salt (halite).
 
-## Lime in Industry
 
 ## Steel and Metallurgy
 

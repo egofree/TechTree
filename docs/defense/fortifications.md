@@ -29,7 +29,6 @@ The critical design principle for all fortifications is layered defense in depth
 | Gabion wall (2 m) | Willow/hazel withies + earth | 200-300 gabions, 60-100 cm dia | Iron wire for tying, stakes for anchoring | [Foundations](../foundations/index.md) |
 
 
-## Fortification Types by Era
 
 ## Palisades & Basic Field Defenses (Years 0-5)
 
@@ -140,7 +139,6 @@ The critical design principle for all fortifications is layered defense in depth
 **Barbed wire obstacle**: 3-5 belts of concertina wire, each 10-15 m deep, spaced 20-30 m apart. Wire: 2-strand twisted wire with barbs at 10-15 cm intervals, 1.6-2.0 mm wire diameter. Concertina coil: 75-100 cm diameter, 15 m stretched length per coil. Delays assaulting infantry 3-5 minutes per belt under fire -- decisive tactical advantage for defenders.
 
 
-## Quantitative Parameters
 
 ## Fortification Material Quantities
 

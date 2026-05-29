@@ -13,7 +13,6 @@ Surgery basics covers wound management, basic surgical techniques, sterilization
 
 The prerequisite chain runs: [sanitation](sanitation.md) → clean environment → [medical instruments](medical-instruments.md) → sterile tools → surgery. The leap from "cleaning wounds" to "opening a body cavity and repairing damage" requires each prior capability to be in place. Sterilization failures kill faster than the original injury — a dirty instrument introduces bacteria directly into tissue planes that the immune system cannot easily reach.
 
-## Prerequisites
 
 ## Materials
 
@@ -57,7 +56,6 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 | Bandage (cotton/linen) | 1-3 m | [Textiles](../textiles/index.md) | Strips of clean cloth |
 | Saline (0.9% NaCl) | 500-2000 mL | Salt + purified water, boiled | Clean boiled water |
 
-## Process Description
 
 ## Wound Assessment and Preparation
 
@@ -130,7 +128,6 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 - Boiling does not kill spores — instruments used for penetrating wounds (where tetanus risk is high) must be autoclaved or dry-heated
 - Sterile technique breaks down if packs are touched with non-sterile hands or placed on contaminated surfaces
 
-## Quantitative Parameters
 
 ## Sterilization Parameters
 
@@ -211,7 +208,6 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 - **Wound evaluation criteria**: At each dressing change, document: wound edges (approximated or gapping), presence of drainage (clear/serous = normal; purulent/foul = infection), surrounding skin (redness extending >2 cm from wound = cellulitis), and pain level.
 - **Outcome tracking**: Record all surgical procedures with: patient identifier, procedure type, duration, complications (infection, hemorrhage, dehiscence), and outcome at 7 and 30 days. Calculate infection rate: target <5% for clean wounds, <10% for clean-contaminated wounds.
 
-## Variations and Alternatives
 
 ## Wound Closure Methods
 

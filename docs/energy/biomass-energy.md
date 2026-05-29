@@ -15,7 +15,6 @@ In the bootstrap context, biomass energy fills a critical gap: it is the only re
 
 Three primary conversion pathways are covered here: direct combustion for heat, anaerobic digestion for biogas, and thermochemical gasification for producer gas. Each has distinct feedstock requirements, outputs, and scale characteristics. Liquid biofuel production (ethanol, biodiesel) is mentioned but detailed in [Chemistry](../chemistry/index.md) since the primary processes are chemical rather than energy-focused.
 
-## Prerequisites
 
 ## Materials
 
@@ -38,7 +37,6 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 - Gasification chemistry (partial combustion, reduction zone, tar cracking)
 - Engine modification for gaseous fuel (carburetor replacement, air-fuel ratio control)
 
-## Bill of Materials
 
 ## Small Biogas Digester (6 m³, family-scale)
 
@@ -63,7 +61,6 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 | Sawdust filter drum (200 liter) | 1 unit | [Forestry](../plants/index.md) | Cloth bag filter |
 | Gas cooling pipe (finned, 50 mm) | 3-5 m | [Iron & Steel](../metals/iron-steel.md) | Steel pipe in water bath |
 
-## Process Description
 
 ## Anaerobic Digestion (Biogas Production)
 
@@ -210,7 +207,6 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 - High particulate emissions without electrostatic precipitators or bag filters
 - Moisture content directly reduces usable heat — green wood wastes 30-50% of combustion energy evaporating water
 
-## Quantitative Parameters
 
 ## Biogas Yield by Feedstock
 
@@ -254,7 +250,6 @@ Cold gas efficiency = energy in product gas / energy in fuel input. Overall elec
 | Biogas (per m³) | 21-24 | 0.85-1.1 | 0.02 |
 | Producer gas (per m³) | 4.5-6.0 | 0.9-1.2 | 0.005 |
 
-## Scaling Notes
 
 ## Family Scale (1-5 kW thermal / 0.5-2 kW electric)
 
@@ -286,7 +281,6 @@ A 100 cm diameter gasifier consuming 100-300 kg/hour fuel drives a 100-500 kW en
 | Gasifier bridge formation (fuel stops flowing) | Irregular fuel size, or high moisture causing swelling and bridging | Screen fuel to uniform size; dry fuel thoroughly; install mechanical agitator or stirrer in hopper |
 | Flame burn-back into gasifier | Insufficient gas velocity through reactor, or air leak on gas line | Maintain minimum gas flow rate; check all gas connections for air ingress; install flame arrestor (water seal or fine mesh) on gas line |
 
-## Safety
 
 ## Carbon Monoxide Poisoning
 
@@ -308,7 +302,6 @@ Anaerobic digestion reduces pathogens significantly but does not eliminate them 
 
 Iron sponge (iron oxide chips used for H₂S removal) generates iron sulfide, which is pyrophoric — it can spontaneously ignite when exposed to air after becoming saturated with H₂S. Replace iron sponge in a well-ventilated area away from ignition sources. Moisten spent iron sponge with water before disposal to prevent spontaneous combustion.
 
-## Quality Control
 
 ## Biogas Composition
 
@@ -324,7 +317,6 @@ Measure methane content with a portable biogas analyzer (infrared methane sensor
 
 Measure pH (target 7.0-8.0), total nitrogen content (target 1.5-3.0% on dry basis), and heavy metals (if industrial waste is co-digested). Compare to raw manure: digestate should have 10-20% higher plant-available nitrogen due to mineralization during digestion.
 
-## Variations and Alternatives
 
 ## Comparison of Biomass Conversion Pathways
 

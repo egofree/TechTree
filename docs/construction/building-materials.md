@@ -17,7 +17,6 @@ The capability begins with timber framing (the first structural material workabl
 Position in the dependency chain: [basic tools](../foundations/tools-basic.md) enable timber work and stone dressing. Downstream, [structural engineering](./structural-engineering.md) applies these materials to designed structures, and [industrial buildings](./industrial-buildings.md) requires heavy-duty versions of all these materials for factory construction.
 
 
-## Prerequisites
 
 ## Materials
 
@@ -62,7 +61,6 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 | Rope (scaffolding/hoisting) | 100-300 m | [Rope Making](../textiles/rope-making.md) | Withies (flexible willow/hazel branches) |
 
 
-## Process Description
 
 ## Timber Framing
 
@@ -302,7 +300,6 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 - Working at height during construction — fall hazard for carpenters and roofers
 
 
-## Quantitative Parameters
 
 ## Structural Timber Properties
 

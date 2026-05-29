@@ -19,7 +19,6 @@ The critical electronic ceramic families:
 - **Getters (Zr-V-Fe, Ba)** — chemically active materials that maintain vacuum in sealed devices
 - **Alumina substrates** — 96% Al₂O₃ base for thick-film hybrid circuits and IC packaging
 
-## Prerequisites
 
 ## Materials
 
@@ -66,7 +65,6 @@ The critical electronic ceramic families:
 | ZnO (≥99.5%) | 120-170 g | [Chemistry](../chemistry/acids-bases.md) | No substitute — composition controls permeability |
 | PVA binder | 30-50 g | [Polymers](../polymers/index.md) | PEG, methylcellulose |
 
-## Process Description
 
 ## Barium Titanate (BaTiO₃) — MLCC Capacitors
 
@@ -520,7 +518,6 @@ ZnO varistors protect circuits from voltage transients. Grain boundaries in poly
 - Self-heating in NTC thermistors (power dissipation causes temperature rise above ambient) limits minimum measurable temperature difference
 - Varistor capacitance (100-10,000 pF) can interfere with high-frequency circuits
 
-## Quantitative Parameters
 
 ## Electronic Ceramic Property Comparison
 
@@ -543,7 +540,6 @@ ZnO varistors protect circuits from voltage transients. Grain boundaries in poly
 | ZnO varistor | 1100-1350°C | Air | 1-4 h | 15-20% |
 | NTC thermistor | 1100-1300°C | Air | 1-3 h | 15-18% |
 
-## Scaling Notes
 
 ## MLCC Scale
 
@@ -572,7 +568,6 @@ PZT manufacturing at any scale requires lead oxide handling infrastructure: vent
 | NTC thermistor resistance drift | Incomplete sintering, residual stress in encapsulation | Increase sintering temperature or time; age at 150°C for 48+ hours; verify encapsulation does not stress element |
 | NEG won't activate | Surface contamination, insufficient activation temperature | Clean NEG surface before installation; increase activation temperature to 450°C; verify chamber reaches <10⁻⁶ Torr before activation |
 
-## Safety
 
 ## Lead Compounds
 
@@ -592,7 +587,6 @@ BaCO₃ (used in BaTiO₃ synthesis) is toxic if ingested — soluble barium com
 
 BeO substrates are safe in fired, monolithic form but **extremely hazardous as powder or dust**. Chronic beryllium disease (CBD, berylliosis) is a disabling granulomatous lung disease caused by inhaling BeO particles <10 μm. Sensitization can occur at very low exposure levels (<0.2 μg/m³). Machining, grinding, or breaking BeO ceramics must be done with wet methods and full respiratory protection (P100). Most applications now substitute AlN (aluminum nitride).
 
-## Quality Control
 
 ## Incoming Raw Material Checks
 
@@ -614,7 +608,6 @@ BeO substrates are safe in fired, monolithic form but **extremely hazardous as p
 - **PZT elements**: d₃₃ within ±15% of target. Coupling coefficient k₃₃ within ±10%. Density >95% theoretical.
 - **Varistors**: V₁mA within ±10%. α >25. Surge current test: survive 8/20 μs impulse at rated current without degradation.
 
-## Variations and Alternatives
 
 ## Passive Component Technology Selection
 

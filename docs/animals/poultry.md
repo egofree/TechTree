@@ -45,7 +45,6 @@ Materials listed for a 50-bird mixed flock per year.
 | Wire mesh (1-2 cm openings) | 20-30 m² | [`metals`](../metals/index.md) | For vents and run enclosures |
 | Feed storage (metal bins) | 3-4 units (35-50 L each) | [`metals`](../metals/index.md) | Rodent-proof containers |
 
-## Process Description
 
 ## Egg Production
 
@@ -167,7 +166,6 @@ Materials listed for a 50-bird mixed flock per year.
 - Broody behavior is unreliable in many modern breeds — heritage breeds retain the instinct
 - Chicks are fragile for the first 2 weeks — mortality 5-10% even with good management
 
-## Quantitative Parameters
 
 ## Manure Composition by Species
 

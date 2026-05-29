@@ -37,7 +37,6 @@ A 300 mm semiconductor wafer contains billions of transistors across a silicon s
 5. **Qualify particle performance**: Run 100 pick-place cycles with particle counter monitoring. Verify ≤0.01 particles/cycle ≥0.1 μm
 6. **Integrate with cluster tool scheduler**: Configure robot motion timing to avoid conflicts between chambers. Implement residency time constraints
 
-## Robot Architectures
 
 ## Atmospheric Robots
 
@@ -220,7 +219,6 @@ Load locks transition wafers between atmospheric pressure and vacuum without ven
 - **Vacuum contamination**: Outgassing from robot materials (lubricants, wire insulation, adhesives) contaminates vacuum chambers. All vacuum-exposed materials must be qualified by TML/CVCM testing (ASTM E595). Bake-out vacuum robots at 150°C for 24-48 hours before installation to drive off absorbed moisture and volatiles.
 - **Pinch points**: Robot arms moving at high speed create pinch hazards. Equipment interlocks prevent robot motion when access doors are open. Light curtains and safety mats detect operator presence in the robot workspace.
 
-## Multi-Robot Coordination
 
 ## Cluster Tool Architecture
 

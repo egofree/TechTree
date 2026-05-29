@@ -15,7 +15,6 @@ The assembler is the first software tool built for any new computer. The bootstr
 
 Beyond the assembler itself, this capability includes linkers (which combine multiple object files into a single executable) and loaders (which place the executable into memory and start execution). Together, these three tools form the software toolchain that enables all higher-level software construction.
 
-## Prerequisites
 
 ## Software
 - **Working machine code entry capability** ([machine-code](machine-code.md)): The assembler itself must first be written in machine code or on a cross-development system.
@@ -39,7 +38,6 @@ Beyond the assembler itself, this capability includes linkers (which combine mul
 | Teletype or terminal | 1 unit | [computing.electronic](../computing/electronic.md) | Paper tape punch for source entry |
 | Assembly language reference | 1 document | Custom per ISA | Handwritten opcode mnemonic list |
 
-## Process Description
 
 ## Assembly Language Design
 

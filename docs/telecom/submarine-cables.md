@@ -96,7 +96,6 @@ The fundamental challenge: the enormous capacitance of a long conductor surround
 - **Red Sea and Indian Ocean**: Europe to India via Suez. Red Sea route (2,500 km) completed 1860.
 - **Pacific**: Honolulu to San Francisco (~3,800 km), completed 1902.
 
-## Bill of Materials
 
 ## Submarine Cable (per km, deep-sea type)
 
@@ -127,7 +126,6 @@ The fundamental challenge: the enormous capacitance of a long conductor surround
 | Key and relay equipment | 2-4 sets | Standard telegraph instruments | [Metals](../metals/index.md) |
 | Cable engine (receiving end) | 1 | Brake drum and tension monitor | [Metals](../metals/index.md) |
 
-## Quantitative Parameters
 
 ## Cable Electrical Parameters
 
@@ -162,7 +160,6 @@ The fundamental challenge: the enormous capacitance of a long conductor surround
 | 1,000 | 1,700 | 320 | 0.54 | 10-20 |
 | 3,200 (transatlantic) | 5,440 | 1,024 | 5.6 | 1-2 (1866) to 300+ (1920s) |
 
-## Scaling Notes
 
 ## Short Cable (50-200 km, cross-channel)
 

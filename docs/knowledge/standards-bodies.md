@@ -29,7 +29,6 @@ This capability covers the *process* of creating, maintaining, and enforcing sta
 | Test specimens for validation | 10-100 per validation round | Relevant domain (metals, ceramics, etc.) | Reduced sample size (lower statistical confidence) |
 | Meeting facilities | Shared across all standards activities | [Construction](../construction/index.md) | Correspondence-based process (slower, 5-10× timeline) |
 
-## Process Description
 
 ## Standards Development Lifecycle
 
@@ -67,7 +66,6 @@ This capability covers the *process* of creating, maintaining, and enforcing sta
 - Process standards can become prescriptive enough to stifle innovation — practitioners may stick to the standard method even when better alternatives exist
 - Safety standards require enforcement (inspection, liability) to be effective — unenforced standards are ignored
 
-## Quantitative Parameters
 
 ## Standard Development Timeline
 
@@ -143,7 +141,6 @@ This capability covers the *process* of creating, maintaining, and enforcing sta
 - **Inter-laboratory comparison**: Periodically distribute identical test specimens to all testing facilities that certify compliance with a given standard. Compare results across facilities. If any facility's results deviate by more than 10% from the median, investigate their testing procedure and equipment calibration. This round-robin testing catches systematic errors in individual laboratories before they cause widespread compliance failures.
 - **Appeals process**: When a standard is challenged as technically incorrect or unreasonably burdensome, provide a formal appeals mechanism. The appellant presents technical evidence; the standards body responds with technical counter-evidence. A senior technical panel (not the original working group) renders a binding decision. This process prevents standards from becoming fossilized errors.
 
-## Variations and Alternatives
 
 ## De Facto Standards (Market-Driven)
 

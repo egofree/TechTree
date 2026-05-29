@@ -24,7 +24,6 @@ Three specialty metals — tantalum (Ta), cobalt (Co), and indium (In) — occup
 
 Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction) is covered in [Refractory Metals](refractory-metals.md). This document focuses on the semiconductor-grade processing and thin-film applications that justify their position on the GPU critical path.
 
-## Tantalum (Ta) — Copper Diffusion Barrier
 
 ## Properties Relevant to Semiconductor Use
 
@@ -65,7 +64,6 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 **Minimum barrier thickness**: Theoretically, 0.5-1.0 nm of continuous TaN blocks Cu diffusion. Practically, 2-3 nm is the minimum for reliable coverage over trench bottom corners and via sidewall roughness. At sub-7 nm nodes, the barrier/liner consumes 20-30% of the via cross-section, dramatically increasing via resistance — this is the primary driver for cobalt contact and ruthium liner research.
 
-## Cobalt (Co) — Silicide Contacts and CMP
 
 ## Properties
 
@@ -109,7 +107,6 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 **Defect control**: Co CMP scratches are a critical yield limiter at sub-10 nm nodes. Scratches in the Co contact surface propagate through subsequent dielectric layers, causing interlayer shorts. Slurry filtration (0.1-0.2 μm absolute filters), in-situ pad conditioning with diamond disk (100-200 grit, 5-10 N downforce), and post-CMP cleaning (brush scrubber with dilute citric acid + megasonic DI water) reduce scratch density to <0.01 scratches/cm².
 
-## Indium (In) — Transparent Conductors and Photonics
 
 ## Properties
 
@@ -167,7 +164,6 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 **Thermal interface material (TIM)**: Indium foil (0.1-1.0 mm) is used as a thermal interface between the GPU die and the heat spreader. Indium's high thermal conductivity (82 W/m·K) and extreme softness (conforms to surface roughness) provide thermal resistance of 0.05-0.15 °C·cm²/W — among the lowest of any TIM. Pure indium melts at 156.6°C, so TIM operating temperature must stay below 125°C. Ga-In eutectic alloys (Ga-In-Sn, liquid at room temperature) are used as liquid metal TIMs for extreme performance.
 
-## Supply Chain and Critical Dependencies
 
 ## Global Production and Prices
 

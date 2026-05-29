@@ -36,7 +36,6 @@ A bootstrap civilization faces a uniquely severe durability challenge: the entir
 | Magnetic tape | 10-30 years | Low | 100+ GB/cartridge | [Computing](../computing/data-storage.md) |
 | Optical disc (CD/DVD) | 50-100+ years (claimed) | Very low | 700 MB-50 GB/disc | [Computing](../computing/data-storage.md) |
 
-## Process Description
 
 ## Archival Media Selection
 
@@ -89,7 +88,6 @@ For the most critical knowledge (Tier 1), create self-decoding archives:
 
 **Weaknesses**: Creating self-decoding archives multiplies the labor per document — each critical text must be written in multiple languages with illustrations and reading instructions. Visual dictionaries require skilled illustration — a poorly drawn technical diagram may mislead rather than inform a future reader.
 
-## Quantitative Parameters
 
 ## Media Lifespan by Storage Condition
 
@@ -171,7 +169,6 @@ The Rosetta approach ensures that future readers can decode stored information e
 - **Migration verification**: After every migration (copying to new media), verify 100% of migrated content against the original. For digital migration, use checksums (SHA-256 or equivalent). For physical copying, compare character-by-character on a random sample (minimum 10% of pages).
 - **Catalog accuracy**: Maintain a complete catalog of all holdings, including location, medium, condition, migration history, and scheduled next migration. Audit catalog against physical holdings annually — every item must be locatable within 5 minutes from catalog entry.
 
-## Variations and Alternatives
 
 ## Multi-Media Redundancy (Rosetta Strategy)
 

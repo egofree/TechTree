@@ -15,7 +15,6 @@ The synthetic polymers in this article span from semi-synthetic materials achiev
 
 See [Rubber Production](./rubber.md) for natural rubber vulcanization and compounding recipes shared across all elastomers. See [Thermoplastics](./thermoplastics.md) for melt-processing methods (injection molding, extrusion, blow molding).
 
-## Prerequisites
 
 ## Materials
 - [Petrochemical monomers](../chemistry/petroleum-alternatives.md): ethylene, propylene, butadiene, styrene, acrylonitrile from steam cracking of naphtha (750-900°C, 0.1-0.5 s residence)
@@ -37,7 +36,6 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - Ventilation and gas scrubbing (for toxic monomer handling)
 - Nitrogen inerting system (for moisture-sensitive polymerizations)
 
-## Bill of Materials
 
 ## Nitrile Rubber (NBR) — per 100 kg polymer
 
@@ -69,7 +67,6 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 | Silicone surfactant | 0.5-1.0 kg | [Silicon](../silicon/mg-si-production.md) | None — stabilizes foam cells |
 | Amine catalyst | 0.3-0.5 kg | Organic synthesis | None — controls reaction timing |
 
-## Process Description
 
 ## Nitrile Rubber (NBR, Buna-N)
 
@@ -301,7 +298,6 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - Poor oil resistance — SBR swells in all hydrocarbon solvents; use NBR for oil/fuel contact
 - Lower green strength (unvulcanized) than natural rubber — SBR is tacky and weak before cure, making tire building more difficult than with NR
 
-## Quantitative Parameters
 
 ## Synthetic Polymer Development Timeline
 
@@ -364,7 +360,6 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - **Vinyl chloride monomer (VCM)**: IARC Group 1 carcinogen causing angiosarcoma of the liver (latency 10-40 years). LEL 3.6%, UEL 33% in air. Closed systems, continuous air monitoring, explosion-proof equipment. See [Thermoplastics](./thermoplastics.md) for full VCM hazard data.
 - **Styrene**: Flash point 31°C. IARC Group 2A (probable carcinogen). CNS depressant at 100+ ppm. OSHA PEL 50 ppm TWA. Odor detectable at 0.1 ppm but causes odor fatigue — use direct-reading instruments, not smell, as warning.
 
-## Quality Control
 
 ## NBR Quality Tests
 - **Bound acrylonitrile**: Nitrogen analysis (Kjeldahl). Target ±2% of specification for grade.
@@ -382,7 +377,6 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - **Hardness**: Shore A durometer (ASTM D2240). Measure at 3 points, ±2 units agreement.
 - **Compression set**: ASTM D395 Method B. 22 hours at 70°C, 25% deflection.
 
-## Variations and Alternatives
 
 ## Semi-Synthetic Polymers (Lower Technology Level)
 

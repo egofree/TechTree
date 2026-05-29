@@ -13,7 +13,6 @@ Bearings, abrasives, and cutting tools are the precision enablers of machine too
 
 For the machine tool construction sequence, see [Iterative Bootstrap](./iterative-bootstrap.md). For the machining operations that use these tools, see [Machining](./machining.md).
 
-## Abrasives & Grinding Media
 
 ## Natural Abrasives (Available Immediately)
 
@@ -156,7 +155,6 @@ Sieve abrasive through woven wire screens. Screen mesh number = grit number (60 
 - Abrasive particles embed in soft workpiece surfaces, contaminating the finish — thorough cleaning required
 - Operator skill is critical — uneven pressure or pattern produces non-flat surfaces
 
-## Thread Standards & Fastener Production
 
 ## Thread Profile Standard
 
@@ -258,7 +256,6 @@ Choose ONE system and standardize immediately. Mixing thread standards is catast
 - Heat treatment adds complexity — poorly controlled tempering produces brittle or soft bolts
 - Thread quality depends on die sharpness — worn dies produce torn or oversize threads
 
-## Bearing Design & Production
 
 ## Plain (Journal) Bearings
 
@@ -330,7 +327,6 @@ Ball and roller bearings reduce friction and enable high-speed machinery (machin
 | Engine crankshaft | Plain (babbitt/insert) | Medium | Heavy | Pressure oil |
 | High-speed grinder | Ball bearing or air bearing | Very high | Light | Oil mist |
 
-## Lubrication & Coolants
 
 ## Bearing Lubricants
 
@@ -354,7 +350,6 @@ Ball and roller bearings reduce friction and enable high-speed machinery (machin
 - **Cutting fluid application**: Flood coolant (continuous stream directed at the cutting zone) for production. Manual application (brush or squeeze bottle) for light work. Mist coolant for grinding (air + oil mist).
 - See [Lubricants](../chemistry/lubricants.md) for the full production chain.
 
-## Cutting Tool Materials
 
 ## Carbon Steel Tool Bits (First Available)
 

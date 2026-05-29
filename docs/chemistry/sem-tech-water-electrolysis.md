@@ -45,7 +45,6 @@ Two main technologies exist for water electrolysis:
 
 The critical barrier to PEM adoption is membrane cost. SEM Tech membranes, at less than $1 per square foot, could eliminate this barrier entirely -- but only if they perform adequately in the PEM water electrolysis environment.
 
-## SEM Tech Membrane in Water Electrolysis
 
 ## Theoretical Application
 
@@ -80,7 +79,6 @@ A PEM water electrolysis cell using SEM Tech membranes would follow the standard
 
 **Stack design**: Multiple cells connected in series (bipolar plate arrangement) form a stack. Typical stacks range from 10-100+ cells. SEM Tech's low membrane cost could make large stacks economically viable.
 
-## Operating Parameters
 
 ## Demonstrated Range (Chlor-Alkali)
 
@@ -149,7 +147,6 @@ Water electrolysis involves specific hazards that require careful management:
 - **Deionized water handling**: While not hazardous itself, deionized water feed systems must be kept free of contaminants that could damage the membrane or catalysts.
 - **Pressure hazards**: If the cell operates under pressure (common in commercial systems), hydrogen and oxygen lines must be rated for the operating pressure. Pressure relief devices are mandatory on all pressurized gas lines and vessels.
 
-## Limitations
 
 ## Technology Readiness
 

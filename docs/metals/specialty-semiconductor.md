@@ -12,7 +12,6 @@ Four metals — titanium (Ti), tungsten (W), molybdenum (Mo), and copper (Cu) �
 
 Extraction of bulk Ti (Kroll process) and bulk W/Mo (powder metallurgy, hydrogen reduction) are covered in [Non-Ferrous Metals](non-ferrous.md) and [Refractory Metals](refractory-metals.md). This document covers the semiconductor-grade processing and thin-film applications that place them on the GPU critical path.
 
-## Titanium (Ti) — Hard Masks, Barriers, and Dielectrics
 
 ## Properties Relevant to Semiconductor Use
 
@@ -65,7 +64,6 @@ TiN serves as a diffusion barrier for aluminum interconnects (250 nm node and ab
 
 **Challenge**: TiO₂ crystallizes at relatively low temperatures (>400°C for rutile), and crystalline TiO₂ has higher leakage than amorphous films. Doping with Al₂O₃ or SiO₂ suppresses crystallization to >700°C, maintaining amorphous structure through BEOL thermal budgets.
 
-## Tungsten (W) — Contact Plug Fill and TSVs
 
 ## Properties Relevant to Semiconductor Use
 
@@ -119,7 +117,6 @@ CVD W films are inherently tensile (0.5-1.5 GPa), which causes wafer bowing and 
 2. **Low-stress W**: Deposit at lower temperature (300°C vs. 450°C) with higher SiH₄/WF₆ ratio. Produces W-Si alloy (1-5 at.% Si) with compressive stress.
 3. **Post-deposition anneal**: Rapid thermal anneal at 600-800°C in N₂/H₂ for 30-60s. Recrystallization and grain growth reduce tensile stress by 30-50%.
 
-## Molybdenum (Mo) — Gate Electrodes and Heat Sinks
 
 ## Properties Relevant to Semiconductor Use
 
@@ -162,7 +159,6 @@ Bulk Mo production from molybdenite ore (MoS₂) is covered in [Refractory Metal
 
 **Comparison with Cu-Mo-Cu cladding**: Tri-layer Cu/Mo/Cu laminate (Cu outer, Mo core) provides in-plane thermal conductivity >200 W/m·K with through-thickness CTE of 5-7 ppm/°C. Used for RF power amplifier substrates and lid assemblies for flip-chip BGA packages.
 
-## Copper (Cu) — Dual Damascene Interconnects
 
 ## Properties Relevant to Semiconductor Use
 
@@ -245,7 +241,6 @@ The dual damascene process is the defining interconnect technology for sub-250 n
 
 **Electromigration improvement**: (1) Cu alloying: add 0.1-1.0 at.% Al, Mn, or Ti to Cu — these solutes segregate to grain boundaries, reducing Cu diffusivity. (2) CoWP or CuMn self-forming barrier capping layer (5-20 nm by electroless plating) on top of Cu lines — caps grain boundary diffusion paths at the Cu surface. (3) Larger grain size through optimized annealing — fewer grain boundaries means fewer diffusion paths.
 
-## Supply Chain and Critical Dependencies
 
 ## Global Production and Prices
 

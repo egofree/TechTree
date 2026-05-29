@@ -79,7 +79,6 @@ A cathode ray tube (CRT) fires a focused electron beam at a phosphor-coated scre
 
 **Dual-trace**: Two input channels share the CRT, displayed either by alternating sweeps (ALT mode, for fast sweeps) or chopping between channels at a high rate (CHOP mode, for slow sweeps). Allows comparing timing between two signals.
 
-## Multimeter
 
 ## Analog Multimeter (VOM)
 
@@ -119,7 +118,6 @@ The input signal is amplified, squared (converted to a clean digital waveform by
 
 Reciprocal counting: instead of gating the input signal, the counter gates by the input signal period and counts timebase clocks. This gives fixed resolution regardless of input frequency. A 10 MHz timebase counting over one cycle of a 1 kHz input gives 10,000 counts (0.01% resolution), far better than conventional counting (which would count 1 cycle in a 1 ms gate, giving 1 kHz ±1 Hz, or 0.1% resolution).
 
-## Construction Notes
 
 ## Galvanometer Movement
 

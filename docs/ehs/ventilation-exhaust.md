@@ -40,7 +40,6 @@ Semiconductor fabrication releases toxic, pyrophoric, and corrosive gases and va
 | Dry adsorbent cartridge | Low-flow organics, backup polishing | 90-99% (until breakthrough) | Very low | Spent media (hazardous waste) | Low-Medium |
 | Central acid scrubber (multi-stage) | Aggregated acid exhaust | >99.9% | Medium | Spent NaOH + CaF₂ sludge | High |
 
-## Local Exhaust Ventilation (LEV)
 
 ## Principles
 
@@ -82,7 +81,6 @@ Semiconductor wet processing benches (acid etching, cleaning, rinsing) generate 
 - Drain trap: Wet seal (P-trap) prevents sewer gases from back-flowing into the bench
 - Exhaust monitoring: Continuous flow sensor in exhaust duct — alarm if flow drops below 80% of design (indicates blockage or fan failure)
 
-## Gas Cabinet Exhaust
 
 ## Gas Cabinet Design
 
@@ -129,7 +127,6 @@ Gas cabinets house high-pressure cylinders of toxic and pyrophoric gases used in
 - Flexible connections at tool exhaust ports with approved chemical-resistant flex ducts
 - Fire dampers NOT installed in toxic gas exhaust (prevents gas buildup in case of fire)
 
-## Abatement Systems
 
 ## Point-of-Use (POU) Abatement
 
@@ -241,7 +238,6 @@ Large fabs use centralized scrubbing systems that serve multiple tools through a
 - Automatic bypass to emergency scrubber if primary system fails (ensures continuous treatment)
 - Instrumentation: Gas analyzer at inlet and outlet for compliance monitoring (DRE verification). Automatic shutoff of gas supply to tools if scrubber goes offline
 
-## Cleanroom Air Management
 
 ## Makeup Air Handling
 
@@ -262,7 +258,6 @@ The high exhaust volumes in semiconductor fabs represent significant energy loss
 - Energy recovery effectiveness: 50-70% of sensible heat recovered
 - Cannot use enthalpy wheels (rotating heat exchangers) for toxic or corrosive exhaust streams due to cross-contamination risk
 
-## Ventilation System Maintenance
 
 ## Inspection and Testing
 

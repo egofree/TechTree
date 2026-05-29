@@ -21,7 +21,6 @@ Beyond simple friction reduction, lubricants serve several secondary functions. 
 
 This article covers lubricants in four tiers of increasing technological complexity. Each tier builds on the materials and capabilities established by the ones before it, and each enables new classes of machinery that were impractical or impossible with the lubricants available at the previous tier.
 
-## Lubrication Regimes
 
 ## Boundary Lubrication
 
@@ -44,7 +43,6 @@ A full fluid film separates the surfaces. No metal contact occurs. Friction is e
 Occurs in rolling element bearings and gear teeth where contact pressures reach 1-3 GPa. The extreme pressure elastically deforms the metal surfaces and compresses the lubricant, dramatically increasing its viscosity (the pressure-viscosity effect). The result is a thin but extremely stiff film, 0.1-1 μm thick, that separates the surfaces. EHL requires a lubricant with a good pressure-viscosity coefficient. Mineral oils perform well in this regime; water-based lubricants perform poorly.
 
 
-## Tier 1: Natural Lubricants (Years 0-5)
 
 ## Animal Fats (Tallow & Lard)
 
@@ -162,7 +160,6 @@ Rancid vegetable oil develops a characteristic sharp odor. For lubricant use, ra
 - Viscosity range is narrower than what mineral oils offer
 
 
-## Tier 2: Processed Lubricants (Years 5-20)
 
 ## Grease Production
 
@@ -322,7 +319,6 @@ The saponification reaction is exothermic. Add alkali gradually to avoid violent
 - Bacterial growth in emulsions limits practical sump life to 3-6 months
 
 
-## Tier 3: Industrial Fluids (Years 20-50)
 
 ## Mineral Oil Lubricants
 
@@ -470,7 +466,6 @@ Pump (gear pump: 10-200 bar, or piston pump: 200-400 bar) feeds control valves (
 - Oil mist requires clean, dry compressed air and creates a respiratory hazard
 
 
-## Tier 4: Advanced & Specialty Lubricants (Years 50-200+)
 
 ## Synthetic Lubricants
 

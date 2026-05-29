@@ -59,7 +59,6 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 | Prototyping PCB or breadboard | 1 board | [`electronics.pcb-fabrication`](../electronics/pcb-fabrication.md) | Wire-wrap board (reliable for DIP ICs) |
 | 5V regulated power supply (1A) | 1 unit | [`electronics.power-electronics`](../electronics/power-electronics.md) | 7805 voltage regulator + transformer |
 
-## Process Description
 
 ## Combinational Circuit Design
 
@@ -102,7 +101,6 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 
 5. **Generate bitstream and program.** The place-and-route result generates a configuration bitstream. Load into the FPGA via JTAG or serial programming interface. For CPLDs, the configuration is non-volatile (EEPROM/flash).
 
-## Quantitative Parameters
 
 ## Gate-Level Timing
 
@@ -186,7 +184,6 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 - **Ground loops**: In mixed analog/digital prototyping, ground loops inject noise into sensitive logic inputs. Use a single ground point (star ground) for all power supply returns. Keep digital ground currents separate from analog ground returns.
 - **Hot insertion**: Never insert or remove ICs with power applied. The momentary short between adjacent pins as the IC enters the socket can destroy both the IC and the socket. Power off, insert, then power on.
 
-## Quality Control
 
 ## Functional Verification
 
@@ -203,7 +200,6 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 - **Scan chain insertion** (ASIC): Replace each flip-flop with a scan flip-flop that can be chained into a serial shift register. In test mode, shift in any desired state, apply one clock, shift out the resulting state. Full controllability and observability of all flip-flops.
 - **Boundary scan (JTAG)**: IEEE 1149.1 standard. Shift register around the IC perimeter allows testing board-level interconnections without physical probes. Supported by all modern FPGAs and complex ICs.
 
-## Variations and Alternatives
 
 ## Discrete Gate Implementation
 

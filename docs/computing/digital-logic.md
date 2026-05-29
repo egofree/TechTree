@@ -27,7 +27,6 @@ From these three, all other operations derive. Key identities: A · 0 = 0, A · 
 - **[XOR](../glossary/xor.md)** (exclusive-OR): A ⊕ B = A·B̄ + Ā·B. Output is 1 when inputs differ. Used in parity checking and adders.
 - **XNOR**: (A ⊕ B)̄. Output is 1 when inputs match. Used in comparators.
 
-## Transistor-Level Implementation
 
 ## CMOS Inverter
 
@@ -140,7 +139,6 @@ CD4000 series: supply voltage 3-15V, propagation delay ~50 ns at 5V (faster at h
 | CMOS 4000 | 3-15V | 50 ns | ~0 static | 50+ | Low-power, wide supply |
 | 74HC | 2-6V | 8 ns | ~0 static | 50+ | General-purpose new design |
 
-## Combinational Logic Design
 
 ## Truth Tables and Boolean Expressions
 
@@ -218,7 +216,6 @@ An array of D flip-flops (or latches) addressed by a read/write address. A 32×8
 - Area scales linearly with register count × word width — a 32×32 register file requires 1024 flip-flops plus decode logic
 - Read and write to the same address in one cycle requires a bypass (forwarding) network to avoid stale data
 
-## Arithmetic Circuits
 
 ## Half Adder
 
@@ -274,7 +271,6 @@ Precomputes carry signals using generate (G = A · B) and propagate (P = A ⊕ B
 - **Multiplier**: Array multiplier uses N² AND gates plus adders. Booth encoding reduces partial products. Wallace tree compresses partial products in logarithmic depth.
 - **ALU**: Combines adder, logic unit (AND, OR, XOR), and shifter with a multiplexed output selected by operation code. A 4-bit ALU (e.g., 74181) fits in a single IC.
 
-## Memory Elements
 
 ## ROM (Read-Only Memory)
 
@@ -312,7 +308,6 @@ One transistor plus one capacitor per cell. Data is stored as charge on the capa
 - Refresh cycle (every 64 ms) consumes power and steals bus bandwidth — each refresh cycle pauses normal read/write operations
 - 30-70 ns access latency is 3-10× slower than SRAM, requiring cache hierarchies to hide the delay
 
-## Clock Distribution and Timing
 
 ## Clock Signal
 
@@ -330,7 +325,6 @@ The clock signal arrives at different flip-flops at slightly different times due
 
 The longest propagation path through combinational logic between two flip-flops determines the maximum clock frequency: f_max = 1 / (t_logic + t_su + t_skew). Pipeline stages break long combinational paths into shorter segments, raising f_max at the cost of latency (more clock cycles to complete an operation).
 
-## Programmable Logic
 
 ## PAL (Programmable Array Logic)
 

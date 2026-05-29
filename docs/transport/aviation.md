@@ -11,7 +11,6 @@
 
 Without propulsion technology, civilization is limited to ground and water transport. Aircraft enable rapid reconnaissance, cargo delivery over difficult terrain, and serve as a powerful morale boost for the entire project. The Wright brothers flew in 1903 with bicycle-shop tools and a custom engine. With modern ultralight plans in hand, the challenge is manufacturing capability, not invention.
 
-## Technologies & Systems
 
 ## Internal Combustion Engine for Aircraft
 
@@ -153,7 +152,6 @@ Without propulsion technology, civilization is limited to ground and water trans
 - Ground test infrastructure (engine test stand, runway)
 - Progressive flight test program with inspection protocol
 
-## Flight Instruments & Navigation
 
 ## Basic Instruments
 

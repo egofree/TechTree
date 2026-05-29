@@ -49,7 +49,6 @@ The boundary with waste management is clear: this document covers converting was
 - Understanding of ceramic and stone contamination (ceramic fragments in cullet cause defects in new glass — stones and ceramics don't melt at glass furnace temperatures)
 - Furnace operation with variable cullet ratios
 
-## Bill of Materials
 
 ## BOM: Container Glass Cullet Processing (per tonne of input waste glass)
 
@@ -71,7 +70,6 @@ The boundary with waste management is clear: this document covers converting was
 | Cullet | 0 kg | 500 kg | 900 kg | Replaces raw materials 1:1 by weight |
 | Energy (melting) | 4.0–5.5 GJ | 3.2–4.5 GJ | 2.0–3.0 GJ | 2–3% reduction per 10% cullet |
 
-## Process Description
 
 ## Container Glass Cullet Processing
 
@@ -107,7 +105,6 @@ The boundary with waste management is clear: this document covers converting was
 
 3. **Reprocess.** Clean glass fibers can be remelted with virgin batch material. Fiber-to-fiber recycling is difficult — most fiberglass waste is downcycled into construction products (cement additive, road base).
 
-## Quantitative Parameters
 
 ## Cullet Quality Specifications
 
@@ -179,7 +176,6 @@ Cullet reduces energy because it is already partially reacted — the silicate n
 
 **Heavy metal contamination**: Lead glass (crystal, CRT glass) contains 20–30% PbO. Lead oxide fume at furnace temperatures is toxic. Never mix lead glass with soda-lime cullet — it contaminates the entire batch and creates a lead exposure hazard. Separate and label all lead glass. PPE: respiratory protection if lead glass is processed.
 
-## Quality Control
 
 ## Cullet Quality Tests
 
@@ -206,7 +202,6 @@ Cullet reduces energy because it is already partially reacted — the silicate n
 - **Ceramic vs. glass test**: Tap the piece with a metal object. Glass rings (high-pitched, sustained); ceramic thuds (dull, short). Alternatively, try to scratch with a steel nail — glass is harder than steel, ceramic may be scratched.
 - **Lead glass test**: Lead glass is noticeably heavier than soda-lime glass (density 3.1 vs 2.5 g/cm³). A lead crystal wine glass weighs ~30% more than a soda-lime equivalent.
 
-## Variations and Alternatives
 
 ## Recycling Route Comparison
 

@@ -42,7 +42,6 @@ A 300 mm semiconductor fab processes 40,000-100,000 wafers per month. Each wafer
 | Maintenance access | Difficult (overhead work) | Easy (floor level) | Medium (floor rails) |
 | Throughput per vehicle | 15-25 FOUP/hr | 6-12 FOUP/hr | 20-40 FOUP/hr |
 
-## FOUP (Front-Opening Unified Pod)
 
 ## Design Standards
 
@@ -72,7 +71,6 @@ The FOUP is the standardized wafer carrier for 300 mm fabs, defined by SEMI E1.9
 - **Orientation**: FOUP must remain upright (wafer slots horizontal) at all times. Tilting beyond ±10° risks wafers sliding out of slots. Never invert — wafers fall out.
 - **Temperature**: Store and transport between 18-28°C. Temperature cycling causes condensation inside sealed FOUP, contaminating wafers.
 
-## Automated Guided Vehicles (AGVs)
 
 ## Design and Operation
 
@@ -119,7 +117,6 @@ AGVs are self-navigating vehicles that transport FOUPs along the fab floor betwe
 - Lower throughput per vehicle (6-12 FOUP/hr) requires larger fleet for same capacity
 - Navigation errors from floor contamination (metal chips, liquid spills interfere with tape sensors)
 
-## Overhead Hoist Transport (OHT)
 
 ## Design and Operation
 
@@ -211,7 +208,6 @@ Stocker systems store FOUPs when they are not actively being processed. A large 
 - **Access time**: 15-60 seconds for any FOUP (time for crane to travel to shelf, pick FOUP, return to I/O port). Average access time: 30 seconds.
 - **Environment**: Stocker interior maintained at ISO Class 4-5 with continuous HEPA filtration. Nitrogen purge option for moisture-sensitive wafers.
 
-## Fab Logistics Coordination
 
 ## MES Integration
 
@@ -240,7 +236,6 @@ The Manufacturing Execution System coordinates all material transport:
 - **AGV pedestrian safety**: Floor-level AGVs share space with fab operators. AGVs must detect humans and stop. Bumper sensors (contact), ultrasonic proximity (preventive), and floor markings (travel paths) mitigate collision risk. Maximum AGV speed in pedestrian areas: 0.5 m/s.
 - **FOUP contamination**: Transport system must not introduce particles into FOUP interior. Vehicle gripper mechanisms must be cleanroom-compatible. FOUP exterior cleaning (wiper or air knife) before loading onto tool load port.
 
-## Interbay vs Intrabay Transport
 
 ## Transport Hierarchy
 

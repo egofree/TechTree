@@ -200,7 +200,6 @@ Inline resistivity measurement is the primary continuous indicator of UPW ionic 
 
 **Temperature compensation**: Resistivity is strongly temperature-dependent (18.2 MΩ·cm at 25°C but only ~12 MΩ·cm at 50°C). Inline temperature measurement with automatic compensation to 25°C reference is essential.
 
-## Quality Assurance Framework
 
 ## Incoming Chemical Inspection
 

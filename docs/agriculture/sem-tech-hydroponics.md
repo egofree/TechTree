@@ -49,7 +49,6 @@ Position in the dependency chain: SEM Tech hydroponics requires [SEM Tech membra
 - Workshop space for membrane fabrication and stack assembly
 - [SEM Tech membrane manufacturing capability](../chemistry/sem-tech.md)
 
-## Bill of Materials
 
 ## Membrane Materials (10 cell pairs, 200 cm² active area)
 
@@ -81,7 +80,6 @@ Position in the dependency chain: SEM Tech hydroponics requires [SEM Tech membra
 | Hose barbs, connectors, valves | Assorted | Hardware store | Plumbing connections |
 | Sediment filter (50-100 micron) | 1 unit | Water filter supply | Downstream particulate capture |
 
-## Process Description
 
 ## Membrane Fabrication
 
@@ -189,7 +187,6 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 - Does not remove pathogens — separate UV, ozone, or biological treatment is required for disease management
 - Ion transport rate at 10 mA/cm² across 200 cm²: 26.8 meq/min — adequate for gradual correction but too slow for rapid emergency adjustments
 
-## Quantitative Parameters
 
 ## Membrane Specifications for Hydroponic ED
 
@@ -277,7 +274,6 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 - **Concentrated nutrient solutions**: ED concentrate streams contain high levels of dissolved ions. Standard chemical handling practices apply: gloves, eye protection, and clearly labeled containers. Concentrated potassium hydroxide (used in some hydroponic formulations) is caustic and requires the same precautions as any strong base (pH >13 in concentrated form; causes chemical burns on skin contact).
 - **Membrane integrity**: Degraded membranes could release resin particles into the nutrient solution. A sediment filter (50-100 micron) downstream of the ED module catches any particulate matter. Inspect filter monthly and replace when clogged.
 
-## Quality Control
 
 ## ED Stack Performance Verification
 
@@ -299,7 +295,6 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 | Nitrate-N | 100-200 mg/L | Supplement if depleted; remove excess via ED |
 | Iron | 2-5 mg/L | Add chelated iron supplement (ED cannot selectively add iron) |
 
-## Variations and Alternatives
 
 ## Nutrient Management Method Comparison
 

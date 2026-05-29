@@ -15,7 +15,6 @@ Every distribution system exploits three principles: gravity (water flows downhi
 
 A settlement of 1,000 people at 50 L/person/day requires 50 m³/day of distributed water. Agricultural irrigation adds 10-50× that volume. Industrial processes (brewing, tanning, metal cooling) add further demand. Distribution infrastructure scales from a single channel serving a hamlet to aqueduct networks serving cities of millions.
 
-## Prerequisites
 
 ## Materials
 - [Water source](procurement.md) with reliable yield
@@ -47,7 +46,6 @@ A settlement of 1,000 people at 50 L/person/day requires 50 m³/day of distribut
 | Cement mortar for joints | 0.2-0.5 m³ | [Chemistry: Cement](../chemistry/cement.md) | Clay seal, rubber gaskets |
 | Sand for pipe bedding | 1-3 m³ | River or quarry | No substitute — protects pipe from settling |
 
-## Process Description
 
 ## Gravity-Fed Open Channels
 

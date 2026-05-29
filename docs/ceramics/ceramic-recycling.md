@@ -16,7 +16,6 @@ Refractory recycling is economically significant because refractory bricks are c
 
 This capability is distinct from waste disposal. Ceramic waste that cannot be recycled (contaminated with heavy metals, radioactive material, or hazardous slag) is handled by [Waste Management](../ehs/waste-management.md).
 
-## Prerequisites
 
 ## Materials
 
@@ -42,7 +41,6 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 - Understanding of grog sizing effects on clay body properties (coarse grog: thermal shock resistance; fine grog: smooth surface)
 - Refractory condition assessment: distinguishing chemically attacked zones (usable for less demanding applications) from structurally sound zones
 
-## Bill of Materials
 
 ## BOM: Grog Production from Waste Pottery (per tonne of grog)
 
@@ -62,7 +60,6 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 | Sorting labor | 1–4 person-hours/tonne | Manual sorting | Automated XRF sorting (high capital cost) |
 | Crushing energy | 15–40 kWh/tonne | [Energy](../energy/engine.md) | Drop-weight crusher (lower throughput) |
 
-## Process Description
 
 ## Grog Production from Waste Pottery
 
@@ -106,7 +103,6 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 
 3. **Reprocess or downcycle.** Alumina powder recovered from grinding wheels and electronic substrates can be re-sintered into lower-grade alumina components. Silicon carbide powder is reusable as an abrasive. Zirconia recovery is economically marginal due to phase transformation during reprocessing.
 
-## Quantitative Parameters
 
 ## Grog Properties by Size Grade
 
@@ -178,7 +174,6 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 
 **Thermal stress**: Refractory bricks removed from furnaces may retain heat for 24–48 hours. Use thermal gloves (rated to 500°C) during relining operations. Infrared thermometer check before handling.
 
-## Quality Control
 
 ## Grog Quality Tests
 
@@ -204,7 +199,6 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 - **Earthenware vs. stoneware**: Lick the ceramic surface. Earthenware feels sticky/tongue-adheres (porous). Stoneware feels smooth/non-adherent (vitrified). This is the traditional potter's test.
 - **Refractory grade estimate**: Scratch with a steel nail. Fireclay is easily scratched; high-alumina resists scratching; silicon carbide cannot be scratched by steel.
 
-## Variations and Alternatives
 
 ## Ceramic Recycling Routes Compared
 

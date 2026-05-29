@@ -14,7 +14,6 @@ Crude oil is the highest energy-density liquid fuel readily available in nature 
 
 The extraction progression follows a clear technological ladder: surface collection → cable-tool drilling → rotary drilling → enhanced recovery. Each step requires the tools and materials from the previous industrial stage.
 
-## Surface Collection & Seeps
 
 ## Natural Oil Seeps
 
@@ -37,7 +36,6 @@ Where oil has migrated to the surface and degraded extensively (bacteria consume
 
 **In-situ methods**: For deeper oil sands, steam-assisted gravity drainage (SAGD) injects steam through a horizontal well, reducing bitumen viscosity from ~10⁶ cP to ~10 cP at 200-250°C. Mobilized bitumen drains to a lower parallel production well and is pumped to surface. Requires ~2.5-3.5 barrels of steam per barrel of oil recovered.
 
-## Cable-Tool (Percussion) Drilling
 
 ## Principle
 
@@ -79,7 +77,6 @@ A heavy steel bit (chisel or club shape, 50-200 kg) is repeatedly lifted and dro
 
 Colonel Edwin Drake's 1859 well at Titusville, Pennsylvania reached 21 m using cable-tool drilling and struck oil at ~1,000 liters/day — the first commercial oil well. By 1900, cable-tool rigs had drilled thousands of wells to depths of 500-1,500 m across Pennsylvania, Ohio, Texas, and Romania. The technique remained dominant until rotary drilling surpassed it in the 1920s-1930s.
 
-## Rotary Drilling
 
 ## Principle
 
@@ -137,7 +134,6 @@ Modern drilling rarely stays vertical. Directional drilling uses a bent sub (ang
 | Rig crew | 5-8 persons per shift, 2-3 shifts |
 | Rig power | 500-3,000 HP (diesel or electric) |
 
-## Well Production
 
 ## Natural Flow (Artesian)
 
@@ -237,7 +233,6 @@ Inject water into injection wells to maintain reservoir pressure and physically 
 
 **Polymer flooding**: Add water-soluble polymer (polyacrylamide, 250-1,500 ppm) to injection water. Increases water viscosity, improving the sweep efficiency (less water bypassing oil through high-permeability channels). Recovery: 5-15% additional OOIP over waterflooding alone.
 
-## Safety & Environmental Concerns
 
 ## Blowout Prevention
 

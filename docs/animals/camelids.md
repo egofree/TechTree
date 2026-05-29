@@ -48,7 +48,6 @@ Materials listed per 10-alpaca fiber herd per year.
 | Halter and lead rope | 10 sets | [`textiles`](../textiles/index.md) | For handling and training |
 | Fencing (1.0-1.2 m woven wire) | Perimeter of pasture | [`metals`](../metals/index.md) | Standard sheep fencing suffices |
 
-## Process Description
 
 ## Fiber Production (Alpaca)
 
@@ -171,7 +170,6 @@ Materials listed per 10-alpaca fiber herd per year.
 - Crias born without passive immunity — 4-hour colostrum window is critical and unforgiving
 - First-time mothers may have poor maternal behavior — require monitoring
 
-## Quantitative Parameters
 
 ## Fiber Grading (Alpaca)
 

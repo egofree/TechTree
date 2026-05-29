@@ -232,7 +232,6 @@
 | DPD test kit | Chlorine residual testing | Any | Colorimetric, $10-30 |
 | P/A coliform test kit | Bacterial contamination | Any | 24-48 hour incubation |
 
-## Steps
 
 ## Constructing a VIP Latrine
 

@@ -15,7 +15,6 @@ Fermentation is the earliest biotechnology. Every human civilization independent
 
 For industrial ethanol and solvent fermentation, see [Chemistry: Fermentation](../chemistry/fermentation.md). For beer and wine, see [Brewing & Distilling](brewing.md).
 
-## Prerequisites
 
 ## Materials
 
@@ -53,7 +52,6 @@ For industrial ethanol and solvent fermentation, see [Chemistry: Fermentation](.
 | Sea salt (coarse) | 150-250 g per L soy sauce | [Mining](../mining/processing.md) | Rock salt, solar salt |
 | Ceramic crocks (5-20 L) | 1 per batch | [Ceramics](../ceramics/index.md) | Glass jars, wooden barrels |
 
-## Process Description
 
 ## Sourdough Bread
 
@@ -186,7 +184,6 @@ Tempeh is fermented soybean cake from Indonesia, produced by *Rhizopus oligospor
 - Dehulling soybeans is labor-intensive by hand (rub between palms or pass through coarse screen) — commercial dehullers save hours per batch
 - Fresh tempeh has only 3-5 days refrigerated shelf life — must be consumed or frozen soon after production
 
-## Quantitative Parameters
 
 ## Fermentation Parameters by Product
 

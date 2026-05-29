@@ -15,7 +15,6 @@ Rubber is unique among engineering materials — it combines high elasticity wit
 
 See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types (NBR, neoprene, silicone, PU), [Thermoplastics](./thermoplastics.md) for melt-processable polymers, and [Thermosets](./thermosets.md) for crosslinked plastics.
 
-## Prerequisites
 
 ## Materials
 - [Latex](../glossary/guayule.md) from *Hevea brasiliensis* (tropical) or guayule/Russian dandelion (temperate)
@@ -36,7 +35,6 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - Coagulation tanks (aluminum or ceramic-lined)
 - Ventilation for mixing and milling areas (dust and fume extraction)
 
-## Bill of Materials
 
 ## Vulcanized Rubber Compound (per 100 kg rubber)
 
@@ -57,7 +55,6 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 | Fresh latex (30-40% rubber) | 250-335 kg | [Hevea tapping](./natural.md) | Guayule slurry, dandelion root extract |
 | Formic acid (HCOOH, 85%) | 1.5-2.0 kg | [Chemistry](../chemistry/fermentation.md) — methanol + CO oxidation | Acetic acid (white vinegar, slower coagulation), alum |
 
-## Process Description
 
 ## Hevea Latex Tapping
 
@@ -278,7 +275,6 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - Not equivalent to virgin rubber — cannot fully replace virgin rubber in critical applications (tire treads, high-pressure seals)
 - Energy-intensive — grinding and heating to 150-200°C for 4-8 hours requires significant energy input
 
-## Quantitative Parameters
 
 ## Vulcanization Parameters by Rubber Type
 
@@ -341,7 +337,6 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - **Vulcanization burns**: Autoclave steam at 3-10 bar (144-180°C saturation temperature) and press platens at 140-180°C cause severe scalds and thermal burns. Use thermal gloves rated to 200°C and face shields when handling hot molds. Never open autoclave door under pressure — verify pressure gauge reads 0 bar before opening.
 - **Ammonia fumes** (latex preservation): Latex preserved with 0.3-0.7% ammonia releases NH₃ vapor. Irritating to eyes and respiratory tract above 25 ppm. OSHA PEL: 50 ppm (8-hour TWA). Use local exhaust ventilation in latex storage and processing areas.
 
-## Quality Control
 
 ## Incoming Rubber
 - **Moisture content**: Weigh 10 g sample, dry at 105°C for 2 hours, reweigh. Accept: <0.5% moisture loss.
@@ -358,7 +353,6 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - **Cure test**: Stretch a 100 mm strip to 300% elongation. Good cure springs back within 5% of original length. Undercure = permanent stretch. Overcure = cracking/snapping.
 - **Hardness thumb test**: Press thumbnail firmly into surface. Shore A 40-60 rubber indents slightly. Shore A 70-90 resists indentation. Not precise but useful for quick checks.
 
-## Variations and Alternatives
 
 ## Alternative Rubber Sources (Non-Tropical)
 

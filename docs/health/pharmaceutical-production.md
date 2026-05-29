@@ -13,7 +13,6 @@ Pharmaceutical production covers the scaled manufacture of drugs from extraction
 
 The key challenge in bootstrap pharmaceutical production is quality assurance. Without modern analytical instruments (HPLC, mass spectrometry), drug potency and purity must be verified through simpler methods: melting point determination, thin-layer chromatography, microbial limit testing, and dissolution testing. These methods are adequate for the drug classes available in a bootstrap setting: analgesics, antimalarials, antiseptics, anesthetics, and basic antibiotics (sulfonamides).
 
-## Prerequisites
 
 ## Materials
 
@@ -57,7 +56,6 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 | Lubricant (talc or magnesium stearate) | 5-15 g | Mining or chemical synthesis | Steric acid, sodium benzoate |
 | Glaze/coating (sugar solution or shellac) | 50-100 g | Sugar refining or [beekeeping](../animals/beekeeping.md) | None (uncoated tablets) |
 
-## Process Description
 
 ## Tablet Manufacturing
 
@@ -134,7 +132,6 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 - Aseptic filling demands a clean environment and trained operators — a single contamination event ruins the entire batch
 - Glass ampoules require flame-sealing capability; rubber-stoppered vials require aluminum crimping tools
 
-## Quantitative Parameters
 
 ## Tablet Manufacturing Parameters
 
@@ -205,7 +202,6 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 - **Stability testing**: Retain samples from each batch. Store at 25°C/60% RH (long-term) and 40°C/75% RH (accelerated). Test at 0, 1, 3, 6, 12 months. If product remains within specification at 40°C for 6 months → estimate 2-year shelf life at room temperature. Assign expiry dates conservatively — expired drugs may be toxic (e.g., degraded tetracycline causes Fanconi syndrome).
 - **Documentation**: Batch records must include: starting material weights and lot numbers, process parameters at each step, in-process test results, yield calculations, deviations from standard procedure, final QC results, release decision with signature. Retain all batch records for minimum 2 years past product expiry date.
 
-## Variations and Alternatives
 
 ## Dosage Form Options
 

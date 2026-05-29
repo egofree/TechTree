@@ -32,7 +32,6 @@ Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas 
 5. **Train all personnel**: Annual emergency response training for all fab workers. Quarterly drills (evacuation, spill, tabletop). Document attendance.
 6. **Establish external contacts**: Pre-arrange hazmat response with local fire department. Notify hospital of potential chemical exposures (HF, arsine) so they stock antidotes.
 
-## Emergency Equipment Placement
 
 ## Eyewash Stations
 
@@ -117,7 +116,6 @@ Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas 
 - Two-way radio (intrinsically safe rated)
 - Caustic scrubber solution (20% NaOH) for emergency neutralization of AsH₃/PH₃
 
-## Chemical Exposure First Aid
 
 ## Hydrofluoric Acid Exposure
 
@@ -184,7 +182,6 @@ Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas 
 
 **Eye contact**: Flush at eyewash station 15-30 minutes. Hold eyelids open. Alkali burns require longer flushing than acid burns. All chemical eye exposures require ophthalmological evaluation.
 
-## Evacuation Procedures
 
 ## Alarm System
 
@@ -217,7 +214,6 @@ Semiconductor fabs use a multi-tier alarm system:
 - Personnel accountability: Head count against daily access roster. Missing persons reported to emergency response team immediately
 - Wind socks visible at assembly points to determine wind direction (inform evacuees which direction is downwind — stay upwind)
 
-## Emergency Response Organization
 
 ## Response Team Roles
 
@@ -248,7 +244,6 @@ Semiconductor fabs use a multi-tier alarm system:
 | Full-scale exercise (multi-agency) | Annually | 2-4 hours | All internal responders + fire department + hospital |
 | Tabletop exercise (scenario-based) | Quarterly | 60 min | Emergency response team + management |
 
-## Emergency Equipment Maintenance
 
 ## Inspection Schedule
 

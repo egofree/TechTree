@@ -96,7 +96,6 @@ Non-contact temperature measurement from thermal radiation. Essential for moving
 - **Two-color (ratio) pyrometer**: Measures ratio of radiation at two wavelengths. Emissivity-independent (unlike single-color). Range: 600-3000°C. Accuracy ±0.5%. Preferred for semiconductor furnaces where emissivity varies during process.
 - **Infrared thermometer**: Broadband IR detector. Range: -50°C to +3000°C (model-dependent). Accuracy ±1-2%. Fast response (ms). Must correct for target emissivity.
 
-## Pressure Gauges
 
 ## Bourdon Tube Gauge
 
@@ -121,7 +120,6 @@ Flexible metal diaphragm (stainless steel, Hastelloy) deflects under differentia
 - **Orifice plate**: Thin plate with precision bore inserted in pipe. Pressure drop across plate proportional to flow rate squared (Bernoulli's equation). Measure ΔP with differential pressure gauge → compute flow. Simple, cheap, 2-5% accuracy. Permanent pressure loss 30-70% of ΔP.
 - **Venturi tube**: Converging-diverging nozzle. Same Bernoulli principle as orifice plate but with gradual profile → lower permanent pressure loss (10-15% of ΔP). More expensive to fabricate but energy-efficient for continuous flow. 1-2% accuracy.
 
-## Construction Procedures
 
 ## Liquid-in-Glass Thermometer
 

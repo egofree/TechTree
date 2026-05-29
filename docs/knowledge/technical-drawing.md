@@ -29,7 +29,6 @@ This capability covers manual drafting (pencil, ink, T-square, compass) as the b
 | Drafting tape | 4-8 strips per sheet | [Chemistry](../chemistry/index.md) (adhesive) | Pins (damages paper) |
 | Eraser (rubber/art gum) | Consumable | [Polymers](../polymers/index.md) | Bread crumbs (historical eraser) |
 
-## Process Description
 
 ## Manual Drafting Procedure
 
@@ -75,7 +74,6 @@ Follow these rules to produce unambiguous dimensioned drawings:
 
 **Weaknesses**: Dimension placement is the most time-consuming part of drafting — a complex part with 50+ dimensions requires careful planning to avoid crossing lines and crowding. Dimensioning errors (double-dimensioning, missing dimensions) are the most common drawing defect found during checking.
 
-## Quantitative Parameters
 
 ## Standard Sheet Sizes (ISO A-series)
 
@@ -153,7 +151,6 @@ Follow these rules to produce unambiguous dimensioned drawings:
 - **Standard compliance**: Verify drawing conforms to the adopted standard (projection method, dimensioning style, line types, title block format). Non-standard drawings cause confusion and errors.
 - **Peer review**: Every drawing is checked by a second person before release. The checker uses a different color pencil to mark corrections. The original drafter incorporates all corrections before final approval.
 
-## Variations and Alternatives
 
 ## First-Angle vs. Third-Angle Projection
 

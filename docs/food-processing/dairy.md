@@ -12,7 +12,6 @@ Dairy processing converts raw milk — one of the most perishable foods (spoils 
 
 Dairy depends on [ceramics](../ceramics/index.md) for storage vessels and cheese molds, [health.sanitation](../health/index.md) for hygiene protocols, and [foundations.food-agriculture](../foundations/food-agriculture.md) for animal domestication and management.
 
-## Bill of Materials
 
 ## Cheese Making Materials
 
@@ -32,7 +31,6 @@ Dairy depends on [ceramics](../ceramics/index.md) for storage vessels and cheese
 | Salt (optional) | 100-200 g (1-2%) | [Mining](../mining/index.md) | Unsalted butter (shorter shelf life) |
 | Cold water (washing) | 30-50 L | [Water](../water/index.md) | Must be potable, 5-10°C |
 
-## Process Description
 
 ## Milk Composition
 
@@ -158,7 +156,6 @@ Cheese making is controlled coagulation of milk protein (casein) to separate cur
 - Precise incubation temperature (42°C ±2°C) is needed — too cool stalls fermentation, too hot kills the culture
 - Kefir's carbonation from yeast fermentation causes pressure buildup in sealed containers — risk of explosion in glass jars
 
-## Quantitative Parameters
 
 ## Dairy Product Yields per 100 L Milk
 
@@ -236,7 +233,6 @@ Cheese making is controlled coagulation of milk protein (casein) to separate cur
 - **Aflatoxin M1**: Carcinogenic metabolite of Aspergillus flavus, secreted in milk when cattle eat moldy feed. Cannot be destroyed by pasteurization. Prevent by controlling cattle feed quality. Regulatory limit: 0.5 μg/L in most jurisdictions.
 - **Cream separator safety**: Centrifugal separators at 6,000-8,000 RPM contain significant rotational energy. Imbalance causes destructive vibration. Never open a spinning separator bowl. Ensure locking mechanism is engaged before starting.
 
-## Quality Control
 
 ## Dairy Equipment Construction
 

@@ -45,7 +45,6 @@ Position in the dependency chain: soil management depends on [Foundations → Ag
 - Storage for finished compost (covered area or bins)
 - Space for cover crop cultivation within rotation system
 
-## Bill of Materials
 
 ## Turned Windrow Composting System (5 tonnes capacity)
 
@@ -67,7 +66,6 @@ Position in the dependency chain: soil management depends on [Foundations → Ag
 | Water (for quenching) | 50-200 L | [Water Procurement](../water/procurement.md) | — |
 | Compost or manure (for biochar activation) | 100-200 kg | On-site compost | Manure slurry, compost tea |
 
-## Process Description
 
 ## Turned Windrow Composting
 
@@ -296,7 +294,6 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 - Excessive phosphorus fertilization causes plants to abandon the symbiosis — counterproductive if P is already abundant
 - Inoculant must come from healthy ecosystems — collecting from diseased or contaminated soil introduces pathogens
 
-## Quantitative Parameters
 
 ## Compost Feedstock C:N Ratios
 
@@ -377,7 +374,6 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 - **Humanure precautions**: If composting human waste, never shortcut the thermophilic phase. Never apply inadequately composted humanure to food crops. Maintain separate tools for handling raw humanure and finished compost. Wash hands thoroughly after handling any composting materials.
 - **Lime handling**: Agricultural lime (calcium carbonate) is a mild irritant. Dolomite lime contains silica dust. Wear a mask when spreading dry lime to avoid inhalation. Eye protection recommended — lime dust in eyes causes irritation.
 
-## Quality Control
 
 ## Compost Maturity Indicators
 
@@ -400,7 +396,6 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 | Infiltration rate | 15-30 mm/hr | <5 mm/hr (compacted) | Timed pouring of known water volume into ring |
 | Root depth | >30 cm (crop-dependent) | <15 cm (compacted or acidic) | Dig cross-section with shovel |
 
-## Variations and Alternatives
 
 ## Composting Method Selection
 

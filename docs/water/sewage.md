@@ -15,7 +15,6 @@ A community of 1,000 people generates approximately 50-200 m³ of wastewater per
 
 This capability covers the full range of sewage management from pit latrines (achievable from Year 0) through activated sludge treatment (requiring industrial infrastructure).
 
-## Prerequisites
 
 ## Materials
 - [Cement and concrete](../chemistry/cement.md) — for tanks, pipes, and treatment structures
@@ -44,7 +43,6 @@ This capability covers the full range of sewage management from pit latrines (ac
 | Gravel for leach fields | 10-50 m³ | Quarry or river | Crushed stone |
 | Sand for filter beds | 20-100 m³ | Quarry or river | No substitute |
 
-## Process Description
 
 ## Pit Latrines
 

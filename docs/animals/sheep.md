@@ -51,7 +51,6 @@ Materials listed per 50-ewe flock per year.
 | Iodine solution (7%) | 0.5-1 L | [`health.medicine`](../health/medicine.md) | Other antiseptics |
 | Lambing pens (1.5-2.0 m² each) | 5-8 pens | [`foundations.tools-basic`](../foundations/tools-basic.md) | Portable panels or straw bales |
 
-## Process Description
 
 ## Wool Production
 
@@ -177,7 +176,6 @@ Materials listed per 50-ewe flock per year.
 - Flystrike kills sheep within 48-72 hours if undetected
 - Labor-intensive monitoring during parasite season (2-4 week intervals)
 
-## Quantitative Parameters
 
 ## Production Benchmarks by Breed Type
 

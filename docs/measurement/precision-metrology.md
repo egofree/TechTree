@@ -18,7 +18,6 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 - [Metals](../metals/index.md) — steel for gauge blocks, invar for length standards
 - [Optics / Precision Instruments](../optics/precision-instruments.md) — interferometric measurement and optical flats
 
-## Technologies & Systems
 
 ## Base Unit Standards
 

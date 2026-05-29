@@ -13,7 +13,6 @@ Solar thermal energy captures concentrated sunlight to produce heat at temperatu
 
 Solar thermal fills a gap in the bootstrap energy chain: it provides high-temperature heat without consuming fuel, and does so with infrastructure that scales from individual workshops to utility-scale power plants. A 10 m² parabolic trough collector in a sunny region delivers 5-8 kW thermal peak — enough to run a small steam engine or heat a kiln. At utility scale, concentrated solar power (CSP) plants deliver 50-500 MW with thermal energy storage for nighttime operation.
 
-## Prerequisites
 
 ## Materials
 
@@ -37,7 +36,6 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 - Optics (reflection, focal length, concentration ratio)
 - Heat transfer (conduction, convection, radiation)
 
-## Bill of Materials
 
 ## Flat-Plate Solar Water Heater (2 m² collector, 200 liter tank)
 
@@ -62,7 +60,6 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 | Heat transfer fluid (mineral oil) | 50-100 liters | [Chemistry](../chemistry/index.md) | Water (limited to 100°C at atmospheric pressure) |
 | Tracking mechanism (gear motor, controller) | 1 unit | [Electronics](../electronics/index.md) | Manual adjustment (labor-intensive) |
 
-## Process Description
 
 ## Solar Water Heating (Flat-Plate Collector)
 
@@ -200,7 +197,6 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 - Molten salt freezes below 220°C — all salt piping requires heat tracing and careful thermal management
 - Minimum economic scale of 50 MW — not suitable for small installations
 
-## Quantitative Parameters
 
 ## Concentration Ratios and Achievable Temperatures
 
@@ -239,7 +235,6 @@ CSP (trough and tower) requires DNI >1,800 kWh/m²/year for economic viability. 
 
 Land use factor for CSP is 2.5-5.0 ha/MW, roughly 3× the land area of equivalent PV due to spacing between collectors and the need for single-axis or dual-axis tracking clearances.
 
-## Scaling Notes
 
 ## Bench Scale (1-5 kW thermal)
 
@@ -273,7 +268,6 @@ A commercial CSP plant requires hundreds of precision-manufactured collector ass
 | Thermal storage salt freeze | Molten salt solidifies below 220°C in piping | Trace-heated piping (electrical heat tracing or steam trace); maintain salt temperature >260°C during idle; emergency drain to cold tank |
 | Steam generator tube leak | Thermal cycling fatigue, or salt-side corrosion | Inspect tubes with eddy current testing annually; maintain salt chemistry (chlorides <100 ppm); use corrosion-resistant alloys (316L stainless minimum) |
 
-## Safety
 
 ## High-Temperature Hazards
 
@@ -290,7 +284,6 @@ A commercial CSP plant requires hundreds of precision-manufactured collector ass
 - **Wind loading**: Parabolic troughs and heliostats present large sail areas to the wind. At 25 m/s wind speed, a 10 m² heliostat experiences ~3,000 N of force. Design mounting structures for local maximum wind loads with a 1.5× safety factor. Stow mirrors face-down (horizontal) when wind exceeds design speed.
 - **Thermal expansion**: Steel receiver tubes expand 6-7 mm per 10 m length per 100°C temperature rise. Provide expansion loops or bellows in piping. Rigidly constrained pipes will buckle and crack.
 
-## Quality Control
 
 ## Mirror Reflectivity
 
@@ -309,7 +302,6 @@ Evacuated receiver tubes must maintain vacuum below 0.1 Pa for effective insulat
 
 Measure daily thermal energy output: Q = ṁ × Cp × ΔT, where ṁ = mass flow rate (kg/s), Cp = specific heat capacity of fluid (kJ/kg·K), ΔT = temperature difference between outlet and inlet (K). Compare to expected output for the day's DNI. Performance below 80% of theoretical indicates mirror soiling, receiver degradation, or tracking errors.
 
-## Variations and Alternatives
 
 ## Comparison of Solar Thermal Technologies
 

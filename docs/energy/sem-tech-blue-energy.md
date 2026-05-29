@@ -45,7 +45,6 @@ When a river flows into the ocean, fresh water and seawater mix. This mixing rel
 
 The energy density is modest but reliable. Seawater at 35 g/L NaCl mixing with fresh water at ambient temperature yields a Gibbs free energy of approximately 0.75 kWh per cubic meter of fresh water. This is a diffuse energy source -- large membrane areas are needed to capture it, which is precisely why membrane cost is the controlling economic factor.
 
-## Reverse Electrodialysis
 
 ## Principle of Operation
 
@@ -96,7 +95,6 @@ For seawater (0.6 M) and river water (0.015 M) at 25°C, this yields approximate
 
 **Why practical efficiency is 30-45%**: The maximum power transfer theorem limits extraction to 50% of Gibbs energy at the optimal load (impedance matching). Ohmic resistance in membranes and solutions (particularly the low-concentration channel, which contributes over 50% of stack resistance), concentration polarization at membrane surfaces, co-ion leakage through non-ideal membranes, osmotic water transport, and pumping parasitics collectively reduce this further to the observed 30-45% range. The best reported gross efficiency is ~45% (Veerman et al., using optimized Fujifilm membranes).
 
-## SEM Tech Membrane Advantage
 
 ## The Cost Barrier
 
@@ -193,7 +191,6 @@ Beyond the materials listed above, a RED power plant requires the following equi
 - **Chemical dosing pumps**: Metering pumps for NaOCl and NaHSO₃ dosing.
 - **UV sterilizers** (optional): For biofouling control at sites with high biological activity, as an alternative to chemical chlorination.
 
-## Steps
 
 ## Manufacturing the Membranes
 
@@ -237,7 +234,6 @@ Beyond the materials listed above, a RED power plant requires the following equi
 
 **Step 18 -- Maintain the system**: Perform periodic forward-flush cycles (increased flow velocity at 10-20 cm/s for 5-10 minutes, 2-4 times daily) to dislodge accumulated deposits. Monitor stack voltage and conductivity trends for performance degradation. Replace degraded membrane pairs as needed -- decompress the stack, swap the affected cell pair, and recompress. At SEM Tech membrane costs (less than $1/sq ft), replacement is economical.
 
-## Stack Design
 
 ## Membrane Stack Configuration
 
@@ -257,7 +253,6 @@ Seawater and fresh water flow cocurrently through their respective channels at 1
 
 SEM Tech membranes use PVC/CPVC binder, inherently resistant to saltwater corrosion. Stack frames and housings can use the same PVC/CPVC materials with solvent-welded joints as in SEM Tech electrolysis cells.
 
-## Performance
 
 ## Expected Performance with SEM Tech Membranes
 
@@ -281,7 +276,6 @@ A practical RED power plant using SEM Tech membranes would be sized as follows f
 
 **10 MW utility-scale plant**: 50-100 parallel stack trains. Total membrane area: 500,000-5,000,000 m². Membrane cost: $500,000-5,000,000. Seawater flow: 50,000-200,000 m³/h. Pumping power: 1.0-2.5 MW. Net output: 7.5-9.0 MW. Suitable for deployment at major river mouths (Amazon discharge ~209,000 m³/s, Congo ~41,200 m³/s, Ganges-Brahmaputra ~38,000 m³/s). At these river flow rates, the fraction of water diverted through the RED plant is negligible (0.01-0.1%).
 
-## Deployment Scenarios
 
 ## River Mouths and Estuaries
 
@@ -348,7 +342,6 @@ Pretreatment energy and chemical costs add approximately $0.001-0.005/kWh to the
 
 **Electrodialysis reversal for self-cleaning**: Applying the EDR technique used in conventional ED (polarity reversal every 15-30 minutes) to RED is not directly applicable since RED generates rather than consumes voltage. Instead, periodic forward-flushing with increased flow velocity (10-20 cm/s for 5-10 minutes, 2-4 times per day) dislodges accumulated deposits. This flushing consumes additional pumping energy of approximately 0.5-1.0% of daily generation.
 
-## Environmental Impact
 
 ## Comparison with Hydroelectric Power
 
@@ -385,7 +378,6 @@ RED effluent is **brackish water** -- a mixture of the freshwater and saltwater 
 - **Biofouling**: Natural water sources carry biological material that fouls membranes and channels. Chlorination or UV pre-treatment may be needed, with appropriate chemical handling precautions.
 - **Electrode solutions**: RED electrode compartments use redox electrolytes (Fe²⁺/Fe³⁺ or similar). These solutions are mildly toxic and require standard chemical handling PPE.
 
-## Limitations
 
 ## Technology Readiness
 

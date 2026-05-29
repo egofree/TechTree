@@ -9,7 +9,6 @@
 
 Nanometer positioning (covered in [Nanometer Positioning](./nanometer-positioning.md)) assumes a vibration-free environment. In reality, semiconductor fabs and precision laboratories are full of vibration sources: rotating machinery, foot traffic, HVAC systems, external road traffic, and even the motion of the precision equipment itself. This document covers the passive and active vibration isolation systems that create the ultra-quiet mechanical environment required for nanometer-precision work. A wafer stage positioning to ±5 nm is meaningless if the floor vibrates by 100 nm — the isolation system must attenuate floor vibration to well below the positioning budget.
 
-## Vibration Sources and Characteristics
 
 ## Ground-Borne Vibration
 
@@ -169,7 +168,6 @@ Each isolation axis uses a combination of:
 | Active power consumption | 0 W | 50-500 W |
 | Cost multiplier | 1× | 3-10× |
 
-## Foundation and Installation Design
 
 ## Isolation Pit Design
 
@@ -199,7 +197,6 @@ Beyond the isolation system, the fab environment is designed to minimize vibrati
 - **HVAC design**: Low-vibration air handlers with flexible duct connections. Vibration-isolated compressor mounts. Air velocity in ducts near tools limited to < 5 m/s to minimize aerodynamic vibration.
 - **Raised access floors**: Precision tools often mounted on isolated pads below the raised floor, not on the raised floor itself which amplifies foot traffic vibration.
 
-## Vibration Measurement and Diagnostics
 
 ## Accelerometer Specifications for Vibration Monitoring
 
@@ -221,7 +218,6 @@ When vibration exceeds specification:
 3. **Propagation path analysis**: Measure vibration at multiple points (floor, base, stage) to identify the transmission path.
 4. **Source remediation**: Fix the source if possible (balance rotating equipment, add dampers, reschedule heavy traffic). Add isolation if the source cannot be fixed.
 
-## Isolation for Specific Applications
 
 ## Optical Table Isolation
 

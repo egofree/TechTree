@@ -32,7 +32,6 @@ Copper was the first metal smelted (~5000 BCE) and remains the backbone of elect
 | Beeswax | Pure, melting point 62-65 °C | [Beekeeping](../animals/beekeeping.md) |
 | Silica sand | >95% SiO₂, grain size 0.1-0.5 mm, for molding | [Mining](../mining/processing.md) |
 
-## Process Description
 
 ## Copper Smelting
 

@@ -27,7 +27,6 @@
 | Beeswax (tablets) | 200-500 g per tablet | [Animals: Beekeeping](../animals/beekeeping.md) | Pitch or resin (less pleasant to write in) |
 | Quill pens (goose) | 5-10 per month | [Animals](../animals/animal-materials.md) | Reed pens (wear faster), steel nibs (require wire-drawing) |
 
-## Process Description
 
 ## Writing System Development
 

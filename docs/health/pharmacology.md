@@ -13,7 +13,6 @@ Pharmacology in a bootstrap civilization covers the extraction, preparation, for
 
 The transition from "herbal medicine" to "reproducible pharmaceutical production" is one of the most impactful leaps in medical capability. Plant-derived drugs vary in potency by batch, season, and growing conditions. Standardized synthetic production delivers consistent doses — the difference between "probably effective" and "reliably effective."
 
-## Materials
 
 ## Drug Source Materials
 
@@ -55,7 +54,6 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 | Tablet press (simple single-punch) | Tablet formation | Machine tools |
 | Autoclave | Sterile preparation | Metal vessel + heat |
 
-## Steps
 
 ## Preparing a Willow Bark Decoction
 

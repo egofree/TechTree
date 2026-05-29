@@ -19,7 +19,6 @@ The article also covers the systems needed to use explosives safely and effectiv
 
 The history of explosives mirrors the history of industrial civilization. Black powder enabled the first large-scale mining operations in medieval Europe and China. Dynamite opened the possibility of major earthmoving projects: the transcontinental railroads, the Suez and Panama canals, the deep-level gold mines of South Africa. TNT and RDX enabled the mechanized warfare of the 20th century. ANFO made modern open-pit mining economically viable. At each stage, the availability of a new explosive reshaped what civilization could build, extract, and destroy.
 
-## Tier 1: Black Powder Era
 
 ## Black Powder
 
@@ -79,7 +78,6 @@ Storage requires a dry, cool, well-ventilated magazine away from other structure
 - Much less powerful than nitroglycerin-based explosives (1/5 the energy per unit mass of dynamite)
 
 
-## Tier 2: Nitration Chemistry
 
 ## Nitrocellulose (Guncotton)
 
@@ -306,7 +304,6 @@ Stabilizer (diphenylamine) content must be monitored. As the stabilizer is consu
 - Grain geometry must be precisely controlled for consistent ballistics
 
 
-## Tier 3: Military & Industrial High Explosives
 
 ## TNT (Trinitrotoluene)
 
@@ -501,7 +498,6 @@ Water-resistant versions (emulsions, water gels) use gelling agents and fuel pha
 **Quality control**: ANFO performance depends on fuel oil content (6% ± 0.5%). Too much oil produces CO and reduces energy; too little produces NO₂ and reduces energy. Verify oil content by solvent extraction (dissolve the oil from a weighed sample with hexane, evaporate, and weigh the residue). Prill density and porosity affect oil absorption and detonation sensitivity. Measure prill bulk density (should be 0.75-0.85 g/cm³ for porous prills). Detonation velocity test: fire a charge with timing probes at known spacing and measure the shockwave transit time. ANFO that detonates below 2,500 m/s is underperforming and may indicate poor mixing, wet prills, or insufficient confinement.
 
 
-## Supporting Sections
 
 ## Blasting Caps & Initiating Systems
 

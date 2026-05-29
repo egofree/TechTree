@@ -29,7 +29,6 @@ The SEM Tech membrane -- pulverized pre-functionalized ion exchange resin in a P
 
 **Important caveat**: While SEM Tech membranes were developed for flow battery use, **no published performance test data exists** for flow battery operation as of this writing. All flow battery performance figures in this article reference established commercial systems using conventional membranes. SEM Tech-specific application remains at TRL 5 (laboratory validation) and speculative for this application.
 
-## Redox Flow Battery Technology
 
 ## Operating Principle
 
@@ -67,7 +66,6 @@ Established commercial VRFB systems achieve:
 - **Response time**: Milliseconds (power electronics limited)
 - **Self-discharge**: Negligible (electrolytes stored separately)
 
-## Membrane Function in Flow Batteries
 
 ## The Central Role of the Ion Exchange Membrane
 
@@ -85,7 +83,6 @@ Commercial flow batteries typically use perfluorinated sulfonic acid membranes (
 
 This is the problem SEM Tech was invented to solve.
 
-## SEM Tech Membrane Application
 
 ## Why SEM Tech for Flow Batteries
 
@@ -111,7 +108,6 @@ Different flow battery chemistries require different membrane types, all achieva
 | Zinc-bromine | Cation or anion exchange | Br⁻ or Na⁺ | Anion or cation resin |
 | Iron-chromium | Cation exchange | H⁺ | Strong acid cation |
 
-## Cell Stack Design
 
 ## Stack Architecture
 
@@ -130,7 +126,6 @@ Cells are stacked in series to achieve the desired voltage. A 50-cell stack at 1
 
 Electrolyte distribution across the electrode area must be uniform to prevent localized hotspots of high current density. Flow frames incorporate inlet and outlet manifolds that distribute electrolyte evenly. The use of PVC/CPVC for frames is compatible with SEM Tech's solvent-welded assembly approach.
 
-## Electrolyte Chemistry
 
 ## Vanadium Electrolyte Production
 
@@ -150,7 +145,6 @@ Vanadium electrolyte cost is approximately 30-50% of total system cost. The elec
 
 Research into organic (non-vanadium) electrolytes aims to reduce electrolyte cost further. Organic molecules (quinones, viologens, TEMPO derivatives) can be synthesized from petroleum or biomass feedstocks. These are at earlier TRL (3-5) and face challenges with long-term chemical stability.
 
-## Performance Metrics
 
 ## Expected SEM Tech Membrane Performance in VRFB
 
@@ -175,7 +169,6 @@ The critical unknowns are: (1) vanadium ion crossover rate through SEM Tech memb
 | **[Duration](../glossary/duration.md)** | 4-12+ hours | Same (tank-dependent) | 1-4 hours |
 | **Safety** | Non-flammable electrolyte | Same | Thermal runaway risk |
 
-## Scale-Up
 
 ## From Laboratory to Grid Scale
 
@@ -200,7 +193,6 @@ Redox flow batteries are inherently safer than lithium-ion systems, but hazards 
 - **Pump hazards**: Electrolyte circulation pumps run continuously. Mechanical hazards from rotating equipment. Chemical exposure risk from pump seal leaks.
 - **SEM Tech membrane safety**: PVC/CPVC binder is chemically inert and non-toxic in the finished membrane. Solvent residues (THF, MEK, cyclohexanone) must be fully evaporated before membrane installation. Solvent handling requires ventilation during membrane manufacture.
 
-## Limitations
 
 ## Technology Readiness
 

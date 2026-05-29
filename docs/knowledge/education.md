@@ -26,7 +26,6 @@
 | Measurement tools | 1 set per 2 students | [Measurement](../measurement/precision-metrology.md) | Shared with scheduled access |
 | Safety equipment (PPE) | 1 set per student | [Chemistry](../chemistry/index.md), [Textiles](../textiles/fibers.md) | Improvised protection (lower safety) |
 
-## Process Description
 
 ## Education System
 

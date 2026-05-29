@@ -17,7 +17,6 @@ This capability provides the calculation methods and design tables for beams, co
 The capability depends on [iron and steel](../metals/iron-steel.md) for structural steel members and reinforcing bar, and on [core mathematics](../mathematics/core-mathematics.md) for the arithmetic, geometry, and algebra needed for structural calculations. Downstream, [industrial buildings](./industrial-buildings.md) and [fortifications](../defense/fortifications.md) apply these design methods to specific building types.
 
 
-## Prerequisites
 
 ## Materials
 
@@ -53,7 +52,6 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 | Testing equipment | 1 set per workshop | [Precision Metrology](../measurement/precision-metrology.md) | Calipers, scales, hardness tester |
 
 
-## Process Description
 
 ## Beam Design
 
@@ -255,7 +253,6 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 - Fabrication accuracy — member lengths must be within ±2 mm for proper fit; field modifications are difficult
 
 
-## Quantitative Parameters
 
 ## Steel Beam Selection Table (S235, fy = 235 MPa)
 

@@ -13,7 +13,6 @@ Electrical systems cover power distribution wiring, switches, connectors, fuses,
 
 This document is a Conceptual/Organizational guide: it provides decision criteria for selecting components, implementation steps for building power distribution systems, and trade-off comparisons between alternatives. Construction details for individual passive components are in [Passive Components](passive-components.md).
 
-## Prerequisites
 
 ## Materials
 - **Copper wire**: Drawn from [electrolytic copper](../chemistry/electrolysis.md), diameters 0.05-10 mm, purity >99.9%
@@ -46,7 +45,6 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 | Circuit breaker (100A, 480V, 3-pole) | 1 unit | [Metals](../metals/index.md) + [Plastics](../polymers/thermoplastics.md) | Fused disconnect (lower cost, one-time protection) |
 | Terminal lugs (2-hole, 3 AWG) | 6 pcs | [Metals](../metals/index.md) | Mechanical connectors (spring type) |
 
-## Process Description
 
 ## Wire and Cable Production
 
@@ -187,7 +185,6 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 - Fluorescent lamps contain mercury (3-5 mg per tube) — breakage releases mercury vapor (TLV 0.025 mg/m³), requiring careful cleanup and disposal as hazardous waste
 - All lighting technologies generate heat that must be managed: a 400W metal halide lamp in an enclosed fixture produces >300W of thermal energy, raising ambient temperature 5-15°C in unventilated spaces
 
-## Quantitative Parameters
 
 ## Power Cable Ratings by Installation
 
@@ -250,7 +247,6 @@ Efficiency penalty for operating at 50% load: 1-3% drop from full-load efficienc
 
 **High voltage (above 600V)**: Requires qualified personnel, insulated tools, voltage-rated gloves (Class 00 to Class 4, 500V to 36,000V AC), and minimum approach distances per NFPA 70E Table 130.4(D)(a). For 480V systems: limited approach boundary = 1.06 m, restricted approach boundary = 0.30 m.
 
-## Quality Control
 
 ## Commissioning Tests
 - **Insulation resistance**: Megger all conductors before energizing. Acceptable: >1 MΩ per kV + 1 MΩ. Test at 500V DC for 600V systems, 1000V DC for 5 kV systems.
@@ -263,7 +259,6 @@ Efficiency penalty for operating at 50% load: 1-3% drop from full-load efficienc
 - **Power factor**: Measure with power analyzer. Target: >0.95 lagging. Below 0.90: install capacitor banks (kVAR = 25-40% of motor HP).
 - **Harmonic distortion**: Measure THD at service entrance with power analyzer. IEEE 519 limit: <5% THD at point of common coupling. Above 5%: install harmonic filters or 12-pulse rectifiers.
 
-## Variations and Alternatives
 
 ## Conductor Material Selection
 

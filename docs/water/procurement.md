@@ -15,7 +15,6 @@ A human requires 2-5 liters of drinking water per day for survival. At 50 liters
 
 Water sources fall into three categories: surface water (rivers, lakes, streams), groundwater (wells, springs, aquifers), and captured precipitation (rainwater, snowmelt). Each has different reliability, quality, and development effort.
 
-## Prerequisites
 
 ## Materials
 - [Stone and wood tools](../foundations/tools-basic.md) — digging sticks, shovels, stone hammers for early construction
@@ -44,7 +43,6 @@ Water sources fall into three categories: surface water (rivers, lakes, streams)
 | Bucket (wood or metal) | 1-2 | [Metals](../metals/index.md) or woodworking | Clay vessel |
 | Sand and gravel (filter pack) | 1-5 m³ | River or quarry | None — essential for well protection |
 
-## Process Description
 
 ## Water Source Identification
 

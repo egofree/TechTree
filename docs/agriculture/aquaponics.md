@@ -47,7 +47,6 @@ Position in the dependency chain: aquaponics depends on [Aquaculture](../animals
 - Sheltered location (greenhouse, indoor room, or covered area) for temperature control
 - Water source for initial fill and make-up water (see [Water Procurement](../water/procurement.md))
 
-## Bill of Materials
 
 ## Household Aquaponic System (1000 L fish tank)
 
@@ -71,7 +70,6 @@ Position in the dependency chain: aquaponics depends on [Aquaculture](../animals
 | Wood ash | 100-200 g per 100 L weekly | Potassium supplement | [Fire-Making](../foundations/fire.md) |
 | Chelated iron (iron DTPA) | 2-5 mg/L every 2-4 weeks | Iron supplement (prevents chlorosis) | [Chemistry](../chemistry/index.md) or commercial |
 
-## Process Description
 
 ## System Design and Assembly
 
@@ -271,7 +269,6 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 - System requires daily monitoring (5-10 minutes) — neglect for more than 24 hours can kill fish
 - First-time systems commonly lose fish during the learning curve — start with inexpensive fish
 
-## Quantitative Parameters
 
 ## Fish Growth Rates in Aquaponics
 
@@ -346,7 +343,6 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 - **Heavy metals**: Do not use galvanized metal (zinc-coated) components in the system — zinc is toxic to fish at concentrations as low as 0.1 mg/L. Copper is also toxic to fish (and to invertebrates like shrimp and snails) at concentrations above 0.02 mg/L. Use plastic, stainless steel, or ceramic components for plumbing and fittings. Lead solder in plumbing is a contamination risk — use lead-free connections.
 - **Plant food safety**: Fish waste can contain human pathogens if the fish are fed manure or contaminated feed. Use only clean feed sources (commercial pellets, BSF larvae raised on food waste, duckweed from clean water). Wash all aquaponic produce before eating. Leafy greens grown in media beds may have gravel particles trapped in leaves — rinse thoroughly.
 
-## Quality Control
 
 ## Water Quality Monitoring Schedule
 
@@ -368,7 +364,6 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 | Water clarity | Clear to slightly green | Brown or opaque | Visual inspection (turbidity indicates solids problem) |
 | Bell siphon cycle frequency | 3-4 cycles per hour | <2 or >6 per hour | Time fill and drain cycles |
 
-## Variations and Alternatives
 
 ## Aquaponics vs Other Growing Methods
 

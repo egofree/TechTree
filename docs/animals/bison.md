@@ -46,7 +46,6 @@ Materials listed per 20-cow bison herd per year.
 | Hydraulic squeeze chute | 1 unit | [`metals`](../metals/index.md) | Essential for veterinary work |
 | Salt and mineral | 200-400 kg | [`mining`](../mining/index.md) | Free-choice loose mineral |
 
-## Process Description
 
 ## Grass-Finished Meat Production
 
@@ -135,7 +134,6 @@ Materials listed per 20-cow bison herd per year.
 - Large hide size demands more tanning materials and larger vats
 - Wild temperament makes hide recovery more labor-intensive than cattle processing
 
-## Quantitative Parameters
 
 ## Bison vs Cattle Nutritional Comparison (per 100 g, cooked)
 

@@ -33,7 +33,6 @@ This reaction does not proceed directly — it requires ammonia as an intermedia
 
 **Step 4 — Ammonia recovery**: 2NH₄Cl + Ca(OH)₂ → 2NH₃↑ + CaCl₂ + 2H₂O. Steam strips NH₃ from the mother liquor. The Ca(OH)₂ comes from slaking CaO, which comes from calcining limestone. The CO₂ from the lime kiln feeds the carbonation tower.
 
-## Detailed Process Steps
 
 ## Brine Preparation and Purification
 

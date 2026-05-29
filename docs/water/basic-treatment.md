@@ -19,7 +19,6 @@ Water treatment operates on a spectrum from coarse to fine:
 
 Each stage is valuable on its own. The combination provides safe drinking water. This capability covers methods available from stone-age conditions through early industrial development.
 
-## Prerequisites
 
 ## Materials
 - [Raw water](procurement.md) from any source
@@ -51,7 +50,6 @@ Each stage is valuable on its own. The combination provides safe drinking water.
 | Drainage pipe (perforated) | 5-15 m | [Metals](../metals/index.md) or [Ceramics](../ceramics/index.md) | Bamboo (short-lived) |
 | Chlorine (calcium hypochlorite) | 0.5-2 kg/month | [Chemistry](../chemistry/acids-bases.md) | Boiling (requires 10× fuel) |
 
-## Process Description
 
 ## Slow Sand Filtration
 

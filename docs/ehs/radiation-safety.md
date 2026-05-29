@@ -12,7 +12,6 @@ Radiation safety covers ionizing radiation fundamentals, shielding design, dose 
 
 The fundamental principle: ALARA — As Low As Reasonably Achievable. No level of ionizing radiation is considered completely safe. All exposure must be justified by benefit and minimized by shielding, distance, and time management. The three pillars of radiation protection: time (minimize time near source), distance (increase distance — dose falls with the square of distance), and shielding (interpose absorbing material between source and person).
 
-## Prerequisites
 
 ## Materials
 
@@ -53,7 +52,6 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 | Geiger-Müller counter | 1 per radiation area | [Electronics](../electronics/index.md) + Geiger tube | Ionization chamber (simpler electronics, no GM tube needed) |
 | Warning signs (trefoil) | Per access point | Printed or painted | Hand-drawn trefoil with "RADIATION" label |
 
-## Process Description
 
 ## Shielding Design for X-Ray Room
 
@@ -105,7 +103,6 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 3. **Decontaminate surfaces**: Wash with detergent and water. For stubborn contamination, use chelating agents (0.1 M EDTA solution for radioactive metals) or mild acid (1% citric acid). Monitor with GM counter after each wash cycle. Continue until count rate is at background level.
 4. **Personnel decontamination**: For skin contamination, wash gently with soap and water. Do not abrade skin (drives contamination deeper). For hair contamination, shampoo repeatedly. If internal contamination suspected (inhalation, ingestion), collect urine samples for bioassay.
 
-## Quantitative Parameters
 
 ## Radiation Dose Limits
 
@@ -205,7 +202,6 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 - **Leak testing sealed sources**: Wipe-test sealed radioactive sources (e.g., calibration check sources) quarterly with filter paper. Count wipe with GM counter or liquid scintillation counter. Activity on wipe must be <185 Bq (5 nCi). If above limit, source is leaking — remove from use, isolate, and decontaminate.
 - **Record keeping**: Lifetime dose records for each occupationally exposed worker. Exposure records retained for duration of employment + 30 years. Survey records for each radiation area maintained indefinitely.
 
-## Variations and Alternatives
 
 ## Shielding Materials Comparison
 

@@ -272,7 +272,6 @@ Precision grinding generates substantial heat in a very small zone (1,000-2,000�
 
 Ra = arithmetic average roughness. Rz = average maximum peak-to-valley height (≈ 4-6× Ra for grinding).
 
-## Semiconductor Equipment Applications
 
 ## Wafer Stage Manufacturing
 

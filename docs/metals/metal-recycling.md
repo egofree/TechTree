@@ -48,7 +48,6 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 - Understanding of alloy contamination: a single piece of leaded steel in a stainless steel heat ruins the entire batch
 - Furnace operation and temperature control for the target metal group
 
-## Bill of Materials
 
 ## BOM: Steel Scrap Recycling via EAF (per tonne of recycled steel)
 
@@ -71,7 +70,6 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | Natural gas or electricity | 5–20 kWh | [Energy](../energy/engine.md) | Oil firing |
 | Nitrogen or argon cover gas | 1–5 m³ | [Air Separation](../chemistry/air-separation.md) | SO₂ cover gas (toxic) |
 
-## Process Description
 
 ## Ferrous Scrap Recycling (EAF Route)
 
@@ -111,7 +109,6 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 
 4. **Electrolytic refine (if required).** For semiconductor-grade or electrical-grade copper, dissolve anodes in CuSO₄/H₂SO₄ electrolyte and plate onto starter cathodes at 200–300 A/m². See [Copper & Bronze](copper-bronze.md).
 
-## Quantitative Parameters
 
 ## Energy Requirements by Metal
 
@@ -181,7 +178,6 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 
 **Lead exposure**: Lead-acid batteries and leaded solder in mixed scrap produce lead fume and dust. Blood lead monitoring required for workers with regular exposure. PPE: half-face respirator with P100 filters, disposable coveralls, hand washing before eating.
 
-## Quality Control
 
 ## Steel Scrap Incoming Inspection
 
@@ -207,7 +203,6 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 - **Magnetic test**: Ferrous metals are magnetic; austenitic stainless (300-series) is weakly magnetic or non-magnetic; aluminum, copper, brass, and lead are non-magnetic.
 - **Density test**: Weigh a piece and measure volume by water displacement. Aluminum ≈2.7 g/cm³, steel ≈7.8, copper ≈8.9, lead ≈11.3.
 
-## Variations and Alternatives
 
 ## Steel Recycling Routes Compared
 

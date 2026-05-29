@@ -66,7 +66,6 @@ An early random-access storage device. A rotating cylinder (12-30 inches diamete
 
 The IBM 650 computer (1954) used a magnetic drum as its primary memory, holding 1000-4000 words. Drums were faster than tape but far more expensive per bit. They faded once magnetic disk technology matured, but the fixed-head-per-track concept survives in modern drum-buffer designs for video and communications.
 
-## Magnetic Disk
 
 ## IBM 350 RAMAC (1956)
 
@@ -95,7 +94,6 @@ Early drives used simple FM (frequency modulation) encoding: a clock bit precede
 | 1991 | IBM 0663 | 1 GB | 8 × 3.5" | ~60 Mb/in² |
 | 2020 | Typical HDD | 10-20 TB | 6-8 × 3.5" | ~1 Tb/in² |
 
-## Magnetic Tape
 
 ## Reel-to-Reel
 
@@ -109,7 +107,6 @@ Compact audio cassettes adapted for data storage. The Kansas City standard (1975
 
 Modern tape cartridges (LTO, IBM 3592) store 6-18 TB per cartridge on half-inch tape with 8000+ tracks. Servo tracks guide the head precisely. Linear tape-open (LTO-9) stores 18 TB native (45 TB compressed) on a single cartridge. Transfer rate: 400 MB/s. Used exclusively for backup and archival in data centers.
 
-## Floppy Disk
 
 ## Inch (1971)
 
@@ -123,7 +120,6 @@ Shugart Associates shrunk the format. Single-sided 160 KB, double-sided 360 KB, 
 
 Sony's rigid-shell format became the standard. Double-density: 720 KB. High-density (HD): 1.44 MB (the most widely recognized capacity). The rigid plastic shell with sliding metal shutter protected the disk far better than the flexible 5.25-inch sleeve. Rotation: 300 RPM. Track density: 135 tpi. The 1.44 MB floppy persisted as a boot and transfer medium well into the 2000s.
 
-## Optical Storage
 
 ## Compact Disc (CD)
 
@@ -135,7 +131,6 @@ Recordable CD (CD-R) uses a dye layer that absorbs laser energy and becomes opaq
 
 DVD (1995): 650 nm red laser, 0.74 μm track pitch, 4.7 GB single-layer. Blu-ray (2006): 405 nm blue-violet laser, 0.32 μm track pitch, 25 GB single-layer, 128 GB quad-layer. Optical storage trades access time (100-200 ms seek) for high capacity, low media cost, and longevity (50+ year claimed archival life for properly stored discs).
 
-## Solid-State Memory
 
 ## ROM and EPROM
 

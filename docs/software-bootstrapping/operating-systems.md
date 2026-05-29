@@ -19,7 +19,6 @@ The OS evolves through stages, mirroring the bootstrap chain:
 
 Each stage is built using the tools from previous stages — initially in assembly language, then in a high-level language once a compiler is available.
 
-## Prerequisites
 
 ## Software
 - **Working assembler** ([assemblers](assemblers.md)): OS kernels are initially written in assembly language for the interrupt handlers, context switching, and device driver low-level routines.
@@ -45,7 +44,6 @@ Each stage is built using the tools from previous stages — initially in assemb
 | Terminal (teletype or CRT) | 1 unit | [computing.electronic](../computing/electronic.md) | Hardwired control panel |
 | Timer/clock hardware | 1 unit | Part of computer architecture | Software timing loops (single-tasking only) |
 
-## Process Description
 
 ## Stage 1: Monitor Program
 

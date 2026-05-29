@@ -30,7 +30,6 @@ This capability covers siege engines (battering rams, siege towers, torsion arti
 | Fascine bundle | Brushwood/brine | 30-60 cm dia x 2-3 m long | Withy ties (10-15 per bundle) | Local sourcing |
 
 
-## Siege Engines by Type
 
 ## Battering Ram (Years 5-15)
 
@@ -126,7 +125,6 @@ This capability covers siege engines (battering rams, siege towers, torsion arti
 - Fixed position once built — cannot be repositioned quickly to adjust aim
 
 
-## Cannon Artillery (Years 20-50)
 
 ## Early Cannon (13th-14th century)
 
@@ -152,7 +150,6 @@ Oversized cannon for breaching walls. Famous example: Mehmed II's Great Bombard 
 **Cannonball vs wall**: Impact energy = 1/2 mv squared. A 25 kg iron ball at 400 m/s delivers 2,000,000 J (2 MJ). This energy fractures stone and compresses mortar at impact point, creating a crater 30-60 cm deep x 50-100 cm diameter per shot. Repeated strikes at same point create breach: 50-200 shots to open 2-3 m wide breach in 2 m stone wall.
 
 
-## Quantitative Parameters
 
 ## Siege Engine Performance Comparison
 
@@ -189,7 +186,6 @@ Oversized cannon for breaching walls. Famous example: Mehmed II's Great Bombard 
 | Fodder (grain) | -- | -- | 400-1000 kg |
 
 
-## Mining & Counter-Mining (Years 10-30)
 
 ## Underground Mining (Sapping)
 
@@ -217,7 +213,6 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 **Shot furnace**: Furnace for heating solid iron shot to red heat before firing -- "hot shot" ignites wooden structures and ships. Furnace: brick-lined, charcoal-fired, heats 12-25 kg iron balls to 600-800 degrees C in 20-30 minutes. Handling: iron tongs to load hot shot into cannon (wet wad between powder charge and hot shot prevents premature ignition). Devastating against wooden ships and siege engines -- penetrates wood, ignites from inside. Cannot be used with explosive shells (premature detonation risk).
 
 
-## Military Logistics (Years 0-50+)
 
 ## Supply Requirements per Soldier per Day
 

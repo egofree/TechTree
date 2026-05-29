@@ -50,7 +50,6 @@ Fresh mulberry leaves contain 20-25% dry matter. Of that dry matter: 15-28% crud
 
 One hectare of mature mulberry supports 10-15 boxes of silkworm eggs per rearing cycle (200,000-300,000 larvae). With 2-3 cycles per year depending on climate, a single hectare can sustain a substantial silk operation.
 
-## Silkworm Rearing
 
 ## Lifecycle
 
@@ -109,7 +108,6 @@ Silkworms are susceptible to several diseases that spread rapidly in crowded rea
 
 Prevention is the only viable strategy. Disinfect all trays, racks, and the rearing room between cycles. Keep temperature and humidity within the prescribed ranges. Remove dead or diseased larvae promptly. Never reuse trays from a diseased batch without full disinfection.
 
-## Cocoon Harvesting
 
 ## Timing
 
@@ -177,7 +175,6 @@ Raw silk contains 20-30% sericin by weight. Sericin is a gummy protein that coat
 
 Silk is the strongest natural fiber. Its strength-to-weight ratio exceeds that of steel wire of the same diameter. It retains strength when wet (unlike rayon, which loses 30-40% of its wet strength). It takes dye brilliantly due to the protein fiber's affinity for both acid and basic dyes. It has low electrical conductivity, making it useful as an insulating material.
 
-## Products and Applications
 
 ## Textiles
 

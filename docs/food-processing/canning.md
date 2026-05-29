@@ -15,7 +15,6 @@ For a civilization bootstrap, canning solves the critical problem of food logist
 
 While [Food Preservation](preservation.md) covers the full spectrum of preservation methods, this document focuses exclusively on thermal sterilization in sealed containers — the methodology, equipment, safety requirements, and quality control systems that make canning work at industrial scale.
 
-## Prerequisites
 
 ## Materials
 
@@ -53,7 +52,6 @@ While [Food Preservation](preservation.md) covers the full spectrum of preservat
 | Cooling water | 500-1000 L | [Water](../water/index.md) | Recirculated with cooling tower |
 | Labels (paper) | 1000 sheets | [Paper](../foundations/food-agriculture.md) | Unlabeled (identify by can code stamp) |
 
-## Process Description
 
 ## Can Manufacturing (Three-Piece Tinplate Can)
 
@@ -156,7 +154,6 @@ For products where sterilization would destroy quality (juice, beer, dairy):
 - Pasteurized products still require refrigeration (0-4°C) and have limited shelf life (5-7 days for HTST milk) — does not eliminate cold chain dependency
 - Divert valve mechanism requires reliable temperature-sensing instrumentation — mechanical or electrical failure sends under-pasteurized product to packaging
 
-## Quantitative Parameters
 
 ## Thermal Death Time Parameters for C. botulinum
 

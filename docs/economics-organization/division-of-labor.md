@@ -17,7 +17,6 @@ The mechanism is straightforward: food surplus frees workers from subsistence fa
 Division of labor depends on [food agriculture](../foundations/food-agriculture.md) to generate the surplus that frees workers, and on [writing](../knowledge/writing.md) to coordinate tasks beyond the scale of oral communication (~20 workers).
 
 
-## Prerequisites
 
 ## Materials
 
@@ -52,7 +51,6 @@ Division of labor is an organizational capability, not a physical production pro
 | Meeting/gathering space | 20-50 m² covered area | [Construction](../construction/index.md) | Open-air gathering (weather-dependent) |
 
 
-## Process Description
 
 ## Establishing Initial Specialization
 
@@ -122,7 +120,6 @@ Division of labor is an organizational capability, not a physical production pro
 | Household autarky | 1× (baseline) | None (self-sufficient) | Shallow (generalist) | None | Emergency fallback, isolated families |
 
 
-## Quantitative Parameters
 
 ## Labor Allocation Benchmarks
 

@@ -15,7 +15,6 @@ The compiler is the most complex software bootstrapping challenge. A simple two-
 
 Compilers unlock a fundamental productivity leap. A programmer can write 5-10× more functionality per day in a high-level language compared to assembly, because the compiler handles the tedious details of instruction encoding, register management, and calling conventions. This productivity multiplier is what makes operating systems, applications, and development tools feasible at scale.
 
-## Prerequisites
 
 ## Software
 - **Working assembler** ([assemblers](assemblers.md)): The compiler's code generator produces assembly output (or object code directly). The assembler is part of the toolchain.
@@ -40,7 +39,6 @@ Compilers unlock a fundamental productivity leap. A programmer can write 5-10× 
 | Working assembler | 1 unit | [assemblers](assemblers.md) | Compiler generates binary directly (skips assembly step) |
 | Formal language reference | 1 document | [knowledge](../knowledge/index.md) | Textbook on compiler construction |
 
-## Process Description
 
 ## Phase 1: Lexical Analysis (Scanning)
 

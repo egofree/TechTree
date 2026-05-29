@@ -14,7 +14,6 @@ A civilization that cannot regulate temperature cannot produce consistent steel,
 
 Each type builds on the ones before it. The single-metal expansion rod teaches the core principle of thermal expansion. The rod-and-tube adds differential expansion for better sensitivity. The bimetallic strip improves on that with bending action. Mercury and fluid systems add frictionless switching and remote sensing. Electrical types bring precision. Electronic types bring digital control. By the end, you have PID loops holding temperature to hundredths of a degree.
 
-## Tier 1: Pre-Industrial Metalworking
 
 ## Single-Metal Expansion Rod Thermostat
 
@@ -369,7 +368,6 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Requires precision glassworking skill to fabricate
 
 
-## Tier 2: Fluid Handling & Sealed Systems
 
 ## Liquid Expansion Thermostat (Bulb & Bellows)
 
@@ -738,7 +736,6 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Limited to environments where compressed air infrastructure exists
 
 
-## Tier 3: Basic Electrical/Electronic Infrastructure
 
 ## Thermocouple-Based Thermostat
 
@@ -915,7 +912,6 @@ Each type builds on the ones before it. The single-metal expansion rod teaches t
 - Not proportional; on/off switching only
 
 
-## Tier 4: Semiconductor/Electronics Industry
 
 ## Thermistor-Based Electronic Thermostat
 

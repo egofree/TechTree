@@ -17,7 +17,6 @@ This capability applies the architecture concepts from [`computing.computer-arch
 
 **Boundary with software-bootstrapping**: This document covers the hardware — microcontroller selection, circuit design for sensor interfaces, ADC/DAC specifications, watchdog timers, and power management. Firmware architecture (task scheduling, interrupt handlers, device drivers) is described here because it is inseparable from the hardware design. Writing compilers or operating systems for embedded targets is software construction — see the software-bootstrapping domain.
 
-## Prerequisites
 
 ## Materials
 
@@ -61,7 +60,6 @@ This capability applies the architecture concepts from [`computing.computer-arch
 | PCB (2-layer minimum, 4-layer preferred) | 1 | [`electronics.pcb-fabrication`](../electronics/pcb-fabrication.md) | Perfboard (prototyping only) |
 | Watchdog timer IC (if not integrated in MCU) | 0-1 | [`silicon.basic-devices`](../silicon/basic-devices.md) | Software watchdog (less reliable) |
 
-## Process Description
 
 ## Decision Framework
 
@@ -190,7 +188,6 @@ Select the embedded system architecture based on these quantitative criteria:
 - Watchdog timeout period requires application-specific tuning: too short (50 ms for a 40 ms worst-case task) causes spurious resets during normal peak loads, resulting in data loss and actuator cycling; too long (500 ms for a 10 ms task) delays fault detection by 50× the loop period
 - Watchdog reset does not automatically log the fault cause; without an MCU reset reason register and non-volatile log storage, repeated watchdog resets from different root causes produce identical behavior, making field diagnosis difficult
 
-## Quantitative Parameters
 
 ## Common Microcontroller Specifications
 
@@ -268,7 +265,6 @@ Select the embedded system architecture based on these quantitative criteria:
 - **Reverse polarity protection**: A reversed power supply connection destroys the MCU and most ICs instantly. Add a series diode (1N4007, 1V drop) or a MOSFET-based reverse polarity circuit (near-zero voltage drop). For battery-powered systems, use a polarized connector that cannot be reversed.
 - **Overcurrent protection on I/O**: GPIO pins typically source/sink 4-20 mA maximum. Exceeding this destroys the pin driver. Use buffer ICs or transistor drivers for loads exceeding 20 mA. Add current-limiting resistors (220-470 Ω) on all digital outputs connected to off-board circuitry.
 
-## Quality Control
 
 ## Hardware Acceptance Tests
 
@@ -286,7 +282,6 @@ Select the embedded system architecture based on these quantitative criteria:
 
 - **Temperature range**: Verify correct operation across the specified temperature range (typically -40°C to +85°C for industrial grade, 0°C to +70°C for commercial). ADC accuracy typically drifts 2-5 LSB over temperature — calibrate at two temperature points if needed.
 
-## Variations and Alternatives
 
 ## Bare-Metal Firmware
 

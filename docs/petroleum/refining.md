@@ -242,7 +242,6 @@ Refineries produce marketable products by blending components from multiple proc
 
 Blended from straight-run diesel, hydrocracked diesel (highest quality, cetane 55-65), and FCC light cycle oil (lowest quality, cetane 20-35, used in limited quantities). Target: cetane number >50, sulfur <10 ppm, cold filter plugging point below ambient minimum temperature.
 
-## Refinery Configuration & Complexity
 
 ## Simple (Hydroskimming) Refinery
 

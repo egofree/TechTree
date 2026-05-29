@@ -161,7 +161,6 @@ Wafer stages require simultaneous X, Y, and angular measurement:
 | Update rate | 10-50 kHz | 50-200 kHz |
 | Number of axes | 5-7 per stage | 3-12 per stage |
 
-## Encoder Signal Processing
 
 ## Analog Interpolation
 

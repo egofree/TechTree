@@ -50,7 +50,6 @@ Materials listed per 20-cow operation per year.
 | Fencing materials | Wire, posts, hardware | [`metals.iron-steel`](../metals/index.md) | Hedgerows, stone walls |
 | Breeding bull or AI supplies | 1 bull per 25 cows | Natural service or [`health.medicine`](../health/medicine.md) | AI straws (requires liquid nitrogen) |
 
-## Process Description
 
 ## Dairy Management
 
@@ -205,7 +204,6 @@ Materials listed per 20-cow operation per year.
 - Drought reduces pasture productivity by 40-60%, requiring supplemental feed
 - Overgrazing degrades pasture rapidly — recovery takes 1-3 years
 
-## Quantitative Parameters
 
 ## Production Benchmarks by Breed Type
 

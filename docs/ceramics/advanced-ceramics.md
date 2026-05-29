@@ -17,7 +17,6 @@ The jump from earthenware to technical ceramics requires:
 - **[Precision forming](../glossary/precision-forming.md)** (dry pressing, isostatic pressing, slip casting with controlled rheology)
 - **[Controlled atmospheres](../glossary/controlled-atmospheres.md)** (reducing, inert, or vacuum sintering)
 
-## Prerequisites
 
 ## Materials
 
@@ -63,7 +62,6 @@ The jump from earthenware to technical ceramics requires:
 | NaCl (impurity remover) | 20-50 kg | [Chemistry](../chemistry/index.md) | None |
 | Electrical energy | 6,000-12,000 kWh | [Power Generation](../energy/index.md) | No alternative — resistance heating required |
 
-## Process Description
 
 ## Alumina (Al₂O₃) Ceramics
 
@@ -450,7 +448,6 @@ Refractories are the inner linings of furnaces, kilns, reactors, and crucibles t
 - Magnesia refractories have high thermal expansion (~13.5 × 10⁻⁶/°C) leading to poor thermal shock resistance — require careful expansion joint design (5-10 mm per meter of length)
 - Carbon/graphite refractories cannot be used in oxidizing atmospheres above ~400°C — they burn
 
-## Quantitative Parameters
 
 ## Ceramic Material Properties Comparison
 
@@ -476,7 +473,6 @@ Refractories are the inner linings of furnaces, kilns, reactors, and crucibles t
 | Si₃N₄ (GPSSN) | 1800-2000°C | N₂ (1-10 MPa) | 2-4 h | 15-20% | None |
 | Si₃N₄ (hot-pressed) | 1700-1800°C | N₂ | 1-2 h | 15-20% | 20-30 MPa |
 
-## Scaling Notes
 
 ## Powder Production Scale
 
@@ -509,7 +505,6 @@ Refractories are the inner linings of furnaces, kilns, reactors, and crucibles t
 | Si₃N₄ decomposition during sintering | Insufficient nitrogen pressure at temperatures >1800°C | Increase N₂ pressure to 5-10 MPa; verify furnace pressure seal integrity |
 | Zirconia spontaneous cracking (aging) | Low-temperature degradation — tetragonal→monoclinic transformation in humid environment | Use higher stabilizer content (3 mol% Y₂O₃ minimum); avoid prolonged exposure to 100-300°C in moisture; consider cubic-stabilized grade for humid environments |
 
-## Safety
 
 ## Dust Hazards (Silicosis)
 
@@ -536,7 +531,6 @@ Many ceramic raw materials produce fine dust during crushing, grinding, and powd
 - **[HF etching](../glossary/hf-etching.md)** of ceramics requires full acid-handling PPE: face shield, HF-rated gloves (neoprene), apron. Calcium gluconate gel must be immediately available (HF antidote for skin exposure). HF causes deep tissue burns with delayed pain — exposure may not be felt for hours.
 - **[Binders and solvents](../glossary/binders-and-solvents.md)** used in ceramic processing (PVA, PEG, organic solvents) require standard chemical safety practices. Use in ventilated areas.
 
-## Quality Control
 
 ## Incoming Raw Material Inspection
 
@@ -557,7 +551,6 @@ Many ceramic raw materials produce fine dust during crushing, grinding, and powd
 - **Hardness**: Vickers or Rockwell test. Alumina: >1500 HV. SiC: >2400 HV.
 - **Visual**: No cracks, chips, or surface defects >0.5 mm. Dye penetrant inspection for critical parts.
 
-## Variations and Alternatives
 
 ## Material Selection Guide
 

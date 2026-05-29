@@ -18,7 +18,6 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 - [Metals](../metals/index.md) — lead, nickel, iron for battery construction
 - [Rubber](../polymers/rubber.md) — battery case materials and insulation
 
-## Technologies & Systems
 
 ## Lead-Acid Battery
 
@@ -157,7 +156,6 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 - **Short-circuit fire**: Lead-acid batteries can deliver hundreds of amps into a short circuit — instant arc, molten metal, fire. Insulate all tools when working near battery terminals. Install fuses or circuit breakers on every battery string.
 - **Lithium thermal runaway** (later chemistries): Lithium-ion cells can enter self-sustaining overheating if overcharged, punctured, or shorted. Fire burns without external oxygen (self-oxidizing). Requires Class D fire extinguisher or sand — water may worsen lithium fires. Not applicable to lead-acid/nickel-iron bootstrap phase.
 
-## Lead-Acid Battery Construction Detail
 
 ## Paste Mixing
 

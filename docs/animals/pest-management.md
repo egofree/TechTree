@@ -42,7 +42,6 @@ Biological pest control uses domesticated and managed animals to suppress rodent
 
 This page covers four strategies: rodent control via cats, terriers, and raptors; avian insect control via poultry species; livestock guardian animals for predator defense; and an integrated management framework that coordinates all of them across seasons.
 
-## Rodent Control
 
 ## Domestic Cats (Felis catus)
 
@@ -76,7 +75,6 @@ Barn owls are nocturnal raptors that hunt rodents almost exclusively. They requi
 
 Deploy cats for daytime interior patrol (barns, granaries), terriers for targeted clearing of heavy infestations, and owl boxes for continuous nocturnal suppression in surrounding fields. The three methods are complementary: cats work buildings, terriers work below-floor burrows, owls work open ground. A farm with all three active sees rodent damage to stored grain drop by 70-90%.
 
-## Avian Pest Control
 
 ## Free-Range Chickens
 
@@ -114,7 +112,6 @@ Guinea fowl are the premier tick-control bird. They range wider than chickens, v
 | Ducks | Slugs, snails, aquatic insects | Wet, irrigated | 5-20 |
 | Guinea fowl | Ticks, grasshoppers, beetles | Dry, brushy | 15-25 |
 
-## Livestock Guardian Animals
 
 ## Guardian Dogs
 
@@ -146,7 +143,6 @@ Llamas are South American camelids with strong territorial instincts. They alert
 - **Advantages**: long lifespan (20-25 years), no special feeding (they graze the same pasture as sheep), low maintenance. A single llama guards for 15+ years.
 - **Limitation**: llamas are vulnerable to the same predators as sheep in areas with large carnivores. They complement but do not replace guardian dogs in wolf or bear country.
 
-## Insect Pest Management
 
 ## Orchard Chickens (Codling Moth Control)
 
@@ -223,7 +219,6 @@ Walk fields weekly during the growing season. Count pest populations using stand
 - [Medicine](../health/medicine.md) — rabies vaccination, parasite treatment for working animals
 - [Construction](../construction/index.md) — predator-proof fencing and grain storage construction
 
-## Safety
 
 ## Zoonotic Diseases
 

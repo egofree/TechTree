@@ -48,7 +48,6 @@ Materials listed per 20-doe operation per year.
 | Iodine solution (7%) | 0.5 L | [`health.medicine`](../health/medicine.md) | Other antiseptic |
 | Disbudding iron (dairy kids) | 1 tool | [`metals`](../metals/index.md) | Required for hornless dairy goats |
 
-## Process Description
 
 ## Dairy Management
 
@@ -175,7 +174,6 @@ Materials listed per 20-doe operation per year.
 - Predator losses higher on brush than open pasture (cover for coyotes)
 - Toxic plant risk — goats sample everything, including poisonous species
 
-## Quantitative Parameters
 
 ## Production Benchmarks by Breed Type
 

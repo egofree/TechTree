@@ -91,7 +91,6 @@ Eliminates human operators. A mechanical marvel that routes calls based on diale
 - 1,000-line: 2 selector stages. Requires ~100 group selectors.
 - 10,000-line: 3 selector stages. Thousands of switches in 500-1000 m2 building. Power consumption: 5-20 kW.
 
-## Bill of Materials
 
 ## Single Telephone Set (manual exchange)
 
@@ -135,7 +134,6 @@ Eliminates human operators. A mechanical marvel that routes calls based on diale
 | Ringing battery | 1 bank | 48 V lead-acid or 75 V magneto | [Chemistry](../chemistry/index.md) |
 | Desk/console | 1 | Wooden cabinet, 1.5 m wide x 1 m deep | [Forestry](../plants/index.md) |
 
-## Quantitative Parameters
 
 ## Voice Signal Parameters
 
@@ -173,7 +171,6 @@ Eliminates human operators. A mechanical marvel that routes calls based on diale
 | Dial pulse rate | N/A | 10 pulses/second |
 | Switch reliability | Depends on operator | 100,000+ calls between failures |
 
-## Scaling Notes
 
 ## Single Exchange (50-500 subscribers)
 

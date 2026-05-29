@@ -17,7 +17,6 @@ Every machine tool, forge hammer, steam engine, and generator requires a foundat
 This capability depends on [building materials](./building-materials.md) for basic construction, [structural engineering](./structural-engineering.md) for design calculations, [electricity](../energy/electricity.md) for power distribution, and [cement and concrete](../chemistry/cement.md) for reinforced concrete structures.
 
 
-## Prerequisites
 
 ## Materials
 
@@ -60,7 +59,6 @@ This capability depends on [building materials](./building-materials.md) for bas
 | Expansion joint filler | 50-100 m | [Polymers](../polymers/index.md) or cork | Bitumen-impregnated fiberboard |
 
 
-## Process Description
 
 ## Steel-Frame Factory Construction
 
@@ -240,7 +238,6 @@ This capability depends on [building materials](./building-materials.md) for bas
 - Heavy equipment point loads may exceed design — always check concentrated loads separately from uniform load rating
 
 
-## Quantitative Parameters
 
 ## Vibration Isolation Parameters
 

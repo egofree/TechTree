@@ -15,7 +15,6 @@ PCB fabrication occupies a critical position in the electronics chain. It requir
 
 This document covers the full PCB fabrication process from laminate production through finished bare board, with emphasis on the chemical and mechanical processes at each stage. Component placement and soldering are covered separately in [Electronics Assembly](assembly.md).
 
-## Prerequisites
 
 ## Materials
 - **Copper foil**: Electrodeposited (ED) or rolled, 17.5 μm (½ oz) or 35 μm (1 oz) thickness, >99.8% purity. From [copper electrorefining](../chemistry/electrolysis.md).
@@ -52,7 +51,6 @@ This document covers the full PCB fabrication process from laminate production t
 | Solder mask ink (photoimageable) | 100-200 mL | [Polymers](../polymers/thermosets.md) | Screen-printed epoxy mask |
 | Tungsten carbide drill bits (0.3-1.0 mm) | 5-20 bits per m² | [Machine tools](../machine-tools/index.md) | — |
 
-## Process Description
 
 ## Laminate Production (Copper-Clad Laminate)
 
@@ -171,7 +169,6 @@ This document covers the full PCB fabrication process from laminate production t
 - Electrical test verifies only connectivity, not signal integrity — impedance mismatches, excessive trace length, and crosstalk are not detected without dedicated TDR or network analyzer testing
 - CNC routing generates fiberglass dust and requires carbide tooling that wears rapidly — a 2.0-3.2 mm router bit lasts 50-200 linear meters of cutting in FR-4 before edge quality degrades
 
-## Quantitative Parameters
 
 ## Laminate Properties (FR-4)
 
@@ -222,7 +219,6 @@ This document covers the full PCB fabrication process from laminate production t
 | Impedance control | No | ±10% | ±5% | ±5% | ±3% |
 | Typical applications | Simple controllers | Most electronics | Computers, telecom | Servers, medical | Aerospace, supercomputers |
 
-## Scaling Notes
 
 ## From Bench to Factory
 
@@ -266,7 +262,6 @@ A workshop with UV exposure, spray etch tank, and drill press can produce functi
 - **Lamination press**: Hydraulic press at 200-400 psi (14-28 bar) with heated platens at 170-185°C. Pinch hazard from press closure. Burn hazard from heated platens and freshly pressed laminate. Use thermal gloves. Never reach into press during operation. Two-hand safety controls required on production presses.
 - **Laser drilling** (HDI/advanced): UV and CO₂ lasers are Class 4 laser hazards — eye and skin damage. Enclose beam path. Laser safety goggles matched to wavelength. Warning signs and interlocked enclosure doors.
 
-## Quality Control
 
 ## Incoming Material Inspection
 - **Laminate**: Measure thickness (micrometer at 9+ points across panel, ±10% of nominal). Visual check for pits, dents, scratches, inclusions in copper. Copper peel strength test (peel 25 mm strip at 90° angle, >1.0 N/mm). Glass transition temperature by TMA or DSC.
@@ -290,7 +285,6 @@ A workshop with UV exposure, spray etch tank, and drill press can produce functi
 - IPC-A-600: Acceptability of printed circuit boards (visual acceptance criteria)
 - IPC-4101: Specification for base materials (laminate and prepreg)
 
-## Variations and Alternatives
 
 ## Substrate Materials
 

@@ -19,7 +19,6 @@ This capability covers the design of organizational structures — not political
 Governance depends on [writing](../knowledge/writing.md) for written laws, contracts, and administrative records, and on [division of labor](./division-of-labor.md) to create the specialized administrative roles (scribes, judges, tax collectors) that governance requires.
 
 
-## Prerequisites
 
 ## Materials
 
@@ -56,7 +55,6 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 | Seal/stamp (official authentication) | 1-3 metal or stone seals | [Metals](../metals/index.md) | Thumbprint, witnessed signatures |
 
 
-## Process Description
 
 ## Establishing Governance Structures
 
@@ -152,7 +150,6 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 | Representative council | Moderate | High (elected) | Good | Moderate (accountability mechanisms) | 5,000+ |
 
 
-## Quantitative Parameters
 
 ## Governance Scale Thresholds
 

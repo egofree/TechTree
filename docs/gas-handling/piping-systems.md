@@ -36,7 +36,6 @@ The design process starts with demand analysis (flow rates and pressures at each
 | Valves (ball, gate, diaphragm) | 5-15 per 100 m | [Machine tools](../machine-tools/machining.md) | Plug valves (higher torque, less common) |
 | Pipe insulation (mineral wool, foam) | 100 m (if required) | [Chemistry](../chemistry/index.md) | Pre-insulated pipe (factory-applied, higher cost) |
 
-## Process Description
 
 ## System Design
 
@@ -98,7 +97,6 @@ The design process starts with demand analysis (flow rates and pressures at each
 - Degreasing with trisodium phosphate solution leaves moisture that must be completely dried before introducing reactive gases — incomplete drying creates contamination
 - Purge verification requires a calibrated O₂ monitor at the outlet — without measurement, the actual O₂ concentration is unknown
 
-## Quantitative Parameters
 
 ## Pipe Sizing — Maximum Flow Rates for Gas Service (m³/h at STP)
 

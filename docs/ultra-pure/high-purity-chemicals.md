@@ -31,7 +31,6 @@ The transition from industrial-grade (95-99.5%, or 2-3N purity) to electronic-gr
 | **Ultra-High Purity (SEMI C7/C8)** | 99.99999%+ (7-8N) | <100 ppt | Critical etch, gate oxide |
 | **Tru-Electronic / Ultra-Trace** | 99.9999999% (9N) | <10 ppt | Advanced node (<28 nm) processing |
 
-## Purification Methods
 
 ## Sub-Boiling Distillation
 
@@ -124,7 +123,6 @@ Nanofiltration and ultrafiltration membranes remove particles, colloids, and hig
 
 **Liquid-phase adsorption**: Activated carbon (acid-washed, ultra-pure grade) removes organic contaminants from acids and solvents.
 
-## Key Chemical Purification Processes
 
 ## Electronic-Grade Hydrofluoric Acid (HF)
 

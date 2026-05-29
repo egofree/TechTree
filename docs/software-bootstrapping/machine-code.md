@@ -13,7 +13,6 @@ A computer without software is an expensive space heater. Before assemblers, com
 
 The process demands intimate knowledge of the target processor's instruction set architecture (ISA) — the hardware specification documented in [Electronic Computing](../computing/electronic.md). The programmer must encode each operation as a numeric opcode, calculate memory addresses for branch targets and data locations by hand, and track register usage and memory layout on paper. One wrong bit toggled into memory means the program crashes or produces wrong results. There is no editor, no debugger, no error checking — just the programmer, the front panel, and a pad of octal or hex notation.
 
-## Prerequisites
 
 ## Hardware
 - **Working computer** with front-panel switches or hex keypad ([computing.electronic](../computing/electronic.md)): The machine must be operational with accessible memory. The front panel provides address switches (set the memory location), data switches (set the instruction word), and control buttons (deposit, examine, step, run).
@@ -41,7 +40,6 @@ The process demands intimate knowledge of the target processor's instruction set
 | Paper and pencils | Many sheets | Stationery supplies | None — essential for program planning |
 | ISA reference card | 1 card | Manual documentation | Handwritten opcode table |
 
-## Process Description
 
 ## Step 1: Write the Program on Paper
 

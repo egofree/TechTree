@@ -41,7 +41,6 @@ Semiconductor fabrication exposes workers to hydrofluoric acid, pyrophoric silan
 5. **Train on donning/doffing**: Practice prevents self-contamination during removal. Verify seal check before every use.
 6. **Inspect and maintain**: Daily user inspection. Monthly SCBA inspection. Annual flow test for PAPR/SCBA.
 
-## PPE Selection Matrix
 
 ## Chemical Handling PPE by Operation
 
@@ -56,7 +55,6 @@ Semiconductor fabrication exposes workers to hydrofluoric acid, pyrophoric silan
 | Solvent handling | Half-face with organic vapor cartridge | Nitrile gloves (0.2-0.3 mm) | Safety glasses or goggles | Flame-resistant lab coat |
 | CMP operation | Half-face with P100 particulate | Nitrile gloves | Splash goggles | Waterproof apron |
 
-## Respiratory Protection
 
 ## Respirator Types for Semiconductor Operations
 
@@ -147,7 +145,6 @@ Semiconductor fabrication exposes workers to hydrofluoric acid, pyrophoric silan
 - Air quality requirements: Grade D breathing air (O₂ 19.5-23.5%, hydrocarbon vapor <5 ppm, CO <10 ppm, CO₂ <1,000 ppm, no objectionable odor)
 - Backup: 5-10 minute escape cylinder required if airline could be severed
 
-## Hand Protection
 
 ## Chemical-Resistant Glove Selection
 
@@ -176,7 +173,6 @@ Semiconductor operations require gloves selected for the specific chemicals hand
 3. For double-gloving: Don inner gloves first, then outer gloves over the cuff of the lab coat
 4. Removal: Peel outer glove off inside-out (touching only the exterior surface). Then remove inner glove by sliding fingers under the cuff and peeling off inside-out. Never touch the outer surface of either glove to bare skin during removal
 
-## Eye and Face Protection
 
 ## Selection Criteria
 
@@ -202,7 +198,6 @@ Semiconductor operations require gloves selected for the specific chemicals hand
 - Eyewash stations within 10 seconds travel distance (approximately 8 meters unobstructed path)
 - Calcium gluconate drops (1%) available at every HF station for emergency eye treatment
 
-## Body Protection
 
 ## Chemical Suits and Aprons
 
@@ -240,7 +235,6 @@ Semiconductor cleanrooms require PPE that generates minimal particles while prov
 
 **Compatibility with chemical PPE**: When chemical work is performed in the cleanroom (wet bench maintenance, chemical changeout), the chemical PPE goes over the cleanroom garment. Chemical aprons and gloves are donned just before the operation and removed immediately after, before leaving the wet bench area.
 
-## PPE Program Management
 
 ## Written Program Requirements
 
@@ -265,7 +259,6 @@ Workers handling semiconductor chemicals must be trained on:
 - Emergency PPE locations (SCBA, escape respirators, emergency showers, eyewash)
 - Medical contraindications for respirator use (respirator medical evaluation required before first use)
 
-## Specialized PPE Configurations
 
 ## HF Work Station PPE Kit
 

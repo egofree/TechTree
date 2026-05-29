@@ -49,7 +49,6 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 | Hydrogen gas (H₂) | 10-50 L/hour for torch work | [Electrolysis](../chemistry/electrolysis.md) | No alternative for fused silica working |
 | Oxygen gas (O₂) | 5-25 L/hour for torch work | [Air separation](../chemistry/air-separation.md) | Compressed air (insufficient for fused silica) |
 
-## Process Description
 
 ## Borosilicate Glass
 
@@ -320,7 +319,6 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 - Fiber diameter sensitive to melt temperature (±5°C causes measurable diameter change)
 - Sizing chemistry adds complexity — bare glass fibers abrade each other and lose strength rapidly
 
-## Quantitative Parameters
 
 ## Glass Composition Comparison
 
@@ -396,7 +394,6 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 - Wall thickness: micrometer at 3 points per cross-section. Accept: ±0.1 mm.
 - Straightness: roll on flat surface. Maximum bow: 2 mm per meter.
 
-## Variations and Alternatives
 
 ## Glass Ceramics (Vycor-Type)
 

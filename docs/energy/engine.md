@@ -26,7 +26,6 @@ The economic impact is hard to overstate. A single diesel generator producing 50
 The four thermodynamic cycles that underpin these engines differ in how they handle the compression, combustion, and expansion phases. The Stirling cycle compresses and expands isothermally (at constant temperature), with heat addition and rejection occurring through external heat exchangers. The Otto cycle compresses a fuel-air mixture, adds heat by rapid combustion at near-constant volume (the power stroke), then expands and exhausts. The Diesel cycle compresses air alone to higher pressure and temperature, then adds heat by injecting fuel gradually during the expansion stroke (constant-pressure combustion). The Brayton cycle compresses air continuously, adds heat at constant pressure in a combustor, and expands through a turbine. Each cycle's efficiency depends primarily on its compression ratio and peak temperature, which is why the progression from Stirling through Otto to Diesel to Brayton mirrors a progression in operating severity and manufacturing difficulty.
 
 
-## Tier 1: External Combustion Bridge (Years 15-25)
 
 ## Stirling Engine
 
@@ -102,7 +101,6 @@ Power modulation in Stirling engines is less responsive than in internal combust
 **Two-stroke Stirling variants**: Some Stirling engine designs use a single piston that serves as both displacer and power piston, eliminating the separate displacer mechanism. These "free-piston" Stirling engines use gas springs and the pressure differential between hot and cold spaces to drive the piston oscillation without a crankshaft. The simplicity is attractive, but tuning the gas spring resonance to match the desired operating frequency requires precise design. Free-piston Stirling engines have been developed for space power applications (radioisotope Stirling generators) where long life and zero maintenance matter more than simplicity of design.
 
 
-## Tier 2: Internal Combustion — Otto Cycle (Years 20-30)
 
 ## Otto Cycle (Four-Stroke Gasoline Engine)
 
@@ -178,7 +176,6 @@ Knock, or detonation, is the primary limit on Otto cycle performance. Normal com
 **Supercharging and turbocharging (gasoline)**: Gasoline engines can also be supercharged or turbocharged to increase power output. A supercharger is mechanically driven by the engine (belt or gear), consuming some of the engine's output to compress the intake air. A turbocharger uses exhaust gas energy, similar to diesel turbocharging. The challenge with boosting gasoline engines is knock: the higher cylinder pressure and temperature from compressed intake air push the mixture closer to auto-ignition. Boosted gasoline engines therefore require lower compression ratios (typically 8:1 to 10:1 vs. 10:1 to 12:1 for naturally aspirated), higher-octane fuel, and often an intercooler to reduce intake air temperature. Despite these challenges, turbocharged gasoline engines (particularly small-displacement "downsized" engines) are common in modern vehicles because they offer the power of a larger engine with better part-load efficiency. For bootstrap production, naturally aspirated gasoline engines are simpler and more robust, and the additional complexity of turbocharging is better applied to diesel engines where the benefits are greater and the knock constraint does not exist.
 
 
-## Tier 3: Internal Combustion — Diesel Cycle (Years 25-40)
 
 ## Diesel Cycle
 
@@ -266,7 +263,6 @@ Invented by Rudolf Diesel (1892). Higher efficiency than Otto cycle, used for tr
 - Produces more particulate matter and NOx than gasoline engines per unit of fuel
 
 
-## Tier 4: Advanced Engines (Years 35-50+)
 
 ## Gas Turbines (Brayton Cycle)
 

@@ -11,7 +11,6 @@
 
 Adhesives bond materials by surface attachment rather than mechanical fastening. From birch tar hafting in the stone age to epoxy molding compounds in semiconductor packaging, adhesive technology spans every era of industrial development. This capability covers natural adhesives (hide glue, casein, starch paste, birch tar), synthetic adhesives (phenolic, epoxy, cyanoacrylate, silicone, UV-cure), and semiconductor-specific adhesives (epoxy molding compounds, die attach films). Also covers anodizing and galvanizing as metal coating processes complementary to the paint and powder coating systems covered in [Paints, Coatings & Inks](coatings.md).
 
-## Natural Adhesives
 
 ## Hide Glue (Animal Glue)
 
@@ -106,7 +105,6 @@ Adhesives bond materials by surface attachment rather than mechanical fastening.
 
 **Weaknesses**: Low bond strength (2-5 MPa); softens at body temperature (30-40°C); low yield (20-30% of bark weight); requires birch trees — geographically limited; not suitable for precision or structural applications.
 
-## Synthetic Adhesives
 
 ## Phenolic Resin Adhesive
 
@@ -185,7 +183,6 @@ Adhesives bond materials by surface attachment rather than mechanical fastening.
 
 **Weaknesses**: Requires UV-transparent substrate (at least one side); shadowed areas remain uncured (need dual-cure formulation); UV equipment required (mercury lamp or UV LED); limited gap-filling (>0.5 mm requires extended cure); limited depth of cure in opaque substrates.
 
-## Semiconductor-Specific Adhesives
 
 ## Epoxy Molding Compounds (EMC)
 
@@ -241,7 +238,6 @@ Photoresist functions as a temporary protective coating during semiconductor fab
 
 **Dicing tape**: Similar UV-curable tape for holding wafer during blade dicing (die singulation). Must withstand cutting forces (blade speed 30,000-60,000 RPM, feed rate 5-50 mm/s) while holding die securely. Adhesive must resist water from the cooling jet. After dicing, UV exposure releases individual die for pick-and-place.
 
-## Metal Coating Processes
 
 ## Anodizing
 

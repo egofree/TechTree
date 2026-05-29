@@ -43,7 +43,6 @@ Position in the dependency chain: pest management depends on [Foundations → Ag
 - [Compost system](soil-management.md) for healthy soil that produces vigorous, pest-resistant plants
 - Storage facilities with rodent-proofing and ventilation (see [Food Processing → Preservation](../food-processing/preservation.md))
 
-## Bill of Materials
 
 ## Companion Planting Border (100 m of Field Edge)
 
@@ -74,7 +73,6 @@ Position in the dependency chain: pest management depends on [Foundations → Ag
 | Stones or sandbags (to seal edges) | 100-200 | On-site | Earth from furrows |
 | Twine or wire (to secure) | 100-200 m | [Textiles](../textiles/fibers.md) | Willow withes |
 
-## Process Description
 
 ## Cultural Controls
 
@@ -169,7 +167,6 @@ Cultural controls modify the farming environment to make it less hospitable to p
 - Highly toxic to fish and aquatic invertebrates — cannot be used near waterways
 - UV degradation means short effective window — must be applied in late afternoon and repeated every 3-5 days
 
-## Quantitative Parameters
 
 ## Economic Threshold Levels (ETL) for Key Pests
 
@@ -252,7 +249,6 @@ Cultural controls modify the farming environment to make it less hospitable to p
 - **Diatomaceous earth (DE) inhalation**: DE is abrasive silica. Breathing DE dust damages lung tissue. Wear a mask when applying. Use food-grade DE only (pool-grade DE is more hazardous). Apply with a duster, not by tossing handfuls.
 - **Botanical spray eye contact**: All botanical sprays (neem, pyrethrum, garlic-chili) cause eye irritation. Avoid spraying toward face. Rinse eyes with clean water for 15 minutes if contact occurs.
 
-## Quality Control
 
 ## Pest Monitoring Standards
 
@@ -274,7 +270,6 @@ Cultural controls modify the farming environment to make it less hospitable to p
 | Rodent contamination | No droppings in grain sample | Visual inspection of grain surface and container perimeter |
 | Diatomaceous earth coverage | 1 kg per tonne grain, evenly mixed | Dust visible on all grain surfaces when scooped |
 
-## Variations and Alternatives
 
 ## Pest Management Strategy by Scale
 

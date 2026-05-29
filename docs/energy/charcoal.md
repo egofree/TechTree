@@ -12,7 +12,6 @@ Charcoal is the primary fuel for all metallurgy until coke arrives in the indust
 
 Charcoal has several advantages over raw wood as a metallurgical fuel: roughly double the energy density per unit mass (~29 MJ/kg vs ~16-18 MJ/kg for seasoned wood), burns hotter and cleaner (less smoke and tarry residue), and is nearly pure carbon (no moisture to generate steam that would oxidize iron during smelting).
 
-## Wood Selection & Preparation
 
 ## Species Selection
 

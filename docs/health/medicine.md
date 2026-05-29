@@ -13,7 +13,6 @@ Medicine and surgery in a bootstrap civilization encompasses pharmaceutical prod
 
 Access to even basic medical capability — wound irrigation, fracture immobilization, antiseptic practice, and a handful of essential drugs (ether for anesthesia, morphine for pain, quinine for malaria) — dramatically reduces preventable death. Lister's introduction of antisepsis in 1867 alone cut surgical mortality from ~50% to ~15%. The gap between "no medical capability" and "basic wound care + essential drugs" is larger than the gap between "basic care" and "modern hospital medicine" in terms of lives saved.
 
-## Materials
 
 ## Pharmaceutical Materials
 
@@ -59,7 +58,6 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 | Bone saw | Amputation | Steel + woodworking tools |
 | Tourniquet | Hemorrhage control | Cloth + stick windlass |
 
-## Steps
 
 ## Performing Wound Irrigation and Closure
 

@@ -20,7 +20,6 @@ This capability does not replace primary mining — it supplements it. Reprocess
 
 The boundary between tailings reprocessing and primary ore processing is that tailings material has already been crushed and ground — the energy-intensive comminution step is already done. This gives tailings a processing cost advantage of 20–40% compared to fresh ore.
 
-## Prerequisites
 
 ## Materials
 
@@ -50,7 +49,6 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 - Flotation circuit design for fine particles (tailings are typically finer than run-of-mine ore)
 - Tailings dam stability and geotechnical assessment for safe excavation
 
-## Bill of Materials
 
 ## BOM: Copper Tailings Leaching (per tonne of tailings at 0.3% Cu)
 
@@ -75,7 +73,6 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Oxygen or air | 0.1–0.5 m³ | [Air Separation](../chemistry/air-separation.md) | Compressed air |
 | Water | 2–5 m³ | [Water Treatment](../chemistry/water-treatment.md) | Recycled from tailings pore water |
 
-## Process Description
 
 ## Flotation Retreatment of Sulfide Tailings
 
@@ -145,7 +142,6 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 - Bacteria are sensitive to temperature excursions, toxic metals (As, Hg), and nutrient deficiency
 - Requires continuous aeration of heap or reactor — compressor energy cost over months of operation
 
-## Quantitative Parameters
 
 ## Typical Recovery Rates from Tailings
 
@@ -211,7 +207,6 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 
 **Dust exposure**: Dry tailings generate silica-containing dust. Prolonged inhalation causes silicosis (irreversible lung scarring). Wet all excavation surfaces. PPE: half-face respirator with P100 filter when dust is visible.
 
-## Quality Control
 
 ## Tailings Feed Assay
 
@@ -242,7 +237,6 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Copper concentrate | 20–30% Cu, <0.1% As | ICP-OES |
 | Iron concentrate | >60% Fe, <0.05% P | XRF |
 
-## Variations and Alternatives
 
 ## Tailings Reprocessing Methods Compared
 

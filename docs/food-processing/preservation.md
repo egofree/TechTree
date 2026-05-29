@@ -12,7 +12,6 @@ Food preservation is the technology that eliminates seasonal starvation. Without
 
 Preservation depends on [ceramics](../ceramics/index.md) for storage vessels, [health.sanitation](../health/index.md) for germ theory and hygiene, [chemistry.petroleum-alternatives.fermentation](../chemistry/fermentation.md) for fermentation chemistry, and [energy](../energy/index.md) for steam and electricity.
 
-## Bill of Materials
 
 ## Drying Materials
 
@@ -40,7 +39,6 @@ Preservation depends on [ceramics](../ceramics/index.md) for storage vessels, [h
 | Steam (for retort) | 150-300 kg | [Energy](../energy/index.md) — boiler | Direct-fired retort (less uniform) |
 | Cooling water | 500-1000 L | [Water](../water/index.md) | Recirculated with cooling tower |
 
-## Process Description
 
 ## Preservation Method Progression
 
@@ -217,7 +215,6 @@ An industrial canning operation for the industrial era:
 7. **Cooling**: Rapid cooling to 38°C to prevent thermophilic spoilage. Pressure maintained during cooling to prevent can buckling (paneling). Chlorinated cooling water (2-5 ppm free chlorine) prevents post-process contamination through seam micro-leaks.
 8. **Storage and inspection**: Hold canned goods for 10-14 days at 35-40°C (incubation test) to detect under-processing. Swollen cans = microbial growth = discard. Also called "swell test."
 
-## Quantitative Parameters
 
 ## Preservation Method Comparison
 
@@ -306,7 +303,6 @@ Values assume sea level and pure steam (no air). Air in the retort lowers actual
 | Pasteurized milk spoils early | Post-pasteurization contamination, temperature abuse during storage | Clean and sanitize all equipment after pasteurization. Cool rapidly to 4°C. Maintain cold chain |
 | Dried food won't rehydrate | Over-dried (<3% moisture), case hardening from too-hot drying | Dry to 10-20% moisture, not lower. Use lower temperature (50-60°C) for initial drying, increase gradually |
 
-## Safety
 
 ## Food Safety Reference
 

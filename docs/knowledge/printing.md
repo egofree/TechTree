@@ -27,7 +27,6 @@
 | Leather or cloth | 50-100 m² (binding covers) | [Animals](../animals/animal-materials.md) or [Textiles](../textiles/fibers.md) | Paper covers (less durable) |
 | Wood (press frame) | 200-300 kg oak or elm | Forestry | Cast iron frame (heavier, more rigid) |
 
-## Process Description
 
 ## Paper Production
 

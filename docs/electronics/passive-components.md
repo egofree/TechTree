@@ -15,7 +15,6 @@ In the bootstrap chain, passive components bridge [electrical systems](electrica
 
 This document covers construction methods for each passive component type at three levels: hand-built (survival/bootstrap), workshop (small-batch production), and industrial (automated mass production). The emphasis is on materials, construction techniques, and achievable parameter ranges at each level.
 
-## Prerequisites
 
 ## Materials
 - **Copper wire**: Drawn from [electrolytic copper](../chemistry/electrolysis.md), diameters 0.05-2.0 mm, purity >99.9%
@@ -60,7 +59,6 @@ This document covers construction methods for each passive component type at thr
 | Ferrite core material | 5-20 kg | [Ceramics](../ceramics/index.md) sintering | Iron powder + binder (lower μ, higher loss) |
 | Insulating tape/ sleeving | 0.5-2.0 m² | [Polymers](../polymers/index.md) | Paper, cloth tape |
 
-## Process Description
 
 ## Resistor Construction
 
@@ -207,7 +205,6 @@ This document covers construction methods for each passive component type at thr
 - Parasitic capacitance between winding layers limits high-frequency performance — self-resonant frequency (SRF) typically 1-100 MHz, above which the inductor behaves as a capacitor
 - Manual winding of toroidal cores is labor-intensive and inconsistent — production-scale toroid winding machines are specialized equipment that take significant effort to construct
 
-## Quantitative Parameters
 
 ## Resistor Parameters
 
@@ -250,7 +247,6 @@ This document covers construction methods for each passive component type at thr
 | Max operating temperature | Wire insulation limit | 200°C | 100-150°C (Curie) | 150-250°C |
 | Typical applications | RF tuning, filters | EMI suppression, DC-DC | Power transformers, inductors | RF transformers, antennas |
 
-## Scaling Notes
 
 ## From Workshop to Production
 
@@ -293,7 +289,6 @@ A workshop producing 500-1000 passive components per week justifies dedicated wi
 - **Lead solder fumes**: When tinning resistor or capacitor leads with Sn/Pb solder, lead oxide fumes and flux vapors are generated. Use local exhaust ventilation (fume extractor at 0.3-0.5 m/s capture velocity). Lead-free solder (SAC305, Sn/Cu) eliminates lead exposure but requires higher temperatures (217-227°C).
 - **Kiln/furnace hazards**: Sintering ceramics and ferrites requires 1000-1350°C kilns. Surface temperature of kiln exterior: 60-120°C — burn risk. Use thermal gloves and face shield when loading/unloading. Ensure adequate ventilation — organic binders burn off during firing, producing CO, CO₂, and volatile organic compounds.
 
-## Quality Control
 
 ## Resistor Testing
 - **Resistance measurement**: 4-wire (Kelvin) method for values <10 Ω. Bridge or DMM for 10 Ω to 10 MΩ. Accuracy requirement: 4× better than the tolerance being verified (e.g., measure ±5% resistors to ±1.25%).

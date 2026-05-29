@@ -15,7 +15,6 @@ The physics is simple: two coils of wire on a shared iron core. Alternating curr
 
 This document covers transformer construction, core and winding manufacturing, insulation systems, oil-filled and dry-type designs, substation layout, switchgear, distribution panels, and the quantitative parameters needed to specify, build, and test power distribution equipment at workshop scale.
 
-## Prerequisites
 
 ## Materials
 
@@ -41,7 +40,6 @@ This document covers transformer construction, core and winding manufacturing, i
 - Magnetic circuit concepts (flux, permeability, saturation, hysteresis)
 - Basic trigonometry for three-phase voltage calculations
 
-## Bill of Materials
 
 ## Distribution Transformer (100 kVA, 11 kV / 400V, Three-Phase)
 
@@ -58,7 +56,6 @@ This document covers transformer construction, core and winding manufacturing, i
 | Varnish / impregnating resin | 5-8 liters | [Chemistry](../chemistry/index.md) | Shellac (lower temperature class) |
 | Hardware (bolts, clamps, gaskets) | 10-15 kg | [Metals](../metals/index.md) | — |
 
-## Process Description
 
 ## Core Construction
 
@@ -200,7 +197,6 @@ This document covers transformer construction, core and winding manufacturing, i
 - Drying cycle (90-110°C for 24-48 hours) adds significant production time
 - Oil must be tested periodically — moisture and dissolved gases degrade insulation over time
 
-## Quantitative Parameters
 
 ## Standard Distribution Transformer Ratings
 
@@ -266,7 +262,6 @@ Formula: Voltage drop (%) = (2 × I × R × L) / V × 100, where I = current (A)
 
 Maximum efficiency occurs when core loss equals copper loss. For a 100 kVA transformer with 270 W core loss and 2,000 W full-load copper loss: optimal load = √(270/2000) = 0.37 = 37% of rated load. Distribution transformers spend most of their life below 50% load, so design favors lower core loss.
 
-## Scaling Notes
 
 ## Bench Scale (1-5 kVA)
 
@@ -300,7 +295,6 @@ Power transformers at this scale require automated core cutting (CNC notch-cutti
 | Oil discoloration or acidic smell | Oil oxidation from moisture and heat exposure | Test oil acidity (neutralization number <0.05 mg KOH/g oil); filter or replace oil; check tank seal for water ingress |
 | Audible partial discharge (crackling) | Air bubbles trapped in oil or insulation | Degas oil under vacuum; circulate oil to release trapped air; maintain positive oil pressure |
 
-## Safety
 
 ## High Voltage Hazards
 
@@ -324,7 +318,6 @@ Secondary-side short circuits on a transformer fed by a stiff grid can produce a
 
 Insulation resistance testing (megger) applies 500-5,000V DC. Never touch terminals during a test. Discharge the winding to ground through a resistor after each test — stored charge can deliver a dangerous shock.
 
-## Quality Control
 
 ## Turns Ratio Test
 
@@ -355,7 +348,6 @@ Measure DC resistance of each winding with a Kelvin bridge or micro-ohmmeter. Co
 
 Energize transformer at full rated current for 8-24 hours. Monitor top-oil temperature rise. Acceptance: temperature rise ≤55°C for 65°C rise class (oil-filled), measured by thermocouple in top oil. If temperature exceeds limit, reduce loading rating or improve cooling.
 
-## Variations and Alternatives
 
 ## Oil-Filled vs Dry-Type
 

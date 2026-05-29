@@ -26,7 +26,6 @@
 | Binding repair materials | Japanese tissue, wheat starch paste, linen thread | [Textiles](../textiles/fibers.md), [Agriculture](../agriculture/index.md) | Standard paper patches (less durable) |
 | Fire suppression equipment | Sand buckets, water pumps, CO₂ extinguishers | [Chemistry](../chemistry/index.md) | Water buckets only (limited effectiveness) |
 
-## Process Description
 
 ## Library Construction
 

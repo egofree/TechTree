@@ -59,7 +59,6 @@ The SEM Tech membrane manufacturing process (see [SEM Tech](sem-tech.md)) produc
 
 **Speculative status**: While SEM Tech cation membranes have been demonstrated in chlor-alkali cells at TRL 5, complete electrodialysis stacks with matched cation-anion membrane pairs have not yet been built or tested. The theoretical performance is well-established from conventional ED practice, but SEM Tech membrane properties in multi-cell ED configurations (resistance per cell pair, ion selectivity in stacked geometry, long-term fouling behavior) remain to be characterized experimentally.
 
-## Process Variants
 
 ## Conventional Electrodialysis (ED)
 
@@ -114,7 +113,6 @@ A SEM Tech electrodialysis stack is constructed from readily available materials
 
 **Assembly sequence**: (1) Place anode electrode on end plate. (2) Stack alternating CEM, diluate spacer, AEM, concentrate spacer until desired cell pair count is reached. (3) Place cathode electrode. (4) Install end plate with tie rods. (5) Torque tie rods evenly to specified compression. (6) Connect manifolds, power supply, and recirculation pumps. A 100-cell-pair stack with 0.1 m² active area per cell can be assembled by one person in 2-4 hours.
 
-## Step-by-Step Procedure
 
 ## Phase 1: Fabricate Ion Exchange Membranes
 

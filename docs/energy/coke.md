@@ -92,7 +92,6 @@ CSR and CRI are the critical metrics for blast furnace coke — high CSR means t
 - **Appearance**: Silver-gray, metallic luster, cellular (visible pores), lightweight for its size. Black, dense, non-porous = undercoked. Powdery, light, white-edged = overcoked.
 - **Sound**: Good coke rings when struck with a hammer. Dull thud = weak, poorly coked.
 
-## Quenching Methods & Safety
 
 ## Wet Quenching (Standard)
 

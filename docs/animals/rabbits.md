@@ -46,7 +46,6 @@ Materials listed per 10-doe rabbitry per year.
 | Pine shavings/straw | 200-400 kg | [`plants`](../plants/index.md) | For nesting |
 | Water system | Nipple or crock | [`water`](../water/index.md) | 1 per 5 rabbits |
 
-## Process Description
 
 ## Meat Production
 
@@ -140,7 +139,6 @@ Materials listed per 10-doe rabbitry per year.
 - Kits born naked and blind — die within hours without nest warmth
 - Cannibalism risk if doe is underfed or stressed post-kindling
 
-## Quantitative Parameters
 
 ## Production Benchmarks
 

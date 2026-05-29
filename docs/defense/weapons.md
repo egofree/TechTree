@@ -30,7 +30,6 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 | Arrows (war, per 12) | Iron/steel | 240-600 g total points | Ash shafts 60-80 cm, goose feathers 36, birch tar | [Textiles](../textiles/index.md) |
 
 
-## Weapon Development by Era
 
 ## Stone-Age Weapons (Years 0-5)
 
@@ -170,7 +169,6 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 - Misfire rate 20-30% — unreliable ignition in damp conditions; slow match is visible at night
 
 
-## Specialized Weapon Systems
 
 ## Crossbow
 
@@ -213,7 +211,6 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 **Javelin**: Light throwing spear (1.5-2.0 m, 300-600 g total). Throwing range: 20-35 m. Enhanced by thong (ankyle): 30-50 cm leather strap wound around shaft -> imparts spin and additional lever arm, increasing range 20-30% and accuracy. Roman pilum: heavy javelin (1.5-2.0 kg, 1.5-2.0 m) with long iron shank (60-90 cm) and pyramidal point. Designed to penetrate shield and bend on impact (enemy cannot throw it back). Effective range: 15-25 m.
 
 
-## Quantitative Parameters
 
 ## Weapon Performance Comparison
 

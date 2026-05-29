@@ -40,7 +40,6 @@ Semiconductor manufacturing generates complex waste streams that differ fundamen
 | Distillation recovery (solvents) | 90-98% recovery | Low-Medium (energy) | High (distillation unit) | Still bottoms (hazardous) | High |
 | Ion exchange polishing (metals) | To <0.1 mg/L per metal | Medium (regeneration chemicals) | Medium | Spent regenerant (concentrated metal) | Medium |
 
-## Waste Stream Classification
 
 ## Semiconductor Waste Categories
 
@@ -57,7 +56,6 @@ Semiconductor manufacturing generates complex waste streams that differ fundamen
 | Spent process chemicals | Spent etchants, spent cleaning solutions | Varies — see category above | Segregated by primary contaminant |
 | Abatement system waste | Spent scrubber media, spent adsorbent | Impregnated carbon/alumina with adsorbed toxic gases | Hazardous waste disposal (sealed containers) |
 
-## Acid Waste Treatment
 
 ## Fluoride Removal
 
@@ -110,7 +108,6 @@ Stage 2 — Polishing (if needed to achieve <10 ppm fluoride):
 - Result: Sodium nitrate and sodium chloride solution — dischargeable to sewer
 - Watch for nitrogen oxide (NOₓ) evolution during neutralization of concentrated nitric acid — ventilate treatment area
 
-## Heavy Metal Waste Treatment
 
 ## Sources
 
@@ -184,7 +181,6 @@ Stage 2 — Polishing (if needed to achieve <10 ppm fluoride):
 - Used as a polishing step after precipitation to achieve <0.1 mg/L total metals
 - Regeneration: Acid strip (5-10% H₂SO₄ or HCl) recovers concentrated metal solution for recycling or further treatment
 
-## Solvent Waste Management
 
 ## Solvent Waste Categories
 
@@ -245,7 +241,6 @@ TMAH is used as a photoresist developer and silicon etchant. It is highly toxic 
 - **Never discharge untreated** — even diluted TMAH is toxic to aquatic organisms at <10 mg/L
 - Spill response: Absorb with inert material, treat as hazardous waste
 
-## Effluent Monitoring
 
 ## Continuous Monitoring Parameters
 
@@ -271,7 +266,6 @@ Semiconductor fab wastewater discharge is monitored continuously at the outfall:
 - **Grab samples**: Collected during batch discharges, process upsets, or for parameters that cannot be composited (pH, residual chlorine, hexavalent chromium)
 - **Quarterly comprehensive analysis**: Full scan of all metals, semi-volatile organics, and priority pollutants for permit compliance
 
-## Waste Minimization
 
 ## Source Reduction Strategies
 

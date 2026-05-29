@@ -46,7 +46,6 @@ From this point forward, any change to the compiler's source code is compiled by
 | Disk storage | ≥500 KB | [computing.data-storage](../computing/data-storage.md) | Multiple tapes (slow but functional) |
 | Test programs | 20-100 files | Written by developer | Existing program library |
 
-## Process Description
 
 ## Phase 1: Write the Seed Compiler in Assembly
 

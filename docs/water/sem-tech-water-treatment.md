@@ -175,7 +175,6 @@ Building a SEM Tech ED desalination stack requires the following materials, orga
 - Spare membrane material and spacer gaskets
 - Multimeter — for checking stack resistance and electrode continuity
 
-## Steps
 
 ## Step 1: Fabricate membranes
 
@@ -499,7 +498,6 @@ The SEM Tech water treatment system depends on upstream capabilities from severa
 - **Chemical exposure**: Cleaning solutions (acid for scale removal, alkali for organic fouling) require standard chemical handling PPE — goggles, gloves, aprons.
 - **Product water quality**: ED removes only dissolved ions. Suspended solids, microorganisms, and organic contaminants pass through unaffected. Post-treatment (disinfection, filtration) is required for drinking water applications.
 
-## Troubleshooting
 
 ## Rising Product Water TDS
 

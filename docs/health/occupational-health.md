@@ -17,7 +17,6 @@ Industrial processes generate hazards: toxic fumes from smelting, silica dust fr
 - [Medicine](medicine.md) — medical treatment and surveillance programs
 - [Mining / Processing](../mining/processing.md) — dust and ventilation controls
 
-## Hazard Identification
 
 ## Chemical Hazards
 
@@ -149,7 +148,6 @@ The last line of defense, used when higher-level controls cannot reduce exposure
 
 **Chemical storage and handling**: Store incompatible chemicals separately (acids from bases, oxidizers from organics, flammables in approved cabinets). Secondary containment (berms, drip trays) captures spills. Eyewash stations and emergency showers within 10 seconds travel distance (about 15 meters) of any chemical handling area. Flush for 15 minutes minimum after chemical eye or skin contact.
 
-## Exposure Monitoring
 
 ## Air Sampling
 
@@ -185,7 +183,6 @@ Duct design: maintain transport velocity above the minimum for the material bein
 | Electrical generation | Electrocution, arc flash, noise | Lockout/tagout, arc-rated clothing, insulated tools, approach boundaries |
 | Semiconductor manufacturing | HF, silane, arsine, cleanroom chemicals | Gas cabinets with exhaust, continuous monitoring, automatic shutoff valves |
 
-## Emergency Response
 
 ## Chemical Exposure First Aid
 

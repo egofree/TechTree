@@ -13,7 +13,6 @@ Diagnostics covers physical examination, vital signs measurement, basic laborato
 
 The diagnostic chain progresses from simple observation (vital signs, inspection, palpation) through instrumented examination (stethoscope, reflex hammer, otoscope) to laboratory analysis (blood smear, urine dipstick, cultures). Each level adds precision but requires progressively more infrastructure. A competent diagnostician with a stethoscope, thermometer, and basic lab supplies can correctly identify 70-80% of common conditions.
 
-## Prerequisites
 
 ## Materials
 
@@ -52,7 +51,6 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 | Urine collection jar | 1 | [Glass](../glass/index.md) or [ceramics](../ceramics/index.md) | Any clean container |
 | Lancets (blood collection) | 1-3 | [Medical Instruments](medical-instruments.md) | Sterilized needle |
 
-## Process Description
 
 ## Vital Signs Assessment
 
@@ -122,7 +120,6 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 - Wright's stain has a shelf life of 6-12 months once opened; fresh stain produces better results
 - Sahli hemoglobin method is less accurate than cyanmethemoglobin method (±1 g/dL vs ±0.3 g/dL)
 
-## Quantitative Parameters
 
 ## Vital Signs — Normal Ranges by Age
 
@@ -192,7 +189,6 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 - **Reagent quality**: Test reagents with known positive and negative controls. Benedict's solution should be clear blue (negative); turns green-yellow-orange-red with increasing glucose. Discard discolored reagents.
 - **Laboratory accuracy checks**: Run duplicate samples on 10% of specimens. Results should agree within ±5% for quantitative tests. If not, recalibrate equipment and retest.
 
-## Variations and Alternatives
 
 ## Diagnostic Methods by Technology Level
 

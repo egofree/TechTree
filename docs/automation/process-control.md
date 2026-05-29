@@ -103,7 +103,6 @@ A semiconductor wafer undergoes 400-700 individual process steps over 4-8 weeks 
 - Experimental wafers are expensive — DOE consumes tool time and test wafers that could produce revenue
 - Results may not generalize — DOE performed on one chamber may not transfer to another without re-qualification
 
-## Recipe Management
 
 ## Recipe Structure
 
@@ -164,7 +163,6 @@ RECIPE: Gate_Poly_Etch_7nm_Rev3
 - **Process window limits**: Soft limits defining the acceptable process parameter range for yield optimization. Width typically ±10-20% of setpoint. Violations trigger alarms but do not stop the process (the recipe continues, but the event is logged for investigation).
 - **Interlocks**: Recipe cannot start unless all safety interlocks are satisfied (coolant flow ≥ minimum, exhaust vacuum within range, gas cabinet door closed, chamber match tuned). Interlock status read via SECS/GEM status variables before process start.
 
-## Lot Tracking
 
 ## Lot Identification
 
@@ -192,7 +190,6 @@ RECIPE: Gate_Poly_Etch_7nm_Rev3
 - **Commonality analysis**: When multiple lots show the same defect, search for common equipment or process conditions. Example: "Lots A1234, A1238, and A1241 all ran on Chamber 3 of Tool Etch-12 during the same week — investigate Chamber 3 for drift or contamination."
 - **Data volume**: A single lot generates 10-100 MB of trace data across its full process flow (hundreds of steps × dozens of parameters × time-series data). A fab producing 50,000 wafers/month generates 5-50 TB of process data per month. Data retention: 5-10 years for traceability compliance.
 
-## Process Sequencing
 
 ## Route Management
 
@@ -211,7 +208,6 @@ MES uses dispatch rules to determine which lot should be processed next at each 
 - **Hot lot preemption**: Hot lots jump to the front of every queue, preempting normal lots. Necessary for development wafer fast-turn or critical customer orders.
 - **Batch formation**: For batch tools (furnaces, wet benches), MES groups lots with compatible recipes into batches to fill the tool (typical batch = 4-6 lots = 100-150 wafers). Batch formation waits until enough compatible lots accumulate or a timeout expires.
 
-## Fault Detection and Classification (FDC)
 
 ## Real-Time Signal Monitoring
 
@@ -242,7 +238,6 @@ When FDC detects an anomaly, classification identifies the root cause category:
 
 Classification accuracy target: >80% correct classification. Remaining cases escalated to process engineer for manual diagnosis.
 
-## Run-to-Run (R2R) Control
 
 ## Motivation
 
@@ -268,7 +263,6 @@ Even when each process run stays within spec, systematic drift (chamber wall fil
 - **Data integrity**: Lot tracking data must be tamper-proof and auditable. Any modification to historical process data (e.g., backdating a hold release) must be logged with justification. Regulatory requirements (FDA for medical device fabs, automotive IATF 16949) mandate full data traceability.
 - **Oversight automation failure**: If FDC or R2R systems go offline, operators may not notice subtle process drift for hours. Implement FDC health monitoring — if the FDC server stops receiving trace data, trigger an alarm and consider holding further processing until FDC is restored.
 
-## Equipment Qualification
 
 ## Tool Qualification for Production
 

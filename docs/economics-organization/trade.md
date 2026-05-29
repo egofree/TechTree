@@ -15,7 +15,6 @@ Barter — the direct exchange of goods for goods — is the simplest form of tr
 Trade depends on [transport](../transport/index.md) to move goods between locations and on [writing](../knowledge/writing.md) for contracts, inventories, and price records. The transport network defines the geographic reach of the market; writing defines the complexity of trade relationships that can be managed.
 
 
-## Prerequisites
 
 ## Materials
 
@@ -50,7 +49,6 @@ Trade is an organizational capability. Physical inputs are minimal:
 | Market space | 100-500 m² flat ground | Natural terrain | Dedicated market building (for permanent markets) |
 
 
-## Process Description
 
 ## Establishing a Barter System
 
@@ -121,7 +119,6 @@ Trade is an organizational capability. Physical inputs are minimal:
 | Fair-based | 50-200 km draw | 100+ types | Optional | High (fair reputation) | Seasonal large-scale exchange |
 
 
-## Quantitative Parameters
 
 ## Trade Route Parameters
 

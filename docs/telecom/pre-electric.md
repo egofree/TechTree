@@ -161,7 +161,6 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 - Shortest useful range for most instruments — 3-10 km for drums and horns, not suitable for long-distance networks
 - Relay speed slowest of all methods — drum relay networks propagate at only 8-15 km/h through villages
 
-## Bill of Materials
 
 ## Signal Fire Station
 
@@ -192,7 +191,6 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 | Shutter mechanism | 1 | Flat disc or flap, spring-loaded | [Metals](../metals/index.md) |
 | Sighting rod or scope | 1 | For aiming at target station | [Glass](../glass/index.md) |
 
-## Quantitative Parameters
 
 ## Signal Propagation Comparison
 
@@ -226,7 +224,6 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 | 500-1000 (bell) | 3-10 | 2-5 | Moderate to high |
 | 2000+ (whistle) | 1-3 | 0.5-2 | High (absorbed rapidly) |
 
-## Scaling Notes
 
 ## Local Communication (1-10 km)
 

@@ -20,7 +20,6 @@ Architecture is distinct from logic design and embedded systems:
 
 **Boundary with software-bootstrapping**: This document covers the hardware architecture — the physical organization of CPU, memory, buses, and I/O. Instruction set design is documented here as a hardware specification (opcodes, registers, addressing modes). How to write programs in that ISA, build assemblers, or implement compilers is software construction — see the software-bootstrapping domain.
 
-## Prerequisites
 
 ## Materials
 
@@ -55,7 +54,6 @@ Architecture is distinct from logic design and embedded systems:
 | Decoupling capacitors (100 nF) | 20-50 | [`electronics.passive-components`](../electronics/passive-components.md) | 10 nF (marginal at >50 MHz) |
 | 4-layer PCB (power, ground, 2 signal) | 1 | [`electronics.pcb-fabrication`](../electronics/pcb-fabrication.md) | 2-layer (acceptable below 20 MHz) |
 
-## Process Description
 
 ## Instruction Set Architecture (ISA) Design
 
@@ -127,7 +125,6 @@ Architecture is distinct from logic design and embedded systems:
 
 4. **Direct Memory Access (DMA)**: Peripheral device requests bus ownership from CPU. CPU grants bus. Peripheral transfers data directly to/from memory without CPU involvement. CPU can continue executing from cache during DMA. Essential for high-bandwidth I/O (disk, network, display).
 
-## Quantitative Parameters
 
 ## RISC vs. CISC Comparison
 
@@ -202,7 +199,6 @@ Ideal throughput: 1 instruction completed per cycle (IPC = 1.0). Pipeline hazard
 - **Thermal management**: A CPU dissipating 5-25 W in a 25 mm² die area requires heatsinking. Junction temperature above 100-150°C causes timing degradation and eventual failure. Attach heatsink with thermal compound (0.5-1.0 °C/W thermal resistance). For >10 W, add forced-air cooling.
 - **Bus contention damage**: If two drivers simultaneously assert opposite states on a bus, the resulting short circuit can exceed driver current ratings and destroy the ICs. Use open-drain or tri-state bus configurations with appropriate pull-up resistors.
 
-## Quality Control
 
 ## Functional Verification
 
@@ -220,7 +216,6 @@ Ideal throughput: 1 instruction completed per cycle (IPC = 1.0). Pipeline hazard
 
 - **Static timing analysis (STA)**: Check all register-to-register paths against the target clock period. No path may have a total delay (combinational logic + setup time + clock skew) exceeding the clock period. Timing must close at worst-case conditions (slow process corner, high temperature, low voltage).
 
-## Variations and Alternatives
 
 ## Accumulator Architecture
 

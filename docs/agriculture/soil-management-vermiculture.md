@@ -42,7 +42,6 @@ This article is a child of [Soil Management](./soil-management.md), which covers
 - Temperature management capability (indoor space or insulated bins for cold climates)
 - Drainage for bins (elevated on blocks with collection tray beneath)
 
-## Bill of Materials
 
 ## Wooden Worm Bin (Household Scale, 1 m × 2 m × 0.6 m)
 
@@ -66,7 +65,6 @@ This article is a child of [Soil Management](./soil-management.md), which covers
 | Air pump + airstone | 1 unit | [Electronics](../electronics/index.md) or commercial | Daily manual stirring (non-aerated tea) |
 | Dechlorinated water | 10-20 L | [Water Procurement](../water/procurement.md) (let sit 24 hrs) | Rainwater |
 
-## Process Description
 
 ## Species Selection and Stocking
 
@@ -306,7 +304,6 @@ Application:
 - Non-aerated tea (steeped 7-14 days) may contain anaerobic pathogens — use only as soil drench, not foliar spray on food crops
 - Requires an air pump and airstone — if these are unavailable, only non-aerated tea can be produced
 
-## Quantitative Parameters
 
 ## Vermicompost Nutrient Analysis
 
@@ -390,7 +387,6 @@ Application:
 - **Heavy metals**: Worms bioaccumulate certain heavy metals (cadmium, lead, mercury) from contaminated feedstocks. Do not use vermicompost from worms fed on industrially contaminated waste near food crops. Use clean kitchen waste, manure from healthy animals, and garden trimmings.
 - **Treated lumber**: Do not use copper-chrome-arsenate (CCA) treated wood for bin construction — the preservative chemicals leach into the bedding and are toxic to worms at low concentrations. Use untreated timber, concrete, or food-grade plastic.
 
-## Quality Control
 
 ## Vermicompost Maturity Indicators
 
@@ -411,7 +407,6 @@ Application:
 | pH | 6.5-7.5 | <5.5 or >8.0 | pH paper on wet bedding extract |
 | Food remaining | All consumed within 48 hours | Food accumulating >72 hours | Visual check of feeding pocket |
 
-## Variations and Alternatives
 
 ## Vermicompost System Selection
 

@@ -220,7 +220,6 @@ Dose calculation: For a 10,000 L storage tank requiring 1.0 mg/L chlorine dose: 
 
 **Blackwater treatment**: Toilet waste (blackwater) contains 10⁶-10⁸ fecal coliforms per 100 mL, BOD 200-600 mg/L, TSS 200-500 mg/L. Composting toilet: aerobic decomposition at 40-60°C for 6-12 months reduces pathogens to safe levels (thermophilic composting at >55°C for >3 days kills >99.9% of all pathogens including Ascaris eggs, which are among the most heat-resistant). Averaging 0.12-0.18 kg feces and 1.0-1.5 L urine per person per day. Carbon source (sawdust, straw, or dried leaves) added at 1-2 cups per use to maintain C:N ratio of 20-30:1 and absorb moisture. Vault capacity: 1-2 m³ per person per year (combined liquid and solid with carbon cover material).
 
-## Materials
 
 ## Treatment Chemicals
 

@@ -345,7 +345,6 @@ Refractory metals — tungsten (W, mp 3422°C), molybdenum (Mo, mp 2623°C), tan
 - Tungsten is expensive ($200-400/mtu for APT) and difficult to machine — radiation shielding applications limited to where compact size justifies cost.
 - APT price spiked to $500+ in 2011-2012 due to Chinese export restrictions — supply-driven price volatility complicates project planning.
 
-## Safety & Hazards
 
 ## Fine Powder Inhalation
 

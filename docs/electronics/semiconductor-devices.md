@@ -15,7 +15,6 @@ This document covers the physics, construction, and application of discrete semi
 
 Semiconductor devices sit at the heart of the electronics bootstrap chain. [Passive components](passive-components.md) alone cannot amplify signals or perform logic — active devices are required. Every [power electronics](power-electronics.md) converter relies on diodes and transistors for switching. Every [computing](../computing/electronic.md) system uses transistors as logic switches.
 
-## Prerequisites
 
 ## Materials
 - **Silicon wafers**: Single-crystal, 50-300 mm diameter, p-type (boron) or n-type (phosphorus), from [wafer production](../silicon/wafering.md)
@@ -48,7 +47,6 @@ Semiconductor devices sit at the heart of the electronics bootstrap chain. [Pass
 | Epoxy molding compound | 0.5-1.0 kg | [Polymers](../polymers/thermosets.md) | Ceramic hermetic package (military/space) |
 | Copper alloy lead frame (42 pins/strip) | 5-10 strips | [Metals](../metals/index.md) | Kovar alloy (CTE-matched for hermetic) |
 
-## Process Description
 
 ## Diode Construction
 
@@ -162,7 +160,6 @@ Four-layer pnpn device. Latches on when gate current is applied while anode is p
 - Susceptible to false triggering from rapid voltage transients (dv/dt > 50-1000 V/μs) — requires snubber circuits (RC network across the device) that add cost and complexity
 - Slow turn-on (di/dt limited to 50-500 A/μs) — the conducting area spreads from the gate region at ~0.1 mm/μs, creating localized hot spots if current rises faster than the conducting area expands
 
-## Quantitative Parameters
 
 ## Diode Parameters
 
@@ -215,7 +212,6 @@ Four-layer pnpn device. Latches on when gate current is applied while anode is p
 | di/dt | 50 A/μs | 100 A/μs | 200 A/μs | 500 A/μs |
 | Package | TO-92 | TO-220 | Disc (hockey-puck) | Disc (hockey-puck) |
 
-## Scaling Notes
 
 ## From Discrete to Integrated
 
@@ -259,7 +255,6 @@ Power semiconductor capability scales with die area and blocking voltage. Key tr
 - **High-temperature furnaces**: Diffusion and oxidation furnaces operate at 900-1200°C. External surfaces: 50-80°C (burn risk). Loading/unloading wafers requires long quartz loading rods — hot wafers and quartz ware cause severe burns. Use thermal gloves rated to 500°C. Gas burn hazard: furnace exhaust gases may be hot and contain toxic species.
 - **Electrical testing of power devices**: High-voltage devices are tested at hundreds to thousands of volts. Capacitive energy storage in test equipment can deliver lethal shocks. Use insulated probes, discharge capacitors before handling, and maintain one-hand rule (never have both hands in the test fixture simultaneously).
 
-## Quality Control
 
 ## Wafer-Level Tests (Probe Test)
 - **Die-by-die probe**: Automated probe card contacts each die on the wafer. Measures key parameters: Vf (diodes), β and Vce(sat) (BJTs), Vth and Rds(on) (MOSFETs), Vdrm and Igt (thyristors). Inking or electronic mapping of failed die. Wafer probe yield target: 85-98% depending on die size and process maturity.
@@ -277,7 +272,6 @@ Power semiconductor capability scales with die area and blocking voltage. Key tr
 - **Highly accelerated stress test (HAST)**: 130°C, 85% RH, 96 hours under bias. Tests moisture resistance.
 - **Electrostatic discharge (ESD)**: HBM (Human Body Model): 100 pF through 1.5 kΩ. MOSFETs: 200-2000V rating. Diodes: 2000-15,000V.
 
-## Variations and Alternatives
 
 ## Device Technology Trade-offs
 

@@ -43,7 +43,6 @@ The critical threshold is sterility: an instrument that cannot be sterilized is 
 | Molding flasks | Casting | For brass/bronze casting |
 | Calipers and micrometer | Measurement | For precision dimensions (±0.01 mm) |
 | Pressure vessel (autoclave) | Sterilization | 15 psi, 121°C capability |
-## Diagnostic Instruments
 
 ## Stethoscope
 
@@ -117,7 +116,6 @@ The ophthalmoscope illuminates the retina through the pupil. Contains a light so
 - Ophthalmoscope examination has a steep learning curve — incompetent examination yields no useful information
 - Disposable specula are ideal for cross-contamination prevention but require plastic or paper production
 
-## Surgical Instruments
 
 ## Scalpel
 
@@ -224,7 +222,6 @@ Suture sizes follow the USP scale: 5-0 = 0.1 mm diameter, 4-0 = 0.15 mm, 3-0 = 0
 - Silk is braided, creating crevices that can harbor bacteria — higher infection risk than monofilament
 - Production of synthetic absorbable sutures (Vicryl, PDS) requires polymer chemistry capability unavailable at early bootstrap stages
 
-## Sterilization
 
 ## Autoclave (Steam Sterilization)
 
@@ -290,7 +287,6 @@ Silk suture is produced by degumming Bombyx mori cocoon silk (removing sericin w
 
 Linen (flax fiber) was historically used before silk became widely available. It is stronger than silk in dry conditions but weakens significantly when wet. Cotton thread, boiled and sterilized, served as the cheapest suture material in resource-limited settings throughout the 19th and early 20th centuries.
 
-## Construction Notes
 
 ## Scalpel Handle Fabrication
 

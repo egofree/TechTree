@@ -15,7 +15,6 @@ Without processed fats, cooking relies on boiling and roasting — methods that 
 
 The extraction progression moves from simple pressing (stone-age, 40-60% yield) to expeller pressing (iron-age, 70-80% yield) to solvent extraction (industrial, 95%+ yield). Rendering animal fat requires only fire and containers — achievable from Year 0.
 
-## Prerequisites
 
 ## Materials
 
@@ -63,7 +62,6 @@ The extraction progression moves from simple pressing (stone-age, 40-60% yield) 
 | Coconut (copra) | 60-70% | 60-75% | 177°C (refined) | Cooking, soap |
 | Palm fruit | 20-25% (fruit), 45-55% (kernel) | 70-85% | 232°C (refined) | Cooking, soap, industrial |
 
-## Process Description
 
 ## Olive Oil Production (Cold Press)
 
@@ -153,7 +151,6 @@ Rendering melts fat from animal tissues by heating. Two methods:
 - Higher temperature (110-130°C) increases fire risk and burn hazard compared to wet rendering's 90-95°C simmer
 - Fat can scorch if not stirred regularly — scorched fat has off-flavors and reduced shelf life
 
-## Quantitative Parameters
 
 ## Pressing Parameters by Oilseed
 

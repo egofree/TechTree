@@ -21,7 +21,6 @@ This article covers fiber properties, layup methods, matrix selection, manufactu
 - **Moisture absorption**: Epoxy and polyester matrices absorb 0.5-2.0% moisture by weight over time. Moisture plasticizes the matrix, reducing Tg by 20-40°C and decreasing stiffness and strength. Composite structures in marine or humid environments must be designed with degraded "wet" properties, not dry-room values.
 - **UV degradation**: Polyester and epoxy resins degrade under UV exposure (surface chalking, microcracking). UV-resistant gel coats or paint systems are required for outdoor exposure.
 
-## Fiber Properties
 
 ## Fiberglass Properties
 
@@ -59,7 +58,6 @@ All values are PAN-based carbon fiber (polyacrylonitrile precursor). Carbon fibe
 
 Kevlar 49 is the standard composite reinforcement grade. Outstanding impact resistance — absorbs 3-5× more energy per unit weight than steel. Flame resistant (chars above 400°C, does not melt or drip). Negative coefficient of thermal expansion in fiber direction (contracts when heated) — useful for dimensional stability in space structures.
 
-## Layup Methods Detail
 
 ## Hand Layup
 
@@ -128,7 +126,6 @@ Epoxy: highest mechanical properties, lowest shrinkage (<2%), best adhesion to f
 
 Vinyl ester: hybrid chemistry — epoxy backbone with unsaturated ester end-groups. Combines epoxy's chemical resistance with polyester's room-temperature MEKP cure. Best choice for corrosion-resistant tanks, pipes, and chemical equipment. Cost: 2× polyester, 0.5× epoxy.
 
-## Fiberglass (Glass Fiber Reinforced Polymer)
 
 ## Fiber Production
 

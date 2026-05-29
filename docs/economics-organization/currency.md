@@ -44,7 +44,6 @@ The development of currency requires [metals](../metals/index.md) for producing 
 - Minting facility: A secure, controlled space for coin production.
 - Secure storage (vaults): Strong rooms for storing coinage reserves. Thick walls (≥0.5 m stone or 5 cm iron-reinforced wood), locked doors.
 
-## Bill of Materials (BOM)
 
 ## Coin Production (per 1,000 copper coins, ~5 g each)
 
@@ -57,7 +56,6 @@ The development of currency requires [metals](../metals/index.md) for producing 
 | Standardized weights (for calibration) | 1 set (1 g to 500 g) | [Precision Metrology](../measurement/precision-metrology.md) | Reference coins from trusted source |
 | Hammer (1-3 kg) | 1 | [Basic Tools](../foundations/index.md) | Any heavy striking tool |
 
-## Process Description
 
 ## Establishing the Currency Standard
 
@@ -107,7 +105,6 @@ The development of currency requires [metals](../metals/index.md) for producing 
 
 10. **Withdraw and remint debased coins**: Over time, coins in circulation lose weight through wear, clipping, and deliberate debasement. Schedule periodic recoinage: recall worn coins, remelt, and restrike at the standard weight. Charge a minting fee (seigniorage) of 2-5% to fund the operation.
 
-## Quantitative Parameters
 
 ## Coinage Parameters
 

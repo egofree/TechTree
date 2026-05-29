@@ -56,7 +56,6 @@ Materials listed per single hive unit. Quantities vary by hive type.
 | Smoker fuel | 0.5-1 kg per inspection | Dried plant material | Wood chips, burlap, pine needles |
 | Wire (for frame hives) | 2-3 m per frame | [`metals.copper-bronze`](../metals/copper-bronze.md) | Embed in foundation for comb support |
 
-## Process Description
 
 ## Log Hive Beekeeping
 
@@ -307,7 +306,6 @@ The queen is 20-25 mm long (longer than workers at 12-15 mm), with a tapered abd
 - Brood comb wax contains impurities requiring extra purification steps
 - Wax is flammable (flash point ~210°C) — requires temperature control during rendering
 
-## Species-Specific Data
 
 ## Apis mellifera Biological Parameters
 
@@ -350,7 +348,6 @@ The queen is 20-25 mm long (longer than workers at 12-15 mm), with a tapered abd
 | Subtropical | 8-10 months | 15-25 kg | 25-40 kg | Nearly year-round foraging |
 | Tropical | Year-round | 10-20 kg | 15-30 kg | *A. mellifera* competes with native *Apis* spp. |
 
-## Seasonal Calendar
 
 ## Spring (Colony Buildup)
 
@@ -376,7 +373,6 @@ Minimal intervention. Bees form a tight cluster around the queen, maintaining 20
 
 **Timing**: Weeks 44-10 (November-February). Colony consumes 15-20 kg honey for heating energy. Winter mortality rate: 10-30% in managed colonies (varroa-related losses account for most).
 
-## Products and Applications
 
 ## Honey
 
@@ -433,7 +429,6 @@ Position hives 50-100 m from crop boundary. Shelter from prevailing wind. Mornin
 3. **Top-bar hive** (Year 5-8): Construct top-bar hives from sawn lumber. Transfer colonies from skeps. Non-destructive inspection enables disease monitoring and swarm prevention. Honey yields double. Begin systematic pollination of adjacent crops. Select calm colonies for breeding.
 4. **Frame hive with extraction** (Year 8-10+): Precision woodworking enables Langstroth-style frame hives. Centrifugal extractor preserves comb. Multiple supers per colony. Maximum yield. Queen rearing and colony multiplication under control. Pollination contracts for agriculture. Full product range (honey, wax, propolis) at commercial scale.
 
-## Safety
 
 ## Bee Stings
 

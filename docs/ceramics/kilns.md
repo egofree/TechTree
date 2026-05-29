@@ -13,7 +13,6 @@ Kilns are the controlled high-temperature chambers that enable ceramics, metallu
 
 This document covers the design and construction of kilns from the simplest earth-covered pit to industrial tunnel kilns. For firing protocols (temperature schedules, atmosphere control, pyrometry), see [Kiln Firing Protocols](./kiln-firing.md). For clay preparation and forming, see [Pottery & Clay Products](./pottery.md).
 
-## Prerequisites
 
 ## Materials
 
@@ -56,7 +55,6 @@ This document covers the design and construction of kilns from the simplest eart
 | Refractory mortar (fireclay + sand) | 100-300 kg | [Pottery](pottery.md) | Dry-laid brick (less airtight) |
 | Chimney brick | 100-300 bricks | [Pottery](pottery.md) | Steel pipe (shorter life) |
 
-## Process Description
 
 ## Scove Kiln (Simplest — No Construction Required)
 
@@ -459,7 +457,6 @@ The tunnel kiln is a long horizontal tunnel (20-100+ m) where ware travels on ki
 - Start-up and shutdown takes 24-48 hours — thermal shock to refractory lining limits how quickly the kiln can be brought to temperature
 - Kiln car sand seals wear and leak — loss of seal allows cold air infiltration, causing uneven firing and excess fuel use. Seal maintenance is ongoing
 
-## Quantitative Parameters
 
 ## Kiln Type Comparison
 
@@ -496,7 +493,6 @@ Wall thickness determines steady-state heat loss. For insulating firebrick (ther
 
 Use composite wall: dense firebrick hot-face (2-3 courses, 65 mm each) for structural strength, backed by insulating firebrick (2-4 courses). Ceramic fiber blanket layer (25-50 mm) between insulating brick and steel shell further cuts losses by 15-25%.
 
-## Scaling Notes
 
 ## From Scove to Production
 
@@ -532,7 +528,6 @@ Actual consumption is 3-7× higher due to kiln wall losses, flue gas losses, and
 | Reduction atmosphere too strong (black ware, bloating) | Damper closed too far, insufficient air | Open damper slightly; look for clear flame at spy hole (not heavy smoke); reduce fuel rate |
 | Tunnel kiln temperature drift | Burner malfunction, thermocouple drift, or push rate change | Check and clean burners; verify thermocouple calibration; maintain consistent push interval |
 
-## Safety
 
 ## Carbon Monoxide Poisoning
 
@@ -554,7 +549,6 @@ Wood and charcoal stores are fire risks. Keep fuel separated from kilns by minim
 
 Poorly constructed kilns (insufficient wall thickness, missing mortar, thermal cycling damage) can collapse. Inspect kiln structure before each firing campaign — look for cracks >3 mm width, bulging walls, loose bricks, or mortar deterioration. Never lean against or stand on a kiln during firing.
 
-## Quality Control
 
 ## Kiln Performance Testing
 
@@ -574,7 +568,6 @@ Poorly constructed kilns (insufficient wall thickness, missing mortar, thermal c
 - **Post-firing inspection**: Document any new cracks or damage. Measure crack width — cracks >3 mm require repair before next firing.
 - **Annual assessment**: Measure wall thickness at multiple points. Replace firebrick when erosion exceeds 20% of original thickness.
 
-## Variations and Alternatives
 
 ## Kiln Selection Guide by Product
 

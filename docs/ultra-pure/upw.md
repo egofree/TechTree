@@ -12,7 +12,6 @@ Ultra-pure water (UPW) is the single most consumed material in semiconductor fab
 
 Standard water treatment (see [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md)) produces drinking water at <500 mg/L TDS — roughly 3-4 orders of magnitude above semiconductor requirements. UPW production is a multi-stage process chain where each stage targets specific contamination classes: suspended solids → dissolved ions → organic molecules → dissolved gases → bacteria and particles → trace metals.
 
-## Purity Requirements
 
 ## Semiconductor UPW Specifications (SEMI F63)
 
@@ -132,7 +131,6 @@ Modern fabs reclaim 60-80% of used UPW. Reclaimed water is treated and recycled,
 
 **Zero liquid discharge (ZLD)**: In water-scarce regions, reverse osmosis concentrate and other waste streams are evaporated and crystallized to eliminate liquid discharge. Energy-intensive (25-40 kWh/m³ of concentrate) but eliminates wastewater.
 
-## System Sizing
 
 ## Small Fab (1,000 wafers/month, 200mm)
 

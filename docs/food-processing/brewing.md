@@ -12,7 +12,6 @@ Brewing and distilling are the earliest industrial biotechnology. Beer and wine 
 
 For industrial fermentation chemistry (ethanol, acetone, butanol as chemical feedstocks), see [Chemistry: Fermentation](../chemistry/fermentation.md). This document covers the food and beverage side of fermentation.
 
-## Bill of Materials
 
 ## Beer Brewing Materials
 
@@ -43,7 +42,6 @@ For industrial fermentation chemistry (ethanol, acetone, butanol as chemical fee
 | Cooling water | 200-500 L per distillation run | [Water](../water/index.md) | Recirculated with cooling tower |
 | Oak barrels (aging, whiskey) | 1 barrel per 200 L | [Forestry](../plants/index.md) | Stainless steel (unaged spirit) |
 
-## Process Description
 
 ## Beer Brewing
 
@@ -191,7 +189,6 @@ Vinegar (acetic acid 5-8% in water) is produced by aerobic oxidation of ethanol 
 - Traditional Orleans method requires 1-3 months and large barrel inventory — capital-intensive for the throughput
 - Distilled white vinegar production requires a separate distillation step, adding energy cost (5-10 MJ/L)
 
-## Quantitative Parameters
 
 ## Fermentation Yields and Efficiency
 
@@ -263,7 +260,6 @@ Vinegar (acetic acid 5-8% in water) is produced by aerobic oxidation of ethanol 
 - **Fire hazard**: Ethanol vapor is flammable at 3.3-19% concentration in air. Distillation areas must be well-ventilated. No open flames near stills.
 - **CO₂ asphyxiation**: Fermentation produces CO₂ (2 mol per mol glucose). In enclosed spaces, CO₂ accumulates at floor level (density 1.98 kg/m³ vs. air 1.29 kg/m³). Ventilation: minimum 5 air changes per hour for commercial fermentation rooms. CO₂ monitors at floor level mandatory. Evacuate at >5,000 ppm (0.5%).
 
-## Quality Control
 
 ## Quality Control in Brewing
 

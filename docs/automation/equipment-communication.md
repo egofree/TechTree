@@ -29,7 +29,6 @@ A modern semiconductor fab contains hundreds of process tools — etchers, CVD r
 5. **Integrate with MES**: Connect gateway to MES application. Configure event subscriptions, trace data collection, and recipe management workflows
 6. **Validate end-to-end**: Download recipe, start process, collect trace data, verify alarm handling. Integration testing: 1-4 weeks per tool type
 
-## SECS Protocol Family
 
 ## SECS-I (SEMI E4)
 

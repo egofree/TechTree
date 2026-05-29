@@ -15,7 +15,6 @@ Accounting emerges when the volume of economic activity exceeds what can be trac
 The capability depends on [core mathematics](../mathematics/core-mathematics.md) for arithmetic operations (addition, subtraction, multiplication for quantities and values) and on [writing](../knowledge/writing.md) for permanent records that can be reviewed, audited, and referenced over time. Accounting transforms economic activity from a memory-based oral system into a document-based system that scales indefinitely.
 
 
-## Prerequisites
 
 ## Materials
 
@@ -50,7 +49,6 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 | Storage chests/shelves | 2-5 | [Woodworking](../foundations/index.md) | Niche in stone wall (fireproof) |
 
 
-## Process Description
 
 ## Setting Up an Accounting System
 
@@ -119,7 +117,6 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 - Summary reports simplify complex reality — a single net income figure can mask important details
 
 
-## Quantitative Parameters
 
 ## Accounting Precision Requirements
 

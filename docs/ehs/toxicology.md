@@ -41,7 +41,6 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 | Supportive care only (O₂, fluids, monitoring) | Minutes | Variable | Low | Unknown poison, no specific antidote available |
 | Gastric lavage / activated charcoal | Minutes-Hours | Moderate (time-dependent) | Medium (aspiration risk) | Recent oral ingestion (<1 hour) |
 
-## Prerequisites
 
 ## Materials
 
@@ -83,7 +82,6 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 | Sodium thiosulfate | 5-10 g per cyanide emergency | [Chemistry](../chemistry/index.md) | Sodium nitrite + thiosulfate kit (Cyanide Antidote Kit) |
 | Sample collection bottles | 1-5 per assessment | [Glass](../glass/index.md) | Any clean sealed container |
 
-## Process Description
 
 ## Toxic Substance Identification
 
@@ -169,7 +167,6 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 5. **Administer specific antidote if available**: See antidote table in Quantitative Parameters section.
 6. **Supportive care**: Maintain airway, breathing, circulation. Monitor vital signs. Transport to medical facility if available.
 
-## Quantitative Parameters
 
 ## TLV-TWA Values for Common Industrial Chemicals
 
@@ -270,7 +267,6 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 | Cadmium | Urinary cadmium | Urine | Not critical | >5 μg/g creatinine: kidney damage risk |
 | Benzene | Urinary S-phenylmercapturic acid | Urine | End of shift | >25 μg/g creatinine: exposure above acceptable level |
 
-## Variations and Alternatives
 
 ## Toxic Substances by Industrial Sector
 

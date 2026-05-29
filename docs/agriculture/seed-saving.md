@@ -45,7 +45,6 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 - Cool, dark storage location (cellar, underground pit, or cool room)
 - Isolation distances between varieties to prevent cross-pollination (varies by crop: 15-1,500 m)
 
-## Bill of Materials
 
 ## Seed Processing Station (Annual, Multi-Crop)
 
@@ -68,7 +67,6 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 | Water | As needed | [Water Procurement](../water/procurement.md) | — |
 | Counting markers (pebbles or beans) | 100 | On-site | Tally marks on wood |
 
-## Process Description
 
 ## Selection: Choosing Which Plants to Save Seed From
 
@@ -207,7 +205,6 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 - Destructive test (seeds used for germination testing cannot be planted afterward)
 - Environmental conditions during the test (temperature fluctuations, drying out) can produce misleading results
 
-## Quantitative Parameters
 
 ## Seed Viability Period by Species (Proper Storage: 5°C, 40% RH, Dark)
 
@@ -328,7 +325,6 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 - **Physical injury during threshing**: Flails, beating sticks, and winnowing baskets create dust. Wear a cloth mask over nose and mouth during threshing to avoid inhaling grain dust (causes respiratory irritation and can trigger asthma). Use gloves to prevent blisters during prolonged flail use.
 - **Heavy lifting**: Full seed storage containers (50 L clay jar of grain: 30-40 kg). Lift with legs, not back. Use two-person carry for containers above 25 kg. Store containers at waist height when possible to avoid bending and reaching.
 
-## Quality Control
 
 ## Seed Quality Standards
 
@@ -356,7 +352,6 @@ Test seed viability 2-4 weeks before planting season. Do not plant untested seed
 | Beans | 2026 | Most pods, no disease symptoms | 40 | 300 | 13% | Selected for resistance to anthracnose |
 | Tomato | 2026 | Largest fruit, best flavor, early ripening | 25 | 150 | 17% | 3rd year of selection; flavor improving |
 
-## Variations and Alternatives
 
 ## Seed Processing Methods by Crop Type
 

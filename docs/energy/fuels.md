@@ -44,7 +44,6 @@ The bootstrap sequence progresses through fuels in rough order of refinement: wo
 | Monitoring tools | Long stick or iron rod | 1 | Poke into stack to check carbonization progress — charcoal feels crumbly, wood feels firm |
 | Tools for unloading | Shovel, rake, buckets, water | As needed | Quench hot charcoal with water or earth if combustion starts during unloading |
 
-## Solid Fuels
 
 ## Wood
 
@@ -115,7 +114,6 @@ Petroleum distillation yields a spectrum of liquid fuels, each tuned to a boilin
 | Vegetable oil | ~37-40 MJ/kg | ~315°C | — | Modified diesel |
 | Fuel oil (heavy) | ~40-42 MJ/kg | >65°C | — | Boiler |
 
-## Gaseous Fuels
 
 ## Producer Gas / Wood Gas
 

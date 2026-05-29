@@ -13,7 +13,6 @@ Every manufactured part cannot be inspected 100% in volume production — the co
 
 In semiconductor manufacturing, incoming inspection validates raw materials (photoresist, etching gases, silicon wafers), in-process inspection monitors critical steps, and final test verifies functional die. Each stage requires a different sampling strategy with appropriate AQL (Acceptable Quality Level) targets.
 
-## Acceptance Sampling Fundamentals
 
 ## Decision Framework: Choosing a Sampling Plan
 
@@ -194,7 +193,6 @@ MIL-STD-105E defines a dynamic system that adjusts inspection severity based on 
 
 This dynamic switching creates a feedback loop: consistently good suppliers earn reduced inspection (saving time and money), while problematic suppliers face tightened scrutiny (protecting the consumer).
 
-## Inspection Types
 
 ## Incoming Inspection
 
@@ -230,7 +228,6 @@ The last quality gate before product shipment. For semiconductor die:
 
 **Final electrical test (ATE)**: Automated test equipment verifies full specification compliance (speed, power, functionality across temperature range — typically tested at −40°C, +25°C, +85°C or +125°C). 100% of packaged parts.
 
-## Sampling Plan Design
 
 ## Variables Sampling
 
@@ -255,7 +252,6 @@ When a supplier has demonstrated consistent quality over an extended period (20+
 - **Skipping criteria**: 20 consecutive lots accepted, no quality complaints, no process changes at supplier.
 - **Return to normal**: Any skipped-lot failure or supplier quality issue immediately returns to 100% lot inspection.
 
-## Semiconductor-Specific Inspection Standards
 
 ## MIL-STD-883 (Microcircuit Test Methods)
 

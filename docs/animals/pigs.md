@@ -51,7 +51,6 @@ Materials listed per 5-sow operation per year.
 | Farrowing pen materials | 3-5 pens (3-4 m² each) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Portable panels |
 | Electric fencing | 2-3 strands, 3,000-5,000 V | [`energy`](../energy/index.md) | Woven wire, hog panels |
 
-## Process Description
 
 ## Farrowing Management
 
@@ -175,7 +174,6 @@ Materials listed per 5-sow operation per year.
 - Fresh pork is highly perishable — must chill to 4°C within 1 hour
 - Cook pork to 71°C internal temperature — Trichinella risk from undercooked meat
 
-## Quantitative Parameters
 
 ## Growth Performance by System
 

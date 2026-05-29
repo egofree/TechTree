@@ -15,7 +15,6 @@ Core mathematics gives engineers algebra and geometry — tools for static, dete
 
 - [Core Mathematics](core-mathematics.md) — algebra, trigonometry, and coordinate geometry
 
-## Calculus
 
 ## The Concept of a Limit
 
@@ -68,7 +67,6 @@ Engineering problems involve multiple variables simultaneously: temperature depe
 
 **Engineering application**: Temperature distribution in a furnace wall depends on position (x through the wall thickness, y along the wall). The heat flux at any point is proportional to the negative temperature gradient: q = −k∇T. This requires partial derivatives to compute.
 
-## Linear Algebra
 
 ## Vectors
 
@@ -105,7 +103,6 @@ For a matrix A, an eigenvector v satisfies Av = λv, where λ is the eigenvalue.
 - **Stress analysis**: Principal stresses are eigenvalues of the stress tensor. Von Mises stress (yield criterion) is computed from these.
 - **Finite element analysis (FEA)**: The entire method reduces to solving a large system Ax = λx for natural modes or Ax = b for static loads.
 
-## Differential Equations
 
 ## Ordinary Differential Equations (ODEs)
 
@@ -138,7 +135,6 @@ A technique for converting differential equations into algebraic equations. L{f(
 
 **Engineering application**: Control system design. A PID controller's transfer function is Kp + Ki/s + Kd×s. The Laplace transform converts the differential equation of the plant + controller into an algebraic equation that can be analyzed for stability (poles in the left half s-plane = stable).
 
-## Probability & Statistics
 
 ## Descriptive Statistics
 
@@ -180,7 +176,6 @@ Formally test whether observed data is consistent with a hypothesis. Example: Is
 
 **Engineering application**: Compare the yield strength of two heat treatment protocols. If the difference is not statistically significant (p > 0.05), use the cheaper/faster protocol. If significant, use the stronger one for critical applications.
 
-## Numerical Methods
 
 ## Why Numerical Methods?
 

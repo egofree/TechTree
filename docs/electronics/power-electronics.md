@@ -15,7 +15,6 @@ The core principle is high-frequency switching (1 kHz to 1 MHz) of semiconductor
 
 Power electronics depends on [semiconductor devices](semiconductor-devices.md) (switches and diodes), [passive components](passive-components.md) (inductors, capacitors for energy storage and filtering), [PCB fabrication](pcb-fabrication.md) (high-current, thermally-managed circuit boards), and [electrical systems](electrical-systems.md) (power distribution). It enables efficient industrial automation, renewable energy integration, and virtually all modern power management.
 
-## Prerequisites
 
 ## Materials
 - **Power semiconductors**: Diodes, MOSFETs, IGBTs, thyristors (from [Semiconductor Devices](semiconductor-devices.md))
@@ -55,7 +54,6 @@ Power electronics depends on [semiconductor devices](semiconductor-devices.md) (
 | Thermal grease | 2-5 g | [Polymers](../polymers/index.md) | Thermal pad (higher Rth but cleaner) |
 | Inductor core (iron powder, 33 μH) | 1 core | [Passive Components](passive-components.md) | Ferrite + gap (lower loss, tighter tolerance) |
 
-## Process Description
 
 ## Rectifiers (AC → DC)
 
@@ -194,7 +192,6 @@ Efficiency: 90-95% (double conversion always active). Battery runtime: 5-30 minu
 - Battery bank replacement every 3-5 years for VRLA lead-acid types is the largest lifecycle cost — battery replacement typically exceeds the original UPS purchase price over a 15-year system life
 - Battery runtime is inherently limited (5-30 minutes at full load) — a UPS alone cannot sustain operation through extended outages and must be paired with a standby generator for continuous availability
 
-## Quantitative Parameters
 
 ## Converter Topology Comparison
 
@@ -243,7 +240,6 @@ Efficiency: 90-95% (double conversion always active). Battery runtime: 5-30 minu
 | 10-100kW | 95-98% | IGBT Vce(sat), transformer | Conduction + core |
 | 100kW-10MW | 96-99% | Transformer, filter | Magnetic losses |
 
-## Scaling Notes
 
 ## Power Level Scaling
 
@@ -291,7 +287,6 @@ Higher switching frequency shrinks magnetic components but increases switching l
 - **Gate driver hazards**: High-side gate drivers float at the switch node voltage (0 to Vbus). Isolated gate drive circuits use optocouplers or pulse transformers to level-shift. Never probe high-side gate drive circuits with a grounded oscilloscope — use differential probes or isolated oscilloscope channels.
 - **Inductor/transformer safety**: Magnetic components can generate high voltage spikes (V = L × dI/dt) during switching transients. A 1 mH inductor with 10A interrupted in 100 ns produces a 100 kV spike. Clamp inductive kicks with snubber circuits (RCD clamp: fast diode + resistor + capacitor) or TVS (transient voltage suppression) diodes.
 
-## Quality Control
 
 ## Component-Level Tests
 - **MOSFET/IGBT verification**: Measure Rds(on) or Vce(sat) at rated current. Verify breakdown voltage (ramp to Vds(max) or Vces(max), confirm leakage < datasheet limit). Gate threshold check: Vgs(th) within specified range.
@@ -313,7 +308,6 @@ Higher switching frequency shrinks magnetic components but increases switching l
 - **HTOL (High Temperature Operating Life)**: 1000 hours at maximum rated Tj under full electrical stress.
 - **HALT (Highly Accelerated Life Test)**: Temperature + vibration + electrical stress combined. Identify weak points.
 
-## Variations and Alternatives
 
 ## Converter Topology Selection Guide
 

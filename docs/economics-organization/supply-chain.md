@@ -17,7 +17,6 @@ This capability becomes essential when production involves more than 3 sequentia
 At the highest end of the tech tree, semiconductor fabrication requires supply chain coordination across hundreds of specialist inputs: ultra-pure silicon, photolithographic chemicals, specialty gases, precision optics, clean-room equipment, and dozens of other materials sourced from globally distributed producers. This is why supply chain coordination is marked critical — without it, the tree's pinnacle capabilities cannot exist.
 
 
-## Prerequisites
 
 ## Materials
 
@@ -56,7 +55,6 @@ Supply chain coordination is an organizational capability. The "materials" are d
 | Messenger/communication system | 1-5 dedicated messengers or signal stations | [Transport](../transport/index.md) | Semaphore, courier relay |
 
 
-## Process Description
 
 ## Mapping the Supply Chain
 
@@ -156,7 +154,6 @@ Supply chain coordination is an organizational capability. The "materials" are d
 | Strategic stockpiling | Moderate | Very High | High | Very High | Unreliable supply or strategic materials |
 
 
-## Quantitative Parameters
 
 ## Supply Chain Performance Metrics
 

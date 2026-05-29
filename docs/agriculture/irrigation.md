@@ -41,7 +41,6 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 - Cleared and graded land suitable for canal or furrow construction
 - Access to water source with legal/social allocation (water rights, communal scheduling)
 
-## Bill of Materials
 
 ## Gravity Canal System (1 km canal, 50 L/sec capacity)
 
@@ -75,7 +74,6 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 | Emitters (perforated clay plugs) | 2,000-5,000 units | [Ceramics](../ceramics/pottery.md) | Small holes drilled in bamboo |
 | Gravel for bed preparation | 5-10 m³ | River gravel | Sand base |
 
-## Process Description
 
 ## Gravity Canal Construction
 
@@ -151,7 +149,6 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 - Blade-to-casing gap of >5 mm causes 20-40% efficiency loss — regular adjustment needed
 - Limited to lifts of 1-5 m — deeper wells require Persian wheel or bucket chain systems
 
-## Quantitative Parameters
 
 ## Crop Water Requirements by Growth Stage
 
@@ -241,7 +238,6 @@ Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0
 - **Physical injury from water-lifting devices**: Shaduf and scoop wheel mechanisms have moving parts that pinch fingers and strike heads. Keep clothing and hair clear of rotating shafts. Maintain wooden pivots — worn pivots cause sudden drops.
 - **Hypothermia**: Working in flooded fields in cold weather. Water conducts heat 25× faster than air. Limit exposure to cold irrigation water to 2-3 hours maximum. Wear waterproof boots and change wet clothes promptly.
 
-## Quality Control
 
 ## Canal Flow Verification
 
@@ -262,7 +258,6 @@ Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0
 | Distribution uniformity | >75% (ratio of minimum to maximum infiltration) | Measure soil moisture at 5+ points across the field 24 hours after irrigation |
 | Salinity (if applicable) | <4 dS/m in root zone (salt-sensitive crops) | Taste test: salty taste indicates problem; confirm with conductivity meter when available |
 
-## Variations and Alternatives
 
 ## Irrigation Method Selection by Situation
 

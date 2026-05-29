@@ -248,7 +248,6 @@ Building a SEM Tech BMED acid regeneration system requires the following materia
 - Multimeter — for checking stack resistance and electrode continuity
 - Portable conductivity meter — for spot-checking product quality
 
-## Steps
 
 ## Step 1: Fabricate monopolar membranes
 
@@ -376,7 +375,6 @@ At the projected SEM Tech membrane cost of $10-15/m² (including bipolar membran
 - **Hydrogen gas**: Minor hydrogen evolution at the cathode requires ventilation in enclosed installations.
 - **Chemical burns from membrane handling**: Fresh membranes may retain solvent residues. Used membranes contain absorbed acid or base. Handle with appropriate PPE.
 
-## Troubleshooting
 
 ## Low Current Efficiency
 

@@ -34,7 +34,6 @@ This capability covers four purification methods ordered by increasing specifici
 | Heating elements (Nichrome) | 2-10 kW per regeneration heater | [Energy](../energy/index.md) — resistance wire | Gas-fired heaters (less precise temperature control) |
 | Calcium chloride (CaCl₂) | 10-50 kg per rough dryer | [Chemistry](../chemistry/index.md) — limestone + HCl | Not regenerable — discard after saturation |
 
-## Process Description
 
 ## Scrubbing (Bulk Contaminant Removal)
 

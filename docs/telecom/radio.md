@@ -3,10 +3,22 @@
 > **Node ID**: telecom.radio
 > **Domain**: [Telecommunications](./index.md)
 > **Dependencies**: [`energy.electricity`](../energy/electricity.md), [`glass`](../glass/index.md), [`metals`](../metals/index.md), [`telecom.electric-telegraph`](electric-telegraph.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`telecom.submarine-cables`](submarine-cables.md), [`telecom.telephone`](telephone.md)
 > **Timeline**: Years 30-60
 > **Outputs**: radio_communication, wireless_telegraphy, broadcast_capability
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival
+
+### Problem
+
+Wired communication (telegraph, telephone) requires physical infrastructure — poles, wires, and cable-laying across terrain. This limits communication to locations connected by wire, making it impossible to reach ships at sea, aircraft in flight, or remote settlements without enormous infrastructure investment. Radio communication eliminates the wire: electromagnetic waves propagate through free space, carrying information across oceans and over mountains with no physical connection between transmitter and receiver. The challenge is generating, modulating, detecting, and amplifying these waves with the technology available at each stage of the bootstrapping process — from spark-gap transmitters and crystal detectors (requiring only basic electrical components) to vacuum tube transmitters and superheterodyne receivers (requiring glassblowing and vacuum technology).
+
+### Prerequisites
+
+- [Electricity](../energy/electricity.md) — power generation for transmitters and receivers
+- [Electric Telegraph](electric-telegraph.md) — Morse code, keying techniques, and telegraph operating practice
+- [Glass](../glass/index.md) — vacuum tube envelopes and Leyden jar capacitors
+- [Metals](../metals/index.md) — copper wire for coils and antennas, brass for spark gaps, tungsten for tube filaments
+- [Semiconductor materials](../semiconductor/index.md) — mineral crystals for detector diodes (galena, carborundum)
 
 ## Overview
 
@@ -201,9 +213,13 @@ Crystal receiver + low-power spark or tube transmitter (0.1-0.5 kW). Ship-to-sho
 ### See Also
 
 - [Electrical Telegraph Networks](electric-telegraph.md) — Morse code and wire-based telegraph systems
-- [Telephone Systems](telephone.md) — Wire-based voice communication
-- [Electricity](../energy/electricity.md) — Electrical generation and distribution
-- [Glass](../glass/index.md) — Glass for vacuum tube envelopes
+- [Telephone Systems](telephone.md) — wire-based voice communication
+- [Submarine Cables](submarine-cables.md) — undersea cable communication
+- [Electricity](../energy/electricity.md) — electrical generation and distribution
+- [Glass](../glass/index.md) — glass for vacuum tube envelopes and Leyden jars
+- [Semiconductor](../semiconductor/index.md) — crystal detectors and early solid-state devices
+- [Electromechanical Computing](../computing/electromechanical.md) — relay-based switching for telecom networks
+- [Data Storage](../computing/data-storage.md) — magnetic recording for signal logging
+- [Measurement / Electrical Instruments](../measurement/electrical-instruments.md) — galvanometers, oscilloscopes, and signal measurement
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Telecommunications](./index.md) • [All Domains](../index.md)*
+[← Back to Telecom](index.md)

@@ -28,7 +28,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 ## Tantalum (Ta) — Copper Diffusion Barrier
 
-### Properties Relevant to Semiconductor Use
+## Properties Relevant to Semiconductor Use
 
 | Property | Value | Significance |
 |----------|-------|--------------|
@@ -43,7 +43,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 **Phase control is critical**: Tantalum deposits in two crystallographic phases. α-Ta (bcc, stable) has low resistivity (15-25 μΩ·cm) and is ductile. β-Ta (tetragonal, metastable) has high resistivity (180-220 μΩ·cm) and is brittle. Sputtering conditions (substrate temperature, bias voltage, nitrogen partial pressure, seed layer) determine which phase forms. For barrier applications, pure α-Ta or TaN (which is always cubic NaCl structure) is required.
 
-### Sputtering Target Manufacturing
+## Sputtering Target Manufacturing
 
 **Target production pipeline**: Tantalum powder (see [Refractory Metals](refractory-metals.md) for extraction) → electron beam melting or vacuum arc melting into ingot → forging at 800-1000°C → rolling to slab → machining to target geometry → surface finishing → bonding to copper backing plate.
 
@@ -53,7 +53,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 **Target-backing plate bonding**: Diffusion-bond or explosively-clad the tantalum target to an oxygen-free copper (OFC) backing plate (25-40 mm thick). The copper provides thermal conductivity to remove sputtering heat (3-20 kW at the target surface). Bond integrity: shear strength >50 MPa, >95% bonded area (ultrasonic C-scan verification). Indium-based solder bonding (In-3Ag, mp 143°C) is also used for thinner targets — the low melting point avoids thermal stress on the target.
 
-### TaN/Ta Barrier Deposition (PVD)
+## TaN/Ta Barrier Deposition (PVD)
 
 **Copper damascene barrier**: In modern interconnect technology (130 nm node and below), copper replaces aluminum for interconnects due to lower resistivity (1.68 μΩ·cm vs. 2.65 μΩ·cm). But Cu diffuses rapidly through SiO₂ and other dielectrics, creating deep-level traps that destroy transistor function. A barrier/liner layer of TaN/Ta (2-10 nm thick) between the copper and the dielectric prevents this diffusion.
 
@@ -61,7 +61,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 **ALD TaN**: For advanced nodes (sub-22 nm), PVD cannot provide conformal coverage in features with AR >5. ALD TaN uses alternating pulses of TBTDET (tert-butylimidotris(diethylamido)tantalum, Ta(NC(CH₃)₃)(NEt₂)₃) and plasma nitrogen at 250-350°C. Growth rate: 0.5-0.7 Å/cycle. Film properties: resistivity 150-300 μΩ·cm (slightly higher than PVD TaN), density >14 g/cm³, Cu barrier performance equivalent to PVD TaN. Conformality: >95% step coverage in AR 20:1 features.
 
-### Barrier Performance Metrics
+## Barrier Performance Metrics
 
 **Figure of merit**: Time-to-failure in bias-temperature-stress (BTS) test. Apply 1-2 MV/cm electric field at 250-350°C for 30-120 minutes. Monitor leakage current through the dielectric. Failure criterion: leakage increase >2 orders of magnitude (Cu has penetrated to Si). TaN/Ta barrier (5 nm): passes BTS at 350°C for >60 minutes. For comparison: TiN barrier (5 nm) fails at 300°C in <10 minutes. TaN is 10-100× more effective than TiN as a Cu diffusion barrier.
 
@@ -69,7 +69,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 ## Cobalt (Co) — Silicide Contacts and CMP
 
-### Properties
+## Properties
 
 | Property | Value |
 |----------|-------|
@@ -83,7 +83,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 | CoSi₂ Schottky barrier height (n-Si) | 0.64-0.66 eV |
 | Magnetic | Ferromagnetic (Curie temp 1121°C) |
 
-### Ores and Extraction
+## Ores and Extraction
 
 **Cobaltite** (CoAsS) and **skutterudite** (CoAs₃) are the primary cobalt minerals. Cobalt is overwhelmingly produced as a byproduct — 55% from copper mining (DRC Congo, Zambia), 35% from nickel mining (Russia, Australia, Canada), 10% from primary cobalt operations (Morocco). Global production: ~190,000-230,000 tonnes Co per year.
 
@@ -91,7 +91,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 **Purification to semiconductor grade**: Semiconductor-grade cobalt requires 99.99%+ purity with stringent limits on Fe (<5 ppm), Ni (<10 ppm), Cu (<2 ppm), and magnetic impurities. Additional purification by zone refining or electrolytic refining in chloride bath (CoCl₂ + HCl at pH 2-3). Target: 4N-5N purity for sputtering targets and CoSi₂ formation.
 
-### Cobalt Silicide (CoSi₂) Self-Aligned Contacts
+## Cobalt Silicide (CoSi₂) Self-Aligned Contacts
 
 **Why CoSi₂ replaced TiSi₂**: At the 130 nm node, titanium silicide (TiSi₂, C54 phase, 13-18 μΩ·cm) was the standard contact material. Below 130 nm, TiSi₂ fails to nucleate the low-resistance C54 phase on narrow (≤0.2 μm) polysilicon lines — the C49 (high-ρ, 60-80 μΩ·cm) to C54 phase transformation is geometry-dependent and suppressed in narrow lines. Cobalt silicide (CoSi₂) has no such geometry dependence, forms uniformly on features down to 30 nm, and achieves low resistivity (14-18 μΩ·cm) in a single anneal.
 
@@ -101,7 +101,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 **Thermal stability**: CoSi₂ is stable to 900-950°C — compatible with all backend-of-line (BEOL) thermal budgets (maximum 400-450°C for Cu damascene). No agglomeration or morphological degradation through multiple thermal cycles.
 
-### Cobalt CMP (Chemical Mechanical Planarization)
+## Cobalt CMP (Chemical Mechanical Planarization)
 
 **Why cobalt replaced copper for contact polish**: At sub-14 nm nodes, the contact plug transitions from tungsten (W) to cobalt (Co). Co has lower resistivity than W (6.2 vs. 5.6 μΩ·cm — comparable, but Co fills smaller features better by CVD) and provides a direct Co-to-CoSi₂ contact interface without an adhesion layer. After electroplating Co into contact vias, the overburden must be removed by CMP without dishing or erosion.
 
@@ -113,7 +113,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 ## Indium (In) — Transparent Conductors and Photonics
 
-### Properties
+## Properties
 
 | Property | Value |
 |----------|-------|
@@ -127,7 +127,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 | Mohs hardness | 1.2 — softer than fingernail |
 | CTE | 32.1 × 10⁻⁶/°C |
 
-### Production and Supply
+## Production and Supply
 
 **Source**: Indium is one of the rarest stable elements (crustal abundance ~0.05 ppm). It is never mined as a primary product — it is recovered exclusively as a byproduct of zinc smelting. Sphalerite (ZnS) contains 10-300 ppm In; the indium substitutes for zinc in the crystal lattice. Global production: ~900-1,200 tonnes In per year.
 
@@ -135,7 +135,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 **Supply constraint**: Indium supply is fundamentally limited by zinc production — you cannot produce more indium without producing more zinc. At ~1,000 tonnes/year, indium is 0.001% of zinc production by mass. Price: $200-400/kg for 4N grade, $500-1,000/kg for 5N-6N semiconductor grade. This makes indium one of the most expensive bulk semiconductor materials, and a significant supply-chain risk for display manufacturing.
 
-### ITO (Indium Tin Oxide) — Transparent Conductor
+## ITO (Indium Tin Oxide) — Transparent Conductor
 
 **Composition and properties**: ITO is a solid solution of In₂O₃ doped with SnO₂ (typically 90% In₂O₃ + 10% SnO₂ by weight, or ~10% Sn doping on In sites). The tin dopant donates free electrons to the conduction band, creating an n-type degenerate semiconductor with metallic conductivity. Key properties: resistivity 1-5 × 10⁻⁴ Ω·cm, visible light transmission >85% (for 100-200 nm film), bandgap 3.5-4.3 eV (absorbs UV, transmits visible). No other transparent conductor matches ITO's combination of low resistivity and high optical transmission.
 
@@ -147,7 +147,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 **Applications**: (1) LCD/LED display electrodes: ITO on glass for transparent pixel electrodes — every pixel in every display requires ITO. (2) Touch sensors: ITO on PET film for capacitive touch panels (smartphones, tablets). (3) Thin-film solar cells: ITO transparent front contact on CIGS (CuInGaSe₂) and perovskite solar cells. (4) EMI shielding: ITO-coated windows and enclosures for electromagnetic interference attenuation at >10 dB from 30 MHz to 1 GHz while maintaining optical transparency.
 
-### InGaAs (Indium Gallium Arsenide) — High-Speed Photonics
+## InGaAs (Indium Gallium Arsenide) — High-Speed Photonics
 
 **Material system**: InₓGa₁₋ₓAs is a III-V compound semiconductor alloy lattice-matched to InP (indium phosphide) substrates at x = 0.53 (In₀.₅₃Ga₀.₄₇As). The bandgap of lattice-matched InGaAs is 0.74 eV — ideal for detecting 1.3-1.55 μm wavelength photons used in fiber optic telecommunications. Electron mobility: 10,000-12,000 cm²/V·s (6-8× higher than silicon), enabling ultra-fast transistors (fT >300 GHz).
 
@@ -157,7 +157,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 **Photodetector applications**: InGaAs photodiodes are the only practical detectors for 1.3-1.55 μm fiber optic wavelengths (Si and Ge have bandgaps too large for 1.55 μm). PIN photodiodes: InGaAs absorbing layer (1-5 μm thick) between p-InP and n-InP layers. Dark current: <1 nA at -2V. Responsivity: 0.8-1.0 A/W at 1.55 μm. Bandwidth: 10-40 GHz for telecommunications receivers. Avalanche photodiodes (APDs) achieve internal gain of 10-30× for improved receiver sensitivity.
 
-### Indium Bump Bonding for Flip-Chip
+## Indium Bump Bonding for Flip-Chip
 
 **Flip-chip interconnect**: In advanced GPU packaging, the die is flipped face-down onto the organic substrate and connected through an array of solder bumps (5,000-50,000 bumps per die). The bump metallurgy is critical: it must provide reliable electrical and thermal connection, withstand thermal cycling (-40°C to +125°C), and be reworkable.
 
@@ -171,7 +171,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 ## Supply Chain and Critical Dependencies
 
-### Global Production and Prices
+## Global Production and Prices
 
 | Metal | Annual Production | Price Range | Primary Source |
 |-------|------------------|-------------|----------------|
@@ -179,7 +179,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 | Cobalt | 190,000-230,000 t Co | $25-45/kg | DRC (70%), Russia, Australia |
 | Indium | 900-1,200 t In | $200-1,000/kg | China (40%), South Korea, Japan |
 
-### Critical Supply Risks
+## Critical Supply Risks
 
 **Tantalum**: Conflict mineral (DRC). Semiconductor-grade tantalum targets represent <5% of tantalum consumption by volume but >20% by value. Semiconductor fabs maintain 6-12 months of tantalum target inventory as buffer against supply disruptions. Recycling of spent sputtering targets recovers 95%+ of tantalum.
 
@@ -187,7 +187,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 **Indium**: Fundamentally supply-limited by zinc production. ITO for displays consumes 70-80% of indium production. A single large LCD fab (Generation 10.5, glass size 2940 × 3370 mm) can consume 50-100 tonnes of indium per year. ITO recycling from display manufacturing scrap recovers 70-80% of indium. Alternative transparent conductors (silver nanowire, graphene, AZO — aluminum zinc oxide) have been researched for 20+ years but none match ITO performance.
 
-### Recycling and Recovery
+## Recycling and Recovery
 
 **Spent sputtering targets**: Tantalum and ITO targets are used until 50-70% eroded. The remaining material is sent to specialty recyclers who dissolve in HF (Ta) or H₂SO₄ (ITO), recover Ta or In by solvent extraction, and return purified material to target manufacturers. Recovery: >95% for Ta, 85-90% for In. Recycling loop: target → use → reclaim → purify → new target. Cycle time: 3-6 months.
 
@@ -229,7 +229,7 @@ The three metals in this document converge at specific points in GPU fabrication
 | Indium bump non-wetting | Oxide on bonding surface or insufficient bonding force/temperature | Clean with dilute HCl; increase bonding force; verify temperature profile (200-250°C) |
 | High Cu diffusion through barrier | TaN too thin (<2 nm) or phase not stoichiometric | Increase barrier thickness to 3-5 nm; verify N₂:Ar ratio during reactive sputtering |
 
-### See Also
+## See Also
 
 - [Refractory Metals](refractory-metals.md) — tantalum, tungsten, molybdenum extraction and processing
 - [Specialty Semiconductor Metals](specialty-semiconductor.md) — downstream semiconductor metal applications

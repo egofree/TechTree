@@ -1,18 +1,24 @@
 # Thermosetting Polymers
 
 > **Node ID**: polymers.thermosets
-> **Dependencies**: `chemistry`, [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), `machine-tools`
+> **Domain**: [Polymers](./index.md)
+> **Dependencies**: [`chemistry`](../chemistry/index.md), [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`machine-tools`](../machine-tools/index.md)
 > **Enables**: [`chemistry.packaging-testing`](../chemistry/packaging-testing.md), [`electronics.assembly`](../electronics/assembly.md), [`photolithography.resists-masks`](../photolithography/resists-masks.md), [`polymers.composites`](composites.md)
+> **Critical**: No — thermosets are valuable but alternatives (thermoplastics, ceramics, metals) exist for most applications
 
-Process-level reference for thermosetting polymers in the tech tree. Thermosets cross-link irreversibly during cure; they cannot be remelted or reformed. This makes them dimensionally stable, heat-resistant, and chemically durable. Feedstocks come from [Petrochemicals](../chemistry/petroleum-alternatives.md).
-
-## Overview
+## Problem
 
 Thermosetting polymers are plastics that undergo an irreversible chemical reaction (cross-linking) during curing, forming a three-dimensional molecular network. Unlike thermoplastics (which soften when heated and can be reprocessed), thermosets permanently set into their final shape — once cured, they cannot be melted, remolded, or recycled by simple reheating. This irreversible cross-linking is both their defining characteristic and their primary advantage: thermosets resist heat deformation, chemical attack, and creep far better than thermoplastics.
 
-The major thermoset families — phenolic (Bakelite), epoxy, unsaturated polyester, polyurethane, and melamine-formaldehyde — serve distinct roles: phenolics for electrical insulation and heat-resistant components; epoxies for high-performance adhesives, coatings, and composite matrices; polyesters for fiberglass-reinforced structures (boats, tanks, pipes); polyurethanes for foams, elastomers, and coatings; and melamine for decorative laminates and dinnerware. Thermosets account for roughly 15-20% of global plastic production by volume but occupy critical niches where thermoplastics cannot perform.
+The major thermoset families — phenolic (Bakelite), epoxy, unsaturated polyester, polyurethane, and melamine-formaldehyde — serve distinct roles: phenolics for electrical insulation and heat-resistant components; epoxies for high-performance adhesives, coatings, and composite matrices; polyesters for fiberglass-reinforced structures (boats, tanks, pipes); polyurethanes for foams, elastomers, and coatings; and melamine for decorative laminates and dinnerware.
 
-This article covers the chemistry, processing, properties, and applications of each thermoset family, with emphasis on formulations and curing conditions achievable at different technology stages.
+### Prerequisites
+
+- [Chemistry](../chemistry/index.md) — organic synthesis and polymerization fundamentals
+- [Petroleum alternatives](../chemistry/petroleum-alternatives.md) — feedstock chemicals for thermoset resins
+- [Machine tools](../machine-tools/index.md) — molds, presses, and processing equipment
+- [Glass fibers](../glass/fibers.md) — fiberglass reinforcement for polyester composites
+- [Thermoplastics](thermoplastics.md) — complementary polymer processing knowledge
 
 ## Materials and Processes
 
@@ -210,13 +216,24 @@ Ordered by approximate phase availability:
 | Impact resistance | Brittle (rigid cross-linked network) | Tough to brittle (depends on polymer) |
 | Applications | Electrical insulation, adhesives, composites | Consumer products, packaging, engineering parts |
 
+### Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Part blisters or has voids | Trapped air or volatile gases during cure | Degas resin before pouring; increase mold venting; reduce cure temperature ramp rate |
+| Incomplete cure (tacky surface) | Insufficient catalyst, wrong ratio, or low temperature | Verify catalyst ratio; increase cure temperature or time; check resin shelf life |
+| Part cracks during cure | Exotherm too fast (thick section) or thermal shock | Reduce section thickness; use staged cure (ramp temperature slowly); add inert filler to reduce exotherm |
+| Poor adhesion (epoxy bond) | Surface contamination or inadequate surface prep | Clean with solvent; abrade surface; apply primer if specified |
+| Shrinkage and warping | High cure shrinkage or uneven cooling | Use low-shrinkage formulation; add fillers (silica, talc); ensure uniform mold temperature |
+| Phenolic mold sticking | Insufficient mold release or undercured surface | Apply mold release (silicone or wax); increase cure time; verify mold surface condition |
+
 ## See Also
 
-- **[Thermoplastics](thermoplastics.md)**: Reversibly meltable polymers — complementary processing
-- **[Composites](composites.md)**: Thermoset matrices (epoxy, polyester) in fiber-reinforced composites
-- **[Synthetic Polymers](synthetic.md)**: Synthetic elastomers and specialty polymers
-- **[Coatings](../chemistry/coatings.md)**: Thermoset-based paints and protective coatings
-- **[Adhesives](../chemistry/coatings.md)**: Epoxy and phenolic adhesive formulations
-- **[SEM Tech](../chemistry/sem-tech.md)**: PVC/CPVC binder used in SEM Tech membrane manufacturing
+- [Thermoplastics](thermoplastics.md) — reversibly meltable polymers, complementary processing
+- [Composites](composites.md) — thermoset matrices (epoxy, polyester) in fiber-reinforced composites
+- [Synthetic Polymers](synthetic.md) — synthetic elastomers and specialty polymers
+- [Coatings](../chemistry/coatings.md) — thermoset-based paints and protective coatings
+- [Electronics Assembly](../electronics/assembly.md) — epoxy encapsulation and PCB substrates
+- [Photolithography Resists](../photolithography/resists-masks.md) — phenolic-based photoresists
 
 [← Back to Polymers](index.md)

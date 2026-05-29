@@ -8,6 +8,36 @@
 > **Outputs**: bsf_larvae, protein_meal, chicken_feed, fish_feed, frass_fertilizer, compost
 > **Critical**: Yes — closes the nutrient loop by converting waste streams into animal feed protein
 
+## Problem
+
+In a bootstrapping civilization, protein is the limiting nutrient for both humans and livestock. Fish meal (the traditional animal feed protein source) requires ocean fishing fleets. Soybean meal requires large-scale agriculture, oil pressing, and transport. BSF farming converts waste — food scraps, manure, brewery grain, crop residues — into 40-45% protein feed using nothing more than a wooden box and organic waste. The conversion efficiency is extraordinary: 1.4-2.0 kg of wet biowaste produces 1 kg of fresh larvae in 14-18 days. No other protein production system matches this speed and efficiency with zero purchased inputs.
+
+Without BSF farming: no cost-effective animal feed protein without fishing or soybean farming (both require infrastructure far beyond early settlement capability), no closed-loop waste management (organic waste accumulates, attracts vermin, and loses its nutrient value), no high-protein supplement for aquaculture (fish farming depends on protein feed — without BSF or fish meal, farmed fish grow 50-70% slower), no rapid composting pathway (BSF larvae process waste 5-10× faster than traditional composting). Without BSF farming, every scrap of animal feed protein must come from land-intensive grain or labor-intensive wild harvest.
+
+BSF farming closes the loop between waste and food production. Settlement waste → BSF larvae → animal feed → eggs, meat, fish → more waste → more larvae. Each cycle recovers 15-20% of the waste stream's protein content as usable animal feed. Frass (larval excrement) returns nitrogen, phosphorus, and potassium to the soil. A settlement with BSF farming converts a waste disposal problem into a feed production asset.
+
+## Prerequisites
+
+- **Materials**: [Organic waste](../foundations/food-agriculture.md) (food scraps, manure, crop residues — 5-200 kg/day depending on scale), [timber or concrete](../construction/index.md) for bin construction, [corrugated cardboard](../knowledge/writing.md) for ovitraps (egg-laying substrates), [pond liner or clay](../ceramics/index.md) for waterproofing wooden bins, [dry carbon material](../plants/fiber-plants.md) (straw, sawdust, dry leaves) for moisture control in substrate
+- **Tools**: [Handsaw and hammer](../machine-tools/index.md) for bin construction, [thermometer](../measurement/index.md) for substrate temperature monitoring, [screw press or hydraulic press](../machine-tools/index.md) for oil extraction from dried larvae, [screen or tarp](../textiles/fibers.md) for sun-drying larvae, [stone mill or hammer mill](../machine-tools/machining.md) for grinding dried larvae into meal
+- **Knowledge**: BSF life cycle and environmental requirements (temperature, humidity, light), substrate preparation (particle size, moisture content 65-75%), self-harvesting ramp design (30-45° angle, collection channel), population management (colony self-regulation through feed supply)
+- **Infrastructure**: Covered, shaded area for bins (larvae prefer dark, temperatures 25-30°C), drainage for leachate collection, drying area (full sun exposure for sun-drying, or solar dryer), storage for dried product (dry, cool, below 15% moisture, protected from rodents)
+
+## Bill of Materials — Medium-Scale BSF Unit (50 kg waste/day)
+
+| Item | Specification | Quantity | Notes |
+|------|--------------|----------|-------|
+| Rearing bin | Concrete block or timber, 3 m × 1.5 m × 0.6 m, waterproof-lined | 1 unit | Opaque walls (larvae prefer dark); drainage at lowest point |
+| Self-harvesting ramps | Timber or sheet metal, 15-20 cm wide, 30-45° angle | 4-6 ramps | Lead to collection channels (5-8 cm diameter pipe) |
+| Collection buckets | 10-20 L plastic or galvanized steel | 2-4 | Prepupae drop into buckets via collection channels |
+| Ovitraps | Corrugated cardboard strips, 5 × 15 cm | 10-20 strips | Suspended above substrate; replace when egg-laden |
+| Adult breeding enclosure | Fine mesh (1 mm openings), 1 × 1 × 1 m frame | 1 unit | Allows mating in contained space; needs bright light |
+| Thermometer | Dial or digital, 0-50°C range | 1 | Insert into substrate mass; overheating >40°C kills larvae |
+| Substrate (daily input) | Food waste, manure, or mixed organic waste | 50 kg/day | 65-75% moisture; chop to <5 cm particles |
+| Dry carbon material | Straw, sawdust, or dry leaves | 5-10 kg/day | Mix with wet waste to control moisture |
+| Drying screens | Wire mesh on wooden frames, 1 × 2 m | 2-3 frames | For sun-drying harvested prepupae |
+| Storage containers | Sealed buckets or barrels with tight lids | 2-4 | For dried larvae; must be rodent-proof and dry |
+
 ### Overview
 
 Insect farming with Black Soldier Fly (BSF, *Hermetia illucens*) converts organic waste into high-protein animal feed and nutrient-rich fertilizer using minimal land, water, and infrastructure. BSF larvae consume almost any organic matter — food waste, manure, brewery grain, slaughter byproducts — and convert it to body mass at remarkable efficiency: 1 tonne of biowaste yields 150-200 kg of fresh larvae in just 14-18 days.
@@ -161,6 +191,21 @@ BSF larvae outcompete most other insects (including houseflies) for food resourc
 - **Ants**: May raid bins for larvae. Place bin legs in water moats or apply diatomaceous earth barriers.
 - **Predatory birds**: Chickens will eagerly eat prepupae from collection buckets. Cover collection points.
 
+## Troubleshooting — BSF Colony Problems
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Larvae not growing (stunted, small at 14+ days) | Substrate too dry or too wet; temperature below 20°C; poor-quality feed | Adjust moisture to 65-75% (squeeze handful — a few drops should fall); warm bin to 25-30°C; add higher-quality feed (food waste, grain) |
+| Colony die-off (larvae dying en masse) | Overheating (>40°C from metabolic heat in sealed bin); toxic substrate (citrus, pine, pesticides); anaerobic conditions (waterlogged) | Ventilate bin immediately; reduce substrate depth to <15 cm; remove toxic material; improve drainage |
+| Houseflies outnumbering BSF in bin | BSF colony too small to compete; insufficient BSF eggs; substrate too fresh (houseflies prefer fresh waste) | Add more BSF eggs from ovitraps; pre-compost waste 1-2 days before adding to bin (reduces housefly attractiveness); increase BSF larval density |
+| Prepupae not climbing ramps | Ramps at wrong angle (too steep or too flat); ramps not positioned above substrate surface; ramps too smooth for larvae to grip | Set ramps at 30-45° angle; position 5-10 cm above substrate; add texture to ramps (rough timber, wire mesh overlay) |
+| Ants raiding bins for larvae | Bin in contact with ground; no ant barrier | Place bin legs in water-filled cans or moats; apply diatomaceous earth or ash ring around bin base; elevate bin on stands |
+| Adult flies not mating | Insufficient light (need bright sunlight equivalent); enclosure too small; temperature below 25°C | Provide direct sunlight or bright artificial light (>2000 lux); increase enclosure size to minimum 1 m³; warm enclosure to 25-30°C |
+| Fungal growth on substrate | Excessive moisture (>80%); poor drainage; overcrowding | Add dry carbon material (straw, sawdust) to absorb moisture; clear drainage channels; reduce substrate depth |
+| Mites on larvae | Overly dry conditions; overcrowding; poor ventilation | Increase substrate moisture to 70%; reduce larval density; improve bin ventilation; mites are rarely fatal but reduce growth rate |
+| Bad odor from bin | Anaerobic decomposition (waterlogged substrate); overfeeding (waste accumulates faster than larvae consume) | Improve drainage; reduce daily feed input; add dry carbon material; stir substrate gently to aerate |
+| Larvae escaping bin | Substrate too wet (larvae flee flooding); bin walls too low; overcrowding | Reduce moisture to 65-75%; raise bin walls to >50 cm; split colony into additional bins |
+
 ### Bootstrap Sequence
 
 1. **Wild-colonized compost** (Year 0-1): Begin by attracting wild BSF to compost heaps with food waste and manure. Observe life cycle. Collect prepupae by hand from compost pile edges. Feed directly to chickens. No infrastructure needed — BSF naturally colonize suitable organic matter in most climates.
@@ -171,12 +216,17 @@ BSF larvae outcompete most other insects (including houseflies) for food resourc
 
 4. **Industrial-scale waste processing** (Year 5-10+): Large concrete or steel processing units handling community-scale organic waste. Continuous-flow through systems. Mechanical drying (solar dryer or waste-heat dryer). Quality-controlled protein meal production. Full integration with livestock, aquaculture, and agriculture as the primary protein recycling pathway.
 
-### Cross-Domain Links
+## See Also
 
-- **[Aquaculture](./aquaculture.md)** — BSF larvae are an excellent fish feed, replacing wild-caught fish meal
-- **[Soil Management](../agriculture/soil-management.md)** — BSF frass as high-nitrogen fertilizer; BSF bins as a composting method
-- **[Vermiculture](../agriculture/soil-management-vermiculture.md)** — complementary waste processing; BSF pre-processes waste that worms finish
-- **[Food & Agriculture](../foundations/food-agriculture.md)** — agricultural waste streams feed BSF larvae; closing nutrient loops
+- [Aquaculture](aquaculture.md) — BSF larvae as fish feed, replacing wild-caught fish meal
+- [Poultry Farming](poultry.md) — BSF larvae as high-protein chicken and duck feed
+- [Pigs](pigs.md) — BSF larvae as pig feed supplement
+- [Domestication & Husbandry](domestication.md) — livestock feed requirements and protein needs
+- [Soil Management](../agriculture/soil-management.md) — BSF frass as fertilizer; BSF bins as composting method
+- [Vermiculture](../agriculture/soil-management-vermiculture.md) — complementary waste processing; BSF pre-processes waste that worms finish
+- [Food & Agriculture](../foundations/food-agriculture.md) — agricultural waste streams feed BSF larvae; closing nutrient loops
+- [Waste Management](../ehs/index.md) — organic waste processing and sanitation
+- [Chemistry: Oils & Fats](../chemistry/index.md) — BSF oil extraction and processing
 
 ### Safety
 

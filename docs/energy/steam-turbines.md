@@ -8,11 +8,9 @@
 > **Outputs**: turbine_power, electrical_generation, rotary_power
 > **Critical**: Yes — steam turbines are the dominant prime mover for large-scale electricity generation; no practical alternative exists for utility-scale power above 50 MW
 
-### Overview
-
 Steam turbines replace reciprocating engines for power generation by converting the thermal energy of expanding steam directly into continuous rotary motion. No pistons, no crankshaft, no valve gear — just rows of blades spinning in a steam flow. They operate at far higher speeds and efficiencies than any reciprocating steam engine, and they are the reason large-scale electrical generation became practical. A single turbine-generator unit can deliver 50-500+ MW at 30-40% thermal efficiency, dwarfing the 5-15% efficiency and 1000-5000 HP ceiling of triple-expansion engines.
 
-### Impulse Turbines (De Laval)
+## Impulse Turbines (De Laval)
 
 **Principle**: Steam expands entirely through stationary nozzles, converting pressure energy into kinetic energy (high-velocity jet). The jet impinges on bucket-shaped blades on the rotor. All pressure drop occurs at the nozzle — the rotor blades experience only the impulse (momentum transfer) of the jet. No pressure drop across the moving blades; the rotor casing operates at essentially atmospheric pressure.
 
@@ -38,7 +36,7 @@ Steam turbines replace reciprocating engines for power generation by converting 
 - Multi-stage designs require precision-machined blade profiles and nozzle clearances (tolerances ±0.1 mm)
 - No casing pressure seal needed for pure impulse, but multi-stage designs lose this advantage
 
-### Reaction Turbines (Parsons)
+## Reaction Turbines (Parsons)
 
 **Principle**: Steam expands through both stationary guide blades (nozzles) AND rotating blades. The rotating blades act as moving nozzles — pressure drops continuously across both fixed and moving rows. The rotor is pushed both by impulse (velocity change) and reaction (pressure difference across the blade).
 
@@ -65,14 +63,14 @@ Steam turbines replace reciprocating engines for power generation by converting 
 - Thrust bearings must handle significant axial force from pressure differential across rotor discs
 - LP last-row blades (300-1200 mm) are among the longest precision-machined components in manufacturing
 
-### Impulse-Reaction Combination
+## Impulse-Reaction Combination
 
 Modern utility turbines use impulse stages at the HP end and reaction stages in the LP end:
 - **HP impulse stages**: High steam density means partial admission (only some nozzle arcs are open) is efficient — impulse handles this well. Impulse stages are shorter and more robust against erosion from water droplets in the steam.
 - **LP reaction stages**: Steam volume is enormous — full admission across the entire annulus. Reaction blading provides better efficiency at large volume flows and lower pressures.
 - **Transition**: The crossover from impulse to reaction is gradual — intermediate stages often have a mix of characteristics.
 
-### Condenser Systems
+## Condenser Systems
 
 **[Surface condenser](../glossary/surface-condenser.md)** (standard for power generation):
 - Exhaust steam enters a shell-and-tube heat exchanger. Cooling water flows through thousands of tubes (20-30 mm diameter, brass or titanium). Steam condenses on the tube outer surfaces, dripping to a hotwell for recovery as feed water.
@@ -82,7 +80,7 @@ Modern utility turbines use impulse stages at the HP end and reaction stages in 
 
 **Feed water recovery**: Condensed steam is pumped back to the boiler as feed water. This is critical — returning hot, deaerated feed water saves 10-15% on fuel compared to feeding cold raw water.
 
-### Blade Materials
+## Blade Materials
 
 Blades operate under extreme conditions — centrifugal stress, steam erosion, corrosion, and thermal cycling:
 - **HP blades (400-540°C)**: 12-25% chromium martensitic stainless steel. Good creep resistance at temperature. Precipitation-hardening grades (17-4PH) for highest-stress locations.
@@ -90,13 +88,13 @@ Blades operate under extreme conditions — centrifugal stress, steam erosion, c
 - **LP last-row blades**: Precipitation-hardened stainless steel or titanium alloy (Ti-6Al-4V). Titanium preferred for the longest blades (>900 mm) due to its high strength-to-weight ratio — reduces centrifugal stress on the rotor. Titanium also resists water-droplet erosion better than steel.
 - **Erosion protection**: LP blades suffer erosion from water droplets condensing in the expanding steam. Hard-facing (stellite, tungsten carbide) on leading edges extends blade life. Moisture-recovery stages (water extraction slots in the casing) reduce the problem upstream.
 
-### Governor Mechanisms
+## Governor Mechanisms
 
 - **Mechanical-hydraulic governor**: Centrifugal flyballs or flyweights sense turbine speed. Displacement of the flyweights controls a pilot valve, which modulates hydraulic oil pressure to the main steam valve servomotor. Proportional control with adjustable droop (typically 4-5% speed drop from no-load to full-load). Self-contained, reliable, no external power required for basic operation.
 - **Electro-hydraulic governor**: Electronic speed sensor (magnetic pickup on a gear tooth) provides speed signal to an electronic controller, which drives hydraulic servo valves. More precise than mechanical, supports complex control modes (load sharing between multiple turbines, frequency regulation, isochronous operation).
 - **Overspeed trip**: Independent mechanical bolt (emergency trip) mounted on the rotor shaft. At 110-115% of rated speed, centrifugal force flings the bolt outward, tripping a latch that dumps hydraulic oil from the steam valve actuators — valves slam shut under spring force. This is the last line of defense against runaway. Test the overspeed trip regularly by tripping it electrically.
 
-### Power Output Ranges
+## Power Output Ranges
 
 | Size Class | Power Output | Steam Conditions | Application |
 |-----------|-------------|-----------------|-------------|
@@ -105,7 +103,7 @@ Blades operate under extreme conditions — centrifugal stress, steam erosion, c
 | Large utility | 100-500 MW | 100-165 bar, 480-540°C | Baseload generation |
 | Ultra-supercritical | 500-1000+ MW | 250-350 bar, 580-620°C | Most efficient baseload |
 
-### Thermal Efficiency
+## Thermal Efficiency
 
 - **Simple non-condensing**: 15-20% (exhausts to atmosphere, no condenser). Simple but wasteful.
 - **Condensing turbine**: 30-40% (with condenser vacuum). Standard for power generation.
@@ -114,21 +112,24 @@ Blades operate under extreme conditions — centrifugal stress, steam erosion, c
 - **Regenerative feedwater heating**: Bleed steam from intermediate turbine stages to preheat boiler feed water through a series of shell-and-tube heaters. Recovers energy that would otherwise be lost to the condenser. Adds 5-8 percentage points of efficiency.
 - **Combined cycle**: Turbine exhaust heat generates steam for a second (bottoming) turbine. Combined efficiencies reach 55-62%.
 
-### Safety and Hazards
+## Safety and Hazards
 
 - **Overspeed failure**: If the turbine loses its load (generator disconnects) and the governor fails to close the steam valves, the rotor accelerates until centrifugal forces tear the blades from the disc. Blade fragments become lethal projectiles. Prevention: redundant governor systems, tested overspeed trip bolt, regular testing of all protection systems.
 - **Steam leaks**: High-pressure steam (100+ bar, 500+°C) leaks from flanges, valve packing, or casing cracks are invisible and instantly fatal. Infrared thermography for leak detection. Regular inspection of all bolted joints. Never approach a pressurized steam turbine without verifying isolation and depressurization.
 - **Lubricating oil fires**: Turbine bearings are lubricated with large volumes of oil (hundreds of liters). An oil leak onto hot steam piping ignites spontaneously. Oil-fire detection and suppression systems required. Fire-resistant hydraulic fluids available but expensive.
 - **Condenser vacuum failure**: If cooling water flow is lost, vacuum collapses, exhaust pressure rises, and the last LP stages operate in choked, overheated flow. Automatic trip on low vacuum protects the turbine. Never override vacuum trip.
 
-### Cross-References
+## See Also
 
-- **Boilers providing steam**: [steam-power.md](steam-power.md)
-- **Electricity generation from turbines**: [electricity.md](electricity.md)
-- **Graphite for turbine seals/lubricants**: [electric-furnaces.md](electric-furnaces.md)
-- **Metals for blades and casings**: [iron-steel.md](../metals/iron-steel.md)
+- [Steam Power](steam-power.md) — boilers providing steam for turbines
+- [Electricity Generation](electricity.md) — generators and power distribution
+- [Coal](coal.md) — primary fuel for steam turbine plants
+- [Water Turbines](water-turbines.md) — hydraulic turbine comparison
+- [Cooling Systems](cooling.md) — condenser cooling systems
+- [Iron & Steel](../metals/iron-steel.md) — materials for blades and casings
+- [Electric Furnaces](electric-furnaces.md) — graphite for turbine seals and lubricants
 
-### Blade Manufacturing Process
+## Blade Manufacturing Process
 
 **From forging to finished blade**: Turbine blades are among the most precisely manufactured metal components in any industry. The process starts with a forged steel blank (or an investment-cast wax pattern for complex airfoil shapes). The blank is rough-machined to within 0.5 mm of final dimensions, then finish-machined on multi-axis CNC equipment or, in earlier practice, on tracer-controlled milling machines following a master template.
 
@@ -138,7 +139,7 @@ Blades operate under extreme conditions — centrifugal stress, steam erosion, c
 
 **Surface finishing for erosion resistance**: LP blades in particular need protection from water-droplet erosion. Leading edges may be coated with stellite (cobalt-chromium-tungsten alloy) by welding or laser cladding. Alternatively, the blade surface is hardened by shot peening (bombarding with steel or glass shot to create a compressive residual stress layer that resists crack initiation). Titanium blades for the last LP row have natural erosion resistance superior to steel.
 
-### Turbine Stage Design: Impulse vs. Reaction
+## Turbine Stage Design: Impulse vs. Reaction
 
 **Impulse staging**: In a pure impulse stage, all the pressure drop occurs in the stationary nozzles. Steam exits the nozzle at high velocity (500-1200 m/s depending on stage conditions) and impinges on the moving blades. The moving blades experience no pressure drop, only a change in velocity direction. The Curtis (velocity-compounded) stage is used for the first stage in many turbines: one nozzle feeds two rows of moving blades separated by a row of fixed guide blades. This arrangement extracts more energy from a single pressure drop than a single-row impulse stage, allowing a compact first stage that handles the highest energy density steam.
 
@@ -146,7 +147,7 @@ Blades operate under extreme conditions — centrifugal stress, steam erosion, c
 
 **Stage count progression**: A large condensing turbine may have 20-40 stages. The HP end has many short stages with small blade heights (the steam is dense and the volume flow is low). Each successive stage has longer blades and larger flow area as the steam expands. The LP end may have only 2-4 stages but with enormous blade heights (600-1200 mm for the last row). The transition from HP to IP to LP sections is a continuous expansion process, not discrete jumps.
 
-### Condenser System Design
+## Condenser System Design
 
 **Surface condenser construction**: The condenser is a large shell-and-tube heat exchanger positioned directly below the turbine exhaust. The shell is a cylindrical or box-shaped steel vessel rated for full vacuum (external pressure of ~1 bar). Inside, thousands of tubes (20-30 mm OD, 0.5-1.0 mm wall thickness, brass, cupro-nickel, or titanium) carry cooling water. Steam condenses on the outside of the tubes, and the condensate drips to the hotwell at the bottom.
 
@@ -158,7 +159,7 @@ Blades operate under extreme conditions — centrifugal stress, steam erosion, c
 
 **Air ejector system**: Non-condensable gases (air leaking through shaft seals, gases dissolved in feedwater) accumulate in the condenser and degrade vacuum. A two-stage steam jet air ejector is the standard removal method. The first stage pulls the air-steam mixture from the condenser, compresses it, and condenses the steam in an inter-aftercondenser. The second stage compresses the remaining non-condensables to atmospheric pressure for venting. Mechanical vacuum pumps (liquid ring type) are an alternative where motive steam is scarce.
 
-### Governing Systems
+## Governing Systems
 
 **Centrifugal governor to valve actuation chain**: Speed sensing begins with centrifugal flyweights mounted on a governor shaft driven from the main turbine rotor (typically via a worm gear at 1/10 to 1/20 of turbine speed). As turbine speed increases, the flyweights swing outward, lifting a sleeve connected to a pilot valve. The pilot valve modulates hydraulic oil pressure to the main steam admission valve servomotor. This is a proportional control system: speed error produces a proportional valve correction.
 
@@ -166,7 +167,7 @@ Blades operate under extreme conditions — centrifugal stress, steam erosion, c
 
 **Droop setting**: Governor droop is the percentage speed change from no-load to full-load. A 4% droop means the turbine runs 4% faster unloaded than at rated load. Droop is essential for load sharing between parallel turbines: each turbine picks up load in proportion to its droop setting. Lower droop gives faster response but risks hunting (oscillation). Isochronous (0% droop) mode is possible with electronic governors for single-turbine installations.
 
-### Turbine Materials by Section
+## Turbine Materials by Section
 
 **HP blades (inlet temperatures 400-565°C)**: 12% chromium martensitic stainless steel (AISI 422 or similar). The chromium provides oxidation resistance and hardenability. These blades face the highest temperatures and pressures in the turbine. Creep resistance is the critical property: the blade must not slowly elongate under centrifugal stress at operating temperature. For temperatures above 565°C, austenitic stainless steels or nickel-based alloys are required.
 
@@ -174,39 +175,7 @@ Blades operate under extreme conditions — centrifugal stress, steam erosion, c
 
 **LP blades (near-ambient temperature but highest stress)**: The last few rows of LP blades are the longest in the turbine (up to 1200 mm in large units) and spin at full rated speed. Centrifugal stress at the blade root scales with the product of blade mass and the square of rotational speed. Titanium alloy (Ti-6Al-4V) is preferred for blades longer than 900 mm because its density (4430 kg/m³) is roughly half that of steel (7850 kg/m³), halving the centrifugal load for the same blade geometry. Titanium also has excellent resistance to water-droplet erosion, which is severe in the wet-steam environment of the LP exhaust.
 
-### Blade Manufacturing Process
-
-**From forging to finished blade**: Turbine blades are among the most precisely manufactured metal components. The process starts with a forged steel blank (or investment-cast wax pattern for complex shapes). The blank is rough-machined to within 0.5 mm of final dimensions, then finish-machined on multi-axis CNC equipment or tracer-controlled milling machines following a master template.
-
-**Root attachment (fir-tree design)**: The blade root locks into the rotor disc and carries the full centrifugal load. The fir-tree (dovetail) design uses interlocking serrated teeth, typically 3-6 pairs of contact faces, each machined to ±0.01 mm tolerance. The blade slides axially into the disc groove and is locked by a small pin or peened tab.
-
-**Blade profile grinding**: The airfoil section must match the designed profile within ±0.01 mm over its entire length. Deviations cause flow separation, reduced efficiency, and stress concentrations. Surface finish: Ra 0.4-1.6 μm. Each blade is measured against the master profile on a coordinate measuring machine.
-
-**Erosion protection**: LP blade leading edges are coated with stellite (cobalt-chromium-tungsten alloy) by welding or laser cladding. Alternatively, surfaces are shot-peened to create compressive residual stress that resists crack initiation.
-
-### Turbine Stage Design: Impulse vs. Reaction
-
-**Impulse staging**: All pressure drop occurs in stationary nozzles. The Curtis (velocity-compounded) stage uses one nozzle feeding two rows of moving blades separated by fixed guide blades, extracting more energy per disc. Used at the HP end where steam density and energy density are highest.
-
-**Reaction staging (Parsons, 50% reaction)**: Half the pressure drop in fixed blades (stator), half in moving blades (rotor). The rotor blades act as nozzles, creating a reaction force. This produces net axial thrust requiring a thrust bearing. Reaction stages achieve higher peak efficiency but are more sensitive to off-design conditions.
-
-**Stage count**: A large condensing turbine has 20-40 stages. The HP end has many short stages (dense steam, low volume flow). Each successive stage has longer blades as the steam expands. The LP end has 2-4 stages with blade heights of 600-1200 mm.
-
-### Condenser System Design
-
-**Surface condenser**: Large shell-and-tube heat exchanger below the turbine exhaust. Thousands of tubes (20-30 mm OD, brass or titanium) carry cooling water. Steam condenses on tube outer surfaces. Cooling water inlet must be 10-20°C below steam saturation temperature at the desired vacuum.
-
-**Vacuum operation**: Condenser maintains 5-10 kPa absolute pressure (90-95% vacuum). Each 1 kPa reduction in exhaust pressure improves turbine output by roughly 0.5-1% of rated power. The low exhaust pressure increases the pressure ratio across the turbine from roughly 10:1 (atmospheric exhaust) to 100:1 or more.
-
-**Condensate return**: Hot, deaerated water from the hotwell is pumped back to the boiler. Returning hot condensate saves 10-15% on boiler fuel compared to cold makeup water. Conductivity monitoring detects cooling water tube leaks.
-
-**Air ejector system**: Non-condensable gases degrade vacuum. A two-stage steam jet air ejector pulls the air-steam mixture, condenses the steam, and vents non-condensables to atmosphere. Mechanical vacuum pumps (liquid ring type) are an alternative.
-
-### Governing Systems
-
-**Centrifugal governor to hydraulic servo**: Flyweights sense speed, modulating a pilot valve that controls hydraulic oil pressure to the main steam admission valve servomotor. For electrical generation, speed must stay within ±0.1% for correct frequency (50.00 ± 0.05 Hz). Electro-hydraulic governors with electronic PID controllers achieve this precision.
-
-**Droop setting**: Governor droop is the percentage speed change from no-load to full-load. A 4% droop means the turbine runs 4% faster unloaded. Droop is essential for load sharing between parallel turbines. Lower droop gives faster response but risks hunting (oscillation).
+## Auxiliary Systems
 
 **Overspeed trip**: An independent mechanical bolt mounted on the rotor shaft. At 110-115% of rated speed, centrifugal force flings the bolt outward, tripping a latch that dumps hydraulic oil from the steam valve actuators. Valves slam shut under spring force. This is the last line of defense against runaway. Test the overspeed trip regularly.
 
@@ -218,7 +187,7 @@ Blades operate under extreme conditions — centrifugal stress, steam erosion, c
 
 **Thermal efficiency summary**: Non-condensing turbine (exhaust to atmosphere): 15-20%. Condensing turbine with vacuum: 30-40%.
 
-### Limitations
+## Limitations
 
 - **Water quality requirements**: Boiler feedwater must be highly purified (conductivity <0.2 µS/cm). Dissolved oxygen, silica, and dissolved solids cause corrosion and scale. Extensive water treatment plant required.
 - **Start-up time**: Large steam turbines require 4-8 hours from cold start to full load due to thermal expansion constraints. Rapid start-up causes differential expansion and blade rubbing.
@@ -227,15 +196,4 @@ Blades operate under extreme conditions — centrifugal stress, steam erosion, c
 - **High capital cost**: Steam turbine plants require boiler, turbine, condenser, feedwater system, and cooling system — complex integrated plant with high upfront investment.
 - **Minimum efficient size**: Steam turbines become cost-effective above ~5 MW. Below this, reciprocating steam engines or internal combustion engines are more economical.
 
-### See Also
-
-- [Steam Power](steam-power.md) — Boiler design and steam generation
-- [Coal](coal.md) — Primary fuel for steam turbine plants
-- [Water Turbines](water-turbines.md) — Hydraulic turbine comparison
-- [Electricity Generation](electricity.md) — Generators and power distribution
-- [Cooling Systems](cooling.md) — Condenser cooling systems
-- [Iron & Steel](../metals/iron-steel.md) — Materials for turbine construction
-
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+[← Back to Energy](index.md)

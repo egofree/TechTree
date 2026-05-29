@@ -8,11 +8,18 @@
 > **Outputs**: dyed_cloth
 > **Critical**: No
 
-### Overview
+## Problem
 
 Dyeing transforms undyed cloth and yarn into colored textiles using natural pigments extracted from plants, minerals, and insects. Color-fast results depend on proper mordanting (fixing dye to fiber), the right dye plants for the target hue, and careful control of bath temperature, pH, and duration. Protein fibers (wool, silk) take dye far more readily than cellulose fibers (linen, cotton) — a critical distinction that shapes the entire dyeing workflow.
 
-### Mordant Preparation
+### Prerequisites
+
+- [Chemistry](../chemistry/index.md) — mordant chemistry, pH control, and extraction
+- [Textiles / Fibers](fibers.md) — fiber preparation and properties
+- [Plants / Dye Plants](../plants/dye-plants.md) — plant sources for dye pigments
+- [Ceramics / Lime](../ceramics/lime.md) — calcium compounds for mordanting
+
+## Mordant Preparation
 
 Mordants are chemical intermediaries that bond dye molecules to fiber. Without a mordant, most natural dyes wash out within a few laundering cycles.
 
@@ -222,6 +229,24 @@ Quantifying dye permanence allows consistent quality control across batches:
 
 **Rub fastness (crocking)**: Mount the dyed sample on a flat surface. Rub with a standard white cotton cloth under controlled pressure (9 N, 10 strokes). Assess the degree of color transfer to the white cloth on a 1-5 grey scale. Wet and dry tests are both performed. Acceptable: Grade 4 dry, Grade 3 wet. Poor rub fastness indicates insufficient mordanting or incompletely fixed dye.
 
----
+## Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Dye washes out after first laundering | Insufficient mordanting or wrong mordant for fiber | Increase alum to 15-20% of fiber weight; add tannin pre-mordant for cotton/linen; verify bath temperature 60-80°C |
+| Uneven color (patchy) | Fiber not properly scoured or dye bath too concentrated | Scour fiber thoroughly before dyeing; dilute dye bath; ensure even temperature distribution |
+| Color too pale | Not enough dye material or bath exhausted | Increase dye plant material (target 50-100% WOF); simmer longer; extract dye in multiple batches |
+| Fiber damaged (brittle wool) | Iron mordant overdose or bath too hot | Reduce iron to <5% of fiber weight; keep protein fiber baths below 90°C; use alum instead |
+| Brown spots on dyed cloth | Iron contamination from pot or water | Use stainless steel or enamel dye pot; test water for iron; add a chelating agent (citric acid) |
+| Color shifts after drying | pH-sensitive dye reacting to rinse water | Use neutral pH rinse water; add a vinegar rinse for acid-sensitive dyes; dry in shade |
+
+## See Also
+
+- [Fibers](fibers.md) — fiber preparation, scouring, and properties
+- [Weaving](weaving.md) — weaving dyed yarn into cloth
+- [Dye Plants](../plants/dye-plants.md) — plant sources for natural pigments
+- [Chemistry](../chemistry/index.md) — mordant chemistry and pH control
+- [Coatings](../chemistry/coatings.md) — related pigment and coating chemistry
+- [Finishing](finishing.md) — post-dye textile finishing processes
+
+[← Back to Textiles](index.md)

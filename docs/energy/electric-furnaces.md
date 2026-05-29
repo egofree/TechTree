@@ -204,14 +204,6 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 
 **Tap-to-tap cycle**: A complete heat cycle runs 45-90 minutes. Breakdown: charging (5-10 min), melting (20-40 min at full power), refining (5-15 min), tapping (3-5 min). Productivity: 20-30 heats per day.
 
-## Submerged Arc Furnace Detail
-
-**Shell and lining**: The SAF shell is a large-diameter (3-12 m), shallow steel cylinder lined with carbon blocks or rammed carbon. The carbon lining withstands the reducing environment and temperatures above 1800°C that would destroy MgO or Al₂O₃ refractories. Lining life: 2-5 years for sidewalls, 10+ years for the hearth.
-
-**Söderberg self-baking electrodes**: A steel casing (1-2 mm thick) is continuously filled with paste of calcined anthracite, coal tar pitch, and petroleum coke. As the electrode descends through the furnace roof, heat bakes the paste into solid carbon in place. Diameter: 600-1500 mm. Electrode consumption: 3-5 kg/MWh of electrical input for ferroalloy production. This avoids the expensive separate graphitization step required for prebaked electrodes.
-
-**Electrical system**: Three-phase AC at 50-60 Hz, with 1-3 electrodes. Furnace transformer secondary: 100-250 V, 20-150 kA. Power factor is low (0.65-0.85); capacitor banks required for correction.
-
 ## Resistance Heating Elements in Detail
 
 **[Nichrome 80/20](../glossary/nichrome-8020.md)** (80% nickel, 20% chromium): Workhorse for furnaces up to 1150°C. Forms a thin Cr₂O₃ scale protecting the alloy from further oxidation. Ductile when new, easily wound into coils. Resistivity: 1.08 Ω·mm²/m at 20°C. Life at 1100°C in air: 5,000-20,000 hours.
@@ -221,10 +213,6 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 **Molybdenum disilicide (MoSi₂)**: Operates to 1700-1800°C in oxidizing atmospheres. At high temperature, silicon oxidizes to form a viscous SiO₂ glass layer that self-heals cracks. Brittle at all temperatures, requiring careful mounting.
 
 **Silicon carbide (SiC)**: Rod elements operating to 1600°C. Non-metallic. Resistance increases with age, requiring periodic voltage adjustment. Service life: 10,000+ hours at 1400°C.
-
-## Induction Heating
-
-**Skin depth formula**: δ = 5030 × √(ρ / (μ × f)) mm.
 
 ## Limitations
 

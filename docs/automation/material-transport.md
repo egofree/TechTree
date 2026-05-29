@@ -72,7 +72,7 @@ The FOUP is the standardized wafer carrier for 300 mm fabs, defined by SEMI E1.9
 - **Temperature**: Store and transport between 18-28°C. Temperature cycling causes condensation inside sealed FOUP, contaminating wafers.
 
 
-## Design and Operation
+## AGV Design and Operation
 
 AGVs are self-navigating vehicles that transport FOUPs along the fab floor between stockers, tools, and interbay transfer stations.
 
@@ -118,7 +118,7 @@ AGVs are self-navigating vehicles that transport FOUPs along the fab floor betwe
 - Navigation errors from floor contamination (metal chips, liquid spills interfere with tape sensors)
 
 
-## Design and Operation
+## OHT Design and Operation
 
 OHT vehicles run on ceiling-mounted rails, providing FOUP transport without consuming floor space. OHT is the dominant transport system in 300 mm fabs.
 

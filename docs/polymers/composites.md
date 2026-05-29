@@ -186,7 +186,7 @@ Surface treatment and sizing applied before winding.
 Petroleum/coal tar pitch melt-spun, stabilized and carbonized. Lower cost,
 less common for high-performance grades.
 
-## Properties and Applications
+## Carbon Fiber Properties and Applications
 
 5x stronger than steel at roughly 1/4 the weight. Excellent fatigue resistance.
 Applications: aerospace frames, lightweight structural components, sporting

@@ -36,18 +36,6 @@ The transition from industrial-grade (95-99.5%, or 2-3N purity) to electronic-gr
 
 The foundational technique for electronic-grade chemical production. Unlike conventional distillation (which boils the liquid, aerosolizing impurities that contaminate the distillate), sub-boiling distillation operates below the boiling point using infrared radiation or heated surfaces.
 
-**Strengths**:
-- Removes 99.99%+ of metallic impurities — single pass produces 6-7N purity from 3N feedstock
-- No aerosol formation prevents non-volatile impurity carryover
-- Applicable to wide range of acids: HF, HNO₃, HCl, H₂SO₄, CH₃COOH
-
-**Weaknesses**:
-- Low throughput: 50-500 mL/hr per unit — production scale requires massive parallel arrays
-- Requires PTFE or quartz equipment (borosilicate glass leaches Na, K, Ca)
-- Temperature control critical for H₂O₂ (decomposes above 70°C)
-
-## Isothermal Distillation
-
 **Principle**: A heated surface (quartz or PTFE) creates a thin film of evaporating liquid at 5-15°C below the normal boiling point. Vapor condenses on a cooled surface without entraining non-volatile impurities (metals, particulates). The gentle evaporation prevents aerosol formation and bumping.
 
 **Equipment**:
@@ -56,11 +44,15 @@ The foundational technique for electronic-grade chemical production. Unlike conv
 - Condenser: Quartz or PTFE — continuous slope prevents reflux contamination
 - Collection vessel: PFA or quartz, sealed from atmosphere
 
-**Performance**: Removes 99.99%+ of metallic impurities. Starting with 3N ACS reagent-grade material, a single sub-boiling pass produces 6-7N purity. Two passes achieve 8-9N.
+**Strengths**:
+- Removes 99.99%+ of metallic impurities — single pass produces 6-7N purity from 3N feedstock; two passes achieve 8-9N
+- No aerosol formation prevents non-volatile impurity carryover
+- Applicable to wide range of acids and reagents: HF, HNO₃, HCl, H₂SO₄, CH₃COOH, NH₄OH, H₂O₂
 
-**Throughput**: Low — typically 50-500 mL/hr for a single unit. Production-scale sub-boiling systems use multiple parallel units. A 10 L/day production system requires 20-40 sub-boiling stills.
-
-**Applicable chemicals**: Hydrofluoric acid (HF), nitric acid (HNO₃), hydrochloric acid (HCl), sulfuric acid (H₂SO₄), acetic acid (CH₃COOH), ammonium hydroxide (NH₄OH), hydrogen peroxide (H₂O₂).
+**Weaknesses**:
+- Low throughput: 50-500 mL/hr per unit — production scale requires massive parallel arrays (a 10 L/day system requires 20-40 sub-boiling stills)
+- Requires PTFE or quartz equipment (borosilicate glass leaches Na, K, Ca)
+- Temperature control critical for H₂O₂ (decomposes above 70°C)
 
 ## Isothermal Distillation
 

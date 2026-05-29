@@ -42,7 +42,7 @@ ICP-MS is the workhorse instrument for trace metal analysis in ultra-pure materi
 - Sample contamination risk at ppt detection levels requires ISO Class 4 cleanroom preparation
 - Spectral interferences from polyatomic ions require collision/reaction cell technology or mathematical correction
 
-## Principle
+## ICP-MS Principle
 
 1. **Sample introduction**: Liquid sample is nebulized into an aerosol by a pneumatic nebulizer in a spray chamber. Fine droplets (1-3 μm) enter the plasma torch.
 2. **Ionization**: The aerosol enters an argon plasma at 6,000-10,000 K. At this temperature, all elements are atomized and ionized to +1 charge state. The plasma is sustained by RF induction coil at 27 or 40 MHz.
@@ -126,7 +126,7 @@ For chemicals with higher organic content or complex matrices:
 
 Ion chromatography separates and quantifies dissolved ionic species — anions and cations — at sub-ppb concentrations. Essential for monitoring UPW quality and detecting trace ionic contamination in electronic-grade chemicals.
 
-## Principle
+## Ion Chromatography Principle
 
 1. **Eluent**: A dilute alkaline solution (Na₂CO₃/NaHCO₃ for anions, methanesulfonic acid for cations) flows through the system at 0.5-2.0 mL/min.
 2. **Injection**: Sample loop (10-500 μL) injects sample into eluent stream.
@@ -156,7 +156,7 @@ Ion chromatography separates and quantifies dissolved ionic species — anions a
 
 Particles are the leading cause of yield loss in semiconductor manufacturing. Laser particle counters detect and size individual particles suspended in liquids.
 
-## Principle
+## Laser Particle Counting Principle
 
 **Light scattering**: A laser diode (typically 650-780 nm) is focused into the sample stream through a sapphire window. When a particle passes through the beam, it scatters light in all directions. A photodetector collects scattered light at a fixed angle (typically 90°). The pulse amplitude is proportional to particle size.
 

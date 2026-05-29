@@ -352,29 +352,6 @@ Semiconductor processing requires ultra-pure acids (trace metal impurities at pp
 | H₂SO₄ | 98.3% (technical max) | 337°C |
 | HF | 38% | 112°C |
 
-## Semiconductor-Grade Acid Production
-
-Semiconductor processing requires ultra-pure acids (trace metal impurities at ppb — parts per billion — levels). Standard industrial acids contain Fe, Cu, Pb, As at ppm levels — unsuitable for wafer processing.
-
-**Purification methods**:
-- **Distillation**: Fractional distillation in quartz or PTFE equipment removes most metal contaminants. H₂SO₄ boils at 337°C at atmospheric pressure but decomposes near its boiling point; distilled under reduced pressure at lower temperatures to avoid decomposition. Multi-pass distillation achieves <1 ppb metal content.
-- **Sub-boiling distillation**: Heat acid below its boiling point in a PTFE or quartz still. Only the purest vapor fraction condenses on a cooled surface. Slow (days per batch) but achieves ultra-trace purity (<0.1 ppb for most metals). Used for semiconductor-grade acids.
-- **Ion exchange**: Pass acid through chelating resin columns that selectively adsorb metal ions. Effective for HCl, HNO₃, and HF.
-- **Containers**: PTFE (Teflon) bottles for storage and transport. Quartz for distillation. All wetted surfaces must not leach contaminants.
-
-**Grade specifications**: SEMI Grade (semiconductor): <10 ppb each for 30+ trace metals. Trace metal analysis by ICP-MS. Each batch certified with certificate of analysis.
-
-## Historical Development Timeline
-
-1. **Pre-1700 (alchemy)**: "Oil of vitriol" (dilute H₂SO₄) by distilling green vitriol (FeSO₄·7H₂O). "Aqua fortis" (HNO₃) from saltpeter + vitriol. "Spirit of salt" (HCl) from salt + vitriol.
-2. **1746**: Joshua Ward's lead chamber process — first industrial H₂SO₄.
-3. **1791**: Leblanc process drives massive H₂SO₄ demand.
-4. **1831**: Peregrine Phillips patents contact process (Pt catalyst). Not commercially viable until V₂O₅ catalyst (1920s).
-5. **1900s**: Haber-Bosch ammonia → Ostwald nitric acid.
-6. **1930s**: Fluorite mining enables HF production → aluminum industry, petroleum alkylation, semiconductor etching.
-7. **1960s**: Semiconductor-grade acid purification begins. Sub-boiling distillation, PTFE containers, ppb trace metal specifications.
-8. **Present**: Global H₂SO₄ production ~250 million tonnes/year (largest-volume chemical).
-
 ## See Also
 
 - [Alkalis](alkalis.md) — complementary acid-base chemistry (NaOH, Na₂CO₃ production)

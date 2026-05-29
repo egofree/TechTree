@@ -65,7 +65,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 **Minimum barrier thickness**: Theoretically, 0.5-1.0 nm of continuous TaN blocks Cu diffusion. Practically, 2-3 nm is the minimum for reliable coverage over trench bottom corners and via sidewall roughness. At sub-7 nm nodes, the barrier/liner consumes 20-30% of the via cross-section, dramatically increasing via resistance — this is the primary driver for cobalt contact and ruthium liner research.
 
 
-## Properties
+## Tantalum Properties
 
 | Property | Value |
 |----------|-------|
@@ -108,7 +108,7 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 **Defect control**: Co CMP scratches are a critical yield limiter at sub-10 nm nodes. Scratches in the Co contact surface propagate through subsequent dielectric layers, causing interlayer shorts. Slurry filtration (0.1-0.2 μm absolute filters), in-situ pad conditioning with diamond disk (100-200 grit, 5-10 N downforce), and post-CMP cleaning (brush scrubber with dilute citric acid + megasonic DI water) reduce scratch density to <0.01 scratches/cm².
 
 
-## Properties
+## Cobalt Properties
 
 | Property | Value |
 |----------|-------|

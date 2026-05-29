@@ -70,7 +70,7 @@ Atmospheric residue (bp >350°C) cannot be further distilled at atmospheric pres
 
 **Vacuum system**: Multi-stage steam ejectors (3-4 stages with intercondensers). First stage pulls to ~100 mmHg, second to ~25 mmHg, third and fourth to 5-15 mmHg. Steam consumption: 5-15 kg steam per kg of non-condensable gas removed. Alternative: liquid ring vacuum pumps for smaller units.
 
-## Products
+## Vacuum Distillation Products
 
 | Fraction | Temperature Range (equiv. at 1 atm) | Yield from residue | Primary Use |
 |----------|--------------------------------------|---------------------|-------------|
@@ -131,7 +131,7 @@ Zeolite Y (synthetic faujasite, Na₅₆[(AlO₂)₅₆(SiO₂)₁₃₆]·250H�
 
 A catalytic process that converts heavy feedstocks (vacuum gas oil, heavy gas oil, atmospheric residue) into high-quality middle distillates (diesel, jet fuel) and naphtha in the presence of hydrogen. Complements FCC: where FCC maximizes gasoline, hydrocracking maximizes diesel and jet fuel.
 
-## Process Conditions
+## Hydrocracking Process Conditions
 
 | Parameter | Value |
 |-----------|-------|
@@ -181,7 +181,7 @@ High hydrogen consumption (150-400 Nm³/tonne) requires a dedicated hydrogen pro
 
 Converts low-octane heavy naphtha (C₆-C₁₀ paraffins and naphthenes, RON 40-60) into high-octane reformate rich in aromatics (RON 95-105) and produces hydrogen as a valuable byproduct.
 
-## Process Conditions
+## Catalytic Reforming Process Conditions
 
 | Parameter | Value |
 |-----------|-------|
@@ -198,7 +198,7 @@ Converts low-octane heavy naphtha (C₆-C₁₀ paraffins and naphthenes, RON 40
 3. **Isomerization**: n-paraffins → iso-paraffins (modest octane increase, no hydrogen production).
 4. **Hydrocracking** (undesired side reaction): C₇+ → C₃-C₄ gases + C₅-C₆ naphtha. Reduces reformate yield. Favored at higher pressure and temperature.
 
-## Products
+## Catalytic Reforming Products
 
 | Product | Yield | Use |
 |---------|-------|-----|

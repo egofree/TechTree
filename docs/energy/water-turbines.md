@@ -176,30 +176,6 @@ Consider a site with 50 m of available head and a reliable flow of 5 m³/s.
 
 **Annual energy**: If the flow is available 80% of the year (operating 7,000 hours), annual energy production is roughly 2,085 × 7,000 = 14,595 MWh ≈ 14.6 GWh. At a capacity factor of roughly 80%, this is a productive mid-scale installation suitable for powering a small town or industrial facility.
 
-## Pelton Turbine: Bucket Geometry and Performance
-
-**Bucket design**: Each Pelton bucket is a double-hemispherical cup with a central splitter ridge dividing the incoming jet into two equal halves. The splitter ridge must be knife-edge sharp and aligned exactly with the jet centerline. The jet enters through a notch cut in the bucket rim. Bucket width is 3-4 times the jet diameter to fully contain the splashing water.
-
-**Pitch diameter and jet ratio**: The runner pitch diameter (where the jet strikes) is typically 10-20 times the jet diameter. This ratio (D/d) is the jet ratio. Small jet ratios (< 10) mean fewer buckets in the jet path, reducing efficiency. Number of buckets: 15-30, spaced so one is always fully in the jet.
-
-**Speed ratio**: φ = π × D × n / (60 × √(2gH)) ≈ 0.46 for maximum efficiency. The runner moves at roughly half the jet speed, because maximum power transfer occurs when water exits the bucket with near-zero ground-relative velocity.
-
-**Efficiency**: Peak 90% for well-designed units. The efficiency curve is flat between 30-100% of rated flow with needle-nozzle regulation, because jet velocity stays constant while only jet diameter changes.
-
-**Head range**: Standard for high-head sites from 200 m to 2000 m. Jet velocity at 200 m: ~63 m/s; at 1000 m: ~140 m/s. These velocities demand precise bucket profiles and robust construction.
-
-## Francis Turbine: Runner Design and Specific Speed
-
-**Runner geometry**: 12-20 curved blades between an upper crown and lower band (shroud). Water enters radially at the outer diameter and exits axially at the inner diameter. Blades are three-dimensionally twisted: inlet nearly radial, outlet nearly axial. Blade profiles must be accurate within 1-2 mm for good efficiency.
-
-**Adjustable guide vanes**: 12-24 pivoting vanes linked to a single servomotor. They control flow rate and direct water onto the runner blades at the optimal angle for each operating point.
-
-**Specific speed (Ns = n√P/H^(5/4))**: Francis spans Ns = 60-300. Low Ns (60-120) means narrow runners with long blades for high heads (100-300 m). High Ns (200-300) means wide runners with shorter blades for lower heads (30-80 m).
-
-**Draft tube energy recovery**: A carefully shaped diffuser decelerates water leaving the runner, converting kinetic energy into pressure. A well-designed draft tube recovers 60-80% of exit kinetic energy. Tube flares from runner exit diameter to 2-3× that diameter at tailwater, with cone half-angle of 4-8°.
-
-**Efficiency**: 90-95% peak, highest of any hydraulic turbine type. Falls off more steeply at part-load than Pelton or Kaplan because fixed blade angles cannot adapt to changed flow conditions.
-
 ## Kaplan Turbine: Adjustable Blades
 
 **Runner blades**: 4-8 propeller blades mounted on a central hub, each rotating on its own trunnion. An internal linkage (pushrods or hydraulic piston inside the hub) moves all blades in unison. Blade angle: 15-40° relative to the rotation plane. The mechanism must be watertight: oil-filled hubs with rotary shaft seals keep river water out.

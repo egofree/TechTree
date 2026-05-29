@@ -65,7 +65,7 @@ TiN serves as a diffusion barrier for aluminum interconnects (250 nm node and ab
 **Challenge**: TiO₂ crystallizes at relatively low temperatures (>400°C for rutile), and crystalline TiO₂ has higher leakage than amorphous films. Doping with Al₂O₃ or SiO₂ suppresses crystallization to >700°C, maintaining amorphous structure through BEOL thermal budgets.
 
 
-## Properties Relevant to Semiconductor Use
+## Titanium Properties Relevant to Semiconductor Use
 
 | Property | Value | Significance |
 |----------|-------|--------------|
@@ -118,7 +118,7 @@ CVD W films are inherently tensile (0.5-1.5 GPa), which causes wafer bowing and 
 3. **Post-deposition anneal**: Rapid thermal anneal at 600-800°C in N₂/H₂ for 30-60s. Recrystallization and grain growth reduce tensile stress by 30-50%.
 
 
-## Properties Relevant to Semiconductor Use
+## Molybdenum Properties Relevant to Semiconductor Use
 
 | Property | Value | Significance |
 |----------|-------|--------------|
@@ -160,7 +160,7 @@ Bulk Mo production from molybdenite ore (MoS₂) is covered in [Refractory Metal
 **Comparison with Cu-Mo-Cu cladding**: Tri-layer Cu/Mo/Cu laminate (Cu outer, Mo core) provides in-plane thermal conductivity >200 W/m·K with through-thickness CTE of 5-7 ppm/°C. Used for RF power amplifier substrates and lid assemblies for flip-chip BGA packages.
 
 
-## Properties Relevant to Semiconductor Use
+## Copper Properties Relevant to Semiconductor Use
 
 | Property | Value | Significance |
 |----------|-------|--------------|

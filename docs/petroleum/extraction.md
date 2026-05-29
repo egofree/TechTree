@@ -37,11 +37,11 @@ Where oil has migrated to the surface and degraded extensively (bacteria consume
 **In-situ methods**: For deeper oil sands, steam-assisted gravity drainage (SAGD) injects steam through a horizontal well, reducing bitumen viscosity from ~10⁶ cP to ~10 cP at 200-250°C. Mobilized bitumen drains to a lower parallel production well and is pumped to surface. Requires ~2.5-3.5 barrels of steam per barrel of oil recovered.
 
 
-## Principle
+## Cable-Tool Principle
 
 A heavy steel bit (chisel or club shape, 50-200 kg) is repeatedly lifted and dropped onto the rock at the bottom of the borehole. Each impact crushes a few millimeters of rock. Debris (cuttings) is periodically bailed out with a sand pump (a valved tube lowered on a separate cable). The technique is ancient — Chinese brine wells reached 1,000+ m depth using bamboo cables and cast iron bits by the 1800s.
 
-## Rig Components
+## Cable-Tool Rig Components
 
 | Component | Description | Material |
 |-----------|-------------|----------|
@@ -54,7 +54,7 @@ A heavy steel bit (chisel or club shape, 50-200 kg) is repeatedly lifted and dro
 | Casing | Iron or steel pipe 10-15 cm diameter. Driven into hole as drilling progresses to prevent collapse and exclude groundwater | Iron or steel |
 | Power source | Steam engine (5-20 HP) or horse/ox walking in circle (1-3 HP). Engine dramatically increases drilling speed | — |
 
-## Drilling Procedure
+## Cable-Tool Drilling Procedure
 
 1. **Site preparation**: Level ground, erect derrick, install walking beam and power source. Dig starter hole 1-2 m deep, set conductor pipe (large diameter pipe to guide initial drilling).
 2. **Spudding**: Lower drill bit on cable. Walking beam lifts bit 0.5-1.5 m and drops it on each stroke. Stroke rate: 20-60 strokes/minute. Drill at vertical — use plumb bob to check every 10 m.
@@ -63,7 +63,7 @@ A heavy steel bit (chisel or club shape, 50-200 kg) is repeatedly lifted and dro
 5. **Well completion**: When oil-bearing formation is reached (recognized by oil show in bailer samples, gas pressure at wellhead, or drilling rate increase in porous rock), set production casing. Perforate casing at the production zone (shoot perforations with explosive bullets or mechanical perforator). Install wellhead (pipe fittings controlling flow from the well).
 6. **Production**: If reservoir pressure is sufficient (artesian flow), oil flows to surface unassisted. If not, install a downhole pump (sucker rod pump driven by walking beam at surface — the iconic "pumpjack" motion).
 
-## Performance
+## Cable-Tool Performance
 
 | Parameter | Value |
 |-----------|-------|
@@ -78,11 +78,11 @@ A heavy steel bit (chisel or club shape, 50-200 kg) is repeatedly lifted and dro
 Colonel Edwin Drake's 1859 well at Titusville, Pennsylvania reached 21 m using cable-tool drilling and struck oil at ~1,000 liters/day — the first commercial oil well. By 1900, cable-tool rigs had drilled thousands of wells to depths of 500-1,500 m across Pennsylvania, Ohio, Texas, and Romania. The technique remained dominant until rotary drilling surpassed it in the 1920s-1930s.
 
 
-## Principle
+## Rotary Drilling Principle
 
 A rotating drill bit grinds rock at the bottom of the borehole. Continuous circulation of drilling fluid (mud) carries cuttings to the surface, cools the bit, and maintains hydrostatic pressure against formation fluids. Rotary drilling is faster, reaches deeper, and handles all formation types — it replaced cable-tool for virtually all drilling above 500 m depth.
 
-## Rig Components
+## Rotary Rig Components
 
 | Component | Description |
 |-----------|-------------|
@@ -107,7 +107,7 @@ Drilling mud serves four critical functions simultaneously:
 
 **Oil-based mud (OBM)**: Diesel or mineral oil continuous phase + water emulsion (10-30%) + emulsifiers + organophilic clay + barite. Superior wellbore stability in water-sensitive shales (clays that swell on water contact, causing hole collapse). Better lubrication for directional drilling. Higher cost, environmental concerns with disposal.
 
-## Drilling Procedure
+## Rotary Drilling Procedure
 
 1. **Spudding**: Set conductor pipe (large diameter, 30-50 cm, driven or drilled to 10-50 m). Install BOP stack. Rig up mud circulation system.
 2. **Drilling surface hole**: Drill large diameter hole (25-45 cm) to below fresh water aquifers (~100-500 m). Run and cement surface casing. Cement pumped down casing, returns to surface in annulus — isolates aquifers.
@@ -124,7 +124,7 @@ Modern drilling rarely stays vertical. Directional drilling uses a bent sub (ang
 
 **Measurement while drilling (MWD)**: Sensors near the bit transmit directional data (inclination, azimuth) to surface via pressure pulses in the mud column. The driller adjusts trajectory in real-time based on this feedback.
 
-## Performance
+## Rotary Drilling Performance
 
 | Parameter | Value |
 |-----------|-------|

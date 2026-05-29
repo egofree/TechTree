@@ -79,7 +79,9 @@ The oldest and simplest method — requires no permanent construction.
 
 ## Mound Kiln (Collier's Method)
 
-A permanent or semi-permanent kiln structure that significantly improves yield and consistency:
+The traditional method used by professional charcoal burners (colliers) for centuries. Produces large quantities of high-quality charcoal. Two approaches are described below:
+
+**Cylindrical kiln (permanent structure)** — significantly improves yield and consistency:
 
 - **Construction**: Cylindrical stone or clay structure (~1 m tall, ~80 cm diameter) with grate at bottom and opening at top. Walls 10-15 cm thick. Firebrick lining for durability. Iron or stone grate with 2-3 cm gaps for air flow.
 - **Loading**: Pack wood tightly from bottom to top through the top opening. Close the top with an iron sheet or stone slab once loaded (leave a small vent).
@@ -89,9 +91,7 @@ A permanent or semi-permanent kiln structure that significantly improves yield a
 - **Yield**: ~30-40% by weight. Can be reused hundreds of times. More consistent quality than pit method.
 - **Cycle time**: 8-24 hours for firing, 12-24 hours cooling.
 
-## Mound Kiln (Collier's Method)
-
-The traditional method used by professional charcoal burners (colliers) for centuries. Produces large quantities of high-quality charcoal.
+**Earth-covered mound (traditional collier's method)** — scalable to very large volumes:
 
 - **Construction**: Build a hemispherical mound of stacked wood, 2-4 m diameter at the base, 1-2 m tall. Central chimney (tripod of stout sticks, 10 cm gap). Wood stacked vertically against the chimney, leaning inward. Largest pieces at center, smallest at edges.
 - **Covering**: Cover the entire mound with a layer of leaves/straw (to prevent earth from falling into gaps between wood), then a thick layer of earth/sod (10-20 cm). Pack firmly. Leave 3-4 vent holes around the base and the central chimney open.
@@ -112,8 +112,6 @@ The traditional method used by professional charcoal burners (colliers) for cent
 - Requires a sealed metal vessel (steel or cast iron) — more complex construction
 - External heat source needed to drive pyrolysis — consumes fuel to make fuel
 - Higher capital cost — retort vessel, condenser, and gas collection system
-
-## Charcoal Briquetting
 
 - **Construction**: Sealed iron or clay chamber with a flue pipe leading to a separate combustion chamber. Wood charge goes in the retort; pyrolysis gases exit through flue and are burned to heat the retort externally.
 - **Process**: Heat retort to 400-600°C. Pyrolysis gases (CO, H₂, CH₄, wood vinegar) are routed to a burner that heats the retort — the process becomes self-sustaining once started. No combustion air touches the charcoal.

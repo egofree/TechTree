@@ -25,6 +25,25 @@ Fuels are the energy carriers that convert stored chemical energy into heat, mot
 
 The bootstrap sequence progresses through fuels in rough order of refinement: wood → charcoal → coal → coke → petroleum fractions → synthetic gases and liquids. Each step increases energy density, burns hotter or cleaner, and enables processes the previous fuel could not sustain. The chain is also a dependency chain: charcoal requires wood pyrolysis knowledge; coke requires coal mining and oven construction; petroleum fractions require drilling and distillation. The bootstrap cannot skip steps — you cannot run a blast furnace on wood any more than you can distill gasoline without first building a still.
 
+## Prerequisites
+
+- **Materials**: [Wood](../glossary/wood.md) (hardwood, seasoned 6-12 months to <20% moisture), [coal](coal.md) (bituminous or anthracite — requires mining), [limestone](../ceramics/lime.md) (flux for coking), [petroleum crude](../chemistry/petroleum-alternatives.md) (requires drilling and pumping), [vegetable oil](../plants/fiber-plants.md) (pressed from oil seeds), [methanol or ethanol](../chemistry/petroleum-alternatives.md) (for biodiesel transesterification)
+- **Tools**: [Axe and saw](../machine-tools/index.md) for wood harvesting, [charcoal kiln or pit](charcoal.md) for pyrolysis, [coke oven](coke.md) (beehive or by-product), [distillation column](../chemistry/petroleum-alternatives.md) for petroleum fractions, [gasifier](./index.md) (for producer gas generation), [press](../machine-tools/index.md) for vegetable oil extraction
+- **Knowledge**: Combustion chemistry (stoichiometric air-fuel ratios, incomplete combustion, CO formation), pyrolysis and carbonization, fractional distillation (boiling point separation), calorimetry (measuring fuel energy content), flash point and auto-ignition temperature
+- **Infrastructure**: Fuel storage (dry, ventilated, separated from ignition sources), transport (carts, barrels, pipelines for liquid/gaseous fuels), ventilation for enclosed combustion spaces, CO detectors for all fuel-burning installations
+
+## Bill of Materials — Charcoal Production (1-tonne batch, earth kiln)
+
+| Item | Specification | Quantity | Notes |
+|------|--------------|----------|-------|
+| Hardwood logs | 20-40 cm diameter, 1-1.5 m long, seasoned | 4-6 tonnes (yield: 20-40% by weight) | Oak, ash, maple preferred; avoid softwoods (low density → fragile charcoal) |
+| Earth kiln site | Level ground, 3-4 m diameter cleared area | 1 site | Clay soil preferred for sealing; away from structures and dry vegetation |
+| Kindling and dry brush | Small branches, straw | 20-30 kg | For initial ignition at center of stack |
+| Covering material | Clay soil, sod, or wet leaves | Sufficient to cover 3-4 m diameter × 1.5 m high stack | Must seal completely — air leaks cause combustion instead of pyrolysis |
+| Vent holes | 8-12 holes at base, 1-2 at top | Poke through covering | Base holes control air intake; top holes allow smoke/tar venting |
+| Monitoring tools | Long stick or iron rod | 1 | Poke into stack to check carbonization progress — charcoal feels crumbly, wood feels firm |
+| Tools for unloading | Shovel, rake, buckets, water | As needed | Quench hot charcoal with water or earth if combustion starts during unloading |
+
 ## Solid Fuels
 
 ### Wood
@@ -168,15 +187,21 @@ The fuel chain is a dependency chain, and each fuel unlocks higher temperatures 
 
 The bootstrap cannot skip steps. Each fuel requires the infrastructure of the previous stage: you need kilns to make charcoal before you can smelt iron; you need iron tools to mine coal before you can make coke; you need coke-fired furnaces before you can reduce silicon.
 
-## Cross-References
+## See Also
 
-- **Charcoal production**: [charcoal.md](charcoal.md)
-- **Coal mining & selection**: [coal.md](coal.md)
-- **Coke production**: [coke.md](coke.md)
-- **Petroleum refining & liquid fuels**: [petroleum-alternatives.md](../chemistry/petroleum-alternatives.md)
-- **Mining infrastructure**: [extraction.md](../mining/extraction.md)
-- **[Steam power](steam-power.md)** (major coal consumer): [steam-power.md](steam-power.md)
-- **Internal combustion engine**: [engine.md](engine.md)
+- [Charcoal Production](charcoal.md) — pyrolysis of wood to charcoal
+- [Coal Mining & Selection](coal.md) — bituminous and anthracite coal
+- [Coke Production](coke.md) — coking ovens and by-products
+- [Steam Power](steam-power.md) — major coal consumer for boilers
+- [Internal Combustion Engine](engine.md) — gasoline, diesel, and gas engines
+- [Petroleum Alternatives](../chemistry/petroleum-alternatives.md) — refining, distillation, synthetic fuels
+- [Mining: Extraction](../mining/extraction.md) — coal and petroleum drilling
+- [Iron & Steel](../metals/iron-steel.md) — smelting fuel requirements
+- [Steelmaking](../metals/steelmaking.md) — coke for blast furnaces
+- [Ceramics: Kiln Firing](../ceramics/kiln-firing.md) — kiln fuel requirements
+- [Glass: Basic](../glass/basic.md) — glass melting fuel requirements
+- [Machine Tools: Casting](../machine-tools/casting.md) — foundry fuel requirements
+- [Transport](../transport/index.md) — fuel for vehicles and railways
 
 ## Safety & Hazards
 
@@ -184,6 +209,21 @@ The bootstrap cannot skip steps. Each fuel requires the infrastructure of the pr
 - **Carbon monoxide (CO)**: Incomplete combustion of any carbon fuel produces CO — odorless, colorless, lethal at 400 ppm sustained concentration. Symptoms: headache (mild), nausea and dizziness (moderate), unconsciousness and death (severe). Never burn fuels in enclosed spaces without ventilation. CO detectors where fuel-burning equipment operates.
 - **Fuel storage**: Store liquid fuels in approved containers away from heat and ignition sources. Gasoline and light fractions have very low flash points — vapors ignite from distant sparks. Store gaseous fuels in pressure-rated cylinders with pressure relief valves. Separate fuel storage from oxidizer storage (never store fuels and oxidizers together).
 - **Wood/coal dust**: Suspended dust at sufficient concentration (>20-60 g/m³ for coal dust) is explosive. Ventilation in fuel storage and handling areas. No smoking, open flames, or spark sources in dusty environments. Wet down coal piles to suppress dust.
+
+## Troubleshooting — Fuel Production and Combustion Problems
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Charcoal is mostly ash (over-burned) | Too much air entered the kiln; burning instead of pyrolysis; opened too late | Seal all cracks in earth covering immediately when smoke appears; reduce vent hole size; monitor color of smoke (gray/white = pyrolysis OK, clear = combustion — seal vents) |
+| Charcoal contains uncarbonized wood centers | Insufficient burn time; kiln too large for fuel load; uneven heat distribution | Extend burn time 2-4 hours; ensure tight stacking with vertical channels for heat flow; add more kindling at center for even ignition |
+| Coal fire keeps going out in boiler | Coal too fine (fines block airflow); wet coal; insufficient draft | Screen coal to remove fines below 10 mm; use dry coal (<8% moisture); check chimney draft and open dampers; increase undergrate air supply |
+| Blast furnace coke too weak (crumbling under burden) | Coke oven temperature too low; insufficient coking time; wrong coal blend | Increase oven temperature to 1000-1100°C; extend coking time to 16-18 hours; test coal blend — need >25% volatile matter for proper coking |
+| Wood gas engine losing power | Tar buildup in gasifier or filters; wet wood (high moisture); gas too hot entering engine | Clean gasifier and replace filter media; use dry wood below 20% moisture; check cooling radiator — gas must be below 40°C before engine intake |
+| Diesel engine knocking on vegetable oil | Oil too viscous (cold); poor atomization; carbon buildup on injectors | Preheat oil to 70-90°C before injection; install secondary fuel filter (5 μm); blend with 20-30% petroleum diesel for cold starts |
+| Gasoline engine flooding (won't start) | Carburetor float stuck; choke left on too long; fuel vapor lock in hot weather | Tap carburetor bowl to free float; turn off choke and crank with throttle wide open; cool fuel line with wet rag to relieve vapor lock |
+| Kerosene lamp smoking | Wick too high; impure kerosene; insufficient air at flame | Trim wick to 5-8 mm above burner; use filtered kerosene; clean burner air vents; do not use diesel or fuel oil in kerosene lamps |
+| Producer gas has low heating value | Too much air (combustion instead of gasification); charcoal bed too shallow; gasifier overheating | Reduce air intake (close primary air valve slightly); increase fuel bed depth to >30 cm; add steam to air blast for water-gas reaction |
+| Fuel oil won't atomize in burner | Oil too viscous (cold); preheater failure; nozzle clogged with sediment | Preheat oil to 80-100°C for heavy fuel oil; clean or replace burner nozzle; filter oil through 100-mesh screen before storage tank |
 
 ## Fuel Energy Density Comparison
 

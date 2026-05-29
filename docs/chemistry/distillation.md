@@ -8,7 +8,7 @@
 > **Outputs**: distillation_capability, fractionated_chemicals
 > **Critical**: Yes — distillation is the most important separation technique in the chemical industry, accounting for 40-60% of capital cost in a typical chemical plant. Petroleum refining, solvent purification, silicon chlorosilane separation, and alcohol concentration all depend on distillation. No chemical industry operates without it.
 
-### Types of Distillation
+## Types of Distillation
 
 **Simple distillation**:
 Single vaporization-condensation step (1 theoretical plate). Heated vessel + condenser. Batch operation. Sufficient for rough separations: water from dissolved salts, alcohol concentration to ~40-50%. No reflux control. Fast setup — a copper pot with a condensing coil suffices. Yield and purity limited by single-stage equilibrium. Used for: water purification, crude alcohol concentration, essential oil steam distillation, solvent recovery from waste streams.
@@ -52,7 +52,7 @@ Add a high-boiling solvent (extractive agent) that selectively alters relative v
 
 **Weaknesses**: Requires a solvent recovery column (additional equipment); extractive agent must be completely free of product contamination; high-boiling solvent increases reboiler energy; solvent losses increase operating cost; not as effective as molecular sieves for small-scale ethanol dehydration.
 
-### Column Internals
+## Column Internals
 
 **Bubble cap trays**:
 Horizontal plates with riser tubes (50-75 mm tall) covered by slotted caps. Vapor rises through risers, bubbles under caps, and passes through slots into liquid flowing across the tray. Each tray provides approximately one theoretical plate (70-85% Murphree efficiency). Advantages: handles wide liquid/vapor flow ratio variations without leaking or flooding. Disadvantages: expensive to fabricate (complex cap geometry), high pressure drop (0.5-1.5 kPa per tray), heavy, traps liquid on shutdown. Used in petroleum refineries since the 1920s — still found in older installations. Tray spacing: 450-600 mm. Typical column: 20-40 bubble cap trays.
@@ -73,7 +73,7 @@ Dumped ceramic or metal elements filling the column volume. Liquid distributes o
 **Structured packing**:
 Corrugated metal sheets arranged in precise geometric modules, stacked vertically. Creates uniform, well-defined channels for vapor-liquid contact. Very low HETP (0.1-0.3 m), very low pressure drop (0.05-0.15 kPa per theoretical plate). Essential for vacuum distillation where pressure drop must be minimized. Examples: Sulzer Mellapak (corrugated sheets at 30° or 45° angle, alternating direction per layer), Koch-Glitsch Flexipac. Expensive per unit volume but saves column height and energy. Installed in pre-formed modules (diameter matches column), stacked on support rings with liquid redistributors every 4-6 m.
 
-### Column Design Fundamentals
+## Column Design Fundamentals
 
 **Minimum reflux ratio**: The lowest L/D (liquid returned to column ÷ distillate drawn off) that achieves the desired separation. Operating below this makes separation impossible regardless of column height. Determined from the intersection of the rectifying operating line with the equilibrium curve on a McCabe-Thiele diagram. Typical operation: 1.2-1.5× minimum reflux ratio. Higher reflux ratio produces purer distillate but costs more energy (reboiler duty is proportional to reflux + product draw).
 
@@ -94,7 +94,7 @@ Corrugated metal sheets arranged in precise geometric modules, stacked verticall
 6. **Leak test**: Pressurize to 0.3-0.5 bar gauge. Soap-test all joints. 30-minute hold with <5% pressure drop.
 7. **Insulation**: 50-100 mm mineral wool with sheet metal cladding. Reduces heat loss, stabilizes temperature gradient, prevents burns.
 
-### Worked Examples
+## Worked Examples
 
 **Example 1: Ethanol-water separation**:
 Feed: 10% ethanol fermented wash at 100°C, 1 atm. Target: 95.6% azeotrope.
@@ -125,7 +125,7 @@ Feed: preheated crude oil (350-380°C from tube-still furnace) enters as partial
 - Pumparounds: liquid side-draws cooled and returned at intermediate heights to remove heat and control vapor load. 2-3 pumparounds typical.
 - Energy: crude furnace consumes ~2% of throughput as fuel. Overall refinery energy: 5-10% of crude input. Heat integration: cold crude preheated by hot product streams in shell-and-tube exchangers (crude preheat train) before entering the furnace — recovers 60-70% of product heat.
 
-### Heat Integration
+## Heat Integration
 
 **Pinch analysis**: Plot composite heating and cooling curves (temperature vs. enthalpy) for all process streams. The pinch point is where hot and cold curves are closest (minimum ΔT). Design heat exchanger network: match hot streams above the pinch with cold streams above the pinch; match cold streams below with cold below. No heat should cross the pinch — doing so increases both heating and cooling utility demand. Typical minimum approach: 10-20°C. Energy savings from proper pinch design: 30-50% reduction in utility consumption.
 
@@ -133,14 +133,14 @@ Feed: preheated crude oil (350-380°C from tube-still furnace) enters as partial
 
 **Vapor recompression (MVR)**: Compress overhead vapor to raise its condensation temperature above the reboiler temperature. Compressed vapor condenses in the reboiler, providing heat. Eliminates external steam and cooling water. Compressor energy ≈ 10-20% of the energy saved. Economical for close-boiling separations where ΔT between top and bottom is small (propane/propylene, isobutane/n-butane, wastewater organic removal). Mechanical compressor driven by electric motor or steam turbine.
 
-### Bootstrap Sequence
+## Bootstrap Sequence
 
 1. **[Pot still](../glossary/pot-still.md)** (Year 1-5): Copper pot + condensing coil. Batch. 1 theoretical plate. Alcohol concentration to 40-50%, water purification, essential oil steam distillation. Fuel: wood or waste heat.
 2. **[Packed batch column](../glossary/packed-batch-column.md)** (Year 5-15): Add 1-3 m ceramic Raschig rings or saddles. Reflux control via manual split of condensate. 5-10 theoretical plates. Solvent purification, coal tar light oil fractionation, ethanol to 85-90%.
 3. **[Continuous fractional column](../glossary/continuous-fractional-column.md)** (Year 15-25): Feed at mid-point, continuous steam-heated reboiler, water-cooled condenser. 15-30 theoretical plates. Petroleum fractionation, chlorosilane purification, acid concentration.
 4. **[Multi-product train with heat integration](../glossary/multi-product-train-with-heat-integration.md)** (Year 25+): Atmospheric + vacuum columns, side-draw fractions, pumparound cooling, crude preheat train, multiple-effect energy recovery. Full petroleum refining. Specialty chemical purification (pharmaceutical intermediates, electronic-grade solvents).
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Hot and boiling liquids**: Reboiler contents at 80-350°C. Severe thermal burns on contact. Thermal gloves, face shields, splash guards on sample ports. Emergency shower within 10 m of operating column. Insulate all hot surfaces.
 - **Flammable vapor explosion**: Hydrocarbon and solvent vapors form explosive mixtures at 1-10% in air. Ignition energy as low as 0.2 mJ (static spark). Bond and ground all metal vessels and piping. Vent column area. Explosion-proof electrical equipment (Class 1 Div 1 or 2). Never operate near open flames or hot work. Nitrogen purge before introducing flammables.
@@ -234,12 +234,11 @@ Distillation remains the backbone of chemical separation worldwide, and its mast
 
 ## See Also
 
-- **[Air Separation](air-separation.md)**: Cryogenic distillation of air into N₂, O₂, Ar
-- **[Solvents](solvents.md)**: Solvent purification and recovery by distillation
-- **[Petroleum](petroleum-alternatives.md)**: Crude oil distillation and fractionation
-- **[Fermentation](fermentation.md)**: Ethanol recovery from fermentation broth
-- **[Wood Gasification](wood-gasification.md)**: Tar and wood vinegar distillation from producer gas
+- [Air Separation](air-separation.md) — cryogenic distillation of air into N₂, O₂, Ar
+- [Solvents](solvents.md) — solvent purification and recovery by distillation
+- [Petroleum Alternatives](petroleum-alternatives.md) — crude oil distillation and fractionation
+- [Fermentation](fermentation.md) — ethanol recovery from fermentation broth
+- [Wood Gasification](wood-gasification.md) — tar and wood vinegar distillation from producer gas
+- [Chemical Recovery](chemical-recovery.md) — solvent regeneration by distillation
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+[← Back to Chemistry](index.md)

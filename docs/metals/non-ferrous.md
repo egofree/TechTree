@@ -6,14 +6,22 @@
 > **Enables**: [`chemistry.soap`](../chemistry/soap.md), [`metals.alloys`](alloys.md), [`metals.finishing`](finishing.md), [`metals.precious-metals`](precious-metals.md)
 > **Timeline**: Years 15-40
 > **Outputs**: zinc, lead, tin, nickel, magnesium, titanium sponge
+> **Critical**: Yes — zinc enables galvanizing (steel longevity), tin enables solder (electronics), nickel enables stainless steel
 
-### Overview
+## Problem
 
 Beyond iron and copper lies a family of metals whose properties — low melting points, corrosion resistance, extreme lightness, or exceptional strength-to-weight ratios — fill niches that steel and copper cannot. Zinc protects steel from rust. Lead stores energy in batteries. Tin enables solder. Nickel stabilizes stainless steel. Magnesium offers the lightest structural frame. Titanium survives where nothing else will. Each demands its own extraction chemistry, often more complex than iron or copper smelting.
 
 These six non-ferrous metals collectively enable galvanizing, battery storage, electronics assembly, alloying, lightweight structures, and aerospace applications. Their production represents a significant step up in industrial complexity from [Copper & Bronze](copper-bronze.md) and [Iron & Steel](iron-steel.md), requiring controlled atmospheres, vacuum processes, and in some cases electrochemistry.
 
-### Zinc
+## Prerequisites
+
+- [Acids](../chemistry/acids.md) — acid leaching for ore processing
+- [Copper & Bronze](copper-bronze.md) — smelting foundation
+- [Mining](../mining/index.md) — ore extraction and beneficiation
+- [Blast Furnace](blast-furnace.md) — high-temperature smelting capability
+
+## Zinc
 
 Zinc is the fourth most consumed metal worldwide (after iron, aluminum, and copper). Its primary use — galvanizing steel — consumes ~50% of production. Zinc melts at 420°C and boils at 907°C, a remarkably narrow liquid range that complicates smelting because metallic zinc vaporizes before it can be collected as a liquid by traditional methods.
 
@@ -227,6 +235,25 @@ Non-ferrous metals have significant interdependencies:
 - **Zinc fume fever** (metal fume fever): Inhalation of zinc oxide fume (from welding/brazing galvanized steel) causes influenza-like symptoms 4-8 hours post-exposure: chills, fever, muscle ache, metallic taste. Self-limiting (resolves in 24-48 hours) but repeated episodes cause lung damage. Prevention: local exhaust ventilation, respiratory protection when welding galvanized steel.
 - **TiCl₄**: Reacts violently with moisture in air, producing dense white HCl fume and TiO₂ particulate. Severe burns to skin and eyes. All TiCl₄ handling must be in enclosed, dry systems. Leak response: water spray (from safe distance) to knock down HCl cloud, full acid-rated PPE. TiCl₄ spills on moisture generate massive exothermic reaction — approach upwind only.
 
----
+## Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Zinc condenser producing blue powder instead of liquid | Condenser temperature too low or zinc re-oxidizing | Increase condenser temperature to 450-500°C; maintain reducing atmosphere; check for air leaks |
+| Lead smelt producing matte instead of clean lead | Insufficient reducing conditions or high sulfur ore | Increase coke ratio; add flux (limestone); pre-roast sulfide ore to remove sulfur |
+| Tin solder not flowing properly | Contamination with iron or copper raising melting point | Use fresh tin; clean joint surfaces with flux; verify alloy composition (63/37 Sn/Pb eutectic) |
+| Nickel carbonyl detector alarming | Mond process leak — extreme toxicity | Evacuate immediately; full SCBA; shut off CO supply; ventilate area; do not re-enter until clear |
+| Magnesium fire | Mg ignition during melting or machining | Never use water — smother with dry sand or Class D powder; wear face shield for UV protection |
+| Titanium sponge contaminated with MgCl₂ | Incomplete vacuum distillation after Kroll reduction | Extend vacuum distillation time; verify vacuum level (<1 Pa); increase distillation temperature |
+
+## See Also
+
+- [Copper & Bronze](copper-bronze.md) — foundation non-ferrous metals
+- [Iron & Steel](iron-steel.md) — ferrous metals that non-ferrous metals complement
+- [Alloys](alloys.md) — alloying these metals into engineering materials
+- [Metal Finishing](finishing.md) — galvanizing, plating, and surface treatments
+- [Precious Metals](precious-metals.md) — gold, silver, platinum group metals
+- [Metal Recycling](metal-recycling.md) — recovering non-ferrous metals from scrap
+- [Blast Furnace](blast-furnace.md) — high-temperature smelting infrastructure
+
+[← Back to Metals](index.md)

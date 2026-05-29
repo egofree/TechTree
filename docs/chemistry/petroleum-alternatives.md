@@ -22,7 +22,7 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 
 ## Technologies & Systems
 
-### Petroleum Extraction
+## Petroleum Extraction
 
 **[Surface seeps](../glossary/surface-seeps.md)** (Foundations-Metallurgy stages):
 - Oil seeps to surface naturally in many geological settings. Collect by hand with buckets or by digging shallow pits (1-3 m deep) where oil accumulates. Filter through cloth to remove sand and water. Yield: 5-50 liters/day per seep.
@@ -41,7 +41,7 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 - **Equipment**: Rotary table (turns drill string), mud pumps (triplex piston pumps, 5-20 MPa pressure), blowout preventer (hydraulic ram seals wellhead in emergency), drill pipe (seamless steel tube, 5-10 m joints screwed together).
 - **Mud engineering**: Bentonite clay (4-8% by weight in water) provides viscosity. Barite (BaSO₄) added for density control (mud must exceed formation fluid pressure). pH controlled with NaOH (9.5-10.5). Mud weight typically 1.0-2.0 g/cm³.
 
-### Petroleum Refining
+## Petroleum Refining
 
 **[Simple distillation](../glossary/simple-distillation.md)** (batch still, the Metallurgy-Machine Tools stage transition):
 - **Equipment**: Iron or copper pot (200-1000 liters) with removable top. Top connects to condenser (copper coil in water bath, 10-20 m coiled length). Heat from wood fire or coal beneath pot.
@@ -68,7 +68,7 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 **[Thermal cracking](../glossary/thermal-cracking.md)** (Chemistry):
 - Heat heavy oil fractions to 450-500°C at 0.7-3.5 MPa pressure in tubular furnace. Residence time 10-60 seconds. Large hydrocarbon molecules break into smaller ones. Converts heavy fuel oil into additional gasoline and middle distillates. Yield: ~40-50% gasoline from heavy feed.
 
-### Coal Tar Chemistry (the petroleum-free path)
+## Coal Tar Chemistry (the petroleum-free path)
 
 **Coke oven operation**:
 - **Byproduct coke oven**: Horizontal chamber (12-15 m long × 4-6 m tall × 0.4-0.5 m wide) made of refractory brick (silica or alumina). Load with crushed coal (3-5 cm pieces). Seal chamber. Heat externally by burning coke oven gas (from previous batch) in flues between chambers. Temperature reaches 1000-1100°C. Time: 14-24 hours per batch.
@@ -83,7 +83,7 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
   - **[Anthracene oil](../glossary/anthracene-oil.md)** (270-350°C): ~15% of tar. Contains anthracene — dye precursor.
   - **[Pitch](../glossary/pitch.md)** (>350°C residue): ~50-60% of tar. Used for roofing, waterproofing, electrode binder (for aluminum smelting and arc furnace electrodes), road binding.
 
-### Fermentation Chemistry
+## Fermentation Chemistry
 
 **[Ethanol production](../glossary/ethanol-production.md)** (C₂H₅OH):
 - **Feedstocks**: Grain (barley, wheat, corn — starch → sugar via malt enzymes), sugar cane/beets (direct sugar), fruit (sugars), potatoes (starch). Starch must be converted to sugar first (malting/sprouting grain produces amylase enzymes that break starch into maltose).
@@ -109,7 +109,7 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 - **Wood pyrolysis**: Heat hardwood in closed iron retort to 400-500°C. Destructive distillation produces: charcoal (solid), wood tar (liquid), pyroligneous acid (aqueous condensate containing methanol, acetic acid, acetone). Distill pyroligneous acid — methanol boils at 64.7°C. Yield: ~1-2% methanol by weight of wood. Low yield but works with the Metallurgy stage technology.
 - **Synthetic methanol**: React CO + 2H₂ over ZnO/Cr₂O₃ catalyst at 300-400°C, 20-30 MPa. Requires purified synthesis gas (from coal gasification or natural gas reforming). Much higher yield and purity.
 
-### Wood Gasification & Pyrolysis
+## Wood Gasification & Pyrolysis
 
 **[Producer gas](../glossary/producer-gas.md)** (CO + H₂ + N₂):
 - **Gas producer**: Cylindrical shaft 1-3 m diameter × 2-5 m tall, lined with refractory brick. Fill with lump charcoal or coke. Ignite bottom. Blow limited air upward through bed. Incomplete combustion produces CO (carbon monoxide) instead of CO₂.
@@ -122,11 +122,11 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 **[Charcoal retort](../glossary/charcoal-retort.md)** (for charcoal + gas + tar):
 - **Batch retort**: Iron or steel cylinder (1-2 m diameter × 2-4 m long), loaded with hardwood billets. Seal. Heat externally (burn wood waste or previous batch gas). Internal wood pyrolyzes: releases volatile gases (which can be burned to heat the retort — self-sustaining after initial heating), leaves charcoal. Temperature 400-600°C. Time: 12-24 hours. Cool before opening (charcoal ignites spontaneously when hot and exposed to air). Yield: 25-35% charcoal by weight.
 
-### Synthetic Polymers
+## Synthetic Polymers
 Petrochemicals produces the chemical feedstocks (phenol, formaldehyde, ethanol, acetone, cellulose, lignin) that serve as monomer and resin precursors. Polymerization processes, material properties, and end-use applications are covered in [**[Polymers & Composites](../polymers/index.md)**](../polymers/index.md).
 - Aircraft fuels and dopes: gasoline distillation fraction for piston engines; acetone for nitrocellulose dope production — see [Aircraft](../transport/aviation.md)
 
-### The Dual Path Principle
+## The Dual Path Principle
 - **Petroleum available**: everything accelerates. Cheap solvents, fuels, monomers, polymers. Decades saved.
 - **No petroleum**: coal tar + fermentation + wood chemistry produces the same core molecules (benzene, phenol, ethanol, acetone, methanol, acetic acid). Slower, smaller scale, more labor, but entirely viable.
 - Plan for both. Do not assume petroleum.
@@ -153,7 +153,7 @@ Petrochemicals produces the chemical feedstocks (phenol, formaldehyde, ethanol, 
 - Early synthetic polymers (Bakelite, celluloid, cellulose derivatives)
 - Dual-path feedstock strategy documented
 
-### Catalytic Cracking (FCC)
+## Catalytic Cracking (FCC)
 
 **[Fluid catalytic cracking](../glossary/fluid-catalytic-cracking.md)** converts heavy gas oil (bp 340-550°C) into gasoline, diesel, and light gases using a zeolite catalyst at 500-550°C. The most important conversion process in a modern refinery — produces ~40% of US gasoline.
 
@@ -161,19 +161,19 @@ Petrochemicals produces the chemical feedstocks (phenol, formaldehyde, ethanol, 
 
 **Catalyst**: Zeolite Y (sodium aluminosilicate, pore size ~0.74 nm) in clay matrix. Acid sites promote carbonium ion cracking. Inventory: 100-300 tonnes per unit, circulated at 20-50 tonnes/minute between reactor and regenerator.
 
-### Steam Cracking (Ethylene Production)
+## Steam Cracking (Ethylene Production)
 
 The most important petrochemical process — produces ethylene (C₂H₄) and propylene (C₃H₆), building blocks for most plastics. Hydrocarbon feed (ethane, propane, naphtha, or gas oil) mixed with steam (diluent, reduces coking) and heated to 800-900°C in a tubular furnace (residence time 0.1-0.5 seconds). Short residence time maximizes ethylene yield. Furnace tubes: centrifugally cast HK-40 alloy (25Cr-20Ni-Fe), 50-150 mm ID. Product gases quenched in transfer line exchanger (generates high-pressure steam), then separated by cryogenic distillation: H₂ + CH₄ (fuel gas), ethylene (99.9%), ethane (recycled), propylene, C₄ fraction (butadiene, butenes), pyrolysis gasoline (BTX). Yields: ethane feed → 80% ethylene; naphtha feed → 35% ethylene, 15% propylene, 10% BTX.
 
-### Ethanol-to-Ethylene (Non-Petroleum Route)
+## Ethanol-to-Ethylene (Non-Petroleum Route)
 
 Critical bootstrap route: ethanol (from fermentation) dehydrated over alumina (Al₂O₃) catalyst at 170°C to produce ethylene. C₂H₅OH → C₂H₄ + H₂O. Yield: 95-99%. Enables polyethylene production without petroleum. From ethylene: polyethylene (50%), ethylene oxide → ethylene glycol (antifreeze), PVC (via vinyl chloride), polystyrene (via styrene).
 
-### Catalytic Reforming (Aromatics)
+## Catalytic Reforming (Aromatics)
 
 Converts low-octane naphtha (C₆-C₁₀ paraffins) into high-octane reformate rich in aromatics (benzene, toluene, xylene — BTX) and hydrogen. Pt-Re catalyst on chlorided alumina at 490-530°C, 1-3 MPa. Reactions: dehydrogenation of naphthenes → aromatics (produces H₂), dehydrocyclization of paraffins → aromatics. Product: reformate (RON 95-105) for gasoline blending. BTX for chemicals: benzene → styrene → polystyrene; toluene → TNT, polyurethane; xylene → PET polyester. H₂ byproduct: 100-200 Nm³/tonne — valuable for ammonia synthesis and hydroprocessing.
 
-### Natural Gas Processing
+## Natural Gas Processing
 
 Raw natural gas contains methane (70-90%), ethane, propane, butane, CO₂, H₂S, N₂, and water. Processing steps: (1) **Sweetening**: Amine treating — absorb H₂S and CO₂ in aqueous amine solution (MEA or MDEA), regenerate by heating to strip acid gases. (2) **Dehydration**: Glycol absorption (triethylene glycol) or molecular sieve desiccant. (3) **NGL recovery**: Turboexpander or refrigeration to -30 to -40°C to condense ethane, propane, butane. Separated by fractionation. (4) **LNG**: Liquefy methane at -162°C for transport by ship (1/600 volume reduction).
 
@@ -184,13 +184,13 @@ Raw natural gas contains methane (70-90%), ethane, propane, butane, CO₂, H₂S
 - **CO (producer gas)**: Odorless, lethal. Never operate gasifier indoors. Vent all exhaust. CO detectors essential.
 - **Methanol**: Toxic if ingested — causes blindness and death. Can be absorbed through skin. Label clearly, never store near food/drink.
 - **Distillation fires**: Have sand, fire blankets, and water spray. Never distill in sealed vessels. Pressure relief valves on all heated vessels.
-### Fischer-Tropsch Synthesis
+## Fischer-Tropsch Synthesis
 
 **Process**: Converts syngas (CO + H₂) into linear hydrocarbons over iron (Fe) or cobalt (Co) catalyst at 200-350°C and 10-40 bar pressure. The chain-growth reaction: nCO + (2n+1)H₂ → CnH₂n+2 + nH₂O. Product distribution follows Anderson-Schulz-Flory statistics, yielding a broad mix: C₁-C₄ gases (methane through butane), C₅-C₁₂ gasoline-range hydrocarbons, C₁₂-C₂₀ diesel-range hydrocarbons, and C₂₀+ waxes. Selectivity is controlled by temperature and catalyst choice. Higher temperature shifts selectivity toward lighter products (more gas, less wax). Cobalt catalysts favor heavier, straight-chain paraffins with high selectivity to diesel and wax. Iron catalysts produce more olefins and oxygenates (alcohols, aldehydes) alongside paraffins, and also catalyze the water-gas shift reaction (CO + H₂O → CO₂ + H₂), allowing use of syngas with lower H₂:CO ratios typical of coal gasification.
 
 **Coal-to-liquids economics**: One tonne of coal yields 2-3 barrels of synthetic crude via Fischer-Tropsch after gasification to syngas. The SASOL plant in South Africa has produced approximately 150,000 barrels per day of synthetic fuels from coal since 1955, demonstrating decades of commercial-scale operation without petroleum. Capital intensity is high ($100,000-200,000 per daily barrel of capacity), but viable when crude oil prices exceed $60-80/barrel or when energy independence is prioritized over cost.
 
-### Bio-Based Alternatives
+## Bio-Based Alternatives
 
 **[Vegetable oil transesterification](../glossary/vegetable-oil-transesterification.md)** (biodiesel): React 100 kg vegetable oil (soybean, rapeseed, palm, or sunflower) with 11 kg methanol and 0.5 kg sodium hydroxide catalyst at 60-65°C for 1-2 hours with stirring. Products: ~97 kg fatty acid methyl ester (biodiesel) + ~11 kg glycerol by-product. Biodiesel properties: cetane number 48-65, energy density 37 MJ/kg (9% less than petroleum diesel), pour point -3 to +15°C depending on feedstock. Compatible with existing diesel engines at blend ratios up to B20 (20% biodiesel) without modification; higher blends require fuel system seal changes.
 
@@ -224,7 +224,7 @@ Raw natural gas contains methane (70-90%), ethane, propane, butane, CO₂, H₂S
 | Wood distillation low methanol yield | Temperature too high (>550°C) or hardwood species low in lignin | Control retort to 400-500°C; use oak or beech (higher methanol yield than softwoods) |
 | Syngas H₂:CO ratio wrong for FT catalyst | Feedstock mismatch or gasifier conditions off | Adjust steam:oxygen ratio; use water-gas shift reactor to tune ratio; match to catalyst (Co: 2.0-2.1, Fe: 1.5-1.8) |
 
-### See Also
+## See Also
 
 - [Distillation](distillation.md) — fractional distillation for separating crude oil fractions
 - [Fermentation](fermentation.md) — ethanol and biochemical production

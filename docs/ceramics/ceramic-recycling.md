@@ -8,8 +8,6 @@
 > **Outputs**: recycled_ceramic_aggregate, grog, refractory_reclaim, ceramic_fillers
 > **Critical**: No — reduces raw material consumption but does not unlock new capabilities
 
-## 1. Overview
-
 Ceramic recycling reclaims fired clay products, refractory bricks, and technical ceramics from end-of-life products and manufacturing waste for reuse as grog (pre-fired clay additive), aggregate, or reprocessed refractory feedstock. Unlike glass and metals, ceramics cannot be remelted and re-formed — once fired, the crystalline structure is permanent. Ceramic "recycling" is therefore a downcycling process: the material is crushed and reused as an aggregate or additive rather than returned to its original form.
 
 The primary recovered material is **grog** — crushed, fired ceramic added to raw clay to reduce shrinkage, improve thermal shock resistance, and control drying behavior. Grog has been used since antiquity; potters have always crushed broken pots and added the fragments to new clay bodies. This is one of the oldest forms of material recycling.
@@ -226,18 +224,16 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 - Radioactive ceramics (luminescent dials, some vintage tiles)
 - Ceramic fiber insulation (respirable fiber hazard — handle as hazardous material per waste management protocols)
 
-## 11. References
+## See Also
 
-- [Pottery & Clay Products](pottery.md) — Clay body formulation and firing processes that use grog
-- [Advanced Ceramics](advanced-ceramics.md) — Technical ceramic properties and reprocessing
-- [Kiln Construction](kilns.md) — Kiln lining materials (refractories) that generate recyclable waste
-- [Kiln Firing](kiln-firing.md) — Firing processes that generate wasters and kiln furniture waste
-- [Refractory Materials](../chemistry/refractories.md) — Refractory production from primary raw materials
-- [Mining](../mining/index.md) — Source of clay and minerals (what recycling replaces)
-- [Metal Recycling](../metals/metal-recycling.md) — Parallel recovery domain for metals
-- [Glass Recycling](../glass/glass-recycling.md) — Parallel recovery domain for glass
-- [Waste Management](../ehs/waste-management.md) — Disposal of non-recyclable ceramic waste
+- [Pottery & Clay Products](pottery.md) — clay body formulation and firing processes that use grog
+- [Advanced Ceramics](advanced-ceramics.md) — technical ceramic properties and reprocessing
+- [Kiln Construction](kilns.md) — kiln lining materials (refractories) that generate recyclable waste
+- [Kiln Firing](kiln-firing.md) — firing processes that generate wasters and kiln furniture waste
+- [Refractory Materials](../chemistry/refractories.md) — refractory production from primary raw materials
+- [Mining](../mining/index.md) — source of clay and minerals (what recycling replaces)
+- [Metal Recycling](../metals/metal-recycling.md) — parallel recovery domain for metals
+- [Glass Recycling](../glass/glass-recycling.md) — parallel recovery domain for glass
+- [Waste Management](../ehs/waste-management.md) — disposal of non-recyclable ceramic waste
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) · [Ceramics](./index.md) · [All Domains](../index.md)*
+[← Back to Ceramics & Refractories](index.md)

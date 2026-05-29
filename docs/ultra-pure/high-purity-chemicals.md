@@ -34,7 +34,7 @@ The transition from industrial-grade (95-99.5%, or 2-3N purity) to electronic-gr
 
 ## Purification Methods
 
-### Sub-Boiling Distillation
+## Sub-Boiling Distillation
 
 The foundational technique for electronic-grade chemical production. Unlike conventional distillation (which boils the liquid, aerosolizing impurities that contaminate the distillate), sub-boiling distillation operates below the boiling point using infrared radiation or heated surfaces.
 
@@ -48,7 +48,7 @@ The foundational technique for electronic-grade chemical production. Unlike conv
 - Requires PTFE or quartz equipment (borosilicate glass leaches Na, K, Ca)
 - Temperature control critical for H₂O₂ (decomposes above 70°C)
 
-### Isothermal Distillation
+## Isothermal Distillation
 
 **Principle**: A heated surface (quartz or PTFE) creates a thin film of evaporating liquid at 5-15°C below the normal boiling point. Vapor condenses on a cooled surface without entraining non-volatile impurities (metals, particulates). The gentle evaporation prevents aerosol formation and bumping.
 
@@ -64,7 +64,7 @@ The foundational technique for electronic-grade chemical production. Unlike conv
 
 **Applicable chemicals**: Hydrofluoric acid (HF), nitric acid (HNO₃), hydrochloric acid (HCl), sulfuric acid (H₂SO₄), acetic acid (CH₃COOH), ammonium hydroxide (NH₄OH), hydrogen peroxide (H₂O₂).
 
-### Isothermal Distillation
+## Isothermal Distillation
 
 For acids that cannot be sub-boiled (e.g., HF is too hazardous at elevated temperatures, HCl forms an azeotrope), isothermal (or "isopiestic") distillation purifies without heating.
 
@@ -84,7 +84,7 @@ For acids that cannot be sub-boiled (e.g., HF is too hazardous at elevated tempe
 
 **Performance**: Produces 7-8N purity acids. Particularly effective for HCl (which readily transfers as gas) and HF.
 
-### Zone Refining
+## Zone Refining
 
 Originally developed for semiconductor silicon purification (see [Silicon Purification](../silicon/purification.md)), zone refining also purifies solid chemicals by passing a narrow molten zone through a solid rod.
 
@@ -94,7 +94,7 @@ Originally developed for semiconductor silicon purification (see [Silicon Purifi
 
 **Performance**: Can achieve 10-11N purity on suitable materials. Extremely slow — days per pass.
 
-### Ion Exchange Purification
+## Ion Exchange Purification
 
 Ion exchange resins remove trace ionic contaminants from chemical solutions. Unlike the ion exchange used in UPW (see [Ultra-Pure Water](upw.md)), chemical purification ion exchange must be compatible with aggressive chemical environments.
 
@@ -107,7 +107,7 @@ Ion exchange resins remove trace ionic contaminants from chemical solutions. Unl
 
 **Performance**: Reduces metallic impurities from ppm to sub-ppb levels. Must be combined with sub-boiling distillation for ppt-level purity (ion exchange alone cannot reach below ~0.1 ppb due to resin leaching).
 
-### Membrane Purification
+## Membrane Purification
 
 Nanofiltration and ultrafiltration membranes remove particles, colloids, and high-molecular-weight organic contaminants from chemical solutions.
 
@@ -115,7 +115,7 @@ Nanofiltration and ultrafiltration membranes remove particles, colloids, and hig
 
 **Membrane materials**: PTFE, PFA, or PVDF membranes in fluoropolymer housings. Cellulose and polyamide membranes dissolve in many semiconductor chemicals.
 
-### Absorption and Adsorption
+## Absorption and Adsorption
 
 **Gas-phase purification**: For electronic-grade gases (H₂, N₂, O₂, Ar), purification uses:
 - Catalytic getters (Pd, Zr-V-Fe alloys) to remove O₂, H₂O, CO, CO₂
@@ -127,7 +127,7 @@ Nanofiltration and ultrafiltration membranes remove particles, colloids, and hig
 
 ## Key Chemical Purification Processes
 
-### Electronic-Grade Hydrofluoric Acid (HF)
+## Electronic-Grade Hydrofluoric Acid (HF)
 
 HF is the single most critical chemical in semiconductor fabrication — used for SiO₂ etching, wafer cleaning, and oxide stripping. Electronic-grade HF must contain <100 ppt of each metallic impurity.
 
@@ -143,7 +143,7 @@ HF is the single most critical chemical in semiconductor fabrication — used fo
 
 **Safety**: HF is extremely hazardous — penetrates skin, binds calcium, causes deep tissue necrosis and potentially fatal hypocalcemia. All HF handling requires: calcium gluconate gel on-site, full PPE (face shield, HF-resistant gloves, apron), dedicated fume hood with HF-rated scrubber, and emergency shower within 10 seconds travel distance.
 
-### Electronic-Grade Hydrogen Peroxide (H₂O₂)
+## Electronic-Grade Hydrogen Peroxide (H₂O₂)
 
 H₂O₂ is a key reagent in RCA wafer cleaning (SC-1 and SC-2, see [Solvents](../chemistry/solvents.md)). Electronic-grade H₂O₂ must contain <100 ppt metals.
 
@@ -159,7 +159,7 @@ H₂O₂ is a key reagent in RCA wafer cleaning (SC-1 and SC-2, see [Solvents](.
 
 **Decomposition hazard**: H₂O₂ decomposes to water and oxygen (exothermic). Trace metals (Fe, Cu, Mn) catalyze rapid decomposition. Electronic-grade H₂O₂, paradoxically, is MORE stable than industrial grade because metallic catalysts have been removed.
 
-### Electronic-Grade Isopropyl Alcohol (IPA)
+## Electronic-Grade Isopropyl Alcohol (IPA)
 
 IPA is used for wafer drying after rinsing (Marangoni drying) and as a cleaning solvent. Electronic-grade IPA requires <1 ppb metals, <1 ppb TOC.
 
@@ -172,7 +172,7 @@ IPA is used for wafer drying after rinsing (Marangoni drying) and as a cleaning 
 4. **Final filtration**: 0.05 μm PTFE membrane filter.
 5. **Storage**: Nitrogen-purged PFA containers.
 
-### Electronic-Grade Acids (HCl, HNO₃, H₂SO₄)
+## Electronic-Grade Acids (HCl, HNO₃, H₂SO₄)
 
 **Hydrochloric acid**: Isothermal distillation of ACS-grade 37% HCl. HCl gas transfers to UPW in sealed PTFE vessel. Produces 8-9N HCl. Used for RCA SC-2 clean and pre-diffusion clean.
 

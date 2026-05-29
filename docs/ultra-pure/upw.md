@@ -14,7 +14,7 @@ Standard water treatment (see [SEM Tech Water Treatment](../water/sem-tech-water
 
 ## Purity Requirements
 
-### Semiconductor UPW Specifications (SEMI F63)
+## Semiconductor UPW Specifications (SEMI F63)
 
 | Parameter | Specification | Measurement Method |
 |-----------|--------------|-------------------|
@@ -30,7 +30,7 @@ Standard water treatment (see [SEM Tech Water Treatment](../water/sem-tech-water
 | **Anions (Cl⁻, SO₄²⁻)** | <0.1 ppb each | Ion chromatography |
 | **Cations (Na⁺, K⁺, Ca²⁺)** | <0.1 ppb each | Ion chromatography |
 
-### Why Each Parameter Matters
+## Why Each Parameter Matters
 
 **Resistivity 18.2 MΩ·cm**: The theoretical maximum resistivity of pure water at 25°C is 18.18 MΩ·cm. Any dissolved ionic species — even at ppb levels — lowers resistivity below this threshold. Achieving 18.2 MΩ·cm proves total ionic purity.
 
@@ -46,7 +46,7 @@ Standard water treatment (see [SEM Tech Water Treatment](../water/sem-tech-water
 
 A complete UPW system consists of five functional blocks: **pretreatment → primary purification → polishing → distribution → reclamation**.
 
-### Block 1: Pretreatment
+## Block 1: Pretreatment
 
 Pretreatment removes the bulk of contaminants from the feed water, protecting downstream purification equipment from fouling and overload. Feed water is typically municipal water or well water at 100-500 mg/L TDS.
 
@@ -58,7 +58,7 @@ Pretreatment removes the bulk of contaminants from the feed water, protecting do
 
 **Cartridge filtration**: 5-10 μm polypropylene depth filter as final pretreatment barrier. Protects high-pressure RO pump from any remaining particles.
 
-### Block 2: Primary Purification
+## Block 2: Primary Purification
 
 Primary purification removes >99% of dissolved ions, organics, and particles through membrane-based separation.
 
@@ -80,7 +80,7 @@ Primary purification removes >99% of dissolved ions, organics, and particles thr
 
 **Degasification**: Membrane contactor degasification removes dissolved CO₂ (which forms carbonic acid and lowers resistivity) and dissolved oxygen. Hollow-fiber hydrophobic membrane with vacuum or nitrogen sweep on the shell side. Reduces DO to <50 ppb, CO₂ to <1 ppm.
 
-### Block 3: Polishing
+## Block 3: Polishing
 
 Polishing removes the last traces of contaminants to reach semiconductor-grade purity. Each polishing stage targets a specific contaminant class.
 
@@ -108,7 +108,7 @@ Typical configuration: Two UF units in parallel (one online, one in backwash/sta
 
 **Final polish — TOC reduction**: For systems requiring TOC <0.5 ppb, a final 185 nm UV-TOC reduction unit provides the last organic removal step. This stage also provides continuous bacterial control at the point of distribution.
 
-### Block 4: Distribution
+## Block 4: Distribution
 
 The distribution system must deliver UPW from the polishing loop to point-of-use (POU) without contaminating it. This is arguably the hardest engineering challenge in UPW — maintaining purity during transport.
 
@@ -122,7 +122,7 @@ The distribution system must deliver UPW from the polishing loop to point-of-use
 
 **Temperature control**: UPW is distributed at 22-25°C for most applications. For advanced photoresist processing, heated UPW at 60-80°C may be required — this needs dedicated heated loops with PFA piping.
 
-### Block 5: Reclamation
+## Block 5: Reclamation
 
 Modern fabs reclaim 60-80% of used UPW. Reclaimed water is treated and recycled, reducing both water consumption and wastewater discharge.
 
@@ -134,7 +134,7 @@ Modern fabs reclaim 60-80% of used UPW. Reclaimed water is treated and recycled,
 
 ## System Sizing
 
-### Small Fab (1,000 wafers/month, 200mm)
+## Small Fab (1,000 wafers/month, 200mm)
 
 - UPW demand: ~200,000 L/day
 - Pretreatment: 2 × 10 m³/hr media filters + 2 × 10 m³/hr GAC beds
@@ -144,7 +144,7 @@ Modern fabs reclaim 60-80% of used UPW. Reclaimed water is treated and recycled,
 - Distribution loop: 500 m of 25 mm PFA piping
 - Capital cost: $500,000-$1,500,000
 
-### Large Fab (50,000 wafers/month, 300mm)
+## Large Fab (50,000 wafers/month, 300mm)
 
 - UPW demand: ~5,000,000 L/day
 - Full multi-stage system with dual-train redundancy
@@ -183,25 +183,25 @@ Continuous inline monitoring is essential for UPW quality assurance. The system 
 
 ## Troubleshooting
 
-### Resistivity Below 18.2 MΩ·cm
+## Resistivity Below 18.2 MΩ·cm
 
 **Causes**: Mixed-bed ion exchange exhaustion. RO membrane degradation (salt passage increase). CO₂ absorption through tank headspace. Piping leak introducing atmospheric CO₂.
 
 **Resolution**: Replace mixed-bed resin. Check RO rejection rate (should be >98%). Verify nitrogen blanket on storage tanks. Pressure-test distribution loop for leaks.
 
-### TOC Excursion (>1 ppb)
+## TOC Excursion (>1 ppb)
 
 **Causes**: UV lamp failure (185 nm output degrades over 6-12 months). New piping component releasing organics (insufficient flushing). Bacterial bloom in stagnant zone. Activated carbon exhaustion in pretreatment.
 
 **Resolution**: Replace UV lamps (schedule annually). Flush new components for 24-48 hours before commissioning. Check loop flow velocity (must maintain >1.5 m/s). Replace GAC if chlorine breakthrough detected.
 
-### High Particle Counts
+## High Particle Counts
 
 **Causes**: UF membrane breach. Distribution pipe corrosion. Pump seal wear generating particles. Construction debris in new piping. Bacterial growth (biofilm sloughing).
 
 **Resolution**: Integrity-test UF membranes (bubble point test). Inspect pump seals. Flush and sanitize loop. Verify no dead legs in piping. Sanitize with hot water (80°C) or hydrogen peroxide (3%).
 
-### Bacterial Contamination
+## Bacterial Contamination
 
 **Causes**: Insufficient UV dose. Stagnant water in dead legs. Biofilm establishment in low-flow zones. Contaminated replacement filters or resin.
 

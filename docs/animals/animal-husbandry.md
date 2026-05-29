@@ -8,6 +8,19 @@
 > **Outputs**: draft_animals, wool, hides, milk, meat, dung
 > **Critical**: Yes — core knowledge for managing all livestock species productively
 
+### Problem
+
+A bootstrapping civilization needs reliable sources of labor, food, fiber, and fertilizer. Wild animal populations cannot sustainably provide these at scale — hunting depletes stocks faster than they recover, and wild animals cannot be directed toward productive work. Animal husbandry transforms captive livestock into a managed resource: draft power for plowing and transport (1-2 hp sustained per ox), milk and meat as concentrated protein sources, wool and hides for textiles, and manure to sustain crop yields. Without systematic breeding, feeding, health management, and seasonal planning, livestock herds stagnate, succumb to disease, and fail to meet settlement needs.
+
+### Prerequisites
+
+- [Livestock domestication](domestication.md) — captive breeding populations of cattle, sheep, goats, pigs, or poultry
+- [Food and agriculture](../foundations/food-agriculture.md) — fodder production (pasture, hay, grain) to feed stock through winter
+- [Basic construction](../foundations/shelter.md) — barns, fences, and shelters for housing and containment
+- [Water access](../agriculture/irrigation.md) — reliable clean water supply (40-100 L/day per cattle head)
+- [Medicine](../health/medicine.md) — basic disease diagnosis and treatment capability
+- [Iron working](../metals/iron-steel.md) — for horseshoes, harness hardware, fencing staples, and tools
+
 ## Overview
 
 Animal husbandry — the domestication, breeding, and management of livestock — provides labor power (oxen, horses, mules), raw materials (wool, leather, tallow, bone), and food (milk, meat, eggs). It is a prerequisite for pre-industrial transport, textile production, and sustainable agriculture.
@@ -188,15 +201,32 @@ Wolves, coyotes, foxes, big cats, and birds of prey all threaten livestock. Loss
 
 **Castration methods**: Elastrator banding (rubber ring at 1-7 days) — testicles atrophy in 2-4 weeks. Burdizzo clamp (crush spermatic cord at 2-8 weeks) — no incision, lowest infection risk. Surgical removal (scalpel at 2-12 weeks) — most reliable, requires clean instruments and antiseptic. All methods require monitoring for infection for 7 days post-procedure.
 
-## Cross-Domain Links
+### Troubleshooting
 
-- **[Livestock Domestication](domestication.md)**: species-specific husbandry for all fifteen farmed species
-- **[Draft Power & Harnessing](draft-power.md)**: working oxen, horses, and donkeys for plowing, transport, and milling
-- **[Animal-Derived Materials](animal-materials.md)**: [leather](../animals/leather.md), tallow, wool, horn, bone, sinew, and hide glue
-- **[Food & Agriculture](../foundations/food-agriculture.md)**: manure sustains crop yields; meat, milk, eggs are primary protein sources
-- **[Medicine](../health/medicine.md)**: disease diagnosis, treatment, and zoonotic disease prevention
-- **[Insect Farming](insect-farming.md)**: black soldier fly larvae for waste conversion and animal feed protein
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Low milk yield | Poor nutrition, mastitis, or genetics | Increase energy intake by 20%; California Mastitis Test; cull persistent low producers |
+| Weight loss in herd | Parasites, inadequate feed, or disease | Fecal egg count (McMaster); body condition scoring; increase ration; anthelmintic treatment |
+| Poor conception rates | Mineral deficiency, heat stress, low body condition | Supplement phosphorus and selenium; provide shade; target BCS 2.5-3.0 pre-breeding |
+| Calf/lamb mortality >10% | Failure of passive transfer (colostrum), cold exposure, predators | Ensure colostrum within 6 hours; provide dry shelter; guard animals |
+| Bloat in cattle | Lush legume pasture, grain overload | Remove from clover/alfalfa; pass stomach tube; prevent with gradual pasture introduction |
+| Poultry egg drop | Short daylight, poor nutrition, disease, or molt | Provide 14-16 hours light; 16-18% protein layer ration; check for mites/lice |
+| Hay mold/spoilage | Baled above 20% moisture, poor storage | Check moisture before baling; stack on pallets; ventilate storage; discard black/dusty bales |
+| Lameness in herd | Foot rot, laminitis, or injury | 5-10% CuSO₄ foot bath; trim hooves; check for stones/abscesses |
+| Diarrhea in young stock | Scours (E. coli, crypto, coccidia) | Electrolyte therapy; isolate affected; ensure colostrum; clean bedding |
+| Aggressive bull/stallion | Sexual behavior, inadequate handling | Use experienced handler; breeding harness; cull dangerous animals |
 
----
+### See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+- [Livestock Domestication](domestication.md) — species-specific husbandry for all fifteen farmed species
+- [Draft Power & Harnessing](draft-power.md) — working oxen, horses, and donkeys for plowing, transport, and milling
+- [Animal-Derived Materials](animal-materials.md) — leather, tallow, wool, horn, bone, sinew, and hide glue
+- [Leather Production](leather.md) — hide processing and tanning
+- [Food & Agriculture](../foundations/food-agriculture.md) — manure sustains crop yields; meat, milk, eggs are primary protein sources
+- [Medicine](../health/medicine.md) — disease diagnosis, treatment, and zoonotic disease prevention
+- [Insect Farming](insect-farming.md) — black soldier fly larvae for waste conversion and animal feed protein
+- [Crop Rotation](../agriculture/crop-rotation.md) — integrating livestock with arable farming
+- [Soil Management](../agriculture/soil-management.md) — manure as soil amendment
+- [Textiles](../textiles/spinning.md) — wool fiber processing chain
+
+[← Back to Animals](index.md)

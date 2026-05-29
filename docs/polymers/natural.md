@@ -8,11 +8,11 @@
 > **Outputs**: vulcanized_rubber, tires, drive_belts
 > **Critical**: Yes — rubber is the only natural elastomer; seals, belts, tires, and hoses all depend on it
 
-### Problem
+## Problem
 
 Industrial machinery requires flexible, elastic materials that can seal gaps, transmit power, absorb vibration, and conform to irregular surfaces. Metal is rigid, wood is brittle, leather stretches permanently, and textiles are porous. Natural rubber — the only naturally occurring elastomer — uniquely combines elasticity (400-650% elongation with full recovery), water resistance, electrical insulation, and moldability. Before synthetic elastomers (which require petrochemical infrastructure), natural rubber from *Hevea brasiliensis* or temperate alternatives (guayule, Russian dandelion) is the only option for tires, drive belts, gaskets, hoses, and vibration dampers. Vulcanization with sulfur transforms raw rubber from a sticky, temperature-sensitive gum into a durable engineering material.
 
-### Prerequisites
+## Prerequisites
 
 - [Foundations](../foundations/index.md) — basic agricultural and processing infrastructure
 - [Distillation](../chemistry/distillation.md) — ethanol for shellac dissolution and ammonia for latex preservation
@@ -211,7 +211,7 @@ Beyond rubber and shellac, several natural materials provide adhesive properties
 - **Vulcanization burns**: Autoclave steam at 3-10 bar causes severe scalds on contact. Press platens at 140-180°C cause thermal burns. Use thermal gloves and face shields when loading/unloading presses. Depressurize autoclaves fully before opening. Steam burns are particularly severe because the latent heat of condensation (2260 kJ/kg at 1 atm) transfers far more energy than an equivalent mass of hot water.
 - **Nitrosamine formation**: Certain rubber accelerators (particularly nitrosatable secondary amines like TMTD and DTDM) can form N-nitrosamines during vulcanization. Several nitrosamines are confirmed carcinogens (IARC Group 2A). Monitor airborne nitrosamine levels during mixing and curing operations. Use nitrosamine-safe accelerator systems (TBzTD, ZBEC) where possible — they generate non-carcinogenic nitrosamines.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

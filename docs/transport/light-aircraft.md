@@ -12,7 +12,7 @@
 
 Light aircraft — single-engine propeller planes of wood-and-fabric or aluminum construction — enable rapid long-distance transport, aerial survey, and emergency medical evacuation. They require internal combustion engines (100-300 hp), gasoline fuel, aluminum or composite airframes, and basic avionics (magnetic compass, altimeter, airspeed indicator). Before aviation, covering 500 km takes days by ground; a light aircraft does it in 2-3 hours.
 
-### Prerequisites
+## Prerequisites
 
 - [Aviation fundamentals](aviation.md) — aerodynamics, propulsion, and flight mechanics
 - [Internal combustion engines](../energy/engine.md) — aircraft powerplant design and fuels
@@ -215,7 +215,7 @@ Light aircraft — single-engine propeller planes of wood-and-fabric or aluminum
 
 **Aircraft registration and documentation**: Every aircraft must carry a Certificate of Registration (establishes ownership and nationality), Certificate of Airworthiness (confirms the aircraft meets its type design and is in a condition for safe operation), radio station license (if equipped with VHF radio), weight and balance report (current empty weight and CG from the most recent weighing — required after major repairs, paint, or equipment changes that alter the empty weight by >1%), and aircraft operating handbook (AOH or POH — Pilot's Operating Handbook, the manufacturer's approved flight manual specific to the aircraft serial number, containing performance tables, limitations, emergency procedures, and systems descriptions). The POH is the authoritative reference — in any conflict between the POH and general guidance, the POH prevails. Aircraft logbooks: airframe log (all maintenance, repairs, modifications, and inspections recorded chronologically with date, tachometer time, description of work, mechanic signature, and certificate number), engine log (same format, tracking all engine maintenance including oil changes, cylinder replacements, and overhaul history), and propeller log (tracking propeller hours, overhaul, and any blade repairs).
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

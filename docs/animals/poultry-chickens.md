@@ -14,7 +14,7 @@ Chickens are the most widely kept poultry species worldwide, descended from the 
 
 Mature weight ranges from 1.5-2.5 kg for hens to 2.5-3.5 kg for roosters in dual-purpose breeds. Point-of-lay occurs at 18-22 weeks. Broilers reach slaughter weight (2.0-2.5 kg) at 6-8 weeks on intensive feed, or 12-16 weeks on range. A well-managed laying hen produces 200-300 eggs per year in modern breeds, 150-200 in heritage breeds, with each egg weighing 50-65 g.
 
-### Prerequisites
+## Prerequisites
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|

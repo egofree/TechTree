@@ -14,7 +14,7 @@ Domestic ducks comprise two primary species: the mallard-derived duck (*Anas pla
 
 Duck eggs are larger than chicken eggs (70-80 g vs 50-65 g), richer in fat and protein, and prized for baking (higher egg white protein produces lighter, higher-rising cakes and pastries). Duck breeds range from the prolific Khaki Campbell (250-340 eggs per year) to the heavy Pekin (4-5 kg, the standard meat duck). Adult weight spans 1.5-5 kg depending on breed, with Muscovy drakes reaching 5-7 kg. Ducks are generally more disease-resistant than chickens and better suited to free-range systems in damp climates.
 
-### Prerequisites
+## Prerequisites
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|

@@ -8,11 +8,11 @@
 > **Outputs**: hydrogen, silane, trichlorosilane
 > **Critical**: Yes — silane (SiH₄) is the primary silicon source for semiconductor CVD processes. Trichlorosilane (SiHCl₃) feeds the Siemens polysilicon process. Ultra-pure hydrogen is required for semiconductor fabrication and ammonia synthesis.
 
-### Problem
+## Problem
 
 Semiconductor manufacturing and ammonia synthesis both require ultra-pure hydrogen and silicon-bearing gases. Silane (SiH₄) is the primary silicon source for CVD deposition; trichlorosilane (SiHCl₃) feeds the Siemens polysilicon process. Neither gas occurs naturally — both must be synthesized from metallurgical-grade silicon through multi-step chemical processes with extreme purity requirements (<1 ppb impurities for semiconductor grade). The gases are pyrophoric, toxic, and corrosive, demanding inert-atmosphere handling at every stage.
 
-### Prerequisites
+## Prerequisites
 
 - [Electrolysis](electrolysis.md) — alkaline water electrolysis for hydrogen production
 - [Gas handling](../gas-handling/basic.md) — piping, valves, and inert-atmosphere systems
@@ -225,7 +225,7 @@ For bootstrapping, alkaline electrolysis is the clear choice: proven technology 
 - **Ultra-purification difficulty**: Semiconductor-grade polysilicon requires impurity levels below 1 ppb for most elements (10⁻¹⁰ atomic fraction). Achieving this from metallurgical-grade silicon (98-99% purity) requires multiple chemical conversion and distillation steps. Each step introduces yield loss and contamination risk.
 - **Chlorosilane corrosion**: TCS, DCS, and STC are corrosive and hydrolyze to HCl and silicic acid on contact with moisture. Equipment must be stainless steel 316L (minimum) with welded connections — no threaded fittings. Leaks produce HCl gas, attacking both equipment and personnel.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

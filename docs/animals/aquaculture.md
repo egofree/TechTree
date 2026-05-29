@@ -8,13 +8,13 @@
 > **Outputs**: fish, shellfish, fish_oil, dried_fish, smoked_fish, fish_sauce, fish_guano
 > **Critical**: Yes — highest protein conversion efficiency of any animal production system
 
-### Problem
+## Problem
 
 Aquaculture converts water surfaces into protein production systems. Fish convert feed to body mass at ratios of 1.2-2.0:1 (kg feed per kg gain), far more efficient than any land livestock. A 1000 m² pond stocked with carp can produce 200-600 kg of fish per year on minimal supplemental feeding, yielding protein that requires no pasture, no fencing, and no winter housing.
 
 The practice splits into freshwater pond farming (the primary focus here) and coastal shellfish cultivation. Both rely on the same principles: provide the right environment, stock at appropriate densities, and manage water quality. Pond fish farming works from stone-age materials alone. Clay for lining, timber for drains, woven nets for harvest, and manure for fertilizing the water column.
 
-### Prerequisites
+## Prerequisites
 
 - [Insect farming](insect-farming.md) — insect meal as supplemental fish feed
 - [Basic tools](../foundations/tools-basic.md) — digging, net-making, and construction implements
@@ -213,7 +213,7 @@ Seed clams in sandy or muddy intertidal areas. Mark beds with stakes. Clams grow
 
 **Water quality hazards**: Stagnant pond water can harbor *Leptospira* bacteria (from rodent urine), *Naegleria fowleri* (in warm freshwater), and harmful algal blooms (cyanobacteria, recognizable by blue-green surface scum). Do not drink untreated pond water. Avoid swimming in or contacting water with visible algal scum. Filter or boil all water drawn from ponds before consumption.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

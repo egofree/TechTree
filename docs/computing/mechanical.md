@@ -8,11 +8,11 @@
 > **Outputs**: calculation_aids
 > **Critical**: No — computing enhances capability but is not strictly required for survival
 
-### Problem
+## Problem
 
 Engineering, navigation, ballistics, and bookkeeping all require arithmetic — lots of it. Hand calculation is slow and error-prone: multiplying two 6-digit numbers takes 2-3 minutes by hand, and a single digit transposition invalidates the result. Mechanical calculation aids and computing machines automate arithmetic, trading mechanical complexity for speed and reliability. From the abacus (addition/subtraction at 10-20 operations per second) through the slide rule (multiplication in 5 seconds) to the difference engine (tabulating polynomial tables without human intervention), each device extends the range of computation available before electronic computers exist.
 
-### Prerequisites
+## Prerequisites
 
 - [Machine tools](../machine-tools/index.md) — precision gear cutting, milling, and turning for mechanisms
 - [Mathematics](../mathematics/core-mathematics.md) — logarithms, polynomials, and numerical methods
@@ -227,7 +227,7 @@ Mechanical calculators represent numbers through physical position:
 - **3D cam (two-input function)**: A cylindrical cam with a groove or surface that varies in depth along its length (input 1: rotation) and along its axis (input 2: linear shift). A follower riding the groove outputs f(x, y). Used in fire control to compute range corrections as a function of both target range and wind speed.
 - **Manufacturing**: Cut cam profiles on a milling machine using a dividing head for angular positioning. For each angular position, set the cutter to the computed radial depth. Finish with filing and lapping. Hardened steel (Rockwell C 55-60) for wear resistance. The profile must be accurate to ±0.01 mm to achieve ±0.1% function accuracy.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

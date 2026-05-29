@@ -8,11 +8,11 @@
 > **Outputs**: electronic_computers
 > **Critical**: No — computing enhances capability but is not strictly required for survival
 
-### Problem
+## Problem
 
 Electronic computing replaces slow, power-hungry electromechanical relays and mechanical calculators with switching elements that operate at MHz–GHz speeds. A vacuum tube switches in microseconds (vs. 10 ms for a relay); a transistor switches in nanoseconds. This speed increase makes real-time computation, signal processing, and large-scale data handling possible. Without electronic computing, there are no digital controllers, no CAD tools, no semiconductor design automation — and therefore no path to the complex ICs that modern technology depends on.
 
-### Prerequisites
+## Prerequisites
 
 - [Electromechanical computing](electromechanical.md) — relay logic, memory, and I/O concepts
 - [Electronics assembly](../electronics/assembly.md) — PCBs, soldering, and component integration
@@ -230,7 +230,7 @@ The EDVAC (Electronic Discrete Variable Automatic Computer), described in John v
 - **[Video display terminal](../glossary/video-display-terminal.md)** (1970s): 9,600 baud serial, 24 × 80 character CRT display. Cursor addressing enables full-screen editing.
 - **[Graphics display](../glossary/graphics-display.md)** (1970s-1980s): Bitmapped 1024 × 768 pixels. Frame buffer memory maps to screen. Enables CAD, visualization, GUIs.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

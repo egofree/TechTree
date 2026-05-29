@@ -213,7 +213,7 @@ The loader reads an executable file into memory and starts execution:
 
 **Cross-assembler strategy**: Write the assembler to run on an already-working computer (the "host"), generating object code for the target machine. This eliminates the need to write the first assembler in machine code — the host's existing tools handle source editing, file I/O, and debugging. Transfer the assembled binary to the target via paper tape or serial link.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

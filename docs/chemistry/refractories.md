@@ -12,7 +12,7 @@
 
 Refractories are heat-resistant ceramic materials that line furnaces, kilns, incinerators, and reactors — maintaining structural integrity at temperatures above 1500°C while resisting chemical attack by molten metals, slags, and hot gases. Without refractories, no metallurgy, glass melting, cement production, or high-temperature chemical processing is possible. They are consumable materials — furnace linings wear and must be periodically replaced. A typical steelmaking shop consumes 6-15 kg of refractories per tonne of steel produced.
 
-### Prerequisites
+## Prerequisites
 
 - [Ceramic kilns](../ceramics/kilns.md) — firing refractory bricks to 1200-1600°C
 - [Mining and processing](../mining/processing.md) — clay, bauxite, magnesite, and silica raw materials
@@ -214,7 +214,7 @@ Magnesite bricks (MgO >85%) are the foundation of basic steelmaking refractories
 
 **Refractory selection decision tree**: Start with process temperature (determines refractoriness requirement), then consider the chemical environment (basic vs. acidic slag, reducing vs. oxidizing atmosphere), then mechanical loading (abrasion, impact, structural load), then thermal cycling frequency (determines thermal shock requirement), and finally cost and availability. For most applications, fireclay bricks are the first choice and are upgraded only when they fail prematurely.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

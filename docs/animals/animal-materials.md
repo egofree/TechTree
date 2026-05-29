@@ -14,7 +14,7 @@ Animals supply a suite of structural, binding, and chemical materials that no pl
 
 The chain runs from the carcass to finished material through a series of mechanical and chemical steps: fleshing and dehairing hides, rendering fat at controlled temperatures, scouring and carding wool, soaking and pressing horn, and boiling collagen into glue. Each process has specific temperature windows, reagent ratios, and time requirements that determine the quality of the output.
 
-### Prerequisites
+## Prerequisites
 
 - [Cattle](cattle.md) — hides, tallow, horn, bone, and sinew supply
 - [Sheep](sheep.md) — wool and sheepskin
@@ -212,7 +212,7 @@ Animal blood, often wasted, has several industrial uses.
 - **Rendering fumes**: Heating fat produces acrolein and other irritating fumes. Render outdoors or in a space with good cross-ventilation. Prolonged exposure to rendering smoke causes respiratory irritation.
 - **Hide glue temperature**: The glue pot operates at 50-60°C, hot enough to cause burns. Use tongs or a brush for application, not bare hands.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

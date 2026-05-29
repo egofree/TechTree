@@ -197,7 +197,7 @@ Once the bootstrap loader is toggled in and verified (24 bytes, ~10 minutes), it
 
 **Cross-development alternative**: If another working computer exists, write and assemble programs on the host machine, then transfer the binary to the target machine via paper tape or serial link. This eliminates hand-toggling for all programs except the initial bootstrap loader.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

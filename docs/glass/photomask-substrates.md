@@ -8,13 +8,13 @@
 > **Outputs**: photomask_blanks, ule_glass, precision_optical_substrates
 > **Critical**: Yes — photomask substrates directly determine minimum feature size and yield in IC fabrication; no photolithography without them
 
-### Problem
+## Problem
 
 Photomask substrates are the flat glass plates that carry the circuit pattern image projected onto silicon wafers during photolithography. A photomask blank consists of an ultra-flat glass substrate, a thin opaque film (typically chromium, 60-100 nm), and optionally an anti-reflective coating. The glass substrate must be dimensionally stable, optically transparent at exposure wavelengths, and free of defects that would print onto the wafer. Photomask quality directly determines the yield and minimum feature size achievable in IC fabrication — a single substrate defect can render an entire wafer useless.
 
 Photomask substrates demand glass tolerances 10-100× tighter than standard optical glass. Where a telescope mirror might accept λ/4 (158 nm at 633 nm) surface error over its aperture, a photomask substrate must achieve flatness better than 250 nm over the entire 152 mm × 152 mm (6-inch) active area, with near-zero thermal expansion to prevent pattern distortion during exposure.
 
-### Prerequisites
+## Prerequisites
 
 - [Advanced glass](advanced.md) — fused silica production, precision melting and forming
 - [Photolithography fab processes](../photolithography/fab-processes.md) — mask use in semiconductor fabrication
@@ -214,7 +214,7 @@ Damaged or obsolete photomask blanks can be reclaimed, reducing the cost of subs
 - **Yield**: Approximately 80-90% of blanks can be reclaimed after one use. After 2-3 reclamation cycles, accumulated surface damage and edge chips reduce yield to <50%. ULE blanks are typically not reclaimed due to their higher value and tighter specifications.
 - **Economics**: Reclamation costs ~20-30% of new blank cost, making it economically attractive for prototyping and development masks.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

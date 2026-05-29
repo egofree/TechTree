@@ -8,11 +8,11 @@
 > **Outputs**: draft_animals, wool, hides, milk, meat, dung
 > **Critical**: Yes — core knowledge for managing all livestock species productively
 
-### Problem
+## Problem
 
 A bootstrapping civilization needs reliable sources of labor, food, fiber, and fertilizer. Wild animal populations cannot sustainably provide these at scale — hunting depletes stocks faster than they recover, and wild animals cannot be directed toward productive work. Animal husbandry transforms captive livestock into a managed resource: draft power for plowing and transport (1-2 hp sustained per ox), milk and meat as concentrated protein sources, wool and hides for textiles, and manure to sustain crop yields. Without systematic breeding, feeding, health management, and seasonal planning, livestock herds stagnate, succumb to disease, and fail to meet settlement needs.
 
-### Prerequisites
+## Prerequisites
 
 - [Livestock domestication](domestication.md) — captive breeding populations of cattle, sheep, goats, pigs, or poultry
 - [Food and agriculture](../foundations/food-agriculture.md) — fodder production (pasture, hay, grain) to feed stock through winter
@@ -201,7 +201,7 @@ Wolves, coyotes, foxes, big cats, and birds of prey all threaten livestock. Loss
 
 **Castration methods**: Elastrator banding (rubber ring at 1-7 days) — testicles atrophy in 2-4 weeks. Burdizzo clamp (crush spermatic cord at 2-8 weeks) — no incision, lowest infection risk. Surgical removal (scalpel at 2-12 weeks) — most reliable, requires clean instruments and antiseptic. All methods require monitoring for infection for 7 days post-procedure.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

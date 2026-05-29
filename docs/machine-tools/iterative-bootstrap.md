@@ -8,11 +8,11 @@
 > **Outputs**: lathe, shaper, mill, drill_press, leadscrew, half_nut, change_gears
 > **Critical**: Yes — machine tools build machine tools; this bootstrap sequence is the only path from hand tools to precision machining
 
-### Problem
+## Problem
 
 Precision machines require precision parts, but precision parts require precision machines to make them. This circular dependency is the fundamental chicken-and-egg problem of industrialization. A lathe needs a flat bed and a true spindle, but making a flat bed requires a lathe to machine it. The solution is iterative: build a crude machine from hand tools and castings, use it to build a better machine, and repeat. Each generation of machines is more precise than the one that built it, and the precision improvements compound. The Gingery method — hand-scraped castings assembled into a lathe that builds a shaper that builds a mill — is the proven path from zero industrial base to a fully equipped machine shop.
 
-### Prerequisites
+## Prerequisites
 
 - [Casting](casting.md) — sand casting of iron and aluminum parts for machine frames and components
 - [Animal-derived materials](../animals/animal-materials.md) — hide glue, leather for belts, bone for polishing compounds
@@ -221,7 +221,7 @@ The compounding nature of this sequence is its greatest strength: once the surfa
 | 4 | Hardened steel (gauge blocks) | 5-10 kg | Heat treatment |
 | 5 | Tungsten carbide (probe tips) | 0.1-0.5 kg | Advanced materials |
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

@@ -8,11 +8,11 @@
 > **Outputs**: gutta_percha_sheet, cable_insulation, dental_points, molded_parts
 > **Critical**: No — uniquely useful for submarine cable insulation, but not a civilization-wide bottleneck
 
-### Problem
+## Problem
 
 Submarine telegraph cables require an insulation material that is waterproof, electrically insulating, resistant to biological degradation in seawater, and manufacturable in continuous lengths around a copper conductor. Before synthetic polymers, no material except gutta-percha combined all four properties. Natural rubber absorbs too much water (~1% vs. <0.2%), causing electrical leakage. Waxed cloth is porous. Lead sheathing is too heavy and inflexible. Glass and ceramic are rigid and brittle. Gutta-percha — a natural thermoplastic from tropical tree leaves — was the only material that made transatlantic telegraph communication possible for nearly 100 years (1840s-1940s).
 
-### Prerequisites
+## Prerequisites
 
 - [Rubber production](rubber.md) — basic elastomer and natural polymer processing knowledge
 - Tropical climate access — *Palaquium gutta* trees require lowland tropical rainforest conditions
@@ -185,7 +185,7 @@ Gutta-percha requires proper storage to maintain its properties:
 - **Crystallization**: Over time at room temperature, gutta-percha becomes more crystalline and therefore harder and more brittle. This is a gradual, irreversible process. Freshly processed material is more thermoplastic and easier to mold than aged material. The degree of crystallinity increases from ~55% (freshly processed) to ~65-70% (after 5-10 years storage).
 - **Biological resistance**: Gutta-percha is highly resistant to microbial attack, mold, and insect damage. This is why it survived for decades as submarine cable insulation — no other natural polymer material could resist marine biological degradation for such extended periods. Natural rubber, by contrast, is attacked by a range of microorganisms in seawater.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

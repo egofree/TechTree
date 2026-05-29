@@ -14,7 +14,7 @@ Draft animals were the primary motive force for agriculture, transport, mining, 
 
 The efficiency gap between a bad harness and a good one is enormous. A horse in a breast strap harness tops out around 500 kg of draw. The same horse in a proper collar harness pulls 1500-2000 kg. That threefold improvement costs nothing but knowledge and some padded leather. Getting harnessing right is the single highest-return investment in the draft power chain.
 
-### Prerequisites
+## Prerequisites
 
 - [Cattle](cattle.md) — oxen as the primary draft animals
 - [Equines](equines.md) — horses and mules for faster draft work
@@ -222,7 +222,7 @@ Inspect harness leather before each work day. Check for:
 
 A broken trace under full load causes the animal to lunge sideways, potentially spooking, bolting, or overturning the load. The harness is a safety-critical system, not just a convenience.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

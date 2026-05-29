@@ -12,7 +12,7 @@
 
 Computing requires persistent, reliable data storage. Programs, datasets, operating systems, and intermediate results must survive power cycles. Storage technology spans a vast range: from punch cards (the earliest automated data media) through magnetic recording (the backbone of mass storage for seven decades) to solid-state flash memory (the modern standard). Each technology trades off capacity, speed, cost, longevity, and manufacturing complexity. Understanding these tradeoffs is essential for choosing the right storage at each stage of the bootstrapping process.
 
-### Prerequisites
+## Prerequisites
 
 - [Computing fundamentals](./index.md) — digital logic, binary encoding, and basic computer architecture
 - [Paper production](../chemistry/pulp-chemicals.md) — for punch cards and paper tape (earliest storage media)
@@ -207,7 +207,7 @@ Each layer is roughly 10-100× slower but 10-100× cheaper per bit than the laye
 - **Tape handling**: Magnetic tape stretches under tension, causing data errors. Reel-to-reel tapes must be stored at 18-24°C and 30-50% relative humidity. High humidity causes binder hydrolysis (sticky-shed syndrome): the tape binder absorbs moisture and becomes gummy, sticking to the read head and shedding oxide. Bake affected tapes at 50°C for 8-24 hours to temporarily restore playability. Never touch the recording surface of any magnetic media: skin oils contaminate the head-tape interface.
 - **Data integrity**: All storage media degrade over time. Magnetic media lose signal amplitude (print-through from adjacent layers, thermal demagnetization) at 0.5-2% per decade. Optical discs suffer from disc rot (delamination of the reflective layer in poorly sealed discs). Flash memory loses charge from floating gates over time: typical data retention is 10-20 years at room temperature, but only 1-3 years at elevated temperatures (85°C). Regular data migration (copying to fresh media) is the only reliable archival strategy.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

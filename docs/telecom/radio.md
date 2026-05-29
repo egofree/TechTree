@@ -8,11 +8,11 @@
 > **Outputs**: radio_communication, wireless_telegraphy, broadcast_capability
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival
 
-### Problem
+## Problem
 
 Wired communication (telegraph, telephone) requires physical infrastructure — poles, wires, and cable-laying across terrain. This limits communication to locations connected by wire, making it impossible to reach ships at sea, aircraft in flight, or remote settlements without enormous infrastructure investment. Radio communication eliminates the wire: electromagnetic waves propagate through free space, carrying information across oceans and over mountains with no physical connection between transmitter and receiver. The challenge is generating, modulating, detecting, and amplifying these waves with the technology available at each stage of the bootstrapping process — from spark-gap transmitters and crystal detectors (requiring only basic electrical components) to vacuum tube transmitters and superheterodyne receivers (requiring glassblowing and vacuum technology).
 
-### Prerequisites
+## Prerequisites
 
 - [Electricity](../energy/electricity.md) — power generation for transmitters and receivers
 - [Electric Telegraph](electric-telegraph.md) — Morse code, keying techniques, and telegraph operating practice

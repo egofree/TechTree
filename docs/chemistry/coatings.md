@@ -12,7 +12,7 @@
 
 Protective and decorative coatings prevent corrosion (the largest single cause of material degradation — estimated $2.5 trillion annual global cost), provide wear resistance, thermal insulation, electrical insulation, and aesthetic appearance. Inks enable printing — essential for marking, labeling, circuit board fabrication (screen-printed thick films), and photolithography (photoresists). This capability bridges basic chemistry (pigments, binders, solvents) with advanced materials engineering (semiconductor photoresists, thermal barrier coatings). Without coatings, steel structures rust, wood rots, and circuits cannot be patterned.
 
-### Prerequisites
+## Prerequisites
 
 - [Acids](acids.md) — chemical processing and pigment production
 - [Petroleum alternatives](petroleum-alternatives.md) — solvents and synthetic resin feedstocks
@@ -223,7 +223,7 @@ PVC (pigment volume concentration) is the fundamental concept in paint formulati
 
 The coatings industry continues to evolve toward lower VOC, higher durability, and more sustainable raw materials, driven by regulation and customer demand for longer-lasting, more environmentally responsible products.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

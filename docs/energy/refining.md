@@ -12,7 +12,7 @@
 
 Energy refining covers the processing of crude fuels into usable forms: fractional distillation of petroleum, coal tar distillation, wood tar processing, and thermal cracking. These refined products power internal combustion engines, gas turbines, and chemical synthesis, and provide feedstocks for the petrochemical industry. Crude petroleum and raw coal tar are not directly usable in engines or chemical processes — they must be separated into fractions with defined boiling ranges and properties.
 
-### Prerequisites
+## Prerequisites
 
 - [Fuels](fuels.md) — raw fuel sources and combustion fundamentals
 - [Mining](../mining/index.md) — petroleum and coal extraction
@@ -211,7 +211,7 @@ Raw natural gas from wells contains methane (70-90%), ethane (1-10%), propane/bu
 
 **LNG (liquefied natural gas)**: Cool purified natural gas to -162°C at atmospheric pressure. Volume reduction: 600× (density 0.45 g/mL as liquid vs. gas at STP). Stored in double-wall insulated tanks (inner: 9% Ni steel, outer: carbon steel, perlite insulation). Boil-off rate: 0.05-0.15% per day. Regasification: seawater or submerged combustion vaporizers at 5-15 kg/s flow rate per LNG terminal. Liquefaction energy: ~850 kWh/tonne (12-15% of gas energy content).
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

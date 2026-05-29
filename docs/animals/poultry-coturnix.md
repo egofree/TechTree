@@ -14,7 +14,7 @@ The Japanese quail (*Coturnix japonica*) is the smallest domesticated poultry sp
 
 Quail have been domesticated for over 1,000 years, originally in Japan and East Asia for song and egg production. Their small size, quiet nature, and minimal infrastructure requirements make them the fastest poultry species to establish productive output from scratch. A setup of 20 quail hens in 0.5 m² of floor space produces 15-20 eggs per day while consuming less than 500 g of feed daily.
 
-### Prerequisites
+## Prerequisites
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|

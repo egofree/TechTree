@@ -8,7 +8,7 @@
 > **Outputs**: fiberglass, insulation_wool, optical_fiber, composite_reinforcement
 > **Critical**: No — glass fibers improve composites and insulation but alternatives (metal, ceramic wool) exist
 
-### Problem
+## Problem
 
 Glass fibers are filaments of glass drawn to diameters of 5-25 μm (a human hair is 50-100 μm). At these dimensions, glass becomes flexible: it can be woven, felted, or chopped and embedded in a polymer matrix to make composite materials. The three main product families are continuous fiberglass (for structural composites), glass wool (for thermal insulation), and optical fiber (for signal transmission).
 
@@ -16,7 +16,7 @@ Each product family uses a different glass composition, forming process, and pos
 
 The ratio of glass surface area to volume increases by a factor of 10,000-100,000 when going from bulk glass to fiber form. This enormous surface area makes glass fibers chemically active (vulnerable to moisture attack) and is the reason sizing (protective coating) must be applied immediately after forming.
 
-### Prerequisites
+## Prerequisites
 
 - [Glass production](./index.md) — basic glass melting and forming
 - [Advanced glass](advanced.md) — specialty glass compositions (E-glass, fused silica)
@@ -217,7 +217,7 @@ Fiberglass is rarely used as bare fiber. Its value is as reinforcement in a poly
 
 **Vacuum bag improvements**: Applying vacuum (80-95 kPa) over the hand layup compresses the laminate, squeezing out excess resin and increasing fiber content from 25-35% to 40-55% by weight. The resulting laminate has 30-50% higher flexural strength and 20-30% lower weight than a hand layup of the same thickness. The vacuum also eliminates voids (trapped air) that concentrate stress and initiate cracks.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

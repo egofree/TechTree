@@ -12,7 +12,7 @@
 
 Helmeted guinea fowl (*Numida meleagris*) are hardy, disease-resistant poultry originally domesticated in Africa. Weighing just 1.2-1.6 kg, they are smaller than chickens but excel in two unique roles: pest control and guardianship. Guinea fowl actively hunt ticks, insects, small rodents, and snakes — a flock of 20-30 birds can significantly reduce tick populations across 1-2 hectares. Their loud, raucous alarm calls at the approach of predators or strangers make them effective living alarms for other poultry and livestock. Guinea fowl are extremely hardy, disease-resistant, and thrive on free-range systems with minimal supplemental feed.
 
-### Prerequisites
+## Prerequisites
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|

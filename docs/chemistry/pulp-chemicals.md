@@ -12,7 +12,7 @@
 
 Pulp and paper chemicals enable the conversion of wood and plant fibers into paper, cardboard, and cellulose-derived materials. The industry consumes enormous volumes of chemicals: sodium hydroxide (NaOH), sodium sulfide (Na₂S), chlorine dioxide (ClO₂), hydrogen peroxide (H₂O₂), sulfuric acid (H₂SO₄), alum (aluminum sulfate), and various sizing and coating agents. Beyond paper, the kraft pulping process yields tall oil (rosin, fatty acids) and lignin as valuable chemical byproducts, and dissolving-grade pulp is the feedstock for regenerated cellulose (viscose rayon, cellulose acetate, and emerging nanocellulose materials).
 
-### Prerequisites
+## Prerequisites
 
 - [Alkalis](alkalis.md) — sodium hydroxide for kraft pulping and bleaching
 - [Electrolysis](electrolysis.md) — chlorine and sodium hydroxide production
@@ -215,7 +215,7 @@ The kraft chemical cycle is one of the most elegant closed-loop chemical process
 
 The global shift toward sustainable packaging is driving renewed investment in cellulose-based materials, positioning pulp chemistry as a growth industry for the 21st century.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

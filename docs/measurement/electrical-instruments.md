@@ -12,7 +12,7 @@
 
 Electrical systems cannot be built or maintained without measurement. You need to know voltage (is the generator producing what it should?), current (is the load drawing too much?), resistance (is the insulation intact?), frequency (is the alternator spinning at the right speed?), and waveform (is the AC output clean or distorted?). This page covers the instruments that answer these questions, from the fundamental galvanometer movement through digital multimeters, oscilloscopes, and specialized testers.
 
-### Prerequisites
+## Prerequisites
 
 - [Electricity](../energy/electricity.md) — power generation, voltage, current, and circuit fundamentals
 - [Measurement fundamentals](./index.md) — calibration philosophy and traceability
@@ -214,7 +214,7 @@ Beyond the standard instruments listed above, several specialized measurements a
 - **Calibration dependency**: All electrical instruments drift with time, temperature, and mechanical shock. Resistors change value with aging. Meter movements lose magnetic strength. Calibration against known standards (standard cells, precision resistors) must be performed every 6-12 months for instruments used in critical measurements.
 - **CRT oscilloscope complexity**: A cathode-ray tube oscilloscope requires a vacuum tube CRT, high-voltage power supply (1-5 kV for acceleration), sweep circuitry, and vertical amplifiers. This represents a significant electronics manufacturing capability. Simpler alternatives (moving-coil meters with rectifiers) sacrifice waveform visualization.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

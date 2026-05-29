@@ -8,11 +8,11 @@
 > **Outputs**: automated_machines, punch_cards
 > **Critical**: No — computing enhances capability but is not strictly required for survival
 
-### Problem
+## Problem
 
 Before electronic computers, automated computation and control require electromechanical systems — relays, cams, solenoids, and punch card machines that process information using physical motion rather than electron flow. These machines bridge the gap between purely mechanical automation (gears and cams) and electronic computing (transistors and integrated circuits). Relay logic can perform any Boolean operation; punch card systems can sort, tabulate, and process datasets of millions of records; magnetic drums provide random-access storage. The challenge is that electromechanical devices are slow (relay switching at 5-15 ms vs. transistors at nanoseconds), power-hungry (1-4 kW for a 2,000-relay computer), and failure-prone (MTBF ~10⁷ operations per relay). Understanding these systems is essential for the computing bootstrap path from mechanical to electronic.
 
-### Prerequisites
+## Prerequisites
 
 - [Mechanical computing](mechanical.md) — cams, linkages, governors, and mechanical automation
 - [Electricity](../energy/electricity.md) — power generation and distribution for relay and solenoid systems
@@ -213,7 +213,7 @@ Before electronic computers, automated computation and control require electrome
 - **Exchange sizing**: A 1,000-line exchange uses 100 two-motion selectors (10 groups of 10). Each subscriber line connects to a line finder (which hunts for an idle selector when the subscriber lifts the handset). The selector then receives dialed pulses and routes the call. For 10,000 subscribers, add a second selector stage: first two digits route through a "group selector" to one of 100 final selectors, last two digits select the line. Switching time: 2-5 seconds per digit.
 - **Mechanical life**: Each selector performs millions of stepping operations. Contact wear and wiper alignment drift require periodic maintenance. A 10,000-line exchange contains roughly 200-400 selectors and requires full-time maintenance staff.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

@@ -12,7 +12,7 @@
 
 Organic chemistry feedstocks fuel the entire materials chain: solvents for semiconductor processing, polymers for packaging and cleanrooms, fuels for transport and furnaces. Without them, the chemical industry stalls at inorganic bulk chemicals. The good news is that there are two independent paths to these molecules. Petroleum is the fast lane; coal tar and fermentation are the reliable fallback.
 
-### Prerequisites
+## Prerequisites
 
 - [Basic tools](../foundations/tools-basic.md) — drilling equipment, retorts, and processing vessels
 - [Distillation](distillation.md) — fractional distillation of crude oil, coal tar, and wood vinegar
@@ -212,7 +212,7 @@ Raw natural gas contains methane (70-90%), ethane, propane, butane, CO₂, H₂S
 
 **Destructive Distillation of Wood**: Heating hardwood (oak, beech) in a retort at 400-500C without air produces charcoal (25-35% yield), wood tar (15-20%, contains creosote, acetic acid, methanol), pyroligneous acid (wood vinegar: 5-10% acetic acid, 2-3% methanol, 0.5-1% acetone), and wood gas (CO, H2, CH4, CO2 — calorific value 5-10 MJ/m3). Acetic acid from wood vinegar was the primary source before synthetic routes via methanol carbonylation. Methanol ("wood alcohol") was produced this way until the 1920s when catalytic synthesis from syngas became dominant. The charcoal is suitable for metallurgy; the creosote from tar is used as wood preservative (railroad ties, utility poles, 20-30 year service life).
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

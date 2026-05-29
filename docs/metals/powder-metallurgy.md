@@ -8,13 +8,13 @@
 > **Outputs**: tungsten products, cemented carbides, PM structural parts, MIM components, additive manufactured parts
 > **Critical**: Yes — tungsten filaments, cemented carbide tooling, and specialty alloys cannot be produced any other way
 
-### Problem
+## Problem
 
 Powder metallurgy (PM) encompasses all processes that form metal components from powdered feedstock rather than molten metal. This distinction is critical because many important metals — tungsten (mp 3422°C), molybdenum (mp 2623°C), tantalum (mp 3017°C) — have melting points so extreme that conventional casting is impractical or impossible. PM also enables near-net-shape manufacturing with minimal material waste (95-98% material utilization vs. 50-70% for machining from billet), compositional freedom (immiscible alloys, graded structures), and microstructural control impossible in ingot metallurgy.
 
 The technology chain runs from powder production → blending → compaction → sintering → post-processing. Each stage is a distinct industrial process with its own equipment, quality parameters, and failure modes. The field has expanded dramatically from simple pressed-and-sintered iron bushings (1920s) to metal injection molded surgical instruments, hot isostatically pressed superalloy turbine disks, and laser-sintered titanium aerospace brackets.
 
-### Prerequisites
+## Prerequisites
 
 - [Alloys](alloys.md) — alloy design, phase diagrams, heat treatment fundamentals
 - [Electric furnaces](../energy/electric-furnaces.md) — sintering temperatures (1100-2500°C)
@@ -218,7 +218,7 @@ SHS (also called combustion synthesis) exploits highly exothermic powder reactio
 - Nickel carbonyl Ni(CO)₄: Extremely toxic gas (TLV 0.001 ppm). Colorless, volatile (bp 43°C), readily absorbed through lungs and skin. Symptoms: headache, nausea, chest pain at low exposure; pulmonary edema and death at high exposure. Carbonyl nickel plants require continuous air monitoring, sealed process equipment, and thermal destructors on exhaust streams. Emergency response: immediate evacuation, SCBA for rescue, chelation therapy (sodium diethyldithiocarbamate) for exposed personnel.
 - Iron pentacarbonyl Fe(CO)₅: Less toxic than Ni(CO)₄ but still hazardous (TLV 0.1 ppm). Decomposes to fine iron oxide fume — both the carbonyl and decomposition products require exposure control.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

@@ -12,7 +12,7 @@
 
 Domestic turkeys (*Meleagris gallopavo*) are the largest poultry species commonly raised for meat. Originating from the wild turkey of North America, domestic turkeys produce substantially more meat per bird than chickens — mature toms reach 8-15 kg while hens reach 4-8 kg. Turkeys require more space and different management than chickens but yield a premium carcass with a distinctive flavor profile valued for special occasions and diverse culinary applications. Their manure is nitrogen-rich (approximately 1.3% N, 1.0% P, 0.5% K), making it a valuable soil amendment.
 
-### Prerequisites
+## Prerequisites
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|

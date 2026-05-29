@@ -16,7 +16,7 @@ Geese serve multiple roles beyond meat and egg production: they are effective we
 
 Egg production is modest (30-50 eggs per year) but each egg is substantial (150-200 g, roughly three times the weight of a chicken egg). Geese are seasonal layers, producing eggs primarily in late winter through spring (February to May in the northern hemisphere). Their strong pair bonds, territorial nature, and longevity make them unique among poultry — geese recognize individual humans and respond differently to familiar keepers versus strangers.
 
-### Prerequisites
+## Prerequisites
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|

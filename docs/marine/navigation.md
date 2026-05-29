@@ -8,11 +8,11 @@
 > **Outputs**: navigation instruments, nautical charts, position fixing
 > **Critical**: No — specialized maritime capability, not required for land-based civilization
 
-### Problem
+## Problem
 
 Crossing open ocean beyond sight of land requires knowing your position (latitude and longitude) and your heading. Without navigation, a vessel is lost as soon as land disappears over the horizon — unable to reach a destination, unable to return home, and at the mercy of winds and currents. Latitude can be determined from the sun or pole star with simple instruments, but longitude requires an accurate clock (chronometer) or complex lunar observations. The challenge is building instruments and knowledge systems precise enough to fix position within miles across thousands of miles of featureless ocean — getting it wrong by even 1° means being 60 nautical miles off course, which in coastal waters means shipwreck.
 
-### Prerequisites
+## Prerequisites
 
 - [Writing systems](../knowledge/writing.md) — recording observations, charts, and navigation tables
 - [Metals](../metals/index.md) — iron and steel for compass needles, sextant frames, and chronometer parts
@@ -211,7 +211,7 @@ Estimating current position from a known starting point by tracking course and d
 - **Chronometer failure**: Without accurate time, longitude cannot be determined. Use lunar distance method (measure angle between moon and a reference star, consult nautical almanac) — complex but doesn't require a chronometer. Accuracy ±20-30 nm.
 - **Fog and reduced visibility**: Sound fog signals (bell, horn) at regulated intervals. Reduce speed. Post extra lookouts. Use radar if available.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

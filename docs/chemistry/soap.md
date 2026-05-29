@@ -8,13 +8,13 @@
 > **Outputs**: soap, glycerol, detergent
 > **Critical**: No — soap and detergents improve sanitation but are not prerequisites for core industrial capabilities
 
-### Problem
+## Problem
 
 Saponification — the reaction of fats or oils with alkali — is arguably the oldest chemical reaction performed at industrial scale. Soap has been manufactured for at least 4,500 years (Babylonian clay tablets circa 2800 BCE describe fat + ash mixtures). The chemistry is deceptively simple: triglyceride + alkali → soap salt + glycerol. Yet this reaction underpins hygiene, public health, textile manufacturing, metalworking, and — via glycerol recovery — explosives production.
 
 Beyond hygiene, soap and its derivatives are critical for textile processing (wool scouring, cotton preparation), metal degreasing (before plating, painting, heat treatment), emulsion polymerization (PVC, synthetic rubber), and as feedstock for glycerol recovery (which feeds explosives production via nitroglycerin). Synthetic detergents extend soap's functionality into hard water and acidic conditions where conventional soap precipitates as insoluble calcium salts.
 
-### Prerequisites
+## Prerequisites
 
 - [Alkalis](alkalis.md) — NaOH and KOH production for saponification
 - [Petroleum alternatives](petroleum-alternatives.md) — feedstocks for synthetic detergents
@@ -228,7 +228,7 @@ Soap production scales with the alkali supply chain. The progression is:
 4. **[Continuous saponification and industrial finishing](../glossary/continuous-saponification-and-industrial-finishing.md)** (Years 20-30). Continuous reactors, spray drying, soap noodles, and automated bar finishing lines. Throughput: 10-100 tonnes/day. Co-located with fat rendering and glycerol recovery.
 5. **[Synthetic detergents](../glossary/synthetic-detergents.md)** (Years 25-30+). Requires petroleum cracking or Fischer-Tropsch synthesis for linear alkenes (see [Petroleum](petroleum-alternatives.md)), benzene, and SO₃ sulfonation capability. LAS-based detergents replace soap in hard-water regions and industrial applications.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

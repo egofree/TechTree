@@ -12,7 +12,7 @@
 
 Chemical analysis, material identification, and dimensional metrology at sub-micrometer precision all depend on optical instruments that measure how light interacts with matter. Spectroscopy identifies elements by their emission and absorption fingerprints. Refractometry quantifies solution concentration. Interferometry measures length to nanometer resolution. Without these instruments, semiconductor process control is guesswork.
 
-### Prerequisites
+## Prerequisites
 
 - [Measurement fundamentals](./index.md) — calibration philosophy and traceability
 - [Optics / Inspection](../optics/inspection.md) — lens grinding, polishing, and surface quality
@@ -220,7 +220,7 @@ A filar micrometer eyepiece contains a movable crosshair driven by a precision m
 - **Environmental sensitivity**: Interferometric measurements are sensitive to vibration (blurs fringes), temperature drift (shifts fringe pattern), and air turbulence (refractive index variations). These instruments work best on vibration-isolated tables in temperature-controlled rooms — infrastructure that may not be available.
 - **Scale limitations**: Visual spectroscopy detects absorption and emission features at ~0.1-1 nm resolution. Photographic recording extends this to ~0.01 nm. True high-resolution spectroscopy (grating spectrometers with CCD detectors at <0.001 nm) requires electronics and computing capability.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

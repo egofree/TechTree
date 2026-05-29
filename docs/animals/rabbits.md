@@ -12,7 +12,7 @@
 
 Rabbits (*Oryctolagus cuniculus*) are the highest-efficiency terrestrial livestock for converting plant material to meat. A single doe produces 180-300 kg of dressed meat per year through her offspring — more protein output per unit of feed than any other mammal. Rabbits require minimal space (stackable cages), reproduce rapidly (28-31 day gestation, 6-12 kits per litter, 4-6 litters per year), and reach slaughter weight in 10-12 weeks. Angora rabbits produce one of the finest natural fibers (12-16 microns), and rabbit manure is uniquely "cold" — it can be applied directly to growing crops without composting.
 
-### Prerequisites
+## Prerequisites
 
 - [Basic tools](../foundations/tools-basic.md) — wire, wood, and fasteners for cage construction
 - [Food and agriculture](../foundations/food-agriculture.md) — hay, greens, and grain for feed
@@ -214,7 +214,7 @@ A 10-doe rabbitry (1 buck) in 15-25 m² produces 300 kg dressed meat per year �
 
 **Guinea pig alternative**: In Andean regions, guinea pigs (*Cavia porcellus*) fill a similar niche at even smaller scale (0.5-1.2 kg adult weight) but with lower individual meat yield.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

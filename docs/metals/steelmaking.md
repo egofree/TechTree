@@ -8,13 +8,13 @@
 > **Outputs**: steel billets, slabs, blooms, flat products, long products
 > **Critical**: Yes — steel is the structural material of industrial civilization; no modern manufacturing without it
 
-### Problem
+## Problem
 
 Steelmaking is the refining of pig iron — 3.5-4.5% carbon, 1-3% silicon, 0.5-1.5% manganese, plus sulfur and phosphorus — into steel containing 0.02-1.5% carbon with tightly controlled residual elements. The fundamental chemistry is oxidation: dissolved carbon, silicon, manganese, and phosphorus are oxidized by blowing oxygen through or over the molten metal. The oxidized impurities either escape as gas (CO, CO₂) or partition into a basic slag (SiO₂, MnO, P₂O₅ as calcium compounds). Modern steelmaking produces ~1.9 billion tonnes annually, split between basic oxygen furnaces (~70%) and electric arc furnaces (~30%).
 
 The transition from pig iron to steel is the single most important metallurgical refinement. Pig iron is brittle (cast iron) and limited to cast shapes. Steel combines high strength with ductility, enabling structural sections, pressure vessels, wire, sheet, and every mechanical component of industrial civilization.
 
-### Prerequisites
+## Prerequisites
 
 - [Iron and steel fundamentals](iron-steel.md) — ore types, reduction chemistry, wrought iron
 - [Blast furnace](blast-furnace.md) — pig iron production (primary feedstock)
@@ -225,7 +225,7 @@ Steelmaking capability builds in stages, each requiring progressively more infra
 
 **Why steelmaking matters for bootstrapping**: Steel is the structural material of industrial civilization. Without it: no rails, no bridges, no pressure vessels, no machine tools, no automobiles, no ships, no high-rise buildings, no pipelines. Each stage of steelmaking development unlocks progressively more demanding applications — puddled steel for hand tools, Bessemer steel for rails and boilers, BOF + continuous casting for mass production, EAF + ladle refining for clean specialty grades. The steel plant is the heart of any industrial economy.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

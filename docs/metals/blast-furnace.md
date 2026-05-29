@@ -8,11 +8,11 @@
 > **Outputs**: pig_iron, gray_cast_iron, white_cast_iron, malleable_iron, sand_castings
 > **Critical**: Yes — blast furnace iron is the feedstock for all steelmaking; no path to steel without it
 
-### Problem
+## Problem
 
 The blast furnace is the key advancement from bloomery smelting. Where a bloomery reduces iron ore below its melting point (producing solid bloom that must be consolidated), the blast furnace achieves temperatures high enough to fully melt the iron, producing liquid pig iron that can be cast directly. This is the critical transition from wrought iron to cast iron production. Without liquid iron, there is no path to steelmaking at scale.
 
-### Prerequisites
+## Prerequisites
 
 - [Iron and steel fundamentals](iron-steel.md) — ore types, reduction chemistry, and iron properties
 - [Coke production](../energy/coke.md) — coke as blast furnace fuel and reductant
@@ -224,7 +224,7 @@ Direct reduction is an alternative to the blast furnace that produces solid iron
 - **Sand dust (silica)**: Molding sand contains fine silica. Chronic inhalation causes silicosis (progressive, irreversible lung disease). Wet sand during mixing to minimize airborne dust. Use local exhaust ventilation at sand mixing and shakeout stations. Wear respirators during mold making and shakeout operations.
 - **Heavy lifting**: Ladles of molten iron are extremely heavy. A 100 kg ladle of iron weighs ~200 kg including the ladle itself. Use proper mechanical lifting equipment (overhead crane, jib crane) for all ladle work. Never carry a full ladle manually.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

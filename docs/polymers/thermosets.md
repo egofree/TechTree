@@ -12,7 +12,7 @@ Thermosetting polymers are plastics that undergo an irreversible chemical reacti
 
 The major thermoset families — phenolic (Bakelite), epoxy, unsaturated polyester, polyurethane, and melamine-formaldehyde — serve distinct roles: phenolics for electrical insulation and heat-resistant components; epoxies for high-performance adhesives, coatings, and composite matrices; polyesters for fiberglass-reinforced structures (boats, tanks, pipes); polyurethanes for foams, elastomers, and coatings; and melamine for decorative laminates and dinnerware.
 
-### Prerequisites
+## Prerequisites
 
 - [Chemistry](../chemistry/index.md) — organic synthesis and polymerization fundamentals
 - [Petroleum alternatives](../chemistry/petroleum-alternatives.md) — feedstock chemicals for thermoset resins
@@ -216,7 +216,7 @@ Ordered by approximate phase availability:
 | Impact resistance | Brittle (rigid cross-linked network) | Tough to brittle (depends on polymer) |
 | Applications | Electrical insulation, adhesives, composites | Consumer products, packaging, engineering parts |
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

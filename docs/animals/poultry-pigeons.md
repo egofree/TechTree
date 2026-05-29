@@ -12,7 +12,7 @@
 
 Domestic pigeons (*Columba livia*) are among the most productive and low-maintenance poultry species. Bred for millennia for meat (squab), messaging, and fertilizer, pigeons offer unique advantages: they forage for much of their own food, breed year-round in managed conditions, and produce squab (26-30 day old juveniles) that reach 350-500 g dressed weight with minimal feed input. Pigeon guano is the richest common animal manure — approximately 4-5% nitrogen, 2-3% phosphorus, 1.5-2% potassium — making it a premium fertilizer worth more per kilogram than any other poultry manure. Pigeons also produce crop milk, a protein-rich secretion fed to squab by both parents, enabling exceptionally fast juvenile growth without external feed inputs for the first two weeks.
 
-### Prerequisites
+## Prerequisites
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|

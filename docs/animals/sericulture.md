@@ -8,11 +8,11 @@
 > **Outputs**: raw_silk, silk_thread, cocoons, sericin
 > **Critical**: No — silk is valuable but not essential for bootstrapping
 
-### Problem
+## Problem
 
 Textile production requires strong, fine, continuous fibers for weaving high-quality cloth. Wool and cotton are staple fibers (short lengths that must be spun), limiting thread strength and uniformity. Silk is the only natural continuous filament — a single cocoon yields 300-900 m of unbroken thread with higher strength-to-weight ratio than steel. For applications demanding fine, strong, lightweight fabric (parachutes, surgical sutures, electrical insulation, luxury textiles), no other natural fiber matches silk. The challenge is that silkworm rearing demands disciplined environmental control (±3°C, 70-80% humidity), a reliable mulberry leaf supply fed 3-4 times daily, and precise timing across a 25-30 day rearing cycle.
 
-### Prerequisites
+## Prerequisites
 
 - [Animal domestication](domestication.md) — principles of captive animal management
 - Mulberry trees (*Morus alba*) — the sole food source; requires 0.1-0.5 ha per silkworm rearing cycle
@@ -199,7 +199,7 @@ Silk's combination of high strength, low weight, and resistance to sudden loadin
 - **Electrical insulation**: Thin silk paper, layers of flattened silk thread bonded with shellac or varnish, insulates transformer windings and motor coils. Silk paper has higher dielectric strength than cotton and can be made thinner. This application persists in some high-voltage equipment.
 - **Sericin byproduct**: Recovered from degumming liquor by precipitation with alcohol or acid. Used as an adhesive, coating, and cosmetic ingredient.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

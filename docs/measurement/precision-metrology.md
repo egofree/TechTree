@@ -12,7 +12,7 @@
 
 Precision manufacturing (Machine Tools) and all semiconductor work requires consistent, calibrated measurement. Without standardized units and measuring instruments, interchangeable parts and repeatable processes are impossible. A machinist who cannot verify dimensions to ±0.01 mm cannot produce interchangeable parts. A semiconductor fab without calibrated flow meters and temperature sensors cannot control a process window.
 
-### Prerequisites
+## Prerequisites
 
 - [Foundations](../foundations/index.md) — basic counting, arithmetic, and record-keeping
 - [Machine tools / Casting](../machine-tools/casting.md) — cast iron for surface plates and straightedges
@@ -213,7 +213,7 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 - **Skill dependency**: Precision measurement is a manual skill requiring years of training. Reading a vernier scale to 0.02 mm, interpreting interferometric fringes, and correctly applying gauge blocks for comparative measurement all require trained operators. Automation (coordinate measuring machines, laser interferometers) reduces but does not eliminate skill requirements.
 - **Traceability gap**: In a bootstrap setting, no national metrology institute exists to provide primary standards. Local standards must be manufactured and maintained with internal procedures. The accuracy of all measurements traces back to the quality of these local standards, which may have uncertainties orders of magnitude larger than in a developed metrology infrastructure.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

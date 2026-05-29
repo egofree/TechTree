@@ -12,7 +12,7 @@
 
 Semiconductor manufacturing tolerances shrink with every generation. Photolithography lenses demand surface figures better than λ/20 (25 nm). Mask flatness must be within λ/10 per centimeter. Alignment stages require angular positioning to arcsecond accuracy. Producing and verifying these surfaces needs instruments that measure what the eye cannot see, pushing optical fabrication from craft into metrology-grade precision.
 
-### Prerequisites
+## Prerequisites
 
 - [Optics fundamentals](./index.md) — refraction, reflection, and basic lens design
 - [Inspection optics](inspection.md) — visual inspection standards and interferometric testing
@@ -215,7 +215,7 @@ Before any precision flatness measurement, the optical flat and the test piece m
 - **Environmental sensitivity**: Optical measurements are sensitive to temperature (thermal expansion shifts dimensions), vibration (blurs interferometric fringes), and air turbulence (refractive index variations). Precision measurements require temperature-controlled environments (20±0.5°C) and vibration-isolated tables — infrastructure that may not be available in early bootstrap.
 - **Scale of effort**: Producing a single precision optical flat (λ/10 over 100 mm diameter) requires 20-80 hours of skilled hand work plus testing. This is not a rapid-production process. Optical instrument production is inherently limited by skilled labor availability.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

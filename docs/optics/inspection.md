@@ -8,11 +8,11 @@
 > **Outputs**: lenses, microscopes, optical_comparators
 > **Critical**: No — optical inspection enhances quality control but parts can be made without it
 
-### Problem
+## Problem
 
 Manufacturing precision components requires verifying that surfaces, dimensions, and defects meet specification. The unaided human eye resolves ~100 μm features — far too coarse for machined tolerances (±0.01 mm) or optical surfaces (λ/4 = 160 nm flatness). Without magnification, interferometry, and comparison techniques, there is no way to confirm that a lens surface is correct, a machined part meets tolerance, or a semiconductor wafer is defect-free. Optical inspection bridges the gap between what the machine produces and what the specification demands.
 
-### Prerequisites
+## Prerequisites
 
 - [Glass production](../glass/index.md) — optical glass blanks for lenses and flats
 - [Machine tools](../machine-tools/index.md) — grinding, lapping, and polishing capability
@@ -218,7 +218,7 @@ Not every optical component can be inspected 100% (batch sizes in the hundreds o
 - **Surface preparation dependency**: Inspection accuracy depends on surface cleanliness and preparation. A scratch may be hidden by oil film; contamination may be mistaken for a surface defect. Proper cleaning (solvent wash, lint-free wipes) must precede critical inspections.
 - **Traceability gaps**: Without calibrated reference standards traceable to national metrology institutes, dimensional measurements have uncertain accuracy. Gauge blocks, optical flats, and angle standards provide local references but their absolute accuracy degrades over time through wear and corrosion.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

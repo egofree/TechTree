@@ -8,11 +8,11 @@
 > **Outputs**: anodized_aluminum, hard_anodized_surfaces, anodized_titanium, oxide_coatings
 > **Critical**: No — anodizing produces durable oxide coatings for semiconductor equipment but alternative surface treatments exist
 
-### Problem
+## Problem
 
 Aluminum components in corrosive, high-wear, or high-purity environments need surface protection that paint cannot provide and electroplating cannot deliver without adhesion failures. Anodizing grows a ceramic oxide layer directly from the aluminum substrate — the coating is integral to the metal and cannot peel, chip, or delaminate because it IS the metal, oxidized in place. The oxide thickness is voltage-controlled (1.2-1.4 nm/V), giving precise, repeatable coatings from 5 μm (decorative) to 100+ μm (hard anodizing for wear resistance). No other surface treatment produces an integral ceramic coating on aluminum with this level of control.
 
-### Prerequisites
+## Prerequisites
 
 - [Acids](../chemistry/acids.md) — sulfuric acid for Type II/III baths, oxalic acid additive
 - [Aluminum production](../metals/aluminum.md) — aluminum workpieces and alloy selection
@@ -216,7 +216,7 @@ Anodizing serves several specific functions in semiconductor equipment fabricati
 
 **Oxalic acid additive toxicity**: Oxalic acid (5-15 g/L) used as a burning suppressant in Type III baths is toxic if ingested (LD₅₀ ~375 mg/kg) and causes kidney damage from calcium oxalate crystal formation. Avoid skin contact. Do not eat or drink in the anodizing area.
 
-### Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|

@@ -2,10 +2,23 @@
 
 > **Node ID**: metals.refractory-specialty
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: `chemistry`, `metals`
+> **Dependencies**: [`chemistry`](../chemistry/index.md), [`metals`](./index.md), [`metals.refractory-metals`](refractory-metals.md)
 > **Enables**: [`metals.specialty-semiconductor`](specialty-semiconductor.md)
 > **Timeline**: Years 35-70
 > **Outputs**: tantalum sputtering targets, TaN/Ta diffusion barriers, cobalt silicide contacts, Co CMP slurries, ITO sputtering targets, InGaAs wafers, indium bump bonds
+> **Critical**: No — essential for advanced semiconductor nodes but not required for basic civilization infrastructure
+
+### Problem
+
+Modern GPU manufacturing requires three specialty metals that no other materials can replace. Tantalum forms the copper diffusion barrier (TaN/Ta liner) that prevents Cu from poisoning silicon devices — without it, copper interconnects kill transistors within hours. Cobalt silicide (CoSi₂) provides the lowest-resistance self-aligned contacts at sub-7 nm nodes, and cobalt-based CMP slurries planarize copper interconnects. Indium tin oxide (ITO) is the dominant transparent conductor for displays and touchscreens, while InGaAs enables high-speed photonics for optical interconnects. You can pattern features lithographically but cannot build functional contacts, barriers, or optical interfaces without these three metals.
+
+### Prerequisites
+
+- [Refractory metals](refractory-metals.md) — tantalum extraction from coltan ore (HF dissolution + MIBK solvent extraction)
+- [Chemistry](../chemistry/index.md) — HF, HNO₃, and solvent extraction for ore processing
+- [Non-ferrous metals](non-ferrous.md) — cobalt and indium smelting and refining
+- [Semiconductor fabrication](../photolithography/fab-processes.md) — sputtering, CMP, and thin-film processes
+- [Vacuum technology](../gas-handling/vacuum.md) — sputtering deposition systems
 
 ## Overview
 
@@ -204,6 +217,27 @@ The three metals in this document converge at specific points in GPU fabrication
 
 **Photonics**: InGaAs photodetectors are emerging as the receiver technology for optical interconnects between GPU chips in data center AI training clusters. As copper interconnects reach bandwidth-distance limits (~100 GB/s per lane at ~1 m), optical links using InGaAs receivers at 1.55 μm wavelength extend reach to 100+ m at >400 GB/s.
 
----
+### Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Metals](./index.md) · [Refractory Metals](refractory-metals.md) · [Non-Ferrous Metals](non-ferrous.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| β-Ta phase (high resistivity) in barrier | Insufficient substrate heating or contamination during sputtering | Increase substrate temperature to 300-400°C; improve base vacuum; add Ti adhesion layer |
+| TaN barrier pinholes | Poor sputtering uniformity or particulate contamination | Optimize sputter deposition rate; clean chamber; use point-of-use filtration on process gases |
+| CoSi₂ high contact resistance | Insufficient cobalt thickness or wrong rapid thermal anneal profile | Ensure 10-20 nm Co film; optimize RTP (500-700°C first step, 800-850°C second step) |
+| Co CMP scratching | Slurry abrasive size too large or pad conditioning inadequate | Use colloidal silica slurry (<50 nm); maintain pad conditioning regime; filter slurry at point of use |
+| ITO sputtering target cracking | Thermal stress from high-power DC sputtering | Use pulsed DC power; ramp power gradually; ensure target cooling water flow |
+| Indium bump non-wetting | Oxide on bonding surface or insufficient bonding force/temperature | Clean with dilute HCl; increase bonding force; verify temperature profile (200-250°C) |
+| High Cu diffusion through barrier | TaN too thin (<2 nm) or phase not stoichiometric | Increase barrier thickness to 3-5 nm; verify N₂:Ar ratio during reactive sputtering |
+
+### See Also
+
+- [Refractory Metals](refractory-metals.md) — tantalum, tungsten, molybdenum extraction and processing
+- [Specialty Semiconductor Metals](specialty-semiconductor.md) — downstream semiconductor metal applications
+- [Non-Ferrous Metals](non-ferrous.md) — copper, nickel, cobalt, and indium refining
+- [Core Fab Processes](../photolithography/fab-processes.md) — semiconductor manufacturing workflow
+- [Photolithography](../photolithography/index.md) — patterning processes that these metals serve
+- [Chemistry / Acids](../chemistry/acids.md) — HF and HNO₃ for ore processing
+- [Gas Handling / Vacuum](../gas-handling/vacuum.md) — sputtering deposition systems
+- [Glass / Photomask Substrates](../glass/photomask-substrates.md) — ITO-coated transparent substrates
+
+[← Back to Metals](index.md)

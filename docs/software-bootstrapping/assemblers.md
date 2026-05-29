@@ -8,7 +8,7 @@
 > **Outputs**: assembly_language, object_files, executable_programs
 > **Critical**: Yes — assemblers are the first software tool built for any new architecture, enabling all subsequent software development
 
-## Overview
+## Problem
 
 An assembler translates human-readable mnemonic instructions (assembly language) into machine code binary. Where machine code programming requires the programmer to remember that `3E 05` means "load the accumulator with 5," assembly language lets them write `LD A, 5` — a dramatic improvement in readability, writability, and maintainability.
 
@@ -213,13 +213,23 @@ The loader reads an executable file into memory and starts execution:
 
 **Cross-assembler strategy**: Write the assembler to run on an already-working computer (the "host"), generating object code for the target machine. This eliminates the need to write the first assembler in machine code — the host's existing tools handle source editing, file I/O, and debugging. Transfer the assembled binary to the target via paper tape or serial link.
 
-## References
+### Troubleshooting
 
-- [Machine Code & Front-Panel Programming](machine-code.md) — The prerequisite: entering binary by hand
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| "Undefined symbol" error | Label used before definition (forward reference in single-pass) | Switch to two-pass assembler; define label before first use; check for typos in label names |
+| Program crashes at specific address | Branch offset calculated wrong (off by one) | Verify branch target address calculation; check whether offset is from instruction address or next instruction |
+| Object file too large for memory | Relocation records or symbol table not stripped | Strip debug symbols for production builds; verify ORG directive sets correct load address |
+| Linker reports duplicate symbols | Same label defined in two object files | Use LOCAL directive for file-scope labels; rename conflicting global symbols |
+| Loader hangs after loading | Entry point wrong or missing END directive | Verify START or END directive specifies correct entry point; check that entry address contains valid instruction |
+| Self-hosting assembly produces different binary | Assembler has implementation-dependent behavior | Pin down evaluation order; fix expression precedence; compare output byte-by-byte with original |
+
+## See Also
+
+- [Machine Code & Front-Panel Programming](machine-code.md) — the prerequisite: entering binary by hand
 - [Electronic Computing](../computing/electronic.md) — ISA specifications, processor architecture
-- [Compiler Construction](compilers.md) — The next step: higher-level language translation
-- [Operating System Construction](operating-systems.md) — Programs assembled here need an OS to manage resources
-- [Development Tools](dev-tools.md) — Editors and debuggers that assist assembly programming
+- [Compiler Construction](compilers.md) — the next step: higher-level language translation
+- [Operating System Construction](operating-systems.md) — programs assembled here need an OS to manage resources
+- [Development Tools](dev-tools.md) — editors and debuggers that assist assembly programming
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../index.md)*
+[← Back to Software Bootstrapping](index.md)

@@ -8,22 +8,20 @@
 > **Outputs**: filled_cylinders, tested_cylinders, certified_cylinders
 > **Critical**: No — bulk gas can be delivered via pipeline; cylinders provide portable storage
 
-## 1. Overview
-
 Gas cylinder filling is the process of compressing purified gases into high-pressure steel or composite vessels for storage, transport, and point-of-use delivery. Cylinders are the primary packaging format for industrial and specialty gases when pipeline distribution is impractical: remote locations, laboratory-scale consumption, mobile applications (welding, medical oxygen), and semiconductor fabs consuming specialty gases at rates too low to justify bulk delivery.
 
 The filling process combines gas compression, cylinder inspection and preparation, controlled filling by weight or pressure, and post-fill verification. A filled cylinder at 150-200 bar contains an enormous store of compressed energy — a standard 50 L cylinder at 200 bar holds approximately 10,000 L of gas at atmospheric pressure, and the sudden release of that pressure through a failed valve or ruptured vessel creates a blast wave capable of propelling the cylinder through a concrete wall.
 
 This capability also covers cylinder production (seamless steel tube forming), hydrostatic retesting, valve maintenance, and the regulatory framework governing cylinder certification. Every cylinder in service must be traceable to its manufacturing lot, tested on a fixed schedule, and marked with its test date, working pressure, and serial number.
 
-## 2. Prerequisites
+## Prerequisites
 
 - **Materials**: Seamless steel tube (manganese steel or Cr-Mo alloy), valve brass or stainless steel, PTFE valve packing, cylinder paint and labels
 - **Tools and equipment**: [Basic gas handling](basic.md) — high-pressure compressors (100-300 bar); [Machine tools](../machine-tools/index.md) — lathes for valve threading, grinders for surface finishing; [Metal forming](../machine-tools/forming.md) — deep drawing or hot spinning for cylinder bodies
 - **Knowledge**: High-pressure vessel design (thin-wall and thick-wall pressure vessel theory), material fatigue under cyclic loading, gas compressibility factors and equations of state
 - **Infrastructure**: Filling station with blast-resistant barriers, hydrostatic test pit, cylinder drying oven, compressed air for pneumatic tools, ventilation for gas release
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity (per cylinder) | Source | Alternatives |
 |----------|------------------------|--------|-------------|
@@ -35,7 +33,7 @@ This capability also covers cylinder production (seamless steel tube forming), h
 | Pressure relief device (burst disc) | 1 per cylinder | [Metals](../metals/index.md) — stamped Inconel disc | Fusible plug (melts in fire, lower precision) |
 | Label (contents, hazard, DOT spec) | 1 per cylinder | [Printing](../knowledge/printing.md) | Hand-painted marking (less durable) |
 
-## 4. Process Description
+## Process Description
 
 ### 4.1 Cylinder Production
 
@@ -105,7 +103,7 @@ This capability also covers cylinder production (seamless steel tube forming), h
 - Valve removal and reinstallation for retesting risks cross-threading the neck — the tapered thread is easily damaged if the valve is inserted at an angle
 - 5-year retest interval allows fatigue cracks to develop and grow between inspections — cylinders in severe service should be tested more frequently
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
 ### Cylinder Specifications by Type
 
@@ -131,7 +129,7 @@ This capability also covers cylinder production (seamless steel tube forming), h
 | Carbon dioxide (CO₂) | 57 (liquid phase) | 15 | N/A | 24.0 |
 | Acetylene (C₂H₂) | 15 (dissolved in acetone) | 15 | N/A | 6.5 (in acetone) |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Bench scale**: Single-cylinder manual fill station with a single-stage compressor. Operator connects cylinder, monitors pressure gauge, and manually shuts off at target pressure. Throughput: 2-5 cylinders per hour. Adequate for small operations filling 10-50 cylinders per day.
 - **Pilot scale**: Multi-position fill manifold (4-12 cylinders simultaneously) with a high-pressure booster compressor. Semi-automatic: operator connects cylinders, sets target pressure, and the system fills and shuts off automatically. Throughput: 10-30 cylinders per hour. This is the standard for industrial gas distributors serving local markets.
@@ -139,7 +137,7 @@ This capability also covers cylinder production (seamless steel tube forming), h
 - **Scale bottleneck**: Compressor capacity. A single-stage piston compressor delivers 50-200 L/min at 200 bar. For a 50 L cylinder (10,000 L STP), fill time is 50-200 minutes per cylinder. Multi-position manifolds solve this by filling many cylinders in parallel from a common compressor, but the compressor must be sized to maintain fill rate across all positions. A booster compressor (taking gas from an intermediate-pressure source at 10-30 bar and boosting to 200 bar) reduces the total compression work.
 - **Specialty gas filling**: Semiconductor-grade gases require dedicated fill stations with electropolished stainless steel piping, orbital-welded connections, and cylinder preparation including electropolishing, vacuum baking (200°C for 24 hours under vacuum), and moisture verification. Throughput is lower (1-5 cylinders per batch) but purity requirements demand the extra preparation time.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -152,7 +150,7 @@ This capability also covers cylinder production (seamless steel tube forming), h
 | Acetylene cylinder fills too fast | Exceeding maximum withdrawal/fill rate carries acetone out of cylinder | Limit fill and withdrawal rates to 1/7 of cylinder contents per hour. Acetone loss reduces the stabilizing medium for dissolved acetylene. |
 | Frost forming on cylinder during filling | Rapid gas expansion or Joule-Thomson cooling | Reduce fill rate. For CO₂ and some liquefied gases, frost formation during filling is normal; allow the cylinder to warm to ambient before final pressure check. |
 
-## 8. Safety
+## Safety
 
 **Cylinder projectile hazard**: A cylinder with a broken valve is an unguided missile. The thrust from a 50 L cylinder at 200 bar discharging through a broken valve opening (~10 mm diameter) is approximately 1,600 N (equivalent to 160 kg force). The cylinder accelerates to lethal velocity in under 1 meter. Prevention: never drop a cylinder. Always transport with the valve protection cap installed. Secure cylinders to walls, benches, or carts with chains or straps at all times. Never lift a cylinder by the valve.
 
@@ -164,7 +162,7 @@ This capability also covers cylinder production (seamless steel tube forming), h
 
 **Hearing protection**: High-pressure gas venting through a relief valve or fill line produces noise levels of 100-130 dB — sufficient to cause permanent hearing damage in seconds. Wear hearing protection (earmuffs rated NRR 25+ dB) when operating near filling stations with active venting.
 
-## 9. Quality Control
+## Quality Control
 
 **Fill verification by weight**: Every filled cylinder must be weighed on a calibrated scale (accuracy ±50 g or better). Compare actual gross weight to expected gross weight (tare + calculated fill weight). Acceptance: ±1% of expected fill weight. Cylinders outside this range are overfilled or underfilled and must be corrected.
 
@@ -176,7 +174,7 @@ This capability also covers cylinder production (seamless steel tube forming), h
 
 **Valve leak test**: After filling, test every cylinder valve for leaks using soap solution or electronic leak detection (thermal conductivity or ultrasonic). Zero tolerance for leaks on filled cylinders — any detected leak requires correction before the cylinder leaves the filling station.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 **Tube trailers instead of individual cylinders**: For large-volume gas consumers, a tube trailer (a skid of 6-12 large steel tubes, total capacity 3,000-10,000 m³ at STP) replaces hundreds of individual cylinders. Tube trailers are filled at the gas production plant and transported by truck to the point of use. The filling procedure is identical but scaled up. Tube trailers require DOT certification and periodic hydrostatic retesting, same as individual cylinders.
 
@@ -226,7 +224,19 @@ Every cylinder filling station must have the following safety equipment inspecte
 - **Emergency shutoff**: Remotely operable valve that shuts off gas supply to the entire fill manifold. Accessible from outside the fill room. Test quarterly.
 - **Blast barrier**: Minimum 6 mm steel plate or 200 mm concrete block wall between the fill station and the operator. The barrier absorbs the energy of a cylinder or valve failure. Inspect annually for cracks or damage.
 
-## 11. References
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Fill rate drops, compressor runs hot | Discharge valve leaking or inlet filter clogged | Inspect and replace compressor valves; clean or replace inlet filter |
+| Cylinder won't reach target pressure | Gas supply depleted or cylinder valve not fully open | Verify gas supply pressure; confirm cylinder valve is fully open; check for restrictions in fill line |
+| Cylinder weight off by >2% | Scale calibration drift or residual gas/liquid in cylinder | Recalibrate fill scale; verify cylinder is fully evacuated before filling |
+| Valve stem leak detected (bubble test) | Valve packing worn or stem damaged | Replace valve or repack valve stem; never use a cylinder with a leaking valve |
+| Cylinder neck threads corroded | Moisture ingress or storage in humid environment | Clean threads with wire brush; inspect for thread damage; reject if thread wear exceeds limits |
+| Filled cylinder shows pressure drop over 24h | Micro-leak at valve seat or cylinder wall crack | Re-test with leak detection solution; if wall crack suspected, condemn cylinder immediately |
+| Excessive heating during fill | Fill rate too high for gas type (adiabatic heating) | Reduce fill rate; allow cooling between stages; monitor cylinder wall temperature |
+
+## See Also
 
 - [Basic Gas Handling](basic.md) — compressors, regulators, and gas cylinder safety
 - [Gas Purification](gas-purification.md) — gas purification before cylinder filling
@@ -234,7 +244,6 @@ Every cylinder filling station must have the following safety equipment inspecte
 - [Iron & Steel Production](../metals/iron-steel.md) — steel grades for pressure vessel construction
 - [Hydrogen & Silane Production](../chemistry/hydrogen-silane.md) — high-pressure hydrogen cylinder requirements
 - [Lubricants, Oils & Fluid Mechanics](../chemistry/lubricants.md) — compressor oil selection for gas service
+- [Piping Systems](piping-systems.md) — gas distribution infrastructure
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*
+[← Back to Gas Handling](index.md)

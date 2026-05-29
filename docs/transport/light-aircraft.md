@@ -3,14 +3,22 @@
 > **Node ID**: transport.light-aircraft
 > **Domain**: [Transport](./index.md)
 > **Dependencies**: [`transport.aviation`](aviation.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`mining.extraction`](../mining/extraction.md), [`telecom.radio`](../telecom/radio.md)
 > **Timeline**: Years 30-50
 > **Outputs**: light_aircraft, aerial_reconnaissance, short_range_cargo
 > **Critical**: No
 
-## Overview
+## Problem
 
-Light aircraft — single-engine propeller planes of wood-and-fabric or aluminum construction — enable rapid long-distance transport, aerial survey, and emergency medical evacuation. They require internal combustion engines (100-300 hp), gasoline fuel, aluminum or composite airframes, and basic avionics (magnetic compass, altimeter, airspeed indicator).
+Light aircraft — single-engine propeller planes of wood-and-fabric or aluminum construction — enable rapid long-distance transport, aerial survey, and emergency medical evacuation. They require internal combustion engines (100-300 hp), gasoline fuel, aluminum or composite airframes, and basic avionics (magnetic compass, altimeter, airspeed indicator). Before aviation, covering 500 km takes days by ground; a light aircraft does it in 2-3 hours.
+
+### Prerequisites
+
+- [Aviation fundamentals](aviation.md) — aerodynamics, propulsion, and flight mechanics
+- [Internal combustion engines](../energy/engine.md) — aircraft powerplant design and fuels
+- [Aluminum production](../metals/aluminum.md) — primary structural material for airframes
+- [Petroleum refining](../energy/refining.md) — aviation gasoline (100LL avgas)
+- [Machine tools](../machine-tools/index.md) — milling, riveting, and precision forming
 
 ## Aerodynamic Fundamentals
 
@@ -207,15 +215,24 @@ Light aircraft — single-engine propeller planes of wood-and-fabric or aluminum
 
 **Aircraft registration and documentation**: Every aircraft must carry a Certificate of Registration (establishes ownership and nationality), Certificate of Airworthiness (confirms the aircraft meets its type design and is in a condition for safe operation), radio station license (if equipped with VHF radio), weight and balance report (current empty weight and CG from the most recent weighing — required after major repairs, paint, or equipment changes that alter the empty weight by >1%), and aircraft operating handbook (AOH or POH — Pilot's Operating Handbook, the manufacturer's approved flight manual specific to the aircraft serial number, containing performance tables, limitations, emergency procedures, and systems descriptions). The POH is the authoritative reference — in any conflict between the POH and general guidance, the POH prevails. Aircraft logbooks: airframe log (all maintenance, repairs, modifications, and inspections recorded chronologically with date, tachometer time, description of work, mechanic signature, and certificate number), engine log (same format, tracking all engine maintenance including oil changes, cylinder replacements, and overhaul history), and propeller log (tracking propeller hours, overhaul, and any blade repairs).
 
-## Cross-Domain Links
+### Troubleshooting
 
-- **[Aluminum Production](../metals/aluminum.md)**: primary structural material for airframes
-- **[Internal Combustion Engines](../energy/engine.md)**: aircraft powerplant design and fuels
-- **[Machine Tools](../machine-tools/index.md)**: milling, riveting, and forming equipment
-- **[Electrical Systems](../electronics/electrical-systems.md)**: avionics, wiring, and battery systems
-- **[Petroleum Refining](../energy/refining.md)**: aviation gasoline production (100LL avgas)
-- **[Transport Overview](index.md)**: all transportation modes and their infrastructure
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Engine rough running at cruise | Fouled spark plug or magneto timing drift | Perform in-flight magneto check; clean or replace fouled plug; verify magneto timing at next maintenance |
+| High oil consumption | Worn piston rings or valve guide seals | Monitor consumption trend; perform compression test; schedule top overhaul if >1 qt/5 hours |
+| Wing heaviness (rolls one direction) | Rigging out of adjustment or asymmetric fuel | Check aileron rigging with protractor; verify fuel quantity both tanks; check for wing warp |
+| Difficulty maintaining altitude | Propeller wear, dirty airframe, or excess weight | Clean and wax airframe; check propeller pitch; verify weight and balance against POH limits |
+| Brake fade on landing | Glazed brake discs or contaminated pads | Deglaze discs with medium-grit abrasive; replace contaminated pads; check hydraulic fluid level |
+| Electrical system intermittents | Loose terminal or corroded ground | Inspect all terminals for security; clean ground connections; check battery terminal torque |
 
----
+## See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*
+- [Aviation](aviation.md) — aerodynamics, propulsion, and flight mechanics fundamentals
+- [Aluminum Production](../metals/aluminum.md) — primary structural material for airframes
+- [Internal Combustion Engines](../energy/engine.md) — aircraft powerplant design and fuels
+- [Machine Tools](../machine-tools/index.md) — milling, riveting, and forming equipment
+- [Electrical Systems](../electronics/electrical-systems.md) — avionics, wiring, and battery systems
+- [Petroleum Refining](../energy/refining.md) — aviation gasoline production (100LL avgas)
+
+[← Back to Transport](index.md)

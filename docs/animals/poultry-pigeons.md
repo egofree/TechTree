@@ -3,12 +3,12 @@
 > **Node ID**: animals.poultry.pigeons
 > **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.poultry`](poultry.md), [`agriculture`](../agriculture/soil-management.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`agriculture.soil-management`](../agriculture/soil-management.md), [`chemistry.explosives`](../chemistry/explosives.md)
 > **Timeline**: Years 1-10+
 > **Outputs**: squab_meat, pigeon_eggs, guano_fertilizer, feathers
 > **Critical**: No — premium products (squab, guano) but chickens produce more food per unit feed
 
-### Overview
+## Problem
 
 Domestic pigeons (*Columba livia*) are among the most productive and low-maintenance poultry species. Bred for millennia for meat (squab), messaging, and fertilizer, pigeons offer unique advantages: they forage for much of their own food, breed year-round in managed conditions, and produce squab (26-30 day old juveniles) that reach 350-500 g dressed weight with minimal feed input. Pigeon guano is the richest common animal manure — approximately 4-5% nitrogen, 2-3% phosphorus, 1.5-2% potassium — making it a premium fertilizer worth more per kilogram than any other poultry manure. Pigeons also produce crop milk, a protein-rich secretion fed to squab by both parents, enabling exceptionally fast juvenile growth without external feed inputs for the first two weeks.
 
@@ -232,6 +232,24 @@ Shorter winter daylight (under 10 hours) reduces or halts breeding in temperate 
 
 **Guano production**: One pair produces 10-15 kg of guano per year at 4-5% nitrogen. A 20-pair loft generates 200-300 kg annually — equivalent to 8-15 kg elemental nitrogen (comparable to 40-75 kg of ammonium sulfate, $15-50 value). Composted with 3× carbonaceous material, this produces 600-800 kg of finished compost fertilizing 200-600 m² of intensive vegetable beds per year. Historical note: pigeon guano was the primary source of saltpeter (potassium nitrate) for gunpowder — leached from guano at 2-5 kg per 100 kg of raw droppings.
 
----
+## Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Pigeons abandoning nests | Disturbance, predators, or inadequate nest box design | Reduce human disturbance during breeding; install predator guards; ensure nest boxes are dark and enclosed |
+| Low squab survival rate | Cold stress, inadequate crop milk, or parental inexperience | Insulate loft for cold weather; verify both parents feeding; pair experienced breeders with young birds |
+| Feather plucking or cannibalism | Overcrowding or protein deficiency | Reduce density to 1 m² per 5 pairs; increase protein in feed (add peas or beans); provide distraction (spin blocks) |
+| Respiratory disease in loft | Poor ventilation or ammonia buildup from wet droppings | Increase ventilation; clean droppings weekly; ensure loft stays dry; add perches above droppings |
+| Pigeons not returning from forage | Loss of homing instinct or predation | Train young birds incrementally (1 km, 5 km, 10 km releases); clip one wing feather on new acquisitions for 2 weeks |
+| Egg breakage in nest | Thin shells from calcium deficiency or rough nest bowl | Provide oyster shell grit ad libitum; line nest bowls with soft material (tobacco stems, pine needles) |
+
+## See Also
+
+- [Poultry Overview](poultry.md) — general poultry husbandry and biosecurity
+- [Chickens](poultry-chickens.md) — primary poultry for meat and eggs
+- [Coturnix Quail](poultry-coturnix.md) — small-scale poultry alternative
+- [Soil Management](../agriculture/soil-management.md) — guano as fertilizer input
+- [Explosives](../chemistry/explosives.md) — saltpeter from guano for black powder
+- [Animal Husbandry](animal-husbandry.md) — general livestock management principles
+
+[← Back to Animals](index.md)

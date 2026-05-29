@@ -10,8 +10,6 @@
 
 **Credit**: SEM Tech (Salt Electro Mining Technology) membranes were developed by **Robert Karas**, founder of Rowow LLC. The technology is released under **CC0 1.0 Universal** (public domain). This article covers the application of SEM Tech membranes to redox flow battery energy storage.
 
-## Overview
-
 **Strengths**:
 - Decoupled power and energy — storage capacity scales linearly with tank volume at $20-50/kWh for electrolyte
 - Long cycle life (>10,000 cycles) with no capacity degradation — vanadium electrolyte is reusable indefinitely
@@ -33,7 +31,7 @@ The SEM Tech membrane -- pulverized pre-functionalized ion exchange resin in a P
 
 ## Redox Flow Battery Technology
 
-### Operating Principle
+## Operating Principle
 
 A redox flow battery stores energy in liquid electrolytes contained in external tanks, separate from the electrochemical cell stack where power conversion occurs. This decoupling of energy (tank size) and power (stack size) is the defining advantage: storage capacity scales with tank volume at linear cost, unlike conventional batteries where energy and power scale together.
 
@@ -47,7 +45,7 @@ A redox flow battery stores energy in liquid electrolytes contained in external 
 - Energy and power can be scaled independently
 - Electrolyte can be replaced without dismantling the cell stack
 
-### Major Chemistries
+## Major Chemistries
 
 **Vanadium redox flow battery (VRFB)**: The most mature and widely deployed chemistry. Both half-cells use vanadium ions in sulfuric acid at different oxidation states:
 - Negative half-cell: V²⁺ / V³⁺ (charge/discharge)
@@ -60,7 +58,7 @@ A redox flow battery stores energy in liquid electrolytes contained in external 
 
 **Iron-chromium**: Iron (Fe²⁺/Fe³⁺) on the positive side, chromium (Cr²⁺/Cr³⁺) on the negative. Low-cost materials, but chromium chemistry introduces toxicity concerns and lower cell voltage (~1.0V).
 
-### Performance Benchmarks
+## Performance Benchmarks
 
 Established commercial VRFB systems achieve:
 - **Round-trip efficiency**: 75-85%
@@ -71,7 +69,7 @@ Established commercial VRFB systems achieve:
 
 ## Membrane Function in Flow Batteries
 
-### The Central Role of the Ion Exchange Membrane
+## The Central Role of the Ion Exchange Membrane
 
 The membrane is the most critical and expensive component in a redox flow battery cell stack. It must perform two simultaneous functions:
 
@@ -81,7 +79,7 @@ The membrane is the most critical and expensive component in a redox flow batter
 
 These two requirements are inherently in tension: a membrane that perfectly blocks crossover also tends to resist ion transport, increasing internal resistance and reducing efficiency.
 
-### Conventional Membrane Costs
+## Conventional Membrane Costs
 
 Commercial flow batteries typically use perfluorinated sulfonic acid membranes (Nafion and equivalents) at $100-400 per square foot. A utility-scale flow battery (100 MWh) requires thousands of square feet of membrane in its cell stacks. Membrane cost typically represents **30-50% of total cell stack cost**, making it the dominant economic barrier to flow battery deployment.
 
@@ -89,7 +87,7 @@ This is the problem SEM Tech was invented to solve.
 
 ## SEM Tech Membrane Application
 
-### Why SEM Tech for Flow Batteries
+## Why SEM Tech for Flow Batteries
 
 The SEM Tech membrane, detailed in [SEM Tech](../chemistry/sem-tech.md), offers properties directly relevant to flow battery operation:
 
@@ -99,11 +97,11 @@ The SEM Tech membrane, detailed in [SEM Tech](../chemistry/sem-tech.md), offers 
 - **Tunable properties**: Resin type, loading, and membrane thickness can all be adjusted. A flow battery membrane can be optimized for the specific ion selectivity and conductivity requirements of a given chemistry.
 - **Simple replacement**: At less than $1 per square foot, membrane replacement is economical even if lifetime is shorter than Nafion. This changes the economic model from "expensive, long-lived membrane" to "cheap, easily replaced membrane."
 
-### The $5/kWh Target
+## The $5/kWh Target
 
 The Rowow SEM Tech Technical Overview cites a target of approximately $5/kWh for flow battery systems using SEM Tech membranes, compared to $100+/kWh for lithium-ion. This target rests on the membrane cost reduction enabling dramatically cheaper cell stacks, which are the primary cost driver. The $5/kWh figure is a **target and projection**, not a demonstrated cost from deployed systems.
 
-### Membrane Selection for Flow Battery Chemistry
+## Membrane Selection for Flow Battery Chemistry
 
 Different flow battery chemistries require different membrane types, all achievable by selecting the appropriate resin:
 
@@ -115,7 +113,7 @@ Different flow battery chemistries require different membrane types, all achieva
 
 ## Cell Stack Design
 
-### Stack Architecture
+## Stack Architecture
 
 A flow battery cell stack consists of multiple cells connected in series, each containing:
 
@@ -124,17 +122,17 @@ A flow battery cell stack consists of multiple cells connected in series, each c
 3. **Membrane**: The ion exchange membrane (SEM Tech membrane in this application) separating the positive and negative electrolyte compartments.
 4. **Gaskets and frames**: Sealing components that define flow channels and prevent leaks. PVC/CPVC construction is compatible with SEM Tech membrane and solvent-welded sealing (as used in SEM Tech electrolysis cells).
 
-### Scaling
+## Scaling
 
 Cells are stacked in series to achieve the desired voltage. A 50-cell stack at 1.2V per cell produces 60V. Multiple stacks connect in series/parallel for higher voltage and power. The modular nature means power can be added incrementally by adding cell stacks.
 
-### Flow Frame Design Considerations
+## Flow Frame Design Considerations
 
 Electrolyte distribution across the electrode area must be uniform to prevent localized hotspots of high current density. Flow frames incorporate inlet and outlet manifolds that distribute electrolyte evenly. The use of PVC/CPVC for frames is compatible with SEM Tech's solvent-welded assembly approach.
 
 ## Electrolyte Chemistry
 
-### Vanadium Electrolyte Production
+## Vanadium Electrolyte Production
 
 Vanadium electrolyte is typically produced from vanadium pentoxide (V₂O₅) dissolved in sulfuric acid:
 
@@ -144,17 +142,17 @@ Vanadium electrolyte is typically produced from vanadium pentoxide (V₂O₅) di
 
 Vanadium sourcing: Vanadium is produced from vanadium-bearing magnetite ores, as a byproduct of uranium mining, or from petroleum residues (vanadium porphyrins in crude oil). World production is approximately 100,000 tonnes per year.
 
-### Electrolyte Cost
+## Electrolyte Cost
 
 Vanadium electrolyte cost is approximately 30-50% of total system cost. The electrolyte is fully recyclable -- at end of life, vanadium can be recovered and reused. This makes the electrolyte a capital asset rather than a consumable, improving lifecycle economics.
 
-### Alternative Electrolytes
+## Alternative Electrolytes
 
 Research into organic (non-vanadium) electrolytes aims to reduce electrolyte cost further. Organic molecules (quinones, viologens, TEMPO derivatives) can be synthesized from petroleum or biomass feedstocks. These are at earlier TRL (3-5) and face challenges with long-term chemical stability.
 
 ## Performance Metrics
 
-### Expected SEM Tech Membrane Performance in VRFB
+## Expected SEM Tech Membrane Performance in VRFB
 
 **Note: The following projections are based on SEM Tech membrane properties demonstrated in chlor-alkali applications, extrapolated to flow battery conditions. No published flow battery test data exists.**
 
@@ -167,7 +165,7 @@ Projected performance if SEM Tech membrane functions as expected in VRFB:
 
 The critical unknowns are: (1) vanadium ion crossover rate through SEM Tech membranes, (2) long-term chemical stability under vanadium electrolyte cycling, and (3) mechanical durability under continuous electrolyte flow conditions.
 
-### Comparison with Conventional Systems
+## Comparison with Conventional Systems
 
 | Metric | Nafion-based VRFB | SEM Tech VRFB (projected) | Lithium-ion |
 |--------|-------------------|---------------------------|-------------|
@@ -179,7 +177,7 @@ The critical unknowns are: (1) vanadium ion crossover rate through SEM Tech memb
 
 ## Scale-Up
 
-### From Laboratory to Grid Scale
+## From Laboratory to Grid Scale
 
 The path from TRL 5 to grid-scale deployment involves:
 
@@ -188,7 +186,7 @@ The path from TRL 5 to grid-scale deployment involves:
 3. **Pilot system**: 10-50 kW system with external electrolyte tanks. Demonstrate thousands of cycles and validate membrane replacement procedures.
 4. **Commercial scale**: 1-100 MW systems for grid storage. Multiple cell stacks, large electrolyte tanks, power conversion systems.
 
-### Manufacturing Scale
+## Manufacturing Scale
 
 SEM Tech membrane production scales simply: the manufacturing process requires a blender, solvent, and flat surface. Large-scale production would use continuous extrusion or spray coating lines. Raw materials (ion exchange resin beads, PVC/CPVC, solvent) are commodity chemicals available at industrial scale.
 
@@ -204,22 +202,31 @@ Redox flow batteries are inherently safer than lithium-ion systems, but hazards 
 
 ## Limitations
 
-### Technology Readiness
+## Technology Readiness
 
 - SEM Tech is at **TRL 5** for chlor-alkali applications. Flow battery application is **untested at any scale**.
 - No peer-reviewed or third-party-verified flow battery performance data using SEM Tech membranes has been published.
 - Membrane lifetime under vanadium electrolyte cycling conditions is unknown.
 - Vanadium ion crossover rate through SEM Tech membranes is uncharacterized.
 
-### Performance Limitations
+## Performance Limitations
 
 - **Energy density**: VRFB energy density (15-25 Wh/L) is low compared to lithium-ion (200-300 Wh/L). This means larger tank volumes for equivalent storage. VRFBs are suited to stationary grid storage where footprint is less constrained.
 - **Pumping energy**: Electrolyte circulation requires continuous pumping power (1-3% of stored energy), reducing net round-trip efficiency.
 - **Temperature sensitivity**: Vanadium electrolyte precipitates V₂O₅ above ~40°C and V²⁺/V³⁺ species crystallize below ~10°C. Thermal management is required.
 
-### Economic Uncertainty
+## Economic Uncertainty
 
 The $5/kWh target depends on SEM Tech membranes achieving adequate selectivity and lifetime in flow battery service. If membrane replacement is required more frequently than projected (e.g., monthly vs. annually), operational costs increase. Even with frequent replacement, the sub-$1/sq ft membrane cost may keep economics favorable -- but this remains to be demonstrated.
+
+## Limitations
+
+- **Energy density**: Vanadium RFB energy density is 15-25 Wh/L (lead-acid: 80-90 Wh/L, lithium-ion: 250-700 Wh/L). Large tank volumes required for significant energy storage — a 10 MWh system needs 400,000-670,000 liters of electrolyte.
+- **Vanadium cost**: Vanadium electrolyte accounts for 30-50% of system cost. Vanadium price volatility directly affects RFB economics.
+- **Membrane degradation**: Ion-exchange membranes slowly degrade from vanadium ion crossover and oxidative attack. Membrane lifetime: 5-10 years, requiring periodic replacement.
+- **Parasitic losses**: Electrolyte circulation pumps consume 1-3% of stored energy. Self-discharge through ion crossover adds 0.5-2% per day.
+- **Temperature sensitivity**: Vanadium electrolyte precipitates V₂O₅ above 40°C (positive side) and V²⁺/V³⁺ instability below 10°C (negative side). Active thermal management required.
+- **System complexity**: RFBs require pumps, tanks, heat exchangers, and control systems — more moving parts than solid-state batteries.
 
 ## See Also
 
@@ -229,15 +236,4 @@ The $5/kWh target depends on SEM Tech membranes achieving adequate selectivity a
 - [SEM Tech Fuel Cells](sem-tech-fuel-cells.md) -- fuel cell application of SEM Tech membranes
 - [Electricity](electricity.md) -- electrical generation and distribution infrastructure
 
-### Limitations
-
-- **Energy density**: Vanadium RFB energy density is 15-25 Wh/L (lead-acid: 80-90 Wh/L, lithium-ion: 250-700 Wh/L). Large tank volumes required for significant energy storage — a 10 MWh system needs 400,000-670,000 liters of electrolyte.
-- **Vanadium cost**: Vanadium electrolyte accounts for 30-50% of system cost. Vanadium price volatility directly affects RFB economics.
-- **Membrane degradation**: Ion-exchange membranes slowly degrade from vanadium ion crossover and oxidative attack. Membrane lifetime: 5-10 years, requiring periodic replacement.
-- **Parasitic losses**: Electrolyte circulation pumps consume 1-3% of stored energy. Self-discharge through ion crossover adds 0.5-2% per day.
-- **Temperature sensitivity**: Vanadium electrolyte precipitates V₂O₅ above 40°C (positive side) and V²⁺/V³⁺ instability below 10°C (negative side). Active thermal management required.
-- **System complexity**: RFBs require pumps, tanks, heat exchangers, and control systems — more moving parts than solid-state batteries.
-
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+[← Back to Energy](index.md)

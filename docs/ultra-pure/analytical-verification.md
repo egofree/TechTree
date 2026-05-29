@@ -1,8 +1,8 @@
 # Analytical Verification: PPT-Level Contamination Detection
 
 > **Node ID**: ultra-pure.analytical-verification
-> **Domain**: Ultra-Pure Materials
-> **Dependencies**: None (root capability)
+> **Domain**: [Ultra-Pure Materials](./index.md)
+> **Dependencies**: [Measurement](../measurement/index.md), [Ultra-Pure Water](upw.md), [High-Purity Chemicals](high-purity-chemicals.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 40-80
 > **Outputs**: contamination_data, purity_certification

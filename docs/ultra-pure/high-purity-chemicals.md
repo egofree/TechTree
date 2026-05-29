@@ -1,8 +1,8 @@
 # High-Purity Chemicals: 9N+ Purification
 
 > **Node ID**: ultra-pure.high-purity-chemicals
-> **Domain**: Ultra-Pure Materials
-> **Dependencies**: None (root capability)
+> **Domain**: [Ultra-Pure Materials](./index.md)
+> **Dependencies**: [Chemistry / Acids](../chemistry/acids.md), [Solvents](../chemistry/solvents.md), [Ultra-Pure Water](upw.md), [Polymers](../polymers/index.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 40-80
 > **Outputs**: high_purity_acids, high_purity_solvents, high_purity_gases

@@ -202,7 +202,7 @@ Industrial water treatment includes treating used water before discharge. The st
 - **[SEM Tech Water Treatment](../water/sem-tech-water-treatment.md)**: electrodialysis desalination using ion exchange membranes
 - **[Electrolysis](./electrolysis.md)**: chlor-alkali process producing chlorine for water disinfection
 - **[Basic Semiconductor Devices](../silicon/basic-devices.md)**: UPW requirements for wafer processing
-- **[Wafer Production](../silicon/wafer-production.md)**: CMP slurries and rinsing demand for ultrapure water
+- **[Wafer Production](../silicon/wafering.md)**: CMP slurries and rinsing demand for ultrapure water
 - **[Vacuum Systems](../vlsi-scaling/vacuum-systems.md)**: sealed water-cooled systems and deionized coolant
 - **[Glass Fibers](../glass/fibers.md)**: high-purity water for optical fiber preform processing
 

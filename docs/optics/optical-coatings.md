@@ -11,7 +11,7 @@
 
 Every air-glass interface reflects a portion of incident light. For uncoated glass (refractive index n ≈ 1.5), Fresnel reflection at normal incidence is approximately 4% per surface ((n-1)/(n+1))² = (0.5/2.5)² = 0.04). A simple camera lens with 4 elements (8 air-glass surfaces) transmits only ~72% of entering light — 28% is lost to reflections. These reflections also cause ghost images, flare, and reduced contrast.
 
-Anti-reflection (AR) coatings reduce surface reflections, increasing light transmission and image quality. Reflective coatings maximize mirror reflectivity for telescopes, beam delivery, and illumination systems. Both are essential for precision optical instruments.
+Anti-reflection (AR) coatings reduce surface reflections, increasing light transmission and image quality. Reflective coatings maximize mirror reflectivity for telescopes, beam delivery, and illumination systems. Both are essential for [precision instruments](precision-instruments.md).
 
 ### Vacuum Deposition Fundamentals
 
@@ -299,7 +299,7 @@ This graphical approach helps designers understand why certain layer sequences w
 
 ## Limitations
 
-- **Vacuum requirement**: Thin-film deposition requires vacuum chambers (10⁻⁵ to 10⁻⁶ torr). Vacuum pump technology (mechanical rotary + diffusion or turbomolecular) is a prerequisite. This limits coating production to facilities with vacuum capability.
+- **Vacuum requirement**: Thin-film deposition requires vacuum chambers (10⁻⁵ to 10⁻⁶ torr). Vacuum pump technology (mechanical rotary + diffusion or turbomolecular) is a prerequisite. This limits coating production to facilities with [vacuum](../vacuum/pumps.md) capability.
 - **Thickness control**: Coating performance depends on precise thickness control (±2-5 nm for single-layer AR coatings). Quartz crystal monitoring provides adequate control but adds complexity. Visual color monitoring (watching reflected color change during deposition) is less precise but workable for single-layer coatings.
 - **Adhesion and durability**: Deposited films may delaminate under thermal cycling, humidity, or mechanical abrasion. Substrate cleaning (solvent degreasing, plasma cleaning) critically affects adhesion. Protective overcoats (SiO₂) improve durability at the cost of an additional deposition step.
 - **Material availability**: High-purity deposition materials (MgF₂, SiO₂, TiO₂, Al₂O₃) must be sourced or synthesized. Magnesium fluoride requires hydrofluoric acid in its synthesis. Titanium dioxide requires titanium metal or titanium tetrachloride as precursors.

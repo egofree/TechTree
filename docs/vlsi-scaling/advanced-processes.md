@@ -7,6 +7,7 @@
 > **Timeline**: Years 70-200+
 > **Outputs**: ion_implantation, ald_films, copper_interconnects, cmp_planarization, high_end_solar
 > **Cross-references**: [EDA, GPU Design & Advanced Packaging](eda-design.md) (summary-level coverage of these processes); [Core Fab Processes](../photolithography/fab-processes.md) (prerequisite baseline processes)
+> **Critical**: Yes — ion implantation, ALD, CMP, and copper interconnects enable all sub-250 nm manufacturing
 
 These processes represent the transition from baseline IC fabrication ([Core Fab Processes](../photolithography/fab-processes.md)) to sub-micron manufacturing. Each enables a capability impossible with diffusion doping, wet etching, or simple CVD alone. They are developed incrementally — ion implantation replaces diffusion first, then plasma etching replaces wet etching, then ALD and CMP enable multi-level metallization, and finally copper damascene replaces aluminum interconnects.
 

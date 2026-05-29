@@ -17,7 +17,7 @@ This capability covers the *process* of creating, maintaining, and enforcing sta
 ## Prerequisites
 
 - **Materials**: Paper and printing for standard documents ([Printing](printing.md))
-- **Tools**: [Technical Drawing](technical-drawing.md) instruments for illustrating standard specifications, [Measurement](../measurement/index.md) instruments for reference standards
+- **Tools**: [Technical Drawing](technical-drawing.md) instruments for illustrating standard specifications, [Measurement](../measurement/precision-metrology.md) instruments for reference standards
 - **Knowledge**: [Writing](writing.md) for unambiguous specification language, engineering knowledge in the domain to be standardized
 - **Infrastructure**: Meeting facilities, document storage and distribution system, testing facilities for validating compliance
 
@@ -26,7 +26,7 @@ This capability covers the *process* of creating, maintaining, and enforcing sta
 | Material/Resource | Quantity per Standard | Source | Alternatives |
 |-------------------|----------------------|--------|-------------|
 | Printed standard documents | 50-500 copies per standard | [Printing](printing.md) | Hand-copied (10× cost, 100× slower) |
-| Reference measurement artifacts | 1-3 master sets per standard type | [Measurement](../measurement/index.md) | No substitute — must be manufactured to specified accuracy |
+| Reference measurement artifacts | 1-3 master sets per standard type | [Measurement](../measurement/precision-metrology.md) | No substitute — must be manufactured to specified accuracy |
 | Test specimens for validation | 10-100 per validation round | Relevant domain (metals, ceramics, etc.) | Reduced sample size (lower statistical confidence) |
 | Meeting facilities | Shared across all standards activities | [Construction](../construction/index.md) | Correspondence-based process (slower, 5-10× timeline) |
 
@@ -218,7 +218,7 @@ A standard that practitioners cannot find or read is useless. Ensure every publi
 - [Writing & Record-Keeping](writing.md) — the documentation foundation for standards
 - [Printing & Book Production](printing.md) — distribution of standard documents
 - [Technical Drawing](technical-drawing.md) — drawing conventions are a key early standard
-- [Measurement](../measurement/index.md) — measurement standards are the most fundamental category
+- [Measurement](../measurement/precision-metrology.md) — measurement standards are the most fundamental category
 - [Education Pathways](education-pathways.md) — teaching standards to new practitioners
 - [Information Durability](information-durability.md) — preserving standards documents across generations
 - [Quality Control](../quality-control/index.md) — the quality management systems that standards enable

@@ -22,10 +22,10 @@ This document covers transformer construction, core and winding manufacturing, i
 
 - **Copper wire** — Drawn from electrorefined copper (99.99% purity). Magnet wire from 0.05 mm to 5.0 mm diameter with enamel insulation. See [Wire Drawing](electricity.md).
 - **Silicon steel sheet** — 3-4% silicon-iron alloy, 0.23-0.50 mm thick, for laminated cores. Reduces eddy current losses. See [Iron & Steel](../metals/iron-steel.md).
-- **Insulation materials** — Kraft paper (0.05-0.25 mm), pressboard (1-3 mm), varnish (shellac or synthetic), enamel for magnet wire. Higher temperature classes use mica, glass fiber, or silicone. See [Polymers](../polymers/index.md).
+- **Insulation materials** — Kraft paper (0.05-0.25 mm), pressboard (1-3 mm), varnish (shellac or synthetic), enamel for magnet wire. Higher temperature classes use mica, glass fiber, or silicone. See [Polymers](../polymers/thermoplastics.md).
 - **Transformer oil** — Refined mineral oil (flash point >140°C, dielectric strength >30 kV/mm). Provides both electrical insulation and convective cooling.
 - **Steel plate** — For transformer tanks, radiators, and structural supports. 3-12 mm thick.
-- **Porcelain insulators** — For bushings and terminal connections. See [Ceramics](../ceramics/index.md).
+- **Porcelain insulators** — For bushings and terminal connections. See [Ceramics](../ceramics/kilns.md).
 
 ### Tools and Equipment
 
@@ -55,7 +55,7 @@ This document covers transformer construction, core and winding manufacturing, i
 | Pressboard (1-3 mm) | 5-8 kg | [Chemistry](../chemistry/index.md) — cellulose processing | Phenolic laminate |
 | Transformer oil | 180-250 liters | [Petroleum](../chemistry/petroleum-alternatives.md) — refined mineral oil | Silicone fluid (higher fire point, 3-5× cost) or dry-type air-cooled (no oil) |
 | Steel plate (3-6 mm, tank) | 120-160 kg | [Iron & Steel](../metals/iron-steel.md) | Cast iron tank (heavier, brittle) |
-| Porcelain bushings (4 off) | 4 pcs | [Ceramics](../ceramics/index.md) | Epoxy resin bushings (lower voltage rating) |
+| Porcelain bushings (4 off) | 4 pcs | [Ceramics](../ceramics/kilns.md) | Epoxy resin bushings (lower voltage rating) |
 | Varnish / impregnating resin | 5-8 liters | [Chemistry](../chemistry/index.md) | Shellac (lower temperature class) |
 | Hardware (bolts, clamps, gaskets) | 10-15 kg | [Metals](../metals/index.md) | — |
 
@@ -397,8 +397,8 @@ A single winding with a tap point serves as both primary and secondary. The comm
 - **[Electrical Insulation Classes](electricity.md)** — thermal class ratings (Class A through H) for transformer insulation life calculations.
 - **[Wire Drawing](electricity.md)** — copper wire production process and gauge reference tables used in transformer winding.
 - **[Iron & Steel](../metals/iron-steel.md)** — silicon steel production for transformer cores, steel plate for tanks and structural components.
-- **[Ceramics](../ceramics/index.md)** — porcelain insulator and bushing production.
-- **[Polymers](../polymers/index.md)** — insulation materials (PVC, XLPE, epoxy resin, varnish).
+- **[Ceramics](../ceramics/kilns.md)** — porcelain insulator and bushing production.
+- **[Polymers](../polymers/thermoplastics.md)** — insulation materials (PVC, XLPE, epoxy resin, varnish).
 - **[Lubricants](../chemistry/lubricants.md)** — transformer oil specification, testing, and filtration.
 - **[Measurement Instruments](../measurement/electrical-instruments.md)** — megger, multimeter, power analyzer for transformer testing.
 

@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 15-70
 > **Outputs**: calculus, linear_algebra, differential_equations, probability_theory, statistical_methods, numerical_methods
+> **Critical**: Yes — mathematics is the shared language of quantitative reasoning for all engineering
 
 ## Problem
 

@@ -20,20 +20,20 @@ While [Food Preservation](preservation.md) covers the full spectrum of preservat
 
 ### Materials
 
-- **Tinplate**: Steel sheet coated with 0.5-1.5 μm tin. Sheet thickness 0.15-0.30 mm. Tin prevents iron-catalyzed food oxidation and corrosion. Source: [Metals](../metals/index.md) — requires tinplating capability.
-- **Glass jars**: Soda-lime glass with wide mouth, heat-resistant to 150°C+ (thermal shock resistant). Source: [Glass](../glass/index.md) or [Ceramics](../ceramics/index.md).
-- **Sealing compound**: Rubber gaskets for glass jars (natural rubber + sulfur vulcanization), or sealing compound for can ends (modified rubber or polymer). Source: [Polymers](../polymers/index.md) or natural rubber.
-- **Food-grade solder** (for three-piece cans): 98% tin / 2% silver, or lead-free solder. Lead solder was historically used but is toxic — never use lead for food containers. Source: [Metals](../metals/index.md).
-- **Water**: For food preparation, brine, syrup, and cooling. Must be potable. Source: [Water Supply](../water/index.md).
-- **Steam**: For retort processing at 100-130°C, 0-30 psi gauge pressure. Source: [Energy](../energy/index.md) — requires boiler.
+- **Tinplate**: Steel sheet coated with 0.5-1.5 μm tin. Sheet thickness 0.15-0.30 mm. Tin prevents iron-catalyzed food oxidation and corrosion. Source: [Metals](../metals/iron-steel.md) — requires tinplating capability.
+- **Glass jars**: Soda-lime glass with wide mouth, heat-resistant to 150°C+ (thermal shock resistant). Source: [Glass](../glass/basic.md) or [Ceramics](../ceramics/kilns.md).
+- **Sealing compound**: Rubber gaskets for glass jars (natural rubber + sulfur vulcanization), or sealing compound for can ends (modified rubber or polymer). Source: [Polymers](../polymers/thermoplastics.md) or natural rubber.
+- **Food-grade solder** (for three-piece cans): 98% tin / 2% silver, or lead-free solder. Lead solder was historically used but is toxic — never use lead for food containers. Source: [Metals](../metals/iron-steel.md).
+- **Water**: For food preparation, brine, syrup, and cooling. Must be potable. Source: [Water Supply](../water/basic-treatment.md).
+- **Steam**: For retort processing at 100-130°C, 0-30 psi gauge pressure. Source: [Energy](../energy/engine.md) — requires boiler.
 
 ### Tools and Equipment
 
-- **Retort (pressure vessel)**: Horizontal or vertical cylindrical vessel rated for 15-30 psi (1-2 bar) at 121°C+. Equipped with steam inlet, vent, drain, pressure gauge, safety relief valve, and temperature recorder. Source: [Metals](../metals/index.md) — riveted or welded steel construction.
+- **Retort (pressure vessel)**: Horizontal or vertical cylindrical vessel rated for 15-30 psi (1-2 bar) at 121°C+. Equipped with steam inlet, vent, drain, pressure gauge, safety relief valve, and temperature recorder. Source: [Metals](../metals/iron-steel.md) — riveted or welded steel construction.
 - **Can seamer**: Double-seam machine that hermetically seals can ends to bodies. First operation roll curls cover hook; second operation roll compresses seam. Precision mechanism requiring ±0.05 mm tolerance. Source: [Machine Tools](../machine-tools/index.md).
 - **Can body maker**: Tinplate shearing, body forming (cylinder), side-seam soldering or welding. Three-piece can construction.
 - **Exhaust box**: Steam or hot water tunnel to heat sealed cans to 75-85°C before seaming, removing air (prevents paneling and oxidative quality loss).
-- **Boiler**: Steam generation at 5-15 bar for retort operation and exhaust box. Source: [Energy](../energy/index.md).
+- **Boiler**: Steam generation at 5-15 bar for retort operation and exhaust box. Source: [Energy](../energy/engine.md).
 - **Cooling system**: Water bath or spray cooling. Potable water with 2-5 ppm free chlorine to prevent post-seam contamination.
 
 ### Knowledge
@@ -46,11 +46,11 @@ While [Food Preservation](preservation.md) covers the full spectrum of preservat
 
 | Material | Quantity per 1000 cans (1 lb / 500 g) | Source | Alternatives |
 |----------|:--------------------------------------:|--------|-------------|
-| Tinplate (bodies + ends) | 45-55 kg | [Metals](../metals/index.md) — tinplated steel | Glass jars (heavier, fragile, reusable) |
-| Tin (for plating) | 0.3-0.5 kg | [Metals](../metals/index.md) | Not substitutable for steel cans |
-| Sealing compound (gaskets) | 0.5-1.0 kg | [Polymers](../polymers/index.md) — rubber | Natural rubber + sulfur |
-| Solder (lead-free) | 0.5-1.0 kg | [Metals](../metals/index.md) | Welded side seam (requires electric welding) |
-| Steam (processing) | 150-300 kg | [Energy](../energy/index.md) — boiler | Direct-fired retort (less uniform) |
+| Tinplate (bodies + ends) | 45-55 kg | [Metals](../metals/iron-steel.md) — tinplated steel | Glass jars (heavier, fragile, reusable) |
+| Tin (for plating) | 0.3-0.5 kg | [Metals](../metals/iron-steel.md) | Not substitutable for steel cans |
+| Sealing compound (gaskets) | 0.5-1.0 kg | [Polymers](../polymers/thermoplastics.md) — rubber | Natural rubber + sulfur |
+| Solder (lead-free) | 0.5-1.0 kg | [Metals](../metals/iron-steel.md) | Welded side seam (requires electric welding) |
+| Steam (processing) | 150-300 kg | [Energy](../energy/engine.md) — boiler | Direct-fired retort (less uniform) |
 | Cooling water | 500-1000 L | [Water](../water/index.md) | Recirculated with cooling tower |
 | Labels (paper) | 1000 sheets | [Paper](../foundations/food-agriculture.md) | Unlabeled (identify by can code stamp) |
 
@@ -256,9 +256,9 @@ These values assume sea level and pure steam (no air). Air in the retort lowers 
 - [Food Fermentation](fermentation.md) — biological preservation, acidification
 - [Dairy Processing](dairy.md) — pasteurization of milk and dairy products
 - [Brewing & Distilling](brewing.md) — pasteurization of beer and wine
-- [Metals](../metals/index.md) — tinplate production, steel for retorts
-- [Glass](../glass/index.md) — glass jar production
-- [Energy](../energy/index.md) — steam generation for retorts and boilers
+- [Metals](../metals/iron-steel.md) — tinplate production, steel for retorts
+- [Glass](../glass/basic.md) — glass jar production
+- [Energy](../energy/engine.md) — steam generation for retorts and boilers
 - [Machine Tools](../machine-tools/index.md) — precision machining for can seamers
 - [Health & Sanitation](../health/sanitation.md) — microbiology, hygiene, food safety
 

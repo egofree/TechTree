@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 70-200+
 > **Outputs**: advanced_lithography, euv_capability, duv_capability
+> **Critical**: Yes — advanced lithography is the primary enabler of feature size scaling below 250 nm
 
 ### Advanced Lithography Scaling
 

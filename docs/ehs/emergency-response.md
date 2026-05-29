@@ -274,4 +274,4 @@ Semiconductor fabs use a multi-tier alarm system:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [EHS](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

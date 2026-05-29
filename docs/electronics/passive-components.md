@@ -21,11 +21,11 @@ This document covers construction methods for each passive component type at thr
 ### Materials
 - **Copper wire**: Drawn from [electrolytic copper](../chemistry/electrolysis.md), diameters 0.05-2.0 mm, purity >99.9%
 - **Carbon/graphite**: From [charcoal](../energy/charcoal.md) processing or mined graphite, purity >95%
-- **Ceramic dielectrics**: Titanium dioxide (TiO₂), barium titanate (BaTiO₃) from [ceramics](../ceramics/index.md) production
+- **Ceramic dielectrics**: Titanium dioxide (TiO₂), barium titanate (BaTiO₃) from [ceramics](../ceramics/kilns.md) production
 - **Aluminum foil**: 6-20 μm thickness, >99% purity from [metals processing](../metals/iron-steel.md)
 - **Insulation materials**: [Polymer films](../polymers/thermoplastics.md) (PVC, polyester, polypropylene), paper, mica
 - **Ferrite powders**: Iron oxide (Fe₂O₃) + manganese oxide (MnO) or zinc oxide (ZnO), sintered at 1000-1300°C
-- **Tin/lead solder**: From [metals smelting](../metals/index.md)
+- **Tin/lead solder**: From [metals smelting](../metals/iron-steel.md)
 
 ### Tools
 - [Wire drawing dies](../machine-tools/machining.md) for consistent wire diameters

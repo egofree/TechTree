@@ -6,6 +6,7 @@
 > **Enables**: `petroleum.petrochemicals.steam-cracking`
 > **Timeline**: Years 25-50+
 > **Outputs**: ethylene, propylene, butadiene, benzene, toluene, xylene, styrene, ethylene_oxide
+> **Critical**: No — petrochemicals are the cheapest route to organic chemicals but ethanol-to-ethylene and coal tar alternatives exist
 
 ## Why Petrochemicals Matter
 

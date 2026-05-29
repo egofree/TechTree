@@ -20,8 +20,8 @@ For industrial ethanol and solvent fermentation, see [Chemistry: Fermentation](.
 
 ### Materials
 
-- **Salt (NaCl)**: 2-3% concentration for vegetable fermentation; 12-18% for soy sauce brine. Non-iodized salt preferred — iodine inhibits lactic acid bacteria. Source: [Mining](../mining/index.md) or solar evaporation of seawater.
-- **Water**: Clean, chlorine-free. Chlorine in municipal water kills lactic acid bacteria. Remove by boiling and cooling, or by leaving uncovered for 24 hours. Source: [Water Supply](../water/index.md).
+- **Salt (NaCl)**: 2-3% concentration for vegetable fermentation; 12-18% for soy sauce brine. Non-iodized salt preferred — iodine inhibits lactic acid bacteria. Source: [Mining](../mining/processing.md) or solar evaporation of seawater.
+- **Water**: Clean, chlorine-free. Chlorine in municipal water kills lactic acid bacteria. Remove by boiling and cooling, or by leaving uncovered for 24 hours. Source: [Water Supply](../water/basic-treatment.md).
 - **Starter cultures**: Wild (from environment), backslopped (from previous batch), or commercial freeze-dried. Sourdough starter takes 5-7 days to establish from flour and water.
 - **Grain**: Wheat, rye, or other flour for sourdough. Source: [Grain Milling](milling.md).
 - **Vegetables**: Cabbage, radish, cucumber, carrot, and other produce. Source: [Agriculture](../foundations/food-agriculture.md).
@@ -46,12 +46,12 @@ For industrial ethanol and solvent fermentation, see [Chemistry: Fermentation](.
 | Material | Quantity per kg output | Source | Alternatives |
 |----------|:----------------------:|--------|-------------|
 | Cabbage | 1.1-1.3 kg | [Agriculture](../foundations/food-agriculture.md) — fresh, compact heads | Other cruciferous vegetables (radish, turnip) |
-| Salt (NaCl) | 20-30 g per kg cabbage | [Mining](../mining/index.md) — non-iodized | Sea salt; avoid iodized (inhibits LAB) |
+| Salt (NaCl) | 20-30 g per kg cabbage | [Mining](../mining/processing.md) — non-iodized | Sea salt; avoid iodized (inhibits LAB) |
 | Water (chlorine-free) | As needed for brine | [Water](../water/index.md) | Boiled and cooled tap water |
 | Soybeans (dry) | 0.8-1.0 kg per kg miso | [Agriculture](../foundations/food-agriculture.md) | Chickpeas for alternative miso |
 | Koji mold (*Aspergillus oryzae*) | 1-5 g per kg substrate | Commercial starter or propagated from rice | Cannot substitute — defines the product |
 | Wheat flour | 1.0-1.2 kg per kg sourdough starter | [Grain Milling](milling.md) | Rye flour (more active fermentation) |
-| Sea salt (coarse) | 150-250 g per L soy sauce | [Mining](../mining/index.md) | Rock salt, solar salt |
+| Sea salt (coarse) | 150-250 g per L soy sauce | [Mining](../mining/processing.md) | Rock salt, solar salt |
 | Ceramic crocks (5-20 L) | 1 per batch | [Ceramics](../ceramics/index.md) | Glass jars, wooden barrels |
 
 ## Process Description

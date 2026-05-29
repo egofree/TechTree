@@ -23,8 +23,8 @@ The extraction progression moves from simple pressing (stone-age, 40-60% yield) 
 - **Oilseeds**: Sunflower, rapeseed (canola), sesame, flax (linseed), cottonseed, peanut, or hemp seed. Oil content varies 20-50% by weight. Source: [Agriculture](../foundations/food-agriculture.md).
 - **Olives**: 15-30% oil by weight. Source: [Agriculture](../foundations/food-agriculture.md) — requires Mediterranean or similar climate.
 - **Animal fat**: Beef suet, pork fatback, sheep tail fat, poultry fat. Source: [Agriculture](../foundations/food-agriculture.md) or hunting.
-- **Water**: For olive oil washing and animal fat rendering. Source: [Water Supply](../water/index.md).
-- **Heat source**: Charcoal, wood fire, or steam for pressing temperature control. Source: [Energy](../energy/index.md).
+- **Water**: For olive oil washing and animal fat rendering. Source: [Water Supply](../water/basic-treatment.md).
+- **Heat source**: Charcoal, wood fire, or steam for pressing temperature control. Source: [Energy](../energy/engine.md).
 
 ### Tools and Equipment
 

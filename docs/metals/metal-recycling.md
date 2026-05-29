@@ -25,9 +25,9 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | Material | Specification | Source |
 |----------|--------------|--------|
 | Metal scrap | Sorted by alloy family; ferrous, Al, Cu, mixed | Collection from demolition, manufacturing offcuts, end-of-life products |
-| Flux (limestone, fluorspar) | 2–5% of charge weight | [Mining](../mining/index.md) |
+| Flux (limestone, fluorspar) | 2–5% of charge weight | [Mining](../mining/processing.md) |
 | Refractories | Furnace linings rated for target temperature | [Refractories](../chemistry/refractories.md) |
-| Fuel or electricity | 300–700 kWh/tonne for EAF steel; 5–20 kWh/kg for Al remelt | [Energy](../energy/index.md) |
+| Fuel or electricity | 300–700 kWh/tonne for EAF steel; 5–20 kWh/kg for Al remelt | [Energy](../energy/engine.md) |
 
 ### Tools & Equipment
 
@@ -65,7 +65,7 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | Aluminum scrap (sorted) | 1,050–1,100 kg | Collection, manufacturing offcuts | Primary aluminum (energy cost 50× higher) |
 | Salt flux (NaCl/KCl) | 10–30 kg | [Alkalis](../chemistry/alkalis.md) | Cryolite (if available) |
 | Chlorine gas | 0.5–2.0 kg | [Electrolysis](../chemistry/electrolysis.md) | Nitrogen degassing (less effective) |
-| Natural gas or electricity | 5–20 kWh | [Energy](../energy/index.md) | Oil firing |
+| Natural gas or electricity | 5–20 kWh | [Energy](../energy/engine.md) | Oil firing |
 | Nitrogen or argon cover gas | 1–5 m³ | [Air Separation](../chemistry/air-separation.md) | SO₂ cover gas (toxic) |
 
 ## 4. Process Description
@@ -228,7 +228,7 @@ Bronze Age metalworkers recycled bronze routinely — broken tools and weapons w
 - [Aluminum Production](aluminum.md) — Primary aluminum smelting (the process recycling avoids)
 - [Copper & Bronze](copper-bronze.md) — Primary copper smelting and electrolytic refining
 - [Mining Extraction](../mining/extraction.md) — Ore extraction (the upstream process recycling reduces)
-- [Energy](../energy/index.md) — Power supply for electric furnaces
+- [Energy](../energy/engine.md) — Power supply for electric furnaces
 - [Waste Management](../ehs/waste-management.md) — Disposal of non-recyclable residues
 - [Chemical Recovery](../chemistry/chemical-recovery.md) — Solvent and acid recovery from metal processing
 

@@ -369,4 +369,4 @@ Routine industrial hygiene surveys assess worker exposure to chemical, physical,
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [EHS](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

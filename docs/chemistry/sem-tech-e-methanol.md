@@ -240,4 +240,4 @@ For regions with both cheap renewable electricity and access to point-source CO�
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) | [Chemistry](./index.md) | [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

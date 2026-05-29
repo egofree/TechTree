@@ -220,4 +220,4 @@ For bootstrapping, alkaline electrolysis is the clear choice: proven technology 
 - **[Vacuum Systems](../gas-handling/vacuum.md)**: Vacuum technology for CVD deposition
 - **[Electrolysis](electrolysis.md)**: Alkaline water electrolysis for hydrogen production
 
-*Part of the [Bootciv Tech Tree](../index.md) - [Chemistry](./index.md) - [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

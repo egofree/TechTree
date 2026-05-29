@@ -1,7 +1,7 @@
 # Armor & Protective Systems
 
 > **Node ID**: defense.armor
-> **Domain**: Defense & Military Engineering
+> **Domain**: [Defense](./index.md)
 > **Dependencies**: None (root capability)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 5-30+

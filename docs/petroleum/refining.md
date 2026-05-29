@@ -6,6 +6,7 @@
 > **Enables**: [`energy.engine`](../energy/engine.md), [`petroleum.petrochemicals`](petrochemicals.md), `petroleum.refining.cracking`, `petroleum.refining.distillation`
 > **Timeline**: Years 15-40
 > **Outputs**: gasoline, kerosene, diesel, fuel_oil, lubricating_base_oil, asphalt, lpg, refinery_gas
+> **Critical**: No — refining produces optimal fuels and chemical feedstocks but biomass and coal-derived alternatives exist
 
 ## Why Refining Matters
 

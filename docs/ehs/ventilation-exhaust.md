@@ -296,4 +296,4 @@ The high exhaust volumes in semiconductor fabs represent significant energy loss
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [EHS](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

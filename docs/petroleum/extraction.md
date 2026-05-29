@@ -6,6 +6,7 @@
 > **Enables**: `petroleum.extraction.cable-tool`, `petroleum.extraction.rotary`, [`petroleum.refining`](refining.md)
 > **Timeline**: Years 10-35
 > **Outputs**: crude_oil, natural_gas_liquids, associated_gas
+> **Critical**: No — petroleum provides the highest-value feedstock but coal tar and fermentation alternatives exist for some products
 
 ## Why Extraction Matters
 

@@ -6,6 +6,7 @@
 > **Enables**: [`computing.digital-logic`](../computing/digital-logic.md)
 > **Timeline**: Years 25-70
 > **Outputs**: boolean_algebra, information_theory, formal_languages, automata_theory
+> **Critical**: Yes — mathematics is the shared language of quantitative reasoning for all engineering
 
 ## Problem
 

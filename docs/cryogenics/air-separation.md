@@ -6,6 +6,7 @@
 > **Enables**: [`chemistry.air-separation`](../chemistry/air-separation.md)
 > **Timeline**: Years 20-40
 > **Outputs**: cryogenic_distillation, liquid_nitrogen, liquid_oxygen, liquid_argon
+> **Critical**: No — PSA and membrane alternatives exist for moderate purities; cryogenic ASU provides highest purity and scale
 
 ### Overview
 

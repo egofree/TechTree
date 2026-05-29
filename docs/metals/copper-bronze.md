@@ -359,9 +359,9 @@ At industrial scale, copper smelting processes sulfide concentrates (20-35% Cu) 
 
 Two-stage blow cycle:
 1. **Slag blow**: Air oxidizes FeS in the matte to FeO + SO₂. Silica flux added to form fayalite slag (2FeO·SiO₂). Slag is poured off by tilting the converter. Duration: 2-6 hours depending on iron content. This stage removes most iron and sulfur.
-2. **Copper blow**: Remaining Cu₂S is oxidized: 2Cu₂S + 3O₂ → 2Cu₂O + 2SO₂, then Cu₂S + 2Cu₂O → 6Cu + SO₂. The product is **[blister copper](../glossary/blister-copper.md)** (98-99% Cu, named for SO₂ blisters trapped during solidification). Duration: 1-3 hours. Temperature: 1150-1250°C.
+2. **Copper blow**: Remaining Cu₂S is oxidized: 2Cu₂S + 3O₂ → 2Cu₂O + 2SO₂, then Cu₂S + 2Cu₂O → 6Cu + SO₂. The product is **[blister copper](../glossary/blister-copper.md)** (98-99% Cu, named for SO₂ blisters trapped during solidification). Duration: 1-3 hours. Temperature: 1150-1250 °C.
 
-**[Fire refining](../glossary/fire-refining.md)** (blister → tough pitch): Blister copper is melted in a reverberatory or rotary anode furnace at 1150-1200°C. Two stages:
+**[Fire refining](../glossary/fire-refining.md)** (blister → tough pitch): Blister copper is melted in a reverberatory or rotary anode furnace at 1150-1200 °C. Two stages:
 1. **Oxidation**: Air blown through or over the melt oxidizes impurities (Fe, Zn, Pb, Sn) to slag. Some Cu oxidizes to Cu₂O (dissolved oxygen rises to 0.6-0.9%).
 2. **Poling**: Green tree trunks (historically) or natural gas/reductant gas bubbled through the melt reduces dissolved Cu₂O back to Cu, lowering oxygen to 0.03-0.05%. "Tough pitch" copper at ~99.5% Cu is cast into anodes (800-1000 mm × 800-1000 mm × 40-50 mm, ~250-400 kg each) for electrolytic refining.
 

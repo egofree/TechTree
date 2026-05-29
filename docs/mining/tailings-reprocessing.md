@@ -29,9 +29,9 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 |----------|--------------|--------|
 | Mine tailings | Accessible tailings deposit with assay data | Existing mine waste (historical or active) |
 | Leaching agents | H₂SO₄, HCl, NaOH, NaCN, or biological culture | [Mineral Acids](../chemistry/acids.md), [Alkalis](../chemistry/alkalis.md) |
-| Flocculants and collectors | Xanthates, frothers, anionic polymers | [Chemistry](../chemistry/index.md) |
+| Flocculants and collectors | Xanthates, frothers, anionic polymers | [Chemistry](../chemistry/acids-bases.md) |
 | Water | 2–10 m³ per tonne of tailings processed | [Water Treatment](../chemistry/water-treatment.md) |
-| Energy | 15–50 kWh per tonne processed | [Energy](../energy/index.md) |
+| Energy | 15–50 kWh per tonne processed | [Energy](../energy/engine.md) |
 
 ### Tools & Equipment
 
@@ -41,8 +41,8 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Hydrocyclones and classifiers | Size classification | [Ore Processing](processing.md) |
 | Flotation cells | Mineral separation by surface chemistry | [Ore Processing](processing.md) |
 | Leach tanks (agitated) | Chemical dissolution of metals | [Metals](../metals/index.md) |
-| Thickeners and filters | Solid-liquid separation | [Chemistry](../chemistry/index.md) |
-| Solvent extraction or ion exchange | Metal purification from leach solutions | [Chemistry](../chemistry/index.md) |
+| Thickeners and filters | Solid-liquid separation | [Chemistry](../chemistry/acids-bases.md) |
+| Solvent extraction or ion exchange | Metal purification from leach solutions | [Chemistry](../chemistry/acids-bases.md) |
 
 ### Knowledge
 
@@ -60,19 +60,19 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Copper tailings | 1,000 kg (0.3% Cu = 3 kg Cu) | Mine waste deposit | N/A — feedstock |
 | Sulfuric acid (H₂SO₄) | 15–40 kg | [Mineral Acids](../chemistry/acids.md) | Bioleaching (slower, no acid purchase) |
 | Oxidant (air/O₂ or Fe³⁺) | 5–15 kg Fe²⁺/tonne recycled | Ferric iron in solution | Hydrogen peroxide (costly) |
-| Flocculant | 10–50 g | [Chemistry](../chemistry/index.md) | Settling pond (slower, larger footprint) |
+| Flocculant | 10–50 g | [Chemistry](../chemistry/acids-bases.md) | Settling pond (slower, larger footprint) |
 | Limestone (neutralization) | 20–60 kg | [Lime](../ceramics/lime.md) | Caustic soda (more expensive) |
 | Water | 3–8 m³ | [Water Treatment](../chemistry/water-treatment.md) | Recycled process water |
-| Electricity | 15–30 kWh | [Energy](../energy/index.md) | Diesel generator |
+| Electricity | 15–30 kWh | [Energy](../energy/engine.md) | Diesel generator |
 
 ### BOM: Gold Tailings Retreatment (per tonne of tailings at 0.8 g/t Au)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
 | Gold tailings | 1,000 kg (0.8 g Au = 0.8 g) | Mine waste deposit | N/A — feedstock |
-| Sodium cyanide (NaCN) | 0.2–0.5 kg | [Chemistry](../chemistry/index.md) | Thiosulfate (less toxic, more expensive) |
+| Sodium cyanide (NaCN) | 0.2–0.5 kg | [Chemistry](../chemistry/acids-bases.md) | Thiosulfate (less toxic, more expensive) |
 | Hydrated lime (pH modifier) | 2–8 kg | [Lime](../ceramics/lime.md) | Caustic soda |
-| Activated carbon | 0.5–2.0 kg (regenerable) | [Chemistry](../chemistry/index.md) | Zinc precipitation (Merrill-Crowe) |
+| Activated carbon | 0.5–2.0 kg (regenerable) | [Chemistry](../chemistry/acids-bases.md) | Zinc precipitation (Merrill-Crowe) |
 | Oxygen or air | 0.1–0.5 m³ | [Air Separation](../chemistry/air-separation.md) | Compressed air |
 | Water | 2–5 m³ | [Water Treatment](../chemistry/water-treatment.md) | Recycled from tailings pore water |
 
@@ -278,4 +278,4 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Mining](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining](./index.md) • [All Domains](../index.md)*

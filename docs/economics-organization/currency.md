@@ -25,7 +25,7 @@ The development of currency requires [metals](../metals/index.md) for producing 
 ### Materials
 
 - **Metal for coinage**: Copper, silver, or gold in workable quantities. Minimum: 50-100 kg of coinage metal to establish a viable currency system for a community of ~1,000 people.
-- [Metals production](../metals/index.md): Reliable smelting and refining capability to produce metal of consistent purity.
+- [Metals production](../metals/iron-steel.md): Reliable smelting and refining capability to produce metal of consistent purity.
 
 ### Tools and Equipment
 

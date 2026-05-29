@@ -1,9 +1,9 @@
 # Ultra-Pure Water (UPW) Production
 
 > **Node ID**: ultra-pure.upw
-> **Domain**: Ultra-Pure Materials
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Domain**: [Ultra-Pure Materials](./index.md)
+> **Dependencies**: [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md), [Polymers](../polymers/index.md), [Energy](../energy/index.md)
+> **Enables**: [High-Purity Chemicals](high-purity-chemicals.md), [Analytical Verification](analytical-verification.md)
 > **Timeline**: Years 40-70
 > **Outputs**: ultra_pure_water
 > **Tags**: materials=[water, chemicals], era=semiconductor

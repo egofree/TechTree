@@ -338,4 +338,4 @@ Seawater (3.5% NaCl, pH 8.0-8.3) is one of the most corrosive natural environmen
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Marine & Naval](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval](./index.md) • [All Domains](../index.md)*

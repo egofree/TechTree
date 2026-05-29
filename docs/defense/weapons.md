@@ -1,7 +1,7 @@
 # Weapons & Edged Tools
 
 > **Node ID**: defense.weapons
-> **Domain**: Defense & Military Engineering
+> **Domain**: [Defense](./index.md)
 > **Dependencies**: None (root capability)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 0-30+

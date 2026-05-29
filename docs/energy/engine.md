@@ -6,6 +6,7 @@
 > **Enables**: `energy.electricity.power-systems`, [`marine.propulsion`](../marine/propulsion.md), `transport`, [`transport.aviation`](../transport/aviation.md)
 > **Timeline**: Years 20-50
 > **Outputs**: internal_combustion_engines, gasoline_engines, diesel_engines, mechanical_power
+> **Critical**: No — engines enable motorized transport and portable power but are not on the critical path to semiconductor manufacturing
 
 Internal combustion engines convert chemical energy in fuel directly into mechanical work inside the engine itself — unlike steam engines (external combustion), where fuel burns in a separate boiler. The key advantage is power-to-weight ratio: a gasoline engine produces 0.5-5 kW per kilogram of engine weight, compared to 0.01-0.05 kW/kg for a steam engine. This makes motorized transport, aviation, and portable power generation practical.
 

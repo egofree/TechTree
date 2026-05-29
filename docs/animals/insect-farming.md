@@ -6,6 +6,7 @@
 > **Enables**: [`animals.aquaculture`](aquaculture.md), [`animals.poultry.chickens`](poultry-chickens.md)
 > **Timeline**: Years 1-10+
 > **Outputs**: bsf_larvae, protein_meal, chicken_feed, fish_feed, frass_fertilizer, compost
+> **Critical**: Yes — closes the nutrient loop by converting waste streams into animal feed protein
 
 ### Overview
 

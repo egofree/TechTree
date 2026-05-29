@@ -302,4 +302,4 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [EHS](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

@@ -1,7 +1,7 @@
 # Chemical Recovery & Solvent Regeneration
 
 > **Node ID**: chemistry.chemical-recovery
-> **Domain**: [Chemistry](./index.md)
+> **Domain**: [Chemistry](./distillation.md)
 > **Dependencies**: [`Distillation`](distillation.md), [`Electrolysis`](electrolysis.md), [`Solvent Production`](solvents.md), [`Mineral Acids`](acids.md)
 > **Enables**: [`Chemistry`](./index.md), [`Semiconductor Chemicals`](semiconductor-chemicals.md), [`Electronics`](../electronics/index.md)
 > **Timeline**: Years 20-50+
@@ -24,8 +24,8 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 |----------|--------------|--------|
 | Spent chemicals | Solvents, acids, catalysts from industrial processes | Manufacturing process waste streams |
 | Distillation column | Copper or steel, 2–10 m, packed with ceramic or steel packing | [Distillation](distillation.md) |
-| Membranes | Ion exchange, ultrafiltration, or diffusion dialysis | [Chemistry](./index.md) |
-| Heat source | Steam or direct heating at 60–300°C | [Energy](../energy/index.md) |
+| Membranes | Ion exchange, ultrafiltration, or diffusion dialysis | [Chemistry](./distillation.md) |
+| Heat source | Steam or direct heating at 60–300°C | [Energy](../energy/engine.md) |
 | Cooling water | 10–30 m³/hour per column | [Water Treatment](water-treatment.md) |
 
 ### Tools & Equipment
@@ -51,20 +51,20 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
 | Spent solvent (IPA, acetone, ethanol) | 1,000 L feed | Manufacturing waste streams | N/A — this is the feedstock |
-| Steam (heating) | 150–400 kg (depending on boiling point) | [Energy](../energy/index.md) | Direct gas heating (less controllable) |
+| Steam (heating) | 150–400 kg (depending on boiling point) | [Energy](../energy/engine.md) | Direct gas heating (less controllable) |
 | Cooling water | 5–15 m³ | [Water Treatment](water-treatment.md) | Air-cooled condenser (climate-dependent) |
-| Activated carbon (polishing) | 1–5 kg | [Chemistry](./index.md) | None for color body removal |
-| Molecular sieve (drying) | 5–20 kg (regenerable) | [Chemistry](./index.md) | CaCl₂ desiccant (consumed, not regenerated) |
-| Electrical energy | 10–50 kWh | [Energy](../energy/index.md) | Steam-driven pumps if available |
+| Activated carbon (polishing) | 1–5 kg | [Chemistry](./distillation.md) | None for color body removal |
+| Molecular sieve (drying) | 5–20 kg (regenerable) | [Chemistry](./distillation.md) | CaCl₂ desiccant (consumed, not regenerated) |
+| Electrical energy | 10–50 kWh | [Energy](../energy/engine.md) | Steam-driven pumps if available |
 
 ### BOM: Acid Recovery by Diffusion Dialysis (per 1,000 L spent acid)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
 | Spent acid (H₂SO₄, HCl, HNO₃) | 1,000 L feed | Pickling, etching, cleaning waste | N/A — feedstock |
-| Anion exchange membranes | 10–50 m² membrane area | [Chemistry](./index.md) | Electrodialysis (requires electricity) |
+| Anion exchange membranes | 10–50 m² membrane area | [Chemistry](./distillation.md) | Electrodialysis (requires electricity) |
 | Deionized water (receiving stream) | 500–1,500 L | [Water Treatment](water-treatment.md) | Tap water (reduces recovery purity) |
-| Electricity | 5–15 kWh | [Energy](../energy/index.md) | Diffusion dialysis is passive (gravity-driven) |
+| Electricity | 5–15 kWh | [Energy](../energy/engine.md) | Diffusion dialysis is passive (gravity-driven) |
 
 ## 4. Process Description
 
@@ -238,4 +238,4 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./distillation.md) • [All Domains](../index.md)*

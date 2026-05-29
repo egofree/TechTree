@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 5-15
 > **Outputs**: wind_power, mechanical_rotation, ground_grain, pumped_water
+> **Critical**: No — wind supplements water and steam power; wind variability limits reliability without storage or complementary sources
 
 ### Overview
 

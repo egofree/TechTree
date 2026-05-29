@@ -3,6 +3,7 @@
 > **Node ID**: silicon.mg-si-production
 > **Domain**: [Silicon](./index.md)
 > **Dependencies**: [`energy.electric-furnaces`](../energy/electric-furnaces.md), `mining`
+> **Dependencies**: [`energy.electric-furnaces`](../energy/electric-furnaces.md), [`mining.quarrying`](../mining/index.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 30-40
 > **Outputs**: mg_silicon

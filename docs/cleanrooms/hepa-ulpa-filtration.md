@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 40-70
 > **Outputs**: hepa_filters, ulpa_filters, laminar_flow_systems, fan_filter_units
+> **Critical**: Yes — HEPA/ULPA filtration removes sub-micron particles from air supply; without it, no cleanroom can achieve even ISO Class 8
 
 ### Overview
 

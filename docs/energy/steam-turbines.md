@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 20-35
 > **Outputs**: turbine_power, electrical_generation, rotary_power
+> **Critical**: Yes — steam turbines are the dominant prime mover for large-scale electricity generation; no practical alternative exists for utility-scale power above 50 MW
 
 ### Overview
 

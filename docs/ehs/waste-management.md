@@ -303,4 +303,4 @@ Proper segregation at the source is critical for effective treatment:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [EHS](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

@@ -217,4 +217,4 @@ For a 100 m cargo vessel at 12 knots:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Marine & Naval](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval](./index.md) • [All Domains](../index.md)*

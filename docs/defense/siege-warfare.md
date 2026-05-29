@@ -1,7 +1,7 @@
 # Siege Engineering & Military Logistics
 
 > **Node ID**: defense.siege-warfare
-> **Domain**: Defense & Military Engineering
+> **Domain**: [Defense](./index.md)
 > **Dependencies**: None (root capability)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 5-50+

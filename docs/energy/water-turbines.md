@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 12-25
 > **Outputs**: hydraulic_power, electrical_generation, high_rpm_rotation
+> **Critical**: No — water turbines provide efficient hydroelectric generation but are limited to sites with suitable head and flow
 
 ### Overview
 

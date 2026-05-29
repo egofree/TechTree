@@ -18,7 +18,7 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 
 ### Materials
 
-- **Glass** — Flat window glass (3-6 mm) for flat-plate collectors; curved or bent glass for parabolic troughs. See [Glass](../glass/index.md).
+- **Glass** — Flat window glass (3-6 mm) for flat-plate collectors; curved or bent glass for parabolic troughs. See [Glass](../glass/basic.md).
 - **Copper tubing** — For heat exchangers and absorber plates. See [Copper & Bronze](../metals/copper-bronze.md).
 - **Mirror material** — Silvered glass (silver deposit on glass backing), polished metal (aluminum, stainless steel), or aluminized polymer film.
 - **Steel** — For structural supports, tracking mechanisms, and receiver tubes. See [Iron & Steel](../metals/iron-steel.md).
@@ -27,7 +27,7 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 
 ### Tools and Equipment
 
-- **Glass bending/forming** — For parabolic trough reflectors. See [Glass](../glass/index.md).
+- **Glass bending/forming** — For parabolic trough reflectors. See [Glass](../glass/basic.md).
 - **Metalworking** — Cutting, welding, and bending copper and steel. See [Machine Tools](../machine-tools/index.md).
 - **Pumps and piping** — Circulating heat transfer fluid. See [Steam Power](steam-power.md).
 - **Tracking mechanism** — Clockwork, weight-driven, or motorized sun-tracking for concentrators.
@@ -45,7 +45,7 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
 | Copper tubing (15 mm OD, 1 mm wall) | 15-20 m | [Copper & Bronze](../metals/copper-bronze.md) | Stainless steel tubing (lower conductivity) |
-| Flat glass sheet (4 mm, 2 m²) | 1 sheet | [Glass](../glass/index.md) | Polycarbonate sheet (lower temp rating, UV degrades) |
+| Flat glass sheet (4 mm, 2 m²) | 1 sheet | [Glass](../glass/basic.md) | Polycarbonate sheet (lower temp rating, UV degrades) |
 | Steel sheet (1 mm, absorber plate backing) | 2 m² | [Iron & Steel](../metals/iron-steel.md) | Aluminum sheet |
 | Mineral wool insulation (50 mm) | 4 m² | [Chemistry](../chemistry/index.md) | Cork, straw (lower R-value) |
 | Steel or copper tank (200 liter) | 1 unit | [Metals](../metals/index.md) | Concrete tank with waterproof liner |
@@ -56,9 +56,9 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
-| Curved glass mirror (4 mm, 10 m²) | 10 m² | [Glass](../glass/index.md) | Polished aluminum sheet (70-80% reflectivity vs 90-95% for silvered glass) |
+| Curved glass mirror (4 mm, 10 m²) | 10 m² | [Glass](../glass/basic.md) | Polished aluminum sheet (70-80% reflectivity vs 90-95% for silvered glass) |
 | Steel receiver tube (50 mm OD) with selective coating | 5-8 m | [Iron & Steel](../metals/iron-steel.md) | Copper tube (better conductivity, lower max temp) |
-| Pyrex/glass envelope tube (80 mm OD) | 5-8 m | [Glass](../glass/index.md) | None — needed for vacuum insulation |
+| Pyrex/glass envelope tube (80 mm OD) | 5-8 m | [Glass](../glass/basic.md) | None — needed for vacuum insulation |
 | Steel support structure | 50-80 kg | [Iron & Steel](../metals/iron-steel.md) | Wood (limited lifespan, lower rigidity) |
 | Heat transfer fluid (mineral oil) | 50-100 liters | [Chemistry](../chemistry/index.md) | Water (limited to 100°C at atmospheric pressure) |
 | Tracking mechanism (gear motor, controller) | 1 unit | [Electronics](../electronics/index.md) | Manual adjustment (labor-intensive) |

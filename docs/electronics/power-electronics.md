@@ -3,14 +3,14 @@
 > **Node ID**: electronics.power-electronics
 > **Domain**: [Electronics](./index.md)
 > **Dependencies**: [`electronics.semiconductor-devices`](semiconductor-devices.md), [`electronics.passive-components`](passive-components.md), [`electronics.electrical-systems`](electrical-systems.md), [`energy.electricity`](../energy/electricity.md)
-> **Enables**: [`energy.photovoltaics`](../energy/photovoltaics.md), [`automation`](../automation/index.md), [`machine-tools.cnc`](../machine-tools/cnc.md)
+> **Enables**: [`energy.photovoltaics`](../energy/index.md), [`automation`](../automation/index.md), [`machine-tools.cnc`](../machine-tools/edm-cnc.md)
 > **Timeline**: Years 35-60
 > **Outputs**: rectifiers, inverters, converters, motor_drives, ups_systems
 > **Critical**: Yes — power electronics enables efficient energy conversion, motor control, and solar/grid integration without which industrial electrification is impossible
 
 ## 1. Overview
 
-Power electronics is the technology of converting and controlling electrical power using semiconductor switching devices. It encompasses rectifiers (AC→DC), inverters (DC→AC), DC-DC converters, and AC-AC converters. Every modern power system — from [solar inverters](../energy/photovoltaics.md) to variable-frequency motor drives to welding machines to [computer power supplies](../computing/electronic.md) — relies on power electronics.
+Power electronics is the technology of converting and controlling electrical power using semiconductor switching devices. It encompasses rectifiers (AC→DC), inverters (DC→AC), DC-DC converters, and AC-AC converters. Every modern power system — from [solar inverters](../energy/index.md) to variable-frequency motor drives to welding machines to [computer power supplies](../computing/electronic.md) — relies on power electronics.
 
 The core principle is high-frequency switching (1 kHz to 1 MHz) of semiconductor devices (diodes, MOSFETs, IGBTs, thyristors) to process power with 90-98% efficiency. By switching at frequencies far above the 50/60 Hz power line, the magnetic components (inductors, transformers) shrink dramatically — a 100 kHz transformer is 1/1000th the size of a 50 Hz transformer handling the same power.
 
@@ -355,7 +355,7 @@ Higher switching frequency shrinks magnetic components but increases switching l
 - **[PCB Fabrication](pcb-fabrication.md)**: circuit boards for power electronics assemblies
 - **[Electronics Assembly](assembly.md)**: soldering and packaging of power electronic assemblies
 - **[Electricity Generation](../energy/electricity.md)**: generators that power converters interface with
-- **[Photovoltaics](../energy/photovoltaics.md)**: solar inverters that convert DC to grid-compatible AC
+- **[Photovoltaics](../energy/index.md)**: solar inverters that convert DC to grid-compatible AC
 - **[Energy Storage](../energy/storage.md)**: battery systems that power electronics charge and discharge
 
 ---

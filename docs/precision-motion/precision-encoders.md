@@ -1,11 +1,11 @@
 # Precision Encoders & Feedback
 
 > **Node ID**: precision-motion.precision-encoders
-> **Domain**: Precision Motion Control
+> **Domain**: [Precision Motion Control](./index.md)
 > **Timeline**: Years 35-55
 > **Outputs**: laser_interferometers, optical_encoders, encoder_feedback_systems
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [Nanometer Positioning](./nanometer-positioning.md), [Optics](../optics/index.md), [Precision Metrology](../measurement/precision-metrology.md)
+> **Enables**: [Wafer Stages & Scanner Systems](./wafer-stages.md), [Vibration Isolation](./vibration-isolation.md)
 
 Nanometer positioning stages (see [Nanometer Positioning](./nanometer-positioning.md)) are only as accurate as their position feedback. A piezo stage may have 0.01 nm actuator resolution, but if the position sensor measures to only 10 nm, the effective positioning accuracy is 10 nm. This document covers the encoder and interferometer technologies that close the feedback loop for nanometer-precision motion: optical scale encoders, laser interferometers, and the signal processing that extracts sub-nanometer position from optical measurements.
 

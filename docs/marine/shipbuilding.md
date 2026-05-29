@@ -240,4 +240,4 @@ For detailed sailing mechanics, see [Water Transport](../transport/shipping.md).
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Marine & Naval](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval](./index.md) • [All Domains](../index.md)*

@@ -446,4 +446,4 @@ At the projected SEM Tech membrane cost of $10-15/m² (including bipolar membran
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) | [Chemistry](./index.md) | [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

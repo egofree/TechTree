@@ -6,7 +6,7 @@ After chemical-mechanical polishing (CMP), the wafer surface is contaminated wit
 
 ## Context in the Tech Tree
 
-Post-CMP cleaning is a critical step in semiconductor wafer processing within [Silicon Wafer Production](../silicon/wafer-production.md) and [Advanced Processes](../vlsi-scaling/advanced-processes.md). CMP produces a planar surface but leaves behind abrasive particles (silica or alumina from the slurry), pad debris, and dissolved metal contaminants. If not removed, these particles cause killer defects in subsequent lithography and etching steps — a single sub-micron particle can short-circuit transistor gates or break metal interconnect lines.
+Post-CMP cleaning is a critical step in semiconductor wafer processing within [Silicon Wafer Production](../silicon/wafering.md) and [Advanced Processes](../vlsi-scaling/advanced-processes.md). CMP produces a planar surface but leaves behind abrasive particles (silica or alumina from the slurry), pad debris, and dissolved metal contaminants. If not removed, these particles cause killer defects in subsequent lithography and etching steps — a single sub-micron particle can short-circuit transistor gates or break metal interconnect lines.
 
 ## Technical Details
 
@@ -22,5 +22,5 @@ The process must be validated by particle counting (laser surface scanning) — 
 
 ## Appears In
 
-- [Silicon Wafer Production](../silicon/wafer-production.md)
+- [Silicon Wafer Production](../silicon/wafering.md)
 - [Advanced Processes](../vlsi-scaling/advanced-processes.md)

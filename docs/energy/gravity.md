@@ -6,6 +6,7 @@
 > **Enables**: [`energy.gravity.water-turbines`](water-turbines.md), [`energy.storage.pumped-hydro`](pumped-hydro.md)
 > **Timeline**: Years 5-15
 > **Outputs**: water_power, mechanical_rotation, ground_grain, pumped_water
+> **Critical**: No — water power provides reliable mechanical energy but alternative power sources (steam, wind) can substitute where water is unavailable
 
 ### Overview
 

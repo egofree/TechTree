@@ -209,4 +209,4 @@ Estimating current position from a known starting point by tracking course and d
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Marine & Naval](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval](./index.md) • [All Domains](../index.md)*

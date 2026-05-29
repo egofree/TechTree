@@ -1,7 +1,7 @@
 # Stone & Wood Tools
 
 > **Node ID**: foundations.tools-basic
-> **Domain**: Foundations
+> **Domain**: [Foundations](./index.md)
 > **Dependencies**: None (root capability)
 > **Enables**: [`animals.aquaculture`](../animals/aquaculture.md), [`animals.beekeeping`](../animals/beekeeping.md), [`animals.draft-power`](../animals/draft-power.md), [`ceramics.pottery`](../ceramics/pottery.md), [`construction.building-materials`](../construction/building-materials.md), [`foundations.food-agriculture`](food-agriculture.md), [`foundations.water-procurement`](water-procurement.md), [`knowledge.writing`](../knowledge/writing.md), [`mining.extraction`](../mining/extraction.md), [`textiles.fibers`](../textiles/fibers.md), [`transport.roads`](../transport/roads.md)
 > **Timeline**: Years 0-5

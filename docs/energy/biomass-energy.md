@@ -20,11 +20,11 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 
 ### Materials
 
-- **Biomass feedstock** — Wood chips, agricultural residues (straw, husks, stalks), animal manure, food waste, energy crops (miscanthus, switchgrass). See [Plants](../plants/index.md).
+- **Biomass feedstock** — Wood chips, agricultural residues (straw, husks, stalks), animal manure, food waste, energy crops (miscanthus, switchgrass). See [Plants](../plants/structural-plants.md).
 - **Steel plate and pipe** — For gasifier construction, digester tanks, and piping. See [Iron & Steel](../metals/iron-steel.md).
-- **Refractory lining** — Firebrick or castable refractory for gasifier combustion zones. See [Ceramics](../ceramics/index.md).
+- **Refractory lining** — Firebrick or castable refractory for gasifier combustion zones. See [Ceramics](../ceramics/kilns.md).
 - **Sealing materials** — Clay, tar, or rubber gaskets for digester gas-tightness.
-- **Water** — For digester slurry mixing and gas scrubbing. See [Water](../water/index.md).
+- **Water** — For digester slurry mixing and gas scrubbing. See [Water](../water/basic-treatment.md).
 
 ### Tools and Equipment
 
@@ -45,7 +45,7 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
-| Brick or concrete (walls) | 2,000-3,000 bricks or 3 m³ concrete | [Ceramics](../ceramics/index.md) | Ferrocement (thinner walls, less material) |
+| Brick or concrete (walls) | 2,000-3,000 bricks or 3 m³ concrete | [Ceramics](../ceramics/kilns.md) | Ferrocement (thinner walls, less material) |
 | Steel plate (3 mm, gas holder dome) | 15-25 kg | [Iron & Steel](../metals/iron-steel.md) | Flexible membrane (PVC/HDPE, limited lifespan) |
 | PVC pipe (110 mm, inlet/outlet) | 6-10 m | [Polymers](../polymers/index.md) | Clay pipe (more leakage risk) |
 | Gas pipe (25 mm galvanized steel) | 5-10 m | [Iron & Steel](../metals/iron-steel.md) | PVC pipe (lower pressure rating) |
@@ -57,7 +57,7 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
 | Steel plate (6-10 mm, gasifier body) | 150-300 kg | [Iron & Steel](../metals/iron-steel.md) | Used propane tank (limited size) |
-| Firebrick (230 × 115 × 65 mm) | 30-60 pcs | [Ceramics](../ceramics/index.md) | Castable refractory (easier to form complex shapes) |
+| Firebrick (230 × 115 × 65 mm) | 30-60 pcs | [Ceramics](../ceramics/kilns.md) | Castable refractory (easier to form complex shapes) |
 | Steel pipe (50 mm, air nozzles) | 3-5 m | [Iron & Steel](../metals/iron-steel.md) | Stainless steel (longer life in oxidation zone) |
 | Steel grate (15 mm bar, 20 mm spacing) | 1 unit | [Iron & Steel](../metals/iron-steel.md) | Cast iron grate |
 | Cyclone separator (sheet steel) | 1 unit | [Iron & Steel](../metals/iron-steel.md) | Fabric filter (higher pressure drop) |
@@ -358,7 +358,7 @@ Updraft gasifiers pass gas upward through the fuel bed. The gas exits through th
 - **[Chemistry / Fermentation](../chemistry/fermentation.md)** — Ethanol production chemistry
 - **[Steam Power](steam-power.md)** — Biomass-fired steam boilers
 - **[Energy Storage](storage.md)** — Gas storage systems
-- **[Plants](../plants/index.md)** — Energy crop species and yields
+- **[Plants](../plants/structural-plants.md)** — Energy crop species and yields
 - **[Fuel Production](fuels.md)** — Comparative fuel properties
 
 ---

@@ -1,7 +1,7 @@
 # Czochralski Crystal Pulling — Equipment & Construction
 
 > **Node ID**: silicon.crystal-growth.cz-pulling
-> **Domain**: Silicon
+> **Domain**: [Silicon](./index.md)
 > **Dependencies**: [`measurement.temperature-pressure`](../measurement/temperature-pressure.md), [`silicon.crystal-growth`](crystal-growth.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 30-50

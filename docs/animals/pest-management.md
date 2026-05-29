@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 0-10
 > **Outputs**: biological_pest_control, crop_protection, guardian_services, rodent_suppression
+> **Critical**: No — valuable for crop protection but not a foundation node
 
 ## Overview
 

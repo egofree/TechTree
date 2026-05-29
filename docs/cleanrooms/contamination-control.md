@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 40-70
 > **Outputs**: contamination_control_protocols, iso_classification, esd_control, particle_monitoring
+> **Critical**: Yes — semiconductor fabrication at sub-micron nodes is impossible without contamination control; a single particle destroys a die
 
 ### Overview
 

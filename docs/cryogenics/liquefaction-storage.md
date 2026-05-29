@@ -6,6 +6,7 @@
 > **Enables**: [`silicon.crystal-growth`](../silicon/crystal-growth.md)
 > **Timeline**: Years 20-40
 > **Outputs**: cryogenic_storage, liquid_gases, dewar_vessels, cold_boxes
+> **Critical**: No — cryogenic storage is the most efficient bulk gas delivery method but compressed gas cylinders are an alternative
 
 ### Overview
 

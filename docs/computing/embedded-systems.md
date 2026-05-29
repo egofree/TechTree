@@ -3,7 +3,7 @@
 > **Node ID**: computing.embedded-systems
 > **Domain**: [Computing](./index.md)
 > **Dependencies**: [`computing.computer-architecture`](computer-architecture.md), [`computing.data-storage`](data-storage.md), [`electronics.pcb-fabrication`](../electronics/pcb-fabrication.md)
-> **Enables**: Industrial process control, semiconductor fab equipment control, automation systems
+> **Enables**: [`process-control`](../automation/process-control.md), [`wafer-handling`](../automation/wafer-handling.md), [`equipment-communication`](../automation/equipment-communication.md)
 > **Timeline**: Years 55-75+
 > **Outputs**: microcontroller_systems, firmware, real_time_control, sensor_interfaces
 > **Critical**: Yes — embedded systems bridge computing hardware and physical process control; without them, semiconductor fab tools cannot be automated
@@ -364,7 +364,10 @@ Industrial control using standardized PLC hardware: rack-mounted I/O modules, la
 - [`electronics.passive-components`](../electronics/passive-components.md) — Resistors, capacitors, and inductors for signal conditioning and filtering.
 - [`electronics.pcb-fabrication`](../electronics/pcb-fabrication.md) — PCB layout considerations for mixed-signal embedded designs.
 - [`electronics.power-electronics`](../electronics/power-electronics.md) — Power supply and motor drive design for embedded systems.
+- [`measurement.temperature-pressure`](../measurement/temperature-pressure.md) — Thermocouples and pressure transducers used as embedded system sensor inputs.
+- [`measurement.electrical-instruments`](../measurement/electrical-instruments.md) — Oscilloscopes, multimeters, and logic analyzers for embedded system debugging.
+- [`automation.process-control`](../automation/process-control.md) — The industrial process control systems that embedded systems enable.
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Computing](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*

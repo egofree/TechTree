@@ -6,6 +6,7 @@
 > **Enables**: [`cryogenics.air-separation`](air-separation.md), [`cryogenics.liquefaction-storage`](liquefaction-storage.md)
 > **Timeline**: Years 20-30
 > **Outputs**: refrigeration_cycles, cryogenic_cooling, expansion_engines
+> **Critical**: No — refrigeration enables cryogenics and food preservation but is not a direct semiconductor process
 
 ### Overview
 

@@ -21,11 +21,11 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 ### Materials
 
 - **Steel casing and tubing** — Well casing (200-500 mm diameter, 8-12 mm wall, API grade J55 or K55). Production tubing (75-150 mm). See [Iron & Steel](../metals/iron-steel.md).
-- **Cement** — Well cement (API Class G or H) for casing-to-borehole annulus seal. See [Chemistry](../chemistry/index.md).
+- **Cement** — Well cement (API Class G or H) for casing-to-borehole annulus seal. See [Chemistry](../chemistry/acids-bases.md).
 - **Reinforced concrete** — For power plant foundations, cooling tower basins, and containment structures.
 - **Copper tubing** — For heat exchangers in binary cycle plants and ground-source heat pumps. See [Copper & Bronze](../metals/copper-bronze.md).
-- **Refrigerant or working fluid** — Isobutane, isopentane, or R245fa for binary cycle plants; water/steam for flash plants. See [Chemistry](../chemistry/index.md).
-- **HDPE or steel pipe** — For ground-source heat pump ground loops. See [Polymers](../polymers/index.md).
+- **Refrigerant or working fluid** — Isobutane, isopentane, or R245fa for binary cycle plants; water/steam for flash plants. See [Chemistry](../chemistry/acids-bases.md).
+- **HDPE or steel pipe** — For ground-source heat pump ground loops. See [Polymers](../polymers/thermoplastics.md).
 
 ### Tools and Equipment
 
@@ -47,21 +47,21 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
 | Steel well casing (200 mm, 8 mm wall) | 200-500 m | [Iron & Steel](../metals/iron-steel.md) | Fiberglass casing (lower temp rating, non-corrosive) |
-| Cement (API Class G) | 20-50 tonnes | [Chemistry](../chemistry/index.md) | Standard Portland cement (lower temp resistance) |
+| Cement (API Class G) | 20-50 tonnes | [Chemistry](../chemistry/acids-bases.md) | Standard Portland cement (lower temp resistance) |
 | Steel production tubing (100 mm) | 200-500 m | [Iron & Steel](../metals/iron-steel.md) | Fiberglass tubing (corrosion-resistant, lower strength) |
 | Plate heat exchanger (stainless steel 316L) | 1 unit | [Metals](../metals/index.md) | Shell-and-tube heat exchanger (larger, heavier) |
-| HDPE distribution pipe (50-100 mm) | 500-2,000 m | [Polymers](../polymers/index.md) | Steel pipe (heavier, requires corrosion protection) |
+| HDPE distribution pipe (50-100 mm) | 500-2,000 m | [Polymers](../polymers/thermoplastics.md) | Steel pipe (heavier, requires corrosion protection) |
 | Circulation pump (5-15 kW) | 2 units | [Energy](./index.md) | None — electric pump required |
-| Insulation (mineral wool, 50 mm) | 200-500 m² | [Chemistry](../chemistry/index.md) | Polyurethane foam (better R-value, higher cost) |
+| Insulation (mineral wool, 50 mm) | 200-500 m² | [Chemistry](../chemistry/acids-bases.md) | Polyurethane foam (better R-value, higher cost) |
 
 ### Ground-Source Heat Pump (10 kW heating/cooling for a building)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
-| HDPE ground loop pipe (32 mm) | 300-500 m | [Polymers](../polymers/index.md) | Copper tubing (higher conductivity, corrosion risk) |
+| HDPE ground loop pipe (32 mm) | 300-500 m | [Polymers](../polymers/thermoplastics.md) | Copper tubing (higher conductivity, corrosion risk) |
 | Heat pump unit (compressor, evaporator, condenser) | 1 unit | [Energy](./index.md) | Absorption heat pump (lower COP, no compressor) |
-| Bentonite grout (for borehole backfill) | 500-1,500 kg | [Chemistry](../chemistry/index.md) | Sand backfill (lower thermal conductivity) |
-| Antifreeze fluid (propylene glycol, 25%) | 200-400 liters | [Chemistry](../chemistry/index.md) | Ethanol/water mix (lower freeze point, flammable) |
+| Bentonite grout (for borehole backfill) | 500-1,500 kg | [Chemistry](../chemistry/acids-bases.md) | Sand backfill (lower thermal conductivity) |
+| Antifreeze fluid (propylene glycol, 25%) | 200-400 liters | [Chemistry](../chemistry/acids-bases.md) | Ethanol/water mix (lower freeze point, flammable) |
 
 ## 4. Process Description
 
@@ -345,7 +345,7 @@ Ground-source heat pumps achieve COP 3.0-5.0 year-round because the ground tempe
 - **[Energy Storage](storage.md)** — Grid integration of geothermal baseload
 - **[Mining](../mining/index.md)** — Drilling technology and well construction
 - **[Iron & Steel](../metals/iron-steel.md)** — Well casing and tubing materials
-- **[Chemistry](../chemistry/index.md)** — Working fluids, cement, corrosion inhibitors
+- **[Chemistry](../chemistry/acids-bases.md)** — Working fluids, cement, corrosion inhibitors
 
 ---
 

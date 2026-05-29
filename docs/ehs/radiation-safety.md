@@ -21,7 +21,7 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 - Shielding materials: lead sheet (0.5-3 mm for X-ray), concrete (15-30 cm for general shielding), steel plate, barium sulfate (for painted shielding)
 - Dosimetry materials: photographic film (film badge dosimeter), thermoluminescent crystals (TLD — LiF:Mg,Ti), or optically stimulated luminescence (OSL) badges (requires electronics)
 - Warning signs: trefoil radiation symbol, posted at access points
-- Survey instruments: Geiger-Müller counter, ionization chamber, or scintillation detector (requires [electronics](../electronics/index.md))
+- Survey instruments: Geiger-Müller counter, ionization chamber, or scintillation detector (requires [electronics](../electronics/assembly.md))
 - Decontamination supplies: absorbent paper, detergent, chelating agents (EDTA, DTPA) for radioactive metal contamination
 
 ### Tools and Equipment
@@ -244,4 +244,4 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [EHS](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

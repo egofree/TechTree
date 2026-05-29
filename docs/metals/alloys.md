@@ -6,6 +6,7 @@
 > **Enables**: [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md), [`machine-tools.joining`](../machine-tools/joining.md), [`metals.powder-metallurgy`](powder-metallurgy.md)
 > **Timeline**: Years 20-50
 > **Outputs**: stainless steel, tool steel, superalloys, titanium alloys, specialty copper alloys
+> **Critical**: true
 
 ### Overview
 

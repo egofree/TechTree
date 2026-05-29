@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 40-70
 > **Outputs**: cleanroom_facilities, pressure_cascade_systems, raised_floor_systems, hvac_systems
+> **Critical**: Yes — cleanroom facility design provides the structural envelope that enables all semiconductor manufacturing
 
 ### Overview
 

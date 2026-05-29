@@ -579,4 +579,4 @@ The SEM Tech water treatment system depends on upstream capabilities from severa
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) | [Water](./index.md) | [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*

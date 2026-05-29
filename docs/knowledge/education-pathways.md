@@ -17,7 +17,7 @@ The distinction matters: a library of technical manuals without a structured pat
 ## Prerequisites
 
 - **Materials**: Paper, ink, printed textbooks ([Printing](printing.md)), workshop consumables for hands-on practice
-- **Tools**: Drafting instruments, measurement tools ([Measurement](../measurement/index.md)), workshop equipment for practical exercises
+- **Tools**: Drafting instruments, measurement tools ([Measurement](../measurement/precision-metrology.md)), workshop equipment for practical exercises
 - **Knowledge**: [Writing](writing.md) system for documentation, [Education](education.md) institutional structures, mathematical literacy (arithmetic through algebra minimum)
 - **Infrastructure**: Classroom space (20-30 m² per 8 students), workshop space with individual workstations, library access for reference materials
 
@@ -29,7 +29,7 @@ The distinction matters: a library of technical manuals without a structured pat
 | Textbooks (printed) | 1 per student per subject | [Printing](printing.md) | Hand-copied manuscripts (10× slower) |
 | Workshop consumables | 50-200 kg metal stock, chemicals, etc./year | [Metals](../metals/index.md), [Chemistry](../chemistry/index.md) | Scavenged materials, reduced exercise count |
 | Drafting instruments | 1 set per student | [Metals](../metals/index.md) | Shared sets (4 students per set) |
-| Measurement tools | 1 set per 2 students | [Measurement](../measurement/index.md) | Shared sets with scheduled access |
+| Measurement tools | 1 set per 2 students | [Measurement](../measurement/precision-metrology.md) | Shared sets with scheduled access |
 
 ## Process Description
 
@@ -263,7 +263,7 @@ A concrete example of a structured pathway for machining:
 - [Education & Training](education.md) — institutional structures for education
 - [Writing & Record-Keeping](writing.md) — documentation and knowledge recording systems
 - [Printing & Book Production](printing.md) — textbook production infrastructure
-- [Measurement](../measurement/index.md) — precision skills taught in technical pathways
+- [Measurement](../measurement/precision-metrology.md) — precision skills taught in technical pathways
 - [Machine Tools](../machine-tools/index.md) — primary technical skill set requiring education pathways
 - [Technical Drawing](technical-drawing.md) — drawing skills pathway within engineering education
 - [Standards Bodies](standards-bodies.md) — certification standards for practitioner qualification

@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 25-60
 > **Outputs**: anodized_aluminum, hard_anodized_surfaces, anodized_titanium, oxide_coatings
+> **Critical**: No — anodizing produces durable oxide coatings for semiconductor equipment but alternative surface treatments exist
 
 ### Overview
 

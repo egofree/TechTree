@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 30-80
 > **Outputs**: electropolished_surfaces, electroformed_parts, electroless_nickel, ENIG_surfaces, electroless_copper
+> **Critical**: Yes — electropolishing produces ultra-low-outgassing vacuum chamber surfaces; ENIG is the dominant PCB surface finish with no practical alternative
 
 ### Overview
 

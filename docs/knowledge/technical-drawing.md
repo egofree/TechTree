@@ -18,7 +18,7 @@ This capability covers manual drafting (pencil, ink, T-square, compass) as the b
 
 - **Materials**: Drawing paper (smooth, dimensionally stable — vellum or kraft paper), pencils (H through B grades), ink ([Writing](writing.md))
 - **Tools**: T-square or parallel straightedge, set square (30-60-90° and 45°), compass, dividers, ruling pen, protractor, French curves, eraser, drawing board
-- **Knowledge**: Geometry (planar constructions, projection theory), arithmetic, basic algebra, [Measurement](../measurement/index.md) systems (units, tolerances)
+- **Knowledge**: Geometry (planar constructions, projection theory), arithmetic, basic algebra, [Measurement](../measurement/precision-metrology.md) systems (units, tolerances)
 - **Infrastructure**: Drawing board (minimum A2 size: 420 × 594 mm), well-lit drafting station, flat storage for finished drawings
 
 ## Bill of Materials
@@ -229,7 +229,7 @@ Surface finish is indicated on drawings with a checkmark symbol (√) followed b
 
 - [Writing & Record-Keeping](writing.md) — ink, paper, and writing instruments foundational to drafting
 - [Printing & Book Production](printing.md) — paper production and reproduction of drawing standards
-- [Measurement](../measurement/index.md) — the measurement system that drawing dimensions reference
+- [Measurement](../measurement/precision-metrology.md) — the measurement system that drawing dimensions reference
 - [Machine Tools](../machine-tools/index.md) — the primary consumer of engineering drawings
 - [Education Pathways](education-pathways.md) — training sequences for draftsmen
 - [Standards Bodies](standards-bodies.md) — standardization of drawing conventions

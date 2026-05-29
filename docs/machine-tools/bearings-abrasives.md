@@ -431,6 +431,8 @@ Grind tool bits on abrasive wheel to correct geometry:
 - [Forming](./forming.md) — forging and rolling of bearing steel
 - [Lubricants](../chemistry/lubricants.md) — cutting fluid and bearing oil production
 - [Advanced Ceramics](../ceramics/advanced-ceramics.md) — ceramic bearings and abrasive grains
+- [Iron & Steel](../metals/iron-steel.md) — bearing steel (52100) and tool steel production
+- [Casting](./casting.md) — casting bearing shells and grinding wheel molds
 
 ### FEPA Abrasive Grading System
 

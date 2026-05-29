@@ -21,7 +21,7 @@ The Rowow LLC Technical Volume (lines 82-84) describes the discovery of related 
 Electrodialysis works by applying a direct current across a stack of alternating cation and anion exchange membranes placed between two electrodes:
 
 - **[Anode](../glossary/anodes.md)** (positively charged electrode): attracts anions (negatively charged ions)
-- **[Cathode](../glossary/cathodes.md)** (negatively charged electrode): attracts cations (positively charged ions)
+- **[Cathode](../glossary/cathode.md)** (negatively charged electrode): attracts cations (positively charged ions)
 - **Cation exchange membranes (CEM)**: permit passage of cations, block anions
 - **Anion exchange membranes (AEM)**: permit passage of anions, block cations
 
@@ -246,4 +246,4 @@ At each scale, the SEM Tech membrane cost is so low relative to other system com
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) | [Chemistry](./index.md) | [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

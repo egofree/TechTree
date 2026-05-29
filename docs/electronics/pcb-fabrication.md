@@ -27,7 +27,7 @@ This document covers the full PCB fabrication process from laminate production t
 - **Drill bits**: Tungsten carbide micro-drills, 0.1-6.5 mm diameter.
 
 ### Tools
-- [CNC drilling machine](../machine-tools/cnc.md) with 50,000-200,000 RPM spindle
+- [CNC drilling machine](../machine-tools/edm-cnc.md) with 50,000-200,000 RPM spindle
 - UV exposure unit (365 nm wavelength, 100-500 mJ/cm²)
 - Chemical processing tanks (etch, develop, strip, plating)
 - Hydraulic laminating press (170-200°C, 200-400 psi)
@@ -333,7 +333,7 @@ A workshop with UV exposure, spray etch tank, and drill press can produce functi
 - **[Glass Fibers](../glass/fibers.md)**: fiberglass cloth for FR-4 substrate
 - **[Thermoset Polymers](../polymers/thermosets.md)**: epoxy resin for laminate bonding
 - **[Electrolysis](../chemistry/electrolysis.md)**: copper production for traces and plating
-- **[CNC Machine Tools](../machine-tools/cnc.md)**: drilling and routing equipment
+- **[CNC Machine Tools](../machine-tools/edm-cnc.md)**: drilling and routing equipment
 - **[Cleanrooms](../photolithography/cleanrooms.md)**: controlled environment for fine-line PCB production
 
 ---

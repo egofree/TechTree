@@ -26,7 +26,7 @@ The boundary with waste management is clear: this document covers converting was
 |----------|--------------|--------|
 | Waste glass | Post-consumer containers, flat glass, fiberglass | Collection from demolition, manufacturing scrap, consumer waste |
 | Water | 1–5 m³ per tonne of cullet (washing) | [Water Treatment](../chemistry/water-treatment.md) |
-| Fuel (natural gas or oil) | 0.5–1.5 GJ per tonne of cullet processed | [Energy](../energy/index.md) |
+| Fuel (natural gas or oil) | 0.5–1.5 GJ per tonne of cullet processed | [Energy](../energy/engine.md) |
 
 ### Tools & Equipment
 
@@ -54,8 +54,8 @@ The boundary with waste management is clear: this document covers converting was
 | Waste glass (mixed containers) | 1,000 kg | Collection programs | Manufacturing cullet (cleaner, less processing) |
 | Water (washing) | 1–3 m³ | [Water Treatment](../chemistry/water-treatment.md) | Air classification (dry process, lower quality) |
 | Detergent (optional) | 0.1–0.5 kg | [Chemistry](../chemistry/index.md) | Hot water alone (less effective on organics) |
-| Electricity (crushing + sorting) | 15–40 kWh | [Energy](../energy/index.md) | Diesel generator |
-| Natural gas (drying) | 0.1–0.3 GJ | [Energy](../energy/index.md) | Waste heat from furnace exhaust |
+| Electricity (crushing + sorting) | 15–40 kWh | [Energy](../energy/engine.md) | Diesel generator |
+| Natural gas (drying) | 0.1–0.3 GJ | [Energy](../energy/engine.md) | Waste heat from furnace exhaust |
 
 ### BOM: Cullet-to-Glass Furnace Charge (per tonne of new glass)
 
@@ -219,7 +219,7 @@ Cullet reduces energy because it is already partially reacted — the silicate n
 - [Basic Glass Production](basic.md) — Primary glass melting from raw materials
 - [Advanced Glass Production](advanced.md) — Borosilicate and fused silica production
 - [Mining](../mining/index.md) — Source of silica sand (what recycling replaces)
-- [Energy](../energy/index.md) — Furnace fuel supply
+- [Energy](../energy/engine.md) — Furnace fuel supply
 - [Metal Recycling](../metals/metal-recycling.md) — Parallel recovery domain for metals
 - [Ceramic Recycling](../ceramics/ceramic-recycling.md) — Related recovery capability for ceramics
 - [Waste Management](../ehs/waste-management.md) — Disposal of non-recyclable glass waste

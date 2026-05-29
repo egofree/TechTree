@@ -304,4 +304,4 @@ The lithium separation system depends on several upstream capabilities. The PVC/
 ---
 
 
-*Part of the [Bootciv Tech Tree](../index.md) | [Chemistry](./index.md) | [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

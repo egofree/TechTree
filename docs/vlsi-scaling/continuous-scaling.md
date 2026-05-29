@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 70-200+
 > **Outputs**: larger_wafers, finer_features, higher_yield
+> **Critical**: No — describes scaling progression rather than a specific manufacturing capability
 
 ### Continuous Scaling
 

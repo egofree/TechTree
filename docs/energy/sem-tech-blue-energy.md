@@ -454,4 +454,4 @@ RED is currently the leading approach because it produces electricity directly w
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) | [Energy](./index.md) | [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

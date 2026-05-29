@@ -49,7 +49,7 @@ The most powerful element of rotation is nitrogen fixation by legumes. Leguminou
 | Grain seed (wheat, rye, or barley) | 50-100 kg | [Seed Saving](seed-saving.md) or [Foundations → Agriculture](../foundations/food-agriculture.md) | Oats, triticale |
 | Legume seed (beans, peas, or clover) | 30-80 kg | [Seed Saving](seed-saving.md) | Vetch, lentils, alfalfa |
 | Compost or manure (top-dressing) | 3-5 tonnes/ha for grain field | [Soil Management](soil-management.md) | Green manure (plow-under legume crop) |
-| Wood ash (pH amendment) | 200-500 kg if pH <6.0 | [Fire-Making](../foundations/fire.md) | Lime (requires [Chemistry → Lime](../chemistry/lime.md)) |
+| Wood ash (pH amendment) | 200-500 kg if pH <6.0 | [Fire-Making](../foundations/fire.md) | Lime (requires [Chemistry → Lime](../ceramics/lime.md)) |
 | Legume inoculant (if new land) | 100-200 g Rhizobium culture | Purchase or soil from established legume field | Native soil transfer from nearby legume plots |
 
 ### Four-Field Norfolk Rotation (1 Hectare per Field, 4 Hectare Total)

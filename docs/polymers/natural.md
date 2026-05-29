@@ -1,7 +1,7 @@
 # Natural Rubber & Vulcanization
 
 > **Node ID**: polymers.rubber.natural
-> **Domain**: Polymers & Composites
+> **Domain**: [Polymers & Composites](./index.md)
 > **Dependencies**: [`foundations`](../foundations/index.md), [`chemistry.distillation`](../chemistry/distillation.md)
 > **Enables**: [`polymers.rubber.vulcanization`](rubber.vulcanization.md), [`energy.engine`](../energy/engine.md), [`machine-tools.casting`](../machine-tools/casting.md)
 > **Timeline**: Years 5-30
@@ -20,7 +20,7 @@ Industrial machinery requires flexible, elastic materials that can seal gaps, tr
 - [Zinc oxide](../chemistry/alkalis.md) — accelerator activator in vulcanization
 - Tropical climate (for *Hevea*) or arid/temperate regions (for guayule/dandelion alternatives)
 
-### Natural Rubber
+## Natural Rubber
 
 **Source**: Latex from *Hevea brasiliensis* (tropical), guayule shrub or Russian dandelion (temperate alternatives).
 
@@ -31,7 +31,7 @@ Industrial machinery requires flexible, elastic materials that can seal gaps, tr
 - 1-2% resins — contribute to tack and aging behavior
 - 0.5-1% minerals (K, Mg, Cu, Fe trace elements)
 
-### Rubber Tapping
+## Rubber Tapping
 
 **Hevea brasiliensis tapping technique**:
 - **Cut**: Make a spiral cut down the trunk at ~30° from horizontal, cutting through the bark to just reach the cambium layer (the thin green layer of actively growing tissue beneath the bark). Cutting depth ~1.5 mm — too shallow limits latex flow, too deep damages the cambium and may kill the tree.
@@ -44,7 +44,7 @@ Industrial machinery requires flexible, elastic materials that can seal gaps, tr
 - **[Guayule](../glossary/guayule.md)** (*Parthenium argentatum*): Shrub native to the southwestern US and Mexico. Harvest whole shrubs, crush, and extract rubber by flotation in water. Lower yield per acre than Hevea but grows in arid regions.
 - **[Russian dandelion](../glossary/russian-dandelion.md)** (*Taraxacum kok-saghyz*): Rubber extracted from roots. Very small scale but possible in temperate climates.
 
-### Processing
+## Processing
 
 1. **Latex collection** — tapped from living trees or crushed from guayule/dandelion roots; 30-40% rubber hydrocarbon in latex emulsion
 2. **[Coagulation](../glossary/coagulation.md)** — add dilute formic acid (HCOOH) or acetic acid (CH₃COOH) at ~0.5% concentration to break the emulsion. The acid neutralizes the negative surface charge on rubber particles, destabilizing the colloid → rubber particles agglomerate into a soft mass (coagulum). Let stand 12-16 hours for complete coagulation.
@@ -59,7 +59,7 @@ Industrial machinery requires flexible, elastic materials that can seal gaps, tr
    - Carbon black (20-50 phr) — reinforcement
    - Antioxidants (1-2 phr)
 
-### Vulcanization
+## Vulcanization
 
 **Process**: Mix rubber with sulfur (2-4 parts per 100 rubber, "phr"), zinc oxide (5 phr, accelerator activator), stearic acid (2 phr). Heat to 140-160°C for 15-60 minutes under pressure (in a mold or autoclave).
 
@@ -75,7 +75,7 @@ Industrial machinery requires flexible, elastic materials that can seal gaps, tr
 
 **Applications**: Tires, drive belts, seals, gaskets, electrical insulation, vibration dampers, hoses.
 
-### Gutta-Percha
+## Gutta-Percha
 
 **Source**: Leaves (not bark) of *Palaquium gutta* and related trees, native to Southeast Asia.
 
@@ -91,7 +91,7 @@ Industrial machinery requires flexible, elastic materials that can seal gaps, tr
 - **Golf balls ("gutties")**: Replaced feather-filled balls in the 1850s. Cheap, durable, could be molded. Later replaced by rubber-core balls.
 - **Tool handles, electrical insulation, sealing gaskets**: Any application requiring a hard, moldable, insulating material.
 
-### Shellac
+## Shellac
 
 **Source**: Secretion of the lac bug (*Kerria lacca*), a scale insect that feeds on trees in India and Southeast Asia. The insect secretes a resinous cocoon (sticklac) on tree branches.
 
@@ -112,7 +112,7 @@ Industrial machinery requires flexible, elastic materials that can seal gaps, tr
 - **Primer/sealer**: Seals porous surfaces before painting. "Knotting" — shellac seals resinous knots in softwood to prevent bleed-through.
 - **Food coating**: Glaze on candies and pills (pharmaceutical "confectioner's glaze").
 
-### Amber
+## Amber
 
 Amber is fossilized conifer resin, typically 30-90 million years old. It is found in sedimentary deposits worldwide, with major sources in the Baltic region (succinite, ~90% of world supply), Dominican Republic, and Myanmar. Baltic amber contains 3-8% succinic acid (C₄H₆O₄), which distinguishes it from other natural resins.
 
@@ -122,7 +122,7 @@ Amber is fossilized conifer resin, typically 30-90 million years old. It is foun
 
 **Applications**: Historically used for jewelry, decorative items, and as a component in varnishes. Amber varnish (amber dissolved in boiled linseed oil) produces a hard, durable, golden-brown coating for fine woodwork and oil paintings. Also used for early electrical experimentation due to its electrostatic properties.
 
-### Horn and Tortoiseshell
+## Horn and Tortoiseshell
 
 **[Horn](../glossary/horn.md)** from cattle, sheep, and goats is composed of keratin — the same protein family as hair, nails, and feathers. Keratin is thermoplastic above ~150°C: the hydrogen bonds and disulfide cross-links between protein chains relax, allowing the material to be shaped.
 
@@ -134,7 +134,7 @@ Amber is fossilized conifer resin, typically 30-90 million years old. It is foun
 - **Processing**: Heat to 120-150°C in boiling water or oil bath. Press between polished metal plates to form flat sheets. Multiple pieces fuse together under heat and pressure — the basis for "genuine" tortoiseshell laminates. Can be carved, engraved, and polished to a high gloss.
 - **Applications**: Combs, hair accessories, eyeglass frames, decorative inlays, jewelry boxes.IMITATION: Celluloid dyed to match tortoiseshell patterns replaced the genuine material from the 1870s onward — celluloid is colored with pigment blends (amber, brown, black) to mimic the natural mottling.
 
-### Bitumen and Asphalt
+## Bitumen and Asphalt
 
 Natural bitumen deposits occur worldwide. The most significant is Trinidad Lake Asphalt — a natural deposit containing 70-80% bitumen, 20-30% mineral matter (fine clay, silica), and 2-5% water. The lake covers ~40 hectares and is estimated to contain 10-15 million tonnes of asphalt.
 
@@ -144,7 +144,7 @@ Natural bitumen deposits occur worldwide. The most significant is Trinidad Lake 
 
 **Historical uses**: Mesopotamian construction mortar (3000 BCE), Egyptian mummification (as a waterproofing agent), waterproofing for ships' hulls, early road surfaces (macadam with bitumen binder from the 1830s), pipe joint sealing, roofing felt impregnation.
 
-### Rosin (Colophony)
+## Rosin (Colophony)
 
 Rosin is the solid residue remaining after turpentine (the volatile component) is distilled from pine resin (oleoresin). Pine trees of the genus *Pinus* are tapped similarly to rubber trees — V-shaped cuts in the bark exude oleoresin containing ~70% rosin and ~30% turpentine by weight.
 
@@ -154,7 +154,7 @@ Rosin is the solid residue remaining after turpentine (the volatile component) i
 
 **Applications**: Soldering flux (rosin-core solder wire — rosin removes oxide films from metal surfaces at soldering temperatures, ~250°C, enabling wetting), varnish and lacquer formulation (rosin esterified with glycerol or pentaerythritol to form hard resin), printing inks (rosin esters as binder), adhesive tackifier (improves pressure-sensitive adhesive performance), violin bow treatment (rosin provides friction between bow hair and strings).
 
-### Dammar Resin
+## Dammar Resin
 
 Dammar (also spelled damar) is a natural resin obtained from trees of the family Dipterocarpaceae, primarily *Shorea* and *Hopea* species, native to Southeast Asia and Indonesia. The resin exudes from wounds in the bark and hardens into pale yellow to colorless nodules on the tree surface.
 
@@ -162,7 +162,7 @@ Dammar (also spelled damar) is a natural resin obtained from trees of the family
 
 **Applications**: Varnish for oil paintings (dammar varnish: 1 part dammar to 3 parts turpentine by weight — produces a clear, glossy, removable conservation-grade varnish that does not yellow significantly over decades), wood finishing, paper coating, and as a component in lithographic printing inks. Dammar is the preferred varnish resin for art conservation because it remains soluble in mild solvents (turpentine, white spirit) even after decades of aging, allowing removal and reapplication without damaging the underlying paint.
 
-### Natural Latex Processing (Concentrated Latex)
+## Natural Latex Processing (Concentrated Latex)
 
 For many applications (dipped goods like gloves, condoms, balloons; foam rubber; latex adhesive), raw field latex (30-40% dry rubber content, DRC) must be concentrated to 60%+ DRC. This concentrated latex is preserved against bacterial coagulation and stored for months.
 
@@ -175,14 +175,14 @@ For many applications (dipped goods like gloves, condoms, balloons; foam rubber;
 
 **Compounding concentrated latex**: Add sulfur (1-2 phr as aqueous dispersion), zinc oxide (1-3 phr), accelerators (ZDEC, ZMBT at 0.5-2 phr as dispersion), and antioxidants directly to concentrated latex with stirring. The compounded latex is matured (aged) for 6-24 hours at ambient temperature to allow pre-vulcanization — partial crosslinking occurs in the latex particle before the product is formed. This "pre-vulcanized latex" produces stronger dipped goods.
 
-### Natural Rubber Latex Allergy
+## Natural Rubber Latex Allergy
 
 Natural rubber latex contains residual plant proteins (Hev b 1-14 allergen panel) that can sensitize susceptible individuals. The allergy develops in two forms:
 
 - **Type I (immediate hypersensitivity)**: IgE-mediated reaction to specific latex proteins (Hev b 6.02 — hevein, is the major allergen). Symptoms appear within minutes: contact urticaria (hives at contact site), rhinitis, conjunctivitis, asthma. In severe cases: anaphylactic shock (airway constriction, blood pressure drop — potentially fatal). Prevalence: 1-6% general population, 8-17% in healthcare workers with frequent latex exposure, up to 67% in spina bifida patients (due to repeated catheterization). Treatment: epinephrine auto-injector for anaphylaxis. Prevention: use powder-free, low-protein latex gloves (protein content <50 μg/g vs. standard gloves 200-1000 μg/g), or substitute nitrile (NBR) gloves for latex-allergic workers.
 - **Type IV (delayed hypersensitivity)**: T-cell mediated reaction to rubber chemical additives (accelerators like thiurams and carbamates). Symptoms appear 24-48 hours after exposure: eczematous dermatitis at contact sites. Not life-threatening but chronically debilitating. Prevalence: 2-8% in rubber industry workers. Prevention: use accelerator-free glove formulations (chloroprene or polyurethane gloves for sensitized workers).
 
-### Smokehouse Operation
+## Smokehouse Operation
 
 The traditional ribbed smoked sheet (RSS) smokehouse is a simple structure designed to provide consistent, low-temperature drying with smoke exposure:
 
@@ -192,7 +192,7 @@ The traditional ribbed smoked sheet (RSS) smokehouse is a simple structure desig
 
 **Smoke composition and preservation**: The smoke deposits creosote (a complex mixture of phenols, guaiacols, and syringols) on the rubber surface. These phenolic compounds have antifungal and antibacterial properties — they prevent mold and bacterial growth during the extended drying period. Without smoke exposure, rubber sheets in tropical humidity would mold within 3-5 days. The smoke also imparts the characteristic amber color and smoky odor to RSS grades.
 
-### Natural Adhesives
+## Natural Adhesives
 
 Beyond rubber and shellac, several natural materials provide adhesive properties:
 
@@ -203,7 +203,7 @@ Beyond rubber and shellac, several natural materials provide adhesive properties
 - **Resin adhesives**: Dissolve pine rosin (colophony) in alcohol → sticky adhesive. Used for temporary bonds, sealant, and as a component in other adhesive formulations. Rosin is also the flux core in solder wire.
 - **Bitumen adhesive**: Natural asphalt or refined bitumen heated to 150-200°C and applied as a hot-melt adhesive. Used for waterproofing, pipe joint sealing, and as a binder in composite building materials. Ancient Egyptians used bitumen to join wood in ship construction (2500 BCE).
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Latex allergies**: Natural rubber latex proteins sensitize some individuals, causing allergic reactions ranging from skin irritation to anaphylactic shock. Use nitrile alternatives for allergic workers. Monitor for sensitization in repeated-exposure settings. Prevalence: 1-6% of general population, up to 17% in healthcare workers with frequent latex glove use.
 - **Chemical sensitizers**: Vulcanization accelerators (mercaptobenzothiazole, thiurams) and antioxidants are skin sensitizers that cause occupational dermatitis with repeated contact. Handle compounding ingredients with gloves. Minimize dust generation during weighing and mixing. MBT is also a suspected endocrine disruptor — EU classification as SVHC (Substance of Very High Concern).
@@ -224,7 +224,7 @@ Beyond rubber and shellac, several natural materials provide adhesive properties
 | Carbon black dust explosion | Airborne dust concentration above MEC (50-100 g/m³) | Local exhaust ventilation; ground equipment; avoid enclosed mixing |
 | Rubber perishing (surface cracks) | Ozone/UV degradation and aging | Add antioxidants (1-2 phr); store in dark, cool location away from electrical ozone sources |
 
-### See Also
+## See Also
 
 - [Rubber Vulcanization](rubber.vulcanization.md) — detailed vulcanization chemistry and process control
 - [Synthetic Polymers](synthetic.md) — synthetic rubber, plastics, and elastomers that supplement natural materials

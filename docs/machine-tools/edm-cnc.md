@@ -332,13 +332,4 @@ Each level requires roughly 10× the investment in machine capability, environme
 - Lubrication: [Lubricants](../chemistry/lubricants.md)
 - Silicon crystal growth (requires precision equipment): [Crystal Growth](../silicon/crystal-growth.md)
 
-## See Also
-
-- [Machining](machining.md) — Conventional machining operations (lathe, mill, drill, basic grinding)
-- [Bearings & Abrasives](bearings-abrasives.md) — Abrasive materials and bearing manufacturing
-- [Iterative Bootstrap](./iterative-bootstrap.md) — Precision improvement pathway
-- [Machine Tools Overview](./index.md) — Complete machine tools reference
-
-
-
 [← Back to Machine Tools](index.md)

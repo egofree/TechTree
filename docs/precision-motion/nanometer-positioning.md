@@ -326,13 +326,4 @@ Mechanical resonances in the stage structure limit the achievable feedback bandw
 - Wafer stage applications: [Wafer Stages & Scanner Systems](./wafer-stages.md)
 - Electricity supply for motors and controllers: [Electricity Generation & Distribution](../energy/electricity.md)
 
-## See Also
-
-- [Machine Tools Overview](../machine-tools/index.md) — Conventional precision manufacturing
-- [Measurement & Instrumentation](../measurement/index.md) — Metrology foundations
-- [Optics](../optics/index.md) — Optical components used in encoder systems
-- [Precision Motion Control](./index.md) — Domain overview
-
-
-
 [← Back to Precision Motion](index.md)

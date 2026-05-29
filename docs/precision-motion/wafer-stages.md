@@ -256,13 +256,4 @@ EUV lithography operates in high vacuum (~10⁻⁵ Pa) because EUV light is abso
 - Cleanroom requirements: [Cleanrooms](../cleanrooms/index.md)
 - Vacuum systems for EUV: [Vacuum](../vacuum/index.md)
 
-## See Also
-
-- [Nanometer Positioning](nanometer-positioning.md) — Actuation technologies
-- [Precision Encoders](precision-encoders.md) — Measurement feedback
-- [Vibration Isolation](vibration-isolation.md) — Environmental control
-- [Precision Motion Control](./index.md) — Domain overview
-
-
-
 [← Back to Precision Motion](index.md)

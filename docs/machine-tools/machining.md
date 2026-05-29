@@ -495,14 +495,4 @@ Cutting fluids cool the tool and workpiece, lubricate the chip-tool interface, a
 - **Surface integrity**: Machining creates a worked surface layer (residual stress, microstructural changes, micro-cracks) 10-200 μm deep. Fatigue-critical parts may require post-machining treatments (shot peening, stress relief annealing).
 - **Skill requirement**: Manual machining requires significant operator skill for setup, tool selection, and process control. CNC machining transfers this to programming but requires software expertise.
 
-## See Also
-
-- [Forming](forming.md) — Alternative shaping processes with less waste
-- [Bearings & Abrasives](bearings-abrasives.md) — Abrasive finishing and precision grinding
-- [Iterative Bootstrap](./iterative-bootstrap.md) — Precision improvement pathway
-- [Iron & Steel](../metals/iron-steel.md) — Workpiece materials
-- [Machine Tools Overview](./index.md) — Complete machine tools reference
-
-
-
 [← Back to Machine Tools](index.md)

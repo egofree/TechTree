@@ -8,7 +8,7 @@
 > **Outputs**: combinational_circuits, sequential_circuits, state_machines, programmable_logic
 > **Critical**: Yes — all digital hardware from microcontrollers to GPUs requires systematic logic design
 
-## 1. Overview
+## Problem
 
 Logic design is the engineering discipline of transforming Boolean algebra into physical circuits that perform computation. Where [`computing.digital-logic`](digital-logic.md) covers the physics of individual gates and arithmetic units at the transistor level, logic design addresses the system-level problem: how to organize thousands to billions of gates into correct, timing-compliant, testable digital systems.
 
@@ -17,6 +17,12 @@ The distinction matters. A single NAND gate is a device; a 32-bit carry-lookahea
 Logic design sits between gate-level physics (digital-logic) and processor-level organization (computer-architecture). It enables [`computing.computer-architecture`](computer-architecture.md) by providing the building-block design methodology, and it enables [`computing.embedded-systems`](embedded-systems.md) by providing the FPGA and CPLD design flow used in embedded control hardware.
 
 **Boundary with software-bootstrapping**: This document covers hardware logic design — the physical arrangement of gates, flip-flops, and interconnects. HDL programming (Verilog/VHDL coding, testbench methodology, simulation) is a software activity covered in the software-bootstrapping domain. The boundary: gate-level timing and physical implementation lives here; HDL source code and simulation scripts live there.
+
+## Prerequisites
+
+- [Digital Logic](digital-logic.md) — gate-level physics and transistor implementation
+- [Semiconductor Devices](../electronics/semiconductor-devices.md) — diodes, transistors, and thyristors
+- [PCB Fabrication](../electronics/pcb-fabrication.md) — PCB manufacturing for logic assemblies
 
 ## 2. Prerequisites
 
@@ -221,15 +227,24 @@ Commit the design to a custom silicon fabrication. Highest performance, lowest p
 | FPGA | Days-weeks | $15-100 | 10K-10M logic elements | 200-500 MHz |
 | ASIC | Months | $0.50-5 (at volume) | Unlimited | 1+ GHz |
 
-## 11. References
+## Troubleshooting
 
-- [`computing.digital-logic`](digital-logic.md) — Gate-level physics, transistor implementation, and arithmetic circuits. The prerequisite for logic design.
-- [`computing.computer-architecture`](computer-architecture.md) — Processor-level organization that consumes logic design outputs.
-- [`computing.embedded-systems`](embedded-systems.md) — Application of logic design in microcontroller and FPGA-based control systems.
-- [`electronics.semiconductor-devices`](../electronics/semiconductor-devices.md) — Diodes, transistors, and thyristors that implement logic gates.
-- [`electronics.pcb-fabrication`](../electronics/pcb-fabrication.md) — PCB manufacturing for logic circuit assemblies.
-- [`electronics.passive-components`](../electronics/passive-components.md) — Resistors, capacitors, and inductors required for logic circuit bias and decoupling.
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Setup/hold time violations | Clock skew or long combinational paths | Add pipeline registers; balance clock tree; reduce logic depth between flip-flops |
+| Glitches on combinational outputs | Unequal propagation delays through logic paths | Add redundant product terms; insert delay elements; register outputs before use |
+| FSM enters undefined state | Missing default/RESET state or metastability | Add explicit RESET to known state; encode all unused states as RESET; add synchronizers for async inputs |
+| Metastability on clock domain crossing | Signal sampled near clock edge | Add 2-stage synchronizer; use FIFO for data domain crossing; minimize crossing bandwidth |
+| FPGA timing not met after PAR | Over-constrained design or routing congestion | Add floorplanning constraints; pipeline critical paths; reduce utilization below 70% |
+| ASIC test coverage below 95% | Untestable logic or insufficient scan chains | Add full-scan flip-flops; insert test points at hard-to-observe nodes; use ATPG tool |
 
----
+## See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Computing](./index.md) · [All Domains](../index.md)*
+- [Digital Logic](digital-logic.md) — gate-level physics, transistor implementation, and arithmetic circuits
+- [Computer Architecture](computer-architecture.md) — processor-level organization that consumes logic design outputs
+- [Embedded Systems](embedded-systems.md) — application of logic design in microcontroller and FPGA-based control systems
+- [Semiconductor Devices](../electronics/semiconductor-devices.md) — diodes, transistors, and thyristors that implement logic gates
+- [PCB Fabrication](../electronics/pcb-fabrication.md) — PCB manufacturing for logic circuit assemblies
+- [Passive Components](../electronics/passive-components.md) — resistors, capacitors, and inductors for logic circuit bias and decoupling
+
+[← Back to Computing](index.md)

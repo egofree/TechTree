@@ -8,7 +8,7 @@
 > **Outputs**: gas_piping, distribution_manifolds, leak_tested_systems
 > **Critical**: No — basic piping from gas-handling.basic covers the same function at lower scale
 
-## 1. Overview
+## Problem
 
 Gas distribution piping systems deliver process gases from a central supply (cylinder manifold, bulk tank, or gas generator) to multiple points of use throughout a facility. While [Basic Gas Handling](basic.md) covers individual piping connections and fittings, this capability addresses the system-level design, installation, testing, and commissioning of complete gas distribution networks — from the gas supply room to the process tool connection points.
 
@@ -222,7 +222,18 @@ Label spacing: at minimum every 6 m on straight runs, at each room entry/exit, a
 9. Verify all labels and identification tags are installed
 10. Issue commissioning certificate with test records attached
 
-## 11. References
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Pressure drop higher than calculated | Undersized pipe or restricted flow at fitting | Verify pipe diameter matches design; check for debris or weld protrusion inside joints; recalculate with actual fitting count |
+| Leak at welded joint | Incomplete weld penetration or weld porosity | Cut out and reweld; verify orbital weld parameters (amperage, rotation speed, purge gas); X-ray inspect critical joints |
+| Particulate contamination at outlet | Weld slag, debris from construction, or dirty gas | Install point-of-use filter; flush system with filtered N₂; verify gas source purity |
+| Cross-contamination between gas species | Improper isolation or shared vent lines | Verify double-block-and-bleed valves between incompatible gases; separate vent lines for corrosive vs inert gases |
+| Valve packing leak (external) | Packing gland loose or packing material degraded | Tighten packing gland nut; if persistent, repack with compatible material (PTFE for corrosives, graphite for high temp) |
+| Pressure instability at tool connection | Regulator hunting or inadequate buffer volume | Add surge tank near point of use; verify regulator sizing; check for upstream pressure fluctuations |
+
+## See Also
 
 - [Basic Gas Handling](basic.md) — pipe fitting techniques, gasket selection, and material compatibility
 - [Vacuum Technology](vacuum.md) — vacuum piping conductance and sealing techniques
@@ -231,6 +242,4 @@ Label spacing: at minimum every 6 m on straight runs, at each room entry/exit, a
 - [Dopant & Etch Gases](../chemistry/dopant-etch-gases.md) — toxic gas panel design and exhaust abatement
 - [Gas Purification](gas-purification.md) — gas purification upstream of distribution piping
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*
+[← Back to Gas Handling](index.md)

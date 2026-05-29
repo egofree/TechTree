@@ -62,7 +62,7 @@ This capability depends on [building materials](./building-materials.md) for bas
 
 ## Process Description
 
-## 4.1 Steel-Frame Factory Construction
+## Steel-Frame Factory Construction
 
 **Principle**: Steel columns at regular spacing support roof trusses spanning 15-30 m, providing column-free interior space for production lines. The steel frame carries all vertical and lateral loads. Cladding provides weather enclosure only — it is not structural.
 
@@ -122,7 +122,7 @@ This capability depends on [building materials](./building-materials.md) for bas
 - Thermal conductivity — steel frames conduct heat, creating thermal bridges that increase heating/cooling costs
 - Skilled erection required — crane operation, bolt tightening, welding must meet specifications
 
-## 4.2 Machine Foundation Construction
+## Machine Foundation Construction
 
 **Principle**: Machine foundations isolate dynamic equipment vibrations from the building structure and prevent excessive settlement under static and dynamic loads. Foundation mass (3-10× machine mass) absorbs vibration energy. Proper isolation prevents a forge hammer from cracking its own foundation and the adjacent precision grinder from producing out-of-tolerance parts.
 
@@ -179,7 +179,7 @@ This capability depends on [building materials](./building-materials.md) for bas
 - Difficult to modify — once poured, foundation dimensions cannot be easily changed
 - Soil-dependent — performance depends on soil bearing capacity; weak soils require piling or mat foundations
 
-## 4.3 Industrial Floor Construction
+## Industrial Floor Construction
 
 **Principle**: Industrial floors carry concentrated point loads from machinery, forklifts (2-5 tonnes), and stored materials. Floor flatness directly affects equipment installation precision and forklift operation. Reinforced concrete slab-on-grade is the standard solution.
 

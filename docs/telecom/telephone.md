@@ -202,6 +202,12 @@ Toll circuits with loading coils every 1.83 km and vacuum tube repeaters every 8
 | Intermittent disconnects | Loose terminal screw; corroded battery contact; frayed cord wire | Tighten all terminal screws; clean battery contacts; replace frayed handset and line cords |
 | Static/crackling | Dirty switchboard cord contacts; loose jumper wire at MDF; carbon granule contamination | Clean cord plug contacts; re-punch loose jumper wires at main distribution frame; replace carbon granules |
 | Party line interference (cross-ringing) | Frequency-selective ringer misadjusted; wrong ringer frequency on shared line | Adjust ringer bias spring for correct frequency response; reassign subscriber to correct ringing frequency code |
+| Faint or distorted voice | Low line voltage or corroded connections | Check battery voltage (min 3V per station); clean all terminal connections; verify wire gauge adequate for distance |
+| Cross-talk (hearing other conversations) | Wire pairs running parallel without twist | Use twisted pair wiring; increase separation between pairs; check for damaged insulation |
+| 50/60 Hz hum on line | Electromagnetic interference from power lines | Maintain 2 m separation from power lines; cross power lines at 90°; install hum filters |
+| Ring signal not reaching subscriber | Broken ringer coil or open circuit | Test continuity of ring wire; check ringer coil resistance (500-2000 Ω typical); verify magneto output |
+| Switchboard connection drops | Dirty switchboard contacts or weak cord relay | Clean switchboard jacks with contact cleaner; replace worn cord relays; verify plug seating |
+| Long-distance signal too weak | Excessive line loss beyond loading coil range | Install vacuum tube repeater at midpoint; verify loading coil spacing (1.8 km typical); check for water in cables |
 
 ## Safety Considerations
 
@@ -222,17 +228,6 @@ The telephone's growth rate exceeded the telegraph by 10x. In the US, telegraph 
 - **Rural exchange**: 50-200 subscribers, 1-2 operators or small Strowger. Covers 10-15 km radius.
 - **Urban exchange**: 2,000-10,000 subscribers, 20-50 operators or multi-thousand-line Strowger. Covers 3-5 km radius. Multiple exchanges per city connected by inter-exchange trunks.
 - **Toll (long-distance)**: Dedicated 4-wire lines between cities with loading coils and vacuum tube repeaters. A 500 km connection with 3 loading sections and 2 repeaters provides commercial-quality voice.
-
-## Troubleshooting
-
-| Symptom | Likely Cause | Solution |
-|---|---|---|
-| Faint or distorted voice | Low line voltage or corroded connections | Check battery voltage (min 3V per station); clean all terminal connections; verify wire gauge adequate for distance |
-| Cross-talk (hearing other conversations) | Wire pairs running parallel without twist | Use twisted pair wiring; increase separation between pairs; check for damaged insulation |
-| 50/60 Hz hum on line | Electromagnetic interference from power lines | Maintain 2 m separation from power lines; cross power lines at 90°; install hum filters |
-| Ring signal not reaching subscriber | Broken ringer coil or open circuit | Test continuity of ring wire; check ringer coil resistance (500-2000 Ω typical); verify magneto output |
-| Switchboard connection drops | Dirty switchboard contacts or weak cord relay | Clean switchboard jacks with contact cleaner; replace worn cord relays; verify plug seating |
-| Long-distance signal too weak | Excessive line loss beyond loading coil range | Install vacuum tube repeater at midpoint; verify loading coil spacing (1.8 km typical); check for water in cables |
 
 ## See Also
 

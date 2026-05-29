@@ -68,7 +68,7 @@ This article is a child of [Soil Management](./soil-management.md), which covers
 
 ## Process Description
 
-## 4.1 Species Selection and Stocking
+## Species Selection and Stocking
 
 **Eisenia fetida (Red Wiggler)**: The standard vermicomposting worm worldwide. Stripe-banded (alternating dark red-brown and yellowish bands), 6-13 cm long at maturity, 3-5 mm diameter. Surface-dwelling epigeic species — naturally found in leaf litter, manure piles, and decaying vegetation rather than in mineral soil.
 
@@ -106,7 +106,7 @@ Why *E. fetida* dominates vermicomposting:
 - Tropical species (*P. excavatus*, *E. eugeniae*) are prone to mass migration when disturbed
 - Sourcing initial stock may require purchase from a worm farm or collection from wild compost piles — not always available in remote locations
 
-## 4.2 Bin Construction
+## Bin Construction
 
 **Wooden Bin**: Simple, effective, breathable. Construct from untreated timber (pine, oak, or any available hardwood). Do not use treated lumber (copper-chrome-arsenate or other preservatives are toxic to worms).
 
@@ -140,7 +140,7 @@ Advantage: No manual separation of worms from finished castings. Continuous prod
 - Concrete bins are permanent structures — cannot be relocated or resized
 - Stacked tray systems require precise mesh size (5-10 mm) — too large and worms fall through, too small and migration is blocked
 
-## 4.3 Bedding Preparation
+## Bedding Preparation
 
 Bedding is the worm's living environment. It must be moist, airy, carbon-rich, and free of toxins.
 
@@ -170,7 +170,7 @@ Preparation: Fill bin 15-20 cm deep with bedding material. Moisturize to 70-80% 
 - Bedding must be re-moistened every 1-2 weeks — neglect causes worm mortality from desiccation
 - Aged manure requires 2-4 weeks of pre-composting before it is safe for worms
 
-## 4.4 Feeding
+## Feeding
 
 **What to feed**:
 
@@ -194,7 +194,7 @@ Rate: 0.5 kg food per kg of worms per day (approximately 25% of their body weigh
 - Cannot process meat, dairy, or oily foods — these require separate thermophilic composting
 - Chopping food to <5 cm pieces accelerates processing but adds preparation labor (10-15 minutes per feeding)
 
-## 4.5 Population Management and Reproduction
+## Population Management and Reproduction
 
 Initial stocking: 1 kg of worms per 0.5 m² of surface area. A 1 × 2 m bin (2 m² surface area) starts with 4 kg of worms (approximately 4,000 individuals — roughly 1,000 worms per kg for *E. fetida*).
 
@@ -222,7 +222,7 @@ Population regulation: Worm populations self-regulate based on available food an
 - Wild-caught worms may introduce predatory insects (centipedes, flatworms) or parasites
 - Optimal reproduction requires 20-25°C and 70-80% moisture — narrow environmental tolerance
 
-## 4.6 Harvesting
+## Harvesting
 
 **Dump and Sort**: The simplest method. Empty the entire bin contents onto a tarp or table in a cone-shaped mound under bright light. Worms are photophobic and retreat into the center of the mound. Wait 15-30 minutes, then scrape away the outer layer of castings (worm-free). Repeat until a concentrated ball of worms remains. Return worms to freshly bedded bin.
 
@@ -248,7 +248,7 @@ Harvest frequency: Every 2-4 months, depending on temperature, food input, and w
 - Light migration leaves 10-20% of worms in the harvested castings — reduces breeding population over time
 - Continuous flow-through bins require specific construction (mesh bottom, scraper bar) that adds complexity to bin building
 
-## 4.7 Environmental Management
+## Environmental Management
 
 **Temperature**: Optimal range: 15-25°C for *E. fetida*. Growth and processing rate peak at 20-25°C.
 
@@ -278,7 +278,7 @@ Too wet (above 85%): Anaerobic pockets develop, producing foul odors (hydrogen s
 - Freezing is lethal — outdoor bins in cold climates require relocation or heavy insulation for 4-6 months per year
 - Moisture management requires checking bins every 2-3 days — neglect for 1-2 weeks in summer can cause desiccation
 
-## 4.8 Worm Tea Production
+## Worm Tea Production
 
 Worm tea is a liquid extract of vermicompost used as a foliar spray or soil drench. It provides nutrients and beneficial microorganisms directly to plant surfaces and root zones.
 

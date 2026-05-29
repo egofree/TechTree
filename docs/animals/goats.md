@@ -50,7 +50,7 @@ Materials listed per 20-doe operation per year.
 
 ## Process Description
 
-## 4.1 Dairy Management
+## Dairy Management
 
 **Principle**: Dairy goats convert browse and forage into milk with 3.2-5.0% butterfat, depending on breed. Goat milk has smaller fat globules (2-3 microns vs 3-4 for cow milk) and different casein structure, making it naturally homogenized and more digestible for many people.
 
@@ -81,7 +81,7 @@ Materials listed per 20-doe operation per year.
 - "Goaty" flavor results from poor hygiene, improper cooling, or buck proximity
 - CAE (caprine arthritis encephalitis) reduces production in unmanaged herds
 
-## 4.2 Meat Production (Chevon)
+## Meat Production (Chevon)
 
 **Principle**: Goat meat (chevon) is lean (2-3% fat vs 10-15% for beef), high in protein, and produced from kids reaching slaughter weight at 3-4 months on browse and pasture.
 
@@ -110,7 +110,7 @@ Materials listed per 20-doe operation per year.
 - Stronger flavor than lamb limits market in some cultures
 - Predation risk higher than cattle due to smaller size
 
-## 4.3 Fiber Production (Mohair and Cashmere)
+## Fiber Production (Mohair and Cashmere)
 
 **Principle**: Angora goats produce mohair (long, lustrous, curly fiber). Cashmere-producing goats produce fine undercoat (down) shed in spring. Both are high-value specialty fibers.
 
@@ -145,7 +145,7 @@ Materials listed per 20-doe operation per year.
 - Angora goats are more delicate than other breeds — require better nutrition and shelter
 - Mohair fiber diameter increases with age, reducing value of older animals
 
-## 4.4 Brush Clearing and Land Reclamation
+## Brush Clearing and Land Reclamation
 
 **Principle**: Goats browse on woody vegetation (shrubs, saplings, brambles, invasive species) that other livestock refuse. Stocked at 8-12 goats per hectare on dense browse, they strip bark, defoliate shrubs, and suppress regrowth.
 

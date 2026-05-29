@@ -69,7 +69,7 @@ Position in the dependency chain: soil management depends on [Foundations → Ag
 
 ## Process Description
 
-## 4.1 Turned Windrow Composting
+## Turned Windrow Composting
 
 The most common and reliable composting method. Organic materials are piled in long, trapezoidal windrows and turned periodically to reintroduce oxygen.
 
@@ -100,7 +100,7 @@ Maintain temperature at 55°C or above for a minimum of 3 consecutive days (for 
 - Requires carbon-rich "brown" materials that may be scarce in some farming systems (straw has competing uses as animal bedding)
 - 4-9 month total timeline means compost produced this year serves next year's crops — planning ahead is mandatory
 
-## 4.2 Static Pile (Passive Aeration)
+## Static Pile (Passive Aeration)
 
 Compost pile built over a network of perforated pipes or a coarse material base (wood chips, stalks) that allows air to enter passively without turning. Lower labor but slower and less uniform than turned windrow.
 
@@ -122,7 +122,7 @@ Compost pile built over a network of perforated pipes or a coarse material base 
 - Uneven decomposition — material at edges may not reach pathogen-killing temperatures
 - Not suitable for humanure unless temperature monitoring confirms all material reaches 55°C+
 
-## 4.3 Vermicomposting
+## Vermicomposting
 
 Composting using earthworms (*Eisenia fetida*), which consume organic matter and produce nutrient-rich castings. Faster than hot composting for suitable materials, produces a superior product with higher plant-available nutrients and beneficial microbial communities. See the dedicated article: [Vermiculture](./soil-management-vermiculture.md).
 
@@ -149,7 +149,7 @@ Composting using earthworms (*Eisenia fetida*), which consume organic matter and
 - Temperature-sensitive — worms die above 35°C and below 0°C, requiring climate management
 - Slower than thermophilic composting at processing large volumes of coarse material
 
-## 4.4 Biochar Production and Application
+## Biochar Production and Application
 
 Biochar is charcoal produced specifically for soil amendment. It is created by slow pyrolysis (heating biomass to 400-500°C in a low-oxygen environment), resulting in a highly porous, stable carbon structure that persists in soil for centuries to millennia. Biochar improves soil water retention, nutrient holding capacity (cation exchange capacity), and microbial habitat.
 
@@ -178,7 +178,7 @@ Build a cone or trench kiln from earth or bricks. Fill with dry woody biomass (b
 - Production requires controlled pyrolysis (400-500°C) — uncontrolled burning produces ash, not biochar
 - Yield response is highly variable (10-40%) — benefits are greatest on degraded soils and marginal on already fertile soils
 
-## 4.5 Green Manures and Cover Crops
+## Green Manures and Cover Crops
 
 Plants grown specifically to benefit the soil rather than for harvest. They protect soil from erosion, add organic matter, fix atmospheric nitrogen (legumes), suppress weeds, and break pest cycles.
 
@@ -207,7 +207,7 @@ Sow cover crops immediately after harvesting the main crop. Incorporate into soi
 - Requires seed stock for 2-5 different cover crop species (see [Seed Saving](seed-saving.md) for seed production)
 - Legume residues must be incorporated at the correct growth stage — too early wastes nitrogen potential, too late results in woody, slow-decomposing material
 
-## 4.6 Mulching
+## Mulching
 
 Covering the soil surface with organic or mineral material to conserve moisture, suppress weeds, moderate soil temperature, and add organic matter as the mulch decomposes.
 
@@ -232,7 +232,7 @@ Covering the soil surface with organic or mineral material to conserve moisture,
 - Straw and wood chip mulch can harbor slugs and snails, increasing pest pressure on susceptible crops
 - Fresh wood chips mixed into soil cause nitrogen lock-up — must be kept on the surface only
 
-## 4.7 Soil Testing and Amendments
+## Soil Testing and Amendments
 
 **pH management**:
 Target pH 6.0-7.0 for most crops (slightly acidic to neutral). Below 5.5: aluminum and manganese toxicity, phosphorus lock-up, reduced microbial activity. Above 7.5: iron, manganese, zinc, and phosphorus become less available.
@@ -270,7 +270,7 @@ Target pH 6.0-7.0 for most crops (slightly acidic to neutral). Below 5.5: alumin
 - Over-liming raises pH above 7.5, causing micronutrient lock-up (iron, manganese, zinc deficiency)
 - Visual nutrient diagnosis is imprecise — multiple deficiencies produce similar symptoms
 
-## 4.8 Mycorrhizal Inoculation
+## Mycorrhizal Inoculation
 
 Mycorrhizal fungi form symbiotic associations with plant roots, extending the effective root network by 10-100x through fungal hyphae that explore soil pores too small for roots to enter. The fungi receive carbohydrates from the plant and in return provide water and nutrients (especially phosphorus, zinc, and copper) from beyond the root zone.
 

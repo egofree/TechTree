@@ -26,8 +26,6 @@ From this point forward, any change to the compiler's source code is compiled by
 - [Machine Code & Front-Panel Programming](machine-code.md) — the origin of the bootstrap chain
 - [Operating System Construction](operating-systems.md) — file system needed for bootstrap process
 
-## Prerequisites
-
 ## Software
 - **Working compiler for the target language** ([compilers](compilers.md)): Either a minimal version written in assembly, or a cross-compiler running on a different machine.
 - **Assembler** ([assemblers](assemblers.md)): Needed to build the initial seed compiler from assembly source.
@@ -171,6 +169,12 @@ Once self-hosting is achieved, the compiler can be improved using itself:
 | Self-compilation takes too long | Quadratic algorithm in the compiler (e.g., linear symbol table search) | Profile the compilation; identify the bottleneck; optimize the specific algorithm (usually symbol table lookup or parser backtracking) |
 | Compiler works but generated code is wrong | Subtle bug in code generation that doesn't affect the compiler's own execution but affects generated programs | Test with programs that exercise edge cases (deeply nested expressions, many variables, recursive calls) |
 | Cannot add a new feature because the seed compiler doesn't support it | Seed compiler's language subset is too limited | Extend the seed compiler's assembly source to support the new feature, then re-bootstrap |
+| Bootstrap fails — stage 2 compiler crashes | Stage 1 (seed) compiler has a bug in a rarely-used code path | Reduce stage 2 source to minimal subset that compiles successfully; add one feature at a time; add diagnostics to stage 1 |
+| Self-compilation produces different binary each time | Non-deterministic behavior (timestamps, hash ordering, uninitialized memory) | Eliminate all sources of non-determinism; fix uninitialized variables; use deterministic hash tables |
+| Stage 2 compiler runs but produces wrong code | Bug in code generation that only triggers when compiling complex programs | Write targeted test programs that exercise each code generation path; compare stage 2 output against stage 1 output |
+| Bootstrap works on one machine but fails on another | Endianness, word size, or ABI differences | Use fixed-width integer types; avoid pointer-to-integer casts; test on both architectures during development |
+| Compiler cannot find its own runtime library | Search path hardcoded relative to build directory | Use relative paths based on compiler executable location; add configurable library search path |
+| Regression — new compiler version breaks existing programs | Silent semantics change in language or code generation | Maintain comprehensive test suite; run all tests before accepting any compiler change; bisect to find failing commit |
 
 ## Safety
 
@@ -201,17 +205,6 @@ Once self-hosting is achieved, the compiler can be improved using itself:
 | Staged: interpreter → simple compiler → full compiler | Medium | Low | Incremental approach with checkpoints |
 
 **The Ken Thompson trick**: In his 1984 Turing Award lecture, Thompson demonstrated that a self-hosting compiler can contain a hidden "backdoor" — the compiler can be modified to inject malicious code into a specific program (like the login command) whenever it compiles it, and this injection persists through self-compilation. The lesson: the only way to trust a self-hosted compiler is to audit the source code (and verify that the binary matches the audited source).
-
-## Troubleshooting
-
-| Symptom | Likely Cause | Solution |
-|---|---|---|
-| Bootstrap fails — stage 2 compiler crashes | Stage 1 (seed) compiler has a bug in a rarely-used code path | Reduce stage 2 source to minimal subset that compiles successfully; add one feature at a time; add diagnostics to stage 1 |
-| Self-compilation produces different binary each time | Non-deterministic behavior (timestamps, hash ordering, uninitialized memory) | Eliminate all sources of non-determinism; fix uninitialized variables; use deterministic hash tables |
-| Stage 2 compiler runs but produces wrong code | Bug in code generation that only triggers when compiling complex programs | Write targeted test programs that exercise each code generation path; compare stage 2 output against stage 1 output |
-| Bootstrap works on one machine but fails on another | Endianness, word size, or ABI differences | Use fixed-width integer types; avoid pointer-to-integer casts; test on both architectures during development |
-| Compiler cannot find its own runtime library | Search path hardcoded relative to build directory | Use relative paths based on compiler executable location; add configurable library search path |
-| Regression — new compiler version breaks existing programs | Silent semantics change in language or code generation | Maintain comprehensive test suite; run all tests before accepting any compiler change; bisect to find failing commit |
 
 ## See Also
 

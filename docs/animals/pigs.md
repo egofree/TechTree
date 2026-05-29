@@ -53,7 +53,7 @@ Materials listed per 5-sow operation per year.
 
 ## Process Description
 
-## 4.1 Farrowing Management
+## Farrowing Management
 
 **Principle**: Farrowing (birthing) is the most critical management period. Piglets are born with minimal body fat and are vulnerable to chilling, crushing, and starvation. Mortality in the first 3 days accounts for 60-80% of all pre-weaning losses.
 
@@ -85,7 +85,7 @@ Materials listed per 5-sow operation per year.
 - Sow may cannibalize piglets if stressed or underfed
 - Large litters may exceed functional teats — fostering required
 
-## 4.2 Pasture-Based and Forest Systems
+## Pasture-Based and Forest Systems
 
 **Principle**: Pigs on pasture require less purchased feed, produce healthier meat with higher omega-3 fatty acids, and distribute manure directly onto the land. Forest pannage (autumn woodland grazing on acorns and beechnuts) produces premium pork with minimal feed input.
 
@@ -115,7 +115,7 @@ Materials listed per 5-sow operation per year.
 - Electric fencing required — pigs challenge barriers relentlessly
 - Feed supplement always needed (pigs need concentrated energy and protein)
 
-## 4.3 Waste Feeding and Nutrient Cycling
+## Waste Feeding and Nutrient Cycling
 
 **Principle**: Pigs consume food waste and agricultural byproducts, converting them into edible protein. Dairy-pig integration (whey feeding) is one of the oldest and most efficient farming combinations.
 
@@ -144,7 +144,7 @@ Materials listed per 5-sow operation per year.
 - Excessive salt or spoiled feed causes health problems
 - Waste feeding requires daily collection and processing labor
 
-## 4.4 Growth and Processing
+## Growth and Processing
 
 **Principle**: Pigs reach market weight at 90-110 kg in 5-7 months (modern breeds) or 70-80 kg in 8-10 months (heritage breeds). Carcass yield of 70-80% is the highest of any livestock species.
 

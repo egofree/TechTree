@@ -64,7 +64,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 
 ## Process Description
 
-## 4.1 Grog Production from Waste Pottery
+## Grog Production from Waste Pottery
 
 1. **Collect and sort.** Gather broken pots, kiln wasters, and manufacturing rejects. Sort by ceramic type: earthenware (fired 800–1100°C, porous, red/buff), stoneware (fired 1200–1300°C, vitrified, gray/brown), and porcelain (fired 1250–1400°C, white, translucent). Do not mix types — different fired densities and absorption rates affect clay body behavior unpredictably.
 
@@ -80,7 +80,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 
 5. **Store dry.** Keep grog in dry storage. Grog does not absorb water readily (it is already fired), but moisture between particles can cause weighing inaccuracies and clay body inconsistencies.
 
-## 4.2 Spent Refractory Recovery
+## Spent Refractory Recovery
 
 1. **Assess and sort during furnace relining.** As spent refractories are removed from the furnace, sort into categories by visual inspection:
    - **Hot face** (directly exposed to molten metal/slag): heavily infiltrated with slag, often not recyclable for refractory use. Downcycle to aggregate.
@@ -98,7 +98,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
    - Used as landfill cover material
    - Processed for metal recovery (some spent refractories contain significant chromium, magnesite, or alumina values)
 
-## 4.3 Technical Ceramic Recovery
+## Technical Ceramic Recovery
 
 1. **Identify material.** Technical ceramics (alumina, zirconia, silicon carbide) have high material value. Separate by type using visual inspection (color, fracture surface), hardness testing, and density measurement.
 

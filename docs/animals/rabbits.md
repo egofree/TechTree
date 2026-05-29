@@ -27,11 +27,6 @@ Rabbits (*Oryctolagus cuniculus*) are the highest-efficiency terrestrial livesto
 | Dressing percentage | 55-60% | 1.4-1.5 kg from 2.5 kg live |
 | Space per doe | 0.5-0.8 m² cage | Most space-efficient livestock |
 | Manure N content | 2.0-2.4% | Can apply fresh — does not burn plants |
-
-## Prerequisites
-
-| Requirement | Source | Notes |
-|-------------|--------|-------|
 | Wire cages (2.5 × 5 cm mesh, 14-gauge) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Stackable, 0.5-0.8 m² per doe |
 | Nest boxes (30 × 25 × 20 cm) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Wooden or metal, open front |
 | Grass hay (timothy, orchard grass) | [`agriculture`](../agriculture/index.md) | Unlimited, foundation of diet |
@@ -54,7 +49,7 @@ Materials listed per 10-doe rabbitry per year.
 
 ## Process Description
 
-## 4.1 Meat Production
+## Meat Production
 
 **Principle**: Rabbits convert forage and pellets to meat at 2.5-3.5:1 feed conversion ratio. A doe produces 4-6 litters per year of 6-12 kits each. Kits reach 2-2.5 kg slaughter weight in 10-12 weeks.
 
@@ -88,7 +83,7 @@ Materials listed per 10-doe rabbitry per year.
 - Pasteurellosis ("snuffles") is nearly impossible to eradicate once established — cull affected animals
 - Does cannibalize kits if underfed or stressed during kindling
 
-## 4.2 Angora Wool Production
+## Angora Wool Production
 
 **Principle**: Angora rabbits produce one of the finest natural fibers at 12-16 microns diameter — finer than cashmere. The fiber is 7× warmer than sheep wool by weight due to hollow core. Annual yield: 400-1,200 g per rabbit depending on breed.
 
@@ -116,7 +111,7 @@ Materials listed per 10-doe rabbitry per year.
 - English Angora requires daily grooming (5-10 min/rabbit) to prevent matting
 - Heat stress risk higher than meat breeds — dense fleece reduces cooling
 
-## 4.3 Reproduction and Breeding
+## Reproduction and Breeding
 
 **Principle**: Does are induced ovulators — no estrus cycle, breeding can be scheduled at any time. Ovulation occurs 10-13 hours after mating. This enables year-round production with proper management.
 
@@ -187,6 +182,12 @@ A 10-doe rabbitry (1 buck) in 15-25 m² produces 300 kg dressed meat per year �
 | Snuffles (pasteurellosis) | Poor ventilation, ammonia, overcrowding | Improve airflow; reduce stocking; cull infected animals — nearly impossible to eradicate |
 | Sore hocks | Wire floor without resting board | Add solid resting board covering 25-30% of floor; keep dry |
 | Wool block (Angora) | Ingested fiber blocking gut | Daily grooming; unlimited hay; papaya enzyme weekly |
+| Doe not kindling (no litter) | Overweight, too hot, or immature | Reduce feed 2 weeks before breeding; ensure temperature below 28°C; breed at 5-6 months of age |
+| Kit mortality high (first week) | Doe not nursing or nest box inadequate | Check doe has milk (gently squeeze teat); provide clean straw nesting material; protect from drafts |
+| Diarrhea in grow-out rabbits | Enteritis from overfeeding grain or coccidiosis | Reduce grain, increase hay; add oregano or thyme to water; ensure wire floors are clean |
+| Ear mites (head shaking, crusts) | *Psoroptes cuniculi* infestation | Treat with mineral oil in both ears (suffocates mites); repeat in 10 days; clean cage |
+| Heat stress (above 30°C) | Rabbits cannot sweat | Provide frozen water bottles; mist cages; move to underground or shaded area |
+| Wool block (Angora, appetite loss) | Ingested fiber blocking gut | Feed papaya enzyme (breaks down fiber); increase roughage; shear rabbits every 3 months |
 
 ## Safety
 
@@ -213,17 +214,6 @@ A 10-doe rabbitry (1 buck) in 15-25 m² produces 300 kg dressed meat per year �
 **Vermiculture integration**: Rabbit manure feeds red wiggler worms (*Eisenia fetida*) for premium worm castings. Worms self-harvest from beneath wire cage floors — zero additional labor.
 
 **Guinea pig alternative**: In Andean regions, guinea pigs (*Cavia porcellus*) fill a similar niche at even smaller scale (0.5-1.2 kg adult weight) but with lower individual meat yield.
-
-## Troubleshooting
-
-| Symptom | Likely Cause | Solution |
-|---|---|---|
-| Doe not kindling (no litter) | Overweight, too hot, or immature | Reduce feed 2 weeks before breeding; ensure temperature below 28°C; breed at 5-6 months of age |
-| Kit mortality high (first week) | Doe not nursing or nest box inadequate | Check doe has milk (gently squeeze teat); provide clean straw nesting material; protect from drafts |
-| Diarrhea in grow-out rabbits | Enteritis from overfeeding grain or coccidiosis | Reduce grain, increase hay; add oregano or thyme to water; ensure wire floors are clean |
-| Ear mites (head shaking, crusts) | *Psoroptes cuniculi* infestation | Treat with mineral oil in both ears (suffocates mites); repeat in 10 days; clean cage |
-| Heat stress (above 30°C) | Rabbits cannot sweat | Provide frozen water bottles; mist cages; move to underground or shaded area |
-| Wool block (Angora, appetite loss) | Ingested fiber blocking gut | Feed papaya enzyme (breaks down fiber); increase roughage; shear rabbits every 3 months |
 
 ## See Also
 

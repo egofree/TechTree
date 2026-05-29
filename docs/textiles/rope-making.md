@@ -30,7 +30,7 @@ Rope quality depends on fiber choice. The ideal rope fiber is strong, long-stapl
 
 **Fiber preparation**: Before ropemaking, fibers must be hackled or combed to align them parallel and remove short pieces and debris. Spin the prepared fibers into yarn by twisting — use a spinning wheel, drop spindle, or mechanical spinner. Conventional yarn twist for Western ropemaking is Z-twist (clockwise when viewed from above). Multiple yarns are twisted together to form a **[strand](../glossary/strand.md)** — the intermediate building block between yarn and rope.
 
-## 3-Strand Rope Laying
+## Strand Rope Laying
 
 The 3-strand laid rope is the most common rope construction, used for millennia and still standard for general-purpose rope today.
 

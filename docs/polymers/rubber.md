@@ -59,7 +59,7 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 
 ## Process Description
 
-## 4.1 Hevea Latex Tapping
+## Hevea Latex Tapping
 
 **Principle**: Latex is a colloidal emulsion of rubber particles (30-40% cis-1,4-polyisoprene) in water, stabilized by protein surface charges. Tapping makes a controlled cut through the bark to the cambium layer, allowing latex to flow out under natural turgor pressure.
 
@@ -99,7 +99,7 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - Labor-intensive — tapping requires skilled manual workers; a tapper processes 200-300 trees per 3-4 hour morning shift; labor represents 50-60% of production cost
 - Slow startup — trees require 5-7 years from planting to first latex production
 
-## 4.2 Coagulation and Sheet Processing
+## Coagulation and Sheet Processing
 
 **Principle**: Formic acid or acetic acid neutralizes the negatively charged protein layer surrounding each rubber particle in the latex emulsion (pH drops from ~6.5 to ~4.5-5.0), destabilizing the colloid. Rubber particles agglomerate into a coherent soft mass (coagulum) that is then mechanically dewatered and dried.
 
@@ -140,7 +140,7 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - Grade variability — visual grading is subjective; RSS quality depends on latex freshness, acid dosage, and smokehouse conditions
 - Labor-intensive sheet handling — each sheet is hung, turned, and inspected manually
 
-## 4.3 Vulcanization
+## Vulcanization
 
 **Principle**: Sulfur forms polysulfide bridges (—Sₓ—, where x = 1-8) between adjacent polyisoprene chains at the allylic carbon positions. These covalent cross-links create a three-dimensional network that prevents permanent chain slippage. Raw rubber (tensile ~1 MPa, thermoplastic, sticky) becomes a durable elastomer (tensile 20-30 MPa, elastic recovery, non-tacky).
 
@@ -189,7 +189,7 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - Irreversible — once cross-linked, rubber cannot be remelted or reprocessed (must devulcanize for recycling)
 - Sulfur and accelerator are skin sensitizers — handling requires gloves and ventilation
 
-## 4.4 Latex-Dipped Goods
+## Latex-Dipped Goods
 
 **Principle**: Formers (shaped like the finished product — hand, cylinder, balloon) are immersed in compounded latex. On withdrawal, a liquid latex film coats the former. Drying, leaching, and curing produce a thin, strong, elastic film with superior properties to dry-mixed vulcanized rubber (tensile 20-30 MPa, elongation 700-900%).
 
@@ -236,7 +236,7 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 - Precise viscosity control required — bath viscosity changes with temperature, evaporation, and ammonia loss; must be monitored and adjusted continuously
 - Prevulcanized latex has limited shelf life (2-6 months with ammonia preservation)
 
-## 4.5 Reclaimed Rubber
+## Reclaimed Rubber
 
 **Principle**: Partially reverse sulfur cross-links in vulcanized scrap rubber to create a reusable material. Heat and chemical agents break polysulfide cross-links (—Sₓ—, where x > 2) while preserving the carbon backbone of the polymer chains. The resulting "reclaim" is a soft, plastic material blended with virgin rubber at 10-30% loading.
 

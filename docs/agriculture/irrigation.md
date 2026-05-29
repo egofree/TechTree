@@ -77,7 +77,7 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 
 ## Process Description
 
-## 4.1 Gravity Canal Construction
+## Gravity Canal Construction
 
 1. **Survey the route**: Walk the path from water source to field. Use a water level (two stakes 5-10 m apart, connect with water-filled channel or hose) to establish a consistent gradient of 0.1-0.5% (10-50 cm drop per 100 m). Too steep: water erodes the canal bed. Too flat: water pools, silts up, flow slows.
 2. **Mark the alignment**: Drive stakes every 5-10 m along the planned canal center-line. Connect with string. The canal follows the contour, not the straight line — contour following minimizes earth-moving.
@@ -97,7 +97,7 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 - Annual de-silting costs 20-50 person-days per km of canal in silty water regions
 - Unlined sandy canals lose 40-60% of water to seepage; clay lining requires 50-100 m³ per km
 
-## 4.2 Furrow Irrigation
+## Furrow Irrigation
 
 1. **Prepare the field**: Plow or hoe the field into raised beds (beds) and channels (furrows). Bed width: 60-100 cm. Furrow depth: 15-25 cm. Furrow spacing: matched to crop row spacing.
 2. **Set the siphon or gate**: At the head of each furrow, install a small gate (wooden slide) or use a siphon (clay tube over the field boundary) to control flow into each furrow.
@@ -115,7 +115,7 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 - Uneven water distribution on sloped or uneven fields without precise leveling
 - Furrow erosion on sandy soils at gradients above 0.5% — limits use on steep terrain
 
-## 4.3 Water-Lifting with a Shaduf
+## Water-Lifting with a Shaduf
 
 1. **Set up the shaduf**: Mount the lever beam on the pivot post so the bucket end is longer than the counterweight end (ratio 3:1 to 5:1). Attach the bucket to the long end and the counterweight to the short end.
 2. **Fill the bucket**: Pull the bucket end down to the water source (river, canal, or well). The counterweight assists the pull. Submerge the bucket to fill — allow 10-20 liters.
@@ -133,7 +133,7 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 - Sustained operation is physically taxing — 6-8 hours of shaduf operation causes shoulder and back strain
 - Single operator irrigates only 0.1-0.2 ha per day — insufficient for fields larger than 1 ha without multiple devices
 
-## 4.4 Archimedes Screw Operation
+## Archimedes Screw Operation
 
 1. **Build the screw**: Construct a helical blade inside a wooden or metal cylinder, 20-40 cm diameter, 2-5 m long. The cylinder sits in a trough or pipe at 30-45° angle from horizontal. Blade pitch: 15-25 cm between turns.
 2. **Install at the water source**: Place the lower end submerged in the water source. The upper end empties into an irrigation channel or reservoir.

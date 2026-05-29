@@ -58,7 +58,7 @@ Materials listed per single hive unit. Quantities vary by hive type.
 
 ## Process Description
 
-## 4.1 Log Hive Beekeeping
+## Log Hive Beekeeping
 
 **Principle**: A hollow tree trunk section provides a natural cavity that mimics the wild bee nest environment. Bees build comb freely inside. This is the oldest form of managed beekeeping — humans have harvested honey from log hives for at least 10,000 years (evidence from cave paintings in Valencia, Spain, dated ~8000 BCE).
 
@@ -90,7 +90,7 @@ Materials listed per single hive unit. Quantities vary by hive type.
 - Heavy and difficult to move once occupied
 - Comb is attached to walls — cannot remove individual combs
 
-## 4.2 Skep Beekeeping
+## Skep Beekeeping
 
 **Principle**: An inverted woven basket provides a lightweight, portable hive enclosure. Bees attach comb directly to the interior walls. Skeps were the dominant hive type in northern Europe from the early Middle Ages through the 1800s. Still used for swarm collection.
 
@@ -121,7 +121,7 @@ Materials listed per single hive unit. Quantities vary by hive type.
 - No internal structure — cannot inspect individual combs
 - Illegal in some jurisdictions (cannot inspect for disease)
 
-## 4.3 Top-Bar Hive Beekeeping
+## Top-Bar Hive Beekeeping
 
 **Principle**: A horizontal trough with removable wooden bars across the top allows bees to build comb downward from each bar. Individual bars can be lifted for non-destructive inspection and harvest. This is the recommended intermediate technology for bootstrap beekeeping — it provides modern management capability without precision woodworking.
 
@@ -154,7 +154,7 @@ Materials listed per single hive unit. Quantities vary by hive type.
 - Requires sawn lumber (more processed material than logs or baskets)
 - Comb must be cut from bars during harvest (crush-and-strain method)
 
-## 4.4 Frame Hive Beekeeping (Langstroth)
+## Frame Hive Beekeeping (Langstroth)
 
 **Principle**: Stackable rectangular boxes (supers) with precisely spaced removable frames. The critical innovation is "bee space" (7-9 mm) — bees respect this gap and do not glue surfaces together with propolis or comb. Frames hold foundation sheets embossed with hexagonal cell pattern (5.2-5.4 mm cell diameter) that guides comb construction. This enables non-destructive extraction via centrifugal force, comb reuse, and easy colony inspection.
 
@@ -186,7 +186,7 @@ Materials listed per single hive unit. Quantities vary by hive type.
 - Heavier to lift when full (a deep super with honey weighs 30-35 kg)
 - Cell size on foundation may not match natural bee preferences (potential impact on varroa resistance)
 
-## 4.5 Colony Management
+## Colony Management
 
 **Principle**: Honey bee colonies are superorganisms that self-regulate temperature, humidity, and brood production. Management consists of providing space, preventing swarming, monitoring health, and ensuring adequate winter stores. The beekeeper works with — not against — colony instincts.
 
@@ -221,7 +221,7 @@ The queen is 20-25 mm long (longer than workers at 12-15 mm), with a tapered abd
 - Swarm prevention requires timely intervention — missing by even a few days can result in swarm loss
 - Colony splitting reduces honey yield in the split year (both halves rebuild)
 
-## 4.6 Honey Harvesting and Extraction
+## Honey Harvesting and Extraction
 
 **Principle**: Honey is ripe when bees cap cells with wax at moisture content below 20%. Harvesting removes capped honey while returning empty comb (in frame hives) or cutting comb (in top-bar/log/skep hives). Smoke masks alarm pheromone and triggers feeding response, making bees docile.
 
@@ -276,7 +276,7 @@ The queen is 20-25 mm long (longer than workers at 12-15 mm), with a tapered abd
 - Honey moisture must be monitored — fermented honey is unsuitable for storage
 - Processing leaves residual wax and propolis that require cleanup
 
-## 4.7 Beeswax Processing
+## Beeswax Processing
 
 **Principle**: Beeswax (melting point 62-64°C, density 0.95 g/cm³) is less dense than water and floats when melted. Rendering separates wax from comb debris by melting in water and skimming the solidified wax cake. Multiple melting and filtering cycles increase purity.
 

@@ -57,7 +57,7 @@ Architecture is distinct from logic design and embedded systems:
 
 ## Process Description
 
-## 4.1 Instruction Set Architecture (ISA) Design
+## Instruction Set Architecture (ISA) Design
 
 1. **Define the data path width.** Choose 8-bit (simplest, minimal transistors), 16-bit (good balance for embedded), or 32-bit (standard for general-purpose). Word size determines register width, ALU width, data bus width, and maximum addressable memory.
 
@@ -78,7 +78,7 @@ Architecture is distinct from logic design and embedded systems:
 
 5. **Assign opcodes.** Reserve opcode space for future expansion. Use a regular encoding that simplifies decode logic. Group related operations (arithmetic, logic, branch, memory) into contiguous opcode ranges.
 
-## 4.2 Datapath Design
+## Datapath Design
 
 1. **Design the ALU.** Implement addition, subtraction, AND, OR, XOR, NOT, shifts (logical and arithmetic). Add zero-detect and sign-detect flags for branch conditions. An 8-bit ALU requires ~200 gates; a 32-bit ALU requires ~2,000 gates.
 
@@ -86,13 +86,13 @@ Architecture is distinct from logic design and embedded systems:
 
 3. **Design the data bus.** Connect ALU, register file, memory interface, and I/O. Single bus (simplest, one transfer per cycle), dual bus (simultaneous read operands), or dedicated point-to-point connections (highest bandwidth, most wiring).
 
-## 4.3 Control Unit Design
+## Control Unit Design
 
 1. **Finite state machine approach.** Define the micro-operations for each instruction as a sequence of states. Each state asserts control signals (register write-enable, ALU operation, memory read/write, bus select). The state machine advances through fetch → decode → execute → writeback. For a simple accumulator machine: 3-5 states per instruction.
 
 2. **Microcoded approach.** Store the control sequence in a ROM (control store). Each instruction's execution is a microprogram: a sequence of microinstructions read from the control store. Enables complex instructions (CISC) without complex state machine logic. The control store is a ROM indexed by opcode and micro-address. Modify instructions by changing control store contents, not hardware.
 
-## 4.4 Memory Hierarchy Design
+## Memory Hierarchy Design
 
 1. **Registers** (< 1 ns access): Fastest, smallest, most expensive per bit. Architecturally visible — programmer or compiler manages register allocation. 8-32 registers typical.
 
@@ -113,7 +113,7 @@ Architecture is distinct from logic design and embedded systems:
 | SSD/flash | 10-100 μs | 8 GB-4 TB | Very low | NAND flash |
 | Hard disk | 5-15 ms | 100 GB-20 TB | Lowest | Magnetic platters |
 
-## 4.5 Bus Architecture
+## Bus Architecture
 
 1. **Single bus (Von Neumann)**: One shared bus for instruction fetch, data load/store, and I/O. Simple wiring. Bottleneck: only one transfer per cycle. Adequate for simple processors at low clock rates.
 

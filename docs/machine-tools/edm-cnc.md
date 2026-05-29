@@ -118,7 +118,7 @@ Closed-loop positioning requires accurate position measurement:
 - **Magnetic linear encoders**: Magnetic tape with pole spacing (1-5 mm). Hall effect sensors read position. Less precise (1-5 μm resolution) but more robust against contamination. Used in harsh environments.
 - **Laser interferometers**: HeNe laser (632.8 nm wavelength) measures position by counting interference fringes. Resolution: 0.001 μm (1 nm). Used for calibration and ultra-precision machines. Requires stable temperature (±0.1°C) and air refractivity compensation.
 
-## 5-Axis Machining
+## Axis Machining
 
 Simultaneous control of five axes (typically X, Y, Z linear + two rotary axes) enables:
 

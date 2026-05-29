@@ -64,7 +64,7 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 
 ## Process Description
 
-## 4.1 Solar Water Heating (Flat-Plate Collector)
+## Solar Water Heating (Flat-Plate Collector)
 
 1. **Build the absorber plate**: Paint a copper or steel sheet matte black (absorptivity >0.95). Solder or braze copper tubing in a serpentine pattern on the back of the plate. The tubing carries water or heat transfer fluid.
 
@@ -111,7 +111,7 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 - Freezing risk in cold climates — requires drain-back design or antifreeze in closed loop
 - Low maximum temperature (80°C) limits applications to water heating and space heating
 
-## 4.2 Parabolic Trough Concentrator
+## Parabolic Trough Concentrator
 
 1. **Form the parabolic reflector**: Bend glass sheet into a parabolic curve using a mold and heat, or attach polished aluminum sheet to a parabolic-shaped steel frame. The parabola focuses sunlight onto a line (the receiver tube) running along the focal axis. For a trough with 2 m aperture width and 1.5 m focal length: focal point diameter ≈ 15-25 mm.
 
@@ -157,7 +157,7 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 - Single-axis tracking loses 10-15% of available energy vs. two-axis tracking
 - Concentrated flux creates safety hazards (burn risk, retinal damage)
 
-## 4.3 Heliostat Field (Central Receiver)
+## Heliostat Field (Central Receiver)
 
 1. **Construct heliostats**: Each heliostat is a flat mirror (2-10 m²) on a two-axis tracking mount. The mirror tracks the sun and reflects beam onto a fixed central receiver at the top of a tower. Typical field: 100-10,000 heliostats surrounding the tower.
 
@@ -202,7 +202,7 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 
 ## Quantitative Parameters
 
-## 5.1 Concentration Ratios and Achievable Temperatures
+## Concentration Ratios and Achievable Temperatures
 
 | System Type | Concentration Ratio | Peak Temperature (°C) | Thermal Efficiency (%) | Aperture Area per kW thermal |
 |-------------|--------------------|-----------------------|----------------------|------------------------------|
@@ -215,7 +215,7 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 
 Concentration ratio is the ratio of collector aperture area to receiver area. Higher concentration = higher temperature but tighter tracking tolerances and higher optical precision required.
 
-## 5.2 Direct Normal Irradiance (DNI) by Region
+## Direct Normal Irradiance (DNI) by Region
 
 | Region | Annual DNI (kWh/m²/year) | Daily Peak (W/m²) | Suitability |
 |--------|--------------------------|--------------------:|-------------|
@@ -228,7 +228,7 @@ Concentration ratio is the ratio of collector aperture area to receiver area. Hi
 
 CSP (trough and tower) requires DNI >1,800 kWh/m²/year for economic viability. Flat-plate collectors work on diffuse radiation and function in any climate.
 
-## 5.3 Land Area Requirements
+## Land Area Requirements
 
 | System | Power Output | Land Area | Land Use Factor |
 |--------|-------------|-----------|-----------------|

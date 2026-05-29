@@ -50,7 +50,7 @@ Materials listed per 10-alpaca fiber herd per year.
 
 ## Process Description
 
-## 4.1 Fiber Production (Alpaca)
+## Fiber Production (Alpaca)
 
 **Principle**: Alpacas produce 2-5 kg of fine fleece (18-30 microns) every 12-18 months in 22 natural colors. The fiber has no lanolin (unlike sheep wool) and can be spun directly. Alpaca fiber has a hollow core, making it lighter and warmer than sheep wool of equivalent diameter.
 
@@ -80,7 +80,7 @@ Materials listed per 10-alpaca fiber herd per year.
 - Fiber diameter increases with age — older animals produce coarser, less valuable fleece
 - Low individual yield (2-5 kg/year) requires larger herds for commercial fiber production
 
-## 4.2 Guard Llama Services
+## Guard Llama Services
 
 **Principle**: A single llama bonded to a sheep flock provides effective predator defense through instinctive alarm-calling, positioning between flock and threat, and charging/kicking/stomping approaching predators. No training required — the behavior is innate.
 
@@ -110,7 +110,7 @@ Materials listed per 10-alpaca fiber herd per year.
 - Initial bonding period of 1-2 weeks requires small pen management
 - Llama may interfere with herding dogs — coordinate guardian and herding strategies
 
-## 4.3 Pack Transport (Llama)
+## Pack Transport (Llama)
 
 **Principle**: Llamas carry 25-30% of body weight (30-60 kg) over rough, mountainous terrain where horses and mules cannot safely travel. Their soft-padded feet minimize trail erosion. Distance: 15-20 km/day on trails.
 
@@ -139,7 +139,7 @@ Materials listed per 10-alpaca fiber herd per year.
 - Requires balance — unbalanced loads cause saddle sores within hours
 - Limited to terrain navigable on foot — cannot cross deep water or very steep rock faces
 
-## 4.4 Reproduction and Cria Care
+## Reproduction and Cria Care
 
 **Principle**: Camelids are induced ovulators — females do not have a heat cycle, ovulation is triggered by the act of breeding. Gestation is 11.5 months (350 days). Single cria per pregnancy; twins are extremely rare.
 

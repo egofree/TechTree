@@ -57,7 +57,7 @@ Power electronics depends on [semiconductor devices](semiconductor-devices.md) (
 
 ## Process Description
 
-## 4.1 Rectifiers (AC → DC)
+## Rectifiers (AC → DC)
 
 #### Uncontrolled Rectifier (Diode Bridge)
 
@@ -79,7 +79,7 @@ Replace diodes with thyristors (SCRs). Control firing angle α (0-180°) to vary
 - Rectifiers draw non-sinusoidal input current (flat-topped waveform with current peaks near voltage peaks), generating harmonics (5th, 7th, 11th) that distort the AC supply — IEEE 519 limits total harmonic distortion to 5% at the point of common coupling, often requiring input harmonic filters
 - Thyristor rectifiers draw reactive power proportional to firing angle (power factor = cos(α)) — at half output voltage, power factor is only 0.5, requiring capacitor banks for correction
 
-## 4.2 DC-DC Converters
+## DC-DC Converters
 
 #### Buck Converter (Step-Down)
 
@@ -129,7 +129,7 @@ Buck-boost: inverting output (negative voltage). Vout = -D × Vin / (1 - D). Use
 - Flyback converters (the simplest isolated topology) store all energy in the transformer air gap during each cycle, limiting practical power to ~200W — above this, forward or bridge topologies are required with increased component count
 - All DC-DC converters generate conducted and radiated EMI from high di/dt and dv/dt switching — compliance with FCC Part 15 or CISPR 32 requires input EMI filters that add 10-20% to converter cost and volume
 
-## 4.3 Inverters (DC → AC)
+## Inverters (DC → AC)
 
 #### Single-Phase H-Bridge Inverter
 
@@ -157,7 +157,7 @@ Buck-boost: inverting output (negative voltage). Vout = -D × Vin / (1 - D). Use
 - Shoot-through fault (both switches in one leg conducting simultaneously) creates a DC bus short circuit that destroys both switches in microseconds — requires careful gate drive timing and fast overcurrent protection (desaturation detection for IGBTs, current-sense comparator for MOSFETs)
 - Output LC filter resonant frequency must be carefully placed between the output frequency (50/60 Hz) and switching frequency (5-20 kHz) — too low degrades transient response, too high allows switching harmonics into the load
 
-## 4.4 Motor Drives (VFD — Variable Frequency Drive)
+## Motor Drives (VFD — Variable Frequency Drive)
 
 1. **Rectifier stage**: Three-phase diode bridge converts AC line to DC. 575V DC bus for 480V AC input.
 2. **DC bus**: Capacitor bank (1000-10,000 μF) smooths DC ripple. Bus voltage: 300V (240V input), 575V (480V input), 1150V (960V input).
@@ -174,7 +174,7 @@ Buck-boost: inverting output (negative voltage). Vout = -D × Vin / (1 - D). Use
 - High carrier frequency increases switching losses by 1-2% per kHz above 4 kHz — a 16 kHz carrier reduces drive efficiency from 97% to ~85% and requires derating the drive output current by 15-20%
 - VFDs generate common-mode voltage on the motor shaft, causing bearing current flow that produces electrical discharge machining (EDM) pits in bearing races — shaft grounding rings or insulated bearings are required for reliable long-term operation
 
-## 4.5 UPS (Uninterruptible Power Supply)
+## UPS (Uninterruptible Power Supply)
 
 Online (double-conversion) UPS topology:
 1. Rectifier: AC input → DC bus (maintains battery charge)

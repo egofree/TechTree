@@ -62,7 +62,7 @@ The most powerful element of rotation is nitrogen fixation by legumes. Leguminou
 
 ## Process Description
 
-## 4.1 Three-Field Rotation (Medieval Standard)
+## Three-Field Rotation (Medieval Standard)
 
 The simplest effective rotation. Divide available land into three equal sections.
 
@@ -87,7 +87,7 @@ The simplest effective rotation. Divide available land into three equal sections
 - Nitrogen balance is marginal — net balance of -2 to +5 kg N/ha/year means slow fertility building
 - No livestock integration — animal manure, a major fertility source, is not part of the system
 
-## 4.2 Four-Field Norfolk Rotation
+## Four-Field Norfolk Rotation
 
 Eliminates the unproductive fallow year by substituting a root crop that cleans the land (intensive weeding during root crop cultivation) and a clover ley that fixes nitrogen while providing animal fodder.
 
@@ -108,7 +108,7 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 - Root crops (turnips) have lower market value than grain in many economies
 - Demands more labor than the three-field system, particularly during the root crop weeding phase (10-20 person-hours/ha)
 
-## 4.3 Legume Planting and Nodulation Check
+## Legume Planting and Nodulation Check
 
 1. **Inoculate seed** (if needed): If planting legumes on land that has not grown legumes in 3+ years, coat seed with appropriate Rhizobium inoculant. Mix inoculant powder with seed at planting using a sticky solution (milk or sugar water) to adhere bacteria to seed coat.
 2. **Plant at correct depth**: Beans 3-5 cm, peas 2-4 cm, clover 0.5-1.5 cm. Legume seeds are sensitive to planting depth — too deep and they cannot emerge.
@@ -125,7 +125,7 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 - Acidic soils (pH <5.5) inhibit Rhizobium survival — pH correction with lime is required before legumes will nodulate
 - Inoculant may not be available in a bootstrap scenario — relies on transferring soil from existing legume fields
 
-## 4.4 Green Manure Management
+## Green Manure Management
 
 1. **Sow the green manure crop**: After grain harvest, broadcast clover, vetch, or rye seed onto the field. Lightly rake to cover seed. Target seeding rate: 10-20 kg/ha for clover, 15-25 kg/ha for vetch, 80-120 kg/ha for rye.
 2. **Allow growth**: Green manure grows through the fallow period, protecting soil from erosion, suppressing weeds, and (if legume) fixing nitrogen.

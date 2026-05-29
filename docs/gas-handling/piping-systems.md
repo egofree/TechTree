@@ -39,7 +39,7 @@ The design process starts with demand analysis (flow rates and pressures at each
 
 ## Process Description
 
-## 4.1 System Design
+## System Design
 
 1. **Demand analysis**: For each point of use, determine the required gas flow rate (L/min or m³/h at standard conditions), required delivery pressure (bar or kPa), required gas purity grade, and whether the gas is flammable, toxic, corrosive, or inert. Tabulate all demands in a gas utility schedule.
 2. **Pipe sizing**: For each pipe segment, calculate the required inside diameter using the Darcy-Weisbach equation or a simplified gas pipe sizing chart. Target a pressure drop of less than 10% of the supply pressure from source to the farthest point of use. Larger diameter pipe reduces pressure drop but increases material cost. Standard practice: use the smallest pipe diameter that keeps velocity below 10 m/s and pressure drop within budget.
@@ -54,7 +54,7 @@ The design process starts with demand analysis (flow rates and pressures at each
 - Each gas species requires dedicated piping — a fab with 20 gases needs 20 independent distribution networks, multiplying installation cost
 - Dead legs and low spots are inevitable in complex routing — they trap stagnant gas and condensate, requiring drain points and careful slope design
 
-## 4.2 Pipe Fabrication and Installation
+## Pipe Fabrication and Installation
 
 1. **Cutting**: Cut pipe to length with a pipe cutter (rotary cutting wheel for copper and thin-wall steel) or a band saw (for thick-wall steel). Deburr the cut end inside and out — burrs create turbulence, restrict flow, and generate particles. For stainless steel, use a dedicated cutting tool (not one previously used on carbon steel) to prevent iron contamination of the stainless surface (free iron particles rust and contaminate the gas stream).
 2. **Jointing — threaded connections (carbon steel, <50 bar)**: Cut external threads on the pipe end with a pipe threading machine (dies cut tapered NPT threads, 1:16 taper). Apply PTFE tape (2-3 wraps clockwise looking at the threaded end) or pipe thread sealant to the male threads. Thread the fitting onto the pipe and tighten 1-2 turns past hand-tight. NPT threads seal by deformation — do not overtighten or the fitting may crack. Maximum reliable pressure: ~20 bar for steel, ~10 bar for brass. NPT is not acceptable for toxic gas service or semiconductor-grade gas distribution.
@@ -71,7 +71,7 @@ The design process starts with demand analysis (flow rates and pressures at each
 - NPT threaded connections are limited to ~20 bar (steel) and are not acceptable for toxic gas or semiconductor-grade service — seal quality depends on PTFE tape installation technique
 - Butt weld root pass requires argon purge on the pipe inside to prevent oxidation ("sugar") — missed purge produces black oxide that contaminates the gas stream
 
-## 4.3 Pressure Testing
+## Pressure Testing
 
 1. **Hydrostatic test**: After installation and before insulation, pressure-test the completed piping system with water at 1.5× the maximum allowable working pressure (MAWP). Fill the system with water from the lowest point, venting air from the highest point (air pockets compress during testing and mask leaks). Hold test pressure for 30 minutes minimum. Inspect all joints visually for leaks (wipe joints with a dry cloth and check for moisture). Any leak requires draining, repair, and retest.
 2. **Pneumatic test (when hydrostatic is impractical)**: If the system cannot be dried after water exposure (e.g., instrument air, high-purity gas), test with nitrogen or dry air at 1.1× MAWP. This is less safe than hydrostatic testing — a pneumatic failure releases stored energy. Exclude personnel from the test area during pressurization. Use soap solution or ultrasonic leak detector to find leaks.
@@ -85,7 +85,7 @@ The design process starts with demand analysis (flow rates and pressures at each
 - Pneumatic testing at 1.1× MAWP stores enormous energy — a 100 m run of 25 mm pipe at 200 bar contains ~10 MJ, equivalent to 2.4 kg TNT
 - Hydrostatic testing leaves residual moisture requiring dry nitrogen purge before introducing moisture-sensitive gases
 
-## 4.4 Purging and Commissioning
+## Purging and Commissioning
 
 1. **Degreasing**: Before introducing process gas, degrease the piping system if oil or grease may be present from fabrication. Fill the system with a degreasing solvent (trisodium phosphate solution, or commercial degreaser) and circulate for 30 minutes. Drain and flush with clean water. Blow dry with oil-free nitrogen.
 2. **Inert gas purge**: Connect a nitrogen source to one end of the piping system and open the far end to atmosphere. Flow nitrogen through the system at a rate that achieves 3-5 volume changes (one volume change = flowing a volume of nitrogen equal to the internal volume of the piping). For a 100 m run of 25 mm ID pipe (internal volume ~49 L), flow nitrogen at 50 L/min for 5 minutes (≈5 volume changes). Verify O₂ content at the outlet with an oxygen monitor — must be below 1% before introducing flammable gas, or below 100 ppm for high-purity inert gas service.
@@ -144,6 +144,12 @@ The design process starts with demand analysis (flow rates and pressures at each
 | Weld leak detected during pressure test | Porosity, incomplete penetration, or cracking in weld | Grind out the defective weld. Reweld using proper procedure (preheat if required for the material). Retest. If the system requires 100% radiographic inspection, rewelded joints must pass reinspection. |
 | Water hammer or liquid slugging | Condensate accumulating in low spots, then propelled by gas flow | Install drain points (drip legs with automatic drain valves) at all low spots. Verify slope of horizontal piping (minimum 1:200 slope toward drain points). |
 | Gas cross-contamination | Cross-connected piping, or shared purge line between incompatible gases | Verify piping is dedicated per gas species (no shared lines for incompatible gases). Eliminate cross-connections. Install check valves to prevent backflow. Label all piping at regular intervals. |
+| Pressure drop higher than calculated | Undersized pipe or restricted flow at fitting | Verify pipe diameter matches design; check for debris or weld protrusion inside joints; recalculate with actual fitting count |
+| Leak at welded joint | Incomplete weld penetration or weld porosity | Cut out and reweld; verify orbital weld parameters (amperage, rotation speed, purge gas); X-ray inspect critical joints |
+| Particulate contamination at outlet | Weld slag, debris from construction, or dirty gas | Install point-of-use filter; flush system with filtered N₂; verify gas source purity |
+| Cross-contamination between gas species | Improper isolation or shared vent lines | Verify double-block-and-bleed valves between incompatible gases; separate vent lines for corrosive vs inert gases |
+| Valve packing leak (external) | Packing gland loose or packing material degraded | Tighten packing gland nut; if persistent, repack with compatible material (PTFE for corrosives, graphite for high temp) |
+| Pressure instability at tool connection | Regulator hunting or inadequate buffer volume | Add surge tank near point of use; verify regulator sizing; check for upstream pressure fluctuations |
 
 ## Safety
 
@@ -221,17 +227,6 @@ Label spacing: at minimum every 6 m on straight runs, at each room entry/exit, a
 8. Pressurize to operating pressure with process gas — hold 24 hours, verify zero pressure drop
 9. Verify all labels and identification tags are installed
 10. Issue commissioning certificate with test records attached
-
-## Troubleshooting
-
-| Symptom | Likely Cause | Solution |
-|---|---|---|
-| Pressure drop higher than calculated | Undersized pipe or restricted flow at fitting | Verify pipe diameter matches design; check for debris or weld protrusion inside joints; recalculate with actual fitting count |
-| Leak at welded joint | Incomplete weld penetration or weld porosity | Cut out and reweld; verify orbital weld parameters (amperage, rotation speed, purge gas); X-ray inspect critical joints |
-| Particulate contamination at outlet | Weld slag, debris from construction, or dirty gas | Install point-of-use filter; flush system with filtered N₂; verify gas source purity |
-| Cross-contamination between gas species | Improper isolation or shared vent lines | Verify double-block-and-bleed valves between incompatible gases; separate vent lines for corrosive vs inert gases |
-| Valve packing leak (external) | Packing gland loose or packing material degraded | Tighten packing gland nut; if persistent, repack with compatible material (PTFE for corrosives, graphite for high temp) |
-| Pressure instability at tool connection | Regulator hunting or inadequate buffer volume | Add surge tank near point of use; verify regulator sizing; check for upstream pressure fluctuations |
 
 ## See Also
 

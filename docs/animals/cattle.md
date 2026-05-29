@@ -52,7 +52,7 @@ Materials listed per 20-cow operation per year.
 
 ## Process Description
 
-## 4.1 Dairy Management
+## Dairy Management
 
 **Principle**: Cattle convert pasture and forage into milk — a complete protein food containing 3.2-5.5% butterfat, 3.0-4.0% protein, and 4.8% lactose. Milking stimulates continued lactation through a 305-day cycle, after which the cow is dried off for 60 days before calving again.
 
@@ -85,7 +85,7 @@ Materials listed per 20-cow operation per year.
 - High feed requirements: 0.4-0.6 kg dry matter per liter of milk produced
 - Winter housing and stored feed necessary in cold climates (4-6 months/year)
 
-## 4.2 Beef Production
+## Beef Production
 
 **Principle**: Cattle convert pasture and forage into meat through growth from calf to finished animal over 18-30 months. A 500 kg cow yields a dressed carcass of 55-60% (275-300 kg), breaking down into 45-50% retail cuts, 15-20% bone, and 10-15% fat trim.
 
@@ -114,7 +114,7 @@ Materials listed per 20-cow operation per year.
 - Requires significant land area (0.5-2.0 ha per animal)
 - Vulnerable to predation, disease, and weather events during long growth period
 
-## 4.3 Breeding and Calving
+## Breeding and Calving
 
 **Principle**: Cattle reproduction follows a 283-day gestation with targeted 365-day calving interval. Calves are born precocial — standing within 30 minutes and nursing within 2-4 hours. Passive immunity transfers through colostrum (first milk containing immunoglobulins).
 
@@ -146,7 +146,7 @@ Materials listed per 20-cow operation per year.
 - Calf mortality 5-10% in first week (hypothermia, scours, inadequate colostrum)
 - Bull handling poses significant safety risk (800 kg animal, unpredictable)
 
-## 4.4 Ox Training for Draft Power
+## Ox Training for Draft Power
 
 **Principle**: Castrated male cattle (oxen) trained to pull loads provide sustained traction at 0.5-0.75 HP per animal. Oxen are slower than horses but stronger pound-for-pound, thrive on roughage alone, and have calmer temperaments. Training begins at 1-2 years and takes 2-3 years to produce a fully trained team.
 
@@ -174,7 +174,7 @@ Materials listed per 20-cow operation per year.
 - Cannot sweat efficiently — require rest and shade in heat above 30°C
 - Single ox out of service sidelines the entire team
 
-## 4.5 Pasture and Feed Management
+## Pasture and Feed Management
 
 **Principle**: Cattle are ruminants that convert cellulose in grasses and legumes into energy through microbial fermentation in the rumen. Rotational grazing management optimizes forage utilization, prevents overgrazing, distributes manure evenly, and reduces parasite loads.
 

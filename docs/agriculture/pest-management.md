@@ -76,7 +76,7 @@ Position in the dependency chain: pest management depends on [Foundations → Ag
 
 ## Process Description
 
-## 4.1 Cultural Controls
+## Cultural Controls
 
 Cultural controls modify the farming environment to make it less hospitable to pests. These are the first line of defense and require no additional materials.
 
@@ -96,7 +96,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 - Trap cropping sacrifices 5-10% of planted area and requires timely destruction of the trap crop
 - Sanitation removes beneficial insect habitat along with pest sheltering sites
 
-## 4.2 Physical Controls
+## Physical Controls
 
 1. **Hand-picking**: For large, visible pests (caterpillars, beetles, slugs), hand-pick daily during peak activity (early morning for slugs, mid-morning for caterpillars). Drop into a bucket of soapy water. Effective for small plots (0.1-0.5 ha). Labor-intensive but requires zero materials.
 2. **Barriers — row covers**: Drape lightweight fabric or netting over wire hoops placed along crop rows. Bury or weigh down edges to exclude flying insects. Remove covers when plants flower (to allow pollination). Row covers reduce cabbage moth damage by 80-95%, carrot rust fly by 90%+.
@@ -114,7 +114,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 - Row covers must be removed at flowering for pollination, creating a vulnerability window
 - Physical barriers exclude beneficial insects along with pests, disrupting biological control
 
-## 4.3 Biological Controls
+## Biological Controls
 
 1. **Encourage beneficial insects**: Plant nectar and pollen sources (umbellifers: dill, fennel, coriander; composites: yarrow, daisies) around field edges. Adult parasitic wasps and hoverflies feed on nectar; their larvae prey on or parasitize crop pests. A border planting 1-2 m wide around each field increases beneficial insect populations 2-5×.
 2. **Ladybug conservation**: Ladybugs (Coccinellidae) eat 50-100 aphids per day per adult. Avoid spraying broad-spectrum botanical insecticides when ladybugs are active. Provide overwintering habitat: piles of rocks, leaf litter at field edges, wooden shelters with bark.
@@ -132,7 +132,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 - Broad-spectrum botanical sprays (pyrethrum) kill beneficial insects along with pests, undermining the system
 - Predatory mites and parasitic wasps require specific habitat conditions (humidity, shelter) that may not exist in all field margins
 
-## 4.4 Botanical Insecticide Preparation and Application
+## Botanical Insecticide Preparation and Application
 
 **Neem spray** (broad-spectrum, repels and disrupts insect growth):
 

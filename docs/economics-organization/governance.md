@@ -58,7 +58,7 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 
 ## Process Description
 
-## 4.1 Establishing Governance Structures
+## Establishing Governance Structures
 
 1. **Define the scope of governance**: Determine what decisions the governance structure will make. Common categories:
    - Resource allocation (land use, water rights, mining claims)
@@ -100,7 +100,7 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 - Overly harsh penalties reduce compliance — proportional consequences work better than extreme punishment
 - Rules cannot anticipate every situation — gaps require judgment and interpretation, which creates disputes
 
-## 4.2 Operating Governance
+## Operating Governance
 
 5. **Convene regular sessions**: Governance bodies meet at defined intervals. Weekly for urgent matters, monthly for routine business, annually for major decisions (budget, leadership selection).
 
@@ -120,7 +120,7 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 - Record-keeping overhead — documenting every decision requires dedicated scribe time
 - Feedback processing capacity — high petition volume can overwhelm governance if no triage system exists
 
-## 4.3 Dispute Resolution
+## Dispute Resolution
 
 9. **Establish a formal hearing process**:
    - Complaint filed in writing (or orally transcribed by scribe)

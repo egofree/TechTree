@@ -54,7 +54,7 @@ This document covers the full PCB fabrication process from laminate production t
 
 ## Process Description
 
-## 4.1 Laminate Production (Copper-Clad Laminate)
+## Laminate Production (Copper-Clad Laminate)
 
 1. **Weave fiberglass cloth**: E-glass fibers (5-13 μm diameter) woven into fabric. Common weave: plain or twill. Yarn count: 42-60 ends/inch.
 2. **Impregnate with B-stage epoxy**: Pass fiberglass cloth through epoxy resin bath. Epoxy is partially cured (B-staged) to a tacky, non-flowing state. Resin content: 35-55% by weight. Volatile content: <0.5%. This produces "prepreg" (pre-impregnated) sheets.
@@ -72,7 +72,7 @@ This document covers the full PCB fabrication process from laminate production t
 - Long cycle time: each lamination cycle takes 2-4 hours regardless of panel count — lamination is the throughput bottleneck in multi-layer production
 - Moisture sensitivity: B-stage prepreg absorbs humidity from air during storage, requiring refrigerated storage (2-10°C) and limited shelf life (3-6 months)
 
-## 4.2 Single-Sided PCB (Photoimageable Method)
+## Single-Sided PCB (Photoimageable Method)
 
 1. **Cut panels**: Shear laminate to panel size (typically 300 × 300 mm or 450 × 600 mm). Deburr edges.
 2. **Drill holes**: CNC drill at 50,000-150,000 RPM with carbide bits. Hit rate: 100-300 holes/minute. Entry/exit material (aluminum sheet, phenolic board) prevents burrs and reduces bit breakage. For non-plated holes: drill after etching. For plated through-holes: drill before plating.
@@ -94,7 +94,7 @@ This document covers the full PCB fabrication process from laminate production t
 - Multiple wet chemical processing steps (develop, etch, strip) each require temperature-controlled tanks, rinse stages, and waste treatment — chemical handling infrastructure is significant
 - Single-sided boards have no plated through-holes, requiring manual wire links or jumpers for any cross-board connections — limits circuit complexity
 
-## 4.3 Plated Through-Hole (Double-Sided)
+## Plated Through-Hole (Double-Sided)
 
 1. **Drill all holes** on CNC drill before plating.
 2. **Deburr and clean**: Mechanical deburr + chemical clean.
@@ -114,7 +114,7 @@ This document covers the full PCB fabrication process from laminate production t
 - Palladium-tin catalyst is expensive and sensitive to contamination — a single contaminated panel can poison an entire catalyst bath, requiring costly replacement
 - Process has 7+ sequential wet chemistry steps (deburr, catalyst, accelerator, electroless, electrolytic, strip, etch) — each step is a potential yield loss point and requires separate chemical management
 
-## 4.4 Multi-Layer PCB
+## Multi-Layer PCB
 
 1. **Produce inner layer cores**: Etch circuit patterns on both sides of thin cores (0.1-0.8 mm) using the single-sided process on each side.
 2. **Inspection (AOI)**: Automated optical inspection of inner layer patterns before lamination — defects sealed inside a multi-layer board are impossible to repair.
@@ -134,7 +134,7 @@ This document covers the full PCB fabrication process from laminate production t
 - Registration accuracy across layers must be <0.05 mm for 4+ layers — requires optical alignment systems and controlled-environment lamination to prevent thermal expansion misalignment
 - Sequential lamination for blind/buried vias multiplies process time: each sub-lamination requires a full 2-4 hour press cycle, making HDI boards 3-5× more expensive than standard multi-layer
 
-## 4.5 Solder Mask, Legend, and Surface Finish
+## Solder Mask, Legend, and Surface Finish
 
 1. **Solder mask**: Apply photoimageable solder mask (LPI — liquid photoimageable) by screen printing or curtain coating (15-30 μm dry). Expose through mask (UV, 300-600 mJ/cm²). Develop with Na₂CO₃. Cure: 150°C for 30-60 min (thermal) or UV post-cure. Color: green (standard), blue, red, black, yellow, white. Purpose: prevents solder bridges, protects traces from oxidation and contamination, provides electrical insulation.
 2. **Silkscreen legend**: Screen-print white epoxy ink for component reference designators (R1, C2, U3), polarity marks, test point labels, and board identification. Cure at 150°C for 15-20 min.
@@ -155,7 +155,7 @@ This document covers the full PCB fabrication process from laminate production t
 - HASL produces uneven solder coating (1-30 μm) that is incompatible with fine-pitch components (<0.5 mm pitch) — the thickness variation causes coplanarity issues
 - ENIG process uses nickel sulfate and potassium gold cyanide — both are toxic, and the cyanide gold bath requires emergency antidote kits and strict handling protocols, adding cost and safety burden
 
-## 4.6 Electrical Test and Profiling
+## Electrical Test and Profiling
 
 1. **Electrical test**: Flying probe (movable pin heads contact each net) or bed-of-nails (fixed fixture with spring pins for every net). Test all nets: continuity (every connection <10 Ω), isolation (every isolation >10 MΩ at 250-500V). Test time: flying probe 2-10 min/board, bed-of-nails 10-60 sec/board.
 2. **Route/profile**: CNC router cuts individual boards from panel. Tool: 2.0-3.2 mm carbide router bit at 20,000-30,000 RPM, feed 10-30 mm/sec. Scoring (V-groove) for snap-apart panels: score 1/3 board thickness from each side.

@@ -71,7 +71,7 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 
 ## Process Description
 
-## 4.1 Nitrile Rubber (NBR, Buna-N)
+## Nitrile Rubber (NBR, Buna-N)
 
 **Principle**: Emulsion copolymerization of butadiene (55-75 parts) with acrylonitrile (25-45 parts) produces a random copolymer with polar nitrile groups (—C≡N) along the chain. The nitrile groups provide oil and fuel resistance by increasing polymer polarity, making the rubber less soluble in non-polar hydrocarbons. Higher acrylonitrile content → better oil resistance but higher glass transition temperature (less flexible at low temperature).
 
@@ -118,7 +118,7 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - Limited high-temperature capability — continuous service limited to 120°C; above this, nitrile groups begin to cross-link and embrittle
 - Acrylonitrile monomer is toxic and flammable — flash point -1°C, IARC Group 2B (possible carcinogen), OSHA PEL 2 ppm
 
-## 4.2 Neoprene (Polychloroprene, CR)
+## Neoprene (Polychloroprene, CR)
 
 **Principle**: Chloroprene (CH₂=CCl-CH=CH₂) polymerizes via free-radical emulsion polymerization to produce polychloroprene. The chlorine atom on the polymer backbone provides inherent UV stability, ozone resistance, and flame retardancy (LOI ~26%, self-extinguishing in normal air at 21% oxygen).
 
@@ -165,7 +165,7 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - Chloroprene monomer is highly reactive and requires refrigerated storage (0-5°C) with inhibitor to prevent spontaneous polymerization
 - HCl release during aging at elevated temperatures — MgO (4 phr) must be included as acid scavenger to prevent autocatalytic degradation
 
-## 4.3 Silicone Elastomers (PDMS)
+## Silicone Elastomers (PDMS)
 
 **Principle**: Polydimethylsiloxane (PDMS) is polymerized from cyclic siloxanes (D₃ or D₄, produced by hydrolysis of dimethyl dichlorosilane). Cross-linking via peroxide (free radical), platinum-catalyzed addition (hydrosilylation), or moisture cure produces a thermally stable elastomer with the widest service temperature range of any rubber (-60 to +250°C).
 
@@ -210,7 +210,7 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - Expensive — MG-Si precursor chain (quartz → silicon → methylchlorosilanes → PDMS) is energy-intensive and requires multiple chemical processing steps
 - Poor hydrocarbon resistance — silicone swells in non-polar solvents (gasoline, toluene); not suitable for fuel contact applications
 
-## 4.4 Polyurethane (PU) — Rigid Foam
+## Polyurethane (PU) — Rigid Foam
 
 **Principle**: Polyol (hydroxyl-terminated polymer) reacts with isocyanate (NCO-terminated) to form a urethane linkage (—NH—CO—O—). In foam production, water reacts with excess isocyanate to generate CO₂ gas (H₂O + NCO → urea linkage + CO₂), which inflates the reacting mixture. The blowing agent (cyclopentane, boiling point 36°C) provides most of the expansion in rigid foam, creating closed cells with low thermal conductivity (0.020-0.025 W/(m·K)).
 
@@ -256,7 +256,7 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - Requires phosgene for isocyanate production — phosgene is a WWI chemical weapon, lethal at 1 ppm; sealed, leak-tested systems with caustic scrubbers are mandatory
 - Flammable — rigid PU foam ignites readily and produces toxic smoke (hydrogen cyanide, CO). Building codes require thermal barriers (drywall) over exposed foam
 
-## 4.5 Styrene-Butadiene Rubber (SBR)
+## Styrene-Butadiene Rubber (SBR)
 
 **Principle**: Emulsion copolymerization of styrene (23-25%) with butadiene (75-77%) produces a random copolymer. SBR is the highest-volume synthetic rubber (~6 million tonnes/year globally, ~40% of all synthetic rubber). Cold polymerization (5°C) produces superior properties — more linear chains, less branching, higher molecular weight than hot polymerization (50°C).
 

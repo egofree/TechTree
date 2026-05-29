@@ -24,8 +24,6 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 - [Semiconductor Devices](../electronics/semiconductor-devices.md) — diodes, transistors, and thyristors
 - [PCB Fabrication](../electronics/pcb-fabrication.md) — PCB manufacturing for logic assemblies
 
-## Prerequisites
-
 ## Materials
 
 - Semiconductor devices: diodes, BJTs, MOSFETs from [`electronics.semiconductor-devices`](../electronics/semiconductor-devices.md)
@@ -64,7 +62,7 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 
 ## Process Description
 
-## 4.1 Combinational Circuit Design
+## Combinational Circuit Design
 
 1. **Write the truth table.** List all 2ⁿ input combinations and the desired output for each. For a 4-input function, this is a 16-row table.
 
@@ -78,7 +76,7 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 
 6. **Verify with a test bench.** Apply all input combinations to the physical circuit. Compare measured outputs against the truth table. For 8+ input circuits (256+ rows), use a logic analyzer in automated stimulus mode.
 
-## 4.2 Sequential Circuit Design
+## Sequential Circuit Design
 
 1. **Define the state diagram.** Draw circles for each state, arrows for transitions. Label each arrow with the input condition that triggers the transition and the output produced.
 
@@ -93,7 +91,7 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 
 5. **Implement and verify.** Wire the flip-flops, combinational next-state logic, and output logic. Test by stepping through all states manually (single-step clock) and at speed.
 
-## 4.3 Programmable Logic Design Flow (FPGA/CPLD)
+## Programmable Logic Design Flow (FPGA/CPLD)
 
 1. **Write HDL description.** Specify the design in a hardware description language (Verilog or VHDL). This is a software activity — see software-bootstrapping domain for HDL methodology.
 
@@ -175,6 +173,12 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 | Excessive power consumption in CMOS design | Floating inputs causing mid-rail oscillation | Tie all unused inputs to VDD or GND; never leave CMOS inputs floating |
 | Race condition in asynchronous design | Multiple paths with different delays to same element | Synchronize all signals to a single clock; avoid asynchronous reset/set unless absolutely necessary |
 | FPGA configuration fails | Incorrect bitstream format or voltage levels on JTAG pins | Verify bitstream matches device and revision; check VCCIO voltage matches programming adapter |
+| Setup/hold time violations | Clock skew or long combinational paths | Add pipeline registers; balance clock tree; reduce logic depth between flip-flops |
+| Glitches on combinational outputs | Unequal propagation delays through logic paths | Add redundant product terms; insert delay elements; register outputs before use |
+| FSM enters undefined state | Missing default/RESET state or metastability | Add explicit RESET to known state; encode all unused states as RESET; add synchronizers for async inputs |
+| Metastability on clock domain crossing | Signal sampled near clock edge | Add 2-stage synchronizer; use FIFO for data domain crossing; minimize crossing bandwidth |
+| FPGA timing not met after PAR | Over-constrained design or routing congestion | Add floorplanning constraints; pipeline critical paths; reduce utilization below 70% |
+| ASIC test coverage below 95% | Untestable logic or insufficient scan chains | Add full-scan flip-flops; insert test points at hard-to-observe nodes; use ATPG tool |
 
 ## Safety
 
@@ -226,17 +230,6 @@ Commit the design to a custom silicon fabrication. Highest performance, lowest p
 | GAL/CPLD | Hours | $2-15 | ~200 macrocells | 100-200 MHz |
 | FPGA | Days-weeks | $15-100 | 10K-10M logic elements | 200-500 MHz |
 | ASIC | Months | $0.50-5 (at volume) | Unlimited | 1+ GHz |
-
-## Troubleshooting
-
-| Symptom | Likely Cause | Solution |
-|---|---|---|
-| Setup/hold time violations | Clock skew or long combinational paths | Add pipeline registers; balance clock tree; reduce logic depth between flip-flops |
-| Glitches on combinational outputs | Unequal propagation delays through logic paths | Add redundant product terms; insert delay elements; register outputs before use |
-| FSM enters undefined state | Missing default/RESET state or metastability | Add explicit RESET to known state; encode all unused states as RESET; add synchronizers for async inputs |
-| Metastability on clock domain crossing | Signal sampled near clock edge | Add 2-stage synchronizer; use FIFO for data domain crossing; minimize crossing bandwidth |
-| FPGA timing not met after PAR | Over-constrained design or routing congestion | Add floorplanning constraints; pipeline critical paths; reduce utilization below 70% |
-| ASIC test coverage below 95% | Untestable logic or insufficient scan chains | Add full-scan flip-flops; insert test points at hard-to-observe nodes; use ATPG tool |
 
 ## See Also
 

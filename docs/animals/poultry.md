@@ -47,7 +47,7 @@ Materials listed for a 50-bird mixed flock per year.
 
 ## Process Description
 
-## 4.1 Egg Production
+## Egg Production
 
 **Principle**: Laying hens convert grain and protein feed into eggs at 2.0-2.5 kg feed per kg of egg mass. Each egg contains approximately 6 g protein, 5 g fat, and 70 kcal. Peak production at 22-72 weeks of age at 80-90% lay rate.
 
@@ -77,7 +77,7 @@ Materials listed for a 50-bird mixed flock per year.
 - Predation from hawks, foxes, raccoons, and weasels requires secure housing and covered runs
 - Cannibalism and feather-picking develop in overcrowded or bored flocks — space and enrichment needed
 
-## 4.2 Meat Production (Broilers)
+## Meat Production (Broilers)
 
 **Principle**: Broiler chickens convert feed to meat at 1.5-1.8 kg feed per kg of live weight — the most efficient of any terrestrial livestock. Broilers reach 2.0-2.5 kg at 6-8 weeks. Heritage breeds grow slower (12-16 weeks) but reproduce naturally and forage on range.
 
@@ -106,7 +106,7 @@ Materials listed for a 50-bird mixed flock per year.
 - Brooder heating required for first 3 weeks — energy cost or fuel consumption
 - Disease spreads rapidly in confined flocks — biosecurity is essential
 
-## 4.3 Multi-Species Integration
+## Multi-Species Integration
 
 **Principle**: Running multiple poultry species on shared range utilizes different ecological niches. Chickens scratch at ground level, ducks forage in wet areas, guinea fowl hunt in tall grass, geese graze pasture, turkeys forage woodland edges. Each species fills a different role.
 
@@ -136,7 +136,7 @@ Materials listed for a 50-bird mixed flock per year.
 - Waterfowl wet litter rapidly — damage housing and create disease risk for land poultry
 - Different feeding schedules and rations increase management complexity
 
-## 4.4 Incubation and Brooding
+## Incubation and Brooding
 
 **Principle**: All poultry eggs require specific temperature (37.5°C), humidity (55-65%), and regular turning for successful incubation. Incubation periods range from 17 days (quail, pigeons) to 30 days (geese). Newly hatched chicks need supplemental heat starting at 35°C, reducing by 3°C per week.
 

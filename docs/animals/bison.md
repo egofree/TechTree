@@ -28,11 +28,6 @@ The American bison (*Bison bison*) is the largest terrestrial animal in North Am
 | Fencing height | 1.8 m minimum | 1.2-1.5 m |
 | Slaughter age (grass) | 18-24 months | 20-28 months (grass-finished) |
 | Working lifespan (cows) | 20-25 years | 10-15 years |
-
-## Prerequisites
-
-| Requirement | Source | Notes |
-|-------------|--------|-------|
 | Native grassland pasture (2-4 ha/pair) | [`agriculture`](../agriculture/index.md) | Bison graze wider variety than cattle |
 | Reinforced fencing (1.8 m minimum) | [`metals`](../metals/index.md) | Steel posts, heavy woven wire |
 | Steel pipe corral system | [`metals`](../metals/index.md) | Hydraulic squeeze chute required |
@@ -54,7 +49,7 @@ Materials listed per 20-cow bison herd per year.
 
 ## Process Description
 
-## 4.1 Grass-Finished Meat Production
+## Grass-Finished Meat Production
 
 **Principle**: Bison convert native grass to lean meat (2-3% fat) without grain supplementation. They graze a wider variety of plants than cattle, including tough native grasses (switchgrass, big bluestem, Indiangrass) that cattle avoid. Bison reach 350-450 kg slaughter weight at 18-24 months on grass alone.
 
@@ -84,7 +79,7 @@ Materials listed per 20-cow bison herd per year.
 - First calving at 3 years (later than cattle at 2 years) — slower herd growth rate
 - Bison kill more people in North America than any other large animal, including bears
 
-## 4.2 Reproduction and Calving
+## Reproduction and Calving
 
 **Principle**: Bison are seasonal breeders with rut in July-September. Cows calve in spring (April-June) with minimal assistance — over 95% of births are unassisted. Calves are born small (15-25 kg) and grow rapidly on grass and mother's milk.
 
@@ -113,7 +108,7 @@ Materials listed per 20-cow bison herd per year.
 - Bulls fight during rut — dominance contests through head-butting charges can be fatal
 - First calving at 3 years vs 2 years for cattle — 50% longer wait for first offspring
 
-## 4.3 Hide and Horn Processing
+## Hide and Horn Processing
 
 **Principle**: Bison hide is thick (8-12 mm on the back, 4-6 mm on the sides) and extremely durable. Horn sheaths separate from the bony core after death and are worked like cattle horn. Both are valuable secondary products.
 

@@ -77,7 +77,7 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 
 ## Process Description
 
-## 4.1 Flotation Retreatment of Sulfide Tailings
+## Flotation Retreatment of Sulfide Tailings
 
 1. **Excavate and re-slurry.** Dig tailings from the impoundment using front-end loaders or hydraulic mining (monitors). Slurry with water to 30–40% solids in a sump pump. Screen at 2–5 mm to remove oversized debris and trash.
 
@@ -101,7 +101,7 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 - Tailings impoundment excavation can destabilize the dam structure if not geotechnically engineered
 - Recovered concentrate grade may be lower than primary ore due to complex mineral locking
 
-## 4.2 Acid Leaching of Metal-Bearing Tailings
+## Acid Leaching of Metal-Bearing Tailings
 
 1. **Characterize the tailings.** Assay for target metals (Cu, Zn, Co, Ni, REE). Determine mineralogy (oxide vs. sulfide), acid consumption (carbonate content), and permeability. High carbonate tailings (>5% CaCO₃) consume excessive acid — consider alkaline leaching instead.
 
@@ -125,7 +125,7 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 - Heap leach cycles run 30-120 days — slow return on capital invested in leach pad construction
 - Spent leach solution must be neutralized to pH 8-9 before discharge — continuous limestone consumption
 
-## 4.3 Bioleaching of Sulfide Tailings
+## Bioleaching of Sulfide Tailings
 
 1. **Inoculate with bacteria.** Culture iron- and sulfur-oxidizing bacteria (Acidithiobacillus ferrooxidans, Acidithiobacillus thiooxidans). These microorganisms oxidize sulfide minerals, releasing metals into solution. Optimal conditions: pH 1.5–2.5, temperature 30–40°C.
 

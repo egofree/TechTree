@@ -189,6 +189,12 @@ Requires purpose-built or heavily modified cable ship with 3,000+ km cable capac
 | Cable fault after repair | Poor splice joint (high resistance or insulation gap) | Re-splice with strict quality control (<0.1 ohm joint, >1,000 Mohm insulation); test splice electrically before re-laying |
 | Slow signaling speed despite good cable | Operator technique; outdated receiving equipment | Train operators on siphon recorder reading; upgrade from sounder to mirror galvanometer to magnifier; use duplex to double throughput |
 | Shore-end cable damage | Repeated trawl or anchor strikes | Bury cable 1-2 m below seabed using water-jetting plow; chart cable location on maritime maps; designate cable protection zones |
+| Signal too weak at receiver | Cable resistance too high or insulation leakage | Test cable from both ends to locate fault; replace faulty section with splice; verify repeater spacing |
+| Cable fault (dead section) | Trawl damage, anchor snag, or chafe on seabed | Locate fault with Murray loop test; grapple and recover cable; insert repair splice |
+| Insulation resistance dropping | Gutta-percha absorbing water through pinhole | Locate leak with capacitance/resistance test; cut and splice at fault point |
+| Signal distortion (smeared pulses) | Excessive capacitance on long unrepeatered span | Add inductive loading (Mueller's method); reduce signaling speed; insert repeater |
+| Cable breaks during laying | Tension too high over uneven seabed | Pay out cable at 1.05-1.10× water depth ratio; survey route with sounding; adjust ship speed |
+| Galvanic corrosion of armor | Dissimilar metals in seawater without cathodic protection | Apply zinc sacrificial anodes; verify armor wire coating integrity |
 
 ## Safety Considerations
 
@@ -219,17 +225,6 @@ Requires purpose-built or heavily modified cable ship with 3,000+ km cable capac
 - 1870: London to Bombay via Mediterranean and Red Sea.
 - 1902: Pacific cable (Vancouver to Australia via Honolulu).
 - 1956: First transatlantic telephone cable (TAT-1, 36 voice channels).
-
-## Troubleshooting
-
-| Symptom | Likely Cause | Solution |
-|---|---|---|
-| Signal too weak at receiver | Cable resistance too high or insulation leakage | Test cable from both ends to locate fault; replace faulty section with splice; verify repeater spacing |
-| Cable fault (dead section) | Trawl damage, anchor snag, or chafe on seabed | Locate fault with Murray loop test; grapple and recover cable; insert repair splice |
-| Insulation resistance dropping | Gutta-percha absorbing water through pinhole | Locate leak with capacitance/resistance test; cut and splice at fault point |
-| Signal distortion (smeared pulses) | Excessive capacitance on long unrepeatered span | Add inductive loading (Mueller's method); reduce signaling speed; insert repeater |
-| Cable breaks during laying | Tension too high over uneven seabed | Pay out cable at 1.05-1.10× water depth ratio; survey route with sounding; adjust ship speed |
-| Galvanic corrosion of armor | Dissimilar metals in seawater without cathodic protection | Apply zinc sacrificial anodes; verify armor wire coating integrity |
 
 ## See Also
 

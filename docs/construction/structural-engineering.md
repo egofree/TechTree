@@ -55,7 +55,7 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 
 ## Process Description
 
-## 4.1 Beam Design
+## Beam Design
 
 **Principle**: A beam carries loads perpendicular to its length, developing internal bending moments and shear forces. Beam design ensures the maximum bending stress does not exceed the allowable material stress, and the maximum deflection stays within serviceability limits.
 
@@ -105,7 +105,7 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 - Lateral-torsional buckling in steel — tall narrow beams twist under load if not laterally restrained
 - Connection design is as critical as member design — beam failures often originate at connections, not midspan
 
-## 4.2 Column Design
+## Column Design
 
 **Principle**: Columns carry axial compression loads. Unlike beams, columns fail by buckling (lateral instability) at loads far below the material crushing strength. The Euler buckling formula predicts the critical load for slender columns.
 
@@ -155,7 +155,7 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 - Slender columns are dramatically weaker than stocky columns — doubling the length can halve the capacity
 - Connection detailing is critical — eccentric beam connections introduce bending moments that reduce column capacity
 
-## 4.3 Foundation Design
+## Foundation Design
 
 **Principle**: Foundations transfer structural loads to the ground. The bearing capacity of the soil determines the foundation area. Weak soils require larger or deeper foundations. Differential settlement (one corner settling more than another) causes wall cracking and structural distress.
 
@@ -203,7 +203,7 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 - Hidden conditions — groundwater, soft pockets, buried organic material may not be detected during investigation
 - Settlement continues for months to years after construction on clay soils (consolidation settlement)
 
-## 4.4 Truss and Connection Design
+## Truss and Connection Design
 
 **Principle**: Trusses convert loads into axial forces (tension and compression) in individual members, enabling long spans with lightweight structures. Connections (bolted, welded, or timber joinery) transfer forces between members. The connection is typically the weakest point in the structural system.
 

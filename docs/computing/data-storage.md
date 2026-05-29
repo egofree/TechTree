@@ -112,15 +112,15 @@ Modern tape cartridges (LTO, IBM 3592) store 6-18 TB per cartridge on half-inch 
 
 ## Floppy Disk
 
-## 8-Inch (1971)
+## Inch (1971)
 
 IBM's first floppy: a flexible Mylar disk 8 inches in diameter in a protective sleeve. Single-sided, single-density: 80 KB. Double-sided, double-density: 1.2 MB. Rotation: 360 RPM. Transfer rate: 250 kbps. The floppy introduced inexpensive, transportable data storage to computing.
 
-## 5.25-Inch (1976)
+## Inch (1976)
 
 Shugart Associates shrunk the format. Single-sided 160 KB, double-sided 360 KB, high-density 1.2 MB. The flexible sleeve was genuinely floppy (hence the name). Widely used for software distribution through the 1980s.
 
-## 3.5-Inch (1982)
+## Inch (1982)
 
 Sony's rigid-shell format became the standard. Double-density: 720 KB. High-density (HD): 1.44 MB (the most widely recognized capacity). The rigid plastic shell with sliding metal shutter protected the disk far better than the flexible 5.25-inch sleeve. Rotation: 300 RPM. Track density: 135 tpi. The 1.44 MB floppy persisted as a boot and transfer medium well into the 2000s.
 

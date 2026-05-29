@@ -23,8 +23,6 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 - [Mining Extraction](../mining/extraction.md) — ore extraction (the upstream process recycling reduces)
 - [Energy](../energy/engine.md) — power supply for electric furnaces
 
-## Prerequisites
-
 ## Materials
 
 | Material | Specification | Source |
@@ -75,7 +73,7 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 
 ## Process Description
 
-## 4.1 Ferrous Scrap Recycling (EAF Route)
+## Ferrous Scrap Recycling (EAF Route)
 
 1. **Collect and sort scrap.** Receive scrap from demolition sites, manufacturing offcuts, and end-of-life products. Sort into categories: heavy melting steel (HMS), plate and structural, shredded scrap, turnings, and baled tin plate. Remove obvious contaminants: rubber, plastic, concrete, non-ferrous metals.
 
@@ -89,7 +87,7 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 
 6. **Cast.** Continuous cast into billets, slabs, or blooms; or pour into ingot molds. Yield: 88–94% of input scrap weight becomes usable steel product.
 
-## 4.2 Aluminum Scrap Recycling
+## Aluminum Scrap Recycling
 
 1. **Sort by alloy.** Separate cast alloys (Al-Si) from wrought alloys (1xxx, 3xxx, 5xxx, 6xxx series). Remove iron attachments, plastic coatings, and other metals. Test uncertain pieces with a portable spectrometer.
 
@@ -103,7 +101,7 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 
 6. **Cast.** Cast into ingots, sows, or billets. Yield: 85–95% depending on scrap cleanliness.
 
-## 4.3 Copper Scrap Recycling
+## Copper Scrap Recycling
 
 1. **Sort and grade.** Classify copper scrap: No. 1 copper (clean, >99% Cu, bare bright wire), No. 2 copper (≥94% Cu, some oxidation/solder), light copper (88–92% Cu), and refinery brass (mixed Cu-Zn). Separate by visual inspection, file testing, and density.
 
@@ -166,6 +164,12 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | Low yield in copper recycling (heavy oxidation) | Excessive air exposure during melting, high superheat | Use charcoal cover on melt; reduce superheat to minimum; work quickly |
 | Explosive eruptions during charging | Wet or oily scrap in hot furnace — steam explosions | Pre-dry all scrap; never charge wet material into molten metal; use closed-door charging |
 | Off-grade chemistry in recycled steel | Unidentified alloy scrap in charge (e.g., stainless in carbon steel charge) | Pre-sort using spark testing or handheld XRF; maintain segregation of alloy families |
+| Contaminated melt (wrong alloy elements) | Mixed scrap not properly sorted | Use spark testing or XRF for incoming sorting; keep alloy families separated; charge only known scrap |
+| Low recovery yield (excessive dross) | Oxidation during melting or high contamination | Use protective flux cover; minimize melt time; pre-clean scrap of oil, paint, and coatings |
+| Copper contamination in steel scrap | Copper wire mixed in ferrous scrap (copper ennobles steel, causes hot shortness) | Remove all copper wire and motors before charging; use hand-picking or eddy current separation |
+| Aluminum melt hydrogen porosity | Moisture on scrap or in furnace atmosphere | Pre-dry scrap; use chlorine or argon degassing; keep melt covered with flux |
+| Lead contamination in copper scrap | Solder or bearings mixed in copper charge | Sort out soldered joints and bearings; test melt for Pb content; dilute with clean copper |
+| Explosive eruption during charging | Closed containers or wet scrap in molten metal | Puncture all containers before charging; pre-dry scrap; never charge wet material into molten bath |
 
 ## Safety
 
@@ -225,17 +229,6 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 ## Historical Context
 
 Bronze Age metalworkers recycled bronze routinely — broken tools and weapons were simply remelted and recast. This was not "recycling" as a concept but the default behavior: metal was too valuable to discard. The modern concept of industrial scrap recycling emerged with the Bessemer and open-hearth processes in the 1860s, when steelmakers began purchasing scrap as a supplementary charge material. The EAF mini-mill revolution (1960s–present) made scrap the primary feedstock for steel production.
-
-## Troubleshooting
-
-| Symptom | Likely Cause | Solution |
-|---|---|---|
-| Contaminated melt (wrong alloy elements) | Mixed scrap not properly sorted | Use spark testing or XRF for incoming sorting; keep alloy families separated; charge only known scrap |
-| Low recovery yield (excessive dross) | Oxidation during melting or high contamination | Use protective flux cover; minimize melt time; pre-clean scrap of oil, paint, and coatings |
-| Copper contamination in steel scrap | Copper wire mixed in ferrous scrap (copper ennobles steel, causes hot shortness) | Remove all copper wire and motors before charging; use hand-picking or eddy current separation |
-| Aluminum melt hydrogen porosity | Moisture on scrap or in furnace atmosphere | Pre-dry scrap; use chlorine or argon degassing; keep melt covered with flux |
-| Lead contamination in copper scrap | Solder or bearings mixed in copper charge | Sort out soldered joints and bearings; test melt for Pb content; dilute with clean copper |
-| Explosive eruption during charging | Closed containers or wet scrap in molten metal | Puncture all containers before charging; pre-dry scrap; never charge wet material into molten bath |
 
 ## See Also
 

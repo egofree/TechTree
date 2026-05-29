@@ -68,7 +68,7 @@ The critical electronic ceramic families:
 
 ## Process Description
 
-## 4.1 Barium Titanate (BaTiO₃) — MLCC Capacitors
+## Barium Titanate (BaTiO₃) — MLCC Capacitors
 
 #### Principle
 
@@ -148,7 +148,7 @@ Barium titanate crystallizes in the perovskite structure (ABO₃). Above the Cur
 - Microphonics — BaTiO₃'s piezoelectric response converts mechanical vibration into electrical noise
 - Sintering Ni-electrode MLCCs requires precise oxygen partial pressure control (pO₂ < 10⁻¹² atm) — atmosphere control failure ruins the entire batch
 
-## 4.2 Ferrites — Magnetic Ceramics
+## Ferrites — Magnetic Ceramics
 
 #### Principle
 
@@ -224,7 +224,7 @@ Ferrites are ceramic magnetic materials based on iron oxide (Fe₂O₃) combined
 - Ferrites are brittle — mechanical shock and thermal shock cause cracking. Cannot be machined with standard cutting tools (diamond grinding only)
 - Curie temperature is relatively low (100-250°C for MnZn) — magnetic properties collapse above Curie temperature
 
-## 4.3 PZT — Lead Zirconate Titanate (Piezoelectric Ceramics)
+## PZT — Lead Zirconate Titanate (Piezoelectric Ceramics)
 
 #### Principle
 
@@ -300,7 +300,7 @@ PZT (Pb[ZrₓTi₁₋ₓ]O₃) is the dominant piezoelectric ceramic. Near the m
 - Brittle — PZT ceramics crack under tensile stress, impact, or rapid thermal cycling. Cannot be used in bending without pre-compression
 - Lead volatility during sintering (PbO vapor pressure exceeds 1 mmHg above 800°C) causes compositional drift if atmosphere control is imperfect
 
-## 4.4 Getter Materials — Vacuum Maintenance
+## Getter Materials — Vacuum Maintenance
 
 #### Principle
 
@@ -369,7 +369,7 @@ Getters are chemically active materials that sorb (absorb or adsorb) residual ga
 - Ba evaporable getters are single-use — once flashed, they cannot be re-activated. If Ba film saturates before tube end-of-life, vacuum degrades
 - Ti sublimation pumps consume titanium wire — finite filament lifetime (10-100 sublimation cycles per filament)
 
-## 4.5 Ceramic Substrates for Electronics
+## Ceramic Substrates for Electronics
 
 #### Principle
 
@@ -446,7 +446,7 @@ Alumina substrates (96% Al₂O₃) provide the mechanical base and electrical in
 - Alumina CTE (6.5-7.5 × 10⁻⁶/°C) does not match silicon (4.5 × 10⁻⁶/°C) — thermal stress on large dies in cofired packages
 - Thick-film resistors have limited precision (±1% after trimming) compared to thin-film (±0.01%)
 
-## 4.6 Varistors and Thermistors
+## Varistors and Thermistors
 
 #### Principle
 

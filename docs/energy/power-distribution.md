@@ -60,7 +60,7 @@ This document covers transformer construction, core and winding manufacturing, i
 
 ## Process Description
 
-## 4.1 Core Construction
+## Core Construction
 
 1. **Cut laminations** to shape using sheet metal shear or stamping die. Standard shapes: E-I (shell type) or U-I (core type). For a 100 kVA core-type transformer, each lamination is approximately 600 mm × 150 mm for the legs and 600 mm × 100 mm for the yokes. Tolerance: ±0.5 mm on length, ±0.1 mm on width.
 
@@ -102,7 +102,7 @@ This document covers transformer construction, core and winding manufacturing, i
 - Core stacking is labor-intensive — 4-8 hours for a 100 kVA core
 - Burrs from imprecise cutting create inter-lamination shorts, increasing core loss
 
-## 4.2 Winding
+## Winding
 
 6. **Calculate turns** for primary and secondary windings. For 11 kV / 400V step-down: turns ratio = 11,000 / 400 = 27.5:1. If secondary has 40 turns per phase, primary needs 1,100 turns per phase. Volts per turn = 400 / 40 = 10 V/turn.
 
@@ -148,7 +148,7 @@ This document covers transformer construction, core and winding manufacturing, i
 - Insulation defects between layers cause partial discharge that degrades transformer over time
 - Copper wire is expensive and heavy — 85-110 kg for a single 100 kVA transformer
 
-## 4.3 Assembly and Tanking
+## Assembly and Tanking
 
 12. **Mount core and coil assembly** on the tank base using steel clamps and insulated tie rods. Ensure the core is level and centered.
 
@@ -202,7 +202,7 @@ This document covers transformer construction, core and winding manufacturing, i
 
 ## Quantitative Parameters
 
-## 5.1 Standard Distribution Transformer Ratings
+## Standard Distribution Transformer Ratings
 
 | Rating (kVA) | HV Range (kV) | LV Range (V) | Core Loss (W) | Load Loss at 75°C (W) | Total Loss (% of rating) | Oil Volume (liters) | Weight (kg) |
 |-------------|---------------|--------------|---------------|----------------------|------------------------|--------------------:|------------:|
@@ -217,7 +217,7 @@ This document covers transformer construction, core and winding manufacturing, i
 
 Core loss is constant (present whenever the transformer is energized). Load loss (copper I²R loss) varies with the square of the load. Total loss at full load: typically 1.0-4.0% of rated power. A 100 kVA transformer at full load wastes ~2 kW as heat.
 
-## 5.2 Wire Gauge vs Current Capacity for Transformer Windings
+## Wire Gauge vs Current Capacity for Transformer Windings
 
 | Wire Diameter (mm) | Cross-Section (mm²) | Resistance (Ω/km) | Current Capacity 3 A/mm² (A) | Typical Application |
 |--------------------|---------------------|--------------------|------------------------------|-------------------|
@@ -235,7 +235,7 @@ Core loss is constant (present whenever the transformer is energized). Load loss
 
 Current density of 3 A/mm² is standard for oil-filled transformers with moderate temperature rise (55-65°C). Dry-type transformers use 2-2.5 A/mm² due to less effective air cooling. Increase current density to 4-5 A/mm² for intermittent duty or forced-cooled designs.
 
-## 5.3 Voltage Drop in Distribution Feeders
+## Voltage Drop in Distribution Feeders
 
 | Wire Size (mm²) | Resistance (Ω/km) | Max Current (A) | Voltage Drop per 100m at Max Current, 240V 1-Phase (%) | Max Recommended Run at Max Current (m) |
 |-----------------|--------------------|-----------------|-------------------------------------------------------|--------------------------------------|
@@ -253,7 +253,7 @@ Current density of 3 A/mm² is standard for oil-filled transformers with moderat
 
 Formula: Voltage drop (%) = (2 × I × R × L) / V × 100, where I = current (A), R = resistance per km (Ω), L = one-way length (km), V = supply voltage (V). Factor of 2 accounts for outgoing and return conductors. For three-phase, replace factor 2 with √3 and use line-to-line voltage.
 
-## 5.4 Transformer Losses by Size
+## Transformer Losses by Size
 
 | Rating (kVA) | No-Load Loss (W) | Full-Load Loss (W) | Efficiency at 50% Load (%) | Efficiency at 100% Load (%) | Temperature Rise (°C) |
 |-------------|------------------|--------------------|---------------------------|-----------------------------|-----------------------|

@@ -179,6 +179,12 @@ The loader reads an executable file into memory and starts execution:
 | Assembler runs out of memory | Symbol table too large for available memory | Reduce label count; increase hash table efficiency; add symbol table overflow to disk/secondary storage |
 | Object file corrupted | Paper tape read error during assembly | Re-punch the source tape; clean reader heads; verify checksums |
 | Relocation error in linker | Assembler generated wrong relocation entries | Verify all absolute address references are marked for relocation; check instruction encoding for absolute vs. relative addressing |
+| "Undefined symbol" error | Label used before definition (forward reference in single-pass) | Switch to two-pass assembler; define label before first use; check for typos in label names |
+| Program crashes at specific address | Branch offset calculated wrong (off by one) | Verify branch target address calculation; check whether offset is from instruction address or next instruction |
+| Object file too large for memory | Relocation records or symbol table not stripped | Strip debug symbols for production builds; verify ORG directive sets correct load address |
+| Linker reports duplicate symbols | Same label defined in two object files | Use LOCAL directive for file-scope labels; rename conflicting global symbols |
+| Loader hangs after loading | Entry point wrong or missing END directive | Verify START or END directive specifies correct entry point; check that entry address contains valid instruction |
+| Self-hosting assembly produces different binary | Assembler has implementation-dependent behavior | Pin down evaluation order; fix expression precedence; compare output byte-by-byte with original |
 
 ## Safety
 
@@ -212,17 +218,6 @@ The loader reads an executable file into memory and starts execution:
 | One-pass with backpatching | Moderate | Memory-constrained environments where two-pass is too expensive |
 
 **Cross-assembler strategy**: Write the assembler to run on an already-working computer (the "host"), generating object code for the target machine. This eliminates the need to write the first assembler in machine code — the host's existing tools handle source editing, file I/O, and debugging. Transfer the assembled binary to the target via paper tape or serial link.
-
-## Troubleshooting
-
-| Symptom | Likely Cause | Solution |
-|---|---|---|
-| "Undefined symbol" error | Label used before definition (forward reference in single-pass) | Switch to two-pass assembler; define label before first use; check for typos in label names |
-| Program crashes at specific address | Branch offset calculated wrong (off by one) | Verify branch target address calculation; check whether offset is from instruction address or next instruction |
-| Object file too large for memory | Relocation records or symbol table not stripped | Strip debug symbols for production builds; verify ORG directive sets correct load address |
-| Linker reports duplicate symbols | Same label defined in two object files | Use LOCAL directive for file-scope labels; rename conflicting global symbols |
-| Loader hangs after loading | Entry point wrong or missing END directive | Verify START or END directive specifies correct entry point; check that entry address contains valid instruction |
-| Self-hosting assembly produces different binary | Assembler has implementation-dependent behavior | Pin down evaluation order; fix expression precedence; compare output byte-by-byte with original |
 
 ## See Also
 

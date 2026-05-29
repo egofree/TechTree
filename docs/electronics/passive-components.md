@@ -62,7 +62,7 @@ This document covers construction methods for each passive component type at thr
 
 ## Process Description
 
-## 4.1 Resistor Construction
+## Resistor Construction
 
 #### Carbon Composition Resistors
 
@@ -124,7 +124,7 @@ This document covers construction methods for each passive component type at thr
 - Limited power handling (⅛W to 1W) — thin film (50-200 nm) cannot dissipate high energy without damage
 - Sensitive to electrostatic discharge during handling — the thin film can be damaged by voltage spikes that a carbon composition resistor would absorb
 
-## 4.2 Capacitor Construction
+## Capacitor Construction
 
 #### Ceramic Disc Capacitors
 
@@ -186,7 +186,7 @@ This document covers construction methods for each passive component type at thr
 - Metallization step requires vacuum deposition equipment (thermal evaporation of aluminum at 10⁻³ to 10⁻² mbar) — adds process complexity not needed for ceramic or electrolytic types
 - Upper capacitance limit (~100 μF) constrained by physical winding dimensions — cannot replace electrolytic capacitors for bulk energy storage
 
-## 4.3 Inductor Construction
+## Inductor Construction
 
 1. Select core material: air core (no core, lowest inductance), iron powder (μᵣ = 10-100), ferrite (μᵣ = 500-15,000). Core geometry: rod, toroid, E-core, pot core.
 2. Calculate turns: N = √(L × l / (μ₀ × μᵣ × A)), where L = desired inductance, l = magnetic path length, A = core cross-section area.

@@ -70,7 +70,7 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 
 ## Process Description
 
-## 4.1 Selection: Choosing Which Plants to Save Seed From
+## Selection: Choosing Which Plants to Save Seed From
 
 1. **Mark superior plants during the growing season**: Before harvest, walk the field and identify the best plants. Tie a colored cord or attach a tag to each selected plant. Selection criteria vary by crop and local priorities:
    - **Yield**: Most grain per plant, most pods per bean plant, largest heads on cabbage
@@ -91,7 +91,7 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 - Subjective judgment — different selectors may choose different plants based on visual assessment
 - Slow feedback loop — the results of selection are not visible until the following generation is grown
 
-## 4.2 Harvesting Seed
+## Harvesting Seed
 
 1. **Wait for full maturity**: Seed must be fully mature before harvest. Indicators by crop:
    - **Grains (wheat, barley, rye)**: Seed heads dry and brittle, grain hard (cracks when bitten), no green color
@@ -112,7 +112,7 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 - Seed shattering in brassicas and small grains causes 5-20% seed loss even with careful timing
 - Requires daily monitoring of seed maturity during the harvest window (labor cost: 30-60 minutes per hectare)
 
-## 4.3 Processing Seed
+## Processing Seed
 
 **For dry-seeded crops (grains, legumes, brassicas)**:
 
@@ -147,7 +147,7 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 - Wet processing uses significant water (20-50 L per 10 kg of fruit)
 - Limited to a few crop families (Solanaceae, Cucurbitaceae) — not applicable to most staple grains
 
-## 4.4 Drying Seed to Storage Moisture
+## Drying Seed to Storage Moisture
 
 1. **Spread seed in a thin layer** (1-2 cm deep) on drying screens in a warm (25-35°C), dry, well-ventilated location. Do NOT dry seed in direct sun at temperatures above 35°C — high temperature kills embryos. Shade-dry or indirect sun only.
 2. **Stir daily** to ensure even drying. Seeds on the edges of the screen dry faster than those in the center.
@@ -167,7 +167,7 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 - Humid tropical conditions make it difficult to reach 8% moisture without a dehydrator or solar dryer
 - Daily stirring requirement means the drying area must be checked every day for 5-14 days
 
-## 4.5 Storage
+## Storage
 
 1. **Select container**: Airtight clay jar with tight-fitting lid, sealed gourd, or wooden box with clay-sealed lid. The container must exclude moisture and insects.
 2. **Add desiccant (recommended)**: Place a cloth bag of dry wood ash or charcoal (100-200 g per 10 L container) in the bottom of the storage container. Ash absorbs residual moisture.
@@ -185,7 +185,7 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 - Cool, dark storage space is limited in tropical and subtropical regions
 - Rodent and insect damage to stored seed can destroy an entire season's supply if containers are breached
 
-## 4.6 Germination Testing
+## Germination Testing
 
 Test seed viability 2-4 weeks before planting season. Do not plant untested seed.
 

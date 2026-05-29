@@ -54,7 +54,7 @@ Division of labor is an organizational capability, not a physical production pro
 
 ## Process Description
 
-## 4.1 Establishing Initial Specialization
+## Establishing Initial Specialization
 
 1. **Assess food surplus**: Calculate the caloric surplus above subsistence. Each full-time specialist requires ~2,500-3,000 kcal/day (0.9-1.1 tonnes grain equivalent/year). Confirm surplus can support the desired number of specialists with a buffer of at least 10%.
 
@@ -78,7 +78,7 @@ Division of labor is an organizational capability, not a physical production pro
 - Initial specialists must be supported during their learning period (3-12 months of below-target output)
 - Community must produce genuine surplus — allocating specialists without surplus reduces total output
 
-## 4.2 Scaling Beyond Initial Specialists
+## Scaling Beyond Initial Specialists
 
 6. **Add specialists incrementally**: For every 10% increase in food surplus, add 2-3 new specialists. Prioritize specializations that create the most downstream value: metal-workers first, then potters, carpenters, weavers, masons.
 
@@ -96,7 +96,7 @@ Division of labor is an organizational capability, not a physical production pro
 - Sub-specialists may lose understanding of the overall product — "not my job" attitude degrades quality
 - Requires written records — illiterate communities cannot manage formal handoff systems
 
-## 4.3 Coordination at Scale
+## Coordination at Scale
 
 9. **Appoint coordination roles**: When the specialist workforce exceeds ~15 workers, appoint a dedicated coordinator (foreman, guild master). This person does not produce goods — they allocate tasks, resolve scheduling conflicts, and track output.
 

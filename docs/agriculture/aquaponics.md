@@ -73,7 +73,7 @@ Position in the dependency chain: aquaponics depends on [Aquaculture](../animals
 
 ## Process Description
 
-## 4.1 System Design and Assembly
+## System Design and Assembly
 
 **Fish tank**: 500-1000 L for a household system. Food-grade polyethylene tank, or a concrete/brick tank lined with pond liner or waterproofed with cement render. Opaque or dark-colored to reduce algae growth. Minimum depth 40-60 cm. Located at or below the level of the grow beds to allow gravity drain-back.
 
@@ -112,7 +112,7 @@ Cycle: Water fills the grow bed to the top of the standpipe. The bell siphon tri
 - Gravel media (200-400 L) is heavy — grow beds weigh 300-600 kg when full and must be supported
 - PVC plumbing requires precise fitting — leaks cause water loss and can drain the fish tank
 
-## 4.2 Nitrogen Cycle Establishment
+## Nitrogen Cycle Establishment
 
 Aquaponics depends on the nitrogen cycle — bacteria convert toxic fish waste into plant-available nutrients. This cycle must be established before adding fish.
 
@@ -149,7 +149,7 @@ Before adding fish, the system must develop sufficient bacterial colonies to pro
 - Nitrite spike during weeks 2-3 is toxic to fish — any fish added prematurely will die
 - Bacterial colonies crash if the pump stops for more than 4-6 hours (bacteria suffocate without oxygenated water flow)
 
-## 4.3 Fish Management
+## Fish Management
 
 #### Tilapia (*Oreochromis* spp.)
 
@@ -187,7 +187,7 @@ Start conservative. Stock at 10-15 kg/m³ when fish are small and increase as th
 - Overfeeding is the most common cause of ammonia spikes — 15-minute feeding rule requires daily attention
 - Fish disease spreads rapidly in recirculating systems — one sick fish can infect the entire tank within 24-48 hours
 
-## 4.4 Plant Management
+## Plant Management
 
 **Excellent aquaponic crops** (leafy greens and herbs — thrive on nitrogen-rich fish water):
 - **Lettuce** (all varieties): 4-6 weeks from transplant to harvest. The most reliable aquaponic crop.
@@ -221,7 +221,7 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 - Iron deficiency develops in most systems within 2-3 months without chelated iron supplement
 - Root crops and large fruiting trees are unsuitable for aquaponic growing
 
-## 4.5 Water Quality Management
+## Water Quality Management
 
 **pH**: Target: 6.5-7.0. This is a compromise between fish comfort (prefer 7.0-8.0), plant nutrient availability (prefer 5.5-6.5), and bacterial activity (prefer 7.0-8.0).
 
@@ -251,7 +251,7 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 - Dissolved oxygen below 5 mg/L is lethal to fish within hours in warm water — continuous aeration is mandatory
 - Ammonia spikes from overfeeding or dead fish can kill an entire tank within 24 hours
 
-## 4.6 System Startup and Operation
+## System Startup and Operation
 
 1. **Build the system**: Assemble fish tank, grow bed(s), plumbing, bell siphon, pump, and air pump. Check all connections. Fill with dechlorinated water. Test the bell siphon cycle (fill and drain 3-4 times).
 2. **Add bio-media and plant**: Fill grow beds with washed gravel or clay pebbles. Plant seedlings (start with fast-growing plants: lettuce, basil).

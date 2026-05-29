@@ -50,7 +50,7 @@ Semiconductor devices sit at the heart of the electronics bootstrap chain. [Pass
 
 ## Process Description
 
-## 4.1 Diode Construction
+## Diode Construction
 
 #### Discrete PN Junction Diode
 
@@ -82,7 +82,7 @@ Metal-semiconductor junction (no p-type region). Aluminum, platinum, or titanium
 - Zener diodes below 5V have soft knee characteristics and high temperature coefficient — voltage regulation degrades significantly with load current and temperature variation
 - Schottky diodes have high reverse leakage current (1-100 μA) that doubles every 10°C — at elevated temperatures, leakage power dissipation can exceed forward conduction savings
 
-## 4.2 Bipolar Junction Transistor (BJT)
+## Bipolar Junction Transistor (BJT)
 
 #### NPN Transistor Construction
 
@@ -111,7 +111,7 @@ Metal-semiconductor junction (no p-type region). Aluminum, platinum, or titanium
 - Secondary breakdown: localized thermal runaway at high Vce × Ic combinations creates destruction zones that limit safe operating area (SOA) — MOSFETs do not have this failure mode
 - β varies with temperature (doubles from 25°C to 100°C), collector current (peaks at 1-100 mA, drops at high and low current), and between individual devices — requires careful bias circuit design for linear applications
 
-## 4.3 MOSFET (Metal-Oxide-Semiconductor FET)
+## MOSFET (Metal-Oxide-Semiconductor FET)
 
 #### N-Channel Enhancement MOSFET
 
@@ -140,7 +140,7 @@ Metal-semiconductor junction (no p-type region). Aluminum, platinum, or titanium
 - Rds(on) ∝ Vds²·⁵ for silicon — above ~600V, the on-resistance becomes impractically high, making MOSFETs unsuitable for high-voltage switching where IGBTs or thyristors are required
 - Gate charge (Qgs = 1-200 nC) must be supplied and removed each switching cycle — at high frequency, gate drive power (Pgate = Qgs × Vgs × fsw) becomes significant and requires careful driver design
 
-## 4.4 Thyristor (SCR — Silicon Controlled Rectifier)
+## Thyristor (SCR — Silicon Controlled Rectifier)
 
 Four-layer pnpn device. Latches on when gate current is applied while anode is positive relative to cathode. Remains conducting until anode current drops below holding current (Ih, typically 5-50 mA). Used for AC power control (light dimmers, motor speed control, HVDC transmission).
 

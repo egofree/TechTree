@@ -164,6 +164,12 @@ Once the bootstrap loader is toggled in and verified (24 bytes, ~10 minutes), it
 | Program works differently each run | Uninitialized memory; race condition with I/O | Initialize all memory locations the program uses before running; add explicit delay loops for I/O timing |
 | Program runs but produces no output | Wrong I/O port address; device not connected | Verify port address matches hardware documentation; check device is powered and connected |
 | Bootstrap loader fails to load tape | Wrong reader device code in bootstrap; reader not ready | Verify I/O instruction matches the actual paper tape reader hardware; ensure reader is loaded and online |
+| Program crashes immediately on RUN | Wrong opcode toggled, or reset vector incorrect | Re-verify first 3-5 bytes against listing; confirm reset vector address matches hardware documentation |
+| Infinite loop (no output) | Branch target address wrong by one byte | Recalculate all branch offsets; verify address labels match hex listing |
+| Garbage on output device | I/O port address wrong or baud rate mismatch | Check I/O device address in ISA manual; verify serial baud rate and parity settings |
+| Program works once then crashes | Self-modifying code corrupting instructions, or stack overflow | Trace through program on paper; check that data areas do not overlap code areas |
+| Wrong results from arithmetic | Carry/overflow flag not handled, or wrong addressing mode | Re-verify each instruction's addressing mode bits; check flag behavior for subtract and compare |
+| Paper tape loads garbage | Reader misaligned or tape not punched correctly | Clean reader heads; verify tape by visually inspecting punch holes; re-enter via front panel as fallback |
 
 ## Safety
 
@@ -196,17 +202,6 @@ Once the bootstrap loader is toggled in and verified (24 bytes, ~10 minutes), it
 | Cross-assembler on host machine | Fastest | Lowest | When a second computer is available |
 
 **Cross-development alternative**: If another working computer exists, write and assemble programs on the host machine, then transfer the binary to the target machine via paper tape or serial link. This eliminates hand-toggling for all programs except the initial bootstrap loader.
-
-## Troubleshooting
-
-| Symptom | Likely Cause | Solution |
-|---|---|---|
-| Program crashes immediately on RUN | Wrong opcode toggled, or reset vector incorrect | Re-verify first 3-5 bytes against listing; confirm reset vector address matches hardware documentation |
-| Infinite loop (no output) | Branch target address wrong by one byte | Recalculate all branch offsets; verify address labels match hex listing |
-| Garbage on output device | I/O port address wrong or baud rate mismatch | Check I/O device address in ISA manual; verify serial baud rate and parity settings |
-| Program works once then crashes | Self-modifying code corrupting instructions, or stack overflow | Trace through program on paper; check that data areas do not overlap code areas |
-| Wrong results from arithmetic | Carry/overflow flag not handled, or wrong addressing mode | Re-verify each instruction's addressing mode bits; check flag behavior for subtract and compare |
-| Paper tape loads garbage | Reader misaligned or tape not punched correctly | Clean reader heads; verify tape by visually inspecting punch holes; re-enter via front panel as fallback |
 
 ## See Also
 

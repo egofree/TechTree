@@ -64,7 +64,7 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 
 ## Process Description
 
-## 4.1 Timber Framing
+## Timber Framing
 
 **Principle**: Timber carries both compression and tension loads. Properly joined frames span 6-12 m and support multi-story structures for centuries. The joinery (not iron fasteners) provides structural integrity.
 
@@ -122,7 +122,7 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 - Anisotropic — strength varies by grain direction; perpendicular-to-grain compression only 3-5 MPa
 - Shrinkage during seasoning — green timber shrinks 3-6% radially, joints loosen if assembled before drying
 
-## 4.2 Stone Masonry
+## Stone Masonry
 
 **Principle**: Stone excels in compression (20-250 MPa) but has negligible tensile strength. Masonry structures exploit this by keeping all structural elements in compression through geometry (arches, vaults, thick walls) and massive weight.
 
@@ -181,7 +181,7 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 - Heavy — requires massive foundations; settlement risk on weak soils
 - Skilled labor required — stone masonry quality depends entirely on craftsman skill
 
-## 4.3 Brick Masonry
+## Brick Masonry
 
 **Principle**: Fired clay brick provides consistent, modular building units with predictable strength (10-50 MPa compressive). The standardized size enables rapid construction compared to stone, while fired clay offers weather resistance superior to timber or mud brick.
 
@@ -239,7 +239,7 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 - Porous — absorbs water, requires external weatherproofing or rendering in exposed conditions
 - Mortar joint is the weak point — wall strength is 30-40% of brick unit strength
 
-## 4.4 Roofing Systems
+## Roofing Systems
 
 **Principle**: Roofing must shed water, support its own weight plus snow and wind loads, and resist lateral spreading forces that push walls apart. Truss geometry converts loads into axial forces in individual members, enabling timber to span 5-20 m.
 

@@ -65,7 +65,7 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 
 ## Process Description
 
-## 4.1 Anaerobic Digestion (Biogas Production)
+## Anaerobic Digestion (Biogas Production)
 
 1. **Build the digester**: Construct a cylindrical or rectangular underground tank (6-10 m³ volume for family scale, 50-500 m³ for village scale). Inlet pipe near the bottom for fresh feed, outlet pipe at the opposite end for spent slurry. Gas collection dome at the top — either a fixed dome (gas pressure varies) or a floating bell (gas holder rises as gas accumulates, maintains constant low pressure).
 
@@ -115,7 +115,7 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 - Biogas has low energy density (21-24 MJ/m³) compared to natural gas (36-40 MJ/m³)
 - Slow process — 20-40 day retention time means slow response to increased demand
 
-## 4.2 Biomass Gasification (Producer Gas)
+## Biomass Gasification (Producer Gas)
 
 1. **Construct the gasifier**: Build a downdraft (Imbert-type) gasifier — a vertical cylindrical reactor with a throated combustion zone. The throat (constriction) forces all gas through the hottest zone, cracking tars. Diameter: 300-600 mm for 10-50 kW engines. Height: 1.0-1.5 m. Air enters through tuyeres (nozzles) at the throat.
 
@@ -168,7 +168,7 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 - Requires consistent fuel moisture (<20%) — wet fuel causes tar spikes and unstable operation
 - Gas cannot be stored at pressure — must be consumed immediately or flared
 
-## 4.3 Direct Combustion for Heat
+## Direct Combustion for Heat
 
 1. **Prepare fuel**: Air-dry biomass to <20% moisture content. Green wood (>50% moisture) wastes 30-50% of combustion energy evaporating water. Chip or cut to uniform size for consistent feeding.
 
@@ -212,7 +212,7 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 
 ## Quantitative Parameters
 
-## 5.1 Biogas Yield by Feedstock
+## Biogas Yield by Feedstock
 
 | Feedstock | Biogas Yield (m³/kg VS added) | Methane Content (%) | C:N Ratio | Notes |
 |-----------|-------------------------------|---------------------|-----------|-------|
@@ -226,7 +226,7 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 
 VS = volatile solids (organic matter). Actual biogas yield depends on temperature, retention time, and C:N ratio.
 
-## 5.2 Gasifier Performance by Fuel Type
+## Gasifier Performance by Fuel Type
 
 | Parameter | Wood Chips | Charcoal | Agricultural Residues |
 |-----------|-----------|----------|----------------------|
@@ -241,7 +241,7 @@ VS = volatile solids (organic matter). Actual biogas yield depends on temperatur
 
 Cold gas efficiency = energy in product gas / energy in fuel input. Overall electrical efficiency (fuel to electricity) = cold gas efficiency × engine efficiency × generator efficiency ≈ 15-25%.
 
-## 5.3 Biomass Heating Values
+## Biomass Heating Values
 
 | Fuel | Higher Heating Value (MJ/kg) | Bulk Density (kg/m³) | Energy Density (GJ/m³) |
 |------|------------------------------|----------------------|----------------------|

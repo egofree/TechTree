@@ -151,6 +151,12 @@ The Rosetta approach ensures that future readers can decode stored information e
 | Ink fading on documents | UV exposure, or acidic ink (iron gall) burning through paper | Store in dark; deacidify paper; make photographic backup before ink is illegible |
 | Digital format unreadable | Hardware or software obsolete | Migrate to current formats proactively; maintain backward-compatible reading equipment; store format specifications alongside data |
 | Archive neglected | Institutional priority shift, staff turnover | Legal mandate for maintenance; redundant governance (multiple institutions responsible); annual audit by external reviewers |
+| Paper yellowing and becoming brittle | Acidic paper (lignin not removed) or UV exposure | Switch to alkaline-buffered paper (pH 7.5-9.0); store in dark archive; deacidify existing stock with magnesium bicarbonate spray |
+| Mold on stored documents | Relative humidity above 65% or water intrusion | Reduce RH to 30-50% with ventilation; isolate affected items; treat with 70% ethanol; freeze if widespread |
+| Ink fading on archival copies | Iron gall ink corrosion or UV-sensitive dye | Re-copy to fresh media immediately; store originals in dark, cool conditions; use carbon-based inks for new copies |
+| Digital media read errors | Media degradation (bit rot, demagnetization) | Verify checksums annually; migrate to fresh media on schedule; maintain redundant copies on different media types |
+| Missing or incomplete archive inventory | Staff turnover without handoff procedures | Maintain duplicate inventory in separate location; assign backup custodian; review inventory quarterly |
+| Format obsolescence (cannot read old files) | Software/hardware no longer available | Maintain format migration plan; keep reference readers for all formats in use; prioritize migration of at-risk formats |
 
 ## Safety
 
@@ -211,17 +217,6 @@ When a threat to the archive is detected (fire, flood, structural failure, pest 
 4. **Stabilize**: For water-damaged materials, freeze within 48 hours to halt mold growth. For fire-damaged materials, air-dry away from heat. For mold-affected materials, isolate in sealed bags and treat with 70% ethanol.
 5. **Assess and recover**: After the emergency, assess damage to each affected item. Prioritize recovery by criticality tier. Professional conservation treatment for severely damaged Tier 1 items.
 6. **Document the incident**: Record what happened, what was affected, what was recovered, and what preventive measures will be implemented to avoid recurrence.
-
-## Troubleshooting
-
-| Symptom | Likely Cause | Solution |
-|---|---|---|
-| Paper yellowing and becoming brittle | Acidic paper (lignin not removed) or UV exposure | Switch to alkaline-buffered paper (pH 7.5-9.0); store in dark archive; deacidify existing stock with magnesium bicarbonate spray |
-| Mold on stored documents | Relative humidity above 65% or water intrusion | Reduce RH to 30-50% with ventilation; isolate affected items; treat with 70% ethanol; freeze if widespread |
-| Ink fading on archival copies | Iron gall ink corrosion or UV-sensitive dye | Re-copy to fresh media immediately; store originals in dark, cool conditions; use carbon-based inks for new copies |
-| Digital media read errors | Media degradation (bit rot, demagnetization) | Verify checksums annually; migrate to fresh media on schedule; maintain redundant copies on different media types |
-| Missing or incomplete archive inventory | Staff turnover without handoff procedures | Maintain duplicate inventory in separate location; assign backup custodian; review inventory quarterly |
-| Format obsolescence (cannot read old files) | Software/hardware no longer available | Maintain format migration plan; keep reference readers for all formats in use; prioritize migration of at-risk formats |
 
 ## See Also
 

@@ -66,7 +66,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 ## Process Description
 
-## 4.1 Solvent Recovery by Fractional Distillation
+## Solvent Recovery by Fractional Distillation
 
 1. **Collect and segregate spent solvents.** Store each solvent type in dedicated tanks. Never mix solvent families — halogenated and non-halogenated solvents require separate recovery trains. Label all containers with solvent identity and estimated purity.
 
@@ -86,7 +86,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 7. **Collect residue.** The reboiler residue contains high-boiling contaminants, dissolved metals, and polymerized organics. Dispose via [Waste Management](../ehs/waste-management.md) or further processing.
 
-## 4.2 Acid Recovery by Diffusion Dialysis
+## Acid Recovery by Diffusion Dialysis
 
 1. **Feed preparation.** Filter spent acid through a 5–25 μm filter to remove suspended solids that would foul membranes. Measure acid concentration and dissolved metal content.
 
@@ -98,7 +98,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 5. **Manage metal-rich stream.** The depleted acid stream contains concentrated metal salts. Route to metal recovery (precipitation or electrowinning) or to waste treatment.
 
-## 4.3 Catalyst Recovery
+## Catalyst Recovery
 
 1. **Collect spent catalyst.** Solid catalysts (metals on carbon or alumina supports) are filtered or decanted from process streams. Homogeneous catalysts remain dissolved and require different recovery methods.
 
@@ -160,6 +160,12 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 | Low acid recovery rate | Spent acid too dilute (<10% wt), membrane degradation | Concentrate feed by evaporation before dialysis; check membrane integrity |
 | Recovered catalyst has low activity | Incomplete coke burnoff, sintering of metal crystallites | Increase regeneration temperature by 50°C; limit regeneration time to prevent sintering |
 | Azeotrope prevents full solvent-water separation | IPA-water (12% water) or ethanol-water (4% water) form azeotropes | Use molecular sieve drying (pressure-swing adsorption) or extractive distillation with ethylene glycol |
+| Recovered solvent purity below spec | Azeotrope formation or column flooding | Add entrainer for azeotropic distillation; reduce boil-up rate; check column packing condition |
+| Distillation column pressure drop rising | Tray fouling or packing contamination | Clean or replace fouled trays; flush packing with fresh solvent; pre-filter feed |
+| Acid regeneration recovery <90% | Membrane fouled or spent resin exhausted | Clean or replace membrane; regenerate ion exchange resin; check for organic contamination |
+| Catalyst recovery yield dropping | Leaching incomplete or precipitation pH wrong | Adjust leach solution concentration; verify pH control; check for competing ion interference |
+| Emulsion in solvent-water separator | Surfactant contamination in spent solvent | Add demulsifier; increase settling time; pre-treat with activated carbon to remove surfactants |
+| High energy consumption per kg recovered | Excessive reflux ratio or poor insulation | Reduce reflux ratio to minimum for required purity; insulate column and reboiler; add heat integration |
 
 ## Safety
 
@@ -222,17 +228,6 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 | Material output | Reusable chemical | Treated effluent (no material value) |
 | Applicable scale | >100 L/day economical | Any scale |
 | Regulatory | Often required for large generators | Always required |
-
-## Troubleshooting
-
-| Symptom | Likely Cause | Solution |
-|---|---|---|
-| Recovered solvent purity below spec | Azeotrope formation or column flooding | Add entrainer for azeotropic distillation; reduce boil-up rate; check column packing condition |
-| Distillation column pressure drop rising | Tray fouling or packing contamination | Clean or replace fouled trays; flush packing with fresh solvent; pre-filter feed |
-| Acid regeneration recovery <90% | Membrane fouled or spent resin exhausted | Clean or replace membrane; regenerate ion exchange resin; check for organic contamination |
-| Catalyst recovery yield dropping | Leaching incomplete or precipitation pH wrong | Adjust leach solution concentration; verify pH control; check for competing ion interference |
-| Emulsion in solvent-water separator | Surfactant contamination in spent solvent | Add demulsifier; increase settling time; pre-treat with activated carbon to remove surfactants |
-| High energy consumption per kg recovered | Excessive reflux ratio or poor insulation | Reduce reflux ratio to minimum for required purity; insulate column and reboiler; add heat integration |
 
 ## See Also
 

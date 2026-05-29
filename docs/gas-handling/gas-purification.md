@@ -36,7 +36,7 @@ This capability covers four purification methods ordered by increasing specifici
 
 ## Process Description
 
-## 4.1 Scrubbing (Bulk Contaminant Removal)
+## Scrubbing (Bulk Contaminant Removal)
 
 1. Route contaminated gas stream into the bottom of a packed scrubber column. The column is a vertical steel vessel (0.3-1.5 m diameter, 2-6 m height) filled with ceramic or plastic packing (Raschig rings, Pall rings, or structured packing) to maximize gas-liquid contact area.
 2. Flow scrubbing liquid countercurrent to the gas — liquid enters at the top through a spray distributor and trickles down through the packing by gravity while gas rises. The liquid absorbs target contaminants by dissolution or chemical reaction.
@@ -53,7 +53,7 @@ This capability covers four purification methods ordered by increasing specifici
 - Scrubber solutions become spent and require neutralization and disposal — continuous waste stream generation
 - Cannot achieve ppb-level purity — residual contaminant levels of 10-100 ppm are the practical floor for wet scrubbing
 
-## 4.2 Adsorption Drying and Purification
+## Adsorption Drying and Purification
 
 1. Load two adsorber vessels in a lead-lag (twin-bed) configuration. While vessel A is online adsorbing moisture from the process gas, vessel B is offline being regenerated. Switch when the online vessel reaches breakthrough (downstream moisture exceeds specification).
 2. Fill each adsorber vessel with the appropriate adsorbent in layers: coarse activated carbon at the inlet (removes organics and oils), molecular sieve 3Å in the middle (removes water to <1 ppm), and a polishing layer of molecular sieve 4Å or 5Å at the outlet (removes CO₂ and residual traces).
@@ -70,7 +70,7 @@ This capability covers four purification methods ordered by increasing specifici
 - Regeneration requires 250-350°C heating for 4-8 hours — significant energy input (50-200 kWh/ton adsorbent)
 - Gas channeling at velocities above 0.3 m/s bypasses adsorbent, causing premature breakthrough
 
-## 4.3 Catalytic Purification (Oxygen and Hydrogen Removal)
+## Catalytic Purification (Oxygen and Hydrogen Removal)
 
 1. For oxygen removal from inert gases (N₂, Ar, He): pass the gas through a bed of reduced copper catalyst at 200-400°C. Copper reacts with trace O₂ to form CuO, removing oxygen to below 1 ppb. The catalyst bed is contained in a heated stainless steel vessel with internal thermocouples to verify uniform temperature.
 2. Regenerate the spent copper catalyst by flowing dilute hydrogen (2-5% H₂ in N₂) through the bed at 250-350°C. Hydrogen reduces CuO back to metallic copper (CuO + H₂ → Cu + H₂O). The water vapor is carried out by the purge gas. Monitor exit gas for moisture to confirm regeneration is complete.
@@ -85,7 +85,7 @@ This capability covers four purification methods ordered by increasing specifici
 - Reduced copper and palladium catalysts are pyrophoric — exposure to air after regeneration causes rapid oxidation and potential ignition
 - Catalysts are poisoned by sulfur compounds and halogens — a single exposure to H₂S or chlorine permanently degrades the catalyst bed
 
-## 4.4 Cryogenic Separation
+## Cryogenic Separation
 
 Cryogenic separation is covered in detail in [Air Separation](../chemistry/air-separation.md). For gas purification specifically, partial condensation at controlled cryogenic temperatures exploits differences in boiling points to separate gas mixtures:
 

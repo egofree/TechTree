@@ -53,7 +53,7 @@ Materials listed per 50-ewe flock per year.
 
 ## Process Description
 
-## 4.1 Wool Production
+## Wool Production
 
 **Principle**: Sheep produce a fleece of keratin fiber that grows continuously and is harvested annually by shearing. Wool fibers have natural crimp (wave pattern) and scales that interlock during spinning and felting, creating strong yarn and fabric. The fleece also contains lanolin (wool wax) that protects the fiber and has industrial applications.
 
@@ -85,7 +85,7 @@ Materials listed per 50-ewe flock per year.
 - Greasy fleece contains 25-40% impurities requiring scouring before use
 - Wool prices fluctuate widely ($3-30/kg depending on micron and quality)
 
-## 4.2 Lambing Management
+## Lambing Management
 
 **Principle**: Sheep give birth after 147 days of gestation. Lambs are precocial — standing and nursing within 30 minutes. Colostrum (first milk) provides passive immunity. Lambing percentage (lambs born per ewe) ranges from 100% (hill breeds, singles) to 300% (prolific breeds, twins and triplets).
 
@@ -118,7 +118,7 @@ Materials listed per 50-ewe flock per year.
 - Mastitis and pregnancy toxemia threaten ewe health in late gestation
 - mismothering (ewe rejecting a lamb) requires intervention or fostering
 
-## 4.3 Meat Production
+## Meat Production
 
 **Principle**: Lambs convert pasture to meat with dressing percentages of 45-55%. Growth from birth to slaughter takes 4-12 months depending on system and target weight. Sheep produce three categories: lamb (under 12 months), hogget (12-24 months), and mutton (over 24 months).
 
@@ -147,7 +147,7 @@ Materials listed per 50-ewe flock per year.
 - Stronger flavor in older animals limits mutton market
 - Predation and parasite losses reduce effective yield
 
-## 4.4 Flock Health and Parasite Management
+## Flock Health and Parasite Management
 
 **Principle**: Sheep are susceptible to internal parasites (especially *Haemonchus contortus*), foot rot, and flystrike. Integrated management combining pasture rotation, targeted treatment, and monitoring maintains flock health without relying solely on chemical dewormers.
 

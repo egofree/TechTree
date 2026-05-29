@@ -183,6 +183,15 @@ Continuous inline monitoring is essential for UPW quality assurance. The system 
 
 ## Troubleshooting
 
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Resistivity below 18.2 MΩ·cm | Ion exchange resin exhausted or RO membrane fouled | Regenerate or replace mixed-bed resin; clean or replace RO membranes; check for upstream treatment failure |
+| TOC excursions above 1 ppb | Organic leaching from piping or biofilm growth | Sanitize distribution loop with hot water (80°C) or ozone; replace leaching PVC with PVDF; check UV lamp output |
+| Particle count spikes | Membrane breach or corrosion in distribution system | Integrity-test all UF/RO membranes; inspect piping for corrosion; verify point-of-use filter integrity |
+| Dissolved oxygen above 5 ppb | Membrane degasser failure or air ingress | Check membrane contactor vacuum; inspect all seals for air leaks; verify nitrogen purge gas supply |
+| Bacteria detected in product water | Biofilm in dead legs or insufficient sanitization | Eliminate dead legs (no pipe runs >6× diameter without flow); hot water sanitize at 80°C for 2 hours; increase UV dose |
+| Resistivity drops at point of use but not at system outlet | Contamination pickup in distribution piping | Flush loop; replace aging piping sections; verify all connections are sanitary (no threaded fittings) |
+
 ## Resistivity Below 18.2 MΩ·cm
 
 **Causes**: Mixed-bed ion exchange exhaustion. RO membrane degradation (salt passage increase). CO₂ absorption through tank headspace. Piping leak introducing atmospheric CO₂.
@@ -223,17 +232,6 @@ Continuous inline monitoring is essential for UPW quality assurance. The system 
 - **No margin for error**: A single excursion in any parameter can contaminate wafers in process. The system requires 100% uptime — redundant trains on all critical components.
 - **Water consumption**: Even with 70-80% reclamation, a large fab still consumes 1-2 million liters per day of fresh feed water. In water-scarce regions, this is a significant operational constraint.
 - **Microbial control**: Bacteria grow even in 18.2 MΩ·cm water (oligotrophic organisms). Continuous UV, ozone, or hot water sanitization is mandatory. Biofilm removal once established requires aggressive chemical cleaning.
-
-## Troubleshooting
-
-| Symptom | Likely Cause | Solution |
-|---|---|---|
-| Resistivity below 18.2 MΩ·cm | Ion exchange resin exhausted or RO membrane fouled | Regenerate or replace mixed-bed resin; clean or replace RO membranes; check for upstream treatment failure |
-| TOC excursions above 1 ppb | Organic leaching from piping or biofilm growth | Sanitize distribution loop with hot water (80°C) or ozone; replace leaching PVC with PVDF; check UV lamp output |
-| Particle count spikes | Membrane breach or corrosion in distribution system | Integrity-test all UF/RO membranes; inspect piping for corrosion; verify point-of-use filter integrity |
-| Dissolved oxygen above 5 ppb | Membrane degasser failure or air ingress | Check membrane contactor vacuum; inspect all seals for air leaks; verify nitrogen purge gas supply |
-| Bacteria detected in product water | Biofilm in dead legs or insufficient sanitization | Eliminate dead legs (no pipe runs >6× diameter without flow); hot water sanitize at 80°C for 2 hours; increase UV dose |
-| Resistivity drops at point of use but not at system outlet | Contamination pickup in distribution piping | Flush loop; replace aging piping sections; verify all connections are sanitary (no threaded fittings) |
 
 ## See Also
 

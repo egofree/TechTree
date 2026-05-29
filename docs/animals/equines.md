@@ -51,7 +51,7 @@ Materials listed per 2-horse team per year.
 
 ## Process Description
 
-## 4.1 Draft Power
+## Draft Power
 
 **Principle**: Horses convert chemical energy from forage and grain into mechanical pulling force. A single draft horse (700-900 kg) pulls 500-800 kg on level ground at 4-5 km/h for 4-6 hours. Two-horse teams double capacity. Donkeys provide less absolute power but sustain work longer on poorer feed.
 
@@ -82,7 +82,7 @@ Materials listed per 2-horse team per year.
 - Shoeing required every 6-8 weeks — farrier skill takes years to develop
 - Harness sores sideline animals for weeks if not caught immediately
 
-## 4.2 Breeding and Foaling
+## Breeding and Foaling
 
 **Principle**: Mares breed seasonally (spring/summer), with 335-day gestation producing a single foal. Foals reach skeletal maturity at 4-5 years. Breeding management determines the quality and availability of future working stock.
 
@@ -111,7 +111,7 @@ Materials listed per 2-horse team per year.
 - Dystocia (difficult birth) is a life-threatening emergency — veterinary assistance often needed
 - Twin pregnancies in horses rarely produce two surviving foals — manual reduction of one embryo at 14-16 days is standard practice
 
-## 4.3 Shoeing and Hoof Care
+## Shoeing and Hoof Care
 
 **Principle**: Equine hooves grow continuously (6-9 mm/month) and wear on hard surfaces. Domestic working equines need shoes to prevent excessive wear, cracking, and lameness. Shoes are reset every 6-8 weeks.
 
@@ -140,7 +140,7 @@ Materials listed per 2-horse team per year.
 - Shoes wear out: 2-4 sets per year per working horse, each requiring fresh bar stock
 - Neglected shoeing (beyond 8 weeks) causes hoof imbalance, lameness, and long recovery
 
-## 4.4 Training
+## Training
 
 **Principle**: Equines learn through pressure-release and repetition. Training is a multi-year progression from imprint handling at birth to full work capacity at 4-5 years. Rushed training produces dangerous animals.
 

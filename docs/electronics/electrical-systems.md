@@ -48,7 +48,7 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 
 ## Process Description
 
-## 4.1 Wire and Cable Production
+## Wire and Cable Production
 
 **Copper wire drawing**: Copper rod (8 mm diameter, from [electrorefining](../chemistry/electrolysis.md) at 99.99% purity) drawn through a series of progressively smaller tungsten carbide dies. Each die reduces diameter by 20-30%. Drawing speed: 500-2000 m/min. Lubrication: soap solution or oil emulsion. Annealing between passes at 400-600°C to restore ductility (cold drawing work-hardens copper). Final wire diameter: 0.05-10 mm.
 
@@ -74,7 +74,7 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 - PVC insulation releases hydrogen chloride gas when burned (>200°C) — in building fires, burning PVC cable creates corrosive, toxic smoke that damages equipment and threatens life safety
 - Voltage drop limits practical run lengths: at 240V single-phase, a 12 AWG circuit carrying 16A drops 2.6V per 30m (1.1%) — the NEC 3% branch circuit limit is reached at ~82m, requiring larger wire for longer runs
 
-## 4.2 Switches, Contactors, and Relays
+## Switches, Contactors, and Relays
 
 **Manual switches**: Knife switch (bare copper blades hinged into jaw contacts — earliest type, for visible disconnect). Toggle switch (bat-handle actuator, 3-15A at 125-250V AC, 10,000-100,000 cycle life). Rotary switch (multi-position, up to 12 positions, for selection of circuits). Push-button (momentary or maintained contact, 5-10A). Limit switch (actuated by machine motion, 5-15A, IP67 rated when sealed).
 
@@ -92,7 +92,7 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 - Contactors generate audible noise (hum at 50/60 Hz from electromagnetic coil vibration) — in quiet environments (offices, laboratories), the 40-60 dB(A) hum is objectionable and requires special quiet-duty contactors with DC coils
 - Contact bounce on closure (3-10 ms of intermittent contact) creates electrical noise and false triggering in high-speed digital circuits — requires debouncing circuits or software filtering in control systems
 
-## 4.3 Fuses and Circuit Breakers
+## Fuses and Circuit Breakers
 
 **Fuses**: One-time current-interrupting device — melts a calibrated element when current exceeds rating. Types:
 - Cartridge fuse (glass or ceramic tube, 0.25A-600A, 125V-600V). Fast-acting: opens in <1 second at 200% rating. Time-delay (slow-blow): holds 200% for 5-30 seconds (allows motor starting inrush).
@@ -111,7 +111,7 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 - Circuit breaker interrupting time (1-5 cycles for standard MCCBs, 16-83 ms at 60 Hz) is 4-20× slower than HRC fuses — the longer clearing time allows more energy through during a fault, increasing arc-flash incident energy
 - Molded-case breakers lose calibration over time — thermal trip points drift 5-15% after 10-20 years of thermal cycling, requiring periodic testing and eventual replacement
 
-## 4.4 Transformers
+## Transformers
 
 **Principle**: Two coils wound on a shared magnetic core transfer AC power with voltage conversion. V₁/V₂ = N₁/N₂ (voltage ratio equals turns ratio). Power conserved (minus losses): V₁ × I₁ ≈ V₂ × I₂.
 
@@ -131,7 +131,7 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 - Oil-filled transformers above ~500 kVA present fire risk — mineral oil is combustible (flash point 140-160°C), and internal faults can ignite the oil, requiring fire-rated vaults or outdoor pad-mount installations with oil containment
 - Inrush current on energization (10-25× rated current for the first 0.1-0.5 seconds) stresses upstream breakers and can cause nuisance tripping — requires coordination with protective device settings
 
-## 4.5 Power Distribution Systems
+## Power Distribution Systems
 
 **Three-phase power**: Industrial power is distributed as three-phase AC (three conductors carrying sinusoidal voltage 120° apart in phase). Advantages over single-phase: 1.5× more power per conductor, constant instantaneous power (no pulsation), simpler motors (self-starting, no capacitor needed). Standard voltages: 208V, 240V, 480V, 4160V, 13.8 kV, 34.5 kV.
 
@@ -151,7 +151,7 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 - Grounding system effectiveness depends on soil resistivity — rocky or sandy soil may require multiple ground rods, chemical ground enhancement, or ground grids to achieve the <25 Ω target
 - Three-phase systems are susceptible to single-phasing (loss of one phase from fuse blow or broken conductor) — motors continue running on two phases but draw 1.7-2.0× rated current in the remaining phases, causing rapid overheating unless phase-loss protection is installed
 
-## 4.6 Motors and Generators
+## Motors and Generators
 
 **DC motor**: Armature (rotating winding) on shaft, field winding (stationary) on stator frame. Brushes (carbon-graphite, 8-25 mm wide) conduct current to commutator segments (copper, insulated by mica, 1-3 mm wide each). Speed: N = (V - IₐRₐ) / (Kφ). Speed control: vary armature voltage (0-100% rated) or field current (field weakening above base speed gives 2-4× base speed). Typical ratings: 0.5-500 HP, 90-240V or 500V.
 
@@ -169,7 +169,7 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 - DC motor brushes wear at 0.5-2.0 mm per 1000 hours and must be replaced every 2000-5000 hours — brush replacement requires motor shutdown and access to the commutator, creating maintenance burden
 - Generator voltage regulation requires excitation current control — loss of excitation causes terminal voltage collapse and possible motoring (reverse power flow), requiring reverse-power relay protection
 
-## 4.7 Lighting Systems
+## Lighting Systems
 
 **Incandescent lamp**: Tungsten filament (0.02-0.05 mm diameter, 500-1500 mm coiled length) in evacuated glass bulb (or filled with argon-nitrogen gas at 0.5-0.8 atm to reduce evaporation). Filament temperature: 2500-3000K. Luminous efficacy: 8-17 lumens/watt (very inefficient — 80-90% of energy radiated as infrared heat, not visible light). Lifetime: 750-2000 hours (halogen: 2000-4000 hours). Power: 15-1500W. Voltage: 120V or 240V. Glass bulb temperature: 150-300°C. Base types: Edison screw (E26/E27), bayonet (BA15d). Production requires [glass blowing](../glass/basic.md) and tungsten wire drawing.
 

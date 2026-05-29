@@ -65,7 +65,7 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 
 ## Process Description
 
-## 4.1 Polyethylene (LDPE and HDPE)
+## Polyethylene (LDPE and HDPE)
 
 **Principle**: Ethylene (C₂H₄) polymerizes to form long chains of —CH₂—CH₂— units. Two industrial routes produce different chain structures: high-pressure free-radical polymerization creates branched chains (LDPE, flexible, transparent), while low-pressure Ziegler-Natta catalytic polymerization creates linear chains (HDPE, stiff, opaque, higher crystallinity).
 
@@ -114,7 +114,7 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - HDPE: Opaque (not transparent), higher processing temperature required, susceptible to environmental stress cracking in certain grades
 - Both: Flammable (burn like hydrocarbon fuel), poor UV resistance without stabilizers, creep under sustained load
 
-## 4.2 Polyvinyl Chloride (PVC)
+## Polyvinyl Chloride (PVC)
 
 **Principle**: Vinyl chloride monomer (VCM) polymerizes via free-radical suspension polymerization. Water is the continuous phase; VCM droplets (stabilized by suspending agents) polymerize to form porous PVC powder particles (100-150 μm). The resulting polymer is inherently rigid and heat-sensitive — it begins to decompose (releasing HCl) above 200°C, requiring heat stabilizers for processing.
 
@@ -158,7 +158,7 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - VCM is a confirmed human carcinogen (IARC Group 1, causing angiosarcoma of the liver) — monomer handling requires closed systems, continuous air monitoring, and explosion-proof equipment
 - Plasticizer migration — flexible PVC loses plasticizers over time, becoming brittle; phthalate plasticizers (DOP) are endocrine disruptors under regulatory scrutiny
 
-## 4.3 Nylon (Polyamide 6,6)
+## Nylon (Polyamide 6,6)
 
 **Principle**: Nylon 6,6 is formed by melt condensation polymerization of adipic acid (6 carbons) with hexamethylenediamine (6 carbons). The reaction produces amide bonds (—NH—CO—) and water as a byproduct. Removing water drives the equilibrium toward high molecular weight. The polymer has high crystallinity, giving excellent mechanical properties (tensile 70-85 MPa molded, 500-900 MPa as drawn fiber).
 
@@ -202,7 +202,7 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - Requires drying before processing — nylon granules must be dried to <0.2% moisture before melt processing or steam bubbles cause voids and surface defects
 - Limited high-temperature capability — continuous service limited to 80-120°C (dry) or 60-80°C (wet); loses 50% stiffness above Tg (~50°C dry, lower when wet)
 
-## 4.4 PTFE (Teflon)
+## PTFE (Teflon)
 
 **Principle**: Tetrafluoroethylene (TFE) polymerizes to form polytetrafluoroethylene — a fully fluorinated carbon chain (—CF₂—CF₂—)ₙ. The strong C—F bonds and fluorine shielding of the carbon backbone create a chemically inert, thermally stable material with the lowest coefficient of friction of any solid (0.04-0.10). PTFE does not melt-flow — it must be sintered above 327°C or paste-extruded with a lubricant carrier.
 
@@ -244,7 +244,7 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - Creep (cold flow) — PTFE deforms under sustained load even at room temperature; gaskets require reinforcement (filled PTFE with glass or bronze) or design accommodation (full-face gaskets, not line-contact)
 - PTFE fume hazard — overheating above 350°C produces toxic pyrolysis products including PFIB (lethal at low ppm). Sintering at 380°C must use calibrated controllers with high-limit shutoff
 
-## 4.5 Injection Molding
+## Injection Molding
 
 **Principle**: Heat plastic granules to melt temperature (180-320°C depending on polymer), inject under high pressure (50-200 MPa) into a closed steel mold, cool until solid, eject finished part. The highest-volume plastic processing method — over 50% of all thermoplastic products are injection-molded.
 
@@ -286,7 +286,7 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - Long lead time for molds — 4-12 weeks from design to production mold
 - Limited to parts with uniform wall thickness — thick sections require disproportionately long cooling time (cooling scales with wall thickness²); thin-wall design (1-3 mm) is optimal
 
-## 4.6 Extrusion
+## Extrusion
 
 **Principle**: A rotating screw pushes melted plastic through a shaped die, producing a product of constant cross-section indefinitely. The most versatile thermoplastic processing method — pipes, sheets, films, wire insulation, and profiles are all extruded.
 

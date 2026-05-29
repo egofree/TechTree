@@ -123,6 +123,12 @@ This capability covers the *process* of creating, maintaining, and enforcing sta
 | Standards conflict | Different committees standardize overlapping domains without coordination | Central registry of all standards; cross-reference check during development |
 | Standards process too slow | Consensus process deadlocked by competing interests | Time-box discussion periods; escalate unresolved issues to a senior technical authority for binding decision |
 | Non-compliant products in market | No testing or certification infrastructure | Build reference testing laboratory; require certification marks for safety-critical products |
+| Parts from two workshops don't fit together | Different workshops using different (or no) thread/material standards | Distribute current standard documents; send inspector to verify compliance; manufacture go/no-go gauges for verification |
+| Standard documents contradictory | Overlapping standards from different bodies or outdated revision | Cross-reference review committee; mark superseded standards as obsolete; publish consolidated revision |
+| Practitioners ignoring standards | Standards unknown, unavailable, or impractical | Audit workshop practices; distribute quick-reference cards; revise standard if genuinely impractical |
+| Standards lagging behind technology | Revision cycle too slow or no process for proposing changes | Create formal amendment proposal process; fast-track urgent revisions; set maximum 5-year review cycle |
+| Measurement disputes between settlements | Reference standards not calibrated to same master | Establish primary reference standards at central body; issue calibrated secondary standards to settlements; periodic recalibration schedule |
+| Standard documents deteriorating | Poor archival storage or insufficient copies | Print on alkaline paper; distribute copies to multiple libraries; see [Information Durability](information-durability.md) |
 
 ## Safety
 
@@ -212,17 +218,6 @@ A standard that practitioners cannot find or read is useless. Ensure every publi
 - Available in physical copy at every major workshop and library.
 - Summarized in a quick-reference card (single sheet, both sides) for the most commonly referenced standards (thread sizes, material grades, drawing conventions).
 - Taught as part of [Education Pathways](education-pathways.md) so practitioners know standards exist and how to look them up.
-
-## Troubleshooting
-
-| Symptom | Likely Cause | Solution |
-|---|---|---|
-| Parts from two workshops don't fit together | Different workshops using different (or no) thread/material standards | Distribute current standard documents; send inspector to verify compliance; manufacture go/no-go gauges for verification |
-| Standard documents contradictory | Overlapping standards from different bodies or outdated revision | Cross-reference review committee; mark superseded standards as obsolete; publish consolidated revision |
-| Practitioners ignoring standards | Standards unknown, unavailable, or impractical | Audit workshop practices; distribute quick-reference cards; revise standard if genuinely impractical |
-| Standards lagging behind technology | Revision cycle too slow or no process for proposing changes | Create formal amendment proposal process; fast-track urgent revisions; set maximum 5-year review cycle |
-| Measurement disputes between settlements | Reference standards not calibrated to same master | Establish primary reference standards at central body; issue calibrated secondary standards to settlements; periodic recalibration schedule |
-| Standard documents deteriorating | Poor archival storage or insufficient copies | Print on alkaline paper; distribute copies to multiple libraries; see [Information Durability](information-durability.md) |
 
 ## See Also
 

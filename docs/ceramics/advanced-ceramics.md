@@ -65,7 +65,7 @@ The jump from earthenware to technical ceramics requires:
 
 ## Process Description
 
-## 4.1 Alumina (Al₂O₃) Ceramics
+## Alumina (Al₂O₃) Ceramics
 
 #### Principle
 
@@ -140,7 +140,7 @@ Alumina (Al₂O₃, corundum) is the most widely used technical ceramic — hard
 - The Bayer process generates highly alkaline red mud waste (1-2 tonnes per tonne Al₂O₃) — disposal is an ongoing environmental challenge
 - Thermal shock resistance is moderate — rapid temperature changes >200°C can cause cracking
 
-## 4.2 Zirconia (ZrO₂) Ceramics
+## Zirconia (ZrO₂) Ceramics
 
 #### Principle
 
@@ -211,7 +211,7 @@ Zirconia combines extreme temperature resistance (up to 2200°C) with excellent 
 - Sintering shrinkage of 25-35% is higher than alumina — dimensional control is more challenging
 - Dense zirconia cannot be used above ~1000°C in air for structural applications due to grain boundary sliding and creep
 
-## 4.3 Silicon Carbide (SiC)
+## Silicon Carbide (SiC)
 
 #### Principle
 
@@ -292,7 +292,7 @@ Silicon carbide is exceptionally hard (9.5 Mohs), an excellent thermal conductor
 - Reaction-bonded SiC contains 10-15% residual free silicon, which melts at 1414°C, limiting high-temperature use
 - Silicon carbide cannot be used in oxidizing atmospheres above ~1600°C — SiC oxidizes to SiO₂ + CO₂
 
-## 4.4 Silicon Nitride (Si₃N₄)
+## Silicon Nitride (Si₃N₄)
 
 #### Principle
 
@@ -366,7 +366,7 @@ Silicon nitride offers the best combination of high-temperature strength, therma
 - Maximum continuous service temperature in air limited to 1200-1400°C by oxidation (forms SiO₂ surface layer)
 - Hot pressing (HPSN) limited to simple shapes — uniaxial pressing cannot produce complex geometries
 
-## 4.5 Refractory Linings
+## Refractory Linings
 
 #### Principle
 

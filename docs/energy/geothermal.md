@@ -64,7 +64,7 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 
 ## Process Description
 
-## 4.1 Direct-Use Heating
+## Direct-Use Heating
 
 1. **Drill a production well**: Drill into the geothermal reservoir using rotary drilling (tricone bit with drilling mud circulation). Target depth: 100-1,000 m depending on local temperature gradient. Typical gradient: 25-30°C/km in normal areas, 50-100°C/km in active geothermal zones.
 
@@ -111,7 +111,7 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 - Geothermal fluid is often corrosive (H₂S, chlorides) — requires corrosion-resistant materials
 - Scaling (calcite, silica) in wells and heat exchangers requires ongoing chemical treatment
 
-## 4.2 Flash Steam Power Generation
+## Flash Steam Power Generation
 
 1. **Drill deep production wells**: Target depth: 1,000-3,000 m into liquid-dominated geothermal reservoirs at 180-350°C. Well diameter: 200-300 mm. Multiple wells required (5-20 production wells for a 50 MW plant).
 
@@ -159,7 +159,7 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 - Geothermal steam contains corrosive gases (H₂S, CO₂) and dissolved solids that erode turbine blades
 - Reservoir pressure decline over decades requires make-up wells, increasing lifetime cost
 
-## 4.3 Ground-Source Heat Pump
+## Ground-Source Heat Pump
 
 1. **Install ground loop**: Bore vertical holes (50-200 m deep, 100-150 mm diameter) and insert HDPE U-tube loops. For a 10 kW heat pump, install 2-4 boreholes of 100 m depth each. Backfill boreholes with bentonite grout to ensure thermal contact between pipe and surrounding ground and to prevent aquifer cross-contamination. Alternatively, lay horizontal loops in trenches (1.5-2.0 m depth) if land area permits — requires 300-500 m² per 10 kW.
 
@@ -204,7 +204,7 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 
 ## Quantitative Parameters
 
-## 5.1 Temperature Gradient and Well Depth
+## Temperature Gradient and Well Depth
 
 | Resource Type | Gradient (°C/km) | Well Depth (m) | Fluid Temperature (°C) | Application |
 |---------------|-------------------|-----------------|------------------------|-------------|
@@ -213,7 +213,7 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 | Hydrothermal (high) | 60-100+ | 500-3,000 | 150-350 | Flash steam power generation |
 | Magmatic (volcanic) | 100-200+ | 500-2,000 | 250-400+ | Dry steam or supercritical |
 
-## 5.2 Geothermal Power Plant Performance
+## Geothermal Power Plant Performance
 
 | Plant Type | Resource Temp (°C) | Capacity (MW) | Thermal Efficiency (%) | Availability (%) | Cost ($/kW installed) |
 |------------|-------------------|----------------|------------------------|-------------------|----------------------|
@@ -225,7 +225,7 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 
 Dry steam plants (Larderello, The Geysers) use steam directly from the reservoir — rare, occurring where the reservoir is naturally vapor-dominated. Flash plants are the most common type for liquid-dominated reservoirs above 180°C. Binary cycle plants use a secondary working fluid (isobutane, isopentane) boiled by geothermal heat — enabling power generation from lower-temperature resources (100-180°C).
 
-## 5.3 Ground-Source Heat Pump Performance
+## Ground-Source Heat Pump Performance
 
 | Parameter | Value |
 |-----------|-------|

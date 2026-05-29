@@ -35,7 +35,7 @@ This capability also covers cylinder production (seamless steel tube forming), h
 
 ## Process Description
 
-## 4.1 Cylinder Production
+## Cylinder Production
 
 1. **Tube forming**: Heat a steel billet to 1100-1200°C in a gas-fired or induction furnace. Pierce the billet with a mandrel to create a hollow tube. Hot-draw the tube through a series of dies to achieve the target wall thickness (5-8 mm for 200 bar service) and outside diameter (200-230 mm for standard cylinders). The drawing process work-hardens the steel, increasing tensile strength. No welded seams — seamless construction eliminates the weakest point in a pressure vessel.
 2. **Neck forming**: Hot-swell the top end of the tube inward to form the neck (reducing diameter from ~230 mm to ~25 mm for the valve opening). This is done by pressing a shaped mandrel into the heated tube end. Form the shoulder transition with a smooth radius (minimum 3× wall thickness) to avoid stress concentration.
@@ -51,7 +51,7 @@ This capability also covers cylinder production (seamless steel tube forming), h
 - Tube forming requires 1100-1200°C furnace temperature and precision die sets — significant energy and tooling investment
 - Improper heat treatment (wrong temper temperature, uneven quench) leaves residual stresses that cause premature fatigue failure under pressure cycling
 
-## 4.2 Cylinder Inspection and Preparation for Filling
+## Cylinder Inspection and Preparation for Filling
 
 1. **Visual inspection**: Examine every cylinder before filling. Reject cylinders with: visible rust or corrosion (especially at the base where moisture collects), dents deeper than 2 mm, arc burns or fire damage (discolors and weakens steel), cracked or damaged valve threads, illegible markings or expired test date. Mark rejected cylinders "REJECT" and segregate for retesting or scrapping.
 2. **Check hydrostatic test date**: Every cylinder must have a current hydrostatic test (retest interval: 5 years for most steel cylinders, 10 years for certain exemptions). The test date is stamped into the cylinder shoulder. Do not fill a cylinder with an expired test date.
@@ -67,7 +67,7 @@ This capability also covers cylinder production (seamless steel tube forming), h
 - 5-year hydrostatic retest interval means a cylinder with developing fatigue cracks can be in service for years between inspections
 - Visual inspection cannot detect internal corrosion or wall thinning — only hydrostatic testing measures actual material condition
 
-## 4.3 Filling Procedure
+## Filling Procedure
 
 1. **Connect cylinder to fill manifold**: Secure the cylinder in the filling station (chain or clamp to prevent rotation). Connect the fill line to the cylinder valve using the correct CGA fitting. Tighten to the specified torque (typically 30-50 N·m for brass CGA fittings). Do not overtighten — brass threads deform and leak.
 2. **Pressurize in stages**: For high-pressure fills (>50 bar), pressurize in stages to allow the gas and cylinder to equilibrate thermally. Stage 1: fill to 30 bar, pause 2-3 minutes. Stage 2: fill to 80 bar, pause 2-3 minutes. Stage 3: fill to target pressure. Rapid pressurization generates adiabatic heating (gas temperature rises 30-80°C depending on pressure ratio), which causes the fill pressure to read artificially high. When the cylinder cools to ambient temperature, the pressure drops 5-15% below the reading taken during hot fill.
@@ -84,7 +84,7 @@ This capability also covers cylinder production (seamless steel tube forming), h
 - Adiabatic heating during rapid fill causes 30-80°C temperature rise — a cylinder filled to rated pressure while hot will be 5-15% underfilled after cooling
 - Brass CGA fitting threads deform if overtightened (>50 N·m), creating a permanent leak path that requires valve replacement
 
-## 4.4 Hydrostatic Retesting
+## Hydrostatic Retesting
 
 1. Remove the cylinder valve using a valve wrench or powered unscrewing tool.
 2. Fill the cylinder completely with water (no air pockets). Water is incompressible — a failure during hydrostatic testing releases a small volume of water, not the violent energy release of compressed gas.
@@ -149,6 +149,13 @@ This capability also covers cylinder production (seamless steel tube forming), h
 | Cross-threading cylinder valve | Valve inserted at angle or forced | Back off immediately. Inspect threads for damage (galling). If threads are damaged, re-tap or chase threads. If severe, condemn cylinder. |
 | Acetylene cylinder fills too fast | Exceeding maximum withdrawal/fill rate carries acetone out of cylinder | Limit fill and withdrawal rates to 1/7 of cylinder contents per hour. Acetone loss reduces the stabilizing medium for dissolved acetylene. |
 | Frost forming on cylinder during filling | Rapid gas expansion or Joule-Thomson cooling | Reduce fill rate. For CO₂ and some liquefied gases, frost formation during filling is normal; allow the cylinder to warm to ambient before final pressure check. |
+| Fill rate drops, compressor runs hot | Discharge valve leaking or inlet filter clogged | Inspect and replace compressor valves; clean or replace inlet filter |
+| Cylinder won't reach target pressure | Gas supply depleted or cylinder valve not fully open | Verify gas supply pressure; confirm cylinder valve is fully open; check for restrictions in fill line |
+| Cylinder weight off by >2% | Scale calibration drift or residual gas/liquid in cylinder | Recalibrate fill scale; verify cylinder is fully evacuated before filling |
+| Valve stem leak detected (bubble test) | Valve packing worn or stem damaged | Replace valve or repack valve stem; never use a cylinder with a leaking valve |
+| Cylinder neck threads corroded | Moisture ingress or storage in humid environment | Clean threads with wire brush; inspect for thread damage; reject if thread wear exceeds limits |
+| Filled cylinder shows pressure drop over 24h | Micro-leak at valve seat or cylinder wall crack | Re-test with leak detection solution; if wall crack suspected, condemn cylinder immediately |
+| Excessive heating during fill | Fill rate too high for gas type (adiabatic heating) | Reduce fill rate; allow cooling between stages; monitor cylinder wall temperature |
 
 ## Safety
 
@@ -223,18 +230,6 @@ Every cylinder filling station must have the following safety equipment inspecte
 - **Gas detectors**: Combustible gas detector (LEL meter) for flammable gas fill areas. O₂ monitor for areas where asphyxiant gases are handled. Toxic gas detectors specific to gases being filled. Calibrate quarterly.
 - **Emergency shutoff**: Remotely operable valve that shuts off gas supply to the entire fill manifold. Accessible from outside the fill room. Test quarterly.
 - **Blast barrier**: Minimum 6 mm steel plate or 200 mm concrete block wall between the fill station and the operator. The barrier absorbs the energy of a cylinder or valve failure. Inspect annually for cracks or damage.
-
-## Troubleshooting
-
-| Symptom | Likely Cause | Solution |
-|---|---|---|
-| Fill rate drops, compressor runs hot | Discharge valve leaking or inlet filter clogged | Inspect and replace compressor valves; clean or replace inlet filter |
-| Cylinder won't reach target pressure | Gas supply depleted or cylinder valve not fully open | Verify gas supply pressure; confirm cylinder valve is fully open; check for restrictions in fill line |
-| Cylinder weight off by >2% | Scale calibration drift or residual gas/liquid in cylinder | Recalibrate fill scale; verify cylinder is fully evacuated before filling |
-| Valve stem leak detected (bubble test) | Valve packing worn or stem damaged | Replace valve or repack valve stem; never use a cylinder with a leaking valve |
-| Cylinder neck threads corroded | Moisture ingress or storage in humid environment | Clean threads with wire brush; inspect for thread damage; reject if thread wear exceeds limits |
-| Filled cylinder shows pressure drop over 24h | Micro-leak at valve seat or cylinder wall crack | Re-test with leak detection solution; if wall crack suspected, condemn cylinder immediately |
-| Excessive heating during fill | Fill rate too high for gas type (adiabatic heating) | Reduce fill rate; allow cooling between stages; monitor cylinder wall temperature |
 
 ## See Also
 

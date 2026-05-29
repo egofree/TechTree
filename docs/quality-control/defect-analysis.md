@@ -298,7 +298,7 @@ Yield learning is driven by systematic defect reduction: identify the top yield 
 
 RCA is the structured methodology for investigating quality excursions — unexpected yield drops, out-of-control events, or customer returns. RCA goes beyond symptoms to identify the fundamental cause that, when corrected, prevents recurrence.
 
-## 5 Whys Technique
+## Whys Technique
 
 Ask "why?" iteratively to drill from symptom to root cause:
 

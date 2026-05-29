@@ -25,8 +25,6 @@ The boundary with waste management is clear: this document covers converting was
 - [Mining](../mining/index.md) — silica sand source (what recycling replaces)
 - [Energy](../energy/engine.md) — furnace fuel supply
 
-## Prerequisites
-
 ## Materials
 
 | Material | Specification | Source |
@@ -76,7 +74,7 @@ The boundary with waste management is clear: this document covers converting was
 
 ## Process Description
 
-## 4.1 Container Glass Cullet Processing
+## Container Glass Cullet Processing
 
 1. **Collect and transport.** Gather waste glass from curbside collection, drop-off centers, or manufacturing scrap. Transport to processing facility. Glass is heavy and abrasive — use steel-bodied trucks and skip-cars.
 
@@ -94,7 +92,7 @@ The boundary with waste management is clear: this document covers converting was
 
 8. **Size classify.** Screen cullet into size fractions: coarse (25–50 mm), medium (10–25 mm), and fines (<10 mm). Furnaces prefer uniform size for consistent melting. Fines may be used in fiberglass or construction applications.
 
-## 4.2 Flat Glass (Window) Recycling
+## Flat Glass (Window) Recycling
 
 1. **Remove frames and hardware.** Dismantle windows: separate aluminum or wood frames, rubber gaskets, and sealant from the glass pane. Wire brush to remove residual adhesive.
 
@@ -102,7 +100,7 @@ The boundary with waste management is clear: this document covers converting was
 
 3. **Crush and process as cullet.** Follow steps 3–8 of container glass processing. Flat glass produces cleaner cullet than container glass (no food residue, fewer contaminants).
 
-## 4.3 Fiberglass and Specialty Glass Recovery
+## Fiberglass and Specialty Glass Recovery
 
 1. **Collect fiberglass waste.** Manufacturing offcuts, end-of-life fiberglass insulation, and fiberglass-reinforced plastic (FRP) scrap.
 
@@ -165,6 +163,12 @@ Cullet reduces energy because it is already partially reacted — the silicate n
 | Refractory damage from cullet fines | Fine cullet (<5 mm) carries concentrated contaminants and erodes furnace refractories | Remove fines by screening; limit fines content to <10% of cullet |
 | Low cullet recovery rate | Excessive breakage during collection/transport generates fines lost to dust | Use padded collection containers; minimize handling steps |
 | Aluminum contamination causes seeds (bubbles) in glass | Aluminum metal reacts with silica at melt temperature, releasing gas | Improve eddy-current separation; test cullet for Al with spark test |
+| Cullet producing off-color glass | Color contamination — mixed cullet in clear batch | Improve optical sorting; separate by color before crushing; use contaminated cullet for amber/green glass only |
+| Seeds and bubbles in remelted glass | Organic contamination (labels, food residue) | Wash cullet before crushing; burn off organics at 500°C preheat; increase fining time in furnace |
+| Furnace refractory damage from cullet | Ceramic or stone contamination in cullet feed | Install magnetic separation for ferrous; density separation for ceramics; manual pick line for large contaminants |
+| Low cullet recovery rate | Breakage during collection or inadequate sorting | Use separate collection bins for glass; reduce handling steps; train collection crews |
+| Ceramic stones in final product | Heat-resistant ceramic (pyroceram) mixed in cullet | UV fluorescence sorting (ceramic glows differently); X-ray transmission sorting for high-value cullet |
+| Excessive fine particles (<0.5 mm) | Over-crushing or insufficient screening | Adjust crusher gap; add screening step; fines can be used in construction aggregate |
 
 ## Safety
 
@@ -220,17 +224,6 @@ Cullet reduces energy because it is already partially reacted — the silicate n
 - **Mixed glass types** (soda-lime + borosilicate + lead): Different melting points and chemistry prevent co-melting. Separate or downcycle to construction aggregate.
 - **Highly contaminated glass** (embedded in composite materials, painted, laminated): Cost of cleaning exceeds value of recovered glass.
 - **Small volumes** (<1 tonne/day): Manual sorting and small-batch remelting may work, but energy savings are minimal.
-
-## Troubleshooting
-
-| Symptom | Likely Cause | Solution |
-|---|---|---|
-| Cullet producing off-color glass | Color contamination — mixed cullet in clear batch | Improve optical sorting; separate by color before crushing; use contaminated cullet for amber/green glass only |
-| Seeds and bubbles in remelted glass | Organic contamination (labels, food residue) | Wash cullet before crushing; burn off organics at 500°C preheat; increase fining time in furnace |
-| Furnace refractory damage from cullet | Ceramic or stone contamination in cullet feed | Install magnetic separation for ferrous; density separation for ceramics; manual pick line for large contaminants |
-| Low cullet recovery rate | Breakage during collection or inadequate sorting | Use separate collection bins for glass; reduce handling steps; train collection crews |
-| Ceramic stones in final product | Heat-resistant ceramic (pyroceram) mixed in cullet | UV fluorescence sorting (ceramic glows differently); X-ray transmission sorting for high-value cullet |
-| Excessive fine particles (<0.5 mm) | Over-crushing or insufficient screening | Adjust crusher gap; add screening step; fines can be used in construction aggregate |
 
 ## See Also
 

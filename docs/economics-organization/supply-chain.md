@@ -58,7 +58,7 @@ Supply chain coordination is an organizational capability. The "materials" are d
 
 ## Process Description
 
-## 4.1 Mapping the Supply Chain
+## Mapping the Supply Chain
 
 1. **Identify the end product and its bill of materials**: For each product, create a complete BOM listing all inputs, their quantities, and their sources. Example for a blast furnace producing 1 tonne iron/day:
 
@@ -90,7 +90,7 @@ Supply chain coordination is an organizational capability. The "materials" are d
 - Safety stock formula assumes stable lead-time distribution — new suppliers or routes invalidate historical data
 - Map maintenance is ongoing — supply chains change as suppliers and routes evolve; outdated maps are misleading
 
-## 4.2 Procurement Planning
+## Procurement Planning
 
 4. **Establish reorder points**: For each input, define the inventory level that triggers a new procurement order.
 
@@ -110,7 +110,7 @@ Supply chain coordination is an organizational capability. The "materials" are d
 - Purchase order lead time — written orders sent by messenger add 1-3 days to procurement cycle
 - Tracking requires discipline — missed log entries create gaps in delivery history
 
-## 4.3 Inventory Management
+## Inventory Management
 
 7. **Implement first-in-first-out (FIFO)**: Use oldest stock first to prevent spoilage and degradation. Physically organize storage so that incoming stock is placed behind existing stock.
 
@@ -128,7 +128,7 @@ Supply chain coordination is an organizational capability. The "materials" are d
 - Cycle counting assumes accurate records — if base records are wrong, cycle counts perpetuate errors
 - 2% threshold may miss slow, small-scale theft — pilferage below the threshold accumulates over time
 
-## 4.4 Logistics Coordination
+## Logistics Coordination
 
 10. **Schedule transport**: Coordinate material movements to minimize empty return trips and maximize load factors. Target: >70% load factor on all transport movements.
 

@@ -85,7 +85,7 @@ Select the embedded system architecture based on these quantitative criteria:
 3. **Use FPGA + soft processor** when the application requires sub-microsecond deterministic timing, custom high-speed I/O protocols, or parallel processing that exceeds MCU interrupt capacity. Example: multi-channel pulse generation for motor drive, high-speed data acquisition at >1 MS/s with real-time processing.
 4. **Use PLC** when the application is standard industrial control (relay logic, motor starting, sequential operations) and development speed matters more than per-channel cost. Example: factory line sequencing, batch process control.
 
-## 4.1 Microcontroller Selection
+## Microcontroller Selection
 
 1. **Determine processing requirements.** Estimate the computational load:
    - Simple control loop (read sensor, compare, set output): 8-bit MCU at 1-16 MHz.
@@ -108,7 +108,7 @@ Select the embedded system architecture based on these quantitative criteria:
 - MCU selection is constrained by semiconductor fab process capability: a 32-bit ARM Cortex-M4 requires ~90 nm process node (168 MHz, FPU), while an 8-bit AVR needs only ~350 nm (16 MHz, no FPU) — the fab limits what you can build
 - Over-specifying (choosing a 32-bit MCU for an 8-bit task) increases power consumption by 2-5× (15 mA vs 36-90 mA active) and adds PCB complexity (4-layer vs 2-layer, tighter decoupling requirements)
 
-## 4.2 Sensor Interface Design (ADC)
+## Sensor Interface Design (ADC)
 
 1. **Choose the ADC resolution.** Resolution determines the smallest detectable change:
    - 8-bit ADC: 256 levels, 0.39% resolution. Adequate for coarse measurements (battery voltage, temperature ±2°C).
@@ -132,7 +132,7 @@ Select the embedded system architecture based on these quantitative criteria:
 - Signal conditioning circuits (op-amp gain stages, RC filters) add analog components sensitive to temperature drift: ADC accuracy typically drifts 2-5 LSB over the -40°C to +85°C industrial range, requiring two-point calibration if absolute accuracy matters
 - High-resolution ADCs (16-bit, 50 μV LSB) require careful PCB layout: separate analog and digital ground planes, guard rings around input traces, and a stable voltage reference (±0.1% or better) — any of these compromises degrades the effective resolution to 12-14 bits
 
-## 4.3 Actuator Interface Design (DAC and PWM)
+## Actuator Interface Design (DAC and PWM)
 
 1. **Choose the output method.** DAC for precision analog output (motor speed control, valve position). PWM for efficient power control (heater duty cycle, LED brightness, motor speed). Digital output for binary control (relay on/off, solenoid energize/de-energize).
 
@@ -150,7 +150,7 @@ Select the embedded system architecture based on these quantitative criteria:
 - PWM-to-analog conversion via RC filter introduces ripple proportional to the ratio of signal bandwidth to PWM frequency: achieving <5 mV ripple at 3.3V with a 1 kHz signal requires PWM frequency ≥20 kHz and a second-order filter, increasing component count
 - DAC output current is limited to 5-20 mA on most MCU-integrated DACs; any load exceeding this requires an external buffer amplifier from [`electronics.semiconductor-devices`](../electronics/semiconductor-devices.md), adding cost and offset error (1-5 mV typical for unity-gain buffer)
 
-## 4.4 Interrupt Handling
+## Interrupt Handling
 
 1. **Identify interrupt sources.** List every event requiring immediate attention: timer overflow (periodic sampling), ADC conversion complete, UART receive (communication), external pin change (limit switch, emergency stop), watchdog timeout.
 
@@ -172,7 +172,7 @@ Select the embedded system architecture based on these quantitative criteria:
 - Shared variables between ISR and main loop require `volatile` declarations and atomic access; failure to mark a shared variable `volatile` causes the compiler to optimize away reads, producing bugs that only manifest under interrupt timing variations and are difficult to reproduce
 - Nested interrupts on 8-bit MCUs with limited stack depth (ATmega328P: 2 KB SRAM, stack shares with data) can cause stack overflow if three or more ISRs nest deeply — each ISR consumes 20-40 bytes of stack for register save
 
-## 4.5 Watchdog Timer Configuration
+## Watchdog Timer Configuration
 
 1. **Select timeout period.** Must be longer than the longest expected task execution time. For a 10 ms control loop with 3 tasks: set watchdog to 50-100 ms (5-10× the loop period). Too short → spurious resets. Too long → slow fault detection.
 

@@ -58,7 +58,7 @@ This document covers the design and construction of kilns from the simplest eart
 
 ## Process Description
 
-## 4.1 Scove Kiln (Simplest — No Construction Required)
+## Scove Kiln (Simplest — No Construction Required)
 
 #### Principle
 
@@ -120,7 +120,7 @@ The scove kiln is the absolute minimum firing method: stack dried pots in a pyra
 - Maximum temperature limited to 600-800°C — insufficient for stoneware (1200°C) or any metallurgy
 - Cannot fire large or thick-walled pieces — rapid, uneven heating causes catastrophic cracking
 
-## 4.2 Pit Kiln
+## Pit Kiln
 
 #### Principle
 
@@ -180,7 +180,7 @@ A pit dug into the ground provides better insulation and more uniform heat distr
 - Pit fills with rainwater if not covered between firings
 - No precise temperature control — firing results are variable between batches
 
-## 4.3 Updraft Kiln (First Purpose-Built Kiln)
+## Updraft Kiln (First Purpose-Built Kiln)
 
 #### Principle
 
@@ -257,7 +257,7 @@ The updraft kiln is the simplest permanent kiln design: hot gases rise directly 
 - Heat loss through the top flue is significant — 60-70% of heat escapes in the exhaust
 - Manual fuel stoking requires continuous attention for 4-8 hours during firing
 
-## 4.4 Downdraft Kiln (Higher Temperature, Uniform Firing)
+## Downdraft Kiln (Higher Temperature, Uniform Firing)
 
 #### Principle
 
@@ -325,7 +325,7 @@ The downdraft design achieves higher temperatures and more uniform heat distribu
 - More complex to load — ware must be arranged to allow gas flow downward through the chamber
 - Larger thermal mass requires longer heat-up and cool-down times (12-24 hours each) compared to smaller updraft kilns
 
-## 4.5 Climbing Kiln (Anagama / Dragon Kiln)
+## Climbing Kiln (Anagama / Dragon Kiln)
 
 #### Principle
 
@@ -388,7 +388,7 @@ Built on hillside slopes, climbing kilns exploit natural draft for fuel efficien
 - Massive thermal mass means very long cooling time (3-7 days) — cannot turn around quickly
 - Temperature gradient along the length means ware must be matched to position: less-refined ware in cooler lower chambers, glazed ware in hotter upper chambers
 
-## 4.6 Tunnel Kiln (Continuous Firing — Industrial Scale)
+## Tunnel Kiln (Continuous Firing — Industrial Scale)
 
 #### Principle
 

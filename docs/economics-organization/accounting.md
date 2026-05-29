@@ -52,7 +52,7 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 
 ## Process Description
 
-## 4.1 Setting Up an Accounting System
+## Setting Up an Accounting System
 
 1. **Define the unit of account**: Choose a standard value unit. If [currency](./currency.md) exists, use the monetary unit (e.g., "copper coins"). If not, use a commodity reference (e.g., "kg grain equivalent"). All transactions are recorded in this unit.
 
@@ -69,7 +69,7 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 
 **Decision criteria**: Use single-entry (cash book) when transaction volume is <50/month and the community has <50 regular trading partners. Switch to double-entry when any of these thresholds is exceeded, or when error rates in single-entry exceed 3% per 100 entries.
 
-## 4.2 Recording Transactions
+## Recording Transactions
 
 4. **Record each transaction in real-time**: Do not batch — record as transactions occur. For each trade, purchase, or production input consumed:
    - Identify the two accounts affected (e.g., "Inventory" and "Cash")
@@ -90,7 +90,7 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 - Time overhead — every transaction recorded twice doubles recording time vs single-entry
 - No fraud prevention — colluding bookkeepers can create balanced but fictitious entries
 
-## 4.3 Periodic Reporting
+## Periodic Reporting
 
 7. **Close the books monthly**: Sum each account's balance. Calculate key metrics:
    - Total inventory value

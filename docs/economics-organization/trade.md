@@ -52,7 +52,7 @@ Trade is an organizational capability. Physical inputs are minimal:
 
 ## Process Description
 
-## 4.1 Establishing a Barter System
+## Establishing a Barter System
 
 1. **Survey local surpluses and deficits**: Catalog what each specialist or community produces in surplus and what they need. A copper-producing village has surplus metal but needs grain; an agricultural village has surplus grain but needs tools.
 
@@ -76,7 +76,7 @@ Trade is an organizational capability. Physical inputs are minimal:
 - Grain-reference pricing depends on stable grain supply — crop failure destabilizes the entire price system
 - Credit requires trust and enforcement — defaults destroy the credit system if not addressed
 
-## 4.2 Scaling to Multi-Party Trade
+## Scaling to Multi-Party Trade
 
 6. **Identify trade intermediaries**: Some individuals naturally facilitate exchange — they know who has what and who needs what. Encourage these individuals to act as brokers. Brokers take a small commission (5-10% of trade value) in goods.
 
@@ -94,7 +94,7 @@ Trade is an organizational capability. Physical inputs are minimal:
 - Trade routes are vulnerable to banditry and conflict — armed escort increases transport cost
 - Fairs are seasonal — goods needed between fairs must be stockpiled, increasing storage costs
 
-## 4.3 Trade Record-Keeping
+## Trade Record-Keeping
 
 9. **Standardize measures**: Use agreed-upon volume and weight units for trade. A "bushel" of grain, a "talent" of copper, a "cubit" of cloth. These standards reduce disputes. Link to [precision metrology](../measurement/precision-metrology.md) for standardized weights.
 

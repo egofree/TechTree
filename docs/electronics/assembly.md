@@ -52,7 +52,7 @@ Electronics assembly encompasses PCB fabrication, component placement, soldering
 
 ## Process Description
 
-## 4.1 PCB Fabrication (Single-Sided)
+## PCB Fabrication (Single-Sided)
 
 Printed circuit boards (PCBs) provide the interconnection substrate for all electronic assemblies. The most basic PCB is a single-sided copper-clad laminate with etched traces.
 
@@ -88,7 +88,7 @@ Printed circuit boards (PCBs) provide the interconnection substrate for all elec
 - Plated through-hole reliability is temperature-cycle limited: Z-axis CTE mismatch (50-70 ppm/°C for FR-4 vs. 17 ppm/°C for copper) causes barrel cracking after 1000-5000 thermal cycles (-40 to +125°C)
 - Minimum 6-8 wet processing steps between bare laminate and tested board — each step is a yield loss opportunity, and total process time is 4-8 hours per panel even in automated production
 
-## 4.2 Soldering (Through-Hole and Surface Mount)
+## Soldering (Through-Hole and Surface Mount)
 
 **Solder alloys**: Sn63/Pb37 eutectic melts at 183°C (traditional). Lead-free: SAC305 (Sn96.5/Ag3.0/Cu0.5, melts 217-220°C), Sn99.3/Cu0.7 (melts 227°C). High-temperature: Sn95/Ag5 (221-240°C), Au80/Sn20 (280°C, for die attach).
 
@@ -124,7 +124,7 @@ Printed circuit boards (PCBs) provide the interconnection substrate for all elec
 - BGA (ball grid array) joints are hidden under the component body and cannot be inspected visually — X-ray inspection (20-160 kV, 10-100 μm resolution) is required, adding $50K-$200K equipment cost
 - Tombstoning (one end of a chip component lifts during reflow) occurs at 100-1000 ppm rates when pad design is asymmetric or reflow profile has uneven heating — requires careful design-for-manufacturing review
 
-## 4.3 Conformal Coating
+## Conformal Coating
 
 Protective coating on assembled PCBs against moisture, dust, chemicals, and fungus. Applied by spray, dip, or selective dispensing at 0.025-0.075 mm dry thickness.
 
@@ -142,7 +142,7 @@ Cure: air dry (24-48 hours acrylic), thermal (60-80°C, 30-60 min epoxy), UV (10
 - Masking connectors, test points, and adjustable components before coating and unmasking after adds 15-30 minutes of labor per board — the masking step is often the production bottleneck
 - Silicone and epoxy coatings are extremely difficult to remove for rework — require abrasive abrasion or chemical strippers that risk damaging nearby components
 
-## 4.4 Wire and Cable Assembly
+## Wire and Cable Assembly
 
 **Hookup wire**: Stranded tinned copper (7-65 strands, 0.08-0.32 mm) with PVC or PTFE insulation, 22-16 AWG (0.3-1.3 mm²). Rated 300-600V. Temperature: -20 to 80°C (PVC), -60 to 200°C (PTFE). Strip 5-8 mm with wire strippers (not knife — nicks cause breakage).
 
@@ -160,7 +160,7 @@ Cure: air dry (24-48 hours acrylic), thermal (60-80°C, 30-60 min epoxy), UV (10
 - Improper stripping (nicks from using a knife instead of calibrated strippers) reduces wire cross-section and creates fatigue failure points — a single strand break in a 7-strand wire reduces current capacity by 14%
 - PVC insulation releases hydrogen chloride gas when overheated (>200°C) — in confined spaces, this creates a corrosive, toxic atmosphere
 
-## 4.5 IC Packaging
+## IC Packaging
 
 Semiconductor die must be packaged for handling, electrical connection, and environmental protection.
 
@@ -190,7 +190,7 @@ Semiconductor die must be packaged for handling, electrical connection, and envi
 - Mold compound popcorning: moisture absorbed by the epoxy molding compound (0.1-0.3% by weight) vaporizes during reflow soldering, causing internal delamination or cracking — requires MSL-controlled storage and pre-bake at 125°C for 5-48 hours before assembly
 - BGA solder joints cannot be visually inspected — requires X-ray equipment ($50K-$200K) to detect voids, bridges, and insufficient solder under the component body
 
-## 4.6 Testing and Quality Control
+## Testing and Quality Control
 
 **In-circuit test (ICT)**: Bed-of-nails fixture probes every net. Measures component values (R, C, L, diode Vf). Test time: 10-60 seconds. Fault coverage: 85-95%. Detects wrong values, missing components, shorts, opens.
 

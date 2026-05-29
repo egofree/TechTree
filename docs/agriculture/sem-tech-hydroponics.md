@@ -83,7 +83,7 @@ Position in the dependency chain: SEM Tech hydroponics requires [SEM Tech membra
 
 ## Process Description
 
-## 4.1 Membrane Fabrication
+## Membrane Fabrication
 
 Follow the SEM Tech membrane manufacturing process (see [SEM Tech](../chemistry/sem-tech.md) for full details).
 
@@ -103,7 +103,7 @@ Follow the SEM Tech membrane manufacturing process (see [SEM Tech](../chemistry/
 - Organic solvents (THF, MEK, cyclohexanone) are required — these may not be available until [organic chemical synthesis](../chemistry/index.md) is established
 - Membrane quality depends on uniform resin-binder mixing — poor mixing produces areas of variable ion transport
 
-## 4.2 ED Stack Assembly
+## ED Stack Assembly
 
 1. **Prepare spacer gaskets**: Cut PVC or CPVC sheet into rectangular frames that define the flow channels. Each frame has an open center (the active membrane area) and holes at opposite ends for inlet/outlet manifolds. Prepare two types: diluate spacers and concentrate spacers, differing only in manifold hole placement.
 2. **Assemble the stack**: On a flat surface, build up the stack in this repeating sequence from anode to cathode:
@@ -129,7 +129,7 @@ Follow the SEM Tech membrane manufacturing process (see [SEM Tech](../chemistry/
 - PVC cement fumes are toxic — assembly must be done in a well-ventilated area
 - Compression must be even across the entire stack — overtightening tears membranes, undertightening causes leaks
 
-## 4.3 System Operation
+## System Operation
 
 1. **Calibrate sensors**: Calibrate pH probe using standard buffer solutions (pH 4.0, 7.0, 10.0). Calibrate EC sensor using standard KCl solution. Set target thresholds: pH 5.8-6.2 (or crop-specific range), EC 1.5-3.0 mS/cm (or crop-specific target).
 2. **Start the side-stream pump**: Begin circulating nutrient solution through the ED stack at 5-20 L/min. Check all connections for leaks. Verify flow through both diluate and concentrate channels.
@@ -152,7 +152,7 @@ Follow the SEM Tech membrane manufacturing process (see [SEM Tech](../chemistry/
 - Organic fouling from root exudates increases membrane resistance 10-40% over 30-60 days, requiring regular CIP cleaning
 - Membrane replacement every 6-12 months — each replacement requires 2-4 hours of disassembly, casting, and reassembly
 
-## 4.4 pH Stabilization
+## pH Stabilization
 
 pH drift in hydroponics results from differential ion uptake. Plants absorbing more cations than anions release H⁺, lowering pH. Conversely, excess anion uptake releases HCO₃⁻/OH⁻, raising pH.
 
@@ -172,7 +172,7 @@ This replaces conventional pH correction (manual addition of phosphoric acid or 
 - pH sensor accuracy limits system precision — sensor drift of ±0.1 pH units equals the entire control band
 - Power outage during pH correction allows drift to continue uncontrolled until power returns
 
-## 4.5 Nutrient Ion Management
+## Nutrient Ion Management
 
 In a recirculating hydroponic system, plants selectively absorb ions at different rates. Nitrogen is consumed rapidly; calcium and sulfate accumulate. Over time, the solution drifts from its target composition. Electromembrane-based management addresses this by:
 - **Selective ion removal**: An ED stack can extract excess ions (accumulated Ca²⁺, SO₄²⁻, Na⁺) from the nutrient solution, restoring balance without full replacement.

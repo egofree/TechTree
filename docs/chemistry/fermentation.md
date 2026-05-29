@@ -8,7 +8,17 @@
 > **Outputs**: ethanol, acetone, butanol, acetic_acid, methanol
 > **Critical**: No — fermentation provides solvents and fuels at early development stages but is superseded by petrochemical routes
 
-### Ethanol Production
+## Problem
+
+Fermentation converts sugars and starches into alcohols, solvents, and organic acids using microorganisms. Before petrochemical infrastructure exists, fermentation is the primary route to ethanol (fuel and solvent), acetone, butanol, acetic acid, and methanol. The process requires controlling temperature, pH, nutrient supply, and contamination to maintain microbial cultures that perform specific chemical transformations. Industrial-scale fermentation demands vessels of 10,000-100,000 liters with temperature control, agitation, and sterile operation.
+
+## Prerequisites
+
+- [Food & Agriculture](../foundations/food-agriculture.md) — grain and sugar feedstocks
+- [Distillation](distillation.md) — product recovery from fermentation broth
+- [Solvents](solvents.md) — downstream solvent purification
+
+## Ethanol Production
 
 **Feedstocks**: Grain (barley, wheat, corn — starch → sugar via malt enzymes), sugar cane/beets (direct sugar), fruit (sugars), potatoes (starch). Starch must be converted to sugar first (malting/sprouting grain produces amylase enzymes that break starch into maltose).
 
@@ -222,14 +232,25 @@ Aspergillus niger produces citric acid as a metabolic overflow product when grow
 
 **Process water requirements**: Fermentation water must be free of heavy metals (Fe <0.1 mg/L, Cu <0.01 mg/L, Zn <0.1 mg/L) that inhibit microbial growth, and free of chlorine (residual Cl₂ <0.1 mg/L, which kills microorganisms on contact). For large-scale operations, municipal water is typically treated by: (1) activated carbon filtration (removes chlorine and organics), (2) softening (removes Ca²⁺ and Mg²⁺ that can precipitate with media components), (3) deionization or reverse osmosis if needed for pharmaceutical-grade fermentations. Water quality is tested weekly for microbial count (<100 CFU/mL) and quarterly for heavy metals.
 
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Fermentation stalled (no CO₂ production) | Temperature too low or yeast nutrient exhausted | Raise temperature to 25-30°C; add yeast nutrient (diammonium phosphate); check sugar concentration |
+| Contamination (off-flavors, slime) | Wild bacteria or mold outcompeting culture | Sterilize vessel and medium; pitch active yeast at higher rate; lower pH to 4.0-4.5 (bacteria-sensitive range) |
+| Low ethanol yield | Incomplete sugar conversion or excessive temperature | Monitor specific gravity to confirm fermentation complete; keep below 35°C (yeast stress threshold); ensure adequate yeast pitching rate |
+| Stuck fermentation (stops early) | High sugar osmotic pressure or ethanol toxicity | Dilute initial sugar concentration; use alcohol-tolerant yeast strain; step-feed sugar incrementally |
+| Vinegar production instead of ethanol | Acetobacter contamination introducing oxygen | Eliminate air exposure during fermentation; use airlock; maintain anaerobic conditions |
+| Slow solid-state fermentation | Poor aeration or temperature gradient in substrate bed | Increase aeration rate; reduce bed depth; install temperature probes at multiple depths |
+
 ## See Also
 
-- **[Solvents](solvents.md)**: Ethanol, methanol, and butanol production via fermentation
-- **[Petroleum Alternatives](petroleum-alternatives.md)**: Biochemical routes to organic chemicals
-- **[Soap](soap.md)**: Glycerol byproduct from saponification, also produced by fermentation
-- **[SEM Tech](sem-tech.md)**: Membrane-based separation for fermentation product recovery
-- **[Distillation](distillation.md)**: Ethanol recovery from fermentation broth
+- [Solvents](solvents.md) — ethanol, methanol, and butanol production via fermentation
+- [Petroleum Alternatives](petroleum-alternatives.md) — biochemical routes to organic chemicals
+- [Soap](soap.md) — glycerol byproduct from saponification, also produced by fermentation
+- [SEM Tech](sem-tech.md) — membrane-based separation for fermentation product recovery
+- [Distillation](distillation.md) — ethanol recovery from fermentation broth
+- [Brewing](../food-processing/brewing.md) — beverage-scale fermentation
+- [Food Preservation](../food-processing/preservation.md) — fermentation as preservation method
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+[← Back to Chemistry](index.md)

@@ -39,7 +39,7 @@ The design process starts with demand analysis (flow rates and pressures at each
 
 ## 4. Process Description
 
-### 4.1 System Design
+## 4.1 System Design
 
 1. **Demand analysis**: For each point of use, determine the required gas flow rate (L/min or m³/h at standard conditions), required delivery pressure (bar or kPa), required gas purity grade, and whether the gas is flammable, toxic, corrosive, or inert. Tabulate all demands in a gas utility schedule.
 2. **Pipe sizing**: For each pipe segment, calculate the required inside diameter using the Darcy-Weisbach equation or a simplified gas pipe sizing chart. Target a pressure drop of less than 10% of the supply pressure from source to the farthest point of use. Larger diameter pipe reduces pressure drop but increases material cost. Standard practice: use the smallest pipe diameter that keeps velocity below 10 m/s and pressure drop within budget.
@@ -54,7 +54,7 @@ The design process starts with demand analysis (flow rates and pressures at each
 - Each gas species requires dedicated piping — a fab with 20 gases needs 20 independent distribution networks, multiplying installation cost
 - Dead legs and low spots are inevitable in complex routing — they trap stagnant gas and condensate, requiring drain points and careful slope design
 
-### 4.2 Pipe Fabrication and Installation
+## 4.2 Pipe Fabrication and Installation
 
 1. **Cutting**: Cut pipe to length with a pipe cutter (rotary cutting wheel for copper and thin-wall steel) or a band saw (for thick-wall steel). Deburr the cut end inside and out — burrs create turbulence, restrict flow, and generate particles. For stainless steel, use a dedicated cutting tool (not one previously used on carbon steel) to prevent iron contamination of the stainless surface (free iron particles rust and contaminate the gas stream).
 2. **Jointing — threaded connections (carbon steel, <50 bar)**: Cut external threads on the pipe end with a pipe threading machine (dies cut tapered NPT threads, 1:16 taper). Apply PTFE tape (2-3 wraps clockwise looking at the threaded end) or pipe thread sealant to the male threads. Thread the fitting onto the pipe and tighten 1-2 turns past hand-tight. NPT threads seal by deformation — do not overtighten or the fitting may crack. Maximum reliable pressure: ~20 bar for steel, ~10 bar for brass. NPT is not acceptable for toxic gas service or semiconductor-grade gas distribution.
@@ -71,7 +71,7 @@ The design process starts with demand analysis (flow rates and pressures at each
 - NPT threaded connections are limited to ~20 bar (steel) and are not acceptable for toxic gas or semiconductor-grade service — seal quality depends on PTFE tape installation technique
 - Butt weld root pass requires argon purge on the pipe inside to prevent oxidation ("sugar") — missed purge produces black oxide that contaminates the gas stream
 
-### 4.3 Pressure Testing
+## 4.3 Pressure Testing
 
 1. **Hydrostatic test**: After installation and before insulation, pressure-test the completed piping system with water at 1.5× the maximum allowable working pressure (MAWP). Fill the system with water from the lowest point, venting air from the highest point (air pockets compress during testing and mask leaks). Hold test pressure for 30 minutes minimum. Inspect all joints visually for leaks (wipe joints with a dry cloth and check for moisture). Any leak requires draining, repair, and retest.
 2. **Pneumatic test (when hydrostatic is impractical)**: If the system cannot be dried after water exposure (e.g., instrument air, high-purity gas), test with nitrogen or dry air at 1.1× MAWP. This is less safe than hydrostatic testing — a pneumatic failure releases stored energy. Exclude personnel from the test area during pressurization. Use soap solution or ultrasonic leak detector to find leaks.
@@ -85,7 +85,7 @@ The design process starts with demand analysis (flow rates and pressures at each
 - Pneumatic testing at 1.1× MAWP stores enormous energy — a 100 m run of 25 mm pipe at 200 bar contains ~10 MJ, equivalent to 2.4 kg TNT
 - Hydrostatic testing leaves residual moisture requiring dry nitrogen purge before introducing moisture-sensitive gases
 
-### 4.4 Purging and Commissioning
+## 4.4 Purging and Commissioning
 
 1. **Degreasing**: Before introducing process gas, degrease the piping system if oil or grease may be present from fabrication. Fill the system with a degreasing solvent (trisodium phosphate solution, or commercial degreaser) and circulate for 30 minutes. Drain and flush with clean water. Blow dry with oil-free nitrogen.
 2. **Inert gas purge**: Connect a nitrogen source to one end of the piping system and open the far end to atmosphere. Flow nitrogen through the system at a rate that achieves 3-5 volume changes (one volume change = flowing a volume of nitrogen equal to the internal volume of the piping). For a 100 m run of 25 mm ID pipe (internal volume ~49 L), flow nitrogen at 50 L/min for 5 minutes (≈5 volume changes). Verify O₂ content at the outlet with an oxygen monitor — must be below 1% before introducing flammable gas, or below 100 ppm for high-purity inert gas service.
@@ -101,7 +101,7 @@ The design process starts with demand analysis (flow rates and pressures at each
 
 ## 5. Quantitative Parameters
 
-### Pipe Sizing — Maximum Flow Rates for Gas Service (m³/h at STP)
+## Pipe Sizing — Maximum Flow Rates for Gas Service (m³/h at STP)
 
 | Nominal Bore | Schedule 40 Steel | Max Velocity 10 m/s | Pressure Drop per 100 m at 7 bar |
 |--------------|-------------------|---------------------|----------------------------------|
@@ -114,7 +114,7 @@ The design process starts with demand analysis (flow rates and pressures at each
 | 80 mm (3") | 88.9 mm OD, 4.78 mm wall | 190 m³/h | 0.01 bar |
 | 100 mm (4") | 114.3 mm OD, 5.49 mm wall | 320 m³/h | 0.01 bar |
 
-### Pressure Ratings by Material and Joint Type
+## Pressure Ratings by Material and Joint Type
 
 | Material | Joint Type | Max Working Pressure | Max Temperature | Typical Service |
 |----------|-----------|---------------------|-----------------|-----------------|
@@ -184,7 +184,7 @@ The design process starts with demand analysis (flow rates and pressures at each
 
 **Modular gas panels**: Instead of field-fabricated piping runs, factory-assembled gas panels (also called gas boxes or valve manifold boxes, VMBs) provide a pre-tested, pre-leak-checked gas distribution module. Each panel serves one or a few process tools and includes isolation valves, pressure regulators, flash-back arrestors (for flammable gases), purge valves, and exhaust connections. Factory assembly in a clean environment produces higher-quality systems faster than field fabrication. Install the panel as a module, connect the inlet gas supply and outlet to the tool, leak-test the field connections, and commission.
 
-### Pipe Support Spacing and Thermal Expansion
+## Pipe Support Spacing and Thermal Expansion
 
 Steel and stainless steel piping expands approximately 12 mm per 10 m per 100°C temperature rise. For a 100 m steam line operating at 200°C above ambient, total expansion is 240 mm. This expansion must be accommodated by expansion loops, bellows, or flexible connections.
 
@@ -199,7 +199,7 @@ Steel and stainless steel piping expands approximately 12 mm per 10 m per 100°C
 | 80 mm (3") | 3.8 | 4.8 | 4.0 |
 | 100 mm (4") | 4.5 | 5.5 | 4.8 |
 
-### Piping System Labeling Requirements
+## Piping System Labeling Requirements
 
 Every gas piping system must be labeled at regular intervals and at each valve, branch, and penetration point. Labels identify:
 - Gas name and chemical formula (e.g., "NITROGEN — N₂")
@@ -209,7 +209,7 @@ Every gas piping system must be labeled at regular intervals and at each valve, 
 
 Label spacing: at minimum every 6 m on straight runs, at each room entry/exit, at each valve, and at each branch connection. Labels must be legible from 1 m distance. Use engraved plastic or stamped metal tags secured with wire or adhesive. Piping labels are the primary means of preventing accidental cross-connection during maintenance.
 
-### Commissioning Checklist for Gas Piping Systems
+## Commissioning Checklist for Gas Piping Systems
 
 1. Verify all pipe material certificates (MTRs) match design specification
 2. Verify all weld inspection reports (radiographic or visual) are approved

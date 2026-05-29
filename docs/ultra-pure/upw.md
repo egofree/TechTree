@@ -6,9 +6,7 @@
 > **Enables**: [High-Purity Chemicals](high-purity-chemicals.md), [Analytical Verification](analytical-verification.md)
 > **Timeline**: Years 40-70
 > **Outputs**: ultra_pure_water
-> **Tags**: materials=[water, chemicals], era=semiconductor
-
-## Overview
+> **Tags**: materials=[water, chemicals], era=semiconductor, critical
 
 Ultra-pure water (UPW) is the single most consumed material in semiconductor fabrication — a typical wafer fab uses 5-10 million liters per day. UPW must achieve **18.2 MΩ·cm resistivity** at 25°C (theoretical maximum for pure water), with total organic carbon (TOC) below 1 ppb, dissolved oxygen below 5 ppb, particles smaller than 0.05 μm removed, and metallic impurities at sub-ppt concentrations. A single 0.1 μm particle on a wafer can destroy an entire die at advanced nodes.
 
@@ -226,14 +224,23 @@ Continuous inline monitoring is essential for UPW quality assurance. The system 
 - **Water consumption**: Even with 70-80% reclamation, a large fab still consumes 1-2 million liters per day of fresh feed water. In water-scarce regions, this is a significant operational constraint.
 - **Microbial control**: Bacteria grow even in 18.2 MΩ·cm water (oligotrophic organisms). Continuous UV, ozone, or hot water sanitization is mandatory. Biofilm removal once established requires aggressive chemical cleaning.
 
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Resistivity below 18.2 MΩ·cm | Ion exchange resin exhausted or RO membrane fouled | Regenerate or replace mixed-bed resin; clean or replace RO membranes; check for upstream treatment failure |
+| TOC excursions above 1 ppb | Organic leaching from piping or biofilm growth | Sanitize distribution loop with hot water (80°C) or ozone; replace leaching PVC with PVDF; check UV lamp output |
+| Particle count spikes | Membrane breach or corrosion in distribution system | Integrity-test all UF/RO membranes; inspect piping for corrosion; verify point-of-use filter integrity |
+| Dissolved oxygen above 5 ppb | Membrane degasser failure or air ingress | Check membrane contactor vacuum; inspect all seals for air leaks; verify nitrogen purge gas supply |
+| Bacteria detected in product water | Biofilm in dead legs or insufficient sanitization | Eliminate dead legs (no pipe runs >6× diameter without flow); hot water sanitize at 80°C for 2 hours; increase UV dose |
+| Resistivity drops at point of use but not at system outlet | Contamination pickup in distribution piping | Flush loop; replace aging piping sections; verify all connections are sanitary (no threaded fittings) |
+
 ## See Also
 
 - [High-Purity Chemicals](high-purity-chemicals.md) — 9N+ chemical purification for semiconductor processing
 - [Analytical Verification](analytical-verification.md) — PPT-level analysis and contamination detection
 - [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md) — ED desalination for brackish water
-- [Cleanrooms](../photolithography/cleanrooms.md) — Contamination-controlled environments for wafer processing
-- [Solvents](../chemistry/solvents.md) — Industrial solvent production (predecessor to electronic-grade)
+- [Cleanrooms](../photolithography/cleanrooms.md) — contamination-controlled environments for wafer processing
+- [Solvents](../chemistry/solvents.md) — industrial solvent production (predecessor to electronic-grade)
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) | [Ultra-Pure Materials](./index.md) | [All Domains](../index.md)*
+[← Back to Ultra-Pure Materials](index.md)

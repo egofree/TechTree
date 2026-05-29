@@ -8,7 +8,19 @@
 > **Outputs**: prepared_fibers
 > **Critical**: No
 
-### Fiber Sources
+## Problem
+
+Fiber preparation transforms raw plant stems, animal fleece, and silk cocoons into clean, organized fibers ready for spinning into yarn. Each fiber source requires different processing: flax and hemp need retting, breaking, and hackling; wool requires washing, carding, and combing; cotton needs ginning; silk demands reeling from cocoons. The quality of the prepared fiber directly determines the quality of the final textile — poorly retted flax produces weak linen, inadequately scoured wool causes uneven dyeing.
+
+## Prerequisites
+
+- [Animal Materials](../animals/animal-materials.md) — wool, hair, and silk sources
+- [Sheep](../animals/sheep.md), [Goats](../animals/goats.md), [Rabbits](../animals/rabbits.md), [Camelids](../animals/camelids.md) — fiber animal husbandry
+- [Fiber Plants](../plants/fiber-plants.md) — plant fiber cultivation (flax, hemp, cotton)
+- [Basic Tools](../foundations/tools-basic.md) — hand tools for processing
+- [Spinning](spinning.md) — the next step after fiber preparation
+
+## Fiber Sources
 
 **Flax (linen)**:
 - **Cultivation**: Annual plant, ~1 m tall. Sow in spring, harvest ~100 days later when stalks yellow at bottom third. Pull entire plant (don't cut — longer fibers from root end). Plant density affects fiber quality: dense sowing (150-200 kg seed/hectare) produces thin stalks with fine fiber; sparse sowing produces coarse fiber but more seed yield.
@@ -224,6 +236,24 @@ Proper storage prevents fiber degradation before processing:
 - **Flax and hemp line fiber**: Store in dry, well-ventilated conditions. Line fibers (long, combed) are bundled into stricks (twisted hanks, 200-400 g each) and packed in burlap sacks. Tow (short fibers) is baled. Bast fibers are less vulnerable to insects than wool but will mildew if stored damp.
 - **Silk**: Store raw silk in dry, dark conditions. Sunlight degrades silk fibroin (UV breaks peptide bonds), causing yellowing and progressive weakening. Moths also attack silk. Acid-free tissue paper wrapping for fine silk hanks. Degummed silk is more vulnerable than raw silk because the sericin coating provides some UV and abrasion protection.
 
----
+## Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Flax fibers breaking short during hackling | Over-retted — pectin degraded too far | Reduce retting time; check daily after day 5; use dew-retting for slower, more controllable process |
+| Wool fibers felting during scouring | Water too hot or excessive agitation | Keep wash water below 50°C; move wool gently, never wring; use multiple gentle rinses |
+| Cotton still containing seeds after ginning | Gin rollers worn or gap too wide | Adjust roller gap; sharpen or replace gin saws; pass cotton through gin twice |
+| Hemp fibers too coarse for cloth | Insufficient retting or skipped fine hackle | Extend retting time; add fine hackling stage; separate tow from line fiber |
+| Silk threads breaking during reeling | Cocoons stored too long or degummed unevenly | Use fresh cocoons; adjust reeling water temperature to 60-70°C; reduce reeling speed |
+| Stored wool moth-damaged | Inadequate pest deterrents or damp storage | Add cedar/lavender/neem; ensure storage is dry; inspect every 3 months; freeze infested wool 48h |
+
+## See Also
+
+- [Spinning](spinning.md) — converting prepared fibers into yarn
+- [Weaving](weaving.md) — weaving yarn into cloth
+- [Dyeing](dyeing.md) — dyeing prepared fibers and yarn
+- [Rope Making](rope-making.md) — rope from bast fibers and hemp
+- [Fiber Plants](../plants/fiber-plants.md) — plant fiber cultivation
+- [Animal Materials](../animals/animal-materials.md) — wool and silk production
+
+[← Back to Textiles](index.md)

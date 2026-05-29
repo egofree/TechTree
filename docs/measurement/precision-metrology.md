@@ -8,7 +8,6 @@
 > **Outputs**: length_standards, mass_standards, timekeeping, precision_instruments, calibration_chain, electrical_standards
 > **Critical**: No — measurement improves quality but civilization can function without precision instruments
 
-## Problem
 
 Precision manufacturing (Machine Tools) and all semiconductor work requires consistent, calibrated measurement. Without standardized units and measuring instruments, interchangeable parts and repeatable processes are impossible. A machinist who cannot verify dimensions to ±0.01 mm cannot produce interchangeable parts. A semiconductor fab without calibrated flow meters and temperature sensors cannot control a process window.
 

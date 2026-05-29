@@ -8,7 +8,6 @@
 > **Outputs**: combinational_circuits, sequential_circuits, state_machines, programmable_logic
 > **Critical**: Yes — all digital hardware from microcontrollers to GPUs requires systematic logic design
 
-## Problem
 
 Logic design is the engineering discipline of transforming Boolean algebra into physical circuits that perform computation. Where [`computing.digital-logic`](digital-logic.md) covers the physics of individual gates and arithmetic units at the transistor level, logic design addresses the system-level problem: how to organize thousands to billions of gates into correct, timing-compliant, testable digital systems.
 

@@ -8,7 +8,6 @@
 > **Outputs**: steel slab, plate, sheet, bar, structural shapes, aluminum profiles, forgings
 > **Critical**: Yes — primary forming produces the stock shapes (plate, bar, structural sections) that ALL downstream manufacturing depends on; without rolling and forging, metal remains locked in ingot form
 
-## Problem
 
 Smelting produces metal in ingot or liquid form — unusable for construction, manufacturing, or machinery. Primary forming converts raw metal into the stock shapes civilization actually needs: plate for ships and pressure vessels, sheet for automotive bodies and appliances, bar for machined components, structural sections for buildings and bridges, wire for electrical conductors and fasteners, forgings for high-integrity mechanical parts. Every piece of steel or aluminum in use passed through a primary forming operation.
 

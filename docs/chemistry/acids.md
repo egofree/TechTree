@@ -253,7 +253,7 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 
 ## Other Acid Types
 
-#### Aqua Regia
+### Aqua Regia
 
 A mixture of concentrated nitric acid and hydrochloric acid (typically 1:3 by volume HNO₃:HCl). The only common reagent that dissolves gold and platinum group metals. Critical for precious metal refining and electrorefining anode slime processing.
 
@@ -263,7 +263,7 @@ A mixture of concentrated nitric acid and hydrochloric acid (typically 1:3 by vo
 
 **Applications**: Dissolving gold from electronic scrap, recovering platinum from catalytic converters, processing anode slime from copper electrorefining. After dissolution, gold is recovered by precipitation with ferrous sulfate (FeSO₄) or sodium metabisulfite (Na₂S₂O₅), or by solvent extraction with dibutyl carbitol.
 
-#### Phosphoric Acid
+### Phosphoric Acid
 
 Phosphoric acid (H₃PO₄) bridges mineral acid production to fertilizer chemistry. Two production routes of very different complexity.
 

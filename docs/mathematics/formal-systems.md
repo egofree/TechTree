@@ -8,7 +8,6 @@
 > **Outputs**: boolean_algebra, information_theory, formal_languages, automata_theory
 > **Critical**: Yes — mathematics is the shared language of quantitative reasoning for all engineering
 
-## Problem
 
 Physical engineering — building furnaces, machining parts, generating electricity — relies on continuous mathematics (calculus, differential equations). But a different class of problems demands discrete, logical reasoning: How do you design a circuit that computes "turn on the motor when the start button is pressed AND the safety guard is closed AND NOT the emergency stop"? How do you transmit a message over a noisy channel and recover it perfectly? How do you specify precisely what a computing machine should do, and prove it does it? Formal systems provide the mathematical foundations for digital logic, communication systems, and computation itself — the theoretical underpinning of the information age.
 

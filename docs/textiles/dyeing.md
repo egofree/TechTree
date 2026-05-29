@@ -8,7 +8,6 @@
 > **Outputs**: dyed_cloth
 > **Critical**: No
 
-## Problem
 
 Dyeing transforms undyed cloth and yarn into colored textiles using natural pigments extracted from plants, minerals, and insects. Color-fast results depend on proper mordanting (fixing dye to fiber), the right dye plants for the target hue, and careful control of bath temperature, pH, and duration. Protein fibers (wool, silk) take dye far more readily than cellulose fibers (linen, cotton) — a critical distinction that shapes the entire dyeing workflow.
 

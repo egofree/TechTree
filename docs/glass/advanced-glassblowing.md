@@ -8,7 +8,6 @@
 > **Outputs**: scientific_glassware, thermometer_tubes, vacuum_enclosures, complex_laboratory_apparatus
 > **Critical**: Yes — precision glass apparatus (thermometers, condensers, vacuum vessels) enables experimental chemistry, physics, and semiconductor manufacturing
 
-## Problem
 
 Basic glass production makes windows, bottles, and simple vessels. But scientific and industrial civilization requires precision glass apparatus — thermometers, distillation columns, vacuum-tight enclosures, optical lenses, and laboratory vessels that survive thermal cycling. These cannot be formed by blowing into a pipe or pressing into a mold. They require borosilicate glass (3× more thermally shock-resistant than soda-lime), lathe-assisted forming for symmetry, and controlled annealing for stress relief. Without precision glassware, there is no experimental chemistry, no temperature measurement beyond crude estimation, no vacuum technology, and no optics beyond simple magnifying glasses.
 

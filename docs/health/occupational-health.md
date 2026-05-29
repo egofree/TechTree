@@ -8,7 +8,6 @@
 > **Outputs**: hazard_controls, exposure_monitoring, protective_equipment, safety_protocols
 > **Critical**: No — reduces chronic illness and disability but production can proceed at higher human cost without formal occupational health programs
 
-## Problem
 
 Industrial processes generate hazards: toxic fumes from smelting, silica dust from mining and glassmaking, noise from forging and machining, chemical exposures from acid production and electroplating, radiation from welding and X-ray sources. Without systematic hazard identification and control, workers suffer chronic illness, disability, and premature death. Occupational health practice applies a control hierarchy (eliminate, substitute, engineer, administrate, protect) to reduce exposures to safe levels. This page covers the specific hazards encountered in bootstrapping an industrial civilization and the control measures for each.
 

@@ -7,7 +7,6 @@
 > **Timeline**: Years 30-70
 > **Outputs**: emergency_procedures, spill_response, evacuation_plans, first_aid_protocols, emergency_equipment
 
-## Problem
 
 Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas leaks that ignite spontaneously, toxic hydride gas releases at concentrations measured in parts per billion, hydrofluoric acid exposures that cause systemic poisoning through skin absorption, and mixed-chemical fires producing toxic combustion products. Standard industrial emergency response is insufficient — a firefighter applying water to a silane fire could spread the burning gas; a first responder entering an arsine release without SCBA becomes a victim within minutes. This document defines emergency response procedures specific to semiconductor chemical hazards.
 

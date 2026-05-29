@@ -8,7 +8,6 @@
 > **Outputs**: spectroscopy, refractometry, polarimetry, photometry, interferometry
 > **Critical**: No — measurement improves quality but civilization can function without precision instruments
 
-## Problem
 
 Chemical analysis, material identification, and dimensional metrology at sub-micrometer precision all depend on optical instruments that measure how light interacts with matter. Spectroscopy identifies elements by their emission and absorption fingerprints. Refractometry quantifies solution concentration. Interferometry measures length to nanometer resolution. Without these instruments, semiconductor process control is guesswork.
 

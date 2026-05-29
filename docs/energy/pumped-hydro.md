@@ -8,7 +8,6 @@
 > **Outputs**: grid_storage, peak_shaving, frequency_regulation
 > **Critical**: No — pumped hydro is the most efficient large-scale storage technology but is geographically limited to sites with suitable elevation difference
 
-## Problem
 
 Pumped hydroelectric storage is the oldest and most proven large-scale energy storage technology: pump water uphill when electricity is cheap, release it through turbines when demand peaks. Round-trip efficiency of 70-85% and 50-100+ year operational lifetime make it the benchmark against which all other storage technologies are measured. The challenge is finding suitable geography — two reservoirs separated by 100-1000+ meters of elevation — and building the massive civil engineering infrastructure required.
 

@@ -8,7 +8,6 @@
 > **Outputs**: thermocouples, temperature_measurement, electrical_measurement, pressure_measurement
 > **Critical**: No — measurement improves quality but civilization can function without precision instruments
 
-## Problem
 
 Semiconductor manufacturing demands precise thermal control: crystal growth furnaces (1400-1500°C ±0.5°C), diffusion furnaces (800-1200°C ±0.1°C), CVD reactors (300-1100°C), and epitaxial deposition (1050-1200°C). Pressure control is equally critical — vacuum systems for sputtering (10⁻³ to 10⁻⁶ mbar), LPCVD (0.2-2 mbar), and photolithography exposure tools. Without accurate temperature and pressure sensing, process repeatability is impossible.
 

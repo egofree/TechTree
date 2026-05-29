@@ -8,7 +8,6 @@
 > **Outputs**: tantalum sputtering targets, TaN/Ta diffusion barriers, cobalt silicide contacts, Co CMP slurries, ITO sputtering targets, InGaAs wafers, indium bump bonds
 > **Critical**: No — essential for advanced semiconductor nodes but not required for basic civilization infrastructure
 
-## Problem
 
 Modern GPU manufacturing requires three specialty metals that no other materials can replace. Tantalum forms the copper diffusion barrier (TaN/Ta liner) that prevents Cu from poisoning silicon devices — without it, copper interconnects kill transistors within hours. Cobalt silicide (CoSi₂) provides the lowest-resistance self-aligned contacts at sub-7 nm nodes, and cobalt-based CMP slurries planarize copper interconnects. Indium tin oxide (ITO) is the dominant transparent conductor for displays and touchscreens, while InGaAs enables high-speed photonics for optical interconnects. You can pattern features lithographically but cannot build functional contacts, barriers, or optical interfaces without these three metals.
 

@@ -8,7 +8,6 @@
 > **Outputs**: cast_iron_parts, cast_aluminum_parts, sand_molds, cast_bronze_parts
 > **Critical**: Yes — casting is the only practical method for producing complex 3D metal parts before machining exists; every machine tool starts as a casting (beds, frames, housings, gear blanks)
 
-## Problem
 
 Casting is step zero of the machine tool bootstrap. Every machine tool starts as a sand-cast iron or aluminum casting — machine beds, column frames, bearing housings, gear blanks, pulleys, and slideway bases all begin as molten metal poured into shaped cavities. Casting is the only practical method for producing complex three-dimensional metal parts before machining capability exists.
 

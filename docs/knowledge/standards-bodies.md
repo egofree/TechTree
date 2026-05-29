@@ -8,7 +8,6 @@
 > **Outputs**: technical_standards, measurement_standards, quality_standards, interoperability_specifications
 > **Critical**: Yes — without agreed standards, every workshop produces incompatible parts, measurement systems diverge, and inter-settlement trade in manufactured goods collapses
 
-## Problem
 
 Standards bodies are the organizational mechanisms by which a civilization agrees on common specifications: screw thread profiles, material grades, electrical voltages, paper sizes, drawing conventions, and measurement units. The need emerges as soon as two workshops must produce interchangeable parts, or two settlements must trade goods with agreed-upon quality. Standards prevent the fragmentation of effort that occurs when each practitioner invents their own system.
 

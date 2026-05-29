@@ -8,7 +8,6 @@
 > **Outputs**: submarine_cable_capacity, intercontinental_communication
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival
 
-## Problem
 
 Submarine telegraph cables were the first global communications infrastructure, connecting continents across ocean floors. The technical challenges were immense: maintaining electrical insulation under 4-8 km of seawater pressure, protecting the conductor from mechanical damage during laying and over decades of service, and amplifying signals through thousands of ohms of cable resistance and microfarads of capacitance. The first successful transatlantic cable (1866) reduced information transit time between Europe and North America from 10 days (fast steamship) to minutes — a compression factor of ~10,000.
 

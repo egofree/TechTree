@@ -8,7 +8,6 @@
 > **Outputs**: pig_iron, gray_cast_iron, white_cast_iron, malleable_iron, sand_castings
 > **Critical**: Yes — blast furnace iron is the feedstock for all steelmaking; no path to steel without it
 
-## Problem
 
 The blast furnace is the key advancement from bloomery smelting. Where a bloomery reduces iron ore below its melting point (producing solid bloom that must be consolidated), the blast furnace achieves temperatures high enough to fully melt the iron, producing liquid pig iron that can be cast directly. This is the critical transition from wrought iron to cast iron production. Without liquid iron, there is no path to steelmaking at scale.
 

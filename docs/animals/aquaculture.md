@@ -8,7 +8,6 @@
 > **Outputs**: fish, shellfish, fish_oil, dried_fish, smoked_fish, fish_sauce, fish_guano
 > **Critical**: Yes — highest protein conversion efficiency of any animal production system
 
-## Problem
 
 Aquaculture converts water surfaces into protein production systems. Fish convert feed to body mass at ratios of 1.2-2.0:1 (kg feed per kg gain), far more efficient than any land livestock. A 1000 m² pond stocked with carp can produce 200-600 kg of fish per year on minimal supplemental feeding, yielding protein that requires no pasture, no fencing, and no winter housing.
 
@@ -23,7 +22,7 @@ The practice splits into freshwater pond farming (the primary focus here) and co
 
 ## Pond Construction
 
-#### Site Selection
+### Site Selection
 
 Choose ground with natural clay subsoil if available, as this eliminates the need to import lining material. Test by digging a 50 cm test pit, filling it with water, and checking seepage over 24 hours. Loss under 1 cm/day indicates adequate natural sealing. Valley floors, natural depressions, and areas downslope of springs are ideal. Avoid sandy or gravelly soils, which drain too fast to hold water without extensive lining.
 
@@ -33,7 +32,7 @@ Water source options, ranked by reliability:
 2. **Stream diversion**: Reliable where streams flow year-round. Requires a diversion channel (30-50 cm wide, 20-30 cm deep) with a simple sluice gate (wooden plank sliding in timber grooves) to control inflow.
 3. **Rainwater catchment**: Feasible in regions with 800+ mm annual rainfall. Pond captures direct precipitation plus runoff from a catchment area 5-10 times the pond surface.
 
-#### Digging and Lining
+### Digging and Lining
 
 Pond dimensions for subsistence production: 500-2000 m² surface area. Depth 1.5-3 m, with the deepest point at the drain end. Slope the bottom at 1-2% grade toward the outlet. Shallow margins (0.3-0.5 m depth) around the edge warm faster in spring, stimulating plankton growth and providing spawning habitat.
 
@@ -41,7 +40,7 @@ Pond dimensions for subsistence production: 500-2000 m² surface area. Depth 1.5
 
 **Embankments**: Build from excavated soil, compacted in layers. Crest width 1-2 m for foot access. Freeboard (height above maximum water level) of 30-50 cm prevents wave overtopping in wind. Side slopes no steeper than 1:2 (vertical:horizontal) on the water side to prevent slumping. Grass the outer slopes immediately to prevent erosion.
 
-#### Water Control
+### Water Control
 
 **Drain pipe**: Install at the lowest point before filling. Clay or wooden pipe, 10-15 cm diameter, set through the embankment with puddled clay sealing around the outside. A wooden plug or sluice board controls outflow. The drain allows complete emptying for harvest and pond maintenance, which should happen annually.
 
@@ -51,7 +50,7 @@ Pond dimensions for subsistence production: 500-2000 m² surface area. Depth 1.5
 
 ## Fish Species
 
-#### Carp (*Cyprinus carpio*)
+### Carp (*Cyprinus carpio*)
 
 The universal aquaculture fish. Tolerates turbid water, low oxygen (down to 3 mg/L), and temperatures from 4-35°C. Optimal growth at 15-25°C. Omnivorous: consumes plankton, insects, detritus, aquatic plants, and supplemental feed.
 
@@ -59,13 +58,13 @@ Mature weight 2-5 kg in ponds. Growth rate 2-3 kg/year with supplemental feeding
 
 Carp tolerate crowding better than most species and thrive on low-cost feeds, making them the first choice for subsistence ponds in temperate and subtropical climates.
 
-#### Tilapia (*Oreochromis* spp.)
+### Tilapia (*Oreochromis* spp.)
 
 The best tropical aquaculture fish. Optimal growth at 25-30°C; stops feeding below 15°C; dies below 10°C. This limits tilapia to warm climates or heated water, but where conditions suit them, they outperform carp on plant-based feeds.
 
 Mature weight 0.5-2 kg. Growth rate 0.5-1 kg/year with supplemental feeding. Herbivorous: feeds on algae, duckweed, aquatic plants, and agricultural byproducts. Breeds prolifically in ponds (mouthbrooding; female carries fertilized eggs in her mouth for 10-14 days). This makes maintaining breeding populations trivial but can lead to overpopulation and stunting if not managed by regular harvesting of small fish.
 
-#### Trout (*Oncorhynchus mykiss*)
+### Trout (*Oncorhynchus mykiss*)
 
 Cold-water species requiring clean, well-oxygenated water (dissolved oxygen above 6 mg/L, temperature 10-15°C). Not suitable for warm, stagnant ponds. Requires flowing water: spring-fed channels, raceways, or cold streams.
 
@@ -73,7 +72,7 @@ Mature weight 0.5-3 kg. Carnivorous: needs animal protein (insects, fish meal, b
 
 Trutch farming is harder than carp or tilapia but produces high-value fish in regions where cold spring water is abundant and warm-water species cannot grow.
 
-#### Catfish (*Silurus glanis* and related species)
+### Catfish (*Silurus glanis* and related species)
 
 Hardy bottom-dwellers tolerant of turbid, low-oxygen water (down to 2-3 mg/L due to accessory breathing organs in many species). Temperature range 20-25°C optimal, but many species survive 4-30°C.
 
@@ -81,7 +80,7 @@ Mature weight 2-10 kg, faster growing than carp in warm water. Omnivorous scaven
 
 ## Stocking and Feeding
 
-#### Stocking
+### Stocking
 
 Source fingerlings (5-15 cm length, 10-50 g weight) from wild catch using fine-mesh seine nets in streams and natural ponds, or from dedicated breeding ponds. A breeding pond of 200-500 m² with 20-30 adult carp produces enough fingerlings annually to stock 2-4 production ponds.
 
@@ -93,7 +92,7 @@ Source fingerlings (5-15 cm length, 10-50 g weight) from wild catch using fine-m
 
 Acclimate fingerlings to pond water temperature before release. Float the transport container in the pond for 30 minutes to equalize temperature, then gradually mix pond water into the container over another 30 minutes before releasing.
 
-#### Feeding
+### Feeding
 
 Supplemental feed boosts production 3-5x over unfertilized ponds. Feed sources ranked by cost and availability:
 
@@ -105,7 +104,7 @@ Supplemental feed boosts production 3-5x over unfertilized ponds. Feed sources r
 
 **Feeding rate**: 2-5% of total fish body weight per day, split into 2-3 feedings. Reduce or suspend feeding when water temperature drops below 10°C (fish metabolism slows and uneaten feed degrades water quality). Observe feeding behavior: if fish stop consuming within 15-20 minutes, reduce the ration.
 
-#### Pond Fertilization
+### Pond Fertilization
 
 Adding manure to the pond stimulates plankton blooms that form the base of the aquatic food chain. Fish do not eat manure directly; they eat the plankton, insects, and detritus that the manure supports.
 
@@ -115,7 +114,7 @@ Monitor water color: a healthy fertilized pond has a green tint (plankton bloom)
 
 ## Net and Trap Making
 
-#### Cast Nets
+### Cast Nets
 
 Circular nets thrown by hand to envelop fish. Diameter 2-4 m for one-person use. Mesh size 1-2 cm (smaller mesh catches smaller fish; 1.5 cm is a good general-purpose size).
 
@@ -125,19 +124,19 @@ Circular nets thrown by hand to envelop fish. Diameter 2-4 m for one-person use.
 
 **Throwing technique**: Gather the net on one arm, grip the center ring in the teeth, and throw with a rotating arm motion that opens the net into a circle. Takes practice; expect 50-100 throws to learn.
 
-#### Gill Nets
+### Gill Nets
 
 Wall-like nets that fish swim into, catching by the gills as they attempt to pass through. Length 25-50 m, depth 1-1.5 m. Mesh size determines catch: 5 cm mesh for 0.5-1 kg fish, 8 cm for 2-4 kg fish, 12 cm for 5+ kg fish.
 
 Set gill nets across channels, at pond outlets, or suspended between stakes in open water. Fish swim into the net at night or in turbid conditions. Check twice daily; trapped fish die and spoil in warm water within 6-12 hours.
 
-#### Seine Nets
+### Seine Nets
 
 Long nets dragged through the water to encircle fish. Length 10-30 m, depth 1.5-2.5 m, with floats along the top (cork, gourd, or sealed bamboo segments) and sinkers along the bottom. Requires 2-3 people to operate: two to pull the ends and one to manage the accumulation of fish in the center.
 
 Seining is the most efficient method for harvesting a pond completely. Draw the net from one end of the pond to the other, concentrating fish into a shrinking area. Use for annual harvest or partial harvests to thin stunted populations.
 
-#### Lines and Hooks
+### Lines and Hooks
 
 **Line making**: Twist linen or cotton thread into 2-4 ply for fishing line. Linen is stronger and more rot-resistant than cotton. For heavier line (large fish), use 6-8 ply or braided construction. Test breaking strength by hanging weights: 5 kg test is adequate for most pond fish, 10-15 kg for large catfish.
 
@@ -147,7 +146,7 @@ Seining is the most efficient method for harvesting a pond completely. Draw the 
 
 Fresh fish spoils within 6-12 hours at 25-30°C. Processing extends shelf life from days to months.
 
-#### Sun Drying
+### Sun Drying
 
 Split fish along the backbone, remove guts and gills, and open flat (butterfly cut). Rub with salt if available (reduces insect damage and speeds drying). Lay on racks of woven reeds or wooden slats, skin side down. Elevate racks 50-80 cm off the ground for air circulation.
 
@@ -155,7 +154,7 @@ Drying time: 3-5 days in hot sun with low humidity. Fish is fully dried when it 
 
 Storage: Bundle dried fish and keep in a dry, ventilated place. Properly dried fish keeps 3-6 months. Reconstitute by soaking in water for 30-60 minutes before cooking.
 
-#### Smoking
+### Smoking
 
 Smoking deposits antimicrobial compounds from wood smoke onto the fish surface while simultaneously drying it.
 
@@ -165,7 +164,7 @@ Smoking deposits antimicrobial compounds from wood smoke onto the fish surface w
 
 Best smoking woods: hardwoods (oak, hickory, beech, alder). Avoid resinous softwoods (pine, spruce), which deposit bitter-tasting tars.
 
-#### Salting
+### Salting
 
 Salt preserves fish by drawing out moisture and creating a hypertonic environment that bacteria cannot tolerate.
 
@@ -173,7 +172,7 @@ Salt preserves fish by drawing out moisture and creating a hypertonic environmen
 
 **Brine salting**: Submerge fish in saturated brine (250-300 g salt per liter of water) for 24-72 hours, then dry or smoke. Faster than dry salting but produces a less concentrated cure.
 
-#### Fermentation
+### Fermentation
 
 **Fish sauce**: Layer small fish (or fish scraps) with salt at a ratio of 3-4:1 fish to salt by weight (20-30% salt by total weight). Pack into earthenware jars or wooden barrels. Weigh down with a stone to submerge. Ferment in a warm place for 6-12 months. Liquid drawn off is fish sauce: rich in amino acids and umami flavor. The remaining paste can be used as a condiment or fertilizer.
 
@@ -181,7 +180,7 @@ Fish sauce production requires large quantities of salt but preserves protein in
 
 ## Shellfish Harvesting
 
-#### Oyster Cultivation
+### Oyster Cultivation
 
 Oysters grow in intertidal and shallow subtidal zones along temperate and subtropical coasts. Cultivation begins with spat (larval oyster) collection.
 
@@ -191,7 +190,7 @@ Oysters grow in intertidal and shallow subtidal zones along temperate and subtro
 
 **Harvest**: Collect at low tide by hand or with a short rake. Open with a knife. Eat fresh, or smoke, dry, or pickle for storage.
 
-#### Mussel Cultivation
+### Mussel Cultivation
 
 Mussels settle on any firm surface in the intertidal zone. Cultivation uses ropes or poles.
 
@@ -199,7 +198,7 @@ Mussels settle on any firm surface in the intertidal zone. Cultivation uses rope
 
 **Pole culture (bouchot method)**: Wrap mussel spat onto vertical wooden poles set into the intertidal zone. Mesh netting holds them in place until they attach by byssal threads. Harvest by scraping poles at low tide.
 
-#### Clam Beds
+### Clam Beds
 
 Seed clams in sandy or muddy intertidal areas. Mark beds with stakes. Clams grow by filter feeding, requiring no input. Growth to harvest size (5-8 cm) takes 1.5-3 years depending on species and conditions. Harvest by digging with a fork or rake at low tide.
 

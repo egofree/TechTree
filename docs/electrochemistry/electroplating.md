@@ -8,7 +8,6 @@
 > **Outputs**: copper_interconnects, plated_nickel, plated_gold, plated_tin, copper_filled_vias
 > **Critical**: Yes — copper damascene electroplating is the only practical method to fill high-aspect-ratio interconnect features below 250 nm
 
-## Problem
 
 Semiconductor interconnects — the microscopic copper wiring that connects transistors on a chip — require void-free metal fill in trenches and vias as narrow as 25 nm with aspect ratios up to 10:1. Physical vapor deposition (PVD) and chemical vapor deposition (CVD) cannot achieve conformal coverage in these deep, narrow features: sputtered atoms have limited step coverage, and CVD precursors have sticking coefficients that prevent bottom-up fill. Electroplating solves this through additive-controlled deposition kinetics — suppressor molecules dominate on flat surfaces while accelerator molecules concentrate at feature bottoms, creating bottom-up fill that packs copper into sub-50 nm trenches without voids. No other deposition method achieves this.
 

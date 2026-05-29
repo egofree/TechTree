@@ -8,7 +8,6 @@
 > **Outputs**: arithmetic, algebra, geometry, trigonometry, number_systems
 > **Critical**: Yes — mathematics is the shared language of quantitative reasoning for all engineering
 
-## Problem
 
 Every engineering discipline — from surveying a road to calculating stress in a beam to designing a feedback controller — rests on mathematical foundations. Without a systematic number system, engineers cannot specify dimensions. Without algebra, they cannot solve for unknown quantities. Without geometry and trigonometry, they cannot lay out structures or navigate. Core mathematics provides the shared language of quantitative reasoning that all subsequent technical work requires. This capability covers the mathematical tools that become available from the earliest counting through to the trigonometry and algebra needed for industrial-age engineering.
 

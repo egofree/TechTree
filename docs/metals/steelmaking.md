@@ -8,7 +8,6 @@
 > **Outputs**: steel billets, slabs, blooms, flat products, long products
 > **Critical**: Yes — steel is the structural material of industrial civilization; no modern manufacturing without it
 
-## Problem
 
 Steelmaking is the refining of pig iron — 3.5-4.5% carbon, 1-3% silicon, 0.5-1.5% manganese, plus sulfur and phosphorus — into steel containing 0.02-1.5% carbon with tightly controlled residual elements. The fundamental chemistry is oxidation: dissolved carbon, silicon, manganese, and phosphorus are oxidized by blowing oxygen through or over the molten metal. The oxidized impurities either escape as gas (CO, CO₂) or partition into a basic slag (SiO₂, MnO, P₂O₅ as calcium compounds). Modern steelmaking produces ~1.9 billion tonnes annually, split between basic oxygen furnaces (~70%) and electric arc furnaces (~30%).
 

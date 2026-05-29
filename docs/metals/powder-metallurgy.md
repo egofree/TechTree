@@ -8,7 +8,6 @@
 > **Outputs**: tungsten products, cemented carbides, PM structural parts, MIM components, additive manufactured parts
 > **Critical**: Yes — tungsten filaments, cemented carbide tooling, and specialty alloys cannot be produced any other way
 
-## Problem
 
 Powder metallurgy (PM) encompasses all processes that form metal components from powdered feedstock rather than molten metal. This distinction is critical because many important metals — tungsten (mp 3422°C), molybdenum (mp 2623°C), tantalum (mp 3017°C) — have melting points so extreme that conventional casting is impractical or impossible. PM also enables near-net-shape manufacturing with minimal material waste (95-98% material utilization vs. 50-70% for machining from billet), compositional freedom (immiscible alloys, graded structures), and microstructural control impossible in ingot metallurgy.
 

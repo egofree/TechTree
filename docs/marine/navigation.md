@@ -8,7 +8,6 @@
 > **Outputs**: navigation instruments, nautical charts, position fixing
 > **Critical**: No — specialized maritime capability, not required for land-based civilization
 
-## Problem
 
 Crossing open ocean beyond sight of land requires knowing your position (latitude and longitude) and your heading. Without navigation, a vessel is lost as soon as land disappears over the horizon — unable to reach a destination, unable to return home, and at the mercy of winds and currents. Latitude can be determined from the sun or pole star with simple instruments, but longitude requires an accurate clock (chronometer) or complex lunar observations. The challenge is building instruments and knowledge systems precise enough to fix position within miles across thousands of miles of featureless ocean — getting it wrong by even 1° means being 60 nautical miles off course, which in coastal waters means shipwreck.
 

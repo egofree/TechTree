@@ -8,7 +8,6 @@
 > **Outputs**: respiratory_protection, chemical_suits, glove_selection, eye_protection, ppe_programs
 > **Critical**: No — basic improvised protection enables hazardous work; formal PPE programs dramatically reduce injury rates but are not a prerequisite for civilization-level capabilities
 
-## Problem
 
 Semiconductor fabrication exposes workers to hydrofluoric acid, pyrophoric silane, toxic hydride gases, strong oxidizers, and organic solvents — often simultaneously in the same work area. PPE selection for semiconductor manufacturing must account for multiple hazard types, chemical compatibility with specific process chemicals, cleanroom compatibility (low particle generation), and the potential for rapid escalation (a silane leak can flash to fire within seconds). This document defines PPE requirements specific to semiconductor fab operations, supplementing the general PPE guidance in [Occupational Health](../health/occupational-health.md).
 

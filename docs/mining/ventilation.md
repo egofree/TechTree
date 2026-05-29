@@ -8,7 +8,6 @@
 > **Outputs**: breathable_air, methane_control, dust_suppression
 > **Critical**: No
 
-## Problem
 
 Every underground opening consumes oxygen and produces contaminants. Miners breathe (consumes ~0.25 L/min of O₂ per person at rest, ~2-3 L/min during heavy labor). Blasting generates carbon monoxide, nitrogen oxides, and sulfur dioxide. Diesel equipment emits CO, NOₓ, and particulates. Ground releases radon and methane. Without forced air exchange, an active heading becomes lethal within 30-60 minutes.
 

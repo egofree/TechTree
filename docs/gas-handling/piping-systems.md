@@ -8,7 +8,6 @@
 > **Outputs**: gas_piping, distribution_manifolds, leak_tested_systems
 > **Critical**: No — basic piping from gas-handling.basic covers the same function at lower scale
 
-## Problem
 
 Gas distribution piping systems deliver process gases from a central supply (cylinder manifold, bulk tank, or gas generator) to multiple points of use throughout a facility. While [Basic Gas Handling](basic.md) covers individual piping connections and fittings, this capability addresses the system-level design, installation, testing, and commissioning of complete gas distribution networks — from the gas supply room to the process tool connection points.
 

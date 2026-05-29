@@ -8,7 +8,6 @@
 > **Outputs**: coinage, standardized_units_of_account, price_signals
 > **Critical**: No
 
-## Problem
 
 Currency is a standardized medium of exchange that solves the fundamental limitation of [barter](./trade.md): the double-coincidence problem. Instead of requiring two parties who simultaneously want each other's goods, currency introduces a universally accepted intermediary — money — that any party will accept because they know they can use it to buy what they need later.
 

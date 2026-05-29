@@ -8,7 +8,6 @@
 > **Outputs**: gasoline, kerosene, diesel, lubricating_oil, benzene, phenol, ethanol, acetone, methanol, producer_gas
 > **Critical**: No — petroleum alternatives provide chemical feedstocks but individual capabilities depend on specific downstream processes
 
-## Problem
 
 Organic chemistry feedstocks fuel the entire materials chain: solvents for semiconductor processing, polymers for packaging and cleanrooms, fuels for transport and furnaces. Without them, the chemical industry stalls at inorganic bulk chemicals. The good news is that there are two independent paths to these molecules. Petroleum is the fast lane; coal tar and fermentation are the reliable fallback.
 

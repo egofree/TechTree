@@ -7,7 +7,6 @@
 > **Timeline**: Years 30-70
 > **Outputs**: acid_waste_treatment, solvent_recovery, heavy_metal_precipitation, effluent_monitoring
 
-## Problem
 
 Semiconductor manufacturing generates complex waste streams that differ fundamentally from general industrial waste: hydrofluoric acid waste containing dissolved silicon and fluoride ions, heavy metal waste from metallization processes (copper, aluminum, tungsten), mixed acid waste from etching and cleaning, solvent waste from photoresist processing, and toxic gas scrubber blowdown containing arsenic and phosphorus compounds. These waste streams cannot be discharged to municipal sewer systems without treatment — fluoride must be reduced from thousands of ppm to <10 ppm, heavy metals must be precipitated to <1 ppm, and solvent concentrations must be reduced to <50 ppm. This document defines waste treatment processes specific to semiconductor manufacturing.
 

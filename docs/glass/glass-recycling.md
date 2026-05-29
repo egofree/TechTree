@@ -8,7 +8,6 @@
 > **Outputs**: glass_cullet, recycled_glass, mixed_cullet_feedstock
 > **Critical**: No — reduces raw material consumption but does not unlock new capabilities
 
-## Problem
 
 Glass recycling reclaims glass from end-of-life products (containers, windows, fiberglass, electronic scrap) and processes it into cullet — crushed glass fragments that serve as feedstock for new glass production. Adding cullet to the glass batch reduces raw material consumption (sand, soda ash, limestone) by a proportional amount and lowers melting energy by 2–3% for every 10% cullet in the batch.
 

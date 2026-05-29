@@ -8,7 +8,6 @@
 > **Outputs**: vacuum_pumps, vacuum_chambers, vacuum_measurement, leak_detection
 > **Critical**: Yes — vacuum technology is required for semiconductor thin-film deposition, lithography, and packaging; no alternative exists
 
-## Problem
 
 Vacuum technology creates and maintains low-pressure environments essential for semiconductor manufacturing, optical coatings, and metallurgy. Thin-film deposition, ion implantation, and electron-beam lithography all require controlled atmospheres at pressures from rough vacuum (10-50 Torr) to ultra-high vacuum (10⁻¹⁰ Torr). Each decade of lower pressure demands progressively more sophisticated pumps, seals, and measurement instruments. Without vacuum capability, semiconductor fabrication is impossible.
 

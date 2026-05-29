@@ -8,7 +8,6 @@
 > **Outputs**: electrical_energy, water
 > **Critical**: No — fuel cells are not on the critical bootstrap path; SEM Tech fuel cell application remains speculative at TRL 5
 
-## Problem
 
 Fuel cells convert chemical energy directly into electricity through electrochemical reactions, bypassing the thermodynamic inefficiencies of heat engines. When hydrogen is supplied to a fuel cell, it produces electricity and water as the only byproduct -- no combustion, no moving parts, and theoretical efficiencies of 50-60% (80-90% in combined heat-and-power configurations).
 

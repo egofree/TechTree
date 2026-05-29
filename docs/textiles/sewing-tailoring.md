@@ -8,7 +8,6 @@
 > **Outputs**: garments, tents, sails, bags, belting
 > **Critical**: No
 
-## Problem
 
 Sewing transforms flat woven cloth into shaped, functional products: garments, tents, sails, bags, and belting. The craft demands precision — a needle eye with any burr shreds thread, a dull point tears fabric instead of piercing it, and a poorly constructed seam fails under load. Sewing technology bridges from hand stitching with bone needles to industrial lockstitch machines, enabling mass production of textile goods.
 

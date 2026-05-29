@@ -155,7 +155,7 @@ The CZ puller combines extreme heat, high electrical current, precision mechanis
 
 ## Czochralski Process Detail
 
-#### Apparatus Configuration
+### Apparatus Configuration
 
 The CZ puller integrates five subsystems into one machine: thermal, mechanical, atmospheric, control, and structural. Each must work within spec for the crystal to be device-grade.
 
@@ -180,7 +180,7 @@ The CZ puller integrates five subsystems into one machine: thermal, mechanical, 
 - Argon flow 20-60 L/min sweeps SiO and CO away from the crystal. Flow enters above the crystal, passes down past the melt surface, exits at the furnace bottom.
 - Gas purity: >99.999% Ar, with O₂ and H₂O each <1 ppm. Residual oxygen in the hot zone forms CO from graphite, which dissolves carbon into the melt.
 
-#### Pulling Procedure
+### Pulling Procedure
 
 The pull cycle runs 24-48 hours for a single crystal. Each phase has specific speed and temperature requirements.
 
@@ -207,7 +207,7 @@ The pull cycle runs 24-48 hours for a single crystal. Each phase has specific sp
 - Diameter is controlled by a PID loop that adjusts pull speed and heater power simultaneously. If the crystal grows too thick, the PID increases pull speed (pulls faster, less time for radial growth) and/or raises heater power slightly (melts more material at the interface). If too thin, the opposite. Feedback comes from either optical meniscus observation through the viewport or load cell weight measurement on the pull rod.
 - Target diameter stability: ±1 mm over the full body length.
 
-#### Dopant Addition and Resistivity Control
+### Dopant Addition and Resistivity Control
 
 **Doping methods**:
 - Add doped polysilicon chunks to the initial charge. For p-type: boron-doped polysilicon, or add SiO₂+B₂O₃ pellets to the melt. For n-type: phosphorus-doped polysilicon, or add SiPO₄ (silicon phosphate) to the melt.
@@ -226,7 +226,7 @@ The pull cycle runs 24-48 hours for a single crystal. Each phase has specific sp
 - Phosphorus segregation coefficient (k ≈ 0.35) causes significant axial resistivity gradient in n-type crystals — the tail end has 2-3× lower resistivity than the seed end
 - Tight resistivity tolerances (±5%) require charge calculations specific to each crystal size and target length
 
-#### Crystal Properties and Grading
+### Crystal Properties and Grading
 
 **Oxygen content**: 5-20 ppma, introduced by crucible dissolution. Oxygen is higher at the seed end (crucible wall is thickest) and decreases toward the tail. Oxygen forms thermal donors (electrically active complexes) if the crystal is not annealed. Standard practice: heat-treat wafers at 600-800°C to precipitate oxygen into inert SiO₂ particles.
 
@@ -242,7 +242,7 @@ The pull cycle runs 24-48 hours for a single crystal. Each phase has specific sp
 - Oxygen concentration varies along the crystal length (higher at seed end), causing resistivity variation that must be characterized and managed
 - Carbon contamination from graphite hot zone must be kept below 1 ppma — requires high-purity argon and tight chamber seals
 
-#### Hot Zone Design
+### Hot Zone Design
 
 The hot zone is everything inside the furnace chamber between the heater and the chamber walls: insulation, radiation shields, gas flow channels, and structural supports.
 

@@ -8,7 +8,6 @@
 > **Outputs**: prepared_fibers
 > **Critical**: No
 
-## Problem
 
 Fiber preparation transforms raw plant stems, animal fleece, and silk cocoons into clean, organized fibers ready for spinning into yarn. Each fiber source requires different processing: flax and hemp need retting, breaking, and hackling; wool requires washing, carding, and combing; cotton needs ginning; silk demands reeling from cocoons. The quality of the prepared fiber directly determines the quality of the final textile — poorly retted flax produces weak linen, inadequately scoured wool causes uneven dyeing.
 

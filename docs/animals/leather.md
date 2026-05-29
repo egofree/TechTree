@@ -8,7 +8,6 @@
 > **Outputs**: leather, rawhide, tanned_hides
 > **Critical**: Yes — leather drive belts, gaskets, and protective gear are essential for pre-industrial machinery
 
-## Problem
 
 Before synthetic rubber and plastics, leather was the only flexible, durable, abrasion-resistant sheet material available. It drives factory machinery — leather belts transmit power from steam engines to individual machines. It protects workers — heat-resistant gloves and aprons shield against molten metal and hot surfaces. It carries goods — harness, saddles, and straps are the backbone of animal-drawn transport. It provides footwear — the single most important protective equipment for human labor. No other material combines leather's tensile strength (20-50 MPa), flex endurance (50,000+ cycles), and workability with hand tools.
 

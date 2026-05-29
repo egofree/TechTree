@@ -59,13 +59,13 @@ Power electronics depends on [semiconductor devices](semiconductor-devices.md) (
 
 ## Rectifiers (AC → DC)
 
-#### Uncontrolled Rectifier (Diode Bridge)
+### Uncontrolled Rectifier (Diode Bridge)
 
 1. **Single-phase full bridge**: 4 diodes in H-bridge configuration. AC input across left-right terminals. DC output across top-bottom terminals. Diodes conduct in pairs: D1+D3 for positive half-cycle, D2+D4 for negative half-cycle. Output: full-wave pulsating DC with 120 Hz ripple (from 60 Hz input).
 2. **Filter**: Add capacitor (1000-10,000 μF per amp of load current) across DC output. Ripple voltage: ΔV = I_load / (2f × C). Example: 5A load, 4700 μF capacitor, 60 Hz: ΔV = 5/(2×60×0.0047) = 8.9V peak-to-peak on a 170V peak DC bus. Larger capacitor = lower ripple but higher peak diode current (capacitor charging spikes).
 3. **Three-phase full bridge**: 6 diodes. Output ripple at 360 Hz (6× line frequency). Much lower ripple without filtering: 4.2% ripple factor vs. 48% for single-phase. Standard for industrial power above ~5 kW. Ripple: ΔV/Vdc ≈ 0.055/(f×C×Rload).
 
-#### Controlled Rectifier (Thyristor Bridge)
+### Controlled Rectifier (Thyristor Bridge)
 
 Replace diodes with thyristors (SCRs). Control firing angle α (0-180°) to vary output voltage: Vdc = 1.35 × VLL × cos(α) for three-phase bridge. At α = 0°: full output (same as diode bridge). At α = 90°: zero average output. Above 90°: inverter mode (power flows from DC to AC — used in HVDC transmission). Disadvantages: draws reactive power from AC line (power factor = cos(α)), generates line harmonics (5th, 7th, 11th, 13th...). For industrial DC motor drives and electroplating power supplies.
 
@@ -81,7 +81,7 @@ Replace diodes with thyristors (SCRs). Control firing angle α (0-180°) to vary
 
 ## DC-DC Converters
 
-#### Buck Converter (Step-Down)
+### Buck Converter (Step-Down)
 
 Vout = D × Vin, where D = ton / Tswitch is the duty cycle (0-100%). Maximum Vout = Vin.
 
@@ -97,7 +97,7 @@ Vout = D × Vin, where D = ton / Tswitch is the duty cycle (0-100%). Maximum Vou
 - MOSFET: Id = 5A, Vds > 20V (2× Vin margin). Select 30V, 10 mΩ MOSFET. Conduction loss: 5² × 0.01 = 0.25W.
 - Diode: Schottky (Vf = 0.3V, low loss) or use synchronous rectification (replace diode with MOSFET for <0.05V drop).
 
-#### Boost Converter (Step-Up)
+### Boost Converter (Step-Up)
 
 Vout = Vin / (1 - D). Output is always higher than input.
 
@@ -109,11 +109,11 @@ Vout = Vin / (1 - D). Output is always higher than input.
 - D = 1 - Vin/Vout = 1 - 12/48 = 0.75
 - MOSFET: Vds > 60V (1.25× Vout). Select 100V, 20 mΩ. Id_peak = Iout/(1-D) + ΔIL/2 = 2/0.25 + 0.5 = 8.5A.
 
-#### Buck-Boost and SEPIC
+### Buck-Boost and SEPIC
 
 Buck-boost: inverting output (negative voltage). Vout = -D × Vin / (1 - D). Used for negative supplies. SEPIC (Single-Ended Primary-Inductor Converter): non-inverting buck-boost. Vout = D × Vin / (1 - D). Can step up or down. Requires two inductors and a coupling capacitor.
 
-#### Forward and Flyback (Isolated Converters)
+### Forward and Flyback (Isolated Converters)
 
 - **Flyback**: Single switch + coupled inductor (transformer). Output isolated from input. Power: 1-200W. Used in chargers, small power supplies. Flyback transformer stores energy in air gap (not a true transformer — operates as a coupled inductor). Peak flux density: Bmax = Vin × ton / (Np × Ae). Design to avoid core saturation.
 - **Forward**: Single switch + true transformer + output inductor + reset winding. Power: 50-500W. Lower output ripple than flyback. Reset mechanism (tertiary winding or RCD clamp) resets transformer core each cycle.
@@ -131,7 +131,7 @@ Buck-boost: inverting output (negative voltage). Vout = -D × Vin / (1 - D). Use
 
 ## Inverters (DC → AC)
 
-#### Single-Phase H-Bridge Inverter
+### Single-Phase H-Bridge Inverter
 
 1. **Topology**: 4 switches (MOSFETs or IGBTs) in H-bridge. DC bus across top-bottom. AC output across left-right. Diagonally opposite switches turn on in pairs: S1+S4 for positive output, S2+S3 for negative output.
 2. **PWM generation**: Compare sinusoidal reference (50/60 Hz) with triangular carrier (5-20 kHz). When reference > carrier: S1+S4 on. When reference < carrier: S2+S3 on. Duty cycle varies sinusoidally.
@@ -143,7 +143,7 @@ Buck-boost: inverting output (negative voltage). Vout = -D × Vin / (1 - D). Use
 - MOSFETs: 100V, 5-10 mΩ (for 48V bus). Peak current: 2000W / 48V / 0.8 (efficiency) ≈ 52A. Use 2-3 MOSFETs in parallel per switch position.
 - Output filter: L = 2 mH (20 turns on ferrite toroid), C = 10 μF (film). fc = 1/(2π√(0.002 × 0.000010)) = 1.1 kHz.
 
-#### Three-Phase Inverter
+### Three-Phase Inverter
 
 6 switches (3 half-bridge legs). Three PWM outputs, 120° phase-shifted sinusoidal references. Standard for motor drives above ~1 kW. Output: three-phase AC, 0-400 Hz (for motor speed control) or 50/60 Hz (for grid-tie). Space vector modulation (SVM) provides 15% better DC bus utilization than sinusoidal PWM.
 

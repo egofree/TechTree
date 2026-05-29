@@ -8,7 +8,6 @@
 > **Outputs**: hydrogen, silane, trichlorosilane
 > **Critical**: Yes — silane (SiH₄) is the primary silicon source for semiconductor CVD processes. Trichlorosilane (SiHCl₃) feeds the Siemens polysilicon process. Ultra-pure hydrogen is required for semiconductor fabrication and ammonia synthesis.
 
-## Problem
 
 Semiconductor manufacturing and ammonia synthesis both require ultra-pure hydrogen and silicon-bearing gases. Silane (SiH₄) is the primary silicon source for CVD deposition; trichlorosilane (SiHCl₃) feeds the Siemens polysilicon process. Neither gas occurs naturally — both must be synthesized from metallurgical-grade silicon through multi-step chemical processes with extreme purity requirements (<1 ppb impurities for semiconductor grade). The gases are pyrophoric, toxic, and corrosive, demanding inert-atmosphere handling at every stage.
 

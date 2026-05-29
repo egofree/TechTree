@@ -8,7 +8,6 @@
 > **Outputs**: vacuum_chambers, vacuum_seals, viewports, gate_valves, load_locks
 > **Critical**: Yes — vacuum chambers are required for all semiconductor thin-film deposition and lithography processes
 
-## Problem
 
 Vacuum chambers are sealed enclosures that maintain controlled low-pressure environments for semiconductor processing, thin-film deposition, and surface analysis. For basic vacuum concepts and outgassing tables, see [Gas Handling: Vacuum](../gas-handling/vacuum.md). This document covers chamber design engineering, advanced sealing systems, and chamber subsystems. The central challenge is building a vessel that is structurally sound under 1 atmosphere of external pressure, leak-tight to 10⁻⁹ Torr, clean enough to avoid contaminating the process, and equipped with sealed ports for power, cooling, viewports, and sample introduction.
 

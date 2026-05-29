@@ -8,7 +8,6 @@
 > **Outputs**: calculus, linear_algebra, differential_equations, probability_theory, statistical_methods, numerical_methods
 > **Critical**: Yes — mathematics is the shared language of quantitative reasoning for all engineering
 
-## Problem
 
 Core mathematics gives engineers algebra and geometry — tools for static, deterministic problems. But the real world is dynamic and uncertain: furnaces heat up over time, chemical reaction rates depend on temperature, manufacturing processes have random variation, and complex systems have dozens of interacting variables. Applied mathematics provides the tools to model continuous change (calculus), handle multi-variable systems (linear algebra), predict dynamic behavior (differential equations), quantify uncertainty (probability and statistics), and compute solutions when analytical methods fail (numerical methods). These capabilities are essential for process engineering, quality control, electronic design, and every discipline that goes beyond simple static analysis.
 

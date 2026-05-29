@@ -8,7 +8,6 @@
 > **Outputs**: binary_programs, bootstrap_loaders
 > **Critical**: Yes — all software begins here; without machine code entry, the computer is inert hardware
 
-## Problem
 
 A computer without software is an expensive space heater. Before assemblers, compilers, or operating systems exist, the only way to make a computer do anything useful is to toggle binary instruction patterns into memory addresses using front-panel switches or hex keyboards. Every higher-level software tool traces back to this capability. The first assembler was written in machine code. The first compiler was assembled from machine code. The first operating system was bootstrapped from machine code entered by hand. This is the bedrock of the software bootstrap chain.
 

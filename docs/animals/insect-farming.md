@@ -8,7 +8,6 @@
 > **Outputs**: bsf_larvae, protein_meal, chicken_feed, fish_feed, frass_fertilizer, compost
 > **Critical**: Yes — closes the nutrient loop by converting waste streams into animal feed protein
 
-## Problem
 
 In a bootstrapping civilization, protein is the limiting nutrient for both humans and livestock. Fish meal (the traditional animal feed protein source) requires ocean fishing fleets. Soybean meal requires large-scale agriculture, oil pressing, and transport. BSF farming converts waste — food scraps, manure, brewery grain, crop residues — into 40-45% protein feed using nothing more than a wooden box and organic waste. The conversion efficiency is extraordinary: 1.4-2.0 kg of wet biowaste produces 1 kg of fresh larvae in 14-18 days. No other protein production system matches this speed and efficiency with zero purchased inputs.
 

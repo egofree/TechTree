@@ -8,7 +8,6 @@
 > **Outputs**: refined_fuel, distilled_oil, cracked_products
 > **Critical**: No — refining enables liquid fuels for engines but is not required for the earliest bootstrap stages
 
-## Problem
 
 Energy refining covers the processing of crude fuels into usable forms: fractional distillation of petroleum, coal tar distillation, wood tar processing, and thermal cracking. These refined products power internal combustion engines, gas turbines, and chemical synthesis, and provide feedstocks for the petrochemical industry. Crude petroleum and raw coal tar are not directly usable in engines or chemical processes — they must be separated into fractions with defined boiling ranges and properties.
 

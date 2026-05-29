@@ -8,7 +8,6 @@
 > **Outputs**: assembly_language, object_files, executable_programs
 > **Critical**: Yes — assemblers are the first software tool built for any new architecture, enabling all subsequent software development
 
-## Problem
 
 An assembler translates human-readable mnemonic instructions (assembly language) into machine code binary. Where machine code programming requires the programmer to remember that `3E 05` means "load the accumulator with 5," assembly language lets them write `LD A, 5` — a dramatic improvement in readability, writability, and maintainability.
 

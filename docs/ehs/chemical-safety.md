@@ -7,7 +7,6 @@
 > **Timeline**: Years 30-70
 > **Outputs**: chemical_hazard_protocols, tlv_databases, nfpa_ratings, exposure_control_plans
 
-## Problem
 
 Semiconductor fabrication uses the most hazardous chemicals in industrial production: hydrofluoric acid (HF) for silicon etching, silane (SiH₄) for silicon deposition, arsine (AsH₃) for N-type doping, phosphine (PH₃) for N-type doping, and dozens of corrosive, pyrophoric, and carcinogenic compounds. These chemicals demand safety protocols far beyond general industrial hygiene. A single silane leak can auto-ignite at concentrations above 1.4% in air; arsine exposure at 0.05 ppm for extended periods causes hemolytic anemia and renal failure. This document establishes the chemical safety knowledge base specific to semiconductor manufacturing environments.
 

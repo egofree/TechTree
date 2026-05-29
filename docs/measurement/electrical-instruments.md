@@ -8,7 +8,6 @@
 > **Outputs**: voltmeter, ammeter, ohmmeter, oscilloscope, multimeter, insulation_tester, frequency_counter
 > **Critical**: No — measurement improves quality but civilization can function without precision instruments
 
-## Problem
 
 Electrical systems cannot be built or maintained without measurement. You need to know voltage (is the generator producing what it should?), current (is the load drawing too much?), resistance (is the insulation intact?), frequency (is the alternator spinning at the right speed?), and waveform (is the AC output clean or distorted?). This page covers the instruments that answer these questions, from the fundamental galvanometer movement through digital multimeters, oscilloscopes, and specialized testers.
 

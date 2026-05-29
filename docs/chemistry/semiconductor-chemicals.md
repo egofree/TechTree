@@ -15,7 +15,7 @@ Semiconductor fabrication consumes chemicals at purity levels 1000× stricter th
 
 Photoresists are radiation-sensitive polymer films that transfer a mask pattern onto a wafer surface. They are the enabling material of photolithography — without them, there is no integrated circuit fabrication.
 
-#### DNQ/Novolac Positive Resist (g-line/i-line)
+### DNQ/Novolac Positive Resist (g-line/i-line)
 
 The workhorse resist for feature sizes down to ~0.35 μm (i-line, 365 nm). Two-component system:
 
@@ -45,7 +45,7 @@ The workhorse resist for feature sizes down to ~0.35 μm (i-line, 365 nm). Two-c
 
 **Resolution vs sensitivity tradeoff**: Higher PAC loading increases contrast (steeper dissolution curve) but requires higher exposure dose. Thinner resist films resolve smaller features but provide less etch resistance. For i-line lithography at 0.35 μm: ~1.0 μm resist thickness, ~150 mJ/cm² dose, contrast (γ) ≈ 3-5.
 
-#### Chemically Amplified Resists (CAR)
+### Chemically Amplified Resists (CAR)
 
 Required for deep UV (DUV, 248 nm and 193 nm) lithography where photon flux is limited. DUV sources (KrF excimer at 248 nm, ArF excimer at 193 nm) produce fewer photons per unit area than mercury lamps, so the resist must amplify each photon's effect.
 
@@ -112,7 +112,7 @@ Buffered oxide etch (also called BHF — buffered hydrofluoric acid) is the stan
 
 Chemical mechanical polishing (CMP) planarizes wafer surfaces between deposition and lithography steps, enabling multilayer interconnect. The CMP process is covered in detail in [Dopant & Etch Gases](dopant-etch-gases.md); this section provides the chemical formulation details. CMP slurry is a colloidal suspension of abrasive particles in a chemically reactive solution.
 
-#### Oxide CMP (SiO₂ planarization)
+### Oxide CMP (SiO₂ planarization)
 
 **Slurry composition**:
 - Abrasive: Colloidal silica (SiO₂) particles, 30-70 nm diameter. Produced by the Stöber process (hydrolysis of tetraethyl orthosilicate TEOS in ethanol with ammonia catalyst) or by alkali silicate neutralization.
@@ -124,7 +124,7 @@ Chemical mechanical polishing (CMP) planarizes wafer surfaces between deposition
 
 **Selectivity**: Oxide-to-nitride selectivity typically 4:1 to 10:1 (achieved by adding ceria or adjusting pH). Nitride acts as an etch stop in shallow trench isolation (STI) CMP.
 
-#### Metal CMP (Cu, W, Al)
+### Metal CMP (Cu, W, Al)
 
 **Copper CMP slurry**:
 - Abrasive: Colloidal silica (30-50 nm) or alumina (Al₂O₃, 100-200 nm). Alumina provides faster removal but worse surface finish.
@@ -140,7 +140,7 @@ Chemical mechanical polishing (CMP) planarizes wafer surfaces between deposition
 - pH: 2-4 (acidic). Iron-based oxidizers require acidic conditions.
 - Removal rate: 150-500 nm/min for tungsten.
 
-#### Post-CMP Cleaning
+### Post-CMP Cleaning
 
 After polishing, slurry particles and metallic contaminants must be completely removed. A single remaining silica particle (50 nm) between two metal lines can create a short circuit.
 
@@ -151,7 +151,7 @@ After polishing, slurry particles and metallic contaminants must be completely r
 
 ## Cleanroom Chemicals
 
-#### Ultrapure Water (UPW)
+### Ultrapure Water (UPW)
 
 Ultrapure water is the most-consumed chemical in semiconductor fabrication — a modern fab uses 3-8 million liters per day. Production is covered in [Industrial Water Treatment](water-treatment.md); key semiconductor-grade specs:
 
@@ -165,7 +165,7 @@ Ultrapure water is the most-consumed chemical in semiconductor fabrication — a
 
 UPW distribution system: PVDF (polyvinylidene fluoride) or high-purity PFA piping. Continuous recirculation at 1-3 m/s velocity to prevent bacterial growth. UV (185/254 nm) irradiation for TOC destruction and bacterial control. Final 0.05 μm ultrafiltration membrane at point of use.
 
-#### IPA (Isopropanol) — Semiconductor Applications
+### IPA (Isopropanol) — Semiconductor Applications
 
 General IPA properties are covered in [Solvents](solvents.md). Semiconductor-specific uses:
 
@@ -175,7 +175,7 @@ General IPA properties are covered in [Solvents](solvents.md). Semiconductor-spe
 
 **Semiconductor-grade IPA**: Purity 99.999%+, metallic impurities <1 ppb each, particles <25/mL at ≥0.2 μm, water content <100 ppm (for drying applications). Stored in 316L stainless steel or fluoropolymer containers.
 
-#### Acetone — Semiconductor Applications
+### Acetone — Semiconductor Applications
 
 Acetone (CH₃COCH₃, bp 56°C) is covered as a solvent in [Solvents](solvents.md) and [Petroleum](petroleum-alternatives.md). Semiconductor uses:
 
@@ -183,7 +183,7 @@ Acetone (CH₃COCH₃, bp 56°C) is covered as a solvent in [Solvents](solvents.
 - **Surface cleaning**: Degreasing wafer surfaces before thermal oxidation or film deposition. Acetone followed by IPA rinse followed by DI water rinse followed by N₂ blow-dry is the standard "solvent clean" sequence.
 - **Chamber cleaning**: Wiping CVD and etch chamber internals during maintenance.
 
-#### Piranha Etch (SPM)
+### Piranha Etch (SPM)
 
 **Composition**: Sulfuric acid (H₂SO₄) : hydrogen peroxide (H₂O₂) = 3:1 to 4:1 by volume. Also called "piranha solution" or "sulfuric-peroxide mixture" (SPM).
 
@@ -198,7 +198,7 @@ Acetone (CH₃COCH₃, bp 56°C) is covered as a solvent in [Solvents](solvents.
 
 **Safety**: Piranha is one of the most dangerous solutions in a semiconductor fab. The mixture boils spontaneously if organic material is added in quantity. It reacts explosively with significant amounts of organics (solvents, photoresist chunks). Never store in sealed containers — gas evolution (O₂) builds pressure and can rupture the container. Never add to organic solvents. PPE: acid-resistant apron, face shield, chemical splash goggles, HF-rated gloves (even though piranha is not HF, the same heavy nitrile or neoprene gloves provide adequate protection). Emergency shower within 10 seconds of travel. Piranha waste is neutralized by slow addition to large volumes of cold water (never the reverse), then neutralized with NaOH before disposal.
 
-#### RCA Clean (SC-1 and SC-2)
+### RCA Clean (SC-1 and SC-2)
 
 The RCA clean is the foundation of semiconductor wafer cleaning, developed by Werner Kern at RCA in 1965. Hydrogen peroxide chemistry is covered in [Solvents](solvents.md); here the specific formulations and their semiconductor functions:
 
@@ -218,7 +218,7 @@ The RCA clean is the foundation of semiconductor wafer cleaning, developed by We
 
 **Typical cleaning sequence**: SC-1 → DI water rinse → HF dip (1-2% HF, 15-30 seconds, removes native oxide and leaves H-terminated hydrophobic surface) → DI water rinse → SC-2 → DI water rinse → N₂ dry. The HF dip between SC-1 and SC-2 is optional — it removes the oxide grown during SC-1 and any particles trapped in that oxide.
 
-#### Hydrofluoric Acid Dip (HF Last)
+### Hydrofluoric Acid Dip (HF Last)
 
 A brief dip in dilute HF (0.5-2% aqueous) strips the native or chemical oxide from silicon, leaving a hydrogen-terminated surface:
 

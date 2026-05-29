@@ -8,7 +8,6 @@
 > **Outputs**: high_purity_acids, high_purity_solvents, high_purity_gases
 > **Tags**: materials=[chemicals], era=semiconductor, critical
 
-## Problem
 
 Semiconductor fabrication uses dozens of chemicals at purity levels 6-9 orders of magnitude above standard reagent grade. Electronic-grade hydrofluoric acid (HF) must contain less than 100 ppt (parts per trillion) of each metallic impurity — Fe, Cu, Ni, Cr, Zn, Na, K, Ca, and dozens of others. Standard ACS reagent-grade HF typically contains 0.5-5 ppm of metallic impurities — 5,000-50,000× too contaminated for wafer processing.
 

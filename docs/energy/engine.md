@@ -8,7 +8,6 @@
 > **Outputs**: internal_combustion_engines, gasoline_engines, diesel_engines, mechanical_power
 > **Critical**: No — engines enable motorized transport and portable power but are not on the critical path to semiconductor manufacturing
 
-## Problem
 
 Converting chemical energy stored in fuel into mechanical work is the transformation that powers industrial civilization. Before heat engines, the only practical sources of mechanical power were human and animal muscle, water wheels, and windmills, each limited by geography, weather, and modest power output. Heat engines broke this constraint by unlocking the energy density of solid, liquid, and gaseous fuels. A liter of gasoline contains roughly 34 MJ of energy, equivalent to a day of hard manual labor compressed into a few minutes of combustion.
 

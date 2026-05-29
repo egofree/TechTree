@@ -7,7 +7,6 @@
 > **Timeline**: Years 40-100+
 > **Outputs**: fmea, pareto_analysis, fishbone_diagrams, yield_models, defect_density, root_cause_analysis
 
-## Problem
 
 Semiconductor fabrication involves 500+ sequential process steps across photolithography, etch, deposition, implantation, and CMP. Each step introduces potential defects — particles, pattern distortions, contamination, thickness non-uniformity. A single killer defect on a die renders it non-functional, yet a modern 300 mm wafer contains hundreds of thousands of die. Understanding which defects matter, where they come from, and how to eliminate them is the central engineering challenge of semiconductor yield management.
 

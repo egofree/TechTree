@@ -8,7 +8,6 @@
 > **Outputs**: gutta_percha_sheet, cable_insulation, dental_points, molded_parts
 > **Critical**: No — uniquely useful for submarine cable insulation, but not a civilization-wide bottleneck
 
-## Problem
 
 Submarine telegraph cables require an insulation material that is waterproof, electrically insulating, resistant to biological degradation in seawater, and manufacturable in continuous lengths around a copper conductor. Before synthetic polymers, no material except gutta-percha combined all four properties. Natural rubber absorbs too much water (~1% vs. <0.2%), causing electrical leakage. Waxed cloth is porous. Lead sheathing is too heavy and inflexible. Glass and ceramic are rigid and brittle. Gutta-percha — a natural thermoplastic from tropical tree leaves — was the only material that made transatlantic telegraph communication possible for nearly 100 years (1840s-1940s).
 

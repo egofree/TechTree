@@ -10,7 +10,6 @@
 
 Controlled firing transforms clay from a water-soluble mineral mass into a permanent, hardened ceramic. The schedule — ramp rates, peak temperature, hold times, and cooling — determines whether ware survives, vitrifies properly, or cracks. See [kilns.md](./kilns.md) for kiln construction and [pottery.md](./pottery.md) for clay preparation and forming.
 
-## Problem
 
 Clay is useless without firing. Green (unfired) clay dissolves in water, crumbles under load, and cannot hold liquids. Controlled firing transforms clay into a permanent, hardened ceramic — the first synthetic material humans ever created. But firing is not simply "make it hot." The temperature schedule — ramp rates, soak times, atmosphere, and cooling — determines whether the ware survives, vitrifies properly, or cracks. A kiln is not a bonfire; it is a precision thermal instrument.
 

@@ -8,7 +8,6 @@
 > **Outputs**: sodium_carbonate, sodium_bicarbonate, calcium_chloride
 > **Critical**: Yes — the Solvay process is the most efficient route to soda ash (Na₂CO₃), which is required for glass manufacturing, detergent production, and as a chemical feedstock for NaOH production via causticization.
 
-## Problem
 
 The Solvay process produces sodium carbonate (soda ash, Na₂CO₃) from brine (NaCl) and limestone (CaCO₃) using ammonia as a recyclable catalyst. Soda ash is the workhorse alkaline chemical for glass making, soap production, water softening, and chemical synthesis. The process superseded the Leblanc method industrially due to lower cost and fewer toxic byproducts.
 

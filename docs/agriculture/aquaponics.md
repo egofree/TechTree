@@ -151,21 +151,21 @@ Before adding fish, the system must develop sufficient bacterial colonies to pro
 
 ## Fish Management
 
-#### Tilapia (*Oreochromis* spp.)
+### Tilapia (*Oreochromis* spp.)
 
 The standard aquaponics fish. Fast growth (500 g in 6-8 months under optimal conditions), tolerate crowding (20-40 kg/m³), omnivorous (accept plant-based and insect-based feeds), and thrive at 26-30°C. Tolerate pH 6.0-9.0. Breeding is prolific — mouthbrooding females produce 100-500 fry per spawn.
 
 Feed: 2-3% body weight per day at optimal temperature. Accept BSF larvae (see [Insect Farming](../animals/insect-farming.md)), duckweed, algae, commercial pellets, agricultural byproducts (rice bran, oilseed cake). Protein requirement: 28-35% for optimal growth.
 
-#### Carp (*Cyprinus carpio*)
+### Carp (*Cyprinus carpio*)
 
 Cold-hardy alternative to tilapia. Tolerate 4-35°C, optimal growth at 20-28°C. Accept lower water quality than tilapia. Omnivorous. Growth to 500 g-1 kg in one season with adequate feeding. Suitable for unheated outdoor systems in temperate climates.
 
-#### Catfish (various species)
+### Catfish (various species)
 
 Tolerate low dissolved oxygen (some species have accessory air-breathing organs), turbid water, and crowding. Optimal 24-28°C. Growth to 500 g in 4-6 months. Accept animal-based feeds (BSF larvae, fish meal, blood meal). Suitable where water quality management is less precise.
 
-#### Stocking Density
+### Stocking Density
 
 - **Conservative** (low-risk, recommended): 20 kg of fish per cubic meter of water (20 kg/m³). For a 1000 L tank, stock a maximum of 20 kg total fish weight.
 - **Moderate**: 30 kg/m³. Requires excellent water quality management and reliable aeration.

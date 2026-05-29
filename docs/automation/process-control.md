@@ -8,7 +8,6 @@
 > **Outputs**: recipe_management, lot_tracking, process_sequencing, fault_detection, run_to_run_control
 > **Critical**: No — manual recipe execution and lot tracking are possible; automated control improves yield and consistency but does not enable fundamentally new capabilities
 
-## Problem
 
 A semiconductor wafer undergoes 400-700 individual process steps over 4-8 weeks of fabrication. Each step has precise recipe parameters (temperature ramp rates, gas flows, RF powers, etch times) that must be executed exactly. A single parameter deviation at step 200 may not produce a detectable defect until electrical test at step 600 — by which time 400 steps of value have been added to a wafer that must now be scrapped. Automated process control and lot tracking ensure every wafer receives the correct process at every step, with full traceability from raw silicon to finished die.
 

@@ -8,7 +8,6 @@
 > **Outputs**: graphite_electrodes, carbon_electrodes, electrode_paste
 > **Critical**: Yes — electrodes are the critical consumable in electric arc and submerged arc furnaces; no electrodes means no electric furnace operation
 
-## Problem
 
 Electrodes are the consumable heart of electric arc furnaces (EAF) and submerged arc furnaces (SAF) — the highest-temperature industrial processes available. They carry thousands of amps of current into the furnace, generating arcs at 3,000-3,500°C that melt steel, silicon, calcium carbide, and other materials. Electrodes erode during use (2-5 kg per tonne of steel) and must be continuously replaced, making their manufacture a critical supply chain dependency. The circular dependency — graphitization requires electric furnaces, which require graphitized electrodes — is the central bootstrap challenge.
 

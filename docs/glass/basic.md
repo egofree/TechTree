@@ -8,7 +8,6 @@
 > **Outputs**: basic_glass, potash
 > **Critical**: Yes — glass is the universal container material for chemistry, the basis for optics, windows, and laboratory apparatus
 
-## Problem
 
 Glass is chemically inert, transparent, impermeable to gases and liquids, electrically insulating, and infinitely recyclable. No other material combines all five properties. Metals react with acids and corrode. Ceramics are opaque and difficult to form into transparent vessels. Wood rots, burns, and leaks. Plastic requires petroleum cracking — unavailable until late in the bootstrap sequence.
 

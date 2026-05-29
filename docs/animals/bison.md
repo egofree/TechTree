@@ -8,7 +8,6 @@
 > **Outputs**: meat, hides, horn, bone, manure
 > **Critical**: No — valuable grassland livestock but specialized; cattle are more versatile
 
-## Problem
 
 The American bison (*Bison bison*) is the largest terrestrial animal in North America, with mature bulls weighing 700-900 kg and cows 400-550 kg. Bison are naturally hardy — they evolved on the Great Plains and require no shelter in most climates, no grain finishing, and have resistance to many cattle diseases. Bison meat is significantly leaner and higher in protein than beef. However, their wild temperament demands specialized handling facilities and experienced management. Bison production is a long-term investment: 18-24 months to slaughter on grass, but with far lower input costs than cattle once the infrastructure is established.
 

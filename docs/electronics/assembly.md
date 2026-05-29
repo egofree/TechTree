@@ -92,7 +92,7 @@ Printed circuit boards (PCBs) provide the interconnection substrate for all elec
 
 **Solder alloys**: Sn63/Pb37 eutectic melts at 183°C (traditional). Lead-free: SAC305 (Sn96.5/Ag3.0/Cu0.5, melts 217-220°C), Sn99.3/Cu0.7 (melts 227°C). High-temperature: Sn95/Ag5 (221-240°C), Au80/Sn20 (280°C, for die attach).
 
-#### Through-Hole Soldering
+### Through-Hole Soldering
 
 - Hand soldering: 25-80W iron, tip at 320-380°C (Sn/Pb) or 350-420°C (lead-free). Contact: 2-5 seconds/joint. Rosin-core flux wire. Wetting angle <90° = good joint.
 - Wave soldering: spray flux → preheat (80-120°C) → wave of molten solder (250-270°C) at 1-3 m/min. Contact time: 2-5 sec. Defect target: <500 ppm.
@@ -107,7 +107,7 @@ Printed circuit boards (PCBs) provide the interconnection substrate for all elec
 - Wave soldering generates lead oxide and flux vapors that require local exhaust ventilation (fume extractors at 0.3-0.5 m/s capture velocity) — the visible "smoke" contains formaldehyde, toluene, and phenol from flux decomposition
 - Hand soldering quality depends entirely on operator skill — inconsistent thermal contact time, iron tip condition, and flux application create 5-20× variation in joint reliability between operators
 
-#### Surface Mount Soldering
+### Surface Mount Soldering
 
 - Solder paste: flux + solder powder (20-45 μm particles, Type 3). Viscosity: 150-250 Pa·s. Store at 2-10°C, shelf life 3-6 months.
 - Stencil printing: stainless steel stencil (100-150 μm) with laser-cut apertures. Squeegee at 50-150 mm/s, 3-8 kg pressure. Print accuracy: ±25 μm at 3σ.

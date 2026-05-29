@@ -8,7 +8,6 @@
 > **Outputs**: plowing, hauling, milling, mine hoisting, irrigation pumping
 > **Critical**: Yes — draft power is the primary motive force for agriculture, transport, and mining before steam engines
 
-## Problem
 
 Draft animals were the primary motive force for agriculture, transport, mining, and milling from the Neolithic through the early Industrial Revolution. A single ox delivers 0.5-0.75 HP sustained, a horse 0.75-1.5 HP. These numbers look modest compared to steam engines, but the infrastructure to harness animal power is simple: wood, leather, rope, and iron. No boilers. No machined cylinders. No high-temperature fuel.
 

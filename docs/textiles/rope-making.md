@@ -8,7 +8,6 @@
 > **Outputs**: rope, tarred_rope, spliced_rope, lifting_slings
 > **Critical**: No
 
-## Problem
 
 Rope is the universal load-bearing element of pre-industrial and early industrial civilization: lifting, pulling, rigging, hoisting, binding, and power transmission all depend on it. Rope quality depends on fiber choice, twist geometry, and construction method. The ideal rope fiber is strong, long-staple, flexible, and resistant to degradation. No single fiber excels at all criteria — selection depends on application.
 

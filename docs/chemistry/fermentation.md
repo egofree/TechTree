@@ -8,7 +8,6 @@
 > **Outputs**: ethanol, acetone, butanol, acetic_acid, methanol
 > **Critical**: No — fermentation provides solvents and fuels at early development stages but is superseded by petrochemical routes
 
-## Problem
 
 Fermentation converts sugars and starches into alcohols, solvents, and organic acids using microorganisms. Before petrochemical infrastructure exists, fermentation is the primary route to ethanol (fuel and solvent), acetone, butanol, acetic acid, and methanol. The process requires controlling temperature, pH, nutrient supply, and contamination to maintain microbial cultures that perform specific chemical transformations. Industrial-scale fermentation demands vessels of 10,000-100,000 liters with temperature control, agitation, and sterile operation.
 

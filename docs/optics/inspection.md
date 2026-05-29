@@ -8,7 +8,6 @@
 > **Outputs**: lenses, microscopes, optical_comparators
 > **Critical**: No — optical inspection enhances quality control but parts can be made without it
 
-## Problem
 
 Manufacturing precision components requires verifying that surfaces, dimensions, and defects meet specification. The unaided human eye resolves ~100 μm features — far too coarse for machined tolerances (±0.01 mm) or optical surfaces (λ/4 = 160 nm flatness). Without magnification, interferometry, and comparison techniques, there is no way to confirm that a lens surface is correct, a machined part meets tolerance, or a semiconductor wafer is defect-free. Optical inspection bridges the gap between what the machine produces and what the specification demands.
 

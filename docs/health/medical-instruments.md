@@ -8,7 +8,6 @@
 > **Outputs**: diagnostic_instruments, surgical_instruments, sterilization_equipment
 > **Critical**: Yes — without reliable medical instruments, diagnosis and surgery depend on improvised tools with higher failure rates
 
-## Problem
 
 A bootstrapping civilization needs basic medical instrumentation to diagnose illness, perform surgery, and prevent infection. Without reliable diagnostic tools, treatable conditions go unrecognized. Without sterile surgical instruments, minor procedures become life-threatening. The instruments described here span the range from simple mechanical diagnostics (stethoscopes, thermometers, blood pressure cuffs) through surgical tools (scalpels, forceps, retractors, sutures) to sterilization equipment (autoclaves). All are achievable with metallurgy, glassworking, and basic chemical production capabilities.
 

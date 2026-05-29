@@ -8,7 +8,6 @@
 > **Outputs**: dopant_gases, etch_gases, fluorine
 > **Critical**: Yes — dopant gases (PH₃, AsH₃, B₂H₆) enable semiconductor doping, and etch gases (CF₄, Cl₂, SF₆) enable pattern transfer in photolithography. Without these gases, semiconductor manufacturing is impossible.
 
-## Problem
 
 Semiconductor manufacturing requires two classes of specialty gases: dopant gases to introduce controlled impurities into silicon crystal (changing its electrical properties), and etch gases to selectively remove material during pattern transfer. Phosphine (PH₃), arsine (AsH₃), and diborane (B₂H₆) dope silicon n-type or p-type. Fluorine-based gases (CF₄, SF₆, NF₃) etch silicon, silicon dioxide, and silicon nitride. Chlorine-based gases (Cl₂, BCl₃) etch aluminum and other metals. Without these gases, there are no transistors, no ICs, no semiconductor industry.
 

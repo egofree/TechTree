@@ -7,7 +7,6 @@
 > **Timeline**: Years 30-70
 > **Outputs**: lev_systems, gas_cabinets, abatement_systems, scrubbers, exhaust_monitoring
 
-## Problem
 
 Semiconductor fabrication releases toxic, pyrophoric, and corrosive gases and vapors that must be captured at the source and rendered safe before discharge to atmosphere. General dilution ventilation is entirely inadequate — a 1 ppm silane leak in a fab ballroom would require 25,000 room air changes per hour to dilute below the TLV. Local exhaust ventilation (LEV), gas cabinets with dedicated exhaust, and point-of-use abatement systems are the primary engineering controls for semiconductor chemical hazards. This document covers the design, operation, and maintenance of ventilation and exhaust systems specific to semiconductor manufacturing.
 

@@ -8,7 +8,6 @@
 > **Outputs**: telephone_service, telephone_exchanges, voice_communication
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival
 
-## Problem
 
 The telephone transforms voice into electrical signals that travel over wire, enabling real-time two-way conversation at any distance. Unlike the telegraph (which transmits coded text requiring trained operators), the telephone allows anyone to communicate directly by speaking. This fundamental shift — from operator-mediated text to direct voice — transformed business, social life, and emergency response.
 

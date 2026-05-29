@@ -8,7 +8,6 @@
 > **Outputs**: leather, buckskin, rawhide, tallow, lard, wool_fleece, horn_sheets, bone_tools, sinew_thread, hide_glue, blood_meal
 > **Critical**: Yes — tallow, hide glue, horn, and bone are irreplaceable materials for pre-industrial technology
 
-## Problem
 
 Animals supply a suite of structural, binding, and chemical materials that no plant or mineral source can replicate. Leather, tallow, wool, horn, bone, sinew, and hide glue each fill niches where alternatives are either weaker, less durable, or nonexistent. These materials are harvestable from the first domesticated livestock without specialized infrastructure, and they scale from campside hand-processing to industrial production.
 

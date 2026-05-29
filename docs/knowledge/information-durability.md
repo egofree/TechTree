@@ -8,7 +8,6 @@
 > **Outputs**: archival_media, migration_protocols, preservation_standards
 > **Critical**: Yes — the bootstrapping effort spans 50-200+ years; without durable information preservation, critical knowledge is lost between generations
 
-## Problem
 
 Information durability is the systematic practice of ensuring that knowledge survives the passage of time. It encompasses the selection of storage media based on projected lifespan, environmental controls for archival storage, periodic migration of content from degrading media to fresh copies, format preservation strategies that ensure future readers can decode stored information, and the organizational discipline to maintain all of these continuously across generations.
 

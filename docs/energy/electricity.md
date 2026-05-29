@@ -209,7 +209,7 @@ Three-phase AC power is the standard for industrial generation and distribution.
 
 Semiconductor fabrication equipment demands power quality far exceeding general industrial requirements. A voltage sag of just 10% lasting less than one cycle (16.7 ms at 60 Hz) can cause lithography equipment to abort exposures, ion implanters to lose beam current calibration, and etch chambers to drift out of recipe parameters — destroying work-in-progress worth thousands to millions of dollars per wafer lot. This section specifies the power infrastructure needed to deliver ultra-clean, ultra-reliable electricity to fab tools.
 
-#### Clean Power Requirements
+### Clean Power Requirements
 
 Semiconductor fab equipment power quality specifications:
 
@@ -234,7 +234,7 @@ The **ITI (CBEMA) curve** defines the voltage tolerance envelope for information
 4. **Active compensation**: Solid-state voltage sag compensators (series-connected IGBT inverters that inject compensation voltage during sags). Response time <0.5 cycle. Sizes up to 2 MVA. Expensive but effective for the most sensitive tools.
 5. **UPS systems**: Full isolation from utility events. Required for tools that cannot tolerate any sag.
 
-#### Power Conditioning Equipment
+### Power Conditioning Equipment
 
 **Isolation transformers**: Shielded isolation transformers (electrostatic shield between primary and secondary windings) attenuate high-frequency noise (>1 kHz) and common-mode voltage. K-factor rated transformers (K-1 through K-30) are designed to handle harmonic loads without overheating. K-factor quantifies the additional eddy current losses from harmonic currents: K-1 = linear load, K-4 = moderate harmonics, K-13 = typical VFD load, K-20 = high harmonic load. A standard transformer loaded beyond its K-rating overheats and fails prematurely. For semiconductor fabs with many switching power supplies and VFDs, K-13 to K-20 isolation transformers on each power distribution unit are standard.
 
@@ -247,7 +247,7 @@ Coordination between stages: Each downstream SPD operates at a lower clamping vo
 
 **Active harmonic filters**: Shunt-connected power electronics that inject canceling harmonic currents into the system. Monitor line current in real time, compute the harmonic content via FFT, and generate inverse harmonics. Typical performance: reduces THD from 15-25% (unfiltered) to <5% (filtered). Ratings: 30-500 A per unit, multiple units in parallel for larger installations. Essential for fabs with many variable frequency drives (VFDs) on HVAC systems and process cooling.
 
-#### UPS Systems for Semiconductor Fabs
+### UPS Systems for Semiconductor Fabs
 
 Semiconductor fabs require **online (double-conversion) UPS** topology exclusively. In this topology, all power flows through the rectifier → DC bus → inverter path continuously. The AC output is entirely regenerated from the DC bus, providing complete isolation from input power quality events. There is no transfer time — the inverter is always supplying the load.
 
@@ -267,7 +267,7 @@ Semiconductor fabs require **online (double-conversion) UPS** topology exclusive
 
 **Total fab UPS capacity**: A medium-sized fab (30,000 WSPM) typically has 3-8 MVA of UPS capacity across multiple units, providing clean power to 60-80% of production tools. Non-critical loads (facility HVAC, lighting, office) run on conditioned utility power without UPS.
 
-#### Backup Power Generation
+### Backup Power Generation
 
 **Diesel generators**: The primary backup for extended utility outages. Diesel generators provide reliable, quick-starting standby power with well-understood maintenance requirements.
 
@@ -280,7 +280,7 @@ Semiconductor fabs require **online (double-conversion) UPS** topology exclusive
 
 **Automatic transfer switch (ATS)**: Monitors utility power quality. When voltage or frequency deviates beyond thresholds (typically ±15% voltage or ±2 Hz frequency) for longer than a configurable delay (0-5 seconds, typically set to 1-3 seconds to ride through momentary sags), the ATS signals the generator to start, waits for generator to reach acceptable voltage/frequency, then transfers the load from utility to generator. Transfer time with motorized switches: 3-10 seconds. With static transfer switches (SCR-based): <0.25 seconds. The ATS also transfers back to utility when power is restored and stable for a minimum return time (typically 15-30 minutes to avoid cycling on intermittent utility power).
 
-#### Power Distribution Architecture
+### Power Distribution Architecture
 
 The fab power distribution system is a hierarchical network from the utility service entrance to individual tool connections:
 
@@ -296,7 +296,7 @@ The fab power distribution system is a hierarchical network from the utility ser
 
 **Receptacle standards**: Semiconductor tools use NEMA configurations: L6-30 (30A, 250V, locking), L6-50, L21-30 (30A, 120/208V, 3-phase, locking), and hardwired connections for tools >50A. Locking receptacles prevent accidental disconnection from vibration. Color-coded by voltage: 208V = blue, 480V = brown/orange, 120V = black.
 
-#### Power Redundancy Configurations
+### Power Redundancy Configurations
 
 - **N+1**: One additional UPS or generator beyond what is required to carry the full load. If any single unit fails, the remaining units carry the full load. Most common configuration for cost-effective redundancy. Example: 3 UPS units of 500 kVA each for a 1000 kW load — any two can carry the load.
 - **2N**: Two completely independent power paths from service entrance to tool. Each path carries 50% of the load (or 100% in static-transfer-switch configurations where one path is primary and the other is standby). A failure of any component in one path does not affect the other. Used for the most critical tools (lithography scanners, process-critical implanters). Requires double the infrastructure investment.
@@ -304,7 +304,7 @@ The fab power distribution system is a hierarchical network from the utility ser
 
 **Static transfer switch (STS)**: Solid-state (SCR-based) switch that transfers between two independent power sources in <0.25 cycles (4 ms). Used at the tool level to provide dual-path redundancy without requiring the tool itself to have dual power inputs. The STS continuously monitors both sources and transfers to the alternate source if the active source deviates from tolerance. "Break-before-make" transfer (brief interruption <4 ms) or "make-before-make" (momentary paralleling of both sources, requiring source synchronization).
 
-#### Grounding for Sensitive Equipment
+### Grounding for Sensitive Equipment
 
 Semiconductor fab grounding goes beyond the safety grounding described earlier. Two distinct grounding systems serve different purposes:
 
@@ -318,7 +318,7 @@ Semiconductor fab grounding goes beyond the safety grounding described earlier. 
 
 **Grounding conductor impedance**: At 60 Hz, a copper conductor's impedance is essentially its DC resistance. At 10 MHz, skin effect and inductance dominate — a round wire's impedance increases dramatically. Flat copper strap (25 mm × 3 mm) has lower RF impedance than round wire of equivalent cross-section. For fab signal reference grounds, flat copper straps or braided conductors are used.
 
-#### Power Quality Monitoring
+### Power Quality Monitoring
 
 Continuous power quality monitoring at multiple points throughout the electrical distribution system provides early warning of degradation and data for root-cause analysis of tool faults:
 
@@ -338,7 +338,7 @@ Continuous power quality monitoring at multiple points throughout the electrical
 
 **Power quality instruments**: Clamp-on power analyzers (3-phase, measures all parameters above, data logging to SD card or Ethernet) for portable surveys. Permanent panel-mounted meters (Modbus or Ethernet communication to building management system) for continuous monitoring. Calibration: verify accuracy annually against a traceable reference standard.
 
-#### Medium-Voltage Distribution Within the Fab
+### Medium-Voltage Distribution Within the Fab
 
 Large semiconductor fabs often use medium-voltage (4.16 kV or 13.8 kV) distribution within the building to reduce cable sizes and line losses. A 15 MW electrical load at 480V would require 18,000 A of current capacity — an impractical number of large cables. At 13.8 kV, the same load draws only 628 A, easily handled by a few parallel cables per phase.
 
@@ -348,7 +348,7 @@ Large semiconductor fabs often use medium-voltage (4.16 kV or 13.8 kV) distribut
 
 **Electrical room design**: Each electrical room houses the medium-voltage switchgear, step-down transformers, low-voltage switchboards, UPS systems, and PDU transformers for its zone. Requirements: minimum 1 m clear working space in front of all panels (NEC 110.26), fire-rated walls (2-hour minimum) separating electrical rooms from production areas, temperature controlled (UPS and transformer heat output: 5-15 kW per room requires dedicated HVAC), and emergency lighting.
 
-#### Cable Management and Routing
+### Cable Management and Routing
 
 Semiconductor fabs route electrical cables through a hierarchical system of cable trays, conduits, and busways:
 
@@ -356,7 +356,7 @@ Semiconductor fabs route electrical cables through a hierarchical system of cabl
 - **Conduit**: Rigid steel or EMT (electrical metallic tubing) for vertical risers and penetrations through fire-rated walls (fire-stopped with intumescent putty or ceramic fiber). Flexible metal conduit (FMC) for final connections to vibrating equipment (pumps, compressors).
 - **Fire-stopping**: Every cable penetration through fire-rated barriers is sealed with listed fire-stop systems. A fire in an electrical room must not spread to the cleanroom or production areas through cable openings.
 
-#### Energy Efficiency in Power Distribution
+### Energy Efficiency in Power Distribution
 
 Every stage of power conversion and distribution incurs energy losses. In a large fab, these losses amount to 3-8% of total electricity consumed — at 15 MW, that is 450-1200 kW of continuous waste heat:
 
@@ -367,13 +367,13 @@ Every stage of power conversion and distribution incurs energy losses. In a larg
 
 **Power usage effectiveness (PUE)**: Total facility power divided by IT/process power. A fab PUE of 1.5 means 50% additional power is consumed by cooling, distribution losses, and facility systems. Target for modern fabs: 1.2-1.4. Reducing power distribution losses contributes directly to PUE improvement.
 
-#### Coordination Study and Arc Flash Analysis
+### Coordination Study and Arc Flash Analysis
 
 **Protective device coordination**: Every overcurrent device (fuse, breaker) in the distribution hierarchy must be coordinated so that a fault on a branch circuit trips only the branch device, not the upstream feeder device. This requires a coordination study that plots the time-current curves of all devices on one graph and adjusts settings (long-time, short-time, instantaneous pickup) to ensure no overlap. A miscoordinated system trips the main breaker on a branch fault, shutting down the entire fab section.
 
 **Arc flash hazard analysis**: Required by NFPA 70E for worker safety. Calculates the incident energy (cal/cm²) at each panel and determines the required personal protective equipment (PPE) category for energized work. Key factors: available fault current (higher = more energy), fault clearing time (longer = more energy), and working distance (closer = more exposure). Mitigation: faster relays (reducing clearing time), current-limiting breakers (reducing peak fault current), remote racking (allowing breaker insertion/removal from a safe distance), and arc-resistant switchgear (channels arc energy away from the operator through top-mounted plenums).
 
-#### Emergency Power Off (EPO)
+### Emergency Power Off (EPO)
 
 Semiconductor fabs have Emergency Power Off systems that disconnect all electrical power to a tool bay or the entire fab in case of fire, toxic gas release, or other emergency:
 
@@ -381,7 +381,7 @@ Semiconductor fabs have Emergency Power Off systems that disconnect all electric
 - **Sequenced shutdown**: EPO signal triggers UPS inverter shutdown (disconnects critical loads), closes fire dampers, shuts off process gas valves, and activates fire suppression. The sequence is designed to prevent hazardous conditions from worsening during evacuation.
 - **Restart procedure**: After an EPO event, power cannot be restored by simply resetting the EPO button. A documented restart procedure requires visual inspection of the affected zone, verification that the emergency condition has been resolved, and manual restart of each UPS and distribution breaker in sequence. Restart time: 2-8 hours depending on the number of tools that must re-initialize.
 
-#### Power Systems Commissioning and Testing
+### Power Systems Commissioning and Testing
 
 Before a fab begins production, the entire electrical system undergoes rigorous commissioning to verify it meets design specifications:
 

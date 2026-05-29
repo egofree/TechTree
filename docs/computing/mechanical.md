@@ -8,7 +8,6 @@
 > **Outputs**: calculation_aids
 > **Critical**: No — computing enhances capability but is not strictly required for survival
 
-## Problem
 
 Engineering, navigation, ballistics, and bookkeeping all require arithmetic — lots of it. Hand calculation is slow and error-prone: multiplying two 6-digit numbers takes 2-3 minutes by hand, and a single digit transposition invalidates the result. Mechanical calculation aids and computing machines automate arithmetic, trading mechanical complexity for speed and reliability. From the abacus (addition/subtraction at 10-20 operations per second) through the slide rule (multiplication in 5 seconds) to the difference engine (tabulating polynomial tables without human intervention), each device extends the range of computation available before electronic computers exist.
 

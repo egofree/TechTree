@@ -8,7 +8,6 @@
 > **Outputs**: light_aircraft, aerial_reconnaissance, short_range_cargo
 > **Critical**: No
 
-## Problem
 
 Light aircraft — single-engine propeller planes of wood-and-fabric or aluminum construction — enable rapid long-distance transport, aerial survey, and emergency medical evacuation. They require internal combustion engines (100-300 hp), gasoline fuel, aluminum or composite airframes, and basic avionics (magnetic compass, altimeter, airspeed indicator). Before aviation, covering 500 km takes days by ground; a light aircraft does it in 2-3 hours.
 

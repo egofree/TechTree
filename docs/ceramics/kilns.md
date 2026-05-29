@@ -60,24 +60,24 @@ This document covers the design and construction of kilns from the simplest eart
 
 ## Scove Kiln (Simplest — No Construction Required)
 
-#### Principle
+### Principle
 
 The scove kiln is the absolute minimum firing method: stack dried pots in a pyramid, surround with fuel, cover with earth and sherds, and ignite. No permanent structure is built. Heat is contained by the earth and sherd covering. This method proves the concept of pottery firing before any kiln construction.
 
-#### Prerequisites
+### Prerequisites
 
 - Dried pottery (bone-dry, 1-50 pieces)
 - Fuel: wood, dung, or straw (20-50 kg for small stack)
 - Broken pottery sherds (for covering — recycled from previous failed firings)
 - Earth or sand (for insulating cover)
 
-#### Materials
+### Materials
 
 - Wood fuel: 2-4 kg per kg of pottery (dry hardwood preferred)
 - Sherds: enough to cover the stack with 5-10 cm layer
 - Earth: enough to seal the covering, 10-20 cm layer over sherds
 
-#### Procedure
+### Procedure
 
 1. **Select site**: Flat, dry ground away from structures and overhanging vegetation (minimum 5 m clearance). Clear area to bare earth, 2-3 m diameter.
 2. **Lay fuel bed**: Spread 5-10 cm layer of dry kindling and small wood on the ground, 60-100 cm diameter circle.
@@ -89,13 +89,13 @@ The scove kiln is the absolute minimum firing method: stack dried pots in a pyra
 8. **Cool**: Seal all openings with earth. Allow 4-12 hours for cooling. Opening too soon causes thermal shock cracking.
 9. **Unload**: Carefully remove earth and sherds. Sort fired pottery — expect 30-60% loss rate from cracking and underfiring.
 
-#### Calibration and Verification
+### Calibration and Verification
 
 1. **Visual temperature assessment**: Red-orange glow visible through spy holes ≈ 800°C. This is the minimum for earthenware.
 2. **Pot color test**: Broken test piece should ring when tapped (not thud). Cross-section should be uniform color throughout (no dark core = underfired).
 3. **Water absorption test**: Weigh fired pot, soak in water 24 hours, reweigh. Earthenware absorption: 5-15%. If >20%, underfired.
 
-#### Expected Performance
+### Expected Performance
 
 | Parameter | Value |
 |-----------|-------|
@@ -106,14 +106,14 @@ The scove kiln is the absolute minimum firing method: stack dried pots in a pyra
 | Firing time | 2-4 hours (plus 4-12 hours cooling) |
 | Maximum load | 5-50 pots (one stack) |
 
-#### Strengths
+### Strengths
 
 - Zero construction required — fire and earth only
 - Proves pottery firing concept before committing to permanent kiln construction
 - Minimal material investment — broken sherds are recycled from failed firings
 - Quick cycle: total time 6-16 hours from lighting to unloading
 
-#### Weaknesses
+### Weaknesses
 
 - Very high loss rate (30-60%) from cracking and underfiring — uneconomical for production
 - Temperature is uncontrolled and non-uniform — pots near the center may be underfired while those near the fuel are overfired
@@ -122,24 +122,24 @@ The scove kiln is the absolute minimum firing method: stack dried pots in a pyra
 
 ## Pit Kiln
 
-#### Principle
+### Principle
 
 A pit dug into the ground provides better insulation and more uniform heat distribution than the scove method. The earth walls of the pit reflect heat back onto the ware, and the geometry provides some draft control. This is the first step up from scove firing and was used by many early cultures as their primary firing method.
 
-#### Prerequisites
+### Prerequisites
 
 - Dried pottery (bone-dry, 5-100 pieces)
 - Fuel: wood or charcoal (30-100 kg per firing)
 - Stone or broken brick (for pit lining)
 - Digging tools (shovel, pick)
 
-#### Materials
+### Materials
 
 - Wood fuel: 1.5-3 kg per kg of pottery (better efficiency than scove due to earth insulation)
 - Lining stones: 20-50 kg (flat stones, 10-20 cm diameter, for pit bottom and lower walls)
 - Earth cover: excavated soil reused for sealing
 
-#### Procedure
+### Procedure
 
 1. **Dig pit**: Excavate circular pit 30-60 cm deep, 60-100 cm diameter. Slope sides slightly inward at top (≈5° batter). Line bottom with flat stones to provide level, heat-reflecting surface.
 2. **Prepare fuel bed**: Lay 5-10 cm of kindling and small wood on the pit bottom.
@@ -149,13 +149,13 @@ A pit dug into the ground provides better insulation and more uniform heat distr
 6. **Ignite and fire**: Light from bottom opening. Maintain fire for 3-6 hours. Add fuel through the opening if needed.
 7. **Cool and unload**: Seal all openings. Cool 6-12 hours. Unload carefully.
 
-#### Calibration and Verification
+### Calibration and Verification
 
 1. **Same visual temperature assessment as scove kiln**: Red glow ≈ 800°C. Clear exhaust indicates high temperature.
 2. **Pot ring test**: Tap fired pot with knuckle. Clear ring = well-fired. Dull thud = underfired or cracked.
 3. **Water absorption test**: Target 5-15% for earthenware.
 
-#### Expected Performance
+### Expected Performance
 
 | Parameter | Value |
 |-----------|-------|
@@ -166,14 +166,14 @@ A pit dug into the ground provides better insulation and more uniform heat distr
 | Firing time | 3-6 hours (plus 6-12 hours cooling) |
 | Maximum load | 5-100 pieces |
 
-#### Strengths
+### Strengths
 
 - Better temperature uniformity than scove — earth walls reflect and contain heat
 - Higher maximum temperature (700-900°C) than scove — sufficient for well-fired earthenware
 - Lower loss rate (20-40%) due to more even heating
 - Pit can be reused many times — the earth walls become progressively harder and more insulating with each firing
 
-#### Weaknesses
+### Weaknesses
 
 - Still limited to ~900°C maximum — insufficient for stoneware or any metallurgical process
 - Loading and unloading is awkward — must reach into pit from above
@@ -182,11 +182,11 @@ A pit dug into the ground provides better insulation and more uniform heat distr
 
 ## Updraft Kiln (First Purpose-Built Kiln)
 
-#### Principle
+### Principle
 
 The updraft kiln is the simplest permanent kiln design: hot gases rise directly from the firebox through the ware chamber and exit through the top. The permanent structure provides repeatable results and higher temperatures than pit or scove methods. The design consists of a firebox at the bottom, a ware chamber above, and a flue opening at the top.
 
-#### Prerequisites
+### Prerequisites
 
 - [Fire clay](pottery.md) or common clay (for brick construction)
 - [Grog](pottery.md) (crushed fired clay, 30-50% addition to fireclay)
@@ -194,14 +194,14 @@ The updraft kiln is the simplest permanent kiln design: hot gases rise directly 
 - [Wood fuel](../plants/index.md) or [charcoal](../energy/charcoal.md) (50-200 kg per firing)
 - Brick molds or hand-forming capability — see [Pottery](pottery.md)
 
-#### Materials
+### Materials
 
 - Clay bricks (hand-formed or molded): 200-500 bricks, 230 × 114 × 65 mm nominal (±5 mm tolerance as-formed)
 - Fireclay mortar: fireclay + sand (1:2 ratio by volume) for bedding joints
 - Clay grate bars: 3-5 bars, 25-30 mm diameter, 200-300 mm length (fire clay + 50% grog, fired separately to 1200°C)
 - Iron rods (if available): 15-20 mm diameter, 300-400 mm length — see [Metals](../metals/index.md)
 
-#### Procedure
+### Procedure
 
 1. **Prepare foundation**: Level a circular or rectangular area 80-100 cm diameter. Lay 5-10 cm of compacted gravel for drainage. Mark the outline.
 2. **Build firebox walls**: Lay bricks or hand-packed clay lumps to form a cylinder or box, 60-80 cm internal diameter, 30-40 cm tall (firebox height). Wall thickness: 10-15 cm (single-brick or double-brick). Leave a stoking opening 20-25 cm wide × 25-30 cm tall at the front. Use fireclay mortar between bricks.
@@ -211,14 +211,14 @@ The updraft kiln is the simplest permanent kiln design: hot gases rise directly 
 6. **Dry the kiln**: Allow the completed structure to air-dry for 7-14 days before first firing. Any residual moisture will cause steam spalling during initial heating.
 7. **First firing (curing)**: Build a small fire in the firebox and maintain it at 200-300°C for 4-8 hours. This gently dries the kiln structure. Then increase to full temperature over 6-12 hours.
 
-#### Firing Cycle
+### Firing Cycle
 
 1. **Water smoking (100-200°C)**: Gentle heat for 1-2 hours. Steam drives out of the ware. Too fast = steam explosion. Ware turns from dark to lighter color.
 2. **Oxidation (350-600°C)**: Increase heat steadily over 2-3 hours. Organic matter in clay burns out (visible smoke, organic smell). Clay minerals begin to transform.
 3. **Sintering (600-900°C)**: Maximum heat, maintained for 30-60 minutes. Clay particles fuse (vitrification begins ~800°C for earthenware). Temperature measured by visual indicators or thermocouple.
 4. **Cooling**: Seal all openings. Cool slowly over 4-12 hours. Rapid cooling causes thermal shock cracking.
 
-#### Temperature Indicators (No Instruments)
+### Temperature Indicators (No Instruments)
 
 - **Smoke color**: White (steam) → yellow-brown (organics) → clear (high temperature)
 - **Pot glow**: Red-orange glow visible through spy hole ≈ 800°C
@@ -226,13 +226,13 @@ The updraft kiln is the simplest permanent kiln design: hot gases rise directly 
 - **[Pyrometric cones](kiln-firing.md)**: Seger cones (pyramids of known melting clay placed inside — they slump at rated temperature). See [Kiln Firing Protocols](kiln-firing.md) for cone reference chart.
 - **Fuel consumption**: ~2-4 kg wood per kg of pottery.
 
-#### Calibration and Verification
+### Calibration and Verification
 
 1. **Thermocouple check** (if available): Insert [Type K thermocouple](../glossary/type-k-thermocouple.md) through spy hole into ware chamber. Verify peak temperature reaches 900-1000°C.
 2. **Cone test**: Place pyrometric cones (cone 06 to cone 04, corresponding to 999-1060°C) in the ware chamber. If cone bends to touch its base, rated temperature was reached.
 3. **Test tiles**: Fire clay test tiles with the ware. Break after cooling: well-fired tile should ring when struck, show uniform color throughout, and have <10% water absorption.
 
-#### Expected Performance
+### Expected Performance
 
 | Parameter | Value |
 |-----------|-------|
@@ -243,14 +243,14 @@ The updraft kiln is the simplest permanent kiln design: hot gases rise directly 
 | Ware capacity | 10-50 pieces (typical domestic pottery) |
 | Kiln lifetime | 20-100 firings (fireclay), 5-20 firings (common clay) |
 
-#### Strengths
+### Strengths
 
 - Reusable permanent structure — fires 20-100+ times before needing rebuild
 - Achieves earthenware temperatures (900-1000°C) reliably and repeatedly
 - Simple construction — can be built from locally available clay and bricks in 1-3 days
 - Draft through the chimney provides consistent airflow — more predictable results than pit kiln
 
-#### Weaknesses
+### Weaknesses
 
 - Temperature gradient from bottom to top — ware near the firebox is hotter than ware near the flue. Requires rotation or selective placement
 - Limited to ~1100°C with wood fuel — insufficient for stoneware (1200°C+) without improved insulation or forced draft
@@ -259,11 +259,11 @@ The updraft kiln is the simplest permanent kiln design: hot gases rise directly 
 
 ## Downdraft Kiln (Higher Temperature, Uniform Firing)
 
-#### Principle
+### Principle
 
 The downdraft design achieves higher temperatures and more uniform heat distribution than the updraft kiln. Hot gases rise from side fireboxes to the crown (domed roof), then deflect downward through the ware, exit through floor-level flues, and are drawn up the chimney. The downdraft path ensures even heating — ware near the firebox and far side receive similar temperatures.
 
-#### Prerequisites
+### Prerequisites
 
 - [Fireclay brick](pottery.md) (500-1500 bricks for interior lining, rated to 1400°C)
 - [High-alumina brick](advanced-ceramics.md) (100-300 bricks for hot-face zones, if targeting 1300°C+)
@@ -272,7 +272,7 @@ The downdraft design achieves higher temperatures and more uniform heat distribu
 - [Refractory mortar](pottery.md) (fireclay + sand, 100-300 kg)
 - [Wood, coal, or gas fuel](../energy/index.md)
 
-#### Materials
+### Materials
 
 - Fireclay bricks: 230 × 114 × 65 mm, rated 1200-1400°C. Joint thickness: 2-3 mm.
 - Steel banding: 30-50 mm wide × 3-5 mm thick flat bar, or 10-15 mm diameter tie rods with turnbuckles.
@@ -280,7 +280,7 @@ The downdraft design achieves higher temperatures and more uniform heat distribu
 - Chimney brick: standard brick or firebrick for chimney construction.
 - Damper: cast iron or heavy steel plate for chimney draft control.
 
-#### Procedure
+### Procedure
 
 1. **Design the kiln**: Plan rectangular or round chamber, 1-2 m³ ware capacity. Firebox at one or both sides. Typical dimensions: 1.2-2.0 m interior width × 1.0-1.5 m interior depth × 1.5-2.0 m interior height.
 2. **Lay foundation**: Excavate to firm subsoil. Pour compacted gravel base, 15-20 cm thick. Lay a floor of two courses of fireclay brick on a sand bed.
@@ -292,14 +292,14 @@ The downdraft design achieves higher temperatures and more uniform heat distribu
 8. **Add structural reinforcement**: Wrap steel banding around the kiln at 2-3 levels. Tighten turnbuckles to compress the brickwork. This resists thermal expansion forces that would otherwise push the walls outward.
 9. **Dry and cure**: Air-dry 14-28 days. First firing: slow heat to 200°C over 8 hours, hold 4 hours. Then increase to 500°C over 4 hours, hold 2 hours. Then proceed to full temperature over 4-6 hours.
 
-#### Calibration and Verification
+### Calibration and Verification
 
 1. **Draft measurement**: Light a small fire in the firebox. Hold a smoky torch at the spy hole — smoke should be drawn into the kiln and up the chimney within 10-15 seconds. If not, chimney may be too short or flues blocked.
 2. **Temperature mapping**: Place pyrometric cones at 4-6 locations within the ware chamber during first firing. Compare cone deformation — should be within ±1 cone number (±20°C) across the chamber.
 3. **Thermocouple verification**: [Type K](../glossary/type-k-thermocouple.md) (up to 1250°C) or [Type S](../glossary/type-s-thermocouple.md) (up to 1600°C). Insert at multiple locations. Target: 1200-1300°C sustained for 30-60 minutes.
 4. **Cooling rate test**: After reaching peak temperature, seal kiln and measure temperature drop. Should not exceed 100°C/hour for the first 4 hours to prevent thermal shock damage to ware.
 
-#### Expected Performance
+### Expected Performance
 
 | Parameter | Value |
 |-----------|-------|
@@ -311,14 +311,14 @@ The downdraft design achieves higher temperatures and more uniform heat distribu
 | Chimney height required | 3-5 m for 1000°C; 5-8 m for 1200°C+ |
 | Draft pressure | ≈ 0.0342 × chimney height (m) × (ambient T K⁻¹ − flue gas T K⁻¹) Pa |
 
-#### Strengths
+### Strengths
 
 - Achieves stoneware and porcelain temperatures (1200-1300°C) consistently — the downdraft path provides both high temperature and uniform heating
 - Better fuel efficiency than updraft — heat makes two passes through the ware (up from firebox to crown, then down through ware to floor flues)
 - Chimney draft is predictable and controllable via damper — allows reduction atmosphere control for specific glaze effects
 - Scalable design — same principle works for 0.5 m³ studio kilns and 10 m³ industrial batch kilns
 
-#### Weaknesses
+### Weaknesses
 
 - Requires fireclay brick construction — common clay bricks soften above 1200°C and cannot withstand repeated thermal cycling
 - Chimney construction adds significant height (3-8 m) — requires structural stability against wind loads
@@ -327,18 +327,18 @@ The downdraft design achieves higher temperatures and more uniform heat distribu
 
 ## Climbing Kiln (Anagama / Dragon Kiln)
 
-#### Principle
+### Principle
 
 Built on hillside slopes, climbing kilns exploit natural draft for fuel efficiency at scale. The tunnel runs up the slope with fire at the lower end and chimney at the upper end. Hot gases naturally rise through the inclined tunnel, preheating ware in upper chambers. This design achieves excellent fuel efficiency and can fire hundreds of pieces in a single 3-7 day cycle.
 
-#### Prerequisites
+### Prerequisites
 
 - Hillside slope with 10-20° incline
 - [Fireclay brick](pottery.md) or stone (500-2000+ bricks)
 - [Wood fuel](../plants/index.md) — large quantities (1-5 tonnes for a full firing cycle)
 - Labor: 2-4 stokers working in shifts for 3-7 days continuous firing
 
-#### Materials
+### Materials
 
 - Fireclay bricks: 230 × 114 × 65 mm, for interior lining
 - Stone or common brick: for outer walls and foundation
@@ -346,7 +346,7 @@ Built on hillside slopes, climbing kilns exploit natural draft for fuel efficien
 - Wood fuel: hardwood preferred (oak, ash, maple — higher energy density and longer burn)
 - Kiln shelves and posts: fireclay slabs, 20-40 cm square, 1-2 cm thick
 
-#### Procedure
+### Procedure
 
 1. **Select site**: Find hillside with natural 10-20° slope. Length available determines kiln size (10-30+ m long).
 2. **Excavate foundation**: Cut a level trench into the hillside for the kiln floor. Width: 1.5-2.0 m. Length: 10-30 m.
@@ -357,13 +357,13 @@ Built on hillside slopes, climbing kilns exploit natural draft for fuel efficien
 7. **Build chimney**: At the upper end, extend the tunnel into a chimney 3-5 m above the kiln roofline. The natural slope plus chimney height provides strong draft.
 8. **Install stoking ports**: Cut openings in the side walls at 2-3 m intervals for inserting additional fuel along the length of the kiln during firing.
 
-#### Calibration and Verification
+### Calibration and Verification
 
 1. **Draft test**: Light a small fire at the firebox. Smoke should travel the full length of the tunnel and exit the chimney within 30-60 seconds.
 2. **Temperature gradient measurement**: Place pyrometric cones at 5-10 positions along the tunnel length during test firing. Upper chambers should reach higher temperatures due to preheated air from below.
 3. **Cycle time verification**: Time the first full firing. Target: 3-7 days of continuous stoking. Monitor fuel consumption: 1-3 kg wood per kg of pottery (very efficient at scale).
 
-#### Expected Performance
+### Expected Performance
 
 | Parameter | Value |
 |-----------|-------|
@@ -374,14 +374,14 @@ Built on hillside slopes, climbing kilns exploit natural draft for fuel efficien
 | Ware capacity | 100-1000+ pieces per firing |
 | Fuel consumption | 1-2 kg wood per kg pottery (excellent — natural draft + counterflow preheat) |
 
-#### Strengths
+### Strengths
 
 - Natural draft eliminates need for chimney on flat ground — the hillside slope provides the draft
 - Exceptional fuel efficiency at scale — counterflow heat exchange preheats ware in upper chambers using exhaust heat from lower chambers
 - Wood ash lands directly on pots during the long firing, fluxing into natural ash glaze at 1200°C+ — produces unique surface effects
 - Can fire hundreds of pieces in a single cycle — production scale without industrial infrastructure
 
-#### Weaknesses
+### Weaknesses
 
 - Requires specific terrain (hillside with suitable slope) — not portable or adaptable to flat sites
 - Continuous stoking for 3-7 days requires multiple workers in shifts — labor-intensive operation
@@ -390,11 +390,11 @@ Built on hillside slopes, climbing kilns exploit natural draft for fuel efficien
 
 ## Tunnel Kiln (Continuous Firing — Industrial Scale)
 
-#### Principle
+### Principle
 
 The tunnel kiln is a long horizontal tunnel (20-100+ m) where ware travels on kiln cars through three zones: preheat, firing, and cooling. Continuous operation provides the highest throughput and best fuel efficiency of any kiln design. The counterflow arrangement — hot ware moving toward cool incoming air, and cool ware moving toward hot exhaust — recovers heat that batch kilns waste.
 
-#### Prerequisites
+### Prerequisites
 
 - [Refractory brick](advanced-ceramics.md) (firebrick, insulating firebrick, high-alumina for hot zones)
 - [Steel structural frame](../metals/index.md) for outer shell and supports
@@ -403,7 +403,7 @@ The tunnel kiln is a long horizontal tunnel (20-100+ m) where ware travels on ki
 - [Electrical power](../energy/electricity.md) for pusher mechanism, fans, and instrumentation
 - [Temperature control system](kiln-firing.md) — thermocouples, pyrometers, automatic dampers
 
-#### Materials
+### Materials
 
 - Dense fireclay brick (hot-face): 230 × 114 × 65 mm, rated 1400°C, for firing zone lining
 - Insulating firebrick (backup): 230 × 114 × 65 mm, for preheat and cooling zones
@@ -413,7 +413,7 @@ The tunnel kiln is a long horizontal tunnel (20-100+ m) where ware travels on ki
 - Rails: standard railway rail (15-30 kg/m) set in concrete foundation
 - Burner system: gas burners preferred (precise control), oil burners, or solid fuel grates
 
-#### Procedure
+### Procedure
 
 1. **Design**: Determine tunnel length based on desired throughput and firing cycle. Typical: 20-100 m long × 1-3 m wide × 1-2 m high. Preheat zone = 1/3 length, firing zone = 1/3, cooling zone = 1/3.
 2. **Foundation**: Pour reinforced concrete slab, level to ±3 mm over the full length. Embed rail track in foundation.
@@ -425,14 +425,14 @@ The tunnel kiln is a long horizontal tunnel (20-100+ m) where ware travels on ki
 8. **Install instrumentation**: Thermocouples at 10-20 locations along the tunnel. Automatic gas/air ratio control on burners. Damper actuators for zone pressure control.
 9. **Commission**: Dry refractory lining slowly (48-96 hours at 100-200°C). Fire with empty kiln cars to establish temperature profile. Verify temperature uniformity: ±10°C across the ware setting at each zone.
 
-#### Calibration and Verification
+### Calibration and Verification
 
 1. **Temperature profile verification**: Record temperature at 10+ positions along the tunnel with empty cars. Preheat zone: ramp from ambient to 800°C. Firing zone: hold at target temperature (900-1400°C depending on product). Cooling zone: ramp from target to <100°C. Allowed variation: ±10°C at any point in the firing zone.
 2. **Atmosphere control**: Measure O₂ content in the flue gas with zirconia oxygen sensor. Oxidizing atmosphere: >5% O₂. Reducing atmosphere: <1% O₂ with CO >2%.
 3. **Throughput test**: Run production loads for 48+ hours continuous. Measure throughput (tonnes/day), fuel consumption (MJ/kg product), and product quality (rejection rate <5%).
 4. **Heat balance**: Measure fuel input, product mass, and exhaust gas temperature. Calculate thermal efficiency. Target: 30-50% less fuel per kg product vs batch kilns.
 
-#### Expected Performance
+### Expected Performance
 
 | Parameter | Value |
 |-----------|-------|
@@ -445,14 +445,14 @@ The tunnel kiln is a long horizontal tunnel (20-100+ m) where ware travels on ki
 | Push interval | 15-60 minutes per car |
 | Fuel type | Natural gas, LPG, oil, or solid fuel |
 
-#### Strengths
+### Strengths
 
 - Continuous production — highest throughput of any kiln design. No cool-down/reheat cycles between batches
 - 30-50% better fuel efficiency than batch kilns — counterflow heat recovery from cooling zone preheats incoming ware
 - Uniform temperature profile — every piece receives identical firing schedule. Rejection rate <5% for standardized products
 - Automated or semi-automated operation — hydraulic pusher mechanism advances cars without manual handling during firing
 
-#### Weaknesses
+### Weaknesses
 
 - Large capital investment — 20-100 m of refractory-lined tunnel, steel shell, rail system, burner array, instrumentation
 - Inflexible — designed for one product type and firing schedule. Cannot easily switch between products requiring different temperatures

@@ -10,7 +10,7 @@
 
 ## Purification Pathways
 
-#### Option A: Chemical Purification (Siemens-like Process)
+### Option A: Chemical Purification (Siemens-like Process)
 
 This is the standard industrial route to semiconductor-grade polysilicon (99.9999999%+ purity).
 
@@ -40,7 +40,7 @@ This is the standard industrial route to semiconductor-grade polysilicon (99.999
 - Three-step process (hydrochlorination → distillation → CVD) with 100-200 kWh/kg energy consumption — the most energy-intensive step in the silicon chain
 - BCl₃/SiHCl₃ separation requires distillation columns >30 m tall with >50 theoretical plates at reflux ratio >50:1
 
-#### Option B: Physical Purification (Zone Refining / Directional Solidification)
+### Option B: Physical Purification (Zone Refining / Directional Solidification)
 
 Lower purity than Siemens, but much simpler chemistry. Sufficient for solar cells (~5-7N).
 
@@ -63,7 +63,7 @@ Lower purity than Siemens, but much simpler chemistry. Sufficient for solar cell
 - Boron segregation coefficient k ≈ 0.8 makes segregation-based methods nearly useless for boron removal
 - Zone refining is extremely slow at 1-5 cm/hour — throughput is orders of magnitude below Siemens process
 
-#### Boron Removal via Slag Treatment
+### Boron Removal via Slag Treatment
 
 Directional solidification and zone refining effectively remove most metallic impurities (Fe, Al, Ca — segregation coefficients << 1), but **[boron](../glossary/boron.md)** is uniquely difficult because its segregation coefficient in silicon is ~0.8 (close to 1.0). This means boron distributes almost equally between solid and liquid phases during crystallization, making segregation-based methods nearly useless for boron. Since boron is a compensating dopant that degrades solar cell efficiency, dedicated removal is essential for solar-grade silicon.
 

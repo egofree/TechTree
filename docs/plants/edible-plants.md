@@ -8,7 +8,6 @@
 > **Outputs**: edible_plants, food_crops, vegetables, fruits, seeds
 > **Critical**: Yes — edible plants are the caloric foundation of all human civilization
 
-## Problem
 
 Every human settlement needs reliable caloric intake to survive, work, and reproduce. Wild foraging sustains small groups at low population density, but cannot support specialist labor, surplus production, or population growth. The transition from foraging to cultivation of edible plants is the inflection point where civilization becomes possible: staple crops produce 2-40 tonnes of food per hectare per year, supporting 5-20 people per hectare vs. 0.01-0.1 people per hectare from wild harvest alone. Identifying which plants are edible, how to cultivate them efficiently, how to process them for safety and digestibility, and how to store surpluses for lean seasons are all essential survival knowledge.
 

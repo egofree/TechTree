@@ -7,7 +7,6 @@
 > **Timeline**: Years 60-100+
 > **Outputs**: wafer_transfer_capability, cleanroom_robots, load_lock_systems
 
-## Problem
 
 A 300 mm semiconductor wafer contains billions of transistors across a silicon surface that must remain particle-free to within ISO Class 1 (≤1 particle ≥0.1 μm per cubic foot). Human handling introduces skin cells, lint, and oils that destroy yield. Automated wafer handling robots operate inside process equipment and between tools, transferring wafers with sub-millimeter positional accuracy while generating virtually no particles. This capability is essential for any fab processing wafers below 250 nm feature sizes.
 

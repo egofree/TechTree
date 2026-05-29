@@ -8,7 +8,6 @@
 > **Outputs**: lubricating_oil, grease, cutting_fluid, hydraulic_fluid, vacuum_oil
 > **Critical**: No — lubricants extend machine life and reduce friction but are not prerequisites for core capabilities
 
-## Problem
 
 Every machine with moving parts generates friction and heat. Two metal surfaces pressed together under load touch only at microscopic peaks called asperities. At those contact points, pressures exceed the yield strength of the metal. The surfaces weld together instantaneously, then tear apart as the parts move relative to each other. Each weld-and-tear cycle removes material, generates heat, and creates wear debris that grinds between the surfaces and accelerates further destruction. A plain steel-on-steel bearing running dry has a friction coefficient around 0.8. At moderate speed and load, it generates enough heat to discolor the metal within minutes and seize within hours.
 
@@ -444,7 +443,7 @@ Pump (gear pump: 10-200 bar, or piston pump: 200-400 bar) feeds control valves (
 - **Grease-packed**: Fill bearing cavity 30-50% with grease (do not overfill; churning generates heat). Grease lasts months to years depending on speed and temperature. Sealed bearings (rubber seals) retain grease for life. Shielded bearings (metal shields) allow some grease exchange.
 - **Oil mist lubrication**: Atomize oil with compressed air and pipe the mist to the bearing. Provides continuous fine lubrication. Excellent for high-speed spindle bearings. Requires clean, dry compressed air.
 
-#### Bearing Design Parameters for Bootstrap Machinery
+### Bearing Design Parameters for Bootstrap Machinery
 
 **Bearing PV limits**: The product of bearing pressure P (MPa) and surface velocity V (m/s) determines the heat generation rate in plain bearings. Each bearing material has a maximum PV rating: bronze (phosphor bronze) 1.75 MPa·m/s, Babbitt metal 1.05 MPa·m/s, PTFE (unfilled) 0.35 MPa·m/s, acetal (Delrin) 0.15 MPa·m/s, nylon 0.10 MPa·m/s. Exceeding the PV limit causes rapid temperature rise, lubricant breakdown, and bearing failure. For applications above the PV limit, use rolling element bearings (which have much higher speed/load capability) or provide forced lubrication with external cooling.
 

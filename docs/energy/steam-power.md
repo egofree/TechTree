@@ -8,7 +8,6 @@
 > **Outputs**: steam_engines, boilers, rotary_power
 > **Critical**: Yes — steam power is the first mechanical energy source independent of geography (unlike water and wind), enabling factories, railways, and mining at any location
 
-## Problem
 
 Steam power is the first mechanical energy source independent of geography. Water wheels require rivers with adequate head and flow rate. Windmills require consistent wind. Animal power requires fodder — land that could grow food for humans instead feeds draft animals. Steam engines work anywhere with fuel and water. This one capability — portable, continuous mechanical power — enabled the entire industrial revolution.
 

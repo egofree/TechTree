@@ -8,7 +8,6 @@
 > **Outputs**: zinc, zinc_oxide, zinc_alloys
 > **Critical**: Yes — zinc provides corrosion protection for steel (galvanizing), is essential for brass alloy, and enables zinc-air batteries for energy storage
 
-## Problem
 
 Zinc is the corrosion protection metal. Without galvanizing, steel structures rust and fail — a bare steel bridge in a marine atmosphere loses 50-100 μm/year of section thickness and becomes structurally unsafe within 10-20 years. Zinc sacrifices itself electrochemically to protect steel (electrode potential -0.76 V vs. SHE, compared to iron's -0.44 V). A galvanized coating of 85 μm provides 50-100+ years of service in rural atmospheres. No other common metal offers this combination of low cost, electrochemical protection, and ease of application.
 

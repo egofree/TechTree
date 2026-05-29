@@ -7,7 +7,6 @@
 > **Timeline**: Years 5-60+
 > **Outputs**: on_off_control, proportional_control, pid_control, temperature_regulation
 
-## Problem
 
 Temperature control is what separates haphazard craft from repeatable manufacturing. A kiln that overshoots by 50°C cracks its pottery. A furnace running too cold wastes fuel and produces inconsistent metal. A chemical reactor that drifts 10°C produces different reaction products than intended. And semiconductor manufacturing? Crystal growth furnaces need ±0.5°C stability at 1400°C. Diffusion furnaces demand ±0.1°C. Without thermostats, every thermal process is a gamble controlled by human attention span and guesswork.
 

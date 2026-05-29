@@ -8,7 +8,6 @@
 > **Outputs**: foup_transport, agv_systems, overhead_hoist_transport, fab_logistics
 > **Critical**: No — manual transport with push carts works at lower throughput; automation increases fab productivity but is not a prerequisite
 
-## Problem
 
 A 300 mm semiconductor fab processes 40,000-100,000 wafers per month. Each wafer visits 400-700 process steps across dozens of different tools. At any moment, thousands of FOUPs (each holding 25 wafers) must move between stockers (storage), process tools, and inspection stations. A single mis-delivered or delayed FOUP can idle a $20 million tool. Automated material transport is the logistics backbone that keeps the fab running at peak throughput.
 

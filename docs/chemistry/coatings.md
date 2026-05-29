@@ -8,7 +8,6 @@
 > **Outputs**: paints, coatings, inks, photoresists
 > **Critical**: No — protective coatings extend infrastructure lifespan but do not enable new capabilities directly
 
-## Problem
 
 Protective and decorative coatings prevent corrosion (the largest single cause of material degradation — estimated $2.5 trillion annual global cost), provide wear resistance, thermal insulation, electrical insulation, and aesthetic appearance. Inks enable printing — essential for marking, labeling, circuit board fabrication (screen-printed thick films), and photolithography (photoresists). This capability bridges basic chemistry (pigments, binders, solvents) with advanced materials engineering (semiconductor photoresists, thermal barrier coatings). Without coatings, steel structures rust, wood rots, and circuits cannot be patterned.
 

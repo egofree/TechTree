@@ -8,7 +8,6 @@
 > **Outputs**: roads, bridges
 > **Critical**: No
 
-## Problem
 
 Roads and bridges are the vascular system of civilization: they connect settlements, enable trade, and allow movement of goods too heavy for human portage. Without roads, transport is limited to navigable waterways and animal tracks — weather-dependent, slow, and capacity-limited. Road construction transforms raw terrain into all-weather transportation corridors, from simple dirt tracks to engineered macadam surfaces and truss bridges spanning rivers.
 

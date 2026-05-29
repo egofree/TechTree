@@ -8,7 +8,6 @@
 > **Outputs**: precision_lenses, optical_flats, interferometers, autocollimators, optical_comparators
 > **Critical**: No — precision optics enhance capability but basic optics function without them
 
-## Problem
 
 Semiconductor manufacturing tolerances shrink with every generation. Photolithography lenses demand surface figures better than λ/20 (25 nm). Mask flatness must be within λ/10 per centimeter. Alignment stages require angular positioning to arcsecond accuracy. Producing and verifying these surfaces needs instruments that measure what the eye cannot see, pushing optical fabrication from craft into metrology-grade precision.
 

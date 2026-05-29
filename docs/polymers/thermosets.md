@@ -6,7 +6,6 @@
 > **Enables**: [`chemistry.packaging-testing`](../chemistry/packaging-testing.md), [`electronics.assembly`](../electronics/assembly.md), [`photolithography.resists-masks`](../photolithography/resists-masks.md), [`polymers.composites`](composites.md)
 > **Critical**: No — thermosets are valuable but alternatives (thermoplastics, ceramics, metals) exist for most applications
 
-## Problem
 
 Thermosetting polymers are plastics that undergo an irreversible chemical reaction (cross-linking) during curing, forming a three-dimensional molecular network. Unlike thermoplastics (which soften when heated and can be reprocessed), thermosets permanently set into their final shape — once cured, they cannot be melted, remolded, or recycled by simple reheating. This irreversible cross-linking is both their defining characteristic and their primary advantage: thermosets resist heat deformation, chemical attack, and creep far better than thermoplastics.
 

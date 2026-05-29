@@ -52,7 +52,7 @@ Semiconductor devices sit at the heart of the electronics bootstrap chain. [Pass
 
 ## Diode Construction
 
-#### Discrete PN Junction Diode
+### Discrete PN Junction Diode
 
 1. **Starting wafer**: n-type silicon (phosphorus-doped, 1-10 Ω·cm, <111> or <100> orientation, 300-500 μm thick).
 2. **Oxidation**: Grow 0.5-1.0 μm SiO₂ in dry O₂ at 1000-1100°C (4-8 hours) or wet oxidation (H₂ + O₂) at 900-1000°C (1-2 hours). Wet oxidation is 5-10× faster but produces slightly lower quality oxide.
@@ -64,11 +64,11 @@ Semiconductor devices sit at the heart of the electronics bootstrap chain. [Pass
 8. **Scribe and dice**: Diamond scribe or laser scribe wafer into individual die (0.5 × 0.5 mm for small-signal to 10 × 10 mm for power diodes). Break or saw along scribe lines.
 9. **Package**: Die-attach to lead frame (silver epoxy or soft solder). Wire-bond anode contact. Mold in epoxy (transfer mold at 175°C, 70 bar, 90 sec). Trim and form leads. Mark with type designation.
 
-#### Zener Diode
+### Zener Diode
 
 Same process as standard diode but with heavily doped p and n regions to achieve specific breakdown voltage. Zener breakdown (tunneling) dominates below ~5V; avalanche breakdown (impact ionization) dominates above ~5V. Common voltages: 3.3V, 3.6V, 3.9V, 4.3V, 4.7V, 5.1V, 5.6V, 6.2V, 6.8V, 7.5V, 8.2V, 9.1V, 10V, 12V, 15V, 18V, 24V, 30V, 36V, 47V. Tolerance: ±2% (A suffix), ±5% (B suffix, standard).
 
-#### Schottky Diode
+### Schottky Diode
 
 Metal-semiconductor junction (no p-type region). Aluminum, platinum, or titanium deposited directly on n-type silicon. Forward voltage drop: 0.2-0.4V (vs. 0.6-0.7V for silicon pn junction). Faster switching (no minority carrier storage). Used in high-frequency rectification and power conversion. Reverse leakage higher than pn diodes: 1-100 μA at rated voltage (increases exponentially with temperature).
 
@@ -84,7 +84,7 @@ Metal-semiconductor junction (no p-type region). Aluminum, platinum, or titanium
 
 ## Bipolar Junction Transistor (BJT)
 
-#### NPN Transistor Construction
+### NPN Transistor Construction
 
 1. **Starting wafer**: n-type silicon (collector region), 5-20 Ω·cm, 300-500 μm thick.
 2. **Grow oxide, photolithography** for base region windows.
@@ -113,7 +113,7 @@ Metal-semiconductor junction (no p-type region). Aluminum, platinum, or titanium
 
 ## MOSFET (Metal-Oxide-Semiconductor FET)
 
-#### N-Channel Enhancement MOSFET
+### N-Channel Enhancement MOSFET
 
 1. **Starting wafer**: p-type silicon substrate, 5-20 Ω·cm.
 2. **Grow gate oxide**: Dry oxidation at 900-1000°C for thin, high-quality SiO₂. Thickness: 10-100 nm (controls Vth). For power MOSFETs: 50-100 nm (higher voltage rating). Gate oxide quality is the most critical parameter — a single defect causes gate leakage or oxide rupture.

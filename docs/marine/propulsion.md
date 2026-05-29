@@ -8,7 +8,6 @@
 > **Outputs**: marine engines, propellers, paddle wheels
 > **Critical**: No — specialized maritime capability, not required for land-based civilization
 
-## Problem
 
 Marine propulsion evolves through four stages: oar (muscle), sail (wind), steam (coal), and internal combustion (liquid fuel). Each stage increases power density and operational independence from weather. This document covers the engineering of marine propulsion systems — the adaptation of power sources for shipboard use.
 

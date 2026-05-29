@@ -6,7 +6,6 @@
 > **Timeline**: Years 40-100+
 > **Outputs**: spc_charts, cpk_indices, process_capability_analysis, six_sigma_metrics, control_limits
 
-## Problem
 
 Semiconductor manufacturing involves hundreds of sequential process steps, each introducing variability. Without statistical process control, defects accumulate undetected through the process chain, destroying yield. A single out-of-control diffusion furnace can ruin an entire batch of 25 wafers, each containing thousands of die worth tens of thousands of dollars. SPC provides the statistical framework to detect process shifts before they produce scrap, transforming manufacturing from reactive firefighting into proactive quality management.
 

@@ -8,7 +8,6 @@
 > **Outputs**: biological_pest_control, crop_protection, guardian_services, rodent_suppression
 > **Critical**: No — valuable for crop protection but not a foundation node
 
-## Problem
 
 Rats, mice, insects, and predators destroy 10-40% of global food production before it reaches human mouths. A single rat consumes 10-15 kg of grain per year and contaminates 10× that amount with urine and feces. A locust swarm of 1 km² contains 40-80 million insects consuming 1-2 tonnes of vegetation per day. Before synthetic pesticides (which require industrial chemistry infrastructure), biological pest control — using domesticated and managed animals — was the primary defense. It remains effective, sustainable, and requires no industrial supply chain.
 

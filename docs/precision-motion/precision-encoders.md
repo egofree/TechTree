@@ -8,7 +8,6 @@
 > **Enables**: [Wafer Stages & Scanner Systems](./wafer-stages.md), [Vibration Isolation](./vibration-isolation.md)
 > **Critical**: Yes — sub-nanometer position feedback is required for photolithography wafer stages
 
-## Problem
 
 Nanometer positioning stages (see [Nanometer Positioning](./nanometer-positioning.md)) are only as accurate as their position feedback. A piezo stage may have 0.01 nm actuator resolution, but if the position sensor measures to only 10 nm, the effective positioning accuracy is 10 nm. This document covers the encoder and interferometer technologies that close the feedback loop for nanometer-precision motion: optical scale encoders, laser interferometers, and the signal processing that extracts sub-nanometer position from optical measurements.
 

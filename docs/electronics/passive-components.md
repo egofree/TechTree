@@ -64,7 +64,7 @@ This document covers construction methods for each passive component type at thr
 
 ## Resistor Construction
 
-#### Carbon Composition Resistors
+### Carbon Composition Resistors
 
 1. Mix carbon powder with ceramic binder (clay or phenolic resin) in ratios from 5:1 (low resistance, ~10 Ω) to 1:10 (high resistance, ~10 MΩ). The carbon-to-binder ratio determines resistivity.
 2. Press mixture into cylindrical pellets (6 mm dia × 18 mm long for ½W rating) at 50-100 MPa.
@@ -86,7 +86,7 @@ This document covers construction methods for each passive component type at thr
 - High noise: carbon granularity generates current noise 10-100× higher than film types — unusable for low-level audio or precision measurement circuits
 - Large voltage coefficient (200-2000 ppm/V): resistance changes with applied voltage, introducing distortion in AC circuits
 
-#### Wire-Wound Resistors
+### Wire-Wound Resistors
 
 1. Select resistance wire: nichrome (Ni-Cr 80/20, ρ = 1.10 × 10⁻⁶ Ω·m) or constantan (Cu-Ni 55/45, ρ = 0.49 × 10⁻⁶ Ω·m).
 2. Calculate wire length: L = R × A / ρ, where A is wire cross-section area.
@@ -106,7 +106,7 @@ This document covers construction methods for each passive component type at thr
 - Limited resistance range (0.1 Ω to 100 kΩ) — high values require impractically long, thin wire
 - Bulky and expensive compared to film types — a 2W wire-wound resistor is 5-10× larger than a 2W metal film
 
-#### Film Resistors (Metal Film / Carbon Film)
+### Film Resistors (Metal Film / Carbon Film)
 
 1. Deposit thin resistive film onto ceramic rod (2-4 mm dia × 6-12 mm long). Carbon film: pyrolytic deposition from hydrocarbon gas at 900-1100°C. Metal film: sputtering or evaporation of Ni-Cr alloy (50-200 nm thick).
 2. Cut a helical groove through the film using a diamond-tipped cutting tool. The groove lengthens the current path, increasing resistance. Trim to target value by adjusting groove pitch.
@@ -126,7 +126,7 @@ This document covers construction methods for each passive component type at thr
 
 ## Capacitor Construction
 
-#### Ceramic Disc Capacitors
+### Ceramic Disc Capacitors
 
 1. Mix BaTiO₃ powder with organic binder (paraffin wax or PVA). Press into discs (5-15 mm dia × 1-3 mm thick) at 50-100 MPa.
 2. Sinter at 1200-1350°C for 1-4 hours. Cool slowly (2-5°C/min through Curie point at ~120°C for BaTiO₃) to achieve desired crystal structure.
@@ -146,7 +146,7 @@ This document covers construction methods for each passive component type at thr
 - Barium titanate powder is toxic if ingested — requires careful handling during production, and fired components pose dust hazard if cracked or machined
 - Limited maximum capacitance for Class 1 types (≤100 nF) — larger values require physically impractical disc sizes or stacked configurations
 
-#### Electrolytic Capacitors (Wet)
+### Electrolytic Capacitors (Wet)
 
 1. Etch aluminum foil (0.05-0.1 mm thick) in HCl or NaOH solution to increase surface area 20-200×. Etch pit depth: 1-50 μm.
 2. Form the dielectric (Al₂O₃) by anodizing the etched foil in boric acid or ammonium pentaborate solution at 50-600V DC. Oxide thickness: 1.2-1.5 nm/V of formation voltage. Formation time: 30-120 minutes.
@@ -166,7 +166,7 @@ This document covers construction methods for each passive component type at thr
 - Limited lifetime: electrolyte gradually dries out and decomposes, causing ESR to increase and capacitance to drop 20% per 1000 hours at 85°C — the component has a defined wear-out mechanism
 - Wide tolerance (±20%) and high temperature coefficient (±0.5-2%/°C) — unsuitable for precision timing or filtering applications
 
-#### Film Capacitors
+### Film Capacitors
 
 1. Draw [polymer film](../polymers/thermoplastics.md) to 2-20 μm thickness (polyester, polypropylene, or polycarbonate).
 2. Vacuum-deposit aluminum (20-50 nm) onto one or both sides of film as electrodes. Alternatively, use separate metal foil layers.

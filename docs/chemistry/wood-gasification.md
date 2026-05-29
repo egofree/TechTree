@@ -8,7 +8,6 @@
 > **Outputs**: producer_gas, charcoal, wood_tar
 > **Critical**: No — wood gasification provides fuel gas and chemical feedstocks from biomass but is superseded by coal and petroleum routes
 
-## Problem
 
 Wood gasification converts solid biomass (wood, agricultural waste) into a combustible gas mixture (producer gas) through partial combustion in a restricted-oxygen environment. The resulting gas — ~25% CO, ~10% H₂, ~60% N₂ — can power internal combustion engines and furnaces when petroleum is unavailable. The process also yields charcoal and wood tar as valuable byproducts. This is a pragmatic backup energy technology, not a primary industrial fuel, but critical during petroleum supply disruptions.
 

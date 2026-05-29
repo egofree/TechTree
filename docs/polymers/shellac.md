@@ -8,7 +8,6 @@
 > **Outputs**: shellac_flakes, shellac_solution, french_polish, phonograph_records
 > **Critical**: No — useful for insulation and finishing, but not a civilization bootstrap bottleneck
 
-## Problem
 
 Before synthetic polymers are available, civilization needs a fast-drying, non-toxic, natural resin for wood finishing, electrical insulation, food and pharmaceutical coatings, adhesive bonding, and thermoplastic molding. Shellac is the only natural material that combines all of these properties: it dries in minutes (not hours), bonds to nearly any substrate, is food-safe, provides dielectric insulation, and can be re-dissolved in ethanol for repair or rework. No other single natural substance matches this combination.
 

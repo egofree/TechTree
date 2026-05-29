@@ -8,7 +8,6 @@
 > **Outputs**: electronic_computers
 > **Critical**: No — computing enhances capability but is not strictly required for survival
 
-## Problem
 
 Electronic computing replaces slow, power-hungry electromechanical relays and mechanical calculators with switching elements that operate at MHz–GHz speeds. A vacuum tube switches in microseconds (vs. 10 ms for a relay); a transistor switches in nanoseconds. This speed increase makes real-time computation, signal processing, and large-scale data handling possible. Without electronic computing, there are no digital controllers, no CAD tools, no semiconductor design automation — and therefore no path to the complex ICs that modern technology depends on.
 

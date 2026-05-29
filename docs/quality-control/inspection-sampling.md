@@ -8,7 +8,6 @@
 > **Outputs**: sampling_plans, aql_tables, inspection_procedures, acceptance_criteria, switching_rules
 > **Critical**: No — 100% inspection is a viable (expensive) fallback; sampling plans reduce cost and time but are not strictly necessary
 
-## Problem
 
 Every manufactured part cannot be inspected 100% in volume production — the cost and time would be prohibitive. A 300 mm wafer may contain 100,000+ die; inspecting every die on every wafer through 500+ process steps is impossible. Acceptance sampling provides a statistically rigorous method to evaluate batch quality by inspecting a small, representative sample, accepting conforming lots and rejecting nonconforming ones. The challenge is designing sampling plans that reliably detect bad lots while minimizing the cost of inspection.
 

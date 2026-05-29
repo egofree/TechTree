@@ -136,7 +136,7 @@ The plant catalog includes 52 additional species with medicinal uses alongside o
 
 Beyond the five tech-tree catalog species, the following plants are historically critical medicines that any civilization bootstrapping effort must prioritize. These species represent the most important pharmacological discoveries derived from plants:
 
-#### Willow — *Salix alba*, *S. purpurea*, *S. fragilis* (Salicaceae)
+### Willow — *Salix alba*, *S. purpurea*, *S. fragilis* (Salicaceae)
 
 **Active compound**: Salicin (a phenolic glycoside), converted in the body to salicylic acid. Willow bark contains 0.5-1.5% salicin by dry weight; *Salix purpurea* (purple osier) contains the highest concentrations (up to 2.3% in young bark).
 
@@ -153,7 +153,7 @@ Beyond the five tech-tree catalog species, the following plants are historically
 
 **Cultivation**: Fast-growing tree; prefers damp soils near waterways. Propagates easily from cuttings (30 cm hardwood cutting pushed into wet soil in autumn). Coppices vigorously — cut back every 3-5 years for sustained bark harvest. Hardy to -30°C.
 
-#### Foxglove — *Digitalis purpurea* (Plantaginaceae)
+### Foxglove — *Digitalis purpurea* (Plantaginaceae)
 
 **Active compounds**: Cardiac glycosides — digitoxin (0.2-0.4% in dried leaf), gitoxin, and digoxin. These compounds increase force of cardiac contraction while slowing heart rate.
 
@@ -167,7 +167,7 @@ Beyond the five tech-tree catalog species, the following plants are historically
 
 **Cultivation**: Biennial; first year forms rosette, second year flowers and dies. Prefers acidic soil (pH 5.0-6.5), partial shade, well-drained conditions. Sow seeds on surface (light-germinated) in spring. Naturalizes readily in temperate climates.
 
-#### Cinchona — *Cinchona officinalis*, *C. ledgeriana*, *C. succirubra* (Rubiaceae)
+### Cinchona — *Cinchona officinalis*, *C. ledgeriana*, *C. succirubra* (Rubiaceae)
 
 **Active compound**: Quinine and related quinoline alkaloids. Bark contains 0.5-8% total alkaloids depending on species and age; *C. ledgeriana* bark contains up to 8% quinine. Over 30 alkaloids identified; quinine is the most therapeutically important.
 
@@ -181,7 +181,7 @@ Beyond the five tech-tree catalog species, the following plants are historically
 
 **Cultivation**: Evergreen tree, 10-25 m tall. Native to Andean cloud forests at 1,500-3,000 m elevation. Requires cool (15-20°C), humid conditions with 1,500-2,500 mm rainfall. Propagated from seed or cuttings. Can be grown at lower elevations in the tropics but quinine content drops significantly below 1,000 m.
 
-#### Opium Poppy — *Papaver somniferum* (Papaveraceae)
+### Opium Poppy — *Papaver somniferum* (Papaveraceae)
 
 **Active compounds**: Over 40 alkaloids in the latex. Principal: morphine (9-14% of raw opium), codeine (1-3%), thebaine (1-3%), papaverine (0.5-1.5%), noscapine (4-8%). All concentrated in the milky latex exuded from scored seed pods.
 

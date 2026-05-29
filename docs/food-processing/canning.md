@@ -81,7 +81,7 @@ While [Food Preservation](preservation.md) covers the full spectrum of preservat
 
 ## Thermal Processing (The Core of Canning)
 
-#### Water Bath Canning (Acid Foods, pH < 4.6)
+### Water Bath Canning (Acid Foods, pH < 4.6)
 
 Acid foods do not require pressure processing because *C. botulinum* spores cannot germinate at pH < 4.6:
 
@@ -107,7 +107,7 @@ Acid foods do not require pressure processing because *C. botulinum* spores cann
 - Altitude above 1000 m lowers boiling point and compromises processing — communities in mountainous regions need pressure canners for all foods
 - Glass jars break during thermal shock if cooled too rapidly; loss rate of 2-5% per batch is typical
 
-#### Pressure Canning (Low-Acid Foods, pH > 4.6)
+### Pressure Canning (Low-Acid Foods, pH > 4.6)
 
 Low-acid foods (vegetables, meat, seafood, soups) **must** be processed at 116-121°C to destroy *C. botulinum* spores:
 

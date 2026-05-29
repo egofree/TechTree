@@ -8,7 +8,6 @@
 > **Outputs**: wood_pulp, paper, kraft_liquor, tall_oil
 > **Critical**: No — pulp chemicals support paper and textile production but are not prerequisites for core industrial capabilities
 
-## Problem
 
 Pulp and paper chemicals enable the conversion of wood and plant fibers into paper, cardboard, and cellulose-derived materials. The industry consumes enormous volumes of chemicals: sodium hydroxide (NaOH), sodium sulfide (Na₂S), chlorine dioxide (ClO₂), hydrogen peroxide (H₂O₂), sulfuric acid (H₂SO₄), alum (aluminum sulfate), and various sizing and coating agents. Beyond paper, the kraft pulping process yields tall oil (rosin, fatty acids) and lignin as valuable chemical byproducts, and dissolving-grade pulp is the feedstock for regenerated cellulose (viscose rayon, cellulose acetate, and emerging nanocellulose materials).
 

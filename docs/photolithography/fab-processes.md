@@ -10,7 +10,7 @@
 
 ## Core Fab Processes
 
-#### Thermal Oxidation
+### Thermal Oxidation
 - Grow SiO₂ on silicon wafer in high-temperature furnace (900-1200°C)
 - Dry oxidation: Si + O₂ → SiO₂ (slower, denser)
 - Wet oxidation: Si + H₂O → SiO₂ (faster, used for thick layers)
@@ -41,7 +41,7 @@
 - Gate oxide growth at 2 nm/min means a 100 nm layer takes ~2 hours — slow for thick field oxides
 - Wet oxidation oxide contains more OH bonds, slightly lower quality — not suitable for gate dielectrics
 
-#### Etching
+### Etching
 - **Dry/plasma etching** (later): Reactive ion etching (RIE) with fluorine or chlorine plasmas
   - Better pattern fidelity, anisotropic profiles
 
@@ -65,7 +65,7 @@
 - Wet etching is inherently isotropic (except KOH/TMAH on Si) — limits pattern fidelity for sub-micron features
 - Hot H₃PO₄ at 155-180°C for Si₃N₄ requires reflux condenser and poses severe burn hazard
 
-#### Deposition
+### Deposition
 - **Chemical Vapor Deposition (CVD)**: Gas-phase reaction deposits thin films
   - Poly-Si: SiH₄ decomposition
   - SiO₂: SiH₄ + O₂ or TEOS decomposition
@@ -89,7 +89,7 @@
 - APCVD has poor step coverage (±5-10% uniformity) — unsuitable for sub-micron gap fill
 - PECVD films contain 15-30 at% hydrogen, degrading dielectric quality compared to LPCVD or thermal growth
 
-#### Doping
+### Doping
 - **Diffusion**: Expose wafer to dopant source at high temperature
   - n-type: phosphorus (POCl₃ gas, or solid P₂O₅)
   - p-type: boron (BBr₃ gas, or solid B₂O₃)
@@ -105,7 +105,7 @@
 - Diffusion cannot independently control dose and junction depth — both are coupled to temperature and time
 - Ion implantation requires high-voltage accelerator (50-300 keV) and vacuum — significant capital and maintenance
 
-#### Metallization
+### Metallization
 - Aluminum (or later copper) interconnects
 - Vacuum evaporation or sputtering of metal
 - Photolithographic patterning of metal lines

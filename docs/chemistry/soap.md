@@ -8,7 +8,6 @@
 > **Outputs**: soap, glycerol, detergent
 > **Critical**: No — soap and detergents improve sanitation but are not prerequisites for core industrial capabilities
 
-## Problem
 
 Saponification — the reaction of fats or oils with alkali — is arguably the oldest chemical reaction performed at industrial scale. Soap has been manufactured for at least 4,500 years (Babylonian clay tablets circa 2800 BCE describe fat + ash mixtures). The chemistry is deceptively simple: triglyceride + alkali → soap salt + glycerol. Yet this reaction underpins hygiene, public health, textile manufacturing, metalworking, and — via glycerol recovery — explosives production.
 

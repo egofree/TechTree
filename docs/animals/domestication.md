@@ -8,7 +8,6 @@
 > **Outputs**: livestock, breeding_stock, manure, dairy, meat, eggs
 > **Critical**: Yes — foundation node enabling all livestock and poultry species
 
-## Problem
 
 Domestication converts wild fauna into reliable, renewable sources of labor, food, fiber, and materials. Before domestication, humans rely entirely on hunting and gathering — protein intake is unpredictable, labor is limited to human muscle, and fiber comes only from wild plants. Domesticated animals provide continuous output: daily milk, annual fleece, seasonal offspring, steady draft power, and manure that sustains crop yields. A single dairy cow produces 3,000–6,000 liters of milk per year — equivalent to the protein from dozens of wild game animals, without the uncertainty of the hunt.
 

@@ -7,7 +7,6 @@
 > **Timeline**: Years 50-100+
 > **Outputs**: secs_gem_communication, equipment_state_data, alarm_events, process_trace_data
 
-## Problem
 
 A modern semiconductor fab contains hundreds of process tools — etchers, CVD reactors, implanters, lithography scanners, CMP polishers — each from different manufacturers, each with proprietary control interfaces. Without standardized communication, every tool integration requires custom software, and centralized fab control is impossible. SECS/GEM protocols solve this by defining a universal language for equipment-to-host data exchange, enabling automated process control, recipe management, and real-time monitoring across the entire fab.
 

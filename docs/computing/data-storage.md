@@ -8,7 +8,6 @@
 > **Outputs**: persistent_storage, removable_media, solid_state_memory
 > **Critical**: No — computing enhances capability but is not strictly required for survival
 
-## Problem
 
 Computing requires persistent, reliable data storage. Programs, datasets, operating systems, and intermediate results must survive power cycles. Storage technology spans a vast range: from punch cards (the earliest automated data media) through magnetic recording (the backbone of mass storage for seven decades) to solid-state flash memory (the modern standard). Each technology trades off capacity, speed, cost, longevity, and manufacturing complexity. Understanding these tradeoffs is essential for choosing the right storage at each stage of the bootstrapping process.
 

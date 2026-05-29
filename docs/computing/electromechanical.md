@@ -8,7 +8,6 @@
 > **Outputs**: automated_machines, punch_cards
 > **Critical**: No — computing enhances capability but is not strictly required for survival
 
-## Problem
 
 Before electronic computers, automated computation and control require electromechanical systems — relays, cams, solenoids, and punch card machines that process information using physical motion rather than electron flow. These machines bridge the gap between purely mechanical automation (gears and cams) and electronic computing (transistors and integrated circuits). Relay logic can perform any Boolean operation; punch card systems can sort, tabulate, and process datasets of millions of records; magnetic drums provide random-access storage. The challenge is that electromechanical devices are slow (relay switching at 5-15 ms vs. transistors at nanoseconds), power-hungry (1-4 kW for a 2,000-relay computer), and failure-prone (MTBF ~10⁷ operations per relay). Understanding these systems is essential for the computing bootstrap path from mechanical to electronic.
 

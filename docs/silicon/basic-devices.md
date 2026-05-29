@@ -9,7 +9,7 @@
 
 ## Basic Semiconductor Devices
 
-#### Solar Cells (Primary Target — simplest useful semiconductor device)
+### Solar Cells (Primary Target — simplest useful semiconductor device)
 
 **Structure**: Large-area (100-300 cm²) pn junction on single-crystal or multicrystalline silicon wafer.
 
@@ -53,7 +53,7 @@
 - Single-junction silicon cells are thermodynamically limited to ~33% efficiency (Shockley-Queisser limit); practical cells reach 15-22%
 - Requires high-purity silicon feedstock from [silicon purification](purification.md) — impurity levels above 10¹⁶/cm³ kill carrier lifetime
 
-#### Diodes & Simple Transistors
+### Diodes & Simple Transistors
 
 **Point-contact diode**: Sharpened tungsten or phosphor-bronze wire whisker pressed against n-type silicon crystal. Forms small p-type region at contact point (metal-semiconductor junction). Simple, requires no processing. Used for: rectifiers, radio detectors.
 
@@ -85,7 +85,7 @@
 - Requires oxidation furnace (900-1100°C, dry or wet O₂) and photoresist processing — significantly more infrastructure than alloy junction
 - Shadow masking provides lower resolution (~50 μm) than photolithography (~1 μm), limiting device performance
 
-#### MOSFETs & CMOS
+### MOSFETs & CMOS
 
 **MOSFET structure**: Metal-Oxide-Semiconductor Field-Effect Transistor. A gate electrode insulated from the semiconductor channel by a thin layer of SiO₂ (gate oxide). Source and drain regions are doped opposite to the substrate. Voltage on the gate creates an electric field that induces a conductive channel between source and drain — no current flows through the gate itself (unlike bipolar transistors). Two modes: **[enhancement mode](../glossary/enhancement-mode.md)** (normally off, channel forms when gate voltage applied — the standard for logic) and **[depletion mode](../glossary/depletion-mode.md)** (normally on, channel forms at zero gate voltage, requires gate voltage to turn off — used for load resistors and analog switches).
 
@@ -284,7 +284,7 @@ Semiconductor device fabrication uses some of the most dangerous chemicals in in
 
 ## Circuit Design Examples
 
-#### Rectifier Bridge
+### Rectifier Bridge
 
 Four diodes arranged in a bridge convert AC to DC. During the positive half-cycle of the AC input, two diagonally opposite diodes conduct. During the negative half-cycle, the other two conduct. Current through the load flows in the same direction in both half-cycles.
 
@@ -293,7 +293,7 @@ Four diodes arranged in a bridge convert AC to DC. During the positive half-cycl
 - **Filter capacitor**: Add a reservoir capacitor across the DC output to smooth the 120 Hz (or 100 Hz) ripple. Size: C ≥ Iload/(2·f·ΔV), where ΔV is the allowable ripple voltage. For 1A load and 2V ripple at 60 Hz: C ≥ 1/(2·60·2) = 4,200 μF. Use a 4,700 μF/25V electrolytic capacitor.
 - **Ripple current**: The capacitor carries large AC ripple current (2-3× DC load current). Select capacitors rated for the ripple current at the operating temperature. Overheated capacitors vent electrolyte and fail.
 
-#### Voltage Regulator (Zener Shunt)
+### Voltage Regulator (Zener Shunt)
 
 A Zener diode in reverse breakdown maintains a nearly constant voltage across the load. A series resistor drops the excess voltage.
 
@@ -301,7 +301,7 @@ A Zener diode in reverse breakdown maintains a nearly constant voltage across th
 - **Power dissipation**: In the Zener: Pz = Vz × Iz = 5.1 × 0.03 = 0.153W. In the resistor: Pr = (Vin - Vz) × Itotal = 6.9 × 0.03 = 0.207W. Use at least 0.5W rated components.
 - **Regulation quality**: Output voltage varies with load current because the Zener dynamic impedance (typically 5-50 Ω) forms a voltage divider with the series resistor. For better regulation, use a series pass transistor (emitter follower driven by the Zener) to amplify the Zener's current capability.
 
-#### LED Driver
+### LED Driver
 
 An LED is a current-driven device. A series resistor sets the operating current.
 
@@ -310,7 +310,7 @@ An LED is a current-driven device. A series resistor sets the operating current.
 - **Typical operating current**: 10-20 mA for standard indicator LEDs. 350-700 mA for high-power illumination LEDs. 1-5 mA sufficient for low-brightness indicators.
 - **Example**: Blue LED (Vf = 3.2V) from 5V supply at 15 mA: R = (5 - 3.2)/0.015 = 120 Ω. Power in resistor: P = I²R = 0.015² × 120 = 0.027W. A 0.125W (1/8W) resistor is adequate.
 
-#### Transistor Switch
+### Transistor Switch
 
 A BJT used as a switch operates in cutoff (off) or saturation (on). The base resistor must supply enough base current to drive the transistor into saturation under worst-case conditions.
 
@@ -318,7 +318,7 @@ A BJT used as a switch operates in cutoff (off) or saturation (on). The base res
 - **Saturation requirement**: βforced = Ic / Ib must be less than βmin (typically βforced of 10-20 ensures hard saturation). At saturation, Vce ≈ 0.1-0.3V (not zero). This residual voltage is the saturation voltage, Vce(sat).
 - **Example**: Switch a 500 mA load from a 5V logic signal using a transistor with βmin = 50. Ib = 500/50 = 10 mA. Rb = (5 - 0.7)/0.01 = 430 Ω. Use 390 Ω standard value for extra margin.
 
-#### Oscillator Circuits
+### Oscillator Circuits
 
 **Astable multivibrator**: Two cross-coupled transistor switches that alternate on/off. Each collector drives the opposite base through an RC network. Frequency: f = 1/(1.4 × R × C) for a symmetric circuit (R = base resistor, C = coupling capacitor). Duty cycle ≈ 50% with matched components. Output: square wave, amplitude ≈ Vcc. Frequency stability: poor (±20% with temperature), but sufficient for blinking LEDs, clock generation for simple digital circuits, and tone generation.
 
@@ -326,7 +326,7 @@ A BJT used as a switch operates in cutoff (off) or saturation (on). The base res
 
 **Crystal oscillator**: A quartz crystal resonator replaces the LC tank. The crystal's piezoelectric resonance provides extremely high Q (10,000-100,000), giving frequency stability of ±0.01% (100 ppm) over temperature. Basic Pierce circuit: one inverting amplifier (transistor or logic gate), two load capacitors (10-30 pF each), and the crystal. Frequency range: 32.768 kHz (real-time clocks) to 50 MHz (microcontroller clocks). The crystal oscillator is the timing backbone of every digital system.
 
-#### Operational Amplifier Basics
+### Operational Amplifier Basics
 
 The op-amp is a high-gain differential amplifier with two inputs (inverting -, non-inverting +) and one output. Negative feedback trades open-loop gain (100,000-1,000,000×) for predictable, stable closed-loop gain set by external resistors.
 

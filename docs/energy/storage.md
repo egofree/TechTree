@@ -8,7 +8,6 @@
 > **Outputs**: lead_acid_batteries, grid_infrastructure, ups_systems, hydroelectric_power, wind_power
 > **Critical**: No — energy storage enables renewable intermittency management and power backup but is not on the critical bootstrap path
 
-## Problem
 
 Semiconductor fabrication equipment cannot tolerate power interruptions — a power glitch during a crystal growth run or lithography exposure destroys expensive work-in-progress. Energy storage provides buffer capacity, and diversification prevents single-source dependency.
 

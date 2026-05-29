@@ -70,11 +70,11 @@ The critical electronic ceramic families:
 
 ## Barium Titanate (BaTiO₃) — MLCC Capacitors
 
-#### Principle
+### Principle
 
 Barium titanate crystallizes in the perovskite structure (ABO₃). Above the Curie temperature (~120°C for pure BaTiO₃), the structure is cubic and paraelectric. Below 120°C, the Ti⁴⁺ ion displaces from the body center, producing tetragonal distortion and spontaneous polarization (ferroelectric). The dielectric constant peaks at ~10,000-15,000 at the Curie point and is ~2,000-5,000 at room temperature. This high permittivity, combined with thin-layer multilayer construction, enables enormous capacitance in tiny packages — over one trillion MLCCs are produced annually worldwide.
 
-#### Prerequisites
+### Prerequisites
 
 - [Barium carbonate](../chemistry/index.md) (BaCO₃, ≥99%, powder <5 μm)
 - [Titanium dioxide](../mining/index.md) (TiO₂, rutile or anatase, ≥99%, powder <2 μm)
@@ -84,7 +84,7 @@ Barium titanate crystallizes in the perovskite structure (ABO₃). Above the Cur
 - [Kiln](kilns.md) capable of 1200-1350°C with N₂/H₂ reducing atmosphere (pO₂ < 10⁻¹² atm)
 - [Tape casting machine](../machine-tools/index.md) with doctor blade (5-20 μm gap)
 
-#### Materials
+### Materials
 
 - BaCO₃ + TiO₂ in 1:1 molar ratio (primary reactants)
 - Dopants for X7R formulation: SrCO₃ (2-8 mol%), CaCO₃ (1-3 mol%), MgO (0.5-2 mol%)
@@ -93,7 +93,7 @@ Barium titanate crystallizes in the perovskite structure (ABO₃). Above the Cur
 - Plasticizer: dibutyl phthalate or PEG, 2-5% of slurry solids
 - Ni electrode paste: Ni powder (0.5-2 μm) + organic vehicle
 
-#### Procedure: BaTiO₃ Powder Synthesis (Solid-State Reaction)
+### Procedure: BaTiO₃ Powder Synthesis (Solid-State Reaction)
 
 1. **Weigh** BaCO₃ and TiO₂ in exact 1:1 molar ratio. Add dopant oxides for desired formulation (e.g., X7R: SrCO₃ 3-6 mol%, CaCO₃ 1-2 mol%, MgO 0.5-1 mol%). Total batch: 1-10 kg typical.
 2. **Ball mill** 12-24 hours with zirconia media in deionized water or alcohol. Target: <1 μm particle size after milling. Wet milling prevents agglomeration.
@@ -101,7 +101,7 @@ Barium titanate crystallizes in the perovskite structure (ABO₃). Above the Cur
 4. **Re-mill** calcined powder 8-16 hours to break agglomerates and reduce to 0.5-1.0 μm. This step controls final grain size and dielectric properties.
 5. **Test** dielectric constant of pressed and sintered test pellet: target εᵣ = 2500-4000 for X7R at 25°C.
 
-#### Procedure: MLCC Manufacturing
+### Procedure: MLCC Manufacturing
 
 1. **Prepare slurry**: Mix BaTiO₃ powder (doped formulation) with solvent (toluene/ethanol or water), binder (PVB or acrylic, 5-12%), dispersant (0.5-2%), and plasticizer (2-5%). Target viscosity: 500-2000 cP for tape casting.
 2. **Tape cast**: Doctor blade spreads slurry onto carrier film (PET or silicone-coated steel). Blade gap 5-20 μm. Dry at 60-80°C. Result: flexible green tape, 3-15 μm thick for modern MLCCs (state of art: 0.5-1.0 μm).
@@ -113,7 +113,7 @@ Barium titanate crystallizes in the perovskite structure (ABO₃). Above the Cur
 8. **Terminate**: Apply Cu or Ni termination paste to exposed electrode ends. Sinter or cure at 800-900°C in reducing atmosphere.
 9. **Plate**: Electroplate Ni barrier layer (2-5 μm), then Sn solder finish (matte tin, 2-5 μm) on terminations.
 
-#### Calibration and Verification
+### Calibration and Verification
 
 1. **Capacitance measurement**: Test with LCR meter at 1 kHz, 1 Vrms, 25°C. Target: within ±10% of nominal value for X7R. Check at -55°C, 25°C, and 125°C — capacitance change must be ≤±15% per X7R specification.
 2. **Dissipation factor (DF)**: Measure at 1 kHz. Target: <2.5% for X7R.
@@ -121,7 +121,7 @@ Barium titanate crystallizes in the perovskite structure (ABO₃). Above the Cur
 4. **Dielectric breakdown**: Apply increasing voltage until failure. Target breakdown strength: 20-50 kV/mm of dielectric thickness.
 5. **Visual inspection**: No visible cracks, delamination, or electrode exposure. X-ray inspection for hidden defects in critical applications.
 
-#### Expected Performance
+### Expected Performance
 
 | Parameter | Typical Value |
 |-----------|--------------|
@@ -134,14 +134,14 @@ Barium titanate crystallizes in the perovskite structure (ABO₃). Above the Cur
 | Breakdown strength | 20-50 kV/mm |
 | Layer thickness (state of art) | 0.5-1.0 μm |
 
-#### Strengths
+### Strengths
 
 - Highest volumetric efficiency of any capacitor technology — trillion-per-year production volume confirms manufacturability at scale
 - X7R formulations provide stable capacitance (±15%) over -55°C to +125°C — suitable for most electronic circuits
 - Ni-electrode MLCCs eliminated expensive Pd/Ag electrodes — cost per unit dropped below $0.001 in high volume
 - Ceramic construction provides reliability: no liquid electrolyte to dry out, expected lifetime >10 years at rated conditions
 
-#### Weaknesses
+### Weaknesses
 
 - Fragile — ceramic body cracks under mechanical stress, thermal shock, or board flexure. Cracked MLCCs are a leading cause of field failures in electronics
 - Capacitance decreases with applied DC voltage (DC bias effect) — a 100 nF X5R MLCC may lose 30-50% capacitance at rated voltage
@@ -150,11 +150,11 @@ Barium titanate crystallizes in the perovskite structure (ABO₃). Above the Cur
 
 ## Ferrites — Magnetic Ceramics
 
-#### Principle
+### Principle
 
 Ferrites are ceramic magnetic materials based on iron oxide (Fe₂O₃) combined with divalent metal oxides (MnO, ZnO, NiO, BaO, SrO). Unlike metallic magnetic materials, ferrites are electrically insulating — they operate at high frequencies without eddy current losses. Soft ferrites (MnZn, NiZn) have low coercivity for inductors and transformers; hard ferrites (Ba, Sr hexaferrite) have high coercivity for permanent magnets.
 
-#### Prerequisites
+### Prerequisites
 
 - [Iron oxide](../mining/index.md) (Fe₂O₃, hematite, ≥99%, powder <5 μm)
 - [Manganese carbonate](../mining/index.md) (MnCO₃) or MnO (≥99%)
@@ -164,7 +164,7 @@ Ferrites are ceramic magnetic materials based on iron oxide (Fe₂O₃) combined
 - [Hydraulic press](../machine-tools/index.md) (50-100 MPa for core pressing)
 - [Kiln](kilns.md) capable of 1100-1400°C with atmosphere control
 
-#### Materials
+### Materials
 
 - Fe₂O₃ (hematite, ≥99%, 0.5-2 μm particle size)
 - MnCO₃ or MnO (≥99%)
@@ -173,7 +173,7 @@ Ferrites are ceramic magnetic materials based on iron oxide (Fe₂O₃) combined
 - PVA binder (5-10% by weight)
 - Deionized water (for wet milling)
 
-#### Procedure: Soft Ferrite (MnZn) Core Manufacturing
+### Procedure: Soft Ferrite (MnZn) Core Manufacturing
 
 1. **Weigh** raw materials precisely — composition controls magnetic properties within ±0.5 mol%. MnZn formulation: 25-35 mol% MnO, 15-25 mol% ZnO, 45-55 mol% Fe₂O₃.
 2. **Ball mill** 4-12 hours with deionized water and steel or zirconia media. Target particle size: ~1 μm after milling.
@@ -183,7 +183,7 @@ Ferrites are ceramic magnetic materials based on iron oxide (Fe₂O₃) combined
 6. **Sinter**: Critical step. Heat to 1200-1400°C for 2-8 hours in controlled atmosphere. For MnZn: N₂ with controlled pO₂ (1-5% O₂ at 1200-1300°C). Too much O₂ → Fe²⁺ oxidizes to Fe³⁺, resistivity drops, core loss increases. Too little O₂ → Zn volatilizes. Cool slowly in controlled atmosphere. Density reaches 95-98% theoretical (~4.8-5.0 g/cm³).
 7. **Grind** (if required): Flat mating surfaces for E-core halves require diamond grinding to minimize air gaps. Tolerance: ±0.02 mm on mating surfaces.
 
-#### Procedure: Hard Ferrite (Ba Hexaferrite) Magnet Manufacturing
+### Procedure: Hard Ferrite (Ba Hexaferrite) Magnet Manufacturing
 
 1. **Weigh** BaCO₃ or SrCO₃ with Fe₂O₃ in 1:6 molar ratio (BaO·6Fe₂O₃).
 2. **Calcine** at 1200-1300°C for 2-4 hours. BaCO₃ + 6Fe₂O₃ → BaFe₁₂O₁₉ + CO₂.
@@ -191,7 +191,7 @@ Ferrites are ceramic magnetic materials based on iron oxide (Fe₂O₃) combined
 4. **Press in magnetic field** (1-2 T applied) to align platelet-shaped particles along the easy axis. Produces anisotropic magnets with higher energy product. 50-100 MPa pressure. Alternatively, press without field for isotropic magnets (lower performance, simpler tooling).
 5. **Sinter** at 1100-1250°C for 1-2 hours in air. Shrinkage 10-15%.
 
-#### Calibration and Verification
+### Calibration and Verification
 
 1. **Permeability measurement** (soft ferrites): Wind test coil on toroid (N=20-50 turns). Measure inductance at 10 kHz with LCR meter. Calculate initial permeability: μᵢ = L × l / (μ₀ × N² × A). MnZn target: 1000-15,000. NiZn target: 10-2000.
 2. **Core loss measurement**: Drive toroid with sinusoidal field at operating frequency (100 kHz typical). Measure power input with wattmeter. Core loss target: <500 kW/m³ at 100 kHz, 200 mT for MnZn power ferrite.
@@ -199,7 +199,7 @@ Ferrites are ceramic magnetic materials based on iron oxide (Fe₂O₃) combined
 4. **Coercivity** (hard ferrites): B-H tracer. Ba ferrite target: 150-300 kA/m. Sr ferrite target: 200-400 kA/m.
 5. **Density**: Archimedes method. Soft ferrite target: 95-98% theoretical. Hard ferrite target: 90-95%.
 
-#### Expected Performance
+### Expected Performance
 
 | Parameter | MnZn Soft Ferrite | NiZn Soft Ferrite | Sr Hard Ferrite |
 |-----------|-------------------|-------------------|-----------------|
@@ -210,14 +210,14 @@ Ferrites are ceramic magnetic materials based on iron oxide (Fe₂O₃) combined
 | Resistivity | 0.1-10 Ω·m | 10⁴-10⁸ Ω·m | 10⁴-10⁸ Ω·m |
 | Curie temperature | 100-250°C | 100-400°C | ~460°C |
 
-#### Strengths
+### Strengths
 
 - Electrically insulating — no eddy current losses at high frequency, unlike iron or silicon steel cores
 - Compositional tunability — permeability, loss, and frequency response are adjustable over wide ranges by varying Mn/Zn/Ni ratios and dopants
 - Low cost — iron oxide is abundant and cheap; raw material cost for ferrite cores is dominated by processing, not materials
 - Hard ferrite permanent magnets require no rare earth elements — barium and strontium are abundant
 
-#### Weaknesses
+### Weaknesses
 
 - Lower saturation flux density (0.35-0.5 T) than silicon steel (1.5-2.0 T) — ferrite cores are larger for equivalent power handling
 - MnZn ferrites require precise oxygen partial pressure control during sintering — atmosphere control errors cause dramatic property variation
@@ -226,11 +226,11 @@ Ferrites are ceramic magnetic materials based on iron oxide (Fe₂O₃) combined
 
 ## PZT — Lead Zirconate Titanate (Piezoelectric Ceramics)
 
-#### Principle
+### Principle
 
 PZT (Pb[ZrₓTi₁₋ₓ]O₃) is the dominant piezoelectric ceramic. Near the morphotropic phase boundary (MPB) at x ≈ 0.52, the tetragonal and rhombohedral phases coexist, allowing easy polarization rotation and maximizing the piezoelectric response. When mechanical stress is applied to a poled PZT element, crystal lattice distortion generates a voltage (direct effect — sensor mode). When voltage is applied, the crystal deforms (converse effect — actuator mode).
 
-#### Prerequisites
+### Prerequisites
 
 - [Lead oxide](../mining/index.md) (Pb₃O₄ or PbO, ≥99.5% purity) — handle with full respiratory protection (PbO is highly toxic)
 - [Zirconia](advanced-ceramics.md) (ZrO₂, ≥99.5%)
@@ -242,7 +242,7 @@ PZT (Pb[ZrₓTi₁₋ₓ]O₃) is the dominant piezoelectric ceramic. Near the m
 - Silicone oil bath (for poling, rated to 200°C)
 - Silver paste (for electrodes)
 
-#### Materials
+### Materials
 
 - Pb₃O₄ (lead oxide, ≥99.5%) — use 1-5% excess to compensate for lead volatility
 - ZrO₂ (zirconia, ≥99.5%)
@@ -251,14 +251,14 @@ PZT (Pb[ZrₓTi₁₋ₓ]O₃) is the dominant piezoelectric ceramic. Near the m
 - PVA binder (3-8%)
 - Ag paste (for electrodes, fired at 600-700°C)
 
-#### Procedure: PZT Powder Synthesis
+### Procedure: PZT Powder Synthesis
 
 1. **Weigh** raw materials precisely for MPB composition: Pb(Zr₀.₅₂Ti₀.₄₈)O₃. Add 1-5% excess PbO to compensate for lead volatility during sintering. Add dopants (e.g., 1% Nb₂O₅ for soft PZT or 0.5% Fe₂O₃ for hard PZT).
 2. **Ball mill** 12-24 hours with zirconia media in deionized water to homogenize and reduce particle size.
 3. **Calcine** at 750-900°C for 2-4 hours in covered alumina crucible. Solid-state reaction forms perovskite PZT. Lead oxide is volatile above 800°C — use covered crucible with PbZrO₃ "sacrificial packing" to maintain PbO-rich atmosphere.
 4. **Second milling**: Grind calcined powder to 0.5-2.0 μm. Add 3-8% PVA binder.
 
-#### Procedure: PZT Forming, Sintering, and Poling
+### Procedure: PZT Forming, Sintering, and Poling
 
 1. **Form**: Dry press at 50-100 MPa for simple shapes (discs, plates, rings). Tape cast for thin sheets (<0.5 mm). Green density ~55-60%.
 2. **Burn out binder**: Heat to 500°C at 0.5-2°C/minute. Hold 2 hours.
@@ -267,7 +267,7 @@ PZT (Pb[ZrₓTi₁₋ₓ]O₃) is the dominant piezoelectric ceramic. Near the m
 5. **Apply electrodes**: Screen print Ag paste on both faces. Fire at 600-700°C for 10-30 minutes.
 6. **Pole**: Heat PZT element to 100-150°C in silicone oil bath. Apply DC field of 2-4 kV/mm across electrodes. Hold 10-30 minutes. Cool to room temperature **under applied field**. Remove field — domains remain locked in alignment.
 
-#### Calibration and Verification
+### Calibration and Verification
 
 1. **Piezoelectric coefficient d₃₃**: Measure with d₃₃ meter (Berlincourt meter). Apply known force, measure charge. Soft PZT target: 350-600 pC/N. Hard PZT target: 250-350 pC/N.
 2. **Coupling coefficient k₃₃**: Measure from resonance/antiresonance frequency spectrum using impedance analyzer. Soft PZT target: 0.65-0.75.
@@ -275,7 +275,7 @@ PZT (Pb[ZrₓTi₁₋ₓ]O₃) is the dominant piezoelectric ceramic. Near the m
 4. **Curie temperature**: Measure dielectric constant vs temperature. Peak in εᵣ identifies Curie point. Soft PZT target: 250-365°C. Hard PZT target: 280-350°C.
 5. **Depoling test**: Heat sample to 250°C for 1 hour, remeasure d₃₃. Loss should be <10%.
 
-#### Expected Performance
+### Expected Performance
 
 | Property | "Soft" PZT (PZT-5A) | "Hard" PZT (PZT-4) |
 |----------|----------------------|---------------------|
@@ -286,14 +286,14 @@ PZT (Pb[ZrₓTi₁₋ₓ]O₃) is the dominant piezoelectric ceramic. Near the m
 | Curie temperature | 250-365°C | 280-350°C |
 | Maximum continuous operating temp | 150-250°C | 175-250°C |
 
-#### Strengths
+### Strengths
 
 - Highest piezoelectric coefficients of any lead-free alternative — d₃₃ of 350-600 pC/N vs <100 pC/N for most non-lead piezoceramics
 - MPB composition provides strong electromechanical coupling — efficient conversion between electrical and mechanical energy
 - Tunable via dopants: soft PZT for sensitive sensors/actuators, hard PZT for high-power ultrasonics/sonar
 - Mature manufacturing process — PZT has been produced industrially since the 1950s with well-characterized processing-property relationships
 
-#### Weaknesses
+### Weaknesses
 
 - Contains lead (Pb) — PZT manufacturing requires full respiratory protection, sealed sintering, HEPA-filtered exhaust, and blood lead monitoring for workers. PZT waste is hazardous (RCRA)
 - Depoles above Curie temperature (250-365°C) — maximum continuous operating temperature is typically half the Curie point
@@ -302,11 +302,11 @@ PZT (Pb[ZrₓTi₁₋ₓ]O₃) is the dominant piezoelectric ceramic. Near the m
 
 ## Getter Materials — Vacuum Maintenance
 
-#### Principle
+### Principle
 
 Getters are chemically active materials that sorb (absorb or adsorb) residual gases in sealed vacuum or gas-filled devices. Non-evaporable getters (NEG, Zr-V-Fe alloys) are heated to activate a reactive surface that pumps gases at room temperature. Evaporable getters (Ba, Ti) are flashed to deposit a reactive metal film that permanently binds gas molecules. Without getters, vacuum tubes, CRTs, x-ray tubes, and semiconductor vacuum systems cannot maintain the required pressure over their operational lifetime.
 
-#### Prerequisites
+### Prerequisites
 
 - [Zirconium](../mining/index.md) metal (≥99% purity, for NEG alloys)
 - [Vanadium](../mining/index.md) (≥99%, for NEG alloys)
@@ -316,13 +316,13 @@ Getters are chemically active materials that sorb (absorb or adsorb) residual ga
 - Arc melting furnace (for alloy preparation) — see [Metals](../metals/iron-steel.md)
 - [Vacuum system](../vacuum/index.md) for getter activation and testing
 
-#### Materials
+### Materials
 
 - Zr-V-Fe alloy (St 707: 70% Zr, 24.6% V, 5.4% Fe by weight) — arc-melted and rolled to strip or wire
 - BaAl₄ (barium-aluminum alloy) + Fe₂O₃ powder mixture (for flash getters)
 - Titanium wire (≥99.7% Ti, 0.5-2.0 mm diameter, for sublimation pumps)
 
-#### Procedure: Non-Evaporable Getter (NEG) Activation
+### Procedure: Non-Evaporable Getter (NEG) Activation
 
 1. **Install** NEG strip or cartridge in vacuum chamber. NEG material is passive at room temperature (surface protected by thin oxide layer).
 2. **Evacuate** chamber to <10⁻⁶ Torr using primary vacuum pump.
@@ -330,7 +330,7 @@ Getters are chemically active materials that sorb (absorb or adsorb) residual ga
 4. **Cool** to room temperature. Activated NEG now pumps H₂, CO, CO₂, N₂, O₂, H₂O at room temperature. Pumping speed: 5-50 L/(s·cm²) for H₂, 1-10 L/(s·cm²) for CO.
 5. **Re-activate** as needed when pumping speed degrades (typically every 6-12 months in active systems) by repeating step 3.
 
-#### Procedure: Evaporable Barium Getter (Vacuum Tube)
+### Procedure: Evaporable Barium Getter (Vacuum Tube)
 
 1. **Install** getter assembly (ring or trough containing BaAl₄ + Fe₂O₃ powder) in vacuum tube before sealing.
 2. **Seal** tube after evacuation to <10⁻⁵ Torr.
@@ -338,14 +338,14 @@ Getters are chemically active materials that sorb (absorb or adsorb) residual ga
 4. **Verify**: Shiny Ba mirror = good vacuum. White/cloudy mirror = air leak, tube is compromised. The mirror serves as visual vacuum indicator for the lifetime of the tube.
 5. **Result**: Fresh Ba film actively sorbs O₂, N₂, H₂, CO, CO₂, H₂O — any residual gas molecules that strike it are permanently bound.
 
-#### Calibration and Verification
+### Calibration and Verification
 
 1. **Pumping speed test** (NEG): Measure throughput Q = S × P where S = pumping speed, P = pressure. Introduce known gas flow, measure steady-state pressure. Calculate S. Target: 5-50 L/(s·cm²) for H₂.
 2. **Sorption capacity**: Expose activated NEG to measured gas quantity until saturated. H₂ capacity: up to 4 Torr·liters per gram.
 3. **Visual inspection** (Ba getters): Mirror quality assessment — shiny silver = active, white/cloudy = failed, dark = exhausted.
 4. **Vacuum integrity**: Monitor chamber/tube pressure over time. Getter-equipped tubes should maintain <10⁻⁵ Torr for rated lifetime (10,000+ hours for receiving tubes).
 
-#### Expected Performance
+### Expected Performance
 
 | Getter Type | Activation Temp | Pumping Speed (H₂) | Capacity | Re-activatable |
 |-------------|----------------|---------------------|----------|----------------|
@@ -355,14 +355,14 @@ Getters are chemically active materials that sorb (absorb or adsorb) residual ga
 | Ba evaporable | 800-900°C flash | N/A (one-time) | ~0.5 Torr·L/cm² | No |
 | Ti sublimation pump | 1500-1700°C sublimation | ~10 L/(s·cm²) for N₂ | Film-limited | Yes (re-sublime) |
 
-#### Strengths
+### Strengths
 
 - NEG getters provide continuous, power-free vacuum pumping at room temperature after one-time activation — no moving parts, no noise, no power consumption
 - Ba evaporable getters provide visual vacuum indicator (mirror quality) — easy to assess tube health without instruments
 - Ti sublimation pumps achieve very high pumping speeds for active gases — supplement ion pumps in UHV systems (10⁻⁸ to 10⁻¹¹ Torr)
 - NEG cartridges can be re-activated multiple times, extending service life to years
 
-#### Weaknesses
+### Weaknesses
 
 - NEG activation requires heating to 400-450°C under vacuum — requires external heater and power supply; cannot activate in sealed, unheated devices
 - NEG does not pump noble gases (He, Ar, Ne) — must be combined with ion pump for complete UHV
@@ -371,11 +371,11 @@ Getters are chemically active materials that sorb (absorb or adsorb) residual ga
 
 ## Ceramic Substrates for Electronics
 
-#### Principle
+### Principle
 
 Alumina substrates (96% Al₂O₃) provide the mechanical base and electrical insulation for thick-film hybrid circuits and cofired ceramic IC packages. The combination of moderate thermal conductivity (18-25 W/(m·K)), high dielectric strength, and compatibility with refractory metallization (W, Mo) makes alumina the default substrate material for power electronics, RF circuits, and high-reliability IC packages.
 
-#### Prerequisites
+### Prerequisites
 
 - [Alumina powder](advanced-ceramics.md) (96% Al₂O₃ formulation, 1-3 μm particle size)
 - [Tungsten](../mining/index.md) or [molybdenum](../mining/index.md) powder (for cofired metallization)
@@ -384,7 +384,7 @@ Alumina substrates (96% Al₂O₃) provide the mechanical base and electrical in
 - Screen printing equipment — see [Machine Tools](../machine-tools/index.md)
 - [Kiln](kilns.md) capable of 850-950°C (thick-film) or 1600°C in H₂/N₂ (cofired ceramic)
 
-#### Materials
+### Materials
 
 - Alumina substrate: 96% Al₂O₃, 0.25-1.5 mm thick, laser-cut to size
 - Conductor pastes: Ag-Pd (70/30), Au, or Cu
@@ -392,7 +392,7 @@ Alumina substrates (96% Al₂O₃) provide the mechanical base and electrical in
 - Dielectric paste: glass-ceramic, screen printable
 - W or Mo paste (for cofired ceramic internal traces)
 
-#### Procedure: Thick-Film Hybrid Circuit Fabrication
+### Procedure: Thick-Film Hybrid Circuit Fabrication
 
 1. **Start** with 96% Al₂O₃ substrate (tape-cast, laser-cut to final dimensions). Clean with isopropanol.
 2. **Screen print** conductor pattern (Ag-Pd, Au, or Cu paste) onto substrate using 200-325 mesh screen. Dry at 120-150°C for 10-15 minutes.
@@ -402,7 +402,7 @@ Alumina substrates (96% Al₂O₃) provide the mechanical base and electrical in
 6. **Mount components**: Solder or conductive-epoxy attach SMD components. Wire bond ICs (Au ball bond or Al wedge bond).
 7. **Encapsulate**: Dip coat or pot with silicone, epoxy, or glass for environmental protection.
 
-#### Procedure: Cofired Ceramic IC Package
+### Procedure: Cofired Ceramic IC Package
 
 1. **Cast** green alumina tape layers (96% Al₂O₃, 0.1-0.5 mm thick).
 2. **Punch vias** in each tape layer. Fill vias with W (tungsten) paste for interlayer connections.
@@ -412,7 +412,7 @@ Alumina substrates (96% Al₂O₃) provide the mechanical base and electrical in
 6. **Post-fire**: Apply Ni/Au plating to external contacts. Braze metal leads (Fe-Ni-Co alloy "Kovar") using Ag-Cu eutectic braze at 779°C.
 7. **Seal**: Lid seal with Au-Sn solder (eutectic 280°C) for hermetic package. Leak test: <10⁻⁸ atm·cc/s He.
 
-#### Calibration and Verification
+### Calibration and Verification
 
 1. **Dielectric strength test**: Apply increasing voltage across substrate between two electrodes. Target breakdown: >15 kV/mm. Typical 1 mm substrate withstands >15 kV.
 2. **Insulation resistance**: 500V DC between isolated traces. Target: >10¹² Ω.
@@ -420,7 +420,7 @@ Alumina substrates (96% Al₂O₃) provide the mechanical base and electrical in
 4. **Hermeticity** (cofired packages): Helium leak test. Target: <10⁻⁸ atm·cc/s He leak rate.
 5. **Wire bond pull test**: Pull Au or Al wire bond. Target pull strength: >5 gf for 25 μm Au wire.
 
-#### Expected Performance
+### Expected Performance
 
 | Parameter | 96% Al₂O₃ | 99.6% Al₂O₃ |
 |-----------|-----------|-------------|
@@ -432,14 +432,14 @@ Alumina substrates (96% Al₂O₃) provide the mechanical base and electrical in
 | Flexural strength | 300-350 MPa | 350-400 MPa |
 | Substrate thickness | 0.25-1.5 mm | 0.25-1.0 mm |
 
-#### Strengths
+### Strengths
 
 - Excellent dimensional stability — fired alumina does not warp or creep under thermal cycling
 - Compatible with refractory metallization (W, Mo) for high-temperature cofired processing
 - Hermetic sealing possible with cofired ceramic packages — superior to plastic for moisture-sensitive devices
 - Good thermal conductivity (18-25 W/(m·K)) enables power dissipation in hybrid circuits
 
-#### Weaknesses
+### Weaknesses
 
 - Limited thermal conductivity compared to BeO (250-300 W/(m·K)) or AlN (140-200 W/(m·K)) — insufficient for high-power RF devices without additional heat sinking
 - Cofired processing requires 1600°C in reducing atmosphere — expensive infrastructure (H₂/N₂ furnace)
@@ -448,18 +448,18 @@ Alumina substrates (96% Al₂O₃) provide the mechanical base and electrical in
 
 ## Varistors and Thermistors
 
-#### Principle
+### Principle
 
 ZnO varistors protect circuits from voltage transients. Grain boundaries in polycrystalline ZnO form back-to-back Schottky barriers that are insulating at low voltage but become conductive above a threshold. NTC thermistors (Mn-Co-Ni-O spinel) decrease resistance exponentially with temperature for sensing and compensation.
 
-#### Prerequisites
+### Prerequisites
 
 - [Zinc oxide](../chemistry/index.md) (ZnO, ≥99.5%, for varistors)
 - Bi₂O₃ (bismuth oxide, 0.5-5%), Sb₂O₃ (antimony trioxide, 0.5-3%), CoO, MnO, Cr₂O₃ (each 0.1-1%)
 - MnO₂, Co₃O₄, NiO (≥99%, for NTC thermistors)
 - [Ball mill](../machine-tools/index.md), [hydraulic press](../machine-tools/index.md), [kiln](kilns.md) (1100-1350°C)
 
-#### Materials
+### Materials
 
 - ZnO powder (≥99.5%, particle size 0.5-2 μm)
 - Bi₂O₃, Sb₂O₃, CoO, MnO, Cr₂O₃ (varistor dopants)
@@ -467,7 +467,7 @@ ZnO varistors protect circuits from voltage transients. Grain boundaries in poly
 - Ag paste or flame-sprayed Al (for electrodes)
 - Epoxy or phenolic resin (for encapsulation)
 
-#### Procedure: ZnO Varistor Manufacturing
+### Procedure: ZnO Varistor Manufacturing
 
 1. **Mix** ZnO powder with Bi₂O₃ (0.5-5%), Sb₂O₃ (0.5-3%), CoO (0.1-1%), MnO (0.1-1%), Cr₂O₃ (0.1-1%).
 2. **Ball mill** 4-12 hours to homogenize.
@@ -476,7 +476,7 @@ ZnO varistors protect circuits from voltage transients. Grain boundaries in poly
 5. **Apply electrodes**: Ag paste fired at 600-700°C, or flame-sprayed Al.
 6. **Test**: Apply increasing voltage, measure current. Nonlinear exponent α = 25-50 (V ∝ I^1/α). Clamp voltage tightly defined.
 
-#### Procedure: NTC Thermistor Manufacturing
+### Procedure: NTC Thermistor Manufacturing
 
 1. **Mix** MnO₂, Co₃O₄, NiO in desired molar ratios (e.g., Mn:Co:Ni = 1:1:1 for 3kΩ at 25°C).
 2. **Calcine** at 800-1000°C for 2-4 hours. Spinel phase forms.
@@ -486,7 +486,7 @@ ZnO varistors protect circuits from voltage transients. Grain boundaries in poly
 6. **Attach leads** with Ag paste. Encapsulate in epoxy or glass.
 7. **Age** at 150°C for 24-48 hours to stabilize resistance value.
 
-#### Calibration and Verification
+### Calibration and Verification
 
 1. **Varistor voltage**: Measure voltage at 1 mA DC. This is the nominal varistor voltage (V₁mA). Must be within ±10% of rated value.
 2. **Nonlinear exponent α**: Measure voltage at 1 mA and 10 mA. Calculate α = log(I₂/I₁) / log(V₂/V₁). Target: 25-50.
@@ -494,7 +494,7 @@ ZnO varistors protect circuits from voltage transients. Grain boundaries in poly
 4. **Beta parameter**: Measure resistance at 25°C and 85°C. Calculate β = ln(R₁/R₂) × T₁×T₂/(T₂-T₁). Target: 3000-4500 K.
 5. **Thermal response time**: Immerse thermistor from 25°C air to 85°C oil bath. Measure time to reach 63% of final resistance. Target: 1-15 seconds depending on package size.
 
-#### Expected Performance
+### Expected Performance
 
 | Parameter | ZnO Varistor | NTC Thermistor |
 |-----------|-------------|----------------|
@@ -506,14 +506,14 @@ ZnO varistors protect circuits from voltage transients. Grain boundaries in poly
 | Beta parameter (NTC) | N/A | 3000-4500 K |
 | Operating temperature | -40 to +85°C | -55 to +300°C |
 
-#### Strengths
+### Strengths
 
 - ZnO varistors clamp transient voltages in nanoseconds — protect semiconductors from ESD and lightning surges
 - NTC thermistors provide high sensitivity (3-5% resistance change per °C) — more sensitive than RTDs or thermocouples for small temperature changes
 - Simple manufacturing — dry pressing and sintering, no atmosphere control required
 - Low cost per unit — both varistors and NTC thermistors cost <$0.10 in high volume
 
-#### Weaknesses
+### Weaknesses
 
 - ZnO varistors degrade with repeated surges — clamp voltage drifts upward with accumulated energy. Must be oversized for expected surge lifetime
 - NTC thermistors have nonlinear response — require lookup table or Steinhart-Hart equation for accurate temperature conversion

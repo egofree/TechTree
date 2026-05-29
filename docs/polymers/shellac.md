@@ -6,6 +6,19 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 5-20
 > **Outputs**: shellac_flakes, shellac_solution, french_polish, phonograph_records
+> **Critical**: No — useful for insulation and finishing, but not a civilization bootstrap bottleneck
+
+### Problem
+
+Before synthetic polymers are available, civilization needs a fast-drying, non-toxic, natural resin for wood finishing, electrical insulation, food and pharmaceutical coatings, adhesive bonding, and thermoplastic molding. Shellac is the only natural material that combines all of these properties: it dries in minutes (not hours), bonds to nearly any substrate, is food-safe, provides dielectric insulation, and can be re-dissolved in ethanol for repair or rework. No other single natural substance matches this combination.
+
+### Prerequisites
+
+- [Ethanol production](../chemistry/distillation.md) — shellac dissolves in ethanol; denatured spirit is the standard solvent
+- [Polymers overview](rubber.md) — parent node for natural polymer processing
+- Host tree access — *Butea monosperma* (palas) or *Schleichera oleosa* (kusum) trees in tropical/subtropical climate
+- Basic crushing and washing equipment — rollers or mortar, water tanks, cloth for filtration
+- Optional: sodium hypochlorite for bleached shellac, hydraulic press for industrial-scale refining
 
 ### Source and Biology
 
@@ -21,6 +34,21 @@ Shellac is a natural resin secreted by the lac bug (*Kerria lacca*), a tiny scal
 - **Inoculation**: Collect "brood lac" (sticklac containing developing larvae from the previous season — identified by the presence of female insects with eggs visible through the resin). Cut brood lac into 5-10 cm sections. Tie brood lac bundles to fresh branches of host trees at the start of the growing season using cotton twine (the twine must be biodegradable so it doesn't girdle the growing branch). Timing: inoculate when the new generation of larvae is about to emerge (the eggs hatch 2-3 weeks after being laid, so brood lac must be harvested and tied to new host branches within this window). Emerging larvae (tiny crawlers, 0.3-0.5 mm) disperse from the brood lac onto the fresh branch, settle, insert their proboscis, and begin feeding and secreting resin. Inoculation success rate: 60-80% under good conditions — losses occur from predation, weather (heavy rain washes crawlers off branches), and disease.
 - **Parasites and predators**: Lac cultivation is threatened by several natural enemies that can devastate entire colonies. Predatory mites (*Tetranychus* spp.) feed on lac insect nymphs. Parasitic wasps (*Tachardiaephagus* spp., *Erencyrtus* spp.) lay eggs inside lac insect bodies — the wasp larvae consume the insect from within, killing it before it can secrete significant resin. The lac predator *Eublemma amabilis* (a moth whose larvae feed on lac insects) is particularly damaging — the moth lays eggs on the sticklac, and the hatching caterpillars eat through the lac encrustation, consuming the insects. Losses of 20-40% of a lac crop to predators are not uncommon without active pest management. Ants (especially *Oecophylla smaragdina*, the weaver ant) often protect lac colonies from predators in exchange for honeydew secreted by the lac insects — a beneficial mutualistic relationship to encourage in lac cultivation. Traditional cultivators actively promote ant colonies on lac-producing trees for this reason.
 - **Yield**: A single tree yields 1-3 kg of raw sticklac per harvest. India historically produced 30,000-50,000 tonnes of raw lac per year at peak production (early 20th century — the world's primary supplier, with ~85% market share). Yields vary by host species, tree age, climate, and pest pressure. A well-managed plantation of *Butea monosperma* trees at 100 trees per hectare can yield 200-600 kg of raw sticklac per hectare per year (two harvests combined). After processing losses (washing removes ~30-40% as dye, water-soluble matter, and insect debris), the yield of marketable shellac is ~150-350 kg/ha/year.
+
+### Bill of Materials
+
+| Material | Quantity | Notes |
+|---|---|---|
+| Lac bug colonies (*Kerria lacca*) | ~150,000 insects per kg sticklac | On host tree branches |
+| Host trees (*Butea monosperma* or *Schleichera oleosa*) | 100-400 trees/hectare | Reach lac-producing age in 5-7 years |
+| Ethanol (95%, denatured) | 3-4 L per kg shellac flakes | From [distillation](../chemistry/distillation.md) |
+| Water (clean) | 10-20 L per kg sticklac | For washing and dye extraction |
+| Cotton twine | For tying brood lac bundles | Biodegradable, won't girdle branches |
+| Canvas or cotton cloth | 2-3 m bags for melt filtration | For hand-refining method |
+| Charcoal | For traditional hearth heating | 80-90°C melt temperature |
+| Filter media (cloth/paper) | Multiple grades for progressive filtration | Coarse canvas → fine cotton → paper |
+| Sodium hypochlorite (optional) | 3-5% available chlorine solution | For bleached/white shellac only |
+| Flat drying surfaces | Marble, glass, or metal trays | For flake formation (Step 5) |
 
 ### Harvesting and Processing
 
@@ -131,8 +159,6 @@ Shellac undergoes gradual esterification with its solvent (ethanol). Over months
 
 **Polymerization test**: A simple field test for shellac freshness — dissolve 5 g of shellac flakes in 15 ml of ethanol. If the solution is clear and pourable after 4 hours with stirring, the shellac is usable. If the solution is cloudy, gel-like, or contains undissolved lumps, the shellac has polymerized beyond usefulness.
 
-### Safety & Hazards
-
 ### Lac Cultivation Detail
 
 The lac insect (*Kerria lacca*) is a scale insect of the family Kerriidae, order Hemiptera. Adult females are sessile — they attach permanently to host tree branches, insert their proboscis into the phloem, and remain stationary for life, secreting the resinous cocoon that becomes shellac.
@@ -163,6 +189,20 @@ Before modern industrial processing, shellac was refined by hand using tradition
 5. Multiple passes through increasingly fine canvas bags progressively purify the shellac. The highest number of passes produces the lightest color and highest purity.
 
 **Machine refining (modern method)**: Industrial operations use heated hydraulic presses with canvas or metal mesh filter plates. Seedlac is heated to 80-90°C and pressed through the filter at 5-10 MPa. The filtered melt is extruded as a continuous sheet, cooled on a steel roller, and broken into flakes. Throughput: 100-500 kg/hour. Machine-refined shellac has more consistent quality than hand-refined material.
+
+### Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Cloudy solution | Natural wax content (3-5%) or esterified shellac | Filter hot (~50°C) for wax removal; discard if solution remains cloudy after cooling (polymerized) |
+| Slow drying (>1 hour) | High humidity (>70% RH) or degraded solution | Apply on dry days or dehumidify workspace; mix fresh 2 lb cut solution |
+| Film won't harden | Esterified (old) shellac — carboxyl groups consumed | Discard. Run polymerization test (5 g flakes in 15 ml ethanol — must be clear after 4 hours) |
+| White water marks on finish | Standing water penetrated film | Wipe spills immediately. Fresh marks: rub with ethanol-dampened cloth. Old marks: sand and recoat |
+| Shellac won't dissolve in ethanol | Flakes polymerized beyond recovery (>3 years old or stored hot) | Discard. Store future flakes at 15-20°C in sealed tin or glass |
+| Brush marks or ridges ("piling") | Concentration too high (3-4 lb cut) or excess shellac per pass | Thin to 2 lb cut. Apply thinner coats with lighter pressure |
+| Sticky/tacky film after 24 hours | Insufficient ventilation, high humidity, or degraded shellac | Increase airflow to 10+ air changes/hour. If persistent, shellac has esterified — discard |
+| Poor adhesion to substrate | Wax content or contaminated surface | Use de-waxed shellac. Clean substrate with ethanol or naphtha before coating |
+| Solution thickens in storage | Esterification progressing in can | Normal if used within 2-3 months. Discard if gelled or stringy. Mix smaller batches |
 
 ### Safety & Hazards
 
@@ -199,8 +239,16 @@ Shellac was one of the first materials traded on a large scale between Asia and 
 | Ease of application | Moderate (French polish requires skill) | Easy (spray) | Easy (brush) |
 | Color depth | Excellent (warm amber) | Good (clear to amber) | Good (clear to amber) |
 
-### Cross-Domain Dependencies
+### See Also
 
-- Lac insect related to [Animals](../animals/domestication.md). Shellac as insulator for [Electronics](../computing/electronic.md). French polish for [Wood](../plants/structural-plants.md). Dissolved in [Solvents](../chemistry/solvents.md).
+- [Distillation](../chemistry/distillation.md) — ethanol production for shellac solvent
+- [Solvents](../chemistry/solvents.md) — solvent chemistry and properties
+- [Rubber](rubber.md) — parent polymer node for natural resin processing
+- [Animal Domestication](../animals/domestication.md) — insect cultivation principles
+- [Electronics](../computing/electronic.md) — shellac as electrical insulation for coil windings
+- [Steam Power](../energy/steam-power.md) — steam heat for record pressing and industrial refining
+- [Casting](../machine-tools/casting.md) — compression molding techniques for phonograph records
+- [Structural Plants](../plants/structural-plants.md) — host tree species and wood finishing substrate
+- [Fuels](../energy/fuels.md) — charcoal and heat sources for traditional processing
 
 [← Back to Polymers](index.md)

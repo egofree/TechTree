@@ -3,14 +3,22 @@
 > **Node ID**: `chemistry.pulp-chemicals`
 > **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`chemistry.alkalis`](alkalis.md), [`chemistry.electrolysis`](electrolysis.md)
-> **Enables**: [`textiles.finishing`](../textiles/finishing.md), [`foundations.knowledge-preservation`](../foundations/index.md)
+> **Enables**: [`textiles.finishing`](../textiles/finishing.md), [`knowledge.printing`](../knowledge/printing.md), [`polymers.synthetic`](../polymers/synthetic.md)
 > **Timeline**: Years 15-35
 > **Outputs**: wood_pulp, paper, kraft_liquor, tall_oil
 > **Critical**: No — pulp chemicals support paper and textile production but are not prerequisites for core industrial capabilities
 
-## Overview
+## Problem
 
 Pulp and paper chemicals enable the conversion of wood and plant fibers into paper, cardboard, and cellulose-derived materials. The industry consumes enormous volumes of chemicals: sodium hydroxide (NaOH), sodium sulfide (Na₂S), chlorine dioxide (ClO₂), hydrogen peroxide (H₂O₂), sulfuric acid (H₂SO₄), alum (aluminum sulfate), and various sizing and coating agents. Beyond paper, the kraft pulping process yields tall oil (rosin, fatty acids) and lignin as valuable chemical byproducts, and dissolving-grade pulp is the feedstock for regenerated cellulose (viscose rayon, cellulose acetate, and emerging nanocellulose materials).
+
+### Prerequisites
+
+- [Alkalis](alkalis.md) — sodium hydroxide for kraft pulping and bleaching
+- [Electrolysis](electrolysis.md) — chlorine and sodium hydroxide production
+- [Sulfuric acid](acids.md) — acidifying agents for processing and pH control
+- [Forestry / plant fibers](../plants/index.md) — wood and alternative fiber sources
+- [Energy](../energy/index.md) — steam and power for pulping and recovery boilers
 
 ## Raw Materials
 
@@ -207,11 +215,25 @@ The kraft chemical cycle is one of the most elegant closed-loop chemical process
 
 The global shift toward sustainable packaging is driving renewed investment in cellulose-based materials, positioning pulp chemistry as a growth industry for the 21st century.
 
-### Cross-Domain Dependencies
+### Troubleshooting
 
-- Paper supports [Printing](../knowledge/printing.md) and [Libraries](../knowledge/libraries.md). Kraft process uses [Alkalis](../chemistry/alkalis.md). Bleaching via [Air Separation](../chemistry/air-separation.md) chlorine. Cellulose feeds [Polymers](../polymers/synthetic.md).
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Low pulp yield (<40%) | Overcooking — lignin removal excessive, cellulose degraded | Reduce cooking time or temperature; target kappa number 25-35 for kraft |
+| Dark pulp after bleaching | Incomplete delignification or insufficient bleach stages | Verify kappa number before bleach plant; add reinforcement stage (ClO₂ or H₂O₂) |
+| Weak paper (low tensile) | Short fibers, over-refining, or insufficient refining | Adjust refiner gap; blend softwood (long fiber) with hardwood for strength |
+| Scaling in recovery boiler | High silica content (non-wood fibers) or calcium carbonate | Desilicate black liquor before evaporation; use lime to precipitate silica |
+| Black liquor viscosity too high | High solids content or low temperature | Dilute to firing concentration (~65-70% solids); preheat liquor to 110-120°C |
+| Tall oil recovery low | Acidulation pH wrong or soap skimming incomplete | Adjust acidulation pH to 2-3; verify soap separation in skimmer tank |
 
+## See Also
 
----
+- [Alkalis](alkalis.md) — sodium hydroxide production for kraft pulping
+- [Electrolysis](electrolysis.md) — chlorine and caustic soda from brine
+- [Acids](acids.md) — sulfuric acid for processing
+- [Textiles / Finishing](../textiles/finishing.md) — cellulose fiber processing
+- [Polymers / Synthetic](../polymers/synthetic.md) — regenerated cellulose and dissolving pulp
+- [Printing](../knowledge/printing.md) — paper as printing substrate
+- [Energy](../energy/index.md) — steam and power for pulping operations
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+[← Back to Chemistry](index.md)

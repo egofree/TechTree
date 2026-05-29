@@ -8,7 +8,9 @@
 > **Outputs**: telegraph_network
 > **Critical**: No
 
-### Principles
+The electric telegraph was the first technology to transmit information faster than a horse or ship could carry it. By encoding text as electrical pulses over wire, a message could cross a continent in minutes rather than weeks. The telegraph required three inventions working together: a reliable battery, an electromagnetic receiver (sounder), and a coded alphabet (Morse code). This article covers the hardware and infrastructure of telegraph systems.
+
+## Principles
 
 Electrical current through wire produces electromagnetic effect at receiver. Information encoded as sequences of current on/off (binary — Morse code: dots and dashes represent letters and numbers).
 
@@ -228,12 +230,24 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 - **No voice communication**: Telegraph transmits coded text only. No real-time voice, image, or data transmission. Operator skill required at both ends.
 - **Infrastructure cost**: 100 km of single-wire telegraph line with poles requires ~2 tonnes of iron or copper wire, 500-1000 poles, and insulators. Mountainous or swampy terrain dramatically increases construction cost.
 
-### See Also
+## Troubleshooting
 
-- [Railways](railways.md) — Railway signaling and dispatch via telegraph
-- [Electricity](../energy/electricity.md) — Electrical principles underlying telegraph systems
-- [Roads & Bridges](roads.md) — Transport infrastructure parallels
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| No signal at receiving end | Broken wire, dead battery, or poor ground connection | Test continuity with galvanometer; replace battery cells; improve ground plate (bury copper plate in damp soil) |
+| Signal too weak to operate sounder | Line resistance too high (long distance) or corroded contacts | Clean all terminal connections; add relay station every 200-300 km; increase battery voltage |
+| Intermittent signal dropout | Loose wire connection or swinging wire touching tree/structure | Tighten all terminal screws; clear vegetation from wire path; check insulators for cracks |
+| False signals (ghost clicks) | Leakage to ground through wet insulators or parallel wire crosstalk | Replace cracked insulators; increase wire spacing on poles; check for water in underground cables |
+| Key contacts sticking | Pitted or oxidized contacts from prolonged use | File contacts flat with fine abrasive; adjust contact gap; keep key covered when not in use |
+| Earth return not working | Dry soil at ground plate | Bury ground plate deeper; water the ground connection point; add salt to soil around plate |
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*
+## See Also
 
+- [Railways](railways.md) — railway signaling and dispatch via telegraph
+- [Electricity](../energy/electricity.md) — electrical principles underlying telegraph systems
+- [Roads & Bridges](roads.md) — transport infrastructure parallels
+- [Electric Telegraph Networks](../telecom/electric-telegraph.md) — network-level telegraph infrastructure
+- [Telephone Systems](../telecom/telephone.md) — the successor technology
+- [Metals: Iron & Steel](../metals/iron-steel.md) — wire production for telegraph lines
 
+[← Back to Transport](index.md)

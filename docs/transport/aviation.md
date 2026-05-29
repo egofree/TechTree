@@ -3,7 +3,7 @@
 > **Node ID**: transport.aviation
 > **Domain**: [Transport](./index.md)
 > **Dependencies**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`energy.engine`](../energy/engine.md), [`machine-tools`](../machine-tools/index.md), [`metals.aluminum`](../metals/aluminum.md), [`textiles`](../textiles/index.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`transport.light-aircraft`](light-aircraft.md), [`marine.navigation`](../marine/navigation.md)
 > **Timeline**: Years 10-50+
 > **Outputs**: aircraft, aircraft_engines, propellers, aviation_fuel
 > **Critical**: No
@@ -225,15 +225,26 @@ Without propulsion technology, civilization is limited to ground and water trans
 - **Pilot training**: In a bootstrapping scenario, pilot training is a significant challenge. The Wright brothers taught themselves over years of glider experiments.
 - **Structural fatigue**: Wood and fabric airframes have finite fatigue lives. Fabric covering degrades from UV exposure and must be replaced every 5-10 years.
 
-### See Also
+## Troubleshooting
 
-- [Internal Combustion Engines](../energy/engine.md) — Engine design and manufacturing
-- [Roads & Bridges](roads.md) — Ground transport infrastructure
-- [Railways](railways.md) — Rail transport alternative
-- [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md) — Aviation fuel production
-- [Textiles](../textiles/index.md) — Fabric for aircraft covering
-- [Machine Tools](../machine-tools/index.md) — Precision machining for engine parts
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Engine rough running or misfiring | Fouled spark plug, carburetor icing, or fuel contamination | Clean or replace spark plug; apply carb heat; drain and replace fuel; check fuel filter |
+| Loss of climb performance | Dirty airframe (drag), low compression, or overloaded | Clean airframe surface; check cylinder compression; verify weight within limits; check density altitude |
+| Excessive vibration in flight | Propeller imbalance or engine mount looseness | Dynamically balance propeller; check engine mount bolts; inspect propeller for damage |
+- Fabric covering tearing or sagging | UV degradation or moisture damage to dope finish | Re-dope affected area; replace fabric section if torn; store aircraft under cover when not flying |
+| Oil pressure dropping in flight | Low oil level, oil cooler blockage, or bearing wear | Land immediately; check oil level; clear oil cooler; inspect engine for metal in oil |
+| Magneto drop exceeds 175 RPM during runup | Fouled plug or defective magneto | Clean or replace spark plugs; check magneto timing; verify mag switch contacts |
 
----
+## See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*
+- [Internal Combustion Engines](../energy/engine.md) — engine design and manufacturing
+- [Roads & Bridges](roads.md) — ground transport infrastructure
+- [Railways](railways.md) — rail transport alternative
+- [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md) — aviation fuel production
+- [Textiles](../textiles/index.md) — fabric for aircraft covering
+- [Machine Tools](../machine-tools/index.md) — precision machining for engine parts
+- [Light Aircraft](light-aircraft.md) — specific ultralight construction details
+- [Navigation](../marine/navigation.md) — aerial and marine navigation methods
+
+[← Back to Transport](index.md)

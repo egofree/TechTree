@@ -3,15 +3,22 @@
 > **Node ID**: vacuum.chambers
 > **Domain**: [Vacuum Technology](./index.md)
 > **Dependencies**: `machine-tools`, `machine-tools.joining.electron-beam`, `machine-tools.joining.tig-welding`, `metals`
-> **Enables**: None (leaf capability)
+> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
 > **Timeline**: Years 25-40
 > **Outputs**: vacuum_chambers, vacuum_seals, viewports, gate_valves, load_locks
+> **Critical**: Yes — vacuum chambers are required for all semiconductor thin-film deposition and lithography processes
 
-### Vacuum Chambers & Sealing
+## Problem
 
-For basic vacuum chamber concepts and outgassing tables, see [Gas Handling: Vacuum](../gas-handling/vacuum.md). This document covers chamber design engineering, advanced sealing systems, and chamber subsystems.
+Vacuum chambers are sealed enclosures that maintain controlled low-pressure environments for semiconductor processing, thin-film deposition, and surface analysis. For basic vacuum concepts and outgassing tables, see [Gas Handling: Vacuum](../gas-handling/vacuum.md). This document covers chamber design engineering, advanced sealing systems, and chamber subsystems. The central challenge is building a vessel that is structurally sound under 1 atmosphere of external pressure, leak-tight to 10⁻⁹ Torr, clean enough to avoid contaminating the process, and equipped with sealed ports for power, cooling, viewports, and sample introduction.
 
-### Chamber Design Principles
+## Prerequisites
+
+- [Machine Tools](../machine-tools/index.md) — precision machining for flange sealing surfaces
+- [TIG Welding](../machine-tools/joining.md) — stainless steel chamber welding
+- [Metals](../metals/index.md) — stainless steel and aluminum for chamber construction
+
+## Chamber Design Principles
 
 **Pressure loading**: A vacuum chamber is a pressure vessel loaded in external pressure (compression). At high vacuum (10⁻⁶ Torr), the pressure differential is ~1 atmosphere (14.7 psi, 101 kPa) pushing inward on every surface. For a cylindrical chamber of diameter D and wall thickness t, the compressive hoop stress is:
 
@@ -224,13 +231,22 @@ A virtual leak is a trapped volume of gas inside the vacuum system that slowly r
 - [ ] Water cooling lines for high-power process heat removal
 - [ ] RGA port for residual gas monitoring during processing
 
----
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Cannot reach base pressure after vent | Water vapor readsorbed on chamber walls | Bake chamber at 150-200°C for 24h while pumping; use dry N₂ vent instead of air; extend pump-down |
+| Virtual leak (slow pressure rise after isolation) | Trapped gas pocket in screw hole or weld crevice | Use vented screws; eliminate unvented blind holes; Helium leak check interior welds |
+| CF flange leak after thermal cycling | Copper gasket work-hardened or flange face damaged | Replace copper gasket; inspect flange knife-edge for nicks; re-torque bolts in star pattern |
+| Viewport cracking | Differential thermal expansion or mechanical stress | Use compatible viewport glass (Kovar-matched); avoid tightening viewport under vacuum; protect from deposition |
+| Chamber wall corrosion | Reactive process gases attacking stainless steel | Electropolish internal surfaces; use aluminum chamber for chlorine processes; apply protective coating |
+| Gate valve failing to seal | Bellows fatigue or particle contamination on seal | Cycle valve to dislodge particles; replace bellows if cracked; install upstream particulate filter |
 
 ## See Also
 
-- **[Gas Handling: Vacuum](../gas-handling/vacuum.md)**: Outgassing rates, bake-out procedures, vacuum hygiene
-- **[Vacuum Pumps](pumps.md)**: Pump selection and specifications
-- **[Vacuum Measurement & Leak Detection](measurement.md)**: Leak detection methods
-- **[Lubricants](../chemistry/lubricants.md)**: Vacuum grease specifications
+- [Gas Handling: Vacuum](../gas-handling/vacuum.md) — outgassing rates, bake-out procedures, vacuum hygiene
+- [Vacuum Pumps](pumps.md) — pump selection and specifications
+- [Vacuum Measurement & Leak Detection](measurement.md) — leak detection methods
+- [Lubricants](../chemistry/lubricants.md) — vacuum grease specifications
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*
+[← Back to Vacuum Technology](index.md)

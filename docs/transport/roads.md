@@ -3,12 +3,22 @@
 > **Node ID**: transport.roads
 > **Domain**: [Transport](./index.md)
 > **Dependencies**: [`animals.draft-power`](../animals/draft-power.md), [`foundations.tools-basic`](../foundations/tools-basic.md), [`mining`](../mining/index.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`transport.railways`](railways.md), [`transport.shipping`](shipping.md)
 > **Timeline**: Years 5-30
 > **Outputs**: roads, bridges
 > **Critical**: No
 
-### Road Construction
+## Problem
+
+Roads and bridges are the vascular system of civilization: they connect settlements, enable trade, and allow movement of goods too heavy for human portage. Without roads, transport is limited to navigable waterways and animal tracks — weather-dependent, slow, and capacity-limited. Road construction transforms raw terrain into all-weather transportation corridors, from simple dirt tracks to engineered macadam surfaces and truss bridges spanning rivers.
+
+## Prerequisites
+
+- [Draft Power](../animals/draft-power.md) — animal labor for earthmoving and hauling
+- [Basic Tools](../foundations/tools-basic.md) — hand tools for construction
+- [Mining](../mining/index.md) — crushed stone and aggregate production
+
+## Road Construction
 
 **Survey and alignment**:
 - **Route selection**: Follow natural terrain — avoid steep grades (>8% for animal-drawn, >5% for heavy carts). Minimize stream crossings. Prefer ridgelines and valley floors. Map route with compass and level (A-frame level or water level for grade control).
@@ -220,16 +230,24 @@
 - **Bitumen dependency**: Asphalt roads require petroleum distillation or coal tar for bitumen — not available in early bootstrap phases.
 - **Fourth-power law**: Road damage scales with the fourth power of axle load. One heavily loaded truck causes as much damage as 10,000 passenger cars. Heavy freight traffic dramatically shortens pavement life.
 
-### See Also
+## Troubleshooting
 
-- [Railways](railways.md) — Higher-capacity land transport
-- [Water Transport](shipping.md) — Cheaper bulk transport where waterways exist
-- [Cement & Concrete](../chemistry/cement.md) — Concrete for road paving and bridge construction
-- [Metals: Iron & Steel](../metals/iron-steel.md) — Steel for truss bridges and reinforcement
-- [Machine Tools](../machine-tools/index.md) — Equipment for precision metalwork in bridge construction
-- [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md) — Bitumen for asphalt paving
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Road surface rutting | Subgrade too soft or poor drainage saturating base | Improve drainage ditches; add thicker base layer; compact subgrade to 95% Proctor density |
+| Potholes forming in macadam | Water infiltration through surface cracks | Fill cracks with stone dust and tar; re-seal surface; improve crown for drainage |
+| Bridge abutment settling | Inadequate foundation on soft soil | Drive piles to firm stratum; widen footing; add riprap to prevent scour |
+| Gravel road corrugation (washboard) | Lack of binder fines or insufficient compaction | Add clay or stone dust as binder; re-grade with heavy roller; reduce vehicle speed |
+| Road flooding after rain | Culvert blocked or ditches insufficient | Clear culverts of debris; deepen ditches; add additional cross-drains at low points |
+| Frost heave cracking surface | Water expanding in subgrade during freeze-thaw | Add granular base layer below frost line; improve drainage; use frost-resistant base material |
 
----
+## See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*
+- [Railways](railways.md) — higher-capacity land transport
+- [Water Transport](shipping.md) — cheaper bulk transport where waterways exist
+- [Cement & Concrete](../chemistry/cement.md) — concrete for road paving and bridge construction
+- [Metals: Iron & Steel](../metals/iron-steel.md) — steel for truss bridges and reinforcement
+- [Machine Tools](../machine-tools/index.md) — equipment for precision metalwork in bridge construction
+- [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md) — bitumen for asphalt paving
 
+[← Back to Transport](index.md)

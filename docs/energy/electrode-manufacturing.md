@@ -3,12 +3,22 @@
 > **Node ID**: energy.electric-furnaces.electrode-manufacturing
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`energy.electric-furnaces`](electric-furnaces.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`energy.electric-furnaces`](electric-furnaces.md), [`metals.steelmaking`](../metals/steelmaking.md)
 > **Timeline**: Years 20-35
 > **Outputs**: graphite_electrodes, carbon_electrodes, electrode_paste
 > **Critical**: Yes — electrodes are the critical consumable in electric arc and submerged arc furnaces; no electrodes means no electric furnace operation
 
-### Overview
+## Problem
+
+Electrodes are the consumable heart of electric arc furnaces (EAF) and submerged arc furnaces (SAF) — the highest-temperature industrial processes available. They carry thousands of amps of current into the furnace, generating arcs at 3,000-3,500°C that melt steel, silicon, calcium carbide, and other materials. Electrodes erode during use (2-5 kg per tonne of steel) and must be continuously replaced, making their manufacture a critical supply chain dependency. The circular dependency — graphitization requires electric furnaces, which require graphitized electrodes — is the central bootstrap challenge.
+
+## Prerequisites
+
+- [Petroleum Alternatives](../chemistry/petroleum-alternatives.md) — petroleum coke and coal tar pitch feedstocks
+- [Electric Furnaces](electric-furnaces.md) — the furnaces that consume these electrodes
+- [Coal](coal.md) — coal tar pitch as binder material
+
+### Strengths and Weaknesses
 
 **Strengths**:
 - Electrodes enable the highest-temperature industrial processes (EAF, SAF) that no other furnace type can achieve
@@ -221,13 +231,23 @@ Electrode nipple design also varies by grade. RP electrodes use standard four-st
 - **Quality sensitivity**: Small variations in coke ash content, pitch viscosity, or baking temperature profile cause significant quality variation. Tight process control is essential.
 - **Size limitations**: Maximum electrode diameter is limited by through-wall temperature gradients during baking and graphitization. Large-diameter electrodes (>700 mm) require specially controlled cooling to avoid thermal cracking.
 
-### See Also
+## Troubleshooting
 
-- [Electric Furnaces](electric-furnaces.md) — Primary consumer of carbon electrodes
-- [Iron & Steel](../metals/iron-steel.md) — Steel production using electric arc furnaces
-- [Coal](coal.md) — Coal tar pitch source
-- [Petroleum & Alternatives](../chemistry/petroleum-alternatives.md) — Petroleum coke source
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Electrode breaking during use | Thermal shock or mechanical stress at nipple joint | Preheat electrode before use; reduce current ramp rate; check nipple thread alignment during joining |
+| Excessive electrode consumption (>5 kg/t steel) | High oxidation rate from air infiltration or improper slag practice | Seal furnace better; cover electrode with anti-oxidation spray; optimize slag foaming to protect sidewalls |
+| Green paste cracking during baking | Too-rapid temperature rise or uneven heating | Slow bake ramp rate to 5°C/hour through volatile release zone (200-600°C); ensure uniform furnace temperature |
+| Electrode stub joint arcing | Poor contact between electrode and holder | Clean contact surfaces; verify clamping pressure; check for oxidation on holder pads |
+| Graphitization uneven (resistivity varies along length) | Temperature non-uniformity in Acheson furnace | Repack core material; verify electrical contact resistance; extend graphitization hold time |
+| Søderberg electrode slipping or breaking | Paste too soft (over-baked) or too hard (under-baked) | Adjust paste viscosity; control baking zone temperature; verify casing integrity |
 
----
+## See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+- [Electric Furnaces](electric-furnaces.md) — primary consumer of carbon electrodes
+- [Iron & Steel](../metals/iron-steel.md) — steel production using electric arc furnaces
+- [Coal](coal.md) — coal tar pitch source
+- [Petroleum & Alternatives](../chemistry/petroleum-alternatives.md) — petroleum coke source
+- [Steelmaking](../metals/steelmaking.md) — EAF steelmaking process
+
+[← Back to Energy](index.md)

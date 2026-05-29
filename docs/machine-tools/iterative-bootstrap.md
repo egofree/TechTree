@@ -6,6 +6,19 @@
 > **Enables**: [`machine-tools.bearings-abrasives`](bearings-abrasives.md), [`machine-tools.machining`](machining.md)
 > **Timeline**: Years 10-25
 > **Outputs**: lathe, shaper, mill, drill_press, leadscrew, half_nut, change_gears
+> **Critical**: Yes — machine tools build machine tools; this bootstrap sequence is the only path from hand tools to precision machining
+
+### Problem
+
+Precision machines require precision parts, but precision parts require precision machines to make them. This circular dependency is the fundamental chicken-and-egg problem of industrialization. A lathe needs a flat bed and a true spindle, but making a flat bed requires a lathe to machine it. The solution is iterative: build a crude machine from hand tools and castings, use it to build a better machine, and repeat. Each generation of machines is more precise than the one that built it, and the precision improvements compound. The Gingery method — hand-scraped castings assembled into a lathe that builds a shaper that builds a mill — is the proven path from zero industrial base to a fully equipped machine shop.
+
+### Prerequisites
+
+- [Casting](casting.md) — sand casting of iron and aluminum parts for machine frames and components
+- [Animal-derived materials](../animals/animal-materials.md) — hide glue, leather for belts, bone for polishing compounds
+- [Iron and steel](../metals/iron-steel.md) — cast iron for beds, tool steel for cutters and scrapers
+- [Fire/foundry](../foundations/fire.md) — furnace for melting cast iron (1150-1250°C)
+- [Basic hand tools](../foundations/tools-basic.md) — files, hacksaw, hammers, taps and dies for initial assembly
 
 ## Philosophy: Gingery-Style Iterative Bootstrap
 
@@ -208,6 +221,26 @@ The compounding nature of this sequence is its greatest strength: once the surfa
 | 4 | Hardened steel (gauge blocks) | 5-10 kg | Heat treatment |
 | 5 | Tungsten carbide (probe tips) | 0.1-0.5 kg | Advanced materials |
 
----
+### Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Lathe bed not flat enough | Insufficient hand scraping or uneven casting shrinkage | Re-scrape using three-plate method; check with straightedge and marking compound; patience — 20-40 hours typical |
+| Chatter (vibration marks on work) | Tool overhang too long, loose spindle bearings, or insufficient rigidity | Shorten tool overhang; tighten bearing adjustment; add mass to compound rest; reduce depth of cut |
+| Leadscrew inaccurate threading | Leadscrew worn or change gear ratio wrong | Verify gear train calculation; measure pitch with thread gauge; if leadscrew is worn, use it only for non-critical work until replaced |
+| Bad castings (porosity, shrinkage) | Insufficient risers, wrong pouring temperature, or damp sand | Add larger risers to feed shrinkage; pour at 1350-1450°C for cast iron; dry sand molds thoroughly |
+| Taper on turned work (not cylindrical) | Misaligned tailstock or worn bed | Align tailstock to headstock using test bar; re-scrape bed if wear is severe |
+| Surface finish poor (tearing, not cutting) | Tool dull, wrong rake angle, or insufficient lubrication | Sharpen or replace tool bit; increase rake angle for the material; use cutting oil |
+| Drill press wandering (holes not straight) | Dull drill bit or excessive pressure without pilot hole | Sharpen drill bit; drill pilot hole first; use drill jig for accurate location |
+
+### See Also
+
+- [Casting](casting.md) — sand casting techniques for machine components
+- [Bearings & Abrasives](bearings-abrasives.md) — bearing materials and grinding wheels
+- [Machining](machining.md) — cutting operations on lathe, mill, and shaper
+- [Metals / Iron and Steel](../metals/iron-steel.md) — cast iron and tool steel for machine construction
+- [Precision Instruments](../measurement/precision-instruments.md) — gauge blocks, micrometers, and calibration
+- [Forming](../metals/forming.md) — forging and rolling of bar stock for shafts and leadscrews
+- [Measurement](../measurement/index.md) — surface plates, straightedges, and metrology fundamentals
+
+[← Back to Machine Tools](index.md)

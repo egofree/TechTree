@@ -675,6 +675,21 @@ Industrial plants monitor lubricant condition to schedule oil changes based on a
 - **Lubricant degradation in service**: All lubricants degrade during use. Oxidation thickens the oil and deposits varnish. Thermal breakdown at high temperatures produces sludge. Contamination with wear particles, water, and process chemicals reduces lubrication effectiveness. Regular oil analysis and timely replacement are essential for equipment reliability.
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Plain bearing seizes within hours of operation | Boundary lubrication regime (μ ~0.8 dry) not overcome; viscosity or speed too low for hydrodynamic film | Select oil viscosity to maintain h_min > 3× surface roughness; calculate using h_min ≈ (μ × U × d²)/(4 × W); for 50 mm shaft at 300 RPM use ISO VG 68, at 1500 RPM use ISO VG 32 |
+| Animal fat (tallow) lubricant goes rancid in storage | Oxidation of unsaturated fatty acids produces acids and polymers; shelf life 6-12 months at room temperature | Store in sealed, opaque containers in cool, dark place (refrigeration extends to 2 years); clarify by re-melting with water before use; check acidity — discard if visibly moldy or strongly decomposed |
+| Calcium soap grease softens and runs at operating temperature | Dropping point of calcium soap grease is only ~90°C — too low for hot-running bearings | Switch to lithium soap grease (dropping point ~190°C) or clay-thickened grease (no dropping point, usable to 250°C+); verify bearing operating temperature before selecting grease type |
+| Soluble oil cutting emulsion smells rancid and causes skin irritation | Bacterial growth in 5-10% oil-in-water emulsion; pH has dropped below 8.5 indicating active biodegradation | Monitor emulsion pH weekly (target >8.5); add biocide to suppress bacterial growth; replace emulsion every 3-6 months; empty and clean sump tank before refilling |
+| Hydraulic pump fails prematurely with erratic valve operation | Fluid contamination with particles >10 μm; contamination is the primary cause of hydraulic system failure | Install 10-25 μm absolute return-line filter; maintain ISO 4406 cleanliness code 16/14/11 for servo valve systems; flush system before first fill; analyze fluid for particle count quarterly |
+| Vacuum pump cannot reach target pressure below 10⁻² Pa | Vacuum oil has high vapor pressure or is contaminated with dissolved gases and process chemicals | Switch to oil with appropriate vapor pressure (silicone vacuum oil ~10⁻⁶ Pa for diffusion pumps); purify oil by filtration (1-5 μm), degassing under vacuum, and adsorption through activated alumina |
+| Grease-packed bearing overheats after regreasing | Bearing cavity overfilled (>50% fill causes churning heat); fresh grease mixed with degraded old grease | Fill only 30-50% of bearing cavity with grease; remove old grease completely before repacking; verify NLGI grade matches application (NLGI 2 is typical for general bearings) |
+| Vegetable oil hydraulic fluid thickens and causes pump cavitation | Oxidative rancidity increases viscosity; vegetable oils have 1-2 year shelf life and narrow temperature range | Monitor acid number and viscosity regularly; replace fluid at first sign of thickening; switch to mineral oil (ISO VG 32-46) once petroleum refining is available for -10°C to +70°C range |
+| Oil analysis shows viscosity increase >10% from baseline | Oil oxidation producing high-molecular-weight polymers and sludge; operating temperature too high for oil grade | Replace oil immediately; check for overheating (oil operating above 80°C accelerates oxidation 2× for every 10°C rise); consider synthetic (PAO, VI 130-150) for high-temperature service |
+| MoS₂ solid lubricant coating wears through prematurely in vacuum | MoS₂ wears as a consumable film (0.5-2 μm sputtered coating); graphite is ineffective in vacuum (needs adsorbed water) | Reapply MoS₂ by sputtering (PVD) or bonded coating (MoS₂ + phenolic binder); verify MoS₂ (effective -180 to +350°C in vacuum, up to 800°C in vacuum) vs graphite (poor in vacuum, effective to 450°C in air) |
+
 ## See Also
 
 - **[Animal Materials](../animals/animal-materials.md)**: Fat and tallow supply for early lubricants

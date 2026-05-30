@@ -233,6 +233,21 @@ At each scale, the SEM Tech membrane cost is so low relative to other system com
 
 **No non-ionic contaminant removal**: ED removes only charged species. Suspended solids, organic molecules, and microorganisms pass through the channels unchanged. Pre-treatment (filtration, activated carbon) is needed for complete water purification.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Diluate conductivity not decreasing during operation | Electrode polarity reversed — ions migrating in wrong direction through membrane stack | Verify polarity with multimeter before energizing (positive to anode, negative to cathode); reversed polarity damages membranes |
+| Stack resistance increases >20% from baseline | Ca²⁺/Mg²⁺ precipitating as carbonate or hydroxide scale on membrane surfaces from hard water feed | Clean with 0.1M HCl for 30 minutes; implement EDR polarity reversal every 15-30 minutes for scaling-prone feeds |
+| Uneven ion removal across membrane stack | Misaligned manifold holes on spacer gaskets blocking or restricting flow in some channels | Disassemble stack; verify all spacer frame manifold holes align precisely; misaligned holes cause dead zones |
+| Current efficiency drops at high feed TDS | Concentration polarization — ion depletion at membrane surface at current densities above 30 mA/cm² | Increase flow velocity to 10-15 cm/s; reduce current density below 30 mA/cm² for feeds above 5,000 mg/L TDS |
+| Organic fouling reducing membrane performance | Dissolved organic matter (humic acids, colloids) coating ion exchange sites and blocking ion transport | Clean with 0.1M NaOH for 30 minutes; install granular activated carbon pre-treatment on feed stream |
+| Internal leakage between diluate and concentrate channels | Uneven tie rod compression allowing fluid to bypass membranes at gasket interfaces | Retorque tie rods in cross-pattern to 0.5-2.0 MPa in 3-4 incremental passes; replace compressed or deformed spacer gaskets |
+| Excessive gas bubbles at electrodes | Voltage per cell pair exceeds 1.5V, causing water splitting at electrode boundary membranes | Reduce total stack voltage; check for blocked channels or fouled membranes causing excessive resistance in individual cell pairs |
+| Membrane cracks after removal from stack | SEM Tech membranes dried out during storage — PVC/CPVC matrix becomes brittle when dehydrated | Store membranes moist in 1M NaCl solution; never allow to dry completely; rehydrate dried membranes before reuse |
+| Concentrate TDS plateaus below target level | Back-diffusion of ions from concentrate to diluate at high concentration gradients exceeds forward electromigration | Reduce target concentration ratio; increase applied current density; consider staging with multiple stacks in series |
+| Graphite electrodes eroding within 1 year | Anode reaction products slowly consuming graphite material even in ED where electrode reactions are minimal | Replace with DSA (dimensionally stable anode) — RuO₂/IrO₂ coated titanium mesh for 5-8 year lifetime |
+
 ## See Also
 
 - [SEM Tech Ion Exchange Membrane](sem-tech.md) — parent article on SEM Tech membrane manufacturing and properties

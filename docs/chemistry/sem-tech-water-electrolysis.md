@@ -237,6 +237,21 @@ Even with a conservative 50% reduction in stack cost (not the full 95% membrane 
 
 **Industrial scale (1,000-50,000 kg H₂/day)**: Multiple parallel stacks totaling 100-5,000 m² membrane area at 1,000-3,000 mA/cm². Requires 2-100 MW DC power. Membrane cost: $1,000-50,000 (compared to $500,000-20,000,000 for Nafion). Suitable for refinery hydrogen, large-scale ammonia synthesis, and steel direct reduction.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Cell voltage exceeds 3.0V at low current density | Membrane dehydration — DI water flow insufficient to maintain hydration of sulfonic acid groups for proton conduction | Verify DI water feed at 5-20 mL/min for bench-scale; ensure membrane was conditioned in 0.5M H₂SO₄ for 12 hours before use |
+| Hydrogen purity below 99.5% (O₂ detected in H₂ stream) | Gas crossover through pinholes or excessively thin membrane (<50 μm) allowing O₂ to permeate to cathode side | Inspect membrane for pinholes before assembly; increase membrane thickness to 100-150 μm; ensure membrane fully covers both electrodes |
+| Cell voltage gradually increasing over days of operation | Membrane degradation (PVC binder oxidation) or catalyst deactivation increasing internal resistance | Track voltage trend continuously; replace membrane when voltage at operating current increases >20% from initial baseline value |
+| No hydrogen production at cathode despite applied current | Electrode polarity reversed — anode connected to negative terminal, cathode to positive | Verify polarity with multimeter before energizing: positive terminal to anode (O₂ evolution), negative to cathode (H₂ evolution) |
+| Sudden voltage spike during current ramp-up | Gas bubbles blocking flow channels at high current density, creating localized dry spots on membrane | Reduce current density; verify water flows freely through anode chamber; clear gas blockage by increasing water flow rate temporarily |
+| Membrane cracks or delaminates after removal from cell | Membrane allowed to dry out — PVC/CPVC binder matrix loses flexibility and cracks when dehydrated | Store membrane in DI water in sealed container at all times; never allow SEM Tech membrane to dry during or after operation |
+| Anode electrode eroding within days | Uncoated graphite anode in acidic PEM environment (pH 2-4 at anode) — graphite oxidizes under oxygen evolution conditions | Apply IrO₂ catalyst coating by thermal decomposition (1-3 mg Ir/cm²) or switch to porous titanium felt anode for longer life |
+| Excessive water accumulation on cathode side | Electro-osmotic drag — protons (H⁺) dragging water molecules through membrane during operation | Expected behavior at current densities above 200 mA/cm²; ensure cathode gas path has drainage for liquid water removal |
+| Faradaic efficiency below 90% (less H₂ produced than theoretical) | Electrical short circuit between end plates, or parasitic side reactions consuming current | Verify electrical isolation between end plates (no contact through assembly); check all gaskets are properly seated preventing internal shorts |
+| Membrane performance degrades at 50-80°C operating temperature | PVC binder softening above its glass transition temperature (~80°C), causing dimensional changes in membrane matrix | Use CPVC binder (higher Tg ~100-120°C) instead of PVC for elevated-temperature PEM operation; or restrict operation to ambient temperature |
+
 ## See Also
 
 - [SEM Tech](sem-tech.md) -- the membrane technology that enables this application

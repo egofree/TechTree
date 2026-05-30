@@ -97,12 +97,12 @@ BTX aromatics are powerful solvents and feedstocks derived from coal tar or petr
 - **[Carcinogen](../glossary/carcinogen.md)** — causes leukemia (AML) with chronic exposure. Industrial use has been largely phased out in developed countries. Substitute with toluene or xylene wherever possible.
 - Feedstock for styrene (polystyrene), nylon, phenol, and synthetic rubber (SBR). Difficult to replace as a feedstock even if eliminated as a solvent.
 
-**[Toluene](../glossary/toluene.md)** (C₇H₈, bp 110.6°C):
+****Toluene**** (C₇H₈, bp 110.6°C):
 - Good general-purpose aromatic solvent. Similar dissolving power to benzene but significantly less carcinogenic (not classified as a human carcinogen — metabolized to benzoic acid rather than benzene oxide).
 - Applications: paint thinner, coating solvent, gasoline octane booster, feedstock for toluene diisocyanate (TDI → polyurethane foam), TNT explosive synthesis.
 - Preferred substitute for benzene in most solvent applications.
 
-**[Xylene](../glossary/xylene.md)** (C₈H₁₀, mixture of ortho-, meta-, para- isomers, bp ~140°C):
+****Xylene**** (C₈H₁₀, mixture of ortho-, meta-, para- isomers, bp ~140°C):
 - Higher-boiling aromatic solvent. Used where slower evaporation is desired (paints, coatings, cleaning).
 - Applications: histology staining solvent, paint and coating formulations, cleaning agent for silicon wafers in semiconductor processing.
 - Toxicity: moderate — irritant and nervous system depressant at high concentrations. Less hazardous than benzene.
@@ -255,6 +255,21 @@ Solvents present a tiered hazard landscape ranked by severity:
 - **Solvent incompatibility**: Many solvents react dangerously with each other or with common materials. Acetone + chlorinated solvents can form explosive mixtures. Ether + strong oxidizers → violent reactions. Always check chemical compatibility before mixing solvents or storing them together.
 - **Purity requirements for semiconductor use**: Electronic-grade solvents require metallic impurities below 1 ppb — 1000× purer than ACS reagent grade. Achieving this purity demands dedicated distillation equipment, ultra-pure water for extraction, and Class 100 cleanroom handling — a significant infrastructure investment beyond standard chemical plant capability.
 - **Energy intensity of recovery**: Distillation recovery consumes 2-5 MJ/kg of recovered solvent. Large-scale solvent recovery can represent a significant fraction of total plant energy consumption. Solvent-free or aqueous alternatives should be evaluated before committing to solvent-intensive processes.
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Ethanol distillation stalls at 95.6% purity | Ethanol-water azeotrope prevents further separation by simple distillation | Switch to molecular sieve (zeolite 3Å) dehydration for 99.5-99.9% ethanol, or use quicklime (CaO) addition followed by redistillation |
+| Diethyl ether synthesis yields ethylene instead of ether | Reaction temperature exceeds 170°C, favoring ethylene formation over ether | Maintain sulfuric acid-ethanol reaction strictly at 130-140°C; distill ether continuously as it forms (bp 34.6°C) to drive equilibrium |
+| Stored diethyl ether forms explosive peroxides | Slow reaction with atmospheric oxygen over weeks to months produces organic peroxides | Test old ether with potassium iodide-starch paper before distilling; add iron wire or BHT inhibitor to storage containers; discard ether older than 6 months if uninhibited |
+| Hydrogen peroxide decomposes violently during vacuum concentration | Trace metal contamination (Fe, Cu, Mn) catalyzes exothermic decomposition above ~70°C | Use scrupulously clean equipment (aluminum or HDPE vessels, never plain steel); keep temperature below 50°C under 30-50 mbar vacuum |
+| RCA clean (SC-1) loses effectiveness mid-batch | H₂O₂ depletes rapidly at 75-80°C bath temperature | Replace SC-1 bath every 20-30 minutes of use; prepare fresh NH₄OH:H₂O₂:H₂O = 1:1:5 mixture immediately before each cleaning cycle |
+| Turpentine yield from steam distillation is low | Insufficient steam flow or resin not properly comminuted | Ensure steam carries turpentine (bp ~96°C with steam) from finely divided resin; expect ~20% yield by weight from oleoresin |
+| Methanol synthesis catalyst deactivates prematurely | Sulfur or chlorine poisons in synthesis gas feed deactivate Cu/ZnO/Al₂O₃ catalyst | Purify synthesis gas to <0.1 ppm sulfur and chlorine before the 250°C, 50-100 bar synthesis reactor; consider fallback to older ZnO/Cr₂O₃ catalyst at 300-400°C |
+| Solvent recovery distillation energy cost too high | Single-effect pot still consuming >5 MJ/kg recovered solvent | Switch to packed column fractionation for better separation efficiency; implement heat integration (condenser waste heat preheats feed); evaluate activated carbon adsorption for dilute streams |
+| Carbon disulfide ignites spontaneously during handling | CS₂ autoignition temperature is only 90°C — hot steam pipes or light bulbs can ignite it | Eliminate all ignition sources including hot surfaces above 90°C; use only in enclosed systems with local exhaust ventilation; CS₂ vapor is 2.6× denser than air — check low spots |
+| Benzene detected in toluene solvent stream | Co-production during petroleum catalytic reforming or coal tar distillation gives BTX mixtures | Fractionate carefully (benzene bp 80.1°C vs toluene bp 110.6°C); verify benzene content by GC before use; substitute toluene wherever benzene is not strictly required as feedstock |
 
 ## See Also
 

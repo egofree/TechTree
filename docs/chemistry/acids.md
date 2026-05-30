@@ -135,7 +135,7 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 **Principle**: Nitric acid (HNO₃) is produced from sodium nitrate (Chile saltpeter) and concentrated sulfuric acid via acid displacement, or from ammonia via the Ostwald process (see [Ammonia Production](ammonia.md) for detailed Ostwald description).
 
 **Prerequisites**:
-- [Sulfuric acid](#contact-process-9698-h₂so₄) (93%+) — for NaNO₃ route
+- [Sulfuric acid](#contact-process-96-98-h₂so₄) (93%+) — for NaNO₃ route
 - [Ammonia](ammonia.md) — for Ostwald route (requires Haber-Bosch)
 - [Glass or ceramic apparatus](../glass/basic.md) — HNO₃ attacks most metals except aluminum and certain stainless alloys
 
@@ -174,7 +174,7 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 **Principle**: HCl gas is generated from NaCl + H₂SO₄ (Leblanc salt cake reaction) or by direct synthesis from H₂ + Cl₂ (burns in quartz combustion chamber). The gas is absorbed in water to produce 30-38% hydrochloric acid.
 
 **Prerequisites**:
-- [Sulfuric acid](#contact-process-9698-h₂so₄) (93%+) — for NaCl route
+- [Sulfuric acid](#contact-process-96-98-h₂so₄) (93%+) — for NaCl route
 - [Electrolysis](electrolysis.md) — for H₂ + Cl₂ direct synthesis route
 - Salt (NaCl, purified) — feedstock
 - [Glass or ceramic absorption column](../glass/basic.md) — for HCl gas absorption
@@ -215,7 +215,7 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 
 **Prerequisites**:
 - [Fluorite (CaF₂)](../mining/processing.md) — acid-grade fluorspar (>97% CaF₂)
-- [Sulfuric acid](#contact-process-9698-h₂so₄) (93-98%) — reactant
+- [Sulfuric acid](#contact-process-96-98-h₂so₄) (93-98%) — reactant
 - [Lead or steel retort](../metals/iron-steel.md) — HF attacks glass, never use glass apparatus
 - PTFE or polyethylene containers — for product storage
 
@@ -351,6 +351,21 @@ Semiconductor processing requires ultra-pure acids (trace metal impurities at pp
 | HNO₃ | 68% | 122°C |
 | H₂SO₄ | 98.3% (technical max) | 337°C |
 | HF | 38% | 112°C |
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Lead chamber acid below 62% H₂SO₄ (hydrometer <1.52 g/mL) | Insufficient SO₂ concentration at chamber inlet (below 5% by volume) or excessive water addition | Increase sulfur combustion rate; verify blower is maintaining gas flow; reduce water spray rate into chambers; target SO₂ at 5-7% by volume at chamber inlet |
+| Brown NO₂ fumes escaping Gay-Lussac tower exhaust | NOx absorption insufficient — packing in Gay-Lussac tower fouled or acid circulating below 50% H₂SO₄ | Clean or replace ceramic ring packing; increase 50-60% H₂SO₄ circulation rate to the tower; verify NOx loss is below 5-10 kg HNO₃ equivalent per tonne H₂SO₄ |
+| Contact process converter won't sustain reaction (temperature falling below 380°C) | Catalyst bed not preheated to V₂O₅ activation temperature, or sulfur feed contains arsenic poisoning catalyst | Preheat converter to minimum 380°C using electric or gas preheaters before introducing SO₂; switch to elemental sulfur (99.5%+ purity, low arsenic) instead of pyrite; replace poisoned catalyst bed |
+| Contact process tail gas exceeds 200 ppm SO₂ | Catalyst activity degraded or absorption tower 98% H₂SO₄ circulation insufficient | Monitor each catalyst bed for expected temperature rise (ΔH = -198 kJ/mol SO₂); replace degraded V₂O₅ pellets; increase 98% H₂SO₄ circulation rate in absorption tower; consider double-absorption upgrade for 99.5-99.9% conversion |
+| Nitric acid retort producing brown NO₂ gas before reaching 150°C | Retort temperature exceeding 150°C causing HNO₃ thermal decomposition, or impure NaNO₃ feed containing organic contaminants | Reduce heating rate; use sand bath or oil bath for gentle 120-150°C heating; verify NaNO₃ purity (97%+); keep retort below 150°C to prevent decomposition |
+| HCl absorber outlet acid below 30% concentration (density <1.18 g/mL) | Absorber temperature exceeding 40°C reducing HCl gas solubility, or water flow too high | Increase cooling water jacket flow on absorber to keep below 40°C; reduce water flow to absorption column; verify counter-current flow is correct |
+| Yellow-green tint in HCl product | Dissolved Cl₂ contamination from over-oxidation in salt cake furnace or direct synthesis | Air-strip the product by bubbling clean air through HCl in a glass column; verify furnace temperature control (first stage 150-200°C, second stage 550-600°C); check H₂:Cl₂ ratio in direct synthesis |
+| HF yield below 0.95 tonnes per tonne CaF₂ | Fluorspar quality too low (SiO₂ >1.5% consuming HF as SiF₄) or kiln temperature below 200°C | Source acid-grade fluorspar (>97% CaF₂, <1.5% SiO₂); verify kiln is reaching 200-300°C; ensure CaF₂:H₂SO₄ mass ratio is 1:1.25; increase residence time to 30-60 minutes |
+| Phosphoric acid (wet process) contaminated with high fluoride levels | Inadequate recovery of fluorine as Na₂SiF₆ from process gas; SiF₄ and HF not being scrubbed | Install gas scrubbing on the reaction tank vent; precipitate fluorine as Na₂SiF₆ using sodium sulfate solution; verify vacuum evaporation is not concentrating fluorine impurities into product |
+| Semiconductor-grade acid fails ppb trace metal spec (>10 ppb Fe or Cu) | Distillation equipment leaching metals — steel or glass still components contaminating product; sub-boiling distillation not used | Switch to PTFE or quartz distillation equipment; use sub-boiling distillation (heat below boiling point, condense purest vapor fraction); store only in PTFE containers; verify all wetted surfaces are non-leaching |
 
 ## See Also
 

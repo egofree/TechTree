@@ -271,6 +271,21 @@ Lead is uniquely suited for dilute H₂SO₄ (<78%) — forms protective PbSO₄
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Lead chamber H₂SO₄ product only 50-55% concentration (expected 62-70%) | Insufficient SO₂ feed gas; chamber temperature too high causing re-evaporation; NOₓ catalyst depleted | Increase sulfur or pyrite burn rate to achieve 7% SO₂ in exit gas; maintain chamber at 30-50°C; add HNO₃ makeup (5-10 kg per tonne H₂SO₄) to restore NOₓ catalyst cycle |
+| Contact process V₂O₅ catalyst deactivating within months (expected 5-10 year life) | Feed gas contains arsenic or dust impurities poisoning catalyst; moisture in gas (water poisons catalyst) | Install electrostatic precipitators to remove dust; dry feed gas by passing through 98% H₂SO₄ in a drying tower before catalyst contact; if catalyst is contaminated, replace the first bed (most exposed to impurities) |
+| HCl absorption tower not concentrating above 20% (azeotrope at 20.2%) | Simple absorption cannot exceed the azeotrope; insufficient HCl gas input; cooling water too warm | Accept 20.2% as the distillation limit at 1 atm (boiling point 108.6°C); for higher concentrations, use pressure-swing or extractive distillation; ensure absorption water is cooled below 20°C for maximum HCl solubility |
+| Ostwald process nitric acid only reaching 55% concentration (expected 55-68%) | Absorption column pressure too low (below 4 bar); insufficient column height for NO re-oxidation; cooling inadequate | Increase absorption column pressure to 4-10 bar to accelerate slow third-order NO oxidation; verify column height is 20-40 m with sufficient trays; cool absorption water to maximize NO₂ absorption |
+| Lime-soda process producing NaOH below 10% concentration (expected 10-12%) | Reaction temperature below 80°C; insufficient reaction time (below 1-2 hours); Ca(OH)₂ slurry too dilute | Maintain reaction at 80-90°C in agitated tank for 1-2 hours; use fresh quicklime slaked to Ca(OH)₂; concentrate 10-12% NaOH by multiple-effect vacuum evaporation to 50% commercial grade |
+| NaOH solution attacking steel storage tank | Concentration above 60% at elevated temperature; steel is only suitable for dilute NaOH at moderate temperatures | Use nickel-clad vessels for NaOH above 60% concentration; for 50% NaOH at ambient temperature, steel is acceptable; store 50% NaOH in steel or rubber-lined tanks; never store hot concentrated NaOH in unlined steel |
+| Leblanc process black ash not yielding soluble Na₂CO₃ on leaching | Furnace temperature below 900°C (incomplete reaction); insufficient carbon in charge; mixing inadequate | Maintain reverberatory furnace at 900-1000°C; ensure charge contains Na₂SO₄ + 2C + CaCO₃ in stoichiometric proportions; mix thoroughly before charging; CaS residue must be oxidized to CaSO₄ before disposal (prevents toxic H₂S generation) |
+| Solvay carbonation tower producing NaHCO₃ with poor crystal size | CO₂ concentration too low; tower temperature too high (above 35°C); ammonia concentration insufficient | Cool carbonation tower to 20-30°C using internal cooling coils; use concentrated CO₂ from lime kiln (40% CO₂); maintain NH₃ saturation in brine; NaHCO₃ crystal size affects filtration efficiency — fine crystals pass through filters |
+| Hydrofluoric acid production yield below expected from fluorspar | CaF₂ ore grade too low (below 90%); reaction temperature below 150°C; H₂SO₄ concentration below 93% | Use fluorspar grade above 94% CaF₂; maintain rotary kiln at 150-300°C; use 93-98% H₂SO₄ for effective reaction; HF gas absorption in water to 48-50% concentration (density 1.16 g/mL) |
+| Violent boiling and spattering when diluting concentrated H₂SO₄ | Water added to acid instead of acid to water; heat of dilution (880 kJ/kg H₂SO₄) causes rapid boiling | Always add acid to water slowly with stirring — never water to acid; the large water volume absorbs the 880 kJ/kg heat of dilution; wear face shield, acid-resistant gloves (neoprene), and rubber apron; keep sodium bicarbonate or lime available for emergency neutralization |
+
 ## See Also
 
 - [Acids](acids.md) — sulfuric, hydrochloric, and nitric acid production

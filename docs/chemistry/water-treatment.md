@@ -273,6 +273,21 @@ Industrial water treatment includes treating used water before discharge. The st
 - **Bacterial contamination**: Deionized water has no chlorine residual. Bacteria colonize ion exchange resin beds, carbon filters, and storage tanks. Regular sanitization (hot water at 80°C, peracetic acid, or hydrogen peroxide) is required. UPW systems operate in continuous recirculation to prevent stagnant zones where bacteria multiply.
 - **Cost**: Industrial water treatment systems are capital-intensive. A complete UPW system for semiconductor fabrication (producing 10 m³/hour of 18.2 MΩ·cm water) costs $500,000-2,000,000. Even a basic DI system for laboratory use costs $5,000-20,000.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| RO membrane flux declining rapidly | Membrane fouling by scale, biofilm, or organic deposits reducing permeate flow | Increase antiscalant dose (sodium hexametaphosphate at 2-5 ppm); verify carbon pretreatment removes free chlorine (destroys polyamide membranes); clean membrane with NaOH (pH 11-12) for organics or citric acid (pH 2-3) for scale |
+| Deionized water resistivity stuck below 1 MΩ·cm | Cation or anion exchange resin exhausted; CO₂ absorption from air | Regenerate cation resin with 5-10% HCl (100-150 g/L resin) and anion resin with 4-8% NaOH (50-100 g/L resin); seal storage tank with nitrogen blanket to prevent CO₂ dissolution (H₂CO₃ lowers resistivity from 18 to <1 MΩ·cm within hours) |
+| Clarifier floc not settling (high turbidity persists) | Insufficient coagulant dose or incorrect pH for floc formation | Increase alum to 10-50 mg/L or FeCl₃ to 5-30 mg/L; verify rapid mix at 300-500 RPM for 1-3 min then slow mix at 20-40 RPM for 15-30 min; check pH is in optimal range (5.5-7.5 for alum) |
+| UPW silica levels exceed 1 ppb spec | Anion exchange resin nearing exhaustion or wrong resin type selected | Regenerate strong base anion resin (Type I trimethylamine provides best silica removal); verify mixed-bed polisher is online; check that upstream RO is rejecting >95% dissolved ions |
+| Sand filter head loss exceeds 2.0 m prematurely | Filter bed clogged with accumulated solids from high-turbidity feed | Backwash at 30-50 m/hour for 5-10 minutes to expand bed and flush solids; reduce filtration rate below 10 m/hour if feed turbidity is consistently high; consider adding coagulant aid (polyacrylamide at 0.5-2.0 ppm) |
+| RO permeate conductivity suddenly increases | Membrane element O-ring seal failed or membrane compromised by chlorine exposure | Check individual pressure vessel permeate conductivity to isolate leaking element; replace damaged O-rings; verify activated carbon bed (EBCT 10-20 min) removes all free chlorine before RO feed |
+| Ion exchange resin lifespan shorter than expected (under 3 years) | Free chlorine in feed water attacking polymer backbone, or osmotic shock from rapid concentration changes | Ensure carbon pretreatment limits Cl₂ to <0.1 ppm; avoid rapid swings in feed TDS; regenerate with acid/caustic at recommended rates (4-8% HCl, 4-8% NaOH) rather than stronger solutions that cause osmotic shock |
+| Cooling water system shows white CaCO₃ scale deposits | Calcium carbonate precipitation from exceeding solubility limit at elevated temperature | Add phosphonate (HEDP at 5-10 ppm) or polyacrylate (5-15 ppm) scale inhibitor; blow down when TDS reaches 3-7× makeup water TDS (cycles of concentration control) |
+| Boiler feed water dissolved O₂ exceeds 7 ppb | Deaerator not reaching design temperature (102-105°C) or insufficient scavenger dose | Verify mechanical deaerator operates at 102-105°C with countercurrent steam flow; increase sodium sulfite to 3-5× stoichiometric or hydrazine to 50-100 ppb residual; check deaerator vent is not blocked |
+| Wastewater heavy metals exceed discharge limit after precipitation | pH not in optimal range for target metal hydroxide precipitation | Adjust pH precisely: Cr³⁺ precipitates at pH 7-8, Cu²⁺ at pH 8-10, Zn²⁺ at pH 9-10; for hexavalent Cr⁶⁺, reduce to Cr³⁺ first with FeSO₄ at pH 2-3, then raise pH to 8-9 with NaOH; polish residual with Na₂S at stoichiometric +10% excess |
+
 ## See Also
 
 - [Water Treatment (Health)](../health/water-treatment.md) — potable water, chlorination, basic treatment

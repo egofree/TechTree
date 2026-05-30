@@ -434,6 +434,21 @@ At the projected SEM Tech membrane cost of $10-15/m² (including bipolar membran
 
 **Scale limitation**: Current SEM Tech membrane manufacturing is laboratory-scale. Industrial BMED requires hundreds of square meters of membrane per installation, requiring scale-up of membrane production capacity.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Current efficiency drops below 60% | H⁺ and OH⁻ back-diffusion through monopolar membranes increases at product concentrations above 3 mol/L | Reduce target acid/base concentration to 2-3 mol/L; use thicker monopolar membranes for improved selectivity |
+| Bipolar membrane delamination | Cation/anion layer bond fails due to uneven stack compression (below 0.5 MPa) or osmotic pressure difference across junction | Retorque tie rods to 0.5-2.0 MPa in cross-pattern; replace delaminated BPM — the junction cannot be repaired |
+| Metal hydroxide scale on membrane surfaces | Iron-rich pickling feed (10-20% FeCl₂) causes Fe(OH)₂/Fe(OH)₃ precipitation in base compartment as pH rises | Perform acid cleaning with 2-4% HCl for 30-60 minutes; improve feed pre-treatment to reduce iron loading |
+| Acid product concentration plateaus at 1-2 mol/L despite normal current and salt feed | Back-diffusion of H⁺ through the AEM into salt compartment limits net acid accumulation above ~3 mol/L | Accept 1-3 mol/L as practical ceiling for single-stage BMED; add a second concentration stage or blend with fresh acid |
+| Na⁺ detected in acid product or Cl⁻ in base product | Uneven stack compression or degraded spacer gaskets allow hydraulic cross-flow between compartments | Retorque tie rods in cross-pattern; replace hardened or cracked PVC spacer gaskets; balance flow rates to equalize pressure |
+| Stack voltage rises >20% above baseline at constant current | Organic fouling (oil, grease from industrial process) coating membrane surfaces, blocking ion transport | Perform alkali cleaning with 1-2% NaOH for 30-60 minutes; add granular activated carbon to feed pre-treatment |
+| Bipolar membrane fails to split water (product pH shifts unexpectedly) | Water-splitting catalyst (FeCl₃, CrCl₃, or TiO₂) poisoned by heavy metal ions in feed | Pre-treat feed to remove heavy metals below 5 mg/L; replace failed BPM with fresh catalyst loading of 0.1-1.0 mg/cm² |
+| Voltage per cell triple exceeds 3.0V | Excessive current density (>50 mA/cm²) or air entrainment creating high-resistance zones in channels | Reduce current density to 20-40 mA/cm²; purge system at high flow rate to clear trapped air bubbles |
+| Electrode rinse water overheating | Electrode reactions generating excess heat due to graphite electrode erosion increasing contact resistance | Inspect electrodes for visible pitting; replace graphite electrodes when eroded (projected 1-2 year service in BMED) |
+| Pressure imbalance between acid, base, and salt loops | Unequal circulation pump flow rates deforming membranes and causing cross-contamination | Adjust flow rates on all three loops to maintain similar hydraulic pressure (monitor with pressure gauges on each loop) |
+
 ## See Also
 
 - [SEM Tech](sem-tech.md) -- parent article on low-cost ion exchange membrane technology

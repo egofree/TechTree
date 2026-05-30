@@ -230,6 +230,21 @@ For regions with both cheap renewable electricity and access to point-source CO�
 - **Carbon capture dependency**: e-Methanol requires a concentrated CO₂ source. Direct air capture is energy-intensive (250+ kWh per tonne CO₂). Industrial point-source capture is cheaper but ties the plant to fossil infrastructure.
 - **Scale**: World methanol production exceeds 100 million tonnes/year. e-Methanol remains a niche product.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Per-pass CO₂ conversion below 10% at standard conditions | Catalyst not fully reduced — CuO not converted to active metallic Cu | Re-reduce catalyst in situ: flow 5% H₂/N₂ at 1-2°C/min to 220°C, hold 4-8 hours until no exotherm observed |
+| Reactor temperature exceeds 300°C (runaway) | Exothermic synthesis reaction (ΔH = -49.5 kJ/mol) self-heating beyond cooling capacity at high conversion | Immediately shut off H₂ feed, open emergency vent, flood reactor with N₂ at max flow; never quench with water/steam |
+| Catalyst deactivates within months instead of 2-5 years | Sulfur (>ppb-level H₂S) or chlorine impurities in H₂/CO₂ feed poisoning Cu active sites | Purify feed to <5 ppm sulfur and <10 ppm CO; install sacrificial guard bed upstream of synthesis reactor |
+| High pressure drop across catalyst bed | Liquid water accumulating in reactor from condensation at cold spots | Verify condenser operates at 10-25°C; check reactor temperature uniformity; ensure drain valve functions properly |
+| Methanol purity below Grade AA (<99.85%) | Insufficient distillation plates or incorrect reboiler temperature for methanol-water separation | Increase to 20-40 theoretical plates; target methanol bp 64.7°C at mid-column; verify water content <0.10% by Karl Fischer |
+| DME (dimethyl ether) in product stream | Reaction temperature exceeding 280°C causing methanol dehydration side reaction | Reduce reactor temperature to 220-260°C range; verify cooling system maintains temperature control |
+| Recycle compressor surging | Liquid methanol/water carryover from condenser into gas recycle line | Install mist eliminator at condenser outlet; verify condenser temperature is not fluctuating above 25°C |
+| Excessive purge gas loss of unreacted H₂ and CO₂ | Purge rate set too high (>5% of recycle flow), wasting reactants that should be recycled | Reduce purge valve opening to 2-5% of total recycle gas flow; monitor inert gas (N₂, CH₄) concentration to confirm purge is adequate |
+| Reduced Cu catalyst ignites on air exposure during maintenance | N₂ blanket lost during shutdown; pyrophoric re-oxidation of metallic copper | Maintain N₂ blanket at all times when reactor is below operating temperature; if air enters, oxidize slowly with 2-5% O₂ in N₂ |
+| H₂ purity insufficient for synthesis (<10 ppm CO) | Electrolysis hydrogen output contaminated with CO from catalyst degradation | Install pressure swing adsorption (PSA) or methanation guard bed; CO at >10 ppm irreversibly poisons Cu/ZnO/Al₂O₃ catalyst |
+
 ## See Also
 
 - [SEM Tech Ion Exchange Membrane](sem-tech.md) — parent article on SEM Tech membrane manufacturing and properties

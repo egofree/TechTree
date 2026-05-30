@@ -286,6 +286,21 @@ The path to industrial ammonia production follows a specific build order constra
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Converter single-pass conversion below 10% (N₂+H₂ to NH₃) | Catalyst bed temperature outside 400-500°C window; catalyst deactivated by O₂, H₂O, CO, or CO₂ poisons; or pressure below 15 MPa | Verify catalyst temperature is 400-500°C (inactive below ~350°C); check synthesis gas purity — CO+CO₂ must be <10 ppm total; ensure methanation step is reducing CO/CO₂ to specification; confirm loop pressure is at least 15-20 MPa |
+| Synthesis loop inert (CH₄ + Ar) accumulation above 15% | Purge stream too small; excessive CH₄ from SMR methanation carryover or Ar from air separation | Increase purge gas withdrawal rate from 5-10% to restore inert level below 10-15%; route purge gas to hydrogen recovery unit (cryogenic or membrane) to reclaim H₂; check secondary reformer air feed is not introducing excess Ar |
+| SMR primary reformer tubes overheating (above 850°C) | Carbon deposition on Ni/Al₂O₃ catalyst from insufficient steam-to-carbon ratio, or sulfur in natural gas feed poisoning catalyst | Maintain steam-to-carbon ratio ≥3.0; verify desulfurization unit: ZnO bed at 350-400°C must reduce H₂S to <0.1 ppm after Co-Mo hydrogenation; decoke tubes with steam-air burnoff if carbon already deposited |
+| SMR shift converter CO breakthrough >0.5% | Low-temperature shift (LTS) Cu-Zn-Al catalyst deactivated by sulfur or thermal sintering from temperature excursions above 250°C | Verify LTS inlet temperature is 200-250°C (never exceed 250°C — Cu sintering is irreversible); check upstream desulfurization; replace LTS catalyst if sulfur-poisoned; monitor high-temperature shift (350-400°C, Fe-Cr) outlet as early warning |
+| Ammonia condensation recovery below 85% | Chiller temperature above 0°C at 20 MPa separator; refrigeration compressor failure or heat exchanger fouling | Reduce chiller temperature to -10 to 0°C; service refrigeration compressors; clean product condenser heat exchanger surfaces; verify separator liquid level is not carrying over into recycle gas |
+| Reduced iron catalyst igniting on exposure to air (pyrophoric) | Catalyst reduced in-situ but not properly passivated before vessel opening; N₂ purge incomplete | Always purge with N₂ before opening converter to air; passivate by controlled exposure to 1-2% O₂ in N₂ over 24-48 hours before handling; never expose hot reduced catalyst (>100°C) to air |
+| Ammonium nitrate storage temperature exceeding 50°C | Exothermic decomposition beginning; inadequate ventilation or proximity to heat source | Immediately cool storage area; relocate away from heat sources and combustible materials; verify maximum storage temperature is kept below 50°C; do not confine in sealed containers when heated; check for contamination with organic materials or acids |
+| Ostwald Pt-Rh gauze conversion efficiency below 95% | Gauze temperature below 850°C (insufficient ammonia oxidation kinetics); air-NH₃ mixture outside 9-12% NH₃ range; or gauze mechanically damaged | Verify gauze temperature is 850-950°C; adjust air-NH₃ mixture to 9-12% NH₃ (below 15% LEL); inspect gauze for tears, sagging, or plugging; replace gauze if Pt loss has thinned wires beyond useful life |
+| Haber-Bosch recycle compressor drawing excessive power (pressure drop >5 MPa) | Catalyst bed pressure drop increased from fine particle migration, carbon deposition, or converter internal damage | Monitor loop pressure drop — normal is 3-5 MPa total; if ΔP exceeds design, reduce throughput and schedule catalyst change; inspect radial-flow converter for flow maldistribution from uneven catalyst loading |
+| Urea reactor carbamate conversion below 50% per pass | Temperature or pressure below specification — carbamate dehydration requires 140-200°C at 14-20 MPa | Verify reactor temperature is 140-200°C and pressure is 14-20 MPa; check for inactive stripper (Stamicarbon NH₃ or Snamprogetti CO₂); ensure NH₃:CO₂ feed ratio is correct for the chosen process |
+
 ## See Also
 
 - [Air Separation](air-separation.md) — nitrogen supply from liquefied air

@@ -294,6 +294,21 @@ The lithium separation system depends on several upstream capabilities. The PVC/
 
 **Competition with established methods**: Solar evaporation is extremely slow but essentially free in suitable climates. SEM Tech ED would need to demonstrate both performance and cost advantages over evaporation to displace existing operations.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Li⁺/Na⁺ selectivity ratio below 5:1 | Chelating resin loading in membrane too low (<30% by volume), insufficient selective binding sites for Li⁺ | Increase lithium-selective resin loading to 40-50% by volume; verify resin contains 12-crown-4 or iminodiacetic acid functional groups |
+| Silica (SiO₂) scaling on membrane surfaces | Feed brine pH drifting above 8, causing dissolved silica to precipitate on membrane and spacer surfaces | Maintain feed pH at 6.5-7.5 with HCl dosing; clean with 1-2% HCl every 1-4 weeks to dissolve silica deposits |
+| Li₂CO₃ precipitation yield below 80% | Concentrate temperature below 85°C — Li₂CO₃ solubility increases at lower temperature, reducing crystal formation | Heat lithium concentrate to 85-95°C before adding Na₂CO₃ at 82 g/L; maintain temperature throughout 2-4 hour stirring period |
+| Mg²⁺ contamination in lithium concentrate (Mg/Li >1) | High Mg/Li ratio in raw brine (>6:1) overwhelming membrane selectivity — Mg²⁺ hydrated radius similar enough to pass | Install pre-precipitation stage raising pH to 10-11 with NaOH to remove Mg²⁺ as Mg(OH)₂ before ED treatment |
+| Stack voltage rising above 300V at constant current | Membrane scaling (CaSO₄, CaCO₃) and concentration polarization increasing cell pair resistance | Clean stack with 1-2% HCl for 30-60 minutes; reduce current density to 3-10 mA/cm² for second-stage high-TDS operation |
+| Li⁺ recovery per pass below 30% | Current density too low or feed flow velocity too high, limiting ion residence time at membrane surface | Increase current density toward 20 mA/cm² upper limit; reduce flow velocity to 0.5-5 cm/s through 0.5-1.0 mm spacer channels |
+| Li₂CO₃ product purity below 99.0% | Sodium contamination from Na⁺ carryover in crystal wash water or insufficient washing | Wash crystals with DI water at 90°C (minimizes Li₂CO₃ solubility losses); re-dissolve in pure water and re-precipitate for 99.9%+ purity |
+| Cartridge filters clogging within hours | High total suspended solids (10-500 mg/L TSS) in raw brine exceeding cartridge filter capacity | Install or upgrade sand filter (10-50 μm) upstream of cartridge stage (1-5 μm); backwash sand filter daily |
+| LiOH·H₂O crystallization produces impure product | Incomplete CaCO₃ filtration after causticization (Li₂CO₃ + Ca(OH)₂ → 2LiOH + CaCO₃) | Filter CaCO₃ precipitate completely before evaporation; maintain crystallizer at 50-60°C for LiOH·H₂O crystal formation |
+| Membrane Li⁺ selectivity degrading after 6+ months | Chelating functional groups on resin beads deteriorating under continuous high-salinity brine exposure | Plan membrane replacement at 6-12 month intervals; store replacement membranes moist in 1M NaCl solution until installation |
+
 ## See Also
 
 - [SEM Tech](sem-tech.md) -- core membrane technology and manufacturing process

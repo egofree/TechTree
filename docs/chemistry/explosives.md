@@ -198,7 +198,7 @@ Frozen NG (below 13°C) is even more sensitive than liquid. Crystal fractures fr
 - [Nitroglycerin production](#nitroglycerin) capability (see Nitroglycerin section above)
 - Diatomaceous earth (kieselguhr) or alternative absorbent (sawdust, wood meal)
 - Cardboard tube cartridge production
-- [Blasting caps](#blasting-caps--initiating-systems) for initiation
+- [Blasting caps](#blasting-caps-initiating-systems) for initiation
 
 **Materials**:
 - Nitroglycerin (75% by weight)
@@ -384,7 +384,7 @@ TNT is one of the safest high explosives to handle. It can be melted and poured 
 **Materials**:
 - Hexamine (hexamethylenetetramine)
 - [Nitric acid](acids.md) (concentrated, 95-100%)
-- [Ammonium nitrate](#anfo-ammonium-nitrate--fuel-oil) (for Bachmann process)
+- [Ammonium nitrate](#anfo-ammonium-nitrate-fuel-oil) (for Bachmann process)
 - Acetic anhydride (for Bachmann process)
 - Acetone (for recrystallization)
 - Water and sodium carbonate (for washing)
@@ -450,7 +450,7 @@ The most widely used industrial explosive worldwide. Cheap, safe, and effective 
 - [Ammonium nitrate production](ammonia.md) (from ammonia + nitric acid neutralization, then prilling)
 - Prilled (porous spherical pellet) AN manufacturing capability (prilling tower)
 - [Diesel fuel](petroleum-alternatives.md) or No. 2 fuel oil
-- [Booster charge](#blasting-caps--initiating-systems) (dynamite, pentolite, or cast TNT/RDX booster, 100-500 g)
+- [Booster charge](#blasting-caps-initiating-systems) (dynamite, pentolite, or cast TNT/RDX booster, 100-500 g)
 - Bulk mixing equipment (concrete mixer or purpose-built ANFO mixer)
 
 **Materials**:
@@ -696,6 +696,21 @@ Choosing the right explosive for a task requires matching the explosive's proper
 - **Supply chain depth**: Modern explosives like RDX require hexamine (ammonia + formaldehyde), acetic anhydride, and concentrated nitric acid. Each of these has its own supply chain. The full depth from raw materials to RDX touches ammonia synthesis (Haber-Bosch), methanol production, formaldehyde oxidation, acetic acid fermentation or synthesis, and nitric acid production (Ostwald process). This supply chain depth means RDX and other advanced explosives arrive late in the bootstrapping sequence, long after black powder and dynamite have served the civilization's explosive needs.
 - **Environmental impact**: Large-scale blasting produces noise, vibration, dust, and nitrate contamination. Ammonium nitrate residue from ANFO blasting leaches into groundwater, contributing to nitrate pollution. In sensitive watersheds, blast site runoff must be contained and treated. Noise from quarry blasting travels several kilometers and is a common source of community complaints. Dust from blasting is controlled by water spraying and blast blankets, but cannot be eliminated entirely. Underground blasting in sulfide-bearing ore bodies can generate sulfuric acid when sulfide minerals are exposed to air and water in the fractured rock (acid mine drainage), a long-term environmental liability that persists long after the mine closes.
 
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Black powder burns sluggishly or misfires | Powder absorbed moisture (hygroscopic); grain size incorrect for application | Dry powder at 30-40°C in ventilated room (never direct flame); verify grain size: coarse (2-4 mm) for mining, fine (<1 mm) for firearms; store in dry, sealed containers with conductive flooring |
+| Nitrocellulose spontaneously decomposes in storage | Residual acid trapped in fibers from incomplete washing; degradation products (NO₂) autocatalyze further decomposition | Wash and boil extensively until wash water tests pH 7; continue multiple boiling stages over several days; add stabilizer (diphenylamine, 1-2%) during propellant gel formation |
+| Nitroglycerin synthesis temperature runaway | Exothermic nitration (ΔH ≈ -370 kJ/mol) exceeds 20°C; side reactions produce unstable compounds | Maintain nitrator at 10-15°C with continuous cooling and agitation; verify emergency dump valve discharges into drowning tank (20× nitrator volume) if temperature exceeds 20°C; add glycerol slowly to mixed acid |
+| Dynamite cartridges show NG "sweating" (oily surface) | Storage temperature exceeds 30°C; NG exudes from diatomaceous earth absorbent over time | Store cartridges below 30°C in ventilated magazine; inspect before each use; if sweating is visible, handle as liquid NG (extremely dangerous); reject and dispose of heavily sweating cartridges by burning in small quantities on a hot plate |
+| TNT batch melts below 80.0°C purity threshold | Unsymmetrical isomers (meta-nitrotoluene derivatives) not removed by sulfite wash | Repeat purification: wash crude TNT with hot 5% sodium sulfite solution until wash water runs clear (reddish-brown color indicates isomer dissolution); recrystallize from ethanol or water; acceptable TNT melts at 80.2-80.8°C |
+| ANFO detonation velocity below 2,500 m/s | Fuel oil content incorrect (must be 6% ± 0.5%); prills wet from moisture absorption or borehole water | Verify fuel oil content by solvent extraction; use only porous prills (bulk density 0.75-0.85 g/cm³); ensure borehole is dry or use Heavy ANFO/emulsion wrapper; use within 24 hours of mixing |
+| ANFO misfire — charge does not detonate | Missing or inadequate booster charge; ANFO critical diameter (50-100 mm) not met in small boreholes | Always use cast booster (pentolite or Comp B, 100-500 g) to initiate ANFO — blasting cap alone is insufficient; verify borehole diameter exceeds critical diameter; check booster-to-ANFO contact |
+| RDX crystals too sensitive for safe handling | Pure RDX shatters under impact creating hot spots; not phlegmatized or insufficient wax coating | Phlegmatize by coating with 5-10% paraffin wax in tumbling mixer; or combine 60% RDX + 40% TNT to form Composition B (castable, det. vel. ~7,800 m/s); never handle pure RDX in bulk |
+| Third-stage TNT nitration runaway (DNT → TNT) | Combination of strongest mixed acid (60% HNO₃, 35% H₂SO₄) and highest temperature (100-110°C) is unstable | Maintain strict ±5°C temperature control at 100-110°C; verify nitrator has emergency dump valve to drowning tank; ensure cooling jacket capacity matches exothermic heat load for this most demanding stage |
+| Blasting produces excessive toxic NO₂ fumes | ANFO oxygen balance shifted by incorrect fuel ratio; too little oil produces NO₂, too much produces CO | Verify fuel oil at exactly 6% ± 0.5% by weight; ensure complete detonation with adequate booster; do not use ANFO in boreholes below critical diameter where detonation dies (produces incomplete reaction and toxic fumes) |
 
 ## See Also
 

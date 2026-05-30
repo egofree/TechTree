@@ -313,6 +313,21 @@ See [Paints, Coatings & Inks](coatings.md) for detailed galvanizing process para
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Hide glue bond fails at low humidity | Glue applied too cool (below 60°C) or joint assembled after gel point (1-5 min at room temp) | Heat glue pot to 60-70°C in a double boiler; assemble and clamp at 0.5-1.0 MPa while glue is still liquid; full strength requires 12-24 hours drying time |
+| Casein glue pot life ends before application complete | Casein-lime mixture exceeds 2-4 hour working time at room temperature; bacterial degradation accelerates in warm conditions | Mix smaller batches; add sodium silicate (5-10 parts) to extend working life slightly; keep mixed glue below 25°C; discard if viscosity increases noticeably |
+| Phenolic resin plywood bond delaminates after water exposure | Press temperature or pressure insufficient for full cross-linking (needs 140-150°C, 1.2-1.5 MPa) | Verify hot press reaches 140-150°C and holds for 4-8 minutes per mm of panel thickness; ensure resin solids content is 45-55%; check resin coverage at 30-50 g/m² per glue line |
+| Epoxy bond strength far below 15 MPa spec on aluminum | Surface preparation inadequate — natural oxide layer prevents adhesion | Abrasive blast to Sa 2.5, degrease with solvent, apply silane adhesion promoter (γ-glycidoxypropyltrimethoxysilane, 1% in water/ethanol); for aerospace-grade bonds, use phosphoric acid anodizing (PAA) |
+| Cyanoacrylate bond fails within weeks in humid environment | Hydrolytic degradation of the CA polymer backbone in moist conditions; hydrolysis attacks ester linkages | Switch to epoxy for structural bonds exposed to moisture; CA is suitable only for dry, interior applications; Tg of CA (80-120°C) also limits thermal cycling resistance |
+| Silicone RTV adhesive fails to cure through thick sections | RTV-1 cures from outside in at ~3 mm/24 hours; atmospheric moisture cannot penetrate thick beads | Limit bead thickness to 6 mm for 48-hour through-cure; for thicker sections, use RTV-2 (two-component, platinum or tin catalyzed) which cures uniformly throughout |
+| UV-cure adhesive leaves uncured areas in shadowed zones | UV light (365-395 nm) cannot reach shadowed regions under opaque substrates | Switch to dual-cure adhesive (UV + anaerobic or UV + heat) for shadowed areas; verify at least one substrate transmits UV; increase UV intensity to 500 mW/cm² if feasible |
+| EMC molding shows popcorning during solder reflow | Moisture absorbed into molding compound (0.1-0.4% by weight) vaporizes explosively at reflow temperatures >200°C | Control JEDEC MSL handling; bake packaged ICs at 125°C for 24 hours before reflow to drive out moisture; use lower-moisture-absorption EMC formulations |
+| Anodized aluminum coating chips or peels | Contamination on aluminum surface prevents integral oxide formation; temperature exceeded 22°C for Type II | Re-etch in NaOH (50 g/L, 50-60°C) then desmut in 50% HNO₃ before re-anodizing; maintain sulfuric acid bath at 18-22°C, 1.0-2.0 A/dm² for Type II; ensure sealing at 95-100°C for 20-30 min |
+| Galvanized steel shows bare spots after coating | Surface preparation inadequate — degreasing or acid pickle step skipped or insufficient | Ensure full preparation sequence: alkaline degrease at 60-80°C → HCl pickle (10-15%, 10-20 min) → zinc ammonium chloride flux (40-50°C) → dry → galvanize at 440-460°C for 3-8 minutes |
+
 ## See Also
 
 - [Acids](acids.md) — chemical synthesis of adhesive precursors

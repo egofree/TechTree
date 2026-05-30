@@ -229,6 +229,21 @@ The patent application contains 10 claims covering membrane composition and manu
 
 The SEM Tech membrane occupies a unique position: far cheaper and more accessible than conventional membranes, with competitive selectivity, at the cost of shorter membrane lifetime. For bootstrap and developing-world applications where fluoropolymer chemistry is unavailable, this trade-off is highly favorable. Membrane replacement at less than $1 per square foot can be frequent and still remain economical.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Membrane has pinholes or voids | Wet-pulverized resin powder not fully dried before mixing with binder | Dry pulverized resin thoroughly before Step 2; residual water creates voids as solvent evaporates |
+| Membrane too brittle, cracks during handling | Resin loading exceeds 70% by volume, compromising PVC/CPVC binder matrix integrity | Reduce resin loading to 50-60% by volume; above 70% the binder cannot maintain mechanical cohesion |
+| Low ion selectivity in cell operation | Resin particle size exceeds 200 microns, reducing functional group surface area and uniform dispersion | Repulverize resin using blender or ball mill; sieve to remove particles above 200 microns |
+| Membrane cannot be peeled from casting surface | Solvent not fully evaporated — film remains tacky, especially with slow-evaporating cyclohexanone | Extend drying time; switch to THF (faster evaporation) or increase ventilation over casting surface |
+| High electrical resistance in electrochemical cell | Resin loading below 10% by volume — insufficient ion exchange capacity for effective ion transport | Increase resin loading to at least 30-50% by volume; below 10% the membrane lacks continuous ion-conducting pathways |
+| Electrode degradation within weeks instead of 2-3 months | Uncoated graphite electrodes in pH 0 / ORP >1.5V environment without protective coating | Apply electrode coating as specified; plan for 2-3 month replacement cycle with coated graphite |
+| Chlorine gas leak at cell seams | PVC/CPVC solvent-welded joint failure due to inadequate cement application or misaligned surfaces | Reapply PVC/CPVC cement to leaking joints; ensure surfaces are clean and aligned before solvent welding |
+| Plated metal powder not dislodging from cathode | Vibratory or ultrasonic cathode agitation mechanism malfunctioning or incorrectly installed | Inspect and repair cathode agitation mechanism; powder must dislodge continuously to prevent resistance buildup |
+| Uneven membrane thickness across sheet | Inconsistent drawdown bar pressure or blade gap during application | Use a calibrated mechanical applicator at fixed gap setting; check for debris on blade edge |
+| Membrane swells or deforms in cell under prolonged use | High water uptake in thin membrane without structural reinforcement | Incorporate fiberglass mesh, fumed silica, or sand into the mixture (Step 6) to improve dimensional stability |
+
 ## See Also
 
 - [Electrolysis](electrolysis.md) -- parent article covering all industrial electrolysis processes

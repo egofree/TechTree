@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/food-processing.oil-processing__foundations.food-agriculture",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "food-processing.oil-processing",
+  "to": "foundations.food-agriculture",
+  "label": "oilseeds, olives, and animal fat as feedstock"
+}

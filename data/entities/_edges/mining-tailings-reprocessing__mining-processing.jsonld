@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/mining.tailings-reprocessing__mining.processing",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "mining.tailings-reprocessing",
+  "to": "mining.processing",
+  "label": "flotation cells, hydrocyclones, and classifiers"
+}

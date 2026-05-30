@@ -128,6 +128,7 @@ Blades operate under extreme conditions — centrifugal stress, steam erosion, c
 - [Cooling Systems](cooling.md) — condenser cooling systems
 - [Iron & Steel](../metals/iron-steel.md) — materials for blades and casings
 - [Electric Furnaces](electric-furnaces.md) — graphite for turbine seals and lubricants
+- [Geothermal Energy](geothermal.md) — geothermal flash steam driving turbines
 
 ## Blade Manufacturing Process
 

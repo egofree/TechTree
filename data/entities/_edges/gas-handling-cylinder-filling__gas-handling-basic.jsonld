@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/gas-handling.cylinder-filling__gas-handling.basic",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "gas-handling.cylinder-filling",
+  "to": "gas-handling.basic",
+  "label": "compressors, valves, and piping infrastructure"
+}

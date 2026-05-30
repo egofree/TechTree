@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/gas-handling.gas-purification__chemistry.acids",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "gas-handling.gas-purification",
+  "to": "chemistry.acids",
+  "label": "reagent production for scrubbing solutions"
+}

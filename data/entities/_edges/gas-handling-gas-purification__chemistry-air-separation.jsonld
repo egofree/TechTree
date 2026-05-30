@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/gas-handling.gas-purification__chemistry.air-separation",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "gas-handling.gas-purification",
+  "to": "chemistry.air-separation",
+  "label": "cryogenic cooling for gas separation"
+}

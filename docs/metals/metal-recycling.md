@@ -235,5 +235,6 @@ Bronze Age metalworkers recycled bronze routinely — broken tools and weapons w
 - [Energy](../energy/engine.md) — power supply for electric furnaces
 - [Waste Management](../ehs/waste-management.md) — disposal of non-recyclable residues
 - [Chemical Recovery](../chemistry/chemical-recovery.md) — solvent and acid recovery from metal processing
+- [Tailings Reprocessing](../mining/tailings-reprocessing.md) — recovering residual metals from mine tailings
 
 [← Back to Metals](index.md)

@@ -431,6 +431,7 @@ Before a fab begins production, the entire electrical system undergoes rigorous 
 - [Heat Engines](engine.md) — Diesel engines for backup generators
 - [Telegraph](../transport/telegraph.md) — Early electrical communication system
 - [Measurement](../measurement/index.md) — Power quality monitoring instruments
+- [Geothermal Energy](geothermal.md) — baseload geothermal power generation
 
 
 

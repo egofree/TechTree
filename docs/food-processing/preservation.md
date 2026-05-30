@@ -331,6 +331,7 @@ Values assume sea level and pure steam (no air). Air in the retort lowers actual
 - [Chemistry: Fermentation](../chemistry/fermentation.md) — fermentation chemistry and microbiology
 - [Energy](../energy/index.md) — steam for canning retorts, electricity for refrigeration
 - [Mining](../mining/index.md) — salt production for curing and preservation
+- [Oil & Fat Processing](oil-processing.md) — oil as a preservation medium (confit, oil-packed foods)
 
 
 

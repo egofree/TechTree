@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.geothermal__energy.steam-power",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.geothermal",
+  "to": "energy.steam-power",
+  "label": "steam cycles and pumps for geothermal fluid handling"
+}

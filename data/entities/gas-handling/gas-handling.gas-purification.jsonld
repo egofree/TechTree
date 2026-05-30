@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Semiconductor fabrication requires gases at 5N-6N purity; impurities at ppb levels kill device yield",
+  "description": "Removal of contaminants — moisture, oxygen, hydrocarbons, particulates, and trace impurities — from process gas streams. Four methods: bulk scrubbing, adsorption, catalytic purification, and cryogenic separation. Semiconductor fabrication demands 99.999-99.9999% purity with individual contaminant species controlled to parts-per-billion levels.",
+  "early_win": false,
+  "id": "gas-handling.gas-purification",
+  "level": "capability",
+  "name": "Gas Purification",
+  "outputs": [
+    "purified_gases",
+    "scrubbed_gases",
+    "dried_gases",
+    "high_purity_gases"
+  ],
+  "parent": "gas-handling",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "gases",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-45"
+}

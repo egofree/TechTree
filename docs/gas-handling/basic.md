@@ -388,6 +388,7 @@ The physical arrangement of gas storage affects both safety and operational effi
 - **[Hydrogen and Silane](../chemistry/hydrogen-silane.md)**: Pyrophoric gas handling and safety
 - **[SEM Tech](../chemistry/sem-tech.md)**: Chlorine and hydrogen gas handling in chlor-alkali cells
 - **[Welding](../machine-tools/joining.md)**: Shielding gas (Ar, CO₂, He) distribution for welding
+- **[Cylinder Filling](cylinder-filling.md)**: High-pressure cylinder filling and certification
 
 
 [← Back to Gas Handling](index.md)

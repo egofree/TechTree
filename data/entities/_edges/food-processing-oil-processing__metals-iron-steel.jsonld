@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/food-processing.oil-processing__metals.iron-steel",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "food-processing.oil-processing",
+  "to": "metals.iron-steel",
+  "label": "screw presses and expeller construction"
+}

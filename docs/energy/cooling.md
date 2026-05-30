@@ -268,6 +268,7 @@ The ammonia absorption cycle runs on four main temperature zones, each correspon
 - [Electricity Generation](electricity.md) — Power for vapor-compression systems
 - [Air Separation](../chemistry/air-separation.md) — Cryogenic processes requiring refrigeration
 - [Energy Storage](storage.md) — Cold thermal energy storage
+- [Geothermal Energy](geothermal.md) — ground-source heat pumps for heating and cooling
 
 
 

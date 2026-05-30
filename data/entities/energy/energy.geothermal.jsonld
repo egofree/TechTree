@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Geothermal energy harnesses heat from the Earth's interior via natural hydrothermal manifestations or drilled wells. Provides continuous baseload power at 90-95% capacity factor — the highest of any renewable. Three tiers: direct-use heating (shallow wells), hydrothermal flash/dry steam power generation (deep wells driving turbines), and ground-source heat pumps (shallow ground as heat source/sink).",
+  "early_win": false,
+  "id": "energy.geothermal",
+  "level": "capability",
+  "name": "Geothermal Energy",
+  "outputs": [
+    "geothermal_heat",
+    "geothermal_steam",
+    "geothermal_electricity",
+    "ground_source_heat_pump"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy",
+      "cooling"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals",
+      "chemicals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-50"
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Recovery of residual metals, minerals, and useful materials from mine tailings — the finely ground rock left after initial ore processing. Historical mines often left 20-60% of metal value in tailings. Methods include flotation retreatment, acid leaching, bioleaching, and magnetic separation. Tailings are already crushed and ground, giving a 20-40% processing cost advantage over primary ore.",
+  "early_win": false,
+  "id": "mining.tailings-reprocessing",
+  "level": "capability",
+  "name": "Tailings Reprocessing",
+  "outputs": [
+    "residual_metals",
+    "reprocessed_concentrate",
+    "backfill_material",
+    "construction_sand"
+  ],
+  "parent": "mining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals",
+      "chemicals",
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-60+"
+}

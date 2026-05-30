@@ -246,5 +246,6 @@ Soap production scales with the alkali supply chain. The progression is:
 - [Textiles / Fibers](../textiles/fibers.md) — wool scouring with soap
 - [Occupational Health](../health/occupational-health.md) — hygiene and sanitation
 - [Metal Finishing](../metals/finishing.md) — degreasing before plating and coating
+- [Oil & Fat Processing](../food-processing/oil-processing.md) — tallow and vegetable oil as soap feedstock
 
 [← Back to Chemistry](index.md)

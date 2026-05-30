@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/gas-handling.gas-purification__gas-handling.basic",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "gas-handling.gas-purification",
+  "to": "gas-handling.basic",
+  "label": "compressors, piping, and pressure regulators"
+}

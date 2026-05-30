@@ -272,5 +272,6 @@ Ore processing is energy intensive. The comminution stage (crushing and grinding
 - [Prospecting](prospecting.md) — ore body discovery
 - [Drilling](drilling.md) — exploration and blast-hole drilling
 - [Metals Index](../metals/index.md) — smelting and refining of processed ore
+- [Tailings Reprocessing](tailings-reprocessing.md) — recovering residual metals from mine waste
 
 [← Back to Mining](index.md)

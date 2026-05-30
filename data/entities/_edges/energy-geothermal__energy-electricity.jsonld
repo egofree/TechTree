@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.geothermal__energy.electricity",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.geothermal",
+  "to": "energy.electricity",
+  "label": "generators and grid connection for power export"
+}

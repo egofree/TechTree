@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Compression of purified gases into high-pressure steel or composite cylinders for storage, transport, and point-of-use delivery. Covers cylinder production (seamless steel tube forming), filling by weight or pressure, hydrostatic retesting, valve maintenance, and cylinder certification. Cylinders are the primary packaging format when pipeline distribution is impractical.",
+  "early_win": false,
+  "id": "gas-handling.cylinder-filling",
+  "level": "capability",
+  "name": "Cylinder Filling",
+  "outputs": [
+    "filled_cylinders",
+    "tested_cylinders",
+    "certified_cylinders"
+  ],
+  "parent": "gas-handling",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals",
+      "gases",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-35"
+}

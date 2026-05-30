@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/food-processing.oil-processing__ceramics",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "food-processing.oil-processing",
+  "to": "ceramics",
+  "label": "storage vessels and settling tanks"
+}

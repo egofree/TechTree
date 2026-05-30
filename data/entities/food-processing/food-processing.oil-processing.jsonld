@@ -1,0 +1,37 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Extraction of edible and industrial lipids from plant seeds, fruit pulp, and animal tissues. Progression from simple pressing (40-60% yield) to expeller pressing (70-80%) to solvent extraction (95%+). Rendered animal fats (tallow, lard) serve as cooking fat, soap feedstock, and candle fuel. Industrial oils (linseed, tung) become paints and varnishes.",
+  "early_win": true,
+  "early_win_note": "Rendering animal fat requires only fire and containers — achievable from Year 0; vegetable oil pressing enables frying and calorie density increase",
+  "id": "food-processing.oil-processing",
+  "level": "capability",
+  "name": "Oil & Fat Processing",
+  "outputs": [
+    "vegetable_oil",
+    "tallow",
+    "lard",
+    "olive_oil",
+    "linseed_oil",
+    "soap_stock",
+    "oilseed_meal",
+    "rendered_fat",
+    "processed_oils"
+  ],
+  "parent": "food-processing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-20"
+}

@@ -1,5 +1,5 @@
-# Typical operating current
+# LED operating current
 
 > **Type**: noun | **Tier**: important | **Domains**: silicon
 
-Typical operating current refers to 10-20 mA for standard indicator LEDs. 350-700 mA for high-power illumination LEDs. 1-5 mA sufficient for low-brightness indicators. See: [Basic Semiconductor Devices](../silicon/basic-devices.md)
+The forward current at which an LED is designed to operate continuously. Standard indicator LEDs: 10-20 mA. High-power illumination LEDs: 350-700 mA. Low-brightness indicators: 1-5 mA. Exceeding the rated current causes overheating and reduced lifespan.

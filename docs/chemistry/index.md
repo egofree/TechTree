@@ -6,6 +6,7 @@ Capabilities in this domain:
 - [SEM Tech Acid Regeneration](sem-tech-acid-regeneration.md) — bipolar membrane electrodialysis for acid recovery
 - [Air Separation & Bulk Gas Production](air-separation.md) — Linde fractional distillation of liquid air producing nitrogen (99-99.99%), oxygen (95-99.5%), and argon (99-99.999%).
 - [Alkali Production](alkalis.md) — Leblanc process (first synthetic soda ash) and Solvay process (more efficient, later) for Na₂CO₃, lime-soda process and chlor-alkali electrolysis for NaOH.
+- [Solvay Process](solvay.md) — Sodium carbonate (soda ash) production from brine and limestone using ammonia as a recyclable catalyst, the most efficient route to Na₂CO₃ for glass, soap, and chemical synthesis.
 - [Cement & Concrete](cement.md) — Portland cement from limestone + clay heated to 1450°C, ground with gypsum.
 - [Distillation](distillation.md) — Distillation columns (2-10 m, copper or steel, packed with ceramic Raschig rings), batch and continuous flow reactors, shell-and-tube heat exchangers, Portland cement production, and polymer feedstock chemistry.
 - [Dopant & Etch Gases](dopant-etch-gases.md) — Dopant gases (PH₃, AsH₃, B₂H₆ — extremely toxic, lethal at ppm concentrations) and etch gases (CF₄, SF₆, Cl₂, F₂).
@@ -25,6 +26,7 @@ Capabilities in this domain:
 - [Ammonia & Fertilizer Production](ammonia.md) — Haber-Bosch synthesis (N₂ + 3H₂ → 2NH₃), Ostwald nitric acid, fertilizer production (ammonium nitrate, urea, superphosphate).
 - [Soap & Detergent Production](soap.md) — Saponification of fats with NaOH/KOH, glycerol recovery, synthetic detergents.
 - [Solvent Production](solvents.md) — Ethanol, methanol, ether, turpentine, hydrogen peroxide, chlorinated solvents, and solvent selection guide.
+- [Chemical Recovery & Solvent Regeneration](chemical-recovery.md) — Regeneration of spent industrial chemicals (solvents, acids, catalysts, process water) via distillation, membrane separation, and chemical regeneration for reuse in manufacturing.
 - [Refractory Materials](refractories.md) — Firebrick, alumina, magnesite, and insulating refractories for furnace linings above 1500°C.
 - [Paints, Coatings & Inks](coatings.md) — Paint chemistry, nitrocellulose dope, varnishes, ink chemistry, rust prevention.
 - [Pulp & Paper Chemicals](pulp-chemicals.md) — Kraft pulping white liquor, bleaching chemistry, sizing agents, recovery boiler cycle.

@@ -175,7 +175,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 **Body protection**:
 - **Leather aprons**: For blacksmithing, foundry work, welding. Heavy cowhide, waist to knee length.
 - **Rubber aprons**: For chemical handling. Sheet rubber with neck loop and waist ties.
-- **[Cleanroom garments](../glossary/cleanroom-garments.md)** (Photolithography): Woven synthetic coveralls, hoods, booties (from synthetic polymer fibers — see Polymers). Lint-free. Washed in ultra-pure water. Worn over street clothes. Changed every entry to cleanroom.
+- ****Cleanroom garments**** (Photolithography): Woven synthetic coveralls, hoods, booties (from synthetic polymer fibers — see Polymers). Lint-free. Washed in ultra-pure water. Worn over street clothes. Changed every entry to cleanroom.
 
 ## Surgical Capability
 
@@ -351,6 +351,21 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - **Anesthesia risks**: Ether and chloroform anesthesia have narrow therapeutic windows. Overdose causes respiratory arrest. Ether is highly flammable — no flames or sparks in the anesthesia area. Chloroform causes liver toxicity with repeated exposure. Without mechanical ventilation, assisted breathing relies on manual bellows.
 - **Infection control limits**: Aseptic technique reduces surgical infection rates dramatically, but sterility is never absolute. Without antibiotics, post-operative infection remains a leading cause of surgical mortality. Wound care in field conditions (dust, flies, contaminated water) is inherently higher risk than in a controlled surgical theater.
 - **Dental care limitations**: Without modern filling materials (composite resins, ceramics) and radiography, dental treatment is limited to extraction and temporary fillings. Preventive care (cleaning, fluoride) and endodontics (root canal) are not available at the bootstrap level.
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Wound becomes infected after primary closure | Wound closed despite contamination or >6 hours old | Follow the 6-hour rule: contaminated wounds or those >6 hours old should be left open for delayed closure at day 4-5; if already closed and infected, reopen, re-irrigate with 200-500 mL under syringe pressure, and apply antiseptic |
+| Fracture cast causes numbness and severe pain distally | Cast applied too tightly, causing compartment syndrome | Remove or bivalve the cast immediately — this is a limb-threatening emergency; check distal pulse, capillary refill (<2 seconds), and sensation after any cast application |
+| Ether anesthesia causes respiratory arrest | Overdose — ether induction at >15% vapor concentration | Titrate carefully: 10-15% vapor for induction, 2-4% for maintenance; have bellows ready for assisted ventilation; stop ether delivery immediately if breathing shallow or absent |
+| Willow bark decoction has no analgesic effect | Bark harvested at wrong season or decoction too dilute | Harvest bark in spring when sap flows (highest salicin content); use 30 g dried bark per 500 mL water, boil 15 minutes; potency varies 3-fold between batches |
+| Plaster of Paris cast remains soft after 30 minutes | Water too warm (>25°C) or insufficient dipping time | Use water at 20-25°C; dip plaster bandages 3-5 seconds, squeeze out excess; apply 5-12 layers; full strength develops over 24-48 hours — keep cast dry during this period |
+| Tourniquet fails to stop arterial hemorrhage | Applied too distal (over a joint) or insufficient tightening | Place tourniquet 5-10 cm above the wound, never over a joint; tighten until bleeding stops; note application time — safe for 2 hours, increasing muscle damage after 4-6 hours |
+| START triage under-triages a patient with slow intracranial bleed | Mental status appears intact initially but deteriorates over 30-60 minutes | Re-triage all patients every 30-60 minutes; the initial categorization becomes stale quickly — conditions change and resources shift |
+| Boiled instruments still cause wound infection | Boiling kills bacteria but not bacterial spores (Clostridium tetani) | Upgrade to autoclaving (121°C, 15 psi, 15 minutes) for complete sterilization including spores; at minimum, boil instruments 20+ minutes for bacterial kill |
+| Digitalis toxicity causes fatal arrhythmia | Dose too close to toxic threshold (therapeutic 0.125-0.25 mg; toxic dose close above) | Start at lowest effective dose; monitor serum potassium — hypokalemia potentiates digitalis toxicity; supplement with KCl 20-40 mEq/day if levels are low |
+| Morphine causes respiratory depression | Overdose (therapeutic 10-30 mg; respiratory arrest at 2-3× dose) | Start with lowest effective dose; do not give to head injury patients (masks pupillary signs); if respiratory depression occurs, reduce dose and provide assisted ventilation |
 
 ## See Also
 

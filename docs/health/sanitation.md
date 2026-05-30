@@ -293,6 +293,21 @@
 - **Cost barriers**: Community-scale piped water systems cost $15-40 per person served. Sewage treatment plants cost $50-200 per person served. Many communities cannot afford these capital costs without external funding.
 - **Sludge management**: Sewage sludge requires treatment (dewatering, composting, or incineration) before disposal. Improper sludge handling creates secondary pollution. The "last mile" of wastewater treatment is often neglected.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Slow sand filter output turbidity exceeds 1 NTU | Schmutzdecke not matured (filter <2 weeks old) or damaged by scraping too deep | Allow 1-4 weeks for biological layer maturation before relying on output; scrape only top 1-2 cm during cleaning; provide alternative water source during maturation |
+| VIP latrine still has heavy fly breeding | Vent pipe too short or fly screen damaged | Extend vent pipe at least 0.5 m above roofline; replace damaged stainless steel fly screen (1-2 mm mesh); ensure superstructure interior is kept dark to draw flies toward the lit vent top |
+| Septic tank effluent has BOD >200 mg/L | Tank too small for household or sludge not pumped in 5+ years | Size tank at 1 m³ base + 0.2 m³ per person (minimum 2.5-3.5 m³ for 5 people); pump sludge when combined sludge + scum reaches 25-33% of tank liquid depth (every 3-5 years) |
+| Chlorine residual reads 0 mg/L at far end of distribution | High organic matter in source water consumed chlorine demand before reaching outlet | Increase dose to achieve 0.2-0.5 mg/L free chlorine after 30-minute contact; verify pH is 7-8 (chlorine less effective above pH 8.5); dose at tank inlet with baffled contact chamber |
+| Activated sludge process loses settling ability (bulking) | Filamentous bacteria outcompete floc-forming organisms due to low F/M ratio or low dissolved oxygen | Increase dissolved oxygen to >2 mg/L in aeration tank; adjust food-to-microorganism ratio; add chlorine (1-5 mg/L) selectively to kill filamentous organisms without harming floc |
+| Well water tests positive for E. coli after heavy rain | Surface runoff entering through cracked well casing or inadequate wellhead seal | Install concrete apron (1.5-2.0 m radius, sloped outward); seal casing; perform shock chlorination (500 mg/L free chlorine, agitate, stand 12-24 hours, pump until chlorine odor dissipates) |
+| Compost windrow fails to reach 55°C | C:N ratio too high (excess dry carbon material) or pile too small | Add nitrogen-rich material (fresh manure, green waste); ensure windrow is 1.5-2.5 m high and 3-5 m wide; turn weekly with loader to aerate — oxygen is required for thermophilic activity |
+| Rapid sand filter requires backwashing every 12 hours | Coagulant dose incorrect or floc carryover from settling basin | Run jar test to re-optimize alum dose (10-50 mg/L); verify rapid mix (300-500 RPM, 30-60 sec) and slow mix (20-40 RPM, 15-30 min); increase settling time if floc is not dropping out |
+| Landfill leachate contaminates groundwater | Liner compromised or no leachate collection system installed | Install composite liner (0.6-1.0 m compacted clay + 1.5-2.0 mm HDPE geomembrane); add perforated HDPE collection pipes in gravel drainage layer; pump leachate to treatment |
+| Anaerobic digester biogas production drops below expected 0.3 m³/kg VS | Temperature below 35°C (mesophilic range) or organic overload causing pH crash | Maintain digester at 35-37°C with insulated, heated tank; monitor pH — methane bacteria fail below pH 6.5; feed at steady rate to avoid volatile acid accumulation |
+
 ## See Also
 
 - [Water Treatment (Health)](water-treatment.md) — drinking water purification, waterborne disease prevention, emergency treatment

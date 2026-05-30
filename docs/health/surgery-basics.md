@@ -233,7 +233,7 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 
 - **Cauterization**: Apply heated metal to bleeding vessels or wound edges. Effective for hemostasis but causes extensive tissue destruction and promotes infection. Use only as a last resort when suture ligation is impossible.
 - **Ligature (historical)**: Hippocrates and Celsus described using linen thread to tie off bleeding vessels, but the technique was largely lost in Western medicine until Ambroise Paré reintroduced it in the 16th century. Before ligatures, boiling oil was poured into wounds — the shift to ligatures dramatically reduced mortality.
-- **Tourniquet**:最早 documented by Heliodorus (2nd century AD). A tightly wrapped band proximal to the surgical site provides a bloodless field. Essential for extremity surgery.
+- **Tourniquet**: Earliest documented by Heliodorus (2nd century AD). A tightly wrapped band proximal to the surgical site provides a bloodless field. Essential for extremity surgery.
 
 ## See Also
 

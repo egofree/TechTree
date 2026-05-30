@@ -258,6 +258,21 @@ Semiconductor fabs use a multi-tier alarm system:
 | Emergency lighting | Functional test (90 sec minimum) | Monthly | NFPA 101 |
 | First aid kits | Contents inventory, expiration dates | Monthly | ANSI Z308.1 |
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Eyewash station delivers water at <0.4 L/min per nozzle | Supply valve partially closed or plumbing sediment clogging nozzles | Open supply valve fully; flush lines by running station for ≥3 minutes; disassemble and clean nozzles; verify tepid water (15-35°C) — if cold, check tempered blending valve |
+| Emergency deluge shower flow rate below 75 L/min | Supply pressure below 210 kPa (30 psi) or flow restrictor incorrectly installed | Verify water supply pressure ≥210 kPa; remove any unauthorized flow restrictors; check for closed isolation valves in supply line; test with calibrated flow meter annually |
+| SCBA cylinder pressure below rated capacity before shift | Slow leak at cylinder valve or regulator connection | Perform soap-bubble test on cylinder valve and regulator connections; replace worn O-rings; hydrostatic test cylinder every 5 years; replace cylinder if leak persists at valve seat |
+| Spill kit calcium gluconate gel expired or missing | Monthly inspection not performed — gel shelf life exceeded or used without restocking | Replace expired calcium gluconate gel (2.5%) immediately; restock all consumed items after any use; post inspection log at station; assign monthly inspection responsibility with sign-off |
+| Gas detection alarm fails to trigger at TLV threshold | Sensor calibration drifted or sensor element at end of life | Perform quarterly sensor calibration with certified gas standard; run monthly bump test with known concentration; replace sensor element per manufacturer interval (typically 2-3 years) |
+| Evacuation alarm strobe not visible in power failure | Emergency lighting battery depleted beyond 90-minute minimum | Test emergency lighting monthly (90-second functional test); replace batteries that fail to maintain illumination for 90 minutes; verify photoluminescent floor markers are not obscured |
+| HF skin exposure — pain persists after calcium gluconate gel application | Fluoride ions penetrated beyond topical gel reach — deep tissue involvement | Inject calcium gluconate solution (5%) subcutaneously beneath affected area (trained medical provider); for >1% body surface area with >50% HF, administer IV calcium gluconate (1 g in 100 mL D5W); transport to hospital immediately |
+| Silane leak — gas concentration above LEL (1.4%) and rising | Cylinder valve packing failure or VMB fitting leak — auto-ignition imminent | Evacuate building immediately; do not attempt manual valve closure — use remote emergency shutoff; ERT in SCBA monitors from upwind; if fire erupts, shut off gas supply at source — do not extinguish flame while gas flows |
+| Arsine exposure victim shows dark/red urine 4 hours post-exposure | Delayed hemolytic anemia — arsine destroys red blood cells (onset 2-24 hours) | Transport to hospital immediately; notify hospital of arsine exposure for blood typing and cross-matching; prepare for potential renal dialysis; administer dimercaprol (BAL) chelation therapy for confirmed arsenic poisoning |
+| Emergency drill evacuation time exceeds 5 minutes for building | Blocked exit path, personnel unfamiliar with route, or dead-end corridor >6 meters | Clear all obstructions from designated exit routes; verify exit doors open outward with panic hardware; retrain personnel on evacuation routes; ensure minimum two independent exit paths from every location |
+
 ## See Also
 
 - [Chemical Safety & Toxicology](chemical-safety.md) — Chemical hazard data for emergency planning

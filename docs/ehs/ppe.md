@@ -288,6 +288,21 @@ Pre-positioned at strategic locations near gas cabinets and VMBs:
 - Two-way radio (intrinsically safe rated)
 - Emergency procedure binder (gas-specific response cards)
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Half-face respirator fit test fails (fit factor <100) | Facial hair in seal area, wrong size, or glasses interfering with seal edge | Remove all facial hair in seal contact zone; try different size (S/M/L); ensure glasses temples do not break seal edge; retest with quantitative portacount method |
+| Acid gas cartridge breakthrough undetected — worker smells acid | Change schedule not based on breakthrough time data; relying on subjective odor detection | Implement cartridge change schedule from manufacturer breakthrough data; for continuous acid exposure, change cartridges after each shift; post change schedule at every respirator storage location |
+| PAPR battery depletes before 4-hour rated runtime | Battery not fully charged or battery nearing end of cycle life | Verify battery charger is functioning and reaches full-charge indicator; replace batteries that no longer hold rated capacity (typically 2-3 year battery life); maintain daily charging schedule |
+| Neoprene glove for HF handling shows discoloration after single use | Chemical degradation — glove material reaching breakthrough time for 49% HF | Replace gloves immediately; neoprene (0.5 mm) breakthrough time for 49% HF is >8 hours but degrades with flexing; use double-gloving protocol (0.2 mm nitrile inner + 0.5 mm neoprene outer); inspect before each use |
+| Full-face respirator lens fogs during wet bench operation | Exhaled moisture condensing on lens — anti-fog coating worn or no nose cup installed | Replace anti-fog coated lens or install nose cup to direct exhaled breath away from lens; verify nose cup is properly seated; clean lens only with manufacturer-approved anti-fog solution |
+| SCBA cylinder fails monthly pressure check | Cylinder valve slow leak or O-ring seal deteriorated | Replace valve O-ring; perform soap-bubble test on all connections; if cylinder body leak is found, remove from service and send for hydrostatic testing (required every 5 years); never repair a cylinder body leak in-house |
+| Chemical splash goggles do not seal against face | Wrong size or prescription glasses interfering with elastomer gasket | Select OTG (over-the-glass) model for prescription wearers; try alternative gasket material (PVC vs. silicone) for better contour fit; verify gasket is not torn or hardened from chemical exposure |
+| Tyvek chemical suit tears at wrist seal during doffing | Improper removal technique — pulling suit off by gripping wrist seal material | Retrain on doffing procedure: roll suit down from shoulders, avoid pulling at sealed cuff areas; dispose of torn suits immediately — compromised barrier provides no protection |
+| Respirator user experiences difficulty breathing after 1 hour | Filter cartridges loaded — breathing resistance increased from particulate accumulation | Replace cartridges when breathing resistance noticeably increases; for P100 particulate filters, do not exceed manufacturer-rated service life; schedule cartridge changes based on exposure duration, not subjective feel |
+| Calcium gluconate gel in HF workstation kit is hardened/expired | Monthly inspection missed — gel has exceeded shelf life or tube seal was broken | Replace with fresh 2.5% calcium gluconate gel immediately; verify all tubes in kit are sealed and within expiration date; assign monthly PPE kit inspection with documented sign-off |
+
 ## See Also
 
 - [Chemical Safety & Toxicology](chemical-safety.md) — Chemical hazards driving PPE selection

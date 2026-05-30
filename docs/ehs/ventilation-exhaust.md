@@ -280,6 +280,21 @@ The high exhaust volumes in semiconductor fabs represent significant energy loss
 - Damper actuator failure (corrosion, mechanical binding): Test quarterly, lubricate annually
 - Condensate trap blockage: Inspect quarterly; install level sensors on critical traps
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Fume hood face velocity drops below 0.4 m/s minimum | Exhaust duct blocked by condensate accumulation or fan belt worn and slipping | Check duct for low-point liquid accumulation (slope minimum 1° toward collection); inspect fan belts monthly — replace when cracking visible; verify exhaust damper is fully open; measure face velocity at 6-point grid across sash |
+| Wet bench exhaust flow sensor alarms at <80% design flow | Polypropylene duct corroded by acid condensate at cold spot, or condensate trap blocked | Inspect duct interior for corrosion (acid condensate at cold spots); verify P-trap wet seal is not dried out; check duct slope toward collection point; replace corroded PP sections — consider upgrade to PVDF for HF service |
+| Gas cabinet exhaust flow below 200 CFM minimum | Exhaust duct restricted or exhaust fan capacity reduced by belt wear | Measure flow at cabinet exhaust connection quarterly; check dedicated toxic gas duct (316L SS) for internal corrosion; verify negative pressure maintained inside cabinet relative to room; test emergency exhaust damper actuation monthly |
+| Scrubber pH drops below 8 in caustic stage | NaOH feed rate insufficient for incoming acid gas load; makeup controller malfunction | Verify pH probe calibration (target pH 8-10 in caustic stage); check NaOH makeup pump and feed rate; increase NaOH feed if acid load has increased from new process tools; log effluent pH for environmental compliance |
+| Thermal oxidizer temperature drops below 800°C | Natural gas supply pressure fluctuation or flame detector fault causing automatic shutdown | Verify natural gas supply pressure and flow; check flame detector lens for fouling (clean with soft cloth); confirm backup electric ignition operates; do not allow gas flow to continue if flame is not confirmed — explosive atmosphere risk |
+| Plasma abater DRE for CF₄ drops below 90% | Electrode erosion in plasma chamber or RF power supply output degraded | Inspect and replace eroded electrodes per manufacturer schedule; verify RF forward and reflected power readings; check impedance matching network; typical electrode replacement interval is 6-12 months in continuous etch tool service |
+| Packed bed scrubber packing fouled — pressure drop 2× design | Scale buildup (CaF₂, CaCO₃) or biological growth on polypropylene packing | Clean or replace packing annually; maintain biocide dose in recirculating scrubber liquor; verify liquid-to-gas ratio is 5-15 L/m³; check that mist eliminator is not loading with carryover droplets |
+| Acid exhaust duct corrosion detected at joint | Vinyl ester FRP resin degraded by concentrated HF condensate at joint crevice | Replace corroded section with PVDF duct for HF service; verify all joints are sealed with chemical-resistant gasket; slope duct toward drain points (minimum 1°); never use PVC for HF ductwork — permeation over time |
+| Exhaust air energy recovery effectiveness drops below 50% | Glycol run-around coil fouled or heat pipe refrigerant charge leaked | Flush glycol coil with cleaning solution; verify glycol concentration and pump flow rate; for heat pipe systems, check for loss of refrigerant charge — sealed pipes require manufacturer service; do not use enthalpy wheels on toxic/corrosive streams |
+| Makeup air humidity above 50% RH entering cleanroom | Dehumidification coil bypassing or cooling coil below dew point but reheat insufficient | Verify cooling coil achieves dew point condensation; check reheat coil is modulating correctly to bring air to 22°C discharge; confirm clean steam humidifier is not over-injecting; check condensate drain is not overflowing into air stream |
+
 ## See Also
 
 - [Chemical Safety & Toxicology](chemical-safety.md) — TLV limits and hazard classifications for ventilated chemicals

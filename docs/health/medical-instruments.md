@@ -352,6 +352,21 @@ The lens quality matters for accurate diagnosis. A simple plano-convex lens (gro
 - **Sterilization verification gaps**: Without biological indicators or chemical integrators, sterilization effectiveness cannot be confirmed with certainty. Time-temperature logging and visual inspection of autoclave operation are the minimum verification methods.
 - **Sharps injury risk**: Hand-finished instruments may have burrs, rough edges, or inconsistent points that increase the risk of sharps injuries during use. Careful finishing and inspection of each instrument is essential.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Stethoscope produces faint or muffled heart sounds | Tubing too long (>60 cm) or earpieces don't seal in ear canal | Trim tubing to 55-60 cm for optimal acoustic transmission; ensure earpieces match ear canal diameter for an airtight seal blocking external noise |
+| Mercury thermometer reads 0.5°C above expected at 37°C | Altitude correction not applied or constriction partially blocked | Calibrate at ice point (0.00°C) and steam point (100.00°C adjusted for altitude: −0.37°C per 100 m elevation); reject thermometers with nonlinearity exceeding ±0.1°C between calibration points |
+| Sphygmomanometer gives falsely high readings | Cuff too narrow for patient arm size or arm not at heart level | Use standard adult cuff 12-13 cm wide × 30-35 cm long; ensure arm is at heart level during measurement; deflate at 2-3 mmHg per heartbeat |
+| Scalpel blade dulls after fewer than 5 incisions | Carbon steel blade corroded from improper sterilization drying | Dry carbon steel blades immediately after boiling/autoclaving; switch to stainless steel blades for longer edge life (slightly less sharp but corrosion-resistant) |
+| Forceps ratchet slips and releases under tension | Ratchet teeth worn after 500-1000 heavy-use cycles | Inspect ratchet mechanism regularly; replace forceps when locking becomes unreliable; clean box lock hinge meticulously to maintain smooth operation |
+| Autoclave fails to reach 121°C at 15 psi | Door gasket worn or safety relief valve leaking | Inspect and replace silicone rubber gasket if compressed or cracked; test safety relief valve monthly (set to 20 psi); hydrostatic test vessel to 1.5× working pressure annually |
+| Chemical indicator strip doesn't change color after autoclave cycle | Pack wrapped too tightly preventing steam penetration | Wrap instruments loosely in cloth; place indicator strip in the center of the pack, not on top; ensure steam can contact all surfaces — packs must not be stacked tightly |
+| Needle holder rotates suturing needle during use | Jaws worn smooth or wrong size holder for the needle | Use tungsten carbide jaw inserts (gold handles) for secure grip; match holder size to needle (5-6 inch for fine cutaneous work, 7-8 inch for deep tissue); regrind serrations if steel jaws are worn |
+| Mercury spill from broken thermometer (0.5-1.5 g) | Glass tube fractured from impact on hard surface | Collect mercury with sulfur powder or mercury sponge (never vacuum); ventilate room — vapor can exceed TLV of 25 μg/m³ in unventilated spaces; switch to alcohol or digital alternatives |
+| Retractor causes tissue ischemia during prolonged surgery | Excessive retraction force applied for >30 minutes | Release retraction pressure periodically; use multiple smaller retractors to distribute force; self-retaining retractors with adjustable turnbuckles allow graded tension control |
+
 ## See Also
 
 - [Medicine & Surgery](medicine.md) — clinical procedures using these instruments

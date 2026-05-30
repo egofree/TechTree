@@ -285,6 +285,21 @@ Proper segregation at the source is critical for effective treatment:
 - **Segregate** copper waste from iron-bearing waste (copper poisons iron-based treatment reagents)
 - **Separate** TMAH waste from all other streams (toxicity requires dedicated treatment)
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Fluoride discharge exceeds 30 mg/L limit after CaCl₂ precipitation | pH below 8 in reaction tank — fluoride stays in solution as HF instead of precipitating as CaF₂ | Verify automated pH control loop is maintaining pH 8-10; check NaOH feed pump delivery; confirm CaCl₂ dose at 1.5-2.0× theoretical Ca:F molar ratio; add second-stage polishing with activated alumina (pH 5-6 optimal) |
+| Heavy metals (Cu) discharge exceeds 1 mg/L after hydroxide precipitation | pH exceeded 10.5 — amphoteric re-dissolution of Cu(OH)₂ into soluble Cu complexes | Tighten pH control to 9.0-9.5 (below 10.5 amphoteric threshold); recalibrate pH probe; add sulfide polishing stage (Na₂S) to achieve <0.1 mg/L Cu — CuS Ksp = 6×10⁻³⁷ |
+| Cr(VI) remains in effluent after treatment | Incomplete reduction — pH above 3 during Na₂S₂O₅ dosing reduces reduction efficiency | Lower pH to 2-3 before adding sodium metabisulfite; verify with diphenylcarbazide colorimetric test (Cr(VI) specific, detection limit 0.01 mg/L); ensure stoichiometric excess of reducing agent; then raise pH to 8-9 for Cr(OH)₃ precipitation |
+| CaF₂ sludge from clarifier only 1% solids — cannot dewater effectively | Polymer coagulant dose incorrect or clarifier surface loading too high | Adjust anionic polyacrylamide dose to 0.5-2.0 mg/L; verify clarifier surface loading is 1-2 m/h with 2-4 hour retention; dewater with filter press to 20-30% solids before disposal; check coagulant is not expired |
+| Neutralization tank temperature exceeds 50°C | Exothermic reaction — concentrated acid mixing with 25-50% NaOH releases up to 2 MJ/kg NaOH | Reduce acid feed rate to dilution tank; add cooling coil or secondary dilution stage; verify two-stage neutralization (rough + fine adjustment) is operating; never neutralize spent piranha until temperature is <60°C |
+| IPA distillation recovery purity below semiconductor grade | Water azeotrope not fully broken or cross-contamination from mixed solvent batches | Add molecular sieve drying after distillation (removes residual water from IPA-water azeotrope at 82°C); segregate solvent waste streams — never distill mixed solvents in same batch; polish with activated carbon to remove color bodies |
+| NMP vacuum distillation produces dark, degraded product | Vacuum pressure too high — NMP boiling at >80°C causing thermal degradation | Verify vacuum system maintains 50-80°C distillation temperature (NMP bp 202°C at atmospheric); check vacuum pump oil is not contaminated; use lower vacuum pressure to reduce boiling temperature further |
+| H₂S odor detected near sulfide precipitation tank | pH dropped below 7 — hydrogen sulfide evolving (IDLH 100 ppm, lethal at 500+ ppm) | Evacuate area immediately; verify pH >8 in sulfide treatment tank; install continuous H₂S monitor with alarm at 10 ppm; check Na₂S dosing is not in excess of metals stoichiometry; ensure emergency ventilation is operational |
+| TMAH in effluent exceeds 10 mg/L limit | Biological SBR reactor upset — TMAH-degrading bacteria population crashed from shock loading | Reduce TMAH feed rate to reactor; verify Fenton oxidation backup system (H₂O₂ + Fe²⁺) is available; check reactor temperature and dissolved oxygen; allow 2-4 weeks for bacteria population recovery; never discharge untreated TMAH (LD₅₀ 25-32 mg/kg) |
+| Daily composite ICP-MS shows arsenic above 0.1 mg/L | Scrubber blowdown from hydride gas abatement mixed into general acid waste instead of segregated treatment | Segregate toxic gas scrubber blowdown from general acid waste; treat arsenic-bearing stream with dedicated heavy metal precipitation; verify waste segregation piping — color-code and label all collection tanks; never mix scrubber blowdown with non-fluoride acid waste |
+
 ## See Also
 
 - [Chemical Safety & Toxicology](chemical-safety.md) — Properties of chemicals in waste streams

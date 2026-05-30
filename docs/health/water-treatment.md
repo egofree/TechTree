@@ -290,6 +290,21 @@ Dose calculation: For a 10,000 L storage tank requiring 1.0 mg/L chlorine dose: 
 - **Water quality testing gaps**: Field test kits provide approximate results. Precise measurement of heavy metals (arsenic, lead, fluoride) requires laboratory equipment (atomic absorption, ion chromatography) that may not be available in early bootstrap stages. In the absence of testing, use multiple treatment barriers as a precaution.
 - **Climate dependence**: Solar disinfection requires adequate sunlight (6+ hours). Rainwater harvesting depends on rainfall patterns. Surface water availability varies seasonally. Groundwater may be deep or contaminated with naturally occurring arsenic or fluoride.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Alum coagulation produces no visible floc | Water pH outside 6.5-7.5 optimal range or dose too low for turbidity | Run jar test with 6 beakers at varying doses (10-50 mg/L); adjust pH to 6.5-7.5 before coagulation; increase dose 50-100% in winter when water is below 5°C |
+| Chlorination fails to achieve 0.2 mg/L residual after 30 min | High organic matter consuming chlorine demand before residual establishes | Pre-treat with coagulation/settling to reduce organic load; increase initial dose; measure chlorine demand first — add sufficient chlorine to satisfy demand plus achieve target residual |
+| Ceramic pot filter flow rate drops below 0.5 L/hour | Pores clogged with accumulated sediment and biofilm | Scrub filter with clean brush and water weekly; do not use soap or chlorine on ceramic element; replace filter every 2-5 years when cleaning no longer restores flow |
+| SODIS water not adequately disinfected after 6 hours | Turbidity >30 NTU blocking UV penetration or bottle scratched/discolored | Pre-filter turbid water through cloth or sand filter; use only clear PET bottles (<2 L); replace bottles every 6-12 months; extend to 2 consecutive days if cloudy |
+| Arsenic removal drops below 90% effectiveness | Ferric chloride dose insufficient or pH outside 5-7 optimal range | Increase FeCl₃ dose to 5-30 mg/L; pre-oxidize As(III) to As(V) using chlorine or potassium permanganate before co-precipitation; verify pH is 5-7 for optimal iron-arsenic floc formation |
+| Biosand filter biolayer never matures (output still contaminated) | Intermittent use starves the biological layer or water pauses too long | Keep filter in continuous use; maintain 5 cm standing water above sand to sustain the biolayer; do not let filter dry out — the biolayer dies within hours of desiccation |
+| UV disinfection unit fails to inactivate Cryptosporidium | Turbidity >10 NTU shielding organisms or UV lamp output degraded | Pre-filter to <10 NTU before UV exposure; replace lamp every 8,000-12,000 hours (output degrades ~20% over life); verify dose is 80-100 mJ/cm² for 99.9% Cryptosporidium inactivation |
+| Boiled water still causes illness | Post-boiling contamination from dirty storage containers or hands | Store boiled water in clean, covered containers; never re-contaminate by dipping hands or cups into storage; cool covered to prevent airborne contamination |
+| Fluoride levels remain above 1.5 mg/L after Nalgonda treatment | Alum dose insufficient for initial fluoride concentration | Increase alum dose (100-500 mg/L) and lime (20-100 mg/L) based on initial fluoride level; Nalgonda technique achieves only 60-80% removal — may need multiple treatment stages for very high fluoride |
+| India Mark II hand pump discharge rate drops below 10 L/min | Cup seals or check valves worn (replace every 6-18 months) | Replace worn cup seals and check valves ($2-5 in parts); maintain village-level spare parts supply chain — 30-50% of hand pumps in sub-Saharan Africa are non-functional due to lack of spares |
+
 ## See Also
 
 - [Medicine & Surgery](medicine.md) — disease treatment, pharmaceutical production, surgical capability

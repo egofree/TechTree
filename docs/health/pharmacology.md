@@ -310,6 +310,21 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 - **Quality control gaps**: TLC confirms drug identity but not purity or potency. Quantitative analysis (HPLC, UV spectroscopy) requires more advanced instrumentation. Heavy metal contamination of plant material (lead, arsenic from soil) is difficult to detect without atomic absorption. Microbial contamination of oral preparations is a constant concern.
 - **Regulatory absence**: In a bootstrap setting, there is no pharmacopoeia standard, drug regulatory authority, or adverse event reporting system. Drug quality depends entirely on the skill and integrity of the compounder. Errors in dose calculation, misidentification of plant material, or contamination during preparation can cause patient harm with no systematic feedback mechanism.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Willow bark decoction potency varies 3-fold between batches | Seasonal variation, tree age, and bark drying conditions differ | Harvest bark consistently in spring from the same Salix species; dry in shade 2-3 days; standardize by comparing color and bitterness to a reference batch; use 30 g bark per 500 mL water |
+| TLC test spots show identical Rf for two different compounds | Two compounds have similar polarity and solvent interaction | Run multiple solvent systems to confirm identity; TLC confirms identity but not purity — use sharp melting point range (1-2°C) as additional verification |
+| Tablet crumbles during handling or doesn't disintegrate in stomach | Binder content incorrect or compression pressure wrong | Adjust starch binder to 5-10% by weight; compress at 5-20 kN for target hardness of 4-8 kgf; test disintegration by dropping in water at 37°C — should dissolve within 15 minutes |
+| Ether develops explosive peroxides in storage | Prolonged storage in presence of air and light | Store in dark, sealed containers; test with starch-iodide paper before use (blue color = discard); never store >6 months; keep away from all ignition sources |
+| Tincture develops cloudiness or off-odor | Microbial contamination from insufficient ethanol content | Maintain ethanol concentration ≥15% by volume for preservative effect; store in amber glass bottles; 45-70% ethanol tinctures are shelf-stable for years if properly sealed |
+| Aspirin tablets smell of vinegar (acetic acid) | Hydrolysis of acetylsalicylic acid due to moisture exposure | Store in dry conditions below 25°C; humidity accelerates hydrolysis; discard tablets with vinegar odor — degraded aspirin may irritate the stomach more than fresh product |
+| Quinine extraction yields impure brown product | Incomplete precipitation at wrong pH or insufficient recrystallization | Alkalize with lime/NaOH to pH >9 for quinine free base precipitation; dissolve precipitate in dilute sulfuric acid; recrystallize from hot water — pure quinine sulfate is white with melting point 205°C |
+| Digitalis leaf potency varies between harvest batches | Enzymatic degradation of cardiac glycosides during slow drying | Harvest second-year Digitalis purpurea leaves at start of flowering; dry rapidly at 60°C (not slower) to prevent enzymatic breakdown; assay each batch for potency before clinical use |
+| Suppositories melt during storage | Storage temperature above 30°C (cocoa butter melts at 30-35°C) | Store in cool location below 25°C; consider glycerinated gelatin base for hotter climates (dissolves rather than melts at body temperature); wrap individually in foil or wax paper |
+| Accelerated stability test (40°C, 75% RH) fails at 3 months | Drug degrades via oxidation or hydrolysis at elevated temperature | Add antioxidants (ascorbic acid, sodium metabisulfite) for oxidation-prone drugs; improve moisture barrier packaging; reformulate with lower water content |
+
 ## See Also
 
 - [Medicine & Surgery](medicine.md) — surgical procedures, wound management, emergency care

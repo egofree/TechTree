@@ -231,7 +231,7 @@ Steam engines produce rotary mechanical power. Transmitting that power to where 
 - **Steam burns**: Steam at 100°C carries 5× more heat energy than water at 100°C (latent heat of vaporization). Steam at working pressure (180°C+) causes instantaneous third-degree burns on contact. Insulate all steam pipes. Never vent steam in occupied areas. Use valve caps and covers.
 - **Carbon monoxide**: Coal-fired boiler rooms accumulate CO from incomplete combustion. Ventilate boiler houses. CO detectors in all enclosed firing spaces.
 
-## Troubleshooting — Steam Engine and Boiler Operation
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|

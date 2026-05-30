@@ -228,6 +228,29 @@ Domestic coke (15-40 mm) is a smokeless fuel valued for urban heating before nat
 - **Energy loss**: Coke production drives off 25-30% of the coal's energy content as volatile matter. If not captured, this energy is wasted.
 - **Supply bottleneck**: Steel production requires roughly 0.5-0.7 tonnes of coke per tonne of pig iron. Coke supply often limits steel production capacity.
 
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Coke is black and dense, not porous | Undercoked — carbonization incomplete, oven too cool or duration too short | Increase carbonization temperature or extend duration; check that volatile flame is still burning before quenching (visible flame means volatiles still driving off) |
+| Coke is powdery, crumbles easily, white-edged | Overcoked — too much fixed carbon consumed, temperature too high or duration too long | Reduce carbonization time; check oven temperature (should not exceed 1100°C for beehive); quench earlier while some volatiles remain |
+| Low CSR (<55, coke too weak for blast furnace) | Coal blend has poor caking properties, or ash content too high | Test coal free swelling index (FSI) — must be 4-9; blend poor-caking coal with better coking coal; reduce ash by washing coal before charging |
+| High sulfur in coke (>1%) | Coking coal has high sulfur content, or sulfur not partitioning into gas phase | Source lower-sulfur coal (<1% S); increase carbonization temperature (higher temp drives more sulfur into gas phase); accept higher sulfur and add desulfurization downstream in blast furnace |
+| Excessive coke breeze (fines <15 mm) | Coal charge too finely crushed, or rough handling during quenching/transport | Crush coal to 5-15 cm lumps (not finer); use dry quenching instead of wet (water thermal shock increases breakage); minimize conveyor transfer points |
+| Beehive oven not reaching carbonization temperature | Air supply insufficient, or oven leaking (cracks in brickwork) | Open side door slightly to increase air; check dome for cracks and re-point brickwork with fireclay mortar; ensure coal charge is level for uniform burning |
+| By-product oven uneven heating | Blocked heating flues, or uneven gas distribution to wall flues | Clean flues of tar and carbon deposits; verify gas injection nozzles are not clogged; check that silica brickwork has not shifted or cracked |
+| Quench water high in phenols/cyanides | Normal — coke leaches contaminants into quench water | Route quench water to treatment plant (biological oxidation for phenols, alkaline chlorination for cyanides); never discharge untreated quench water |
+
+## Safety & Hazards
+
+- **Carbon monoxide poisoning**: Coke oven gas contains 5-8% CO. Leaks from offtake pipes, valves, or oven doors expose workers to lethal concentrations. CO is odorless, colorless, and binds hemoglobin 200× stronger than oxygen. Fixed CO detectors with audible alarms in all oven areas. Evacuate at >50 ppm. Never enter oven top area during charging without portable CO monitor.
+- **Benzene and coal tar exposure**: Coal tar and crude benzol contain benzene, a confirmed human carcinogen (causes leukemia with chronic exposure). Coal tar also contains polycyclic aromatic hydrocarbons (PAHs), also carcinogenic. Full respiratory protection (organic vapor cartridge or supplied air) when handling tar, benzol, or working near tar decanters. Skin contact must be avoided — wear chemical-resistant gloves and coveralls. Wash exposed skin immediately.
+- **Steam explosion during quenching**: Water on incandescent coke (~1000°C) flashes to steam instantly. If water pools rather than spraying evenly, a confined steam explosion ejects hot coke fragments. Quench from a safe distance using a fixed spray system (not manual hose). Never stand over quenching coke. Allow 30+ minutes after quenching before handling — residual water trapped in porous coke can cause delayed steam bursts.
+- **Hydrogen sulfide (H₂S) exposure**: Coke oven gas contains H₂S from sulfur in the coal. H₂S is toxic (TLV 10 ppm), smells like rotten eggs at low concentration but deadens the sense of smell at higher concentration — workers may not realize they are being exposed. H₂S detectors in gas handling areas. Sulfur recovery plant (Claus process) personnel require supplied-air respirators for maintenance entry.
+- **Coal dust explosion**: Coal handling and crushing generate fine dust. Suspended coal dust ignites at concentrations above 40 g/m³. Enclose crushing equipment, collect dust at source, ground all equipment to prevent static ignition. Never use compressed air to blow coal dust — it creates a dust cloud.
+- **Burns from hot coke and oven surfaces**: Oven walls reach 1000-1100°C. Incandescent coke is 900-1000°C at discharge. Thermal gloves rated to 500°C minimum, face shield, and flame-resistant clothing for all oven operations. Mark hot zones with barricades. The quenching car, even after quenching, retains heat for hours.
+- **Asphyxiation in confined spaces**: Coke ovens, gas collection mains, and chemical recovery vessels are confined spaces with toxic or oxygen-deficient atmospheres. Never enter without confined-space permit, atmospheric testing (O₂ >19.5%, CO <25 ppm, H₂S <10 ppm), and standby rescue personnel.
+
 ## See Also
 
 - [Coal](coal.md) — Coal types and properties

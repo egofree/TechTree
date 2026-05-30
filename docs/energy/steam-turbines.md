@@ -73,26 +73,45 @@ Modern utility turbines use impulse stages at the HP end and reaction stages in 
 ## Condenser Systems
 
 **[Surface condenser](../glossary/surface-condenser.md)** (standard for power generation):
-- Exhaust steam enters a shell-and-tube heat exchanger. Cooling water flows through thousands of tubes (20-30 mm diameter, brass or titanium). Steam condenses on the tube outer surfaces, dripping to a hotwell for recovery as feed water.
-- **Vacuum**: Condenser operates at 0.03-0.1 bar absolute pressure (96-97% vacuum). This dramatically increases the pressure differential across the turbine — the LP stages extract energy down to this vacuum rather than exhausting to atmosphere. Improves efficiency by 8-12 percentage points.
-- **Cooling water**: River water, sea water, or cooling tower circulation. Flow rate: ~50-100 m³ per MW of turbine output. Temperature rise across condenser: 8-12°C.
-- **Air ejector**: Small steam jet or mechanical vacuum pump removes non-condensable gases (air leaked in through seals). Even small air accumulations degrade vacuum and reduce efficiency.
 
-**Feed water recovery**: Condensed steam is pumped back to the boiler as feed water. This is critical — returning hot, deaerated feed water saves 10-15% on fuel compared to feeding cold raw water.
+Exhaust steam enters a shell-and-tube heat exchanger positioned directly below the turbine exhaust. The shell is a cylindrical or box-shaped steel vessel rated for full vacuum (external pressure of ~1 bar). Inside, thousands of tubes (20-30 mm OD, 0.5-1.0 mm wall thickness, brass, cupro-nickel, or titanium) carry cooling water. Steam condenses on the tube outer surfaces, dripping to a hotwell for recovery as feed water.
+
+- **Vacuum**: The condenser operates at 0.03-0.1 bar absolute pressure (96-97% vacuum). This low exhaust pressure is what makes condensing turbines so much more efficient than non-condensing types — the pressure ratio across the turbine increases from perhaps 10:1 (exhaust to atmosphere) to 100:1 or more (exhaust to vacuum). Each 1 kPa reduction in exhaust pressure improves turbine output by roughly 0.5-1% of rated power. Improves efficiency by 8-12 percentage points.
+- **Cooling water**: River water, sea water, or cooling tower circulation. Flow rate: ~50-100 m³ per MW of turbine output. Temperature rise across condenser: 8-12°C. Cooling water inlet temperature must be 10-20°C below the steam saturation temperature at the desired condenser vacuum. For a condenser operating at 5 kPa absolute (saturation temperature 33°C), cooling water inlet should be at 15-20°C.
+- **Air ejector system**: Non-condensable gases (air leaking through shaft seals, gases dissolved in feedwater) accumulate in the condenser and degrade vacuum. A two-stage steam jet air ejector is the standard removal method. The first stage pulls the air-steam mixture from the condenser, compresses it, and condenses the steam in an inter-aftercondenser. The second stage compresses the remaining non-condensables to atmospheric pressure for venting. Mechanical vacuum pumps (liquid ring type) are an alternative where motive steam is scarce.
+- **Condensate return**: Condensed steam collects in the hotwell as pure, deaerated water at near-boiling temperature. Condensate extraction pumps (typically two in parallel, one standby) pump this water forward through the feedwater heating chain back to the boiler. Returning hot condensate saves 10-15% on boiler fuel compared to cold makeup water. Condensate purity is monitored continuously: a conductivity increase indicates a cooling water tube leak (cooling water contamination would cause boiler scale and corrosion).
 
 ## Blade Materials
 
 Blades operate under extreme conditions — centrifugal stress, steam erosion, corrosion, and thermal cycling:
-- **HP blades (400-540°C)**: 12-25% chromium martensitic stainless steel. Good creep resistance at temperature. Precipitation-hardening grades (17-4PH) for highest-stress locations.
-- **IP blades (200-400°C)**: Chromium-molybdenum steel (1-2.25% Cr, 0.5-1% Mo). Good strength and fatigue resistance.
-- **LP last-row blades**: Precipitation-hardened stainless steel or titanium alloy (Ti-6Al-4V). Titanium preferred for the longest blades (>900 mm) due to its high strength-to-weight ratio — reduces centrifugal stress on the rotor. Titanium also resists water-droplet erosion better than steel.
+- **HP blades (400-565°C)**: 12-25% chromium martensitic stainless steel (AISI 422 or similar). The chromium provides oxidation resistance and hardenability. Creep resistance is the critical property: the blade must not slowly elongate under centrifugal stress at operating temperature. Precipitation-hardening grades (17-4PH) for highest-stress locations. For temperatures above 565°C, austenitic stainless steels or nickel-based alloys are required.
+- **IP blades (200-400°C)**: Chromium-molybdenum steel (1-2.25% Cr, 0.5-1% Mo). Good strength, fatigue resistance, and oxidation resistance. The molybdenum contributes to creep strength.
+- **LP last-row blades**: Precipitation-hardened stainless steel or titanium alloy (Ti-6Al-4V). Titanium preferred for the longest blades (>900 mm) because its density (4430 kg/m³) is roughly half that of steel (7850 kg/m³), halving the centrifugal load for the same blade geometry. Titanium also has excellent resistance to water-droplet erosion, which is severe in the wet-steam environment of the LP exhaust.
 - **Erosion protection**: LP blades suffer erosion from water droplets condensing in the expanding steam. Hard-facing (stellite, tungsten carbide) on leading edges extends blade life. Moisture-recovery stages (water extraction slots in the casing) reduce the problem upstream.
 
-## Governor Mechanisms
+## Blade Manufacturing Process
 
-- **Mechanical-hydraulic governor**: Centrifugal flyballs or flyweights sense turbine speed. Displacement of the flyweights controls a pilot valve, which modulates hydraulic oil pressure to the main steam valve servomotor. Proportional control with adjustable droop (typically 4-5% speed drop from no-load to full-load). Self-contained, reliable, no external power required for basic operation.
-- **Electro-hydraulic governor**: Electronic speed sensor (magnetic pickup on a gear tooth) provides speed signal to an electronic controller, which drives hydraulic servo valves. More precise than mechanical, supports complex control modes (load sharing between multiple turbines, frequency regulation, isochronous operation).
+**From forging to finished blade**: Turbine blades are among the most precisely manufactured metal components in any industry. The process starts with a forged steel blank (or an investment-cast wax pattern for complex airfoil shapes). The blank is rough-machined to within 0.5 mm of final dimensions, then finish-machined on multi-axis CNC equipment or, in earlier practice, on tracer-controlled milling machines following a master template.
+
+**Root attachment design**: The blade root (the base that locks into the rotor disc) carries the full centrifugal load of the blade. The fir-tree (or dovetail) design is standard: a series of interlocking serrated teeth on the blade root engage matching grooves in the disc rim. The load is distributed across multiple contact surfaces, each machined to ±0.01 mm tolerance. A typical fir-tree root has 3-6 pairs of contact faces. The blade slides axially into the disc groove and is locked in place by a small pin or peened tab.
+
+**Blade profile grinding**: The airfoil section of each blade must match the designed aerodynamic profile within ±0.01 mm over its entire length. Deviations cause flow separation, reduced efficiency, and local stress concentrations. Profile grinding uses formed grinding wheels or continuous-path CNC grinding. Surface finish requirement: Ra 0.4-1.6 μm. After grinding, each blade is measured on a coordinate measuring machine (CMM) or optical comparator against the master profile.
+
+**Surface finishing for erosion resistance**: LP blades in particular need protection from water-droplet erosion. Leading edges may be coated with stellite (cobalt-chromium-tungsten alloy) by welding or laser cladding. Alternatively, the blade surface is hardened by shot peening (bombarding with steel or glass shot to create a compressive residual stress layer that resists crack initiation). Titanium blades for the last LP row have natural erosion resistance superior to steel.
+
+## Governing Systems
+
+- **Mechanical-hydraulic governor**: Speed sensing begins with centrifugal flyweights mounted on a governor shaft driven from the main turbine rotor (typically via a worm gear at 1/10 to 1/20 of turbine speed). As turbine speed increases, the flyweights swing outward, lifting a sleeve connected to a pilot valve. The pilot valve modulates hydraulic oil pressure to the main steam admission valve servomotor. Proportional control with adjustable droop (typically 4-5% speed drop from no-load to full-load). Self-contained, reliable, no external power required for basic operation.
+- **Electro-hydraulic governor**: Electronic speed sensor (magnetic pickup on a gear tooth) provides speed signal to an electronic controller, which drives hydraulic servo valves. More precise than mechanical, supports complex control modes (load sharing between multiple turbines, frequency regulation, isochronous operation). Electro-hydraulic governors achieve this with electronic PID (proportional-integral-derivative) controllers driving hydraulic servo valves. The integral term eliminates steady-state speed error; the derivative term dampens oscillations.
+- **Speed regulation accuracy**: For electrical generation, the turbine must maintain speed within ±0.1% to produce AC power at the correct frequency (50.00 ± 0.05 Hz or 60.00 ± 0.06 Hz). This requires a governor with high gain and fast response.
+- **Droop setting**: Governor droop is the percentage speed change from no-load to full-load. A 4% droop means the turbine runs 4% faster unloaded than at rated load. Droop is essential for load sharing between parallel turbines: each turbine picks up load in proportion to its droop setting. Lower droop gives faster response but risks hunting (oscillation). Isochronous (0% droop) mode is possible with electronic governors for single-turbine installations.
 - **Overspeed trip**: Independent mechanical bolt (emergency trip) mounted on the rotor shaft. At 110-115% of rated speed, centrifugal force flings the bolt outward, tripping a latch that dumps hydraulic oil from the steam valve actuators — valves slam shut under spring force. This is the last line of defense against runaway. Test the overspeed trip regularly by tripping it electrically.
+
+## Auxiliary Systems
+
+**Lubrication system**: Turbine bearings require forced-feed lubrication at 1-3 bar oil pressure. A main shaft-driven oil pump circulates oil through coolers and filters to the bearings. An auxiliary AC or DC motor-driven pump provides oil pressure during startup and coast-down when the shaft pump is ineffective. Oil temperature maintained at 40-50°C. Bearing metal temperature monitored with thermocouples: alarm at 85°C, trip at 95°C.
+
+**Steam seal system**: Where the rotor shaft exits the casing, labyrinth seals (interlocking fins on the rotor and grooves in the casing) minimize steam leakage. A small amount of sealing steam is supplied at slightly above atmospheric pressure to prevent air ingress into the vacuum section. Gland steam condenser recovers the sealing steam.
 
 ## Power Output Ranges
 
@@ -119,6 +138,30 @@ Blades operate under extreme conditions — centrifugal stress, steam erosion, c
 - **Lubricating oil fires**: Turbine bearings are lubricated with large volumes of oil (hundreds of liters). An oil leak onto hot steam piping ignites spontaneously. Oil-fire detection and suppression systems required. Fire-resistant hydraulic fluids available but expensive.
 - **Condenser vacuum failure**: If cooling water flow is lost, vacuum collapses, exhaust pressure rises, and the last LP stages operate in choked, overheated flow. Automatic trip on low vacuum protects the turbine. Never override vacuum trip.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Turbine vibration increasing | Blade loss or erosion, bearing wear, misalignment, thermal bow | Check vibration amplitude and frequency; inspect blades for erosion or cracking; check bearing clearances; verify alignment; if cold, roll rotor slowly to straighten thermal bow |
+| Reduced power output at same steam flow | Blade fouling (silica deposits), nozzle erosion, condenser vacuum loss | Inspect blade surfaces through casing openings; clean condenser tubes; check cooling water flow; verify air ejector operation |
+| High bearing temperature (>85°C alarm) | Oil flow restriction, oil cooler fouling, bearing damage, excessive load | Check oil pressure and flow; clean oil cooler; inspect bearing babbitt for damage; verify alignment and bearing preload |
+| Condenser vacuum degrading | Air leak into condenser, fouled tubes, cooling water flow loss, air ejector failure | Leak test with helium sniffer or vacuum decay; clean condenser tubes; verify cooling water pump operation; inspect air ejector steam supply |
+| Overspeed trip activates unexpectedly | Governor malfunction, electrical load rejection, trip bolt fatigue | Test governor response; check electrical breaker coordination; inspect trip bolt for wear; verify hydraulic oil pressure to steam valves |
+| Blade cracking in LP stages | Water-droplet erosion fatigue, resonance vibration, corrosion pitting | Inspect last-stage blades for erosion depth (>0.5 mm requires replacement); verify moisture extraction slots are clear; check blade vibration frequency against running speed |
+| Steam leak at casing joints | Bolt relaxation from thermal cycling, gasket degradation, casing distortion | Re-torque casing bolts to specification after thermal cycle; replace gaskets; check casing flange flatness with straightedge |
+| Turbine fails to reach rated speed | Steam valve not fully open, excessive starting torque, governor set too low | Verify steam admission valve fully open; check driven equipment (generator, pump) for mechanical drag; verify governor speed setting |
+| Oil contamination (water or particles) | Steam seal leak into bearing housing, cooler tube leak, filter bypass | Inspect gland steam seals; oil cooler pressure test; replace filter elements; check oil purifier operation |
+| Differential expansion trip on startup | Rapid heating rate, insufficient soak time at intermediate temperatures | Follow manufacturer start-up curve: limit temperature ramp to 2-3°C/min; hold at 150°C and 300°C for thermal soaking; verify differential expansion indicators |
+
+## Limitations
+
+- **Water quality requirements**: Boiler feedwater must be highly purified (conductivity <0.2 µS/cm). Dissolved oxygen, silica, and dissolved solids cause corrosion and scale. Extensive water treatment plant required.
+- **Start-up time**: Large steam turbines require 4-8 hours from cold start to full load due to thermal expansion constraints. Rapid start-up causes differential expansion and blade rubbing.
+- **Blade erosion**: Moisture in low-pressure stages causes erosion of last-stage blades. Water droplets impact blade leading edges at high velocity. Requires stainless steel or Stellite-shielded blade tips.
+- **Condenser fouling**: Cooling water fouling (biofilm, scaling, sediment) degrades vacuum and reduces efficiency by 2-5%. Regular tube cleaning required.
+- **High capital cost**: Steam turbine plants require boiler, turbine, condenser, feedwater system, and cooling system — complex integrated plant with high upfront investment.
+- **Minimum efficient size**: Steam turbines become cost-effective above ~5 MW. Below this, reciprocating steam engines or internal combustion engines are more economical.
+
 ## See Also
 
 - [Steam Power](steam-power.md) — boilers providing steam for turbines
@@ -129,72 +172,5 @@ Blades operate under extreme conditions — centrifugal stress, steam erosion, c
 - [Iron & Steel](../metals/iron-steel.md) — materials for blades and casings
 - [Electric Furnaces](electric-furnaces.md) — graphite for turbine seals and lubricants
 - [Geothermal Energy](geothermal.md) — geothermal flash steam driving turbines
-
-## Blade Manufacturing Process
-
-**From forging to finished blade**: Turbine blades are among the most precisely manufactured metal components in any industry. The process starts with a forged steel blank (or an investment-cast wax pattern for complex airfoil shapes). The blank is rough-machined to within 0.5 mm of final dimensions, then finish-machined on multi-axis CNC equipment or, in earlier practice, on tracer-controlled milling machines following a master template.
-
-**Root attachment design**: The blade root (the base that locks into the rotor disc) carries the full centrifugal load of the blade. The fir-tree (or dovetail) design is standard: a series of interlocking serrated teeth on the blade root engage matching grooves in the disc rim. The load is distributed across multiple contact surfaces, each machined to ±0.01 mm tolerance. A typical fir-tree root has 3-6 pairs of contact faces. The blade slides axially into the disc groove and is locked in place by a small pin or peened tab.
-
-**Blade profile grinding**: The airfoil section of each blade must match the designed aerodynamic profile within ±0.01 mm over its entire length. Deviations cause flow separation, reduced efficiency, and local stress concentrations. Profile grinding uses formed grinding wheels or continuous-path CNC grinding. Surface finish requirement: Ra 0.4-1.6 μm. After grinding, each blade is measured on a coordinate measuring machine (CMM) or optical comparator against the master profile.
-
-**Surface finishing for erosion resistance**: LP blades in particular need protection from water-droplet erosion. Leading edges may be coated with stellite (cobalt-chromium-tungsten alloy) by welding or laser cladding. Alternatively, the blade surface is hardened by shot peening (bombarding with steel or glass shot to create a compressive residual stress layer that resists crack initiation). Titanium blades for the last LP row have natural erosion resistance superior to steel.
-
-## Turbine Stage Design: Impulse vs. Reaction
-
-**Impulse staging**: In a pure impulse stage, all the pressure drop occurs in the stationary nozzles. Steam exits the nozzle at high velocity (500-1200 m/s depending on stage conditions) and impinges on the moving blades. The moving blades experience no pressure drop, only a change in velocity direction. The Curtis (velocity-compounded) stage is used for the first stage in many turbines: one nozzle feeds two rows of moving blades separated by a row of fixed guide blades. This arrangement extracts more energy from a single pressure drop than a single-row impulse stage, allowing a compact first stage that handles the highest energy density steam.
-
-**Reaction staging (Parsons type)**: In a 50% reaction stage (the most common Parsons design), half the pressure drop occurs in the fixed blades (stator) and half in the moving blades (rotor). The rotor blades are shaped as nozzles themselves, accelerating the steam and creating a reaction force (like a rocket nozzle). This means the rotor experiences a net pressure force in addition to the impulse from velocity change. Reaction blading produces a net axial thrust on the rotor that must be balanced by a thrust bearing or dummy piston. Reaction stages achieve higher peak efficiency than impulse stages but are more sensitive to off-design conditions.
-
-**Stage count progression**: A large condensing turbine may have 20-40 stages. The HP end has many short stages with small blade heights (the steam is dense and the volume flow is low). Each successive stage has longer blades and larger flow area as the steam expands. The LP end may have only 2-4 stages but with enormous blade heights (600-1200 mm for the last row). The transition from HP to IP to LP sections is a continuous expansion process, not discrete jumps.
-
-## Condenser System Design
-
-**Surface condenser construction**: The condenser is a large shell-and-tube heat exchanger positioned directly below the turbine exhaust. The shell is a cylindrical or box-shaped steel vessel rated for full vacuum (external pressure of ~1 bar). Inside, thousands of tubes (20-30 mm OD, 0.5-1.0 mm wall thickness, brass, cupro-nickel, or titanium) carry cooling water. Steam condenses on the outside of the tubes, and the condensate drips to the hotwell at the bottom.
-
-**Cooling water temperature**: Cooling water inlet temperature must be 10-20°C below the steam saturation temperature at the desired condenser vacuum. For a condenser operating at 5 kPa absolute (saturation temperature 33°C), cooling water inlet should be at 15-20°C. The cooling water temperature rise across the condenser is typically 8-12°C. Higher temperature rise means less water flow needed but poorer vacuum.
-
-**Vacuum operation**: The condenser maintains 5-10 kPa absolute pressure (90-95% vacuum). This low exhaust pressure is what makes condensing turbines so much more efficient than non-condensing types. The pressure ratio across the turbine increases from perhaps 10:1 (exhaust to atmosphere) to 100:1 or more (exhaust to vacuum). Each 1 kPa reduction in exhaust pressure improves turbine output by roughly 0.5-1% of rated power.
-
-**Condensate return**: The condensed steam collects in the hotwell as pure, deaerated water at near-boiling temperature. Condensate extraction pumps (typically two in parallel, one standby) pump this water forward through the feedwater heating chain back to the boiler. Returning hot condensate saves 10-15% on boiler fuel compared to cold makeup water. Condensate purity is monitored continuously: a conductivity increase indicates a cooling water tube leak (cooling water contamination would cause boiler scale and corrosion).
-
-**Air ejector system**: Non-condensable gases (air leaking through shaft seals, gases dissolved in feedwater) accumulate in the condenser and degrade vacuum. A two-stage steam jet air ejector is the standard removal method. The first stage pulls the air-steam mixture from the condenser, compresses it, and condenses the steam in an inter-aftercondenser. The second stage compresses the remaining non-condensables to atmospheric pressure for venting. Mechanical vacuum pumps (liquid ring type) are an alternative where motive steam is scarce.
-
-## Governing Systems
-
-**Centrifugal governor to valve actuation chain**: Speed sensing begins with centrifugal flyweights mounted on a governor shaft driven from the main turbine rotor (typically via a worm gear at 1/10 to 1/20 of turbine speed). As turbine speed increases, the flyweights swing outward, lifting a sleeve connected to a pilot valve. The pilot valve modulates hydraulic oil pressure to the main steam admission valve servomotor. This is a proportional control system: speed error produces a proportional valve correction.
-
-**Speed regulation accuracy**: For electrical generation, the turbine must maintain speed within ±0.1% to produce AC power at the correct frequency (50.00 ± 0.05 Hz or 60.00 ± 0.06 Hz). This requires a governor with high gain and fast response. Electro-hydraulic governors achieve this with electronic PID (proportional-integral-derivative) controllers driving hydraulic servo valves. The integral term eliminates steady-state speed error; the derivative term dampens oscillations.
-
-**Droop setting**: Governor droop is the percentage speed change from no-load to full-load. A 4% droop means the turbine runs 4% faster unloaded than at rated load. Droop is essential for load sharing between parallel turbines: each turbine picks up load in proportion to its droop setting. Lower droop gives faster response but risks hunting (oscillation). Isochronous (0% droop) mode is possible with electronic governors for single-turbine installations.
-
-## Turbine Materials by Section
-
-**HP blades (inlet temperatures 400-565°C)**: 12% chromium martensitic stainless steel (AISI 422 or similar). The chromium provides oxidation resistance and hardenability. These blades face the highest temperatures and pressures in the turbine. Creep resistance is the critical property: the blade must not slowly elongate under centrifugal stress at operating temperature. For temperatures above 565°C, austenitic stainless steels or nickel-based alloys are required.
-
-**IP blades (200-400°C)**: Chromium-molybdenum steels (1-2.25% Cr, 0.5-1% Mo) provide adequate strength and oxidation resistance at intermediate temperatures. The molybdenum contributes to creep strength. These blades are generally less stressed than HP blades because the steam density is lower, but they are longer and thus experience higher centrifugal loading.
-
-**LP blades (near-ambient temperature but highest stress)**: The last few rows of LP blades are the longest in the turbine (up to 1200 mm in large units) and spin at full rated speed. Centrifugal stress at the blade root scales with the product of blade mass and the square of rotational speed. Titanium alloy (Ti-6Al-4V) is preferred for blades longer than 900 mm because its density (4430 kg/m³) is roughly half that of steel (7850 kg/m³), halving the centrifugal load for the same blade geometry. Titanium also has excellent resistance to water-droplet erosion, which is severe in the wet-steam environment of the LP exhaust.
-
-## Auxiliary Systems
-
-**Overspeed trip**: An independent mechanical bolt mounted on the rotor shaft. At 110-115% of rated speed, centrifugal force flings the bolt outward, tripping a latch that dumps hydraulic oil from the steam valve actuators. Valves slam shut under spring force. This is the last line of defense against runaway. Test the overspeed trip regularly.
-
-**Condenser vacuum failure protection**: If cooling water flow is lost, vacuum collapses, exhaust pressure rises, and LP stages operate in choked, overheated flow. Automatic trip on low vacuum protects the turbine. Never override vacuum trip.
-
-**Lubrication system**: Turbine bearings require forced-feed lubrication at 1-3 bar oil pressure. A main shaft-driven oil pump circulates oil through coolers and filters to the bearings. An auxiliary AC or DC motor-driven pump provides oil pressure during startup and coast-down when the shaft pump is ineffective. Oil temperature maintained at 40-50°C. Bearing metal temperature monitored with thermocouples: alarm at 85°C, trip at 95°C.
-
-**Steam seal system**: Where the rotor shaft exits the casing, labyrinth seals (interlocking fins on the rotor and grooves in the casing) minimize steam leakage. A small amount of sealing steam is supplied at slightly above atmospheric pressure to prevent air ingress into the vacuum section. Gland steam condenser recovers the sealing steam.
-
-**Thermal efficiency summary**: Non-condensing turbine (exhaust to atmosphere): 15-20%. Condensing turbine with vacuum: 30-40%.
-
-## Limitations
-
-- **Water quality requirements**: Boiler feedwater must be highly purified (conductivity <0.2 µS/cm). Dissolved oxygen, silica, and dissolved solids cause corrosion and scale. Extensive water treatment plant required.
-- **Start-up time**: Large steam turbines require 4-8 hours from cold start to full load due to thermal expansion constraints. Rapid start-up causes differential expansion and blade rubbing.
-- **Blade erosion**: Moisture in low-pressure stages causes erosion of last-stage blades. Water droplets impact blade leading edges at high velocity. Requires stainless steel or Stellite-shielded blade tips.
-- **Condenser fouling**: Cooling water fouling (biofilm, scaling, sediment) degrades vacuum and reduces efficiency by 2-5%. Regular tube cleaning required.
-- **High capital cost**: Steam turbine plants require boiler, turbine, condenser, feedwater system, and cooling system — complex integrated plant with high upfront investment.
-- **Minimum efficient size**: Steam turbines become cost-effective above ~5 MW. Below this, reciprocating steam engines or internal combustion engines are more economical.
 
 [← Back to Energy](index.md)

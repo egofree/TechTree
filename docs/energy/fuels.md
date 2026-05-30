@@ -208,7 +208,7 @@ The bootstrap cannot skip steps. Each fuel requires the infrastructure of the pr
 - **Fuel storage**: Store liquid fuels in approved containers away from heat and ignition sources. Gasoline and light fractions have very low flash points — vapors ignite from distant sparks. Store gaseous fuels in pressure-rated cylinders with pressure relief valves. Separate fuel storage from oxidizer storage (never store fuels and oxidizers together).
 - **Wood/coal dust**: Suspended dust at sufficient concentration (>20-60 g/m³ for coal dust) is explosive. Ventilation in fuel storage and handling areas. No smoking, open flames, or spark sources in dusty environments. Wet down coal piles to suppress dust.
 
-## Troubleshooting — Fuel Production and Combustion Problems
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|

@@ -327,6 +327,21 @@ Seawater (3.5% NaCl, pH 8.0-8.3) is one of the most corrosive natural environmen
 | Lighthouse | 20-60 m height | Stone/cast iron/concrete | 500-5,000 tonnes | 6-24 months |
 | Submarine cable | 100-5,000 km | Copper, gutta-percha, steel | 200-40,000 tonnes | 1-12 months (laying) |
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Rubble mound breakwater armor stones displaced after storm | Individual stones too light for wave climate or insufficient interlocking | Use armor stones 5-50 tonnes on seaward face; ensure each stone contacts 3-4 neighbors in interlocking placement; crest elevation must be 2-5 m above highest expected storm wave height |
+| Caisson breakwater foundation scour undermines structure | Reflected wave energy scours seabed at the base | Install scour protection (riprap or concrete mattress) around the caisson base; consider rubble mound toe protection to dissipate reflected wave energy before it reaches the foundation |
+| Graving dock floor cracks from hydrostatic uplift | Floor slab insufficient thickness for upward water pressure when dock is empty | Design floor as reinforced concrete slab 1.0-3.0 m thick with waterproof membrane; floor must resist full hydrostatic pressure when dock is pumped dry; add tension piles if uplift exceeds slab dead weight |
+| Submarine cable insulation fails within months of laying | Gutta-percha joint poorly sealed during splice, allowing seawater ingress | Apply gutta-percha in 3-4 overlapping heated and pressed layers at every splice; test insulation resistance (>1,000 MΩ·km) before and after laying; a single compromised joint shorts the entire cable |
+| Sacrificial zinc anodes consumed faster than expected (under 1 year) | Hull coating damaged exposing large bare steel area, increasing current demand | Repair coating to reduce current demand (target 10-30 mA/m² for painted steel); anode consumption is 10-12 kg per ampere-year — a 5,000 m² hull at 20 mA/m² needs 1,100 kg zinc annually |
+| ICCP system overprotects hull (voltage below −0.95 V vs Ag/AgCl) | Rectifier output too high, causing cathodic disbondment of paint | Adjust rectifier to maintain −0.80 to −0.95 V vs Ag/AgCl; excessive voltage causes paint blistering (cathodic disbondment) and hydrogen embrittlement in high-strength steel |
+| Floating dry dock lists during vessel lifting | Ballast tank pumping sequence incorrect — asymmetric water removal | Pump ballast tanks in synchronized pairs (port/starboard); monitor list angle continuously; use multiple independent compartments to maintain level during the critical lift phase |
+| Tremie concrete washes out underwater | Pipe tip not kept embedded in fresh concrete, allowing water to mix | Keep the lower end of the tremie pipe embedded at least 1.5 m in previously placed concrete at all times; use high cement content (350-450 kg/m³) and anti-washout admixtures |
+| Lighthouse Fresnel lens rotation stops | Clockwork weight chain jammed or drive mechanism corroded | Inspect and lubricate clockwork monthly; ensure weight channel through the tower is clear of debris; wind weights every 4-8 hours as specified — missed winding stops rotation |
+| Pneumatic caisson workers develop decompression sickness | Inadequate decompression time after working at 3.0-3.5 atm | Follow strict decompression tables: 15-20 minutes decompression for 30 minutes at 3 atm; maintain medical lock on site for emergency recompression; never exceed 30-35 m working depth |
+
 ## See Also
 
 - [Water Transport](../transport/shipping.md) — basic harbor facilities, port operations

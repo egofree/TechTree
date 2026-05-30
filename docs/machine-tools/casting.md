@@ -201,7 +201,7 @@ Casting defects are the primary yield loss in foundry work. Identifying and corr
 - **Heat treatment**: Some castings require heat treatment after casting. Gray iron is typically used as-cast. Ductile iron may be annealed (heat to 900°C, slow cool) to improve machinability. Aluminum alloys are often solution-treated and aged for improved strength.
 - **Machining**: Cast surfaces are not dimensionally accurate enough for precision fits. Machine mating surfaces (bearing bores, slideway faces, flange faces) to final tolerance. See [Machining](./machining.md).
 
-## Troubleshooting — Common Casting Problems
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|

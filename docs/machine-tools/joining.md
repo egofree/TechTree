@@ -612,6 +612,21 @@ Advanced joining processes are critical enablers for vacuum technology and semic
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Forge weld seam cracks open during 90° bend test | Insufficient heat (<1200°C), oxide inclusion from missing flux, or hammering started before welding temperature reached | Heat to bright yellow-white (1250-1300°C) until surface "sweats"; apply borax flux (Na₂B₄O₇) evenly to both scarf surfaces; complete hammering within 10-20 seconds before metal cools below welding temperature |
+| Brass-brazed joint has gaps/voids in fillet (incomplete capillary fill) | Joint clearance outside 0.05-0.20 mm range, or base metal not heated uniformly to ~950°C bright red | Adjust joint gap to 0.05-0.20 mm using shims; heat entire joint area uniformly (heat the base metal, not the filler); verify filler flows by capillary action — continuous fillet must appear at both ends |
+| Soldered copper pipe joint leaks under 1.5× working pressure test | Cold joint (moved during solidification), or surfaces not cleaned to bright metal beyond 10 mm from joint edge | Reheat and re-solder: clean both surfaces to bright metal with abrasive cloth; hold joint still 2-5 seconds after removing heat; look for bright, shiny fillet (dull/grainy = cold joint — remelt and redo) |
+| Oxy-acetylene weld bead shows porosity and spatter on 2 mm mild steel | Flame is oxidizing (excess O₂ — short, noisy inner cone) instead of neutral, or working pressure incorrect | Adjust to neutral flame: sharp inner cone 2-5 mm, blue-white, with pale blue outer envelope; set oxygen to 0.2-0.3 MPa and acetylene to 0.03-0.05 MPa for 1.6 mm tip |
+| SMAW weld has undercut >0.5 mm at bead toe on 6 mm plate (E7018, 3.2 mm) | Amperage too high (>130 A for 3.2 mm electrode), or travel speed too slow producing excessive weld pool | Reduce amperage to 100-120 A; increase travel speed to 2-5 mm/second; correct arc sounds like frying bacon (loud buzzing = too high; sticky irregular arc = too low) |
+| TIG weld on titanium shows blue/purple discoloration (acceptable = silver/straw) | Insufficient shielding — HAZ exposed to oxygen/nitrogen above 500°C on trailing edge or root side | Add trailing gas shield extending 25-50 mm behind torch; back-purge root side with argon; wait 10-15 seconds after arc stops before moving torch away; reject white/gray discoloration |
+| MIG weld has irregular, spatter-heavy bead on mild steel with 75Ar/25CO₂ | Wire feed speed mismatched to voltage, or contact tip-to-work distance (stick-out) too long (>12 mm) | Match parameters: 0.8 mm wire at 100-180 A / 16-20 V for short-circuit transfer; maintain stick-out at 6-10 mm; verify gas flow at 12-20 L/min |
+| Resistance spot weld nugget too small or missing on 1.0 mm sheet (should use 7-10 kA, 2.0-3.5 kN) | Electrode tips worn/mushroomed, reducing current density, or squeeze time insufficient (<10 cycles at 50 Hz) | Dress electrode tips to original flat diameter; increase squeeze time to 10-20 cycles (200-400 ms at 50 Hz); verify electrode force at 2.0-3.5 kN with calibrated gauge |
+| Hot-driven rivet loose (dull thud on 200 g hammer tap test) | Rivet cooled below 500°C before second head fully formed, or drift pin misalignment left gap >0.3 mm between plates | Drive rivet faster (2-4 blows before cooling below 500°C); heat rivet to bright red 900-1000°C; verify plates in full contact with feeler gauges before driving; re-heat and re-drive loose rivets after removal |
+| Friction stir weld shows tunnel defect or surface lack of fill | Traverse speed too high (>200 mm/min for steel) or plunge depth insufficient (shoulder <0.1 mm below surface) | Reduce traverse speed to 50-200 mm/min for steel (100-1000 mm/min for aluminum); set shoulder penetration to 0.1-0.3 mm below surface; increase downward force to 5-50 kN range |
+
 ## See Also
 
 - [Iron & Steel](../metals/iron-steel.md) — primary metals for welding

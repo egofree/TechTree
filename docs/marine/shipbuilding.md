@@ -229,6 +229,21 @@ For detailed sailing mechanics, see [Water Transport](../transport/shipping.md).
 | Industrial (iron) | Wrought iron plates | Iron rivets | 30-120 m | 100-5,000 tonnes |
 | Industrial (steel) | Steel plates | Steel rivets/welds | 50-300+ m | 500-50,000+ tonnes |
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Clinker-built hull leaks persistently despite caulking | Overlap seams opened from hull flexing or old oakum compressed and degraded | Re-caulk every 3-5 years: remove old moss/oakum, drive fresh tarred oakum into overlap seams with caulking iron and mallet, reseal with tar or pitch; clinker hulls flex by design — caulking is a recurring maintenance task |
+| Carvel planking gaps widen allowing water ingress | Wood shrinks as it dries or trenails loosen from hull working | Re-caulk with fresh oakum (frayed hemp rope fibers); seal with pitch or tar; ensure planks are fastened securely with trenails or iron nails — loose fastenings allow planks to shift |
+| Iron hull rivets leak at joint seams | Rivet holes misaligned or rivet insufficiently heated before driving | Heat rivets to bright red (900-1000°C) before insertion; ensure holes align precisely between plates; as the rivet cools it contracts and clamps plates tightly — a cold rivet doesn't contract enough for a watertight seal |
+| Welded hull joint develops cracks | Poor weld penetration or hydrogen embrittlement in the heat-affected zone | Inspect critical welds with X-ray or ultrasonic testing; preheat thick plates before welding to reduce thermal stress; use low-hydrogen electrodes to prevent hydrogen cracking |
+| Vessel lists to one side when loaded | Cargo placed off-center creating uneven weight distribution (high center of gravity) | Load heavy cargo low in the hold to lower center of gravity; maintain metacentric height (GM) above 0.15 m — below this the vessel risks capsizing; secure all cargo with lashings at 45° to resist both lateral and vertical forces |
+| Dugout canoe splits along the grain during use | Wall thickness reduced below 2 cm during hollowing or wood not properly dried | Maintain minimum 2-4 cm wall thickness; use green (living) timber and allow slow drying; fire-hardened interior improves rot resistance and surface strength |
+| Copper sheathing detaches from hull | Nails corroded or copper sheets too thin (<0.5 mm) | Use 0.5-1.0 mm copper sheets with copper nails (not iron — galvanic corrosion dissolves iron faster); replace sheathing every 2-5 years during dry-docking |
+| Steam-bent frame stock splits during bending | Wood bent across the grain instead of with it, or insufficient steaming time | Steam 1-2 hours per cm of thickness; use oak, ash, or elm (not pine or spruce); always bend with the grain direction; cool and dry in the bent form for 24-48 hours before removing |
+| Launching fails — hull sticks on the ways | Insufficient grease on the ground ways or cradle binding | Apply generous tallow or petroleum grease to the ways immediately before launch; ensure cradle is free to slide; check that the hull has reached buoyancy before the end of the ways |
+| Riveted joint has visible gap between plates | Plates not drawn tight before riveting or rivet pitch too wide | Use 3-4 rivet diameters pitch (57-100 mm for 19-25 mm rivets); drive rivets while hot so cooling contraction draws plates tight; use a dolly (heavy steel bar) on the manufactured head side for proper formation |
+
 ## See Also
 
 - [Water Transport](../transport/shipping.md) — operational aspects of ships, navigation, cargo handling

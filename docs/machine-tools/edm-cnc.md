@@ -322,6 +322,21 @@ Each level requires roughly 10× the investment in machine capability, environme
 - **Grinding dust**: Fine metallic dust is a respiratory hazard and explosion risk. Dust collection mandatory. Coolant mist from high-speed grinding requires extraction.
 - **Noise**: Grinding and EDM generate 80-100+ dB. Hearing protection required.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Wire EDM breaks wire repeatedly during 50 mm thick steel cut | Wire tension exceeds 15 N (1500 gf), or deionized water resistivity dropped below 1 MΩ·cm from debris contamination | Reduce wire tension to 5-15 N; check and replace deionizer resin; verify dielectric filtration to <5 μm particles; reduce peak current below 50 A for thick sections |
+| Sinker EDM cavity dimensionally oversized by >10 μm (spark gap uncontrolled) | Spark gap not compensated in electrode dimensions — gap of 0.02-0.10 mm per side unaccounted for | Size electrode smaller than target cavity by 2× the expected spark gap (0.04-0.20 mm on diameter); verify with test cut on sacrificial workpiece before production; use orbital motion to improve uniformity |
+| CNC axis loses position during rapid traverse (20-60 m/min) — stepper misses steps | Open-loop stepper motor torque insufficient at high speed, or ball screw preload lost allowing >1-3 μm backlash | Switch to closed-loop servo with encoder feedback for high-load axes; check ball screw preload — double-nut preload must maintain backlash <1-3 μm; reduce rapid traverse speed below torque drop-off threshold (~1000-2000 RPM for steppers) |
+| Precision surface grinding produces non-flat surface (>2 μm over 300 mm) | Thermal drift from inadequate coolant temperature control (±0.5°C required) or insufficient spark-out passes | Control coolant temperature to ±0.5°C (±0.1°C for ultra-precision); allow 30-120 minute warm-up for thermal equilibrium; add 5-10 spark-out passes at zero downfeed; verify hydrostatic guideways have zero stick-slip |
+| Grinding wheel loading (glazed surface, poor cut) on hardened tool steel (60+ HRC) | Wheel grade too hard for workpiece material — dull grains not releasing, preventing self-dressing action | Switch to softer-grade wheel (paradox: softer wheels for harder materials); dress wheel with single-point diamond dresser at 0.02 mm depth; consider CBN wheel for hardened steels (60+ HRC) |
+| Wire EDM cut shows striations and poor surface finish (>3 μm Ra roughing) | Only roughing cut performed without skim passes, or wire vibration from insufficient tension | Add skim passes: first skim ~1.5 μm Ra, second ~0.8 μm Ra, third ~0.2-0.4 μm Ra; increase wire tension to 5-15 N; verify upper/lower wire guides are clean and undamaged |
+| CNC positioning error exceeds ±5 μm on precision machine (should be ±1-3 μm) | Linear encoder glass scale contaminated, or ball screw lead error outside C3-C5 class (±5-50 μm over 300 mm) | Clean optical linear encoder scale with lint-free cloth and isopropanol; verify encoder interpolation electronics; check ball screw lead accuracy with laser interferometer (0.001 μm resolution) — replace if outside rated class |
+| Jig ground hole out-of-round by >2 μm (target 0.5-2 μm roundness) | Grinding spindle runout or excessive spark-out passes omitted | Verify air-bearing spindle runout <0.1 μm; reduce infeed to 0.5-2 μm per pass for finishing; add spark-out passes at zero infeed; check workpiece is clean and fully seated on fixture |
+| EDM recast layer causes micro-cracks in hardened tool steel mold cavity | No post-EDM finishing to remove 1-10 μm resolidified layer | Grind or polish EDMed surface to remove full recast layer depth (1-10 μm); switch to lower-power finishing settings (reduced pulse duration to 0.5-10 μs for wire EDM) for final passes; specify post-EDM grind on all critical mold surfaces |
+| Centerless grinding produces out-of-round parts (>2 μm, target 0.5-2 μm) | Workpiece center height incorrect relative to grinding/regulating wheel centerline, or regulating wheel not properly dressed | Adjust work rest blade height to set workpiece center above the wheel centerline by 0.5-1.0× workpiece diameter; dress regulating wheel with correct profile; verify throughfeed rate at 1-10 m/min for stable geometry |
+
 ## See Also
 
 - Basic machining operations: [Machining](./machining.md)

@@ -234,6 +234,21 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - **Boiler maintenance**: Annual hydraulic test, weekly washout, tube replacement every 5-10 years. Boiler failure is catastrophic.
 - **Gauge standardization lock-in**: Once a gauge is chosen, all rolling stock, infrastructure, and maintenance facilities are locked to it. Changing gauge later is prohibitively expensive.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Locomotive boiler pressure won't reach operating range (0.7-1.5 MPa) | Firebox coal insufficient or tubes partially blocked with soot | Increase grate area usage and maintain 2-5 kg coal per HP per hour; clean boiler tubes during weekly washout — blocked tubes reduce heating surface effectiveness |
+| Steam locomotive loses power on grades | Early cutoff not adjusted for maximum power or boiler water level low | Move reversing lever to late cutoff (50-80%) for maximum tractive effort on grades; maintain visible water level in gauge glass — if below bottom try-cock, drop the fire immediately |
+| Track gauge widens beyond 1435 mm ±3 mm tolerance | Sleepers rotted or ballast inadequate allowing lateral rail movement | Replace rotted timber sleepers (20-40 year service life with creosote treatment); tamp ballast firmly under sleepers — crushed stone (25-50 mm) must extend 150-300 mm below sleeper bottom |
+| Derailment on curves | Insufficient superelevation or gauge widening for the curve radius | Raise outer rail 50-150 mm above inner (superelevation) to counteract centrifugal force at design speed; add 5-20 mm gauge widening on sharp curves to prevent flange binding |
+| Boiler fusible plug blows during operation | Water level dropped below the crown sheet, melting the lead plug at 260°C | The plug is a safety device — it extinguished the fire as designed. Investigate cause: check water gauge accuracy, try-cocks, and feed water pump; never restart without refilling boiler and replacing the plug |
+| Westinghouse air brake fails to apply on entire train | Pipe leak or frozen condensate blocking pressure reduction signal | Drain train pipe condensate at low points regularly; test brake continuity before each departure — a pressure drop of 0.5 bar at the locomotive should apply all brakes within 3 seconds |
+| Rails develop internal transverse cracks | Metal fatigue from repeated heavy axle loads exceeding rail steel yield strength (450-600 MPa) | Perform annual ultrasonic rail testing to detect internal defects before they propagate to full breaks; replace rails with detected transverse defects immediately; use 50-60 kg/m rail for heavy traffic routes |
+| Locomotive cylinder oil consumption excessive | Steam cylinder oil over-injected (500-600 cSt) causing "dieseling" | Reduce lubricator metering to the minimum that prevents cylinder scoring; excessive oil ignites from compression heat in the cylinder, producing erratic firing and carbon deposits |
+| Points (turnout) fail to lock in position | Switch rail obstruction (ballast, ice) or worn switch mechanism | Inspect and clear switch area of debris; lubricate switch pivots and sliding surfaces; check that switch rails fully seat against the stock rail — a gap of 3+ mm is a derailment hazard |
+| Coal consumption exceeds 5 kg/HP/hour | Poor quality coal (high ash, low calorific value) or boiler scale reducing heat transfer | Use bituminous coal with 25-30 MJ/kg calorific value; treat boiler water with soda ash (Na₂CO₃) to prevent scale — 3 mm of scale reduces heat transfer by 25%; blow down boiler at every water stop |
+
 ## See Also
 
 - [Roads & Bridges](roads.md) — Complementary road transport network

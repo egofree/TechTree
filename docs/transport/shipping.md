@@ -249,6 +249,21 @@
 - **Hull maintenance**: Re-caulking every 3-5 years, anti-fouling annually. Marine boring worms attack untreated timber.
 - **Capacity vs. speed tradeoff**: Larger vessels are faster (higher hull speed) and carry more cargo but require deeper water, larger ports, and bigger crews.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Lateen sail vessel won't tack upwind | Crew timing error during yard swing or sail stalled in irons | Practice coordinated tacking: swing the heavy yard around the mast with 4-6 crew; maintain boatspeed through the tack — if the vessel loses way, it falls into irons (points directly into wind with no drive) |
+| Canal lock fills too slowly (>20 minutes per cycle) | Paddle (sluice) opening too small or water head insufficient | Enlarge paddle opening to 300 × 300 mm minimum; at 2 m head, flow should be ~300 L/s; fill time for a 300 m³ chamber at this rate is ~17 minutes; clear debris from sluice channels |
+| Vessel runs aground in harbor entrance | Water depth at entrance less than 1.15× vessel draft (squat at speed) | Dredge entrance channel to minimum 1.5× deepest draft vessel expected; reduce speed in shallow channels — squat effect increases effective draft at higher speeds |
+| Manila mooring line parts under load | Line worn past 10% visible wear or shock load exceeded breaking strength | Inspect before every use: 25% visible wear retains only ~50% rated strength; replace immediately at 10% wear; use 3:1 scope ratio for chain or 5:1 for rope rodes to prevent shock loading |
+| Anchor drags and vessel drifts | Insufficient scope (rode too short) or anchor flukes can't dig into seabed | Deploy minimum 5:1 scope for rope, 3:1 for chain; ensure anchor weight is 1 kg per 50 kg of vessel displacement; if seabed is hard sand or rock, use a heavier anchor or different fluke design |
+| Vessel capsizes in beam sea | Metacentric height (GM) below 0.15 m from top-weight or shifted cargo | Maintain GM above 0.15 m (target 0.5-1.5 m for sailing vessels); place heavy cargo low in the hold; secure all cargo with timber shoring and lashings — a shifted load changes the center of gravity catastrophically |
+| Block and tackle jams under load | Sheave groove worn or rope twisted (hockled) | Inspect sheaves for wear — grooved lignum vitae or bronze wheels must be smooth; replace hockled (kinked) rope immediately; account for 5-10% friction loss per sheave in mechanical advantage calculations |
+| Hull speed not reached despite full sail area | Hull fouled (barnacles, weed growth) adding 20-40% drag | Apply copper sheathing (0.5-1.0 mm) or anti-fouling paint below waterline; a clean hull has 20-30% less frictional resistance; re-apply anti-fouling annually during dry-docking |
+| Canal bank leaks through clay puddle | Puddle clay insufficiently compacted or thickness below 300 mm | Work clay to plastic consistency (20-30% water content); lay in 100-150 mm layers compacted by foot; minimum total thickness 300 mm extending above the designed waterline; extend clay into the bank to seal seepage paths |
+| Dead reckoning position off by more than 20 nautical miles | Current not accounted for or log speed measurement inaccurate | Apply known current corrections to course; verify log chip calibration; celestial fixes (Polaris for latitude, noon sun with sextant for ±15 nautical mile accuracy) reset accumulated dead reckoning errors |
+
 ## See Also
 
 - [Roads & Bridges](roads.md) — Land transport infrastructure

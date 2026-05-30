@@ -477,6 +477,21 @@ Cutting fluids cool the tool and workpiece, lubricate the chip-tool interface, a
 - **Abrasive wheels**: Ring test before mounting (suspend wheel, tap with hardwood dowel — clear ring = sound, dull thud = cracked and must be discarded). Never exceed rated speed. Use wheel guards (steel, covering 180° of wheel periphery). Dress wheels regularly to maintain sharpness and concentricity.
 - **Grinding dust**: Use extraction or dust collection. Inhaling fine metal dust causes lung damage. Grinding cast iron and steel produces respirable particles (<10 μm) that penetrate deep into the lungs. Wet grinding is preferred — eliminates airborne dust.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Chatter marks on turned surface (irregular ridges 0.05-0.2 mm apart) | Boring bar overhang exceeds 4× bar diameter, or tool set above/below center height by >0.5 mm | Reduce overhang to ≤4× bar diameter; set cutting edge at center height within ±0.5 mm; reduce depth of cut to 0.25 mm for finishing |
+| Tapered turned shaft (diameter differs >0.02 mm between ends) | Tailstock center misaligned with headstock, or long slender workpiece deflecting under 2.5 mm roughing depth | Align tailstock using a test bar and dial indicator (runout <0.05 mm); use steady rest for length-to-diameter ratios >6:1; reduce roughing depth to 1.5 mm |
+| Thread pitch errors on M12×1.75 (10 crests span ≠17.5 mm ±0.05) | Incorrect change gears installed for 1.75 mm pitch, or half-nut re-engaged at wrong thread dial position | Verify change gear ratio: 1.75/leadscrew pitch × stud/lead must equal the required ratio; re-engage half-nut only at the dial position indicated on the thread dial chart |
+| Parting tool jams and breaks in 25 mm steel bar | Blade set below center height (digs in), or feed stopped mid-cut causing work hardening | Set parting blade at center height ±0.2 mm; maintain steady 0.05-0.10 mm/rev feed without stopping; apply heavy flood coolant (soluble oil 5-10%) directed at both sides of cut |
+| Drilled hole bellmouthed (entrance diameter >10.15 mm, bottom <10.00 mm) | Drill walking on curved/angled surface, or insufficient pilot hole | Center punch 0.5-1.0 mm deep before drilling; drill 4 mm pilot hole first for holes >10 mm; use peck drilling (retract every 2-3 mm) for holes deeper than 3× diameter |
+| Surface grinding burns (blue/black discoloration, 1000-1500°C at interface) | Insufficient coolant flow or downfeed too aggressive (>0.05 mm per pass) | Increase coolant to 30:1 water-to-oil, high volume flood; reduce downfeed to 0.005-0.02 mm per pass; take spark-out pass at zero downfeed |
+| Bored hole out-of-round by >0.01 mm | Chuck clamping distorts thin-walled housing, or bore gauge measurement shows taper between open end and bottom | Use 4-jaw chuck with light clamp force or soft jaws; bore to within 0.2 mm undersize in roughing, then take 0.1 mm finishing pass at 0.05 mm/rev feed |
+| End mill breaks in 6 mm keyway slot (3 mm deep on 35 mm shaft) | Excessive depth per pass (>1 mm) or feed rate too high (>265 mm/min for 6 mm cutter) | Limit axial depth to 1 mm per pass (3 passes for 3 mm total); reduce feed to 200 mm/min; mount in collet chuck (not drill chuck) with runout <0.02 mm |
+| Reamed hole undersized (<10.00 mm from 9.7 mm pre-drill) | Reamer stopped or reversed mid-cut, damaging cutting edges; or feed too slow allowing work hardening | Feed reamer through in one continuous motion at 0.4 mm/rev; never reverse direction; use 265 RPM (1/3 of drilling speed) with generous cutting oil |
+| Milling vise misalignment causes stepped surface on 100 mm block | Vise jaws not aligned to ±0.01 mm over jaw length, or climb milling on machine with leadscrew backlash | Indicate vise jaws with dial indicator to ±0.01 mm; use conventional (up-cut) milling on machines with measurable backlash; re-clamp workpiece on parallels |
+
 ## See Also
 
 - Machine tool construction sequence: [Iterative Bootstrap](./iterative-bootstrap.md)

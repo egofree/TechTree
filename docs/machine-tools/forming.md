@@ -370,6 +370,21 @@ The choice of forming method depends on production volume, part geometry, materi
 - **Surface finish**: Formed surfaces pick up die marks, scratches, and lubricant residue. Critical surfaces may require post-forming machining or finishing.
 - **Material waste**: Blanking and trimming generate scrap (typically 15-30% of sheet material). Nesting optimization reduces but cannot eliminate scrap.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Forging cracks along edges of low-carbon steel (0.1-0.3% C) | Metal worked below 800°C — work-hardening exceeds ductility before recrystallization | Reheat to bright yellow (1000-1150°C) before continuing; never hammer steel below cherry red; forge in smaller increments to maintain temperature |
+| Rolling mill produces tapered strip (thickness varies >0.1 mm across 200 mm face) | Screw-down mechanisms set unevenly, or roll journals worn causing deflection under 50-150 kN load | Calibrate roll gap with 1 mm feeler gauge at three positions (center and both ends) — uniformity within ±0.05 mm; check journal bearing wear; reduce reduction per pass to 10-15% |
+| Wire galls and sticks in draw plate die (pull force exceeds 30 kN) | Insufficient lubrication or die entrance angle incorrect (not 30° included) | Apply tallow, beeswax, or soap solution before each pass; verify die geometry: 30° entrance bell + straight bearing section ~1× diameter; polish die bearing surface to mirror finish with 1200 grit paste |
+| Drawn copper wire becomes brittle and snaps after 4-5 passes | Work hardening accumulated beyond 40-50% reduction since last anneal without intermediate heat treatment | Anneal every 3-5 passes at 500-700°C for 30-60 minutes, then air cool or water quench; track cumulative reduction — anneal when cross-section reduced 40-50% from last anneal |
+| Deep-drawn cup tears at punch nose radius (1 mm mild steel, 60 mm cup from 100 mm blank) | Blank holder force exceeds 30% of drawing force, or punch-to-die clearance <1.1× sheet thickness | Reduce blank holder force to 10-30% of drawing force (F = π × 100 × 1 × 250 × (100/60 − 0.7) ≈ 78.5 kN → blank holder 7.8-23.6 kN); set clearance to 1.1-1.3× sheet thickness; increase die entry radius to 4-10× sheet thickness |
+| Press brake bend angle springs back 5-10° from target in aluminum 6061-T6 | Aluminum work-hardens rapidly and has higher elastic recovery than mild steel (5-10° vs 2-5°) | Overbend by 5-10° past target angle (e.g., set ram to 97° for a 90° bend); use V-die opening of 6-12× sheet thickness; consider annealing aluminum (415°C for 2-3 hours) to O-temper before bending at 1t minimum radius |
+| Upsetting buckles instead of thickening (bar length >3× diameter) | Length-to-diameter ratio exceeds 3:1, causing Euler column buckling under axial compression | Limit upsetting to length ≤3× diameter; for longer pieces, upset in multiple heats with intermediate reheating; or use confinement dies to prevent lateral buckling |
+| Rolling mill stalls on 10 mm hot steel bar (100 mm rolls, hand crank) | Reduction per pass exceeds 30%, or steel temperature dropped below 800°C | Limit reduction to 10-30% per pass; reheat steel to 800-1150°C between passes; check that rolls are hardened to 50-55 HRC surface (softer rolls deform instead of the workpiece) |
+| Spun bowl shows wrinkles or tears on 300 mm copper disc | Uneven roller pressure or mandrel speed too high for 0.5-6 mm sheet thickness | Reduce spindle speed to 300-600 RPM for manual spinning; apply consistent overlapping sweeps from center to rim; lubricate disc surface with beeswax or tallow; increase number of passes with lighter pressure per pass |
+| Bronze forging (90/10 Cu/Sn) crumbles instead of flowing | Temperature exceeded 800°C upper limit — grain boundary melting in narrow 650-800°C forging range | Maintain forging temperature within 650-800°C (dark red to cherry); check temperature frequently with optical pyrometer; quench immediately if metal shows signs of crumbling — the part is ruined and cannot be salvaged |
+
 ## See Also
 
 - [Machining](machining.md) — Material removal processes complementing forming

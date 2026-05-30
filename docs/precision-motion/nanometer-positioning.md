@@ -210,9 +210,9 @@ Copper windings in a non-magnetic (epoxy-potted) coil assembly sit between two r
 | Moving mass | 30-80 kg | 2-5 kg | 15-30 kg |
 | Max acceleration | 20-30 m/s² (2-3g) | 100-500 m/s² (10-50g) | 30-80 m/s² (3-8g) |
 | Max velocity | 1-2 m/s | 0.5-1 m/s | 1-3 m/s |
-| Positioning accuracy | ±50 nm | ±5 nm | ±5 nm |
+| Positioning accuracy | ±50 nm (coarse stage) | ±5 nm (fine stage) | ±5 nm (fine stage) |
 
-The coarse-fine architecture splits the positioning problem: the coarse iron-core motor provides long travel and high force for step-and-scan motions, while the fine voice-coil or piezo stage provides nanometer-resolution corrections over a short range.
+The coarse-fine architecture splits the positioning problem: the coarse iron-core motor provides long travel and high force for step-and-scan motions, while the fine voice-coil or piezo stage provides nanometer-resolution corrections over a short range. Total system accuracy of ±2 nm for reticle stages is achieved by combining the coarse and fine stages with interferometric feedback.
 
 ## Voice Coil Actuators
 
@@ -316,6 +316,21 @@ Mechanical resonances in the stage structure limit the achievable feedback bandw
 - **Pinch points**: High-acceleration stages can close gaps in milliseconds. Physical guards and safety interlocks on stage enclosures. Light curtains for operator protection.
 - **High voltage**: Piezo amplifiers produce 0-150V or 0-1000V at high frequency. Proper insulation and grounding required. Never disconnect piezo cables while amplifier is powered — the inductive kick can be dangerous.
 - **Cleanroom compatibility**: Air bearings exhaust air into the environment. In cleanroom applications, the exhaust must be filtered. Linear motor heat may require water cooling to maintain cleanroom temperature specs.
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Piezo actuator position drifts 1-5% over 10 minutes after voltage step | Ferroelectric domain switching causes logarithmic creep; open-loop operation without position feedback | Close the loop with strain gauge or capacitive sensor feedback; the PID controller automatically compensates for creep; if open-loop is required, apply predictive voltage correction based on known creep model |
+| Air bearing stage crashes onto guide surface — scratched granite rail | Compressed air supply failed or pressure dropped below 3 bar; air filter clogged reducing flow to bearing pads; load exceeded 5-50 N/cm² bearing capacity | Install air pressure monitoring with automatic stage stop when pressure drops below 3 bar; replace air filters on schedule (1 μm filtration minimum); verify payload is within bearing load rating; inspect and re-lap guide surface if scratched |
+| Linear motor iron-core cogging causes 1-5% force ripple — stage velocity non-uniform at low speed | Iron teeth interacting with permanent magnets at 5-50 Hz; cogging frequency matches mechanical resonance in stage | Switch to ironless (U-channel) linear motor for zero cogging and <0.5% force ripple; apply feedforward compensation with cogging profile map; use notch filter in PID controller at cogging frequency |
+| Positioning accuracy degraded from ±5 nm to ±50 nm over 2 hours of operation | Motor coil heating causes thermal expansion of stage components; 300 mm Invar stage with CTE 0.6-1.2 × 10⁻⁶/°C expands ~0.36 μm per °C | Activate liquid cooling at ±0.01°C temperature control; extend warm-up protocol to 30-120 minutes for thermal equilibrium; use metrology frame (Invar or Zerodur) carrying interferometers independent of stage thermal expansion |
+| Flexure-guided stage resonant frequency dropped from 1000 Hz to 500 Hz | Flexure hinge developing fatigue crack at root from billions of cycles; moving mass increased by added instrumentation | Inspect flexure hinge roots under microscope for crack initiation; replace flexure block if cracks detected; reduce moving mass to restore resonant frequency; design flexures with generous fillet radius at hinge roots to extend fatigue life |
+| Voice coil actuator cannot maintain position against constant external force — drift >10 nm/s | Voice coil has no holding force when unpowered; feedback loop bandwidth insufficient for the disturbance frequency; thermal EMF in coil | Verify PID integral gain eliminates steady-state error; increase feedback bandwidth toward 200-2000 Hz; add acceleration feedforward for known disturbance profile; for gravity loads, add passive counterbalance to reduce static force on voice coil |
+| Granular guide surface flatness exceeds 0.1 μm over 300 mm — straightness errors in stage motion | Surface contamination; thermal distortion from sunlight or HVAC; granite base settling on uneven foundation | Clean guide surface with IPA; verify thermal shielding and ±0.1°C environmental control; re-level granite base; if flatness permanently degraded, re-lap surface to <0.05 μm Ra using precision grinding and lapping |
+| Magnetic bearing radial runout of 0.05-0.5 μm too high for sub-nanometer positioning | Position sensor noise limiting feedback controller; electromagnetic imbalance in rotor; insufficient controller update rate (below 5-20 kHz) | Upgrade to capacitive position sensors with sub-nm resolution; dynamically balance rotor; increase controller update rate to 20 kHz; for applications needing <0.05 μm runout, switch to air bearing spindle (0.01-0.05 μm radial runout) |
+| Coarse-fine stage synchronization lost — positioning error spikes during scan transitions | Settling time of coarse iron-core stage (30-80 kg moving mass) exceeds timing budget; fine stage (2-5 kg) saturates trying to compensate | Optimize coarse stage trajectory with S-curve acceleration profile to reduce residual vibration; increase fine stage travel range to tolerate larger coarse errors; tune feedforward compensation in both stages simultaneously |
+| Interferometer position measurement drifts — λ/4 resolution (~158 nm) insufficient for ±5 nm positioning | HeNe laser frequency stability degraded beyond ±2 × 10⁻⁹; atmospheric refractive index change from temperature/pressure/humidity variation | Use frequency-stabilized HeNe laser; install environmental sensors (temperature, pressure, humidity) for real-time refractive index compensation (Edlén equation); enclose interferometer beam path in evacuated or temperature-controlled tube |
 
 ## See Also
 

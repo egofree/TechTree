@@ -139,7 +139,7 @@ Leather — animal hide preserved through tanning — provides durable, flexible
 
 **Color fastness**: Measured by ISO 11640 (rub fastness) and ISO 105-B02 (light fastness). Rub fastness: rub a felt pad under 10 N load for 500 cycles — assess color transfer to the pad on a 1-5 grey scale (grade 4 minimum acceptable). Light fastness: expose to xenon arc lamp equivalent to 100 hours of sunlight — assess fading on 1-8 blue wool scale (grade 4 minimum for upholstery, grade 5 for automotive). Vegetable-tanned leather yellows and darkens with UV exposure; chrome-tanned leather is more light-stable.
 
-## Troubleshooting — Leather Production Problems
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|

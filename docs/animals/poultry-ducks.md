@@ -254,6 +254,21 @@ A sudden change of 20% or more in water consumption often indicates illness 24-4
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Egg production drops more than 10% in one week | Water contamination, stale feed, predator disturbance, or inadequate light | Check water quality first (ducks drink 500-1000 mL/day; contaminated water reduces intake); replace stale or moldy feed; inspect for predator signs; ensure 14-16 hours light for layers |
+| Ducklings drowning in waterer or brooder | Ducklings under 3-4 weeks lack waterproofing (oil gland not functional); water depth too deep | Provide shallow drinking water (under 2 cm depth) in brooder; use waterers with marbles or pebbles to prevent submersion; restrict swimming water access until 3-4 weeks old |
+| Angel wing (twisted wing joint) in growing ducklings | Excessive protein/calorie intake during rapid growth; protein above 16-18% after 4 weeks | Reduce protein to 15-16% after the first 3-4 weeks; limit daily feed ration; switch from 18-20% starter to 15-16% grower; most common in fast-growing Pekins |
+| Bedding saturated with water and ammonia smell within days | Ducks splash water from drinkers; insufficient bedding depth or replacement frequency | Position water sources at opposite end of shelter from sleeping area; maintain 10-15 cm bedding depth; replace wet bedding frequently; ensure shelter ventilation to prevent fungal growth |
+| Duck eggs have strong fishy off-flavor | Feed contains high levels of fish meal or canola (rapeseed); ducks foraging in stagnant water | Switch to non-fish-meal layer feed (16-18% protein); provide clean, flowing water for swimming; fishy taint in eggs is caused by trimethylamine accumulation from certain feed ingredients |
+| Ducklings piling in corners and smothering | Brooder temperature too low (below 30-32°C first week); cold drafts at floor level | Start brooding at 30-32°C week one, decrease by 2-3°C per week; use solid brooder guards (30-40 cm high) in a circle to prevent corner-piling; eliminate floor-level drafts |
+| Botulism (progressive paralysis, "limberneck") in flock | Ducks foraging in stagnant water with decaying vegetation containing *C. botulinum* type C toxin | Remove ducks from contaminated water immediately; drain and clean stagnant water sources; provide clean flowing water; treat with type C antitoxin if available; mortality can be rapid |
+| Poor feather plucking with residual down after scalding | Scald temperature too low or duration too short; duck feathers are more water-resistant than chicken | Scald at 55-60°C for 60-90 seconds (longer than chickens); after initial plucking, dip carcass in molten wax at 60-70°C, cool to harden, then peel off wax with embedded down |
+| Ducks eating their own eggs | Calcium deficiency leading to thin-shelled eggs; inadequate nest boxes; eggs left too long | Provide free-choice oyster shell or crushed limestone for calcium; install low nest boxes (15-20 cm entrance, ground-level); collect eggs by mid-morning (ducks lay before 8:00 AM) |
+| Bumblefoot (swollen, infected foot pad) | Heavy breeds (Pekin, Muscovy) on rough or abrasive surfaces; small cuts from sharp gravel | Provide smooth, clean flooring in shelter; spread sand or soft bedding in high-traffic areas; isolate affected birds and clean foot pad with antiseptic; prevent with smooth walking surfaces |
+
 ## See Also
 
 - [Poultry Farming](poultry.md) — parent capability for all poultry species

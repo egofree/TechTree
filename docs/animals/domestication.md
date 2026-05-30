@@ -157,7 +157,7 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 
 **Winter**: Feed stored forage (hay, silage, root crops). Cattle require 10-15 kg hay/day; sheep 1.5-2.5 kg/day; horses 8-15 kg/day. Provide windbreaks; effective temperature drops 1°C per 1 km/h wind speed above 8 km/h. Increase grain supplementation for working animals and pregnant females in the last trimester. Break ice on water troughs twice daily. Monitor body condition: dairy cows should maintain body condition score 2.5-3.0 on a 5-point scale; ribs should be palpable but not visible. Difficult births increase by 30-50% in under-conditioned females. Keep poultry houses above 0°C with deep bedding; egg production declines below 12°C daylight hours without supplemental light.
 
-## Troubleshooting — Common Livestock Problems
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -182,7 +182,7 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 
 **Hoof care**: Cattle, sheep, goats, horses, and donkeys all need regular hoof trimming. Cattle on soft pasture may need trimming every 6-12 months; horses on dry ground self-wear hooves, but stabled horses need trimming every 6-8 weeks. Overgrown hooves cause lameness, which reduces feed intake, draft power, and breeding success. Sheep on wet pasture are prone to foot rot (bacterial infection between hoof claws, identified by foul smell and lameness). Trim affected hooves, apply copper sulfate foot bath (5-10% solution).
 
-**[Common diseases](../glossary/common-diseases.md)** (identification only; treatment covered in [Medicine](../health/medicine.md)):
+****Common diseases**** (identification only; treatment covered in [Medicine](../health/medicine.md)):
 - **Foot-and-mouth**: Vesicles (fluid-filled blisters) on tongue, lips, feet, and teats. Causes drooling, lameness, fever. Spreads by contact and airborne transmission. Reportable; quarantine immediately.
 - **Anthrax**: Sudden death without prior symptoms in cattle and sheep. Carcass bloated, blood from body openings does not clot. Do not open the carcass; spores contaminate soil for decades.
 - **Brucellosis**: Abortion in late pregnancy, retained placenta, infertility. Transmissible to humans (undulant fever). Test breeding stock regularly.

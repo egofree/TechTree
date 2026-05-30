@@ -477,6 +477,21 @@ Log hives positioned 1-3 m above ground in trees require ladder access. Inspect 
 - [`agriculture.seed-saving`](../agriculture/seed-saving.md) — bee pollination essential for seed production in many crops
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Colony absconds after transfer to new hive | Hive not baited with beeswax or lemon balm; location exposed to wind or full sun | Rub interior walls with 50-100 g beeswax and crushed lemon balm; reposition hive 1-3 m above ground with entrance facing southeast; shelter from prevailing wind |
+| Honey moisture above 20% (fermentation risk) | Harvested uncapped frames before bees ripened nectar from 70-80% to <20% water | Harvest only frames that are 80%+ capped; if moisture is high, heat gently to 40-45°C to evaporate excess — do not exceed 45°C or enzymes and flavor are destroyed |
+| Aggressive colony stings repeatedly during inspection | Queen has died or become failing; colony stressed by disease, robbing, or dearth | Re-queen with a mated queen from a gentle line; use 2-3 puffs of cool white smoke at entrance and under cover, waiting 30 seconds before opening; re-apply smoke every 5-10 minutes |
+| Varroa mite count exceeds 3 mites per 100 bees (sugar roll test) | Untreated Varroa destructor infestation; mites feed on fat body tissue, weaken bees | Treat with oxalic acid drip (2-3% solution) during broodless period; alternative: formic acid pad or thymol crystals; monitor with sugar roll every 7-10 days post-treatment |
+| Bees building cross-comb between frames instead of on foundation | Incorrect top-bar width (not 3-3.5 cm); missing wax starter strips to guide comb building | Ensure top bars are exactly 3-3.5 cm wide matching bee space (7-9 mm); apply thin beeswax starter strip along bar center; cut out and reattach any cross-comb early before it spreads |
+| Colony fails to survive winter (found dead cluster) | Insufficient winter honey stores (below 15-20 kg); varroa weakening; poor ventilation causing moisture buildup | Leave 15-20 kg honey on the hive in autumn; treat varroa before winter; tilt hive forward 2-3° for rainwater drainage; ensure top ventilation to prevent condensation freezing on cluster |
+| Beeswax rendering yields dark, foul-smelling wax | Overheating above 85°C; using old brood comb with cocoon fibers and propolis instead of clean cappings | Maintain rendering temperature at 62-65°C (never boil); separate light cappings wax from dark brood comb before processing; filter through muslin/cheesecloth; re-melt with activated charcoal for white wax |
+| Queen cells found on comb bottom edges during spring inspection | Colony preparing to swarm due to congestion (8+ frames of brood, insufficient space) | Split colony: move 3-4 frames of brood, honey, and bees with old queen to new hive at least 3 m away; add supers or empty bars before colonies become congested to provide expansion space |
+| American Foulbrood (sunken, perforated cappings; ropiness test strings 2+ cm) | Bacterial infection by *Paenibacillus larvae*; spores persist 50+ years in equipment | No cure once established; burn infected hive and equipment to prevent spread; sterilize tools between hives using lye solution or flame; replace comb every 3-5 years to reduce pathogen buildup |
+| Smoker goes out during hive inspection or produces hot, black smoke | Smoker fuel too damp or packed too tightly; using green plant material instead of dry fuel | Use dry wood chips, burlap, or pine needles; light from bottom, pack fuel loosely; puff regularly to maintain cool white smoke; hot black smoke agitates bees rather than calming them |
+
 ## See Also
 
 - [Fire-Making](../foundations/fire.md) — smoke for hive management

@@ -236,6 +236,21 @@ Guinea fowl typically achieve a feed cost of $0.15-0.25 per dozen eggs and $2.50
 
 Cull hens producing fewer than 60 eggs per season and toms showing aggressive behavior toward keets. Maintain detailed pedigrees if possible to avoid inbreeding — guinea fowl tolerate moderate inbreeding but fertility drops significantly after 3-4 generations of close breeding.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Keet mortality above 30% in first two weeks | Brooder temperature too low (below 35-38°C); draft at floor level; keets eating wood shavings causing fatal impaction | Start brooding at 35-38°C; use solid brooder guards (30-40 cm high) in a circle; use paper towels or burlap bedding for first 5 days (not wood shavings); feed 24-28% protein starter |
+| Guinea fowl roosting in trees instead of returning to coop | Keets were not confined in coop for first 6-8 weeks to imprint on it as home; coop inaccessible or disturbed at dusk | Confine keets in the coop continuously for 6-8 weeks from hatching to establish roosting imprint; ensure coop has high roosts (1.5-2.0 m); never disturb returning birds at dusk |
+| Very low hatch rate (below 60%) from artificially incubated eggs | Incubation temperature incorrect; eggs not turned 3-5 times daily; humidity outside 55-60% range | Maintain 37.5°C and 55-60% humidity for first 24 days; turn eggs 3-5 times daily; increase humidity to 65% for final 2-3 days; use broody chicken hens as surrogate mothers if incubation unreliable |
+| Guinea hens hiding eggs in tall grass and abandoning nests | Natural secretive nesting behavior; hens have poor broody instinct and most abandon nests | Collect eggs daily from range to prevent hidden nests; do not rely on natural incubation — use artificial incubators or broody chicken hens; mark and store eggs at 15-20°C for up to 7 days before setting |
+| Frostbite of wattles below -15°C in mature birds | Insufficient shelter from wind; exposed roosting in freezing conditions | Provide draft-free shelter with deep straw bedding (15-20 cm); apply petroleum jelly to wattles during extreme cold snaps; house birds in insulated structure maintained above -5°C |
+| Free-range predation losses exceeding 15% annually | No guardian animal; dense local predator population (hawks, foxes, coyotes); no secure nighttime housing | Install secure predator-proof coop for nighttime; add guardian dog or donkey to range; confine birds during peak predator activity at dawn and dusk; identify predator species from kill records and target specific countermeasures |
+| Guinea fowl alarm calling continuously with no apparent threat | Breed disposition (Chinese geese are the noisiest); reflections in windows; unfamiliar objects or clothing | Accept that 80-90 dB alarm calling is normal breed behavior — not suitable for urban settings; reduce false alarms by minimizing changes to the flock's visual environment; avoid unfamiliar people entering range during breeding season |
+| Keets refusing to eat starter feed | Feed particle size too large; feed spread on incorrect surface; starter protein too low (below 24-28%) | Spread 24-28% protein crumbles on paper towels or shallow trays for first 3-5 days; do not use feeders keets cannot see into; sprinkle feed near water sources to encourage pecking; turkey starter can substitute |
+| Guinea fowl escaping through fence gaps | Young birds squeezing through openings larger than 5 cm; strong fliers clearing 90-120 cm fences | Use wire mesh with openings under 5 cm for young birds; clip flight feathers for containment; electrify top wire of perimeter fence; ensure gates are flush with no gaps at ground level |
+| Tick counts not decreasing after 4-6 weeks of guinea fowl deployment | Stocking rate too low (below 20-30 birds per hectare); guinea fowl confined rather than free-ranging | Increase stocking to 20-30 birds per hectare of managed range; allow unrestricted daytime foraging (100-300 m from roost); verify with drag sampling (1 m² white cloth dragged 50 m) comparing ranged vs. non-ranged areas |
+
 ## See Also
 
 - [Poultry Overview](poultry.md) — all poultry species comparison

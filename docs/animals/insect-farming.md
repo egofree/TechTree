@@ -189,7 +189,7 @@ BSF larvae outcompete most other insects (including houseflies) for food resourc
 - **Ants**: May raid bins for larvae. Place bin legs in water moats or apply diatomaceous earth barriers.
 - **Predatory birds**: Chickens will eagerly eat prepupae from collection buckets. Cover collection points.
 
-## Troubleshooting — BSF Colony Problems
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|

@@ -192,7 +192,7 @@ Walk fields weekly during the growing season. Count pest populations using stand
 - **Physical barriers**: fencing (woven wire, 1.2-1.5 m height, with a bottom apron buried 15-20 cm to prevent digging) excludes ground predators. Netting (bird net, 2-5 cm mesh) protects fruit from avian pests. Row covers (spun-bonded polypropylene or fine mesh) exclude flying insects from seedlings.
 - **Chemical control as last resort**: if monitoring shows pest populations exceeding economic thresholds and biological/physical methods are insufficient, targeted application of botanical insecticides (pyrethrin from Chrysanthemum cinerariifolium, neem oil from Azadirachta indica, rotenone from Derris species) provides short-term knockdown. These break down rapidly in sunlight (half-life of pyrethrin: 12 hours) and have low mammalian toxicity compared to synthetic organophosphates or carbamates.
 
-## Troubleshooting — Pest Management Problems
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|

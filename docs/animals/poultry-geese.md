@@ -250,6 +250,21 @@ Track egg weight (target 150-200 g for standard breeds, 140-160 g for Chinese ge
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Geese not laying (no eggs by late February) | Insufficient daylight (below 12-14 hours); breeding geese underweight from inadequate winter feed | Increase supplemental grain to 150-250 g/day in January-February pre-laying period; provide 16-18% protein layer pellet to support egg production; ensure ganders are not over-aggressive toward geese |
+| Goslings dying in first week despite brooding | Brooder temperature incorrect (below 30-32°C); goslings chilling on cold floors | Maintain 30-32°C for week one, reducing by 2-3°C per week; use deep straw bedding (10-15 cm) as insulation; verify temperature at gosling height, not thermometer height |
+| Angel wing in goslings (feathers curling outward) | Protein too high (above 18-20%) after 3-4 weeks; fast growth on concentrated feed | Reduce protein to 14-15% after week 4; transition to grower (15-16%) and rely on pasture foraging; restrict supplemental grain if goslings are growing faster than 4-5 kg by 10-12 weeks |
+| Ganders aggressively charging humans outside breeding season | Individual temperament; territoriality not limited to February-June breeding season | Cull individuals that attack without provocation outside breeding season; carry a stick or shield when entering the range during breeding season; never turn your back on an aggressive gander |
+| Poor down yield at processing (below 100-150 g raw) | Processing outside optimal molting period; geese too young or breed with naturally low down | Process mature geese (20-24 weeks) for maximum down; scald at 60-65°C for 60-90 seconds; for live-plucking, time to natural molting periods (2-3 per year) when down releases easily |
+| Geese destroying garden beds (trampling, root-damaging dabbling) | Geese released directly into established garden without barriers | Confine geese to designated areas with 90-120 cm fencing; use geese sequentially on fallow beds only; do not allow access to newly planted seedlings — use them on established crops or post-harvest cleanup |
+| Low egg fertility rate (below 50% when candled at day 7) | Gander-to-goose ratio incorrect (wider than 1:3-4); ganders too old or overweight | Maintain optimal breeding ratio of 1 gander per 2-3 geese; replace ganders producing less than 50% fertility; select vigorous, mobile males — overweight dewlap Toulouse ganders have reduced mating ability |
+| Predator taking adult geese at night | Inadequate nighttime housing; geese left on open pasture after dusk | Secure geese in predator-proof shelter from dusk to dawn; foxes, coyotes, and loose dogs kill adult geese; install electric fencing at 10-15 cm and 40-50 cm above ground around range perimeter |
+| Foot infections (bumblefoot) in heavy geese | Rough, abrasive surfaces in high-traffic areas; heavy body weight (5-14 kg) on hard ground | Provide clean, smooth pasture and flooring; avoid concrete or gravel in enclosures; spread sand in areas around water sources where geese congregate |
+| Rotting fence posts within 2-3 years of installation | Sapwood or untreated wood in direct ground contact; posts not set on stone caps | Use only heartwood of durable species (oak, chestnut, acacia) for ground contact; char post surfaces before burial to extend ground-contact life to 10-15 years; set posts on flat stones as capillary break rather than directly in soil |
+
 ## See Also
 
 - [Poultry Farming](poultry.md) — parent capability for all poultry species

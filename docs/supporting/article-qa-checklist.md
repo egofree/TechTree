@@ -107,29 +107,31 @@ These 13 items apply to every expanded capability file, regardless of format var
 **Pass**: Named hazards with specific details (substance, temperature, voltage, concentration, etc.).
 **Fail**: Only generic safety advice with no specifics tied to the actual process.
 
-### M8. Each Process Description subsection has Strengths (2+ items)
+### M8. If competing methods exist, each subsection has Strengths (2+ items)
 
-**Requirement**: Every subsection within Process Description (Section 4) that covers a distinct method, type, or variant includes a Strengths list with at least 2 bullet items.
+**Requirement**: When subsections within Process Description (Section 4) present genuinely competing alternatives (e.g., multiple thermostat types, multiple explosive formulations), each competing subsection includes a Strengths list with at least 2 bullet items. If no competing methods exist — subsections are sequential steps, building-block components, or complementary framework elements — Strengths should be omitted.
 
 **How to verify**:
 - Identify all subsections (### headings) under `## 4. Process Description`.
-- For each subsection, look for a "Strengths" or "Advantages" section.
-- Count the bullet items. Must be 2 or more.
-- If Process Description has no subsections (single method), the section as a whole must still list Strengths.
+- Determine whether subsections represent competing alternatives (reader must choose one) or complementary/sequential elements (reader uses all of them).
+- If competing: for each subsection, look for a "Strengths" or "Advantages" section. Count the bullet items. Must be 2 or more.
+- If not competing: Strengths should be absent. No deduction for omission.
+- If Process Description has no subsections (single method), Strengths is optional.
 
-**Pass**: Every subsection has Strengths with 2+ items.
-**Fail**: Any subsection missing Strengths, or Strengths with fewer than 2 items.
+**Pass**: Competing subsections all have Strengths with 2+ items; non-competing subsections correctly omit Strengths.
+**Fail**: Competing subsection missing Strengths, or Strengths with fewer than 2 items.
 
-### M9. Each Process Description subsection has Weaknesses (2+ items)
+### M9. If competing methods exist, each subsection has Weaknesses (2+ items)
 
-**Requirement**: Every subsection within Process Description (Section 4) that covers a distinct method, type, or variant includes a Weaknesses list with at least 2 bullet items.
+**Requirement**: When subsections within Process Description (Section 4) present genuinely competing alternatives, each competing subsection includes a Weaknesses list with at least 2 bullet items. If no competing methods exist — subsections are sequential steps, building-block components, or complementary framework elements — Weaknesses should be omitted.
 
 **How to verify**:
 - Same procedure as M8, but looking for "Weaknesses" or "Limitations."
-- Must be 2 or more bullet items per subsection.
+- If competing: must be 2 or more bullet items per subsection.
+- If not competing: Weaknesses should be absent.
 
-**Pass**: Every subsection has Weaknesses with 2+ items.
-**Fail**: Any subsection missing Weaknesses, or Weaknesses with fewer than 2 items.
+**Pass**: Competing subsections all have Weaknesses with 2+ items; non-competing subsections correctly omit Weaknesses.
+**Fail**: Competing subsection missing Weaknesses, or Weaknesses with fewer than 2 items.
 
 ### M10. Sub-sections are self-contained
 
@@ -282,8 +284,8 @@ Date: [YYYY-MM-DD]
 - [ ] M5: Quantitative table with numbers and units
 - [ ] M6: 2+ cross-references to capability docs in body
 - [ ] M7: Safety section with specific hazards
-- [ ] M8: Each subsection has Strengths (2+)
-- [ ] M9: Each subsection has Weaknesses (2+)
+- [ ] M8: If competing methods exist, subsections have Strengths (2+)
+- [ ] M9: If competing methods exist, subsections have Weaknesses (2+)
 - [ ] M10: Sub-sections self-contained (no "same as above")
 - [ ] M11: No AI-slop patterns
 - [ ] M12: Footer navigation link present

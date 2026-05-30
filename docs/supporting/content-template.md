@@ -330,10 +330,19 @@ When Process Description (Section 4) contains multiple methods, types, or varian
 | **Calibration / Verification** | How to test that it works correctly | Numbered steps with reference instruments |
 | **Expected performance** | Quantitative output specs (accuracy, yield, throughput) | "Expected accuracy:" paragraph with ranges and units |
 | **Applications** | When to use this method and what it is good for | "Applications:" paragraph |
-| **Strengths** | Bullet list of advantages | "Strengths:" bullet list |
-| **Weaknesses** | Bullet list of limitations | "Weaknesses:" bullet list |
+| **Strengths** | Bullet list of advantages (conditional — see below) | "Strengths:" bullet list |
+| **Weaknesses** | Bullet list of limitations (conditional — see below) | "Weaknesses:" bullet list |
 
-**Strengths and Weaknesses are mandatory.** Every subsection must list them. This is the single biggest improvement the thermostat article makes over the original template. Without Strengths and Weaknesses, the reader cannot make informed trade-off decisions between methods. A subsection that only lists advantages is a sales pitch, not a workshop manual.
+**Strengths and Weaknesses are mandatory when subsections present genuinely competing alternatives; omit them for sequential steps, fundamental skills with no alternatives, and building-block components that are complementary rather than competing.**
+
+Strengths and Weaknesses help readers choose between genuinely competing methods — for example, 22 thermostat types or 7 explosive types where the reader must select one approach over others. Do NOT apply S/W to:
+
+- Individual logic gates or other building-block components that work together rather than compete
+- Sequential manufacturing steps in a pipeline (each step feeds the next; they don't compete)
+- Fundamental skills or root capabilities with no alternative approaches
+- Framework elements that are complementary, not competing
+
+When competing methods exist, a subsection that only lists advantages is a sales pitch, not a workshop manual. When no competition exists, S/W adds noise without helping the reader.
 
 ---
 

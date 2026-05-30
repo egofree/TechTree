@@ -32,49 +32,17 @@ From these three, all other operations derive. Key identities: A · 0 = 0, A · 
 
 The simplest CMOS gate uses two transistors: one PMOS (pull-up) and one NMOS (pull-down). Input high: NMOS conducts, output pulled to ground (0). Input low: PMOS conducts, output pulled to VDD (1). Static power consumption is near zero because one transistor is always off, preventing a direct path from VDD to ground. Switching power follows P = CV²f, where C is the load capacitance, V is supply voltage, and f is switching frequency.
 
-**Strengths**:
-- Near-zero static power: only one transistor conducts in either steady state
-- Full rail-to-rail output swing (0V to VDD), providing maximum noise margin
-
-**Weaknesses**:
-- Dynamic power scales with frequency and capacitance (P = CV²f), limiting maximum clock speed at high densities
-- Requires both NMOS and PMOS transistors, complicating the manufacturing process compared to single-type logic
-
 ## CMOS NAND Gate
 
 A 2-input NAND uses 4 transistors: two PMOS in parallel (pull-up network) and two NMOS in series (pull-down network). When both inputs are high, both NMOS conduct, pulling output low. Any other combination leaves at least one NMOS off and at least one PMOS on, pulling output high. NAND is the workhorse of digital design because its transistor count is minimal and its output drives well.
-
-**Strengths**:
-- Universal gate: any Boolean function can be built from NAND gates alone, reducing inventory to one gate type
-- Parallel PMOS pull-up provides strong drive current even with low supply voltage
-
-**Weaknesses**:
-- Series NMOS chain increases pull-down resistance — delays grow with the number of series transistors in multi-input variants
-- Transistor count per gate (4 for 2-input) doubles the area of a single-transistor pass-gate
 
 ## CMOS NOR Gate
 
 A 2-input NOR also uses 4 transistors: two PMOS in series and two NMOS in parallel. When any input is high, the corresponding NMOS conducts, pulling output low. Output is high only when all inputs are low.
 
-**Strengths**:
-- Simple implementation of the OR-NOT function with only 4 transistors
-- Parallel NMOS pull-down provides fast discharge of the output node
-
-**Weaknesses**:
-- Series PMOS pull-up network is slower than the NAND's parallel PMOS, making NOR gates asymmetric in rise/fall times
-- Not as widely used as NAND — fewer standard cell libraries optimize for NOR
-
 ## Transistor Sizing
 
 In CMOS, PMOS transistors have roughly 2-3× lower carrier mobility than NMOS transistors. To match rise and fall times, PMOS transistors are made 2-3× wider than NMOS transistors. A minimum-size inverter might use W/L = 1 for NMOS and W/L = 2-3 for PMOS. Matching rise/fall times is critical for noise margin and timing predictability.
-
-**Strengths**:
-- Matched rise/fall times eliminate timing asymmetry that causes clock skew and data errors
-- Proper sizing maximizes noise margin by equalizing the switching threshold near VDD/2
-
-**Weaknesses**:
-- Larger PMOS transistors consume more die area — a significant cost factor in billion-transistor chips
-- Sizing must be re-optimized for each process node (mobility ratios change with technology scaling)
 
 ## Logic Families
 
@@ -160,86 +128,31 @@ Combinational logic has no memory. Sequential logic adds state through feedback.
 
 Two cross-coupled NAND gates form the simplest memory element. Set (S=0) forces Q=1. Reset (R=0) forces Q=0. S=R=1 holds the previous state. The forbidden state S=R=0 drives both outputs high, and when both inputs return to 1 simultaneously, the final state is unpredictable (race condition). The SR latch is the building block for all sequential circuits.
 
-**Strengths**:
-- Only 2 gates (4 transistors in CMOS) — the smallest possible memory element
-- Asynchronous: no clock required, state changes immediately on input transitions
-
-**Weaknesses**:
-- Forbidden state (S=R=0 for NAND-based, S=R=1 for NOR-based) causes indeterminate output
-- No timing control — susceptible to glitches and races in combinatorial feedback paths
-
 ## Gated D Latch
 
 An SR latch with an enable (clock) input and a single data input. When the clock is high, Q follows D. When the clock goes low, Q holds the last value. Transparent during the high phase, which can cause instability in cascaded designs.
-
-**Strengths**:
-- Single data input eliminates the forbidden state problem of the SR latch
-- Simple to build — only 4 NAND gates plus an inverter (10 transistors)
-
-**Weaknesses**:
-- Transparent during the high clock phase — cascaded latches can propagate changes through multiple stages in one clock cycle
-- Level-sensitive design requires careful timing to avoid data corruption
 
 ## D Flip-Flop
 
 Two D latches in master-slave configuration, clocked on opposite phases. The master latch samples D when clock is high; the slave updates Q when clock goes low. Output changes only on the clock edge (negative-edge-triggered). The D flip-flop is the standard register element in modern design. Setup time (data must be stable before clock edge) and hold time (data must remain stable after clock edge) are critical timing parameters. Typical setup: 1-3 ns, hold: 0.5-1 ns in 180nm CMOS.
 
-**Strengths**:
-- Edge-triggered: output changes only at clock edges, eliminating transparency issues of latches
-- Standard element for all synchronous [logic design](logic-design.md) and [computer architecture](computer-architecture.md)
-
-**Weaknesses**:
-- Requires ~20 transistors (CMOS transmission-gate implementation), roughly 2× the area of a D latch
-- Setup and hold time violations cause metastability — the output hovers between 0 and 1 for an indeterminate period
-
 ## JK Flip-Flop
 
 A generalization of the SR that handles the previously forbidden state. J=K=1 toggles the output. Useful in counter designs. Largely replaced by D flip-flops in modern ASIC design because D flops use fewer transistors and scan-chain testing is simpler with D-type elements.
 
-**Strengths**:
-- No forbidden state — all input combinations produce defined behavior
-- Toggle mode (J=K=1) enables direct construction of binary counters without external XOR feedback
-
-**Weaknesses**:
-- Requires more transistors than a D flip-flop for equivalent functionality
-- Catching (ones-catching or zeros-catching) on asynchronous inputs can cause unintended state changes
 
 ## Register Files
 
 An array of D flip-flops (or latches) addressed by a read/write address. A 32×8 register file stores 32 words of 8 bits each. Read: decode address, enable tri-state output from selected register. Write: decode address, gate clock to selected register. Register files are the fastest storage in a processor, accessed every cycle.
-
-**Strengths**:
-- Single-cycle read/write access — faster than any cache or main memory
-- Addressable structure allows compact instruction set design (e.g., 3-operand instructions addressing any of 32 registers)
-
-**Weaknesses**:
-- Area scales linearly with register count × word width — a 32×32 register file requires 1024 flip-flops plus decode logic
-- Read and write to the same address in one cycle requires a bypass (forwarding) network to avoid stale data
 
 
 ## Half Adder
 
 Adds two single-bit numbers. Sum = A ⊕ B (XOR gate). Carry = A · B (AND gate). Two gates, no carry input from a previous stage.
 
-**Strengths**:
-- Only 2 gates (5 transistors in CMOS for XOR + AND) — minimal hardware
-- No carry input simplifies the truth table to a 2-input function
-
-**Weaknesses**:
-- Cannot accept a carry input from a previous stage, making it useless as a standalone multi-bit adder
-- No carry output suitable for chaining — full adders needed for any practical arithmetic
-
 ## Full Adder
 
 Adds two bits plus a carry input. Sum = A ⊕ B ⊕ Cin. Carry out = (A · B) + (Cin · (A ⊕ B)). Implemented with two half adders and one OR gate (9 transistors in CMOS). The full adder is the fundamental building block of all multi-bit adders.
-
-**Strengths**:
-- Accepts carry input, enabling arbitrary-width addition by chaining full adders
-- Carry-out signal propagates to the next stage, supporting ripple-carry and lookahead architectures
-
-**Weaknesses**:
-- Carry propagation through the XOR chain adds 2 gate delays per stage
-- 9 transistors per bit — multi-bit adders consume significant area (72 transistors for 8-bit)
 
 ## Ripple Carry Adder
 
@@ -330,37 +243,13 @@ The longest propagation path through combinational logic between two flip-flops 
 
 A fixed OR array with a programmable AND array. The user configures which inputs connect to each AND term by blowing fuses (one-time programmable). Each output has a fixed number of product terms (typically 4-8). Fast (5-10 ns) but inflexible. The 16R8 PAL (8 outputs, 8 registered) was widely used for state machines and address decoding.
 
-**Strengths**:
-- 5-10 ns propagation delay — fast enough for address decoding and glue logic in microprocessor systems
-- One-time programming is simple: no special development tools beyond a PAL programmer
-
-**Weaknesses**:
-- One-time programmable (fuse-based): design errors require discarding the device
-- Fixed number of product terms per output (typically 4-8) limits logic complexity per macrocell
-
 ## GAL (Generic Array Logic)
 
 Reprogrammable version of PAL using EEPROM cells instead of fuses. The 22V10 GAL (10 macrocells, 22 inputs) became the standard small programmable device. Each macrocell can be configured as combinational or registered output, with selectable polarity.
 
-**Strengths**:
-- Reprogrammable (EEPROM-based): design iterations do not consume devices
-- Configurable macrocell (combinational or registered, selectable polarity) supports both state machine and combinatorial logic in one device
-
-**Weaknesses**:
-- 10 macrocells limit design complexity — insufficient for anything beyond simple state machines and address decoding
-- EEPROM endurance of ~100 erase/write cycles limits the number of design iterations
-
 ## FPGA (Field-Programmable Gate Array)
 
 An array of configurable logic blocks (CLBs) connected by a programmable routing matrix. Each CLB contains a lookup table (LUT, typically 4-6 input), a flip-flop, and multiplexers. Configuration stored in SRAM (volatile, loaded at power-up). Modern FPGAs contain millions of LUTs, embedded SRAM blocks, DSP multiplier units, and even hardened processor cores. FPGAs bridge the gap between software flexibility and ASIC performance: configure the hardware for a specific task, reconfigure when requirements change. The bootstrapping path can use FPGAs to prototype processor designs before committing to mask-programmed ASICs.
-
-**Strengths**:
-- Reconfigurable in seconds: design changes require no fabrication — upload a new bitstream
-- Millions of logic elements enable prototyping entire processor architectures, including the [computer architecture](computer-architecture.md) pipeline
-
-**Weaknesses**:
-- SRAM-based configuration is volatile — bitstream must be reloaded from external flash on every power-up
-- 10-20× slower and 10-50× less dense than an equivalent ASIC, limiting performance and cost-effectiveness in volume production
 
 ## Construction Notes
 

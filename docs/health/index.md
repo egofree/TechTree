@@ -10,5 +10,6 @@ Capabilities in this domain:
 - [Surgery Basics](surgery-basics.md) — Wound management, basic surgical techniques, sterilization, suture methods, and anesthesia fundamentals.
 - [Diagnostics](diagnostics.md) — Physical examination, vital signs, basic laboratory testing, and fundamental imaging.
 - [Pharmaceutical Production](pharmaceutical-production.md) — Scaled drug manufacturing, tablet production, quality control, and sterile pharmaceutical preparation.
+- [Water Treatment](water-treatment.md) — Safe drinking water production through settling, sand filtration, boiling, chlorination, and UV treatment — the single most impactful public health intervention.
 
 [↑ Back to Tech Tree](../index.md)

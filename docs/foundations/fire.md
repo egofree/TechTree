@@ -43,16 +43,6 @@
 - **Reflector wall**: Stack logs or stones behind fire to reflect heat toward shelter. Wall should be ~1 m tall, positioned ~1 m from fire.
 - **Lean-to fire lay**: Place a large log as windbreak, lay kindling against it at an angle. Protects flame from wind while allowing airflow. Good starting configuration in windy conditions.
 
-**Strengths**:
-- Bow drill method produces fire with materials found in nature (wood, cordage, stone) — no manufactured components needed
-- Multiple methods available: bow drill, hand drill, fire plow, flint-and-steel — if one fails due to conditions, another may work
-- Char cloth production from cotton/linnen scraps provides a reliable spark-catcher that works even in moderately damp conditions
-
-**Weaknesses**:
-- Friction fire methods produce an ember at 300-400°C — still requires dry, finely prepared tinder to convert the ember to flame
-- Hand drill method requires sustained stamina and drier wood than bow drill — fails in humid or cold conditions
-- Fire banking preserves coals for only 8-12 hours; if the fire goes out during the night, friction fire must start again from scratch
-
 ## Fire Temperature Management
 
 Controlling fire temperature is the single most important skill that separates a cooking fire from a forge, and a forge from a furnace. Without thermometers, temperature is estimated by the color of glowing material (iron, ceramic, or thick furnace walls).
@@ -86,16 +76,6 @@ The fuel itself sets the ceiling. Softwoods (pine, spruce, fir) contain resins t
 
 **Fuel preparation matters**. Wood should be split, not left in rounds. A 10 cm oak log split into quarters has four times the surface area and dries faster. Seasoned wood (air-dried 6-12 months) has 15-25% moisture content and burns significantly hotter than green wood (40-60% moisture), which wastes much of its combustion energy boiling off water. Charcoal should be stored dry: charcoal absorbs moisture rapidly from humid air and wet charcoal both burns cooler and is heavier to transport.
 
-**Strengths**:
-- Visual color estimation allows ±50°C temperature control without any instruments — sufficient for pottery firing, copper smelting, and forge work
-- Bellows-driven forced draft raises charcoal fire from 600-800°C (natural draft) to 1200-1300°C — enabling bronze casting and iron working
-- Fuel selection (softwood → hardwood → charcoal → coal) provides a clear progression matching technology capability to temperature demand
-
-**Weaknesses**:
-- Color estimation requires practice and consistent ambient lighting — a fire that looks "orange" in daylight may look "yellow" in darkness
-- Single hide bag bellows produces intermittent airflow (air only on compression stroke) — temperature fluctuates unless two bags are operated alternately
-- Tuyere placement requires trial and error: air aimed too high misses the fuel bed, aimed too low cools the hearth bottom
-
 ## Charcoal Production (Foundation Level)
 
 Charcoal is the fuel that makes metallurgy possible. Wood fires cannot reliably exceed 1000°C. Charcoal fires can. Every civilization that worked metal started by making charcoal.
@@ -125,16 +105,6 @@ The resulting black cloth retains its woven structure but is fully carbonized. A
 Good char cloth is uniformly black, flexible (not crispy or brittle), and holds together when handled. Under-done char cloth is brown and doesn't catch sparks well. Over-done char cloth is gray-white ash. The color should be deep, flat black with no brown patches.
 
 **Full charcoal production detail**: See [Energy → Charcoal](../energy/charcoal.md) for industrial-scale methods, charcoal chemistry, yield optimization, and coke production.
-
-**Strengths**:
-- Charcoal burns at 1000-1300°C vs. wood's 600-800°C — the minimum fuel for copper smelting (1085°C melt) and iron working
-- Earth-covered pit method uses only hand-dug holes, hardwood, and earth — no constructed equipment required
-- Yield of 20-25% by weight from hardwood: a 1 m diameter pit produces 20-30 kg charcoal per burn cycle
-
-**Weaknesses**:
-- 75-80% of the wood mass is lost as smoke and volatile gases — charcoal production requires large quantities of hardwood
-- Burn cycle takes 24-48 hours of monitoring (smoke color) plus 12-24 hours cooling — labor-intensive for the output
-- Premature opening of the pit introduces oxygen and the entire batch can flash to ash — requires experienced judgment of when carbonization is complete
 
 ## Basic Forge Construction
 
@@ -166,16 +136,6 @@ A single bag produces intermittent airflow: air only during the compression stro
 
 A box bellows is a wooden box, typically 50-60 cm long, 30-40 cm wide, and 20-30 cm tall, with a leather or cloth diaphragm on top and a one-way valve (a leather flap over a hole) on the bottom or side. Pushing the diaphragm down forces air out through the nozzle. A spring or the natural elasticity of the leather pulls the diaphragm back up, drawing air in through the intake valve. The box bellows is more efficient than a hide bag because the stroke volume is fixed and consistent. Two box bellows operated by an assistant (one on each side of the forge) can sustain a charcoal fire at 1200-1300°C continuously. The wooden construction also lasts longer than a hide bag, which rots and cracks after a few seasons of heavy use.
 
-**Strengths**:
-- Pit forge requires only a hole in clay soil and a clay tuyere pipe — can be built in 1-2 hours with no special materials
-- Raised hearth forge with clay fire pot concentrates heat and allows the smith to work standing, reducing fatigue
-- Box bellows deliver 150-300 L/min of continuous airflow, sufficient to reach 1200-1300°C for iron working
-
-**Weaknesses**:
-- Clay tuyere pipes crack if dried too quickly (2-3 days in shade required) — a common failure point for first-time builders
-- Single hide bag bellows produces intermittent air — temperature drops between strokes unless two bags are operated alternately
-- Without a dedicated stone or clay lining, sandy soil collapses into the pit and loamy soil cracks and crumbles
-
 ## Fire-Starting in Adverse Conditions
 
 The ability to make fire in fair weather is a hobby skill. The ability to make fire in rain, cold, and exhaustion is a survival necessity.
@@ -188,16 +148,6 @@ Rain and high humidity defeat most tinder. The solution is to carry or find mate
 - **Birch bark**: The bark of paper birch (Betula papyrifera) and related species contains betulin, a waxy compound that makes the bark waterproof and flammable. Bark peels in thin papery sheets. It ignites from a spark even when the outer surface is wet. Scrape the inner surface to expose dry fibers before striking sparks onto it. Birch bark is one of the few natural tinders that reliably ignites from a single flint-and-steel spark without char cloth.
 - **Feather sticks**: When all external tinder is wet, the interior of standing dead wood is often dry. Split a dead branch (standing deadwood, not fallen) to expose the dry core. Using a knife, shave long thin curls from the split face without detaching them completely. The curls should be paper-thin and densely packed. A single feather stick from dry softwood (cedar, pine) catches a spark and burns for 1-2 minutes, enough to ignite larger kindling.
 - **Pitch sticks**: Split a stick and smear pine resin (collected from blisters on pine bark or from wounded trees) into the split. The resin-soaked wood ignites readily even in rain. Carry several pitch sticks wrapped in bark or leather as a fire-starting kit.
-
-**Strengths**:
-- Fatwood (60-80% resin by weight) ignites from a spark even when the outer surface is wet — the most reliable natural fire starter
-- Birch bark contains betulin (waxy, waterproof compound) that ignites from a single flint-and-steel spark without char cloth
-- Feather sticks from standing deadwood expose dry interior wood even after days of rain
-
-**Weaknesses**:
-- Fatwood is only available from dead pine stumps — not an option in regions without pine forests
-- Birch bark can only be harvested sustainably in limited quantities without killing the tree
-- In extreme cold below -30°C, wood becomes brittle and friction-fire dust is too cold to coalesce into an ember before heat dissipates
 
 **Fire carrying**:
 
@@ -234,16 +184,6 @@ When you find a suspected coal sample, test it before hauling large quantities. 
 **Coal storage and handling**:
 
 Store coal under cover to keep it dry. Wet coal doesn't burn as hot and produces more smoke. Bituminous coal stored in large piles (over 3-4 tonnes) can spontaneously combust from oxidation heat buildup within the pile. Keep piles under 1 m deep for small-scale storage, or ventilate larger piles with wooden pipes driven through the stack. Anthracite does not have this self-heating problem due to its low volatile content.
-
-**Strengths**:
-- Bituminous coal provides 25-35 MJ/kg — 2-3× the energy density of wood (15-18 MJ/kg) — enabling furnace temperatures of 1300-1500°C
-- Anthracite burns clean with minimal smoke, making it suitable for indoor heating and urban environments
-- Coal seams are identifiable by black bands in cliff faces, road cuts, and stream banks with distinctive iron staining above
-
-**Weaknesses**:
-- Sulfur-rich coal produces sulfur dioxide when burned — corrodes metals and irritates lungs, making it unsuitable for indoor use without chimney
-- Bituminous coal spontaneously combusts in piles over 3-4 tonnes — requires active pile management and ventilation
-- Lignite (brown coal, 30-50% moisture) produces low heat and hisses as water boils off — the lowest quality coal with limited industrial use
 
 ## Related Capabilities
 

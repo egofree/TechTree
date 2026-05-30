@@ -123,7 +123,7 @@ Amber is fossilized conifer resin, typically 30-90 million years old. It is foun
 
 ## Horn and Tortoiseshell
 
-**[Horn](../glossary/horn.md)** from cattle, sheep, and goats is composed of keratin — the same protein family as hair, nails, and feathers. Keratin is thermoplastic above ~150°C: the hydrogen bonds and disulfide cross-links between protein chains relax, allowing the material to be shaped.
+****Horn**** from cattle, sheep, and goats is composed of keratin — the same protein family as hair, nails, and feathers. Keratin is thermoplastic above ~150°C: the hydrogen bonds and disulfide cross-links between protein chains relax, allowing the material to be shaped.
 
 - **Processing**: Soak horn in warm water (60-80°C) for several hours to soften. Split longitudinally using a sharp knife — horn naturally separates into layers. Press split sheets between heated platens at 150-170°C to flatten and shape. Trim and polish. Multiple sheets can be welded together by applying heat and pressure at the overlap.
 - **Applications**: Lantern windows (transparent horn sheets, used before flat glass was widely available), drinking vessels, powder flasks, combs, buttons, shoe horns. Replaced by celluloid and later plastics in the late 19th century.

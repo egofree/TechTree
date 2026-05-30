@@ -196,14 +196,6 @@ Anodizing serves several specific functions in semiconductor equipment fabricati
 - The zinc content (5.1-6.1%) produces a slightly darker, less transparent oxide than 6000-series alloys. Type III hardness: 350-500 HV (lower than 6061 due to zinc interference with oxide growth).
 - Pre-treatment must remove all zinc from the surface before anodizing — residual zinc causes "spangling" (iridescent patches) in the oxide. Double deoxidize in nitric acid if necessary.
 
-## Common Defects and Troubleshooting
-
-- **Burning**: Dark, rough, powdery areas caused by excessive local current density. Occurs at sharp edges, corners, and contact points. Prevention: use shielding (plastic shields to redirect current), reduce overall current density, ensure good fixturing contact.
-- **Pitting**: Small holes in the oxide. Caused by chloride contamination in the bath (>50 ppm Cl⁻ from tap water or drag-in). Prevention: use deionized water for bath makeup, monitor chloride with ion-selective electrode.
-- **Soft coating**: Oxide hardness below specification. Caused by bath temperature too high, acid concentration too low, or insufficient current density. Remedy: verify temperature control, check acid concentration by titration, confirm current density with ammeter.
-- **Powdering / chalking**: White, powdery surface after sealing. Caused by sealing at too-high pH (>7.0) or insufficient rinsing between anodize and seal. Remedy: adjust seal bath pH to 5.5-6.0, add intermediate rinse step.
-- **Galvanic burning**: Localized burning at contact points between dissimilar metals. Prevention: ensure only aluminum-to-aluminum or aluminum-to-titanium contacts in the anodizing bath.
-
 ## Safety
 
 **Sulfuric acid burn hazard**: Type II and Type III anodizing baths contain 150-250 g/L H₂SO₄ (approximately 15-25% by weight). Skin contact causes immediate chemical burns; eye contact causes permanent corneal damage. Wear chemical splash goggles (not safety glasses — goggles seal against the face), face shield, acid-resistant apron (PVC or neoprene), and nitrile gloves (double-gloved for Type III where acid concentration and current density are higher). Emergency eyewash and safety shower within 10 seconds travel time from all anodizing stations.
@@ -225,6 +217,9 @@ Anodizing serves several specific functions in semiconductor equipment fabricati
 | Blistering or flaking | Aluminum alloy not suitable (high Cu or Si content) | Use 5000 or 6000 series alloys; avoid 2000 series (high Cu) for architectural anodizing |
 | Gray or dull finish | Impurities in bath (dissolved aluminum >15 g/L, chlorides) | Decant and replace bath; install filtration; check chloride contamination |
 | Low oxide thickness | Voltage too low or cycle time insufficient | Increase voltage (oxide grows at 1.2-1.4 nm/V); extend anodizing time |
+| Pitting (small holes in oxide) | Chloride contamination in bath (>50 ppm Cl⁻ from tap water or drag-in) | Use deionized water for bath makeup; monitor chloride level with ion-selective electrode; replace contaminated bath |
+| White powdery/chalking surface after sealing | Seal bath pH too high (>7.0) or insufficient rinsing between anodize and seal steps | Adjust seal bath pH to 5.5-6.0; add intermediate rinse step between anodize and seal |
+| Galvanic burning at contact points | Dissimilar metals in contact within the anodizing bath causing localized current concentration | Ensure only aluminum-to-aluminum or aluminum-to-titanium contacts in the anodizing bath; avoid mixed-metal fixturing |
 
 ## See Also
 

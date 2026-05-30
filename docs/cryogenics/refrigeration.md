@@ -295,6 +295,21 @@ This contraction has major design implications: long runs of cryogenic piping mu
 
 **Oxygen enrichment**: LOX (-183°C) boils at a lower temperature than LIN (-196°C). In an open dewar of liquid air, nitrogen boils off preferentially, concentrating oxygen in the remaining liquid. A partially evaporated dewar of liquid air can contain >50% liquid oxygen — a severe fire hazard if it contacts organic materials.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Vapor-compression COP drops below 2.0 (expected 2.0-3.5) | Condenser approach temperature too high (10-20°C above ambient instead of design) or compressor isentropic efficiency below 60% | Clean condenser heat transfer surfaces; verify cooling water flow or air-cooled condenser airflow; check compressor valve plate and piston rings for wear; measure superheat and subcooling to verify proper refrigerant charge |
+| Ammonia compressor discharge temperature exceeds 80°C | Condenser fouled or non-condensables (air) trapped in condenser reducing effective heat transfer | Purge non-condensables from condenser; verify condenser water supply at design temperature; check that condensing pressure corresponds to 40-50°C (air-cooled) or 30-35°C (water-cooled) saturation |
+| Linde cycle fails to liquefy gas after 24+ hours of operation | J-T valve partially plugged or countercurrent heat exchanger has temperature crossover | Inspect J-T valve for frozen contaminant blockage (H₂O freezes at -100°C, CO₂ at -78°C); verify pre-purification is removing moisture and CO₂; check heat exchanger for channeling or bypass flow |
+| Claude expansion turbine producing less cooling than design | Turbine isentropic efficiency dropped below 82% — nozzle erosion or blade fouling | Inspect turbine wheel (80-200 mm) for blade erosion; check radial inflow nozzles for contamination; verify bearing clearances (10-30 μm for gas bearings); rebalance if vibration detected |
+| Stirling cryocooler cold-end temperature oscillates ±5 K | Regenerator matrix degraded — fine wire mesh packed or contaminated, reducing heat storage capacity | Replace regenerator matrix; verify displacer piston seal integrity; check that regenerator is not short-circuiting gas flow; typical stability should be <±1 K |
+| Cascade system low-temperature stage unable to reach -60°C | Cascade condenser (thermal bridge) heat transfer degraded — HT stage evaporator insufficiently cooling LT condenser | Check cascade condenser for refrigerant undercharge or oil fouling; verify HT stage is maintaining -15°C evaporating temperature; inspect for refrigerant cross-contamination between stages |
+| Absorption refrigeration COP below 0.5 (expected 0.5-0.7) | Generator temperature insufficient (below 100-150°C) or absorber cooling inadequate | Verify heat source reaches 100-150°C at generator; check absorber cooling water flow (absorption reaction is exothermic — heat must be removed); inspect solution pump for degraded flow rate |
+| Carbon steel piping cracks at cryogenic temperature | Mild steel used below -20°C ductile-to-brittle transition — catastrophic brittle fracture | Replace all cryogenic-service piping with austenitic stainless steel (304L, 316L) rated to -270°C; inspect existing carbon steel for cracks; never use mild steel below -20°C |
+| Hydrogen liquefier cannot reach -253°C (20 K) | Hydrogen not pre-cooled below its J-T inversion temperature of -68°C (205 K) | Verify LN₂ pre-cooling stage is operational and cooling hydrogen below -68°C before J-T expansion; check LN₂ supply pressure and flow; hydrogen above inversion temperature heats on J-T expansion |
+| Cryogenic storage dewar boil-off exceeds 0.5%/day | MLI compression in vacuum space or vacuum jacket leaked — insulation degraded to >10⁻³ mbar | Check vacuum jacket pressure (should be <10⁻³ mbar); if pressure high, locate leak with helium mass spectrometer and repair; re-pump vacuum jacket; inspect MLI layers for compression or tears |
+
 ## See Also
 
 - **[Cryogenic Air Separation](air-separation.md)**: Application of Claude cycle to produce N₂, O₂, Ar

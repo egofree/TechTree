@@ -294,6 +294,21 @@ Both files are needed for a complete understanding of air separation technology.
 
 **Cold burn from cryogenic surfaces**: Uninsulated cryogenic piping at -180°C to -196°C causes immediate tissue destruction on contact. Insulate all cold surfaces accessible to personnel. Wear insulated cryogenic gloves (not leather work gloves), face shield, and closed-toe shoes when working near cold box equipment.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| O₂ product purity drops below 99.5% | Upper column reflux ratio too low — insufficient liquid nitrogen reflux to upper column | Increase liquid nitrogen flow to upper column reflux; check expansion turbine bypass valve fraction (target 15-25% of main air to turbine); verify J-T valve feeding rich liquid is not passing excessive vapor |
+| Main heat exchanger cold-end approach widens beyond 3°C | Maldistribution of flow across BAHX passages or partial blockage from frozen CO₂/H₂O | Check molecular sieve adsorber switchover is occurring every 4-8 hours; verify regeneration gas temperature reaches 200-300°C; inspect BAHX for unequal frost pattern indicating flow maldistribution |
+| Expansion turbine vibration alarm triggers | Rotor imbalance from foreign object damage or bearing wear at 20,000-80,000 RPM | Shut down turbine immediately; inspect turbine wheel (80-200 mm diameter) for blade damage; check bearing clearances (10-30 μm for gas bearings); rebalance rotor to <0.5 g·mm unbalance |
+| Upper column pressure drifts >±0.01 bar from setpoint | Waste nitrogen vent valve not responding or condenser-reboiler heat transfer degraded | Check waste nitrogen vent valve PID loop; verify condenser-reboiler liquid level — level too low reduces heat transfer area (1000-2000 m²); check for boiling point shift from composition change |
+| Cold box perlite settled — top 20-40 cm uninsulated | Perlite compaction over 10+ years (10-20% settling) — heat leak increasing toward 200 kW budget | Schedule shutdown; warm cold box to ambient (12-48 hours); top up perlite to original fill level; verify nitrogen purge pressure maintained at 1.01-1.05 atm to prevent moisture ingress |
+| Start-up takes >48 hours to reach product purity | Countercurrent heat exchanger cooling rate limited — thermal mass of 500+ tonnes | Verify expansion turbine is receiving correct extraction flow (15-25% from MHX intermediate point); check all insulation for settling gaps; do not rush — rapid cooling causes thermal stress cracking in aluminum BAHX |
+| Liquid nitrogen production rate below design (100-500 t/d) | Liquefier Claude-cycle turbine degraded or J-T valve passing | Check liquefier turbine isentropic efficiency (target 82-88%); verify nitrogen feed to liquefier is at 20-40 bar; inspect J-T valve for erosion; check that liquid dewar boil-off is within 0.1-0.5%/day spec |
+| Nitrogen product purity drops below 99.999% (5N) | Air leak into cold box or structured packing distributor maldistribution in upper column | Perform helium leak detection on cold box access panels and instrument penetrations; verify structured packing liquid distributor achieves ±5% uniformity across column cross-section; check column pressure for anomalies |
+| Condenser-reboiler temperature difference widens beyond 5-7°C | Fouling on brazed aluminum surfaces reducing heat transfer | Check for frozen CO₂ or water ice on reboiler surfaces; verify pre-purification molecular sieve is removing H₂O and CO₂ to spec; if fouling confirmed, schedule warm-up and internal inspection |
+| Molecular sieve adsorber not regenerating fully | Regeneration gas temperature below 200-300°C or flow insufficient through off-line vessel | Check regeneration heater output; verify switching valve sequence (4-8 hour adsorption cycle); confirm regeneration gas is dry nitrogen waste stream at adequate flow rate |
+
 ## See Also
 
 - **[Refrigeration Fundamentals](refrigeration.md)**: Thermodynamic principles underlying all cryogenic processes

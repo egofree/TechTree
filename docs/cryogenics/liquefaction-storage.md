@@ -1,7 +1,7 @@
 # Gas Liquefaction & Storage
 
 > **Node ID**: cryogenics.liquefaction-storage
-> **Domain**: Cryogenics
+> **Domain**: [Cryogenics](./index.md)
 > **Dependencies**: [`cryogenics.refrigeration`](refrigeration.md)
 > **Enables**: [`silicon.crystal-growth`](../silicon/crystal-growth.md)
 > **Timeline**: Years 20-40
@@ -287,6 +287,21 @@ Beyond the common industrial gases (N₂, O₂, Ar), cryogenic technology extend
 **Weaknesses:**
 - LH₂ has an extremely wide flammable range (4-75% in air) with invisible flames — leaks are undetectable by human senses and ignition sources are ubiquitous
 - LHe costs $5-30/liter due to specific energy of 30-100 kWh/kg — boiloff recovery and reliquefaction is economically mandatory, adding system complexity
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Dewar pressure rising above normal | Vacuum loss in insulation space (leak into annular space increases heat leak 100-1000×) | Check vacuum gauge on insulation space; if above 10⁻² mbar, re-evacuate through valve fitting; if vacuum cannot be recovered, vessel may have a structural leak requiring manufacturer repair |
+| Evaporation losses exceeding specification | Compromised MLI (wrinkles or gaps creating thermal short circuits), perlite settling creating uninsulated gaps at top | For MLI dewars: no field fix — return to manufacturer for re-wrapping. For perlite-insulated tanks: top up perlite through fill ports at top of cold box during maintenance outage |
+| Excessive fill losses (>15% of transfer volume) | Inadequate pre-cooling of receiving vessel; warm vessel flash-evaporates incoming liquid | Pre-cool receiving vessel with cold gas from supply dewar vent before starting liquid transfer; cool-down of 200 L dewar requires 30-60 L LIN (15-30% of capacity) — this is normal |
+| Relief valve weeping or cycling | Seat erosion from repeated actuation, ice formation on valve seat, or valve set too close to operating pressure | Inspect and replace relief valve seat; verify valve heater circuit (if equipped) is functional; check that MAWP is at least 2× normal operating pressure to prevent frequent cycling |
+| Cryogenic pump cavitation | Low liquid level in supply dewar, inadequate NPSH, or excessive suction line heat leak | Increase liquid level in supply dewar; check suction line insulation; verify subcooling of liquid at pump inlet (liquid must be below saturation temperature at pump suction pressure) |
+| Transfer line frost buildup | Vacuum loss in transfer line annular space, or damaged MLI wrap | Check bayonet connector seals; if frost persists, transfer line vacuum is compromised — replace or re-evacuate line; never use a frosted transfer line (indicates failed insulation) |
+| O₂ monitor alarm (low) in storage area | Cryogenic liquid spill or rapid boiloff displacing oxygen | Evacuate area immediately; ventilate by opening doors; do not re-enter until O₂ reads 19.5-23.5%; check for dewar leak or relief valve discharge directed indoors |
+| O₂ monitor alarm (high) in LOX storage area | LOX spill or leak enriching local oxygen concentration (fire hazard) | Exclude all ignition sources from 10 m radius; absorb LOX with inert absorbent (vermiculite); check for leak at valve packing or flange; LOX-soaked asphalt can ignite from a spark |
+| Liquefier production rate dropping | Warm heat exchanger (ice or frost on external surfaces), turbine expander bearing wear, or J-T valve erosion | Defrost heat exchanger (warm gas cycle); check turbine speed and bearing temperature; inspect J-T valve seat for erosion from gas particulates; check compressor interstage pressures |
+| Vacuum gauge reading drifting upward over weeks | Outgassing from internal surfaces, getter material saturated, or micro-leak at weld or fitting | Replace or regenerate getter material (bake activated charcoal at 200-300°C under vacuum); if drift continues, perform helium leak test on all welds and fittings to locate micro-leak |
 
 ## Limitations
 

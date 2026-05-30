@@ -251,6 +251,21 @@ Choosing between HEPA and ULPA depends on the target ISO class and the sensitivi
 
 **Gel sealant chemical exposure**: Non-drying silicone gel used for ULPA filter seals can cause skin irritation with prolonged contact. Wear nitrile gloves when handling gel seal material. Polyurethane potting compound used to bond media to frame is a skin sensitizer — avoid repeated exposure.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| DOP/PAO scan shows local penetration >0.01% at filter edge | Gasket not compressed sufficiently or gel seal has void | Re-seat filter in grid with 20-30% gasket compression; for gel seals, verify continuous gel bead with no air gaps; re-scan after reseating |
+| FFU face velocity drops below 0.3 m/s at rated fan speed | Filter loaded — pressure drop approaching 2× initial value (~500 Pa for HEPA) | Check differential pressure gauge; replace filter when ΔP reaches 2× initial (~500 Pa HEPA, ~1000 Pa ULPA); verify pre-filter change schedule (MERV 11 every 3-6 months) |
+| Particle counts rising downstream of ULPA ceiling in ISO 3-4 zone | Single pinhole bypass leak — at 99.999% efficiency, 0.01% bypass introduces as many particles as entire filter face | Perform DOP/PAO scan with acceptance criterion tightened to 0.005%; repair with ≤3 dabs gel sealant (≤25 mm each) or replace filter; verify gel seal system integrity |
+| FFU noise level exceeds 55 dBA at 1 m | Fan impeller imbalance or bearing wear at high RPM | Inspect fan impeller for contamination buildup; replace bearings if vibration is detectable; consider lowering face velocity to 0.3 m/s during non-critical operations (reduces noise and saves energy) |
+| Pre-filter clogging prematurely (MERV 11 needs change <3 months) | High ambient particulate load — construction activity or poor intake location | Inspect outside air intake location (away from loading docks, exhaust stacks); upgrade Stage 1 pre-filter from MERV 8 to MERV 8-10 washable; check intake damper is not drawing from contaminated source |
+| Clean filter fails DOP/PAO integrity test after installation | Media torn during shipping or installation — carried by frame, not media | Inspect filter for dented frame, torn media, displaced gasket before installation; never carry by media surface; replace damaged filters; re-test after installation |
+| Laminar flow dead zone detected by particle accumulation at a workstation | Obstruction (equipment, cart, personnel) creating 5-10 diameter downstream wake | Relocate obstruction or reposition workstation upstream closer to filter ceiling; maintain ≥1-2 m clearance from standing personnel at 0.45 m/s face velocity |
+| Annual energy cost for 100 m² ISO 5 cleanroom exceeds $100,000 | Face velocity set at 0.45 m/s during all hours including unoccupied periods | Implement variable-speed FFU ramp-down to 0.3 m/s during non-critical operations (saves ~50% fan energy); stage zones — ISO 5 only where critical, ISO 7-8 elsewhere |
+| ULPA filter life <3 years in ISO 3-4 environment | Upstream pre-filtration inadequate — fine particles reaching final filter | Verify Stage 2 MERV 11 pre-filter is changed every 3-6 months; check make-up air HEPA final filter is intact; confirm 100% ceiling coverage with no blank panel gaps |
+| Filter storage degradation — media brittle or gasket compressed | Filters stored >5 years or stacked (compressing gaskets) in high humidity (>80% RH) | Discard filters stored beyond 5-year shelf life; store upright in original packaging at 10-35°C, <80% RH; never stack — weight compresses gaskets permanently |
+
 ## See Also
 
 - [Contamination Control](contamination-control.md) — gowning, monitoring, ESD, ISO classification

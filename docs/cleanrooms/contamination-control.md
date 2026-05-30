@@ -294,6 +294,21 @@ The rigor of contamination control protocols scales with the target ISO class. R
 
 **Photoionization detector hazards**: PID lamps used for chemical spill monitoring emit UV radiation at 10.6 eV. Never look directly at the lamp window when activated. The PID lamp contains proprietary gases under pressure — handle carefully to avoid breakage.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Particle counts exceed ISO 5 limit (>3,520/m³ at ≥0.5 μm) during shift | Garment breach — torn bunny suit, exposed skin at wrist or neck | Inspect garment integrity; replace torn suit immediately; verify double-glove coverage over bunny suit cuffs; retest with body box counter |
+| Sudden particle spike on monitoring station near lithography stepper | HEPA filter bypass leak at ceiling grid gasket | Perform DOP/PAO scan on suspect filter module; repair pinholes with ≤3 dabs gel sealant (≤25 mm each); replace filter if gasket seal is broken |
+| Particle counts remain elevated 10+ minutes after contamination event | Insufficient air changes — ACH below 60 for ISO 5 zone | Verify FFU fan speed is set to deliver 0.3-0.5 m/s face velocity; check for obstructed perforated floor tiles reducing return airflow; increase ACH to ≥60 |
+| ESD audit fails — charged plate monitor reads >±50 V offset | Ionizer needles contaminated or degraded | Clean ionizer needles with IPA-dampened lint-free swab; verify ion balance with charged plate monitor; replace needles if cleaning does not restore ±50 V balance |
+| Wrist strap daily test fails continuity check | Broken 1 MΩ current-limiting resistor or strap band worn out | Replace wrist strap assembly; verify continuity from skin contact point through 1 MΩ resistor to ground pin; retest before re-entry to cleanroom |
+| Surface particle witness plate shows >2× normal deposition rate | Process tool outgassing or metal evaporation residue on chamber walls | Schedule chamber wet clean or plasma clean; verify exhaust capture at coater cup; check that CMP tool enclosure has dedicated exhaust operating at design flow |
+| Gowning body box test exceeds particle shedding specification | Incorrect gowning sequence — gloves donned after bunny suit | Retrain operator on 7-step protocol: hair cover → shoe covers → mask → inner gloves → bunny suit → outer gloves → boot covers; retest after retraining |
+| RH drifts below 30% — static events increase | Humidifier malfunction or make-up air dehumidification overcorrection | Check clean steam humidifier injection rate; verify RH sensor calibration (target 43±3%); confirm clean steam source is deionized water, not potable boiler steam |
+| IPA wipe-down leaves visible residue on surfaces | Wrong wipe material — using non-cleanroom wipes that shed fibers | Switch to cleanroom-rated polyester knit wipes (sealed edges); use IPA-dampened wipes (not saturated); verify IPA purity is semiconductor grade |
+| Gradual upward trend in baseline particle counts over weeks | HEPA filter loading — pressure drop approaching 2× initial value | Check differential pressure gauge on suspect FFU; if ΔP ≥500 Pa (≈2× clean value ~250 Pa), schedule filter replacement; review pre-filter change schedule (MERV 11 every 3-6 months) |
+
 ## See Also
 
 - [HEPA/ULPA Filtration](hepa-ulpa-filtration.md) — filter technology that enables contamination control

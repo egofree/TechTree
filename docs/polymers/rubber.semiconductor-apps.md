@@ -66,7 +66,7 @@ Comparison of elastomer resistance to chemicals encountered in semiconductor fab
 3. **Ultra-pure water (UPW) service** (18 MΩ·cm deionized water at 20–80°C):
    - EPDM is the standard for UPW distribution systems — it does not leach extractables at detectable levels when properly formulated. Use peroxide-cured, metal oxide-free EPDM to minimize ion extraction.
    - Silicone is also acceptable for UPW but has higher extractable levels than EPDM.
-   - O-ring hardness: Shore A 70. Extractable specification: <50 ppb total organic carbon (TOC) after 72-hour浸泡 test per SEMI F57.
+   - O-ring hardness: Shore A 70. Extractable specification: <50 ppb total organic carbon (TOC) after 72-hour immersion test per SEMI F57.
 
 **Vacuum service** (load locks, transfer chambers, deposition systems):
 

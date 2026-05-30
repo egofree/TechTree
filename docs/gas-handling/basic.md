@@ -37,7 +37,7 @@
 
 | Material | Service | Temperature Range | Notes |
 |----------|---------|-------------------|-------|
-| **[Copper](../glossary/copper.md)** | High-temperature steam, oxygen | up to 600°C | Soft metal, seals by plastic deformation. Used in high-pressure and high-temp flanges. |
+| ****Copper**** | High-temperature steam, oxygen | up to 600°C | Soft metal, seals by plastic deformation. Used in high-pressure and high-temp flanges. |
 | **[Viton (FKM)](../glossary/viton-fkm.md)** | Aggressive chemicals, fuel gases | -20°C to 200°C | Fluorocarbon elastomer. Resists most organics, acids, chlorine. Swells in ketones. |
 | **[PTFE (Teflon)](../glossary/ptfe-teflon.md)** | High-purity gas, corrosive service | -200°C to 260°C | Chemically inert, non-outgassing. Poor creep resistance — use filled PTFE (glass or carbon) for bolted flanges. |
 | **[Compressed fiber](../glossary/compressed-fiber.md)** | Steam, water, inert gases | up to 400°C | Traditional gasket material (asbestos historically, now aramid or glass fiber). Good for utility services. |
@@ -251,6 +251,21 @@ The physical arrangement of gas storage affects both safety and operational effi
 - **Material compatibility constraints**: No single material handles all gases. Copper acetylene welding requires that acetylene never contact copper (>65% Cu alloys) — it forms explosive copper acetylide. Oxygen service requires degreased, oil-free components — any hydrocarbon residue in an O₂ system is an explosion hazard. Fluorine attacks most metals. Each gas system demands its own materials analysis.
 - **Pressure rating limits**: Gas cylinder pressures (150-300 bar) require heavy-walled steel or composite-wound vessels. Distribution piping at lower pressures (1-15 bar) uses copper, stainless steel, or PTFE. Every component in the chain must be rated for the maximum possible pressure, including relief valve set points. A single under-rated component can fail catastrophically.
 - **Gas cylinder logistics**: High-pressure gas cylinders are heavy (30-80 kg each), require secure upright storage, periodic hydrostatic retesting (every 5-10 years), and careful handling. Large-volume gas users install bulk tanks (liquid O₂, N₂, Ar) to avoid cylinder logistics, but bulk tanks require concrete pads, vaporizers, and DOT permitting.
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Single-stage regulator delivery pressure creeps from 3 bar to 5 bar as cylinder empties | Decaying inlet characteristic — cylinder pressure dropping from 200 to 30 bar reduces the closing force on the regulator diaphragm | Replace with a two-stage regulator (first stage fixes intermediate pressure at 15–30 bar, isolating delivery from cylinder pressure) or manually readjust more frequently |
+| NPT threaded joint leaks at 15 bar despite PTFE tape | PTFE tape applied counterclockwise or insufficient wraps (2–3 required); NPT seals not truly gas-tight above 10 bar for brass without sealant | Re-wrap male threads clockwise with 2–3 turns of PTFE tape; for brass above 10 bar, switch to pipe dope (linseed oil-based paste) or convert to flanged connection |
+| Activated carbon scrubber exhaust smells of solvent vapors | Carbon bed saturated — breakthrough occurs suddenly when adsorption capacity (~1,000 m²/g surface area) is exhausted | Replace or regenerate carbon bed by steam desorption at 120–150°C; install upstream sensor to detect breakthrough before it reaches exhaust |
+| Gas cabinet face velocity drops below 100 fpm (0.5 m/s) threshold | Exhaust duct partially blocked, blower belt slipped, or cabinet access opening enlarged beyond design | Inspect and clear exhaust duct; check blower belt tension; verify cabinet opening dimensions match original design; flow sensor alarm should have triggered automatic cylinder shutoff |
+| Compression fitting (Swagelok-type) leaks after reassembly | Ferrules from a different manufacturer mixed in, or nut not tightened to 1-1/4 turns past finger-tight on re-make | Use only ferrules from the same manufacturer; for reassembly, tighten nut 1/4 turn past the previous position (not the full 1-1/4 turns which is for new fittings only) |
+| Reciprocating piston compressor discharge temperature exceeds 180°C | Intercooler fouled or water supply interrupted on multi-stage unit; single-stage being pushed beyond 5:1 pressure ratio | Clean intercooler tubes; verify cooling water flow; for >5 bar discharge, switch to multi-stage with intercoolers between stages to keep discharge below 150°C |
+| Cylinder valve packing leak cannot be stopped by tightening packing nut | Packing gland worn or valve stem scored from repeated overtightening | Tighten packing nut with wrench (1/4 to 1/2 turn); if leak persists, move cylinder to ventilated outdoor area and allow to empty slowly; for toxic gas, evacuate and call hazmat — do not attempt on-site repair |
+| Oxygen regulator ignites upon opening cylinder valve | Oil or grease contamination on regulator inlet — spontaneous ignition of hydrocarbons in compressed O₂ at 200 bar | Close cylinder valve from a safe distance; never use oil/grease on O₂ fittings; clean all O₂-contact surfaces with hot alkaline detergent, rinse with deionized water, blow dry with oil-free N₂; inspect with UV light for hydrocarbon fluorescence |
+| Mass flow controller reads 20–50% error on unknown gas | MFC calibrated for one gas (e.g., N₂) but measuring a different gas (e.g., He) without applying correction factor | Apply gas correction factor based on ratio of specific heats and thermal conductivities; recalibrate MFC for the actual process gas using a gravimetric primary standard |
+| Inert gas purge leaves O₂ above 1% after 3 volume changes | Dead zones or internal baffles causing poor mixing; purge inlet and outlet on same end of vessel | Reorient purge inlet and outlet to opposite ends of the vessel; install a diffuser on the inlet for turbulent mixing; continue purging to 7–10 volume changes for O₂ below 0.1% |
 
 ## See Also
 

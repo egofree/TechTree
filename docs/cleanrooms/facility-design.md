@@ -281,6 +281,21 @@ Typical make-up air: 15-30% of total cleanroom airflow. For a 100 m² ISO 5 clea
 
 **Hot surface burns**: Heating coils in reheating sections of AHUs operate at 60-80°C. Insulate all accessible hot surfaces. Post warning signs on AHU access panels.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Cleanroom pressure differential drops below +15 Pa minimum | Air handling unit supply shortfall or unsealed penetration leaking excess air | Check make-up air volume (15-30% of total); inspect wall penetrations for failed elastomeric boots; verify all conduit seals with fire-rated putty; recalibrate pressure transmitter |
+| Temperature drifts beyond 22±0.5°C tolerance during shift | Process equipment heat load exceeds chiller capacity (50-200 W/m² design) | Verify N+1 chiller redundancy is active; check chilled water supply temperature (~7°C); confirm process cooling water loop conductivity is normal (detect heat exchanger leaks) |
+| Humidity spikes above 50% RH during humid weather | Dehumidification coil undersized or reheat coil not compensating | Verify cooling coil achieves dew point below target; check reheat coil (electric or hot water) is modulating to bring air back to 22°C setpoint; confirm clean steam humidifier is not over-injecting |
+| Uneven air velocity across ceiling — ±20% tolerance exceeded | Ceiling grid level tolerance exceeded (±1.5 mm spec) or FFU speeds unbalanced | Re-level ceiling grid with laser level; adjust individual FFU fan speeds to uniform face velocity (0.3-0.5 m/s); verify plenum pressure above filters is uniform |
+| Raised floor panels rocking or uneven under foot | Pedestal height drifted or stringers missing on tall installations (>300 mm) | Check pedestal threaded-stem locknuts are tight; install stringers for lateral stability if height >300 mm; verify floor level with laser (±1.5 mm tolerance); replace corroded pedestals |
+| Light level drops below 800 lux at wafer inspection station | UV-filtering lens yellowed or fixture aging | Replace UV-blocking sleeves or lens material; verify CRI >80 for color rendering; check for fixture degradation (ballast failure, LED aging); confirm no new overhead obstructions blocking light |
+| Condensation on cold surfaces inside air handling unit | Cooling coil operating below dew point without adequate reheat | Verify reheat coil sequence: cool to dew point for dehumidification, then reheat to 22°C discharge; check reheat energy source (electric or hot water); inspect condensate drain is not clogged |
+| Panel joint sealant cracking after 5+ years | Silicone sealant exceeded service life (5-10 years) — hardening and losing elasticity | Reapply neutral-cure silicone sealant (not acetoxy — acetic acid contaminates wafers); tool smooth with no recessed or raised beads; schedule periodic sealant inspection every 2 years |
+| Airlock interlock fails — both doors can open simultaneously | Interlock solenoid failure or power loss to door controller | Test fail-safe mode (both doors should lock on power loss); replace faulty solenoid; verify manual override key is accessible only to authorized personnel; test interlock sequence quarterly |
+| Underfloor plenum particle counts rising | Construction debris left in plenum or floor drain leaks introducing contamination | Vacuum plenum with HEPA-filtered vacuum; verify structural slab epoxy seal is intact; check that raised floor perimeter gasket is seated; route underfloor cables along perimeter to minimize obstruction |
+
 ## See Also
 
 - [HEPA/ULPA Filtration](hepa-ulpa-filtration.md) — filter technology integrated into the ceiling system

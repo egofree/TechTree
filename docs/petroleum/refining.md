@@ -278,6 +278,21 @@ A refinery consumes 5-10% of its crude oil throughput as fuel (for furnaces, ste
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Atmospheric distillation column product cuts overlap (naphtha contains kerosene-range material) | Column pressure fluctuating beyond 1–2 bar band, or tray damage causing weeping/dumping; insufficient reflux ratio | Verify column pressure control at 1–2 bar; inspect trays during turnaround for corrosion or mechanical damage; increase reflux ratio to sharpen fractionation between adjacent cuts |
+| Desalter salt removal efficiency drops below 90% (salt >5 PTB) | Emulsion not breaking — insufficient electrostatic coalescer voltage, low wash water temperature, or inadequate chemical dosing | Increase coalescer voltage to 20–60 kV range; raise wash water temperature to 120–150°C; increase emulsion-breaker chemical dosage; verify two-stage desalter operation for 98–99% removal |
+| FCC regenerator temperature exceeds 720°C with excessive afterburn | Incomplete coke combustion in dense bed — air distribution uneven, causing localized oxygen breakthrough and afterburn in dilute phase | Check air grid distributor for plugging or erosion; increase catalyst circulation to absorb excess heat; verify regenerator pressure balance with reactor |
+| Hydrocracking reactor pressure drops below 80 bar setpoint | Hydrogen supply from steam methane reformer insufficient, or recycle compressor seal leak; hydrogen embrittlement risk increases below design pressure | Verify SMR hydrogen production rate (~9 Nm³ H₂ per Nm³ natural gas); inspect recycle compressor seals; maintain 80–200 bar per API 941 Nelson curves for 1.25Cr-0.5Mo steel |
+| FCC light cycle oil (LCO) cetane number below 20 | Over-cracking in riser (contact time >5 seconds) producing excessive aromatics; or feedstock too heavy with high aromatics content | Reduce riser contact time to 2–5 seconds by increasing catalyst-to-oil ratio; blend LCO with hydrocracked diesel (cetane 55–65) to meet >50 cetane specification; route LCO to hydroprocessing unit |
+| Catalytic reformer hydrogen yield drops below 150 Nm³/tonne | Catalyst coked — Pt-Re/Al₂O₃ deactivated by insufficient hydrogen recycle ratio (below 3 mol H₂/mol feed); coke blocks acid sites | Increase hydrogen recycle to 3–6 mol/mol to suppress coking; if irreversible, regenerate catalyst by controlled coke burn at 400–500°C in diluted air; verify chloride balance on γ-alumina support |
+| Vacuum distillation column pressure rises above 50 mmHg at flash zone | Steam ejector system degraded — first stage unable to pull below 100 mmHg due to worn nozzles or insufficient motive steam pressure | Inspect and replace eroded ejector nozzles; verify motive steam supply at design pressure; check intercondensers for fouling; consider liquid ring vacuum pump alternative for smaller units |
+| Gasoline RON below 91 specification after blending | Reformate or FCC gasoline component underrepresented in blend; excessive light straight-run naphtha (RON 60–70) diluting the pool | Increase reformate blend percentage (RON 95–105) to 25–40% of pool; verify FCC gasoline olefin content meets blending targets; check ethanol content if blended (RON 109) |
+| H₂S alarms triggering at 10 ppm in process area despite hydrotreater operation | H₂S stripping from sour water stripper incomplete; or amine unit circulation rate insufficient to capture H₂S from recycle gas | Increase sour water stripper steam rate; verify amine (MEA/MDEA) circulation and concentration; check Claus unit sulfur recovery at 95–97% over activated alumina catalyst at 250–300°C |
+| Crude preheat train outlet temperature 40°C below design (290°C vs. 330°C) | Heat exchanger fouling — asphaltene deposition or wax precipitation reducing heat transfer coefficient by 30–50% | Schedule chemical cleaning of fouled exchangers; consider anti-foulant chemical injection upstream; verify crude blend stability (asphaltene precipitation occurs when mixing incompatible crudes) |
+
 ## See Also
 
 - [Petroleum Extraction](extraction.md) — crude oil production upstream

@@ -160,10 +160,9 @@ The development of currency requires [metals](../metals/index.md) for producing 
 | Counterfeit coins appearing | Design too simple; low-skilled die copies easily | Increase die complexity; use distinctive metal alloy (unique color/hardness); penalize counterfeiting severely |
 | Deflation (prices falling, hoarding increases) | Insufficient money supply relative to goods | Increase minting; debase standard slightly (increase coin count per kg metal); lower taxes |
 | Inflation (prices rising, coin value falling) | Excessive minting; debasement; loss of confidence | Reduce minting; restore weight standard; withdraw debased coins through recoinage |
-| Gresham's Law (bad money drives out good) | Mixed-quality coins in circulation at same face value | Withdraw underweight coins; refuse to accept clipped/debased coins at face value;定期 recoinage |
+| Gresham's Law (bad money drives out good) | Mixed-quality coins in circulation at same face value | Withdraw underweight coins; refuse to accept clipped/debased coins at face value; periodic recoinage |
 | Coins clipped or shaved | People removing metal from edges for profit | Mint coins with reeded (grooved) edges; weigh coins at point of acceptance; impose severe penalties for clipping |
 | Counterfeit coins in circulation | Base metal core with precious metal coating | Test with touchstone (streak color reveals alloy); weigh each coin; train merchants in detection |
-| Gresham's Law (bad money driving out good) | Debased coins circulating at same face value as pure | Separate coin values by weight/purity; refuse debased coins; periodically recall and remint |
 | Paper money losing value (inflation) | Issuer printing more notes than goods available | Back currency with metal reserves; limit issuance to reserves; maintain convertibility |
 | Refusal to accept distant coins | No trust in unfamiliar mint or ruler | Establish weight-and-purity standards recognized across settlements; use assayer marks |
 | Coin shortage (insufficient money supply) | Not enough precious metal for coinage | Issue token coinage (copper with face value above metal value); use paper notes for large transactions |

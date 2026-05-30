@@ -32,6 +32,9 @@ Water sources fall into three categories: surface water (rivers, lakes, streams)
 
 ## Infrastructure
 - Labor force (2-10 people for well digging depending on depth)
+- Windlass or tripod with pulley for lifting excavated material from deep wells (>5 m)
+- Temporary shoring (timber boards) for wells in loose soil to prevent collapse during digging
+- Surface drainage ditch around wellhead to prevent contamination from runoff
 
 ## Bill of Materials
 

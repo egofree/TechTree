@@ -279,6 +279,21 @@ Most 300 mm fabs use raised access flooring (perforated panels 300-600 mm above 
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| AGV navigation error — vehicle drifts >50 mm from magnetic tape path | Tape partially obscured by debris, liquid spills, or metal chips interfering with magnetic sensor; floor contamination on raised-floor panels | Clean tape and sensor head; inspect floor for ferromagnetic contamination; verify raised floor flatness within ±1.5 mm over 3 meters; replace damaged tape sections |
+| OHT vehicle drops FOUP during transport (2.5–3.5 m height) | Grip force monitoring failed — mechanical latch worn or vacuum hold lost; redundant grip system not tested on schedule | Inspect and replace grip mechanism per maintenance schedule; verify redundant latch AND vacuum systems both function during monthly PM; target drop rate <1 per 10 million transports |
+| AGV delivery time exceeds 8 minutes for normally 3-minute route | Traffic congestion — too many AGVs in same zone; zone controller granting sequential access with long queue; fleet utilization above 80% | Add bypass routes or increase zone count to reduce queuing; verify fleet size targets 60–80% utilization — add vehicles if above 80%; check dispatch algorithm for suboptimal vehicle assignment |
+| FOUP RFID tag not read at load port (read range 100–300 mm) | RFID reader antenna misaligned from tag position on FOUP housing; or tag damaged by ESD or mechanical impact | Reposition reader antenna to 100–300 mm range from FOUP tag location; verify 13.56 MHz (ISO 15693) reader is operational; replace damaged FOUP RFID tag — tag stores lot ID, wafer count, and process status |
+| OHT vehicle stops unexpectedly on rail, blocking all traffic on segment | Communication loss with central controller (wireless LAN latency >50 ms threshold); zone controller timeout triggers fail-safe stop | Check wireless LAN signal strength along track; verify message latency <50 ms; implement automatic fail-safe lowering of FOUP to nearest safe position on communication loss; inspect sliding power contacts (brushes) on 24/48 VDC bus bar |
+| AGV battery depletes in <4 hours (rated 4–8 hours) | Battery aged beyond useful life; or opportunity charging not functioning during idle time at load ports; battery swap station malfunction | Replace lead-acid or lithium-ion battery pack; verify opportunity charging contacts are clean and functional at load port stations; track battery charge cycles and replace at manufacturer-rated end-of-life |
+| Stocker crane access time exceeds 60 seconds (design: 15–60 s) | Crane rail guide worn, causing jerky motion and speed-limiting by controller; or HEPA filter clogged in ISO Class 4–5 stocker interior | Inspect crane rail for wear and lubricate; replace HEPA filter to maintain ISO Class 4–5 cleanliness; verify crane motor current draw — increased current indicates mechanical binding |
+| Hot lot delivery time exceeds 2-minute target for interbay transport | Hot lot preemption not configured in MCS dispatch algorithm; OHT vehicles not clearing path for priority lot; stocker access adds delay | Verify hot lot priority flag is set in MES transport request; configure MCS to preempt normal lots and reroute vehicles; for super hot lots (<1% of lots), dedicate OHT vehicle exclusively |
+| Raised floor panel deflection causes AGV navigation errors | Floor panel support structure overloaded; panel rated for 5–12 kPa but stocker (2,000–5,000 kg) concentrated load on unreinforced section | Reinforce floor under heavy equipment with direct slab mounting; verify panel rating matches actual load; replace deflected panels; ensure panel gaps ≤1 mm and anti-static resistivity 10⁶–10⁹ Ω/sq |
+| FOUP door seal fails — particle count inside FOUP exceeds ISO Class 1 after transport | Silicone gasket compressed beyond 10–20% design range from repeated cycling; or door interlock not fully engaging at load port | Inspect and replace gasket (compression set >20% requires replacement); verify mechanical interlock is seating FOUP properly on load port; check gasket for cuts or chemical degradation |
+
 ## See Also
 
 - [Equipment Communication](equipment-communication.md) — fab equipment networking

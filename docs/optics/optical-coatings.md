@@ -117,14 +117,6 @@ Precise control of coating thickness is essential — the difference between a f
 - QCM crystals degrade with accumulated coating mass and must be replaced every 10-20 depositions
 - Optical monitoring requires optical access through the chamber (viewport) and is difficult to implement for complex multi-layer stacks
 
-## Coating Defects and Troubleshooting
-
-- **Pinholes**: Small uncoated spots caused by dust on the substrate or spitting from the evaporation source. Prevent by thorough substrate cleaning and pre-melting source material with shutter closed. Pinholes scatter light and reduce coating performance.
-- **Poor adhesion**: Coating flakes or rubs off substrate. Caused by contaminated substrates (oils, fingerprints) or insufficient substrate cleaning. Plasma cleaning (glow discharge in vacuum) immediately before deposition improves adhesion by removing the last molecular layers of contamination.
-- **Non-uniform thickness**: Uneven coating across substrate. Caused by incorrect source-substrate geometry or insufficient substrate rotation. Ensure substrate rotates during deposition and that source-to-substrate distance is appropriate (typically 25-40 cm).
-- **Stress cracking**: Coating cracks after removal from vacuum. Caused by excessive thermal stress (substrate too hot during deposition) or intrinsic stress in the film. MgF₂ tends toward compressive stress; aluminum has tensile stress. Control deposition rate and substrate temperature.
-- **Haze/scattering**: Coated surface appears foggy rather than clear. Caused by porous film (deposited at too high a chamber pressure), or by micro-particles from a dirty chamber. Clean chamber regularly. Ensure adequate base pressure before deposition.
-
 ## Coating Performance Summary
 
 | Coating Type | Layers | Thickness (nm) | Reflection (%) | Bandwidth | Durability |
@@ -304,6 +296,22 @@ This graphical approach helps designers understand why certain layer sequences w
 - **Adhesion and durability**: Deposited films may delaminate under thermal cycling, humidity, or mechanical abrasion. Substrate cleaning (solvent degreasing, plasma cleaning) critically affects adhesion. Protective overcoats (SiO₂) improve durability at the cost of an additional deposition step.
 - **Material availability**: High-purity deposition materials (MgF₂, SiO₂, TiO₂, Al₂O₃) must be sourced or synthesized. Magnesium fluoride requires hydrofluoric acid in its synthesis. Titanium dioxide requires titanium metal or titanium tetrachloride as precursors.
 - **Scale constraints**: Batch vacuum deposition chambers typically handle substrates up to 200-600 mm diameter. Large optics require correspondingly large chambers. Coating uniformity degrades at the edges of large substrates.
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| AR coating shows purple/violet tint after deposition — reflection higher than 1.3% at 550 nm | MgF₂ thickness exceeds ~100 nm (λ/4n = 550/(4×1.38)) target; quartz crystal monitor drifted due to temperature sensitivity (~1 ppm/°C) | Recalibrate QCM with temperature compensation; verify deposition rate and duration — 100 nm physical thickness at 1 nm/s requires exactly 100 seconds; replace QCM crystal if degraded beyond 10-20 depositions |
+| Coating flakes off substrate after removal from vacuum chamber | Substrate surface contaminated with oils or fingerprints during loading; insufficient cleaning before deposition (ultrasonic clean → DI water rinse → ethanol rinse → N₂ dry) | Implement plasma cleaning (glow discharge in vacuum) immediately before deposition to remove last molecular layers of contamination; verify ultrasonic cleaning sequence is followed |
+| Coating appears hazy or foggy instead of clear and transparent | Chamber base pressure too high (>10⁻³ Torr) — residual gas scatters evaporated atoms, producing porous columnar film with micro-pores that scatter light | Wait for base pressure to reach 10⁻⁴ to 10⁻⁵ Pa before deposition; check vacuum pump system (rotary vane + diffusion or turbomolecular); clean chamber interior of previous deposition debris |
+| Coating thickness varies >5% across substrate (thick center, thin edges) | Substrate not rotating during deposition; cosine distribution from point source causes center-thick distribution on stationary substrates | Enable substrate holder rotation during deposition; verify source-to-substrate distance is 250–400 mm; for large substrates, use planetary rotation fixture |
+| Aluminum mirror reflectivity drops below 90% after 1 month in air | Bare aluminum oxidizing or corroding in humid environment; no protective SiO₂ overcoat applied | Apply quarter-wave SiO₂ overcoat (80 nm) over aluminum — extends mirror life with <1% reflectance loss; for existing mirrors, strip and recoat with Al+SiO₂ stack |
+| Stress cracking in thick MgF₂ film (>2 μm) after cool-down | MgF₂ has high compressive stress; substrate temperature too high during deposition causes excessive thermal mismatch on cooling | Keep substrate temperature at 250–300°C (not higher) during MgF₂ deposition; limit MgF₂ film thickness to <2 μm on borosilicate glass; consider Al₂O₃ as intermediate stress-buffering layer |
+| Multi-layer V-coat reflection minimum shifted from design wavelength by >20 nm | Individual layer thickness errors exceeding ±2 nm tolerance; QCM not calibrated for each specific material | Recalibrate QCM for each coating material (MgF₂, Al₂O₃) before multi-layer deposition; use optical monitoring (transmission extrema at each quarter-wave) in addition to QCM for cross-verification |
+| Tungsten evaporation boat fails (melts through) during SiO₂ deposition | Attempting thermal evaporation of refractory SiO₂ (requires >2,000°C) with resistive heating boat rated to ~1,800°C | Switch to electron-beam evaporation (5–10 kV, 0.1–1 A) for SiO₂ and other refractory materials; reserve resistive (tungsten boat) evaporation for Al (1,200°C) and MgF₂ (1,200°C) |
+| Sputtered film adhesion fails tape test (3M 610) after 24-hour aging | Argon pressure too high (>>10 mTorr) during DC magnetron sputtering produces low-energy arrival at substrate; insufficient adatom mobility | Reduce Ar pressure to 1–10 mTorr range; verify magnetron magnetic field is trapping electrons near target; ensure substrate surface is clean — run plasma etch cleaning immediately before sputtering |
+| Dielectric mirror (HL)⁵H reflectivity below 99% at design wavelength | Layer thickness errors accumulate across 11 layers; individual layer errors of ±2 nm compound to shift the constructive interference condition | Verify each layer thickness independently with optical monitoring (look for quarter-wave extrema); deposit in single pump-down cycle without breaking vacuum between layers; check TiO₂/SiO₂ material purity (99.99%) |
+| Pinholes (small uncoated spots scattering light) | Dust on substrate or spitting from evaporation source during deposition | Thoroughly clean substrates before loading (ultrasonic → DI water → ethanol → N₂ dry); pre-melt source material with shutter closed to outgas contaminants before opening shutter |
 
 ## See Also
 

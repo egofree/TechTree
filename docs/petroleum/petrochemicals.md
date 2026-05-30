@@ -234,6 +234,21 @@ The ethanol-to-ethylene route is the most important alternative: fermentation et
 | Selectivity | Fraction of converted feedstock that becomes the desired product |
 | Conversion | Fraction of feedstock that reacts (does not exit unchanged) |
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Steam cracking furnace tube metal temperature reaches 1,100°C before 20-day cycle | Coke buildup inside coils exceeding normal 20–60 day rate; high feedstock aromatic content accelerates coking | Initiate decoking: steam-air mixture at 800–900°C for 12–24 hours to burn out coke; consider switching to lighter feedstock (ethane gives 80–84% ethylene yield vs. 30–35% for naphtha) with lower coking tendency |
+| C₂ splitter column cannot achieve 99.9% polymer-grade ethylene purity | Insufficient reflux ratio or structured packing HETP degraded below 0.15–0.25 m specification; column flooding at upper sections | Increase reflux ratio; verify structured packing condition (corrosion, fouling); check column pressure at design setpoint — the C₂ splitter is the tallest column (60–90 m) and most sensitive to upsets |
+| Demethanizer overhead temperature drifts above −100°C | Ethylene refrigeration cascade underperforming — ethylene cycle not reaching −100°C due to compressor surge or refrigerant loss | Check ethylene compressor for surge conditions; verify refrigerant charge; inspect heat exchangers in cascade (propylene: +10 to −40°C; ethylene: −60 to −100°C; methane: −120 to −160°C) |
+| Para-xylene purity below 99.7% from Parex adsorptive separation unit | Molecular sieve adsorbent degraded after 5–7 year life; desorbent (para-diethylbenzene) contaminated; rotary valve leaking | Replace adsorbent bed if beyond rated life; purify or replace desorbent; inspect 24–36 rotary valves for internal cross-leakage; verify simulated moving bed timing sequence |
+| HDPE product contains gels (unmelted polymer particles) | Ziegler-Natta catalyst (TiCl₄/AlEt₃) hot spots in reactor at 60–90°C, 5–30 bar causing localized over-polymerization; insufficient mixing | Improve reactor mixing and temperature uniformity; dilute catalyst feed; verify reactor temperature stays within 60–90°C band; screen product through mesh filter during pelletizing |
+| LDPE reactor pressure drops below 1,000 bar during peroxide-initiated polymerization | Organic peroxide initiator injection pump malfunction; compressor unable to maintain 1,000–3,000 bar operating pressure | Repair or replace initiator metering pump; verify compressor packing seals rated for 1,000–3,000 bar service; check for polymer fouling in compressor valves |
+| VCM (vinyl chloride monomer) reactor shows runaway temperature above 530°C | EDC pyrolysis tube skin temperature exceeded 530°C design limit; coke deposit causing local hotspot and reduced heat transfer | Emergency shutdown of pyrolysis furnace; initiate decoking cycle; reduce feed rate to keep tube skin temperature below 530°C; verify coke is not approaching tube wall design limit of 1,050–1,100°C |
+| BTX extraction column produces aromatics with >100 ppm non-aromatics | Sulfolane solvent contaminated with water or degraded; extract/recovery column reboiler temperature drift from design point | Dry or replace sulfolane solvent; verify recovery column temperature profile — aromatics distill overhead while sulfolane recycles from bottoms; check for water ingress from upstream hydrotreater |
+| Polypropylene product isotacticity below 95% (tacky, amorphous product) | Ziegler-Natta catalyst (TiCl₄/MgCl₂ support) deactivated by catalyst poison (H₂O, CO, O₂) in propylene feed; AlEt₃ cocatalyst insufficient | Purify propylene feed to remove catalyst poisons; increase AlEt₃ cocatalyst ratio; verify feed gas meets polymer-grade purity (>99.5% for propylene) |
+| Acrylonitrile yield drops below 70% in ammoxidation reactor | Bi-Mo oxide catalyst aged or poisoned by halides; propylene:NH₃:air ratio deviating from stoichiometric 1:1.1:7.5 | Replace or regenerate Bi-Mo catalyst; recalibrate gas flow controllers for propylene, NH₃, and air feeds; maintain reactor at 400–500°C per SOHIO process specification |
+
 ## See Also
 
 - [Refining](refining.md) — petroleum distillation and fractionation that produce petrochemical feedstocks

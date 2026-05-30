@@ -249,6 +249,21 @@ A 600 L/min rotary vane pump is required as backing for this gas load.
 - **Electrical hazard**: Ion pumps operate at 3-7 kV DC. TSP filaments at 30-50 A. Diffusion pump heaters at 200-500°C surface temperature. Lock-out/tag-out procedures for all maintenance.
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Rotary vane pump ultimate vacuum degraded from 5×10⁻⁴ to >10⁻² Torr | Oil contaminated by condensable vapors — gas ballast not used during wet pump-downs | Change vacuum oil (use Inland 19 or equivalent, vapor pressure ~5×10⁻⁵ Torr at 25°C); open gas ballast valve when pumping condensable vapors; close gas ballast for final pump-down to reach rated ultimate vacuum |
+| Turbomolecular pump stalls during process — rotor decelerates rapidly | Foreline pressure exceeded critical backing pressure (1-10 mbar) — gas load from process upset exceeds backing pump capacity | Install foreline pressure sensor interlocked to turbo controller; verify backing pump sizing: S_backing ≥ Q_max / P_critical; install fast-acting gate valve between chamber and turbo for protection against pressure bursts |
+| Diffusion pump oil backstreaming — RGA shows masses 39, 41, 43 | LN₂ cold trap empty or not filled — backstreaming rate 10⁻⁶ g/cm²/min without trap vs <10⁻¹⁰ g/cm²/min with trap | Refill LN₂ cold trap; verify trap level sensor is functional; ensure cooling water is flowing to pump body (flow switch interlock must be active); switch to Santovac 5 (vapor pressure ~10⁻⁹ Torr) for cleaner operation |
+| Scroll pump ultimate vacuum only 10⁻¹ mbar (spec: 5×10⁻³ mbar) | Tip seals worn past 15,000-30,000 hour service life — internal leakage reducing compression | Schedule factory service for tip seal replacement; monitor pump-down time trend to predict seal failure; replace pump with spare and send for rebuild — not field-serviceable in most models |
+| Cryopump base pressure rising — regeneration does not restore spec | Charcoal array saturated with H₂ beyond 10³ Torr·L capacity, or cold head temperature above 10-20 K | Regenerate cryopump: warm to room temperature while valved off, then rough-pump released gases (2-8 hour cycle); if performance does not recover, schedule cold head overhaul (2-3 year interval); check helium compressor pressure |
+| Ion pump shows periodic pressure spikes (argon instability) | Buried Ar ions re-emitted by fresh titanium sputtering — characteristic of aged cathode | Monitor argon instability frequency; if disruptive, replace ion pump cathode (5-10 year typical life); alternatively, reduce argon partial pressure by improved initial pump-down before starting ion pump (start below 10⁻³ Torr) |
+| Pump-down time for 100 L chamber exceeds 4 minutes (expected ~230 s) | Conductance limitation — piping too narrow (25 mm ID) or too long for pump speed | Use short, wide piping: for 300 L/s turbo, 25 mm ID pipe chokes to only 27 L/s (9% of rated); increase pipe ID to ≥50 mm and reduce length to <500 mm; recalculate S_eff = 1/(1/S_pump + 1/C_pipe) |
+| NEG pump loses pumping speed after weeks of operation | Surface saturated with CO/CO₂/N₂ monolayer — bulk H₂ capacity (~50 Torr·L/g) not affected but surface chemisorption saturated | Re-activate NEG by heating Zr-V-Fe alloy to 400-450°C for 30-60 minutes under vacuum; this dissociates surface oxide/passivation layer; after cool-down, pumping resumes at room temperature |
+| Oil mist exhaust from rotary vane pump coating nearby equipment | Oil mist eliminator (coalescing filter) saturated or missing | Install or replace oil mist eliminator on exhaust port (captures >99% of oil droplets); replace filter element every 6-12 months; route exhaust to building exterior if possible |
+| Vacuum chamber base pressure not improving despite extended pumping | Outgassing dominates — unbaked stainless steel outgasses at ~2×10⁻⁶ Pa·m³/s·m², following q(t) = q₀ × t⁻¹ decay | Bake chamber at 250°C for 24 hours to reduce outgassing to ~10⁻⁸ to 10⁻⁹ Pa·m³/s·m²; verify chamber is electropolished (lower outgassing than mechanically polished); use RGA to identify dominant gas species (mass 18 = water) |
+
 ## See Also
 
 - **[Gas Handling: Vacuum](../gas-handling/vacuum.md)**: Foundational vacuum pump operating principles

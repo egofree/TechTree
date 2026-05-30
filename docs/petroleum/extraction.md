@@ -243,6 +243,19 @@ A blowout — uncontrolled flow of oil and gas from the well — is the most cat
 - **BOP operation**: Close BOP rams immediately on detecting a kick. Kill the well by pumping heavy mud through the choke line (controlled flow path through the BOP) to overbalance formation pressure.
 - **Well control training**: All drilling crews must be trained in well control procedures. Simulated kick exercises regularly.
 
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Lost circulation (mud level drops, no returns) | Fractured formation, cavernous zone, or mud weight too high | Reduce mud weight toward formation pressure. Pump lost-circulation material (LCM): fiber (cellulose, cotton seed hulls), granular (nut shells, graphite), or flakes (mica, cellophane) into the loss zone. If total loss: squeeze cement or use gunk plug (bentonite-cement slurry that sets in the fracture). |
+| Stuck pipe (cannot rotate or pull drill string) | Differential sticking (mud pressure pushes pipe against filter cake in permeable zone), or wellbore collapse, or keyseat (pipe wedged in a sharp dogleg) | Differential sticking: reduce mud weight, spot oil around stuck point to break the filter cake bond, apply tension and jar (mechanical impact tool). Wellbore collapse: circulate clean mud, work pipe up/down. Keyseat: run a keyseat wiper to ream the restriction. Prevention: proper mud weight, minimize time stationary, use spiral-grooved drill collars. |
+| Kick (well flow with pumps off, pit gain) | Formation pore pressure exceeds mud hydrostatic pressure — influx of oil, gas, or saltwater into wellbore | Close BOP immediately. Record shut-in pressures. Kill well using driller's method: pump kill-weight mud through choke line at constant choke pressure, maintaining bottomhole pressure slightly above pore pressure. Do NOT open the well until kill mud fills the entire string. |
+| Hole deviation (bit drifts off vertical) | Crooked-hole tendency in dipping formations, inadequate WOB (weight on bit) control, worn stabilizers | Use packed-hole assembly (stabilizers every 9-18 m to stiffen the BHA). Reduce WOB. Check and replace worn stabilizers. Monitor deviation with surveys every 30-100 m. If excessive: backfill and redrill the deviated section. |
+| Bit bounce / excessive vibration | Worn or damaged bit, hard formation interbeds, whirl (bit rotating off-center) | Reduce RPM and WOB. Check bit condition (pull and inspect if more than 50% cones are worn or teeth broken). For whirl: increase WOB to stabilize bit, or switch to a different bit type (PDC vs. roller cone). |
+| Casing collapse or deformation | External pressure from formation exceeds casing collapse rating, or formation creep (salt beds squeeze casing) | Design casing with adequate collapse resistance (heavier wall or higher-grade steel for salt zones). For deformation already present: run a casing roller/scraper to restore internal diameter, or mill out the restriction. |
+| Excessive torque and drag | Wellbore tortuosity, cuttings bed buildup in deviated hole, or swelling clay (reactive shale) | Improve hole cleaning: increase mud flow rate and viscosity, pipe rotation while tripping. For reactive shale: switch to oil-based mud or KCl/polymer inhibited water-based mud. Short trips to condition the hole. |
+| Poor cement bond (channeling, micro-annulus) | Mud not fully displaced before cementing, gas migration during cement set, or casing not centralized | Centralize casing (one centralizer per joint across production zone). Condition mud (circulate clean before cementing). Use cement preflush (spacers) to displace mud. For gas migration: use gas-blocking cement additives (latex, thixotropic agents). Verify with cement bond log (CBL). |
+
 ## Environmental Protection
 
 - **Casing and cement**: Proper casing and cementing isolates freshwater aquifers from hydrocarbon-bearing zones. Cement bond logs verify isolation quality.

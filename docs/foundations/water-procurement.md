@@ -231,6 +231,21 @@ Standing water breeds mosquitoes that carry malaria, dengue, and other diseases.
 
 **Seasonal inspection cycle**: Before the wet season, clean gutters and first-flush diverters, check cistern lids and screens for integrity, and verify overflow pipes are clear. After the wet season, inspect cistern interiors for sediment accumulation (drain and remove silt if depth exceeds 5 cm), check lime plaster for cracks or spalling, and repair before the next refill cycle. Annual maintenance of catchment infrastructure prevents the gradual capacity losses that accumulate when small problems go unaddressed for years.
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Hand-dug well yields less than 200 L/day | Water table deeper than expected or well not dug 1-2 m below the water table | Dig during dry season to ensure year-round supply; extend well depth 1-2 m below the water table to create a storage sump; a 1.2 m diameter well needs 3-5 tonnes of stone per 3 m of lining depth |
+| Solar still produces under 0.5 L/day | Pit too large (condensation distance too long) or plastic sheet not properly sealed | Use 60-100 cm diameter pits (not 2 m); seal edges tightly with soil; add green vegetation or urine to the pit soil to increase output by 30-50% |
+| Cistern water tastes stale or metallic | Lime plaster degrading or water stagnating above 20°C | Replaster interior with lime (1:3 lime:sand) in 2-3 coats every 10-15 years; keep cistern covered to maintain 10-15°C; underground placement slows bacterial growth |
+| Sand filter flow rate drops below 50% of original | Biological layer (schmutzdecke) too thick or top sand clogged | Drain filter and scrape off top 1-2 cm of sand; wash scraped sand and set aside for later replacement; resume when sand depth drops below 0.5 m, add back washed sand |
+| Siphon fails to start or stops mid-flow | Air pocket trapped at the high point or lift exceeds 10 m at sea level | Ensure pipe is completely full of water before starting; maximum lift is ~10 m at sea level (8 m at 2,000 m elevation); if lift exceeds limit, use a pump instead |
+| Roof catchment water is discolored after rain | First-flush diverter not installed or thatched roof shedding organic matter | Install a first-flush diverter that discards the first 1-2 mm of rainfall (50-100 L for a 100 m² roof); let water settle 24 hours if from a thatched roof before use |
+| Well water contaminated with fecal bacteria | Latrine or animal pen located within 30 m uphill of the well | Relocate contamination sources at least 30 m downhill from the well; perform shock chlorination (500 mg/L free chlorine, stand 12-24 hours, pump until odor dissipates) |
+| Leather water bag leaks within months | Hide not properly treated (scraped, stretched, and smoked) | Treat hides fully before use; properly treated bags last 1-3 years; store partially filled to prevent cracking; smoke treatment improves water resistance |
+| Aqueduct flow velocity drops below 0.3 m/s | Channel slope insufficient (<0.1%) or sediment accumulation blocking flow | Maintain minimum 0.1-0.5% slope (1-5 m drop per km); clear sediment from channel regularly; maximum velocity should stay around 1 m/s to prevent erosion |
+| Boiled water tastes flat | Dissolved gases escaped during heating | Pour boiled water between two containers 3-4 times to re-aerate; this restores taste without affecting safety |
+
 ## See Also
 
 - [Basic Tools](tools-basic.md) — digging implements, containers, and basic construction tools

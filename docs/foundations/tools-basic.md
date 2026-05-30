@@ -254,6 +254,21 @@
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Knapped stone edge shatters on first use | Overheating during heat treatment (causes crazing) or striking at wrong angle | Heat chert slowly to 250-350°C (not above); test on small sample first; strike at ~60° following the natural fracture plane during knapping |
+| Ground stone axe head flies off handle during use | Rawhide binding loosened as it dried unevenly or birch tar softened | Soak rawhide binding before use to re-tighten; add pine pitch or birch tar adhesive at the hafting joint; ash and hickory handles absorb shock best |
+| Birch tar is runny and doesn't harden | Incomplete pyrolysis — bark heated below 300°C or vent hole too large | Seal container tightly; heat until all smoke stops; tar should be black, sticky, and roll into balls that remain slightly flexible when cool |
+| Cordage breaks under expected load | Retting too long degraded fibers, or splices poorly executed | Ret plant stems 1-2 weeks only (not longer); test fiber strength before spinning; join ropes by splicing (retains ~80% strength) rather than knotting (50-60%) |
+| Pottery explodes during pit firing | Trapped moisture in walls or firing ramped too quickly | Air-dry pots slowly for 1-2 weeks before firing; pre-warm near fire for 1 hour; build heat gradually — rushing the fire is the main cause of pot loss |
+| Coil-built pot cracks along seam lines | Insufficient scoring, inadequate slip, or joining clay at different moisture levels | Score both surfaces deeply, apply liberal slip, and ensure both surfaces are at the same moisture level; blend coils thoroughly with fingers or smooth stone |
+| Wooden handle splits during drying | Green wood dried too fast (checking) | Split green wood to rough shape, then dry slowly in shade over weeks; ash and hickory are the most check-resistant handle woods |
+| Thatched roof leaks within first year | Roof pitch below 45° or thatch depth insufficient | Maintain minimum 45° pitch (50-60° lasts longer); ensure 30-40 cm thatch depth; 300-500 bundles cover a 5×8 m roof with proper overlap |
+| Steam-bent wood splits or springs back | Under-steamed (insufficient time at temperature) or bent across grain | Steam 1-2 hours per cm of thickness; use oak, ash, or elm (pine and spruce tend to split); always bend with the grain, not across it |
+| Wattle-and-daub wall develops deep cracks | Clay content too high (>30%) or wall dried too rapidly in hot weather | Use 70% soil, 20% clay, 10% chopped straw mix by volume; protect from direct sun during initial 1-2 week drying period |
+
 ## See Also
 
 - [Fire-Making](fire.md) — companion root capability for heat and combustion

@@ -199,6 +199,21 @@ Store coal under cover to keep it dry. Wet coal doesn't burn as hot and produces
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Bow drill produces smoke but no ember | Hearth board too damp or drill wood too soft | Use only dry, seasoned hardwood for the hearth board; cedar, cottonwood, or willow for the board and harder wood (oak, maple) for the drill |
+| Ember forms but goes out when transferred to tinder | Tinder bundle too tightly packed or damp | Tease tinder into a loose bird-nest shape (~10 cm diameter); ensure fibers are dead-dry; keep tinder in a waterproof container |
+| Hand drill fails to reach ignition temperature (~300-400°C) | Drill diameter too large or hands slide too fast | Use a drill stick 0.5-1 cm diameter and 20-30 cm long; apply firm downward pressure and spin rapidly; best in arid climates with naturally dry fuel |
+| Flint-and-steel sparks don't catch on char cloth | Char cloth under-done (brown) or over-done (gray ash) | Heat cotton squares in sealed tin at smoke-stop point until cloth is uniformly deep black, flexible, and retains fiber structure; store dry in airtight container |
+| Charcoal pit yields only ash, no usable charcoal | Pit opened too early or air vents too large | Seal all vents completely with earth once smoke turns thin blue; let pit cool 12-24 hours before opening; premature oxygen intake causes complete combustion |
+| Forge won't reach forging temperature (~1000-1200°C) | Tuyere aimed too low or bellows output insufficient | Position tuyere 5-10 cm above pit bottom aimed into the fuel bed; upgrade from single hide bag (50-80 L/min) to double-acting box bellows (150-300 L/min) |
+| Forge heats metal unevenly | Workpiece buried too deep in fuel | Lay metal on top of or just barely covered by the charcoal bed; the hottest zone is 5-10 cm above the tuyere opening |
+| Birch tar production yields brittle, crumbly product | Bark overheated above 400°C or not enough bark mass | Maintain sealed container at 300-400°C; pack sufficient birch bark for the container volume; tar should be black, sticky, and roll into cohesive balls |
+| Fire banking fails — coals dead by morning | Coals buried too deeply or in damp ash | Push coals together into a mound; bury in dry ash or dry earth only, leaving small air vents; coals should stay at 300-500°C for 8-12 hours |
+| Charcoal yield below expected 20-25% by weight | Green or softwood used instead of dense hardwood | Use oak, maple, or beech billets; stack vertically in the pit; ensure 10-15 cm compacted earth cover to maintain restricted airflow for 24-48 hours |
+
 ## See Also
 
 - [Stone & Wood Tools](tools-basic.md) — companion root capability for cutting and shaping

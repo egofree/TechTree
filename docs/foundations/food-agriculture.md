@@ -289,6 +289,21 @@ Bee pollination increases crop yields 20-30%.
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Grain yield drops below 1:5 seed-to-harvest ratio | Continuous grain cropping without rotation depletes soil nitrogen in 3-5 years | Implement 3-field rotation: grain → legume (adds 40-80 kg N/ha via Rhizobium) → fallow; apply compost (2-5 cm layer) before planting |
+| Saddle quern produces only 1 kg flour/hour — insufficient | Stone too smooth or grinding motion inefficient | Use coarse granite or sandstone that grips grain; maintain consistent back-and-forth motion over the full stone surface; upgrade to rotary quern (1-5 kg/hour) when possible |
+| Seed grain fails to germinate | Moisture content above 12% during storage caused mold or premature sprouting | Dry grain to 8-12% moisture (bite test: seed should crack, not dent); store in sealed clay pots in cool, dry location; viability 2-5 years when stored properly |
+| Root cellar temperature rises above 10°C | Insufficient depth or inadequate ventilation | Bury cellar deeper to maintain 3-10°C; adjust ventilation to balance humidity (85-95% RH) against temperature; add earth insulation 50-100 cm thick |
+| Cheese curd fails to coagulate | Milk temperature outside 30-35°C range or insufficient rennet | Warm milk to exactly 30-35°C before adding rennet (1-2 mL per 10 L milk); ensure milk is fresh — spoilage bacteria interfere with coagulation |
+| Butter won't separate from buttermilk after 40+ minutes of churning | Cream temperature too warm (>20°C) or cream not sufficiently ripened | Cool cream to 10-15°C before churning; skim cream after milk stands 12-24 hours; cream should be 30-40% fat for reliable separation |
+| Yogurt remains liquid after 8 hours of incubation | Incubation temperature dropped below 40°C or starter culture inactive | Maintain 40-45°C throughout incubation (use hay-lined box near hearth); use 2-3 tablespoons of active starter from a previous successful batch |
+| Granary grain develops mold or insect infestation | Storage moisture above 14% or roof leak allows water ingress | Ensure grain is dried to <14% moisture before storage; build raised floor 30-50 cm above ground with rodent-proof stone cone caps on support posts |
+| Irrigation canal water flow stops | Silt accumulation or insufficient slope for gravity flow | Maintain canal slope of 0.1-0.5% (1-5 m drop per km); clear silt regularly; use shaduf to lift water 1-2 m when gravity flow is insufficient |
+| Compost pile fails to heat up (stays below 40°C) | Carbon-to-nitrogen ratio too high (too much dry material) or pile too small | Add nitrogen-rich material (fresh manure, green plant waste); ensure pile is at least 1 m high to retain heat; turn every 2-4 weeks to introduce oxygen |
+
 ## See Also
 
 - [Stone & Wood Tools](tools-basic.md) — essential implements for planting and harvesting

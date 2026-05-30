@@ -8,5 +8,6 @@ Capabilities in this domain:
 - [Prospecting & Surveying](prospecting.md) — Geological survey, ore body identification, and deposit evaluation techniques.
 - [Drilling](drilling.md) — Hand steel, pneumatic, and core drilling techniques for blast holes and prospecting.
 - [Mine Ventilation](ventilation.md) — Natural, furnace, and mechanical ventilation systems for underground air supply and hazard control.
+- [Tailings Reprocessing](tailings-reprocessing.md) — Recovering residual metals and useful materials from mine waste using modern extraction techniques, improving resource efficiency and reducing environmental footprint.
 
 [↑ Back to Tech Tree](../index.md)

@@ -334,6 +334,21 @@ Wall thickness: 100-150 mm. Insulation value: moderate (poorer than solid masonr
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Green (unseasoned) timber warping and splitting after construction | Wood shrinks 3-8% as it dries (6-12% tangentially, 2-6% radially); beams built into structure before moisture reached 15-20% | Air-dry lumber with 20-25 mm stickers between layers for 1 year per 25 mm thickness (hardwoods); season to 15-20% moisture content before structural use; use a covered stack with open sides for airflow |
+| Surface checking (cracks) on kiln-dried lumber | Kiln temperature ramped too fast; exterior dried and sealed before core released moisture (case hardening) | Start kiln at 40-50°C and increase gradually to 60-80°C; monitor weight loss to track moisture content; if case hardening occurs, re-condition by exposing to steam for 4-8 hours at 100°C to relieve surface stresses |
+| Structural post rotting at ground line within 3-5 years | Sapwood used instead of durable heartwood; post set directly in soil without moisture barrier | Use only heartwood of durable species (acacia, oak, chestnut, teak) for ground contact; char the buried surface lightly to extend life to 10-15 years; set posts on flat stones rather than directly in soil to create a capillary break |
+| Reed thatch roof leaking after only 10-15 years (expected 30-50) | Roof pitch below 45°; thatch applied too thin; ridge not maintained | Maintain minimum 45° pitch (50-55° ideal) for water shedding without membrane; apply reed at 300 mm thickness; replace ridge every 10-15 years even when main coat is sound; use 4-5 bundles per m² of roof |
+| Coppice stools failing to regrow after cutting | Stumps cut too high above ground; shaded by competing vegetation; wrong species (not a vigorous coppicer) | Cut deciduous hardwoods (oak, ash, chestnut, hazel) at ground level on a 7-15 year cycle; protect stools from grazing animals for 2-3 years after cutting; select species known for vigorous coppicing — conifers do not coppice |
+| Wattle-and-daub wall crumbling after 2-3 years | Insufficient roof overhang (below 300 mm); daub mixture too clay-rich without straw reinforcement; wall exposed to driving rain | Ensure roof overhang of 300+ mm to keep walls dry; mix clay soil with straw or animal hair as reinforcement; apply lime wash to exterior surface for water resistance; never let earthen walls stand in pooled water |
+| Split planks (riven) tapering and irregular in thickness | Wrong wedge placement relative to grain; twisted or knotty wood that splits unpredictably | Select straight-grained species (oak, chestnut) for riving; read the grain before placing wedges — follow natural radial lines; drive wedges sequentially along the grain, not all at once; accept that riving produces tapered planks — dimension by hewing if uniform thickness is required |
+| Bamboo splitting at joints during construction | Green bamboo used without treatment; harvested during growing season when starch content is high | Cut mature culms (3-5 years old) during dry season when starch content is lowest; soak in water 4-6 weeks to leach starches; treat with borax/boric acid solution (5-10%, 1-2 weeks immersion); smoke treatment over slow fire for 1-2 weeks |
+| Timber joints loosening within first year of construction | Green timber dried in place, causing 3-8% shrinkage; wooden pegs (trenails) shrank and no longer lock joints | Season timber to 15-20% moisture content before cutting joints; use dry hardwood pegs that swell slightly with ambient humidity to lock joints; design joints with pegs that can be re-driven as wood settles |
+| Straw thatch roof infested with rodents and birds | Grain remnants in threshed straw attract pests; thatch applied too loosely; no bird netting | Thresh straw carefully using flail (not machine) to preserve stem length while removing grain; compact thatch firmly in 300 mm courses; install bird netting over surface; fix with hazel or willow spars (split rods twisted into U-shaped staples) |
+
 ## See Also
 
 - [Plants Index](index.md) — overview of all plant resource categories

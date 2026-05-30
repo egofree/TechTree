@@ -93,7 +93,7 @@ Before fiber can be spun, it must be cleaned, opened, and aligned:
 - **Hand cards**: Pair of rectangular paddles (10 × 20 cm) covered in card cloth (stiff wire teeth, 1-2 cm long, set in leather or rubber backing). Charge one card with teased fiber. Brush cards together — teeth pull fibers into parallel alignment. Transfer rolled rolag (cylindrical roll of carded fiber, 10-15 cm long, 3-5 cm diameter) from card. Each rolag feeds one spindle-full of yarn. Rate: 0.5-1 kg of carded fiber per hour.
 - **[Drum carder](../glossary/drum-carder.md)** (Machine Tools): Rotating drum (20-40 cm diameter) covered with card cloth feeds against smaller roller. Continuous output as carded batt (flat sheet of aligned fiber). 5-10 kg/hour throughput. Significantly faster than hand carding.
 
-## Troubleshooting Common Yarn Defects
+## Troubleshooting
 
 - **Yarn breaks frequently**: Insufficient twist for the fiber staple length. Increase twist (higher wheel ratio or slower drafting). Fiber may be too short — ensure hackled flax (not tow) for fine linen, or carded (not combed) wool for short-staple breeds. Check for remaining vegetable matter causing weak spots.
 - **Uneven thickness (slubs)**: Drafting technique issue. Practice maintaining consistent pull length. Draft slower relative to wheel speed. Pre-draft fiber into uniform strips before spinning. For drum-carded batts, peel off thin strips along the grain.

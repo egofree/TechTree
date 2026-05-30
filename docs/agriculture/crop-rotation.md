@@ -147,7 +147,7 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 |----------|--------|--------|--------|--------|-------------------|
 | Continuous wheat | -50 to -70 | -50 to -70 | -50 to -70 | — | -55 to -70 (depleting) |
 | 3-field (grain/legume/fallow) | -55 (wheat) | +50 (beans) | 0 (fallow) | — | -2 to +5 (near balance) |
-| 4-field Norfolk | -55 (wheat) | -20 (turnips) | -40 (barley) | +100 (clover) | — | -4 to +5 (sustainable) |
+| 4-field Norfolk | -55 (wheat) | -20 (turnips) | -40 (barley) | +100 (clover) | -4 to +5 (sustainable) |
 | Grain/clover (2-field) | -55 (wheat) | +120 (clover) | — | — | +32 (surplus) |
 
 ## Legume Nitrogen Fixation Rates

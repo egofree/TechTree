@@ -213,7 +213,7 @@ Tempeh is fermented soybean cake from Indonesia, produced by *Rhizopus oligospor
 | 60-65% | Stiff, easy to shape | Tight, even | Easy | Sandwich bread |
 | 68-72% | Moderate, slightly sticky | Open, irregular | Moderate | Artisan boule |
 | 75-82% | Very soft, sticky | Very open, holes | Difficult | Ciabatta, focaccia |
-| 85%+ | Batter-like | Extremely open | Very difficult | Pan面包, pizza |
+| 85%+ | Batter-like | Extremely open | Very difficult | batter dough, ciabatta, pizza |
 
 ## Scaling Notes
 

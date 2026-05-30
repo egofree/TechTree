@@ -267,6 +267,21 @@ Different applications benefit from combining fibers with complementary properti
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Retted flax fibers are weak and break into short pieces | Over-retting (left in water beyond 10-14 days at 15-25°C); bacterial action degraded cellulose along with pectin | Test readiness every 2 days by snapping a stalk — fibers should separate cleanly from woody shive; remove from water immediately when ready; at 25°C, retting completes in 5-7 days with higher over-retting risk |
+| Hemp stalks still un-retted after 5 weeks of dew retting | Dry weather (no dew or rain); cold temperatures slowing fungal activity; stalks stacked too thickly | Spread stalks thinly (not stacked) on grass field for even moisture exposure; turn every 2-3 days; in drought conditions, switch to water retting (4-8 days at 20°C) for more reliable results |
+| Flax fiber appears dark green and muddy after retting | Retting in dirty, stagnant water; stalks retrieved from pond bottom where silt contaminated fibers | Ret in clean, slow-moving water or purpose-built tanks; do not let stalks sink into bottom mud; after retting, rinse stalks in clean water before drying; water-retted flax should be light gold, not dark |
+| Cotton gin not separating seed from fiber effectively | Roller-to-blade gap set incorrectly; seed cotton too damp; roller surface worn smooth | Adjust the single-roller gin gap to strip fiber while crushing or deflecting seeds; ensure seed cotton is thoroughly dry before ginning; roughen worn roller surface with sandpaper to restore grip |
+| Ramie fibers too stiff and coarse for spinning | Raw ramie contains 20-30% gum (pectin and hemicellulose) not removed before processing | Degum ramie before spinning: boil in 1-2% NaOH solution for 1-2 hours, or ferment in water 24-48 hours; properly degummed ramie is white and silky with tensile strength 870-1,100 MPa |
+| Nettle stems causing severe skin irritation during harvest | Formic acid and histamine in trichomes (stinging hairs) on stems and leaves | Wear thick leather or rubber gloves when harvesting; cut stems at ground level in late summer when mature; the irritation fades within hours and does not cause lasting damage |
+| Jute fiber weak and discolored after retting | Retting duration exceeded 20 days; water temperature too warm (above 35°C); stalks over-saturated | Ret jute for 8-20 days in slow-moving water at 25-35°C; strip fiber from stalk by hand under water during retting; remove promptly when fibers separate cleanly — over-retted jute has tensile strength below 400 MPa |
+| Sisal leaf fibers contaminated with residual pulp after decortication | Incomplete scraping of fleshy pulp from fiber strands; leaves processed when partially dried | Decorticate only fresh leaves (not dried); scrape residual pulp with a blunt knife or edged wooden blade; wash extracted fiber strands thoroughly and dry in sun; dried leaves are difficult to strip |
+| Flax hackling yield very low (less than 15% line fiber from dry stalk weight) | Under-retted stalks resist breaking and scutching; scutching too aggressive, breaking long fibers | Ensure complete retting before breaking (fibers separate cleanly from shive); use graduated hackles — coarse (8-12 teeth/dm) first, then medium (15-20), then fine (25-35); rough hackle removes shive, fine hackle splits bundles |
+| Cotton crop failing to produce bolls | Soil temperature below 16°C at sowing; insufficient frost-free days (below 150); waterlogging from poor drainage | Sow only when soil reaches 16°C for 3 consecutive days; ensure 150-180+ frost-free days; plant on well-drained slightly alkaline soil (pH 6.0-8.0); row spacing 75-100 cm at 80,000-120,000 plants/ha |
+
 ## See Also
 
 - [Plants Index](index.md) — overview of all plant resource categories

@@ -45,11 +45,15 @@ Several capabilities in other domains are also critical because their absence bl
 | [Animals](animals/index.md) | 7 | | draft power, wool, leather, dairy, eggs, meat, hunting |
 | [Automation & Robotics](automation/index.md) | 4 | | SECS/GEM protocols, wafer robots, FOUP transport, process control |
 | [Ceramics](ceramics/index.md) | 4 | | refractories, kilns, lime, pottery, crucibles |
+| [Clean Room Technology](cleanrooms/index.md) | 3 | | HEPA/ULPA filtration, contamination control, facility design & HVAC |
 | [Chemistry](chemistry/index.md) | 18 | | mineral acids, alkalis, electrolysis, distillation, oils & grease |
 | [Cryogenics](cryogenics/index.md) | 3 | | refrigeration cycles, cryogenic air separation, gas liquefaction & storage |
 | [Computing](computing/index.md) | 5 | | slide rules, calculators, automation |
+| [Electronics](electronics/index.md) | 2 | | PCB fabrication, soldering, power distribution, connectors, transformers |
+| [Electrochemistry & Plating](electrochemistry/index.md) | 3 | | electroplating, anodizing, electropolishing, electroless plating, electroforming |
 | [Construction](construction/index.md) | 3 | | structural engineering, concrete, dams, tunnels |
 | [Defense & Military](defense/index.md) | 4 | | weapons progression, fortifications, armor, siege engineering, military logistics |
+| [Economics & Organization](economics-organization/index.md) | 6 | | division of labor, trade, currency, accounting, supply chains, governance |
 | [Energy](energy/index.md) | 9 | | steam engines, electricity, arc furnaces, charcoal, coke |
 | [EHS](ehs/index.md) | 5 | | chemical safety, ventilation, PPE, emergency response, waste management |
 | [Food Processing](food-processing/index.md) | 4 | | milling, canning, pasteurization, preservation, dairy, brewing |
@@ -58,16 +62,21 @@ Several capabilities in other domains are also critical because their absence bl
 | [Glass](glass/index.md) | 3 | | basic glass, borosilicate glass, fused silica, quartz crucibles |
 | [Health](health/index.md) | 5 | | clean water, sanitation, pharmaceuticals |
 | [Knowledge](knowledge/index.md) | 4 | Yes | writing, printing, education, libraries |
+| [Mathematics & Formal Sciences](mathematics/index.md) | 3 | | arithmetic, calculus, Boolean algebra, information theory, computation theory |
 | [Machine Tools](machine-tools/index.md) | 6 | Yes | lathe, mill, grinder, bearings |
 | [Marine & Naval](marine/index.md) | 4 | | shipbuilding, navigation, propulsion, maritime infrastructure, submarine cables |
 | [Measurement](measurement/index.md) | 4 | | precision instruments, gauge blocks, calibration |
 | [Metals](metals/index.md) | 9 | | copper, iron, steel |
 | [Mining](mining/index.md) | 5 | Yes | copper ore, iron ore, coal, quartz, sulfur |
+| [Petroleum Extraction & Refining](petroleum/index.md) | 3 | | crude oil extraction, refining, petrochemical feedstocks |
 | [Optics](optics/index.md) | 2 | | lenses, microscopes, optical comparators |
 | [Photolithography](photolithography/index.md) | 3 | | cleanrooms, lithography, ICs |
+| [Precision Motion Control](precision-motion/index.md) | 4 | | nanometer positioning, wafer stages, vibration isolation, precision encoders |
 | [Plants & Botany](plants/index.md) | 5 | | food crops, medicine, timber, fiber, natural dyes |
 | [Polymers](polymers/index.md) | 4 | | rubber, FR-4, PTFE, fiberglass |
+| [Quality Control](quality-control/index.md) | 3 | | statistical process control, inspection & sampling, defect analysis & yield modeling |
 | [Silicon](silicon/index.md) | 5 | | MG-Si, wafers, solar cells, transistors |
+| [Software Bootstrapping](software-bootstrapping/index.md) | 6 | | assemblers, compilers, operating systems, development tools, self-hosting |
 | [Telecommunications](telecom/index.md) | 5 | | pre-electric signaling, telegraph networks, telephone, submarine cables, radio |
 | [Textiles](textiles/index.md) | 7 | Yes | cordage, cloth, rope, drive belts |
 | [Transport](transport/index.md) | 5 | | roads, railways, aviation, logistics |

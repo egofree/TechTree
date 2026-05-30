@@ -8,13 +8,13 @@ This project documents the complete dependency chain from fire and stone tools t
 
 | Metric | Count |
 |--------|-------|
-| Technology domains | 41 |
-| Capability nodes | 317 |
-| Dependency edges | 637 |
-| Content articles | 257+ |
-| Mermaid diagrams | 41 |
-| D2 diagrams | 41 |
-| Glossary terms | 7,000+ |
+| Technology domains | 43 |
+| Capability nodes | 334 |
+| Dependency edges | 707 |
+| Content articles | 308 |
+| Mermaid diagrams | 44 |
+| D2 diagrams | 44 |
+| Glossary terms | 11,966 |
 
 ## Quick Navigation
 
@@ -61,26 +61,29 @@ Basic solar cells are achievable within decades of establishing solid machine to
 tech-tree-bootstrap/
 ├── docs/               # Domain-organized content (Markdown prose)
 │   ├── index.md        # Unified entry point
-│   ├── {domain}/       # One directory per technology domain
-│   ├── glossary/       # 7,000+ auto-generated glossary entries
+│   ├── {domain}/       # 43 technology domain directories
+│   ├── glossary/       # 6,234 auto-generated glossary entries
 │   ├── images/         # Wikimedia-sourced per-domain images
 │   └── supporting/     # Schema spec, checklist, resources
-├── data/               # Structured data (JSON/YAML)
-│   ├── nodes.json      # 317 technology nodes
-│   ├── edges.json      # 637 dependency edges
-│   └── glossary.json   # Glossary with relevance ratings
+├── data/               # Structured data (JSON-LD)
+│   ├── entities/       # 1,041 capability node files (JSON-LD)
+│   ├── products/       # 924 product/material files (JSON-LD)
+│   ├── schema/         # JSON Schema validation files
+│   ├── glossary.json   # 11,966 glossary terms with relevance ratings
+│   ├── plants.json     # Plant species catalog
+│   ├── images.json     # Image metadata
+│   └── resources.json  # External resource references
 ├── diagrams/           # Auto-generated (DO NOT hand-edit)
-│   ├── mermaid/        # .mmd flowcharts (41 domains)
-│   └── d2/             # .d2 flowcharts (41 domains)
+│   ├── mermaid/        # .mmd flowcharts (44 domains)
+│   └── d2/             # .d2 flowcharts (44 domains)
 └── scripts/            # Validation, generation, and build tools
 ```
 
 ## Validation
 
 ```bash
-bash scripts/validate.sh            # 17 checks: DAG, cross-refs, tags, schema
-bash scripts/generate-diagrams.sh   # Regenerate Mermaid from data
-bash scripts/generate-d2-diagrams.sh # Regenerate D2 from data
+python3 scripts/validate.py          # 19 checks: schema, DAG, cross-refs, tags, hierarchy
+python3 scripts/generate-diagrams.py # Regenerate Mermaid from data
 ```
 
 ## License

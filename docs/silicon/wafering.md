@@ -34,14 +34,6 @@ After CZ or FZ crystal growth, the ingot (150-300 mm diameter, 1-3 m long, 30-15
 - For 150 and 200 mm wafers, a flat is ground: the primary flat indicates the {110} plane (for <100> oriented crystals), and a secondary flat (shorter, at a specific angle to the primary) identifies the dopant type (n-type or p-type) and crystal orientation.
 - For 300 mm wafers, a single small notch (V-shaped groove, approximately 1 mm deep, ~60° included angle) replaces the flat. The notch takes less material and wastes less silicon. The notch is ground with a shaped diamond wheel in a single pass.
 
-**Strengths**:
-- Cropped seed/tail pieces are re-melted in the next crystal pull, recovering >9N purity silicon with zero waste
-- Cylindrical grinding achieves ±0.1 mm diameter tolerance, sufficient for all downstream processing
-
-**Weaknesses**:
-- Cropping removes 10-20% of ingot length — significant yield loss before wafering even begins
-- Diamond grinding wheel wear introduces contamination and requires periodic wheel dressing
-
 ## Wafering (Slicing)
 
 Wafering cuts the cylindrical boule into thin slices (wafers). The two primary methods are inner-diameter (ID) blade sawing and wire sawing. Both are abrasive processes that remove a thin kerf of silicon between each wafer.
@@ -86,14 +78,6 @@ Freshly cut wafers are fragile, sharp-edged, and easily contaminated by dust, fi
 - The edge profile is critical for later processing steps: photolithography spin-coating, etching, and deposition all depend on uniform edge geometry to avoid thickness buildup or thinning at the periphery.
 - Material removal: 0.1-0.3 mm from the wafer diameter. After edge rounding, the wafer diameter is reduced to final specification (200.0 ±0.2 mm or 300.0 ±0.2 mm).
 
-**Strengths**:
-- Vacuum pickup handles wafers without contacting the front (device) surface, eliminating contamination
-- Edge grinding prevents chipping during handling and reduces particle generation in cleanrooms
-
-**Weaknesses**:
-- Cassette-to-cassette automation requires precision robotics — significant capital cost for small-scale operations
-- Edge grinding removes 0.1-0.3 mm from diameter, wasting silicon and requiring tight CNC control for consistent profiles
-
 ## Lapping
 
 Sawn wafers have saw marks, waviness, and subsurface damage from the cutting process. Lapping removes bulk material and improves flatness using free abrasive slurry between two large flat plates.
@@ -104,14 +88,6 @@ Sawn wafers have saw marks, waviness, and subsurface damage from the cutting pro
 - Material removal: 20-50 μm total (10-25 μm per side). This eliminates most saw damage and improves flatness to 2-5 μm total thickness variation (TTV) across a 200 mm wafer. Lapped wafer thickness: 725 ±10 μm (200 mm) or 925 ±10 μm (300 mm).
 - Plate pressure: 10-30 kPa. Cycle time: 15-30 minutes per batch (typically 20-30 wafers per carrier for 200 mm, 10-15 for 300 mm).
 - After lapping, wafers are cleaned thoroughly in an ultrasonic bath to remove all embedded abrasive particles. Any remaining Al₂O₃ particles on the wafer surface will cause scratches during the polishing step that follows.
-
-**Strengths**:
-- Double-sided lapping achieves 2-5 μm TTV across a 200 mm wafer — sufficient for most device fabrication
-- Epicyclic carrier motion produces uniform, non-directional material removal with no preferential scratch pattern
-
-**Weaknesses**:
-- Al₂O₃ abrasive particles embed in the wafer surface and must be completely removed by ultrasonic cleaning before CMP
-- Lapping removes only 20-50 μm — insufficient to eliminate deep saw damage, requiring etching as an intermediate step
 
 ## Etching
 
@@ -151,14 +127,6 @@ Chemical-mechanical polishing (CMP) produces the mirror-smooth surface required 
 - DSP wafers have superior flatness (TTV < 2 μm for 300 mm) because the double-sided process is inherently self-correcting for thickness variation. Local flatness (site flatness, measured over a 25 × 25 mm area): < 0.1 μm. This level of flatness is necessary for deep-UV lithography with depth-of-focus budgets of ±50 nm. Most 300 mm prime wafers are DSP.
 - Nanotopography: <5 nm over 2 × 2 mm area (the "waviness" at intermediate spatial frequencies — affects gate oxide uniformity).
 
-**Strengths**:
-- CMP achieves <0.5 nm Ra surface roughness — mirror-smooth, required for sub-micron lithography depth of focus
-- Double-sided polishing achieves TTV <2 μm for 300 mm wafers with site flatness <0.1 μm over 25 × 25 mm
-
-**Weaknesses**:
-- Colloidal silica slurry (pH 10-11) is a chemical burn hazard and environmental disposal challenge
-- Pad conditioning every 30-60 seconds is required — without it, removal rate drops 50-80% in 30 minutes
-
 ## Cleaning (RCA Clean)
 
 After polishing, wafers carry residues of polishing slurry, organic contaminants (skin oils, airborne organics), metal ions (Fe, Cu, Ni from processing equipment), and particles (silica, pad debris). The RCA clean (developed by Werner Kern at RCA Laboratories in 1965) is the standard sequence for removing all contaminants without damaging the pristine silicon surface.
@@ -184,14 +152,6 @@ After polishing, wafers carry residues of polishing slurry, organic contaminants
 - **Spin rinse dryer**: wafers are spun at 3000-5000 RPM while rinsed with ultra-pure water, then blown dry with filtered hot nitrogen (60-80°C). Centrifugal force removes water from the surface. Fast (3-5 minutes per batch) but can generate particles from water droplets hitting the wafer surface at high speed.
 - **[Marangoni drying](../glossary/marangoni-drying.md)** (for critical applications): the wafer is slowly withdrawn from a water bath at 1-5 mm/s while a thin layer of isopropyl alcohol (IPA) vapor is introduced at the water surface. The surface tension gradient between the IPA-rich meniscus and the pure water below (the Marangoni effect) pulls water off the wafer surface as it withdraws, leaving a dry, particle-free surface without mechanical force. Superior to spin drying for wafers with fragile microstructures.
 
-**Strengths**:
-- SC-1/SC-2 sequence removes particles to 0.1 μm and metals to <10¹⁰ atoms/cm² — the industry standard for 60+ years
-- Marangoni drying leaves zero water marks or particle adders, critical for sub-100 nm device fabrication
-
-**Weaknesses**:
-- RCA clean uses three hazardous chemicals (NH₄OH, H₂O₂, HCl) at 75-85°C — requires dedicated ventilation and PPE
-- HF dip produces hydrophobic surface that re-contaminates within hours, requiring immediate downstream processing
-
 ## Wafer Cleaning Technology
 
 **Ultrapure water (UPW) production**: Wafer cleaning requires water of extreme purity: resistivity 18.2 MΩ·cm (theoretical maximum for pure water at 25°C), total organic carbon (TOC) <1 ppb, particles <1/mL at ≥0.05 μm, dissolved oxygen <10 ppb, silica <1 ppb, metals <10 ppt (parts per trillion) each. UPW production system: municipal water → multimedia filter (5-20 μm) → activated carbon (removes chlorine and organics) → water softener (removes Ca²⁺, Mg²⁺) → reverse osmosis (RO, 95-99% rejection of dissolved ions at 10-20 bar, produces 70-80% permeate) → electrodeionization (EDI, continuous ion exchange + electrodialysis, polishing to <0.1 μS/cm) → mixed-bed ion exchange (final polishing to 18.2 MΩ·cm) → UV sterilization (254 nm, kills bacteria and breaks down TOC) → ultrafiltration (0.01 μm membrane, final particle removal) → distribution loop (continuous recirculation at 2-5 m/s velocity through PVDF or PFA piping, maintained at 20-25°C). UPW consumption: 5-20 L per wafer processed (a fab processing 50,000 wafers/month consumes 5,000-30,000 m³/day of UPW).
@@ -199,14 +159,6 @@ After polishing, wafers carry residues of polishing slurry, organic contaminants
 **Megasonic cleaning**: Conventional ultrasonic cleaning (20-40 kHz) is too aggressive for patterned wafers — cavitation bubbles (1-50 μm) collapse with sufficient force to damage delicate structures (metal lines, low-k dielectrics). Megasonic cleaning (800-2000 kHz) uses much smaller cavitation bubbles (0.1-1.0 μm) that provide gentle but effective particle removal from submicron features. A megasonic transducer (lead zirconate titanate, PZT, piezoelectric ceramic, 50-150 mm diameter) is mounted on the backside of a quartz tank filled with cleaning solution (dilute SC-1 at 50-60°C). Acoustic power density: 5-20 W/cm². Particle removal efficiency: >95% for 0.1-1.0 μm particles, <1% feature damage rate. Used after CMP and before gate oxidation.
 
 **Single-wafer spin cleaning**: Modern 300 mm fabs use single-wafer spin cleaners rather than batch immersion tanks (better particle control, less chemical consumption). The wafer spins at 300-1000 RPM on a vacuum chuck while nozzles dispense cleaning solutions (alternating SC-1, DI water rinse, DHF, DI water rinse, SC-2, final DI water rinse and N₂ spin-dry). Chemical flow: 50-200 mL/min per nozzle. Cycle time: 60-180 seconds per wafer. Particle adders: <2 particles ≥0.09 μm per wafer per clean cycle. Chemical consumption: 30-80% less than batch cleaning.
-
-**Strengths**:
-- Megasonic cleaning (800-2000 kHz) removes >95% of 0.1-1.0 μm particles with <1% feature damage — safe for patterned wafers
-- Single-wafer spin cleaning uses 30-80% less chemical than batch immersion while adding <2 particles per cycle
-
-**Weaknesses**:
-- UPW production requires multi-stage purification (RO, EDI, UV, UF) consuming 5,000-30,000 m³/day for a large fab
-- UPW quality spec of <10 ppt metals demands continuous monitoring and frequent membrane replacement
 
 ## Epitaxial Wafer Production
 
@@ -217,14 +169,6 @@ Many IC fabrication processes require an epitaxial layer: a thin (1-100 μm) sin
 - Growth rate: TCS at 1100°C: 0.5-2.0 μm/min. Silane at 900°C: 0.1-0.5 μm/min (lower temperature, but higher defect density if temperature is too low — "haze" from polycrystalline nucleation).
 - Doping: add phosphine (PH₃) for n-type epi or diborane (B₂H₆) for p-type epi, at 0.01-100 ppm in the gas stream. Dopant concentration in the epi layer is proportional to the dopant gas partial pressure (Henry's law). Typical epi layer thickness: 2-20 μm for CMOS, 50-100 μm for power devices. Epi layer resistivity uniformity: ±5-10% across the wafer, ±5% wafer-to-wafer within a batch.
 - The polished wafer surface quality directly affects epitaxial layer quality. Any surface contamination disrupts growth, causing stacking faults, hillocks, or polycrystalline deposits. The RCA clean must be performed immediately before epitaxial growth.
-
-**Strengths**:
-- Epi layer doping is decoupled from substrate — enables p/p+ and n/n+ CMOS configurations with independently optimized resistivity
-- CVD epitaxy at 0.5-2.0 μm/min provides ±5-10% resistivity uniformity across the wafer
-
-**Weaknesses**:
-- Autodoping tail extends 0.5-3.0 μm into the epi layer from substrate dopant evaporation at 1050-1200°C
-- Silane and phosphine/diborane dopant gases are pyrophoric and extremely toxic — requiring gas cabinets with continuous exhaust
 
 **Autodoping control**: Dopant atoms from the heavily doped substrate evaporate during the high-temperature epi process and incorporate into the growing epi layer, causing a transition region at the substrate-epi interface where the doping level gradually changes from substrate to epi concentration. This "autodoping tail" extends 0.5-3.0 μm into the epi layer. Minimize by: (1) Using reduced pressure (50-150 Torr) — lower pressure increases the mean free path and sweeps evaporated dopant away from the surface faster. (2) Growing a thin undoped "buffer" layer first (0.5-1.0 μm), then growing the doped epi layer on top. (3) Using lower growth temperature (950-1050°C instead of 1100-1200°C) — reduces dopant evaporation from the substrate but also reduces growth rate.
 
@@ -252,14 +196,6 @@ Many IC fabrication processes require an epitaxial layer: a thin (1-100 μm) sin
 
 **Stress relief after grinding**: Mechanical grinding leaves subsurface damage (micro-cracks, residual compressive stress in a 1-5 μm surface layer). If not removed, these cracks propagate during subsequent thermal processing, causing wafer fracture. CMP removes 3-10 μm from the ground surface to eliminate all subsurface damage. Dry etch (SF₆/O₂ plasma, 5-20 μm removal) is an alternative for stress relief — plasma etching is isotropic and damage-free. The combination of coarse grinding → fine grinding → CMP or dry etch produces a thin, flat, stress-free wafer ready for backside processing.
 
-**Strengths**:
-- Coarse grinding removes 5-20 μm/min, enabling rapid thinning from 775 μm to 100 μm in under 2 hours
-- CMP or plasma etch stress relief eliminates subsurface micro-cracks that would propagate during thermal processing
-
-**Weaknesses**:
-- Minimum mechanical grinding thickness of 50-100 μm (200 mm) — thinner wafers fracture under grinding load
-- Ultra-thin wafers (<50 μm) require temporary bonding to carrier wafers, adding process complexity
-
 ## Gettering
 
 **Purpose**: Metallic impurities (Fe, Cu, Ni, Au) dissolved in silicon create deep-level traps that reduce minority carrier lifetime (from >1000 μs in ultra-pure silicon to <1 μs with 10¹²-10¹³ atoms/cm³ of Fe). Gettering captures these impurities at benign locations away from the active device region (the front surface where transistors are built).
@@ -282,14 +218,6 @@ Many IC fabrication processes require an epitaxial layer: a thin (1-100 μm) sin
 
 **Reclaim process**: (1) Strip all films: wet etch or plasma etch to remove photoresist, oxides, nitrides, metals, and polysilicon. Sequential stripping: O₂ plasma ash for resist → HF (5%) for oxide → H₃PO₄ at 160°C for Si₃N₄ → HCl:H₂O₂:H₂O for metals. (2) Surface inspection: verify all films removed, measure residual particles and defects. (3) Light CMP polish: remove 3-10 μm from the wafer surface to eliminate any embedded particles or subsurface damage from previous processing. (4) Final clean and inspection to prime wafer specifications. Reclaim yield: 85-95% per cycle (5-15% loss from breakage, excessive thinning, or unrecoverable defects). A 300 mm prime wafer costs $30-80 new. A reclaimed 300 mm wafer costs $10-25.
 
-**Strengths**:
-- Reclaim saves 50-70% vs. new prime wafers — test/monitor wafers reused 3-10 times before retirement
-- 85-95% reclaim yield per cycle makes economics attractive for high-volume fabs using thousands of test wafers/month
-
-**Weaknesses**:
-- Each reclaim cycle removes 3-10 μm, eventually making the wafer too thin for handling after 3-10 cycles
-- Sequential stripping (plasma → HF → H₃PO₄ → HCl) is a multi-step chemical process requiring dedicated equipment
-
 ## Wafer Quality Metrics
 
 **Oxygen precipitation**: CZ-grown silicon contains 5-20 ppma interstitial oxygen (from dissolution of the SiO₂ crucible during crystal growth). During wafer processing at 900-1200°C, oxygen can precipitate as SiO₂ particles (50-500 nm) in the wafer bulk. These precipitates are beneficial for intrinsic gettering but harmful if they form in the device active region (within 10-30 μm of the front surface). Oxygen precipitation is controlled by: (1) Adjusting initial oxygen content (target 12-16 ppma for balanced gettering). (2) Thermal history of the wafer (rapid thermal processing at >1000°C dissolves precipitates; slow cooling through 650-800°C nucleates them). (3) Denuded zone formation (high-temperature out-diffusion step at 1100°C depletes oxygen from the surface region).
@@ -297,14 +225,6 @@ Many IC fabrication processes require an epitaxial layer: a thin (1-100 μm) sin
 **Metallic contamination limits**: Maximum acceptable surface metal concentrations on prime wafers (measured by TXRF — Total Reflection X-ray Fluorescence, or VPD-ICPMS): Fe <5 × 10⁹ atoms/cm², Cu <5 × 10⁹, Ni <5 × 10⁹, Al <1 × 10¹⁰, Na <1 × 10¹⁰, Cr <1 × 10¹⁰, Zn <1 × 10¹⁰. At the front-end process line (gate oxidation), limits are 10-100× stricter (<10⁸ atoms/cm² for Fe, Cu, Ni). Iron is the most problematic contaminant: Fe interstitials act as deep-level recombination centers (energy level Ev + 0.39 eV), reducing minority carrier lifetime from >1000 μs to <10 μs at 10¹² cm⁻³ Fe concentration.
 
 **Particle specifications**: Prime wafer particle limits (per SEMI M1): 200 mm wafers: ≤10 particles ≥0.12 μm LPD per wafer. 300 mm wafers: ≤30 particles ≥0.09 μm LPD per wafer. Particles are measured by laser surface scanning (darkfield or brightfield). Each process step adds 5-50 particles per wafer on average — a 30-step CMOS process can accumulate 500-1500 particles per wafer. Particle kill ratio: approximately 10-30% of particles ≥0.5 μm that land on active device areas cause yield-limiting defects.
-
-**Strengths**:
-- TXRF and VPD-ICPMS measure surface metals down to 10⁹ atoms/cm² — sensitive enough for gate oxide quality control
-- Laser surface scanning detects particles down to 0.09 μm with full-wafer mapping for yield prediction
-
-**Weaknesses**:
-- Each process step adds 5-50 particles — a 30-step CMOS flow accumulates 500-1500 particles even in ISO Class 5 cleanrooms
-- Iron contamination at just 10¹² cm⁻³ reduces minority carrier lifetime from >1000 μs to <10 μs
 
 ## Wafer Inspection and Quality Control
 
@@ -317,14 +237,6 @@ Every wafer must be inspected after each major processing step. Defective wafers
 - **Laser scattering**: a laser beam scans the wafer surface at oblique incidence. Particles, scratches, and pits scatter light detected by photomultiplier tubes. Sensitivity: detects particles down to 0.1 μm on polished wafers. Mapping resolution: 0.1-1.0 μm minimum detectable defect size. Each wafer is mapped with defect locations (x,y coordinates) for yield prediction. Rejection criteria: >10 LPDs ≥0.16 μm on 200 mm, >30 LPDs ≥0.12 μm on 300 mm.
 - **Brightfield/darkfield microscopy**: manual or automated microscope inspection at 100-500× magnification. Used to classify defect types (particle, scratch, pit, haze, crystal-originated particles/COPs — octahedral voids 50-200 nm formed during crystal growth by vacancy aggregation).
 
-**Strengths**:
-- Fizeau interferometer maps thickness at 10,000-100,000 points — detects site flatness deviations <0.10 μm over 25 × 8 mm sites
-- Laser scattering detects particles down to 0.1 μm with x,y coordinate mapping for yield correlation
-
-**Weaknesses**:
-- Full-surface optical inspection at 0.1 μm sensitivity processes only 5-20 wafers/hour — throughput bottleneck for high-volume fabs
-- COPs (crystal-originated particles, 50-200 nm voids) are intrinsic to CZ growth and cannot be eliminated by wafer processing
-
 ## Wafer-Level Metrology
 
 **Film thickness measurement**: Ellipsometry measures the change in polarization of reflected light (Ψ and Δ angles) at 150-800 nm wavelength to determine thin film thickness (1 nm to 10 μm) and refractive index. Spectroscopic ellipsometry (SE) scans 200-800 nm wavelengths, fitting the data to an optical model of the film stack. Accuracy: ±0.1 nm for SiO₂ films >10 nm thick. For ultra-thin gate oxides (1-3 nm), X-ray reflectometry (XRR) provides better accuracy (±0.02 nm for films 1-50 nm).
@@ -333,14 +245,6 @@ Every wafer must be inspected after each major processing step. Defective wafers
 
 **Defect inspection**: Brightfield inspection (broadband light, minimum detectable defect 50-100 nm), darkfield inspection (low-angle illumination, more sensitive to particles and bumps), and electron beam inspection (3-10 nm resolution, very slow — used for sample inspection). Throughput: 5-20 wafers per hour for full-surface optical inspection at 0.1 μm sensitivity.
 
-**Strengths**:
-- Spectroscopic ellipsometry measures film thickness to ±0.1 nm for SiO₂ >10 nm — non-destructive, fast, and repeatable
-- SIMS achieves 10¹⁴-10¹⁶ atoms/cm³ detection limits for B, P, As with 1-5 nm depth resolution for junction profiling
-
-**Weaknesses**:
-- SIMS is destructive (sputters the wafer surface) and slow — not suitable for in-line production monitoring
-- Electron beam inspection at 3-10 nm resolution is too slow for full-wafer scans, limited to sample defect review
-
 ## Wafer Handling and Automation
 
 **FOUP (Front-Opening Unified Pod)**: Standard wafer carrier for 300 mm wafers (SEMI E62 standard). Holds 25 wafers in a sealed, nitrogen-purged enclosure with a front-opening door (interfacing with tool load ports). Material: polycarbonate or PEEK shell, carbon-filled for ESD protection (surface resistivity 10⁵-10⁹ Ω/sq). Internal environment: <1% O₂, <1% RH (nitrogen purge prevents native oxide growth). Wafer pitch: 10 mm. FOUP weight with 25 × 300 mm wafers: ~8 kg. FOUP cost: $300-800 each. An automated 300 mm fab has 5,000-20,000 FOUPs in circulation. See [Cleanrooms](../photolithography/cleanrooms.md).
@@ -348,14 +252,6 @@ Every wafer must be inspected after each major processing step. Defective wafers
 **SMIF (Standard Mechanical InterFace)**: The 200 mm equivalent — a sealed pod (SEMI E19) that mates with a load port on the process tool. The tool opens the pod door mechanically, maintaining the clean environment inside. SMIF pods hold 25 × 200 mm wafers. Each SMIF pod is opened 30-60 times during a typical CMOS process flow. Pod integrity: <1 particle ≥0.12 μm added per open-close cycle.
 
 **Wafer orientation in cassette**: Wafers are loaded into the cassette with the notch (or flat) pointing toward the cassette hinge pin (SEMI standard orientation). The notch must be at a specific angular position (bottom-center for notch wafers, or the flat faces the cassette back for flat wafers). The cassette slots are tapered to prevent wafer edge contact with the cassette walls.
-
-**Strengths**:
-- FOUP nitrogen purge maintains <1% O₂ and <1% RH, preventing native oxide growth during wafer storage and transport
-- SMIF pods add <1 particle ≥0.12 μm per open-close cycle — minimal contamination during 30-60 openings per process flow
-
-**Weaknesses**:
-- A 300 mm fab requires 5,000-20,000 FOUPs at $300-800 each — $1.5-16M in wafer carrier inventory alone
-- FOUPs at 8 kg each pose repetitive strain injury risk for operators handling overhead load ports
 
 ## Thermal Processing of Wafers
 
@@ -399,41 +295,17 @@ Every wafer must be inspected after each major processing step. Defective wafers
 
 **Die yield economics**: For a 300 mm wafer costing $50-80, containing ~700 die of 10 × 10 mm each at 80% yield, the cost per known-good die is ~$0.089 — the wafer is the cheapest part of semiconductor manufacturing. The subsequent processing (30-50 process steps) adds $200-1000 per wafer. This is why semiconductor manufacturing is fundamentally a yield business: a 10% yield improvement (80% → 90%) on a $1000 wafer saves ~$125 per wafer in effective die cost, worth $12.5 million per year on a 100,000 wafers/month fab.
 
-**Strengths**:
-- Wafer sort identifies failed die before packaging, avoiding $5-50 waste per die on parts that would fail anyway
-- Diamond blade dicing at 30,000-60,000 RPM produces 25-40 μm kerf — narrow enough to preserve die area
-
-**Weaknesses**:
-- Probe card contact (25-50 μm tips on 50-100 μm pads) damages bond pads — limits probe iterations
-- KGD testing adds 20-50% cost premium, but essential for multi-chip modules where yields multiply
-
 ## Cost Structure of Wafer Production
 
 **Capital equipment costs** (300 mm prime wafer production line, 100,000 wafers/month capacity): Wire saws ($500K-1.5M each, 5-10 units), lapping machines ($300K-800K each, 3-5 units), CMP polishers ($400K-1M each, 5-10 units), cleaning systems ($300K-1M each, 3-5 units), inspection tools ($500K-2M each, 5-10 units), cleanroom facility ($5K-15K per m², 2000-5000 m² Class 10-100). Total capital investment: $50-200 million. Depreciation: 5-7 years straight-line.
 
 **Operating costs per wafer** (300 mm prime, approximate breakdown): Polysilicon feedstock: $5-10. Crystal growth: $5-10. Wafering (wire saw, slurry, waste): $5-15. Lapping and CMP (abrasives, pads, chemicals): $5-15. Cleaning (chemicals, UPW): $2-5. Inspection and metrology: $2-5. Cleanroom overhead: $5-15. Labor: $3-8. Overhead and depreciation: $10-25. Total: $42-108 per 300 mm prime wafer (selling price: $30-80 for commodity, $80-200+ for epi or specialty).
 
-**Strengths**:
-- Polysilicon feedstock at $5-10/wafer is a small fraction of total cost — wafer value is in processing, not raw material
-- 5-7 year depreciation on $50-200M capital gives $10-25/wafer at 100K wafers/month — manageable unit economics
-
-**Weaknesses**:
-- Total capital investment of $50-200M for a 100K wafers/month line — enormous upfront commitment
-- CMP consumables (slurry, pads) at $5-15/wafer are the single largest variable cost after silicon
-
 ## Wafer Shipping and Storage
 
 **Nitrogen-purged packaging**: Each 300 mm wafer is placed in an individual slot of a 25-wafer FOUP or wafer shipper (SEMI E57 standard). The shipper is sealed with two nested bags — inner bag (ESD-safe polyethylene, heat-sealed) and outer bag (polyethylene, also heat-sealed). Between the bags, a desiccant packet (silica gel, 5-10 g) absorbs residual moisture. The inner bag is purged with nitrogen (99.999% purity, <5 ppm O₂, <5 ppm H₂O) before sealing — the inert atmosphere prevents native oxide growth (bare silicon grows ~0.1-0.2 nm/day of SiO₂ in clean, dry air; in nitrogen, <0.02 nm/day). Shipping box: corrugated cardboard with foam cushioning (15-30 g/cm² shock absorption rated for 1.5 m drop). Shelf life: 12-24 months in original sealed packaging at 20-25°C, 40-60% RH. After opening, wafers should be used within 24-72 hours.
 
 **Edge exclusion**: Wafer specifications define an "edge exclusion zone" — a ring 2-5 mm from the wafer edge where device fabrication is not performed. For a 300 mm wafer with 3 mm edge exclusion, the usable area is 67,929 mm² out of 70,686 mm² total — a 3.9% loss. For 200 mm with 3 mm edge exclusion: 29,557 mm² out of 31,416 mm² — a 5.9% loss. Smaller wafers lose proportionally more area to edge exclusion, one of the economic drivers for migrating to larger wafer diameters.
-
-**Strengths**:
-- Nitrogen-purged packaging limits oxide growth to <0.02 nm/day — wafers remain usable for 12-24 months in sealed packaging
-- Double-bag sealing with desiccant and N₂ purge protects wafers during shipping without refrigeration
-
-**Weaknesses**:
-- After opening, wafers must be used within 24-72 hours — tight scheduling requirement for fab operations
-- Edge exclusion wastes 3.9-5.9% of wafer area depending on diameter, incentivizing migration to larger wafers
 
 ## Cleanroom Requirements
 

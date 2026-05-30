@@ -272,6 +272,21 @@ The development of new alloys follows a systematic approach rooted in thermodyna
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| 304 stainless welds show intergranular corrosion (weld decay) | Sensitization — Cr₂₃C₆ precipitates at 425–815°C depleting grain boundaries below 10.5% Cr | Use 304L (≤0.03% C) or stabilized grade 321 (Ti) / 347 (Nb) for welded service; avoid prolonged exposure in sensitization range |
+| M2 HSS cutting tool loses hardness after 30 minutes of machining | Retained austenite not fully decomposed — only 1 temper applied instead of required 2–3 | Apply 2–3 tempers at 540–560°C, 2 hours each; each cycle converts retained austenite to fresh martensite that is then tempered |
+| D2 tool steel die cracks under impact loading | D-series (12% Cr, massive carbide volume) has limited toughness — wrong grade for impact applications | Switch to S7 shock-resistant steel (0.5% C, 3.25% Cr, HRC 54–56) for impact; reserve D2 for abrasive wear applications only |
+| Hadfield steel (12–14% Mn) cannot be machined — tool work-hardens the surface | Inherent to austenitic manganese steel — any cutting induces martensitic surface transformation (HB 200→550) | Cast to near-net shape; grind if machining essential; never attempt conventional turning or milling — surface hardens 10–15× faster than plain carbon steel |
+| Inconel 718 weld cracks immediately after cooling | Strain-age cracking — γ" (Ni₃Nb) precipitates form during post-weld cooling, stressing the HAZ | Solution treat after welding at 1040°C, then apply two-step aging at 720°C + 620°C; 718's slow γ" kinetics allow welding if post-weld treatment is prompt |
+| Be-Cu component fails hardness test (below HRC 36) | Insufficient aging temperature or time — underaged condition retains soft solution-treated matrix | Verify solution treatment at 780–800°C completed; age at 315–350°C for 2–3 hours to precipitate Cu-rich phase for HRC 36–44 |
+| Ti-6Al-4V forging shows surface alpha-case contamination | Oxygen absorption above 600°C during hot working in air — forms hard, brittle oxygen-enriched layer | Hot work below 600°C in air, or above 600°C only in inert atmosphere (Ar) or with protective glass coating; remove alpha case by machining |
+| 7075-T6 aluminum stress corrosion cracks in marine environment | Peak-aged T6 temper susceptible to SCC in chloride environments due to grain boundary precipitates | Over-age to T73 temper (sacrifices ~10–15% strength from 572 MPa to ~490 MPa UTS but provides full SCC resistance) |
+| 2205 duplex stainless shows reduced pitting resistance (PREN <34) | Austenite-ferrite balance lost — excessive ferrite (>70%) from incorrect solution anneal temperature | Solution anneal at 1020–1100°C, water quench; verify ~50:50 phase balance by magnetic measurement or metallography |
+| Superalloy turbine blade shows premature creep failure at 800°C | Equiaxed grain structure used instead of DS or SX — grain boundaries initiate and propagate creep cracks | Specify directional solidification (10–20× creep improvement) or single-crystal casting (30–60× vs. equiaxed) with helical grain selector |
+
 ## See Also
 
 - [Iron & Steel](iron-steel.md) — primary ferrous metals

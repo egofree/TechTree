@@ -56,7 +56,7 @@ The Siemens-Martin open-hearth process dominated world steel production from 189
 **Operating cycle** (6-10 hours per heat):
 1. **[Charging](../glossary/charging.md)** (1-2 hours): Load scrap steel (40-60% of charge) and limestone (flux, 5-8% of metal weight) through side doors using charging machines. Pour molten pig iron (the "hot metal," 40-60% of charge) onto the hearth.
 2. **[Melt-down](../glossary/melt-down.md)** (2-4 hours): Burner flame melts scrap and heats the combined bath to 1500-1550°C. Silicon oxidizes first, then manganese.
-3. **[Ore washing /沸腾 (boil)](../glossary/ore-washing-boil.md)** (1-2 hours): Add iron ore (Fe₂O₃) to the bath to provide oxygen for decarburization. Fe₂O₃ + 3C → 2Fe + 3CO. The CO evolution causes the bath to "boil" — stirring the metal and floating out inclusions. Carbon drops 0.3-0.5% per hour. The boil also homogenizes temperature and composition throughout the shallow bath.
+3. **[Ore washing / boiling](../glossary/ore-washing-boil.md)** (1-2 hours): Add iron ore (Fe₂O₃) to the bath to provide oxygen for decarburization. Fe₂O₃ + 3C → 2Fe + 3CO. The CO evolution causes the bath to "boil" — stirring the metal and floating out inclusions. Carbon drops 0.3-0.5% per hour. The boil also homogenizes temperature and composition throughout the shallow bath.
 4. **[Deoxidation and finishing](../glossary/deoxidation-and-finishing.md)** (30-60 min): Stop ore additions when target carbon is reached. Add ferromanganese (Mn 70-80%, 8-12 kg/tonne steel) and aluminum (0.3-0.8 kg/tonne) to deoxidize. Take samples, adjust composition with ferroalloys.
 5. **Tapping**: Tilt the furnace or open the tap hole. Steel flows into a ladle. Tap-to-tap time: 6-10 hours. Heat size: 100-300 tonnes.
 
@@ -74,7 +74,7 @@ The basic oxygen furnace (also called LD converter, after Linz and Donawitz, Aus
 
 **Oxygen lance**: A triple-walled water-cooled copper pipe, 200-300 mm outer diameter, with 3-6 nozzle exits at the tip designed for supersonic flow (Mach 1.5-2.5). Oxygen flow rate: 15,000-25,000 Nm³/hour at 8-15 bar. The lance is positioned 1-3 m above the bath surface — the supersonic oxygen jets penetrate the slag layer and impinge on the metal, creating a vigorous reaction zone.
 
-**[Operating sequence](../glossary/operating-sequence.md)** (total cycle: 30-45 min, blowing time: 15-20 min):
+****Operating sequence**** (total cycle: 30-45 min, blowing time: 15-20 min):
 1. **[Charge scrap](../glossary/charge-scrap.md)** (20-30% of total charge, 50-100 tonnes). Scrap acts as coolant — the exothermic reactions generate more heat than needed, and scrap absorbs the excess. Larger scrap pieces are placed at the bottom; light scrap on top.
 2. **[Charge hot metal](../glossary/charge-hot-metal.md)** (70-80% of charge). Pour molten pig iron from blast furnace torpedo car or hot metal ladle at 1300-1350°C. Typical hot metal composition: 4.0-4.5% C, 0.3-0.8% Si, 0.3-0.8% Mn, 0.05-0.15% P, 0.02-0.05% S.
 3. **Add fluxes**: Burned lime (CaO, 30-70 kg/tonne steel) and dolomite (CaO·MgO, 5-15 kg/tonne). Flux creates a basic slag (V-ratio = CaO/SiO₂ = 2.5-4.0) that absorbs SiO₂, MnO, and P₂O₅. Fluorspar (CaF₂, 2-5 kg/tonne) may be added to improve slag fluidity.
@@ -233,7 +233,7 @@ Steelmaking capability builds in stages, each requiring progressively more infra
 | Nitrogen embrittlement | Air blow (Bessemer) dissolves N₂ in steel | Switch to oxygen blow (BOF); use bottom-blown or combined blowing; add aluminum to tie up nitrogen |
 | Blistering in continuous casting | Dissolved gas (H₂, N₂) forming bubbles during solidification | Degas in ladle furnace; reduce moisture in refractories and alloys; use vacuum degassing for critical grades |
 | Surface cracks on slabs | Uneven cooling or mold misalignment | Optimize spray cooling pattern; check mold taper and alignment; adjust casting speed |
-| Ingot pipe (shrinkage cavity) | Insufficient hot topping or poor feeding | Use exothermic hot tops; increase pouring temperature; apply sufficient保温 (insulating) cap |
+| Ingot pipe (shrinkage cavity) | Insufficient hot topping or poor feeding | Use exothermic hot tops; increase pouring temperature; apply sufficient insulating compound cap |
 
 ## See Also
 

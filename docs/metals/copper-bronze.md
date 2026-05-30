@@ -81,7 +81,7 @@ Copper smelting reduces copper oxide ores to metallic copper at temperatures abo
 
 Molten copper and bronze are poured into molds to produce ingots, tools, and complex shapes. Three mold types serve different purposes; lost-wax casting enables the most intricate forms.
 
-**Prerequisites**: [copper smelting](#41-copper-smelting) (above), [beekeeping](../animals/beekeeping.md) for wax, [clay working](../ceramics/pottery.md)
+**Prerequisites**: [copper smelting](#copper-smelting) (above), [beekeeping](../animals/beekeeping.md) for wax, [clay working](../ceramics/pottery.md)
 
 **Materials**: silica sand (>95% SiO₂, grain 0.1-0.5 mm), fire clay, beeswax (mp 62-65 °C), soapstone or fine-grained stone for reusable molds
 
@@ -138,7 +138,7 @@ Pure copper in annealed state is ~50 Vickers hardness — too soft for tools. Co
 
 Copper and bronze can be hot-forged like [iron and steel](iron-steel.md), but at lower temperatures.
 
-**Prerequisites**: [copper smelting](#41-copper-smelting), [fire](../foundations/fire.md), anvil (stone or iron)
+**Prerequisites**: [copper smelting](#copper-smelting), [fire](../foundations/fire.md), anvil (stone or iron)
 
 **Materials**: copper or bronze billets, charcoal forge, anvil (hardened steel or stone), hammers (1-3 kg cross-peen and ball-peen)
 
@@ -170,7 +170,7 @@ Copper and bronze can be hot-forged like [iron and steel](iron-steel.md), but at
 
 Adding tin to copper produces bronze: harder, lower melting point (~950 °C for 10% tin), better castability (flows into fine mold details), and more corrosion-resistant than pure copper.
 
-**Prerequisites**: [copper smelting](#41-copper-smelting), [tin metal](non-ferrous.md) (from cassiterite SnO₂)
+**Prerequisites**: [copper smelting](#copper-smelting), [tin metal](non-ferrous.md) (from cassiterite SnO₂)
 
 **Materials**: copper ingots (>99% Cu), tin metal (>95% Sn, from cassiterite), clay-graphite crucible, green stick for stirring
 
@@ -210,7 +210,7 @@ Adding tin to copper produces bronze: harder, lower melting point (~950 °C for 
 
 Fire-refined ("tough pitch") copper is ~99.5% pure — adequate for structural and decorative use but insufficient for electrical conductivity. Electrolytic refining produces 99.99% Cu by dissolving impure anodes and plating pure copper onto cathodes.
 
-**Prerequisites**: [electricity](../energy/electricity.md), [sulfuric acid](../chemistry/acids.md), [fire refining](#49-industrial-copper-smelting) (anode production)
+**Prerequisites**: [electricity](../energy/electricity.md), [sulfuric acid](../chemistry/acids.md), [fire refining](#industrial-copper-smelting) (anode production)
 
 **Materials**: impure copper anodes (99.0-99.5% Cu, 250-400 kg each), pure copper starter sheets (~1 mm thick), CuSO₄·5H₂O (35-50 g/L Cu²⁺), H₂SO₄ (150-220 g/L), DC power supply (0.25-0.40 V per cell)
 
@@ -260,7 +260,7 @@ Fire-refined ("tough pitch") copper is ~99.5% pure — adequate for structural a
 
 Brass is a copper-zinc alloy. Zinc lowers melting point, increases ductility, and produces a gold-colored alloy valued for decorative, mechanical, and marine applications. Unlike bronze (Cu-Sn), brass is easier to cast, more malleable at room temperature, and has superior machinability — but lower hardness and less corrosion resistance in seawater.
 
-**Prerequisites**: [copper smelting](#41-copper-smelting), [zinc metal](non-ferrous.md) or calamine (zinc carbonate)
+**Prerequisites**: [copper smelting](#copper-smelting), [zinc metal](non-ferrous.md) or calamine (zinc carbonate)
 
 **Materials**: copper ingots, zinc metal or calamine (ZnCO₃/ZnO), charcoal (reducing cover), clay-graphite crucible
 
@@ -295,7 +295,7 @@ Brass is a copper-zinc alloy. Zinc lowers melting point, increases ductility, an
 
 Copper is the dominant electrical conductor worldwide. Its combination of high conductivity (58.0 MS/m at 20 °C for annealed pure copper), ductility (enables wire drawing to fine gauges), solderability, and moderate cost make it irreplaceable in power generation, transmission, motors, and electronics.
 
-**Prerequisites**: [electrolytic copper refining](#46-electrolytic-copper-refining), [wire drawing](#44-forging--forming-copper), [electricity](../energy/electricity.md)
+**Prerequisites**: [electrolytic copper refining](#electrolytic-copper-refining), [wire drawing](#forging-forming-copper), [electricity](../energy/electricity.md)
 
 **Materials**: electrolytic copper cathodes (99.99% Cu), tungsten carbide or diamond drawing dies, soap solution or oil-based lubricant, enamel or insulation materials
 
@@ -385,7 +385,7 @@ Two-stage blow cycle:
 
 Copper and nickel are fully soluble in each other in all proportions (complete solid solution), enabling a continuous range of alloys with properties tailored between the two elements. Nickel strengthens copper (solid-solution hardening), dramatically improves corrosion resistance (especially in seawater), and modifies electrical resistivity.
 
-**Prerequisites**: [copper refining](#46-electrolytic-copper-refining), [nickel metal](non-ferrous.md), induction furnace
+**Prerequisites**: [copper refining](#electrolytic-copper-refining), [nickel metal](non-ferrous.md), induction furnace
 
 **Materials**: electrolytic copper (99.99% Cu), nickel cathode (>99.9% Ni), manganese (0.5-1% addition), iron (0.5-2% addition), charcoal cover
 
@@ -424,6 +424,21 @@ Copper and nickel are fully soluble in each other in all proportions (complete s
 - **Zinc oxide fume (metal fume fever)**: Brass melting and zinc alloying generate zinc oxide (ZnO) fume when zinc vaporizes at 907 °C and re-oxidizes in air. Inhalation causes "metal fume fever" — flu-like symptoms (chills, fever, muscle aches, metallic taste) beginning 4-8 hours after exposure. OSHA PEL for ZnO fume: 5 mg/m³ as an 8-hour TWA. Prevention: local exhaust ventilation at the crucible, or work upwind of the pour.
 - **Slag and spark injuries**: During hot forging and slag skimming, hot slag and metal particles spray out as bright sparks at 700-900 °C. Eye protection (safety glasses rated ANSI Z87.1 or face shield) is essential when hammering hot metal. Slag skimmed from molten copper retains dangerous heat for extended periods — set aside on dry sand or refractory surface, never on combustible material.
 
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Smelt yields only 10% copper from malachite ore (should be 20–40%) | Charcoal-to-ore ratio too low (below 3:1) or furnace temperature below 1100°C | Increase charcoal ratio to 5:1; verify forced-air blast reaching 1100–1300°C; extend blast duration by 30 minutes |
+| Lost-wax casting shows incomplete fill (cold shuts) | Mold not preheated or pouring temperature below 1150°C — metal solidifies before filling cavity | Preheat mold to 200–400°C; superheat bronze to 1080–1150°C; increase sprue diameter to 8–10 mm for better flow |
+| Work-hardened copper cracks during bending | Over-worked without intermediate annealing — elongation dropped below 5% | Anneal at 400–650°C for 30–60 minutes to restore >90% ductility before further cold working; quenching does not harden copper |
+| Bronze casting has coarse, crystalline fracture with gas porosity | Tin content exceeds 12% (too brittle) or moisture in mold generating gas | Verify tin charge weight — target 88–95% Cu + 5–12% Sn; test density at 8.8 g/cm³ ±0.1; preheat molds to 200–400°C |
+| Electrolytic cathode fails conductivity test (<101% IACS) | Current density too high (>300 A/m²) causing dendritic growth and impurity occlusion | Reduce current density to 200–300 A/m²; maintain electrolyte at 50–65°C; continuously filter electrolyte to remove suspended solids |
+| Brass casting has reddish color instead of gold-yellow | Zinc vapor loss (3–8% per melt) underestimated — zinc content below target 30% | Increase zinc charge by 5–8% to compensate for vaporization; cover crucible with lid or charcoal layer at 950–1050°C |
+| Wire drawing: high breakage rate below 0.1 mm diameter | Insufficient intermediate annealing or die bore worn >5 μm over specification | Anneal every 2–3 passes (400–600°C under inert atmosphere); inspect tungsten carbide dies for wear (1–5 μm/tonne); replace with diamond dies for fine wire |
+| Stone mold casting shows dimensional drift after 20+ pours | Mold surfaces eroding from repeated thermal cycling at 1085–1200°C | Switch to new mold after 20–50 pours; for production runs >50 units, use carved soapstone or iron permanent molds |
+| Clay crucible shatters during copper pour | Crucible not dried or preheated — residual moisture flashes to steam on contact with molten copper | Air-dry furnace 2–5 days; preheat with gentle charcoal fire 15–30 minutes; never place a cold crucible into molten copper |
+| Cupronickel casting shows surface cracking and inverse segregation | Pour speed too fast or mold too cold (<200°C) causing Ni-enriched surface layer | Preheat mold to 200–400°C; reduce pour speed; deoxidize melt with magnesium or lithium before casting at 1170–1240°C |
 
 ## See Also
 

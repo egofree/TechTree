@@ -277,6 +277,21 @@ Recycling is integral to the aluminum industry — not an afterthought. The ener
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Bayer precipitation yield <45 g/L Al₂O₃ per pass | Seed charge insufficient or precipitation temperature too high (>65°C) reducing supersaturation | Increase hydrate seed charge to 200 g/L; cool liquor to 50–55°C; extend growth phase to 30–40 hours |
+| Hall-Héroult anode effect — voltage spikes to 20–40V | Alumina concentration dropped below 1.5%, bath no longer wets anode surface | Activate automated rapid alumina feed (1–2 kg per feed); lower anode to break gas film; target 2–4% Al₂O₃ in bath |
+| Anodes crack during baking at 1050–1200°C | Heating rate too fast in 200–600°C range — volatiles from pitch decomposition escape too rapidly | Reduce heating rate during pitch devolatilization zone; extend total bake cycle to 15–20 days for gradual volatile escape |
+| Aluminum casting shows visible porosity in cross-section | Dissolved hydrogen >0.1 mL/100g from moisture reaction (2Al + 3H₂O → Al₂O₃ + 3H₂) | Rotary degas with Ar or N₂ + 1–5% Cl₂; target <0.1 mL H₂/100g Al; preheat all tools to 150°C+ before immersion |
+| DC casting ingot shows surface tears and bleed-out | Casting speed too high or water spray flow insufficient for shell solidification | Reduce casting speed by 10–20%; increase direct water spray to solidification rate 10–100 mm/min; check metal level control |
+| Extrusion profile shows die lines and surface tearing | Billet preheat too high (>520°C for 6xxx) or extrusion speed excessive for alloy | Reduce billet preheat to 450–500°C; slow ram speed to 5–15 m/min for complex 6xxx profiles; verify ±5°C uniformity |
+| 5N aluminum sputtering target produces non-uniform film | Target grain size >100 μm causing spatially varying sputter yield | Recast target with controlled solidification for <100 μm grain size; machine to ±0.05 mm flatness; bond to Cu backing with indium |
+| Recycled aluminum contaminated with cast-alloy silicon | Cross-contamination of high-Si cast scrap (3xx/4xx) mixed with wrought scrap (1xxx–7xxx) | Implement XRT or LIBS sorting to separate cast from wrought before remelting; cast alloy Si >5% degrades wrought properties |
+| Hall-Héroult bath ratio drifted from 2.2–2.4 to >2.8 | AlF₃ consumed by sodium uptake into cathode and moisture ingress (AlF₃ + 3H₂O → Al₂O₃ + 6HF) | Add AlF₃ at 15–25 kg per tonne Al produced; monitor ratio by XRD or wet chemistry every 1–4 hours |
+| Zone refining fails to reach 6N purity from 4N5 aluminum after 30 passes | Cr (k=0.9) or Mn (k=0.9) present — segregation coefficients near unity make zone refining ineffective | Pre-purify by three-layer electrolysis (Hoopes process, 720–780°C) to reduce Cr and Mn before zone refining; these must be controlled earlier |
+
 ## See Also
 
 - [Alkalis](../chemistry/alkalis.md) — caustic soda for Bayer process

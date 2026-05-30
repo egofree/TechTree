@@ -285,6 +285,21 @@ These four metals converge at specific points in GPU fabrication:
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| CVD W plug fill shows voids in high-AR (8:1) contact vias | SiH₄ nucleation layer too thin (<20 nm) or WF₆ mass transport limited in deep features | Increase nucleation layer to 50 nm; use pulse-pressure CVD alternating 10 Torr (deposition) / 0.1 Torr (HF evacuation) for bottom-up fill |
+| TiN hard mask erodes before dielectric etch completes | TiN thickness <100 nm for deep trench etching — insufficient etch selectivity margin | Increase TiN to 150–200 nm (deposited by reactive DC magnetron sputtering in Ar/N₂); verify TiN:SiO₂ selectivity >10:1 in CF₄/C₄F₈ plasma |
+| Cu electroplating shows voids at bottom of damascene trenches (AR 5+) | PEG suppressor/SPS accelerator imbalance — not achieving superconformal bottom-up fill | Verify PEG at 100–500 ppm and SPS at 1–10 ppm; increase SPS to raise accelerator/surface-area ratio at trench bottom; plate at 5–30 mA/cm² |
+| Cu CMP dishing >30 nm on 10 µm pads | Downforce too high during clearing step or slurry selectivity insufficient (Cu:barrier <20:1) | Reduce downforce to 1–2 psi for clearing step; use barrier slurry with BTA (0.01–0.1%) at pH 8–10; target dishing <10 nm for pads |
+| CVD W film stress >1.5 GPa tensile causes wafer bowing >200 µm | Pure H₂ reduction (WF₆ + 3H₂) produces inherently tensile film (0.5–1.5 GPa) | Alternate H₂ and SiH₄ reduction steps — SiH₄-derived W is compressive (-0.5 to -1.0 GPa); net stress target ±0.2 GPa |
+| Mo gate electrode sheet resistance >5 Ω/sq at sub-22 nm node | ALD Mo (MoCl₅ + H₂) has high resistivity (15–30 µΩ·cm) from C/Cl contamination | For NMOS: switch to MoNₓ (x = 0.1–0.3) for work function 4.2–4.4 eV; verify ALD produces resistivity <30 µΩ·cm; target <5 Ω/sq |
+| Electromigration MTTF <10 years at 105°C junction temperature | Cu grain size <0.5 µm (as-plated) — excessive grain boundary diffusion paths for Cu atom migration | Post-plate anneal at 200–300°C for 30–60 min to grow grains to 0.5–5 µm; add CoWP self-forming barrier cap (5–20 nm by electroless plating) |
+| WF₆ gas delivery pressure drops during high-flow CVD runs | WF₆ cylinder cooling from endothermic vaporization reduces vapor pressure at 17°C boiling point | Use heated gas cabinet (40–60°C); install mass flow controller calibrated for WF₆; verify all lines are Ni or Monel (WF₆ attacks stainless) |
+| TiN barrier fails BTS test in <10 minutes with Cu interconnect | Polycrystalline TiN grain boundaries allow Cu diffusion at temperatures >250°C — inadequate for damascene | Switch to TaN/Ta barrier (BTS >60 minutes at 350°C, 1 MV/cm); TiN is only adequate for W plug barrier, not Cu damascene applications |
+| 5N Mo sputtering target shows U/Th contamination >1 ppb by GDMS | Standard Mo powder contains 1–10 ppm U/Th from ore — insufficient purification for semiconductor use | Specify electron beam melting (2–4 passes at 2800–3200°C under <10⁻³ Pa) to volatilize U/Th; verify U/Th <1 ppb by GDMS before bonding to Cu backing plate |
+
 ## See Also
 
 - [Refractory & Specialty Metals](refractory-specialty.md) — tungsten, molybdenum, and tantalum

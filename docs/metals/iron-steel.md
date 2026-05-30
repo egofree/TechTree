@@ -302,6 +302,21 @@ These three forms of iron-carbon alloy represent fundamentally different materia
 - **Quenching hazards**: Plunging hot steel (780-850°C) into water produces violent boiling and steam splash. Oil quenching (used for springs and high-carbon steel to prevent cracking) creates risk of oil ignition — the oil can flash if the workpiece is too hot. Use a deep quench tank, lower the workpiece quickly and completely, and keep a lid nearby to smother oil fires. Do not use oil quenching near open flames.
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Bloom has dark, spongy surface with slag fragments | Furnace did not reach 1200–1400°C or charcoal-to-ore ratio too low | Increase charcoal ratio to 5:1 (from 4–8 kg per kg ore) and extend full blast by 30 minutes; verify bellows delivering 100–300 L/min |
+| Forge weld cracks at seam during bend test | Insufficient heat (below 1300°C) or oxide inclusions at joint — scale prevents metal-to-metal contact | Heat to bright yellow-white (1300–1400°C), apply silica sand or borax flux before hammering to dissolve surface oxide |
+| Quenched high-carbon steel (>0.6% C) cracks after water quench | Water quench too severe — excessive thermal stress in high-carbon steel | Switch to oil quench for steels with 0.6–1.0% C; temper immediately at 200–350°C (pale straw to brown oxide) |
+| Cast iron casting shows shrinkage cavities in thick sections | Insufficient riser volume to feed ~1% volumetric shrinkage during solidification | Increase riser size and position directly above thick sections; use 5–10% silica sand + 3–5% water molding sand |
+| Spring breaks after fewer than 1000 fatigue cycles | Undertempered — tempering temperature too low, leaving excessive brittleness from unrelieved martensite | Increase tempering temperature by 25–50°C; aim for 350–450°C for leaf springs (light straw to brown oxide color) |
+| Tensile specimen fractures well below expected yield (e.g., <200 MPa for A36) | High phosphorus or sulfur (>0.05% each) causing temper brittleness or hot shortness | Specify killed steel with P <0.04% and S <0.05%; normalize at 850–900°C before machining test specimens |
+| Carburized case depth <0.5 mm after 8 hours at 925°C | Carbon potential too low or furnace leaking air, diluting CO atmosphere | Check furnace seals; add fresh BaCO₃ energizer at 5–10% of pack; verify temperature with thermocouple (target 900–950°C) |
+| Brazed joint has poor strength — filler did not flow into gap | Joint gap too wide (>0.2 mm) for capillary action, or surfaces not clean | Maintain 0.05–0.15 mm clearance; clean to bare metal; apply borax flux; heat to bright red (~950°C) for brass filler |
+| Wrought iron bloom yields only 15% iron from malachite ore | Charcoal-to-ore ratio too low or air blast inconsistent — incomplete reduction | Increase ratio to 5:1 kg charcoal per kg ore; verify bellows delivering 100–300 L/min; check tuyere (2–4 cm) not blocked |
+| Soft solder balls up instead of wetting the joint | Surface oxide prevents adhesion, or soldering iron tip temperature below 250°C | Clean to bare metal with file; apply rosin flux; ensure copper bit temperature at 250–350°C; pre-tin both surfaces |
+
 ## See Also
 
 - [Copper & Bronze](copper-bronze.md) — prerequisite metallurgy

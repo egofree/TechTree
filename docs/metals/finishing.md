@@ -244,6 +244,21 @@ Paint is the most widely used protective coating for metals, but paint performan
 - Wastewater treatment: Plating and finishing shops generate wastewater containing heavy metals, cyanide, acids, and organic compounds. Treatment: cyanide destruction → chromium reduction (Cr⁶⁺ → Cr³⁺ by NaHSO₃ at pH 2-3) → metal hydroxide precipitation (lime or NaOH at pH 8-10) → settling/filtration → discharge to meet local effluent standards (typically <0.5 mg/L for Cr, Ni, Cu; <0.1 mg/L for Cd).
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Hot-dip galvanized coating is dark, thick, and spalling | Steel has 0.05–0.12% Si (Sandelin effect) causing excessive Fe-Zn intermetallic growth | Specify galvanizing-grade steel (Si <0.04% or 0.15–0.25%); add 0.04–0.09% Ni to bath to counteract Sandelin reactivity |
+| Hard chrome plating has rough, burned deposits at edges | Current density too high at part edges (>500 mA/cm²) causing powdery, non-adherent deposition | Use shields or robbers to distribute current; target 150–500 mA/cm² uniformly; verify bath at 50–65°C, CrO₃:SO₄ ratio ~100:1 |
+| Electroless nickel thickness varies >10% on complex geometry | Bath agitation insufficient or temperature gradient >3°C across part | Increase bath agitation; verify uniform heating at 85–95°C ±1°C; electroless Ni should inherently achieve ±2–5 µm uniformity |
+| Type II anodized coating fails salt spray test at <200 hours | Coating not sealed — porous Al₂O₃ structure remains open to corrosive ingress | Seal in hot DI water (95–100°C) or nickel acetate for 15–30 minutes to hydrate Al₂O₃ to boehmite (AlO(OH)), closing pores |
+| Zinc phosphate coating weight <1 g/m² (too thin for paint base) | Free acid too high (wrong acid ratio) or bath temperature below 40°C | Titrate bath: adjust total acid to 20–30 points, free acid to 2–4 points; raise temperature to 40–70°C per formulation |
+| Pack carburized case depth <0.5 mm after 4 hours at 925°C | Steel boxes not sealed (CO escaping) or BaCO₃ energizer depleted — insufficient carbon potential | Seal boxes with clay; refresh BaCO₃ energizer to 5–10% of pack; at 925°C, expect ~0.5 mm per √(hours) |
+| Pickled high-strength steel bolts (yield >1000 MPa) crack in service | Hydrogen embrittlement from atomic hydrogen generated during acid pickling (Fe + 2HCl → FeCl₂ + H₂) | Add inhibitor (0.1–0.5% urotropine) to pickling acid; bake at 150–200°C for 4–24 hours within 1 hour of pickling to drive out hydrogen |
+| Paint delaminates from structural steel within 2 years | Surface not blasted to Sa 2½ — mill scale or rust under paint (responsible for 80–90% of premature failures) | Reblast to Sa 2½ (near-white metal, ISO 8501-1) with 50–100 µm anchor profile; apply IOZ primer within 4 hours of blasting |
+| Copper sulfate passivation test shows Cu plating on 304 stainless | Free iron particles embedded from grinding or wire brushing with carbon steel tools | Re-passivate in 20–25% HNO₃ at 20–40°C for 30 minutes; avoid carbon steel tools that contaminate stainless surfaces |
+| HVOF tungsten carbide coating shows >2% porosity (should be <1%) | Spray stand-off distance too far or fuel pressure too low — particle velocity below 600 m/s | Reduce stand-off to 150–250 mm; verify fuel pressure at 0.3–1.0 MPa for supersonic gas velocity (600–1000 m/s) |
+
 ## See Also
 
 - [Acids](../chemistry/acids.md) — pickling and etching solutions

@@ -87,7 +87,7 @@ Zinc (mp 420°C, bp 907°C) is produced by roasting sphalerite (ZnS) to ZnO, the
 
 **Plant scale**: A modern electrolytic zinc plant produces 100,000-300,000 tonnes/year of SHG zinc. Requires 100-150 MW electrical power (for electrowinning at 3.0-3.5 kWh/kg × 300,000 t/year = 900-1050 GWh/year ≈ 100-120 MW average). Sulfuric acid co-production: 1.5-2.0 tonnes H₂SO₄ per tonne of zinc (from roasting off-gas via contact process — see [Acids and Bases](../chemistry/acids-bases.md)). The acid is a valuable byproduct, sold to fertilizer plants and chemical industries.
 
-## Troubleshooting — Electrolytic and Galvanizing Operations
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|

@@ -272,6 +272,21 @@ Precious metal production depends heavily on existing metallurgical and chemical
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Cyanidation recovery <85% from tank leach (should be 90–97%) | Ore not ground fine enough (>150 µm particles) or leach time below 24 hours | Grind to 75–150 µm; extend leach to 48–72 hours with continuous air sparging; verify NaCN at 0.05–0.1% and pH 10–11 |
+| Wohlwill anode passivates with AgCl crust, blocking dissolution | Anode silver content exceeds 5% — AgCl forms insulating layer on anode surface | Pre-refine via Miller chlorination to reduce silver below 5%; mechanically remove AgCl crust before continuing electrolysis |
+| Miller chlorination gold purity only 98.5% (target 99.5%) | Insufficient Cl₂ gas flow or chlorination time too short (<1 hour) | Extend chlorination to 2–4 hours; increase dry Cl₂ flow rate; verify melt temperature at 1100–1200°C |
+| Moebius silver electrolysis: deposited silver is dendritic, not crystalline | Current density too high (>300 A/m²) causing rough, non-compact growth | Reduce current density to 150–300 A/m²; verify electrolyte at AgNO₃ 40–60 g/L in 2–5 g/L HNO₃ at 25–40°C |
+| Mercury amalgamation recovers only 25% of gold from placer ore | Fine gold particles (<50 µm) not contacting mercury effectively | Pre-concentrate with sluice before amalgamation; use copper plates coated with mercury; switch to cyanidation for fine gold (<50 µm) |
+| Aqua regia dissolution leaves undissolved gold residue | Aqua regia not freshly mixed or HCl:HNO₃ ratio incorrect — insufficient NOCl generation | Use freshly mixed 3:1 HCl:HNO₃ by volume; heat gently to 60–80°C; add acid incrementally until reaction completes |
+| Gold wire bond fails at <5 grams-force pull test | Gold purity below 99.99% or bond pad surface contaminated with oxide | Verify gold is four-nines (99.99%+); ensure ENIG pad has 0.03–0.08 µm Au over 3–5 µm Ni; clean pad with UV ozone before bonding |
+| Silver paste on solar cell shows high contact resistance | Firing temperature below 700°C — glass frit did not etch through SiNₓ anti-reflection coating | Increase firing peak to 700–850°C; verify belt speed allows 10–30 seconds at peak temperature |
+| Parkes process: zinc-silver crust yield too low from lead bullion | Zinc addition <0.5% or temperature above 480°C reducing silver solubility in zinc | Add zinc at 0.5–2% by weight to lead at 450–480°C; verify distribution coefficient Ag:Zn/Pb ≈ 300:1 at 500°C |
+| Fire-refined silver only reaches 99.5% purity (need 99.9%) | Air blow time insufficient or temperature too low for complete Cu/Pb/Zn oxidation | Extend air blast at 1000–1100°C; skim slag thoroughly; for 99.99% purity, switch to Moebius electrolytic refining (AgNO₃ electrolyte) |
+
 ## See Also
 
 - [Non-Ferrous Metals](non-ferrous.md) — base metals smelting

@@ -394,6 +394,21 @@ VAR furnaces draw 2,000-20,000 A at 20-40 V DC. While the voltage is low, the av
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Sintered tungsten bar density only 85% theoretical (target 93–97%) | Sintering temperature too low (<2000°C) or hydrogen flow insufficient to reduce residual oxides | Increase direct sintering to 2500–3100°C (or IS: 1000–6000 A at 5–15 V); verify H₂ flow at 0.5–2.0 m³/hour per kg WO₃ |
+| Tungsten wire fractures during drawing below 0.1 mm diameter | Wire temperature below DBTT (~200–400°C) — tungsten is brittle at room temperature | Maintain wire at 400–800°C during drawing; use diamond dies for <1.0 mm; apply graphite or MoS₂ lubricant continuously |
+| WC-Co cemented carbide cutting tool chips at edge during steel machining | Co content too high (>15%) or WC grain too coarse (>5 µm) — insufficient hardness for precision cutting | Switch to fine-grain WC (0.5–1.0 µm) with 3–8% Co for HRC 85–95; add 0.3–0.8% VC grain growth inhibitor for submicron grades |
+| Molybdenum heating element sags and fails at 1500°C in <200 hours | Pure Mo recrystallizes above 1000–1100°C, losing creep resistance and becoming embrittled | Switch to TZM alloy (Mo + 0.5% Ti + 0.08% Zr); recrystallization temperature raised to 1300–1400°C with 10× lower creep rate |
+| Tantalum capacitor leakage current exceeds specification after formation | Oxygen in powder >2000 ppm or sintering temperature too low for impurity burnout | Specify capacitor-grade Ta powder with O <2000 ppm; increase sintering to 1550–1800°C for high-reliability parts (low leakage) |
+| Polymer tantalum capacitor fails as hard short circuit | Dielectric breakdown — polymer cathode (PEDOT:PSS) does NOT self-heal like MnO₂ (which converts to insulating Mn₂O₃) | Derate operating voltage to ≤50–66% of rated voltage; for self-healing capability, use MnO₂ cathode variant instead |
+| Nb-Ti superconductor wire quenches below rated current at 4.2 K | Insufficient α-Ti flux pinning precipitates from inadequate heat treatment | Heat treat at 375–420°C for 40–80 hours to precipitate 1–5 nm α-Ti ribbons; verify Jc ≥2500 A/mm² at 5 T, 4.2 K |
+| WHA penetrator shows excessive mushrooming on impact vs. DU performance | Tungsten content <90% or insufficient swaging — low work-hardening from insufficient cross-section reduction | Use 90–95% W alloy; swage rod to 20–40% cross-section reduction (raises tensile strength from 700–900 to 1000–1400 MPa) |
+| EB weld in molybdenum shows porosity along joint line | Vacuum insufficient (>10⁻³ mbar) or joint gap >0.1 mm allowing gas entrapment | Improve vacuum to <10⁻³ mbar (0.1 Pa); machine joint surfaces for tight-fit butt joint with gap <0.1 mm |
+| MoSi₂-coated molybdenum fails by pest oxidation at 400–700°C | Coating cracked during handling — no SiO₂ glass film to protect against catastrophic MoO₃ volatilization | Reapply MoSi₂ by pack cementation at 950–1100°C for 4–16 hours (Si + Al₂O₃ + NaF pack); handle coated parts carefully to avoid cracking |
+
 ## See Also
 
 - [Iron & Steel](iron-steel.md) — prerequisite ferrous metallurgy

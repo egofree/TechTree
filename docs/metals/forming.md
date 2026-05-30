@@ -46,7 +46,7 @@ Secondary operations — cold rolling to final gauge, stamping, deep drawing, wi
 
 Liquid steel from the [steelmaking](./steelmaking.md) ladle or aluminum from [smelting](./aluminum.md) enters primary forming through one of two routes:
 
-1. **[Ingot casting](../glossary/ingot-casting.md)** → reheat → hot working (forging, rolling). Traditional route, still used for specialty steels and large forgings.
+1. ****Ingot casting**** → reheat → hot working (forging, rolling). Traditional route, still used for specialty steels and large forgings.
 2. **[Continuous casting](../glossary/continuous-casting.md)** → direct hot rolling. The dominant modern route — 95%+ of world steel production. Eliminates ingot-to-bloom conversion steps, improving yield by 8-12%.
 
 The choice between routes depends on product mix and capital availability. Integrated steelworks producing commodity shapes (strip, structural sections, rail) use continuous casting exclusively. Specialty steelmakers producing small batches of high-alloy or tool steel may still use ingot routes because the ladle sizes are too small for economic continuous casting.
@@ -211,7 +211,7 @@ Structural rolling produces the shaped cross-sections that are the skeleton of c
 
 **Aluminum forming temperatures**: Aluminum alloys are hot-worked at 350-500°C — much lower than steel. The oxide film (Al₂O₃, melting point 2072°C) does not flake off like steel scale but forms a tenacious, protective skin that is harder than the underlying metal. This means aluminum forming tools must be harder and more wear-resistant than might be expected for such a soft base metal.
 
-## Troubleshooting — Hot Rolling and Continuous Casting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|

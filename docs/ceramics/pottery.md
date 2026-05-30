@@ -75,7 +75,7 @@ The potter's wheel enables rapid, symmetrical vessel production — transforming
 6. **Ignite**: Light from multiple points around the base. Fire burns 1-3 hours depending on fuel quantity.
 7. **Results**: Earthenware. Red, orange, brown, or black depending on clay iron content and oxygen supply. Pottery is porous (10-25% water absorption). Low strength but functional for storage and cooking. Many pots crack from thermal shock — expect 30-60% loss rate initially.
 
-**[Pit firing](../glossary/pit-firing.md)** (slightly higher temperature, 700-1000°C, more controlled):
+****Pit firing**** (slightly higher temperature, 700-1000°C, more controlled):
 1. **Dig pit**: 50-80 cm deep, 60-100 cm diameter. Line bottom with dry grass or leaves.
 2. **Layer fuel**: Sawdust or fine wood chips on bottom (provides long, slow heat). Layer of sticks.
 3. **Place pots**: Arrange pots on their sides on fuel layer, not touching each other or pit walls.

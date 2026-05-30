@@ -197,6 +197,19 @@
 - Mucking (removing broken rock) by bucket and windlass is the slowest step — limits advance rate
 
 
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Shaft flooding (water inflow exceeds pump capacity) | Hit water-bearing strata, or pump failure | Immediately evacuate shaft bottom; install larger pump or add second stage; if water is from a known aquifer, drill drainage boreholes ahead of sinking; grade all levels toward sump |
+| Rock falls after blasting | Insufficient scaling, or ground conditions worse than expected | Never re-enter face until roof is sounded and scaled; install additional timber or rock bolts; if rock is heavily jointed, switch from shrinkage stoping to cut-and-fill for better ground control |
+| Misfire (charge did not detonate) | Wet powder, broken safety fuse, or poor fuse-to-powder contact | Wait 30+ minutes before approaching (never assume a misfire is safe); approach from side, not directly in front of hole; carefully remove stemming with non-sparking tool (copper/brass rod); reload and re-fire; keep detailed misfire log to identify recurring fuse or powder issues |
+| Poor fragmentation (boulders too large to muck) | Insufficient powder, wrong hole spacing, or holes too shallow | Increase powder load per hole; reduce hole spacing to 30-50 cm; drill deeper holes (1.5-2 m vs 0.5-1 m); use V-cut pattern instead of single row for better breakage |
+| Ventilation inadequate (workers report headache, dizziness) | Blocked airway, fan failure, or mine expanded beyond ventilation capacity | Check brattice cloth for tears or blockages; clear debris from intake shaft; install auxiliary fan at working face; test air at roof level for methane with safety lamp before re-entry |
+| Sluice box losing fine gold | Water flow too fast, riffles overloaded, or no matting under riffles | Reduce water flow; clean riffles more frequently; add coconut matting or miner's moss under riffles to trap fine particles; check that sluice grade is not too steep (ideal: 5-8° slope) |
+| Hoisting rope slipping on windlass drum | Rope worn, drum greasy, or too few wraps | Replace frayed rope immediately (broken wires = replace); clean drum of grease; maintain minimum 3 wraps on drum at all times; add rope anchor to drum |
+| Open pit slope showing cracks | Slope failure developing — potential bench collapse | Evacuate area below crack; install slope monitoring (prisms or crack meters); reduce bench angle by laying back the slope; do not mine below the unstable area until stabilized |
+
 ## See Also
 
 - [Prospecting](prospecting.md) — ore body discovery and assessment

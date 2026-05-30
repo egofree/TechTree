@@ -300,7 +300,7 @@ Silicon nitride offers the best combination of high-temperature strength, therma
 
 - [Silicon metal powder](../silicon/index.md) (for reaction bonding, ≥98% Si, <45 μm particle size)
 - Si₃N₄ powder (for sintering, produced by direct nitridation or silicon diimide decomposition)
-- Sintering aids: [Y₂O₃](../mining/index.md) (yttria, 3-8%), [Al₂O₃](#41-alumina-al₂o₃-ceramics) (alumina, 1-5%), or MgO (1-3%)
+- Sintering aids: [Y₂O₃](../mining/index.md) (yttria, 3-8%), [Al₂O₃](#alumina-al₂o₃-ceramics) (alumina, 1-5%), or MgO (1-3%)
 - [Nitrogen gas](../gas-handling/index.md) (N₂, >99.99% purity)
 - [Hydraulic press](../machine-tools/index.md) (20-30 MPa for hot pressing, 100-200 MPa for isostatic)
 - [Kiln](kilns.md) capable of 1700-2000°C with nitrogen atmosphere and pressure control (up to 10 MPa)

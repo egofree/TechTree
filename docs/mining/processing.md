@@ -265,6 +265,21 @@ Ore processing is energy intensive. The comminution stage (crushing and grinding
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Ball mill product is too coarse (>200 μm) | Mill speed below 60% of critical speed or insufficient grinding time | Increase rotation to 60-80% of critical speed (Nc = 42.3/√D RPM); verify ball charge is 30-45% of mill volume; operate in closed circuit with classifier to return oversize |
+| Flotation recovery drops below 80% | Reagent starvation (xanthate depleted) or pH drifted from 9-11 target | Check collector dosing (xanthate 20-100 g/tonne); verify pH with continuous monitoring — lime addition maintains 9-11 range; inspect tailings grade — rising tailings grade means lost recovery |
+| Sluice box gold recovery below 70% | Fine gold (<0.1 mm) passing through riffles or water flow too high | Reduce water flow to 50-100 L/min and sluice angle to 1-3°; for fine gold, add mercury amalgamation plate or switch to cyanide leach (0.01-0.05% NaCN) |
+| Cyanide leach generates lethal HCN gas | Process pH dropped below 10, converting cyanide to hydrogen cyanide | Maintain pH above 10 at all times with lime (CaO) or NaOH; monitor pH continuously; HCN gas is lethal at 100 ppm — evacuate immediately if almond-like odor detected |
+| Jaw crusher throughput drops below rated capacity | Jaw plates worn past 50% of original thickness or gap set too tight | Replace manganese steel jaw plates when worn to 50%; increase gap setting to match desired output size (20-100 mm); tighter gap reduces throughput |
+| Roasting sulfide ore produces sinters instead of free-flowing oxide | Temperature exceeded 800°C, causing ore particles to fuse | Control roasting temperature to 500-700°C; use multiple hearth or fluidized bed roasters for uniform gas-solid contact; above 800°C ore sinters into a solid mass blocking airflow |
+| Fire assay produces unreliable gold results | Flux composition wrong or cupellation temperature incorrect | Use standard flux mix (litharge, flour, borax, silica, soda ash); heat crucible to 1000-1100°C for 45-60 minutes; cupel at 950°C — lead absorbs into cupel leaving precious metal bead for weighing |
+| Jig separation produces poor concentrate grade | Specific gravity difference less than 1.5 between ore and gangue | Gravity methods require minimum 1.5 SG difference; for close-density minerals, switch to flotation or heavy media separation; check pulsation rate (200-300 strokes/min) and amplitude (5-15 mm) |
+| Thickener underflow too dilute (below 50% solids) | Feed rate exceeds settling capacity or particle size too fine | Increase thickener area (0.5-5 m² per tonne/day); add flocculant to accelerate settling of fine particles; reduce feed rate to match the settling capacity of the installed area |
+| Hydrocyclone cut point drifts from design specification | Feed pressure inconsistent or vortex finder worn | Maintain constant feed pressure (typically 100-300 kPa); inspect and replace worn vortex finder and spigot; pressure fluctuations cause inconsistent centrifugal separation |
+
 ## See Also
 
 - [Mining Extraction](extraction.md) — ore and mineral extraction upstream

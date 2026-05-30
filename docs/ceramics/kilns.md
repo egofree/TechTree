@@ -578,7 +578,7 @@ Poorly constructed kilns (insufficient wall thickness, missing mortar, thermal c
 | Porcelain | 1280-1400°C | Downdraft (gas) | Electric kiln (small scale) |
 | Bricks (common) | 900-1050°C | Clamp kiln or tunnel | Scove (low quality) |
 | Roof tiles | 900-1050°C | Tunnel kiln | Downdraft batch |
-| Lime (CaO) | 900-1100°C | Shaft kiln — see [Lime](lime.md) |间歇 kiln |
+| Lime (CaO) | 900-1100°C | Shaft kiln — see [Lime](lime.md) | intermittent kiln |
 | Iron smelting | 1200-1400°C | Bloomery — see [Metals](../metals/blast-furnace.md) | Blast furnace |
 | Glass melting | 1400-1600°C | Tank furnace — see [Glass](../glass/index.md) | Pot furnace |
 | Ceramic firing (production) | 1200-1400°C | Tunnel kiln | Downdraft (batch) |

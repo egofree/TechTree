@@ -216,7 +216,7 @@ Glassblowing as a craft dates to ~1500 BCE (Egyptian core-formed glass). Free-bl
 
 **Resizing tubes**: Heat a section of tube in the lathe and either stretch (to reduce diameter) or compress (to increase diameter) while rotating. Diameter change: up to 30% reduction by stretching; wall thickness decreases proportionally. For greater changes, use a series of step-down seals (join progressively smaller/larger tube sections).
 
-## Troubleshooting — Glassblowing Problems
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|

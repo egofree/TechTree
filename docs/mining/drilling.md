@@ -276,6 +276,21 @@ Unlike percussive drilling (which chips rock by impact), rotary drilling grinds 
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Single-jack drilling advance rate below 0.3 m/hour in granite | Bit dull or drill steel mushroomed from missed strikes | Re-sharpen chisel bit every 0.5-1 m in hard rock; heat to 850-900°C, re-forge edge, quench, and temper at 300-400°C; replace steel when head mushrooms — sharp spalls are a safety hazard |
+| Pneumatic jackhammer penetration rate drops 50% | Compressed air pressure below 500 kPa or hose too long (>150 m) | Check compressor output and receiver pressure; limit hose runs to 100-150 m per drill; ensure moisture separators are drained daily — water in the drill washes away lubrication |
+| Drill steel fractures at the shank end | Fatigue from thousands of impact cycles or excessive bending stress | Inspect steels before each shift for cracks near the shank; replace after 200-500 m of total drilling (carbon steel); never use bent, cracked, or mushroomed steel |
+| Core recovery falls below 85% | Excessive weight on bit fracturing core or insufficient water circulation | Reduce weight on bit to 100-500 kg depending on diameter; increase water flow to 10-30 L/min to clear cuttings; broken/fractured ground may require a core catcher in the barrel |
+| Borehole deviates more than 5° from planned trajectory | Drill string bending under its own weight or bit deflecting off hard layers | Survey borehole with magnetic instruments every 30-50 m; reduce weight on bit in angled or layered formations; use stiffer drill collars near the bit to maintain trajectory |
+| Tungsten carbide insert chips or falls out of bit body | Poor brazing (voids in braze joint >0.15 mm) or dropped on hard surface | Ensure braze joint is 0.05-0.15 mm thick and void-free using copper-silver-zinc alloy at 650-700°C; handle carbide bits carefully — TC inserts chip if dropped on hard surfaces |
+| Water flush fails to clear cuttings from deep hole | Insufficient flow rate or cuttings settling faster than water velocity | Increase water flow to minimum 4-8 L/min for jackhammers, 10-30 L/min for core drilling; switch to drilling mud (bentonite, 1.05-1.20 g/cm³) for deep or unstable holes |
+| Pneumatic drill piston seizes in cylinder | Inline lubricator empty or oil metering incorrect | Fill lubricator reservoir (100-200 mL light machine oil); set metering to 2-5 drops per minute; without lubrication the piston seizes within 30-60 minutes of operation |
+| Drill bit overheats and loses temper (steel turns blue) | Dry drilling with insufficient water flush in high-silica rock | Maintain minimum 4-8 L/min water flow through hollow drill steel; dry drilling above 600°C destroys carbon steel temper; switch to tungsten carbide insert bits for high-temperature drilling |
+| Compressed air line freezes in cold weather | Moisture in air condenses and freezes at restriction points | Install moisture separators at low points; drain receiver tank daily; add aftercooler between compressor and receiver; consider heated air lines in continuous sub-zero operations |
+
 ## See Also
 
 - [Steam Power](../energy/steam-power.md) — steam-driven drilling rigs

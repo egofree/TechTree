@@ -257,6 +257,21 @@ Proper storage facilities prevent accidental explosions and protect the powder s
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Black powder burns slowly with weak fizz instead of fast bang | Dry-mixed (not incorporated) — ingredients not in intimate contact | Moisten mixed powder to 5-8% moisture, press into cakes at 10-20 MPa, then crack and sieve into grains (corning); wet-pressed powder burns much faster and more consistently |
+| Powder charge fails to fire (misfire) | Water in blast hole degraded powder or fuse core has gaps | Wrap powder charge in waterproofed canvas or copper tubes for wet holes; test safety fuse burn rate before every blast — core gaps cause misfires; wait 30 minutes before approaching a misfire |
+| Safety fuse burn rate varies ±20% from expected | Humidity variation or manufacturing inconsistency in powder core density | Test-burn a 1-meter section from each new batch before use; record actual burn rate and calculate fuse lengths from that measurement; store fuse in dry conditions below 65% relative humidity |
+| Blasted rock fractures into oversized blocks | Burden distance too large or insufficient charge for rock hardness | Reduce burden to 20-30× hole diameter (e.g., 0.6-0.9 m for 30 mm holes); increase powder factor — hard igneous rock needs 1.0-2.0 kg/m³; orient holes to use existing joints and fractures |
+| Blasting produces loud blow-out with no rock breakage | Stemming insufficient or missing — energy vents out hole collar | Fill hole above charge with clay or damp sand to depth equaling the burden; tamp firmly with wooden rod (never metal); stemming directs explosive energy into the rock mass |
+| KNO₃ recrystallization yields impure saltpeter (hygroscopic powder) | Insufficient recrystallization cycles or mother liquor contamination | Dissolve KNO₃ in hot water (38 g/100 mL at 100°C), filter, cool slowly to crystallize (13 g/100 mL at 20°C); decant mother liquor; repeat 2-3 times until burn test leaves no residue |
+| Powder absorbs moisture and clogs during storage | Storage humidity exceeds 65% or containers not airtight | Store in airtight wooden kegs with wax-sealed joints or earthenware jars; keep below 30°C and below 65% RH; KNO₃ recrystallizes and separates from fuel when moist |
+| Sulfur sublimation produces discolored (brown) product | Arsenic or organic impurities in raw sulfur not removed | Sublimate at 445°C in sealed retort; only bright yellow "flowers of sulfur" condensate is pure; alternatively, melt at 115°C and filter liquid through cloth to remove insoluble impurities |
+| Pressed grains have inconsistent burn rates | Uneven pressure distribution during cake pressing or density variation | Ensure hydraulic/screw press applies uniform 10-20 MPa across the entire cake; density should be 1.6-1.8 g/cm³; sieve graded grains to tight size tolerances (Fg: 1.2-2.4 mm, FFFg: 0.3-0.6 mm) |
+| Ball mill generates sparks during mixing | Iron or steel balls used instead of non-sparking media | Use only lead or brass balls in ball mills; all tools for mixed powder handling must be copper, brass, or wood; iron on iron produces sparks that ignite powder |
+
 ## See Also
 
 - [Mining Extraction](extraction.md) — parent capability for mine operations

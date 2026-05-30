@@ -253,6 +253,28 @@ Quicklime is used in the beamhouse stage of leather tanning to dehair hides. A l
 
 
 
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Quicklime does not slake (no heat, no crumbling) | Underburned — core still CaCO₃, or overburned and sintered | Break sample open: dark core = underburned (re-fire at 900°C for 4+ hours); dense/hard with no porosity = overburned (grind fine and extend slaking time to 24-48 hours) |
+| Slaking is violent, splatters excessively | Quicklime too hot, or water added too fast | Let quicklime cool below 100°C before slaking; always add lime to water slowly, never the reverse; use a deep container to contain splatter |
+| Lime mortar cracks while drying | Too rapid drying (hot/windy weather), or too much lime (shrinkage) | Keep mortar damp for 7+ days (mist, cover with damp burlap); reduce lime ratio to 1:3 lime:sand; avoid working in direct sun or strong wind |
+| Lime mortar weak, crumbles after months | Underburned lime, or too much sand, or frozen before carbonation | Test lime purity with HCl (should dissolve almost completely); reduce sand ratio; do not lay mortar below 5°C — freezing before set causes permanent damage |
+| Shaft kiln output declining | Kiln channeling (gas finds preferred path, leaving stone unburned) | Break up any sintered masses; ensure uniform stone size (10-20 cm); alternate fuel and stone layers carefully; avoid over-firing one zone |
+| Quicklime degraded in storage | Air-slaking — absorbed moisture and CO₂ from humid air | Store in sealed containers (covered bins, sealed barrels); check storage area is dry; test reactivity before use — slow slaking indicates degraded lime |
+| Lime putty has gritty lumps | Unburned limestone cores survived slaking | Screen slaked lime through 2-5 mm mesh to remove unburned cores; re-fire rejected cores with next kiln batch |
+| Limewash powders off wall | Surface too smooth/dense for penetration, or applied too thick | Dampen wall before application; apply 3-5 thin coats (not 1-2 thick ones); brush each coat vigorously into the previous while still damp |
+
+## Safety & Hazards
+
+- **Quicklime caustic burns**: CaO reacts with moisture on skin and eyes to form Ca(OH)₂, generating heat and causing chemical burns. Skin contact causes irritation and blistering; eye contact can cause permanent corneal damage. Wear chemical splash goggles, leather gloves, long sleeves, and long pants when handling quicklime. Wash skin immediately with copious water. Eye exposure: flush with water for 15+ minutes and seek medical treatment.
+- **Slaking steam and spatter**: Adding water to quicklime generates temperatures up to 150°C with vigorous steam. Always add quicklime to water slowly (never the reverse — causes violent spatter). Perform slaking outdoors or in well-ventilated area. Stand upwind of steam. The steam contains fine lime particles — avoid inhalation.
+- **Kiln CO₂ hazard**: Calcination releases large volumes of CO₂ (0.78 kg CO₂ per kg of quicklime). In enclosed or poorly ventilated kiln areas, CO₂ accumulates and displaces oxygen. Headache, dizziness, and shortness of breath are early signs. Ensure kiln area has natural or mechanical ventilation. CO₂ is heavier than air — low-lying areas near kilns are most dangerous.
+- **Dust inhalation**: Quicklime and hydrated lime dust is a respiratory irritant that damages mucous membranes. Wear a dust mask (P100 or N95) when crushing, screening, or handling dry lime powder. Work upwind of dust-generating activities.
+- **Kiln burn hazards**: Kiln surfaces reach 900-1100°C during firing and remain dangerously hot for hours after. Thermal gloves rated to 500°C for loading and unloading. Never touch kiln interior surfaces during or immediately after firing. Allow 12-24 hours cooling before extracting lime from batch kilns.
+- **Hot process soap lye hazard**: Concentrated lye (KOH/NaOH) used in soap making is extremely caustic — causes deep chemical burns on contact. Always add lye to water (never water to lye — causes violent boiling and splatter). Wear chemical splash goggles and rubber gloves when handling lye solutions. Keep vinegar nearby to neutralize skin contact.
+
 ## See Also
 
 - [Kilns](kilns.md) — lime kiln construction and firing

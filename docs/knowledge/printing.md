@@ -57,16 +57,6 @@
 
 **Production rate**: Hand process: 100-300 sheets/day per worker. Machine process: 100-1000 m/minute.
 
-**Strengths**:
-- Rag paper (cotton/linen) is archival-quality — pH neutral, long cellulose fibers survive 300-500 years under controlled storage
-- Hand papermaking requires no powered machinery — a wooden mould, vat, and screw press suffice for bootstrap production
-- Paper is lighter, cheaper, and more flexible than parchment or clay tablets — enables portable technical manuals
-
-**Weaknesses**:
-- Wood pulp paper (groundwood process) contains lignin, causing yellowing and embrittlement within 50-100 years — unsuitable for archival works without chemical pulping
-- Papermaking is water-intensive (large volumes needed for vat preparation and rinsing) and requires a drying loft or heated cylinders
-- Rag supply is a perennial bottleneck — a busy print shop consuming 500 sheets/day requires 30-50 kg of sorted rags per week
-
 ## Woodblock Printing
 
 **[Woodblock printing](../glossary/woodblock-printing.md)** (China, ~700 CE; Europe, ~1400 CE):
@@ -76,16 +66,6 @@
 - **Printing**: Place sheet of paper (slightly damp for flexibility) on the inked block. Rub the back of the paper with a baren (flat, smooth disk — traditionally bamboo-sheath wrapped over a coiled fiber core) or a wooden spoon. Pressure transfers ink from block to paper. Peel off printed sheet. Hang to dry.
 - **Limitations**: Each page requires a separate carved block. Blocks cannot be rearranged — correcting an error means re-carving the entire block. Storage: a book of 100 pages requires 100 carved blocks. Chinese and Korean printers produced enormous block libraries, but the approach becomes impractical for large-scale, varied production.
 - **Advantage**: The simplest form of printing. Requires only wood, knife, ink, and paper — no metal type, no press mechanism. Accessible at the earliest stages of civilization bootstrap. Also used for textile printing (fabric instead of paper) and for illustration (images alongside or instead of text).
-
-**Strengths**:
-- Minimal tooling required — a hardwood block, carving knife, ink, and paper are sufficient; no metal casting or press mechanism needed
-- Produces both text and images from a single carved block; excellent for illustrated technical manuals with diagrams integrated alongside text
-- Block carvers can start work immediately from an existing drawing transferred to the block surface
-
-**Weaknesses**:
-- Each page requires a separate carved block — correcting errors means re-carving the entire block, and a 100-page book requires 100 stored blocks
-- A skilled carver completes only one page block in 1-2 days — production rate is limited by carving speed, not printing speed
-- Storage of carved blocks requires significant space and protection from insects, mold, and warping
 
 ## Movable Type
 
@@ -100,16 +80,6 @@
 - **Character frequency**: A printer needs far more of some letters than others. A typical type case holds: ~1000 'e', ~800 't', 'a', 'o', ~600 'i', 'n', 's', ~400 'h', 'r', ~200-300 each of less common letters, and ~50 each of rare letters (q, x, z). A full type set for one font size requires 10,000-30,000 individual type pieces, weighing 50-100 kg of type metal.
 
 **Typesetting process**:
-
-**Strengths**:
-- Individual characters are reusable — a single set of 10,000-30,000 type pieces can compose any text, disassembled and reassembled for each new page
-- Metal type (Pb/Sb/Sn alloy) is durable enough for thousands of impressions before visible wear; a single set serves for decades
-- Alphabetic scripts need only 30-50 distinct character molds to cover an entire language, making type production feasible with modest tooling
-
-**Weaknesses**:
-- Type distribution (sorting used type back into the case) takes as long as typesetting — effectively doubles the labor per page
-- Type metal is 80-85% lead — toxic by ingestion and inhalation of dust; requires careful handling and workplace hygiene
-- A full type set for one font size weighs 50-100 kg and requires months of initial production before any printing can begin
 - **Composing stick**: A metal tray with an adjustable side wall (sets line length). The compositor selects type pieces from the type case with one hand (the other hand holds the composing stick), reading the manuscript text. Each type piece is placed upside-down and backwards in the stick — the type reads right when printed, so the compositor must read it in mirror image. Fill the stick line by line, inserting spaces (quadrats — blank type pieces of varying widths) for word spacing and justification.
 - **Galley**: When the composing stick is full, slide the composed lines of type onto a galley (a flat metal tray with raised edges on three sides). Continue composing until a full page is assembled.
 - **Proofing**: Ink the galley and pull a proof sheet on the press. Proofread against the manuscript. Mark errors. Correct by removing the wrong type piece and substituting the correct one (requires unlocking the line with a quoin key).
@@ -131,16 +101,6 @@
 3. **Printing**: Place dampened paper on tympan. Lower frisket (frame holding paper). Roll bed under platen. Pull lever → platen presses paper against inked type. Release. Remove printed sheet. Hang to dry.
 4. **Production**: 200-500 impressions/hour for hand press. 1000-4000 impressions/hour for rotary press. Print one side (folio), let dry, print other side. Multiple colors require separate press runs with different type formes, registered to align.
 
-**Strengths**:
-- Screw press provides ~30:1 mechanical advantage — a single pull on a 1.5-2 m bar generates 2-3 tonnes of impression force for clean, even printing
-- Press design is adapted from existing wine/olive press technology — no new engineering principles required for the basic mechanism
-- Once set up, a two-operator team (beater + puller) produces 1,500-2,500 usable sheets per day, far exceeding any hand-copying rate
-
-**Weaknesses**:
-- The wooden frame (200-300 kg) is susceptible to warping and fatigue over years of heavy use — iron frames are more rigid but require foundry capability
-- Each impression prints only one side of one sheet in one color — multi-color work requires multiple precisely registered press runs
-- The platen area (~30×40 cm) limits the printable page size; larger formats require a larger, heavier press
-
 ## Ink Formulation
 
 **[Carbon ink](../glossary/carbon-ink.md)** (printing ink base): Soot (lampblack from burning oil or resin) + linseed oil binder + rosin (improves tack and drying). Grind soot with oil on stone slab with muller (flat glass or stone disk) until uniform smooth paste. Consistency: thick enough to adhere to type face without running, thin enough for even transfer. Boil linseed oil to polymerize (thickens from low-viscosity oil to honey-like consistency) before mixing with soot. This "burnt oil" or "varnish" is the critical ingredient — the degree of polymerization determines ink viscosity and tack.
@@ -153,16 +113,6 @@
 
 **Writing inks**: For iron gall ink and carbon ink used in writing and archival recording, see [Writing & Record-Keeping](writing.md).
 
-**Strengths**:
-- Carbon ink (soot + linseed oil) uses universally available materials — any oil-burning lamp produces soot, and flax grows in most climates
-- Linseed oil dries by oxidation to form a permanent, waterproof film — printed text survives centuries under proper storage conditions
-- Viscosity and tack are adjustable by varying boiling time and soot ratio — a single formulation base adapts to different press types and paper qualities
-
-**Weaknesses**:
-- Linseed oil and turpentine are flammable — storage and handling require fire-safe practices and ventilation
-- Drying time of 4-24 hours per side limits production speed; printed sheets must be hung and dried before the second pass or binding
-- Color printing requires separate pigments (Prussian blue, vermilion, etc.) — some historical pigments contain toxic heavy metals (mercury sulfide, lead chromate)
-
 ## Bookbinding
 
 **Collating and folding**: Fold printed sheets into gatherings (signatures — typically 4, 8, or 16 pages per gathering). A full sheet printed on both sides, folded once, makes a folio (4 pages). Folded again makes a quarto (8 pages). Folded again makes an octavo (16 pages). Collate gatherings in correct order.
@@ -172,16 +122,6 @@
 **Finishing**: Glue spine with animal hide glue. Round and back spine (hammer spine into rounded shape with backing hammer on lying press). Attach boards (cardboard or wooden covers — laced onto sewing supports through holes in boards). Cover with leather, cloth, or paper. Headband at top and bottom of spine (decorative and structural). Stamp title on spine with brass type and hand lettering press.
 
 **Result**: Durable, readable book that lasts decades to centuries. A single press produces 200-500 pages/day — a single scribe produces 2-4 pages/day. The multiplier effect on knowledge preservation and distribution is transformative.
-
-**Strengths**:
-- Sewn binding with linen thread on cord supports produces a book that withstands 500+ circulations — far more durable than perfect binding or saddle-stitch
-- Standardized gathering sizes (folio, quarto, octavo) allow modular production — multiple binders can work on different sections simultaneously
-- Case binding (hardcover) protects the text block from physical damage, moisture, and light, extending book lifespan to decades or centuries
-
-**Weaknesses**:
-- Binding is labor-intensive — 2-3 binders fold, gather, sew, and cover only 100-200 books per day by hand
-- Leather and cloth covering materials add cost and require animal husbandry or textile production infrastructure
-- Hand binding quality varies between practitioners — uneven sewing tension causes loose pages, and poor gluing causes spine separation over time
 
 ## Knowledge Distribution Impact
 
@@ -231,16 +171,6 @@ Printing enables mass distribution of technical knowledge — process recipes, e
 **[Stereotyping and electrotyping](../glossary/stereotyping-and-electrotyping.md)** (plate duplication):
 - **[Stereotype](../glossary/stereotype.md)** (William Ged, ~1725, practical: Stanhope, ~1800): Make a paper-mâché or plaster mold (flong) from the composed type forme. Pour molten type metal into the mold to cast a solid plate — an exact replica of the type surface. The plate can be printed from directly, freeing the original type for reuse (no need to keep type locked up for the entire print run — especially valuable for long-running publications like newspapers). Stereotype plates can be curved for rotary press mounting.
 - **[Electrotype](../glossary/electrotype.md)** (electroplating, ~1840): Grow a thin copper shell on a wax impression of the type surface by electroplating (copper deposited from copper sulfate solution using electric current). Back the copper shell with type metal for rigidity. Produces a more faithful reproduction than stereotype casting (no shrinkage or distortion from molten metal). Requires electrical capability.
-
-**Strengths**:
-- The Gutenberg press design served for 350 years with only minor refinements — a robust, proven mechanism built from available materials
-- Press evolution follows a clear upgrade path: wooden screw → iron frame → treadle platen → rotary → each step multiplies throughput without requiring reinvention of the printing process
-- Stereotyping and electrotyping allow mass production from a single typeset forme — the original type is freed for reuse while the plate runs thousands of impressions
-
-**Weaknesses**:
-- Each press generation requires increasingly sophisticated manufacturing: iron frames need foundries, rotary presses need precision cylinder machining, electrotyping needs electrical infrastructure
-- Higher-speed presses demand continuous paper feed (roll paper), which requires a paper machine rather than hand production
-- Plate duplication (stereotyping, electrotyping) adds lead exposure risk from molten type metal handling and acid baths for etching
 
 ## Paper Requirements for Printing
 

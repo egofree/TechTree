@@ -42,23 +42,10 @@ This capability covers manual drafting (pencil, ink, T-square, compass) as the b
 8. **Ink (if required)**: Trace pencil lines with ruling pen and India ink. Line weights: visible outlines 0.5-0.7 mm, hidden lines 0.3-0.35 mm, centerlines and dimension lines 0.18-0.25 mm. Allow ink to dry fully before erasing pencil construction lines.
 9. **Review and release**: Checker reviews drawing against design intent. Approved drawings receive a revision letter and are logged in the drawing register.
 
-**Strengths**:
-- Manual drafting requires no powered equipment — a drawing board, T-square, pencils, and ink suffice for producing complete engineering drawings
-- Nine-step procedure is fully defined — a trained drafter can produce a complete, unambiguous drawing without consulting the designer
-- Standardized title block (part name, drawing number, scale, tolerances, revision) provides all metadata needed for filing and retrieval
-
-**Weaknesses**:
-- A skilled drafter produces only 2-5 finished drawings per week for moderately complex parts — slower than CAD by 3-10×
-- Inking requires steady hand and careful technique — errors in ink require scraping with a knife and re-drawing, unlike pencil which erases cleanly
-- Paper is dimensionally unstable — humidity changes cause expansion/contraction that can shift dimensions by 0.1-0.5 mm on large sheets
-
 ## Section View Construction
 
 When internal features cannot be shown clearly with hidden lines, cut the imaginary object along a plane and draw the exposed interior. Section views use hatching (parallel lines at 45°, 2-4 mm spacing) to indicate cut material. Different materials use different hatch patterns: steel (45° parallel lines), cast iron (45° lines with alternating dots), copper alloys (45° lines alternating direction), and wood (grain pattern). Label the cutting plane with letters (A-A, B-B) and annotate the section view accordingly.
 
-**Strengths**: Reveals internal geometry (bores, chambers, wall thickness) that hidden lines cannot show clearly. Material-specific hatch patterns convey additional information without labels.
-
-**Weaknesses**: Incorrect section plane selection can obscure rather than clarify — the drafter must understand which internal features are most important to show. Hatching adds significant drawing time for complex multi-part assemblies.
 
 ## Dimensioning Rules
 
@@ -69,10 +56,6 @@ Follow these rules to produce unambiguous dimensioned drawings:
 - Stagger parallel dimension lines so arrowheads do not align vertically (prevents misreading).
 - Dimension from a common datum (one edge or feature) rather than chain-dimensioning (each dimension from the previous), to avoid tolerance accumulation.
 - Include a general tolerance note in the title block for dimensions without explicit tolerances (e.g., "General tolerances: ±0.5 mm linear, ±1° angular").
-
-**Strengths**: Datum-based dimensioning (all dimensions from a common reference) eliminates tolerance accumulation — worst-case stack-up equals the single largest tolerance, not the sum of all tolerances. General tolerance note covers all dimensions that don't need explicit tolerances, reducing drawing clutter.
-
-**Weaknesses**: Dimension placement is the most time-consuming part of drafting — a complex part with 50+ dimensions requires careful planning to avoid crossing lines and crowding. Dimensioning errors (double-dimensioning, missing dimensions) are the most common drawing defect found during checking.
 
 
 ## Standard Sheet Sizes (ISO A-series)
@@ -164,17 +147,9 @@ Two conventions exist for arranging orthographic views on the sheet. Third-angle
 
 Orthographic projections are unambiguous but require training to read. Isometric views (30° axes, no foreshortening) and oblique views provide a three-dimensional appearance that helps non-specialists understand the part shape. Use as supplementary views, never as the sole representation for manufacturing — isometric dimensions are distorted and cannot convey tolerances.
 
-**Strengths**: Non-specialists (managers, clients, less-trained workers) can understand the part shape immediately without training in orthographic projection. Useful as assembly instructions alongside orthographic manufacturing drawings.
-
-**Weaknesses**: Isometric dimensions are foreshortened and distorted — dimensions measured from an isometric view are unreliable for manufacturing. Cannot convey tolerances or GD&T requirements.
-
 ## Freehand Sketching
 
 Before committing to a formal drawing, designers sketch freehand to explore concepts. Graph paper (5 mm grid) aids proportion. Sketching is faster than formal drawing for iteration — a designer should produce 10-50 sketches for every finished drawing. No instruments required beyond pencil and paper.
-
-**Strengths**: 10-50× faster than formal drawing — enables rapid design iteration before committing to the time investment of a finished drawing. No instruments required — pencil and paper suffice.
-
-**Weaknesses**: Freehand sketches lack dimensional precision — they convey concept but not manufacturing specification. Sketches are not archival quality and fade or smudge over time.
 
 ## Drawing Storage and Handling
 

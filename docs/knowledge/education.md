@@ -51,16 +51,6 @@
 - **Year 5-6**: Calculus, thermodynamics, electromagnetism, analytical chemistry, material properties
 - **Year 7+**: Specialization (metallurgy, semiconductor physics, chemical engineering, electrical engineering)
 
-**Strengths**:
-- Apprenticeship model (4-7 years) provides deep hands-on skill — graduates can produce complete work independently, not just follow instructions
-- Structured curriculum progression ensures each skill builds on previously mastered ones — no gaps in the knowledge chain
-- Universities add research capability — systematic investigation of phenomena produces new knowledge beyond what any single practitioner can discover
-
-**Weaknesses**:
-- Apprenticeship throughput is limited to 1-3 trainees per master — cannot rapidly scale to meet sudden demand for skilled practitioners
-- University-level education requires substantial infrastructure (library, laboratories, qualified faculty) that takes years to build
-- Curriculum design requires foresight about future technology needs — a curriculum optimized for current technology may under-prepare graduates for emerging fields
-
 ## Guild Structure & Apprenticeship System
 
 **[The guild model](../glossary/the-guild-model.md)** (proven over centuries of European craft training):
@@ -73,16 +63,6 @@
 - The chain is the fundamental mechanism of skill preservation across generations. Each master was once an apprentice who learned from a previous master, creating an unbroken lineage of practical knowledge. When a chain breaks (a master dies without training a successor), specialized knowledge can be permanently lost.
 - **Redundancy requirement**: Never allow a critical skill to depend on a single practitioner. Minimum 3 trained practitioners for every critical skill at all times. This is the same redundancy principle applied to data storage — apply it to human knowledge.
 - **Documentation complement**: The apprentice's notebook is the written backup for the oral/physical transmission chain. Every master should produce a written manual of their craft (the guild can enforce this as a membership requirement), ensuring that knowledge survives even if all practitioners are lost.
-
-**Strengths**:
-- The apprentice → journeyman → master progression creates a self-regulating quality system — masters evaluate new entrants against proven standards
-- Journeyman travel (*Wanderjahre*) prevents local skill stagnation and spreads innovations across regions naturally
-- Guild quality inspection (substandard goods confiscated) maintains minimum workmanship standards across all member workshops
-
-**Weaknesses**:
-- The guild system inherently limits throughput — each master trains only 1-3 apprentices, creating a fixed production rate for new practitioners
-- Trade secrets are protected from outsiders — this restricts knowledge flow and can cause permanent skill loss if a guild collapses
-- Guild pricing and quality standards can become monopolistic, suppressing innovation and excluding new entrants who cannot afford the apprenticeship premium
 
 ## Technical School Models
 
@@ -101,16 +81,6 @@
 - **Progressive complexity**: Begin with tasks that have a single critical parameter (e.g., filing a flat surface — the parameter is flatness, checked with a straightedge). Progress to tasks with multiple interacting parameters (e.g., turning a shaft — diameter, length, surface finish, and concentricity must all be controlled simultaneously). This builds skill incrementally without overwhelming the learner.
 - **Error-based learning**: When the apprentice makes a mistake (and they will), the master uses it as a teaching moment: "You see this? This happened because [root cause]. Next time, [prevention]. Now, [correction]." Errors are expected, not punished — provided the apprentice learns from them. The apprentice's notebook should record every error, its cause, and its remedy. This error log becomes a personal troubleshooting manual.
 
-**Strengths**:
-- The Ecole Polytechnique model (unified engineering foundation) produces graduates who can move between specialties — a mathematical foundation applies to all engineering disciplines
-- MIT's laboratory instruction (students do experiments themselves) produces deeper understanding than passive lecture — the student who has synthesized a compound understands its chemistry differently than one who only read about it
-- Cooperative education (work-study alternation) produces graduates who are immediately productive in industry — the employer trains the student during placements
-
-**Weaknesses**:
-- Technical schools require substantial upfront investment: classrooms, laboratories, machine shops, library, and qualified faculty — not available at the earliest bootstrap stages
-- Laboratory instruction consumes materials and equipment (chemicals, metal stock, broken tools) — ongoing consumable costs are significant
-- Cooperative education requires existing industry partners with capacity to host students — not available until industrial production reaches minimum scale
-
 ## Textbook Design Principles
 
 **Structure for learning**:
@@ -124,40 +94,6 @@
 **Hands-on vs. theoretical balance**:
 - For technical education, the optimal ratio is approximately 60% hands-on practice, 40% theoretical instruction (varies by discipline: pure mathematics is nearly all theory; machining is nearly all practice). The theoretical component provides the framework for understanding *why* procedures work; the practical component provides the skill to *do* them. Neither alone suffices.
 - **Laboratory manuals**: Companion to theoretical textbooks. Each lab exercise: objective, theory (brief), materials and equipment list, step-by-step procedure, data recording format, analysis questions, safety precautions. The student records observations in a lab notebook (permanent, bound, numbered pages — not loose sheets) during the exercise, not afterward from memory.
-
-**Strengths**:
-- The concept-example-exercise pattern is field-proven for self-study — a student can learn from a well-designed textbook without an instructor present
-- Worked examples showing every step (including units and common errors) prevent the "I don't see how they got from step 3 to step 4" failure mode that stops self-learners
-- A well-indexed textbook serves double duty as both learning tool and workshop reference — practitioners consult it for years after completing the course
-
-**Weaknesses**:
-- Writing a high-quality textbook requires 1-3 years of expert author time — a significant investment before any students benefit
-- Textbook content becomes outdated as technology advances — requires periodic revision (every 5-10 years) to stay current
-- Printed textbooks require [Printing](printing.md) infrastructure — hand-copied manuscripts cannot serve a school of 20+ students practically
-
-## Assessment & Competency Verification
-
-**Practical exams**: Demonstrate skill under observation.
-- Blacksmithing: forge a specified tool to dimension (e.g., a 25 mm cold chisel from medium-carbon steel — evaluate: dimensional accuracy ±1 mm, edge hardness, heat treatment quality, handle fit).
-- Machining: turn a shaft to ±0.05 mm tolerance on a lathe. Evaluate: dimensional compliance, surface finish (visual and tactile comparison to standard), concentricity (dial indicator reading).
-- Chemistry: prepare a solution of specified molarity and titrate to verify concentration within ±1%. Evaluate: calculation accuracy, measurement technique (meniscus reading, burette handling), result precision.
-- Welding: produce test joint, section, and inspect for penetration depth, porosity, and slag inclusion. Bend test for ductility.
-
-**Journeyman testing**: After apprenticeship, produce a "master piece" — a complete, functional artifact demonstrating full command of the trade. Evaluated by two or more masters. Pass = independent practitioner certification. Fail = continue apprenticeship. Standard ensures quality across the civilization.
-
-**[Written examinations](../glossary/written-examinations.md)** (for theoretical knowledge):
-- **Problem-solving format**: Present an engineering scenario requiring calculation and decision. Example: "A cylindrical pressure vessel 500 mm diameter, 10 mm wall thickness, made of boiler plate steel (tensile strength 400 MPa, yield 250 MPa), is to operate at 2 MPa internal pressure. Calculate the hoop stress. Is the vessel safe with a safety factor of 4? If not, what wall thickness is required?" This tests both calculation skill and engineering judgment.
-- **Oral examination**: The candidate explains their reasoning to a panel of examiners, who probe understanding with follow-up questions. "Why did you use the thin-wall formula? At what diameter-to-thickness ratio does it become inaccurate? What failure mode does the safety factor protect against?" Oral exams test depth of understanding in ways written exams cannot — they reveal whether the candidate has memorized formulas or actually understands the physics.
-
-**Strengths**:
-- Practical exams with quantitative pass/fail criteria (±0.05 mm tolerance, ±1% concentration) produce objective, reproducible assessments — two examiners reach the same verdict
-- Journeyman testing by a panel of 2+ masters prevents individual bias and ensures the standard is applied consistently
-- Oral examinations reveal depth of understanding — the examiner can probe whether the candidate has internalized principles or merely memorized formulas
-
-**Weaknesses**:
-- Practical exams consume materials and workshop time — each assessment costs real resources (metal stock, chemicals, test specimens)
-- Oral examinations require experienced examiners who can formulate probing follow-up questions — a scarce resource in early bootstrap
-- Written examinations test theoretical knowledge but do not verify that the candidate can apply it in the workshop — a separate practical test is always needed
 
 ## Libraries & Archives
 
@@ -267,15 +203,6 @@
 - **Knowledge decay quantified**: Studies of industrial skills show that complex manual skills (precision welding, instrument-grade machining) degrade noticeably after 6 months of inactivity, falling to 70-80% of peak performance after 12 months without practice. Theoretical knowledge (mathematics, physics) decays more slowly but benefits from periodic review exercises. Schedule mandatory refresher sessions for critical skills at intervals no longer than the demonstrated decay half-life for each skill category.
 - **Training program audit**: Review training effectiveness annually by sampling graduate performance on standardized tasks. If fewer than 80% of recent graduates pass the practical competency assessment on first attempt, the curriculum or instruction quality needs revision. Track the correlation between training hours, instructor-to-student ratio, and assessment pass rates to optimize resource allocation.
 
-**Strengths**:
-- Quantified competency benchmarks (200-400 hours for basic machining, 10,000 hours for journeyman) enable resource planning — a civilization can calculate how many instructors and workshops are needed to meet a target number of practitioners
-- Recertification every 2 years for safety-critical skills prevents skill attrition — practitioners who shift to supervisory roles must demonstrate continued competence
-- Annual training program audits with quantitative pass rates (target 80%+) provide objective evidence of curriculum quality and enable data-driven improvement
-
-**Weaknesses**:
-- The 6-8 student instructor ratio limits throughput — producing 20 journeyman-qualified practitioners per year requires 10 workshops running 4-year cycles
-- Complex manual skills degrade to 70-80% of peak after 12 months without practice — mandatory refresher training consumes instructor time and workshop capacity
-- Cross-disciplinary synthesis is valuable but requires additional training time — encouraging secondary skills extends the already lengthy training timeline
 
 
 ## Cross-Domain Dependencies

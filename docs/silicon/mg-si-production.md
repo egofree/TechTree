@@ -2,7 +2,6 @@
 
 > **Node ID**: silicon.mg-si-production
 > **Domain**: [Silicon](./index.md)
-> **Dependencies**: [`energy.electric-furnaces`](../energy/electric-furnaces.md), `mining`
 > **Dependencies**: [`energy.electric-furnaces`](../energy/electric-furnaces.md), [`mining.quarrying`](../mining/index.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 30-40
@@ -135,6 +134,19 @@ The furnace produces large volumes of hot, toxic gas:
 - **Power supply**: Silicon furnaces run 24/7/365. Interruptions cause the charge to freeze, requiring expensive and time-consuming restart. Firm, continuous power supply is a siting requirement. Locations near hydroelectric dams are preferred (cheap baseload power). Solar or wind alone cannot provide the reliability needed without massive battery storage.
 - **Energy recovery**: CO off-gas combustion can recover 30-40% of electrical input as thermal energy (steam generation, co-generation). This improves overall plant efficiency but adds complexity.
 
+
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Low silicon yield (<75% of theoretical) | SiO gas escaping through overly dense charge | Increase wood chip ratio to 15-25% of total carbon; poke charge surface with steel bars to break up SiC crusts and restore gas permeability |
+| High Fe content (>0.8% in product) | Iron contamination from crushing equipment or low-grade quartz | Switch to alumina grinding media; wash quartz after crushing; check jaw crusher liners for excessive wear |
+| Taphole freezes shut between taps | Insufficient taphole heating or delayed tapping interval | Keep taphole plug loose; reduce interval between taps; use oxygen lancing to clear frozen silicon |
+| SiC crusts block gas flow | Excess carbon reductant or insufficient charge porosity | Reduce carbon ratio by 5-10%; increase wood chip proportion; mechanically break crusts by "poking" with steel bars from above |
+| Electrode breakage | Thermal shock from rapid immersion into cold charge or mechanical overstress from hoist | Preheat electrodes gradually; lower electrodes slowly into charge; inspect electrode joints for cracks before each run |
+| Unstable arc / fluctuating current | Electrode tip too close to conductive hearth, or charge resistivity too low | Raise electrode slightly (increase arc length); check charge composition — wet quartz lowers resistivity and causes instability |
+| High Al content (>0.7% in product) | Alumina-rich quartz or refractory erosion | Source higher-purity quartz (>99% SiO₂); inspect and replace eroded carbon refractory lining; add lime flux to bind Al₂O₃ into slag |
+| Furnace won't restart after hot shutdown | Charge frozen around electrodes, forming insulating SiC layer | Clear frozen material around electrodes with steel bars; preheat with gas burners before re-striking arc; allow longer ramp time |
 
 ## Safety Hazards
 

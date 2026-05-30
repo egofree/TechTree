@@ -316,6 +316,19 @@ Wafer processing after the final clean step must occur in a controlled environme
 - ISO Class 6 (formerly Class 1,000): < 35,200 particles per m³ ≥ 0.5 μm. Suitable for wafer cleaning and etching areas.
 - Personnel protocol: cleanroom garments (nylon-polyester woven coveralls, booties, hoods, gloves) that shed minimal particles. No cosmetics, no exposed skin below the neck. Air showers at entry locks blow particles off garments before entering the cleanroom.
 
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Wire saw wire breaks frequently | Slurry debris clogging wire guides, tension too high, or wire fatigue | Reduce wire tension to 15-25 N; replace wire guides when grooves deepen >0.5 mm; filter slurry to remove fine silicon powder that abrades the wire |
+| Wafer TTV >5 μm after lapping | Uneven lapping plate wear or insufficient lapping time | Re-flat lap plates (re-machine on surface grinder); increase lapping time by 5-10 minutes; check carrier rotation is smooth (worn gears cause carrier stalling) |
+| CMP removal rate drops >50% | Polishing pad glazed over (pores compressed shut) | Condition pad more frequently with diamond disk (every 30-60 seconds during polishing); replace pad if conditioning does not restore rate |
+| Scratches visible on polished surface | Contaminated CMP slurry (large aggregates), or pad debris | Filter slurry before use (0.1 μm filter); replace worn polishing pads that shed fibers; ensure pre-CMP clean removed all lapping abrasive |
+| High particle count after RCA clean | Contaminated UPW (resistivity <18 MΩ·cm), dirty quartzware, or inadequate rinsing | Check UPW system (replace ultrafilter if particles >1/mL); clean quartz process tanks with piranha (H₂SO₄:H₂O₂); extend DI water rinse to 10+ minutes |
+| Wafer breakage during handling | Edge chips from slicing, or backside damage from vacuum chuck | Inspect edge rounding quality (no residual micro-cracks); check vacuum chuck O-ring for debris that causes point stress; reduce robot transfer speed for thin wafers (<200 μm) |
+| Haze on polished wafer surface | Residual subsurface damage from insufficient CMP removal, or alkaline etch residue | Increase CMP removal by 5-10 μm to clear all lapping damage; verify final DI water rinse removes all alkaline residue (check surface pH with indicator) |
+| Kerf loss higher than expected (>200 μm) | Wire diameter too large or slurry abrasive too coarse | Switch to thinner wire (0.08-0.12 mm); use finer SiC abrasive (8-12 μm instead of 20-25 μm); verify wire guide spacing is correct |
+
 ## Safety & Hazards
 
 Wafering involves mechanical cutting, chemical etching, and polishing with hazardous materials. Each process stage has distinct risks.

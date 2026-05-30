@@ -166,6 +166,19 @@
 
 **Astable multivibrator**: Two transistors, two collector resistors, two base resistors, and two coupling capacitors. Each transistor alternately turns on and off. Frequency: f = 1/(1.4·R·C) where R is the base resistor and C is the coupling capacitor (symmetric circuit). Used as a simple clock oscillator. Output: square wave at the collector of either transistor. Duty cycle ~50% with equal R and C values.
 
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Solar cell Voc <0.55V | Poor emitter diffusion (junction too shallow or dopant too low), or contaminated starting wafer | Increase POCl₃ diffusion time by 10-15 min; verify diffusion furnace temperature with calibrated thermocouple; check wafer resistivity is within spec (1-10 Ω·cm) |
+| Solar cell low fill factor (<0.70) | Series resistance from poor front contact firing, or shunt from edge isolation failure | Raise belt furnace peak temperature by 20-30°C to improve Ag paste contact; verify edge isolation laser/plasma etch is complete (check isolation resistance >1 MΩ) |
+| Diode reverse leakage >10 μA | Surface contamination at junction edge, or cracked die from scribe-and-break | Improve edge passivation (thermal oxide before metallization); switch from scribe-and-break to laser dicing for cleaner edges |
+| MOSFET Vth out of spec | Gate oxide thickness wrong, or substrate doping variation | Verify thermal oxidation time/temperature (gate oxide thickness ∝ √time); measure starting wafer resistivity before processing — reject wafers outside ±10% of target |
+| Wire bond failures during testing | Contaminated bond pads (native oxide or photoresist residue), or incorrect bond parameters | Add HF dip immediately before wire bonding to remove native oxide; verify bonder ultrasonic power (60-120 kHz) and force (50-150 mN) are calibrated |
+| Device fails after temperature cycling | Die attach voids or CTE mismatch between die and package | X-ray inspect die attach for voids (>30% void area is reject); use compliant die attach adhesive for large die on copper leadframes |
+| Evaporated metal film peels | Poor adhesion from surface contamination or insufficient substrate cleaning | Add 30-second Ar plasma clean immediately before metal deposition; verify RCA clean is performed within 2 hours of evaporation |
+| Low solar cell current (Isc <7A for 156mm) | Anti-reflection coating wrong thickness, or damaged texture | Measure SiNₓ thickness by ellipsometry (target ~75 nm quarter-wave); verify KOH texturing produced uniform pyramids (check by microscope at 200×) |
+
 ## Safety Hazards
 
 Semiconductor device fabrication uses some of the most dangerous chemicals in industrial processing:

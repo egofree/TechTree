@@ -295,8 +295,20 @@ A representative 65 nm CMOS process flow shows how the individual unit processes
 **Weaknesses**:
 - 400-600 individual process steps over 6-8 weeks means a single particle defect at any step can kill the die — yield is multiplicative across all steps
 - Spike anneal at 1050-1080°C must limit junction diffusion to <2 nm — equipment failure during ramp destroys the entire wafer
+## Troubleshooting
 
-
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Ion implant dose non-uniformity exceeds ±1% across 300 mm wafer | Beam scanning electrostatic deflection plates misaligned or contaminated; raster pattern incomplete | Clean deflection plates, verify raster pattern covers full wafer diameter, recalibrate beam uniformity using Faraday cup array across 300 mm wafer |
+| Channeling tails in dopant profile after ion implantation | Wafer not tilted 7° off-axis; screen oxide missing or too thin (<10 nm) | Verify wafer tilt angle at 7°, grow 10-30 nm screen oxide before implant, check crystal orientation of starting wafer |
+| Implanted dopants not fully activated after anneal — sheet resistance 20%+ above target | Furnace anneal at 900-1050°C caused excessive dopant diffusion instead of activation; or RTA ramp too slow | Switch to RTA at 1000-1100°C with 10-30 sec hold, or use spike anneal to ~1080°C with immediate cooldown; minimize total time above 900°C to <5 seconds |
+| ALD film thickness non-uniform — 10%+ variation across wafer | Precursor pulse time insufficient for self-limiting saturation at wafer edge; purge time too short causing CVD-like reactions | Increase precursor pulse from 0.1-2 sec to ensure saturation at all points; extend N₂ purge to 1-10 sec to fully remove byproducts before next half-cycle |
+| CMP dishing on wide copper lines — Cu thickness 30%+ below target in features >10 μm | Downforce at 2-5 psi too high for soft Cu in wide features; slurry selectivity insufficient | Reduce downforce to 2-3 psi for Cu polish, adjust BTA corrosion inhibitor concentration, use two-step polish: bulk removal then low-pressure clearing step |
+| Wafer bow exceeds 100 μm after multi-layer film deposition — lithography scanner cannot chuck wafer | Cumulative thin film stress from 10+ layers exceeds Stoney's equation threshold; PECVD SiNₓ stress at -500 to +200 MPa unbalanced | Tune PECVD SiNₓ stress toward zero by adjusting RF frequency and SiH₄:NH₃ ratio; balance compressive and tensile film stacks; add stress-compensation dummy layers |
+| Copper electroplating voids in sub-100 nm trenches | Cu seed layer (50-100 nm PVD) too thin for complete coverage in high-aspect-ratio features; suppressor/accelerator additive imbalance | Increase seed layer thickness or switch to ALD Cu seed; optimize plating bath additives — increase suppressor concentration to slow plating in trench openings, allowing bottom-up fill |
+| RIE etch selectivity loss — photoresist erodes before etch target reached | Selectivity only 5:1 to 50:1 for resist vs. target; etch gas ratio shifted (e.g., O₂ fraction too high in CF₄/O₂) | Switch to hard mask (SiO₂ or SiNₓ) for deep etches; reduce O₂ fraction in fluorocarbon chemistry to increase polymer deposition and protect mask |
+| Bosch DRIE scalloping exceeds 200 nm — sidewall roughness too high for optical MEMS | Etch step duration 5-15 sec too long; isotropic SF₆ etch creates large undulations per cycle | Reduce etch step to minimum duration (3-5 sec); increase passivation C₄F₈ step; consider cryogenic DRIE variant which eliminates scalloping entirely |
+| PERC solar cell surface recombination velocity exceeds 10 cm/s — efficiency below 20% | Al₂O₃ rear passivation layer (10-30 nm) non-uniform or contaminated; SiNₓ cap not properly deposited | Verify ALD Al₂O₃ thickness uniformity across cell (target 10-30 nm); check SiNₓ capping layer integrity; optimize laser contact opening to minimize passivation damage at contact sites |
 
 ## See Also
 

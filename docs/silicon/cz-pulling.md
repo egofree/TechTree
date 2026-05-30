@@ -143,6 +143,19 @@ This document covers the CZ puller as a **machine** — design, materials, fabri
 
 Pulled ingots proceed to [Crystal Growth & Wafering](./crystal-growth.md) for cropping, grinding to diameter, wire saw slicing, lapping, and CMP polishing. Finished wafers feed [Basic Semiconductor Devices](./basic-devices.md) — primarily solar cells in early production, with the solar cell feedback loop (electricity → more furnaces → more silicon → more solar cells) driving exponential capacity growth.
 
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Dash neck snaps repeatedly | Pull speed too high, vibration, or melt temperature unstable | Reduce Dash neck pull speed to 3-4 mm/min; check vibration isolation; stabilize melt temperature within ±0.3°C before seeding; verify pull rod straightness (<0.05 mm runout) |
+| Crystal grows eccentric (off-center) | Pull rod bent or crucible misaligned | Inspect pull rod for straightness; realign crucible on hearth plate (flat to <0.1 mm); check seed holder collet is gripping seed squarely |
+| Resistivity out of spec axially | Dopant segregation (especially P, k=0.35) or incorrect initial charge calculation | For phosphorus: accept axial gradient, crop tail end where resistivity deviates >20%; for boron: verify charge calculation accounts for crucible volume; check dopant source purity |
+| Twin lines or polycrystalline grains in body | Seed orientation off, debris at interface, or thermal shock during shoulder growth | Verify seed orientation by X-ray Laue before use; ensure melt surface is clean (no floating SiO₂ particles); reduce shoulder growth rate (extend shoulder phase to 2-3 hours) |
+| Crucible cracks during run | Thermal shock from rapid heating, or crucible wall too thin from previous partial dissolution | Ramp heater power gradually (no faster than 100°C/hour through 800-1200°C); never reuse crucibles; inspect new crucible for surface flaws before loading |
+| Melt temperature won't stabilize (±>1°C) | Thermocouple degradation, power supply ripple, or graphite heater aging | Replace thermocouple (type B drifts after ~500 hours at 1400°C); check SCR/IGBT power supply output stability; inspect graphite heater for uneven sublimation or cracking |
+| High carbon in crystal (>1 ppma) | Argon purity insufficient, chamber leak, or old graphite components outgassing | Leak-check all chamber seals (target <10⁻⁶ mbar·L/s); use argon with O₂+H₂O <1 ppm; replace aged graphite insulation and radiation shields; extend purge cycles |
+| Crystal tail has high impurity concentration | Normal segregation concentrating impurities in last-to-freeze region | Expected behavior — crop tail (50-100 mm) and recycle; improve polysilicon feedstock purity to reduce starting impurity load |
+
 ## Safety Hazards
 
 The CZ puller combines extreme heat, high electrical current, precision mechanisms, and argon atmosphere — all in one machine:

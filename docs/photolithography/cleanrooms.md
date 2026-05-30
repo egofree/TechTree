@@ -202,6 +202,28 @@ The floor is a critical contamination control surface and must meet several requ
 
 
 
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Particle counts spike above class limit | Torn HEPA filter, gasket leak, or gowning protocol failure | DOP/PAO scan affected filter for leaks; replace torn filters immediately; retrain personnel on gowning sequence; check that airlock doors are not being propped open |
+| Room positive pressure lost (ΔP <5 Pa) | Make-up air system failure, exhaust imbalance, or door seal breach | Check make-up air unit (fan, filters, dampers); verify exhaust flow rates match design; inspect door gaskets and airlock interlocks; reduce exhaust if make-up air capacity is limited |
+| Humidity drifting above 50% RH | Dehumidification coil failure, make-up air moisture load too high, or chilled water temperature too warm | Check chilled water supply temperature (target ~7°C); inspect cooling coils for freeze-up or fouling; increase reheat if overcooling causes condensation; verify make-up air unit dehumidifier is operating |
+| Humidity dropping below 35% RH | Winter dry air overload, humidifier malfunction, or steam supply failure | Check clean steam humidifier (clogged nozzles, solenoid valve); increase humidification capacity during cold dry weather; verify DI water supply to humidifier is not interrupted |
+| UPW resistivity drops below 18 MΩ·cm | Ion exchange resin exhaustion, RO membrane failure, or contamination in distribution loop | Replace mixed-bed ion exchange cartridges; check RO rejection rate (should be >95%); sanitize distribution loop with hydrogen peroxide to eliminate bacterial contamination |
+| Persistent ESD failures on devices | Ionizer imbalance, flooring conductivity degraded, or wrist strap failures | Measure ionizer balance with charged plate monitor (target ±50V); test floor resistance with megohmmeter (target 10⁶-10⁹ Ω/sq); verify all wrist straps pass daily continuity check |
+| Temperature cannot hold ±0.5°C | Process equipment heat load exceeds cooling capacity, or thermostat PID needs tuning | Survey equipment heat load vs. chiller capacity; add supplemental cooling if needed; retune air handling unit PID controller; verify chilled water flow rate is adequate |
+| Particle counts rise near specific tool | Tool generating particles (outgassing, flaking deposits, or exhaust leak) | Enclose tool with local exhaust; clean tool chamber of deposited films; check tool exhaust connection for leaks or blockages; move tool downstream in laminar flow if possible |
+
+## Safety & Hazards
+
+- **Chemical exposure in cleanroom**: Process chemicals (HF, H₂SO₄, HNO₃, solvents) are handled at wet benches and chemical dispensing stations. Full cleanroom garments do not protect against chemical splash — chemical-rated PPE (face shield, acid-resistant apron, neoprene gloves) must be worn over cleanroom garments when handling chemicals. Emergency shower and eyewash stations within 10 seconds travel of every chemical workstation. Chemical spill kits (neutralizing absorbent for acids, activated carbon for solvents) at each station.
+- **Heat stress from full-body garments**: Cleanroom garments trap body heat and moisture, raising effective temperature by 5-10°C above ambient. In a 22°C cleanroom, operators may experience thermal equivalent of 30-35°C during sustained work. Limit continuous gown time to 4 hours with 30-minute breaks in a cool area. Monitor for signs of heat exhaustion (headache, dizziness, nausea). Provide cooling vests for high-activity stations.
+- **High-voltage ionizer hazard**: Corona ionizers operate at ±5-10 kV. Never touch emitter needles while powered. Ionizer housings must be grounded. Disconnect power before cleaning needles. Ionizer power supplies must be interlocked with tool access doors.
+- **Raised floor tripping hazard**: Perforated floor panels may be removed for underfloor access. Open floor holes are a fall and trip hazard. Mark open floor panels with barricades and never leave unattended. Replace panels immediately after underfloor work is complete.
+- **Noise exposure**: Air handling systems (fans, HEPA filter modules) generate 60-75 dB ambient noise. Some process tools (vacuum pumps, RF generators, sonic cleaners) produce >85 dB locally. Hearing protection required at stations exceeding 85 dB (OSHA action level). Annual audiometric testing for personnel with regular exposure above 85 dB.
+- **Compressed gas hazards**: Bulk gas cylinders (N₂, Ar, O₂, specialty gases) are stored in gas cabinets with continuous exhaust. Cylinder changes involve high-pressure connections — trained personnel only. Asphyxiation risk if inert gas (N₂, Ar) leaks into confined spaces. Gas cabinets must have O₂ monitors with alarms at 19.5% O₂ threshold.
+
 ## See Also
 
 - [Core Fab Processes](fab-processes.md) — processes requiring cleanroom environments

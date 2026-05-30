@@ -224,6 +224,19 @@ The CZ process requires precision control of temperature, pull speed, and rotati
 - Wire saw kerf loss of 150-200 μm per wafer wastes ~40-50% of silicon as abrasive-laden sludge
 - RCA clean uses hazardous chemicals (HF, H₂O₂) requiring dedicated fume hoods and PPE
 
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Crystal has dislocations (>100/cm²) | Dash neck too thick (>5 mm) or vibration during neck growth | Reduce neck diameter to ~3 mm by increasing pull speed to 3-5 mm/min; check vibration isolation (air springs, concrete inertia block); ensure floor vibration <1 μm at puller |
+| Crystal diameter oscillates (±>2 mm) | PID control loop instability or thermocouple drift | Tune PID gains (reduce proportional gain, increase derivative); verify thermocouple is not degraded (type B thermocouples drift after ~500 hours at 1400°C); check pyrometer calibration |
+| High oxygen content (>20 ppma) | Excessive crucible dissolution from high melt temperature or aggressive convection | Reduce melt temperature to minimum (1415-1420°C); increase argon flow to suppress convection; consider magnetic CZ (MCZ) if available to suppress melt flow |
+| SiC precipitates in crystal (>5 ppma C) | CO contamination from graphite heater, poor argon purity, or insufficient purge | Use higher-purity argon (>99.999%, O₂+H₂O <1 ppm); extend 3× purge cycle; check chamber seals for leaks; replace aged graphite insulation that may be outgassing |
+| Crystal cracks during cooling | Cooling rate too fast through 800-1200°C danger zone | Reduce cooling rate to 2-5°C/min; ensure argon atmosphere maintained during cooling; avoid mechanical disturbance during cool-down |
+| Slip lines on etched wafers | Thermal stress from non-uniform cooling or steep radial temperature gradient | Improve radiation shield design for uniform thermal environment; reduce pull speed slightly (lower thermal gradient at interface); ensure susceptor is not cracked (causes asymmetric heating) |
+| Wafer TTV >5 μm after lapping | Uneven slicing (wire saw vibration or inconsistent wire tension) | Check wire tension (15-30 N stable); verify wire guide grooves are not worn; ensure ingot is securely mounted and not shifting during cut |
+| High particle count on finished wafers | Contaminated CMP slurry, dirty polishing pad, or inadequate RCA clean | Replace CMP slurry (check expiration); condition pad with diamond disk; verify UPW resistivity is 18.2 MΩ·cm; add megasonic clean step after CMP |
+
 ## Safety Hazards
 
 Crystal growth and wafering involve extreme temperatures, toxic chemicals, and high-current electrical systems:

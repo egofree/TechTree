@@ -158,6 +158,18 @@ Energy consumption varies dramatically across the silicon processing chain. Appr
 
 The energy intensification from MG-Si to single-crystal wafers is roughly 20-40×. A polysilicon plant is fundamentally an energy conversion facility — cheap, abundant electricity is the primary siting requirement.
 
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Low TCS conversion (<80% Si→SiHCl₃) | Insufficient Cu catalyst or temperature too low in fluidized bed | Increase copper catalyst loading to 1-2% of Si charge; raise reactor temperature to 320-350°C; ensure Si powder is 100-500 μm for proper fluidization |
+| Boron contamination persists after distillation (>1 ppb B) | BCl₃/SiHCl₃ separation inadequate — boiling points too close (12.5°C vs 31.8°C) | Increase distillation column height or add additional column in series; increase reflux ratio to >50:1; verify column packing is not channeled or flooded |
+| CVD rod fracture during deposition | Non-uniform temperature along rod causing thermal stress | Check power supply stability (±1%); verify rod seed alignment — misalignment causes uneven heating; reduce deposition rate (lower TCS flow) for more uniform growth |
+| Polysilicon purity below 9N | Leaks in bell jar introducing air/moisture, or contaminated TCS feed | Perform helium leak check on bell jar seals (target <10⁻⁶ mbar·L/s); re-distill TCS feed; check H₂ purity (>99.999%) |
+| High SiCl₄ accumulation (closed loop not recycling) | Hydrogenation reactor not converting SiCl₄ back to SiHCl₃ | Increase hydrogenation temperature to 500-550°C; verify MG-Si powder is fresh (surface-passivated powder reacts poorly); check H₂ flow rate is sufficient |
+| Zone refining unstable (molten zone drips) | FZ travel speed too fast or rod diameter exceeds surface tension stability | Reduce zone pass speed to 1-2 mm/min; verify rod diameter is ≤200 mm; check RF coil alignment — off-center coil creates asymmetric heating |
+| Slag treatment poor boron removal (<50% per pass) | Slag basicity wrong, insufficient stirring, or temperature too low | Adjust CaO:SiO₂ ratio to 1:1 (basicity ~1.0); add mechanical stirring or gas bubbling; raise temperature to 1550-1600°C; increase slag-to-silicon ratio to 1.5:1 |
+
 ## Safety Hazards
 
 Silicon purification involves some of the most dangerous chemicals in semiconductor manufacturing:

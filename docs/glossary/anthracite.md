@@ -19,7 +19,7 @@ For bootstrapping industry, anthracite's value lies in its cleanliness and heat 
 ## Related Terms
 
 - [Charcoal](./charcoal.md) — the competing high-purity solid fuel, universally available but lower energy density
-- [Coke Production](./coke-production.md) — engineered high-carbon fuel from bituminous coal
+- [Coke Production](./coke.md) — engineered high-carbon fuel from bituminous coal
 - [Steam Power](./steam-power.md) — anthracite as boiler fuel for steam generation
 
 ## Appears In

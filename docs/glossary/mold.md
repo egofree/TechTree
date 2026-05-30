@@ -19,7 +19,7 @@ For continuous casting in steelmaking, mold design is critical: water velocity i
 ## Related Terms
 
 - [Melting](./melting.md) — molten material is shaped by molds
-- [Manufacturing](./manufacturing.md) — mold making is a specialized manufacturing activity
+- [Manufacturing](./manufacture.md) — mold making is a specialized manufacturing activity
 - [Limitations](./limitations.md) — mold design must account for material shrinkage and flow
 
 ## Appears In

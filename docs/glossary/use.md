@@ -20,7 +20,7 @@ Proper use also extends to safety: using tools and materials within their rated 
 
 - [Construction](./construction.md) — building with materials for specific uses
 - [Source](./source.md) — origin of materials before use
-- [Manufacturing](./manufacturing.md) — processes that create items for use
+- [Manufacturing](./manufacture.md) — processes that create items for use
 - [Yield](./yield.md) — output obtained from material use
 - [Design](./design.md) — planning the use of materials and processes
 

@@ -20,7 +20,7 @@ Computing setup: mechanical computers require precise alignment of shafts, gears
 
 - [Purpose](./purpose.md) — why setup matters
 - [Use](./use.md) — proper use following setup
-- [Manufacturing](./manufacturing.md) — setup in production contexts
+- [Manufacturing](./manufacture.md) — setup in production contexts
 - [Materials](./materials.md) — setup materials and supplies
 - [Applications](./applications.md) — what setup enables
 

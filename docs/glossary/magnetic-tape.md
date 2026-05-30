@@ -20,7 +20,7 @@ Tape storage is sequential — data must be accessed in order, unlike the random
 
 - [Measurement](./measurement.md) — magnetic recording heads require precise manufacturing
 - [Materials](./materials.md) — substrate and magnetic particle materials
-- [Manufacturing](./manufacturing.md) — tape coating is a precision manufacturing process
+- [Manufacturing](./manufacture.md) — tape coating is a precision manufacturing process
 
 ## Appears In
 

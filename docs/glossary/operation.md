@@ -18,7 +18,7 @@ Operational safety is paramount. Pre-start safety checks verify that all guards 
 
 ## Related Terms
 
-- [Manufacturing](./manufacturing.md) — manufacturing systems are operated to produce goods
+- [Manufacturing](./manufacture.md) — manufacturing systems are operated to produce goods
 - [Measurement](./measurement.md) — operation requires continuous measurement for process control
 - [Loading](./loading.md) — loading is the first operational step for batch processes
 

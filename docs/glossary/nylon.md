@@ -18,7 +18,7 @@ Nylon's key properties are high toughness (notch-sensitive but resistant to repe
 
 ## Related Terms
 
-- [Manufacturing](./manufacturing.md) — nylon production is a complex manufacturing process
+- [Manufacturing](./manufacture.md) — nylon production is a complex manufacturing process
 - [Lubrication](./lubrication.md) — nylon's self-lubricating properties reduce need for external lubricants
 - [Insulation](./insulation.md) — nylon is used as electrical insulation in some applications
 

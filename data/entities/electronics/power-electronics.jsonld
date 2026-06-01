@@ -1,0 +1,38 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Power electronics enables efficient energy conversion, motor control, and solar/grid integration without which industrial electrification is impossible",
+  "description": "Converting and controlling electrical power using semiconductor switching devices. Encompasses rectifiers (AC to DC), inverters (DC to AC), DC-DC converters, and AC-AC converters using high-frequency switching of diodes, MOSFETs, IGBTs, and thyristors to process power with 90-98% efficiency.",
+  "early_win": false,
+  "id": "electronics.power-electronics",
+  "level": "capability",
+  "name": "Power Electronics",
+  "outputs": [
+    "rectifiers",
+    "inverters",
+    "converters",
+    "motor_drives",
+    "ups_systems"
+  ],
+  "parent": "electronics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy",
+      "computing"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "metals",
+      "silicon",
+      "chemicals",
+      "polymers",
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 35-60"
+}

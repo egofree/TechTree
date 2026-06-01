@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "The architecture determines whether logic gates become a useful processor or an unorganized collection of transistors.",
+  "description": "Defining the structure and behavior of computing systems as seen by the programmer: instruction set architecture, register organization, memory hierarchy, I/O mechanisms, and bus topology. The contract between hardware and software that determines performance, complexity, and bootstrappability.",
+  "early_win": false,
+  "id": "computing.computer-architecture",
+  "level": "capability",
+  "name": "Computer Architecture",
+  "outputs": [
+    "cpu_designs",
+    "memory_hierarchy",
+    "bus_architecture",
+    "io_systems"
+  ],
+  "parent": "computing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "electronic",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-70+"
+}

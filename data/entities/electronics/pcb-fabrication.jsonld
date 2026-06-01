@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Printed circuit board fabrication transforms copper-clad insulating substrates into precise patterned circuit interconnects. Requires glass fiber production (FR-4 substrate), epoxy resin chemistry (laminate bonding), copper foil (conductive traces), and photochemical etching processes. Provides the universal interconnection substrate for all electronic assemblies from simple controllers to multi-GHz computers.",
+  "early_win": false,
+  "id": "electronics.pcb-fabrication",
+  "level": "capability",
+  "name": "PCB Fabrication",
+  "outputs": [
+    "pcb_bare_boards",
+    "copper_clad_laminate",
+    "etched_circuits"
+  ],
+  "parent": "electronics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "glass",
+      "polymers",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-45"
+}

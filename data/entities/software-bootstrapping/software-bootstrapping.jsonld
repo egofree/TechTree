@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": true,
+  "description": "Bootstrap chain for all software: from hand-entered machine code via front-panel switches, through assemblers and compilers, to operating systems and development tools. Every higher-level software tool traces back to machine code entered by hand — this domain covers the entire self-hosting software toolchain that makes electronic computers productive.",
+  "early_win": false,
+  "id": "software-bootstrapping",
+  "level": "domain",
+  "name": "Software Bootstrapping",
+  "outputs": [
+    "binary_programs",
+    "bootstrap_loaders",
+    "assembly_language",
+    "object_files",
+    "executable_programs"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "electronic",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-70+"
+}

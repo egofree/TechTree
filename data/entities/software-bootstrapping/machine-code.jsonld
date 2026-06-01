@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Direct entry of binary instruction patterns into computer memory via front-panel switches or hex keyboards. Before assemblers or compilers exist, this is the only way to make a computer execute programs. The bootstrap loader — a tiny program toggled in by hand that loads larger programs from storage — is the bridge from tedious manual entry to automated program loading.",
+  "early_win": false,
+  "id": "software-bootstrapping.machine-code",
+  "level": "capability",
+  "name": "Machine Code & Front-Panel Programming",
+  "outputs": [
+    "binary_programs",
+    "bootstrap_loaders"
+  ],
+  "parent": "software-bootstrapping",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "electronic",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-60"
+}

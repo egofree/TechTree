@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Dedicated computing hardware for real-time industrial control, sensor interfacing, and actuator management. Embedded systems bridge computing hardware to physical process control in semiconductor fab tools and automated equipment.",
+  "early_win": false,
+  "id": "computing.embedded-systems",
+  "level": "capability",
+  "name": "Embedded Systems",
+  "outputs": [
+    "microcontroller_systems",
+    "firmware",
+    "real_time_control",
+    "sensor_interfaces"
+  ],
+  "parent": "computing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "electronic",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 55-75+"
+}

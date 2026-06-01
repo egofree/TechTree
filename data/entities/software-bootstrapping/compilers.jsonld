@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Translation of programs written in high-level languages (Fortran, C, Pascal) into machine code or assembly language. Compilers handle register allocation, instruction selection, and address management, enabling programmers to express algorithms in terms of variables, expressions, loops, and functions rather than raw machine instructions. This provides a 5-10× productivity multiplier over assembly language, making operating systems, applications, and development tools feasible at scale.",
+  "early_win": false,
+  "id": "software-bootstrapping.compilers",
+  "level": "capability",
+  "name": "Compiler Construction",
+  "outputs": [
+    "compiled_programs",
+    "high_level_languages"
+  ],
+  "parent": "software-bootstrapping",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "electronic",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 55-70"
+}

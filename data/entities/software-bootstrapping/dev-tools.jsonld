@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Software tools that help write, test, and maintain other software: text editors for creating and modifying source code, debuggers for inspecting and controlling program execution, build systems for automating compilation and linking, and version control systems for tracking changes over time. Without development tools, programming is possible but painful — debugging means inserting print statements, building means manually issuing compile commands, and version control means keeping dated file copies.",
+  "early_win": false,
+  "id": "software-bootstrapping.dev-tools",
+  "level": "capability",
+  "name": "Development Tools & Debugging",
+  "outputs": [
+    "text_editors",
+    "debuggers",
+    "build_systems"
+  ],
+  "parent": "software-bootstrapping",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 60-75"
+}

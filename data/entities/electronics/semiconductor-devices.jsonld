@@ -1,0 +1,37 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Diodes and transistors are the fundamental active components enabling all power conversion, signal processing, and digital logic",
+  "description": "Physics, construction, and application of discrete semiconductor devices at the component level: diodes (PN junction, Zener, Schottky), bipolar junction transistors (BJTs), field-effect transistors (MOSFETs), and thyristors. These active devices make amplification, switching, rectification, and logic possible.",
+  "early_win": false,
+  "id": "electronics.semiconductor-devices",
+  "level": "capability",
+  "name": "Semiconductor Devices",
+  "outputs": [
+    "diodes",
+    "transistors",
+    "thyristors",
+    "voltage_references"
+  ],
+  "parent": "electronics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing",
+      "energy"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "silicon",
+      "metals",
+      "chemicals",
+      "polymers",
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-55"
+}

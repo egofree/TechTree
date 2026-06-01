@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Manufacture of resistors, capacitors, and inductors — the fundamental building blocks of every electronic circuit. Passive components control current flow, store energy, filter signals, set time constants, and provide impedance matching. Depends on ceramics (capacitor dielectrics, resistor substrates), metals (resistance wire, capacitor foil, inductor windings), and chemistry (etchants, plating solutions). Bridges electrical systems and semiconductor active devices.",
+  "early_win": false,
+  "id": "electronics.passive-components",
+  "level": "capability",
+  "name": "Passive Components",
+  "outputs": [
+    "resistors",
+    "capacitors",
+    "inductors",
+    "transformers"
+  ],
+  "parent": "electronics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "ceramics",
+      "chemicals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-40"
+}

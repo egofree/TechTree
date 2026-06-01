@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Translation of human-readable mnemonic instructions (assembly language) into machine code binary, along with linkers that combine multiple object files and loaders that place executables into memory. The assembler is the first software tool built for any new computer — it is initially written in machine code, then made self-hosting by rewriting it in its own assembly language.",
+  "early_win": false,
+  "id": "software-bootstrapping.assemblers",
+  "level": "capability",
+  "name": "Assemblers, Linkers & Loaders",
+  "outputs": [
+    "assembly_language",
+    "object_files",
+    "executable_programs"
+  ],
+  "parent": "software-bootstrapping",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "electronic",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-60"
+}

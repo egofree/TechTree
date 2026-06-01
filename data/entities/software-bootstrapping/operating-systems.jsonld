@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Construction of operating systems that manage the computer's hardware resources — processor time, memory, storage, and I/O devices — and provide services that application programs use: file storage, process execution, input/output, and memory allocation. The OS evolves from a simple monitor program through batch processing and single-user interactive systems to multi-tasking with memory protection, each stage built using tools from previous stages.",
+  "early_win": false,
+  "id": "software-bootstrapping.operating-systems",
+  "level": "capability",
+  "name": "Operating System Construction",
+  "outputs": [
+    "operating_system",
+    "process_management",
+    "file_systems"
+  ],
+  "parent": "software-bootstrapping",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "electronic",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 55-70"
+}

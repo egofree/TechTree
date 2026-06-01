@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "All digital hardware from microcontrollers to GPUs requires systematic logic design.",
+  "description": "The engineering discipline of transforming Boolean algebra into physical circuits that perform computation. System-level methodology for organizing thousands to billions of gates into correct, timing-compliant, testable digital systems — from Karnaugh maps and state machines to HDL specification and timing analysis.",
+  "early_win": false,
+  "id": "computing.logic-design",
+  "level": "capability",
+  "name": "Logic Design",
+  "outputs": [
+    "combinational_circuits",
+    "sequential_circuits",
+    "state_machines",
+    "programmable_logic"
+  ],
+  "parent": "computing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "electronic",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 45-60"
+}

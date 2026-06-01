@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/vacuum.leak-detection__vacuum.measurement",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "vacuum.leak-detection",
+  "to": "vacuum.measurement"
+}

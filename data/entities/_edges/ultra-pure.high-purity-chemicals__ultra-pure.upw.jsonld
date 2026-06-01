@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/ultra-pure.high-purity-chemicals__ultra-pure.upw",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "ultra-pure.high-purity-chemicals",
+  "to": "ultra-pure.upw"
+}

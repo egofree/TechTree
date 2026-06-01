@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/precision-motion.nanometer-positioning__machine-tools.edm-cnc",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "precision-motion.nanometer-positioning",
+  "to": "machine-tools.edm-cnc"
+}

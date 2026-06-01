@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/precision-motion.vibration-isolation__gas-handling",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "precision-motion.vibration-isolation",
+  "to": "gas-handling"
+}

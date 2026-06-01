@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/precision-motion.nanometer-positioning__energy.electricity",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "precision-motion.nanometer-positioning",
+  "to": "energy.electricity"
+}

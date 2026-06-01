@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/glass.basic.float-glass__metals.non-ferrous",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "glass.basic.float-glass",
+  "to": "metals.non-ferrous"
+}

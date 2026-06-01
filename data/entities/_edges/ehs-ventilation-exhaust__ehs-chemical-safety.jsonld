@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/ehs.ventilation-exhaust__ehs.chemical-safety",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "ehs.ventilation-exhaust",
+  "to": "ehs.chemical-safety"
+}

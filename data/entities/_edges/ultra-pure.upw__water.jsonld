@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/ultra-pure.upw__water",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "ultra-pure.upw",
+  "to": "water"
+}

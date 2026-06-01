@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.gas-turbine__metals.refractory-specialty",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "energy.gas-turbine",
+  "to": "metals.refractory-specialty"
+}

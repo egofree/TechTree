@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics-pcb-fabrication__chemistry-acids",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "electronics.pcb-fabrication",
+  "to": "chemistry.acids"
+}

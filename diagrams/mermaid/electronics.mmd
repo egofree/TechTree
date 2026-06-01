@@ -7,6 +7,10 @@ graph TD
         direction TB
         electronics_assembly["Electronics Assembly"]
         electronics_electrical-systems["Electrical Systems"]
+        electronics_passive-components["Passive Components"]
+        electronics_pcb-fabrication["PCB Fabrication"]
+        electronics_power-electronics["Power Electronics"]
+        electronics_semiconductor-devices["Semiconductor Devices"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -16,12 +20,15 @@ graph TD
     automation("Automation & Robotics")
     automation_equipment-communication("Equipment Communication")
     chemistry("Chemistry")
+    chemistry_acids("Mineral Acid Production")
     chemistry_electrolysis("Electrolysis")
     computing_electronic("Electronic Computing")
     energy_electricity("Electricity Generation & Distribution")
+    energy_photovoltaics("Photovoltaic Solar Power")
     glass_fibers("Glass Fiber Production")
     machine-tools("Machine Tools Bootstrap")
     metals("Metals")
+    metals_copper-bronze("Copper & Bronze Production")
     metals_precious-metals("Precious Metal Production (Gold & Silver)")
     polymers_thermoplastics("Thermoplastic Polymers")
     polymers_thermosets("Thermosetting Polymers")
@@ -29,6 +36,7 @@ graph TD
     vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
 
     %% ==================== EDGES ====================
+    electronics_power-electronics -.-> electronics_semiconductor-devices
     automation_equipment-communication -.-> electronics
     automation -.-> electronics
     computing_electronic -.-> electronics_assembly
@@ -38,10 +46,14 @@ graph TD
     electronics_electrical-systems --> chemistry_electrolysis
     electronics_electrical-systems -.-> energy_electricity
     electronics_electrical-systems --> polymers_thermoplastics
+    electronics_pcb-fabrication --> chemistry_acids
+    electronics_pcb-fabrication --> metals_copper-bronze
+    electronics_semiconductor-devices --> silicon_basic-devices
     electronics --> chemistry
     electronics -.-> energy_electricity
     electronics -.-> machine-tools
     electronics --> metals
+    energy_photovoltaics -.-> electronics_power-electronics
     metals_precious-metals --> electronics
     vlsi-scaling_eda-design -.-> electronics_assembly
 
@@ -62,15 +74,22 @@ graph TD
     class electronics domain
     class electronics_assembly capability
     class electronics_electrical-systems capability
+    class electronics_passive-components critical
+    class electronics_pcb-fabrication critical
+    class electronics_power-electronics critical
+    class electronics_semiconductor-devices critical
     class automation external
     class automation_equipment-communication external
     class chemistry external
+    class chemistry_acids external
     class chemistry_electrolysis external
     class computing_electronic external
     class energy_electricity external
+    class energy_photovoltaics external
     class glass_fibers external
     class machine-tools external
     class metals external
+    class metals_copper-bronze external
     class metals_precious-metals external
     class polymers_thermoplastics external
     class polymers_thermosets external

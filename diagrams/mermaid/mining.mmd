@@ -8,6 +8,7 @@ graph TD
         mining_drilling["Mechanical Drilling"]
         mining_extraction_black-powder["Black Powder Explosives"]
         mining_extraction["Mining Extraction"]
+        mining_tailings-reprocessing["Tailings Reprocessing"]
         mining_processing["Ore Processing"]
         mining_prospecting["Prospecting & Surveying"]
         mining_ventilation["Mine Ventilation"]
@@ -33,10 +34,12 @@ graph TD
     foundations_tools-basic("Stone & Wood Tools")
     glass_basic("Basic Glass Production")
     knowledge_writing("Writing & Record-Keeping")
+    machine-tools("Machine Tools Bootstrap")
     machine-tools_machining("Machining")
     metals("Metals")
     metals_aluminum("Aluminum Production")
     metals_copper-bronze("Copper & Bronze Production")
+    metals_iron-steel("Iron & Steel Production")
     metals_non-ferrous("Non-Ferrous Metal Production")
     metals_precious-metals("Precious Metal Production (Gold & Silver)")
     petroleum("Petroleum Extraction & Refining")
@@ -49,6 +52,8 @@ graph TD
     mining_extraction_black-powder -.-> mining_extraction
     mining_extraction -.-> mining_prospecting
     mining_processing --> mining_extraction
+    mining_tailings-reprocessing --> mining_extraction
+    mining_tailings-reprocessing -.-> mining_processing
     mining_ventilation -.-> mining
     ceramics_advanced-ceramics --> mining
     ceramics_lime --> mining
@@ -69,8 +74,11 @@ graph TD
     mining_extraction_black-powder --> chemistry_explosives
     mining_extraction -.-> animals_draft-power
     mining_extraction -.-> foundations_tools-basic
+    mining_extraction -.-> metals_iron-steel
     mining_processing -.-> energy_fuels
     mining_prospecting -.-> knowledge_writing
+    mining_tailings-reprocessing --> chemistry_acids
+    mining_tailings-reprocessing -.-> machine-tools
     mining_ventilation -.-> energy_steam-power
     mining -.-> foundations
     petroleum -.-> mining
@@ -97,6 +105,7 @@ graph TD
     class mining_drilling capability
     class mining_extraction_black-powder process
     class mining_extraction capability
+    class mining_tailings-reprocessing capability
     class mining_processing capability
     class mining_prospecting capability
     class mining_ventilation capability
@@ -116,10 +125,12 @@ graph TD
     class foundations_tools-basic external
     class glass_basic external
     class knowledge_writing external
+    class machine-tools external
     class machine-tools_machining external
     class metals external
     class metals_aluminum external
     class metals_copper-bronze external
+    class metals_iron-steel external
     class metals_non-ferrous external
     class metals_precious-metals external
     class petroleum external

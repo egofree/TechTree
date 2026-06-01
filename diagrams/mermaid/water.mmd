@@ -16,15 +16,21 @@ graph TD
     water["Water"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    agriculture_irrigation("Irrigation Systems")
     chemistry_electrodialysis("Electrodialysis")
     chemistry_water-treatment("Industrial Water Treatment")
+    ehs_waste-management("Waste Management")
     energy_electricity("Electricity Generation & Distribution")
     food-processing("Food Processing")
+    ultra-pure_upw("Ultra-Pure Water Production")
 
     %% ==================== EDGES ====================
+    agriculture_irrigation --> water_distribution
     chemistry_electrodialysis -.-> water_desalination
     chemistry_water-treatment --> water_sewage
+    ehs_waste-management -.-> water_sewage
     food-processing --> water
+    ultra-pure_upw --> water
     water_desalination --> energy_electricity
 
     %% ==================== EDGE TYPE LEGEND ====================
@@ -47,8 +53,11 @@ graph TD
     class water_distribution capability
     class water_procurement capability
     class water_sewage capability
+    class agriculture_irrigation external
     class chemistry_electrodialysis external
     class chemistry_water-treatment external
+    class ehs_waste-management external
     class energy_electricity external
     class food-processing external
+    class ultra-pure_upw external
     class EdgeLegend,MatNote,ToolNote legend

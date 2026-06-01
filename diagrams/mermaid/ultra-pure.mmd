@@ -14,8 +14,21 @@ graph TD
     ultra-pure["Ultra-Pure Materials"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    chemistry("Chemistry")
+    measurement("Measurement & Instrumentation")
+    photolithography_fab-processes_cmp("Chemical Mechanical Planarization (CMP)")
+    silicon("Silicon")
+    water("Water")
 
     %% ==================== EDGES ====================
+    ultra-pure_analytical-verification --> ultra-pure_upw
+    ultra-pure_high-purity-chemicals --> ultra-pure_upw
+    photolithography_fab-processes_cmp --> ultra-pure_upw
+    silicon --> ultra-pure
+    ultra-pure_analytical-verification -.-> measurement
+    ultra-pure_high-purity-chemicals -.-> chemistry
+    ultra-pure_upw --> water
+    ultra-pure -.-> chemistry
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -35,4 +48,9 @@ graph TD
     class ultra-pure_analytical-verification capability
     class ultra-pure_high-purity-chemicals capability
     class ultra-pure_upw capability
+    class chemistry external
+    class measurement external
+    class photolithography_fab-processes_cmp external
+    class silicon external
+    class water external
     class EdgeLegend,MatNote,ToolNote legend

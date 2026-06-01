@@ -11,14 +11,17 @@ graph TD
         energy_electric-furnaces["Electric Furnaces"]
         energy_electricity["Electricity Generation & Distribution"]
         energy_electricity_power-systems["Electric Power Systems for Semiconductor Fabrication"]
+        energy_geothermal["Geothermal Energy"]
         energy_engine["Heat Engines"]
         energy_fuel-cell["Fuel Cell"]
         energy_fuels_charcoal["Charcoal Production"]
         energy_fuels_coal["Coal Mining & Combustion"]
         energy_fuels_coke["Coke Production"]
         energy_fuels["Fuel Production"]
+        energy_gas-turbine["Gas Turbines"]
         energy_gravity["Water Power"]
         energy_gravity_water-turbines["Water Turbines"]
+        energy_photovoltaics["Photovoltaic Solar Power"]
         energy_redox-flow-battery["Redox Flow Battery"]
         energy_steam-power["Steam Power"]
         energy_steam-power_steam-turbines["Steam Turbines"]
@@ -32,6 +35,7 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     agriculture_hydroponic-ph-control("Hydroponic pH Control")
+    agriculture_irrigation("Irrigation Systems")
     ceramics_kilns("Kiln Construction")
     ceramics_pottery_kiln-firing("Kiln Firing")
     chemistry("Chemistry")
@@ -53,6 +57,7 @@ graph TD
     electrochemistry("Electrochemistry & Plating")
     electronics("Electronics")
     electronics_electrical-systems("Electrical Systems")
+    electronics_power-electronics("Power Electronics")
     food-processing("Food Processing")
     food-processing_brewing("Brewing & Distilling")
     food-processing_milling("Grain Milling")
@@ -61,6 +66,8 @@ graph TD
     gas-handling("Gas Handling")
     glass("Glass")
     glass_advanced_glassblowing("Glassblowing and Scientific Apparatus")
+    glass_basic("Basic Glass Production")
+    glass_basic_float-glass("Float Glass Process")
     health_medical-instruments("Medical Instrument Manufacturing")
     machine-tools("Machine Tools Bootstrap")
     machine-tools_edm-cnc("EDM, CNC & Precision Grinding")
@@ -87,6 +94,7 @@ graph TD
     metals_iron-steel("Iron & Steel Production")
     metals_iron-steel_blast-furnace("Blast Furnace and Cast Iron")
     metals_powder-metallurgy("Powder Metallurgy & Advanced Materials")
+    metals_refractory-specialty("Refractory & Specialty Metals for Semiconductor Manufacturing")
     metals_steelmaking("Modern Steelmaking")
     mining("Mining Engineering & Extractive Metallurgy")
     mining_drilling("Mechanical Drilling")
@@ -94,9 +102,14 @@ graph TD
     mining_ventilation("Mine Ventilation")
     petroleum_extraction_cable-tool("Cable-Tool Drilling")
     petroleum_refining("Petroleum Refining")
+    photolithography_cvd("Chemical Vapor Deposition")
+    photolithography_ion-implantation("Ion Implantation")
+    photolithography_plasma-etching("Plasma Etching (RIE & DRIE)")
     plants("Plants & Botanical Resources")
     polymers_rubber("Rubber Production")
+    precision-motion_nanometer-positioning("Nanometer Positioning")
     silicon("Silicon")
+    silicon_basic-devices("Basic Semiconductor Devices")
     silicon_mg-si-production("Metallurgical-Grade Silicon Production")
     silicon_purification("Silicon Purification")
     telecom("Telecommunications")
@@ -117,10 +130,15 @@ graph TD
     energy_electricity_power-systems -.-> energy_electricity
     energy_electricity_power-systems -.-> energy_engine
     energy_electricity_power-systems -.-> energy_storage
+    energy_electricity -.-> energy_steam-power
     energy_engine --> energy_fuels
     energy_fuels_charcoal -.-> energy_fuels
     energy_fuels_coal -.-> energy_fuels
     energy_fuels_coke -.-> energy_fuels
+    energy_gas-turbine -.-> energy_engine
+    energy_gas-turbine -.-> energy_steam-power_steam-turbines
+    energy_geothermal -.-> energy_electricity
+    energy_geothermal -.-> energy_steam-power
     energy_gravity_water-turbines -.-> energy_gravity
     energy_redox-flow-battery --> energy_electricity
     energy_steam-power_steam-turbines -.-> energy_steam-power
@@ -128,6 +146,7 @@ graph TD
     energy_storage_pumped-hydro -.-> energy_gravity
     energy_storage -.-> energy
     agriculture_hydroponic-ph-control --> energy_electricity
+    agriculture_irrigation -.-> energy
     ceramics_pottery_kiln-firing --> energy_fuels_charcoal
     chemistry_acid-regeneration --> energy_electricity
     chemistry_air-separation --> energy_electricity
@@ -164,10 +183,15 @@ graph TD
     energy_fuels_coke -.-> ceramics_kilns
     energy_fuels_coke --> mining
     energy_fuels -.-> foundations_fire
+    energy_gas-turbine --> metals_refractory-specialty
+    energy_geothermal --> metals_iron-steel
     energy_gravity_water-turbines -.-> machine-tools_machining
     energy_gravity_water-turbines -.-> metals_iron-steel
     energy_gravity --> chemistry_lubricants
     energy_gravity -.-> textiles
+    energy_photovoltaics -.-> electronics_power-electronics
+    energy_photovoltaics --> glass_basic
+    energy_photovoltaics -.-> silicon_basic-devices
     energy_steam-power_steam-turbines -.-> machine-tools_machining
     energy_steam-power_steam-turbines --> metals_alloys
     energy_steam-power_steam-turbines -.-> metals_iron-steel
@@ -186,6 +210,7 @@ graph TD
     food-processing -.-> energy
     gas-handling --> energy
     glass_advanced_glassblowing -.-> energy_fuels
+    glass_basic_float-glass -.-> energy_electric-furnaces
     glass --> energy
     health_medical-instruments -.-> energy_steam-power
     machine-tools_edm-cnc -.-> energy_electricity
@@ -213,7 +238,11 @@ graph TD
     mining_processing -.-> energy_fuels
     mining_ventilation -.-> energy_steam-power
     petroleum_extraction_cable-tool -.-> energy_steam-power
+    photolithography_cvd -.-> energy_electricity
+    photolithography_ion-implantation -.-> energy_electricity
+    photolithography_plasma-etching -.-> energy_electricity
     plants --> energy_fuels
+    precision-motion_nanometer-positioning -.-> energy_electricity
     silicon_mg-si-production -.-> energy_electric-furnaces
     silicon_mg-si-production -.-> energy
     silicon_purification -.-> energy_electricity
@@ -252,14 +281,17 @@ graph TD
     class energy_electric-furnaces capability
     class energy_electricity capability
     class energy_electricity_power-systems critical
+    class energy_geothermal capability
     class energy_engine critical
     class energy_fuel-cell capability
     class energy_fuels_charcoal process
     class energy_fuels_coal process
     class energy_fuels_coke process
     class energy_fuels capability
+    class energy_gas-turbine capability
     class energy_gravity capability
     class energy_gravity_water-turbines process
+    class energy_photovoltaics capability
     class energy_redox-flow-battery capability
     class energy_steam-power capability
     class energy_steam-power_steam-turbines process
@@ -267,6 +299,7 @@ graph TD
     class energy_storage_pumped-hydro process
     class energy_wind capability
     class agriculture_hydroponic-ph-control external
+    class agriculture_irrigation external
     class ceramics_kilns external
     class ceramics_pottery_kiln-firing external
     class chemistry external
@@ -288,6 +321,7 @@ graph TD
     class electrochemistry external
     class electronics external
     class electronics_electrical-systems external
+    class electronics_power-electronics external
     class food-processing external
     class food-processing_brewing external
     class food-processing_milling external
@@ -296,6 +330,8 @@ graph TD
     class gas-handling external
     class glass external
     class glass_advanced_glassblowing external
+    class glass_basic external
+    class glass_basic_float-glass external
     class health_medical-instruments external
     class machine-tools external
     class machine-tools_edm-cnc external
@@ -322,6 +358,7 @@ graph TD
     class metals_iron-steel external
     class metals_iron-steel_blast-furnace external
     class metals_powder-metallurgy external
+    class metals_refractory-specialty external
     class metals_steelmaking external
     class mining external
     class mining_drilling external
@@ -329,9 +366,14 @@ graph TD
     class mining_ventilation external
     class petroleum_extraction_cable-tool external
     class petroleum_refining external
+    class photolithography_cvd external
+    class photolithography_ion-implantation external
+    class photolithography_plasma-etching external
     class plants external
     class polymers_rubber external
+    class precision-motion_nanometer-positioning external
     class silicon external
+    class silicon_basic-devices external
     class silicon_mg-si-production external
     class silicon_purification external
     class telecom external

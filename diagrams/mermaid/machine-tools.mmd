@@ -20,6 +20,7 @@ graph TD
         machine-tools_joining_tig-welding["TIG Welding (GTAW)"]
         machine-tools_joining_ultrasonic-bonding["Ultrasonic Welding & Wire Bonding"]
         machine-tools_machining["Machining"]
+        machine-tools_mass-production["Mass Production & Interchangeability"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -56,12 +57,16 @@ graph TD
     metals_forming("Primary Metal Forming")
     metals_iron-steel("Iron & Steel Production")
     mining_drilling("Mechanical Drilling")
+    mining_tailings-reprocessing("Tailings Reprocessing")
     optics("Optics")
     photolithography("Photolithography & IC Fabrication")
     polymers_composites("Composite Materials")
     polymers_rubber_synthetic("Synthetic Rubbers")
     polymers_thermoplastics("Thermoplastic Polymers")
     polymers_thermosets("Thermosetting Polymers")
+    precision-motion("Precision Motion Control")
+    precision-motion_nanometer-positioning("Nanometer Positioning")
+    precision-motion_wafer-stages("Wafer Stages & Scanner Systems")
     silicon("Silicon")
     textiles("Textiles, Fiber & Cordage")
     transport("Transportation & Logistics")
@@ -85,6 +90,8 @@ graph TD
     machine-tools_joining_ultrasonic-bonding -.-> machine-tools_joining
     machine-tools_machining -.-> machine-tools_bearings-abrasives
     machine-tools_machining -.-> machine-tools_iterative-bootstrap
+    machine-tools_mass-production -.-> machine-tools_bearings-abrasives
+    machine-tools_mass-production -.-> machine-tools_machining
     automation_wafer-handling -.-> machine-tools
     chemistry_packaging-testing -.-> machine-tools_joining_ultrasonic-bonding
     chemistry_packaging-testing -.-> machine-tools
@@ -121,6 +128,7 @@ graph TD
     machine-tools_joining --> energy_electricity
     machine-tools_joining --> metals_alloys
     machine-tools_joining --> metals_iron-steel
+    machine-tools_mass-production -.-> measurement_precision-metrology
     machine-tools --> chemistry_lubricants
     machine-tools -.-> metals
     machine-tools -.-> textiles
@@ -130,12 +138,16 @@ graph TD
     measurement -.-> machine-tools
     metals_forming -.-> machine-tools
     mining_drilling -.-> machine-tools_machining
+    mining_tailings-reprocessing -.-> machine-tools
     optics -.-> machine-tools
     photolithography -.-> machine-tools
     polymers_composites -.-> machine-tools
     polymers_rubber_synthetic -.-> machine-tools
     polymers_thermoplastics -.-> machine-tools
     polymers_thermosets -.-> machine-tools
+    precision-motion_nanometer-positioning -.-> machine-tools_edm-cnc
+    precision-motion_wafer-stages -.-> machine-tools_edm-cnc
+    precision-motion -.-> machine-tools
     silicon -.-> machine-tools
     transport_aviation -.-> machine-tools
     transport -.-> machine-tools
@@ -174,6 +186,7 @@ graph TD
     class machine-tools_joining_tig-welding process
     class machine-tools_joining_ultrasonic-bonding process
     class machine-tools_machining capability
+    class machine-tools_mass-production critical
     class animals_animal-materials external
     class automation_wafer-handling external
     class chemistry external
@@ -204,12 +217,16 @@ graph TD
     class metals_forming external
     class metals_iron-steel external
     class mining_drilling external
+    class mining_tailings-reprocessing external
     class optics external
     class photolithography external
     class polymers_composites external
     class polymers_rubber_synthetic external
     class polymers_thermoplastics external
     class polymers_thermosets external
+    class precision-motion external
+    class precision-motion_nanometer-positioning external
+    class precision-motion_wafer-stages external
     class silicon external
     class textiles external
     class transport external

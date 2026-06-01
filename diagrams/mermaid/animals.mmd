@@ -37,6 +37,7 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     agriculture_aquaponics("Aquaponics")
+    agriculture_selective-breeding("Selective Breeding & Genetic Improvement")
     agriculture_soil-management("Soil Management & Composting")
     ceramics_lime("Lime Production")
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
@@ -89,6 +90,7 @@ graph TD
     animals_sheep -.-> animals_domestication
     animals_sheep --> animals
     agriculture_aquaponics -.-> animals_aquaculture
+    agriculture_selective-breeding --> animals_domestication
     agriculture_soil-management --> animals
     animals_animal-materials -.-> ceramics_lime
     animals_aquaculture -.-> foundations_tools-basic
@@ -157,6 +159,7 @@ graph TD
     class animals_sericulture capability
     class animals_sheep earlyWin
     class agriculture_aquaponics external
+    class agriculture_selective-breeding external
     class agriculture_soil-management external
     class ceramics_lime external
     class chemistry_lubricants external

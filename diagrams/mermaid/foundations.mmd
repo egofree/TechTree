@@ -36,6 +36,7 @@ graph TD
     energy_fuels("Fuel Production")
     energy_fuels_charcoal("Charcoal Production")
     food-processing("Food Processing")
+    food-processing_oil-processing("Oil & Fat Processing")
     health("Public Health, Sanitation & Medicine")
     health_sanitation("Water Supply & Sanitation")
     knowledge("Knowledge Preservation & Education")
@@ -80,6 +81,7 @@ graph TD
     economics-organization -.-> foundations
     energy_fuels_charcoal -.-> foundations
     energy_fuels -.-> foundations_fire
+    food-processing_oil-processing --> foundations_food-agriculture
     food-processing --> foundations_food-agriculture
     foundations_food-agriculture --> agriculture_soil-management
     foundations_food-agriculture --> animals_beekeeping
@@ -147,6 +149,7 @@ graph TD
     class energy_fuels external
     class energy_fuels_charcoal external
     class food-processing external
+    class food-processing_oil-processing external
     class health external
     class health_sanitation external
     class knowledge external

@@ -8,6 +8,7 @@ graph TD
         knowledge_education["Education & Training"]
         knowledge_libraries["Libraries & Information Systems"]
         knowledge_printing["Paper and Printing Press"]
+        knowledge_scientific-method["Scientific Method"]
         knowledge_writing["Writing & Record-Keeping"]
     end
 
@@ -15,6 +16,7 @@ graph TD
     knowledge["Knowledge Preservation & Education"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    agriculture_selective-breeding("Selective Breeding & Genetic Improvement")
     animals_animal-materials("Animal-Derived Materials Processing")
     animals_beekeeping("Apiculture (Beekeeping)")
     chemistry("Chemistry")
@@ -35,6 +37,7 @@ graph TD
     marine("Marine & Naval Engineering")
     marine_navigation("Marine Navigation")
     mathematics("Mathematics & Formal Sciences")
+    measurement("Measurement & Instrumentation")
     metals_iron-steel("Iron & Steel Production")
     mining_prospecting("Prospecting & Surveying")
     quality-control("Quality Control & Statistical Process Control")
@@ -46,6 +49,8 @@ graph TD
     knowledge_education -.-> knowledge_writing
     knowledge_libraries -.-> knowledge_education
     knowledge_libraries -.-> knowledge_writing
+    knowledge_scientific-method -.-> knowledge_writing
+    agriculture_selective-breeding -.-> knowledge_writing
     defense -.-> knowledge
     economics-organization_accounting -.-> knowledge_writing
     economics-organization_division-of-labor -.-> knowledge_writing
@@ -57,6 +62,8 @@ graph TD
     knowledge_printing -.-> machine-tools_machining
     knowledge_printing -.-> metals_iron-steel
     knowledge_printing --> textiles_fibers
+    knowledge_scientific-method -.-> mathematics
+    knowledge_scientific-method -.-> measurement
     knowledge_writing --> animals_animal-materials
     knowledge_writing --> animals_beekeeping
     knowledge_writing -.-> chemistry
@@ -91,7 +98,9 @@ graph TD
     class knowledge_education capability
     class knowledge_libraries capability
     class knowledge_printing earlyWin
+    class knowledge_scientific-method capability
     class knowledge_writing capability
+    class agriculture_selective-breeding external
     class animals_animal-materials external
     class animals_beekeeping external
     class chemistry external
@@ -112,6 +121,7 @@ graph TD
     class marine external
     class marine_navigation external
     class mathematics external
+    class measurement external
     class metals_iron-steel external
     class mining_prospecting external
     class quality-control external

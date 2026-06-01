@@ -36,6 +36,7 @@ graph TD
     precision-motion["Precision Motion Control"]
     quality-control["Quality Control & Statistical Process Control"]
     silicon["Silicon"]
+    software-bootstrapping["Software Bootstrapping"]
     telecom["Telecommunications"]
     textiles["Textiles, Fiber & Cordage"]
     transport["Transportation & Logistics"]
@@ -107,6 +108,8 @@ graph TD
     photolithography -.-> quality-control
     photolithography --> silicon
     polymers -.-> foundations
+    precision-motion -.-> machine-tools
+    precision-motion -.-> measurement
     quality-control -.-> computing
     quality-control -.-> knowledge
     quality-control -.-> measurement
@@ -115,6 +118,8 @@ graph TD
     silicon -.-> gas-handling
     silicon -.-> glass
     silicon -.-> machine-tools
+    silicon --> ultra-pure
+    software-bootstrapping -.-> computing
     telecom --> glass
     telecom --> metals
     textiles -.-> foundations
@@ -122,6 +127,7 @@ graph TD
     transport -.-> machine-tools
     transport -.-> metals
     transport --> mining
+    ultra-pure -.-> chemistry
     vacuum -.-> gas-handling
     vacuum -.-> measurement
     vacuum --> metals
@@ -130,7 +136,10 @@ graph TD
 
     %% ==================== CROSS-DOMAIN EDGES ====================
     agriculture -.-> animals
+    agriculture -.-> construction
     agriculture -.-> energy
+    agriculture -.-> knowledge
+    agriculture -.-> water
     animals -.-> ceramics
     automation -.-> machine-tools
     automation -.-> quality-control
@@ -170,6 +179,8 @@ graph TD
     economics-organization -.-> transport
     ehs -.-> chemistry
     ehs -.-> health
+    ehs -.-> polymers
+    ehs -.-> water
     electrochemistry -.-> chemistry
     electrochemistry -.-> energy
     electrochemistry -.-> metals
@@ -179,25 +190,34 @@ graph TD
     electronics -.-> silicon
     energy -.-> ceramics
     energy -.-> chemistry
+    energy -.-> electronics
     energy -.-> foundations
+    energy -.-> glass
     energy -.-> machine-tools
     energy -.-> measurement
     energy -.-> mining
     energy -.-> petroleum
     energy -.-> polymers
+    energy -.-> silicon
     energy -.-> textiles
     food-processing -.-> ceramics
     food-processing -.-> chemistry
     food-processing -.-> foundations
     food-processing -.-> health
+    food-processing -.-> metals
     foundations -.-> agriculture
     foundations -.-> animals
     foundations -.-> plants
+    gas-handling -.-> metals
+    glass -.-> gas-handling
+    glass -.-> metals
     glass -.-> mining
     glass -.-> photolithography
+    glass -.-> vacuum
     health -.-> animals
     health -.-> ceramics
     health -.-> energy
+    health -.-> food-processing
     health -.-> knowledge
     health -.-> metals
     health -.-> polymers
@@ -205,12 +225,15 @@ graph TD
     knowledge -.-> chemistry
     knowledge -.-> health
     knowledge -.-> machine-tools
+    knowledge -.-> mathematics
+    knowledge -.-> measurement
     knowledge -.-> metals
     knowledge -.-> textiles
     machine-tools -.-> animals
     machine-tools -.-> chemistry
     machine-tools -.-> energy
     machine-tools -.-> foundations
+    machine-tools -.-> measurement
     machine-tools -.-> vacuum
     marine -.-> machine-tools
     marine -.-> polymers
@@ -235,6 +258,7 @@ graph TD
     mining -.-> energy
     mining -.-> knowledge
     mining -.-> machine-tools
+    mining -.-> metals
     optics -.-> gas-handling
     optics -.-> glass
     optics -.-> vacuum
@@ -242,9 +266,12 @@ graph TD
     petroleum -.-> energy
     photolithography -.-> ceramics
     photolithography -.-> economics-organization
+    photolithography -.-> energy
     photolithography -.-> glass
     photolithography -.-> metals
     photolithography -.-> polymers
+    photolithography -.-> precision-motion
+    photolithography -.-> ultra-pure
     photolithography -.-> vacuum
     plants -.-> energy
     plants -.-> foundations
@@ -253,6 +280,10 @@ graph TD
     polymers -.-> chemistry
     polymers -.-> glass
     polymers -.-> machine-tools
+    precision-motion -.-> construction
+    precision-motion -.-> energy
+    precision-motion -.-> gas-handling
+    precision-motion -.-> optics
     silicon -.-> ceramics
     silicon -.-> cryogenics
     silicon -.-> measurement
@@ -272,13 +303,17 @@ graph TD
     transport -.-> chemistry
     transport -.-> foundations
     transport -.-> textiles
+    ultra-pure -.-> measurement
+    ultra-pure -.-> water
     vacuum -.-> energy
     vacuum -.-> machine-tools
+    vacuum -.-> precision-motion
     vlsi-scaling -.-> chemistry
     vlsi-scaling -.-> computing
     vlsi-scaling -.-> electronics
     vlsi-scaling -.-> optics
     vlsi-scaling -.-> silicon
+    vlsi-scaling -.-> software-bootstrapping
     water -.-> energy
 
     %% ==================== STYLING ====================
@@ -298,6 +333,7 @@ graph TD
     class mining critical
     class plants earlyWin
     class silicon earlyWin
+    class software-bootstrapping critical
     class textiles critical
     class vlsi-scaling pinnacle
 

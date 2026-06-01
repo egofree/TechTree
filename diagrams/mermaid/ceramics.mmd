@@ -26,12 +26,14 @@ graph TD
     energy_fuels_coal("Coal Mining & Combustion")
     energy_fuels_coke("Coke Production")
     food-processing_dairy("Dairy Processing")
+    food-processing_oil-processing("Oil & Fat Processing")
     food-processing_preservation("Food Preservation")
     foundations("Foundations")
     foundations_fire("Fire-Making")
     foundations_tools-basic("Stone & Wood Tools")
     health_sanitation("Water Supply & Sanitation")
     metals("Metals")
+    metals_copper-bronze("Copper & Bronze Production")
     metals_iron-steel_blast-furnace("Blast Furnace and Cast Iron")
     mining("Mining Engineering & Extractive Metallurgy")
     photolithography_cleanrooms("Cleanrooms")
@@ -57,8 +59,10 @@ graph TD
     energy_fuels_coal -.-> ceramics_kilns
     energy_fuels_coke -.-> ceramics_kilns
     food-processing_dairy --> ceramics
+    food-processing_oil-processing -.-> ceramics
     food-processing_preservation --> ceramics
     health_sanitation -.-> ceramics
+    metals_copper-bronze -.-> ceramics
     metals_iron-steel_blast-furnace -.-> ceramics_kilns
     photolithography_cleanrooms -.-> ceramics
     silicon -.-> ceramics_advanced-ceramics
@@ -93,12 +97,14 @@ graph TD
     class energy_fuels_coal external
     class energy_fuels_coke external
     class food-processing_dairy external
+    class food-processing_oil-processing external
     class food-processing_preservation external
     class foundations external
     class foundations_fire external
     class foundations_tools-basic external
     class health_sanitation external
     class metals external
+    class metals_copper-bronze external
     class metals_iron-steel_blast-furnace external
     class mining external
     class photolithography_cleanrooms external

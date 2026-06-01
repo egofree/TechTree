@@ -21,18 +21,25 @@ graph TD
     energy_electricity("Electricity Generation & Distribution")
     energy_electricity_power-systems("Electric Power Systems for Semiconductor Fabrication")
     foundations("Foundations")
+    knowledge_scientific-method("Scientific Method")
     machine-tools("Machine Tools Bootstrap")
     machine-tools_casting("Metal Casting")
+    machine-tools_mass-production("Mass Production & Interchangeability")
     metals("Metals")
     metals_powder-metallurgy("Powder Metallurgy & Advanced Materials")
     optics_inspection("Optical Inspection")
     optics_precision-instruments("Precision Optical Instruments")
+    precision-motion("Precision Motion Control")
+    precision-motion_nanometer-positioning("Nanometer Positioning")
+    precision-motion_precision-encoders("Precision Encoders & Feedback")
     quality-control("Quality Control & Statistical Process Control")
     quality-control_inspection-sampling("Inspection & Sampling Plans")
     quality-control_spc("Statistical Process Control")
     silicon_crystal-growth("Crystal Growth & Wafering")
     silicon_crystal-growth_cz-pulling("Czochralski Crystal Pulling")
+    ultra-pure_analytical-verification("PPT-Level Analytical Verification")
     vacuum("Vacuum Technology")
+    vacuum_leak-detection("Vacuum Leak Detection & Seal Integrity")
     vacuum_measurement("Vacuum Measurement & Leak Detection")
 
     %% ==================== EDGES ====================
@@ -41,6 +48,8 @@ graph TD
     cleanrooms -.-> measurement
     economics-organization_currency -.-> measurement_precision-metrology
     energy_electricity_power-systems -.-> measurement
+    knowledge_scientific-method -.-> measurement
+    machine-tools_mass-production -.-> measurement_precision-metrology
     measurement_electrical-instruments -.-> energy_electricity
     measurement_optical-instruments -.-> optics_inspection
     measurement_precision-metrology -.-> foundations
@@ -52,12 +61,17 @@ graph TD
     measurement --> chemistry
     measurement -.-> machine-tools
     measurement -.-> metals_powder-metallurgy
+    precision-motion_nanometer-positioning -.-> measurement_precision-metrology
+    precision-motion_precision-encoders -.-> measurement_precision-metrology
+    precision-motion -.-> measurement
     quality-control_inspection-sampling -.-> measurement_precision-metrology
     quality-control_spc -.-> measurement
     quality-control -.-> measurement
     silicon_crystal-growth_cz-pulling -.-> measurement_temperature-pressure
     silicon_crystal-growth -.-> measurement_precision-metrology
+    ultra-pure_analytical-verification -.-> measurement
     vacuum_measurement -.-> measurement
+    vacuum_leak-detection -.-> measurement
     vacuum -.-> measurement
 
     %% ==================== EDGE TYPE LEGEND ====================
@@ -85,17 +99,24 @@ graph TD
     class energy_electricity external
     class energy_electricity_power-systems external
     class foundations external
+    class knowledge_scientific-method external
     class machine-tools external
     class machine-tools_casting external
+    class machine-tools_mass-production external
     class metals external
     class metals_powder-metallurgy external
     class optics_inspection external
     class optics_precision-instruments external
+    class precision-motion external
+    class precision-motion_nanometer-positioning external
+    class precision-motion_precision-encoders external
     class quality-control external
     class quality-control_inspection-sampling external
     class quality-control_spc external
     class silicon_crystal-growth external
     class silicon_crystal-growth_cz-pulling external
+    class ultra-pure_analytical-verification external
     class vacuum external
+    class vacuum_leak-detection external
     class vacuum_measurement external
     class EdgeLegend,MatNote,ToolNote legend

@@ -29,9 +29,11 @@ graph TD
     computing_electronic("Electronic Computing")
     cryogenics_liquefaction-storage("Gas Liquefaction & Storage")
     electronics_assembly("Electronics Assembly")
+    electronics_semiconductor-devices("Semiconductor Devices")
     energy("Energy")
     energy_electric-furnaces("Electric Furnaces")
     energy_electricity("Electricity Generation & Distribution")
+    energy_photovoltaics("Photovoltaic Solar Power")
     gas-handling("Gas Handling")
     gas-handling_basic("Basic Gas Handling")
     gas-handling_vacuum("Vacuum Technology")
@@ -44,6 +46,9 @@ graph TD
     metals_aluminum_semiconductor-grade("Semiconductor-Grade Aluminum Production")
     mining("Mining Engineering & Extractive Metallurgy")
     photolithography("Photolithography & IC Fabrication")
+    photolithography_fab-processes("Core Fab Processes")
+    ultra-pure("Ultra-Pure Materials")
+    vacuum("Vacuum Technology")
     vacuum_pumps("Vacuum Pumps")
     vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
 
@@ -58,6 +63,9 @@ graph TD
     silicon_wafering -.-> silicon
     computing_electronic --> silicon_basic-devices
     electronics_assembly --> silicon_basic-devices
+    electronics_semiconductor-devices --> silicon_basic-devices
+    energy_photovoltaics -.-> silicon_basic-devices
+    photolithography_fab-processes --> silicon_wafering
     photolithography --> silicon
     silicon_basic-devices --> chemistry_acids
     silicon_basic-devices -.-> gas-handling_vacuum
@@ -77,6 +85,7 @@ graph TD
     silicon_purification -.-> chemistry
     silicon_purification -.-> energy_electricity
     silicon_purification -.-> gas-handling_basic
+    silicon_purification -.-> vacuum
     silicon_wafering_epitaxy --> chemistry_dopant-etch-gases
     silicon -.-> ceramics_advanced-ceramics
     silicon --> chemistry
@@ -84,6 +93,7 @@ graph TD
     silicon -.-> gas-handling
     silicon -.-> glass
     silicon -.-> machine-tools
+    silicon --> ultra-pure
     vlsi-scaling_eda-design -.-> silicon_basic-devices
 
     %% ==================== EDGE TYPE LEGEND ====================
@@ -119,9 +129,11 @@ graph TD
     class computing_electronic external
     class cryogenics_liquefaction-storage external
     class electronics_assembly external
+    class electronics_semiconductor-devices external
     class energy external
     class energy_electric-furnaces external
     class energy_electricity external
+    class energy_photovoltaics external
     class gas-handling external
     class gas-handling_basic external
     class gas-handling_vacuum external
@@ -134,6 +146,9 @@ graph TD
     class metals_aluminum_semiconductor-grade external
     class mining external
     class photolithography external
+    class photolithography_fab-processes external
+    class ultra-pure external
+    class vacuum external
     class vacuum_pumps external
     class vlsi-scaling_eda-design external
     class EdgeLegend,MatNote,ToolNote legend

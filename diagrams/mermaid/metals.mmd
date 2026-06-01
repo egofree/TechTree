@@ -48,6 +48,7 @@ graph TD
     electrochemistry("Electrochemistry & Plating")
     electrochemistry_anodizing("Anodizing")
     electronics("Electronics")
+    electronics_pcb-fabrication("PCB Fabrication")
     energy("Energy")
     energy_cooling("Cooling Systems & Refrigeration")
     energy_electric-furnaces("Electric Furnaces")
@@ -55,13 +56,19 @@ graph TD
     energy_engine("Heat Engines")
     energy_fuels("Fuel Production")
     energy_fuels_coke("Coke Production")
+    energy_gas-turbine("Gas Turbines")
+    energy_geothermal("Geothermal Energy")
     energy_gravity_water-turbines("Water Turbines")
     energy_steam-power("Steam Power")
     energy_steam-power_steam-turbines("Steam Turbines")
     energy_storage("Energy Storage & Diversification")
+    food-processing_oil-processing("Oil & Fat Processing")
     foundations("Foundations")
     foundations_fire("Fire-Making")
+    gas-handling_cylinder-filling("Cylinder Filling")
     gas-handling_vacuum("Vacuum Technology")
+    glass_basic_float-glass("Float Glass Process")
+    glass_glass-to-metal-seals("Glass-to-Metal Seals")
     health_medical-instruments("Medical Instrument Manufacturing")
     knowledge_printing("Paper and Printing Press")
     machine-tools("Machine Tools Bootstrap")
@@ -77,8 +84,10 @@ graph TD
     measurement_precision-metrology("Precision Metrology & Standards")
     measurement_temperature-pressure("Temperature & Pressure Measurement")
     mining("Mining Engineering & Extractive Metallurgy")
+    mining_extraction("Mining Extraction")
     petroleum("Petroleum Extraction & Refining")
     photolithography_fab-processes("Core Fab Processes")
+    photolithography_fab-processes_pvd("Physical Vapor Deposition (PVD)")
     silicon_basic-devices("Basic Semiconductor Devices")
     silicon_mg-si-production("Metallurgical-Grade Silicon Production")
     telecom("Telecommunications")
@@ -131,9 +140,12 @@ graph TD
     economics-organization_currency --> metals
     electrochemistry_anodizing --> metals_aluminum
     electrochemistry -.-> metals_finishing
+    electronics_pcb-fabrication --> metals_copper-bronze
     electronics --> metals
     energy_cooling -.-> metals_iron-steel
     energy_engine -.-> metals
+    energy_gas-turbine --> metals_refractory-specialty
+    energy_geothermal --> metals_iron-steel
     energy_gravity_water-turbines -.-> metals_iron-steel
     energy_steam-power_steam-turbines --> metals_alloys
     energy_steam-power_steam-turbines -.-> metals_iron-steel
@@ -141,6 +153,10 @@ graph TD
     energy_steam-power -.-> metals_iron-steel
     energy_storage -.-> metals
     energy -.-> metals
+    food-processing_oil-processing -.-> metals_iron-steel
+    gas-handling_cylinder-filling --> metals_iron-steel
+    glass_basic_float-glass -.-> metals_non-ferrous
+    glass_glass-to-metal-seals --> metals_alloys
     health_medical-instruments --> metals_copper-bronze
     knowledge_printing -.-> metals_iron-steel
     machine-tools_casting --> metals_iron-steel
@@ -163,6 +179,7 @@ graph TD
     metals_aluminum -.-> energy_electricity
     metals_aluminum --> mining
     metals_copper-bronze --> animals_beekeeping
+    metals_copper-bronze -.-> ceramics
     metals_copper-bronze --> foundations_fire
     metals_copper-bronze --> mining
     metals_finishing --> chemistry_acids
@@ -188,7 +205,9 @@ graph TD
     metals --> chemistry_refractories
     metals -.-> foundations
     metals --> mining
+    mining_extraction -.-> metals_iron-steel
     petroleum -.-> metals
+    photolithography_fab-processes_pvd --> metals
     photolithography_fab-processes --> metals_aluminum_semiconductor-grade
     silicon_basic-devices --> metals_aluminum_semiconductor-grade
     silicon_mg-si-production -.-> metals
@@ -258,6 +277,7 @@ graph TD
     class electrochemistry external
     class electrochemistry_anodizing external
     class electronics external
+    class electronics_pcb-fabrication external
     class energy external
     class energy_cooling external
     class energy_electric-furnaces external
@@ -265,13 +285,19 @@ graph TD
     class energy_engine external
     class energy_fuels external
     class energy_fuels_coke external
+    class energy_gas-turbine external
+    class energy_geothermal external
     class energy_gravity_water-turbines external
     class energy_steam-power external
     class energy_steam-power_steam-turbines external
     class energy_storage external
+    class food-processing_oil-processing external
     class foundations external
     class foundations_fire external
+    class gas-handling_cylinder-filling external
     class gas-handling_vacuum external
+    class glass_basic_float-glass external
+    class glass_glass-to-metal-seals external
     class health_medical-instruments external
     class knowledge_printing external
     class machine-tools external
@@ -287,8 +313,10 @@ graph TD
     class measurement_precision-metrology external
     class measurement_temperature-pressure external
     class mining external
+    class mining_extraction external
     class petroleum external
     class photolithography_fab-processes external
+    class photolithography_fab-processes_pvd external
     class silicon_basic-devices external
     class silicon_mg-si-production external
     class telecom external

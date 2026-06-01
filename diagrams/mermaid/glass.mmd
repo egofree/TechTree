@@ -9,6 +9,8 @@ graph TD
         glass_advanced["Advanced Glass Production"]
         glass_basic["Basic Glass Production"]
         glass_fibers["Glass Fiber Production"]
+        glass_basic_float-glass["Float Glass Process"]
+        glass_glass-to-metal-seals["Glass-to-Metal Seals"]
         glass_photomask-substrates["Photomask Glass Substrates & ULE Glass"]
     end
 
@@ -22,8 +24,13 @@ graph TD
     cleanrooms("Clean Room Technology")
     electronics_assembly("Electronics Assembly")
     energy("Energy")
+    energy_electric-furnaces("Electric Furnaces")
     energy_fuels("Fuel Production")
+    energy_photovoltaics("Photovoltaic Solar Power")
+    gas-handling("Gas Handling")
     machine-tools("Machine Tools Bootstrap")
+    metals_alloys("Specialty Alloys")
+    metals_non-ferrous("Non-Ferrous Metal Production")
     mining("Mining Engineering & Extractive Metallurgy")
     optics_inspection("Optical Inspection")
     photolithography_fab-processes("Core Fab Processes")
@@ -33,6 +40,7 @@ graph TD
     silicon_crystal-growth("Crystal Growth & Wafering")
     telecom("Telecommunications")
     telecom_radio("Radio Communication")
+    vacuum_chambers("Vacuum Chambers & Sealing")
 
     %% ==================== EDGES ====================
     glass_advanced_glassblowing -.-> glass_advanced
@@ -41,12 +49,19 @@ graph TD
     glass_fibers --> glass_advanced
     glass_fibers -.-> glass
     glass_photomask-substrates -.-> glass_advanced
+    glass_glass-to-metal-seals --> glass_advanced
     chemistry_acids -.-> glass_basic
     cleanrooms --> glass
     electronics_assembly --> glass_fibers
+    energy_photovoltaics --> glass_basic
     glass_advanced_glassblowing -.-> energy_fuels
+    glass_basic_float-glass -.-> energy_electric-furnaces
+    glass_basic_float-glass -.-> gas-handling
+    glass_basic_float-glass -.-> metals_non-ferrous
     glass_basic --> mining
     glass_photomask-substrates --> photolithography_fab-processes
+    glass_glass-to-metal-seals --> metals_alloys
+    glass_glass-to-metal-seals -.-> vacuum_chambers
     glass --> chemistry_refractories
     glass --> chemistry
     glass --> energy
@@ -78,6 +93,8 @@ graph TD
     class glass_advanced capability
     class glass_basic capability
     class glass_fibers capability
+    class glass_basic_float-glass process
+    class glass_glass-to-metal-seals capability
     class glass_photomask-substrates capability
     class chemistry external
     class chemistry_acids external
@@ -85,8 +102,13 @@ graph TD
     class cleanrooms external
     class electronics_assembly external
     class energy external
+    class energy_electric-furnaces external
     class energy_fuels external
+    class energy_photovoltaics external
+    class gas-handling external
     class machine-tools external
+    class metals_alloys external
+    class metals_non-ferrous external
     class mining external
     class optics_inspection external
     class photolithography_fab-processes external
@@ -96,4 +118,5 @@ graph TD
     class silicon_crystal-growth external
     class telecom external
     class telecom_radio external
+    class vacuum_chambers external
     class EdgeLegend,MatNote,ToolNote legend

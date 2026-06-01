@@ -49,14 +49,17 @@ graph TD
     construction("Construction & Structural Engineering")
     cryogenics_air-separation("Cryogenic Air Separation")
     defense("Defense & Military Engineering")
+    ehs_chemical-safety("Chemical Safety & Toxicology")
     ehs_radiation-safety("Radiation Safety")
     ehs_toxicology("Toxicology")
+    ehs_waste-management("Waste Management")
     electrochemistry("Electrochemistry & Plating")
     electrochemistry_anodizing("Anodizing")
     electrochemistry_electrochemical-processes("Electrochemical Surface Processes")
     electrochemistry_electroplating("Electroplating")
     electronics("Electronics")
     electronics_electrical-systems("Electrical Systems")
+    electronics_pcb-fabrication("PCB Fabrication")
     energy("Energy")
     energy_blue-energy("Blue Energy (Osmotic Power)")
     energy_cooling("Cooling Systems & Refrigeration")
@@ -74,10 +77,12 @@ graph TD
     foundations_fire("Fire-Making")
     gas-handling("Gas Handling")
     gas-handling_basic("Basic Gas Handling")
+    gas-handling_gas-purification("Gas Purification")
     glass("Glass")
     glass_basic("Basic Glass Production")
     health("Public Health, Sanitation & Medicine")
     health_diagnostics("Diagnostics")
+    health_nutrition("Nutrition")
     health_occupational-health("Occupational Health & Industrial Hygiene")
     health_pharmaceutical-production("Pharmaceutical Production")
     health_pharmacology("Pharmacology")
@@ -101,10 +106,12 @@ graph TD
     metals_steelmaking("Modern Steelmaking")
     mining("Mining Engineering & Extractive Metallurgy")
     mining_extraction_black-powder("Black Powder Explosives")
+    mining_tailings-reprocessing("Tailings Reprocessing")
     petroleum_refining("Petroleum Refining")
     photolithography("Photolithography & IC Fabrication")
     photolithography_cleanrooms("Cleanrooms")
     photolithography_fab-processes("Core Fab Processes")
+    photolithography_fab-processes_cmp("Chemical Mechanical Planarization (CMP)")
     photolithography_resists-masks("Photoresists, Masks & Lithography")
     polymers_rubber_shellac("Shellac Production")
     polymers_rubber_synthetic("Synthetic Rubbers")
@@ -121,12 +128,15 @@ graph TD
     transport("Transportation & Logistics")
     transport_aviation("Aviation")
     transport_telegraph("Telegraph Communication")
+    ultra-pure("Ultra-Pure Materials")
+    ultra-pure_high-purity-chemicals("High-Purity Chemical Purification")
     vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
     water_desalination("Desalination")
     water_sewage("Sewage Collection & Treatment")
 
     %% ==================== EDGES ====================
     chemistry_acids --> chemistry_ammonia
+    chemistry_acids -.-> chemistry_electrolysis
     chemistry_ammonia --> chemistry_air-separation
     chemistry_ammonia --> chemistry_electrolysis
     chemistry_coatings --> chemistry_acids
@@ -195,13 +205,16 @@ graph TD
     cleanrooms --> chemistry
     construction --> chemistry_cement
     defense --> chemistry_explosives
+    ehs_chemical-safety -.-> chemistry
     ehs_radiation-safety -.-> chemistry
     ehs_toxicology -.-> chemistry
+    ehs_waste-management -.-> chemistry
     electrochemistry_anodizing --> chemistry_acids
     electrochemistry_electrochemical-processes --> chemistry_acids
     electrochemistry_electroplating --> chemistry_acids
     electrochemistry -.-> chemistry_electrolysis
     electronics_electrical-systems --> chemistry_electrolysis
+    electronics_pcb-fabrication --> chemistry_acids
     electronics --> chemistry
     energy_cooling --> chemistry_petroleum-alternatives
     energy_electric-furnaces_electrode-manufacturing --> chemistry_petroleum-alternatives
@@ -210,10 +223,13 @@ graph TD
     energy_wind --> chemistry_lubricants
     food-processing_brewing -.-> chemistry_petroleum-alternatives_fermentation
     food-processing_preservation -.-> chemistry_petroleum-alternatives_fermentation
+    gas-handling_gas-purification --> chemistry_acids
+    gas-handling_gas-purification -.-> chemistry_air-separation
     gas-handling --> chemistry
     glass --> chemistry_refractories
     glass --> chemistry
     health_diagnostics -.-> chemistry
+    health_nutrition -.-> chemistry
     health_occupational-health --> chemistry_acids
     health_pharmaceutical-production -.-> chemistry_distillation
     health_pharmacology -.-> chemistry_distillation
@@ -240,8 +256,10 @@ graph TD
     metals_steelmaking --> chemistry_refractories
     metals --> chemistry_refractories
     mining_extraction_black-powder --> chemistry_explosives
+    mining_tailings-reprocessing --> chemistry_acids
     petroleum_refining -.-> chemistry_distillation
     photolithography_cleanrooms --> chemistry
+    photolithography_fab-processes_cmp --> chemistry
     photolithography_fab-processes --> chemistry_dopant-etch-gases
     photolithography_resists-masks --> chemistry
     photolithography --> chemistry
@@ -265,6 +283,8 @@ graph TD
     transport_aviation --> chemistry_petroleum-alternatives
     transport_telegraph -.-> chemistry_acids
     transport --> chemistry_coatings
+    ultra-pure_high-purity-chemicals -.-> chemistry
+    ultra-pure -.-> chemistry
     vlsi-scaling_eda-design -.-> chemistry_dopant-etch-gases
 
     %% ==================== EDGE TYPE LEGEND ====================
@@ -320,14 +340,17 @@ graph TD
     class construction external
     class cryogenics_air-separation external
     class defense external
+    class ehs_chemical-safety external
     class ehs_radiation-safety external
     class ehs_toxicology external
+    class ehs_waste-management external
     class electrochemistry external
     class electrochemistry_anodizing external
     class electrochemistry_electrochemical-processes external
     class electrochemistry_electroplating external
     class electronics external
     class electronics_electrical-systems external
+    class electronics_pcb-fabrication external
     class energy external
     class energy_blue-energy external
     class energy_cooling external
@@ -345,10 +368,12 @@ graph TD
     class foundations_fire external
     class gas-handling external
     class gas-handling_basic external
+    class gas-handling_gas-purification external
     class glass external
     class glass_basic external
     class health external
     class health_diagnostics external
+    class health_nutrition external
     class health_occupational-health external
     class health_pharmaceutical-production external
     class health_pharmacology external
@@ -372,10 +397,12 @@ graph TD
     class metals_steelmaking external
     class mining external
     class mining_extraction_black-powder external
+    class mining_tailings-reprocessing external
     class petroleum_refining external
     class photolithography external
     class photolithography_cleanrooms external
     class photolithography_fab-processes external
+    class photolithography_fab-processes_cmp external
     class photolithography_resists-masks external
     class polymers_rubber_shellac external
     class polymers_rubber_synthetic external
@@ -392,6 +419,8 @@ graph TD
     class transport external
     class transport_aviation external
     class transport_telegraph external
+    class ultra-pure external
+    class ultra-pure_high-purity-chemicals external
     class vlsi-scaling_eda-design external
     class water_desalination external
     class water_sewage external

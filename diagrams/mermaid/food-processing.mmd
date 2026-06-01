@@ -7,6 +7,7 @@ graph TD
         direction TB
         food-processing_brewing["Brewing & Distilling"]
         food-processing_dairy["Dairy Processing"]
+        food-processing_oil-processing["Oil & Fat Processing"]
         food-processing_milling["Grain Milling"]
         food-processing_preservation["Food Preservation"]
     end
@@ -19,7 +20,9 @@ graph TD
     chemistry_petroleum-alternatives_fermentation("Fermentation Chemistry")
     energy("Energy")
     foundations_food-agriculture("Agriculture & Food Production")
+    health_nutrition("Nutrition")
     health_sanitation("Water Supply & Sanitation")
+    metals_iron-steel("Iron & Steel Production")
     water("Water")
 
     %% ==================== EDGES ====================
@@ -28,6 +31,9 @@ graph TD
     food-processing_dairy --> ceramics
     food-processing_dairy -.-> health_sanitation
     food-processing_milling -.-> energy
+    food-processing_oil-processing -.-> ceramics
+    food-processing_oil-processing --> foundations_food-agriculture
+    food-processing_oil-processing -.-> metals_iron-steel
     food-processing_preservation --> ceramics
     food-processing_preservation -.-> chemistry_petroleum-alternatives_fermentation
     food-processing_preservation -.-> health_sanitation
@@ -35,6 +41,7 @@ graph TD
     food-processing --> foundations_food-agriculture
     food-processing -.-> health_sanitation
     food-processing --> water
+    health_nutrition -.-> food-processing
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -53,12 +60,15 @@ graph TD
     class food-processing domain
     class food-processing_brewing capability
     class food-processing_dairy capability
+    class food-processing_oil-processing earlyWin
     class food-processing_milling earlyWin
     class food-processing_preservation capability
     class ceramics external
     class chemistry_petroleum-alternatives_fermentation external
     class energy external
     class foundations_food-agriculture external
+    class health_nutrition external
     class health_sanitation external
+    class metals_iron-steel external
     class water external
     class EdgeLegend,MatNote,ToolNote legend

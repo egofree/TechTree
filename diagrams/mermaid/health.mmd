@@ -8,6 +8,7 @@ graph TD
         health_diagnostics["Diagnostics"]
         health_medical-instruments["Medical Instrument Manufacturing"]
         health_medicine["Medicine & Surgery"]
+        health_nutrition["Nutrition"]
         health_occupational-health["Occupational Health & Industrial Hygiene"]
         health_pharmaceutical-production["Pharmaceutical Production"]
         health_pharmacology["Pharmacology"]
@@ -46,6 +47,7 @@ graph TD
     health_diagnostics -.-> health
     health_medical-instruments -.-> health
     health_medicine -.-> health_sanitation
+    health_nutrition -.-> health_diagnostics
     health_occupational-health -.-> health
     health_pharmaceutical-production -.-> health_pharmacology
     health_pharmaceutical-production -.-> health_sanitation
@@ -64,6 +66,8 @@ graph TD
     health_medical-instruments --> metals_copper-bronze
     health_medicine --> animals_beekeeping
     health_medicine -.-> knowledge_writing
+    health_nutrition -.-> chemistry
+    health_nutrition -.-> food-processing
     health_occupational-health --> chemistry_acids
     health_pharmaceutical-production -.-> chemistry_distillation
     health_pharmacology --> animals_beekeeping
@@ -98,6 +102,7 @@ graph TD
     class health_diagnostics capability
     class health_medical-instruments capability
     class health_medicine capability
+    class health_nutrition capability
     class health_occupational-health capability
     class health_pharmaceutical-production critical
     class health_pharmacology capability

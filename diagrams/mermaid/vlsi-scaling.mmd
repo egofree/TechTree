@@ -25,6 +25,7 @@ graph TD
     photolithography_resists-masks("Photoresists, Masks & Lithography")
     quality-control("Quality Control & Statistical Process Control")
     silicon_basic-devices("Basic Semiconductor Devices")
+    software-bootstrapping("Software Bootstrapping")
 
     %% ==================== EDGES ====================
     metals_specialty-semiconductor -.-> vlsi-scaling_advanced-processes
@@ -37,6 +38,7 @@ graph TD
     vlsi-scaling_eda-design -.-> electronics_assembly
     vlsi-scaling_eda-design -.-> photolithography_fab-processes
     vlsi-scaling_eda-design -.-> silicon_basic-devices
+    vlsi-scaling_eda-design -.-> software-bootstrapping
     vlsi-scaling -.-> photolithography
     vlsi-scaling -.-> quality-control
 
@@ -69,4 +71,5 @@ graph TD
     class photolithography_resists-masks external
     class quality-control external
     class silicon_basic-devices external
+    class software-bootstrapping external
     class EdgeLegend,MatNote,ToolNote legend

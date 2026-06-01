@@ -21,14 +21,22 @@ graph TD
     chemistry("Chemistry")
     health_occupational-health("Occupational Health & Industrial Hygiene")
     health_pharmacology("Pharmacology")
+    polymers("Polymers & Composites")
+    water_sewage("Sewage Collection & Treatment")
 
     %% ==================== EDGES ====================
+    ehs_emergency-response -.-> ehs_chemical-safety
     ehs_radiation-safety -.-> ehs_chemical-safety
     ehs_toxicology -.-> ehs_chemical-safety
+    ehs_ventilation-exhaust -.-> ehs_chemical-safety
+    ehs_chemical-safety -.-> chemistry
+    ehs_ppe -.-> polymers
     ehs_radiation-safety -.-> chemistry
     ehs_radiation-safety -.-> health_occupational-health
     ehs_toxicology -.-> chemistry
     ehs_toxicology -.-> health_pharmacology
+    ehs_waste-management -.-> chemistry
+    ehs_waste-management -.-> water_sewage
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -55,4 +63,6 @@ graph TD
     class chemistry external
     class health_occupational-health external
     class health_pharmacology external
+    class polymers external
+    class water_sewage external
     class EdgeLegend,MatNote,ToolNote legend

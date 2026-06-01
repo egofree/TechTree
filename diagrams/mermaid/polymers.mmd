@@ -25,6 +25,7 @@ graph TD
     chemistry_packaging-testing("Semiconductor Packaging & Testing")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
     computing_data-storage("Data Storage Systems")
+    ehs_ppe("Personal Protective Equipment")
     electronics_assembly("Electronics Assembly")
     electronics_electrical-systems("Electrical Systems")
     energy_storage("Energy Storage & Diversification")
@@ -33,6 +34,7 @@ graph TD
     health("Public Health, Sanitation & Medicine")
     machine-tools("Machine Tools Bootstrap")
     marine_infrastructure("Maritime Infrastructure & Underwater Engineering")
+    photolithography_fab-processes_cmp("Chemical Mechanical Planarization (CMP)")
     photolithography_resists-masks("Photoresists, Masks & Lithography")
     telecom("Telecommunications")
     telecom_submarine-cables("Submarine Cable Systems")
@@ -43,11 +45,13 @@ graph TD
     polymers_rubber_shellac -.-> polymers_rubber
     chemistry_packaging-testing --> polymers_thermosets
     computing_data-storage --> polymers_thermoplastics
+    ehs_ppe -.-> polymers
     electronics_assembly --> polymers_thermosets
     electronics_electrical-systems --> polymers_thermoplastics
     energy_storage --> polymers_rubber
     health --> polymers_rubber
     marine_infrastructure --> polymers_rubber_gutta-percha
+    photolithography_fab-processes_cmp --> polymers
     photolithography_resists-masks --> polymers_thermosets
     polymers_composites --> glass_fibers
     polymers_composites -.-> machine-tools
@@ -95,6 +99,7 @@ graph TD
     class chemistry_packaging-testing external
     class chemistry_petroleum-alternatives external
     class computing_data-storage external
+    class ehs_ppe external
     class electronics_assembly external
     class electronics_electrical-systems external
     class energy_storage external
@@ -103,6 +108,7 @@ graph TD
     class health external
     class machine-tools external
     class marine_infrastructure external
+    class photolithography_fab-processes_cmp external
     class photolithography_resists-masks external
     class telecom external
     class telecom_submarine-cables external

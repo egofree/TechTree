@@ -6,6 +6,8 @@ graph TD
     subgraph gas-handling_internal ["Gas Handling — Internal Structure"]
         direction TB
         gas-handling_basic["Basic Gas Handling"]
+        gas-handling_cylinder-filling["Cylinder Filling"]
+        gas-handling_gas-purification["Gas Purification"]
         gas-handling_vacuum["Vacuum Technology"]
     end
 
@@ -14,34 +16,56 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry("Chemistry")
+    chemistry_acids("Mineral Acid Production")
     chemistry_air-separation("Air Separation & Bulk Gas Production")
     chemistry_hydrogen-silane("Hydrogen & Silane Production")
     cryogenics("Cryogenics")
     energy("Energy")
+    glass_basic_float-glass("Float Glass Process")
     machine-tools("Machine Tools Bootstrap")
+    metals_iron-steel("Iron & Steel Production")
     metals_specialty-semiconductor("Specialty Metals for Semiconductor Interconnects & Barrier Layers")
     optics_inspection_optical-coatings("Optical Coatings")
     photolithography("Photolithography & IC Fabrication")
+    photolithography_cvd("Chemical Vapor Deposition")
     photolithography_fab-processes("Core Fab Processes")
+    photolithography_ion-implantation("Ion Implantation")
+    photolithography_plasma-etching("Plasma Etching (RIE & DRIE)")
+    precision-motion_vibration-isolation("Vibration Isolation")
     silicon("Silicon")
     silicon_basic-devices("Basic Semiconductor Devices")
     silicon_purification("Silicon Purification")
     vacuum("Vacuum Technology")
+    vacuum_deposition-systems("Deposition Systems")
+    vacuum_leak-detection("Vacuum Leak Detection & Seal Integrity")
 
     %% ==================== EDGES ====================
+    gas-handling_cylinder-filling -.-> gas-handling_basic
+    gas-handling_cylinder-filling -.-> gas-handling_gas-purification
+    gas-handling_gas-purification -.-> gas-handling_basic
     chemistry_air-separation -.-> gas-handling_basic
     chemistry_hydrogen-silane -.-> gas-handling_basic
     cryogenics -.-> gas-handling
+    gas-handling_cylinder-filling --> metals_iron-steel
+    gas-handling_gas-purification --> chemistry_acids
+    gas-handling_gas-purification -.-> chemistry_air-separation
     gas-handling --> chemistry
     gas-handling --> energy
     gas-handling -.-> machine-tools
+    glass_basic_float-glass -.-> gas-handling
     metals_specialty-semiconductor -.-> gas-handling_vacuum
     optics_inspection_optical-coatings -.-> gas-handling_vacuum
+    photolithography_cvd -.-> gas-handling
     photolithography_fab-processes -.-> gas-handling_vacuum
+    photolithography_ion-implantation -.-> gas-handling
+    photolithography_plasma-etching -.-> gas-handling
     photolithography -.-> gas-handling
+    precision-motion_vibration-isolation -.-> gas-handling
     silicon_basic-devices -.-> gas-handling_vacuum
     silicon_purification -.-> gas-handling_basic
     silicon -.-> gas-handling
+    vacuum_deposition-systems -.-> gas-handling
+    vacuum_leak-detection -.-> gas-handling
     vacuum -.-> gas-handling
 
     %% ==================== EDGE TYPE LEGEND ====================
@@ -60,19 +84,30 @@ graph TD
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class gas-handling domain
     class gas-handling_basic capability
+    class gas-handling_cylinder-filling capability
+    class gas-handling_gas-purification critical
     class gas-handling_vacuum capability
     class chemistry external
+    class chemistry_acids external
     class chemistry_air-separation external
     class chemistry_hydrogen-silane external
     class cryogenics external
     class energy external
+    class glass_basic_float-glass external
     class machine-tools external
+    class metals_iron-steel external
     class metals_specialty-semiconductor external
     class optics_inspection_optical-coatings external
     class photolithography external
+    class photolithography_cvd external
     class photolithography_fab-processes external
+    class photolithography_ion-implantation external
+    class photolithography_plasma-etching external
+    class precision-motion_vibration-isolation external
     class silicon external
     class silicon_basic-devices external
     class silicon_purification external
     class vacuum external
+    class vacuum_deposition-systems external
+    class vacuum_leak-detection external
     class EdgeLegend,MatNote,ToolNote legend

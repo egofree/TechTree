@@ -14,6 +14,7 @@ graph TD
     construction["Construction & Structural Engineering"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    agriculture_irrigation("Irrigation Systems")
     ceramics_lime("Lime Production")
     chemistry_cement("Cement & Concrete")
     economics-organization_division-of-labor("Division of Labor")
@@ -23,9 +24,11 @@ graph TD
     machine-tools("Machine Tools Bootstrap")
     metals("Metals")
     metals_iron-steel("Iron & Steel Production")
+    precision-motion_vibration-isolation("Vibration Isolation")
     textiles_rope-making("Rope and Cordage")
 
     %% ==================== EDGES ====================
+    agriculture_irrigation -.-> construction
     construction_building-materials -.-> foundations_tools-basic
     construction_industrial-buildings -.-> economics-organization_division-of-labor
     construction_industrial-buildings -.-> energy_electricity
@@ -36,6 +39,7 @@ graph TD
     construction -.-> machine-tools
     construction --> metals
     construction --> textiles_rope-making
+    precision-motion_vibration-isolation -.-> construction
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -55,6 +59,7 @@ graph TD
     class construction_building-materials capability
     class construction_industrial-buildings capability
     class construction_structural-engineering capability
+    class agriculture_irrigation external
     class ceramics_lime external
     class chemistry_cement external
     class economics-organization_division-of-labor external
@@ -64,5 +69,6 @@ graph TD
     class machine-tools external
     class metals external
     class metals_iron-steel external
+    class precision-motion_vibration-isolation external
     class textiles_rope-making external
     class EdgeLegend,MatNote,ToolNote legend

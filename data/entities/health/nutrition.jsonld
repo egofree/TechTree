@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Macronutrient and micronutrient analysis, dietary planning for workforces, deficiency disease prevention (scurvy, rickets, beriberi, anemia), and food composition assessment. Enables maintenance of physical labor capacity and prevention of incapacitating nutritional diseases.",
+  "early_win": false,
+  "id": "health.nutrition",
+  "level": "capability",
+  "name": "Nutrition",
+  "outputs": [
+    "nutritional_guidelines",
+    "deficiency_prevention_protocols"
+  ],
+  "parent": "health",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-100+"
+}

@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "In arid and semi-arid climates, irrigation is the difference between productive agriculture and subsistence failure; it extends cultivation beyond rainfall-dependent regions",
+  "description": "Controlled delivery of water to crops via gravity-fed canals, furrow and basin systems, water-lifting devices (shaduf, Archimedes screw, Persian wheel, saqiya), and low-pressure drip distribution. Covers canal survey and construction, flow measurement (Manning's equation), water-lifting device selection, salinity management, and irrigation scheduling by crop growth stage. Excludes motorized pump systems which belong to Water Distribution.",
+  "early_win": true,
+  "early_win_note": "Simple diversion canals and shadufs can be built within weeks using hand tools, immediately extending the growing season and stabilizing yields against drought.",
+  "id": "agriculture.irrigation",
+  "level": "capability",
+  "name": "Irrigation Systems",
+  "outputs": [
+    "irrigation_water",
+    "irrigated_land",
+    "water_delivery_infrastructure"
+  ],
+  "parent": "agriculture",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": true,
+    "era": "stone-age",
+    "lifecycle": [
+      "closed-loop"
+    ],
+    "material": [
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-15+"
+}

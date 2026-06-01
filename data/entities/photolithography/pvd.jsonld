@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Physical Vapor Deposition (PVD): sputtering (DC, RF, magnetron) and evaporation (thermal, electron-beam) of metal and dielectric thin films in high vacuum. Chamber pressure ~10⁻³ Torr (sputtering with Ar) or 10⁻⁶–10⁻⁸ Torr (evaporation). Deposits Al, Ti, Cu, Ta, W, and other target materials as conductive, barrier, or adhesion layers for IC metallization. Film thickness monitored by quartz crystal microbalance (QCM).",
+  "early_win": false,
+  "id": "photolithography.fab-processes.pvd",
+  "level": "process",
+  "name": "Physical Vapor Deposition (PVD)",
+  "outputs": [
+    "metal_thin_films",
+    "barrier_layers",
+    "adhesion_layers"
+  ],
+  "parent": "photolithography.fab-processes",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision",
+      "vacuum"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 45-65"
+}

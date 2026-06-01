@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Pilkington float glass process: molten glass poured onto a bath of molten tin at ~1000°C in a controlled nitrogen/hydrogen atmosphere, producing perfectly flat, parallel-surface glass ribbon without grinding or polishing. Accounts for >90% of worldwide flat glass production for windows, mirrors, and architectural glazing.",
+  "early_win": false,
+  "id": "glass.basic.float-glass",
+  "level": "process",
+  "name": "Float Glass Process",
+  "outputs": [
+    "float_glass",
+    "flat_glass_ribbon"
+  ],
+  "parent": "glass.basic",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "glass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50",
+  "wikidataId": "Q1431477"
+}

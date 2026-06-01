@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Systematic process for generating reliable knowledge through hypothesis formulation, controlled experimentation, measurement, and reproducible verification. The engineering discipline of empirical investigation.",
+  "early_win": false,
+  "id": "knowledge.scientific-method",
+  "level": "capability",
+  "name": "Scientific Method",
+  "outputs": [
+    "validated_knowledge",
+    "experimental_protocols",
+    "reproducible_results"
+  ],
+  "parent": "knowledge",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-20"
+}

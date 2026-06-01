@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Systematic genetic improvement of crops and livestock through controlled mating, trait selection, and progeny testing. Applies artificial selection to increase yield, disease resistance, environmental adaptation, and product quality across successive generations.",
+  "early_win": false,
+  "id": "agriculture.selective-breeding",
+  "level": "capability",
+  "name": "Selective Breeding & Genetic Improvement",
+  "outputs": [
+    "improved_crop_varieties",
+    "improved_livestock_breeds",
+    "breeding_records"
+  ],
+  "parent": "agriculture",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-100+"
+}

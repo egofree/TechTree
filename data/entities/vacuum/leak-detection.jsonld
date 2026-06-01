@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Systematic methods for detecting and locating leaks in vacuum systems: helium mass spectrometer leak detection (vacuum mode and sniffer mode, sensitivity to 10⁻¹² atm·cc/s), pressure rise testing for overall integrity assessment, residual gas analysis (RGA) for leak-vs-outgassing discrimination, bubble testing for gross leaks, ultrasonic leak detection, and vacuum brazing/welding techniques for achieving hermetic seals. Distinct from vacuum measurement (pressure quantification) — leak detection identifies and localizes the pathways through which gas enters a vacuum system.",
+  "early_win": false,
+  "id": "vacuum.leak-detection",
+  "level": "capability",
+  "name": "Vacuum Leak Detection & Seal Integrity",
+  "outputs": [
+    "leak_detection_services",
+    "hermetic_seals",
+    "leak_rate_quantification"
+  ],
+  "parent": "vacuum",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "vacuum",
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-40"
+}

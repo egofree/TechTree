@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Solar photovoltaic power generation using semiconductor p-n junctions to convert sunlight directly to electricity. Spans cell fabrication (monocrystalline ~22%, polycrystalline ~18%, amorphous ~10% efficiency), module assembly with tempered glass and EVA encapsulation, and system integration with inverters and grid connection.",
+  "early_win": false,
+  "id": "energy.photovoltaics",
+  "level": "capability",
+  "name": "Photovoltaic Solar Power",
+  "outputs": [
+    "solar_modules",
+    "dc_electricity"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "silicon",
+      "glass",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Glass-to-metal seals for hermetic electrical feedthroughs, vacuum tube envelopes, and semiconductor device packages. Matched seals (Kovar alloy to borosilicate glass, CTE ~5×10⁻⁶/°C), unmatched compression seals (steel to soda-lime glass), and fritted seals using glass powder preforms. Enables vacuum tubes, transistor packages, feedthrough connectors, and sensor housings.",
+  "early_win": false,
+  "id": "glass.glass-to-metal-seals",
+  "level": "capability",
+  "name": "Glass-to-Metal Seals",
+  "outputs": [
+    "glass_to_metal_seals",
+    "hermetic_feedthroughs",
+    "matched_seals",
+    "compression_seals",
+    "fritted_seals"
+  ],
+  "parent": "glass",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "glass",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-40"
+}

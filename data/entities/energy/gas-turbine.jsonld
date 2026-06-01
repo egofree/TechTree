@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Continuous-flow Brayton cycle engines compressing air, burning fuel at constant pressure, and expanding hot gas through axial turbine stages. Achieves 20-40% simple-cycle efficiency and 55-60%+ combined-cycle efficiency (with steam Rankine bottoming cycle), the highest of any commercial power generation technology. Enables jet aviation, peaking power, and high-efficiency baseload generation. Requires nickel superalloys, investment casting, single-crystal blade technology, and ceramic thermal barrier coatings.",
+  "early_win": false,
+  "id": "energy.gas-turbine",
+  "level": "capability",
+  "name": "Gas Turbines",
+  "outputs": [
+    "gas_turbine_power",
+    "jet_propulsion",
+    "combined_cycle_generation"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy",
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 35-50+"
+}

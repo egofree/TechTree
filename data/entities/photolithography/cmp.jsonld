@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Chemical Mechanical Planarization using colloidal silica or alumina abrasive slurries with polyurethane pads to achieve nanometer-scale surface flatness. Enables multi-level metal interconnect by planarizing dielectric layers between metallization steps. Removal rates 100-300 nm/min for oxide CMP, 200-400 nm/min for tungsten CMP.",
+  "early_win": false,
+  "id": "photolithography.fab-processes.cmp",
+  "level": "process",
+  "name": "Chemical Mechanical Planarization (CMP)",
+  "outputs": [
+    "planarized_surfaces",
+    "tungsten_plugs",
+    "copper_damascene"
+  ],
+  "parent": "photolithography.fab-processes",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "chemicals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 45-70"
+}

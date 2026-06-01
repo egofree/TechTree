@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Integrated vacuum deposition systems for semiconductor thin-film formation: sputter deposition systems (DC and RF magnetron, target assemblies, substrate bias), CVD reactor systems (LPCVD hot-wall tubes, PECVD parallel-plate reactors, APCVD conveyor furnaces), evaporation systems (thermal boat, electron-beam, thickness monitoring), load-lock transfer mechanisms, and pump-down/bake-out procedures for achieving process-ready base pressure. These systems integrate vacuum pumps, chambers, gas handling, and precision motion into process-specific tools.",
+  "early_win": false,
+  "id": "vacuum.deposition-systems",
+  "level": "capability",
+  "name": "Deposition Systems",
+  "outputs": [
+    "sputter_deposition",
+    "cvd_films",
+    "evaporated_films",
+    "load_lock_systems",
+    "pump_down_procedures"
+  ],
+  "parent": "vacuum",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-40"
+}

@@ -152,7 +152,7 @@ The rhodium recovery claim is particularly notable. Rhodium is one of the rarest
 
 The low-cost SEM Tech membrane enables electrochemical applications that are economically prohibitive with conventional membranes:
 
-**Redox flow batteries**: SEM Tech membranes could reduce battery stack costs dramatically. Target cost: approximately $5/kWh versus $100+/kWh for lithium-ion systems. Flow batteries are the leading candidate for grid-scale energy storage, but membrane cost has been a major barrier to commercialization. → See [Redox Flow Batteries](../energy/sem-tech-redox-flow-batteries.md)
+**Redox flow batteries**: SEM Tech membranes could reduce battery stack costs dramatically. Target cost: approximately $5/kWh versus $100+/kWh for lithium-ion systems. Flow batteries are the leading candidate for grid-scale energy storage, but membrane cost has been a major barrier to commercialization. → See [Redox Flow Batteries](../energy/redox-flow-battery.md)
 
 **Fuel cells**: Hydrogen, ethanol, methanol, and ammonia fuel cells all require ion exchange membranes. SEM Tech membranes could serve as the electrolyte separator in any of these configurations at a fraction of conventional cost. → See [Fuel Cells](../energy/sem-tech-fuel-cells.md)
 
@@ -250,7 +250,7 @@ The SEM Tech membrane occupies a unique position: far cheaper and more accessibl
 - [Alkali Production](alkalis.md) -- NaOH production and uses
 
 **Energy Applications**:
-- [Redox Flow Batteries](../energy/sem-tech-redox-flow-batteries.md) -- grid-scale energy storage using SEM Tech membranes
+- [Redox Flow Batteries](../energy/redox-flow-battery.md) -- grid-scale energy storage using SEM Tech membranes
 - [Fuel Cells](../energy/sem-tech-fuel-cells.md) -- hydrogen and alcohol fuel cells with low-cost membranes
 - [Blue Energy](../energy/sem-tech-blue-energy.md) -- salinity-gradient power generation via reverse electrodialysis
 

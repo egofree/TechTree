@@ -11,5 +11,6 @@ Capabilities in this domain:
 - [Diagnostics](diagnostics.md) — Physical examination, vital signs, basic laboratory testing, and fundamental imaging.
 - [Pharmaceutical Production](pharmaceutical-production.md) — Scaled drug manufacturing, tablet production, quality control, and sterile pharmaceutical preparation.
 - [Water Treatment](water-treatment.md) — Safe drinking water production through settling, sand filtration, boiling, chlorination, and UV treatment — the single most impactful public health intervention.
+- [Nutrition & Dietary Planning](nutrition.md) — Macronutrient and micronutrient requirements, deficiency disease prevention (scurvy, beriberi, rickets, anemia), food composition analysis, and workforce dietary planning.
 
 [↑ Back to Tech Tree](../index.md)

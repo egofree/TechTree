@@ -178,7 +178,7 @@ If SEM Tech fuel cells prove viable, their low membrane cost opens applications 
 
 **Vehicles**: PEM fuel cells for cars, buses, trucks, and material handling equipment. Current fuel cell vehicles are limited by system cost (~$50-100/kW). SEM Tech membranes could reduce the membrane component by 95%+, though platinum catalyst and balance-of-plant costs remain significant.
 
-**Stationary power**: Backup power for telecommunications, data centers, and critical facilities. Combined heat-and-power (CHP) units for residential and commercial buildings. Fuel cells provide continuous electricity as long as fuel is supplied -- unlike batteries which discharge over time. See [SEM Tech redox flow batteries](sem-tech-redox-flow-batteries.md) for the complementary energy storage technology.
+**Stationary power**: Backup power for telecommunications, data centers, and critical facilities. Combined heat-and-power (CHP) units for residential and commercial buildings. Fuel cells provide continuous electricity as long as fuel is supplied -- unlike batteries which discharge over time. See [SEM Tech redox flow batteries](redox-flow-battery.md) for the complementary energy storage technology.
 
 **Portable power**: DMFCs for remote sensors, military equipment, and off-grid electronics where battery weight and runtime are limiting. Methanol fuel cartridges are lighter than equivalent battery capacity.
 
@@ -230,7 +230,7 @@ Fuel cell systems involve several hazards requiring engineered controls:
 - [SEM Tech](../chemistry/sem-tech.md) — parent article on the membrane technology, manufacturing, and properties
 - [SEM Tech Water Electrolysis](../chemistry/sem-tech-water-electrolysis.md) — hydrogen production via SEM Tech electrolysis (fuel source)
 - [SEM Tech e-Methanol](../chemistry/sem-tech-e-methanol.md) — electrochemical methanol synthesis (alternative fuel)
-- [SEM Tech Redox Flow Batteries](sem-tech-redox-flow-batteries.md) — complementary energy storage technology
+- [SEM Tech Redox Flow Batteries](redox-flow-battery.md) — complementary energy storage technology
 - [Electricity Generation](electricity.md) — full range of electricity generation methods
 - [Energy Storage](storage.md) — complementary storage technologies
 

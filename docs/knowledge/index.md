@@ -10,5 +10,6 @@ Capabilities in this domain:
 - [Technical Drawing](technical-drawing.md) — Engineering drawing conventions (projection methods, dimensioning, section views, tolerances) for unambiguous exchange of manufacturing specifications between workshops.
 - [Standards Bodies](standards-bodies.md) — Organizational mechanisms for creating, maintaining, and enforcing common technical specifications — screw threads, material grades, electrical voltages, and measurement units.
 - [Information Durability](information-durability.md) — Systematic preservation of knowledge across generations: archival media selection, environmental controls, migration protocols, and format preservation strategies.
+- [Scientific Method](scientific-method.md) — Systematic process for generating reliable knowledge through hypothesis formulation, controlled experimentation, measurement, and reproducible verification.
 
 [↑ Back to Tech Tree](../index.md)

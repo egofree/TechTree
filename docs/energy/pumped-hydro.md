@@ -245,7 +245,7 @@ Pumped hydro storage has a large physical footprint and several environmental im
 - [Energy Storage](storage.md) — overview of storage technologies
 - [Electricity Generation](electricity.md) — grid integration of storage
 - [Wind Power](wind.md) — intermittent generation complemented by pumped hydro
-- [Redox Flow Batteries](sem-tech-redox-flow-batteries.md) — alternative grid-scale storage
+- [Redox Flow Batteries](redox-flow-battery.md) — alternative grid-scale storage
 - [Gravity Power](gravity.md) — other gravity-based energy storage
 
 [← Back to Energy](index.md)

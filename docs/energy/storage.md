@@ -237,7 +237,7 @@ Battery charging requires a DC power source matched to the battery bank voltage 
 
 - [Electricity Generation](electricity.md) — generators, motors, transformers, wire
 - [Pumped Hydro](pumped-hydro.md) — large-scale pumped storage
-- [Redox Flow Batteries](sem-tech-redox-flow-batteries.md) — SEM Tech membrane-based storage
+- [Redox Flow Batteries](redox-flow-battery.md) — SEM Tech membrane-based storage
 - [Cooling Systems](cooling.md) — industrial refrigeration for battery room temperature control
 - [Electrolysis](../chemistry/electrolysis.md) — hydrogen production for potential energy storage
 

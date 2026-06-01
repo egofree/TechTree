@@ -24,7 +24,9 @@ Capabilities in this domain:
 - [Water Turbines](water-turbines.md) — Pelton, Francis, and Kaplan hydraulic turbines for efficient water power conversion.
 - [Geothermal Energy](geothermal.md) — Harnesses Earth's interior heat for continuous baseload power generation with 90-95% capacity factor, unaffected by weather or seasons.
 - [Pumped Hydroelectric Storage](pumped-hydro.md) — Reversible pump-turbine systems for grid-scale energy storage with 70-85% round-trip efficiency.
-- [SEM Tech Redox Flow Batteries](sem-tech-redox-flow-batteries.md) — grid-scale energy storage
+- **[Gas Turbines](gas-turbine.md)** — Brayton cycle gas turbines for combined-cycle power plants (55-60%+ efficiency), industrial process heat, and mechanical drive applications.
+- **[Photovoltaics](photovoltaics.md)** — Solar photovoltaic power from p-n junction cells through module assembly to grid-connected systems. Monocrystalline ~22%, polycrystalline ~18%, amorphous ~10% efficiency.
+- [SEM Tech Redox Flow Batteries](redox-flow-battery.md) — grid-scale energy storage
 - [Graphite Electrode Manufacturing](electrode-manufacturing.md) — Production of graphite electrodes for electric arc furnaces from petroleum coke and coal tar pitch.
 
 [↑ Back to Tech Tree](../index.md)

@@ -301,7 +301,7 @@ RED stacks produce low-voltage DC (5-20V per stack). Practical power generation 
 
 **Baseload characteristics**: Blue energy generation follows river flow, which is continuous and diurnally stable but seasonally variable. Daily output is predictable -- unlike solar or wind -- making RED well-suited as baseload generation. Seasonal variation (wet season vs. dry season) causes 2-10x output swings at most river-mouth sites.
 
-**Energy storage for dispatchability**: RED output is fixed by river flow and cannot be ramped to match demand. Pairing RED with [SEM Tech Redox Flow Batteries](sem-tech-redox-flow-batteries.md) or [Pumped Hydroelectric Storage](pumped-hydro.md) stores excess generation for peak demand periods. The continuous nature of RED output means storage systems charge steadily, reducing the peak charge rate and extending storage equipment lifetime compared to intermittent solar or wind charging.
+**Energy storage for dispatchability**: RED output is fixed by river flow and cannot be ramped to match demand. Pairing RED with [SEM Tech Redox Flow Batteries](redox-flow-battery.md) or [Pumped Hydroelectric Storage](pumped-hydro.md) stores excess generation for peak demand periods. The continuous nature of RED output means storage systems charge steadily, reducing the peak charge rate and extending storage equipment lifetime compared to intermittent solar or wind charging.
 
 **Co-location with desalination**: Where both SEM Tech RED and SEM Tech [water desalination](../water/sem-tech-water-treatment.md) are deployed, the brine concentrate from ED desalination serves as the high-salinity feed for RED, using the waste stream from one process as fuel for another. This co-location strategy improves the overall economics of both systems and reduces environmental impact from brine discharge. The combined RED-desalination plant achieves an effective round-trip efficiency of approximately 25-35% for converting electrical energy (used in ED desalination) back to electrical energy (from RED using the brine), with the net energy loss offset by the freshwater product from the desalination stage.
 
@@ -455,7 +455,7 @@ RED is currently the leading approach because it produces electricity directly w
 
 - [SEM Tech](../chemistry/sem-tech.md) -- parent article on SEM Tech membrane manufacturing and properties
 - [SEM Tech Electrodialysis](../chemistry/sem-tech-electrodialysis.md) -- conventional ED (RED is the reverse process)
-- [SEM Tech Redox Flow Batteries](sem-tech-redox-flow-batteries.md) -- grid storage for dispatchable power from continuous RED generation
+- [SEM Tech Redox Flow Batteries](redox-flow-battery.md) -- grid storage for dispatchable power from continuous RED generation
 - [Electricity](electricity.md) -- electrical generation and distribution infrastructure
 
 

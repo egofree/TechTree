@@ -110,7 +110,7 @@ Molten copper and bronze are poured into molds to produce ingots, tools, and com
 **Weaknesses**:
 - Pouring at >1100 °C into cold or damp molds causes violent steam explosions
 - Shrinkage on solidification (copper shrinks ~2%) can cause internal cavities in thick sections
-- Sand molds are single-use; lost-wax investment is destroyed per casting — high material consumption
+- Sand molds are single-use (but material can be reused!); lost-wax investment is destroyed per casting — high material consumption
 
 ## Work-Hardening & Annealing
 

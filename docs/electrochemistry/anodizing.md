@@ -172,7 +172,7 @@ Anodizing serves several specific functions in semiconductor equipment fabricati
 ## Anodizing Equipment
 
 **DC power supply**:
-- Silicon diode or thyristor rectifier with constant-voltage (CV) or constant-current (CC) mode. CV mode is standard for Type II anodizing (set voltage, current varies as oxide grows). CC mode is standard for Type III hard anodizing (set current, voltage increases as oxide grows — prevents burning during the critical initial phase).
+- Silicon diode or thyristor [rectifier](dc-rectifier.md) with constant-voltage (CV) or constant-current (CC) mode. CV mode is standard for Type II anodizing (set voltage, current varies as oxide grows). CC mode is standard for Type III hard anodizing (set current, voltage increases as oxide grows — prevents burning during the critical initial phase).
 - Ripple: <5% AC ripple on DC output. Excessive ripple causes periodic current reversals that degrade oxide structure.
 - Voltage range: 0-30V for Type II, 0-100V for Type III. Current capacity: 500-10,000 A depending on production scale (typical: 1-5 A/dm² × total workpiece area).
 - Ramp control: Programmable voltage ramp (0→set voltage over 1-15 minutes) essential for Type III to prevent burning.

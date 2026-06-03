@@ -153,7 +153,7 @@ Building a SEM Tech ED desalination stack requires the following materials, orga
 - Calipers or micrometer — for measuring membrane thickness
 
 **Stack fabrication tools**:
-- Drill press or hand drill — for cutting manifold holes in PVC spacer frames
+- [Drill press](../machine-tools/iterative-bootstrap.md) or hand drill — for cutting manifold holes in PVC spacer frames
 - Jigsaw or band saw — for cutting PVC sheet to frame dimensions
 - Hole saw — for cutting electrode openings in end plates
 - Torque wrench — for even compression of tie rods (0.5–2.0 MPa)

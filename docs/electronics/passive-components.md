@@ -26,9 +26,9 @@ This document covers construction methods for each passive component type at thr
 - **Tin/lead solder**: From [metals smelting](../metals/iron-steel.md)
 
 ## Tools
-- [Wire drawing dies](../machine-tools/machining.md) for consistent wire diameters
+- [Wire drawing dies](../machine-tools/wire-drawing-die.md) for consistent wire diameters
 - [Winding machines](../machine-tools/index.md) for coils and transformers
-- [Pottery kiln](../ceramics/index.md) or [electric furnace](../energy/electric-furnaces.md) for ceramic firing (1000-1400°C)
+- [Pottery kiln](../ceramics/kilns.md) or [electric furnace](../energy/electric-furnaces.md) for ceramic firing (1000-1400°C)
 - Resistance bridge or multimeter for measurement (see [Electrical Instruments](../measurement/electrical-instruments.md))
 
 ## Knowledge

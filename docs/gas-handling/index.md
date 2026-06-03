@@ -8,4 +8,5 @@ Capabilities in this domain:
 - [Cylinder Filling](cylinder-filling.md) — Compressing purified gases into high-pressure steel or composite vessels for storage, transport, and point-of-use delivery.
 - [Vacuum Technology](vacuum.md) — Foundational vacuum technology: piston pumps, rotary vane pumps, diffusion pumps, basic vacuum chambers, and vacuum measurement. For advanced vacuum engineering (UHV pumps, chamber design, RGA, leak detection), see the [Vacuum Technology](../vacuum/index.md) domain.
 
+- [Compressor](compressor.md) — Reciprocating, rotary screw, and centrifugal compressors for gas compression, storage, and process applications.
 [↑ Back to Tech Tree](../index.md)

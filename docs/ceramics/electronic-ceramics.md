@@ -38,7 +38,7 @@ The critical electronic ceramic families:
 - **Tape casting machine** (doctor blade, 5-20 μm gap) — see [Machine Tools](../machine-tools/index.md)
 - **Screen printer** (for electrode deposition) — see [Machine Tools](../machine-tools/index.md)
 - **Kiln** capable of 1200-1400°C with atmosphere control (air, N₂/H₂ reducing) — [Kiln Construction](kilns.md)
-- **Hydraulic press** (50-100 MPa) — see [Machine Tools](../machine-tools/index.md)
+- **[Hydraulic press](../machine-tools/hydraulic-press.md)** (50-100 MPa) — see [Machine Tools](../machine-tools/index.md)
 - **DC power supply** (for poling PZT, 2-4 kV/mm) — [Electricity](../energy/electricity.md)
 
 ## Infrastructure

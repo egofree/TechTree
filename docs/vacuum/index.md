@@ -13,4 +13,6 @@ Capabilities in this domain:
 
 For basic vacuum technology foundations (piston pumps, Bourdon gauges, simple vacuum systems), see [Gas Handling: Vacuum](../gas-handling/vacuum.md).
 
+- [Vacuum Pump (Construction)](vacuum-pump.md) — Construction of roughing and high-vacuum pumps: rotary vane, scroll, diaphragm, and diffusion pump designs.
+- [Vacuum Chamber (Construction)](vacuum-chamber.md) — Fabrication of vacuum chambers from steel and aluminum with sealing systems for process and research applications.
 [↑ Back to Tech Tree](../index.md)

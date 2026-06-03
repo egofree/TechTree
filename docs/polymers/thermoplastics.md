@@ -22,10 +22,10 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - Titanium tetrachloride + triethylaluminum (Ziegler-Natta catalyst for HDPE, PP)
 
 ## Tools and Equipment
-- [Extruder](../machine-tools/machining.md) (single-screw or twin-screw, L/D 20-30:1, with heated barrel)
-- [Injection molding machine](../machine-tools/forming.md) (hydraulic or toggle clamp, 50-500 tons)
-- Compression mold or heated press (for thermoforming)
-- Blow molding equipment (for bottles and hollow parts)
+- [Extruder](../machine-tools/extruder.md) (single-screw or twin-screw, L/D 20-30:1, with heated barrel)
+- [Injection molding machine](../machine-tools/injection-molding-machine.md) (hydraulic or toggle clamp, 50-500 tons)
+- [Compression mold](../machine-tools/compression-press.md) or heated press (for thermoforming)
+- [Blow molding equipment](../machine-tools/blow-molding-equipment.md) (for bottles and hollow parts)
 
 ## Infrastructure
 - Electrical power (continuous, for extruder and injection molding machine heaters — 5-50 kW)

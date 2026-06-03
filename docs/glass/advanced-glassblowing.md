@@ -52,13 +52,13 @@ Advanced glassblowing extends basic glass forming into precision scientific and 
 
 ## Glassblowing Equipment
 
-**Lathe**: Glassworking lathe rotates the workpiece between two chucks (headstock and tailstock) at 10-60 RPM, allowing symmetrical forming. Headstock: motor-driven rotation with variable speed control. Tailstock: slides on bed for adjustment of workpiece length between chucks. Tool rest: adjustable support for hand tools. Bed length: 0.5-2.0 m. The lathe enables uniform wall thickness and concentric joints — impossible to achieve consistently by hand alone.
+**[Lathe](../machine-tools/iterative-bootstrap.md)**: Glassworking lathe rotates the workpiece between two chucks (headstock and tailstock) at 10-60 RPM, allowing symmetrical forming. Headstock: motor-driven rotation with variable speed control. Tailstock: slides on bed for adjustment of workpiece length between chucks. Tool rest: adjustable support for hand tools. Bed length: 0.5-2.0 m. The lathe enables uniform wall thickness and concentric joints — impossible to achieve consistently by hand alone.
 
 **Torches and burners**: Surface-mix torch (gas and oxygen mix at the torch tip): propane-oxygen produces flame temperature ~2500°C. Natural gas-oxygen: ~2400°C. Hydrogen-oxygen: ~2800°C (required for fused quartz). Inner cone (oxidizing zone): tip of inner blue cone, highest temperature. Outer flame (reducing zone): beyond inner cone, lower temperature, fuel-rich — used for preheating and annealing. Gas pressure: propane 1-3 bar, oxygen 2-5 bar. Flow control: needle valves on torch body or foot pedal for hands-free adjustment.
 
 **Hand tools**: Paddles (graphite or cherry wood, 50-150 mm × 10-20 mm × 5 mm thick) for flattening and shaping. Tweezers (steel, 150-250 mm) for pulling and bending. Shears (steel, 200-300 mm) for cutting hot glass. Jacks (steel with curved blades, 200-250 mm) for necking down tubes. Calipers (steel) for measuring diameters. Blowhose with mouthpiece: rubber hose connected to glass tube via rubber stopper, allows glassblower to blow air into the workpiece while both hands are occupied with tools and torch.
 
-**Annealing oven**: Electric furnace (resistance heated, 600-1200°C maximum) with programmable temperature controller. Chamber size: 0.05-0.5 m³. Temperature uniformity: ±5°C. Annealing cycle for borosilicate: heat to 560°C, hold 15-60 minutes (depending on wall thickness — 5 min/mm), cool at 2-5°C/min to strain point (510°C), then cool at 10-20°C/min to room temperature. Rapid cooling through the annealing range locks in thermal stress → spontaneous cracking hours to weeks later.
+**Annealing oven**: [Electric furnace](../energy/electric-furnaces.md) (resistance heated, 600-1200°C maximum) with programmable temperature controller. Chamber size: 0.05-0.5 m³. Temperature uniformity: ±5°C. Annealing cycle for borosilicate: heat to 560°C, hold 15-60 minutes (depending on wall thickness — 5 min/mm), cool at 2-5°C/min to strain point (510°C), then cool at 10-20°C/min to room temperature. Rapid cooling through the annealing range locks in thermal stress → spontaneous cracking hours to weeks later.
 
 ## Tube and Rod Forming
 

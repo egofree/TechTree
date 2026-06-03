@@ -10,4 +10,7 @@ Capabilities in this domain:
 - [Finishing](finishing.md) — Fulling, napping, calendering, mercerization, and waterproofing of woven fabrics.
 - [Sewing & Tailoring](sewing-tailoring.md) — Needle making, thread selection, seam construction, garment production, and industrial sewing.
 
+- [Spinning Frame](spinning-frame.md) — Water-powered and powered spinning frames (water frame, spinning mule, ring frame) for mechanized yarn production.
+- [Carding Machine](carding-machine.md) — Mechanical carding engines for disentangling and aligning fibers for spinning preparation.
+- [Power Loom](power-loom.md) — Water and steam-powered looms for mechanized cloth weaving at industrial scale.
 [↑ Back to Tech Tree](../index.md)

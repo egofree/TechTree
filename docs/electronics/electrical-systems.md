@@ -22,7 +22,7 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 - **Solder and flux**: From [metals processing](../metals/iron-steel.md) for wire termination
 
 ## Tools
-- [Wire drawing dies](../machine-tools/machining.md) for consistent wire diameters
+- [Wire drawing dies](../machine-tools/wire-drawing-die.md) for consistent wire diameters
 - Insulation resistance tester (megger, 500-5000V DC)
 - Multimeter (voltage, current, resistance measurement)
 - Conduit benders, cable pullers, and termination crimp tools

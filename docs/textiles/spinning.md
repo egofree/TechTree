@@ -109,7 +109,7 @@ Mechanized spinning multiplies output by 10-100× over hand spinning:
 **Water frame (Arkwright, 1769)**:
 - Powered by water wheel (later steam). Rollers draw out fiber (replacing hand drafting) and a flyer inserts twist. Produces a firm, even yarn suitable for warp — the critical bottleneck that had limited hand spinning. Roller speeds are graduated: each successive pair rotates faster, drawing the roving thinner. Typical roller diameters: 25 mm, with surface speeds increasing by 4-8× from the first pair to the last. 4-8 spindles per frame initially; later frames carried 40-80 spindles. Requires precision-turned rollers (iron, ground smooth) and reliable bearings.
 
-**Spinning mule (Crompton, 1779)**:
+**[Spinning mule](spinning-frame.md) (Crompton, 1779)**:
 - Combines water frame roller drafting with hand mule carriage travel. Carriage moves outward (drawing and twisting simultaneously), then returns (winding yarn onto spindles). Produces the finest, most uniform yarn of any spinning system — fine enough to match hand-spun Indian muslin. Carriage travel: 1.5-2 m stroke. 300-1,300+ spindles per mule by the 1830s. Self-acting mule (1830s) automated the carriage return, eliminating the need for child labor to push the carriage. Dominated fine cotton spinning for a century.
 
 **Ring spinning (Thorpe, 1828; commercialized 1830s)**:

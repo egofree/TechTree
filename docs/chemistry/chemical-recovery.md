@@ -29,7 +29,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 | Equipment | Purpose | Source |
 |-----------|---------|--------|
-| Fractional distillation column | Solvent purification by boiling point | [Distillation](distillation.md) |
+| [Fractional distillation column](distillation-column.md) | Solvent purification by boiling point | [Distillation](distillation.md) |
 | Heat exchangers | Energy recovery from hot streams | [Metals](../metals/index.md) |
 | pH meter and conductivity meter | Process control | [Measurement](../measurement/index.md) |
 | Storage tanks | Segregated collection of spent and recovered chemicals | [Metals](../metals/index.md) |

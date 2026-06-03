@@ -35,4 +35,12 @@ Capabilities in this domain:
 - [Industrial Water Treatment](water-treatment.md) — Water purification hierarchy from coagulation to ultrapure water (18.2 MΩ·cm) for semiconductor fabrication.
 - [Semiconductor Process Chemicals](semiconductor-chemicals.md) — Photoresist chemistry (DNQ/novolak, chemically amplified resists), TMAH developer (2.38%), buffered oxide etch (BOE), CMP slurry (colloidal silica, Preston's equation), piranha etch, RCA clean (SC-1/SC-2), and cleanroom chemical specifications.
 
+- [Reactor Vessel](reactor-vessel.md) — Pressure vessels and stirred-tank reactors for chemical synthesis, polymerization, and process chemistry.
+- [Distillation Column](distillation-column.md) — Fractional distillation columns (packed and tray) for separating liquid mixtures by boiling point.
+- [Heat Exchanger](heat-exchanger.md) — Shell-and-tube, plate, and coil heat exchangers for thermal energy transfer between process streams.
+- [Electrolysis Cell](electrolysis-cell.md) — Electrolytic cells for chlor-alkali production, water splitting, metal refining, and electrochemical synthesis.
+- [Filter Press](filter-press.md) — Plate-and-frame filter presses for solid-liquid separation in chemical processing and wastewater treatment.
+- [Centrifuge](centrifuge.md) — Centrifugal separation equipment for liquid-liquid and solid-liquid separation in chemical and biological processing.
+- [Crystallizer](crystallizer.md) — Evaporative and cooling crystallizers for producing solid crystals from solution.
+- [Evaporator](evaporator.md) — Falling film, forced circulation, and multiple-effect evaporators for concentrating solutions by solvent removal.
 [↑ Back to Tech Tree](../index.md)

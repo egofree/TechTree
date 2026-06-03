@@ -26,7 +26,7 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 
 ## Tools and Equipment
 
-- **Welding equipment** — For gasifier and digester construction. See [Joining](../machine-tools/joining.md).
+- **[Welding equipment](../machine-tools/welding-equipment.md)** — For [gasifier](gasifier.md) and digester construction. See [Joining](../machine-tools/joining.md).
 - **Engine-generator set** — For converting gas to electricity. See [Heat Engines](engine.md) and [Electricity](electricity.md).
 - **Gas storage** — Gasometer (floating bell gas holder) or pressurized tank for biogas storage.
 - **Pumps** — For circulating digester slurry and feeding gasifiers.

@@ -181,10 +181,10 @@ Matching combustion method to application determines overall system efficiency:
 | Application | Recommended Method | Typical Efficiency | Notes |
 |-------------|-------------------|-------------------|-------|
 | Small forge/hearth | Hand-fired grate | 40-50% | Simple, controllable by skilled smith |
-| Heating boiler (<500 kW) | Hand-fired or underfeed stoker | 55-65% | Underfeed stoker automates fuel feed |
+| Heating [boiler](boiler.md) (<500 kW) | Hand-fired or underfeed stoker | 55-65% | Underfeed stoker automates fuel feed |
 | Industrial boiler (1-20 MW) | Chain grate stoker | 65-75% | Uniform combustion, low labor |
 | Power station (>20 MW) | Pulverized coal firing | 85-90% | Requires grinding mills, forced draft |
-| Gas production | Gasifier (fixed bed) | 65-75% (cold gas) | Converts solid to gas fuel |
+| Gas production | [Gasifier](gasifier.md) (fixed bed) | 65-75% (cold gas) | Converts solid to gas fuel |
 | Coke production | Coke oven (by-product) | ~70% (coke yield) | Maximum byproduct recovery |
 
 **Ash handling**: All coal combustion produces ash (5-20% of fuel weight). Bottom ash falls through the grate into an ash pit — remove regularly to prevent airflow blockage. Fly ash (fine particles entrained in flue gas) must be captured with cyclone separators (60-80% capture) or electrostatic precipitators (99%+ capture, requires electricity). Fly ash is usable as pozzolanic additive in cement, replacing 15-30% of Portland cement.

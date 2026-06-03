@@ -32,7 +32,7 @@ The jump from earthenware to technical ceramics requires:
 ## Tools and Equipment
 
 - **Ball mill** (porcelain or rubber-lined steel, alumina grinding media) — see [Machine Tools](../machine-tools/index.md)
-- **Hydraulic press** (50-300 MPa capacity) — see [Machine Tools](../machine-tools/index.md)
+- **[Hydraulic press](../machine-tools/hydraulic-press.md)** (50-300 MPa capacity) — see [Machine Tools](../machine-tools/index.md)
 - **Kiln** capable of 1600-2200°C — [Kiln Construction](kilns.md) and [Kiln Firing Protocols](kiln-firing.md)
 - **Autoclave** (for Bayer process, rated 240°C, 3-4 MPa)
 - **Diamond grinding wheels** — see [Machine Tools](../machine-tools/index.md)

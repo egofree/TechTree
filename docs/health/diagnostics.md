@@ -27,7 +27,7 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 ## Tools and Equipment
 
 - Microscope (see [medical-instruments](medical-instruments.md)): 100× to 1000× magnification
-- Centrifuge (hand-cranked or electric): 1000-3000 RPM for separating blood components
+- [Centrifuge](../chemistry/centrifuge.md) (hand-cranked or electric): 1000-3000 RPM for separating blood components
 - Scale: 0.1 g sensitivity for reagent preparation
 - Timer or clock with second hand: for pulse and respiration counting
 - Heat source: for preparing stains and reagents

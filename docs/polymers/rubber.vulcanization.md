@@ -66,8 +66,8 @@ Three main cure system families control the type and density of cross-links:
 
 ## Vulcanization Equipment
 
-**Compression molding press**:
-- Hydraulic press, 10–200 tons clamp force. Platens heated by steam, oil, or electric cartridges.
+**[Compression molding press](../machine-tools/compression-press.md)**:
+- [Hydraulic press](../machine-tools/hydraulic-press.md), 10–200 tons clamp force. Platens heated by steam, oil, or electric cartridges.
 - Temperature control ±2°C across the platen surface. Steam-heated platens use 3–10 bar steam.
 - Operation: load uncured rubber preform into mold cavity, close press, maintain temperature and pressure for the specified cure time, open press, demold part.
 - Cycle time: 5–60 minutes depending on part thickness (cure time scales approximately with the square of the thickest section — a 6 mm thick part needs ~4× the cure time of a 3 mm part because heat must penetrate to the center).

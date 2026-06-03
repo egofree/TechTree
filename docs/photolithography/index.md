@@ -11,4 +11,9 @@ Capabilities in this domain:
 - **[Chemical Mechanical Planarization](cmp.md)** — Wafer surface planarization using slurry chemistry and mechanical polishing for multilevel metallization.
 - **[Plasma Etching](plasma-etching.md)** — RIE, DRIE (Bosch process), and selective material removal using plasma-generated reactive species.
 
+- [CVD Reactor (Construction)](cvd-reactor.md) — Construction of LPCVD, PECVD, and APCVD reactor systems for thin film deposition in semiconductor fabrication.
+- [Sputtering System (Construction)](sputtering-system.md) — Construction of DC and RF magnetron sputtering systems for physical vapor deposition of thin films.
+- [Plasma Etcher (Construction)](plasma-etcher.md) — Construction of reactive ion etching (RIE) and deep reactive ion etching (DRIE) systems for pattern transfer.
+- [Ion Implanter (Construction)](ion-implanter.md) — Construction of medium-current and high-current ion implantation systems for semiconductor doping.
+- [Photolithography Stepper (Construction)](photolithography-stepper.md) — Construction of projection lithography systems for pattern transfer onto semiconductor wafers.
 [↑ Back to Tech Tree](../index.md)

@@ -222,7 +222,7 @@
 
 | Equipment | Purpose | Scale | Notes |
 |-----------|---------|-------|-------|
-| Centrifugal pump | Water distribution, sewage lift | Community | 60-85% efficient, motor-driven |
+| [Centrifugal pump](../water/centrifugal-pump.md) | Water distribution, sewage lift | Community | 60-85% efficient, motor-driven |
 | Hand pump (India Mark II) | Well water extraction | Community | 15-50 m depth, 16 L/min |
 | Bar screen (6-25 mm spacing) | Sewage preliminary treatment | Community | Manually raked |
 | Trickling filter media (rock/plastic) | Secondary sewage treatment | Community | 1-3 m depth, BOD removal 65-85% |

@@ -237,7 +237,7 @@
 - **Construction**: Adzes, axes, saws, caulking irons, treenail drivers. Shipyard slipway or building berth with ways and launching cradle.
 - **Rigging**: Blocks (pulley shells with lignum vitae or bronze sheaves), tackles, winches, capstans.
 - **Navigation**: Magnetic compass, sounding lead, astrolabe or quadrant, sextant, hourglass, chip log.
-- **Cargo handling**: Treadwheel crane (2-5 tonnes), derricks, block and tackle. Wharves with warehouses.
+- **Cargo handling**: Treadwheel [crane](../construction/crane.md) (2-5 tonnes), derricks, block and tackle. Wharves with warehouses.
 - **Harbor works**: Breakwater (rubble mound, 10,000-50,000 tonnes stone), quay walls (timber or masonry), lighthouse (stone tower, oil lamp with parabolic reflector).
 
 ## Limitations

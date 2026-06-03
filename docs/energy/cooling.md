@@ -247,8 +247,8 @@ The ammonia absorption cycle runs on four main temperature zones, each correspon
 
 ## Equipment
 
-- **Absorption system**: Generator (steel pressure vessel, 10-15 bar), condenser (shell-and-tube or air-cooled), expansion valve, evaporator (coils in brine tank or air duct), absorber, solution heat exchanger, solution pump (0.5-2 kW for 100 kW cooling)
-- **Vapor-compression system**: Compressor (reciprocating 5-500 kW, rotary 10-2000 kW, centrifugal 300+ kW), condenser, thermostatic expansion valve, evaporator, receiver tank
+- **Absorption system**: Generator (steel [pressure vessel](../chemistry/reactor-vessel.md), 10-15 bar), condenser (shell-and-tube or air-cooled), expansion valve, [evaporator](../chemistry/evaporator.md) (coils in brine tank or air duct), absorber, solution [heat exchanger](../chemistry/heat-exchanger.md), solution pump (0.5-2 kW for 100 kW cooling)
+- **Vapor-compression system**: [Compressor](../gas-handling/compressor.md) (reciprocating 5-500 kW, rotary 10-2000 kW, centrifugal 300+ kW), condenser, thermostatic expansion valve, evaporator, receiver tank
 - **Ice production**: Brine tank (concrete or steel-lined wood, CaCl₂ brine), ice cans (sheet metal molds, 25-150 kg), agitator, overhead hoist, warm water dip tank
 - **Cold storage**: Insulated panels, door assemblies with heaters, evaporator coils, defrost system
 

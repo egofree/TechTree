@@ -223,7 +223,7 @@ Building a SEM Tech BMED acid regeneration system requires the following materia
 - Fine spray bottle or brush — for applying catalyst layer between bipolar membrane layers
 
 **Stack fabrication tools**:
-- Drill press or hand drill — for cutting manifold holes in PVC spacer frames
+- [Drill press](../machine-tools/iterative-bootstrap.md) or hand drill — for cutting manifold holes in PVC spacer frames
 - Jigsaw or band saw — for cutting PVC sheet to frame dimensions
 - Hole saw — for cutting electrode openings in end plates
 - Torque wrench — for even compression of tie rods (target: 0.5-2.0 MPa)
@@ -231,7 +231,7 @@ Building a SEM Tech BMED acid regeneration system requires the following materia
 
 **Operational equipment**:
 - Circulation pumps (3 units, corrosion-resistant) — magnetic-drive or diaphragm pumps with HDPE or PTFE wetted parts for acid, base, and salt loops. Flow rate matched to stack hydraulic requirements (typically 5-15 cm/s channel velocity).
-- DC power supply — variable voltage/current rectifier (100-600V, 50-500A), with current limiting and voltage ramp capability
+- DC power supply — variable voltage/current [rectifier](../electrochemistry/dc-rectifier.md) (100-600V, 50-500A), with current limiting and voltage ramp capability
 - Conductivity meters (3 units) — for monitoring acid, base, and salt stream concentrations in real time
 - pH meters (2 units) — for acid and base product verification
 - Flow meters (3 units) — for balancing acid, base, and salt loop flow rates

@@ -26,11 +26,11 @@ The extraction progression moves from simple pressing (stone-age, 40-60% yield) 
 
 ## Tools and Equipment
 
-- **Seed press**: Stone mortar and pestle (simplest), wedge press (wooden), screw press (iron), or expeller (steel). See Equipment section for construction details.
+- **[Seed press](seed-press.md)**: Stone mortar and pestle (simplest), wedge press (wooden), [screw press](seed-press.md) (iron), or expeller (steel). See Equipment section for construction details.
 - **Rendering vessels**: Iron or ceramic pots, 10-100 L capacity. Source: [Ceramics](../ceramics/index.md), [Metals](../metals/index.md).
 - **Filtering cloth**: Linen, cotton, or fine mesh. Removes solid particles from pressed oil.
 - **Settling tanks**: Ceramic or wooden containers for gravity separation of oil from water and sediment.
-- **Screw press or hydraulic press**: For seed pressing. Iron construction required for pressures above 50 bar. Source: [Machine Tools](../machine-tools/index.md).
+- **Screw press or [hydraulic press](../machine-tools/hydraulic-press.md)**: For seed pressing. Iron construction required for pressures above 50 bar. Source: [Machine Tools](../machine-tools/index.md).
 
 ## Knowledge
 

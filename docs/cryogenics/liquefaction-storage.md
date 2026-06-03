@@ -253,7 +253,7 @@ Maintaining vacuum in the insulation space is essential for both MLI and vacuum 
 - **Closed-toe shoes, long pants, long sleeves**: No exposed skin. Cuffless pants (no rolled cuffs that can catch spilled liquid). Apron for large-volume transfers.
 
 **Emergency procedures**:
-- **Major spill (dewar rupture, line break)**: Evacuate the area immediately. Do not attempt to stop the leak. The evaporating liquid will displace oxygen rapidly. Ventilate by opening doors and windows. Do not re-enter until O₂ monitor reads 19.5-23.5%. For LOX spills: exclude all ignition sources from a 10-meter radius. LOX-soaked asphalt can ignite from a spark.
+- **Major spill ([dewar](dewar.md) rupture, line break)**: Evacuate the area immediately. Do not attempt to stop the leak. The evaporating liquid will displace oxygen rapidly. Ventilate by opening doors and windows. Do not re-enter until O₂ monitor reads 19.5-23.5%. For LOX spills: exclude all ignition sources from a 10-meter radius. LOX-soaked asphalt can ignite from a spark.
 - **Skin contact**: Flush the affected area with lukewarm water (NOT hot water — rapid rewarming causes tissue damage). Do not rub frozen tissue. Seek medical attention immediately. Cryogenic burns are treated identically to thermal burns.
 - **Dewar pressure relief failure**: If a dewar's relief valve is blocked (by ice plug or mechanical failure), internal pressure rises as liquid evaporates from heat leak. A full dewar with no vent will pressurize to the burst disc rating (typically 1.5× MAWP) within hours to days depending on size. If the burst disc also fails, the dewar can rupture explosively. Never plug or cap a dewar vent.
 

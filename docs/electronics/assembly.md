@@ -23,9 +23,9 @@ Electronics assembly encompasses PCB fabrication, component placement, soldering
 - **Etchant chemicals**: Ferric chloride (FeCl₃) or ammonium persulfate from [chemical supply](../chemistry/acids.md)
 
 ## Tools
-- Soldering iron (25-80W, tip temperature 320-420°C) or reflow oven
+- [Soldering iron](soldering-iron.md) (25-80W, tip temperature 320-420°C) or reflow oven
 - Pick-and-place machine (10,000-100,000+ components/hour) or manual placement tools
-- [Wire drawing dies](../machine-tools/machining.md) for consistent wire diameters
+- [Wire drawing dies](../machine-tools/wire-drawing-die.md) for consistent wire diameters
 - Wave soldering machine for through-hole assembly
 - Stencil printer for solder paste application (stainless steel stencil, 100-150 μm)
 - [Oscilloscope](../measurement/electrical-instruments.md) and multimeter for testing

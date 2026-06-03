@@ -11,4 +11,17 @@ Capabilities in this domain:
 - [Mass Production & Interchangeability](mass-production.md) — Interchangeable parts, tolerance specification with go/no-go gauges, production line layout, statistical process control, and standardized fasteners.
 - [EDM, CNC & Precision Grinding](edm-cnc.md) — Electrical Discharge Machining (wire EDM, sinker EDM), Computer Numerical Control (servo/stepper drives, 5-axis), and precision/ultra-precision grinding for sub-micron accuracy required by semiconductor equipment.
 
+- [Hydraulic Press](hydraulic-press.md) — Fluid-powered press (10-500+ tons) for metal forming, compression molding, and powder compaction using Pascal's principle.
+- [Rolling Mill](rolling-mill.md) — Roll-forming equipment for reducing metal stock thickness and producing sheets, bars, and profiles through powered rollers.
+- [Wire Drawing Die](wire-drawing-die.md) — Tungsten carbide or diamond dies for drawing wire to precise diameters from rough stock.
+- [Forge Hammer](forge-hammer.md) — Powered forging hammers (trip, helve, steam, pneumatic) for heavy forging operations beyond hand-hammer capability.
+- [Sheet Metal Brake](sheet-metal-brake.md) — Bending and forming equipment for sheet metal into channels, angles, boxes, and enclosures.
+- [Anvil](anvil.md) — Forging anvil construction from stone through cast iron with steel face — the primary workholding surface for smithing.
+- [Welding Equipment](welding-equipment.md) — Construction of welding apparatus: oxy-acetylene torches, arc welders (SMAW, TIG, MIG), spot welders, and associated fixtures.
+- [Foundry Equipment](foundry-equipment.md) — Crucibles, ladles, molding equipment, and pouring systems for metal casting operations.
+- [Extruder](extruder.md) — Single-screw and twin-screw extruders for continuous forming of polymers, food products, and other materials.
+- [Injection Molding Machine](injection-molding-machine.md) — High-pressure molding equipment (50-500+ tons) for producing complex thermoplastic parts in volume.
+- [Blow Molding Equipment](blow-molding-equipment.md) — Extrusion and injection blow molding machines for producing hollow plastic containers and parts.
+- [Compression Press](compression-press.md) — Heated platen presses for compression molding of thermosets, rubber, composites, and powder metallurgy.
+- [Thermoforming Equipment](thermoforming-equipment.md) — Vacuum and pressure forming machines for shaping heated thermoplastic sheet into products.
 [↑ Back to Tech Tree](../index.md)

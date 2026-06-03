@@ -9,4 +9,5 @@ Capabilities in this domain:
 - [Cryogenic Air Separation](air-separation.md) — Claude cycle integration with double-column distillation at -196°C, expansion turbine engineering (20,000-80,000 RPM, 80-88% isentropic efficiency), BAHX heat exchanger design (1-3°C temperature approach), and cold box insulation systems. Produces N₂ (99.999%), O₂ (99.5%+), and Ar (99.999%) at thousands of tonnes per year for semiconductor fabrication.
 - [Gas Liquefaction & Storage](liquefaction-storage.md) — Dewar vessel design (vacuum-insulated, evaporation losses 0.1-3%/day), perlite and multi-layer insulation systems, nitrogen/helium liquefaction cycles, cryogenic transfer systems, and material selection for service below -150°C. Liquid storage provides 600-860× density advantage over compressed gas.
 
+- [Dewar Vessel](dewar.md) — Vacuum-insulated cryogenic storage vessels (dewars) for liquefied gases with minimal evaporation loss.
 [↑ Back to Tech Tree](../index.md)

@@ -9,4 +9,6 @@ Capabilities in this domain:
 - [Power Electronics](power-electronics.md) — Semiconductor-based power conversion and control: rectifiers, inverters, DC-DC converters, and motor drives for efficient energy conversion and grid integration.
 - [Electronics Assembly](assembly.md) — PCB fabrication, component placement, soldering (through-hole and surface mount), conformal coating, IC packaging, and testing.
 
+- [Soldering Iron](soldering-iron.md) — Temperature-controlled soldering irons for electronics assembly, repair, and wire joining.
+- [Electronic Test Equipment](test-equipment.md) — Multimeters, oscilloscopes, signal generators, and power supplies for circuit testing and characterization.
 [↑ Back to Tech Tree](../index.md)

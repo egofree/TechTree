@@ -28,7 +28,7 @@ This capability depends on [building materials](./building-materials.md) for bas
 ## Tools and Equipment
 
 - [Concrete mixing equipment](../chemistry/cement.md): Batch mixer or continuous mixer.
-- [Steel erection tools](../metals/iron-steel.md): Cranes, bolt torque wrenches, welding equipment.
+- [Steel erection tools](../metals/iron-steel.md): Cranes, bolt torque wrenches, [welding equipment](../machine-tools/welding-equipment.md).
 - Surveying instruments: Theodolite or level for foundation layout (±5 mm tolerance over 30 m).
 - Concrete vibrator: For compacting poured concrete (eliminates voids >5 mm).
 

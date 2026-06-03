@@ -109,7 +109,7 @@ The lithium separation system requires the following hardware:
 - **End plates and tie rods**: HDPE or steel compression frames to clamp the membrane stack under uniform pressure.
 
 **Power supply**:
-- **DC rectifier**: Thyristor or IGBT rectifier delivering 50-300V DC at 5-20 mA/cm² current density. 95%+ efficiency. Sized for total stack current (50-200 A per stack).
+- **[DC rectifier](../electrochemistry/dc-rectifier.md)**: Thyristor or IGBT rectifier delivering 50-300V DC at 5-20 mA/cm² current density. 95%+ efficiency. Sized for total stack current (50-200 A per stack).
 
 **Fluid handling**:
 - **Feed pumps**: Corrosion-resistant (HDPE, PVC, or titanium) centrifugal or diaphragm pumps, rated for 1-3 bar and brine-compatible materials. One pump per ED stack.
@@ -123,9 +123,9 @@ The lithium separation system requires the following hardware:
 
 **Product finishing equipment**:
 - **Precipitation reactor**: Heated stirred tank (glass-lined steel or HDPE), 85-95°C operating temperature, with agitator for Na₂CO₃ addition and Li₂CO₃ crystallization.
-- **Filter press or centrifuge**: For separating Li₂CO₃ crystals from mother liquor. Plate-and-frame filter press is lowest cost option.
+- **[Filter press](filter-press.md) or [centrifuge](centrifuge.md)**: For separating Li₂CO₃ crystals from mother liquor. Plate-and-frame filter press is lowest cost option.
 - **Dryer**: Tray dryer or rotary dryer at 120°C for final product drying.
-- **Crystallizer**: For LiOH·H₂O production — evaporative crystallizer operating at 50-60°C.
+- **[Crystallizer](crystallizer.md)**: For LiOH·H₂O production — evaporative crystallizer operating at 50-60°C.
 
 **Control and instrumentation**:
 - **PLC or microcontroller**: For automated control of voltage, current, flow rates, pH, and temperature.

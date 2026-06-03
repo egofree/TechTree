@@ -238,9 +238,9 @@ Cheese making is controlled coagulation of milk protein (casein) to separate cur
 
 The key pieces of dairy processing equipment and their construction:
 
-**Cream separator** (industrial era):
+**[Cream separator](cream-separator.md)** (industrial era):
 - **Bowl**: Stainless steel or tinned copper. Spinning at 6,000-8,000 RPM requires dynamic balancing to within 0.01 mm. Imbalance causes destructive vibration. Bowl design: stack of conical discs (0.5-1.0 mm gap) creates large surface area for efficient separation.
-- **Drive**: Hand-cranked (via step-up gear) or electric motor with belt drive. Power: 100-500 W for small units, 1-5 kW for industrial. Bearings must handle high radial loads from centrifugal forces.
+- **Drive**: Hand-cranked (via step-up gear) or [electric motor](../energy/electric-motor.md) with belt drive. Power: 100-500 W for small units, 1-5 kW for industrial. Bearings must handle high radial loads from centrifugal forces.
 - **Sanitation**: All milk-contact surfaces must be smooth (Ra <0.8 μm), non-porous, and cleanable. CIP (Clean-In-Place) system: circulate hot caustic (1-2% NaOH at 70°C for 15 min), rinse, circulate acid (0.5-1% phosphoric or nitric at 60°C for 10 min), rinse, sanitize (200 ppm chlorine or 25 ppm peracetic acid).
 
 **Cheese press**:

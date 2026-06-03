@@ -10,4 +10,6 @@ Capabilities in this domain:
 - [Oil & Fat Processing](oil-processing.md) — Extracts edible and industrial lipids from plant seeds, fruit pulp, and animal tissues for cooking, soap-making, and industrial applications.
 - [Brewing & Distilling](brewing.md) — Beer, wine, and spirit production. The earliest industrial biotechnology, simultaneously food preservation and calorie concentration.
 
+- [Seed Press](seed-press.md) — Screw presses and expellers for extracting oil from seeds, nuts, and other oil-bearing materials.
+- [Cream Separator](cream-separator.md) — Centrifugal cream separators for dividing whole milk into cream and skim milk.
 [↑ Back to Tech Tree](../index.md)

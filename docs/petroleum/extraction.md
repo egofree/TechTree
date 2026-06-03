@@ -52,7 +52,7 @@ A heavy steel bit (chisel or club shape, 50-200 kg) is repeatedly lifted and dro
 | Drill bit | Chisel or cross-shape, 10-25 cm width. Hardened steel face | Forged steel |
 | Sand pump | Valved tube on separate cable. Lowered to bottom, pushed into cuttings slurry, valve admits mixture, raised to surface | Steel with leather valve |
 | Casing | Iron or steel pipe 10-15 cm diameter. Driven into hole as drilling progresses to prevent collapse and exclude groundwater | Iron or steel |
-| Power source | Steam engine (5-20 HP) or horse/ox walking in circle (1-3 HP). Engine dramatically increases drilling speed | — |
+| Power source | [Steam engine](../energy/steam-engine.md) (5-20 HP) or horse/ox walking in circle (1-3 HP). Engine dramatically increases drilling speed | — |
 
 ## Cable-Tool Drilling Procedure
 

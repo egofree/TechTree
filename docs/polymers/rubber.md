@@ -26,7 +26,7 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 
 ## Tools and Equipment
 - [Two-roll mill](../machine-tools/machining.md) or Banbury internal mixer (for compounding)
-- [Hydraulic press](../machine-tools/forming.md) (10-50 tons, for compression molding)
+- [Hydraulic press](../machine-tools/hydraulic-press.md) (10-50 tons, for compression molding)
 - Autoclave or steam-heated mold (140-160°C, for vulcanization)
 - Sheeting mill (series of counter-rotating steel rollers)
 

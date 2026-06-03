@@ -27,11 +27,11 @@ While [Food Preservation](preservation.md) covers the full spectrum of preservat
 
 ## Tools and Equipment
 
-- **Retort (pressure vessel)**: Horizontal or vertical cylindrical vessel rated for 15-30 psi (1-2 bar) at 121°C+. Equipped with steam inlet, vent, drain, pressure gauge, safety relief valve, and temperature recorder. Source: [Metals](../metals/iron-steel.md) — riveted or welded steel construction.
+- **Retort ([pressure vessel](../chemistry/reactor-vessel.md))**: Horizontal or vertical cylindrical vessel rated for 15-30 psi (1-2 bar) at 121°C+. Equipped with steam inlet, vent, drain, pressure gauge, safety relief valve, and temperature recorder. Source: [Metals](../metals/iron-steel.md) — riveted or welded steel construction.
 - **Can seamer**: Double-seam machine that hermetically seals can ends to bodies. First operation roll curls cover hook; second operation roll compresses seam. Precision mechanism requiring ±0.05 mm tolerance. Source: [Machine Tools](../machine-tools/index.md).
 - **Can body maker**: Tinplate shearing, body forming (cylinder), side-seam soldering or welding. Three-piece can construction.
 - **Exhaust box**: Steam or hot water tunnel to heat sealed cans to 75-85°C before seaming, removing air (prevents paneling and oxidative quality loss).
-- **Boiler**: Steam generation at 5-15 bar for retort operation and exhaust box. Source: [Energy](../energy/engine.md).
+- **[Boiler](../energy/boiler.md)**: Steam generation at 5-15 bar for retort operation and exhaust box. Source: [Energy](../energy/engine.md).
 - **Cooling system**: Water bath or spray cooling. Potable water with 2-5 ppm free chlorine to prevent post-seam contamination.
 
 ## Knowledge

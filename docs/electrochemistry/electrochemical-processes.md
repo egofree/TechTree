@@ -151,7 +151,7 @@ ENIG is the dominant surface finish for printed circuit boards, providing a flat
 ## Electropolishing Equipment and Tooling
 
 **Power supply**:
-- Constant-current DC rectifier: 0-20V, 0-5000 A depending on workload size. Ripple <5%. Constant-current mode is preferred because the workpiece surface area changes as material dissolves (constant voltage would cause current to increase as the surface smooths, potentially leading to pitting).
+- Constant-current [DC rectifier](dc-rectifier.md): 0-20V, 0-5000 A depending on workload size. Ripple <5%. Constant-current mode is preferred because the workpiece surface area changes as material dissolves (constant voltage would cause current to increase as the surface smooths, potentially leading to pitting).
 - Pulse capability: Some electropolishing processes benefit from pulsed current (10-100 ms on, 10-100 ms off). The off-time allows the anodic film to reform, improving surface finish. Pulse electropolishing can achieve Ra <0.02 μm on 316L stainless steel.
 
 **Fixturing**:
@@ -162,7 +162,7 @@ ENIG is the dominant surface finish for printed circuit boards, providing a flat
 - Surface roughness (profilometer): Ra, Rz, and Rq measurements. Electropolishing typically reduces Ra by 50-80% from the pre-polished state.
 - Surface composition (XPS/ESCA): X-ray photoelectron spectroscopy measures the Cr/Fe ratio at the surface. A ratio >1.0 indicates effective chromium enrichment.
 - Pitting resistance (ASTM B117 salt spray): Electropolished 316L stainless steel typically achieves 500-2000+ hours to first rust spot, compared to 24-100 hours for mechanically polished surfaces.
-- Outgassing rate: Measured by throughput method in a vacuum chamber. Electropolished + baked 316L: ~10⁻¹⁰ Torr·L/s·cm². Mechanically polished: ~10⁻⁸ Torr·L/s·cm².
+- Outgassing rate: Measured by throughput method in a [vacuum chamber](../vacuum/vacuum-chamber.md). Electropolished + baked 316L: ~10⁻¹⁰ Torr·L/s·cm². Mechanically polished: ~10⁻⁸ Torr·L/s·cm².
 
 ## Electroforming Process Detail
 

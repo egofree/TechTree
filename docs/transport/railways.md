@@ -223,7 +223,7 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - **Track laying**: Rail lifts, spike mauls, track gauges, tamping bars, ballast forks, lining bars.
 - **Maintenance**: Mechanical tampers, track geometry measurement tools, ultrasonic rail testing equipment, ballast regulators.
 - **Yard operations**: Turntable (10-20 m), coaling stage, water columns with elevated tanks, classification hump with retarders.
-- **Workshop**: Overhead traveling cranes (5-20 tonne), boiler shop with hydraulic test pump, wheel lathe for re-turning driving wheels, riveting equipment.
+- **Workshop**: Overhead traveling cranes (5-20 tonne), [boiler](../energy/boiler.md) shop with hydraulic test pump, wheel [lathe](../machine-tools/iterative-bootstrap.md) for re-turning driving wheels, riveting equipment.
 
 ## Limitations
 

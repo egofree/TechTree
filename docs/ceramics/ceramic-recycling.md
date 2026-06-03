@@ -33,7 +33,7 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 | Ball mill (optional) | Fine grinding to specific grog size grades | [Mining Processing](../mining/processing.md) |
 | Vibrating screens | Size classification of crushed grog | [Mining Processing](../mining/processing.md) |
 | Magnetic separator | Remove iron contamination (steel fragments from refractory anchors) | [Mining Processing](../mining/processing.md) |
-| Kiln | Firing new ceramic products containing recycled grog | [Kilns](kilns.md) |
+| [Kiln](kilns.md) | Firing new ceramic products containing recycled grog | [Kilns](kilns.md) |
 
 ## Knowledge
 

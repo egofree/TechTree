@@ -27,10 +27,10 @@ This document covers transformer construction, core and winding manufacturing, i
 
 ## Tools and Equipment
 
-- **Lathe and milling machine** — For core clamping hardware, bushing fabrication, tank fabrication. See [Machine Tools](../machine-tools/index.md).
+- **[Lathe](../machine-tools/iterative-bootstrap.md) and [milling machine](../machine-tools/iterative-bootstrap.md)** — For core clamping hardware, bushing fabrication, tank fabrication. See [Machine Tools](../machine-tools/index.md).
 - **Winding machine** — Hand-cranked or motor-driven mandrel for winding coils. Torque control maintains even tension.
 - **Sheet metal shear and brake** — For cutting and bending core laminations and tank components.
-- **Oven or kiln** — For core annealing (800-850°C to relieve stresses and develop grain orientation) and drying insulation (110-130°C to remove moisture before oil filling).
+- **Oven or [kiln](../ceramics/kilns.md)** — For core annealing (800-850°C to relieve stresses and develop grain orientation) and drying insulation (110-130°C to remove moisture before oil filling).
 - **Megger (insulation resistance tester)** — 500-5000V DC test set. See [Electrical Instruments](../measurement/electrical-instruments.md).
 - **Multimeter, ammeter, voltmeter** — For turns ratio verification, load testing, loss measurement.
 

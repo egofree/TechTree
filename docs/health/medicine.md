@@ -52,7 +52,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 | Syringe (glass/metal) | Irrigation, injection | Glass + metalworking |
 | Stethoscope (wooden/metal tube) | Auscultation | Basic turning |
 | Mercury thermometer | Temperature measurement | Glass blowing + mercury |
-| Centrifuge (hand-cranked) | Blood separation | Metalworking |
+| [Centrifuge](../chemistry/centrifuge.md) (hand-cranked) | Blood separation | Metalworking |
 | Compound microscope (100×, 400×, 1000×) | Diagnostics | Lens grinding |
 | Autoclave / pressure cooker | Sterilization | Metal vessel + heat source |
 | Bone saw | Amputation | Steel + woodworking tools |

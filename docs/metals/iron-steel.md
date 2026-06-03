@@ -86,7 +86,7 @@ Blast furnace smelting produces pig iron with typical composition: ~4% C, ~1% Si
 
 ## Metalworking Tools
 
-**Anvil evolution**:
+**[Anvil](../machine-tools/anvil.md) evolution**:
 - **Stone anvil**: Large flat granite or basalt boulder (50+ kg). Bounces hammer energy but works for copper and early iron. Use flat face for hammering, edge for bending.
 - **Iron anvil**: Cast or forged from wrought iron with steel face (carburized and hardened). 20-100+ kg. Must be bolted to heavy stump. Returns hammer energy efficiently. The single most important tool in the smithy.
 

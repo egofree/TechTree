@@ -168,7 +168,7 @@ Beyond the materials listed above, a RED power plant requires the following equi
 - **Drying rack**: Clean, level surface with adequate ventilation for solvent evaporation. No heating equipment required -- membranes dry at ambient temperature.
 
 **Stack assembly equipment**:
-- **Drill press or hand drill**: For boring manifold ports and alignment holes in stack end plates.
+- **[Drill press](../machine-tools/iterative-bootstrap.md) or hand drill**: For boring manifold ports and alignment holes in stack end plates.
 - **Torque wrench**: For even compression of membrane stack to specified clamping pressure (typically 5-15 kPa). Uneven compression causes internal channeling and leaks.
 - **Alignment pins**: Metal or plastic dowels for aligning membrane-spacer assemblies during stack construction.
 

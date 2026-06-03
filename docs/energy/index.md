@@ -29,4 +29,11 @@ Capabilities in this domain:
 - [SEM Tech Redox Flow Batteries](redox-flow-battery.md) — grid-scale energy storage
 - [Graphite Electrode Manufacturing](electrode-manufacturing.md) — Production of graphite electrodes for electric arc furnaces from petroleum coke and coal tar pitch.
 
+- [Steam Engine](steam-engine.md) — Reciprocating steam engines (5-500+ HP) converting pressurized steam to rotational power for industrial drives and electricity generation.
+- [Boiler](boiler.md) — Steam generation vessels (fire-tube and water-tube) producing pressurized steam for power, heating, and process applications.
+- [Electric Motor](electric-motor.md) — DC and AC electric motors converting electrical energy to mechanical rotation for industrial drives.
+- [Generator](generator.md) — Electromagnetic generators (dynamos and alternators) converting mechanical rotation into electrical power.
+- [Solar Collector](solar-collector.md) — Solar thermal collectors (flat plate and concentrating) for converting sunlight to useful heat.
+- [Gasifier](gasifier.md) — Biomass and coal gasification reactors converting solid fuel to combustible producer gas for engines and synthesis.
+- [Biogas Digester](biogas-digester.md) — Anaerobic digestion systems converting organic waste to methane biogas for cooking, heating, and power generation.
 [↑ Back to Tech Tree](../index.md)

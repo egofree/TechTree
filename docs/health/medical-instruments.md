@@ -35,14 +35,14 @@ The critical threshold is sterility: an instrument that cannot be sterilized is 
 | Equipment | Fabrication Requirement | Key Specification |
 |-----------|----------------------|-------------------|
 | Forge or furnace | Metalworking | Capable of 900°C for heat-treating steel |
-| Anvil and hammers | Metalworking | For shaping instrument blanks |
+| [Anvil](../machine-tools/anvil.md) and hammers | Metalworking | For shaping instrument blanks |
 | Bench grinder | Metalworking | For rough shaping and sharpening |
 | Whetstones (coarse + fine) | Metalworking | For edge finishing |
-| Glass lathe or lampworking torch | Glassworking | For thermometer tube sealing |
-| Drawplate | Metalworking | For wire drawing (suture needles) |
+| Glass [lathe](../machine-tools/iterative-bootstrap.md) or lampworking torch | Glassworking | For thermometer tube sealing |
+| Drawplate | Metalworking | For [wire drawing](../machine-tools/wire-drawing-die.md) (suture needles) |
 | Molding flasks | Casting | For brass/bronze casting |
 | Calipers and micrometer | Measurement | For precision dimensions (±0.01 mm) |
-| Pressure vessel (autoclave) | Sterilization | 15 psi, 121°C capability |
+| [Pressure vessel](../chemistry/reactor-vessel.md) (autoclave) | Sterilization | 15 psi, 121°C capability |
 
 ## Stethoscope
 

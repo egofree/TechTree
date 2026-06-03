@@ -25,7 +25,7 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 
 - Radiation survey meter: Geiger-Müller (GM) counter for contamination surveys, ionization chamber for exposure rate measurement
 - Personal dosimeters: film badge, TLD, or electronic personal dosimeter (EPD)
-- Shielding test equipment: lead thickness gauge, concrete density verification
+- Shielding [test equipment](../electronics/test-equipment.md): lead thickness gauge, concrete density verification
 - Calibration sources: known-activity check sources (Cs-137, Co-60, or Am-241) for instrument calibration
 
 ## Knowledge

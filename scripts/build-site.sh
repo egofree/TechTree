@@ -104,6 +104,18 @@ cp "$SCRIPT_DIR/assets/fuse.min.js" "$SITE_DIR/assets/fuse.min.js"
 cp "$SCRIPT_DIR/assets/search.js" "$SITE_DIR/assets/search.js"
 cp "$SCRIPT_DIR/assets/main.js" "$SITE_DIR/assets/main.js"
 
+# --- Copy docs/images/ ---
+
+if [[ -d "$DOCS_DIR/images" ]]; then
+    log "Copying docs/images/..."
+    mkdir -p "$SITE_DIR/docs/images"
+    cp -r "$DOCS_DIR/images/"* "$SITE_DIR/docs/images/"
+    IMAGE_COUNT=$(find "$SITE_DIR/docs/images" -type f | wc -l)
+    log "Copied $IMAGE_COUNT image files"
+else
+    warn "docs/images/ not found — image assets will be missing"
+fi
+
 # --- Copy mermaid diagrams ---
 
 MMD_COPIED=0

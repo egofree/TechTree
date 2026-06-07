@@ -16,6 +16,7 @@ node_modules/
 # Transient artifacts from rollback/testing
 data/.backups/
 *.bak
+*.zim
 test-results/
 
 # Agent working state

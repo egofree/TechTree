@@ -1,0 +1,140 @@
+{
+  "$schema": "bootciv-plant-name-map-v1",
+  "description": "Maps plants.json IDs to ZIM archive species names where the ID uses common names, reclassified taxonomy, synonyms, or variant spellings. Only includes mappings where the ZIM species has been verified to exist in the archive.",
+  "generated": "2026-06-07",
+  "mappings": [
+    {
+      "plants_json_id": "bitter-orange",
+      "zim_species_name": "citrus-x-aurantium",
+      "match_confidence": "manual",
+      "verified_by": "",
+      "notes": "Common name 'bitter orange' maps to hybrid species Citrus × aurantium. The × denotes hybrid origin (pomelo × mandarin)."
+    },
+    {
+      "plants_json_id": "sweet-potato",
+      "zim_species_name": "ipomoea-batatas-l-poir",
+      "match_confidence": "manual",
+      "verified_by": "",
+      "notes": "ZIM uses botanical authority suffix 'L.' Poir. No exact 'ipomoea-batatas' entry exists in ZIM, only this authority-qualified variant."
+    },
+    {
+      "plants_json_id": "wild-tomato",
+      "zim_species_name": "solanum-lycopersicum-var-cerasiforme",
+      "match_confidence": "manual",
+      "verified_by": "",
+      "notes": "Common name 'wild tomato' / 'cherry tomato' maps to botanical variety Solanum lycopersicum var. cerasiforme. No plain 'solanum-lycopersicum' in ZIM."
+    },
+    {
+      "plants_json_id": "plantain",
+      "zim_species_name": "musa-x-paradisiaca",
+      "match_confidence": "manual",
+      "verified_by": "",
+      "notes": "Common name 'plantain' maps to hybrid species Musa × paradisiaca (cooking banana). The × denotes hybrid origin."
+    },
+    {
+      "plants_json_id": "acacia-senegal",
+      "zim_species_name": "senegalia-senegal",
+      "match_confidence": "manual",
+      "verified_by": "",
+      "notes": "Reclassified: Acacia senegal → Senegalia senegal. Many African/Australian Acacia species transferred to Senegalia/Vachellia genera."
+    },
+    {
+      "plants_json_id": "chrysanthemum-cinerariifolium",
+      "zim_species_name": "tanacetum-cinerariifolium",
+      "match_confidence": "manual",
+      "verified_by": "",
+      "notes": "Reclassified: Chrysanthemum cinerariifolium → Tanacetum cinerariifolium (Dalmatian pyrethrum, natural insecticide source)."
+    },
+    {
+      "plants_json_id": "aloe-officinalis",
+      "zim_species_name": "aloe-barbadensis",
+      "match_confidence": "manual",
+      "verified_by": "",
+      "notes": "Aloe officinalis is a synonym of Aloe barbadensis (= Aloe vera). ZIM has both aloe-barbadensis and aloe-vera; barbadensis is the basionym."
+    },
+    {
+      "plants_json_id": "agave",
+      "zim_species_name": "agave-americana",
+      "match_confidence": "manual",
+      "verified_by": "",
+      "notes": "Genus-level entry 'Agave' mapped to Agave americana (most widely distributed species). Other ZIM options: agave-salmiana, agave-tequilana, agave-sisalana."
+    },
+    {
+      "plants_json_id": "sisal",
+      "zim_species_name": "agave-sisalana",
+      "match_confidence": "manual",
+      "verified_by": "",
+      "notes": "Common name 'sisal' maps to Agave sisalana, the primary source of sisal fiber."
+    },
+    {
+      "plants_json_id": "moringa",
+      "zim_species_name": "moringa-oleifera",
+      "match_confidence": "manual",
+      "verified_by": "",
+      "notes": "Common name 'moringa' maps to Moringa oleifera (most widely cultivated species). ZIM also has other Moringa species."
+    },
+    {
+      "plants_json_id": "rhus-coraria",
+      "zim_species_name": "rhus-coriaria",
+      "match_confidence": "manual",
+      "verified_by": "",
+      "notes": "Spelling correction: plants.json has 'coraria' but accepted spelling is 'coriaria' (Sicilian sumac, tanning/dye source)."
+    },
+    {
+      "plants_json_id": "rapeseed",
+      "zim_species_name": "brassica-napus",
+      "match_confidence": "manual",
+      "verified_by": "",
+      "notes": "Common name 'rapeseed' / 'canola' maps to Brassica napus."
+    },
+    {
+      "plants_json_id": "ramie",
+      "zim_species_name": "boehmeria-nivea",
+      "match_confidence": "manual",
+      "verified_by": "",
+      "notes": "Common name 'ramie' maps to Boehmeria nivea (Chinese grass, fiber source)."
+    }
+  ],
+  "unmatched_species": [
+    {
+      "plants_json_id": "cassava",
+      "scientific_name": "Manihot esculenta",
+      "notes": "No exact 'manihot-esculenta' in ZIM. Only hybrid 'manihot-esculenta-x-glaziovii' found. Needs Wikimedia Commons fallback."
+    },
+    {
+      "plants_json_id": "rubia-tinctorum",
+      "scientific_name": "Rubia tinctorum",
+      "notes": "Not found in ZIM. Other Rubia species exist (rubia-cordifolia, rubia-peregrina) but not tinctorum. Needs Wikimedia Commons fallback."
+    },
+    {
+      "plants_json_id": "schinopsis-lorentzii",
+      "scientific_name": "Schinopsis lorentzii",
+      "notes": "Not found in ZIM. No Schinopsis species in archive. Needs Wikimedia Commons fallback."
+    },
+    {
+      "plants_json_id": "ulmus-minor",
+      "scientific_name": "Ulmus minor",
+      "notes": "Not found in ZIM. Other Ulmus species exist (ulmus-glabra, ulmus-procera, ulmus-campestris) but not minor. Needs Wikimedia Commons fallback."
+    },
+    {
+      "plants_json_id": "artemisia-douglasiana",
+      "scientific_name": "Artemisia douglasiana",
+      "notes": "Not found in ZIM. Many other Artemisia species exist but not douglasiana. Needs Wikimedia Commons fallback."
+    },
+    {
+      "plants_json_id": "artemisia-inculta",
+      "scientific_name": "Artemisia inculta",
+      "notes": "Not found in ZIM. Rare North African species. Needs Wikimedia Commons fallback."
+    },
+    {
+      "plants_json_id": "botryodiscia",
+      "scientific_name": "Botryodiscia tetrandra",
+      "notes": "Not found in ZIM. Obscure monotypic genus in Menispermaceae. Needs Wikimedia Commons fallback."
+    },
+    {
+      "plants_json_id": "musa-textilis",
+      "scientific_name": "Musa textilis",
+      "notes": "Not found in ZIM (abacá/Manila hemp). Musa × paradisiaca exists but textilis does not. Needs Wikimedia Commons fallback."
+    }
+  ]
+}

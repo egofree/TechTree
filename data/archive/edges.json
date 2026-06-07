@@ -95,20 +95,20 @@
       "flow": "primary"
     },
     {
-      "from": "machine-tools.casting",
+      "from": "metals.casting",
       "to": "metals.iron-steel",
       "type": "material",
       "flow": "primary"
     },
     {
       "from": "machine-tools.iterative-bootstrap",
-      "to": "machine-tools.casting",
+      "to": "metals.casting",
       "type": "tool",
       "flow": "primary"
     },
     {
       "from": "measurement.precision-metrology",
-      "to": "machine-tools.casting",
+      "to": "metals.casting",
       "type": "tool",
       "flow": "primary"
     },

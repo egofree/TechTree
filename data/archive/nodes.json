@@ -329,7 +329,7 @@
       }
     },
     {
-      "id": "machine-tools.casting",
+      "id": "metals.casting",
       "name": "Metal Casting",
       "level": "capability",
       "parent": "machine-tools",

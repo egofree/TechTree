@@ -85,7 +85,7 @@ tier_1_industrial:
   - id: machine-tools.forming
     name: Basic metalworking tools
     domain: machine-tools
-  - id: machine-tools.casting
+  - id: metals.casting
     name: Charcoal foundry operational
     domain: machine-tools
   - id: machine-tools.iterative-bootstrap
@@ -392,7 +392,7 @@ pathways:
       - metals.iron-steel
       - metals.copper-bronze
       - machine-tools.iterative-bootstrap
-      - machine-tools.casting
+      - metals.casting
       - energy.steam-power
       - energy.electricity
       - chemistry.acids

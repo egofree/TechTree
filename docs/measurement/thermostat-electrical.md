@@ -187,6 +187,43 @@ Electrical thermostats use electrical properties of materials (thermoelectric vo
 - Not proportional; on/off switching only
 
 
+## Scaling Notes
+
+Electrical thermostat technologies scale from individual sensor fabrication to automated production:
+
+- **Thermocouple production**: Wire drawing of thermocouple alloys (Chromel, Alumel, Constantan, Iron) from cast ingots. Junction welding by capacitance-discharge or TIG. Sheathing in stainless steel or Inconel tubes with MgO insulation. Pilot scale: 10-50 junctions/day by hand. Production scale: 500-2000/day with automated welding and sheathing.
+
+- **RTD production**: Platinum wire winding (0.05 mm) onto ceramic or glass mandrels. Requires clean-room conditions for precision grades. Hand-wound RTDs achieve ±0.1°C at calibration points. Machine-wound production RTDs achieve ±0.3°C. The platinum wire cost dominates — a Pt100 element uses 0.05 mm wire worth ~$2-5 in raw platinum.
+
+- **Reed switch production**: Glass-encapsulated magnetic reed switches require glass-to-metal sealing in inert gas atmosphere. The ferromagnetic reed contacts must be plated with rhodium or ruthenium for reliable switching. Production scale: 10,000+ switches/day with automated sealing equipment.
+
+## Quality Control
+
+1. **Thermocouple verification**: Check each junction by immersing in ice-water slurry (0.0°C reference) and boiling water (100.0°C at sea level). Output must be within ±1.0°C of standard tables for the thermocouple type. Verify that both wires are the correct alloy by measuring the magnetic response (Alumel is magnetic, Chromel is not for Type K).
+
+2. **RTD calibration**: Measure resistance at 0°C (100.00 Ω for Pt100, 1000.0 Ω for Pt1000) and 100°C (138.51 Ω for Pt100). The ratio R(100)/R(0) must equal 1.3851 ± 0.001 for Class B, ± 0.0003 for Class A. Any deviation indicates platinum purity problems or wire strain.
+
+3. **Reed switch testing**: Verify pull-in temperature by slowly heating in a controlled bath. Contact resistance must be below 100 mΩ when closed. Open-circuit resistance must exceed 10 MΩ when open. Cycle the switch 1000 times and verify trip temperature has not drifted more than ±1°C.
+
+## Variations and Alternatives
+
+| Thermostat Type | Temp Range | Accuracy | Response Time | Best For |
+|----------------|-----------|----------|---------------|----------|
+| Type K thermocouple | -200 to +1300°C | ±1-2°C | 0.1-1 second | General industrial, furnaces, engines |
+| Type J thermocouple | -40 to +750°C | ±1-2°C | 0.1-1 second | Lower cost, reducing atmospheres |
+| Type T thermocouple | -200 to +350°C | ±0.5-1°C | 0.1-1 second | Cryogenic, food processing |
+| Pt100 RTD (Class A) | -200 to +650°C | ±0.15-0.35°C | 1-10 seconds | Precision industrial, pharmaceuticals |
+| Pt1000 RTD | -200 to +650°C | ±0.3-0.6°C | 1-10 seconds | HVAC, 2-wire applications (higher base resistance) |
+| Reed switch thermostat | -40 to +150°C | ±1-3°C | 0.5-2 seconds | Simple on/off, HVAC, appliances |
+| Bimetallic strip | -50 to +400°C | ±2-5°C | 5-30 seconds | Safety cutoffs, simple control |
+
+## See Also
+
+- **[Thermostats Overview](thermostat.md)**: Parent overview of all thermostat types
+- **[Mechanical Thermostats](thermostat-mechanical.md)**: Bimetallic and rod-and-tube types
+- **[Electronic Thermostats](thermostat-electronic.md)**: Thermistor and IC based
+- **[Advanced Thermostats](thermostat-advanced.md)**: SMA, quartz, and IR types
+
 ## Troubleshooting
 
 | Problem | Probable Cause | Solution |

@@ -192,5 +192,11 @@ Walnut trees produce juglone, an allelopathic compound toxic to many plants (esp
 - Data sourced from Food Plants International, Wikipedia, and iNaturalist via the Edible Plant Database (ZIM)
 - Plants for a Future (pfaf.org) — supplementary cultivation and use data
 
+Walnut trees produce juglone, a compound that inhibits the growth of many other plant species (allelopathy). This limits companion planting options but reduces weed competition under the tree canopy. Walnut wood is highly valued for furniture and gunstocks due to its rich brown color, dimensional stability, and shock resistance. The green husk surrounding the nut produces a brown-black dye used in textile coloring and wood staining.
+Walnut trees begin producing nuts at 4-6 years from grafted stock, reaching full production at
+15-20 years. A mature tree yields 20-50 kg of nuts per year, each containing approximately 50%
+oil by weight. Walnut oil is valued for woodworking as a finishing oil and for culinary use
+as a premium salad and cooking oil with a distinctive nutty flavor.
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

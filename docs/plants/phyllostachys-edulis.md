@@ -91,6 +91,25 @@ Primary outputs: `structural_culms` for construction and scaffolding, `fiber` fo
 | Drying time | 4-8 weeks | Air dried, covered |
 | Optimal rainfall | 1,000-2,000 mm/year | Temperate/subtropical |
 | Hardiness | -18°C | Cold-tolerant for bamboo |
+| Culm growth rate | 30-100 cm/day | During peak emergence period |
+| Rhizome spread rate | 1-3 m/year | Without containment barriers |
+| Edible shoot yield | 2-5 tonnes/ha/year | From mature grove |
+
+### Bamboo Construction Details
+
+Bamboo's hollow tubular structure gives it an exceptional strength-to-weight ratio. The fiber distribution in the culm wall is optimized by nature: dense fibers near the outer surface resist compression and bending, while the interior is lighter parenchyma tissue. This gradient structure is difficult to replicate in manufactured materials.
+
+The fish-mouth joint (cutting a V-shaped notch into one culm so it cradles another) is the fundamental bamboo connection. The notch must follow the curve of the cradled culm precisely for maximum contact area. Lashing with natural fiber cord, wire, or split bamboo strips secures the joint. For permanent structures, bolt connections through drilled holes provide the strongest joints — the hollow interior allows through-bolts with washers on both sides.
+
+Bamboo splits naturally when nailed because the fibers run longitudinally. Always pre-drill holes before using nails or screws, or use lashing and bolting techniques instead. For flooring and wall panels, split bamboo strips are woven into mats that can be plastered with mud, lime, or cement for solid wall construction.
+
+### Preservation and Longevity
+
+Untreated bamboo is attacked by powderpost beetles ( genus *Dinoderus*) within months of harvest, reducing structural integrity. The borate treatment method (soaking in 5-10% sodium borate solution for 7-14 days) is the most effective low-technology preservation method. Borate salts are toxic to insects and fungi but have low mammalian toxicity, making treated bamboo safe for indoor use.
+
+Alternative preservation methods: smoking culms over a fire (deposits creosote compounds that deter insects), soaking in water for 4-6 weeks (leaches out starches that attract beetles), and lime washing (painting with slaked lime solution). These methods are less effective than borate treatment but require no imported chemicals.
+
+Harvest timing affects natural durability. Culms cut during the dry season (when starch content is lowest) are inherently more resistant to insect attack than those cut during the growing season. A simple test for harvest timing: cut a thin cross-section and apply iodine solution. Dark blue staining indicates high starch content — wait longer before harvesting.
 
 ## Safety Considerations
 
@@ -143,6 +162,8 @@ Primary outputs: `structural_culms` for construction and scaffolding, `fiber` fo
 - **Bambusa vulgaris**: Common tropical bamboo. Widely available but lower structural quality than moso.
 - **Timber**: Scots pine, oak, or ash provide alternative structural materials in regions where bamboo cannot grow. Slower to produce but longer-lasting if kept dry.
 - **Engineered bamboo**: Laminated bamboo panels and beams produced by splitting, planing, gluing, and pressing bamboo strips. Superior dimensional stability and strength. Requires adhesive technology.
+- **Bamboo charcoal**: Bamboo makes excellent charcoal with a fine pore structure. It is also processed into activated carbon for water filtration, producing a higher surface area than wood-based activated carbon.
+- **Bamboo textile (rayon)**: At higher technology levels, bamboo cellulose can be dissolved and regenerated as rayon fiber. The process requires carbon disulfide and sodium hydroxide. The resulting fabric is soft, moisture-wicking, and antibacterial.
 
 ## References
 
@@ -151,6 +172,30 @@ Primary outputs: `structural_culms` for construction and scaffolding, `fiber` fo
 - [Scots Pine](./pinus-sylvestris.md) — comparison structural timber
 - [Paper Mulberry](./broussonetia-papyrifera.md) — comparison fiber/paper source
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Bamboo in Earthquake-Resistant Construction
+
+Bamboo's combination of high tensile strength and flexibility makes it exceptionally resistant
+to earthquake forces. Unlike rigid masonry or concrete structures that crack under lateral
+loads, bamboo buildings flex and return to their original position. This property has been
+demonstrated in earthquake-prone regions of Colombia and the Philippines, where bamboo
+structures have survived earthquakes that destroyed surrounding concrete buildings.
+
+The key to earthquake-resistant bamboo construction is flexible joinery. Lashed connections
+allow the building frame to move without breaking, dissipating earthquake energy through
+joint rotation rather than member failure. Rigid bolted or glued connections are actually
+less desirable in seismic zones because they concentrate stress at the joint.
+
+### Bamboo Charcoal and Activated Carbon
+
+Bamboo charcoal is produced by pyrolyzing culms in an earth-covered pit or retort at 400-600°C.
+The charcoal has a fine pore structure and very high surface area, making it more effective
+than wood charcoal for water filtration. Bamboo activated carbon (treated with steam at
+800-1000°C) has a surface area of 300-500 m²/g, suitable for filtering organic contaminants,
+chlorine, and heavy metals from drinking water. This application makes bamboo charcoal a
+valuable material for water purification in a civilization bootstrap scenario.
+
+Bamboo's annual renewal capacity — producing new culms each year from the same root system — gives it a significant sustainability advantage over timber trees that require decades to replace. A managed bamboo grove produces structural material continuously without replanting, making it one of the most renewable structural materials available. This perpetual productivity aligns well with the needs of a civilization that must maintain infrastructure without depleting natural resources.
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

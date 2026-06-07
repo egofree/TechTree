@@ -94,6 +94,24 @@ Primary outputs: `blue_dye` (indigotin) for textiles, `green_manure` for soil im
 | Alkali (wood ash lye) pH | 10-11 | For vat |
 | Dye fastness (light) | Good to very good | For cotton and wool |
 | Dye fastness (wash) | Good | Indigo bonds mechanically, not chemically |
+| Nitrogen fixation per hectare | 40-80 kg/year | As a legume green manure benefit |
+| Plant density for dye crop | 100,000-200,000/ha | Dense planting for leaf production |
+
+### Dye Extraction Processing Details
+
+The extraction of indigotin from indigo leaves is a biochemical process in two stages: enzymatic hydrolysis of indican to indoxyl, followed by air oxidation of indoxyl to indigotin. The fermentation step (steeping leaves in water for 12-24 hours) activates plant enzymes that convert indican to indoxyl and glucose. Temperature control is important: below 20°C, fermentation is slow; above 40°C, the enzymes denature. The optimal range is 25-35°C.
+
+The oxidation step (beating/churning the fermentation liquor) introduces atmospheric oxygen that converts water-soluble indoxyl to insoluble indigotin particles. Vigorous beating for 15-30 minutes maximizes particle formation. The indigotin particles are heavier than water and settle over 4-8 hours. The settled sludge is approximately 20-40% indigotin by weight, with the remainder being plant proteins, minerals, and other organic matter.
+
+Extraction efficiency from leaf to dried paste is typically 20-40% of theoretical maximum. Losses occur during fermentation (incomplete hydrolysis), oxidation (indoxyl lost to side reactions), settling (fine particles remain suspended), and drying (surface oxidation degrades some product). Experienced dyers achieve 30-40% recovery; beginners may achieve only 15-20%.
+
+### Vat Chemistry in Practice
+
+The indigo vat is a reducing environment maintained by bacterial fermentation. The bacteria consume the reducing agent (bran, molasses) and produce hydrogen, which reduces the insoluble blue indigotin to soluble yellow-green leuco-indigo. The alkali (wood ash lye at pH 10-11) maintains conditions where leuco-indigo is stable and soluble.
+
+A healthy vat has several indicators: the surface shows an iridescent coppery-blue film (oxidized indigo at the air-water interface), the liquid beneath is clear yellow-green (reduced leuco-indigo), and the vat smells yeasty and slightly sweet, not putrid. A putrid smell indicates wrong bacteria and the vat should be refreshed with new reducing agent.
+
+Temperature maintenance is critical in cold climates. A traditional method is to partially bury the vat in the ground, which provides insulation, or to build a low fire beneath the vat. The vat must stay between 30-45°C for optimal bacterial activity. Below 25°C, reduction stops; above 50°C, bacteria die.
 
 ## Safety Considerations
 
@@ -149,6 +167,11 @@ Primary outputs: `blue_dye` (indigotin) for textiles, `green_manure` for soil im
 - **Asian indigo** (*Persicaria tinctoria*): Japanese indigo, a temperate annual. Contains similar indican. Easier to process in cool climates.
 - **Indigo Carmine**: Synthetic indigo (produced from petroleum) has largely replaced natural indigo since 1897. Chemically identical but much cheaper.
 - **Direct blue dyes**: Some berries (indigo, elderberry) produce blue colorants, but none match indigo's light-fastness and wash-fastness.
+- **Logwood** (*Haematoxylum campechianum*): Produces a deep blue-black dye with iron mordant. Not a true blue but useful for dark shades on textiles.
+
+### Historical Significance
+
+Indigo was one of the most valuable trade commodities in human history, driving colonial exploitation and trade routes for millennia. The plant's ability to produce a permanent, fade-resistant blue made it irreplaceable for textile dyeing until synthetic indigo was developed in 1897. For civilization bootstrapping, indigo provides the most durable blue dye available from any natural source, critical for marking textiles, creating visual codes, and producing textiles that resist fading during outdoor use.
 
 ## References
 
@@ -156,6 +179,24 @@ Primary outputs: `blue_dye` (indigotin) for textiles, `green_manure` for soil im
 - [Madder](./rubia-tinctorum.md) — red dye plant for comparison
 - [Woad](./isatis-tinctoria.md) — temperate-zone blue dye alternative
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Indigo as a Trade Commodity
+
+Natural indigo was one of the most valuable commodities in world trade for over 3,000 years.
+Indigo cakes were compact, non-perishable, and extremely concentrated (20-40% indigotin),
+making them ideal for long-distance trade. A single kilogram of quality indigo paste can dye
+10-20 kg of cotton fiber a deep, permanent blue.
+
+The indigo trade connected India, Southeast Asia, West Africa, and the Americas through
+commercial networks that predated European colonial expansion. Indian indigo was exported
+to Rome, the Islamic world, and China. West African indigo was traded across the Sahara.
+Pre-Columbian American indigo (*Indigofera suffruticosa*) was used throughout Mesoamerica
+and the Andes. This global distribution means that indigo-producing plants and knowledge
+are available in virtually every tropical region.
+
+For civilization bootstrapping, indigo provides the most permanent, fade-resistant blue dye
+available from any natural source. Combined with madder (red) and weld (yellow), a complete
+primary-color dye palette is achievable from three cultivated plants.
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

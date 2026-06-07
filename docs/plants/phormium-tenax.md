@@ -85,6 +85,21 @@ Primary outputs: `plant_fiber` for cordage, weaving, and thatching.
 | Planting spacing | 1.0-1.5 m apart | Depends on soil fertility |
 | Hardiness | -5°C | Tolerates light frost |
 | Drying time | 1-3 days | In shade or partial sun |
+| Fiber moisture content (dry) | 10-12% | At standard conditions |
+| Plant productive lifespan | 20-50 years | From a single planting |
+| Nectar sugar concentration | 15-25% | From flowers, edible |
+
+### Fiber Processing Details
+
+The scraping (hāngere) technique is the critical skill in Phormium processing. The scraper must be held at a low angle (15-20°) to the leaf surface and drawn firmly from one end to the other. Too steep an angle cuts the fibers; too shallow misses the pulp. Traditional Maori scrapers were made from mussel shells, which provide the ideal combination of blunt edge and smooth surface. A dull metal knife or a piece of bone works equally well.
+
+The muka (softened fiber) preparation involves beating the scraped fibers with a wooden mallet on a flat stone. The beating separates the fiber bundles into individual strands and softens them for hand-spinning. The key is to beat firmly but not crush: excessive force breaks fibers, reducing their length and strength. The rhythm is a steady tapping, rotating the fiber bundle between each strike to work all sides evenly.
+
+For the strongest cordage, fibers should be twisted while still slightly damp (10-15% moisture). Dry fibers are brittle and break during twisting. After plying, the finished cordage should be soaked in water for 30 minutes and hung to dry under tension, which sets the twist and pre-shrinks the cord.
+
+### Traditional Maori Applications
+
+Maori used Phormium fiber for an extraordinary range of products: fine cloaks (kahu) woven from soft muka, coarse sleeping mats, fishing nets and lines, rope for fishing and construction, sandals for rough terrain, baskets for food gathering, and sails for canoes. The finest cloaks used muka as fine as spun silk, woven into intricate patterns with feather and dog-skin decorations. The plant also provided nectar from its flowers as a food sweetener, and the leaf strips (without scraping) were used directly for basket weaving and thatch roofing.
 
 ## Safety Considerations
 
@@ -136,6 +151,8 @@ Primary outputs: `plant_fiber` for cordage, weaving, and thatching.
 - **True flax** (*Linum usitatissimum*): Bast fiber from stems, producing linen. Finer and softer than Phormium fiber, suitable for clothing textiles. Annual crop requiring replanting.
 - **Sisal** (*Agave sisalana*): Similar leaf fiber extraction process. Stronger fiber but from an arid-zone succulent. Better for rope; worse for fine weaving.
 - **Abaca** (*Musa textilis*): Stronger fiber, tropical only. Saltwater-resistant. The marine cordage standard.
+- **Yucca** (*Yucca spp.*): North American leaf fiber plant. Similar extraction process. Produces cordage of moderate strength. Available in arid North American regions.
+- **Raffia palm** (*Raphia farinifera*): Tropical African palm producing long, strong leaf fiber. Used for rope, baskets, and textile weaving in sub-Saharan Africa.
 
 ## References
 
@@ -144,6 +161,42 @@ Primary outputs: `plant_fiber` for cordage, weaving, and thatching.
 - [Abaca](./musa-textilis.md) — comparison tropical fiber plant
 - [Agave](./agave.md) — sisal, related leaf fiber plant
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Phormium in Landscape and Erosion Control
+
+New Zealand flax is widely planted for erosion control on coastal cliffs, stream banks, and
+exposed hillsides. The dense root system binds soil effectively, and the tough, wind-resistant
+leaves provide permanent ground cover. Plant on 1-meter spacing for erosion control; closer
+spacing (0.5 m) for rapid establishment on severely eroded sites.
+
+The plant tolerates salt spray, making it useful for coastal stabilization. It also handles
+waterlogged soils that kill most other plants, thriving in wetland margins and along drainage
+channels. For rehabilitation of disturbed sites (road cuts, mine tailings), Phormium provides
+quick establishment and long-term stability with minimal maintenance requirements.
+
+### Modern Fiber Applications
+
+At higher technology levels, Phormium fiber has been evaluated for composite reinforcement.
+The fiber's high strength-to-weight ratio and low density make it a candidate for bio-composite
+materials used in automotive panels, building materials, and packaging. Phormium fiber composites
+show flexural strength comparable to glass fiber composites at lower environmental cost.
+
+The fiber also produces high-quality paper pulp, particularly for specialty papers requiring
+exceptional tear strength. The long fiber length (60-200 cm bundles, individual cells 5-15 mm)
+contributes to paper with very high tear resistance relative to basis weight.
+
+Phormium fiber was exported from New Zealand to Britain and Australia in the 19th century for rope and textile production. The fiber's strength and saltwater resistance made it competitive with abaca for marine cordage. Phormium plantations were established in Australia, South Africa, and the Azores. The industry declined in the early 20th century with the rise of synthetic fibers, but the plant remains an important ornamental and ecological species in its native range.
+
+### New Zealand Flax Summary
+
+This species represents an important component of a diversified food production system.
+No single crop provides complete nutrition, and dietary diversity is essential for human
+health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
+vegetables, and nuts to ensure adequate intake of calories, protein, vitamins, and minerals.
+
+The crop's specific growing requirements (soil type, rainfall, temperature range, and
+growing season length) determine its geographic suitability. Matching crops to local
+conditions is more important than attempting to grow unsuitable crops in marginal
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

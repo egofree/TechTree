@@ -185,6 +185,18 @@ Key design insight: 304L stainless steel's thermal conductivity drops from 16 W/
 
 Carbon steel and ordinary plastics become brittle at cryogenic temperatures and must never be used in cryogenic service. Only austenitic stainless steels (304L, 316L, 321), certain aluminum alloys (6061, 1100), copper, brass, PTFE, and fiberglass composites (G-10, G-11) remain ductile at 77 K and below.
 
+## Scaling Notes
+
+Dewar production scales with vacuum technology capability:
+
+- **Laboratory scale** (1-10 L): Hand-fabricated from commercially available stainless steel tubing and sheet. Manual TIG welding of inner and outer shells. Vacuum pumping through a single port. Perlite or multilayer insulation hand-wrapped. One skilled welder + one vacuum technician. Production: 1-2 dewars per week. This scale supports laboratory and small-scale cryogenic applications.
+
+- **Industrial scale** (50-500 L): CNC-formed shell components. Automated TIG welding with orbital weld heads. Multiple vacuum ports with valves. Machine-wrapped multilayer insulation (20-40 layers). Integrated liquid level indicators and pressure relief systems. Production: 5-20 dewars per month. This scale supplies industrial gas distribution and MRI magnet cooling.
+
+- **Transport scale** (1,000-50,000 L): Large-scale vacuum-insulated tanks for liquid oxygen, nitrogen, and natural gas transport. Requires specialized welding fixtures, vacuum pumping systems capable of achieving <10⁻³ Pa in large volumes, and extensive safety systems. Production: 1-5 units per month.
+
+**Critical bottleneck**: Vacuum quality. A dewar's hold time depends critically on vacuum level. Achieving <10⁻² Pa in a large volume requires multi-stage pumping (roughing pump → diffusion/turbomolecular pump) and bake-out to remove adsorbed water from internal surfaces. Poor vacuum is the primary cause of excessive boil-off in new dewars.
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Cryogenics](./index.md) • [All Domains](../index.md)*

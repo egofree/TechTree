@@ -208,6 +208,57 @@ Pump (gear pump: 10-200 bar, or piston pump: 200-400 bar) feeds control valves (
 | Cutting tool wears rapidly despite flood coolant | Coolant not reaching cutting zone, or wrong fluid type for operation | Reposition nozzle to aim directly at chip-tool interface (within 5 cm); increase flow to 10-20 L/min for heavy cuts; switch to straight oil with EP additives for difficult materials |
 | Oil filter clogs rapidly after oil change | Contaminated reservoir (sludge, wear particles, or rust) not cleaned during change | Flush reservoir with kerosene or fresh oil before refilling; install bypass filtration (10-25 μm) on return line; sample oil for particle count (target <20/18/15 ISO 4406) |
 
+## Scaling Notes
+
+Mineral oil lubricant production scales with petroleum refining capacity:
+
+- **Pilot scale** (1-10 tonnes/year): Small batch still for vacuum distillation of lubricant fractions. Hand-blending of viscosity grades. Acid treating in glass-lined vessels. Adequate for a single workshop or small factory. Quality is variable; adequate for non-critical applications. One operator with basic chemistry training.
+- **Commercial scale** (100-1,000 tonnes/year): Continuous vacuum distillation column with multiple side-draws for different viscosity grades. Solvent extraction unit (furfural or phenol) for aromatic removal. Solvent dewaxing unit (MEK) for pour point control. Blending facility with additive injection. This scale supplies a regional industrial economy. 10-20 workers. Product quality approaches modern standards.
+- **Industrial scale** (10,000+ tonnes/year): Fully integrated refinery with dedicated lube oil train. Hydrofinishing (catalytic hydrogenation at 280-340°C, 50-100 bar H₂) for final quality improvement. Automated blending and filling lines. Quality control laboratory with viscometers, flash point testers, and spectrometric analysis. This scale supplies a national market with consistent, specification-grade lubricants.
+
+**Critical bottleneck**: Solvent supply for extraction and dewaxing. Furfural is produced from oat hulls or corn cobs (agricultural waste). MEK is produced from butylene (petroleum derivative) or fermentation. Without these solvents, acid treating (sulfuric acid) is the fallback, but it produces lower-quality oil and large quantities of acid sludge that must be disposed of. Hydrofinishing requires high-pressure hydrogen (50-100 bar), which in turn requires a hydrogen production facility (steam methane reforming or electrolysis).
+
+**Additive production**: ZDDP (zinc dialkyldithiophosphate) requires zinc, phosphorus, and organic alcohols. Antioxidants (BHT, aromatic amines) require organic synthesis capability. Rust inhibitors (calcium sulfonates) require sulfonic acid production. Additive packages are typically 5-15% of the finished oil by volume but represent a disproportionate share of the chemical complexity.
+
+## Quality Control
+
+Mineral oil lubricant quality is verified by standardized tests:
+
+1. **Kinematic viscosity** (ASTM D445): Measure flow time through a calibrated glass capillary at 40°C and 100°C. Report in centistokes (cSt). Must fall within ±10% of the ISO VG nominal value (e.g., ISO VG 68 = 61.2-74.8 cSt at 40°C). This is the most fundamental specification test.
+
+2. **Viscosity index** (ASTM D2270): Calculated from viscosities at 40°C and 100°C. Higher VI means less viscosity change with temperature. Conventional mineral oil: VI 95-105. Solvent-refined: VI 80-100. Hydrotreated: VI 100-130. With VI improvers: VI 130-200+. Low VI oils thin out excessively at high temperature, reducing load capacity.
+
+3. **Flash point** (ASTM D92, Cleveland Open Cup): Minimum flash point ensures fire safety. ISO VG 32: minimum 180°C. ISO VG 68: minimum 200°C. ISO VG 220: minimum 220°C. Below-spec flash point indicates contamination with volatile fractions or light ends.
+
+4. **Pour point** (ASTM D97): Lowest temperature at which the oil flows. Paraffinic oils: -10 to -15°C. Naphthenic oils: -30 to -40°C. Dewaxed paraffinic oils: -20 to -30°C. Must be at least 10°C below the lowest expected startup temperature.
+
+5. **Acid number** (ASTM D974): Measures acidic oxidation products. Fresh mineral oil: <0.05 mg KOH/g. In-service oil: replace when acid number exceeds 1.0-2.0 mg KOH/g (indicates advanced oxidation).
+
+6. **Particle count** (ISO 4406): Contamination level reported as three numbers (e.g., 16/14/11) representing particle counts at 4, 6, and 14 μm. Hydraulic systems: target 16/14/11 or cleaner. Turbine oils: target 18/16/13. General machine oils: 20/18/15 acceptable.
+
+7. **Quick field tests**: (a) Visual inspection: fresh mineral oil is clear and pale yellow. Dark color indicates oxidation. Cloudy appearance indicates water contamination. (b) Crackle test: place a drop on a hot plate at 150°C. Bubbling/crackling indicates water >0.1%. (c) Blotter test: place a drop on filter paper. A uniform spread indicates normal oil; a dark center ring indicates soot or oxidation products.
+
+## Variations and Alternatives
+
+| Lubricant Type | Viscosity at 40°C | Temp Range | Oxidation Life | Cost | Best For |
+|---------------|-------------------|------------|----------------|------|----------|
+| Animal fat (tallow) | Semi-solid to ~30 | 10-60°C | 6-12 months | Very low | Early bootstrap, slow bearings |
+| Vegetable oil (rapeseed) | 30-40 cSt | -10 to 80°C | 1-2 years | Low | General-purpose before petroleum |
+| Mineral oil (conventional) | 22-460 cSt | -10 to 80°C | 3-5 years | Moderate | General industrial use |
+| Mineral oil (hydrotreated) | 22-460 cSt | -20 to 90°C | 5-8 years | Higher | Extended drain, demanding service |
+| PAO synthetic | 32-460 cSt | -50 to 175°C | 8-15 years | High | Extreme conditions, long drain |
+| Ester synthetic | 32-100 cSt | -40 to 200°C | 5-10 years | High | Biodegradable, jet engines |
+| Water-glycol hydraulic | 32-46 cSt | -20 to 60°C | 1-2 years | Moderate | Fire-risk locations |
+
+## Safety & Hazards
+
+- **Oil mist inhalation**: Machining operations with flood coolant generate airborne oil mist (1-5 μm diameter). Chronic inhalation causes lipoid pneumonia. Exposure limit: 5 mg/m³ total particulate (OSHA PEL). Use mist collectors or enclosures on machines running flood coolant.
+- **Skin contact and dermatitis**: Prolonged skin contact with mineral oil removes natural skin oils, causing defatting dermatitis. Soluble oil emulsions are worse due to alkaline additives (pH 8.5-9.5) and biocides. Wear nitrile gloves. Apply barrier cream before shift.
+- **Used oil carcinogenicity**: Repeated skin contact with used motor oil is associated with increased skin cancer risk (IARC Group 1 for untreated mineral oils). PAH contamination accumulates during service. Wear gloves, wash thoroughly.
+- **Hydraulic injection injury**: Hydraulic fluid at 200-400 bar can inject through skin from a pinhole leak, causing catastrophic tissue destruction. Never search for hydraulic leaks with bare hands; use cardboard or paper. If injection occurs, seek emergency surgery immediately.
+- **Oil fires**: NEVER use water on an oil fire — it flashes to steam and scatters burning oil. Extinguish with sand, fire blanket, or smothering. Keep fire suppression materials near oil heating operations.
+- **Environmental disposal**: Used mineral oil is an environmental contaminant. Collect in sealed containers. Re-refine by vacuum distillation. Never dump on ground or in waterways.
+
 ## See Also
 
 - **[Lubricants Overview](lubricants.md)**: Theory, selection guide, and cross-cutting topics

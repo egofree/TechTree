@@ -193,5 +193,9 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 - Data sourced from Food Plants International, Wikipedia, and iNaturalist via the Edible Plant Database (ZIM)
 - Plants for a Future (pfaf.org) — supplementary cultivation and use data
 
+Lentils are among the most drought-tolerant grain legumes, producing reliable yields with as little as 250-300 mm of growing-season rainfall. The crop fixes 40-90 kg of nitrogen per hectare through rhizobial symbiosis, making it an excellent rotation crop before nitrogen-demanding cereals. Cooking time varies by variety: red lentils cook in 15-20 minutes, while green and brown varieties require 30-45 minutes.
+
+Lentils are self-pollinating with a low outcrossing rate (less than 0.5%), making seed saving straightforward and reliable. Selected varieties breed true from seed, allowing communities to maintain and improve their own lentil germplasm without specialized breeding programs. This genetic stability makes lentils an excellent crop for seed-saving traditions and local adaptation.
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

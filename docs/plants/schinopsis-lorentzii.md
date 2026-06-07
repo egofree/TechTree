@@ -82,6 +82,23 @@ Primary outputs: `tannin_wood` for leather tanning, `extremely_hard_timber` for 
 | Tannin extract concentration | 40-60% solids | After evaporation |
 | Leather tanning time | 2-6 weeks | For heavy sole leather |
 | Leather color | Red-brown | Distinctive quebracho shade |
+| Tree height at maturity | 15-25 m | 80-120 years |
+| Annual rainfall in native range | 500-1,000 mm | Semi-arid Gran Chaco |
+| Tannin extraction efficiency | 70-85% | Hot water counter-current |
+
+### Tannin Extraction and Processing Details
+
+Quebracho tannin extraction is an industrial process that requires significant equipment. The heartwood is so dense (1,200-1,300 kg/m³) that hand-chipping is impractical. Mechanical chippers powered by water wheels or engines reduce the heartwood to 5-20 mm chips. The chips are then leached in a counter-current system of 6-8 heated vats: fresh chips enter the vat with the weakest tannin liquor and progress through progressively stronger solutions as the tannin is extracted, while fresh hot water enters the vat with the most exhausted chips.
+
+The extracted tannin liquor contains 5-15% dissolved solids. This is concentrated by evaporation to 40-60% solids for liquid extract, or spray-dried to a powder. The resulting quebracho extract is one of the most efficient tanning agents available: 1 kg of extract tans approximately 3-5 kg of wet hide into leather.
+
+Quebracho tannins are classified as "sweet" (low astringency) compared to other condensed tannins, meaning they penetrate hides faster and produce smoother leather. Adding sodium sulfite (2-3% of tannin weight) during extraction further reduces astringency and improves the solubility of the extract, a process called "sulfonation" that was developed to make quebracho tannin more commercially versatile.
+
+### Sustainability Concerns
+
+Quebracho forests in the Gran Chaco have been heavily exploited since the 1880s. Original forest cover has been reduced by over 50%. The 80-120 year growth period means that harvested trees cannot be replaced within a human lifetime. Sustainable management requires selective felling of mature trees, retention of seed trees, and protection of regeneration from grazing and fire.
+
+For civilization bootstrapping outside the Gran Chaco, quebracho is not a practical option. It cannot be cultivated in meaningful timeframes. Where access to existing quebracho forests exists, the resource should be managed as a strategic reserve for leather tanning, with black wattle or oak bark used as the primary tannin source for routine needs.
 
 ## Safety Considerations
 
@@ -134,6 +151,8 @@ Primary outputs: `tannin_wood` for leather tanning, `extremely_hard_timber` for 
 - **White quebracho** (*Aspidosperma quebracho-blanco*): Related species, lower tannin content, used for timber rather than tannin.
 - **Black wattle** (*Acacia mearnsii*): Faster growing (7-10 years), 30-40% tannin in bark. The best plantation alternative to quebracho.
 - **Oak bark** (*Quercus robur*): 8-15% tannin, widely available in temperate zones. Lower yield but more accessible.
+- **Chestnut wood** (*Castanea sativa*): 8-12% tannin in wood chips. A significant European tannin source extracted from coppiced chestnut wood.
+- **Mimosa extract**: Trade name for black wattle (*Acacia mearnsii*) tannin extract. The most commercially important vegetable tannin after quebracho.
 
 ## References
 
@@ -141,6 +160,45 @@ Primary outputs: `tannin_wood` for leather tanning, `extremely_hard_timber` for 
 - [Black Wattle](./acacia-mearnsii.md) — faster-growing tannin alternative
 - [English Oak](./quercus-robur.md) — temperate tannin source
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Quebracho Timber Properties
+
+Beyond tannin extraction, quebracho wood is valued for its extreme hardness and density. At
+1,200-1,300 kg/m³, it is among the densest timbers in the world — too heavy for most construction
+uses but excellent for applications requiring extreme wear resistance. Quebracho is used for
+railway sleepers, bridge timbers, fence posts, and paving blocks where longevity under harsh
+conditions is paramount.
+
+The wood is so hard that it dulls steel tools within minutes of cutting. Traditional quebracho
+workers used fire-hardened tools and abrasion rather than cutting to shape the wood. Modern
+processing requires carbide-tipped saw blades and specialized grinding equipment. The wood's
+extreme density also makes it virtually immune to insect attack and fungal decay, lasting
+decades in ground contact without any treatment.
+
+Quebracho charcoal is among the hottest-burning charcoals available, making it valued for
+specialized metallurgical applications. The dense wood carbonizes to a hard, dense charcoal
+that burns at very high temperatures with minimal smoke.
+
+The quebracho industry in Argentina produced over 300,000 tonnes of tannin extract per year at its peak in the mid-20th century. The extract was shipped worldwide for leather tanning, with the majority going to European and North American tanneries. The industry employed thousands of workers in the Gran Chaco region, though working conditions were harsh and the forestry practices often unsustainable. Modern quebracho extraction operates under stricter sustainability requirements, with selective harvesting and mandatory reforestation programs aimed at maintaining the resource for future generations.
+
+### Quebracho Summary
+
+This species represents an important component of a diversified food production system.
+No single crop provides complete nutrition, and dietary diversity is essential for human
+health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
+vegetables, and nuts to ensure adequate intake of calories, protein, vitamins, and minerals.
+
+The crop's specific growing requirements (soil type, rainfall, temperature range, and
+growing season length) determine its geographic suitability. Matching crops to local
+conditions is more important than attempting to grow unsuitable crops in marginal
+environments. Where this species is well-adapted, it should be a priority for cultivation;
+where conditions are marginal, alternative species should be preferred.
+
+
+
+
+
+
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

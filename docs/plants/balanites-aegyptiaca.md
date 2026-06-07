@@ -196,5 +196,7 @@ The tree's thorny branches serve as a natural living fence when planted in dense
 The kernel cake left after oil extraction contains residual oil and protein, making it a useful livestock feed supplement in arid pastoral systems. The cake is bitter due to remaining saponins, but livestock accustomed to it will consume it readily. In some Sahelian communities, the kernel cake is mixed with other feed materials to dilute the bitterness. The seed hulls and fruit stones that remain after processing can be used as fuel, burning with a steady heat suitable for cooking fires in regions where firewood is scarce.
 
 Desert date trees begin flowering at 4 to 5 years of age, with small yellow-green blossoms appearing in clusters at the leaf axils. The flowers are insect-pollinated, primarily by bees and flies attracted to the nectar. In areas with low pollinator populations, hand pollination using a small brush can improve fruit set significantly. The tree is deciduous in the driest parts of its range, dropping leaves during the height of the dry season to reduce water loss, then flushing new growth with the return of rains.
+### Balanites aegyptiaca Summary
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

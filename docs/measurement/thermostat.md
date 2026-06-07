@@ -101,6 +101,42 @@ A civilization that cannot regulate temperature cannot produce consistent steel,
 | Thermistor thermostat relay chattering when temperature nears setpoint | Insufficient hysteresis in comparator feedback; electrical noise on thermistor voltage divider output | Increase feedback resistor from comparator output to non-inverting input (try 1-10 MΩ range — higher resistance = wider hysteresis); add 100 nF bypass capacitor across thermistor to filter noise; target 0.5-2°C hysteresis to prevent rapid cycling |
 | PID-controlled furnace oscillating ±5-10°C around setpoint instead of settling | PID tuning constants wrong: proportional gain (Kp) too high causing overshoot; integral time (Ki) too aggressive; derivative amplifying noise | Reduce Kp until oscillation amplitude halves; then reduce Ki (integral) to eliminate steady-state offset without causing oscillation; set Kd (derivative) low initially — derivative amplifies measurement noise; typical starting values for a 2 kW furnace: Kp=5, Ki=0.5/min, Kd=30 sec; tune empirically |
 
+## Bootstrap Progression
+
+The 22 thermostat types form a natural dependency chain that tracks the civilization's technological capability:
+
+**Stage 1 — Basic Metalworking (Years 5-15)**: Expansion rod and bimetallic strip thermostats require only metalworking — no glass, no electronics, no precision machining. An expansion rod thermostat (Type 1) is a brass or iron rod that protrudes through a furnace wall and pushes a damper lever as it heats and elongates. Accuracy is ±10-20°C, but this is enough to prevent kiln overshoot and regulate draft. Bimetallic strips (Types 3-4) improve accuracy to ±2-5°C and enable snap-action switching for appliance safety cutoffs. These are sufficient for steel production, pottery firing, and basic chemical heating.
+
+**Stage 2 — Glassworking & Fluid Handling (Years 15-25)**: Mercury tilt thermostats (Type 5) require glassblowing to seal mercury in a glass ampoule with electrical contacts. Liquid expansion and vapor pressure thermostats (Types 7-9) require capillary tubing and sealed bulb construction. These enable remote temperature sensing (sensor at the process, switch at a distance) and improved accuracy to ±0.5-3°C. Essential for chemical process control, refrigeration, and industrial oven regulation.
+
+**Stage 3 — Electrical Measurement (Years 25-40)**: Thermocouple and RTD thermostats (Types 13-14) require wire drawing for thermocouple alloys (Type K: chromel/alumel) or fine platinum wire for RTDs, plus basic electronic circuits (Wheatstone bridge, galvanometer relay). Accuracy improves to ±0.1-5°C over ranges from -200 to 1800°C. These are essential for steel heat treatment, glass melting, and early semiconductor processing where ±5°C is not adequate.
+
+**Stage 4 — Electronics & Semiconductors (Years 40-60+)**: Thermistor, IC sensor, and PID thermostats (Types 16-19) require semiconductor manufacturing capability — the very capability they help enable. This circular dependency is resolved by using thermocouple/RTD thermostats for the first generation of semiconductor furnaces, then transitioning to thermistor/PID control once basic semiconductor devices become available. Quartz crystal sensors (Type 21) and IR pyrometers (Type 22) represent the precision ceiling, enabling calibration-grade measurement (±0.01°C) and non-contact sensing at extreme temperatures.
+
+## Scaling Notes
+
+Thermostat production scales with the precision of the underlying technology:
+
+- **Workshop scale** (1-50 units/day): Hand-formed bimetallic strips, hand-blown mercury ampoules, point-to-point wired electronic circuits. Each unit individually calibrated against reference thermometer. Adequate for equipping a single factory or laboratory.
+
+- **Factory scale** (500-5,000 units/day): Stamped bimetallic elements, automated glass sealing for mercury bulbs, PCB-assembled electronic controllers with automated test and calibration. Statistical process control on trip temperature. This scale supplies an industrial economy's HVAC, appliance, and process control thermostat needs.
+
+- **Precision scale** (specialized, low volume): Hand-assembled and individually calibrated RTD and thermistor probes for laboratory and semiconductor furnace use. Each probe certified against NIST-traceable standards. Production rate: 10-100 units/day. Quality and consistency matter more than volume.
+
+**Critical bottleneck**: Calibration infrastructure. Every thermostat is only as accurate as its calibration reference. A civilization needs at minimum: ice point (0.0°C), steam point (100.0°C at 1 atm), and several metal freezing points (Sn 231.9°C, Zn 419.5°C, Ag 961.8°C, Au 1064.2°C) to establish a reliable temperature scale. Without calibration standards, even perfectly constructed thermostats give inaccurate readings.
+
+## Quality Control
+
+| Check | Method | Acceptance Criteria |
+|-------|--------|-------------------|
+| Trip temperature accuracy | Calibrated reference thermometer in stirred bath | ±2°C for mechanical, ±0.5°C for electronic, ±0.1°C for precision grades |
+| Deadband (on-off differential) | Measure temperature at make and break points | Within manufacturer specification (typically 0.5-5°C depending on type) |
+| Contact resistance (mechanical) | 4-wire milliohmmeter on closed contacts | <50 mΩ for silver contacts, <100 mΩ for tungsten |
+| Cycle life | Automated cycling at rated load | 100,000 cycles minimum for appliance grade |
+| Sensor resistance (RTD) | Precision ohmmeter at 0°C ice point | 100.0 Ω ±0.1% for Pt100 RTD |
+| Sensor output (thermocouple) | Millivolt meter at known reference temperature | Within ±1% of NIST standard tables for the thermocouple type |
+| PID controller tuning | Step response test on thermal load | Settles to ±0.5°C within 5 minutes with <10% overshoot |
+
 ## See Also
 
 - [Temperature & Pressure Measurement](./temperature-pressure.md): thermocouples, RTDs, pyrometers, pressure gauges
@@ -112,7 +148,54 @@ A civilization that cannot regulate temperature cannot produce consistent steel,
 - [Silicon](../silicon/basic-devices.md): semiconductor sensors, IC temperature sensors
 - [Energy](../energy/cooling.md): steam systems, HVAC, engine cooling
 
+## Variations and Alternatives
 
+| Control Strategy | Accuracy | Cost | Complexity | Best Application |
+|-----------------|----------|------|-----------|-----------------|
+| On/off (mechanical) | ±2-20°C | Very low | Very low | Furnace draft, appliance safety cutoff |
+| On/off (electronic) | ±0.5-2°C | Low | Low | Oven control, incubator, HVAC |
+| Proportional (P) | ±0.5-1°C | Medium | Medium | Process heating with moderate stability needs |
+| Proportional-Integral (PI) | ±0.1-0.5°C | Medium | Medium | Most industrial process control |
+| Full PID | ±0.01-0.1°C | High | High | Semiconductor furnaces, crystal growth, calibration baths |
+| Cascade (dual-loop) | ±0.05°C | High | Very high | Ultra-precision furnaces, multi-zone ovens |
+| Fuzzy logic | ±0.5-2°C | Medium | Medium (software) | Nonlinear systems, HVAC comfort control |
+
+**On/off vs. proportional**: The simplest thermostats operate in on/off mode — the heater is either fully on or fully off. This creates temperature oscillation within the deadband. For a kiln with 20°C deadband, the temperature cycles between (setpoint - 10°C) and (setpoint + 10°C). Proportional control modulates heater power as a percentage of full power, proportional to the error (difference between measured and setpoint temperature). A proportional controller at 50% power when the temperature is halfway to setpoint produces much smoother control. PID adds integral action (eliminates steady-state offset) and derivative action (anticipates temperature trends to reduce overshoot).
+
+**Calibration reference points**: Any civilization developing thermostats needs reliable temperature fixed points for calibration:
+
+| Fixed Point | Temperature | Material | Achievable Accuracy |
+|------------|------------|----------|-------------------|
+| Ice point | 0.00°C | Ice/water equilibrium | ±0.002°C |
+| Steam point | 100.00°C | Boiling water at 1 atm | ±0.05°C (pressure-dependent) |
+| Tin freeze | 231.93°C | Sn solidification | ±0.1°C |
+| Zinc freeze | 419.53°C | Zn solidification | ±0.1°C |
+| Silver freeze | 961.78°C | Ag solidification | ±0.5°C |
+| Gold freeze | 1064.18°C | Au solidification | ±0.5°C |
+
+These fixed points are reproducible because phase transitions (melting/freezing) occur at precisely defined temperatures. A calibrated thermometer chain — from ice point through metal freeze points — establishes the temperature scale against which all thermostats are verified. Without this calibration chain, thermostat accuracy claims are unverifiable.
+
+**Redundancy best practice**: For any critical temperature-controlled process, use two independent thermostats: a primary controller (electronic or PID) and an independent mechanical high-limit cutoff (bimetallic snap disc) set 20-50°C above the normal operating range. The high-limit device is wired in series with the heater and requires manual reset. This prevents catastrophic runaway if the primary controller fails in the "heater on" state.
+
+## Integration with Semiconductor Manufacturing
+
+Thermostats are embedded throughout the semiconductor fabrication process chain:
+
+| Process | Temperature Range | Required Stability | Thermostat Type |
+|---------|-------------------|--------------------|----------------|
+| Photoresist spin/bake | 90-120°C | ±1°C | Thermistor PID |
+| Oxidation furnace | 800-1200°C | ±0.5°C | Thermocouple PID (Type S or R) |
+| Diffusion furnace | 900-1200°C | ±0.1°C | Thermocouple PID with zone control |
+| LPCVD deposition | 300-800°C | ±1°C | Thermocouple PID |
+| PECVD deposition | 200-400°C | ±2°C | Thermocouple PID |
+| Metal sputtering (substrate) | 20-400°C | ±2°C | Thermocouple PID |
+| Rapid thermal anneal | 600-1100°C | ±5°C (ramp 50-200°C/s) | IR pyrometer PID |
+| Crystal growth (Czochralski) | 1414°C (Si melting) | ±0.5°C | IR pyrometer + thermocouple cascade |
+| Wafer chuck (CMP, litho) | 20-80°C | ±0.1°C | RTD or thermistor PID |
+| Wet bench processes | 20-180°C | ±1°C | RTD PID |
+
+The most demanding thermostat application in semiconductor manufacturing is the Czochralski silicon crystal pull. The melt temperature must be held within ±0.5°C of the 1414°C silicon melting point while a 200-300 mm crystal is pulled over 24-72 hours. This requires a cascade control loop: an IR pyrometer measures the melt surface temperature as the primary sensor, with a Type S (Pt-10%Rh/Pt) thermocouple embedded in the crucible susceptor as the secondary sensor. The PID controller modulates RF induction heater power with 0.1% resolution. Any temperature excursion beyond ±1°C during the pull creates dislocations in the crystal lattice, potentially scrapping the entire ingot (value: $5,000-50,000 depending on size and grade).
 
 ---
+
 *Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*

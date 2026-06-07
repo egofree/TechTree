@@ -93,6 +93,23 @@ Primary outputs: `timber` for construction, `resin` for chemical processing, `ch
 | Turpentine yield from resin | 15-25% by weight | Distilled at 150-170°C |
 | Rosin yield from resin | 65-75% by weight | Residual after turpentine removal |
 | Rotation age for timber | 40-80 years | Depending on site quality |
+| Pitch yield from further heating | 5-10% of rosin | Heated to 350-400°C |
+| Turpentine boiling point | 156-170°C | Fractionation range |
+| Charcoal yield from pine wood | 20-30% by weight | In earth-covered pit or retort |
+
+### Resin and Naval Stores Processing
+
+Pine resin processing produces a family of materials known collectively as "naval stores" — so named because they were essential for waterproofing ships. The product cascade from raw resin is: turpentine (volatile solvent, 15-25%), rosin (solid resin, 65-75%), and pitch (thick, dark waterproofing compound, 5-10% of original resin weight).
+
+Turpentine is a mixture of terpenes (primarily alpha-pinene and beta-pinene) with a boiling range of 156-170°C. It is an excellent solvent for fats, oils, resins, and waxes. For civilization bootstrapping, turpentine serves as a paint thinner, cleaning solvent, and chemical feedstock. It can be further processed by dry distillation to produce pine oil, pine tar, and charcoal.
+
+Rosin (colophony) is a brittle, amber-colored solid at room temperature that melts at 70-80°C. It is used as a soldering flux (removing oxide from metal surfaces to allow solder adhesion), a violin bow treatment (providing friction between bow and string), a paper sizing agent (making paper less absorbent), and an ingredient in varnishes and sealing wax. Rosin is also the binder in traditional violin bows and the grip-enhancer used by gymnasts, baseball pitchers, and ballet dancers.
+
+### Timber Seasoning and Use
+
+Pine seasons faster than hardwoods due to its lower density and more open cell structure. For construction use, target 15-20% moisture content (air-dried). For interior joinery and furniture, target 8-12% (may require kiln drying). Pine timber that will be pressure-treated with preservatives should be seasoned to 25-30% moisture before treatment, as the preservative must penetrate the cell walls.
+
+Pine is particularly susceptible to blue stain fungi, which discolors the wood without affecting structural strength. Blue-stained pine is structurally sound but visually inferior. Prevent staining by processing logs quickly after felling (within 2-3 weeks) and stacking sawn timber with good air circulation.
 
 ## Safety Considerations
 
@@ -155,6 +172,8 @@ For timber, inspect every board for defects before grading into structural or fi
 - **Norway spruce** (*Picea abies*): Lighter timber (410-450 kg/m³) but less durable. Preferred for musical instrument soundboards and interior paneling.
 - **Douglas fir** (*Pseudotsuga menziesii*): Stronger timber (MOR 85-120 MPa) and faster growing. Where available, outperforms Scots pine for structural beams.
 - **Charcoal from pine**: Pine charcoal burns hot and fast, suitable for forging but inferior to hardwood charcoal for sustained smelting. Use pine charcoal for blacksmithing, hardwood charcoal for iron smelting.
+- **Pine needle tea**: Fresh pine needles provide vitamin C (30-50 mg per 100 g of needles). Steep chopped needles in hot water for 10 minutes. Avoid needles from *Pinus ponderosa* and other species with toxic isocupressic acid.
+- **Fatwood**: The resin-saturated heartwood of dead pine stumps. Burns like a torch even when wet. An excellent fire-starting material found in old pine forests. Contains 60-80% resin by weight.
 
 ## References
 
@@ -163,6 +182,24 @@ For timber, inspect every board for defects before grading into structural or fi
 - [Energy: Charcoal](../energy/charcoal.md) — charcoal production from wood waste
 - [Textiles](../textiles/index.md) — rosin used in paper sizing
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Pine in Northern Construction
+
+Scots pine is the default construction timber across northern and eastern Europe, from Scotland
+to Siberia. Its availability on poor soils, rapid early growth, and workability with hand tools
+made it the timber of choice for log cabins, barns, bridges, and pit props. Pine logs can be
+worked green (fresh-cut) with an axe and adze, allowing construction without sawn lumber.
+
+Log cabin construction with pine follows a tradition stretching back thousands of years. The
+logs are stacked horizontally, notched at the corners (saddle notch or full-scribe joinery),
+and the gaps between logs are sealed with moss, clay, or oakum (tarred hemp fiber). A pine
+log cabin with a properly fitted roof lasts 50-100 years. The heartwood is moderately durable
+against decay; selecting heartwood logs for the bottom courses extends building life.
+
+Pine pitch (the thick, dark residue from further heating rosin) waterproofs boat hulls, barrel
+seams, and cordage. Mixed with animal fat and charcoal, pitch forms a durable sealant that
+remains flexible in cold weather and resists softening in heat. Pine pitch was the standard
+waterproofing material for wooden ships throughout the age of sail.
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

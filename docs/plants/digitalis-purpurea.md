@@ -85,6 +85,23 @@ Primary outputs: `digitalis_glycosides` (digoxin, digitoxin) for heart failure a
 | Plant height (flowering) | 1-2 m | Second year |
 | Hardiness | -20°C | Cool-temperate |
 | Optimal harvest time | Pre-flower, second year | June-July |
+| Glycoside variation factor | 2-3x | Between leaves, plants, and seasons |
+| Seed germination | 2-3 weeks | Surface sown, needs light |
+| Dried leaf yield per hectare | 500-1,500 kg | Second-year harvest |
+
+### Glycoside Content and Standardization
+
+The fundamental challenge with foxglove medicine is the 2-3 fold variation in glycoside content between individual plants, between leaves on the same plant, and between harvest times. This variability makes raw leaf powder inherently dangerous. Several approaches reduce this risk:
+
+Mix leaves from many plants before grinding. Pooling 50-100 plants averages out individual variation and produces a more consistent product. Harvest at the same time of day (afternoon peak) and same stage (pre-flowering) every season. Keep growing conditions as uniform as possible (consistent soil, shade, moisture).
+
+The tincture method provides the most consistent dosing available at low technology levels. A standardized tincture is made by macerating a known weight of dried leaf in a known volume of alcohol, allowing the glycosides to dissolve uniformly throughout the solution. Each milliliter of tincture then contains a proportional dose, and small volume measurements (with a graduated dropper) are more accurate than weighing tiny amounts of leaf powder.
+
+For communities that cannot achieve safe standardization, foxglove should be reserved for cases where no alternative exists. The risk of fatal dosing error is significant. At higher technology levels, chemical extraction and purification of digoxin from *Digitalis lanata* eliminates the standardization problem entirely.
+
+### Historical and Clinical Context
+
+William Withering's original 1785 publication on foxglove described 163 cases and established the principle of dose titration that remains standard practice. He recommended starting with a small dose, increasing gradually until the desired effect (increased urine output, slowed pulse) was achieved, then stopping at the first sign of toxicity (nausea). This approach remains the safest method for using raw plant preparations where laboratory standardization is unavailable.
 
 ## Safety Considerations
 
@@ -139,6 +156,12 @@ Primary outputs: `digitalis_glycosides` (digoxin, digitoxin) for heart failure a
 - **Yellow foxglove** (*Digitalis lutea*): Lower glycoside content, safer profile but less potent.
 - **Strophanthus** (*Strophanthus spp.*): African plant producing ouabain, a cardiac glycoside with faster onset than digitalis. Used intravenously for acute heart failure.
 - **Synthetic digoxin**: Purified and standardized pharmaceutical. Requires chemical extraction and purification from foxglove leaves. Much safer dosing than raw plant material.
+- **Lily of the valley** (*Convallaria majalis*): Contains cardiac glycosides (convallatoxin) with similar action but weaker effect. Historically used as a foxglove substitute.
+- **Oleander** (*Nerium oleander*): Contains cardiac glycosides but is extremely toxic and not recommended for medicinal use. All parts of the plant are dangerously poisonous.
+
+### Diagnostic Considerations
+
+Digitalis is effective for heart failure with reduced ejection fraction and for rate control in atrial fibrillation. It is harmful in conditions where the heart rate is already slow (AV block, sick sinus syndrome), where there is ventricular tachycardia, or where potassium levels are low (hypokalemia increases digitalis toxicity). Without diagnostic tools (electrocardiogram, blood tests), the decision to use foxglove must be based on clinical signs: swollen ankles and legs (edema), shortness of breath on exertion, and a rapid, irregular pulse suggest conditions that may benefit from digitalis. A slow, regular pulse suggests conditions where digitalis would be harmful.
 
 ## References
 
@@ -146,6 +169,34 @@ Primary outputs: `digitalis_glycosides` (digoxin, digitoxin) for heart failure a
 - [White Willow](./salix-alba.md) — comparison medicinal plant (pain/fever)
 - [Cinchona](./cinchona-officinalis.md) — comparison medicinal plant (malaria)
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Foxglove Cultivation and Harvest
+
+Foxglove is a biennial that readily self-seeds, maintaining a permanent colony once established.
+The plant prefers partial shade and acidic, well-drained soil — conditions found in woodland
+edges and hedgerows across temperate Europe. It naturalizes readily in suitable sites.
+
+For medicinal cultivation, plant foxglove in a dedicated bed where growing conditions can be
+standardized. Consistent soil, moisture, and shade produce more uniform glycoside content
+than wild-harvested material. Harvest all leaves from second-year plants at the same time
+of day (afternoon) and same stage of growth (pre-flowering) to minimize batch-to-batch
+variation. Dry immediately at controlled temperature (40-50°C) to preserve glycosides.
+
+Digitalis lanata (woolly foxglove) is preferred for pharmaceutical production because it
+contains digoxin specifically, rather than the mixed glycosides of *D. purpurea*. If seeds
+of *D. lanata* are available, it is the better choice for consistent medicine production.
+The plant has similar cultivation requirements but produces glycoside content 2-3 times
+higher than the common foxglove.
+
+Foxglove is one of the most striking examples of the narrow therapeutic window in herbal medicine. The difference between a therapeutic dose and a lethal dose may be as little as 0.1 g of dried leaf — roughly the weight of a small pinch. This extreme toxicity makes foxglove unsuitable for casual use but invaluable as a source of cardiac glycosides that can be purified and standardized at higher technology levels.
+
+### Foxglove Summary
+
+This species represents an important component of a diversified food production system.
+No single crop provides complete nutrition, and dietary diversity is essential for human
+health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
+vegetables, and nuts to ensure adequate intake of calories, protein, vitamins, and minerals.
+
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

@@ -282,6 +282,46 @@ The PID algorithm in discrete form: output(n) = Kp × e(n) + Ki × Σe(i) × Δt
 - More expensive and complex than mechanical or simple electronic alternatives
 
 
+## Scaling Notes
+
+Electronic thermostat complexity scales from discrete components to integrated microcontrollers:
+
+- **Discrete thermostat** (thermistor + comparator + relay): Hand-assembled on perfboard or point-to-point wiring. 5-10 units/day by one technician. Components are individually tested and soldered. Adequate for laboratory and small-batch equipment.
+
+- **PCB-based controller** (IC sensor + op-amp + relay): Printed circuit board assembly with through-hole or SMD components. Wave soldering or reflow soldering for production. 50-200 units/day with semi-automated assembly. This is the standard commercial thermostat controller scale.
+
+- **Microcontroller PID controller**: Requires microcontroller programming capability (C or assembly), PCB layout, and surface-mount assembly. Firmware development is the primary bottleneck — a robust PID controller with sensor fail-safe detection, auto-tuning, and communication interfaces requires 2,000-10,000 lines of code. Production: 100-1,000 units/day once firmware is validated.
+
+## Quality Control
+
+1. **Sensor calibration**: Verify each thermistor or IC sensor at 0°C (ice-water slurry) and 100°C (boiling water). Thermistor must be within ±1% of nominal resistance at 25°C. IC sensors (LM35, DS18B20) must be within ±0.5°C of true temperature.
+
+2. **Setpoint accuracy**: Set the thermostat to a target temperature and verify the actual trip point with a calibrated reference thermometer. Tolerance: ±0.5°C for precision controllers, ±2°C for standard.
+
+3. **Deadband measurement**: Cycle through the trip point in both directions and record the deadband (temperature difference between on and off states). Verify it matches the configured value (typically 0.5-5°C depending on application).
+
+4. **Relay cycle life**: Verify the relay or SSR can handle the rated load current for the specified number of cycles (typically 100,000 mechanical cycles, 10,000 at full rated load).
+
+5. **EMC compliance**: Verify the controller does not emit excessive electromagnetic interference (especially from relay switching) and is not susceptible to external EMI (especially from nearby motors and welders).
+
+## Variations and Alternatives
+
+| Thermostat Type | Temp Range | Accuracy | Control Type | Best For |
+|----------------|-----------|----------|-------------|----------|
+| NTC thermistor (discrete) | -50 to 300°C | ±0.1-0.5°C | On/off | Medical, HVAC, consumer |
+| Silicon diode sensor | -50 to 150°C | ±0.5-1°C | On/off | Low-cost, moderate precision |
+| IC sensor (LM35/DS18B20) | -55 to 150°C | ±0.25-0.5°C | On/off or PID | General electronic control |
+| Microcontroller PID | Sensor dependent | ±0.1-0.5°C | PID | Precision process control, ovens, incubators |
+| Thermocouple + PID | -200 to 1300°C | ±0.5-2°C | PID | Furnaces, kilns, wide-range control |
+| RTD + PID | -200 to 650°C | ±0.05-0.2°C | PID | Laboratory, pharmaceutical, calibration |
+
+## See Also
+
+- **[Thermostats Overview](thermostat.md)**: Parent overview of all thermostat types
+- **[Mechanical Thermostats](thermostat-mechanical.md)**: Bimetallic and rod-and-tube types
+- **[Electrical Thermostats](thermostat-electrical.md)**: Thermocouple and RTD based
+- **[Advanced Thermostats](thermostat-advanced.md)**: SMA, quartz, and IR types
+
 ## Troubleshooting
 
 | Problem | Probable Cause | Solution |

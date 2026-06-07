@@ -192,5 +192,11 @@ Sweet potato is propagated by vine cuttings, not by seed in normal agricultural 
 - Data sourced from Food Plants International, Wikipedia, and iNaturalist via the Edible Plant Database (ZIM)
 - Plants for a Future (pfaf.org) — supplementary cultivation and use data
 
+Sweet potato is one of the most efficient calorie-producing crops, yielding 15-40 tonnes per hectare in tropical conditions with minimal inputs. The leaves are also edible and rich in protein, vitamins, and minerals, providing a secondary food source from the same plant. Sweet potato roots can be stored for 2-6 months in cool, dry conditions after curing at 30°C for 5-7 days to heal harvest wounds.
+Sweet potato vines can be used as animal fodder, providing a high-protein feed for pigs, cattle,
+and rabbits. The vine yield often exceeds the root yield by weight, effectively doubling the
+usable biomass from each plant. In many tropical farming systems, sweet potato serves as both
+a human food crop and an integrated livestock feed source.
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

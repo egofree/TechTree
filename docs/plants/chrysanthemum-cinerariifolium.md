@@ -83,6 +83,20 @@ Primary outputs: `pyrethrins` (contact insecticide for insects in storage and li
 | Drying time | 5-10 days | Until brittle |
 | Plant productive lifespan | 3-5 years | Before needing replacement |
 | Optimal climate | Temperate | 400-800 mm rainfall |
+| Plant spacing | 25-35 cm | In rows 50-60 cm apart |
+| Seed germination | 7-14 days | At 15-20°C soil temperature |
+
+### Extraction and Formulation Details
+
+Pyrethrin extraction efficiency depends on the solvent and method. Kerosene extraction (the traditional commercial method) recovers 60-80% of pyrethrins from ground flowers after 24-48 hours of soaking at room temperature. Alcohol extraction recovers 70-85% but requires evaporation before use. Water extraction recovers only 20-30% because pyrethrins are poorly soluble in water.
+
+For mosquito coil production (one of the most practical applications), mix pyrethrum powder with a combustible base (sawdust, dried leaf powder, or starch paste) and a binder (gum arabic or starch paste). Form into coils and dry. When burned, the smoldering coil releases pyrethrin vapor that repels and kills mosquitoes in an enclosed room for 6-8 hours. A coil containing 0.2-0.5% pyrethrins is effective. This provides malaria prevention at a very low technology level.
+
+Storage stability is critical for pyrethrum products. Whole dried flowers retain 80-90% of pyrethrin content after one year when stored in sealed, dark containers at cool temperatures. Ground powder loses 30-50% of activity in the same period due to increased surface area exposure. Pyrethrin solutions in oil or kerosene degrade 40-60% per year. Grind flowers and formulate products only when needed.
+
+### Cultivation and Breeding
+
+Pyrethrum can be propagated by seed, division, or cuttings. Division of established plants is the fastest method: each mature plant produces 3-5 divisions that flower in their first year. Seed-grown plants take two years to reach full flower production. Select and propagate plants with the highest pyrethrin content by testing individual plants and dividing only the best performers.
 
 ## Safety Considerations
 
@@ -134,6 +148,12 @@ Primary outputs: `pyrethrins` (contact insecticide for insects in storage and li
 - **Neem** (*Azadirachta indica*): Broader-spectrum insecticide with growth-disruption action. Slower acting but longer lasting. Tropical.
 - **Rotenone** (*Derris elliptica*): Tropical vine root extract. Potent but more toxic to mammals and fish.
 - **Tobacco** (*Nicotiana tabacum*): Nicotine is an effective contact insecticide. More toxic to mammals than pyrethrins.
+- **Derris** (*Derris elliptica*): Tropical vine producing rotenone. Potent insecticide and fish poison. More toxic to mammals.
+- **Ryania** (*Ryania speciosa*): South American shrub with ryanodine insecticide. Selective against caterpillars. Very toxic to mammals.
+
+### Combination Strategies
+
+Pyrethrum's rapid knockdown complements neem's persistent growth-disruption activity. A combined spray of pyrethrum (for immediate kill) and neem oil (for residual protection) provides broader-spectrum pest control than either alone. Pyrethrum is also synergized by piperonyl butoxide (PBO), a compound found in sassafras oil, which inhibits the insect enzymes that detoxify pyrethrins. Adding sassafras extract to pyrethrum sprays can increase effectiveness 2-5 fold without increasing the pyrethrin concentration.
 
 ## References
 
@@ -141,6 +161,44 @@ Primary outputs: `pyrethrins` (contact insecticide for insects in storage and li
 - [Health](../health/index.md) — insect-borne disease prevention
 - [Neem](./azadirachta-indica.md) — comparison natural insecticide
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Pyrethrum Cultivation and Breeding
+
+Commercial pyrethrum production is concentrated in the East African highlands (Kenya, Tanzania),
+where the combination of equatorial latitude, high elevation (1,500-2,500 m), and moderate
+temperatures produces flowers with the highest pyrethrin content. The Kenyan pyrethrum industry
+was the world's largest from the 1940s through the 1990s, before synthetic pyrethroids displaced
+much of the natural product market.
+
+Pyrethrin content varies between individual plants by a factor of 2-5, making selection and
+breeding critically important. The most effective approach is to test individual plants by
+bioassay (exposing insects to leaf extracts), then propagate only the highest-yielding plants
+by division. Over 3-5 generations of selection, average pyrethrin content can be doubled.
+
+Pyrethrum is perennial but declines in productivity after 3-5 years. Renew plantings by
+dividing mature clumps every 3-4 years, selecting only the most vigorous divisions. The
+plant tolerates poor soils and moderate drought, making it suitable for hillside agriculture
+where few other cash crops thrive. In mixed cropping systems, pyrethrum can be interplanted
+with vegetables or grain crops, providing both pest control and income.
+
+Pyrethrum is one of the few insecticides approved for use in organic agriculture, making it commercially important even in the era of synthetic pesticides. The natural compound breaks down so rapidly in sunlight that it leaves no toxic residue on food crops, allowing harvest the same day as application. This property is impossible to achieve with synthetic organophosphate or carbamate insecticides, which persist for days to weeks.
+
+### Pyrethrum Summary
+
+This species represents an important component of a diversified food production system.
+No single crop provides complete nutrition, and dietary diversity is essential for human
+health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
+vegetables, and nuts to ensure adequate intake of calories, protein, vitamins, and minerals.
+
+The crop's specific growing requirements (soil type, rainfall, temperature range, and
+growing season length) determine its geographic suitability. Matching crops to local
+conditions is more important than attempting to grow unsuitable crops in marginal
+environments. Where this species is well-adapted, it should be a priority for cultivation;
+where conditions are marginal, alternative species should be preferred.
+
+
+
+
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

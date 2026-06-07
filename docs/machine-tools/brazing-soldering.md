@@ -103,6 +103,64 @@ The lowest-temperature joining method. Soldering fills joints with a low-melting
 - Lead-containing solders are toxic — lead exposure causes neurological damage, especially in children
 - Service temperature limited to ~120°C — joints weaken and fail above 150°C
 
+## Prerequisites & Bill of Materials
+
+**Prerequisites**:
+- [Copper and zinc production](../metals/iron-steel.md) for brass brazing rod
+- [Silver sourcing](../metals/alloys.md) for silver brazing alloys (optional, for fine work)
+- [Tin and lead production](../metals/alloys.md) for soft solder
+- [Borax](../chemistry/index.md) for brazing flux
+- Forge or torch capable of reaching 950°C for brass brazing
+- Soldering iron or propane torch for soft soldering (250°C)
+
+**Bill of Materials**:
+
+| Item | Specification | Quantity per Session | Source |
+|------|--------------|---------------------|--------|
+| Brass brazing rod | 60% Cu / 40% Zn, 1.5-3 mm dia | 0.5-2 m | Alloy copper + zinc in crucible |
+| Borax flux | Powder, mixed with water to paste | 50-200 g | Natural mineral deposit |
+| Silver brazing alloy | 45-50% Ag, Cu, Zn, 1-2 mm wire | 0.1-0.5 m | Silver + copper + zinc alloy |
+| Tin-lead solder | 60/40 Sn/Pb, 1-3 mm wire | 0.5-2 m | Tin + lead alloy |
+| Rosin flux | Pine resin, purified | 20-50 g | Pine tree resin distillation |
+| Zinc chloride flux | Zn dissolved in HCl | 50-100 mL | Zinc + hydrochloric acid |
+| Propane torch | Flame temp ~1900°C | 1 unit | Petroleum refining + compressed gas |
+| Abrasive cloth | 80-120 grit | 0.5-1 sheet | Sand/grit on cloth backing |
+
+## Scaling Notes
+
+Brazing and soldering scale from individual bench work to production lines:
+
+- **Workshop scale**: Single torch or forge, hand-fed filler rod. One operator produces 10-50 joints per hour depending on complexity. Adequate for maintenance, prototyping, and small-batch fabrication.
+- **Production scale**: Multiple torch stations or conveyorized furnace brazing. Furnace brazing heats assemblies in a controlled-atmosphere furnace (hydrogen or dissociated ammonia atmosphere to prevent oxidation), with pre-placed brazing preforms (rings, washers, or paste). Production rate: 100-1000 joints per hour. Used for heat exchangers, automotive radiators, and tool fabrication.
+- **Electronics assembly scale**: Wave soldering (PCBs passed over a wave of molten solder) or selective soldering (robotic soldering iron). Requires precise temperature control (250±10°C) and flux management. Production rate: 500-5000 joints per hour.
+
+**Critical bottleneck**: Silver availability. Silver brazing alloys are 10-50× more expensive than brass filler. Reserve silver brazing for applications where lower temperature or finer joints justify the cost. Brass brazing with borax flux handles 90% of structural joining needs at a fraction of the cost.
+
+## Quality Control
+
+Brazed and soldered joints are verified by visual, mechanical, and leak testing:
+
+1. **Visual inspection**: Brazed joint — continuous fillet of brass visible at both ends of the joint, no gaps, voids, or bare spots. The fillet should be smooth and concave, not convex (convex fillet indicates insufficient heat or too-wide gap). Soldered joint — bright, shiny, smooth fillet. Dull, grainy, or crystalline appearance indicates a "cold" joint (moved during solidification or insufficient heat).
+
+2. **Mechanical testing**: Pull-test sample joints from each batch. Brass-brazed mild steel lap joint: must withstand 150-250 MPa shear stress in the filler. Silver-brazed joint: 150-300 MPa. Soft soldered joint: 20-50 MPa. Test at least one sample per batch; for critical applications, test three samples and average.
+
+3. **Leak testing (plumbing and pressure joints)**: Pressurize with water at 1.5× working pressure. Hold for 15 minutes minimum. No leaks, no pressure drop. For gas joints, use soap bubble test at working pressure. For high-vacuum brazed joints, helium leak test to 10⁻⁹ mbar·L/s.
+
+4. **Cross-section metallography** (production quality control): Cut a sample joint, mount, polish, and etch. Inspect at 50-200× magnification for voids, incomplete fill, and filler-base metal interaction. Voids >5% of joint area reject the batch.
+
+5. **Capillary flow test**: For new joint designs, assemble a test joint with a glass plate replacing one metal surface. Heat and apply filler. Observe filler flow through the transparent glass to verify capillary action fills the gap completely.
+
+## Variations and Alternatives
+
+| Joining Method | Temp (°C) | Joint Strength (MPa) | Gap Tolerance (mm) | Dissimilar Metals | Best For |
+|---------------|-----------|---------------------|--------------------|--------------------|----------|
+| Soft solder (Sn-Pb) | 180-250 | 20-50 | 0.05-0.15 | Yes | Electronics, plumbing, sheet metal |
+| Silver braze | 620-780 | 150-300 | 0.03-0.13 | Yes | Instruments, fine mechanisms |
+| Brass braze | 870-950 | 150-250 | 0.05-0.20 | Yes | Structural joints, cast iron repair |
+| Forge weld | 1200-1300 | 250-400 | N/A (pressure) | No (same metal only) | Iron/steel bars, chains |
+| Arc weld (SMAW) | ~6000 arc | 350-480 | N/A (filler) | Limited | Structural steel, heavy fab |
+| Riveting | Cold/900°C | 80-150 (shear) | N/A | Yes | Boilers, bridges, ship hulls |
+
 ## Method Selection Guide
 
 | Method | Temp Range | Joint Strength | Equipment | Best For |
@@ -125,6 +183,9 @@ The lowest-temperature joining method. Soldering fills joints with a low-melting
 |---------|---------------|----------|
 | Brass-brazed joint has gaps/voids in fillet (incomplete capillary fill) | Joint clearance outside 0.05-0.20 mm range, or base metal not heated uniformly to ~950°C bright red | Adjust joint gap to 0.05-0.20 mm using shims; heat entire joint area uniformly (heat the base metal, not the filler); verify filler flows by capillary action — continuous fillet must appear at both ends |
 | Soldered copper pipe joint leaks under 1.5× working pressure test | Cold joint (moved during solidification), or surfaces not cleaned to bright metal beyond 10 mm from joint edge | Reheat and re-solder: clean both surfaces to bright metal with abrasive cloth; hold joint still 2-5 seconds after removing heat; look for bright, shiny fillet (dull/grainy = cold joint — remelt and redo) |
+| Silver braze filler balls up instead of flowing into joint | Insufficient flux coverage, or base metal temperature too low for capillary wetting | Apply flux to all joint surfaces before heating; heat base metal (not filler) until flux turns glassy and clear; touch filler rod to joint — it should melt and flow by capillary action |
+| Zinc oxide fume exposure causes "metal fume fever" (chills, fever 4-8 hrs after brazing) | Overheating brass filler above 950°C generates copious ZnO fume | Maintain brazing temperature at 900-950°C (bright red, not yellow-white); use local exhaust ventilation at the joint; wear N95 respirator if ventilation is inadequate |
+| Solder won't wet copper surface (beads up instead of spreading) | Surface oxidation or contamination preventing solder adhesion | Re-clean to bright metal with abrasive cloth; apply fresh flux immediately after cleaning; do not touch cleaned surfaces with bare fingers (skin oils prevent wetting) |
 
 ## Cross-References
 
@@ -137,4 +198,4 @@ The lowest-temperature joining method. Soldering fills joints with a low-melting
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Machine Tools Bootstrap](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Machine Tools Bootstrap](./index.md) · [Metal Joining](./joining.md) · [All Domains](../index.md)*

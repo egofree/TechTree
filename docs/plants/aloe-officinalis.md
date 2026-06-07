@@ -196,5 +196,7 @@ Aloe's shallow, fibrous root system spreads horizontally rather than vertically,
 Aloe plants produce very few seeds in cultivation because the flowers require specific pollinators that are often absent outside the plant's native range. This means that cultivated aloe populations are maintained almost exclusively through vegetative propagation by offsets. While this limits genetic diversity, it also ensures that offspring are identical to the parent plant, preserving desirable characteristics such as high gel yield and strong medicinal properties.
 
 Aloe gel can be applied directly to minor burns, sunburn, insect bites, and small cuts as a first-aid treatment. The gel forms a thin protective film over the wound that keeps it moist while allowing air circulation. For field use, a leaf can be split open and applied directly to the affected skin, secured with a cloth bandage. This simple application requires no processing equipment and provides immediate relief.
+### Aloe officinalis Summary
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

@@ -192,5 +192,11 @@ Olive trees are extremely long-lived perennials (centuries to millennia) that de
 - Data sourced from Food Plants International, Wikipedia, and iNaturalist via the Edible Plant Database (ZIM)
 - Plants for a Future (pfaf.org) — supplementary cultivation and use data
 
+Olive trees are among the longest-lived fruit trees, producing commercially for 300-600 years with some specimens exceeding 1,000 years. The trees require a Mediterranean climate with hot, dry summers and mild, wet winters. Olive oil is the primary cooking oil of the Mediterranean and serves as lamp fuel, soap base, and lubricant. The spent pomace (press residue) can be further extracted with solvents or used as fuel.
+Olive wood is dense, hard, and beautifully figured, making it valued for carving, turned objects,
+and cutting boards. The wood is too small and irregular for structural lumber but produces
+exceptional decorative pieces. Olive pomace (the residue from oil pressing) can be further
+extracted with solvents or burned as fuel, providing additional value from the harvest.
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

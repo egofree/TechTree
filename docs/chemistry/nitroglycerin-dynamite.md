@@ -10,6 +10,18 @@
 > **Critical**: No
 
 
+## Prerequisites & Dependencies
+
+Nitroglycerin and dynamite production require a specialized chemical infrastructure:
+
+- **[Mixed acid production](acids.md)**: Concentrated nitric acid (90-98%) and sulfuric acid (96-98%). The mixed acid ratio is approximately 50:50 HNO₃:H₂SO₄ by weight. The sulfuric acid acts as a dehydrating agent, absorbing water produced during nitration and driving the reaction to completion.
+- **[Glycerol](soap.md)** (99%+ purity): Primary feedstock for NG. Produced as a byproduct of fat saponification (soap making) or synthesized from propylene. Glycerol must be anhydrous (water-free) — even 1% water in the glycerol dilutes the mixed acid and reduces yield. Glycerol from soap making contains water, salt, and soap residues that must be removed by distillation before use in NG production.
+- **Lead-lined steel nitrator**: NG production requires a specialized reaction vessel. Lead lining resists mixed acid corrosion. The vessel must have cooling coils (NG nitration generates ~370 kJ/mol), an agitator for uniform temperature, and a temperature-actuated emergency dump valve that discharges into a drowning tank.
+- **Emergency drowning tank**: A large water-filled tank (at least 20× the nitrator volume) positioned below the nitrator. If temperature exceeds 20°C, the dump valve opens and dumps the entire batch into cold water, diluting the acid and quenching the reaction. This is the primary safety system.
+- **Remote blast-resistant facility**: NG synthesis must be conducted in a separate building with reinforced concrete walls (≥30 cm), blast-resistant doors, and blast shields between the operator and the reaction vessel. The operator views the process through a periscope or thick armored glass. No personnel in the nitrator room during the reaction.
+- **Diatomaceous earth (kieselguhr)**: The absorbent that makes dynamite possible. A naturally occurring siliceous sediment composed of fossilized diatom shells. Mined, dried, and ground to 10-50 μm particle size. The high porosity and surface area absorb NG into a stable, handleable solid. Alternative absorbents: sawdust, wood meal, or other porous materials.
+- **[Blasting caps](detonation-blasting.md)**: Mercury fulminate or lead azide blasting caps to initiate dynamite. Nobel's first blasting cap (1867) used mercury fulminate. Modern caps use lead azide as the primary charge with PETN or RDX as the secondary charge.
+
 ## Nitroglycerin
 
 **Chemistry**: Glycerol + mixed acid (HNO₃ + H₂SO₄) at 10-15°C. The nitration substitutes three nitro groups onto the glycerol molecule. Overall: C₃H₅(OH)₃ + 3HNO₃ → C₃H₅(ONO₂)₃ + 3H₂O.
@@ -117,6 +129,56 @@ Dynamite comes in several grades by NG content: 40% dynamite (lower power, less 
 - Requires mercury fulminate or lead azide blasting cap to initiate
 - Being replaced by ANFO for most mining applications
 - Shorter storage life than TNT or ANFO due to NG exudation
+
+## Scaling Notes
+
+Nitroglycerin and dynamite production scale from artisanal to industrial:
+
+- **Pilot scale** (100 g NG per batch, 10-50 dynamite cartridges): A single lead-lined nitrator (5-10 L) with hand-operated agitator and ice bath cooling. Manual separation in a glass separatory funnel. Hand-mixing NG with kieselguhr in a shallow pan behind a blast shield. One highly trained operator. Production rate: 20-50 cartridges per day. This is the minimum viable scale for initial blasting operations in mining and construction.
+
+- **Factory scale** (1-5 kg NG per batch, 500-2,500 dynamite cartridges/day): Multiple nitrators (50-200 L) with mechanical agitation, cooling jackets, and automatic dump valves. Separate washing and neutralization tanks. Mixing house for NG + kieselguhr with remote mechanical kneader. Cartridge loading machine (hand-fed press). Magazine storage with temperature control (13-25°C). 10-20 workers. This was the scale of Nobel's original dynamite factories (1867-1900).
+
+- **Industrial scale** (50+ kg NG per batch, continuous dynamite production): Continuous NG synthesis with inline washing and neutralization. Automated mixing, extrusion, and cartridge packaging. Temperature-controlled magazine with inventory rotation. Gelatin dynamite production line (NG + nitrocotton). 50+ workers. This scale supplies a regional mining industry.
+
+**Critical safety constraint**: NG production cannot be safely scaled beyond ~50 kg per batch regardless of facility size. The risk of accidental detonation scales with batch size. Industrial-scale NG plants use multiple small nitrators (not one large one) running in parallel, each in a separate blast-resistant bay. The Biazzi continuous process (developed in the 1920s) minimizes the quantity of NG in process at any moment to <5 kg, with continuous flow through nitration, separation, and washing stages.
+
+## Quality Control
+
+**Nitroglycerin quality tests**:
+1. **Appearance**: Pale yellow, clear, oily liquid. Brown or dark yellow discoloration indicates decomposition products from overheating during nitration. Discolored NG should be destroyed (burned in small quantities), not used.
+2. **Nitrogen content**: Should be 18.3-18.5% N by weight. Measured by Lunge nitrometer or Devarda method. Lower nitrogen indicates incomplete nitration; higher indicates residual mixed acid.
+3. **Acidity test**: Shake NG with water, test the water layer with pH paper. Must be neutral (pH 6.5-7.5). Acidic NG (pH <6) is unstable and must be re-washed with sodium carbonate solution.
+4. **Abel heat test**: Heat a sample at 82.2°C and measure the time until brown NO₂ fumes appear (the "induction period"). Fresh, well-washed NG: >10 minutes at 82.2°C. Below 5 minutes indicates residual acid or unstable decomposition products. This is the most important stability test for NG.
+
+**Dynamite quality tests**:
+1. **Weight consistency**: Weigh each cartridge. Tolerance: ±3% of nominal weight. Underweight cartridges have insufficient NG content; overweight may have excess NG or incomplete absorption.
+2. **NG content verification**: Calculate from weigh-out records (kg NG per kg dynamite). For 60% dynamite: NG must be 59-61% by weight. Extract NG from a sample with ethanol, evaporate, and weigh the residue to verify.
+3. **Drop test**: Drop a cartridge from 2 m onto a steel plate. Should not detonate. This verifies adequate desensitization by the kieselguhr absorbent. Failure indicates insufficient absorbent or poor mixing.
+4. **Exudation test**: Store sample cartridges at 35°C for 7 days. Inspect for NG liquid on the surface. Any visible exudation indicates poor absorption or excess NG content. Reject the batch.
+5. **Gap test for sensitivity**: Place a blasting cap against the cartridge with varying air gaps. Measure the maximum gap at which detonation transfers. Too sensitive (<5 mm gap) indicates under-absorption; too insensitive (>50 mm gap) suggests degraded NG.
+
+## Variations and Alternatives
+
+| Explosive | Det. Velocity (m/s) | Density (g/cm³) | Energy (MJ/kg) | Sensitivity | Water Resistant | Best For |
+|-----------|---------------------|-----------------|-----------------|-------------|-----------------|----------|
+| Black powder | 400-600 | 1.0-1.4 | 2.6-3.0 | Low (ignites) | No | Fuses, fireworks, primitive firearms |
+| Nitroglycerin (liquid) | 7,700 | 1.59 | 6.4 | Extremely high | N/A | Never used alone; precursor for dynamite |
+| Dynamite (40%) | 3,200-4,000 | 1.2-1.3 | 2.8-3.2 | Low | Poor | Soft rock, light construction blasting |
+| Dynamite (60%) | 4,500-5,500 | 1.3-1.4 | 3.5-4.0 | Low | Moderate | Standard blasting, quarrying |
+| Dynamite (75%+) | 5,500-6,500 | 1.4-1.5 | 4.0-4.5 | Moderate | Moderate | Hard rock, deep mining |
+| Gelatin dynamite | 5,000-6,500 | 1.4-1.6 | 4.0-5.0 | Low | Excellent | Underwater blasting, wet boreholes |
+| ANFO | 2,500-4,000 | 0.8-0.85 | 3.7 | Very low | No | Large-scale mining, cheapest per unit energy |
+| TNT | 6,900 | 1.65 | 4.6 | Very low | Excellent | Military shells, melt-cast filling |
+
+## See Also
+
+- **[Explosives & Propellants](explosives.md)**: Parent overview and nitration chemistry
+- **[Black Powder](black-powder.md)**: Predecessor explosive
+- **[Nitrocellulose & Smokeless Powders](nitrocellulose.md)**: Propellants using NG in double-base formulations
+- **[High Explosives](high-explosives.md)**: TNT, RDX, ANFO
+- **[Detonation & Blasting](detonation-blasting.md)**: Blasting caps, fuses, and initiation systems
+- **[Acids](acids.md)**: Nitric and sulfuric acid production
+- **[Soap Making](soap.md)**: Glycerol byproduct from saponification
 
 ## Troubleshooting
 

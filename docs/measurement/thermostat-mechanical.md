@@ -239,6 +239,44 @@ Mechanical thermostats use thermal expansion of metals to actuate switches witho
 - Disc-to-disc variation of ±2-3°C even with careful production
 
 
+## Scaling Notes
+
+Mechanical thermostats scale from individual bench assembly to mass production:
+
+- **Workshop scale** (10-50 units/day): Hand-cut bimetallic strips from purchased stock. Manual stamping of snap discs. Bench calibration with temperature-controlled oil bath. One skilled worker. Adequate for maintenance, replacement, and small-batch equipment production.
+
+- **Factory scale** (500-5,000 units/day): Stamped bimetallic strips and snap discs from continuous strip stock. Automated resistance welding of contacts. Conveyor calibration through temperature-controlled zones. 10-20 workers. This scale supplies an industrial economy's HVAC, appliance, and safety thermostat needs.
+
+- **Mass production** (50,000+ units/day): Fully automated stamping, welding, and calibration lines. Statistical process control on trip temperature (±1°C distribution). Laser trimming of bimetallic strips for precise calibration. This scale supplies global appliance and automotive markets.
+
+## Quality Control
+
+1. **Trip temperature verification**: Calibrate each thermostat in a stirred oil bath or air oven, ramping temperature at 1°C/min through the trip point. Record both make and break temperatures. Tolerance: ±2°C for standard thermostats, ±0.5°C for precision grades.
+
+2. **Contact resistance**: Measure closed-contact resistance with a 4-wire milliohmmeter. Must be below 50 mΩ for silver contacts, below 100 mΩ for tungsten. Higher resistance indicates oxidation or contamination on the contact surfaces.
+
+3. **Cycle life testing**: Cycle the thermostat 10,000 times between 20°C below and 20°C above the trip point. Verify trip temperature has not drifted more than ±2°C from initial calibration. Contact resistance must remain below specification throughout.
+
+4. **Dielectric strength**: Apply 1500 VAC between contacts and housing for 1 minute. No breakdown or leakage above 1 mA. Verifies electrical isolation of the contact mechanism from the mounting structure.
+
+## Variations and Alternatives
+
+| Thermostat Type | Temp Range | Accuracy | Switching Capacity | Best For |
+|----------------|-----------|----------|-------------------|----------|
+| Single-metal expansion rod | 50-400°C | ±3-5°C | 5-15 A | Furnace safety cutoffs, water heaters |
+| Rod-and-tube | -20 to 300°C | ±2-3°C | 10-25 A | Engine cooling, HVAC, refrigeration |
+| Bimetallic strip (creep) | -50 to 400°C | ±2-5°C | 5-15 A | Oven control, slow cycling applications |
+| Bimetallic snap disc | -20 to 300°C | ±2-4°C | 10-30 A | Appliances, safety cutoffs, fast switching |
+| Thermocouple thermostat | -200 to 1300°C | ±1-2°C | External relay | Wide temperature range, precision switching |
+| Electronic (thermistor) | -50 to 300°C | ±0.1-0.5°C | External relay | Precision control, narrow deadband |
+
+## See Also
+
+- **[Thermostats Overview](thermostat.md)**: Parent overview of all thermostat types
+- **[Electrical Thermostats](thermostat-electrical.md)**: Thermocouple and RTD based
+- **[Electronic Thermostats](thermostat-electronic.md)**: Thermistor and IC based
+- **[Advanced Thermostats](thermostat-advanced.md)**: SMA, quartz, and IR types
+
 ## Troubleshooting
 
 | Problem | Probable Cause | Solution |

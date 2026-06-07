@@ -184,6 +184,55 @@ The saponification reaction is exothermic. Add alkali gradually to avoid violent
 | Lithium grease not available (no LiOH) | Lithium supply chain not yet established in bootstrap | Use calcium soap grease (water-resistant, dropping point ~90°C) for most applications; sodium soap for dry, low-temperature applications; clay-thickened grease if bentonite is available |
 | Oil-ring lubrication fails to deliver oil | Shaft speed too low (<100 RPM, ring doesn't carry enough oil) or oil viscosity too high for ring lift | Switch to wick or forced lubrication for slow-speed bearings; use lower viscosity oil (ISO VG 32 instead of VG 68); verify ring rotates freely and dips into oil reservoir |
 
+## Scaling Notes
+
+Grease production scales from small batch to continuous operation:
+
+- **Workshop scale** (5-50 kg/batch): Iron kettle over a fire or simple gas burner. Manual stirring with a wooden paddle. Small roller mill or hand-cranked colloid mill for finishing. Adequate for a single workshop or small factory. One operator, 2-4 hours per batch.
+- **Factory scale** (500-5,000 kg/batch): Stainless steel reactor vessel (500-5,000 L) with mechanical agitator, heating jacket, and temperature control. Three-roll mill or high-shear mixer for homogenization. Automated filling lines for containers. 5-10 workers per shift. This is the standard commercial grease plant scale.
+- **Industrial scale** (continuous, 10,000+ kg/day): Continuous saponification reactor with inline mixing, followed by continuous finishing (milling, deaeration, filling). Requires process control instrumentation (temperature, viscosity, pH monitoring). Capital-intensive but consistent quality and high throughput.
+
+Solid lubricant production (MoS₂, graphite) scales with mining and refining capacity. MoS₂ is mined as molybdenite ore and purified by flotation and chemical processing. PTFE requires fluoropolymer synthesis (tetrafluoroethylene polymerization), a demanding chemical process typically done at industrial scale.
+
+## Quality Control
+
+Grease and solid lubricant quality is verified by standardized tests:
+
+1. **Penetration test** (ASTM D217, cone penetration): A standardized cone is released into the grease surface at 25°C. The depth of penetration in tenths of a millimeter gives the NLGI grade. NLGI 2 (typical bearing grease): penetration 265-295 (0.1 mm units). This is the most fundamental grease quality test.
+
+2. **Dropping point** (ASTM D2265): Heat a grease sample in a standardized cup until a drop of oil falls through the orifice. Calcium soap: ~90°C. Lithium soap: ~190°C. Clay: no dropping point (passes 250°C+). Below-spec dropping point indicates incomplete saponification or contamination.
+
+3. **Oil separation test** (ASTM D6184): Place 10 g of grease on a 74 μm sieve at 100°C for 24 hours. Weigh the oil that passes through. Acceptable: <5% separation. Higher values indicate poor soap structure.
+
+4. **Water washout test** (ASTM D1264): Pack a bearing with grease, run it at 79°C under a water spray (5 mL/s) for 1 hour. Weigh the grease lost. Acceptable: <10% loss for water-resistant grades.
+
+5. **MoS₂ purity** (for solid lubricants): Test by wet chemical analysis or X-ray fluorescence. Technical grade MoS₂: >97% MoS₂, <1% acid-insoluble contaminants. Impurities (iron, silica) are abrasive and increase wear rather than reducing it.
+
+6. **Quick field test for grease**: Rub a small amount between thumb and forefinger. Good grease feels smooth and uniform. Grainy texture indicates incomplete milling. Oil on the fingers (without pressing hard) indicates excessive oil separation.
+
+## Variations and Alternatives
+
+| Lubricant | NLGI Grade | Temp Range | Water Resistant | Load Capacity | Best For |
+|-----------|-----------|------------|-----------------|---------------|----------|
+| Sodium soap grease | 1-3 | -10 to 150°C | No | Moderate | Open gears, general purpose (dry locations) |
+| Calcium soap grease | 1-3 | -20 to 90°C | Yes | Moderate | Wheel bearings, water pumps, marine |
+| Lithium soap grease | 1-3 | -30 to 190°C | Yes | Moderate-high | Multi-purpose: most bearing applications |
+| Clay-thickened grease | 1-3 | -20 to 250°C+ | Yes | High | High-temperature bearings, ovens, kilns |
+| MoS₂ grease (5-10%) | 1-3 | -30 to 190°C | Yes | Very high | Extreme pressure, slow-speed heavy loads |
+| Graphited grease (5-10%) | 1-3 | -30 to 190°C | Varies | High | Open gears, sliding surfaces |
+| PTFE-filled grease | 1-3 | -50 to 200°C | Yes | Moderate | Food processing, clean environments |
+
+## Safety & Hazards
+
+Grease and solid lubricant production involves several distinct hazard categories:
+
+- **Caustic burns**: NaOH and KOH cause severe chemical burns and permanent eye damage. The saponification reaction is exothermic — adding alkali too fast causes violent foaming and splashing of hot caustic. Wear chemical splash goggles, rubber gloves, and rubber apron. Have eye wash station within 10 seconds of work area. If caustic contacts skin, flush with copious water for at least 15 minutes.
+- **Molten grease burns**: Grease at 150-200°C causes severe thermal burns. Use appropriate heat protection (insulated gloves, face shield) when handling hot vessels. Never lean over a vessel of molten grease.
+- **MoS₂ and graphite dust**: Fine powder inhalation is a respiratory irritant. Use dust masks or local exhaust ventilation when handling dry powders. MoS₂ dust has an occupational exposure limit of 10 mg/m³ (total particulate, 8-hour TWA).
+- **PTFE thermal decomposition**: PTFE decomposes above 350°C, releasing toxic fumes including hydrogen fluoride (HF, IDLH 30 ppm) and perfluoroisobutylene (PFIB, IDLH unknown, extremely toxic). Never heat PTFE above 260°C. If PTFE components are machined, use local exhaust ventilation. Polymer fume fever from PTFE overheating causes flu-like symptoms 4-8 hours post-exposure.
+- **Grease fires**: Grease at operating temperature in bearings can ignite if overheated. Never use water on a grease fire — it will spread the burning grease. Extinguish with sand, fire blanket, or smothering. Keep fire suppression materials near grease-heating operations.
+- **Environmental disposal**: Used grease must not be dumped on ground or in waterways. Collect in sealed containers. Soap-based greases can be broken down with hot water and acid to recover the base oil for re-refining. Clay-based greases are inert and can be landfilled. MoS₂-containing greases should be treated as hazardous waste due to heavy metal content.
+
 ## See Also
 
 - **[Lubricants Overview](lubricants.md)**: Theory, selection guide, and cross-cutting topics

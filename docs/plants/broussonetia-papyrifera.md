@@ -96,6 +96,22 @@ Primary outputs: `bark_fiber` for tapa cloth and papermaking, `wood` for fuel.
 | Cooking time | 2-4 hours | At 80-100°C |
 | Tapa cloth thickness | 0.5-2.0 mm | After beating |
 | Coppice rotation | 1-3 years | Short rotation for bark production |
+| Fiber cellulose content | 55-65% | High purity after cooking |
+| Bark stripping ease | Best in spring | Sap flow aids separation |
+
+### Bark Processing Details
+
+The quality of paper mulberry fiber depends on careful separation of inner bark (phloem) from outer bark (dead periderm). The outer bark contains dark pigments and shorter, weaker fibers that discolor and weaken the final product. Scraping must remove all traces of the dark outer layer while preserving the maximum thickness of the pale inner bark.
+
+For the finest Japanese washi paper (made from the closely related *Broussonetia kazinoki*), the inner bark is steamed rather than boiled, then stripped in long ribbons. These ribbons are dried in the sun for storage and can be reconstituted months later by soaking in water overnight. The dried bark strips are a stable trade commodity — lightweight, compact, and shelf-stable for years.
+
+Alkali cooking breaks down the middle lamella (the pectin-rich layer between fibers) and allows the fibers to separate during beating. The traditional alkali source is wood ash lye (potassium carbonate solution, pH 11-12) or lime (calcium hydroxide suspension). Soda ash (sodium carbonate) is more effective if available. Over-cooking weakens the fibers; under-cooking leaves them bonded and difficult to separate. Test for doneness by pulling the cooked bark: properly cooked bark separates into fibrous strands with gentle pulling.
+
+### Paper Sheet Formation
+
+The vat method of sheet formation produces the most uniform paper. The key variable is pulp concentration: 0.5-1.5% pulp in water for thin writing papers, 2-3% for heavier printing or wrapping papers. Japanese papermakers add a mucilage from tororo-aoi (sunset hibiscus root) to the vat, which suspends fibers evenly and prevents clumping. Without this additive, stir the vat continuously and form sheets quickly before fibers settle.
+
+Each dip of the mold produces one sheet. The wet sheet is couched (transferred) onto a flat board or felt, building a stack called a post. The post is pressed under heavy weights or in a screw press to remove 60-70% of the water. Individual sheets are then peeled from the interleaving cloths and dried on smooth boards, heated metal plates, or in the sun. Drying time: 4-12 hours depending on temperature and humidity.
 
 ## Safety Considerations
 
@@ -152,6 +168,12 @@ Primary outputs: `bark_fiber` for tapa cloth and papermaking, `wood` for fuel.
 - **Hemp paper**: Hemp produces excellent paper fiber and yields more per hectare. Requires retting to extract fiber, unlike bark-based papermaking.
 - **Linen rag paper**: Recycled linen textiles produce the highest-quality Western paper. Requires textile production first.
 - **Papyrus** (*Cyperus papyrus*): Egyptian writing material made by laminating sliced pith strips. Not true paper but serves a similar purpose.
+- **Bamboo paper**: Bamboo fiber produces serviceable paper but requires more aggressive processing (longer cooking, harder beating) than mulberry bark.
+- **Cotton rag paper**: Recycled cotton textiles produce high-quality paper. Requires textile production infrastructure first.
+
+### Non-Paper Bark Products
+
+Beyond paper and tapa cloth, paper mulberry bark produces cordage with moderate strength. Strip the inner bark into narrow ribbons, soften by chewing or soaking, and twist or braid into rope. The resulting cordage is flexible and moderately strong but degrades faster than hemp or sisal cordage when exposed to moisture. The bark also yields a fiber suitable for weaving into rough matting or padding when processed by retting (soaking in water for 5-10 days to separate fibers from the bark matrix).
 
 ## References
 
@@ -160,6 +182,24 @@ Primary outputs: `bark_fiber` for tapa cloth and papermaking, `wood` for fuel.
 - [Knowledge: Writing](../knowledge/writing.md) — paper as writing surface
 - [Silver Birch](./betula-pendula.md) — alternative bark source for containers
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Tapa Cloth in Pacific Cultures
+
+Tapa cloth (bark cloth) was the primary textile of Polynesian and Melanesian societies,
+used for clothing, bedding, ceremonial regalia, and wrapping sacred objects. The cloth is
+made by beating paper mulberry bark directly into sheets without the pulping step used in
+papermaking. The resulting fabric is soft, flexible, and can be sewn or glued (with starch
+paste) into larger pieces.
+
+Tapa production is a communal activity in many Pacific cultures. The bark is harvested,
+soaked, and beaten by women working in groups, with the rhythmic sound of beaters serving
+as a social activity. The finished cloth is painted with traditional patterns using natural
+dyes (brown from koka bark, red from mati bark, black from soot). Each island group has
+distinctive patterns that identify the wearer's social rank and island of origin.
+
+For civilization bootstrapping, tapa cloth provides the simplest textile production method
+available, requiring no spinning, weaving, or complex tools. A flat surface, a mallet, and
+fresh bark are sufficient to produce serviceable fabric.
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

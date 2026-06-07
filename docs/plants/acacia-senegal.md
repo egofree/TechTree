@@ -85,6 +85,24 @@ Primary outputs: `gum_arabic` for use as adhesive, emulsifier, ink binder, and f
 | Tree productive lifespan | 15-25 years | Of tapping age |
 | Optimal rainfall | 250-500 mm/year | Semi-arid |
 | Storage life | 5+ years | If kept dry |
+| Tree density (managed woodland) | 200-400 trees/ha | Semi-arid savanna |
+| Gum arabic composition | ~90% polysaccharide | Arabin, with calcium/magnesium/potassium salts |
+
+### Processing Details and Applications
+
+Gum arabic's value lies in its dual behavior: it dissolves to high concentration without becoming viscous (unlike guar gum or starch), and it stabilizes oil-in-water emulsions at low concentrations (2-5%). This makes it irreplaceable for certain applications until synthetic polymers become available.
+
+For ink production, gum arabic serves as both the binder that holds pigment particles in suspension and the film-former that creates a smooth, glossy surface when the ink dries. India ink (carbon black suspended in gum arabic solution) has been the standard writing and drawing ink for over 3,000 years. The gum prevents the carbon particles from settling, allows smooth flow from a pen or brush, and forms a water-resistant film when dry. A well-made gum arabic ink does not feather or bleed on paper.
+
+For ceramic glaze suspension, dissolve 5-10 g of gum arabic in 100 ml of glaze slip. The gum prevents heavy glaze particles from settling during application, ensuring an even coating on the pottery surface. This technique is particularly important for applying glazes by dipping or pouring.
+
+Gum arabic solutions have a limited shelf life once mixed with water: 3-7 days at room temperature before fermentation begins. Add 10-20% alcohol by volume (or a few drops of clove oil) as a preservative for solutions that must be stored. Alternatively, prepare only as much solution as needed for immediate use and dry the remainder back to solid form.
+
+### Woodland Management
+
+Acacia senegal grows in the Sahel as part of the traditional agroforestry system known as the "gum arabic belt." Trees are maintained at 200-400 per hectare in a parkland landscape, with millet, sorghum, or peanuts cultivated between the trees during the rainy season. The trees provide shade and wind protection for understory crops while producing gum during the dry season when agricultural work is minimal.
+
+Tapping should be limited to one wound panel per tree per year, alternating sides of the trunk annually. Trees that are over-tapped (multiple wounds or retapped before rest) show declining gum yield and reduced lifespan. A well-managed tree produces gum for 15-25 years; an over-tapped tree may die within 5-8 years.
 
 ## Safety Considerations
 
@@ -135,6 +153,10 @@ Primary outputs: `gum_arabic` for use as adhesive, emulsifier, ink binder, and f
 - **Guar gum** (*Cyamopsis tetragonoloba*): Seed gum from a legume crop. Higher viscosity than gum arabic. Used as thickener.
 - **Egg white (glair)**: Traditional binder for manuscript illumination and gilding. Replaces gum arabic in some applications.
 
+### Industrial-Scale Applications
+
+At production scale, gum arabic serves as the primary emulsifier in soft drink manufacturing (keeping citrus flavor oils suspended in water), the adhesive on postage stamps and envelope flaps, the protective coating on pills and tablets in pharmaceuticals, and the sizing agent in textile printing that prevents dye from spreading beyond printed areas. For civilization bootstrapping, the most critical applications are ink binder (enabling permanent written records), ceramic glaze suspender, and watercolor paint binder — all achievable at minimal technology levels.
+
 ## References
 
 - [Chemistry](../chemistry/index.md) — gum chemistry and applications
@@ -142,6 +164,39 @@ Primary outputs: `gum_arabic` for use as adhesive, emulsifier, ink binder, and f
 - [Knowledge: Printing](../knowledge/printing.md) — printmaking binders
 - [Black Wattle](./acacia-mearnsii.md) — related acacia species (tannin source)
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Gum Arabic in Ceramics and Industry
+
+Beyond ink and food uses, gum arabic serves critical functions in ceramics and industrial
+processes. In ceramics, a 2-5% gum arabic solution added to glaze slip prevents heavy
+particles from settling during application, ensuring an even coating on pottery. Without
+a suspending agent, glaze particles settle rapidly, producing uneven, streaky coatings.
+
+In textile printing, gum arabic serves as the thickener that prevents printed dye from
+spreading beyond the intended pattern. The printing paste (dye + gum arabic + mordant)
+is applied to fabric through carved wooden blocks or stencils. The gum holds the dye in
+place during steaming (which fixes the dye to the fiber), then washes out completely.
+
+Gum arabic also functions as an adhesive for paper, bookbinding, and stamp application.
+A 30-50% solution provides a strong, flexible bond that re-moistens for repositioning.
+This reversibility is why gum arabic has been the adhesive of choice for paper products
+for centuries — it allows correction before final setting.
+
+### Sahelian Agroforestry Integration
+
+In the traditional Sahelian system, *Acacia senegal* trees are spaced at 10-20 meter intervals
+across cultivated fields, providing gum during the dry season while allowing millet, sorghum,
+or peanut cultivation during the rainy season. The trees improve soil fertility through
+nitrogen fixation and leaf litter, and their deep roots bring nutrients from subsoil layers
+to the surface. This integrated system has sustained populations in the semi-arid Sahel for
+centuries, producing both food and cash crops from the same land.
+
+Gum arabic is classified as a dietary fiber and has been shown to have prebiotic effects, promoting the growth of beneficial gut bacteria. This nutritional property, combined with its functional uses as an emulsifier and stabilizer, makes gum arabic one of the most versatile natural food additives available. The gum's ability to form clear, flexible films also makes it useful for coating pills and tablets.
+
+### Gum Arabic Summary
+
+This species represents an important component of a diversified food production system.
+No single crop provides complete nutrition, and dietary diversity is essential for human
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

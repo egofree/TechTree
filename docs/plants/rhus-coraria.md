@@ -93,6 +93,21 @@ Primary outputs: `tannin_leaves` for light leather tanning, `brown_dye` for text
 | Light leather tanning time | 5-14 days | For thin hides |
 | Leather color | Cream to pale yellow | Distinctive sumac shade |
 | Drought tolerance | High | Survives on 300 mm annual rainfall |
+| Plant density for tannin crop | 5,000-10,000/ha | Spacing 1-2 m |
+| Dye color range | Brown to black | With iron mordant |
+| Berry harvest timing | Late summer | When berries turn dark red |
+
+### Tannin Extraction and Leather Processing
+
+Sumac tannins (gallotannins) differ from wattle tannins (condensed tannins) in their behavior during leather tanning. Gallotannins are smaller molecules that penetrate hides faster and produce a more pliable leather. This makes sumac the preferred tannin for thin, flexible leathers: bookbinding, gloving, garment leather, and hat leather. For heavy leather (shoe soles, harness), wattle or quebracho tannins are superior because their larger molecules fill the hide more completely, producing firmer leather.
+
+The extraction process is simpler than for bark tannins because sumac leaves are thin and release their tannins readily in hot water. A single extraction at 60-70°C for 4-8 hours recovers 70-80% of available tannins. A second extraction of the same leaf material recovers an additional 10-15%. The extraction temperature should not exceed 70°C; higher temperatures extract bitter non-tannin compounds that discolor the leather.
+
+Sumac-tanned leather was historically preferred for Turkish morocco leather (used in fine bookbinding) and for the thin, flexible leather used in gloves. The leather has a distinctive cream to pale yellow color that takes dye evenly, making it an excellent base for colored leather goods.
+
+### Dye Production from Sumac
+
+Sumac leaves and twigs produce a reliable brown dye on wool, cotton, and silk. With alum mordant, the color is tan to khaki. With iron mordant (ferrous sulfate), the color shifts to deep brown or black. The high tannin content of sumac makes it an excellent pre-mordant as well: cloth treated with sumac tannin accepts other dyes more readily. Sumac black (sumac tannin plus iron) was one of the standard black dyes of the ancient Mediterranean textile industry.
 
 ## Safety Considerations
 
@@ -143,6 +158,8 @@ Primary outputs: `tannin_leaves` for light leather tanning, `brown_dye` for text
 - **Chinese sumac** (*Rhus chinensis*): Host of the Chinese gallnut, which contains 60-70% tannic acid. The gallnuts are a superior tannin source where available.
 - **Oak gallnuts**: Oak galls contain 50-70% tannic acid. Higher concentration than sumac leaves but seasonal and opportunistic.
 - **Black wattle** (*Acacia mearnsii*): Much higher tannin yield per hectare but suited to tropical/subtropical climates. Produces heavy leather, not light leather.
+- **Chestnut** (*Castanea sativa*): Wood chips contain 8-12% tannin. Another source of hydrolyzable tannins for light leather. Temperate climate.
+- **Tara** (*Caesalpinia spinosa*): Peruvian tree pods with 40-60% tannin. A high-yield alternative where tropical/subtropical conditions allow cultivation.
 
 ## References
 
@@ -151,6 +168,35 @@ Primary outputs: `tannin_leaves` for light leather tanning, `brown_dye` for text
 - [Black Wattle](./acacia-mearnsii.md) — comparison tannin source for heavy leather
 - [Madder](./rubia-tinctorum.md) — dye plant for comparison
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Sumac in Mediterranean Agriculture
+
+Sumac is ideally suited to Mediterranean agroforestry systems. The shrub tolerates drought,
+poor soils, and hot exposures that limit other crops. It can be planted as a hedgerow along
+field boundaries, providing tannin and spice while serving as a windbreak and erosion barrier.
+The deep root system accesses moisture and nutrients from soil layers below the reach of
+annual crops, reducing competition with interplanted vegetables or grains.
+
+In traditional Levantine agriculture, sumac was grown as part of a mixed planting that included
+olive trees, grape vines, and field crops. The sumac shrubs occupied the margins and rocky
+outcrops where other crops could not grow, adding tannin, dye, and spice production without
+displacing food crops from the best land. This land-use efficiency made sumac an important
+secondary crop throughout the eastern Mediterranean.
+
+### Sumac Dye in Leather and Textiles
+
+Sumac produces one of the most light-fast brown dyes available from any plant source. On wool
+with iron mordant, the color is a deep, warm brown that resists fading for years of sun
+exposure. The high tannin content of sumac also makes it an excellent pre-mordant: fabric
+treated with sumac tannin before dyeing with other plant colors shows improved color uptake
+and fastness across all dye types.
+
+Sumac's role as a dual-purpose plant (tannin source and spice) makes it particularly valuable for small-scale agriculture. The same planting provides raw material for leather tanning, textile dyeing, and food seasoning — three essential functions from a single drought-tolerant shrub. This versatility is especially important in Mediterranean climates where water is scarce and multi-use crops are essential.
+
+### Sicilian Sumac Summary
+
+This species represents an important component of a diversified food production system.
+No single crop provides complete nutrition, and dietary diversity is essential for human
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

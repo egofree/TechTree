@@ -196,5 +196,7 @@ The tree's value as a rootstock extends its utility beyond fruit production. Bit
 Bitter orange juice, despite being too sour to drink straight, is used as a marinade and condiment in several cuisines. In Mexican cooking, the juice (known as "naranja agria") is essential for preparing cochinita pibil, a traditional Yucatecan pork dish. In Peruvian cuisine, the juice flavors ceviche. In all these applications, the juice's acidity and aromatic complexity provide flavor that lemon or lime juice cannot fully replicate.
 
 The essential oil in bitter orange peel is extracted by cold pressing or steam distillation. Cold pressing produces a higher-quality oil with more of the delicate top-note compounds, but requires mechanical pressing equipment. Steam distillation is simpler to set up but produces an oil with a slightly different aromatic profile. For household use, the simplest method is to steep fresh peel in alcohol for several weeks, producing a tincture that captures the peel's aromatic and bitter compounds in a convenient liquid form.
+### Bitter orange Summary
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

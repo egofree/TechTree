@@ -91,6 +91,22 @@ Primary outputs: `timber` for tool handles, bentwood, and vehicle components.
 | Seasoning time (25 mm board) | 3-4 months | Air dried |
 | Seasoning time (50 mm stock) | 6-12 months | Air dried |
 | Natural durability | Class 5 (not durable) | Must be kept dry or treated |
+| Volumetric shrinkage | 12.5-14.5% | Moderate to high |
+| Tree height at maturity | 20-35 m | 40-60 years |
+
+### Steam Bending Technical Details
+
+Steam bending works by plasticizing the lignin that binds cellulose fibers in the wood cell walls. At 100°C in saturated steam, lignin softens sufficiently to allow the wood to deform without breaking. The key to successful bending is maintaining full steam saturation: any air pockets in the steam box create cool spots where the wood remains rigid and will crack when bent.
+
+Minimum bend radius for ash is approximately 6 times the stock thickness (6:1 ratio). A 25 mm thick strip can be bent to a 150 mm radius without a strap. Using a tension strap (a metal band on the outside of the bend) prevents stretching of the outer fibers and allows tighter bends, down to 4:1 ratio. Springback is unavoidable: the piece relaxes 2-5 degrees from the form angle after removal. Compensate by over-bending on the form or by using a form that is 3-5 degrees tighter than the desired final angle.
+
+Ash accepts steam bending better than almost any other European hardwood because of its long, straight fibers and ring-porous structure. White ash (*F. americana*) is even better. Oak and beech also bend but require longer steaming and are more prone to surface checking on the tension face.
+
+### Tool Handle Design Principles
+
+A well-designed tool handle transfers force from the user's hand to the tool head without creating pressure points, vibration, or risk of splitting. The grain must run parallel to the handle's length for the entire length — any grain deviation creates a weak point where the handle will eventually break under impact.
+
+For impact tools (hammers, axes, mauls), the handle should have some flexibility to absorb shock. Ash excels at this because it bends without breaking and returns to shape. The handle eye (where the tool head mounts) should be slightly tapered so the head wedges tighter with each impact. The grip end should be shaped to fill the hand comfortably, typically oval or octagonal in cross-section, not round (which allows the handle to spin in the hand).
 
 ## Safety Considerations
 
@@ -146,6 +162,10 @@ Primary outputs: `timber` for tool handles, bentwood, and vehicle components.
 - **Beech** (*Fagus sylvatica*): Steam bends well and is widely available, but lower impact resistance than ash. Suitable for bentwood furniture where impact loading is not a concern.
 - **Hazel** (*Corylus avellana*): Coppiced shoots provide flexible withies for basket weaving and light structural frameworks. Not as strong as ash but available on a 5-7 year rotation.
 
+### Additional Uses
+
+Ash wood produces excellent firewood, burning hot with minimal smoke even when green (one of the few woods that can be burned unseasoned). Ash keys (winged seeds) were traditionally pickled as a condiment in Britain. The tree is also valued in mixed forestry as a nurse species: its light canopy allows understory growth, and its leaf litter decomposes rapidly, enriching the soil. Ash coppice on a 10-15 year cycle provides poles for fencing, tool handles, and light construction.
+
 ## References
 
 - [Machine Tools](../machine-tools/index.md) — tool handles are critical for hand tool operation
@@ -153,6 +173,30 @@ Primary outputs: `timber` for tool handles, bentwood, and vehicle components.
 - [Textiles](../textiles/index.md) — bentwood frames for textile equipment
 - [Plants Domain](./index.md) — domain overview and related capabilities
 - [Scots Pine](./pinus-sylvestris.md) — comparison timber species
+
+### Ash in Traditional Woodworking
+
+Ash has been the preferred wood for tool handles across Europe for centuries. The combination
+of toughness (absorbs impact without breaking), flexibility (bends under load and returns),
+and workability (easy to shape with hand tools) makes it ideal for hammer handles, axe helves,
+shovel shafts, scythe snaths, and any application where the handle receives repeated shocks.
+
+The key to a durable ash handle is grain selection. The grain must run parallel to the handle's
+length for the entire length. Any point where the grain exits the surface creates a weak spot
+where the handle will eventually break under impact. Experienced handle-makers test each billet
+by running a fingernail along the surface — if the nail catches, there is grain runout and the
+billet is rejected. This careful selection means that only 10-20% of a typical ash log yields
+handle-grade stock; the remainder goes to furniture, flooring, or lower-grade uses.
+
+Ash wood also produces excellent firewood, burning hot with a bright flame and minimal smoke.
+It is one of the few woods that can be burned green (unseasoned) with acceptable results,
+making it a reliable fuel source even when time for seasoning is limited.
+
+Ash is one of the best firewoods available in Europe, burning hot and long with minimal smoke. It is unique among European hardwoods in that it can be burned green (fresh-cut) with reasonable efficiency, because ash has a relatively low moisture content even when freshly felled. The rhyme "Ash wood wet or ash wood dry, a king will warm his hands by" reflects this valued property.
+
+### European Ash Summary
+
+This species represents an important component of a diversified food production system.
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

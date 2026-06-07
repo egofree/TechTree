@@ -193,5 +193,11 @@ Apple orchards are long-term perennial plantings (50-100+ years) that do not rot
 - Data sourced from Food Plants International, Wikipedia, and iNaturalist via the Edible Plant Database (ZIM)
 - Plants for a Future (pfaf.org) — supplementary cultivation and use data
 
+For long-term storage, select late-season varieties with thick skins and firm flesh. Wrap individual fruits in paper or dry leaves and store in a cool, dark cellar at 2-5°C. Check weekly and remove any fruit showing decay. Some varieties (e.g., 'Bramley', 'Russet') store for 6-12 months under these conditions.
+Cider production converts excess apples into a storable beverage that preserves caloric value
+for months. Apple cider vinegar, produced by further fermentation, serves as a food preservative,
+cleaning agent, and medicinal tonic. The pressed pomace (crushed apple residue) can be fed to
+livestock or composted to return organic matter to the orchard soil.
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

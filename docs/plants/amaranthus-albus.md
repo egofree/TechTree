@@ -196,5 +196,7 @@ For seed production at scale, the main challenge is harvest timing. Amaranthus a
 The C4 photosynthetic pathway that makes amaranth so productive in heat also means it struggles in cold conditions. Seeds will not germinate in soil temperatures below 15 degrees Celsius, and seedlings are killed by even light frost. This temperature sensitivity limits the growing season in temperate climates but poses no constraint in tropical and subtropical regions where amaranth is most valuable as a crop. In temperate areas, start seeds indoors two to three weeks before the last frost date and transplant seedlings when soil has warmed.
 
 The plant's tumbleweed habit, while convenient for seed dispersal, creates a management challenge in cultivated settings. Plants that are left to mature and detach can scatter seeds into neighboring fields and gardens, creating unwanted volunteer plants. For controlled production, harvest all plants before they dry completely and detach from the root. This practice also maximizes seed recovery, as the seeds are still held in the seed heads when the plants are cut.
+### Amaranthus albus Summary
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

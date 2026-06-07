@@ -96,6 +96,22 @@ Primary outputs: `red_dye` (alizarin) for textiles and leather, `orange_dye` (pu
 | Color range (tin mordant) | Scarlet to bright red | Warm, vivid tones |
 | Light fastness | Very good (6-7 on 8 scale) | One of the most lightfast natural dyes |
 | Wash fastness | Good to very good | With proper mordanting |
+| Root growth depth | 5-15 cm | Horizontal, just below surface |
+| Dye extraction temperature | 60-75°C | Never exceed 80°C |
+
+### Dyeing Process Details
+
+The Turkey red process — the most prized madder dye application — was a complex multi-step procedure developed in the Levant and perfected in 18th-century Europe. It involved repeated applications of alum mordant, oil treatment (olive oil), and madder dye over several weeks. The resulting red was the most permanent, brilliant red achievable with natural materials. A simplified version adequate for civilization bootstrapping uses alum mordant followed by madder dyeing at 60-75°C.
+
+Temperature control is the single most important variable in madder dyeing. Above 80°C, alizarin degrades to brown compounds and the dye bath shifts from clear red to muddy brown. Below 60°C, dye uptake is slow and incomplete. The optimal range is 65-75°C, maintained for 60-90 minutes. A thermometer is helpful; without one, the water should be hot to the touch but not bubbling (simmering is too hot).
+
+The root-to-fiber ratio determines color depth. A 1:2 ratio (50 g root per 100 g fiber) produces medium red. A 1:1 ratio produces deep red. A 2:1 ratio produces very dark red approaching burgundy. Multiple dye baths (remordanting between baths) produce the deepest colors.
+
+### Mordant Chemistry
+
+Alum (potassium aluminum sulfate) is the standard mordant for madder. The aluminum ions form coordination bonds between the hydroxyl groups of alizarin and the amino groups in wool fiber (keratin), creating a permanent chemical bridge. Without mordant, alizarin washes out of fabric almost entirely. The mordanting step must be thorough: 10-15% alum by fiber weight, heated to 70-80°C for 60 minutes.
+
+Iron mordant (ferrous sulfate) produces darker, cooler shades because iron forms a different colored complex with alizarin. Tin mordant (stannous chloride) produces the brightest, warmest reds but is more expensive and can damage wool fibers if overused. Copper mordant produces reddish-brown tones.
 
 ## Safety Considerations
 
@@ -153,6 +169,11 @@ Primary outputs: `red_dye` (alizarin) for textiles and leather, `orange_dye` (pu
 - **Bedstraw** (*Galium spp.*): Related genus with similar dye compounds in roots. Lower yield but widely available as a wild harvest.
 - **Cochineal** (insect, *Dactylopius coccus*): Produces carminic acid, a brighter red than alizarin. Requires prickly pear cactus host. More vivid but less light-fast than madder on cotton.
 - **Synthetic alizarin**: First synthetic natural dye (1868). Made from coal tar. Identical to natural alizarin. Eliminated the commercial madder industry.
+- **Safflower** (*Carthamus tinctorius*): Produces a water-soluble yellow dye and an insoluble red dye (carthamin). The red is less permanent than madder but requires no mordant.
+
+### Historical and Strategic Significance
+
+Madder was one of the most economically important crops in pre-industrial Europe. The Netherlands, France, and Turkey all had significant madder industries. The development of synthetic alizarin in 1868 (by Graebe and Liebermann) was the first time a natural dye was synthesized in the laboratory, marking the beginning of the synthetic dye industry that would eventually replace most natural dyes. For civilization bootstrapping, madder provides the most light-fast and wash-fast red dye available from any plant source, critical for producing durable dyed textiles that resist fading during outdoor use.
 
 ## References
 
@@ -160,6 +181,21 @@ Primary outputs: `red_dye` (alizarin) for textiles and leather, `orange_dye` (pu
 - [True Indigo](./indigofera-tinctoria.md) — blue dye plant for comparison
 - [English Oak](./quercus-robur.md) — oak gallnuts as mordant source
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Madder in Historical Textile Production
+
+Madder was the foundation of the European red dye industry for over 2,000 years. The dye
+was used for the British Army's red coats (until 1873), the Turkish flag's red color, and
+countless textile traditions across Europe, the Middle East, and Asia. The most valued shade,
+Turkey red, required a complex 17-step process developed in the Levant that took 4-6 weeks
+to complete. The resulting red was the most permanent, light-fast red achievable with natural
+materials.
+
+The simplified alum-mordant process produces a very good red that is adequate for most purposes.
+The key variables are mordant quality (pure alum produces the clearest red), root quality
+(3-year roots produce the deepest color), and temperature control (never exceed 80°C). With
+careful technique, madder produces a red that resists fading for decades of sun exposure,
+far exceeding any other natural red dye in permanence.
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

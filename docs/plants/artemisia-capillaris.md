@@ -196,5 +196,7 @@ The plant's common name "capillary wormwood" refers to the extremely fine, threa
 The plant is also used in traditional Korean medicine under the name "injin" and in Japanese Kampo medicine as "inshin." The cross-cultural use of this species across East Asian medical traditions confirms its long-established medicinal value and provides a rich body of empirical knowledge about dosing, preparation methods, and therapeutic applications that spans centuries of documented use.
 
 In traditional Chinese medicine theory, Yin Chen Hao is classified as a herb that "clears damp-heat," a diagnostic category that corresponds roughly to conditions involving inflammation of the liver and gallbladder, jaundice, and certain skin disorders. The herb is considered most potent when harvested as young spring growth, and its medicinal quality is said to decline sharply as the plant matures and the stems lignify.
+### Artemisia capillaris Summary
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

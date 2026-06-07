@@ -196,5 +196,7 @@ California mugwort's sprawling rhizome network makes it one of the first plants 
 California mugwort produces two types of leaves: larger, more deeply lobed leaves on the lower stems, and smaller, narrower leaves near the flowering tops. The lower leaves have the highest concentration of essential oils and are preferred for medicinal preparations. The upper leaves and flowering tops are used for smudge sticks and tea. This variation in leaf morphology means that selective harvest by leaf position can optimize the quality of different medicinal products from the same plant.
 
 The plant's white-felted leaf undersides are caused by a dense mat of tiny hairs (tomentose indumentum) that reflect light and reduce water loss. This feature is most pronounced in plants growing in full sun and dry conditions, and less developed in shaded, moist habitats. The density of the white felt is a quick visual indicator of growing conditions and can be used to assess whether a colony is producing optimal medicinal-quality foliage.
+### Artemisia douglasiana Summary
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

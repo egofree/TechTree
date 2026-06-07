@@ -196,5 +196,7 @@ The plant also has a long history of use as a vermifuge (deworming agent). Wormw
 The silvery-gray leaf color that makes wormwood visually distinctive is produced by a dense covering of fine white hairs (trichomes) on the leaf surface. These hairs reflect sunlight and reduce water loss through transpiration, an adaptation to the dry, sunny habitats the plant prefers. The same trichomes contain the essential oil glands that produce the plant's characteristic aroma. Leaves grown in full sun with minimal water develop the densest trichome covering and the highest essential oil content.
 
 Wormwood can be propagated by root division in addition to seed and cuttings. Established plants develop a woody root crown that can be divided in early spring before new growth begins. Each division should include several growing buds and a portion of the root system. Replant divisions at the same depth as the parent plant. Root division produces mature plants faster than seed propagation and is the preferred method for maintaining specific chemotypes or high-oil-producing individuals.
+### Artemisia absinthium Summary
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

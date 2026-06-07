@@ -196,5 +196,7 @@ The plant's pale pink to white flowers, borne in rounded umbels on leafless stem
 The retting water used for fiber extraction becomes nutrient-rich as the leaf pulp decomposes. This water can be diluted and used to irrigate garden beds, returning dissolved organic matter and minerals to the soil. In a closed-loop agricultural system, this recycling of retting water reduces waste and improves soil fertility without external inputs. The spent leaf pulp removed after retting can also be added directly to compost piles.
 
 The crushed bulbs of pale garlic produce a mild onion aroma, less pungent than garlic and more similar to shallot. This mildness makes them suitable for dishes where a subtle allium flavor is desired without the sharp bite of raw garlic. The bulbs can be roasted whole in their skins until soft, then squeezed out and mashed as a flavoring base for soups and stews.
+### Allium paniculatum Summary
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

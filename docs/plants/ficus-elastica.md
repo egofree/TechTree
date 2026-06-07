@@ -88,6 +88,22 @@ Primary outputs: `natural_rubber` for waterproofing and elastic materials.
 | Coagulation time | 2-4 hours | With acid coagulant |
 | Sheet drying time (smoke) | 4-7 days | At 40-60°C |
 | Sheet drying time (air) | 2-3 weeks | Well-ventilated area |
+| Vulcanization temperature | 140-160°C | With 2-3% sulfur by weight |
+| Rubber elasticity recovery | 80-90% | After 300% stretch |
+
+### Rubber Processing Details
+
+The coagulation process separates rubber hydrocarbon (cis-1,4-polyisoprene) from the latex serum. Acid coagulation with formic acid at 2-3 ml per liter of diluted latex produces the cleanest sheets. Acetic acid (vinegar) at 5-10 ml per liter works as a lower-technology alternative but produces softer coagulum. Alum (potassium aluminum sulfate) at 5 g per liter also works and may be easier to obtain than organic acids.
+
+Sheet formation through rollers serves two purposes: it removes excess water (reducing drying time from weeks to days) and aligns the rubber polymer chains for more uniform properties. A simple hand-cranked roller with adjustable gap (2-3 mm final thickness) produces acceptable sheet rubber. Without rollers, press the coagulum between flat boards weighted with stones.
+
+Smoke drying at 40-60°C serves both as drying and as mild preservation. The wood smoke deposits creosote compounds on the rubber surface that inhibit mold growth during storage. Rubber dried only in air is more prone to surface mold and should be stored in drier conditions. Dried rubber sheets should be flexible, translucent, and pale brown, not white or opaque.
+
+### Vulcanization (If Sulfur Is Available)
+
+Raw natural rubber is sticky when warm, brittle when cold, and degrades over time. Vulcanization — heating rubber with 2-3% sulfur at 140-160°C for 30-60 minutes — crosslinks the polymer chains, producing a material that is elastic, strong, and stable across a wide temperature range. Without vulcanization, rubber is limited to waterproof coatings and simple elastic bands. With vulcanization, it becomes suitable for tires, gaskets, hoses, and structural components.
+
+A simple vulcanization setup: mix ground rubber with powdered sulfur (2-3% by weight) and heat in a press or mold at 140-160°C for 30-60 minutes. The simplest method is to press the sulfur-rubber mixture between two metal plates heated over a fire, using a thermometer or temperature-indicating crayon to monitor heat.
 
 ## Safety Considerations
 
@@ -138,12 +154,49 @@ Primary outputs: `natural_rubber` for waterproofing and elastic materials.
 - **Guayule** (*Parthenium argentatum*): Desert shrub rubber source. Different extraction method (whole-plant harvesting, not tapping). Arid zones.
 - **Castilla elastica** (Panama rubber tree): Central American species with usable latex. Lower quality than Hevea but historically important in Mesoamerica.
 - **Synthetic rubber**: Petroleum-based rubbers (SBR, neoprene, butyl) replace natural rubber for most applications at higher technology levels.
+- **Gutta-percha** (*Palaquium gutta*): Related latex-producing tree. The rubber is trans-polyisoprene (not cis-), making it hard rather than elastic. Used for electrical insulation and dental fillings.
+
+### Non-Rubber Uses
+
+*Ficus elastica* is widely cultivated as an ornamental houseplant, which means it is already present in many temperate locations as a source of small quantities of rubber. The aerial roots of mature trees can be trained into living bridges and frameworks — a technique used in Meghalaya, India. The timber is soft and not durable but can be used for temporary construction or fuel. The tree produces figs that, while not choice edibles, support wildlife populations.
 
 ## References
 
 - [Chemistry](../chemistry/index.md) — rubber chemistry and vulcanization
 - [Guayule](./parthenium-argentatum.md) — arid-zone rubber alternative
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Comparison with Hevea brasiliensis
+
+The Para rubber tree (*Hevea brasiliensis*) is the gold standard for natural rubber production,
+yielding 2-5 kg of dry rubber per tree per year from a tapping system that is simpler and more
+efficient than any alternative. A well-managed Hevea plantation produces 1,000-2,000 kg/ha/year.
+The latex flows freely from bark cuts, contains 30-40% dry rubber, and is easily processed into
+high-quality sheets or blocks.
+
+*Ficus elastica* produces only 0.5-2.0 kg per tree per year with lower rubber quality (higher
+resin content, lower elasticity). However, *Ficus elastica* tolerates cooler temperatures
+(down to 5°C vs. Hevea's minimum of 15°C), poorer soils, and lower humidity. In subtropical
+regions where Hevea cannot grow, *Ficus elastica* provides a viable — if lower-yielding —
+rubber source. The tree is also more resistant to South American leaf blight, the fungal
+disease that threatens Hevea plantations in the Americas.
+
+For civilization bootstrapping in subtropical zones, *Ficus elastica* serves as a backup
+rubber source that can be established from ornamental specimens already present in many
+temperate-region collections. The tree's presence as a common houseplant means it may be
+available even in regions far from its native tropical habitat.
+
+The India rubber tree produces aerial prop roots that descend from branches to the ground, eventually forming additional trunk columns. This growth habit allows a single tree to spread across a large area over time, creating a living framework that can support structures or bridge gaps. In Meghalaya, India, the Khasi people train the aerial roots of related fig species across rivers to create living root bridges that grow stronger over time.
+
+### India Rubber Tree Summary
+
+This species represents an important component of a diversified food production system.
+No single crop provides complete nutrition, and dietary diversity is essential for human
+health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
+vegetables, and nuts to ensure adequate intake of calories, protein, vitamins, and minerals.
+
+The crop's specific growing requirements (soil type, rainfall, temperature range, and
+growing season length) determine its geographic suitability. Matching crops to local
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

@@ -98,6 +98,20 @@ Primary outputs: `natural_rubber` for waterproofing, elastic materials, and tire
 | Temperature tolerance | -10 to 45°C | Very hardy |
 | Vulcanization temperature | 140-160°C | With sulfur (2-4% by weight) |
 | Vulcanization time | 15-60 minutes | Depending on product thickness |
+| Guayule rubber molecular weight | 1.0-2.5 million Daltons | Comparable to Hevea |
+| Resin content (co-extracted) | 15-25% of total extract | Must be separated for quality rubber |
+
+### Solvent Extraction Details
+
+Guayule rubber extraction is fundamentally different from Hevea rubber extraction because the rubber is stored in individual parenchyma cells throughout the stem rather than in specialized latex vessels. The grinding step must rupture these cells to release the rubber particles. A hammer mill or stone mill that reduces the dried stems to 1-5 mm particles provides adequate cell rupture.
+
+The solvent dissolves both rubber and resin (a mixture of terpenes, fatty acids, and other low-molecular-weight compounds). Resin constitutes 15-25% of the total solvent extract and must be separated from the rubber for quality products. The traditional method is acetone pre-extraction: first extract the ground biomass with acetone to remove resins, then extract with hexane to recover purified rubber. This two-solvent system produces rubber with properties close to Hevea rubber.
+
+The mechanical (water-based) extraction method avoids solvents entirely but produces lower-quality rubber. The rubber particles coagulate by mechanical entanglement during beating, forming a spongy mass that is skimmed off. This rubber contains 20-40% resin and plant debris, making it suitable only for basic applications (elastic bands, waterproof coatings) where high purity is not required. For most bootstrap applications, this lower-quality rubber is adequate.
+
+### Byproducts and Resin Utilization
+
+The resin co-extracted with guayule rubber contains terpenoids with insecticidal and antifungal properties. The bagasse (spent plant material after extraction) can be burned as fuel or processed into particleboard. The high resin content of guayule bagasse (even after extraction) makes it burn hot and fast, suitable for boiler fuel in the extraction facility itself.
 
 ## Safety Considerations
 
@@ -152,6 +166,11 @@ Primary outputs: `natural_rubber` for waterproofing, elastic materials, and tire
 - **Russian dandelion** (*Taraxacum kok-saghyz*): Temperate rubber source from root latex. Very low yield per hectare but grows in cold climates. Potential for small-scale rubber production.
 - **Goldenrod** (*Solidago leavenworthii*): Produces rubber in stems. Low yield, investigated by Thomas Edison and Henry Ford. Not commercially viable.
 - **Gutta-percha** (*Palaquium gutta*): Produces trans-polyisoprene (hard, non-elastic rubber). Used for electrical insulation and dental fillings. Tropical tree.
+- **Sunflower** (*Helianthus annuus*): Some wild species produce rubber in stems and roots. Very low yield but widely adaptable annual crop. Potential for marginal rubber production in temperate zones.
+
+### Strategic Rubber Independence
+
+For a civilization bootstrap scenario, guayule provides rubber independence in arid zones where neither Hevea (tropical) nor Russian dandelion (cold temperate) can grow. The southwestern United States, northern Mexico, the Middle East, and arid regions of Australia and Africa are all potential guayule rubber production zones. The ability to produce rubber domestically — rather than importing from distant tropical regions — is strategically valuable for a self-sufficient civilization. Even at lower yield per hectare than Hevea, guayule rubber reduces dependency on tropical supply chains.
 
 ## References
 
@@ -159,6 +178,25 @@ Primary outputs: `natural_rubber` for waterproofing, elastic materials, and tire
 - [Machine Tools](../machine-tools/index.md) — rubber seals and gaskets for machinery
 - [English Oak](./quercus-robur.md) — tannins used in leather processing, a related industrial material
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Guayule Rubber Quality
+
+Guayule rubber is chemically almost identical to Hevea rubber (both are cis-1,4-polyisoprene)
+and can be used interchangeably for most applications. The key difference is molecular weight
+distribution: guayule rubber has a slightly broader distribution, which affects processing
+behavior but not end-use performance. Tensile strength, elongation, and tear resistance of
+guayule vulcanizates are within 5-10% of Hevea values.
+
+One advantage of guayule rubber is its low protein content. Hevea latex contains proteins
+that cause allergic reactions in 1-6% of the general population. Guayule rubber is essentially
+hypoallergenic because the extraction process removes virtually all plant proteins. This makes
+guayule rubber the preferred material for medical gloves and other products where latex
+allergy is a concern.
+
+Guayule rubber production was revived during the 2000s due to concerns about latex allergy from Hevea rubber. The US government invested in guayule research as a domestic rubber source, and several pilot processing plants were built in Arizona. While production remains small compared to Hevea, guayule represents a strategically important rubber alternative for arid regions.
+
+### Guayule Summary
+
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

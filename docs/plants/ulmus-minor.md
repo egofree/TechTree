@@ -83,6 +83,22 @@ Primary outputs: `tough_timber` for wheel hubs, water pipes, and applications re
 | Seasoning time (hub blank, 150 mm) | 2-3 years | Air dried |
 | Rotation age | 40-60 years | For timber-quality trees |
 | Growth rate | Fast in youth | 0.5-1.0 m/year height growth |
+| Elm timber color | Pale brown | Distinctive, with darker streaks |
+| Dutch elm disease mortality | >95% | Of mature trees in affected regions |
+
+### Wheel Hub Engineering
+
+The wagon wheel hub is the most mechanically stressed wooden component in pre-industrial transport. The hub must absorb the impact of every stone, rut, and obstacle while transferring rotational force from the axle to the spokes. Elm's interlocked grain means that when one fiber tries to split, adjacent fibers running in different directions resist the split. This is why elm was the universal choice for wheel hubs across Europe for centuries.
+
+A typical wagon wheel hub is 150-200 mm in diameter and 200-300 mm long, bored with a central hole for the axle (40-60 mm diameter) and mortised with 12-16 rectangular slots for the spokes. The hub is assembled with ash spokes (selected for straight grain and flexibility) and oak or ash felloes (rim sections). An iron tire, heated to expand and then cooled to shrink-fit, binds the entire assembly tightly.
+
+The critical quality requirement is that the hub grain run parallel to the axle bore for the entire length. Any grain runout creates a weak point where the hub can split under the repeated shock of road travel. Selecting elm billets with straight grain for hub production is a skilled task — the interlocked grain makes visual grain reading more difficult than with straight-grained species like ash.
+
+### Water Pipe and Hydraulic Applications
+
+Before iron pipes, elm trunks were hollowed out and used as water mains in European cities. London's water distribution system used elm pipes from the 13th century through the 18th century. The wood's resistance to decay in alternating wet conditions (filling and draining) made it serviceable for decades. Hollow elm pipes were also used for drainage, culverts, and pump cylinders.
+
+To make an elm water pipe: select a straight elm trunk 100-200 mm in diameter. Bore out the center with a long auger, leaving 20-30 mm of wall thickness. Connect sections by boring one end slightly larger and fitting the next section into it, sealed with pitch or lead. Elm pipes typically last 20-50 years in continuous water service, far longer than most other available materials before ironworking.
 
 ## Safety Considerations
 
@@ -133,6 +149,8 @@ Primary outputs: `tough_timber` for wheel hubs, water pipes, and applications re
 - **American elm** (*Ulmus americana*): Similar properties, also devastated by Dutch elm disease.
 - **White ash** (*Fraxinus americana*): Tough, shock-resistant timber. Good alternative for wheel hubs, though less split-resistant than elm.
 - **Oak** (*Quercus robur*): Stronger and more durable than elm but splits more readily. Can be used for hubs if grain selection is careful.
+- **Hornbeam** (*Carpinus betulus*): Very hard, tough wood. Split-resistant. A potential alternative for wheel hubs and mallet heads where elm is unavailable.
+- **Apple/pear wood**: Dense, hard, and split-resistant. Suitable for small wheel hubs and gear blanks in moderate-duty applications.
 
 ## References
 
@@ -142,6 +160,45 @@ Primary outputs: `tough_timber` for wheel hubs, water pipes, and applications re
 - [European Ash](./fraxinus-excelsior.md) — comparison tough timber (tool handles, bentwood)
 - [English Oak](./quercus-robur.md) — comparison durable timber
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Dutch Elm Disease and Recovery
+
+Dutch elm disease has killed over 95% of mature elm trees in Europe and North America since
+the 1920s. The disease is caused by the fungus *Ophiostoma novo-ulmi*, spread by elm bark
+beetles that carry fungal spores on their bodies. The fungus colonizes the water-conducting
+vessels of the tree, producing toxins and causing the vessels to plug, ultimately killing the
+tree by cutting off water supply to the crown.
+
+Despite the devastation, elm is not extinct. The roots of killed trees survive and produce
+suckers that grow to 5-10 meters before becoming large enough to attract bark beetles and
+succumbing to reinfection. This cycle of growth and death maintains a population of young
+elm trees in hedgerows and woodlands across Europe.
+
+Disease-resistant elm cultivars have been developed through breeding programs. 'Resista'
+elms (*Ulmus* hybrids with Asian species carrying resistance genes) show good resistance
+to the disease and are being replanted in urban and rural settings. For civilization
+bootstrapping, planting resistant cultivars ensures continued access to elm's unique
+timber properties for wheel-making and water-resistant construction.
+
+Elm wood has a distinctive interlocked grain that produces an attractive, swirling figure on quartersawn surfaces. While this interlocked grain makes the wood difficult to split and hard to machine, it gives elm a toughness that few other timbers can match. In addition to wheel hubs, elm was the traditional choice for chair seats (Windsor chairs), chopping blocks, mallet heads, and any application requiring resistance to splitting under repeated impact.
+
+### Field Elm Summary
+
+This species represents an important component of a diversified food production system.
+No single crop provides complete nutrition, and dietary diversity is essential for human
+health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
+vegetables, and nuts to ensure adequate intake of calories, protein, vitamins, and minerals.
+
+The crop's specific growing requirements (soil type, rainfall, temperature range, and
+growing season length) determine its geographic suitability. Matching crops to local
+conditions is more important than attempting to grow unsuitable crops in marginal
+environments. Where this species is well-adapted, it should be a priority for cultivation;
+where conditions are marginal, alternative species should be preferred.
+
+
+
+
+
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

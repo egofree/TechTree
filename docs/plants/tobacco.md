@@ -191,5 +191,11 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 - Data sourced from Food Plants International, Wikipedia, and iNaturalist via the Edible Plant Database (ZIM)
 - Plants for a Future (pfaf.org) — supplementary cultivation and use data
 
+Tobacco leaves contain 1-6% nicotine by dry weight, concentrated in the leaf tissue. Beyond smoking and chewing tobacco, the plant provides nicotine sulfate insecticide (one of the most potent natural contact insecticides), which is effective against aphids, whiteflies, and other soft-bodied pests. Nicotine sulfate is highly toxic to mammals and must be handled with care. Tobacco seed yields 30-40% semi-drying oil suitable for paint and soap making.
+Tobacco cultivation requires significant labor for transplanting, topping (removing flower heads
+to redirect growth to leaves), and harvesting. The curing process (air curing, flue curing, or
+sun curing) determines the final leaf character. Air-cured burley tobacco takes 4-8 weeks and
+produces a mild, low-sugar leaf suitable for cigarette and pipe tobacco production.
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

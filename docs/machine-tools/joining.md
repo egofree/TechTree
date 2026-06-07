@@ -11,6 +11,14 @@
 
 Metal joining is the capability that makes machinery possible. Individual forged or cast parts are rarely useful alone — they must be assembled into structures, mechanisms, pressure vessels, and frames. Each method occupies a specific niche defined by temperature, joint strength, equipment requirements, and the materials it can join. No single method replaces all others — a complete industrial shop needs all three families.
 
+The three fundamental families of metal joining are:
+
+1. **Fusion welding**: The base metal is melted at the joint. Forge welding, oxy-acetylene, arc welding (SMAW, TIG, MIG), electron beam, laser, and resistance welding all fall in this category. Fusion welding produces the strongest joints (350-550 MPa) but requires the most equipment and generates the most heat distortion.
+
+2. **Filler alloy joining (brazing and soldering)**: A filler metal with a lower melting point than the base metal flows into the joint by capillary action. The base metal never melts, which means dissimilar metals can be joined and heat distortion is minimal. Brazing produces structural-strength joints (150-300 MPa); soldering produces lower-strength joints (20-50 MPa) suitable for electrical and plumbing applications.
+
+3. **Mechanical fastening (riveting)**: No melting of any kind. Rivets are inserted through holes and deformed to clamp the parts together. The simplest and most inspectable joining method, but the most labor-intensive and the only one that weakens the base metal by drilling holes through it.
+
 For the metallurgy of producing iron and steel stock to be joined, see [Iron & Steel](../metals/iron-steel.md). For the electrical infrastructure needed by arc welding, see [Electricity](../energy/electricity.md).
 
 ## Articles in this Section
@@ -19,7 +27,82 @@ For the metallurgy of producing iron and steel stock to be joined, see [Iron & S
 - **[Brazing & Soldering](./brazing-soldering.md)** — Brass brazing (spelter brazing), silver brazing (hard soldering), and soft soldering. Filler alloy joining where the base metal does not melt. Brazing for structural joints; soldering for electrical connections, plumbing, and sheet metal seams.
 - **[Riveting](./riveting.md)** — Hot and cold riveting, joint configurations (lap, butt with cover plates, boiler seams), rivet patterns, and inspection. Mechanical joining with no heat at the joint.
 
-## Method Selection Overview
+## Bootstrap Progression
+
+A civilization rebuilding its industrial base follows a predictable joining progression:
+
+**Stage 1 — Forge welding and riveting (Years 5-15)**: With a forge and hammer, iron and low-carbon steel can be forge-welded at 1200-1300°C. Rivets require only drilled holes and a forge for heating. These two methods suffice for structural steel (bridges, building frames), boilers, ships, and machine frames. No electricity required. Every medieval-to-19th-century structure was built with forge welding and riveting.
+
+**Stage 2 — Brazing and soldering (Years 5-20)**: Brass brazing requires copper, zinc, borax, and a forge or torch. Soft soldering requires tin, lead, and a simple torch. These enable plumbing, instrument work, electrical connections, and joining dissimilar metals (steel to copper, cast iron repair). Brazing and soldering are achievable as soon as the constituent metals are available.
+
+**Stage 3 — Arc welding (Years 15-40)**: Oxy-acetylene welding requires acetylene generation (calcium carbide + water) and oxygen supply. SMAW (stick welding) requires electricity (50-400A at 20-50V), coated electrodes, and a welding power supply. TIG and MIG follow once tungsten electrodes and wire feed mechanisms are available. Arc welding transforms fabrication speed: a single welder replaces a riveting crew of 4-6 workers.
+
+**Stage 4 — Advanced and precision joining (Years 40-70+)**: Resistance welding (spot, seam) for sheet metal production. Electron beam welding for vacuum chambers and aerospace. Friction stir welding for aluminum alloys. Ultrasonic wire bonding for semiconductor packaging. Laser welding for high-speed automated joining. Each method requires progressively more sophisticated equipment but enables correspondingly more demanding applications.
+
+## Prerequisites by Method
+
+| Method | Required Capabilities | Minimum Industrial Base |
+|--------|----------------------|------------------------|
+| Forge welding | Forge (charcoal or coal), hammer, anvil | Bloomery iron, basic blacksmithing |
+| Riveting | Drill, forge for heating rivets, hammer | Wrought iron or mild steel, drilling capability |
+| Brass brazing | Copper, zinc, borax, forge/torch (950°C) | Copper/zinc smelting, borax mining |
+| Silver brazing | Silver, copper, zinc, fluoride flux, torch | Silver sourcing, gas torch |
+| Soft soldering | Tin, lead, flux, soldering iron/torch (250°C) | Tin/lead smelting |
+| Oxy-acetylene welding | Acetylene generator, oxygen supply, torch | Calcium carbide production, gas handling |
+| SMAW (stick) | Welding power supply, coated electrodes | Electricity (200A+), electrode coating chemistry |
+| TIG (GTAW) | Constant-current power supply, tungsten electrode, argon gas | Tungsten production, argon supply, precision gas flow control |
+| MIG (GMAW) | Constant-voltage power supply, wire feed, shielding gas | Wire drawing, gas supply, motorized feed mechanism |
+| Resistance welding | High-current transformer, copper electrodes, timer | Heavy electrical infrastructure (10-50 kA), process control |
+| Electron beam | Vacuum chamber, electron gun, high-voltage supply (30-150 kV) | High-vacuum technology, precision machining, high-voltage engineering |
+| Friction stir | CNC machine, hardened steel tool, force control | CNC machining, high-force spindle, process control |
+| Laser welding | Laser source (1-10 kW), beam delivery, shielding gas | Laser technology, precision optics, automation |
+| Ultrasonic bonding | Ultrasonic transducer (20-60 kHz), force control | Piezoelectric ceramics, power electronics |
+| Diffusion bonding | Hot press, vacuum or inert atmosphere, surface prep | Vacuum furnaces, precision surface finishing (Ra ≤ 0.4 μm) |
+
+## Integration Points
+
+| Phase | Joining Methods Used | Key Structures Built |
+|-------|---------------------|---------------------|
+| Foundations | Forge welding, riveting | Tools, cart axles, simple bridges |
+| Metallurgy | Forge welding, riveting, brass brazing | Bellows, furnace frames, rolling mill stands |
+| Machine Tools | Brazing, soldering, early arc welding | Lathe beds, gearboxes, machine frames |
+| Energy | Arc welding (SMAW), riveting, brazing | Steam boilers, engine frames, turbine casings |
+| Chemistry | Soldering, brazing, TIG welding | Pressure vessels, piping, heat exchangers |
+| Vacuum & Optics | TIG, electron beam, diffusion bonding | Vacuum chambers, optical mounts, UHV components |
+| Silicon | Ultrasonic bonding, TIG, laser welding | Crystal pullers, wafer handling, process chambers |
+| Electronics | Soft soldering, ultrasonic wire bonding, laser | PCB assembly, IC packaging, wire bonding |
+
+## Scaling Notes
+
+Joining production scales from individual craftsmen to automated production lines:
+
+- **Workshop scale** (1-5 operators): Forge, anvil, torch, and a single arc welding station. Brazing and soldering at the bench. All joining methods available but slow. Production: 5-50 joints per hour. This is the bootstrap workshop that builds the first machine tools, engines, and infrastructure.
+
+- **Factory scale** (10-50 operators): Multiple welding stations with dedicated SMAW and MIG stations. Brazing furnaces for batch production. Riveting crew for heavy structural work. Production: 50-500 joints per hour. This scale builds locomotives, bridges, ships, and power plants.
+
+- **Industrial scale** (automated, 100+ operators): Robotic MIG welding cells for automotive frames. Submerged arc welding for ship hulls and pressure vessels. Electron beam welding for aerospace components. Laser welding for high-speed production. Automated soldering (wave soldering) for electronics. Production: 1000+ joints per hour. This scale enables mass production of vehicles, aircraft, electronics, and semiconductor equipment.
+
+**Critical bottleneck**: Welding electrode and filler wire production. SMAW electrodes require core wire (drawn from steel rod), extruded flux coating (rutile, cellulose, or basic limestone-based mixtures with silicate binder), and baking to remove moisture. MIG wire requires precision drawing to 0.8-1.6 mm diameter with consistent feed characteristics. Without quality filler materials, even the best welding equipment produces defective joints.
+
+## Quality Control
+
+Joint quality is verified by increasingly sophisticated methods as the application demands:
+
+1. **Visual inspection** (all methods): The most basic and universal test. Inspect fillet shape, penetration, undercut, porosity, and surface cracks with good lighting and 5-10× magnification. An experienced inspector catches 80-90% of surface defects visually.
+
+2. **Tap testing** (rivets): Strike each rivet with a 200 g hammer. Tight rivets ring clearly; loose rivets produce a dull thud. Train inspectors on known-good and known-bad samples before allowing production inspection.
+
+3. **Dye penetrant testing** (surface cracks): Apply red dye to cleaned joint surface, let sit 10-15 minutes, wipe clean, apply white developer. Surface cracks draw red dye out of the crack and display as bright red lines on white background. Detects cracks as fine as 1 μm wide.
+
+4. **Magnetic particle testing** (ferromagnetic materials only): Magnetize the joint area, spray with iron particles (dry powder or wet fluorescent suspension). Surface and near-surface cracks create flux leakage that attracts particles, forming visible indications. More sensitive than dye penetrant for ferromagnetic materials.
+
+5. **Radiographic inspection** (critical joints): X-ray or gamma-ray exposure of the joint. Voids, porosity, incomplete penetration, and slag inclusions appear as dark spots on the radiograph. Required for pressure vessel longitudinal seams and structural joints in nuclear and aerospace applications.
+
+6. **Ultrasonic testing** (thick sections): High-frequency sound waves (1-10 MHz) reflect from internal defects. A skilled operator maps voids, cracks, and incomplete fusion zones inside thick welds. Required for critical applications where radiography is impractical (very thick sections, field inspections).
+
+7. **Destructive testing** (qualification coupons): Weld test coupons using the same procedure, then bend, tensile-test, and cross-section for metallographic examination. Required for welding procedure qualification (WPQ) before production welding begins.
+
+## See Also
 
 | Method | Temp Range | Joint Strength | Best For |
 |--------|-----------|---------------|----------|
@@ -107,7 +190,11 @@ Metal joining processes share common hazards (burns, eye injury, toxic fumes) bu
 - [Steam Power](../energy/steam-power.md) — boiler fabrication with welded joints
 - [Metal Forming](../metals/forming.md) — shaping before joining
 - [Machining](machining.md) — post-weld finishing and repair
+- [Brazing & Soldering](./brazing-soldering.md) — filler alloy joining methods
+- [Riveting](./riveting.md) — mechanical fastening with rivets
+- [Welding](./welding.md) — fusion and solid-state welding processes
 
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) · [Machine Tools Bootstrap](./index.md) · [All Domains](../index.md)*
+

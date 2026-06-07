@@ -196,5 +196,7 @@ Wild leek can also be grown as a cut-and-come-again leaf crop by planting densel
 The plant is also valued for its flower heads, which form large rounded umbels of pale purple to white flowers in summer. These flower heads are edible when young and have a mild onion-garlic flavor. Left to mature on the plant, they produce copious seed that can be collected for propagation or allowed to self-sow. The flowers are also highly attractive to bees and other pollinators, making wild leek a useful addition to pollinator-support plantings in mixed vegetable gardens.
 
 The species has been used as a genetic reservoir for improving cultivated leeks, contributing traits for drought tolerance, pest resistance, and cold hardiness. Plant breeders have crossed wild A. ampeloprasum with cultivated leeks to produce varieties better suited to marginal growing conditions. This breeding value adds another reason to maintain wild populations and cultivated stands of the species alongside its direct food value.
+### Allium ampeloprasum Summary
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

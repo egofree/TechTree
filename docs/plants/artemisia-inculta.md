@@ -196,5 +196,7 @@ The species' rarity in botanical collections and herbariums reflects its limited
 The plant's compact growth habit, rarely exceeding 40 cm in height, helps it avoid wind damage and reduce water loss in its exposed desert habitat. Low-growing plants present less surface area to drying desert winds than taller species. The silvery leaf color also reflects intense solar radiation, keeping leaf temperatures lower than the surrounding air. These combined adaptations allow Artemisia inculta to photosynthesize efficiently in conditions that would cause most plants to close their stomata and stop growing.
 
 In cultivation, the plant responds poorly to any attempt to improve its growing conditions. Fertilizer, rich soil, and regular watering all produce leggy, weak growth with lower essential oil content. The best cultivated specimens come from lean, rocky soil with minimal intervention. This makes Artemisia inculta one of the easiest medicinal plants to maintain in appropriate arid conditions, and one of the most difficult to grow well in temperate or humid gardens.
+### Artemisia inculta Summary
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

@@ -89,6 +89,21 @@ Primary outputs: `quinine` for malaria treatment, `quinidine` for cardiac arrhyt
 | Optimal elevation | 1,000-2,500 m | Montane tropical |
 | Optimal temperature | 15-20°C | Cool tropical |
 | Bark regeneration time | 3-5 years | After partial stripping |
+| Bark yield per hectare | 1,200-10,000 kg | Dried, at 8-year harvest |
+| Seed viability | 1-3 months | Must plant fresh seeds |
+| Tree spacing (plantation) | 3-4 m | 600-1,000 trees per hectare |
+
+### Extraction Processing Details
+
+Quinine extraction from cinchona bark proceeds in stages. The first step is always acidified water decoction: boiling bark powder in water with added tartaric or citric acid at pH 3-4. Acid converts quinine to its more water-soluble salt form (quinine sulfate or quinine hydrochloride). A single decoction extracts 60-70% of available alkaloids. Three successive decoctions of the same bark (using fresh acidified water each time) extract 85-95% of total alkaloids.
+
+For purification, the combined acidic extracts are basified with sodium hydroxide or lime (pH 9-10). Quinine free base precipitates as a white to yellow-white solid. Filter, wash with cold water, and dry. This crude quinine contains 40-70% quinine with the remainder being other cinchona alkaloids (quinidine, cinchonine, cinchonidine). For medical use, this mixture is acceptable — all four alkaloids have antimalarial activity, though quinine is the most potent.
+
+Further purification by recrystallization from hot ethanol yields pharmaceutical-grade quinine (>95% purity). Dissolve crude quinine in hot ethanol (7:1 ratio), filter hot to remove insoluble material, and cool slowly. Quinine crystallizes as fine white needles. A second recrystallization yields >99% pure quinine.
+
+### Quinine Tonic Water and Prophylaxis
+
+Dissolving quinine in carbonated water produces tonic water, originally developed as a palatable way to deliver prophylactic quinine doses to colonial administrators in malaria-endemic regions. Modern tonic water contains 80-100 mg of quinine per liter — far below therapeutic dose but enough to give the characteristic bitter flavor. For therapeutic purposes, direct bark decoction or purified quinine tablets are necessary.
 
 ## Safety Considerations
 
@@ -144,12 +159,44 @@ Primary outputs: `quinine` for malaria treatment, `quinidine` for cardiac arrhyt
 - **Synthetic quinine**: First synthesized in 1944. Requires complex organic chemistry. Replaced natural quinine for most commercial production.
 - **Chloroquine**: Synthetic antimalarial derived from quinine. Easier to produce, fewer side effects. Rendered less effective by widespread resistance.
 
+### Additional Cinchona Products
+
+Besides quinine, cinchona bark yields quinidine (used to treat cardiac arrhythmias), cinchonine (moderate antimalarial), and cinchonidine. Quinidine is therapeutically important for treating atrial fibrillation and ventricular arrhythmias — conditions also treated by digitalis but through a different mechanism. The red dye extracted from cinchona bark was used commercially as a textile and hair dye before synthetic alternatives became available. Cinchona bark tea remains a traditional remedy for fever, leg cramps, and digestive complaints in Andean communities.
+
 ## References
 
 - [Health](../health/index.md) — malaria treatment and medicine
 - [Sweet Wormwood](./artemisia-annua.md) — alternative antimalarial plant
 - [Foxglove](./digitalis-purpurea.md) — comparison medicinal plant (cardiac)
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Cinchona Cultivation Challenges
+
+Cinchona cultivation presents several challenges that limit its spread. The seeds lose viability
+within 1-3 months of collection, requiring prompt planting or careful storage in cool, moist
+conditions. Seedlings are slow-growing and delicate, requiring shade, consistent moisture, and
+protection from wind during their first year. Transplant survival rates are 60-80% even under
+good conditions.
+
+The tree's requirement for montane tropical conditions (1,000-2,500 m elevation, 15-20°C mean
+temperature, 1,500-3,000 mm rainfall) restricts cultivation to specific geographic zones.
+Suitable sites exist in the Andes, East African highlands, Indonesian mountains, and the
+Himalayan foothills. Lowland tropical areas are too hot; temperate areas are too cold.
+
+The 6-8 year wait before bark harvest means that cinchona plantations require long-term
+investment and planning. Once established, trees can be harvested sustainably for decades
+through partial bark stripping. The key is to leave enough bark intact (minimum 30%) for
+the tree to survive and regenerate the harvested areas within 3-5 years.
+
+Cinchona bark was so valuable in the 19th century that explorers risked their lives to smuggle seeds and plants from South America to establish plantations in Asia. The Dutch established cinchona plantations in Java that eventually produced 90% of the world's quinine supply. This transfer of biological wealth from South America to Southeast Asia was one of the most consequential plant introductions in history, enabling malaria treatment on an industrial scale.
+
+### Cinchona Summary
+
+This species represents an important component of a diversified food production system.
+No single crop provides complete nutrition, and dietary diversity is essential for human
+health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
+vegetables, and nuts to ensure adequate intake of calories, protein, vitamins, and minerals.
+
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

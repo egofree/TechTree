@@ -196,5 +196,7 @@ For dye extraction, harvest whole plants at flowering, chop coarsely, and simmer
 Agrimonia pilosa can be confused with Agrimonia eupatoria (common agrimony) in regions where both species grow. The two are distinguished by leaf shape and hair density: A. pilosa has more densely hairy stems and leaves, giving it a grayer appearance, and its leaflets are more deeply toothed. For medicinal purposes, the two species are generally used interchangeably, but accurate identification matters for propagation, as the species have slightly different growing requirements and medicinal compound profiles.
 
 The dried herb is also incorporated into herbal bath preparations for treating skin conditions and promoting wound healing. A strong decoction added to bathwater provides a mild astringent effect on the skin. This topical application is considered one of the safest ways to use agrimony, as it avoids the potential gastrointestinal effects of internal consumption while still delivering the herb's tannin-based anti-inflammatory action to affected skin areas.
+### Agrimonia pilosa Summary
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

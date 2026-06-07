@@ -155,6 +155,39 @@ Bearing manufacture and installation involve hot metal (babbitt pouring at 400-4
 | Bearing housing bore worn oversize | Fretting corrosion between bearing outer ring and housing from micro-motion | Measure housing bore with inside micrometer; if worn beyond tolerance (52.000-52.002 mm for 6205), bore oversize and install a sleeve, or replace housing; apply Loctite bearing retainer to prevent recurrence |
 | Bronze bushing seizing after brief operation | Insufficient initial lubrication, or debris in the oil hole | Prime the oiling system before first start; flush oil passages with clean oil; verify oil reaches the bearing surface within 30 seconds of start-up; never run a dry bronze bearing under load |
 
+## Scaling Notes
+
+Bearing production scales dramatically with precision capability:
+
+- **Workshop scale** (1-10 bearings/day): Hand-scraped babbitt plain bearings poured in place on the shaft. Oil grooves cut with a narrow chisel. Tolerance: ±0.05 mm on clearance. Adequate for low-speed machinery (under 500 RPM). One skilled machinist with a lathe, foundry crucible, and scraping tools.
+
+- **Factory scale** (100-1,000 bearings/day): Machine-bored babbitt shells with concentric oil grooves. Turned bronze bushings. Purchased ball bearings (if available from a supplier). Tolerance: ±0.01 mm on bore and clearance. This scale supports general industrial machinery — line shafts, pumps, blowers, and machine tools up to medium precision.
+
+- **Precision scale** (10,000+ bearings/day): Ground and super-finished ball bearings with sub-micron raceway roundness. ABEC 7-9 precision grades for spindle bearings. Requires precision grinding machines, clean assembly rooms, and steel with controlled inclusion content (bearing steel 52100, vacuum-degassed). This scale enables high-speed spindles (10,000+ RPM) and precision machine tools.
+
+**Critical bottleneck**: Steel purity for rolling-element bearings. Bearing steel (SAE 52100, 1% C, 1.5% Cr) must have oxide inclusion content below 0.001% by volume. Inclusions act as stress concentrators that initiate fatigue spalling. Vacuum degassing or electroslag remelting is required to achieve this purity level. Without it, bearing fatigue life drops by 5-10×.
+
+## Quality Control
+
+| Check | Method | Acceptance Criteria |
+|-------|--------|-------------------|
+| Radial clearance (ball bearing) | Dial indicator on outer ring, inner ring fixed | C2: 5-15 μm, CN: 15-30 μm, C3: 30-45 μm (varies by bore diameter) |
+| Bore diameter (inner ring) | Air gauge or calibrated plug gauge | k5 tolerance: +2 to +8 μm over nominal for 25 mm bore |
+| Outside diameter (outer ring) | Micrometer or ring gauge | J6 tolerance: ±5 μm on nominal for 52 mm OD |
+| Raceway roundness | Roundness measuring instrument (spindle type) | ABEC 1: <5 μm, ABEC 5: <1 μm, ABEC 7: <0.5 μm |
+| Surface finish (raceway) | Profilometer | ABEC 1: <0.2 μm Ra, ABEC 5: <0.05 μm Ra |
+| Running noise | Accelerometer mounted on housing during test spin at 1,500 RPM | Andronoise value within bearing manufacturer specification |
+| Babbitt bond test | Ultrasonic inspection or tap test | No unbonded areas >5 mm diameter; ring tone when tapped |
+| Hardness (ball/roller) | Rockwell C tester | 58-64 HRC for 52100 bearing steel |
+
+## Safety & Hazards
+
+- **Entanglement**: Rotating shafts with exposed bearings can grab loose clothing, hair, or rags. Guard all exposed rotating parts. Wear fitted clothing; tie back long hair. Never wipe a rotating shaft with a rag.
+- **Burns**: Bearing housings on heavy machinery can reach 80-120°C in normal operation. Use infrared thermometer before touching. Wear leather gloves when handling bearings that have been in service.
+- **Eye injuries**: Bearing failure at speed ejects metal fragments. Never stand in the plane of rotation during bearing run-up after installation. Wear safety glasses in all bearing installation/removal areas.
+- **Chemical exposure**: Bearing cleaning solvents (mineral spirits, Stoddard solvent, acetone) are toxic and flammable. Use in well-ventilated areas with spark-free tools. Wear nitrile gloves. Store in approved flammable liquid cabinets.
+- **Heavy lifting**: Large bearings (>50 kg) require mechanical lifting. Use overhead crane or chain hoist. Never lift a bearing by clamping onto the inner ring — always support the outer ring or use slings around the housing.
+
 ## Cross-References
 
 - [Abrasives & Cutting Tools](./abrasives.md) — abrasive materials and cutting tool production

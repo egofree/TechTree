@@ -131,6 +131,30 @@ Bronze work-hardens similarly to copper but starts harder. As-cast 10% tin bronz
 - **Carbon monoxide poisoning**: Charcoal-fueled furnaces produce substantial carbon monoxide (CO). CO is odorless, colorless, and causes headache at 100 ppm, dizziness at 200 ppm, confusion at 400 ppm, and death at >1,000 ppm with 1-2 hours exposure. NIOSH IDLH: 1,200 ppm. Never operate furnaces in enclosed spaces. Ensure through-draft ventilation.
 - **Slag and spark injuries**: During hot forging and slag skimming, hot slag and metal particles spray out as bright sparks at 700-900 °C. Eye protection (safety glasses rated ANSI Z87.1 or face shield) is essential when hammering hot metal.
 
+## Scaling Notes
+
+Bronze production scales with furnace capacity and mold-making throughput:
+
+- **Workshop scale** (1-5 kg pour): Charcoal-fired pit furnace with clay-graphite crucible (capacity 1-2 kg). Hand-bellows or natural draft. Sand molds packed by hand, or carved stone molds for standard items. One craftworker. Production: 1-3 castings per day. This is the earliest bronze production scale — sufficient for tools, weapons, and ornaments.
+
+- **Foundry scale** (10-50 kg pour): Reverberatory furnace or forced-draft charcoal furnace. Graphite crucible (10-30 kg capacity). Multiple sand molding stations. Lost-wax casting for complex items. 3-8 workers. Production: 10-50 castings per day. This scale supports a small city's needs for tools, hardware, marine fittings, and weapons.
+
+- **Industrial scale** (100-1,000+ kg pour): Coke-fired or oil-fired crucible furnace. Mechanical sand mixing and molding machines. Multiple pouring lines. 20-100 workers. Production: 100-1,000 castings per day. This scale supplies industrial bearings, marine propellers, artillery, and architectural bronze.
+
+**Critical bottleneck**: Tin supply. Cassiterite (SnO₂) deposits are geographically concentrated. A bronze-producing civilization needs reliable trade routes or local tin deposits. Arsenical bronze (using arsenic-bearing copper ores) is a fallback but introduces severe toxicity during smelting.
+
+## Quality Control
+
+| Check | Method | Acceptance Criteria |
+|-------|--------|-------------------|
+| Alloy composition | Fracture test button — color and grain | Fine-grained, grey-pink for 10% Sn; reddish = too little tin; coarse white = too much tin |
+| Tin content (quantitative) | Density measurement (Archimedes) | 8.8 g/cm³ ±0.1 for 10% Sn bronze |
+| Gas porosity | Visual inspection of fracture surface | No visible gas holes >0.5 mm diameter |
+| Casting fill completeness | Weight vs. expected volume | Shortfall <5% of expected casting weight |
+| Surface hardness (as-cast) | File test or Brinell hardness | 120-150 HV for 10% Sn bronze |
+| Surface hardness (work-hardened) | File test or Brinell hardness | 200-250 HV after 50% cold reduction |
+| Mold dimensional accuracy | Straightedge + feeler gauges | ±1 mm for stone molds; ±2 mm for sand molds |
+
 ## Troubleshooting
 
 | Problem | Probable Cause | Solution |
@@ -140,6 +164,33 @@ Bronze work-hardens similarly to copper but starts harder. As-cast 10% tin bronz
 | Bronze casting has reddish color instead of golden-yellow | Tin content too low — copper-rich alloy | Verify tin charge weight; target 5–12% Sn for proper bronze |
 | Stone mold casting shows dimensional drift after 20+ pours | Mold surfaces eroding from repeated thermal cycling at 950–1100°C | Switch to new mold after 20–50 pours; for production runs >50 units, use carved soapstone or iron permanent molds |
 | Arsenical bronze fumes causing nausea among workers | Inadequate ventilation during smelting of arsenic-bearing ores | Move smelting outdoors or under hood; provide P100 respirators; consider switching to tin bronze if cassiterite is available |
+
+## Variations and Alternatives
+
+| Alloy | Composition | Key Properties | Best Application |
+|-------|------------|----------------|-----------------|
+| Classic bronze | 90% Cu, 10% Sn | Hardness 120-150 HV, good castability | Tools, weapons, statues |
+| Phosphor bronze | 90% Cu, 9.5% Sn, 0.5% P | Excellent fatigue resistance, spring properties | Springs, bearings, musical instruments |
+| Aluminum bronze | 89-95% Cu, 5-11% Al | High strength (400-600 MPa), excellent seawater corrosion resistance | Marine propellers, pump impellers, valves |
+| Silicon bronze | 96% Cu, 3% Si, 1% Mn | Good weldability, high toughness | Welding wire, marine hardware, art castings |
+| Arsenical bronze | 95-99% Cu, 1-5% As | Harder than pure copper, no tin required | Where cassiterite is unavailable (toxic during smelting) |
+| Leaded bronze | 85% Cu, 5% Sn, 5% Pb, 5% Zn | Excellent machinability, self-lubricating in bearings | Bearings, bushings, valves |
+| Bell metal | 78% Cu, 22% Sn | Very hard (250+ HV), resonant tone | Bells, cymbals, gongs |
+
+**Copper-only alternative**: Without tin, copper tools must be work-hardened by repeated cold hammering. Work-hardened copper reaches ~150 HV (compared to 120-150 HV for as-cast 10% Sn bronze). Copper tools are softer, require more frequent re-hardening, and lack bronze's castability advantage — but they work if tin is entirely unavailable.
+
+**Brass alternative**: Copper + zinc (30-40% Zn) produces brass, which is easier to machine than bronze and has an attractive gold color. Brass is softer (80-120 HV) and less corrosion-resistant in seawater. See [Non-Ferrous Metals](non-ferrous.md) for zinc production.
+
+## Historical Context
+
+Bronze was the first intentionally alloyed metal, appearing around 3300 BCE in the Near East. The Bronze Age lasted nearly 2,000 years before iron smelting became widespread. Key milestones:
+
+- **Copper Age (5500-3300 BCE)**: Pure copper tools, cold-worked and annealed. Soft (80-100 HV), limited durability. Arsenical copper appeared first — arsenic-bearing ores accidentally alloyed during smelting.
+- **Early Bronze Age (3300-2000 BCE)**: Deliberate tin addition to copper. 5-10% Sn bronze tools and weapons replaced copper. Casting enabled mass production of standardized items (axe heads, spear points, daggers).
+- **Full Bronze Age (2000-1200 BCE)**: Lost-wax casting developed for complex shapes. Trade networks for tin extended thousands of kilometers (Afghanistan tin to Mesopotamia, Cornwall tin to Mediterranean). Bronze became the dominant engineering material for tools, weapons, armor, and ship fittings.
+- **Late Bronze Age collapse (~1200 BCE)**: Disruption of tin trade routes coincided with iron smelting becoming practical. Bronze remained important for bearings, bells, and marine hardware long after iron tools became common.
+
+For a bootstrapping civilization, bronze fills the critical gap between copper (too soft for durable tools) and iron (requires higher smelting temperatures ~1200°C and more complex processing). A civilization with copper smelting and access to cassiterite can produce bronze tools within months — centuries before iron becomes practical.
 
 ## See Also
 

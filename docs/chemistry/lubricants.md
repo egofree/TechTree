@@ -129,6 +129,66 @@ Industrial plants monitor lubricant condition to schedule oil changes based on a
 - **Lubricant degradation in service**: All lubricants degrade during use. Oxidation thickens the oil and deposits varnish. Thermal breakdown at high temperatures produces sludge. Contamination with wear particles, water, and process chemicals reduces lubrication effectiveness. Regular oil analysis and timely replacement are essential for equipment reliability.
 
 
+## Lubrication Calculations
+
+### Sommerfeld Number (Bearing Design)
+
+The Sommerfeld number (S) is the key dimensionless parameter for journal bearing design. It determines whether a hydrodynamic film can be maintained:
+
+**S = (r/c)² × (μ × N / P)**
+
+Where: r = shaft radius (m), c = radial clearance (m), μ = dynamic viscosity (Pa·s), N = rotational speed (rev/s), P = bearing pressure (Pa) = W/(2×r×L), W = radial load (N), L = bearing length (m).
+
+**Interpretation**: S > 1 indicates full hydrodynamic lubrication (reliable). S = 0.1-1 indicates mixed regime (some metal contact, increased wear). S < 0.1 indicates boundary regime (rapid wear unless boundary lubricants present).
+
+**Example**: 50 mm diameter shaft, 50 mm bearing length, 500 N radial load, 1500 RPM, ISO VG 32 oil (μ ≈ 0.028 Pa·s at 40°C), clearance c = 0.025 mm:
+- P = 500 / (0.025 × 0.050) = 400,000 Pa = 0.4 MPa
+- S = (25/0.025)² × (0.028 × 25 / 400,000) = 1,000,000 × 0.00175 = 1,750
+- S >> 1: Full hydrodynamic film. Bearing operates reliably.
+
+**Same bearing at 100 RPM**: S = 1,750 × (100/1500) = 117. Still hydrodynamic.
+
+**Same bearing at 10 RPM**: S = 1,750 × (10/1500) = 11.7. Still above 1 but approaching mixed regime. Consider higher viscosity oil (ISO VG 68) for very slow speeds.
+
+### Minimum Film Thickness
+
+**h_min ≈ c × (1 - ε)** where ε = eccentricity ratio (0 = concentric, 1 = contact).
+
+For practical design: **h_min > 3× combined surface roughness (R_a)**. Typical surface roughness: ground shaft R_a = 0.4-0.8 μm, bored bearing R_a = 0.8-1.6 μm. Combined roughness ≈ √(R_a1² + R_a2²) ≈ 1.0-1.8 μm. Therefore h_min > 3-5 μm is the minimum for full film separation.
+
+### PV Limit Check
+
+**PV = P × V** (MPa × m/s). Each bearing material has a maximum PV:
+
+| Material | Max PV (MPa·m/s) | Max P (MPa) | Max V (m/s) | Notes |
+|----------|-------------------|-------------|-------------|-------|
+| PTFE (unfilled) | 0.35 | 7 | 0.5 | Low load, low speed; cold flows above 7 MPa |
+| Acetal (Delrin) | 0.15 | 10 | 1.0 | Good for gears and light bearings |
+| Nylon 6/6 | 0.10 | 7 | 2.5 | General-purpose polymer bearing |
+| Carbon-graphite | 0.50 | 4 | 10 | High temperature, self-lubricating |
+| Bronze (phosphor) | 1.75 | 14 | 7.5 | Standard bearing bronze with oil lubrication |
+| Babbitt metal | 1.05 | 7 | 7.5 | Soft overlay on steel backing, excellent embeddability |
+| Cast iron | 0.35 | 4 | 2.5 | Low-cost, marginal lubrication required |
+
+**Example**: A 50 mm shaft at 300 RPM carrying 2000 N on a 50 mm long bronze bearing:
+- P = 2000 / (0.050 × 0.050) = 0.8 MPa
+- V = π × 0.050 × 300/60 = 0.785 m/s
+- PV = 0.8 × 0.785 = 0.63 MPa·m/s
+- Bronze max PV = 1.75 MPa·m/s → OK, adequate margin.
+
+### Oil Viscosity Selection Quick Guide
+
+| Shaft Speed (RPM) | Load Level | ISO VG Grade | Typical Application |
+|-------------------|------------|-------------|---------------------|
+| >3000 | Light | VG 22-32 | Spindle bearings, turbines |
+| 1500-3000 | Light-Moderate | VG 32-46 | Electric motors, pumps |
+| 750-1500 | Moderate | VG 46-68 | Machine tools, general machinery |
+| 300-750 | Moderate-Heavy | VG 68-100 | Gearboxes, moderate gears |
+| 100-300 | Heavy | VG 100-150 | Slow gear drives, heavy bearings |
+| <100 | Very Heavy | VG 220-460 | Large gear drives, crusher bearings |
+
+Rule of thumb: select the lowest viscosity that maintains Sommerfeld number >1 at operating temperature. Higher viscosity than necessary wastes energy as viscous friction and generates excess heat.
+
 ## Troubleshooting
 
 | Problem | Probable Cause | Solution |

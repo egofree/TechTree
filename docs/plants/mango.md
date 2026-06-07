@@ -193,5 +193,9 @@ Mango is a long-lived tropical tree (productive for 100+ years). Young mango orc
 - Data sourced from Food Plants International, Wikipedia, and iNaturalist via the Edible Plant Database (ZIM)
 - Plants for a Future (pfaf.org) — supplementary cultivation and use data
 
+Mango is one of the most widely cultivated tropical fruits, with over 1,000 named varieties worldwide. The fruit is rich in vitamins A and C, and the kernel inside the large seed can be processed into flour after boiling to remove tannins. Mango timber is moderately durable and used for furniture and carving in regions where the tree is abundant.
+
+Mango is the most widely cultivated tropical fruit worldwide, with annual production exceeding 50 million tonnes. India alone produces over 40% of the world's mangoes. The fruit is rich in vitamins A and C, dietary fiber, and antioxidants. Mango processing — including drying, canning, juice extraction, and pickle production — extends the fruit's availability beyond its relatively short harvest season.
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

@@ -9,6 +9,25 @@
 
 Riveting is mechanical joining with no heat applied to the joint itself. Rivets are installed hot or cold through holes in overlapping plates, then the second head is formed by hammering. Riveted joints dominated structural steel construction (bridges, ships, boilers) from ~1840 until arc welding replaced them after ~1940. For welding processes, see [Welding](./welding.md). For filler alloy joining, see [Brazing & Soldering](./brazing-soldering.md). For the parent overview, see [Metal Joining](./joining.md).
 
+**Historical context**: The Golden Gate Bridge contains approximately 600,000 rivets in its towers. The RMS Titanic used over 3 million rivets in its hull. The Eiffel Tower used 2.5 million rivets. Every major steel structure built before 1940 was riveted. Riveting lost to arc welding because of labor cost, not joint quality — a well-designed riveted joint achieves 80-95% of solid plate strength, comparable to a full-penetration weld.
+
+**Prerequisites**:
+- [Iron and steel production](../metals/iron-steel.md) for rivet stock and plate material
+- [Drilling capability](machining.md) for producing precise holes through plate
+- Forge for heating rivets to 900-1000°C
+- Rivet snap (shaped cup tool) and dolly (heavy steel bar)
+
+**Bill of Materials**:
+
+| Item | Specification | Quantity per 100 Rivets | Source |
+|------|--------------|------------------------|--------|
+| Mild steel rivets | 0.1-0.2% C, shank dia 10-25 mm | 100 | Steel wire/rod, cut to length |
+| Rivet snap tool | Hardened steel, cup-shaped to match head profile | 1 per rivet size | Machined from tool steel |
+| Dolly bar | Heavy steel bar, 5-10 kg | 1 | Forged steel bar |
+| Drift pins | Tapered steel, matching hole diameter | 4-6 | Machined from steel rod |
+| Borax or red lead | Joint sealant between plates | 0.5-2 kg | Chemical supply |
+| Forge fuel | Charcoal or coal | 5-10 kg | Fuel supply |
+
 ## Why Riveting Works
 
 Hot riveting exploits thermal contraction. The rivet, heated to bright red (900-1000°C), is inserted through aligned holes and hammered to form the second head while still plastic. As the rivet cools to ambient temperature, it shrinks by the thermal expansion coefficient of steel (12 × 10⁻⁶ /°C) over a temperature drop of ~880°C. For a 20 mm diameter rivet with a grip length of 30 mm, this contraction generates a clamping force of 20-50 kN, pulling the plates into intimate contact.
@@ -80,6 +99,32 @@ Efficiency is the ratio of joint strength to solid plate strength. The remaining
 | 20 mm | 30 mm | 60-100 mm | 21.0-21.5 mm | 20-50 kN |
 | 25 mm | 38 mm | 75-125 mm | 26.0-26.5 mm | 30-75 kN |
 
+## Scaling Notes
+
+Riveting production scales from two-person crews to industrial operations:
+
+- **Workshop scale** (2-4 workers): A forge for heating rivets, hand hammers (2-4 kg), snap tools, and dolleys. One person heats and inserts rivets, one holds the dolly, one hammers. Production: 20-50 rivets per hour. Adequate for small structures, tanks, and repair work.
+
+- **Bridge/ship scale** (10-50 workers): Multiple riveting crews working in sequence. Portable rivet heaters (gas-fired). Pneumatic riveting hammers (if compressed air available) replace hand hammers, tripling driving speed. A 20-person crew drives 200-500 rivets per day. This scale built the Eiffel Tower (2.5 million rivets), the RMS Titanic (3 million rivets), and every steel bridge before 1940.
+
+- **Industrial scale** (hydraulic riveting): Hydraulic riveting machines apply controlled force (50-200 kN) to form the second head, replacing the hammer operator. Consistent head quality, less noise, faster production. Used in boiler shops and structural steel fabrication. Production: 500-1000 rivets per day per machine.
+
+**Critical constraint**: Riveting is inherently labor-intensive. Each rivet requires drilling a hole, heating a rivet, inserting it, and forming the head — all before the rivet cools. Arc welding replaced riveting not because welded joints are stronger, but because a single welder can lay a continuous bead at 2-5 m/min, replacing dozens of rivets with a single pass. In a bootstrap civilization, riveting remains the primary structural joining method until arc welding equipment is available.
+
+## Quality Control
+
+Riveted joints are verified by visual, mechanical, and dimensional inspection:
+
+1. **Visual inspection**: Each rivet head must be full-formed, concentric, and tight against the plate surface. Reject rivets with cracked heads, uneven formation, or visible gaps between head and plate. Inspect from both sides — the manufactured head and the driven head must both be sound.
+
+2. **Tap testing**: The primary field inspection method. Strike each rivet with a 200 g hammer. A tight rivet rings clearly (high-frequency metallic ring). A loose rivet produces a dull thud and may vibrate visibly. Mark all loose rivets with paint for removal and replacement. Tap testing requires training — experienced inspectors can distinguish loose rivets from tight ones with >95% accuracy.
+
+3. **Dimensional inspection**: Measure rivet head diameter (should be 1.5× shank diameter ±5%). Measure rivet head height (should be 0.4× shank diameter ±10%). Check plate gap between rivets with feeler gauges (must be <0.3 mm). Verify edge distance (minimum 1.5× rivet diameter from hole center to plate edge).
+
+4. **Sample destructive testing**: For critical applications (boiler seams, bridge chords), drive extra test rivets using the same procedure, then cut cross-sections for metallographic examination. Verify rivet fills the hole completely with no voids, and the driven head has adequate grain flow (indicating proper forming temperature).
+
+5. **Proof loading**: For structural joints, apply 1.5× design load and verify no rivet slip, plate separation, or permanent deformation. This is the ultimate acceptance test for bridge and boiler joints.
+
 ## Safety Considerations
 
 Riveting involves hot metal, heavy tools, and overhead work. The combination creates hazards specific to the riveting process that differ from other joining methods.
@@ -122,7 +167,27 @@ Riveting involves hot metal, heavy tools, and overhead work. The combination cre
 | Corrosion around rivet heads | Moisture ingress between plates (no sealant) or dissimilar metal contact | Apply red lead or tar between plates during assembly; use matching rivet and plate materials; inspect and paint riveted joints regularly |
 | Rivet spinning in hole (head turns when tapped) | Hole too large (>1.5 mm oversize) or rivet too short for the grip | Use correct hole diameter (rivet diameter + 1.0-1.5 mm); select rivet length = grip + 1.5× diameter; ream oversize holes and use larger rivets if needed |
 
-## Cross-References
+## Scaling Notes
+
+Riveting scales from individual workshop practice to industrial production:
+
+- **Workshop scale** (1-10 joints/day): Hand-driven rivets with a sledgehammer (2-4 kg) and snap set. Forge rivets from bar stock or purchase pre-made. Pneumatic or hydraulic riveting guns not required. Adequate for structural repair, small bridges, and tank fabrication. One skilled riveter + one heater + one helper.
+
+- **Shipyard scale** (100-1,000 rivets/day): Portable pneumatic riveting hammers (0.6-1.0 MPa compressed air). Multiple heater forges feeding rivets to teams. Pneumatic hydraulic squeezers for consistent shop rivets. 10-50 workers in riveting teams. This was the dominant method for shipbuilding and bridge construction from 1850-1940.
+
+- **Factory scale** (5,000-50,000 rivets/day): Automated rivet feeding and squeezing machines for aircraft and structural steel production. Quality control via ultrasonic inspection of every joint. Statistical process control on rivet hole tolerance and clamp-up force. This scale supports mass production of aircraft, bridges, and pressure vessels.
+
+**Key bottleneck**: Heating and driving speed. A rivet must be driven within 10-15 seconds of removal from the forge. Beyond this, the rivet cools below forging temperature (~500°C) and will not fill the hole properly. Large rivets (>25 mm diameter) require two workers with sledgehammers or a pneumatic hammer.
+
+## Safety & Hazards
+
+- **Burns**: Rivets at 900-1000°C cause severe burns on contact. Use tongs to handle hot rivets. Wear leather gloves and heavy canvas aprons. Mark hot rivet storage areas with barriers.
+- **Noise**: Pneumatic riveting hammers produce 110-130 dB. Mandatory hearing protection (earmuffs rated NRR 25+). Limit exposure to 30-minute sessions with 15-minute breaks.
+- **Eye injuries**: Flying rivet heads (snapped-off shop heads), hammer spatter, and metal chips from drilling. Mandatory safety glasses with side shields; face shields for overhead riveting.
+- **Crush injuries**: Sledgehammers (2-4 kg) used for hand riveting can fracture bones on miss-strikes. Maintain clear swing path. Bucking bar (the dolly held against the rivet tail) can pinch fingers — use properly sized bar with handle.
+- **Fall hazards**: Structural steel riveting occurs at heights. Riveter and heater must be tied off to independent lifelines.
+
+## See Also
 
 - [Welding](./welding.md) — fusion and solid-state welding processes that replaced riveting
 - [Brazing & Soldering](./brazing-soldering.md) — filler alloy joining methods
@@ -130,6 +195,7 @@ Riveting involves hot metal, heavy tools, and overhead work. The combination cre
 - [Iron & Steel](../metals/iron-steel.md) — rivet materials
 - [Machining](machining.md) — drilling rivet holes
 - [Metal Forming](./forming.md) — forming rivet heads
+- [Lubricants](../chemistry/lubricants.md) — sealant compounds for riveted joints
 
 ---
 

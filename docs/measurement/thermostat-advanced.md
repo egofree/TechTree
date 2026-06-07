@@ -181,6 +181,45 @@ Advanced thermostats cover three specialized niches: shape memory alloy actuator
 - Needs blackbody calibration source for reliable accuracy
 
 
+## Scaling Notes
+
+Advanced thermostat technologies scale with the underlying materials science capability:
+
+- **SMA thermostats**: NiTi (Nitinol) requires melting nickel and titanium together at 1300°C in an inert atmosphere. Titanium powder is pyrophoric. Nickel is a skin sensitizer and suspected carcinogen. SMA thermostats are best suited for niche applications where their unique properties (silent operation, high force output) justify the material cost and processing complexity.
+
+- **Quartz crystal thermostats**: Require synthetic quartz crystal production (hydrothermal growth at 350-400°C, 100-200 MPa in NaOH solution). This is a significant industrial capability. Once crystal production is established, frequency-based temperature sensing offers exceptional resolution (0.001°C) and long-term stability.
+
+- **IR pyrometers**: Optical components (germanium lenses, zinc selenide windows) require specialized optical material production. Calibration requires blackbody sources traceable to fixed-point temperature standards (zinc freezing point 419.527°C, gold freezing point 1064.18°C).
+
+## Quality Control
+
+Each advanced thermostat type requires specific calibration and verification:
+
+1. **SMA thermostat calibration**: Cycle the SMA element through its transformation temperature 50-100 times to stabilize the hysteresis loop. Verify trip temperature with a calibrated thermocouple (±0.5°C). SMA elements drift by 1-2°C during the first 100 cycles, then stabilize.
+
+2. **Quartz crystal verification**: Measure frequency vs. temperature against a calibrated reference. The frequency-temperature curve must match the theoretical AT-cut characteristic within ±5 ppm. Verify that the oscillator starts reliably at all temperatures in the operating range.
+
+3. **IR pyrometer calibration**: Verify against a blackbody source at 3-5 temperatures spanning the operating range. Check emissivity setting accuracy by measuring a known-temperature target (e.g., boiling water at 100°C with emissivity set to 0.97 for water). Recheck calibration annually.
+
+## Variations and Alternatives
+
+| Thermostat Type | Temp Range | Accuracy | Response Time | Best For |
+|----------------|-----------|----------|---------------|----------|
+| SMA (Nitinol) | -20 to +110°C | ±2-5°C | 1-10 seconds | Silent switching, medical devices, compact actuators |
+| Quartz crystal | -50 to +250°C | ±0.001-0.01°C | 0.1-1 second | Precision temperature measurement, laboratory standards |
+| IR pyrometer | 0 to +3000°C | ±0.5-2% of reading | 1-100 ms | Non-contact measurement, hot metals, glass, kilns |
+| Thermocouple (K type) | -200 to +1300°C | ±1-2°C | 0.1-1 second | General-purpose industrial temperature sensing |
+| RTD (Pt100) | -200 to +850°C | ±0.1-0.5°C | 1-10 seconds | Precision industrial temperature measurement |
+| Thermistor (NTC) | -50 to +300°C | ±0.1-0.2°C | 0.1-1 second | Medical, HVAC, consumer electronics |
+| Bimetallic strip | -50 to +400°C | ±2-5°C | 5-30 seconds | Simple on/off control, safety cutoffs |
+
+## See Also
+
+- **[Thermostats Overview](thermostat.md)**: Parent overview of all thermostat types
+- **[Mechanical Thermostats](thermostat-mechanical.md)**: Bimetallic and rod-and-tube types
+- **[Electrical Thermostats](thermostat-electrical.md)**: Thermocouple and RTD based
+- **[Electronic Thermostats](thermostat-electronic.md)**: Thermistor and IC based
+
 ## Troubleshooting
 
 | Problem | Probable Cause | Solution |

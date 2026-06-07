@@ -85,6 +85,23 @@ Primary outputs: `plant_fiber` for cordage and paper, `green_manure` for nitroge
 | Retting time | 4-8 days | In water at 20-30°C |
 | Growing cycle | 60-120 days | From planting to harvest |
 | Optimal temperature | 25-35°C | Tropical/subtropical |
+| Seed yield per hectare | 500-1,000 kg | For replanting or as green manure seed |
+| Fiber cellulose content | 60-70% | After retting and cleaning |
+| Fiber moisture regain | 10-12% | At standard conditions |
+
+### Fiber Processing Details
+
+Sunn hemp fiber extraction by retting is a bacterial process. The pectins binding bast fiber to the woody core (shive) are decomposed by Clostridium and other anaerobic bacteria that proliferate in the warm, stagnant water around the submerged stems. Optimal retting temperature is 25-30°C. Below 20°C, retting slows dramatically. Above 35°C, over-retting can occur, weakening the fiber.
+
+The critical judgment in retting is timing: removing stems too early leaves fibers bonded to shive (requiring excessive mechanical processing), while removing them too late degrades the fiber itself. Test every 12 hours after day 3 by bending a stem: when fibers separate cleanly from the core with gentle finger pressure, retting is complete. In practice, most batches are ready at 5-7 days in warm water.
+
+After retting and drying, the breaking and hackling steps separate fiber from shive. A sunn hemp break (identical to a flax brake) consists of two hinged wooden blades that crush the dried stems. The shive fragments fall away while the flexible fiber survives. Hackling (drawing the fiber through progressively finer combs) aligns the fibers and removes remaining shive particles. The yield from green stems to clean fiber is 3-5% by weight — meaning 100 kg of green stems yields 3-5 kg of clean fiber.
+
+### Green Manure and Soil Benefits
+
+Sunn hemp adds nitrogen through symbiotic rhizobia in root nodules plus organic matter from the entire above-ground biomass. The root system penetrates compacted soil, breaking up hardpans and improving water infiltration. When the crop is incorporated, the resulting soil organic matter improves cation exchange capacity, water retention, and microbial activity.
+
+A sunn hemp green manure crop of 90 days typically produces 4-8 tonnes of above-ground dry matter containing 60-120 kg of nitrogen. When incorporated, this nitrogen becomes available to the following crop over 2-4 weeks. The carbon-to-nitrogen ratio of young sunn hemp (approximately 15:1) is ideal for rapid decomposition without nitrogen immobilization.
 
 ## Safety Considerations
 
@@ -139,6 +156,11 @@ Primary outputs: `plant_fiber` for cordage and paper, `green_manure` for nitroge
 - **Kenaf** (*Hibiscus cannabinus*): Fast-growing, dual fiber types (bast and core). Used primarily for paper pulp. Does not fix nitrogen.
 - **Cowpea** (*Vigna unguiculata*): Inferior fiber but excellent nitrogen fixation and edible seeds. Better choice if food production is the priority over fiber.
 - **Alfalfa** (*Medicago sativa*): Perennial nitrogen fixer. No fiber value, but superior long-term soil improvement. Grows for 5-10 years from one planting.
+- **Flax** (*Linum usitatissimum*): Temperate bast fiber crop. Produces linen fiber and linseed oil. Does not fix nitrogen but produces the highest-quality plant fiber for textiles.
+
+### Paper and Pulp Applications
+
+Sunn hemp fiber produces acceptable paper pulp through mechanical or chemical processing. The bast fiber yields a strong, durable paper similar to kraft paper. The woody core (shive), separated during fiber extraction, produces a coarser pulp suitable for cardboard and packaging. Combined, the whole stem yields 40-50% pulp by weight — comparable to hardwood pulp yields. For papermaking, cook sunn hemp stems in alkali (soda ash or lye) at 160-170°C for 2-3 hours, wash, and beat to pulp.
 
 ## References
 
@@ -146,6 +168,35 @@ Primary outputs: `plant_fiber` for cordage and paper, `green_manure` for nitroge
 - [Agriculture](../agriculture/index.md) — green manure and crop rotation
 - [Musa textilis (Abaca)](./musa-textilis.md) — comparison tropical fiber
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Sunn Hemp in Rotation Systems
+
+Sunn hemp fits naturally into tropical and subtropical crop rotations. A common rotation:
+rice (main season) → sunn hemp (60-90 days post-rice) → vegetable crop (dry season). The sunn
+hemp adds 60-120 kg/ha of nitrogen and 4-8 tonnes of organic matter between the main crops,
+maintaining soil fertility without purchased fertilizer. The vegetable crop following sunn hemp
+typically yields 20-30% more than the same crop without the green manure interlude.
+
+In India, sunn hemp has been grown in rotation with sugarcane, cotton, and rice for centuries.
+The traditional practice involves broadcasting sunn hemp seed after the main crop harvest,
+allowing 60-90 days of growth, then incorporating the biomass by plowing before planting the
+next main crop. This system maintains soil organic matter and nitrogen levels indefinitely
+under continuous cultivation, a remarkable achievement for a zero-input system.
+
+### Fiber Quality and Spinning
+
+Sunn hemp fiber is coarser than hemp or flax but stronger than jute. The fiber is cream to
+pale yellow after retting, with a natural luster. It spins readily into coarse yarn suitable
+for twine, rope, and sacking. The spinning quality improves with thorough hackling (combing),
+which removes residual shive particles and aligns the fibers for smooth drafting.
+
+Sunn hemp fiber produces a coarse yarn that is too rough for clothing but excellent for cordage, sacking, and paper. The fiber is naturally cream to pale yellow and can be dyed with standard natural dyes. In India, sunn hemp fiber has been used for centuries to make strong twine for agricultural baling and construction tying.
+
+### Sunn Hemp Summary
+
+This species represents an important component of a diversified food production system.
+No single crop provides complete nutrition, and dietary diversity is essential for human
+health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

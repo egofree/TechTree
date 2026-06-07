@@ -159,4 +159,50 @@ CMP is also used during [wafer manufacturing](../silicon/wafering.md) to produce
 | Pad glazing — removal rate drops 50% over 30 minutes | Pad pores compressed shut from sustained downforce without adequate conditioning; conditioning disk worn flat | Increase conditioning frequency to every 30-60 seconds during polish; replace diamond conditioning disk when pad removal rate drops below 80% of qualified value; verify conditioning disk applies 2-5 psi downforce on pad |
 | STI polish — nitride stopping layer partially removed | Oxide-to-nitride selectivity too low (<10:1); over-polish time excessive to clear dense array regions; slurry pH drifted from spec | Switch to high-selectivity STI slurry (>20:1 SiO₂:Si₃N₄); reduce over-polish by using optical endpoint tuned to nitride reflectance; verify slurry pH at 10-11 for oxide STI slurry before each lot |
 
+## Scaling Notes
+
+CMP scales from bench-top polishers to fully automated multi-platen production tools:
+
+- **Bench-top scale** (1-5 wafers/day): Single-platen manual polisher with 200-300 mm diameter pad. Hand-loaded wafers held in a simple carrier. Slurry mixed in small batches (500 mL). Removal rate monitored by manual thickness measurement (microscope with focus-depth or mechanical profilometer). Adequate for R&D, process development, and small-batch wafer thinning.
+
+- **Production scale** (50-200 wafers/day): Single-wafer rotary CMP tool with automated wafer handling, multi-zone carrier head, and in-situ endpoint detection (motor current or optical). 2-4 platens for sequential steps (bulk removal → buff → clean). Robotic wafer transfer from cassette to platen. Inline post-CMP clean station with PVA brush scrubber. This is the minimum scale for commercial IC fabrication.
+
+- **High-volume scale** (1,000+ wafers/day): Multi-tool CMP bays with 4-8 polishers running in parallel. Automated slurry blending and distribution system (day tanks, DI water mixing, inline particle filtration to 0.1 μm). Real-time SPC monitoring of removal rate, uniformity, and defect density per wafer. Batch post-CMP clean with megasonic + spin-rinse-dry. This scale supports 100,000+ wafer starts per month in a modern fab.
+
+**Critical consumables cost**: Slurry represents 30-50% of CMP cost of ownership. Colloidal silica slurry costs $50-150/gallon; ceria slurry $100-300/gallon. Pad lifetime is 500-2,000 wafers per pad ($200-500 each). Diamond conditioning disks last 50-100 hours ($150-300 each).
+
+## Safety & Hazards
+
+- **Chemical exposure**: CMP slurries are colloidal suspensions at pH 10-11 (silica) or pH 4-5 (some tungsten slurries). Skin contact causes irritation; eye contact can cause corneal abrasion from abrasive particles. Wear chemical splash goggles, nitrile gloves, and lab coat when handling slurry. Emergency eyewash station within 10 seconds travel.
+- **Mechanical hazards**: Rotating platens (30-100 RPM) and carrier heads can pinch fingers. Never reach into the polishing area during operation. Interlocks must be functional — do not bypass safety interlocks on the polisher enclosure.
+- **Ergonomic hazards**: Wafer cassettes (25 wafers) weigh 2-5 kg. Slurry containers weigh 10-20 kg (2-5 gallons). Use proper lifting technique; request assistance for containers over 15 kg.
+- **Waste handling**: Spent slurry contains suspended metal particles (copper, tungsten) and silica. Collect in designated waste containers — do not pour down the drain. Copper-bearing waste must be treated as hazardous waste (heavy metal contamination). Dispose through certified chemical waste handler.
+
+## Quality Control
+
+| Parameter | Measurement Method | Target | Frequency |
+|-----------|-------------------|--------|-----------|
+| Removal rate (Å/min) | Pre/post thickness by ellipsometry or reflectometry | ±10% of qualified rate | Every wafer |
+| Within-wafer uniformity (WIWNU) | 49-point thickness map | <3% (1σ) | Every wafer |
+| Wafer-to-wafer uniformity (WTWNU) | Mean thickness per wafer across lot | <5% range | Every lot |
+| Defect density (particles ≥0.16 μm) | Laser surface scanner (KLA Tencor) | <50 adders per wafer | Every wafer |
+| Dishing (wide Cu features) | AFM or profilometer step height | <50 nm on 10-100 μm features | Sample 3 wafers/lot |
+| Erosion (dense arrays) | SEM cross-section or profilometer | <30 nm oxide loss between lines | Sample 2 wafers/lot |
+| Pad condition (removal rate trend) | SPC chart on removal rate vs. wafer count | Rate within 80-120% of initial qualified value | Continuous |
+| Slurry particle size distribution | Dynamic light scattering (DLS) | Mean 40-80 nm, <1% >200 nm | Per batch |
+
+Process qualification requires running a minimum of 25 wafers through the complete CMP + post-clean sequence and demonstrating that all parameters above meet specification with Cpk ≥1.33 (capability index). Any parameter change (new slurry lot, new pad, adjusted downforce) requires re-qualification with a reduced 10-wafer qualification lot.
+
+## Variations and Alternatives
+
+| CMP Type | Abrasive | Selectivity | Application |
+|----------|----------|-------------|-------------|
+| Oxide CMP | Colloidal silica (40-80 nm) | 1:1 SiO₂:SiO₂ (blanket) | ILD planarization, STI |
+| Tungsten CMP | Alumina or silica + oxidizer (H₂O₂/FeNO₃) | 2:1 W:SiO₂ | Contact/via plug planarization |
+| Copper CMP | Colloidal silica + oxidizer (H₂O₂) + BTA inhibitor | 20:1 Cu:SiO₂ (buff step) | Damascene Cu interconnect |
+| Ceria CMP | Cerium oxide (50-200 nm) | >20:1 SiO₂:Si₃N₄ | STI with nitride stop |
+| Poly-Si CMP | Silica + KOH electrolyte | 3:1 poly:SiO₂ | Poly gate planarization |
+
+Electrochemical mechanical polishing (ECMP) applies voltage to the wafer during polish to enhance dissolution, reducing mechanical downforce and defectivity. Used for advanced copper nodes (<45 nm) where mechanical stress causes low-k dielectric damage.
+
 [← Back to Photolithography](index.md)

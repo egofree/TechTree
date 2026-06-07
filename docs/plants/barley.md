@@ -191,5 +191,11 @@ Barley fits well in rotation with legumes (peas, lentils, chickpeas) which fix n
 - Data sourced from Food Plants International, Wikipedia, and iNaturalist via the Edible Plant Database (ZIM)
 - Plants for a Future (pfaf.org) — supplementary cultivation and use data
 
+Barley is one of the most salt-tolerant grain crops, producing acceptable yields on soils with moderate salinity where wheat fails. This makes it invaluable for coastal agriculture and regions with brackish irrigation water. For malting quality, barley should have plump, uniform kernels with protein content below 12% and germination rate above 95%.
+Barley straw, when spread on the surface of ponds and water tanks, inhibits algae growth through
+the release of chemical compounds as it decomposes. This application provides a low-technology
+method for maintaining water quality in stored water supplies. Barley is also the primary grain
+for beer production, one of the oldest fermented beverages in human history.
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

@@ -191,5 +191,11 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 - Data sourced from Food Plants International, Wikipedia, and iNaturalist via the Edible Plant Database (ZIM)
 - Plants for a Future (pfaf.org) — supplementary cultivation and use data
 
+Moringa is often called the "miracle tree" because every part is useful: leaves (high in protein, vitamins A and C, calcium, and iron), seed pods (eaten as a vegetable when young), seeds (yield 30-40% edible oil that does not become rancid), seed cake (water purifier that clarifies turbid water), bark (fiber), and roots (horseradish-flavored condiment). The tree grows 3-5 meters in its first year and can be harvested for leaves within 3-4 months of planting.
+Moringa seed powder clarifies turbid water by binding to suspended particles and bacteria,
+causing them to settle. One seed treats 1-2 liters of water. This water purification use is
+particularly valuable in regions where fuel for boiling water is scarce. The tree's rapid
+growth and multiple harvests per year make it one of the most productive leaf vegetable crops.
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

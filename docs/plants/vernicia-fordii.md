@@ -89,6 +89,25 @@ Primary outputs: `tung_oil` for wood finishing, waterproofing, and paint formula
 | Toxicity of purified oil | Low | Safe for skin contact on finished wood |
 | First fruiting age | 3-5 years | From planting |
 | Optimal temperature range | 15-30°C | Subtropical |
+| Tung oil iodine value | 160-175 | High, indicates excellent drying properties |
+| Seed weight | 3-5 g each | Hard-shelled |
+| Tung oil polymerization | Oxidative | Crosslinks with atmospheric oxygen |
+
+### Tung Oil Chemistry and Properties
+
+Tung oil is composed primarily of alpha-eleostearic acid (a conjugated fatty acid) comprising 75-85% of the total fatty acids. The conjugated double bond system makes tung oil polymerize faster and harder than other drying oils. Linseed oil, by comparison, contains primarily linolenic acid (non-conjugated), which dries more slowly and produces a softer film.
+
+The polymerization process is an oxidative crosslinking reaction. Atmospheric oxygen reacts with the conjugated double bonds, creating free radicals that link adjacent fatty acid chains into a three-dimensional network. This converts the liquid oil into a solid, rubbery film. The process is exothermic — generating heat — which is why oil-soaked rags can spontaneously combust.
+
+Tung oil's resistance to water, acids, and alkalis exceeds that of linseed oil and most other natural finishes. It was the standard finish for Chinese junk ships, waterproofing the hull planking for decades of service in saltwater. In the West, tung oil replaced linseed oil for marine finishes wherever it was available after trade with China expanded in the 19th century.
+
+### Application Techniques for Different Surfaces
+
+For exterior wood (boat decks, doors, window frames): apply 4-5 thin coats of pure tung oil, allowing 48 hours between coats. Lightly sand with 320-grit between coats. The resulting finish is matte, non-slip, and water-repellent. Reapply annually for exterior wood exposed to weather.
+
+For interior wood (furniture, flooring): dilute the first coat with 1 part citrus solvent or turpentine to 1 part tung oil for better penetration. Follow with 2-3 coats of pure tung oil. The finish brings out the natural grain pattern without forming a plastic-like surface film.
+
+For waterproofing canvas and fabric: dissolve tung oil in turpentine (1:1 ratio) and brush onto canvas tents, sails, or tarps. Multiple coats build up a water-resistant finish that remains flexible. This treatment also increases the fabric's resistance to rot and mildew.
 
 ## Safety Considerations
 
@@ -141,6 +160,8 @@ Primary outputs: `tung_oil` for wood finishing, waterproofing, and paint formula
 - **Perilla oil** (from *Perilla frutescens*): East Asian drying oil. Similar properties to tung oil. Edible.
 - **Walnut oil**: Semi-drying oil, slower to cure than tung oil. Edible. From *Juglans regia*.
 - **Synthetic varnishes**: Polyurethane and other synthetic finishes provide superior durability at higher technology levels.
+- **Japan wax** (*Toxicodendron vernicifluum*): Japanese lacquer tree. Produces urushiol-based lacquer that cures to an extremely hard, glossy, chemical-resistant finish. The finest natural wood finish, but the sap causes severe dermatitis during application.
+- **Copal resin**: Natural tree resin dissolved in alcohol to make spirit varnish. Provides a hard, glossy finish. Used traditionally for map surfaces and fine furniture.
 
 ## References
 
@@ -148,6 +169,34 @@ Primary outputs: `tung_oil` for wood finishing, waterproofing, and paint formula
 - [Chemistry](../chemistry/index.md) — drying oil chemistry
 - [Silver Birch](./betula-pendula.md) — birch bark for comparison waterproofing
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Tung Oil vs Linseed Oil Comparison
+
+Tung oil and linseed oil are the two most important natural drying oils. Tung oil dries harder,
+faster, and more water-resistant than linseed oil. It does not darken with age (linseed oil
+yellows significantly over time) and provides better resistance to acids, alkalis, and mold.
+However, tung oil is more expensive (subtropical tree crop vs. temperate annual field crop),
+and the seeds are toxic, requiring careful processing.
+
+Linseed oil is the practical choice where tung oil is unavailable. It is produced from flax
+seeds (*Linum usitatissimum*), a hardy annual crop that grows in temperate zones worldwide.
+Raw linseed oil dries in 3-7 days (vs. 1-2 days for tung oil) but produces an adequate
+protective finish when applied in multiple thin coats. Boiled linseed oil (treated with
+metallic driers to accelerate drying) cures in 12-24 hours.
+
+For civilization bootstrapping, tung oil is preferred for marine use (boat hulls, deck
+sealing) and exterior applications where maximum water resistance is essential. Linseed oil
+is preferred for interior woodwork, tool handles, and painted surfaces where lower cost and
+easier availability outweigh the performance difference.
+
+Tung oil polymerizes by oxidative crosslinking, generating heat as it cures. This exothermic reaction is strong enough that oil-soaked rags can spontaneously ignite if piled together. This fire hazard is well-known in woodworking shops and requires careful handling of all tung oil waste materials. The same polymerization reaction, properly controlled, produces the hard, waterproof finish that makes tung oil invaluable for protecting wood.
+
+### Tung Tree Summary
+
+This species represents an important component of a diversified food production system.
+No single crop provides complete nutrition, and dietary diversity is essential for human
+health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
+vegetables, and nuts to ensure adequate intake of calories, protein, vitamins, and minerals.
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

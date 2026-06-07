@@ -92,6 +92,24 @@ Primary outputs: `birch_bark` for containers and canoes, `timber` for plywood an
 | Bark thickness (mature tree) | 1-3 mm | Multiple layers peel together |
 | Growth rate (good site) | 0.5-1.0 m/year height | Rapid early growth |
 | Rotation age (timber) | 40-60 years | Short for a timber tree |
+| Bark yield per tree | 5-15 kg | From felled mature tree |
+| Birch tar density | 1.05-1.15 g/cm³ | At 20°C |
+
+### Birch Tar Processing Details
+
+Birch tar (also called birch pitch) was the first synthetic material produced by humans, with archaeological evidence dating to 200,000 years ago. The tar is produced by heating birch bark in the absence of oxygen (destructive distillation or pyrolysis). The temperature must be carefully controlled: below 300°C, tar yield drops sharply; above 400°C, the tar overheats and becomes brittle rather than sticky.
+
+The simplest field method is the pit-and-pot technique: dig a small pit, line it with birch bark rolls (bark side in, inner bark facing outward), place a collection pot beneath the pit, and cover with earth. Build a fire on top of the covered pit. Heat transfers through the earth, pyrolyzing the bark. Tar condenses and flows downward into the collection pot. This method yields 10-15% tar by weight.
+
+A more efficient method uses a closed retort (metal container with a single outlet tube). Pack birch bark rolls tightly, seal the container, and heat over a fire. The outlet tube leads to a collection jar. This method yields 15-25% and produces cleaner tar because the condensate does not contact ash or earth. The retort method requires metalworking capability (iron or bronze container).
+
+Fresh birch tar is a viscous, dark brown to black liquid at room temperature. It softens at 30-40°C and becomes fully liquid at 60-80°C. For tool hafting, warm the tar until liquid, apply to the joint (e.g., stone spear point in a wooden shaft), and wrap with wet rawhide or cordage. The tar sets hard as it cools. Birch tar adhesive bonds are water-resistant and durable — artifacts from 50,000 years ago retain their hafted points with intact birch tar bonds.
+
+### Timber Uses and Seasoning
+
+Birch wood is pale cream to light brown with no distinct heartwood-sapwood boundary. It is fine-textured, uniform, and takes an excellent finish with hand planes and scrapers. Birch is particularly valued for turned items (bobbins, tool handles, dowels, chair legs) because it turns cleanly without chipping. The wood also bends well with steam, making it suitable for bentwood furniture and boat ribs.
+
+Season birch lumber promptly after felling. The wood stains easily if left in log form during warm weather — a brown fungal discoloration that reduces value. Saw logs within 2 weeks of felling and stack for air drying immediately. Birch takes 6-12 months to air-dry to 15% moisture content in 25 mm boards. Quarter-sawn birch is more dimensionally stable than flat-sawn due to the high volumetric shrinkage.
 
 ## Safety Considerations
 
@@ -150,6 +168,11 @@ Primary outputs: `birch_bark` for containers and canoes, `timber` for plywood an
 - **Yellow birch** (*Betula alleghaniensis*): North American species with harder, denser wood (720 kg/m³). Better for furniture and flooring than silver birch.
 - **Birch syrup**: Boiling sap to 66% sugar produces birch syrup with a complex, savory-sweet flavor. Yield is much lower than maple (80-100 liters of sap per liter of syrup for birch vs. 40:1 for maple).
 - **Alternative adhesives**: Pine resin, animal hide glue, or casein glue can substitute for birch tar in most applications. Birch tar's advantage is water resistance and ease of production from available bark.
+- **Birch charcoal**: Birch wood produces high-quality charcoal with a fine pore structure, valued for blacksmithing and smelting. The charcoal burns hot and clean, making it suitable for ironworking.
+
+### Bark Products and Containers
+
+Birch bark containers (makuks, winnowing baskets, waterproof boxes) are constructed by folding and sewing bark sheets with split roots or rawhide thongs. The bark is waterproof, lightweight, and semiridig — ideal for water transport, food storage, and shelter cladding. Birch bark canoes (constructed over a cedar or spruce frame) were the primary watercraft of the North American subarctic, capable of carrying loads over portages that would crush a dugout canoe. For writing surfaces, the smooth inner bark of birch has been used from ancient India (bhurja patra) through medieval Russia (birchbark manuscripts from Novgorod), accepting ink and stylus marks without preparation.
 
 ## References
 
@@ -158,6 +181,25 @@ Primary outputs: `birch_bark` for containers and canoes, `timber` for plywood an
 - [Scots Pine](./pinus-sylvestris.md) — comparison timber and resin source
 - [Marine](../marine/index.md) — birch bark canoes for water transport
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Birch Bark Canoe Construction
+
+The birch bark canoe represents one of the most sophisticated pre-industrial technologies
+in North America. A typical canoe is 4-6 meters long, weighs 20-30 kg, and can carry
+several hundred kilograms of cargo. The hull is a single sheet of birch bark (or several
+sheets sewn together with split spruce roots), stretched over a cedar or spruce frame,
+and sealed at the seams with spruce gum or pine resin.
+
+The bark is harvested in late spring when it peels most easily, rolled with the inner surface
+facing outward for transport, and stored until needed. The frame is assembled from cedar
+ribs and spruce root lashings. The bark is then stretched over the frame, sewn at the seams,
+and the gunwales are lashed in place. The final step is waterproofing: all seams are sealed
+with a mixture of spruce gum, animal fat, and charcoal applied warm.
+
+A well-made birch bark canoe lasts 5-10 years with regular maintenance (re-gumming seams
+annually) and can be repaired in the field using materials carried aboard. The canoe is
+light enough to be portaged overland by one person, making it the ideal watercraft for
+the lake-and-river country of subarctic North America.
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

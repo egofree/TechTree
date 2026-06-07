@@ -92,6 +92,22 @@ Primary outputs: `blue_dye` (indigotin) for textiles, available in temperate cli
 | Dips for medium blue | 4-6 | More than tropical indigo due to lower concentration |
 | Light fastness | Good to very good | Comparable to indigo |
 | Hardiness | -20°C | Temperate-climate advantage |
+| Woad ball indigotin content | 2-5% | Much lower than tropical indigo paste |
+| Plant density (dye crop) | 150,000-250,000/ha | Dense first-year rosette planting |
+
+### Woad Processing Details
+
+Woad processing differs from tropical indigo processing primarily in the intermediate storage form. Woad balls preserve the dye precursor through partial fermentation and drying, allowing dyers to store material for months and process cloth year-round rather than only during the harvest season. This was crucial in medieval Europe, where the short growing season concentrated leaf production into a few weeks.
+
+The crushing step that forms woad balls is the key innovation. Freshly harvested leaves are crushed in a stone trough or between wooden rollers until the cell walls rupture and the leaf becomes a wet pulp. This pulp is then hand-formed into balls and dried. During drying, enzymatic processes within the ball partially convert indican to indigotin, giving the ball its characteristic dark blue-black color.
+
+When preparing a woad vat, the dried balls are crumbled and steeped in warm water with madder root (which provides a natural reducing catalyst) and bran (bacterial food). The vat takes 3-5 days to ferment and reduce, longer than a tropical indigo vat because woad balls contain less dye and more plant material per unit of indigotin. Patience and temperature maintenance are the main skills required.
+
+### Temperate-Zone Dye Strategy
+
+In temperate zones without access to tropical indigo, woad is the primary blue dye source. Combined with madder (red) and weld or dyer's broom (yellow), the three primary colors are covered. Over-dyeing woad-blue with yellow dyes produces green; over-dyeing with madder produces purple. A complete dye palette is achievable from these three temperate plants.
+
+Woad's lower yield per hectare compared to tropical indigo (5-15 kg vs. 20-50 kg of indigotin) means that blue cloth is more expensive in temperate regions. This economic pressure drove the adoption of tropical indigo in Europe once trade routes were established. For a self-sufficient temperate community, woad provides adequate blue dye for essential textile needs.
 
 ## Safety Considerations
 
@@ -142,6 +158,11 @@ Primary outputs: `blue_dye` (indigotin) for textiles, available in temperate cli
 - **True indigo** (*Indigofera tinctoria*): Tropical source of identical indigotin. 3-4 times the yield per hectare but requires tropical climate.
 - **Japanese indigo** (*Persicaria tinctoria*): Temperate annual with higher indican content than woad (0.2-0.5%). Easier extraction process. Better choice where available.
 - **Synthetic indigo**: Chemically identical, much cheaper, eliminates the need for either woad or tropical indigo at higher technology levels.
+- **Elderberry** (*Sambucus nigra*): Berries produce a fugitive blue-purple dye on wool with alum mordant. Not light-fast but useful for temporary coloring.
+
+### Dual-Use as a Medicinal Plant
+
+Woad root (called *ban lan gen* in Chinese medicine) and leaf (*da qing ye*) have been used in traditional Chinese medicine for centuries as antiviral and anti-inflammatory agents. The root contains indican derivatives with demonstrated antiviral activity. While woad's primary value for civilization bootstrapping is as a dye plant, its medicinal properties provide additional benefit in communities that cultivate it. Preparations from the root are used to treat sore throat, fever, and inflammatory skin conditions.
 
 ## References
 
@@ -149,6 +170,33 @@ Primary outputs: `blue_dye` (indigotin) for textiles, available in temperate cli
 - [True Indigo](./indigofera-tinctoria.md) — tropical blue dye for comparison
 - [Madder](./rubia-tinctorum.md) — red dye plant, also used as woad vat catalyst
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Woad in Medieval European Economy
+
+Woad was a major economic force in medieval Europe. The cities of Toulouse (France), Erfurt
+(Germany), and Sermoneta (Italy) grew wealthy from woad production and trade. Woad merchants
+formed powerful guilds, and woad processing districts were distinctly identifiable by the
+pungent smell of fermentation vats — a smell so characteristic that woad processing was
+banished to the outskirts of most towns.
+
+The dye produced a range of blues that were valued for different purposes: pale woad blue for
+everyday clothing, medium blue for merchant class garments, and deep woad-indigo blue for
+aristocratic textiles. The shade could be modified by the number of dips, the strength of the
+vat, and the mordant used. Woad-blue fabric was a marker of social status across medieval Europe.
+
+The introduction of tropical indigo in the 16th century disrupted the European woad industry.
+Tropical indigo produced 3-4 times more dye per hectare, making it cheaper despite the cost
+of overseas transport. Woad cultivation declined sharply but never disappeared entirely —
+it remained in use for traditional dyeing in rural areas where imported indigo was expensive
+or unavailable.
+
+Woad was so important to the medieval English economy that the Right Worshipful Company of Dyers, one of London's ancient livery companies, regulated woad processing standards. The company established quality grades for woad balls and enforced fair trading practices. Woad cultivation and processing provided employment for thousands of workers across England, France, and Germany during the medieval period.
+
+### Woad Summary
+
+This species represents an important component of a diversified food production system.
+No single crop provides complete nutrition, and dietary diversity is essential for human
+health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

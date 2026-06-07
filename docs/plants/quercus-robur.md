@@ -95,6 +95,22 @@ Primary outputs: `timber` for construction and shipbuilding, `tannin_bark` for l
 | Barrel maturation release | 0.5-2.0% volume/year | Oak compounds migrate into stored liquid |
 | Rotation age (timber) | 80-150 years | Very long rotation |
 | Coppice rotation (bark/poles) | 15-25 years | Much shorter cycle |
+| Charcoal yield from oak wood | 25-35% by weight | Dense, slow-burning charcoal |
+| Acorn yield per mature tree | 20-100 kg | Varies by year (mast years every 2-5 years) |
+
+### Cooperage Details
+
+The craft of cooperage (barrel-making) requires oak with specific grain characteristics. The best stave oak comes from trees grown at medium density on well-drained slopes, producing slow, even annual rings (2-3 mm width). Fast-grown oak with wide rings is coarse-textured and more porous. The grain must run straight and parallel to the stave length for the entire 700-900 mm stave length.
+
+The toasting step (placing fire inside the assembled barrel) serves three purposes: it bends the staves into the final barrel shape, it caramelizes the oak sugars and breaks down lignin into flavor compounds (vanillin, lactones), and it creates a slightly charred interior surface that acts as a filter for stored liquids. Different toast levels (light, medium, heavy) produce different flavor profiles in wine and spirits.
+
+White oak (*Quercus alba*) from North America produces the tightest barrels because tyloses (cellular outgrowths) block the vessels in the heartwood, preventing liquid penetration. European oak (*Q. robur*) lacks complete tyloses and may require an interior sealant (brewer's pitch) for some liquid storage applications. Without pitch lining, European oak barrels work well for wine and spirits but may slowly seep water.
+
+### Oak Gallnuts and Iron Gall Ink
+
+Oak gallnuts (caused by gall wasp larvae, primarily *Cynips gallae-tinctoriae*) contain 50-70% tannic acid — the highest natural concentration of any plant material. When mixed with iron sulfate, gallnut extract produces iron gall ink, the standard writing ink of Europe from the 5th century through the 19th century. Iron gall ink is permanent, waterproof, and chemically bonded to the paper or parchment surface. The Declaration of Independence and the US Constitution were written in iron gall ink.
+
+To make iron gall ink: crush 20 g of dried gallnuts, soak in 100 ml of water for 24 hours, strain. Add 5 g of iron sulfate (green vitriol) and 5 g of gum arabic. The mixture turns black as the iron-tannate complex forms. Dilute with water to writing consistency. The ink darkens further as it oxidizes on the page over several days.
 
 ## Safety Considerations
 
@@ -156,6 +172,10 @@ Primary outputs: `timber` for construction and shipbuilding, `tannin_bark` for l
 - **Quebracho** (*Schinopsis lorentzii*): South American hardwood with 20-30% tannin content, far exceeding oak bark. Imported for industrial tanning where available.
 - **Acacia** (*Acacia mearnsii*): Black wattle bark contains 30-40% tannin, much higher than oak. Used for tanning in Australia and South Africa.
 
+### Acorn as Food Source
+
+Oak acorns are edible after processing to remove bitter tannins. The processing involves shelling, grinding, and leaching the acorn meal in water (changing the water repeatedly over 1-3 days) until the bitterness is removed. The resulting acorn flour is nutritious (high in fat, protein, and complex carbohydrates) and can be used for bread, porridge, and cakes. Sweet acorns from white oaks (*Quercus alba* group) require less leaching than bitter acorns from red oaks (*Q. robur* group). Acorn flour was a staple food for many indigenous peoples and provides a reliable food source from long-lived oak trees that produce massive crops in mast years.
+
 ## References
 
 - [Construction](../construction/index.md) — structural timber applications
@@ -164,6 +184,25 @@ Primary outputs: `timber` for construction and shipbuilding, `tannin_bark` for l
 - [Scots Pine](./pinus-sylvestris.md) — comparison timber species
 - [Black Wattle](./acacia-mearnsii.md) — alternative tannin source
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Oak in Shipbuilding
+
+English oak was the primary shipbuilding timber of the Royal Navy for over 400 years. The
+heartwood's natural durability in contact with water (Class 2) and its resistance to marine
+borers made it the preferred material for hull planking, frames, and keels. A single
+ship-of-the-line required 3,000-5,000 mature oak trees — approximately 60 hectares of
+managed oak woodland per ship.
+
+The technique of green oak construction (using freshly felled, unseasoned oak) was essential
+to shipbuilding. Green oak is easier to work than seasoned oak, and the joints tighten as the
+wood shrinks during seasoning in place. The hull was designed so that the natural shrinkage
+of the oak planking would compress the caulking (hemp fiber and tar driven into the seams)
+tighter, making the ship more watertight as it aged.
+
+Oaks produce a full acorn crop (mast year) every 2-5 years, with light crops in between.
+In mast years, a single mature oak can produce 20,000-50,000 acorns. This irregular but
+abundant seed production supports wildlife populations and provides opportunities for
+large-scale seed collection and planting in favorable years.
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

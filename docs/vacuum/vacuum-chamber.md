@@ -137,6 +137,72 @@ Chamber passivation reduces baseline outgassing and improves ultimate vacuum. El
 
 Internal components (fixtures, sample holders, process tooling) must use low-outgassing materials: stainless steel and aluminum are preferred. Avoid plastics, elastomers, and porous materials inside the chamber unless specifically rated for vacuum. Clean all internal components by the same solvent/IPA/bake procedure used for the chamber itself before installation.
 
+## Scaling Notes
+
+Vacuum chamber production scales with welding capability and machining precision:
+
+- **Laboratory scale** (1-5 chambers/year): Hand-rolled cylinder from 3-5 mm plate. Manual TIG welding of all seams. Flanges machined on a manual lathe and mill. Helium leak testing with a portable leak detector. Adequate for R&D, university labs, and small-scale process development. One skilled TIG welder + one machinist. Chamber size limited to ~300 mm diameter × 400 mm length.
+
+- **Production scale** (10-50 chambers/year): CNC-rolled and welded cylinders. Automated orbital TIG welding for consistent full-penetration seams. CNC-machined flanges from bar stock. Integrated helium leak testing station with automated spray probing. Water jet cutting for port openings. 5-10 workers. Chamber sizes up to 1,000 mm diameter. This scale supports a semiconductor fab's equipment needs.
+
+- **Large-scale** (custom, 2-10 per year): Chambers for batch processing tools, space simulation, or large-coating systems. Diameters 1-5 meters. Require specialized rolling equipment, large-capacity welding positioners, and on-site machining for flange sealing surfaces. Vacuum testing requires dedicated roughing/turbo pump sets sized for the volume. These are one-of-a-kind or small-batch items.
+
+**Critical bottleneck**: Leak-tight welding. A single pinhole porosity defect in a weld seam renders the entire chamber unusable for high vacuum. TIG welding stainless steel in the flat and horizontal positions with full penetration requires significant skill. Automated orbital welding eliminates the skill dependency but requires capital investment in welding equipment.
+
+## Quality Control
+
+| Check | Method | Acceptance Criteria |
+|-------|--------|-------------------|
+| Weld integrity | Dye penetrant testing (all seams) | No linear indications >1 mm |
+| Weld integrity (critical) | Radiographic inspection (circumferential seams) | No porosity >1.5 mm, no incomplete fusion |
+| Flange sealing surface flatness | Surface plate + dial indicator | ±0.02 mm across full flange face |
+| CF knife-edge geometry | Optical comparator or profile projector | 70° ±2° included angle, 0.1 mm tip radius ±0.05 mm |
+| Pressure test (positive) | 1.5 bar dry N₂, 30 min hold | Zero pressure drop on gauge |
+| Helium leak test | Mass spectrometer, spray probe all seams | <10⁻⁸ atm·cc/s total |
+| Virtual leak test | Isolate chamber, monitor 4 hours | Pressure plateaus (no linear rise) |
+| Outgassing rate (post-bake) | Rate-of-rise measurement | <10⁻⁸ Pa·m³/s·m² for electropolished 304L |
+| Wall deflection under vacuum | Dial indicator on viewport center | <0.05 mm for 300 mm dia, 5 mm wall |
+
+## Variations and Alternatives
+
+| Chamber Type | Material | Pressure Range | Best Application |
+|-------------|----------|---------------|-----------------|
+| Cylindrical, 304L SS | 304L stainless steel | 10⁻⁶ to 10⁻⁹ Torr | General semiconductor processing, sputtering, evaporation |
+| Bell jar on baseplate | Borosilicate glass or SS | 10⁻⁴ to 10⁻⁷ Torr | Simple evaporation, educational, small-batch coating |
+| Box chamber (rectangular) | 304L SS, reinforced | 10⁻⁶ to 10⁻⁸ Torr | Batch wafer processing, large substrate coating |
+| Aluminum chamber | 6061-T6 aluminum | 10⁻⁶ to 10⁻⁸ Torr | Non-magnetic applications (beam lines, particle physics) |
+| Copper chamber | OFHC copper | 10⁻⁹ to 10⁻¹² Torr | Extreme UHV, surface science, synchrotron |
+| Titanium sublimation chamber | 304L SS + Ti getter | 10⁻⁹ to 10⁻¹¹ Torr | UHV surface analysis, molecular beam epitaxy |
+
+**Bell jar alternative**: For simple evaporation and coating applications that do not require UHV, a glass bell jar seated on a polished steel baseplate is far simpler to construct than a welded stainless chamber. Base pressure is limited to ~10⁻⁶ Torr by the glass outgassing rate, but this is adequate for many thin-film deposition tasks. No welding required — only the baseplate needs machining for pump and feedthrough ports.
+
+## Safety & Hazards
+
+- **Implosion hazard**: The chamber experiences ~101 kPa (14.7 psi) of external pressure under vacuum. A 300 mm viewport experiences ~7,100 N (~1,600 lbf) of force. Inspect all viewports for scratches before each pump-down. Replace any with scratches >0.1 mm deep. Install polycarbonate shields over viewports. Never stand in the direct line of a viewport during pump-down.
+- **Confined space**: Large chambers are confined spaces. Never enter a chamber under vacuum — atmospheric pressure will cause lethal injuries. Never enter a chamber that has been purged with nitrogen — oxygen deficiency causes unconsciousness in seconds. Follow OSHA confined space entry procedures (atmospheric testing, rescue plan, attendant).
+- **Sharp edges**: CF knife-edges are sharp enough to cut skin. Handle flanges with gloves. Cover exposed knife-edges with protective caps when not assembled. Dispose of used copper gaskets carefully — the compressed gasket edges are razor-sharp.
+- **Bake-out burn hazard**: Chambers during bake-out reach 150-250°C on external surfaces. Post warning signs during bake-out. Allow full cooling before touching chamber surfaces. Use infrared thermometer to verify temperature before contact.
+- **Heavy lifting**: A 300 mm diameter stainless chamber with flanges weighs 50-150 kg. Use overhead crane or engine hoist for installation. Never lift by a flange port — lift from the main cylinder body with rated slings.
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Cannot reach base pressure after vent | Water vapor adsorbed on chamber walls during atmospheric exposure | Bake at 150-200°C for 24 hours while pumping; vent with dry N₂ instead of air; extend pump-down |
+| CF flange leak after reassembly | Copper gasket work-hardened from previous use (single-use) or knife-edge nicked | Replace copper gasket (mandatory on each assembly); inspect knife-edge for nicks with magnifier |
+| Virtual leak — slow pressure rise after isolation | Unvented screw hole or trapped volume in weld | Replace screws with vented screws (axial hole drilled through center); inspect welds for incomplete fusion |
+| Viewport cracking during bake-out | Differential thermal expansion between glass and metal housing | Use Kovar-matched viewports; limit bake-out rate to 1-2°C/min; never tighten viewport bolts while hot |
+| Pressure rises linearly (not plateau) after isolation | Real leak at weld seam, flange, or feedthrough | Helium leak test with spray probe, working top to bottom; repair weld defects by grinding out and re-welding |
+| Outgassing rate does not drop during bake-out | Internal surfaces contaminated with oil, fingerprints, or machining residue | Disassemble and clean interior with acetone/IPA; re-electropolish if necessary; verify all plastic and elastomeric materials removed from chamber |
+
+## See Also
+
+- [Vacuum Chambers & Sealing](chambers.md) — advanced chamber design, flange systems, outgassing data
+- [Vacuum Pump](./vacuum-pump.md) — pump construction for evacuating chambers
+- [Leak Detection](./leak-detection.md) — helium leak detection methods
+- [Gas Handling: Vacuum](../gas-handling/vacuum.md) — outgassing rates and bake-out procedures
+- [Deposition Systems](deposition-systems.md) — integrated systems built around vacuum chambers
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*

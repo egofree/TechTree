@@ -83,6 +83,23 @@ Primary outputs: `timber` for marine construction, outdoor structures, and preci
 | Seasoning time (50 mm stock) | 4-8 months | Air dried, covered |
 | Rotation age (plantation) | 20-60 years | Shorter = smaller logs; longer = higher quality |
 | Rotation age (natural forest) | 60-120 years | Premium quality timber |
+| Green wood density | 800-1,000 kg/m³ | Extremely heavy when fresh-cut |
+| Teak oil content (heartwood) | 1.5-5.0% | Tectoquinone and related compounds |
+| Log water storage time | 2-12 months | Prevents staining and borer attack |
+
+### Timber Properties and Processing Details
+
+Teak's extraordinary durability comes from a combination of factors: high oil content (1.5-5.0%), silica deposits in the wood cells (0.5-1.7%), and natural preservative compounds including tectoquinone and lapachol. These chemicals make teak unpalatable to termites, resistant to fungal decay, and unattractive to marine borers (teredo worms) that destroy most other timbers in seawater.
+
+The silica content presents both an advantage and a challenge. It contributes to teak's resistance to marine borers and insects but makes the wood extremely abrasive to cutting tools. Saws, planers, and router bits dull 3-5 times faster on teak than on typical hardwoods. Carbide-tipped tools are essential for any machining operation. Traditional hand-tool woodworking with teak requires frequent sharpening of chisels and plane blades.
+
+Teak's low volumetric shrinkage (7.0-8.1%) is among the lowest of any commercial timber, lower than oak (10-13.5%) and much lower than beech (17-20%). This means teak components hold their dimensions across seasonal humidity changes — a critical property for boat decking, door panels, and precision joinery where gaps would be unacceptable.
+
+### Marine Applications
+
+Teak is the premier timber for marine deck planking because it combines durability, dimensional stability, and a non-slip surface that improves when wet. The wood's natural oils prevent water absorption, so teak decking does not swell, shrink, or warp with wet-dry cycling. When weathered, teak develops a fine, even grain texture that provides good traction underfoot.
+
+For boat building, teak is used for decking, trim, rails, hatches, and interior joinery. It is not typically used for structural frames (where oak or other stronger timbers are preferred) because teak's bending strength, while good, is not exceptional. Teak fastenings must be copper, bronze, or silicon bronze — never iron or steel, which react with tannins in the wood to produce black staining and accelerated corrosion.
 
 ## Safety Considerations
 
@@ -139,6 +156,8 @@ Primary outputs: `timber` for marine construction, outdoor structures, and preci
 - **Dahat teak** (*Tectona philippinensis*): Philippine endemic, endangered. Not commercially available.
 - **Alternative durable timbers**: Greenheart (*Chlorocardium rodiei*), ipe (*Handroanthus spp.*), and purpleheart (*Peltogyne spp.*) offer similar or better durability but different working properties.
 - **Treated pine**: For temperate zones where teak cannot grow, pressure-treated Scots pine or Douglas fir provides serviceable outdoor timber at much lower cost, though with inferior dimensional stability.
+- **Iroko** (*Milicia excelsa*): African tropical hardwood with similar appearance and durability to teak. Often marketed as "African teak." A practical alternative in west and central Africa.
+- **Cedar** (*Cedrus spp.*): Natural decay resistance from aromatic oils. Not as strong as teak but useful for outdoor construction and fencing in temperate and Mediterranean climates.
 
 ## References
 
@@ -147,6 +166,37 @@ Primary outputs: `timber` for marine construction, outdoor structures, and preci
 - [Scots Pine](./pinus-sylvestris.md) — temperate-zone alternative timber
 - [English Oak](./quercus-robur.md) — alternative durable timber for barrels and boat framing
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Teak Plantation Management
+
+Teak plantations require careful management to produce quality timber. The first 5-10 years
+are critical: competition from weeds and vines can suppress young teak trees. Regular weeding
+(every 2-3 months during the first 2 years) is essential. Thinning at ages 5, 10, and 15
+removes suppressed trees and provides space for the best specimens to develop clear, wide boles.
+
+Teak's requirement for a distinct dry season limits its cultivation range. Without a dry period,
+the tree grows vegetatively but does not form dense, durable heartwood. The best teak timber
+comes from regions with 4-6 months of dry season followed by heavy monsoon rains. India, Myanmar,
+Thailand, Indonesia, and Central America all produce quality plantation teak under these conditions.
+
+Pruning lower branches during the first 5-8 years produces clear, knot-free butt logs that
+command premium prices. Prune during the dry season to minimize fungal infection. Remove
+branches flush with the trunk to promote clean healing. A well-managed plantation with proper
+spacing, thinning, and pruning produces merchantable timber in 20-25 years, though 40-60 year
+rotations yield larger, higher-quality logs.
+
+Teak's dimensional stability (low volumetric shrinkage of 7-8%) makes it suitable for precision joinery where seasonal movement would cause problems. Door panels, window frames, and laboratory furniture benefit from teak's resistance to warping and swelling across humidity changes. This stability, combined with natural durability, makes teak the preferred wood for ship's wheels, navigational instruments, and scientific equipment housings in marine environments.
+
+### Teak Summary
+
+This species represents an important component of a diversified food production system.
+No single crop provides complete nutrition, and dietary diversity is essential for human
+health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
+vegetables, and nuts to ensure adequate intake of calories, protein, vitamins, and minerals.
+
+The crop's specific growing requirements (soil type, rainfall, temperature range, and
+growing season length) determine its geographic suitability. Matching crops to local
+conditions is more important than attempting to grow unsuitable crops in marginal
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

@@ -83,6 +83,21 @@ Primary outputs: `neem_oil` (insecticide, medicine), `neem_cake` (fertilizer, ne
 | Mammalian toxicity | Very low | LD50 > 5,000 mg/kg (practically non-toxic) |
 | First seed production | 3-5 years | From planting |
 | Optimal temperature | 25-35°C | Tropical/subtropical |
+| Seed yield per hectare | 2,000-5,000 kg | Mature plantation (10+ years) |
+| Neem cake application rate | 500-1,000 kg/ha | As soil amendment |
+| Azadirachtin degradation rate | 30-50% per year | In stored oil at ambient temperature |
+
+### Oil Extraction and Processing Details
+
+Neem oil extraction efficiency depends heavily on seed preparation and press type. Fresh seeds at 8-10% moisture pressed in a screw expeller yield 25-35% oil. A second pressing of the seed cake with higher pressure extracts an additional 5-10%. Traditional ghani (rotary mortar and pestle) extraction achieves 15-25% yield but requires no metal machinery. Cold pressing (below 60°C) preserves azadirachtin content; hot pressing increases oil yield but can degrade the active compounds.
+
+After pressing, filter the raw oil through cloth or let it settle for 2-3 days. The filtered oil is dark brown with a strong bitter-garlic odor. Raw neem oil contains 0.1-0.3% azadirachtin along with related limonoids (salannin, nimbin, gedunin) that contribute to the insecticidal and medicinal properties. The full spectrum of limonoids makes whole neem oil more effective as an insecticide than purified azadirachtin alone, because multiple compounds act synergistically against insect pests.
+
+### Soil Amendment and Integrated Pest Management
+
+Neem cake (the pressed seed residue) is one of the most valuable organic fertilizers available in the tropics. With 5-6% nitrogen, 1-2% phosphorus, and 1-2% potassium, it provides balanced nutrition while simultaneously suppressing soil nematodes and root-feeding insects. Apply 500-1,000 kg per hectare as a basal dressing before planting. The nematicidal effect lasts 2-3 months, protecting young crop roots during the critical establishment period.
+
+For integrated pest management, combine neem treatments with crop rotation, companion planting, and physical barriers. Neem does not kill beneficial insects (ladybugs, lacewings, parasitic wasps) at normal application rates, making it compatible with biological control programs. Spray neem oil in the early morning or late evening to avoid UV degradation of azadirachtin (half-life in direct sunlight: 1-4 hours).
 
 ## Safety Considerations
 
@@ -135,6 +150,10 @@ Primary outputs: `neem_oil` (insecticide, medicine), `neem_cake` (fertilizer, ne
 - **Rotenone** (*Derris elliptica*): Tropical vine root extract. Potent insecticide and fish poison. More toxic to mammals than neem.
 - **Tobacco extract** (*Nicotiana tabacum*): Nicotine sulfate is a potent insecticide. More toxic to mammals than neem. Requires careful handling.
 
+### Additional Uses
+
+Neem wood is moderately durable (similar to teak in resistance to termites) and used for furniture, cart wheels, and construction in regions where the tree grows. The timber seasons well with minimal warping. Neem leaves placed in stored grain act as a repellent against storage pests at lower concentrations than seed cake powder. In traditional medicine, neem leaf paste treats skin infections and the twig chewing stick provides antibacterial oral hygiene — the twigs contain compounds that inhibit Streptococcus mutans, a primary cause of dental caries.
+
 ## References
 
 - [Agriculture](../agriculture/index.md) — crop protection and pest management
@@ -142,6 +161,44 @@ Primary outputs: `neem_oil` (insecticide, medicine), `neem_cake` (fertilizer, ne
 - [Food Processing](../food-processing/index.md) — grain storage protection
 - [Pyrethrum](./chrysanthemum-cinerariifolium.md) — comparison natural insecticide
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Neem in Integrated Pest Management
+
+Neem plays a central role in integrated pest management (IPM) systems because it controls
+pests through multiple mechanisms: antifeedant action (insects stop eating treated plants),
+growth disruption (larvae fail to molt and develop), repellent action (insects avoid treated
+surfaces), and sterility (reduced egg-laying and hatching rates). This multi-mode action
+makes it difficult for pests to develop resistance, unlike single-action synthetic pesticides.
+
+Neem is compatible with biological control agents. At normal application rates, neem does
+not harm predatory insects (ladybugs, lacewings, praying mantises), parasitic wasps, or
+spiders that provide natural pest control. This allows neem to be integrated into IPM
+programs that combine botanical, biological, and cultural control methods.
+
+For grain storage protection, mix dried neem leaves or ground seed cake with stored grain
+at 1-2% by weight. The neem compounds repel storage beetles (Sitophilus, Tribolium, and
+Callosobruchus species) for 3-6 months, reducing post-harvest losses from 30-50% to under
+5%. This application alone makes neem critically important for food security in tropical
+regions where grain storage losses are a major cause of food insecurity.
+
+Neem cake (the pressed seed residue) has multiple uses beyond fertilizer. When mixed with stored grain at 1-2% by weight, it repels storage pests for 3-6 months. Neem cake tea (soaking cake in water) can be used as a foliar spray for crop protection. The cake also has nematicidal properties, reducing soil nematode populations when incorporated into planting beds. These multiple uses make the entire neem seed valuable, not just the extracted oil.
+
+### Neem Summary
+
+This species represents an important component of a diversified food production system.
+No single crop provides complete nutrition, and dietary diversity is essential for human
+health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
+vegetables, and nuts to ensure adequate intake of calories, protein, vitamins, and minerals.
+
+The crop's specific growing requirements (soil type, rainfall, temperature range, and
+growing season length) determine its geographic suitability. Matching crops to local
+conditions is more important than attempting to grow unsuitable crops in marginal
+environments. Where this species is well-adapted, it should be a priority for cultivation;
+where conditions are marginal, alternative species should be preferred.
+
+
+
+
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

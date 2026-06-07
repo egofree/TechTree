@@ -85,6 +85,22 @@ Primary outputs: `salicin` (pain relief medicine), `basketry_withies` for woven 
 | Growth rate | 1-2 m/year | In moist soil |
 | Tree height | 10-25 m | At maturity |
 | Optimal site | Moist soil near water | Will not thrive in dry conditions |
+| Salicin content variation | 0.5-3.0% | Between species, *S. purpurea* highest |
+| Bark yield per coppice stool | 50-200 g | Dried, from 3-year rotation |
+
+### Willow Bark Medicine Details
+
+The pharmacology of willow bark centers on the conversion pathway: salicin → saligenin → salicylic acid. This multi-step conversion in the body provides a gradual onset of action (30-60 minutes) and longer duration (4-6 hours) compared to synthetic aspirin, which acts within 15-30 minutes but has a similar duration. The gradual conversion also makes willow bark gentler on the stomach than aspirin, because less salicylic acid is present in the stomach at any one time.
+
+Salicin content varies between willow species. White willow (*S. alba*) contains 0.5-1.5%. Purple willow (*S. purpurea*) contains up to 3% and is the preferred species for medicine where available. Crack willow (*S. fragilis*) contains 1-2%. The bark of younger shoots (2-3 years) has higher salicin concentration than older bark. Spring-harvested bark has higher content than autumn bark.
+
+For communities without access to synthetic aspirin, willow bark provides effective pain relief for headaches, dental pain, muscle soreness, menstrual cramps, and fever reduction. It is less effective for severe pain (broken bones, surgery) but adequate for the majority of everyday discomforts. The anti-inflammatory properties also make it useful for joint pain (arthritis) when taken regularly at moderate doses.
+
+### Basketry and Withy Production
+
+Willow withies are among the best basketry materials in the temperate zone. The shoots are long, flexible, uniform in diameter, and split easily. Willow baskets were the standard containers of pre-industrial Europe, used for everything from fishing traps to harvest baskets to laundry hampers. Willow is also woven into hurdles (temporary fencing panels), lobster pots, and beehive skeps.
+
+For the best withies, coppice willow annually in winter. Sort shoots by length and thickness into grades. Withies for fine basketry should be 1-2 meters long and 3-6 mm in diameter. Soak dried withies in water for 3-7 days until pliable before weaving. Fresh green withies can be woven immediately but shrink as they dry, creating loose weave. Soaking dried withies and weaving them damp produces tighter work.
 
 ## Safety Considerations
 
@@ -135,12 +151,54 @@ Primary outputs: `salicin` (pain relief medicine), `basketry_withies` for woven 
 - **Crack willow** (*Salix fragilis*): Common in Europe, moderate salicin content. Large tree.
 - **Aspirin (synthetic)**: Acetylsalicylic acid synthesized from phenol. First produced in 1897. More consistent dosing, gentler on the stomach. Requires chemical industry.
 - **Meadowsweet** (*Filipendula ulmaria*): Herb containing salicylate compounds. Gentler than willow bark. Used traditionally for the same purposes.
+- **Wintergreen** (*Gaultheria procumbens*): Contains methyl salicylate, a potent topical anti-inflammatory. Applied as an oil to sore muscles and joints.
+- **Poplar bark** (*Populus spp.*): Contains salicin, similar to willow. Less concentrated but useful where willow is unavailable.
 
 ## References
 
 - [Health](../health/index.md) — pain management and medicine
 - [Silver Birch](./betula-pendula.md) — comparison tree with different products
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Willow in Land Reclamation
+
+Willow is one of the best plants for stabilizing eroding riverbanks and reclaiming degraded land.
+The dense, fibrous root system binds soil effectively, and the rapid growth provides quick canopy cover.
+Live willow stakes (2-3 year old shoots, 1-2 meters long) can be driven directly into wet ground where
+they will root and grow, establishing vegetation cover within a single growing season.
+
+For riverbank stabilization, plant willow in a crisscross pattern (fascine planting): lay bundles of
+dormant willow shoots in shallow trenches along the contour of the bank and peg them in place. The
+shoots root at each node, creating a living retaining wall that strengthens as it grows. This technique,
+used since Roman times, provides permanent erosion control without imported materials.
+
+Willow also serves as a biofuel crop in short-rotation coppice systems. Harvesting coppiced willow
+every 3-4 years produces 10-15 tonnes of dry biomass per hectare per year, suitable for firewood or
+charcoal production. The rapid regrowth from the cut stump makes this one of the most productive
+woody biomass systems available in temperate climates.
+
+Willow roots readily from cuttings — a freshly cut willow stick pushed into moist ground will sprout roots and leaves within weeks. This property makes willow ideal for live fencing, erosion control, and rapid establishment of windbreaks. The Salix genus contains over 400 species distributed across all temperate regions, ensuring that a suitable willow species is available in virtually any temperate location. Willow biomass is also being investigated as a feedstock for bioethanol production due to its rapid growth on marginal land.
+
+### White Willow Summary
+
+This species represents an important component of a diversified food production system.
+No single crop provides complete nutrition, and dietary diversity is essential for human
+health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
+vegetables, and nuts to ensure adequate intake of calories, protein, vitamins, and minerals.
+
+The crop's specific growing requirements (soil type, rainfall, temperature range, and
+growing season length) determine its geographic suitability. Matching crops to local
+conditions is more important than attempting to grow unsuitable crops in marginal
+environments. Where this species is well-adapted, it should be a priority for cultivation;
+where conditions are marginal, alternative species should be preferred.
+
+
+
+
+
+
+
+
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

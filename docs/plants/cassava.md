@@ -193,5 +193,12 @@ Cassava roots are ready for harvest 8-24 months after planting, depending on var
 - IITA: International Institute of Tropical Agriculture cassava resources
 - CIAT: Centro Internacional de Agricultura Tropical cassava program
 
+Cassava roots deteriorate rapidly after harvest (vascular streaking begins within 24-48 hours), making prompt processing essential. The traditional solution is to process roots on the same day they are harvested — either by grating and fermenting into gari (West Africa), pressing and roasting into farinha (Brazil), or drying whole roots in the sun for later milling into flour. These processing methods simultaneously reduce cyanide content to safe levels.
+Cassava provides the highest calorie yield per hectare of any staple crop in the tropics,
+producing 15-40 tonnes of fresh roots per hectare (equivalent to 5-12 tonnes of dry matter).
+The crop requires minimal inputs — no nitrogen fertilizer (it produces cyanide as a natural
+pesticide), tolerates poor acidic soils, and yields reliably even in drought years when corn
+and beans fail entirely.
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

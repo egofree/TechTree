@@ -86,6 +86,24 @@ Primary outputs: `tannin_bark` for leather tanning, `timber` for fuel and poles.
 | Leather color | Pale pink to light brown | Lighter than oak-tanned leather |
 | Tree height at harvest | 5-15 m | 7-10 years old |
 | Optimal rainfall | 700-1,500 mm/year | Tropical/subtropical |
+| Bark moisture at harvest | 40-60% | Air-dry to below 15% for storage |
+| Coppice regrowth rate | 1-2 m/year | Vigorous after felling |
+
+### Tannin Extraction Details
+
+The efficiency of tannin extraction from black wattle bark depends on water temperature, particle size, and steeping time. Hot water extraction (60-80°C) recovers 85-95% of available tannins, compared to 60-70% recovery with cold water steeping. Milled bark (particles under 2 mm) extracts faster and more completely than coarsely chopped bark.
+
+For countercurrent extraction — the most efficient method at production scale — arrange 4 to 6 tanning pits in series. Fresh bark goes into the pit with the strongest used liquor, while fresh water enters the pit with the most exhausted bark. This cascading approach extracts 90-95% of available tannins while minimizing water consumption.
+
+The condensed tannins from black wattle (primarily prorobinetinidins and profisetinidins) have a molecular weight range of 1,500-5,000 Daltons. This moderate molecular weight gives wattle tannins good penetration into hide collagen without the excessive astringency of smaller tannins or the slow penetration of larger hydrolyzable tannins.
+
+### Cultivation and Coppice Management
+
+Black wattle is one of the easiest plantation trees to establish. Seedlings grow 1-3 meters in their first year under favorable conditions. The species fixes 30-100 kg of nitrogen per hectare per year through root-associated rhizobia, improving the soil for subsequent crops or rotations.
+
+After harvesting at 7-10 years, the stumps coppice vigorously, producing 3-8 new shoots per stump. These coppice shoots grow faster than seedlings because they draw on the established root system. Second-rotation coppice can be harvested at 5-7 years, though bark quality decreases slightly with each successive rotation.
+
+For sustained production, manage plantations on a 3-compartment system: one compartment newly planted, one growing to harvest age, and one being harvested. This provides a continuous annual supply of bark once the first rotation matures.
 
 ## Safety Considerations
 
@@ -140,6 +158,12 @@ Primary outputs: `tannin_bark` for leather tanning, `timber` for fuel and poles.
 - **Chestnut wood** (*Castanea sativa*): 8-12% tannin in wood chips. Extracted from wood rather than bark.
 - **Mimosa** (*Acacia mearnsii* alternative name): Same species; the term "mimosa" is used in the tanning industry for wattle tannin extract.
 - **Synthetic tannins** (syntans): Petroleum-derived chemicals that replace vegetable tannins at higher technology levels.
+- **Sumac** (*Rhus coriaria*): Leaves contain 15-25% tannin. Used in Mediterranean leather tanning. Produces light-colored leather similar to wattle.
+- **Hemlock bark** (*Tsuga canadensis*): 10-15% tannin content. Traditional tanning material in North America. Produces reddish-brown leather.
+
+### Industrial Applications Beyond Leather
+
+Wattle tannin has industrial uses beyond leather tanning: as a corrosion inhibitor in water treatment systems, as a flocculant in mineral processing (especially for clarifying drilling mud), and as a wood adhesive when crosslinked with formaldehyde or hexamine. Wattle tannin-based adhesives bond wood at lower pressing temperatures than synthetic phenol-formaldehyde resins, making them viable for plywood and particleboard production at moderate technology levels. The tannin also functions as a mordant in textile dyeing, fixing natural dyes to cotton and wool fibers.
 
 ## References
 
@@ -147,6 +171,32 @@ Primary outputs: `tannin_bark` for leather tanning, `timber` for fuel and poles.
 - [Animals](../animals/index.md) — hides as a raw material source
 - [English Oak](./quercus-robur.md) — alternative tannin source
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Wattle Plantation Economics
+
+Black wattle plantations in South Africa, Brazil, and East Africa demonstrate the economic
+viability of short-rotation tannin forestry. A well-managed 10-hectare plantation with
+staggered age classes (planted over 7-10 years) provides annual bark harvest indefinitely.
+The 7-10 year rotation is short enough for individual farmers to manage without generational
+planning, unlike oak (80-150 years) or teak (40-60 years).
+
+After bark stripping, the timber is used for fuel, pulp, or charcoal. The combined value of
+bark (tannin) and wood (energy/pulp) makes wattle one of the most profitable tree crops per
+hectare in subtropical regions. Interplanting with nitrogen-fixing ground covers or grazing
+animals between tree rows provides additional returns during the growing period.
+
+Coppice regrowth from harvested stumps produces the second rotation at lower cost than the
+initial planting, because no site preparation or seedling production is required. Second and
+third rotation coppice typically yields 70-80% of first rotation bark volume, declining
+gradually as stump vigor decreases over 3-4 rotations (20-40 years).
+
+Black wattle bark contains condensed tannins (proanthocyanidins) that are chemically distinct from the hydrolyzable tannins found in oak bark, sumac leaves, and chestnut wood. Condensed tannins produce firmer, more water-resistant leather than hydrolyzable tannins, making wattle-tanned leather preferred for heavy-duty applications like shoe soles, belts, and harness equipment.
+
+### Black Wattle Summary
+
+This species represents an important component of a diversified food production system.
+No single crop provides complete nutrition, and dietary diversity is essential for human
+health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

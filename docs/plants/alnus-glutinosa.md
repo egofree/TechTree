@@ -83,6 +83,23 @@ Primary outputs: `water_resistant_timber` for underwater construction, `nitrogen
 | Coppice rotation | 10-15 years | For poles and small timber |
 | Optimal site | Wet soils, riverbanks | Tolerates waterlogging |
 | Growth rate | 0.5-1.0 m/year | In good conditions |
+| Soil nitrogen addition | 50-150 kg/ha/year | Via Frankia root nodules |
+| Bark tannin yield | 30-80 kg/ha | At 15-25 year harvest |
+| Timber yield per hectare | 5-15 m³ | At 15-25 year rotation |
+
+### Timber Processing Details
+
+Alder wood has specific processing requirements that differ from other hardwoods. Fresh-cut alder has a high moisture content (70-100% of dry weight) and must be dried carefully to avoid severe warping and checking. The wood has high volumetric shrinkage (11-13%), meaning it moves significantly during drying. Stack alder boards with close sticker spacing (30 cm) and weight the stack to restrain movement.
+
+A notable characteristic of fresh alder wood: it turns a distinctive orange-red color when exposed to air and light. This color change is harmless and stabilizes within hours. The dried wood is pale reddish-brown with a fine, even texture that finishes smoothly with hand tools.
+
+For underwater pilings, the critical factor is ensuring the pile remains permanently below the water table. Alder that cycles between wet and dry conditions will decay rapidly. The transition zone at the waterline is the most vulnerable point. Traditional practice extends the pile several meters below the lowest recorded water level and caps the top with a protective band of oak, copper sheet, or concrete.
+
+### Nitrogen Fixation in Practice
+
+Alder root nodules host Frankia actinomycetes (not rhizobia bacteria like legumes). These nodules are visible as clusters of coral-like growths on fine roots, typically 2-5 mm in diameter. Actively fixing nodules are pink to red inside due to leghemoglobin, which regulates oxygen supply to the nitrogenase enzyme.
+
+A stand of 2,000 alder trees per hectare can add 50-150 kg of nitrogen annually to the soil through leaf litter, root turnover, and nodule senescence. This is equivalent to applying 100-300 kg of ammonium sulfate fertilizer per hectare. When alder is cleared for crop planting, the decomposing roots and leaf litter release this stored nitrogen gradually over 2-3 years, providing a sustained nutrient supply for the following crop.
 
 ## Safety Considerations
 
@@ -133,6 +150,12 @@ Primary outputs: `water_resistant_timber` for underwater construction, `nitrogen
 - **Italian alder** (*Alnus cordata*): Tolerates drier conditions. Good for land reclamation in Mediterranean climates.
 - **Elm** (*Ulmus minor*): Also water-resistant and used for underwater structures, though elm is heavier and harder to work.
 - **Oak** (*Quercus robur*): Heartwood is durable in ground contact but less so than alder when fully submerged. Much stronger but slower growing.
+- **White cedar** (*Thuja occidentalis*): Naturally durable in ground contact and water. North American species. Lighter but weaker than alder.
+- **Concrete piles**: At higher technology levels, concrete replaces wooden pilings entirely. But for early-stage construction, alder provides the most accessible water-resistant foundation material.
+
+### Dye and Tannin Production
+
+Alder bark produces a warm brown dye when boiled in water. Adding iron (rusty nails or iron water) shifts the color to deep brown-black. The bark contains 8-16% tannins, enough for leather tanning in regions where oak or wattle is unavailable. The tanning process is identical to other bark tanning: steep bark in water, prepare hides, and immerse for 2-8 weeks. Alder-tanned leather has a distinctive reddish-brown color and is softer than wattle-tanned leather, making it suitable for garment leather rather than heavy harness leather.
 
 ## References
 
@@ -140,6 +163,40 @@ Primary outputs: `water_resistant_timber` for underwater construction, `nitrogen
 - [Agriculture](../agriculture/index.md) — nitrogen fixation and soil improvement
 - [English Oak](./quercus-robur.md) — comparison timber for construction
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Alder in Agroforestry Systems
+
+Alder's nitrogen-fixing ability makes it a key component of temperate agroforestry systems.
+In traditional European woodland management, alder was maintained along waterways and in wet
+areas of coppice woodland, providing poles for fencing and tool handles while enriching the
+soil for neighboring trees. A mixed alder-oak woodland produces better oak growth than pure
+oak stands because the alder's nitrogen fixation fertilizes the oak trees.
+
+For land reclamation, alder is planted as a pioneer species on degraded sites: former industrial
+land, mining spoil heaps, and eroded hillsides. The tree establishes quickly, improves soil
+structure and fertility, and creates conditions suitable for other tree species to colonize.
+After 10-15 years of alder growth, the site can be interplanted with climax species (oak, beech,
+ash) that will eventually replace the alder as the canopy closes.
+
+### Alder Charcoal and Fuelwood
+
+Alder coppice on a 10-15 year rotation produces good fuelwood. The wood burns steadily with a
+moderate heat output, suitable for domestic heating and cooking. Alder charcoal is soft and
+lights easily but burns faster than hardwood charcoal — suitable for cooking but not preferred
+for smelting. The charcoal was historically used in gunpowder manufacture because it ignites
+reliably at a consistent rate.
+
+Alder wood turns well on a lathe and takes a smooth finish, making it suitable for turned items like bowls, tool handles, and chair legs. Fresh-cut alder has a bright orange-red color that fades to pale brown upon exposure to air. The wood accepts stain and paint readily, and in historic Europe it was often used as a cheaper alternative to mahogany for furniture that would be painted or stained.
+
+### Black Alder Summary
+
+This species represents an important component of a diversified food production system.
+No single crop provides complete nutrition, and dietary diversity is essential for human
+health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
+vegetables, and nuts to ensure adequate intake of calories, protein, vitamins, and minerals.
+
+The crop's specific growing requirements (soil type, rainfall, temperature range, and
+growing season length) determine its geographic suitability. Matching crops to local
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

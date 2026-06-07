@@ -193,5 +193,9 @@ Plantain is typically grown in perennial plantations, but in rotation systems it
 - Data sourced from Food Plants International, Wikipedia, and iNaturalist via the Edible Plant Database (ZIM)
 - Plants for a Future (pfaf.org) — supplementary cultivation and use data
 
+Plantains differ from dessert bananas in their higher starch content and lower sugar content when ripe. They are always cooked before eating — fried, boiled, roasted, or steamed — and serve as a staple carbohydrate source for over 70 million people in Africa, Latin America, and Asia. A mature plantain plant produces 20-100 fruits per bunch, yielding 20-60 kg of food from a single harvest cycle.
+
+Plantain is a staple food for over 70 million people across tropical Africa, Latin America, and Southeast Asia. The crop produces year-round in equatorial regions with no distinct growing season, providing a continuous food supply. Plantain flour, made by drying and grinding unripe fruits, stores for months and can be used for breads, porridges, and thickening agents. The flour is gluten-free and rich in complex carbohydrates, potassium, and dietary fiber.
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

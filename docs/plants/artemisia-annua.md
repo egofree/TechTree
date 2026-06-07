@@ -93,6 +93,22 @@ Primary outputs: `artemisinin` for malaria treatment, `essential_oil` for insect
 | Days to harvest | 90-120 | From sowing |
 | Leaf drying time | 3-7 days | In shade, ventilated |
 | Optimal rainfall | 400-1,000 mm/year | Temperate/subtropical |
+| Seed yield per hectare | 10-30 kg | Small, lightweight seeds |
+| Leaf-to-stem ratio at harvest | 60:40 by weight | Leaves contain the artemisinin |
+
+### Extraction Processing Details
+
+Artemisinin extraction efficiency varies dramatically by method. Simple hot water extraction (tea) recovers only 5-15% of available artemisinin because the compound is poorly soluble in water. Ethanol extraction at room temperature recovers 40-60%. Hexane or petroleum ether extraction at room temperature recovers 70-90% and is the standard industrial method. For maximum yield at low technology levels, a two-step process works best: first extract with warm ethanol (40-60°C) for 24 hours, then concentrate by evaporation.
+
+Recrystallization from ethanol or hexane purifies the crude extract to pharmaceutical-grade white crystals. Dissolve the crude extract in warm ethanol at 1:10 ratio, filter to remove insoluble material, then cool slowly to 0-5°C. Artemisinin crystallizes as fine white needles. Collect by filtration and dry. Typical purity after one recrystallization: 70-90%. Multiple recrystallizations yield >99% pure artemisinin.
+
+The entire extraction and purification process requires no specialized equipment beyond glass or ceramic vessels, a heat source, and basic filtration (cloth or paper). A field laboratory with 5-10 liters of ethanol and 5 kg of dried leaf can produce 5-50 g of purified artemisinin — enough for 10-100 adult treatment courses.
+
+### Cultivation for Maximum Yield
+
+Artemisinin content varies from 0.01% to over 1.5% depending on variety, with most wild-type plants at 0.1-0.4%. Selecting and propagating high-yield varieties is the single most impactful intervention for practical malaria treatment. Several cultivars (e.g., 'Anamed A-3', various Chinese breeding lines) consistently produce 1.0-1.5% artemisinin in dried leaf tissue.
+
+Plant density of 100,000-250,000 plants per hectare (20-30 cm spacing) maximizes leaf yield. Excessive nitrogen fertilizer increases biomass but can dilute artemisinin concentration. Moderate fertility with adequate phosphorus and potassium produces the optimal balance of leaf yield and artemisinin content.
 
 ## Safety Considerations
 
@@ -147,12 +163,41 @@ Primary outputs: `artemisinin` for malaria treatment, `essential_oil` for insect
 - **Synthetic artemisinin**: Semi-synthetic production from engineered yeast (developed 2012). Requires biotechnology capability.
 - **Sweet Annie tea**: Traditional Chinese preparation. Less reliable than purified artemisinin but accessible at low technology.
 
+### Industrial and Research Applications
+
+Beyond malaria treatment, artemisinin shows promise as an antiparasitic agent against schistosomiasis and other helminth infections. The essential oil of *A. annua* (0.2-1.0% yield by steam distillation) contains camphor, artemisia ketone, and 1,8-cineole, compounds with insect repellent and antimicrobial activity. Dried *A. annua* foliage can be hung in dwellings or burned as a smudge to repel mosquitoes — a simple prevention measure that complements active malaria treatment.
+
+For seed production, allow a portion of the planting to flower and set seed. Each plant produces 50,000-100,000 tiny seeds. Collect seed heads as they dry on the plant and store in paper bags. Seeds remain viable for 2-3 years when stored cool and dry.
+
 ## References
 
 - [Health](../health/index.md) — malaria treatment and infectious disease
 - [Cinchona](./cinchona-officinalis.md) — quinine, the alternative antimalarial
 - [Neem](./azadirachta-indica.md) — insect repellent for malaria prevention
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Artemisinin Resistance and Combination Therapy
+
+Artemisinin-resistant malaria parasites have emerged in Southeast Asia since 2008, characterized
+by delayed parasite clearance after treatment. This resistance underscores the importance of
+using artemisinin in combination with a partner drug (ACT — artemisinin-based combination
+therapy) rather than as monotherapy. The partner drug (lumefantrine, amodiaquine, or piperaquine)
+kills residual parasites that survive artemisinin treatment, preventing the selection of
+resistant strains.
+
+At low technology levels, combination therapy is challenging because the partner drugs require
+pharmaceutical synthesis. The dried leaf therapy approach (consuming whole leaf powder)
+naturally provides a cocktail of antimalarial compounds (artemisinin plus flavonoids and
+other sesquiterpenes) that may slow resistance development compared to purified artemisinin alone.
+
+### Cultivation Scale for Community Health
+
+A community of 1,000 people in a malaria-endemic region can expect 200-400 malaria cases per
+year. To treat these cases with dried leaf therapy (10 g dried leaf per day × 7 days per
+course = 70 g per treatment), the community needs 14-28 kg of dried leaf per year. One hectare
+of high-yield *A. annua* producing 2,000 kg of dried leaf per year provides enough medicine
+for 50,000-100,000 treatment courses — far exceeding community needs and allowing surplus
+for trade or emergency reserves.
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

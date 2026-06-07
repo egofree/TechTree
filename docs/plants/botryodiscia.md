@@ -196,5 +196,7 @@ The plant's cordate (heart-shaped) leaves and slender twining stems make it an a
 For propagation from cuttings, select semi-hardwood stems from the current season's growth, taken from vigorous plants in spring or early summer. Cuttings from the middle portion of the stem, where the wood is firm but not fully hardened, produce the best rooting rates. Remove all but the top two or three leaves to reduce transpiration while the cutting forms roots. Keep the rooting medium consistently moist but never waterlogged, as the cuttings are susceptible to fungal rot in soggy conditions.
 
 The small greenish flowers of Botryodiscia are borne in axillary clusters along the twining stems. Each flower produces a small drupe-like fruit containing a single seed. The fruits darken from green to dark purple or black when ripe, at which point the seeds can be collected for propagation. Seed viability decreases rapidly after harvest, so fresh seeds should be sown immediately rather than stored for extended periods.
+### Botryodiscia Summary
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

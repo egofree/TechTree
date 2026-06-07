@@ -10,6 +10,17 @@
 > **Critical**: No
 
 
+## Prerequisites & Dependencies
+
+Nitrocellulose production requires a substantial chemical infrastructure:
+
+- **[Mixed acid production](acids.md)**: Both nitric acid (90%+ concentrated) and sulfuric acid (96-98%) are required. The mixed acid must be prepared fresh and kept within composition tolerances. This alone requires an established acid production facility.
+- **[Cellulose source](../plants/index.md)**: Cotton linters (short fibers from cotton ginning) or high-alpha wood pulp (>95% alpha-cellulose). The cellulose must be clean, bleached, and dried to <2% moisture. Impurities in the cellulose produce discolored, unstable nitrocellulose.
+- **Temperature-controlled reaction vessels**: Cast iron or lead-lined steel nitrators with cooling jackets capable of removing 2-5 kW per kg of cellulose. The nitration is strongly exothermic and temperature must stay below 30°C.
+- **Large water supply**: Washing and stabilization requires 20× the acid volume for quenching, plus ongoing boiling water for stabilization (4-24 hours minimum). A nitrocellulose plant is a water-intensive facility.
+- **Solvent production** (for smokeless powder): Diethyl ether (from ethanol + sulfuric acid dehydration) and ethanol. The ether-alcohol solvent system requires explosion-proof facilities and solvent recovery (>95% capture rate).
+- **[Glycerol](soap.md)** (for double-base powder): From fat saponification or synthetic production.
+
 ## Nitrocellulose (Guncotton)
 
 **Chemistry**: Cellulose (cotton linters or wood pulp) + nitric acid + sulfuric acid produces nitrocellulose (cellulose nitrate). Nitration substitutes -NO₂ groups onto cellulose hydroxyls. Degree of nitration determines properties:
@@ -169,6 +180,58 @@ Stabilizer (diphenylamine) content must be monitored. As the stabilizer is consu
 - Solvent recovery is essential for economics (ether is expensive and highly flammable)
 - Grain geometry must be precisely controlled for consistent ballistics
 
----
+## Scaling Notes
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*
+Smokeless powder production requires dedicated facilities with blast-resistant construction:
+
+- **Pilot scale** (10-100 kg/batch): Single mixing vessel (stainless steel, 50-200 L) with motorized kneader. Hand-operated extrusion press. Solvent recovery condenser. This scale produces enough powder for small-arms development and testing. One trained operator plus a solvent recovery technician.
+- **Production scale** (1-10 tonnes/year): Multiple mixing vessels in separate blast-resistant bays. Hydraulic extrusion presses with multiple dies. Continuous solvent recovery system (>95% capture rate, essential for economics and safety). Screening and blending equipment for lot-to-lot consistency. 20-50 workers. This was the scale of national powder factories in the early 20th century.
+- **Industrial scale** (100+ tonnes/year): Continuous mixing and extrusion lines. Automated grain sorting and blending. Ballistic testing laboratory with closed bombs and test firearms. This scale supplies a national military's small-arms and artillery propellant needs.
+
+Critical bottleneck: Ether production. Diethyl ether is produced by dehydrating ethanol with sulfuric acid at 130-140°C. This requires an established ethanol supply (fermentation or ethylene hydration) and sulfuric acid production. Ether is extremely flammable (LEL 1.9% in air, autoignition 160°C) and forms explosive peroxides in storage. All ether handling areas require explosion-proof electrical equipment and strict inventory rotation (use within 6 months of production).
+
+## Quality Control
+
+Smokeless powder quality is verified by multiple tests at batch and lot level:
+
+1. **Nitrogen content**: Determine by Lunge nitrometer or Devarda method. Target: 12.6-13.2% for blended propellant. Outside this range, the burn rate and energy content deviate from specification.
+
+2. **Grain geometry**: Measure grain length, diameter, and perforation dimensions with calipers and optical comparators. Dimensions must be within ±2% of specification for consistent ballistics. Web thickness (distance between perforations) is the most critical dimension — it determines burn time.
+
+3. **Moisture content**: Weigh 10 g sample, dry at 100°C for 2 hours, reweigh. Moisture must be below 1.0%. Excess moisture reduces burn rate and causes ignition problems.
+
+4. **Closed bomb test**: Fire a 10 g sample in a calibrated pressure vessel with piezoelectric transducers. Record pressure vs. time curve. Compare to reference curves for the same grain geometry and composition. Maximum pressure and pressure rise time must fall within specification bands.
+
+5. **Stabilizer content**: Diphenylamine content measured by colorimetric test or HPLC. Fresh powder: 1.0-2.0%. Minimum safe level: 0.3%. Below this, destroy the powder.
+
+6. **Quick field test**: Ignite a single grain on a steel plate. It should burn completely in 0.5-2 seconds (depending on grain size) with no residue. Smoking, sputtering, or residue indicates moisture or impurity problems.
+
+## Variations and Alternatives
+
+| Propellant Type | Composition | Relative Power | Barrel Erosion | Best For |
+|----------------|-------------|---------------|----------------|----------|
+| Black powder | KNO₃/charcoal/sulfur | 1x (baseline) | High (corrosive residue) | Primitive firearms, blasting, fireworks |
+| Single-base smokeless | Nitrocellulose (12.6-13.2% N) | 2-3x | Moderate | Rifle and pistol ammunition, US military standard |
+| Double-base smokeless | NC + 15-40% nitroglycerin | 2.5-3.5x | Higher (hotter combustion) | European military, hunting ammunition, higher performance |
+| Triple-base smokeless | NC + NG + nitroguanidine | 2-3x | Low (cool flame, low flash) | Large-caliber artillery, reduced barrel wear |
+| Ball powder | NC dissolved and formed as spheres | Similar to single/double | Similar | Automated production, consistent geometry |
+
+## Safety & Hazards
+
+Nitrocellulose and smokeless powder production involves multiple serious hazards that require dedicated safety infrastructure:
+
+- **Thermal runaway in nitration**: The nitration reaction generates ~150 kJ per mole of cellulose (highly exothermic). If the temperature exceeds 35°C, the reaction rate accelerates, producing more heat, which accelerates the reaction further. Above 60-70°C, the nitrated product itself begins to decompose exothermically, potentially leading to ignition. Temperature control at 20-30°C requires cooling capacity of 2-5 kW per kg of cellulose being nitrated. If temperature rises above 35°C despite cooling, dump the batch immediately into the quench tank (20× volume cold water). Never attempt to save a hot batch.
+- **Nitrogen dioxide (NO₂) exposure**: Decomposition of nitrocellulose produces NO₂, a brown gas with IDLH 20 ppm. NO₂ causes delayed pulmonary edema (symptoms appear 6-24 hours after exposure, by which time lung damage may be irreversible). Detectable by color at 5 ppm. Ventilate nitration areas with 15+ air changes per hour. Install continuous NO₂ monitors with audible alarms.
+- **Dry guncotton ignition**: Dried guncotton ignites from friction, impact, or static discharge at energies as low as 0.1 mJ. During the drying stage (40-50°C), keep the product slightly damp until the final drying step. Handle dry guncotton only with non-sparking tools (wood, rubber, or beryllium copper). Maintain >60% relative humidity in drying rooms to reduce static.
+- **Ether-alcohol solvent explosion**: Smokeless powder manufacture uses diethyl ether (LEL 1.9%, autoignition 160°C) and ethanol. Ether vapor is heavier than air and pools at floor level. A static spark ignites ether-air mixtures. All solvent handling equipment must be grounded. Use explosion-proof motors and lights. Solvent recovery system must capture >95% of vapors for both safety and economics.
+- **Stabilizer depletion**: Diphenylamine stabilizer scavenges NO₂ decomposition products. Once the stabilizer is consumed (typically 1-2% by weight in fresh powder), the remaining decomposition products autocatalyze further breakdown, potentially leading to spontaneous ignition. Test stabilizer content annually for stored powder; destroy powder when stabilizer drops below 0.3%. Heat dramatically accelerates depletion: at 20°C, stabilizer lasts 20-40 years; at 50°C, it depletes in months.
+- **Mixed acid handling**: The mixed acid (HNO₃ + H₂SO₄) causes severe chemical burns. Full acid-resistant PPE (face shield, rubber apron, gauntlet gloves, rubber boots) is mandatory. Emergency eyewash and shower within 3 meters of all nitration vessels. Neutralize spills with limestone or sodium bicarbonate.
+
+## See Also
+
+- **[Explosives & Propellants](explosives.md)**: Parent overview
+- **[Black Powder](black-powder.md)**: Predecessor propellant
+- **[Nitroglycerin & Dynamite](nitroglycerin-dynamite.md)**: NG production for double-base powders
+- **[High Explosives](high-explosives.md)**: TNT, RDX, ANFO
+- **[Detonation & Blasting](detonation-blasting.md)**: Initiating systems
+- **[Acids](acids.md)**: Nitric and sulfuric acid for nitration

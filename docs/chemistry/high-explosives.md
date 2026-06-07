@@ -10,6 +10,18 @@
 > **Critical**: No
 
 
+## Prerequisites & Dependencies
+
+High explosive production requires a deep chemical supply chain:
+
+- **[Nitric acid](acids.md)** (90-100% concentrated): Required for all nitration reactions. The Ostwald process (ammonia → NO → NO₂ → HNO₃) is the primary production route. TNT requires three different acid concentrations (30%, 45%, 60% HNO₃). RDX requires 95-100% HNO₃. ANFO requires HNO₃ for ammonium nitrate synthesis.
+- **[Sulfuric acid](acids.md)** (96-98%): Dehydrating agent in mixed acid nitration. Must be regenerated from spent acid by vacuum distillation. A TNT plant consumes sulfuric acid in tonnage quantities.
+- **[Toluene](petroleum-alternatives.md)** (for TNT): From petroleum catalytic reforming or coal tar distillation. WWI toluene shortages forced development of amatol (AN/TNT blend) as a substitute.
+- **[Ammonia](ammonia.md)** (for RDX and AN): Haber-Bosch process (N₂ + H₂ at 200-300 bar, 400-500°C over iron catalyst). Ammonia feeds both AN production (NH₃ + HNO₃ → NH₄NO₃) and hexamine production (NH₃ + formaldehyde → hexamine → RDX).
+- **Formaldehyde** (for RDX via hexamine): From methanol oxidation over silver or iron-molybdenum catalyst. Methanol from natural gas or syngas.
+- **Acetic anhydride** (for Bachmann RDX process): From acetic acid dehydration. Required for the higher-yield RDX synthesis route.
+- **Prilling tower** (for ANFO): 20-30 m tower where molten AN is sprayed to form porous spherical prills. Without prills, ANFO performance is severely degraded.
+
 ## TNT (Trinitrotoluene)
 
 **Chemistry**: Toluene nitrated in three stages with mixed acid (HNO₃ + H₂SO₄), progressively increasing acid strength and temperature. Overall: C₇H₈ + 3HNO₃ → C₇H₅N₃O₆ + 3H₂O. Three stages:
@@ -202,7 +214,70 @@ Water-resistant versions (emulsions, water gels) use gelling agents and fuel pha
 
 **Quality control**: ANFO performance depends on fuel oil content (6% ± 0.5%). Too much oil produces CO and reduces energy; too little produces NO₂ and reduces energy. Verify oil content by solvent extraction (dissolve the oil from a weighed sample with hexane, evaporate, and weigh the residue). Prill density and porosity affect oil absorption and detonation sensitivity. Measure prill bulk density (should be 0.75-0.85 g/cm³ for porous prills). Detonation velocity test: fire a charge with timing probes at known spacing and measure the shockwave transit time. ANFO that detonates below 2,500 m/s is underperforming and may indicate poor mixing, wet prills, or insufficient confinement.
 
-## Troubleshooting
+## Scaling Notes
+
+High explosive production scales with the underlying chemical infrastructure:
+
+- **Pilot scale** (1-50 kg/batch TNT): Small jacketed nitrators (10-50 L) with manual temperature control. Gravity separation of organic and acid layers. Batch sulfite purification in glass-lined vessels. Hand-poured melt-cast filling into individual shells. Adequate for military development and small-scale demolition. 2-3 trained operators per shift.
+
+- **Factory scale** (1-10 tonnes/day TNT): Multiple nitrators in separate blast-resistant bays (1 m reinforced concrete walls). Continuous or semi-continuous nitration with automatic temperature control and emergency dump valves. Continuous sulfite washing with counter-current flow. Steam-jacketed melt-cast kettles for shell filling. Acid recovery plant (vacuum distillation to regenerate H₂SO₄ and HNO₃ from spent acid). 20-50 workers. This was the scale of WWI-era national TNT plants.
+
+- **Industrial scale** (100+ tonnes/day combined): Integrated explosive complex with TNT, RDX, and ANFO production lines. Automated material handling, remote-controlled nitration, and continuous crystallization. Dedicated acid production plant (contact process for H₂SO₄, Ostwald process for HNO₃). Dedicated toluene, hexamine, and ammonium nitrate production facilities. 500+ workers. This scale supplies a major military's ammunition needs.
+
+**Critical bottlenecks**:
+- **Toluene supply**: TNT requires toluene (C₇H₈) from petroleum catalytic reforming or coal tar distillation. During WWI, toluene shortage limited TNT production so severely that amatol (AN + TNT blend) was developed as a substitute. A bootstrap civilization may face the same constraint.
+- **Hexamine supply for RDX**: Hexamine comes from ammonia + formaldehyde. Ammonia requires the Haber-Bosch process (high-pressure catalytic synthesis from N₂ + H₂). Formaldehyde requires methanol oxidation. This is a deep supply chain.
+- **Ammonium nitrate prilling**: AN prills require a prilling tower (20-30 m tall) where molten AN is sprayed and falls through countercurrent cool air. Without prills, ANFO performance is severely degraded.
+
+## Quality Control
+
+Each high explosive has specific quality verification tests:
+
+**TNT quality control**:
+1. **Melting point test** (most critical): Pure TNT melts at 80.8°C. Place crystals in capillary tube, heat slowly with calibrated thermometer. Acceptable: 80.2-80.8°C. Below 80.0°C indicates residual isomers requiring additional sulfite washing.
+2. **Acidity test**: Dissolve sample in warm water, titrate with NaOH. Residual acid causes instability. Maximum: 0.01% acid as H₂SO₄.
+3. **Moisture content**: Dry weighed sample at 100°C for 2 hours, reweigh. Maximum: 0.1% moisture.
+4. **Gap test**: Measure sensitivity to initiation through a standard air gap. Verifies that TNT is neither too sensitive (dangerous) nor too insensitive (fails to detonate).
+5. **Exudation test**: Store sample at 40°C for 24 hours. No oily exudate on surface. Exudate indicates unstable isomers.
+
+**RDX quality control**:
+1. **Melting point**: 204°C with decomposition. Measured by capillary method with controlled heating rate (2°C/min).
+2. **Acetone insolubles**: Dissolve sample in acetone, filter. Residue indicates contamination. Maximum: 0.05%.
+3. **Acidity**: pH of water extract must be neutral (6.0-7.5). Acidic RDX is unstable.
+4. **Granulometry**: Particle size distribution affects loading density and sensitivity. Measured by sieve analysis. Target: 90% between 150-300 μm for standard grades.
+
+**ANFO quality control**:
+1. **Fuel oil content**: Solvent extraction (hexane dissolves oil from weighed sample, evaporate, weigh residue). Target: 6.0% ± 0.5%. Too much oil → CO fumes, reduced energy. Too little → NO₂ fumes, reduced energy.
+2. **Prill bulk density**: Fill a calibrated cylinder, weigh. Target: 0.75-0.85 g/cm³. Lower density indicates crushed or degraded prills.
+3. **Detonation velocity test**: Fire a charge with timing probes at known spacing. Measure shockwave transit time. Acceptable: >2,500 m/s. Below this indicates poor mixing, wet prills, or insufficient confinement.
+
+## Variations and Alternatives
+
+| Explosive | Det. Velocity (m/s) | Density (g/cm³) | Energy (MJ/kg) | Relative Power | Sensitivity | Best For |
+|-----------|---------------------|-----------------|-----------------|----------------|-------------|----------|
+| Black powder | 400-600 | 1.0-1.4 | 2.6-3.0 | 0.5x | Low (ignites easily) | Primitive firearms, fuses, fireworks |
+| TNT | 6,900 | 1.65 | 4.6 | 1.0x (reference) | Very low | Military shells, melt-cast filling, demolition |
+| RDX | 8,750 | 1.82 | 5.6 | 1.5x | High (must phlegmatize) | Shaped charges, Comp B, C-4 demolition |
+| ANFO | 2,500-4,000 | 0.8-0.85 | 3.7 | 0.8x | Very low (oxidizer class) | Mining, quarrying, bulk blasting |
+| Dynamite (60%) | 4,000-6,000 | 1.3-1.5 | 4.0 | 0.9x | Low | Construction, small-diameter boreholes |
+| Composition B | 7,800 | 1.68 | 5.1 | 1.1x | Low | Military shells, cast boosters |
+| C-4 | 8,040 | 1.59 | 5.3 | 1.3x | Very low | Demolition, breaching, shaped charges |
+| PETN | 8,400 | 1.77 | 5.8 | 1.3x | High (must phlegmatize) | Detonating cord, blasting caps, boosters |
+| Emulsion | 4,500-5,500 | 1.15-1.30 | 3.5-4.0 | 0.85x | Very low | Wet boreholes, surface mining |
+
+## See Also
+
+- **[Explosives & Propellants](explosives.md)**: Parent overview and nitration chemistry fundamentals
+- **[Black Powder](black-powder.md)**: The first explosive, still used for fuses and pyrotechnics
+- **[Nitrocellulose & Smokeless Powders](nitrocellulose.md)**: Propellants for firearms and artillery
+- **[Nitroglycerin & Dynamite](nitroglycerin-dynamite.md)**: NG production and dynamite manufacture
+- **[Acids](acids.md)**: Nitric and sulfuric acid production for nitration
+- **[Ammonia](ammonia.md)**: Ammonia production for AN and hexamine
+- **[Petrochemicals](petroleum-alternatives.md)**: Toluene and fuel oil supply
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|

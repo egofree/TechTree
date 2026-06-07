@@ -194,5 +194,9 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 - Data sourced from Food Plants International, Wikipedia, and iNaturalist via the Edible Plant Database (ZIM)
 - Plants for a Future (pfaf.org) — supplementary cultivation and use data
 
+Cowpea thrives in hot, dry conditions where common beans fail. The crop fixes 70-240 kg of nitrogen per hectare through root nodules, making it an excellent green manure and intercrop. Dry grain stores for 1-2 years in sealed containers at low humidity. For areas too hot or too dry for soybeans or common beans, cowpea provides reliable protein production with minimal inputs.
+
+### Cowpea Summary
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

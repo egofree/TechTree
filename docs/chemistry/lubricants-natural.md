@@ -158,6 +158,56 @@ Rancid vegetable oil develops a characteristic sharp odor. For lubricant use, ra
 | Fat emulsifies with water, turns milky and ineffective | Water contamination during rendering or storage | Re-melt fat gently at 90-100°C; water boils off and separates; skim clean fat from surface; ensure storage containers are dry |
 | Press cake (seed residue) spontaneously combusts | Stored in large pile while still warm from pressing (>50°C) | Spread press cake thin (10-15 cm) to cool completely before storing; turn pile daily for 3-5 days to dissipate heat; store in well-ventilated area |
 
+## Scaling Notes
+
+Natural lubricant production scales with agricultural and animal processing output:
+
+- **Household scale** (1-10 kg/year fat, 1-5 L/year oil): Rendering scraps from household butchering, pressing oilseeds with a hand-crank screw press. Sufficient for a single workshop or farm. No infrastructure investment beyond a cast iron pot and a small press.
+- **Village scale** (50-500 kg/year fat, 50-500 L/year oil): Community-scale rendering (shared rendering pit or cauldron), oilseed press operated by animal or water power. Supplies lubricants for a village's cart wheels, water pumps, and treadle lathes.
+- **Regional scale** (5-50 tonnes/year fat, 5-50 tonnes/year oil): Commercial rendering from slaughterhouses, oil mills with hydraulic presses or expellers processing oilseed crops. Enables grease production (saponification) and supplies cutting fluid for machine tool shops.
+
+The transition from natural to mineral lubricants happens when petroleum distillation becomes available (typically Year 20+ in the bootstrap sequence). Natural lubricants remain in use for food-contact, biomedical, and environmentally sensitive applications where petroleum products are undesirable.
+
+## Quality Control
+
+Natural lubricant quality can be assessed with simple tests:
+
+1. **Acidity test**: Dissolve a sample in warm ethanol, titrate with 0.1M NaOH using phenolphthalein indicator. Fresh tallow: acid value <1 mg KOH/g. Rancid tallow: acid value >5 mg KOH/g (discard or use for non-critical applications only). Vegetable oils: acid value <2 mg KOH/g for fresh oil.
+2. **Clarity test**: Hold a sample vial against a white background. Fresh fat should be clear (when melted) with no sediment. Cloudiness indicates moisture or incomplete rendering. Particulate matter is abrasive and accelerates bearing wear.
+3. **Saponification value**: Boil a weighed sample with excess KOH in ethanol. Back-titrate with HCl. Saponification value (mg KOH/g) indicates average molecular weight of the fatty acids. Tallow: 190-200. Lard: 195-205. Castor oil: 175-185. Deviations indicate adulteration or degradation.
+4. **Smoke point** (for cooking oil crossover): Heat oil gradually in a steel cup. The temperature at which visible smoke appears is the smoke point. Rancid or degraded oil smokes at lower temperature. Fresh rapeseed oil: 220-230°C. Degraded: below 200°C.
+5. **Quick field test for rancidity**: Place a drop on a clean steel plate and spread thin. If the film becomes tacky or gummy within 24 hours at room temperature, the oil is too oxidized for lubricant use.
+
+## Variations and Alternatives
+
+| Lubricant | Best For | Temperature Limit | Shelf Life | Key Advantage |
+|-----------|----------|-------------------|------------|---------------|
+| Tallow (beef fat) | Slow bearings, slides, cart wheels | 50°C | 6-12 months | Available immediately, good film strength |
+| Lard (pig fat) | Light-duty bearings, leather gaskets | 45°C | 6-12 months | Softer than tallow, easier to apply |
+| Castor oil | High-speed bearings, racing engines | 120°C | 1-2 years | Highest viscosity and film strength of natural oils |
+| Rapeseed oil | General bearings, cutting fluid base | 80°C | 1-2 years | Widely available, moderate viscosity |
+| Olive oil | Light-duty bearings, instrument pivots | 80°C | 1-2 years | Good lubricity, available in Mediterranean climates |
+| Linseed oil | Protective coatings, paint binder, NOT lubrication | N/A (dries) | 6-12 months | Polymerizes to hard film — never use as lubricant |
+| Tallow + lime grease | Wheel bearings, open gears | 70°C | 6-12 months | Water-resistant, stays in place |
+
+## Safety & Hazards
+
+- **Rancidification**: Animal fats and vegetable oils oxidize and turn rancid over time, producing foul-smelling fatty acids. Rancid oils have increased acidity (pH drops from ~6 to 3-4), which corrodes bearing surfaces. Store in sealed, opaque containers at cool temperatures. Add antioxidants (vitamin E, BHT) if available to extend shelf life. Discard any oil that has thickened, darkened, or developed a strong odor.
+- **Fire hazard**: All natural oils and fats are combustible. Tallow and lard have flash points of 250-300°C, but oil-soaked rags can self-ignite through spontaneous combustion at much lower temperatures. Store oily rags in sealed metal containers. Never pile oil-soaked materials in confined spaces. Keep fire extinguisher (class B) near lubrication stations.
+- **Slip hazard**: Spilled natural oils create extremely slippery surfaces. Clean spills immediately with absorbent material (sawdust, clay). Mark lubrication areas with warning signs. Wear slip-resistant footwear.
+- **Allergic reactions**: Some workers develop skin allergies to specific vegetable oils (castor oil, peanut oil). Provide nitrile gloves for handling lubricants. If skin irritation develops, switch to an alternative oil.
+
+## Scaling Notes
+
+Natural lubricant production scales with agricultural output:
+
+- **Household scale** (1-10 kg/year): Render animal fat from cooking waste. Collect and press vegetable seeds by hand. Sufficient for personal tool maintenance and simple machinery (door hinges, cart wheels).
+- **Workshop scale** (50-500 kg/year): Dedicated fat rendering kettle. Screw press for oilseed extraction. Lime grease production for wheel bearings. Adequate for a small factory's lubrication needs.
+- **Agricultural scale** (1,000-10,000 kg/year): Mechanical screw press or expeller for oilseed crushing. Batch rendering of animal fats from slaughterhouse. Grease kettle for saponified grease production. Cold-press filtration for clear oil. This scale supports a regional industrial economy's general-purpose lubrication needs.
+- **Industrial scale** (10,000+ kg/year): Continuous oilseed crushing plant. Solvent extraction for maximum oil yield. Bleaching and deodorizing for light-colored, stable oil. Hydrogenation for semi-solid fats. This scale produces consistent, standardized lubricant grades.
+
+**Critical limitation**: Natural lubricants cannot exceed ~120°C continuous operating temperature (castor oil is the exception at ~150°C). Above this, rapid oxidation and polymerization make them unsuitable. For high-temperature applications (steam engines, internal combustion engines, industrial gearboxes), mineral or synthetic lubricants are required.
+
 ## See Also
 
 - **[Lubricants Overview](lubricants.md)**: Theory, selection guide, and cross-cutting topics

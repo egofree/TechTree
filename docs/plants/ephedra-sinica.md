@@ -85,6 +85,23 @@ Primary outputs: `ephedrine` (bronchodilator for asthma), `pseudoephedrine` (dec
 | First harvest age | 2-3 years | From seed |
 | Optimal rainfall | 150-400 mm/year | Arid/semi-arid |
 | Drying time | 5-10 days | Warm, ventilated, away from sun |
+| Plant spacing | 30-50 cm | In well-drained rows |
+| Regrowth after cutting | 2-3 months | New stems from crown |
+| Alkaloid ratio (ephedrine:pseudoephedrine) | 3:1 to 8:1 | Species-dependent |
+
+### Extraction and Processing Details
+
+Ephedrine extraction from Ephedra stems uses the alkaloid's dual solubility behavior. Ephedrine free base is soluble in organic solvents and insoluble in water. Ephedrine hydrochloride (salt form) is soluble in water and insoluble in organic solvents. This property allows efficient separation from plant material.
+
+The classic extraction method: boil ground stems in acidified water (1% hydrochloric acid or 5% vinegar) for 2 hours. Filter. Cool the extract to room temperature. Add sodium carbonate (washing soda) or lime to raise pH to 9-10. Ephedrine free base precipitates as white crystals or can be extracted into kerosene or diethyl ether. If using kerosene, separate the kerosene layer and evaporate to obtain crude ephedrine. Purify by dissolving in dilute acid and reprecipitating with alkali.
+
+Yield varies from 0.5-2.5% total alkaloids by dry weight of stems. A 10 kg batch of dried stems from a community plot might yield 50-250 g of crude alkaloids — enough for 1,000-10,000 therapeutic doses. The alkaloid mixture from *E. sinica* is typically 60-80% ephedrine and 20-40% pseudoephedrine, with trace amounts of related compounds.
+
+### Cultivation in Arid Zones
+
+Ephedra is uniquely valuable because it produces medicine in arid zones where few other medicinal plants survive. It requires no irrigation after establishment, tolerates temperatures from -20°C to 45°C, and grows in soils too poor or too dry for food crops. The plant is long-lived (15-30 years) and can be harvested annually by cutting stems above the crown.
+
+Propagation is the main challenge: seeds have low and irregular germination (30-60%), and seedlings grow slowly in their first year. The most reliable method is transplanting 1-year-old seedlings from a nursery bed. Once transplanted to the field, survival rates exceed 90%. Stem cuttings rooted in sand also work but with lower success rates (40-60%).
 
 ## Safety Considerations
 
@@ -136,12 +153,50 @@ Primary outputs: `ephedrine` (bronchodilator for asthma), `pseudoephedrine` (dec
 - **Synthetic ephedrine**: Produced industrially from benzaldehyde and methylamine. Requires organic chemistry capability.
 - **Albuterol/salbutamol**: Synthetic beta-2 agonist. More selective bronchodilation with fewer cardiovascular side effects. Requires pharmaceutical industry.
 - **Caffeine**: Milder bronchodilator. Less effective than ephedrine but safer and more widely available.
+- **Stramonium** (*Datura stramonium*): Contains atropine, a bronchodilator. smoked as asthma cigarettes historically. Extremely toxic — the therapeutic dose is very close to the lethal dose. Not recommended.
+- **Coffee/tea** (*Coffea arabica*, *Camellia sinensis*): Caffeine provides mild bronchodilation and stimulant effects. Safer than ephedrine but less effective for acute asthma.
+
+### Combination Therapies
+
+Ephedrine is most effective when combined with theophylline (found in tea) for asthma treatment, as the two compounds act through different mechanisms to dilate airways. Traditional Chinese medicine formulations combining ephedra with other herbs (glycyrrhiza, ginkgo) may modify the side-effect profile, though the evidence is primarily traditional rather than clinical. For acute congestion, ephedrine nasal drops (5-10 mg/ml in saline) provide rapid relief within minutes.
 
 ## References
 
 - [Health](../health/index.md) — respiratory medicine and treatment
 - [White Willow](./salix-alba.md) — comparison medicinal plant
 - [Plants Domain](./index.md) — domain overview and related capabilities
+
+### Ephedra Species Comparison
+
+Several *Ephedra* species produce ephedrine alkaloids, but the concentration and ratio of
+compounds varies significantly between species. *E. sinica* (Chinese ma huang) contains
+0.5-2.5% total alkaloids with 60-80% ephedrine. *E. equisetina* (Central Asian species)
+contains similar levels but with a higher proportion of pseudoephedrine. *E. nevadensis*
+(Mormon tea, North American) contains only trace amounts and is used as a beverage rather
+than medicine.
+
+For practical medical use, the critical distinction is between medicinal species (*E. sinica*,
+*E. equisetina*, *E. intermedia*) and non-medicinal species that produce negligible alkaloids.
+Correct identification is essential: medicinal species have woody, jointed stems with paired
+leaves reduced to scales, while non-medicinal North American species are generally larger
+and more branched.
+
+### Combination with Other Medicinal Plants
+
+Traditional Chinese medicine formulas combining ephedra with other herbs achieve effects
+that pure ephedrine cannot replicate. The classic formula *ma huang tang* combines ephedra
+with cinnamon bark, apricot kernel, and licorice root to treat respiratory infections.
+The licorice modulates ephedra's cardiovascular effects while the apricot kernel provides
+complementary bronchodilation. These combination approaches reduce side effects while
+maintaining therapeutic efficacy — a principle applicable to any plant-based medicine system.
+
+Ephedra is one of the oldest medicinal plants in continuous use, with a documented history spanning over 5,000 years in Chinese medicine. The plant's ability to grow in harsh desert conditions where few other medicinal plants survive makes it a strategic resource for arid-zone healthcare. In traditional practice, ephedra was combined with other herbs to modify its stimulant effects and reduce side effects.
+
+### Ephedra Summary
+
+This species represents an important component of a diversified food production system.
+No single crop provides complete nutrition, and dietary diversity is essential for human
+health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*

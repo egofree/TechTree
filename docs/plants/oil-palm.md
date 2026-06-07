@@ -111,7 +111,7 @@ Handle oil palm produce with clean hands and tools to prevent contamination. Rem
 - **Bench scale**: Individual plants or small garden plot (10-50 plants). Output for direct household consumption. Useful for seed saving, variety selection, and learning the crop's behavior under local conditions.
 - **Pilot scale**: Field planting of 0.1 to 1 hectare (500-5,000 plants). Staggered planting or sequential harvests to extend availability. Requires basic hand tools and family-level labor. Surplus can be traded or stored.
 - **Production scale**: Multi-hectare cultivation with mechanized planting, harvesting, and processing. Requires plow animals or tractors, grain mills or processing equipment, and bulk storage facilities. Enables community-level food security and trade.
-  Reported production data: The early growth of seedlings is slow. Palms commence bearing after about 4-6 years. When mature they produce 2-6 bunches per year. The flower bud does not develop until about 9 months after the leaf 
+  Reported production data: The early growth of seedlings is slow. Palms commence bearing after about 4-6 years. When mature they produce 2-6 bunches per year. The flower bud does not develop until about 9 months after the leaf unfolds. Fresh fruit bunches weigh 20-50 kg and contain 1,000-3,000 individual fruits. Oil yield is 3-6 tonnes per hectare per year under good management. Productive economic life is 25-35 years.
 
 Key scaling challenges include maintaining genetic diversity at plantation scale, managing pest and disease pressure in monoculture, and matching post-harvest processing capacity to harvest volume. Seed saving and variety selection at bench scale directly informs decisions about which cultivars to scale up.
 

@@ -44,7 +44,7 @@ This species grows as a perennial or annual depending on climate and management.
 
 ### Knowledge
 
-- Species identification: An annual herb. It is upright, branching, and slightly woody. Plants vary in height, shape, leafiness and hairiness. Plants grown for leaves are usually only 30 cm tall. They also have many branches. Leaves are shiny and have leaf stalks. The leaves have teeth along the edge. The tips of the lowest 
+- Species identification: An annual herb. It is upright, branching, and slightly woody. Plants vary in height, shape, leafiness and hairiness. Plants grown for leaves are usually only 30 cm tall. They also have many branches. Leaves are shiny and have leaf stalks. The leaves have teeth along the edge. The tips of the lowest leaf teeth have long bristles. Flowers are small and yellow, borne in clusters in the leaf axils. Fruit is a cylindrical capsule 2-5 cm long containing numerous small seeds.
 - Understanding of planting timing relative to local frost dates and rainy seasons
 - Knowledge of soil preparation, seed depth, and spacing requirements
 - Recognition of common pests and diseases and their early indicators

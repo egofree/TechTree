@@ -44,7 +44,7 @@ This species grows as a perennial or annual depending on climate and management.
 
 ### Knowledge
 
-- Species identification: A millet grass. It is an annual tufted grass. It grows 60-120 cm tall. It has a slender stem and long narrow smooth leaves. The flowers occur in loose open panicles. These are 15-35 cm long. The branches are very thin and droop over. The seeds are very small. They are 1-1.5 mm long. There are about 
+- Species identification: A millet grass. It is an annual tufted grass. It grows 60-120 cm tall. It has a slender stem and long narrow smooth leaves. The flowers occur in loose open panicles. These are 15-35 cm long. The branches are very thin and droop over. The seeds are very small. They are 1-1.5 mm long. There are about 2,500-3,000 seeds per gram, making teff one of the smallest cereal grains. Seed color ranges from white to dark brown.
 - Understanding of planting timing relative to local frost dates and rainy seasons
 - Knowledge of soil preparation, seed depth, and spacing requirements
 - Recognition of common pests and diseases and their early indicators

@@ -40,7 +40,7 @@ This species grows as a perennial or annual depending on climate and management.
 
 ### Knowledge
 
-- Species identification: Hordeum vulgare is a ANNUAL growing to 1 m (3ft 3in) by 0.2 m (0ft 8in). See above for USDA hardiness. It is hardy to UK zone 4 and is not frost tender. It is in flower from June to August. The species is hermaphrodite (has both male and female organs) and is pollinated by Wind. Suitable for: light 
+- Species identification: Hordeum vulgare is an annual grass growing to 1 m tall by 0.2 m wide. It is hardy to USDA zone 4 and is not frost tender. It flowers from June to August. The species is hermaphrodite and is wind-pollinated. Suitable for light (sandy), medium (loamy), and heavy (clay) soils, preferring well-drained soil. It cannot grow in full shade but tolerates saline soils and drought once established.
 - Understanding of planting timing relative to local frost dates and rainy seasons
 - Knowledge of soil preparation, seed depth, and spacing requirements
 - Recognition of common pests and diseases and their early indicators

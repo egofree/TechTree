@@ -40,7 +40,7 @@ This species grows as a perennial or annual depending on climate and management.
 
 ### Knowledge
 
-- Species identification: Ipomoea batatas is a PERENNIAL CLIMBER growing to 3 m (9ft 10in) at a fast rate. See above for USDA hardiness. It is hardy to UK zone 9 and is frost tender. The species is hermaphrodite (has both male and female organs) and is pollinated by Insects, especially bees. The plant is self-fertile. It is 
+- Species identification: Ipomoea batatas is a perennial climbing vine growing to 3 m at a fast rate. It is hardy to USDA zone 9 and is frost tender. The species is hermaphrodite (has both male and female organs) and is pollinated by insects, especially bees. The plant is self-fertile. Leaves are heart-shaped or lobed, 5-15 cm long, on petioles 5-30 cm long. Storage roots are the primary edible part, variable in shape (fusiform to globular), skin color (white, cream, yellow, orange, red, purple), and flesh color (white, yellow, orange, purple).
 - Understanding of planting timing relative to local frost dates and rainy seasons
 - Knowledge of soil preparation, seed depth, and spacing requirements
 - Recognition of common pests and diseases and their early indicators

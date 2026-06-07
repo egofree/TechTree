@@ -40,7 +40,7 @@ This species grows as a perennial or annual depending on climate and management.
 
 ### Knowledge
 
-- Species identification: Malus domestica is a deciduous Tree growing to 9 m (29ft 6in) at a medium rate. See above for USDA hardiness. It is hardy to UK zone 3 and is not frost tender. It is in flower from April to June. The species is hermaphrodite (has both male and female organs) and is pollinated by Insects. The plant i
+- Species identification: Malus domestica is a deciduous tree growing to 9 m at a medium rate. It is hardy to USDA zone 3 and is not frost tender. It flowers from April to June. The species is hermaphrodite (has both male and female organs) and is pollinated by insects. The plant is self-fertile but benefits from cross-pollination for better fruit set. Leaves are oval, 5-12 cm long, serrated, dark green above and paler beneath. Fruit is a pome, typically 5-13 cm diameter, varying in color from green to yellow to red.
 - Understanding of planting timing relative to local frost dates and rainy seasons
 - Knowledge of soil preparation, seed depth, and spacing requirements
 - Recognition of common pests and diseases and their early indicators

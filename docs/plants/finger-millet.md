@@ -44,7 +44,7 @@ This species grows as a perennial or annual depending on climate and management.
 
 ### Knowledge
 
-- Species identification: A millet grass. It is an annual grass. It is robust and forms many tillers or young shoots from the base. It grows 40-120 cm tall. The stems are somewhat flattened. The leaves are narrow. The flower heads are made up of 2-7 finger like spikes. These spikes are 1.5 cm across and 10-15 cm long. These 
+- Species identification: A millet grass. It is an annual grass. It is robust and forms many tillers or young shoots from the base. It grows 40-120 cm tall. The stems are somewhat flattened. The leaves are narrow. The flower heads are made up of 2-7 finger like spikes. These spikes are 1.5 cm across and 10-15 cm long. These curve inward when mature. Seeds are very small (1-2 mm diameter), reddish-brown to dark brown, and extremely hard.
 - Understanding of planting timing relative to local frost dates and rainy seasons
 - Knowledge of soil preparation, seed depth, and spacing requirements
 - Recognition of common pests and diseases and their early indicators
@@ -111,7 +111,7 @@ Handle finger millet produce with clean hands and tools to prevent contamination
 - **Bench scale**: Individual plants or small garden plot (10-50 plants). Output for direct household consumption. Useful for seed saving, variety selection, and learning the crop's behavior under local conditions.
 - **Pilot scale**: Field planting of 0.1 to 1 hectare (500-5,000 plants). Staggered planting or sequential harvests to extend availability. Requires basic hand tools and family-level labor. Surplus can be traded or stored.
 - **Production scale**: Multi-hectare cultivation with mechanized planting, harvesting, and processing. Requires plow animals or tractors, grain mills or processing equipment, and bulk storage facilities. Enables community-level food security and trade.
-  Reported production data: It is self pollinating and pollination occurs over 8-10 days. Millet seed stores very well and can be stored without damage for 10 years. Often it is stored on the head. Yields of about 450-900 kg of 
+  Reported production data: It is self pollinating and pollination occurs over 8-10 days. Millet seed stores very well and can be stored without damage for 10 years. Often it is stored on the head. Yields of about 450-900 kg/ha under rainfed conditions, reaching 1,500-2,500 kg/ha with irrigation and improved varieties.
 
 Key scaling challenges include maintaining genetic diversity at plantation scale, managing pest and disease pressure in monoculture, and matching post-harvest processing capacity to harvest volume. Seed saving and variety selection at bench scale directly informs decisions about which cultivars to scale up.
 

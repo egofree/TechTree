@@ -249,5 +249,3 @@ Environmental regulations affect scaling in several ways. Emulsion polymerizatio
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) · [Polymers](./index.md) · [All Domains](../index.md)*
-
-*Part of the [Bootciv Tech Tree](../index.md) · [Polymers](./index.md) · [All Domains](../index.md)*

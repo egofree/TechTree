@@ -44,7 +44,7 @@ This species grows as a perennial or annual depending on climate and management.
 
 ### Knowledge
 
-- Species identification: An upright plant up to 1 m tall. Plants vary in height from 30 cm to 180 cm. It has a well developed taproot. It has square stems which are hollow. They have wings at the angles. There can be 1-7 branches from near the base of the plant. The leaves have leaflets along the leaf stalk and ending in a 
+- Species identification: An upright plant up to 1 m tall. Plants vary in height from 30 cm to 180 cm. It has a well developed taproot. It has square stems which are hollow. They have wings at the angles. There can be 1-7 branches from near the base of the plant. The leaves have leaflets along the leaf stalk and ending in a short point. There are 2-6 leaflets, each 5-10 cm long. Flowers are white with black spots, borne 1-6 per stalk. Pods are large and fleshy, 5-30 cm long, containing several large beans.
 - Understanding of planting timing relative to local frost dates and rainy seasons
 - Knowledge of soil preparation, seed depth, and spacing requirements
 - Recognition of common pests and diseases and their early indicators

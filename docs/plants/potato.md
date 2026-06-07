@@ -44,7 +44,7 @@ This species grows as a perennial or annual depending on climate and management.
 
 ### Knowledge
 
-- Species identification: A branched annual plant up to 50 cm high. The stems are soft and 4 angled with compound leaves. The leaves are irregular shape and have 6-8 pairs of leaflets as well as small irregular leaflets between the others. It has swollen stem tubers under the ground. The tubers can vary in colour from white 
+- Species identification: A branched annual plant up to 50 cm high. The stems are soft and 4 angled with compound leaves. The leaves are irregular shape and have 6-8 pairs of leaflets as well as small irregular leaflets between the others. It has swollen stem tubers under the ground. The tubers can vary in colour from white through yellow to pink, red, and purple. Flowers are white, pink, red, blue, or purple, 2-3 cm diameter with yellow anthers. Fruit is a small green berry 1-2 cm diameter (poisonous — do not eat).
 - Understanding of planting timing relative to local frost dates and rainy seasons
 - Knowledge of soil preparation, seed depth, and spacing requirements
 - Recognition of common pests and diseases and their early indicators

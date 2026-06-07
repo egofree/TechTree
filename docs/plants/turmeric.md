@@ -108,7 +108,7 @@ Handle turmeric produce with clean hands and tools to prevent contamination. Rem
 - **Bench scale**: Individual plants or small garden plot (10-50 plants). Output for direct household consumption. Useful for seed saving, variety selection, and learning the crop's behavior under local conditions.
 - **Pilot scale**: Field planting of 0.1 to 1 hectare (500-5,000 plants). Staggered planting or sequential harvests to extend availability. Requires basic hand tools and family-level labor. Surplus can be traded or stored.
 - **Production scale**: Multi-hectare cultivation with mechanized planting, harvesting, and processing. Requires plow animals or tractors, grain mills or processing equipment, and bulk storage facilities. Enables community-level food security and trade.
-  Reported production data: Leaves appear above ground in about 4 weeks. The crop is harvested in about 9-10 months when the lower leaves turn yellow. When the roots are harvested they are put in boiling water for an hour. This 
+  Reported production data: Leaves appear above ground in about 4 weeks. The crop is harvested in about 9-10 months when the lower leaves turn yellow. When the roots are harvested they are put in boiling water for an hour. This process gelatinizes the starch and fixes the yellow color. After boiling, the rhizomes are sun-dried for 10-15 days until moisture content drops below 10%. Dry yield is typically 15-25% of fresh weight.
 
 Key scaling challenges include maintaining genetic diversity at plantation scale, managing pest and disease pressure in monoculture, and matching post-harvest processing capacity to harvest volume. Seed saving and variety selection at bench scale directly informs decisions about which cultivars to scale up.
 

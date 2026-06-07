@@ -44,7 +44,7 @@ This species grows as a perennial or annual depending on climate and management.
 
 ### Knowledge
 
-- Species identification: An annual plant which grows up to 60-150 cm high. It is 20 cm across. The leaves are coarsely toothed and clasp the stem. They are smooth and undivided. They are wavy. They are blue-green. The flowers are showy. They are cup shaped and red, white or purple. They are on long erect flower stalks. The 
+- Species identification: An annual plant which grows up to 60-150 cm high. It is 20 cm across. The leaves are coarsely toothed and clasp the stem. They are smooth and undivided. They are wavy. They are blue-green. The flowers are showy. They are cup shaped and red, white or purple. They are on long erect flower stalks. The seed capsule is round and 2-8 cm diameter, containing numerous tiny kidney-shaped seeds. The whole plant exudes a milky latex when cut.
 - Understanding of planting timing relative to local frost dates and rainy seasons
 - Knowledge of soil preparation, seed depth, and spacing requirements
 - Recognition of common pests and diseases and their early indicators

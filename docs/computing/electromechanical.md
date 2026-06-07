@@ -242,6 +242,3 @@ Before electronic computers, automated computation and control require electrome
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*
-
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Computing & Automation](./index.md) • [All Domains](../index.md)*

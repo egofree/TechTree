@@ -44,7 +44,7 @@ This species grows as a perennial or annual depending on climate and management.
 
 ### Knowledge
 
-- Species identification: An annual grass with hollow stems. The stems can be 30 cm to 150 cm tall. (Floating varieties can be 5 m long.) The nodes are solid and swollen. The stem is protected by a skin layer which can often be high in silicon. A clump of shoots are produced as tillers from buds in the lower leaf axils. The 
+- Species identification: An annual grass with hollow stems. The stems can be 30 cm to 150 cm tall. (Floating varieties can be 5 m long.) The nodes are solid and swollen. The stem is protected by a skin layer which can often be high in silicon. A clump of shoots are produced as tillers from buds in the lower leaf axils. The inflorescence is a terminal panicle 15-30 cm long bearing spikelets that contain the grain. Each panicle produces 100-300 grains.
 - Understanding of planting timing relative to local frost dates and rainy seasons
 - Knowledge of soil preparation, seed depth, and spacing requirements
 - Recognition of common pests and diseases and their early indicators

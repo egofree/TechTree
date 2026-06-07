@@ -109,7 +109,7 @@ Handle lesser yam produce with clean hands and tools to prevent contamination. R
 - **Bench scale**: Individual plants or small garden plot (10-50 plants). Output for direct household consumption. Useful for seed saving, variety selection, and learning the crop's behavior under local conditions.
 - **Pilot scale**: Field planting of 0.1 to 1 hectare (500-5,000 plants). Staggered planting or sequential harvests to extend availability. Requires basic hand tools and family-level labor. Surplus can be traded or stored.
 - **Production scale**: Multi-hectare cultivation with mechanized planting, harvesting, and processing. Requires plow animals or tractors, grain mills or processing equipment, and bulk storage facilities. Enables community-level food security and trade.
-  Reported production data: High yields can be obtained. Plants take about 9 months to reach maturity. In some varieties and under some conditions leaves do not die off and tubers must be harvested to avoid tubers deteriorating 
+  Reported production data: High yields can be obtained. Plants take about 9 months to reach maturity. In some varieties and under some conditions leaves do not die off and tubers must be harvested to avoid tubers deteriorating in the ground. Typical yields are 10-25 tonnes per hectare. Individual tubers weigh 0.5-5 kg.
 
 Key scaling challenges include maintaining genetic diversity at plantation scale, managing pest and disease pressure in monoculture, and matching post-harvest processing capacity to harvest volume. Seed saving and variety selection at bench scale directly informs decisions about which cultivars to scale up.
 

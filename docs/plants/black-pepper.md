@@ -44,7 +44,7 @@ This species grows as a perennial or annual depending on climate and management.
 
 ### Knowledge
 
-- Species identification: A climbing, green, leafy vine. It is woody. The nodes are enlarged. The plant has roots on the main stem which attach to tree trunks. The vines can be 8-10 m long. The leaf stalk is 1-2 cm long. The leaf blade is oval and 10-15 cm long by 5-9 cm wide. It is thick and leathery. The base is rounded an
+- Species identification: A climbing, green, leafy vine. It is woody. The nodes are enlarged. The plant has roots on the main stem which attach to tree trunks. The vines can be 8-10 m long. The leaf stalk is 1-2 cm long. The leaf blade is oval and 10-15 cm long by 5-9 cm wide. It is thick and leathery. The base is rounded and the tip tapers to a point. Flowers are small, borne on slender spikes 5-12 cm long that hang opposite the leaves. Fruit is a small drupe 3-5 mm in diameter, green when immature, turning red when ripe, black when dried.
 - Understanding of planting timing relative to local frost dates and rainy seasons
 - Knowledge of soil preparation, seed depth, and spacing requirements
 - Recognition of common pests and diseases and their early indicators
@@ -111,7 +111,7 @@ Handle black pepper produce with clean hands and tools to prevent contamination.
 - **Bench scale**: Individual plants or small garden plot (10-50 plants). Output for direct household consumption. Useful for seed saving, variety selection, and learning the crop's behavior under local conditions.
 - **Pilot scale**: Field planting of 0.1 to 1 hectare (500-5,000 plants). Staggered planting or sequential harvests to extend availability. Requires basic hand tools and family-level labor. Surplus can be traded or stored.
 - **Production scale**: Multi-hectare cultivation with mechanized planting, harvesting, and processing. Requires plow animals or tractors, grain mills or processing equipment, and bulk storage facilities. Enables community-level food security and trade.
-  Reported production data: Berries dried with the skin give white pepper. Berries where the skin is soaked off produce black pepper. To do these they are soaked in water for a few days. Plants produce in the third year. They ca
+  Reported production data: Berries dried with the outer skin intact give black pepper. Berries where the skin is soaked off produce white pepper. To produce white pepper, ripe berries are soaked in water for 5-7 days until the outer skin softens, then rubbed off. Plants begin producing in the third year. They can continue yielding for 15-20 years. Yields of 2-4 kg dried pepper per vine per year are typical.
 
 Key scaling challenges include maintaining genetic diversity at plantation scale, managing pest and disease pressure in monoculture, and matching post-harvest processing capacity to harvest volume. Seed saving and variety selection at bench scale directly informs decisions about which cultivars to scale up.
 

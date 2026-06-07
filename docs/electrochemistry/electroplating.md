@@ -277,6 +277,3 @@ At smaller nodes, the barrier and seed layers consume an increasing fraction of 
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Electrochemistry & Plating](./index.md) • [All Domains](../index.md)*
-
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Electrochemistry & Plating](./index.md) • [All Domains](../index.md)*

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.explosives.nitrocellulose__chemistry.solvents",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "chemistry.explosives.nitrocellulose",
+  "to": "chemistry.solvents"
+}

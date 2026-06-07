@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Synthesis of nitroglycerin from glycerol and mixed acid, followed by absorption into diatomaceous earth to produce dynamite cartridges. The workhorse explosive for construction and mining from the 1870s through the mid-20th century.",
+  "early_win": false,
+  "id": "chemistry.explosives.nitroglycerin-dynamite",
+  "level": "process",
+  "name": "Nitroglycerin & Dynamite",
+  "outputs": [
+    "nitroglycerin",
+    "dynamite"
+  ],
+  "parent": "chemistry.explosives",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-20"
+}

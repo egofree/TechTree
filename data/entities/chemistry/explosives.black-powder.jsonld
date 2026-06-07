@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Manufacture of black powder (75% KNO₃, 15% charcoal, 10% sulfur) via separate pulverization, wheel-mill mixing, corning, and granulation. The first explosive available to a bootstrapping civilization, used for mining, quarrying, and firearms propellant.",
+  "early_win": false,
+  "id": "chemistry.explosives.black-powder",
+  "level": "process",
+  "name": "Black Powder Manufacture",
+  "outputs": [
+    "black_powder"
+  ],
+  "parent": "chemistry.explosives",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-10"
+}

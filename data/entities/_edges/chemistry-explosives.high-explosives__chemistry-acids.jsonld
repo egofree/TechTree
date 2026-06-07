@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.explosives.high-explosives__chemistry.acids",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "chemistry.explosives.high-explosives",
+  "to": "chemistry.acids"
+}

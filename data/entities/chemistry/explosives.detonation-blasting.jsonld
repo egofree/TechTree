@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Blasting cap manufacture (mercury fulminate, lead azide), initiating systems (safety fuse, detonating cord, shock tube), detonation physics, blasting design parameters, vibration and airblast control, and explosive selection for mining, construction, demolition, and military applications.",
+  "early_win": false,
+  "id": "chemistry.explosives.detonation-blasting",
+  "level": "process",
+  "name": "Detonation & Blasting Systems",
+  "outputs": [
+    "blasting_systems",
+    "demolition_services"
+  ],
+  "parent": "chemistry.explosives",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30+"
+}

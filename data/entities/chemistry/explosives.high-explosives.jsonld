@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Manufacture of TNT (three-stage toluene nitration), RDX (Woolwich or Bachmann process from hexamine), and ANFO (ammonium nitrate prills + fuel oil). The mature industrial and military explosive palette for large-scale mining and munitions.",
+  "early_win": false,
+  "id": "chemistry.explosives.high-explosives",
+  "level": "process",
+  "name": "High Explosives (TNT, RDX, ANFO)",
+  "outputs": [
+    "tnt",
+    "rdx",
+    "anfo"
+  ],
+  "parent": "chemistry.explosives",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-30+"
+}

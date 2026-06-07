@@ -24,6 +24,11 @@ Capabilities in this domain:
 - [Semiconductor Packaging & Testing](packaging-testing.md) — Wafer backgrinding, die singulation (diamond blade dicing), die attach (eutectic or epoxy), wire bonding (Au ball bonding, Al wedge), encapsulation (transfer molding with epoxy-silica compound), lead forming, wafer probing (DC parametric + functional), burn-in, and final test.
 - [Petroleum & Alternative Chemistry](petroleum-alternatives.md) — Petroleum extraction (surface seeps → cable-tool → rotary drilling), refining (batch distillation → fractional distillation → thermal cracking), coal tar chemistry (benzene, phenol, naphthalene from coke ovens), fermentation (ethanol, acetone, acetic acid, methanol), and wood gasification.
 - [Explosives & Propellants](explosives.md) — Black powder, nitrocellulose, dynamite, and smokeless powder manufacture for mining and industrial applications.
+  - [Black Powder](black-powder.md) — KNO₃/charcoal/sulfur manufacture, corning, and granulation for mining and firearms.
+  - [Nitrocellulose & Smokeless Powders](nitrocellulose.md) — Guncotton, pyroxylin, single-base and double-base propellant production.
+  - [Nitroglycerin & Dynamite](nitroglycerin-dynamite.md) — Nitroglycerin synthesis and dynamite cartridge manufacture.
+  - [High Explosives (TNT, RDX, ANFO)](high-explosives.md) — TNT, RDX, and ANFO for industrial mining and military munitions.
+  - [Detonation & Blasting](detonation-blasting.md) — Blasting caps, initiating systems, detonation physics, blasting design, and safety.
 - [Fermentation Chemistry](fermentation.md) — Microbial production of ethanol, acetone, butanol, acetic acid, and methanol from biomass feedstocks.
 - [Wood Gasification](wood-gasification.md) — Producer gas generation from biomass via partial combustion for engine fuel and chemical feedstock.
 - [SEM Tech Water Electrolysis](sem-tech-water-electrolysis.md) — PEM water electrolysis for green hydrogen

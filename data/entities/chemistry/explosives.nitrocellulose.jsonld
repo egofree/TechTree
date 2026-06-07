@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Nitration of cellulose (cotton linters or wood pulp) with mixed acid to produce nitrocellulose (guncotton) and pyroxylin. Includes manufacture of single-base and double-base smokeless powders via gelatinization, extrusion, and drying. Foundation of the smokeless powder industry and early plastics (celluloid).",
+  "early_win": false,
+  "id": "chemistry.explosives.nitrocellulose",
+  "level": "process",
+  "name": "Nitrocellulose & Smokeless Powders",
+  "outputs": [
+    "nitrocellulose",
+    "smokeless_powder",
+    "pyroxylin"
+  ],
+  "parent": "chemistry.explosives",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-20"
+}

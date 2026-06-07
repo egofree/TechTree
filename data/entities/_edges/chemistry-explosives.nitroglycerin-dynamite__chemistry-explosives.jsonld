@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.explosives.nitroglycerin-dynamite__chemistry.explosives",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "chemistry.explosives.nitroglycerin-dynamite",
+  "to": "chemistry.explosives"
+}

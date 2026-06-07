@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Copper smelting from malachite, azurite, and chalcopyrite in forced-draft charcoal furnaces at 1085-1200°C. Electrolytic refining to 99.99% Cu, brass production, copper for electrical use, industrial-scale copper smelting, and copper-nickel alloys.",
+  "early_win": false,
+  "id": "metals.copper",
+  "level": "capability",
+  "name": "Copper Production",
+  "outputs": [
+    "copper",
+    "copper_ingots",
+    "copper_wire",
+    "copper_sheet"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "copper-age",
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-10",
+  "wikidataId": "Q753"
+}

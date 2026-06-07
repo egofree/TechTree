@@ -2,7 +2,9 @@
 
 Capabilities in this domain:
 
-- [Copper & Bronze Production](copper-bronze.md) — Copper smelting from malachite, azurite, and chalcopyrite in forced-draft charcoal furnaces at 1085-1200°C. Bronze alloying, electrolytic refining, brass, and electrical copper.
+- [Copper & Bronze Production](copper-bronze.md) — Overview: copper smelting, bronze alloying, casting, refining, and electrical copper.
+- [Copper Production](copper.md) — Copper smelting from carbonate and sulfide ores, casting, work-hardening, electrolytic refining, brass production, copper for electrical use, industrial smelting, and copper-nickel alloys.
+- [Bronze Production](bronze.md) — Bronze alloying with tin, bronze casting methods, and bronze working techniques.
 - [Iron & Steel Production](iron-steel.md) — Bloomery smelting of iron ore at 1200-1400°C producing wrought iron, carburization for steel, and crucible steel. Heat treatment, metalworking, and joining.
 - [Blast Furnace & Cast Iron](blast-furnace.md) — Continuous iron smelting producing pig iron and cast iron via blast furnace and cupola furnace. Hot blast stoves, slag processing, sintering, DRI.
 - [Metal Casting](casting.md) — Crucible furnaces for aluminum (660°C) and cast iron (1200-1400°C), green sand molding with bentonite binder, pattern making with shrinkage allowance, flask-based casting, and investment casting.

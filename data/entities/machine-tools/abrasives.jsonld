@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Natural abrasives (emery, sandstone) and synthetic abrasives (SiC, Al₂O₃ from electric arc furnace). Grinding wheel construction, lapping, honing, thread cutting, tap and die production, and cutting tool materials (carbon steel, HSS).",
+  "early_win": false,
+  "id": "machine-tools.abrasives",
+  "level": "capability",
+  "name": "Abrasives & Cutting Tools",
+  "outputs": [
+    "abrasives",
+    "grinding_wheels",
+    "cutting_tools",
+    "taps",
+    "dies",
+    "hss_tool_bits"
+  ],
+  "parent": "machine-tools",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-25"
+}

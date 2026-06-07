@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Bronze alloying with 5-12% tin for harder, more castable tools. Lost-wax, sand, and stone mold casting techniques specific to bronze. Bronze work-hardening and annealing.",
+  "early_win": false,
+  "id": "metals.bronze",
+  "level": "capability",
+  "name": "Bronze Production",
+  "outputs": [
+    "bronze",
+    "bronze_castings",
+    "bronze_ingots",
+    "bronze_tools"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "bronze-age",
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-10",
+  "wikidataId": "Q40833"
+}

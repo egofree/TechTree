@@ -2,7 +2,9 @@
 
 Capabilities in this domain:
 
-- [Bearings, Abrasives & Cutting Tools](bearings-abrasives.md) — Plain journal bearings (babbitt metal), rolling element ball bearings (52100 steel), natural abrasives (emery, sandstone) and synthetic abrasives (SiC, Al₂O₃ from electric arc furnace), cutting tool materials (carbon steel, HSS), thread cutting on lathe, and tap and die production.
+- [Bearings, Abrasives & Cutting Tools](bearings-abrasives.md) — Overview: plain bearings, rolling element bearings, natural and synthetic abrasives, cutting tool materials, and thread cutting.
+- [Bearings](bearings.md) — Plain journal bearings (babbitt metal), rolling element ball bearings (52100 steel), bearing selection guide, and bearing lubricants.
+- [Abrasives & Cutting Tools](abrasives.md) — Natural abrasives (emery, sandstone) and synthetic abrasives (SiC, Al₂O₃ from electric arc furnace), grinding wheel construction, lapping, honing, thread cutting, tap and die production, and cutting tool materials (carbon steel, HSS).
 - [Metal Forming](forming.md) — Forge work, hammer forming, rolling, and drawing of metals into shapes.
 - [Iterative Machine Bootstrap](iterative-bootstrap.md) — The core self-improving sequence: crude lathe (0.5 mm tolerance) → improved lathe with leadscrew (0.1 mm) → shaper (0.05 mm) → milling machine (0.025 mm) → drill press → surface grinder (0.005 mm). Each machine doubles precision achievable with the previous generation.
 - [Metal Joining](joining.md) — Forge welding, brazing, soldering, riveting, oxy-acetylene, SMAW/stick welding, plus TIG (GTAW), MIG (GMAW), resistance spot/seam welding, electron beam welding, ultrasonic welding & wire bonding, friction stir welding, laser welding, and diffusion bonding. Covers vacuum chamber fabrication, hermetic sealing, and semiconductor packaging interconnection.

@@ -6,5 +6,6 @@
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "source_url": "https://commons.wikimedia.org/wiki/File:Calculation_of_the_chemical_potential_of_hypothetical_Van_der_Waals_gases.png",
   "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Calculation_of_the_chemical_potential_of_hypothetical_Van_der_Waals_gases.png",
-  "attribution_md": "Calculation of the chemical potential of hypothetical Van der Waals gases\nThis is a Maple code leading to the calculation of the expression of the chemical potential of Van der Waals gases as functions of pressure and temperature.\n\nImage: E-gabrielyan ([source](https://commons.wikimedia.org/wiki/File:Calculation_of_the_chemical_potential_of_hypothetical_Van_der_Waals_gases.png))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)"
+  "attribution_md": "Calculation of the chemical potential of hypothetical Van der Waals gases\nThis is a Maple code leading to the calculation of the expression of the chemical potential of Van der Waals gases as functions of pressure and temperature.\n\nImage: E-gabrielyan ([source](https://commons.wikimedia.org/wiki/File:Calculation_of_the_chemical_potential_of_hypothetical_Van_der_Waals_gases.png))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)",
+  "license_tier": "libre"
 }

@@ -3,7 +3,9 @@
   "description": "Foundations of buildings",
   "author": "http://en.wikipedia.org/wiki/User:Blacklemon67",
   "license": "Public domain",
-  "license_url": "",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
   "source_url": "https://commons.wikimedia.org/wiki/File:Mock_foundations_for_House_and_Apartment.png",
-  "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Mock_foundations_for_House_and_Apartment.png"
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Mock_foundations_for_House_and_Apartment.png",
+  "license_tier": "libre",
+  "attribution_md": "Mock foundations for House and Apartment\n\nImage: http://en.wikipedia.org/wiki/User:Blacklemon67 ([source](https://commons.wikimedia.org/wiki/File:Mock_foundations_for_House_and_Apartment.png))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
 }

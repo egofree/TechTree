@@ -3,8 +3,9 @@
   "description": "Corliss cylinder (Heat Engines, 1913).jpg",
   "author": "Andy Dingley (scanner)",
   "license": "Public domain",
-  "license_url": "",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
   "source_url": "https://commons.wikimedia.org/wiki/File:Corliss_cylinder_(Heat_Engines,_1913).jpg",
   "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Corliss_cylinder_%28Heat_Engines%2C_1913%29.jpg",
-  "attribution_md": "Corliss cylinder (Heat Engines, 1913)\nCorliss cylinder (Heat Engines, 1913).jpg\n\nImage: Andy Dingley (scanner) ([source](https://commons.wikimedia.org/wiki/File:Corliss_cylinder_(Heat_Engines,_1913).jpg))\nLicense: Public domain"
+  "attribution_md": "Corliss cylinder (Heat Engines, 1913)\nCorliss cylinder (Heat Engines, 1913).jpg\n\nImage: Andy Dingley (scanner) ([source](https://commons.wikimedia.org/wiki/File:Corliss_cylinder_(Heat_Engines,_1913).jpg))\nLicense: Public domain",
+  "license_tier": "libre"
 }

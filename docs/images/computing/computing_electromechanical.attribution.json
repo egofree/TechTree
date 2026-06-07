@@ -3,8 +3,9 @@
   "description": "Torres Quevedo's 1920 arithmometer, fully functional but never commercialized, which used a remote electromechanical typewriter to send commands to a remote electromechanical calculator and to print its results once computed.",
   "author": "Unknown authorUnknown author",
   "license": "Public domain",
-  "license_url": "",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
   "source_url": "https://commons.wikimedia.org/wiki/File:Torres_Quevedo%27s_Electromechanical_Arithmometer.png",
   "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Torres_Quevedo%27s_Electromechanical_Arithmometer.png",
-  "attribution_md": "Torres Quevedo's Electromechanical Arithmometer\nTorres Quevedo's 1920 arithmometer, fully functional but never commercialized, which used a remote electromechanical typewriter to send commands to a remote electromechanical calculator and to print its results once computed.\n\nImage: Unknown authorUnknown author ([source](https://commons.wikimedia.org/wiki/File:Torres_Quevedo%27s_Electromechanical_Arithmometer.png))\nLicense: Public domain"
+  "attribution_md": "Torres Quevedo's Electromechanical Arithmometer\nTorres Quevedo's 1920 arithmometer, fully functional but never commercialized, which used a remote electromechanical typewriter to send commands to a remote electromechanical calculator and to print its results once computed.\n\nImage: Unknown authorUnknown author ([source](https://commons.wikimedia.org/wiki/File:Torres_Quevedo%27s_Electromechanical_Arithmometer.png))\nLicense: Public domain",
+  "license_tier": "libre"
 }

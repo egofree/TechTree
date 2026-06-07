@@ -3,8 +3,9 @@
   "description": "Shows growing number of lithography steps for advanced nodes. Based on 11/24/2014 presentation by ASML's Martin van den Brink.",
   "author": "Guiding light",
   "license": "Public domain",
-  "license_url": "",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
   "source_url": "https://commons.wikimedia.org/wiki/File:Increasing_litho_steps_for_advanced_nodes.png",
   "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Increasing_litho_steps_for_advanced_nodes.png",
-  "attribution_md": "Increasing litho steps for advanced nodes\nShows growing number of lithography steps for advanced nodes. Based on 11/24/2014 presentation by ASML's Martin van den Brink.\n\nImage: Guiding light ([source](https://commons.wikimedia.org/wiki/File:Increasing_litho_steps_for_advanced_nodes.png))\nLicense: Public domain"
+  "attribution_md": "Increasing litho steps for advanced nodes\nShows growing number of lithography steps for advanced nodes. Based on 11/24/2014 presentation by ASML's Martin van den Brink.\n\nImage: Guiding light ([source](https://commons.wikimedia.org/wiki/File:Increasing_litho_steps_for_advanced_nodes.png))\nLicense: Public domain",
+  "license_tier": "libre"
 }

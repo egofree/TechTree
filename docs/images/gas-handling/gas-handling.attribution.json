@@ -3,7 +3,9 @@
   "description": "vacuum gas manifold 3 way tap\n\n1:  Inert gas in\n2:  Inert gas out\n3:  Vacuum\n4:  Reaction line\n5:  Double oblique stopcock (i.e. a glass tap with 2 separate parallel 'channels/lines' that run diagonal to the axis of the tap.)",
   "author": "Quantockgoblin",
   "license": "Public domain",
-  "license_url": "",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
   "source_url": "https://commons.wikimedia.org/wiki/File:3_way_tap_vacuum_gas_manifold.png",
-  "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/3_way_tap_vacuum_gas_manifold.png"
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/3_way_tap_vacuum_gas_manifold.png",
+  "license_tier": "libre",
+  "attribution_md": "3 way tap vacuum gas manifold\n\nImage: Quantockgoblin ([source](https://commons.wikimedia.org/wiki/File:3_way_tap_vacuum_gas_manifold.png))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
 }

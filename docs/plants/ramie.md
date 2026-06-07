@@ -70,8 +70,6 @@ An erect shrub which grows from year to year. It is 1-3 m tall. The underground 
 
 ### Edible Parts and Preparation
 
-Edible parts: Root, Leaves, Seeds - oil, Flowers, Stem Edible Parts: Leaves Root Edible Uses: Edible portion: Root, Leaves, Seeds – oil. Root - peeled and boiled. A pleasant, sweet taste. We can detect very little flavour, but the root has a very strange mucilaginous texture that does not appeal to most people who have tried it. Once in the mouth, it takes a lot of chewing before it is ready to be swallowed. The leaves are used for making cakes. This report could refer to the plants use as a poultice. They are also used as a dye to make black rice cake.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -163,8 +161,6 @@ Antiphlogistic Astringent Demulcent Diuretic Febrifuge Haemostatic Poultice Reso
 
 ### Other Uses
 
-Fibre Fodder Paper Agroforestry Uses: Planted to prevent erosion in gullies. Other Uses A fibre is obtained from the inner bark of the stem - of excellent quality, it is highly water-resistant and has a greater tensile strength than cotton. It is used for textiles, linen etc and is said to be moth-proof. It is best harvested as the female flowers open. The outer bark is removed and then the fibrous inner bark is taken off and boiled before being woven into thread. The fibres are the longest known in the plant realm. The tensile strength is 7 times that of silk and 8 times that of cotton, this is improved on wetting the fibre. The fibre is also used for making paper. The leaves are removed from the stems, the stems are steamed and the fibres stripped off. The fibres are cooked for 2 hours with lye, fresh material might require longer cooking, and they are then beaten in a Hollander beater before being made into paper. Special Uses Carbon Farming
-
 ### Notes
 
 The plant is often grown for the fibres. There are about 100 Boehmeria species. They grow in the tropics and subtropics. It is used in medicine.
@@ -194,6 +190,8 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 - [Edible Plants](edible-plants.md) — parent capability
 - [Plants Domain](./index.md) — domain overview and related capabilities
 - [Agave](agave.md) — example plant article format
+- [Textiles](../textiles/index.md) — ramie fiber degumming, spinning, and fabric production
+- [Textiles / Fibers](../textiles/fibers.md) — natural fiber properties and processing comparison
 - [Food Processing](../food-processing/index.md) — downstream processing of harvested crops
 - [Agriculture](../agriculture/index.md) — cultivation systems and crop rotation
 - Family: Urticaceae

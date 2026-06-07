@@ -72,8 +72,6 @@ A grass. It is an annual plant 2-3 m high. It has a single stem. The stem is sol
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Leaves, Cereal, Flowers, Vegetable Corn is one of the most widely grown food plants in the world. The seed can be eaten raw or cooked before fully ripe; sweet corn varieties have been developed specifically for this purpose and have particularly sweet, flavoursome seeds. Mature seed can be dried and used whole or ground into flour — it has a mild flavour and is especially valued as a thickening agent in foods such as custards. Starch extracted from the grain is used in confectionery and noodles. Certain varieties can be oven-heated to make popcorn. The seed can also be sprouted for use in uncooked breads and cereals. The fresh succulent silks — the flowering parts of the cob — are edible. An edible all-purpose culinary oil is obtained from the seed and used in salads and for cooking. Pollen, which is rich in protein, is used as a soup ingredient; it is harvested by tapping the flowering heads over a bowl, and collecting the pollen also helps improve seed fertilisation. The roasted seed serves as a coffee substitute. The pith of the stem can be chewed like sugar cane and is sometimes made into a syrup. Nutritional composition per 100g of fresh seed: 361 calories; water 10.6%; protein 9.4g; fat 4.3g; carbohydrate 74.4g; fibre 1.8g; ash 1.3g; calcium 9mg; phosphorus 290mg; iron 2.5mg; vitamin A 140mg; thiamine (B1) 0.43mg; riboflavin (B2) 0.1mg; niacin 1.9mg.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -175,8 +173,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 A decoction of the leaves and roots is used in the treatment of strangury, dysuria, and gravel. The corn silks are cholagogue, demulcent, diuretic, lithontripic, mildly stimulant, and vasodilator. They also lower blood sugar levels and are used in treating diabetes mellitus, as well as cystitis, gonorrhoea, and gout. The silks are best harvested before pollination and used fresh, as they tend to lose their diuretic effect when stored and can become purgative. A decoction of the cob is used in the treatment of nosebleeds and menorrhagia. The seed is diuretic and mildly stimulant, and makes a good emollient poultice for ulcers, swellings, and rheumatic pains. It is widely used in the treatment of cancer, tumours, and warts, and contains allantoin — a cell-proliferant and wound-healing substance also found in comfrey (Symphytum officinale) — which speeds the healing process. The plant is said to have anticancer properties and is experimentally hypoglycaemic and hypotensive.
 
 ### Other Uses
-
-A glue is made from the starch in the seed; this starch is also used in cosmetics and the manufacture of glucose. A semi-drying oil obtained from the seed has industrial uses in the manufacture of linoleum, paints, varnishes, and soaps. The corn spathes are used to produce paper, straw hats, and small woven articles such as baskets. Fibre from the stems and seed husks is also used for papermaking: harvested in late summer after the seed, cut into usable pieces, soaked in clear water for 24 hours, cooked for 2 hours in soda ash, then beaten in a ball mill for 1½ hours. The resulting fibres produce a light greenish-cream paper. Care should be taken not to overcook the fibre, as this produces a sticky pulp that is very difficult to form into paper. Dried cobs are used as fuel. The pith of the stems is used as a packing material.
 
 ### Additional Information
 

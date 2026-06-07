@@ -72,8 +72,6 @@ A pumpkin family plant. It is a creeping vine with tendrils. It is an annual pla
 
 ### Edible Parts and Preparation
 
-Edible parts: Fruit, Leaves, Seeds, Flowers, Vegetable The fruit is cooked and has a delicious flavour when baked, similar to sweet potato. The flesh can also be dried, ground into a powder, and used with cereals when making bread, cakes, and similar foods. Some varieties can be stored for up to 9 months. Seeds can be eaten raw or cooked; they are rich in oil with a very pleasant nutty flavour, though small and covered with a fibrous coat, making them fiddly to use. The seed can also be ground into a powder and used with cereals in bread-making. An oil is obtained from the seed. Young flowers can be eaten raw or cooked and are often dipped in batter and fried. Young leaves and stems are edible when cooked, and the leaves contain up to 5% protein.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -176,8 +174,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 The seeds are diuretic, tonic, and vermifuge. When used as a vermifuge, the complete seed including the husk is ground into a fine flour, made into an emulsion with water, and eaten, after which a purgative must be taken to expel tapeworms or other parasites from the body. The seeds are less potent than the root of Dryopteris felix-mas for this purpose, but are safer for pregnant women, debilitated patients, and children. The oil from the seed is used as a nerve tonic. The fruit pulp is used as a soothing poultice on burns, inflammations, and boils.
 
 ### Other Uses
-
-The seed contains 34–54% of a semi-drying oil, which is used for lighting. A nourishing face mask can be made from the fruit and is effective for dry skin.
 
 ### Additional Information
 

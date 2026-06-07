@@ -68,8 +68,6 @@ Hordeum vulgare is a ANNUAL growing to 1 m (3ft 3in) by 0.2 m (0ft 8in). See abo
 
 ### Edible Parts and Preparation
 
-Edible parts: Seed Salt Sweetener. Seed - cooked as a whole grain or ground up and used as a flour for making bread, porridges etc. It has a low gluten content and so is unsuitable for making wheat-type breads. The seed can be fermented into sourdough and many other fermented foods such as 'tempeh' and 'miso'. The seed can also be sprouted and added to salads or the sprouted seed juiced and the juice drunk as a health-food drink. The decorticated seed is called pearl barley. This is no longer viable since the decortication process damages the embryo. It is used in soups, stews etc. Malt is obtained by sprouting the whole seed and then roasting it. The seed is then ground into a flour and boiled in water. The resulting liquid is very sweet and can be used in making beer or other drinks, and as a nutritious sweetener in various foods.. The roasted (unsprouted) seed is used as a coffee and a salt substitute.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -160,8 +158,6 @@ Abortifacient Cancer Carminative Demulcent Digestive Diuretic Emollient Expector
 
 ### Other Uses
 
-Biomass Mulch Paper. The stems, after the seed has been harvested, have many uses. They are a source of fibres for making paper, a biomass for fuel etc, they can be shredded and used as a mulch.
-
 ### Related Species
 
 - [Wheat](wheat.md)
@@ -181,8 +177,6 @@ Seed saving from the best-performing plants each generation gradually adapts the
 *Hordeum vulgare* benefits from crop rotation to prevent buildup of species-specific pests and diseases. Avoid planting in the same field in consecutive seasons where possible. Follow with a different crop family to break pest cycles and maintain soil health.
 
 Companion planting with aromatic herbs or flowering plants can deter pests and attract beneficial insects. Avoid planting near species that compete for the same nutrients or harbor shared pathogens.
-
-### Crop Rotation and Companion Planting
 
 Barley fits well in rotation with legumes (peas, lentils, chickpeas) which fix nitrogen that barley can use in the following season. Avoid consecutive cereal crops (wheat-barley-oat) which build up cereal-specific diseases like take-all and eyespot. Barley's early maturity allows double-cropping with soybeans or other warm-season crops in temperate regions with long growing seasons.
 

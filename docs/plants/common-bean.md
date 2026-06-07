@@ -72,8 +72,6 @@ This bean has very many varieties and varies a lot in details. Both short and cl
 
 ### Edible Parts and Preparation
 
-Edible parts: Pods, Seeds, Leaves, Vegetable Immature green seedpods can be eaten raw or cooked — they have a mild flavour and should only be cooked briefly. For a continued supply of pods, pick them while still small and tender, as flowering slows once seeds begin forming inside the pods. Immature seeds are boiled or steamed and used as a vegetable. Mature seeds are dried and stored; they must be thoroughly cooked before eating and are best soaked in water for about 12 hours first. They can be boiled, baked, pureed, ground into a powder, or fermented into tempeh. The powdered seed works as a protein-enriching additive to flour and can also be used in soups. Seeds can be sprouted and used in salads or cooked. Roasted seeds have been used as a coffee substitute. Very young leaves can be eaten raw as a salad; older leaves are cooked as a potherb. Nutritional composition of leaves per 100g fresh weight: 36 calories; water 86.8%; protein 3.6g; fat 0.4g; carbohydrate 6.6g; fibre 2.8g; ash 2.6g; calcium 2.74mg; phosphorus 75mg; iron 9.2mg; vitamin A 3230mg; thiamine (B1) 0.18mg; riboflavin (B2) 0.06mg; niacin 1.3mg; vitamin C 110mg.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -180,8 +178,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 The green pods are mildly diuretic and contain a substance that lowers blood sugar levels; dried mature pods are also reported to be used in the treatment of diabetes. The seed is diuretic, hypoglycaemic, and hypotensive. Ground into flour, it is applied externally to treat ulcers. The seed is also used in the treatment of cancer of the blood. When bruised and boiled with garlic, the seeds have been used to treat persistent coughs. The root is dangerously narcotic. A homeopathic remedy made from the entire fresh herb is used to treat rheumatism, arthritis, and disorders of the urinary tract.
 
 ### Other Uses
-
-A brown dye is obtained from red kidney beans. The plant contains phaseolin, which has fungicidal activity. Water from cooking the beans is effective at reviving woollen fabrics. The plant residue left after harvesting dried beans can be used as a source of biomass.
 
 ### Additional Information
 

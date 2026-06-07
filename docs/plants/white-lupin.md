@@ -69,8 +69,6 @@ Lupinus albus is a ANNUAL growing to 1.2 m (4ft) by 0.3 m (1ft in) at a medium r
 
 ### Edible Parts and Preparation
 
-Edible parts: Oil, Oil, Seed Oil. Seed - cooked. Used as a protein-rich vegetable or savoury dish in any of the ways that cooked beans are used, they can also be roasted or ground into a powder and mixed with cereal flours in making bread etc. If the seed is bitter this is due to the presence of toxic alkaloids and the seed should be thoroughly leached by soaking it and then discarding the soak water before cooking. Seeds contain 32 - 40% protein, 8 - 12% oil. The roasted seeds can be used as a snack in much the same way as peanuts. An edible oil is obtained from the seed. The roasted seed is used as a coffee substitute.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -162,8 +160,6 @@ Diuretic Emmenagogue Hypoglycaemic Vermifuge. The seeds, taken internally, are d
 
 ### Other Uses
 
-Cosmetic Fibre Green manure Oil Oil. The seed contains up to 12% oil. This is used in making soap. A fibre obtained from the stems is used for making cloth etc. A cosmetic face-mask can be made from lupin flour, this is used to invigorate tired skin. A useful spring-sown green manure crop, especially on light soils. It is deep rooting, fairly fast growing, produces a good bulk and fixes atmospheric nitrogen. Dynamic accumulator.
-
 ### Related Species
 
 - [Garden Pea](garden-pea.md)
@@ -183,8 +179,6 @@ Seed saving from the best-performing plants each generation gradually adapts the
 *Lupinus albus* is a nitrogen-fixing legume, making it an excellent predecessor crop for nitrogen-demanding cereals and brassicas. The root nodules host Rhizobium bacteria that convert atmospheric nitrogen into plant-available forms, leaving residual nitrogen in the soil after harvest. Rotate with non-legume crops to break pest and disease cycles.
 
 Companion planting with aromatic herbs or flowering plants can deter pests and attract beneficial insects. Avoid planting near species that compete for the same nutrients or harbor shared pathogens.
-
-### Crop Rotation and Companion Planting
 
 *Lupinus albus* is a nitrogen-fixing legume that produces substantial biomass, making it valuable as both a food crop and a green manure. The deep taproot breaks up compacted soil layers and brings nutrients to the surface. Rotate with cereals to break disease cycles. Lupin's alkaloid content (in bitter varieties) deters grazing animals, which can be an advantage or disadvantage depending on the context. Sweet (low-alkaloid) varieties require more protection from pests.
 

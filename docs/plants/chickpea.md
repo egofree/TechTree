@@ -72,8 +72,6 @@ An annual legume herb. Plants are 40-60 cm high and all parts are hairy. It is e
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Leaves, Roots - coffee, Vegetable The seeds can be eaten raw or cooked — fresh or dried seeds work well in soups and stews, offering a mildly sweet flavour and a floury texture somewhat reminiscent of sweet chestnuts. Mature seeds can be sprouted and eaten raw, and parched seeds make a satisfying snack. Ground into a meal, the seed can be mixed with cereal flours for bread and cakes. The seed is a good source of carbohydrates and protein. Roasted seeds serve as a coffee substitute; roasted root can also be used for this purpose. Both young seedpods and young shoots are reported to be edible, though some caution is advised given the plant's noted toxicity. A refreshing drink can be made from the acid dew that collects overnight on the hairy seedpods.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -176,8 +174,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 An acid exudation from the seedpods is astringent and has been used to treat dyspepsia, constipation, and snakebite.
 
 ### Other Uses
-
-Chickpeas fix atmospheric nitrogen through symbiosis with Mesorhizobium bacteria in their root nodules, enriching soil fertility and making them valuable in crop rotation systems to improve subsequent yields and reduce synthetic fertiliser use. Husks and leaves are sometimes used as protein-rich livestock fodder. Modified chickpea proteins can be used to create biodegradable films and coatings as sustainable alternatives to petroleum-based plastics, with applications in packaging and agricultural mulch. After suitable modification, chickpea proteins can also be used in microencapsulation technology to protect sensitive ingredients, control release, and improve shelf life in pharmaceutical and food contexts. Their gelling and emulsifying properties make them candidates for use as natural adhesives or binders in industrial processes. Chickpea's symbiotic relationship with nitrogen-fixing bacteria makes it a model system for researching plant-microbe interactions and soil health. It can also be used in crop rotations to help restore degraded soils. Chickpea flour is traditionally used in some cultures as a natural exfoliant and skin cleanser. Plant residues are used in some regions as fuel or for composting.
 
 ### Additional Information
 

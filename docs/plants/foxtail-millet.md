@@ -72,8 +72,6 @@ An annual millet grass. It grows 1-1.5 m tall. It can be tinged with purple colo
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Cereal The seeds of foxtail millet can be cooked and eaten as sweet or savoury dishes in all the same ways as rice, or ground into flour for porridge, cakes, and puddings. Sprouting the seed before use makes it slightly sweeter. Most cultivars are non-glutinous, making them suitable for people with coeliac disease. The grain is considered nutritious and is often recommended for the elderly and for pregnant women. Per 100g (dry weight): 384 calories, 10.7g protein, 3.3g fat, 84.2g carbohydrate, 1.4g fibre, 1.8g ash; minerals include 37mg calcium, 275mg phosphorus, 6.2mg iron, 8mg sodium, 281mg potassium; vitamins include 0.48mg thiamine (B1), 0.14mg riboflavin (B2), and 2.48mg niacin.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -173,8 +171,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 The germinated seed of yellow-seeded cultivars is astringent, digestive, emollient, and stomachic, used in treating dyspepsia, poor digestion, and food stagnancy in the abdomen. White seeds are refrigerant and used for cholera and fever. Green seeds are diuretic and considered strengthening to virility.
 
 ### Other Uses
-
-The plant can be sown in contour strips for erosion control. The straw is used for thatching and bedding in countries such as India. The bran contains up to 9% oil and can be used for oil extraction.
 
 ### Additional Information
 

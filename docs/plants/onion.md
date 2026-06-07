@@ -70,8 +70,6 @@ An onion family plant. A herb with a two year life cycle. Normally it develops f
 
 ### Edible Parts and Preparation
 
-Edible parts: Leaves, Bulbs, Seeds, Herb, Spice, Vegetable, Flowers The bulb is eaten raw or cooked and is one of the most widely used vegetables in the world, growing 10cm or more in diameter. Raw, it can be sliced into salads or sandwich fillings; it is also baked or boiled as a vegetable in its own right, and commonly used to flavour soups, stews, and countless other cooked dishes. Some cultivars are selected for smaller, hotter bulbs specifically suited to pickling. Leaves of spring onion cultivars are harvested while young and actively growing for use in salads; the bulbs of these types are small and typically eaten along with the leaves. Successional sowing makes leaves available year-round. Flowers are eaten raw as a salad garnish, though they are somewhat dry and less pleasant than those of many related species. Seeds are sprouted and eaten, with a delicious onion flavour. Nutritional values per 100g fresh weight: 72 calories; water 79.8%; protein 2.5g; fat 0.1g; carbohydrate 16.8g; fibre 0.7g; ash 0.8g; calcium 37mg; phosphorus 60mg; iron 1.2mg; sodium 12mg; potassium 334mg; thiamine (B1) 0.06mg; riboflavin (B2) 0.02mg; niacin 0.2mg; vitamin C 8mg.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -174,8 +172,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 Though rarely used as a dedicated medicinal herb, the onion offers a broad range of beneficial effects and promotes general health when eaten regularly, especially raw. The bulb is anthelmintic, anti-inflammatory, antiseptic, antispasmodic, carminative, diuretic, expectorant, febrifuge, hypoglycaemic, hypotensive, lithontripic, stomachic, and tonic. Regular dietary use helps offset tendencies toward angina, arteriosclerosis, and heart attack, and is useful in preventing oral infection and tooth decay. Baked onions can be applied as a poultice to draw pus from sores. Fresh onion juice is an effective first-aid treatment for bee and wasp stings, bites, grazes, and fungal skin complaints. Warmed juice dropped into the ear relieves earache. Onion juice also aids scar tissue formation on wounds, speeding healing, and has been used cosmetically to reduce freckles. Bulbs of red cultivars, harvested when mature in summer, are used to prepare a homeopathic remedy particularly suited to symptoms including running eyes and nose. The German Commission E Monographs approve onion for appetite loss, arteriosclerosis, dyspeptic complaints, fevers and colds, cough and bronchitis, hypertension, tendency to infection, inflammation of the mouth and pharynx, and the common cold.
 
 ### Other Uses
-
-Plant juice acts as a moth repellent and can be rubbed onto the skin to repel insects. The juice also serves as a rust preventative on metals and as a polish for copper and glass. A yellow-brown dye is obtained from the dry outer skins of the bulbs. Rubbing onion juice into the scalp is said to promote hair growth and act as a remedy for baldness, and it is also used cosmetically to reduce freckles. The growing plant is said to repel insects and moles. A spray made by covering 1kg of chopped unpeeled onions with boiling water is said to increase the disease and parasite resistance of other plants when applied to them.
 
 ### Additional Information
 

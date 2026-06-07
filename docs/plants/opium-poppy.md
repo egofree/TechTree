@@ -72,8 +72,6 @@ An annual plant which grows up to 60-150 cm high. It is 20 cm across. The leaves
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Herb, Spice, Oil, Leaves, Flowers The seeds can be eaten raw or cooked and are widely used as a flavouring in cakes, bread, and fruit salads, imparting a pleasant nutty taste. Crushed and sweetened seeds are used as a filling in crepes, strudels, and pastries. The seeds are highly nutritious, containing approximately 22.7% protein, 48% fat, 9.8% carbohydrate, and 7.1% ash, and are a good source of lecithin. Although the capsules are 3cm or more in diameter and easy to harvest, the individual seeds are small. The seeds are safe to eat and contain very little if any narcotic alkaloids; however, their ingestion may produce urine test results similar to those seen in morphine or heroin users. Young leaves can be eaten raw or cooked and must be used before flower buds form; in some countries they are eaten at the seedling stage. One report indicates the leaves contain no narcotic principles, though some caution is still advised. A high-quality edible drying oil with an almond flavour is pressed from the seeds and makes a good substitute for olive oil. Nutritional figures per 100g of fresh seed: 533 calories; water 6.8%; protein 18g; fat 44.7g; carbohydrate 23.7g; fibre 6.3g; ash 6.8g; calcium 1448mg; phosphorus 848mg; iron 9.4mg; magnesium 2.3mg; sodium 21mg; potassium 700mg; thiamine (B1) 0.95mg; riboflavin (B2) 0.17mg; niacin 0.98mg.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -173,8 +171,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 The opium poppy contains a wide range of alkaloids and has long been valued medicinally, particularly for pain relief. Its use, especially of the extracted alkaloids opium and morphine, can become addictive and it should only be used under the supervision of a qualified practitioner. The dried latex from unripe green seed capsules is the richest source of active alkaloids including morphine. It is collected by making shallow incisions in the capsules after the petals fall, taking care not to penetrate the capsule interior; the latex exudes and dries in air before being scraped off. This latex is anodyne, antitussive, astringent, diaphoretic, emmenagogue, hypnotic, narcotic, and sedative. It has also been used as an antispasmodic and expectorant for certain coughs, and its astringent properties make it useful in treating dysentery. A homeopathic remedy prepared from the dried latex is used for constipation, fevers, and insomnia.
 
 ### Other Uses
-
-The seeds yield 44–50% of an edible drying oil that is excellent for lighting, burning longer than most oils. The oil is also used in paints and soap making.
 
 ### Additional Information
 

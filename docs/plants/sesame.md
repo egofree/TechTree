@@ -72,8 +72,6 @@ A small upright plant. It is an annual plant. It is erect and much branched. It 
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Leaves, Spice, Seeds - oil, Vegetable The seeds are the primary edible part and can be cooked in various ways: roasted, stewed, ground into flour for use in breads and vegetables, made into sweetmeats, or crushed for use as a butter. They can be fermented into tempeh, ground and mixed with a sweetener to make halva, or made into the paste tahini. The seeds can also be sprouted and used in salads. Nutritionally, the seed contains approximately 21.5% protein, 60.8% fat, 8.9% carbohydrate and 3.4% ash. It is a rich source of unsaturated fatty acids, calcium and vitamins A, B and E, with the calcium being well absorbed by the body, making sesame an excellent dietary source. An edible oil pressed from the seed is used for cooking or in margarines; it is very stable and can keep for years without turning rancid. The leaves can be eaten raw or cooked as a potherb, or added to soups.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -179,8 +177,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 Both the leaves and seed are astringent. The leaves are rich in a gummy substance that, when mixed with water, forms a bland mucilage used to treat infant cholera, diarrhoea, dysentery, catarrh and bladder troubles. The seed is diuretic, emollient, galactogogue, lenitive and tonic, and acts as a tonic for the liver and kidneys. It is taken internally for premature hair loss and greying, convalescence, chronic dry constipation, dental caries, osteoporosis, stiff joints and dry cough. It has a marked ability to increase milk production in nursing mothers. Externally, the seed is used to treat haemorrhoids and ulcers. The seed is very high in calories and should be used with caution by people who are overweight. The oil is laxative and promotes menstruation, and is used to treat dry constipation in the elderly. Mixed with lime water, the oil is applied externally to treat burns, boils and ulcers. A decoction of the root is used in various traditions to treat asthma and coughs.
 
 ### Other Uses
-
-The seed contains up to 55% of a semi-drying oil, which is used in soap making, lighting, as a lubricant and as a source of pharmaceutical drugs. When added to the insecticide pyrethrum it acts as a synergist — a 10% content of the oil doubles the potency of the pyrethrum. The oil can also be used in barrier creams to protect the skin from harmful UV radiation.
 
 ### Additional Information
 

@@ -70,8 +70,6 @@ An annual plant. It is a cereal grass. It grows to 60-200 cm high. It spreads to
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Cereal, Sprouts, Seeds - coffee The seed is a widely used cereal, particularly in northern Europe for making bread. It contains around 13% protein and some gluten, though less than wheat, producing a denser loaf. It can also be used in cakes and similar baked goods, and sprouted seeds can be added to salads. Germinated seed is used to produce malt — a sweet substance extracted after roasting — which serves as a sweetening agent and is used in brewing beer. The roasted ungerminated seed can be used as a coffee substitute. Nutritional composition per 100g (dry weight, 380 calories): water 0%, protein 13.2g, fat 2.5g, carbohydrate 82.5g, fibre 2.2g, ash 2g; calcium 44mg, phosphorus 400mg, iron 4mg, sodium 4mg, potassium 524mg; thiamine (B1) 0.4mg, riboflavin (B2) 0.24mg, niacin 1.8mg. (Figures are the median of a reported range.)
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -169,8 +167,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 The seed can be made into a poultice and applied to tumours. It also acts as an effective laxative due to its fibrous seed coat.
 
 ### Other Uses
-
-The straw can be used as a fuel or industrial biomass. It is strong enough for thatching, paper making, and weaving mats and hats, and also serves as packing material for nursery stock, bricks, and tiles, as well as bedding, archery targets, and mushroom compost. Rye is a good green manure crop — fast growing with an extensive, deep root system. Sown in late autumn, it prevents soil erosion and nutrient leaching over winter and can be incorporated into the soil in spring. The root system also makes it useful for soil stabilisation, especially on sandy soils.
 
 ### Additional Information
 

@@ -72,8 +72,6 @@ A bristly hairy annual vine in the pumpkin family. It has branched tendrils. The
 
 ### Edible Parts and Preparation
 
-Edible parts: Fruit, Seeds, Leaves, Vegetable, Flowers The fruit is cooked and used as a vegetable; it has a mild, watery flavour and is often harvested very young as courgettes. Because it has little flavour of its own, it is commonly used as a base for savoury dishes — the seeds are scooped out and a filling added before baking. Seeds can be eaten raw or cooked, or ground into a powder and mixed with cereals for bread-making. They are rich in oil with a pleasant nutty flavour, though small and covered in a fibrous coat. Seeds can also be sprouted and used in salads, though some caution is advised. An edible oil is obtained from the seed. Leaves and young stems are cooked as a potherb. Flowers and flower buds can be cooked or dried for later use. The root is reportedly edible when cooked, though this is uncertain. Dried flowers provide 308 calories per 100g, with 26.9g protein, 5.8g fat, 51.9g carbohydrate, 11.5g fibre, and 15.4g ash. Minerals include calcium 904mg, phosphorus 1653mg, and iron 19.2mg per 100g. Vitamins include A 7692mg, thiamine 0.38mg, riboflavin 2.12mg, niacin 11.54mg, and vitamin C 346mg per 100g.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -168,8 +166,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 Pumpkin has a long history of medicinal use in Central and North America. It is a gentle remedy particularly valued for removing tapeworms in children and pregnant women, for whom stronger or more toxic treatments are unsuitable. The seeds are mildly diuretic and vermifuge; the whole seed including the husk is used against tapeworms — ground to a fine flour, made into an emulsion with water, and eaten, followed by a purgative to expel parasites. While less potent than the root of Dryopteris felix-mas for this purpose, the seeds are safer for pregnant women, debilitated patients, and children. The seeds are also used to treat hypertrophy of the prostate; being high in zinc, they have been used successfully in early-stage prostate problems. The diuretic action has been applied in treating nephritis and other urinary complaints. The leaves are applied externally to burns, and the plant's sap and fruit pulp can be used similarly. The fruit pulp is prepared as a decoction to relieve intestinal inflammation.
 
 ### Other Uses
-
-The seed contains 34–54% of a semi-drying oil, which has been used for lighting.
 
 ### Additional Information
 

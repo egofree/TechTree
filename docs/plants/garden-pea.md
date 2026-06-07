@@ -70,8 +70,6 @@ A short lived herb plant. A creeping plant with white or pink flowers. Plants ca
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Pods, Leaves, Vegetable, Flowers Immature seedpods can be eaten raw or cooked; they have a sweet flavour though the flesh layer is thin with a fibrous layer beneath. Immature seeds are sweet and delicious eaten raw or lightly cooked — good in salads or as a simple vegetable. The mature seeds are protein-rich and can be cooked as a vegetable or added to soups, and may also be sprouted for use in salads and soups. Dried mature seeds can be ground into a powder to boost the protein content of flour for bread-making. The roasted seed serves as a coffee substitute. Leaves and young shoots are cooked and used as a potherb; the young shoots taste like fresh peas, are exceptionally tender, and can also be used raw in salads. Nutritional composition per 100g of fresh green seed (44 calories): water 76.5%, protein 6.2g, fat 0.4g, carbohydrate 16.9g, fibre 2.4g, ash 0.9g; calcium 32mg, phosphorus 102mg, iron 1.2mg, sodium 6mg, potassium 350mg; vitamin A 405mg, thiamine (B1) 0.28mg, riboflavin (B2) 0.11mg, niacin 2.8mg, vitamin C 27mg.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -174,8 +172,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 The seed is contraceptive, fungistatic and spermacidal. Dried and powdered seed has been used as a poultice on the skin with appreciable effect on many types of skin complaint, including acne. Seed oil given to women once a month has shown promise as a contraceptive by interfering with the action of progesterone and inhibiting endometrial development. In trials, it reduced pregnancy rates in women by 60% over a two-year period and achieved a 50% reduction in male sperm count.
 
 ### Other Uses
-
-As a nitrogen-fixing legume, the common pea improves soil fertility through a symbiotic relationship with Rhizobium bacteria in its root nodules, making it valuable as a green manure or cover crop in organic and regenerative farming systems. Plant residues after harvest contribute organic matter that enhances soil structure and microbial life. Its climbing habit makes it useful in polycultures and companion planting. The flowers attract bees and beneficial insects, including predatory wasps, particularly in early spring. Dried pea vines have been used as livestock bedding, and fibrous stems can be added to mulch or compost.
 
 ### Additional Information
 

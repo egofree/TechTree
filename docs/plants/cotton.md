@@ -70,8 +70,6 @@ An annual herb. It grows 0.6-1.5 cm high. The leaf blade has 3 lobes. The leaf b
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Oil The seeds contain up to 40% protein, have a nutty flavour when roasted, and can be eaten as a snack. They can also be boiled and used like rice in casseroles and soups, ground into a powder and added to flour for bread and cakes, or made into a spread similar to peanut butter. Some forms of this plant produce seeds containing the toxin gossypol, which must be removed before eating; seeds from glandless cultivars do not contain this toxin. Oil extracted from the seeds is used in salads, for cooking, and to make margarine. The plant is noted as a staple oil crop in carbon farming systems.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -164,8 +162,6 @@ Boiled leaves are applied externally to skin rashes on children.
 
 ### Other Uses
 
-A good-quality fibre is obtained from the seed floss and used across a wide range of applications including clothing, rubber-tyre fabrics, pillow and cushion stuffing, surgical dressings, twine, ropes, and carpets. Oil from the seeds is also extracted; lower grades are used in the manufacture of soap, lubricants, sulphonated oils, and protective coatings. After oil extraction, low-grade seed cake is used as manure. Seed hulls and dry stalks are used as fuel. Suitable for carbon farming as an industrial fibre crop and for use in strip intercrop systems.
-
 ### Notes
 
 A tetraploid plant. There are 40 Gossypium species. They grow in the tropics and subtropics.
@@ -195,7 +191,9 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 - [Edible Plants](edible-plants.md) — parent capability
 - [Plants Domain](./index.md) — domain overview and related capabilities
 - [Agave](agave.md) — example plant article format
-- [Food Processing](../food-processing/index.md) — downstream processing of harvested crops
+- [Textiles](../textiles/index.md) — cotton fiber spinning, weaving, and fabric production
+- [Polymers / Cotton Chemistry](../polymers/index.md) — cellulose-based materials from cotton
+- [Food Processing](../food-processing/index.md) — cottonseed oil extraction and processing
 - [Agriculture](../agriculture/index.md) — cultivation systems and crop rotation
 - Family: Malvaceae
 - Distribution: United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania, Armenia, Angola, Argentina, American Samoa, Australia, Azerbaijan, Bosnia &amp; Herzegovina, Barbados, Bangladesh, Burkina Faso, Bahrain, Burundi, Benin, Brunei, Bolivia, Brazil and 146 more

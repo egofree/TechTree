@@ -72,8 +72,6 @@ A millet grass. It is an annual tufted grass. It grows 60-120 cm tall. It has a 
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Cereal The seed is cooked and used as a cereal for making bread and fermented foods. In Ethiopia, where it is a staple, it is used to make 'enjera' — a fermented, pancake-like bread that is spongy, soft, thin, and sour in taste. The seed is very small but easy to harvest. Protein content is approximately 13%.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -171,11 +169,7 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 
 ### Medicinal Uses
 
-None known
-
 ### Other Uses
-
-None known
 
 ### Additional Information
 

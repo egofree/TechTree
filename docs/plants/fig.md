@@ -72,8 +72,6 @@ A fig. It is a low spreading deciduous tree with large leaves. It can grow to 10
 
 ### Edible Parts and Preparation
 
-Edible parts: Fruit, Flowers, Leaves - flavouring The fruit is eaten raw or cooked. Fully ripe figs are sweet and succulent, and the dried fruit is a major item of commerce. Figs are usually pear-shaped and up to 5 cm in diameter. Nutritional composition per 100 g dry weight (352 calories; water 0%): protein 6 g, fat 1.2 g, carbohydrate 89 g, fibre 7 g, ash 3.8 g; calcium 220 mg, phosphorus 133 mg, iron 2.7 mg, sodium 9 mg, potassium 862 mg; vitamin A 347 mg, thiamine (B1) 0.25 mg, riboflavin (B2) 0.25 mg, niacin 2 mg, vitamin C 9.22 mg. The latex from the sap can also be used as a curdling agent to coagulate plant milks.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -175,8 +173,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 A decoction of the leaves is stomachic, and the leaves are also added to boiling water and used as a steam bath for painful or swollen piles. Latex from the stems treats corns, warts, and piles, and has an analgesic effect against insect stings and bites. The fruit is mildly laxative, demulcent, digestive, and pectoral. Unripe green fruits are cooked with other foods as a galactogogue and tonic. Roasted fruit is emollient and used as a poultice for gumboils and dental abscesses. Syrup of figs, made from the fruit, is a well-known gentle laxative suitable for the young and very old. A decoction of young branches is an excellent pectoral. The plant also has anticancer properties.
 
 ### Other Uses
-
-Figs can be used in agroforestry as shade trees and for erosion control, with leaves providing ground cover. The wood is pliable but porous and of little practical value, though it is used for hoops, garlands, and ornaments; when saturated with oil and covered with emery it serves as a substitute for a hone. The dense foliage provides shelter, nesting, and roosting sites for birds and small animals, and the fruit is a valuable food source for birds, mammals, and insects. Rough bark, dense foliage, and leaf litter offer shelter and overwintering sites for beneficial invertebrates. Leaf litter also supports insect life.
 
 ### Additional Information
 

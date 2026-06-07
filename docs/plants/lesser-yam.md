@@ -72,8 +72,6 @@ A yam which has a spiny vine. It is a prickly climber. It can climb 1.2-2.4 m hi
 
 ### Edible Parts and Preparation
 
-Edible parts: Tubers, Root, Vegetable The roots are cooked and used as a vegetable. They are sweet and pleasant, with a flavour somewhat like sweet potato or chestnuts. The oval tubers grow up to 20cm long and 6–8cm in diameter. Each plant can produce 5–20 tubers, with flesh that is yellow or white. Average tuber weight ranges from 250–1,000g, though some can reach 3,000g.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -173,8 +171,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 None known.
 
 ### Other Uses
-
-None known. Grown in food forest systems.
 
 ### Additional Information
 

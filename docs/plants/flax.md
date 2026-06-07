@@ -69,8 +69,6 @@ Linum usitatissimum is a ANNUAL growing to 0.7 m (2ft 4in) by 0.2 m (0ft 8in). S
 
 ### Edible Parts and Preparation
 
-Edible parts: Oil, Oil, Seed Oil. Seed - raw or cooked. The seed contains 30 - 40% oil, which comprises mainly linoleic and linolenic acids. The seed also contains cyanogenic glycosides (prussic acid). In small quantities these glycosides stimulate respiration and improve digestion, but in excess can cause respiratory failure and death. Cultivars low in these glycosides have been developed and large quantities of the seed would need to be eaten to achieve a harmful dose. The seed is used in breads and cereals, it can also be sprouted and used in salads. The seed is hard to digest and provokes flatulence. A nutritional analysis is available. The roasted seed is said to be a coffee substitute. A herbal tea can be brewed from the seed. An edible oil is obtained from the seed, though it needs to be properly refined before it can be eaten. Some caution is advised in the use of the seeds for food since some varieties of this plant contain toxins.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -162,8 +160,6 @@ Analgesic Cancer Cardiotonic Demulcent Emollient Expectorant Laxative Nervine Pe
 
 ### Other Uses
 
-Biomass Fibre Gum Insulation Oil Oil SizeA fibre is obtained from the stem. It is of very high quality and is used in making cloth, sails, nets, paper, insulating material etc.The best quality flax fibre is used for making cloth. It is soft, lustrous and flexible, although not so flexible or elastic as cotton or wool.. It is stronger than cotton, rayon or wool, but weaker than ramie. Lower quality fibre is used in manufacturing of towelling, matting, rugs, twines, canvas, bags, and for quality papers such as printing currency notes. The plant is harvested just after it flowers. The yield is 0.5 to 0.9 tonnes of fibre per hectare. When used for paper making, the stems are harvested in late summer or autumn when they are two thirds yellow and are then retted. The fibre is then stripped from the stem, cooked for two hours or more with lye and then beaten in a Hollander beater. The lower quality flax straw from seed flax varieties is used in the manufacture of upholstery tow, insulating material, rugs, twine, and paper. Some of the better quality straw is used in the manufacture of cigarette and other high-grade papers. The seed contains 38 - 40% of a drying oil. It has a very wide range of applications. The paint and varnish industries consume about 80% of all the linseed oil produced. The remainder is used in items such as furniture polish, enamels, linoleum, oilcloth, printer's inks, soap making and patent leather[46, 57, 169, 244, 269]. It is also used as a wood preservative and as a waterproofing for raincoats, slickers, and tarpaulins. The oil is also used in a spray on concrete roads to prevent ice and snow from sticking - it has the additional benefit of helping to preserve the concrete and prevent surface cracking and wear. Yields of over 4 tonnes of seed per hectare have been recorded in N. America, but yields of 2 tonnes or less are more common. A mucilage from the soaked or boiled seeds is used as a size for linen warps.
-
 ### Related Species
 
 - [Cotton](cotton.md)
@@ -184,8 +180,6 @@ Seed saving from the best-performing plants each generation gradually adapts the
 
 Companion planting with aromatic herbs or flowering plants can deter pests and attract beneficial insects. Avoid planting near species that compete for the same nutrients or harbor shared pathogens.
 
-### Crop Rotation and Companion Planting
-
 *Linum usitatissimum* depletes soil nutrients heavily and should not follow itself. Rotate with cereals or legumes. Flax grown for fiber requires different management than flax grown for seed (linseed). Fiber flax is planted densely to produce tall, unbranched stems; seed flax is spaced wider to promote branching and seed production. Both uses draw from the same species, but harvest timing and variety selection differ.
 
 ## References
@@ -193,6 +187,8 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 - [Edible Plants](edible-plants.md) — parent capability
 - [Plants Domain](./index.md) — domain overview and related capabilities
 - [Agave](agave.md) — example plant article format
+- [Textiles](../textiles/index.md) — flax fiber processing (retting, scutching, hackling, spinning)
+- [Food Processing / Oil Processing](../food-processing/oil-processing.md) — linseed oil extraction
 - [Food Processing](../food-processing/index.md) — downstream processing of harvested crops
 - [Agriculture](../agriculture/index.md) — cultivation systems and crop rotation
 - Family: Linaceae

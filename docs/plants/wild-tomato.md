@@ -64,8 +64,6 @@ A tomato plant with small round fruit. See Lycopersicum esculentum var. cerasifo
 
 ### Edible Parts and Preparation
 
-Edible parts: Fruit The fruit is eaten.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -170,8 +168,6 @@ Seed saving from the best-performing plants each generation gradually adapts the
 *Solanum lycopersicum var. cerasiforme* benefits from crop rotation to prevent buildup of species-specific pests and diseases. Avoid planting in the same field in consecutive seasons where possible. Follow with a different crop family to break pest cycles and maintain soil health.
 
 Companion planting with aromatic herbs or flowering plants can deter pests and attract beneficial insects. Avoid planting near species that compete for the same nutrients or harbor shared pathogens.
-
-### Crop Rotation and Companion Planting
 
 Tomatoes should not follow other Solanaceae crops (potato, pepper, eggplant) in rotation due to shared soil-borne diseases like Verticillium and Fusarium wilt. Rotate with legumes or brassicas on a 3-4 year cycle. Companion plant with basil (repels aphids and whitefly), marigold (deters nematodes), and carrots (breaks pest cycles). Avoid planting near walnut trees (juglone toxicity).
 

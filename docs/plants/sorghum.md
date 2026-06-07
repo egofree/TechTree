@@ -72,8 +72,6 @@ A millet grass. A mature sorghum plant resembles maize. Plants vary in height fr
 
 ### Edible Parts and Preparation
 
-Edible parts: Stems, Seeds, Cereal The seed can be eaten raw or cooked — used whole like rice, popped like popcorn, or ground into a notably white flour for bread and other baked goods. Sorghum is a staple in some regions, where it is commonly fermented through lactic acid fermentation before eating. Sprouted seed can be eaten raw and added to salads. The germinated seed is also dried and ground into a malt powder used as a fermentation base for local beer production. The stems of sweet sorghum types are chewed like sugar cane, and in the United States a sweet syrup is pressed from them. The sap is also very sweet and can be eaten raw or made into syrup. Some caution is advised with stems, as there are reports that the leaves may contain cyanide. Nutritional content per 100g of dry seed (342 calories): water 12%, protein 10g, fat 3.7g, carbohydrate 72.7g, fibre 2.2g, ash 1.5g; calcium 22mg, phosphorus 242mg, iron 3.8mg, sodium 8mg, potassium 44mg; thiamine (B1) 0.33mg, riboflavin (B2) 0.18mg, niacin 3.9mg.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -172,8 +170,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 A decoction of the seed is demulcent and diuretic, used in treating kidney and urinary complaints. The inflorescence is astringent and haemostatic. Leaves and panicles are included in plant mixtures for decoctions treating anaemia. Decoctions of the twigs combined with lemon are used against jaundice. The red pigment is reported to have antimicrobial and antifungal properties and is used as a treatment for anaemia.
 
 ### Other Uses
-
-The flowering panicles — particularly from cultivars bred for the purpose — are made into brushes, brooms, and whisks. Several non-edible cultivars are grown specifically for the red pigment found in the leaf sheaths and sometimes adjacent stem tissue, used as a dye for mats, textiles, palm leaf strips, grasses used in basketry and weaving, ornamental calabashes, wool, body paint, and to colour cheese and cattle lick stones. A similar dye can be extracted from the grain refuse (glumes and grain wall) of red sorghum cultivars grown for food or beer. Traditionally, red sorghum dyes were used in funeral hangings decorated with patterned thick threads woven into the weft, known as 'ifala'. Sorghum also provides the violet colours on masks worn during certain dances. Combined with mud, sorghum and other tannin-rich dyes create the patterns on painted cloths from the Korhogo region. The dye is extracted by pressing out the juice, which is then fermented; used with tin- or chrome-mordanted wool or silk, it produces a colourfast red-brown. The use of sorghum dye in hair-dyeing products has been patented. Sorghum flour produces an adhesive used in plywood manufacture. Stems are used for weaving fences, mats, and wattle houses, as well as for roofing and fuel. The plant is an excellent biomass source, and stems can be used to produce fibreboard — Danish scientists have made quality panelling from sorghum stem chips.
 
 ### Additional Information
 

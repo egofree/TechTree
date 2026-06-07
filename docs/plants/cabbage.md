@@ -70,8 +70,6 @@ A cabbage family herb. It is an annual plant. It grows 1.2 m high and spreads 1 
 
 ### Edible Parts and Preparation
 
-Edible parts: Leaves, Flowers Edible Parts: Leaves Edible Uses: Leaves - raw or cooked. Slightly bitter raw, they can be cooked in one or more changes of water. We find that the slight bitterness actually enhances the flavour, and this is one of our favourite cooked leaves. The plant can usually be harvested all year round, though there will be little to pick in very cold winters. References More on Edible Uses Composition Figures in grams (g) or miligrams (mg) per 100g of food. Leaves (Dry weight) 320 Calories per 100g Water : 0% Protein: 23.5g; Fat: 2.5g; Carbohydrate: 62.5g; Fibre: 13g; Ash: 10.5g; Minerals - Calcium: 430mg; Phosphorus: 450mg; Iron: 10.5mg; Magnesium: 0mg; Sodium: 80mg; Potassium: 3100mg; Zinc: 0mg; Vitamins - A: 15000mg; Thiamine (B1): 0.6mg; Riboflavin (B2): 0.7mg; Niacin: 4.5mg; B6: 0mg; C: 670mg; Reference: Notes: The figures given here are the median of a range that was given in the reference.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -163,8 +161,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 Anthelmintic Cardiotonic Diuretic Laxative Stomachic The leaves are cardiotonic and stomachic. They have been used in the treatment of gout and rheumatism. The leaves can be used as a poultice to cleanse infected wounds - the mid-rib is removed and the leaf ironed then placed on the affected area whilst still hot. The poultice should not be left on too long or it an cause blisters. The seeds are anthelmintic, diuretic, laxative and stomachic.
 
 ### Other Uses
-
-A dynamic accumulator gathering minerals or nutrients from the soil and storing them in a more bioavailable form - used as fertilizer or to improve mulch. Special Uses Carbon Farming Dynamic accumulator Food Forest
 
 ### Notes
 

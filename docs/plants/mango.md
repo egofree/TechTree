@@ -69,8 +69,6 @@ Mangifera indica is an evergreen Tree growing to 25 m (82ft) by 25 m (82ft) at a
 
 ### Edible Parts and Preparation
 
-Edible parts: Flowers, Fruit, Leaves, Seed Tea. Fruit - raw or cooked. One of the most popular fruits in the world, it is commonly eaten raw, is juiced and can also be prepared in a variety of ways such as in chutneys, jams, pickles etc. The dried, unripe fruit is ground into a powder and used as a flavouring in Indian cuisine. They are an ingredient of the spice mixture chat masala. A variable fruit, ranging in colour from green through orange and yellow to red, it can be anything from 50g to 1.5kg in weight. The fruit is usually 8 - 12cm long, but can be up to 30cm. The fruit contains about 15% sugars, 0.5% protein and significant amounts of vitamins A, B and C. The seeds are used in the preparation of dodol, or pudding. A starch and an edible fat can be obtained from them. The kernels are important as a famine food in India, but the astringency has to be removed by boiling, roasting and soaking them for a long time. Flowers. Young leaves. Cooked as a vegetable.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -162,8 +160,6 @@ Anthelmintic Antiasthmatic Antidiarrhoeal Antihaemorrhoidal Antirheumatic Antisc
 
 ### Other Uses
 
-Charcoal Containers Dye Fuel Furniture Repellent Teeth Wood Agroforestry uses: Mango trees provide shade, can be used as windbreaks, and contribute to soil fertility through leaf litter. They also attract beneficial insects. Backyard tree. Large shade tree. Street tree. Large flowering tree, Public open space. Specimen. Other Uses The bark and the leaves are the source of a yellowish-brown dye used for silk. The flowers are used to repel mosquitoes. The slender branches are used as toothbrushes to treat toothache. Heartwood is pale yellowish-brown to reddish-brown, darkening on exposure, not clearly demarcated from the pale yellowish-brown sapwood. Grain somewhat wavy, texture moderately coarse; freshly cut wood is scentless. The wood is used for many purposes, including indoor construction, meat-chopping blocks, furniture, carpentry, flooring, boxes, crates and boat building (canoes and dugouts). The wood is a source of 'machang' timber. We do not have a specific description for the wood of this speices, but a general description of machang timber is as follows:- The heartwood is light brown or light grey brown, occasionally with chocolate or black streaky coreword; it is not clearly differentiated from the wide band of sapwood. The texture is moderately coarse to coarse and even; the grain interlocked and wavy. The wood is moderately heavy to heavy; moderately hard; not durable under exposed conditions, being susceptible to fungi, dry wood borers and termites. The wood seasons somewhat rapidly with only a slight risk of checking or distortion; once dry it is moderately stable in service. It can be worked with ordinary tools, there is a slight difficulty resawing when green, but is easy when dry; planing is easy but the surface produced is moderately smooth with grain pick-up on the radial side; nailing and screwing is excellent; gluing is correct. The wood is suitable for light construction, turnery, flooring, interior panelling, boxes, crates, pallets and plywood manufacture. Corewood can be used for decorative veneer production. With a calorific value of 4200 kcal/kg, the wood makes excellent charcoal and firewood.
-
 ### Related Species
 
 - [Apple](apple.md)
@@ -183,8 +179,6 @@ Seed saving from the best-performing plants each generation gradually adapts the
 *Mangifera indica* benefits from crop rotation to prevent buildup of species-specific pests and diseases. Avoid planting in the same field in consecutive seasons where possible. Follow with a different crop family to break pest cycles and maintain soil health.
 
 Companion planting with aromatic herbs or flowering plants can deter pests and attract beneficial insects. Avoid planting near species that compete for the same nutrients or harbor shared pathogens.
-
-### Crop Rotation and Companion Planting
 
 Mango is a long-lived tropical tree (productive for 100+ years). Young mango orchards can be intercropped with short-season vegetables, legumes, or pineapples during the 5-8 year establishment period. Once mature, the dense canopy limits understory options. In traditional South Asian farming, mango trees are integrated into multi-strata homegardens with banana, papaya, and spices as understory crops.
 

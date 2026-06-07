@@ -69,8 +69,6 @@ Nicotiana tabacum is a ANNUAL growing to 1.2 m (4ft). See above for USDA hardine
 
 ### Edible Parts and Preparation
 
-Edible parts: Leaves, Oil Egg OilA protein can be extracted from the leaves. It is an odourless, tasteless white powder and can be added to cereal grains, vegetables, soft drinks and other foods. It can be whipped like egg whites, liquefied or gelled and can take on the flavour and texture of a variety of foods. It is 99.5% protein, contains no salt, fat or cholesterol. It is currently (1991) being tested as a low calorie substitute for mayonnaise and whipped cream.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -162,8 +160,6 @@ Antispasmodic Diuretic Emetic Expectorant Homeopathy Irritant Narcotic Sedative 
 
 ### Other Uses
 
-Insecticide Oil Repellent. All parts of the plant contain nicotine, this has been extracted and used as an insecticide. The dried leaves can also be used, they remain effective for 6 months after drying. The juice of the leaves can be rubbed on the body as an insect repellent. The leaves have been dried and chewed as an intoxicant. The dried leaves are also used as snuff or smoked. This is the main species that is used to make cigarettes and cigars. A drying oil is obtained from the seed. Dynamic accumulator.
-
 ### Related Species
 
 - [Tea](tea.md)
@@ -181,8 +177,6 @@ Seed saving from the best-performing plants each generation gradually adapts the
 *Nicotiana tabacum* benefits from crop rotation to prevent buildup of species-specific pests and diseases. Avoid planting in the same field in consecutive seasons where possible. Follow with a different crop family to break pest cycles and maintain soil health.
 
 Companion planting with aromatic herbs or flowering plants can deter pests and attract beneficial insects. Avoid planting near species that compete for the same nutrients or harbor shared pathogens.
-
-### Crop Rotation and Companion Planting
 
 *Nicotiana tabacum* is a heavy feeder that depletes soil nitrogen and potassium rapidly. Rotate with legumes to restore nitrogen. Tobacco is susceptible to several soil-borne diseases (black root rot, tobacco mosaic virus) that persist in soil for years; avoid replanting tobacco in the same field for at least 3-5 years. The nicotine in tobacco leaves can be extracted and used as an insecticide (nicotine sulfate), providing a secondary use beyond smoking.
 

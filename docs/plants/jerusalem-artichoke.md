@@ -72,8 +72,6 @@ An upright perennial plant up to 1-2 m high and a spread of 1 m. The stem is ere
 
 ### Edible Parts and Preparation
 
-Edible parts: Rhizome, Tubers, Root, Vegetable, Flowers The tubers can be eaten raw or cooked and develop a pleasant sweetness over winter, particularly after frosts, making them reasonably acceptable raw at that stage. Otherwise they are generally best cooked and can be used in all the ways potatoes are used. The tubers are rich in inulin, a starch the body cannot digest, so they provide bulk without many calories. Some people tolerate inulin poorly — it can ferment in the gut and cause quite severe wind. Tubers can grow up to 10cm long and 6cm in diameter. They bruise easily and lose moisture rapidly, so are best left in the ground and harvested as needed. The inulin can be converted into fructose, a sweetener safe for diabetics. Roasted tubers also serve as a coffee substitute.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -174,8 +172,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 Jerusalem artichoke is reported to be aperient, aphrodisiac, cholagogue, diuretic, spermatogenetic, stomachic, and tonic. It is a folk remedy for diabetes and rheumatism.
 
 ### Other Uses
-
-The plants are a good source of biomass, and the tubers are used industrially to produce alcohol; the alcohol fermented from the tubers is said to be of better quality than that from sugar beets. Jerusalem artichokes can be grown as a temporary summer screen, though they are a very temporary solution — they do not reach a reasonable height until July and begin dying down by October.
 
 ### Additional Information
 

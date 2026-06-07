@@ -72,8 +72,6 @@ A millet grass. It is an annual grass. It grows to 3 m tall. The leaf blades are
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Cereal The seeds can be eaten raw or cooked, used much like rice in sweet or savoury dishes, or ground into a flour for bread, porridge, and similar preparations. The grain is commonly fermented to produce various foods, and the sweet-tasting grains are eaten raw by children. The seeds are highly nutritious.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -174,8 +172,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 The plant acts as an appetiser and tonic, and is considered useful in treating heart diseases. The fruits have been rubbed directly onto open facial pimples to help clear them.
 
 ### Other Uses
-
-None known Special Uses
 
 ### Additional Information
 

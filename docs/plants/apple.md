@@ -69,8 +69,6 @@ Malus domestica is a deciduous Tree growing to 9 m (29ft 6in) at a medium rate. 
 
 ### Edible Parts and Preparation
 
-Edible parts: Fruit, Oil, Oil Pectin. Fruit - raw, cooked or dried for later use. Apples are one of the most common and widely grown fruits of the temperate zone. There are a great many named varieties with differing flavours ranging from sour to sweet and textures from dry and mealy to crisp and juicy. There is also a wide range in the seasons of ripening with the first fruits being ready in late July whilst other cultivars are not picked until late autumn and will store for 12 months or sometimes more. See individual records for more details. The fruit of some cultivars is rich in pectin and can be used in helping other fruits to set when making jam etc. Pectin is also said to protect the body against radiation. An edible oil can be obtained from the seed. It would only really be viable to use these seeds as an oil source if the fruit was being used for some purpose such as making cider and then the seeds could be extracted from the remaining pulp.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -162,8 +160,6 @@ Antibacterial Antidiarrhoeal Astringent Laxative Odontalgic Stomachic. The fruit
 
 ### Other Uses
 
-Lighting Oil Oil Pectin Teeth Wood. Apples can be used as part of an agroforestry system. They provide fruit and shade, can serve as windbreaks, and attract beneficial insects. They can also be used as hedgerows. The fruit is a source of pectin. Pectin is used as a thickener in jams etc and as a culture medium in laboratories. The apple is also an excellent dentifrice, the mechanical action of eating a fruit serving to clean both the teeth and the gums. The oil from the seed has been used as an illuminant. Wood - hard, compact, fine-grained. Used for turnery, tool handles, canes etc. It makes an excellent fuel. Espalier: tree or other plants that is trained to grow flat against a support (such as a trellis or wall).
-
 ### Related Species
 
 - [Grape](grape.md)
@@ -183,8 +179,6 @@ Seed saving from the best-performing plants each generation gradually adapts the
 *Malus domestica* benefits from crop rotation to prevent buildup of species-specific pests and diseases. Avoid planting in the same field in consecutive seasons where possible. Follow with a different crop family to break pest cycles and maintain soil health.
 
 Companion planting with aromatic herbs or flowering plants can deter pests and attract beneficial insects. Avoid planting near species that compete for the same nutrients or harbor shared pathogens.
-
-### Crop Rotation and Companion Planting
 
 Apple orchards are long-term perennial plantings (50-100+ years) that do not rotate in the conventional sense. However, site selection is critical: avoid planting apples where other Rosaceae crops (pears, peaches, plums) previously grew, due to replant disease caused by soil-borne pathogens. Understory companion plants include nitrogen-fixing clovers and flowering herbs that attract pollinators and beneficial insects. Maintain a grass alley between tree rows to prevent erosion and provide habitat for ground beetles that control pests.
 

@@ -68,8 +68,6 @@ Juglans regia is a deciduous Tree growing to 20 m (65ft) by 20 m (65ft) at a med
 
 ### Edible Parts and Preparation
 
-Edible parts: Oil, Oil, Sap, Seed Tea. Seed - eaten raw or used in confections, cakes, ice cream etc. A delicious flavour. The seed can also be ground into a meal and used as a flavouring in sweet and savoury dishes. The unripe fruits are pickled in vinegar. An edible oil is obtained from the seed, it should not be stored for any length of time since it tends to go rancid quickly. The oil has a pleasant flavour and is used in salads or for cooking. The sap is tapped in spring and used to make a sugar. The finely ground shells are used in the stuffing of 'agnolotti' pasta. They have also been used as adulterant of spices. The dried green husks contain 2.5 - 5% ascorbic acid (vitamin C) - this can be extracted and used as a vitamin supplement. The leaves are used as a tea.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -161,8 +159,6 @@ Alterative Anodyne Antiinflammatory Astringent Bach Blood purifier Cancer Depura
 
 ### Other Uses
 
-Dye Herbicide Miscellany Oil Oil Paint Polish Repellent Tannin Teeth Wood. Juglans species can be used in agroforestry for shade and as a nitrogen-fixing tree. They also provide valuable timber and can enhance biodiversity in mixed plantings. A yellow dye is obtained from the green husks. It is green. The green nuts (is this the same as the green husks?) and the leaves are also used. The rind of unripe fruits is a good source of tannin. A brown dye is obtained from the leaves and mature husks. It does not require a mordant and turns black if prepared in an iron pot. The dye is often used as a colouring and tonic for dark hair. The leaves and the husks can be dried for later use. A golden-brown dye is obtained from the catkins in early summer. It does not require a mordant. A drying oil is obtained from the seed. It is used in soap making, paints, etc. It is not very stable and quickly goes rancid. The nuts can be used as a wood polish. Simply crack open the shell and rub the kernel into the wood to release the oils. Wipe off with a clean cloth. The dried fruit rind is used to paint doors, window frames etc (it probably protects the wood due to its tannin content). The shells may be used as anti-skid agents for tyres, blasting grit, and in the preparation of activated carbon. The leaves contain juglone, this has been shown to have pesticidal and herbicidal properties. The crushed leaves are an insect repellent. Juglone is also secreted from the roots of the tree, it has an inhibitory effect on the growth of many other plants. Bark of the tree and the fruit rind are dried and used as a tooth cleaner. They can also be used fresh. Wood - heavy, hard, durable, close grained, seasons and polishes well. A very valuable timber tree, it is used for furniture making, veneer etc. A dynamic accumulator gathering minerals or nutrients from the soil and storing them in a more bioavailable form - used as fertilizer or to improve mulch.
-
 ### Related Species
 
 - [Apple](apple.md)
@@ -182,8 +178,6 @@ Seed saving from the best-performing plants each generation gradually adapts the
 *Juglans regia* benefits from crop rotation to prevent buildup of species-specific pests and diseases. Avoid planting in the same field in consecutive seasons where possible. Follow with a different crop family to break pest cycles and maintain soil health.
 
 Companion planting with aromatic herbs or flowering plants can deter pests and attract beneficial insects. Avoid planting near species that compete for the same nutrients or harbor shared pathogens.
-
-### Crop Rotation and Companion Planting
 
 Walnut trees produce juglone, an allelopathic compound toxic to many plants (especially tomatoes, potatoes, and alfalfa). This limits companion planting options under the canopy. Tolerant understory species include blackberry, currant, and certain grasses. Walnut orchards are long-term plantings (100+ years of productive life). Intercrop with juglone-tolerant species during the 10-15 year establishment period before canopy closure.
 

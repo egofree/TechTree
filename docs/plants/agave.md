@@ -184,7 +184,8 @@ For fiber production at scale, the critical bottleneck is scraping capacity. Eac
 
 - [Edible Plants](edible-plants.md) — parent capability
 - [Plants Domain](./index.md) — domain overview and related capabilities
-- [Edible Plants](edible-plants.md) — downstream capability
+- [Textiles / Rope Making](../textiles/rope-making.md) — agave fiber cordage and rope production
+- [Food Processing / Brewing](../food-processing/brewing.md) — fermented agave juice (pulque, mezcal)
 
 
 ### Material Handling

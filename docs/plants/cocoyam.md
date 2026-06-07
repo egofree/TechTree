@@ -72,8 +72,6 @@ A herb up to 2 m tall. It has a short stem. At the top of the stem it produces l
 
 ### Edible Parts and Preparation
 
-Edible parts: Tubers, Root, Leaves, Vegetable, Leaf stalks, Stem Tannia is a versatile crop with both its corm and leaves suitable for human consumption. The corms can be categorized into smaller secondary corms and main corms. Secondary corms are primarily used in various culinary applications, in similar ways as potatoes. They can be boiled, fried, roasted, steamed, baked, or ground into flour. The leaves of the tannia plant find common culinary use as a leafy green, similar to spinach. In contrast, primary corms are typically designated for animal feed rather than human consumption because of the higher amount of oxalates. In Bolivia, it is called walusa, in Colombia bore, in Costa Rica tiquizque or macal, in Cuba malanga, in Mexico mafafa, in Nicaragua quequisque, in Panama otoe, in Dominican cuisine is called yautía, yautía morada, and yautía coco and ocumo in Venezuela. In Brazil, the leaves are sold as taioba. The tuber (called nampi or malanga) is also used in the cuisine of these countries. The plant is often interplanted within reforestation areas to control weeds and provide shade during the early stages of growth. In Puerto Rican cuisine and Dominican cuisine, the plant and its corm are called yautía. In Dominican Republic as well as in Puerto Rican pasteles en hoja, yautía is ground with squash, potato, green bananas and plantains into a dough-like fluid paste containing pork and ham, and boiled in a banana leaf or paper wrapper. The yautía corm is used in stews, soups, or simply served boiled much like a potato. It is used in local dishes such as guanime, alcapurrias, sancocho, and mondongo. In alcapurrias, it is also ground with green bananas and made into fried croquettes containing picadillo or seafood. Yautía majada is also prepared and consumed when mashed in some instances. Yautía puree is usually served with fish or shellfish cooked in coconut milk. In Suriname and the Netherlands, the plant is called tayer. The shredded root is baked with chicken, fruit juices, salted meat, and spices in the popular Surinamese dish, pom. Eaten over rice or on bread, pom is commonly eaten in Suriname at family gatherings and on special occasions, and is also popular throughout the Netherlands. In Surinamese cuisine the leaves are also often baked with a Maggi-cube (chicken boullion cube) and eaten alongside rice and chicken or salted beef.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -172,8 +170,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 ## Variations and Alternatives
 
 ### Other Uses
-
-The plant is used as a nurse-crop for cacao.
 
 ### Additional Information
 

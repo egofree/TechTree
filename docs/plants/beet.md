@@ -70,8 +70,6 @@ A dark green leafed plant. The plant is upright and about 20 cm tall. It can be 
 
 ### Edible Parts and Preparation
 
-Edible parts: Roots, Leaves, Vegetable Spinach beet leaves are eaten as a pot herb. Young leaves of the garden beet are sometimes used similarly. The midribs of Swiss chard are eaten boiled while the whole leaf blades are eaten as spinach beet. In some parts of Africa, the whole leaf blades are usually prepared with the midribs as one dish. The leaves and stems of young plants are steamed briefly and eaten as a vegetable; older leaves and stems are stir-fried and have a flavour resembling taro leaves. The usually deep-red roots of garden beet can be baked, boiled, or steamed, and often served hot as a cooked vegetable or cold as a salad vegetable. They are also pickled. Raw beets are added to salads. A large proportion of the commercial production is processed into boiled and sterilised beets or into pickles. In Eastern Europe beet soup, such as cold borsch, is a popular dish. Yellow-coloured garden beets are grown on a very small scale for home consumption. The consumption of beets causes pink urine in some people. Jewish people traditionally eat beet on Rosh Hashana (New Year). Its Aramaic name סלקא sounds like the word for "remove" or "depart"; it is eaten with a prayer "that our enemies be removed".
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

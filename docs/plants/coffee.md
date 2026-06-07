@@ -72,8 +72,6 @@ An evergreen shrub. It grows to 3-5 m high and spreads to 3 m across. The stem i
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Leaves, Herb, Spice, Leaves - tea Coffea arabica accounts for 60% of the world's coffee production. The dried seeds ('beans') are roasted, ground and brewed into one of the two most popular beverages in the world. Coffee is also widely used as a flavouring in ice cream, pastries, candies and liqueurs, and an extract from the seeds serves the same purpose. The seeds have been used as a masticatory since ancient times, and when cooked in butter can be made into rich flat cakes. Dried, roasted green seeds are used as an appetizer, and chocolate-covered roasted seeds are eaten as a gourmet snack. The red fruits and leaves are chewed for their stimulating properties. The cooked leaves have a strong brown colour, a good texture and a relatively neutral flavour with only a hint of bitterness; they contain more caffeine than the fruit and are sometimes brewed as a tea substitute.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -169,8 +167,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 The seeds contain caffeine, a widely used stimulant added to proprietary painkillers to enhance the effect of aspirin and paracetamol. They also contain theobromine and theophylline, and chlorogenic acid, which is both stimulant and diuretic as well as a known allergen. The seed is a bitter, aromatic, stimulant herb with diuretic effects that also controls vomiting. It is reported to be analgesic, aphrodisiac, anorexic, antidotal, cardiotonic, CNS-stimulant, counter-irritant, hypnotic, galactagogue and nervine. Though not typically classified as a medicinal herb, coffee is a highly effective general stimulant with a particular effect on the central nervous system, improving perception and physical performance. It has been found to help in some cases of headache or migraine. An enema made using coffee beans is an effective cleanser for the large bowel. Coffee is a folk remedy for asthma, atropine poisoning, fever, flu, headache, jaundice, malaria, migraine, narcosis, nephrosis, opium poisoning, sores and vertigo.
 
 ### Other Uses
-
-The plant is often intercropped with food crops such as corn, beans or rice during its early years of growth, and is useful as an understorey plant or hedge. Coffelite, a type of plastic, is made from coffee beans. Coffee combined with iodine is used as a deodorant. The seeds contain caffeine, which has been described as a natural herbicide — it selectively inhibits germination of Amaranthus spinosus seeds. The bark can be made into pulp and parchment or used as manure and mulch. The whitish wood is hard, dense, heavy, tough, durable and takes a polish well; it is suitable for tables, chairs and turnery. Coffea arabica can be grown in a large container of 35 litres or more, and will also grow as an indoor plant, though it is unlikely to fruit indoors.
 
 ### Additional Information
 

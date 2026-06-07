@@ -189,8 +189,6 @@ The seedpods are diuretic and lithotripic. The inside of the green pods is rubbe
 
 ### Other Uses
 
-A fibre is obtained from the stems. The burnt stems are rich in potassium and can be used in making soap. The dried stems can be burnt as a fuel. The stems and leaves are sometimes used as a green manure. Broad beans grow well with carrots, cauliflowers, beet, cucumber, cabbages, leeks, celeriac, corn and potatoes, but is inhibited by onions, garlic and shallots.
-
 ### Additional Information
 
 It is a commercially cultivated vegetable. Moderately common in some highland areas of Papua New Guinea but does not produce well. It is a major crop in China.

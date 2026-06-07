@@ -73,8 +73,6 @@ An annual grass with hollow stems. The stems can be 30 cm to 150 cm tall. (Float
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Cereal, Husks -oil The seed is the primary food product and can be boiled or steamed. It features in a huge range of savoury and sweet dishes worldwide — including curries, Far Eastern cuisines, paella, risotto, and rice pudding. The grain can also be popped like popcorn to make a breakfast cereal. An oil extracted from the seed is used in cooking and as a salad oil.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -174,8 +172,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 Rice is regarded as a nutritive, soothing, tonic herb that is diuretic, reduces lactation, aids digestion, and controls sweating. The seeds are taken internally for urinary dysfunction. Seeds, or germinated seeds, are used to treat excessive lactation. Germinated seeds are also taken for poor appetite, indigestion, abdominal discomfort, and bloating. The grains are often cooked with herbs to prepare a medicinal gruel. The rhizome is used internally for night sweats, particularly in cases of tuberculosis and chronic pneumonia; rhizomes are harvested at the end of the growing season and dried for use in decoctions.
 
 ### Other Uses
-
-Rice straw is woven into hats and shoes and used for thatching, repairing houses, constructing grain storage structures, making ropes, packaging, and bags. In Vietnam it serves as a fuel. In China, India, Indonesia, and Pakistan it is used in paper production. Rice starch is used in cosmetics, laundering starch, and textiles. Oil from the seed is used in soap manufacture and can be made into a plastic packaging material. The grain husks are used as a fuel, as an addition to concrete, for making hardboard, and as an abrasive.
 
 ### Related Species
 

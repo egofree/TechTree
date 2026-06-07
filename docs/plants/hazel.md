@@ -72,8 +72,6 @@ A small deciduous tree up to 7 m high. It spreads to 3-5 m across. The stem is e
 
 ### Edible Parts and Preparation
 
-Edible parts: Nuts, Seeds, Flavouring, Spice, Oil, Flowers, Buds, Leaves The seed can be eaten raw or roasted and is used in breads, cakes, biscuits, and sweets. It is an excellent nut for eating out of hand and can also be blended into a plant milk. The seed is rich in oil and ripens in mid to late autumn; it will likely need protection from squirrels. Stored unshelled in a cool place, nuts keep for at least 12 months. A clear yellow edible oil pressed from the seed is used in salad dressings and baking. Per 100g dry weight, the seed provides 650 calories and contains: water 0%, protein 16g, fat 60g, carbohydrate 20g, fibre 4g, ash 2.8g, calcium 250mg, phosphorus 400mg, iron 4mg, sodium 2.1mg, potassium 900mg, thiamine (B1) 0.3mg, riboflavin (B2) 0.5mg, niacin 5.3mg, and vitamin C 6mg.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -174,8 +172,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 The bark, leaves, catkins, and fruits are all sometimes used medicinally, with astringent, diaphoretic, febrifuge, nutritive, and odontalgic properties. The seed is stomachic and tonic. The oil has a gentle but consistent and effective action against threadworm or pinworm infection in babies and young children.
 
 ### Other Uses
-
-Hazels work well in agroforestry systems as hedging, windbreaks, or for erosion control, and can be intercropped with other plants to benefit soil health and biodiversity. The seed contains up to 65% of a non-drying oil used in paints and cosmetics. Whole seeds can be used to polish and oil wood, giving an easy application and a good finish. Finely ground seeds are used as an ingredient in cosmetic face masks. Plants grown as a tall hedge should be left untrimmed or only lightly trimmed if a seed crop is wanted. Bark and leaves are a source of tannin. The wood is soft, easy to split, and not very durable but is beautifully veined; it is used for inlay work, small furniture, hurdles, wattles, basketry, and pea sticks. Twigs are used as dowsing rods. The wood yields good quality charcoal valued by artists. Hazels produce wind-pollinated catkins that are not rich in nectar but do provide pollen that some insects utilise. The nuts are a valuable food source for birds, small mammals, and insects, and the dense foliage provides shelter and nesting habitat, with leaf litter supporting a variety of organisms. Rough bark and dense foliage also offer overwintering sites for invertebrates.
 
 ### Additional Information
 

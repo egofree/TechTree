@@ -64,8 +64,6 @@ A small tropical tree in the Euphorbiaceae family, with edible leaves.
 
 ### Edible Parts and Preparation
 
-Edible parts: Leaves The leaves are eaten.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -165,8 +163,6 @@ Seed saving from the best-performing plants each generation gradually adapts the
 *Manihot esculenta* benefits from crop rotation to prevent buildup of species-specific pests and diseases. Avoid planting in the same field in consecutive seasons where possible. Follow with a different crop family to break pest cycles and maintain soil health.
 
 Companion planting with aromatic herbs or flowering plants can deter pests and attract beneficial insects. Avoid planting near species that compete for the same nutrients or harbor shared pathogens.
-
-### Crop Rotation and Companion Planting
 
 *Manihot esculenta* benefits from crop rotation to prevent buildup of species-specific pests and diseases. Avoid planting cassava in the same field in consecutive seasons. Follow with legumes (beans, peanuts) to restore soil nitrogen, since cassava is a heavy feeder that depletes soil nutrients. Cassava's long growing season (8-24 months) makes it incompatible with short-season rotation schemes; plan field allocation accordingly.
 

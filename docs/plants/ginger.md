@@ -72,8 +72,6 @@ A perennial herb with swollen underground stems. It can grow 30-100 cm tall. The
 
 ### Edible Parts and Preparation
 
-Edible parts: Rhizome, Root, Leaves, Herb, Spice, Vegetable, Flowering stalk, Flowers The rhizomes are widely used around the world as a flavouring, lending a hot, spicy character to cakes, curries, chutneys, stir-fry dishes, candies, and beverages — particularly ginger beer. The root can be used fresh (grated and added directly to dishes) or dried and ground into a powder for longer storage; the dried root is approximately twice as pungent as fresh. Very young rhizomes, known as stem ginger, are peeled and eaten raw in salads, pickled, or cooked in syrup and made into sweetmeats. The young, slightly spicy leaves and shoots can be eaten as a potherb, or pureed and used in sauces and dips; the leaves also serve as a wrapper for food during cooking. Young inflorescences can be eaten raw. An essential oil extracted from the root is used in flavouring essences.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -175,8 +173,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 Ginger root is central to Eastern herbal practice — in Ayurveda it is known as the universal medicine and features in roughly half of all Ayurvedic and Chinese herbal prescriptions. The root contains volatile oils, gingerols, and shogaols; shogaols form only when the root is dried, as a breakdown product of gingerols, and are twice as pungent, which is why fresh and dried root tend to be used differently. The root is a sweet, pungent, aromatic, warming herb that acts as an expectorant, promotes perspiration, improves digestion and liver function, controls nausea, vomiting, and coughing, stimulates circulation, relaxes spasms, and relieves pain. Internally it is used for all forms of nausea including morning sickness and motion sickness, as well as indigestion, colic, abdominal chills, colds, coughs, influenza, and peripheral circulatory problems. Externally it is applied to treat spasmodic pain, rheumatism, lumbago, menstrual cramps, and sprains.
 
 ### Other Uses
-
-An essential oil obtained from the root is also used in perfumery.
 
 ### Additional Information
 

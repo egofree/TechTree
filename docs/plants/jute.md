@@ -72,8 +72,6 @@ An annual herb. It is upright, branching, and slightly woody. Plants vary in hei
 
 ### Edible Parts and Preparation
 
-Edible parts: Leaves, Seeds, Vegetable, Fruit, Leaves - tea Young leaves can be added raw to salads, while older leaves and stem tops are cooked as a pot-herb. The leaves are high in protein and quickly become mucilaginous when cooked; they are slimy unless fried. Dried leaves can be used as a thickener in soups, or sun-dried, pounded into flour and stored for a significant period. Leaves and young shoots are normally harvested when about 20–30cm long.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -176,8 +174,6 @@ The leaves are demulcent, diuretic, febrifuge and tonic, and are used to treat c
 
 ### Other Uses
 
-The stems yield jute fibre, considered inferior to that from C. capsularis. The fibre is somewhat coarse and used mainly for sackcloth. This species tends to branch, complicating fibre extraction; planting closely together reduces branching. When used for papermaking, the fibres are cooked for 2 hours with lye and ball milled for 4½ hours, producing a grey or buff paper. The very light, soft wood is used to make sulphur matches.
-
 ### Additional Information
 
 It is a commercially cultivated vegetable. An important vegetable in arid areas. It may not be used a lot in Papua New Guinea. It is a part of the national dish of Egypt. Leaves are sold in local markets.
@@ -211,6 +207,8 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 - [Edible Plants](edible-plants.md) — parent capability
 - [Plants Domain](./index.md) — domain overview and related capabilities
 - [Agave](agave.md) — example plant article format
+- [Textiles](../textiles/index.md) — jute fiber processing (retting, stripping, spinning, weaving)
+- [Textiles / Rope Making](../textiles/rope-making.md) — jute rope and twine production
 - [Food Processing](../food-processing/index.md) — downstream processing of harvested crops
 - [Agriculture](../agriculture/index.md) — cultivation systems and crop rotation
 - Family: Malvaceae

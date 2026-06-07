@@ -72,8 +72,6 @@ An annual grass. It easily forms tillers to produce a clump of shoots. Plants gr
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Cereal, Caution The seed is cooked and can be used whole, but is most commonly ground into flour for making bread, fermented foods, pasta, cakes, and biscuits. Its high gluten content makes it the most widely used flour for bread-making. The seed can also be sprouted and added to salads, or juiced to make a nutritious drink. Per 100g fresh weight, the seed provides 340 calories, with 13% water, 11.7g protein, 2.2g fat, 72g carbohydrate, 2g fibre, and 1.7g ash. Minerals include calcium 40mg, phosphorus 377mg, iron 3.5mg, and potassium 400mg. Vitamins include thiamine (B1) 0.55mg, riboflavin (B2) 0.11mg, and niacin 4.8mg. These figures represent the median of a reported range.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -176,8 +174,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 The young stems are used in the treatment of biliousness and intoxication. Ash from the plant is applied to remove skin blemishes. The fruit is antipyretic and sedative. The light grain is antihydrotic and used in the treatment of night sweats and spontaneous sweating. The seed is said to contain sex hormones and has been used in China to promote female fertility. Seed sprouts are antibilious, antivinous, and constructive, used to treat malaise, sore throat, thirst, abdominal coldness, spasmic pain, constipation, and cough. The plant also has anticancer properties.
 
 ### Other Uses
-
-The straw serves many purposes, including as a biomass fuel, thatching material, and garden mulch. Fibre extracted from the stems can be used to make paper: stems are harvested in late summer after seed collection, cut into usable pieces, soaked in clear water for 24 hours, cooked for 2 hours in lye or soda ash, then beaten in a ball mill for 1½ hours, producing a green-tan paper. Starch from the seed is used for laundering and sizing textiles.
 
 ### Additional Information
 

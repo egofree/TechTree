@@ -72,8 +72,6 @@ A climbing, green, leafy vine. It is woody. The nodes are enlarged. The plant ha
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Herb, Spice, Fruit The pungent fruits — known as peppercorns — are dried and ground into black pepper, one of the world's most widely used condiments. The globose red fruits are 4–6mm in diameter and deliver a hot flavour. White pepper, which is milder, is made by removing the outer fruit coverings before drying. Unripe green fruits can be pickled in vinegar and used as a relish. An essential oil obtained from the seed is used as a flavouring in various foods.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -176,8 +174,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 Black pepper fruits contain an essential oil (comprising beta-bisabolene, camphene, beta-caryophyllene, and many other terpenes and sesquiterpenes), up to 9% alkaloids — particularly piperine, which accounts for the acrid taste — around 11% protein, and small amounts of minerals. The fruit is a pungent, aromatic, warming herb that lowers fever, acts as an antiseptic, and improves digestion. In Western and Ayurvedic medicine, black pepper is regarded as a stimulating expectorant; in Chinese medicine it is considered tranquilizing and anti-emetic. Used internally in Western herbalism, the seed treats indigestion and wind. In Chinese medicine it is a warming herb for stomach chills, food poisoning, cholera, dysentery, diarrhoea, and cold-induced vomiting. In Ayurvedic medicine it is applied externally to treat nasal congestion, sinusitis, epilepsy, and skin inflammations. The essential oil is antiseptic, antibacterial, and febrifuge, and has been used to relieve rheumatic pain and toothache.
 
 ### Other Uses
-
-An essential oil obtained from the fruits is used in perfumery to create oriental-type bouquets with spicy notes.
 
 ### Additional Information
 

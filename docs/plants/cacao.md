@@ -72,8 +72,6 @@ A small evergreen tree. It grows to 15 m tall. Often it is pruned to be only 6 m
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Seeds for chocolate, Herb, Flavouring, Spice, Fruit Pulp The dried, fermented and roasted seeds — known as cacao beans — are the source of cocoa, chocolate and cocoa butter, all widely used in confectionery, baking, ice cream and drinks. The somewhat bitter flavour is typically balanced with sugar or other sweeteners. Seeds contain up to 50% fat. Curing involves pressing, fermenting and drying the ripe seeds, which are then roasted and ground into cocoa powder. A butter-like fat called cocoa butter is also extracted from the seeds. Each fruit holds around 20–40 seeds surrounded by a thin, succulent pulp with a slightly sweet flavour, which is sucked as a snack or made into juices and jellies. The seed also contains a pigment reported to be useful as a food colouring.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -175,8 +173,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 Cacao has therapeutic value alongside its culinary uses. The seed contains xanthines, a fixed oil and endorphins. It is a bitter, stimulant, diuretic herb that stimulates the nervous system, lowers blood pressure and dilates the coronary arteries. Cacao powder and butter are nutritive; the butter also soothes and softens damaged skin. In Central America and the Caribbean, the seed is used as a heart and kidney tonic. An infusion of the baked seed membranes is drunk as a remedy for anaemia. Combined with stems of Chromolaena odorata and wood of Cecropia obtusa, the seed is applied externally as an emollient to help extract embedded splinters or prickles. Cacao powder is taken internally for angina and high blood pressure. In Amazonas State, Brazil, cocoa butter is rubbed onto bruises, and it is commonly used to treat chapped skin and burns. Research has shown it can help counter bacteria responsible for boils and septicaemia. The leaf contains genistic acid, shown to be antirheumatic and analgesic. An infusion of the leaf buds, used with incense, treats diarrhoea. An infusion of the dry pods is used to reduce leprosy spots.
 
 ### Other Uses
-
-The cacao tree provides a wide range of locally useful materials, including fibre for cloth, thread and paper, and wood for construction and implements. Ash from pod husks contains potassium oxide, extractable as potassium hydroxide, which is useful in saponification. Burnt husks can be pounded into a paste with soapy properties suitable for washing clothes. Fat from unfermented cocoa beans can be used in soap making. Cacao butter, obtained from the seeds, is used in skin creams, cosmetics and as a suppository base. The wood is light, soft and of low durability; it is occasionally used for fuel or charcoal. The cocoa bean testa is also used as fuel, with a calorific value of 16,000–19,000 BTU/kg, slightly higher than wood. The tree is often interplanted with bananas, coconuts and rubber.
 
 ### Additional Information
 

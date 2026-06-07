@@ -69,8 +69,6 @@ Arachis hypogaea is a ANNUAL growing to 0.3 m (1ft). See above for USDA hardines
 
 ### Edible Parts and Preparation
 
-Edible parts: Leaves, Oil, Oil, Seed, Seedpod Oil. Seed - raw, cooked or ground into a powder. Peanuts are a staple food in many tropical zones and are widely exported to temperate area of the world. The seeds have a delicious nutty flavour and can be eaten on their own either raw or roasted. The seeds are commonly ground up and used as peanut butter in sandwiches etc. They can also be cooked in a variety of dishes and are also ground into a powder when they can be used with cereals to greatly improve the protein content of breads, cakes etc. The seed is very rich in protein and oil, it is also a good source of minerals and vitamins, especially the B complex. A nutritional analysis is available. A non-drying edible oil is obtained from the seed. This is one of the most commonly used edible oils is the world. It is similar in composition to olive oil and is often used in cooking, making margarines, salad oils etc. The oilseed cake is said to be a good source of arginine and glutamic acid, used in treating mental deficiencies. The roasted seed makes an excellent coffee substitute. Young pods may be consumed as a vegetable. Young leaves and tips are suitable as a cooked green vegetable. Javanese use the tips for lablab, and germinating seeds to make toge.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -162,8 +160,6 @@ Antiseborrheic Aperient Demulcent Emollient Pectoral. The oil from the seed is a
 
 ### Other Uses
 
-Biomass Oil Oil. The seeds yield a non-drying oil that has a wide range of uses including the manufacture of pharmaceuticals, soaps, cold creams, pomades and lubricants, paints, emulsions for insect control, and fuel for diesel engines. Peanut hulls are used for furfural, fuel, as a filler for fertilizers or for sweeping compounds.
-
 ### Related Species
 
 - [Garden Pea](garden-pea.md)
@@ -183,8 +179,6 @@ Seed saving from the best-performing plants each generation gradually adapts the
 *Arachis hypogaea* is a nitrogen-fixing legume, making it an excellent predecessor crop for nitrogen-demanding cereals and brassicas. The root nodules host Rhizobium bacteria that convert atmospheric nitrogen into plant-available forms, leaving residual nitrogen in the soil after harvest. Rotate with non-legume crops to break pest and disease cycles.
 
 Companion planting with aromatic herbs or flowering plants can deter pests and attract beneficial insects. Avoid planting near species that compete for the same nutrients or harbor shared pathogens.
-
-### Crop Rotation and Companion Planting
 
 *Arachis hypogaea* is a nitrogen-fixing legume that enriches soil for subsequent crops. The unique "pegging" growth habit — where fertilized flowers push a stalk into the soil where the pod develops underground — requires loose, well-drained soil. Rotate with cereals or cotton. Avoid following other legumes to reduce root rot and nematode buildup. Peanuts make an excellent predecessor for maize, sorghum, or cotton.
 

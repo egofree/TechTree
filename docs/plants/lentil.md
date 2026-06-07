@@ -69,8 +69,6 @@ Lens culinaris is a ANNUAL growing to 0.5 m (1ft 8in). It is not frost tender. T
 
 ### Edible Parts and Preparation
 
-Edible parts: Seed, Seedpod Seed - cooked or sprouted and eaten raw. A very nutritious food, the seeds can be cooked on their own or added to soups, stews etc. The seed can be soaked for 12 hours in warm water and then allowed to sprout for about 5 days. They have a crunchy, fresh flavour. Lentils are more digestible than many legumes. The dried seed can also be ground into a powder and used with cereal flours in making bread etc, this greatly enhances the value of the protein in the bread. The seed stores better if it is left in its husk. Young seedpods - used fresh or cooked like green beans.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -162,8 +160,6 @@ Laxative Poultice. The seeds are mucilaginous and laxative. They are considered 
 
 ### Other Uses
 
-Fuel Green manure. Agroforestry Uses: The plant can be used as a green manure. Lentil is mainly grown as a sole crop, but sometimes mixed with other crops, e.g. in India with barley, mustard or castor. Other Uses: The seeds are a source of starch for the textile and printing industries. The plant remains, after the seed has been harvested, can be used as a fuel.
-
 ### Related Species
 
 - [Garden Pea](garden-pea.md)
@@ -183,8 +179,6 @@ Seed saving from the best-performing plants each generation gradually adapts the
 *Lens culinaris* is a nitrogen-fixing legume, making it an excellent predecessor crop for nitrogen-demanding cereals and brassicas. The root nodules host Rhizobium bacteria that convert atmospheric nitrogen into plant-available forms, leaving residual nitrogen in the soil after harvest. Rotate with non-legume crops to break pest and disease cycles.
 
 Companion planting with aromatic herbs or flowering plants can deter pests and attract beneficial insects. Avoid planting near species that compete for the same nutrients or harbor shared pathogens.
-
-### Crop Rotation and Companion Planting
 
 *Lens culinaris* is a nitrogen-fixing legume, making it an excellent predecessor for cereals. The root nodules host Rhizobium bacteria that convert atmospheric nitrogen to plant-available forms, leaving 30-40 kg/ha of residual nitrogen in the soil after harvest. Lentil's semi-erect growth habit and relatively short stature make it compatible with intercropping systems. Rotate with wheat or barley for maximum benefit to both crops.
 

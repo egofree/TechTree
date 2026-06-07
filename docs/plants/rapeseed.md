@@ -70,8 +70,6 @@ A cabbage family herb. It is an annual plant. It grows 1.5 m tall. It usually ha
 
 ### Edible Parts and Preparation
 
-Edible parts: Leaves, Oil, Seeds, Flowers Edible Parts: Leaves Oil Oil Seed Stem Edible Uses: Condiment Oil Oil Leaves - raw or cooked. Added to salads or used as a potherb. The leaves are also fermented for later use. Immature flowering stems - cooked in much the same way as broccoli. An edible oil is obtained from the seed, it is used mainly for cooking purposes, but can also be used raw in salad dressings. Some caution is advised, however, see the notes above on toxicity. The sprouted seed is often used as the mustard part of mustard and cress. Eaten in salads. The seed is used as a mustard flavouring.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -164,8 +162,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 Diuretic Emollient The root is emollient and diuretic. The juice of the roots is used in the treatment of chronic coughs and bronchial catarrh. The seed, powdered, with salt is said to be a folk remedy for cancer. Rape oil is used in massage and oil baths, it is believed to strengthen the skin and keep it cool and healthy. With camphor it is applied as a remedy for rheumatism and stiff joints. It is dropped into the ear to relieve earaches.
 
 ### Other Uses
-
-Green manure Oil Oil The seed contains up to 45% of an edible semi-drying oil, it is used as a luminant, lubricant, in soap making etc. Rapeseed oil has potential market in detergent lubrication oils, emulsifying agents, polyamide fibres, and resins, and as a vegetable wax substitute. According to the Chemical Marketing Reporter (April 26, 1982) "the most common use for the oil is still in the production or erucic acid, a fatty acid used in turn in the manufacture of other chemicals. The seed husks are used in plastering house walls. A good green manure, the deep taproot improves drainage and loosens heavy soils. Special Uses
 
 ### Additional Information
 

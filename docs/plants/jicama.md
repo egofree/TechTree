@@ -72,8 +72,6 @@ A climbing bean with hairy stems. It can grow up to 6 m tall. The stems are wood
 
 ### Edible Parts and Preparation
 
-Edible parts: Pods, Tubers, Root, Seeds, Caution, Vegetable The root can be eaten raw or cooked. It is crisp, sweet, and juicy — raw, it tastes somewhat like an apple; cooked, it resembles a water chestnut. It stays crisp after cutting and after cooking, making it a popular substitute for water chestnuts in Chinese cooking. A starch extracted from the root is used in custards and puddings. Roots are harvested before they mature and become fibrous, typically when the plant has been growing for around 6 months and the tuber weighs about 2 kilos. Mature tubers can reach 2 metres in length and weigh up to 20 kilos. Young seed pods can be cooked and used as a vegetable, but must be thoroughly cooked to destroy the poisonous principle rotenone.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -175,8 +173,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 None known.
 
 ### Other Uses
-
-The plant can be used as a green manure. It also contains rotenone, the active ingredient in the insecticide derris, giving it potential as an insecticide. Derris is relatively safe in that it does not affect warm-blooded animals and breaks down into harmless substances within 24 hours of use. It does, however, kill some beneficial insects and is toxic to fish and amphibians.
 
 ### Additional Information
 

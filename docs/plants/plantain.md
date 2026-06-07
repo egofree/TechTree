@@ -69,8 +69,6 @@ Musa x paradisiaca is an evergreen Perennial growing to 8 m (26ft) by 4 m (13ft)
 
 ### Edible Parts and Preparation
 
-Edible parts: Flowers, Fruit, Shoots, Stem Salt. Fruit - raw or cooked. Dessert forms are sweet and succulent when fully ripe and are widely eaten out of hand, though they are very versatile and are used in a wide variety of other ways. For example, they are commonly used with other juicier fruits to make smoothies, they can be baked, cooked in cakes, dried for later use etc. Plantains are richer in starch and contain less sugars. Whilst these are more commonly cooked as a vegetable, when fully ripe they make a very acceptable raw fruit. Male inflorescences are eaten in curries or cooked with coconut milk. The inner stem can be boiled and eaten, or can be dried and made into a flour and starch. Blanched shoots that sprout from the base can be roasted and eaten. The leaves are commonly used for wrapping foods that are to be cooked - especially glutinous rice dishes. They impart a distinctive flavour and a greenish colour. Nectar of the flowers is consumed. The ashes of the plant can be used as a salt substitute.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -162,8 +160,6 @@ Antidiarrhoeal Antitussive Astringent Dysentery Epilepsy Haemostatic Skin Vesica
 
 ### Other Uses
 
-Containers Fibre Hair String. Other Uses The large leaves are used as plates for eating food. The leaf sheath is used as a temporary binding. The juice of the roots is used as a hair tonic.
-
 ### Related Species
 
 - [Apple](apple.md)
@@ -183,8 +179,6 @@ Seed saving from the best-performing plants each generation gradually adapts the
 *Musa × paradisiaca* benefits from crop rotation to prevent buildup of species-specific pests and diseases. Avoid planting in the same field in consecutive seasons where possible. Follow with a different crop family to break pest cycles and maintain soil health.
 
 Companion planting with aromatic herbs or flowering plants can deter pests and attract beneficial insects. Avoid planting near species that compete for the same nutrients or harbor shared pathogens.
-
-### Crop Rotation and Companion Planting
 
 Plantain is typically grown in perennial plantations, but in rotation systems it follows leguminous cover crops (Mucuna, Pueraria) that build soil organic matter. Intercrop with coffee, cacao, or coconut in multi-strata agroforestry systems. Plantain's large leaves create shade that suppresses weeds and maintains soil moisture, benefiting understory crops.
 

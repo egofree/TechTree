@@ -72,8 +72,6 @@ An annual millet grass which grows up to 1 m high. It spreads to 15 cm across. I
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Cereal The seed can be cooked whole or ground into a flour for making breads, pasta, and fermented foods such as tempeh. It has a nutty flavour and is more easily digested than many cereals because its high alkaline content counteracts acids. It is also gluten-free, making it suitable for people with coeliac disease or other gluten intolerances, though bread made from it will not rise. The seed can also be sprouted and added to salads, soups, and similar dishes. It contains approximately 10% protein and 4% fat.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -173,8 +171,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 The seed is cooling and demulcent. Cooked seed is applied as a poultice for abscesses and sores, and juice from chewed seeds is applied to children's sores. The seed can also be incinerated, mixed with oil, and used as a poultice said to heal sores without leaving a scar. A decoction of the root is used as an antidote to poisoning by Momordica species, to treat haematuria in women, and as a bath for skin eruptions.
 
 ### Other Uses
-
-A starch extracted from the seed serves as a substitute for corn starch and is used for sizing textiles. The leaves provide a source of fibre used in papermaking.
 
 ### Additional Information
 

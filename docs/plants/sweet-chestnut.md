@@ -72,8 +72,6 @@ A large deciduous tree up to 30-40 m high. It spreads to 6-15 m across. The stem
 
 ### Edible Parts and Preparation
 
-Edible parts: Nuts, Seeds, Flavouring The seeds can be eaten raw or cooked, though they have a somewhat astringent flavour raw. Baking greatly improves them — the texture becomes floury and the flavour resembles sweet potato. The seeds are rich in carbohydrates and can be dried and ground into a flour for use in breads, puddings, and as a soup thickener. The roasted seed works as a coffee substitute, and a sugar can also be extracted from the seed. Dangerous Lookalikes This plant can be confused with the following toxic species. Always verify identification carefully before consuming any wild plant. VERY TOXIC Horse Chestnut (Conker) Aesculus hippocastanum SAFE European Chestnut Castanea sativa Horse Chestnut (Conker): Round smooth nuts (conkers), bumpy green husk (not very spiny), palmate compound leaves (like a hand). European Chestnut: Nuts with pointed tassel, very spiny bur casing, simple toothed leaves.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -173,8 +171,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 Sweet chestnut leaves and bark are a good source of tannins, which provide an astringent action useful for treating bleeding and diarrhoea. The leaves and bark are anti-inflammatory, astringent, expectorant, and tonic. They are harvested in June or July and can be used fresh or dried. An infusion has been used to treat fevers and ague, and is particularly valued for relieving convulsive coughs such as whooping cough and other irritable conditions of the respiratory system. The leaves can also be applied in the treatment of rheumatism, lower back pain, and stiff muscles and joints. A decoction makes a useful gargle for sore throats. The plant is used in Bach flower remedies, with the prescribing keywords being 'Extreme mental anguish', 'Hopelessness', and 'Despair'.
 
 ### Other Uses
-
-Tannin is obtained from the bark; the wood, leaves, and seed husks also contain tannin. The husks contain 10–13% tannin; on a 10% moisture basis, the bark contains 6.8% tannin and the wood 13.4%. Ground seed has been used as a source of starch and for whitening linen cloth. A hair shampoo made from the leaves and fruit skins imparts a golden sheen to the hair. The wood is hard, strong, and light; young growth is very durable, though older wood becomes brittle and prone to cracking. It is used for carpentry, turnery, props, basketry, and fence posts, and makes excellent fuel.
 
 ### Additional Information
 

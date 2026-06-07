@@ -70,8 +70,6 @@ A herb. It can grow from seed each year or keep growing from year to year. It gr
 
 ### Edible Parts and Preparation
 
-Edible parts: Leaves, Seeds, Pods, Fruit, Flowers, Seeds - oil, Bark, Gum, Vegetable Young leaves are cooked and used as a potherb or added to soups. They have an acid, sorrel-like flavour. Seeds can be roasted or ground into flour and made into a type of cake. The root is edible but very fibrous, mucilaginous, and without much flavour. An edible oil is extracted from the seeds, with yields varying from 2 to 10 tonnes per hectare.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -172,8 +170,6 @@ The juice of the flowers, mixed with sugar and black pepper, is used to treat bi
 
 ### Other Uses
 
-Kenaf can be used for erosion control and as a cover crop to improve soil health. It accumulates minerals including selenium and boron and can be used as a bioremedial tool for removing these from contaminated soil. The stems yield a fibre that is a good jute substitute, though slightly coarser. Fibre strands measure 1.5–3 metres in length and are used for rope, cordage, canvas, sacking, carpet backing, nets, tablecloths, and similar products. For the best fibre quality, stems should be harvested shortly after flowering; the finest fibre comes from the base of the stems, so hand pulling is often preferred over machine harvesting. Average fibre yields are around 1.25 tonnes per hectare, though 2.7 tonnes has been achieved in Cuba. Stem pulp has been used in paper making. The seed contains 18–35% of a semi-drying oil similar to groundnut oil, used for burning, lubrication, soap making, and the production of linoleum, paints, and varnishes. Stems have been used as plant supports for runner beans. Soot from the stems provides a black pigment for dyes. The stem has also been used as a base for fire-drilling. Flowers attract bees, butterflies, and other pollinators with their nectar and pollen. The foliage provides habitat for beneficial insects, and leaf litter can serve as shelter for invertebrates.
-
 ### Additional Information
 
 Leaves are sold in markets. It is high yielding and popular.
@@ -207,6 +203,8 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 - [Edible Plants](edible-plants.md) — parent capability
 - [Plants Domain](./index.md) — domain overview and related capabilities
 - [Agave](agave.md) — example plant article format
+- [Textiles](../textiles/index.md) — kenaf fiber processing and cordage production
+- [Paper / Chemistry](../chemistry/index.md) — kenaf pulp for papermaking
 - [Food Processing](../food-processing/index.md) — downstream processing of harvested crops
 - [Agriculture](../agriculture/index.md) — cultivation systems and crop rotation
 - Family: Malvaceae

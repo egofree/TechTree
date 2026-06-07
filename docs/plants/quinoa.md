@@ -72,8 +72,6 @@ A small herb. It grows 20 cm to 3 m high. The taproot is branched. The leaves va
 
 ### Edible Parts and Preparation
 
-Edible parts: Leaves, Seeds, Vegetable The seed has a pleasant, mild flavour and readily absorbs the flavours of other ingredients, making it versatile across a wide range of dishes. It can be used in all the ways rice is used, both in savoury and sweet preparations, or ground into a powder and cooked as a porridge. The seed can also be sprouted and added to salads, though many people find the sprouted form unpleasant. Before use, the seed must be thoroughly soaked and rinsed to remove the saponin coating on the seed surface. Nutritionally, quinoa seed is outstanding: it contains approximately 38% carbohydrate, 19% protein, 5% fat, and 5% sugar. The protein is rich in the amino acids lysine, methionine, and cystine, giving it a biological value comparable to milk — with 2–6% more protein and a better amino acid balance than wheat. Young leaves can be eaten raw or cooked like spinach, though large quantities of raw leaves should be avoided due to toxicity concerns.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -177,8 +175,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 None known.
 
 ### Other Uses
-
-Gold and green dyes can be obtained from the whole plant. The saponins rinsed from the seed during preparation can be saved and diluted with water to create a spray that deters birds and insects from growing plants. The spray remains effective for a few weeks or until washed off by rain.
 
 ### Additional Information
 

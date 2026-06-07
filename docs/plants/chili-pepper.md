@@ -72,8 +72,6 @@ An annual plant up to 1.5 m high. The leaves can be long and sword shaped or ova
 
 ### Edible Parts and Preparation
 
-Edible parts: Fruit, Leaves, Herb, Spice, Vegetable The fruit varies enormously across cultivars. Hot types — chilli and cayenne — are used as pungent flavourings, dried and ground into powders such as paprika, or used to colour food. Milder sweet pepper cultivars have a pleasant, slightly sweet flavour and are often eaten raw in salads. Fruits range widely in size and shape, from a few centimetres long to more than 30cm. Young leaves are said to be edible with some caution advised; they are steamed as a potherb or added to soups and stews, and contain about 4–6% protein. Seed can be dried and ground into a pepper. Flowers are also edible raw or cooked.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -177,8 +175,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 The fruit of hot, pungent cultivars is antihaemorrhoidal when taken in small amounts, antirheumatic, antiseptic, diaphoretic, digestive, irritant, rubefacient, sialagogue, and tonic. Internally it is used in the treatment of the cold stage of fevers, debility in convalescence or old age, varicose veins, asthma, and digestive problems. Externally it is applied for sprains, unbroken chilblains, neuralgia, and pleurisy. It is also an effective sea-sickness preventative. The German Commission E Monographs approve Capsicum for muscular tension and rheumatism.
 
 ### Other Uses
-
-Sweet pepper plants grow well alongside basil and okra but should not be planted near apricot trees, as a fungus the pepper is prone to can seriously harm apricots. Pepper flowers can attract pollinators such as bees. The fruits provide food for wildlife, and seeds are eaten by some birds. Foliage can offer limited cover for beneficial insects. The strong scent of pepper plants may help deter some pests, making them useful in companion planting.
 
 ### Additional Information
 

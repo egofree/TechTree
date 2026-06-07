@@ -68,8 +68,6 @@ Olea europaea is an evergreen Tree growing to 10 m (32ft) by 8 m (26ft) at a slo
 
 ### Edible Parts and Preparation
 
-Edible parts: Fruit, Leaves, Manna, Oil, Oil Oil. Olive fruits are widely used, especially in the Mediterranean, as a relish and flavouring for foods. The fruit is usually pickled or cured with water, brine, oil, salt or lye. They can also be dried in the sun and eaten without curing when they are called 'fachouilles'. The cured fruits are eaten as a relish, stuffed with pimentos or almonds, or used in breads, soups, salads etc. 'Olives schiacciate' are olives picked green, crushed, cured in oil and used as a salad. The fruit contains 20 - 50µ vitamin D per 100g. The fruit is up to 4cm long. The seed is rich in an edible non-drying oil, this is used in salads and cooking and, because of its distinct flavour, is considered a condiment[4, 46, 57, 89, 171, 183]. There are various grades of the oil, the finest (known as 'Extra Virgin') is produced by cold pressing the seeds without using heat or chemical solvents. The seed of unpalatable varieties is normally used and this oil has the lowest percentage of acidity and therefore the best flavour. Other grades of the oil come from seeds that are heated (which enables more oil to be expressed but has a deleterious effect on the quality) or from using chemical solvents on seed that has already been pressed for higher grades of oil. Olive oil is mono-unsaturated and regular consumption is thought to reduce the risk of circulatory diseases. The seed contains albumen, it is the only seed known to do this. Leaves. No more details are given. An edible manna is obtained from the tree.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -161,8 +159,6 @@ Antipruritic Antiseptic Astringent Bach Cholagogue Demulcent Emollient Febrifuge
 
 ### Other Uses
 
-Dye Hair Oil Oil Soil stabilization Wood Agroforestry uses: Olive trees are excellent for agroforestry as they provide shade, prevent soil erosion, and improve soil quality. They can also be used as windbreaks. The non-drying oil obtained from the seed is also used for soap making, lighting and as a lubricant. The oil is a good hair tonic and dandruff treatment. Maroon and purple dyes are obtained from whole fresh ripe fruits. Blue and black dyes are obtained from the skins of fresh, ripe fruits. A yellow/green dye is obtained from the leaves. Plants are used to stabilize dry, dusty hillsides. Wood - very hard, heavy, beautifully grained, takes a fine polish and is slightly fragrant. It is used in turnery and cabinet making, being much valued by woodworkers.
-
 ### Related Species
 
 - [Apple](apple.md)
@@ -182,8 +178,6 @@ Seed saving from the best-performing plants each generation gradually adapts the
 *Olea europaea* benefits from crop rotation to prevent buildup of species-specific pests and diseases. Avoid planting in the same field in consecutive seasons where possible. Follow with a different crop family to break pest cycles and maintain soil health.
 
 Companion planting with aromatic herbs or flowering plants can deter pests and attract beneficial insects. Avoid planting near species that compete for the same nutrients or harbor shared pathogens.
-
-### Crop Rotation and Companion Planting
 
 Olive trees are extremely long-lived perennials (centuries to millennia) that define the permanent landscape. Intercropping with cereals, legumes, or pasture between tree rows is traditional throughout the Mediterranean. Olives tolerate competition from understory crops once established. The deep root system draws nutrients from soil layers unavailable to annual crops, and leaf litter returns organic matter to the surface.
 

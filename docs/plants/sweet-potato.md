@@ -69,8 +69,6 @@ Ipomoea batatas is a PERENNIAL CLIMBER growing to 3 m (9ft 10in) at a fast rate.
 
 ### Edible Parts and Preparation
 
-Edible parts: Leaves, Root, Shoots Root - cooked. Sweet and fleshy, it is a delicious staple food and is also very nutritious providing a rich source of vitamins and minerals. There are cultivars with soft, moist flesh and also forms with a more dry flesh. There are also less sweet cultivars, bred for industrial production of starch. In order for the roots to store through the winter, they need to be cured in the sunshine at temperatures around 25°c fr about a week before being stored at around 14°c. Young shoot tips.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -157,8 +155,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 
 ### Other Uses
 
-Biomass Fuel Agroforestry uses: It can be used as ground cover to prevent soil erosion, improve soil structure, and suppress weeds. The vines also provide habitat for beneficial organisms. The root is a source of starch. Sweet potato tubers are being examined as a valuable raw material for producing alcohol bio-fuel.
-
 ### Related Species
 
 - [Wheat](wheat.md)
@@ -178,8 +174,6 @@ Seed saving from the best-performing plants each generation gradually adapts the
 *Ipomoea batatas* benefits from crop rotation to prevent buildup of species-specific pests and diseases. Avoid planting in the same field in consecutive seasons where possible. Follow with a different crop family to break pest cycles and maintain soil health.
 
 Companion planting with aromatic herbs or flowering plants can deter pests and attract beneficial insects. Avoid planting near species that compete for the same nutrients or harbor shared pathogens.
-
-### Crop Rotation and Companion Planting
 
 Sweet potato is an excellent ground cover crop that suppresses weeds through its vigorous vining habit. Rotate with cereals or legumes to break pest cycles. Sweet potato weevil (Cylas formicarius) is the most serious pest; crop rotation and clean harvesting (remove all roots and vines from the field after harvest) reduce weevil populations. Companion plant with marigold or other aromatic plants to deter nematodes in the soil.
 

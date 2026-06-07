@@ -72,8 +72,6 @@ This plant has large flat leaves on the end of upright leaf stalks. It grows up 
 
 ### Edible Parts and Preparation
 
-Edible parts: Corm, Leaves, Stalks, Stem, Vegetable, Root, Flowers The corms are edible when thoroughly cooked and can be boiled, baked or fried much like potatoes. They work well in savoury dishes such as soups and curries, or in sweet preparations with coconut milk and sugar. They can also be dried and grated to produce a flour. The corm is a good source of starch with very small starch grains that are easily digestible; this starch is used to make baby food that is considered non-allergenic. Tubers are typically up to 30 cm long and about 15 cm in diameter. The corm must be properly cooked before eating to address the toxicity concerns noted below. Young leaves of some taro varieties are grown specifically for their nutritious foliage; they can be used to wrap other foods for baking or cooked as spinach, but must always be cooked first to destroy calcium oxalate crystals. The stems are also edible — peeled, cut into pieces and boiled in stews, they taste and look somewhat like celery.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -179,8 +177,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 The plant is antibacterial and hypotensive. A decoction of the leaves is drunk to promote menstruation. A decoction combined with parts of other plants is taken to relieve stomach problems and to treat cysts. In New Guinea, leaves are heated over a fire and applied as a poultice to boils. The sap of the leaf stalk is used to treat conjunctivitis. The scraped stem, combined with parts of other plants, is used to stimulate appetite. The plant is also used to treat wounds.
 
 ### Other Uses
-
-Taro can be used in agroforestry systems as a water-loving crop in wetland areas, improving soil moisture retention. It is also grown as an ornamental and used as animal fodder. The plant can provide some habitat value — corms and leaves may be consumed by wildlife, and dense foliage and leaf litter can offer shelter for invertebrates.
 
 ### Additional Information
 

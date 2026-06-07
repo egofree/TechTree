@@ -72,8 +72,6 @@ A small evergreen tree. Often they are grown as annual plants. It grows up to ab
 
 ### Edible Parts and Preparation
 
-Edible parts: Leaves, Oil, CAUTION, POISONOUS, Root, Seeds, Flowers The seed contains 35–55% of an edible oil used in cooking and is a rich source of phosphorus, 90% of which is in phytic form. Some caution is advised given the plant's toxicity.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -167,8 +165,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 Castor oil, extracted from the seed, is a well-established laxative with over 2,000 years of use. It is regarded as fast, safe, and gentle, typically producing a bowel movement within 3–5 hours, and is recommended for use in both the very young and the elderly. It is effective enough to be used routinely to clear the digestive tract in cases of poisoning. It should not be used for chronic constipation, where it addresses symptoms without treating the underlying cause. The flavour is somewhat unpleasant and may cause nausea in some individuals. The oil has a notable antidandruff effect and is well tolerated by the skin, making it a useful vehicle for medicinal and cosmetic preparations. When an alcoholic solution of castor oil is distilled in the presence of sodium salts of higher fatty acids, it congeals into a gel useful for treating non-inflammatory skin diseases and providing protection against occupational eczema and dermatitis. The seed is anthelmintic, cathartic, emollient, laxative, and purgative. It is rubbed on the temples for headache and powdered for application to abscesses and skin infections. In Tibetan medicine the seed is considered to have an acrid, bitter, and sweet taste with a heating potency, and is used for indigestion and as a purgative. A decoction of the leaves and roots is antitussive, discutient, and expectorant. Leaves are used as a poultice to relieve headaches and treat boils.
 
 ### Other Uses
-
-The seed contains 35–55% of a drying oil used not only in cooking but also as an ingredient in soaps, polishes, flypapers, paints, and varnishes, and as a lubricant, lighting fuel, and component of precision engine fuels. It is used to coat fabrics and protective coverings, in high-grade lubricant manufacture, in transparent typewriter and printing inks, and in textile dyeing — when converted into sulfonated castor oil (Turkey-Red Oil) it is used to dye cotton fabrics with alizarin. It is also used in producing 'Rilson', a polyamide nylon-type fibre. The dehydrated oil is an excellent drying agent comparable to tung oil, used in paints and varnishes. Hydrogenated castor oil is used in waxes, polishes, carbon paper, candles, and crayons. A fibre for rope-making is obtained from the stems; cellulose from the stems is also used for cardboard and paper. The growing plant is said to repel flies, mosquitoes, moles, and nibbling insects. The leaves have insecticidal properties.
 
 ### Additional Information
 

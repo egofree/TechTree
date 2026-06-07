@@ -72,8 +72,6 @@ A yam with a long angular vine. It can climb 15 m high. The stems are square and
 
 ### Edible Parts and Preparation
 
-Edible parts: Tubers, Root, Vegetable, Bulbils The roots are cooked — usually boiled or baked — and used as a vegetable. Each plant typically produces an average of 3 roots weighing 5–10kg each, though exceptionally they can reach 60kg. The root must be properly cooked as it can be toxic if eaten raw. The plant also produces aerial tubers, which can be eaten in the same way as the main tubers. The purple variety's colour comes from water-soluble anthocyanin pigments, which are used as a food colouring agent.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -175,8 +173,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 The tuber is grated, mixed with brown stout vinegar, spread onto paper, and placed on the small of a woman's back to prevent or forestall a threatened miscarriage. Although used in folk medicine and available as a dietary supplement, there is no clinical evidence that this species has any therapeutic properties. Supplements may have adverse effects in people taking oestrogens or anticoagulant drugs, or during pregnancy and breastfeeding. The plant has relatively high oxalate levels of 486–781mg per 100g dry matter.
 
 ### Other Uses
-
-Used as fodder. Grown as an ornamental and as an agroforestry plant. The purple variety's anthocyanin pigments are used as a food colouring agent.
 
 ### Additional Information
 

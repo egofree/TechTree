@@ -72,8 +72,6 @@ A woody herb. It grows for several years. The leaves come out in spirals and hav
 
 ### Edible Parts and Preparation
 
-Edible parts: Leaves, Sap, Plant heart, Flower stalk, Vegetable The heart of new shoots is edible when cooked. Sap from the flower stalk is fermented to make an alcoholic drink. The roots are used in the production of an alcoholic beverage.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -166,8 +164,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 Sisal is a folk remedy for dysentery, leprosy sores, and syphilis. The leaves contain hecogenin, which is used in the partial synthesis of the drug cortisone, and the plant is a recognised source of hecogenin.
 
 ### Other Uses
-
-The plant is cultivated for use as fencing and for protection against soil erosion. Short fibres from the leaves, obtained as by-products, are used for production of compost. The leaves yield one of the most important hard fibres commercially, used for making ropes, strings of all kinds, fishing nets, hammocks, door curtains, floor covers, and bags. The fibre cannot be spun as finely as jute and ropes tend to break suddenly. Short fibres are also used to produce cellulose, paper, and upholstery material, and to reinforce plaster boards and paper. Waste material remaining after fibre extraction is reported to be molluscicidal and fungistatic and can be used as mulch. The sharp leaf spines are traditionally used as needles. The flowers are rich in nectar and pollen, attracting pollinators including bees and butterflies.
 
 ### Additional Information
 

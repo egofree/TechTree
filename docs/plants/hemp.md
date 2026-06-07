@@ -70,8 +70,6 @@ An annual herb. It is about 2 m high. The leaves are alternate. They are divided
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Seeds - oil, Flowered tops, Leaves, Fruit The seed can be eaten raw or cooked — parched and eaten as a condiment, or made into cakes and fried. The seed is quite tasty but difficult to separate from the husk; grinding seed and husk together results in a very gritty texture. The seed contains about 27.1% protein, 25.6% fat, 7.4% carbohydrate, and 6.1% ash. On a zero moisture basis, seed provides 487 calories per 100g, with 31.4g protein, 29.6g fat, 31.9g carbohydrate, 23.5g fibre, and 7.1g ash; minerals include 139mg calcium, 1123mg phosphorus, and 13.9mg iron; vitamins include 518mg vitamin A, 0.37mg thiamine, 0.2mg riboflavin, and 2.43mg niacin. A highly nutritious edible oil rich in essential fatty acids is pressed from the seed and used for food. Leaves are used in soups and contain 0.215% carotene.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -171,8 +169,6 @@ Cannabis has a very long history of medicinal use, though it is illegal to grow 
 
 ### Other Uses
 
-A drying oil obtained from the seed is used for lighting, soap-making, paints, and varnish. In temperate regions this oil is produced from female plants left standing after the fibre-producing males are harvested. A varnish is also made from pressed seeds. Seed is harvested from female plants when it falls freely on shaking; the best time is early morning when fruits are turgid and conditions are damp, as seeds shatter increasingly as fruits dry by midday. Stems are usually cut and seeds shaken out over canvas sheets or beaten free with sticks. A strong, durable fibre obtained from the stem is used for coarse fabrics and rope. Male plants produce the best fibre, harvested when plants turn brown and flowers begin to open. For paper-making, stems are harvested in autumn and retted or steamed until fibre can be removed; the fibre is then cooked for 2 hours or more with lye and beaten in a ball mill or Hollander beater, producing an off-white paper. Cannabis is a good companion plant for cabbages and brassicas, repelling the cabbage white butterfly and secreting a volatile essence from its roots that inhibits pathogenic soil micro-organisms. Also used as fodder and animal feed.
-
 ### Additional Information
 
 It is sold in local markets.
@@ -206,7 +202,9 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 - [Edible Plants](edible-plants.md) — parent capability
 - [Plants Domain](./index.md) — domain overview and related capabilities
 - [Agave](agave.md) — example plant article format
-- [Food Processing](../food-processing/index.md) — downstream processing of harvested crops
+- [Textiles](../textiles/index.md) — hemp fiber spinning, rope-making, and canvas production
+- [Construction](../construction/index.md) — hempcrete building material from hemp hurds
+- [Food Processing](../food-processing/index.md) — hempseed oil and food processing
 - [Agriculture](../agriculture/index.md) — cultivation systems and crop rotation
 - Family: Cannabaceae
 - Distribution: Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania, Armenia, Angola, Austria, Australia, Azerbaijan, Bosnia &amp; Herzegovina, Barbados, Bangladesh, Belgium, Burkina Faso, Bulgaria, Bahrain, Burundi, Benin, Brunei and 164 more

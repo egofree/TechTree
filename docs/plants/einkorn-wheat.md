@@ -70,8 +70,6 @@ A grass plant. It is a one seeded wheat. The grains are small, flinty and like r
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Cereal The seed is cooked and most commonly ground into flour for use as a cereal. It is not well suited to bread-making, likely due to a low gluten content. The seed retains its glumes after threshing, which makes processing more difficult.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -167,8 +165,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 None known
 
 ### Other Uses
-
-The straw serves many purposes, including as a biomass fuel, thatching material, and garden mulch. Fibre extracted from the stems can be used to make paper: stems are harvested in late summer after seed collection, cut into usable pieces, soaked in clear water for 24 hours, cooked for 2 hours in lye or soda ash, then beaten in a ball mill for 1½ hours, producing a green-tan paper. Starch from the seed is used for laundering and sizing textiles, and can also be converted to alcohol for use as a fuel.
 
 ### Additional Information
 

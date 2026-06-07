@@ -70,8 +70,6 @@ A deciduous tree. It grows 20 m tall. The bark is smooth and grey. The leaves ha
 
 ### Edible Parts and Preparation
 
-Edible parts: Seeds, Leaves The seeds are edible when cooked, and despite being poisonous they serve as a staple food for local peoples in the jungle. Poison is destroyed by prolonged soaking or boiling. The seeds contain 40–50% oil, which is also suitable for use as food. Considered a famine food.
-
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -165,8 +163,6 @@ None known.
 
 ### Other Uses
 
-Intercropping with coffee or cocoa, possibly alongside ipecac, is feasible. After a few years under legumes, nitrogen fertilizer may not be needed, though phosphorus, magnesium, and potassium can be limiting in some areas. Press cake or extracted meal from the seeds can be used as fertilizer. Latex is obtained by tapping the trunk and is coagulated using acetic acid, formic acid, or alum. This tree is the primary source of natural rubber, used in car tyres, shoes, boots, balls, elastic bands, erasers, and many other products, as well as by local people for domestic items such as water bottles. The seeds yield a semi-drying pale yellow oil known as Para rubber seed oil; boiling removes the toxins and releases the oil, which is used for illumination, soap making, paints, and varnishes. This oil also functions as an effective treatment against houseflies and lice. The pale cream heartwood, sometimes pink-tinged when fresh and darkening to pale straw or pale brown, has a straight to shallowly interlocked grain with a moderately coarse, even texture. Freshly sawn wood has a distinct smell of latex. Poor tapping practices can cause black streaks from bark inclusion. Timber is primarily used for furniture, and also for interior finishes, mouldings, wall panelling, picture frames, drawer guides, cabinet handles, parquet flooring, household utensils, blockboard cores, pallets, crates, coffins, veneer, and glue-laminated timber for staircases and door and window components. It is only moderately durable and should not be used for exterior applications. Offcuts and residues have been used successfully in Malaysia to produce particle board, wood-cement board, and medium-density fibreboard. Rubberwood waste is an excellent growing medium for mushrooms, especially oyster mushrooms (Pleurotus spp.). Formerly used as charcoal or fuel wood for brick making, tobacco drying, and rubber drying.
-
 ### Additional Information
 
 It is cultivated.
@@ -200,6 +196,8 @@ Companion planting with aromatic herbs or flowering plants can deter pests and a
 - [Edible Plants](edible-plants.md) — parent capability
 - [Plants Domain](./index.md) — domain overview and related capabilities
 - [Agave](agave.md) — example plant article format
+- [Polymers](../polymers/index.md) — natural rubber processing, vulcanization, and elastomer production
+- [Textiles / Waterproofing](../textiles/finishing.md) — rubberized fabric and waterproof coatings
 - [Food Processing](../food-processing/index.md) — downstream processing of harvested crops
 - [Agriculture](../agriculture/index.md) — cultivation systems and crop rotation
 - Family: Euphorbiaceae

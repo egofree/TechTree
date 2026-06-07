@@ -72,8 +72,6 @@ A millet grass. It is an annual grass. It is robust and forms many tillers or yo
 
 ### Edible Parts and Preparation
 
-Edible parts: Shoots, Seeds, Cereal, Vegetable The seed is cooked and used as a millet — either whole or ground into a flour for cakes, puddings, and porridge. The flour makes a fair unleavened bread if soaked overnight in water first. It is also commonly used in fermented foods. Finger millet is the principal food grain for many people in dry regions of India, Nepal, and Sri Lanka, and provides a sustaining diet particularly for those doing hard physical work. The grain is higher in protein, fat, and minerals than rice, corn, or sorghum. It can be malted, and flour made from malted grain serves as a nourishing food for infants and invalids. It is also considered especially wholesome for diabetics. The seed is about 2mm in diameter, and yields around 5 tonnes per hectare. Ragi grain stores exceptionally well and is said to improve in quality with storage — seeds can be kept without damage for up to 50 years, making them highly valued as a famine reserve. Yield varies by variety and is directly related to plant duration, height, and tillering capacity; straight-spiked types generally outyield those with curved spikes. Nutritional content per 100g dry weight (370 calories, 0% water): Protein 7.6g, Fat 1.5g, Carbohydrate 88g, Fibre 3g, Ash 2.7g; Calcium 410mg, Phosphorus 290mg, Iron 12.6mg; Vitamin A 0.48mg, Thiamine (B1) 0.33mg, Riboflavin (B2) 0.11mg, Niacin 1.2mg. (Figures are the median of a reported range.)
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -175,8 +173,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 The seed is astringent, tonic, and cooling, and is used in treating fevers, biliousness, and hepatitis. Leaf juice has been given to women in childbirth, and the plant is reported to be diaphoretic, diuretic, and vermifuge. It is a folk remedy for leprosy, liver disease, measles, pleurisy, pneumonia, and smallpox.
 
 ### Other Uses
-
-None known.
 
 ### Additional Information
 

@@ -72,8 +72,6 @@ A branched annual plant up to 50 cm high. The stems are soft and 4 angled with c
 
 ### Edible Parts and Preparation
 
-Edible parts: Tubers, Root, (Leaves), Vegetable, Caution The tuber is cooked. This species has the largest tubers of all Andean cultivated species, with a good protein content (12% dry weight, compared to 8–10% for the cultivated potato), and is rich in starch and vitamin C. Nutritional composition per 100g fresh weight: 80 calories; water 79%; protein 2.4g; fat 0.1g; carbohydrate 18g; fibre 0.5g; ash 1.3g; calcium 10mg; phosphorus 51mg; iron 0.8mg; sodium 5mg; potassium 401mg; vitamin A 20mg; thiamine (B1) 0.9mg; riboflavin (B2) 0.03mg; niacin 1.5mg; vitamin C 20mg. These figures represent the mean obtained from a range of readings.
-
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -176,8 +174,6 @@ For field-scale production, inspect every 10th plant during harvest for disease 
 No known medicinal uses.
 
 ### Other Uses
-
-No known other uses.
 
 ### Additional Information
 

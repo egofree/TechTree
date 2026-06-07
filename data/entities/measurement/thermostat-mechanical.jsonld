@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Thermal expansion-based temperature switches using metal rods, tubes, and bimetallic strips. No external power required. Covers single-metal expansion rod, rod-and-tube differential, bimetallic strip, and snap-action disc thermostats for furnace and kiln control.",
+  "early_win": true,
+  "id": "measurement.thermostat-mechanical",
+  "level": "capability",
+  "name": "Mechanical Thermostats",
+  "outputs": [
+    "on_off_control",
+    "temperature_switching",
+    "mechanical_actuation"
+  ],
+  "parent": "measurement",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": true,
+    "era": "iron-age",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-20"
+}

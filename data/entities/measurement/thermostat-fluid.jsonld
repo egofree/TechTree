@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Fluid, vapor, gas, and wax-based temperature sensors enabling remote sensing and proportional control. Covers mercury tilt, mercury contact thermometer, liquid expansion, vapor pressure, gas expansion, wax pellet, TRV, and pneumatic thermostats.",
+  "early_win": false,
+  "id": "measurement.thermostat-fluid",
+  "level": "capability",
+  "name": "Fluid & Gas Thermostats",
+  "outputs": [
+    "remote_sensing",
+    "proportional_control",
+    "mercury_switching"
+  ],
+  "parent": "measurement",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "measurement",
+      "cooling"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals",
+      "glass",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-30"
+}

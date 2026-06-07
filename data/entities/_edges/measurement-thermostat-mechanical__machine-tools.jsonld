@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/measurement.thermostat-mechanical__machine-tools",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "measurement.thermostat-mechanical",
+  "to": "machine-tools"
+}

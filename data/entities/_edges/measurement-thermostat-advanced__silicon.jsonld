@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/measurement.thermostat-advanced__silicon",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "measurement.thermostat-advanced",
+  "label": "quartz crystals, semiconductor detectors",
+  "to": "silicon"
+}

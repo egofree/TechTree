@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Electrically-sensed temperature control using thermocouples (self-generating), resistance thermometers (RTD/Wheatstone bridge), and reed switch/magnet actuators. Covers high-temperature furnace control and precision resistance-based sensing.",
+  "early_win": false,
+  "id": "measurement.thermostat-electrical",
+  "level": "capability",
+  "name": "Electrical Thermostats",
+  "outputs": [
+    "high_temperature_sensing",
+    "self_generating_sensor",
+    "precision_resistance_sensing"
+  ],
+  "parent": "measurement",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-40"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Semiconductor sensor-based temperature control with active electronics. Covers thermistor comparators, silicon junction sensors, IC temperature sensors (LM35, DS18B20), and digital microcontroller PID control achieving ±0.01°C stability.",
+  "early_win": false,
+  "id": "measurement.thermostat-electronic",
+  "level": "capability",
+  "name": "Electronic Thermostats",
+  "outputs": [
+    "pid_control",
+    "proportional_control",
+    "digital_temperature_regulation"
+  ],
+  "parent": "measurement",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "measurement",
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-60"
+}

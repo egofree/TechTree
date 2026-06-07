@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/measurement.thermostat-electronic__measurement.thermostat-electrical",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "measurement.thermostat-electronic",
+  "label": "electrical thermostat techniques as foundation",
+  "to": "measurement.thermostat-electrical"
+}

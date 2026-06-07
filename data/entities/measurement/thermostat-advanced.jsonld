@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Specialty thermostats for advanced applications: shape memory alloy actuators, quartz crystal calibration-grade sensors (±0.01°C), and infrared pyrometers for non-contact high-temperature measurement (0-3000°C+).",
+  "early_win": false,
+  "id": "measurement.thermostat-advanced",
+  "level": "capability",
+  "name": "Advanced & Specialty Thermostats",
+  "outputs": [
+    "non_contact_temperature_sensing",
+    "calibration_grade_measurement",
+    "shape_memory_actuation"
+  ],
+  "parent": "measurement",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "measurement",
+      "optics"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "metals",
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-60+"
+}

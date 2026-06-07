@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/measurement.thermostat-mechanical__metals",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "measurement.thermostat-mechanical",
+  "to": "metals"
+}

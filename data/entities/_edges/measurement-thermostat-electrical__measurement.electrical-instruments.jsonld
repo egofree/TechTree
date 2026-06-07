@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/measurement.thermostat-electrical__measurement.electrical-instruments",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "measurement.thermostat-electrical",
+  "label": "galvanometer relay, millivoltmeter",
+  "to": "measurement.electrical-instruments"
+}

@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/measurement.thermostat-electrical__measurement.temperature-pressure",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "measurement.thermostat-electrical",
+  "label": "thermocouple wire, RTD platinum",
+  "to": "measurement.temperature-pressure"
+}

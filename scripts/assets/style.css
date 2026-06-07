@@ -239,6 +239,24 @@ tr:nth-child(even) td { background: #fafafa; }
 img { display: block; max-width: 100%; height: auto; margin: 12px auto; }
 video { display: block; max-width: 100%; margin: 12px auto; }
 audio { display: block; margin: 12px 0; }
+/* ── Article images ── */
+article img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 0.25rem;
+}
+.image-attribution {
+  font-size: 0.75rem;
+  color: #666;
+  text-align: center;
+  margin-top: 0.25rem;
+}
+.nc-warning {
+  font-style: italic;
+  color: #888;
+}
 /* ── Horizontal rule ── */
 hr { border: none; border-top: 1px solid var(--color-border); margin: 24px 0; }
 .text-center { text-align: center; }

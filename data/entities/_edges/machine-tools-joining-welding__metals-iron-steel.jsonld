@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/machine-tools.joining.welding__metals.iron-steel",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "machine-tools.joining.welding",
+  "label": "Steel and iron stock for welding",
+  "to": "metals.iron-steel"
+}

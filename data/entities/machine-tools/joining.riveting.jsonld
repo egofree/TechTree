@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Mechanical joining with rivets — permanent fasteners installed through holes in overlapping plates. Hot rivets contract on cooling, producing preload that makes joints leak-tight and vibration-resistant. Dominated structural steel construction from ~1840 until arc welding replaced riveting after ~1940.",
+  "early_win": false,
+  "id": "machine-tools.joining.riveting",
+  "level": "process",
+  "name": "Riveting",
+  "outputs": [
+    "riveted_joints"
+  ],
+  "parent": "machine-tools.joining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-30"
+}

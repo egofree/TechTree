@@ -1,0 +1,38 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "All fusion and solid-state welding processes: forge welding, oxy-acetylene gas welding, shielded metal arc welding (SMAW), TIG (GTAW), MIG (GMAW), resistance spot and seam welding, electron beam welding, friction stir welding, laser welding, and diffusion bonding. Covers vacuum chamber fabrication, hermetic sealing, and weld quality inspection.",
+  "early_win": false,
+  "id": "machine-tools.joining.welding",
+  "level": "process",
+  "name": "Welding Processes",
+  "outputs": [
+    "forge_welds",
+    "welded_joints",
+    "acetylene",
+    "tig_welds",
+    "mig_welds",
+    "resistance_welds",
+    "electron_beam_welds",
+    "friction_stir_welds",
+    "laser_welds",
+    "diffusion_bonds",
+    "hermetic_seals"
+  ],
+  "parent": "machine-tools.joining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-70"
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Rendering animal fats (tallow, lard) and pressing vegetable oils (castor, rapeseed, olive, linseed, sunflower) for boundary lubrication of slow-speed bearings, slides, and cutting fluid base.",
+  "early_win": true,
+  "early_win_note": "Animal fat rendering requires only a pot, water, and heat; available from day one",
+  "id": "chemistry.lubricants-natural",
+  "level": "capability",
+  "name": "Natural Lubricants: Animal Fats & Vegetable Oils",
+  "outputs": [
+    "tallow",
+    "lard",
+    "vegetable_oil",
+    "castor_oil",
+    "linseed_oil"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "iron-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-5"
+}

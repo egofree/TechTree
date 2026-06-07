@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Synthetic lubricants (PAO, ester, silicone, PFPE), vacuum oils for diffusion and roughing pumps, and cleanroom-compatible PFPE lubricants for semiconductor manufacturing equipment.",
+  "early_win": false,
+  "id": "chemistry.lubricants-synthetic",
+  "level": "capability",
+  "name": "Synthetic Lubricants & Specialty Fluids",
+  "outputs": [
+    "synthetic_oil",
+    "vacuum_oil",
+    "pfpe_grease"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-200+"
+}

@@ -15,7 +15,11 @@ Capabilities in this domain:
 - [SEM Tech Electrodialysis](sem-tech-electrodialysis.md) — electrochemical ion separation
 - [Hydrogen & Silane Production](hydrogen-silane.md) — Hydrogen via electrolysis (4-5 kWh/Nm³) with Pd membrane purification, steam reforming of methane, and silane (SiH₄) production from MG-Si via trichlorosilane redistribution.
 - [SEM Tech Ion Exchange Membrane](sem-tech.md) — open-source cation exchange membrane for chlor-alkali electrolysis
-- [Lubricants, Oils & Fluid Mechanics](lubricants.md) — Animal fats and vegetable oils, lubrication regimes (boundary, hydrodynamic, EHL), cutting fluids for machining, grease production (calcium, sodium, lithium soap), bearing lubrication methods, hydraulic fluids, vacuum oils (mineral, silicone), and cleanroom-compatible lubricants.
+- [Lubricants, Oils & Fluid Mechanics](lubricants.md) — Overview of lubrication theory (boundary, hydrodynamic, EHL), selection guide, and cross-cutting topics. Links to focused articles:
+  - [Natural Lubricants](lubricants-natural.md) — Rendering animal fats (tallow, lard) and pressing vegetable oils (castor, rapeseed, olive, linseed) for boundary lubrication.
+  - [Grease, Solid Lubricants & Bearing Lubrication](lubricants-grease-solid.md) — Grease production (sodium, calcium, lithium soap thickeners), solid lubricants (graphite, MoS₂, PTFE), and bearing lubrication methods.
+  - [Mineral Oil Lubricants, Cutting Fluids & Hydraulic Fluids](lubricants-mineral.md) — Refined petroleum lubricants, ISO VG grading, cutting fluid formulations, and hydraulic fluid types.
+  - [Synthetic Lubricants & Specialty Fluids](lubricants-synthetic.md) — PAO, ester, silicone, and PFPE synthetics; vacuum oils; cleanroom-compatible lubricants.
 - [SEM Tech Lithium Separation](sem-tech-lithium-separation.md) — selective ion recovery from brines
 - [Semiconductor Packaging & Testing](packaging-testing.md) — Wafer backgrinding, die singulation (diamond blade dicing), die attach (eutectic or epoxy), wire bonding (Au ball bonding, Al wedge), encapsulation (transfer molding with epoxy-silica compound), lead forming, wafer probing (DC parametric + functional), burn-in, and final test.
 - [Petroleum & Alternative Chemistry](petroleum-alternatives.md) — Petroleum extraction (surface seeps → cable-tool → rotary drilling), refining (batch distillation → fractional distillation → thermal cracking), coal tar chemistry (benzene, phenol, naphthalene from coke ovens), fermentation (ethanol, acetone, acetic acid, methanol), and wood gasification.

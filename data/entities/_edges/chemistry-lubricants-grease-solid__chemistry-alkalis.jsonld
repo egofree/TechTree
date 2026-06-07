@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.lubricants-grease-solid__chemistry.alkalis",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "chemistry.lubricants-grease-solid",
+  "label": "NaOH or Ca(OH)2 for saponification of grease thickeners",
+  "to": "chemistry.alkalis"
+}

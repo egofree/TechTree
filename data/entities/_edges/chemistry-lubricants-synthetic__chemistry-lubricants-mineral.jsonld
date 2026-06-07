@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.lubricants-synthetic__chemistry.lubricants-mineral",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "chemistry.lubricants-synthetic",
+  "label": "mineral oil refining infrastructure and additive chemistry",
+  "to": "chemistry.lubricants-mineral"
+}

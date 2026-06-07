@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Refined petroleum lubricants with ISO VG viscosity grading, cutting fluid formulations (straight oil, soluble oil emulsion, synthetic), and hydraulic fluid types (mineral, vegetable, water-glycol). Enables high-speed machinery, precision machine tools, and hydraulic presses.",
+  "early_win": false,
+  "id": "chemistry.lubricants-mineral",
+  "level": "capability",
+  "name": "Mineral Oil Lubricants, Cutting Fluids & Hydraulic Fluids",
+  "outputs": [
+    "mineral_lubricating_oil",
+    "cutting_fluid",
+    "hydraulic_fluid"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-50"
+}

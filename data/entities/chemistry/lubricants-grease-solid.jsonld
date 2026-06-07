@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Grease production from saponified fats (sodium, calcium, lithium soap thickeners), solid lubricants (graphite, MoS₂, PTFE, polymer bearings), and bearing lubrication methods (oil-ring, wick, splash, forced, grease-packed).",
+  "early_win": false,
+  "id": "chemistry.lubricants-grease-solid",
+  "level": "capability",
+  "name": "Grease, Solid Lubricants & Bearing Lubrication",
+  "outputs": [
+    "grease",
+    "solid_lubricant",
+    "bearing_lubrication"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-20"
+}

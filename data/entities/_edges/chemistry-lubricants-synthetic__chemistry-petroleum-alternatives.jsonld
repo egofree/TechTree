@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.lubricants-synthetic__chemistry.petroleum-alternatives",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "chemistry.lubricants-synthetic",
+  "label": "petrochemical precursors for synthetic hydrocarbon and ester synthesis",
+  "to": "chemistry.petroleum-alternatives"
+}

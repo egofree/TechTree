@@ -335,19 +335,22 @@ def select_best_image(images):
 # Title verification (safety check)
 # ---------------------------------------------------------------------------
 
-def title_matches(expected_title, zim_title, zim_h1, species_id=""):
+def title_matches(expected_title, zim_title, zim_h1, species_id="", zim_slug=""):
     """Verify ZIM page title is consistent with expected species.
 
     Checks that words from the expected title OR the species id (scientific
-    name slug) appear in the ZIM <title> or <h1>.  This handles both cases:
-    title="Agrimonia pilosa" (scientific) and title="Scots Pine" (common)
-    where id="pinus-sylvestris" maps to ZIM h1="Pinus sylvestris".
+    name slug) OR the mapped ZIM slug appear in the ZIM <title> or <h1>.
+    This handles both cases: title="Agrimonia pilosa" (scientific) and
+    title="Scots Pine" (common) where id="pinus-sylvestris" maps to
+    ZIM h1="Pinus sylvestris", and also name-mapped entries like
+    "wheat" → zim_slug="triticum-aestivum".
     """
     combined = (zim_title + " " + zim_h1).lower()
 
     title_words = set(re.findall(r"[a-zA-Z]+", expected_title.lower()))
     id_words = set(re.findall(r"[a-zA-Z]+", species_id.lower()))
-    all_words = title_words | id_words
+    slug_words = set(re.findall(r"[a-zA-Z]+", zim_slug.lower()))
+    all_words = title_words | id_words | slug_words
 
     if not all_words:
         return False
@@ -511,7 +514,7 @@ def process_species(species, zim_path, slug_map, name_map, existing_ids,
     page_title, page_h1, images = parse_zim_page(html_bytes)
 
     # Safety: verify title contains expected words
-    if not title_matches(species_title, page_title, page_h1, species_id):
+    if not title_matches(species_title, page_title, page_h1, species_id, zim_slug):
         stats["mismatch"] += 1
         return "MISMATCH", "ZIM title mismatch: expected '{}', got '{}'".format(
             species_title, page_title

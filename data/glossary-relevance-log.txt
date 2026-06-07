@@ -451,7 +451,7 @@ Processing 8266 terms...
   Term: 'Additive depletion' [bold-pattern] stop=False
     polymers.thermoplastics -> primary (1 occurrences)
   Term: 'Additives' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Adequate for' [bold-pattern] stop=False
     ceramics.advanced-ceramics -> mentioned (1 occurrences)
     ceramics.lime -> mentioned (1 occurrences)
@@ -537,7 +537,7 @@ Processing 8266 terms...
     knowledge.printing -> primary (4 occurrences)
     knowledge.writing -> secondary (4 occurrences)
     machine-tools.bearings-abrasives -> primary (4 occurrences)
-    machine-tools.casting -> primary (4 occurrences)
+    metals.casting -> primary (4 occurrences)
     machine-tools.forming -> primary (4 occurrences)
     machine-tools.joining -> secondary (3 occurrences)
     metals.aluminum -> primary (4 occurrences)
@@ -868,7 +868,7 @@ Processing 8266 terms...
   Term: 'Aluminum smelter fluoride emissions' [bold-pattern] stop=False
     chemistry.electrolysis -> primary (1 occurrences)
   Term: 'Aluminum sourcing' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Aluminum wedge bonding' [bold-pattern] stop=False
     chemistry.packaging-testing -> primary (1 occurrences)
   Term: 'Aluminum → Copper transition (~180 nm node, ~1997)' [bold-pattern] stop=False
@@ -995,7 +995,7 @@ Processing 8266 terms...
   Term: 'Animal hazards on pole lines' [bold-pattern] stop=False
     transport.telegraph -> primary (1 occurrences)
   Term: 'Anneal' [bold-pattern] stop=False
-    machine-tools.casting -> mentioned (1 occurrences)
+    metals.casting -> mentioned (1 occurrences)
     machine-tools.forming -> primary (12 occurrences)
     measurement.precision-metrology -> mentioned (1 occurrences)
     measurement.temperature-pressure -> primary (3 occurrences)
@@ -1144,7 +1144,7 @@ Processing 8266 terms...
     health.medicine -> primary (5 occurrences)
     health.pharmacology -> mentioned (1 occurrences)
     machine-tools.bearings-abrasives -> secondary (9 occurrences)
-    machine-tools.casting -> mentioned (2 occurrences)
+    metals.casting -> mentioned (2 occurrences)
     machine-tools.forming -> mentioned (2 occurrences)
     machine-tools.joining -> primary (10 occurrences)
     machine-tools.machining -> primary (3 occurrences)
@@ -1201,7 +1201,7 @@ Processing 8266 terms...
   Term: 'Apply load' [bold-pattern] stop=False
     energy.steam-power -> primary (1 occurrences)
   Term: 'Apply parting compound' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Apprentice' [bold-pattern] stop=False
     knowledge -> mentioned (1 occurrences)
     knowledge.education -> primary (27 occurrences)
@@ -1323,7 +1323,7 @@ Processing 8266 terms...
     energy.storage -> primary (2 occurrences)
     gas-handling.vacuum -> primary (5 occurrences)
     machine-tools.bearings-abrasives -> primary (2 occurrences)
-    machine-tools.casting -> secondary (3 occurrences)
+    metals.casting -> secondary (3 occurrences)
     machine-tools.forming -> mentioned (1 occurrences)
     measurement.electrical-instruments -> mentioned (2 occurrences)
     measurement.optical-instruments -> primary (3 occurrences)
@@ -1431,7 +1431,7 @@ Processing 8266 terms...
   Term: 'Backing pump requirement' [bold-pattern] stop=False
     gas-handling.vacuum -> primary (2 occurrences)
   Term: 'Backup coats' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Backup strategy' [bold-pattern] stop=False
     knowledge.education -> primary (1 occurrences)
   Term: 'Backwash' [bold-pattern] stop=False
@@ -1651,7 +1651,7 @@ Processing 8266 terms...
     animals.pest-management -> mentioned (2 occurrences)
     animals.sericulture -> mentioned (2 occurrences)
     machine-tools.bearings-abrasives -> mentioned (2 occurrences)
-    machine-tools.casting -> secondary (7 occurrences)
+    metals.casting -> secondary (7 occurrences)
     machine-tools.forming -> mentioned (1 occurrences)
     machine-tools.iterative-bootstrap -> primary (14 occurrences)
     machine-tools.machining -> mentioned (1 occurrences)
@@ -1790,7 +1790,7 @@ Processing 8266 terms...
   Term: 'Binder' [bold-pattern] stop=False
     energy.electric-furnaces -> mentioned (1 occurrences)
     machine-tools -> mentioned (1 occurrences)
-    machine-tools.casting -> primary (5 occurrences)
+    metals.casting -> primary (5 occurrences)
   Term: 'Binder course' [bold-pattern] stop=False
     transport.roads -> primary (2 occurrences)
   Term: 'Binder jetting' [bold-pattern] stop=False
@@ -1945,7 +1945,7 @@ Processing 8266 terms...
   Term: 'Blowdown valve' [bold-pattern] stop=False
     energy.steam-power -> primary (4 occurrences)
   Term: 'Blowholes' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Blowing' [bold-pattern] stop=False
     glass -> secondary (3 occurrences)
     glass.advanced -> secondary (3 occurrences)
@@ -2110,7 +2110,7 @@ Processing 8266 terms...
     energy.wind -> primary (17 occurrences)
   Term: 'Brass' [bold-pattern] stop=False
     machine-tools.bearings-abrasives -> secondary (5 occurrences)
-    machine-tools.casting -> primary (4 occurrences)
+    metals.casting -> primary (4 occurrences)
     machine-tools.forming -> secondary (5 occurrences)
     machine-tools.joining -> secondary (10 occurrences)
     machine-tools.machining -> mentioned (1 occurrences)
@@ -2198,7 +2198,7 @@ Processing 8266 terms...
   Term: 'Broken ends' [bold-pattern] stop=False
     textiles.weaving -> primary (2 occurrences)
   Term: 'Bronze' [bold-pattern] stop=False
-    machine-tools.casting -> primary (5 occurrences)
+    metals.casting -> primary (5 occurrences)
     machine-tools.forming -> secondary (3 occurrences)
     machine-tools.iterative-bootstrap -> secondary (3 occurrences)
     machine-tools.joining -> mentioned (1 occurrences)
@@ -2299,7 +2299,7 @@ Processing 8266 terms...
   Term: 'Burnishing' [bold-pattern] stop=False
     foundations.tools-basic -> primary (1 occurrences)
   Term: 'Burnout' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
     metals.copper-bronze -> primary (1 occurrences)
   Term: 'Burns' [bold-pattern] stop=False
     energy.engine -> secondary (3 occurrences)
@@ -2308,7 +2308,7 @@ Processing 8266 terms...
     energy.storage -> mentioned (2 occurrences)
     glass.advanced -> secondary (3 occurrences)
     glass.basic -> mentioned (2 occurrences)
-    machine-tools.casting -> secondary (4 occurrences)
+    metals.casting -> secondary (4 occurrences)
     machine-tools.forming -> primary (3 occurrences)
     machine-tools.iterative-bootstrap -> mentioned (1 occurrences)
     machine-tools.joining -> primary (3 occurrences)
@@ -2537,7 +2537,7 @@ Processing 8266 terms...
     knowledge.libraries -> primary (2 occurrences)
     knowledge.writing -> primary (1 occurrences)
     machine-tools.bearings-abrasives -> mentioned (1 occurrences)
-    machine-tools.casting -> primary (2 occurrences)
+    metals.casting -> primary (2 occurrences)
     machine-tools.forming -> secondary (5 occurrences)
     metals.aluminum -> secondary (4 occurrences)
     metals.copper-bronze -> mentioned (1 occurrences)
@@ -2604,7 +2604,7 @@ Processing 8266 terms...
     energy.engine -> mentioned (1 occurrences)
     energy.fuels -> mentioned (2 occurrences)
     energy.steam-power -> primary (1 occurrences)
-    machine-tools.casting -> mentioned (1 occurrences)
+    metals.casting -> mentioned (1 occurrences)
     machine-tools.forming -> primary (1 occurrences)
     metals.copper-bronze -> mentioned (2 occurrences)
     metals.iron-steel -> mentioned (2 occurrences)
@@ -3063,7 +3063,7 @@ Processing 8266 terms...
     energy.fuels -> mentioned (1 occurrences)
     energy.steam-power -> mentioned (1 occurrences)
     energy.storage -> primary (53 occurrences)
-    machine-tools.casting -> primary (3 occurrences)
+    metals.casting -> primary (3 occurrences)
     machine-tools.forming -> secondary (9 occurrences)
     metals.aluminum -> secondary (3 occurrences)
     metals.copper-bronze -> primary (5 occurrences)
@@ -3092,7 +3092,7 @@ Processing 8266 terms...
     energy.electricity -> mentioned (1 occurrences)
     energy.engine -> mentioned (2 occurrences)
     energy.storage -> primary (9 occurrences)
-    machine-tools.casting -> primary (2 occurrences)
+    metals.casting -> primary (2 occurrences)
     metals.aluminum -> mentioned (1 occurrences)
     metals.forming -> mentioned (1 occurrences)
     metals.iron-steel -> mentioned (2 occurrences)
@@ -3249,7 +3249,7 @@ Processing 8266 terms...
   Term: 'Chilled water system' [bold-pattern] stop=False
     photolithography.cleanrooms -> primary (1 occurrences)
   Term: 'Chills' [bold-pattern] stop=False
-    machine-tools.casting -> primary (2 occurrences)
+    metals.casting -> primary (2 occurrences)
   Term: 'Chimney design' [bold-pattern] stop=False
     ceramics.kilns -> primary (1 occurrences)
   Term: 'Chimney gases' [bold-pattern] stop=False
@@ -3450,7 +3450,7 @@ Processing 8266 terms...
     health.occupational-health -> mentioned (1 occurrences)
     health.pharmacology -> mentioned (1 occurrences)
     health.sanitation -> mentioned (1 occurrences)
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
     photolithography.cleanrooms -> secondary (7 occurrences)
     photolithography.fab-processes -> mentioned (2 occurrences)
     photolithography.resists-masks -> primary (2 occurrences)
@@ -3502,7 +3502,7 @@ Processing 8266 terms...
   Term: 'Clock tree synthesis (CTS)' [bold-pattern] stop=False
     vlsi-scaling.eda-design -> primary (1 occurrences)
   Term: 'Close mold' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Close throttle' [bold-pattern] stop=False
     energy.steam-power -> primary (1 occurrences)
   Term: 'Closed reduction' [bold-pattern] stop=False
@@ -3714,7 +3714,7 @@ Processing 8266 terms...
   Term: 'Cold riveting' [bold-pattern] stop=False
     machine-tools.joining -> primary (1 occurrences)
   Term: 'Cold shuts and misruns' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Cold smoking' [bold-pattern] stop=False
     animals.aquaculture -> primary (1 occurrences)
   Term: 'Cold start' [bold-pattern] stop=False
@@ -4235,7 +4235,7 @@ Processing 8266 terms...
     gas-handling.basic -> primary (3 occurrences)
     gas-handling.vacuum -> primary (5 occurrences)
     machine-tools.bearings-abrasives -> secondary (3 occurrences)
-    machine-tools.casting -> primary (3 occurrences)
+    metals.casting -> primary (3 occurrences)
     machine-tools.forming -> mentioned (1 occurrences)
     machine-tools.iterative-bootstrap -> primary (4 occurrences)
     machine-tools.joining -> mentioned (1 occurrences)
@@ -4516,7 +4516,7 @@ Processing 8266 terms...
     health.occupational-health -> mentioned (1 occurrences)
     health.sanitation -> primary (4 occurrences)
     machine-tools.bearings-abrasives -> mentioned (1 occurrences)
-    machine-tools.casting -> primary (6 occurrences)
+    metals.casting -> primary (6 occurrences)
     machine-tools.forming -> secondary (16 occurrences)
     machine-tools.iterative-bootstrap -> secondary (3 occurrences)
     machine-tools.joining -> secondary (17 occurrences)
@@ -4577,7 +4577,7 @@ Processing 8266 terms...
   Term: 'Core handling' [bold-pattern] stop=False
     mining.drilling -> primary (1 occurrences)
   Term: 'Core prints' [bold-pattern] stop=False
-    machine-tools.casting -> primary (3 occurrences)
+    metals.casting -> primary (3 occurrences)
   Term: 'Core process parameters' [bold-pattern] stop=False
     metals.finishing -> primary (1 occurrences)
   Term: 'Core reaction' [bold-pattern] stop=False
@@ -4720,7 +4720,7 @@ Processing 8266 terms...
     computing.electronic -> primary (1 occurrences)
   Term: 'Crack prevention' [bold-pattern] stop=False
   Term: 'Cracking' [bold-pattern] stop=False
-    machine-tools.casting -> primary (3 occurrences)
+    metals.casting -> primary (3 occurrences)
     machine-tools.forming -> secondary (3 occurrences)
     machine-tools.joining -> secondary (3 occurrences)
     transport.roads -> primary (8 occurrences)
@@ -4762,7 +4762,7 @@ Processing 8266 terms...
     glass.advanced -> primary (1 occurrences)
   Term: 'CRITICAL' [bold-pattern] stop=False
     machine-tools.bearings-abrasives -> primary (2 occurrences)
-    machine-tools.casting -> secondary (4 occurrences)
+    metals.casting -> secondary (4 occurrences)
     machine-tools.forming -> mentioned (2 occurrences)
     machine-tools.iterative-bootstrap -> secondary (3 occurrences)
     machine-tools.joining -> secondary (8 occurrences)
@@ -4783,7 +4783,7 @@ Processing 8266 terms...
   Term: 'Critical for' [bold-pattern] stop=False
     energy.engine -> mentioned (2 occurrences)
     energy.wind -> primary (1 occurrences)
-    machine-tools.casting -> mentioned (1 occurrences)
+    metals.casting -> mentioned (1 occurrences)
     machine-tools.iterative-bootstrap -> primary (1 occurrences)
     machine-tools.joining -> mentioned (1 occurrences)
   Term: 'Critical hazard' [bold-pattern] stop=False
@@ -4847,7 +4847,7 @@ Processing 8266 terms...
     ceramics.kilns -> mentioned (1 occurrences)
     ceramics.pottery -> secondary (7 occurrences)
     machine-tools -> mentioned (1 occurrences)
-    machine-tools.casting -> primary (15 occurrences)
+    metals.casting -> primary (15 occurrences)
     machine-tools.joining -> mentioned (1 occurrences)
     silicon -> secondary (3 occurrences)
     silicon.crystal-growth -> primary (20 occurrences)
@@ -5018,7 +5018,7 @@ Processing 8266 terms...
     mining.extraction -> primary (1 occurrences)
     transport.roads -> primary (2 occurrences)
   Term: 'Cut gates' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Cut sampling' [bold-pattern] stop=False
     mining.processing -> primary (1 occurrences)
   Term: 'Cut to uniform lengths' [bold-pattern] stop=False
@@ -5040,7 +5040,7 @@ Processing 8266 terms...
     machine-tools -> mentioned (3 occurrences)
     stop-word cap: 'Cutting' in machine-tools.bearings-abrasives -> mentioned (was secondary)
     machine-tools.bearings-abrasives -> mentioned (25 occurrences)
-    machine-tools.casting -> mentioned (1 occurrences)
+    metals.casting -> mentioned (1 occurrences)
     stop-word cap: 'Cutting' in machine-tools.iterative-bootstrap -> mentioned (was secondary)
     machine-tools.iterative-bootstrap -> mentioned (9 occurrences)
     machine-tools.joining -> primary (3 occurrences)
@@ -5303,7 +5303,7 @@ Processing 8266 terms...
   Term: 'Degassing' [bold-pattern] stop=False
     chemistry.coatings -> mentioned (1 occurrences)
     chemistry.lubricants -> primary (1 occurrences)
-    machine-tools.casting -> primary (3 occurrences)
+    metals.casting -> primary (3 occurrences)
     metals.aluminum -> primary (2 occurrences)
     metals.steelmaking -> primary (4 occurrences)
   Term: 'Degumming' [bold-pattern] stop=False
@@ -5526,7 +5526,7 @@ Processing 8266 terms...
     mining.extraction -> mentioned (1 occurrences)
     mining.processing -> primary (1 occurrences)
   Term: 'Dewaxing' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Dewaxing and pre-sintering' [bold-pattern] stop=False
     metals.powder-metallurgy -> primary (1 occurrences)
   Term: 'Dewey Decimal Classification' [bold-pattern] stop=False
@@ -5614,7 +5614,7 @@ Processing 8266 terms...
     vlsi-scaling.advanced-processes -> primary (1 occurrences)
   Term: 'Dies' [bold-pattern] stop=False
     machine-tools.bearings-abrasives -> primary (3 occurrences)
-    machine-tools.casting -> secondary (6 occurrences)
+    metals.casting -> secondary (6 occurrences)
     machine-tools.forming -> secondary (11 occurrences)
     machine-tools.iterative-bootstrap -> mentioned (2 occurrences)
   Term: 'Diesel' [bold-pattern] stop=False
@@ -5698,7 +5698,7 @@ Processing 8266 terms...
     chemistry.dopant-etch-gases -> primary (1 occurrences)
   Term: 'Dimensional' [bold-pattern] stop=False
     machine-tools.bearings-abrasives -> mentioned (1 occurrences)
-    machine-tools.casting -> primary (5 occurrences)
+    metals.casting -> primary (5 occurrences)
     machine-tools.forming -> secondary (3 occurrences)
     machine-tools.machining -> mentioned (1 occurrences)
   Term: 'Dimensional inspection' [bold-pattern] stop=False
@@ -6025,7 +6025,7 @@ Processing 8266 terms...
     transport.roads -> primary (1 occurrences)
     transport.shipping -> secondary (3 occurrences)
   Term: 'Draft angles' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Draft requirement' [bold-pattern] stop=False
     animals.draft-power -> primary (2 occurrences)
   Term: 'Draft tube' [bold-pattern] stop=False
@@ -6974,7 +6974,7 @@ Processing 8266 terms...
     chemistry.soap -> mentioned (5 occurrences)
     stop-word cap: 'Equipment' in chemistry.solvents -> mentioned (was secondary)
     chemistry.solvents -> mentioned (3 occurrences)
-    machine-tools.casting -> mentioned (2 occurrences)
+    metals.casting -> mentioned (2 occurrences)
     machine-tools.forming -> mentioned (1 occurrences)
     machine-tools.joining -> primary (4 occurrences)
     stop-word cap: 'Equipment' in metals.alloys -> mentioned (was secondary)
@@ -7059,7 +7059,7 @@ Processing 8266 terms...
     energy.steam-power -> mentioned (1 occurrences)
     energy.wind -> mentioned (2 occurrences)
     machine-tools.bearings-abrasives -> secondary (4 occurrences)
-    machine-tools.casting -> mentioned (1 occurrences)
+    metals.casting -> mentioned (1 occurrences)
     machine-tools.iterative-bootstrap -> primary (1 occurrences)
     machine-tools.machining -> mentioned (1 occurrences)
   Term: 'Essential maritime knots' [bold-pattern] stop=False
@@ -7444,7 +7444,7 @@ Processing 8266 terms...
     animals.domestication -> primary (24 occurrences)
     animals.pest-management -> secondary (9 occurrences)
     animals.sericulture -> secondary (16 occurrences)
-    machine-tools.casting -> secondary (8 occurrences)
+    metals.casting -> secondary (8 occurrences)
     machine-tools.forming -> mentioned (2 occurrences)
     machine-tools.iterative-bootstrap -> secondary (7 occurrences)
     machine-tools.machining -> primary (22 occurrences)
@@ -7578,7 +7578,7 @@ Processing 8266 terms...
   Term: 'Fillers and coating pigments' [bold-pattern] stop=False
     chemistry.pulp-chemicals -> mentioned (1 occurrences)
   Term: 'Fillets' [bold-pattern] stop=False
-    machine-tools.casting -> primary (2 occurrences)
+    metals.casting -> primary (2 occurrences)
   Term: 'Filling procedure' [bold-pattern] stop=False
     gas-handling.basic -> primary (1 occurrences)
   Term: 'Fillings' [bold-pattern] stop=False
@@ -7751,7 +7751,7 @@ Processing 8266 terms...
     metals.non-ferrous -> mentioned (1 occurrences)
   Term: 'Fire risk' [bold-pattern] stop=False
     energy.electricity -> primary (1 occurrences)
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
     plants.structural-plants -> primary (1 occurrences)
   Term: 'Fire structures' [bold-pattern] stop=False
     foundations.fire -> primary (1 occurrences)
@@ -7930,7 +7930,7 @@ Processing 8266 terms...
   Term: 'Flint-and-steel (faster, requires preparation)' [bold-pattern] stop=False
     foundations.fire -> primary (1 occurrences)
   Term: 'Flip drag' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Flip-chip' [bold-pattern] stop=False
     vlsi-scaling -> mentioned (1 occurrences)
     vlsi-scaling.eda-design -> primary (1 occurrences)
@@ -8008,7 +8008,7 @@ Processing 8266 terms...
   Term: 'Fluorine-based etching chemistry' [bold-pattern] stop=False
     chemistry.dopant-etch-gases -> primary (1 occurrences)
   Term: 'Fluxes' [bold-pattern] stop=False
-    machine-tools.casting -> secondary (3 occurrences)
+    metals.casting -> secondary (3 occurrences)
     machine-tools.joining -> primary (26 occurrences)
     metals.aluminum -> secondary (5 occurrences)
     metals.copper-bronze -> mentioned (2 occurrences)
@@ -8093,7 +8093,7 @@ Processing 8266 terms...
     computing.electronic -> mentioned (2 occurrences)
     computing.mechanical -> mentioned (1 occurrences)
     machine-tools.bearings-abrasives -> mentioned (1 occurrences)
-    machine-tools.casting -> secondary (8 occurrences)
+    metals.casting -> secondary (8 occurrences)
     machine-tools.forming -> primary (27 occurrences)
     machine-tools.joining -> secondary (6 occurrences)
     machine-tools.machining -> mentioned (2 occurrences)
@@ -8209,7 +8209,7 @@ Processing 8266 terms...
   Term: 'Fracture management' [bold-pattern] stop=False
     health.medicine -> primary (2 occurrences)
   Term: 'Fracture test' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Frame' [bold-pattern] stop=False
     energy.cooling -> mentioned (2 occurrences)
     energy.electricity -> secondary (3 occurrences)
@@ -8311,7 +8311,7 @@ Processing 8266 terms...
     energy.steam-power -> secondary (6 occurrences)
     energy.storage -> secondary (4 occurrences)
     energy.wind -> mentioned (1 occurrences)
-    machine-tools.casting -> primary (3 occurrences)
+    metals.casting -> primary (3 occurrences)
     machine-tools.joining -> mentioned (2 occurrences)
     metals.copper-bronze -> secondary (3 occurrences)
     metals.finishing -> mentioned (2 occurrences)
@@ -8447,7 +8447,7 @@ Processing 8266 terms...
   Term: 'Furnace construction for resistance heating' [bold-pattern] stop=False
     energy.electric-furnaces -> primary (1 occurrences)
   Term: 'Furnace design' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
     photolithography.fab-processes -> primary (1 occurrences)
   Term: 'Furnace sizes' [bold-pattern] stop=False
     silicon.mg-si-production -> primary (1 occurrences)
@@ -8576,7 +8576,7 @@ Processing 8266 terms...
   Term: 'Gas panel integration' [bold-pattern] stop=False
     chemistry.dopant-etch-gases -> primary (1 occurrences)
   Term: 'Gas porosity' [bold-pattern] stop=False
-    machine-tools.casting -> primary (4 occurrences)
+    metals.casting -> primary (4 occurrences)
   Term: 'Gas pressure sintering (GPSSN)' [bold-pattern] stop=False
     ceramics.advanced-ceramics -> primary (1 occurrences)
   Term: 'Gas producer' [bold-pattern] stop=False
@@ -8610,7 +8610,7 @@ Processing 8266 terms...
   Term: 'Gassing' [bold-pattern] stop=False
     energy.storage -> primary (1 occurrences)
   Term: 'Gate and riser removal' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Gate charge (Qg)' [bold-pattern] stop=False
     silicon.basic-devices -> primary (1 occurrences)
   Term: 'Gate oxide' [bold-pattern] stop=False
@@ -8622,7 +8622,7 @@ Processing 8266 terms...
   Term: 'Gate-level simulation (digital)' [bold-pattern] stop=False
     vlsi-scaling.eda-design -> primary (1 occurrences)
   Term: 'Gates' [bold-pattern] stop=False
-    machine-tools.casting -> primary (7 occurrences)
+    metals.casting -> primary (7 occurrences)
     machine-tools.forming -> mentioned (1 occurrences)
   Term: 'Gather' [bold-pattern] stop=False
     glass.basic -> secondary (5 occurrences)
@@ -9357,7 +9357,7 @@ Processing 8266 terms...
   Term: 'Heat treatment' [bold-pattern] stop=False
     foundations.tools-basic -> primary (2 occurrences)
     machine-tools.bearings-abrasives -> primary (2 occurrences)
-    machine-tools.casting -> primary (3 occurrences)
+    metals.casting -> primary (3 occurrences)
     machine-tools.forming -> secondary (3 occurrences)
     machine-tools.iterative-bootstrap -> mentioned (1 occurrences)
     metals -> mentioned (1 occurrences)
@@ -9986,7 +9986,7 @@ Processing 8266 terms...
   Term: 'Inclusion modification — calcium treatment' [bold-pattern] stop=False
     metals.steelmaking -> primary (1 occurrences)
   Term: 'Inclusions' [bold-pattern] stop=False
-    machine-tools.casting -> primary (6 occurrences)
+    metals.casting -> primary (6 occurrences)
     machine-tools.joining -> secondary (3 occurrences)
   Term: 'Inclusions (stones, cords)' [bold-pattern] stop=False
     optics.inspection -> primary (1 occurrences)
@@ -10091,7 +10091,7 @@ Processing 8266 terms...
   Term: 'Injection blow molding' [bold-pattern] stop=False
     polymers.thermoplastics -> primary (1 occurrences)
   Term: 'Injection dies' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Injection molding' [bold-pattern] stop=False
     metals -> mentioned (1 occurrences)
     metals.powder-metallurgy -> primary (5 occurrences)
@@ -10173,7 +10173,7 @@ Processing 8266 terms...
   Term: 'Instruction cycle' [bold-pattern] stop=False
     computing.electronic -> primary (1 occurrences)
   Term: 'Instrument components' [bold-pattern] stop=False
-    machine-tools.casting -> primary (2 occurrences)
+    metals.casting -> primary (2 occurrences)
   Term: 'Instrument layout' [bold-pattern] stop=False
     measurement.optical-instruments -> primary (1 occurrences)
   Term: 'Instrument making' [bold-pattern] stop=False
@@ -10421,7 +10421,7 @@ Processing 8266 terms...
   Term: 'Jeweler's rouge' [bold-pattern] stop=False
     machine-tools.bearings-abrasives -> primary (1 occurrences)
   Term: 'Jewelry and dental' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Jig' [bold-pattern] stop=False
     mining.processing -> primary (3 occurrences)
   Term: 'Joinery' [bold-pattern] stop=False
@@ -11058,7 +11058,7 @@ Processing 8266 terms...
     knowledge.education -> mentioned (2 occurrences)
     knowledge.printing -> primary (6 occurrences)
     knowledge.writing -> primary (1 occurrences)
-    machine-tools.casting -> primary (2 occurrences)
+    metals.casting -> primary (2 occurrences)
     machine-tools.forming -> primary (2 occurrences)
     machine-tools.joining -> primary (2 occurrences)
     metals.alloys -> primary (4 occurrences)
@@ -11343,7 +11343,7 @@ Processing 8266 terms...
     knowledge.education -> primary (8 occurrences)
     machine-tools -> mentioned (2 occurrences)
     machine-tools.bearings-abrasives -> secondary (8 occurrences)
-    machine-tools.casting -> primary (6 occurrences)
+    metals.casting -> primary (6 occurrences)
     machine-tools.forming -> mentioned (2 occurrences)
     machine-tools.iterative-bootstrap -> mentioned (2 occurrences)
     machine-tools.machining -> secondary (5 occurrences)
@@ -11672,7 +11672,7 @@ Processing 8266 terms...
     knowledge.writing -> primary (11 occurrences)
     machine-tools -> mentioned (2 occurrences)
     machine-tools.bearings-abrasives -> secondary (10 occurrences)
-    machine-tools.casting -> primary (3 occurrences)
+    metals.casting -> primary (3 occurrences)
     machine-tools.forming -> secondary (20 occurrences)
     machine-tools.iterative-bootstrap -> primary (11 occurrences)
     machine-tools.joining -> primary (13 occurrences)
@@ -11908,7 +11908,7 @@ Processing 8266 terms...
     metals.copper-bronze -> secondary (3 occurrences)
     metals.iron-steel -> primary (1 occurrences)
   Term: 'Melting time' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Membrane' [bold-pattern] stop=False
     chemistry -> mentioned (1 occurrences)
     chemistry.air-separation -> secondary (5 occurrences)
@@ -12299,7 +12299,7 @@ Processing 8266 terms...
     chemistry.soap -> primary (3 occurrences)
     energy.storage -> mentioned (2 occurrences)
     machine-tools.bearings-abrasives -> mentioned (1 occurrences)
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
     machine-tools.joining -> mentioned (1 occurrences)
     metals.aluminum -> primary (1 occurrences)
     metals.finishing -> mentioned (1 occurrences)
@@ -12347,7 +12347,7 @@ Processing 8266 terms...
     plants.structural-plants -> primary (1 occurrences)
   Term: 'Moisture explosions' [bold-pattern] stop=False
     ceramics.advanced-ceramics -> primary (1 occurrences)
-    machine-tools.casting -> primary (2 occurrences)
+    metals.casting -> primary (2 occurrences)
   Term: 'Mold' [bold-pattern] stop=False
     knowledge.education -> mentioned (1 occurrences)
     knowledge.libraries -> primary (9 occurrences)
@@ -12415,7 +12415,7 @@ Processing 8266 terms...
   Term: 'Molten metal contact' [bold-pattern] stop=False
     metals.forming -> primary (1 occurrences)
   Term: 'Molten metal hazards' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Molten metal splash' [bold-pattern] stop=False
     energy.electric-furnaces -> primary (1 occurrences)
   Term: 'Molten polymer burns (200-300°C)' [bold-pattern] stop=False
@@ -13091,7 +13091,7 @@ Processing 8266 terms...
     health.occupational-health -> mentioned (2 occurrences)
     health.sanitation -> primary (4 occurrences)
     machine-tools.bearings-abrasives -> secondary (3 occurrences)
-    machine-tools.casting -> primary (4 occurrences)
+    metals.casting -> primary (4 occurrences)
     machine-tools.forming -> secondary (3 occurrences)
     machine-tools.iterative-bootstrap -> mentioned (1 occurrences)
     machine-tools.machining -> secondary (10 occurrences)
@@ -13350,7 +13350,7 @@ Processing 8266 terms...
     chemistry.pulp-chemicals -> secondary (4 occurrences)
     chemistry.refractories -> secondary (4 occurrences)
     chemistry.solvents -> mentioned (1 occurrences)
-    machine-tools.casting -> mentioned (1 occurrences)
+    metals.casting -> mentioned (1 occurrences)
     machine-tools.joining -> primary (12 occurrences)
     silicon.crystal-growth -> secondary (15 occurrences)
     silicon.mg-si-production -> secondary (3 occurrences)
@@ -13522,7 +13522,7 @@ Processing 8266 terms...
   Term: 'Particulate matter' [bold-pattern] stop=False
     silicon.mg-si-production -> primary (1 occurrences)
   Term: 'Parting line' [bold-pattern] stop=False
-    machine-tools.casting -> primary (4 occurrences)
+    metals.casting -> primary (4 occurrences)
     machine-tools.forming -> mentioned (1 occurrences)
   Term: 'Parturition hazards' [bold-pattern] stop=False
     animals.domestication -> primary (1 occurrences)
@@ -13556,7 +13556,7 @@ Processing 8266 terms...
   Term: 'Patrol behavior' [bold-pattern] stop=False
     animals.pest-management -> primary (1 occurrences)
   Term: 'Pattern assembly (tree construction)' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Pattern defects' [bold-pattern] stop=False
     photolithography.fab-processes -> mentioned (1 occurrences)
     photolithography.resists-masks -> primary (1 occurrences)
@@ -13978,11 +13978,11 @@ Processing 8266 terms...
     vlsi-scaling -> mentioned (1 occurrences)
     vlsi-scaling.eda-design -> primary (2 occurrences)
   Term: 'Place cope' [bold-pattern] stop=False
-    machine-tools.casting -> primary (2 occurrences)
+    metals.casting -> primary (2 occurrences)
   Term: 'Place cores' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Place pattern' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Place pots' [bold-pattern] stop=False
     ceramics.pottery -> primary (3 occurrences)
   Term: 'Placement' [bold-pattern] stop=False
@@ -14273,7 +14273,7 @@ Processing 8266 terms...
     metals.steelmaking -> secondary (8 occurrences)
   Term: 'Pouring' [bold-pattern] stop=True
     ceramics.pottery -> primary (1 occurrences)
-    machine-tools.casting -> primary (12 occurrences)
+    metals.casting -> primary (12 occurrences)
     stop-word cap: 'Pouring' in metals.copper-bronze -> mentioned (was secondary)
     metals.copper-bronze -> mentioned (3 occurrences)
     metals.iron-steel -> mentioned (2 occurrences)
@@ -14544,7 +14544,7 @@ Processing 8266 terms...
     stop-word cap: 'Preparation' in knowledge.printing -> mentioned (was secondary)
     knowledge.printing -> mentioned (3 occurrences)
     knowledge.writing -> primary (2 occurrences)
-    machine-tools.casting -> mentioned (2 occurrences)
+    metals.casting -> mentioned (2 occurrences)
     machine-tools.joining -> mentioned (1 occurrences)
     machine-tools.machining -> primary (1 occurrences)
     plants -> mentioned (1 occurrences)
@@ -14663,7 +14663,7 @@ Processing 8266 terms...
   Term: 'Pressure tank' [bold-pattern] stop=False
     health.sanitation -> primary (1 occurrences)
   Term: 'Pressure test' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Pressure testing hazards' [bold-pattern] stop=False
     measurement.temperature-pressure -> primary (1 occurrences)
   Term: 'Pressure vessel safety' [bold-pattern] stop=False
@@ -14706,7 +14706,7 @@ Processing 8266 terms...
     polymers.thermoplastics -> primary (1 occurrences)
     polymers.thermosets -> mentioned (1 occurrences)
   Term: 'Prime coat' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Primer coatings' [bold-pattern] stop=False
     chemistry.coatings -> mentioned (1 occurrences)
   Term: 'Primer systems' [bold-pattern] stop=False
@@ -14897,7 +14897,7 @@ Processing 8266 terms...
     stop-word cap: 'Process' in knowledge.writing -> mentioned (was secondary)
     knowledge.writing -> mentioned (8 occurrences)
     machine-tools.bearings-abrasives -> mentioned (1 occurrences)
-    machine-tools.casting -> mentioned (2 occurrences)
+    metals.casting -> mentioned (2 occurrences)
     machine-tools.forming -> primary (9 occurrences)
     machine-tools.iterative-bootstrap -> mentioned (2 occurrences)
     machine-tools.joining -> mentioned (2 occurrences)
@@ -15296,7 +15296,7 @@ Processing 8266 terms...
     transport.telegraph -> mentioned (1 occurrences)
   Term: 'Protective equipment' [bold-pattern] stop=False
     animals.beekeeping -> primary (1 occurrences)
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Protective overcoat' [bold-pattern] stop=False
     optics.inspection -> mentioned (2 occurrences)
   Term: 'Protein fibers' [bold-pattern] stop=False
@@ -15677,7 +15677,7 @@ Processing 8266 terms...
   Term: 'Rake angle' [bold-pattern] stop=False
     machine-tools.bearings-abrasives -> primary (1 occurrences)
   Term: 'Ram sand' [bold-pattern] stop=False
-    machine-tools.casting -> primary (2 occurrences)
+    metals.casting -> primary (2 occurrences)
   Term: 'Ramie degumming' [bold-pattern] stop=False
     textiles.fibers -> primary (3 occurrences)
   Term: 'Ramming mixes' [bold-pattern] stop=False
@@ -16112,7 +16112,7 @@ Processing 8266 terms...
   Term: 'Remove oils and residues' [bold-pattern] stop=False
     optics.precision-instruments -> primary (1 occurrences)
   Term: 'Remove pattern' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Rendering' [bold-pattern] stop=False
     animals -> mentioned (1 occurrences)
     animals.animal-materials -> secondary (6 occurrences)
@@ -16169,7 +16169,7 @@ Processing 8266 terms...
     energy.storage -> secondary (8 occurrences)
     energy.wind -> mentioned (1 occurrences)
     machine-tools.bearings-abrasives -> mentioned (2 occurrences)
-    machine-tools.casting -> secondary (8 occurrences)
+    metals.casting -> secondary (8 occurrences)
     machine-tools.forming -> secondary (14 occurrences)
     machine-tools.iterative-bootstrap -> primary (5 occurrences)
     machine-tools.joining -> secondary (9 occurrences)
@@ -16415,7 +16415,7 @@ Processing 8266 terms...
   Term: 'Ripple current' [bold-pattern] stop=False
     silicon.basic-devices -> primary (3 occurrences)
   Term: 'Risers' [bold-pattern] stop=False
-    machine-tools.casting -> primary (7 occurrences)
+    metals.casting -> primary (7 occurrences)
   Term: 'Risk' [bold-pattern] stop=False
     energy.cooling -> mentioned (1 occurrences)
     energy.electricity -> mentioned (1 occurrences)
@@ -16706,7 +16706,7 @@ Processing 8266 terms...
   Term: 'Runner' [bold-pattern] stop=False
     energy.gravity -> secondary (15 occurrences)
     energy.storage -> mentioned (1 occurrences)
-    machine-tools.casting -> primary (6 occurrences)
+    metals.casting -> primary (6 occurrences)
   Term: 'Runner blade design' [bold-pattern] stop=False
   Term: 'Runner blades' [bold-pattern] stop=False
     energy.gravity -> mentioned (1 occurrences)
@@ -16714,7 +16714,7 @@ Processing 8266 terms...
   Term: 'Runner geometry' [bold-pattern] stop=False
   Term: 'Runner runaway' [bold-pattern] stop=False
   Term: 'Runner/gate design' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Running gear' [bold-pattern] stop=False
     transport.railways -> primary (1 occurrences)
   Term: 'Running stitch' [bold-pattern] stop=False
@@ -16783,7 +16783,7 @@ Processing 8266 terms...
     energy.storage -> mentioned (2 occurrences)
     energy.wind -> mentioned (1 occurrences)
     machine-tools.bearings-abrasives -> mentioned (2 occurrences)
-    machine-tools.casting -> secondary (3 occurrences)
+    metals.casting -> secondary (3 occurrences)
     machine-tools.forming -> mentioned (2 occurrences)
     machine-tools.iterative-bootstrap -> mentioned (2 occurrences)
     machine-tools.joining -> primary (4 occurrences)
@@ -16872,12 +16872,12 @@ Processing 8266 terms...
     ceramics.pottery -> primary (6 occurrences)
     machine-tools -> mentioned (2 occurrences)
     machine-tools.bearings-abrasives -> secondary (5 occurrences)
-    machine-tools.casting -> primary (61 occurrences)
+    metals.casting -> primary (61 occurrences)
     machine-tools.forming -> mentioned (1 occurrences)
     machine-tools.iterative-bootstrap -> mentioned (1 occurrences)
     machine-tools.joining -> secondary (3 occurrences)
   Term: 'Sand adherence' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Sand bed' [bold-pattern] stop=False
     health.sanitation -> primary (5 occurrences)
   Term: 'Sand casting' [bold-pattern] stop=False
@@ -16890,7 +16890,7 @@ Processing 8266 terms...
     metals.copper-bronze -> primary (1 occurrences)
     metals.iron-steel -> mentioned (1 occurrences)
   Term: 'Sand preparation' [bold-pattern] stop=False
-    machine-tools.casting -> primary (2 occurrences)
+    metals.casting -> primary (2 occurrences)
   Term: 'Sand selection' [bold-pattern] stop=False
     ceramics.lime -> primary (1 occurrences)
   Term: 'Sandstone' [bold-pattern] stop=False
@@ -17252,7 +17252,7 @@ Processing 8266 terms...
     computing.data-storage -> mentioned (1 occurrences)
     computing.electromechanical -> primary (3 occurrences)
   Term: 'Separate flask halves' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Separation' [bold-pattern] stop=False
     chemistry -> mentioned (2 occurrences)
     chemistry.air-separation -> secondary (12 occurrences)
@@ -17302,7 +17302,7 @@ Processing 8266 terms...
   Term: 'Set pots' [bold-pattern] stop=False
     ceramics.pottery -> primary (1 occurrences)
   Term: 'Set sprue pin' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Set the zero reference' [bold-pattern] stop=False
     measurement.temperature-pressure -> primary (1 occurrences)
   Term: 'Setting' [bold-pattern] stop=False
@@ -17378,7 +17378,7 @@ Processing 8266 terms...
     mining.extraction -> primary (1 occurrences)
     mining.ventilation -> mentioned (1 occurrences)
   Term: 'Shakeout' [bold-pattern] stop=False
-    machine-tools.casting -> primary (2 occurrences)
+    metals.casting -> primary (2 occurrences)
   Term: 'Shaking table' [bold-pattern] stop=False
     mining.processing -> primary (1 occurrences)
   Term: 'Shallow pits' [bold-pattern] stop=False
@@ -17452,7 +17452,7 @@ Processing 8266 terms...
   Term: 'Shell and lining' [bold-pattern] stop=False
     energy.electric-furnaces -> primary (2 occurrences)
   Term: 'Shell building' [bold-pattern] stop=False
-    machine-tools.casting -> primary (2 occurrences)
+    metals.casting -> primary (2 occurrences)
   Term: 'Shell construction' [bold-pattern] stop=False
     chemistry.distillation -> primary (1 occurrences)
   Term: 'Shell fabrication' [bold-pattern] stop=False
@@ -17460,9 +17460,9 @@ Processing 8266 terms...
   Term: 'Shell geometry' [bold-pattern] stop=False
     energy.electric-furnaces -> primary (2 occurrences)
   Term: 'Shell removal and assembly' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Shell removal and finishing' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Shellac dust explosion' [bold-pattern] stop=False
   Term: 'Shellac's enduring value' [bold-pattern] stop=False
   Term: 'Shellolic acid' [bold-pattern] stop=False
@@ -17502,9 +17502,9 @@ Processing 8266 terms...
     polymers.thermosets -> secondary (5 occurrences)
   Term: 'Shrinkage allowance' [bold-pattern] stop=False
     machine-tools -> mentioned (1 occurrences)
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Shrinkage porosity' [bold-pattern] stop=False
-    machine-tools.casting -> primary (2 occurrences)
+    metals.casting -> primary (2 occurrences)
   Term: 'Shrinkage stoping' [bold-pattern] stop=False
     mining.extraction -> primary (1 occurrences)
   Term: 'Shrinking' [bold-pattern] stop=False
@@ -17943,7 +17943,7 @@ Processing 8266 terms...
   Term: 'Small (5-10 MVA)' [bold-pattern] stop=False
     silicon.mg-si-production -> primary (1 occurrences)
   Term: 'Small batch production' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Small cryogenic ASU' [bold-pattern] stop=False
     chemistry.air-separation -> primary (1 occurrences)
   Term: 'Small-scale (cold process)' [bold-pattern] stop=False
@@ -18222,7 +18222,7 @@ Processing 8266 terms...
   Term: 'Sound interpretation' [bold-pattern] stop=False
     health.medicine -> primary (1 occurrences)
   Term: 'Sound test' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Soundness (expansion testing)' [bold-pattern] stop=False
     chemistry.cement -> primary (1 occurrences)
   Term: 'Soundness (Le Chatelier test)' [bold-pattern] stop=False
@@ -18502,7 +18502,7 @@ Processing 8266 terms...
   Term: 'Springback compensation' [bold-pattern] stop=False
     machine-tools.forming -> primary (1 occurrences)
   Term: 'Sprue' [bold-pattern] stop=False
-    machine-tools.casting -> primary (15 occurrences)
+    metals.casting -> primary (15 occurrences)
   Term: 'Sputtering' [bold-pattern] stop=False
     photolithography -> mentioned (1 occurrences)
     photolithography.fab-processes -> primary (8 occurrences)
@@ -19126,7 +19126,7 @@ Processing 8266 terms...
   Term: 'Striae' [bold-pattern] stop=False
     optics.inspection -> primary (3 occurrences)
   Term: 'Strike off' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Strike plating' [bold-pattern] stop=False
     metals.finishing -> primary (1 occurrences)
   Term: 'String heddles' [bold-pattern] stop=False
@@ -19376,7 +19376,7 @@ Processing 8266 terms...
     foundations.tools-basic -> primary (1 occurrences)
   Term: 'Surface finish' [bold-pattern] stop=False
     machine-tools.bearings-abrasives -> mentioned (2 occurrences)
-    machine-tools.casting -> secondary (4 occurrences)
+    metals.casting -> secondary (4 occurrences)
     machine-tools.forming -> mentioned (1 occurrences)
     machine-tools.iterative-bootstrap -> secondary (3 occurrences)
     machine-tools.machining -> primary (8 occurrences)
@@ -19515,7 +19515,7 @@ Processing 8266 terms...
     textiles.weaving -> primary (1 occurrences)
   Term: 'Table' [bold-pattern] stop=False
     machine-tools.bearings-abrasives -> secondary (3 occurrences)
-    machine-tools.casting -> mentioned (1 occurrences)
+    metals.casting -> mentioned (1 occurrences)
     machine-tools.forming -> secondary (9 occurrences)
     machine-tools.iterative-bootstrap -> primary (14 occurrences)
     machine-tools.joining -> secondary (5 occurrences)
@@ -19607,7 +19607,7 @@ Processing 8266 terms...
     energy.wind -> secondary (4 occurrences)
     machine-tools -> mentioned (1 occurrences)
     machine-tools.bearings-abrasives -> primary (13 occurrences)
-    machine-tools.casting -> secondary (8 occurrences)
+    metals.casting -> secondary (8 occurrences)
     machine-tools.forming -> mentioned (2 occurrences)
     machine-tools.iterative-bootstrap -> secondary (6 occurrences)
     machine-tools.joining -> secondary (4 occurrences)
@@ -19748,7 +19748,7 @@ Processing 8266 terms...
     health.occupational-health -> mentioned (2 occurrences)
     health.pharmacology -> secondary (24 occurrences)
     health.sanitation -> secondary (3 occurrences)
-    machine-tools.casting -> secondary (13 occurrences)
+    metals.casting -> secondary (13 occurrences)
     machine-tools.forming -> primary (9 occurrences)
     machine-tools.iterative-bootstrap -> mentioned (1 occurrences)
     machine-tools.joining -> secondary (15 occurrences)
@@ -19822,7 +19822,7 @@ Processing 8266 terms...
   Term: 'Temperature must reach 900°C' [bold-pattern] stop=False
     ceramics.lime -> primary (1 occurrences)
   Term: 'Temperature needed' [bold-pattern] stop=False
-    machine-tools.casting -> primary (2 occurrences)
+    metals.casting -> primary (2 occurrences)
   Term: 'Temperature profile' [bold-pattern] stop=False
     silicon.mg-si-production -> primary (1 occurrences)
   Term: 'Temperature profile and volatile release' [bold-pattern] stop=False
@@ -19921,7 +19921,7 @@ Processing 8266 terms...
     chemistry.soap -> secondary (4 occurrences)
     chemistry.solvents -> mentioned (1 occurrences)
     machine-tools.bearings-abrasives -> mentioned (2 occurrences)
-    machine-tools.casting -> primary (7 occurrences)
+    metals.casting -> primary (7 occurrences)
     machine-tools.forming -> mentioned (2 occurrences)
     machine-tools.iterative-bootstrap -> secondary (4 occurrences)
     machine-tools.joining -> secondary (11 occurrences)
@@ -20345,7 +20345,7 @@ Processing 8266 terms...
   Term: 'Tolerances' [bold-pattern] stop=False
     machine-tools -> mentioned (1 occurrences)
     machine-tools.bearings-abrasives -> secondary (6 occurrences)
-    machine-tools.casting -> secondary (3 occurrences)
+    metals.casting -> secondary (3 occurrences)
     machine-tools.forming -> secondary (7 occurrences)
     machine-tools.iterative-bootstrap -> secondary (9 occurrences)
     machine-tools.machining -> primary (12 occurrences)
@@ -20709,7 +20709,7 @@ Processing 8266 terms...
   Term: 'Turbidity' [bold-pattern] stop=False
     health.sanitation -> primary (9 occurrences)
   Term: 'Turbine blades' [bold-pattern] stop=False
-    machine-tools.casting -> primary (2 occurrences)
+    metals.casting -> primary (2 occurrences)
   Term: 'Turbine components' [bold-pattern] stop=False
     ceramics.advanced-ceramics -> primary (1 occurrences)
   Term: 'Turbine inlet temperature (TIT)' [bold-pattern] stop=False
@@ -20994,7 +20994,7 @@ Processing 8266 terms...
     energy.storage -> secondary (12 occurrences)
     energy.wind -> secondary (9 occurrences)
     machine-tools.bearings-abrasives -> primary (20 occurrences)
-    machine-tools.casting -> secondary (27 occurrences)
+    metals.casting -> secondary (27 occurrences)
     machine-tools.forming -> secondary (21 occurrences)
     machine-tools.iterative-bootstrap -> secondary (16 occurrences)
     machine-tools.joining -> secondary (25 occurrences)
@@ -21155,7 +21155,7 @@ Processing 8266 terms...
   Term: 'VAD (Vapor Axial Deposition)' [bold-pattern] stop=False
     glass.fibers -> primary (1 occurrences)
   Term: 'Valve bodies' [bold-pattern] stop=False
-    machine-tools.casting -> primary (4 occurrences)
+    metals.casting -> primary (4 occurrences)
   Term: 'Valve conductance' [bold-pattern] stop=False
     gas-handling.vacuum -> primary (2 occurrences)
   Term: 'Valve seat machining' [bold-pattern] stop=False
@@ -21267,7 +21267,7 @@ Processing 8266 terms...
     health.medicine -> mentioned (1 occurrences)
     health.occupational-health -> primary (16 occurrences)
     health.sanitation -> secondary (3 occurrences)
-    machine-tools.casting -> primary (5 occurrences)
+    metals.casting -> primary (5 occurrences)
     machine-tools.joining -> primary (4 occurrences)
     transport.railways -> mentioned (1 occurrences)
     transport.roads -> primary (2 occurrences)
@@ -21356,7 +21356,7 @@ Processing 8266 terms...
     chemistry.refractories -> mentioned (1 occurrences)
     knowledge.printing -> primary (4 occurrences)
   Term: 'Visual' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
     machine-tools.joining -> secondary (6 occurrences)
   Term: 'Visual color estimation' [bold-pattern] stop=False
     foundations.fire -> primary (1 occurrences)
@@ -21574,7 +21574,7 @@ Processing 8266 terms...
     health.pharmacology -> primary (32 occurrences)
     health.sanitation -> secondary (98 occurrences)
     machine-tools.bearings-abrasives -> secondary (4 occurrences)
-    machine-tools.casting -> primary (7 occurrences)
+    metals.casting -> primary (7 occurrences)
     machine-tools.forming -> secondary (9 occurrences)
     machine-tools.iterative-bootstrap -> mentioned (1 occurrences)
     machine-tools.joining -> secondary (9 occurrences)
@@ -22255,7 +22255,7 @@ Processing 8266 terms...
     mining.processing -> primary (1 occurrences)
     silicon.mg-si-production -> primary (1 occurrences)
   Term: 'X-ray radiography' [bold-pattern] stop=False
-    machine-tools.casting -> primary (1 occurrences)
+    metals.casting -> primary (1 occurrences)
   Term: 'Xenon (Xe)' [bold-pattern] stop=False
     chemistry.air-separation -> primary (1 occurrences)
   Term: 'XLPE insulation' [bold-pattern] stop=False

@@ -5017,7 +5017,7 @@
       "slug": "apply-parting-compoundglossaryapply-parting-compoundmd",
       "definition": "(dry silica flour or talc) to prevent cope sand from sticking to drag sand.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -5026,7 +5026,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -6320,7 +6320,7 @@
       "slug": "brassglossarybrassmd",
       "definition": "(copper-zinc alloy, typically 60-70% Cu, 30-40% Zn): Melts at ~900-940°C. Zinc boils at 907°C — generates zinc vapor (toxic, causes \"brass founder's ague\"). Requires forced ventilation. Used for valves, fittings, decorative hardware.",
       "source_articles": [
-        "machine-tools.casting",
+        "metals.casting",
         "metals.non-ferrous"
       ],
       "domains": [
@@ -6331,7 +6331,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting",
+        "metals.casting",
         "metals.non-ferrous"
       ],
       "needs_image": false,
@@ -6403,7 +6403,7 @@
       "slug": "bronzeglossarybronzemd",
       "definition": "(copper-tin alloy, typically 88-92% Cu, 8-12% Sn): Melts at ~950°C. Easier to cast than iron — lower temperature, more fluid, less shrinkage. Ideal for bearings, bushings, gears, decorative hardware, and marine fittings. Very low shrinkage (~1%) reduces casting defects.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -6412,7 +6412,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -9342,7 +9342,7 @@
     {
       "term": "[Copper & Bronze](copper-bronze.md)",
       "slug": "copper-bronzecopper-bronzemd",
-      "definition": "brass production (Cu-Zn alloy) - **[Sulfuric Acid](../chemistry/sulfuric-acid.md)**: co-produced from zinc roaster off-gas - **[Electrolysis](../chemistry/electrolysis.md)**: zinc electrowinning technology - **[Die Casting](../machine-tools/casting.md)**: zinc alloy die-casting processes - **[Refractories](../chemistry/refractories.md)**: furnace linings for zinc distillation",
+      "definition": "brass production (Cu-Zn alloy) - **[Sulfuric Acid](../chemistry/sulfuric-acid.md)**: co-produced from zinc roaster off-gas - **[Electrolysis](../chemistry/electrolysis.md)**: zinc electrowinning technology - **[Die Casting](../metals/casting.md)**: zinc alloy die-casting processes - **[Refractories](../chemistry/refractories.md)**: furnace linings for zinc distillation",
       "source_articles": [
         "metals.zinc"
       ],
@@ -10415,7 +10415,7 @@
       "created": false
     },
     {
-      "term": "[Die Casting](../machine-tools/casting.md)",
+      "term": "[Die Casting](../metals/casting.md)",
       "slug": "die-castingmachine-toolscastingmd",
       "definition": "zinc alloy die-casting processes - **[Refractories](../chemistry/refractories.md)**: furnace linings for zinc distillation",
       "source_articles": [
@@ -13957,7 +13957,7 @@
       "slug": "flip-dragglossaryflip-dragmd",
       "definition": "over. The pattern face is now facing up.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -13966,7 +13966,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -23187,7 +23187,7 @@
       "slug": "place-copeglossaryplace-copemd",
       "definition": "(top flask half) on the drag. Align with locating pins.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -23196,7 +23196,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -23207,7 +23207,7 @@
       "slug": "place-coresglossaryplace-coresmd",
       "definition": "(if any) in the mold cavity, supported by core prints.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -23216,7 +23216,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -23227,7 +23227,7 @@
       "slug": "place-patternglossaryplace-patternmd",
       "definition": "on the drag (bottom flask half) with the parting face down.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -23236,7 +23236,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -24674,7 +24674,7 @@
       "slug": "ram-sandglossaryram-sandmd",
       "definition": "around pattern — firm but not rock-hard. Use peen end of rammer near pattern (concentrates force), flat end elsewhere (uniform compaction). Add sand in layers, ram each layer.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -24683,7 +24683,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -25244,7 +25244,7 @@
       "slug": "risersglossaryrisersmd",
       "definition": "(feeders): Vertical reservoirs of molten metal connected to the casting at the top. As the casting solidifies and shrinks, the riser supplies liquid metal to compensate. Risers must be larger than the casting section they feed (so they freeze last). Top risers are most common; side risers for horizontal sections.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -25253,7 +25253,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -26353,7 +26353,7 @@
       "slug": "separate-flask-halvesglossaryseparate-flask-halvesmd",
       "definition": "(lift cope off drag carefully).",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -26362,7 +26362,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -26393,7 +26393,7 @@
       "slug": "set-sprue-pinglossaryset-sprue-pinmd",
       "definition": "(vertical round stick, 20-30 mm diameter) where you want the pouring hole. Set riser pins (slightly smaller) at the highest points of the casting to feed shrinkage.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -26402,7 +26402,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -28571,7 +28571,7 @@
       "slug": "strike-offglossarystrike-offmd",
       "definition": "excess sand level with the top of the flask.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -28580,7 +28580,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -28749,7 +28749,7 @@
     {
       "term": "[Sulfuric Acid](../chemistry/sulfuric-acid.md)",
       "slug": "sulfuric-acidchemistrysulfuric-acidmd",
-      "definition": "co-produced from zinc roaster off-gas - **[Electrolysis](../chemistry/electrolysis.md)**: zinc electrowinning technology - **[Die Casting](../machine-tools/casting.md)**: zinc alloy die-casting processes - **[Refractories](../chemistry/refractories.md)**: furnace linings for zinc distillation",
+      "definition": "co-produced from zinc roaster off-gas - **[Electrolysis](../chemistry/electrolysis.md)**: zinc electrowinning technology - **[Die Casting](../metals/casting.md)**: zinc alloy die-casting processes - **[Refractories](../chemistry/refractories.md)**: furnace linings for zinc distillation",
       "source_articles": [
         "metals.zinc"
       ],
@@ -36695,7 +36695,7 @@
       "definition": "Coal dust (2-5%, \"sea coal\") improves surface finish by generating a reducing atmosphere at the mold-metal interface. Cereal binder (1-2%, wheat flour) improves green strength for deep pockets.",
       "source_articles": [
         "electrochemistry.anodizing",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "electrochemistry",
@@ -36706,7 +36706,7 @@
       "see_also": [],
       "node_refs": [
         "electrochemistry.anodizing",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -37584,7 +37584,7 @@
         "gas-handling.vacuum",
         "health.sanitation",
         "machine-tools.bearings-abrasives",
-        "machine-tools.casting",
+        "metals.casting",
         "machine-tools.forming",
         "machine-tools.joining",
         "metals.aluminum",
@@ -37640,7 +37640,7 @@
         "gas-handling.vacuum",
         "health.sanitation",
         "machine-tools.bearings-abrasives",
-        "machine-tools.casting",
+        "metals.casting",
         "machine-tools.forming",
         "machine-tools.joining",
         "metals.aluminum",
@@ -41877,7 +41877,7 @@
       "slug": "aluminum-sourcing",
       "definition": "Scrap aluminum (post-collapse salvage — beverage cans, window frames, engine parts), or primary aluminum from bauxite smelting (Hall-Héroult process — much harder, requires substantial electrical energy and chemistry infrastructure). For bootstrap purposes, scrap or salvage is assumed available.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -41886,7 +41886,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -49698,7 +49698,7 @@
       "slug": "backup-coats",
       "definition": "3-5 additional coats with coarser slurry (colloidal silica + molochite flour). Stucco with progressively coarser grain (30-80 mesh). Each coat dries 2-4 hours. Total shell: 6-12 mm thick (5-7 coats).",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -49707,7 +49707,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -54803,7 +54803,7 @@
       "definition": "Mix charcoal fines with 5-15% binder by weight. Binders: clay (cheapest, reduces energy density), starch paste (good, requires flour), molasses (excellent, requires sugar processing), or coal tar pitch (strongest, requires coke ovens).",
       "source_articles": [
         "energy.fuels.charcoal",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "energy",
@@ -54814,7 +54814,7 @@
       "see_also": [],
       "node_refs": [
         "energy.fuels.charcoal",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -57359,7 +57359,7 @@
       "slug": "blowholes",
       "definition": "Large gas cavities from mold reactions (moisture, binders, core gases). Fix: increase sand permeability (coarser sand), vent the mold (poke vent holes through cope sand to atmosphere), use clean, dry sand.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -57368,7 +57368,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -63284,7 +63284,7 @@
       "definition": "Heat to 400-600°C to melt and drain wax. Raise to ~800-900°C to fire clay hard and burn residual wax. 4. **Pour**: Pour molten copper/bronze at 1080-1150°C into hot mold (improves flow, reduces defects). 5. **Finish**: Cool slowly, break away inv... See: [Copper & Bronze Production](../metals/copper-bronze.md)",
       "source_articles": [
         "",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.copper-bronze"
       ],
       "domains": [
@@ -63297,7 +63297,7 @@
       "see_also": [],
       "node_refs": [
         "",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.copper-bronze"
       ],
       "needs_image": false,
@@ -66709,7 +66709,7 @@
         "foundations.food-agriculture",
         "knowledge.libraries",
         "knowledge.writing",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.iron-steel",
         "metals.iron-steel.blast-furnace",
         "telecom.telephone",
@@ -66749,7 +66749,7 @@
         "foundations.food-agriculture",
         "knowledge.libraries",
         "knowledge.writing",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.iron-steel",
         "metals.iron-steel.blast-furnace",
         "telecom.telephone",
@@ -73157,7 +73157,7 @@
         "energy.electric-furnaces",
         "energy.fuels.coke",
         "energy.storage",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.copper-bronze",
         "silicon.crystal-growth"
       ],
@@ -73176,7 +73176,7 @@
         "energy.electric-furnaces",
         "energy.fuels.coke",
         "energy.storage",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.copper-bronze",
         "silicon.crystal-growth"
       ],
@@ -73331,7 +73331,7 @@
       "source_articles": [
         "energy.redox-flow-battery",
         "energy.storage",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "energy",
@@ -73343,7 +73343,7 @@
       "node_refs": [
         "energy.redox-flow-battery",
         "energy.storage",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -75413,7 +75413,7 @@
       "slug": "chills",
       "definition": "Metal inserts (cast iron or copper) placed in the mold at thick sections to accelerate local solidification. Direct solidification toward the riser. Prevents shrinkage porosity in heavy sections.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -75422,7 +75422,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -78134,7 +78134,7 @@
         "gas-handling.vacuum",
         "glass.photomask-substrates",
         "health.medicine",
-        "machine-tools.casting",
+        "metals.casting",
         "photolithography.resists-masks"
       ],
       "domains": [
@@ -78155,7 +78155,7 @@
         "gas-handling.vacuum",
         "glass.photomask-substrates",
         "health.medicine",
-        "machine-tools.casting",
+        "metals.casting",
         "photolithography.resists-masks"
       ],
       "needs_image": false,
@@ -78913,7 +78913,7 @@
       "slug": "close-mold",
       "definition": "Place cope back on drag. Weight down or clamp — the buoyant force of molten metal on a large core can lift the cope off (a \"floating\" or \"runout\" disaster).",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -78922,7 +78922,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -81709,7 +81709,7 @@
       "slug": "cold-shuts-and-misruns",
       "definition": "Metal freezes before mold fills completely. Cold shut = visible seam where two metal streams meet without fusing. Misrun = missing sections. Fix: increase pouring temperature 20-50°C, widen gates, reduce pour distance, preheat molds.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -81718,7 +81718,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -89001,7 +89001,7 @@
         "foundations.water-procurement",
         "gas-handling.basic",
         "gas-handling.vacuum",
-        "machine-tools.casting",
+        "metals.casting",
         "machine-tools.edm-cnc",
         "machine-tools.iterative-bootstrap",
         "measurement.optical-instruments",
@@ -89090,7 +89090,7 @@
         "foundations.water-procurement",
         "gas-handling.basic",
         "gas-handling.vacuum",
-        "machine-tools.casting",
+        "metals.casting",
         "machine-tools.edm-cnc",
         "machine-tools.iterative-bootstrap",
         "measurement.optical-instruments",
@@ -91592,7 +91592,7 @@
         "ehs.waste-management",
         "gas-handling.basic",
         "health.sanitation",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.specialty-semiconductor"
       ],
       "domains": [
@@ -91614,7 +91614,7 @@
         "ehs.waste-management",
         "gas-handling.basic",
         "health.sanitation",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.specialty-semiconductor"
       ],
       "needs_image": false,
@@ -92582,7 +92582,7 @@
       "slug": "core-prints",
       "definition": "If the part has internal passages (hollow sections), include locating surfaces (core prints) on the pattern where the sand core will be supported.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -92591,7 +92591,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -94736,7 +94736,7 @@
       "slug": "cracking",
       "definition": "Alligator cracking (interconnected cracks in a pattern resembling alligator skin) indicates fatigue failure of the pavement layers or insufficient structural capacity. Block cracking (large rectangular blocks) indicates age hardening of the asphalt binder. Transverse cracks across the full road width are thermal contraction cracks from temperature cycling.",
       "source_articles": [
-        "machine-tools.casting",
+        "metals.casting",
         "transport.roads"
       ],
       "domains": [
@@ -94747,7 +94747,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting",
+        "metals.casting",
         "transport.roads"
       ],
       "needs_image": false,
@@ -96780,7 +96780,7 @@
       "slug": "crucible",
       "definition": "Steel pipe with welded bottom plate, or fired clay-graphite crucible. 5-15 kg capacity for startup. Larger crucibles (25-50 kg) for production work.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -96789,7 +96789,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -99012,7 +99012,7 @@
       "slug": "cut-gates",
       "definition": "Carve channels in the drag connecting the sprue base to the mold cavity. Gate should enter the cavity at the thickest section. Gate cross-section should be smaller than the sprue to ensure the gate freezes first (prevents back-feeding of shrinkage).",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -99021,7 +99021,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -103559,7 +103559,7 @@
       "source_articles": [
         "",
         "chemistry.lubricants",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.aluminum"
       ],
       "domains": [
@@ -103574,7 +103574,7 @@
       "node_refs": [
         "",
         "chemistry.lubricants",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.aluminum"
       ],
       "needs_image": false,
@@ -106717,7 +106717,7 @@
       "slug": "dewaxing",
       "definition": "Heat shell to 100-200°C in oven or autoclave. Wax melts and drains through sprue opening. Collect and reuse wax. Flash-fire alternative: heat rapidly to 800-900°C (wax burns out, produces smoke — requires ventilation).",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -106726,7 +106726,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -109033,7 +109033,7 @@
       "definition": "Verify critical dimensions against pattern with calipers, gauges, and straight edges. Check for warpage and twist.",
       "source_articles": [
         "electronics.pcb-fabrication",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "electronics",
@@ -109044,7 +109044,7 @@
       "see_also": [],
       "node_refs": [
         "electronics.pcb-fabrication",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -113301,7 +113301,7 @@
       "slug": "draft-angles",
       "definition": "1-3° taper on all vertical surfaces so the pattern releases from sand without tearing the mold cavity. Without draft, the pattern binds and destroys the mold on extraction.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -113310,7 +113310,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -134306,7 +134306,7 @@
       "slug": "fillets",
       "definition": "Round all internal corners (2-5 mm radius). Sharp corners cause stress concentrations in the casting and promote shrinkage cracking. Use leather or wax fillets pressed into the pattern.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -134315,7 +134315,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -136211,7 +136211,7 @@
       "source_articles": [
         "economics-organization.accounting",
         "energy.electricity",
-        "machine-tools.casting",
+        "metals.casting",
         "plants.structural-plants"
       ],
       "domains": [
@@ -136226,7 +136226,7 @@
       "node_refs": [
         "economics-organization.accounting",
         "energy.electricity",
-        "machine-tools.casting",
+        "metals.casting",
         "plants.structural-plants"
       ],
       "needs_image": false,
@@ -142403,7 +142403,7 @@
       "slug": "fracture-test",
       "definition": "Break a test bar from the same pour. Examine fracture surface for grain structure, gas porosity, and inclusions.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -142412,7 +142412,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -144285,7 +144285,7 @@
       "source_articles": [
         "ceramics.pottery",
         "energy.fuels.coke",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.iron-steel.blast-furnace",
         "telecom.pre-electric",
         "transport.aviation",
@@ -144305,7 +144305,7 @@
       "node_refs": [
         "ceramics.pottery",
         "energy.fuels.coke",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.iron-steel.blast-furnace",
         "telecom.pre-electric",
         "transport.aviation",
@@ -144696,7 +144696,7 @@
     {
       "term": "Fuel production",
       "slug": "fuel-production",
-      "definition": "[Fuel Production](fuels.md), [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md) - **Metalworking for engine blocks**: [Metal Casting](../machine-tools/casting.md), [Machining](../machine-tools/machining.md) - **Bearings and lubrication**: [Bearings, Abrasives & Cutting Tools](../machine-tools/bearings-abrasives.md), [Lubricants](../chemistry/lubricants.md) - **Steam engines** (external combustion predecessor): [Steam Power](steam-power.md) - **Aviation applications**:...",
+      "definition": "[Fuel Production](fuels.md), [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md) - **Metalworking for engine blocks**: [Metal Casting](../metals/casting.md), [Machining](../machine-tools/machining.md) - **Bearings and lubrication**: [Bearings, Abrasives & Cutting Tools](../machine-tools/bearings-abrasives.md), [Lubricants](../chemistry/lubricants.md) - **Steam engines** (external combustion predecessor): [Steam Power](steam-power.md) - **Aviation applications**:...",
       "source_articles": [
         "energy.engine"
       ],
@@ -145790,7 +145790,7 @@
       "slug": "furnace-design",
       "definition": "Cupola furnace (vertical shaft furnace, similar to a small blast furnace) for continuous cast iron production. Or reverberatory furnace for batch melting. The cupola is more fuel-efficient for sustained production; the reverberatory is simpler for batch work.",
       "source_articles": [
-        "machine-tools.casting",
+        "metals.casting",
         "photolithography.fab-processes"
       ],
       "domains": [
@@ -145801,7 +145801,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting",
+        "metals.casting",
         "photolithography.fab-processes"
       ],
       "needs_image": false,
@@ -147860,7 +147860,7 @@
       "slug": "gas-porosity",
       "definition": "Round, scattered bubbles from dissolved gas (hydrogen in aluminum, nitrogen in iron) or moisture in sand/mold. Fix: degas aluminum melts with chlorine or nitrogen purge, dry molds thoroughly, control sand moisture to 3-6%. Gas porosity appears as bright, rounded pits on fracture surfaces.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -147869,7 +147869,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -148442,7 +148442,7 @@
       "slug": "gate-and-riser-removal",
       "definition": "Cut off with abrasive wheel, bandsaw, or pneumatic chisel. Grind stubs flush with surrounding surface.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -148451,7 +148451,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -148742,7 +148742,7 @@
       "slug": "gates",
       "definition": "Connections from runner to mold cavity. Should enter at thick sections of the casting. Multiple gates for large or thin-walled castings to fill uniformly.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -148751,7 +148751,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -158869,7 +158869,7 @@
         "foundations.tools-basic",
         "gas-handling.cylinder-filling",
         "machine-tools.bearings-abrasives",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.alloys",
         "metals.iron-steel"
       ],
@@ -158886,7 +158886,7 @@
         "foundations.tools-basic",
         "gas-handling.cylinder-filling",
         "machine-tools.bearings-abrasives",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.alloys",
         "metals.iron-steel"
       ],
@@ -168224,7 +168224,7 @@
       "slug": "inclusions",
       "definition": "Sand grains, slag, or dross trapped in the casting body. Fix: skim dross before pouring, use ceramic foam filters in gating system, control sand compaction to prevent mold erosion, use a slag trap in the runner (a well before the gate that catches heavy slag).",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -168233,7 +168233,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -170522,7 +170522,7 @@
       "slug": "injection-dies",
       "definition": "Carve or machine aluminum dies. Inject molten wax (paraffin-microcrystalline blend, melts at 60-80°C) at 0.1-0.3 MPa. For simple shapes, hand-carve patterns directly from wax blocks.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -170531,7 +170531,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -172048,7 +172048,7 @@
       "definition": "Fine detail, thin walls, excellent surface finish - **Jewelry and dental**: Precious metals, high detail - **Small batch production**: Where pattern cost is justified by reduced machining",
       "source_articles": [
         "",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "glossary",
@@ -172059,7 +172059,7 @@
       "see_also": [],
       "node_refs": [
         "",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -176335,7 +176335,7 @@
       "definition": "Precious metals, high detail - **Small batch production**: Where pattern cost is justified by reduced machining",
       "source_articles": [
         "",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "glossary",
@@ -176346,7 +176346,7 @@
       "see_also": [],
       "node_refs": [
         "",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -185750,7 +185750,7 @@
         "gas-handling.vacuum",
         "health.sanitation",
         "knowledge.printing",
-        "machine-tools.casting",
+        "metals.casting",
         "machine-tools.forming",
         "machine-tools.joining",
         "marine.propulsion",
@@ -185802,7 +185802,7 @@
         "gas-handling.vacuum",
         "health.sanitation",
         "knowledge.printing",
-        "machine-tools.casting",
+        "metals.casting",
         "machine-tools.forming",
         "machine-tools.joining",
         "marine.propulsion",
@@ -190216,7 +190216,7 @@
         "ceramics.electronic-ceramics",
         "gas-handling.cylinder-filling",
         "knowledge.education",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "ceramics",
@@ -190233,7 +190233,7 @@
         "ceramics.electronic-ceramics",
         "gas-handling.cylinder-filling",
         "knowledge.education",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -194326,7 +194326,7 @@
         "gas-handling.basic",
         "gas-handling.vacuum",
         "health.medicine",
-        "machine-tools.casting",
+        "metals.casting",
         "machine-tools.joining",
         "measurement.precision-metrology",
         "metals.iron-steel",
@@ -194356,7 +194356,7 @@
         "gas-handling.basic",
         "gas-handling.vacuum",
         "health.medicine",
-        "machine-tools.casting",
+        "metals.casting",
         "machine-tools.joining",
         "measurement.precision-metrology",
         "metals.iron-steel",
@@ -197622,7 +197622,7 @@
       "slug": "melting-time",
       "definition": "20-40 minutes for 5 kg charge. Skim dross (aluminum oxide skin) before pouring — dross inclusions are the most common defect in aluminum castings.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -197631,7 +197631,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -200244,7 +200244,7 @@
     {
       "term": "Metalworking for engine blocks",
       "slug": "metalworking-for-engine-blocks",
-      "definition": "[Metal Casting](../machine-tools/casting.md), [Machining](../machine-tools/machining.md) - **Bearings and lubrication**: [Bearings, Abrasives & Cutting Tools](../machine-tools/bearings-abrasives.md), [Lubricants](../chemistry/lubricants.md) - **Steam engines** (external combustion predecessor): [Steam Power](steam-power.md) - **Aviation applications**: [Aviation](../transport/aviation.md) - **Electrical generation**: [Electricity Generation & Distribution](electricity.md)",
+      "definition": "[Metal Casting](../metals/casting.md), [Machining](../machine-tools/machining.md) - **Bearings and lubrication**: [Bearings, Abrasives & Cutting Tools](../machine-tools/bearings-abrasives.md), [Lubricants](../chemistry/lubricants.md) - **Steam engines** (external combustion predecessor): [Steam Power](steam-power.md) - **Aviation applications**: [Aviation](../transport/aviation.md) - **Electrical generation**: [Electricity Generation & Distribution](electricity.md)",
       "source_articles": [
         "",
         "energy.engine"
@@ -203648,7 +203648,7 @@
         "`chemistry.refractories`",
         "chemistry.soap",
         "energy.electric-furnaces.electrode-manufacturing",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.aluminum"
       ],
       "domains": [
@@ -203666,7 +203666,7 @@
         "`chemistry.refractories`",
         "chemistry.soap",
         "energy.electric-furnaces.electrode-manufacturing",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.aluminum"
       ],
       "needs_image": false,
@@ -204606,7 +204606,7 @@
       "slug": "moisture-explosions",
       "definition": "The most lethal foundry hazard. Any moisture — damp sand, wet molds, condensation on tools, sweat on the floor — in contact with molten metal produces a steam explosion that launches metal in all directions. 1 gram of water → 1.7 liters of steam at 100°C, expanding to 3000+ liters at iron temperatures. Preheat molds to 200-400°C before pouring. Preheat ladles and crucibles. NEVER pour on concrete — use dry sand bed or metal drip tray.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -204615,7 +204615,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -205286,7 +205286,7 @@
       "slug": "molten-metal-hazards",
       "definition": "Cast iron at 1300-1400°C and steel at 1500-1600°C cause catastrophic burns on contact. Metal flows like water and adheres to skin. Aluminum at 700-750°C is less dramatic but equally dangerous — it can wet and stick to clothing, causing deep burns that are difficult to remove.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -205295,7 +205295,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -215841,7 +215841,7 @@
         "computing.mechanical",
         "energy.fuels.coke",
         "health.sanitation",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.iron-steel",
         "metals.iron-steel.blast-furnace",
         "software-bootstrapping.dev-tools",
@@ -215872,7 +215872,7 @@
         "computing.mechanical",
         "energy.fuels.coke",
         "health.sanitation",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.iron-steel",
         "metals.iron-steel.blast-furnace",
         "software-bootstrapping.dev-tools",
@@ -221916,7 +221916,7 @@
       "slug": "parting-line",
       "definition": "Design pattern so it splits at the mold parting line (cope/drag boundary). One-piece patterns work for simple shapes; split patterns (two halves joined by dowel pins) for complex shapes.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -221925,7 +221925,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -222706,7 +222706,7 @@
       "slug": "pattern-assembly-tree-construction",
       "definition": "Attach individual patterns to a central wax sprue using a heated spatula. Typical tree: 5-50 patterns depending on part size. Gate connections must be ~3-6 mm thick to feed metal without freezing off.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -222715,7 +222715,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -233370,7 +233370,7 @@
       "source_articles": [
         "ceramics.pottery",
         "chemistry.electrolysis.sem-tech",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.iron-steel.blast-furnace",
         "silicon.mg-si-production"
       ],
@@ -233387,7 +233387,7 @@
       "node_refs": [
         "ceramics.pottery",
         "chemistry.electrolysis.sem-tech",
-        "machine-tools.casting",
+        "metals.casting",
         "metals.iron-steel.blast-furnace",
         "silicon.mg-si-production"
       ],
@@ -238070,7 +238070,7 @@
       "source_articles": [
         "chemistry.e-methanol",
         "chemistry.electrodialysis",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "chemistry",
@@ -238082,7 +238082,7 @@
       "node_refs": [
         "chemistry.e-methanol",
         "chemistry.electrodialysis",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -238805,7 +238805,7 @@
       "slug": "prime-coat",
       "definition": "Dip pattern tree in fine slurry (colloidal silica binder + zircon flour, 200-325 mesh). Drain excess, stucco with fine zircon sand (80-120 mesh). Dry 2-4 hours at 40-60% relative humidity.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -238814,7 +238814,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -242809,7 +242809,7 @@
       "definition": "Full face shield (not just safety glasses — splashes go over glasses), leather foundry apron, heat-resistant gloves, steel-toed foundry boots with metatarsal guards, long sleeves with no exposed skin. Preheat and inspect all tools (ladles, skimmers, tongs) that will contact molten metal — cold or damp tools cause violent splatter.",
       "source_articles": [
         "animals.beekeeping",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "animals",
@@ -242820,7 +242820,7 @@
       "see_also": [],
       "node_refs": [
         "animals.beekeeping",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -254019,7 +254019,7 @@
       "slug": "remove-pattern",
       "definition": "Rap (tap gently) to loosen, then lift straight up with draw screws or lifting hooks. Do not tilt or drag — it tears the mold cavity.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -254028,7 +254028,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -261699,7 +261699,7 @@
       "definition": "Cast iron or bronze hub with forged steel buckets bolted or cast integrally. Each bucket has a central splitter ridge that divides the incoming jet in half, redirecting each half through approximately 165° for maximum momentum transfer. Buckets are shaped to avoid interfering with the preceding bucket's exhaust.",
       "source_articles": [
         "energy.gravity.water-turbines",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "energy",
@@ -261710,7 +261710,7 @@
       "see_also": [],
       "node_refs": [
         "energy.gravity.water-turbines",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -261821,7 +261821,7 @@
       "slug": "runnergate-design",
       "definition": "Bottom-gating minimizes turbulence. Gates should enter the thickest casting section. Total gate cross-sectional area ≥ sprue area to ensure complete fill.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -261830,7 +261830,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -263996,7 +263996,7 @@
       "definition": "Fine silica sand (60-120 mesh, 90-95% SiO₂). River sand works if clean and fine. Avoid sand with organic matter, clay lumps, or excessive fines.",
       "source_articles": [
         "ceramics.pottery",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "ceramics",
@@ -264007,7 +264007,7 @@
       "see_also": [],
       "node_refs": [
         "ceramics.pottery",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -264018,7 +264018,7 @@
       "slug": "sand-adherence",
       "definition": "Metal penetrates into sand pores, producing a rough, sandy surface. Fix: use finer sand, apply mold wash (zircon flour slurry) to mold cavity surfaces, increase sand compaction.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -264027,7 +264027,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -264258,7 +264258,7 @@
       "slug": "sand-preparation",
       "definition": "Coat fine silica sand (AFS 90-140) with thermosetting phenolic resin (2-4% by weight) and hexamine catalyst (10-15% of resin weight). The resin-coated sand is free-flowing and dry at room temperature.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -264267,7 +264267,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -271870,7 +271870,7 @@
       "slug": "shakeout",
       "definition": "Break the sand mold away from the casting. Manual for small castings; vibratory or rotary shakeout for production. Reclaim sand for reuse (screen to remove lumps, re-mull with water and clay).",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -271879,7 +271879,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -272734,7 +272734,7 @@
       "slug": "shell-building",
       "definition": "Heat the metal pattern (cast iron or steel) to 200-260°C. Invert the pattern box over a dump box filled with resin-coated sand. Flip the assembly so sand covers the hot pattern for 15-30 seconds. The resin cures on contact, forming a shell 5-15 mm thick on the pattern surface. Return the dump box to upright position — uncured sand falls away, leaving only the cured shell on the pattern. Cure the shell for an additional 30-90 seconds on the heated pattern to develop full strength.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -272743,7 +272743,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -272814,7 +272814,7 @@
       "slug": "shell-removal-and-assembly",
       "definition": "Eject the completed shell half from the pattern (the resin's shrinkage on curing provides natural draft). Glue two shell halves together with thermosetting adhesive or mechanical clips. Back the assembled shell mold with steel shot or gravel in a flask for support during pouring.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -272823,7 +272823,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -272834,7 +272834,7 @@
       "slug": "shell-removal-and-finishing",
       "definition": "Once cooled, break ceramic shell with hammer or vibratory knock-off. Cut parts from tree with abrasive wheel. Grind gate stubs flush. Sandblast or machine critical surfaces as needed.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -272843,7 +272843,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -273819,7 +273819,7 @@
       "slug": "shrinkage-allowance",
       "definition": "Make pattern 1-2% oversize. Cast iron shrinks ~1%, aluminum ~1.3%, bronze ~1.5%. The pattern must be larger than the finished part by this amount.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -273828,7 +273828,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -273839,7 +273839,7 @@
       "slug": "shrinkage-porosity",
       "definition": "Irregular angular voids in thick sections where metal contracts without adequate feed metal. Fix: increase riser volume, use chills (metal inserts) to direct solidification toward risers, ensure continuous feed path from riser to thick section.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -273848,7 +273848,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -279909,7 +279909,7 @@
       "definition": "Where pattern cost is justified by reduced machining",
       "source_articles": [
         "",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "glossary",
@@ -279920,7 +279920,7 @@
       "see_also": [],
       "node_refs": [
         "",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -283556,7 +283556,7 @@
       "slug": "sound-test",
       "definition": "Suspend casting on a wire, tap with a hammer. A clear ring indicates a sound casting. A dull thud indicates internal cracks or large porosity.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -283565,7 +283565,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -286963,7 +286963,7 @@
       "slug": "sprue",
       "definition": "Vertical channel from pouring basin to runner. Tapered (wider at top, narrower at bottom) to prevent air aspiration — a straight sprue draws in air as the metal stream accelerates downward.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -286972,7 +286972,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -304163,7 +304163,7 @@
       "slug": "temperature-needed",
       "definition": "~1200-1400°C (cast iron melts ~1150-1250°C depending on carbon content). Requires significant forced air and good insulation.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -304172,7 +304172,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -305040,7 +305040,7 @@
       "definition": "Squeeze sand in hand — should form a coherent cylinder that doesn't crumble when handled, but breaks cleanly when snapped. Breathe on the surface — it should hold the impression of your breath (moisture present but not wet).",
       "source_articles": [
         "ceramics.pottery",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "ceramics",
@@ -305051,7 +305051,7 @@
       "see_also": [],
       "node_refs": [
         "ceramics.pottery",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -316800,7 +316800,7 @@
       "slug": "turbine-blades",
       "definition": "Complex internal cooling passages produced by a ceramic core inside the investment shell - **Valve bodies**: Smooth internal passages, no parting line flash - **Instrument components**: Fine detail, thin walls, excellent surface finish - **Jewelry and dental**: Precious metals, high detail - **Small batch production**: Where pattern cost is justified by reduced machining",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -316809,7 +316809,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -322177,7 +322177,7 @@
       "definition": "Smooth internal passages, no parting line flash - **Instrument components**: Fine detail, thin walls, excellent surface finish - **Jewelry and dental**: Precious metals, high detail - **Small batch production**: Where pattern cost is justified by reduced machining",
       "source_articles": [
         "",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "glossary",
@@ -322188,7 +322188,7 @@
       "see_also": [],
       "node_refs": [
         "",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -323435,7 +323435,7 @@
         "glass.advanced-glassblowing",
         "glass.advanced.glassblowing",
         "health.occupational-health",
-        "machine-tools.casting",
+        "metals.casting",
         "machine-tools.joining",
         "transport.roads"
       ],
@@ -323463,7 +323463,7 @@
         "glass.advanced-glassblowing",
         "glass.advanced.glassblowing",
         "health.occupational-health",
-        "machine-tools.casting",
+        "metals.casting",
         "machine-tools.joining",
         "transport.roads"
       ],
@@ -325049,7 +325049,7 @@
       "definition": "No shorts, opens, nail heads (drill smear), burrs, delamination, measling (micro-cracks in glass-epoxy), blistering.",
       "source_articles": [
         "electronics.pcb-fabrication",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "electronics",
@@ -325060,7 +325060,7 @@
       "see_also": [],
       "node_refs": [
         "electronics.pcb-fabrication",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -327661,7 +327661,7 @@
         "food-processing.fermentation",
         "food-processing.oil-processing",
         "health.pharmacology",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "animals",
@@ -327691,7 +327691,7 @@
         "food-processing.fermentation",
         "food-processing.oil-processing",
         "health.pharmacology",
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,
@@ -336557,7 +336557,7 @@
       "slug": "x-ray-radiography",
       "definition": "For critical castings (machine tool beds, pressure-containing parts) — requires [Electricity](../energy/electricity.md) infrastructure. Reveals internal porosity, inclusions, and cracks non-destructively.",
       "source_articles": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "domains": [
         "machine-tools"
@@ -336566,7 +336566,7 @@
       "aliases": [],
       "see_also": [],
       "node_refs": [
-        "machine-tools.casting"
+        "metals.casting"
       ],
       "needs_image": false,
       "needs_diagram": false,

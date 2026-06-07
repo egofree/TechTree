@@ -11,7 +11,7 @@ foundations	Foundations	foundations				0.0	zero_results	no_match
 foundations.tools-basic	Stone & Wood Tools	foundations				0.0	zero_results	no_match
 foundations.water-procurement	Water Procurement	foundations				0.0	zero_results	no_match
 machine-tools.bearings-abrasives	Bearings, Abrasives & Cutting Tools	machine-tools				0.0	zero_results	no_match
-machine-tools.casting	Metal Casting	machine-tools				0.0	zero_results	no_match
+metals.casting	Metal Casting	machine-tools				0.0	zero_results	no_match
 machine-tools.edm-cnc	EDM, CNC & Precision Grinding	machine-tools				0.0	zero_results	no_match
 machine-tools.forming	Metal Forming	machine-tools				0.0	zero_results	no_match
 machine-tools.iterative-bootstrap	Iterative Machine Bootstrap	machine-tools				0.0	zero_results	no_match

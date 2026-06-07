@@ -96,8 +96,50 @@ precision-motion_internal: "Precision Motion Control — Internal Structure" {
 precision-motion: Precision Motion Control
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+construction: "Construction & Structural Engineering" {
+  shape: rectangle
+}
+energy_electricity: "Electricity Generation & Distribution" {
+  shape: rectangle
+}
+gas-handling: Gas Handling {
+  shape: rectangle
+}
+machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
+machine-tools_edm-cnc: "EDM, CNC & Precision Grinding" {
+  shape: rectangle
+}
+measurement: "Measurement & Instrumentation" {
+  shape: rectangle
+}
+measurement_precision-metrology: "Precision Metrology & Standards" {
+  shape: rectangle
+}
+optics: Optics {
+  shape: rectangle
+}
+photolithography_fab-processes_cmp: "Chemical Mechanical Planarization (CMP)" {
+  shape: rectangle
+}
+vacuum_deposition-systems: Deposition Systems {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
+photolithography_fab-processes_cmp -> precision-motion_nanometer-positioning: { class: tool-edge }
+precision-motion_nanometer-positioning -> energy_electricity: { class: tool-edge }
+precision-motion_nanometer-positioning -> machine-tools_edm-cnc: { class: tool-edge }
+precision-motion_nanometer-positioning -> measurement_precision-metrology: { class: tool-edge }
+precision-motion_precision-encoders -> measurement_precision-metrology: { class: tool-edge }
+precision-motion_precision-encoders -> optics: { class: tool-edge }
+precision-motion_vibration-isolation -> construction: { class: tool-edge }
+precision-motion_vibration-isolation -> gas-handling: { class: tool-edge }
+precision-motion_wafer-stages -> machine-tools_edm-cnc: { class: tool-edge }
+precision-motion -> machine-tools: { class: tool-edge }
+precision-motion -> measurement: { class: tool-edge }
+vacuum_deposition-systems -> precision-motion: { class: tool-edge }
 
 # ==================== STYLING ====================
 precision-motion.class: domain
@@ -105,6 +147,16 @@ precision-motion_nanometer-positioning.class: capability
 precision-motion_precision-encoders.class: capability
 precision-motion_vibration-isolation.class: capability
 precision-motion_wafer-stages.class: pinnacle
+construction.class: external
+energy_electricity.class: external
+gas-handling.class: external
+machine-tools.class: external
+machine-tools_edm-cnc.class: external
+measurement.class: external
+measurement_precision-metrology.class: external
+optics.class: external
+photolithography_fab-processes_cmp.class: external
+vacuum_deposition-systems.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

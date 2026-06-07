@@ -58,7 +58,7 @@ graph TD
     cleanrooms --> glass
     cleanrooms -.-> measurement
     cleanrooms --> metals
-    computing -.-> machine-tools
+    construction -.-> ehs
     construction -.-> foundations
     construction -.-> machine-tools
     construction --> metals
@@ -78,7 +78,6 @@ graph TD
     food-processing --> water
     gas-handling --> chemistry
     gas-handling --> energy
-    gas-handling -.-> machine-tools
     glass --> chemistry
     glass --> energy
     glass -.-> machine-tools
@@ -95,7 +94,6 @@ graph TD
     measurement --> chemistry
     measurement -.-> machine-tools
     metals -.-> foundations
-    metals --> mining
     mining -.-> foundations
     optics -.-> machine-tools
     petroleum -.-> metals
@@ -136,6 +134,7 @@ graph TD
 
     %% ==================== CROSS-DOMAIN EDGES ====================
     agriculture -.-> animals
+    agriculture -.-> chemistry
     agriculture -.-> construction
     agriculture -.-> energy
     agriculture -.-> knowledge
@@ -146,6 +145,7 @@ graph TD
     automation -.-> vacuum
     ceramics -.-> chemistry
     ceramics -.-> energy
+    ceramics -.-> glass
     ceramics -.-> mining
     chemistry -.-> agriculture
     chemistry -.-> animals
@@ -154,6 +154,7 @@ graph TD
     chemistry -.-> foundations
     chemistry -.-> gas-handling
     chemistry -.-> glass
+    chemistry -.-> knowledge
     chemistry -.-> machine-tools
     chemistry -.-> mining
     chemistry -.-> photolithography
@@ -161,19 +162,27 @@ graph TD
     chemistry -.-> water
     computing -.-> electronics
     computing -.-> energy
+    computing -.-> machine-tools
     computing -.-> mathematics
     computing -.-> metals
     computing -.-> photolithography
     computing -.-> polymers
     computing -.-> silicon
+    computing -.-> software-bootstrapping
     construction -.-> ceramics
     construction -.-> chemistry
+    construction -.-> cleanrooms
+    construction -.-> defense
     construction -.-> economics-organization
     construction -.-> energy
+    construction -.-> gas-handling
+    construction -.-> knowledge
     construction -.-> textiles
+    cryogenics -.-> ceramics
     cryogenics -.-> energy
     defense -.-> chemistry
     defense -.-> economics-organization
+    defense -.-> food-processing
     economics-organization -.-> measurement
     economics-organization -.-> metals
     economics-organization -.-> transport
@@ -192,6 +201,7 @@ graph TD
     energy -.-> chemistry
     energy -.-> electronics
     energy -.-> foundations
+    energy -.-> gas-handling
     energy -.-> glass
     energy -.-> machine-tools
     energy -.-> measurement
@@ -200,18 +210,20 @@ graph TD
     energy -.-> polymers
     energy -.-> silicon
     energy -.-> textiles
+    food-processing -.-> agriculture
     food-processing -.-> ceramics
     food-processing -.-> chemistry
     food-processing -.-> foundations
     food-processing -.-> health
     food-processing -.-> metals
+    food-processing -.-> mining
     foundations -.-> agriculture
     foundations -.-> animals
     foundations -.-> plants
     gas-handling -.-> metals
+    gas-handling -.-> polymers
     glass -.-> gas-handling
     glass -.-> metals
-    glass -.-> mining
     glass -.-> photolithography
     glass -.-> vacuum
     health -.-> animals
@@ -236,14 +248,19 @@ graph TD
     machine-tools -.-> measurement
     machine-tools -.-> vacuum
     marine -.-> machine-tools
+    marine -.-> measurement
     marine -.-> polymers
     marine -.-> transport
     mathematics -.-> foundations
     mathematics -.-> knowledge
+    measurement -.-> computing
+    measurement -.-> electronics
     measurement -.-> energy
     measurement -.-> foundations
+    measurement -.-> glass
     measurement -.-> metals
     measurement -.-> optics
+    measurement -.-> silicon
     metals -.-> animals
     metals -.-> ceramics
     metals -.-> chemistry
@@ -251,6 +268,7 @@ graph TD
     metals -.-> energy
     metals -.-> gas-handling
     metals -.-> machine-tools
+    metals -.-> mining
     metals -.-> photolithography
     metals -.-> vlsi-scaling
     mining -.-> animals
@@ -289,7 +307,9 @@ graph TD
     silicon -.-> measurement
     silicon -.-> metals
     silicon -.-> mining
+    silicon -.-> photolithography
     silicon -.-> vacuum
+    software-bootstrapping -.-> knowledge
     telecom -.-> energy
     telecom -.-> foundations
     telecom -.-> knowledge
@@ -305,7 +325,6 @@ graph TD
     transport -.-> textiles
     ultra-pure -.-> measurement
     ultra-pure -.-> water
-    vacuum -.-> energy
     vacuum -.-> machine-tools
     vacuum -.-> precision-motion
     vlsi-scaling -.-> chemistry
@@ -314,7 +333,8 @@ graph TD
     vlsi-scaling -.-> optics
     vlsi-scaling -.-> silicon
     vlsi-scaling -.-> software-bootstrapping
-    water -.-> energy
+    water -.-> chemistry
+    water -.-> metals
 
     %% ==================== STYLING ====================
     classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px

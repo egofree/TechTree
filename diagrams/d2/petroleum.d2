@@ -106,6 +106,9 @@ chemistry_distillation: Distillation {
 energy_engine: Heat Engines {
   shape: rectangle
 }
+energy_internal-combustion: Internal Combustion Engines {
+  shape: rectangle
+}
 energy_steam-power: Steam Power {
   shape: rectangle
 }
@@ -130,6 +133,7 @@ petroleum_refining_distillation -> petroleum_refining: { class: tool-edge }
 petroleum_refining -> petroleum_extraction: { class: material-edge }
 petroleum_refining -> petroleum: { class: tool-edge }
 energy_engine -> petroleum_refining: { class: material-edge }
+energy_internal-combustion -> petroleum_refining: { class: material-edge }
 petroleum_extraction_cable-tool -> energy_steam-power: { class: tool-edge }
 petroleum_refining -> chemistry_distillation: { class: tool-edge }
 petroleum -> metals: { class: tool-edge }
@@ -147,6 +151,7 @@ petroleum_refining_distillation.class: process
 petroleum_refining.class: capability
 chemistry_distillation.class: external
 energy_engine.class: external
+energy_internal-combustion.class: external
 energy_steam-power.class: external
 metals.class: external
 mining.class: external

@@ -86,11 +86,16 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 machine-tools_internal: "Machine Tools Bootstrap — Internal Structure" {
+  machine-tools_abrasives: "Abrasives & Cutting Tools"
   machine-tools_bearings-abrasives: "Bearings, Abrasives & Cutting Tools"
-  machine-tools_casting: Metal Casting
+  machine-tools_bearings: Bearings
   machine-tools_edm-cnc: "EDM, CNC & Precision Grinding"
+  machine-tools_fasteners: "Screw Cutting & Fastener Standardization"
   machine-tools_forming: Metal Forming
+  machine-tools_gears: "Gears & Gear Manufacturing"
+  machine-tools_hydraulic-systems: Hydraulic Systems for Machine Tools
   machine-tools_iterative-bootstrap: Iterative Machine Bootstrap
+  machine-tools_joining_brazing-soldering: "Brazing & Soldering"
   machine-tools_joining_diffusion-bonding: Diffusion Bonding
   machine-tools_joining_electron-beam: Electron Beam Welding
   machine-tools_joining_friction-stir: Friction Stir Welding
@@ -98,9 +103,13 @@ machine-tools_internal: "Machine Tools Bootstrap — Internal Structure" {
   machine-tools_joining_laser-welding: Laser Welding
   machine-tools_joining_mig-welding: "MIG Welding (GMAW)"
   machine-tools_joining_resistance-welding: "Resistance Welding (Spot & Seam)"
+  machine-tools_joining_riveting: Riveting
   machine-tools_joining_tig-welding: "TIG Welding (GTAW)"
   machine-tools_joining_ultrasonic-bonding: "Ultrasonic Welding & Wire Bonding"
+  machine-tools_joining_welding: Welding Processes
   machine-tools_machining: Machining
+  machine-tools_mass-production: "Mass Production & Interchangeability"
+  machine-tools_power-transmission: "Belt & Shaft Power Transmission"
 }
 
 # ==================== DOMAIN NODE ====================
@@ -119,13 +128,13 @@ chemistry: Chemistry {
 chemistry_air-separation: "Air Separation & Bulk Gas Production" {
   shape: rectangle
 }
+chemistry_flux: Flux Production {
+  shape: rectangle
+}
 chemistry_lubricants: "Lubricants, Oils & Fluid Mechanics" {
   shape: rectangle
 }
 chemistry_packaging-testing: "Semiconductor Packaging & Testing" {
-  shape: rectangle
-}
-computing: "Computing & Automation" {
   shape: rectangle
 }
 computing_mechanical: Mechanical Calculation {
@@ -152,16 +161,22 @@ energy_fuels: Fuel Production {
 energy_gravity_water-turbines: Water Turbines {
   shape: rectangle
 }
+energy_hydraulics: Hydraulic Power {
+  shape: rectangle
+}
 energy_steam-power: Steam Power {
   shape: rectangle
 }
 energy_steam-power_steam-turbines: Steam Turbines {
   shape: rectangle
 }
-foundations_fire: Fire-Making {
+energy_stirling-engine: Stirling Engine {
   shape: rectangle
 }
-gas-handling: Gas Handling {
+foundations_carpentry: Basic Carpentry {
+  shape: rectangle
+}
+foundations_fire: Fire-Making {
   shape: rectangle
 }
 glass: Glass {
@@ -182,10 +197,16 @@ measurement: "Measurement & Instrumentation" {
 measurement_precision-metrology: "Precision Metrology & Standards" {
   shape: rectangle
 }
+measurement_thermostat-mechanical: Mechanical Thermostats {
+  shape: rectangle
+}
 metals: Metals {
   shape: rectangle
 }
 metals_alloys: Specialty Alloys {
+  shape: rectangle
+}
+metals_blacksmithing: Blacksmithing {
   shape: rectangle
 }
 metals_forming: Primary Metal Forming {
@@ -194,7 +215,13 @@ metals_forming: Primary Metal Forming {
 metals_iron-steel: "Iron & Steel Production" {
   shape: rectangle
 }
+metals_springs: Spring Manufacturing {
+  shape: rectangle
+}
 mining_drilling: Mechanical Drilling {
+  shape: rectangle
+}
+mining_tailings-reprocessing: Tailings Reprocessing {
   shape: rectangle
 }
 optics: Optics {
@@ -215,6 +242,15 @@ polymers_thermoplastics: Thermoplastic Polymers {
 polymers_thermosets: Thermosetting Polymers {
   shape: rectangle
 }
+precision-motion: Precision Motion Control {
+  shape: rectangle
+}
+precision-motion_nanometer-positioning: Nanometer Positioning {
+  shape: rectangle
+}
+precision-motion_wafer-stages: "Wafer Stages & Scanner Systems" {
+  shape: rectangle
+}
 silicon: Silicon {
   shape: rectangle
 }
@@ -227,9 +263,6 @@ transport: "Transportation & Logistics" {
 transport_aviation: Aviation {
   shape: rectangle
 }
-vacuum: Vacuum Technology {
-  shape: rectangle
-}
 vacuum_chambers: "Vacuum Chambers & Sealing" {
   shape: rectangle
 }
@@ -238,9 +271,11 @@ vacuum_pumps: Vacuum Pumps {
 }
 
 # ==================== EDGES ====================
+machine-tools_abrasives -> machine-tools_iterative-bootstrap: { class: tool-edge }
 machine-tools_bearings-abrasives -> machine-tools_iterative-bootstrap: { class: tool-edge }
+machine-tools_bearings -> machine-tools_iterative-bootstrap: { class: tool-edge }
 machine-tools_edm-cnc -> machine-tools_machining: { class: tool-edge }
-machine-tools_iterative-bootstrap -> machine-tools_casting: { class: tool-edge }
+machine-tools_fasteners -> machine-tools_machining: { class: tool-edge }
 machine-tools_joining_diffusion-bonding -> machine-tools_joining: { class: tool-edge }
 machine-tools_joining_electron-beam -> machine-tools_joining: { class: tool-edge }
 machine-tools_joining_friction-stir -> machine-tools_joining: { class: tool-edge }
@@ -248,61 +283,83 @@ machine-tools_joining_friction-stir -> machine-tools_machining: { class: tool-ed
 machine-tools_joining_laser-welding -> machine-tools_joining: { class: tool-edge }
 machine-tools_joining_mig-welding -> machine-tools_joining: { class: tool-edge }
 machine-tools_joining_resistance-welding -> machine-tools_joining: { class: tool-edge }
+machine-tools_joining_riveting -> machine-tools_machining: { class: tool-edge }
 machine-tools_joining_tig-welding -> machine-tools_joining: { class: tool-edge }
 machine-tools_joining_ultrasonic-bonding -> machine-tools_joining: { class: tool-edge }
+machine-tools_machining -> machine-tools_abrasives: { class: tool-edge }
 machine-tools_machining -> machine-tools_bearings-abrasives: { class: tool-edge }
+machine-tools_machining -> machine-tools_hydraulic-systems: { class: tool-edge }
 machine-tools_machining -> machine-tools_iterative-bootstrap: { class: tool-edge }
+machine-tools_mass-production -> machine-tools_bearings-abrasives: { class: tool-edge }
+machine-tools_mass-production -> machine-tools_fasteners: { class: material-edge }
+machine-tools_mass-production -> machine-tools_machining: { class: tool-edge }
+machine-tools -> machine-tools_gears: { class: tool-edge }
+machine-tools -> machine-tools_power-transmission: { class: tool-edge }
 automation_wafer-handling -> machine-tools: { class: tool-edge }
+chemistry_lubricants -> machine-tools_hydraulic-systems: { class: material-edge }
 chemistry_packaging-testing -> machine-tools_joining_ultrasonic-bonding: { class: tool-edge }
 chemistry_packaging-testing -> machine-tools: { class: tool-edge }
 computing_mechanical -> machine-tools: { class: tool-edge }
-computing -> machine-tools: { class: tool-edge }
 construction -> machine-tools: { class: tool-edge }
 electronics -> machine-tools: { class: tool-edge }
 energy_cooling -> machine-tools: { class: tool-edge }
 energy_electric-furnaces -> machine-tools: { class: tool-edge }
 energy_gravity_water-turbines -> machine-tools_machining: { class: tool-edge }
+energy_hydraulics -> machine-tools_hydraulic-systems: { class: tool-edge }
 energy_steam-power_steam-turbines -> machine-tools_machining: { class: tool-edge }
 energy_steam-power -> machine-tools_joining: { class: tool-edge }
 energy_steam-power -> machine-tools: { class: tool-edge }
-gas-handling -> machine-tools: { class: tool-edge }
+energy_stirling-engine -> machine-tools_machining: { class: tool-edge }
 glass -> machine-tools: { class: tool-edge }
 knowledge_printing -> machine-tools_machining: { class: tool-edge }
-machine-tools_casting -> metals_iron-steel: { class: material-edge }
 machine-tools_edm-cnc -> energy_electricity: { class: tool-edge }
+machine-tools_fasteners -> metals_iron-steel: { class: material-edge }
 machine-tools_forming -> animals_animal-materials: { class: material-edge }
 machine-tools_forming -> energy_fuels: { class: material-edge }
 machine-tools_forming -> foundations_fire: { class: tool-edge }
 machine-tools_forming -> metals_iron-steel: { class: material-edge }
 machine-tools_iterative-bootstrap -> animals_animal-materials: { class: material-edge }
+machine-tools_joining_brazing-soldering -> chemistry: { class: material-edge }
+machine-tools_joining_brazing-soldering -> metals_alloys: { class: material-edge }
 machine-tools_joining_diffusion-bonding -> energy_electric-furnaces: { class: tool-edge }
 machine-tools_joining_electron-beam -> energy_electricity: { class: tool-edge }
-machine-tools_joining_electron-beam -> vacuum: { class: tool-edge }
+machine-tools_joining_electron-beam -> vacuum_pumps: { class: tool-edge }
 machine-tools_joining_laser-welding -> energy_electricity: { class: tool-edge }
 machine-tools_joining_mig-welding -> energy_electricity: { class: tool-edge }
 machine-tools_joining_resistance-welding -> energy_electricity: { class: material-edge }
+machine-tools_joining_riveting -> metals_iron-steel: { class: material-edge }
 machine-tools_joining_tig-welding -> chemistry_air-separation: { class: material-edge }
 machine-tools_joining_tig-welding -> energy_electricity: { class: tool-edge }
 machine-tools_joining_ultrasonic-bonding -> energy_electricity: { class: tool-edge }
+machine-tools_joining_welding -> energy_electricity: { class: tool-edge }
+machine-tools_joining_welding -> metals_iron-steel: { class: material-edge }
+machine-tools_joining -> chemistry_flux: { class: material-edge }
 machine-tools_joining -> chemistry: { class: material-edge }
-machine-tools_joining -> energy_electricity: { class: material-edge }
 machine-tools_joining -> metals_alloys: { class: material-edge }
 machine-tools_joining -> metals_iron-steel: { class: material-edge }
+machine-tools_mass-production -> measurement_precision-metrology: { class: tool-edge }
 machine-tools -> chemistry_lubricants: { class: material-edge }
+machine-tools -> foundations_carpentry: { class: material-edge }
+machine-tools -> metals_blacksmithing: { class: material-edge }
+machine-tools -> metals_springs: { class: tool-edge }
 machine-tools -> metals: { class: tool-edge }
 machine-tools -> textiles: { class: tool-edge }
 marine_infrastructure -> machine-tools: { class: tool-edge }
 marine_shipbuilding -> machine-tools: { class: tool-edge }
-measurement_precision-metrology -> machine-tools_casting: { class: tool-edge }
+measurement_thermostat-mechanical -> machine-tools: { class: tool-edge }
 measurement -> machine-tools: { class: tool-edge }
 metals_forming -> machine-tools: { class: tool-edge }
 mining_drilling -> machine-tools_machining: { class: tool-edge }
+mining_tailings-reprocessing -> machine-tools: { class: tool-edge }
 optics -> machine-tools: { class: tool-edge }
 photolithography -> machine-tools: { class: tool-edge }
 polymers_composites -> machine-tools: { class: tool-edge }
-polymers_rubber_synthetic -> machine-tools: { class: tool-edge }
+polymers_rubber_synthetic -> machine-tools_forming: { class: tool-edge }
 polymers_thermoplastics -> machine-tools: { class: tool-edge }
 polymers_thermosets -> machine-tools: { class: tool-edge }
+precision-motion_nanometer-positioning -> machine-tools_edm-cnc: { class: tool-edge }
+precision-motion_wafer-stages -> machine-tools_edm-cnc: { class: tool-edge }
+precision-motion -> machine-tools: { class: tool-edge }
 silicon -> machine-tools: { class: tool-edge }
 transport_aviation -> machine-tools: { class: tool-edge }
 transport -> machine-tools: { class: tool-edge }
@@ -313,11 +370,16 @@ vacuum_pumps -> machine-tools: { class: tool-edge }
 
 # ==================== STYLING ====================
 machine-tools.class: domain
+machine-tools_abrasives.class: critical
 machine-tools_bearings-abrasives.class: capability
-machine-tools_casting.class: capability
+machine-tools_bearings.class: critical
 machine-tools_edm-cnc.class: capability
+machine-tools_fasteners.class: capability
 machine-tools_forming.class: capability
+machine-tools_gears.class: critical
+machine-tools_hydraulic-systems.class: capability
 machine-tools_iterative-bootstrap.class: capability
+machine-tools_joining_brazing-soldering.class: process
 machine-tools_joining_diffusion-bonding.class: process
 machine-tools_joining_electron-beam.class: process
 machine-tools_joining_friction-stir.class: process
@@ -325,16 +387,20 @@ machine-tools_joining.class: capability
 machine-tools_joining_laser-welding.class: process
 machine-tools_joining_mig-welding.class: process
 machine-tools_joining_resistance-welding.class: process
+machine-tools_joining_riveting.class: process
 machine-tools_joining_tig-welding.class: process
 machine-tools_joining_ultrasonic-bonding.class: process
+machine-tools_joining_welding.class: process
 machine-tools_machining.class: capability
+machine-tools_mass-production.class: critical
+machine-tools_power-transmission.class: capability
 animals_animal-materials.class: external
 automation_wafer-handling.class: external
 chemistry.class: external
 chemistry_air-separation.class: external
+chemistry_flux.class: external
 chemistry_lubricants.class: external
 chemistry_packaging-testing.class: external
-computing.class: external
 computing_mechanical.class: external
 construction.class: external
 electronics.class: external
@@ -343,32 +409,40 @@ energy_electric-furnaces.class: external
 energy_electricity.class: external
 energy_fuels.class: external
 energy_gravity_water-turbines.class: external
+energy_hydraulics.class: external
 energy_steam-power.class: external
 energy_steam-power_steam-turbines.class: external
+energy_stirling-engine.class: external
+foundations_carpentry.class: external
 foundations_fire.class: external
-gas-handling.class: external
 glass.class: external
 knowledge_printing.class: external
 marine_infrastructure.class: external
 marine_shipbuilding.class: external
 measurement.class: external
 measurement_precision-metrology.class: external
+measurement_thermostat-mechanical.class: external
 metals.class: external
 metals_alloys.class: external
+metals_blacksmithing.class: external
 metals_forming.class: external
 metals_iron-steel.class: external
+metals_springs.class: external
 mining_drilling.class: external
+mining_tailings-reprocessing.class: external
 optics.class: external
 photolithography.class: external
 polymers_composites.class: external
 polymers_rubber_synthetic.class: external
 polymers_thermoplastics.class: external
 polymers_thermosets.class: external
+precision-motion.class: external
+precision-motion_nanometer-positioning.class: external
+precision-motion_wafer-stages.class: external
 silicon.class: external
 textiles.class: external
 transport.class: external
 transport_aviation.class: external
-vacuum.class: external
 vacuum_chambers.class: external
 vacuum_pumps.class: external
 

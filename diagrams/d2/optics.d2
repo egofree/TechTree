@@ -110,7 +110,13 @@ measurement_optical-instruments: Optical Measurement Instruments {
 measurement_precision-metrology: "Precision Metrology & Standards" {
   shape: rectangle
 }
+measurement_thermostat-advanced: "Advanced & Specialty Thermostats" {
+  shape: rectangle
+}
 photolithography: "Photolithography & IC Fabrication" {
+  shape: rectangle
+}
+precision-motion_precision-encoders: "Precision Encoders & Feedback" {
   shape: rectangle
 }
 vacuum_pumps: Vacuum Pumps {
@@ -126,11 +132,13 @@ optics_precision-instruments -> optics_inspection: { class: material-edge }
 optics_precision-instruments -> optics: { class: tool-edge }
 measurement_optical-instruments -> optics_inspection: { class: tool-edge }
 measurement_precision-metrology -> optics_precision-instruments: { class: tool-edge }
+measurement_thermostat-advanced -> optics: { class: tool-edge }
 optics_inspection_optical-coatings -> gas-handling_vacuum: { class: tool-edge }
 optics_inspection_optical-coatings -> vacuum_pumps: { class: tool-edge }
 optics_inspection -> glass_advanced: { class: material-edge }
 optics -> machine-tools: { class: tool-edge }
 photolithography -> optics: { class: tool-edge }
+precision-motion_precision-encoders -> optics: { class: tool-edge }
 vlsi-scaling_advanced-lithography -> optics_inspection: { class: tool-edge }
 
 # ==================== STYLING ====================
@@ -143,7 +151,9 @@ glass_advanced.class: external
 machine-tools.class: external
 measurement_optical-instruments.class: external
 measurement_precision-metrology.class: external
+measurement_thermostat-advanced.class: external
 photolithography.class: external
+precision-motion_precision-encoders.class: external
 vacuum_pumps.class: external
 vlsi-scaling_advanced-lithography.class: external
 

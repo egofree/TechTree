@@ -21,10 +21,12 @@ graph TD
     animals_animal-materials("Animal-Derived Materials Processing")
     animals_camelids("Camelid Husbandry")
     animals_goats("Goat Husbandry")
+    animals_leather("Leather Production")
     animals_rabbits("Rabbit Husbandry")
     animals_sheep("Sheep Husbandry")
     chemistry("Chemistry")
     chemistry_alkalis("Alkali Production")
+    chemistry_bleaching("Bleaching & Chlorine Chemistry")
     chemistry_pulp-chemicals("Pulp & Paper Chemicals")
     construction("Construction & Structural Engineering")
     energy_gravity("Water Power")
@@ -68,6 +70,8 @@ graph TD
     textiles_fibers --> plants_fiber-plants
     textiles_finishing -.-> chemistry_alkalis
     textiles_sewing-tailoring -.-> metals_copper-bronze
+    textiles --> animals_leather
+    textiles --> chemistry_bleaching
     textiles --> chemistry_pulp-chemicals
     textiles -.-> foundations
     transport_aviation --> textiles
@@ -98,10 +102,12 @@ graph TD
     class animals_animal-materials external
     class animals_camelids external
     class animals_goats external
+    class animals_leather external
     class animals_rabbits external
     class animals_sheep external
     class chemistry external
     class chemistry_alkalis external
+    class chemistry_bleaching external
     class chemistry_pulp-chemicals external
     class construction external
     class energy_gravity external

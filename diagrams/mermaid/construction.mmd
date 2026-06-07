@@ -16,27 +16,57 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     agriculture_irrigation("Irrigation Systems")
     ceramics_lime("Lime Production")
+    chemistry_adhesives-coatings("Adhesives & Specialty Coatings")
     chemistry_cement("Cement & Concrete")
+    chemistry_chemical-recovery("Chemical Recovery & Solvent Regeneration")
+    chemistry_paint("Paint & Coating Manufacturing")
+    cleanrooms_facility-design("Facility Design & HVAC")
+    defense_fortifications("Fortification Engineering")
     economics-organization_division-of-labor("Division of Labor")
+    ehs("Environmental Health & Safety")
     energy_electricity("Electricity Generation & Distribution")
+    energy_hvac("HVAC for General Industry")
+    energy_pneumatics("Pneumatics")
+    energy_solar-thermal("Solar Thermal Energy")
     foundations("Foundations")
+    foundations_carpentry("Basic Carpentry")
+    foundations_sawmilling("Sawmilling & Timber Processing")
     foundations_tools-basic("Stone & Wood Tools")
+    gas-handling_piping-systems("Gas Distribution Piping Systems")
+    knowledge_surveying("Surveying & Cartography")
     machine-tools("Machine Tools Bootstrap")
     metals("Metals")
+    metals_blacksmithing("Blacksmithing")
     metals_iron-steel("Iron & Steel Production")
+    metals_metal-recycling("Metal Scrap Recycling")
     precision-motion_vibration-isolation("Vibration Isolation")
     textiles_rope-making("Rope and Cordage")
 
     %% ==================== EDGES ====================
     agriculture_irrigation -.-> construction
+    construction_building-materials --> foundations_sawmilling
     construction_building-materials -.-> foundations_tools-basic
+    construction_industrial-buildings -.-> cleanrooms_facility-design
     construction_industrial-buildings -.-> economics-organization_division-of-labor
     construction_industrial-buildings -.-> energy_electricity
+    construction_industrial-buildings -.-> energy_hvac
     construction_structural-engineering --> metals_iron-steel
     construction --> ceramics_lime
+    construction -.-> chemistry_adhesives-coatings
     construction --> chemistry_cement
+    construction --> chemistry_chemical-recovery
+    construction --> chemistry_paint
+    construction -.-> defense_fortifications
+    construction -.-> ehs
+    construction -.-> energy_pneumatics
+    construction --> energy_solar-thermal
+    construction --> foundations_carpentry
     construction -.-> foundations
+    construction -.-> gas-handling_piping-systems
+    construction -.-> knowledge_surveying
     construction -.-> machine-tools
+    construction --> metals_blacksmithing
+    construction --> metals_metal-recycling
     construction --> metals
     construction --> textiles_rope-making
     precision-motion_vibration-isolation -.-> construction
@@ -61,14 +91,29 @@ graph TD
     class construction_structural-engineering capability
     class agriculture_irrigation external
     class ceramics_lime external
+    class chemistry_adhesives-coatings external
     class chemistry_cement external
+    class chemistry_chemical-recovery external
+    class chemistry_paint external
+    class cleanrooms_facility-design external
+    class defense_fortifications external
     class economics-organization_division-of-labor external
+    class ehs external
     class energy_electricity external
+    class energy_hvac external
+    class energy_pneumatics external
+    class energy_solar-thermal external
     class foundations external
+    class foundations_carpentry external
+    class foundations_sawmilling external
     class foundations_tools-basic external
+    class gas-handling_piping-systems external
+    class knowledge_surveying external
     class machine-tools external
     class metals external
+    class metals_blacksmithing external
     class metals_iron-steel external
+    class metals_metal-recycling external
     class precision-motion_vibration-isolation external
     class textiles_rope-making external
     class EdgeLegend,MatNote,ToolNote legend

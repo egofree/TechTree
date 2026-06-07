@@ -98,6 +98,9 @@ mathematics: "Mathematics & Formal Sciences"
 computing_digital-logic: Digital Logic Design {
   shape: rectangle
 }
+computing_logic-design: Logic Design {
+  shape: rectangle
+}
 computing_mechanical: Mechanical Calculation {
   shape: rectangle
 }
@@ -110,6 +113,12 @@ economics-organization_accounting: "Accounting & Record-Keeping" {
 foundations: Foundations {
   shape: rectangle
 }
+knowledge_scientific-method: Scientific Method {
+  shape: rectangle
+}
+knowledge_surveying: "Surveying & Cartography" {
+  shape: rectangle
+}
 knowledge_writing: "Writing & Record-Keeping" {
   shape: rectangle
 }
@@ -118,9 +127,12 @@ knowledge_writing: "Writing & Record-Keeping" {
 mathematics_applied-mathematics -> mathematics_core-mathematics: { class: tool-edge }
 mathematics_formal-systems -> mathematics_core-mathematics: { class: tool-edge }
 computing_digital-logic -> mathematics_formal-systems: { class: tool-edge }
+computing_logic-design -> mathematics_formal-systems: { class: tool-edge }
 computing_mechanical -> mathematics_core-mathematics: { class: tool-edge }
 economics-organization_accounting -> mathematics_core-mathematics: { class: tool-edge }
 economics-organization -> mathematics: { class: tool-edge }
+knowledge_scientific-method -> mathematics: { class: tool-edge }
+knowledge_surveying -> mathematics: { class: tool-edge }
 mathematics_core-mathematics -> foundations: { class: tool-edge }
 mathematics -> knowledge_writing: { class: tool-edge }
 
@@ -130,10 +142,13 @@ mathematics_applied-mathematics.class: capability
 mathematics_core-mathematics.class: earlyWin
 mathematics_formal-systems.class: capability
 computing_digital-logic.class: external
+computing_logic-design.class: external
 computing_mechanical.class: external
 economics-organization.class: external
 economics-organization_accounting.class: external
 foundations.class: external
+knowledge_scientific-method.class: external
+knowledge_surveying.class: external
 knowledge_writing.class: external
 
 # ==================== LEGEND ====================

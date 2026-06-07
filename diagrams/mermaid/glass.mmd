@@ -18,20 +18,23 @@ graph TD
     glass["Glass"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    ceramics_thermal-insulation("Thermal Insulation")
     chemistry("Chemistry")
     chemistry_acids("Mineral Acid Production")
+    chemistry_potash("Potash Production")
     chemistry_refractories("Refractory Materials")
+    chemistry_solvay("Solvay Process (Soda Ash)")
     cleanrooms("Clean Room Technology")
     electronics_assembly("Electronics Assembly")
     energy("Energy")
     energy_electric-furnaces("Electric Furnaces")
     energy_fuels("Fuel Production")
     energy_photovoltaics("Photovoltaic Solar Power")
-    gas-handling("Gas Handling")
+    gas-handling_basic("Basic Gas Handling")
     machine-tools("Machine Tools Bootstrap")
+    measurement_thermostat-fluid("Fluid & Gas Thermostats")
     metals_alloys("Specialty Alloys")
     metals_non-ferrous("Non-Ferrous Metal Production")
-    mining("Mining Engineering & Extractive Metallurgy")
     optics_inspection("Optical Inspection")
     photolithography_fab-processes("Core Fab Processes")
     photolithography_resists-masks("Photoresists, Masks & Lithography")
@@ -50,22 +53,25 @@ graph TD
     glass_fibers -.-> glass
     glass_photomask-substrates -.-> glass_advanced
     glass_glass-to-metal-seals --> glass_advanced
+    ceramics_thermal-insulation --> glass_basic
     chemistry_acids -.-> glass_basic
     cleanrooms --> glass
     electronics_assembly --> glass_fibers
     energy_photovoltaics --> glass_basic
     glass_advanced_glassblowing -.-> energy_fuels
     glass_basic_float-glass -.-> energy_electric-furnaces
-    glass_basic_float-glass -.-> gas-handling
+    glass_basic_float-glass -.-> gas-handling_basic
     glass_basic_float-glass -.-> metals_non-ferrous
-    glass_basic --> mining
+    glass_basic --> chemistry_potash
     glass_photomask-substrates --> photolithography_fab-processes
     glass_glass-to-metal-seals --> metals_alloys
     glass_glass-to-metal-seals -.-> vacuum_chambers
     glass --> chemistry_refractories
+    glass --> chemistry_solvay
     glass --> chemistry
     glass --> energy
     glass -.-> machine-tools
+    measurement_thermostat-fluid --> glass
     optics_inspection --> glass_advanced
     photolithography_resists-masks --> glass_basic
     polymers_composites --> glass_fibers
@@ -96,20 +102,23 @@ graph TD
     class glass_basic_float-glass process
     class glass_glass-to-metal-seals capability
     class glass_photomask-substrates capability
+    class ceramics_thermal-insulation external
     class chemistry external
     class chemistry_acids external
+    class chemistry_potash external
     class chemistry_refractories external
+    class chemistry_solvay external
     class cleanrooms external
     class electronics_assembly external
     class energy external
     class energy_electric-furnaces external
     class energy_fuels external
     class energy_photovoltaics external
-    class gas-handling external
+    class gas-handling_basic external
     class machine-tools external
+    class measurement_thermostat-fluid external
     class metals_alloys external
     class metals_non-ferrous external
-    class mining external
     class optics_inspection external
     class photolithography_fab-processes external
     class photolithography_resists-masks external

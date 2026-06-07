@@ -12,6 +12,7 @@ graph TD
         polymers_rubber_shellac["Shellac Production"]
         polymers_rubber_synthetic["Synthetic Rubbers"]
         polymers_rubber_vulcanization["Vulcanization & Hardness"]
+        polymers_seals-gaskets["Seals, Gaskets & Packing"]
         polymers_thermoplastics["Thermoplastic Polymers"]
         polymers_thermosets["Thermosetting Polymers"]
     end
@@ -30,9 +31,12 @@ graph TD
     electronics_electrical-systems("Electrical Systems")
     energy_storage("Energy Storage & Diversification")
     foundations("Foundations")
+    foundations_fire("Fire-Making")
+    gas-handling("Gas Handling")
     glass_fibers("Glass Fiber Production")
     health("Public Health, Sanitation & Medicine")
     machine-tools("Machine Tools Bootstrap")
+    machine-tools_forming("Metal Forming")
     marine_infrastructure("Maritime Infrastructure & Underwater Engineering")
     photolithography_fab-processes_cmp("Chemical Mechanical Planarization (CMP)")
     photolithography_resists-masks("Photoresists, Masks & Lithography")
@@ -43,23 +47,25 @@ graph TD
     polymers_composites --> polymers_thermosets
     polymers_rubber_gutta-percha -.-> polymers_rubber
     polymers_rubber_shellac -.-> polymers_rubber
+    polymers_rubber -.-> polymers_rubber_vulcanization
     chemistry_packaging-testing --> polymers_thermosets
     computing_data-storage --> polymers_thermoplastics
     ehs_ppe -.-> polymers
     electronics_assembly --> polymers_thermosets
     electronics_electrical-systems --> polymers_thermoplastics
     energy_storage --> polymers_rubber
+    gas-handling -.-> polymers_seals-gaskets
     health --> polymers_rubber
     marine_infrastructure --> polymers_rubber_gutta-percha
-    photolithography_fab-processes_cmp --> polymers
+    photolithography_fab-processes_cmp --> polymers_thermosets
     photolithography_resists-masks --> polymers_thermosets
     polymers_composites --> glass_fibers
     polymers_composites -.-> machine-tools
-    polymers_rubber_natural -.-> foundations
+    polymers_rubber_natural -.-> foundations_fire
     polymers_rubber_shellac --> chemistry_distillation
     polymers_rubber_synthetic --> chemistry_petroleum-alternatives
     polymers_rubber_synthetic --> chemistry
-    polymers_rubber_synthetic -.-> machine-tools
+    polymers_rubber_synthetic -.-> machine-tools_forming
     polymers_thermoplastics --> chemistry_petroleum-alternatives
     polymers_thermoplastics --> chemistry
     polymers_thermoplastics -.-> machine-tools
@@ -92,6 +98,7 @@ graph TD
     class polymers_rubber_shellac process
     class polymers_rubber_synthetic process
     class polymers_rubber_vulcanization process
+    class polymers_seals-gaskets capability
     class polymers_thermoplastics capability
     class polymers_thermosets capability
     class chemistry external
@@ -104,9 +111,12 @@ graph TD
     class electronics_electrical-systems external
     class energy_storage external
     class foundations external
+    class foundations_fire external
+    class gas-handling external
     class glass_fibers external
     class health external
     class machine-tools external
+    class machine-tools_forming external
     class marine_infrastructure external
     class photolithography_fab-processes_cmp external
     class photolithography_resists-masks external

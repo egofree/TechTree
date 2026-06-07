@@ -97,24 +97,44 @@ water_internal: "Water — Internal Structure" {
 water: Water
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+agriculture: Agriculture {
+  shape: rectangle
+}
+agriculture_irrigation: Irrigation Systems {
+  shape: rectangle
+}
+chemistry_bleaching: "Bleaching & Chlorine Chemistry" {
+  shape: rectangle
+}
 chemistry_electrodialysis: Electrodialysis {
   shape: rectangle
 }
 chemistry_water-treatment: Industrial Water Treatment {
   shape: rectangle
 }
-energy_electricity: "Electricity Generation & Distribution" {
+ehs_waste-management: Waste Management {
   shape: rectangle
 }
 food-processing: Food Processing {
   shape: rectangle
 }
+metals_pipe-making: Pipe and Tube Manufacturing {
+  shape: rectangle
+}
+ultra-pure_upw: Ultra-Pure Water Production {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
+agriculture_irrigation -> water_distribution: { class: material-edge }
+agriculture -> water_procurement: { class: material-edge }
 chemistry_electrodialysis -> water_desalination: { class: tool-edge }
 chemistry_water-treatment -> water_sewage: { class: material-edge }
+ehs_waste-management -> water_sewage: { class: tool-edge }
 food-processing -> water: { class: material-edge }
-water_desalination -> energy_electricity: { class: material-edge }
+ultra-pure_upw -> water: { class: material-edge }
+water_basic-treatment -> chemistry_bleaching: { class: material-edge }
+water_distribution -> metals_pipe-making: { class: material-edge }
 
 # ==================== STYLING ====================
 water.class: domain
@@ -123,10 +143,15 @@ water_desalination.class: capability
 water_distribution.class: capability
 water_procurement.class: capability
 water_sewage.class: capability
+agriculture.class: external
+agriculture_irrigation.class: external
+chemistry_bleaching.class: external
 chemistry_electrodialysis.class: external
 chemistry_water-treatment.class: external
-energy_electricity.class: external
+ehs_waste-management.class: external
 food-processing.class: external
+metals_pipe-making.class: external
+ultra-pure_upw.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

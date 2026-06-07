@@ -95,6 +95,9 @@ cryogenics_internal: "Cryogenics — Internal Structure" {
 cryogenics: Cryogenics
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+ceramics_thermal-insulation: Thermal Insulation {
+  shape: rectangle
+}
 chemistry_air-separation: "Air Separation & Bulk Gas Production" {
   shape: rectangle
 }
@@ -112,6 +115,7 @@ silicon_crystal-growth: "Crystal Growth & Wafering" {
 cryogenics_air-separation -> cryogenics_refrigeration: { class: tool-edge }
 cryogenics_liquefaction-storage -> cryogenics_refrigeration: { class: tool-edge }
 chemistry_air-separation -> cryogenics_air-separation: { class: tool-edge }
+cryogenics -> ceramics_thermal-insulation: { class: material-edge }
 cryogenics -> energy_electricity: { class: tool-edge }
 cryogenics -> gas-handling: { class: tool-edge }
 silicon_crystal-growth -> cryogenics_liquefaction-storage: { class: material-edge }
@@ -121,6 +125,7 @@ cryogenics.class: domain
 cryogenics_air-separation.class: capability
 cryogenics_liquefaction-storage.class: capability
 cryogenics_refrigeration.class: capability
+ceramics_thermal-insulation.class: external
 chemistry_air-separation.class: external
 energy_electricity.class: external
 gas-handling.class: external

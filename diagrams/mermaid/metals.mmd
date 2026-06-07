@@ -8,17 +8,29 @@ graph TD
         metals_alloys["Specialty Alloys"]
         metals_aluminum["Aluminum Production"]
         metals_aluminum_semiconductor-grade["Semiconductor-Grade Aluminum Production"]
+        metals_blacksmithing["Blacksmithing"]
+        metals_bronze["Bronze Production"]
+        metals_casting["Metal Casting"]
         metals_copper-bronze["Copper & Bronze Production"]
+        metals_copper-refining["Copper Refining"]
+        metals_copper["Copper Production"]
         metals_finishing["Metal Finishing & Surface Treatment"]
         metals_forming["Primary Metal Forming"]
         metals_iron-steel_blast-furnace["Blast Furnace and Cast Iron"]
         metals_iron-steel["Iron & Steel Production"]
+        metals_magnetic-materials["Magnetic Materials"]
+        metals_metal-recycling["Metal Scrap Recycling"]
         metals_non-ferrous["Non-Ferrous Metal Production"]
+        metals_pipe-making["Pipe and Tube Manufacturing"]
         metals_powder-metallurgy["Powder Metallurgy & Advanced Materials"]
         metals_precious-metals["Precious Metal Production (Gold & Silver)"]
+        metals_rare-earths["Rare Earth and Specialty Elements"]
         metals_refractory-specialty["Refractory & Specialty Metals for Semiconductor Manufacturing"]
         metals_specialty-semiconductor["Specialty Metals for Semiconductor Interconnects & Barrier Layers"]
+        metals_springs["Spring Manufacturing"]
         metals_steelmaking["Modern Steelmaking"]
+        metals_wire-drawing["Wire Drawing"]
+        metals_wire-rope["Wire Rope & Steel Cable"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -37,6 +49,7 @@ graph TD
     chemistry_coatings("Paints, Coatings & Inks")
     chemistry_electrolysis("Electrolysis")
     chemistry_hydrogen-silane("Hydrogen & Silane Production")
+    chemistry_paint("Paint & Coating Manufacturing")
     chemistry_refractories("Refractory Materials")
     chemistry_soap("Soap & Detergent Production")
     cleanrooms("Clean Room Technology")
@@ -44,6 +57,7 @@ graph TD
     construction("Construction & Structural Engineering")
     construction_structural-engineering("Structural Engineering")
     defense("Defense & Military Engineering")
+    economics-organization_coinage("Coinage & Precision Minting")
     economics-organization_currency("Currency & Standardized Exchange")
     electrochemistry("Electrochemistry & Plating")
     electrochemistry_anodizing("Anodizing")
@@ -56,15 +70,20 @@ graph TD
     energy_engine("Heat Engines")
     energy_fuels("Fuel Production")
     energy_fuels_coke("Coke Production")
+    energy_furnace-design("Furnace Design Principles")
     energy_gas-turbine("Gas Turbines")
     energy_geothermal("Geothermal Energy")
     energy_gravity_water-turbines("Water Turbines")
+    energy_hydraulics("Hydraulic Power")
+    energy_internal-combustion("Internal Combustion Engines")
     energy_steam-power("Steam Power")
     energy_steam-power_steam-turbines("Steam Turbines")
+    energy_stirling-engine("Stirling Engine")
     energy_storage("Energy Storage & Diversification")
     food-processing_oil-processing("Oil & Fat Processing")
     foundations("Foundations")
     foundations_fire("Fire-Making")
+    gas-handling("Gas Handling")
     gas-handling_cylinder-filling("Cylinder Filling")
     gas-handling_vacuum("Vacuum Technology")
     glass_basic_float-glass("Float Glass Process")
@@ -72,9 +91,12 @@ graph TD
     health_medical-instruments("Medical Instrument Manufacturing")
     knowledge_printing("Paper and Printing Press")
     machine-tools("Machine Tools Bootstrap")
-    machine-tools_casting("Metal Casting")
+    machine-tools_fasteners("Screw Cutting & Fastener Standardization")
     machine-tools_forming("Metal Forming")
     machine-tools_joining("Metal Joining")
+    machine-tools_joining_brazing-soldering("Brazing & Soldering")
+    machine-tools_joining_riveting("Riveting")
+    machine-tools_joining_welding("Welding Processes")
     marine("Marine & Naval Engineering")
     marine_infrastructure("Maritime Infrastructure & Underwater Engineering")
     marine_navigation("Marine Navigation")
@@ -83,9 +105,11 @@ graph TD
     measurement("Measurement & Instrumentation")
     measurement_precision-metrology("Precision Metrology & Standards")
     measurement_temperature-pressure("Temperature & Pressure Measurement")
+    measurement_thermostat-mechanical("Mechanical Thermostats")
     mining("Mining Engineering & Extractive Metallurgy")
     mining_extraction("Mining Extraction")
     petroleum("Petroleum Extraction & Refining")
+    photolithography("Photolithography & IC Fabrication")
     photolithography_fab-processes("Core Fab Processes")
     photolithography_fab-processes_pvd("Physical Vapor Deposition (PVD)")
     silicon_basic-devices("Basic Semiconductor Devices")
@@ -103,6 +127,7 @@ graph TD
     vacuum("Vacuum Technology")
     vacuum_chambers("Vacuum Chambers & Sealing")
     vlsi-scaling_advanced-processes("Advanced Processes")
+    water_distribution("Water Distribution")
 
     %% ==================== EDGES ====================
     metals_alloys --> metals_iron-steel
@@ -110,13 +135,19 @@ graph TD
     metals_alloys -.-> metals_steelmaking
     metals_aluminum_semiconductor-grade -.-> metals_aluminum
     metals_aluminum --> metals_aluminum
+    metals_blacksmithing --> metals_iron-steel
+    metals_bronze --> metals_copper
+    metals_bronze --> metals_non-ferrous
     metals_copper-bronze --> metals_copper-bronze
+    metals_copper-refining --> metals_copper-bronze
     metals_finishing --> metals_non-ferrous
     metals_forming --> metals_aluminum
     metals_forming --> metals_steelmaking
     metals_iron-steel_blast-furnace -.-> metals_iron-steel
     metals_iron-steel -.-> metals_copper-bronze
+    metals_metal-recycling -.-> metals_steelmaking
     metals_non-ferrous -.-> metals_copper-bronze
+    metals_pipe-making -.-> metals_casting
     metals_powder-metallurgy --> metals_alloys
     metals_precious-metals -.-> metals_non-ferrous
     metals_precious-metals -.-> metals
@@ -126,6 +157,9 @@ graph TD
     metals_steelmaking -.-> metals_iron-steel_blast-furnace
     metals_steelmaking --> metals_iron-steel
     metals_steelmaking --> metals_iron-steel
+    metals_wire-drawing -.-> metals_forming
+    metals_wire-drawing --> metals_iron-steel
+    metals_wire-rope --> metals_wire-drawing
     ceramics -.-> metals
     chemistry_acid-regeneration --> metals_forming
     chemistry_ammonia -.-> metals
@@ -135,34 +169,52 @@ graph TD
     cleanrooms --> metals
     computing_mechanical --> metals
     construction_structural-engineering --> metals_iron-steel
+    construction --> metals_blacksmithing
+    construction --> metals_metal-recycling
     construction --> metals
     defense --> metals
+    economics-organization_coinage -.-> metals_finishing
+    economics-organization_coinage -.-> metals_forming
     economics-organization_currency --> metals
     electrochemistry_anodizing --> metals_aluminum
     electrochemistry -.-> metals_finishing
     electronics_pcb-fabrication --> metals_copper-bronze
+    electronics --> metals_copper-refining
+    electronics --> metals_rare-earths
     electronics --> metals
     energy_cooling -.-> metals_iron-steel
+    energy_electricity --> metals_copper-refining
+    energy_electricity --> metals_magnetic-materials
+    energy_electricity --> metals_wire-drawing
     energy_engine -.-> metals
     energy_gas-turbine --> metals_refractory-specialty
     energy_geothermal --> metals_iron-steel
     energy_gravity_water-turbines -.-> metals_iron-steel
+    energy_hydraulics -.-> metals_forming
+    energy_internal-combustion -.-> metals
     energy_steam-power_steam-turbines --> metals_alloys
     energy_steam-power_steam-turbines -.-> metals_iron-steel
     energy_steam-power --> metals_forming
     energy_steam-power -.-> metals_iron-steel
+    energy_stirling-engine --> metals_casting
     energy_storage -.-> metals
     energy -.-> metals
     food-processing_oil-processing -.-> metals_iron-steel
     gas-handling_cylinder-filling --> metals_iron-steel
+    gas-handling --> metals_pipe-making
     glass_basic_float-glass -.-> metals_non-ferrous
     glass_glass-to-metal-seals --> metals_alloys
     health_medical-instruments --> metals_copper-bronze
     knowledge_printing -.-> metals_iron-steel
-    machine-tools_casting --> metals_iron-steel
+    machine-tools_fasteners --> metals_iron-steel
     machine-tools_forming --> metals_iron-steel
+    machine-tools_joining_brazing-soldering --> metals_alloys
+    machine-tools_joining_riveting --> metals_iron-steel
+    machine-tools_joining_welding --> metals_iron-steel
     machine-tools_joining --> metals_alloys
     machine-tools_joining --> metals_iron-steel
+    machine-tools --> metals_blacksmithing
+    machine-tools -.-> metals_springs
     machine-tools -.-> metals
     marine_infrastructure --> metals_iron-steel
     marine_navigation --> metals
@@ -171,30 +223,32 @@ graph TD
     marine --> metals
     measurement_precision-metrology -.-> metals
     measurement_temperature-pressure --> metals
+    measurement_thermostat-mechanical --> metals
     measurement -.-> metals_powder-metallurgy
     metals_alloys -.-> energy_fuels
     metals_aluminum_semiconductor-grade -.-> energy_electricity
     metals_aluminum --> chemistry_alkalis
     metals_aluminum -.-> chemistry_electrolysis
-    metals_aluminum -.-> energy_electricity
-    metals_aluminum --> mining
+    metals_blacksmithing -.-> energy_furnace-design
     metals_copper-bronze --> animals_beekeeping
     metals_copper-bronze -.-> ceramics
     metals_copper-bronze --> foundations_fire
-    metals_copper-bronze --> mining
+    metals_copper-refining -.-> chemistry_electrolysis
+    metals_copper -.-> ceramics
+    metals_copper --> foundations_fire
     metals_finishing --> chemistry_acids
     metals_finishing --> chemistry_coatings
     metals_finishing -.-> chemistry_electrolysis
+    metals_finishing --> chemistry_paint
     metals_forming -.-> machine-tools
     metals_iron-steel_blast-furnace -.-> ceramics_kilns
     metals_iron-steel_blast-furnace --> energy_fuels_coke
-    metals_non-ferrous --> chemistry_acids
-    metals_non-ferrous --> mining
     metals_powder-metallurgy -.-> chemistry_hydrogen-silane
     metals_powder-metallurgy -.-> energy_electric-furnaces
     metals_precious-metals --> chemistry
     metals_precious-metals --> electronics
     metals_precious-metals --> mining
+    metals_rare-earths --> mining
     metals_refractory-specialty --> chemistry
     metals_specialty-semiconductor --> chemistry
     metals_specialty-semiconductor -.-> gas-handling_vacuum
@@ -204,11 +258,11 @@ graph TD
     metals_steelmaking --> energy_fuels
     metals --> chemistry_refractories
     metals -.-> foundations
-    metals --> mining
     mining_extraction -.-> metals_iron-steel
     petroleum -.-> metals
-    photolithography_fab-processes_pvd --> metals
+    photolithography_fab-processes_pvd --> metals_specialty-semiconductor
     photolithography_fab-processes --> metals_aluminum_semiconductor-grade
+    photolithography --> metals_rare-earths
     silicon_basic-devices --> metals_aluminum_semiconductor-grade
     silicon_mg-si-production -.-> metals
     telecom_electric-telegraph --> metals
@@ -224,6 +278,7 @@ graph TD
     transport -.-> metals
     vacuum_chambers --> metals
     vacuum --> metals
+    water_distribution --> metals_pipe-making
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -243,17 +298,29 @@ graph TD
     class metals_alloys capability
     class metals_aluminum capability
     class metals_aluminum_semiconductor-grade process
+    class metals_blacksmithing earlyWin
+    class metals_bronze capability
+    class metals_casting capability
     class metals_copper-bronze capability
+    class metals_copper-refining capability
+    class metals_copper capability
     class metals_finishing capability
     class metals_forming capability
     class metals_iron-steel_blast-furnace process
     class metals_iron-steel critical
+    class metals_magnetic-materials capability
+    class metals_metal-recycling capability
     class metals_non-ferrous capability
+    class metals_pipe-making capability
     class metals_powder-metallurgy pinnacle
     class metals_precious-metals capability
+    class metals_rare-earths capability
     class metals_refractory-specialty capability
     class metals_specialty-semiconductor capability
+    class metals_springs capability
     class metals_steelmaking critical
+    class metals_wire-drawing capability
+    class metals_wire-rope capability
     class animals_beekeeping external
     class ceramics external
     class ceramics_kilns external
@@ -266,6 +333,7 @@ graph TD
     class chemistry_coatings external
     class chemistry_electrolysis external
     class chemistry_hydrogen-silane external
+    class chemistry_paint external
     class chemistry_refractories external
     class chemistry_soap external
     class cleanrooms external
@@ -273,6 +341,7 @@ graph TD
     class construction external
     class construction_structural-engineering external
     class defense external
+    class economics-organization_coinage external
     class economics-organization_currency external
     class electrochemistry external
     class electrochemistry_anodizing external
@@ -285,15 +354,20 @@ graph TD
     class energy_engine external
     class energy_fuels external
     class energy_fuels_coke external
+    class energy_furnace-design external
     class energy_gas-turbine external
     class energy_geothermal external
     class energy_gravity_water-turbines external
+    class energy_hydraulics external
+    class energy_internal-combustion external
     class energy_steam-power external
     class energy_steam-power_steam-turbines external
+    class energy_stirling-engine external
     class energy_storage external
     class food-processing_oil-processing external
     class foundations external
     class foundations_fire external
+    class gas-handling external
     class gas-handling_cylinder-filling external
     class gas-handling_vacuum external
     class glass_basic_float-glass external
@@ -301,9 +375,12 @@ graph TD
     class health_medical-instruments external
     class knowledge_printing external
     class machine-tools external
-    class machine-tools_casting external
+    class machine-tools_fasteners external
     class machine-tools_forming external
     class machine-tools_joining external
+    class machine-tools_joining_brazing-soldering external
+    class machine-tools_joining_riveting external
+    class machine-tools_joining_welding external
     class marine external
     class marine_infrastructure external
     class marine_navigation external
@@ -312,9 +389,11 @@ graph TD
     class measurement external
     class measurement_precision-metrology external
     class measurement_temperature-pressure external
+    class measurement_thermostat-mechanical external
     class mining external
     class mining_extraction external
     class petroleum external
+    class photolithography external
     class photolithography_fab-processes external
     class photolithography_fab-processes_pvd external
     class silicon_basic-devices external
@@ -332,4 +411,5 @@ graph TD
     class vacuum external
     class vacuum_chambers external
     class vlsi-scaling_advanced-processes external
+    class water_distribution external
     class EdgeLegend,MatNote,ToolNote legend

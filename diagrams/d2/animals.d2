@@ -120,6 +120,9 @@ animals: "Animals & Animal Husbandry"
 agriculture_aquaponics: Aquaponics {
   shape: rectangle
 }
+agriculture_selective-breeding: "Selective Breeding & Genetic Improvement" {
+  shape: rectangle
+}
 agriculture_soil-management: "Soil Management & Composting" {
   shape: rectangle
 }
@@ -127,6 +130,9 @@ ceramics_lime: Lime Production {
   shape: rectangle
 }
 chemistry_lubricants: "Lubricants, Oils & Fluid Mechanics" {
+  shape: rectangle
+}
+chemistry_lubricants-natural: "Natural Lubricants: Animal Fats & Vegetable Oils" {
   shape: rectangle
 }
 foundations: Foundations {
@@ -160,6 +166,9 @@ metals_copper-bronze: "Copper & Bronze Production" {
   shape: rectangle
 }
 mining_extraction: Mining Extraction {
+  shape: rectangle
+}
+textiles: "Textiles, Fiber & Cordage" {
   shape: rectangle
 }
 textiles_fibers: Fiber Preparation {
@@ -204,6 +213,7 @@ animals_sericulture -> animals_domestication: { class: material-edge }
 animals_sheep -> animals_domestication: { class: tool-edge }
 animals_sheep -> animals: { class: material-edge }
 agriculture_aquaponics -> animals_aquaculture: { class: tool-edge }
+agriculture_selective-breeding -> animals_domestication: { class: material-edge }
 agriculture_soil-management -> animals: { class: material-edge }
 animals_animal-materials -> ceramics_lime: { class: tool-edge }
 animals_aquaculture -> foundations_tools-basic: { class: tool-edge }
@@ -212,6 +222,7 @@ animals_beekeeping -> foundations_tools-basic: { class: tool-edge }
 animals_draft-power -> foundations_tools-basic: { class: tool-edge }
 animals_poultry -> foundations_food-agriculture: { class: material-edge }
 animals -> foundations: { class: tool-edge }
+chemistry_lubricants-natural -> animals_animal-materials: { class: material-edge }
 chemistry_lubricants -> animals_animal-materials: { class: material-edge }
 foundations_food-agriculture -> animals_beekeeping: { class: material-edge }
 foundations_food-agriculture -> animals_pigs: { class: material-edge }
@@ -229,6 +240,7 @@ textiles_fibers -> animals_camelids: { class: material-edge }
 textiles_fibers -> animals_goats: { class: material-edge }
 textiles_fibers -> animals_rabbits: { class: material-edge }
 textiles_fibers -> animals_sheep: { class: material-edge }
+textiles -> animals_leather: { class: material-edge }
 transport_roads -> animals_draft-power: { class: tool-edge }
 
 # ==================== STYLING ====================
@@ -259,9 +271,11 @@ animals_rabbits.class: earlyWin
 animals_sericulture.class: capability
 animals_sheep.class: earlyWin
 agriculture_aquaponics.class: external
+agriculture_selective-breeding.class: external
 agriculture_soil-management.class: external
 ceramics_lime.class: external
 chemistry_lubricants.class: external
+chemistry_lubricants-natural.class: external
 foundations.class: external
 foundations_fire.class: external
 foundations_food-agriculture.class: external
@@ -273,6 +287,7 @@ machine-tools_forming.class: external
 machine-tools_iterative-bootstrap.class: external
 metals_copper-bronze.class: external
 mining_extraction.class: external
+textiles.class: external
 textiles_fibers.class: external
 transport_roads.class: external
 

@@ -121,6 +121,12 @@ chemistry_dopant-etch-gases: "Dopant & Etch Gases" {
 chemistry_hydrogen-silane: "Hydrogen & Silane Production" {
   shape: rectangle
 }
+chemistry_phosphorus: Phosphorus and Phosphate Chemistry {
+  shape: rectangle
+}
+chemistry_semiconductor-chemicals: Semiconductor Process Chemicals {
+  shape: rectangle
+}
 computing_electronic: Electronic Computing {
   shape: rectangle
 }
@@ -130,6 +136,9 @@ cryogenics_liquefaction-storage: "Gas Liquefaction & Storage" {
 electronics_assembly: Electronics Assembly {
   shape: rectangle
 }
+electronics_semiconductor-devices: Semiconductor Devices {
+  shape: rectangle
+}
 energy: Energy {
   shape: rectangle
 }
@@ -137,6 +146,9 @@ energy_electric-furnaces: Electric Furnaces {
   shape: rectangle
 }
 energy_electricity: "Electricity Generation & Distribution" {
+  shape: rectangle
+}
+energy_photovoltaics: Photovoltaic Solar Power {
   shape: rectangle
 }
 gas-handling: Gas Handling {
@@ -163,6 +175,9 @@ measurement_precision-metrology: "Precision Metrology & Standards" {
 measurement_temperature-pressure: "Temperature & Pressure Measurement" {
   shape: rectangle
 }
+measurement_thermostat-advanced: "Advanced & Specialty Thermostats" {
+  shape: rectangle
+}
 metals: Metals {
   shape: rectangle
 }
@@ -173,6 +188,24 @@ mining: "Mining Engineering & Extractive Metallurgy" {
   shape: rectangle
 }
 photolithography: "Photolithography & IC Fabrication" {
+  shape: rectangle
+}
+photolithography_fab-processes: Core Fab Processes {
+  shape: rectangle
+}
+photolithography_fab-processes_cvd: Chemical Vapor Deposition {
+  shape: rectangle
+}
+photolithography_fab-processes_ion-implantation: Ion Implantation {
+  shape: rectangle
+}
+photolithography_fab-processes_plasma-etching: "Plasma Etching (RIE & DRIE)" {
+  shape: rectangle
+}
+ultra-pure: Ultra-Pure Materials {
+  shape: rectangle
+}
+vacuum: Vacuum Technology {
   shape: rectangle
 }
 vacuum_pumps: Vacuum Pumps {
@@ -193,6 +226,10 @@ silicon_wafering -> silicon_crystal-growth: { class: material-edge }
 silicon_wafering -> silicon: { class: tool-edge }
 computing_electronic -> silicon_basic-devices: { class: material-edge }
 electronics_assembly -> silicon_basic-devices: { class: material-edge }
+electronics_semiconductor-devices -> silicon_basic-devices: { class: material-edge }
+energy_photovoltaics -> silicon_basic-devices: { class: tool-edge }
+measurement_thermostat-advanced -> silicon: { class: tool-edge }
+photolithography_fab-processes -> silicon_wafering: { class: material-edge }
 photolithography -> silicon: { class: material-edge }
 silicon_basic-devices -> chemistry_acids: { class: material-edge }
 silicon_basic-devices -> gas-handling_vacuum: { class: tool-edge }
@@ -209,9 +246,12 @@ silicon_mg-si-production -> metals: { class: tool-edge }
 silicon_mg-si-production -> mining: { class: material-edge }
 silicon_purification -> chemistry_distillation: { class: tool-edge }
 silicon_purification -> chemistry_hydrogen-silane: { class: material-edge }
+silicon_purification -> chemistry_phosphorus: { class: material-edge }
+silicon_purification -> chemistry_semiconductor-chemicals: { class: material-edge }
 silicon_purification -> chemistry: { class: tool-edge }
 silicon_purification -> energy_electricity: { class: tool-edge }
 silicon_purification -> gas-handling_basic: { class: tool-edge }
+silicon_purification -> vacuum: { class: tool-edge }
 silicon_wafering_epitaxy -> chemistry_dopant-etch-gases: { class: material-edge }
 silicon -> ceramics_advanced-ceramics: { class: tool-edge }
 silicon -> chemistry: { class: material-edge }
@@ -219,6 +259,10 @@ silicon -> energy: { class: material-edge }
 silicon -> gas-handling: { class: tool-edge }
 silicon -> glass: { class: tool-edge }
 silicon -> machine-tools: { class: tool-edge }
+silicon -> photolithography_fab-processes_cvd: { class: material-edge }
+silicon -> photolithography_fab-processes_ion-implantation: { class: material-edge }
+silicon -> photolithography_fab-processes_plasma-etching: { class: material-edge }
+silicon -> ultra-pure: { class: material-edge }
 vlsi-scaling_eda-design -> silicon_basic-devices: { class: tool-edge }
 
 # ==================== STYLING ====================
@@ -238,12 +282,16 @@ chemistry_air-separation.class: external
 chemistry_distillation.class: external
 chemistry_dopant-etch-gases.class: external
 chemistry_hydrogen-silane.class: external
+chemistry_phosphorus.class: external
+chemistry_semiconductor-chemicals.class: external
 computing_electronic.class: external
 cryogenics_liquefaction-storage.class: external
 electronics_assembly.class: external
+electronics_semiconductor-devices.class: external
 energy.class: external
 energy_electric-furnaces.class: external
 energy_electricity.class: external
+energy_photovoltaics.class: external
 gas-handling.class: external
 gas-handling_basic.class: external
 gas-handling_vacuum.class: external
@@ -252,10 +300,17 @@ glass_advanced.class: external
 machine-tools.class: external
 measurement_precision-metrology.class: external
 measurement_temperature-pressure.class: external
+measurement_thermostat-advanced.class: external
 metals.class: external
 metals_aluminum_semiconductor-grade.class: external
 mining.class: external
 photolithography.class: external
+photolithography_fab-processes.class: external
+photolithography_fab-processes_cvd.class: external
+photolithography_fab-processes_ion-implantation.class: external
+photolithography_fab-processes_plasma-etching.class: external
+ultra-pure.class: external
+vacuum.class: external
 vacuum_pumps.class: external
 vlsi-scaling_eda-design.class: external
 

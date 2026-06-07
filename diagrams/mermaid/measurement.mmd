@@ -6,9 +6,15 @@ graph TD
     subgraph measurement_internal ["Measurement & Instrumentation — Internal Structure"]
         direction TB
         measurement_electrical-instruments["Electrical Measurement Instruments"]
+        measurement_horology["Clockmaking & Precision Horology"]
         measurement_optical-instruments["Optical Measurement Instruments"]
         measurement_precision-metrology["Precision Metrology & Standards"]
         measurement_temperature-pressure["Temperature & Pressure Measurement"]
+        measurement_thermostat-advanced["Advanced & Specialty Thermostats"]
+        measurement_thermostat-electrical["Electrical Thermostats"]
+        measurement_thermostat-electronic["Electronic Thermostats"]
+        measurement_thermostat-fluid["Fluid & Gas Thermostats"]
+        measurement_thermostat-mechanical["Mechanical Thermostats"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -17,16 +23,22 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry("Chemistry")
     cleanrooms("Clean Room Technology")
+    computing("Computing & Automation")
     economics-organization_currency("Currency & Standardized Exchange")
+    electronics("Electronics")
     energy_electricity("Electricity Generation & Distribution")
     energy_electricity_power-systems("Electric Power Systems for Semiconductor Fabrication")
+    energy_hvac("HVAC for General Industry")
     foundations("Foundations")
+    glass("Glass")
     knowledge_scientific-method("Scientific Method")
+    knowledge_surveying("Surveying & Cartography")
     machine-tools("Machine Tools Bootstrap")
-    machine-tools_casting("Metal Casting")
     machine-tools_mass-production("Mass Production & Interchangeability")
+    marine_navigation("Marine Navigation")
     metals("Metals")
     metals_powder-metallurgy("Powder Metallurgy & Advanced Materials")
+    optics("Optics")
     optics_inspection("Optical Inspection")
     optics_precision-instruments("Precision Optical Instruments")
     precision-motion("Precision Motion Control")
@@ -35,6 +47,7 @@ graph TD
     quality-control("Quality Control & Statistical Process Control")
     quality-control_inspection-sampling("Inspection & Sampling Plans")
     quality-control_spc("Statistical Process Control")
+    silicon("Silicon")
     silicon_crystal-growth("Crystal Growth & Wafering")
     silicon_crystal-growth_cz-pulling("Czochralski Crystal Pulling")
     ultra-pure_analytical-verification("PPT-Level Analytical Verification")
@@ -45,19 +58,36 @@ graph TD
     %% ==================== EDGES ====================
     measurement_electrical-instruments -.-> measurement
     measurement_optical-instruments -.-> measurement
+    measurement_thermostat-advanced -.-> measurement_thermostat-electronic
+    measurement_thermostat-electrical -.-> measurement_electrical-instruments
+    measurement_thermostat-electrical --> measurement_temperature-pressure
+    measurement_thermostat-electronic -.-> measurement_thermostat-electrical
+    measurement_thermostat-fluid -.-> measurement_thermostat-mechanical
+    measurement_thermostat-mechanical -.-> measurement_temperature-pressure
     cleanrooms -.-> measurement
     economics-organization_currency -.-> measurement_precision-metrology
-    energy_electricity_power-systems -.-> measurement
+    energy_electricity_power-systems -.-> measurement_electrical-instruments
+    energy_hvac -.-> measurement_temperature-pressure
     knowledge_scientific-method -.-> measurement
+    knowledge_surveying -.-> measurement
     machine-tools_mass-production -.-> measurement_precision-metrology
+    marine_navigation -.-> measurement_horology
     measurement_electrical-instruments -.-> energy_electricity
     measurement_optical-instruments -.-> optics_inspection
     measurement_precision-metrology -.-> foundations
-    measurement_precision-metrology -.-> machine-tools_casting
     measurement_precision-metrology -.-> metals
     measurement_precision-metrology -.-> optics_precision-instruments
     measurement_temperature-pressure -.-> energy_electricity
     measurement_temperature-pressure --> metals
+    measurement_thermostat-advanced -.-> optics
+    measurement_thermostat-advanced -.-> silicon
+    measurement_thermostat-electrical -.-> electronics
+    measurement_thermostat-electronic -.-> computing
+    measurement_thermostat-electronic --> electronics
+    measurement_thermostat-fluid --> chemistry
+    measurement_thermostat-fluid --> glass
+    measurement_thermostat-mechanical -.-> machine-tools
+    measurement_thermostat-mechanical --> metals
     measurement --> chemistry
     measurement -.-> machine-tools
     measurement -.-> metals_powder-metallurgy
@@ -90,21 +120,33 @@ graph TD
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class measurement domain
     class measurement_electrical-instruments capability
+    class measurement_horology capability
     class measurement_optical-instruments capability
     class measurement_precision-metrology capability
     class measurement_temperature-pressure capability
+    class measurement_thermostat-advanced capability
+    class measurement_thermostat-electrical capability
+    class measurement_thermostat-electronic capability
+    class measurement_thermostat-fluid capability
+    class measurement_thermostat-mechanical earlyWin
     class chemistry external
     class cleanrooms external
+    class computing external
     class economics-organization_currency external
+    class electronics external
     class energy_electricity external
     class energy_electricity_power-systems external
+    class energy_hvac external
     class foundations external
+    class glass external
     class knowledge_scientific-method external
+    class knowledge_surveying external
     class machine-tools external
-    class machine-tools_casting external
     class machine-tools_mass-production external
+    class marine_navigation external
     class metals external
     class metals_powder-metallurgy external
+    class optics external
     class optics_inspection external
     class optics_precision-instruments external
     class precision-motion external
@@ -113,6 +155,7 @@ graph TD
     class quality-control external
     class quality-control_inspection-sampling external
     class quality-control_spc external
+    class silicon external
     class silicon_crystal-growth external
     class silicon_crystal-growth_cz-pulling external
     class ultra-pure_analytical-verification external

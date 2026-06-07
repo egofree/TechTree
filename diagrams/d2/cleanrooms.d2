@@ -98,7 +98,13 @@ cleanrooms: Clean Room Technology
 chemistry: Chemistry {
   shape: rectangle
 }
+construction_industrial-buildings: "Industrial Buildings & Heavy Foundations" {
+  shape: rectangle
+}
 energy: Energy {
+  shape: rectangle
+}
+energy_hvac: HVAC for General Industry {
   shape: rectangle
 }
 glass: Glass {
@@ -115,11 +121,15 @@ photolithography: "Photolithography & IC Fabrication" {
 }
 
 # ==================== EDGES ====================
+cleanrooms_contamination-control -> cleanrooms_hepa-ulpa-filtration: { class: tool-edge }
+cleanrooms -> cleanrooms_contamination-control: { class: tool-edge }
 cleanrooms -> chemistry: { class: material-edge }
+cleanrooms -> energy_hvac: { class: tool-edge }
 cleanrooms -> energy: { class: tool-edge }
 cleanrooms -> glass: { class: material-edge }
 cleanrooms -> measurement: { class: tool-edge }
 cleanrooms -> metals: { class: material-edge }
+construction_industrial-buildings -> cleanrooms_facility-design: { class: tool-edge }
 photolithography -> cleanrooms: { class: tool-edge }
 
 # ==================== STYLING ====================
@@ -128,7 +138,9 @@ cleanrooms_contamination-control.class: capability
 cleanrooms_facility-design.class: capability
 cleanrooms_hepa-ulpa-filtration.class: capability
 chemistry.class: external
+construction_industrial-buildings.class: external
 energy.class: external
+energy_hvac.class: external
 glass.class: external
 measurement.class: external
 metals.class: external

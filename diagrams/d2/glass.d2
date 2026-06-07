@@ -90,6 +90,8 @@ glass_internal: "Glass — Internal Structure" {
   glass_advanced: Advanced Glass Production
   glass_basic: Basic Glass Production
   glass_fibers: Glass Fiber Production
+  glass_basic_float-glass: Float Glass Process
+  glass_glass-to-metal-seals: Glass-to-Metal Seals
   glass_photomask-substrates: "Photomask Glass Substrates & ULE Glass"
 }
 
@@ -97,13 +99,22 @@ glass_internal: "Glass — Internal Structure" {
 glass: Glass
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+ceramics_thermal-insulation: Thermal Insulation {
+  shape: rectangle
+}
 chemistry: Chemistry {
   shape: rectangle
 }
 chemistry_acids: Mineral Acid Production {
   shape: rectangle
 }
+chemistry_potash: Potash Production {
+  shape: rectangle
+}
 chemistry_refractories: Refractory Materials {
+  shape: rectangle
+}
+chemistry_solvay: "Solvay Process (Soda Ash)" {
   shape: rectangle
 }
 cleanrooms: Clean Room Technology {
@@ -115,13 +126,28 @@ electronics_assembly: Electronics Assembly {
 energy: Energy {
   shape: rectangle
 }
+energy_electric-furnaces: Electric Furnaces {
+  shape: rectangle
+}
 energy_fuels: Fuel Production {
+  shape: rectangle
+}
+energy_photovoltaics: Photovoltaic Solar Power {
+  shape: rectangle
+}
+gas-handling_basic: Basic Gas Handling {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
   shape: rectangle
 }
-mining: "Mining Engineering & Extractive Metallurgy" {
+measurement_thermostat-fluid: "Fluid & Gas Thermostats" {
+  shape: rectangle
+}
+metals_alloys: Specialty Alloys {
+  shape: rectangle
+}
+metals_non-ferrous: Non-Ferrous Metal Production {
   shape: rectangle
 }
 optics_inspection: Optical Inspection {
@@ -148,6 +174,9 @@ telecom: Telecommunications {
 telecom_radio: Radio Communication {
   shape: rectangle
 }
+vacuum_chambers: "Vacuum Chambers & Sealing" {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
 glass_advanced_glassblowing -> glass_advanced: { class: tool-edge }
@@ -156,16 +185,26 @@ glass_basic -> glass_basic: { class: material-edge }
 glass_fibers -> glass_advanced: { class: material-edge }
 glass_fibers -> glass: { class: tool-edge }
 glass_photomask-substrates -> glass_advanced: { class: tool-edge }
+glass_glass-to-metal-seals -> glass_advanced: { class: material-edge }
+ceramics_thermal-insulation -> glass_basic: { class: material-edge }
 chemistry_acids -> glass_basic: { class: tool-edge }
 cleanrooms -> glass: { class: material-edge }
 electronics_assembly -> glass_fibers: { class: material-edge }
+energy_photovoltaics -> glass_basic: { class: material-edge }
 glass_advanced_glassblowing -> energy_fuels: { class: tool-edge }
-glass_basic -> mining: { class: material-edge }
+glass_basic_float-glass -> energy_electric-furnaces: { class: tool-edge }
+glass_basic_float-glass -> gas-handling_basic: { class: tool-edge }
+glass_basic_float-glass -> metals_non-ferrous: { class: tool-edge }
+glass_basic -> chemistry_potash: { class: material-edge }
 glass_photomask-substrates -> photolithography_fab-processes: { class: material-edge }
+glass_glass-to-metal-seals -> metals_alloys: { class: material-edge }
+glass_glass-to-metal-seals -> vacuum_chambers: { class: tool-edge }
 glass -> chemistry_refractories: { class: material-edge }
+glass -> chemistry_solvay: { class: material-edge }
 glass -> chemistry: { class: material-edge }
 glass -> energy: { class: material-edge }
 glass -> machine-tools: { class: tool-edge }
+measurement_thermostat-fluid -> glass: { class: material-edge }
 optics_inspection -> glass_advanced: { class: material-edge }
 photolithography_resists-masks -> glass_basic: { class: material-edge }
 polymers_composites -> glass_fibers: { class: material-edge }
@@ -180,16 +219,26 @@ glass_advanced_glassblowing.class: process
 glass_advanced.class: capability
 glass_basic.class: capability
 glass_fibers.class: capability
+glass_basic_float-glass.class: process
+glass_glass-to-metal-seals.class: capability
 glass_photomask-substrates.class: capability
+ceramics_thermal-insulation.class: external
 chemistry.class: external
 chemistry_acids.class: external
+chemistry_potash.class: external
 chemistry_refractories.class: external
+chemistry_solvay.class: external
 cleanrooms.class: external
 electronics_assembly.class: external
 energy.class: external
+energy_electric-furnaces.class: external
 energy_fuels.class: external
+energy_photovoltaics.class: external
+gas-handling_basic.class: external
 machine-tools.class: external
-mining.class: external
+measurement_thermostat-fluid.class: external
+metals_alloys.class: external
+metals_non-ferrous.class: external
 optics_inspection.class: external
 photolithography_fab-processes.class: external
 photolithography_resists-masks.class: external
@@ -198,6 +247,7 @@ silicon.class: external
 silicon_crystal-growth.class: external
 telecom.class: external
 telecom_radio.class: external
+vacuum_chambers.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

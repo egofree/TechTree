@@ -41,6 +41,7 @@ graph TD
     agriculture_soil-management("Soil Management & Composting")
     ceramics_lime("Lime Production")
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
+    chemistry_lubricants-natural("Natural Lubricants: Animal Fats & Vegetable Oils")
     foundations("Foundations")
     foundations_fire("Fire-Making")
     foundations_food-agriculture("Agriculture & Food Production")
@@ -52,6 +53,7 @@ graph TD
     machine-tools_iterative-bootstrap("Iterative Machine Bootstrap")
     metals_copper-bronze("Copper & Bronze Production")
     mining_extraction("Mining Extraction")
+    textiles("Textiles, Fiber & Cordage")
     textiles_fibers("Fiber Preparation")
     transport_roads("Road & Bridge Construction")
 
@@ -99,6 +101,7 @@ graph TD
     animals_draft-power -.-> foundations_tools-basic
     animals_poultry --> foundations_food-agriculture
     animals -.-> foundations
+    chemistry_lubricants-natural --> animals_animal-materials
     chemistry_lubricants --> animals_animal-materials
     foundations_food-agriculture --> animals_beekeeping
     foundations_food-agriculture --> animals_pigs
@@ -116,6 +119,7 @@ graph TD
     textiles_fibers --> animals_goats
     textiles_fibers --> animals_rabbits
     textiles_fibers --> animals_sheep
+    textiles --> animals_leather
     transport_roads -.-> animals_draft-power
 
     %% ==================== EDGE TYPE LEGEND ====================
@@ -163,6 +167,7 @@ graph TD
     class agriculture_soil-management external
     class ceramics_lime external
     class chemistry_lubricants external
+    class chemistry_lubricants-natural external
     class foundations external
     class foundations_fire external
     class foundations_food-agriculture external
@@ -174,6 +179,7 @@ graph TD
     class machine-tools_iterative-bootstrap external
     class metals_copper-bronze external
     class mining_extraction external
+    class textiles external
     class textiles_fibers external
     class transport_roads external
     class EdgeLegend,MatNote,ToolNote legend

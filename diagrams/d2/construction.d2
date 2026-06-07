@@ -95,22 +95,64 @@ construction_internal: "Construction & Structural Engineering — Internal Struc
 construction: "Construction & Structural Engineering"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+agriculture_irrigation: Irrigation Systems {
+  shape: rectangle
+}
 ceramics_lime: Lime Production {
+  shape: rectangle
+}
+chemistry_adhesives-coatings: "Adhesives & Specialty Coatings" {
   shape: rectangle
 }
 chemistry_cement: "Cement & Concrete" {
   shape: rectangle
 }
+chemistry_chemical-recovery: "Chemical Recovery & Solvent Regeneration" {
+  shape: rectangle
+}
+chemistry_paint: "Paint & Coating Manufacturing" {
+  shape: rectangle
+}
+cleanrooms_facility-design: "Facility Design & HVAC" {
+  shape: rectangle
+}
+defense_fortifications: Fortification Engineering {
+  shape: rectangle
+}
 economics-organization_division-of-labor: Division of Labor {
+  shape: rectangle
+}
+ehs: "Environmental Health & Safety" {
   shape: rectangle
 }
 energy_electricity: "Electricity Generation & Distribution" {
   shape: rectangle
 }
+energy_hvac: HVAC for General Industry {
+  shape: rectangle
+}
+energy_pneumatics: Pneumatics {
+  shape: rectangle
+}
+energy_solar-thermal: Solar Thermal Energy {
+  shape: rectangle
+}
 foundations: Foundations {
   shape: rectangle
 }
+foundations_carpentry: Basic Carpentry {
+  shape: rectangle
+}
+foundations_sawmilling: "Sawmilling & Timber Processing" {
+  shape: rectangle
+}
 foundations_tools-basic: "Stone & Wood Tools" {
+  shape: rectangle
+}
+gas-handling_piping-systems: Gas Distribution Piping Systems {
+  shape: rectangle
+}
+knowledge_surveying: "Surveying & Cartography" {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
@@ -119,7 +161,16 @@ machine-tools: Machine Tools Bootstrap {
 metals: Metals {
   shape: rectangle
 }
+metals_blacksmithing: Blacksmithing {
+  shape: rectangle
+}
 metals_iron-steel: "Iron & Steel Production" {
+  shape: rectangle
+}
+metals_metal-recycling: Metal Scrap Recycling {
+  shape: rectangle
+}
+precision-motion_vibration-isolation: Vibration Isolation {
   shape: rectangle
 }
 textiles_rope-making: Rope and Cordage {
@@ -127,31 +178,65 @@ textiles_rope-making: Rope and Cordage {
 }
 
 # ==================== EDGES ====================
+agriculture_irrigation -> construction: { class: tool-edge }
+construction_building-materials -> foundations_sawmilling: { class: material-edge }
 construction_building-materials -> foundations_tools-basic: { class: tool-edge }
+construction_industrial-buildings -> cleanrooms_facility-design: { class: tool-edge }
 construction_industrial-buildings -> economics-organization_division-of-labor: { class: tool-edge }
 construction_industrial-buildings -> energy_electricity: { class: tool-edge }
+construction_industrial-buildings -> energy_hvac: { class: tool-edge }
 construction_structural-engineering -> metals_iron-steel: { class: material-edge }
 construction -> ceramics_lime: { class: material-edge }
+construction -> chemistry_adhesives-coatings: { class: tool-edge }
 construction -> chemistry_cement: { class: material-edge }
+construction -> chemistry_chemical-recovery: { class: material-edge }
+construction -> chemistry_paint: { class: material-edge }
+construction -> defense_fortifications: { class: tool-edge }
+construction -> ehs: { class: tool-edge }
+construction -> energy_pneumatics: { class: tool-edge }
+construction -> energy_solar-thermal: { class: material-edge }
+construction -> foundations_carpentry: { class: material-edge }
 construction -> foundations: { class: tool-edge }
+construction -> gas-handling_piping-systems: { class: tool-edge }
+construction -> knowledge_surveying: { class: tool-edge }
 construction -> machine-tools: { class: tool-edge }
+construction -> metals_blacksmithing: { class: material-edge }
+construction -> metals_metal-recycling: { class: material-edge }
 construction -> metals: { class: material-edge }
 construction -> textiles_rope-making: { class: material-edge }
+precision-motion_vibration-isolation -> construction: { class: tool-edge }
 
 # ==================== STYLING ====================
 construction.class: domain
 construction_building-materials.class: capability
 construction_industrial-buildings.class: capability
 construction_structural-engineering.class: capability
+agriculture_irrigation.class: external
 ceramics_lime.class: external
+chemistry_adhesives-coatings.class: external
 chemistry_cement.class: external
+chemistry_chemical-recovery.class: external
+chemistry_paint.class: external
+cleanrooms_facility-design.class: external
+defense_fortifications.class: external
 economics-organization_division-of-labor.class: external
+ehs.class: external
 energy_electricity.class: external
+energy_hvac.class: external
+energy_pneumatics.class: external
+energy_solar-thermal.class: external
 foundations.class: external
+foundations_carpentry.class: external
+foundations_sawmilling.class: external
 foundations_tools-basic.class: external
+gas-handling_piping-systems.class: external
+knowledge_surveying.class: external
 machine-tools.class: external
 metals.class: external
+metals_blacksmithing.class: external
 metals_iron-steel.class: external
+metals_metal-recycling.class: external
+precision-motion_vibration-isolation.class: external
 textiles_rope-making.class: external
 
 # ==================== LEGEND ====================

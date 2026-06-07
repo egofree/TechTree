@@ -7,31 +7,51 @@ graph TD
         direction TB
         chemistry_acid-regeneration["Acid Regeneration"]
         chemistry_acids-bases["Acids & Bases (Comprehensive Reference)"]
+        chemistry_acids_contact-process["Contact Process (H₂SO₄)"]
         chemistry_acids["Mineral Acid Production"]
         chemistry_adhesives-coatings["Adhesives & Specialty Coatings"]
         chemistry_air-separation["Air Separation & Bulk Gas Production"]
         chemistry_alkalis["Alkali Production"]
         chemistry_ammonia["Ammonia & Fertilizer Production"]
+        chemistry_bleaching["Bleaching & Chlorine Chemistry"]
         chemistry_cement["Cement & Concrete"]
+        chemistry_chemical-recovery["Chemical Recovery & Solvent Regeneration"]
         chemistry_coatings["Paints, Coatings & Inks"]
         chemistry_distillation["Distillation"]
         chemistry_dopant-etch-gases["Dopant & Etch Gases"]
         chemistry_e-methanol["E-Methanol Synthesis"]
         chemistry_electrodialysis["Electrodialysis"]
+        chemistry_electrolysis_chlor-alkali["Chlor-Alkali Process"]
         chemistry_electrolysis["Electrolysis"]
         chemistry_electrolysis_sem-tech["Semiconductor-Grade Electrolysis"]
+        chemistry_electrolysis_water-splitting["Water Electrolysis (H₂/O₂)"]
+        chemistry_explosives_black-powder["Black Powder Manufacture"]
+        chemistry_explosives_detonation-blasting["Detonation & Blasting Systems"]
+        chemistry_explosives_high-explosives["High Explosives (TNT, RDX, ANFO)"]
         chemistry_explosives["Explosives and Propellants"]
+        chemistry_explosives_nitrocellulose["Nitrocellulose & Smokeless Powders"]
+        chemistry_explosives_nitroglycerin-dynamite["Nitroglycerin & Dynamite"]
+        chemistry_flux["Flux Production"]
         chemistry_hydrogen-silane["Hydrogen & Silane Production"]
         chemistry_lithium-separation["Lithium Separation"]
+        chemistry_lubricants-grease-solid["Grease, Solid Lubricants & Bearing Lubrication"]
+        chemistry_lubricants-mineral["Mineral Oil Lubricants, Cutting Fluids & Hydraulic Fluids"]
+        chemistry_lubricants-natural["Natural Lubricants: Animal Fats & Vegetable Oils"]
+        chemistry_lubricants-synthetic["Synthetic Lubricants & Specialty Fluids"]
         chemistry_lubricants["Lubricants, Oils & Fluid Mechanics"]
         chemistry_packaging-testing["Semiconductor Packaging & Testing"]
+        chemistry_paint["Paint & Coating Manufacturing"]
         chemistry_petroleum-alternatives_fermentation["Fermentation Chemistry"]
         chemistry_petroleum-alternatives["Petroleum & Alternative Chemistry"]
         chemistry_petroleum-alternatives_wood-gasification["Wood Gasification"]
+        chemistry_phosphorus["Phosphorus and Phosphate Chemistry"]
+        chemistry_photographic-chemistry["Photographic Chemistry"]
+        chemistry_potash["Potash Production"]
         chemistry_pulp-chemicals["Pulp & Paper Chemicals"]
         chemistry_refractories["Refractory Materials"]
         chemistry_semiconductor-chemicals["Semiconductor Process Chemicals"]
         chemistry_soap["Soap & Detergent Production"]
+        chemistry_solvay["Solvay Process (Soda Ash)"]
         chemistry_solvents["Solvent Production"]
         chemistry_water-electrolysis["Water Electrolysis"]
         chemistry_water-treatment["Industrial Water Treatment"]
@@ -41,6 +61,7 @@ graph TD
     chemistry["Chemistry"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    agriculture("Agriculture")
     agriculture_hydroponic-ph-control("Hydroponic pH Control")
     animals_animal-materials("Animal-Derived Materials Processing")
     ceramics_electronic-ceramics("Electronic Ceramics")
@@ -68,7 +89,9 @@ graph TD
     energy_fuel-cell("Fuel Cell")
     energy_fuels_charcoal("Charcoal Production")
     energy_gravity("Water Power")
+    energy_hydraulics("Hydraulic Power")
     energy_redox-flow-battery("Redox Flow Battery")
+    energy_stirling-engine("Stirling Engine")
     energy_storage("Energy Storage & Diversification")
     energy_wind("Wind Power")
     food-processing_brewing("Brewing & Distilling")
@@ -87,14 +110,17 @@ graph TD
     health_pharmaceutical-production("Pharmaceutical Production")
     health_pharmacology("Pharmacology")
     knowledge("Knowledge Preservation & Education")
-    knowledge_writing("Writing & Record-Keeping")
     machine-tools("Machine Tools Bootstrap")
+    machine-tools_hydraulic-systems("Hydraulic Systems for Machine Tools")
     machine-tools_joining("Metal Joining")
+    machine-tools_joining_brazing-soldering("Brazing & Soldering")
     machine-tools_joining_tig-welding("TIG Welding (GTAW)")
     machine-tools_joining_ultrasonic-bonding("Ultrasonic Welding & Wire Bonding")
     measurement("Measurement & Instrumentation")
+    measurement_thermostat-fluid("Fluid & Gas Thermostats")
     metals("Metals")
     metals_aluminum("Aluminum Production")
+    metals_copper-refining("Copper Refining")
     metals_finishing("Metal Finishing & Surface Treatment")
     metals_forming("Primary Metal Forming")
     metals_iron-steel_blast-furnace("Blast Furnace and Cast Iron")
@@ -105,7 +131,10 @@ graph TD
     metals_specialty-semiconductor("Specialty Metals for Semiconductor Interconnects & Barrier Layers")
     metals_steelmaking("Modern Steelmaking")
     mining("Mining Engineering & Extractive Metallurgy")
+    mining_extraction("Mining Extraction")
     mining_extraction_black-powder("Black Powder Explosives")
+    mining_salt("Salt / Halite Production")
+    mining_sulfur-extraction("Sulfur Extraction")
     mining_tailings-reprocessing("Tailings Reprocessing")
     petroleum_refining("Petroleum Refining")
     photolithography("Photolithography & IC Fabrication")
@@ -131,79 +160,116 @@ graph TD
     ultra-pure("Ultra-Pure Materials")
     ultra-pure_high-purity-chemicals("High-Purity Chemical Purification")
     vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
+    water_basic-treatment("Basic Water Treatment")
     water_desalination("Desalination")
     water_sewage("Sewage Collection & Treatment")
 
     %% ==================== EDGES ====================
+    chemistry_acids --> chemistry_acids_contact-process
     chemistry_acids --> chemistry_ammonia
     chemistry_acids -.-> chemistry_electrolysis
     chemistry_ammonia --> chemistry_air-separation
     chemistry_ammonia --> chemistry_electrolysis
-    chemistry_coatings --> chemistry_acids
+    chemistry_bleaching --> chemistry_electrolysis
+    chemistry_chemical-recovery -.-> chemistry_distillation
     chemistry_coatings --> chemistry_petroleum-alternatives
     chemistry_dopant-etch-gases --> chemistry_electrolysis
     chemistry_dopant-etch-gases -.-> chemistry
     chemistry_electrodialysis -.-> chemistry_acid-regeneration
     chemistry_electrolysis -.-> chemistry_electrodialysis
+    chemistry_electrolysis --> chemistry_electrolysis_chlor-alkali
+    chemistry_electrolysis -.-> chemistry_electrolysis_sem-tech
     chemistry_electrolysis -.-> chemistry_lithium-separation
     chemistry_electrolysis -.-> chemistry_water-electrolysis
-    chemistry_explosives --> chemistry_acids
+    chemistry_explosives_black-powder --> chemistry_explosives
+    chemistry_explosives_detonation-blasting -.-> chemistry_explosives_high-explosives
+    chemistry_explosives_detonation-blasting --> chemistry_explosives
+    chemistry_explosives_high-explosives --> chemistry_acids
+    chemistry_explosives_high-explosives --> chemistry_ammonia
+    chemistry_explosives_high-explosives --> chemistry_explosives
+    chemistry_explosives_high-explosives --> chemistry_petroleum-alternatives
+    chemistry_explosives_nitrocellulose --> chemistry_acids
+    chemistry_explosives_nitrocellulose --> chemistry_explosives
+    chemistry_explosives_nitrocellulose --> chemistry_solvents
+    chemistry_explosives_nitroglycerin-dynamite --> chemistry_acids
+    chemistry_explosives_nitroglycerin-dynamite --> chemistry_explosives
+    chemistry_explosives_nitroglycerin-dynamite --> chemistry_soap
     chemistry_explosives --> chemistry_alkalis
     chemistry_hydrogen-silane --> chemistry_electrolysis
+    chemistry_lubricants-grease-solid --> chemistry_alkalis
+    chemistry_lubricants-grease-solid --> chemistry_lubricants-natural
+    chemistry_lubricants-mineral -.-> chemistry_lubricants-natural
+    chemistry_lubricants-mineral --> chemistry_petroleum-alternatives
+    chemistry_lubricants-synthetic -.-> chemistry_lubricants-mineral
+    chemistry_lubricants-synthetic --> chemistry_petroleum-alternatives
     chemistry_lubricants --> chemistry_petroleum-alternatives
+    chemistry_paint --> chemistry_coatings
     chemistry_petroleum-alternatives_fermentation -.-> chemistry_petroleum-alternatives
     chemistry_petroleum-alternatives_wood-gasification -.-> chemistry_petroleum-alternatives
+    chemistry_phosphorus --> chemistry_acids
+    chemistry_photographic-chemistry --> chemistry
     chemistry_pulp-chemicals --> chemistry_alkalis
     chemistry_pulp-chemicals --> chemistry_electrolysis
     chemistry_soap --> chemistry_alkalis
     chemistry_soap --> chemistry_petroleum-alternatives
+    chemistry_soap --> chemistry_potash
+    chemistry_solvay --> chemistry_ammonia
     chemistry_solvents -.-> chemistry_distillation
     chemistry_solvents --> chemistry_petroleum-alternatives_fermentation
     chemistry_solvents --> chemistry_petroleum-alternatives
     chemistry_water-electrolysis --> chemistry_e-methanol
+    chemistry --> chemistry_acids-bases
+    agriculture --> chemistry_phosphorus
     ceramics_electronic-ceramics --> chemistry
-    chemistry_acid-regeneration --> energy_electricity
     chemistry_acid-regeneration --> metals_forming
     chemistry_acids -.-> glass_basic
+    chemistry_acids --> mining_sulfur-extraction
     chemistry_acids --> mining
     chemistry_air-separation -.-> cryogenics_air-separation
     chemistry_air-separation --> energy_electricity
     chemistry_air-separation -.-> gas-handling_basic
     chemistry_alkalis --> foundations_fire
-    chemistry_alkalis --> mining
     chemistry_ammonia --> energy
     chemistry_ammonia -.-> metals
     chemistry_cement -.-> ceramics_kilns
     chemistry_cement --> metals_iron-steel_blast-furnace
-    chemistry_cement --> mining
-    chemistry_e-methanol --> energy_electricity
+    chemistry_e-methanol --> energy
     chemistry_electrodialysis -.-> agriculture_hydroponic-ph-control
     chemistry_electrodialysis -.-> energy_blue-energy
-    chemistry_electrodialysis --> energy_electricity
     chemistry_electrodialysis -.-> water_desalination
-    chemistry_electrolysis --> energy_electricity
     chemistry_electrolysis -.-> energy_fuel-cell
     chemistry_electrolysis -.-> energy_redox-flow-battery
+    chemistry_electrolysis --> mining_salt
+    chemistry_explosives_black-powder --> energy_fuels_charcoal
+    chemistry_explosives_black-powder -.-> mining_extraction
+    chemistry_explosives_detonation-blasting -.-> mining
     chemistry_explosives --> energy_fuels_charcoal
+    chemistry_flux --> mining
     chemistry_hydrogen-silane -.-> gas-handling_basic
-    chemistry_lithium-separation --> energy_electricity
+    chemistry_lubricants-natural --> animals_animal-materials
+    chemistry_lubricants-natural -.-> foundations
     chemistry_lubricants --> animals_animal-materials
     chemistry_lubricants -.-> foundations
+    chemistry_lubricants --> machine-tools_hydraulic-systems
     chemistry_packaging-testing -.-> machine-tools_joining_ultrasonic-bonding
     chemistry_packaging-testing -.-> machine-tools
     chemistry_packaging-testing --> photolithography_fab-processes
     chemistry_packaging-testing --> polymers_thermosets
     chemistry_petroleum-alternatives -.-> foundations
+    chemistry_phosphorus --> mining
+    chemistry_photographic-chemistry -.-> knowledge
+    chemistry_potash --> foundations
     chemistry_refractories -.-> ceramics_kilns
-    chemistry_refractories --> mining
     chemistry_soap --> metals_non-ferrous
-    chemistry_water-electrolysis --> energy_electricity
     chemistry_water-electrolysis --> energy_fuel-cell
     chemistry_water-treatment --> water_sewage
     chemistry --> energy
     chemistry -.-> metals
     cleanrooms --> chemistry
+    construction -.-> chemistry_adhesives-coatings
     construction --> chemistry_cement
+    construction --> chemistry_chemical-recovery
+    construction --> chemistry_paint
     defense --> chemistry_explosives
     ehs_chemical-safety -.-> chemistry
     ehs_radiation-safety -.-> chemistry
@@ -218,7 +284,13 @@ graph TD
     electronics --> chemistry
     energy_cooling --> chemistry_petroleum-alternatives
     energy_electric-furnaces_electrode-manufacturing --> chemistry_petroleum-alternatives
+    energy_fuel-cell --> chemistry_electrolysis_water-splitting
+    energy_fuel-cell --> chemistry
     energy_gravity --> chemistry_lubricants
+    energy_hydraulics --> chemistry_lubricants
+    energy_redox-flow-battery --> chemistry
+    energy_stirling-engine --> chemistry_lubricants
+    energy_storage --> chemistry_e-methanol
     energy_storage --> chemistry
     energy_wind --> chemistry_lubricants
     food-processing_brewing -.-> chemistry_petroleum-alternatives_fermentation
@@ -226,29 +298,33 @@ graph TD
     gas-handling_gas-purification --> chemistry_acids
     gas-handling_gas-purification -.-> chemistry_air-separation
     gas-handling --> chemistry
+    glass_basic --> chemistry_potash
     glass --> chemistry_refractories
+    glass --> chemistry_solvay
     glass --> chemistry
     health_diagnostics -.-> chemistry
     health_nutrition -.-> chemistry
     health_occupational-health --> chemistry_acids
     health_pharmaceutical-production -.-> chemistry_distillation
     health_pharmacology -.-> chemistry_distillation
-    health --> chemistry_ammonia
     health --> chemistry_soap
     health --> chemistry_solvents
     health --> chemistry
-    knowledge_writing -.-> chemistry
     knowledge --> chemistry_pulp-chemicals
+    machine-tools_joining_brazing-soldering --> chemistry
     machine-tools_joining_tig-welding --> chemistry_air-separation
+    machine-tools_joining --> chemistry_flux
     machine-tools_joining --> chemistry
     machine-tools --> chemistry_lubricants
+    measurement_thermostat-fluid --> chemistry
     measurement --> chemistry
     metals_aluminum --> chemistry_alkalis
     metals_aluminum -.-> chemistry_electrolysis
+    metals_copper-refining -.-> chemistry_electrolysis
     metals_finishing --> chemistry_acids
     metals_finishing --> chemistry_coatings
     metals_finishing -.-> chemistry_electrolysis
-    metals_non-ferrous --> chemistry_acids
+    metals_finishing --> chemistry_paint
     metals_powder-metallurgy -.-> chemistry_hydrogen-silane
     metals_precious-metals --> chemistry
     metals_refractory-specialty --> chemistry
@@ -259,8 +335,9 @@ graph TD
     mining_tailings-reprocessing --> chemistry_acids
     petroleum_refining -.-> chemistry_distillation
     photolithography_cleanrooms --> chemistry
-    photolithography_fab-processes_cmp --> chemistry
+    photolithography_fab-processes_cmp --> chemistry_semiconductor-chemicals
     photolithography_fab-processes --> chemistry_dopant-etch-gases
+    photolithography_resists-masks --> chemistry_photographic-chemistry
     photolithography_resists-masks --> chemistry
     photolithography --> chemistry
     polymers_rubber_shellac --> chemistry_distillation
@@ -274,11 +351,14 @@ graph TD
     silicon_crystal-growth --> chemistry_air-separation
     silicon_purification -.-> chemistry_distillation
     silicon_purification --> chemistry_hydrogen-silane
+    silicon_purification --> chemistry_phosphorus
+    silicon_purification --> chemistry_semiconductor-chemicals
     silicon_purification -.-> chemistry
     silicon_wafering_epitaxy --> chemistry_dopant-etch-gases
     silicon --> chemistry
     textiles_dyeing --> chemistry
     textiles_finishing -.-> chemistry_alkalis
+    textiles --> chemistry_bleaching
     textiles --> chemistry_pulp-chemicals
     transport_aviation --> chemistry_petroleum-alternatives
     transport_telegraph -.-> chemistry_acids
@@ -286,6 +366,7 @@ graph TD
     ultra-pure_high-purity-chemicals -.-> chemistry
     ultra-pure -.-> chemistry
     vlsi-scaling_eda-design -.-> chemistry_dopant-etch-gases
+    water_basic-treatment --> chemistry_bleaching
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -304,34 +385,55 @@ graph TD
     class chemistry domain
     class chemistry_acid-regeneration capability
     class chemistry_acids-bases capability
+    class chemistry_acids_contact-process process
     class chemistry_acids capability
     class chemistry_adhesives-coatings capability
     class chemistry_air-separation capability
     class chemistry_alkalis capability
     class chemistry_ammonia critical
+    class chemistry_bleaching capability
     class chemistry_cement capability
+    class chemistry_chemical-recovery capability
     class chemistry_coatings capability
     class chemistry_distillation capability
     class chemistry_dopant-etch-gases capability
     class chemistry_e-methanol capability
     class chemistry_electrodialysis capability
+    class chemistry_electrolysis_chlor-alkali process
     class chemistry_electrolysis capability
     class chemistry_electrolysis_sem-tech process
+    class chemistry_electrolysis_water-splitting process
+    class chemistry_explosives_black-powder process
+    class chemistry_explosives_detonation-blasting process
+    class chemistry_explosives_high-explosives process
     class chemistry_explosives capability
+    class chemistry_explosives_nitrocellulose process
+    class chemistry_explosives_nitroglycerin-dynamite process
+    class chemistry_flux capability
     class chemistry_hydrogen-silane capability
     class chemistry_lithium-separation capability
+    class chemistry_lubricants-grease-solid capability
+    class chemistry_lubricants-mineral capability
+    class chemistry_lubricants-natural earlyWin
+    class chemistry_lubricants-synthetic capability
     class chemistry_lubricants critical
     class chemistry_packaging-testing capability
+    class chemistry_paint capability
     class chemistry_petroleum-alternatives_fermentation process
     class chemistry_petroleum-alternatives capability
     class chemistry_petroleum-alternatives_wood-gasification process
+    class chemistry_phosphorus capability
+    class chemistry_photographic-chemistry capability
+    class chemistry_potash capability
     class chemistry_pulp-chemicals capability
     class chemistry_refractories earlyWin
     class chemistry_semiconductor-chemicals capability
     class chemistry_soap earlyWin
+    class chemistry_solvay critical
     class chemistry_solvents capability
     class chemistry_water-electrolysis capability
     class chemistry_water-treatment capability
+    class agriculture external
     class agriculture_hydroponic-ph-control external
     class animals_animal-materials external
     class ceramics_electronic-ceramics external
@@ -359,7 +461,9 @@ graph TD
     class energy_fuel-cell external
     class energy_fuels_charcoal external
     class energy_gravity external
+    class energy_hydraulics external
     class energy_redox-flow-battery external
+    class energy_stirling-engine external
     class energy_storage external
     class energy_wind external
     class food-processing_brewing external
@@ -378,14 +482,17 @@ graph TD
     class health_pharmaceutical-production external
     class health_pharmacology external
     class knowledge external
-    class knowledge_writing external
     class machine-tools external
+    class machine-tools_hydraulic-systems external
     class machine-tools_joining external
+    class machine-tools_joining_brazing-soldering external
     class machine-tools_joining_tig-welding external
     class machine-tools_joining_ultrasonic-bonding external
     class measurement external
+    class measurement_thermostat-fluid external
     class metals external
     class metals_aluminum external
+    class metals_copper-refining external
     class metals_finishing external
     class metals_forming external
     class metals_iron-steel_blast-furnace external
@@ -396,7 +503,10 @@ graph TD
     class metals_specialty-semiconductor external
     class metals_steelmaking external
     class mining external
+    class mining_extraction external
     class mining_extraction_black-powder external
+    class mining_salt external
+    class mining_sulfur-extraction external
     class mining_tailings-reprocessing external
     class petroleum_refining external
     class photolithography external
@@ -422,6 +532,7 @@ graph TD
     class ultra-pure external
     class ultra-pure_high-purity-chemicals external
     class vlsi-scaling_eda-design external
+    class water_basic-treatment external
     class water_desalination external
     class water_sewage external
     class EdgeLegend,MatNote,ToolNote legend

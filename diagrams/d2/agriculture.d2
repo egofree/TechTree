@@ -87,7 +87,12 @@ classes: {
 # ==================== INTERNAL NODES ====================
 agriculture_internal: "Agriculture — Internal Structure" {
   agriculture_aquaponics: Aquaponics
+  agriculture_crop-rotation: "Crop Rotation & Nutrient Cycling"
   agriculture_hydroponic-ph-control: Hydroponic pH Control
+  agriculture_irrigation: Irrigation Systems
+  agriculture_pest-management: Pest Management
+  agriculture_seed-saving: "Seed Saving & Selection"
+  agriculture_selective-breeding: "Selective Breeding & Genetic Improvement"
   agriculture_soil-management: "Soil Management & Composting"
   agriculture_soil-management_vermiculture: Vermiculture
 }
@@ -102,38 +107,81 @@ animals: "Animals & Animal Husbandry" {
 animals_aquaculture: "Aquaculture & Fisheries" {
   shape: rectangle
 }
+animals_domestication: "Livestock Domestication & Husbandry" {
+  shape: rectangle
+}
 chemistry_electrodialysis: Electrodialysis {
   shape: rectangle
 }
-energy_electricity: "Electricity Generation & Distribution" {
+chemistry_phosphorus: Phosphorus and Phosphate Chemistry {
+  shape: rectangle
+}
+construction: "Construction & Structural Engineering" {
+  shape: rectangle
+}
+energy: Energy {
+  shape: rectangle
+}
+food-processing: Food Processing {
   shape: rectangle
 }
 foundations_food-agriculture: "Agriculture & Food Production" {
   shape: rectangle
 }
+knowledge_writing: "Writing & Record-Keeping" {
+  shape: rectangle
+}
+water_distribution: Water Distribution {
+  shape: rectangle
+}
+water_procurement: Water Procurement {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
-agriculture_aquaponics -> agriculture: { class: tool-edge }
-agriculture_hydroponic-ph-control -> agriculture_aquaponics: { class: tool-edge }
+agriculture_crop-rotation -> agriculture_pest-management: { class: tool-edge }
+agriculture_crop-rotation -> agriculture_seed-saving: { class: material-edge }
+agriculture_crop-rotation -> agriculture_soil-management: { class: tool-edge }
+agriculture_pest-management -> agriculture: { class: tool-edge }
+agriculture_seed-saving -> agriculture: { class: tool-edge }
+agriculture_selective-breeding -> agriculture_soil-management: { class: tool-edge }
 agriculture_soil-management_vermiculture -> agriculture_soil-management: { class: material-edge }
-agriculture_soil-management -> agriculture: { class: tool-edge }
 agriculture_aquaponics -> animals_aquaculture: { class: tool-edge }
-agriculture_hydroponic-ph-control -> energy_electricity: { class: material-edge }
+agriculture_irrigation -> construction: { class: tool-edge }
+agriculture_irrigation -> energy: { class: tool-edge }
+agriculture_irrigation -> water_distribution: { class: material-edge }
+agriculture_selective-breeding -> animals_domestication: { class: material-edge }
+agriculture_selective-breeding -> knowledge_writing: { class: tool-edge }
 agriculture_soil-management -> animals: { class: material-edge }
+agriculture -> chemistry_phosphorus: { class: material-edge }
+agriculture -> water_procurement: { class: material-edge }
 chemistry_electrodialysis -> agriculture_hydroponic-ph-control: { class: tool-edge }
+food-processing -> agriculture_crop-rotation: { class: material-edge }
 foundations_food-agriculture -> agriculture_soil-management: { class: material-edge }
 
 # ==================== STYLING ====================
 agriculture.class: domain
 agriculture_aquaponics.class: capability
+agriculture_crop-rotation.class: earlyWin
 agriculture_hydroponic-ph-control.class: capability
+agriculture_irrigation.class: earlyWin
+agriculture_pest-management.class: capability
+agriculture_seed-saving.class: earlyWin
+agriculture_selective-breeding.class: capability
 agriculture_soil-management.class: earlyWin
 agriculture_soil-management_vermiculture.class: earlyWin
 animals.class: external
 animals_aquaculture.class: external
+animals_domestication.class: external
 chemistry_electrodialysis.class: external
-energy_electricity.class: external
+chemistry_phosphorus.class: external
+construction.class: external
+energy.class: external
+food-processing.class: external
 foundations_food-agriculture.class: external
+knowledge_writing.class: external
+water_distribution.class: external
+water_procurement.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

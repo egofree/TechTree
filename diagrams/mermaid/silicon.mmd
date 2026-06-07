@@ -26,6 +26,8 @@ graph TD
     chemistry_distillation("Distillation")
     chemistry_dopant-etch-gases("Dopant & Etch Gases")
     chemistry_hydrogen-silane("Hydrogen & Silane Production")
+    chemistry_phosphorus("Phosphorus and Phosphate Chemistry")
+    chemistry_semiconductor-chemicals("Semiconductor Process Chemicals")
     computing_electronic("Electronic Computing")
     cryogenics_liquefaction-storage("Gas Liquefaction & Storage")
     electronics_assembly("Electronics Assembly")
@@ -42,11 +44,15 @@ graph TD
     machine-tools("Machine Tools Bootstrap")
     measurement_precision-metrology("Precision Metrology & Standards")
     measurement_temperature-pressure("Temperature & Pressure Measurement")
+    measurement_thermostat-advanced("Advanced & Specialty Thermostats")
     metals("Metals")
     metals_aluminum_semiconductor-grade("Semiconductor-Grade Aluminum Production")
     mining("Mining Engineering & Extractive Metallurgy")
     photolithography("Photolithography & IC Fabrication")
     photolithography_fab-processes("Core Fab Processes")
+    photolithography_fab-processes_cvd("Chemical Vapor Deposition")
+    photolithography_fab-processes_ion-implantation("Ion Implantation")
+    photolithography_fab-processes_plasma-etching("Plasma Etching (RIE & DRIE)")
     ultra-pure("Ultra-Pure Materials")
     vacuum("Vacuum Technology")
     vacuum_pumps("Vacuum Pumps")
@@ -65,6 +71,7 @@ graph TD
     electronics_assembly --> silicon_basic-devices
     electronics_semiconductor-devices --> silicon_basic-devices
     energy_photovoltaics -.-> silicon_basic-devices
+    measurement_thermostat-advanced -.-> silicon
     photolithography_fab-processes --> silicon_wafering
     photolithography --> silicon
     silicon_basic-devices --> chemistry_acids
@@ -82,6 +89,8 @@ graph TD
     silicon_mg-si-production --> mining
     silicon_purification -.-> chemistry_distillation
     silicon_purification --> chemistry_hydrogen-silane
+    silicon_purification --> chemistry_phosphorus
+    silicon_purification --> chemistry_semiconductor-chemicals
     silicon_purification -.-> chemistry
     silicon_purification -.-> energy_electricity
     silicon_purification -.-> gas-handling_basic
@@ -93,6 +102,9 @@ graph TD
     silicon -.-> gas-handling
     silicon -.-> glass
     silicon -.-> machine-tools
+    silicon --> photolithography_fab-processes_cvd
+    silicon --> photolithography_fab-processes_ion-implantation
+    silicon --> photolithography_fab-processes_plasma-etching
     silicon --> ultra-pure
     vlsi-scaling_eda-design -.-> silicon_basic-devices
 
@@ -126,6 +138,8 @@ graph TD
     class chemistry_distillation external
     class chemistry_dopant-etch-gases external
     class chemistry_hydrogen-silane external
+    class chemistry_phosphorus external
+    class chemistry_semiconductor-chemicals external
     class computing_electronic external
     class cryogenics_liquefaction-storage external
     class electronics_assembly external
@@ -142,11 +156,15 @@ graph TD
     class machine-tools external
     class measurement_precision-metrology external
     class measurement_temperature-pressure external
+    class measurement_thermostat-advanced external
     class metals external
     class metals_aluminum_semiconductor-grade external
     class mining external
     class photolithography external
     class photolithography_fab-processes external
+    class photolithography_fab-processes_cvd external
+    class photolithography_fab-processes_ion-implantation external
+    class photolithography_fab-processes_plasma-etching external
     class ultra-pure external
     class vacuum external
     class vacuum_pumps external

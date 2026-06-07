@@ -21,6 +21,7 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry_distillation("Distillation")
     energy_engine("Heat Engines")
+    energy_internal-combustion("Internal Combustion Engines")
     energy_steam-power("Steam Power")
     metals("Metals")
     mining("Mining Engineering & Extractive Metallurgy")
@@ -39,6 +40,7 @@ graph TD
     petroleum_refining --> petroleum_extraction
     petroleum_refining -.-> petroleum
     energy_engine --> petroleum_refining
+    energy_internal-combustion --> petroleum_refining
     petroleum_extraction_cable-tool -.-> energy_steam-power
     petroleum_refining -.-> chemistry_distillation
     petroleum -.-> metals
@@ -69,6 +71,7 @@ graph TD
     class petroleum_refining capability
     class chemistry_distillation external
     class energy_engine external
+    class energy_internal-combustion external
     class energy_steam-power external
     class metals external
     class mining external

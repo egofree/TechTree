@@ -21,6 +21,7 @@ graph TD
     economics-organization_accounting("Accounting & Record-Keeping")
     foundations("Foundations")
     knowledge_scientific-method("Scientific Method")
+    knowledge_surveying("Surveying & Cartography")
     knowledge_writing("Writing & Record-Keeping")
 
     %% ==================== EDGES ====================
@@ -32,6 +33,7 @@ graph TD
     economics-organization_accounting -.-> mathematics_core-mathematics
     economics-organization -.-> mathematics
     knowledge_scientific-method -.-> mathematics
+    knowledge_surveying -.-> mathematics
     mathematics_core-mathematics -.-> foundations
     mathematics -.-> knowledge_writing
 
@@ -60,5 +62,6 @@ graph TD
     class economics-organization_accounting external
     class foundations external
     class knowledge_scientific-method external
+    class knowledge_surveying external
     class knowledge_writing external
     class EdgeLegend,MatNote,ToolNote legend

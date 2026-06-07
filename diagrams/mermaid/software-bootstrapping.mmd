@@ -10,6 +10,7 @@ graph TD
         software-bootstrapping_dev-tools["Development Tools & Debugging"]
         software-bootstrapping_machine-code["Machine Code & Front-Panel Programming"]
         software-bootstrapping_operating-systems["Operating System Construction"]
+        software-bootstrapping_self-hosting["Self-Hosting Compiler Bootstrap"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -17,10 +18,19 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     computing("Computing & Automation")
+    knowledge_information-durability("Information Durability")
     vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
 
     %% ==================== EDGES ====================
+    software-bootstrapping_assemblers -.-> software-bootstrapping_machine-code
+    software-bootstrapping_compilers -.-> software-bootstrapping_assemblers
+    software-bootstrapping_dev-tools -.-> software-bootstrapping_compilers
+    software-bootstrapping_dev-tools -.-> software-bootstrapping_self-hosting
+    software-bootstrapping_operating-systems -.-> software-bootstrapping_dev-tools
+    software-bootstrapping_self-hosting -.-> software-bootstrapping_compilers
+    computing -.-> software-bootstrapping_operating-systems
     software-bootstrapping -.-> computing
+    software-bootstrapping -.-> knowledge_information-durability
     vlsi-scaling_eda-design -.-> software-bootstrapping
 
     %% ==================== EDGE TYPE LEGEND ====================
@@ -43,6 +53,8 @@ graph TD
     class software-bootstrapping_dev-tools capability
     class software-bootstrapping_machine-code critical
     class software-bootstrapping_operating-systems critical
+    class software-bootstrapping_self-hosting critical
     class computing external
+    class knowledge_information-durability external
     class vlsi-scaling_eda-design external
     class EdgeLegend,MatNote,ToolNote legend

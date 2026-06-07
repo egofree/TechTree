@@ -86,9 +86,15 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 knowledge_internal: "Knowledge Preservation & Education — Internal Structure" {
+  knowledge_education-pathways: Education Pathways
   knowledge_education: "Education & Training"
+  knowledge_information-durability: Information Durability
   knowledge_libraries: "Libraries & Information Systems"
   knowledge_printing: Paper and Printing Press
+  knowledge_scientific-method: Scientific Method
+  knowledge_standards-bodies: Standards Bodies
+  knowledge_surveying: "Surveying & Cartography"
+  knowledge_technical-drawing: Technical Drawing
   knowledge_writing: "Writing & Record-Keeping"
 }
 
@@ -96,16 +102,22 @@ knowledge_internal: "Knowledge Preservation & Education — Internal Structure" 
 knowledge: "Knowledge Preservation & Education"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+agriculture_selective-breeding: "Selective Breeding & Genetic Improvement" {
+  shape: rectangle
+}
 animals_animal-materials: Animal-Derived Materials Processing {
   shape: rectangle
 }
 animals_beekeeping: "Apiculture (Beekeeping)" {
   shape: rectangle
 }
-chemistry: Chemistry {
+chemistry_photographic-chemistry: Photographic Chemistry {
   shape: rectangle
 }
 chemistry_pulp-chemicals: "Pulp & Paper Chemicals" {
+  shape: rectangle
+}
+construction: "Construction & Structural Engineering" {
   shape: rectangle
 }
 defense: "Defense & Military Engineering" {
@@ -156,13 +168,22 @@ marine_navigation: Marine Navigation {
 mathematics: "Mathematics & Formal Sciences" {
   shape: rectangle
 }
+measurement: "Measurement & Instrumentation" {
+  shape: rectangle
+}
 metals_iron-steel: "Iron & Steel Production" {
+  shape: rectangle
+}
+mining: "Mining Engineering & Extractive Metallurgy" {
   shape: rectangle
 }
 mining_prospecting: "Prospecting & Surveying" {
   shape: rectangle
 }
 quality-control: "Quality Control & Statistical Process Control" {
+  shape: rectangle
+}
+software-bootstrapping: Software Bootstrapping {
   shape: rectangle
 }
 telecom: Telecommunications {
@@ -176,9 +197,20 @@ textiles_fibers: Fiber Preparation {
 }
 
 # ==================== EDGES ====================
+knowledge_education-pathways -> knowledge_education: { class: tool-edge }
 knowledge_education -> knowledge_writing: { class: tool-edge }
+knowledge_information-durability -> knowledge_libraries: { class: tool-edge }
+knowledge_information-durability -> knowledge_standards-bodies: { class: tool-edge }
 knowledge_libraries -> knowledge_education: { class: tool-edge }
 knowledge_libraries -> knowledge_writing: { class: tool-edge }
+knowledge_scientific-method -> knowledge_writing: { class: tool-edge }
+knowledge_standards-bodies -> knowledge_education-pathways: { class: tool-edge }
+knowledge_standards-bodies -> knowledge_technical-drawing: { class: tool-edge }
+knowledge_standards-bodies -> knowledge_writing: { class: tool-edge }
+knowledge_technical-drawing -> knowledge_writing: { class: tool-edge }
+agriculture_selective-breeding -> knowledge_writing: { class: tool-edge }
+chemistry_photographic-chemistry -> knowledge: { class: tool-edge }
+construction -> knowledge_surveying: { class: tool-edge }
 defense -> knowledge: { class: tool-edge }
 economics-organization_accounting -> knowledge_writing: { class: tool-edge }
 economics-organization_division-of-labor -> knowledge_writing: { class: tool-edge }
@@ -190,9 +222,12 @@ health_medicine -> knowledge_writing: { class: tool-edge }
 knowledge_printing -> machine-tools_machining: { class: tool-edge }
 knowledge_printing -> metals_iron-steel: { class: tool-edge }
 knowledge_printing -> textiles_fibers: { class: material-edge }
+knowledge_scientific-method -> mathematics: { class: tool-edge }
+knowledge_scientific-method -> measurement: { class: tool-edge }
+knowledge_surveying -> mathematics: { class: tool-edge }
+knowledge_surveying -> measurement: { class: tool-edge }
 knowledge_writing -> animals_animal-materials: { class: material-edge }
 knowledge_writing -> animals_beekeeping: { class: material-edge }
-knowledge_writing -> chemistry: { class: tool-edge }
 knowledge_writing -> foundations_food-agriculture: { class: tool-edge }
 knowledge_writing -> foundations_tools-basic: { class: tool-edge }
 knowledge_writing -> health_sanitation: { class: tool-edge }
@@ -202,20 +237,30 @@ marine_navigation -> knowledge_writing: { class: tool-edge }
 marine -> knowledge: { class: tool-edge }
 mathematics -> knowledge_writing: { class: tool-edge }
 mining_prospecting -> knowledge_writing: { class: tool-edge }
+mining -> knowledge_surveying: { class: tool-edge }
 quality-control -> knowledge: { class: tool-edge }
+software-bootstrapping -> knowledge_information-durability: { class: tool-edge }
 telecom_pre-electric -> knowledge_writing: { class: tool-edge }
 telecom -> knowledge_writing: { class: tool-edge }
 
 # ==================== STYLING ====================
 knowledge.class: domain
+knowledge_education-pathways.class: critical
 knowledge_education.class: capability
+knowledge_information-durability.class: critical
 knowledge_libraries.class: capability
 knowledge_printing.class: earlyWin
+knowledge_scientific-method.class: capability
+knowledge_standards-bodies.class: critical
+knowledge_surveying.class: capability
+knowledge_technical-drawing.class: critical
 knowledge_writing.class: capability
+agriculture_selective-breeding.class: external
 animals_animal-materials.class: external
 animals_beekeeping.class: external
-chemistry.class: external
+chemistry_photographic-chemistry.class: external
 chemistry_pulp-chemicals.class: external
+construction.class: external
 defense.class: external
 economics-organization.class: external
 economics-organization_accounting.class: external
@@ -232,9 +277,12 @@ machine-tools_machining.class: external
 marine.class: external
 marine_navigation.class: external
 mathematics.class: external
+measurement.class: external
 metals_iron-steel.class: external
+mining.class: external
 mining_prospecting.class: external
 quality-control.class: external
+software-bootstrapping.class: external
 telecom.class: external
 telecom_pre-electric.class: external
 textiles_fibers.class: external

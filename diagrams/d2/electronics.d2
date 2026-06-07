@@ -88,6 +88,12 @@ classes: {
 electronics_internal: "Electronics — Internal Structure" {
   electronics_assembly: Electronics Assembly
   electronics_electrical-systems: Electrical Systems
+  electronics_packaging: "IC Packaging & Interconnect"
+  electronics_passive-components: Passive Components
+  electronics_pcb-fabrication: PCB Fabrication
+  electronics_power-electronics: Power Electronics
+  electronics_semiconductor-devices: Semiconductor Devices
+  electronics_wire-insulation: Wire Insulation and Enameling
 }
 
 # ==================== DOMAIN NODE ====================
@@ -103,6 +109,9 @@ automation_equipment-communication: Equipment Communication {
 chemistry: Chemistry {
   shape: rectangle
 }
+chemistry_acids: Mineral Acid Production {
+  shape: rectangle
+}
 chemistry_electrolysis: Electrolysis {
   shape: rectangle
 }
@@ -112,16 +121,34 @@ computing_electronic: Electronic Computing {
 energy_electricity: "Electricity Generation & Distribution" {
   shape: rectangle
 }
+energy_photovoltaics: Photovoltaic Solar Power {
+  shape: rectangle
+}
 glass_fibers: Glass Fiber Production {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
   shape: rectangle
 }
+measurement_thermostat-electrical: Electrical Thermostats {
+  shape: rectangle
+}
+measurement_thermostat-electronic: Electronic Thermostats {
+  shape: rectangle
+}
 metals: Metals {
   shape: rectangle
 }
+metals_copper-bronze: "Copper & Bronze Production" {
+  shape: rectangle
+}
+metals_copper-refining: Copper Refining {
+  shape: rectangle
+}
 metals_precious-metals: "Precious Metal Production (Gold & Silver)" {
+  shape: rectangle
+}
+metals_rare-earths: Rare Earth and Specialty Elements {
   shape: rectangle
 }
 polymers_thermoplastics: Thermoplastic Polymers {
@@ -138,6 +165,9 @@ vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
 }
 
 # ==================== EDGES ====================
+electronics_assembly -> electronics_packaging: { class: tool-edge }
+electronics_power-electronics -> electronics_semiconductor-devices: { class: tool-edge }
+electronics -> electronics_passive-components: { class: material-edge }
 automation_equipment-communication -> electronics: { class: tool-edge }
 automation -> electronics: { class: tool-edge }
 computing_electronic -> electronics_assembly: { class: tool-edge }
@@ -147,10 +177,18 @@ electronics_assembly -> silicon_basic-devices: { class: material-edge }
 electronics_electrical-systems -> chemistry_electrolysis: { class: material-edge }
 electronics_electrical-systems -> energy_electricity: { class: tool-edge }
 electronics_electrical-systems -> polymers_thermoplastics: { class: material-edge }
+electronics_pcb-fabrication -> chemistry_acids: { class: material-edge }
+electronics_pcb-fabrication -> metals_copper-bronze: { class: material-edge }
+electronics_semiconductor-devices -> silicon_basic-devices: { class: material-edge }
 electronics -> chemistry: { class: material-edge }
-electronics -> energy_electricity: { class: tool-edge }
 electronics -> machine-tools: { class: tool-edge }
+electronics -> metals_copper-refining: { class: material-edge }
+electronics -> metals_rare-earths: { class: material-edge }
 electronics -> metals: { class: material-edge }
+energy_electricity -> electronics_wire-insulation: { class: material-edge }
+energy_photovoltaics -> electronics_power-electronics: { class: tool-edge }
+measurement_thermostat-electrical -> electronics: { class: tool-edge }
+measurement_thermostat-electronic -> electronics: { class: material-edge }
 metals_precious-metals -> electronics: { class: material-edge }
 vlsi-scaling_eda-design -> electronics_assembly: { class: tool-edge }
 
@@ -158,16 +196,29 @@ vlsi-scaling_eda-design -> electronics_assembly: { class: tool-edge }
 electronics.class: domain
 electronics_assembly.class: capability
 electronics_electrical-systems.class: capability
+electronics_packaging.class: capability
+electronics_passive-components.class: critical
+electronics_pcb-fabrication.class: critical
+electronics_power-electronics.class: critical
+electronics_semiconductor-devices.class: critical
+electronics_wire-insulation.class: critical
 automation.class: external
 automation_equipment-communication.class: external
 chemistry.class: external
+chemistry_acids.class: external
 chemistry_electrolysis.class: external
 computing_electronic.class: external
 energy_electricity.class: external
+energy_photovoltaics.class: external
 glass_fibers.class: external
 machine-tools.class: external
+measurement_thermostat-electrical.class: external
+measurement_thermostat-electronic.class: external
 metals.class: external
+metals_copper-bronze.class: external
+metals_copper-refining.class: external
 metals_precious-metals.class: external
+metals_rare-earths.class: external
 polymers_thermoplastics.class: external
 polymers_thermosets.class: external
 silicon_basic-devices.class: external

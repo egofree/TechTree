@@ -87,6 +87,7 @@ classes: {
 # ==================== INTERNAL NODES ====================
 economics-organization_internal: "Economics & Organization — Internal Structure" {
   economics-organization_accounting: "Accounting & Record-Keeping"
+  economics-organization_coinage: "Coinage & Precision Minting"
   economics-organization_currency: "Currency & Standardized Exchange"
   economics-organization_division-of-labor: Division of Labor
   economics-organization_governance: "Governance & Institutional Design"
@@ -128,6 +129,12 @@ measurement_precision-metrology: "Precision Metrology & Standards" {
 metals: Metals {
   shape: rectangle
 }
+metals_finishing: "Metal Finishing & Surface Treatment" {
+  shape: rectangle
+}
+metals_forming: Primary Metal Forming {
+  shape: rectangle
+}
 photolithography_fab-processes: Core Fab Processes {
   shape: rectangle
 }
@@ -137,6 +144,7 @@ transport: "Transportation & Logistics" {
 
 # ==================== EDGES ====================
 economics-organization_accounting -> economics-organization_division-of-labor: { class: tool-edge }
+economics-organization_currency -> economics-organization_coinage: { class: material-edge }
 economics-organization_currency -> economics-organization_trade: { class: tool-edge }
 economics-organization_governance -> economics-organization_division-of-labor: { class: tool-edge }
 economics-organization_supply-chain -> economics-organization_accounting: { class: tool-edge }
@@ -145,6 +153,8 @@ construction_industrial-buildings -> economics-organization_division-of-labor: {
 defense_siege-warfare -> economics-organization_supply-chain: { class: material-edge }
 economics-organization_accounting -> knowledge_writing: { class: tool-edge }
 economics-organization_accounting -> mathematics_core-mathematics: { class: tool-edge }
+economics-organization_coinage -> metals_finishing: { class: tool-edge }
+economics-organization_coinage -> metals_forming: { class: tool-edge }
 economics-organization_currency -> measurement_precision-metrology: { class: tool-edge }
 economics-organization_currency -> metals: { class: material-edge }
 economics-organization_division-of-labor -> foundations_food-agriculture: { class: material-edge }
@@ -162,6 +172,7 @@ photolithography_fab-processes -> economics-organization_supply-chain: { class: 
 # ==================== STYLING ====================
 economics-organization.class: domain
 economics-organization_accounting.class: capability
+economics-organization_coinage.class: capability
 economics-organization_currency.class: capability
 economics-organization_division-of-labor.class: earlyWin
 economics-organization_governance.class: capability
@@ -177,6 +188,8 @@ mathematics.class: external
 mathematics_core-mathematics.class: external
 measurement_precision-metrology.class: external
 metals.class: external
+metals_finishing.class: external
+metals_forming.class: external
 photolithography_fab-processes.class: external
 transport.class: external
 

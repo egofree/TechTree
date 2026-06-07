@@ -6,7 +6,9 @@ graph TD
     subgraph food-processing_internal ["Food Processing — Internal Structure"]
         direction TB
         food-processing_brewing["Brewing & Distilling"]
+        food-processing_canning["Canning & Thermal Sterilization"]
         food-processing_dairy["Dairy Processing"]
+        food-processing_fermentation["Food Fermentation"]
         food-processing_oil-processing["Oil & Fat Processing"]
         food-processing_milling["Grain Milling"]
         food-processing_preservation["Food Preservation"]
@@ -16,16 +18,24 @@ graph TD
     food-processing["Food Processing"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    agriculture_crop-rotation("Crop Rotation & Nutrient Cycling")
     ceramics("Ceramics & Refractories")
     chemistry_petroleum-alternatives_fermentation("Fermentation Chemistry")
+    defense("Defense & Military Engineering")
     energy("Energy")
+    energy_biomass-energy("Biomass Energy")
     foundations_food-agriculture("Agriculture & Food Production")
     health_nutrition("Nutrition")
     health_sanitation("Water Supply & Sanitation")
     metals_iron-steel("Iron & Steel Production")
+    mining_salt("Salt / Halite Production")
     water("Water")
 
     %% ==================== EDGES ====================
+    food-processing_brewing -.-> food-processing_fermentation
+    food-processing_canning -.-> food-processing
+    food-processing_fermentation -.-> food-processing_milling
+    defense --> food-processing_canning
     food-processing_brewing -.-> chemistry_petroleum-alternatives_fermentation
     food-processing_brewing -.-> energy
     food-processing_dairy --> ceramics
@@ -37,9 +47,12 @@ graph TD
     food-processing_preservation --> ceramics
     food-processing_preservation -.-> chemistry_petroleum-alternatives_fermentation
     food-processing_preservation -.-> health_sanitation
+    food-processing --> agriculture_crop-rotation
+    food-processing --> energy_biomass-energy
     food-processing -.-> energy
     food-processing --> foundations_food-agriculture
     food-processing -.-> health_sanitation
+    food-processing --> mining_salt
     food-processing --> water
     health_nutrition -.-> food-processing
 
@@ -59,16 +72,22 @@ graph TD
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class food-processing domain
     class food-processing_brewing capability
+    class food-processing_canning critical
     class food-processing_dairy capability
+    class food-processing_fermentation earlyWin
     class food-processing_oil-processing earlyWin
     class food-processing_milling earlyWin
     class food-processing_preservation capability
+    class agriculture_crop-rotation external
     class ceramics external
     class chemistry_petroleum-alternatives_fermentation external
+    class defense external
     class energy external
+    class energy_biomass-energy external
     class foundations_food-agriculture external
     class health_nutrition external
     class health_sanitation external
     class metals_iron-steel external
+    class mining_salt external
     class water external
     class EdgeLegend,MatNote,ToolNote legend

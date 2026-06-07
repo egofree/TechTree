@@ -95,14 +95,42 @@ ultra-pure_internal: "Ultra-Pure Materials — Internal Structure" {
 ultra-pure: Ultra-Pure Materials
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+chemistry: Chemistry {
+  shape: rectangle
+}
+measurement: "Measurement & Instrumentation" {
+  shape: rectangle
+}
+photolithography_fab-processes_cmp: "Chemical Mechanical Planarization (CMP)" {
+  shape: rectangle
+}
+silicon: Silicon {
+  shape: rectangle
+}
+water: Water {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
+ultra-pure_analytical-verification -> ultra-pure_upw: { class: material-edge }
+ultra-pure_high-purity-chemicals -> ultra-pure_upw: { class: material-edge }
+photolithography_fab-processes_cmp -> ultra-pure_upw: { class: material-edge }
+silicon -> ultra-pure: { class: material-edge }
+ultra-pure_analytical-verification -> measurement: { class: tool-edge }
+ultra-pure_high-purity-chemicals -> chemistry: { class: tool-edge }
+ultra-pure_upw -> water: { class: material-edge }
+ultra-pure -> chemistry: { class: tool-edge }
 
 # ==================== STYLING ====================
 ultra-pure.class: domain
 ultra-pure_analytical-verification.class: capability
 ultra-pure_high-purity-chemicals.class: capability
 ultra-pure_upw.class: capability
+chemistry.class: external
+measurement.class: external
+photolithography_fab-processes_cmp.class: external
+silicon.class: external
+water.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

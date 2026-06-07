@@ -86,10 +86,13 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 computing_internal: "Computing & Automation — Internal Structure" {
+  computing_computer-architecture: Computer Architecture
   computing_data-storage: Data Storage Systems
   computing_digital-logic: Digital Logic Design
   computing_electromechanical: Electromechanical Computing
   computing_electronic: Electronic Computing
+  computing_embedded-systems: Embedded Systems
+  computing_logic-design: Logic Design
   computing_mechanical: Mechanical Calculation
 }
 
@@ -118,6 +121,9 @@ mathematics_core-mathematics: Core Mathematics {
 mathematics_formal-systems: Formal Systems {
   shape: rectangle
 }
+measurement_thermostat-electronic: Electronic Thermostats {
+  shape: rectangle
+}
 metals: Metals {
   shape: rectangle
 }
@@ -133,17 +139,25 @@ quality-control: "Quality Control & Statistical Process Control" {
 silicon_basic-devices: Basic Semiconductor Devices {
   shape: rectangle
 }
+software-bootstrapping: Software Bootstrapping {
+  shape: rectangle
+}
+software-bootstrapping_operating-systems: Operating System Construction {
+  shape: rectangle
+}
 vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
   shape: rectangle
 }
 
 # ==================== EDGES ====================
+computing_computer-architecture -> computing_electronic: { class: tool-edge }
 computing_data-storage -> computing: { class: tool-edge }
 computing_digital-logic -> computing_electronic: { class: material-edge }
 computing_digital-logic -> computing: { class: tool-edge }
 computing_electromechanical -> computing_mechanical: { class: tool-edge }
 computing_electronic -> computing_electromechanical: { class: tool-edge }
 automation_equipment-communication -> computing: { class: tool-edge }
+automation -> computing_embedded-systems: { class: tool-edge }
 automation -> computing: { class: tool-edge }
 computing_data-storage -> polymers_thermoplastics: { class: material-edge }
 computing_digital-logic -> mathematics_formal-systems: { class: tool-edge }
@@ -151,19 +165,25 @@ computing_electromechanical -> energy_electricity: { class: material-edge }
 computing_electronic -> electronics_assembly: { class: tool-edge }
 computing_electronic -> photolithography_fab-processes: { class: material-edge }
 computing_electronic -> silicon_basic-devices: { class: material-edge }
+computing_logic-design -> mathematics_formal-systems: { class: tool-edge }
 computing_mechanical -> machine-tools: { class: tool-edge }
 computing_mechanical -> mathematics_core-mathematics: { class: tool-edge }
 computing_mechanical -> metals: { class: material-edge }
-computing -> machine-tools: { class: tool-edge }
+computing -> software-bootstrapping_operating-systems: { class: tool-edge }
+measurement_thermostat-electronic -> computing: { class: tool-edge }
 quality-control -> computing: { class: tool-edge }
+software-bootstrapping -> computing: { class: tool-edge }
 vlsi-scaling_eda-design -> computing: { class: tool-edge }
 
 # ==================== STYLING ====================
 computing.class: domain
+computing_computer-architecture.class: critical
 computing_data-storage.class: capability
 computing_digital-logic.class: capability
 computing_electromechanical.class: capability
 computing_electronic.class: capability
+computing_embedded-systems.class: critical
+computing_logic-design.class: critical
 computing_mechanical.class: capability
 automation.class: external
 automation_equipment-communication.class: external
@@ -172,11 +192,14 @@ energy_electricity.class: external
 machine-tools.class: external
 mathematics_core-mathematics.class: external
 mathematics_formal-systems.class: external
+measurement_thermostat-electronic.class: external
 metals.class: external
 photolithography_fab-processes.class: external
 polymers_thermoplastics.class: external
 quality-control.class: external
 silicon_basic-devices.class: external
+software-bootstrapping.class: external
+software-bootstrapping_operating-systems.class: external
 vlsi-scaling_eda-design.class: external
 
 # ==================== LEGEND ====================

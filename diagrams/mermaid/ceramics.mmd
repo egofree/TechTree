@@ -11,6 +11,7 @@ graph TD
         ceramics_lime["Lime Production"]
         ceramics_pottery["Pottery & Clay Products"]
         ceramics_pottery_kiln-firing["Kiln Firing"]
+        ceramics_thermal-insulation["Thermal Insulation"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -22,6 +23,8 @@ graph TD
     chemistry_cement("Cement & Concrete")
     chemistry_refractories("Refractory Materials")
     construction("Construction & Structural Engineering")
+    cryogenics("Cryogenics")
+    energy("Energy")
     energy_fuels_charcoal("Charcoal Production")
     energy_fuels_coal("Coal Mining & Combustion")
     energy_fuels_coke("Coke Production")
@@ -31,8 +34,10 @@ graph TD
     foundations("Foundations")
     foundations_fire("Fire-Making")
     foundations_tools-basic("Stone & Wood Tools")
+    glass_basic("Basic Glass Production")
     health_sanitation("Water Supply & Sanitation")
     metals("Metals")
+    metals_copper("Copper Production")
     metals_copper-bronze("Copper & Bronze Production")
     metals_iron-steel_blast-furnace("Blast Furnace and Cast Iron")
     mining("Mining Engineering & Extractive Metallurgy")
@@ -44,25 +49,29 @@ graph TD
     ceramics_advanced-ceramics -.-> ceramics_pottery
     ceramics_electronic-ceramics -.-> ceramics_advanced-ceramics
     ceramics_lime -.-> ceramics_kilns
+    ceramics_thermal-insulation --> ceramics
     animals_animal-materials -.-> ceramics_lime
     ceramics_advanced-ceramics --> mining
     ceramics_electronic-ceramics --> chemistry
-    ceramics_lime --> mining
     ceramics_pottery_kiln-firing --> energy_fuels_charcoal
     ceramics_pottery --> foundations_fire
     ceramics_pottery -.-> foundations_tools-basic
+    ceramics_thermal-insulation --> glass_basic
     ceramics -.-> foundations
     ceramics -.-> metals
     chemistry_cement -.-> ceramics_kilns
     chemistry_refractories -.-> ceramics_kilns
     construction --> ceramics_lime
+    cryogenics --> ceramics_thermal-insulation
     energy_fuels_coal -.-> ceramics_kilns
     energy_fuels_coke -.-> ceramics_kilns
+    energy --> ceramics_thermal-insulation
     food-processing_dairy --> ceramics
     food-processing_oil-processing -.-> ceramics
     food-processing_preservation --> ceramics
     health_sanitation -.-> ceramics
     metals_copper-bronze -.-> ceramics
+    metals_copper -.-> ceramics
     metals_iron-steel_blast-furnace -.-> ceramics_kilns
     photolithography_cleanrooms -.-> ceramics
     silicon -.-> ceramics_advanced-ceramics
@@ -88,11 +97,14 @@ graph TD
     class ceramics_lime capability
     class ceramics_pottery capability
     class ceramics_pottery_kiln-firing process
+    class ceramics_thermal-insulation capability
     class animals_animal-materials external
     class chemistry external
     class chemistry_cement external
     class chemistry_refractories external
     class construction external
+    class cryogenics external
+    class energy external
     class energy_fuels_charcoal external
     class energy_fuels_coal external
     class energy_fuels_coke external
@@ -102,8 +114,10 @@ graph TD
     class foundations external
     class foundations_fire external
     class foundations_tools-basic external
+    class glass_basic external
     class health_sanitation external
     class metals external
+    class metals_copper external
     class metals_copper-bronze external
     class metals_iron-steel_blast-furnace external
     class mining external

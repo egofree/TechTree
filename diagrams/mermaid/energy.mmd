@@ -5,6 +5,7 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph energy_internal ["Energy — Internal Structure"]
         direction TB
+        energy_biomass-energy["Biomass Energy"]
         energy_blue-energy["Blue Energy (Osmotic Power)"]
         energy_cooling["Cooling Systems & Refrigeration"]
         energy_electric-furnaces_electrode-manufacturing["Graphite Electrode Manufacturing"]
@@ -18,13 +19,22 @@ graph TD
         energy_fuels_coal["Coal Mining & Combustion"]
         energy_fuels_coke["Coke Production"]
         energy_fuels["Fuel Production"]
+        energy_furnace-design["Furnace Design Principles"]
         energy_gas-turbine["Gas Turbines"]
         energy_gravity["Water Power"]
         energy_gravity_water-turbines["Water Turbines"]
+        energy_hvac["HVAC for General Industry"]
+        energy_hydraulics["Hydraulic Power"]
+        energy_internal-combustion["Internal Combustion Engines"]
         energy_photovoltaics["Photovoltaic Solar Power"]
+        energy_pneumatics["Pneumatics"]
+        energy_power-distribution["Transformer & Power Distribution"]
         energy_redox-flow-battery["Redox Flow Battery"]
+        energy_refining["Fuel Refining"]
+        energy_solar-thermal["Solar Thermal Energy"]
         energy_steam-power["Steam Power"]
         energy_steam-power_steam-turbines["Steam Turbines"]
+        energy_stirling-engine["Stirling Engine"]
         energy_storage["Energy Storage & Diversification"]
         energy_storage_pumped-hydro["Pumped Hydroelectric Storage"]
         energy_wind["Wind Power"]
@@ -34,34 +44,34 @@ graph TD
     energy["Energy"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
-    agriculture_hydroponic-ph-control("Hydroponic pH Control")
     agriculture_irrigation("Irrigation Systems")
     ceramics_kilns("Kiln Construction")
     ceramics_pottery_kiln-firing("Kiln Firing")
+    ceramics_thermal-insulation("Thermal Insulation")
     chemistry("Chemistry")
-    chemistry_acid-regeneration("Acid Regeneration")
     chemistry_air-separation("Air Separation & Bulk Gas Production")
     chemistry_ammonia("Ammonia & Fertilizer Production")
     chemistry_e-methanol("E-Methanol Synthesis")
     chemistry_electrodialysis("Electrodialysis")
     chemistry_electrolysis("Electrolysis")
+    chemistry_electrolysis_water-splitting("Water Electrolysis (H₂/O₂)")
     chemistry_explosives("Explosives and Propellants")
-    chemistry_lithium-separation("Lithium Separation")
+    chemistry_explosives_black-powder("Black Powder Manufacture")
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
     chemistry_water-electrolysis("Water Electrolysis")
     cleanrooms("Clean Room Technology")
     computing_electromechanical("Electromechanical Computing")
+    construction("Construction & Structural Engineering")
     construction_industrial-buildings("Industrial Buildings & Heavy Foundations")
     cryogenics("Cryogenics")
     electrochemistry("Electrochemistry & Plating")
-    electronics("Electronics")
     electronics_electrical-systems("Electrical Systems")
     electronics_power-electronics("Power Electronics")
+    electronics_wire-insulation("Wire Insulation and Enameling")
     food-processing("Food Processing")
     food-processing_brewing("Brewing & Distilling")
     food-processing_milling("Grain Milling")
-    foundations("Foundations")
     foundations_fire("Fire-Making")
     gas-handling("Gas Handling")
     glass("Glass")
@@ -72,6 +82,7 @@ graph TD
     machine-tools("Machine Tools Bootstrap")
     machine-tools_edm-cnc("EDM, CNC & Precision Grinding")
     machine-tools_forming("Metal Forming")
+    machine-tools_hydraulic-systems("Hydraulic Systems for Machine Tools")
     machine-tools_joining("Metal Joining")
     machine-tools_joining_diffusion-bonding("Diffusion Bonding")
     machine-tools_joining_electron-beam("Electron Beam Welding")
@@ -80,31 +91,35 @@ graph TD
     machine-tools_joining_resistance-welding("Resistance Welding (Spot & Seam)")
     machine-tools_joining_tig-welding("TIG Welding (GTAW)")
     machine-tools_joining_ultrasonic-bonding("Ultrasonic Welding & Wire Bonding")
+    machine-tools_joining_welding("Welding Processes")
     machine-tools_machining("Machining")
     marine("Marine & Naval Engineering")
     marine_propulsion("Marine Propulsion Systems")
-    measurement("Measurement & Instrumentation")
     measurement_electrical-instruments("Electrical Measurement Instruments")
     measurement_temperature-pressure("Temperature & Pressure Measurement")
     metals("Metals")
     metals_alloys("Specialty Alloys")
-    metals_aluminum("Aluminum Production")
     metals_aluminum_semiconductor-grade("Semiconductor-Grade Aluminum Production")
+    metals_blacksmithing("Blacksmithing")
+    metals_casting("Metal Casting")
+    metals_copper-refining("Copper Refining")
     metals_forming("Primary Metal Forming")
     metals_iron-steel("Iron & Steel Production")
     metals_iron-steel_blast-furnace("Blast Furnace and Cast Iron")
+    metals_magnetic-materials("Magnetic Materials")
     metals_powder-metallurgy("Powder Metallurgy & Advanced Materials")
     metals_refractory-specialty("Refractory & Specialty Metals for Semiconductor Manufacturing")
     metals_steelmaking("Modern Steelmaking")
+    metals_wire-drawing("Wire Drawing")
     mining("Mining Engineering & Extractive Metallurgy")
     mining_drilling("Mechanical Drilling")
+    mining_extraction("Mining Extraction")
     mining_processing("Ore Processing")
+    mining_salt("Salt / Halite Production")
     mining_ventilation("Mine Ventilation")
     petroleum_extraction_cable-tool("Cable-Tool Drilling")
     petroleum_refining("Petroleum Refining")
-    photolithography_cvd("Chemical Vapor Deposition")
-    photolithography_ion-implantation("Ion Implantation")
-    photolithography_plasma-etching("Plasma Etching (RIE & DRIE)")
+    photolithography_fab-processes_ion-implantation("Ion Implantation")
     plants("Plants & Botanical Resources")
     polymers_rubber("Rubber Production")
     precision-motion_nanometer-positioning("Nanometer Positioning")
@@ -121,12 +136,10 @@ graph TD
     transport_aviation("Aviation")
     transport_railways("Railways")
     transport_telegraph("Telegraph Communication")
-    vacuum("Vacuum Technology")
-    water_desalination("Desalination")
 
     %% ==================== EDGES ====================
+    energy_biomass-energy -.-> energy_fuels
     energy_electric-furnaces_electrode-manufacturing --> energy_electric-furnaces
-    energy_electric-furnaces --> energy_electricity
     energy_electricity_power-systems -.-> energy_electricity
     energy_electricity_power-systems -.-> energy_engine
     energy_electricity_power-systems -.-> energy_storage
@@ -140,48 +153,58 @@ graph TD
     energy_geothermal -.-> energy_electricity
     energy_geothermal -.-> energy_steam-power
     energy_gravity_water-turbines -.-> energy_gravity
-    energy_redox-flow-battery --> energy_electricity
+    energy_hvac -.-> energy
+    energy_internal-combustion --> energy_fuels
+    energy_pneumatics -.-> energy
+    energy_power-distribution -.-> energy_electricity
+    energy_refining -.-> energy_fuels
+    energy_solar-thermal -.-> energy_fuels_charcoal
     energy_steam-power_steam-turbines -.-> energy_steam-power
     energy_storage_pumped-hydro -.-> energy_electricity
     energy_storage_pumped-hydro -.-> energy_gravity
+    energy_storage -.-> energy_fuel-cell
+    energy_storage -.-> energy_redox-flow-battery
     energy_storage -.-> energy
-    agriculture_hydroponic-ph-control --> energy_electricity
     agriculture_irrigation -.-> energy
     ceramics_pottery_kiln-firing --> energy_fuels_charcoal
-    chemistry_acid-regeneration --> energy_electricity
     chemistry_air-separation --> energy_electricity
     chemistry_ammonia --> energy
-    chemistry_e-methanol --> energy_electricity
+    chemistry_e-methanol --> energy
     chemistry_electrodialysis -.-> energy_blue-energy
-    chemistry_electrodialysis --> energy_electricity
-    chemistry_electrolysis --> energy_electricity
     chemistry_electrolysis -.-> energy_fuel-cell
     chemistry_electrolysis -.-> energy_redox-flow-battery
+    chemistry_explosives_black-powder --> energy_fuels_charcoal
     chemistry_explosives --> energy_fuels_charcoal
-    chemistry_lithium-separation --> energy_electricity
-    chemistry_water-electrolysis --> energy_electricity
     chemistry_water-electrolysis --> energy_fuel-cell
     chemistry --> energy
+    cleanrooms -.-> energy_hvac
     cleanrooms -.-> energy
     computing_electromechanical --> energy_electricity
     construction_industrial-buildings -.-> energy_electricity
+    construction_industrial-buildings -.-> energy_hvac
+    construction -.-> energy_pneumatics
+    construction --> energy_solar-thermal
     cryogenics -.-> energy_electricity
     electrochemistry -.-> energy_electricity
     electronics_electrical-systems -.-> energy_electricity
-    electronics -.-> energy_electricity
     energy_cooling --> chemistry_petroleum-alternatives
     energy_cooling -.-> machine-tools
     energy_cooling -.-> metals_iron-steel
     energy_electric-furnaces_electrode-manufacturing --> chemistry_petroleum-alternatives
     energy_electric-furnaces -.-> machine-tools
-    energy_electricity_power-systems -.-> measurement
+    energy_electricity_power-systems -.-> measurement_electrical-instruments
+    energy_electricity --> electronics_wire-insulation
+    energy_electricity --> metals_copper-refining
+    energy_electricity --> metals_magnetic-materials
+    energy_electricity --> metals_wire-drawing
     energy_engine -.-> metals
     energy_engine --> petroleum_refining
-    energy_fuels_charcoal -.-> foundations
+    energy_fuel-cell --> chemistry_electrolysis_water-splitting
+    energy_fuel-cell --> chemistry
+    energy_fuels_charcoal -.-> foundations_fire
     energy_fuels_coal -.-> ceramics_kilns
-    energy_fuels_coal --> mining
+    energy_fuels_coal --> mining_extraction
     energy_fuels_coke -.-> ceramics_kilns
-    energy_fuels_coke --> mining
     energy_fuels -.-> foundations_fire
     energy_gas-turbine --> metals_refractory-specialty
     energy_geothermal --> metals_iron-steel
@@ -189,9 +212,17 @@ graph TD
     energy_gravity_water-turbines -.-> metals_iron-steel
     energy_gravity --> chemistry_lubricants
     energy_gravity -.-> textiles
+    energy_hvac -.-> measurement_temperature-pressure
+    energy_hydraulics --> chemistry_lubricants
+    energy_hydraulics -.-> machine-tools_hydraulic-systems
+    energy_hydraulics -.-> metals_forming
+    energy_internal-combustion -.-> metals
+    energy_internal-combustion --> petroleum_refining
     energy_photovoltaics -.-> electronics_power-electronics
     energy_photovoltaics --> glass_basic
     energy_photovoltaics -.-> silicon_basic-devices
+    energy_pneumatics -.-> gas-handling
+    energy_redox-flow-battery --> chemistry
     energy_steam-power_steam-turbines -.-> machine-tools_machining
     energy_steam-power_steam-turbines --> metals_alloys
     energy_steam-power_steam-turbines -.-> metals_iron-steel
@@ -199,14 +230,20 @@ graph TD
     energy_steam-power -.-> machine-tools
     energy_steam-power --> metals_forming
     energy_steam-power -.-> metals_iron-steel
+    energy_stirling-engine --> chemistry_lubricants
+    energy_stirling-engine -.-> machine-tools_machining
+    energy_stirling-engine --> metals_casting
+    energy_storage --> chemistry_e-methanol
     energy_storage --> chemistry
     energy_storage -.-> metals
     energy_storage --> polymers_rubber
     energy_wind --> chemistry_lubricants
     energy_wind -.-> textiles
+    energy --> ceramics_thermal-insulation
     energy -.-> metals
     food-processing_brewing -.-> energy
     food-processing_milling -.-> energy
+    food-processing --> energy_biomass-energy
     food-processing -.-> energy
     gas-handling --> energy
     glass_advanced_glassblowing -.-> energy_fuels
@@ -222,25 +259,26 @@ graph TD
     machine-tools_joining_resistance-welding --> energy_electricity
     machine-tools_joining_tig-welding -.-> energy_electricity
     machine-tools_joining_ultrasonic-bonding -.-> energy_electricity
-    machine-tools_joining --> energy_electricity
+    machine-tools_joining_welding -.-> energy_electricity
     marine_propulsion -.-> energy_engine
     marine_propulsion -.-> energy_steam-power
+    marine --> energy_refining
     marine -.-> energy
     measurement_electrical-instruments -.-> energy_electricity
     measurement_temperature-pressure -.-> energy_electricity
     metals_alloys -.-> energy_fuels
     metals_aluminum_semiconductor-grade -.-> energy_electricity
-    metals_aluminum -.-> energy_electricity
+    metals_blacksmithing -.-> energy_furnace-design
     metals_iron-steel_blast-furnace --> energy_fuels_coke
     metals_powder-metallurgy -.-> energy_electric-furnaces
     metals_steelmaking --> energy_fuels
     mining_drilling -.-> energy_steam-power
     mining_processing -.-> energy_fuels
+    mining_salt -.-> energy
     mining_ventilation -.-> energy_steam-power
+    mining -.-> energy_hydraulics
     petroleum_extraction_cable-tool -.-> energy_steam-power
-    photolithography_cvd -.-> energy_electricity
-    photolithography_ion-implantation -.-> energy_electricity
-    photolithography_plasma-etching -.-> energy_electricity
+    photolithography_fab-processes_ion-implantation -.-> energy_electricity
     plants --> energy_fuels
     precision-motion_nanometer-positioning -.-> energy_electricity
     silicon_mg-si-production -.-> energy_electric-furnaces
@@ -251,14 +289,13 @@ graph TD
     telecom_radio -.-> energy_electricity
     telecom_telephone -.-> energy_electricity
     telecom -.-> energy_electricity
+    telecom --> energy_power-distribution
     transport_aviation -.-> energy_engine
     transport_railways -.-> energy_steam-power
     transport_telegraph -.-> energy_electricity
     transport -.-> energy_engine
     transport -.-> energy_fuels
     transport --> energy
-    vacuum -.-> energy_electricity
-    water_desalination --> energy_electricity
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -275,6 +312,7 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class energy domain
+    class energy_biomass-energy earlyWin
     class energy_blue-energy capability
     class energy_cooling capability
     class energy_electric-furnaces_electrode-manufacturing process
@@ -282,50 +320,59 @@ graph TD
     class energy_electricity capability
     class energy_electricity_power-systems critical
     class energy_geothermal capability
-    class energy_engine critical
+    class energy_engine capability
     class energy_fuel-cell capability
     class energy_fuels_charcoal process
     class energy_fuels_coal process
     class energy_fuels_coke process
     class energy_fuels capability
+    class energy_furnace-design capability
     class energy_gas-turbine capability
     class energy_gravity capability
     class energy_gravity_water-turbines process
+    class energy_hvac capability
+    class energy_hydraulics capability
+    class energy_internal-combustion capability
     class energy_photovoltaics capability
+    class energy_pneumatics capability
+    class energy_power-distribution critical
     class energy_redox-flow-battery capability
+    class energy_refining capability
+    class energy_solar-thermal earlyWin
     class energy_steam-power capability
     class energy_steam-power_steam-turbines process
+    class energy_stirling-engine capability
     class energy_storage capability
     class energy_storage_pumped-hydro process
     class energy_wind capability
-    class agriculture_hydroponic-ph-control external
     class agriculture_irrigation external
     class ceramics_kilns external
     class ceramics_pottery_kiln-firing external
+    class ceramics_thermal-insulation external
     class chemistry external
-    class chemistry_acid-regeneration external
     class chemistry_air-separation external
     class chemistry_ammonia external
     class chemistry_e-methanol external
     class chemistry_electrodialysis external
     class chemistry_electrolysis external
+    class chemistry_electrolysis_water-splitting external
     class chemistry_explosives external
-    class chemistry_lithium-separation external
+    class chemistry_explosives_black-powder external
     class chemistry_lubricants external
     class chemistry_petroleum-alternatives external
     class chemistry_water-electrolysis external
     class cleanrooms external
     class computing_electromechanical external
+    class construction external
     class construction_industrial-buildings external
     class cryogenics external
     class electrochemistry external
-    class electronics external
     class electronics_electrical-systems external
     class electronics_power-electronics external
+    class electronics_wire-insulation external
     class food-processing external
     class food-processing_brewing external
     class food-processing_milling external
-    class foundations external
     class foundations_fire external
     class gas-handling external
     class glass external
@@ -336,6 +383,7 @@ graph TD
     class machine-tools external
     class machine-tools_edm-cnc external
     class machine-tools_forming external
+    class machine-tools_hydraulic-systems external
     class machine-tools_joining external
     class machine-tools_joining_diffusion-bonding external
     class machine-tools_joining_electron-beam external
@@ -344,31 +392,35 @@ graph TD
     class machine-tools_joining_resistance-welding external
     class machine-tools_joining_tig-welding external
     class machine-tools_joining_ultrasonic-bonding external
+    class machine-tools_joining_welding external
     class machine-tools_machining external
     class marine external
     class marine_propulsion external
-    class measurement external
     class measurement_electrical-instruments external
     class measurement_temperature-pressure external
     class metals external
     class metals_alloys external
-    class metals_aluminum external
     class metals_aluminum_semiconductor-grade external
+    class metals_blacksmithing external
+    class metals_casting external
+    class metals_copper-refining external
     class metals_forming external
     class metals_iron-steel external
     class metals_iron-steel_blast-furnace external
+    class metals_magnetic-materials external
     class metals_powder-metallurgy external
     class metals_refractory-specialty external
     class metals_steelmaking external
+    class metals_wire-drawing external
     class mining external
     class mining_drilling external
+    class mining_extraction external
     class mining_processing external
+    class mining_salt external
     class mining_ventilation external
     class petroleum_extraction_cable-tool external
     class petroleum_refining external
-    class photolithography_cvd external
-    class photolithography_ion-implantation external
-    class photolithography_plasma-etching external
+    class photolithography_fab-processes_ion-implantation external
     class plants external
     class polymers_rubber external
     class precision-motion_nanometer-positioning external
@@ -385,6 +437,4 @@ graph TD
     class transport_aviation external
     class transport_railways external
     class transport_telegraph external
-    class vacuum external
-    class water_desalination external
     class EdgeLegend,MatNote,ToolNote legend

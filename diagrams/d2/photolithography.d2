@@ -87,7 +87,12 @@ classes: {
 # ==================== INTERNAL NODES ====================
 photolithography_internal: "Photolithography & IC Fabrication — Internal Structure" {
   photolithography_cleanrooms: Cleanrooms
+  photolithography_fab-processes_cmp: "Chemical Mechanical Planarization (CMP)"
+  photolithography_fab-processes_cvd: Chemical Vapor Deposition
   photolithography_fab-processes: Core Fab Processes
+  photolithography_fab-processes_ion-implantation: Ion Implantation
+  photolithography_fab-processes_plasma-etching: "Plasma Etching (RIE & DRIE)"
+  photolithography_fab-processes_pvd: "Physical Vapor Deposition (PVD)"
   photolithography_resists-masks: "Photoresists, Masks & Lithography"
 }
 
@@ -107,6 +112,12 @@ chemistry_dopant-etch-gases: "Dopant & Etch Gases" {
 chemistry_packaging-testing: "Semiconductor Packaging & Testing" {
   shape: rectangle
 }
+chemistry_photographic-chemistry: Photographic Chemistry {
+  shape: rectangle
+}
+chemistry_semiconductor-chemicals: Semiconductor Process Chemicals {
+  shape: rectangle
+}
 cleanrooms: Clean Room Technology {
   shape: rectangle
 }
@@ -116,7 +127,13 @@ computing_electronic: Electronic Computing {
 economics-organization_supply-chain: Supply Chain Coordination {
   shape: rectangle
 }
+energy_electricity: "Electricity Generation & Distribution" {
+  shape: rectangle
+}
 gas-handling: Gas Handling {
+  shape: rectangle
+}
+gas-handling_basic: Basic Gas Handling {
   shape: rectangle
 }
 gas-handling_vacuum: Vacuum Technology {
@@ -134,6 +151,9 @@ machine-tools: Machine Tools Bootstrap {
 metals_aluminum_semiconductor-grade: Semiconductor-Grade Aluminum Production {
   shape: rectangle
 }
+metals_rare-earths: Rare Earth and Specialty Elements {
+  shape: rectangle
+}
 metals_specialty-semiconductor: "Specialty Metals for Semiconductor Interconnects & Barrier Layers" {
   shape: rectangle
 }
@@ -143,10 +163,25 @@ optics: Optics {
 polymers_thermosets: Thermosetting Polymers {
   shape: rectangle
 }
+precision-motion_nanometer-positioning: Nanometer Positioning {
+  shape: rectangle
+}
 quality-control: "Quality Control & Statistical Process Control" {
   shape: rectangle
 }
 silicon: Silicon {
+  shape: rectangle
+}
+silicon_wafering: "Wafer Slicing & Polishing" {
+  shape: rectangle
+}
+ultra-pure_upw: Ultra-Pure Water Production {
+  shape: rectangle
+}
+vacuum_chambers: "Vacuum Chambers & Sealing" {
+  shape: rectangle
+}
+vacuum_deposition-systems: Deposition Systems {
   shape: rectangle
 }
 vacuum_pumps: Vacuum Pumps {
@@ -175,11 +210,26 @@ glass_photomask-substrates -> photolithography_fab-processes: { class: material-
 metals_specialty-semiconductor -> photolithography_fab-processes: { class: material-edge }
 photolithography_cleanrooms -> ceramics: { class: tool-edge }
 photolithography_cleanrooms -> chemistry: { class: material-edge }
+photolithography_fab-processes_cmp -> chemistry_semiconductor-chemicals: { class: material-edge }
+photolithography_fab-processes_cmp -> polymers_thermosets: { class: material-edge }
+photolithography_fab-processes_cmp -> precision-motion_nanometer-positioning: { class: tool-edge }
+photolithography_fab-processes_cmp -> ultra-pure_upw: { class: material-edge }
+photolithography_fab-processes_cvd -> gas-handling_basic: { class: material-edge }
+photolithography_fab-processes_cvd -> vacuum_deposition-systems: { class: tool-edge }
+photolithography_fab-processes_ion-implantation -> energy_electricity: { class: tool-edge }
+photolithography_fab-processes_ion-implantation -> vacuum_chambers: { class: tool-edge }
+photolithography_fab-processes_plasma-etching -> gas-handling_basic: { class: material-edge }
+photolithography_fab-processes_plasma-etching -> vacuum_chambers: { class: tool-edge }
+photolithography_fab-processes_pvd -> metals_specialty-semiconductor: { class: material-edge }
+photolithography_fab-processes_pvd -> vacuum_deposition-systems: { class: tool-edge }
+photolithography_fab-processes_pvd -> vacuum_pumps: { class: tool-edge }
 photolithography_fab-processes -> chemistry_dopant-etch-gases: { class: material-edge }
 photolithography_fab-processes -> economics-organization_supply-chain: { class: tool-edge }
 photolithography_fab-processes -> gas-handling_vacuum: { class: tool-edge }
 photolithography_fab-processes -> metals_aluminum_semiconductor-grade: { class: material-edge }
+photolithography_fab-processes -> silicon_wafering: { class: material-edge }
 photolithography_fab-processes -> vacuum_pumps: { class: tool-edge }
+photolithography_resists-masks -> chemistry_photographic-chemistry: { class: material-edge }
 photolithography_resists-masks -> chemistry: { class: material-edge }
 photolithography_resists-masks -> glass_basic: { class: material-edge }
 photolithography_resists-masks -> polymers_thermosets: { class: material-edge }
@@ -187,9 +237,13 @@ photolithography -> chemistry: { class: material-edge }
 photolithography -> cleanrooms: { class: tool-edge }
 photolithography -> gas-handling: { class: tool-edge }
 photolithography -> machine-tools: { class: tool-edge }
+photolithography -> metals_rare-earths: { class: material-edge }
 photolithography -> optics: { class: tool-edge }
 photolithography -> quality-control: { class: tool-edge }
 photolithography -> silicon: { class: material-edge }
+silicon -> photolithography_fab-processes_cvd: { class: material-edge }
+silicon -> photolithography_fab-processes_ion-implantation: { class: material-edge }
+silicon -> photolithography_fab-processes_plasma-etching: { class: material-edge }
 vlsi-scaling_advanced-lithography -> photolithography_resists-masks: { class: tool-edge }
 vlsi-scaling_advanced-processes -> photolithography_fab-processes: { class: tool-edge }
 vlsi-scaling_continuous-scaling -> photolithography_fab-processes: { class: tool-edge }
@@ -199,26 +253,41 @@ vlsi-scaling -> photolithography: { class: tool-edge }
 # ==================== STYLING ====================
 photolithography.class: domain
 photolithography_cleanrooms.class: capability
+photolithography_fab-processes_cmp.class: process
+photolithography_fab-processes_cvd.class: process
 photolithography_fab-processes.class: capability
+photolithography_fab-processes_ion-implantation.class: process
+photolithography_fab-processes_plasma-etching.class: process
+photolithography_fab-processes_pvd.class: process
 photolithography_resists-masks.class: capability
 ceramics.class: external
 chemistry.class: external
 chemistry_dopant-etch-gases.class: external
 chemistry_packaging-testing.class: external
+chemistry_photographic-chemistry.class: external
+chemistry_semiconductor-chemicals.class: external
 cleanrooms.class: external
 computing_electronic.class: external
 economics-organization_supply-chain.class: external
+energy_electricity.class: external
 gas-handling.class: external
+gas-handling_basic.class: external
 gas-handling_vacuum.class: external
 glass_basic.class: external
 glass_photomask-substrates.class: external
 machine-tools.class: external
 metals_aluminum_semiconductor-grade.class: external
+metals_rare-earths.class: external
 metals_specialty-semiconductor.class: external
 optics.class: external
 polymers_thermosets.class: external
+precision-motion_nanometer-positioning.class: external
 quality-control.class: external
 silicon.class: external
+silicon_wafering.class: external
+ultra-pure_upw.class: external
+vacuum_chambers.class: external
+vacuum_deposition-systems.class: external
 vacuum_pumps.class: external
 vlsi-scaling.class: external
 vlsi-scaling_advanced-lithography.class: external

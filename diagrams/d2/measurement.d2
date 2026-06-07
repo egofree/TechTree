@@ -87,9 +87,15 @@ classes: {
 # ==================== INTERNAL NODES ====================
 measurement_internal: "Measurement & Instrumentation — Internal Structure" {
   measurement_electrical-instruments: Electrical Measurement Instruments
+  measurement_horology: "Clockmaking & Precision Horology"
   measurement_optical-instruments: Optical Measurement Instruments
   measurement_precision-metrology: "Precision Metrology & Standards"
   measurement_temperature-pressure: "Temperature & Pressure Measurement"
+  measurement_thermostat-advanced: "Advanced & Specialty Thermostats"
+  measurement_thermostat-electrical: Electrical Thermostats
+  measurement_thermostat-electronic: Electronic Thermostats
+  measurement_thermostat-fluid: "Fluid & Gas Thermostats"
+  measurement_thermostat-mechanical: Mechanical Thermostats
 }
 
 # ==================== DOMAIN NODE ====================
@@ -102,7 +108,13 @@ chemistry: Chemistry {
 cleanrooms: Clean Room Technology {
   shape: rectangle
 }
+computing: "Computing & Automation" {
+  shape: rectangle
+}
 economics-organization_currency: "Currency & Standardized Exchange" {
+  shape: rectangle
+}
+electronics: Electronics {
   shape: rectangle
 }
 energy_electricity: "Electricity Generation & Distribution" {
@@ -111,13 +123,28 @@ energy_electricity: "Electricity Generation & Distribution" {
 energy_electricity_power-systems: Electric Power Systems for Semiconductor Fabrication {
   shape: rectangle
 }
+energy_hvac: HVAC for General Industry {
+  shape: rectangle
+}
 foundations: Foundations {
+  shape: rectangle
+}
+glass: Glass {
+  shape: rectangle
+}
+knowledge_scientific-method: Scientific Method {
+  shape: rectangle
+}
+knowledge_surveying: "Surveying & Cartography" {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
   shape: rectangle
 }
-machine-tools_casting: Metal Casting {
+machine-tools_mass-production: "Mass Production & Interchangeability" {
+  shape: rectangle
+}
+marine_navigation: Marine Navigation {
   shape: rectangle
 }
 metals: Metals {
@@ -126,10 +153,22 @@ metals: Metals {
 metals_powder-metallurgy: "Powder Metallurgy & Advanced Materials" {
   shape: rectangle
 }
+optics: Optics {
+  shape: rectangle
+}
 optics_inspection: Optical Inspection {
   shape: rectangle
 }
 optics_precision-instruments: Precision Optical Instruments {
+  shape: rectangle
+}
+precision-motion: Precision Motion Control {
+  shape: rectangle
+}
+precision-motion_nanometer-positioning: Nanometer Positioning {
+  shape: rectangle
+}
+precision-motion_precision-encoders: "Precision Encoders & Feedback" {
   shape: rectangle
 }
 quality-control: "Quality Control & Statistical Process Control" {
@@ -141,13 +180,22 @@ quality-control_inspection-sampling: "Inspection & Sampling Plans" {
 quality-control_spc: Statistical Process Control {
   shape: rectangle
 }
+silicon: Silicon {
+  shape: rectangle
+}
 silicon_crystal-growth: "Crystal Growth & Wafering" {
   shape: rectangle
 }
 silicon_crystal-growth_cz-pulling: Czochralski Crystal Pulling {
   shape: rectangle
 }
+ultra-pure_analytical-verification: PPT-Level Analytical Verification {
+  shape: rectangle
+}
 vacuum: Vacuum Technology {
+  shape: rectangle
+}
+vacuum_leak-detection: "Vacuum Leak Detection & Seal Integrity" {
   shape: rectangle
 }
 vacuum_measurement: "Vacuum Measurement & Leak Detection" {
@@ -157,52 +205,96 @@ vacuum_measurement: "Vacuum Measurement & Leak Detection" {
 # ==================== EDGES ====================
 measurement_electrical-instruments -> measurement: { class: tool-edge }
 measurement_optical-instruments -> measurement: { class: tool-edge }
+measurement_thermostat-advanced -> measurement_thermostat-electronic: { class: tool-edge }
+measurement_thermostat-electrical -> measurement_electrical-instruments: { class: tool-edge }
+measurement_thermostat-electrical -> measurement_temperature-pressure: { class: material-edge }
+measurement_thermostat-electronic -> measurement_thermostat-electrical: { class: tool-edge }
+measurement_thermostat-fluid -> measurement_thermostat-mechanical: { class: tool-edge }
+measurement_thermostat-mechanical -> measurement_temperature-pressure: { class: tool-edge }
 cleanrooms -> measurement: { class: tool-edge }
 economics-organization_currency -> measurement_precision-metrology: { class: tool-edge }
-energy_electricity_power-systems -> measurement: { class: tool-edge }
+energy_electricity_power-systems -> measurement_electrical-instruments: { class: tool-edge }
+energy_hvac -> measurement_temperature-pressure: { class: tool-edge }
+knowledge_scientific-method -> measurement: { class: tool-edge }
+knowledge_surveying -> measurement: { class: tool-edge }
+machine-tools_mass-production -> measurement_precision-metrology: { class: tool-edge }
+marine_navigation -> measurement_horology: { class: tool-edge }
 measurement_electrical-instruments -> energy_electricity: { class: tool-edge }
 measurement_optical-instruments -> optics_inspection: { class: tool-edge }
 measurement_precision-metrology -> foundations: { class: tool-edge }
-measurement_precision-metrology -> machine-tools_casting: { class: tool-edge }
 measurement_precision-metrology -> metals: { class: tool-edge }
 measurement_precision-metrology -> optics_precision-instruments: { class: tool-edge }
 measurement_temperature-pressure -> energy_electricity: { class: tool-edge }
 measurement_temperature-pressure -> metals: { class: material-edge }
+measurement_thermostat-advanced -> optics: { class: tool-edge }
+measurement_thermostat-advanced -> silicon: { class: tool-edge }
+measurement_thermostat-electrical -> electronics: { class: tool-edge }
+measurement_thermostat-electronic -> computing: { class: tool-edge }
+measurement_thermostat-electronic -> electronics: { class: material-edge }
+measurement_thermostat-fluid -> chemistry: { class: material-edge }
+measurement_thermostat-fluid -> glass: { class: material-edge }
+measurement_thermostat-mechanical -> machine-tools: { class: tool-edge }
+measurement_thermostat-mechanical -> metals: { class: material-edge }
 measurement -> chemistry: { class: material-edge }
 measurement -> machine-tools: { class: tool-edge }
 measurement -> metals_powder-metallurgy: { class: tool-edge }
+precision-motion_nanometer-positioning -> measurement_precision-metrology: { class: tool-edge }
+precision-motion_precision-encoders -> measurement_precision-metrology: { class: tool-edge }
+precision-motion -> measurement: { class: tool-edge }
 quality-control_inspection-sampling -> measurement_precision-metrology: { class: tool-edge }
 quality-control_spc -> measurement: { class: tool-edge }
 quality-control -> measurement: { class: tool-edge }
 silicon_crystal-growth_cz-pulling -> measurement_temperature-pressure: { class: tool-edge }
 silicon_crystal-growth -> measurement_precision-metrology: { class: tool-edge }
+ultra-pure_analytical-verification -> measurement: { class: tool-edge }
 vacuum_measurement -> measurement: { class: tool-edge }
+vacuum_leak-detection -> measurement: { class: tool-edge }
 vacuum -> measurement: { class: tool-edge }
 
 # ==================== STYLING ====================
 measurement.class: domain
 measurement_electrical-instruments.class: capability
+measurement_horology.class: capability
 measurement_optical-instruments.class: capability
 measurement_precision-metrology.class: capability
 measurement_temperature-pressure.class: capability
+measurement_thermostat-advanced.class: capability
+measurement_thermostat-electrical.class: capability
+measurement_thermostat-electronic.class: capability
+measurement_thermostat-fluid.class: capability
+measurement_thermostat-mechanical.class: earlyWin
 chemistry.class: external
 cleanrooms.class: external
+computing.class: external
 economics-organization_currency.class: external
+electronics.class: external
 energy_electricity.class: external
 energy_electricity_power-systems.class: external
+energy_hvac.class: external
 foundations.class: external
+glass.class: external
+knowledge_scientific-method.class: external
+knowledge_surveying.class: external
 machine-tools.class: external
-machine-tools_casting.class: external
+machine-tools_mass-production.class: external
+marine_navigation.class: external
 metals.class: external
 metals_powder-metallurgy.class: external
+optics.class: external
 optics_inspection.class: external
 optics_precision-instruments.class: external
+precision-motion.class: external
+precision-motion_nanometer-positioning.class: external
+precision-motion_precision-encoders.class: external
 quality-control.class: external
 quality-control_inspection-sampling.class: external
 quality-control_spc.class: external
+silicon.class: external
 silicon_crystal-growth.class: external
 silicon_crystal-growth_cz-pulling.class: external
+ultra-pure_analytical-verification.class: external
 vacuum.class: external
+vacuum_leak-detection.class: external
 vacuum_measurement.class: external
 
 # ==================== LEGEND ====================

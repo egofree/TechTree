@@ -100,6 +100,9 @@ telecom: Telecommunications
 energy_electricity: "Electricity Generation & Distribution" {
   shape: rectangle
 }
+energy_power-distribution: "Transformer & Power Distribution" {
+  shape: rectangle
+}
 foundations: Foundations {
   shape: rectangle
 }
@@ -141,6 +144,7 @@ telecom_submarine-cables -> transport_shipping: { class: tool-edge }
 telecom_telephone -> energy_electricity: { class: tool-edge }
 telecom_telephone -> metals: { class: material-edge }
 telecom -> energy_electricity: { class: tool-edge }
+telecom -> energy_power-distribution: { class: material-edge }
 telecom -> glass: { class: material-edge }
 telecom -> knowledge_writing: { class: tool-edge }
 telecom -> metals: { class: material-edge }
@@ -155,6 +159,7 @@ telecom_radio.class: capability
 telecom_submarine-cables.class: capability
 telecom_telephone.class: capability
 energy_electricity.class: external
+energy_power-distribution.class: external
 foundations.class: external
 glass.class: external
 knowledge_writing.class: external

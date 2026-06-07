@@ -99,7 +99,13 @@ defense: "Defense & Military Engineering"
 chemistry_explosives: Explosives and Propellants {
   shape: rectangle
 }
+construction: "Construction & Structural Engineering" {
+  shape: rectangle
+}
 economics-organization_supply-chain: Supply Chain Coordination {
+  shape: rectangle
+}
+food-processing_canning: "Canning & Thermal Sterilization" {
   shape: rectangle
 }
 foundations: Foundations {
@@ -116,8 +122,12 @@ transport: "Transportation & Logistics" {
 }
 
 # ==================== EDGES ====================
+defense -> defense_armor: { class: material-edge }
+defense -> defense_weapons: { class: material-edge }
+construction -> defense_fortifications: { class: tool-edge }
 defense_siege-warfare -> economics-organization_supply-chain: { class: material-edge }
 defense -> chemistry_explosives: { class: material-edge }
+defense -> food-processing_canning: { class: material-edge }
 defense -> foundations: { class: tool-edge }
 defense -> knowledge: { class: tool-edge }
 defense -> metals: { class: material-edge }
@@ -130,7 +140,9 @@ defense_fortifications.class: capability
 defense_siege-warfare.class: capability
 defense_weapons.class: capability
 chemistry_explosives.class: external
+construction.class: external
 economics-organization_supply-chain.class: external
+food-processing_canning.class: external
 foundations.class: external
 knowledge.class: external
 metals.class: external

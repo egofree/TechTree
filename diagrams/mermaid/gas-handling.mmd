@@ -8,6 +8,8 @@ graph TD
         gas-handling_basic["Basic Gas Handling"]
         gas-handling_cylinder-filling["Cylinder Filling"]
         gas-handling_gas-purification["Gas Purification"]
+        gas-handling_process-valves["Industrial Process Valves"]
+        gas-handling_piping-systems["Gas Distribution Piping Systems"]
         gas-handling_vacuum["Vacuum Technology"]
     end
 
@@ -19,18 +21,20 @@ graph TD
     chemistry_acids("Mineral Acid Production")
     chemistry_air-separation("Air Separation & Bulk Gas Production")
     chemistry_hydrogen-silane("Hydrogen & Silane Production")
+    construction("Construction & Structural Engineering")
     cryogenics("Cryogenics")
     energy("Energy")
+    energy_pneumatics("Pneumatics")
     glass_basic_float-glass("Float Glass Process")
-    machine-tools("Machine Tools Bootstrap")
     metals_iron-steel("Iron & Steel Production")
+    metals_pipe-making("Pipe and Tube Manufacturing")
     metals_specialty-semiconductor("Specialty Metals for Semiconductor Interconnects & Barrier Layers")
     optics_inspection_optical-coatings("Optical Coatings")
     photolithography("Photolithography & IC Fabrication")
-    photolithography_cvd("Chemical Vapor Deposition")
     photolithography_fab-processes("Core Fab Processes")
-    photolithography_ion-implantation("Ion Implantation")
-    photolithography_plasma-etching("Plasma Etching (RIE & DRIE)")
+    photolithography_fab-processes_cvd("Chemical Vapor Deposition")
+    photolithography_fab-processes_plasma-etching("Plasma Etching (RIE & DRIE)")
+    polymers_seals-gaskets("Seals, Gaskets & Packing")
     precision-motion_vibration-isolation("Vibration Isolation")
     silicon("Silicon")
     silicon_basic-devices("Basic Semiconductor Devices")
@@ -43,22 +47,26 @@ graph TD
     gas-handling_cylinder-filling -.-> gas-handling_basic
     gas-handling_cylinder-filling -.-> gas-handling_gas-purification
     gas-handling_gas-purification -.-> gas-handling_basic
+    gas-handling_piping-systems -.-> gas-handling_basic
+    gas-handling -.-> gas-handling_process-valves
     chemistry_air-separation -.-> gas-handling_basic
     chemistry_hydrogen-silane -.-> gas-handling_basic
+    construction -.-> gas-handling_piping-systems
     cryogenics -.-> gas-handling
+    energy_pneumatics -.-> gas-handling
     gas-handling_cylinder-filling --> metals_iron-steel
     gas-handling_gas-purification --> chemistry_acids
     gas-handling_gas-purification -.-> chemistry_air-separation
     gas-handling --> chemistry
     gas-handling --> energy
-    gas-handling -.-> machine-tools
-    glass_basic_float-glass -.-> gas-handling
+    gas-handling --> metals_pipe-making
+    gas-handling -.-> polymers_seals-gaskets
+    glass_basic_float-glass -.-> gas-handling_basic
     metals_specialty-semiconductor -.-> gas-handling_vacuum
     optics_inspection_optical-coatings -.-> gas-handling_vacuum
-    photolithography_cvd -.-> gas-handling
+    photolithography_fab-processes_cvd --> gas-handling_basic
+    photolithography_fab-processes_plasma-etching --> gas-handling_basic
     photolithography_fab-processes -.-> gas-handling_vacuum
-    photolithography_ion-implantation -.-> gas-handling
-    photolithography_plasma-etching -.-> gas-handling
     photolithography -.-> gas-handling
     precision-motion_vibration-isolation -.-> gas-handling
     silicon_basic-devices -.-> gas-handling_vacuum
@@ -86,23 +94,27 @@ graph TD
     class gas-handling_basic capability
     class gas-handling_cylinder-filling capability
     class gas-handling_gas-purification critical
+    class gas-handling_process-valves critical
+    class gas-handling_piping-systems capability
     class gas-handling_vacuum capability
     class chemistry external
     class chemistry_acids external
     class chemistry_air-separation external
     class chemistry_hydrogen-silane external
+    class construction external
     class cryogenics external
     class energy external
+    class energy_pneumatics external
     class glass_basic_float-glass external
-    class machine-tools external
     class metals_iron-steel external
+    class metals_pipe-making external
     class metals_specialty-semiconductor external
     class optics_inspection_optical-coatings external
     class photolithography external
-    class photolithography_cvd external
     class photolithography_fab-processes external
-    class photolithography_ion-implantation external
-    class photolithography_plasma-etching external
+    class photolithography_fab-processes_cvd external
+    class photolithography_fab-processes_plasma-etching external
+    class polymers_seals-gaskets external
     class precision-motion_vibration-isolation external
     class silicon external
     class silicon_basic-devices external

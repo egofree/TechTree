@@ -86,8 +86,10 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 foundations_internal: "Foundations — Internal Structure" {
+  foundations_carpentry: Basic Carpentry
   foundations_fire: Fire-Making
   foundations_food-agriculture: "Agriculture & Food Production"
+  foundations_sawmilling: "Sawmilling & Timber Processing"
   foundations_tools-basic: "Stone & Wood Tools"
   foundations_water-procurement: Water Procurement
 }
@@ -132,7 +134,13 @@ chemistry_alkalis: Alkali Production {
 chemistry_lubricants: "Lubricants, Oils & Fluid Mechanics" {
   shape: rectangle
 }
+chemistry_lubricants-natural: "Natural Lubricants: Animal Fats & Vegetable Oils" {
+  shape: rectangle
+}
 chemistry_petroleum-alternatives: "Petroleum & Alternative Chemistry" {
+  shape: rectangle
+}
+chemistry_potash: Potash Production {
   shape: rectangle
 }
 construction: "Construction & Structural Engineering" {
@@ -159,6 +167,9 @@ energy_fuels_charcoal: Charcoal Production {
 food-processing: Food Processing {
   shape: rectangle
 }
+food-processing_oil-processing: "Oil & Fat Processing" {
+  shape: rectangle
+}
 health: "Public Health, Sanitation & Medicine" {
   shape: rectangle
 }
@@ -169,6 +180,9 @@ knowledge: "Knowledge Preservation & Education" {
   shape: rectangle
 }
 knowledge_writing: "Writing & Record-Keeping" {
+  shape: rectangle
+}
+machine-tools: Machine Tools Bootstrap {
   shape: rectangle
 }
 machine-tools_forming: Metal Forming {
@@ -184,6 +198,9 @@ measurement_precision-metrology: "Precision Metrology & Standards" {
   shape: rectangle
 }
 metals: Metals {
+  shape: rectangle
+}
+metals_copper: Copper Production {
   shape: rectangle
 }
 metals_copper-bronze: "Copper & Bronze Production" {
@@ -221,6 +238,7 @@ transport_roads: "Road & Bridge Construction" {
 }
 
 # ==================== EDGES ====================
+foundations_carpentry -> foundations: { class: tool-edge }
 foundations_food-agriculture -> foundations_tools-basic: { class: tool-edge }
 foundations_water-procurement -> foundations_tools-basic: { class: tool-edge }
 foundations_water-procurement -> foundations: { class: tool-edge }
@@ -234,15 +252,20 @@ ceramics_pottery -> foundations_fire: { class: material-edge }
 ceramics_pottery -> foundations_tools-basic: { class: tool-edge }
 ceramics -> foundations: { class: tool-edge }
 chemistry_alkalis -> foundations_fire: { class: material-edge }
+chemistry_lubricants-natural -> foundations: { class: tool-edge }
 chemistry_lubricants -> foundations: { class: tool-edge }
 chemistry_petroleum-alternatives -> foundations: { class: tool-edge }
+chemistry_potash -> foundations: { class: material-edge }
+construction_building-materials -> foundations_sawmilling: { class: material-edge }
 construction_building-materials -> foundations_tools-basic: { class: tool-edge }
+construction -> foundations_carpentry: { class: material-edge }
 construction -> foundations: { class: tool-edge }
 defense -> foundations: { class: tool-edge }
 economics-organization_division-of-labor -> foundations_food-agriculture: { class: material-edge }
 economics-organization -> foundations: { class: tool-edge }
-energy_fuels_charcoal -> foundations: { class: tool-edge }
+energy_fuels_charcoal -> foundations_fire: { class: tool-edge }
 energy_fuels -> foundations_fire: { class: tool-edge }
+food-processing_oil-processing -> foundations_food-agriculture: { class: material-edge }
 food-processing -> foundations_food-agriculture: { class: material-edge }
 foundations_food-agriculture -> agriculture_soil-management: { class: material-edge }
 foundations_food-agriculture -> animals_beekeeping: { class: material-edge }
@@ -255,15 +278,17 @@ knowledge_writing -> foundations_food-agriculture: { class: tool-edge }
 knowledge_writing -> foundations_tools-basic: { class: tool-edge }
 knowledge -> foundations: { class: tool-edge }
 machine-tools_forming -> foundations_fire: { class: tool-edge }
+machine-tools -> foundations_carpentry: { class: material-edge }
 marine -> foundations: { class: tool-edge }
 mathematics_core-mathematics -> foundations: { class: tool-edge }
 measurement_precision-metrology -> foundations: { class: tool-edge }
 metals_copper-bronze -> foundations_fire: { class: material-edge }
+metals_copper -> foundations_fire: { class: material-edge }
 metals -> foundations: { class: tool-edge }
 mining_extraction -> foundations_tools-basic: { class: tool-edge }
 mining -> foundations: { class: tool-edge }
 plants -> foundations_fire: { class: tool-edge }
-polymers_rubber_natural -> foundations: { class: tool-edge }
+polymers_rubber_natural -> foundations_fire: { class: tool-edge }
 polymers -> foundations: { class: tool-edge }
 telecom_pre-electric -> foundations: { class: tool-edge }
 textiles_fibers -> foundations_tools-basic: { class: tool-edge }
@@ -272,8 +297,10 @@ transport_roads -> foundations_tools-basic: { class: tool-edge }
 
 # ==================== STYLING ====================
 foundations.class: domain
+foundations_carpentry.class: earlyWin
 foundations_fire.class: capability
 foundations_food-agriculture.class: capability
+foundations_sawmilling.class: capability
 foundations_tools-basic.class: capability
 foundations_water-procurement.class: capability
 agriculture_soil-management.class: external
@@ -288,7 +315,9 @@ ceramics.class: external
 ceramics_pottery.class: external
 chemistry_alkalis.class: external
 chemistry_lubricants.class: external
+chemistry_lubricants-natural.class: external
 chemistry_petroleum-alternatives.class: external
+chemistry_potash.class: external
 construction.class: external
 construction_building-materials.class: external
 defense.class: external
@@ -297,15 +326,18 @@ economics-organization_division-of-labor.class: external
 energy_fuels.class: external
 energy_fuels_charcoal.class: external
 food-processing.class: external
+food-processing_oil-processing.class: external
 health.class: external
 health_sanitation.class: external
 knowledge.class: external
 knowledge_writing.class: external
+machine-tools.class: external
 machine-tools_forming.class: external
 marine.class: external
 mathematics_core-mathematics.class: external
 measurement_precision-metrology.class: external
 metals.class: external
+metals_copper.class: external
 metals_copper-bronze.class: external
 mining.class: external
 mining_extraction.class: external

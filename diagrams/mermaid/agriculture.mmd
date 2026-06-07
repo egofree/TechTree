@@ -6,8 +6,11 @@ graph TD
     subgraph agriculture_internal ["Agriculture — Internal Structure"]
         direction TB
         agriculture_aquaponics["Aquaponics"]
+        agriculture_crop-rotation["Crop Rotation & Nutrient Cycling"]
         agriculture_hydroponic-ph-control["Hydroponic pH Control"]
         agriculture_irrigation["Irrigation Systems"]
+        agriculture_pest-management["Pest Management"]
+        agriculture_seed-saving["Seed Saving & Selection"]
         agriculture_selective-breeding["Selective Breeding & Genetic Improvement"]
         agriculture_soil-management["Soil Management & Composting"]
         agriculture_soil-management_vermiculture["Vermiculture"]
@@ -21,29 +24,34 @@ graph TD
     animals_aquaculture("Aquaculture & Fisheries")
     animals_domestication("Livestock Domestication & Husbandry")
     chemistry_electrodialysis("Electrodialysis")
+    chemistry_phosphorus("Phosphorus and Phosphate Chemistry")
     construction("Construction & Structural Engineering")
     energy("Energy")
-    energy_electricity("Electricity Generation & Distribution")
+    food-processing("Food Processing")
     foundations_food-agriculture("Agriculture & Food Production")
     knowledge_writing("Writing & Record-Keeping")
     water_distribution("Water Distribution")
+    water_procurement("Water Procurement")
 
     %% ==================== EDGES ====================
-    agriculture_aquaponics -.-> agriculture
-    agriculture_hydroponic-ph-control -.-> agriculture_aquaponics
+    agriculture_crop-rotation -.-> agriculture_pest-management
+    agriculture_crop-rotation --> agriculture_seed-saving
+    agriculture_crop-rotation -.-> agriculture_soil-management
+    agriculture_pest-management -.-> agriculture
+    agriculture_seed-saving -.-> agriculture
     agriculture_selective-breeding -.-> agriculture_soil-management
-    agriculture_selective-breeding -.-> agriculture
     agriculture_soil-management_vermiculture --> agriculture_soil-management
-    agriculture_soil-management -.-> agriculture
     agriculture_aquaponics -.-> animals_aquaculture
-    agriculture_hydroponic-ph-control --> energy_electricity
     agriculture_irrigation -.-> construction
     agriculture_irrigation -.-> energy
     agriculture_irrigation --> water_distribution
     agriculture_selective-breeding --> animals_domestication
     agriculture_selective-breeding -.-> knowledge_writing
     agriculture_soil-management --> animals
+    agriculture --> chemistry_phosphorus
+    agriculture --> water_procurement
     chemistry_electrodialysis -.-> agriculture_hydroponic-ph-control
+    food-processing --> agriculture_crop-rotation
     foundations_food-agriculture --> agriculture_soil-management
 
     %% ==================== EDGE TYPE LEGEND ====================
@@ -62,8 +70,11 @@ graph TD
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class agriculture domain
     class agriculture_aquaponics capability
+    class agriculture_crop-rotation earlyWin
     class agriculture_hydroponic-ph-control capability
     class agriculture_irrigation earlyWin
+    class agriculture_pest-management capability
+    class agriculture_seed-saving earlyWin
     class agriculture_selective-breeding capability
     class agriculture_soil-management earlyWin
     class agriculture_soil-management_vermiculture earlyWin
@@ -71,10 +82,12 @@ graph TD
     class animals_aquaculture external
     class animals_domestication external
     class chemistry_electrodialysis external
+    class chemistry_phosphorus external
     class construction external
     class energy external
-    class energy_electricity external
+    class food-processing external
     class foundations_food-agriculture external
     class knowledge_writing external
     class water_distribution external
+    class water_procurement external
     class EdgeLegend,MatNote,ToolNote legend

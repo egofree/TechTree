@@ -102,6 +102,9 @@ energy: Energy {
 energy_engine: Heat Engines {
   shape: rectangle
 }
+energy_refining: Fuel Refining {
+  shape: rectangle
+}
 energy_steam-power: Steam Power {
   shape: rectangle
 }
@@ -115,6 +118,9 @@ knowledge_writing: "Writing & Record-Keeping" {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
+measurement_horology: "Clockmaking & Precision Horology" {
   shape: rectangle
 }
 metals: Metals {
@@ -138,6 +144,7 @@ marine_infrastructure -> machine-tools: { class: tool-edge }
 marine_infrastructure -> metals_iron-steel: { class: material-edge }
 marine_infrastructure -> polymers_rubber_gutta-percha: { class: material-edge }
 marine_navigation -> knowledge_writing: { class: tool-edge }
+marine_navigation -> measurement_horology: { class: tool-edge }
 marine_navigation -> metals: { class: material-edge }
 marine_propulsion -> energy_engine: { class: tool-edge }
 marine_propulsion -> energy_steam-power: { class: tool-edge }
@@ -145,6 +152,7 @@ marine_propulsion -> metals_iron-steel: { class: material-edge }
 marine_shipbuilding -> machine-tools: { class: tool-edge }
 marine_shipbuilding -> metals_iron-steel: { class: material-edge }
 marine_shipbuilding -> transport_shipping: { class: tool-edge }
+marine -> energy_refining: { class: material-edge }
 marine -> energy: { class: tool-edge }
 marine -> foundations: { class: tool-edge }
 marine -> knowledge: { class: tool-edge }
@@ -160,11 +168,13 @@ marine_propulsion.class: capability
 marine_shipbuilding.class: capability
 energy.class: external
 energy_engine.class: external
+energy_refining.class: external
 energy_steam-power.class: external
 foundations.class: external
 knowledge.class: external
 knowledge_writing.class: external
 machine-tools.class: external
+measurement_horology.class: external
 metals.class: external
 metals_iron-steel.class: external
 polymers_rubber_gutta-percha.class: external

@@ -92,6 +92,7 @@ ceramics_internal: "Ceramics & Refractories — Internal Structure" {
   ceramics_lime: Lime Production
   ceramics_pottery: "Pottery & Clay Products"
   ceramics_pottery_kiln-firing: Kiln Firing
+  ceramics_thermal-insulation: Thermal Insulation
 }
 
 # ==================== DOMAIN NODE ====================
@@ -113,6 +114,12 @@ chemistry_refractories: Refractory Materials {
 construction: "Construction & Structural Engineering" {
   shape: rectangle
 }
+cryogenics: Cryogenics {
+  shape: rectangle
+}
+energy: Energy {
+  shape: rectangle
+}
 energy_fuels_charcoal: Charcoal Production {
   shape: rectangle
 }
@@ -123,6 +130,9 @@ energy_fuels_coke: Coke Production {
   shape: rectangle
 }
 food-processing_dairy: Dairy Processing {
+  shape: rectangle
+}
+food-processing_oil-processing: "Oil & Fat Processing" {
   shape: rectangle
 }
 food-processing_preservation: Food Preservation {
@@ -137,10 +147,19 @@ foundations_fire: Fire-Making {
 foundations_tools-basic: "Stone & Wood Tools" {
   shape: rectangle
 }
+glass_basic: Basic Glass Production {
+  shape: rectangle
+}
 health_sanitation: "Water Supply & Sanitation" {
   shape: rectangle
 }
 metals: Metals {
+  shape: rectangle
+}
+metals_copper: Copper Production {
+  shape: rectangle
+}
+metals_copper-bronze: "Copper & Bronze Production" {
   shape: rectangle
 }
 metals_iron-steel_blast-furnace: Blast Furnace and Cast Iron {
@@ -161,23 +180,29 @@ ceramics_advanced-ceramics -> ceramics_kilns: { class: tool-edge }
 ceramics_advanced-ceramics -> ceramics_pottery: { class: tool-edge }
 ceramics_electronic-ceramics -> ceramics_advanced-ceramics: { class: tool-edge }
 ceramics_lime -> ceramics_kilns: { class: tool-edge }
+ceramics_thermal-insulation -> ceramics: { class: material-edge }
 animals_animal-materials -> ceramics_lime: { class: tool-edge }
 ceramics_advanced-ceramics -> mining: { class: material-edge }
 ceramics_electronic-ceramics -> chemistry: { class: material-edge }
-ceramics_lime -> mining: { class: material-edge }
 ceramics_pottery_kiln-firing -> energy_fuels_charcoal: { class: material-edge }
 ceramics_pottery -> foundations_fire: { class: material-edge }
 ceramics_pottery -> foundations_tools-basic: { class: tool-edge }
+ceramics_thermal-insulation -> glass_basic: { class: material-edge }
 ceramics -> foundations: { class: tool-edge }
 ceramics -> metals: { class: tool-edge }
 chemistry_cement -> ceramics_kilns: { class: tool-edge }
 chemistry_refractories -> ceramics_kilns: { class: tool-edge }
 construction -> ceramics_lime: { class: material-edge }
+cryogenics -> ceramics_thermal-insulation: { class: material-edge }
 energy_fuels_coal -> ceramics_kilns: { class: tool-edge }
 energy_fuels_coke -> ceramics_kilns: { class: tool-edge }
+energy -> ceramics_thermal-insulation: { class: material-edge }
 food-processing_dairy -> ceramics: { class: material-edge }
+food-processing_oil-processing -> ceramics: { class: tool-edge }
 food-processing_preservation -> ceramics: { class: material-edge }
 health_sanitation -> ceramics: { class: tool-edge }
+metals_copper-bronze -> ceramics: { class: tool-edge }
+metals_copper -> ceramics: { class: tool-edge }
 metals_iron-steel_blast-furnace -> ceramics_kilns: { class: tool-edge }
 photolithography_cleanrooms -> ceramics: { class: tool-edge }
 silicon -> ceramics_advanced-ceramics: { class: tool-edge }
@@ -190,21 +215,28 @@ ceramics_kilns.class: capability
 ceramics_lime.class: capability
 ceramics_pottery.class: capability
 ceramics_pottery_kiln-firing.class: process
+ceramics_thermal-insulation.class: capability
 animals_animal-materials.class: external
 chemistry.class: external
 chemistry_cement.class: external
 chemistry_refractories.class: external
 construction.class: external
+cryogenics.class: external
+energy.class: external
 energy_fuels_charcoal.class: external
 energy_fuels_coal.class: external
 energy_fuels_coke.class: external
 food-processing_dairy.class: external
+food-processing_oil-processing.class: external
 food-processing_preservation.class: external
 foundations.class: external
 foundations_fire.class: external
 foundations_tools-basic.class: external
+glass_basic.class: external
 health_sanitation.class: external
 metals.class: external
+metals_copper.class: external
+metals_copper-bronze.class: external
 metals_iron-steel_blast-furnace.class: external
 mining.class: external
 photolithography_cleanrooms.class: external

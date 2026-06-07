@@ -19,6 +19,7 @@ graph TD
     machine-tools("Machine Tools Bootstrap")
     measurement_optical-instruments("Optical Measurement Instruments")
     measurement_precision-metrology("Precision Metrology & Standards")
+    measurement_thermostat-advanced("Advanced & Specialty Thermostats")
     photolithography("Photolithography & IC Fabrication")
     precision-motion_precision-encoders("Precision Encoders & Feedback")
     vacuum_pumps("Vacuum Pumps")
@@ -30,6 +31,7 @@ graph TD
     optics_precision-instruments -.-> optics
     measurement_optical-instruments -.-> optics_inspection
     measurement_precision-metrology -.-> optics_precision-instruments
+    measurement_thermostat-advanced -.-> optics
     optics_inspection_optical-coatings -.-> gas-handling_vacuum
     optics_inspection_optical-coatings -.-> vacuum_pumps
     optics_inspection --> glass_advanced
@@ -61,6 +63,7 @@ graph TD
     class machine-tools external
     class measurement_optical-instruments external
     class measurement_precision-metrology external
+    class measurement_thermostat-advanced external
     class photolithography external
     class precision-motion_precision-encoders external
     class vacuum_pumps external

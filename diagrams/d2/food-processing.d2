@@ -87,7 +87,10 @@ classes: {
 # ==================== INTERNAL NODES ====================
 food-processing_internal: "Food Processing — Internal Structure" {
   food-processing_brewing: "Brewing & Distilling"
+  food-processing_canning: "Canning & Thermal Sterilization"
   food-processing_dairy: Dairy Processing
+  food-processing_fermentation: Food Fermentation
+  food-processing_oil-processing: "Oil & Fat Processing"
   food-processing_milling: Grain Milling
   food-processing_preservation: Food Preservation
 }
@@ -96,19 +99,37 @@ food-processing_internal: "Food Processing — Internal Structure" {
 food-processing: Food Processing
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+agriculture_crop-rotation: "Crop Rotation & Nutrient Cycling" {
+  shape: rectangle
+}
 ceramics: "Ceramics & Refractories" {
   shape: rectangle
 }
 chemistry_petroleum-alternatives_fermentation: Fermentation Chemistry {
   shape: rectangle
 }
+defense: "Defense & Military Engineering" {
+  shape: rectangle
+}
 energy: Energy {
+  shape: rectangle
+}
+energy_biomass-energy: Biomass Energy {
   shape: rectangle
 }
 foundations_food-agriculture: "Agriculture & Food Production" {
   shape: rectangle
 }
+health_nutrition: Nutrition {
+  shape: rectangle
+}
 health_sanitation: "Water Supply & Sanitation" {
+  shape: rectangle
+}
+metals_iron-steel: "Iron & Steel Production" {
+  shape: rectangle
+}
+mining_salt: Salt / Halite Production {
   shape: rectangle
 }
 water: Water {
@@ -116,30 +137,50 @@ water: Water {
 }
 
 # ==================== EDGES ====================
+food-processing_brewing -> food-processing_fermentation: { class: tool-edge }
+food-processing_canning -> food-processing: { class: tool-edge }
+food-processing_fermentation -> food-processing_milling: { class: tool-edge }
+defense -> food-processing_canning: { class: material-edge }
 food-processing_brewing -> chemistry_petroleum-alternatives_fermentation: { class: tool-edge }
 food-processing_brewing -> energy: { class: tool-edge }
 food-processing_dairy -> ceramics: { class: material-edge }
 food-processing_dairy -> health_sanitation: { class: tool-edge }
 food-processing_milling -> energy: { class: tool-edge }
+food-processing_oil-processing -> ceramics: { class: tool-edge }
+food-processing_oil-processing -> foundations_food-agriculture: { class: material-edge }
+food-processing_oil-processing -> metals_iron-steel: { class: tool-edge }
 food-processing_preservation -> ceramics: { class: material-edge }
 food-processing_preservation -> chemistry_petroleum-alternatives_fermentation: { class: tool-edge }
 food-processing_preservation -> health_sanitation: { class: tool-edge }
+food-processing -> agriculture_crop-rotation: { class: material-edge }
+food-processing -> energy_biomass-energy: { class: material-edge }
 food-processing -> energy: { class: tool-edge }
 food-processing -> foundations_food-agriculture: { class: material-edge }
 food-processing -> health_sanitation: { class: tool-edge }
+food-processing -> mining_salt: { class: material-edge }
 food-processing -> water: { class: material-edge }
+health_nutrition -> food-processing: { class: tool-edge }
 
 # ==================== STYLING ====================
 food-processing.class: domain
 food-processing_brewing.class: capability
+food-processing_canning.class: critical
 food-processing_dairy.class: capability
+food-processing_fermentation.class: earlyWin
+food-processing_oil-processing.class: earlyWin
 food-processing_milling.class: earlyWin
 food-processing_preservation.class: capability
+agriculture_crop-rotation.class: external
 ceramics.class: external
 chemistry_petroleum-alternatives_fermentation.class: external
+defense.class: external
 energy.class: external
+energy_biomass-energy.class: external
 foundations_food-agriculture.class: external
+health_nutrition.class: external
 health_sanitation.class: external
+metals_iron-steel.class: external
+mining_salt.class: external
 water.class: external
 
 # ==================== LEGEND ====================

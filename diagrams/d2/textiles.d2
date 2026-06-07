@@ -108,6 +108,9 @@ animals_camelids: Camelid Husbandry {
 animals_goats: Goat Husbandry {
   shape: rectangle
 }
+animals_leather: Leather Production {
+  shape: rectangle
+}
 animals_rabbits: Rabbit Husbandry {
   shape: rectangle
 }
@@ -118,6 +121,9 @@ chemistry: Chemistry {
   shape: rectangle
 }
 chemistry_alkalis: Alkali Production {
+  shape: rectangle
+}
+chemistry_bleaching: "Bleaching & Chlorine Chemistry" {
   shape: rectangle
 }
 chemistry_pulp-chemicals: "Pulp & Paper Chemicals" {
@@ -191,6 +197,8 @@ textiles_fibers -> foundations_tools-basic: { class: tool-edge }
 textiles_fibers -> plants_fiber-plants: { class: material-edge }
 textiles_finishing -> chemistry_alkalis: { class: tool-edge }
 textiles_sewing-tailoring -> metals_copper-bronze: { class: tool-edge }
+textiles -> animals_leather: { class: material-edge }
+textiles -> chemistry_bleaching: { class: material-edge }
 textiles -> chemistry_pulp-chemicals: { class: material-edge }
 textiles -> foundations: { class: tool-edge }
 transport_aviation -> textiles: { class: material-edge }
@@ -208,10 +216,12 @@ textiles_weaving.class: capability
 animals_animal-materials.class: external
 animals_camelids.class: external
 animals_goats.class: external
+animals_leather.class: external
 animals_rabbits.class: external
 animals_sheep.class: external
 chemistry.class: external
 chemistry_alkalis.class: external
+chemistry_bleaching.class: external
 chemistry_pulp-chemicals.class: external
 construction.class: external
 energy_gravity.class: external

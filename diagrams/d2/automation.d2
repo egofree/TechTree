@@ -99,6 +99,9 @@ automation: "Automation & Robotics"
 computing: "Computing & Automation" {
   shape: rectangle
 }
+computing_embedded-systems: Embedded Systems {
+  shape: rectangle
+}
 electronics: Electronics {
   shape: rectangle
 }
@@ -120,6 +123,7 @@ automation_equipment-communication -> electronics: { class: tool-edge }
 automation_process-control -> quality-control: { class: tool-edge }
 automation_wafer-handling -> machine-tools: { class: tool-edge }
 automation_wafer-handling -> vacuum: { class: tool-edge }
+automation -> computing_embedded-systems: { class: tool-edge }
 automation -> computing: { class: tool-edge }
 automation -> electronics: { class: tool-edge }
 
@@ -130,6 +134,7 @@ automation_material-transport.class: capability
 automation_process-control.class: capability
 automation_wafer-handling.class: critical
 computing.class: external
+computing_embedded-systems.class: external
 electronics.class: external
 machine-tools.class: external
 quality-control.class: external

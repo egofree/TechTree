@@ -120,6 +120,7 @@ polymers: "Polymers & Composites"
 precision-motion: Precision Motion Control
 quality-control: "Quality Control & Statistical Process Control"
 silicon: Silicon
+software-bootstrapping: Software Bootstrapping
 telecom: Telecommunications
 textiles: "Textiles, Fiber & Cordage"
 transport: "Transportation & Logistics"
@@ -141,7 +142,7 @@ cleanrooms -> energy: { class: tool-edge }
 cleanrooms -> glass: { class: material-edge }
 cleanrooms -> measurement: { class: tool-edge }
 cleanrooms -> metals: { class: material-edge }
-computing -> machine-tools: { class: tool-edge }
+construction -> ehs: { class: tool-edge }
 construction -> foundations: { class: tool-edge }
 construction -> machine-tools: { class: tool-edge }
 construction -> metals: { class: material-edge }
@@ -161,7 +162,6 @@ food-processing -> energy: { class: tool-edge }
 food-processing -> water: { class: material-edge }
 gas-handling -> chemistry: { class: material-edge }
 gas-handling -> energy: { class: material-edge }
-gas-handling -> machine-tools: { class: tool-edge }
 glass -> chemistry: { class: material-edge }
 glass -> energy: { class: material-edge }
 glass -> machine-tools: { class: tool-edge }
@@ -178,7 +178,6 @@ marine -> textiles: { class: material-edge }
 measurement -> chemistry: { class: material-edge }
 measurement -> machine-tools: { class: tool-edge }
 metals -> foundations: { class: tool-edge }
-metals -> mining: { class: material-edge }
 mining -> foundations: { class: tool-edge }
 optics -> machine-tools: { class: tool-edge }
 petroleum -> metals: { class: tool-edge }
@@ -191,6 +190,8 @@ photolithography -> optics: { class: tool-edge }
 photolithography -> quality-control: { class: tool-edge }
 photolithography -> silicon: { class: material-edge }
 polymers -> foundations: { class: tool-edge }
+precision-motion -> machine-tools: { class: tool-edge }
+precision-motion -> measurement: { class: tool-edge }
 quality-control -> computing: { class: tool-edge }
 quality-control -> knowledge: { class: tool-edge }
 quality-control -> measurement: { class: tool-edge }
@@ -199,6 +200,8 @@ silicon -> energy: { class: material-edge }
 silicon -> gas-handling: { class: tool-edge }
 silicon -> glass: { class: tool-edge }
 silicon -> machine-tools: { class: tool-edge }
+silicon -> ultra-pure: { class: material-edge }
+software-bootstrapping -> computing: { class: tool-edge }
 telecom -> glass: { class: material-edge }
 telecom -> metals: { class: material-edge }
 textiles -> foundations: { class: tool-edge }
@@ -206,6 +209,7 @@ transport -> energy: { class: material-edge }
 transport -> machine-tools: { class: tool-edge }
 transport -> metals: { class: tool-edge }
 transport -> mining: { class: material-edge }
+ultra-pure -> chemistry: { class: tool-edge }
 vacuum -> gas-handling: { class: tool-edge }
 vacuum -> measurement: { class: tool-edge }
 vacuum -> metals: { class: material-edge }
@@ -214,13 +218,18 @@ vlsi-scaling -> quality-control: { class: tool-edge }
 
 # ==================== CROSS-DOMAIN EDGES ====================
 agriculture -> animals: { class: tool-edge }
+agriculture -> chemistry: { class: tool-edge }
+agriculture -> construction: { class: tool-edge }
 agriculture -> energy: { class: tool-edge }
+agriculture -> knowledge: { class: tool-edge }
+agriculture -> water: { class: tool-edge }
 animals -> ceramics: { class: tool-edge }
 automation -> machine-tools: { class: tool-edge }
 automation -> quality-control: { class: tool-edge }
 automation -> vacuum: { class: tool-edge }
 ceramics -> chemistry: { class: tool-edge }
 ceramics -> energy: { class: tool-edge }
+ceramics -> glass: { class: tool-edge }
 ceramics -> mining: { class: tool-edge }
 chemistry -> agriculture: { class: tool-edge }
 chemistry -> animals: { class: tool-edge }
@@ -229,6 +238,7 @@ chemistry -> cryogenics: { class: tool-edge }
 chemistry -> foundations: { class: tool-edge }
 chemistry -> gas-handling: { class: tool-edge }
 chemistry -> glass: { class: tool-edge }
+chemistry -> knowledge: { class: tool-edge }
 chemistry -> machine-tools: { class: tool-edge }
 chemistry -> mining: { class: tool-edge }
 chemistry -> photolithography: { class: tool-edge }
@@ -236,24 +246,34 @@ chemistry -> polymers: { class: tool-edge }
 chemistry -> water: { class: tool-edge }
 computing -> electronics: { class: tool-edge }
 computing -> energy: { class: tool-edge }
+computing -> machine-tools: { class: tool-edge }
 computing -> mathematics: { class: tool-edge }
 computing -> metals: { class: tool-edge }
 computing -> photolithography: { class: tool-edge }
 computing -> polymers: { class: tool-edge }
 computing -> silicon: { class: tool-edge }
+computing -> software-bootstrapping: { class: tool-edge }
 construction -> ceramics: { class: tool-edge }
 construction -> chemistry: { class: tool-edge }
+construction -> cleanrooms: { class: tool-edge }
+construction -> defense: { class: tool-edge }
 construction -> economics-organization: { class: tool-edge }
 construction -> energy: { class: tool-edge }
+construction -> gas-handling: { class: tool-edge }
+construction -> knowledge: { class: tool-edge }
 construction -> textiles: { class: tool-edge }
+cryogenics -> ceramics: { class: tool-edge }
 cryogenics -> energy: { class: tool-edge }
 defense -> chemistry: { class: tool-edge }
 defense -> economics-organization: { class: tool-edge }
+defense -> food-processing: { class: tool-edge }
 economics-organization -> measurement: { class: tool-edge }
 economics-organization -> metals: { class: tool-edge }
 economics-organization -> transport: { class: tool-edge }
 ehs -> chemistry: { class: tool-edge }
 ehs -> health: { class: tool-edge }
+ehs -> polymers: { class: tool-edge }
+ehs -> water: { class: tool-edge }
 electrochemistry -> chemistry: { class: tool-edge }
 electrochemistry -> energy: { class: tool-edge }
 electrochemistry -> metals: { class: tool-edge }
@@ -263,25 +283,37 @@ electronics -> polymers: { class: tool-edge }
 electronics -> silicon: { class: tool-edge }
 energy -> ceramics: { class: tool-edge }
 energy -> chemistry: { class: tool-edge }
+energy -> electronics: { class: tool-edge }
 energy -> foundations: { class: tool-edge }
+energy -> gas-handling: { class: tool-edge }
+energy -> glass: { class: tool-edge }
 energy -> machine-tools: { class: tool-edge }
 energy -> measurement: { class: tool-edge }
 energy -> mining: { class: tool-edge }
 energy -> petroleum: { class: tool-edge }
 energy -> polymers: { class: tool-edge }
+energy -> silicon: { class: tool-edge }
 energy -> textiles: { class: tool-edge }
+food-processing -> agriculture: { class: tool-edge }
 food-processing -> ceramics: { class: tool-edge }
 food-processing -> chemistry: { class: tool-edge }
 food-processing -> foundations: { class: tool-edge }
 food-processing -> health: { class: tool-edge }
+food-processing -> metals: { class: tool-edge }
+food-processing -> mining: { class: tool-edge }
 foundations -> agriculture: { class: tool-edge }
 foundations -> animals: { class: tool-edge }
 foundations -> plants: { class: tool-edge }
-glass -> mining: { class: tool-edge }
+gas-handling -> metals: { class: tool-edge }
+gas-handling -> polymers: { class: tool-edge }
+glass -> gas-handling: { class: tool-edge }
+glass -> metals: { class: tool-edge }
 glass -> photolithography: { class: tool-edge }
+glass -> vacuum: { class: tool-edge }
 health -> animals: { class: tool-edge }
 health -> ceramics: { class: tool-edge }
 health -> energy: { class: tool-edge }
+health -> food-processing: { class: tool-edge }
 health -> knowledge: { class: tool-edge }
 health -> metals: { class: tool-edge }
 health -> polymers: { class: tool-edge }
@@ -289,22 +321,30 @@ knowledge -> animals: { class: tool-edge }
 knowledge -> chemistry: { class: tool-edge }
 knowledge -> health: { class: tool-edge }
 knowledge -> machine-tools: { class: tool-edge }
+knowledge -> mathematics: { class: tool-edge }
+knowledge -> measurement: { class: tool-edge }
 knowledge -> metals: { class: tool-edge }
 knowledge -> textiles: { class: tool-edge }
 machine-tools -> animals: { class: tool-edge }
 machine-tools -> chemistry: { class: tool-edge }
 machine-tools -> energy: { class: tool-edge }
 machine-tools -> foundations: { class: tool-edge }
+machine-tools -> measurement: { class: tool-edge }
 machine-tools -> vacuum: { class: tool-edge }
 marine -> machine-tools: { class: tool-edge }
+marine -> measurement: { class: tool-edge }
 marine -> polymers: { class: tool-edge }
 marine -> transport: { class: tool-edge }
 mathematics -> foundations: { class: tool-edge }
 mathematics -> knowledge: { class: tool-edge }
+measurement -> computing: { class: tool-edge }
+measurement -> electronics: { class: tool-edge }
 measurement -> energy: { class: tool-edge }
 measurement -> foundations: { class: tool-edge }
+measurement -> glass: { class: tool-edge }
 measurement -> metals: { class: tool-edge }
 measurement -> optics: { class: tool-edge }
+measurement -> silicon: { class: tool-edge }
 metals -> animals: { class: tool-edge }
 metals -> ceramics: { class: tool-edge }
 metals -> chemistry: { class: tool-edge }
@@ -312,6 +352,7 @@ metals -> electronics: { class: tool-edge }
 metals -> energy: { class: tool-edge }
 metals -> gas-handling: { class: tool-edge }
 metals -> machine-tools: { class: tool-edge }
+metals -> mining: { class: tool-edge }
 metals -> photolithography: { class: tool-edge }
 metals -> vlsi-scaling: { class: tool-edge }
 mining -> animals: { class: tool-edge }
@@ -319,6 +360,7 @@ mining -> chemistry: { class: tool-edge }
 mining -> energy: { class: tool-edge }
 mining -> knowledge: { class: tool-edge }
 mining -> machine-tools: { class: tool-edge }
+mining -> metals: { class: tool-edge }
 optics -> gas-handling: { class: tool-edge }
 optics -> glass: { class: tool-edge }
 optics -> vacuum: { class: tool-edge }
@@ -326,9 +368,12 @@ petroleum -> chemistry: { class: tool-edge }
 petroleum -> energy: { class: tool-edge }
 photolithography -> ceramics: { class: tool-edge }
 photolithography -> economics-organization: { class: tool-edge }
+photolithography -> energy: { class: tool-edge }
 photolithography -> glass: { class: tool-edge }
 photolithography -> metals: { class: tool-edge }
 photolithography -> polymers: { class: tool-edge }
+photolithography -> precision-motion: { class: tool-edge }
+photolithography -> ultra-pure: { class: tool-edge }
 photolithography -> vacuum: { class: tool-edge }
 plants -> energy: { class: tool-edge }
 plants -> foundations: { class: tool-edge }
@@ -337,12 +382,18 @@ plants -> textiles: { class: tool-edge }
 polymers -> chemistry: { class: tool-edge }
 polymers -> glass: { class: tool-edge }
 polymers -> machine-tools: { class: tool-edge }
+precision-motion -> construction: { class: tool-edge }
+precision-motion -> energy: { class: tool-edge }
+precision-motion -> gas-handling: { class: tool-edge }
+precision-motion -> optics: { class: tool-edge }
 silicon -> ceramics: { class: tool-edge }
 silicon -> cryogenics: { class: tool-edge }
 silicon -> measurement: { class: tool-edge }
 silicon -> metals: { class: tool-edge }
 silicon -> mining: { class: tool-edge }
+silicon -> photolithography: { class: tool-edge }
 silicon -> vacuum: { class: tool-edge }
+software-bootstrapping -> knowledge: { class: tool-edge }
 telecom -> energy: { class: tool-edge }
 telecom -> foundations: { class: tool-edge }
 telecom -> knowledge: { class: tool-edge }
@@ -356,14 +407,18 @@ transport -> animals: { class: tool-edge }
 transport -> chemistry: { class: tool-edge }
 transport -> foundations: { class: tool-edge }
 transport -> textiles: { class: tool-edge }
-vacuum -> energy: { class: tool-edge }
+ultra-pure -> measurement: { class: tool-edge }
+ultra-pure -> water: { class: tool-edge }
 vacuum -> machine-tools: { class: tool-edge }
+vacuum -> precision-motion: { class: tool-edge }
 vlsi-scaling -> chemistry: { class: tool-edge }
 vlsi-scaling -> computing: { class: tool-edge }
 vlsi-scaling -> electronics: { class: tool-edge }
 vlsi-scaling -> optics: { class: tool-edge }
 vlsi-scaling -> silicon: { class: tool-edge }
-water -> energy: { class: tool-edge }
+vlsi-scaling -> software-bootstrapping: { class: tool-edge }
+water -> chemistry: { class: tool-edge }
+water -> metals: { class: tool-edge }
 
 # ==================== STYLING ====================
 agriculture.class: earlyWin
@@ -401,6 +456,7 @@ polymers.class: domain
 precision-motion.class: domain
 quality-control.class: domain
 silicon.class: earlyWin
+software-bootstrapping.class: critical
 telecom.class: domain
 textiles.class: critical
 transport.class: domain

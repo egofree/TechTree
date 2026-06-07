@@ -14,6 +14,7 @@ graph TD
     cryogenics["Cryogenics"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    ceramics_thermal-insulation("Thermal Insulation")
     chemistry_air-separation("Air Separation & Bulk Gas Production")
     energy_electricity("Electricity Generation & Distribution")
     gas-handling("Gas Handling")
@@ -23,6 +24,7 @@ graph TD
     cryogenics_air-separation -.-> cryogenics_refrigeration
     cryogenics_liquefaction-storage -.-> cryogenics_refrigeration
     chemistry_air-separation -.-> cryogenics_air-separation
+    cryogenics --> ceramics_thermal-insulation
     cryogenics -.-> energy_electricity
     cryogenics -.-> gas-handling
     silicon_crystal-growth --> cryogenics_liquefaction-storage
@@ -45,6 +47,7 @@ graph TD
     class cryogenics_air-separation capability
     class cryogenics_liquefaction-storage capability
     class cryogenics_refrigeration capability
+    class ceramics_thermal-insulation external
     class chemistry_air-separation external
     class energy_electricity external
     class gas-handling external

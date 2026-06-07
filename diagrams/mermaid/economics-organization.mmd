@@ -6,6 +6,7 @@ graph TD
     subgraph economics-organization_internal ["Economics & Organization — Internal Structure"]
         direction TB
         economics-organization_accounting["Accounting & Record-Keeping"]
+        economics-organization_coinage["Coinage & Precision Minting"]
         economics-organization_currency["Currency & Standardized Exchange"]
         economics-organization_division-of-labor["Division of Labor"]
         economics-organization_governance["Governance & Institutional Design"]
@@ -27,11 +28,14 @@ graph TD
     mathematics_core-mathematics("Core Mathematics")
     measurement_precision-metrology("Precision Metrology & Standards")
     metals("Metals")
+    metals_finishing("Metal Finishing & Surface Treatment")
+    metals_forming("Primary Metal Forming")
     photolithography_fab-processes("Core Fab Processes")
     transport("Transportation & Logistics")
 
     %% ==================== EDGES ====================
     economics-organization_accounting -.-> economics-organization_division-of-labor
+    economics-organization_currency --> economics-organization_coinage
     economics-organization_currency -.-> economics-organization_trade
     economics-organization_governance -.-> economics-organization_division-of-labor
     economics-organization_supply-chain -.-> economics-organization_accounting
@@ -40,6 +44,8 @@ graph TD
     defense_siege-warfare --> economics-organization_supply-chain
     economics-organization_accounting -.-> knowledge_writing
     economics-organization_accounting -.-> mathematics_core-mathematics
+    economics-organization_coinage -.-> metals_finishing
+    economics-organization_coinage -.-> metals_forming
     economics-organization_currency -.-> measurement_precision-metrology
     economics-organization_currency --> metals
     economics-organization_division-of-labor --> foundations_food-agriculture
@@ -70,6 +76,7 @@ graph TD
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class economics-organization domain
     class economics-organization_accounting capability
+    class economics-organization_coinage capability
     class economics-organization_currency capability
     class economics-organization_division-of-labor earlyWin
     class economics-organization_governance capability
@@ -85,6 +92,8 @@ graph TD
     class mathematics_core-mathematics external
     class measurement_precision-metrology external
     class metals external
+    class metals_finishing external
+    class metals_forming external
     class photolithography_fab-processes external
     class transport external
     class EdgeLegend,MatNote,ToolNote legend

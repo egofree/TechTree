@@ -16,15 +16,21 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry_explosives("Explosives and Propellants")
+    construction("Construction & Structural Engineering")
     economics-organization_supply-chain("Supply Chain Coordination")
+    food-processing_canning("Canning & Thermal Sterilization")
     foundations("Foundations")
     knowledge("Knowledge Preservation & Education")
     metals("Metals")
     transport("Transportation & Logistics")
 
     %% ==================== EDGES ====================
+    defense --> defense_armor
+    defense --> defense_weapons
+    construction -.-> defense_fortifications
     defense_siege-warfare --> economics-organization_supply-chain
     defense --> chemistry_explosives
+    defense --> food-processing_canning
     defense -.-> foundations
     defense -.-> knowledge
     defense --> metals
@@ -50,7 +56,9 @@ graph TD
     class defense_siege-warfare capability
     class defense_weapons capability
     class chemistry_explosives external
+    class construction external
     class economics-organization_supply-chain external
+    class food-processing_canning external
     class foundations external
     class knowledge external
     class metals external

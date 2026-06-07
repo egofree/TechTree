@@ -89,8 +89,11 @@ mining_internal: "Mining Engineering & Extractive Metallurgy — Internal Struct
   mining_drilling: Mechanical Drilling
   mining_extraction_black-powder: Black Powder Explosives
   mining_extraction: Mining Extraction
+  mining_tailings-reprocessing: Tailings Reprocessing
   mining_processing: Ore Processing
   mining_prospecting: "Prospecting & Surveying"
+  mining_salt: Salt / Halite Production
+  mining_sulfur-extraction: Sulfur Extraction
   mining_ventilation: Mine Ventilation
 }
 
@@ -104,22 +107,28 @@ animals_draft-power: "Animal Draft Power & Harnessing" {
 ceramics_advanced-ceramics: "Advanced Ceramics & Refractories" {
   shape: rectangle
 }
-ceramics_lime: Lime Production {
-  shape: rectangle
-}
 chemistry_acids: Mineral Acid Production {
   shape: rectangle
 }
-chemistry_alkalis: Alkali Production {
-  shape: rectangle
-}
-chemistry_cement: "Cement & Concrete" {
+chemistry_electrolysis: Electrolysis {
   shape: rectangle
 }
 chemistry_explosives: Explosives and Propellants {
   shape: rectangle
 }
-chemistry_refractories: Refractory Materials {
+chemistry_explosives_black-powder: Black Powder Manufacture {
+  shape: rectangle
+}
+chemistry_explosives_detonation-blasting: "Detonation & Blasting Systems" {
+  shape: rectangle
+}
+chemistry_flux: Flux Production {
+  shape: rectangle
+}
+chemistry_phosphorus: Phosphorus and Phosphate Chemistry {
+  shape: rectangle
+}
+energy: Energy {
   shape: rectangle
 }
 energy_fuels: Fuel Production {
@@ -128,10 +137,13 @@ energy_fuels: Fuel Production {
 energy_fuels_coal: "Coal Mining & Combustion" {
   shape: rectangle
 }
-energy_fuels_coke: Coke Production {
+energy_hydraulics: Hydraulic Power {
   shape: rectangle
 }
 energy_steam-power: Steam Power {
+  shape: rectangle
+}
+food-processing: Food Processing {
   shape: rectangle
 }
 foundations: Foundations {
@@ -140,28 +152,25 @@ foundations: Foundations {
 foundations_tools-basic: "Stone & Wood Tools" {
   shape: rectangle
 }
-glass_basic: Basic Glass Production {
+knowledge_surveying: "Surveying & Cartography" {
   shape: rectangle
 }
 knowledge_writing: "Writing & Record-Keeping" {
   shape: rectangle
 }
+machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
 machine-tools_machining: Machining {
   shape: rectangle
 }
-metals: Metals {
-  shape: rectangle
-}
-metals_aluminum: Aluminum Production {
-  shape: rectangle
-}
-metals_copper-bronze: "Copper & Bronze Production" {
-  shape: rectangle
-}
-metals_non-ferrous: Non-Ferrous Metal Production {
+metals_iron-steel: "Iron & Steel Production" {
   shape: rectangle
 }
 metals_precious-metals: "Precious Metal Production (Gold & Silver)" {
+  shape: rectangle
+}
+metals_rare-earths: Rare Earth and Specialty Elements {
   shape: rectangle
 }
 petroleum: "Petroleum Extraction & Refining" {
@@ -182,30 +191,36 @@ mining_drilling -> mining: { class: tool-edge }
 mining_extraction_black-powder -> mining_extraction: { class: tool-edge }
 mining_extraction -> mining_prospecting: { class: tool-edge }
 mining_processing -> mining_extraction: { class: material-edge }
+mining_tailings-reprocessing -> mining_extraction: { class: material-edge }
+mining_tailings-reprocessing -> mining_processing: { class: tool-edge }
 mining_ventilation -> mining: { class: tool-edge }
 ceramics_advanced-ceramics -> mining: { class: material-edge }
-ceramics_lime -> mining: { class: material-edge }
+chemistry_acids -> mining_sulfur-extraction: { class: material-edge }
 chemistry_acids -> mining: { class: material-edge }
-chemistry_alkalis -> mining: { class: material-edge }
-chemistry_cement -> mining: { class: material-edge }
-chemistry_refractories -> mining: { class: material-edge }
-energy_fuels_coal -> mining: { class: material-edge }
-energy_fuels_coke -> mining: { class: material-edge }
-glass_basic -> mining: { class: material-edge }
-metals_aluminum -> mining: { class: material-edge }
-metals_copper-bronze -> mining: { class: material-edge }
-metals_non-ferrous -> mining: { class: material-edge }
+chemistry_electrolysis -> mining_salt: { class: material-edge }
+chemistry_explosives_black-powder -> mining_extraction: { class: tool-edge }
+chemistry_explosives_detonation-blasting -> mining: { class: tool-edge }
+chemistry_flux -> mining: { class: material-edge }
+chemistry_phosphorus -> mining: { class: material-edge }
+energy_fuels_coal -> mining_extraction: { class: material-edge }
+food-processing -> mining_salt: { class: material-edge }
 metals_precious-metals -> mining: { class: material-edge }
-metals -> mining: { class: material-edge }
+metals_rare-earths -> mining: { class: material-edge }
 mining_drilling -> energy_steam-power: { class: tool-edge }
 mining_drilling -> machine-tools_machining: { class: tool-edge }
 mining_extraction_black-powder -> chemistry_explosives: { class: material-edge }
 mining_extraction -> animals_draft-power: { class: tool-edge }
 mining_extraction -> foundations_tools-basic: { class: tool-edge }
+mining_extraction -> metals_iron-steel: { class: tool-edge }
 mining_processing -> energy_fuels: { class: tool-edge }
 mining_prospecting -> knowledge_writing: { class: tool-edge }
+mining_salt -> energy: { class: tool-edge }
+mining_tailings-reprocessing -> chemistry_acids: { class: material-edge }
+mining_tailings-reprocessing -> machine-tools: { class: tool-edge }
 mining_ventilation -> energy_steam-power: { class: tool-edge }
+mining -> energy_hydraulics: { class: tool-edge }
 mining -> foundations: { class: tool-edge }
+mining -> knowledge_surveying: { class: tool-edge }
 petroleum -> mining: { class: tool-edge }
 silicon_mg-si-production -> mining: { class: material-edge }
 transport_roads -> mining: { class: material-edge }
@@ -217,31 +232,36 @@ mining.class: domain
 mining_drilling.class: capability
 mining_extraction_black-powder.class: process
 mining_extraction.class: capability
+mining_tailings-reprocessing.class: capability
 mining_processing.class: capability
 mining_prospecting.class: capability
+mining_salt.class: capability
+mining_sulfur-extraction.class: capability
 mining_ventilation.class: capability
 animals_draft-power.class: external
 ceramics_advanced-ceramics.class: external
-ceramics_lime.class: external
 chemistry_acids.class: external
-chemistry_alkalis.class: external
-chemistry_cement.class: external
+chemistry_electrolysis.class: external
 chemistry_explosives.class: external
-chemistry_refractories.class: external
+chemistry_explosives_black-powder.class: external
+chemistry_explosives_detonation-blasting.class: external
+chemistry_flux.class: external
+chemistry_phosphorus.class: external
+energy.class: external
 energy_fuels.class: external
 energy_fuels_coal.class: external
-energy_fuels_coke.class: external
+energy_hydraulics.class: external
 energy_steam-power.class: external
+food-processing.class: external
 foundations.class: external
 foundations_tools-basic.class: external
-glass_basic.class: external
+knowledge_surveying.class: external
 knowledge_writing.class: external
+machine-tools.class: external
 machine-tools_machining.class: external
-metals.class: external
-metals_aluminum.class: external
-metals_copper-bronze.class: external
-metals_non-ferrous.class: external
+metals_iron-steel.class: external
 metals_precious-metals.class: external
+metals_rare-earths.class: external
 petroleum.class: external
 silicon_mg-si-production.class: external
 transport.class: external

@@ -89,6 +89,7 @@ health_internal: "Public Health, Sanitation & Medicine — Internal Structure" {
   health_diagnostics: Diagnostics
   health_medical-instruments: Medical Instrument Manufacturing
   health_medicine: "Medicine & Surgery"
+  health_nutrition: Nutrition
   health_occupational-health: "Occupational Health & Industrial Hygiene"
   health_pharmaceutical-production: Pharmaceutical Production
   health_pharmacology: Pharmacology
@@ -110,9 +111,6 @@ chemistry: Chemistry {
   shape: rectangle
 }
 chemistry_acids: Mineral Acid Production {
-  shape: rectangle
-}
-chemistry_ammonia: "Ammonia & Fertilizer Production" {
   shape: rectangle
 }
 chemistry_distillation: Distillation {
@@ -169,6 +167,7 @@ health_diagnostics -> health_medical-instruments: { class: tool-edge }
 health_diagnostics -> health: { class: tool-edge }
 health_medical-instruments -> health: { class: tool-edge }
 health_medicine -> health_sanitation: { class: tool-edge }
+health_nutrition -> health_diagnostics: { class: tool-edge }
 health_occupational-health -> health: { class: tool-edge }
 health_pharmaceutical-production -> health_pharmacology: { class: tool-edge }
 health_pharmaceutical-production -> health_sanitation: { class: tool-edge }
@@ -187,13 +186,14 @@ health_medical-instruments -> energy_steam-power: { class: tool-edge }
 health_medical-instruments -> metals_copper-bronze: { class: material-edge }
 health_medicine -> animals_beekeeping: { class: material-edge }
 health_medicine -> knowledge_writing: { class: tool-edge }
+health_nutrition -> chemistry: { class: tool-edge }
+health_nutrition -> food-processing: { class: tool-edge }
 health_occupational-health -> chemistry_acids: { class: material-edge }
 health_pharmaceutical-production -> chemistry_distillation: { class: tool-edge }
 health_pharmacology -> animals_beekeeping: { class: material-edge }
 health_pharmacology -> chemistry_distillation: { class: tool-edge }
 health_sanitation -> ceramics: { class: tool-edge }
 health_sanitation -> foundations_water-procurement: { class: material-edge }
-health -> chemistry_ammonia: { class: material-edge }
 health -> chemistry_soap: { class: material-edge }
 health -> chemistry_solvents: { class: material-edge }
 health -> chemistry: { class: material-edge }
@@ -208,6 +208,7 @@ health.class: domain
 health_diagnostics.class: capability
 health_medical-instruments.class: capability
 health_medicine.class: capability
+health_nutrition.class: capability
 health_occupational-health.class: capability
 health_pharmaceutical-production.class: critical
 health_pharmacology.class: capability
@@ -217,7 +218,6 @@ animals_beekeeping.class: external
 ceramics.class: external
 chemistry.class: external
 chemistry_acids.class: external
-chemistry_ammonia.class: external
 chemistry_distillation.class: external
 chemistry_soap.class: external
 chemistry_solvents.class: external

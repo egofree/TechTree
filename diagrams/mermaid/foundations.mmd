@@ -5,8 +5,10 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph foundations_internal ["Foundations — Internal Structure"]
         direction TB
+        foundations_carpentry["Basic Carpentry"]
         foundations_fire["Fire-Making"]
         foundations_food-agriculture["Agriculture & Food Production"]
+        foundations_sawmilling["Sawmilling & Timber Processing"]
         foundations_tools-basic["Stone & Wood Tools"]
         foundations_water-procurement["Water Procurement"]
     end
@@ -27,7 +29,9 @@ graph TD
     ceramics_pottery("Pottery & Clay Products")
     chemistry_alkalis("Alkali Production")
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
+    chemistry_lubricants-natural("Natural Lubricants: Animal Fats & Vegetable Oils")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
+    chemistry_potash("Potash Production")
     construction("Construction & Structural Engineering")
     construction_building-materials("Building Materials & Methods")
     defense("Defense & Military Engineering")
@@ -41,11 +45,13 @@ graph TD
     health_sanitation("Water Supply & Sanitation")
     knowledge("Knowledge Preservation & Education")
     knowledge_writing("Writing & Record-Keeping")
+    machine-tools("Machine Tools Bootstrap")
     machine-tools_forming("Metal Forming")
     marine("Marine & Naval Engineering")
     mathematics_core-mathematics("Core Mathematics")
     measurement_precision-metrology("Precision Metrology & Standards")
     metals("Metals")
+    metals_copper("Copper Production")
     metals_copper-bronze("Copper & Bronze Production")
     mining("Mining Engineering & Extractive Metallurgy")
     mining_extraction("Mining Extraction")
@@ -59,6 +65,7 @@ graph TD
     transport_roads("Road & Bridge Construction")
 
     %% ==================== EDGES ====================
+    foundations_carpentry -.-> foundations
     foundations_food-agriculture -.-> foundations_tools-basic
     foundations_water-procurement -.-> foundations_tools-basic
     foundations_water-procurement -.-> foundations
@@ -72,14 +79,18 @@ graph TD
     ceramics_pottery -.-> foundations_tools-basic
     ceramics -.-> foundations
     chemistry_alkalis --> foundations_fire
+    chemistry_lubricants-natural -.-> foundations
     chemistry_lubricants -.-> foundations
     chemistry_petroleum-alternatives -.-> foundations
+    chemistry_potash --> foundations
+    construction_building-materials --> foundations_sawmilling
     construction_building-materials -.-> foundations_tools-basic
+    construction --> foundations_carpentry
     construction -.-> foundations
     defense -.-> foundations
     economics-organization_division-of-labor --> foundations_food-agriculture
     economics-organization -.-> foundations
-    energy_fuels_charcoal -.-> foundations
+    energy_fuels_charcoal -.-> foundations_fire
     energy_fuels -.-> foundations_fire
     food-processing_oil-processing --> foundations_food-agriculture
     food-processing --> foundations_food-agriculture
@@ -94,15 +105,17 @@ graph TD
     knowledge_writing -.-> foundations_tools-basic
     knowledge -.-> foundations
     machine-tools_forming -.-> foundations_fire
+    machine-tools --> foundations_carpentry
     marine -.-> foundations
     mathematics_core-mathematics -.-> foundations
     measurement_precision-metrology -.-> foundations
     metals_copper-bronze --> foundations_fire
+    metals_copper --> foundations_fire
     metals -.-> foundations
     mining_extraction -.-> foundations_tools-basic
     mining -.-> foundations
     plants -.-> foundations_fire
-    polymers_rubber_natural -.-> foundations
+    polymers_rubber_natural -.-> foundations_fire
     polymers -.-> foundations
     telecom_pre-electric -.-> foundations
     textiles_fibers -.-> foundations_tools-basic
@@ -124,8 +137,10 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class foundations domain
+    class foundations_carpentry earlyWin
     class foundations_fire capability
     class foundations_food-agriculture capability
+    class foundations_sawmilling capability
     class foundations_tools-basic capability
     class foundations_water-procurement capability
     class agriculture_soil-management external
@@ -140,7 +155,9 @@ graph TD
     class ceramics_pottery external
     class chemistry_alkalis external
     class chemistry_lubricants external
+    class chemistry_lubricants-natural external
     class chemistry_petroleum-alternatives external
+    class chemistry_potash external
     class construction external
     class construction_building-materials external
     class defense external
@@ -154,11 +171,13 @@ graph TD
     class health_sanitation external
     class knowledge external
     class knowledge_writing external
+    class machine-tools external
     class machine-tools_forming external
     class marine external
     class mathematics_core-mathematics external
     class measurement_precision-metrology external
     class metals external
+    class metals_copper external
     class metals_copper-bronze external
     class mining external
     class mining_extraction external

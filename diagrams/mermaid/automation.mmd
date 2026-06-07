@@ -16,6 +16,7 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     computing("Computing & Automation")
+    computing_embedded-systems("Embedded Systems")
     electronics("Electronics")
     machine-tools("Machine Tools Bootstrap")
     quality-control("Quality Control & Statistical Process Control")
@@ -29,6 +30,7 @@ graph TD
     automation_process-control -.-> quality-control
     automation_wafer-handling -.-> machine-tools
     automation_wafer-handling -.-> vacuum
+    automation -.-> computing_embedded-systems
     automation -.-> computing
     automation -.-> electronics
 
@@ -52,6 +54,7 @@ graph TD
     class automation_process-control capability
     class automation_wafer-handling critical
     class computing external
+    class computing_embedded-systems external
     class electronics external
     class machine-tools external
     class quality-control external

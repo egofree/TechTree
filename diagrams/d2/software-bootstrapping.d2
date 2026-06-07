@@ -85,18 +85,52 @@ classes: {
 }
 
 # ==================== INTERNAL NODES ====================
-software-bootstrapping_internal: " — Internal Structure" {
+software-bootstrapping_internal: "Software Bootstrapping — Internal Structure" {
+  software-bootstrapping_assemblers: "Assemblers, Linkers & Loaders"
+  software-bootstrapping_compilers: Compiler Construction
+  software-bootstrapping_dev-tools: "Development Tools & Debugging"
+  software-bootstrapping_machine-code: "Machine Code & Front-Panel Programming"
+  software-bootstrapping_operating-systems: Operating System Construction
+  software-bootstrapping_self-hosting: Self-Hosting Compiler Bootstrap
 }
 
 # ==================== DOMAIN NODE ====================
-software-bootstrapping: 
+software-bootstrapping: Software Bootstrapping
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+computing: "Computing & Automation" {
+  shape: rectangle
+}
+knowledge_information-durability: Information Durability {
+  shape: rectangle
+}
+vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
+software-bootstrapping_assemblers -> software-bootstrapping_machine-code: { class: tool-edge }
+software-bootstrapping_compilers -> software-bootstrapping_assemblers: { class: tool-edge }
+software-bootstrapping_dev-tools -> software-bootstrapping_compilers: { class: tool-edge }
+software-bootstrapping_dev-tools -> software-bootstrapping_self-hosting: { class: tool-edge }
+software-bootstrapping_operating-systems -> software-bootstrapping_dev-tools: { class: tool-edge }
+software-bootstrapping_self-hosting -> software-bootstrapping_compilers: { class: tool-edge }
+computing -> software-bootstrapping_operating-systems: { class: tool-edge }
+software-bootstrapping -> computing: { class: tool-edge }
+software-bootstrapping -> knowledge_information-durability: { class: tool-edge }
+vlsi-scaling_eda-design -> software-bootstrapping: { class: tool-edge }
 
 # ==================== STYLING ====================
 software-bootstrapping.class: domain
+software-bootstrapping_assemblers.class: critical
+software-bootstrapping_compilers.class: critical
+software-bootstrapping_dev-tools.class: capability
+software-bootstrapping_machine-code.class: critical
+software-bootstrapping_operating-systems.class: critical
+software-bootstrapping_self-hosting.class: critical
+computing.class: external
+knowledge_information-durability.class: external
+vlsi-scaling_eda-design.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

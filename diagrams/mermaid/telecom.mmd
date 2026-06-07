@@ -17,6 +17,7 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     energy_electricity("Electricity Generation & Distribution")
+    energy_power-distribution("Transformer & Power Distribution")
     foundations("Foundations")
     glass("Glass")
     knowledge_writing("Writing & Record-Keeping")
@@ -44,6 +45,7 @@ graph TD
     telecom_telephone -.-> energy_electricity
     telecom_telephone --> metals
     telecom -.-> energy_electricity
+    telecom --> energy_power-distribution
     telecom --> glass
     telecom -.-> knowledge_writing
     telecom --> metals
@@ -71,6 +73,7 @@ graph TD
     class telecom_submarine-cables capability
     class telecom_telephone capability
     class energy_electricity external
+    class energy_power-distribution external
     class foundations external
     class glass external
     class knowledge_writing external

@@ -93,6 +93,7 @@ polymers_internal: "Polymers & Composites — Internal Structure" {
   polymers_rubber_shellac: Shellac Production
   polymers_rubber_synthetic: Synthetic Rubbers
   polymers_rubber_vulcanization: "Vulcanization & Hardness"
+  polymers_seals-gaskets: "Seals, Gaskets & Packing"
   polymers_thermoplastics: Thermoplastic Polymers
   polymers_thermosets: Thermosetting Polymers
 }
@@ -116,6 +117,9 @@ chemistry_petroleum-alternatives: "Petroleum & Alternative Chemistry" {
 computing_data-storage: Data Storage Systems {
   shape: rectangle
 }
+ehs_ppe: Personal Protective Equipment {
+  shape: rectangle
+}
 electronics_assembly: Electronics Assembly {
   shape: rectangle
 }
@@ -128,6 +132,12 @@ energy_storage: "Energy Storage & Diversification" {
 foundations: Foundations {
   shape: rectangle
 }
+foundations_fire: Fire-Making {
+  shape: rectangle
+}
+gas-handling: Gas Handling {
+  shape: rectangle
+}
 glass_fibers: Glass Fiber Production {
   shape: rectangle
 }
@@ -137,7 +147,13 @@ health: "Public Health, Sanitation & Medicine" {
 machine-tools: Machine Tools Bootstrap {
   shape: rectangle
 }
+machine-tools_forming: Metal Forming {
+  shape: rectangle
+}
 marine_infrastructure: "Maritime Infrastructure & Underwater Engineering" {
+  shape: rectangle
+}
+photolithography_fab-processes_cmp: "Chemical Mechanical Planarization (CMP)" {
   shape: rectangle
 }
 photolithography_resists-masks: "Photoresists, Masks & Lithography" {
@@ -154,21 +170,25 @@ telecom_submarine-cables: Submarine Cable Systems {
 polymers_composites -> polymers_thermosets: { class: material-edge }
 polymers_rubber_gutta-percha -> polymers_rubber: { class: tool-edge }
 polymers_rubber_shellac -> polymers_rubber: { class: tool-edge }
+polymers_rubber -> polymers_rubber_vulcanization: { class: tool-edge }
 chemistry_packaging-testing -> polymers_thermosets: { class: material-edge }
 computing_data-storage -> polymers_thermoplastics: { class: material-edge }
+ehs_ppe -> polymers: { class: tool-edge }
 electronics_assembly -> polymers_thermosets: { class: material-edge }
 electronics_electrical-systems -> polymers_thermoplastics: { class: material-edge }
 energy_storage -> polymers_rubber: { class: material-edge }
+gas-handling -> polymers_seals-gaskets: { class: tool-edge }
 health -> polymers_rubber: { class: material-edge }
 marine_infrastructure -> polymers_rubber_gutta-percha: { class: material-edge }
+photolithography_fab-processes_cmp -> polymers_thermosets: { class: material-edge }
 photolithography_resists-masks -> polymers_thermosets: { class: material-edge }
 polymers_composites -> glass_fibers: { class: material-edge }
 polymers_composites -> machine-tools: { class: tool-edge }
-polymers_rubber_natural -> foundations: { class: tool-edge }
+polymers_rubber_natural -> foundations_fire: { class: tool-edge }
 polymers_rubber_shellac -> chemistry_distillation: { class: material-edge }
 polymers_rubber_synthetic -> chemistry_petroleum-alternatives: { class: material-edge }
 polymers_rubber_synthetic -> chemistry: { class: material-edge }
-polymers_rubber_synthetic -> machine-tools: { class: tool-edge }
+polymers_rubber_synthetic -> machine-tools_forming: { class: tool-edge }
 polymers_thermoplastics -> chemistry_petroleum-alternatives: { class: material-edge }
 polymers_thermoplastics -> chemistry: { class: material-edge }
 polymers_thermoplastics -> machine-tools: { class: tool-edge }
@@ -188,6 +208,7 @@ polymers_rubber_natural.class: process
 polymers_rubber_shellac.class: process
 polymers_rubber_synthetic.class: process
 polymers_rubber_vulcanization.class: process
+polymers_seals-gaskets.class: capability
 polymers_thermoplastics.class: capability
 polymers_thermosets.class: capability
 chemistry.class: external
@@ -195,14 +216,19 @@ chemistry_distillation.class: external
 chemistry_packaging-testing.class: external
 chemistry_petroleum-alternatives.class: external
 computing_data-storage.class: external
+ehs_ppe.class: external
 electronics_assembly.class: external
 electronics_electrical-systems.class: external
 energy_storage.class: external
 foundations.class: external
+foundations_fire.class: external
+gas-handling.class: external
 glass_fibers.class: external
 health.class: external
 machine-tools.class: external
+machine-tools_forming.class: external
 marine_infrastructure.class: external
+photolithography_fab-processes_cmp.class: external
 photolithography_resists-masks.class: external
 telecom.class: external
 telecom_submarine-cables.class: external

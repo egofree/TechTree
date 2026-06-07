@@ -1,7 +1,7 @@
 # Elastomers in Semiconductor Equipment
 
 > **Node ID**: polymers.rubber.semiconductor-apps
-> **Domain**: Polymers & Composites
+> **Domain**: [Polymers & Composites](./index.md)
 > **Dependencies**: [`polymers.rubber`](rubber.md), [`polymers.synthetic`](synthetic.md), [`polymers.rubber.vulcanization`](rubber.vulcanization.md), [`chemistry.acids`](../chemistry/acids.md)
 > **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`gas-handling.vacuum`](../gas-handling/vacuum.md)
 > **Timeline**: Years 40-200+
@@ -180,6 +180,39 @@ Semiconductor fabrication equipment (steppers, scanners, electron microscopes, p
 | PVDF lining | 2-3 mm sheet | UPW and dilute acid pipe lining | Lower cost than PTFE, 140°C max |
 | NR isolation pads | Shore A 40-60 | Vibration isolation for equipment | Effective above 5-10 Hz |
 
+## Safety & Hazards
+
+- **Hydrofluoric acid (HF)**: HF burns are medical emergencies — even small exposures (<2.5% body surface area with 49% HF) can cause fatal systemic fluoride poisoning. HF penetrates skin without immediate pain; the fluoride ion chelates calcium and magnesium, causing hypocalcemia and cardiac arrhythmia. Apply calcium gluconate gel (2.5%) to any exposed skin immediately, then seek emergency medical care. Do not wait for pain to develop. Calcium gluconate must be stocked at all HF workstations before HF handling begins. For eye exposure: irrigate with water for 15 minutes minimum, apply calcium gluconate drops, seek immediate ophthalmological care. HF-resistant gloves: neoprene or NBR (not latex). FKM O-rings resist HF but the acid itself must be handled in dedicated HF fume hoods with acrylic or polycarbonate sash (HF etches glass).
+- **Concentrated nitric acid (HNO₃, >70%)**: Strong oxidizer — causes immediate severe burns (yellow skin staining from xanthoproteic reaction with skin proteins). Vapor is corrosive to respiratory tract; NO₂ fumes (brown gas) are toxic and cause delayed pulmonary edema. OSHA PEL for NO₂: 5 ppm ceiling. Store away from all organic materials — concentrated HNO₃ + organic solvents can result in violent decomposition or explosion. Handle in acid-resistant fume hood with face shield, acid-resistant apron, and NBR or neoprene gloves.
+- **Concentrated sulfuric acid (H₂SO₄, >95%)**: Causes severe thermal and chemical burns — the intense heat of dilution with tissue water deepens the burn. Always add acid to water (never water to acid — the exothermic reaction causes violent splattering). Density 1.84 g/cm³ — sinks through skin, delivering acid deeper than the surface contact area. Wear acid-resistant gloves (NBR), face shield, and chemical splash apron. In case of skin contact, flush with large amounts of water for 15+ minutes; do not attempt neutralization on skin — the heat of neutralization worsens the burn.
+- **NMP (N-methylpyrrolidone)**: Reproductive toxin — suspected of damaging fertility and unborn child (EU Regulation EC 1272/2008, H360D). Skin-penetrating solvent — NMBR gloves provide <10 minutes breakthrough time; use butyl rubber gloves for NMP handling. OSHA PEL: not established (voluntary REL 1 ppm from NIOSH). Use in ventilated areas. NMP is the primary solvent in photoresist strippers and wafer cleaning formulations.
+- **FKM/FFKM decomposition products**: When overheated above 300°C (e.g., in a plasma etch chamber or hot plate malfunction), fluoroelastomers decompose to release hydrogen fluoride (HF), carbonyl fluoride (COF₂), and perfluoroisobutylene (PFIB) — all toxic or lethal at low ppm concentrations. Never exceed the rated service temperature of elastomeric seals. If a seal has been exposed to temperatures above 300°C, treat it as a hazardous material — handle with HF-resistant gloves in a ventilated enclosure, and dispose as hazardous fluorinated waste.
+
+## O-Ring Installation Procedure
+
+**Principle**: Proper O-ring installation ensures the seal sits correctly in the gland without twisting, nicking, or cutting. Incorrect installation is the most common cause of premature seal failure in semiconductor equipment — a single nick or spiral twist creates a leak path that compromises vacuum integrity or chemical containment.
+
+**Prerequisites**: Correct O-ring size per gland specification (AS568 dash number or metric equivalent). Clean, dry O-ring and gland — no dust, fibers, metal shavings, or residual chemicals. Nitrile gloves (powder-free for cleanroom applications).
+
+**Materials**:
+- Replacement O-ring (correct material and size per specification — FKM for acid service, EPDM for UPW, FFKM for mixed chemical)
+- Cleanroom-compatible lint-free wipes (polyester knit, pre-wetted with IPA)
+- O-ring lubricant (compatible with process fluid — silicone grease for water/air service, PTFE paste for chemical service)
+
+**Procedure**:
+1. Remove the old O-ring from the gland using a plastic or wooden pick (never metal — it scratches the gland surface, creating leak paths). Inspect the old O-ring for failure mode: extrusion (gland clearance too large), compression set (hardened, no longer round), chemical attack (swollen, cracked, or tacky surface).
+2. Clean the gland with an IPA-wetted lint-free wipe. Inspect gland surfaces for scratches, corrosion, or pitting. A scratched gland will not seal regardless of O-ring quality — repair or replace the component.
+3. Inspect the new O-ring visually: no nicks, cuts, flash, or contamination. Measure cross-section diameter at 3 points with a micrometer — must be within ±0.08 mm of nominal.
+4. Apply a thin film of compatible lubricant to the O-ring. This prevents rolling and twisting during installation. For dry gas or vacuum service, a minimal amount is sufficient — excess lubricant contaminates the process.
+5. Place the O-ring into the gland by hand. Push it in with a rolling motion — do not stretch or pull it over sharp edges. For internal static seals: roll the O-ring into the groove from one side. For external face seals: press it evenly into the groove starting at one point and working around.
+6. Check that the O-ring sits flat in the groove without twists or spiral failure (a twisted O-ring will have a visible spiral line on the surface). Run a fingertip around the entire circumference to verify seating.
+7. Assemble the mating components. Tighten fasteners in a cross-pattern (diagonal sequence) to the specified torque. Uneven tightening distorts the gland and creates leak paths.
+
+**Calibration/Verification**:
+- Dimensional check: Measure O-ring cross-section (ID and OD) with a micrometer or optical comparator before installation. Target: within ±0.08 mm of AS568 specification.
+- Seal integrity test: After assembly, pressure-test the sealed joint at 1.5× working pressure for 10 minutes. Check for pressure drop (indicative of a leak) using a calibrated pressure gauge. For vacuum seals: evacuate to operating pressure and measure leak rate with a helium mass spectrometer leak detector. Target leak rate: <1 × 10⁻⁹ std cm³/s He for semiconductor vacuum seals.
+- Extractable verification (UPW service): For new EPDM seals in UPW systems, flush the installed system with UPW at 80°C for 72 hours. Collect effluent and analyze for TOC (<50 ppb) and metal ions (<1 ppb each per SEMI F57).
+
 ## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
@@ -205,4 +238,6 @@ Semiconductor fabrication equipment (steppers, scanners, electron microscopes, p
 - [Cleanrooms](../photolithography/cleanrooms.md) — cleanroom classification and standards
 - [Fab Processes](../photolithography/fab-processes.md) — semiconductor manufacturing overview
 
-[← Back to Polymers](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*

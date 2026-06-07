@@ -307,6 +307,6 @@ Once semiconductor manufacturing is available:
 - [Education](education.md) — literacy and knowledge transfer
 - [Chemistry](../chemistry/index.md) — paper production, preservation chemicals
 
+---
 
-
-[← Back to Knowledge](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*

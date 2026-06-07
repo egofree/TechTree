@@ -642,6 +642,6 @@ BeO substrates are safe in fired, monolithic form but **extremely hazardous as p
 - [Machine Tools](../machine-tools/index.md) — pressing, grinding, screen printing equipment
 - [Photolithography](../photolithography/index.md) — downstream use of ceramic substrates and PZT actuators
 
+---
 
-
-[← Back to Ceramics & Refractories](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*

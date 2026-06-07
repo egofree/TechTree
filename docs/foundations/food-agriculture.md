@@ -6,6 +6,17 @@
 > **Enables**: [`animals.poultry`](../animals/poultry.md), [`food-processing`](../food-processing/index.md), [`knowledge.writing`](../knowledge/writing.md)
 > **Timeline**: Years 0-10+
 > **Outputs**: food_surplus, grain, preserved_food
+> **Critical**: Yes — food surplus enables specialization, population growth, and all non-subsistence activities
+
+## Prerequisites
+
+Agriculture and food production depend on several enabling capabilities:
+
+- [Stone and wood tools](tools-basic.md) — digging sticks, hoes, sickles, and processing implements
+- [Soil management](../agriculture/soil-management.md) — composting, crop rotation, and soil fertility maintenance
+- [Edible plants](../plants/edible-plants.md) — knowledge of staple crops and wild food sources
+- [Beekeeping](../animals/beekeeping.md) — pollination services and honey production
+- [Pigs](../animals/pigs.md) and [rabbits](../animals/rabbits.md) — managed livestock for protein
 
 ## Agriculture & Food
 
@@ -262,6 +273,90 @@ Bee pollination increases crop yields 20-30%.
 - Harvest timing is weather-dependent: rain during the grain harvest (autumn) can ruin an entire year's crop in days
 - Labor bottleneck at harvest requires the entire community to participate — sickness or conflict during this period causes crop loss
 
+## Seed Selection and Saving
+
+Seed saving is the foundation of agricultural continuity. Without saved seed, each planting season requires new seed acquisition — a dependency that limits expansion and risks crop failure. A community that saves its own seed controls its own food supply.
+
+### Selection Methods
+
+Select seed from plants that exhibit the characteristics most valuable for the next generation:
+
+- **Vigor**: Choose the tallest, most robust plants. These carry genetic traits for strong growth under local conditions.
+- **Yield**: Select plants with the largest grain heads or most prolific fruiting. Count kernels per head as a selection criterion for grains.
+- **Disease resistance**: Mark plants that remained healthy while neighbors succumbed to disease. These carry natural resistance.
+- **Early maturity**: In short-season climates, select the earliest-maturing plants to develop varieties adapted to the local growing season.
+- **Drought tolerance**: In dry years, note which plants produced adequately on minimal water. Their offspring will carry drought-adaptation traits.
+
+### Processing and Storage
+
+1. **Mark selected plants** before harvest with colored cordage ties or stakes. Harvest these separately from the food crop.
+2. **Thresh and winnow** seed grain gently to avoid damage to the embryo. Winnowing in a light breeze separates chaff without cracking the seed coat.
+3. **Dry to 8-12% moisture content**. The bite test: a properly dried seed should crack audibly when bitten, not dent or feel chewy. Spread thin in the sun for 2-3 days or in a dry, ventilated area for 1-2 weeks. Turn daily.
+4. **Remove damaged and discolored seeds** by hand sorting. Damaged seeds harbor mold and insects that spread to the whole batch.
+5. **Store in sealed containers**: Clay pots with tight lids, woven baskets lined and sealed with clay, or underground pits sealed with clay caps. Keep cool, dry, and rodent-proof.
+6. **Viability testing**: Before planting season, germinate 20-30 seeds on a damp cloth. Count how many sprout within 5-7 days. Germination rate below 70% indicates the seed is aging and should be planted at higher density or supplemented with fresher seed.
+7. **Rotation of seed stock**: Use seed within 2-3 years for wheat and barley. Older seed has declining germination rates. Always save more seed than needed to account for germination loss.
+
+## Pest Management
+
+Pest damage can destroy an entire crop. Without synthetic pesticides, management relies on cultural practices, physical barriers, and biological controls.
+
+### Cultural Controls
+
+- **Companion planting**: Interplant aromatic herbs (garlic, wormwood, marigold, mint) among vegetable crops. Strong-scented plants confuse pest insects searching for their host crop by smell. The Three Sisters system (corn + beans + squash) combines nitrogen fixation, physical support, and living mulch that suppresses weeds.
+- **Trap cropping**: Plant a small patch of a preferred host crop at the field edge to attract pests away from the main crop. Monitor and destroy pests on the trap crop before they reproduce and spread.
+- **Crop timing**: Plant before or after peak pest emergence. Early planting lets crops establish before insect populations build. Late planting may miss the egg-laying period of certain pests.
+- **Sanitation**: Remove crop residues promptly after harvest. Many pests overwinter in plant debris. Plowing under or composting residues destroys their habitat.
+- **Variety diversity**: Plant multiple varieties of the same crop. Pests adapted to one variety may be less successful on another. Genetic diversity in the field is an insurance policy against pest adaptation.
+
+### Physical and Mechanical Controls
+
+- **Netting and barriers**: Woven cordage or split-reed mats draped over fruit bushes and young plants exclude birds and larger insects. Fine mesh barriers over seedling beds prevent flea beetle damage.
+- **Ash rings**: Spread wood ash in a ring around seedlings and young plants. Ash irritates soft-bodied pests (slugs, snails) and deters them from crossing. Reapply after rain.
+- **Hand picking**: Inspect plants regularly and remove pest insects by hand. Drop them into a bucket of soapy water. Labor-intensive but effective for small plots and high-value crops.
+- **Moats and barriers**: Dig shallow trenches filled with water or ash around grain storage platforms to exclude crawling insects and rodents.
+
+### Biological Controls
+
+- **Encourage predators**: Birds, lady beetles, lacewings, and spiders are voracious pest predators. Provide habitat (hedgerows, rock piles, bird houses) to support predator populations.
+- **Bacillus thuringiensis (Bt)**: A naturally occurring soil bacterium that produces proteins toxic to certain insect larvae (caterpillars, mosquito larvae). Can be applied as a spray when pest pressure is severe. Culture Bt from infected insect larvae found on plants.
+
+## Crop Rotation
+
+Crop rotation prevents soil depletion, breaks pest and disease cycles, and maintains long-term agricultural productivity. Without rotation, continuous monocropping depletes specific soil nutrients and allows pest populations specialized to that crop to build up unchecked.
+
+### Three-Field System
+
+Divide arable land into three equal sections. Rotate annually:
+
+| Year | Field A | Field B | Field C |
+|------|---------|---------|---------|
+| 1 | Grain (wheat, rye) | Legume (beans, peas, lentils, clover) | Fallow (rest or green manure) |
+| 2 | Legume | Fallow | Grain |
+| 3 | Fallow | Grain | Legume |
+
+Each field cycles through all three states over three years. Grain depletes nitrogen; legumes restore it through Rhizobium nitrogen fixation (40-80 kg N/ha); fallow allows organic matter accumulation and breaks pest cycles.
+
+### Four-Field System (Norfolk Rotation)
+
+A more intensive rotation that eliminates the fallow year:
+
+| Year | Field A | Field B | Field C | Field D |
+|------|---------|---------|---------|---------|
+| 1 | Wheat | Turnips/swedes | Barley/oats | Clover/grass |
+| 2 | Turnips/swedes | Barley/oats | Clover/grass | Wheat |
+| 3 | Barley/oats | Clover/grass | Wheat | Turnips/swedes |
+| 4 | Clover/grass | Wheat | Turnips/swedes | Barley/oats |
+
+The Norfolk rotation keeps all land in production every year. Root crops (turnips) break cereal disease cycles and provide winter animal feed. Clover fixes nitrogen and provides pasture. Grain crops follow nitrogen-fixing years. This system was the basis of the British Agricultural Revolution and increased food production dramatically without synthetic fertilizer.
+
+### Rotation Planning Principles
+
+- **Never follow a crop with a closely related crop**. Pests and diseases that attack one grain species often attack related species. Rotate between plant families, not just species.
+- **Alternate nitrogen-depleting and nitrogen-fixing crops**. Legumes (beans, peas, clover, lentils, vetch) host Rhizobium bacteria that fix atmospheric nitrogen into plant-available forms. A legume crop adds 40-80 kg nitrogen per hectare to the soil.
+- **Include a root crop in the rotation**. Root crops (turnips, potatoes, carrots) break up compacted soil at depth and interrupt the life cycles of cereal-specific root diseases.
+- **Green manure on fallow fields**. If a field must rest, plant it with clover, vetch, or rye and plow the green growth under before it sets seed. This adds organic matter and nitrogen rather than wasting the growing season.
+
 ## Cross-Domain Links
 
 - **[Animals → Domestication](../animals/domestication.md)** — Livestock species, housing, breeding
@@ -313,4 +408,5 @@ Bee pollination increases crop yields 20-30%.
 - [Poultry Farming](../animals/poultry.md) — egg and meat production enabled by agriculture
 - [Food Processing](../food-processing/index.md) — milling, brewing, and preservation
 
-[← Back to Foundations](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Foundations](./index.md) • [All Domains](../index.md)*

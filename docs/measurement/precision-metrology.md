@@ -2,7 +2,7 @@
 
 > **Node ID**: measurement.precision-metrology
 > **Domain**: [Measurement](./index.md)
-> **Dependencies**: [`foundations`](../foundations/index.md), [`machine-tools.casting`](../machine-tools/casting.md), [`metals`](../metals/index.md), [`optics.precision-instruments`](../optics/precision-instruments.md)
+> **Dependencies**: [`foundations`](../foundations/index.md), [`metals.casting`](../metals/casting.md), [`metals`](../metals/index.md), [`optics.precision-instruments`](../optics/precision-instruments.md)
 > **Enables**: [`quality-control.inspection-sampling`](../quality-control/inspection-sampling.md), [`silicon.crystal-growth`](../silicon/crystal-growth.md)
 > **Timeline**: Years 0-40+
 > **Outputs**: length_standards, mass_standards, timekeeping, precision_instruments, calibration_chain, electrical_standards
@@ -14,7 +14,7 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 ## Prerequisites
 
 - [Foundations](../foundations/index.md) — basic counting, arithmetic, and record-keeping
-- [Machine tools / Casting](../machine-tools/casting.md) — cast iron for surface plates and straightedges
+- [Metals / Casting](../metals/casting.md) — cast iron for surface plates and straightedges
 - [Metals](../metals/index.md) — steel for gauge blocks, invar for length standards
 - [Optics / Precision Instruments](../optics/precision-instruments.md) — interferometric measurement and optical flats
 
@@ -231,4 +231,6 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 - [Optics](../optics/index.md) — optical flats, precision instruments, interferometric testing
 - [Silicon Crystal Growth](../silicon/crystal-growth.md) — precision metrology in semiconductor manufacturing
 
-[← Back to Measurement](index.md)
+
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*

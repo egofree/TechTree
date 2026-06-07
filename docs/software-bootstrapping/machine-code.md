@@ -208,4 +208,6 @@ Once the bootstrap loader is toggled in and verified (24 bytes, ~10 minutes), it
 - [Assemblers, Linkers & Loaders](assemblers.md) — The next step: mnemonic representation replaces raw binary
 - [Operating System Construction](operating-systems.md) — The monitor program that replaces manual entry
 
-[← Back to Software Bootstrapping](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../index.md)*

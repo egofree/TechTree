@@ -76,7 +76,7 @@ Trade is an organizational capability. Physical inputs are minimal:
 
 ## Scaling to Multi-Party Trade
 
-6. **Identify trade intermediaries**: Some individuals naturally facilitate exchange — they know who has what and who needs what. Encourage these individuals to act as brokers. Brokers take a small commission (5-10% of trade value) in goods.
+6. **Identify trade intermediaries**: Some individuals naturally enable exchange — they know who has what and who needs what. Encourage these individuals to act as brokers. Brokers take a small commission (5-10% of trade value) in goods.
 
 7. **Establish trade routes**: When multiple communities trade regularly, standard routes emerge. Mark routes with waypoints, estimate travel times, and document hazards (bandits, river crossings, difficult terrain).
 
@@ -222,4 +222,6 @@ Trade networks grow in predictable stages as production complexity increases:
 - [Currency](./currency.md) — the standardized exchange medium that solves barter's limitations
 - [Supply Chain Coordination](./supply-chain.md) — the planned procurement that trade enables
 
-[← Back to Economics & Organization](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*

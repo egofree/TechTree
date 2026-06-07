@@ -267,6 +267,43 @@ The physical arrangement of gas storage affects both safety and operational effi
 | Mass flow controller reads 20–50% error on unknown gas | MFC calibrated for one gas (e.g., N₂) but measuring a different gas (e.g., He) without applying correction factor | Apply gas correction factor based on ratio of specific heats and thermal conductivities; recalibrate MFC for the actual process gas using a gravimetric primary standard |
 | Inert gas purge leaves O₂ above 1% after 3 volume changes | Dead zones or internal baffles causing poor mixing; purge inlet and outlet on same end of vessel | Reorient purge inlet and outlet to opposite ends of the vessel; install a diffuser on the inlet for turbulent mixing; continue purging to 7–10 volume changes for O₂ below 0.1% |
 
+## Decision and Implementation Framework
+
+This article surveys gas handling infrastructure as a conceptual guide. Per-section Strengths/Weaknesses blocks above provide detailed trade-offs.
+
+### C1: Decision Criteria
+
+Select gas handling approach based on required pressure, purity, and gas type:
+
+| Requirement | Connection Type | Sealing Method | Pressure Limit | When to Use |
+|---|---|---|---|---|
+| Low-pressure gas (<10 bar), non-toxic | NPT threaded + PTFE tape | Thread deformation + tape | 20 bar (steel) | Utility gas distribution, lab plumbing |
+| Medium pressure (10-50 bar) | Flanged (bolted gasket) | Compressed gasket (rubber, PTFE, copper) | 50+ bar | Industrial gas lines, chemical plants |
+| High pressure (50-200 bar) | Compression fittings (Swagelok-type) or welded | Ferrule compression on tube | 200+ bar | Cylinder systems, hydraulic lines |
+| Ultra-high purity (ppm impurities) | VCR or welded fittings | Metal gasket (OFHC copper, nickel) | 200+ bar | Semiconductor gas delivery |
+| Toxic / pyrophoric gas | Double-ferrule compression + gas cabinet | Positive-pressure cabinet with continuous monitoring | Per gas specification | AsH₃, PH₃, SiH₄, HF delivery |
+
+Key rule: Use NPT for non-critical applications. Switch to compression fittings when reliability matters. Use VCR or welded connections for semiconductor-grade purity.
+
+### C2: Implementation Steps
+
+1. **Establish basic piping**: Start with NPT-threaded steel pipe for air, water, and non-toxic gas distribution. Master pipe fitting, PTFE taping, and pressure testing.
+2. **Add compression capability**: Build or acquire a reciprocating piston compressor (1-10 bar). This enables gas cylinder filling and higher-pressure processes.
+3. **Build a gas purification train**: Install moisture removal (desiccant), particulate filtration (5 μm → 0.5 μm), and catalytic purification (for O₂/H₂O removal to ppm levels).
+4. **Install gas detection**: Deploy electrochemical sensors for toxic gases, catalytic bead sensors for flammable gases, and infrared sensors for CO₂. Alarm at 0.5× PEL.
+5. **Upgrade to high-purity distribution**: Replace NPT connections with compression fittings. Add point-of-use purifiers. Implement inert gas purging for line changes.
+6. **Deploy specialty gas cabinets**: For semiconductor process gases (dopants, etchants). Ventilated enclosures with automatic shutoff, continuous monitoring, and exhaust abatement.
+
+### C3: Gas Connection Type Trade-offs
+
+| Connection | Seal Reliability | Purity | Reusability | Cost | Best Application |
+|---|---|---|---|---|---|
+| NPT threaded | Moderate (sealant-dependent) | Low (outgassing from tape/dope) | Yes (re-tape each time) | Very low | Utility gas, water, non-critical |
+| Flanged | High (gasket-compressed) | Medium | Yes (replace gasket) | Low | Industrial process piping |
+| Compression (Swagelok) | High (ferrule bite) | Good | Partial (1-remake limit) | Medium | High-pressure, general lab |
+| VCR (metal gasket) | Very high | Excellent (metal-to-metal) | Yes (replace gasket) | High | Semiconductor UHP gas |
+| Welded | Highest (permanent) | Excellent (no seal) | No | High | Permanent high-purity lines |
+
 ## See Also
 
 - **[Vacuum Systems](vacuum.md)**: Low-pressure gas handling and vacuum pump technology
@@ -277,4 +314,5 @@ The physical arrangement of gas storage affects both safety and operational effi
 - **[Cylinder Filling](cylinder-filling.md)**: High-pressure cylinder filling and certification
 
 
-[← Back to Gas Handling](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*

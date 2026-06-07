@@ -2,11 +2,23 @@
 
 > **Node ID**: quality-control.inspection-sampling
 > **Domain**: [Quality Control](./index.md)
-> **Dependencies**: [`measurement.precision-metrology`](../measurement/precision-metrology.md), `quality-control`
+> **Dependencies**: [`measurement.precision-metrology`](../measurement/precision-metrology.md), [`quality-control`](./index.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 40-100+
 > **Outputs**: sampling_plans, aql_tables, inspection_procedures, acceptance_criteria, switching_rules
 > **Critical**: No — 100% inspection is a viable (expensive) fallback; sampling plans reduce cost and time but are not strictly necessary
+
+## Prerequisites
+
+Inspection and sampling plans require measurement infrastructure:
+
+- [Precision metrology](../measurement/precision-metrology.md) — calibrated instruments for dimensional, electrical, and visual measurement
+- [Quality control framework](./index.md) — organizational quality management system
+- [Statistical process control](statistical-process-control.md) — statistical methods underlying sampling theory
+
+## Safety
+
+No physical hazards — inspection is a measurement and analytical activity. When using optical instruments, ensure proper lighting and take breaks to prevent eye strain. When inspecting in production areas, follow site safety requirements (ESD precautions in electronics areas, chemical safety in wet process areas).
 
 
 Every manufactured part cannot be inspected 100% in volume production — the cost and time would be prohibitive. A 300 mm wafer may contain 100,000+ die; inspecting every die on every wafer through 500+ process steps is impossible. Acceptance sampling provides a statistically rigorous method to evaluate batch quality by inspecting a small, representative sample, accepting conforming lots and rejecting nonconforming ones. The challenge is designing sampling plans that reliably detect bad lots while minimizing the cost of inspection.
@@ -319,6 +331,5 @@ The foundational standard for integrated circuit testing, defining test methods,
 - [Measurement](../measurement/index.md) — instruments and calibration for inspection
 - [Optics](../optics/index.md) — optical inspection and microscopy
 
-
-
-[← Back to quality-control](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Quality Control & Statistical Process Control](./index.md) • [All Domains](../index.md)*

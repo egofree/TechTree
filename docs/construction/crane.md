@@ -8,11 +8,13 @@
 > **Outputs**: vertical_lifting, horizontal_reaching
 > **Critical**: Yes — overhead lifting is required for steel erection, heavy machinery installation, and all construction involving loads exceeding manual carry capacity (>100 kg)
 
-## Principle
+## Overview
 
 A crane combines a vertical mast, a horizontal or angled boom (jib), and a hoisting mechanism to lift and place heavy loads at distances beyond human reach. The boom acts as a lever: the load moment (load × radius from mast) is balanced by the crane structure and counterweight. A derrick crane uses guy ropes to stabilize the mast, while a jib crane uses a fixed or pivoting horizontal beam.
 
 Two fundamental constraints govern crane design: **tipping moment** (the load × radius must not exceed the stabilizing moment from counterweight and structure weight) and **structural capacity** (each member must carry its share of the load in compression or tension without buckling or yielding). A 5-tonne crane lifting at 6 m radius generates a 300 kN·m tipping moment — the mast, boom, guys, and anchorage must resist this without excessive deflection.
+
+Position in the dependency chain: the crane depends on [Hoist & Winch](./hoist-winch.md) for the lifting mechanism and on [Iron & Steel](../metals/iron-steel.md) for structural members. It enables [Industrial Buildings](./industrial-buildings.md) (steel erection, machinery installation) and [Metal Casting](../metals/casting.md) (lifting molds, pouring ladles). Without a crane, all heavy lifting relies on manual block-and-tackle and ramp systems — limited to loads under 200 kg on site.
 
 ## Prerequisites
 
@@ -21,7 +23,7 @@ Two fundamental constraints govern crane design: **tipping moment** (the load ×
 - [Steel fabrication](../metals/iron-steel.md) — cutting, welding, and bolting of structural members
 - [Structural engineering](./structural-engineering.md) — load calculations for boom, mast, and guys
 
-## Materials
+## Bill of Materials
 
 ### Guyed Derrick Crane (5-tonne capacity)
 
@@ -32,10 +34,10 @@ Two fundamental constraints govern crane design: **tipping moment** (the load ×
 | Guy ropes | 4-6 | 20-32 mm wire rope or manila, 15-30 m each | [Rope Making](../textiles/rope-making.md) | Steel rod tie-backs (less adjustable) |
 | Winch (hoisting) | 1 | 20-30 kN capacity, per [Hoist & Winch](./hoist-winch.md) | [Hoist](./hoist-winch.md) | Multiple hand-spliced tackles (slower) |
 | Block and tackle | 1 set | 4-6 fall, 30-50 kN capacity | [Hoist](./hoist-winch.md) | Direct rope to winch (no mechanical advantage) |
-| Turnbuckles | 4-6 | M20-M30, for guy rope tensioning | [Fasteners](../metals/fasteners.md) | Spanish windlass (timber lever twist — less precise) |
+| Turnbuckles | 4-6 | M20-M30, for guy rope tensioning | [Fasteners](../metals/steelmaking.md) | Spanish windlass (timber lever twist — less precise) |
 | Base plate and anchors | 1 set | 20-30 mm steel plate, 4-8 anchor bolts M24-M30 | [Iron & Steel](../metals/iron-steel.md) | Timber crib base (limited to ≈3 tonne) |
-| Boom foot pin | 1 | 30-40 mm steel rod, forged eye at each end | [Forging](../metals/forging.md) | Bolted flange (heavier, less articulation) |
-| Hook | 1 | Forged steel, swivel type, rated ≥50 kN | [Forging](../metals/forging.md) | Rope sling through load (slower, less secure) |
+| Boom foot pin | 1 | 30-40 mm steel rod, forged eye at each end | [Forging](../metals/forming.md) | Bolted flange (heavier, less articulation) |
+| Hook | 1 | Forged steel, swivel type, rated ≥50 kN | [Forging](../metals/forming.md) | Rope sling through load (slower, less secure) |
 
 ### Pillar-Mounted Jib Crane (1-tonne capacity)
 
@@ -48,7 +50,7 @@ Two fundamental constraints govern crane design: **tipping moment** (the load ×
 | Winch or chain hoist | 1 | 10-15 kN capacity | [Hoist](./hoist-winch.md) | Hand-spliced tackle |
 | Base plate | 1 | 25-30 mm steel plate, 400-500 mm square, with anchor bolts | [Iron & Steel](../metals/iron-steel.md) | Embedded in concrete foundation |
 
-## Construction Steps
+## Process Description
 
 ### Guyed Derrick Crane
 
@@ -70,6 +72,20 @@ Two fundamental constraints govern crane design: **tipping moment** (the load ×
 
 9. **Tension guy ropes**: Tighten all guy ropes using turnbuckles. Check mast plumb after tensioning each pair of opposing guys. Final plumb: ≤10 mm deviation at the top. Guy rope tension: taut enough that the guy does not sag more than 100 mm at mid-span under no load, but not so tight as to pre-compress the mast excessively.
 
+10. **Verify derrick operation**: Before first lift, hoist a test load of 25% of rated capacity (1,250 kg for a 5-tonne derrick) to 1 m height and hold for 5 minutes. Check all guy ropes for movement, mast plumb deviation, and anchor point settlement. Measure boom tip deflection: ≤L/200 of boom length. If all checks pass, proceed to the 125% load test described in Quality Control.
+
+**Strengths**:
+- High lifting capacity (3-5 tonnes) at a fraction of the weight of a rigid-frame crane
+- Can be erected with basic fabrication tools — no precision machining required beyond the boom foot pin
+- Adjustable guy rope angles allow setup on uneven ground
+- Boom can be swung manually through a wide arc for flexible load placement
+
+**Weaknesses**:
+- Large footprint — guy ropes extend 1.0-1.5× mast height from the base, requiring clear space around the crane
+- Not portable — setup and teardown require 4-8 hours with a crew of 4-6
+- Wind-sensitive — guy ropes transmit wind-induced oscillation to the mast; operations must cease above 40 km/h sustained wind
+- Manual slewing provides no precise positioning; load swing is difficult to control
+
 ### Pillar-Mounted Jib Crane
 
 10. **Fabricate the pillar**: Cut steel tube (150-200 mm diameter, 8-10 mm wall) to the required height (3-5 m). Weld a base plate (25 mm thick, 400 × 400 mm) to the bottom with 6-8 anchor bolt holes (M24). Weld a thrust bearing seat at the top: a flat ring (20 mm thick, matching the bearing outer diameter) centered and leveled within 0.5 mm.
@@ -82,19 +98,27 @@ Two fundamental constraints govern crane design: **tipping moment** (the load ×
 
 14. **Anchor the pillar**: Cast a reinforced concrete foundation (1.0 × 1.0 m, 0.8-1.2 m deep) at the crane location. Embed anchor bolts matching the pillar base plate. Grout under the base plate after plumbing the pillar to ensure full bearing. Pillar plumb: ≤5 mm per 3 m height.
 
-## Calibration and Verification
+15. **Verify jib crane operation**: Before first lift, hoist a test load of 50% of rated capacity (500 kg for a 1-tonne jib). Rotate the jib 360° with the load suspended. Check slewing friction, trolley travel smoothness, and jib tip deflection (≤L/200). If satisfactory, proceed to the 125% load test described in Quality Control.
 
-1. **Mast plumb (derrick)**: Check with plumb bob from mast top to base on two perpendicular faces. Deviation: ≤10 mm per 6 m. Adjust guy rope tension to correct.
+**Strengths**:
+- Small footprint — requires only a 1.0 × 1.0 m foundation; no guy ropes needed
+- 360° slewing allows load placement anywhere within the jib radius
+- Fast setup — 2-4 hours with 2 workers once the foundation is cured
+- Permanent installation suitable for workshops and warehouses — no teardown required
 
-2. **Boom angle range**: Verify the boom can swing through the full working arc (typically 180-270° for a guyed derrick) without guy rope interference. Check that the topping lift holds the boom at the design angle (30-60° from horizontal) without drift.
+**Weaknesses**:
+- Limited to 0.5-1.0 tonne capacity — cannot handle structural steel or heavy machinery
+- Fixed location — the pillar is bolted to a concrete foundation and cannot be moved
+- Jib reach limited to 3-5 m — inadequate for large construction sites
+- Trolley and hoist are manual; no powered horizontal travel
 
-3. **Load test — 25% overload**: For both crane types, lift 125% of rated load (6.25 tonnes for a 5-tonne derrick, 1.25 tonnes for a 1-tonne jib). Hold the load suspended for 5 minutes. Inspect all connections, guy ropes, welds, and anchorages for signs of distress (elongation, crackling sounds, visible deformation). Lower the load. Zero permanent deformation acceptable.
+15. **Pre-lift inspection**: Verify load weight does not exceed crane capacity at the planned working radius. Check all guy ropes and turnbuckles for damage — replace any rope with >10% broken wires. Inspect anchor points for movement or soil softening (after rain). Verify mast plumb within 10 mm per 6 m height. Check hoisting rope for wear, kinks, or bird-caging. Test the ratchet and pawl on the winch — it must hold the full load without slipping.
 
-4. **Boom deflection**: Under rated load, measure boom tip deflection with a tape or level. Maximum: L/200 of boom length. For a 10 m boom: ≤50 mm deflection.
+16. **Rig the load**: Attach the hook to the load using appropriate slings (wire rope, chain, or synthetic). Ensure the sling angle is ≥60° from horizontal — flatter angles multiply the sling tension. Attach two tag lines (light rope, 10-15 m) to opposite sides of the load for controlling swing.
 
-5. **Jib crane slewing friction**: Push the unloaded jib to rotate. Starting force: ≤50 N at 2 m from the pillar. Higher force indicates thrust bearing problems or misalignment.
+17. **Lift and place**: Hoist the load slowly. Guide the load with tag lines from outside the fall zone. Never stand or walk under a suspended load. Position the load over the placement point and lower gently. Ensure ground crew are clear before releasing the sling.
 
-## Expected Performance
+## Quantitative Parameters
 
 ### Guyed Derrick Crane
 
@@ -124,27 +148,22 @@ Two fundamental constraints govern crane design: **tipping moment** (the load ×
 | Foundation | 1.0 × 1.0 m × 0.8-1.2 m deep concrete |
 | Total weight (crane only) | 200-400 kg |
 
-## Strengths
+### Capacity vs. Radius Trade-off
 
-- Guyed derrick covers a large working area from a fixed mast — ideal for steel erection and heavy machinery installation
-- Jib crane provides 360° coverage in a workshop or loading dock — continuous rotation without re-rigging
-- Both designs use the same hoisting mechanism ([winch and tackle](./hoist-winch.md)) — interchangeable components
-- Simple construction from standard steel sections — no precision machining beyond the sheave pulleys and thrust bearing
+| Crane Type | Rated Capacity | Maximum Radius | Capacity at Max Radius |
+|------------|:--------------:|:--------------:|:----------------------:|
+| Pillar jib (1 tonne) | 1,000 kg | 5 m | 1,000 kg (full capacity at all radii) |
+| Guyed derrick (5 tonne) | 5,000 kg | 12 m | 2,000 kg (capacity drops with radius) |
+| Guyed derrick (5 tonne) | 5,000 kg | 6 m | 5,000 kg (rated at minimum radius) |
 
-## Weaknesses
+The load moment (load × radius) must not exceed the crane's rated moment. For the 5-tonne derrick rated at 300 kN·m: at 12 m radius, maximum load = 300/12 = 25 kN = 2,500 kg. At 6 m radius, maximum load = 300/6 = 50 kN = 5,000 kg. Always calculate the actual capacity for the working radius before lifting.
 
-- Guyed derrick requires large clear area for guy ropes — 1.0-1.5× mast height in all directions must be free of structures
-- Derrick slewing is manual and imprecise — swinging a 5-tonne load by pulling on a tag line requires skill and caution
-- Jib crane capacity is limited by the jib beam cantilever — higher capacity requires exponentially heavier jib sections
-- Both types are fixed in location — moving a derrick requires dismantling and re-rigging guys, anchors, and mast
+## Scaling Notes
 
-## Safety
-
-- **Load drop**: The primary hazard. Never stand or walk under a suspended load. Use tag lines to control swing from outside the fall zone. A 1-tonne load falling 5 m delivers 50 kJ — lethal.
-- **Tipping (derrick)**: If the load moment exceeds the guy rope stabilizing moment, the mast topples toward the load. Never exceed rated capacity at maximum radius. Use a load moment indicator (spring scale on the topping lift) if available.
-- **Guy rope failure**: A broken guy rope releases the mast, which falls in the direction of the failed guy. Inspect all guy ropes before each use. Replace any rope with visible damage. Keep guy rope paths clear — workers tripping over guys can dislodge turnbuckles.
-- **Structural failure**: Overloading the boom or jib causes buckling (compression) or yielding (tension). A collapsing boom drops the load and whips the hoisting rope, endangering anyone within the boom's arc. Never exceed rated load.
-- **Crane collision**: A swinging derrick boom can strike workers or structures. Establish an exclusion zone (boom length + 3 m radius) around the crane during operation. Only the operator and signal person should be inside this zone.
+- **0.5-1 tonne jib crane**: Workshop-scale. Handles machinery components, electric motors, gearboxes, and steel stock. Serves a single workstation. Minimum economic scale for any machine shop doing assembly work.
+- **3-5 tonne derrick**: Construction-site scale. Erects steel framing, lifts precast concrete elements, installs heavy equipment (boilers, generators). Requires 4-6 workers for setup (4-8 hours).
+- **10-20 tonne derrick**: Heavy industrial. Lifts large pressure vessels, bridge beams, and building columns. Requires proportionally heavier mast and boom sections — a 20-tonne derrick mast weighs 800-1500 kg and requires a 15-25 tonne concrete foundation.
+- **50+ tonne**: Requires purpose-built structural steel (built-up box sections, trussed booms). Beyond village-scale construction — represents a significant industrial investment.
 
 ## Troubleshooting
 
@@ -156,15 +175,41 @@ Two fundamental constraints govern crane design: **tipping moment** (the load ×
 | Jib crane difficult to slew | Thrust bearing dry, misaligned, or overloaded | Clean and grease bearing; check pillar plumb; reduce load to rated capacity |
 | Trolley sticks on jib | Debris on jib flange, rollers misaligned, flange bent | Clean jib track; realign rollers; straighten bent flange with hammer and block |
 | Rope jumps off sheave | Sheave groove worn, rope slack, side-pulling | Replace worn sheave; maintain rope tension during operation; never pull sideways on the boom tip |
+| Anchor bolts loose in concrete | Foundation too small, cyclic loading has cracked concrete, bolts too short | Torque bolts to specification; if concrete is cracked, pour a larger foundation with deeper embedment (minimum 500 mm for M24 bolts) |
+| Boom sagging under load | Boom undersized or damaged | Reduce load; inspect boom for dents or buckling; add cover plates to reinforce |
+| Topping lift rope stretching | Rope fiber creep under sustained tension, incorrect rope type | Use wire rope instead of fiber for topping lift; re-tension after first week of use; replace if stretch exceeds 5% of original length |
+| Base plate cracking (jib crane) | Foundation settling unevenly, repeated overloading, weld defect | Grout under base plate to restore full bearing; reduce loads to rated capacity; inspect welds with dye penetrant |
+
+## Safety
+
+- **Load drop**: The primary hazard. Never stand or walk under a suspended load. Use tag lines to control swing from outside the fall zone. A 1-tonne load falling 5 m delivers 50 kJ — lethal.
+- **Tipping (derrick)**: If the load moment exceeds the guy rope stabilizing moment, the mast topples toward the load. Never exceed rated capacity at maximum radius. Use a load moment indicator (spring scale on the topping lift) if available.
+- **Guy rope failure**: A broken guy rope releases the mast, which falls in the direction of the failed guy. Inspect all guy ropes before each use. Replace any rope with visible damage. Keep guy rope paths clear — workers tripping over guys can dislodge turnbuckles.
+- **Structural failure**: Overloading the boom or jib causes buckling (compression) or yielding (tension). A collapsing boom drops the load and whips the hoisting rope, endangering anyone within the boom's arc. Never exceed rated load.
+- **Crane collision**: A swinging derrick boom can strike workers or structures. Establish an exclusion zone (boom length + 3 m radius) around the crane during operation. Only the operator and signal person should be inside this zone.
+- **Wind**: Cease crane operations when sustained wind exceeds 40 km/h (Beaufort 6). Wind load on the boom and load adds unpredictably to the tipping moment. A 5-tonne derrick with a 10 m boom in 60 km/h wind experiences an additional 2-4 kN·m of overturning moment on the boom alone.
+- **Electrical contact**: Before erecting a crane, survey the site for overhead power lines. Maintain a minimum clearance of 3 m between any crane component (including load and hoist rope) and energized power lines up to 50 kV. Add 1 m clearance per additional 50 kV above that.
+- **Two-blocking**: When the hook block is hoisted into the boom tip sheave, the rope breaks and the load drops. Install a mechanical stop or anti-two-block device that prevents hoisting beyond the safe limit. Mark the hoist rope with a painted warning band 1 m below the maximum safe hoist height.
+
+## Quality Control
+
+- **Pre-lift inspection checklist**: Before each lift, verify: (1) load weight does not exceed crane capacity at the planned working radius, (2) all guy ropes and turnbuckles are undamaged, (3) anchor points show no movement or soil softening, (4) mast plumb is within 10 mm per 6 m height, (5) hoisting rope shows no wear, kinks, or bird-caging, (6) winch ratchet and pawl hold full load without slipping, (7) all personnel are outside the exclusion zone.
+- **Load test**: For both crane types, lift 125% of rated load (6.25 tonnes for a 5-tonne derrick, 1.25 tonnes for a 1-tonne jib). Hold suspended for 5 minutes. Inspect all connections, guy ropes, welds, and anchorages for signs of distress (elongation, crackling sounds, visible deformation). Lower the load. Zero permanent deformation acceptable.
+- **Boom deflection measurement**: Under rated load, measure boom tip deflection with a tape or level. Maximum: L/200 of boom length. For a 10 m boom: ≤50 mm deflection.
+- **Jib crane slewing friction**: Push the unloaded jib to rotate. Starting force: ≤50 N at 2 m from the pillar. Higher force indicates thrust bearing problems or misalignment.
+- **Wire rope inspection**: Discard wire rope when: >6 broken wires in any one rope lay (one complete spiral), >3 broken wires in one strand within one lay, diameter reduction >5% from new, or visible kinks, bird-caging, or core protrusion. See [Rope Making](../textiles/rope-making.md) for fiber rope discard criteria.
+- **Annual guy rope replacement**: Even if no damage is visible, replace fiber guy ropes annually (UV and weather degradation reduce strength 15-25% per year). Wire rope guys should be replaced every 3-5 years or immediately if corrosion pitting is visible on individual wires.
 
 ## Variations and Alternatives
 
+- **Gin pole**: The simplest crane — a single pole held vertical by guy ropes, with a block and tackle at the top. Lifts loads straight up; the load is then swung manually to position. Limited to ≈1 tonne and minimal radius, but requires almost no fabrication. A useful stepping stone before building a full derrick. See [Rope Making](../textiles/rope-making.md) for the required rigging lines.
+- **A-frame derrick**: Two legs forming an inverted V, with a crossbar at the top for the hoisting block. Self-supporting without guy ropes if the legs are spread wide enough. Used for vertical lifts in confined spaces where guy ropes are impractical.
 - **Guyed derrick vs. stiff-leg derrick**: A stiff-leg derrick replaces the guy ropes with two rigid inclined struts (legs) that resist the boom's overturning moment. Less area required (no guy rope footprint) but more complex to build and less adjustable.
 - **Pillar jib vs. wall-mounted jib**: A wall-mounted jib bolts to a building column or wall, eliminating the pillar and foundation. Limited to locations with sufficiently strong existing structure.
 - **Overhead traveling crane**: Runs on elevated runway beams along the building length. Highest capacity and most versatile crane type, but requires the building to be designed with crane runways from the outset (see [Industrial Buildings](./industrial-buildings.md)).
 - **Mobile crane (truck-mounted)**: Not a construction-site build — requires truck chassis, hydraulic cylinders, telescoping boom sections, and outriggers.
 
-## See Also
+## References
 
 - [Hoist & Winch](./hoist-winch.md) — the lifting mechanism used by all crane types
 - [Industrial Buildings](./industrial-buildings.md) — crane runway design and factory crane requirements
@@ -172,7 +217,8 @@ Two fundamental constraints govern crane design: **tipping moment** (the load ×
 - [Rope Making](../textiles/rope-making.md) — rope for hoisting lines and guy ropes
 - [Structural Engineering](./structural-engineering.md) — beam and column design for crane structures
 - [Iron & Steel](../metals/iron-steel.md) — structural steel for mast, boom, and jib
+- [Concrete Mixer](./concrete-mixer.md) — concrete for crane foundations
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Construction](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Construction](./index.md) • [All Domains](../index.md)*

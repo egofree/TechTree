@@ -225,4 +225,6 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 - [Composites](../polymers/composites.md) — materials for turbine blade construction
 - [Gravity & Water](gravity.md) — water power as complementary mechanical energy source
 
-[← Back to Energy](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

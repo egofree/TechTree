@@ -224,6 +224,31 @@ Steelmaking capability builds in stages, each requiring progressively more infra
 
 **Why steelmaking matters for bootstrapping**: Steel is the structural material of industrial civilization. Without it: no rails, no bridges, no pressure vessels, no machine tools, no automobiles, no ships, no high-rise buildings, no pipelines. Each stage of steelmaking development unlocks progressively more demanding applications — puddled steel for hand tools, Bessemer steel for rails and boilers, BOF + continuous casting for mass production, EAF + ladle refining for clean specialty grades. The steel plant is the heart of any industrial economy.
 
+## Selection Guide
+
+**Decision criteria — choosing steelmaking processes**:
+- Use **Bessemer/Thomas converter** for early-stage bulk steel from pig iron — air-blown, self-sustaining heat, 15-30 t/heat, 20 min cycle, but nitrogen pickup limits quality
+- Use **basic oxygen furnace (BOF)** for modern bulk steelmaking — 250-350 t/heat, 20 min blow, 70% of world production, nitrogen-free steel
+- Use **electric arc furnace (EAF)** for scrap-based steelmaking — 50-200 t/heat, 350-500 kWh/t, bypasses blast furnace, 30% of world production
+- Use **ladle furnace + vacuum degassing** for ultra-clean steel (line pipe, bearing steel, aerospace) — secondary metallurgy after BOF or EAF
+- Use **open-hearth** only as historical stepping stone — 8 hours per heat, now obsolete, replaced by BOF
+
+**Implementation steps — bootstrap steelmaking sequence**:
+1. **Stage 1**: Puddled steel from wrought iron — hand tools only, <1 t/day, quality varies
+2. **Stage 2**: Bessemer or early open-hearth — requires pig iron from blast furnace, reliable blower, basic refractories. 50-300 t/day. Choose based on ore chemistry: low-P ores suit acidic Bessemer; high-P ores require Thomas (basic) variant
+3. **Stage 3**: BOF + continuous casting — requires tonnage oxygen plant, water-cooled molds, precision hydraulics. 2,000-10,000 t/day
+4. **Stage 4**: EAF + ladle metallurgy — requires 30-50 MW electricity, graphite electrodes, vacuum degassing. For regions without coking coal, or for scrap-based production
+
+**Steelmaking route trade-offs**:
+
+| Route | Feed | Cycle Time | Heat Size | Energy | Capital | Steel Quality | Best For |
+|---|---|---|---|---|---|---|---|
+| Bessemer | Pig iron | 20 min | 15-30 t | None (self-sustaining) | Low | Moderate (N pickup) | Early bulk steel |
+| BOF | Pig iron + scrap | 20 min | 250-350 t | O₂ only | Very High | Excellent | Integrated steelworks |
+| EAF | 80-100% scrap | 40-60 min | 50-200 t | 350-500 kWh/t | High | Good (residuals) | Mini-mills, scrap recycling |
+| Open-hearth | Pig iron + scrap | 8 hr | 100-300 t | External fuel | Very High | Good | Obsolete (historical) |
+| Induction | 100% scrap | 30-60 min | 1-30 t | 500-700 kWh/t | Low-Medium | Good (clean melt) | Small batch, specialty |
+
 ## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
@@ -244,4 +269,4 @@ Steelmaking capability builds in stages, each requiring progressively more infra
 - [Refractories](../chemistry/refractories.md) — furnace linings
 - [Machine Tools](../machine-tools/index.md) — steel as the primary structural material for tools
 
-[← Back to Metals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

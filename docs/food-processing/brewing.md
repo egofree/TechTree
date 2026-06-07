@@ -4,6 +4,7 @@
 > **Domain**: [Food Processing](./index.md)
 > **Dependencies**: [`chemistry.petroleum-alternatives.fermentation`](../chemistry/fermentation.md), [`energy`](../energy/index.md)
 > **Enables**: None (leaf capability)
+> **Critical**: No — brewing produces beverages and some chemical feedstocks but is not on the critical technology path
 > **Timeline**: Years 0-25+
 > **Outputs**: beer, wine, spirits, industrial_ethanol, spent_grain, vinegar
 
@@ -298,6 +299,6 @@ Glucose → 2 ethanol + 2 carbon dioxide + energy (for yeast)
 - [Energy](../energy/index.md) — heat for mashing, boiling, distillation
 - [Health & Sanitation](../health/sanitation.md) — microbiology, food safety
 
+---
 
-
-[← Back to Food Processing](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*

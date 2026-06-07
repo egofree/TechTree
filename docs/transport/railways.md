@@ -211,12 +211,21 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 
 ## Materials
 
-- **Rails**: Wrought iron (early) or steel T-rails, 0.5-0.8% carbon, 0.8-1.3% manganese, 30-60 kg/m. Produced in iron/steel rolling mills.
-- **Sleepers (ties)**: Treated timber (creosote or tar), 2.4-2.7 m × 20-25 cm × 12-15 cm. Alternatively, concrete sleepers for longer service life.
-- **Ballast**: Crushed stone (granite, basalt, limestone), angular fragments 25-50 mm, 150-300 mm depth.
-- **Locomotive materials**: Steel boiler plate (firebox, tubes, barrel), copper or steel firebox, cast iron cylinder blocks, forged steel crankshafts, steel coupling rods.
-- **Rolling stock**: Steel I-beam and channel underframes, wood or steel body panels, cast iron brake shoes, steel coupler heads.
-- **Fuel**: Bituminous coal (25-30 MJ/kg) for steam locomotives. Water (treated for hardness) at 5-10 kg/HP/hour.
+| Component | Material | Specification | Quantity (per km) |
+|-----------|----------|---------------|--------------------|
+| Rails | Wrought iron (early) or steel T-rails | 0.5-0.8% C, 0.8-1.3% Mn, 30-60 kg/m, 5-10 m sections | 60-120 tonnes (both rails) |
+| Sleepers (ties) | Creosote-treated timber (or concrete) | 2.4-2.7 m × 20-25 cm × 12-15 cm | 1300-1700 (spaced 600-750 mm) |
+| Ballast | Crushed stone (granite, basalt, limestone) | Angular 25-50 mm, 150-300 mm depth | 1500-3000 m³ |
+| Fish plates | Steel | Bolted through rail web holes | ~200 (one per joint) |
+| Cut spikes | Iron/steel | L-shaped, driven into timber | 2600-3400 (2 per sleeper × 2 rails) |
+| Locomotive boiler | Steel plate, copper or steel firebox | Fire-tube, 0.7-1.5 MPa, 30-100 m² heating surface | — |
+| Locomotive cylinders | Cast iron blocks, forged steel crankshafts | 2 cylinders, 30-50 cm bore, 40-60 cm stroke | — |
+| Rolling stock frame | Steel I-beam and channel | 15-50 tonne capacity per car | — |
+| Rolling stock body | Wood planking or steel panels | Box, flat, tank, or passenger config | — |
+| Brake shoes | Cast iron | Continuous train brake (vacuum or air) | — |
+| Coupler heads | Cast steel (Janney knuckle) | Automatic mating | — |
+| Fuel (coal) | Bituminous coal | 25-30 MJ/kg | 20-40 tonnes/day (10 trains) |
+| Water (locomotive) | Hardness-treated water | 5-10 kg/HP/hour consumption | 3750-7500 L per 200 km run |
 
 ## Equipment
 
@@ -259,8 +268,6 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - [Coal](../energy/coal.md) — Locomotive fuel supply
 - [Machine Tools](../machine-tools/index.md) — Precision machining for locomotive components
 
+---
 
-
-
-
-[← Back to Transport](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Transportation & Logistics](./index.md) • [All Domains](../index.md)*

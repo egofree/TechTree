@@ -213,4 +213,6 @@ The development of currency requires [metals](../metals/index.md) for producing 
 - [Accounting](./accounting.md) — the record-keeping system that currency enables
 - [Division of Labor](./division-of-labor.md) — specialization creates the economic complexity that demands currency
 
-[← Back to Economics & Organization](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*

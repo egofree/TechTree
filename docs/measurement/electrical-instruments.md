@@ -222,6 +222,54 @@ Beyond the standard instruments listed above, several specialized measurements a
 | DMM resistance reading unstable | Dirty test lead contacts or low battery | Clean probe tips; replace battery; check lead resistance by shorting probes |
 | Ammeter reads zero with current flowing | Blown fuse in meter or open shunt resistor | Replace internal fuse; verify shunt resistor continuity; never measure voltage on current range |
 
+## Decision and Implementation Framework
+
+This article surveys electrical measurement instruments as a conceptual guide for selecting the right instrument for each measurement task.
+
+### C1: Decision Criteria
+
+Choose instrument type based on the quantity being measured and required accuracy:
+
+| Measurement | Instrument | Accuracy | When to Use |
+|---|---|---|---|
+| DC voltage (power circuits) | Analog voltmeter | ±1.5% of full scale | Quick checks, no battery needed |
+| DC voltage (electronics) | DMM (10 MΩ input) | ±0.5% | General-purpose; low circuit loading |
+| DC voltage (precision) | 4.5+ digit DMM or potentiometer | ±0.01-0.05% | Calibration, voltage references |
+| AC voltage (sine wave) | Average-responding DMM | ±1.0% | Clean utility power, audio |
+| AC voltage (distorted) | True-RMS DMM | ±1.0% | Variable-frequency drives, SMPS |
+| Current (mA range) | DMM internal shunt | ±1.0% | Low-current circuits |
+| Current (1-100 A) | External shunt + DMM | ±0.5% | Motor starting, power circuits |
+| Current (>100 A) | Current transformer + ammeter | ±1.0% | Industrial power distribution |
+| Resistance (1 Ω-10 MΩ) | DMM ohms function | ±0.5-2.0% | General component testing |
+| Resistance (precision) | Wheatstone bridge | ±0.01-0.05% | Calibration, standard resistors |
+| Resistance (insulation) | Megger (500-5000 V) | ±5% | Cable and winding insulation testing |
+| Waveform shape/timing | Oscilloscope | ±3% amplitude, ±2% time | Signal debugging, distortion analysis |
+| Frequency | Frequency counter | ±0.01% (TCXO timebase) | Oscillator calibration, alternator speed |
+
+Key decision rule: Use a DMM for all routine measurements. Add an oscilloscope when waveform shape matters. Add a Wheatstone bridge when resistance accuracy must exceed ±0.1%. Add a megger for any insulation test above 1 MΩ.
+
+### C2: Implementation Steps
+
+1. **Build galvanometer movements**: Start with D'Arsonval movements (50 μA and 1 mA FSD). These are the foundation of all analog instruments.
+2. **Construct multi-range voltmeters and ammeters**: Add multiplier resistors and shunts to galvanometer movements. Calibrate against a voltage reference.
+3. **Add a Wheatstone bridge**: Build a decade resistance box and ratio arms. Enables precision resistance measurement to ±0.01%.
+4. **Acquire or build a DMM**: A dual-slope integrating ADC with a voltage reference provides ±0.5% accuracy with 10 MΩ input impedance.
+5. **Build an oscilloscope**: Start with a 1-5 MHz bandwidth CRT scope for power and audio work. Upgrade to 20+ MHz for electronics.
+6. **Add specialized instruments**: Megger for insulation testing, frequency counter for oscillator calibration, wattmeter for power measurement.
+7. **Establish calibration chain**: Maintain a Weston standard cell (1.01864 V), precision resistors, and a crystal oscillator as primary references. Calibrate all instruments against these annually.
+
+### C3: Instrument Capability Trade-offs
+
+| Instrument | Accuracy | Bandwidth | Input Loading | Cost/Complexity | Best For |
+|---|---|---|---|---|---|
+| Analog voltmeter | ±1.5% | DC-100 Hz | 1-20 kΩ/V | Low | Quick power checks |
+| DMM (3.5 digit) | ±0.5% | DC-1 kHz | 10 MΩ | Moderate | General-purpose |
+| DMM (4.5+ digit) | ±0.05% | DC-100 kHz | 10 MΩ | High | Precision measurements |
+| Oscilloscope | ±3% | DC-100+ MHz | 1 MΩ / 10 MΩ | High | Waveform visualization |
+| Wheatstone bridge | ±0.01% | DC only | Null (zero loading) | Moderate | Precision resistance |
+| Megger | ±5% | DC only | High voltage source | Moderate | Insulation testing |
+| Frequency counter | ±0.01% | DC-100+ MHz | 1 MΩ | Moderate | Frequency measurement |
+
 ## See Also
 
 - [Precision Metrology](precision-metrology.md) — electrical standards, calibration infrastructure
@@ -232,4 +280,5 @@ Beyond the standard instruments listed above, several specialized measurements a
 - [Electromechanical Computing](../computing/electromechanical.md) — relay logic and early computer instruments
 - [Telecom / Radio](../telecom/radio.md) — RF measurement and signal detection
 
-[← Back to Measurement](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*

@@ -337,4 +337,6 @@ See [Paints, Coatings & Inks](coatings.md) for detailed galvanizing process para
 - [Electrical Systems](../electronics/electrical-systems.md) — insulated and sealed electronics
 - [Solvents](solvents.md) — solvent carriers for adhesives
 
-[← Back to Chemistry](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

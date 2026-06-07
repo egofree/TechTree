@@ -233,4 +233,6 @@ Damaged or obsolete photomask blanks can be reclaimed, reducing the cost of subs
 - [Semiconductors](../electronics/index.md) — IC manufacturing overview
 - [Inspection](../optics/inspection.md) — defect detection and surface quality standards
 
-[← Back to Glass](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*

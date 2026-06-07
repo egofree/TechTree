@@ -1,246 +1,201 @@
 # Wood Gasification
 
-> **Node ID**: chemistry.wood-gasification
+> **Node ID**: chemistry.petroleum-alternatives.wood-gasification
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`chemistry.petroleum-alternatives`](petroleum-alternatives.md), [`energy.charcoal`](../energy/charcoal.md)
-> **Enables**: [`energy.fuels`](../energy/index.md), [`chemistry.solvents`](solvents.md)
-> **Timeline**: Years 10-30
-> **Outputs**: producer_gas, charcoal, wood_tar
-> **Critical**: No — wood gasification provides fuel gas and chemical feedstocks from biomass but is superseded by coal and petroleum routes
+> **Dependencies**: See prerequisites
+> **Enables**: [`Petroleum & Alternative Chemistry`](petroleum-alternatives.md)
+> **Timeline**: Years 15-40
+> **Outputs**: producer_gas, syngas
+> **Critical**: No
 
+## Overview
 
-Wood gasification converts solid biomass (wood, agricultural waste) into a combustible gas mixture (producer gas) through partial combustion in a restricted-oxygen environment. The resulting gas — ~25% CO, ~10% H₂, ~60% N₂ — can power internal combustion engines and furnaces when petroleum is unavailable. The process also yields charcoal and wood tar as valuable byproducts. This is a pragmatic backup energy technology, not a primary industrial fuel, but critical during petroleum supply disruptions.
+Producer gas generation from biomass via shaft gasifier: partial combustion produces CO+H₂+N₂ mixture (~5-6 MJ/m³). Gas cleaning via water scrubbing, sawdust filter, cyclone. Can power internal combustion engines directly. Powered vehicles during WWII fuel shortages. Bridge technology before natural gas infrastructure.
+
+Wood gasification sits between complete combustion (excess air, products are CO₂ and H₂O) and pyrolysis (no air, products are charcoal, tar, and wood gas). By carefully limiting the air supply, the biomass is partially oxidized, providing the heat to drive endothermic reactions that convert the remaining solid carbon and volatile matter into combustible gases. The resulting producer gas contains carbon monoxide (15-25%), hydrogen (10-20%), methane (1-3%), carbon dioxide (8-12%), and nitrogen (50-55% from the air blast). The nitrogen dilution is the main drawback: it halves the heating value compared to oxygen-blown syngas (CO + H₂, ~11 MJ/m³).
+
+Primary outputs: `producer_gas`, `syngas`. Producer gas (air-blown) fuels internal combustion engines and industrial furnaces. Syngas (oxygen-blown or steam-blown, no nitrogen dilution) serves as a chemical feedstock for Fischer-Tropsch synthesis (methanol, synthetic diesel), ammonia production, and hydrogen extraction.
+
+During World War II, over a million European vehicles ran on wood gas when gasoline was unavailable. A vehicle-mounted gasifier consumed wood chips at roughly 1 kg per 2-3 km of driving, with a 20-40% power penalty compared to gasoline. The technology works. It is dirty, labor-intensive, and requires constant attention, but it converts biomass into mechanical power with no petroleum.
+
+The gas composition determines the engine tuning. Producer gas burns slower than gasoline, requiring 5-15 degrees more ignition advance. The lower heating value means larger fuel-air volumes must pass through the engine, requiring larger carburetor jets or mixer adjustments. The hydrogen component (10-20%) in the gas raises the flame speed and can cause engine knocking if the compression ratio is too high. Engines converted to producer gas typically run at compression ratios below 8:1 to avoid detonation.
 
 ## Prerequisites
 
-- [Petroleum Alternatives](petroleum-alternatives.md) — context for fossil fuel substitution strategies
-- [Charcoal](../energy/charcoal.md) — charcoal production knowledge and kiln technology
-- [Distillation](distillation.md) — fractional distillation of wood tar and creosote
+### Materials
 
-## Producer Gas
+- Wood chips or chunks (hardwood preferred, 10-20% moisture content, uniform size 3-8 cm)
+- Charcoal (alternative fuel: cleaner gas, simpler gasifier, but requires separate charcoal production)
+- Steel plate and pipe for gasifier body, fire tube, and gas piping
+- Refractory lining (firebrick or castable refractory) for the combustion and reduction zones
 
-**Composition**: ~25% CO (carbon monoxide), ~10% H₂ (hydrogen), ~60% N₂ (nitrogen from air), ~5% CO₂. Heating value ~5-6 MJ/m³ (low compared to natural gas at ~35 MJ/m³, but usable for engines and furnaces). The gas is a product of incomplete combustion — carbon reacts with limited oxygen to form CO rather than CO₂.
+### Equipment
 
-**Partial combustion chemistry**:
-- C + ½O₂ → CO + heat (exothermic — provides the thermal energy for gasification)
-- C + H₂O → CO + H₂ (endothermic water-gas reaction — add steam to enrich gas with hydrogen and increase heating value)
-- C + CO₂ → 2CO (Boudouard reaction — shifts equilibrium at high temperatures)
-- The net result is a combustible gas mixture that can power internal combustion engines and furnaces.
+- Welded steel gasifier vessel (updraft, downdraft, or fluidized bed design)
+- Gas cleaning train: cyclone separator, wet scrubber (water spray tower), fabric or sawdust filter
+- Blower or fan for draft (natural draft works for updraft gasifiers but limits output)
+- Internal combustion engine or burner modified for producer gas (larger jets, advanced timing)
 
-## Shaft Gasifier (Imbert-type downdraft)
+### Knowledge
 
-**Construction**: Cylindrical steel shaft, 0.3-1.0 m diameter × 1-3 m tall. Lined with refractory brick (withstand 1000-1200°C internal temperatures). Steel outer shell with air inlet nozzles (tuyeres) near the middle. Gas outlet at bottom. Ash grate at very bottom (cast iron, replaceable).
+- Gasifier zone physics: drying, pyrolysis, combustion, and reduction zones and their temperature profiles
+- Tar formation and cracking: understanding that tar condensation in engines causes carbon buildup and failure, and that downdraft gasifiers crack tars by passing gas through a hot charcoal bed at 1000°C+
+- Air-fuel ratio control: too much air burns the gas to CO₂; too little air quenches the gasifier
+- Gas composition analysis: using Orsat apparatus or portable gas analyzer to measure CO, H₂, CH₄, CO₂ proportions
 
-**[Zones](../glossary/zones.md)** (top to bottom):
-1. **[Fuel hopper](../glossary/fuel-hopper.md)** (top): Wood chips or charcoal loaded here. Dries as it descends. Seal against air ingress (gas must flow down, not out the top).
-2. **Drying zone**: 100-200°C. Moisture evaporates from fuel. Downward gas flow provides heat.
-3. **Pyrolysis zone**: 200-500°C. Volatile matter driven off as wood gas (tars, methane, other hydrocarbons). Char remains.
-4. **[Combustion zone](../glossary/combustion-zone.md)** (around tuyeres): 800-1200°C. Limited air blown in through nozzles. Char partially combusts — provides heat for upper zones.
-5. **[Reduction zone](../glossary/reduction-zone.md)** (below tuyeres): 800-1000°C. Hot char reacts with CO₂ and H₂O to produce CO and H₂. This is where the useful fuel gas is generated.
-6. **Ash grate**: Charcoal and ash collect here. Periodically shake or rotate grate to drop ash into ash pit. Maintain gas flow through bed.
+### Infrastructure
 
-**Fuel requirements**: Hardwood chips (2-5 cm pieces), charcoal, or coke. Moisture content <20% (wet fuel produces steam, cools the bed, reduces gas quality). Fuel consumption: ~1-2 kg wood per kWh of engine output. Gas production: ~2-3 m³ gas per kg of dry wood.
+- Covered fuel storage with good air circulation for natural wood drying (season 6-12 months to reach 15-20% moisture)
+- Concrete pad for gasifier installation with drainage for scrubber water
+- Chimney or flare stack for gas flaring during startup and shutdown
+- Access to welding and metalworking for gasifier construction and repair
 
-**Strengths**: Proven technology — over 1 million WWII vehicles ran on wood gas; operates on locally available biomass (energy independence); charcoal byproduct has multiple uses (metallurgy, water filtration, soil amendment); dual-fuel diesel operation gives 80-95% diesel displacement; no petroleum required.
+## Process Description
 
-**Weaknesses**: Producer gas has only 4-6 MJ/Nm³ heating value (vs 35 for natural gas — 6× lower); engine power derated to 40-60% of gasoline rating; tar is the primary operational problem — condenses in piping and destroys engines without multi-stage cleaning; fuel must be dried to <20% moisture and chipped to uniform 2-5 cm size; startup takes 10-20 minutes from cold.
+A downdraft (Imbert) gasifier is the most common design for engine fuel because it produces the cleanest gas. Air and fuel move downward together through four zones:
 
-## Gas Cleaning System
+**Drying zone (top, 50-100°C)**: Fresh wood enters at the top. Heat from rising gases (in an updraft design) or from the zones below evaporates residual moisture. Wood above 25% moisture quenches the reduction zone and produces excessive tar. Fuel must be pre-dried.
 
-Producer gas contains tars, particulates, and water that will destroy engines quickly. Multi-stage cleaning required:
+**Pyrolysis zone (200-500°C)**: The dried wood thermally decomposes, releasing volatile organic compounds (tars, creosote, light hydrocarbons) and leaving a charcoal residue. In a downdraft gasifier, these volatile tars are carried downward into the hot zones rather than escaping directly into the product gas.
 
-1. **Cyclone separator**: Gas enters tangential cyclone chamber. Centrifugal force throws heavy particles (ash, char dust) to outer wall. Particles slide down to collection hopper. Removes particles >10 μm. No moving parts, no consumable media.
-2. **Water scrubber**: Gas bubbled through water tank (or sprayed with water in packed column). Dissolves water-soluble tars and ammonia. Cools gas to near-ambient temperature. Removes fine particulates. Water must be circulated and periodically replaced (tar-laden water is a disposal issue — contains phenols and creosotes).
-3. **Sawdust or charcoal filter**: Gas passes through packed bed of fine sawdust or activated charcoal. Final polishing — removes remaining tars, fine particulates, and mist. Filter media replaced when saturated (color changes, pressure drop increases). Typically 30-60 cm deep bed in sealed steel container.
-4. **Water trap / drip leg**: Low point in gas line where condensed moisture collects. Drain periodically. Essential to prevent water from entering engine carburetor.
+**Combustion zone (1000-1200°C)**: A limited air supply is introduced at the throat (the narrowest section). Part of the charcoal burns, providing the heat that drives all the endothermic reactions. The primary reactions are C + O₂ → CO₂ (complete combustion) and 2C + O₂ → 2CO (partial combustion). The combustion zone is deliberately restricted to concentrate heat in a small volume.
 
-## Engine Conversion
+**Reduction zone (800-1000°C)**: Below the combustion zone, hot gases pass through a deep bed of glowing charcoal. Two key endothermic reactions convert combustion products to fuel gas: the Boudouard reaction (CO₂ + C → 2CO, absorbs heat) and the water-gas reaction (H₂O + C → CO + H₂, absorbs heat). The gas exits the reduction zone at 600-800°C and passes into the gas cleaning system.
 
-Internal combustion engines can run on producer gas with modifications:
+An updraft gasifier reverses the air flow direction. Air enters from the bottom; fuel enters from the top and moves down by gravity. The gas exits from the top, passing through the drying and pyrolysis zones on its way out. This means tar vapors from pyrolysis are carried directly into the product gas without passing through a hot cracking zone. Updraft gasifiers produce gas with tar content 10-50 g/m³, compared to 0.1-1 g/m³ for downdraft designs. Updraft gas is suitable for direct combustion (boilers, kilns) but requires extensive cleaning for engine use.
 
-- **Compression ratio reduction**: Producer gas has octane equivalent ~70-100 (high anti-knock). BUT gas has lower energy density than gasoline — engine produces ~40-60% of rated gasoline power. Enrich fuel-air mixture (larger carburetor jet or gas mixer). Common approach: dual-fuel system (start on gasoline, switch to producer gas once gasifier is hot and producing clean gas).
-- **Gas-air mixer**: Replace carburetor with gas-air mixing valve. Simple butterfly valve controls gas flow into air intake. Adjustable to achieve correct air-fuel ratio (lean mixture for producer gas — ~1.1:1 air-to-gas ratio by volume for best power).
-- **Ignition timing**: Advance ignition timing 5-10° (producer gas burns slower than gasoline — needs more advance for optimal combustion). Adjust by trial — advance until light knocking, then retard 2-3°.
-- **Valves**: Producer gas contains no liquid fuel to lubricate valves. Install hardened exhaust valve seats (stellite or equivalent). More frequent valve maintenance.
-- **Power output**: Expect 40-60% of gasoline-rated power. Derate vehicle payload and speed accordingly. A 40 HP gasoline engine produces ~16-24 HP on producer gas.
+Gas cleaning is essential for any engine application. Raw producer gas carries three contaminant classes: tars (condensable organic compounds that deposit as carbon in engine intake systems), particulates (ash, char fines, and soot that abrade cylinder walls), and moisture (reduces heating value and promotes corrosion). The cleaning train typically starts with a cyclone separator (centrifugal force throws particulates outward to the wall, where they fall to a collection bin). Next, a wet scrubber (the gas bubbles upward through a water spray or packed bed, where water dissolves tars and captures fine particles). Finally, a fabric or sawdust filter removes the last traces of particulates. For tar elimination rather than mere capture, a catalytic cracker (hot dolomite or nickel catalyst at 800-900°C) decomposes tars into simpler non-condensable gases (CO, H₂, CH₄), converting the problem contaminant into additional fuel.
 
-## WWII Applications
+### Step-by-Step Procedure
 
-- **Vehicle gasifiers**: Over 500,000 vehicles in Europe converted to wood gas during WWII petroleum shortages. Gasifier mounted on trailer or vehicle rear. Typical range: 50-100 km per fueling (wood load). Refueling: 20-30 minutes to load wood and restart gasifier.
-- **Stationary power**: Generator sets, water pumps, and industrial machinery converted to producer gas. Wood gasification extended industrial output despite fuel embargo.
-- **Lessons**: Reliability requires disciplined maintenance (clean gas filter, drain water traps, shake ash grate). Startup time: 10-20 minutes to get clean gas from cold start. Carry gasoline for cold-start assistance. Cold weather operation difficult — gas quality suffers below -10°C.
+1. Prepare fuel: cut wood to uniform chunks (3-8 cm for downdraft gasifiers, 5-15 cm for updraft). Dry to below 20% moisture (seasoned wood or kiln-dried). Sort out oversized pieces and fines (fines block airflow; oversized pieces bridge and create voids).
+2. Charge the gasifier: fill the hopper with prepared fuel. For a cold start, place kindling and a small amount of charcoal in the combustion zone to establish the fire quickly.
+3. Ignite and establish the gasifier: light the kindling through the ignition port. Turn on the draft fan (or open the natural draft damper). White smoke (steam and volatiles) appears first. After 5-10 minutes, the smoke clears and the gas becomes combustible (test by flaring at the flare stack). Never start a gasifier with the engine connected; flare until gas quality stabilizes.
+4. Connect to the load (engine or burner) once gas is consistently flammable. Monitor gasifier outlet temperature: 400-600°C indicates good reduction zone performance. Below 300°C suggests the reduction zone is too cool (incomplete cracking, high tar).
+5. Operate by maintaining the fuel level (refill hopper before it empties completely; an empty hopper lets air into the gas system, creating an explosion risk). Adjust air supply to maintain even combustion. Shake the grate periodically to clear ash buildup.
+6. Shut down by closing the air supply and disconnecting the engine. Allow the gasifier to cool with the lid open. Never seal a hot gasifier; residual char can continue producing CO, pressurizing the vessel. Flare any remaining gas during cooldown.
+7. After shutdown and cooling, clean the grate and remove accumulated ash. Inspect the throat and reduction zone for clinker formation (ash that has melted and fused into hard lumps). Clinkers indicate excessive temperature in the combustion zone, possibly from too much air or low-ash-point fuel. Remove clinkers mechanically before the next run; they block gas flow and create hot spots that damage the fire tube.
 
-## Charcoal Production
+### Process Parameters
 
-**Batch retort**: Iron or steel cylinder (1-2 m diameter × 2-4 m long), loaded with hardwood billets. Seal. Heat externally (burn wood waste or previous batch gas). Internal wood pyrolyzes: releases volatile gases (burned to heat retort — self-sustaining after initial heating), leaves charcoal. Temperature 400-600°C. Time: 12-24 hours. Cool before opening (charcoal ignites spontaneously when hot and exposed to air). Yield: 25-35% charcoal by weight.
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Gasification temperature (combustion zone) | 1000-1200°C | Below 900°C, tar cracking is incomplete |
+| Reduction zone temperature | 800-1000°C | Below 700°C, CO₂ reduction to CO stalls |
+| Air/fuel ratio | 0.25-0.35 kg air per kg wood (dry basis) | Too much air: gas becomes CO₂-rich, heating value drops. Too little: gasifier quenches. |
+| Fuel moisture content | Below 20% (wet basis) | Above 25%, steam quenches the reduction zone and tar production spikes |
+| Gas heating value (producer gas) | 4.5-6.5 MJ/Nm³ | Compared to 35-40 MJ/Nm³ for natural gas |
+| Gas heating value (syngas, O₂-blown) | 10-14 MJ/Nm³ | No nitrogen dilution |
+| Engine power derating on producer gas | 20-40% vs. gasoline | Lower heating value and slower burn rate. Advance ignition timing 5-15° to compensate. |
 
-**[Earth kiln](../glossary/earth-kiln.md)** (simpler, lower technology): Stack wood in mound, cover with earth and straw, light through air vents at base. Controlled burn with limited oxygen. Quench by sealing vents when done. Yield: 15-25% charcoal. Lower quality control than retort but no steel vessel required.
+## Safety Considerations
 
-## Gasification Chemistry
+Carbon monoxide is the primary killer in wood gasification. Producer gas contains 15-25% CO, a colorless, odorless gas that binds to hemoglobin 200-300 times more strongly than oxygen. At 200 ppm in air, CO causes headache and dizziness after 2-3 hours. At 1000 ppm, it causes unconsciousness within an hour. At 10,000 ppm (1%), it is lethal within minutes. A gasifier operating in an enclosed space without ventilation is a death trap.
 
-Wood gas (producer gas) is generated by partial combustion of biomass in a restricted air supply. The gasifier is a chemical reactor performing multiple simultaneous reactions:
+- **CO poisoning**: The insidious hazard. Workers may not realize they are being exposed until symptoms appear. Never operate a gasifier indoors without forced ventilation and a CO detector at breathing height. If someone complains of headache, dizziness, or nausea near a gasifier, evacuate them to fresh air immediately. CO symptoms improve rapidly with fresh air but reappear if exposure resumes.
+- **Gas explosion**: Producer gas is flammable at 15-70% concentration in air. Gasifier startup and shutdown are the highest risk periods, when air and gas mix in the system. Always flare gas during startup before connecting to the engine. Never open the fuel hopper while the gasifier is under positive pressure (the gas-air mixture can flash back).
+- **Burns**: The gasifier shell reaches 200-400°C on the outside. The combustion zone is above 1000°C. Ash removal involves handling hot material. Use long-handled tools for grate shaking and ash removal.
+- **Scrubber water contamination**: The wet scrubber produces contaminated water containing dissolved tars, phenols, and ammonia. This water is toxic to aquatic life. Do not discharge to waterways. Recirculate scrubber water and replace when it becomes too contaminated to absorb effectively.
+- **Charcoal dust and ash**: Dry ash from the grate and charcoal fines are respiratory irritants. The ash is alkaline (contains K₂O, CaO) and can cause eye and skin irritation. Wet down ash before removing it from the gasifier to suppress dust.
 
-**[Drying zone](../glossary/drying-zone.md)** (100-200°C): Moisture evaporates from wood. Fresh wood (30-60% moisture) should be dried below 20% for efficient gasification — otherwise combustion energy wastes on evaporation. Air-dried wood reaches ~15-20% moisture.
+### Personal Protective Equipment
 
-**[Pyrolysis zone](../glossary/pyrolysis-zone.md)** (200-500°C): Thermal decomposition of wood in the absence of oxygen. Produces: charcoal (solid carbon, 20-30% of dry wood mass), tar vapors (condensable organics — methanol, acetic acid, acetone, creosote), and non-condensable gases (CO, CO₂, CH₄, H₂). Tar is the primary operational problem in gasifiers — condenses in downstream piping, fouls engines. Tar content in raw producer gas: 10-100 g/Nm³ (must be reduced to <0.1 g/Nm³ for internal combustion engines).
+- Leather gloves (welding gauntlets) for fuel handling, grate shaking, and ash removal
+- Safety glasses with side shields (gasifier blowbacks spray hot ash and sparks)
+- Flame-resistant clothing (no synthetic fabrics that melt onto skin)
+- CO detector badge clipped to the collar when working near an operating gasifier
+- Hearing protection if operating an engine driven by producer gas (engine noise plus blower)
 
-**[Combustion zone](../glossary/combustion-zone.md)** (800-1200°C): Char and volatile gases react with limited oxygen (sub-stoichiometric air supply, typically 20-40% of full combustion air). C + O₂ → CO₂ (exothermic, provides heat for endothermic reactions). Some char: CO₂ + C → 2CO (Boudouard reaction). Water-gas reaction: C + H₂O → CO + H₂ (endothermic). Water-gas shift: CO + H₂O → CO₂ + H₂ (exothermic). Methanation: C + 2H₂ → CH₄ (exothermic, minor at atmospheric pressure).
+### Emergency Procedures
 
-**[Reduction zone](../glossary/reduction-zone.md)** (700-1000°C): CO₂ and H₂O from combustion zone react with hot charcoal: CO₂ + C → 2CO (endothermic, requires hot charcoal bed). H₂O + C → CO + H₂ (endothermic). These are the key producer-gas-forming reactions. Gas quality depends on: temperature (higher → more CO, less tar), charcoal bed depth (longer residence time → more complete reduction), and moisture content of fuel (some steam benefits gas quality via water-gas reaction; too much cools the bed).
+- **CO exposure symptoms (headache, dizziness, nausea, confusion)**: Move the affected person to fresh air immediately. Do not let them walk unaided (collapse risk). If unconscious, call for medical help and begin rescue breathing. Recovery is usually rapid with fresh air, but severe exposure requires oxygen therapy. Anyone who has lost consciousness from CO exposure should receive medical evaluation, as delayed neurological effects can appear hours later.
+- **Gasifier flashback**: A backfire through the ignition port or fuel hopper is alarming but usually self-extinguishing. Close the air supply. Do not stand over the hopper during startup. Keep the ignition port closed after lighting.
+- **Gas leak fire**: Shut off the air supply to the gasifier (starves the reaction). Isolate the gasifier from the engine with a shutoff valve. Do not attempt to extinguish a gas fire at the leak point; let it burn until the gasifier is isolated and the gas burns off.
+- **Scrubber water spill**: Contain with sand or earth. Do not flush into drainage. Collect contaminated material for proper disposal. The water contains phenols and dissolved organics that contaminate groundwater.
 
-**[Typical producer gas composition](../glossary/typical-producer-gas-composition.md)** (downdraft gasifier, dry wood): CO 18-22%, H₂ 15-20%, CH₄ 2-4%, CO₂ 8-12%, N₂ 45-55% (from air), trace tars. Heating value: 4.5-6.0 MJ/Nm³ (vs 35-40 MJ/Nm³ for natural gas — producer gas is low-energy but adequate for internal combustion engines).
+## Quality Control
 
-## Gas Cleaning — Detailed Design
+### Acceptance Criteria
 
-**Cyclone separator**: First stage — removes particles >5 µm by centrifugal force. Gas enters tangentially at 10-20 m/s, particles flung to wall and collected in hopper. Efficiency: 80-95% for >10 µm particles. Must be well-insulated to prevent tar condensation inside — tar-laden dust forms hard deposits that are extremely difficult to remove.
+- **Producer Gas**: CO content 15-25%, H₂ content 10-20%, CH₄ content 1-3%, CO₂ content 8-12%. Tar content below 50 mg/Nm³ for engine use (downdraft with cleaning). Particulate matter below 10 mg/Nm³. Heating value 4.5-6.5 MJ/Nm³.
+- **Syngas (O₂-blown)**: CO + H₂ content above 80%. CO₂ below 10%. CH₄ below 3%. Tar below 10 mg/Nm³. Heating value 10-14 MJ/Nm³.
 
-**Wet scrubber (packed tower)**: Gas flows upward through a bed of packing material (ceramic saddles or plastic rings) while water flows downward. Removes particles <5 µm and some water-soluble tars. Water-gas contact area: 100-200 m² per m³ of packing. Water circulation rate: 5-10 L/Nm³ gas. Effluent water contaminated with tars, phenols, and fine char — requires treatment before discharge (biological oxidation or activated carbon).
+### Testing Methods
 
-**Fabric filter (baghouse)**: Fine particulate filtration through woven or felted fabric bags (polypropylene, PTFE, or fiberglass depending on temperature). Filtration efficiency: >99% for particles >1 µm. Must operate above tar dew point (~150-200°C) to prevent blinding. Pulse-jet cleaning: compressed air pulses inflate bags in reverse, dislodging dust cake.
+- **Gas composition analysis**: Orsat apparatus (absorbs CO₂ in KOH, O₂ in alkaline pyrogallol, CO in cuprous chloride solution) for basic field analysis. Portable gas analyzer (electrochemical or infrared sensors) for continuous monitoring. Gas chromatography for detailed laboratory analysis.
+- **Tar content**: Draw a measured volume of gas through an isopropanol-filled impinger train. Evaporate the solvent and weigh the tar residue. Target: below 50 mg/Nm³ for engine fuel.
+- **Heating value calculation**: From gas composition: HHV = (12.7 × %CO) + (12.8 × %H₂) + (40.0 × %CH₄) MJ/Nm³. A quick field check: if the gas flares steadily with a blue-orange flame, it is above 4 MJ/m³ and usable.
+- **Calorimetric test (burn test)**: Burn a measured volume of gas in a calibrated burner and measure temperature rise in a known mass of water. Direct measurement of heating value without gas analysis.
 
-**Electrostatic precipitator (ESP)**: Best tar removal — ionizes gas with high-voltage electrodes (10-30 kV), charged tar droplets migrate to grounded collection plates. Tar removal: >99%. Requires corrosion-resistant construction (316L stainless steel) — tar condensate is acidic. Some designs use wet ESP with water wash. ESP is the most effective but also most expensive gas cleaning approach.
+### Sampling Protocol
 
-## Engine Conversion Detail
+- Continuous gas temperature monitoring at the reduction zone outlet (thermocouple): 400-600°C indicates healthy operation
+- Gas composition check every 2-4 hours using Orsat or portable analyzer during steady operation
+- Tar content measurement at startup and after any operating condition change
+- Visual inspection of gas color: clear gas is low-tar; white or yellowish gas indicates high moisture or tar carryover
+- Engine performance monitoring: if engine power drops more than 10% from baseline, check gas quality first
+- Weekly scrubber water replacement or recharge. Measure pH and dissolved organic content to determine when scrubber water is spent (pH drops below 7 or water turns dark brown with visible tar film)
 
-**Spark-ignition engine**: Producer gas replaces gasoline or works in dual-fuel mode. Engine modifications: (1) Carburetor replaced with gas-air mixer (venturi-type or electronically controlled). (2) Compression ratio may be increased from 8:1 to 10-12:1 — producer gas has higher octane rating (resists knock) than gasoline. (3) Ignition timing advanced 5-15° — producer gas burns slower than gasoline. (4) Larger engine displacement needed — producer gas has ~40% the energy per volume of gasoline-air mixture, so engine produces 40-60% of rated gasoline power. A 100 kW gasoline engine produces 40-60 kW on producer gas.
+## Scaling Notes
 
-**Dual-fuel diesel engine**: Diesel pilot injection (5-15% of full-load fuel) ignites the producer gas-air mixture. No spark plugs needed. Higher compression ratio (14-20:1) than spark-ignition. Efficiency: 30-38% (vs 25-30% for spark-ignition on producer gas). The gold standard for producer gas power generation — widely used in WWII and in modern biomass power plants (1-5 MW range).
+- **Small stationary (5-20 kW engine)**: Downdraft gasifier, 20-50 cm diameter fire tube, produces 20-50 m³ gas per hour. Consumes 5-15 kg wood per hour. Suitable for farm machinery, small generators, water pumps. One person can build and operate. Most WWII vehicle gasifiers were in this range.
+- **Medium stationary (50-200 kW engine)**: Larger downdraft or cross-draft gasifier, 50-100 cm fire tube, produces 100-500 m³ gas per hour. Requires automatic fuel feeding (auger or conveyor) and mechanical grate shaking. Full gas cleaning train (cyclone, wet scrubber, fabric filter). Two to three operators.
+- **Industrial (1-10 MW thermal)**: Fluidized bed gasifier or large updraft design. Handles varied fuels (wood waste, agricultural residue, municipal waste). Produces gas for boilers, kilns, or power generation. Requires continuous fuel handling, ash removal, and gas cleaning. A staff of 5-10 per shift.
 
-## Charcoal Production (Byproduct)
+The key scaling insight: downdraft gasifiers scale poorly above about 200 kW because the throat diameter needed for larger throughput makes it hard to maintain the concentrated high-temperature zone that cracks tars. Fluidized bed gasifiers solve this by suspending fuel in an upward air stream, achieving uniform temperature, but they require blowers, control systems, and more complex gas cleaning.
 
-Charcoal yield from wood pyrolysis: 20-35% by weight (higher with slower heating rate and lower peak temperature). Charcoal properties: fixed carbon 75-90%, volatile matter 10-25%, ash 1-5%. Higher heating value: 28-33 MJ/kg (vs 16-18 MJ/kg for dry wood). Uses: steelmaking (historically — before coke replaced it in blast furnaces), cooking fuel (developing world), water filtration (activated carbon after steam activation at 800-900°C), soil amendment (biochar — carbon sequestration), artist material, metallurgical reductant (ferrosilicon, silicon metal production).
-
-**Charcoal kiln designs**: (1) Earth kiln (traditional): stack wood in dome, cover with earth/sod, ignite at bottom, control air entry. Yield: 20-25%, cycle: 5-10 days. (2) Concrete block kiln (semi-portable): walls of stacked concrete blocks with air inlet ports. Yield: 25-30%, cycle: 2-5 days. (3) Retort (industrial): steel vessel heated externally — wood pyrolyzes without combustion air, pyrolysis gases burned to provide heat. Yield: 30-35%, cycle: 12-24 hours. Retort captures and uses pyrolysis gases — significantly higher efficiency. (4) Continuous retort (Lambiotte): wood moves through heated zones on a conveyor — continuous production.
-
-## Safety & Hazards
-
-- **Carbon monoxide**: Producer gas is ~25% CO — odorless, colorless, lethal. CO binds to hemoglobin 200x more strongly than oxygen. Symptoms: headache, dizziness, nausea → unconsciousness → death. Concentrations >1000 ppm are immediately dangerous. NEVER operate gasifier indoors or in enclosed spaces. CO detector mandatory. Vent all exhaust to atmosphere.
-- **Gasifier fire**: Operating temperature 800-1200°C. Touching gasifier shell causes severe burns. Maintain thermal insulation. Allow full cooling before maintenance.
-- **Explosion**: Producer gas mixed with air in the right proportions (20-75% gas in air) is explosive. Gasifier must produce gas under slight suction (engine draws gas through — negative pressure prevents gas leaks). NEVER introduce air into hot gasifier (backfire through open nozzle = explosion in fuel hopper).
-- **Tar and creosote exposure**: Wood tar contains phenols, cresols, and polycyclic aromatic hydrocarbons — skin irritants and suspected carcinogens. Wear gloves when handling scrubber water and filters. Wash skin immediately after contact.
-- **Ash disposal**: Wood ash is alkaline (pH 10-12). Irritating to skin and eyes. Handle with gloves. Ash from treated or painted wood may contain heavy metals — dispose of at designated waste site, not in gardens.
-
- *Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
-
-## Gasifier Types and Selection
-
-**Updraft gasifier**: Air enters below the grate and flows upward through the fuel bed. Gas exits at the top. Temperature gradient: ambient at top (drying zone), 200-500°C in the middle (pyrolysis), 800-1200°C at the bottom (combustion/reduction). High thermal efficiency (80-90% of fuel energy in the gas) because outgoing gas preheats incoming fuel. However, tar content is very high (10-50 g/m³) because pyrolysis vapors pass through the cool upper fuel bed without cracking. Updraft gasifiers are suitable for direct combustion (furnaces, boilers, kilns) where tar is burned along with the gas. Not suitable for engines without extensive gas cleaning.
-
-**Downdraft gasifier (Imbert type)**: Air enters at the throat (restricted middle section) and gas flows downward. Pyrolysis vapors must pass through the hot combustion zone (1000-1200°C) before exiting, thermally cracking most tars. Tar content typically <1 g/m³, often <0.1 g/m³ with good design. This makes downdraft gasifiers the preferred type for engine applications. Limitations: fuel must be uniformly sized (2-5 cm chips), moisture content <20%, and throughput is limited to 10-500 kW thermal output. Larger sizes suffer from inconsistent airflow across the throat.
-
-**Fluidized bed gasifier**: Air or oxygen blown upward through a bed of fine inert particles (sand, dolomite, or alumina) at sufficient velocity to fluidize the bed (suspends particles in upward gas flow). Biomass fed into the hot bed (700-900°C) gasifies rapidly due to excellent heat transfer. Advantages: handles varied feedstock sizes and moisture contents, scales well to 10-100 MW thermal, good temperature control. Disadvantages: high tar content (5-20 g/m³, intermediate between updraft and downdraft), high particulate carryover (bed material entrained in gas), and complex control (bed temperature, fluidization velocity, feed rate must be balanced).
-
-## Gas Composition and Properties
-
-**Producer gas (air-blown)**: CO 20-25%, H₂ 10-15%, CH₄ 2-3%, CO₂ 8-12%, N₂ 50-55%, water vapor 5-15%, tar 0.01-50 g/m³ depending on gasifier type. Calorific value 4-6 MJ/Nm³ (dry). This is a low-energy gas because nitrogen from the air dilutes the combustible components. Stoichiometric air-gas ratio for combustion: 1.0-1.5:1 by volume (much less air needed than for natural gas at 10:1).
-
-**Syngas (oxygen-blown)**: When pure oxygen replaces air as the gasifying agent, nitrogen dilution is eliminated. Composition: CO 35-45%, H₂ 25-35%, CO₂ 15-25%, CH₄ 0-5%, small amounts of H₂O and trace contaminants. Calorific value 10-15 MJ/Nm³, comparable to low-quality natural gas. Oxygen-blown gasification requires an air separation unit (ASU, significant capital and energy cost) but produces a much more versatile synthesis gas suitable for Fischer-Tropsch liquids, methanol synthesis, and hydrogen production via water-gas shift.
-
-## Gas Cleaning Systems
-
-**Cyclone separator design**: Gas enters tangentially at 10-20 m/s inlet velocity, creating a vortex. Centrifugal acceleration 100-1000× gravity forces particles to the wall. Collection efficiency follows the "50% cut diameter" (d₅₀): the particle size captured at 50% efficiency. For a well-designed cyclone: d₅₀ = 5-10 μm. Particles >20 μm captured at >95%. Pressure drop 0.5-2.0 kPa. Design parameters: barrel diameter 0.2-2.0 m (scaled to gas flow), cone length 1.5-2.5× barrel diameter, inlet area = 0.1-0.2× barrel cross-section. Must be insulated or heated above 200°C to prevent tar condensation inside.
-
-**Fabric filter (baghouse)**: Woven or felted fabric bags (1-5 m long, 0.15-0.3 m diameter) filter gas at face velocity 0.5-2.0 m/min. Particles form a dust cake on the bag surface that enhances filtration. Efficiency >99% for particles >1 μm, 90-99% for 0.5-1 μm. Operating temperature limited by fabric: polypropylene to 90°C, PTFE to 260°C, fiberglass to 280°C. Must operate above tar dew point (150-200°C) to prevent blinding. Pulse-jet cleaning: compressed air (0.4-0.7 MPa) pulses inject into bags in reverse, dislodging dust cake into collection hopper.
-
-**Venturi scrubber**: Gas accelerated through a narrow throat (50-100 m/s velocity) where scrubbing liquid (water) is injected. High-velocity gas atomizes the water into fine droplets (10-100 μm). Particles collide with and are captured by droplets. Collection efficiency for 0.5-5 μm particles: 90-99%. Pressure drop: 5-25 kPa (high energy consumption). Liquid-to-gas ratio: 1-5 L/m³. Excellent for tar aerosol and fine particulate removal. Effluent water requires treatment for tar and phenol removal before discharge.
-
-**Tar cracking (thermal and catalytic)**: At 1000-1100°C, tar molecules decompose to smaller, non-condensable gases (CO, H₂, CH₄). Thermal cracking requires high temperature and 1-3 seconds residence time. Catalytic cracking uses dolomite (CaMg(CO₃)₂), olivine (Mg₂SiO₄), or nickel-based catalysts at 800-900°C to achieve >95% tar destruction. Dolomite is cheap but erodes in fluidized beds. Nickel catalysts are more effective but deactivate due to carbon deposition and sulfur poisoning. Tar cracking eliminates the tar problem at its source rather than capturing it downstream.
-
-## Engine Conversion Parameters
-
-**Spark-ignition engine on producer gas**: Timing advance must be increased to 15-25° BTDC (before top dead center) because producer gas burns slower than gasoline (laminar flame speed ~0.4 m/s vs ~0.8 m/s for gasoline-air). Compression ratio can be increased to 10-12:1 (producer gas has high octane equivalent, resists knock) to partially compensate for the lower energy density. Derating: engine produces 30-50% less power than on gasoline due to the low heating value of producer gas (4-6 MJ/m³ vs 3.5-3.7 MJ/m³ for stoichiometric gasoline-air mixture). A 100 kW gasoline engine delivers 50-70 kW on producer gas.
-
-**Diesel dual-fuel operation**: Producer gas replaces 80-95% of the diesel fuel. Pilot diesel injection (5-20% of full-load fuel) provides ignition, and the producer gas-air mixture burns as a lean premixed charge. Compression ratio 14-20:1 (standard diesel). Thermal efficiency 30-38%, higher than spark-ignition on producer gas because the higher compression ratio extracts more work. Advantages: no ignition system modification needed, can revert to 100% diesel operation instantly if gasifier is unavailable. The most practical engine option for producer gas power generation.
-
-## Gasifier Sizing and Performance
-
-**Sizing calculation**: Gasifier thermal output (kW) determines the physical dimensions. A 100 kW (thermal) downdraft gasifier processes ~30-40 kg/hour of dry wood (energy content 16-18 MJ/kg). Gasifier hearth diameter: ~300 mm for 100 kW, scaling roughly with the square root of throughput. Overall height 1.5-2.5 m. Fuel hopper volume: sufficient for 1-4 hours of operation (20-160 kg wood). Grate area: 0.07-0.1 m² per 100 kW. Air supply: 2.5-3.5 kg air per kg dry wood (sub-stoichiometric, ~30% of stoichiometric air for complete combustion).
-
-**Cold gas efficiency**: Chemical energy in the product gas / energy in the fuel input. Downdraft gasifier: 65-75%. Updraft gasifier: 70-80% (higher because more of the fuel's energy stays in the gas as tar and hydrocarbons). Fluidized bed: 70-80%. The remaining 20-35% is lost as sensible heat in the gas, radiation from the gasifier shell, and unburned carbon in the ash.
-
-**Startup procedure**: Load hopper with dry wood chips or charcoal. Open air inlet. Light kindling at the grate or ignite charcoal bed through the ignition port. Allow 10-20 minutes for the combustion zone to establish and the reduction zone to reach operating temperature (700-900°C, indicated by gas flare burning with clear blue flame rather than yellow smokey flame). Connect to engine only after gas quality is verified (flare test: gas burns cleanly at the flare stack). Cold weather increases startup time significantly.
-
-## Producer Gas Applications Beyond Engines
-
-**Direct combustion**: Producer gas burned in furnaces, kilns, boilers, and dryers without gas cleaning (tar tolerance is higher because the gas is burned immediately). Glass melting furnaces, brick kilns, lime kilns, and grain dryers have all been operated on producer gas. Thermal efficiency of direct combustion: 70-85%. The gas can substitute for natural gas or fuel oil in most burner designs with modified orifices and air-fuel ratio adjustments.
-
-**Heat for buildings and greenhouses**: Gasifier connected to a heat exchanger provides clean hot air or hot water. The gas burns in a dedicated combustion chamber, and the flue gases pass through a heat exchanger (never mix raw producer gas with breathing air). Greenhouse heating: gasifier + heat exchanger + CO₂ enrichment (clean flue gas from efficient combustion contains 10-15% CO₂ that can be fed to the greenhouse to boost plant growth, provided CO and NOx are below toxic levels).
-
-**Cogeneration (CHP)**: Combined heat and power. Gas engine-generator produces electricity (25-30% electrical efficiency). Engine jacket cooling water and exhaust heat recovered for space heating, drying, or process heat. Overall CHP efficiency: 70-85%. Small-scale biomass CHP (50-500 kWe) is economically attractive in locations with reliable biomass supply and high electricity prices. District heating systems in Scandinavian communities commonly use biomass gasification CHP.
-
-## Biomass Feedstock Properties
-
-**Wood composition**: Dry hardwood contains approximately 48-50% cellulose, 20-25% hemicellulose, 20-25% lignin, and 1-5% extractives (resins, terpenes, tannins). Softwoods have similar cellulose content but higher lignin (25-30%) and different hemicellulose composition (more mannose, less xylose than hardwoods). Higher heating value (HHV) of dry wood: 18-20 MJ/kg (slight variation by species; resinous softwoods are marginally higher due to hydrocarbon extractives).
-
-**Moisture content effects**: Fresh-cut wood contains 30-60% moisture (wet basis). Air-dried wood reaches equilibrium at 15-20% moisture depending on climate. Each percentage point of moisture above 20% reduces gasifier efficiency by roughly 1% because combustion energy is wasted evaporating water instead of driving gasification reactions. At 50% moisture, roughly 15% of the wood's energy content goes to water evaporation. For this reason, many gasifier designs include a separate drying stage (flue gas or solar drying of fuel before gasification).
-
-**Briquetting**: Loose biomass (sawdust, agricultural residues, wood chips) can be compacted into dense briquettes (40-80 mm diameter × 50-150 mm long, density 0.8-1.2 g/cm³) using a piston press or screw extruder at 100-200 MPa without binder (lignin softens at ~100°C under pressure, acting as a natural binder). Briquettes have uniform size, low moisture (<10%), and higher energy density than loose biomass. Suitable for gasifiers requiring consistent fuel dimensions.
-
-**Alternative feedstocks**: Beyond wood, gasifiers can process agricultural residues (rice husk, corn stover, coconut shells, sugarcane bagasse), but these feedstocks have different ash compositions that can cause slagging and fouling. Rice husk ash (15-20% silica) forms glassy deposits. Wheat straw has high potassium content that lowers ash fusion temperature, causing clinker formation in the gasifier hearth. These feedstocks often require modified gasifier designs (grate spacing, ash removal systems) and sometimes lower operating temperatures to manage ash behavior.
-
-## Producer Gas Safety Systems
-
-**CO monitoring**: Producer gas contains 20-25% CO, making CO detectors mandatory in any gasification facility. Electrochemical CO sensors (0-500 ppm range, alarm at 50 ppm TLV-TWA and 100 ppm TLV-STEL). Sensors placed at breathing height (1.5 m) and at low points (CO density 0.97× air, nearly neutral but tends to accumulate in low areas). Multi-sensor array: monitor at the gasifier, near the engine, and at the operator station. If CO exceeds 200 ppm, automatic ventilation fans activate and alarm sounds. Personnel must evacuate immediately and re-enter only with SCBA (self-contained breathing apparatus).
-
-**Gas flare system**: A properly designed flare is essential for safe gasifier operation during startup, shutdown, and emergencies. The flare must burn all producer gas whenever it cannot be used by the engine. Stack height: minimum 3 m above the gasifier roofline, with spark arrestor. Flare ignition: continuous pilot flame or automatic spark igniter. Flame monitoring: UV sensor confirms pilot flame is lit. If flame is lost, gas diversion valve switches from flare to a vent stack (taller, open-top pipe) to prevent unburned gas accumulation.
-
-**Backfire prevention**: The greatest explosion risk in gasifier-engine systems. Backfire occurs when a flame front travels backward through the gas line from the engine into the gasifier. Prevention: (1) flame trap (fine mesh screen or packed gravel section in the gas line that quenches flame propagation, similar to a Davy lamp principle), (2) water seal (gas line dips below water level, creating a liquid barrier that flame cannot pass), (3) one-way check valve in the gas line, (4) maintain the gasifier under slight vacuum (engine suction mode) rather than positive pressure (blower mode) so any leak draws air in rather than pushing gas out.
-
-## Gasifier Material Selection
-
-**Refractory lining**: The combustion and reduction zones of the gasifier operate at 800-1200°C, requiring refractory lining. Fireclay brick (Al₂O₃ 30-40%, service to 1300-1400°C) is adequate for most gasifier designs. Brick thickness: 50-100 mm on the inside of the steel shell, with an air gap or insulating blanket between the brick and shell. The throat area of downdraft gasifiers experiences the highest temperatures and most chemical attack (reducing atmosphere with CO, H₂, and alkali vapors from wood ash), and may need higher-grade refractory (high-alumina or silicon carbide) for extended life.
-
-**Steel shell construction**: The outer gasifier shell is mild steel plate (4-8 mm thick), welded cylindrical construction with bolted top and bottom caps. The shell must be airtight (all seams welded or gasketed). Access doors for fuel loading, ash removal, and grate maintenance are bolted with high-temperature gaskets (ceramic fiber or compressed mineral wool). Air inlet nozzles (tuyeres) are stainless steel or high-alumina ceramic, projecting 30-50 mm into the combustion zone to avoid overheating the steel shell. Water jacket cooling around the throat area is an alternative to refractory lining: water absorbs heat, reducing shell temperature and providing hot water as a byproduct.
-
-**Grate design**: The grate supports the fuel bed and allows ash to fall through while maintaining gas flow. Cast iron grates are standard (withstand 600-800°C in the reduction zone). Rotating or shaking grates (manually operated lever or automated cam mechanism) break up clinker formations and clear ash blockages. Grate open area: 10-20% of total cross-section (too much open area and the bed collapses; too little and gas flow is restricted). Ash pit below the grate: sized for 4-8 hours of ash accumulation before emptying is required.
-
-## Gasifier Performance Benchmarks
-
-**Downdraft gasifier benchmarks**: For a 100 kW thermal output Imbert-type gasifier processing dry hardwood chips (moisture <20%), typical performance parameters are: fuel consumption 30-35 kg/hour, gas production 60-90 m³/hour, gas heating value 4.5-5.5 MJ/m³, cold gas efficiency 65-75%, hot gas efficiency (including sensible heat) 80-85%. Startup time from cold: 15-25 minutes. Maximum continuous runtime before ash grate cleaning: 4-8 hours. Engine power output on gas: 15-25 kWe (from 100 kWth gasifier, at 15-25% electrical efficiency).
-
-**Large-scale gasification**: Fluidized bed gasifiers at 5-50 MWth scale achieve better economics than small downdraft units but require more complex operation. Biomass feed rate: 1-10 tonnes/hour. Gas production: 2000-20,000 m³/hour. Applications: district heating, industrial process heat, and power generation (1-10 MWe via gas engine or gas turbine). Capital cost: $1,000-3,000 per kWth installed. Operating cost: $10-30/MWhth (dominated by biomass feedstock at $30-80/tonne dry). Biomass gasification is competitive with natural gas at gas prices above $6-8/GJ.
-
-**Comparison with direct combustion**: Burning wood directly in a boiler achieves 75-85% thermal efficiency (higher than gasification at 65-75% cold gas efficiency). However, gasification provides cleaner combustion (gas burns more completely than solid fuel), better load following (gas flow responds faster than solid fuel feed), and the ability to run engines for power generation (impossible with direct combustion). For heat-only applications, direct combustion is simpler and more efficient. For combined heat and power, gasification is the appropriate technology at small-medium scale (50 kWe - 5 MWe). Above 5 MWe, combustion with steam turbine is typically more economical.
-
-## Gasification Historical Development
-
-**Early development**: Gasification of solid fuels dates to the 1660s (Thomas Shirley produced "flammable air" from coal), but practical gasifiers emerged in the 1870s for town gas production. By 1900, producer gas engines powered thousands of industrial facilities in Europe and America. The technology declined in the petroleum age but was revived during WWII when over 1 million vehicles in Europe were converted to wood gas. Post-war, cheap gasoline eliminated wood gas vehicles, but the oil crises of the 1970s triggered renewed research into biomass gasification for energy independence.
-
-**Modern development**: Since the 1980s, fluidized bed gasification has been scaled to 50-100 MWth capacity for combined heat and power in Scandinavian countries with abundant forestry residues. Integrated gasification combined cycle (IGCC) power plants using coal gasification at 250-600 MWe scale have been demonstrated (Tampa Electric Polk Power Station, 250 MWe, operated 1996-2016), but high capital costs and reliability challenges have limited adoption. Small-scale gasification (10-500 kWe) continues to serve off-grid communities and agricultural processing facilities in developing countries, where petroleum fuels are expensive or unavailable.
-
-## Tar Properties and Handling
-
-**Tar composition**: Wood gasifier tar is a complex mixture of >100 organic compounds. Major components: benzene (5-15%), toluene (3-8%), naphthalene (2-10%), phenol (1-5%), cresols (1-3%), polycyclic aromatic hydrocarbons (PAHs: pyrene, anthracene, fluorene, 0.1-1%), and oxygenated aromatics (guaiacol, syringol from lignin depolymerization, 1-5%). Tar dew point: 150-350°C depending on composition and water content. Below the dew point, tar condenses as a sticky brown-black liquid that blocks pipes, fouls valves, and adheres to engine components.
-
-**Tar disposal**: Tar-laden water from scrubbers and filters is classified as hazardous waste in most jurisdictions (contains phenols, PAHs, and benzene derivatives). Treatment options: (1) thermal oxidation (burn in a dedicated furnace at 900-1200°C, destroys organics but requires fuel if water content is high), (2) biological treatment (acclimatized bacteria degrade phenols and light aromatics, but PAHs persist), (3) chemical oxidation (Fenton's reagent: H₂O₂ + Fe²⁺ generates hydroxyl radicals that oxidize organics, effective but costly), (4) separation and recycling (extract tars with solvent, recover phenol as a chemical product). The tar disposal problem is a significant environmental and economic challenge for gasification technology.
-
-Wood gasification technology occupies a pragmatic niche in the energy landscape: not suitable as a primary energy source for industrial civilization, but invaluable as a backup, supplementary, and distributed energy technology when petroleum is unavailable or unaffordable.
-
-## Limitations
-
-- **Tar production**: All gasifiers produce tar (complex aromatic hydrocarbons) that condenses in cool downstream equipment. Tar is the single greatest operational problem — it blocks pipes, fouls valves, and contaminates engines. Tar cracking (thermal or catalytic) adds complexity and reduces net efficiency by 5-15%.
-- **Low energy density of producer gas**: Wood gas has a heating value of only 4-7 MJ/Nm³ (vs 35-40 MJ/Nm³ for natural gas). This means gas pipes, compressors, and burners must be 5-10× larger for equivalent energy throughput. Wood gas is practical only for on-site or short-distance use — long-distance pipeline transport is uneconomical.
-- **Feedstock variability**: Wood moisture content (15-60% depending on seasoning), species density, and piece size all affect gasifier performance. Gasifiers must be derated for wet fuel (10-30% capacity loss). Consistent fuel preparation (drying, chipping to uniform size) adds cost and complexity.
-- **Scale limitations**: Wood gasification is practical up to ~10 MW thermal output. Above this scale, fuel supply logistics (gathering, transporting, and drying wood for a 10+ MW plant consuming 2-5 tonnes/hour of dry wood) become prohibitive. Coal or natural gas gasification is preferred for large-scale syngas production.
+At any scale, the fuel preparation requirement is a constant labor burden. A 20 kW gasifier consumes 5-15 kg of wood per hour. A 200 kW gasifier consumes 50-150 kg per hour. All of this fuel must be cut to size and dried before use. For continuous operation, a week's fuel reserve for a 200 kW gasifier is roughly 10-20 tonnes of prepared, dried wood. This is not a casual undertaking. Fuel handling logistics often determine the practical maximum gasifier size more than the gasifier technology itself.
 
 ## Troubleshooting
 
-| Symptom | Likely Cause | Solution |
-|---|---|---|
-| Gasifier producing mostly CO₂ (low-quality gas) | Too much air (over-oxidation) or channeling | Reduce air intake; check for channeling around fuel edges; repack fuel bed; verify grate sealing |
-| Tar plugging downstream pipes | Gas exit temperature too low (<350°C) | Insulate gas outlet; add tar cracking zone at 800-1000°C; install tar separator before cooling |
-| Engine running rough on producer gas | Tar contamination or gas too lean | Clean gas filter; check for tar in intake manifold; enrich gas by reducing air/fuel ratio |
-| Gasifier bridging (fuel stops feeding) | Irregular fuel size or high moisture | Use uniformly sized fuel (5-10 cm chunks); dry wood below 20% moisture; agitate grate mechanically |
-| Excessive smoke from gasifier air inlet | Back-pressure or blocked gas outlet | Clean gas outlet pipe; check for tar buildup in filter; verify engine suction is pulling gas through |
-| Low gas output despite full fuel bed | Channeling — air bypasses fuel bed | Repack fuel; use smaller, more uniform fuel pieces; install agitation or stirring mechanism |
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Gas won't ignite (no flare) | Gasifier too cold (reduction zone below 600°C); air supply insufficient; fuel too wet (steam quenching the reaction) | Pre-heat with more kindling and charcoal. Increase air supply. Check fuel moisture (target below 20%). Re-light and establish a hotter combustion zone before connecting load. |
+| High tar content in gas (engine carbon buildup) | Downdraft throat too cool to crack tars; reduction zone too shallow; fuel too wet | Increase air supply to raise throat temperature above 1000°C. Ensure reduction zone has at least 20 cm of hot charcoal bed. Dry fuel to below 15% moisture. |
+| Gasifier "bridging" (fuel stops feeding) | Oversized fuel pieces jamming in the hopper or throat; wet fuel sticking together; ash buildup blocking the throat | Use uniformly sized fuel (3-8 cm). Dry fuel before use. Poke the fuel bed with a poker rod through the access port. Clean ash from the throat area. |
+| Gas heating value too low (CO below 15%) | Excess air (air/fuel ratio too high); reduction zone too cool; or insufficient charcoal depth | Reduce air supply. Add more fuel to build up the charcoal bed. Check for air leaks in the gasifier shell (uncontrolled air entry oxidizes product gas to CO₂). |
+| Engine knocking or backfiring on producer gas | Gas contains oxygen (air leak in gas piping); gas temperature too high (hot gas is less dense, engine runs lean); or ignition timing wrong for producer gas | Check all gas pipe joints for leaks (paint with soap solution, look for bubbles). Install a gas cooler (water jacket or air cooler) to bring gas below 40°C before the engine. Advance ignition timing 5-15 degrees from gasoline settings (producer gas burns slower). |
+| Excessive ash buildup blocking grate | High-ash fuel (bark, leaves, agricultural waste); grate not shaken frequently enough; or ash melting and forming clinkers at high temperature | Shake grate every 15-30 minutes during operation. Use cleaner wood (debarked). If clinkers form, reduce combustion zone temperature by increasing air (counterintuitively, excess air cools the zone by diluting the combustion). |
 
-## See Also
+## Variations and Alternatives
 
-- [Petroleum Alternatives](petroleum-alternatives.md) — fossil fuel substitutes including biomass
-- [Distillation](distillation.md) — fractional distillation of wood tar and creosote
-- [Solvents](solvents.md) — turpentine and methanol from wood pyrolysis
-- [Explosives](explosives.md) — charcoal as a component of black powder
-- [Energy](../energy/index.md) — power generation from producer gas
-- [Charcoal](../energy/charcoal.md) — charcoal production as a gasification byproduct
+- **Charcoal gasification**: Uses charcoal instead of raw wood as fuel. Produces much cleaner gas (charcoal has no volatile matter, so no tar) with simpler gasifier design. The tradeoff is that charcoal production loses roughly half the wood's energy content as waste heat and byproduct gases during the pyrolysis step. Charcoal gasifiers powered many WWII vehicles because the cleaner gas reduced engine maintenance.
+- **Updraft gasifier**: Air enters at the bottom, gas exits at the top. Higher tar output (10-50 g/m³) because volatile tars from pyrolysis bypass the hot zone. Simpler design, more tolerant of fuel size and moisture variation. Best for direct combustion applications (boilers, kilns) where tar condensation in the burner is less problematic.
+- **Fluidized bed gasifier**: Air (or O₂/steam) flows upward through a bed of sand or inert particles at sufficient velocity to suspend the bed in a fluid-like state. Biomass feeds into the fluidized bed. Excellent temperature uniformity and fuel flexibility. Can gasify wood waste, agricultural residues, and even municipal solid waste. Requires blowers and more complex controls. Used at industrial scale (1-50 MW).
+- **Steam gasification**: Steam instead of air as the gasifying agent. Produces syngas without nitrogen dilution (heating value 10-14 MJ/m³). Endothermic: requires external heat input (combustion of part of the fuel in a separate chamber, or external heating). Higher H₂ content in the product gas (up to 50%) due to the water-gas shift reaction (CO + H₂O → CO₂ + H₂).
+- **Anaerobic digestion**: Biological decomposition of organic matter in the absence of oxygen, producing biogas (60-70% CH₄, 30-40% CO₂, heating value 20-25 MJ/m³). Completely different process: operates at 35-55°C with bacteria, not at 1000°C with fire. Suitable for wet, low-lignin biomass (manure, food waste, sewage sludge) that gasifiers cannot handle. Lower throughput and longer residence time but much lower temperature.
 
-[← Back to Chemistry](index.md)
+- **Producer gas to liquid fuels (Fischer-Tropsch)**: Syngas (CO + H₂) from oxygen-blown gasification can be catalytically converted to liquid hydrocarbons (synthetic diesel, waxes, alcohols) over iron or cobalt catalysts at 200-350°C and 20-30 bar. This is the route from biomass to drop-in liquid fuels, but it requires clean syngas with precise H₂:CO ratio (2:1 for Fischer-Tropsch), oxygen-blown gasification (no nitrogen dilution), and a catalyst preparation capability. Several steps beyond simple producer gas generation.
+
+## References
+
+- [Petroleum & Alternative Chemistry](petroleum-alternatives.md) — parent capability
+- [Chemistry Domain](./index.md) — domain overview and related capabilities
+- [Petroleum & Alternative Chemistry](petroleum-alternatives.md) — downstream capability
+
+### Material Handling
+
+Fuel preparation is the most labor-intensive part of wood gasification. Wood must be cut to uniform size (3-8 cm chunks for downdraft, 5-15 cm for updraft) and dried to below 20% moisture. Green (fresh-cut) wood can be 40-60% moisture and produces three times more tar than dry wood. Air drying takes 6-12 months; kiln drying takes days but requires fuel. Store prepared fuel under cover with ventilation to allow continued drying while protecting from rain.
+
+Charcoal fuel for charcoal gasifiers must be kept dry (charcoal absorbs moisture readily) and sized to 2-5 cm lumps. Fines (below 1 cm) block airflow. Charcoal dust is a respiratory irritant; handle with a dust mask.
+
+Scrubber water becomes toxic over time as it accumulates dissolved tars, phenols, ammonia, and PAHs (polycyclic aromatic hydrocarbons). Recirculate scrubber water until it becomes dark brown and loses effectiveness (typically 2-5 days of operation). Dispose of spent scrubber water by evaporation in a shallow pond (organics degrade in sunlight) or by incineration in the gasifier's combustion zone. Do not discharge to waterways or septic systems.
+
+Ash from the gasifier grate is a mixture of mineral oxides (CaO, K₂O, SiO₂) and unburned carbon. Wood ash can be returned to soil as a liming agent and potassium source. Ash with high unburned carbon content (above 10%) indicates the gasifier is not processing fuel completely; consider reducing fuel feed rate or increasing residence time.
+
+The choice between wood and charcoal as gasifier fuel affects the entire system design. Wood is the direct feedstock, available from any forest. Charcoal must be produced first (pyrolysis in a kiln), losing roughly half the original wood's energy as waste heat and byproduct gases. But charcoal gasifiers are simpler, produce much cleaner gas, and are more tolerant of operating variations. For stationary power where gas quality matters (engine operation), charcoal is the better fuel despite the extra processing step. For direct combustion applications (boilers, kilns), wood gasification with an updraft gasifier is the simpler and more efficient choice because the tars in the gas burn along with the combustible components.
+
+A wood gasifier combined with an internal combustion engine provides a biomass-to-mechanical-power pathway that requires no petroleum. For stationary power generation, a 20 kW gasifier-engine-generator set consuming 10-15 kg of wood per hour can provide continuous electrical power for a small workshop, farm, or village, using locally grown wood. The energy conversion efficiency from wood to electricity is 15-20% (gasifier converts wood to gas at 60-70% efficiency, engine-generator converts gas to electricity at 25-30%). This is competitive with steam engines at similar scale and far simpler than building a steam plant from scratch.
+
+The downdraft gasifier design is more demanding to build than the updraft because the throat (the narrow constriction where tars are cracked) must withstand temperatures above 1000°C while maintaining a consistent cross-section. The throat is typically a refractory-lined cylinder 15-25 cm in diameter for a 20-50 kW unit. Too narrow and it plugs with fuel; too wide and the gas velocity drops below what is needed to maintain the hot reduction zone. Getting the throat diameter right for a given fuel type and power output requires either careful calculation or empirical adjustment (start slightly too large and add refractory inserts to reduce the diameter until performance peaks).
+
+The gasifier fire tube (the section enclosing the combustion and reduction zones) experiences the most severe thermal and chemical stress. Temperatures reach 1000-1200°C in an oxidizing and reducing atmosphere alternately. Mild steel fire tubes last 1,000-3,000 operating hours before burning through. Stainless steel (310 or 316 grade) extends this to 5,000-10,000 hours. Ceramic-lined fire tubes (refractory castable or firebrick) last indefinitely but add thermal mass that slows startup. For a balance of cost and durability, a stainless steel fire tube with internal refractory coating is the typical choice for a gasifier expected to operate 2,000-4,000 hours per year.
+
+Producer gas cannot be stored or transported economically over long distances. The low heating value (5-6 MJ/m³) means that the volume of gas needed for meaningful energy delivery is enormous. A 200 kW engine requires roughly 60-80 m³ of gas per hour, which must be produced and consumed in real time. This is why gasifiers are always located at or near the point of gas use. The one exception is medium-energy syngas from oxygen-blown gasification (10-14 MJ/m³), which can be piped moderate distances in dedicated pipelines. But oxygen-blown gasification requires an air separation plant, adding another layer of complexity.
+
+The WWII experience with wood gas vehicles provides a wealth of practical design data. The most common design was the Imbert downdraft gasifier, produced in hundreds of thousands of units across Europe. These units had a fire tube diameter of 10-25 cm (depending on engine displacement), a throat constriction to 60-80% of fire tube diameter, and a reduction zone charcoal bed depth of 15-30 cm. The gas cleaning system was typically a cyclone, a water-filled scrubber, and a fabric filter. The entire gasifier assembly weighed 60-120 kg and mounted on a bracket behind the car or on a small trailer. Modern recreations of these designs are built by enthusiasts and tested regularly, confirming that the basic technology is sound and reproducible.
+
+The Imbert gasifier design has been extensively documented in wartime manuals and modern rebuilding guides. The key dimensional relationships are: fire tube diameter determines maximum throughput (roughly 100 cm² of fire tube cross-section per 10 kW of engine power), throat diameter is 60-80% of fire tube diameter, and reduction zone height is 1-2 times the throat diameter. These proportions have been validated across hundreds of different builds and can be scaled with reasonable confidence for new designs targeting different power outputs.
+
+---
+*Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*

@@ -249,6 +249,6 @@ Supply chain coordination is an organizational capability. The "materials" are d
 - [Defense: Siege Warfare](../defense/siege-warfare.md) — a downstream dependent requiring military logistics
 - [Photolithography: Fab Processes](../photolithography/fab-processes.md) — the pinnacle downstream dependent requiring hundreds of coordinated inputs
 
+---
 
-
-[← Back to Economics & Organization](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*

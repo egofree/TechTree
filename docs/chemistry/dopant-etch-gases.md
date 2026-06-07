@@ -242,4 +242,6 @@ A typical semiconductor etch or CVD tool requires 6-12 gas lines converging at t
 - [SEM Tech](sem-tech.md) — membrane technology for gas purification applications
 - [Photolithography](../photolithography/fab-processes.md) — the process these gases serve
 
-[← Back to Chemistry](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

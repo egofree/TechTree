@@ -377,6 +377,6 @@ Semiconductor processing requires ultra-pure acids (trace metal impurities at pp
 - [Coatings](coatings.md) — acid etching and pickling of metal surfaces
 - [Ammonia](ammonia.md) — ammonia as feedstock for Ostwald nitric acid process
 
+---
 
-
-[← Back to Chemistry](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

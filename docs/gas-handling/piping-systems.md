@@ -234,4 +234,5 @@ Label spacing: at minimum every 6 m on straight runs, at each room entry/exit, a
 - [Dopant & Etch Gases](../chemistry/dopant-etch-gases.md) — toxic gas panel design and exhaust abatement
 - [Gas Purification](gas-purification.md) — gas purification upstream of distribution piping
 
-[← Back to Gas Handling](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*

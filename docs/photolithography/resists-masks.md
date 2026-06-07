@@ -384,4 +384,5 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 - [Advanced Lithography](../vlsi-scaling/advanced-lithography.md) — DUV and EUV scaling
 - [Photomask Substrates](../glass/photomask-substrates.md) — mask blank materials
 
-[← Back to Photolithography](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../index.md)*

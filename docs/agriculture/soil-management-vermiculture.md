@@ -436,6 +436,6 @@ Application:
 - [Food Processing](../food-processing/index.md) — organic waste from food processing as worm feedstock
 - [Plants → Edible Plants](../plants/edible-plants.md) — crop species that benefit from vermicompost application
 
+---
 
-
-[← Back to Agriculture](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*

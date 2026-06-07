@@ -6,7 +6,7 @@ Equipment and practices that prevent inhalation of harmful dusts, fumes, gases, 
 
 ## Context in the Tech Tree
 
-Respiratory hazards appear at every stage of industrial development. In [Mining](../mining/drilling.md), silica dust from drilling and crushing causes silicosis — the oldest known occupational disease. In [Metal Casting](../machine-tools/casting.md), metal fumes (zinc, lead, manganese) cause metal fume fever and chronic poisoning. In [Chemical Processing](../chemistry/acids.md), acid mists and toxic gases (chlorine, hydrogen sulfide, carbon monoxide) are lethal at low concentrations. In [Ceramics](../ceramics/kilns.md), kiln firing releases silica dust and heavy metal vapors from glazes.
+Respiratory hazards appear at every stage of industrial development. In [Mining](../mining/drilling.md), silica dust from drilling and crushing causes silicosis — the oldest known occupational disease. In [Metal Casting](../metals/casting.md), metal fumes (zinc, lead, manganese) cause metal fume fever and chronic poisoning. In [Chemical Processing](../chemistry/acids.md), acid mists and toxic gases (chlorine, hydrogen sulfide, carbon monoxide) are lethal at low concentrations. In [Ceramics](../ceramics/kilns.md), kiln firing releases silica dust and heavy metal vapors from glazes.
 
 Respiratory protection ranges from simple cloth filters (effective against coarse dust, useless against gases and fine particulates) to half-face respirators with replaceable cartridges (effective against specific contaminants when properly fitted) to supplied-air systems (necessary for Immediately Dangerous to Life and Health (IDLH) atmospheres).
 
@@ -32,7 +32,7 @@ For bootstrapping, the critical sequence is: wet methods and ventilation first (
 ## Appears In
 
 - [Mining Operations](../mining/drilling.md)
-- [Metal Casting](../machine-tools/casting.md)
+- [Metal Casting](../metals/casting.md)
 - [Acid Production](../chemistry/acids.md)
 - [Kiln Design](../ceramics/kilns.md)
 - [Personal Protective Equipment](../ehs/ppe.md)

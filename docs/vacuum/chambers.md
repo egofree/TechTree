@@ -2,7 +2,7 @@
 
 > **Node ID**: vacuum.chambers
 > **Domain**: [Vacuum Technology](./index.md)
-> **Dependencies**: `machine-tools`, `machine-tools.joining.electron-beam`, `machine-tools.joining.tig-welding`, `metals`
+> **Dependencies**: `machine-tools`, [`machine-tools.joining.electron-beam`](../machine-tools/joining.md), [`machine-tools.joining.tig-welding`](../machine-tools/joining.md), `metals`
 > **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
 > **Timeline**: Years 25-40
 > **Outputs**: vacuum_chambers, vacuum_seals, viewports, gate_valves, load_locks
@@ -248,4 +248,6 @@ A virtual leak is a trapped volume of gas inside the vacuum system that slowly r
 - [Vacuum Measurement & Leak Detection](measurement.md) — leak detection methods
 - [Lubricants](../chemistry/lubricants.md) — vacuum grease specifications
 
-[← Back to Vacuum Technology](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*

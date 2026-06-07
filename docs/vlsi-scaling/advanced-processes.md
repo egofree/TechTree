@@ -11,6 +11,10 @@
 
 These processes represent the transition from baseline IC fabrication ([Core Fab Processes](../photolithography/fab-processes.md)) to sub-micron manufacturing. Each enables a capability impossible with diffusion doping, wet etching, or simple CVD alone. They are developed incrementally — ion implantation replaces diffusion first, then plasma etching replaces wet etching, then ALD and CMP enable multi-level metallization, and finally copper damascene replaces aluminum interconnects.
 
+## Prerequisites
+
+- [Core Fab Processes](../photolithography/fab-processes.md) — baseline doping, etching, deposition, and metallization
+
 ## Ion Implantation
 
 Replaces thermal diffusion ([Core Fab Processes — Doping](../photolithography/fab-processes.md)) with precise, low-temperature doping control.
@@ -310,6 +314,40 @@ A representative 65 nm CMOS process flow shows how the individual unit processes
 | Bosch DRIE scalloping exceeds 200 nm — sidewall roughness too high for optical MEMS | Etch step duration 5-15 sec too long; isotropic SF₆ etch creates large undulations per cycle | Reduce etch step to minimum duration (3-5 sec); increase passivation C₄F₈ step; consider cryogenic DRIE variant which eliminates scalloping entirely |
 | PERC solar cell surface recombination velocity exceeds 10 cm/s — efficiency below 20% | Al₂O₃ rear passivation layer (10-30 nm) non-uniform or contaminated; SiNₓ cap not properly deposited | Verify ALD Al₂O₃ thickness uniformity across cell (target 10-30 nm); check SiNₓ capping layer integrity; optimize laser contact opening to minimize passivation damage at contact sites |
 
+## Decision and Implementation Framework
+
+This article surveys advanced process technologies as a conceptual guide. Each technology replaces a simpler predecessor at a specific scaling threshold.
+
+### C1: Decision Criteria
+
+Adopt each advanced process when its predecessor can no longer meet requirements:
+
+| Technology | Replaces | Adopt When | Key Enabler |
+|---|---|---|---|
+| Ion implantation | Thermal diffusion | Junction depth control <±50 nm needed; dose uniformity <±5% required | Accelerator column + mass analyzer |
+| RIE / DRIE | Wet etching | Anisotropic profiles needed; feature aspect ratio >2:1 | RF plasma at 13.56 MHz |
+| ALD | Conventional CVD | Film thickness <20 nm with conformality in >5:1 aspect ratio structures | Self-limiting surface chemistry |
+| CMP | No planarization (or spin-on glass) | Multi-level metallization (>3 metal layers) requires global planarization | Slurry + polishing pad + endpoint detection |
+| Copper damascene | Aluminum RIE etch | Interconnect RC delay dominates over gate delay (<250 nm node) | Electroplating + CMP (Cu cannot be dry-etched) |
+
+### C2: Implementation Steps
+
+1. **Ion implantation first**: Replace thermal diffusion with ion implantation. This is the highest-impact single change — dose control improves from ±20% to ±1%.
+2. **Dry etching (RIE)**: Replace wet etching for critical layers (gate, contact). Maintain wet benches for non-critical layers.
+3. **CMP capability**: Establish CMP for inter-layer dielectric planarization before attempting multi-level metal. Without CMP, each metal layer adds 500-1000 nm of topography.
+4. **ALD for gate dielectric**: Adopt ALD when gate oxide must be thinner than ~3 nm (sub-90 nm nodes). HfO₂ high-κ gate dielectric requires ALD for sub-angstrom thickness control.
+5. **Copper damascene**: Replace aluminum interconnects when RC delay dominates. Requires CMP (step 3) and electroplating capability.
+
+### C3: Process Technology Trade-offs
+
+| Process | Advantage Over Predecessor | Added Complexity | Added Cost Per Wafer |
+|---|---|---|---|
+| Ion implantation | ±1% dose uniformity (vs ±20% diffusion) | High-voltage accelerator, toxic gas handling | $5-20 |
+| RIE | Anisotropic profiles, sub-μm features | Vacuum system, RF plasma, gas handling | $3-10 per etch step |
+| ALD | Angstrom-level thickness control | Slow (1 Å/cycle), dedicated precursors | $2-5 per film |
+| CMP | Global planarization, enables multi-level metal | Slurry handling, post-CMP cleaning | $3-8 per polish step |
+| Cu damascene | 37% lower interconnect resistance | Barrier deposition, electroplating, CMP | $5-15 per metal layer |
+
 ## See Also
 
 - [Core Fab Processes](../photolithography/fab-processes.md) — baseline process technology
@@ -319,4 +357,5 @@ A representative 65 nm CMOS process flow shows how the individual unit processes
 - [Advanced Lithography](advanced-lithography.md) — EUV and DUV systems
 - [Vacuum Systems](vacuum-systems.md) — high-vacuum process chambers
 
-[← Back to VLSI Scaling](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*

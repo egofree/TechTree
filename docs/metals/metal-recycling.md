@@ -2,8 +2,8 @@
 
 > **Node ID**: metals.metal-recycling
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`Iron & Steel Production`](iron-steel.md), [`Steelmaking`](steelmaking.md), [`Mining Extraction`](../mining/extraction.md), [`Energy`](../energy/index.md)
-> **Enables**: [`Metals`](./index.md), [`Construction`](../construction/index.md), [`Electronics`](../electronics/index.md)
+> **Dependencies**: [`metals.iron-steel`](iron-steel.md), [`metals.steelmaking`](steelmaking.md), [`mining.extraction`](../mining/extraction.md), [`energy`](../energy/index.md)
+> **Enables**: [`metals`](./index.md), [`construction`](../construction/index.md), [`electronics`](../electronics/index.md)
 > **Timeline**: Years 15-50+
 > **Outputs**: recycled_steel, recycled_copper, recycled_aluminum, secondary_metal_feedstock
 > **Critical**: No — reduces primary ore demand but does not unlock new capabilities
@@ -168,6 +168,36 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | Lead contamination in copper scrap | Solder or bearings mixed in copper charge | Sort out soldered joints and bearings; test melt for Pb content; dilute with clean copper |
 | Explosive eruption during charging | Closed containers or wet scrap in molten metal | Puncture all containers before charging; pre-dry scrap; never charge wet material into molten bath |
 
+## Selection Guide
+
+**Decision criteria — choosing metal recycling methods**:
+- Use **EAF mini-mill** for steel scrap recycling when electricity is available at industrial rates — 350-500 kWh/t, 88-94% yield, 80-100% scrap charge
+- Use **induction furnace** for small-scale steel or copper recycling (1-30 t/heat) — lowest capital, flexible batch operation
+- Use **cupola furnace** for ferrous recycling when coke is available but electricity is limited — 40-70% scrap + pig iron, 5-30 t/hr
+- Use **side-well reverberatory furnace** for aluminum scrap — most common industrial method, 85-92% yield, handles mixed sorted scrap
+- Use **rotary furnace** for dirty/contaminated aluminum scrap — salt flux protects melt, 75-88% yield from high-contamination feed
+- Use **fire refining + electrolytic** for copper scrap requiring 99.99% purity — fire refine to anode grade, then electrolytic for electrical grade
+
+**Implementation steps for metal recycling capability**:
+1. Assess scrap availability — a community that has produced <1,000 t of steel has insufficient scrap for a dedicated recycling furnace; use scrap as supplement to primary charge
+2. Establish scrap sorting: magnetic separation for ferrous/non-ferrous, visual grading, spark testing or XRF for alloy identification
+3. Size the melting furnace to match scrap stream: crucible (50-200 kg) for village scale; EAF (5-15 t) for industrial scale
+4. Set up quality verification: OES spectrometer for chemistry, hardness testing for mechanical properties
+5. Implement scrap preparation: shredding for bulky items, decoating for painted/aluminum scrap, drying to prevent steam explosions
+6. Establish environmental controls: fume extraction for zinc/lead, wastewater treatment for pickle liquor, dross processing
+
+**Recycling route trade-offs**:
+
+| Metal | Route | Energy Savings | Capital Cost | Yield | Feedstock Flexibility | Best For |
+|---|---|---|---|---|---|---|
+| Steel | EAF | 60-75% vs BF-BOF | High | 88-94% | Broad (needs sorting) | Industrial scrap recycling |
+| Steel | Induction | 60-70% | Low-Medium | 90-95% | Clean scrap only | Small batch, known alloy |
+| Steel | Cupola | 40-50% | Medium | 85-92% | Broad (needs coke) | Foundries with coke supply |
+| Aluminum | Side-well | 92-95% vs primary | Medium | 85-92% | Sorted wrought/cast | Industrial Al recycling |
+| Aluminum | Crucible | 92-95% | Low | 90-95% | Clean, known alloy | Small scale, low capital |
+| Copper | Fire refine | 75-85% vs primary | Medium | 95-98% | Clean No. 1/No. 2 | Non-electrical copper |
+| Copper | Electrolytic | 70-80% | High | 98-99% | Any grade | Electrical-grade (99.99%) |
+
 ## Safety
 
 **Steam explosions** are the primary lethal hazard in scrap remelting. Moisture trapped in closed containers, hollow sections, or oil-soaked scrap vaporizes instantly on contact with molten metal (>1500°C for steel, >660°C for aluminum). The resulting steam expansion ratio is 1700:1, producing explosive ejection of molten metal. Prevention: shred all closed containers before charging; pre-heat scrap to >200°C to drive off moisture; never charge sealed containers.
@@ -237,4 +267,4 @@ Bronze Age metalworkers recycled bronze routinely — broken tools and weapons w
 - [Chemical Recovery](../chemistry/chemical-recovery.md) — solvent and acid recovery from metal processing
 - [Tailings Reprocessing](../mining/tailings-reprocessing.md) — recovering residual metals from mine tailings
 
-[← Back to Metals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

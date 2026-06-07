@@ -270,4 +270,6 @@ Materials listed for a 50-bird mixed flock per year.
 - [Poultry Geese](poultry-geese.md) — down, guardian, and weed control birds
 - [Insect Farming](insect-farming.md) — alternative protein source
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

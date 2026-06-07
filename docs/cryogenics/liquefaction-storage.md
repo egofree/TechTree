@@ -11,6 +11,13 @@
 
 Gas liquefaction converts atmospheric gases into compact, dense liquids for storage, transport, and use. Liquid nitrogen (LIN) at -196°C has 694× the density of gaseous N₂ at STP; liquid oxygen (LOX) at -183°C is 860× denser than gaseous O₂. This density advantage makes cryogenic storage the only practical method for supplying thousands of tonnes of gas per year to a semiconductor fabrication facility. This file covers the engineering of liquefaction systems, storage vessels (dewars), cold box insulation, and cryogenic fluid handling.
 
+## Prerequisites
+
+- [Refrigeration Fundamentals](refrigeration.md) — thermodynamic cycles and expansion engines
+- [Gas Handling](../gas-handling/basic.md) — gas compression and purification
+- [Metals](../metals/index.md) — stainless steel for cryogenic vessels
+- [Vacuum Technology](../gas-handling/vacuum.md) — vacuum insulation for dewars and cold boxes
+
 ## Gas Properties at Cryogenic Conditions
 
 | Property | LIN (-196°C, 77 K) | LOX (-183°C, 90 K) | LAR (-186°C, 87 K) | LH₂ (-253°C, 20 K) | LHe (-269°C, 4.2 K) |
@@ -245,7 +252,9 @@ Maintaining vacuum in the insulation space is essential for both MLI and vacuum 
 - Carbon steel and cast iron become catastrophically brittle below -20°C — accidental substitution in cryogenic service causes immediate fracture risk
 - 9% nickel steel requires careful welding with nickel-based filler metal — standard carbon steel welding procedures produce brittle joints
 
-## Cryogenic Safety Equipment and Procedures
+## Safety
+
+This section covers cryogenic safety equipment and procedures. For pressure relief system design, see [Pressure Relief and Safety Systems](#pressure-relief-and-safety-systems) above.
 
 **Personal protective equipment (PPE)**:
 - **Insulated gloves**: Loose-fitting so they can be thrown off quickly if cryogenic liquid splashes inside. Leather or specialized cryogenic gloves. Never use rubber or plastic — cryogenic liquid penetrates and freezes the material to the skin.
@@ -318,6 +327,42 @@ Beyond the common industrial gases (N₂, O₂, Ar), cryogenic technology extend
 - Liquefaction energy of 0.5-1.2 kWh/kg is ~10× the energy to produce the same mass as compressed gas — only justified when storage density or distribution advantages outweigh the penalty
 - Boiloff losses of 0.1-3%/day are unavoidable — rare gases (Kr, Xe) must be stored as compressed gas because their value makes any loss unacceptable
 
+## Decision and Implementation Framework
+
+This article describes gas liquefaction and storage technology as a conceptual guide. Per-section Strengths/Weaknesses blocks above provide detailed trade-offs.
+
+### C1: Decision Criteria
+
+Choose gas storage method based on required volume, purity, and usage rate:
+
+| Requirement | Storage Method | Density Advantage | Cost/kg (Capital) | When to Use |
+|---|---|---|---|---|
+| Small volumes (<100 Nm³), intermittent use | High-pressure cylinders (150-200 bar) | 1× (compressed gas) | Low | Welding, laboratory, small-scale processes |
+| Medium volumes (100-5000 Nm³), continuous use | Cryogenic liquid dewar or tank | 694× (LIN) vs gas | Medium | Semiconductor fab, food freezing, laser cutting |
+| Large volumes (>5000 Nm³), continuous supply | Cryogenic bulk tank (10,000-100,000+ L) | 694× (LIN) vs gas | High ($100K-1M) | Large fabs, steel mills, chemical plants |
+| Ultra-pure gas (ppb impurities) | Cryogenic liquid + point-of-use vaporizer | 694× + purity | High | Semiconductor front-end processes |
+| On-site generation + liquefaction | Linde/Cycle liquefier + bulk tank | Self-sufficient | Very high ($1-10M) | Remote sites, military, space programs |
+
+Key rule: Use compressed gas for small, intermittent demand. Switch to cryogenic liquid delivery when demand exceeds ~500 Nm³/month. Build on-site liquefaction when demand exceeds ~50,000 Nm³/month or supply chains are unreliable.
+
+### C2: Implementation Steps
+
+1. **Start with compressed gas cylinders**: Use standard 200 bar steel cylinders and regulators for initial gas supply. No cryogenic capability needed.
+2. **Build or acquire a small dewar (25-200 L)**: For liquid nitrogen supply from a commercial source. Establish handling procedures, PPE, and O₂ monitoring.
+3. **Install a bulk cryogenic tank (1,000-20,000 L)**: When gas demand justifies bulk delivery by road tanker. Install ambient vaporizers for gas supply.
+4. **Build vacuum-insulated transfer lines**: Connect bulk tank to point-of-use with vacuum-jacketed piping to minimize boiloff during transfer.
+5. **Consider on-site liquefaction**: When transport costs exceed liquefaction energy costs, or when supply chain reliability is critical. Requires a Claude or Linde cycle liquefier (see [Refrigeration Fundamentals](refrigeration.md)).
+6. **Implement boiloff recovery**: For expensive gases (Ar, He) where evaporative losses are economically significant. Capture boiloff gas, recompress, and re-liquefy.
+
+### C3: Cryogenic Storage Method Trade-offs
+
+| Method | Storage Loss | Initial Cost | Operating Cost | Purity | Scale |
+|---|---|---|---|---|---|
+| Compressed gas (200 bar) | 0% (no boiloff) | Low ($50-200/cylinder) | High (frequent delivery) | Cylinder grade (99-99.99%) | Small |
+| Liquid dewar (25-200 L) | 1-3%/day | Low ($1-5K) | Moderate (regular refill) | Liquid grade (99.999%+) | Small-medium |
+| Bulk tank (5,000-100,000 L) | 0.1-0.5%/day | Medium ($50-500K) | Low (bulk delivery) | Liquid grade (99.999%+) | Large |
+| On-site liquefier | 0.5-2%/day (system losses) | High ($1-10M) | Moderate (electricity) | Controlled on-site | Large |
+
 ## See Also
 
 - **[Refrigeration Fundamentals](refrigeration.md)**: Thermodynamic cycles for achieving cryogenic temperatures
@@ -328,4 +373,5 @@ Beyond the common industrial gases (N₂, O₂, Ar), cryogenic technology extend
 
 
 
-[← Back to cryogenics](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Cryogenics](./index.md) • [All Domains](../index.md)*

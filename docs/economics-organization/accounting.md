@@ -221,4 +221,6 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 - [Division of Labor](./division-of-labor.md) — specialization creates the economic complexity that requires accounting
 - [Supply Chain Coordination](./supply-chain.md) — the planning system that depends on accounting data
 
-[← Back to Economics & Organization](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*

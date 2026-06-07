@@ -6,6 +6,11 @@
 > **Enables**: [`animals.beekeeping`](../animals/beekeeping.md), [`ceramics.pottery`](../ceramics/pottery.md), [`energy.fuels`](../energy/fuels.md), [`machine-tools.forming`](../machine-tools/forming.md), [`metals.copper-bronze`](../metals/copper-bronze.md), [`plants`](../plants/index.md)
 > **Timeline**: Years 0-5
 > **Outputs**: fire
+> **Critical**: Yes — fire is a root capability enabling cooking, metallurgy, ceramics, and chemical processing
+
+## Prerequisites
+
+None required — fire-making is a root human capability achievable with naturally available materials. Dry wood, suitable stone (flint, chert), and basic cordage from plant or animal fibers are sufficient for friction fire and spark-based ignition methods.
 
 ## Fire-Making
 
@@ -223,4 +228,5 @@ Store coal under cover to keep it dry. Wet coal doesn't burn as hot and produces
 - [Pottery](../ceramics/pottery.md) — kiln-fired ceramics
 - [Plants Index](../plants/index.md) — plant processing with fire
 
-[← Back to Foundations](./index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Foundations](./index.md) • [All Domains](../index.md)*

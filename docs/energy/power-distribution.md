@@ -393,6 +393,6 @@ A single winding with a tap point serves as both primary and secondary. The comm
 - **[Lubricants](../chemistry/lubricants.md)** — transformer oil specification, testing, and filtration.
 - **[Measurement Instruments](../measurement/electrical-instruments.md)** — megger, multimeter, power analyzer for transformer testing.
 
+---
 
-
-[← Back to Energy](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

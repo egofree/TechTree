@@ -318,6 +318,6 @@
 - [Energy](../energy/index.md) — pumping and treatment energy requirements
 - [Occupational Health](occupational-health.md) — workplace safety and hazard control
 
+---
 
-
-[← Back to Health](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../index.md)*

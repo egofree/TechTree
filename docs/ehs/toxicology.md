@@ -295,6 +295,6 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 - [Occupational Health](../health/occupational-health.md) — workplace exposure monitoring and medical surveillance
 - [Acids & Bases](../chemistry/acids-bases.md) — acid and alkali toxicity data
 
+---
 
-
-[← Back to EHS](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Environmental Health & Safety](./index.md) • [All Domains](../index.md)*

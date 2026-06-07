@@ -721,6 +721,6 @@ Choosing the right explosive for a task requires matching the explosive's proper
 - **[Nitric Acid](acids.md)**: Ostwald process producing nitric acid for nitration
 - **[Ammonia Production](ammonia.md)**: Haber-Bosch process for ammonia, the precursor to ammonium nitrate and hexamine
 
+---
 
-
-[← Back to Chemistry](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

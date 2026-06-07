@@ -205,4 +205,6 @@ Surface finish is indicated on drawings with a checkmark symbol (√) followed b
 - [Standards Bodies](standards-bodies.md) — standardization of drawing conventions
 - [Computing](../computing/index.md) — the computing infrastructure needed for CAD transition
 
-[← Back to Knowledge Preservation & Education](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*

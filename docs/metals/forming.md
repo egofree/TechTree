@@ -2,7 +2,7 @@
 
 > **Node ID**: metals.forming
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: `machine-tools`, [`metals.aluminum`](aluminum.md), [`metals.steelmaking`](steelmaking.md)
+> **Dependencies**: [`machine-tools`](../machine-tools/index.md), [`metals.aluminum`](aluminum.md), [`metals.steelmaking`](steelmaking.md)
 > **Enables**: [`energy.steam-power`](../energy/steam-power.md), [`transport.railways`](../transport/railways.md)
 > **Timeline**: Years 15-30
 > **Outputs**: steel slab, plate, sheet, bar, structural shapes, aluminum profiles, forgings
@@ -226,6 +226,39 @@ Structural rolling produces the shaped cross-sections that are the skeleton of c
 | Forging laps (metal folding on itself) | Incorrect preform shape; too much material in one area; die cavity fills unevenly | Redesign preform to distribute metal progressively; add blocker stage before finisher; verify flash gutter is adequate to accept excess material |
 | Rail head spalling after service | Insufficient head hardness; overheating during head hardening; inclusions at subsurface | Ensure head hardness 300-380 HB; control quench rate to avoid martensite brittleness; improve steel cleanliness (reduce oxygen and sulfur content) |
 
+## Selection Guide
+
+**Decision criteria — choosing primary forming methods**:
+- Use **continuous casting** for 95%+ of steel production — eliminates ingot soaking and blooming mill, 8-12% better yield than ingot route
+- Use **hot rolling (strip mill)** for sheet and coil at 1.0-12.7 mm thickness — highest throughput (2,000 t/shift), lowest cost per tonne
+- Use **plate mill** for 5-150 mm thick plate for ships, pressure vessels, bridges — single-stand reversing, 40,000-100,000 kN roll force
+- Use **extrusion** for constant-cross-section aluminum profiles — complex shapes (0.9 mm min wall), ±0.15 mm tolerance, up to 500 mm diameter
+- Use **wire rod rolling** for 5-25 mm diameter rod at 50-120 m/s — feedstock for all wire drawing
+- Use **open-die forging** for large shafts, turbine rotors, pressure vessels — 3:1 to 5:1 reduction ensures internal soundness
+- Use **closed-die forging** for high-volume precision parts — directional grain flow, 5,000-50,000 parts per die set
+- Use **thin-slab CSP** for direct hot-strip production at 40-50% lower capital than conventional thick-slab route
+
+**Implementation steps for primary forming facility**:
+1. Define product mix: slab/bloom/billet from caster, then hot-rolled strip/plate/bar/structural sections
+2. Size the continuous caster to match downstream mill capacity — 0.8-6.0 m/min depending on section
+3. Select reheat furnace: walking beam for conventional route; tunnel furnace for CSP (eliminates separate reheating)
+4. Establish water treatment system: 10,000-20,000 m³/hr recirculating for scale removal and roll cooling
+5. Install automatic gauge control (AGC) on finishing mill — ±0.05 mm thickness tolerance
+6. Set up quality inspection: ultrasonic testing for internal defects, dimensional gauging, surface inspection
+7. Plan roll maintenance schedule: work rolls every 2,000-5,000 t; backup rolls every 30,000-100,000 t
+
+**Primary forming route trade-offs**:
+
+| Route | Product | Thickness Range | Throughput | Capital | Yield | Best For |
+|---|---|---|---|---|---|---|
+| Continuous cast + hot strip mill | Hot-rolled coil | 1.0-12.7 mm | 2,000 t/shift | Very High | 95-98% | Mass-produced sheet/strip |
+| Continuous cast + plate mill | Plate | 5-150 mm | Variable | Very High | 90-95% | Ships, pressure vessels |
+| CSP (thin slab) | Hot-rolled coil | 1.0-6.0 mm | 1,000-1,500 t/shift | Medium | 96-98% | Mini-mills, lower capital |
+| Extrusion (Al) | Profiles | 0.8 mm min wall | 5-50 m/min | Medium | 85-95% | Complex aluminum shapes |
+| Wire rod rolling | Rod | 5-25 mm dia | 50-120 m/s exit | High | 95-98% | Wire drawing feedstock |
+| Open-die forging | Custom shapes | 10-500 mm shaft | Low | Medium | 75-90% | Large shafts, rotors |
+| Closed-die forging | Near-net parts | Variable | 100-1000 parts/hr | Medium-High | 75-90% | High-volume precision parts |
+
 ## See Also
 
 - [Steelmaking](steelmaking.md) — liquid steel that feeds continuous casting
@@ -233,7 +266,7 @@ Structural rolling produces the shaped cross-sections that are the skeleton of c
 - [Aluminum](aluminum.md) — primary aluminum for extrusion billets
 - [Machine Tools: Forming](../machine-tools/forming.md) — secondary operations: cold rolling, stamping, deep drawing, wire drawing, sheet metal forming
 - [Machine Tools: Machining](../machine-tools/machining.md) — machining bar stock into finished parts
-- [Machine Tools: Casting](../machine-tools/casting.md) — casting ingots and billets for forming
+- [Machine Tools: Casting](./casting.md) — casting ingots and billets for forming
 - [Machine Tools: Joining](../machine-tools/joining.md) — welding structural sections and plate
 - [Construction Materials](../construction/index.md) — structural steel in buildings and bridges
 - [Energy: Steam Power](../energy/steam-power.md) — boilers require rolled plate and seamless tube
@@ -252,4 +285,4 @@ Structural rolling produces the shaped cross-sections that are the skeleton of c
 
 
 
-[← Back to Metals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

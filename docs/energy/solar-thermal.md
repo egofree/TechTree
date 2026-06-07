@@ -269,17 +269,19 @@ A commercial CSP plant requires hundreds of precision-manufactured collector ass
 | Steam generator tube leak | Thermal cycling fatigue, or salt-side corrosion | Inspect tubes with eddy current testing annually; maintain salt chemistry (chlorides <100 ppm); use corrosion-resistant alloys (316L stainless minimum) |
 
 
-## High-Temperature Hazards
+## Safety
+
+### High-Temperature Hazards
 
 - **Receiver tube surfaces**: Parabolic trough receiver tubes reach 300-500°C. Central receiver surfaces exceed 800°C. Direct contact causes immediate severe burns. Install radiation shields and barriers around receiver assemblies. Post temperature warning signs.
 - **Concentrated solar flux**: Reflected sunlight from heliostats or dish concentrators produces flux densities capable of igniting clothing and causing instantaneous retinal damage. Never look directly at the receiver from within the mirror field. Workers in heliostat fields must wear UV-protective clothing and avoid standing in reflected beam paths.
 - **Heat transfer fluid**: Mineral oil at 300°C causes severe burns on contact. Molten salt at 565°C is a crystalline solid at room temperature but flows like water when heated — a salt spill solidifies into a hard crust that can trap and continue burning underlying material. Use full-face shield, heat-resistant gloves (rated to 500°C), and body protection when handling hot salt systems. Spill containment: concrete berms around salt tanks.
 
-## Glass Hazards
+### Glass Hazards
 
 - **Evacuated tube implosion**: Evacuated glass tubes are under atmospheric pressure (1 bar external, vacuum internal). A tube break produces an implosion followed by scatter of glass fragments at high velocity. Wear safety glasses and face shield when handling evacuated tubes. Wrap tubes in protective film to contain fragments if breakage occurs.
 
-## Structural Hazards
+### Structural Hazards
 
 - **Wind loading**: Parabolic troughs and heliostats present large sail areas to the wind. At 25 m/s wind speed, a 10 m² heliostat experiences ~3,000 N of force. Design mounting structures for local maximum wind loads with a 1.5× safety factor. Stow mirrors face-down (horizontal) when wind exceeds design speed.
 - **Thermal expansion**: Steel receiver tubes expand 6-7 mm per 10 m length per 100°C temperature rise. Provide expansion loops or bellows in piping. Rigidly constrained pipes will buckle and crack.
@@ -338,4 +340,5 @@ Low-temperature solar thermal applications do not require concentration:
 
 
 
-[← Back to Energy](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

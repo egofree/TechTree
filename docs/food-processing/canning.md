@@ -197,7 +197,7 @@ These values assume sea level and pure steam (no air). Air in the retort lowers 
 - **Home canning** (10-50 jars/batch): Stove-top water bath or small pressure canner (15-25 L capacity). Single burner. Manual timing with clock. Throughput: 20-40 jars per 3-hour session. Cost: minimal equipment. Labor: 2-4 hours per session.
 - **Community cannery** (200-1000 jars/day): Commercial retort (100-300 L capacity), multiple gas burners, mechanical can seamer. 2-3 workers. Throughput: 500-1000 units/day. Requires dedicated building with ventilation, steam supply, and water drainage.
 - **Industrial cannery** (10,000-100,000+ cans/day): Continuous rotary retorts or hydrostatic sterilizers, automated fillers and seamers, conveyor systems. Continuous rotary retort: cans rotate while progressing through heating, holding, and cooling sections. Throughput: 200-600 cans/minute. Hydrostatic sterilizer: cans pass through a water leg (preheat), steam chamber (sterilize at 121°C), and water leg (cool). Throughput: 500-2000 cans/minute. 50-200 workers per plant.
-- **Retort pouch**: Modern alternative to cans — flexible multilayer pouches heat faster (shorter process, better quality) and use less material. Requires polymer films and heat-sealing equipment — not available in early bootstrap but worth noting for later stages.
+- **Retort pouch**: Modern alternative to cans — flexible multilayer pouches heat faster (shorter process, better quality) and use less material. Requires polymer films and heat-sealing equipment — not available in early bootstrap but worth knowing for later stages.
 - **Equipment bottleneck**: The can seamer is the most precision-critical equipment. A misadjusted seamer produces defective seams that leak. Seam teardown and measurement (with micrometer) must be performed every 2-4 hours during production. A trained seamer mechanic is essential.
 
 ## Troubleshooting
@@ -258,6 +258,6 @@ These values assume sea level and pure steam (no air). Air in the retort lowers 
 - [Machine Tools](../machine-tools/index.md) — precision machining for can seamers
 - [Health & Sanitation](../health/sanitation.md) — microbiology, hygiene, food safety
 
+---
 
-
-[← Back to Food Processing](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*

@@ -613,6 +613,6 @@ When [Electricity](../energy/electricity.md) is available:
 - [Electricity](../energy/electricity.md) — power for electric kilns, pyrometry, and fans
 - [Gas Handling](../gas-handling/index.md) — natural gas supply for gas-fired kilns
 
+---
 
-
-[← Back to Ceramics & Refractories](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*

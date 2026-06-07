@@ -50,7 +50,7 @@ Compaction effectiveness depends on three factors: **compactive effort** (force 
 | Frame | 1 | 50 × 50 mm angle iron or 150 × 150 mm timber, 3-4 m long | [Iron & Steel](../metals/iron-steel.md) | Timber frame (adequate for animal-drawn) |
 | Wheels | 2-4 | 400-600 mm diameter, iron-rimmed timber or solid cast iron | [Iron & Steel](../metals/iron-steel.md) | Timber discs with iron tires |
 | Adjustment mechanism | 1 set | Lead screws or levers for blade angle, height, and lateral offset | [Machine Tools](../machine-tools/index.md) | Fixed blade (limits versatility) |
-| Hitch | 1 | Forge-welded steel, with swivel for animal team attachment | [Forging](../metals/forging.md) | Rope traces (less control) |
+| Hitch | 1 | Forge-welded steel, with swivel for animal team attachment | [Forging](../metals/forming.md) | Rope traces (less control) |
 
 ## Construction Steps
 
@@ -174,6 +174,15 @@ Compaction effectiveness depends on three factors: **compactive effort** (force 
 | Grader blade gouging road surface | Blade tilted, cutting depth too deep, blade worn unevenly | Re-level blade; reduce cutting depth; inspect and sharpen or replace cutting edge |
 | Grader not cutting hard ground | Blade dull, insufficient draft power, angle too steep | Sharpen or replace cutting edge; add another animal to the team; reduce blade angle to 30° |
 | Sheepsfoot feet clogging with clay | Clay too wet, feet too close together | Wait for drier conditions; if feet are welded at <50 mm spacing, remove every other foot to increase clearance |
+| Roller sinking into soft subgrade | Subgrade bearing capacity too low for roller weight | Reduce roller weight (drain partial ballast); add geotextile fabric and 150-200 mm granular layer before compaction |
+| Excessive vibration loosening frame bolts | Frame joints not re-torqued after initial 10 hours of operation | Inspect all frame bolts weekly; apply thread-locking compound to critical joints; re-torque to specification |
+| Uneven road crown (water ponds in wheel tracks) | Grader blade not set to correct crown angle, or single-pass grading | Set blade to produce 2-4% cross-slope (20-40 mm per meter of road width); make at least 2 passes per section — one each direction |
+
+## Scaling Notes
+
+A single animal-drawn roller (3-5 tonnes) compacts 1,500-3,000 m² per 8-hour day. At this rate, a 1 km section of 6 m wide road requires 2-4 days of roller work per lift. A typical 2-layer gravel road (150 mm subbase + 100 mm base) needs 4-8 roller days per kilometer.
+
+Scaling from animal-drawn to engine-powered equipment increases throughput 3-5× and allows heavier drums (8-12 tonnes) for deeper compaction (200-300 mm lifts vs. 150-200 mm). However, the minimum viable road-building capability is the animal-drawn setup described here — sufficient for low-traffic roads carrying <500 vehicles per day at speeds below 40 km/h.
 
 ## Variations and Alternatives
 
@@ -192,4 +201,4 @@ Compaction effectiveness depends on three factors: **compactive effort** (force 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Transport](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*

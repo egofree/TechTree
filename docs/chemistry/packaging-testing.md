@@ -241,4 +241,6 @@ ICH (International Council for Harmonisation) guidelines define standard conditi
 - [Fab Processes](../photolithography/fab-processes.md) — the wafer fabrication processes that precede packaging
 - [Analytical Verification](../ultra-pure/analytical-verification.md) — contamination analysis methods
 
-[← Back to Chemistry](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

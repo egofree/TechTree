@@ -352,4 +352,6 @@ The float zone process produces the purest silicon available, because nothing to
 - [Wafering](wafering.md) — ingot slicing and wafer polishing
 - [Basic Devices](basic-devices.md) — device fabrication from wafers
 
-[← Back to Silicon](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*

@@ -329,6 +329,6 @@ A workshop with UV exposure, spray etch tank, and drill press can produce functi
 - **[CNC Machine Tools](../machine-tools/edm-cnc.md)**: drilling and routing equipment
 - **[Cleanrooms](../photolithography/cleanrooms.md)**: controlled environment for fine-line PCB production
 
+---
 
-
-[← Back to Electronics](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*

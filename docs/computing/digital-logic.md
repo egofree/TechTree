@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 40-50
 > **Outputs**: logic_gates, combinational_circuits, sequential_circuits, arithmetic_units, memory_elements
+> **Critical**: Yes — all digital hardware from processors to memory requires gate-level logic design
 
 
 Every computation a processor performs reduces to operations on binary signals: voltage present or absent, stored charge or no charge. Digital logic provides the foundational building blocks that manipulate these binary states. Without a solid grasp of gate-level design, building anything from a simple counter to a full CPU is impossible. This page covers the theory and transistor-level implementation of the logic families, combinational circuits, sequential elements, and arithmetic units that form the hardware layer of all [computing](./index.md).
@@ -14,15 +15,15 @@ Every computation a processor performs reduces to operations on binary signals: 
 
 George Boole's 1854 algebra formalizes binary reasoning. Variables take values 0 or 1. Three basic operations underpin everything:
 
-- **AND**: Output is 1 only when all inputs are 1. Symbol: A · B (or AB).
+- **AND**: Output is 1 only when all inputs are 1. Symbol: A • B (or AB).
 - **OR**: Output is 1 when any input is 1. Symbol: A + B.
 - **NOT**: Output is the complement of the input. Symbol: Ā (or ¬A).
 
-From these three, all other operations derive. Key identities: A · 0 = 0, A · 1 = A, A + 0 = A, A + 1 = 1, A · Ā = 0, A + Ā = 1. De Morgan's laws convert between AND and OR: (A · B)̄ = Ā + B̄ and (A + B)̄ = Ā · B̄. These laws are essential for simplifying circuits and converting between logic families.
+From these three, all other operations derive. Key identities: A • 0 = 0, A • 1 = A, A + 0 = A, A + 1 = 1, A • Ā = 0, A + Ā = 1. De Morgan's laws convert between AND and OR: (A • B)̄ = Ā + B̄ and (A + B)̄ = Ā • B̄. These laws are essential for simplifying circuits and converting between logic families.
 
 **Derived gates**:
 
-- **NAND**: (A · B)̄. A universal gate: any Boolean function can be implemented using NAND gates alone.
+- **NAND**: (A • B)̄. A universal gate: any Boolean function can be implemented using NAND gates alone.
 - **NOR**: (A + B)̄. Also universal.
 - **[XOR](../glossary/xor.md)** (exclusive-OR): A ⊕ B = A·B̄ + Ā·B. Output is 1 when inputs differ. Used in parity checking and adders.
 - **XNOR**: (A ⊕ B)̄. Output is 1 when inputs match. Used in comparators.
@@ -148,11 +149,11 @@ An array of D flip-flops (or latches) addressed by a read/write address. A 32×8
 
 ## Half Adder
 
-Adds two single-bit numbers. Sum = A ⊕ B (XOR gate). Carry = A · B (AND gate). Two gates, no carry input from a previous stage.
+Adds two single-bit numbers. Sum = A ⊕ B (XOR gate). Carry = A • B (AND gate). Two gates, no carry input from a previous stage.
 
 ## Full Adder
 
-Adds two bits plus a carry input. Sum = A ⊕ B ⊕ Cin. Carry out = (A · B) + (Cin · (A ⊕ B)). Implemented with two half adders and one OR gate (9 transistors in CMOS). The full adder is the fundamental building block of all multi-bit adders.
+Adds two bits plus a carry input. Sum = A ⊕ B ⊕ Cin. Carry out = (A • B) + (Cin • (A ⊕ B)). Implemented with two half adders and one OR gate (9 transistors in CMOS). The full adder is the fundamental building block of all multi-bit adders.
 
 ## Ripple Carry Adder
 
@@ -168,7 +169,7 @@ Chain N full adders: carry out of bit 0 feeds carry in of bit 1, and so on. For 
 
 ## Carry-Lookahead Adder
 
-Precomputes carry signals using generate (G = A · B) and propagate (P = A ⊕ B) terms. Carry out of stage i: C_i+1 = G_i + P_i · C_i. By expanding recursively, all carries compute in parallel from the inputs, without waiting for ripple. A 4-bit lookahead unit computes all carries in 2 gate delays. Multi-bit adders chain lookahead blocks with group generate/propagate. Delay grows as log₂(N) rather than N. The standard approach for adders wider than 8 bits.
+Precomputes carry signals using generate (G = A • B) and propagate (P = A ⊕ B) terms. Carry out of stage i: C_i+1 = G_i + P_i • C_i. By expanding recursively, all carries compute in parallel from the inputs, without waiting for ripple. A 4-bit lookahead unit computes all carries in 2 gate delays. Multi-bit adders chain lookahead blocks with group generate/propagate. Delay grows as log₂(N) rather than N. The standard approach for adders wider than 8 bits.
 
 **Strengths**:
 - O(log N) delay — a 32-bit carry-lookahead adder computes in ~6 gate delays vs. 64 for ripple carry
@@ -297,4 +298,5 @@ Building digital logic from discrete transistors is educational but impractical 
 - [Logic Design](logic-design.md) — digital circuit design methodology
 - [Electromechanical Computing](electromechanical.md) — relay-based predecessors
 
-[← Back to Computing](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*

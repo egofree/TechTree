@@ -269,6 +269,6 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 - [Waste Management](../ehs/waste-management.md) — Disposal of leach residues and process waste
 - [Chemical Recovery](../chemistry/chemical-recovery.md) — Acid and solvent recovery from leaching operations
 
+---
 
-
-[← Back to Mining](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining Engineering & Extractive Metallurgy](./index.md) • [All Domains](../index.md)*

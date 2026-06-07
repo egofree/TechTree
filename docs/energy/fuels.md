@@ -198,7 +198,7 @@ The bootstrap cannot skip steps. Each fuel requires the infrastructure of the pr
 - [Steelmaking](../metals/steelmaking.md) — coke for blast furnaces
 - [Ceramics: Kiln Firing](../ceramics/kiln-firing.md) — kiln fuel requirements
 - [Glass: Basic](../glass/basic.md) — glass melting fuel requirements
-- [Machine Tools: Casting](../machine-tools/casting.md) — foundry fuel requirements
+- [Machine Tools: Casting](../metals/casting.md) — foundry fuel requirements
 - [Transport](../transport/index.md) — fuel for vehicles and railways
 
 ## Safety & Hazards
@@ -253,6 +253,6 @@ Straight vegetable oil (SVO) can run in modified diesel engines, but its high vi
 
 Transesterification produces biodiesel with properties much closer to petroleum diesel. The reaction uses 1 kg of vegetable oil (triglyceride), 100-200 g of methanol (6:1 molar ratio, excess drives reaction to completion), and 3-8 g of sodium hydroxide (NaOH) or potassium hydroxide (KOH) as catalyst. The reaction proceeds at 50-65°C for 1-3 hours with continuous stirring. Products separate into two layers: biodiesel (methyl esters, upper layer, ~95% yield) and glycerol (lower layer, byproduct with value as a chemical feedstock). Biodiesel cetane number: 48-65 (vs. 40-55 for petroleum diesel). Viscosity: 4-5 cSt at 40°C (close to diesel). Energy density: 37-40 MJ/kg (about 8-10% lower than petroleum diesel). Biodiesel can be blended with petroleum diesel at any ratio or used neat (B100) in compatible engines.
 
+---
 
-
-[← Back to Energy](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

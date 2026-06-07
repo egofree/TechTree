@@ -265,4 +265,6 @@ An inevitable side reaction in the silicon furnace:
 - [Silicon Index](index.md) — silicon production chain overview
 - [Czochralski Pulling](cz-pulling.md) — CZ crystal pulling from MG-Si
 
-[← Back to Silicon](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*

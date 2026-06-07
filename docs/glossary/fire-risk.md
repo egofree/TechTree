@@ -13,5 +13,5 @@ In woodworking and textile operations, combustible dust accumulations create exp
 ## Appears In
 
 - [Electricity](../energy/electricity.md)
-- [Casting](../machine-tools/casting.md)
+- [Casting](../metals/casting.md)
 - [Structural Plants](../plants/structural-plants.md)

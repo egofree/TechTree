@@ -248,4 +248,6 @@ Soap production scales with the alkali supply chain. The progression is:
 - [Metal Finishing](../metals/finishing.md) — degreasing before plating and coating
 - [Oil & Fat Processing](../food-processing/oil-processing.md) — tallow and vegetable oil as soap feedstock
 
-[← Back to Chemistry](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

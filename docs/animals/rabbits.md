@@ -220,4 +220,6 @@ A 10-doe rabbitry (1 buck) in 15-25 m² produces 300 kg dressed meat per year �
 - [Food Processing](../food-processing/index.md) — meat preservation methods for rabbit
 - [Insect Farming](insect-farming.md) — alternative small-scale protein production
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

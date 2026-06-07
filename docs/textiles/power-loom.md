@@ -135,6 +135,57 @@ This article covers the construction of a basic power loom suitable for bootstra
 - **Dust and fly**: Weaving generates cotton dust and fiber fly. Ventilate the weaving room. Byssinosis risk with cotton dust — wear dust masks.
 - **Entanglement**: Loose clothing, hair, or jewelry caught in the belt drive or crank shaft causes severe injury. Fitted clothing, hair tied back, guards on all rotating parts.
 
+## Maintenance
+
+Power looms require systematic maintenance to maintain cloth quality and prevent breakdowns. A neglected loom produces defects and can fail catastrophically from fatigue in high-stress components.
+
+**Daily checks** (before each shift):
+- Inspect the reed for bent or broken dents. A single bent dent produces a visible vertical line (reed mark) on every pick. Straighten bent dents with fine-nose pliers; replace broken dents immediately.
+- Check shuttle boxes for wear on leather buffers. Worn buffers allow the shuttle to bounce back out of the box, causing missed picks and potential shuttle ejection.
+- Verify warp tension uniformity by plucking warp threads at 5-10 positions across the width. All threads should produce the same pitch.
+- Oil all bearing points: main crank shaft bearings, cam shaft bearings, lay pivot pins, picking stick pivots, and treadle lever pivots. Use machine oil (SAE 30). A loom running 8 hours per day needs 5-10 mL of oil per bearing per week.
+
+**Weekly maintenance**:
+- Check timing between shedding, picking, and beating. Rotate the main shaft slowly by hand and verify: shed fully open before shuttle launches, shuttle arrives before lay beats, lay contacts fell after shed begins to close. Timing drifts as cam followers and connecting rods wear.
+- Inspect heddle frames for bent or broken wire heddles. A broken heddle drops its warp thread, producing a broken end defect. Replace broken heddles individually — do not wait for accumulation.
+- Clean the shuttle race (track) and check for wear grooves. A worn race causes the shuttle to wobble and potentially derail. Sand smooth or replace the race surface.
+- Check the belt for cracks, glazing, and proper tension. A slipping belt causes speed variation and inconsistent pick spacing.
+
+**Monthly maintenance**:
+- Inspect the crank shaft for fatigue cracks at the crank throw (the highest-stress point). A cracked crank shaft fails catastrophically. Replace if any crack is visible.
+- Check the lay (batten) pivot points for wear. Excessive play in the lay pivot causes inconsistent beat-up force, producing uneven pick density.
+- Inspect the picking stick for cracks and splinters at the cam contact point. A broken picking stick stops the loom. Replace picking sticks before they fail, not after.
+- Clean and inspect the warp let-off brake mechanism. The brake must maintain constant tension as the warp beam unwinds. A slipping brake causes tension variation and broken ends.
+
+**Shuttle maintenance**:
+- Check shuttle weight: standard shuttle weighs 300-500 g. Replace worn or damaged shuttles — a cracked shuttle can disintegrate in flight.
+- Check shuttle bobbin fit: the bobbin must spin freely in the shuttle cavity. A tight bobbin causes thread breakage; a loose bobbin causes uneven thread delivery.
+- Inspect the shuttle eye (thread exit hole) for burrs. Polish with fine abrasive if thread is fraying at the exit point.
+
+## Troubleshooting (Power Loom Specific)
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Shuttle not reaching opposite box | Picking stick worn, picker buffer deteriorated, or shuttle too light | Replace picker buffer. Increase picking force (adjust cam engagement). Add lead weight inside shuttle. |
+| Broken ends (frequent) | Warp tension too high, heddle eyes rough, or yarn quality insufficient | Reduce warp tension by 10-15%. Polish heddle eyes with fine emery. Check yarn strength — apply warp sizing (starch coating) if needed. |
+| Cloth draw-in at selvedge | Weft tension too high or no temple used | Install temple (cloth stretcher) at fell line. Reduce weft package tension. Check shuttle bobbin winding quality. |
+| Inconsistent pick spacing | Let-off tension varying or take-up mechanism slipping | Clean and adjust the warp beam brake ratchet. Check take-up pawl engagement. Oil take-up gear train. |
+| Shuttle flying out of race | Race worn, shuttle box misaligned, or picking force excessive | Replace worn race surface. Align shuttle boxes with the race. Reduce picking force. Install guard bars. |
+| Loom stopping (false trips) | Stop-motion feeler bar too sensitive or vibration triggering mechanism | Adjust feeler bar gap. Mount feeler bar with anti-vibration brackets. Check for loose connections in the stop-motion linkage. |
+
+## Cloth Defect Classification
+
+| Defect | Description | Severity | Action |
+|--------|-------------|----------|--------|
+| Broken end | Missing warp thread, thin vertical line | Major | Hand-mend if possible; otherwise downgrade cloth |
+| Missed pick | Missing weft thread, thin horizontal line | Major | Stop loom, back up, re-insert weft |
+| Float | Yarn floating over surface instead of interweaving | Major | Check heddle and re-thread |
+| Slack pick | Loose weft, visible as slightly wider spacing | Minor | Increase take-up tension |
+| Tight pick | Packed weft, visible as slightly narrower spacing | Minor | Decrease take-up tension |
+| Reed mark | Vertical line at reed dent spacing | Minor | Clean or replace reed |
+| Oil spot | Lubricant contamination on cloth | Minor | Reduce oiling quantity; install drip guards |
+| Slub | Thick lump in yarn | Cosmetic | Trim flush; improve yarn quality upstream |
+
 ## See Also
 
 - [Weaving](weaving.md) — hand loom construction, weave structures, warping procedures
@@ -143,5 +194,8 @@ This article covers the construction of a basic power loom suitable for bootstra
 - [Machine Tools](../machine-tools/index.md) — precision machining for shafts, cams, and frames
 - [Bearings](../machine-tools/bearings-abrasives.md) — bearing selection for crank shafts and cam shafts
 - [Sewing & Tailoring](sewing-tailoring.md) — garment construction from woven cloth
+- [Finishing](finishing.md) — post-weave finishing processes for loomstate cloth
+- [Dyeing](dyeing.md) — coloring woven cloth before and after finishing
 
-[← Back to Textiles](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

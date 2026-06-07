@@ -2,13 +2,22 @@
 
 > **Node ID**: automation.wafer-handling
 > **Domain**: [Automation & Robotics](./index.md)
-> **Dependencies**: `machine-tools`, `vacuum`
+> **Dependencies**: [`machine-tools`](../machine-tools/index.md), [`vacuum`](../vacuum/index.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 60-100+
 > **Outputs**: wafer_transfer_capability, cleanroom_robots, load_lock_systems
+> **Critical**: Yes — sub-250nm semiconductor manufacturing requires automated wafer handling; manual handling cannot meet particle and positioning requirements for leading-edge lithography
 
 
 A 300 mm semiconductor wafer contains billions of transistors across a silicon surface that must remain particle-free to within ISO Class 1 (≤1 particle ≥0.1 μm per cubic foot). Human handling introduces skin cells, lint, and oils that destroy yield. Automated wafer handling robots operate inside process equipment and between tools, transferring wafers with sub-millimeter positional accuracy while generating virtually no particles. This capability is essential for any fab processing wafers below 250 nm feature sizes.
+
+## Prerequisites
+
+- [Machine Tools](../machine-tools/index.md) — precision machining of robot arms, end effectors, and load lock components
+- [Vacuum Technology](../vacuum/index.md) — vacuum pumps, load locks, and slit valves for vacuum wafer transfer
+- [Electronics](../electronics/index.md) — servo motors, encoders, and motion controllers for robot actuation
+- [Cleanrooms](../photolithography/cleanrooms.md) — ISO Class 1 environment for particle-free wafer handling
+- [Electricity](../energy/electricity.md) — power supply for robot motors, controllers, and vacuum pumps
 
 ## Decision Framework: Robot Selection
 
@@ -317,4 +326,6 @@ Modern process tools use cluster configurations where multiple process chambers 
 - [Core Fab Processes](../photolithography/fab-processes.md) — wafer processing steps
 - [Cleanrooms](../photolithography/cleanrooms.md) — cleanroom requirements for handling
 
-[← Back to Automation & Robotics](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Automation & Robotics](./index.md) • [All Domains](../index.md)*

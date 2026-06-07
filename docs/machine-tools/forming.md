@@ -392,6 +392,6 @@ The choice of forming method depends on production volume, part geometry, materi
 - [Iron & Steel](../metals/iron-steel.md) — Steel sheet and plate for forming operations
 - [Machine Tools Overview](./index.md) — Complete machine tools reference
 
+---
 
-
-[← Back to Machine Tools](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*

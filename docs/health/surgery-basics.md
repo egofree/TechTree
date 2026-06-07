@@ -245,6 +245,6 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 - [Chemistry](../chemistry/index.md) — ethanol production, chemical sterilants
 - [Textiles](../textiles/index.md) — bandage and suture material sourcing
 
+---
 
-
-[← Back to Health](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../index.md)*

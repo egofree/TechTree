@@ -230,7 +230,7 @@ Faraday's first law of electrolysis: the mass of substance deposited or dissolve
 
 **Mercury cell legacy**: The mercury cell process (cathode: flowing mercury amalgam, Na-Hg) was historically a major source of mercury pollution. Each tonne of Cl₂ produced lost 2-50 g of mercury to wastewater and air. The Minamata Convention (2017) mandates phaseout of mercury cell chlor-alkali plants. Conversion to membrane cells eliminates mercury emissions entirely. Contaminated sites require soil remediation (activated carbon, ion exchange, or excavation).
 
-**Chlor-alkali hydrogen utilization**: The H₂ byproduct (0.028 tonnes H₂ per tonne Cl₂) is a valuable co-product. Uses: HCl synthesis (H₂ + Cl₂ → 2HCl), fuel for boiler or furnace (lower heating value 120 MJ/kg), hydrogenation reactions in chemical synthesis, or purified for semiconductor use. In many plants, H₂ provides a significant portion of the total site fuel requirement. Failure to utilize H₂ wastes energy and creates a flammable gas disposal problem (flaring).
+**Chlor-alkali hydrogen utilization**: The H₂ byproduct (0.028 tonnes H₂ per tonne Cl₂) is a valuable co-product. Uses: HCl synthesis (H₂ + Cl₂ → 2HCl), fuel for boiler or furnace (lower heating value 120 MJ/kg), hydrogenation reactions in chemical synthesis, or purified for semiconductor use. In many plants, H₂ provides a significant portion of the total site fuel requirement. Failure to use H₂ wastes energy and creates a flammable gas disposal problem (flaring).
 
 **Aluminum smelter fluoride emissions**: HF, CF₄, and C₂F₆ emissions from Hall-Héroult cells are controlled by dry scrubbing: alumina (Al₂O₃) is injected into the cell exhaust gas, where it reacts with HF to form aluminum fluoride (AlF₃). The fluoridated alumina is then fed to the cells (closing the fluoride loop). CF₄ and C₂F₆ are formed during anode effects (voltage spikes from low alumina concentration) and are extremely potent greenhouse gases (GWP₁₀₀: CF₄ = 6,630, C₂F₆ = 11,100). Modern potlines minimize anode effects through automated alumina feeding and computer control, reducing PFC emissions to <0.1 kg CF₄ per tonne Al.
 
@@ -265,6 +265,6 @@ Faraday's first law of electrolysis: the mass of substance deposited or dissolve
 - **[Hydrogen and Silane](hydrogen-silane.md)**: Hydrogen as a feedstock for silane and semiconductor gases
 - **[Aluminum Production](../metals/aluminum.md)**: Hall-Héroult electrolysis for aluminum
 
+---
 
-
-[← Back to Chemistry](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

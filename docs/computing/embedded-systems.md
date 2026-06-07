@@ -364,4 +364,5 @@ Industrial control using standardized PLC hardware: rack-mounted I/O modules, la
 
 
 
-[← Back to Computing](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*

@@ -423,6 +423,6 @@ Immerse thin glass (1-3 mm) in molten KNO₃ at 400-450°C for 4-16 hours. Large
 - [Electric Furnaces](../energy/electric-furnaces.md) — furnace requirements for fused silica and optical glass
 - [Electrolysis](../chemistry/electrolysis.md) — hydrogen production for oxy-hydrogen torch systems
 
+---
 
-
-[← Back to Glass](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*

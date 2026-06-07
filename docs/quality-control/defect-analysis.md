@@ -2,10 +2,24 @@
 
 > **Node ID**: quality-control.defect-analysis
 > **Domain**: [Quality Control](./index.md)
-> **Dependencies**: `quality-control`, `quality-control.spc`
+> **Dependencies**: [`quality-control`](./index.md), [`quality-control.spc`](statistical-process-control.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 40-100+
 > **Outputs**: fmea, pareto_analysis, fishbone_diagrams, yield_models, defect_density, root_cause_analysis
+> **Critical**: No — defect analysis improves yields but production can continue without systematic analysis
+
+## Prerequisites
+
+Defect analysis requires data collection and statistical tools:
+
+- [Quality control framework](./index.md) — organizational quality management system
+- [Statistical process control](statistical-process-control.md) — control charts and process capability metrics
+- [Measurement and inspection](inspection-sampling.md) — inline inspection tools for defect detection
+- [Computing](../computing/index.md) — data management and statistical analysis software
+
+## Safety
+
+No physical hazards — defect analysis is an analytical discipline. Workstation ergonomics apply: proper posture, adequate lighting, and regular breaks during extended data analysis sessions.
 
 
 Semiconductor fabrication involves 500+ sequential process steps across photolithography, etch, deposition, implantation, and CMP. Each step introduces potential defects — particles, pattern distortions, contamination, thickness non-uniformity. A single killer defect on a die renders it non-functional, yet a modern 300 mm wafer contains hundreds of thousands of die. Understanding which defects matter, where they come from, and how to eliminate them is the central engineering challenge of semiconductor yield management.
@@ -386,6 +400,5 @@ In semiconductor fabs with extensive data collection (FDC — Fault Detection an
 - [Measurement](../measurement/index.md) — metrology for defect characterization
 - [Computing](../computing/index.md) — automated defect classification and yield simulation
 
-
-
-[← Back to quality-control](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Quality Control & Statistical Process Control](./index.md) • [All Domains](../index.md)*

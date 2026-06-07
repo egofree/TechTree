@@ -334,6 +334,6 @@ Lithium-exchanged zeolite (LiLSX) selectively adsorbs N₂ from air at near-ambi
 - [Hydrogen and Silane](hydrogen-silane.md) — H₂ used in argon polishing catalytic deoxidation
 - [Electrolysis](electrolysis.md) — H₂ supply for argon purification
 
+---
 
-
-[← Back to Chemistry](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

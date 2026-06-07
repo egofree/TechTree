@@ -370,6 +370,34 @@ Chromite processing and chromium plating generate hexavalent chromium (Cr(VI)) c
 
 Cemented carbide (WC-Co) production and recycling expose workers to cobalt powder and cobalt salts. Cobalt is a skin sensitizer and causes "hard metal asthma" (occupational asthma in 5-15% of exposed workers). Chronic inhalation leads to the hard metal lung disease described above. Ingestion of soluble cobalt compounds causes cardiomyopathy ("beer drinker's heart" — historically from cobalt added to beer as foam stabilizer). Controls: LEV at all powder handling stations. Separate washing facilities to prevent take-home exposure. Periodic air monitoring: cobalt occupational exposure limit 0.02 mg/m³ (ACGIH TLV).
 
+## Selection Guide
+
+**Decision criteria — choosing refractory metal processing methods**:
+- Use **direct sintering** (resistance heating in H₂) for tungsten and molybdenum bar — 2000-3100°C, the standard route for mill products (wire, sheet, rod)
+- Use **vacuum arc remelting (VAR)** for large ingots of Nb, Ta, and Mo — consumable electrode, avoids refractory crucible contamination
+- Use **cemented carbide (WC-Co) powder metallurgy** for cutting tools and wear parts — liquid-phase sintering at 1350-1450°C, HRA 85-95
+- Use **swaging + wire drawing** for tungsten filament production — 400-800°C working temperature (above DBTT), diamond dies below 1.0 mm
+- Use **TZM alloy** (Mo + 0.5% Ti + 0.08% Zr) instead of pure Mo for heating elements above 1100°C — recrystallization raised to 1300-1400°C, 10× lower creep rate
+- Use **tantalum powder + sintering + anodization** for capacitor production — 30,000+ µFV/g specific capacitance, 20-50 V formation voltage
+- Use **Nb-Ti (47 wt% Ti)** for superconducting wire (4.2 K operation) — 375-420°C heat treatment precipitates α-Ti flux pinning centers
+
+**Implementation steps for refractory metal capability**:
+1. Secure ore supply: wolframite/scheelite for W, molybdenite for Mo, coltan for Ta/Nb
+2. Establish hydrogen reduction capability: WO₃ + 3H₂ → W + 3H₂O at 700-1000°C in pusher or rotary furnace
+3. Set up powder processing: ball milling, sieving, and blending for uniform particle size distribution
+4. Install direct sintering furnace (water-cooled bell, H₂ atmosphere) capable of 2500-3100°C for tungsten, 1700-2000°C for Mo
+5. Add swaging and wire drawing capability with heated dies (400-800°C for W) and diamond dies for <1.0 mm wire
+6. For cemented carbides: install ball mill for WC-Co mixing, automatic press for compaction, vacuum sintering furnace at 1350-1450°C
+
+**Refractory metal product trade-offs**:
+
+| Metal | Melting Point (°C) | Key Product | Processing Route | Cost | Critical Property | Main Use |
+|---|---|---|---|---|---|---|
+| Tungsten (W) | 3422 | Wire/filament, WC tools | H₂ reduction + sinter + swage | Very High | Highest melting point | Lamp filaments, WC cutting tools |
+| Molybdenum (Mo) | 2623 | Sheet, wire, TZM alloy | H₂ reduction + sinter + work | High | High thermal conductivity | Heating elements, furnace parts |
+| Tantalum (Ta) | 3017 | Capacitor powder, sheet | Na/K reduction + sinter + anodize | Very High | Capacitance density | Capacitors, chemical equipment |
+| Niobium (Nb) | 2477 | Nb-Ti superconductor | Aluminothermic + VAR + draw | High | Superconductivity (Nb-Ti) | MRI magnets, particle accelerators |
+
 ## Vacuum Furnace Hazards
 
 VAR and vacuum sintering furnaces operate at pressures below 0.1 Pa. Hazards include: (1) **Implosion risk** — large vacuum chambers (500-1500 mm diameter) experience ~10 N/cm² atmospheric pressure on the shell. A cracked viewport or faulty seal can cause violent implosion. All chambers require protective shields and regular hydrostatic proof testing. (2) **Suffocation** — argon backfill after vacuum processing displaces oxygen. Confined space entry protocols required for chamber maintenance: test O₂ >19.5% before entry, use continuous ventilation and an attendant. (3) **Water-cooled crucible failure** — in VAR, a breach in the water-cooled copper crucible allows water to contact molten metal (>1500°C), causing a steam explosion. Double-walled crucibles with leak detection between walls are mandatory for safety-critical melts.
@@ -418,4 +446,4 @@ VAR furnaces draw 2,000-20,000 A at 20-40 V DC. While the voltage is low, the av
 - [Machining](../machine-tools/machining.md) — tungsten carbide cutting tools
 - [Passive Components](../electronics/passive-components.md) — tantalum capacitors
 
-[← Back to Metals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

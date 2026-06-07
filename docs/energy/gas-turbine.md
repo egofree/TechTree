@@ -232,4 +232,6 @@ Not achievable until well into the industrial era, after precision machine tools
 - [Metals](../metals/iron-steel.md) — superalloy base metals and alloying elements
 - [Aviation](../transport/aviation.md) — jet propulsion applications
 
-[← Back to Energy](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

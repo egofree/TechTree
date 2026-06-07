@@ -217,4 +217,5 @@ Crystal receiver + low-power spark or tube transmitter (0.1-0.5 kW). Ship-to-sho
 - [Data Storage](../computing/data-storage.md) — magnetic recording for signal logging
 - [Measurement / Electrical Instruments](../measurement/electrical-instruments.md) — galvanometers, oscilloscopes, and signal measurement
 
-[← Back to Telecom](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Telecommunications](./index.md) • [All Domains](../index.md)*

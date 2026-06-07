@@ -243,4 +243,6 @@ For bootstrapping, alkaline electrolysis is the clear choice: proven technology 
 - [Silicon Purification](../silicon/purification.md) — polysilicon production from TCS
 - [Powder Metallurgy](../metals/powder-metallurgy.md) — hydrogen-reduction of metal powders
 
-[← Back to Chemistry](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

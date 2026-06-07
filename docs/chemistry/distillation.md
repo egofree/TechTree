@@ -248,4 +248,6 @@ Distillation remains the backbone of chemical separation worldwide, and its mast
 - [Wood Gasification](wood-gasification.md) — tar and wood vinegar distillation from producer gas
 - [Chemical Recovery](chemical-recovery.md) — solvent regeneration by distillation
 
-[← Back to Chemistry](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

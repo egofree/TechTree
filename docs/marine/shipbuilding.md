@@ -8,6 +8,16 @@
 > **Outputs**: vessels, wooden hulls, iron hulls, steel hulls
 > **Critical**: No — specialized maritime capability, not required for land-based civilization
 
+## Prerequisites
+
+Shipbuilding requires progressively more advanced materials and tools as hull construction evolves from wood to iron to steel:
+
+- [Machine tools](../machine-tools/index.md) — precision boring, planing, and riveting for metal hull construction
+- [Iron and steel production](../metals/iron-steel.md) — wrought iron and steel plates for hull plating and framing
+- [Water transport](../transport/shipping.md) — operational knowledge of cargo handling and navigation
+
+Basic wooden boatbuilding (dugout canoes, clinker-built hulls) requires only [foundational tools](../foundations/tools-basic.md) and timber. Advanced iron and steel shipbuilding requires the full industrial base listed above.
+
 Shipbuilding evolves through four major construction methods, each enabled by advances in materials and tools. The progression from hollowed logs to iron-hulled steamships spans millennia and requires increasingly sophisticated metallurgy, woodworking, and eventually machine tools.
 
 For operational aspects of water transport (navigation, cargo handling, canal engineering), see [Water Transport](../transport/shipping.md).
@@ -253,4 +263,5 @@ For detailed sailing mechanics, see [Water Transport](../transport/shipping.md).
 - [Textiles](../textiles/index.md) — sailcloth and rope production
 - [Metal Joining](../machine-tools/joining.md) — riveting, welding, and brazing techniques
 
-[← Back to Marine & Naval Engineering](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval Engineering](./index.md) • [All Domains](../index.md)*

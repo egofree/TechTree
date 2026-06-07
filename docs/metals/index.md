@@ -5,6 +5,7 @@ Capabilities in this domain:
 - [Copper & Bronze Production](copper-bronze.md) — Copper smelting from malachite, azurite, and chalcopyrite in forced-draft charcoal furnaces at 1085-1200°C. Bronze alloying, electrolytic refining, brass, and electrical copper.
 - [Iron & Steel Production](iron-steel.md) — Bloomery smelting of iron ore at 1200-1400°C producing wrought iron, carburization for steel, and crucible steel. Heat treatment, metalworking, and joining.
 - [Blast Furnace & Cast Iron](blast-furnace.md) — Continuous iron smelting producing pig iron and cast iron via blast furnace and cupola furnace. Hot blast stoves, slag processing, sintering, DRI.
+- [Metal Casting](casting.md) — Crucible furnaces for aluminum (660°C) and cast iron (1200-1400°C), green sand molding with bentonite binder, pattern making with shrinkage allowance, flask-based casting, and investment casting.
 - [Modern Steelmaking](steelmaking.md) — Bessemer, open-hearth, basic oxygen furnace (BOF), electric arc furnace (EAF), ladle metallurgy, continuous casting, and steel product forms.
 - [Aluminum Production](aluminum.md) — Bayer process alumina production, Hall-Héroult electrolytic smelting, aluminum alloys, extrusion, die casting, and recycling.
 - [Non-Ferrous Metal Production](non-ferrous.md) — Industrial production of zinc, lead, tin, nickel, magnesium, and titanium from ores. Galvanizing, batteries, solder, and specialty metals.
@@ -17,6 +18,9 @@ Capabilities in this domain:
 - [Refractory & Specialty Metals for Semiconductor Manufacturing](refractory-specialty.md) — Tantalum (TaN/Ta diffusion barriers, sputtering targets), cobalt (CoSi₂ contacts, CMP slurry), and indium (ITO transparent conductors, InGaAs photonics, bump bonding).
 - [Specialty Metals for Semiconductor Interconnects & Barrier Layers](specialty-semiconductor.md) — Titanium (TiN hard masks, Ti diffusion barriers, TiO₂ high-k), tungsten (W CVD plug fill, contact vias, TSVs), molybdenum (gate electrodes, sputtering targets, heat sinks), and copper (dual damascene electroplating, CMP, electromigration).
 - [Precious Metal Production](precious-metals.md) — Gold and silver extraction from ores, alluvial deposits, and recycled scrap. Cyanidation, electrolytic refining to 99.99%+, aqua regia, Wohlwill gold refining, and Moebius silver refining. Produces semiconductor-grade gold wire and silver paste.
+- [Magnetic Materials](magnetic-materials.md) — Soft magnetic silicon steel for transformer cores and motor laminations, alnico and ferrite permanent magnets, grain orientation, spinodal decomposition heat treatment, and lamination processing.
 - [Metal Scrap Recycling](metal-recycling.md) — Converting end-of-life metal products and manufacturing offcuts back into usable feedstock through sorting and remelting, requiring 5–95% less energy than primary production.
+- [Spring Manufacturing](springs.md) — Compression, tension, torsion, leaf springs, and Belleville washers from high-carbon and alloy spring steel. Quench-and-temper heat treatment to 400-500°C, coiling/winding procedures, and shot peening for fatigue life.
+- [Wire Rope & Steel Cable](wire-rope.md) — Wire drawing, stranding, and rope closing of high-carbon steel wire into flexible rope (6×7, 6×19, 6×37 constructions). Tensile grades 1570-1960 MPa, end fittings (swaging, zinc/epoxy socketing), inspection and discard criteria, and lubrication for mining hoists, cranes, elevators, and bridges.
 
 [↑ Back to Tech Tree](../index.md)

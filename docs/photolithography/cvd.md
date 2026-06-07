@@ -189,4 +189,18 @@ CVD steps in a typical IC fabrication sequence:
 - [Dopant & Etch Gases](../chemistry/dopant-etch-gases.md) — process gas chemistry and supply chain
 - [Cleanrooms](cleanrooms.md) — contamination-controlled environments for CVD processing
 
+CVD process control relies on real-time monitoring of temperature, pressure, gas flows, and film thickness. In-situ ellipsometry measures film growth rate and optical properties during deposition, enabling closed-loop thickness control. Mass spectrometry of the exhaust gas provides information about reaction completeness and byproduct formation. Quadrupole mass spectrometers (QMS) are commonly used as residual gas analyzers to monitor the vacuum environment and detect contamination. These monitoring capabilities are essential for process reproducibility and for diagnosing problems when film quality deviates from specifications.
+CVD process control relies on real-time monitoring of temperature, pressure, gas flows, and
+film thickness. In-situ ellipsometry measures film growth rate and optical properties during
+deposition, enabling closed-loop thickness control. Mass spectrometry of the exhaust gas
+provides information about reaction completeness and byproduct formation. These monitoring
+capabilities are essential for process reproducibility and for diagnosing problems when film
+quality deviates from specifications.
+
+The choice of precursor chemistry defines the CVD process for any given material. For silicon
+dioxide, silane or TEOS (tetraethyl orthosilicate) are common precursors. For silicon nitride,
+dichlorosilane and ammonia are used. Metal CVD for tungsten plugs uses tungsten hexafluoride.
+Each precursor has different decomposition temperatures, byproduct profiles, and safety
+requirements that shape the process design.
+
 [← Back to Photolithography](index.md)

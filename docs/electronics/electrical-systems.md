@@ -304,6 +304,6 @@ Decision criterion: Use HRC fuses when available fault current >65 kA or when pr
 - **[Power Electronics](power-electronics.md)**: VFDs, inverters, and converters for motor control
 - **[Passive Components](passive-components.md)**: transformers, inductors for power distribution
 
+---
 
-
-[← Back to Electronics](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*

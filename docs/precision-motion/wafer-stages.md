@@ -4,10 +4,29 @@
 > **Domain**: [Precision Motion Control](./index.md)
 > **Timeline**: Years 45-80
 > **Outputs**: wafer_stages, reticle_stages, scanner_systems
+> **Critical**: Yes — wafer stages are the enabling technology for photolithography; no alternative method can position wafers with sub-10nm accuracy during exposure at production throughput
 > **Dependencies**: [Nanometer Positioning](./nanometer-positioning.md), [Precision Encoders & Feedback](./precision-encoders.md), [Vibration Isolation](./vibration-isolation.md), [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md)
 > **Enables**: [Advanced Lithography](../vlsi-scaling/advanced-lithography.md), [Vacuum Systems](../vacuum/index.md)
 
 The wafer stage is the most mechanically demanding single assembly in semiconductor manufacturing. It must position a 300 mm silicon wafer with ±5 nm accuracy while accelerating at 2-10g, scanning at 1-2 m/s, and maintaining flatness below 50 nm — all in a vacuum or controlled atmosphere. This document covers the architecture of stepper and scanner wafer stages, reticle (mask) stages, and the synchronization between them during exposure. For the underlying actuation technologies, see [Nanometer Positioning](./nanometer-positioning.md); for vibration isolation of the stage platform, see [Vibration Isolation](./vibration-isolation.md).
+
+## Prerequisites
+
+- [Nanometer Positioning](./nanometer-positioning.md) — actuation technologies (linear motors, voice coils, piezo stages)
+- [Precision Encoders](./precision-encoders.md) — interferometric and optical encoder feedback systems
+- [Vibration Isolation](./vibration-isolation.md) — isolation platform providing VC-D or better environment
+- [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md) — precision machining of stage components
+- [Vacuum Technology](../vacuum/index.md) — vacuum-compatible stage design for EUV lithography
+
+## Implementation Steps
+
+1. **Define stage specifications**: Determine travel range (300-600 mm for wafer, 200-300 mm for reticle), positioning accuracy (±5 nm), scan speed (400-800 mm/s wafer, 1600-3200 mm/s reticle), and acceleration (2-10g) based on lithography requirements
+2. **Select coarse-fine architecture**: Design coarse stage with iron-core linear motors for long travel, fine stage with voice coils for nanometer correction over ±0.5 mm. Specify air bearing guidance for coarse axes
+3. **Design wafer chuck**: Specify vacuum or electrostatic chuck with flatness <50 nm, temperature control ±0.01°C, and three retractable lift pins matched to ±1 μm height
+4. **Specify interferometer feedback**: Configure 5-7 measurement beams per stage for X, Y, pitch, and yaw. Select plane mirror interferometers with <0.15 nm resolution and 10-50 kHz update rate (see [Precision Encoders](./precision-encoders.md))
+5. **Implement vibration isolation**: Mount stage on inertia block (5,000-20,000 kg) with three-point pneumatic isolation providing VC-D to VC-E at the stage interface (see [Vibration Isolation](./vibration-isolation.md))
+6. **Develop servo control**: Implement PID + feedforward + iterative learning control for scan trajectory tracking. Target MA <2 nm, MSD <1.5 nm during constant-velocity scan. Add notch filters for structural resonances below 1 kHz
+7. **Commission and calibrate**: Run stage grid calibration across full travel. Verify step-and-settle time, scan synchronization, and overlay registration. Perform ongoing calibration every 1-4 weeks using wafer alignment marks
 
 ## Wafer Stage Architecture
 
@@ -271,4 +290,6 @@ EUV lithography operates in high vacuum (~10⁻⁵ Pa) because EUV light is abso
 - Cleanroom requirements: [Cleanrooms](../cleanrooms/index.md)
 - Vacuum systems for EUV: [Vacuum](../vacuum/index.md)
 
-[← Back to Precision Motion](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Precision Motion Control](./index.md) • [All Domains](../index.md)*

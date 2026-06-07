@@ -178,4 +178,28 @@ PVD films are typically annealed after deposition (400–450°C, 30 min, forming
 - [Resists & Masks](./resists-masks.md) — patterning for metal layers
 - [Cleanrooms](./cleanrooms.md) — contamination control for PVD tools
 
+Target utilization is a significant economic consideration in PVD. Sputter targets are consumed non-uniformly — the erosion profile depends on the magnetic field geometry of the magnetron, creating a racetrack-shaped groove that typically wastes 60-80% of the target material. Rotating magnet designs and cylindrical targets improve utilization but add complexity. For expensive target materials (gold, platinum, rare-earth alloys), reclaiming unused target material becomes economically important.
+
+PVD tool maintenance cycles are driven by film buildup on chamber walls and fixtures. Over time, deposited material flakes off these surfaces, generating particles that contaminate wafer surfaces. Regular chamber cleaning (plasma etch of chamber walls, replacement of shield liners) is necessary to maintain particle performance. The mean time between cleaning cycles is a key productivity metric for production PVD equipment.
+Target utilization is a significant economic consideration in PVD. Sputter targets are consumed
+non-uniformly — the erosion profile depends on the magnetic field geometry of the magnetron,
+creating a racetrack-shaped groove that typically wastes a large fraction of the target material.
+Rotating magnet designs and cylindrical targets improve utilization but add mechanical complexity.
+For expensive target materials (gold, platinum, rare-earth alloys), reclaiming unused target
+material becomes economically worthwhile.
+
+PVD tool maintenance cycles are driven by film buildup on chamber walls and fixtures. Over
+time, deposited material flakes off these surfaces, generating particles that contaminate wafer
+surfaces. Regular chamber cleaning (plasma etch of chamber walls, replacement of shield liners)
+is necessary to maintain particle performance. The mean time between cleaning cycles is a key
+productivity metric for production PVD equipment.
+
+Step coverage — the ability of a PVD film to deposit uniformly on vertical sidewalls and the
+bottoms of trenches and vias — is inherently limited in conventional sputtering because atoms
+travel in straight lines from target to substrate. Ionized PVD (where a fraction of the sputtered
+atoms are ionized and accelerated toward the substrate by a bias voltage) improves bottom
+coverage by directing material into features. CVD generally provides superior step coverage
+compared to PVD, which is why the two techniques are used for different applications in a
+semiconductor fabrication flow.
+
 [← Back to Photolithography](index.md)

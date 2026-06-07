@@ -277,4 +277,6 @@ A sudden change of 20% or more in water consumption often indicates illness 24-4
 - [Aquaculture](aquaculture.md) — pond-based food production systems
 - [Soil Management](../agriculture/soil-management.md) — ducks for pest and slug control
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

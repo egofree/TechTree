@@ -2,10 +2,11 @@
 
 > **Node ID**: metals.aluminum
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`chemistry.alkalis`](../chemistry/alkalis.md), [`chemistry.electrolysis`](../chemistry/electrolysis.md), [`energy.electricity`](../energy/electricity.md), `mining`
-> **Enables**: [`electrochemistry.anodizing`](../electrochemistry/anodizing.md), `metals.aluminum.semiconductor-grade`, [`metals.forming`](forming.md), [`transport.aviation`](../transport/aviation.md)
+> **Dependencies**: [`chemistry.alkalis`](../chemistry/alkalis.md), [`chemistry.electrolysis`](../chemistry/electrolysis.md), [`energy.electricity`](../energy/electricity.md), [`mining`](../mining/index.md)
+> **Enables**: [`electrochemistry.anodizing`](../electrochemistry/anodizing.md), [`metals.specialty-semiconductor`](specialty-semiconductor.md), [`metals.forming`](forming.md), [`transport.aviation`](../transport/aviation.md)
 > **Timeline**: Years 20-40
 > **Outputs**: aluminum ingots, extrusions, castings, sheet
+> **Critical**: Yes — aluminum is the primary structural metal for aerospace and the dominant electrical conductor for overhead transmission
 
 
 Aluminum is the most abundant metal in Earth's crust (8.1% by weight) but never occurs natively — it is always chemically bound, most commonly as aluminum silicates in clays and feldspars. The metal remained unknown until 1825 (isolated by Ørsted as an impure powder) and was more valuable than gold until the Hall-Héroult process (1886) made bulk production possible. Modern civilization depends on aluminum for electrical conductors, structural components, packaging, transportation, and as the primary structural metal for aerospace.
@@ -261,6 +262,38 @@ Recycling is integral to the aluminum industry — not an afterthought. The ener
 
 **Recycling rates**: Beverage cans: ~70% globally (Brazil >95%, US ~45%). Automotive aluminum: ~90%. Building and construction: ~95%. The closed-loop can-to-can recycling cycle takes as little as 60 days.
 
+## Selection Guide
+
+**Decision criteria — choosing aluminum production and processing methods**:
+- Use **Bayer process + Hall-Héroult** for primary aluminum from bauxite — the only viable route at scale (13-15 kWh/kg)
+- Use **recycling/side-well reverberatory furnace** for secondary aluminum — 5% of primary energy, 85-95% yield
+- Use **sand casting** for prototypes and low-volume complex shapes; **permanent mold** for 5,000-50,000 parts; **die casting** for >50,000 high-volume parts with tight tolerances
+- Use **DC casting** for wrought product feedstock (ingots/billets for rolling and extrusion)
+- Use **extrusion** for constant-cross-section profiles — the most efficient method for complex aluminum shapes
+- Use **three-layer electrolysis (Hoopes)** for 4N-5N purity; add **zone refining** for 5N-6N (semiconductor-grade)
+- Use **6061-T6** for general structural; **7075-T6** for maximum strength; **1100-O** for chemical resistance and conductivity
+
+**Implementation steps for aluminum production facility**:
+1. Secure bauxite supply (30-55% Al₂O₃) and confirm silica content <5% for Bayer process efficiency
+2. Establish NaOH supply for Bayer digestion — caustic loss runs 30-100 kg per tonne Al₂O₃
+3. Secure continuous baseload electricity at 13-15 kWh/kg — potline shutdown destroys cathode linings
+4. Source cryolite (Na₃AlF₆) — synthetic production from HF + Al(OH)₃ required (natural deposits depleted)
+5. Set up carbon anode production (petroleum coke + coal tar pitch) or secure prebaked anode supply
+6. Establish potline gas collection and dry scrubbing for HF emissions control (<0.5 kg F per tonne Al)
+7. Add three-layer electrolysis and zone refining if semiconductor-grade aluminum is needed
+
+**Aluminum processing route trade-offs**:
+
+| Process | Energy (kWh/kg) | Capital Cost | Throughput | Product | Best For |
+|---|---|---|---|---|---|
+| Primary (Bayer + H-H) | 13-15 | Very High | 1.8-3.5 t/day/pot | 99.5-99.9% Al | New metal from ore |
+| Recycling (remelt) | 0.6-0.8 | Low | 2-5 t/hr (20 t furnace) | 95-99% Al | Post-consumer scrap |
+| Sand casting | 0.5-1.0 | Very Low | 1-50 parts/day | Complex shapes | Prototypes, low volume |
+| Die casting | 1-2 | High | 100-1000 shots/hr | ±0.1-0.3 mm tolerance | High volume, thin walls |
+| Extrusion | 0.3-0.5 | Medium | 5-50 m/min | Constant profiles | Structural shapes |
+| Hoopes refining | 14-18 | High | Low batch | 99.995% Al | Semiconductor-grade |
+| Zone refining | Very High | Medium | 1-10 mm/min | 99.9999% Al | Ultra-high purity |
+
 ## Safety & Hazards
 
 **Hall-Héroult cell hazards**:
@@ -301,4 +334,4 @@ Recycling is integral to the aluminum industry — not an afterthought. The ener
 - [Anodizing](../electrochemistry/anodizing.md) — aluminum surface treatment
 - [Aviation](../transport/aviation.md) — aluminum airframe construction
 
-[← Back to Metals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

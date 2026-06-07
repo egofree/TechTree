@@ -218,7 +218,7 @@ The most common secondary treatment method in industrialized nations. Requires e
 
 - **Household scale** (1-10 people): Pit latrine or septic tank. No external infrastructure. Cost: $5-500.
 - **Village scale** (50-500 people): Simplified sewerage to stabilization ponds. Requires community organization for construction and maintenance. Cost: $5,000-50,000.
-- **Town scale** (2,000-20,000 people**: Sewer network with trickling filter or activated sludge treatment. Requires organized water utility and continuous power. Cost: $500,000-5,000,000.
+- **Town scale** (2,000-20,000 people): Sewer network with trickling filter or activated sludge treatment. Requires organized water utility and continuous power. Cost: $500,000-5,000,000.
 - **City scale** (100,000+ people): Full sewer network with activated sludge and anaerobic sludge digestion (produces biogas: 60-70% methane). Requires industrial-scale infrastructure.
 
 ## Troubleshooting
@@ -263,4 +263,5 @@ The most common secondary treatment method in industrialized nations. Requires e
 - [Agriculture](../agriculture/index.md) — treated effluent and composted sludge for irrigation and fertilization
 
 
-[← Back to Water](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*

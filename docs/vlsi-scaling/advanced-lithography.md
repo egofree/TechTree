@@ -8,6 +8,11 @@
 > **Outputs**: advanced_lithography, euv_capability, duv_capability
 > **Critical**: Yes — advanced lithography is the primary enabler of feature size scaling below 250 nm
 
+## Prerequisites
+
+- [Optics Inspection](../optics/inspection.md) — lens quality verification and alignment
+- [Resists & Masks](../photolithography/resists-masks.md) — photoresist chemistry and photomask fabrication
+
 ## Advanced Lithography Scaling
 
 **[Contact/proximity printing](../glossary/contactproximity-printing.md)** (Photolithography baseline — features down to ~2-5 μm):
@@ -324,6 +329,50 @@ A DUV scanner integrates optical, mechanical, thermal, and control subsystems in
 | Multiple patterning overlay misalignment between LELE exposures | Alignment mark degradation from first etch step; scanner baseline drift between passes; wafer distortion from first pattern film stress | Measure overlay on test wafers after first exposure; update alignment mark recipe to account for post-etch mark change; re-calibrate scanner baseline between patterning passes; apply wafer-level distortion correction from first-pass metrology data |
 | Dense pattern bridging or necking after exposure | OPC model inadequate for new pattern density; mask error factor (MEF) amplifying small CD errors on mask; defocus at feature edges | Verify OPC model calibration covers the failing pattern density; inspect mask CD at failing locations (MEF of 1.5-4× means a 2 nm mask error becomes 3-8 nm on wafer); check focus offset — dense patterns have shifted best focus vs. isolated features |
 
+## Decision and Implementation Framework
+
+This article describes lithography technology options as a conceptual guide. The per-section Strengths/Weaknesses blocks above detail individual method trade-offs.
+
+### C1: Decision Criteria
+
+Select lithography generation based on target feature size and available infrastructure:
+
+| Target Half-Pitch | Lithography Generation | Capital Investment | When to Adopt |
+|---|---|---|---|
+| >2 μm | Contact/proximity printing | $10K-100K (mask aligner) | First ICs, minimal optics |
+| 0.5-2 μm | Projection stepper (g-line 436 nm) | $0.5-2M | Microprocessor era, basic optics |
+| 0.35-0.5 μm | Projection stepper (i-line 365 nm) | $1-5M | Requires RET (PSM, OAI) |
+| 0.13-0.35 μm | DUV KrF (248 nm) | $5-10M | Excimer laser + CAR resist |
+| 0.04-0.13 μm | DUV ArF dry (193 nm) | $10-20M | Requires anisotropic etch, CMP |
+| 0.03-0.04 μm | ArF immersion (193 nm + water) | $30-80M | Water immersion system, ±0.01°C control |
+| <0.03 μm | EUV (13.5 nm) or multiple patterning | $200-350M (EUV) or 2-4× DUV cost | EUV: only at highest volume. Multiple patterning: intermediate |
+
+Key constraints:
+- Do not adopt a lithography generation until yield at the current generation justifies the capital investment.
+- EUV requires 20+ years of development and $10B+ investment. Only justified at >100K wafer/month volume.
+- Multiple patterning extends 193 nm immersion through 7 nm at the cost of 2-4× litho-etch cycles per layer.
+
+### C2: Implementation Steps
+
+1. **Establish contact/proximity printing** for first ICs (>2 μm features). Build a mask aligner with a UV lamp and mechanical stage.
+2. **Upgrade to projection stepper** when features reach 2 μm. Acquire or build a reduction lens system (5:1 or 10:1).
+3. **Adopt i-line (365 nm)** with RET when features reach 0.5 μm. Add phase-shift masks and off-axis illumination.
+4. **Deploy KrF excimer laser (248 nm)** when features reach 0.35 μm. Develop or acquire chemically amplified resists.
+5. **Transition to ArF (193 nm)** at 0.13 μm. Implement immersion optics if targeting <0.07 μm.
+6. **Apply multiple patterning** (SADP, SAQP) when single-exposure resolution is exhausted.
+7. **Pursue EUV** only when DUV multiple patterning cost per layer exceeds EUV cost, and source power exceeds 250 W.
+
+### C3: Lithography Generation Trade-offs
+
+| Generation | Wavelength | Single-Exposure Limit | Tool Cost | Throughput | Complexity |
+|---|---|---|---|---|---|
+| G-line | 436 nm | 0.8 μm | $2-5M | 80-120 WPH | Low |
+| I-line | 365 nm | 0.35 μm (with RET) | $3-5M | 80-120 WPH | Moderate |
+| KrF | 248 nm | 0.18 μm | $5-10M | 100-150 WPH | Moderate |
+| ArF dry | 193 nm | 0.10 μm | $10-20M | 150-200 WPH | High |
+| ArF immersion | 193 nm | 0.04 μm | $30-80M | 200-275 WPH | High (water system) |
+| EUV | 13.5 nm | 0.008 μm | $200-350M | 100-180 WPH | Extreme (reflective optics, Sn plasma) |
+
 ## See Also
 
 - [Photoresists & Masks](../photolithography/resists-masks.md) — resist chemistry and mask fabrication
@@ -333,4 +382,5 @@ A DUV scanner integrates optical, mechanical, thermal, and control subsystems in
 - [Continuous Scaling](continuous-scaling.md) — technology node progression
 - [EDA Design](eda-design.md) — design rules for advanced nodes
 
-[← Back to VLSI Scaling](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*

@@ -29,7 +29,7 @@ Every capability file opens with a blockquote metadata block. Use this exact for
 # Title of the Capability
 
 > **Node ID**: domain.capability-name
-> **Domain**: [Domain Name](./index.md)
+> **Domain**: [Domain Name](../spec/README.md)
 > **Dependencies**: [`other.domain.capability`](../path/to/file.md), ...
 > **Enables**: [`downstream.capability`](../path/to/file.md), ...
 > **Timeline**: Years X-Y
@@ -211,7 +211,7 @@ What to include:
 7. **Footer**: Close every file with the standard navigation link:
    ```
    ---
-   *Part of the [Bootciv Tech Tree](../index.md) • [Domain Name](./index.md) • [All Domains](../index.md)*
+   *Part of the [Bootciv Tech Tree](../index.md) • [Domain Name](../spec/README.md) • [All Domains](../index.md)*
    ```
 
 ---

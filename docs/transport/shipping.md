@@ -227,10 +227,19 @@
 
 ## Materials
 
-- **Hull construction**: Oak, pine, cedar, or elm timber for planking and frames. Iron or copper fasteners (nails, trenails, rivets). Oakum (frayed hemp) for caulking, pitch or tar for waterproofing.
-- **Sails**: Woven flax or hemp canvas, treated with tar. Bolt rope sewn to edges for reinforcement. Manila, hemp, or sisal for rope and cordage.
-- **Anchors**: Iron with wooden stock. Anchor rode: manila or hemp rope, or iron chain.
-- **Later improvements**: Copper sheathing (0.5-1.0 mm sheets) for anti-fouling. Steel plate hulls (requires rolling mill).
+| Component | Material | Specification | Notes |
+|-----------|----------|---------------|-------|
+| Hull planking | Oak, pine, cedar, or elm | 2-6 cm thick, edge-to-edge (carvel) or overlapping (clinker) | Oak frames 25-40 cm sided at 40-60 cm spacing |
+| Keel | Hardwood (oak) | 10-20 cm square section | Foundation of hull structure |
+| Fasteners | Iron nails, trenails (wooden dowels), copper rivets | Clinker: clenched over roves; carvel: through-plank | Copper rivets for longest service |
+| Caulking | Oakum (frayed hemp) | Driven into seams with caulking iron | Re-caulk every 3-5 years |
+| Waterproofing | Pitch or tar | 2-3 coats below waterline, re-apply annually | Distilled from pine resin or coal tar |
+| Sails | Woven flax or hemp canvas, tar-treated | Bolt rope sewn to edges | Sail area/displacement ratio ~15-25 m²/tonne |
+| Rope & cordage | Manila, hemp, or sisal | Three-strand laid; manila 50 mm = 180 kN breaking | Manila preferred for saltwater service |
+| Anchors | Iron, fluked design with wooden stock | ~1 kg per 50 kg vessel displacement | Stone anchors (20-100 kg) for small boats |
+| Anchor rode | Manila/hemp rope or iron chain | Scope 5:1 (rope), 3:1 (chain) | Chain preferred — weight keeps flukes dug in |
+
+**Later improvements**: Copper sheathing (0.5-1.0 mm sheets nailed below waterline) prevents fouling and boring worms, adding 1-2 knots speed. Steel plate hulls replace timber once rolling mills are available, enabling larger vessels and watertight compartmentation.
 
 ## Equipment
 
@@ -273,6 +282,6 @@
 - [Steam Power](../energy/steam-power.md) — Steam propulsion for vessels
 - [Internal Combustion Engines](../energy/engine.md) — Diesel propulsion for ships
 
+---
 
-
-[← Back to Transport](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Transportation & Logistics](./index.md) • [All Domains](../index.md)*

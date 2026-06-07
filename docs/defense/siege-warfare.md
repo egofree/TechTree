@@ -4,6 +4,7 @@
 > **Domain**: [Defense](./index.md)
 > **Dependencies**: None (root capability)
 > **Enables**: None (leaf capability)
+> **Critical**: No — siege warfare is a specialized military capability dependent on metallurgical and chemical industrial base
 > **Timeline**: Years 5-50+
 > **Outputs**: siege_engines, cannons, military_logistics, artillery, field_fortifications
 
@@ -14,6 +15,18 @@ Siege engineering encompasses the offensive and logistical operations required t
 Siege operations are the most resource-intensive military activities in the pre-industrial world. A major siege requires thousands of soldiers, tens of thousands of kilograms of powder and shot, massive timber stocks for siege engine construction, and a supply chain delivering tonnes of food and materiel daily. The logistics of sustaining a siege often determine its outcome more than the weapons employed -- historically, disease and starvation killed 3-10 times more soldiers than combat during sieges.
 
 This capability covers siege engines (battering rams, siege towers, torsion artillery, trebuchets), cannon artillery from early bombards to standardized siege guns, military logistics (supply requirements, baggage trains, march rates), mining operations against fortifications, and field fortification construction. Each of these subsystems depends on broader industrial capabilities: [metals production](../metals/iron-steel.md) for cannon, [chemistry](../chemistry/explosives.md) for gunpowder, [textiles](../textiles/index.md) for rope, and [mining](../mining/index.md) for tunneling.
+
+
+## Prerequisites
+
+Siege operations depend on a broad industrial base for materials and logistics:
+
+- [Iron and steel production](../metals/iron-steel.md) — cannon barrel casting, projectile manufacture
+- [Explosives and propellants](../chemistry/explosives.md) — black powder for cannon and mining charges
+- [Textiles](../textiles/index.md) — rope for trebuchet slings, torsion springs, and hoisting
+- [Mining engineering](../mining/index.md) — tunneling techniques for siege mining and counter-mining
+- [Transport](../transport/index.md) — supply wagons, roads, and logistics for sustaining field armies
+- [Governance](../economics-organization/governance.md) — organized resource mobilization for large siege operations
 
 
 ## Bill of Materials
@@ -304,7 +317,5 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 - **[Iron & Steel Production](../metals/iron-steel.md)** -- Cannon barrel materials and metallurgy
 - **[Governance](../economics-organization/governance.md)** -- Organizational structures for mobilizing siege resources
 
-
- *Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*
-
-[← Back to defense](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*

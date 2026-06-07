@@ -251,4 +251,6 @@ For regions with both cheap renewable electricity and access to point-source CO�
 - [Water Electrolysis](sem-tech-water-electrolysis.md) — SEM Tech membrane application to hydrogen production
 - [Fuel Cells](../energy/sem-tech-fuel-cells.md) — fuel cell application of SEM Tech membranes
 
-[← Back to Chemistry](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

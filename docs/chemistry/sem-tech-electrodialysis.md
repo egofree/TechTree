@@ -255,5 +255,6 @@ At each scale, the SEM Tech membrane cost is so low relative to other system com
 - [Acid Regeneration](sem-tech-acid-regeneration.md) — acid-base recovery via bipolar membrane electrodialysis
 - [Blue Energy](../energy/sem-tech-blue-energy.md) — reverse electrodialysis for salinity-gradient power generation
 
+---
 
-[← Back to Chemistry](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

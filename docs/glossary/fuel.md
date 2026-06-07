@@ -14,6 +14,6 @@ Fuel selection for each process depends on required temperature, heating rate, a
 ## Appears In
 
 - [Pottery](../ceramics/pottery.md)
-- [Casting](../machine-tools/casting.md)
+- [Casting](../metals/casting.md)
 - [Fuels](../energy/fuels.md)
 - [Aviation](../transport/aviation.md)

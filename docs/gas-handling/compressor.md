@@ -8,6 +8,13 @@
 > **Outputs**: compressed_gas
 > **Critical**: Yes — gas compression is the enabling step for gas storage, transport, air separation, and virtually all gas-phase industrial chemistry
 
+## Prerequisites
+
+- [Iron & Steel](../metals/iron-steel.md) — cast iron for cylinder blocks, forged steel for crankshafts and connecting rods
+- [Machining](../machine-tools/machining.md) — precision boring of cylinders, grinding of journals, milling of rotor profiles
+- [Electricity](../energy/electricity.md) — motor drive power (5-500 kW depending on compressor size)
+- [Lubricants](../chemistry/lubricants.md) — compressor oil for sealing, cooling, and lubrication
+
 ## Principle
 
 A gas compressor raises gas pressure by mechanically reducing its volume. Unlike liquids (essentially incompressible), gases follow the ideal gas law PV = nRT (or more accurately, PV = ZnRT where Z is the compressibility factor). Compression work heats the gas — adiabatic compression of air from 1 to 10 bar raises temperature from 20°C to approximately 250°C. Multi-stage compressors with intercoolers between stages approach isothermal (constant-temperature) compression, which requires the least work. The theoretical minimum work for isothermal compression from P₁ to P₂ is W = nRT × ln(P₂/P₁).
@@ -54,12 +61,94 @@ Three main compressor families:
 12. **Assemble with timing gears**: Install the rotor pair with timing gears that maintain the correct phase relationship (rotors do not touch each other — the timing gears transmit torque). Install bearings at both ends of each rotor shaft.
 13. **Install oil system**: For oil-flooded units, connect an oil injection port near the discharge end. An oil separator (centrifugal or coalescing filter) on the discharge line removes oil from the compressed gas. Oil is cooled by an oil cooler and returned to the injection port via a pump or pressure differential.
 
+### Diaphragm Compressor
+
+14. **Machine the compression head**: Bore a shallow cavity (5-15 mm deep, 100-300 mm diameter) in a forged steel block. The cavity profile is contoured to allow the diaphragm to fully deflect against the head surface. Machine the cavity surface to 0.4 μm Ra finish — any surface defect creates a stress concentration that initiates diaphragm fatigue cracks. Drill suction and discharge ports with valve seats.
+15. **Prepare the diaphragm**: Cut a disc of full-hard 301 or 316 stainless steel, 0.5-1.5 mm thick, to cover the cavity with 10-20 mm clamping margin. Inspect edges for burrs or nicks — these are crack initiation sites. The diaphragm must be absolutely flat; any waviness creates uneven stress during flexing.
+16. **Assemble the hydraulic system**: The diaphragm is driven by hydraulic oil pressure from a plunger pump. The plunger pump is driven by the same crankshaft as the compression head. Oil pressure cycles the diaphragm between the cavity floor (suction stroke) and the head surface (discharge stroke). A hydraulic relief valve limits maximum oil pressure to prevent diaphragm overstress.
+17. **Clamp the diaphragm**: Sandwich the diaphragm between the compression head and the oil-side backing plate using high-strength bolts in a bolt circle. Bolt torque must be precisely controlled (typically 50-100 N·m depending on bolt size) to seal the diaphragm perimeter without crushing it. Uneven bolt torque causes edge leaks and premature diaphragm failure.
+18. **Install contour plate (oil side)**: The oil-side plate has a contoured surface matching the compression head cavity. This ensures the diaphragm is supported on both sides throughout its deflection range, preventing excessive bending stress at the center. The contour profile is critical — incorrect contour causes rapid diaphragm failure (100-1000 hours instead of 2000-5000 hours).
+19. **Set the hydraulic overload relief**: Adjust the hydraulic relief valve to limit maximum oil pressure to 110-120% of design discharge pressure. This protects the diaphragm from overpressure. Test by deadheading the discharge (blocked outlet) and verifying the relief valve opens before the diaphragm ruptures. The relief valve must be rated for the full hydraulic system pressure.
+20. **Install the discharge check valve**: A spring-loaded check valve on the discharge port prevents backflow of high-pressure gas into the compression head during the suction stroke. The check valve must open at <0.1 bar differential to minimize throttling losses. Seat material: PTFE or stainless depending on gas compatibility.
+
+## Valve Types and Selection
+
+Compressor valves control gas flow into and out of the cylinder. Valve design affects efficiency, reliability, and maximum operating speed.
+
+**Plate valves**: Flat spring-steel plates (1-2 mm thick) lift off their seats by suction or discharge pressure differential. Maximum lift: 2-4 mm. Used on most industrial reciprocating compressors. Life expectancy: 10,000-20,000 hours. Failure modes: fatigue cracking at the plate center, erosion from liquid or particle ingestion, spring breakage.
+
+**Ring valves**: Concentric rings (2-5 rings per valve) replace the single plate. Each ring lifts independently, providing more flow area and lower pressure drop than plate valves. Used on high-speed compressors (600-1200 RPM). More expensive to manufacture but longer life at high speed.
+
+**Poppet valves**: Individual mushroom-shaped poppets (6-30 per valve) with coil springs. Low pressure drop, quiet operation, good for gas compressors with varying molecular weights. Used on natural gas and process gas compressors.
+
+**Valve selection criteria**: Plate valves for general-purpose air compressors below 600 RPM. Ring valves for high-speed air compressors (600-1200 RPM). Poppet valves for process gas compressors with variable gas composition. All valves must be compatible with the gas being compressed — corrosive gases (HCl, Cl₂, H₂S) require stainless steel valve components.
+
+## Maintenance Schedule
+
+Preventive maintenance is essential for compressor reliability. A typical schedule for a reciprocating compressor in continuous service:
+
+| Interval | Task | Component |
+|---|---|---|
+| Daily | Check oil level, discharge temperature, discharge pressure, unusual noise or vibration | Crankcase, instruments |
+| Weekly | Drain moisture from receiver tank, check belt tension (if belt-driven) | Receiver, belts |
+| Monthly | Inspect air filter (clean or replace if ΔP > 250 Pa), check all bolt torques | Air intake, foundation |
+| Quarterly | Test pressure relief valves (must open at set pressure), sample compressor oil for analysis (viscosity, acidity, particulate count) | Relief valves, oil |
+| Semi-annually | Clean intercooler and aftercooler tubes, inspect and clean suction/discharge valves | Heat exchangers, valves |
+| Annually | Replace suction/discharge valve plates and springs (preventive), change compressor oil and oil filter, check bearing clearances with dial indicator | Valves, oil, bearings |
+| Every 3-5 years | Full overhaul: replace piston rings, bearings, shaft seal, gaskets; re-machine valve decks if worn; check cylinder bore for taper and ovality | Complete rotating assembly |
+
+Oil analysis is the most cost-effective condition monitoring technique. Track viscosity (should be within ±10% of rated grade), total acid number (TAN >2.0 indicates oxidation — change oil immediately), and particulate count (>50 ppm iron indicates abnormal wear). Trend these values over time to predict failures weeks before they occur.
+
 ## Calibration and Verification
 
 1. **Leak test**: Pressurize the compressor discharge to 50% of rated pressure with the compressor off (using an external air source). Soap-test all joints, valve covers, and shaft seals. Zero leaks on gas joints. Acceptable oil seepage at shaft seal: 10-30 drops/hour.
 2. **Capacity test**: Run the compressor at rated speed into a known-volume receiver tank. Measure the time to pressurize from atmospheric to a target pressure. Calculate free air delivery (FAD): the volume of atmospheric air the compressor would need to draw in to produce the observed pressure rise. Compare to rated FAD.
 3. **Discharge temperature check**: Run at full load for 30 minutes. Measure discharge temperature at each stage. First-stage discharge: should be below 180°C. After intercooler: within 15°C of cooling water. Second-stage discharge: below 180°C. Higher temperatures indicate inadequate intercooling, worn valves, or excessive pressure ratio.
 4. **Vibration check**: Measure vibration at the crankcase, cylinder head, and discharge flange. Acceptable: below 4.5 mm/s RMS velocity. Higher vibration indicates misalignment, imbalance, or bearing wear.
+
+## Aftercooler and Moisture Separation
+
+Compressed gas leaving the final stage is hot (80-180°C) and saturated with moisture. Before storage or use, the gas must be cooled and dried.
+
+**Aftercooler**: A heat exchanger (air-cooled finned tube or water-cooled shell-and-tube) mounted on the compressor discharge. Cools the gas from 80-180°C to within 10-20°C of ambient. As the gas cools, its moisture-holding capacity drops sharply — water condenses out.
+
+**Moisture separator**: A centrifugal or cyclone separator installed downstream of the aftercooler. The cooled gas enters a cylindrical vessel tangentially, creating a vortex. Liquid water droplets (and oil mist from lubricated compressors) are flung to the vessel wall by centrifugal force, drain to the bottom, and are discharged through an automatic drain valve. Separation efficiency: 95-99% for droplets >10 μm.
+
+**Refrigerated dryer** (for instrument-quality air): Further cools the gas to 2-5°C using a small vapor-compression refrigeration unit, condensing remaining moisture. A dew point of 2°C at line pressure corresponds to approximately -22°C at atmospheric pressure — dry enough for most pneumatic tools and instrument air. For semiconductor-grade gas, additional desiccant drying (molecular sieve to -70°C dew point) is required.
+
+**Desiccant dryer types**:
+- **Regenerative (twin-tower)**: Two beds of activated alumina or molecular sieve alternate — one drying the gas stream while the other is regenerated by a purge of dry gas or heated air. Achieves dew points of -40 to -70°C. Standard for industrial instrument air.
+- **Disposable cartridge**: Small, simple, used for low-flow applications. Desiccant is discarded and replaced when saturated. Common for laboratory gas lines.
+
+## Multi-Stage Sizing
+
+The number of compression stages determines both efficiency and discharge temperature. Each stage should operate with a pressure ratio of 3-5 to keep discharge temperature below 150-180°C.
+
+**Optimal stage pressure ratios**: For N stages with equal pressure ratios, the ratio per stage is (P_discharge / P_inlet)^(1/N). Examples:
+- 1 to 10 bar: 1 stage (ratio 10:1 is at the upper limit — discharge temperature ~250°C). Add a second stage if temperature must stay below 180°C.
+- 1 to 30 bar: 2 stages, ratio √30 ≈ 5.5 per stage. Intercooler required.
+- 1 to 100 bar: 3 stages, ratio ∛100 ≈ 4.6 per stage.
+- 1 to 350 bar: 4 stages, ratio ∜350 ≈ 4.3 per stage.
+
+**Intercooler effectiveness**: An intercooler that brings the gas to within 5°C of cooling water temperature gives the best second-stage efficiency. Each 10°C of imperfect cooling increases total power consumption by 2-3%. Size the intercooler generously — it is the cheapest way to improve compressor efficiency.
+
+**Receiver tank sizing**: A receiver tank on the discharge line dampens pulsations from reciprocating compressors and provides stored volume for intermittent demand. Minimum size: 10-20% of the compressor's free air delivery per minute. Example: a 10 m³/min compressor needs a 1-2 m³ receiver. The tank also allows moisture to settle out before the gas reaches downstream equipment.
+
+## Drive Systems and Control
+
+**Motor selection**: Compressor motors are sized based on shaft power requirements with a 10-15% service factor. A 10 bar reciprocating compressor with 5 m³/min FAD requires approximately 30 kW shaft power. Motor: 37 kW (50 HP) TEFC (totally enclosed fan-cooled) induction motor, 3-phase, 1450 or 2900 RPM. For hazardous-area gas compression (flammable or toxic gases), use an explosion-proof (Ex d) motor enclosure.
+
+**Belt drive vs. direct coupling**:
+- **Belt drive (V-belts)**: Allows speed reduction from motor to compressor. Typical ratio: 2:1 to 4:1. V-belts absorb shock loads and provide some protection against jamming (belts slip rather than stalling the motor). Tension: deflect belt 16 mm per meter of span center with moderate finger pressure. Replace belts in matched sets.
+- **Direct coupling (flexible coupling)**: Used when motor and compressor run at the same speed, or when a gear reducer is integrated. More efficient (no belt slip losses, typically 2-3%). Requires precise shaft alignment (angular <0.05 mm/100 mm, parallel <0.05 mm). Misalignment causes premature bearing failure.
+
+**Capacity control methods**:
+- **Start/stop**: The simplest control — compressor runs until receiver pressure reaches upper setpoint, then shuts off. Restarts when pressure drops to lower setpoint. Suitable for intermittent duty. Motor starting current is 5-8× rated current; limit starts to 4-8 per hour to prevent motor overheating.
+- **Load/unload**: Compressor runs continuously but unloads (opens suction valve or bypasses discharge to suction) when receiver pressure is at upper setpoint. Loads again when pressure drops. Used for compressors that cannot be started frequently. Unloaded power: 15-30% of loaded power.
+- **Modulating (throttling)**: A suction throttle valve reduces intake volume, matching output to demand. Efficient at 60-100% load. Inefficient below 60% (throttling losses). Used on screw and centrifugal compressors.
+- **Variable speed drive (VSD)**: Electronic motor speed control matches compressor output to demand across 30-100% range. Most efficient method at partial loads. Premium cost ($2,000-10,000 for the drive). Payback: 1-3 years for compressors with variable demand profiles.
+
+**Lubrication system**: Reciprocating compressors use splash lubrication (crankshaft dips into oil sump) for small units, or pressurized lubrication (gear pump delivers oil to bearings, cylinder walls, and piston pins) for units above 30 kW. Oil pressure: 1-3 bar above crankcase pressure. Oil filter: full-flow, 25 μm nominal. Oil temperature: 60-80°C operating range. Oil change interval: 2,000-4,000 operating hours for mineral oil, 4,000-8,000 hours for synthetic.
 
 ## Expected Performance
 
@@ -105,6 +194,10 @@ Three main compressor families:
 | Vibration increasing | Loose foundation bolts; worn bearings; crankshaft imbalance; valve breakage | Tighten foundation bolts in cross-pattern. Check bearing clearances with dial indicator. Rebalance if crankshaft was repaired. Replace broken valve plates. |
 | Compressor won't start (motor trips) | Liquid in cylinder (hydraulic lock); seized piston; motor undersized | Turn compressor over by hand — if locked, remove cylinder head and check for liquid. Never start a compressor with liquid in the cylinder — the incompressible liquid will bend the connecting rod or crack the cylinder. |
 | Gas leakage at shaft seal | Worn lip seal; scored shaft surface; excessive pressure in crankcase | Replace lip seal. Check shaft surface for scoring — polish or replace shaft. Install a crankcase vent to prevent pressure buildup. |
+| Interstage pressure imbalance (first stage >6 bar discharge) | Intercooler restricted or second-stage suction valve stuck closed | Clean intercooler tubes and verify water flow. Inspect second-stage suction valve for stuck or broken spring. High interstage pressure overloads first-stage cylinder. |
+| Diaphragm failure (gas in hydraulic oil) | Diaphragm fatigue crack from overpressure or excessive deflection cycles | Replace diaphragm. Check hydraulic relief valve setting — should limit oil pressure to 110% of discharge. Verify contour plate profile matches head cavity. Expected diaphragm life: 2000-5000 hours. |
+| Screw compressor surge (hunting load/unload) | Discharge pressure set too close to maximum; control valve hysteresis | Increase unload pressure differential (at least 1 bar between load and unload setpoints). Check modulation valve response. Verify receiver tank is adequately sized. |
+| Moisture carryover in discharge after aftercooler | Aftercooler fouled or undersized; automatic drain valve stuck closed | Clean aftercooler tubes. Verify drain valve operates (should discharge water every 5-15 minutes). If ambient humidity is high, add a refrigerated dryer downstream. |
 
 ## See Also
 
@@ -115,4 +208,5 @@ Three main compressor families:
 - [Lubricants](../chemistry/lubricants.md) — compressor oil selection and maintenance
 - [Iron & Steel](../metals/iron-steel.md) — materials for pressure-containing components
 
-[← Back to Gas Handling](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*

@@ -8,6 +8,15 @@
 > **Outputs**: arithmetic, algebra, geometry, trigonometry, number_systems
 > **Critical**: Yes — mathematics is the shared language of quantitative reasoning for all engineering
 
+## Prerequisites
+
+Core mathematics builds on basic cognitive capabilities:
+
+- [Foundations](../foundations/index.md) — literacy for recording and transmitting numerical information
+- Counting and basic numeracy — the ability to enumerate objects and compare quantities
+- Writing system — necessary for recording calculations and transmitting mathematical knowledge across generations
+
+No tools or materials are required — mathematics is an intellectual discipline developed through practice and instruction.
 
 Every engineering discipline — from surveying a road to calculating stress in a beam to designing a feedback controller — rests on mathematical foundations. Without a systematic number system, engineers cannot specify dimensions. Without algebra, they cannot solve for unknown quantities. Without geometry and trigonometry, they cannot lay out structures or navigate. Core mathematics provides the shared language of quantitative reasoning that all subsequent technical work requires. This capability covers the mathematical tools that become available from the earliest counting through to the trigonometry and algebra needed for industrial-age engineering.
 
@@ -229,6 +238,31 @@ Recognizing proportionality lets engineers scale designs: if a 10 cm beam deflec
 
 **Extrapolation** (estimating beyond known data) is risky — the trend may not continue. Use only when no alternative exists, and always flag the uncertainty.
 
+## Learning Sequence
+
+Mathematics builds sequentially. Each topic depends on mastery of the prior one:
+
+1. **Positional notation and zero** — represent and manipulate quantities
+2. **Arithmetic** — addition, subtraction, multiplication, division of integers and fractions
+3. **Geometry** — areas, volumes, angles, and the properties of shapes (requires arithmetic)
+4. **Algebra** — solving for unknowns, manipulating equations (requires arithmetic)
+5. **Trigonometry** — ratios of angles to sides, periodic functions (requires geometry and algebra)
+6. **Logarithms** — inverse of exponentiation, simplifies multiplication of large numbers (requires algebra)
+
+## When to Use Each Tool
+
+| Problem Type | Mathematical Tool | Example |
+|---|---|---|
+| How much material do I need? | Arithmetic (area × thickness × density) | "120 cm × 80 cm × 2 mm steel plate = 15 kg" |
+| What is the unknown dimension? | Algebra (solve equation for unknown) | "If beam span × load = max stress, find minimum beam depth" |
+| How do I lay out this structure? | Geometry (angles, perpendiculars, circles) | "Lay out a right angle using the 3-4-5 triangle method" |
+| How tall is that cliff? | Trigonometry (tan θ = height / distance) | "Measure angle of elevation at 30 m distance = 25 m cliff" |
+| How do I multiply large numbers quickly? | Logarithms (log(ab) = log(a) + log(b)) | "Slide rule calculation of 847 × 236" |
+
+## Safety
+
+No physical hazards — primarily intellectual work. Ergonomic considerations for extended study: maintain proper posture at work surface, ensure adequate lighting to prevent eye strain, take breaks during sustained mental effort.
+
 ## Key Concepts Summary
 
 | Concept | Engineering Application | Bootstrap Relevance |
@@ -257,4 +291,5 @@ Recognizing proportionality lets engineers scale designs: if a 10 cm beam deflec
 - [Education](../knowledge/education.md) — teaching and learning mathematics
 - [Measurement Index](../measurement/index.md) — metrology and measurement systems
 
-[← Back to Mathematics](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Mathematics & Formal Sciences](./index.md) • [All Domains](../index.md)*

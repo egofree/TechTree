@@ -247,5 +247,6 @@ Even a simple compiler should perform these optimizations:
 - [Electronic Computing](../computing/electronic.md) — Target ISA and processor architecture
 - [Development Tools](dev-tools.md) — Editors and debuggers for writing compilers
 
+---
 
-[← Back to Software Bootstrapping](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../index.md)*

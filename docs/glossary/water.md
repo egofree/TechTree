@@ -6,7 +6,7 @@ Clean water is non-negotiable. Contaminated water spreads leptospirosis, giardia
 
 ## Context in the Tech Tree
 
-Water is the most widely used substance in industrial civilization — as a chemical reactant, heat transfer medium, solvent, cleaning agent, and biological necessity. In [Animal Domestication](../animals/domestication.md), clean water supply is fundamental to livestock health and productivity. In [Lime](../ceramics/lime.md) production, water slakes quicklime to produce hydrated lime for mortar and whitewash. In [Cement](../chemistry/cement.md), water-cement ratio (0.4-0.7 by mass) directly determines concrete strength — lower ratio produces stronger concrete but reduces workability. In [Pharmacology](../health/pharmacology.md), water is the universal solvent for pharmaceutical preparation. In [Casting](../machine-tools/casting.md), water cools molds and serves as a component of some bonding sands.
+Water is the most widely used substance in industrial civilization — as a chemical reactant, heat transfer medium, solvent, cleaning agent, and biological necessity. In [Animal Domestication](../animals/domestication.md), clean water supply is fundamental to livestock health and productivity. In [Lime](../ceramics/lime.md) production, water slakes quicklime to produce hydrated lime for mortar and whitewash. In [Cement](../chemistry/cement.md), water-cement ratio (0.4-0.7 by mass) directly determines concrete strength — lower ratio produces stronger concrete but reduces workability. In [Pharmacology](../health/pharmacology.md), water is the universal solvent for pharmaceutical preparation. In [Casting](../metals/casting.md), water cools molds and serves as a component of some bonding sands.
 
 ## Technical Details
 
@@ -30,4 +30,4 @@ In industrial cooling, water's high specific heat capacity (4.184 J/g·°C) and 
 - [Lime](../ceramics/lime.md)
 - [Cement](../chemistry/cement.md)
 - [Pharmacology](../health/pharmacology.md)
-- [Casting](../machine-tools/casting.md)
+- [Casting](../metals/casting.md)

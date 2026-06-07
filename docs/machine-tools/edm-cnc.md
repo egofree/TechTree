@@ -2,6 +2,7 @@
 
 > **Node ID**: machine-tools.edm-cnc
 > **Domain**: Machine Tools Bootstrap
+> **Critical**: No — EDM and CNC enable precision manufacturing beyond manual machining but are not required for early bootstrap stages
 > **Timeline**: Years 25-50
 > **Outputs**: edm_parts, cnc_machined_parts, precision_ground_surfaces
 > **Dependencies**: [`energy.electricity`](../energy/electricity.md), [`machine-tools.machining`](machining.md)
@@ -347,4 +348,6 @@ Each level requires roughly 10× the investment in machine capability, environme
 - Lubrication: [Lubricants](../chemistry/lubricants.md)
 - Silicon crystal growth (requires precision equipment): [Crystal Growth](../silicon/crystal-growth.md)
 
-[← Back to Machine Tools](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*

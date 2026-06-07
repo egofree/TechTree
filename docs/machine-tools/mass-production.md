@@ -338,4 +338,6 @@ Every measuring instrument drifts with use and time. A calibration cycle defines
 - **Surface finish versus tolerance**: A part can be dimensionally within tolerance but have surface finish defects (tool marks, chatter, burrs) that prevent proper fit. Gauge-based inspection catches dimensional errors but not finish defects — visual inspection remains necessary.
 - **Thermal effects**: Parts measured warm (after machining) may be 0.01-0.02 mm larger than when measured at 20°C reference temperature. For tight-tolerance work, allow parts to cool before final gauging, or apply a thermal correction factor.
 
-[← Back to Machine Tools](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*

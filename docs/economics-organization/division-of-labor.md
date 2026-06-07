@@ -219,4 +219,6 @@ For a bootstrap civilization, the optimal order for introducing specialists foll
 - [Governance](./governance.md) — the institutional structures that formalize specialist roles and resolve disputes
 - [Currency](./currency.md) — standardized exchange that facilitates specialist trade
 
-[← Back to Economics & Organization](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*

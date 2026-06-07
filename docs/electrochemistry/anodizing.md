@@ -185,6 +185,48 @@ Anodizing serves several specific functions in semiconductor equipment fabricati
 - Aluminum or titanium racks with spring-loaded contacts. The rack material must be the same alloy family as the workpiece (or titanium, which anodizes to a thin insulating oxide that prevents unwanted plating). Contact points leave small marks on the finished part — position contacts on non-visible or non-critical surfaces.
 - Tank material: Polypropylene, PVDF-lined steel, or lead-lined steel. H₂SO₄ attacks most metals — stainless steel is not suitable for long-term anodizing tank use.
 
+## Construction Steps: Type II Anodizing Bath
+
+### 1. Tank and Containment
+
+Select a polypropylene or PVDF-lined tank sized for the maximum workload (typical: 200-500 L for production). Tank wall thickness ≥6 mm PP for structural integrity. Install a secondary containment berm around the tank capable of holding 110% of tank volume in case of leakage. Position the tank in a ventilated area with emergency eyewash and safety shower within 3 meters.
+
+### 2. Cathode Installation
+
+Mount lead or 6063 aluminum alloy cathode plates on the tank interior walls. Cathode area must be ≥2× the maximum anode (workpiece) area for uniform current distribution. Space cathodes evenly: for a 600 mm × 400 mm tank, use two cathode plates (400 mm × 300 mm each) on opposite walls. Secure with titanium bolts through the tank wall with PTFE gaskets for leak-tight sealing.
+
+### 3. Bath Chemistry
+
+Charge the tank with 150-200 g/L sulfuric acid (H₂SO₄) in deionized water. For a 300 L tank: add 55 kg H₂SO₄ (concentrated, 93-98%) slowly to 240 L DI water (never water to acid). Target specific gravity 1.10-1.15. Verify acid concentration by titration with 1.0 N NaOH. Allow bath to cool to 20-22°C before processing.
+
+### 4. Temperature Control
+
+Install a titanium or lead-cooled heat exchanger (1-2 kW per m² of anodizing area) connected to a chilled water supply at 15-18°C. For Type III hard anodizing, connect to a refrigeration unit maintaining -1 to +5°C (5-20 kW chiller per 1000 L bath). Verify bath temperature stability ±1°C with a calibrated digital thermometer (probe in PTFE sheath, accuracy ±0.5°C).
+
+### 5. DC Power Supply
+
+Connect a [DC rectifier](dc-rectifier.md) rated for the maximum workload: 0-30 V, 500-10,000 A for Type II (0-100 V for Type III). Mount the rectifier within 3 meters of the tank with insulated copper bus bar (minimum 200 mm² cross-section per 200 A). Verify ripple <5% AC component with an oscilloscope before first production run.
+
+### 6. Racking and Fixturing
+
+Fabricate aluminum or titanium racks with spring-loaded contacts rated for maximum current per workpiece. Each contact point must carry 0.5-2.0 A without overheating. Position contacts on non-visible or non-critical surfaces of the workpiece. Verify electrical continuity from power supply through rack to workpiece with a milliohmmeter (contact resistance <5 mΩ).
+
+## Bill of Materials: Type II Anodizing Setup (300 L Bath)
+
+| Material | Quantity | Specifications | Source |
+|----------|----------|----------------|--------|
+| Polypropylene tank | 1 | 600 mm × 400 mm × 500 mm, wall ≥6 mm, with lid | [Polymers](../polymers/index.md) |
+| Sulfuric acid (H₂SO₄) | 55 kg | 93-98% concentration, ACS reagent grade | [Acids](../chemistry/acids.md) |
+| Lead cathode plates | 2 | 400 mm × 300 mm × 3 mm, 99.9% Pb | [Metals](../metals/index.md) |
+| Titanium bolts and gaskets | 8 | M8 × 25 mm, Gr2 titanium; PTFE gaskets | [Metals](../metals/index.md) |
+| DC rectifier | 1 | 0-30 V, 0-500 A, CV/CC, ripple <5% | [DC Rectifier](dc-rectifier.md) |
+| Titanium heat exchanger | 1 | 1-2 kW capacity, 316L frame | [Metals](../metals/index.md) |
+| Aluminum/titanium racks | 4-8 | Spring-loaded, rated 50 A per contact | [Aluminum](../metals/aluminum.md) |
+| Deionized water system | 1 | ≥1 MΩ·cm resistivity, 5 μm filtration | [Water](../water/index.md) |
+| Digital thermometer | 1 | PTFE-sheathed probe, ±0.5°C, 0-100°C range | [Test Equipment](../electronics/test-equipment.md) |
+| Sealing bath (hot DI water) | 1 | 200 L, 95-100°C, pH 5.5-6.5 | [Water](../water/index.md) |
+| Nickel acetate (optional seal) | 2 kg | Ni(CH₃COO)₂, 5 g/L working concentration | [Chemistry](../chemistry/index.md) |
+
 ## Alloy-Specific Procedures
 
 **Anodizing 6061-T6 aluminum** (most common engineering alloy):
@@ -230,4 +272,6 @@ Anodizing serves several specific functions in semiconductor equipment fabricati
 - [Semiconductor Elastomers](../polymers/rubber.semiconductor-apps.md) — anodized components in cleanroom equipment
 - [Cleanrooms](../photolithography/cleanrooms.md) — particle-free surface requirements
 
-[← Back to Electrochemistry](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Electrochemistry & Plating](./index.md) • [All Domains](../index.md)*

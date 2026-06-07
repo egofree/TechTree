@@ -426,7 +426,7 @@ Grind tool bits on abrasive wheel to correct geometry:
 - [Lubricants](../chemistry/lubricants.md) — cutting fluid and bearing oil production
 - [Advanced Ceramics](../ceramics/advanced-ceramics.md) — ceramic bearings and abrasive grains
 - [Iron & Steel](../metals/iron-steel.md) — bearing steel (52100) and tool steel production
-- [Casting](./casting.md) — casting bearing shells and grinding wheel molds
+- [Casting](../metals/casting.md) — casting bearing shells and grinding wheel molds
 
 ## FEPA Abrasive Grading System
 
@@ -472,6 +472,6 @@ The Federation of European Producers of Abrasives (FEPA) defines two standard gr
 - [Iron & Steel](../metals/iron-steel.md) — Bearing steel (52100, SUJ2) and abrasive grit materials
 - [Machine Tools Overview](./index.md) — Complete machine tools reference
 
+---
 
-
-[← Back to Machine Tools](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*

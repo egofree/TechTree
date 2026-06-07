@@ -26,5 +26,5 @@ Fire assay for precious metals uses smaller crucibles (15-30 g sample capacity) 
 ## Appears In
 
 - [Advanced Ceramics](../ceramics/advanced-ceramics.md)
-- [Casting](../machine-tools/casting.md)
+- [Casting](../metals/casting.md)
 - [Crystal Growth](../silicon/crystal-growth.md)

@@ -2,8 +2,9 @@
 
 > **Node ID**: vacuum.leak-detection
 > **Domain**: [Vacuum Technology](./index.md)
-> **Dependencies**: `vacuum.measurement`, `measurement`, `gas-handling`
+> **Dependencies**: [`vacuum.measurement`](./measurement.md), `measurement`, `gas-handling`
 > **Enables**: Semiconductor process tools, UHV systems, hermetic packaging
+> **Critical**: No — leak detection improves vacuum system reliability but systems can operate at degraded performance without formal leak testing
 > **Timeline**: Years 25-40
 > **Outputs**: leak_detection_services, hermetic_seals, leak_rate_quantification
 
@@ -159,4 +160,45 @@ Achieving hermetic seals requires joining techniques that produce leak-tight joi
 - **[Gas Handling](../gas-handling/index.md)**: Gas delivery systems, cylinder regulators, tubing
 - **[Measurement](../measurement/index.md)**: General measurement and instrumentation principles
 
-[← Back to Vacuum](index.md)
+
+Helium supply cylinders must be secured against tipping and connected with proper regulators. The helium leak detector requires regular maintenance of its vacuum pump, mass spectrometer filament, and calibration against known leak standards. Calibration leaks (permeation-type or capillary-type elements with certified leak rates) are essential for quantitative leak detection and must be handled carefully to avoid clogging the calibrated orifice.
+
+Common leak locations include welded joints (porosity, incomplete penetration), flange connections (scratched O-ring sealing surfaces, misaligned flanges), valve stem seals (worn packing), and viewports (glass-to-metal seal failures). Systematic leak checking starts at the most likely leak points and works through the system methodically. Marking checked areas with a wax pencil prevents re-checking the same spot. For large systems, dividing the system into sections and leak-checking each section independently speeds up the process.
+
+Calibration is essential for quantitative leak detection. A calibrated leak standard (a small permeation element or capillary with a certified leak rate) is measured periodically to verify the detector sensitivity. Without calibration, the leak detector can locate leaks (qualitative detection) but cannot measure their size (quantitative leak rate). Knowing the leak rate is important for determining whether a leak is acceptable — every vacuum system has some leakage, and the question is whether the leak rate exceeds the pumping capacity enough to prevent reaching the target pressure.
+
+Helium mass spectrometer leak detectors are complex instruments that combine a small vacuum pumping system with a magnetic sector mass spectrometer tuned to helium. The detector connects to the vacuum system under test through a flexible hose. In the most common configuration (detector mode), the leak detector pumps on the vacuum system while the operator sprays helium on the exterior. The response time — the delay between spraying helium on a leak and detecting the helium signal — depends on the volume of the system and the pumping speed. Large volumes may take several minutes for the helium to reach the detector.
+pump-down periods.
+virtual from real leaks requires observing the pressure behavior over extended
+virtual leaks decrease over time as the trapped gas is depleted. Distinguishing
+slowly releases into the vacuum chamber, mimicking a leak. Unlike real leaks,
+in internal pockets (screw threads, blind holes, gaps between fitted parts)
+Virtual leaks are a diagnostic challenge distinct from real leaks. Gas trapped
+
+checked areas to avoid re-checking.
+checking starts at the most likely points and works methodically, marking
+seals (worn packing), and viewports (glass-to-metal seal failures). Systematic
+flange connections (scratched O-ring surfaces, misaligned flanges), valve stem
+Common leak locations include welded joints (porosity, incomplete penetration),
+
+decisions.
+can locate leaks qualitatively but cannot measure their size for acceptance
+periodically to verify detector sensitivity. Without calibration, the detector
+standard (permeation element or capillary with certified leak rate) is measured
+Calibration is essential for quantitative leak detection. A calibrated leak
+
+reach the detector.
+system volume and pumping speed — large volumes may take minutes for helium to
+to the system under test through a flexible hose. Response time depends on
+magnetic sector mass spectrometer tuned to helium mass 4. The detector connects
+Helium mass spectrometer leak detectors combine a small vacuum system with a
+
+The ability to detect and repair vacuum leaks efficiently separates a functional vacuum system from an expensive paperweight. Investing in leak detection capability early in vacuum technology development pays dividends in reduced troubleshooting time and higher system uptime.
+
+The ability to detect and repair vacuum leaks efficiently separates a functional vacuum system
+from an expensive paperweight. Investing in leak detection capability early in vacuum technology
+development pays dividends in reduced troubleshooting time and higher system uptime across all
+vacuum-dependent processes.
+
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*

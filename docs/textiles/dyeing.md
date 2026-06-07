@@ -245,4 +245,5 @@ Quantifying dye permanence allows consistent quality control across batches:
 - [Coatings](../chemistry/coatings.md) — related pigment and coating chemistry
 - [Finishing](finishing.md) — post-dye textile finishing processes
 
-[← Back to Textiles](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

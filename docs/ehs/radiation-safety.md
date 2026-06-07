@@ -236,4 +236,6 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 - [Electronics](../electronics/index.md) — Geiger-Müller tubes, scintillation detectors, dosimetry electronics
 - [Metals](../metals/index.md) — lead production for shielding
 
-[← Back to EHS](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Environmental Health & Safety](./index.md) • [All Domains](../index.md)*

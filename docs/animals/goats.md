@@ -264,4 +264,6 @@ A founding herd of 10-15 goats (8-10 does, 1-2 bucks) reaches 40-60 head within 
 - [Agriculture & Food Production](../foundations/food-agriculture.md) — dairy and land management
 - [Food Processing](../food-processing/dairy.md) — cheese and milk processing
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

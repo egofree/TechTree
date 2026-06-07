@@ -338,6 +338,6 @@ Ground-source heat pumps achieve COP 3.0-5.0 year-round because the ground tempe
 - **[Iron & Steel](../metals/iron-steel.md)** — Well casing and tubing materials
 - **[Chemistry](../chemistry/acids-bases.md)** — Working fluids, cement, corrosion inhibitors
 
+---
 
-
-[← Back to Energy](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

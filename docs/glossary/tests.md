@@ -6,7 +6,7 @@ DC parametric tests on test structures — process control monitors (PCMs) place
 
 ## Context in the Tech Tree
 
-Tests are structured evaluation procedures that verify a component, material, or process meets its specifications. In [Packaging & Testing](../chemistry/packaging-testing.md), wafer probing performs DC parametric tests on PCM structures, functional tests on complete circuits, and speed/bin sorting that grades devices by maximum operating frequency. In [Pottery](../ceramics/pottery.md) and [Casting](../machine-tools/casting.md), tests verify structural integrity and dimensional accuracy of manufactured goods.
+Tests are structured evaluation procedures that verify a component, material, or process meets its specifications. In [Packaging & Testing](../chemistry/packaging-testing.md), wafer probing performs DC parametric tests on PCM structures, functional tests on complete circuits, and speed/bin sorting that grades devices by maximum operating frequency. In [Pottery](../ceramics/pottery.md) and [Casting](../metals/casting.md), tests verify structural integrity and dimensional accuracy of manufactured goods.
 
 ## Technical Details
 

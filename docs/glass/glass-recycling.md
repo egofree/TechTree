@@ -230,4 +230,6 @@ Cullet reduces energy because it is already partially reacted — the silicate n
 - [Waste Management](../ehs/waste-management.md) — disposal of non-recyclable glass waste
 - [Ore Processing](../mining/processing.md) — crushing and separation equipment shared with cullet processing
 
-[← Back to Glass](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*

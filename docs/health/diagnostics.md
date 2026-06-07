@@ -244,6 +244,6 @@ Dehydration severity guides fluid resuscitation:
 - [Glass](../glass/index.md) — thermometer, microscope slide, laboratory glassware
 - [Toxicology](../ehs/toxicology.md) — diagnostic testing for toxic exposures
 
+---
 
-
-[← Back to Health](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../index.md)*

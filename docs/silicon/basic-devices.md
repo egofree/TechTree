@@ -4,6 +4,7 @@
 > **Domain**: [Silicon](./index.md)
 > **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`gas-handling.vacuum`](../gas-handling/vacuum.md), [`metals.aluminum`](../metals/aluminum.md), [`silicon.crystal-growth`](crystal-growth.md), [`silicon.wafering`](wafering.md), [`vacuum.pumps`](../vacuum/pumps.md)
 > **Enables**: [`computing.electronic`](../computing/electronic.md), [`electronics.assembly`](../electronics/assembly.md), [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
+> **Critical**: Yes — diodes and transistors are the fundamental active semiconductor devices enabling all power conversion, signal processing, and digital logic
 > **Timeline**: Years 30-50
 > **Outputs**: solar_cells, diodes, transistors
 
@@ -360,4 +361,6 @@ The op-amp is a high-gain differential amplifier with two inputs (inverting -, n
 - [Electronics Assembly](../electronics/assembly.md) — die attach and packaging
 - [EDA Design](../vlsi-scaling/eda-design.md) — VLSI circuit design
 
-[← Back to Silicon](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*

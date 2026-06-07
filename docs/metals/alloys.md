@@ -246,6 +246,39 @@ The development of new alloys follows a systematic approach rooted in thermodyna
 - Phase diagram complexity increases exponentially with each added element — ternary and quaternary systems require extensive experimentation and computational thermodynamics (CALPHAD) to map.
 - Trade-offs between properties are inherent: higher strength reduces ductility and often weldability; higher alloy content increases cost and processing complexity.
 
+## Selection Guide
+
+**Decision criteria — choosing the right alloy family**:
+- Use **austenitic stainless (304/316)** for corrosion resistance in atmospheric and mildly corrosive environments where maintenance-free service life is required — food processing, chemical vessels, architectural
+- Use **duplex stainless (2205)** for chloride stress corrosion cracking resistance in marine and hot chloride service — offshore, chemical tankers, heat exchangers
+- Use **M2 HSS** for cutting tools operating at edge temperatures up to ~600°C — drill bits, lathe tools, milling cutters
+- Use **H13 hot-work steel** for die-casting dies and forging dies contacting hot workpieces (>500°C)
+- Use **Inconel 718** for service above 540°C where steels lose strength — gas turbine discs, shafts, casings
+- Use **Ti-6Al-4V** where strength-to-weight ratio is paramount at temperatures to ~580°C — aerospace structural, medical implants
+- Use **Be-Cu** where non-sparking, non-magnetic, and high hardness are all required — oil refinery tools, X-ray windows
+- Use **cupronickel (90/10 or 70/30)** for seawater piping and desalination tubing where biofouling resistance is needed
+- Use **7075-T6** for highest-strength aluminum applications; **6061-T6** for general structural aluminum
+
+**Implementation steps for alloy production**:
+1. Verify upstream metal production (iron, nickel, chromium, copper, tin, titanium) is operational at required purity
+2. Select melting method based on alloy reactivity: air induction for carbon steels, AOD/VOD for stainless, VIM/ESR for superalloys, vacuum arc for titanium
+3. Establish compositional analysis capability (OES spark spectrometer or XRF) — alloy properties depend on ±0.01% compositional control
+4. Define heat treatment route before committing to production — the same composition can span 2-5× strength range through heat treatment
+5. Set up quality testing: hardness (HRC/HV), tensile testing, and metallographic examination for microstructure verification
+
+**Alloy family trade-offs**:
+
+| Alloy Family | Cost | Strength (MPa UTS) | Max Service Temp | Corrosion Resistance | Weldability | Best Application |
+|---|---|---|---|---|---|---|
+| Austenitic SS (304/316) | Medium | 515-620 | 870°C | Excellent (316 > 304) | Good | Chemical, food, marine |
+| Duplex SS (2205) | Medium-High | 620-800 | 300°C | Excellent (PREN >34) | Moderate | Offshore, chloride service |
+| HSS (M2) | Medium | 800-1200 (hardened) | 600°C red-hardness | Poor | Not welded | Cutting tools |
+| Superalloy (718) | Very High | 1240 (aged) | 650°C+ | Excellent | Good (slow γ" kinetics) | Gas turbines, aerospace |
+| Ti-6Al-4V | High | 900-950 | 580°C (oxidation limit) | Excellent | Difficult (inert gas) | Aerospace, medical |
+| Be-Cu | Very High | 1400 (aged) | 350°C | Good | Specialized | Non-sparking tools |
+| 7075-T6 Al | Medium | 572 | 150°C | Poor (SCC risk) | Difficult | Aircraft frames |
+| 6061-T6 Al | Low | 310 | 200°C | Good | Excellent | General structural |
+
 ## Safety & Hazards
 
 **Beryllium and beryllium copper**:
@@ -297,4 +330,4 @@ The development of new alloys follows a systematic approach rooted in thermodyna
 - [Steam Turbines](../energy/steam-turbines.md) — superalloy applications
 - [Metal Forming](forming.md) — shaping alloy stock
 
-[← Back to Metals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

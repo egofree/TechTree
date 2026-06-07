@@ -131,6 +131,29 @@ Before constructing a RED power plant, the following capabilities must be establ
 
 Building a RED power plant requires the following materials, organized by subsystem:
 
+| Material | Quantity | Source/Notes |
+|----------|----------|--------------|
+| **Membrane materials** | | |
+| Cation exchange resin beads (strong acid, R-SO₃H) | 0.5-1.0 kg per m² membrane | Water treatment suppliers (standard water softener resin), 0.3-1.2 mm beads before pulverization |
+| Anion exchange resin beads (strong base, R-N⁺(CH₃)₃) | 0.5-1.0 kg per m² membrane | Water treatment suppliers, same form factor as cation resin |
+| PVC or CPVC resin powder (binder) | 0.3-0.7 kg per m² membrane | PVC standard; CPVC for higher temperature tolerance |
+| Solvent (THF, cyclohexanone, or MEK) | 1-2 L per m² membrane | THF evaporates fastest, cyclohexanone slowest |
+| **Stack structural materials** | | |
+| PVC or CPVC sheet stock | 6-25 mm thick, per structural role | End plates, frame spacers, manifold blocks |
+| Spacer mesh (polyethylene or polypropylene) | 100-300 μm thick | Woven or non-woven filter mesh/screen material |
+| PVC cement (solvent weld) | As needed for joints | Standard PVC plumbing cement |
+| Gasket material (neoprene or EPDM rubber) | As needed for sealing | Alternative: PVC cement joints for permanent assembly |
+| Tie rods and compression hardware | Per stack dimensions | Stainless steel or fiberglass threaded rods with washers and nuts; must be electrically insulated |
+| **Electrode materials** | | |
+| Electrode substrate (coated graphite or expanded mesh) | Matching outermost cell pair area | Titanium with MMO coating for longer life at higher cost |
+| Electrode rinse solution (FeCl₂/FeCl₃ in NaCl brine) | 50-200 L per electrode compartment | 0.05-0.5 M concentration; alternative: reversible NaCl electrolysis |
+| **Water intake and pretreatment materials** | | |
+| Bar screen material (stainless steel or PVC) | 1-5 mm spacing | Coarse debris removal at intake points |
+| Sand filter media (graded silica sand) | 1 m³ per 5-10 m³/h flow capacity | 0.5-2.0 mm effective size |
+| Piping (PVC or HDPE) | 100-300 mm diameter main headers | Sized for 1-5 cm/s flow velocity in RED channels |
+| Sodium hypochlorite (NaOCl) | As needed for dosing | Biofouling control, 1-3 mg/L residual chlorine |
+| Sodium bisulfite (NaHSO₃) | As needed for dosing | Dechlorination before stack when needed |
+
 **Membrane materials**:
 - **Cation exchange resin beads**: Strong acid cation resin with sulfonic acid functional groups (R-SO₃H). Available from water treatment suppliers as standard water softener resin. Typical bead size: 0.3-1.2 mm before pulverization. Quantity: approximately 0.5-1.0 kg per m² of finished membrane.
 - **Anion exchange resin beads**: Strong base anion resin with quaternary ammonium functional groups (R-N⁺(CH₃)₃). Same source and form factor as cation resin. Quantity: approximately 0.5-1.0 kg per m² of finished membrane.
@@ -458,6 +481,6 @@ RED is currently the leading approach because it produces electricity directly w
 - [SEM Tech Redox Flow Batteries](redox-flow-battery.md) -- grid storage for dispatchable power from continuous RED generation
 - [Electricity](electricity.md) -- electrical generation and distribution infrastructure
 
+---
 
-
-[← Back to Energy](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

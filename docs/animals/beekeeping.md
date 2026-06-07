@@ -430,23 +430,33 @@ Position hives 50-100 m from crop boundary. Shelter from prevailing wind. Mornin
 4. **Frame hive with extraction** (Year 8-10+): Precision woodworking enables Langstroth-style frame hives. Centrifugal extractor preserves comb. Multiple supers per colony. Maximum yield. Queen rearing and colony multiplication under control. Pollination contracts for agriculture. Full product range (honey, wax, propolis) at commercial scale.
 
 
-## Bee Stings
+## Safety
+
+### Bee Stings and Venom Toxicity
 
 Each sting delivers 50-140 μg venom (apitoxin). Pain response is immediate (melittin damages cell membranes). Remove stinger promptly by scraping sideways with a fingernail or hive tool (pinching injects more venom from the attached venom sac, which continues pulsing for 2-3 minutes after detachment). Lethal dose: approximately 10 stings per kg body weight (500-700 stings for a 70 kg adult). Most healthy adults tolerate 10-20 stings without systemic effects beyond local swelling lasting 24-48 hours. Beekeepers develop tolerance over repeated exposure — higher baseline IgG blocks allergic response.
 
-## Anaphylaxis
+### Anaphylaxis
 
 1-3% of the population is hypersensitive to bee venom (IgE-mediated). Symptoms: generalized hives, throat swelling, difficulty breathing, rapid pulse, drop in blood pressure. Onset within 5-30 minutes. Fatal if untreated (airway obstruction or cardiovascular collapse). Treatment: epinephrine auto-injector (0.3 mg IM for adults, 0.15 mg for children) injected into outer thigh. Second dose after 5-15 minutes if symptoms persist. Emergency medical attention required even after epinephrine — biphasic reactions recur 4-12 hours later in 20% of cases. Anyone keeping bees should identify hypersensitive individuals in the household and keep an emergency plan.
 
-## Smoke Inhalation
+### Hot Wax Burns
 
-Smoker fuel produces carbon monoxide and particulate matter. Use in well-ventilated outdoor areas only. Avoid inhaling smoke directly — position yourself upwind. Never use synthetic materials as smoker fuel (plastics, rubber) — toxic fumes harm bees and beekeeper. Symptoms of CO exposure: headache, dizziness, nausea at 100-200 ppm; loss of consciousness at 600-700 ppm.
+Beeswax melts at 62-64°C and flash-ignites at ~210°C. Melted wax at 62-65°C causes second-degree burns on 1-second skin contact. Never heat wax over an open flame — use a double boiler or water bath to maintain temperature below 65°C. If wax catches fire, smother with a metal lid or wet cloth — never use water (causes spattering and fire spread). Wear leather gloves and a long-sleeved shirt when rendering wax. Keep a fire extinguisher (CO₂ or dry chemical) within reach during wax processing.
 
-## Falls from Height
+### Heavy Lifting
+
+A full deep super (honey frame hive box) weighs 30-35 kg. A Langstroth hive stack of 2-3 deep supers plus honey supers weighs 80-120 kg. Lift with bent knees, not the back. When moving full supers, grip both handholds and lift straight up — do not twist the torso while carrying. Use a hive cart or hand truck for moving hives longer than 5 m. A 30 kg load dropped from waist height onto a foot causes metatarsal fractures.
+
+### Smoke Inhalation
+
+Smoker fuel produces carbon monoxide (CO) and particulate matter. CO binds hemoglobin 200× more readily than oxygen — symptoms begin at 100-200 ppm (headache, dizziness, nausea) and progress to loss of consciousness at 600-700 ppm. Use in well-ventilated outdoor areas only. Position yourself upwind of the smoker at all times. Never use synthetic materials as smoker fuel (plastics, rubber) — they produce hydrogen chloride, hydrogen cyanide, and dioxins that harm both bees and beekeeper.
+
+### Falls from Height
 
 Log hives positioned 1-3 m above ground in trees require ladder access. Inspect ladder condition before each use. Maintain three points of contact when climbing. Work with a partner when accessing elevated hives. A fall from 2 m onto hard ground causes fractures in 10-15% of cases.
 
-## Protective Equipment
+### Protective Equipment
 
 - **Veil**: Mesh hood preventing stings to face and neck — the most critical protection. Bees target the face and breath (CO₂ attracts them). Round veil (Elizabethan style) or folding veil attached to a hat.
 - **Gloves**: Leather or canvas, reaching to elbow. Cuff should overlap with sleeve. Experienced beekeepers often work without gloves for dexterity, accepting occasional stings.
@@ -454,7 +464,7 @@ Log hives positioned 1-3 m above ground in trees require ladder access. Inspect 
 - **Hive tool**: Flat steel bar (20-25 cm) for prying apart frames glued together with propolis. Never force frames — pry gently at multiple points. Also used for scraping propolis and wax buildup.
 - **Suit or coveralls**: Light-colored (bees are less defensive around light colors — dark colors resemble predators like bears), smooth fabric (bees snag on wool and become agitated). Tuck pants into boots or secure with straps to prevent bees crawling up legs.
 
-## Apiary Safety Practices
+### Apiary Safety Practices
 
 - Work hives during midday (10:00-15:00) when most foragers are away from the hive.
 - Move slowly and deliberately — rapid movements trigger defensive response.
@@ -502,4 +512,5 @@ Log hives positioned 1-3 m above ground in trees require ladder access. Inspect 
 - [Copper & Bronze](../metals/copper-bronze.md) — lost-wax casting with beeswax
 - [Writing](../knowledge/writing.md) — beeswax tablets
 
-[← Back to Animals](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

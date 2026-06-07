@@ -281,6 +281,6 @@ Solvents present a tiered hazard landscape ranked by severity:
 - **[SEM Tech](sem-tech.md)**: Membrane-based separation as an alternative to distillation for solvent recovery
 - **[Health / Pharmacology](../health/pharmacology.md)**: Solvent extraction of active pharmaceutical compounds
 
+---
 
-
-[← Back to Chemistry](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

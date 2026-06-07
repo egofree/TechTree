@@ -586,6 +586,6 @@ Many ceramic raw materials produce fine dust during crushing, grinding, and powd
 - [Charcoal Production](../energy/charcoal.md) — carbon source for SiC synthesis
 - [Electricity](../energy/electricity.md) — power supply for kilns and ball mills
 
+---
 
-
-[← Back to Ceramics & Refractories](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*

@@ -303,6 +303,15 @@ Pre-positioned at strategic locations near gas cabinets and VMBs:
 | Respirator user experiences difficulty breathing after 1 hour | Filter cartridges loaded — breathing resistance increased from particulate accumulation | Replace cartridges when breathing resistance noticeably increases; for P100 particulate filters, do not exceed manufacturer-rated service life; schedule cartridge changes based on exposure duration, not subjective feel |
 | Calcium gluconate gel in HF workstation kit is hardened/expired | Monthly inspection missed — gel has exceeded shelf life or tube seal was broken | Replace with fresh 2.5% calcium gluconate gel immediately; verify all tubes in kit are sealed and within expiration date; assign monthly PPE kit inspection with documented sign-off |
 
+## Safety
+
+PPE programs carry inherent hazards when equipment fails, degrades, or is misapplied:
+
+- **Glove breakthrough without visible warning**: Chemical permeation through glove material is invisible. Nitrile (0.2 mm) handling 49% HF has a breakthrough time under 30 minutes — the glove appears intact while fluoride ions pass through. Neoprene (0.5 mm) degrades visibly after HF contact (discoloration, stiffening) but permeation begins 2-4 hours before visual signs appear. Enforce time-based glove changes derived from manufacturer permeation data, not visual inspection. Double-glove for all HF work (0.2 mm nitrile inner + 0.5 mm neoprene outer).
+- **Respirator fit-testing hazards**: Qualitative fit testing uses saccharin or bitrex aerosol. Bitrex (denatonium benzoate) at test concentrations causes gagging and nausea in sensitive individuals — perform tests in a ventilated area with a sink available. Quantitative fit testing (portacount) requires the test subject to wear the respirator for 15-20 minutes performing exercises (bending, talking, turning head) — subjects with undiagnosed claustrophobia may experience panic attacks inside the full-face respirator hood. Medical clearance questionnaire (OSHA Appendix C) screens for cardiac and pulmonary conditions before respirator use.
+- **SCBA cylinder and regulator failures**: Carbon-wrapped SCBA cylinders (4500 psi) develop stress corrosion cracking when exposed to chemical splashes containing strong acids. A cylinder struck by concentrated H₂SO₄ during a response scenario can rupture catastrophically. Inspect cylinder exteriors after every use in chemical environments — any discoloration, scoring, or chemical contamination requires removal from service and hydrostatic retest. Regulator free-flow failure (stuck open) empties a 45-minute cylinder in 8-10 minutes. Train users to recognize the vibration and sound of a free-flowing regulator and activate the bypass valve immediately.
+- **Chemical suit heat stress**: Tyvek-Saranex laminate suits have zero moisture vapor transmission — the wearer's sweat cannot evaporate. At ambient temperatures above 25°C, core body temperature rises 1°C per 30 minutes of moderate activity inside a chemical suit. Limit chemical suit work to 20-minute intervals with 10-minute cooling breaks (remove suit, hydrate, fan cooling). Monitor for heat exhaustion symptoms: dizziness, nausea, cessation of sweating (heat stroke — medical emergency). Emergency responders in full chemical suits during summer months are at highest risk.
+
 ## See Also
 
 - [Chemical Safety & Toxicology](chemical-safety.md) — Chemical hazards driving PPE selection
@@ -310,6 +319,5 @@ Pre-positioned at strategic locations near gas cabinets and VMBs:
 - [Occupational Health](../health/occupational-health.md) — General PPE principles and fit testing
 - [Polymers](../polymers/index.md) — Rubber and polymer materials for glove and suit fabrication
 
-
-
-[← Back to EHS](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

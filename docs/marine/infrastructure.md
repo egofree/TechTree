@@ -8,6 +8,15 @@
 > **Outputs**: harbor works, dry docks, submarine cables, lighthouses, corrosion protection
 > **Critical**: No — specialized maritime capability, not required for land-based civilization
 
+## Prerequisites
+
+Maritime infrastructure requires significant industrial capability for construction materials and precision engineering:
+
+- [Machine tools](../machine-tools/index.md) — precision manufacturing for pumps, caissons, and cable-laying equipment
+- [Iron and steel production](../metals/iron-steel.md) — structural steel for dry docks, piers, and cable armoring
+- [Gutta-percha](../polymers/gutta-percha.md) — natural polymer for submarine cable insulation
+- [Cement and concrete](../chemistry/cement.md) — concrete for harbor and dock construction
+
 Maritime infrastructure enables vessels to operate safely: harbors for shelter, docks for construction and repair, lighthouses for navigation, and underwater cables for communication. This capability also covers corrosion prevention — the perpetual battle against seawater's destruction of metal structures.
 
 For basic harbor and port facility descriptions, see [Water Transport](../transport/shipping.md).
@@ -351,6 +360,5 @@ Seawater (3.5% NaCl, pH 8.0-8.3) is one of the most corrosive natural environmen
 - [Cement & Concrete](../chemistry/cement.md) — concrete for harbor and dock construction
 - [Hull Construction](shipbuilding.md) — shipbuilding for cable ships and construction vessels
 
-
-
-[← Back to Marine & Naval Engineering](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval Engineering](./index.md) • [All Domains](../index.md)*

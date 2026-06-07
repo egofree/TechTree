@@ -3,7 +3,7 @@
 > **Node ID**: metals.iron-steel
 > **Domain**: [Metallurgy](./index.md)
 > **Dependencies**: [`metals.copper-bronze`](copper-bronze.md)
-> **Enables**: [`construction.structural-engineering`](../construction/structural-engineering.md), [`energy.cooling`](../energy/cooling.md), [`energy.gravity.water-turbines`](../energy/water-turbines.md), [`energy.steam-power`](../energy/steam-power.md), [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md), [`knowledge.printing`](../knowledge/printing.md), [`machine-tools.casting`](../machine-tools/casting.md), [`machine-tools.forming`](../machine-tools/forming.md), [`machine-tools.joining`](../machine-tools/joining.md), [`marine.infrastructure`](../marine/infrastructure.md), [`marine.propulsion`](../marine/propulsion.md), [`marine.shipbuilding`](../marine/shipbuilding.md), [`metals.alloys`](alloys.md), [`metals.iron-steel.blast-furnace`](blast-furnace.md), [`metals.steelmaking`](steelmaking.md), [`transport.railways`](../transport/railways.md), [`transport.telegraph`](../transport/telegraph.md)
+> **Enables**: [`construction.structural-engineering`](../construction/structural-engineering.md), [`energy.cooling`](../energy/cooling.md), [`energy.gravity.water-turbines`](../energy/water-turbines.md), [`energy.steam-power`](../energy/steam-power.md), [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md), [`knowledge.printing`](../knowledge/printing.md), [`metals.casting`](./casting.md), [`machine-tools.forming`](../machine-tools/forming.md), [`machine-tools.joining`](../machine-tools/joining.md), [`marine.infrastructure`](../marine/infrastructure.md), [`marine.propulsion`](../marine/propulsion.md), [`marine.shipbuilding`](../marine/shipbuilding.md), [`metals.alloys`](alloys.md), [`metals.iron-steel.blast-furnace`](blast-furnace.md), [`metals.steelmaking`](steelmaking.md), [`transport.railways`](../transport/railways.md), [`transport.telegraph`](../transport/telegraph.md)
 > **Timeline**: Years 5-15
 > **Outputs**: wrought_iron, steel, iron_bloom, heat_treated_steel, forge_welds, brazed_joints, soldered_joints, springs, bellows, tongs, ...
 > **Critical**: true
@@ -293,6 +293,35 @@ These three forms of iron-carbon alloy represent fundamentally different materia
 - Wrought iron is obsolete for structural use — replaced by steel after 1860 due to labor-intensive bloomery process and inability to heat-treat.
 - Cast iron's nil ductility limits it to compressive-load applications — it cannot serve as a general structural material.
 
+## Selection Guide
+
+**Decision criteria — choosing iron and steel products**:
+- Use **wrought iron** for decorative ironwork and corrosion-resistant applications (fibrous slag inclusions interrupt corrosion) — obsolete for structural use, replaced by mild steel after 1860
+- Use **mild steel (1020-1025)** for structural shapes, sheet, wire, pipe — 90% of all steel produced, weldable without preheat, formable
+- Use **medium carbon steel (1045)** for quenched-and-tempered machine parts — forgings, shafts, bolts, best strength-toughness balance
+- Use **high carbon steel (1080-1095)** for springs, cutting tools, and wear-resistant edges — 55-65 HRC after quenching, poor weldability
+- Use **gray cast iron** for machine bases, engine blocks, cookware — excellent vibration damping, machinability, low melting point (1150-1200°C)
+- Use **ductile (nodular) iron** when cast iron needs ductility — 350-700 MPa tensile with 2-10% elongation, bridges gap between cast iron and steel
+
+**Implementation steps for ferrous metal production**:
+1. Start with bloomery smelting for wrought iron — 1200-1400°C with forced-air bellows, no melting required
+2. Progress to blast furnace for liquid pig iron when continuous production and higher throughput are needed
+3. Establish steelmaking capability: Bessemer/BOF for bulk production, or crucible steel for high-quality tool steel
+4. Add heat treatment capability: quench (water/oil) + temper (200-650°C) to tune hardness-toughness balance
+5. Set up quality testing: spark testing for carbon estimation, file test for hardness, bend testing for weld quality
+6. Scale to rolling and forging (see [Metal Forming](forming.md)) for converting ingots to useful stock shapes
+
+**Iron-carbon material trade-offs**:
+
+| Material | Carbon (%) | Tensile (MPa) | Elongation | Cast | Forge | Weld | Machine | Typical Use |
+|---|---|---|---|---|---|---|---|---|
+| Wrought iron | 0.02-0.08 | 200-350 | 15-25% | Poor | Excellent | Excellent | Poor | Decorative, historical |
+| Mild steel | 0.05-0.25 | 300-500 | 20-35% | Moderate | Good | Excellent | Good | Structures, sheet, pipe |
+| Medium C steel | 0.25-0.60 | 500-900 (Q&T) | 10-20% | Moderate | Moderate | Moderate | Good | Shafts, gears, forgings |
+| High C steel | 0.60-1.00 | 700-1300 (Q&T) | 5-12% | Poor | Poor | Poor | Moderate | Springs, tools, edges |
+| Gray cast iron | 2.5-4.0 | 150-400 | <1% | Excellent | Nil | Difficult | Excellent | Machine bases, pipes |
+| Ductile iron | 3.0-4.0 | 350-700 | 2-10% | Excellent | Nil | Difficult | Good | Valves, gears, brackets |
+
 ## Safety & Hazards
 
 - **Extreme heat and burn risk**: Bloomery furnaces reach 1200-1400°C; extracted blooms glow white-hot at ~1200°C. Forge welding requires heating iron to 1300-1400°C (bright yellow-white). At these temperatures, radiation burns occur within seconds of close proximity. Wear heavy leather apron, gloves, face shield, and closed-toe boots. Use tongs sized to the work — dropping white-hot iron causes severe burns and fires. Maintain a clear, dry floor around the forge (no water puddles — steam explosions from spilled molten slag).
@@ -327,4 +356,4 @@ These three forms of iron-carbon alloy represent fundamentally different materia
 - [Metal Joining](../machine-tools/joining.md) — welding, brazing, and soldering
 - [Machine Tools](../machine-tools/index.md) — iron and steel machine construction
 
-[← Back to Metals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

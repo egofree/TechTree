@@ -238,4 +238,6 @@ The key innovation was the closed ammonia loop — previous attempts at ammonia-
 - [Electrolysis](electrolysis.md) — alternative route to NaOH via chlor-alkali process
 - [Lime Chemistry](alkalis.md) — lime kiln design, slaking, and the lime cycle
 
-[← Back to Chemistry](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

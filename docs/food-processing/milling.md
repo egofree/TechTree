@@ -4,6 +4,7 @@
 > **Domain**: [Food Processing](./index.md)
 > **Dependencies**: [`energy`](../energy/index.md)
 > **Enables**: None (leaf capability)
+> **Critical**: No — mechanized milling increases grain processing throughput but hand milling with stone querns is a functional fallback
 > **Timeline**: Years 0-20
 > **Outputs**: flour, bran, grits, meal
 
@@ -291,6 +292,6 @@ Milling produces valuable byproducts beyond flour:
 - [Ceramics](../ceramics/index.md) — grain storage vessels
 - [Machine Tools](../machine-tools/index.md) — precision machining for roller mill components
 
+---
 
-
-[← Back to Food Processing](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*

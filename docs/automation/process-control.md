@@ -2,7 +2,7 @@
 
 > **Node ID**: automation.process-control
 > **Domain**: [Automation & Robotics](./index.md)
-> **Dependencies**: [`automation.equipment-communication`](equipment-communication.md), `quality-control`
+> **Dependencies**: [`automation.equipment-communication`](equipment-communication.md), [`quality-control`](../quality-control/index.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 60-100+
 > **Outputs**: recipe_management, lot_tracking, process_sequencing, fault_detection, run_to_run_control
@@ -10,6 +10,13 @@
 
 
 A semiconductor wafer undergoes 400-700 individual process steps over 4-8 weeks of fabrication. Each step has precise recipe parameters (temperature ramp rates, gas flows, RF powers, etch times) that must be executed exactly. A single parameter deviation at step 200 may not produce a detectable defect until electrical test at step 600 — by which time 400 steps of value have been added to a wafer that must now be scrapped. Automated process control and lot tracking ensure every wafer receives the correct process at every step, with full traceability from raw silicon to finished die.
+
+## Prerequisites
+
+- [Equipment Communication](equipment-communication.md) — SECS/GEM protocol for real-time data collection and recipe management
+- [Quality Control](../quality-control/index.md) — SPC methodology, metrology, and defect analysis for process monitoring
+- [Computing](../computing/index.md) — server infrastructure for MES, FDC, and data warehouse
+- [Electronics](../electronics/index.md) — sensors, data acquisition, and control electronics
 
 ## Decision Framework: Process Control Architecture
 
@@ -326,4 +333,6 @@ Before a tool is authorized to run production wafers, it must pass qualification
 - [Defect Analysis](../quality-control/defect-analysis.md) — yield improvement
 - [Quality Control Index](../quality-control/index.md) — inspection and sampling overview
 
-[← Back to Automation & Robotics](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Automation & Robotics](./index.md) • [All Domains](../index.md)*

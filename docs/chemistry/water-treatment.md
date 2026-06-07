@@ -296,6 +296,6 @@ Industrial water treatment includes treating used water before discharge. The st
 - [Electrolysis](./electrolysis.md) — chlorine and hydrogen production
 - [Chemicals](./index.md) — acid and base production
 
+---
 
-
-[← Back to Chemistry](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

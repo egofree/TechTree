@@ -392,6 +392,6 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 - [Precision Metrology](../measurement/precision-metrology.md) — analytical balances for volumetric calibration
 - [Refractory Metals](../metals/refractory-metals.md) — tungsten wire for glass-to-metal seals
 
+---
 
-
-[← Back to Glass](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*

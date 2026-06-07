@@ -232,6 +232,6 @@ A concrete example of a structured pathway for machining:
 - [Technical Drawing](technical-drawing.md) — drawing skills pathway within engineering education
 - [Standards Bodies](standards-bodies.md) — certification standards for practitioner qualification
 
+---
 
-
-[← Back to Knowledge](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*

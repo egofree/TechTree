@@ -232,4 +232,5 @@ A single-level metal NMOS process requires ~80-100 individual operations (includ
 - [Advanced Processes](../vlsi-scaling/advanced-processes.md) — advanced node processing
 - [EDA Design](../vlsi-scaling/eda-design.md) — VLSI design to fabrication
 
-[← Back to Photolithography](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Photolithography & IC Fabrication](./index.md) • [All Domains](../index.md)*

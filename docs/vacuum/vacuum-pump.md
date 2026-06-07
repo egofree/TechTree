@@ -40,7 +40,7 @@ A vacuum pump removes gas molecules from a sealed volume, progressively lowering
 | Spring steel (vane springs) | 4-6 pieces | Compression springs, 5-20 N force | [Iron & Steel](../metals/iron-steel.md) | — |
 | Vacuum oil | 0.5-8 L | Mineral oil, vapor pressure <5×10⁻⁵ Torr at 25°C | [Lubricants](../chemistry/lubricants.md) | Synthetic vacuum oil (lower VP, higher cost) |
 | Steel shaft | 1 | 15-30 mm diameter, ground to ±0.01 mm | [Iron & Steel](../metals/iron-steel.md) | — |
-| Seals (shaft seal, O-rings) | 2-4 | Viton FKM, rated to 200°C | [Elastomers](../polymers/elastomers.md) | Buna-N (lower temp rating) |
+| Seals (shaft seal, O-rings) | 2-4 | Viton FKM, rated to 200°C | [Elastomers](../polymers/rubber.md) | Buna-N (lower temp rating) |
 | Electric motor | 1 | 0.25-4 kW, 1450 or 1750 RPM | [Electricity](../energy/electricity.md) | Hand-cranked (impractical for production) |
 
 ### Diffusion Pump
@@ -164,4 +164,38 @@ A vacuum pump removes gas molecules from a sealed volume, progressively lowering
 - [Deposition Systems](deposition-systems.md) — integrated systems that use vacuum pumps
 - [Lubricants](../chemistry/lubricants.md) — vacuum oil specifications
 
-[← Back to Vacuum Technology](index.md)
+
+Pump oil in rotary vane pumps must be monitored for color, level, and contamination. Darkened oil indicates oxidation or contamination and should be changed. Low oil level causes overheating and rapid wear. Add or change oil only when the pump is warm (oil flows freely and drains completely). For systems pumping corrosive gases, use chemical-grade pump oil with corrosion inhibitors and change it more frequently. Always install a valve between the pump and the vacuum chamber so the chamber can be isolated from the pump during maintenance.
+
+Pumping speed and throughput are the two fundamental performance parameters of a vacuum pump. Pumping speed (measured in liters per second) is the volume flow rate at the pump inlet. Throughput (measured in pressure × volume per unit time, such as Torr × liters per second) is the amount of gas being moved. The relationship between them is throughput = pumping speed × pressure. A pump with high speed but low compression ratio can move large volumes at moderate vacuum but cannot reach high vacuum. Understanding this relationship is essential for matching pump selection to the application requirements.
+
+Dry (oil-free) pumps are increasingly important for semiconductor and other contamination-sensitive applications. Scroll pumps, screw pumps, and diaphragm pumps all provide rough vacuum without oil, eliminating the backstreaming problem entirely. Their disadvantage is higher initial cost and, for some types, lower ultimate vacuum compared to oil-sealed pumps. As semiconductor manufacturing moves to ever-smaller feature sizes where even trace contamination causes defects, oil-free pumping has become mandatory for critical process steps.
+
+Oil-sealed rotary vane pumps are the workhorses of vacuum technology. They are mechanically simple, reliable, and relatively inexpensive. Their main limitation is oil backstreaming — oil vapor flows backward from the pump into the vacuum chamber, contaminating the process environment. This is prevented by installing a foreline trap (a molecular sieve or activated charcoal trap) between the pump and the chamber, or by using an oil-free pump type for contamination-sensitive applications.
+chamber intercept backstreaming oil vapor.
+traps (cooled with liquid nitrogen or chilled water) between the pump and
+at low cost but require careful operation to prevent oil backstreaming. Cold
+carry them to the exhaust. Diffusion pumps can achieve very high pumping speeds
+hot oil vapor directed downward to entrain gas molecules from the chamber and
+Diffusion pumps are high-vacuum pumps with no moving parts. They use a stream of
+
+application requirements is essential.
+at moderate vacuum but cannot reach high vacuum. Matching pump selection to
+pressure. A pump with high speed but low compression ratio moves large volumes
+time) are the fundamental pump parameters. Throughput equals pumping speed times
+Pumping speed (liters per second) and throughput (pressure times volume per
+
+some types, lower ultimate vacuum compared to oil-sealed pumps.
+eliminating backstreaming entirely. Their disadvantage is higher cost and, for
+Scroll pumps, screw pumps, and diaphragm pumps provide rough vacuum without oil,
+Dry (oil-free) pumps are essential for contamination-sensitive applications.
+
+types.
+foreline traps (molecular sieve or activated charcoal) or by using oil-free pump
+is oil backstreaming (oil vapor flowing backward into the chamber), prevented by
+mechanically simple, reliable, and relatively inexpensive. Their main limitation
+Oil-sealed rotary vane pumps are the workhorses of vacuum technology —
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*

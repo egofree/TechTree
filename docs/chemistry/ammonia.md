@@ -311,4 +311,6 @@ The path to industrial ammonia production follows a specific build order constra
 - [Alkalis](alkalis.md) — sodium carbonate via Solvay process
 - [Explosives](explosives.md) — ammonium nitrate and TNT
 
-[← Back to Chemistry](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

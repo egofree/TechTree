@@ -11,6 +11,12 @@
 
 Lithography in the VLSI scaling context covers advanced patterning techniques beyond contact/proximity printing: projection steppers (g-line, i-line), DUV excimer laser systems (KrF 248 nm, ArF 193 nm), immersion lithography, and extreme ultraviolet (EUV). Resolution enhancement techniques (RET) — OPC, phase-shift masks, off-axis illumination — push each wavelength generation to its physical limits. For the foundational lithography processes (contact printing, basic resist chemistry, mask fabrication), see [Core Fab Processes](../photolithography/fab-processes.md) and [Resists & Masks](../photolithography/resists-masks.md).
 
+## Prerequisites
+
+- [Resists & Masks](../photolithography/resists-masks.md) — photoresist chemistry and mask blanks
+- [Optics Inspection](../optics/inspection.md) — lens fabrication and quality verification
+- [Vacuum Systems](vacuum-systems.md) — vacuum for lithography tools and electron-beam systems
+
 ## Lithography Wavelength Generations
 
 Each wavelength generation enabled approximately one decade of feature size scaling before reaching its physical resolution limit. The progression from 436 nm to 13.5 nm represents a 32× reduction in wavelength and a corresponding improvement in achievable resolution.
@@ -323,6 +329,43 @@ Masks are master templates. A single mask defect prints on every die on every wa
 | Mask defect prints on every die — detected at wafer inspection | E-beam mask writer introduced defect during 10-40 hour write; mask inspection missed defect at die-to-database comparison | Re-inspect mask with actinic inspection at exposure wavelength; attempt FIB repair (±5-10 nm accuracy); if unrepairable, order remake at $100,000-500,000 and 2-4 week delay |
 | Scanner wafer stage position noise exceeds 0.3 nm RMS | Air bearing pressure drop below spec; interferometer mirror contamination; floor vibration above VC-D criterion | Verify air supply at 3-5 bar with clean dry air; clean interferometer mirrors; check vibration isolation system — pneumatic isolator pressure and active cancellation status; re-measure floor vibration against VC-D (<6.25 μm/s RMS) |
 
+## Decision and Implementation Framework
+
+This article describes lithography systems as a conceptual guide for selecting and deploying patterning technology.
+
+### C1: Decision Criteria
+
+Select your lithography system based on target node and available capital:
+
+| Target Node | System | Key Requirement | Capital |
+|---|---|---|---|
+| >350 nm | I-line stepper | Basic optics, moderate alignment | $3-5M |
+| 250-350 nm | KrF scanner | Excimer laser, CAR resist | $5-10M |
+| 130-250 nm | ArF dry scanner | 193 nm optics, dry etch capability | $10-20M |
+| 45-130 nm | ArF immersion scanner | Water immersion, ±0.01°C temperature control | $30-80M |
+| 20-45 nm | ArF immersion + double patterning | <3 nm overlay between exposures | 2× DUV cost |
+| 7-20 nm | ArF immersion + SAQP or EUV | SAQP: CVD spacer control ±0.5 nm. EUV: $200M+ scanner | SAQP: moderate. EUV: $200-350M |
+| <7 nm | EUV + multiple patterning | 250+ W EUV source, reflective optics | $300M+ per scanner |
+
+### C2: Implementation Steps
+
+1. **Establish baseline lithography**: Start with contact/proximity or i-line projection. Achieve >90% yield on simple designs before investing in advanced scanners.
+2. **Add RET capability**: Implement OPC (model-based), then phase-shift masks, then off-axis illumination. Each extends resolution by 10-30% without new hardware.
+3. **Upgrade exposure source**: Move from Hg lamp to KrF to ArF as features shrink. Each wavelength generation requires new resist chemistry.
+4. **Deploy immersion**: Add the water delivery system to the ArF scanner. This single change extends resolution from ~40 nm to ~38 nm half-pitch.
+5. **Implement multiple patterning**: When single-exposure resolution is exhausted, adopt LELE, then SADP, then SAQP. Each adds mask count and overlay complexity.
+6. **Consider EUV**: Only when DUV multiple patterning cost per layer exceeds EUV single-pass cost. Requires 250+ W source power and reflective mask infrastructure.
+
+### C3: Patterning Strategy Trade-offs
+
+| Strategy | Layers Supported | Mask Count Impact | Overlay Risk | Cost per Critical Layer |
+|---|---|---|---|---|
+| Single exposure (193 nm immersion) | All at ≥38 nm HP | 1 mask per layer | Baseline (scanner only) | $2-4 |
+| LELE double patterning | 20-38 nm HP | 2 masks per layer | ±3 nm between exposures | $4-8 |
+| SADP | Dense regular arrays (fins, gates) | 1 mask + cut mask | Self-aligned (±1 nm CD from CVD) | $3-6 |
+| SAQP | Dense arrays at 19-38 nm HP | 1 mask + 2 cut masks | Self-aligned (±0.5 nm) | $5-10 |
+| EUV single exposure | All at ≥8 nm HP | 1 mask per layer | Baseline (scanner only) | $8-15 |
+
 ## See Also
 
 - [Photoresists & Masks](../photolithography/resists-masks.md) — resist materials and photomasks
@@ -332,4 +375,5 @@ Masks are master templates. A single mask defect prints on every die on every wa
 - [Continuous Scaling](continuous-scaling.md) — feature size reduction roadmap
 - [Advanced Lithography](advanced-lithography.md) — next-generation lithography
 
-[← Back to VLSI Scaling](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*

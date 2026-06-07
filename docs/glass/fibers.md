@@ -235,4 +235,6 @@ Fiberglass is rarely used as bare fiber. Its value is as reinforcement in a poly
 - [Ceramics](../ceramics/index.md) — ceramic fiber insulation alternatives
 - [Inspection](../optics/inspection.md) — fiber diameter and quality measurement
 
-[← Back to Glass](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*

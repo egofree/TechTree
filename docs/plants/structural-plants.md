@@ -3,7 +3,7 @@
 > **Node ID**: plants.structural-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
 > **Dependencies**: [`plants`](./index.md)
-> **Enables**: `plants.structural-plants.artemisia-capillaris`
+> **Enables**: [`plants.structural-plants.artemisia-capillaris`](./structural-plants.md)
 > **Timeline**: Years 0-10
 > **Outputs**: structural_timber, building_materials, thatch, wattle, poles
 > **Critical**: Yes — all early construction depends on plant-derived structural materials
@@ -357,4 +357,6 @@ Wall thickness: 100-150 mm. Insulation value: moderate (poorer than solid masonr
 - [Edible Plants](edible-plants.md) — food crop plants
 - [Construction Index](../construction/index.md) — structural engineering and buildings
 
-[← Back to Plants](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*

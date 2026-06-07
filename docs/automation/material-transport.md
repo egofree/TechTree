@@ -11,6 +11,14 @@
 
 A 300 mm semiconductor fab processes 40,000-100,000 wafers per month. Each wafer visits 400-700 process steps across dozens of different tools. At any moment, thousands of FOUPs (each holding 25 wafers) must move between stockers (storage), process tools, and inspection stations. A single mis-delivered or delayed FOUP can idle a $20 million tool. Automated material transport is the logistics backbone that keeps the fab running at peak throughput.
 
+## Prerequisites
+
+- [Equipment Communication](equipment-communication.md) — SECS/GEM protocol for tool coordination and FOUP tracking
+- [Cleanrooms](../photolithography/cleanrooms.md) — cleanroom environment with raised flooring and structural support for OHT rails
+- [Electricity](../energy/electricity.md) — power supply for AGV batteries, OHT rail bus bars, and control systems
+- [Electronics](../electronics/index.md) — RFID readers, sensors, motor controllers, and wireless communication
+- [Machine Tools](../machine-tools/index.md) — precision manufacturing of rails, vehicles, and stocker components
+
 ## Decision Framework: Transport System Selection
 
 | Scenario | Recommended System | Rationale |
@@ -302,4 +310,6 @@ Most 300 mm fabs use raised access flooring (perforated panels 300-600 mm above 
 - [Core Fab Processes](../photolithography/fab-processes.md) — semiconductor fabrication
 - [Cleanrooms](../photolithography/cleanrooms.md) — contamination-free environments
 
-[← Back to Automation & Robotics](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Automation & Robotics](./index.md) • [All Domains](../index.md)*

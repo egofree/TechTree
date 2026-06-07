@@ -15,6 +15,6 @@ Non-ferrous metals also benefit from heat treatment: aluminum alloys can be solu
 
 - [Basic Tools](../foundations/tools-basic.md)
 - [Bearings and Abrasives](../machine-tools/bearings-abrasives.md)
-- [Casting](../machine-tools/casting.md)
+- [Casting](../metals/casting.md)
 - [Alloys](../metals/alloys.md)
 - [Iron and Steel](../metals/iron-steel.md)

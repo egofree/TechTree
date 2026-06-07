@@ -4,6 +4,7 @@
 > **Domain**: [Food Processing](./index.md)
 > **Dependencies**: [`ceramics`](../ceramics/index.md), [`health.sanitation`](../health/sanitation.md)
 > **Enables**: None (leaf capability)
+> **Critical**: No — dairy processing enhances nutrition but basic animal husbandry provides dairy products without specialized equipment
 > **Timeline**: Years 0-20
 > **Outputs**: butter, cheese, cream, yogurt, whey, ghee
 
@@ -271,6 +272,6 @@ The transformation of fresh curd into aged cheese involves complex biochemical c
 - [Energy](../energy/index.md) — mechanical power for cream separators, cooling for storage
 - [Metals](../metals/index.md) — stainless steel for dairy equipment, tin for separator bowls
 
+---
 
-
-[← Back to Food Processing](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*

@@ -295,4 +295,6 @@ Lead is uniquely suited for dilute H₂SO₄ (<78%) — forms protective PbSO₄
 - [Ammonia](ammonia.md) — nitrogen chemistry for acid production
 - [Distillation](distillation.md) — acid concentration and purification
 
-[← Back to Chemistry](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

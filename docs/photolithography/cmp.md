@@ -142,4 +142,64 @@ CMP is also used during [wafer manufacturing](../silicon/wafering.md) to produce
 - [Cleanrooms](cleanrooms.md) — contamination-controlled processing environment
 - [Advanced Processes](../vlsi-scaling/advanced-processes.md) — advanced node CMP challenges
 
+The choice of polishing pad is one of the most impactful decisions in CMP process development. Hard pads produce better planarity but lower removal rates, while soft pads conform to surface topography and remove material faster but with less planarization. Dual-pad configurations (hard sub-pad beneath a soft polishing pad) combine the benefits of both approaches. Pad conditioning — scratching the pad surface with a diamond disk to restore texture — must be performed regularly during processing to maintain consistent removal rates.
+
+Slurry chemistry is tailored to the material being polished. Oxide CMP slurries are typically alkaline (pH 10-11) silica suspensions that soften the oxide surface for mechanical removal. Metal CMP slurries (copper, tungsten) use oxidizers and complexing agents to dissolve the metal, combined with abrasives for mechanical enhancement. Selectivity between the target material and the underlying stopping layer (often a dielectric) is a critical slurry parameter — poor selectivity leads to erosion of the stopping layer and device failure.
+
+Post-CMP cleaning is as important as the polishing step itself. Slurry particles, polishing debris, and chemical residues left on the wafer surface cause defects in subsequent processing. Standard post-CMP cleaning sequences include brush scrubbing with dilute chemistry, megasonic agitation to dislodge particles, and spin-rinse-dry cycles. The entire cleaning process must be performed in a cleanroom environment to prevent recontamination. Effective post-CMP cleaning can reduce defect densities by orders of magnitude compared to a simple water rinse.
+
+Endpoint detection during CMP determines when the target material has been fully removed. Motor current monitoring (measuring the torque on the polishing head) detects the friction change when the underlying layer is exposed. Optical interferometry measures the remaining film thickness in real time through a window in the platen. Both methods have advantages: motor current is simple and robust, while optical methods provide absolute thickness data. Production CMP tools typically employ both approaches for redundancy.
+
+The economic impact of CMP on semiconductor manufacturing is enormous — it is one of the most expensive process steps per wafer, due to consumable costs (slurry and pads are continuously consumed), equipment complexity, and the need for frequent process development when new materials or device architectures are introduced.
+The choice of polishing pad is one of the most impactful decisions in CMP process development.
+Hard pads produce better planarity but lower removal rates, while soft pads conform to surface
+topography and remove material faster but with less planarization. Dual-pad configurations (hard
+sub-pad beneath a soft polishing pad) combine the benefits of both approaches. Pad conditioning
+— scratching the pad surface with a diamond disk to restore texture — must be performed
+regularly during processing to maintain consistent removal rates.
+
+Slurry chemistry is tailored to the material being polished. Oxide CMP slurries are typically
+alkaline silica suspensions that soften the oxide surface for mechanical removal. Metal CMP
+slurries (copper, tungsten) use oxidizers and complexing agents to dissolve the metal, combined
+with abrasives for mechanical enhancement. Selectivity between the target material and the
+underlying stopping layer (often a dielectric) is a critical slurry parameter — poor selectivity
+leads to erosion of the stopping layer and device failure.
+
+Post-CMP cleaning is as important as the polishing step itself. Slurry particles, polishing
+debris, and chemical residues left on the wafer surface cause defects in subsequent processing.
+Standard post-CMP cleaning sequences include brush scrubbing with dilute chemistry, megasonic
+agitation to dislodge particles, and spin-rinse-dry cycles. The entire cleaning process must be
+performed in a cleanroom environment to prevent recontamination.
+
+Endpoint detection during CMP determines when the target material has been fully removed.
+Motor current monitoring (measuring the torque on the polishing head) detects the friction
+change when the underlying layer is exposed. Optical interferometry measures the remaining
+film thickness in real time through a window in the platen. Both methods have advantages:
+motor current is simple and robust, while optical methods provide absolute thickness data.
+
+The economic impact of CMP on semiconductor manufacturing is substantial — it is one of the
+most expensive process steps per wafer, due to consumable costs (slurry and pads are
+continuously consumed), equipment complexity, and the need for frequent process development
+when new materials or device architectures are introduced.
+
+CMP uniformity across the wafer is affected by the relative velocity between the pad and wafer
+at each point. Points near the wafer edge travel a longer path per revolution than points near
+the center, leading to higher removal rates at the edge. Edge-to-center uniformity is tuned by
+adjusting the head pressure profile (using multi-zone pressure control), the slurry delivery
+pattern, and the pad conditioning sweep profile. Achieving less than 3% non-uniformity across
+a 300 mm wafer requires precise control of all these parameters simultaneously.
+
+The slurry delivery system must maintain consistent particle suspension and chemical composition
+throughout the polish run. Agglomerated slurry particles cause scratches — one of the most
+harmful CMP defects. Continuous slurry filtration, regular particle size analysis, and pH
+monitoring are standard process controls. Slurry is typically consumed at several hundred
+milliliters per minute during polishing, making it a significant ongoing cost.
+
+
+CMP has become the enabling technology for multilevel metallization in integrated circuits.
+Without planarization by CMP, each successive metal layer would follow the topography of the
+layer below, eventually producing surface relief too extreme for photolithography to resolve.
+The introduction of CMP for oxide planarization in the early 1990s was one of the key innovations
+that allowed the semiconductor industry to scale beyond two layers of metal interconnect.
+
 [← Back to Photolithography](index.md)

@@ -232,4 +232,6 @@ Seed clams in sandy or muddy intertidal areas. Mark beds with stakes. Clams grow
 - [Shipping & Maritime](../transport/shipping.md) — coastal aquaculture and open-water fishing
 - [Aquaponics](../agriculture/aquaponics.md) — integrated fish-plant production
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

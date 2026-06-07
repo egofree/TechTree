@@ -237,4 +237,6 @@ Not every optical component can be inspected 100% (batch sizes in the hundreds o
 - [Machine Tools](../machine-tools/index.md) — surface finish standards for machined parts
 - [Photolithography](../vlsi-scaling/advanced-lithography.md) — wafer inspection at semiconductor scale
 
-[← Back to Optics](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Optics](./index.md) • [All Domains](../index.md)*

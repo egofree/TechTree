@@ -2,7 +2,7 @@
 
 > **Node ID**: metals.non-ferrous
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`metals.copper-bronze`](copper-bronze.md), `mining`
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`metals.copper-bronze`](copper-bronze.md), [`mining`](../mining/index.md)
 > **Enables**: [`chemistry.soap`](../chemistry/soap.md), [`metals.alloys`](alloys.md), [`metals.finishing`](finishing.md), [`metals.precious-metals`](precious-metals.md)
 > **Timeline**: Years 15-40
 > **Outputs**: zinc, lead, tin, nickel, magnesium, titanium sponge
@@ -220,6 +220,36 @@ Non-ferrous metals have significant interdependencies:
 4. **[Magnesium](../glossary/magnesium.md)** (Years 25-35): Pidgeon process requires ferrosilicon and vacuum capability. Electrolytic route requires large DC power.
 5. **[Titanium](../glossary/titanium.md)** (Years 30-40): Kroll process demands chlorine chemistry, magnesium production, argon supply, and vacuum distillation. The capstone non-ferrous metal.
 
+## Selection Guide
+
+**Decision criteria — choosing non-ferrous metal production methods**:
+- Use **electrolytic (RLE) zinc** when sphalerite concentrate and electricity are available — dominant route, 95%+ of world zinc, 3.0-3.5 kWh/kg
+- Use **Imperial Smelting** for simultaneous zinc and lead from mixed sulfide ores — blast furnace route, lower purity zinc
+- Use **blast furnace + refining** for lead from galena — well-established, 95%+ recovery, lead-acid battery recycling provides 60%+ of supply
+- Use **reverberatory smelting** for tin from cassiterite — low melting point (232°C) simplifies production, but cassiterite is geologically rare
+- Use **Mond process** (carbonyl) for high-purity nickel — 99.97% Ni, but nickel carbonyl gas is extremely toxic (TLV 0.001 ppm)
+- Use **Pidgeon process** for magnesium — ferrosilicon reduction under vacuum, dominant in China, 80% of world production
+- Use **Kroll process** for titanium — Mg reduction of TiCl₄ under inert atmosphere, batch process, 5-10× steel cost per kg
+
+**Implementation steps for non-ferrous metal production**:
+1. Identify ore deposits and type: sulfide (sphalerite, galena) requires roasting; oxide/carbonate may allow direct reduction
+2. Establish flotation capability for sulfide ore concentration — 50-60% Zn concentrate from 3-12% ore
+3. Secure electricity for electrolytic routes: zinc electrowinning (3.0-3.5 kWh/kg), nickel electrowinning
+4. Set up SO₂ capture and sulfuric acid plant if roasting sulfide ores — environmental requirement and revenue stream
+5. Add vacuum capability for Pidgeon Mg and Kroll Ti processes — vacuum distillation and inert atmosphere furnaces
+6. Establish metal-specific quality testing: spark testing for steel contamination, density measurement, spectrographic analysis
+
+**Non-ferrous metal trade-offs**:
+
+| Metal | Dominant Route | Energy (kWh/kg) | Cost | Key Challenge | Critical Use |
+|---|---|---|---|---|---|
+| Zinc | Electrolytic (RLE) | 3.0-3.5 | Low-Medium | Vaporizes at 907°C (distillation required) | Galvanizing steel |
+| Lead | Blast furnace | 0.5-1.0 | Low | Cumulative neurotoxin | Batteries, radiation shielding |
+| Tin | Reverberatory smelting | 1.0-2.0 | Medium-High | Cassiterite is geologically rare | Solder, bronze, tinplate |
+| Nickel | Mond carbonyl / Electrolysis | 10-16 | High | Ni(CO)₄ extremely toxic (TLV 0.001 ppm) | Stainless steel, alloys |
+| Magnesium | Pidgeon (ferrosilicon reduction) | 20-25 | Medium-High | Requires vacuum, reacts with water when burning | Lightweight structures |
+| Titanium | Kroll (Mg reduction) | 50-100 | Very High | Batch process, Mg cost, Ar atmosphere required | Aerospace, medical implants |
+
 ## Safety & Hazards
 
 **Toxic metals**:
@@ -255,4 +285,4 @@ Non-ferrous metals have significant interdependencies:
 - [Metal Recycling](metal-recycling.md) — recovering non-ferrous metals from scrap
 - [Blast Furnace](blast-furnace.md) — high-temperature smelting infrastructure
 
-[← Back to Metals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

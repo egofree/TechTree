@@ -388,6 +388,6 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 - [Mathematics](../mathematics/index.md) — Calculus and geometry for structural analysis
 - [Fortifications](../defense/fortifications.md) — Defensive wall and tower structural design
 
+---
 
-
-[← Back to Construction](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Construction & Structural Engineering](./index.md) • [All Domains](../index.md)*

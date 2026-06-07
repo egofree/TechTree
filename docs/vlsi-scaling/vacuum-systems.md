@@ -11,6 +11,12 @@
 
 Vacuum systems — pumps, chambers, gauges, and seals — provide the low-pressure environments essential for sputtering, evaporation, CVD, ion implantation, and electron-beam lithography. The progression runs from mechanical roughing pumps (rotary vane, ~10⁻³ Torr) through diffusion pumps (~10⁻⁶ Torr) to turbomolecular pumps (~10⁻⁹ Torr) and cryopumps (~10⁻¹⁰ Torr). Leak detection (helium mass spectrometry) and outgassing control are ongoing challenges. For basic vacuum concepts and simple pump designs, see [Gas Handling & Vacuum](../gas-handling/vacuum.md).
 
+## Prerequisites
+
+- [Gas Handling Vacuum](../gas-handling/vacuum.md) — vacuum fundamentals, roughing pump types, and basic leak detection
+- [Steel](../metals/index.md) — stainless steel for vacuum chambers and fittings
+- [Precision Metrology](../measurement/precision-metrology.md) — gauge calibration and measurement traceability
+
 ## Vacuum Requirements by Process
 
 Each semiconductor process has specific pressure requirements determined by the physics of the process — mean free path, gas-phase reactions, contamination thresholds, and beam scattering.
@@ -331,6 +337,43 @@ A typical semiconductor process tool (sputtering system, etch chamber, or implan
 | Dry scroll pump PTFE tip seals wear out before 12-month replacement interval | Corrosive process gases (RIE exhaust, CVD byproducts) attacking PTFE seals; particulate load from process chamber | Install upstream particulate filter on pump inlet; switch to screw pump with Ni or Teflon rotor coatings for corrosive service; schedule preventive seal replacement at 10 months |
 | Bayard-Alpert ion gauge reads 10⁻¹¹ Torr but chamber is clearly contaminated (film quality degraded) | X-ray limit — soft X-rays from electron bombardment of grid produce photoelectrons from collector, creating false current floor at ~10⁻¹¹ Torr; gauge reads low | Switch to extractor gauge design to suppress X-ray effect; cross-check with residual gas analyzer (RGA) to measure actual partial pressures of contaminant species (H₂O, N₂, O₂, hydrocarbons) |
 
+## Decision and Implementation Framework
+
+This article describes vacuum system options as a conceptual guide for selecting pump types, seals, and measurement strategies.
+
+### C1: Decision Criteria
+
+Select vacuum pump type based on required operating pressure and process requirements:
+
+| Required Pressure | Primary Pump | Backing Pump | Key Selection Factor |
+|---|---|---|---|
+| 10⁻³ to 760 Torr (rough vacuum) | Rotary vane or dry scroll | None | Oil-free required for clean processes (scroll). Oil-sealed (rotary vane) acceptable for roughing. |
+| 10⁻⁶ to 10⁻³ Torr (high vacuum) | Turbomolecular or diffusion | Dry scroll or rotary vane | Turbo: clean, fast. Diffusion: cheap, high speed, but oil contamination risk. |
+| 10⁻⁹ to 10⁻⁶ Torr (UHV) | Ion pump or cryopump | Turbo (for start-up only) | Ion pump: zero vibration, UHV. Cryopump: highest speed, but regeneration required. |
+| 10⁻¹⁰ Torr (extreme UHV) | Ion pump + titanium sublimation | Turbo (start-up) | Ion pump with TSP gettering for H₂ removal. Bakeable CF seals only. |
+
+Seal selection rule: Use Viton O-rings for pressures >10⁻⁸ Torr. Use CF copper gaskets for pressures <10⁻⁸ Torr or where bakeout above 200°C is needed.
+
+### C2: Implementation Steps
+
+1. **Establish roughing capability**: Acquire or build a rotary vane or dry scroll pump. Achieve 10⁻² to 10⁻³ Torr. This is sufficient for LPCVD, PECVD, and basic sputtering.
+2. **Add a high-vacuum pump**: Install a turbomolecular pump on the chamber. Achieve 10⁻⁶ to 10⁻⁸ Torr. Required for evaporation, ion implantation, and clean sputtering.
+3. **Implement leak detection**: Acquire or build a helium mass spectrometer leak detector. Any system below 10⁻³ Torr needs periodic leak checking.
+4. **Add bakeout capability**: Wrap chamber with heater blankets. Bake to 150-300°C while pumping. Improves ultimate vacuum by 10-100×.
+5. **Deploy CF seals**: Replace Viton O-rings with ConFlat flanges for UHV systems. Enables bakeout to 450°C.
+6. **Consider supplementary pumping**: Add cryopump or titanium sublimation pump for H₂ removal below 10⁻⁸ Torr.
+
+### C3: Vacuum Pump Trade-offs
+
+| Pump Type | Pressure Range | Speed (L/s) | Contamination | Maintenance | Cost |
+|---|---|---|---|---|---|
+| Rotary vane | 10⁻² Torr | 1-300 | Hydrocarbon vapor | Oil change 3-6 months | $1-5K |
+| Dry scroll | 10⁻² Torr | 5-60 | None | Seal replacement 12-24 months | $3-15K |
+| Turbomolecular | 10⁻⁹ Torr | 50-5000 | None (clean) | Bearings 12-24K hours | $10-50K |
+| Diffusion | 10⁻⁸ Torr | 100-50,000 | Oil vapor (mitigated by traps) | Oil change annually | $2-10K |
+| Cryopump | 10⁻¹⁰ Torr | 500-15,000 | None | Regeneration 1-4 hr daily-weekly | $15-50K |
+| Ion pump | 10⁻¹¹ Torr | 1-500 | None | Cathode replacement every few years | $5-30K |
+
 ## See Also
 
 - [Gas Handling Vacuum](../gas-handling/vacuum.md) — vacuum fundamentals and roughing pumps
@@ -340,4 +383,5 @@ A typical semiconductor process tool (sputtering system, etch chamber, or implan
 - [Advanced Processes](advanced-processes.md) — high-vacuum deposition and etch
 - [Lithography](lithography.md) — vacuum for lithography tools
 
-[← Back to VLSI Scaling](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*

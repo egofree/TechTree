@@ -260,6 +260,6 @@ Even with a conservative 50% reduction in stack cost (not the full 95% membrane 
 - [SEM Tech Fuel Cells](../energy/sem-tech-fuel-cells.md) -- consuming hydrogen in fuel cells (forthcoming)
 - [SEM Tech e-Methanol](sem-tech-e-methanol.md) -- converting hydrogen to liquid fuel (forthcoming)
 
+---
 
-
-[← Back to Chemistry](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

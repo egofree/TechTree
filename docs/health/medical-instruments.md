@@ -377,6 +377,6 @@ The lens quality matters for accurate diagnosis. A simple plano-convex lens (gro
 - [Glass](../glass/index.md) — glassworking for thermometers and lenses
 - [Measurement](../measurement/index.md) — precision metrology for instrument manufacturing
 
+---
 
-
-[← Back to Health](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../index.md)*

@@ -17,6 +17,16 @@ Nanometer positioning stages (see [Nanometer Positioning](./nanometer-positionin
 - [Optics](../optics/index.md) — optical components and laser sources
 - [Precision Metrology](../measurement/precision-metrology.md) — measurement foundations
 
+## Implementation Steps
+
+1. **Determine resolution and accuracy requirements**: Match encoder specifications to the application using the Encoder Selection Guidelines table. Wafer scanners require interferometric measurement; CNC machines use optical encoders
+2. **Select encoder type**: Choose between optical linear encoders (high resolution, non-contact) and laser interferometers (highest accuracy, traceable to wavelength of light). Use capacitive sensors for sub-mm range ultra-high resolution
+3. **Specify scale and mounting**: Select scale substrate (Zerodur for highest accuracy, steel tape for long travel). Ensure thermal expansion matching between scale and machine structure
+4. **Design signal processing**: Specify interpolation electronics (4,096× for 5 nm resolution with 20 μm pitch), LUT correction for sub-divisional error, and communication protocol (BiSS for lowest latency)
+5. **Install and align**: Mount scale with adhesive or clamping. Align read head at 0.3-1.0 mm gap. For interferometers, align beam to <0.1 mrad parallelism with motion axis
+6. **Compensate for environmental effects**: Install temperature, pressure, and humidity sensors for refractive index compensation (Edlén equation). For highest accuracy, enclose interferometer beam path in vacuum
+7. **Calibrate and verify**: Measure systematic errors (SDE for encoders, cosine/Abbe error for interferometers). Build correction lookup table. Verify total measurement uncertainty against specification
+
 ## Optical Linear Encoders
 
 Optical encoders measure linear displacement by detecting the passage of a precision grating pattern. A light source illuminates a graduated scale; photodetectors read the resulting interference pattern.
@@ -236,4 +246,6 @@ For short-range, ultra-high-resolution position measurement (alternative to enco
 - [Precision Metrology](../measurement/precision-metrology.md) — measurement foundations
 - [Precision Motion Control](./index.md) — domain overview
 
-[← Back to Precision Motion Control](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Precision Motion Control](./index.md) • [All Domains](../index.md)*

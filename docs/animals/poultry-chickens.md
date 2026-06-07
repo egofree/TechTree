@@ -237,4 +237,6 @@ This integration of egg, meat, and fertilizer production from a single species w
 - [Domestication](domestication.md) — poultry domestication history
 - [Rabbits](rabbits.md) — alternative small-scale protein source
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

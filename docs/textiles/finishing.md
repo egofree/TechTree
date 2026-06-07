@@ -222,6 +222,43 @@ Decating is a finishing process for wool fabrics that sets the surface and impro
 - Continuous decating: fabric passes between a heated cylinder (200-250°C, 300-500 mm diameter) and a pressing belt (endless felt or rubber belt, 3-5 mm thick). Steam is injected at the nip point. Speed: 10-30 m/min. Used for worsted suitings and dress fabrics where a permanent set is required.
 - Batch decating: fabric is wound onto a perforated stainless steel drum (400-600 mm diameter) and steamed in a pressure vessel at 100-120°C for 10-20 minutes. More effective than continuous decating for heavy fabrics because the longer steam exposure penetrates the full fabric thickness. Produces a permanent set because the wool fibers are plasticized by steam and re-form disulfide bonds in their new configuration as they cool and dry.
 
+## Fulling Stocks Construction
+
+1. Cut two side posts from elm or oak: 15 × 15 cm × 120 cm. Mortise slots for the cam shaft bearings at 60-80 cm from the base.
+2. Turn a cam shaft from oak: 10-12 cm diameter × 150 cm long. Cut two cam lobes (offset 180°) that lift the hammers 30-50 cm per revolution. Mount in bronze-bushed bearing blocks bolted to the side posts.
+3. Shape two hammer heads from elm: 15-25 kg each, 20-30 cm wide, with rounded striking faces (no sharp edges that would cut the cloth). Mount each hammer on a 10 × 10 cm wooden arm, hinged at the top of the frame.
+4. Position the hammers so they alternately strike the trough, 180° out of phase. The cam lifts one hammer while the other falls. Cycle rate: 30-60 blows per minute per hammer.
+5. Build a wooden trough: 150-200 cm long × 50-80 cm wide × 40-50 cm deep, from 5 cm oak planking, with iron bands for reinforcement. The trough holds the cloth and fulling liquor.
+6. Connect a water wheel or steam engine to the cam shaft via belt and pulley. The cam shaft needs 0.5-1 kW at 30-60 rpm.
+
+## Calender Construction
+
+1. Cast two side frames from cast iron, each 150-200 cm tall × 30-40 cm wide × 10-15 cm thick, with machined guideways for roller bearing blocks. The frames must be identical and parallel when bolted to the base.
+2. Turn the hard rollers from chilled cast iron: 300-400 mm diameter × 150-180 cm face length, ground to 1.6 μm Ra surface finish. Bore the roller journals to accept the bearing housings.
+3. Build the soft rollers by compressing cotton or paper waste under hydraulic pressure around a steel shaft: 300-400 mm diameter × 150-180 cm face length. The soft roller deforms slightly under load, distributing pressure evenly across the full fabric width.
+4. Stack rollers in the frame: alternate hard and soft, with bearing blocks sliding in the guideways. Install hydraulic rams or screw-down mechanisms above the top roller to apply 50-200 kN nip pressure.
+5. Fit internal steam pipes to the hard rollers: rotary joints at each end supply steam at 200-400 kPa for roller heating to 100-150°C. Verify steam joints do not leak under pressure.
+6. Install a gear train or individual motors to drive the rollers at controlled speed differential. The hard roller must run 2-5% faster than the fabric speed for the glazing friction effect.
+
+## Calibration and Verification
+
+1. **Calender nip pressure test**: Pass a sheet of carbon paper and white paper together through the calender nip at working pressure. The carbon imprint on the white paper should be uniform across the full roller width. Darker areas indicate higher pressure; gaps indicate low pressure. Adjust bearing block shims until imprint is even within ±10%.
+
+2. **Singeing speed test**: Time the cloth passage over the gas burners with a stopwatch. Cloth must traverse the burner zone in under 0.5 seconds to avoid scorching. If transit time exceeds 0.5 seconds, increase the feed roller speed or reduce the burner zone length.
+
+3. **Fulling shrinkage test**: Measure a 50 × 50 cm square on the cloth before fulling. After fulling, remeasure. Target shrinkage: 10-20% in each direction for wool. If shrinkage exceeds 25%, the fulling is too aggressive (reduce time or temperature). If below 8%, the cloth needs more fulling time.
+
+4. **Mercerization caustic concentration test**: Titrate the NaOH bath solution with standard HCl using phenolphthalein indicator. Target: 20-25% NaOH by weight (200-250 g/L). Below 18% NaOH, the swelling effect is insufficient and luster improvement drops below 10%. Replenish with fresh NaOH to maintain concentration.
+
+## Safety & Hazards
+
+- **Caustic burns from NaOH (mercerization)**: 20-25% NaOH solution causes immediate chemical burns on skin contact, with severe corneal damage if splashed in eyes. At this concentration, NaOH penetrates skin within seconds. PPE: chemical-resistant rubber gloves (nitrile, minimum 0.5 mm thickness), face shield, rubber apron, eye wash station within 10 meters. If skin contact occurs, flush with copious water for 15+ minutes — do not attempt neutralization with acid on skin.
+- **SO₂ gas exposure (wool bleaching)**: Sulfur dioxide gas bleaching operates at TLV 2 ppm (5 mg/m³ as TWA). At 10 ppm, SO₂ causes severe respiratory irritation; at 50+ ppm, pulmonary edema. Conduct SO₂ bleaching in a sealed chamber with forced ventilation exhausting to a scrubber. Operators must wear a respirator rated for acid gases (cartridge type: acid gas/organic vapor). Monitor SO₂ concentration with colorimetric detector tubes or electronic sensor.
+- **Thermal burns (singeing and calendering)**: Gas singeing burners operate at 800-1000°C. Calender rollers at 100-150°C. Cloth emerging from the calender retains significant heat. Wear heat-resistant gloves (leather, minimum) when handling cloth directly off the calender. Quench cloth after singeing — cloth that appears extinguished can reignite from smoldering fibers.
+- **Naphtha solvent (rubber coating)**: Naphtha (petroleum fraction, boiling range 80-120°C) has a flash point below 23°C and a LEL of 1.1% in air. Vapor accumulates at floor level. Ventilation rate: minimum 6 air changes per hour in the coating area. No open flames, sparks, or static discharge sources within 8 meters. Ground all metal equipment. PPE: nitrile gloves, safety goggles, respirator with organic vapor cartridge.
+- **Calender nip points**: The 50-200 kN nip pressure between rollers will crush any body part caught between them. Guard the entire nip area with a safety bar that stops the machine if contacted. Never reach into the calender to adjust cloth while rollers are turning. Use a guide pole for cloth alignment.
+- **Machinery pinch points**: Fulling stocks cam shaft, hammer pivots, and rotary fulling mill rollers all present severe pinch hazards. Guard all moving parts. Emergency stop pull-cord must be within arm's reach of the operator position.
+
 ## Key Deliverables
 
 - Fulling and napping for wool fabric densification and insulation
@@ -255,4 +292,5 @@ Decating is a finishing process for wool fabrics that sets the surface and impro
 - [Fibers](fibers.md) — fiber properties that determine finishing behavior
 - [Sewing & Tailoring](sewing-tailoring.md) — finished cloth goes to garment construction
 
-[← Back to Textiles](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

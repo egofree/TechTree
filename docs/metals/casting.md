@@ -1,9 +1,9 @@
 # Metal Casting
 
-> **Node ID**: machine-tools.casting
-> **Domain**: Machine Tools Bootstrap
-> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md)
-> **Enables**: [`machine-tools.iterative-bootstrap`](iterative-bootstrap.md), [`measurement.precision-metrology`](../measurement/precision-metrology.md)
+> **Node ID**: metals.casting
+> **Domain**: [Metals](./index.md)
+> **Dependencies**: [`metals.iron-steel`](./iron-steel.md)
+> **Enables**: [`machine-tools.iterative-bootstrap`](../machine-tools/iterative-bootstrap.md), [`measurement.precision-metrology`](../measurement/precision-metrology.md)
 > **Timeline**: Years 10-15
 > **Outputs**: cast_iron_parts, cast_aluminum_parts, sand_molds, cast_bronze_parts
 > **Critical**: Yes — casting is the only practical method for producing complex 3D metal parts before machining exists; every machine tool starts as a casting (beds, frames, housings, gear blanks)
@@ -17,8 +17,8 @@ The bootstrap sequence is self-improving: a simple clay-graphite crucible + char
 
 ## Prerequisites
 
-- **Materials**: [Silica sand](../mining/processing.md) (60-120 mesh, 90-95% SiO₂ — river sand works if clean), [bentonite clay](../ceramics/index.md) (8-12% by weight for green sand binder), [charcoal or coke](../energy/charcoal.md) for furnace fuel, [scrap aluminum or pig iron](../metals/iron-steel.md) as charge material, [limestone](../ceramics/lime.md) (CaCO₃ flux for cupola), [wax or paraffin](../polymers/natural.md) for investment casting patterns
-- **Tools**: [Crucible](../ceramics/index.md) (clay-graphite or silicon carbide), [flasks](../machine-tools/index.md) (cope and drag — wooden or metal boxes), [rammers](./index.md) for sand compaction, [bellows or blower](../energy/charcoal.md) for forced air, [ladles](./index.md) (preheated, for pouring), [thermocouple or optical pyrometer](../measurement/index.md) for temperature measurement, [patterns](./index.md) (wooden or metal master shapes)
+- **Materials**: [Silica sand](../mining/processing.md) (60-120 mesh, 90-95% SiO₂ — river sand works if clean), [bentonite clay](../ceramics/index.md) (8-12% by weight for green sand binder), [charcoal or coke](../energy/charcoal.md) for furnace fuel, [scrap aluminum or pig iron](./iron-steel.md) as charge material, [limestone](../ceramics/lime.md) (CaCO₃ flux for cupola), [wax or paraffin](../polymers/natural.md) for investment casting patterns
+- **Tools**: [Crucible](../ceramics/index.md) (clay-graphite or silicon carbide), [flasks](../machine-tools/index.md) (cope and drag — wooden or metal boxes), [rammers](../machine-tools/index.md) for sand compaction, [bellows or blower](../energy/charcoal.md) for forced air, [ladles](../machine-tools/index.md) (preheated, for pouring), [thermocouple or optical pyrometer](../measurement/index.md) for temperature measurement, [patterns](../machine-tools/index.md) (wooden or metal master shapes)
 - **Knowledge**: Sand mixing ratios and testing (squeeze test, moisture control), pattern design (shrinkage allowance, draft angles, fillets), gating system design (sprue-runner-gate-riser), solidification and shrinkage mechanics, metal temperature assessment by color, defect identification and correction
 - **Infrastructure**: Covered work area (rain protection for sand molds), fuel storage (charcoal or coke), sand storage (keep dry), metal stockpile (scrap aluminum, pig iron, bronze ingots), ventilation (zinc fume from brass, CO from charcoal — work outdoors or forced ventilation)
 
@@ -199,7 +199,7 @@ Casting defects are the primary yield loss in foundry work. Identifying and corr
 - **Gate and riser removal**: Cut off with abrasive wheel, bandsaw, or pneumatic chisel. Grind stubs flush with surrounding surface.
 - **Cleaning**: Shot blasting or sandblasting removes residual sand and oxide scale. Wire brushing for smaller parts. Pickling (acid dip) for clean surfaces.
 - **Heat treatment**: Some castings require heat treatment after casting. Gray iron is typically used as-cast. Ductile iron may be annealed (heat to 900°C, slow cool) to improve machinability. Aluminum alloys are often solution-treated and aged for improved strength.
-- **Machining**: Cast surfaces are not dimensionally accurate enough for precision fits. Machine mating surfaces (bearing bores, slideway faces, flange faces) to final tolerance. See [Machining](./machining.md).
+- **Machining**: Cast surfaces are not dimensionally accurate enough for precision fits. Machine mating surfaces (bearing bores, slideway faces, flange faces) to final tolerance. See [Machining](../machine-tools/machining.md).
 
 ## Troubleshooting
 
@@ -228,17 +228,17 @@ Foundry work involves the highest temperatures in the machine shop. Safety disci
 
 ## See Also
 
-- [Iron & Steel](../metals/iron-steel.md) — bloom smelting, crucible steel, heat treatment of cast parts
-- [Metals: Forming](../metals/forming.md) — rolling, forging, and extrusion of cast ingots
-- [Machining](machining.md) — machining cast surfaces to final tolerance
-- [Forming (Machine Tools)](forming.md) — secondary forming of cast stock
-- [Iterative Bootstrap](iterative-bootstrap.md) — building machine tools from castings
-- [Bearings & Abrasives](bearings-abrasives.md) — cutting tools and finishing operations for cast parts
+- [Iron & Steel](./iron-steel.md) — bloom smelting, crucible steel, heat treatment of cast parts
+- [Metals: Forming](./forming.md) — rolling, forging, and extrusion of cast ingots
+- [Machining](../machine-tools/machining.md) — machining cast surfaces to final tolerance
+- [Forming (Machine Tools)](../machine-tools/forming.md) — secondary forming of cast stock
+- [Iterative Bootstrap](../machine-tools/iterative-bootstrap.md) — building machine tools from castings
+- [Bearings & Abrasives](../machine-tools/bearings-abrasives.md) — cutting tools and finishing operations for cast parts
 - [Ceramics](../ceramics/index.md) — crucibles, refractory linings, and kiln furniture for foundry use
 - [Energy: Charcoal](../energy/charcoal.md) — charcoal and coke for furnace fuel
 - [Chemistry: Refractories](../chemistry/refractories.md) — furnace linings and refractory materials
-- [Metals: Copper-Bronze](../metals/copper-bronze.md) — bronze and brass casting alloys
-- [Metals: Aluminum](../metals/aluminum.md) — aluminum casting alloys and properties
+- [Metals: Copper-Bronze](./copper-bronze.md) — bronze and brass casting alloys
+- [Metals: Aluminum](./aluminum.md) — aluminum casting alloys and properties
 - [Energy: Steam Power](../energy/steam-power.md) — cast iron engine cylinders and boiler components
 - [Construction](../construction/index.md) — cast iron structural components
 - [Measurement](../measurement/index.md) — dimensional inspection of castings
@@ -253,6 +253,6 @@ Shell molding produces castings with superior surface finish and tighter dimensi
 - **Advantages**: Dimensional accuracy ±0.15 mm (vs. ±0.5-1.0 mm for green sand). Surface finish 3-6 μm Ra (vs. 12-25 μm for green sand). Smooth shell cavity produces excellent detail reproduction. Shell sand is reclaimable by mechanical reclamation (grinding to break resin bonds, re-coating with fresh resin).
 - **Limitations**: Requires metal patterns (expensive, but durable for 50,000+ cycles). Phenolic resin requires petrochemical or coal-tar feedstock. Shell thickness limits casting weight — practical for parts under 20 kg. Best suited for medium-volume production of precision castings: small gears, valve bodies, compressor housings, and lever arms.
 
+---
 
-
-[← Back to Machine Tools](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

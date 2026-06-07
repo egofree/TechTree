@@ -4,6 +4,7 @@
 > **Domain**: [Measurement](./index.md)
 > **Dependencies**: [`metals`](../metals/copper-bronze.md), [`measurement.temperature-pressure`](./temperature-pressure.md)
 > **Enables**: [`energy.cooling`](../energy/cooling.md), [`silicon.crystal-growth.cz-pulling`](../silicon/cz-pulling.md)
+> **Critical**: No — thermostats provide automated temperature control but manual temperature monitoring is a functional alternative
 > **Timeline**: Years 5-60+
 > **Outputs**: on_off_control, proportional_control, pid_control, temperature_regulation
 
@@ -1446,4 +1447,6 @@ The PID algorithm in discrete form: output(n) = Kp × e(n) + Ki × Σe(i) × Δt
 
 
 
-[← Back to Measurement](index.md)
+
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*

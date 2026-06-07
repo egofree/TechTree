@@ -253,4 +253,5 @@ Mechanical calculators represent numbers through physical position:
 - [Mathematics](../mathematics/core-mathematics.md) — logarithms, polynomials, and numerical methods
 - [Metals](../metals/index.md) — materials for precision mechanisms
 
-[← Back to Computing](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*

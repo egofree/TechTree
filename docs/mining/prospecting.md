@@ -250,4 +250,6 @@ Stream sediment sampling is the most cost-effective regional exploration method 
 - [Precision Metrology](../measurement/precision-metrology.md) — survey instruments and assay equipment
 - [Ventilation](ventilation.md) — underground air management for test adits
 
-[← Back to Mining](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining Engineering & Extractive Metallurgy](./index.md) • [All Domains](../index.md)*

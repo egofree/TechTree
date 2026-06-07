@@ -300,4 +300,6 @@ Unlike percussive drilling (which chips rock by impact), rotary drilling grinds 
 - [Black Powder](black-powder.md) — explosive charges for drilled holes
 - [Petroleum Extraction](../petroleum/extraction.md) — oil well drilling
 
-[← Back to Mining](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining Engineering & Extractive Metallurgy](./index.md) • [All Domains](../index.md)*

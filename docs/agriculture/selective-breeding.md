@@ -8,154 +8,393 @@
 > **Outputs**: improved_crop_varieties, improved_livestock_breeds, breeding_records
 > **Critical**: No — but systematic selective breeding dramatically accelerates yield gains compared to unconscious selection alone
 
+## 1. Overview
 
 Selective breeding is the deliberate improvement of crops and livestock through controlled mating, rigorous trait selection, and multi-generational record-keeping. While [seed saving](seed-saving.md) and [animal domestication](../animals/domestication.md) provide the baseline genetic material, selective breeding transforms unconscious drift into directed genetic change. The difference is profound: unconscious selection by early farmers increased wheat yields perhaps 2-3× over millennia; systematic breeding programs of the 18th-19th centuries achieved another 3-5× within a century.
 
 The core principle is simple: identify individuals expressing desired traits, use them as parents for the next generation, measure the offspring, and repeat. The practice demands patience — each generation is a time-boxed experiment lasting months to years depending on species — and discipline — the temptation to breed from the merely "good enough" animal or plant rather than the best undermines progress. Record-keeping is not optional; without written pedigrees and performance data, breeding reverts to guesswork.
 
-Position in the dependency chain: selective breeding depends on [Writing & Record-Keeping](../knowledge/writing.md) (pedigree records are meaningless without writing), [Soil Management & Composting](soil-management.md) (uniform soil conditions are necessary to distinguish genetic effects from environmental variation), and [Livestock Domestication](../animals/domestication.md) (tame, manageable animals are prerequisites for controlled mating). It enables advanced [Seed Saving](seed-saving.md) practices (intentional variety development) and improved outputs for [Food Processing](../food-processing/index.md).
+Position in the dependency chain: selective breeding depends on [Writing & Record-Keeping](../knowledge/writing.md), [Soil Management & Composting](soil-management.md) (uniform conditions to distinguish genetic from environmental effects), and [Livestock Domestication](../animals/domestication.md). It enables advanced [Seed Saving](seed-saving.md) and improved outputs for [Food Processing](../food-processing/index.md).
 
-## Principles of Artificial Selection
+## 2. Prerequisites
 
-**Trait identification.** Before selecting, define what you are selecting for. Traits fall into categories:
+- [Writing & Record-Keeping](../knowledge/writing.md) — for pedigree tracking and performance records across generations
+- [Soil Management](soil-management.md) — uniform soil conditions to distinguish genetic from environmental variation
+- [Livestock Domestication](../animals/domestication.md) — tame, manageable animals for controlled mating
+- [Seed Saving](seed-saving.md) — baseline practice of preserving genetic material between seasons
+- [Agriculture](./index.md) — established farming practice with crop and/or animal populations
+
+### Record-Keeping Supplies
+
+| Material | Quantity | Specifications | Source | Alternatives |
+|----------|----------|----------------|--------|-------------|
+| Paper or parchment | 50-100 sheets per year | For pedigree records, performance logs, selection decisions | [Paper Making](../knowledge/printing.md) | Clay tablets, bark, or wooden tallies |
+| Writing implements | 2-5 | Ink and stylus, or pencil | [Writing](../knowledge/writing.md) | Charcoal on smooth surfaces |
+| Ear tags or leg bands | 50-200 per year | Metal or durable plastic, numbered | [Metals](../metals/iron-steel.md) | Ear notches (coded cuts), painted marks |
+| Measuring tools | 1 set | Scale (0-50 kg for small stock), measuring tape, calipers | [Machine Tools](../machine-tools/index.md) | Estimation by eye (less precise, acceptable for early generations) |
+| Storage for records | 1 | Dry box or cabinet for paper records | [Foundations](../foundations/tools-basic.md) | Bound ledger book |
+
+### Livestock Breeding Infrastructure
+
+| Material | Quantity | Specifications | Source | Alternatives |
+|----------|----------|----------------|--------|-------------|
+| Breeding pens | 2-5 | Fenced enclosures for controlled mating, 5-20 m² each | [Agriculture](./index.md) | Separate pastures (less control) |
+| Weighing scale | 1 | Platform scale, 0-500 kg, ±1 kg | [Machine Tools](../machine-tools/index.md) | Tape-measure body scoring (less accurate) |
+| Crush chute | 1 | Restraint cage for cattle handling | [Iron & Steel](../metals/iron-steel.md) | Manual restraint (dangerous for animals >200 kg) |
+| Ear tags or leg bands | 50-200/yr | Metal or durable plastic, numbered | [Metals](../metals/iron-steel.md) | Ear notches, painted marks |
+| Record book | 1 per species | For pedigree and performance records | [Writing](../knowledge/writing.md) | Individual animal cards on bark |
+
+## 3. Bill of Materials
+
+### Per 1 ha Crop Breeding Plot (Annual Cycle)
+
+| Material | Quantity | Source | Alternatives |
+|----------|----------|--------|-------------|
+| Selected seed (baseline population) | 50-100 kg | [Seed Saving](seed-saving.md) | Wild-collected seed (more variable) |
+| Compost (uniform application) | 3-5 tonnes | [Soil Management](soil-management.md) | Green manure plow-down |
+| Stakes for selected plants | 200-500 | [Woodworking](../foundations/tools-basic.md) | Colored cord, painted stones |
+| Individual harvest bags | 50-100 | [Textiles](../textiles/fibers.md) | Cloth sacks, baskets |
+| Ear tags (livestock, per 50 females) | 50-100/yr | [Metals](../metals/iron-steel.md) | Ear notches, painted marks |
+
+## 4. Process Description
+
+### Trait Identification and Selection
+
+Before selecting, define what you are selecting for. Traits fall into categories:
 
 - **Yield traits**: grain weight per plant, milk volume, egg count, fleece weight
 - **Quality traits**: protein content, fat composition, fiber length and strength, flavor
 - **Adaptation traits**: drought tolerance, cold hardiness, disease resistance, altitude adaptation
 - **Conformation traits**: skeletal structure, body proportions, udder attachment, gait
 
-Prioritize no more than 2-3 traits simultaneously. Selecting for too many traits at once dilutes progress on each. For crops, yield and disease resistance are typically the primary targets. For livestock, productivity and hardiness lead.
+Prioritize no more than 2-3 traits simultaneously. For crops, yield and disease resistance are primary targets. For livestock, productivity and hardiness lead.
 
-**Heritability.** Not all observed variation is genetic. An animal on better pasture grows faster regardless of genetics; a plant in richer soil produces more grain. Heritability estimates the fraction of observed variation attributable to genetics rather than environment:
+**Heritability**: The fraction of observed variation attributable to genetics rather than environment:
 
-- **High heritability (0.4-0.7)**: seed size, fleece quality, coat color, plant height — these respond rapidly to selection
-- **Medium heritability (0.2-0.4)**: milk yield, growth rate, egg production — respond moderately, require larger populations
-- **Low heritability (0.05-0.2)**: fertility, disease resistance, stress tolerance — respond slowly, require very large populations and careful experimental design
+- **High (0.4-0.7)**: seed size, fleece quality, coat color, plant height — respond rapidly to selection
+- **Medium (0.2-0.4)**: milk yield, growth rate, egg production — moderate response, need larger populations
+- **Low (0.05-0.2)**: fertility, disease resistance, stress tolerance — respond slowly, need very large populations
 
-**Parent selection.** Choose breeding stock by:
+**Selection intensity**: Retaining only the top 5% of candidates yields roughly twice the progress of retaining the top 20%. Excessively strict selection risks losing genetic diversity.
 
-1. **Individual merit**: the candidate's own performance (easiest to measure, adequate for high-heritability traits)
-2. **Progeny testing**: performance of the candidate's offspring (gold standard for low-heritability traits, but delays breeding decisions by a full generation)
-3. **Sibling and cousin performance**: useful when the candidate cannot be measured directly (e.g., milk yield in a bull)
+### Crop Improvement Methods
 
-**Selection intensity.** The stricter the culling, the faster the genetic gain. Retaining only the top 5% of candidates as parents yields roughly twice the progress of retaining the top 20%. However, excessively strict selection risks losing genetic diversity and inbreeding depression.
+The four methods below are competing alternatives. Choose based on crop reproductive biology, available labor, and generation time.
+#### Mass Selection
 
-## Crop Improvement Methods
+**Principle**: Grow a large population, harvest seed only from the best individuals, plant the next generation from that seed. Effective for highly heritable traits in self-pollinating crops (wheat, barley, rice, beans). Typical gains: 1-3% yield improvement per generation.
 
-**Mass selection.** The simplest method: grow a large population, harvest seed only from the best individuals, plant the next generation from that seed. Effective for highly heritable traits in self-pollinating crops (wheat, barley, rice, beans). Typical gains: 1-3% yield improvement per generation. Used for millennia before formal breeding theory existed.
+**Prerequisites**: [Uniform soil management](soil-management.md), baseline seed stock, stakes, harvest bags. **Materials**: 50-100 kg seed, 200-500 stakes, 50-100 harvest bags, weighing scale.
 
-**Pedigree selection.** Track individual plant lineages across generations. Cross two parents with complementary traits, grow out the F1 (first filial) generation, self-pollinate to produce the F2 segregating generation, then select the best F2 individuals and follow their progeny through F3, F4, F5 and beyond until lines breed true. This method produces stable, uniform varieties but requires 6-10 generations.
+**Procedure**:
+1. Plant a uniform field of the target crop using [uniform soil management](soil-management.md)
+2. Before harvest, walk the field and mark the tallest, healthiest, highest-yielding plants with stakes
+3. Harvest marked plants separately; thresh and weigh their grain
+4. Select the top 10-20% by weight as seed for next generation
+5. Plant selected seed in a dedicated plot the following season
+6. Repeat for 5-10 cycles until the variety stabilizes
 
-**Hybrid vigor (heterosis).** Crossing two inbred lines often produces F1 offspring that outperform both parents. This hybrid vigor is exploited commercially in maize, sorghum, tomatoes, and many vegetables. The F1 plants are uniform and vigorous, but F2 seeds from hybrid plants segregate unpredictably — farmers must return to the breeder for fresh hybrid seed each season. This is the basis of the commercial seed industry.
+**Expected performance**: 1-3% yield gain per cycle. After 10 cycles on wheat: 2.0 → 2.5-3.0 tonnes/ha.
 
-Key constraint: hybrid seed production requires maintaining two inbred parent lines and performing controlled crosses, which is labor-intensive without mechanical aids. For a bootstrapping civilization, mass selection and pedigree selection are the practical starting points.
+**Strengths**:
+- Simplest method — requires no controlled crosses or pedigree tracking, only field observation and selection
+- Works on any self-pollinating crop without special equipment
+- Preserves broad genetic diversity (selecting from a population, not individual lines)
 
-**Backcrossing.** When a desirable variety carries one weakness (e.g., susceptibility to a disease), cross it with a resistant donor, then repeatedly cross the offspring back to the original variety while selecting for resistance. After 5-6 backcross generations, the resulting line is genetically ~98% the original variety plus the resistance gene.
+**Weaknesses**:
+- Slow for low-heritability traits — environmental variation masks genetic differences
+- Cannot combine traits from different parents (no crossing)
+- Progress plateaus after 10-15 cycles once additive genetic variance is exhausted
+#### Pedigree Selection
 
-## Livestock Breeding Methods
+**Principle**: Track individual plant lineages across generations. Cross two parents with complementary traits, grow F1, self-pollinate to F2 segregating generation, select best F2 individuals, follow progeny through F3-F6 until lines breed true.
 
-**Linebreeding.** A moderate form of inbreeding that concentrates the genes of an outstanding ancestor by mating its descendants to each other. Typically involves mating half-siblings, aunt-nephew, or cousin pairs. Fixes desirable traits but gradually increases homozygosity, which can expose recessive defects. Rule of thumb: keep the inbreeding coefficient below 6.25% (equivalent to first-cousin mating) to avoid significant depression.
+**Prerequisites**: [Uniform soil management](soil-management.md), controlled pollination supplies, individual plant labeling, [record-keeping](../knowledge/writing.md). **Materials**: Parent seed stock (2+ varieties), pollination bags (100-500/season), plant labels (200-1000), record book.
 
-**Outcrossing.** Mating animals from different lines or breeds within the same species. Introduces new genetic variation, masks recessive defects, and often produces an immediate boost in vigor (heterosis). The tradeoff is loss of type consistency — the offspring may not breed true for the desired traits.
+**Procedure**:
+1. Choose two parent varieties with complementary traits (e.g., high yield × disease resistance)
+2. Emasculate flowers of the seed parent before anthesis; hand-pollinate using pollen from the other parent
+3. Plant F1 (uniform heterozygotes); allow self-pollination to produce F2
+4. Plant F2 (500-2,000 plants); select the 50-100 best individuals
+5. Plant each F2 progeny as a separate row (F3 families); select best 20-30
+6. Continue through F4-F6; by F5-F6 lines breed true. Yield-test best 5-10 lines
 
-**Culling.** Removing inferior animals from the breeding population is as important as selecting the best. A culling rate of 20-40% per generation is typical in serious breeding programs. Culled animals are eaten, sold, or used for work — they are not wasted.
+**Expected performance**: Produces uniform, stable varieties in 6-10 generations. Yield gain: 5-15% over the better parent.
 
-**Progeny testing in livestock.** A sire's genetic merit is judged by the performance of his offspring, not his own appearance. This requires mating the candidate sire to 15-20 standard females, raising all offspring under identical conditions, and measuring their performance. The process takes one full generation (3-7 years depending on species) before the sire can be confidently used or discarded. For dairy cattle, progeny testing of bulls has been the single most effective genetic improvement tool.
+**Strengths**:
+- Produces stable, uniform varieties that breed true — farmers can save seed without genetic deterioration
+- Combines traits from two parents (e.g., yield + disease resistance)
+- Most effective method for creating new varieties in self-pollinating crops
 
-## Generation Times for Major Species
+**Weaknesses**:
+- Requires 6-10 years for annual crops (longer for perennials)
+- Demands controlled pollination and detailed pedigree records — labor-intensive
+- Large F2 populations (500-2,000 plants) needed to capture rare trait combinations
+#### Hybrid Vigor (Heterosis)
 
-The rate of genetic improvement is fundamentally limited by generation interval — the time from birth of one generation to birth of the next. Species with short generation times can be improved much faster.
+**Principle**: Crossing two inbred lines often produces F1 offspring that outperform both parents. F1 plants are uniform and vigorous, but F2 seeds segregate unpredictably — farmers must return to the breeder for fresh hybrid seed each season.
+
+**Prerequisites**: Two inbred parent lines (6+ generations of selfing each), controlled pollination infrastructure, isolated seed production fields. **Materials**: Inbred line A and B seed, pollination bags, detasseling labor (maize).
+
+**Procedure**:
+1. Maintain two inbred parent lines by self-pollination each generation
+2. Plant parent lines in alternating rows; detassel seed parent rows before pollen shed
+3. Allow natural cross-pollination; harvest seed from detasseled rows (F1 hybrid seed)
+4. Distribute F1 seed to farmers — do not save F2 seed (it segregates)
+
+**Expected performance**: F1 hybrids yield 15-30% more than either parent. Maize: 6-10 t/ha vs. 4-6 t/ha for open-pollinated varieties.
+
+**Strengths**:
+- Largest single-generation yield boost of any breeding method (15-30% heterosis)
+- F1 plants are genetically uniform — consistent performance across the field
+- Exploits combining ability between genetically distant lines
+
+**Weaknesses**:
+- Farmers cannot save seed — F2 segregates unpredictably, losing 30-50% of the yield advantage
+- Requires maintaining two inbred parent lines and performing controlled crosses each season
+- Labor-intensive without mechanical aids; seed production cost is 3-5× open-pollinated seed
+#### Backcrossing
+
+**Principle**: When a desirable variety carries one weakness, cross it with a resistant donor, then repeatedly backcross while selecting for the resistance gene. After 5-6 backcross generations, the line is ~98% the original variety plus the resistance gene.
+
+**Prerequisites**: Recurrent parent (variety to improve), donor parent (carrying desired trait), controlled pollination supplies. **Materials**: Both parent seed stocks, pollination bags, plant labels.
+
+**Procedure**:
+1. Cross recurrent parent × donor parent to produce F1
+2. Backcross F1 to recurrent parent (BC1); select plants carrying the target trait
+3. Repeat through BC5-BC6, selecting for target trait each generation
+4. Self-pollinate final backcross generation 1-2 times to fix the trait
+5. Yield-test the improved line against the original recurrent parent
+
+**Expected performance**: After 6 backcross generations, line is 98.4% recurrent parent genetics plus the introgressed trait. Total time: 7-8 years.
+
+**Strengths**:
+- Preserves all the desirable characteristics of an established variety
+- Adds a single trait (disease resistance, stress tolerance) with minimal disruption
+- Most efficient method for improving an already-superior variety
+
+**Weaknesses**:
+- Only transfers one or a few traits — does not create novel variety combinations
+- Requires 7-8 years for annual crops; impractical for slow-maturing species
+- Linkage drag: genes near the target trait from the donor parent may also transfer, requiring additional selection to remove
+
+### Livestock Breeding Methods
+
+#### Linebreeding
+
+**Principle**: Moderate inbreeding that concentrates genes of an outstanding ancestor by mating its descendants to each other (half-siblings, aunt-nephew, cousins). Fixes desirable traits but can expose recessive defects. Keep inbreeding coefficient below 6.25%.
+
+**Prerequisites**: [Pedigree records](../knowledge/writing.md) tracing at least 3 generations, identified outstanding ancestor, breeding pens. **Materials**: Breeding pens (2-5), ear tags, pedigree records, weighing scale.
+
+**Procedure**:
+1. Identify the outstanding ancestor (exceptional conformation and performance)
+2. Mate that individual to several unrelated mates to produce F1 half-siblings
+3. Mate the best F1 half-siblings to each other (half-sib mating: inbreeding coefficient = 12.5%)
+4. Evaluate F2 offspring; cull any showing recessive defects
+5. Mate best F2 individuals back to the original ancestor or a less-related descendant
+6. Continue 3-5 generations, monitoring inbreeding coefficient; if it exceeds 6.25%, introduce an outcross
+
+**Expected performance**: Fixes 50-75% of the ancestor's genes in 3-4 generations. Risk of 5-15% fertility reduction if inbreeding exceeds 6.25%.
+
+**Strengths**:
+- Concentrates the genes of a proven superior individual into a bloodline
+- Produces predictable, uniform offspring that reflect the ancestor's qualities
+- Does not require introducing outside genetics (maintains breed type)
+
+**Weaknesses**:
+- Inbreeding depression risk: reduced fertility, smaller litters, higher juvenile mortality when inbreeding coefficient exceeds 6.25%
+- Requires detailed pedigree records to calculate inbreeding coefficients
+- Fixes undesirable recessive traits alongside desirable ones — some lines develop genetic defects
+
+#### Outcrossing
+
+**Principle**: Mating animals from different lines or breeds within the same species. Introduces new genetic variation, masks recessive defects, and produces an immediate vigor boost (heterosis). Tradeoff: loss of type consistency.
+
+**Prerequisites**: Two genetically distinct lines or breeds, breeding pens, [pedigree records](../knowledge/writing.md). **Materials**: Breeding pens, ear tags, record book.
+
+**Procedure**:
+1. Identify the weakness in the current line (e.g., declining fertility, disease susceptibility)
+2. Select an outcross line or breed that is strong in the weak trait
+3. Mate current-line females to outcross males; evaluate F1 offspring
+4. If F1 meets objectives, backcross F1 to the original line for 2-3 generations while selecting for the improved trait
+5. Alternatively, establish a new composite line from the F1 base
+
+**Expected performance**: F1 animals show 5-15% heterosis for fitness traits. Heterosis decays 50% per generation in subsequent matings.
+
+**Strengths**:
+- Immediate vigor boost (heterosis): 5-15% improvement in fertility, survival, and growth rate in F1
+- Masks recessive genetic defects carried by either parent line
+- Introduces new genetic variation for future selection
+
+**Weaknesses**:
+- F1 offspring are variable and may not breed true — loss of type consistency
+- Introduces traits from the outcross breed that may be undesirable (e.g., temperament, conformation)
+- Heterosis decays 50% per generation in subsequent matings — must manage the cross carefully
+
+### Culling and Progeny Testing
+
+**Culling**: Remove inferior animals from the breeding population at 20-40% per generation. Culled animals are eaten, sold, or used for work.
+
+**Progeny testing**: Judge a sire's merit by offspring performance. Requires mating to 15-20 standard females and measuring offspring — takes one full generation (3-7 years).
+
+### Record-Keeping Procedure
+
+Breeding without records is breeding blind. Maintain these records using [writing](../knowledge/writing.md):
+
+1. **Individual identification**: Unique ID (ear tag, leg band, painted mark) plus physical description as backup
+2. **Pedigree records**: Sire, dam, birth date, all matings and offspring with dates, inbreeding coefficient to mating partner
+3. **Performance records**: Individual measurements with dates, environmental conditions, contemporary group, deviation from group average
+4. **Selection decisions**: Which individuals selected or culled, criteria applied, justification for exceptions
+5. **Generational summaries**: Mean trait performance, genetic trend, population inbreeding coefficient, effective population size
+
+### Seasonal Breeding Calendar
+
+Breeding operations follow species-specific seasonal cycles. Timing determines when selection decisions can be made and how many generations per year are achievable.
+
+#### Annual Crop Breeding Calendar (Temperate, Wheat/Barley)
+
+| Month | Activity | Notes |
+|-------|----------|-------|
+| March-April | Plant breeding nursery | Sow parent rows and segregating populations using [uniform soil preparation](soil-management.md) |
+| May-June | Roguing and field inspection | Remove off-types; score disease incidence; rate plant vigor |
+| July | Controlled crosses (if pedigree method) | Emasculate and hand-pollinate before anthesis |
+| August | Pre-harvest selection | Mark best plants with stakes; take field notes and measurements |
+| September | Harvest selected plants individually | Thresh, weigh, and record grain yield per plant |
+| October | Data analysis and selection decisions | Rank plants by selection index; choose top 10-20% |
+| November | Store selected seed | Dry to 4-8% moisture, pack in labeled containers |
+| December-February | Plan next season's crosses | Review pedigrees; decide which lines to advance, which to discard |
+
+#### Chicken Breeding Calendar
+
+| Month | Activity | Notes |
+|-------|----------|-------|
+| January-March | Hatch chicks from selected breeders | Record parent IDs; tag chicks at hatch |
+| April-June | Grow chicks to maturity (5-6 months) | Uniform feed and housing; weekly body weight samples |
+| July-August | First egg production records begin | Record egg count per hen daily; weigh sample eggs weekly |
+| September-October | Evaluate 6-month production data | Rank hens by egg count, egg weight, and feed conversion |
+| November | Select top 20-30% of hens as breeders | Cull or eat the rest; select 2-3 cocks from best families |
+| December | Set up breeding pens for next cycle | Pair selected hens with selected cocks |
+
+#### Cattle Breeding Calendar
+
+Spring calving (record birth weight, calving ease). Summer growth monitoring (weigh at 90, 205 days; record ADG). Late summer weaning at 6-8 months. Autumn: select replacement heifers (top 30-40% by weaning weight and conformation); breeding season 60-90 day window. Winter: gestation; manage dry cows to Body Condition Score 5-6.
+
+## 5. Quantitative Parameters
+
+### Generation Times for Major Species
 
 | Species | Generation Time | Notes |
 |---------|----------------|-------|
-| **Wheat, barley, rice** | ~1 year | Annual crops; can accelerate with off-season planting in alternate hemisphere or greenhouse |
-| **Corn (maize)** | ~1 year | Naturally cross-pollinating; hybrid seed production adds complexity |
-| **Beans, peas, lentils** | ~1 year | Self-pollinating; mass selection highly effective |
-| **Chickens** | ~1 year | Sexual maturity at 5-6 months; very rapid genetic progress possible |
+| **Wheat, barley, rice, beans** | ~1 year | Self-pollinating; mass selection highly effective |
+| **Corn (maize)** | ~1 year | Cross-pollinating; hybrid seed production adds complexity |
+| **Chickens** | ~1 year | Sexual maturity at 5-6 months; very rapid progress |
 | **Pigs** | ~1 year | Sexual maturity at 6-8 months; 2+ litters per year |
-| **Rabbits** | ~0.5 year | Sexual maturity at 4-5 months; 4-6 litters per year; fastest mammalian improvement |
-| **Sheep, goats** | ~1.5-2 years | Sexual maturity at 6-8 months; typically one breeding season per year |
-| **Cattle** | ~3 years | Sexual maturity at 12-18 months; one calf per year; progeny testing adds another 3-4 years |
-| **Horses** | ~4-5 years | Sexual maturity at 2-3 years; one foal per year |
-| **Fruit trees (apple, pear)** | ~5-8 years | First fruiting at 4-7 years from seed; grafting clones mature wood but does not create new varieties |
-| **Nut trees (walnut, chestnut)** | ~8-15 years | Very slow improvement cycle; multi-generational commitment |
-| **Timber trees (oak, pine)** | ~15-30 years | Impractical for deliberate breeding without multi-generational institutional continuity |
+| **Rabbits** | ~0.5 year | Fastest mammalian improvement; 4-6 litters per year |
+| **Sheep, goats** | ~1.5-2 years | One breeding season per year |
+| **Cattle** | ~3 years | One calf/year; progeny testing adds 3-4 years |
+| **Horses** | ~4-5 years | One foal per year |
+| **Fruit trees** | ~5-8 years | Grafting clones mature wood but creates no new varieties |
+| **Nut/timber trees** | ~8-30 years | Multi-generational institutional commitment required |
 
-**Implications**: Poultry and rabbit breeding programs can show dramatic improvement within 5-10 years. Pig programs within 10-15 years. Cattle programs require 15-30 years for significant change. Tree breeding is a multi-generational undertaking requiring written records and institutional memory spanning decades to centuries.
+Poultry and rabbit breeding programs show dramatic improvement within 5-10 years. Pig programs within 10-15 years. Cattle programs require 15-30 years for significant change. Tree breeding is a multi-generational undertaking requiring written records and institutional memory spanning decades to centuries.
 
-## Record-Keeping for Breeding Programs
+### Expected Genetic Gain Per Generation
 
-Breeding without records is breeding blind. The essential records for any selective breeding program are:
+| Species | Trait | Heritability | Gain per Generation (realistic) | Time to Noticeable Improvement |
+|---------|-------|:-----------:|:------------------------------:|:------------------------------:|
+| Chicken | Egg production | 0.3 | +5-10 eggs/year | 2-3 years |
+| Chicken | Body weight (8 wk) | 0.4 | +50-100 g | 2-3 years |
+| Pig | Litter size | 0.1 | +0.1-0.3 piglets | 5-8 years |
+| Pig | Growth rate (ADG) | 0.3 | +20-40 g/day | 3-5 years |
+| Cattle | Milk yield | 0.3 | +100-200 kg/lactation | 5-10 years |
+| Cattle | Weaning weight | 0.3 | +5-10 kg | 5-8 years |
+| Wheat | Grain yield | 0.3 | +2-5% per cycle | 3-5 years |
+| Rabbit | Litter size | 0.2 | +0.2-0.5 kits | 1-2 years |
+| Sheep | Fleece weight | 0.4 | +0.2-0.5 kg | 3-5 years |
 
-**Individual identification.** Every breeding animal must be uniquely identifiable. Methods include:
-- Ear notches or ear tags (livestock)
-- Leg bands (poultry)
-- Painted marks or numbered stakes (field crops)
-- Written physical descriptions in absence of tags
+### Species-Specific Breeding Targets
 
-**Pedigree records.** For each breeding individual, record:
-- Sire (father) and dam (mother) identities
-- Date of birth
-- All matings and resulting offspring with dates
-- Relationship coefficient to mating partner (to track inbreeding)
+| Species | Primary Trait | Secondary Trait | Target (10 generations) | Culling Rate |
+|---------|:------------:|:---------------:|:-----------------------:|:------------:|
+| Chicken (layer) | Egg production | Feed conversion | 250+ eggs/year | 40-60% |
+| Chicken (meat) | Growth rate | Conformation | 3 kg at 12 weeks | 40-60% |
+| Pig | Litter size | Growth rate | 12+ piglets/litter, 100 kg at 6 months | 30-50% |
+| Cattle (dairy) | Milk yield | Udder conformation | 6,000+ kg/lactation | 20-30% |
+| Cattle (beef) | Growth rate | Carcass quality | 500 kg at 18 months | 20-30% |
+| Rabbit | Litter size | Growth rate | 8+ kits, 2 kg at 12 weeks | 40-60% |
+| Wheat | Grain yield | Disease resistance | 4-6 tonnes/hectare | Top 10-20% selected |
+| Sheep | Twinning rate | Fleece weight | 1.8+ lambs/ewe/year | 30-40% |
 
-**Performance records.** For each trait under selection, record:
-- Individual measurements with dates (weight, yield, quality scores)
-- Environmental conditions during measurement (feed quality, weather, soil conditions)
-- Contemporary group (animals managed together, for fair comparison)
-- Deviation from group average (removes environmental effects)
+### Yield Improvement Projections per Unit Area and per Animal
 
-**Selection decisions.** Document:
-- Which individuals were selected as breeders and which were culled
-- Selection criteria applied at each culling point
-- Justification for exceptions (if any)
+Projected cumulative gain after 10 generations of systematic selection, starting from an unimproved landrace base.
 
-**Generational summaries.** Each generation, calculate:
-- Mean performance for each trait
-- Genetic trend (change in breeding value over generations)
-- Inbreeding coefficient of the population
-- Number of breeding males and females (effective population size)
+| Species | Trait | Baseline (Gen 0) | Projected (Gen 10) | Gain | Conditions |
+|---------|-------|:-----------------:|:-------------------:|:----:|------------|
+| Wheat | Grain yield (t/ha) | 2.0 | 3.0-4.5 | +50-125% | Rain-fed at low end; irrigated + 80 kg N/ha at high end |
+| Rice | Grain yield (t/ha) | 2.5 | 4.0-5.0 | +60-100% | Paddy, tropical wet season |
+| Chicken (layer) | Eggs/hen/year | 150 | 240-280 | +60-87% | Balanced ration, 14 hr light/day |
+| Pig | Market weight at 6 mo (kg) | 70 | 95-110 | +36-57% | Grain-based ration |
+| Cattle (dairy) | Milk/lactation (kg) | 3,000 | 5,000-6,500 | +67-117% | Pasture + supplemental feed |
+| Sheep | Fleece weight (kg) | 3.0 | 4.5-5.5 | +50-83% | Temperate pasture |
+| Rabbit | Fryer weight at 12 wk (kg) | 1.5 | 2.0-2.3 | +33-53% | Pelleted feed, 15-20°C |
 
-## Practical Implementation Sequence
+## 6. Scaling Notes
 
-**Phase 1 — Establish baseline (Years 1-3):**
-1. Assemble the most diverse available population of the target species
-2. Begin individual identification and basic record-keeping
-3. Measure performance on all individuals under uniform conditions (see [Soil Management](soil-management.md) for uniform soil preparation)
-4. Cull the bottom 30-40% based on defined criteria
+- **Single species, single trait**: Starting point. 20-50 breeding females, 2-5 males. Effective population size >50 to limit inbreeding.
+- **Multiple traits**: After 3-5 generations, add a second trait using a selection index (weighted score) rather than independent culling.
+- **Multiple species**: Expand using same record-keeping framework. Prioritize by generation time: chickens/rabbits first, then pigs, then cattle.
+- **Multi-line development (Year 25+)**: Maintain 2-4 lines per species, each with different trait combinations. Cross lines to exploit heterosis. Requires 4× record-keeping, 2-3× breeding population.
+- **Effective population size rule**: Keep N_effective = (4 × N_males × N_females) / (N_males + N_females) >50 to limit inbreeding to <1% per generation.
 
-**Phase 2 — First selection cycle (Years 3-8):**
-1. Select top 10-20% of males and top 40-50% of females as breeders
-2. Arrange matings to minimize inbreeding while concentrating desirable genes
-3. Record all progeny with full pedigree information (requires [Writing](../knowledge/writing.md))
-4. Measure progeny performance and calculate breeding values
+## 7. Troubleshooting
 
-**Phase 3 — Accelerated improvement (Years 8-25):**
-1. Implement progeny testing for males (especially cattle, sheep)
-2. Introduce outcrosses from distinct populations to maintain diversity
-3. Begin separate lines for different trait combinations
-4. Maintain effective population size above 50 breeding animals to limit inbreeding accumulation
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| No improvement after 3-4 generations | Low heritability trait, insufficient selection intensity, environmental variation masking genetics | Switch to progeny testing; increase culling rate to top 10%; ensure uniform management of contemporary groups |
+| Inbreeding depression (reduced fertility, smaller litters) | Inbreeding coefficient above 6.25% | Introduce outcrosses from unrelated lines; maintain effective population size above 50 |
+| Lost trait despite selection | Antagonistic correlation with another selected trait (e.g., yield vs. disease resistance) | Select for a selection index combining both traits rather than selecting for one at a time |
+| Crop variety unstable (segregating) | Insufficient generations of selfing, accidental cross-pollination | Continue selfing for 2-3 more generations; increase isolation distance between breeding plots |
+| Calving/lambing difficulties increasing | Selecting for large birth weight (correlated with growth rate) | Add calving ease to selection criteria; select for moderate birth weight + fast postnatal growth |
+| Records incomplete or inconsistent | Operator not trained in record-keeping, forms too complex | Simplify forms to essential fields only; train all workers; audit records monthly |
+| Genetic diversity declining | Population too small, selection too intense | Reduce selection intensity; maintain multiple family lines; introduce outcrosses every 3-5 generations |
 
-**Phase 4 — Multi-line development (Years 25-100):**
-1. Cross distinct lines to exploit heterosis
-2. Develop specialized varieties/breeds for different environments and uses
-3. Test crosses systematically and record combining ability
-4. Begin long-cycle species (trees) if institutional continuity permits
+## 8. Safety
 
-## Species-Specific Guidance
+Animal handling during breeding operations presents specific hazards:
 
-**Poultry (chickens, ducks, turkeys):** The fastest-return breeding target. Select for egg production (layers) or growth rate (meat birds). A dual-purpose line producing 200+ eggs per year and reaching 3 kg at 16 weeks is achievable within 10 generations. Track egg count, egg weight, body weight at 8 and 16 weeks, and mortality.
+- **Crush injuries**: Large livestock (cattle, horses) can crush handlers against pen walls, gates, or fences. Use a crush chute (restraint cage) for all cattle handling — never attempt to restrain a 500 kg animal by hand alone. Position escape routes in every pen and handling area.
+- **Kicking**: Cattle kick forward and sideways (not backward like horses). Stand to the side of the animal, never directly behind. Horses kick backward with force sufficient to shatter bones — maintain 3 m clearance behind a restrained horse.
+- **Biting**: Pigs, rabbits, and poultry bite when frightened. Wear leather gloves when handling rabbits and when restraining pigs. Poultry spurs cause puncture wounds — use a catching hook for roosters.
+- **Zoonotic disease**: Close contact with breeding animals exposes handlers to leptospirosis (cattle urine), Q fever (birthing fluids), and ornithosis (poultry droppings). Wear gloves when handling birthing materials. Wash hands after handling animals. Pregnant women should avoid contact with birthing animals (Q fever risk).
+- **Bull handling**: Breeding bulls are the most dangerous animal on any farm. Never enter a bull pen alone. Use a bull staff (a rigid pole with a nose ring clip) for leading. A handling chute with a head bail is mandatory for any procedure requiring the bull to be restrained.
 
-**Rabbits:** Even faster generation turnover than poultry. Select for litter size (8+ kits), growth rate (2 kg at 12 weeks), and feed conversion. A well-managed rabbitry can produce 5-6 generations per year with accelerated breeding.
+## 9. Quality Control
 
-**Pigs:** Select for litter size (10+ piglets), growth rate (100 kg at 6 months), backfat thickness, and feed conversion. Use a terminal sire system: one breed line for maternal traits, another for growth and carcass quality; cross them to produce market animals with heterosis.
+- **Uniform test conditions**: All animals/plants in a contemporary group must be managed identically — same feed, soil, housing. See [Soil Management](soil-management.md).
+- **Contemporary group comparison**: Rank individuals against their contemporaries (same age, same management), not against absolute standards.
+- **Progeny test verification**: For low-heritability traits, verify by progeny testing. A sire that looks superior but produces average offspring was not genetically superior.
+- **Inbreeding monitoring**: Keep N_effective > 50. If inbreeding coefficient exceeds 6.25%, introduce outcrosses.
+- **Field trial protocol**: Test new varieties alongside the standard in the same field, randomized plots (≥3 replicates per variety). Measure yield per plot.
 
-**Cattle:** The highest-value, slowest-improving livestock species. Focus on one primary trait per breed: milk yield for dairy, growth rate for beef, draft power for work oxen. Progeny-test all bulls before widespread use. Keep accurate calving records — calving ease and fertility are low-heritability but economically critical.
+## 10. Variations and Alternatives
 
-**Wheat and other small grains:** Mass selection is the starting point. Walk the field before harvest, mark the tallest, healthiest, highest-yielding plants with stakes. Thresh and plant their seed separately. After 5-10 cycles, the resulting variety will be substantially improved and adapted to local conditions. For more rapid progress, make deliberate crosses between complementary parents and use pedigree selection.
+- **Mass vs. pedigree selection**: Mass selection is simpler, adequate for high-heritability traits in self-pollinating crops. Pedigree selection produces uniform, stable varieties but needs 6-10 generations and detailed records.
+- **Purebred vs. crossbred**: Purebred programs fix traits but risk inbreeding. Crossbred programs exploit heterosis but require maintaining multiple parent lines. Terminal sire system (cross breeds for market, keep pure lines for breeding) balances both.
+- **Natural vs. artificial insemination**: Natural mating requires on-site males. AI allows using superior sires across herds but needs semen collection/storage (Year 40+).
+- **Mutation breeding**: Radiation or chemicals to increase genetic variation, then select useful mutants. Requires 10,000+ plant populations. Not practical before Year 30+.
 
-## Relationship to Other Capabilities
+## 11. References
 
-Selective breeding builds directly on [Seed Saving](seed-saving.md) (the practice of preserving genetic material between seasons) and [Livestock Domestication](../animals/domestication.md) (the baseline of taming and managing animals). It requires [Soil Management](soil-management.md) to ensure that environmental variation does not mask genetic differences. Most critically, it depends on [Writing & Record-Keeping](../knowledge/writing.md) — without records, multi-generational genetic improvement is limited to oral tradition and approximate memory, which is insufficient for tracking pedigrees beyond 2-3 generations.
+- [Seed Saving](seed-saving.md) — preserving and propagating improved varieties
+- [Livestock Domestication](../animals/domestication.md) — baseline animal taming and management
+- [Soil Management](soil-management.md) — uniform soil conditions for genetic comparison
+- [Writing & Record-Keeping](../knowledge/writing.md) — pedigree tracking and performance records
+- [Food Processing](../food-processing/index.md) — downstream utilization of improved products
+- [Crop Rotation](crop-rotation.md) — managing improved varieties in rotation systems
+- [Irrigation](irrigation.md) — water management for consistent growing conditions
+- [Pest Management](pest-management.md) — protecting improved varieties from pests
 
-The outputs feed back into the system: improved crop varieties increase caloric surplus, which supports specialist breeders; improved livestock provide more manure for [soil management](soil-management.md), better draft power for [agriculture](./index.md), and higher-quality raw materials for [food processing](../food-processing/index.md).
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*

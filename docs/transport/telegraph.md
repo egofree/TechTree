@@ -250,4 +250,6 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 - [Telephone Systems](../telecom/telephone.md) — the successor technology
 - [Metals: Iron & Steel](../metals/iron-steel.md) — wire production for telegraph lines
 
-[← Back to Transport](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Transportation & Logistics](./index.md) • [All Domains](../index.md)*

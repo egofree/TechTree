@@ -245,4 +245,5 @@ For a 100 m cargo vessel at 12 knots:
 - [Metal Joining](../machine-tools/joining.md) — riveting and welding for hull construction
 - [Navigation](navigation.md) — maritime navigation and piloting
 
-[← Back to Marine & Naval Engineering](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval Engineering](./index.md) • [All Domains](../index.md)*

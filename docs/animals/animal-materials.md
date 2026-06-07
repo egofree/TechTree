@@ -232,4 +232,6 @@ Animal blood, often wasted, has several industrial uses.
 - [Leather](leather.md) — detailed leather tanning and processing
 - [Sericulture](sericulture.md) — silk as an alternative animal fiber
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

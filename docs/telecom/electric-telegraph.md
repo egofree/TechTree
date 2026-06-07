@@ -238,4 +238,5 @@ The telegraph network established the infrastructure (pole lines, wire, right-of
 - [Submarine Cable Systems](submarine-cables.md) — intercontinental telegraph connections
 - [Railways](../transport/railways.md) — railway infrastructure that telegraph block signaling protects
 
-[← Back to Telecommunications](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Telecommunications](./index.md) • [All Domains](../index.md)*

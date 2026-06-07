@@ -212,4 +212,6 @@ Once self-hosting is achieved, the compiler can be improved using itself:
 - [Operating System Construction](operating-systems.md) — file system needed for bootstrap process
 - [Electronic Computing](../computing/electronic.md) — hardware that runs the compiled compiler
 
-[← Back to Software Bootstrapping](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../index.md)*

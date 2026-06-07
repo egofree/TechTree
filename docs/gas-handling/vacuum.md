@@ -241,6 +241,48 @@ The cleanliness of components installed in a vacuum system directly determines t
 | Diffusion pump backstreaming | Excessive inlet pressure or inadequate cold trap | Keep foreline pressure below critical value; fill cold trap; add chevron baffle |
 | Thermocouple gauge reading erratic | Filament contamination or electrical noise | Clean or replace gauge tube; check cable shielding; verify gauge calibration against known standard |
 
+## Decision and Implementation Framework
+
+This article surveys vacuum technology as a conceptual guide. Per-section Strengths/Weaknesses blocks above provide detailed trade-offs.
+
+### C1: Decision Criteria
+
+Select vacuum pump based on required operating pressure and process cleanliness:
+
+| Target Pressure | Pump Type | Cleanliness | Key Limitation |
+|---|---|---|---|
+| 10-760 Torr (rough vacuum) | Piston or diaphragm pump | Moderate (piston: oil; diaphragm: clean) | Piston: oil contamination. Diaphragm: low flow rate. |
+| 10⁻³-10 Torr | Rotary vane pump | Moderate (oil-sealed) | Hydrocarbon backstreaming. Use traps for clean processes. |
+| 10⁻³-10 Torr (clean) | Scroll pump | Clean (oil-free) | PTFE seal wear every 12-24 months |
+| 10⁻⁶-10⁻³ Torr | Diffusion pump | Poor (oil vapor) | Backstreaming risk. Acceptable for evaporation, not cleanroom. |
+| 10⁻⁸-10⁻³ Torr | Turbomolecular pump | Clean (oil-free) | H₂ compression ratio only 10²-10⁴. Bearing maintenance. |
+| 10⁻⁹-10⁻⁶ Torr | Cryopump or ion pump | Ultra-clean | Cryopump: regeneration needed. Ion pump: low speed, start-up required. |
+
+Key rule: Use a dry scroll pump for any process where hydrocarbon contamination is unacceptable. Add a turbomolecular pump for high vacuum. Add a cryopump or ion pump for UHV.
+
+### C2: Implementation Steps
+
+1. **Build a piston or diaphragm roughing pump**: Achieve 10-50 Torr. This is sufficient for basic vacuum distillation and gas transfer.
+2. **Acquire or build a rotary vane pump**: Reach 10⁻²-10⁻³ Torr. Required as backing pump for all high-vacuum systems.
+3. **Construct a vacuum chamber**: Weld or bolt a steel cylinder with appropriate flanges, viewports, and feedthroughs. Pressure-test to 1.5× atmospheric pressure before evacuation.
+4. **Add a diffusion or turbomolecular pump**: Reach 10⁻⁶-10⁻⁸ Torr. Required for thin-film deposition, electron-beam work, and surface analysis.
+5. **Build or acquire a vacuum gauge set**: Pirani or thermocouple for rough vacuum, ion gauge for high vacuum. Calibrate against a capacitance manometer.
+6. **Implement leak detection**: Build or acquire a helium mass spectrometer leak detector. Essential for maintaining any vacuum system below 10⁻³ Torr.
+7. **Add UHV capability**: Upgrade to CF seals, bakeable chamber, and ion pump or cryopump for pressures below 10⁻⁹ Torr.
+
+### C3: Vacuum Pump Technology Trade-offs
+
+| Pump | Ultimate Pressure | Speed | Contamination | Cost | Maintenance |
+|---|---|---|---|---|---|
+| Piston | 10 Torr | Low | Oil mist | Very low | Valve replacement |
+| Diaphragm | 1 Torr | Very low | Clean | Low | Diaphragm replacement |
+| Rotary vane | 10⁻³ Torr | Medium | Hydrocarbon vapor | Low | Oil change 3-6 months |
+| Scroll (dry) | 10⁻² Torr | Medium | Clean | Medium | Seal replacement 12-24 months |
+| Diffusion | 10⁻⁶ Torr | High | Oil vapor (with traps) | Low | Oil change annually |
+| Turbomolecular | 10⁻⁹ Torr | Medium-high | Clean | High | Bearings 3-5 years |
+| Cryopump | 10⁻¹⁰ Torr | High | Clean | High | Regeneration 4-24 hours |
+| Ion pump | 10⁻¹¹ Torr | Low | Ultra-clean | High | Cathode every few years |
+
 ## See Also
 
 - [Gas Handling Basics](basic.md) — positive-pressure gas distribution, piping, and valves
@@ -249,4 +291,5 @@ The cleanliness of components installed in a vacuum system directly determines t
 - [Packaging and Testing](../chemistry/packaging-testing.md) — vacuum requirements for IC packaging (hermetic sealing)
 - [SEM Tech](../chemistry/sem-tech.md) — membrane technology for gas purification
 
-[← Back to Gas Handling](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*

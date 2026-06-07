@@ -291,6 +291,6 @@ Calculating batch weights from a desired glass composition:
 - [Energy: Charcoal](../energy/charcoal.md) — furnace fuel
 - [Energy: Electric Furnaces](../energy/electric-furnaces.md) — electric melting for high-quality glass
 
+---
 
-
-[← Back to Glass](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*

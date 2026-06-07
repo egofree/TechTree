@@ -397,6 +397,6 @@ In a crisis (impending crop failure, seed stock at risk), these shortcuts preser
 - [Ceramics → Pottery](../ceramics/pottery.md) — clay storage vessels and processing equipment
 - [Plants → Edible Plants](../plants/edible-plants.md) — crop species identification and wild seed collection
 
+---
 
-
-[← Back to Agriculture](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*

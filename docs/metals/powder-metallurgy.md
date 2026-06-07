@@ -196,6 +196,35 @@ SHS (also called combustion synthesis) exploits highly exothermic powder reactio
 - **MoSi₂**: Intermetallic with excellent oxidation resistance (forms protective SiO₂ layer at 1000-1700°C). Used as heating elements in high-temperature furnaces (operating temperature up to 1700°C in air — higher than any metallic element). Brittle at room temperature (ductile above ~1000°C).
 - **Cermets**: TiC or Ti(C,N) based composites with Ni-Mo binder. Combustion synthesis produces ultra-fine TiC grain (0.5-2 µm) in a single step. Hardness 1400-1800 HV, toughness 8-12 MPa√m. Used for high-speed finishing of steel — lower coefficient of friction than WC-Co, reducing built-up edge on the cutting tool.
 
+## Selection Guide
+
+**Decision criteria — choosing powder metallurgy processes**:
+- Use **press-and-sinter** for high-volume net-shape steel, copper, or bronze parts — 95-98% material utilization, 600-800 MPa compaction, 1100-1250°C sinter
+- Use **metal injection molding (MIM)** for complex small parts (<200 g) with intricate features — microminiature geometries impossible to press
+- Use **hot isostatic pressing (HIP)** for superalloy turbine disks and Ti-6Al-4V aerospace forgings — eliminates porosity, near-wrought properties
+- Use **direct sintering** for tungsten and molybdenum (melting points >2600°C) — 2000-3100°C in hydrogen, the only practical route
+- Use **gas atomization** for spherical powders (10-150 µm) for AM and HIP — highest quality, highest cost
+- Use **water atomization** for irregular powders for press-and-sinter — 10× cheaper than gas atomization, adequate for conventional PM
+- Use **cemented carbide (WC-Co) production** for cutting tools and wear parts — 83-97% WC, 3-17% Co, 1600-1900 HV
+
+**Implementation steps for powder metallurgy capability**:
+1. Identify the target metal and its melting point — refractory metals (W, Mo, Ta) require PM; conventional metals may use casting
+2. Select powder production method: water atomization for ferrous PM, gas atomization for aerospace/superalloy, chemical reduction for tungsten
+3. Establish powder quality control: particle size distribution (laser diffraction), flow rate (Hall flowmeter), apparent density
+4. Set up compaction press: mechanical (100-500 t) for simple shapes; hydraulic for complex multi-level parts
+5. Install sintering furnace: hydrogen atmosphere for refractory metals; vacuum for stainless and titanium; dissociated ammonia for structural steels
+6. Add post-sintering operations: sizing/coining for tolerances, heat treatment, machining/grinding for mating surfaces
+
+**PM process trade-offs**:
+
+| Process | Part Size | Complexity | Volume | Material Utilization | Cost/Part | Best For |
+|---|---|---|---|---|---|---|
+| Press-and-sinter | 1-500 g | Moderate (2D) | >100,000/yr | 95-98% | Very Low | Gears, bushings, structural |
+| MIM | <200 g | Very high (3D) | >10,000/yr | 95-98% | Medium | Medical, electronics, complex |
+| HIP | 1-2000 kg | Simple-moderate | Low-medium | 80-90% | High | Superalloy disks, Ti forgings |
+| Direct sinter (W/Mo) | 10-500 kg | Simple | Low | 85-95% | Very High | Furnace elements, filaments |
+| Additive manufacturing | 10 g-50 kg | Unlimited | Very low-medium | 50-95% | Very High | Prototypes, complex geometry |
+
 ## Safety & Hazards
 
 **Metal powder handling**:
@@ -233,9 +262,9 @@ SHS (also called combustion synthesis) exploits highly exothermic powder reactio
 - [Alloys](alloys.md) — alloy design, heat treatment, and phase diagrams
 - [Electric furnaces](../energy/electric-furnaces.md) — sintering and heat treatment equipment
 - [Machine tools](../machine-tools/index.md) — post-sintering grinding and machining
-- [Casting](../machine-tools/casting.md) — alternative forming method for lower-melting metals
+- [Casting](./casting.md) — alternative forming method for lower-melting metals
 - [Copper](copper-bronze.md) — conductor materials for electrical applications
 - [Semiconductors](../electronics/index.md) — high-purity silicon and germanium production
 - [Measurement](../measurement/index.md) — density, hardness, and dimensional inspection
 
-[← Back to Metals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

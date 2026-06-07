@@ -2,11 +2,30 @@
 
 > **Node ID**: petroleum.extraction
 > **Domain**: [Petroleum Extraction & Refining](./index.md)
-> **Dependencies**: `petroleum`
-> **Enables**: `petroleum.extraction.cable-tool`, `petroleum.extraction.rotary`, [`petroleum.refining`](refining.md)
+> **Dependencies**: [`petroleum`](./index.md)
+> **Enables**: [`cable-tool drilling`](extraction.md), [`rotary drilling`](extraction.md), [`petroleum.refining`](refining.md)
 > **Timeline**: Years 10-35
 > **Outputs**: crude_oil, natural_gas_liquids, associated_gas
 > **Critical**: No — petroleum provides the highest-value feedstock but coal tar and fermentation alternatives exist for some products
+
+## Prerequisites
+
+Petroleum extraction requires specific industrial capabilities:
+
+- [Mining engineering](../mining/index.md) — drilling equipment, geological survey, and earth-moving
+- [Iron and steel production](../metals/iron-steel.md) — drill pipe, casing, wellheads, and pumping equipment
+- [Machine tools](../machine-tools/index.md) — precision-machined drill bits, pumps, and valves
+- [Chemistry](../chemistry/index.md) — drilling mud formulation, cement for well completion
+
+## Safety
+
+Petroleum extraction presents severe hazards:
+
+- **Hydrogen sulfide (H₂S)**: Present in "sour" crude oil and natural gas. Lethal at 100 ppm (0.01%) — causes respiratory paralysis. Detectable by rotten-egg odor at low concentration, but olfactory fatigue masks the smell at dangerous levels. Always use H₂S monitors in production areas. Escape respirators must be available at all well sites.
+- **Blowout risk**: Uncontrolled release of pressurized oil and gas from a well. Blowout preventers (BOPs) rated to 5,000-15,000 psi are mandatory on all drilling rigs. A blowout can produce a fireball exceeding 50 m diameter if ignition occurs.
+- **Benzene exposure**: Crude oil contains 0.1-3.0% benzene, a confirmed human carcinogen (leukemia). Limit skin contact and inhalation. Use closed sampling systems. Benzene TLV: 0.5 ppm (8-hour TWA).
+- **Flash fire and explosion**: Hydrocarbon vapors (C₁-C₅) are flammable at 1-10% concentration in air. All electrical equipment in production areas must be explosion-proof (Class I, Division 1 or 2 rated). No open flames or spark-producing tools near wellheads.
+- **Confined space entry**: Storage tanks, separators, and well cellars can contain oxygen-deficient atmospheres or toxic gases. Test atmosphere before entry, use supplied-air respirators, and maintain a standby rescue team.
 
 ## Why Extraction Matters
 
@@ -282,4 +301,5 @@ A blowout — uncontrolled flow of oil and gas from the well — is the most cat
 - [Fuels](../energy/fuels.md) — combustion fuels from petroleum
 - [Distillation](../chemistry/distillation.md) — separation processes
 
-[← Back to Petroleum Extraction & Refining](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Petroleum Extraction & Refining](./index.md) • [All Domains](../index.md)*

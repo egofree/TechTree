@@ -431,6 +431,6 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 - [Plants → Edible Plants](../plants/edible-plants.md) — crop species selection and green manure options
 - [Plants → Forestry](../plants/index.md) — forest soil as mycorrhizal inoculant source; wood ash for pH amendment
 
+---
 
-
-[← Back to Agriculture](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*

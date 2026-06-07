@@ -316,6 +316,6 @@ Dose calculation: For a 10,000 L storage tank requiring 1.0 mg/L chlorine dose: 
 - [Food & Agriculture](../foundations/food-agriculture.md) — irrigation water quality and food safety
 - [Energy](../energy/index.md) — energy requirements for pumping, boiling, and UV treatment
 
+---
 
-
-[← Back to Health](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../index.md)*

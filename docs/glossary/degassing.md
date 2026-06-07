@@ -24,6 +24,6 @@ In vacuum system maintenance, degassing (bake-out) of chamber walls drives off a
 ## Appears In
 
 - [Lubricants](../chemistry/lubricants.md)
-- [Casting](../machine-tools/casting.md)
+- [Casting](../metals/casting.md)
 - [Aluminum](../metals/aluminum.md)
 - [Steelmaking](../metals/steelmaking.md)

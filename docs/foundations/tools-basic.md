@@ -6,6 +6,11 @@
 > **Enables**: [`animals.aquaculture`](../animals/aquaculture.md), [`animals.beekeeping`](../animals/beekeeping.md), [`animals.draft-power`](../animals/draft-power.md), [`ceramics.pottery`](../ceramics/pottery.md), [`construction.building-materials`](../construction/building-materials.md), [`foundations.food-agriculture`](food-agriculture.md), [`foundations.water-procurement`](water-procurement.md), [`knowledge.writing`](../knowledge/writing.md), [`mining.extraction`](../mining/extraction.md), [`textiles.fibers`](../textiles/fibers.md), [`transport.roads`](../transport/roads.md)
 > **Timeline**: Years 0-5
 > **Outputs**: stone_tools, wooden_tools, birch_tar, hafted_tools
+> **Critical**: Yes — stone and wood tools are a root capability enabling all construction, agriculture, and material processing
+
+## Prerequisites
+
+None required — stone and wood tools are root capabilities achievable with naturally available materials. Flint, chert, obsidian, hardwood, and softwood are found in most geological settings. Birch tar (the first synthetic adhesive) requires only birch bark and fire.
 
 ## Stone & Wood Tools
 
@@ -278,4 +283,5 @@
 - [Mining Extraction](../mining/extraction.md) — ore and mineral extraction using basic tools
 - [Pottery](../ceramics/pottery.md) — clay shaping with simple implements
 
-[← Back to Foundations](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Foundations](./index.md) • [All Domains](../index.md)*

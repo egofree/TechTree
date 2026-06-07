@@ -8,6 +8,14 @@
 > **Outputs**: yarn, thread
 > **Critical**: No
 
+## Prerequisites
+
+- [Fiber Preparation](fibers.md) — prepared fiber supply (carded, combed, or hackled)
+- [Basic Tools](../foundations/tools-basic.md) — for drop spindle construction
+- [Iron & Steel](../metals/iron-steel.md) — for spinning wheel hardware (bearings, spindle, crank)
+- [Machine Tools](../machine-tools/index.md) — for precision components on treadle wheel and industrial frames
+- [Woodworking](../foundations/tools-basic.md) — wheel and frame construction
+
 ## Spinning (converting fiber to yarn/thread)
 
 **[Drop spindle](../glossary/drop-spindle.md)** (Foundations stage, simplest):
@@ -39,6 +47,21 @@ Building a treadle spinning wheel requires woodcraft skill and basic iron hardwa
 - Flyer assembly: U-shaped wooden or iron bracket rotating on a horizontal axis. Arms 12-18 cm long, with 4-8 metal hooks spaced along each arm to guide yarn onto the bobbin. The flyer rotates as a unit with the whorl (driven by the drive band), inserting twist into the fiber.
 - Bobbin: Hollow wooden cylinder (8-12 cm long, 2-3 cm diameter, 1.5-2 cm bore) that slides onto the spindle shaft inside the flyer. Bobbin rotates independently of the flyer — the speed difference between flyer and bobbin winds yarn onto the bobbin. Bobbin must turn freely on the spindle; bush with brass tubing or polished iron washers at each end.
 - Whorl: Pulley on the spindle shaft, driven by the drive band. Groove diameter determines the drive ratio. Most treadle wheels use a multi-groove whorl (2-3 grooves of different diameters) to offer different ratios. Smaller whorl groove = higher ratio = more twist per treadle.
+
+### Treadle Wheel Construction Steps
+
+1. Cut the mother-of-all (vertical support post) from hardwood: 5 × 8 cm × 70-80 cm. This post holds the spindle/bearing assembly at the top and connects to the wheel base at the bottom.
+2. Turn or carve the wheel hub from hardwood: 5-8 cm diameter × 5-8 cm long. Drill the center bore to accept the iron axle (8-10 mm diameter). Mortise 8-12 rectangular slots around the hub perimeter for spoke tenons.
+3. Cut 8-12 spokes from ash: 2 × 2 cm × 18-25 cm (length adjusted to achieve the target wheel diameter). Tenon both ends — one end fits the hub mortise, the other fits the rim segment.
+4. Steam-bend 4-6 rim segments from ash strips: 2 × 3 cm cross-section, curved to match the wheel radius. Join segments with overlapping scarf joints (3-5 cm overlap, glued and pegged). Cut a 3-5 mm deep groove in the outer rim face for the drive band.
+5. Assemble the wheel: insert spokes into hub, fit rim segments onto spoke ends. Check trueness by spinning on the axle — maximum wobble at the rim: 2 mm. Adjust by re-seating spokes or planing the rim.
+6. Construct the table (base plank): 4 × 20 cm × 90-100 cm hardwood. Cut a slot at the front for the treadle pivot. Mount the wheel on a rear bracket (iron or wooden U-bracket) bolted to the table.
+7. Build the treadle: hardwood plank 15-20 cm × 8-10 cm. Mount on a metal pivot pin at the rear of the table slot. Connect to the wheel crank with a pitman rod (wooden or iron connecting rod, 30-50 cm, with iron bearings at each end). Crank offset: 3-5 cm from wheel axle center.
+8. Turn the spindle from steel rod: 6-8 mm diameter × 20-25 cm. Mount in a bearing block at the top of the mother-of-all. The bearing must allow free rotation — brass bushing with 0.05-0.1 mm clearance.
+9. Construct the flyer: bend a U-shaped bracket from 6-8 mm iron rod, arms 12-18 cm. Insert 4-8 metal hooks (bent wire, 1 mm) at even spacing along each arm. Mount the flyer on the spindle with a set screw or friction fit.
+10. Turn the bobbin on a lathe: hollow cylinder, 8-12 cm long, 2-3 cm outer diameter, 1.5-2 cm bore. Polish the bore to allow free rotation on the spindle shaft. Add flanges (1-2 mm wider than the body) at each end to retain the wound yarn.
+11. Install Scotch tension: wrap a thin leather or cord brake band around one bobbin flange. Anchor one end to the mother-of-all; attach the other end to a light spring or an adjustable screw tensioner. The brake slows the bobbin relative to the flyer, controlling take-up speed.
+12. String the drive band: use linen cord (2-3 mm diameter) looped around the wheel rim groove and the selected whorl groove. Adjust tension by moving the mother-of-all slightly closer to or farther from the wheel — the band should deflect 1-2 cm under finger pressure.
 
 **Tension mechanisms**:
 - **Scotch tension**: A brake band (thin cord or leather) wraps around the bobbin flange and is tensioned by a spring or adjustable screw. The brake slows the bobbin relative to the flyer, causing yarn to wind on. Adjusting brake tension controls take-up speed. Simple, effective, easy to build. Preferred for beginners and most general spinning.
@@ -93,6 +116,18 @@ Before fiber can be spun, it must be cleaned, opened, and aligned:
 - **Hand cards**: Pair of rectangular paddles (10 × 20 cm) covered in card cloth (stiff wire teeth, 1-2 cm long, set in leather or rubber backing). Charge one card with teased fiber. Brush cards together — teeth pull fibers into parallel alignment. Transfer rolled rolag (cylindrical roll of carded fiber, 10-15 cm long, 3-5 cm diameter) from card. Each rolag feeds one spindle-full of yarn. Rate: 0.5-1 kg of carded fiber per hour.
 - **[Drum carder](../glossary/drum-carder.md)** (Machine Tools): Rotating drum (20-40 cm diameter) covered with card cloth feeds against smaller roller. Continuous output as carded batt (flat sheet of aligned fiber). 5-10 kg/hour throughput. Significantly faster than hand carding.
 
+## Calibration and Verification
+
+1. **Wheel trueness test**: Spin the wheel freely without a drive band. Measure wobble at the rim with a finger gauge — the rim should not deviate more than 2 mm from true at any point. If wobble exceeds 2 mm, re-seat the offending spoke or adjust the rim segment joint.
+
+2. **Bobbin spin test**: Remove the flyer and place the bobbin on the spindle shaft. Flick the bobbin with your finger — it should spin freely for 3+ seconds without catching or wobbling. If the bobbin binds, polish the spindle shaft with emery cloth or ream the bobbin bore with a round file. A binding bobbin causes uneven yarn take-up.
+
+3. **Twist insertion test**: Spin 1 meter of yarn from prepared fiber. Count the twists per inch by inserting a pin into the yarn and unwinding the ply back to the pin point. Measure 1 inch of yarn, count the turns released. Target: 8-12 tpi for medium wool yarn, 12-20 tpi for cotton, 15-25 tpi for linen. If twist is too low, use a smaller whorl groove (higher ratio). If too high, use a larger whorl groove.
+
+4. **Yarn balance test**: Ply two singles together. Hang a 30 cm length of the plied yarn from one end. If it hangs straight without twisting on itself, the ply is balanced. If it curls clockwise, it is overplied (reduce plying twist). If counterclockwise, it is underplied (add plying twist).
+
+5. **Tension consistency test**: Spin 50 g of yarn onto a bobbin. Remove the bobbin and measure the yarn diameter at 10 points along its length with calipers. Standard deviation must be within ±10% of the mean diameter. Greater variation indicates inconsistent drafting or uneven tension.
+
 ## Troubleshooting
 
 - **Yarn breaks frequently**: Insufficient twist for the fiber staple length. Increase twist (higher wheel ratio or slower drafting). Fiber may be too short — ensure hackled flax (not tow) for fine linen, or carded (not combed) wool for short-staple breeds. Check for remaining vegetable matter causing weak spots.
@@ -137,6 +172,25 @@ Mechanized spinning multiplies output by 10-100× over hand spinning:
 - **Repetitive strain**: Hand spinning involves repeated treadling and arm motions. Take breaks every 30-60 minutes. Vary posture. Ergonomic wheel height reduces shoulder strain — wheel should be at elbow height when seated.
 - **Industrial machinery**: Powered spinning frames (water frame, ring frame, mule) have numerous pinch points between rollers, belts, and rotating spindles. Guard all moving parts. Emergency stop required on each frame. Ring spinning travelers can fly off at speed — eye protection in ring spinning rooms.
 
+## Yarn Quality Standards
+
+Spun yarn must meet measurable criteria before it is suitable for weaving or knitting. Quality defects in yarn propagate directly into cloth defects:
+
+- **Yarn count consistency**: Measure the length and weight of 10 sample hanks (each 100 m). Calculate the yarn count (tex = g/1000 m). The coefficient of variation (CV%) must be below 5% for weaving yarn and below 3% for knitting yarn. Higher variation causes streaky or barred fabric.
+- **Twist per inch (TPI)**: Count the turns per inch at 10 random positions along a 10 m sample. For a 2-ply weaving yarn, target 8-12 tpi for wool, 12-20 tpi for cotton. CV% of TPI must be below 8%. Low-twist yarn is weak and hairy; overtwisted yarn is stiff and kinky.
+- **Single-end strength**: Test breaking strength of individual yarns on a pendulum tester or calibrated spring scale. Minimum strength depends on count: Ne 20 yarn should test above 350 cN; Ne 40 yarn above 180 cN. The CV% of strength must be below 10% — a wide strength distribution causes frequent warp breaks at the loom.
+- **Evenness (Uster)**: For hand-spinning quality assessment, wrap yarn around a black card in closely spaced parallel wraps. Visually compare against standard photographs rated for evenness. Hand-spun yarn typically achieves Uster CV 15-25%; machine-spun achieves 10-15%. Visible thick/thin variations longer than 5 cm indicate drafting problems.
+- **Hairiness**: The number of fiber ends protruding from the yarn surface. Excessive hairiness causes fuzziness in woven cloth and problems in downstream processing (jamming in heddles, needle eyes). Compare against a reference sample — hairiness is rated on a 1-5 scale. Target: 2-3 for weaving yarn, 1-2 for knitting yarn.
+
+## Fiber-Specific Spinning Adjustments
+
+Different fibers require different wheel settings and techniques. Using the same setup for wool and cotton produces poor results:
+
+- **Wool (woolen system)**: Card fiber, spin from the rolags with minimal drafting (long draw). Use a low ratio (8:1 to 12:1) to allow the fibers to wrap around each other with air trapped between them — this produces the characteristic woolen loft and warmth. Allow more twist to build before winding on, as the springy wool fibers resist twist insertion. Target yarn: fuzzy, warm, light for its weight.
+- **Wool (worsted system)**: Comb fiber to align parallel, spin from the top (combed sliver) with short, firm drafting. Use a medium ratio (12:1 to 16:1). The parallel fibers produce a smooth, dense, strong yarn with a lustrous surface. Worsteds are cooler, smoother, and more abrasion-resistant than woolens — suited to tailoring and upholstery.
+- **Cotton**: Use a high ratio (15:1 to 25:1) because cotton's short staple length requires more twist for adequate strength. Spin with short, controlled drafting movements. Keep the fiber supply close to the orifice (the guide hole where yarn enters the flyer) — cotton drafts poorly if stretched too far. A charka (small hand-cranked wheel with a high-speed spindle) is the traditional tool for fine cotton spinning in India.
+- **Linen (flax)**: Wet-spin by moistening the fingers and the fiber during spinning. The moisture softens the pectin in the flax fibers, allowing them to pack more tightly and produce a smoother, stronger yarn. Use a distaff (vertical pole with a flared top) to hold the organized flax fibers at shoulder height, feeding them downward to the spindle. Keep the spinning area humid (60-70% RH) — dry linen fibers are stiff and snap during drafting.
+
 ## See Also
 
 - [Weaving](weaving.md) — loom-based cloth production from spun yarn
@@ -146,4 +200,5 @@ Mechanized spinning multiplies output by 10-100× over hand spinning:
 - [Dyeing](dyeing.md) — coloring spun yarn and cloth
 - [Sewing & Tailoring](sewing-tailoring.md) — garment construction from woven cloth
 
-[← Back to Textiles](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

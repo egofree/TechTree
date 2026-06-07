@@ -4,6 +4,7 @@
 > **Domain**: [Environmental Health & Safety](./index.md)
 > **Dependencies**: None (root capability)
 > **Enables**: None (leaf capability)
+> **Critical**: No — ventilation protects worker health but basic natural ventilation suffices at earlier bootstrap stages
 > **Timeline**: Years 30-70
 > **Outputs**: lev_systems, gas_cabinets, abatement_systems, scrubbers, exhaust_monitoring
 
@@ -295,6 +296,15 @@ The high exhaust volumes in semiconductor fabs represent significant energy loss
 | Exhaust air energy recovery effectiveness drops below 50% | Glycol run-around coil fouled or heat pipe refrigerant charge leaked | Flush glycol coil with cleaning solution; verify glycol concentration and pump flow rate; for heat pipe systems, check for loss of refrigerant charge — sealed pipes require manufacturer service; do not use enthalpy wheels on toxic/corrosive streams |
 | Makeup air humidity above 50% RH entering cleanroom | Dehumidification coil bypassing or cooling coil below dew point but reheat insufficient | Verify cooling coil achieves dew point condensation; check reheat coil is modulating correctly to bring air to 22°C discharge; confirm clean steam humidifier is not over-injecting; check condensate drain is not overflowing into air stream |
 
+## Safety
+
+Ventilation system maintenance and inspection expose workers to hazards from the contaminants the systems are designed to control:
+
+- **Confined space entry during duct maintenance**: Exhaust duct interiors accumulate acid condensate (pH 1-3 from HF, HCl, HNO₃ fumes) at low points and joints. Entering large-diameter ductwork (≥600 mm) for inspection or cleaning is a permit-required confined space. Atmosphere testing before entry: O₂ ≥19.5%, flammable gas <10% LEL, acid vapor below PEL (HF <3 ppm, HCl <5 ppm). Continuous mechanical ventilation during entry. Entry personnel wear half-face respirator with acid gas cartridge as minimum respiratory protection, plus chemical-resistant gloves (neoprene) to handle acid-wetted duct surfaces. Tripod and winch at the entry point with a stand-by attendant.
+- **Ventilation failure during toxic gas operations**: If exhaust flow from a gas cabinet drops below 200 CFM (blocked duct, fan failure, belt break), toxic gas (AsH₃ at TLV 5 ppb, PH₃ at TLV 0.3 ppm) accumulates inside the cabinet and leaks into the fab. Automatic cylinder valve closure triggers at <80% design exhaust flow. Until the valve closes, gas continues flowing. Maximum permissible response time from flow alarm to valve closure: 30 seconds (hardwired interlock). Never override the exhaust-flow interlock to keep a process running — this defeats the last engineering control before gas release.
+- **Scrubber maintenance chemical exposure**: Replacing caustic scrubber packing saturated with acid residues (CaF₂, NaCl, Na₂SO₄) generates dust containing fluoride and dissolved heavy metals. Wear P100 respirator during packing removal. Scrubber liquor (5-15% NaOH) at pH 13-14 causes caustic burns on skin contact — neoprene gauntlet gloves and face shield are mandatory when handling scrubber internals. Oxidizing scrubber solutions (NaOCl, KMnO₄) for hydride gas treatment release chlorine gas if the pH drops below 5. Maintain pH >8 in oxidizing scrubbers and verify with continuous pH monitoring.
+- **Thermal oxidizer burn and fire risk**: Burner box combustion chambers operate at 800-1,200°C. Housing surface temperatures reach 150-300°C on exterior panels. Approach only after confirming burner shutdown and 60-minute cool-down. Residual silane in the exhaust line can flash-ignite during maintenance if the purge is incomplete — verify <1% LEL with a combustible gas detector before opening any combustion chamber fitting.
+
 ## See Also
 
 - [Chemical Safety & Toxicology](chemical-safety.md) — TLV limits and hazard classifications for ventilated chemicals
@@ -303,6 +313,5 @@ The high exhaust volumes in semiconductor fabs represent significant energy loss
 - [Gas Handling](../gas-handling/index.md) — Gas distribution systems, cylinder handling
 - [Occupational Health](../health/occupational-health.md) — General LEV design and exposure monitoring
 
-
-
-[← Back to EHS](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

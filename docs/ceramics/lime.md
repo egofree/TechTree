@@ -1,17 +1,24 @@
 # Lime Production
 
 > **Node ID**: ceramics.lime
-> **Domain**: Ceramics & Refractories
-> **Dependencies**: [`ceramics.kilns`](kilns.md), `mining`
-> **Enables**: [`animals.animal-materials`](../animals/animal-materials.md), `construction`
+> **Domain**: [Ceramics & Refractories](./index.md)
+> **Dependencies**: [`ceramics.kilns`](kilns.md), [`mining`](../mining/index.md)
+> **Enables**: [`animals.animal-materials`](../animals/animal-materials.md), [`construction`](../construction/index.md)
 > **Timeline**: Years 5-15
 > **Outputs**: lime, quicklime, mortar, plaster, whitewash
+> **Critical**: Yes — lime is the primary binder for construction, a flux for metallurgy, and a chemical feedstock for industry; no other single material touches as many domains at as many stages of development
 
 
 Lime is one of the most versatile industrial materials in the bootstrap sequence. Produced from abundant limestone by a simple thermal process (heating to ~900°C), quicklime and its derivatives — slaked lime, lime mortar, lime plaster, whitewash — serve as the primary binder for construction, a flux for metallurgy, a chemical feedstock for industry, and a treatment agent for agriculture and water purification. No other single material touches as many domains at as many stages of development.
 
 The lime cycle is elegantly simple: heat limestone to drive off CO₂, add water to create a workable paste, let it re-absorb CO₂ from air to harden back into stone. This reversible cycle, understood since antiquity, underpins all lime-based construction and makes lime the gateway material to cement, concrete, and modern binders.
 
+## Prerequisites
+
+- **Materials**: [Limestone](../mining/index.md) (CaCO₃ >95% purity, crushed to 50-100 mm pieces), [fuel](../energy/charcoal.md) (wood, charcoal, or coal — 2-4 kg fuel per kg quicklime), water for slaking (3-4 parts water to 1 part lime by volume for putty)
+- **Tools**: [Kiln or furnace](kilns.md) (batch shaft or continuous shaft design), [thermometer or pyrometric cones](../measurement/index.md) (target 900-1100°C), rake/shovel for loading and drawing, screen (2-5 mm mesh) for grading slaked lime, tub or pit for slaking
+- **Infrastructure**: Ventilated firing area (calcination releases 0.78 kg CO₂ per kg CaO — outdoor or forced-draft ventilation required), dry airtight storage for quicklime (prevents air-slaking), covered pit for lime putty storage
+- **Knowledge**: Calcination temperature control (900-1100°C), slaking safety (exothermic reaction to ~150°C), carbonation chemistry, mortar mixing proportions (1:2 to 1:3 lime:sand by volume)
 
 ## Finding Limestone
 
@@ -52,6 +59,31 @@ This is an endothermic reaction requiring ~1.78 MJ per kg of CaCO₃ decomposed 
 - **Complete decomposition**: All CO₂ must be driven off. The centre of large stones may remain unconverted if firing is too short or temperature too low. Break a sample piece open — the core should be the same white/gray as the surface, not darker.
 - **Kiln atmosphere**: Excess air ensures complete fuel combustion but cools the kiln. Restricted air (reducing atmosphere) wastes fuel and produces CO. Target slight excess air for maximum temperature with minimum fuel.
 
+### Calcination Performance by Temperature
+
+| Firing Temperature | CaO Purity | Decomposition | Fuel Consumption | Slaking Behavior |
+|--------------------|-----------|---------------|-----------------|------------------|
+| 850°C | <80% | Incomplete — core remains CaCO₃ | 3-4 MJ/kg CaO | Slow, gritty residue, underburned |
+| 900°C | ~85% | Mostly complete (thin pieces) | 4-5 MJ/kg CaO | Good reactivity, 5-10 min slaking |
+| 1000°C | ~92% | Full decomposition | 5-6 MJ/kg CaO | Vigorous slaking, 2-3 min, fine powder |
+| 1100°C | ~96% | Full decomposition, dense product | 6-8 MJ/kg CaO | Fast slaking, smooth putty |
+| 1200°C+ | 95-97% | Sintered (overburned) | 8-10 MJ/kg CaO | Slow slaking (hours), coarse particles |
+
+**Yield by weight**: 1.0 tonne CaCO₃ → 0.56 tonne CaO (theoretical maximum). Practical yield: 0.45-0.52 tonne CaO per tonne CaCO₃ depending on kiln efficiency and stone purity.
+
+**Slaking heat output**: 65 kJ/mol (1.16 MJ/kg CaO). Temperature rise in the slaking container reaches 100-150°C depending on water ratio and container insulation.
+
+### Calcination Procedure (Batch Shaft Kiln)
+
+1. **Prepare charge**: Crush limestone to 50-100 mm pieces using a sledgehammer or crusher. Sort by size — uniform pieces burn evenly. Reject pieces below 30 mm (block airflow) and above 120 mm (incomplete core burning).
+2. **Load kiln**: Place a layer of kindling (dry twigs, 50-100 mm deep) at the base of the kiln shaft. Add a 100 mm layer of fuel (charcoal or dry hardwood, 30-50 mm pieces). Add a 200-300 mm layer of limestone pieces. Repeat fuel-limestone layers to the top of the shaft, maintaining a 3:1 stone-to-fuel ratio by volume. The top layer should be stone, not fuel.
+3. **Ignite**: Light the kindling at the draw arch (base opening). Allow fire to establish for 15-30 minutes with moderate draft (damper 1/3 open).
+4. **Ramp temperature**: Increase fuel feed gradually over 2-3 hours to raise kiln temperature toward 900°C. Monitor kiln interior color through the spy hole: dark red (~650°C) → cherry red (~800°C) → bright cherry (~900°C). Increase draft (open damper to 2/3) as temperature rises.
+5. **Hold at calcination temperature (900-1000°C)**: Maintain bright cherry to orange glow for 4-8 hours. Add fuel in small quantities every 30-60 minutes to maintain steady temperature. The kiln interior should be orange (~950-1050°C). Hold time depends on stone size: 50 mm pieces → 4 hours, 100 mm pieces → 8 hours.
+6. **Test for completion**: Withdraw a sample piece through the draw arch with iron tongs. Drop into water — it should slake vigorously within 2-3 minutes (hissing, steam, crumbling to powder). If the sample is sluggish or the core is dark, extend firing 1-2 hours.
+7. **Seal and cool**: Close damper and draw arch. Seal all openings. Allow kiln to cool 12-24 hours. Rapid cooling causes thermal shock cracking of the quicklime pieces.
+8. **Draw lime**: Open the draw arch. Rake out quicklime carefully — it crumbles easily. Sort by color: white pieces = fully calcined (good); gray/dark pieces = underburned (re-fire with next batch); dense/hard pieces = overburned (grind fine, extend slaking time).
+
 ## Slaking (Hydration)
 
 Add water to quicklime — a vigorous exothermic reaction:
@@ -60,10 +92,22 @@ Add water to quicklime — a vigorous exothermic reaction:
 
 Temperature reaches ~150°C during slaking of pure quicklime. The reaction produces steam and the quicklime crumbles into a fine white powder (hydrated lime) or, with excess water, a lime putty.
 
-**Slaking methods**:
+### Dry Slaking Procedure
 
-- **Dry slaking**: Add just enough water to moisten the quicklime (25-35% by weight). The lime crumbles to powder. Screen to remove unburned cores. Used when dry powder is needed for agriculture or chemical feedstock.
-- **Wet slaking / putty making**: Add quicklime to a tub of excess water (3-4 parts water to 1 part lime by volume). Stir vigorously. Result is lime putty — a thick, buttery paste. Store in covered pit. Improves with age as particle size decreases over months to years. Aged putty (6+ months) produces the smoothest, most workable mortar.
+1. Spread quicklime in a 100-150 mm layer on a clean, dry stone or concrete floor.
+2. Sprinkle water evenly over the lime — 25-35% by weight (250-350 ml water per kg quicklime). Apply with a watering can or spray, not a bucket.
+3. Rake and turn the lime continuously as steam rises. The lime crumbles to powder over 10-30 minutes.
+4. Screen through 2-5 mm mesh to remove unburned cores (dark, hard lumps). Return rejected cores to next kiln batch for re-firing.
+5. Store dry hydrated lime in moisture-proof bags or sealed barrels.
+
+### Wet Slaking (Putty Making) Procedure
+
+1. Fill a wooden tub or stone-lined pit with clean water — 3-4 parts water to 1 part quicklime by volume (e.g., 60 liters water for 20 liters quicklime).
+2. Add quicklime to water slowly, one shovel-full at a time. **Never add water to quicklime** — this causes violent spattering of hot lime.
+3. Stir vigorously with a wooden paddle or hoe as each addition slakes. Allow steam to clear between additions. Total addition time: 20-40 minutes for a 20 kg batch.
+4. After all quicklime is added and slaking subsides, stir the putty for an additional 10-15 minutes to break up remaining lumps.
+5. Cover with 50-100 mm of water and seal the pit or tub. Exclude air to prevent carbonation.
+6. Age for minimum 2 weeks before use. Aged putty (6+ months) produces the smoothest, most workable mortar as particle size decreases over time.
 
 **Safety**: Slaking generates intense heat and steam. Always add quicklime to water slowly, never the reverse. The reverse causes violent spattering of hot lime. Wear eye protection, leather gloves, and long sleeves. Perform outdoors or in well-ventilated area.
 
@@ -84,6 +128,16 @@ The simplest purpose-built lime kiln — a vertical shaft built from stone or fi
 - **Cooling**: Seal kiln. Let cool 12-24 hours. Extract lime through the draw arch.
 - **Yield**: 50-70% of theoretical (significant losses from incomplete burning of outer stones and overburning near the fire). ~1-2 tonnes quicklime per batch.
 
+**Strengths**:
+- Simple to build from stacked stone or firebrick — no specialized materials or skills beyond basic masonry
+- Low fuel consumption relative to output for small-scale production (1-2 tonnes per batch)
+- Batch operation allows quality control between runs — adjust fuel and timing based on results
+
+**Weaknesses**:
+- Fuel inefficient: 4-6 kg fuel per kg quicklime (waste heat escapes through the open top)
+- Inconsistent product: outer stones near the fire overburn while inner stones may underburn
+- Labor intensive: each batch requires full kiln loading, 12-24 hours firing, 12-24 hours cooling, then manual extraction
+
 ## Shaft Kiln (Continuous Operation)
 
 A scaled-up version enabling continuous production:
@@ -92,6 +146,16 @@ A scaled-up version enabling continuous production:
 - **Operation**: Load crushed limestone and fuel (alternate layers) at the top. Air enters at the bottom, is preheated by cooling lime. Calcining zone reaches 900-1100°C. Draw lime every 6-8 hours from the discharge arch at base. Add new layers at top — continuous operation.
 - **Efficiency**: 2-3 tonnes fuel per tonne of quicklime. Much more efficient than batch kilns because waste heat preheats incoming stone and air.
 - **Throughput**: 5-20 tonnes quicklime per day depending on shaft size.
+
+**Strengths**:
+- Continuous operation — load at top, draw at bottom, no downtime between batches
+- Fuel efficient: 2-3 kg fuel per kg quicklime (waste heat preheats incoming stone and air)
+- Consistent product quality — steady-state thermal zones produce uniform calcination
+
+**Weaknesses**:
+- Requires firebrick construction and iron banding — more complex and expensive to build than a batch kiln
+- Continuous fuel supply required — interruption causes temperature gradients and uneven burning
+- Difficult to start up: first charge requires 24-48 hours to reach thermal equilibrium before consistent output begins
 
 ## Test Lime Quality
 
@@ -284,4 +348,6 @@ Quicklime is used in the beamhouse stage of leather tanning to dehair hides. A l
 - [Building Materials](../construction/building-materials.md) — mortar and plaster in construction
 - [Animal Materials](../animals/animal-materials.md) — lime for hide processing
 
-[← Back to Ceramics & Refractories](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*

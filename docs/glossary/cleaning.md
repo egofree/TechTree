@@ -31,4 +31,4 @@ The progression from basic solvent cleaning to RCA cleaning mirrors the tech tre
 - [Photoresists & Masks](../photolithography/resists-masks.md)
 - [Medicine](../health/medicine.md)
 - [Sericulture](../animals/sericulture.md)
-- [Casting](../machine-tools/casting.md)
+- [Casting](../metals/casting.md)

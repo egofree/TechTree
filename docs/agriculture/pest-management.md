@@ -316,6 +316,6 @@ Cultural controls modify the farming environment to make it less hospitable to p
 - [Chemistry → Alkalis](../chemistry/alkalis.md) — soap production for spray emulsifiers
 - [Plants → Edible Plants](../plants/edible-plants.md) — plant species with pest-repellent properties
 
+---
 
-
-[← Back to Agriculture](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*

@@ -4,6 +4,7 @@
 > **Domain**: [Environmental Health & Safety](./index.md)
 > **Dependencies**: None (root capability)
 > **Enables**: None (leaf capability)
+> **Critical**: No — emergency response protects workers and communities but does not enable new technological capabilities
 > **Timeline**: Years 30-70
 > **Outputs**: emergency_procedures, spill_response, evacuation_plans, first_aid_protocols, emergency_equipment
 
@@ -273,6 +274,15 @@ Semiconductor fabs use a multi-tier alarm system:
 | Arsine exposure victim shows dark/red urine 4 hours post-exposure | Delayed hemolytic anemia — arsine destroys red blood cells (onset 2-24 hours) | Transport to hospital immediately; notify hospital of arsine exposure for blood typing and cross-matching; prepare for potential renal dialysis; administer dimercaprol (BAL) chelation therapy for confirmed arsenic poisoning |
 | Emergency drill evacuation time exceeds 5 minutes for building | Blocked exit path, personnel unfamiliar with route, or dead-end corridor >6 meters | Clear all obstructions from designated exit routes; verify exit doors open outward with panic hardware; retrain personnel on evacuation routes; ensure minimum two independent exit paths from every location |
 
+## Safety
+
+Emergency responders face secondary hazards during chemical incident intervention that differ from the primary release:
+
+- **Secondary toxic exposure during rescue**: Entering an arsine release zone (IDLH 3 ppm) in SCBA protects the respiratory tract but does not prevent dermal absorption of arsine through exposed skin at concentrations above 0.5 ppm. Full chemical suit (Tyvek-Saranex laminate with sealed wrists and ankles) is mandatory — SCBA alone is insufficient for hydride gas entries. Silane fires produce SiO₂ fume particulate (respiratory irritant) that penetrates standard half-face respirators; responders must use P100 filtration or supplied air even after the flame is extinguished.
+- **Structural compromise from fire and explosion**: Silane explosions in gas cabinets generate overpressure sufficient to blow cabinet doors (12-gauge steel, 30-50 kg) across the fab floor. Approach gas cabinet fires from behind ballistic shielding or at 90° to the door plane. Piranha solution (H₂SO₄:H₂O₂) fires in wet benches weaken FRP bench construction — the benchtop may collapse under the weight of chemical baths (50-200 L). Verify structural integrity before approaching for valve shutoff.
+- **PPE limitations during extended response**: SCBA cylinders (45-minute rated) deplete in 25-35 minutes under heavy exertion (carrying victims, climbing stairs). At the 20-minute mark, the low-air alarm sounds — the responder must exit immediately, leaving roughly 10 minutes of reserve. In multi-casualty incidents, responders have been found dead beside victims after exhausting their air supply while attempting additional rescues. Incident commander must track cylinder times and rotate teams. Chemical suits (Tyvek-Saranex) provide 30-60 minutes of protection against concentrated HF before breakthrough — not rated for extended immersion.
+- **Contamination during victim decontamination**: Removing contaminated clothing from a victim covered in HF or piranha solution exposes the responder to the same chemical. Responder wears double neoprene gloves (0.8 mm) and full-face shield during patient decontamination. Cut contaminated clothing off rather than pulling over the victim's head (spreads contamination to face and eyes). All decontamination runoff is hazardous waste — collect in lined containment pools, not floor drains.
+
 ## See Also
 
 - [Chemical Safety & Toxicology](chemical-safety.md) — Chemical hazard data for emergency planning
@@ -281,6 +291,5 @@ Semiconductor fabs use a multi-tier alarm system:
 - [Waste Management](waste-management.md) — Disposal of contaminated spill cleanup materials
 - [Occupational Health](../health/occupational-health.md) — General emergency first aid procedures
 
-
-
-[← Back to EHS](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

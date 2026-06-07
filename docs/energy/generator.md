@@ -8,7 +8,7 @@
 > **Outputs**: electrical_power_DC, electrical_power_AC
 > **Critical**: Yes — generators are the only practical way to convert mechanical energy (steam, water, wind, diesel) into electricity at industrial scale
 
-## Principle
+## Overview
 
 A generator converts mechanical rotation into electrical energy through electromagnetic induction (Faraday's law). When a conductor moves through a magnetic field, an electromotive force (EMF) is induced proportional to the rate of change of magnetic flux: E = -N × dΦ/dt, where N is the number of turns and Φ is the magnetic flux. In practice, a coil of wire (armature) rotates in a magnetic field produced by either permanent magnets (magneto) or electromagnets (dynamo/alternator).
 
@@ -24,7 +24,7 @@ DC generators use a commutator (split copper ring with carbon brushes) to revers
 - [Lathe and milling machine](../machine-tools/machining.md) — for shaft, bearings, commutator
 - [Insulating materials](../polymers/thermoplastics.md) — shellac, varnish, kraft paper, pressboard
 
-## Materials
+## Bill of Materials
 
 ### DC Generator (10 kW, 220V, 1500 RPM)
 
@@ -34,7 +34,7 @@ DC generators use a commutator (split copper ring with carbon brushes) to revers
 | [Copper magnet wire (field)](electricity.md) | 3-8 kg | 0.5-1.0 mm diameter, enamel insulated | [Wire Drawing](electricity.md) | — |
 | [Silicon steel laminations](../metals/iron-steel.md) | 30-60 kg | 0.35-0.50 mm thick, 3% Si | [Iron & Steel](../metals/iron-steel.md) | Low-carbon steel laminations (higher core loss) |
 | [Steel shaft](../metals/iron-steel.md) | 1 piece | 40-60 mm diameter × 300-500 mm, 1045 steel, turned | [Machining](../machine-tools/machining.md) | — |
-| [Cast iron frame/yoke](../machine-tools/casting.md) | 1 piece | 200-300 mm diameter ring, 10-20 kg | [Foundry](../machine-tools/casting.md) | Fabricated steel frame |
+| [Cast iron frame/yoke](../metals/casting.md) | 1 piece | 200-300 mm diameter ring, 10-20 kg | [Foundry](../metals/casting.md) | Fabricated steel frame |
 | [Copper commutator segments](../metals/copper-bronze.md) | 20-40 segments | Hard-drawn copper, trapezoidal cross-section | [Wire Drawing](electricity.md) | — |
 | [Carbon brushes](../chemistry/index.md) | 4-8 pieces | Carbon-graphite composite, 15-25 mm × 8-15 mm | [Chemistry](../chemistry/index.md) | Copper gauze brushes (higher wear, sparking) |
 | [Bearings](../machine-tools/bearings-abrasives.md) | 2 pcs | Ball bearings, sealed, shaft diameter matched | [Machine Tools](../machine-tools/index.md) | Babbitt sleeve bearings |
@@ -52,10 +52,10 @@ DC generators use a commutator (split copper ring with carbon brushes) to revers
 | [Slip rings](../metals/copper-bronze.md) | 2-3 pcs | Brass or copper, 40-80 mm diameter | [Foundry](../metals/index.md) | — |
 | [Carbon brushes](../chemistry/index.md) | 4-6 pcs | Carbon-graphite, for slip rings | [Chemistry](../chemistry/index.md) | Copper gauze |
 | [Bearings](../machine-tools/bearings-abrasives.md) | 2 pcs | Ball bearings, sealed | [Machine Tools](../machine-tools/index.md) | Sleeve bearings |
-| [Cast iron frame](../machine-tools/casting.md) | 1 piece | 300-500 mm diameter, 30-50 kg | [Foundry](../machine-tools/casting.md) | Fabricated steel |
+| [Cast iron frame](../metals/casting.md) | 1 piece | 300-500 mm diameter, 30-50 kg | [Foundry](../metals/casting.md) | Fabricated steel |
 | [Insulation](../polymers/thermoplastics.md) | 5-10 kg | Shellac, kraft paper, pressboard, cotton tape, mica | [Polymers](../polymers/index.md) | — |
 
-## Construction Steps
+## Process Description
 
 ### Core Fabrication
 
@@ -111,7 +111,7 @@ DC generators use a commutator (split copper ring with carbon brushes) to revers
 
 5. **Phase balance test** (three-phase AC): Measure voltage and current on all three phases at rated load. Maximum imbalance: 2% between any two phases.
 
-## Expected Performance
+## Quantitative Parameters
 
 ### DC Generator
 
@@ -153,14 +153,68 @@ DC generators use a commutator (split copper ring with carbon brushes) to revers
 - Large generators require precision manufacturing — laminated cores, balanced rotors, accurate windings
 - Voltage regulation on basic generators is poor without electronic control
 
+## Scaling Notes
+
+| Scale | Power Output | Type | Prime Mover | Typical Weight | Application |
+|-------|-------------|------|-------------|----------------|-------------|
+| Micro | 0.1-5 kW | DC shunt | Small water turbine, wind, diesel | 10-50 kg | Battery charging, lighting, communication |
+| Small | 5-50 kW | DC or single-phase AC | Steam engine, diesel engine, water turbine | 100-500 kg | Workshop power, small factory |
+| Medium | 50-500 kW | Three-phase AC alternator | Steam turbine, diesel engine, water turbine | 500-5000 kg | Factory power, village electrification |
+| Large | 500-10,000 kW | Three-phase AC alternator | Steam turbine, large water turbine | 5-50 tonnes | Power station, industrial plant |
+| Power grid | 10-1000+ MW | Turbo-alternator | Steam turbine, gas turbine, large hydro | 100-1000 tonnes | Grid-scale power generation |
+
+Generator output scales roughly as P ∝ D² × L × n × B, where D = rotor diameter, L = rotor active length, n = speed, B = air gap flux density. At a fixed speed (determined by prime mover and frequency requirement), doubling power requires ~41% increase in linear dimensions.
+
+For bootstrap manufacturing, the sweet spot is 10-50 kW three-phase alternators driven by steam engines or water turbines. Below 5 kW, the cost of copper and silicon steel per kW of output rises steeply. Above 500 kW, rotor dynamics (critical speed, vibration) and cooling demands require engineering analysis beyond basic machine shop capability.
+
+Minimum economic scale: a 1 kW DC generator (220V, 1500 RPM) for battery charging, built from salvaged materials, is the smallest unit that produces useful electrical output. Efficiency at this scale is only 60-70%, but it enables electrical lighting and communication.
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| DC generator fails to build up voltage | Loss of residual magnetism | Flash the field: connect a 12V battery to field terminals for 5 seconds with correct polarity. Residual magnetism should restore |
+| DC generator fails to build up voltage | Field circuit open or reversed | Check field winding continuity with multimeter; verify field connections match the residual polarity (reverse field leads if voltage builds with opposite polarity) |
+| AC alternator voltage too low | Field excitation too low or speed too low | Increase field current (adjust field rheostat); verify prime mover speed is at rated RPM (frequency = pole pairs × RPM / 60) |
+| AC alternator voltage fluctuating | Governor hunting on prime mover | Adjust governor sensitivity; check fuel supply is steady; verify the engine is not misfiring |
+| Sparking at commutator (DC) | Brushes not on neutral plane, or worn brushes | Shift brush holder to minimize sparking under load; replace brushes worn below 50% original length; check that mica between segments is undercut 1-1.5 mm |
+| Excessive bearing temperature | Misalignment, insufficient lubrication, or belt tension too high | Realign generator to prime mover within 0.05 mm at coupling; check bearing grease; reduce belt tension to allow 10-15 mm deflection at mid-span |
+| High vibration | Rotor imbalance or coupling misalignment | Balance rotor (static then dynamic); check coupling alignment with dial indicator; inspect bearings for damage |
+| Overheating under load | Winding insulation breakdown or excessive load | Measure current on each phase — must not exceed nameplate rating. If within rating, check winding insulation resistance. Clean ventilation passages |
+| Voltage collapse under load (DC) | Armature reaction shifting neutral plane | Interpoles (commutating poles) may be needed for loads above 50% rating; reduce load to within commutation capability |
+
+## Quality Control
+
+- **Insulation resistance test**: 500V megger between windings and frame, between armature and field (DC), or between phases and neutral (AC). Minimum 10 MΩ cold, 1 MΩ hot. Record values before first run and after each maintenance interval. A declining trend indicates insulation degradation — plan rewind before failure.
+- **Winding resistance balance**: Four-wire resistance measurement of each phase winding (AC) or each parallel path (DC). Maximum imbalance: 2%. Greater imbalance indicates a shorted turn, poor joint, or incorrect winding.
+- **No-load saturation curve**: Drive the generator at rated speed. Vary field current from zero to 120% of rated. Record output voltage at each step. The curve should be smooth and match design calculations. Discontinuities indicate a winding fault.
+- **Load test**: Apply rated load for 2-4 hours. Monitor winding temperature (resistance method), bearing temperature (thermocouple or infrared), and output voltage/current. Verify temperature rise stays within insulation class limits (Class B: 80°C rise by resistance; Class F: 105°C).
+- **Phase balance (three-phase)**: Measure voltage and current on all three phases at rated load. Maximum voltage imbalance: 2%. Maximum current imbalance: 5%. Greater imbalance causes overheating in the most heavily loaded phase.
+- **Commutator condition (DC)**: Visual inspection monthly — surface should be smooth, chocolate-brown (copper oxide film is normal and desirable). Grooving, threading, or copper drag indicates brush problems. Bar marking (alternating light and dark segments) indicates commutation issues — adjust brush position or check interpole connections.
+
+## Variations and Alternatives
+
+### Permanent Magnet Generator (Magneto)
+
+Uses permanent magnets (ferrite, Alnico, or rare-earth) instead of electromagnets for the field. No field winding, no brushes for field excitation, no external power source needed. Output voltage varies with speed — requires an external voltage regulator or is used only for battery charging through a rectifier. Common in small wind turbines and micro-hydro installations where simplicity and reliability outweigh the need for regulated voltage. Efficiency: 70-85%. Power range: 0.1-10 kW. Limitation: permanent magnets lose strength at high temperature (>200°C for ferrite, >350°C for Alnico).
+
+### Homopolar Generator (Faraday Disk)
+
+A conducting disk rotates in a magnetic field, producing low-voltage, high-current DC output. The simplest generator conceptually but produces only 0.1-2V at very high current (thousands of amps). Used for electroplating and aluminum smelting where high DC current is needed. Low efficiency (40-60%) due to brush losses at high current. Primarily a curiosity for bootstrap purposes — the conventional commutator generator is more practical for general power generation.
+
+### Induction Generator
+
+A standard AC induction motor driven above synchronous speed by a prime mover becomes a generator. No separate excitation needed — it receives reactive power from the grid or from capacitor banks. Simplest and cheapest generator for grid-connected applications. Cannot operate standalone without external reactive power supply. Efficiency: 85-93%. Used in wind turbines and small hydro plants connected to an existing grid. For isolated (off-grid) operation, capacitor self-excitation is possible but voltage regulation is poor — suitable only for fixed-speed, fixed-load applications.
+
 ## Safety
 
-- **Electrical shock**: Generator output at 220V+ is lethal. Ground the generator frame. De-energize before working on connections. Use insulated tools.
-- **Rotating machinery**: Rotors at 1500-3600 RPM have enormous kinetic energy. Guard all rotating parts. Loose clothing, hair, or tools can be caught with fatal results.
-- **Carbon dust**: Commutator brush wear produces conductive carbon dust that accumulates inside the generator. Clean regularly to prevent short circuits and fire.
-- **Overheating**: Overloaded generators overheat windings, degrading insulation. Monitor winding temperature and never exceed rated current.
+- **Electrical shock**: Generator output at 220V+ is lethal. Ground the generator frame to earth with a copper grounding rod (≥2.5 m deep in soil, resistance to ground <25 Ω). De-energize and lock out/tag out before working on connections. Use insulated tools. A 220V shock across the chest causes ventricular fibrillation at currents as low as 30 mA.
+- **Rotating machinery**: Rotors at 750-3600 RPM have enormous kinetic energy. Guard all rotating parts. Loose clothing, hair, or tools caught in the shaft or coupling cause severe injury. A 50 kg rotor at 1500 RPM stores ~31 kJ of rotational energy — sufficient to cause fatal injury if a piece breaks free.
+- **Carbon dust**: Commutator brush wear produces conductive carbon dust that accumulates inside the generator. Carbon dust on windings causes short circuits and fire. Blow out carbon dust with clean, dry compressed air monthly. Do not use compressed air near energized equipment.
+- **Overheating**: Overloaded generators overheat windings, degrading insulation (every 10°C above rated temperature halves insulation life — the "10°C rule"). Monitor winding temperature and never exceed rated current. Install thermal overload protection.
+- **Short circuit**: Generator short-circuit current can be 5-10× rated current, causing rapid overheating and potential fire. Install circuit breakers rated for the available short-circuit current. Never bypass or defeat protective devices.
 
-## See Also
+## References
 
 - [Electricity Generation](electricity.md) — electrical fundamentals, wire drawing, and power systems
 - [Electric Motor](electric-motor.md) — reverse of generators, converting electricity to mechanical power
@@ -173,4 +227,4 @@ DC generators use a commutator (split copper ring with carbon brushes) to revers
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

@@ -230,4 +230,6 @@ This capability is distinct from waste disposal. Ceramic waste that cannot be re
 - [Glass Recycling](../glass/glass-recycling.md) — parallel recovery domain for glass
 - [Waste Management](../ehs/waste-management.md) — disposal of non-recyclable ceramic waste
 
-[← Back to Ceramics & Refractories](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*

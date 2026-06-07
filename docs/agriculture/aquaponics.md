@@ -399,6 +399,6 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 - [Foundations → Agriculture](../foundations/food-agriculture.md) — basic cultivation knowledge
 - [Food Processing](../food-processing/index.md) — downstream processing of aquaponic fish and vegetables
 
+---
 
-
-[← Back to Agriculture](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*

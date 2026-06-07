@@ -168,6 +168,47 @@ Current efficiency is reduced from 100% because some H⁺ and OH⁻ ions leak ba
 
 Building a SEM Tech BMED acid regeneration system requires the following materials, organized by subsystem:
 
+| Material | Quantity | Source/Notes |
+|----------|----------|--------------|
+| **Membrane materials** | | |
+| Strong acid cation exchange resin (sulfonic acid type) | 5-10 kg (~100 g/m² membrane) | See [SEM Tech](sem-tech.md); 50 m² CEM for 100-cell stack |
+| Strong base anion exchange resin (quaternary ammonium type) | 5-10 kg (~100 g/m² membrane) | See [SEM Tech](sem-tech.md); 50 m² AEM for 100-cell stack |
+| PVC or CPVC resin (powder or pellets) | 1-3 kg (~20 g/m² in binder) | Binder matrix for all membrane types |
+| Organic solvent (THF, MEK, or cyclohexanone) | 10-20 L (~200 mL/m²) | For dissolving PVC binder; THF preferred |
+| Water-splitting catalyst (FeCl₃, CrCl₃, or TiO₂ nanoparticles) | 50-500 g (0.1-1.0 mg/cm²) | Bipolar membrane junction; optional but recommended |
+| Fiberglass mesh or fumed silica | As needed | Optional mechanical reinforcement |
+| **Stack hardware** | | |
+| PVC or CPVC sheet (3-6 mm thick) | 20-50 m² | Spacer gaskets and cell frames; 3 spacers per cell triple |
+| PVC cement (solvent welding adhesive) | 1-3 L | Sealing spacer gasket edges |
+| Graphite plates (5-10 mm thick) | 2 units (anode + cathode) | Electrodes; coated titanium mesh alternative for longer life |
+| Polypropylene or polyethylene mesh screen (0.5-1.5 mm thick) | 150-450 sheets | Flow spacers for acid, base, and salt compartments |
+| Threaded steel tie rods (8-12 mm) with nuts and washers | 4-8 rods | Stack compression; cross-pattern torquing to 0.5-2.0 MPa |
+| Thick PVC or steel plate (15-25 mm) | 2 units | End plates |
+| Rubber or neoprene gasket material | 2-4 sheets | Electrode compartment seals |
+| **Plumbing and tanks** | | |
+| HDPE pipe and fittings | 50-100 m | Acid and base product lines; resists HCl and NaOH to 4 mol/L |
+| PVC pipe and fittings | 30-60 m | Salt feed and depleted salt lines |
+| HDPE tanks | 4 units | Acid product, base product, salt feed, depleted salt storage |
+| PTFE (Teflon) or PVDF gaskets and seals | As needed | High-acid-concentration connections |
+| PVC ball valves or PTFE-lined valves | 6-12 units | Flow control on each loop |
+| **Pre-treatment** | | |
+| Polypropylene cartridge filter elements (5-10 µm) | 5-10 spares | Solids removal from spent acid feed |
+| Granular activated carbon (GAC) | 10-25 kg | Organic contaminant reduction |
+| Hydrogen peroxide (H₂O₂) or sodium hypochlorite | Optional | Fe²⁺ pre-oxidation before precipitation |
+| Lime (Ca(OH)₂) or NaOH | Optional | pH-adjusted metal precipitation from feed |
+| **Chemical handling** | | |
+| NaOH or KOH (initial base compartment fill) | 0.5 mol/L solution, ~50-200 L | Provides initial conductivity |
+| HCl or H₂SO₄ (initial acid compartment fill) | 0.5 mol/L solution, ~50-200 L | Matching the acid being regenerated |
+| NaCl or process salt (initial salt fill) | As needed | Salt compartment, if needed for startup |
+| Cleaning HCl solution (2-4%) | 50-100 L per cleaning cycle | Scale removal; circulate 30-60 min |
+| Cleaning NaOH solution (1-2%) | 50-100 L per cleaning cycle | Organic fouling removal; circulate 30-60 min |
+| **Electrical** | | |
+| DC power supply (0-600V, 0-500A) | 1 unit | Thyristor rectifier or IGBT-based |
+| Electrical cable (DC-rated) | Sized for 200-500A service | Consult ampacity tables |
+| Terminal lugs and connectors (tinned copper) | As needed | Corrosion-resistant connections |
+| DC-rated fuses or circuit breakers | 1-2 units | Overcurrent protection |
+| Grounding cable and ground rod | 1 set | Essential — stack operates at 100-600V DC |
+
 **Membrane materials** (see [SEM Tech](sem-tech.md) for manufacturing details):
 - Strong acid cation exchange resin beads (sulfonic acid type)
 - Strong base anion exchange resin beads (quaternary ammonium type)
@@ -456,6 +497,6 @@ At the projected SEM Tech membrane cost of $10-15/m² (including bipolar membran
 - [Electrolysis](electrolysis.md) -- industrial electrolysis processes
 - [Alkali Production](alkalis.md) -- NaOH production and uses
 
+---
 
-
-[← Back to Chemistry](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

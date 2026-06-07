@@ -351,6 +351,6 @@ Higher switching frequency shrinks magnetic components but increases switching l
 - **[Photovoltaics](../energy/index.md)**: solar inverters that convert DC to grid-compatible AC
 - **[Energy Storage](../energy/storage.md)**: battery systems that power electronics charge and discharge
 
+---
 
-
-[← Back to Electronics](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*

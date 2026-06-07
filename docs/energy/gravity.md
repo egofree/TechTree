@@ -300,6 +300,6 @@ The fundamental hydraulic power formula P = η × ρ × g × Q × H applies to e
 - [Energy Storage](storage.md) — Overview of energy storage technologies
 - [Wind Power](wind.md) — Another renewable energy source
 
+---
 
-
-[← Back to Energy](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

@@ -277,5 +277,6 @@ Indigo is the most labor-intensive dye per unit color — roughly 4-5 kg of fres
 - [Chemistry](../chemistry/index.md) — alum, copper sulfate, and other mordant production
 - [Plants & Botanical Resources](./index.md) — species catalog and botanical knowledge
 
+---
 
-[← Back to Plants](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*

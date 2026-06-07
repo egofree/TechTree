@@ -28,7 +28,7 @@ These 13 items apply to every expanded capability file, regardless of format var
 - Look at the first blockquote in the file (lines starting with `>`).
 - Confirm each field is present: `> **Node ID**:`, `> **Domain**:`, `> **Dependencies**:`, `> **Enables**:`, `> **Timeline**:`, `> **Outputs**:`, `> **Critical**:`.
 - Confirm no YAML frontmatter exists (no `---` delimited block at the top with `key: value` pairs).
-- Confirm the Domain field links to the domain index (e.g., `[Domain Name](./index.md)`).
+- Confirm the Domain field links to the domain index (e.g., `[Domain Name](../spec/README.md)`).
 
 **Pass**: All seven fields present, blockquote format, no YAML frontmatter.
 **Fail**: Missing field(s), YAML frontmatter present, or wrong format.
@@ -169,7 +169,7 @@ These 13 items apply to every expanded capability file, regardless of format var
 **Requirement**: The file ends with the standard footer navigation link in this exact format:
 ```
 ---
-*Part of the [Bootciv Tech Tree](../index.md) • [Domain Name](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Domain Name](../spec/README.md) • [All Domains](../index.md)*
 ```
 
 **How to verify**:

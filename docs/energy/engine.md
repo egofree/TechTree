@@ -3,7 +3,7 @@
 > **Node ID**: energy.engine
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.fuels`](fuels.md), `metals`, [`petroleum.refining`](../petroleum/refining.md)
-> **Enables**: `energy.electricity.power-systems`, [`marine.propulsion`](../marine/propulsion.md), `transport`, [`transport.aviation`](../transport/aviation.md)
+> **Enables**: [`energy.electricity.power-systems`](electricity.md), [`marine.propulsion`](../marine/propulsion.md), `transport`, [`transport.aviation`](../transport/aviation.md)
 > **Timeline**: Years 20-50
 > **Outputs**: internal_combustion_engines, gasoline_engines, diesel_engines, mechanical_power
 > **Critical**: No — engines enable motorized transport and portable power but are not on the critical path to semiconductor manufacturing
@@ -122,7 +122,7 @@ Knock, or detonation, is the primary limit on Otto cycle performance. Normal com
 **Prerequisites**:
 - [Machine tools](../machine-tools/iterative-bootstrap.md): lathe, mill, drill press, cylindrical grinder, surface grinder, honing equipment
 - [Precision metrology](../measurement/precision-metrology.md): micrometers, bore gauges, dial indicators
-- [Metal casting](../machine-tools/casting.md) for cylinder block and head
+- [Metal casting](../metals/casting.md) for cylinder block and head
 - [Steel forging](../metals/iron-steel.md) for crankshaft and connecting rods
 - [Spark ignition system](electricity.md): battery, ignition coil, distributor, spark plugs
 - [Gasoline fuel](fuels.md) or producer gas with carburetor modification
@@ -430,7 +430,7 @@ The range of applications for heat engines reflects the wide spectrum of power d
 
 **Diesel-electric transmission**: Many applications that need variable-speed mechanical output from a fixed-speed diesel engine use a diesel-electric transmission. The diesel engine drives a generator, and the electrical output powers electric motors that drive the load. This arrangement is standard in locomotives, ships with diesel-electric propulsion, and large earthmoving equipment. The diesel engine runs at its most efficient speed regardless of vehicle speed, and the electric motors provide high torque at low speed without the complexity of a mechanical multi-speed transmission. The efficiency penalty of converting mechanical power to electrical and back (typically 85-90% round-trip) is offset by keeping the diesel engine in its optimal operating range.
 
-**Cogeneration (CHP)**: When an engine drives a generator, 55-75% of the fuel energy becomes waste heat in the exhaust and cooling system. Combined heat and power (CHP) systems capture this waste heat for space heating, water heating, industrial process heat, or absorption refrigeration. A diesel generator with CHP can utilize 75-85% of the fuel energy, compared to 35-45% for electricity generation alone. Gas turbines are especially attractive for CHP because the exhaust temperature (450-600°C) is high enough to drive industrial processes directly (drying, steam generation, absorption chillers). In a bootstrap economy where every unit of fuel energy matters, CHP significantly improves the return on scarce petroleum or biomass resources.
+**Cogeneration (CHP)**: When an engine drives a generator, 55-75% of the fuel energy becomes waste heat in the exhaust and cooling system. Combined heat and power (CHP) systems capture this waste heat for space heating, water heating, industrial process heat, or absorption refrigeration. A diesel generator with CHP can use 75-85% of the fuel energy, compared to 35-45% for electricity generation alone. Gas turbines are especially attractive for CHP because the exhaust temperature (450-600°C) is high enough to drive industrial processes directly (drying, steam generation, absorption chillers). In a bootstrap economy where every unit of fuel energy matters, CHP significantly improves the return on scarce petroleum or biomass resources.
 
 
 ## Selection Guide
@@ -562,7 +562,7 @@ Understanding how engines fail is essential for design, maintenance, and diagnos
 - [Aviation](../transport/aviation.md) — Aircraft engine requirements
 - [Lubricants](../chemistry/lubricants.md) — Engine oil and lubrication
 - [Bearings, Abrasives & Cutting Tools](../machine-tools/bearings-abrasives.md) — Bearing materials and design
-- [Metal Casting](../machine-tools/casting.md) — Casting engine blocks and heads
+- [Metal Casting](../metals/casting.md) — Casting engine blocks and heads
 - [Machining](../machine-tools/machining.md) — Precision machining for engine components
 - [Precision Metrology](../measurement/precision-metrology.md) — Measurement instruments for engine assembly
 
@@ -584,6 +584,6 @@ Understanding how engines fail is essential for design, maintenance, and diagnos
 - **Scavenging**: The process of clearing exhaust gases from the cylinder and replacing them with fresh charge. In four-stroke engines, the exhaust stroke handles this. In two-stroke engines, the incoming fresh charge pushes the exhaust out through the open ports.
 - **Overspeed**: Engine speed exceeding the design limit. In diesel engines, overspeed occurs if the load is lost and the governor fails. In gas turbines, overspeed occurs on load rejection. Overspeed causes catastrophic mechanical failure from centrifugal forces exceeding the design strength of rotating components.
 
+---
 
-
-[← Back to Energy](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

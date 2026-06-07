@@ -6,7 +6,16 @@
 > **Enables**: [High-Purity Chemicals](high-purity-chemicals.md), [Analytical Verification](analytical-verification.md)
 > **Timeline**: Years 40-70
 > **Outputs**: ultra_pure_water
+> **Critical**: Yes — UPW is the most consumed material in semiconductor fabs; a single fab uses 5-10 million liters per day
 > **Tags**: materials=[water, chemicals], era=semiconductor, critical
+
+## Prerequisites
+
+UPW production requires multi-stage industrial water treatment:
+
+- [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md) — reverse osmosis, electrodeionization, and advanced pretreatment
+- [Polymers](../polymers/index.md) — PTFE, PFA, and PVDF piping and membrane materials
+- [Energy](../energy/index.md) — continuous power for high-pressure RO pumps (400-800 psi) and UV systems
 
 Ultra-pure water (UPW) is the single most consumed material in semiconductor fabrication — a typical wafer fab uses 5-10 million liters per day. UPW must achieve **18.2 MΩ·cm resistivity** at 25°C (theoretical maximum for pure water), with total organic carbon (TOC) below 1 ppb, dissolved oxygen below 5 ppb, particles smaller than 0.05 μm removed, and metallic impurities at sub-ppt concentrations. A single 0.1 μm particle on a wafer can destroy an entire die at advanced nodes.
 
@@ -224,4 +233,5 @@ Continuous inline monitoring is essential for UPW quality assurance. The system 
 - [Cleanrooms](../photolithography/cleanrooms.md) — contamination-controlled environments for wafer processing
 - [Solvents](../chemistry/solvents.md) — industrial solvent production (predecessor to electronic-grade)
 
-[← Back to Ultra-Pure Materials](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Ultra-Pure Materials](./index.md) • [All Domains](../index.md)*

@@ -8,6 +8,10 @@
 > **Outputs**: larger_wafers, finer_features, higher_yield
 > **Critical**: No — describes scaling progression rather than a specific manufacturing capability
 
+## Prerequisites
+
+- [Core Fab Processes](../photolithography/fab-processes.md) — baseline semiconductor manufacturing capability
+
 ## Continuous Scaling
 
 The progression from the Photolithography stage's first ICs to the VLSI Scaling stage's complex chips follows Moore's Law-like scaling — each generation doubles transistor count, shrinks features, and improves yield.
@@ -301,6 +305,39 @@ Each masking layer adds independently to defect density: D₀_total = N_layers �
 | Power density exceeds 100 W/cm² at 28 nm — thermal throttling in production | Dennard scaling broken — Vdd stalled at 0.8-1.0V while transistor density still doubles per node; planar MOSFETs leak excessively | Implement clock gating to reduce dynamic power 20-50%; use multi-Vt libraries (high-Vt for non-critical paths); adopt FinFET architecture for 50% power reduction at equivalent performance |
 | Gate-last process defects in high-κ metal gate at 45 nm | Poly-Si removal after source/drain anneal damages HfO₂ dielectric; metal gate work function not properly tuned for NMOS (~4.1 eV) vs PMOS (~5.2 eV) | Optimize selective poly-Si etch chemistry for >100:1 selectivity to HfO₂; verify two distinct metal stacks for NMOS and PMOS work function targets; check ALD HfO₂ thickness uniformity (±0.1 nm shifts Vth by ~10-20 mV) |
 
+## Decision and Implementation Framework
+
+This article describes the scaling progression as a conceptual roadmap. The per-section Strengths/Weaknesses blocks above detail trade-offs for each technology transition.
+
+### C1: Decision Criteria
+
+Transition to the next technology node when:
+
+- **Yield at current node exceeds 80%** — mature process provides revenue to fund next-node development.
+- **Capital is available** — each node transition costs $1-10B in new equipment. A 300 mm fab at 65 nm costs $3-5B.
+- **Design demand exists** — transition only when chip designs require smaller features. A 130 nm fab producing 90% yield at 350 nm features is more profitable than a 65 nm fab at 30% yield.
+- **Supply chain is ready** — resist chemistry, mask making, metrology, and packaging must all advance simultaneously.
+
+### C2: Implementation Steps
+
+1. **10 μm to 3 μm**: Acquire projection aligner. Upgrade cleanroom to Class 10,000. Establish basic process control (etch rate, implant dose monitoring).
+2. **3 μm to 1 μm**: Invest in step-and-repeat stepper with interferometric stage alignment. Switch to dry etching for critical layers. Upgrade cleanroom to Class 1,000.
+3. **1 μm to 350 nm**: Deploy KrF excimer laser (248 nm). Adopt chemically amplified resists. Implement ion implantation. Add CMP capability. Cleanroom to Class 100.
+4. **350 nm to 130 nm**: Deploy ArF excimer laser (193 nm). Implement shallow trench isolation. Transition to copper interconnects. Begin 300 mm wafer transition.
+5. **130 nm to 65 nm**: Implement immersion lithography. Adopt high-κ/metal gate. Deploy ALD for gate dielectric. Full 300 mm automation.
+6. **Below 65 nm**: Multiple patterning (SADP/SAQP), FinFET transistors, advanced stress engineering. Each node requires 2-3 new capabilities beyond the previous.
+
+### C3: Node Transition Cost-Benefit Trade-offs
+
+| Transition | New Capabilities Required | Capital Cost | Time to 80% Yield | Transistor Cost Reduction |
+|---|---|---|---|---|
+| 10→3 μm | Projection aligner, basic process control | $10-50M | 1-2 years | ~5× |
+| 3→1 μm | Stepper, RIE, ion implant | $50-200M | 2-3 years | ~5× |
+| 1→0.35 μm | KrF laser, CMP, CAR resist | $200M-1B | 2-3 years | ~4× |
+| 0.35→0.13 μm | ArF laser, Cu damascene, STI | $1-3B | 2-3 years | ~4× |
+| 0.13→65 nm | Immersion, high-κ/metal gate, ALD | $3-5B | 2-3 years | ~3× |
+| 65→7 nm | FinFET, SAQP, EUV (optional) | $5-15B | 3-5 years | ~3× |
+
 ## See Also
 
 - [Core Fab Processes](../photolithography/fab-processes.md) — baseline semiconductor fabrication
@@ -310,4 +347,5 @@ Each masking layer adds independently to defect density: D₀_total = N_layers �
 - [EDA Design](eda-design.md) — VLSI design automation
 - [Vacuum Systems](vacuum-systems.md) — vacuum requirements for scaling
 
-[← Back to VLSI Scaling](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*

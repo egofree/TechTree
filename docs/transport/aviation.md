@@ -191,7 +191,7 @@ Without propulsion technology, civilization is limited to ground and water trans
 - I-beam spar: two flanges (top and bottom, bearing the bending loads) separated by a web (bearing shear loads). Flange area sized by maximum bending moment: M = (load × span²) / 8 for a uniformly loaded beam. For a 10 m wing spar carrying 2000 N/m lift load: M = 2000 × 10² / 8 = 25,000 N·m. Required section modulus Z = M / σ_allowable = 25,000 / (10 × 10⁶) = 0.0025 m³ (using allowable stress of 10 MPa with safety factor applied to the 75 MPa ultimate).
 - Box spar: two vertical plywood webs between upper and lower spruce cap strips. The plywood web carries shear; the cap strips carry bending. Box spars resist torsion better than I-beams because the closed cross-section has much higher torsional stiffness. Glue joints between web and caps are critical: any gap or poor glue bond creates a stress concentration and potential failure origin.
 
-## Safety Concerns
+## Safety
 
 - **Engine failure in flight**: Plan glide approaches (identify emergency landing spots). Aircraft must be able to glide without engine (glide ratio 8:1 typical for ultralight — at 50 m altitude, can glide 400 m to landing).
 - **Structural failure**: Do not exceed design load limits (typically +4g / -2g). Avoid steep spirals, high-speed dives, abrupt control inputs. Progressive flight envelope expansion.
@@ -243,4 +243,6 @@ Without propulsion technology, civilization is limited to ground and water trans
 - [Light Aircraft](light-aircraft.md) — specific ultralight construction details
 - [Navigation](../marine/navigation.md) — aerial and marine navigation methods
 
-[← Back to Transport](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*

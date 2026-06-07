@@ -264,4 +264,6 @@ A 2-horse draft team requires 2-3 hectares of productive pasture or 5,500-7,300 
 - [Transport](../transport/index.md) — roads, railways, and shipping
 - [Agriculture Index](../agriculture/index.md) — plowing and cultivation with draft animals
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

@@ -4,6 +4,7 @@
 > **Domain**: [Environmental Health & Safety](./index.md)
 > **Dependencies**: None (root capability)
 > **Enables**: None (leaf capability)
+> **Critical**: No — waste management reduces environmental impact but is not a prerequisite for core industrial capabilities
 > **Timeline**: Years 30-70
 > **Outputs**: acid_waste_treatment, solvent_recovery, heavy_metal_precipitation, effluent_monitoring
 
@@ -300,6 +301,15 @@ Proper segregation at the source is critical for effective treatment:
 | TMAH in effluent exceeds 10 mg/L limit | Biological SBR reactor upset — TMAH-degrading bacteria population crashed from shock loading | Reduce TMAH feed rate to reactor; verify Fenton oxidation backup system (H₂O₂ + Fe²⁺) is available; check reactor temperature and dissolved oxygen; allow 2-4 weeks for bacteria population recovery; never discharge untreated TMAH (LD₅₀ 25-32 mg/kg) |
 | Daily composite ICP-MS shows arsenic above 0.1 mg/L | Scrubber blowdown from hydride gas abatement mixed into general acid waste instead of segregated treatment | Segregate toxic gas scrubber blowdown from general acid waste; treat arsenic-bearing stream with dedicated heavy metal precipitation; verify waste segregation piping — color-code and label all collection tanks; never mix scrubber blowdown with non-fluoride acid waste |
 
+## Safety
+
+Waste treatment operators handle concentrated chemical streams that are often more hazardous than the original process chemicals:
+
+- **HF waste handling during fluoride treatment**: Collected HF waste contains 1,000-50,000 ppm fluoride (as F⁻) at pH <1. Transferring from collection tanks to the precipitation reactor generates HF vapor above 10 ppm (3× PEL). Enclosed transfer pumps with vapor return lines are mandatory — never pour or bucket-transfer HF waste. CaCl₂ addition to the reaction tank is exothermic (ΔT up to 15°C for concentrated batches) and releases HF vapor during the initial mixing phase. Reactor must be enclosed with LEV at 1.0 m/s capture velocity. Operator wears full-face respirator with acid gas cartridge, double neoprene gloves (0.8 mm), and acid-resistant apron during reagent addition.
+- **H₂S release during sulfide precipitation**: Adding Na₂S or NaHS to precipitate heavy metals generates hydrogen sulfide gas if pH drops below 7. H₂S IDLH is 100 ppm; olfactory fatigue occurs at 50-100 ppm, meaning the worker stops smelling the gas at precisely the concentrations that are most dangerous. Continuous H₂S monitor in the treatment area with alarm at 10 ppm and evacuation at 50 ppm. Emergency ventilation (1000 CFM minimum) activates automatically on H₂S alarm. Never enter a sulfide treatment area where pH is unverified — a single batch of acid waste accidentally routed to the sulfide tank can drop pH to 2-3 and release lethal concentrations of H₂S within minutes.
+- **Caustic and acid burns during neutralization**: 25-50% NaOH solution (pH 14) causes deep chemical burns — pain may be delayed 10-15 minutes for dilute caustic, giving a false sense of safety. Mixing concentrated acid waste with concentrated NaOH releases up to 2 MJ/kg of NaOH consumed, potentially boiling the reaction mixture and splashing caustic. Two-stage neutralization with temperature monitoring prevents thermal runaway — if reactor temperature exceeds 50°C, reduce acid feed rate immediately. Emergency deluge shower within 10 seconds travel of every neutralization station.
+- **Contaminated PPE and clothing disposal**: Gloves, aprons, and chemical suits used during waste handling carry residual HF, heavy metals, and caustic on their exterior surface. Removing contaminated PPE without the proper doffing sequence transfers waste chemicals to the worker's skin. Doffing order: remove outer gloves inside-out, then apron, then chemical suit rolling outward, then inner gloves. All used PPE from fluoride treatment goes into sealed, labeled hazardous waste bags — CaF₂-contaminated neoprene gloves placed in general trash have caused garbage truck fires from residual HF reactions with metals. Spill kits at waste treatment stations must include spare PPE so operators are never tempted to reuse contaminated gear.
+
 ## See Also
 
 - [Chemical Safety & Toxicology](chemical-safety.md) — Properties of chemicals in waste streams
@@ -309,6 +319,5 @@ Proper segregation at the source is critical for effective treatment:
 - [Sanitation](../health/sanitation.md) — General wastewater treatment principles
 - [Semiconductor Chemicals](../chemistry/semiconductor-chemicals.md) — Chemical supply chain
 
-
-
-[← Back to EHS](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

@@ -8,6 +8,15 @@
 > **Outputs**: hepa_filters, ulpa_filters, laminar_flow_systems, fan_filter_units
 > **Critical**: Yes — HEPA/ULPA filtration removes sub-micron particles from air supply; without it, no cleanroom can achieve even ISO Class 8
 
+## Prerequisites
+
+HEPA/ULPA filter manufacturing and testing requires specific material capabilities:
+
+- [Glass manufacturing](../glass/index.md) — borosilicate glass fiber production for filter media
+- [Polymers and adhesives](../polymers/index.md) — acrylic binders, polyurethane sealants, and gasket materials
+- [Metals production](../metals/index.md) — aluminum for filter frames, galvanized steel for housings
+- [Machine tools](../machine-tools/index.md) — precision manufacturing for fan motors, housing tolerances, and test equipment
+- [Measurement](../measurement/index.md) — photometers and particle counters for filter integrity testing
 
 High-efficiency particulate air (HEPA) and ultra-low penetration air (ULPA) filters are the core contamination removal technology in clean rooms. Without effective filtration, no clean room can achieve even ISO 8 classification. A single HEPA filter removes 99.97% of particles at the most penetrating particle size (MPPS) of 0.3 μm; ULPA extends this to 99.999% at 0.12 μm. Modern semiconductor fabrication at 5 nm nodes requires particle control 10-100× smaller than a single transistor gate — demanding ULPA filtration and laminar flow discipline simultaneously.
 
@@ -282,6 +291,5 @@ Choosing between HEPA and ULPA depends on the target ISO class and the sensitivi
 | Photometer | Leak scanning | 0.001% sensitivity minimum |
 | Differential pressure gauge | Filter loading monitor | 0-1000 Pa range, ±2% accuracy |
 
-
-
-[← Back to cleanrooms](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Clean Room Technology](./index.md) • [All Domains](../index.md)*

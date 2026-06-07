@@ -29,7 +29,7 @@ The gap between a workable design and a buildable design is often the binding co
 - [Acids](../chemistry/acids.md)
 - [Steam Power](../energy/steam-power.md)
 - [Water Turbines](../energy/water-turbines.md)
-- [Casting](../machine-tools/casting.md)
+- [Casting](../metals/casting.md)
 - [Blast Furnace](../metals/blast-furnace.md)
 - [Rope Making](../textiles/rope-making.md)
 - [Aviation](../transport/aviation.md)

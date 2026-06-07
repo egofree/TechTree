@@ -273,4 +273,6 @@ Track egg weight (target 150-200 g for standard breeds, 140-160 g for Chinese ge
 - [Poultry Turkeys](poultry-turkeys.md) — large poultry for meat
 - [Soil Management](../agriculture/soil-management.md) — weeder geese for weed control
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

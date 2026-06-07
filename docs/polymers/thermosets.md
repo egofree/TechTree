@@ -4,6 +4,8 @@
 > **Domain**: [Polymers](./index.md)
 > **Dependencies**: [`chemistry`](../chemistry/index.md), [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`machine-tools`](../machine-tools/index.md)
 > **Enables**: [`chemistry.packaging-testing`](../chemistry/packaging-testing.md), [`electronics.assembly`](../electronics/assembly.md), [`photolithography.resists-masks`](../photolithography/resists-masks.md), [`polymers.composites`](composites.md)
+> **Timeline**: Years 10-50
+> **Outputs**: phenolic_resins, epoxy_resins, polyester_resins, polyurethane_foam, FR4_laminate
 > **Critical**: No — thermosets are valuable but alternatives (thermoplastics, ceramics, metals) exist for most applications
 
 
@@ -14,10 +16,44 @@ The major thermoset families — phenolic (Bakelite), epoxy, unsaturated polyest
 ## Prerequisites
 
 - [Chemistry](../chemistry/index.md) — organic synthesis and polymerization fundamentals
-- [Petroleum alternatives](../chemistry/petroleum-alternatives.md) — feedstock chemicals for thermoset resins
+- [Petroleum alternatives](../chemistry/petroleum-alternatives.md) — benzene, propylene, methanol, and butane feedstocks for monomer synthesis (see Feedstock Synthesis section below)
+- [Acids](../chemistry/acids.md) — sulfuric acid (cumene process, polyester condensation), hydrochloric acid (novolac catalyst, BPA synthesis), nitric acid (TDI production)
+- [Electrolysis](../chemistry/electrolysis.md) — chlorine production for epichlorohydrin and phosgene synthesis
 - [Machine tools](../machine-tools/index.md) — molds, presses, and processing equipment
 - [Glass fibers](../glass/fibers.md) — fiberglass reinforcement for polyester composites
 - [Thermoplastics](thermoplastics.md) — complementary polymer processing knowledge
+
+
+## Feedstock Synthesis
+
+Thermoset resin production requires six key monomers. Each has a synthesis path from earlier bootstrap capabilities:
+
+| Monomer | Formula | Source Route | Bootstrap Dependency |
+|---------|---------|-------------|---------------------|
+| Phenol | C₆H₅OH | Cumene process: benzene + propylene → cumene → cumene hydroperoxide → phenol + acetone | [Petroleum cracking](../chemistry/petroleum-alternatives.md) |
+| Formaldehyde | CH₂O | Methanol oxidation over silver or iron-molybdenum oxide catalyst at 300-650°C | [Fuels](../energy/fuels.md) |
+| Bisphenol A | (CH₃)₂C(C₆H₄OH)₂ | Phenol + acetone (1:1 molar) + HCl or ion-exchange resin catalyst at 40-80°C. Yield: 80-95% | [Acids](../chemistry/acids.md) |
+| Epichlorohydrin | C₃H₅ClO | Propylene + Cl₂ → allyl chloride → epichlorohydrin via hypochlorination | [Electrolysis](../chemistry/electrolysis.md) for chlorine |
+| Maleic anhydride | C₄H₂O₃ | Benzene or n-butane oxidation over V₂O₅ catalyst at 400-500°C | [Petroleum](../chemistry/petroleum-alternatives.md) |
+| Toluene diisocyanate | CH₃C₆H₃(NCO)₂ | Toluene → dinitrotoluene → toluene diamine → phosgenation (COCl₂ at 0-50°C) | [Electrolysis](../chemistry/electrolysis.md) for Cl₂; phosgene from CO + Cl₂ |
+
+### Phenol Synthesis (Cumene Process)
+
+The dominant industrial route (95%+ of world production):
+
+1. **Alkylation**: Benzene + propylene → cumene (isopropylbenzene). Solid phosphoric acid catalyst at 200-250°C, 20-35 atm. Yield: 90-95%.
+2. **Oxidation**: Cumene + O₂ (air) → cumene hydroperoxide (CHP). 110-120°C, 5-7 atm. Conversion: 25-30% per pass.
+3. **Cleavage**: CHP + [H₂SO₄](../chemistry/acids.md) → phenol + acetone. 60-80°C. Molar yield: ~1:1 phenol:acetone. The acetone co-product feeds BPA synthesis.
+
+### Formaldehyde Synthesis
+
+Two industrial routes:
+
+**Silver catalyst**: Methanol vapor + air over silver at 600-650°C. Conversion: 60-75% per pass. Absorbed in water → 37-55% formalin solution.
+
+**Iron-molybdenum oxide**: Methanol + excess air over Fe₂O₃/MoO₃ at 300-400°C. Near-complete conversion (95-98%). Lower temperature, higher yield.
+
+Methanol feedstock: synthesis gas (CO + 2H₂ → CH₃OH over Cu/ZnO/Al₂O₃ at 250°C, 50-100 atm). See [Fuels](../energy/fuels.md).
 
 
 ## Phenol-Formaldehyde (Bakelite)
@@ -118,6 +154,32 @@ Material forms:
 **Urea-formaldehyde (UF)**: Urea (CO(NH₂)₂, produced from ammonia + CO₂ at 135-200°C, 100-200 atm) + formaldehyde at 1:1.5-2.0 molar ratio. Base-catalyzed methylolation at 50-60°C (urea + formaldehyde → methylol urea), then acid-catalyzed condensation to desired molecular weight. Primary use: wood adhesive for plywood, particleboard, and MDF (medium-density fiberboard — the world's largest industrial use of any thermoset resin by volume, >10 million tonnes/year globally). Cured in hot press at 100-120°C, 1-2 MPa, 3-5 minutes per mm board thickness. UF-bonded panels dominate interior-grade engineered wood products due to low cost (~$0.30-0.50/kg resin solids — the cheapest wood adhesive) and fast cure. Water resistance: limited — UF bonds degrade with prolonged moisture exposure (hydrolysis of the methylene ether and methylene bridges in the cured network). For exterior-grade panels, use melamine-fortified UF (MUF, 20-30% melamine replacement) or phenol-formaldehyde.
 
 **Melamine-formaldehyde (MF)**: Melamine (C₃H₆N₆, produced from urea at 350-400°C, 70-150 atm — the high temperature causes urea to decompose and recombine into the triazine ring structure of melamine) + formaldehyde at 1:2-3 molar ratio. Base-catalyzed methylolation at 60-80°C, followed by acid cure. MF resins cure to hard, heat-resistant (continuous service to 150°C — higher than UF at ~80°C), scratch-resistant, and chemical-resistant surfaces. The fully cured melamine network has superior cross-link density compared to UF due to the three amino groups on the melamine ring (each capable of reacting with up to two formaldehyde molecules, giving a theoretical maximum of six methylol groups per melamine molecule vs. four per urea molecule). Applications: decorative laminates (Formica-type countertops — MF-impregnated decorative paper layered over phenolic-impregnated kraft paper core, pressed at 140°C, 7-10 MPa, 30-60 minutes — the MF surface provides scratch and stain resistance while the phenolic core provides structural strength), dinnerware (melamine plates and bowls — compression molded, lightweight, break-resistant, heat resistant to 150°C), textile treatment (permanent press finishes for cotton fabrics — MF resin cross-links cellulose fibers, providing wrinkle resistance).
+
+## Calibration / Verification
+
+### Epoxy Cure Verification
+
+1. **Hardness test**: Press Shore D durometer on cured epoxy surface. Target: Shore D 75-85 for unfilled cured epoxy. Below Shore D 70 indicates undercure — extend post-cure at 100-120°C for 1-2 hours.
+2. **Solvent rub test (ASTM D4752)**: Rub the cured surface with a cotton swab soaked in methyl ethyl ketone (MEK). Make 50 double rubs. Cure is complete when no softening or tackiness is observed and fewer than 50 rubs remove the surface film. Undercured epoxy softens and transfers to the swab within 10-20 rubs.
+3. **Differential scanning calorimetry (DSC)**: Heat a 5-10 mg sample from 25°C to 250°C at 10°C/min. A cured thermoset shows no exothermic peak (no residual cure heat). An exothermic peak indicates incomplete cross-linking — the area under the peak quantifies the remaining cure energy.
+
+### Phenolic Cure Check (Acetone Extraction, ASTM D494)
+
+1. Grind a cured phenolic sample to <200 μm powder. Weigh 2 g (W₁).
+2. Reflux in acetone for 24 hours in a Soxhlet extractor.
+3. Filter, dry the residue at 105°C to constant weight (W₂). Extractable content = (W₁−W₂)/W₁ × 100. Target: <5% for fully cured phenolic. Above 10% indicates insufficient cure time or temperature.
+
+### Polyester Laminate Void Content (Burn Test, ASTM D2584)
+
+1. Cut a 2-3 g sample from the fiberglass laminate. Weigh to 0.001 g (W₁).
+2. Heat in a muffle furnace at 500-600°C for 1-2 hours to burn off resin. Cool in a desiccator. Weigh residue (W₂).
+3. Fiber volume fraction = (W₂/ρ_fiber) / (W₁/ρ_laminate). Void content = 1 − Vf − Vr, where Vr is the resin volume fraction. Target: <2% for structural laminates.
+
+### FR-4 Laminate Inspection
+
+1. **Dielectric withstanding voltage (ASTM D149)**: Apply AC voltage between copper-clad surfaces at 500 V/s ramp rate. FR-4 must withstand >40 kV/mm without breakdown. Below 30 kV/mm indicates voids, delamination, or moisture contamination.
+2. **Water absorption (ASTM D570)**: Immerse a 50 mm × 50 mm sample in distilled water at 23°C for 24 hours. Weight gain must be <0.10%. Above 0.15% indicates porosity or incomplete cure.
+3. **Visual inspection**: Hold the laminate against a strong light source. Dark spots indicate voids; light streaks indicate dry glass (insufficient resin wetting). Both are rejectable defects for PCB-grade FR-4.
 
 ## Safety Data
 
@@ -233,4 +295,6 @@ Ordered by approximate phase availability:
 - [Electronics Assembly](../electronics/assembly.md) — epoxy encapsulation and PCB substrates
 - [Photolithography Resists](../photolithography/resists-masks.md) — phenolic-based photoresists
 
-[← Back to Polymers](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*

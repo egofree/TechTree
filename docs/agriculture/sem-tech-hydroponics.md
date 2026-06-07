@@ -325,6 +325,6 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 - [Energy → Electricity](../energy/electricity.md) — electrical supply for ED stack operation
 - [Electronics](../electronics/index.md) — pH probes, EC sensors, and microcontroller circuits
 
+---
 
-
-[← Back to Agriculture](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*

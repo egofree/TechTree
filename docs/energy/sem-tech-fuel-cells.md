@@ -234,4 +234,6 @@ Fuel cell systems involve several hazards requiring engineered controls:
 - [Electricity Generation](electricity.md) — full range of electricity generation methods
 - [Energy Storage](storage.md) — complementary storage technologies
 
-[← Back to Energy](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

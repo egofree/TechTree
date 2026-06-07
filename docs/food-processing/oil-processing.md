@@ -248,6 +248,6 @@ Rendering melts fat from animal tissues by heating. Two methods:
 - [Chemistry: Soap](../chemistry/soap.md) — tallow and vegetable oil as soap feedstock
 - [Machine Tools](../machine-tools/index.md) — precision machining for expeller screws
 
+---
 
-
-[← Back to Food Processing](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*

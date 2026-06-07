@@ -28,6 +28,7 @@ Capabilities in this domain:
 - **[Photovoltaics](photovoltaics.md)** — Solar photovoltaic power from p-n junction cells through module assembly to grid-connected systems. Monocrystalline ~22%, polycrystalline ~18%, amorphous ~10% efficiency.
 - [SEM Tech Redox Flow Batteries](redox-flow-battery.md) — grid-scale energy storage
 - [Graphite Electrode Manufacturing](electrode-manufacturing.md) — Production of graphite electrodes for electric arc furnaces from petroleum coke and coal tar pitch.
+- [Furnace Design Principles](furnace-design.md) — Heat transfer, combustion stoichiometry, refractory selection, furnace geometry, insulation design, flue gas handling, and fuel-to-heat efficiency applicable to all furnace types.
 
 - [Steam Engine](steam-engine.md) — Reciprocating steam engines (5-500+ HP) converting pressurized steam to rotational power for industrial drives and electricity generation.
 - [Boiler](boiler.md) — Steam generation vessels (fire-tube and water-tube) producing pressurized steam for power, heating, and process applications.

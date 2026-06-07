@@ -260,4 +260,6 @@ A founding pair (1 sow + 1 boar) produces 16-24 piglets in the first year — su
 - [Animal Materials](animal-materials.md) — bristles, leather, and rendering
 - [Food Processing](../food-processing/index.md) — meat curing and lard rendering
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

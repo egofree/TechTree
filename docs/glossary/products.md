@@ -12,7 +12,7 @@ Products are the tangible outputs of industrial processes — the reason the pro
 
 Product design in the tech tree is constrained by available materials and processes. Injection-molded housings require thermoplastics (PP, PE, ABS, nylon) and steel molds — feasible once polymer production and precision machining are established. Nylon gears replace metal in low-load applications because they run quietly without lubrication, resist wear, and can be produced to adequate precision by injection molding.
 
-Beekeeping products serve multiple domains: honey is food and fermentation substrate; beeswax provides the material for lost-wax casting (critical for complex metal parts), candle-making, wood finishing, and leather waterproofing; propolis serves as a natural adhesive and medicinal. Each product creates secondary processing chains — beeswax from beekeeping feeds into [Casting](../machine-tools/casting.md) and [Coatings](../chemistry/coatings.md).
+Beekeeping products serve multiple domains: honey is food and fermentation substrate; beeswax provides the material for lost-wax casting (critical for complex metal parts), candle-making, wood finishing, and leather waterproofing; propolis serves as a natural adhesive and medicinal. Each product creates secondary processing chains — beeswax from beekeeping feeds into [Casting](../metals/casting.md) and [Coatings](../chemistry/coatings.md).
 
 Sericulture produces multiple product grades: reeled silk (continuous filament from cocoons, the highest value), spun silk (from waste and damaged cocoons, shorter fibers), and silk waste (used for non-woven insulation or padding). The cocoon's single continuous filament (~1000-1500 m per cocoon) is what gives silk its exceptional strength and luster.
 

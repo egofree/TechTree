@@ -6,8 +6,18 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 40-80
 > **Outputs**: contamination_data, purity_certification
+> **Critical**: Yes — analytical verification enables all ultra-pure material production by confirming that purity targets are met
 > **Tags**: materials=[chemicals], capability=[measurement], era=semiconductor
 
+## Prerequisites
+
+PPT-level contamination detection requires advanced instrumentation and ultra-pure materials:
+
+- [Measurement](../measurement/index.md) — metrology infrastructure and calibrated standards
+- [Ultra-Pure Water](upw.md) — 18.2 MΩ·cm water for sample preparation and dilution
+- [High-Purity Chemicals](high-purity-chemicals.md) — electronic-grade reagents for standards and sample preparation
+- [Optics](../optics/index.md) — precision optical components for spectrophotometric instruments
+- [Computing](../computing/index.md) — data acquisition and analysis systems
 
 You cannot produce what you cannot measure. Ultra-pure materials — 9N chemicals and 18.2 MΩ·cm water — require analytical instrumentation capable of detecting contaminants at parts-per-trillion (ppt) concentrations. One ppt corresponds to one gram of impurity in one million metric tons of material — roughly one grain of salt dissolved in an Olympic swimming pool.
 
@@ -284,6 +294,5 @@ Every batch of electronic-grade chemical must be tested before release to the fa
 - [Chemistry / Acids](../chemistry/acids.md) — Bulk acid production
 - [Optics](../optics/index.md) — Optical components for analytical instruments
 
-
-
-[← Back to Ultra-Pure Materials](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Ultra-Pure Materials](./index.md) • [All Domains](../index.md)*

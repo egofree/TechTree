@@ -301,6 +301,6 @@ Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0
 - [Foundations → Stone & Wood Tools](../foundations/tools-basic.md) — digging sticks, hoes, wooden construction
 - [Textiles → Fibers](../textiles/fibers.md) — rope and cordage for lifting devices
 
+---
 
-
-[← Back to Agriculture](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*

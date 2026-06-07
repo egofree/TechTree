@@ -8,6 +8,15 @@
 > **Outputs**: cleanroom_facilities, pressure_cascade_systems, raised_floor_systems, hvac_systems
 > **Critical**: Yes — cleanroom facility design provides the structural envelope that enables all semiconductor manufacturing
 
+## Prerequisites
+
+Cleanroom facility construction requires significant industrial capability:
+
+- [HEPA/ULPA filtration](hepa-ulpa-filtration.md) — filter modules that the ceiling grid must support and seal
+- [Construction](../construction/index.md) — commercial building techniques adapted for airtight, non-shedding envelopes
+- [Polymers and adhesives](../polymers/index.md) — silicone sealants, epoxy coatings, and gasket materials for airtight joints
+- [HVAC systems](../gas-handling/index.md) — air handling, ductwork, and temperature/humidity control equipment
+- [Energy](../energy/index.md) — continuous power for HVAC systems (cleanrooms run 24/7/365)
 
 The physical facility is the structural envelope that houses clean room operations. A clean room is not a regular building with filters bolted on — it is a purpose-engineered structure where every surface, joint, penetration, and air path is designed for contamination control. The wall system must be airtight and non-shedding. The floor must drain static charges and return air. The ceiling must support filter modules and maintain level alignment. The HVAC system must deliver conditioned air at precise temperature (22±0.5°C) and humidity (43±3% RH) continuously, 24 hours per day, 365 days per year.
 
@@ -304,6 +313,5 @@ Typical make-up air: 15-30% of total cleanroom airflow. For a 100 m² ISO 5 clea
 - [Construction](../construction/index.md) — general building construction principles (different discipline)
 - [Energy](../energy/index.md) — power requirements for HVAC and support systems
 
-
-
-[← Back to cleanrooms](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Clean Room Technology](./index.md) • [All Domains](../index.md)*

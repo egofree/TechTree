@@ -39,7 +39,28 @@ Pottery provides containers for storage, transport, cooking, and — critically 
 **Forming methods**:
 - **Pinch pots**: Start with ball of clay, press thumb into center, pinch walls to even thickness (~6-8 mm). Good for small bowls, cups. Size limited to ~15 cm.
 - **Coil building**: Roll clay into ropes (1-2 cm diameter). Build walls by stacking coils, blending each into the one below with smoothing tool. Allows large vessels (30+ cm). Most versatile early method.
+
+  **Strengths**:
+  - No specialized equipment required — only hands, clay, and a simple smoothing tool
+  - Produces vessels of unlimited size and shape (limited only by the potter's patience and structural skill)
+  - Tolerant of uneven wall thickness — errors can be corrected during building
+
+  **Weaknesses**:
+  - Slow — a 30 cm vessel requires 3-4 sessions over 2-3 days
+  - Joint lines between coils create weak points if not blended thoroughly
+  - Difficult to achieve thin, uniform walls — most coil-built vessels are 8-15 mm thick
+
 - **Slab building**: Roll clay to uniform thickness (6-10 mm) with rolling pin. Cut and join slabs with slip (clay-water paste). Good for rectangular forms.
+
+  **Strengths**:
+  - Produces uniform wall thickness (5-8 mm) more consistently than coil building
+  - Ideal for geometric forms — boxes, tiles, rectangular vessels, and flat-sided construction
+  - Fast for simple shapes — a rectangular box can be assembled in under an hour
+
+  **Weaknesses**:
+  - Corners and seams are structurally weak — require reinforcement with interior coils
+  - Limited to forms that can be assembled from flat planes — curved vessels are impractical
+  - Slabs must be rolled to consistent thickness; uneven slabs crack during drying or firing
 - **Mold pressing**: Press clay into/over existing form (basket, carved wood, previously fired pot). Ensures consistency.
 
 **Drying**:
@@ -64,6 +85,16 @@ The potter's wheel enables rapid, symmetrical vessel production — transforming
 **Throwing technique**:
 - Center clay on spinning wheel head. Press down and inward simultaneously. Open center with thumbs. Pull walls upward between thumb and fingers. Shape with ribs (wood or metal scrapers). Wire-cut from wheel head. Dry slowly.
 
+**Strengths**:
+- Produces symmetrical, thin-walled vessels (3-5 mm) at high speed — a competent potter throws a 15 cm bowl in 2-3 minutes
+- Wall thickness is uniform and controllable — essential for cooking ware and crucibles that must survive thermal shock
+- Reproducible forms enable standardized production (consistent capacity, stackability)
+
+**Weaknesses**:
+- Requires a functional wheel mechanism (kick wheel or treadle wheel) — additional construction effort
+- Learning curve is steep — centering clay on a spinning wheel takes weeks of practice
+- Limited to radially symmetric forms — cannot produce handles, spouts, or rectangular shapes without hand-building additions
+
 ## Firing Methods
 
 **[Bonfire / open firing](../glossary/bonfire-open-firing.md)** (simplest, earliest — temperatures 600-900°C):
@@ -75,6 +106,16 @@ The potter's wheel enables rapid, symmetrical vessel production — transforming
 6. **Ignite**: Light from multiple points around the base. Fire burns 1-3 hours depending on fuel quantity.
 7. **Results**: Earthenware. Red, orange, brown, or black depending on clay iron content and oxygen supply. Pottery is porous (10-25% water absorption). Low strength but functional for storage and cooking. Many pots crack from thermal shock — expect 30-60% loss rate initially.
 
+**Strengths**:
+- No permanent construction required — build the fire where fuel and space are available
+- Minimal fuel and time investment (1-3 hours firing, standard firewood)
+- Accessible at Year 0 — no kiln, no bricks, no tools beyond fire-making
+
+**Weaknesses**:
+- Temperature uncontrolled (600-900°C range, highly variable) — inconsistent results between firings
+- 30-60% loss rate from thermal shock in early firings; even experienced potters lose 15-25%
+- Maximum temperature too low for stoneware or glazed ware — produces porous earthenware only
+
 ****Pit firing**** (slightly higher temperature, 700-1000°C, more controlled):
 1. **Dig pit**: 50-80 cm deep, 60-100 cm diameter. Line bottom with dry grass or leaves.
 2. **Layer fuel**: Sawdust or fine wood chips on bottom (provides long, slow heat). Layer of sticks.
@@ -82,6 +123,16 @@ The potter's wheel enables rapid, symmetrical vessel production — transforming
 4. **Cover and fill**: More sawdust around and over pots. Layer of larger wood on top. Fill pit to ground level.
 5. **Ignite top**: Fire burns downward through the fuel bed over 4-8 hours. Slow heating and cooling reduces thermal shock.
 6. **Retrieve**: Let cool 12-24 hours. Dig out carefully. Better color variation from reduction/oxidation patterns.
+
+**Strengths**:
+- Slower, more controlled heating and cooling reduces thermal shock losses to 15-30% (vs. 30-60% for bonfire)
+- Pit walls provide some insulation — temperatures reach 700-1000°C with less fuel than open firing
+- Reusable — the same pit serves for many firings with minor re-digging
+
+**Weaknesses**:
+- Requires digging a pit (50-80 cm deep, 60-100 cm diameter) — labor investment before first firing
+- Still limited to earthenware temperatures — cannot reach stoneware vitrification (1200°C+)
+- Limited capacity — pit size constrains the number and size of pots per firing
 
 **[Updraft kiln](../glossary/updraft-kiln.md)** (first true kiln — temperatures 900-1200°C):
 1. **Construction**: Build cylindrical or box structure from fireclay bricks or puddled clay. **[Firebox](../glossary/firebox.md)** at bottom (30-40 cm tall chamber with grate for fuel, ash pit below). **[Ware chamber](../glossary/ware-chamber.md)** above (40-60 cm tall, shelves or kiln furniture to stack pots). **[Flue](../glossary/flue.md)** opening at top center.
@@ -95,10 +146,30 @@ The potter's wheel enables rapid, symmetrical vessel production — transforming
 5. **Cooling**: Seal kiln (block flue and firebox). Cool slowly over 12-24 hours. Rapid cooling cracks pots.
 6. **Fuel**: Wood (hardwood preferred — longer burn, more consistent heat). 20-50 kg wood per firing depending on kiln size.
 
+**Strengths**:
+- Reaches 900-1200°C — sufficient for stoneware and some glazed earthenware
+- Controlled firing schedule reduces loss rate to 5-15% (vs. 30-60% for bonfire)
+- Larger capacity than pit firing — loads of 20-50 pots per firing depending on kiln size
+
+**Weaknesses**:
+- Requires fireclay bricks or puddled clay for construction — significant material and labor investment
+- Temperature uneven within the ware chamber — top hotter than bottom, front hotter than back
+- Single firebox design limits control over reduction/oxidation atmosphere compared to downdraft
+
 **[Downdraft kiln](../glossary/downdraft-kiln.md)** (highest temperature, 1200-1400°C):
 - **Design**: Fireboxes on sides. Hot gases rise to crown (dome), deflect downward through ware chamber, exit through floor-level flue (damper-controlled). Longer gas path = more heat transfer to ware.
 - **Advantage**: More uniform temperature throughout ware chamber. Reaches stoneware temperatures (1200-1300°C) where clay vitrifies fully — non-porous, very strong.
 - **Construction**: Requires fireclay bricks for interior. Larger than updraft kiln — typically 1.5-2 m interior height.
+
+**Strengths**:
+- Most uniform temperature distribution of any wood-fired kiln type — hot gases traverse the full ware chamber before exiting
+- Reaches 1200-1400°C — sufficient for stoneware and porcelain vitrification
+- Damper control allows deliberate reduction or oxidation atmospheres for specific glaze effects
+
+**Weaknesses**:
+- Most complex kiln to build — requires fireclay bricks, arched roof construction, and damper mechanism
+- Higher fuel consumption than updraft kiln per firing (longer gas path means more heat loss through walls)
+- Requires experience to fire correctly — the damper and stoking rate must be adjusted continuously during the 8-12 hour firing
 
 ## Glazing Methods
 
@@ -246,4 +317,6 @@ A precise bisque schedule prevents loss and produces optimal absorbency for glaz
 - [Chemistry](../chemistry/index.md) — ceramic apparatus for chemical processing
 - [Foundations](../foundations/index.md) — fire and basic tools
 
-[← Back to Ceramics](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics](./index.md) • [All Domains](../index.md)*

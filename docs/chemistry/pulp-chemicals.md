@@ -235,4 +235,6 @@ The global shift toward sustainable packaging is driving renewed investment in c
 - [Printing](../knowledge/printing.md) — paper as printing substrate
 - [Energy](../energy/index.md) — steam and power for pulping operations
 
-[← Back to Chemistry](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

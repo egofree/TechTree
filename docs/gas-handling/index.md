@@ -9,4 +9,6 @@ Capabilities in this domain:
 - [Vacuum Technology](vacuum.md) — Foundational vacuum technology: piston pumps, rotary vane pumps, diffusion pumps, basic vacuum chambers, and vacuum measurement. For advanced vacuum engineering (UHV pumps, chamber design, RGA, leak detection), see the [Vacuum Technology](../vacuum/index.md) domain.
 
 - [Compressor](compressor.md) — Reciprocating, rotary screw, and centrifugal compressors for gas compression, storage, and process applications.
+- [Industrial Process Valves](process-valves.md) — Gate, globe, ball, butterfly, check, and control valves for chemical, steam, gas, and high-temperature/high-pressure service.
+
 [↑ Back to Tech Tree](../index.md)

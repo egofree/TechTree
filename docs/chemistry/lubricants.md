@@ -698,6 +698,6 @@ Industrial plants monitor lubricant condition to schedule oil changes based on a
 - **[Machine Tools](../machine-tools/machining.md)**: Cutting fluid applications in machining
 - **[Soap Making](../glossary/soap-making.md)**: Saponification chemistry for grease thickeners
 
+---
 
-
-[← Back to Chemistry](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

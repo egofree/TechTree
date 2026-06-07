@@ -4,6 +4,7 @@
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`machine-tools.machining`](../machine-tools/machining.md), [`metals.iron-steel`](../metals/iron-steel.md)
 > **Enables**: None (leaf capability)
+> **Critical**: No — refrigeration enables cryogenics and food preservation but simpler cooling methods suffice at earlier bootstrap stages
 > **Timeline**: Years 20-30
 > **Outputs**: refrigeration, industrial_cooling, ice_production
 
@@ -285,6 +286,6 @@ The ammonia absorption cycle runs on four main temperature zones, each correspon
 - [Energy Storage](storage.md) — Cold thermal energy storage
 - [Geothermal Energy](geothermal.md) — ground-source heat pumps for heating and cooling
 
+---
 
-
-[← Back to Energy](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

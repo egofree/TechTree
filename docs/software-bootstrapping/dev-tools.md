@@ -236,4 +236,6 @@ program: program.o utils.o
 - [Self-Hosting Toolchain](self-hosting.md) — the bootstrap chain that produces these tools
 - [Logic Design](../computing/logic-design.md) — hardware debuggers and logic analyzers
 
-[← Back to Software Bootstrapping](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../index.md)*

@@ -416,6 +416,36 @@ Copper and nickel are fully soluble in each other in all proportions (complete s
 - Cupronickel is difficult to machine (work-hardens rapidly, 30-40% of free-cutting brass machinability)
 - Thermocouple wire (constantan) requires calibration against reference standards — not plug-and-play
 
+## Selection Guide
+
+**Decision criteria — choosing copper production and processing methods**:
+- Use **shaft furnace smelting** of carbonate ores (malachite/azurite) for primitive copper — single-step, no pre-roasting, achievable with stone-age tools
+- Use **flash smelting** for industrial-scale sulfide concentrate processing — autogenous (40-70% of heat from sulfide oxidation), 1,000-3,000 t concentrate/day
+- Use **SX-EW** for oxide ore bodies unsuitable for flotation — heap leach with sulfuric acid, no SO₂ emissions, 15-20% of world copper
+- Use **electrolytic refining** for 99.99% Cu required for electrical conductors — 250-350 kWh/t, recovers precious metals from anode slime
+- Use **lost-wax casting** for complex shapes with undercuts; **stone molds** for standardized items (20-50 pours); **sand molds** for one-off large castings
+- Use **cupronickel (90/10)** for seawater piping; **70/30** for high-velocity seawater (>3.5 m/s)
+- Use **constantan (55Cu/45Ni)** for precision resistors and thermocouple wire — near-zero temperature coefficient of resistance
+
+**Implementation steps for copper production**:
+1. Identify ore type: carbonate (malachite/azurite) for simple smelting, sulfide (chalcopyrite) for industrial route requiring roasting
+2. Assess scale: shaft furnace for 5-20 kg batches; flash smelter for 1,000+ t/day
+3. Establish fuel supply: charcoal for primitive smelting; natural gas/oil for industrial reverberatory furnaces
+4. Set up electrolytic refining tankhouse if electrical-grade copper is needed — requires DC power and H₂SO₄
+5. Establish quality testing: conductivity measurement (≥101% IACS for electrical use), spectrographic analysis for impurity limits
+6. Add wire drawing capability for electrical conductor production — draw plates, lubrication, and intermediate annealing
+
+**Copper processing route trade-offs**:
+
+| Method | Ore Type | Scale | Purity | Energy | Capital | Best For |
+|---|---|---|---|---|---|---|
+| Shaft furnace | Carbonate | 5-20 kg/batch | ~95% Cu | Low (charcoal) | Very Low | Primitive/early production |
+| Flash smelting | Sulfide concentrate | 1,000-3,000 t/day | 98-99% blister | Low (autogenous) | Very High | Industrial sulfide processing |
+| SX-EW | Oxide | Variable | 99.99% Cu | 2,200-2,800 kWh/t | Medium | Oxide ores, no smelter |
+| Electrolytic refining | Fire-refined anodes | 200,000+ t/yr | 99.99% Cu | 250-350 kWh/t | High | Electrical-grade copper |
+| Lost-wax casting | Molten Cu/Bronze | 1 per investment | N/A | Low | Very Low | Complex shapes, sub-mm detail |
+| Sand casting | Molten Cu/Bronze | 1 per mold | N/A | Low | Very Low | Simple shapes, large castings |
+
 ## Safety & Hazards
 
 - **Molten metal burns**: Copper and bronze melt at 1085-1200 °C and cause devastating deep-tissue burns on skin contact. Molten metal splashes readily when poured into damp or cold molds. Wear heavy leather apron, gauntlet gloves, face shield, and closed-toe boots. Preheat all molds and crucibles to 200-400 °C before contact with molten metal — a cold or damp crucible may shatter violently, spraying molten copper. Never pour molten metal into wet molds; trapped moisture flashes to steam and ejects metal explosively.
@@ -450,4 +480,4 @@ Copper and nickel are fully soluble in each other in all proportions (complete s
 - [Sewing & Tailoring](../textiles/sewing-tailoring.md) — bronze needles and tools
 - [Medical Instruments](../health/medical-instruments.md) — bronze surgical tools
 
-[← Back to Metals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

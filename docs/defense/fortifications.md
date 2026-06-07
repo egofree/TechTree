@@ -4,6 +4,7 @@
 > **Domain**: [Defense](./index.md)
 > **Dependencies**: None (root capability)
 > **Enables**: None (leaf capability)
+> **Critical**: No — military fortifications are specialized defense capabilities dependent on metallurgical and construction industrial base
 > **Timeline**: Years 5-50+
 > **Outputs**: fortifications, defensive_structures, walls, towers, castle_fortifications
 
@@ -14,6 +15,17 @@ Fortification engineering is the design and construction of defensive structures
 Fortifications are fundamentally civil engineering projects with defensive design criteria. A stone curtain wall uses the same masonry techniques as a building wall, but with specified thickness (1.5-3.0 m), height (6-12 m), and crenellation for defense. An earthen rampart is a compacted-soil structure with slope stability requirements. The engineering skills overlap directly with [construction](../construction/index.md), [mining](../mining/index.md) for quarrying, and [chemistry](../chemistry/cement.md) for mortar production.
 
 The critical design principle for all fortifications is layered defense in depth: no single wall or obstacle should be the only barrier between attackers and the defended objective. Concentric castle design, multiple ditches, interlocking fields of fire, and interior lines of communication ensure that breaching one element exposes attackers to defense from the next. A well-designed fortification with a competent garrison historically resists attack at 3:1 odds or worse.
+
+
+## Prerequisites
+
+Fortification engineering draws on civil construction, quarrying, and materials production:
+
+- [Construction](../construction/index.md) — masonry techniques, scaffolding, earth-moving methods
+- [Mining](../mining/index.md) — stone quarrying for wall construction
+- [Cement and mortar](../chemistry/cement.md) — lime mortar for stone wall bonding, hydraulic mortar for wet locations
+- [Foundations](../foundations/index.md) — timber working for palisades, gates, and scaffolding
+- [Governance](../economics-organization/governance.md) — labor mobilization for major construction projects
 
 
 ## Bill of Materials
@@ -296,7 +308,5 @@ The critical design principle for all fortifications is layered defense in depth
 - **[Construction](../construction/index.md)** -- General building techniques used in fortification
 - **[Governance](../economics-organization/governance.md)** -- Organizational structures for mobilizing fortification labor
 
-
- *Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*
-
-[← Back to defense](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*

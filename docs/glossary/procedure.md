@@ -6,7 +6,7 @@ Stack or overlap the pieces to be joined. Heat both evenly in forge fire. When m
 
 ## Context in the Tech Tree
 
-A procedure is a standardized sequence of steps that reliably produces a desired result. Procedures appear throughout the tech tree: [Iron & Steel Production](../metals/iron-steel.md) documents forge welding procedures; [Pharmacology](../health/pharmacology.md) defines drug preparation procedures (extraction, crystallization, tablet compression); [Casting](../machine-tools/casting.md) specifies mold-making and pouring procedures. Standardized procedures ensure repeatability — critical when training new practitioners or scaling production.
+A procedure is a standardized sequence of steps that reliably produces a desired result. Procedures appear throughout the tech tree: [Iron & Steel Production](../metals/iron-steel.md) documents forge welding procedures; [Pharmacology](../health/pharmacology.md) defines drug preparation procedures (extraction, crystallization, tablet compression); [Casting](../metals/casting.md) specifies mold-making and pouring procedures. Standardized procedures ensure repeatability — critical when training new practitioners or scaling production.
 
 ## Technical Details
 
@@ -26,4 +26,4 @@ In pharmaceutical preparation, procedures prevent dosing errors. Geometric dilut
 
 - [Iron & Steel Production](../metals/iron-steel.md)
 - [Pharmacology](../health/pharmacology.md)
-- [Casting](../machine-tools/casting.md)
+- [Casting](../metals/casting.md)

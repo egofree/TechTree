@@ -235,4 +235,6 @@ Raw natural gas contains methane (70-90%), ethane, propane, butane, CO₂, H₂S
 - [Fuels](../energy/fuels.md) — solid, liquid, and gaseous fuels
 - [Transport / Aviation](../transport/aviation.md) — aviation fuel requirements
 
-[← Back to Chemistry](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

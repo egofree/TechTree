@@ -4,6 +4,7 @@
 > **Domain**: [Environmental Health & Safety](./index.md)
 > **Dependencies**: None (root capability)
 > **Enables**: None (leaf capability)
+> **Critical**: No — chemical safety practices reduce accidents but are not on the critical technology path
 > **Timeline**: Years 30-70
 > **Outputs**: chemical_hazard_protocols, tlv_databases, nfpa_ratings, exposure_control_plans
 
@@ -367,6 +368,15 @@ Routine industrial hygiene surveys assess worker exposure to chemical, physical,
 | Solvent spill not activating containment | Spill too small to reach drain containment; containment berm damaged or not installed; spill flowing under equipment instead of toward drain | Verify secondary containment (berms, drip trays) at all solvent storage and dispensing locations; ensure spill kit is within 10 m of storage; check that floor slope directs flow toward drain with proper traps; do not store solvents below bench level without containment |
 | PPE failure during chemical handling — glove degradation | Wrong glove material for chemical (nitrile does not protect against all solvents; neoprene needed for HF); gloves past expiration; chemical permeation breakthrough time exceeded | Verify glove material against chemical compatibility chart (HF: neoprene or Viton; solvents: butyl rubber or Silver Shield; general acids: nitrile); check glove expiry date; change gloves at or before breakthrough time (typically 1-4 hours depending on chemical and thickness); double-glove for HF work |
 
+## Safety
+
+Chemical safety personnel handling, sampling, and maintaining semiconductor process chemicals face hazards beyond routine fab operations:
+
+- **Cylinder change operations**: Swapping arsine (AsH₃, TLV 5 ppb) or silane (SiH₄, pyrophoric above 1.4%) cylinders requires SCBA pre-positioned at the gas cabinet. A momentary leak during cylinder disconnect releases gas at cylinder pressure (2,000-3,000 psi). Arsine at 0.5 ppm for 30 minutes causes lethal hemolytic anemia — symptoms delayed 2-24 hours. All cylinder changes follow N₂ purge cycles (3× volume displacement) before disconnect. Supplied-air respirator preferred over SCBA for the extended purge duration (15-30 minutes per cylinder).
+- **Spill cleanup chemical exposure**: Neutralizing an HF spill with CaCO₃ generates CaF₂ precipitate and CO₂ gas, but the reaction zone remains acidic until fully neutralized. Responder exposure to HF vapor above 3 ppm (PEL) occurs within 0.5 m of the spill during active neutralization. Full-face respirator with acid gas cartridge (yellow) plus double neoprene gloves (0.8 mm) are minimum PPE. Piranha solution (H₂SO₄:H₂O₂ at 120-150°C) spills cannot be absorbed with organic materials — the oxidizer ignites cellulose-based absorbents on contact. Use only acid-resistant polypropylene absorbent pads.
+- **Gas sensor maintenance and calibration**: Bumping electrochemical cells with certified gas standards (AsH₃ at 50 ppb, PH₃ at 0.5 ppm) releases these gases near the technician's breathing zone. Calibration must be performed in a ventilated area or under a fume hood. Expired sensor cells (1-3 year lifespan) may leak electrolyte (sulfuric acid or potassium hydroxide solution) from the housing — handle with nitrile gloves and dispose as chemical waste.
+- **Analytical sampling hazards**: Collecting air samples from exhaust ducts requires accessing roof-level or sub-fab ductwork in confined spaces. Breaking into arsine or phosphine exhaust lines for sampling probe insertion risks exposure to residual toxic gas — purge the sampling port with N₂ for 5 minutes before opening. Impinger solutions containing silver nitrate (for arsine) or mercuric chloride (for phosphine) are themselves toxic and require handling in a fume hood with chemical-resistant gloves.
+
 ## See Also
 
 - [Ventilation & Exhaust Systems](ventilation-exhaust.md) — Gas cabinets, scrubbers, and abatement systems
@@ -378,6 +388,5 @@ Routine industrial hygiene surveys assess worker exposure to chemical, physical,
 - [Hydrogen & Silane](../chemistry/hydrogen-silane.md) — Silane production processes
 - [Semiconductor Chemicals](../chemistry/semiconductor-chemicals.md) — Chemical supply chain for semiconductor manufacturing
 
-
-
-[← Back to EHS](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

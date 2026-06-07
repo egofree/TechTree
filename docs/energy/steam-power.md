@@ -3,7 +3,7 @@
 > **Node ID**: energy.steam-power
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: `machine-tools`, [`machine-tools.joining`](../machine-tools/joining.md), [`metals.forming`](../metals/forming.md), [`metals.iron-steel`](../metals/iron-steel.md)
-> **Enables**: [`energy.steam-power.steam-turbines`](steam-turbines.md), [`health.medical-instruments`](../health/medical-instruments.md), [`marine.propulsion`](../marine/propulsion.md), [`mining.drilling`](../mining/drilling.md), [`mining.ventilation`](../mining/ventilation.md), `petroleum.extraction.cable-tool`, [`transport.railways`](../transport/railways.md)
+> **Enables**: [`energy.steam-power.steam-turbines`](steam-turbines.md), [`health.medical-instruments`](../health/medical-instruments.md), [`marine.propulsion`](../marine/propulsion.md), [`mining.drilling`](../mining/drilling.md), [`mining.ventilation`](../mining/ventilation.md), [`petroleum.extraction.cable-tool`](../petroleum/extraction.md), [`transport.railways`](../transport/railways.md)
 > **Timeline**: Years 15-25
 > **Outputs**: steam_engines, boilers, rotary_power
 > **Critical**: Yes — steam power is the first mechanical energy source independent of geography (unlike water and wind), enabling factories, railways, and mining at any location
@@ -19,8 +19,8 @@ The critical threshold for the first practical steam engine: precision-bored cyl
 
 ## Prerequisites
 
-- **Materials**: [Wrought iron plate](../metals/iron-steel.md) (6-25 mm thick for boilers, cylinders, flues), [cast iron](../machine-tools/casting.md) for cylinder blocks and flywheels, [steel](../metals/iron-steel.md) for high-pressure boiler tubes and stay bolts, [copper or brass](../metals/copper-bronze.md) for valve fittings and condenser tubes, [hemp or leather](../plants/fiber-plants.md) for piston packing and gaskets, [lubricants](../chemistry/lubricants.md) (tallow, mineral oil) for bearings and cylinders, [coal or wood](./fuels.md) for boiler firing
-- **Tools**: [Boring machine](../machine-tools/machining.md) (precision bore cylinders to ±0.1 mm), [riveting equipment](../machine-tools/joining.md) for boiler construction, [foundry](../machine-tools/casting.md) for cast iron cylinders and flywheels, [forge](../metals/forming.md) for wrought iron plate forming, [pipe threading and fitting tools](../machine-tools/machining.md) for steam plumbing
+- **Materials**: [Wrought iron plate](../metals/iron-steel.md) (6-25 mm thick for boilers, cylinders, flues), [cast iron](../metals/casting.md) for cylinder blocks and flywheels, [steel](../metals/iron-steel.md) for high-pressure boiler tubes and stay bolts, [copper or brass](../metals/copper-bronze.md) for valve fittings and condenser tubes, [hemp or leather](../plants/fiber-plants.md) for piston packing and gaskets, [lubricants](../chemistry/lubricants.md) (tallow, mineral oil) for bearings and cylinders, [coal or wood](./fuels.md) for boiler firing
+- **Tools**: [Boring machine](../machine-tools/machining.md) (precision bore cylinders to ±0.1 mm), [riveting equipment](../machine-tools/joining.md) for boiler construction, [foundry](../metals/casting.md) for cast iron cylinders and flywheels, [forge](../metals/forming.md) for wrought iron plate forming, [pipe threading and fitting tools](../machine-tools/machining.md) for steam plumbing
 - **Knowledge**: Thermodynamics (steam pressure-temperature relationships, expansive working), boiler construction (riveted joint design, stay bolt patterns), valve timing (admission, cutoff, release, compression), lubrication under high temperature, feed water treatment
 - **Infrastructure**: Fuel supply (coal mine or forest with charcoal production), water supply (boiler feed water at 2-5 kg per kg of steam produced), [machine shop](../machine-tools/index.md) for precision parts, foundry for castings, transportation for heavy components (engines weigh 5-50 tonnes)
 
@@ -261,7 +261,7 @@ Steam engines produce rotary mechanical power. Transmitting that power to where 
 - [Charcoal](charcoal.md) — charcoal production for early boiler firing
 - [Iron & Steel](../metals/iron-steel.md) — wrought iron and steel for boilers and cylinders
 - [Metal Forming](../metals/forming.md) — plate rolling for boiler shells
-- [Casting](../machine-tools/casting.md) — cast iron cylinders and flywheels
+- [Casting](../metals/casting.md) — cast iron cylinders and flywheels
 - [Machining](../machine-tools/machining.md) — precision boring of cylinders
 - [Joining](../machine-tools/joining.md) — riveting and welding for boiler construction
 - [Steam Turbines](steam-turbines.md) — turbine evolution from reciprocating engines
@@ -273,6 +273,6 @@ Steam engines produce rotary mechanical power. Transmitting that power to where 
 - [Lubricants](../chemistry/lubricants.md) — cylinder oils and bearing lubrication
 - [Refractories](../chemistry/refractories.md) — boiler and furnace linings
 
+---
 
-
-[← Back to Energy](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

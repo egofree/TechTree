@@ -259,4 +259,6 @@ A founding herd of 5-10 alpacas (4-8 females, 1-2 males) establishes a self-sust
 - [Textile Fibers](../textiles/fibers.md) — animal fiber processing and spinning
 - [Animal Pest Management](pest-management.md) — guard animals for crop protection
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

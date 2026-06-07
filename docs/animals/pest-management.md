@@ -220,27 +220,35 @@ Walk fields weekly during the growing season. Count pest populations using stand
 - [Construction](../construction/index.md) — predator-proof fencing and grain storage construction
 
 
-## Zoonotic Diseases
+## Safety
 
-Pest animals carry diseases transmissible to humans. Rodent droppings can contain hantavirus (inhalation of dried fecal dust causes hantavirus pulmonary syndrome, with a 36% mortality rate). Cats near food storage areas can shed Toxoplasma gondii oocysts in feces, causing toxoplasmosis (particularly dangerous during pregnancy). Birds can carry Salmonella and Campylobacter.
+### Zoonotic Diseases
 
-- **Prevention**: exclude cats from direct contact with stored grain (cats patrol the perimeter, not the grain pile). Wear gloves and an N95 mask when cleaning rodent-contaminated areas. Wash hands after handling any pest control animal. Do not use poultry manure from pest-control flocks directly on edible crops without 90-day composting at 55°C+ to kill pathogens.
+Pest animals carry diseases transmissible to humans. Rodent droppings can contain hantavirus (inhalation of dried fecal dust causes hantavirus pulmonary syndrome, with a 36% mortality rate). Cats near food storage areas can shed Toxoplasma gondii oocysts in feces, causing toxoplasmosis (particularly dangerous during pregnancy — congenital infection causes neurological damage in 5-10% of cases). Birds carry Salmonella (S. enterica, causing gastroenteritis with 10⁶-10⁸ organisms infectious dose) and Campylobacter (C. jejuni, the leading bacterial cause of diarrheal illness, infectious at 500 organisms).
 
-## Dog Bite Prevention
+Exclude cats from direct contact with stored grain (cats patrol the perimeter, not the grain pile). Wear nitrile gloves and an N95 respirator (filters 95% of particles ≥0.3 μm, including dried fecal dust) when cleaning rodent-contaminated areas. Wet-clean rodent droppings with a 10% bleach solution (1:9 household bleach:water, 5,000 ppm sodium hypochlorite) before sweeping — dry sweeping aerosolizes hantavirus. Wash hands with soap for 20 seconds after handling any pest control animal. Do not apply poultry manure from pest-control flocks directly to edible crops without 90-day thermophilic composting at 55°C+ to kill Salmonella and Campylobacter.
 
-Guardian dogs are large, protective, and can misinterpret human approach to their flock as a threat. Great Pyrenees and Anatolian Shepherds weigh 40-65 kg. A bite from a dog this size causes serious injury.
+### Guardian Dog Bite Prevention
 
-- **Protocol**: announce yourself verbally when approaching a guarded flock. Do not make direct eye contact with the dog. Do not walk between the dog and the livestock. If the dog approaches, stand still and let it investigate. Do not run.
-- **Children**: children should not enter pastures with active guardian dogs without an adult. A running, squealing child triggers chase instincts.
+Guardian dogs are large, protective, and can misinterpret human approach to their flock as a threat. Great Pyrenees and Anatolian Shepherds weigh 40-65 kg. A bite from a dog this size delivers 1,000-1,500 N of bite force — sufficient to crush bone and cause deep puncture wounds requiring surgical debridement. Approximately 4.5 million dog bites occur annually in the US; guardian breeds are overrepresented in severe bites.
 
-## Quarantine for New Animals
+Announce yourself verbally when approaching a guarded flock. Do not make direct eye contact with the dog. Do not walk between the dog and the livestock. If the dog approaches, stand still and let it investigate — do not run. Children should not enter pastures with active guardian dogs without an adult. A running, squealing child triggers chase instincts in dogs with strong prey drive.
 
-Any new guardian or pest control animal should be quarantined for 14-30 days before introduction to the flock or farm. Test for rabies (vaccinate all dogs and cats), internal parasites (fecal float test), and communicable diseases. Quarantine pens should be 10-20 m from existing livestock with no shared water or feed sources.
+### Rabies
 
-## Rabies Awareness
+All mammals are potential rabies vectors. Bats, raccoons, skunks, and foxes are the primary wildlife reservoirs. Rabies virus (Lyssavirus) travels along peripheral nerves to the central nervous system at 12-24 mm/day. Once symptoms appear (aggression, lethargy, difficulty swallowing, excessive salivation, paralysis), rabies is fatal — fewer than 10 documented survivors in medical history, all with severe neurological deficits.
 
-All mammals are potential rabies vectors. Bats, raccoons, skunks, and foxes are the primary wildlife reservoirs. Unvaccinated cats that hunt outdoors are at elevated risk. If a pest control animal shows neurological symptoms (aggression, lethargy, difficulty swallowing, excessive salivation), isolate it immediately and consult a veterinarian. Rabies is fatal once symptoms appear. Vaccinate all dogs and cats on the farm.
+Unvaccinated cats that hunt outdoors are at elevated risk because they encounter infected prey. Vaccinate all dogs and cats on the farm with inactivated rabies vaccine (1 mL IM, booster at 1 year, then every 3 years). If a pest control animal shows neurological symptoms, isolate it immediately in a secure enclosure and contact a veterinarian. Do not handle the animal without thick leather gloves. If a human is bitten by a suspect animal, wash the wound vigorously with soap and water for 15 minutes (reduces viral load by 90%), apply povidone-iodine, and seek post-exposure prophylaxis (PEP) within 24 hours — the 4-dose rabies vaccine series + rabies immunoglobulin (20 IU/kg injected around the wound) is 100% effective when administered before symptoms.
 
+### Quarantine for New Animals
 
+Any new guardian or pest control animal should be quarantined for 14-30 days before introduction to the flock or farm. Test for rabies (vaccinate all dogs and cats), internal parasites (fecal float test — flotation in ZnSO₄ or NaNO₃ solution reveals worm eggs at 100-400× magnification), and communicable diseases (Canine parvovirus, Feline leukemia virus). Quarantine pens should be 10-20 m from existing livestock with no shared water or feed sources. Wear disposable gloves and boots when servicing quarantine pens; disinfect with 10% bleach between animals.
 
-[← Back to Animals](index.md)
+### Botanical Pesticide Handling
+
+Pyrethrin (from Chrysanthemum cinerariifolium) has low mammalian toxicity (oral LD₅₀ in rats: 1,500-2,000 mg/kg) but is a neurotoxin that causes tingling, numbness, and respiratory irritation at sufficient exposure. Neem oil (azadirachtin) causes eye irritation and should not be ingested — oral LD₅₀ in rats is 3,540 mg/kg. Rotenone (from Derris species) is more hazardous — oral LD₅₀ in rats is 60-1,300 mg/kg, and chronic exposure is linked to Parkinson-like symptoms in animal studies.
+
+Mix and apply botanical pesticides wearing nitrile gloves, safety goggles, and an N95 respirator. Spray on calm days (wind <10 km/h) to avoid drift. Do not apply pyrethrin within 24 hours of harvest — residues degrade to below detection in 12-24 hours of sunlight exposure but persist longer in shade. Store concentrates in labeled, sealed containers away from food and animal feed. Keep rotenone out of waterways — it is highly toxic to fish (LC₅₀ for trout: 2-6 μg/L, meaning 2-6 parts per billion kills half of exposed fish).
+
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

@@ -197,6 +197,35 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 
 **Indium bump bonding**: Indium melts at 156.6°C — well below most solder processing temperatures. Indium vapor pressure is negligible at typical bonding temperatures (<250°C), so inhalation exposure during bonding is minimal. Thermal compression bonding equipment operates at high force (kN range) — mechanical safety interlocks required.
 
+## Selection Guide
+
+**Decision criteria — choosing specialty metals for semiconductor applications**:
+- Use **TaN/Ta barrier** for Cu damascene interconnects — blocks Cu diffusion into Si/dielectric, minimum 2 nm thickness, deposited by reactive PVD sputtering in Ar/N₂
+- Use **CoSi₂ contacts** for sub-7 nm node source/drain contacts — lowest contact resistance among silicides (15-25 Ω·µm²), formed by RTP of 10-20 nm Co film
+- Use **Co CMP slurry** for copper planarization — colloidal silica abrasive, pH 8-10, removes Cu without dishing when optimized
+- Use **ITO (In₂O₃:SnO₂ 90:10)** for transparent conductive electrodes — 80-90% visible transmittance at 100-300 nm thickness, 10-100 Ω/sq sheet resistance
+- Use **InGaAs** for 1.3-1.55 µm wavelength photodetectors — direct bandgap, higher electron mobility than Si for optical interconnect receivers
+- Use **indium bump bonds** for flip-chip die-to-substrate connections — ductile enough to accommodate CTE mismatch (Si 4.1 ppm/°C vs. organic 12-17 ppm/°C)
+
+**Implementation steps for semiconductor-grade specialty metals**:
+1. Secure upstream metal supply: tantalum from coltan (see [Refractory Metals](refractory-metals.md)), cobalt as byproduct of Cu/Ni refining, indium from zinc smelter residues
+2. Establish sputtering target manufacturing: high-purity metal casting → hot isostatic pressing → machining to ±0.05 mm flatness → bonding to Cu backing plate
+3. Set up PVD/CVD deposition capability: reactive sputtering for TaN, PECVD or thermal CVD for W plugs, electroplating for Cu damascene
+4. Implement CMP capability: polishers, slurry delivery, endpoint detection, post-CMP cleaning
+5. Add metrology: four-point probe for sheet resistance, spectroscopic ellipsometry for film thickness, XRF for composition
+6. Establish contamination control: U/Th <1 ppb in sputtering targets (alpha particles cause soft errors), particle control <10 per wafer
+
+**Specialty semiconductor metal trade-offs**:
+
+| Metal | Function | Deposition Method | Thickness | Critical Parameter | Alternative |
+|---|---|---|---|---|---|
+| TaN/Ta | Cu diffusion barrier | Reactive PVD sputter | 2-5 nm | BTS >60 min at 350°C | TiN (inferior for Cu) |
+| CoSi₂ | Self-aligned contact | Sputter Co + RTP | 10-20 nm Co → 25-50 nm silicide | ρc = 15-25 Ω·µm² | NiSi (wider nodes) |
+| Co CMP | Cu planarization | Slurry + polishing | Removes 500-2000 nm Cu | Dishing <10 nm | SiO₂ slurry (less selective) |
+| ITO | Transparent conductor | DC sputtering | 100-300 nm | Rs = 10-100 Ω/sq, T >80% | AZO (lower cost, lower perf) |
+| InGaAs | IR photodetector | MOCVD/MBE epitaxy | 1-5 µm epilayer | λ = 1.3-1.55 µm response | Ge photodiode (inferior) |
+| In bumps | Flip-chip bonding | Electroplating + reflow | 25-100 µm | Shear strength >20 g/bump | SnAg (higher reflow temp) |
+
 ## GPU Critical Path Integration
 
 The three metals in this document converge at specific points in GPU fabrication:
@@ -234,4 +263,4 @@ The three metals in this document converge at specific points in GPU fabrication
 - [Gas Handling / Vacuum](../gas-handling/vacuum.md) — sputtering deposition systems
 - [Glass / Photomask Substrates](../glass/photomask-substrates.md) — ITO-coated transparent substrates
 
-[← Back to Metals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

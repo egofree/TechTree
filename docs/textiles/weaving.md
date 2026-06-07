@@ -8,6 +8,13 @@
 > **Outputs**: cloth, canvas
 > **Critical**: No
 
+## Prerequisites
+
+- [Spinning](spinning.md) — yarn supply for warp and weft
+- [Fiber Preparation](fibers.md) — prepared fiber for spinning
+- [Iron & Steel](../metals/iron-steel.md) — heddle wire, ratchets, reed dents
+- [Basic Tools](../foundations/tools-basic.md) — for frame loom construction
+
 Weaving interlaces warp (lengthwise) and weft (crosswise) yarns to create cloth — the fundamental textile manufacturing step between spinning yarn and finishing fabric. Loom technology evolved from simple frame looms producing 0.5-1 m²/hour to power looms exceeding 150 picks/minute. The weave structure (plain, twill, satin) determines cloth properties: strength, drape, abrasion resistance, and appearance.
 
 ## Weaving & Cloth Production
@@ -35,21 +42,33 @@ Weaving interlaces warp (lengthwise) and weft (crosswise) yarns to create cloth 
 
 Building a floor loom requires ~20-30 board-feet of hardwood and basic iron hardware. Oak or ash preferred — these resist warping and provide the rigidity to withstand warp tension. Avoid softwoods (pine, spruce) for structural members — they compress under sustained load and the loom goes out of alignment.
 
-**Timber dimensions (for a 100 cm weaving width)**:
-- **Side frames** (2): 10 × 10 cm × 140 cm hardwood posts. Mortise joints at top and bottom for cross-members. Stand on flat feet to prevent tipping.
-- **Cross-members** (4): 5 × 10 cm × 130 cm. Two at top connecting the side frames, two at the base. Bolted through the posts with 12 mm iron bolts or secured with wedged through-tenons for a no-metal-required version.
-- **[Cloth beam](../glossary/cloth-beam.md)** (front): 8-9 cm diameter × 120-150 cm hardwood roller. Iron ratchet and pawl mechanism on one end to maintain cloth tension. Minimum 12 teeth on the ratchet for adequate tension adjustment. Canvas or webbing wrapped around beam to grip the finished cloth.
-- **[Warp beam](../glossary/warp-beam.md)** (back): 8-9 cm diameter × 120-150 cm hardwood roller. Similar ratchet mechanism. The ratchet must hold firmly — any slippage releases warp tension and ruins the weave. Wooden pegs or cords (leasing cords) hold warp ends evenly spaced.
-- **[Breast beam](../glossary/breast-beam.md)** (front, above cloth beam): 5 × 5 cm × 120 cm. The weaver's bench sits behind this beam. Cloth passes over it on its way to the cloth beam.
-- **Beater (batten)**: Hangs from the top of the loom frame on two metal or wooden hinged brackets (swords). Reed frame: 5 × 5 cm hardwood stock, 100 cm wide, holding the reed (comb of flat metal or cane dents spaced at the desired ends-per-inch). Swings forward to pack weft against the fell (the edge of the woven cloth).
-- **Heddle frames (shafts)**: 2-8 lightweight wooden frames (2 × 2 cm stock), each holding metal or string heddles. Suspended from the loom's top by cords running over rollers or pulleys. Connected to treadles below by lever cords.
-- **[Treadles](../glossary/treadles.md)** (2-8): 5 × 10 cm × 60 cm hardwood planks, pivoting at the rear on iron pins. Connected to shafts via tie-up cords. The tie-up pattern determines the weave structure: 2 shafts/2 treadles for plain weave, 4 shafts/4-6 treadles for twill, 8+ shafts for complex patterns.
-- **Bench**: Hardwood plank (30 × 40 cm) mounted on the loom frame at ~45 cm seat height. Must be comfortable for hours of sitting.
-- **Total frame width**: 30-40 cm wider than the weaving width (15-20 cm on each side for the frame and mechanism).
+### Frame Construction Steps
+
+1. Cut two side posts from oak or ash: 10 × 10 cm × 140 cm. Mark and mortise horizontal slots at top and bottom for cross-member tenons. Ensure both posts are identical — clamp together and mark mortise positions simultaneously for matching alignment.
+2. Cut four cross-members from oak: 5 × 10 cm × 130 cm. Tenon both ends to match the side post mortises. Two at the top (connecting the side frames above the warp path), two at the base (structural support).
+3. Assemble the frame: drive cross-member tenons into the side post mortises. Secure with 12 mm iron bolts through the posts and tenons, or with wedged through-tenons for a no-metal-required version. Check squareness by measuring both diagonals — must be equal within 2 mm.
+4. Mount the cloth beam (front): turn or cut a hardwood roller 8-9 cm diameter × 120-150 cm. Bore the journals at each end to accept iron bearing pins. Install in bearing blocks bolted to the front of the side posts. Mount an iron ratchet (minimum 12 teeth) and pawl on one end to maintain cloth tension. Wrap the beam with canvas or webbing for cloth grip.
+5. Mount the warp beam (back): identical to the cloth beam, positioned at the rear of the frame. Install a matching ratchet and pawl. The ratchet must hold firmly — any slippage releases warp tension and ruins the weave.
+6. Install the breast beam: 5 × 5 cm × 120 cm hardwood, bolted across the front of the side posts above the cloth beam. The weaver sits behind this beam. Round the top edge for comfort.
+7. Mount the beater (batten): hang two swords (wooden or iron hinged brackets, 30-40 cm) from the top of the loom frame. The beater frame (5 × 5 cm hardwood, 100 cm wide) swings from these swords. Mount the reed in the beater with removable clips.
+
+### Heddle and Treadle Installation
+
+8. Suspend heddle frames: 2-8 lightweight wooden frames (2 × 2 cm stock), each holding wire heddles. Suspend from the loom top by cords running over rollers or pulleys. Space shafts evenly front-to-back (8-12 cm between shafts).
+9. Connect treadles: cut 2-8 treadles from hardwood (5 × 10 cm × 60 cm), pivoting at the rear on iron pins. Connect each treadle to its shaft via tie-up cords (strong linen cord, 3-4 mm diameter). The tie-up pattern determines the weave structure: 2 shafts/2 treadles for plain weave, 4 shafts/4-6 treadles for twill.
+10. Install treadle return springs or counterweights on the shafts to return treadles to neutral after depression. Without returns, the weaver must manually lift each treadle.
+11. Mount the bench: hardwood plank (30 × 40 cm) at ~45 cm seat height. The bench must be comfortable for hours of sitting and positioned so the weaver can reach both treadles and beater without straining.
+
+**Total frame width**: 30-40 cm wider than the weaving width (15-20 cm on each side for the frame and mechanism).
 
 **Shed geometry**: The shed (gap between raised and lowered warp threads) must be clean and large enough for the shuttle to pass. Ideal shed angle: 30-45° from horizontal. Shed depth (front-to-rear distance from heddles to fell line): 60-80 cm. Smaller shed = less strain on warp threads but harder shuttle passage. Adjust by varying the distance between heddle frames and beater.
 
-**Treadle return mechanism**: Treadle springs or counterweights return the treadles to the neutral position after depression. Without return springs, the weaver must manually lift each treadle, slowing the rhythm. Elastic cord (later development) or rubber band springs work; traditional looms use gravity counterweights on the shafts.
+## Calibration and Verification
+
+1. **Warp tension uniformity check**: Thread the loom with a test warp. Pluck each warp thread at the fell line — all threads should produce the same pitch (musical note). Higher pitch indicates tighter tension; lower indicates looser. Adjust by re-beaming the warp with even tension or by adjusting individual warp ends.
+2. **Shed clarity test**: Depress each treadle fully and measure the shed opening at the shuttle race. Minimum opening: 40-50 mm vertically at the shuttle race for a standard boat shuttle to pass without catching. If the shed is too small, increase the heddle shaft lift (longer cam/treadle travel) or raise the shaft pivot point.
+3. **Beater alignment check**: Lay a straightedge across the fell line with the beater in the forward position. The reed must be parallel to the cloth beam within 2 mm across the full width. A tilted reed produces uneven beat-up and varying weft density across the cloth width.
+4. **Treadle timing test**: Weave 50 picks at slow speed, counting the rhythm. Each shed must open fully before the shuttle enters and remain open until the shuttle arrives at the opposite side. If the shed closes prematurely, increase the treadle travel or adjust the tie-up cord lengths.
 
 ## Heddle Making
 
@@ -192,4 +211,5 @@ Systematic inspection catches defects before cloth is cut or sold:
 - [Steam Power](../energy/steam-power.md) — power for mechanized looms
 - [Electricity](../energy/electricity.md) — power for power looms
 
-[← Back to Textiles](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

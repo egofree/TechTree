@@ -259,4 +259,6 @@ Cull hens producing fewer than 60 eggs per season and toms showing aggressive be
 - [Food Processing](../food-processing/index.md) — egg and meat preservation
 - [Agriculture / Soil Management](../agriculture/soil-management.md) — guinea fowl manure as fertilizer
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

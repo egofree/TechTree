@@ -259,5 +259,6 @@ Each hardware device needs a driver — a software module that knows how to prog
 - [Electronic Computing](../computing/electronic.md) — Hardware architecture: interrupts, timers, I/O controllers
 - [Development Tools](dev-tools.md) — Debuggers essential for OS kernel debugging
 
+---
 
-[← Back to Software Bootstrapping](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../index.md)*

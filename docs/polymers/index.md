@@ -12,5 +12,6 @@ Capabilities in this domain:
 - [Elastomers in Semiconductor Equipment](rubber.semiconductor-apps.md) — Fluorinated and specialty elastomers for semiconductor seals, gaskets, and liners that withstand aggressive chemicals, elevated temperatures, and ultra-clean conditions.
 - [Thermoplastic Polymers](thermoplastics.md) — Polyethylene (LDPE/HDPE — films, containers, wire insulation), PVC (rigid pipe, flexible tubing, requires heat stabilizers), nylon (bearings, gears, engineering components), polystyrene (labware, insulation foam), and PTFE/Teflon (chemically inert, ultra-low friction, -200°C to +260°C, for seals and non-stick surfaces).
 - [Thermosetting Polymers](thermosets.md) — Phenol-formaldehyde (Bakelite — electrical insulators, photoresist binders), epoxy resins (structural adhesive, die attach, IC encapsulation), phenolic/epoxy FR-4 laminate (PCB substrate), unsaturated polyester resin (fiberglass matrix), and polyurethane (foams, elastomers).
+- [Seals, Gaskets & Packing](seals-gaskets.md) — O-ring manufacturing (molding, durometer selection, groove dimensions), gasket cutting from sheet materials (rubber, cork-rubber, PTFE, compressed fiber), compression packing for valve stems and pump shafts, and lip seal construction for rotating shafts.
 
 [↑ Back to Tech Tree](../index.md)

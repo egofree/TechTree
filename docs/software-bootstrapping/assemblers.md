@@ -224,4 +224,6 @@ The loader reads an executable file into memory and starts execution:
 - [Operating System Construction](operating-systems.md) — programs assembled here need an OS to manage resources
 - [Development Tools](dev-tools.md) — editors and debuggers that assist assembly programming
 
-[← Back to Software Bootstrapping](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../index.md)*

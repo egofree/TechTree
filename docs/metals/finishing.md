@@ -3,9 +3,10 @@
 > **Node ID**: metals.finishing
 > **Domain**: [Metals](./index.md)
 > **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`chemistry.coatings`](../chemistry/coatings.md), [`chemistry.electrolysis`](../chemistry/electrolysis.md), [`metals.non-ferrous`](non-ferrous.md)
-> **Enables**: `electrochemistry`
+> **Enables**: [`electrochemistry`](../electrochemistry/index.md)
 > **Timeline**: Years 15-40
 > **Outputs**: galvanized steel, plated parts, anodized aluminum, hardened surfaces, coated components
+> **Critical**: No — surface treatments extend service life but do not unlock new capabilities
 
 
 Metal finishing transforms the surface properties of metals without altering bulk chemistry. A thin surface layer — sometimes only micrometers thick — provides corrosion resistance, wear resistance, electrical conductivity, or decorative appearance that the base metal cannot. The economic importance is enormous: roughly half the steel produced globally receives some form of protective coating, and virtually every electronic device depends on electroplated connectors. Surface treatment processes range from simple acid dips (passivation) to complex electrochemical systems (hard chromium plating) and high-energy thermal processes (plasma spraying).
@@ -223,6 +224,40 @@ Paint is the most widely used protective coating for metals, but paint performan
 - Moderate environments: IOZ primer (50-75 µm) + epoxy intermediate (100-150 µm) + polyurethane topcoat (50-75 µm) = 200-300 µm total. Service life: 15-25 years to first maintenance.
 - Severe marine/industrial: IOZ primer + two epoxy intermediate coats + polysiloxane or fluoropolymer topcoat = 350-500 µm total. Service life: 25-40+ years.
 
+## Selection Guide
+
+**Decision criteria — choosing surface treatment methods**:
+- Use **hot-dip galvanizing** for structural steel outdoor exposure — 50-100+ year service life, lowest cost per year of protection, 50-100 µm coating
+- Use **electro-galvanizing** for thin, smooth coatings on automotive body panels — 2-20 µm, uniform, excellent paint adhesion
+- Use **hard chrome plating** for hydraulic rods and wear surfaces requiring 850-1100 HV hardness and 0.05-0.12 friction coefficient — environmental pressure driving HVOF WC-Co replacement
+- Use **electroless nickel (Ni-P)** for uniform coating on complex geometries — ±2-5 µm uniformity, 900-1100 HV after heat treatment
+- Use **Type III hard anodizing** for aluminum wear surfaces — 25-100 µm, 400-600 HV, no dimensional change
+- Use **pack carburizing** for case hardening low-carbon steel — simple equipment (furnace + steel boxes + charcoal), 0.5-2 mm case depth
+- Use **nitriding** for highest surface hardness (900-1200 HV) without quenching distortion — precision gears, valve seats
+- Use **HVOF WC-Co** for tungsten carbide wear coatings replacing hard chrome — 1000-1300 HV, <1% porosity, no Cr⁶⁺
+- Use **plasma spray YSZ** for thermal barrier coatings on turbine blades — 100-300°C temperature drop across coating
+
+**Implementation steps for metal finishing capability**:
+1. Define the service environment (atmospheric, marine, chemical, high-temperature, wear) and required service life
+2. Select base metal and surface treatment compatibility — anodizing works only on aluminum; nitriding requires nitride-forming alloying elements
+3. Establish pretreatment capability: alkaline cleaning, acid pickling, grit blasting (Sa 2½ minimum for structural steel)
+4. Set up quality verification: coating thickness measurement (magnetic gauge for steel, eddy current for Al), adhesion testing (cross-hatch or pull-off), salt spray testing (ASTM B117)
+5. Implement waste treatment for effluent: cyanide destruction, Cr⁶⁺ reduction, metal hydroxide precipitation, pH neutralization
+6. Ensure acid-handling PPE and emergency equipment: calcium gluconate gel for HF workstations, emergency shower and eyewash
+
+**Surface treatment trade-offs**:
+
+| Treatment | Coating Thickness | Hardness | Corrosion Protection | Cost | Complexity | Best For |
+|---|---|---|---|---|---|---|
+| Hot-dip galvanize | 50-100 µm | 70-150 HV | Excellent (sacrificial) | Low | Low | Structural steel outdoors |
+| Hard chrome | 10-500 µm | 850-1100 HV | Moderate | High | Very High | Hydraulic rods, wear surfaces |
+| Electroless Ni-P | 5-100 µm | 500-1100 HV (HT) | Excellent (high-P) | Medium | Medium | Complex geometry, uniform coating |
+| Hard anodize (Al) | 25-100 µm | 400-600 HV | Good (sealed) | Low | Low | Aluminum wear surfaces |
+| Pack carburize | 0.5-2 mm case | 58-62 HRC (case) | None (needs oil) | Low | Low | Gears, bearings on low-C steel |
+| Nitriding | 0.1-0.7 mm case | 900-1200 HV | Moderate | Medium | Medium | Precision parts, no distortion |
+| HVOF WC-Co | 50-500 µm | 1000-1300 HV | Good | High | High | Wear surfaces, chrome replacement |
+| Plasma spray YSZ | 100-500 µm | N/A (ceramic) | N/A (thermal) | Very High | Very High | Turbine TBC |
+
 ## Safety & Hazards
 
 **Acid handling** (pickling, passivation, anodizing):
@@ -269,4 +304,4 @@ Paint is the most widely used protective coating for metals, but paint performan
 - [Aluminum](aluminum.md) — anodizing and aluminum surface treatment
 - [Electroplating](../electrochemistry/electroplating.md) — electrodeposition of metal coatings
 
-[← Back to Metals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

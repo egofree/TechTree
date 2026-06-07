@@ -243,4 +243,6 @@ The $5/kWh target depends on SEM Tech membranes achieving adequate selectivity a
 - [SEM Tech Fuel Cells](sem-tech-fuel-cells.md) -- fuel cell application of SEM Tech membranes
 - [Electricity](electricity.md) -- electrical generation and distribution infrastructure
 
-[← Back to Energy](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

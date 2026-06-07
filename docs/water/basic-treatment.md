@@ -281,4 +281,5 @@ The key scaling breakpoint is the jump from household to community scale: this r
 - [SEM Tech Water Treatment](sem-tech-water-treatment.md) — advanced desalination and purification
 
 
-[← Back to Water](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*

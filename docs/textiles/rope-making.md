@@ -248,4 +248,5 @@ Rope for lifting and life-safety applications must be proof-tested and certified
 - [Gravity Systems](../energy/gravity.md) — rope for power transmission
 - [Construction](../construction/index.md) — rope for lifting and rigging
 
-[← Back to Textiles](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

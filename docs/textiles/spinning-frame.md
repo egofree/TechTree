@@ -38,7 +38,7 @@ Mechanized spinning replaces hand drafting and twisting with powered rollers and
 | Leather or rubber (roller cots) | 100-200 pcs | 25 mm ID, 2-3 mm wall, shore A 65-80 | [Polymers](../polymers/index.md) | Leather (shorter life, less consistent grip) |
 | Bearings | 200-400 pcs | Plain bronze or ball bearings for spindles | [Bearings](../machine-tools/bearings-abrasives.md) | Wooden bearings with oil cups (short life at high rpm) |
 | Drive belts | 5-15 m | Leather or canvas, 50-100 mm wide | [Leather](../animals/leather.md) | Rope drive (less efficient) |
-| Bolts and fasteners | 20-50 kg | Grade 8.8, M8-M16 | [Fasteners](../metals/fasteners.md) | Riveted joints (non-adjustable) |
+| Bolts and fasteners | 20-50 kg | Grade 8.8, M8-M16 | [Iron & Steel](../metals/iron-steel.md) — fabricated in-house | Riveted joints (non-adjustable) |
 
 ## Construction Steps
 
@@ -149,7 +149,29 @@ Mechanized spinning replaces hand drafting and twisting with powered rollers and
 - **Noise**: Ring frames at 10,000+ rpm generate 85-95 dB. Hearing protection required for extended exposure.
 - **Drive belts**: Leather and canvas belts at high speed can break and whip. Guard belt runs. Maintain belt tension — loose belts slip and fray.
 
-## Troubleshooting
+## Maintenance
+
+**Daily checks** (before each shift):
+- Inspect travelers on ring frames for wear. A worn traveler (rounded edges, thin wire) causes uneven twist and frequent yarn breaks. Replace worn travelers — they are consumable items with 100-500 hour life.
+- Check roller cots (rubber or leather covers on drafting rollers) for grooves, cracks, or glazing. Worn cots grip fiber unevenly, producing slubs and drafting faults. Rotate or replace cots showing wear grooves deeper than 0.5 mm.
+- Oil spindle bearings: 2-3 drops of spindle oil (light mineral oil, ISO VG 10-22) per bearing. Under-lubricated bearings generate heat and wear rapidly at 5,000+ rpm.
+
+**Weekly maintenance**:
+- Check drafting roller alignment with a precision straightedge. Misalignment greater than 0.05 mm per 100 mm produces uneven drafting and slubs. Adjust bearing block positions.
+- Inspect drive belts for tension, cracks, and alignment. A belt that tracks off the pulley edge will fray and break within hours.
+- Clean accumulated fly (fiber dust) from around the spindle rail, ring rail, and roller assemblies. Fly buildup interferes with traveler rotation and contaminates yarn.
+
+**Monthly maintenance**:
+- Measure ring wear with a bore gauge. Ring inner diameter increases with use; the traveler-to-ring clearance must stay within specification. Rings worn more than 0.1 mm over nominal diameter must be replaced.
+- Check spindle runout with a dial indicator. Maximum acceptable runout: 0.03 mm at the spindle tip. Higher runout causes vibration, yarn breaks, and uneven package building. Re-balance or replace spindles exceeding this limit.
+- Inspect the ring rail lifting cam for wear. The cam profile determines package shape — a worn cam produces uneven bobbins that cause tension variation in downstream processes (winding, warping, weaving).
+
+**Ring and traveler replacement schedule**:
+- Travelers: replace every 100-500 operating hours depending on yarn count and spindle speed. Coarse yarn at high speed wears travelers faster.
+- Rings: replace every 5,000-15,000 operating hours. Ring surface finish degrades progressively — rough rings cause traveler vibration and yarn hairiness.
+- When replacing rings, clean the ring rail seat thoroughly before pressing in the new ring. Any debris under the ring causes misalignment.
+
+## Yarn Quality Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -159,6 +181,16 @@ Mechanized spinning replaces hand drafting and twisting with powered rollers and
 | Mule yarn too hairy | Insufficient twist or drafting too aggressive | Increase twist (higher spindle speed or slower carriage). Reduce draft ratio. |
 | Ring frame package density uneven | Ring rail lift timing off or chase too long/short | Adjust cam profile for lift pattern. Shorten chase for denser package. |
 | Rollers crushing fiber | Top roller pressure too high or bottom roller surface worn | Reduce top roller weighting. Re-grind bottom roller surface. Replace cots. |
+| Yarn hairiness (excessive fiber protrusion) | Traveler too light, ring worn, or spindle speed too high | Increase traveler weight. Replace worn rings. Reduce spindle speed by 10-15%. |
+| Yarn count variation | Drafting ratio fluctuating or roving feed inconsistent | Check change gears for worn teeth. Verify roving bobbin tension in the creel. Clean guide eyes. |
+
+## Power and Drive Requirements
+
+Spinning frames have specific power demands that scale with spindle count and speed. A 100-spindle ring frame operating at 5,000 rpm requires 3-8 kW, distributed across the roller drafting system, spindle drive, and ring rail lift mechanism. The spindle drive consumes 60-70% of total power (air drag on the traveler and bobbin, bearing friction). Roller drafting consumes 15-20%. The remainder drives the lift mechanism and overcoming friction in the gear train.
+
+Drive configuration: a single motor drives the main shaft via flat belt. The main shaft drives the roller gear train through change gears (ratio adjustable for yarn count) and the tin roller (spindle drive) through a separate belt. Individual spindle speeds must be uniform within ±2% — a faster spindle overtwists yarn, a slower spindle undertwists, both producing defects visible in the finished cloth.
+
+Line shaft drives (multiple frames from one power source via overhead shafting and belts) were standard in 19th-century mills. Each frame has a tight-and-loose pulley arrangement for starting and stopping independently. Counter-shafts step down the line shaft speed to the frame's operating speed. Total power for a 500-spindle spinning room: 15-40 kW, depending on yarn count and spindle speed.
 
 ## See Also
 
@@ -169,4 +201,5 @@ Mechanized spinning replaces hand drafting and twisting with powered rollers and
 - [Bearings](../machine-tools/bearings-abrasives.md) — bearing selection for high-speed spindles
 - [Energy](../energy/index.md) — power sources for driving spinning frames
 
-[← Back to Textiles](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

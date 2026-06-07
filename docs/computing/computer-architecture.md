@@ -3,7 +3,7 @@
 > **Node ID**: computing.computer-architecture
 > **Domain**: [Computing](./index.md)
 > **Dependencies**: [`computing.logic-design`](logic-design.md), [`computing.electronic`](electronic.md), [`computing.data-storage`](data-storage.md)
-> **Enables**: [`computing.embedded-systems`](embedded-systems.md), semiconductor fab automation control systems
+> **Enables**: [`computing.embedded-systems`](embedded-systems.md), [process control systems](../automation/process-control.md)
 > **Timeline**: Years 50-70+
 > **Outputs**: cpu_designs, memory_hierarchy, bus_architecture, io_systems
 > **Critical**: Yes — the architecture determines whether logic gates become a useful processor or an unorganized collection of transistors
@@ -254,4 +254,5 @@ The compiler explicitly schedules parallel operations. Each instruction contains
 
 
 
-[← Back to Computing](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*

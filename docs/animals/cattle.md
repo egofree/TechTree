@@ -296,4 +296,6 @@ A founding herd of 10-15 cattle (8-10 cows, 2-3 heifers, 1-2 bulls) expands to 4
 - [Agriculture & Food Production](../foundations/food-agriculture.md) — pasture and manure cycling
 - [Equines](equines.md) — alternative draft and transport animals
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

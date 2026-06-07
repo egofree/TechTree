@@ -229,4 +229,5 @@ The telephone's growth rate exceeded the telegraph by 10x. In the US, telegraph 
 - [Submarine Cable Systems](submarine-cables.md) — undersea telephone cables
 - [Electromechanical Computing](../computing/electromechanical.md) — relay-based switching technology used in exchanges
 
-[← Back to Telecommunications](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Telecommunications](./index.md) • [All Domains](../index.md)*

@@ -209,4 +209,6 @@ When a threat to the archive is detected (fire, flood, structural failure, pest 
 - [Ceramics](../ceramics/pottery.md) — clay tablet production for permanent records
 - [Education Pathways](education-pathways.md) — training archivists and preservation specialists
 
-[← Back to Knowledge Preservation & Education](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*

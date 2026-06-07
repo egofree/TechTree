@@ -205,17 +205,49 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 
 Build combinational and sequential logic from individual SSI/MSI TTL or CMOS ICs. Each 14-pin DIP package contains 4 gates (NAND, NOR, XOR) or 2 flip-flops. A 32-bit counter requires 8 ICs. Practical for prototyping and low-volume production. Maximum complexity: ~100 ICs on a single board before wire management becomes unmanageable.
 
+**Strengths**:
+- Fastest path to a working prototype — no HDL tools, synthesis, or programming required
+- Every node is probeable with an oscilloscope for straightforward debugging
+
+**Weaknesses**:
+- Board space and wiring scale linearly — ~100 IC practical limit before wire management fails
+- No path to volume production; each board is hand-assembled and unique
+
 ## Programmable Logic (GAL/CPLD)
 
 Replace discrete glue logic with a single programmable device. A GAL 22V10 replaces up to 10 discrete ICs. EEPROM-based configuration is non-volatile (retains programming without power). In-system programmable (ISP) via JTAG. Ideal for state machines, address decoders, and interface glue logic.
+
+**Strengths**:
+- Non-volatile EEPROM configuration — design retained without power, instant operation at power-up
+- In-system programmable via JTAG — no external programmer needed for design changes
+
+**Weaknesses**:
+- Limited to ~200 macrocells — insufficient for designs requiring thousands of logic elements
+- Fixed macrocell architecture constrains some designs (limited product terms per output)
 
 ## FPGA Implementation
 
 Map the entire design to a field-programmable gate array. SRAM-based configuration allows infinite reprogramming. Modern FPGAs contain 10K to 10M+ logic elements, embedded RAM, DSP multipliers, and hardened I/O interfaces (PCIe, Ethernet, DDR memory controllers). The standard platform for digital prototyping and medium-volume production.
 
+**Strengths**:
+- Infinite reprogrammability — SRAM configuration allows rapid design iteration without cost penalty
+- Scales to millions of logic elements with embedded RAM, DSP blocks, and hardened I/O interfaces
+
+**Weaknesses**:
+- SRAM configuration is volatile — requires external flash or bootloader at every power-up
+- Per-unit cost 10-100× higher than ASIC at volume above ~50,000 units
+
 ## ASIC Implementation
 
 Commit the design to a custom silicon fabrication. Highest performance, lowest per-unit cost at volume (>100K units), but highest NRE (non-recurring engineering) cost ($100K-$10M for mask sets). The final step in the scaling path: prototype on FPGA, verify, then commit to ASIC for production.
+
+**Strengths**:
+- Highest performance and lowest per-unit cost at volume (>100K units)
+- Full custom optimization — transistor sizing, clock tree, and layout tuned for maximum speed
+
+**Weaknesses**:
+- NRE cost of $100K-$10M for mask sets — any design error after tape-out requires new masks
+- Months from design commit to silicon — no rapid iteration; errors are extremely costly
 
 ## Design Methodology Comparison
 
@@ -235,4 +267,5 @@ Commit the design to a custom silicon fabrication. Highest performance, lowest p
 - [PCB Fabrication](../electronics/pcb-fabrication.md) — PCB manufacturing for logic circuit assemblies
 - [Passive Components](../electronics/passive-components.md) — resistors, capacitors, and inductors for logic circuit bias and decoupling
 
-[← Back to Computing](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*

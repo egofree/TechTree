@@ -235,4 +235,6 @@ Magnesite bricks (MgO >85%) are the foundation of basic steelmaking refractories
 - [Mining / Processing](../mining/processing.md) — raw material extraction (clay, magnesite, bauxite)
 - [Fuels](../energy/fuels.md) — fuel requirements for calcination and firing
 
-[← Back to Chemistry](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

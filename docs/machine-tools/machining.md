@@ -5,7 +5,7 @@
 > **Timeline**: Years 10-25
 > **Outputs**: machined_parts
 > **Dependencies**: [`machine-tools.bearings-abrasives`](bearings-abrasives.md), [`machine-tools.iterative-bootstrap`](iterative-bootstrap.md)
-> **Enables**: [`energy.gravity.water-turbines`](../energy/water-turbines.md), [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md), [`knowledge.printing`](../knowledge/printing.md), [`machine-tools.edm-cnc`](edm-cnc.md), `machine-tools.joining.friction-stir`, [`mining.drilling`](../mining/drilling.md)
+> **Enables**: [`energy.gravity.water-turbines`](../energy/water-turbines.md), [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md), [`knowledge.printing`](../knowledge/printing.md), [`machine-tools.edm-cnc`](edm-cnc.md), [`machine-tools.joining.friction-stir`](./joining.md), [`mining.drilling`](../mining/drilling.md)
 > **Critical**: Yes — achieves the precise geometry, surface finish, and dimensional tolerance that make interchangeable parts possible
 
 
@@ -510,4 +510,6 @@ Cutting fluids cool the tool and workpiece, lubricate the chip-tool interface, a
 - **Surface integrity**: Machining creates a worked surface layer (residual stress, microstructural changes, micro-cracks) 10-200 μm deep. Fatigue-critical parts may require post-machining treatments (shot peening, stress relief annealing).
 - **Skill requirement**: Manual machining requires significant operator skill for setup, tool selection, and process control. CNC machining transfers this to programming but requires software expertise.
 
-[← Back to Machine Tools](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*

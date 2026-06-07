@@ -3,7 +3,7 @@
 > **Node ID**: energy.electric-furnaces
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.electricity`](electricity.md), `machine-tools`
-> **Enables**: [`energy.electric-furnaces.electrode-manufacturing`](electrode-manufacturing.md), `machine-tools.joining.diffusion-bonding`, [`metals.powder-metallurgy`](../metals/powder-metallurgy.md), [`silicon.mg-si-production`](../silicon/mg-si-production.md)
+> **Enables**: [`energy.electric-furnaces.electrode-manufacturing`](electrode-manufacturing.md), [`machine-tools.joining.diffusion-bonding`](../machine-tools/joining.md), [`metals.powder-metallurgy`](../metals/powder-metallurgy.md), [`silicon.mg-si-production`](../silicon/mg-si-production.md)
 > **Timeline**: Years 20-30
 > **Outputs**: electric_arc_furnaces, resistance_heaters, eaf_steel
 > **Critical**: Yes — electric furnaces are the only route to temperatures above 1500°C in controlled atmosphere; essential for steel recycling, silicon reduction, and ferroalloy production
@@ -245,6 +245,6 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 - [Refractories](../chemistry/refractories.md) — Furnace lining materials
 - [Cooling Systems](cooling.md) — Industrial process cooling
 
+---
 
-
-[← Back to Energy](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

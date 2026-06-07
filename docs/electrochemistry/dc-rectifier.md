@@ -115,6 +115,68 @@ This design uses a three-phase or single-phase thyristor bridge to provide conti
 - LC filter inductor at high current (200+ A) is large, heavy (10-50 kg), and expensive — the single most expensive passive component
 - Single-phase rectifiers produce 120 Hz ripple (100 Hz at 50 Hz mains) that requires substantial filtering; three-phase rectifiers produce 360 Hz ripple and are preferred for currents above 100 A
 
+## Design Calculations
+
+### Transformer Sizing Example
+
+For a 0-30 V, 200 A rectifier:
+
+1. **DC output power**: P_DC = V_max × I_max = 30 V × 200 A = 6,000 W
+2. **Rectifier efficiency**: η = 0.85 (thyristor bridge + filter). AC input power: P_AC = P_DC / η = 7,060 W
+3. **Transformer secondary voltage**: V_secondary = V_DC_max / 0.9 + 2V_dropout = 30 / 0.9 + 2 × 1.5 = 36.3 V. Use 40 V secondary for regulation headroom at low firing angles
+4. **Transformer secondary current**: I_secondary = I_DC × 1.15 (form factor for half-controlled bridge) = 200 × 1.15 = 230 A
+5. **Transformer VA rating**: VA = V_secondary × I_secondary = 40 × 230 = 9,200 VA. Select a 10 kVA transformer
+
+### Filter Design Example
+
+For the 200 A rectifier with <5% ripple target:
+
+1. **Single-phase ripple frequency**: 120 Hz (2× line frequency at 60 Hz). Peak-to-peak ripple voltage before filter: V_ripple ≈ V_DC × 0.67 (half-controlled bridge at 50% firing angle)
+2. **Required LC attenuation**: Target ripple <5% of 30 V = 1.5 V peak-to-peak. Attenuation needed: 20 V → 1.5 V = 13:1 (attenuation factor)
+3. **Filter inductor**: L = V_ripple × T_off / (2 × ΔI_ripple). At 120 Hz with 200 A load: L = (20 V × 4.17 ms) / (2 × 20 A) = 2.1 mH. Select 3 mH air-gapped iron core rated for 200 A DC without saturation
+4. **Filter capacitor**: C = ΔI_ripple / (8 × f × ΔV_ripple) = 20 A / (8 × 120 Hz × 1.5 V) = 13,900 μF. Select 33,000 μF at 50 V (standard value, provides margin)
+
+### Three-Phase Bridge Variant
+
+For currents above 100 A, a three-phase half-controlled bridge is preferred:
+
+- **Configuration**: 3 thyristors (upper arms) + 3 diodes (lower arms). Requires a three-phase transformer or three individual single-phase transformers
+- **Ripple frequency**: 360 Hz (6× line frequency at 60 Hz) — 3× higher than single-phase, requiring less filtering
+- **Lower ripple at same filter size**: At 360 Hz, the same LC filter provides 9× more attenuation than at 120 Hz. Typical ripple: <2% without additional filter stages
+- **Transformer secondary**: Three-phase, 40 V line-to-line, each phase rated 120 A. Total VA: √3 × 40 V × 120 A = 8,310 VA (more efficient use of transformer copper than single-phase)
+- **Trigger circuit**: Three independent gate channels, each synchronized to its respective phase. Phase sequence (A-B-C) must be verified — incorrect sequence causes asymmetric firing and DC offset in the output
+- **Applications**: Production anodizing (100-500 A), copper electrorefining (5,000-20,000 A), industrial electroplating
+
+### Switch-Mode Rectifier Alternative
+
+For applications below 100 A, a switch-mode power supply (SMPS) offers advantages over thyristor control:
+
+- **Topology**: Forward converter or half-bridge operating at 20-100 kHz switching frequency. High-frequency operation allows a much smaller filter inductor (10-100 μH vs. 1-10 mH for thyristor)
+- **Ripple**: <1% due to high switching frequency and effective LC filtering. No audible hum from the filter inductor
+- **Power factor**: >0.95 with active PFC front end — no reactive power penalty
+- **Size and weight**: 3-5× smaller and lighter than a thyristor rectifier of equivalent rating (no large transformer or iron-core choke)
+- **Limitation**: MOSFET/IGBT current rating limits practical output to ~200 A. Above 200 A, thyristor rectifiers remain more cost-effective and robust. Switch-mode rectifiers are also more sensitive to line transients and require input surge protection (MOV or TVS devices)
+
+## Maintenance
+
+**Monthly**:
+- Verify front-panel meter accuracy against a calibrated reference voltmeter and ammeter (tolerance ±2%)
+- Inspect bus bar connections for discoloration or heating marks — retorque to specification (typical: 8-12 N·m for M8 bus bolts)
+- Check heat sink fins for dust accumulation — clean with compressed air
+- Measure output ripple with oscilloscope at 50% and 100% rated load — verify <5%
+
+**Quarterly**:
+- Measure filter capacitor ESR (equivalent series resistance) with an LCR meter. Compare to new capacitor spec — replace if ESR has increased by >50% (indicates electrolyte degradation)
+- Verify thermal protection: force heat sink temperature above 80°C with a heat gun and confirm the thermostatic switch disables the trigger circuit
+- Test semiconductor fuse continuity with a milliohmmeter — a blown fuse reads open circuit
+- Inspect thyristor and diode mounting — verify thermal compound has not dried out. Reapply if thyristor case-to-heat-sink thermal resistance exceeds 0.5 K/W
+
+**Annually**:
+- Full calibration: verify voltage and current regulation accuracy across 10%, 50%, and 100% of rated output using reference instruments
+- Replace filter capacitors older than 10,000 operating hours (electrolyte dry-out causes capacitance loss and ESR increase)
+- Inspect transformer for buzzing, overheating, or insulation degradation. Measure winding resistance — a change >5% from baseline indicates developing short circuit
+- Test ramp function: verify voltage ramps from 0 to setpoint over the programmed duration (1-15 minutes) without overshoot or oscillation
+
 ## Safety
 
 - **Electrical hazard**: The rectifier output delivers 50-500 A at 12-100 V DC. At 50+ V DC (Type III hard anodizing), wet skin contact with the output terminals can cause lethal shock. At lower voltages (<30 V), the shock hazard is minimal but the short-circuit current (limited only by transformer impedance) can reach thousands of amps, causing arc flash, fire, and molten metal. Always use insulated tools when adjusting bus connections. Install insulated terminal covers on the output.

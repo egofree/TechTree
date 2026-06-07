@@ -284,6 +284,6 @@ The lime cycle (CaCO₃ → CaO → Ca(OH)₂ → CaCO₃) is central to alkali 
 - **[Acids](acids.md)**: Complementary acid-base chemistry
 - **[Soap](soap.md)**: NaOH in saponification
 
+---
 
-
-[← Back to Chemistry](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

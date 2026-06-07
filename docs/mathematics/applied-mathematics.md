@@ -227,6 +227,21 @@ Replace continuous derivatives with discrete differences: ∂T/∂t ≈ (Tᵢⁿ
 | Probability & statistics | SPC, yield analysis, measurement uncertainty | Year 15-25 — quality control |
 | Numerical methods | Computer-aided engineering, simulation | Year 30-70 — CAD, CAM, FEA, EDA |
 
+## Decision Framework
+
+| Problem Type | Tool to Use | When to Apply |
+|---|---|---|
+| Rate of change (velocity, reaction rate, heat flow) | Differential calculus | When a quantity changes continuously over time or space |
+| Total accumulation (area, energy, total production) | Integral calculus | When you need the sum of a continuously varying quantity |
+| Multiple interacting variables | Linear algebra (matrices) | When systems have 3+ coupled linear equations |
+| Dynamic system behavior over time | Differential equations | When rates of change depend on the current state |
+| Random variation and uncertainty | Probability and statistics | When measurements or outcomes vary unpredictably |
+| No analytical solution exists | Numerical methods | When equations cannot be solved in closed form |
+
+## Safety
+
+No physical hazards — primarily intellectual work. Ergonomic considerations for extended study: maintain proper posture at work surface, ensure adequate lighting to prevent eye strain, take breaks during sustained mental effort.
+
 ## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
@@ -247,4 +262,5 @@ Replace continuous derivatives with discrete differences: ∂T/∂t ≈ (Tᵢⁿ
 - [Chemistry](../chemistry/index.md) — process modeling with differential equations
 - [Electronics](../electronics/index.md) — circuit analysis with linear algebra and calculus
 
-[← Back to Mathematics & Formal Sciences](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Mathematics & Formal Sciences](./index.md) • [All Domains](../index.md)*

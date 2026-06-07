@@ -11,7 +11,7 @@
 
 Sheep are the most versatile small ruminant for a bootstrapping civilization — producing wool (the premier natural fiber for textiles), meat (lamb and mutton), milk (for cheese and fermented products), and pelts. Their modest size (mature weight 60-120 kg depending on breed) makes them easier to handle than cattle, and their gregarious flocking instinct simplifies herding. Gestation is 147 days (range 144-152), with typical litters of singles for hill breeds, twins for lowland breeds, and occasional triplets. A well-managed flock of 50-100 ewes on 10-15 hectares of improved pasture can sustain a small community with food, fiber, and fertilizer.
 
-Sheep are particularly valuable in early-stage agriculture because they graze closer to the ground than cattle, utilize vegetation that cattle refuse, and produce nitrogen-rich manure (0.7% N fresh weight, 2-3 kg/day per animal) that builds soil fertility. Their relatively low infrastructure requirements — simple shelters for winter and lambing, basic fencing — make them accessible at an early stage of development.
+Sheep are particularly valuable in early-stage agriculture because they graze closer to the ground than cattle, use vegetation that cattle refuse, and produce nitrogen-rich manure (0.7% N fresh weight, 2-3 kg/day per animal) that builds soil fertility. Their relatively low infrastructure requirements — simple shelters for winter and lambing, basic fencing — make them accessible at an early stage of development.
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
@@ -137,7 +137,7 @@ Materials listed per 50-ewe flock per year.
 **Strengths**:
 - Fast growth — market weight in 4-6 months on pasture alone
 - Multiple market classes (lamb, hogget, mutton) provide flexibility
-- Sheep utilize vegetation that cattle refuse — no competition for the same forage
+- Sheep use vegetation that cattle refuse — no competition for the same forage
 - Carcass byproducts (pelt, tallow, bone meal) have additional value
 
 **Weaknesses**:
@@ -266,4 +266,6 @@ A founding flock of 10-20 ewes and 1-2 rams expands to 50-100 head within 4-5 ye
 - [Agriculture & Food Production](../foundations/food-agriculture.md) — pasture management
 - [Food Processing](../food-processing/dairy.md) — sheep milk cheese and dairy
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

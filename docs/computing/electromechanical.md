@@ -236,5 +236,8 @@ Before electronic computers, automated computation and control require electrome
 - [Metals / Iron and Steel](../metals/iron-steel.md) — relay frames, contacts, and spring materials
 - [Machine Tools](../machine-tools/index.md) — cam cutting, precision boring, and grinding
 
-[← Back to Computing](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*
 
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing & Automation](./index.md) • [All Domains](../index.md)*

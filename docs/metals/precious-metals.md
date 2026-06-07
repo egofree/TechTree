@@ -248,6 +248,37 @@ Precious metal production depends heavily on existing metallurgical and chemical
 - Cyanidation and electrolytic refining require chemical and electrical infrastructure (NaCN, DC power, HNO₃) not available until mid-bootstrap.
 - Semiconductor-grade purity (99.999%+) requires zone refining or repeated electrolysis — slow, expensive, and energy-intensive.
 
+## Selection Guide
+
+**Decision criteria — choosing precious metal refining methods**:
+- Use **cyanidation** for gold extraction from hard-rock ores (2-15 g/t) — 90-97% recovery, industrial standard, requires NaCN and alkaline conditions (pH 10-11)
+- Use **gravity separation** for placer/alluvial gold — 70-90% recovery for particles >100 µm, no chemicals required, first method to employ
+- Use **Miller chlorination** for bulk gold refining to 99.5% — chlorine gas at 1100-1200°C, silver remains in bullion
+- Use **Wohlwill electrolysis** for gold refining to 99.99% — chloroauric acid electrolyte, required for semiconductor-grade gold
+- Use **Moebius electrolysis** for silver refining to 99.9%+ — AgNO₃/HNO₃ electrolyte, recovers gold from anode slime
+- Use **aqua regia dissolution + precipitation** for small-batch gold and PGM refining — flexible but labor-intensive, fume-intensive
+- Use **Parkes process** (zinc desilverization) for recovering silver from lead bullion — zinc crust is distilled to recover silver and reuse zinc
+
+**Implementation steps for precious metal production**:
+1. Assess ore type: placer gold for gravity recovery; hard-rock gold for cyanidation; sulfide-associated for flotation + roasting + cyanidation
+2. For gold: start with panning/sluicing for placer, add cyanidation for hard-rock; for silver: electrolytic refining from copper anode slime or Parkes process from lead
+3. Establish acid handling infrastructure: HCl, HNO₃, aqua regia, chlorine gas — fume extraction, acid-resistant plumbing, emergency neutralization
+4. Set up electrolytic refining for high purity: Wohlwill cells for gold (99.99%), Moebius cells for silver (99.9%+)
+5. Add fire assay capability for quantitative analysis — the standard method for gold/silver content in ore and bullion
+6. For semiconductor-grade: add zone refining or additional Wohlwill passes to achieve 99.999%+ purity
+
+**Precious metal refining trade-offs**:
+
+| Method | Metal | Feed | Purity | Recovery | Complexity | Best For |
+|---|---|---|---|---|---|---|
+| Gravity separation | Au | Placer ore | Native (90-98%) | 70-90% | Very Low | Alluvial gold, first method |
+| Cyanidation (CIL/CIP) | Au | Hard-rock ore | Doré (80-95%) | 90-97% | Medium | Industrial gold extraction |
+| Miller chlorination | Au | Doré bullion | 99.5% | 95-99% | Medium | Bulk gold refining |
+| Wohlwill electrolysis | Au | Chlorinated bullion | 99.99% | 99.5%+ | High | Semiconductor-grade gold |
+| Moebius electrolysis | Ag | Copper anode slime | 99.9%+ | 98-99% | High | Silver from copper smelting |
+| Parkes process | Ag | Lead bullion | Crust (rich in Ag) | 95-98% | Medium | Silver from lead smelting |
+| Aqua regia refining | Au, PGM | Scrap, doré | 99.9%+ | 95-99% | High | Small batch, flexible |
+
 ## Safety & Hazards
 
 **Cyanide**:
@@ -296,4 +327,4 @@ Precious metal production depends heavily on existing metallurgical and chemical
 - [Electroplating](../electrochemistry/electroplating.md) — gold and silver plating
 - [Zinc](zinc.md) — zinc for precious metal recovery
 
-[← Back to Metals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

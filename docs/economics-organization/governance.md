@@ -240,6 +240,6 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 - [Trade](./trade.md) — the exchange system that governance regulates (weights, measures, market rules)
 - [Accounting](./accounting.md) — the financial records that governance uses for resource allocation
 
+---
 
-
-[← Back to Economics & Organization](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*

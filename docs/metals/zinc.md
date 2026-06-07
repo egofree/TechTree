@@ -18,7 +18,7 @@ The bootstrap chain runs: zinc enables galvanized steel → long-life infrastruc
 ## Prerequisites
 
 - **Materials**: [Sphalerite ore](../mining/extraction.md) (ZnS, 3-12% Zn grade), [coke or charcoal](../energy/charcoal.md) for reduction, [sulfuric acid](../chemistry/acids.md) for leaching (electrolytic route), [limestone](../ceramics/lime.md) for pH control in flotation, [copper sulfate](../chemistry/index.md) as flotation activator
-- **Tools**: [Crushing and grinding equipment](../machine-tools/casting.md) (jaw crusher, ball mill), flotation cells, [roaster furnace](../energy/charcoal.md) (fluidized bed, 900-1000°C), retorts or blast furnace for smelting, [electrowinning cells](../chemistry/electrolysis.md) (aluminum cathodes, Pb-Ag anodes), induction furnace for casting (450-500°C)
+- **Tools**: [Crushing and grinding equipment](./casting.md) (jaw crusher, ball mill), flotation cells, [roaster furnace](../energy/charcoal.md) (fluidized bed, 900-1000°C), retorts or blast furnace for smelting, [electrowinning cells](../chemistry/electrolysis.md) (aluminum cathodes, Pb-Ag anodes), induction furnace for casting (450-500°C)
 - **Knowledge**: Froth flotation chemistry, acid-base leaching and solution purification, electrochemistry (electrowinning at 3.0-3.5 V), distillation and condensation of metal vapors
 - **Infrastructure**: Electrical power supply (100-150 MW for large plant, 3.0-3.5 kWh/kg zinc), water supply for flotation (2-5 m³/tonne ore), SO₂ capture and sulfuric acid plant, ventilation for metal fume and SO₂
 
@@ -230,6 +230,31 @@ Zinc (mp 420°C, bp 907°C) is produced by roasting sphalerite (ZnS) to ZnO, the
 
 **Zinc-rich primers** (expanded detail): Two-component epoxy zinc-rich primer consists of zinc dust (85-93% by weight in the dry film) dispersed in an epoxy resin binder (Epon 828 or equivalent bisphenol-A epoxy, 5-10% by weight) cured with a polyamide or amine hardener. The key requirement: zinc particle loading must exceed the critical pigment volume concentration (CPVC, typically 62-67% by volume) so that zinc particles are in direct electrical contact with each other and with the steel substrate. Below CPVC, binder fills the gaps between particles and electrical contact is broken — the cathodic protection mechanism fails and the coating provides only barrier protection (inferior). Film thickness: 50-100 μm dry. Applied by airless spray (1500-2500 psi, 0.015-0.021" tip) in a single coat. Overcoat with an epoxy intermediate coat (100-200 μm) and polyurethane topcoat (50-75 μm) for appearance and UV resistance. Total system dry film thickness: 200-375 μm. Service life in C5-M marine environment (ISO 12944): 15-25 years to first maintenance. Zinc consumption rate: ~5-15 μm/year of the zinc-rich layer (the zinc slowly corrodes to protect the steel — the primer is a consumable coating).
 
+## Selection Guide
+
+**Decision criteria — choosing zinc production methods**:
+- Use **electrolytic (RLE) route** for primary zinc from sulfide concentrates — 95%+ of world production, 99.995% SHG purity, 3.0-3.5 kWh/kg, requires H₂SO₄ leaching
+- Use **Imperial Smelting Furnace (ISF)** for simultaneous zinc and lead from mixed sulfide ores — lower zinc purity (98.5-99.5%), blast furnace technology, no electricity for electrolysis
+- Use **New Jersey Zinc vertical retort** for thermal zinc production — batch/continuous distillation, 99.9% purity, higher energy than RLE
+- Use **recycling/remelting** for secondary zinc — 65-75% energy savings vs. primary, dominant for die-casting alloys and zinc dust production
+
+**Implementation steps for zinc production**:
+1. Identify ore type and grade: sphalerite (ZnS) at 3-12% Zn requires crushing, grinding, and flotation to 50-60% concentrate
+2. Choose production route: electrolytic if electricity is available at industrial rates; ISF if coke is available but electricity is limited
+3. Establish flotation capability: CuSO₄ activator, xanthate collector, lime pH modifier for ZnS/PbS separation
+4. Set up roaster for sulfide concentrate: fluidized bed at 900-1000°C produces ZnO calcine + SO₂ gas for sulfuric acid co-production
+5. For electrolytic route: install leaching tanks (H₂SO₄), purification stages (Cu cementation, As/Sb purification), electrowinning cells (Al cathodes, Pb-Ag anodes)
+6. Add casting facility: 450-500°C for SHG zinc ingots (99.995%), or alloying furnaces for Zamak die-casting alloys
+
+**Zinc production route trade-offs**:
+
+| Route | Purity | Energy | Capital | Co-products | Feedstock | Best For |
+|---|---|---|---|---|---|---|
+| Electrolytic (RLE) | 99.995% SHG | 3.0-3.5 kWh/kg | High | H₂SO₄ (1.5-2 t/t Zn) | Sulfide concentrate | Primary zinc, high purity |
+| Imperial Smelting | 98.5-99.5% | 20-25 GJ/t | Very High | Lead bullion | Mixed Pb-Zn sulfides | Combined Pb-Zn production |
+| Vertical retort | 99.9% | 15-20 GJ/t | High | None | Roasted ZnO | Thermal route (no electrolysis) |
+| Recycling/remelt | 95-99% | 5-10 GJ/t | Low | None | Scrap, dross | Secondary zinc production |
+
 ## See Also
 
 - [Copper & Bronze](copper-bronze.md) — brass production (Cu-Zn alloy), the most important zinc alloy
@@ -237,7 +262,7 @@ Zinc (mp 420°C, bp 907°C) is produced by roasting sphalerite (ZnS) to ZnO, the
 - [Acids and Bases](../chemistry/acids-bases.md) — sulfuric acid co-produced from roaster SO₂ gas
 - [Electrolysis](../chemistry/electrolysis.md) — zinc electrowinning technology
 - [Energy Storage](../energy/storage.md) — zinc-air and zinc-carbon batteries
-- [Die Casting](../machine-tools/casting.md) — zinc alloy (Zamak) die-casting processes
+- [Die Casting](./casting.md) — zinc alloy (Zamak) die-casting processes
 - [Refractories](../chemistry/refractories.md) — furnace linings for zinc distillation retorts
 - [Mining: Extraction](../mining/extraction.md) — sphalerite ore mining
 - [Mining: Processing](../mining/processing.md) — ore beneficiation and flotation
@@ -248,4 +273,4 @@ Zinc (mp 420°C, bp 907°C) is produced by roasting sphalerite (ZnS) to ZnO, the
 
 
 
-[← Back to Metals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

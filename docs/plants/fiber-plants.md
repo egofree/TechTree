@@ -3,7 +3,7 @@
 > **Node ID**: plants.fiber-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
 > **Dependencies**: [`plants`](./index.md), [`textiles.spinning`](../textiles/spinning.md)
-> **Enables**: `plants.fiber-plants.allium-paniculatum`, `plants.fiber-plants.amaranthus-albus`, [`textiles.fibers`](../textiles/fibers.md)
+> **Enables**: [`plants.fiber-plants.allium-paniculatum`](./fiber-plants.md), [`plants.fiber-plants.amaranthus-albus`](./fiber-plants.md), [`textiles.fibers`](../textiles/fibers.md)
 > **Timeline**: Years 0-10
 > **Outputs**: plant_fibers, raw_fiber
 > **Critical**: Yes — cordage and textiles from plant fibers are Year 0 necessities for shelter, tools, and clothing
@@ -291,4 +291,6 @@ Different applications benefit from combining fibers with complementary properti
 - [Dye Plants](dye-plants.md) — plants for textile dyeing
 - [Structural Plants](structural-plants.md) — timber and construction plants
 
-[← Back to Plants](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*

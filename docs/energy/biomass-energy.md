@@ -352,6 +352,6 @@ Updraft gasifiers pass gas upward through the fuel bed. The gas exits through th
 - **[Plants](../plants/structural-plants.md)** — Energy crop species and yields
 - **[Fuel Production](fuels.md)** — Comparative fuel properties
 
+---
 
-
-[← Back to Energy](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

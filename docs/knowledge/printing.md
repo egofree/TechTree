@@ -267,6 +267,6 @@ Printing enables mass distribution of technical knowledge — process recipes, e
 - [Education](education.md) — literacy enables readership for printed materials
 - [Chemistry](../chemistry/index.md) — paper production, ink formulation, solvent supply
 
+---
 
-
-[← Back to Knowledge](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*

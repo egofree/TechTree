@@ -423,4 +423,6 @@ Wafering involves mechanical cutting, chemical etching, and polishing with hazar
 - [MG-Si Production](mg-si-production.md) — metallurgical-grade silicon feedstock
 - [Precision Metrology](../measurement/precision-metrology.md) — wafer flatness measurement
 
-[← Back to Silicon](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*

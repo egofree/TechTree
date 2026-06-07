@@ -223,7 +223,7 @@ Mediterranean dovecotes are typically stone towers 5-10 m tall with 500-2,000 ne
 
 Shorter winter daylight (under 10 hours) reduces or halts breeding in temperate zones. Provide 14-16 hours of artificial light (using 40-60 watt bulb per 10 m² of loft floor) to maintain year-round squab production if desired, increasing annual output by 30-40%.
 
-**Urban and settlement integration**: Pigeons are uniquely suited to urban environments — they nest on building ledges, forage on waste grain and food scraps, and require minimal land area. A rooftop loft measuring 4 × 3 m can house 30-50 breeding pairs producing 240-700 squab per year in a space that no other livestock could utilize.
+**Urban and settlement integration**: Pigeons are uniquely suited to urban environments — they nest on building ledges, forage on waste grain and food scraps, and require minimal land area. A rooftop loft measuring 4 × 3 m can house 30-50 breeding pairs producing 240-700 squab per year in a space that no other livestock could use.
 
 ## Production Metrics
 
@@ -251,4 +251,6 @@ Shorter winter daylight (under 10 hours) reduces or halts breeding in temperate 
 - [Explosives](../chemistry/explosives.md) — saltpeter from guano for black powder
 - [Animal Husbandry](animal-husbandry.md) — general livestock management principles
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

@@ -102,15 +102,47 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 **Direct-coupled transistor logic (DCTL)**:
 - Simplest transistor logic. Output of one transistor directly drives base of the next. No resistors between stages. Minimal component count. Poor noise margin and severe fanout limitation (current hogging: one transistor with slightly lower Vbe steals base current from paralleled transistors). Obsolete for practical systems.
 
+**Strengths**:
+- Fewest components per gate — only transistors, no resistors or diodes
+- Simplest possible transistor logic circuit to design and build
+
+**Weaknesses**:
+- Current hogging makes parallel fan-out unreliable — one low-Vbe transistor starves the others
+- Noise margin near zero — any voltage fluctuation causes false switching
+
 **Resistor-transistor logic (RTL)**:
 - Base resistor on each transistor input. Multiple inputs through separate base resistors = NOR gate. Simple, few components, easy to design. Used in early ICs (Fairchild μL900 series, 1961). Poor noise margin (~0.2 V), low fanout (~5), slow (~50 ns propagation at best). Supplanted by DTL and TTL by the mid-1960s.
+
+**Strengths**:
+- Simplest logic family to design — only resistors and transistors per gate
+- First logic family practical for integrated circuit fabrication (1961)
+
+**Weaknesses**:
+- Noise margin of only ~0.2 V — marginal even in controlled environments
+- Fan-out of ~5 restricts circuit complexity; cascading stages degrades signal levels
 
 **Diode-transistor logic (DTL)**:
 - Input diodes perform AND function. Transistor inverts → NAND gate. Better noise margin than RTL (~0.5 V), higher fanout (~8). Propagation delay ~25-50 ns. Required more diodes per gate but diodes were cheap. Popular in early 1960s before TTL took over.
 
+**Strengths**:
+- Noise margin of ~0.5 V — 2.5× better than RTL, tolerates ground bounce on breadboards
+- Fan-out of ~8 supports moderate circuit complexity without signal degradation
+
+**Weaknesses**:
+- Propagation delay of 25-50 ns is slower than Schottky-clamped TTL
+- Diode forward voltage drop reduces logic swing, limiting use at low supply voltages
+
 **[Transistor-transistor logic (TTL)](../glossary/transistor-transistor-logic-ttl.md)** (the dominant logic family 1965-1985):
 - **7400 series**: 5 V supply, 10 ns typical propagation delay, 10 mW per gate, fanout 10. Multi-emitter input transistor replaces DTL input diodes. Totem-pole output stage provides active pull-up and pull-down for fast edges.
 - **Variants**: Low-power TTL (74L series, 1 mW/gate, 33 ns), high-speed TTL (74H, 22 mW, 6 ns), Schottky TTL (74S, 19 mW, 3 ns — Schottky clamped transistor prevents deep saturation, faster turn-off), low-power Schottky (74LS, 2 mW, 9 ns — the most popular variant).
+
+**Strengths**:
+- Standardized 5V supply with 1.2V noise margin — tolerant of breadboard wiring and long traces
+- 74LS variant at 9 ns / 2 mW provides the best speed-power ratio of any bipolar logic family
+
+**Weaknesses**:
+- Fixed 5V supply — incompatible with 3.3V and lower-voltage systems
+- Static power dissipation (2 mW/gate for 74LS) limits practical VLSI to ~10,000 gates
 
 ## Input/Output Systems
 
@@ -249,4 +281,5 @@ The EDVAC (Electronic Discrete Variable Automatic Computer), described in John v
 - [Machine Code](../software-bootstrapping/machine-code.md) — programming electronic computers
 - [Photolithography](../photolithography/fab-processes.md) — IC fabrication
 
-[← Back to Computing](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*

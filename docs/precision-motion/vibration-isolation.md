@@ -4,11 +4,28 @@
 > **Domain**: [Precision Motion Control](./index.md)
 > **Timeline**: Years 35-60
 > **Outputs**: vibration_isolation_systems, isolation_platforms, vibration_specs
+> **Critical**: Yes — nanometer positioning requires VC-D or better floor vibration; without isolation, stage positioning accuracy is limited by floor vibration, not by the stage itself
 > **Dependencies**: [Nanometer Positioning](./nanometer-positioning.md), [Precision Metrology](../measurement/precision-metrology.md), [Gas Handling](../gas-handling/index.md)
 > **Enables**: [Wafer Stages & Scanner Systems](./wafer-stages.md), [Precision Encoders & Feedback](./precision-encoders.md)
 
 Nanometer positioning (covered in [Nanometer Positioning](./nanometer-positioning.md)) assumes a vibration-free environment. In reality, semiconductor fabs and precision laboratories are full of vibration sources: rotating machinery, foot traffic, HVAC systems, external road traffic, and even the motion of the precision equipment itself. This document covers the passive and active vibration isolation systems that create the ultra-quiet mechanical environment required for nanometer-precision work. A wafer stage positioning to ±5 nm is meaningless if the floor vibrates by 100 nm — the isolation system must attenuate floor vibration to well below the positioning budget.
 
+## Prerequisites
+
+- [Nanometer Positioning](./nanometer-positioning.md) — stage requirements that define isolation specifications
+- [Precision Metrology](../measurement/precision-metrology.md) — vibration measurement and calibration equipment
+- [Gas Handling](../gas-handling/index.md) — compressed air supply for pneumatic isolators
+- [Construction](../construction/index.md) — foundation design, inertia block installation, and structural isolation
+- [Electricity](../energy/electricity.md) — power for active isolation actuators and control electronics
+
+## Implementation Steps
+
+1. **Conduct vibration site survey**: Measure floor vibration with triaxial accelerometer for minimum 24 hours. Compare FFT results to VC curves to determine required isolation level
+2. **Select isolation strategy**: Use pneumatic air springs for >90% isolation above 10 Hz. Add active isolation with voice coil actuators for low-frequency cancellation below 3 Hz. Design isolation pit with inertia block for best performance
+3. **Design inertia block**: Size block mass to ≥5× equipment mass. Specify reinforced concrete (2,400 kg/m³) with 50-100 mm air gap to surrounding floor slab. Ensure equipment center of gravity aligns with block center
+4. **Install pneumatic isolation**: Mount equipment on three or four air spring isolators with automatic leveling valves. Connect clean, dry, oil-free compressed air at 3-6 bar. Verify natural frequency 0.5-3 Hz
+5. **Add active isolation (if required)**: Install geophones (floor velocity) and accelerometers (payload vibration) on each isolation axis. Mount voice coil actuators in parallel with air springs. Tune feedforward + feedback control for combined cancellation
+6. **Verify isolation performance**: Measure transmissibility from floor to payload across 1-200 Hz. Confirm floor vibration meets required VC criterion at the equipment mounting interface. Document results
 
 ## Ground-Borne Vibration
 
@@ -278,4 +295,6 @@ For SEM/TEM requiring <1 nm vibration:
 - Pneumatic and hydraulic systems: [Gas Handling](../gas-handling/index.md)
 - Building and foundation design: [Construction](../construction/index.md)
 
-[← Back to Precision Motion](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Precision Motion Control](./index.md) • [All Domains](../index.md)*

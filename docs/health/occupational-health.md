@@ -238,6 +238,15 @@ Every industrial facility needs an emergency action plan covering fire (extingui
 | Lead levels rising in blood tests | Inadequate hygiene or engineering controls in lead areas | Separate eating/smoking areas from work zones; install HEPA vacuum for dust; enforce hand washing; review PPE program |
 | Repeated near-misses on same machine | Machine guarding deficiency or procedural gap | Conduct incident investigation; install or repair physical guards; retrain operators; add interlock if feasible |
 
+## Safety
+
+Occupational health practitioners face hazards specific to the surveillance and intervention work itself:
+
+- **Infection control during medical surveillance**: Drawing blood from lead-exposed workers (blood lead levels at 40-50 μg/dL) carries bloodborne pathogen risk. Hepatitis B vaccination required for all phlebotomists. Needlestick injuries from used lancets during field glucose monitoring require immediate post-exposure prophylaxis protocol. Nitrile gloves (0.2 mm) are minimum barrier protection; double-glove during blood draws from known hepatitis carriers.
+- **Ergonomic hazards during air sampling**: Personal air sampling pumps (2-4 kg) worn on the worker's belt for full-shift monitoring cause lower back strain. Awkward postures while positioning capture hoods inside confined spaces (tanks, vessels) risk musculoskeletal injury. Asbestos sampling in insulation removal areas requires full-face PAPR with P100 filters — the practitioner must wear the same respiratory protection as the workers being monitored.
+- **Secondary chemical exposure during monitoring**: Calibrating direct-reading instruments with certified gas standards (CO at 50 ppm, H₂S at 20 ppm) releases toxic gas. Perform calibrations in a fume hood or outdoors. X-ray fluorescence (XRF) analyzers used for lead paint surveys emit ionizing radiation — maintain 30 cm distance from the source window and wear a dosimeter badge. Weighing pre- and post-sampling filters containing silica, lead, or asbestos on a microbalance requires a HEPA-filtered balance enclosure to avoid resuspending the collected contaminant.
+- **Heat stress during industrial walkthroughs**: Furnace areas reaching 40-60°C ambient temperature with radiant heat load subject the surveyor to the same heat stress as production workers. Carry a personal WBGT monitor and adhere to the same work-rest cycles. Minimum PPE: hard hat with brim, moisture-wicking clothing, and 0.5 L water intake per 30 minutes in environments above 28°C WBGT.
+
 ## See Also
 
 - [Medicine](medicine.md) — medical treatment infrastructure and capabilities
@@ -247,4 +256,5 @@ Every industrial facility needs an emergency action plan covering fire (extingui
 - [Chemistry / Electroplating](../electrochemistry/electroplating.md) — cyanide and heavy metal exposure
 - [Ceramics / Kiln Firing](../ceramics/kiln-firing.md) — silica dust and heat stress
 
-[← Back to Health](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Health](./index.md) • [All Domains](../index.md)*

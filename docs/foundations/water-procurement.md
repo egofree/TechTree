@@ -6,11 +6,14 @@
 > **Enables**: [`health.sanitation`](../health/sanitation.md)
 > **Timeline**: Years 0-5
 > **Outputs**: fresh_water, stored_water
+> **Critical**: Yes — water procurement is the most immediate survival requirement for any community
 
-Water procurement is the first and most critical capability in bootstrapping civilization. A person needs 2-5 liters of drinking water per day, plus 20-50 liters for cooking and hygiene. A community of 50 people requires 1,100-2,750 liters daily just for survival, before accounting for livestock, irrigation, or craft work. Without reliable water access, no other development can proceed. This page covers finding, collecting, transporting, and storing water using stone-age and low-technology methods.
+## Prerequisites
 
-The techniques here require no metal tools and minimal crafted materials. They draw on observation skills, basic construction, and an understanding of how water moves through the landscape. Every method described has been used by human communities for thousands of years and requires only materials available from the natural environment.
+Water procurement requires basic tools for digging, construction, and storage:
 
+- [Stone and wood tools](tools-basic.md) — digging sticks, shovels, containers, and basic construction implements
+- [Foundations](./index.md) — general foundational capabilities including cordage, baskets, and basic earth-moving
 
 ## Vegetation Indicators
 
@@ -255,4 +258,5 @@ Standing water breeds mosquitoes that carry malaria, dengue, and other diseases.
 - [Agriculture](../agriculture/index.md) — irrigation systems requiring reliable water supply
 - [Foundations](./index.md) — all foundational capabilities
 
-[← Back to Foundations](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Foundations](./index.md) • [All Domains](../index.md)*

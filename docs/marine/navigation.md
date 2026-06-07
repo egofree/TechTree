@@ -138,6 +138,32 @@ Using celestial bodies to determine position on the open ocean, beyond sight of 
 - Ship typically carries 3 chronometers — majority vote if one drifts
 - Check against radio time signals when available (post-1905)
 
+### Sextant Construction
+
+**Principle**: Measures the angle between a celestial body and the horizon using two mirrors — an index mirror (on a rotating arm) and a fixed horizon mirror (half-silvered, splits the view).
+
+**Materials**: Brass or aluminum sheet (2 mm thick for frame), front-surface mirrors (2 pieces, 25 × 40 mm — can be made by silvering glass), polarizing filter or shade glasses (3 pieces, welder's glass #5-#10), magnifying lens (20 mm diameter, 5×) for vernier reading.
+
+**Construction steps**:
+1. Cut the frame from 2 mm brass sheet: an arc spanning 60° of a circle with 150 mm radius. Mill a groove along the arc edge for the vernier scale.
+2. Engrave degree markings every 1° along the arc from -5° to +125°. Use a dividing head or template.
+3. Mount the index mirror at the pivot of the rotating arm (index arm). The mirror center must be exactly at the pivot point.
+4. Mount the horizon mirror at the frame, angled so the user sees both the horizon and the reflected image from the index mirror.
+5. Add a vernier scale on the index arm: 60 divisions spanning 59° on the main arc, giving 1 arcminute resolution.
+6. Attach shade filters in a rotating rack between the mirrors for sun observations.
+7. Add a telescope or sighting tube (5-10× magnification, 20 mm objective).
+
+**Calibration**: Set the index arm to 0°. Both mirrors should be parallel. Sight a distant object (horizon or star) — the direct and reflected images must align perfectly. If offset, adjust the horizon mirror tilt screw. Check at 30°, 60°, 90° using known angles between stars.
+
+**Expected accuracy**: ±1-2 arcminutes with vernier reading. Sufficient for latitude to ±1-2 nautical miles.
+
+### Simplified Chronometry: Lunars and Solar Time
+
+Before a chronometer is available, determine longitude using:
+1. **Lunar distances**: Measure the angle between the moon and a reference star (e.g., Regulus, Antares). Compare to a pre-computed lunar distance table (requires an almanac — see [Knowledge Preservation](../knowledge/writing.md)). The difference between observed and tabulated lunar distance gives Greenwich Time. Accuracy: ±15-30 arcminutes of longitude with careful observation.
+2. **Jupiter's moons**: Observe the eclipse times of Jupiter's Galilean satellites. Compare to predicted eclipse times in an almanac. Requires a 30-50× telescope (see [Optical Instruments](../measurement/optical-instruments.md)). Accuracy: ±10-15 minutes of longitude.
+3. **Solar noon**: On land, note the exact time of local solar noon (sun at highest point) using a shadow board or transit instrument. Compare to expected noon at a reference meridian. Each 4 seconds of error = 1 arcminute of longitude.
+
 ## Dead Reckoning
 
 Estimating current position from a known starting point by tracking course and distance sailed.
@@ -232,4 +258,5 @@ Estimating current position from a known starting point by tracking course and d
 - [Measurement](../measurement/index.md) — precision instruments and calibration
 - [Telecom / Radio](../telecom/radio.md) — radio navigation and time signal reception
 
-[← Back to Marine](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval Engineering](./index.md) • [All Domains](../index.md)*

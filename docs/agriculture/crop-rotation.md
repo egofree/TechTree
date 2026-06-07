@@ -287,6 +287,6 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 - [Animals → Draft Power](../animals/draft-power.md) — animal-powered plowing for rotation field operations
 - [Plants → Edible Plants](../plants/edible-plants.md) — crop species selection for regional conditions
 
+---
 
-
-[← Back to Agriculture](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*

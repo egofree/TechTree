@@ -237,4 +237,6 @@ For bootstrapping purposes, a starting kit of 30 day-old chicks, 50 kg of starte
 - [Agriculture / Soil Management](../agriculture/soil-management.md) — quail manure as fertilizer
 - [Rabbits](rabbits.md) — alternative small-scale protein source
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

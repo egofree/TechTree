@@ -361,6 +361,6 @@ This capability depends on [building materials](./building-materials.md) for bas
 - [Machine Tools](../machine-tools/index.md) — The heavy equipment that requires specialized foundations
 - [Iron & Steel](../metals/iron-steel.md) — Structural steel production and properties
 
+---
 
-
-[← Back to Construction](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Construction & Structural Engineering](./index.md) • [All Domains](../index.md)*

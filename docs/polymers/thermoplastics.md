@@ -14,7 +14,9 @@ Thermoplastic polymers soften when heated and harden when cooled — a reversibl
 The thermoplastics covered here span from polyethylene (achievable at Chemistry stage with high-pressure reactors) through PVC and nylon (Chemistry–Vacuum stages) to PTFE and polycarbonate (advanced petrochemical industry). Processing methods — injection molding, extrusion, blow molding, thermoforming, compression molding — convert raw polymer granules into finished products. Feedstocks come from [petrochemical cracking](../chemistry/petroleum-alternatives.md); polymerization reactors and extruders rely on [machine tools](../machine-tools/index.md).
 
 
-## Materials
+## Prerequisites
+
+### Materials
 - Ethylene, propylene, styrene, vinyl chloride monomer (from [petrochemicals](../chemistry/petroleum-alternatives.md))
 - Chlorine (for PVC — from [chlor-alkali electrolysis](../chemistry/electrolysis.md))
 - HF (for PTFE — from fluorspar CaF₂ + H₂SO₄)
@@ -427,4 +429,6 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - **[Data Storage](../computing/data-storage.md)**: Optical disc substrates (polycarbonate, PMMA)
 
 
-[← Back to Polymers & Composites](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*

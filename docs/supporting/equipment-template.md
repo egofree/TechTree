@@ -24,7 +24,7 @@ Every equipment article opens with a blockquote metadata block. Use this exact f
 # Equipment Name
 
 > **Node ID**: domain.equipment-name
-> **Domain**: [Domain Name](./index.md)
+> **Domain**: [Domain Name](../spec/README.md)
 > **Dependencies**: [`upstream.capability`](../path/to/file.md), ...
 > **Enables**: [`downstream.capability`](../path/to/file.md), ...
 > **Timeline**: Years X-Y
@@ -144,11 +144,11 @@ Do NOT pad to reach a word count. A thorough 250-line article covering one metho
 7. **Footer** — close every file with:
    ```
    ---
-   *Part of the [Bootciv Tech Tree](../index.md) • [Domain Name](./index.md) • [All Domains](../index.md)*
+   *Part of the [Bootciv Tech Tree](../index.md) • [Domain Name](../spec/README.md) • [All Domains](../index.md)*
    ```
    Or, for a simpler back-link:
    ```
-   [← Back to Domain Name](index.md)
+   [← Back to Domain Name](../spec/README.md)
    ```
 
 ---
@@ -165,7 +165,7 @@ Items constructible in <5 steps from raw materials with no precision requirement
 
 - **Clay crucible**: knead clay, form around mandrel, dry, fire. (4 steps, no precision) → section in [pottery.md](../ceramics/pottery.md)
 - **Wooden mallet**: select hardwood block, bore handle hole, insert handle, wedge. (4 steps, no precision) → section in [tools-basic.md](../foundations/tools-basic.md)
-- **Forge tongs**: forge two matching halves, rivet at pivot, dress jaws. (5 steps, low precision) → section in [forging.md](../metals/forging.md)
+- **Forge tongs**: forge two matching halves, rivet at pivot, dress jaws. (5 steps, low precision) → section in [forging.md](../metals/forming.md)
 
 The threshold is deliberately conservative. When in doubt, write a standalone article — it can always be collapsed into a section later.
 
@@ -205,9 +205,9 @@ The following example demonstrates every required and optional section applied t
 # Hydraulic Press
 
 > **Node ID**: machine-tools.hydraulic-press
-> **Domain**: [Machine Tools](./index.md)
-> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`machine-tools.machining`](machining.md), [`energy.hydraulics`](../energy/hydraulics.md)
-> **Enables**: [`metals.forming`](../metals/forming.md), [`chemistry.pressure-vessels`](../chemistry/pressure-vessels.md)
+> **Domain**: [Machine Tools](../spec/README.md)
+> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`machine-tools.machining`](../machine-tools/index.md), [`energy.hydraulics`](../water/positive-displacement-pump.md)
+> **Enables**: [`metals.forming`](../metals/forming.md), [`chemistry.pressure-vessels`](../chemistry/reactor-vessel.md)
 > **Timeline**: Years 15-25
 > **Outputs**: formed_parts, stamped_parts, compressed_assemblies
 > **Critical**: No — mechanical screw presses and fly presses can substitute for many operations, but the hydraulic press is the only practical route for high-force, slow-speed forming
@@ -220,11 +220,11 @@ A hydraulic press uses Pascal's law — pressure applied to a confined fluid tra
 
 - [Steel plate](../metals/iron-steel.md) — for frame, bed, and ram (minimum 10 mm thick for structural members)
 - [Seamless steel tubing](../metals/forming.md) — for hydraulic cylinder bore (or bored solid bar)
-- [Hydraulic seals](../polymers/elastomers.md) — O-rings, U-cup seals (nitrile or polyurethane)
-- [Hydraulic oil](../petroleum/lubricants.md) — ISO VG 32 or 46 (or filtered vegetable oil as substitute)
-- [Pressure gauge](../measurement/pressure.md) — 0-30 MPa range
-- [Hand pump or powered pump](../energy/hydraulics.md) — rated to 20+ MPa
-- [Machining capability](machining.md) — for boring cylinder, machining ram, and facing mating surfaces
+- [Hydraulic seals](../polymers/rubber.md) — O-rings, U-cup seals (nitrile or polyurethane)
+- [Hydraulic oil](../chemistry/lubricants.md) — ISO VG 32 or 46 (or filtered vegetable oil as substitute)
+- [Pressure gauge](../measurement/temperature-pressure.md) — 0-30 MPa range
+- [Hand pump or powered pump](../water/positive-displacement-pump.md) — rated to 20+ MPa
+- [Machining capability](../machine-tools/index.md) — for boring cylinder, machining ram, and facing mating surfaces
 
 ## Materials
 
@@ -233,11 +233,11 @@ A hydraulic press uses Pascal's law — pressure applied to a confined fluid tra
 | Steel plate (frame) | 100-200 kg | A36 or equivalent, 12-25 mm thick | [Iron & Steel](../metals/iron-steel.md) | Cast iron frame (heavier, no welding needed) |
 | Steel bar (ram) | 20-50 kg | 1045 or 4140, 80-150 mm diameter, hardened to 45-50 HRC | [Iron & Steel](../metals/iron-steel.md) | Ground and polished mild steel (shorter life) |
 | Seamless tubing (cylinder) | 5-15 kg | honed ID, 80-150 mm bore, 10 mm wall | [Forming](../metals/forming.md) | Bored solid bar (more machining) |
-| Hydraulic seals | 1 set | U-cup or O-ring, matched to bore diameter | [Elastomers](../polymers/elastomers.md) | Leather cup packing (lower pressure limit, ~7 MPa) |
-| Hydraulic oil | 10-30 L | ISO VG 32 or 46, filtered to 25 μm | [Lubricants](../petroleum/lubricants.md) | Filtered vegetable oil (degrades faster) |
-| Pressure gauge | 1 | 0-30 MPa, Bourdon tube type | [Measurement](../measurement/pressure.md) | None — pressure indication is safety-critical |
-| Bolts and nuts | 2-5 kg | Grade 8.8 or higher, M12-M20 | [Fasteners](../metals/fasteners.md) | Riveted joints (non-adjustable) |
-| Welding consumables | 5-10 kg | E7018 electrodes or equivalent | [Joining](joining.md) | Bolted flanges (heavier) |
+| Hydraulic seals | 1 set | U-cup or O-ring, matched to bore diameter | [Elastomers](../polymers/rubber.md) | Leather cup packing (lower pressure limit, ~7 MPa) |
+| Hydraulic oil | 10-30 L | ISO VG 32 or 46, filtered to 25 μm | [Lubricants](../chemistry/lubricants.md) | Filtered vegetable oil (degrades faster) |
+| Pressure gauge | 1 | 0-30 MPa, Bourdon tube type | [Measurement](../measurement/temperature-pressure.md) | None — pressure indication is safety-critical |
+| Bolts and nuts | 2-5 kg | Grade 8.8 or higher, M12-M20 | [Fasteners](../metals/steelmaking.md) | Riveted joints (non-adjustable) |
+| Welding consumables | 5-10 kg | E7018 electrodes or equivalent | [Joining](../machine-tools/welding-equipment.md) | Bolted flanges (heavier) |
 
 ## Construction Steps
 
@@ -328,16 +328,16 @@ A hydraulic press uses Pascal's law — pressure applied to a confined fluid tra
 
 ## See Also
 
-- [Iterative Machine Bootstrap](iterative-bootstrap.md) — the bootstrap sequence that produces machine tools
-- [Machining](machining.md) — cutting operations for cylinder and ram components
+- [Iterative Machine Bootstrap](../machine-tools/iterative-bootstrap.md) — the bootstrap sequence that produces machine tools
+- [Machining](../machine-tools/index.md) — cutting operations for cylinder and ram components
 - [Forming](../metals/forming.md) — metal forming operations that use presses
-- [Hydraulics](../energy/hydraulics.md) — hydraulic power systems, fluid selection, pump types
-- [Measurement / Pressure](../measurement/pressure.md) — pressure gauges and calibration
-- [Joining](joining.md) — welding and bolted joint design for the frame
+- [Hydraulics](../water/positive-displacement-pump.md) — hydraulic power systems, fluid selection, pump types
+- [Measurement / Pressure](../measurement/temperature-pressure.md) — pressure gauges and calibration
+- [Joining](../machine-tools/welding-equipment.md) — welding and bolted joint design for the frame
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](../spec/README.md) • [All Domains](../index.md)*
 ```
 
 ---

@@ -6,6 +6,7 @@
 > **Enables**: [`silicon.purification`](../silicon/purification.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md)
 > **Timeline**: Years 40-80
 > **Outputs**: high_purity_acids, high_purity_solvents, high_purity_gases
+> **Critical**: Yes — electronic-grade chemicals at 9N+ purity are required for all wafer etching, cleaning, and deposition processes
 > **Tags**: materials=[chemicals], era=semiconductor, critical
 
 
@@ -195,6 +196,16 @@ All wetted surfaces in purification and storage equipment must be evaluated for 
 | Storage | PFA, HDPE (H₂O₂ only) | No glass, no metal |
 | Gaskets | PTFE, Kalrez (FFKM) | No EPDM, Viton |
 
+## Safety
+
+Chemical purification at electronic grade involves concentrated acids, volatile solvents, and pyrophoric materials:
+
+- **Hydrofluoric acid (HF)**: Causes deep tissue burns that may not be immediately painful — HF penetrates skin and binds calcium, causing systemic fluoride poisoning and cardiac arrest. Concentrated HF (49%) is lethal from a skin exposure area as small as 2.5% body surface area. Calcium gluconate gel must be available at every HF work station. Immediate treatment: apply calcium gluconate gel to exposed skin, seek emergency medical care.
+- **Concentrated acids**: H₂SO₄ (98%), HNO₃ (70%), HCl (37%) cause severe chemical burns. Always add acid to water (never water to acid — exothermic reaction causes violent splashing). Wear acid-resistant gloves (neoprene or nitrile), face shield, and acid-resistant apron.
+- **Hydrogen peroxide (H₂O₂)**: At 30%+ concentration, causes severe burns and decomposes violently in contact with organic materials or transition metals. Store in vented containers — decomposition generates oxygen pressure. Never mix with organic solvents.
+- **Isopropyl alcohol (IPA)**: Flammable liquid (flash point 12°C). Vapors form explosive mixtures in air (2-12% by volume). Use in ventilated areas away from ignition sources. Electronic-grade IPA is stored under nitrogen blanket.
+- **Sub-boiling distillation**: Heating acids in PTFE or quartz stills produces hot acid vapors. Operate in fume hoods. PTFE begins to decompose above 260°C releasing toxic fumes — never exceed rated temperature.
+
 ## Cross-Domain Dependencies
 
 - **[Chemistry / Acids](../chemistry/acids.md)**: Produces bulk industrial-grade acids (2-3N) that serve as feedstock for electronic-grade purification.
@@ -232,4 +243,5 @@ All wetted surfaces in purification and storage equipment must be evaluated for 
 - [Silicon Purification](../silicon/purification.md) — Siemens process and zone refining for semiconductor-grade silicon
 - [Photolithography Fab Processes](../photolithography/fab-processes.md) — the processes consuming these chemicals
 
-[← Back to Ultra-Pure Materials](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Ultra-Pure Materials](./index.md) • [All Domains](../index.md)*

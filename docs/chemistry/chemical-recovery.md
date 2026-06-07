@@ -234,4 +234,6 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 - [Waste Management](../ehs/waste-management.md) — disposal of non-recoverable chemical waste
 - [Metal Recycling](../metals/metal-recycling.md) — metal recovery from scrap (parallel recovery domain)
 
-[← Back to Chemistry](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

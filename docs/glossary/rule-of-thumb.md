@@ -6,7 +6,7 @@ Keep foreline piping between the vacuum chamber and the pump as short and wide a
 
 ## Context in the Tech Tree
 
-Rules of thumb are practical heuristics — simplified design guidelines that capture complex engineering relationships in memorable form. They are not exact, but they prevent the most common mistakes. In [Vacuum Systems](../vlsi-scaling/vacuum-systems.md), the rule about foreline piping prevents a frequent error: buying a large pump and then choking it with narrow, long piping. In [Heat Treatment](../metals/iron-steel.md), rules of thumb guide soak times (1 hour per inch of section thickness) and quench selection (water for plain carbon, oil for alloy steels). In [Casting](../machine-tools/casting.md), rules guide riser sizing (riser volume must exceed the shrinkage volume of the casting section it feeds).
+Rules of thumb are practical heuristics — simplified design guidelines that capture complex engineering relationships in memorable form. They are not exact, but they prevent the most common mistakes. In [Vacuum Systems](../vlsi-scaling/vacuum-systems.md), the rule about foreline piping prevents a frequent error: buying a large pump and then choking it with narrow, long piping. In [Heat Treatment](../metals/iron-steel.md), rules of thumb guide soak times (1 hour per inch of section thickness) and quench selection (water for plain carbon, oil for alloy steels). In [Casting](../metals/casting.md), rules guide riser sizing (riser volume must exceed the shrinkage volume of the casting section it feeds).
 
 ## Technical Details
 
@@ -26,4 +26,4 @@ Other tech tree rules of thumb: furnace power scales as ~500 kWh per tonne of si
 
 - [Vacuum Systems](../vlsi-scaling/vacuum-systems.md)
 - [Iron & Steel Production](../metals/iron-steel.md)
-- [Casting](../machine-tools/casting.md)
+- [Casting](../metals/casting.md)

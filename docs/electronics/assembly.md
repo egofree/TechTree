@@ -367,6 +367,6 @@ Refrigerated storage at 2-10°C. Allow 4-8 hours to equilibrate to room temperat
 - **[Power Electronics](power-electronics.md)**: converters assembled using these techniques
 - **[Polymers](../polymers/thermosets.md)**: epoxy resin for laminate and conformal coating
 
+---
 
-
-[← Back to Electronics](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*

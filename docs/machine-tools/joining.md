@@ -3,7 +3,7 @@
 > **Node ID**: machine-tools.joining
 > **Domain**: [Machine Tools Bootstrap](./index.md)
 > **Dependencies**: [`chemistry`](../chemistry/index.md), [`energy.electricity`](../energy/electricity.md), [`metals.alloys`](../metals/alloys.md), [`metals.iron-steel`](../metals/iron-steel.md)
-> **Enables**: [`energy.steam-power`](../energy/steam-power.md), `machine-tools.joining.diffusion-bonding`, `machine-tools.joining.electron-beam`, `machine-tools.joining.friction-stir`, `machine-tools.joining.laser-welding`, `machine-tools.joining.mig-welding`, `machine-tools.joining.resistance-welding`, `machine-tools.joining.tig-welding`, `machine-tools.joining.ultrasonic-bonding`
+> **Enables**: [`energy.steam-power`](../energy/steam-power.md), [`machine-tools.joining.diffusion-bonding`](./joining.md), [`machine-tools.joining.electron-beam`](./joining.md), [`machine-tools.joining.friction-stir`](./joining.md), [`machine-tools.joining.laser-welding`](./joining.md), [`machine-tools.joining.mig-welding`](./joining.md), [`machine-tools.joining.resistance-welding`](./joining.md), [`machine-tools.joining.tig-welding`](./joining.md), [`machine-tools.joining.ultrasonic-bonding`](./joining.md)
 > **Timeline**: Years 5-70
 > **Outputs**: forge_welds, brazed_joints, soldered_joints, riveted_joints, welded_joints, acetylene, tig_welds, mig_welds, resistance_welds, electron_beam_welds, ultrasonic_bonds, friction_stir_welds, laser_welds, diffusion_bonds, hermetic_seals, wire_bonds
 > **Critical**: Yes — makes machinery possible by assembling individual parts into structures, mechanisms, and pressure vessels
@@ -637,4 +637,6 @@ Advanced joining processes are critical enablers for vacuum technology and semic
 - [Metal Forming](../metals/forming.md) — shaping before joining
 - [Machining](machining.md) — post-weld finishing and repair
 
-[← Back to Machine Tools](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*

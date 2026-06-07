@@ -272,6 +272,6 @@ Wet etching is isotropic (etches equally in all directions) — this limits its 
 - **[Cleanrooms](../photolithography/cleanrooms.md)**: Cleanroom construction and contamination control
 - **[Core Fab Processes](../photolithography/fab-processes.md)**: Full IC fabrication flow using wet and dry etch
 
+---
 
-
-[← Back to Chemistry](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

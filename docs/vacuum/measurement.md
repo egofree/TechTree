@@ -4,6 +4,7 @@
 > **Domain**: [Vacuum Technology](./index.md)
 > **Dependencies**: `measurement`
 > **Enables**: None (leaf capability)
+> **Critical**: No — vacuum measurement enables process control but rough vacuum processes can operate with simple indicators
 > **Timeline**: Years 25-40
 > **Outputs**: vacuum_measurement, leak_detection, rga_analysis, pressure_gauges
 
@@ -267,5 +268,6 @@ The helium leak detector is a dedicated mass spectrometer tuned to mass 4 (He), 
 - **[Vacuum Chambers & Sealing](chambers.md)**: Chamber design and virtual leak prevention
 - **[Measurement](../measurement/index.md)**: General measurement and instrumentation
 
+---
 
-[← Back to Vacuum](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*

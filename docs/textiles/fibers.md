@@ -195,13 +195,53 @@ Understanding yield per hectare is essential for planning textile production at 
 
 ## Processing Equipment Construction Detail
 
-**Flax brake**: Construct a wooden frame approximately 80 cm tall × 40 cm wide × 60 cm long. The lower jaw consists of 5-7 hardwood blades (ash or oak, 5-8 cm wide, 40-60 cm long) fixed horizontally in the frame, spaced 2-3 cm apart. The upper jaw is a matching set of blades hinged at one end on a wooden or iron pin. The gap between upper and lower blades is 2-3 mm — just wide enough for flax fibers to pass without being cut, but narrow enough to crush the woody shives. Operation: place a handful of retted, dried flax stalks across the lower blades, slam the upper blades down repeatedly. The shives crack and break into short pieces while the long fibers flex and remain intact. A well-made brake processes 5-10 kg of retted stalk per hour.
+### Flax Brake Construction
 
-**Scutching knife**: Carve a wooden blade 20-30 cm long × 8-12 cm wide from hardwood (beech, maple, or oak). Taper to a blunt edge (not sharp — the knife beats, it does not cut). Mount a handle at one end, 10-15 cm long. The scutching board is a vertical wooden plank (~60 × 100 cm) mounted at a slight angle, with a rounded top edge. Hang a handful of broken flax stalks over the top edge, hold with one hand, and strike repeatedly with the scutching knife to knock away the broken shives. Rotate the bundle to process all sides. Process: ~15-20 minutes per kg of broken stalk.
+1. Cut two side posts from ash or oak: 8 × 10 cm × 80 cm. Mortise a series of horizontal slots (2-3 cm wide, spaced 2-3 cm apart) into the inner face of each post to hold the lower jaw blades.
+2. Cut 5-7 lower jaw blades from hardwood: 5-8 cm wide × 40-60 cm long × 1.5-2 cm thick. Fit blades into the mortised slots in the side posts, secured with wooden dowels through the posts.
+3. Cut two upper jaw hinge boards: 5 × 8 cm × 40-60 cm. Drill a row of holes matching the lower blade positions. Mount matching upper blades (same dimensions as lower) in these boards.
+4. Attach the upper jaw to the lower jaw with iron pins or wooden dowels at one end, creating a hinged jaw that opens and closes. Set the gap between upper and lower blades to 2-3 mm using spacer shims during assembly.
+5. Attach a lever arm (ash, 3 × 5 cm × 60 cm) to the free end of the upper jaw. The lever multiplies force — the operator lifts and slams the upper jaw down onto the retted stalks.
+6. Test the gap with a strip of paper: the blades should crush the paper edge but not cut it. Adjust with thinner shims if fiber is being cut, thicker shims if shives are not breaking.
 
-**Hackle comb**: Drive iron nails (5-10 cm long, 2-3 mm diameter) through a hardwood board (15 × 30 cm × 2 cm thick) at 3-5 mm spacing, bent to a slight upward angle (~10-15°). Clinch the nail points on the back side by bending them over. Build three grades: coarse (10 cm nails, 5 mm spacing), medium (7 cm, 3 mm spacing), fine (5 cm, 2 mm spacing). Draw the scutched flax fibers through each grade in sequence. The coarse hackle removes remaining shives and short fibers. The fine hackle separates the long line fibers from short tow. Protect the hackle with a wooden cover when not in use; the nail points are razor-sharp and can cause serious puncture wounds.
+### Scutching Knife Construction
 
-**Cotton gin (Whitney-type, 1793)**: The hand-cranked version processes approximately 5 kg of lint per hour, versus 0.5 kg/hr by hand. The key components: a rotating cylinder (~15 cm diameter) with wire teeth (iron or steel, 5-8 mm long) mounted in rows along its length. A grid of iron bars with slots (~5 mm wide) covers the cylinder. Cotton is fed into the hopper. The wire teeth grab the fiber and pull it through the grid slots. The seeds are too large to fit and are swept away. A brush cylinder removes lint from the wire teeth. Construction requires iron or steel wire for the teeth, a wooden frame and housing, and a crank mechanism with bearings. The grid bar spacing must be precise: too narrow and fiber cannot pass; too wide and seeds slip through.
+1. Select a hardwood blank (beech, maple, or oak): 20-30 cm long × 8-12 cm wide × 2-3 cm thick.
+2. Taper one long edge to a blunt rounded profile (not sharp — the knife beats, it does not cut). The edge radius should be approximately 2-3 mm.
+3. Carve or turn a handle at one end: 10-15 cm long, 3-4 cm diameter, shaped for a comfortable grip.
+4. Sand the blade surfaces smooth to prevent fiber snagging.
+5. Mount a scutching board: vertical wooden plank (~60 × 100 cm) set at a slight angle (10-15° from vertical), with a rounded top edge over which stalks are draped for beating.
+
+### Hackle Comb Construction
+
+1. Cut a hardwood board (ash or oak): 15 × 30 cm × 2 cm thick. Mark a grid of nail positions on one face at the desired spacing: coarse (5 mm), medium (3 mm), or fine (2 mm).
+2. Drill pilot holes at each marked position, 1-1.5 mm diameter, through the board to prevent splitting.
+3. Drive iron nails (5-10 cm long, 2-3 mm diameter) through the pilot holes from the top face. Use 10 cm nails for coarse, 7 cm for medium, 5 cm for fine grade.
+4. Bend each nail to a slight upward angle (~10-15°) using pliers. The angle should be consistent across all teeth — use a gauge block set to the desired angle.
+5. Clinch the nail points on the back side by bending them over flat against the wood and driving them into the surface with a hammer.
+6. Build a protective wooden cover (15 × 30 cm board with 2 cm risers at corners) that drops over the teeth when the hackle is not in use.
+
+### Cotton Gin Construction (Whitney-type, hand-cranked)
+
+1. Build a wooden housing: open-top box, 40 × 30 × 25 cm, with a feed hopper (funnel-shaped addition) at the top.
+2. Turn a wooden cylinder: 15 cm diameter × 30 cm long. Mount on iron shaft (12-15 mm diameter) in bearing blocks at each end of the housing.
+3. Cut wire teeth from steel wire (5-8 mm long, 1-1.5 mm diameter). Drive teeth into the cylinder surface in rows 10-15 mm apart along the length, spaced 8-12 mm apart around the circumference.
+4. Construct a grid of iron bars: flat bars (3-5 mm wide × 2 mm thick) mounted horizontally across the front of the housing, spaced at 5 mm intervals. The spacing must be uniform within ±0.5 mm — uneven spacing lets seeds through or blocks fiber.
+5. Mount a crank handle on the cylinder shaft extension. The cylinder rotates at hand-crank speed (60-120 rpm).
+6. Install a brush cylinder (smaller roller with stiff bristles) behind the saw cylinder, turning in the opposite direction, to strip lint from the wire teeth.
+7. Place a seed collection tray below the grid bars and a lint collection tray behind the brush cylinder.
+
+## Calibration and Verification
+
+1. **Flax brake gap test**: Place a single retted flax stalk across the lower blades. Slam the upper jaw shut. The woody shives should crack into short pieces; the fibers should remain intact and uncut. If fibers are cut, widen the gap by 0.5 mm. If shives are not breaking, narrow the gap by 0.5 mm or increase lever arm length.
+
+2. **Scutching knife verification**: Beat a handful of broken flax stalks against the scutching board for 60 seconds. Weigh the cleaned fiber and the removed shives separately. Target: 70-80% of shives removed after 1 minute of beating. If less than 60% of shives are removed, sharpen the knife edge slightly (still blunt, not cutting) or increase beating time.
+
+3. **Hackle comb alignment test**: Draw a straightedge across the tips of the teeth in each row. All teeth in a given row must be within ±1 mm of the same height. High teeth catch unevenly and pull fiber clumps; low teeth miss fiber entirely. Adjust bent teeth with pliers.
+
+4. **Hackle separation test**: Draw 50 g of scutched flax through the coarse hackle, then through the fine hackle. Weigh the resulting line fiber (long) and tow (short). Target: 25-35% line fiber, 15-25% tow, balance is waste shives. If line fiber percentage is below 20%, the retting may be insufficient or the hackle teeth may be misaligned.
+
+5. **Cotton gin seed check**: Gin 100 g of raw cotton. Inspect the lint for remaining seeds. Target: fewer than 5 seeds per 100 g of lint. If more seeds pass, narrow the grid bar spacing by 0.5 mm. Inspect the lint for fiber breakage: fibers should average 20+ mm length for short-staple cotton. If average length drops below 15 mm, the wire teeth are too aggressive or the grid is too tight.
 
 ## Degumming Detail
 
@@ -254,4 +294,5 @@ Proper storage prevents fiber degradation before processing:
 - [Fiber Plants](../plants/fiber-plants.md) — plant fiber cultivation
 - [Animal Materials](../animals/animal-materials.md) — wool and silk production
 
-[← Back to Textiles](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

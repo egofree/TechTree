@@ -237,6 +237,70 @@ Monitor workforce for early deficiency signs:
 | Iodine (goiter) | Thyroid enlargement | Neck palpation | Any cases → iodize salt (KI at 20-40 mg/kg) |
 
 
+## Food Safety in Processing
+
+Food safety failures can incapacitate a workforce faster than any nutritional deficiency. Contaminated food causes acute illness (hours to days), while deficiencies develop over weeks to months. A single batch of improperly preserved meat or contaminated grain can sicken an entire work crew.
+
+### Biological Contamination
+
+- **Bacterial pathogens**: The primary food safety threat. *Salmonella* (raw meat, eggs), *E. coli* (contaminated water, unwashed produce), *Clostridium botulinum* (improperly canned low-acid foods), *Staphylococcus aureus* (food handled by infected workers), and *Bacillus cereus* (improperly stored cooked rice). Prevention: cook food thoroughly, keep hot food hot and cold food cold, prevent cross-contamination between raw and cooked food.
+- **Botulism**: The most lethal foodborne hazard. *C. botulinum* toxin causes progressive paralysis, starting with vision changes and difficulty swallowing, progressing to respiratory failure. Mortality: 5-10% with treatment, much higher without. Occurs in improperly canned or preserved low-acid foods (vegetables, meat) where the anaerobic environment allows the organism to grow and produce toxin. Prevention: acidify low-acid foods before canning (vinegar, fermentation), or heat-process at pressure-cooker temperatures that destroy the spores.
+- **Mycotoxins**: Fungal toxins produced by *Aspergillus* (aflatoxin), *Fusarium*, and *Penicillium* species growing on stored grain, nuts, and dried food. Aflatoxin is a potent liver carcinogen. Occurs in grain stored at moisture content above 14-15% in warm conditions. Prevention: dry grain thoroughly before storage, keep storage dry and ventilated, discard any visibly moldy grain.
+
+### Chemical Contamination
+
+- **Heavy metals**: Lead (from lead-glazed pottery or lead water pipes) accumulates in the body, causing neurological damage, kidney damage, and anemia. Cadmium (from contaminated soil or water) accumulates in kidneys. Mercury (in fish from contaminated water) causes neurological damage. Prevention: use lead-free glazes on food pottery; avoid storing acidic foods in lead-soldered containers.
+- **Plant toxins**: Many wild plants contain natural toxins. Cassava contains cyanogenic glycosides (must be peeled, grated, and soaked to remove cyanide). Kidney beans contain phytohaemagglutinin (must be boiled — slow cooking at moderate temperatures actually increases toxin levels). Potatoes exposed to light produce solanine (green potatoes — peel deeply or discard). Proper food preparation knowledge is a safety requirement.
+
+### Food Handling Hygiene
+
+- **Hand washing**: The single most effective food safety measure. Wash hands with soap and water after using latrines, before handling food, and after handling raw meat. A community without hand-washing discipline will experience chronic gastrointestinal illness.
+- **Water safety**: Drinking water must be from a protected source (covered well, spring, boiled or filtered water). Waterborne pathogens (cholera, typhoid, dysentery) devastate communities that drink from unprotected surface water. Boiling water for one minute kills most bacterial and viral pathogens.
+- **Cross-contamination prevention**: Separate raw meat from ready-to-eat food. Use different cutting surfaces and utensils for raw and cooked food. Clean food preparation surfaces between uses.
+- **Temperature control**: Bacterial growth accelerates between 5°C and 60°C (the "danger zone"). Keep perishable food below 5°C or above 60°C. Food left at room temperature for more than 4 hours should be considered potentially hazardous. In practice, this means eating food promptly after cooking or cooling it rapidly for storage.
+
+## Nutritional Assessment Methods
+
+Assessing the nutritional status of a population enables early detection of deficiency trends before they become incapacitating. Three complementary approaches: dietary assessment, clinical examination, and anthropometric measurement.
+
+### Dietary Assessment
+
+- **Food frequency questionnaire**: Ask workers what they ate in the past week — which foods, how often, approximate quantities. Compare against the minimum viable diet requirements. A diet missing entire food groups (no fresh vegetables, no animal products, no legumes) is an immediate red flag.
+- **Food inventory tracking**: Monitor community food stores — what comes in, what goes out, and what's available. If the food inventory shows no vitamin C sources for more than 2-3 weeks, scurvy risk is elevated.
+- **Meal observation**: Visit meal preparation areas periodically. Observe whether the planned diet is actually being prepared and consumed. A diet plan that exists on paper but is not followed in practice provides no nutritional protection.
+
+### Clinical Examination
+
+Physical signs of specific nutritional deficiencies that can be detected by a trained examiner:
+
+| Sign | Deficiency | Examination Method |
+|------|-----------|-------------------|
+| Bleeding gums, petechiae | Vitamin C (scurvy) | Oral examination — inspect gums |
+| Pale conjunctiva | Iron (anemia) | Pull down lower eyelid, observe color |
+| Night blindness | Vitamin A | History — difficulty seeing at dusk |
+| Thyroid enlargement | Iodine (goiter) | Neck palpation |
+| Edema (ankle swelling) | Protein (kwashiorkor) | Press thumb on ankle, observe indentation |
+| Angular stomatitis (mouth corner cracks) | Riboflavin (B2) | Oral examination |
+| Rickets (bowed legs in children) | Vitamin D | Physical examination of children |
+
+Clinical signs appear after deficiency is moderately advanced. They provide late warning — by the time signs are visible, the workforce is already impaired. Dietary assessment provides earlier warning.
+
+### Anthropometric Measurement
+
+Body measurements that indicate nutritional status:
+
+- **Body weight**: Weigh workers monthly. Weight loss of more than 5% over one month indicates inadequate caloric intake or illness. Weight loss of 10% or more is clinically significant and requires intervention.
+- **Body Mass Index (BMI)**: Weight (kg) / height (m)². BMI below 18.5 indicates underweight; below 16.0 indicates severe malnutrition requiring urgent intervention. BMI above 30 indicates obesity (less common in a bootstrap civilization but possible if food supply is adequate and labor is sedentary).
+- **Mid-upper arm circumference (MUAC)**: A simpler field measurement than BMI. Measure arm circumference at the midpoint of the upper arm with a tape measure. Adult MUAC below 23 cm suggests undernutrition; below 18.5 cm indicates severe malnutrition. Useful for rapid screening of large groups.
+- **Child growth monitoring**: For communities with children, monthly weight and height measurements plotted on growth charts. Growth faltering (crossing downward through percentile lines) is the most sensitive indicator of chronic nutritional inadequacy in a population.
+
+### Surveillance Schedule
+
+- **Weekly**: Review food inventory for gaps in essential food groups. Check that meal plans are being followed.
+- **Monthly**: Weigh all workers. Perform clinical screening for visible deficiency signs. Record findings.
+- **Quarterly**: Perform a detailed dietary assessment on a sample of the workforce. Calculate average caloric and protein intake. Compare against requirements for the work being performed.
+- **Annually**: Full nutritional survey including anthropometric measurements of the entire community. Adjust food production and distribution plans based on findings.
+
 ## Safety & Hazards
 
 - **Refeeding syndrome**: Chronically malnourished individuals given large meals rapidly develop dangerous electrolyte shifts (hypophosphatemia, hypokalemia, hypomagnesemia) that can cause cardiac arrest. Refeed gradually: start at 1,000 kcal/day, increase by 300-500 kcal/day over 5-7 days.
@@ -269,6 +333,6 @@ Monitor workforce for early deficiency signs:
 - [Agriculture](../agriculture/index.md) — crop production for food supply
 - [Chemistry](../chemistry/index.md) — analytical chemistry for food composition testing
 
+---
 
-
-[← Back to Health](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../index.md)*

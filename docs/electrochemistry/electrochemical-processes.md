@@ -21,6 +21,49 @@ For semiconductor manufacturing, electropolishing produces the ultra-smooth, chr
 - [Metals / Alloys](../metals/alloys.md) — stainless steel, nickel, copper, and gold source materials
 - [Electricity](../energy/electricity.md) — rectified DC power supplies for electropolishing
 
+## Construction Steps: Electropolishing Setup
+
+### 1. Tank and Containment
+
+Select a polypropylene or PVDF-lined tank (300 mm × 300 mm × 400 mm for medium workloads, wall thickness ≥6 mm PP). The electropolishing electrolyte (H₃PO₄ + H₂SO₄) is more aggressive than plating baths — stainless steel tanks are unsuitable. Install secondary containment berm at 110% tank volume. For perchloric acid processes, use a dedicated fume hood with wash-down capability and explosion-proof electrical fittings.
+
+### 2. Cathode Design
+
+Fabricate copper or lead cathode plates (250 mm × 200 mm × 3 mm) sized for cathode-to-anode area ratio ≥3:1. For cylindrical workpieces (tubing, pipes), fabricate a central cathode rod (copper, 12-20 mm diameter, length matching the workpiece). Mount cathodes on the tank interior with titanium brackets. For complex workpieces, design conformal cathodes shaped to mirror the workpiece with a uniform 20-100 mm gap.
+
+### 3. Bath Chemistry — Stainless Steel Electropolishing
+
+Charge the tank with a mixture of phosphoric acid (H₃PO₄, 50-70% by volume) and sulfuric acid (H₂SO₄, 15-30% by volume) in DI water. For a 20 L bath: mix 12 L H₃PO₄ (85%), 5 L H₂SO₄ (conc.), and 3 L DI water. Add 1-2 L glycerin as viscous additive (optional, stabilizes anodic film). Target specific gravity 1.70-1.78. Verify by hydrometer. Allow bath to reach 50-70°C operating temperature before processing.
+
+### 4. Temperature Control
+
+Install a titanium or PTFE-coated immersion heater (500 W-2 kW) with digital temperature controller (setpoint 50-70°C, accuracy ±2°C). For larger baths, use an external heat exchanger with recirculation pump. The bath generates heat during operation at high current density — verify temperature does not exceed 75°C during production runs.
+
+### 5. DC Power Supply
+
+Connect a constant-current [DC rectifier](dc-rectifier.md): 0-20 V, 0-200 A for medium workloads. Constant-current mode is preferred because the workpiece surface area changes as material dissolves (constant voltage would cause current to increase, potentially leading to pitting). Verify ripple <5% AC. Some processes benefit from pulsed current (10-100 ms on, 10-100 ms off) — use a pulse-capable rectifier if available.
+
+### 6. Fixturing
+
+Fabricate titanium or copper fixtures with spring-loaded contacts rated for the operating current (10-40 mA/cm² × workpiece area). Position contacts on non-critical surfaces — contact points leave small marks. For tubular parts, use a central cathode rod and anode fixture at each end of the tube. Verify electrical continuity from power supply through fixture to workpiece with a milliohmmeter (contact resistance <5 mΩ).
+
+## Bill of Materials: Electropolishing Setup (20 L Bath)
+
+| Material | Quantity | Specifications | Source |
+|----------|----------|----------------|--------|
+| Polypropylene tank | 1 | 300 mm × 300 mm × 400 mm, wall ≥6 mm | [Polymers](../polymers/index.md) |
+| Phosphoric acid (H₃PO₄) | 12 L | 85% concentration, technical grade | [Acids](../chemistry/acids.md) |
+| Sulfuric acid (H₂SO₄) | 5 L | 93-98% concentration, technical grade | [Acids](../chemistry/acids.md) |
+| Glycerin (optional) | 1-2 L | Technical grade, viscosity stabilizer | [Chemistry](../chemistry/index.md) |
+| Copper cathode plates | 2-4 | 250 mm × 200 mm × 3 mm, C11000 | [Copper](../metals/non-ferrous.md) |
+| Titanium brackets | 4-8 | Gr2, for cathode mounting | [Metals](../metals/index.md) |
+| DC rectifier (CC mode) | 1 | 0-20 V, 0-200 A, ripple <5% | [DC Rectifier](dc-rectifier.md) |
+| Immersion heater | 1 | 500 W-2 kW, PTFE-coated, with controller | [Electronics](../electronics/index.md) |
+| Titanium fixture | 1 | Spring-loaded, rated 50 A | [Metals](../metals/index.md) |
+| Recirculation pump | 1 | 2-5 L/min, PVDF wetted parts | [Gas Handling](../gas-handling/index.md) |
+| Deionized water | 3 L | ≥1 MΩ·cm resistivity | [Water](../water/index.md) |
+| Hydrometer | 1 | Range 1.60-1.85 specific gravity | [Test Equipment](../electronics/test-equipment.md) |
+
 ## Electropolishing
 
 Electropolishing is the reverse of electroplating — the workpiece is the anode (not the cathode), and material is selectively dissolved from the surface. The process preferentially removes microscopic peaks and asperities (where current density is highest), producing a smooth, bright, defect-free surface. The result is simultaneously the smoothest surface finish achievable by any method and a chromium-enriched passive layer (for stainless steel).
@@ -234,4 +277,6 @@ ENIG is the dominant surface finish for printed circuit boards, providing a flat
 - [Semiconductors](../electronics/index.md) — vacuum chamber and PCB surface requirements
 - [Electronics Assembly](../electronics/assembly.md) — ENIG surface finish in PCB manufacturing
 
-[← Back to Electrochemistry](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Electrochemistry & Plating](./index.md) • [All Domains](../index.md)*

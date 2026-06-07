@@ -253,6 +253,6 @@ Yield: typically 70-85% of theoretical. Each 500 mg aspirin tablet requires ~0.5
 - [Chemical Safety](../ehs/chemical-safety.md) — handling hazardous pharmaceutical chemicals
 - [Toxicology](../ehs/toxicology.md) — drug toxicity and overdose management
 
+---
 
-
-[← Back to Health](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../index.md)*

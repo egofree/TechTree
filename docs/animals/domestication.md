@@ -71,9 +71,9 @@ A comparison of the fifteen primary farmed species across the metrics that matte
 
 ## Species Articles
 
-**[Poultry](poultry.md)** (overview: [Poultry Farming](poultry.md)): [Chickens](poultry-chickens.md) · [Coturnix Quail](poultry-coturnix.md) · [Ducks](poultry-ducks.md) · [Geese](poultry-geese.md) · [Turkeys](poultry-turkeys.md) · [Guinea Fowl](poultry-guinea-fowl.md) · [Pigeons & Squab](poultry-pigeons.md)
+**[Poultry](poultry.md)** (overview: [Poultry Farming](poultry.md)): [Chickens](poultry-chickens.md) • [Coturnix Quail](poultry-coturnix.md) • [Ducks](poultry-ducks.md) • [Geese](poultry-geese.md) • [Turkeys](poultry-turkeys.md) • [Guinea Fowl](poultry-guinea-fowl.md) • [Pigeons & Squab](poultry-pigeons.md)
 
-**Livestock**: [Cattle](cattle.md) · [Sheep](sheep.md) · [Goats](goats.md) · [Pigs](pigs.md) · [Equines (Horses & Donkeys)](equines.md) · [Camelids](camelids.md) · [Bison](bison.md) · [Rabbits](rabbits.md)
+**Livestock**: [Cattle](cattle.md) • [Sheep](sheep.md) • [Goats](goats.md) • [Pigs](pigs.md) • [Equines (Horses & Donkeys)](equines.md) • [Camelids](camelids.md) • [Bison](bison.md) • [Rabbits](rabbits.md)
 
 **Insects**: [Insect Farming / BSF](insect-farming.md)
 
@@ -249,4 +249,6 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 - [Animal Materials](animal-materials.md) — leather, horn, bone, and sinew processing
 - [Animal Husbandry](animal-husbandry.md) — breeding, health, and herd management
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

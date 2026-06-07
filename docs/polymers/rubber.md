@@ -16,7 +16,9 @@ Rubber is unique among engineering materials — it combines high elasticity wit
 See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types (NBR, neoprene, silicone, PU), [Thermoplastics](./thermoplastics.md) for melt-processable polymers, and [Thermosets](./thermosets.md) for crosslinked plastics.
 
 
-## Materials
+## Prerequisites
+
+### Materials
 - [Latex](../glossary/guayule.md) from *Hevea brasiliensis* (tropical) or guayule/Russian dandelion (temperate)
 - [Sulfur](../chemistry/alkalis.md) (2-4 phr, cross-linking agent)
 - [Carbon black](../energy/charcoal.md) (20-50 phr, reinforcing filler from partial combustion of hydrocarbons)
@@ -393,4 +395,6 @@ When natural rubber properties are insufficient, synthetic elastomers fill speci
 - **[Machine Tools](../machine-tools/joining.md)**: Equipment for rubber processing machinery
 
 
-[← Back to Polymers & Composites](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*

@@ -237,4 +237,6 @@ A broken trace under full load causes the animal to lunge sideways, potentially 
 - [Transport / Roads](../transport/roads.md) — wagon roads and infrastructure
 - [Energy / Steam Power](../energy/steam-power.md) — the successor to animal draft power
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

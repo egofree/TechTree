@@ -8,6 +8,14 @@
 > **Outputs**: eda_tools, gpus, advanced_packaging, vlsi_designs
 > **Critical**: No — EDA tools accelerate design but are not a manufacturing capability themselves
 
+## Prerequisites
+
+- [Dopant & Etch Gases](../chemistry/dopant-etch-gases.md) — process gas chemistry for semiconductor fabrication
+- [Computing](../computing/index.md) — computer hardware to run EDA tools
+- [Electronics Assembly](../electronics/assembly.md) — PCB and package design for IC integration
+- [Fab Processes](../photolithography/fab-processes.md) — baseline semiconductor manufacturing
+- [Basic Semiconductor Devices](../silicon/basic-devices.md) — transistor physics and circuit fundamentals
+
 ## Electronic Design Automation (EDA)
 
 - Requires: computers (from the Photolithography stage ICs), display technology, storage, software engineering
@@ -372,6 +380,52 @@ Semiconductor devices degrade over time under electrical and thermal stress. Rel
 | Scan chain test coverage stuck below 99% for stuck-at faults | Uncontrollable or unobservable gates in reconvergent fanout paths; missing test points in hard IP blocks | Add test points (observation scan cells) at reconvergent fanout nodes; verify IP blocks include internal scan chains and MBIST; run ATPG with multi-detect patterns targeting undetected faults |
 | IDDQ test catches chips passing functional test — quiescent current 100× above nA-μA baseline | Bridge fault or gate oxide short creating leakage path between power rails; not detectable by functional vectors that don't exercise the defective path | Use IDDQ current signatures to isolate failing block; combine with scan-based failure diagnosis to pinpoint defect location; if systematic, investigate process excursion (particle contamination, lithography defect) |
 
+## Decision and Implementation Framework
+
+This article serves as a conceptual guide to EDA methodology. The per-section Strengths/Weaknesses blocks above provide detailed trade-offs; this section consolidates the decision criteria, implementation sequence, and comparative overview.
+
+### C1: Decision Criteria
+
+Choose your EDA approach based on design complexity and available compute:
+
+| Design Scale | Transistor Count | Approach | Tools Required |
+|---|---|---|---|
+| SSI/MSI (<10K gates) | <50K | Hand-drawn schematics, manual layout on graph paper | Pencil, graph paper, calculator |
+| LSI (10K-100K gates) | 50K-1M | Schematic capture + manual place-and-route | Schematic editor, DRC checker |
+| VLSI (100K-10M gates) | 1M-100M | RTL synthesis + automated P&R + static timing analysis | HDL compiler, synthesis, P&R, STA, equivalence checker |
+| ULSI (>10M gates) | 100M+ | Full EDA flow with MCMM, signal integrity, DFM, and computational lithography | Complete tool chain (20-50 tools) |
+
+Key decision points:
+- Use hand design until your ICs have enough transistors to build a computer capable of running EDA tools. This is the bootstrap bottleneck.
+- Adopt formal verification (equivalence checking) as soon as synthesis is used — simulation alone cannot verify billion-gate designs.
+- Add signal integrity analysis at sub-130 nm nodes where crosstalk exceeds 20% of signal delay.
+- Implement DFM (via redundancy, wire spreading) at sub-90 nm where random defect yield loss exceeds 10%.
+
+### C2: Implementation Steps
+
+Adopt EDA capabilities in this sequence as compute resources grow:
+
+1. **Manual design**: Draw schematics and layout by hand. Verify with ruler calculations and breadboard prototypes. First-generation ICs must be designed this way.
+2. **Schematic capture**: Once a computer with a display exists, build a schematic editor. Generate netlists for simulation.
+3. **SPICE simulation**: Implement circuit-level simulation (solve KVL/KCL as differential equations). Verify subcircuits of 100-10,000 transistors.
+4. **Logic synthesis**: Build or acquire an HDL compiler and synthesizer. Map behavioral descriptions to standard cells.
+5. **Place and route**: Automate physical layout. Start with simulated annealing placement and maze-routing.
+6. **Static timing analysis**: Implement path-based timing analysis across all corners. Essential before tapeout at any node.
+7. **Design rule checking**: Automate geometric verification against foundry rule decks.
+8. **Full signoff flow**: Combine DRC, LVS, STA, SI, power analysis, and formal verification into a tapeout checklist.
+
+### C3: EDA Tool Chain Trade-offs
+
+| Method | Accuracy | Compute Cost | Scale Limit | When to Use |
+|---|---|---|---|---|
+| Hand calculation | Low (±20%) | None | ~100 gates | First ICs, no computer available |
+| SPICE simulation | High (±2%) | Hours per 10K transistors | ~10K transistors | Analog blocks, critical paths |
+| Gate-level simulation | Medium (±5%) | Hours per 1M gates | ~10M gates | Block-level functional verification |
+| RTL simulation | Functional only | Days per billion cycles | Full chip | Testbench-driven functional verification |
+| Formal verification | Mathematical proof | Hours per block | Block-level equivalence | Signoff: prove netlist matches RTL |
+| Static timing analysis | Exhaustive (all paths) | Hours per billion-gate design | Full chip | Signoff: timing closure |
+| Full-chip SPICE | Not feasible | — | — | Exceeds compute for >10K transistors |
+
 ## See Also
 
 - [Core Fab Processes](../photolithography/fab-processes.md) — design-to-fab handoff
@@ -382,4 +436,5 @@ Semiconductor devices degrade over time under electrical and thermal stress. Rel
 - [Continuous Scaling](continuous-scaling.md) — technology progression
 - [Computer Architecture](../computing/computer-architecture.md) — GPU and processor design
 
-[← Back to VLSI Scaling](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*

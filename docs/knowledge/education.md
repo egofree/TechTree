@@ -239,6 +239,6 @@
 - [Machine Tools](../machine-tools/iterative-bootstrap.md) — the primary technical skill set requiring education
 - [Measurement](../measurement/precision-metrology.md) — precision skills taught in technical education
 
+---
 
-
-[← Back to Knowledge](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*

@@ -288,4 +288,6 @@ Silicon purification involves some of the most dangerous chemicals in semiconduc
 - [MG-Si Production](mg-si-production.md) — metallurgical-grade silicon upstream
 - [Silicon Index](index.md) — silicon production chain overview
 
-[← Back to Silicon](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*

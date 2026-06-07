@@ -34,7 +34,7 @@ Carding converts 0.5-1 kg/hour of hand-carded fiber output to 5-10 kg/hour throu
 | Bearings | 6-12 pcs | Bronze plain bearings or ball bearings | [Bearings](../machine-tools/bearings-abrasives.md) | Wooden bearings with oil cups (shorter life) |
 | Frame timber or angle iron | 20-40 kg | Sturdy frame supporting drum shafts at precise centers | [Iron & Steel](../metals/iron-steel.md) | Hardwood frame (heavier, absorbs vibration) |
 | Drive gears or belts | 1 set | Step-down ratio 2:1 to 6:1 between licker-in and main cylinder | [Metals](../metals/index.md) | Rope drive (less positive) |
-| Bolts and fasteners | 5-10 kg | M8-M12 | [Fasteners](../metals/fasteners.md) | Through-bolts with nuts |
+| Bolts and fasteners | 5-10 kg | M8-M12 | [Iron & Steel](../metals/iron-steel.md) — fabricated in-house | Through-bolts with nuts |
 
 ## Construction Steps
 
@@ -111,6 +111,84 @@ Carding converts 0.5-1 kg/hour of hand-carded fiber output to 5-10 kg/hour throu
 - **Dust and fly**: Carding generates fine fiber dust at 5-10× the rate of hand carding. Ventilate the carding area. Wear a dust mask — chronic inhalation causes byssinosis.
 - **Entanglement in drive belts**: Guard all belts and gears. Loose clothing catches in rotating shafts.
 
+## Maintenance
+
+Regular maintenance extends carding machine life from months to decades. Neglect accelerates wire tooth wear, bearing failure, and drum damage from foreign objects.
+
+**Daily checks** (before each shift):
+- Inspect feed tray for foreign objects (twigs, metal fragments, buttons). These bend or break wire teeth on contact.
+- Check carding gaps at both ends and center with a feeler gauge. Gaps drift with bearing wear and frame vibration — correct before running.
+- Verify belt tension. Loose belts cause speed variation between drums, producing uneven carding.
+
+**Weekly maintenance**:
+- Remove accumulated fiber from under the drums and from the doffer comb. Packed fiber restricts airflow and increases dust generation.
+- Lubricate bearing housings with machine oil (SAE 30 or equivalent). Bronze bushings need 2-3 drops per bearing per week. Ball bearings: check seals and re-grease every 6 months.
+- Inspect card cloth for bent or broken wire teeth. Replace damaged sections by cutting out the affected strip and gluing in a new piece. Even a few bent teeth produce neps in the output batt.
+
+**Monthly maintenance**:
+- Check drum balance by running the main cylinder at full speed without card cloth. Vibration amplitude must not exceed 0.05 mm at the bearing housings. If vibration has increased, clean the drum surface (accumulated fiber oils cause imbalance) and re-check. Add balance weights if needed.
+- Inspect drive belts for cracks, glazing, and stretch. Replace cracked belts before they break — a belt failure during operation causes the licker-in to stall while the main cylinder continues, wrapping fiber around the main cylinder and jamming the machine.
+- Check the doffer comb blade for wear. The comb must be set 0.5-1.0 mm from the doffer surface and parallel across the full width. A worn comb leaves fiber on the doffer instead of peeling it off as a continuous web.
+
+**Card cloth replacement** (every 2,000-5,000 operating hours):
+1. Remove the old card cloth by prying the retaining clips at each end and peeling the cloth off the drum. Clean residual adhesive from the drum surface with a scraper.
+2. Cut new card cloth to circumference length plus 10 mm overlap. Check that wire tooth density matches the original specification — finer teeth for cotton, coarser for wool.
+3. Apply hide glue or rubber cement to the drum surface. Wrap the new card cloth tightly, teeth pointing in the direction of rotation. Secure with retaining clips.
+4. Check tooth height uniformity with a straightedge laid across the drum — teeth must be within ±0.5 mm of uniform height. High spots can be pressed down gently with a wooden block; low spots indicate improperly seated cloth and require re-wrapping.
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Neps (tangled fiber balls) in output | Carding gap too wide or feed rate too high | Tighten gap to 0.3-0.5 mm using feeler gauge. Reduce feed quantity per pass. |
+| Uneven batt thickness | Drum surface not concentric or card cloth worn unevenly | Check drum runout with dial indicator (max 0.05 mm). Replace worn card cloth sections. |
+| Fiber wrapping around licker-in | Licker-in speed too low relative to feed or gap too tight | Increase licker-in speed ratio to 3-4× main cylinder. Widen licker-in gap by 0.2 mm. |
+| Excessive fiber dust | Card cloth worn flat — teeth no longer gripping fiber | Replace card cloth. Worn teeth crush fiber instead of combing it. |
+| Vibration at operating speed | Drum unbalanced or bearings worn | Remove card cloth, check balance. Replace worn bearings. Re-balance if needed. |
+| Motor stalling / belt slipping | Foreign object in drum gap or feed overload | Stop machine immediately. Clear obstruction. Reduce feed rate. Check belt tension. |
+| Fiber not transferring to doffer | Doffer gap too wide or doffer speed wrong | Tighten doffer gap to 0.3-0.5 mm. Check doffer speed ratio (0.5-1.0× main cylinder). |
+| Wire teeth breaking | Foreign objects (metal, twigs) in feed or wire fatigue | Install a pre-cleaner or inspection step before carding. Replace fatigued card cloth. |
+
+## Card Clothing Wire Specifications
+
+Card wire must match the fiber being processed. Using the wrong wire gauge or tooth density degrades carding quality and increases waste:
+
+| Fiber Type | Wire Gauge (SWG) | Tooth Density (teeth/cm²) | Tooth Height (mm) | Working Angle |
+|------------|-----------------|--------------------------|-------------------|---------------|
+| Fine cotton | 30-32 | 60-80 | 5-7 | 20-25° |
+| Medium cotton | 28-30 | 40-60 | 7-9 | 25-30° |
+| Wool (fine) | 28-30 | 30-50 | 8-10 | 25-30° |
+| Wool (coarse) | 24-26 | 15-25 | 10-12 | 30-35° |
+| Synthetic staple | 28-30 | 40-60 | 7-9 | 25-30° |
+
+Wire material: hardened and tempered steel (Rockwell C 50-55). Softer wire deforms within hours of operation. The wire is set in a flexible backing (rubber or leather, 3-5 mm thick) that allows slight tooth deflection under load — rigid mounting causes wire breakage.
+
+## Feed Preparation for Optimal Carding
+
+The quality of the carded batt depends heavily on feed preparation. Poorly prepared fiber wastes carding time and produces inferior output:
+
+- **Open the fiber mass**: Before feeding, tease apart compressed bales or bundles by hand or with a willowing machine (rotating spiked cylinder that fluffs the fiber). Compressed fiber clumps cannot be opened by the licker-in alone and produce neps.
+- **Remove trash**: Vegetable matter, seeds, and dirt should be removed as far as possible before carding. The carding machine will remove some trash, but heavy contamination dulls wire teeth and increases waste. Pre-clean by hand-picking or with a coarse screen.
+- **Control moisture**: Cotton and wool card best at 10-14% moisture content. Over-dry fiber generates static electricity and flies apart instead of forming a coherent web. Over-wet fiber clumps and clogs the carding gap. Condition fiber by storing in a humidity-controlled room (55-65% RH) for 24 hours before carding.
+- **Even feeding**: Feed fiber in thin, uniform layers across the full width of the licker-in. Heaping fiber in the center produces uneven carding and overloads the center section of the main cylinder. Use a feed tray with width markers to train consistent feeding.
+
+## Carding Output Quality Standards
+
+The carded batt must meet measurable quality criteria before it is suitable for spinning. Poor carding quality propagates defects through every downstream process:
+
+- **Nep count**: Maximum 20 neps (tangled fiber balls) per 100 g of carded batt for medium-count yarn (Ne 20-40). For fine yarn (Ne 60+), maximum 5 neps per 100 g. Count neps by spreading 100 g of batt on a dark surface and inspecting under 5× magnification. Neps appear as small, tight knots that resist being pulled apart.
+- **Fiber alignment**: In a well-carded batt, 80-90% of fibers should lie within ±15° of the machine direction. Check by pulling a small tuft from the batt and holding it against a protractor card. Cross-aligned fibers (more than 30° from machine direction) produce weak spots in the yarn.
+- **Trash content**: Remaining vegetable matter should be less than 0.5% of batt weight for cotton, less than 0.2% for wool. Weigh a 100 g sample, pick out all visible trash, and re-weigh. Higher trash content indicates insufficient pre-cleaning or worn card cloth.
+- **Batt uniformity**: Measure batt thickness at 5 positions across the width and at 3 positions along the length (15 measurements total). Standard deviation must be within ±15% of mean thickness. Thick or thin spots in the batt produce uneven yarn.
+
+## Integration with Downstream Equipment
+
+Carded batts feed directly into drawing frames and roving frames before reaching the spinning frame. The batt must be coherent enough to handle without disintegrating:
+
+- **Drawing frame**: 4-8 carded slivers (condensed batts) are doubled and drafted together on a drawing frame. Doubling averages out variations in individual slivers — 6 slivers fed together reduce mass variation by √6 ≈ 2.45×. The drawing frame further aligns fibers and improves uniformity. Each sliver should weigh 3-6 g/m.
+- **Roving frame (speed frame)**: The drawn sliver is attenuated to a thin roving (1-2 g/m) with slight twist (1-2 tpi) to give it enough cohesion to be wound onto a bobbin and unwound at the spinning frame without breaking. The roving must be uniform — thick spots cause slubs in the final yarn; thin spots cause breaks.
+- **Carding-to-spinning yield**: From 100 kg of raw fiber input to the carding machine, expect 85-95 kg of usable carded output, depending on fiber type and trash content. The 5-15% loss is mostly removed trash (seeds, vegetable matter, short fibers) that would degrade yarn quality if left in.
+
 ## See Also
 
 - [Spinning](spinning.md) — hand spinning methods, fiber properties, hand cards
@@ -119,4 +197,5 @@ Carding converts 0.5-1 kg/hour of hand-carded fiber output to 5-10 kg/hour throu
 - [Machine Tools](../machine-tools/index.md) — precision turning for drums and shafts
 - [Bearings](../machine-tools/bearings-abrasives.md) — bearing selection for rotating drums
 
-[← Back to Textiles](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

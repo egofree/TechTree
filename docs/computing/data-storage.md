@@ -169,6 +169,20 @@ Magnetic tape storage requires magnetizable coating (iron oxide particles in a b
 
 Hard disk manufacturing demands sub-micron mechanical precision: platter surface smoothness below 0.25 nm Ra (atomic-scale flatness), head gimbal assemblies with aerodynamic slider designs, and cleanroom assembly (Class 10 or better). These requirements make hard disks a late-stage technology in the bootstrapping sequence, well after precision machining and cleanroom capability are established.
 
+### Punch Card Mechanism Construction
+
+**Punch mechanism**: Mount 12 spring-loaded steel pins (2 mm diameter, 20 mm length) in a brass guide plate (80 × 15 × 5 mm, holes drilled at standard column spacing 3.175 mm). Each pin rides in its guide hole with 0.05 mm clearance. A cam bar or key lever presses the pin through the card (187.3 × 83.3 mm, 0.18 mm thick card stock). Return springs (0.5 mm music wire, 8 mm coil diameter) retract pins between strokes.
+
+**Reading mechanism — pin-sensing**: 12 spring-loaded contact pins (1.5 mm diameter) on a reader head press against the card. Where a hole exists, the pin passes through and contacts a brass roller underneath, closing a circuit. Each contact pin connects to a relay coil (one per row). Card advances via a feed roller (rubber-coated, 10 mm diameter) driven by a solenoid or hand crank through a Geneva mechanism (12-position, one column per step).
+
+**Reading mechanism — photoelectric**: Mount 12 photodiodes (or CdS photocells) on one side of the card path and a 12 V incandescent lamp on the other. Light passes through punched holes. Each photodiode drives a transistor switch (2N2222 or equivalent): base connected through photodiode, collector through relay coil, emitter to ground. Sensing threshold: adjust base resistor so <1 kΩ photocell resistance = logic "1" (hole present).
+
+### Paper Tape Mechanism Construction
+
+**Punch**: Same principle as card punch but using a continuous tape (17.5 mm, 25.4 mm, or 22.3 mm width depending on 5/6/8 channel format). Punch die block has 5-8 holes (1.83 mm diameter for standard tape) plus one smaller sprocket feed hole (1.22 mm diameter, offset from data channels). Tape advance: sprocket wheel (2.54 mm pitch teeth) driven by solenoid pawl ratchet — one tooth per character punched.
+
+**Reader**: Spring-loaded contact pins (1.5 mm) sense holes in moving tape. Tape feed: same sprocket wheel driven by a second solenoid or hand crank. Reading speed (hand-cranked): 10-20 characters/second. Motor-driven: 50-300 characters/second depending on relay response time.
+
 ## Storage Hierarchy Summary
 
 | Level | Technology | Access Time | Capacity | Cost/GB |
@@ -225,5 +239,8 @@ Each layer is roughly 10-100× slower but 10-100× cheaper per bit than the laye
 - [Telecom / Radio](../telecom/radio.md) — data transmission that drove storage demand
 - [Optics / Lasers](../optics/index.md) — optical disc read/write technology
 
-[← Back to Computing](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*
 
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing & Automation](./index.md) • [All Domains](../index.md)*

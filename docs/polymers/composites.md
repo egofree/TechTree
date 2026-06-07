@@ -1,8 +1,12 @@
 # Polymer Composites — Process Reference
 
 > **Node ID**: polymers.composites
-> **Dependencies**: [`glass.fibers`](../glass/fibers.md), `machine-tools`, [`polymers.thermosets`](thermosets.md)
+> **Domain**: [Polymers & Composites](./index.md)
+> **Dependencies**: [`glass.fibers`](../glass/fibers.md), [`machine-tools`](../machine-tools/index.md), [`polymers.thermosets`](thermosets.md)
 > **Enables**: None (leaf capability)
+> **Timeline**: Years 15-50
+> **Outputs**: fiberglass_composites, carbon_fiber_composites, composite_laminates
+> **Critical**: No — composites provide high strength-to-weight but metals and wood serve most structural needs
 
 
 Fiber-reinforced polymer composites combine high-strength fibers (glass, carbon, aramid) with a binding matrix resin (polyester, epoxy, vinyl ester) to produce materials stronger and lighter than either component alone. Composites dominate aerospace structures, marine hulls, chemical-resistant tanks, electrical enclosures, and sporting goods — anywhere the combination of high strength-to-weight ratio, corrosion resistance, and design flexibility justifies the manufacturing effort.
@@ -10,6 +14,14 @@ Fiber-reinforced polymer composites combine high-strength fibers (glass, carbon,
 The key advantage of composites over metals is **anisotropy**: fibers can be oriented to carry load in the directions where strength is needed, without wasting material on directions that see little stress. A steel beam is equally strong in all directions (isotropic), but a composite laminate can be 5× stronger along the fiber direction than across it — enabling highly optimized structures. The trade-off is manufacturing complexity: composite properties depend on fiber type, fiber volume fraction, matrix selection, layup method, and cure cycle, all of which must be controlled simultaneously.
 
 This article covers fiber properties, layup methods, matrix selection, manufacturing techniques, and phase-dependent milestones for composite production.
+
+## Prerequisites
+
+- [Glass fibers](../glass/fibers.md) — E-glass or S-glass fiber reinforcement (continuous roving, woven fabric, or chopped strand mat)
+- [Thermoset resins](thermosets.md) — polyester, epoxy, or vinyl ester matrix resins with catalyst and hardener
+- [Machine tools](../machine-tools/index.md) — rollers, presses, and molds for layup and cure
+- [Mold making](../metals/casting.md) — open molds (wood, GRP, or metal) for hand layup; matched metal molds for compression and RTM
+- [Coatings](../chemistry/coatings.md) — gel coat materials for surface finish and environmental protection
 
 ## Limitations
 
@@ -70,6 +82,16 @@ The simplest composite manufacturing method, achievable at minimal technology le
 
 Typical fiber volume fraction: 20-30% (random chopped strand mat) to 30-45% (woven fabric). Hand layup produces laminates with 2-5% void content (air bubbles trapped between layers) — acceptable for many applications but not for structural or aerospace use.
 
+**Strengths**:
+- Lowest capital cost — requires only brushes, rollers, and an open mold; no vacuum pump, heated die, or press
+- Unrestricted part size — limited only by mold dimensions; suitable for boat hulls, tanks, and architectural panels
+- Flexible fiber placement — operator can orient fabric in any direction, add reinforcement patches, and vary thickness locally
+
+**Weaknesses**:
+- Low fiber volume fraction (20-45%) — significantly less structural efficiency than vacuum-bagged or pultruded laminates
+- High void content (2-5%) — trapped air reduces interlaminar shear strength and promotes delamination
+- Operator-dependent quality — laminate consistency depends on the skill and care of the individual laminator; difficult to certify for structural use
+
 ## Vacuum Bagging
 
 Improves hand layup quality by applying uniform consolidation pressure and removing trapped air.
@@ -83,6 +105,16 @@ Improves hand layup quality by applying uniform consolidation pressure and remov
 
 Vacuum bagging reduces void content from 2-5% (hand layup) to <1%, improves fiber volume fraction to 50-55% (woven fabric), and produces consistent, repeatable laminate quality with minimal voids.
 
+**Strengths**:
+- Low void content (<1%) — vacuum evacuation removes nearly all trapped air, producing aerospace-grade laminate quality
+- Higher fiber volume fraction (50-55%) — consolidation pressure squeezes excess resin through the bleeder layer
+- Uniform pressure distribution — 0.08-0.10 MPa applied equally over complex contours; no pressure gradients from manual rolling
+
+**Weaknesses**:
+- Requires vacuum pump, bagging film, and consumables (release film, bleeder cloth, sealant tape) — adds cost per part
+- Consumable waste — bagging film, breather, and bleeder are single-use; disposal adds to production cost
+- Longer setup time — bagging and sealing adds 30-60 minutes per layup before cure can begin
+
 ## Pultrusion
 
 Continuous process for producing constant cross-section profiles (rods, tubes, angles, I-beams, channels). Product speeds 0.5-2.0 m/minute.
@@ -95,6 +127,16 @@ Continuous process for producing constant cross-section profiles (rods, tubes, a
 6. **Cutoff saw**: Cuts continuous profile to desired length.
 
 Fiber volume fraction: 60-70% (highest of any composite process due to unidirectional fiber alignment and die consolidation). Used for: structural profiles (grating, handrails, structural angles), electrical insulation rods, tent poles, fishing rods, reinforcing bars for concrete.
+
+**Strengths**:
+- Highest fiber volume fraction (60-70%) of any composite process — die consolidation and unidirectional fiber alignment maximize structural efficiency
+- Continuous automated production — output speeds 0.5-2.0 m/minute with consistent cross-section; low labor per unit length
+- Excellent dimensional consistency — the steel die controls cross-section to ±0.1 mm tolerance
+
+**Weaknesses**:
+- Limited to constant cross-section profiles — cannot produce tapered, curved, or variable-thickness parts
+- High capital cost — heated chrome-plated steel dies ($5,000-50,000) and pulling mechanism required
+- Primarily unidirectional fiber orientation — poor transverse strength unless supplemental mat or fabric is added
 
 ## Fiber Volume Fraction Optimization
 
@@ -125,6 +167,27 @@ Polyester: cheapest, most widely used, adequate for 90% of fiberglass applicatio
 Epoxy: highest mechanical properties, lowest shrinkage (<2%), best adhesion to fibers, longest pot life flexibility. But 3-5× more expensive than polyester. Used where performance justifies cost: aerospace, high-performance sporting goods, tooling (molds for other composites), structural repairs.
 
 Vinyl ester: hybrid chemistry — epoxy backbone with unsaturated ester end-groups. Combines epoxy's chemical resistance with polyester's room-temperature MEKP cure. Best choice for corrosion-resistant tanks, pipes, and chemical equipment. Cost: 2× polyester, 0.5× epoxy.
+
+
+## Calibration / Verification
+
+### Void Content (Burn Test — ASTM D2584)
+
+1. Cut a 2-3 g sample from the laminate. Weigh to 0.001 g (W₁).
+2. Place sample in a pre-weighed ceramic crucible. Heat in a muffle furnace at 500-600°C for 1-2 hours to burn off the resin matrix. Cool in a desiccator.
+3. Weigh the remaining fiber (W₂). Void content = 1 − (W₂/W₁ × ρ_fiber/ρ_laminate) × 100, where ρ_laminate is the measured laminate density (by water displacement per ASTM D792) and ρ_fiber is the known fiber density (E-glass: 2.54 g/cm³). Target: <2% for structural laminates, <1% for aerospace.
+
+### Fiber Volume Fraction (Burn Test)
+
+1. From the burn test residue above, the fiber weight fraction = W₂/W₁. Convert to volume fraction: Vf = (W₂/ρ_fiber) / (W₂/ρ_fiber + (1−W₂)/ρ_resin). For E-glass/polyester: Vf ≈ W₂ × 3.14 (approximation using ρ_fiber = 2.54, ρ_resin = 1.2). Target: 30-45% (hand layup), 50-55% (vacuum bag), 60-70% (pultrusion).
+
+### Barcol Hardness (ASTM D2583)
+
+Press the Barcol impressor into the cured laminate surface. Read hardness directly. Polyester laminate: Barcol 40-55. Epoxy laminate: Barcol 50-65. Low readings (<30) indicate undercure — extend post-cure at 60-80°C for 2-4 hours.
+
+### Laminate Thickness Check
+
+Measure at 5 points with calipers (±0.1 mm). Variation must be <10% of nominal thickness. Excessive variation indicates uneven layup or inconsistent roller pressure.
 
 
 ## Fiber Production
@@ -272,4 +335,6 @@ structural reinforcement in hybrid composites.
 - [Synthetic Polymers](synthetic.md) — polymer chemistry fundamentals
 - [Coatings](../chemistry/coatings.md) — gel coats and protective finishes
 
-[← Back to Polymers](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*

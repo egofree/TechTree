@@ -199,4 +199,6 @@ A standard that practitioners cannot find or read is useless. Ensure every publi
 - [Information Durability](information-durability.md) — preserving standards documents across generations
 - [Quality Control](../quality-control/index.md) — the quality management systems that standards enable
 
-[← Back to Knowledge Preservation & Education](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*

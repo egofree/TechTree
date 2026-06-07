@@ -2,11 +2,31 @@
 
 > **Node ID**: petroleum.refining
 > **Domain**: [Petroleum Extraction & Refining](./index.md)
-> **Dependencies**: [`chemistry.distillation`](../chemistry/distillation.md), `petroleum`, [`petroleum.extraction`](extraction.md)
-> **Enables**: [`energy.engine`](../energy/engine.md), [`petroleum.petrochemicals`](petrochemicals.md), `petroleum.refining.cracking`, `petroleum.refining.distillation`
+> **Dependencies**: [`chemistry.distillation`](../chemistry/distillation.md), [`petroleum`](./index.md), [`petroleum.extraction`](extraction.md)
+> **Enables**: [`energy.engine`](../energy/engine.md), [`petroleum.petrochemicals`](petrochemicals.md), [`cracking`](refining.md), [`distillation units`](refining.md)
 > **Timeline**: Years 15-40
 > **Outputs**: gasoline, kerosene, diesel, fuel_oil, lubricating_base_oil, asphalt, lpg, refinery_gas
 > **Critical**: No — refining produces optimal fuels and chemical feedstocks but biomass and coal-derived alternatives exist
+
+## Prerequisites
+
+Petroleum refining requires a substantial industrial base:
+
+- [Distillation technology](../chemistry/distillation.md) — fractionation columns, heat exchangers, condensers
+- [Petroleum extraction](extraction.md) — crude oil supply
+- [Chemistry](../chemistry/index.md) — catalysis, acid-base chemistry, hydrogen production
+- [Metals](../metals/index.md) — alloy steel for high-temperature, high-pressure vessels
+- [Energy](../energy/index.md) — continuous power supply for 24/7 refinery operation
+
+## Safety
+
+Petroleum refining is one of the most hazardous industrial operations:
+
+- **Hydrogen sulfide (H₂S)**: Present in sour crude and refinery gas streams. Lethal at 100 ppm. Concentrated in the overhead systems of the atmospheric distillation unit. Fixed gas detectors and personal H₂S monitors required in all process areas.
+- **Hydrocarbon flash fires**: Flammable hydrocarbon vapors exist throughout the refinery. Flash point of gasoline: -43°C (ignites at any ambient temperature). Diesel flash point: 52-96°C. Electrical equipment must be explosion-proof in all process areas.
+- **Benzene**: Confirmed carcinogen (leukemia). Present in reformate (25-40% benzene), light naphtha, and aromatic streams. TLV: 0.5 ppm (8-hour TWA). Use closed sampling systems, minimize skin contact.
+- **High-pressure systems**: Distillation columns operate at 1-40 bar. Hydrocracking operates at 80-200 bar. Pressure relief systems (relief valves, rupture disks) mandatory on all pressurized vessels. Never block or disable a relief device.
+- **Sulfuric and hydrofluoric acid**: Used in alkylation units. HF causes deep tissue burns and systemic fluoride poisoning. Ca exposure requires immediate calcium gluconate gel treatment. HF alkylation units have dedicated emergency shower/eyewash and calcium gluconate stations.
 
 ## Why Refining Matters
 
@@ -302,4 +322,5 @@ A refinery consumes 5-10% of its crude oil throughput as fuel (for furnaces, ste
 - [Fuels](../energy/fuels.md) — fuel types and energy content
 - [Solvents](../chemistry/solvents.md) — petroleum-derived solvents
 
-[← Back to Petroleum Extraction & Refining](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Petroleum Extraction & Refining](./index.md) • [All Domains](../index.md)*

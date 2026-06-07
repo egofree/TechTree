@@ -222,4 +222,6 @@ A 20-cow bison herd on 40-80 hectares of native grassland produces 17-19 calves 
 - [Textile Fibers](../textiles/fibers.md) — animal fiber processing
 - [Food Processing](../food-processing/index.md) — meat preservation and rendering
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

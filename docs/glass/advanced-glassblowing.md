@@ -245,6 +245,6 @@ Glassblowing as a craft dates to ~1500 BCE (Egyptian core-formed glass). Free-bl
 - [Machine Tools: Machining](../machine-tools/machining.md) — lathes and precision tooling
 - [Energy: Fuels](../energy/fuels.md) — propane, natural gas, and oxygen supply
 
+---
 
-
-[← Back to Glass](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*

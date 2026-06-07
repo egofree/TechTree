@@ -8,6 +8,15 @@
 > **Outputs**: contamination_control_protocols, iso_classification, esd_control, particle_monitoring
 > **Critical**: Yes — semiconductor fabrication at sub-micron nodes is impossible without contamination control; a single particle destroys a die
 
+## Prerequisites
+
+Contamination control protocols depend on the physical cleanroom infrastructure:
+
+- [HEPA/ULPA filtration](hepa-ulpa-filtration.md) — filter hardware that removes particles from the air supply
+- [Facility design and HVAC](facility-design.md) — the structural envelope, pressure cascades, and air handling systems
+- [Ultra-pure water](../ultra-pure/upw.md) — cleaning processes require UPW to avoid redepositing dissolved contaminants
+- [High-purity chemicals](../ultra-pure/high-purity-chemicals.md) — cleaning and processing chemicals must themselves be contaminant-free
+- [Measurement and metrology](../measurement/index.md) — particle counters and monitoring instrumentation
 
 Contamination control is the operational discipline that keeps a clean room clean. Filtration removes particles from the air supply (see [HEPA/ULPA Filtration](hepa-ulpa-filtration.md)), but the facility itself generates particles continuously — from people, processes, equipment, and materials. Without rigorous contamination control protocols, even the most expensive HEPA/ULPA filtration system cannot maintain ISO Class 5 or better.
 
@@ -316,6 +325,5 @@ The rigor of contamination control protocols scales with the target ISO class. R
 - [Photolithography Cleanrooms](../photolithography/cleanrooms.md) — semiconductor-specific contamination protocols
 - [Health: Sanitation](../health/sanitation.md) — contamination control at a different scale (biological, not particulate)
 
-
-
-[← Back to cleanrooms](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Clean Room Technology](./index.md) • [All Domains](../index.md)*

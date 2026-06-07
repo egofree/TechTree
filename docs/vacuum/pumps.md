@@ -4,6 +4,7 @@
 > **Domain**: [Vacuum Technology](./index.md)
 > **Dependencies**: `machine-tools`
 > **Enables**: [`optics.inspection.optical-coatings`](../optics/optical-coatings.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
+> **Critical**: Yes — vacuum pumps are required for all semiconductor thin-film deposition, lithography, and packaging processes; no alternative to mechanical vacuum pumping exists
 > **Timeline**: Years 25-40
 > **Outputs**: vacuum_pumps, roughing_pumps, high_vacuum_pumps, uhv_pumps
 
@@ -271,5 +272,6 @@ A 600 L/min rotary vane pump is required as backing for this gas load.
 - **[Vacuum Measurement & Leak Detection](measurement.md)**: Pressure gauges and leak detection
 - **[Lubricants, Oils & Fluid Mechanics](../chemistry/lubricants.md)**: Vacuum oil specifications
 
+---
 
-[← Back to Vacuum](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*

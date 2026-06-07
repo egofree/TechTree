@@ -214,6 +214,22 @@ Wolves, coyotes, foxes, big cats, and birds of prey all threaten livestock. Loss
 | Diarrhea in young stock | Scours (E. coli, crypto, coccidia) | Electrolyte therapy; isolate affected; ensure colostrum; clean bedding |
 | Aggressive bull/stallion | Sexual behavior, inadequate handling | Use experienced handler; breeding harness; cull dangerous animals |
 
+## Safety
+
+**Crush injuries from large animals**: Cattle weigh 500-700 kg and horses 400-600 kg. A cow leaning against a crush chute or gate generates 2-5 kN of force — enough to fracture ribs or compress the chest. A horse kick delivers 10,000 N of force with a hoof moving at 15-20 m/s, causing fractures, internal bleeding, or fatal head injuries. Never stand directly behind a horse or in the kick zone (a 1.5 m radius behind the hindquarters). Use a livestock crush (restraining chute) with head bail and squeeze sides when handling cattle for veterinary procedures. Work cattle in a round pen with solid walls (1.5 m minimum height) — animals are calmer when they cannot see through the fence.
+
+**Zoonotic disease transmission**: Livestock carry diseases transmissible to humans. Brucellosis (Brucella abortus) causes undulant fever in humans — transmitted via contact with birthing fluids or unpasteurized milk from infected cattle. Q fever (Coxiella burnetii) is inhaled from birthing fluids and dust; 1-5% of infections become chronic, causing endocarditis. Leptospirosis enters through skin cuts exposed to infected urine. Ringworm (Trichophyton verrucosum) spreads by direct contact with infected cattle hides. Toxoplasmosis from cat feces in barns threatens pregnant women. Pasteurize milk at 63°C for 30 minutes or 72°C for 15 seconds to kill Brucella and Mycobacterium tuberculosis. Wear nitrile gloves when handling birthing material or aborting animals. Wash hands with soap after any animal contact.
+
+**Bull and stallion handling**: Intact bulls (800-1,200 kg) and stallions (500-700 kg) are unpredictable and territorial. A bull can charge at 35 km/h and has a 2 m head swing radius. Never handle a bull alone — two people minimum, one with a handling stick (1.5-2.0 m rigid pole). Bull rings (10-15 mm diameter, inserted through the nasal septum at 8-12 months) provide control via a lead rope. Cull bulls that show unprovoked aggression. House bulls in facilities with escape routes (man-gates, 0.6 m wide, in every pen).
+
+**Biogas hazards**: Anaerobic digesters produce biogas containing 60-70% methane (CH₄, flammable at 5-15% concentration in air) and 30-40% carbon dioxide. Hydrogen sulfide (H₂S) in biogas reaches 200-2,000 ppm — IDLH (immediately dangerous to life and health) at 100 ppm. H₂S deadens the sense of smell at concentrations above 100 ppm, making lethal levels undetectable by nose. Never enter a digester tank without forced ventilation and a gas detector calibrated for H₂S (alarm at 10 ppm). Biogas storage must be kept away from ignition sources — methane-air explosions produce blast overpressures of 0.5-1.0 bar, sufficient to destroy masonry structures.
+
+**Hay spontaneous combustion**: Hay baled above 25% moisture supports microbial growth that generates heat. Internal temperature rises over 3-7 days. Above 70°C, spontaneous ignition occurs. Monitor stacked hay with a probe thermometer — temperatures above 55°C require immediate unstacking and dispersal. Do not stack wet hay in enclosed barns.
+
+**Manure pathogens**: Fresh manure contains E. coli O157:H7, Salmonella, Cryptosporidium, and Listeria. Compost manure to 55°C for a minimum of 3 consecutive days to kill these pathogens. Apply raw manure to cropland no less than 90 days before harvest of crops that do not touch the soil, and 120 days before harvest of crops that do. Wear gloves when handling fresh manure.
+
+**PPE for routine livestock work**: Leather gloves (for handling wire, fencing, and rough-hewn wood), steel-toed boots (protection against 500-700 kg animals standing on feet — a cattle hoof on an unprotected foot exerts 0.5-1.0 MPa, causing metatarsal fractures), hearing protection when operating bark mills or chippers (85-100 dB), and N95 respirator when cleaning dried manure or moldy hay (organic dust contains endotoxins that cause farmer's lung, a hypersensitivity pneumonitis).
+
 ## See Also
 
 - [Livestock Domestication](domestication.md) — species-specific husbandry for all fifteen farmed species
@@ -227,4 +243,5 @@ Wolves, coyotes, foxes, big cats, and birds of prey all threaten livestock. Loss
 - [Soil Management](../agriculture/soil-management.md) — manure as soil amendment
 - [Textiles](../textiles/spinning.md) — wool fiber processing chain
 
-[← Back to Animals](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

@@ -6,6 +6,7 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 5-30+
 > **Outputs**: armor, helmets, shields, body_armor, plate_armor
+> **Critical**: No — specialized military capability dependent on metallurgical and textile industrial base
 
 
 
@@ -14,6 +15,16 @@ Armor and protective systems encompass the materials, construction techniques, a
 Armor design is fundamentally an exercise in materials engineering: managing the tradeoff between protection, weight, mobility, and cost. A 25 kg plate harness distributes load across the body and permits running and climbing, while a 10 kg mail hauberk concentrated on the shoulders causes faster fatigue. Each armor type addresses specific threat vectors -- quilted padding absorbs blunt force, mail stops slashing, plate defeats thrusting and missiles. Layered defense combining multiple types provides broader protection than any single material.
 
 Armor production consumes significant resources. A full plate harness requires 200-500 worker-hours from a skilled armorer. Mail requires 50-180 worker-days of ring production and assembly. These costs limit armor distribution -- historically, infantry wore padded jacks or brigandines while only elite heavy cavalry could afford plate. The industrial base for armor production is the same as for tools and construction: [iron and steel production](../metals/iron-steel.md), [textile manufacturing](../textiles/index.md), and [leatherworking](../foundations/index.md).
+
+
+## Prerequisites
+
+Armor and protective systems draw on multiple industrial capabilities. While basic organic armor (rawhide, quilted gambeson) can be produced with [stone and wood tools](../foundations/tools-basic.md) and [textile manufacturing](../textiles/index.md), metal armor requires organized production:
+
+- [Iron and steel production](../metals/iron-steel.md) — wire drawing for mail, plate forging for harnesses, heat treatment for hardening
+- [Non-ferrous metals](../metals/index.md) — bronze for scale armor (copper-tin alloy casting)
+- [Textiles](../textiles/index.md) — linen and wool for gambeson padding, canvas for brigandine shells
+- [Leatherworking](../foundations/index.md) — rawhide processing, tanning, and shaping for organic armor and straps
 
 
 ## Bill of Materials
@@ -317,7 +328,7 @@ Armor production consumes significant resources. A full plate harness requires 2
 
 **Plate armor workshop**: Master armorer with 3-8 craftsmen. Tools: anvils (50-200 kg), hammers (1-8 kg), swage blocks (formed metal shaping), fullers (grooving tools), tongs (various sizes), forge (charcoal or coke), slack tub (water for quenching). Plate forming: heat steel to cherry red, hammer over stake (shaped anvil) to curve. Dishing: hammer into concave form for breastplate curvature. Raising: hammer on outside of form to create deep shapes (helmets). Fluting: decorative and structural ridges hammered into plates -- adds 30-50% rigidity without adding weight.
 
-**Fitting and customization**: Plate armor fitted to individual wearer -- crucial for comfort and mobility. Measurements: torso circumference, shoulder width, arm length, thigh length. Adjustments: plates can be re-heated and re-shaped. Straps: leather (cowhide, 3-5 mm) with iron buckles. Padding: quilted linen garment (arming doublet) with leather points (laces) for attaching armor plates. Custom-fitted plate armor takes 2-6 months to produce.
+**Fitting and customization**: Plate armor fitted to individual wearer -- essential for comfort and mobility. Measurements: torso circumference, shoulder width, arm length, thigh length. Adjustments: plates can be re-heated and re-shaped. Straps: leather (cowhide, 3-5 mm) with iron buckles. Padding: quilted linen garment (arming doublet) with leather points (laces) for attaching armor plates. Custom-fitted plate armor takes 2-6 months to produce.
 
 
 ## Horse Armor (Barding)
@@ -356,7 +367,5 @@ Armor production consumes significant resources. A full plate harness requires 2
 - **[Textiles](../textiles/index.md)** -- Linen and wool for gambeson padding
 - **[Foundations](../foundations/index.md)** -- Leatherworking and rawhide processing
 
-
- *Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*
-
-[← Back to defense](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*

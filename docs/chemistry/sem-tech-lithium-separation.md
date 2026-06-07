@@ -78,6 +78,26 @@ A lithium recovery system using SEM Tech membranes would combine elements from t
 
 The lithium separation process requires the following consumables and feedstocks:
 
+| Material | Quantity | Notes |
+|----------|----------|-------|
+| **Membrane materials** | | |
+| Lithium-selective cation exchange resin beads | 30-50% loading by volume in membrane | Crown ether (12-crown-4) or iminodiacetic acid functional groups; $50-200/ft³ |
+| Standard anion exchange resin beads | As needed for anion membranes | Quaternary ammonium type; $5-20/ft³ |
+| PVC or CPVC binder | 3:7 polymer-to-solvent ratio by weight | Membrane matrix; dissolved in solvent |
+| Solvent (THF, cyclohexanone, or MEK) | 3:7 polymer-to-solvent ratio by weight | For dissolving PVC/CPVC binder during casting |
+| **Feed materials** | | |
+| Brine feed | Variable (0.1-1.5% Li salt flat, 100-400 mg/L geothermal, 50-200 mg/L produced water) | Salt flat, geothermal, battery recycling leachate, or produced water |
+| pH adjustment reagents (HCl or NaOH) | As needed for pH 6.5-7.5 | Prevents scaling on membrane surfaces |
+| **Pretreatment consumables** | | |
+| Sand filter media | 10-50 μm filtration | Suspended solids removal |
+| Cartridge filters | 1-5 μm | Fine particulate removal |
+| Activated carbon | As needed | Dissolved organics removal |
+| Cleaning reagents (dilute HCl) | 1-2% solution, circulated every 1-4 weeks | Removes scale and fouling deposits |
+| **Product finishing reagents** | | |
+| Sodium carbonate (Na₂CO₃) | 200-400 kg per tonne LCE; ~82 g/L of concentrate | Precipitates Li₂CO₃ at 85-95°C; Solvay process or trona ore |
+| Calcium hydroxide (Ca(OH)₂) | Stoichiometric with Li₂CO₃ for LiOH conversion | For Li₂CO₃ → LiOH; calcined limestone slaked with water |
+| Process water | 50-100 m³ per tonne LCE | Washing, dilution, crystal purification |
+
 **Membrane materials**:
 - **Lithium-selective cation exchange resin beads**: Chelating resins with crown ether (12-crown-4) or iminodiacetic acid functional groups for Li⁺ selectivity. See [Membrane Specifications](#membrane-specifications-for-lithium-selectivity) for details on resin selection, selectivity ratios, and pricing.
 - **Standard anion exchange resin beads**: For the anion exchange membranes in the ED stack. Standard quaternary ammonium type, $5-20 per cubic foot.
@@ -315,7 +335,6 @@ The lithium separation system depends on several upstream capabilities. The PVC/
 - [SEM Tech Electrodialysis](sem-tech-electrodialysis.md) -- ED principles and membrane stack design
 - [Electrolysis](electrolysis.md) -- parent article on industrial electrochemical processes
 
+---
 
-
-
-[← Back to Chemistry](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

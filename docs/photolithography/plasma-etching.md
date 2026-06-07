@@ -1,296 +1,200 @@
 # Plasma Etching (RIE & DRIE)
 
-> **Node ID**: photolithography.plasma-etching
-> **Domain**: [Photolithography & IC Fabrication](./index.md)
-> **Parent**: [Core Fab Processes](fab-processes.md)
-> **Dependencies**: [`vacuum`](../vacuum/index.md), [`gas-handling`](../gas-handling/index.md), [`energy.electricity`](../energy/electricity.md)
+> **Node ID**: photolithography.fab-processes.plasma-etching
+> **Domain**: [Photolithography](./index.md)
+> **Dependencies**: [`Silicon`](silicon.md)
+> **Enables**: [`Basic Gas Handling`](basic.md), [`Vacuum Chambers & Sealing`](chambers.md)
 > **Timeline**: Years 45-70
 > **Outputs**: etched_features, anisotropic_profiles, deep_trenches, via_holes
+> **Critical**: No
 
 ## Overview
 
-Plasma etching is the primary pattern transfer method in semiconductor manufacturing, using ionized gas plasmas to selectively remove material through a combination of chemical reactions and physical ion bombardment. Unlike wet etching, plasma etching produces anisotropic (vertical) sidewall profiles essential for sub-micron feature definition. The two dominant variants are reactive ion etching (RIE) for conventional feature sizes and deep reactive ion etching (DRIE) for high-aspect-ratio structures.
+Reactive ion etching (RIE) and deep reactive ion etching (DRIE) using fluorocarbon, sulfur hexafluoride, and chlorine-based plasmas. Covers RIE reactor design (parallel plate, ICP), plasma generation (RF 13.56 MHz, ICP), etch chemistries (CF₄, SF₆, Cl₂, BCl₃), selectivity and aspect ratio control, DRIE Bosch process for high-aspect-ratio features, and etch rate monitoring (OES endpoint detection).
 
-## RIE Reactor Design
+Plasma etching is the complementary process to lithography: where lithography paints the pattern in photoresist, plasma etching carves that pattern into the underlying film. An RF generator (typically 13.56 MHz) ionizes process gases in a vacuum chamber, creating a soup of reactive radicals, ions, and electrons. The radicals provide chemical etching (isotropic, material-selective) while the ions provide physical sputtering (directional, non-selective). Combining both yields anisotropic etching: vertical sidewalls without lateral undercut, something wet etching cannot achieve for crystalline silicon.
 
-### Parallel-Plate (Capacitively Coupled) Reactor
+Reactive Ion Etching (RIE) places the wafer on the powered electrode, which develops a negative DC self-bias that accelerates positive ions downward into the wafer surface. Deep Reactive Ion Etching (DRIE) adds high-density plasma sources (ICP coils) to achieve etch rates of several micrometers per minute for MEMS structures and through-silicon vias.
 
-The standard RIE tool is a parallel-plate reactor operating at 13.56 MHz (ISM band, chosen to avoid RF interference with communications):
+Etch selectivity, the ratio of target material etch rate to mask (or underlying layer) etch rate, determines whether the pattern transfers cleanly. A selectivity of 10:1 means the mask erodes ten times slower than the film being etched. Fluorocarbon-rich chemistries achieve high selectivity for oxide over silicon because the polymer deposits on silicon surfaces (protecting them) but is continuously consumed on oxide by the etching reaction. Selectivity below 3:1 limits the achievable etch depth and requires thick masks.
 
-- **Chamber**: Aluminum or anodized aluminum body, 200-300 mm diameter for wafer compatibility. Water-cooled walls (15-25°C) to control polymer deposition and particle generation.
-- **Electrodes**: Bottom electrode (cathode, powered) holds the wafer on an electrostatic or mechanical chuck. Top electrode (grounded) serves as the counter-electrode and gas showerhead. Typical gap: 30-80 mm.
-- **Gas delivery**: Showerhead (perforated plate with 100-500 holes, 0.5-1 mm diameter) ensures uniform gas distribution across the wafer. Mass flow controllers (MFCs) regulate each gas to ±1% of setpoint at 10-200 sccm.
-- **Vacuum system**: Turbo-molecular pump backed by a dry roughing pump maintains process pressure at 10-200 mTorr. Throttle valve controls pressure independently of gas flow. Base pressure: <1 × 10⁻⁶ Torr to minimize contamination.
-- **RF system**: 13.56 MHz RF generator (50-1500 W) with automatic impedance matching network (L-type or Pi-type). The matching network minimizes reflected power (<5% of forward power). DC self-bias develops on the powered electrode: V_dc = 100-800 V depending on power, pressure, and gas chemistry.
-- **Wafer cooling**: Helium backside cooling at 5-20 Torr maintains wafer temperature at setpoint (20-80°C). Without cooling, ion bombardment heats the wafer uncontrollably, degrading photoresist and changing etch rates.
+## Prerequisites
 
-### Inductively Coupled Plasma (ICP) Reactor
+### Materials
 
-ICP reactors decouple plasma density from ion energy, enabling independent control of etch rate and selectivity:
+- Process gases: SF₆, CF₄, CHF₃, C₄F₈ (silicon and oxide etch); Cl₂, BCl₃ (metal etch); O₂ (resist strip and polymer control)
+- Patterned wafers with photoresist or hard mask already defined by lithography
 
-- **Plasma source**: RF coil (2-5 turns of water-cooled copper tubing) wrapped around a dielectric window (quartz or alumina) at the top of the chamber. Powered at 13.56 MHz, 500-3000 W. The oscillating magnetic field induces a high-density plasma (10¹⁰-10¹² ions/cm³, 10-100× denser than capacitive coupling).
-- **Substrate bias**: Separate RF generator (13.56 MHz, 50-500 W) on the bottom electrode controls ion energy independently. Low bias power = gentle ion bombardment = high selectivity. High bias power = aggressive ion bombardment = fast etch but poor selectivity.
-- **Advantage**: High etch rates (up to 10× capacitive RIE) with excellent selectivity, because the dense plasma provides abundant reactive species while the independently controlled bias keeps ion energy low enough to avoid physical damage to the mask and underlying layers.
+### Equipment
 
-### Etch Chamber Materials
+- [Silicon](silicon.md) — material dependency
+- Etch chamber with RF generator (13.56 MHz), impedance matching network, and powered electrode
+- Gas delivery system with mass flow controllers for 4-8 gas lines
+- Vacuum system: roughing pump + turbo-molecular pump, base pressure below 10⁻⁶ Torr
+- Optical emission spectrometer (OES) for endpoint detection
+- Exhaust gas abatement: burn box or wet scrubber for PFC and toxic gas destruction
+- Electrostatic chuck with helium backside cooling for wafer temperature control during etch
 
-| Component | Material | Reason |
-|-----------|----------|--------|
-| Chamber walls | Anodized Al or Al₂O₃-coated | Resists fluorine/chlorine plasmas, low particle generation |
-| Electrode | Al, graphite, or SiO₂-coated | Depends on process chemistry; SiO₂ for silicon etch to minimize contamination |
-| Showerhead | Al or SiC | Chemical resistance, uniform gas distribution |
-| Viewport | Quartz (fused silica) | OES endpoint detection requires optical access |
-| Seals | Viton or Kalrez O-rings | Chemical resistance; Kalrez for chlorine processes (Viton degrades) |
+### Knowledge
 
-## Plasma Generation
+- Plasma physics: RF sheath formation, self-bias voltage, ion energy distribution
+- Etch chemistry: radical generation, volatile byproduct formation, sidewall passivation mechanisms
+- Vacuum technology: pump-down curves, leak detection, chamber conditioning
+- Process integration: how etch selectivity and profile affect subsequent deposition and lithography steps
+- RF matching network tuning: load impedance changes with plasma conditions, affecting power delivery
 
-### RF Plasma Physics
+### Infrastructure
 
-At 13.56 MHz, electrons respond to the oscillating electric field (light, mobile) while ions cannot follow (heavy, slow). This creates a state where:
+- Cleanroom environment for wafer loading and unload operations
+- Toxic gas monitoring and alarm system for Cl₂, HCl, and HF byproducts
+- RF-shielded enclosure around the etch tool (13.56 MHz radiation hazard)
+- Waste gas abatement: thermal destruction or wet scrubbing for PFC greenhouse gases
 
-1. **Electron-impact dissociation**: Electrons (2-10 eV average energy, Maxwellian distribution) collide with feed gas molecules, breaking them into reactive fragments: CF₄ + e⁻ → CF₃· + F· + e⁻. The free fluorine atoms are the primary etching species for silicon.
-2. **Electron-impact ionization**: Higher-energy collisions create positive ions: CF₄ + e⁻ → CF₃⁺ + 2e⁻. These ions are accelerated toward the wafer by the DC self-bias.
-3. **DC self-bias formation**: In an asymmetric reactor (small powered electrode, large grounded wall), more electrons than ions escape to the walls each RF cycle. The powered electrode charges negatively, creating a DC offset (self-bias) of 100-800 V. This bias accelerates ions perpendicular to the wafer surface, producing anisotropic etching.
+## Process Description
 
-### Key Plasma Parameters
+The etch chamber is the heart of the system. Two parallel electrodes sit inside a vacuum vessel: the upper electrode is grounded and often serves as the gas showerhead, while the lower electrode holds the wafer and is connected to the RF generator through an impedance matching network. When RF power is applied at 13.56 MHz, electrons (light and fast) oscillate with the field and gain energy, while ions (heavy and slow) respond to the time-averaged field. Energetic electrons collide with gas molecules, dissociating them into reactive radicals and ionizing them. The powered electrode develops a negative DC self-bias (typically 100-800 V) that accelerates positive ions perpendicular to the wafer surface.
 
-| Parameter | Range | Effect |
-|-----------|-------|--------|
-| Pressure | 5-200 mTorr | Lower → more anisotropic (longer mean free path), higher → more isotropic (more collisions randomize ion direction) |
-| RF power | 50-1500 W | Higher → faster etch, more dissociation, but lower selectivity and more resist damage |
-| Gas flow | 10-200 sccm total | Controls residence time; higher flow = shorter residence time = less polymer deposition |
-| Wafer temperature | 20-80°C | Lower → more polymer deposition on sidewalls (better anisotropy); higher → more volatile etch products (faster etch) |
-| DC self-bias | 100-800 V | Higher → more physical sputtering component, faster oxide etch, poorer selectivity to resist |
+Silicon etching uses fluorine-based chemistries (SF₆, CF₄) where fluorine radicals react with silicon to form volatile SiF₄. Oxide etching uses fluorocarbon gases (CHF₃, C₄F₈) where the carbon species deposit a protective polymer on sidewalls and on silicon (providing selectivity over silicon), while fluorine radicals attack the oxide. Metal etching (aluminum) relies on chlorine chemistries (Cl₂, BCl₃) forming volatile AlCl₃. The Bosch process for DRIE alternates between etch (SF₆) and passivation (C₄F₈) cycles every few seconds, producing scalloped but nearly vertical sidewalls with aspect ratios exceeding 20:1.
 
-## Etch Gases & Chemistries
+Endpoint detection monitors the optical emission from the plasma during etching. Different materials produce characteristic emission lines as they are volatilized: carbon monoxide emission indicates organic (resist) etching, while changes in fluorine emission signal silicon clearance. Real-time OES tracking tells the operator when the target layer has been completely etched through, preventing over-etch that would damage the underlying film. For processes without a clear optical endpoint, timed etch with pre-calibrated etch rate is used, with a safety margin of 10-20% over-etch to ensure complete clearance.
 
-### Fluorocarbon Gases (SiO₂, Si₃N₄ etch)
+### Step-by-Step Procedure
 
-Fluorocarbon plasmas are the workhorse for dielectric etching. The carbon-to-fluorine ratio controls the balance between etching and polymer deposition:
+1. Load patterned wafers onto the electrostatic chuck in the etch chamber. Verify photoresist integrity and that the correct mask layer is exposed.
+2. Pump down to base pressure (below 10⁻⁶ Torr). Stabilize gas flows and pressure at the recipe setpoint (typically 5-100 mTorr).
+3. Strike the plasma by applying RF power. Allow the chamber to condition for 10-30 seconds (stabilize self-bias, gas dissociation, and chamber wall state).
+4. Run the etch recipe: monitor OES endpoint signal for the characteristic emission line that indicates the target layer has cleared. Etch time is the primary control variable for depth.
+5. Upon endpoint detection (or timer completion), extinguish the plasma and purge the chamber with inert gas.
+6. Unload wafers and inspect. Remove photoresist and etch residues in an oxygen plasma asher followed by wet clean.
 
-| Gas | Formula | C:F Ratio | Primary Use | Etch Rate (SiO₂) |
-|-----|---------|-----------|-------------|-------------------|
-| CF₄ | Tetrafluoromethane | 1:4 | Fast silicon/oxide etch, low polymer | 50-200 nm/min |
-| CHF₃ | Trifluoromethane | 1:3 | Oxide etch with sidewall passivation | 30-100 nm/min |
-| C₄F₈ | Octafluorocyclobutane | 1:2 | DRIE passivation step, high polymer | Deposits polymer (passivation) |
-| C₂F₆ | Hexafluoroethane | 1:3 | Oxide etch, moderate polymer | 40-120 nm/min |
-| CH₂F₂ | Difluoromethane | 1:2 | High-selectivity oxide etch | 20-60 nm/min |
+The Bosch process for DRIE deserves closer examination because it is the workhorse technique for MEMS fabrication and through-silicon vias. In each cycle, the chamber first flows C₄F₈ to deposit a thin fluorocarbon polymer on all surfaces (sidewalls and trench bottom). Then the gas switches to SF₆, which generates fluorine radicals that etch silicon. The ions accelerated by the RF bias sputter through the polymer on the horizontal trench bottom (where ions strike perpendicularly) but not on the vertical sidewalls (where the polymer protects the silicon). The result is an anisotropic etch cycle. Repeating the cycle hundreds of times produces deep trenches with nearly vertical sidewalls, at the cost of small scallops (50-200 nm periodic undulations) on the sidewall surface from the alternating etch and passivation steps. The scallop size can be reduced by shortening the cycle time, at the expense of overall etch rate.
 
-**Mechanism**: CFₓ radicals adsorb on the SiO₂ surface. Ion bombardment provides activation energy for the reaction: SiO₂ + 4F· → SiF₄↑ + O₂↑. The volatile SiF₄ is pumped away. Excess CFₓ forms a polymer film (CF₂)ₙ that passivates sidewalls, preventing lateral etching.
+### Process Parameters
 
-**Selectivity control**: Adding O₂ to CF₄ consumes free fluorine (O₂ + 2F· → OF₂ or CO + F₂ → COF₂), reducing the etch rate of silicon relative to SiO₂. Adding H₂ consumes fluorine and increases polymer deposition (H₂ + F· → HF), improving selectivity to silicon but potentially causing grassing (micromasking by polymer residues).
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| RF Power | 50 - 3000 W | Higher power = higher ion flux and etch rate; also more damage |
+| Pressure | 5 - 200 mTorr | Lower pressure = more anisotropic (longer mean free path); higher = more chemical |
+| Gas Flow | 10 - 500 sccm | Controls radical density and etch rate |
+| Self-bias Voltage | 50 - 800 V | Determines ion energy; higher = more physical sputtering component |
+| Temperature | -150°C to +200°C | Cryo etching for smoother sidewalls; substrate cooling via He backside |
+| Etch Rate | 0.01 - 10 μm/min | Depends on material, chemistry, and plasma density |
+| Gas Chemistry | Material-specific | Si: SF₆/CF₄; SiO₂: CHF₃/C₄F₈; Al: Cl₂/BCl₃ |
 
-### Sulfur Hexafluoride (Si etch)
+## Safety Considerations
 
-SF₆ is the primary etch gas for silicon, offering high etch rates and isotropic character:
+Plasma etching gases present a spectrum of hazards. Chlorine and boron trichloride are corrosive and toxic, producing HCl upon contact with moisture. Sulfur hexafluoride and perfluorocarbons (CF₄, C₄F₈) are potent greenhouse gases with global warming potentials thousands of times higher than CO₂. Fluorine radicals etching silicon dioxide produce SiF₄ and can generate HF as a byproduct. All exhaust gases must pass through burn boxes (thermal decomposition at 1000°C) or wet scrubbers before release.
 
-- **Dissociation**: SF₆ + e⁻ → SFₓ· + (6-x)F· + e⁻. Free fluorine atoms etch silicon: Si + 4F· → SiF₄↑.
-- **Etch rate**: 100-500 nm/min in standard RIE; up to 5-10 μm/min in high-density ICP plasmas.
-- **Character**: Inherently isotropic (neutral F atoms etch in all directions). Anisotropy requires ion bombardment to clear the horizontal surface plus sidewall passivation (from adding O₂ for SiOₓFᵧ or using the Bosch process).
-- **Typical process**: SF₆ at 20-100 sccm, 10-50 mTorr, 100-300 W RF. Selectivity to photoresist: 2-5:1. Selectivity to SiO₂: 5-20:1 (Si:SiO₂).
+The 13.56 MHz RF power supply can cause deep tissue burns if the operator contacts the matching network or electrode during operation. RF interlocks must prevent access to the chamber and RF components when power is on. The vacuum chamber presents implosion risk if the viewing window or chamber wall is compromised. The plasma itself emits intense UV radiation; never view the plasma directly through the viewport without proper filtering.
 
-### Chlorine-Based Gases (Metal, Compound Semiconductor etch)
+- **Chemical**: Toxic and corrosive gases (Cl₂, BCl₃, HF byproduct) require gas cabinets with monitoring
+- **RF radiation**: 13.56 MHz exposure hazard; interlocked enclosure mandatory
+- **Mechanical**: Vacuum implosion; regular inspection of chamber walls and viewports
+- **Environmental**: PFC greenhouse gas abatement required by regulation in most jurisdictions
 
-Chlorine plasmas etch metals (Al, Ti, W) and compound semiconductors (GaAs, InP) with high selectivity:
+### Personal Protective Equipment
 
-| Gas | Formula | Target Material | Etch Rate | Selectivity vs. Resist |
-|-----|---------|----------------|-----------|----------------------|
-| Cl₂ | Chlorine | Al, GaAs, InP | 50-300 nm/min (Al), 200-1000 nm/min (GaAs) | 3-8:1 |
-| BCl₃ | Boron trichloride | Al (with native oxide breakthrough) | 30-200 nm/min | 4-10:1 |
-| SiCl₄ | Silicon tetrachloride | GaAs, InP | 50-200 nm/min | 5-10:1 |
+- Chemical splash goggles and face shield when connecting gas lines or handling wet-clean chemicals
+- Nitrile gloves for wafer handling; heavy rubber gloves for gas cylinder changes
+- UV-filtering safety glasses if observing plasma through a viewport
+- Cryogenic gloves when handling liquid nitrogen for cold traps
 
-**Aluminum etch with Cl₂/BCl₃**:
-- BCl₃ serves two critical functions: (1) it reduces native Al₂O₃ (BCl₃ + Al₂O₃ → AlCl₃ + B₂O₃), breaking through the 2-5 nm oxide barrier that would block etching, and (2) it scavenges residual water vapor and oxygen (BCl₃ + H₂O → B₂O₃ + HCl), keeping the chamber chemistry stable.
-- Typical recipe: Cl₂/BCl₃ at 2:1 to 4:1 ratio, 30-100 sccm total flow, 10-50 mTorr, 200-500 W RF. Etch rate: 100-500 nm/min. Selectivity to photoresist: 3-5:1.
-- **Product volatility**: AlCl₃ sublimes at 180°C, so the wafer must be kept above ~60°C for efficient product removal, but below photoresist flow temperature (~120°C).
+### Emergency Procedures
 
-### Etch Gas Safety
+- Chlorine gas alarm triggers automatic gas shutoff, chamber pump-and-purge, and area ventilation to exhaust
+- RF interlock breach immediately kills RF power and grounds the matching network
+- Vacuum breach (implosion or leak): evacuate area, shut roughing pump to prevent oil backstreaming
+- Know the location of calcium gluconate gel (HF burn treatment) even if HF is only a potential byproduct
 
-All plasma etch gases are hazardous and many are potent greenhouse gases:
+## Quality Control
 
-- **CF₄**: GWP 6,630× CO₂. Chemically inert in the atmosphere (50,000+ year lifetime). Requires point-of-use abatement (plasma destruct or thermal burn box, >99% destruction efficiency).
-- **SF₆**: GWP 23,900× CO₂. The most potent greenhouse gas in common industrial use. Mandatory abatement on all exhaust lines.
-- **Cl₂**: Toxic (IDLH 10 ppm), corrosive. Gas cabinet with toxic gas monitoring (electrochemical sensor). Exhaust scrubbing with NaOH wet scrubber.
-- **BCl₃**: Reacts violently with moisture to produce HCl and boric acid. Gas cabinet with toxic gas monitoring. Same scrubber requirements as Cl₂.
+### Acceptance Criteria
 
-## Selectivity and Aspect Ratio
+- **Etched Features**: Critical dimension (CD) within ±5% of target; sidewall angle between 85° and 90°
+- **Anisotropic Profiles**: Lateral undercut less than 10% of etch depth; sidewall roughness below 5 nm RMS
+- **Deep Trenches**: Depth within ±3% across the wafer; aspect ratio capability verified by test structures
+- **Via Holes**: Via diameter uniformity within ±5% across the wafer; complete etch-through verified electrically
 
-### Selectivity
+### Testing Methods
 
-Selectivity is the ratio of etch rates between the target material and the masking or underlying layer. It determines how much mask erosion occurs and whether underlying layers are damaged at the endpoint:
+- CD-SEM (Critical Dimension Scanning Electron Microscope): top-down measurement of feature widths
+- Cross-section SEM: direct imaging of sidewall profile, undercut, and scalloping (for DRIE)
+- Spectroscopic ellipsometry or reflectometry: thin film thickness measurement for etch rate calculation
+- OES endpoint detection: real-time monitoring of etch progress by tracking emission lines characteristic of each material
+- Electrical test structures: chain resistance or via resistance measurements to confirm complete etch-through
 
-| Material Pair | Chemistry | Selectivity | Notes |
-|---------------|-----------|-------------|-------|
-| SiO₂:photoresist | CHF₃/CF₄ | 5-10:1 | Resist erodes significantly; thick resist needed for deep oxide etch |
-| Si:photoresist | SF₆/O₂ | 2-5:1 | Poor selectivity limits etch depth; hard mask (SiO₂ or metal) preferred |
-| Si:SiO₂ | SF₆ or CF₄ | 5-20:1 | Fluorocarbon polymer on SiO₂ surface acts as etch stop |
-| SiO₂:Si | CHF₃/CF₄ | 10-20:1 | Carbon-rich chemistry deposits polymer on Si, protecting it |
-| Al:photoresist | Cl₂/BCl₃ | 3-5:1 | Moderate; requires careful endpoint to avoid resist failure |
-| Poly-Si:SiO₂ (gate) | HBr/Cl₂/O₂ | 20-50:1 | HBr provides excellent selectivity to thin gate oxide |
-| Si₃N₄:SiO₂ | CH₂F₂/CHF₃ | 4-8:1 | Used for nitride mask etch with oxide etch stop |
+### Sampling Protocol
 
-**Improving selectivity**:
-- Reduce ion energy (lower bias power) — chemical etching is more selective than physical sputtering.
-- Add passivation gases (H₂, CH₂F₂) that deposit protective polymer on the non-target material.
-- Lower wafer temperature (cryogenic etching at -100°C dramatically improves selectivity by condensing etch products as passivation on sidewalls).
-- Choose chemistry with natural selectivity (e.g., fluorine etches Si but not SiO₂ when passivated with fluorocarbon polymer).
+- Measure CD on five sites per wafer (center, top, bottom, left, right) using CD-SEM
+- Run cross-section SEM on one sacrificial wafer per lot to verify sidewall profile
+- Track OES endpoint time trend across lots: drift indicates chamber condition change
+- Run etch rate test wafers after every chamber cleaning or gas cylinder change
 
-### Aspect Ratio-Dependent Etching (ARDE)
+Etch rate is measured by etching a blanket (unpatterned) test wafer for a fixed time and measuring the film thickness before and after using ellipsometry or reflectometry. The etch rate in nm/min is the thickness removed divided by the etch time. However, the blanket etch rate differs from the patterned etch rate because of loading effects and microloading. Production etch recipes are characterized on patterned test structures with the actual feature sizes used in production, and the etch time is calibrated to achieve the target etch depth on those specific structures.
 
-As features get deeper and narrower, etch rate decreases due to transport limitations:
+- Etch chambers must be periodically cleaned to remove accumulated deposits that generate particles and change the etch characteristics
+- Track etch rate on monitor wafers before and after chamber cleans to quantify the "first wafer effect"
 
-- **Problem**: Reactive species must diffuse into the trench, and volatile products must diffuse out. For a trench with aspect ratio (depth:width) of 10:1, the neutral flux at the bottom is reduced by a factor of 2-5 compared to the opening.
-- **Microloading**: Small features etch slower than large features on the same wafer. A 0.5 μm trench etches 30-50% slower than a 5 μm trench at the same process conditions.
-- **Reactant depletion**: At high aspect ratios, the etchant gas is consumed before reaching the trench bottom. Increasing flow rate helps but cannot fully compensate.
-- **Ion shadowing**: At aspect ratios >5:1, the angular spread of ions (typically ±5-10° from vertical) causes some ions to strike the sidewall instead of the bottom, reducing the vertical etch rate and depositing material on sidewalls.
-- **Bosch process mitigation**: The alternating etch-passivation cycles of DRIE partially mitigate ARDE by maintaining a fresh passivation layer and clearing reaction products between etch steps.
-
-## Deep Reactive Ion Etching (DRIE) — Bosch Process
-
-The Bosch process is the industry standard for creating deep, high-aspect-ratio silicon features. It alternates between isotropic etching and conformal polymer passivation in rapid cycles (typically 1-10 seconds per step):
+## Scaling Notes
 
-### Process Cycle
-
-**Step 1 — Etch (SF₆ plasma, 1-5 seconds)**:
-- SF₆ plasma (100-400 sccm, 20-80 mTorr, 500-2000 W ICP power, 10-50 W bias power) generates fluorine radicals.
-- Fluorine etches silicon isotropically: Si + 4F· → SiF₄↑. Etch depth per cycle: 0.5-5 μm depending on SF₆ flow, ICP power, and cycle time.
-- Ion bombardment (from bias power) primarily clears the passivation polymer from horizontal surfaces, allowing etching to proceed vertically.
-
-**Step 2 — Passivation (C₄F₈ plasma, 1-5 seconds)**:
-- C₄F₈ plasma (50-200 sccm, 20-80 mTorr, 500-2000 W ICP power, 0-10 W bias power) deposits a thin fluorocarbon polymer ((CF₂)ₙ) on all surfaces — horizontal and vertical.
-- The polymer thickness per cycle: 10-50 nm. This layer protects sidewalls from fluorine attack during the next etch step.
-- Low or zero bias power ensures conformal deposition (no directional ion clearing).
-
-**Step 3 — Repeat** (100-10,000 cycles for typical structures).
-
-### Bosch Process Parameters & Results
-
-| Parameter | Typical Range | Effect |
-|-----------|---------------|--------|
-| Etch gas flow (SF₆) | 100-400 sccm | Higher → faster etch per cycle, but wider scallops |
-| Passivation gas flow (C₄F₈) | 50-200 sccm | Higher → thicker polymer, narrower scallops, slower overall rate |
-| ICP power | 500-3000 W | Higher → denser plasma → faster etch and deposition |
-| Bias power | 10-50 W (etch), 0-10 W (passivation) | Higher etch bias → faster horizontal clearing, more anisotropic |
-| Cycle time (etch) | 1-5 seconds | Shorter → smaller scallops, slower overall rate |
-| Cycle time (passivation) | 1-5 seconds | Shorter → thinner passivation, wider scallops |
-| Number of cycles | 100-10,000 | Determines total etch depth |
-
-### Performance Characteristics
-
-- **Etch rate**: 2-5 μm/min for silicon (throughput depends on wafer size and feature density).
-- **Aspect ratio**: >20:1 achievable (e.g., 100 μm deep trench, 5 μm wide). State-of-the-art tools reach >50:1.
-- **Sidewall scalloping**: Each etch-passivation cycle produces a small notch (scallops) on the sidewall. Scalloping amplitude: 50-200 nm, determined by the isotropic component of the etch step. Reducing etch cycle time decreases scallop size at the cost of throughput.
-- **Verticality**: 90° ± 0.5° with optimized process. Slight positive or negative taper can be controlled by adjusting the etch:passivation ratio.
-- **Selectivity to photoresist**: 20-75:1 (much better than RIE because the low bias power during etch steps reduces physical sputtering of the mask).
-- **Selectivity to SiO₂**: >100:1 (fluorocarbon polymer naturally protects oxide surfaces).
-
-### Variants
-
-- **Cryogenic DRIE**: Wafer cooled to -100°C to -140°C. SF₆/O₂ chemistry (no passivation step needed). The cold sidewalls condense SiOₓFᵧ etch products as a passivation layer. Advantages: smooth sidewalls (no scalloping), faster overall etch rate. Disadvantages: requires cryogenic cooling system, selectivity to masking layers varies with temperature.
-- **ASE (Advanced Silicon Etch)**: Trade name for Bosch-process DRIE from STS/Surface Technology Systems. The original commercial implementation.
-- **Pseudo-Bosch**: Continuous flow of SF₆ + C₄F₈ simultaneously (no switching). Produces smoother sidewalls than standard Bosch but with lower etch rates (~1-2 μm/min). Used for MEMS where scalloping is unacceptable.
-
-## Etch Rate Monitoring & Endpoint Detection
-
-### Optical Emission Spectroscopy (OES)
-
-The primary in-situ endpoint detection method for production plasma etching:
-
-- **Principle**: The plasma emits characteristic optical wavelengths from excited-state species. As the etch reaches the interface between layers, the concentration of etch products changes, altering the emission spectrum.
-- **Implementation**: Fiber optic cable views the plasma through a quartz viewport. Diffraction grating spectrometer (200-800 nm) measures intensity at selected wavelengths. Photomultiplier tube or CCD detector provides real-time monitoring.
-- **Common endpoint wavelengths**:
-  - Si etch: SiF at 440 nm, F at 703.7 nm (decreases as Si is consumed)
-  - SiO₂ etch: CO at 483 nm, SiO at 425 nm
-  - Al etch: AlCl at 261 nm, Al at 396 nm
-  - Photoresist: CN at 388 nm, CH at 431 nm (increases when resist is being etched)
-- **Endpoint algorithm**: Monitor the ratio of etch-product wavelength to a reference wavelength (e.g., Ar at 750 nm from a trace argon addition). When the ratio changes by a set amount (typically 10-30% shift), the endpoint is triggered. This compensates for plasma drift during the etch.
-- **Accuracy**: ±1-5% of total etch time for open-area etches. For small features (<5% open area), the signal change is too small for reliable endpoint — timed etch or interferometry is used instead.
-
-### Laser Interferometry
-
-- **Principle**: A HeNe laser (632.8 nm) reflects from the wafer surface. As the film thickness changes during etching, the optical path length changes, producing constructive and destructive interference fringes (intensity oscillations). Each full fringe cycle corresponds to λ/(2n) of film removal, where n is the refractive index of the film.
-- **For SiO₂ etch** (n = 1.46): each fringe = 632.8/(2 × 1.46) = 217 nm. Count fringes to track etch depth in real time.
-- **For silicon etch**: works when the surface is smooth enough for specular reflection. Rough surfaces scatter light and destroy the interference signal.
-- **Accuracy**: ±5-10 nm per fringe. Best for transparent films (SiO₂, Si₃N₄, photoresist) where interference is strong.
-
-### Mass Spectrometry (RGA)
-
-- **Principle**: Residual gas analyzer samples the exhaust gas from the etch chamber. Detects etch products (SiF₄ at mass 104, AlCl₃ at mass 133, WF₆ at mass 298).
-- **Use case**: Complementary to OES, especially when the optical signal is weak (small feature sizes, deep trenches). Also used for chamber cleanliness verification between runs.
-
-## Process Recipes
-
-### Standard SiO₂ Contact/Via Etch (RIE)
-
-| Parameter | Value |
-|-----------|-------|
-| Gas chemistry | CHF₃ (40 sccm) / CF₄ (20 sccm) / O₂ (2 sccm) |
-| Pressure | 40 mTorr |
-| RF power | 300 W (13.56 MHz) |
-| DC self-bias | ~450 V |
-| Wafer temperature | 20°C (He backside cooling) |
-| Etch rate | 80-120 nm/min (SiO₂) |
-| Selectivity | 6:1 vs. photoresist, 15:1 vs. Si |
-| Endpoint | OES (CO at 483 nm) + 10% overetch |
-
-### Polysilicon Gate Etch (RIE)
-
-| Parameter | Value |
-|-----------|-------|
-| Gas chemistry | HBr (60 sccm) / Cl₂ (20 sccm) / O₂ (5 sccm) |
-| Pressure | 20 mTorr |
-| RF power | 250 W |
-| DC self-bias | ~350 V |
-| Etch rate | 50-100 nm/min (poly-Si) |
-| Selectivity | 30:1 vs. SiO₂ (gate oxide etch stop), 4:1 vs. photoresist |
-| Critical parameter | Endpoint must stop within 5 nm of gate oxide surface — gate oxide perforation destroys the transistor |
-
-### Aluminum Interconnect Etch (RIE)
-
-| Parameter | Value |
-|-----------|-------|
-| Gas chemistry | Cl₂ (40 sccm) / BCl₃ (80 sccm) / N₂ (10 sccm) |
-| Pressure | 30 mTorr |
-| RF power | 400 W |
-| DC self-bias | ~500 V |
-| Etch rate | 200-400 nm/min (Al) |
-| Selectivity | 4:1 vs. photoresist |
-| Endpoint | OES (AlCl at 261 nm) |
-| Post-etch | DI water rinse to remove chlorine residues (AlCl₃ + H₂O → Al(OH)₃ + HCl — corrosion risk if residues remain) |
-
-### Silicon DRIE (Bosch Process)
-
-| Parameter | Etch Step | Passivation Step |
-|-----------|-----------|------------------|
-| Gas | SF₆ (200 sccm) | C₄F₈ (100 sccm) |
-| ICP power | 2000 W | 1800 W |
-| Bias power | 20 W | 0 W |
-| Pressure | 40 mTorr | 35 mTorr |
-| Duration | 3 seconds | 2 seconds |
-| Result per cycle | ~2 μm etch | ~30 nm polymer deposition |
-| **Overall etch rate** | **~24 μm/min** (effective) | |
-| Selectivity vs. resist | 50:1 | |
-| Aspect ratio capability | >20:1 | |
+Modern plasma etchers process one wafer at a time (single-wafer tools) for uniformity control. Scaling from a bench-top research RIE to a production etch module involves:
+
+- **Research RIE**: Manual wafer loading, single gas line, 50-100 W RF power, 1-10 nm/min etch rate. One wafer at a time, manual unload.
+- **Pilot production**: Cassette-to-cassette automation, 4-6 gas lines, 300-1000 W RF, 0.1-1 μm/min etch rate. Recipe-driven process control with OES endpoint.
+- **Volume production**: Cluster tool (multiple process chambers on a central vacuum transport), ICP source for high-density plasma, 2000+ W total power, etch rates up to 10 μm/min. Throughput of 40-60 wafers per hour per chamber.
+
+Single-wafer processing displaced batch etching in the late 1980s when feature sizes shrank below one micrometer. One wafer per chamber allows independent control of each wafer's conditions, improving yield at the cost of needing more chambers for the same throughput. Cluster tools with 2-4 chambers per platform are the standard production configuration.
+
+Single-wafer processing displaced batch etching in the late 1980s when feature sizes shrank below one micrometer. One wafer per chamber allows independent control of each wafer's process conditions, improving yield at the cost of needing more chambers for the same throughput. Cluster tools with 2-4 chambers per platform are the standard production configuration, wafers moving between process modules through a central vacuum transport without breaking vacuum.
 
 ## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Grassing (micromasking — conical silicon residues after etch) | Polymer residues from fluorocarbon chemistry act as local etch masks; insufficient ion energy to clear polymer from horizontal surfaces | Increase bias power by 10-20%; reduce CHF₃ or C₄F₈ flow; add 5-10% O₂ to oxidize polymer residues; ensure chamber is clean (run O₂ plasma clean between wafers) |
-| Notching at trench bottom (footing) | Charging of SiO₂ at the trench bottom deflects ions laterally, causing localized lateral etching at the oxide-silicon interface | Reduce bias power; increase pressure to reduce ion directionality spread; use notching-suppression chemistry (add H₂ to form passivating SiHₓ); switch to ICP for better ion energy control |
-| Sidewall bowing (concave profile) | Excessive isotropic etch component relative to passivation; sidewall polymer too thin or etch step too long | Reduce SF₆ flow or etch cycle time; increase C₄F₈ flow or passivation cycle time; lower pressure to increase ion directionality |
-| Photoresist burning (reticulation) | RF power too high for the resist thermal budget; wafer overheating from inadequate He cooling | Reduce RF power; verify He backside cooling pressure (5-20 Torr); use hard mask (SiO₂ or metal) instead of thick resist for deep etches; reduce process time per step |
-| Non-uniform etch across wafer (>±5%) | Gas flow maldistribution from showerhead; edge-to-center temperature gradient; RF coupling non-uniformity | Check showerhead for clogging; verify He cooling uniformity; adjust gas flow ratios (add center-edge flow biasing if tool supports it); inspect chamber for coating buildup affecting RF coupling |
-| Endpoint detection failure (OES) | Open area too small (<5%); etch product signal below noise floor; viewport coating reduces optical transmission | Use timed etch with pre-calibrated etch rate for small features; clean viewport quartz window; add trace Ar (2-5 sccm) as reference signal; switch to laser interferometry if applicable |
+| Grass-like residue on etched surface | Micromasking from particles or non-volatile etch byproducts | Clean chamber, increase ion energy to sputter through contamination, check gas purity |
+| Notching at oxide-silicon interface | Charging of the oxide surface deflecting ions at the trench bottom | Adjust gas chemistry for more polymer passivation; use pulsed RF to reduce charging |
+| Small features etch slower than large ones (ARDE) | Reduced radical and ion transport into high-aspect-ratio features | Lower pressure (longer mean free path), higher ion energy, or time-multiplexed etch (Bosch) |
+| Sidewall bowing (undercut mid-profile) | Excess lateral chemical etching component | Increase sidewall passivation (add C₄F₈), reduce pressure, increase self-bias |
+| Selectivity loss (mask erodes too fast) | Insufficient polymer deposition on mask surface | Add fluorocarbon gas to build protective polymer, lower ion energy, reduce O₂ flow |
+| Etch rate drift over time | Chamber wall condition change from polymer accumulation | Run chamber clean recipe (O₂ plasma) between lots; track first-wafer effect |
+| Residue after aluminum etch | Incomplete removal of aluminum chloride byproducts or sidewall polymer | Post-etch wet clean in DI water (AlCl₃ is water-soluble); add resist strip step |
+| Notching at insulator interface | Charging of the oxide surface deflecting ions at the trench bottom | Adjust gas chemistry for more polymer passivation; use pulsed RF to reduce charging |
 
-## See Also
+## Variations and Alternatives
 
-- [Core Fab Processes](fab-processes.md) — parent capability: oxidation, deposition, doping, metallization
-- [Dopant & Etch Gases](../chemistry/dopant-etch-gases.md) — process gas chemistry supply
-- [Gas Handling Vacuum](../gas-handling/vacuum.md) — vacuum systems for etch tools
-- [Vacuum Pumps](../vacuum/pumps.md) — pump technology for semiconductor tools
-- [Resists & Masks](resists-masks.md) — photoresist and mask technology
-- [Cleanrooms](cleanrooms.md) — contamination-controlled environments
-- [Advanced Processes](../vlsi-scaling/advanced-processes.md) — advanced node etch challenges
+- **Parallel plate RIE**: Simplest configuration. RF power on the wafer electrode. Ion density and ion energy are coupled, limiting independent control.
+- **ICP (Inductively Coupled Plasma)**: Separate RF coil generates high-density plasma (10¹¹-10¹² ions/cm³) while wafer electrode bias independently controls ion energy. Higher etch rates with lower ion damage.
+- **DRIE Bosch process**: Alternates SF₆ etch and C₄F₈ passivation cycles every 1-10 seconds. Achieves vertical sidewalls at etch rates of 5-50 μm/min. Scalloped sidewalls (50-200 nm ripple) are the characteristic artifact.
+- **Cryogenic etching**: Substrate cooled to -100°C or below. Sidewall passivation forms naturally from etch byproducts. Smoother sidewalls than Bosch, but limited to specialized equipment.
+- **Wet etching**: Simpler, cheaper, but inherently isotropic for most materials. Cannot produce vertical sidewalls in silicon without crystal orientation effects. Still used for non-critical steps and blanket film removal.
+- **Atomic layer etching (ALE)**: Cycles of self-limiting surface modification (e.g., chlorine adsorption) followed by low-energy ion removal. Removes one atomic layer per cycle with atomic-scale precision. Emerging technique for sub-10 nm features where conventional RIE lacks the selectivity and damage control needed.
 
-[← Back to Photolithography](index.md)
+Inductively coupled plasma (ICP) etching uses a separate RF coil wrapped around the etch chamber to generate a high-density plasma (10¹¹ to 10¹² ions/cm³), independent of the RF bias applied to the wafer electrode. This decoupling allows the process engineer to set ion flux (through ICP power) and ion energy (through bias power) independently. The result is high etch rates at low ion energies, reducing substrate damage while maintaining throughput. ICP sources are standard on production etchers for feature sizes below 130 nm.
+
+Microloading, also called aspect-ratio-dependent etching (ARDE), causes features of different sizes to etch at different rates on the same wafer. Small features with high aspect ratios etch slower than large features because the reactive species and volatile etch products must diffuse through narrower openings. This effect worsens as feature sizes shrink below 100 nm. Process engineers compensate by adjusting gas pressure (lower pressure extends the mean free path), ion energy (higher energy drives species deeper into narrow features), and sidewall passivation chemistry to narrow the etch rate gap between large and small features.
+
+Loading effects are a related but distinct phenomenon: the etch rate depends on the total exposed silicon area on the wafer. A wafer with mostly open silicon etches faster than a densely patterned wafer because more reactive species are consumed by the larger etching surface. This makes uniform etch depth difficult across wafers with different pattern densities, and is the reason modern etch chambers process one wafer at a time with tightly controlled conditions rather than in batches.
+
+Post-etch residue removal is a mandatory follow-on step. Etching byproducts, including fluorocarbon polymers, metal chlorides, and sputtered photoresist fragments, must be completely stripped before the next process step. Oxygen plasma ashing removes organic residues, while wet chemical cleans (often involving dilute HF or specialized proprietary mixtures) dissolve inorganic residues and sidewall polymers. Incomplete residue removal causes defects in subsequent deposition and lithography steps that are difficult to trace back to the etch step.
+
+Etch chamber conditioning is a recurring operational concern. Polymer deposits on the chamber walls change the radical density in the plasma by absorbing and re-emitting reactive species. After a chamber clean (O₂ plasma to strip polymer), the first few wafers etch differently than subsequent wafers because the walls re-accumulate the conditioning layer. This "first wafer effect" is managed by running dummy wafers (non-production wafers etched with the production recipe) to re-condition the chamber after each clean, before committing production material.
+
+The electrostatic chuck (ESC) that holds the wafer during etching serves two functions: mechanical clamping and thermal contact. Helium gas flows between the backside of the wafer and the chuck surface at a few Torr pressure, providing thermal conduction that removes heat from the wafer. Without helium backside cooling, the wafer temperature would rise uncontrollably during high-power etching, causing photoresist reticulation and changing etch rates. The chuck must also clamp the wafer securely without mechanical edges that could generate particles, and the clamping voltage must be compatible with the wafer's electrical characteristics (conductive silicon versus insulating SOI wafers require different chuck designs).
+
+Damage from plasma etching is a concern for devices with thin gate oxides. Ion bombardment can create interface traps and fixed oxide charge in the gate dielectric, degrading transistor performance. Low-damage etch processes minimize ion energy (below 50 eV) while maintaining etch rate through high plasma density. Pulsed plasma etching, where the RF power is switched on and off at kHz rates, reduces the time-averaged ion energy while maintaining radical generation, providing a lower-damage alternative to continuous-wave RF.
+
+## References
+
+- [Core Fab Processes](fab-processes.md) — parent capability
+- [Photolithography Domain](./index.md) — domain overview and related capabilities
+- [Silicon](silicon.md) — upstream dependency (material)
+- [Basic Gas Handling](basic.md) — downstream capability
+- [Vacuum Chambers & Sealing](chambers.md) — downstream capability
+
+---
+
+Etch selectivity is controlled by the gas chemistry: fluorocarbon-rich mixtures (high C₄F₈ or CHF₃ flow relative to CF₄ or SF₆) deposit more protective polymer, increasing selectivity to oxide over silicon and photoresist. However, excessive polymer deposition causes residue problems and can close off narrow features (polymer plugging). The selectivity versus residue tradeoff is managed by tuning the fluorine-to-carbon ratio in the gas mixture, a balance that shifts with every new technology node as feature sizes shrink.
+
+The transition from batch etching to single-wafer etching in the late 1980s was driven by the need for better uniformity control as feature sizes shrank below one micrometer. Single-wafer tools allow independent control of each wafer's process conditions, improving yield at the cost of lower throughput. Modern etch chambers process one wafer at a time with cycle times of tens of seconds to several minutes depending on the etch depth and selectivity requirements.
+
+*Part of the [Bootciv Tech Tree](../index.md) · [Photolithography](./index.md) · [All Domains](../index.md)*

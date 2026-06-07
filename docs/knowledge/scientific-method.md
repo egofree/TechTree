@@ -3,8 +3,10 @@
 > **Node ID**: knowledge.scientific-method
 > **Domain**: [Knowledge Preservation & Education](./index.md)
 > **Dependencies**: [`knowledge.writing`](writing.md), [`measurement`](../measurement/index.md), [`mathematics`](../mathematics/index.md)
+> **Enables**: [`knowledge.standards-bodies`](standards-bodies.md), [`quality-control`](../quality-control/index.md), [`chemistry`](../chemistry/index.md), [`metals.iron-steel`](../metals/iron-steel.md)
 > **Timeline**: Years 5-20
 > **Outputs**: validated_knowledge, experimental_protocols, reproducible_results
+> **Critical**: Yes — without systematic experimental methodology, all downstream engineering disciplines rely on trial-and-error rather than cumulative knowledge
 
 ## Prerequisites
 
@@ -160,6 +162,33 @@ The laboratory notebook is the **primary document** of the scientific method. Wi
 - Conclusions: What does the data show? Does it support or refute the hypothesis?
 - Next steps: What should be investigated next based on these results?
 
+## Material Requirements
+
+Scientific work requires physical materials for recording, measuring, and preserving results.
+
+| Material | Specifications | Quantity (per investigator/year) | Source |
+|----------|---------------|----------------------------------|--------|
+| Laboratory notebooks | Bound, numbered pages, acid-free paper, hard covers | 2-4 volumes (200 pages each) | [Paper & Pulp](../chemistry/pulp-chemicals.md) |
+| Writing instruments | Permanent ink (carbon-based or iron gall), fine-point | 10-20 pens or bottles of ink | [Ink](writing.md) |
+| Rulers and straightedges | Steel or wood, 300 mm, graduated in mm | 2-3 | [Machine Tools](../machine-tools/index.md) |
+| Balance | Beam or spring, 0.1-1 g precision, 0-500 g range | 1 | [Measurement](../measurement/index.md) |
+| Thermometer | Liquid-in-glass, -10 to 200°C, 1°C graduations | 2-3 | [Glass](../glass/index.md) |
+| Glass vessels | Beakers, flasks, tubes (borosilicate if available) | 10-20 pieces | [Glass](../glass/index.md) |
+| Timer | Water clock, pendulum, or mechanical, ±1 s/min | 1 | [Measurement](../measurement/index.md) |
+| Calipers | Wood or metal, 0-150 mm, ±0.5 mm | 1 pair | [Machine Tools](../machine-tools/index.md) |
+| Storage containers | Wooden or ceramic boxes, tight-fitting lids, moisture-proof | 5-10 | [Pottery](../ceramics/pottery.md) |
+| Reference masses | Standardized stone or metal weights, 1 g to 1 kg | 1 set | [Measurement](../measurement/index.md) |
+
+## Preservation of Scientific Records
+
+Scientific records are the output of the entire process. Without durable records, accumulated knowledge is lost within a single generation. Three preservation layers protect against loss:
+
+**Primary record (laboratory notebook)**: Use acid-free paper with permanent ink. Store notebooks in a dry, cool location (below 25°C, relative humidity below 60%). Keep notebooks upright on shelves — stacking compresses bindings and accelerates page deterioration. Inspect stored notebooks annually for mold, insect damage, and ink fading. If ink is fading (common with iron gall ink on acidic paper), transcribe the content to a fresh notebook before the original becomes illegible.
+
+**Secondary copy (transcription)**: At regular intervals (monthly or quarterly), copy critical experimental results, procedures, and conclusions into a separate duplicate notebook stored in a different building. This protects against fire, flood, or theft destroying the only copy. Transcription also catches documentation gaps — if a procedure cannot be understood when re-read weeks later, the original entry was incomplete.
+
+**Reference shelf**: Maintain a dedicated shelf or cabinet for completed notebooks, indexed by date range and subject. A [library](libraries.md) system with catalog entries for each notebook ensures that later researchers can locate relevant prior work. A notebook that cannot be found is as useless as a notebook that was never written.
+
 ## Common Failure Modes
 
 | Failure Mode | Description | Prevention |
@@ -238,4 +267,6 @@ The scientific method requires physical infrastructure. Start crude and iterate:
 - [Technical Drawing](technical-drawing.md) — precise visual communication of apparatus and results
 - [Education & Training](education.md) — teaching experimental methodology
 
-[← Back to Knowledge](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge](./index.md) • [All Domains](../index.md)*

@@ -334,6 +334,6 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 - [Acids and Bases](../chemistry/acids-bases.md) — sulfuric acid, hydrochloric acid for synthesis
 - [Chemistry](../chemistry/index.md) — organic synthesis, distillation, extraction
 
+---
 
-
-[← Back to Health](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../index.md)*

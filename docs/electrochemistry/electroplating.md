@@ -24,6 +24,50 @@ Electroplating deposits metal from solution onto a conductive substrate by reduc
 
 For bootstrapping semiconductor manufacturing, electroplating is the only practical method to fill high-aspect-ratio features with copper. PVD and CVD cannot achieve conformal coverage in deep, narrow trenches — the mean free path of sputtered atoms and the sticking coefficient of CVD precursors both work against complete fill. Electroplating achieves bottom-up fill through additive-controlled suppression and acceleration of deposition kinetics, enabling void-free copper in features smaller than 50 nm.
 
+## Construction Steps: Copper Plating Cell
+
+### 1. Tank and Containment
+
+Select a polypropylene or PVDF-lined tank sized for the workload. For bench-scale copper plating: 200 mm × 200 mm × 250 mm (10 L capacity, wall thickness ≥5 mm PP). For production damascene plating: vertical cup cell, 2-5 L volume, with elastomer seal ring for wafer mounting. Install secondary containment berm at 110% tank volume. Position in a ventilated area with eyewash and safety shower within 3 meters.
+
+### 2. Anode Basket
+
+Fabricate a titanium mesh basket (100 mm × 80 mm × 150 mm for bench scale) to hold phosphorus-doped copper anode balls (25 mm diameter, 0.03-0.08% P). Fill basket to 80% capacity. Wrap basket in woven polypropylene anode bag (pore size 1-5 μm) to contain anode sludge particles. Suspend basket from the tank rim with a titanium hook, positioned 80-150 mm below the intended cathode (workpiece) position.
+
+### 3. Cathode Fixture
+
+For bench-scale plating: fabricate a copper bus bar cross-bar with spring-loaded phosphor-bronze contacts (4-8 contacts, each rated 2-5 A). For wafer plating: use a seal ring (PTFE or Viton) that exposes only the wafer front surface, with 60-120 beryllium-copper contact fingers around the periphery. Verify contact resistance <10 mΩ per finger with a milliohmmeter.
+
+### 4. Bath Chemistry — Acid Copper Sulfate
+
+Charge the tank with CuSO₄·5H₂O (40-100 g/L) + H₂SO₄ (50-100 g/L) + HCl (to 50-100 ppm Cl⁻) in deionized water. For a 10 L bench cell: dissolve 750 g CuSO₄·5H₂O and 750 mL concentrated H₂SO₄ in 8 L DI water, then add 0.5 mL concentrated HCl. Verify copper concentration by iodometric titration and acid concentration by NaOH titration. Allow bath to reach 20-25°C.
+
+### 5. Agitation and Filtration
+
+Install a magnetic stirrer or recirculation pump (1-5 L/min flow rate) to maintain uniform bath temperature and concentration. Connect an in-line cartridge filter (0.1-0.2 μm membrane) for continuous particle removal. For wafer plating: install a fountain flow system directing electrolyte upward from the anode toward the wafer at 1-5 L/min with wafer rotation at 10-100 rpm.
+
+### 6. DC Power Supply
+
+Connect a [DC rectifier](dc-rectifier.md) with pulse-reverse capability: forward 5-30 mA/cm² (1-100 ms), reverse 5-30 mA/cm² (0.1-10 ms). For bench scale: 0-20 V, 0-50 A with programmable pulse controller. For wafer plating: 0-5 V, 0-500 A with sub-ms pulse resolution. Verify current accuracy ±1% with a reference ammeter.
+
+## Bill of Materials: Bench-Scale Copper Plating Cell (10 L)
+
+| Material | Quantity | Specifications | Source |
+|----------|----------|----------------|--------|
+| Polypropylene tank | 1 | 200 mm × 200 mm × 250 mm, wall ≥5 mm | [Polymers](../polymers/index.md) |
+| Copper sulfate (CuSO₄·5H₂O) | 750 g | ACS reagent grade, ≥98% purity | [Chemistry](../chemistry/index.md) |
+| Sulfuric acid (H₂SO₄) | 750 mL | 93-98% concentration, ACS grade | [Acids](../chemistry/acids.md) |
+| Hydrochloric acid (HCl) | 0.5 mL | Concentrated, for 50-100 ppm Cl⁻ | [Acids](../chemistry/acids.md) |
+| Phosphorus-copper anode balls | 5 kg | 25 mm diameter, 0.03-0.08% P | [Copper](../metals/non-ferrous.md) |
+| Titanium anode basket | 1 | 100 mm × 80 mm × 150 mm, Gr2 mesh | [Metals](../metals/index.md) |
+| Polypropylene anode bag | 1 | Woven, 1-5 μm pore size | [Polymers](../polymers/index.md) |
+| Copper bus bar cross-bar | 1 | 10 mm × 20 mm × 250 mm, C11000 copper | [Copper](../metals/non-ferrous.md) |
+| Phosphor-bronze contacts | 6 | Spring-loaded, rated 2 A each | [Alloys](../metals/alloys.md) |
+| DC rectifier (pulse-reverse) | 1 | 0-20 V, 0-50 A, programmable pulse | [DC Rectifier](dc-rectifier.md) |
+| In-line membrane filter | 1 | 0.2 μm pore, PVDF housing | [Polymers](../polymers/index.md) |
+| Recirculation pump | 1 | 1-5 L/min, PVDF or PTFE wetted parts | [Gas Handling](../gas-handling/index.md) |
+| Deionized water | 8 L | ≥1 MΩ·cm resistivity | [Water](../water/index.md) |
+
 ## Copper Damascene Electroplating
 
 The copper damascene process is the cornerstone of modern semiconductor interconnect fabrication. It replaces the earlier aluminum subtractive etch process with an additive (damascene) approach where copper is electroplated into patterned dielectric trenches and then planarized by CMP.
@@ -230,5 +274,9 @@ At smaller nodes, the barrier and seed layers consume an increasing fraction of 
 - **[Core Fab Processes](../photolithography/fab-processes.md)**: full semiconductor manufacturing workflow
 - **[Refractory Specialty Metals](../metals/refractory-specialty.md)**: TaN/Ta barrier layers
 
-[← Back to Electrochemistry](index.md)
+---
 
+*Part of the [Bootciv Tech Tree](../index.md) • [Electrochemistry & Plating](./index.md) • [All Domains](../index.md)*
+
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Electrochemistry & Plating](./index.md) • [All Domains](../index.md)*

@@ -3,8 +3,22 @@
 > **Node ID**: quality-control.spc
 > **Domain**: [Quality Control](./index.md)
 > **Dependencies**: [`measurement`](../measurement/index.md), [`computing`](../computing/index.md)
+> **Enables**: [`quality-control.defect-analysis`](defect-analysis.md)
 > **Timeline**: Years 40-100+
 > **Outputs**: spc_charts, cpk_indices, process_capability_analysis, six_sigma_metrics, control_limits
+> **Critical**: No — manufacturing can operate without SPC but yields will be lower and defect costs higher
+
+## Prerequisites
+
+Statistical process control requires measurement infrastructure and data analysis capability:
+
+- [Measurement and metrology](../measurement/index.md) — calibrated instruments that produce quantitative measurements
+- [Computing](../computing/index.md) — data recording, statistical calculation, and chart generation
+- [Applied mathematics](../mathematics/applied-mathematics.md) — probability, statistics, and normal distribution theory
+
+## Safety
+
+No physical hazards — SPC is an analytical discipline. Workstation ergonomics apply: proper posture, adequate lighting, and regular breaks during extended data analysis sessions.
 
 
 Semiconductor manufacturing involves hundreds of sequential process steps, each introducing variability. Without statistical process control, defects accumulate undetected through the process chain, destroying yield. A single out-of-control diffusion furnace can ruin an entire batch of 25 wafers, each containing thousands of die worth tens of thousands of dollars. SPC provides the statistical framework to detect process shifts before they produce scrap, transforming manufacturing from reactive firefighting into proactive quality management.
@@ -298,6 +312,5 @@ SPC in semiconductor manufacturing generates large volumes of data requiring aut
 - [Measurement](../measurement/index.md) — metrology instruments and calibration
 - [Computing](../computing/index.md) — SPC software and data analysis
 
-
-
-[← Back to quality-control](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Quality Control & Statistical Process Control](./index.md) • [All Domains](../index.md)*

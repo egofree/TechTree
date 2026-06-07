@@ -6,7 +6,7 @@ A one-sentence statement of what a procedure produces, followed by scope (applic
 
 ## Context in the Tech Tree
 
-Purpose — the reason a process, tool, or material exists — provides the organizing principle for technical documentation throughout the tech tree. Every capability article in the knowledge base is structured to answer "what does this produce and why does it matter?" In [Casting](../machine-tools/casting.md), the purpose is to produce complex metal shapes from reusable molds. In [Pharmacology](../health/pharmacology.md), the purpose is to produce standardized therapeutic preparations from raw plant or chemical materials. Understanding purpose drives design decisions: a tool designed for precision work looks very different from one designed for heavy stock removal.
+Purpose — the reason a process, tool, or material exists — provides the organizing principle for technical documentation throughout the tech tree. Every capability article in the knowledge base is structured to answer "what does this produce and why does it matter?" In [Casting](../metals/casting.md), the purpose is to produce complex metal shapes from reusable molds. In [Pharmacology](../health/pharmacology.md), the purpose is to produce standardized therapeutic preparations from raw plant or chemical materials. Understanding purpose drives design decisions: a tool designed for precision work looks very different from one designed for heavy stock removal.
 
 ## Technical Details
 
@@ -24,6 +24,6 @@ For safety documentation, purpose also means identifying why specific precaution
 
 ## Appears In
 
-- [Casting](../machine-tools/casting.md)
+- [Casting](../metals/casting.md)
 - [Pharmacology](../health/pharmacology.md)
 - [Iron & Steel Production](../metals/iron-steel.md)

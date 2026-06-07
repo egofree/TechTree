@@ -2,7 +2,7 @@
 
 > **Node ID**: machine-tools.iterative-bootstrap
 > **Domain**: Machine Tools Bootstrap
-> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md), [`machine-tools.casting`](casting.md)
+> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md), [`machine-tools.casting`](../metals/casting.md)
 > **Enables**: [`machine-tools.bearings-abrasives`](bearings-abrasives.md), [`machine-tools.machining`](machining.md)
 > **Timeline**: Years 10-25
 > **Outputs**: lathe, shaper, mill, drill_press, leadscrew, half_nut, change_gears
@@ -13,7 +13,7 @@ Precision machines require precision parts, but precision parts require precisio
 
 ## Prerequisites
 
-- [Casting](casting.md) — sand casting of iron and aluminum parts for machine frames and components
+- [Casting](../metals/casting.md) — sand casting of iron and aluminum parts for machine frames and components
 - [Animal-derived materials](../animals/animal-materials.md) — hide glue, leather for belts, bone for polishing compounds
 - [Iron and steel](../metals/iron-steel.md) — cast iron for beds, tool steel for cutters and scrapers
 - [Fire/foundry](../foundations/fire.md) — furnace for melting cast iron (1150-1250°C)
@@ -234,7 +234,7 @@ The compounding nature of this sequence is its greatest strength: once the surfa
 
 ## See Also
 
-- [Casting](casting.md) — sand casting techniques for machine components
+- [Casting](../metals/casting.md) — sand casting techniques for machine components
 - [Bearings & Abrasives](bearings-abrasives.md) — bearing materials and grinding wheels
 - [Machining](machining.md) — cutting operations on lathe, mill, and shaper
 - [Metals / Iron and Steel](../metals/iron-steel.md) — cast iron and tool steel for machine construction
@@ -242,4 +242,6 @@ The compounding nature of this sequence is its greatest strength: once the surfa
 - [Forming](../metals/forming.md) — forging and rolling of bar stock for shafts and leadscrews
 - [Measurement](../measurement/index.md) — surface plates, straightedges, and metrology fundamentals
 
-[← Back to Machine Tools](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools Bootstrap](./index.md) • [All Domains](../index.md)*

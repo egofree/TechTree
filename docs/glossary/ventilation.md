@@ -6,7 +6,7 @@ Local exhaust ventilation (LEV) captures contaminants at the source before they 
 
 ## Context in the Tech Tree
 
-Ventilation — the supply of fresh air and removal of contaminated air from workspaces — is a fundamental engineering control for occupational health. In [Occupational Health](../health/occupational-health.md), ventilation is the primary engineering control after elimination and substitution in the hierarchy of controls. In [Coal](../energy/coal.md) mining, ventilation prevents buildup of methane (explosive at 5-15% in air) and coal dust. In [Advanced Glassblowing](../glass/advanced-glassblowing.md), ventilation removes furnace combustion products and glass fume. In [Casting](../machine-tools/casting.md) and [Joining](../machine-tools/joining.md), ventilation captures metal fumes and welding smoke.
+Ventilation — the supply of fresh air and removal of contaminated air from workspaces — is a fundamental engineering control for occupational health. In [Occupational Health](../health/occupational-health.md), ventilation is the primary engineering control after elimination and substitution in the hierarchy of controls. In [Coal](../energy/coal.md) mining, ventilation prevents buildup of methane (explosive at 5-15% in air) and coal dust. In [Advanced Glassblowing](../glass/advanced-glassblowing.md), ventilation removes furnace combustion products and glass fume. In [Casting](../metals/casting.md) and [Joining](../machine-tools/joining.md), ventilation captures metal fumes and welding smoke.
 
 ## Technical Details
 
@@ -32,6 +32,6 @@ General dilution ventilation provides 4-12 air changes per hour for comfortable 
 - [Coal](../energy/coal.md)
 - [Advanced Glassblowing](../glass/advanced-glassblowing.md)
 - [Occupational Health](../health/occupational-health.md)
-- [Casting](../machine-tools/casting.md)
+- [Casting](../metals/casting.md)
 - [Joining](../machine-tools/joining.md)
 - [Roads](../transport/roads.md)

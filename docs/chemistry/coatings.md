@@ -242,4 +242,6 @@ The coatings industry continues to evolve toward lower VOC, higher durability, a
 - [Electronics / Electrical Systems](../electronics/electrical-systems.md) — insulating coatings for wiring
 - [Photolithography Resists](../photolithography/resists-masks.md) — photoresist chemistry for semiconductor patterning
 
-[← Back to Chemistry](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

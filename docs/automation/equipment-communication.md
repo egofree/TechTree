@@ -2,13 +2,21 @@
 
 > **Node ID**: automation.equipment-communication
 > **Domain**: [Automation & Robotics](./index.md)
-> **Dependencies**: `computing`, `electronics`
+> **Dependencies**: [`computing`](../computing/index.md), [`electronics`](../electronics/index.md)
 > **Enables**: [`automation.material-transport`](material-transport.md), [`automation.process-control`](process-control.md)
 > **Timeline**: Years 50-100+
 > **Outputs**: secs_gem_communication, equipment_state_data, alarm_events, process_trace_data
+> **Critical**: No — manual equipment operation is possible; SECS/GEM automation improves throughput and yield but does not enable fundamentally new process capabilities
 
 
 A modern semiconductor fab contains hundreds of process tools — etchers, CVD reactors, implanters, lithography scanners, CMP polishers — each from different manufacturers, each with proprietary control interfaces. Without standardized communication, every tool integration requires custom software, and centralized fab control is impossible. SECS/GEM protocols solve this by defining a universal language for equipment-to-host data exchange, enabling automated process control, recipe management, and real-time monitoring across the entire fab.
+
+## Prerequisites
+
+- [Computing](../computing/index.md) — computing infrastructure for MES, FDC, and SECS gateway servers
+- [Electronics](../electronics/index.md) — semiconductor devices, passive components for communication hardware
+- [Electricity](../energy/electricity.md) — power supply for network infrastructure and computing systems
+- [Cleanrooms](../photolithography/cleanrooms.md) — fab environment housing the equipment being controlled
 
 ## Decision Framework: Communication Protocol Selection
 
@@ -255,4 +263,6 @@ For 300 mm fabs, SEMI E38 (GEM300) adds capabilities specific to automated wafer
 - [Photolithography / Fab Processes](../photolithography/fab-processes.md) — the tools being controlled
 - [Cleanrooms](../photolithography/cleanrooms.md) — the environment housing the equipment
 
-[← Back to Automation & Robotics](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Automation & Robotics](./index.md) • [All Domains](../index.md)*

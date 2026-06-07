@@ -6,7 +6,7 @@ Load scrap steel (40-60% of charge) and limestone (flux, 5-8% of metal weight) t
 
 ## Context in the Tech Tree
 
-Charging is the process of loading raw materials into a furnace or reactor. In [Steelmaking](../metals/steelmaking.md), charging loads the open-hearth furnace or basic oxygen furnace with scrap, pig iron, and flux. In [Casting](../machine-tools/casting.md), charging melts metal in crucibles and cupola furnaces. In [Energy Storage](../energy/storage.md), charging refers to applying electrical current to reverse the battery discharge reaction. The term covers both the mechanical loading of materials and the electrochemical process of restoring battery capacity.
+Charging is the process of loading raw materials into a furnace or reactor. In [Steelmaking](../metals/steelmaking.md), charging loads the open-hearth furnace or basic oxygen furnace with scrap, pig iron, and flux. In [Casting](../metals/casting.md), charging melts metal in crucibles and cupola furnaces. In [Energy Storage](../energy/storage.md), charging refers to applying electrical current to reverse the battery discharge reaction. The term covers both the mechanical loading of materials and the electrochemical process of restoring battery capacity.
 
 ## Technical Details
 
@@ -25,5 +25,5 @@ In lead-acid battery charging, the process applies a voltage above the cell's eq
 ## Appears In
 
 - [Energy Storage](../energy/storage.md)
-- [Casting](../machine-tools/casting.md)
+- [Casting](../metals/casting.md)
 - [Steelmaking](../metals/steelmaking.md)

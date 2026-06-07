@@ -226,4 +226,6 @@ Silk's combination of high strength, low weight, and resistance to sudden loadin
 - [Plants / Edible Plants](../plants/edible-plants.md) — mulberry tree cultivation
 - [Shellac](../polymers/shellac.md) — combined with silk paper for electrical insulation
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

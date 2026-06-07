@@ -11,6 +11,13 @@
 
 Cryogenic air separation exploits the different boiling points of air's components — nitrogen (-196°C), oxygen (-183°C), and argon (-186°C) — to produce high-purity gases and liquids at industrial scale. This file covers the cryogenic engineering of the separation process: the Claude and Linde cycles, expansion turbine integration, double-column thermodynamic coupling, and column internal design. For product specifications, argon purification, PSA alternatives, and plant operations, see [Air Separation & Bulk Gas Production](../chemistry/air-separation.md) in the Chemistry domain.
 
+## Prerequisites
+
+- [Refrigeration Fundamentals](refrigeration.md) — thermodynamic cycles for achieving cryogenic temperatures
+- [Basic Gas Handling](../gas-handling/basic.md) — gas compression, piping, and purification
+- [Metals](../metals/index.md) — steel and aluminum for column and heat exchanger construction
+- [Machine Tools](../machine-tools/index.md) — precision machining for expansion turbines and column internals
+
 ## The Engineering Problem
 
 Air is 78.08% N₂, 20.95% O₂, 0.93% Ar by volume. The boiling points at 1 atm are:
@@ -309,6 +316,42 @@ Both files are needed for a complete understanding of air separation technology.
 | Condenser-reboiler temperature difference widens beyond 5-7°C | Fouling on brazed aluminum surfaces reducing heat transfer | Check for frozen CO₂ or water ice on reboiler surfaces; verify pre-purification molecular sieve is removing H₂O and CO₂ to spec; if fouling confirmed, schedule warm-up and internal inspection |
 | Molecular sieve adsorber not regenerating fully | Regeneration gas temperature below 200-300°C or flow insufficient through off-line vessel | Check regeneration heater output; verify switching valve sequence (4-8 hour adsorption cycle); confirm regeneration gas is dry nitrogen waste stream at adequate flow rate |
 
+## Decision and Implementation Framework
+
+This article describes cryogenic air separation technology as a conceptual guide. Per-section Strengths/Weaknesses blocks above provide detailed trade-offs.
+
+### C1: Decision Criteria
+
+Choose air separation method based on required purity, scale, and product state:
+
+| Requirement | Method | Purity | Scale | Energy |
+|---|---|---|---|---|
+| Low purity N₂ (95-99%) | PSA (pressure swing adsorption) | 95-99% N₂ | 10-5000 Nm³/h | 0.3-0.5 kWh/Nm³ |
+| Medium purity N₂ (99.5-99.9%) | Membrane separation | 95-99.9% N₂ | 10-2000 Nm³/h | 0.2-0.6 kWh/Nm³ |
+| High purity (99.999%+) or liquid products | Cryogenic distillation | 99.999%+ N₂, 99.5%+ O₂ | 1,000-200,000+ Nm³/h | 0.4-1.0 kWh/Nm³ |
+| All three products (N₂ + O₂ + Ar) | Cryogenic distillation (double column) | 99.999% N₂, 99.5% O₂, 99.999% Ar | 10,000+ Nm³/h | 0.5-0.8 kWh/Nm³ |
+
+Cryogenic distillation is the only method that produces all three products at high purity and supplies liquid products. Use PSA or membrane for gaseous N₂ only at moderate purities.
+
+### C2: Implementation Steps
+
+1. **Establish refrigeration capability**: Build a Claude or Linde cycle refrigerator producing temperatures below -180°C. See [Refrigeration Fundamentals](refrigeration.md).
+2. **Build a single-column distillation unit**: Start with a simple Linde single column producing either gaseous N₂ or O₂ (not both simultaneously). Learn column control and heat integration.
+3. **Upgrade to double column**: Add a second column thermally coupled through a condenser-reboiler. This enables simultaneous production of pure N₂ and O₂.
+4. **Add expansion turbines**: Replace J-T valves with expansion turbines for 10-30× more refrigeration per unit of compressed air.
+5. **Add argon production**: Install a sidedraw argon column when argon coproduction is economically justified.
+6. **Scale up**: Increase air throughput by upgrading compressors, heat exchangers, and column diameter.
+
+### C3: Air Separation Method Trade-offs
+
+| Method | Purity | Products | Capital Cost | Operating Cost | Scale |
+|---|---|---|---|---|---|
+| PSA | 95-99% N₂ | N₂ only | $10-100K | Moderate (adsorbent replacement) | Small-medium |
+| Membrane | 95-99.9% N₂ | N₂ only | $5-50K | Low (no moving parts) | Small |
+| Cryogenic (single column) | 99%+ | N₂ or O₂ | $500K-5M | Moderate (compressor power) | Medium |
+| Cryogenic (double column) | 99.999%+ | N₂ + O₂ (+ Ar) | $5-100M | Moderate (compressor + turbine) | Large |
+| Cryogenic (with liquefier) | 99.999%+ | N₂ + O₂ + Ar + liquids | $10-200M | Higher (liquefaction energy) | Very large |
+
 ## See Also
 
 - **[Refrigeration Fundamentals](refrigeration.md)**: Thermodynamic principles underlying all cryogenic processes
@@ -318,4 +361,5 @@ Both files are needed for a complete understanding of air separation technology.
 
 
 
-[← Back to cryogenics](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Cryogenics](./index.md) • [All Domains](../index.md)*

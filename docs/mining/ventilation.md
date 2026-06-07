@@ -246,4 +246,6 @@ The wet bulb globe temperature (WBGT) index combines dry-bulb temperature, natur
 - [Black Powder](black-powder.md) — explosive fume clearance requirements
 - [Occupational Health](../health/occupational-health.md) — exposure limits and respiratory protection
 
-[← Back to Mining](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining Engineering & Extractive Metallurgy](./index.md) • [All Domains](../index.md)*

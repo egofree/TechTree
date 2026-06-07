@@ -4,6 +4,7 @@
 > **Domain**: [Precision Motion Control](./index.md)
 > **Timeline**: Years 35-55
 > **Outputs**: nano_positioning_stages, air_bearing_slides, linear_motor_drives
+> **Critical**: Yes — sub-10nm positioning is required for semiconductor lithography wafer stages; no alternative technology can achieve the positioning accuracy needed for leading-edge IC fabrication
 > **Dependencies**: [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md), [Precision Encoders & Feedback](./precision-encoders.md), [Vibration Isolation](./vibration-isolation.md)
 > **Enables**: [Wafer Stages & Scanner Systems](./wafer-stages.md), [Advanced Lithography](../vlsi-scaling/advanced-lithography.md)
 
@@ -30,6 +31,16 @@ The [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md) domain achieves
 | Invar metrology frame | Fe-36Ni, CTE 0.6-1.2 × 10⁻⁶/°C, stress-relieved | [Metals](../metals/index.md) |
 | Granite machine base | 500-5,000 kg, flatness <1 μm/m, damping ratio >2% | [Stone Processing](../construction/index.md) |
 | HeNe laser (interferometer) | 632.8 nm, frequency stability ±2 × 10⁻⁹, power >0.5 mW | [Optics](../optics/index.md) |
+
+## Implementation Steps
+
+1. **Define positioning requirements**: Determine travel range, resolution, accuracy, speed, and acceleration for the target application. Refer to the Linear Motor Specifications table for semiconductor equipment parameters
+2. **Select actuation technology**: Use piezo stages for sub-micron travel with nanometer resolution, piezo-walk for mm-scale travel, air bearing slides for long-travel with sub-nanometer smoothness, and linear motors for high-force, high-speed positioning
+3. **Specify guide surface**: Procure or machine granite guide surface to flatness <0.1 μm over full travel, surface finish <0.05 μm Ra
+4. **Design thermal management**: Plan active liquid cooling at ±0.01°C, select low-CTE materials (Invar, Zerodur) for metrology frames, design thermal shielding enclosure
+5. **Implement feedback control**: Select encoders or interferometers for position measurement (see [Precision Encoders](./precision-encoders.md)), design PID + feedforward control loop with notch filters for structural resonances
+6. **Integrate with vibration isolation**: Install stage on isolation platform meeting VC-D or better specification (see [Vibration Isolation](./vibration-isolation.md))
+7. **Commission and calibrate**: Map stage errors across full travel using interferometric measurement. Verify positioning accuracy, repeatability, and settle time against specifications
 
 ## Piezoelectric Positioning Stages
 
@@ -341,4 +352,6 @@ Mechanical resonances in the stage structure limit the achievable feedback bandw
 - Wafer stage applications: [Wafer Stages & Scanner Systems](./wafer-stages.md)
 - Electricity supply for motors and controllers: [Electricity Generation & Distribution](../energy/electricity.md)
 
-[← Back to Precision Motion](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Precision Motion Control](./index.md) • [All Domains](../index.md)*

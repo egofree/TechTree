@@ -105,6 +105,34 @@ Energy consumption scales roughly linearly with the amount of salt removed. Desa
 
 Building a SEM Tech ED desalination stack requires the following materials, organized by subsystem:
 
+| Material | Quantity | Source | Notes |
+|----------|----------|--------|-------|
+| Strong acid cation exchange resin beads (sulfonic acid type) | As needed per membrane area | Water softener suppliers | Pre-functionalized R-SO₃H type |
+| Strong base anion exchange resin beads (quaternary ammonium type) | As needed per membrane area | Water treatment suppliers | Pre-functionalized R-N⁺(CH₃)₃ type |
+| PVC or CPVC resin (powder or pellets) | ~50% volume loading in binder | [Chemistry](../chemistry/index.md) | Binder matrix for membranes |
+| Organic solvent (THF, MEK, or cyclohexanone) | 3:7 polymer-to-solvent ratio by weight | [Chemistry → Solvents](../chemistry/solvents.md) | Dissolves PVC/CPVC binder |
+| Fiberglass mesh, fumed silica, or fine sand | Optional | Hardware supply | Membrane reinforcement |
+| PVC or CPVC sheet (3–6 mm thick) | Per cell pair count | Plumbing supply | Spacer gaskets and cell frames |
+| PVC cement | 1 can | Plumbing supply | Solvent welding adhesive for joints |
+| Graphite plates (5–10 mm thick) | 2 pieces | [Metals](../metals/index.md) or industrial supply | Electrodes; coated titanium mesh for longer life |
+| Polypropylene or polyethylene mesh screen (0.5–1.5 mm) | Per cell pair count | Hardware supply | Flow spacers |
+| Threaded steel tie rods (8–12 mm dia.) with nuts and washers | 4–8 sets | [Metals](../metals/index.md) or hardware | Stack compression |
+| Thick PVC or steel plate (15–25 mm) | 2 pieces | [Metals](../metals/index.md) or hardware | End plates |
+| Rubber or neoprene gasket material | 2 sheets | Hardware supply | Electrode compartment seals |
+| PVC pipe and fittings | As needed for manifold layout | Plumbing supply | Feed, product, and brine manifolds |
+| HDPE or PVC tanks | 3 units (feed, product, brine) | General supply | Storage tanks |
+| PVC ball valves | As needed | Plumbing supply | Flow control |
+| Flexible PVC or silicone tubing | As needed | Plumbing supply | Recirculation loops |
+| Graded silica sand (0.5–2 mm particle size) | 0.5–1.0 m³ bed volume | Quarry supply | Sand filter bed |
+| Polypropylene cartridge filter elements (5–10 µm) | Replacement stock | Water filter supply | Pre-treatment filtration |
+| Activated carbon | Optional | Water treatment supply | Organic contaminant removal |
+| Sodium hypochlorite solution or calcium hypochlorite granules | Dose 2–5 mg/L to product water | [SEM Tech chlor-alkali](../chemistry/sem-tech.md) or commercial | Disinfection |
+| Lime (calcium hydroxide) | Optional, 30–80 mg/L dose | [Chemistry](../chemistry/index.md) | pH adjustment and remineralization |
+| DC power supply (0–600V, 0–20A) or solar panel array with charge controller | 1 unit | [Energy](../energy/electricity.md) or solar supply | Stack power |
+| Electrical cable (DC-rated) | As needed | Electrical supply | Appropriate gauge for current |
+| Terminal lugs and connectors | As needed | Electrical supply | Cable terminations |
+| Fuses or circuit breakers (DC-rated) | As needed | Electrical supply | Overcurrent protection |
+
 **Membrane materials** (see [SEM Tech](../chemistry/sem-tech.md) for manufacturing details):
 - Strong acid cation exchange resin beads (sulfonic acid type, as used in water softeners)
 - Strong base anion exchange resin beads (quaternary ammonium type)
@@ -591,4 +619,5 @@ The SEM Tech water treatment system depends on upstream capabilities from severa
 
 
 
-[← Back to Water](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*

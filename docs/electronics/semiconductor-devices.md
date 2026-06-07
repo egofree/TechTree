@@ -318,6 +318,6 @@ Power semiconductor capability scales with die area and blocking voltage. Key tr
 - **[Vacuum Systems](../gas-handling/vacuum.md)**: vacuum equipment for deposition processes
 - **[Electric Furnaces](../energy/electric-furnaces.md)**: diffusion and oxidation furnace requirements
 
+---
 
-
-[← Back to Electronics](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*

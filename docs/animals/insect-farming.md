@@ -246,6 +246,6 @@ BSF larvae bioaccumulate certain contaminants from their substrate: heavy metals
 - Do not feed BSF larvae raised on manure to other animals without drying or cooking (pathogen risk from substrate)
 - Dry larvae to below 10% moisture for safe long-term storage — above 15%, mold and aflatoxin risk increases rapidly
 
+---
 
-
-[← Back to Animals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

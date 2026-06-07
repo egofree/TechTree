@@ -4,6 +4,7 @@
 > **Domain**: [Defense](./index.md)
 > **Dependencies**: None (root capability)
 > **Enables**: None (leaf capability)
+> **Critical**: No — weapons are specialized military tools dependent on metallurgical and chemical industrial base
 > **Timeline**: Years 0-30+
 > **Outputs**: weapons, blades, spears, bows, small_arms, muskets
 
@@ -14,6 +15,18 @@ Weapons and edged tools encompass the development of offensive and defensive ins
 Weapon development is a direct proxy for metallurgical capability. The progression from stone to bronze to iron to steel to firearms maps exactly onto the bootstrap chain's material science development. A community that can produce consistent 0.5% carbon steel and heat-treat it to HRC 50 has the industrial base for edged weapons, agricultural tools, and machine components alike. Firearms add the requirement for precision bore-drilling, consistent black powder manufacture, and lead casting — capabilities that also serve mining, construction, and chemical industries.
 
 Weapon production scales from individual craftsmanship (a single smith making swords) to industrial arsenals (thousands of muskets per month with interchangeable parts). The resource demands are significant: a 1000-soldier force equipped with muskets consumes 30-120 kg of black powder and 60-70 kg of lead per minute of combat, requiring industrial-scale [chemistry](../chemistry/index.md) and [mining](../mining/index.md).
+
+
+## Prerequisites
+
+Weapon production requires progressively more advanced materials and industrial capabilities:
+
+- [Foundations](../foundations/index.md) — flint knapping, woodworking, and birch tar for stone-age weapons
+- [Iron and steel production](../metals/iron-steel.md) — steel for blades, heat treatment for edge hardening
+- [Non-ferrous metals](../metals/index.md) — bronze casting for bronze-age weapons
+- [Explosives and propellants](../chemistry/explosives.md) — black powder for firearms
+- [Machine tools](../machine-tools/index.md) — barrel boring for firearms, interchangeable parts for arsenal production
+- [Mining](../mining/index.md) — iron ore, copper, tin, lead, and saltpeter extraction
 
 
 ## Bill of Materials
@@ -316,7 +329,5 @@ Weapon production scales from individual craftsmanship (a single smith making sw
 - **[Machine Tools](../machine-tools/index.md)** -- Barrel drilling and interchangeable parts
 - **[Mining](../mining/index.md)** -- Iron ore, copper, tin, and lead extraction
 
-
- *Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*
-
-[← Back to defense](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*

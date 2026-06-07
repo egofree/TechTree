@@ -289,4 +289,6 @@ Ore processing is energy intensive. The comminution stage (crushing and grinding
 - [Metals Index](../metals/index.md) — smelting and refining of processed ore
 - [Tailings Reprocessing](tailings-reprocessing.md) — recovering residual metals from mine waste
 
-[← Back to Mining](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining Engineering & Extractive Metallurgy](./index.md) • [All Domains](../index.md)*

@@ -8,6 +8,22 @@
 > **Outputs**: boolean_algebra, information_theory, formal_languages, automata_theory
 > **Critical**: Yes — mathematics is the shared language of quantitative reasoning for all engineering
 
+## Prerequisites
+
+Formal systems build on core mathematical foundations:
+
+- [Core Mathematics](core-mathematics.md) — algebra, set operations, and logical reasoning
+- [Applied Mathematics](applied-mathematics.md) — probability theory (for information theory), linear algebra (for coding theory)
+
+No physical tools or materials required — formal systems are developed through logical reasoning and practice.
+
+## Learning Sequence
+
+1. **Propositional logic** — truth values, logical connectives (AND, OR, NOT)
+2. **Boolean algebra** — algebraic laws for two-valued logic, simplification methods
+3. **Information theory** — entropy, channel capacity, error-correcting codes (requires probability)
+4. **Formal languages and automata** — regular expressions, finite automata, context-free grammars
+5. **Computability and complexity** — Turing machines, decidability, P vs NP
 
 Physical engineering — building furnaces, machining parts, generating electricity — relies on continuous mathematics (calculus, differential equations). But a different class of problems demands discrete, logical reasoning: How do you design a circuit that computes "turn on the motor when the start button is pressed AND the safety guard is closed AND NOT the emergency stop"? How do you transmit a message over a noisy channel and recover it perfectly? How do you specify precisely what a computing machine should do, and prove it does it? Formal systems provide the mathematical foundations for digital logic, communication systems, and computation itself — the theoretical underpinning of the information age.
 
@@ -22,7 +38,7 @@ George Boole (1815-1864) sought to reduce logical reasoning to algebraic calcula
 
 A Boolean algebra consists of a set B = {0, 1} with three operations:
 
-- **AND** (conjunction, · ): a · b = 1 if and only if a = 1 and b = 1
+- **AND** (conjunction, • ): a • b = 1 if and only if a = 1 and b = 1
 - **OR** (disjunction, +): a + b = 1 if and only if a = 1 or b = 1
 - **NOT** (complement, ¯): ā = 1 − a (0 and 1 swap)
 
@@ -30,15 +46,15 @@ Subject to these axioms (for all a, b, c ∈ B):
 
 | Axiom | AND form | OR form |
 |-------|----------|---------|
-| Identity | a · 1 = a | a + 0 = a |
-| Null | a · 0 = 0 | a + 1 = 1 |
-| Idempotent | a · a = a | a + a = a |
-| Complement | a · ā = 0 | a + ā = 1 |
-| Commutative | a · b = b · a | a + b = b + a |
+| Identity | a • 1 = a | a + 0 = a |
+| Null | a • 0 = 0 | a + 1 = 1 |
+| Idempotent | a • a = a | a + a = a |
+| Complement | a • ā = 0 | a + ā = 1 |
+| Commutative | a • b = b • a | a + b = b + a |
 | Associative | (a·b)·c = a·(b·c) | (a+b)+c = a+(b+c) |
 | Distributive | a·(b+c) = a·b + a·c | a+(b·c) = (a+b)·(a+c) |
 | Absorption | a·(a+b) = a | a+(a·b) = a |
-| De Morgan's | (a·b)̄ = ā + b̄ | (a+b)̄ = ā · b̄ |
+| De Morgan's | (a·b)̄ = ā + b̄ | (a+b)̄ = ā • b̄ |
 | Double complement | (ā)̄ = a | — |
 
 Notice the **duality principle**: swapping AND ↔ OR and 0 ↔ 1 in any valid identity produces another valid identity. This is not a coincidence — it reflects a deep symmetry in the algebra.
@@ -264,6 +280,10 @@ Steps 1-2 are pure information theory. Step 5 requires coding theory and statist
 - **Enables**: Digital logic design (`computing.digital-logic`), communication systems, data storage (`computing.data-storage`), formal verification, and compiler construction
 
 
+## Safety
+
+No physical hazards — primarily intellectual work. Ergonomic considerations for extended study: maintain proper posture at work surface, ensure adequate lighting to prevent eye strain, take breaks during sustained mental effort.
+
 ## See Also
 
 - [Core Mathematics](core-mathematics.md) — prerequisite arithmetic and algebra
@@ -273,4 +293,5 @@ Steps 1-2 are pure information theory. Step 5 requires coding theory and statist
 - [Computing Index](../computing/index.md) — computing overview
 - [Logic Design](../computing/logic-design.md) — digital circuit design methodology
 
-[← Back to Mathematics](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Mathematics & Formal Sciences](./index.md) • [All Domains](../index.md)*

@@ -8,7 +8,7 @@
 > **Outputs**: pressurized_steam
 > **Critical**: Yes — without a boiler there is no steam power; boilers are the sole source of pressurized steam for engines, turbines, and industrial processes
 
-## Principle
+## Overview
 
 A boiler is a pressure vessel that converts water into steam by transferring heat from combustion gases through metal walls. Two fundamental architectures exist: **fire-tube** (hot gases pass through tubes surrounded by water) and **water-tube** (water flows through tubes surrounded by hot gases). In both cases, the rate of steam production is limited by the heat transfer surface area and the temperature differential between the combustion gases and the boiling water.
 
@@ -19,11 +19,11 @@ The governing relationship is: Steam production (kg/h) = Heat input (kW) × Boil
 - [Wrought iron or steel plate](../metals/iron-steel.md) — for shell, tubes, and furnace
 - [Riveting or welding capability](../machine-tools/joining.md) — for pressure vessel assembly
 - [Plate rolling machine](../metals/forming.md) — for cylindrical shell and tube forming
-- [Foundry](../machine-tools/casting.md) — for furnace grates, doors, and fittings
+- [Foundry](../metals/casting.md) — for furnace grates, doors, and fittings
 - [Feed water pump](steam-power.md) — to maintain water level under pressure
 - [Fuel supply](fuels.md) — coal, wood, oil, or gas
 
-## Materials
+## Bill of Materials
 
 ### Fire-Tube Boiler (Lancashire type, ~50 HP, 10 bar)
 
@@ -34,8 +34,8 @@ The governing relationship is: Steam production (kg/h) = Heat input (kW) × Boil
 | [Steel fire tubes (2)](../metals/iron-steel.md) | 1600 kg total | 600-900 mm diameter × 6 m, corrugated, 6-10 mm wall | [Forming](../metals/forming.md) | Plain tubes (weaker under external pressure) |
 | [Steel stay bolts](../metals/iron-steel.md) | 200-400 pcs | 20-25 mm diameter, threaded both ends | [Iron & Steel](../metals/iron-steel.md) | Welded stays |
 | [Wrought iron rivets](../metals/iron-steel.md) | 2000-4000 pcs | 16-25 mm diameter | [Iron & Steel](../metals/iron-steel.md) | Welded seams (later technology) |
-| [Cast iron furnace grate](../machine-tools/casting.md) | 50-100 kg | Bar grate, 25 mm bars at 30 mm spacing | [Foundry](../machine-tools/casting.md) | Steel bar grate |
-| [Cast iron fire doors](../machine-tools/casting.md) | 2 pcs | With air damper control | [Foundry](../machine-tools/casting.md) | Steel fabrication |
+| [Cast iron furnace grate](../metals/casting.md) | 50-100 kg | Bar grate, 25 mm bars at 30 mm spacing | [Foundry](../metals/casting.md) | Steel bar grate |
+| [Cast iron fire doors](../metals/casting.md) | 2 pcs | With air damper control | [Foundry](../metals/casting.md) | Steel fabrication |
 | [Brass safety valves (2)](../metals/copper-bronze.md) | 2 pcs | Spring-loaded, rated to 110% of working pressure | [Foundry](../metals/copper-bronze.md) | Weighted lever type |
 | [Steel steam dome](../metals/iron-steel.md) | 50-100 kg | 300-500 mm diameter, 400-600 mm tall | [Forming](../metals/iron-steel.md) | — |
 | [Firebrick lining](../ceramics/kilns.md) | 100-200 pcs | 230 × 115 × 65 mm, rated to 1400°C | [Ceramics](../ceramics/kilns.md) | Castable refractory |
@@ -51,7 +51,7 @@ The governing relationship is: Steam production (kg/h) = Heat input (kW) × Boil
 | [Firebrick](../ceramics/kilns.md) | 200-400 pcs | Furnace lining, rated to 1400°C | [Ceramics](../ceramics/kilns.md) | Castable refractory |
 | [Refractory insulation](../chemistry/refractories.md) | 200-500 kg | Mineral wool or castable, 50-100 mm thick | [Chemistry](../chemistry/index.md) | — |
 
-## Construction Steps
+## Process Description
 
 ### Fire-Tube Boiler (Lancashire)
 
@@ -77,6 +77,18 @@ The governing relationship is: Steam production (kg/h) = Heat input (kW) × Boil
 
 11. **Hydrostatic test**: Fill the completed boiler with water, pressurize to 1.5× working pressure (15 bar test for a 10 bar boiler). Hold for 30 minutes. Inspect every rivet, seam, and fitting for leaks. Zero leaks acceptable. Any weeping rivets must be re-driven or replaced.
 
+**Strengths**:
+- Simple construction — cylindrical shell, flat tube sheets, and corrugated fire tubes are straightforward to fabricate with plate rolling and riveting
+- Large water volume (5,000-12,000 liters) stores thermal energy, accommodating fluctuating steam demand without rapid pressure changes
+- Tolerant of poor feed water quality — the large water volume dilutes impurities, and the simple internal geometry is easy to clean and descale
+- Easy inspection — removing the end plates gives access to the entire shell interior and both sides of the fire tubes
+
+**Weaknesses**:
+- Limited to ~15 bar working pressure — the large cylindrical shell cannot safely contain higher pressures without excessive plate thickness
+- Large water inventory means a shell rupture releases enormous stored energy (a 10 bar boiler with 8,000 liters holds ~2 GJ of thermal energy)
+- Slow to raise steam from cold (2-4 hours) due to the large water mass that must be heated to boiling
+- Heavy (8-20 tonnes for a 50 HP unit) — requires substantial foundation and cannot be moved easily
+
 ### Water-Tube Boiler (Babcock & Wilcox type)
 
 12. **Fabricate the steam drum and mud drum** from rolled steel plate, welded longitudinal seams. Steam drum: 600-1000 mm diameter, positioned at top. Mud drum: 300-500 mm diameter, at bottom. Both drums have tube stubs for water tube connections.
@@ -87,9 +99,20 @@ The governing relationship is: Steam production (kg/h) = Heat input (kW) × Boil
 
 15. **Construct the furnace enclosure** with firebrick walls and a steel casing. Install the coal grate or oil/gas burner at the bottom. Hot gases rise through the staggered tube bank, transferring heat to water inside the tubes.
 
-16. **Install the same fittings** as the fire-tube boiler: safety valves (2), pressure gauge, water level gauges, blowdown valve, feed water check valve. Add a continuous blowdown valve for surface water impurity removal.
+16. **Install fittings**: Mount two spring-loaded safety valves on the steam drum (rated to 110% of working pressure). Fit a Bourdon tube pressure gauge, two glass water level gauges, a blowdown valve at the bottom of the mud drum, a feed water check valve on the steam drum, and a continuous blowdown valve for surface water impurity removal.
 
-17. **Hydrostatic test** at 1.5× working pressure. Inspect all tube joints, drum seams, and header connections.
+17. **Hydrostatic test** at 1.5× working pressure. Fill with water, pressurize, hold 30 minutes. Inspect all tube joints, drum seams, and header connections. Zero leaks acceptable. Any weeping tube joints must be re-rolled or re-welded.
+
+**Strengths**:
+- Higher pressure capability — small-diameter tubes (50-80 mm) withstand internal pressure far better than a large shell, enabling 20-100+ bar operation
+- Faster response to load changes — small water volume (2,000-8,000 liters) means less thermal mass and quicker steam pressure adjustment
+- Safer failure mode — a burst water tube releases a small volume of steam/water through a limited opening, unlike a shell rupture that releases the entire contents
+- Higher efficiency achievable (80-90%) due to larger heating surface per unit volume and compatibility with superheaters, economizers, and air preheaters
+
+**Weaknesses**:
+- More complex construction — hundreds of tube joints, each a potential leak point, requiring precision tube expansion or welding
+- More sensitive to feed water quality — scale in narrow tubes causes rapid localized overheating and tube failure; external water softening is mandatory above 20 bar
+- Higher initial cost — more labor hours for tube fabrication, bending, and installation compared to a fire-tube shell
 
 ## Calibration and Verification
 
@@ -103,7 +126,7 @@ The governing relationship is: Steam production (kg/h) = Heat input (kW) × Boil
 
 5. **Steam purity test**: Collect a steam sample from the steam dome outlet. Measure conductivity — target <10 μS/cm for saturated steam. High conductivity indicates water carryover (foaming or high water level).
 
-## Expected Performance
+## Quantitative Parameters
 
 ### Fire-Tube (Lancashire)
 
@@ -133,24 +156,84 @@ The governing relationship is: Steam production (kg/h) = Heat input (kW) × Boil
 | Cold start time | 30-90 minutes (faster than fire-tube) |
 | Fuel consumption (coal) | 600-4,000 kg/hour |
 
-## Strengths
+## Feed Water Treatment
 
-- **Fire-tube**: Simple construction, large water volume stores energy well (accommodates fluctuating demand), easy to clean and inspect, relatively tolerant of poor feed water quality
-- **Water-tube**: Higher pressure capability (small tubes withstand internal pressure better), faster response to load changes, safer failure mode (small tube burst vs. shell rupture), higher efficiency achievable
+Boiler feed water quality determines tube and shell lifetime. Dissolved minerals (calcium, magnesium) precipitate as scale on heating surfaces, reducing heat transfer and causing localized overheating. Scale 1 mm thick increases fuel consumption by ~2% and can cause tube failure.
 
-## Weaknesses
+| Parameter | Limit | Problem if Exceeded | Treatment |
+|-----------|-------|---------------------|-----------|
+| Total hardness (CaCO₃) | <50 ppm | Scale on tubes and shell | Lime-soda softening or ion exchange |
+| Total dissolved solids | <3000 ppm | Carryover, foaming, deposits | Blowdown (surface and bottom) |
+| Dissolved oxygen | <0.05 ppm | Oxygen pitting corrosion | Deaeration (thermal or chemical — sodium sulfite) |
+| pH | 9.0-10.5 | Acidic water corrodes steel; alkaline water causes caustic embrittlement | Add sodium hydroxide (raise) or dilute (lower) |
+| Silica (SiO₂) | <150 ppm | Silica scale in high-pressure boilers | Blowdown + demineralization for >40 bar |
 
-- **Fire-tube**: Limited to ~15 bar (shell design limits pressure), large water volume means a shell failure releases enormous stored energy, slow to raise steam from cold
-- **Water-tube**: More complex construction (many tube joints), more sensitive to feed water quality (scale in narrow tubes causes rapid failure), higher initial cost
+Minimum treatment for low-pressure boilers (5-10 bar): daily bottom blowdown to remove settled sludge, continuous surface blowdown to control dissolved solids, and sodium sulfite dosing (50-100 ppm residual) for oxygen scavenging. For high-pressure boilers (>20 bar): external water softening is mandatory — ion exchange or lime-soda treatment of all feed water before it enters the boiler.
+
+## Scaling Notes
+
+| Scale | Steam Output | Boiler Type | Pressure | Primary Use | Approximate Weight |
+|-------|-------------|-------------|----------|-------------|-------------------|
+| Workshop (5-20 kW) | 10-50 kg/h | Vertical fire-tube | 3-8 bar | Small steam engine, heating | 1-3 tonnes |
+| Small factory (50-150 kW) | 200-600 kg/h | Lancashire fire-tube | 7-10 bar | Line shaft drive, process heat | 8-20 tonnes |
+| Medium factory (200-500 kW) | 1,000-3,000 kg/h | Water-tube | 10-20 bar | Multiple engines, process steam | 15-40 tonnes |
+| Power station (1-10 MW) | 5,000-30,000 kg/h | Water-tube with superheater | 20-100 bar | Steam turbine generation | 50-200 tonnes |
+
+Fire-tube boilers scale by increasing shell diameter and adding more fire tubes. Practical limit: ~2.5 m diameter and ~15 bar for riveted construction, ~3 m and ~20 bar for welded construction. Beyond this, water-tube designs are mandatory — small-diameter tubes (50-80 mm) withstand much higher internal pressure than large shells.
+
+Minimum economic scale: a vertical fire-tube boiler (200 kg/h steam at 5 bar) powering a small steam engine is the smallest unit that produces useful industrial work. Below this, direct mechanical power (water wheel, windmill, animal power) is more practical.
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Low steam pressure | Insufficient fuel input or excessive load | Increase fuel feed rate; check that fuel is dry and properly sized; verify draft is not blocked |
+| Low steam pressure | Scale buildup on tubes or shell | Shut down, cool, and mechanically clean scale from internal surfaces. Implement feed water treatment |
+| Priming (water carryover into steam) | High water level or excessive dissolved solids | Reduce water level to normal; increase surface blowdown to lower TDS; install a steam separator in the dome |
+| Foaming on water surface | High dissolved solids or organic contamination | Increase blowdown rate; identify source of contamination (oil from engine exhaust, process chemicals) |
+| Fuse plug melts | Water level dropped below fire tube crown | Shut down immediately. Investigate cause of low water (feed pump failure, gauge error). Replace fuse plug before restarting |
+| Safety valve weeping | Valve seat damaged by corrosion or scale | Remove valve, lap the seat with grinding compound, reseat. If valve leaks persist, replace the valve — never plug or bypass a safety valve |
+| Uneven firing (cold spots) | Blocked grate or clinker buildup | Clean the grate; break up clinkers with a fire hook; reduce ash content by switching fuel or blending |
+| Smoke from stack (black) | Incomplete combustion — insufficient air | Open the damper; check that ash pit is clear for primary air; increase secondary air if available |
+| Smoke from stack (white, persistent) | Water leak inside boiler (tube failure) | Shut down immediately. Cool and inspect. Locate the leak (tube corrosion, cracked seam) and repair before returning to service |
+
+## Quality Control
+
+- **Hydrostatic test**: Before first operation and annually thereafter. Fill with water at ambient temperature, pressurize to 1.5× working pressure. Hold 30 minutes. No pressure drop, no weeping at joints, no visible deformation. Document the test pressure and date.
+- **Flue gas analysis**: Measure O₂ and CO in flue gas weekly. Target: O₂ = 4-8% (correct excess air), CO <200 ppm (complete combustion). CO above 500 ppm indicates poor combustion — adjust air supply and fuel distribution.
+- **Water quality**: Test feed water hardness weekly with a soap test kit or titration. Test boiler water TDS daily with a conductivity meter. Blow down to maintain TDS below the limit in the feed water table above.
+- **Safety valve test**: Manual lift test (pull the lever) monthly. Actual pop test (raise pressure to set point) annually. Document set pressure and reseat pressure.
+- **Internal inspection**: Open the boiler annually. Inspect shell and tube interiors for scale, pitting corrosion, and cracks. Measure shell thickness at regular points with an ultrasonic thickness gauge — minimum remaining wall thickness must be ≥80% of original design thickness. Riveted boilers: inspect every rivet for weeping and corrosion around heads.
+- **Water gauge verification**: Blow down both gauge glasses daily (open drain → water drops to actual level → close drain → water refills to correct level). If the two gauges disagree, shut down and clear the blocked gauge.
+
+## Variations and Alternatives
+
+### Vertical Fire-Tube Boiler (Cochran Type)
+
+Compact vertical design for small installations (10-200 kg/h steam, 5-10 bar). Fire tubes run vertically between two tube sheets in a cylindrical shell. The furnace is at the bottom with a firebrick-lined combustion chamber. Footprint: 1-2 m². Used for small steam engines, laundry equipment, and process heating where floor space is limited. Simpler to build than Lancashire but lower capacity.
+
+### Cornish Boiler (Single Fire Tube)
+
+A horizontal shell boiler with a single fire tube (similar to Lancashire but with one tube instead of two). Smaller capacity (2,000-5,000 kg/h). Used for small factories and early railway locomotives. The single fire tube provides less heating surface than the Lancashire but is simpler to construct.
+
+### Scotch Marine Boiler
+
+Shell boiler with multiple small fire tubes (50-200 tubes, 50-75 mm diameter each) running horizontally through a cylindrical shell. Compact and efficient (75-85%). Used extensively in marine applications. Higher heating surface area per unit volume than Lancashire. Wetback design (surrounded by water on all sides including the combustion chamber turnaround) is standard.
+
+### Electric Boiler
+
+For locations with cheap electricity and no fuel supply: resistance heating elements immersed in water produce steam with 98-99% efficiency (no flue gas losses). Maximum practical pressure: ~30 bar. No combustion gases, no chimney, no fuel handling. Limited by electricity availability and cost.
 
 ## Safety
 
 - **Boiler explosion**: The primary lethal hazard. A Lancashire boiler at 10 bar with 8,000 liters of water contains enough stored energy to level a building. Causes: low water (overheated steel loses strength), overpressure (blocked or tampered safety valves), corrosion (thin shell ruptures), stay bolt failure.
 - **Prevention**: Two independent safety valves (never one), daily water gauge verification, annual hydraulic test at 1.5× working pressure, regular internal inspection for corrosion and cracking. Never operate a boiler with known defects. Never tie down or block a safety valve.
 - **Low water**: If water drops below the fire tubes, the uncovered steel overheats, weakens, and the boiler explodes under pressure. If water level is uncertain or dropping, shut down the fire immediately. Do NOT add cold water to an overheated boiler — the thermal shock can cause immediate failure.
-- **Steam burns**: Steam at 10 bar is 180°C and carries 5× more heat energy than water at the same temperature. Insulate all steam pipes and fittings. Never approach a steam leak without full protection.
+- **Steam burns**: Steam at 10 bar is 180°C and carries 5× more heat energy than water at the same temperature. Flash steam causes severe burns within 1 second at contact. Insulate all steam pipes and fittings. Never approach a steam leak without full protection — wear leather gloves and face shield when operating steam valves.
+- **Carbon monoxide**: Coal-fired boilers in enclosed boiler rooms produce CO. Ventilate the boiler room to outside air. Install a CO detector. CO is odorless and lethal at 0.1% (1000 ppm) in air for 1 hour exposure.
+- **Blowdown scalding**: Blowdown water is at or above 100°C. Discharge blowdown through a blowdown tank that cools the water before it enters the drain. Never discharge blowdown directly onto the floor.
 
-## See Also
+## References
 
 - [Steam Power](steam-power.md) — steam power systems overview, operating procedures, and efficiency improvements
 - [Steam Engine](steam-engine.md) — reciprocating engines driven by boiler steam
@@ -163,4 +246,4 @@ The governing relationship is: Steam production (kg/h) = Heat input (kW) × Boil
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Energy](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

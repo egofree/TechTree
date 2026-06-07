@@ -2,10 +2,11 @@
 
 > **Node ID**: metals.specialty-semiconductor
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: `chemistry`, [`gas-handling.vacuum`](../gas-handling/vacuum.md), `metals`, [`metals.refractory-specialty`](refractory-specialty.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`vlsi-scaling.advanced-processes`](../vlsi-scaling/advanced-processes.md)
+> **Dependencies**: [`chemistry`](../chemistry/index.md), [`gas-handling.vacuum`](../gas-handling/vacuum.md), [`metals`](./index.md), [`metals.refractory-specialty`](refractory-specialty.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`vlsi-scaling.advanced-processes`](../vlsi-scaling/advanced-processes.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 40-80
 > **Outputs**: TiN hard masks, Ti diffusion barriers, W contact plugs, Mo gate electrodes, Cu damascene interconnects, Mo/Cu heat sinks
+> **Critical**: Yes — semiconductor interconnect metals (Ti, W, Mo, Cu) are required for all sub-100 nm chip fabrication
 
 
 Four metals — titanium (Ti), tungsten (W), molybdenum (Mo), and copper (Cu) — form the structural and electrical backbone of every GPU interconnect stack. Titanium nitride (TiN) serves as the hard mask for dual damascene patterning and as a secondary diffusion barrier. Tungsten fills contact vias and through-silicon vias (TSVs) by CVD from WF₆. Molybdenum provides gate electrodes at advanced nodes where poly-Si resistance is prohibitive, and Mo/Cu heat sinks extract waste heat from multi-hundred-watt GPU dies. Copper, deposited by electroplating into damascene trenches, carries 10-50 km of wiring per metal layer across 10-15 layers in a modern GPU. Without these four metals, interconnect resistance and RC delay would render any sub-100 nm chip non-functional.
@@ -65,7 +66,7 @@ TiN serves as a diffusion barrier for aluminum interconnects (250 nm node and ab
 **Challenge**: TiO₂ crystallizes at relatively low temperatures (>400°C for rutile), and crystalline TiO₂ has higher leakage than amorphous films. Doping with Al₂O₃ or SiO₂ suppresses crystallization to >700°C, maintaining amorphous structure through BEOL thermal budgets.
 
 
-## Titanium Properties Relevant to Semiconductor Use
+## Tungsten Properties Relevant to Semiconductor Use
 
 | Property | Value | Significance |
 |----------|-------|--------------|
@@ -271,6 +272,34 @@ The dual damascene process is the defining interconnect technology for sub-250 n
 
 **TiCl₄**: Titanium tetrachloride (feedstock for TiO₂ and TiN ALD precursors) is a fuming liquid that reacts violently with water: TiCl₄ + 2H₂O → TiO₂ + 4HCl. The HCl fume cloud from a TiCl₄ spill is immediately dangerous to life. Full acid gas respiratory protection required.
 
+## Selection Guide
+
+**Decision criteria — choosing semiconductor interconnect and barrier metals**:
+- Use **TiN hard mask** for dual damascene dielectric patterning — high etch selectivity (>10:1 vs SiO₂), serves as antireflective coating for lithography
+- Use **TaN/Ta barrier** for Cu damascene interconnects — blocks Cu diffusion into Si and dielectrics, 2-5 nm minimum, amorphous structure preferred
+- Use **W (tungsten) CVD plugs** for contact vias and TSVs — WF₆ + SiH₄ nucleation + H₂ reduction, fills high-aspect-ratio features (8:1+)
+- Use **Mo gate electrodes** at sub-22 nm nodes — replaces poly-Si (too resistive), work function tunable via MoNₓ stoichiometry (4.2-5.0 eV)
+- Use **Cu damascene electroplating** for all interconnect metal — 10-15 layers, 10-50 km wiring per layer, PEG/SPS superconformal fill
+- Use **CoWP self-forming barrier cap** for electromigration resistance — 5-20 nm electroless cap, 10× EM lifetime improvement vs. bare Cu
+
+**Implementation steps for semiconductor metal integration**:
+1. Establish cleanroom and vacuum deposition capability (see [Fab Processes](../photolithography/fab-processes.md))
+2. Install PVD sputtering tools for Ti, Ta, TiN, TaN deposition with Ar/N₂ reactive gas capability
+3. Set up CVD tungsten deposition: WF₆ gas delivery (heated lines, Ni/Monel plumbing), SiH₄ nucleation, H₂ reduction
+4. Install electroplating tools for Cu damascene: PEG suppressor, SPS accelerator, Cl⁻ accelerator, 5-30 mA/cm²
+5. Add CMP capability for W, Cu, and barrier polishing — multi-step platen with slurries tuned per material
+6. Implement reliability testing: bias thermal stress (BTS) for barrier integrity, electromigration (EM) at 105°C, stress migration (SM)
+
+**Semiconductor interconnect metal trade-offs**:
+
+| Metal | Function | Deposition | Key Property | Challenge | Alternative |
+|---|---|---|---|---|---|
+| TiN | Hard mask, ARC | Reactive PVD sputter | Etch selectivity >10:1 vs SiO₂ | Stress management | None (standard) |
+| TaN/Ta | Cu diffusion barrier | Reactive PVD sputter | BTS >60 min at 350°C, 1 MV/cm | Step coverage in high-AR features | TiN (inferior for Cu) |
+| W | Contact plugs, TSVs | CVD (WF₆ + SiH₄/H₂) | Resistivity 5-12 µΩ·cm | Void-free fill in AR >8:1 | Polysilicon (much higher R) |
+| Mo | Gate electrode | ALD (MoCl₅ + H₂) or sputter | Tunable Vfb 4.2-5.0 eV | Contamination (C, Cl) | Poly-Si (too resistive <22 nm) |
+| Cu | Interconnect wiring | Electroplating (damascene) | 1.7 µΩ·cm resistivity | EM, CMP dishing, diffusion | Al (2× higher R) |
+
 ## GPU Critical Path Integration
 
 These four metals converge at specific points in GPU fabrication:
@@ -309,4 +338,4 @@ These four metals converge at specific points in GPU fabrication:
 - [Refractory Metals](refractory-metals.md) — high-melting-point metals for tooling
 - [Aluminum](aluminum.md) — aluminum interconnects and metallization
 
-[← Back to Metals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

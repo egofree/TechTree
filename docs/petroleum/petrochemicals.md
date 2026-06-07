@@ -2,11 +2,30 @@
 
 > **Node ID**: petroleum.petrochemicals
 > **Domain**: [Petroleum Extraction & Refining](./index.md)
-> **Dependencies**: `petroleum`, [`petroleum.refining`](refining.md)
-> **Enables**: `petroleum.petrochemicals.steam-cracking`
+> **Dependencies**: [`petroleum`](./index.md), [`petroleum.refining`](refining.md)
+> **Enables**: [`steam cracking`](petrochemicals.md)
 > **Timeline**: Years 25-50+
 > **Outputs**: ethylene, propylene, butadiene, benzene, toluene, xylene, styrene, ethylene_oxide
 > **Critical**: No — petrochemicals are the cheapest route to organic chemicals but ethanol-to-ethylene and coal tar alternatives exist
+
+## Prerequisites
+
+Petrochemical production requires:
+
+- [Petroleum refining](refining.md) — naphtha, gas oil, and LPG feedstocks from refinery distillation
+- [Chemistry](../chemistry/index.md) — catalysis, thermal cracking, separation processes
+- [Energy](../energy/index.md) — high-temperature furnaces (750-900°C for steam cracking)
+- [Polymers](../polymers/index.md) — downstream polymerization of olefin and aromatic products
+
+## Safety
+
+Petrochemical plants present severe fire, explosion, and toxicity hazards:
+
+- **Ethylene and propylene**: Extremely flammable gases. Ethylene explosive range: 2.7-36% in air. Propylene explosive range: 2.0-11.1%. Storage under pressure or refrigeration. Leak detection systems required — these gases are heavier than air and accumulate at ground level.
+- **Benzene**: Confirmed carcinogen (leukemia). BTX aromatics from catalytic reforming contain 25-40% benzene. TLV: 0.5 ppm (8-hour TWA). Closed transfer systems, vapor recovery, and regular medical monitoring required.
+- **Steam cracking furnaces**: Operate at 750-900°C with hydrocarbon feedstocks. Tube rupture releases burning hydrocarbons. Emergency shutdown systems (ESD) must trip within 1-2 seconds of detected abnormality. Furnace tube metal temperature monitored continuously.
+- **Hydrogen fluoride (HF)**: Used in some alkylation processes. Causes severe chemical burns and systemic fluoride poisoning. Emergency shower and calcium gluconate gel must be within 10 seconds travel distance from any HF exposure point.
+- **Vinyl chloride monomer (VCM)**: Product of ethylene dichloride cracking. Confirmed human carcinogen (liver angiosarcoma). TLV: 1 ppm. Requires closed-loop transfer and leak detection.
 
 ## Why Petrochemicals Matter
 
@@ -257,4 +276,5 @@ The ethanol-to-ethylene route is the most important alternative: fermentation et
 - [Distillation](../chemistry/distillation.md) — fractionation column design fundamentals
 - [Chemistry](../chemistry/index.md) — bulk inorganic chemical production
 
-[← Back to Petroleum Extraction & Refining](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Petroleum Extraction & Refining](./index.md) • [All Domains](../index.md)*

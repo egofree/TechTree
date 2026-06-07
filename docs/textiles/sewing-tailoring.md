@@ -216,6 +216,26 @@ Proper fit requires systematic body measurement and pattern adjustment. A poorly
 - Pincushion: a fabric pad stuffed with wool or hair, holding steel pins (25-35 mm long, 0.5-0.7 mm diameter) for temporary fabric alignment during construction. The wool stuffing keeps pins slightly lubricated and rust-free.
 - Tailor's chalk: flat pieces of chalk (white, blue, or yellow) for marking seam lines, darts, and construction points on fabric. Brushes off easily after sewing. Available in triangular or square shapes; a sharp edge is maintained by breaking off a corner.
 
+## Needle Making Construction Steps
+
+1. Cut low-carbon steel wire to length: 30-70 mm for hand needles, 100-135 mm for machine needles. Use wire of 0.5-1.5 mm diameter depending on target needle size.
+2. Flatten the eye end on an anvil to 0.3 mm thickness, creating a flat section 5-8 mm long. The flat section provides material for punching the eye without weakening the shaft.
+3. Punch the eye with a hardened steel drift punch (0.3-0.8 mm diameter, depending on needle size) driven through the flattened section. Support the blank on a die plate with a matching hole.
+4. Deburr the eye by drawing the needle through a series of progressively smaller steel draw plates (0.5 mm → 0.3 mm → 0.2 mm slots). The eye must be smooth — any burr shreds thread repeatedly during use.
+5. Form the point by grinding on a stone wheel or swaging between shaped dies. Select point profile: sharp (woven fabrics), ball point (knits), or wedge (leather).
+6. Harden by heating to 750-800°C (bright cherry red) and quenching in oil or water. Temper at 300-400°C to reduce brittleness while maintaining Rockwell C 50-55 hardness.
+7. Barrel-polish in a rotating wooden drum with emery powder (60-80 grit) for 8-24 hours for surface smoothness, then with iron oxide (rouge) for final polish and corrosion resistance.
+
+## Calibration and Verification
+
+1. **Needle eye smoothness test**: Thread a 200 mm length of size 50 cotton thread through the needle eye. Draw the thread back and forth through the eye 10 times at moderate tension. Inspect the thread under magnification for fraying, broken filaments, or fuzzing. If any damage is visible, the eye has a burr — re-polish or discard. A properly deburred eye causes zero thread damage after 10 passes.
+
+2. **Machine stitch quality test**: Sew a 300 mm seam on a double layer of standard shirting fabric at the machine's middle speed setting. Measure stitch length at 10 random positions along the seam. Standard deviation of stitch length must be within ±0.5 mm. If variation exceeds this, check feed dog height, timing, and presser foot pressure.
+
+3. **Thread tension balance test**: Sew a seam in two layers of medium-weight fabric. Cut the seam and examine the cross-section under magnification. The interlock between needle thread and bobbin thread should be centered in the fabric thickness. If the interlock is visible on the top surface, reduce needle tension or increase bobbin tension. If visible on the bottom, increase needle tension or reduce bobbin tension.
+
+4. **Seam strength test**: Sew a plain seam in the target fabric with the intended thread and stitch length. Clamp one fabric layer in each jaw of a tensile tester (or hang calibrated weights from one layer). Record the force at which the seam fails. Target: seam strength must be at least 80% of the fabric's grab tensile strength. If below 80%, increase stitch density (stitches per cm), use heavier thread, or switch to a felled seam.
+
 ## Key Deliverables
 
 - Needle manufacturing capability (hand and machine needles)
@@ -241,6 +261,14 @@ Proper fit requires systematic body measurement and pattern adjustment. A poorly
 | Seam pulling apart under load | Stitch type wrong or seam allowance too narrow | Use backstitch or lockstitch for load-bearing seams; increase seam allowance to 15 mm minimum |
 | Fabric stretching during cutting | Not using pattern weights or cutting on bias | Pin pattern to fabric or use weights; cut on grain (parallel to selvage); mark grain line |
 
+## Safety & Hazards
+
+- **Thermal burns from pressing irons**: Flat irons operate at 150-200°C — sufficient for second-degree burns on 1-second contact. Cast iron retains heat for 20-30 minutes after removal from the heat source. Always test iron temperature on a scrap before pressing work fabric. Use a pressing cloth between iron and fabric to prevent scorching. Set hot irons on a heatproof trivet, never directly on the work surface.
+- **Needle heat treatment burns**: Hardening needles requires heating steel to 750-800°C (bright cherry red). Oil quench generates hot splatter. Wear leather gloves and eye protection during heat treatment. Long-handled tongs for holding needle blanks. Quench in a deep metal container to contain splatter.
+- **Needlestick injuries**: Sewing needles are sharp enough to penetrate skin with minimal force. Industrial machines at 3000-5000 SPM drive needles through fabric with sufficient force to break bone. Never place fingers directly in the needle path on a powered machine — use a fabric guide or pointer. Hand sewing: use a thimble on the pushing finger to prevent puncture. Store needles point-down in a pin cushion or needle case, never loose in a work basket.
+- **Industrial machine pinch points**: Rotary hook mechanism at ±0.05 mm tolerance, feed dogs, and belt drives all present severe pinch and entanglement hazards. Guard the belt drive and underside of the machine. Fitted clothing required — no loose sleeves, neckties, or dangling jewelry. Hair tied back and secured under a cap. Emergency stop lever within arm's reach.
+- **Repetitive strain**: Treadle operation and hand sewing involve repetitive foot and wrist motions. Take breaks every 30-60 minutes. Alternate between tasks (cutting, pressing, sewing). Ergonomic setup: machine at elbow height, chair at correct height for treadle reach without overextending the leg.
+
 ## See Also
 
 - [Weaving](weaving.md) — woven cloth production
@@ -250,4 +278,5 @@ Proper fit requires systematic body measurement and pattern adjustment. A poorly
 - [Dyeing](dyeing.md) — colored fabrics for garments
 - [Mining Equipment](../mining/index.md) — sewn products used in mining
 
-[← Back to Textiles](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

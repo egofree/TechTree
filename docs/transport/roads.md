@@ -248,4 +248,6 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 - [Machine Tools](../machine-tools/index.md) — equipment for precision metalwork in bridge construction
 - [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md) — bitumen for asphalt paving
 
-[← Back to Transport](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Transportation & Logistics](./index.md) • [All Domains](../index.md)*

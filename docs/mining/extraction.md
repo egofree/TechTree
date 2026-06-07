@@ -119,7 +119,7 @@
 - **Cribbing**: Square timber frames stacked like a pyramid to support voids and stabilize large openings. Used at shaft stations, junctions, and wide chambers.
 
 **Operational practices**:
-- **Scaling**: After each blast, bar down loose rock from roof and walls before crew re-enters. The single most important safety practice underground.
+- **Scaling**: After each blast, bar down loose rock from roof and walls before crew re-enters. Failure to scale is the leading cause of rock-fall fatalities underground.
  - **Water control**: Grade all tunnels 1-3° toward shaft for gravity drainage. Sumps at shaft bottom. Pump capacity must exceed maximum inflow rate. Monitor water levels in worked-out areas — sudden inrush is a major hazard.
 
 ## Underground Mining Methods
@@ -165,6 +165,88 @@
 - Haul road gradient: <10% (6°). Loaded trucks climb slowly; steeper grades increase fuel consumption, tire wear, and cycle time dramatically. Road width: 3-4× the width of the largest haul truck for two-way traffic.
 - Overall pit slope: 35-55° depending on rock strength and geologic structure. Steeper slopes reduce the amount of waste rock that must be removed but increase the risk of slope failure. Install slope monitoring (prisms surveyed by total station, or crack meters on tension cracks) for pits deeper than 100 m.
 - Stripping ratio: the ratio of waste rock to ore. Economic limit varies by commodity: iron ore mines operate at 1:1 to 3:1, copper mines at 2:1 to 5:1, gold mines may tolerate 5:1 to 10:1 for high-grade ore.
+
+### Open-Pit Mining — Construction Procedure
+
+This procedure describes bench-and-road open-pit development from initial ground breaking through steady-state ore production. Assumes an exposed or near-surface ore body identified by [prospecting](prospecting.md).
+
+**Materials**:
+- [Steel tools](../metals/iron-steel.md): picks, shovels, wedges, 2-4 kg sledgehammers, measuring rods
+- [Draft animals](../animals/draft-power.md) with scraper pans or carts (optional but 10× throughput increase)
+- [Black powder](black-powder.md): 0.5-2 kg per blast hole, 10-50 kg per bench round
+- Timber: 10-20 cm diameter poles for bench face support, 2-4 m length
+- Survey stakes or painted rock markers for bench boundaries
+- Rope or chain, 30-50 m, for distance measurement
+
+**Construction steps**:
+
+1. **Mark the pit perimeter**: Using the ore body boundary from prospecting data, stake the surface outline. Set the pit rim back 5-10 m from the actual ore contact to catch loose material. Mark the haul road entry point at the lowest accessible point on the pit rim.
+
+2. **Remove topsoil and vegetation**: Strip topsoil to a depth of 0.3-1.0 m using shovels and scrapers. Stockpile topsoil separately within 100 m of the pit rim for later reclamation. Remove vegetation by grubbing (dig out roots to 0.3 m depth).
+
+3. **Establish the first bench (overburden bench)**: Excavate the first bench to a height of 5-10 m (or the full depth of overburden, whichever is less). Bench face angle: 60-70° in competent rock, 45-55° in weathered material. Bench width (working surface): minimum 8 m to allow cart passage and material staging.
+
+4. **Construct the haul road**: Build a road from the pit rim to the bench floor. Maximum gradient: 10% (6°). Road width: 3.5-4.0 m for animal-drawn carts (minimum), 6-8 m for truck traffic. Surface with compacted gravel or crushed rock, 100-200 mm thick. Grade the road surface to drain water to the outside (2-3° cross-slope).
+
+5. **Strip overburden to expose ore**: Continue benching downward through overburden. Load waste rock into carts by hand shoveling. Haul to the waste dump (located outside the pit perimeter, at least 30 m from the rim). Track the stripping ratio: if waste-to-ore exceeds 3:1, reassess the pit economics.
+
+6. **Drill blast holes in the ore bench**: When ore is exposed, drill blast holes at 0.8-1.5 m spacing in a staggered grid pattern. Hole diameter: 25-40 mm (hand-drilled jumper drill). Hole depth: 0.8-1.5 m. Angle holes 5-15° from vertical toward the free face to direct the blast energy outward.
+
+7. **Load and fire the blast round**: Fill each hole with 0.5-1.0 kg [black powder](black-powder.md). Insert safety fuse cut to length for a 30-60 second delay. Stem the hole with damp clay (minimum 0.3 m stemming). Connect multiple charges with a single trunk line fuse. Clear all personnel to a minimum 50 m distance. Fire the round.
+
+8. **Muck the broken ore**: After waiting 15-30 minutes for fumes to clear, shovel the blasted ore into carts. Sort visible waste rock from ore on the bench floor — discard waste to the spoil pile. Load ore carts to 200-400 kg capacity.
+
+9. **Haul ore to the processing area**: Transport loaded carts up the haul road to the surface stockpile. Grade the ore by visual inspection: high-grade (visible mineral) goes directly to [processing](processing.md); low-grade goes to a separate stockpile for later sorting.
+
+10. **Scale and support the bench face**: Inspect the new bench face for loose rock. Bar down (pry loose) any unstable material. If the face shows jointing or fractures, install timber props (10-15 cm diameter, 2-4 m length) at 2-3 m spacing along the toe.
+
+11. **Repeat bench advance**: Continue the drill-blast-muck cycle along the bench face. When the current bench is exhausted across the full width, drop to the next bench level and repeat steps 6-10.
+
+**Verification**:
+
+1. Measure bench height with a graduated rod at three points along the face — variation should be within ±1 m of the target.
+2. Check the bench face angle with a plumb line and protractor — must be within 5° of design.
+3. After each blast, estimate broken volume by measuring the muck pile height and footprint area — expected fragmentation is 2-10 m³ per kg of powder.
+4. If fragmentation falls below 1.5 m³/kg, increase hole depth or decrease spacing.
+5. Track daily ore tonnage hauled against the bench advance rate — sustained drop in tonnage per meter of advance indicates the ore body is narrowing or the extraction is entering waste.
+
+### Placer Mining — Sluice Box Procedure
+
+This procedure covers construction and operation of a sluice box for recovering heavy minerals (gold, cassiterite, magnetite) from stream gravel and alluvial deposits.
+
+**Materials**:
+- Timber boards: 2-4 boards, 2.0-2.5 m long × 25-40 cm wide × 2-3 cm thick (for sluice trough)
+- Riffles: 8-12 wooden strips, 2.5 × 2.5 cm cross-section, cut to the inside width of the trough
+- Nails or wooden pegs: 30-50 for securing riffles
+- [Coconut matting or burlap](../textiles/fibers.md): cut to fit sluice bottom, placed under riffles
+- Shovel: standard round-point, steel
+- Bucket or pan: for concentrate cleanup
+
+**Construction steps**:
+
+1. **Select the site**: Choose a section of stream with consistent water flow of 5-20 liters/second and a natural gradient of 3-8°. Clear the stream bed of large boulders (anything >30 cm diameter). Test the gravel by panning 5-10 samples from the stream bed over a 20 m stretch — confirm visible heavy mineral grains before committing to sluice construction.
+
+2. **Build the sluice trough**: Nail or peg the timber boards together to form a trough 2.0-5.0 m long × 30-50 cm wide × 15-20 cm deep. Seal joints with clay or pine pitch to prevent water leakage. The trough should be open at both ends.
+
+3. **Install the riffles**: Nail riffle strips across the bottom of the trough at 10-15 cm spacing, starting 30 cm from the head (input end). Each riffle should be 2.5 cm tall, creating a gap behind it where heavy particles settle. Place coconut matting or burlap on the trough floor before nailing riffles on top — the mat traps fine particles that pass through the riffle gaps.
+
+4. **Set the sluice in the stream**: Position the sluice so water flows through it from end to end. The sluice should sit at a 5-8° angle (approximately 10-15 cm drop per meter of length). Too steep: water velocity carries heavy minerals away. Too flat: material clogs. Wedge rocks under the sluice to secure it against the current.
+
+5. **Feed gravel into the sluice**: Shovel gravel into the head of the sluice at a rate of 2-4 shovels per minute. Break up clay lumps by hand before feeding — clay balls trap gold and roll out the tail end. The water flow carries lighter material (sand, silt, quartz pebbles) through and out the end. Heavy particles sink and trap behind the riffles.
+
+6. **Monitor the flow**: Watch the water flow over the riffles. If water pools behind any riffle, the riffle gap is clogged — stop feeding and clear it. If visible flakes of gold or heavy mineral are washing over the riffles and out the end, reduce the feed rate or decrease the sluice angle by 1-2°.
+
+7. **Clean up the riffles**: After processing 200-500 kg of gravel (approximately 2-4 hours of shoveling), stop feeding. Carefully lift the sluice from the water. Remove riffles one at a time. Wash the matting and riffle surfaces into a bucket or pan — this is the concentrate. Panning the concentrate yields the heavy mineral fraction.
+
+8. **Measure recovery**: Pan the tailings (material that exited the sluice) in a test pan. If visible gold or heavy mineral appears in the tailings, the sluice is losing recoverable material — reduce feed rate, add finer matting, or decrease sluice angle. A well-tuned sluice recovers 80-95% of gold particles >0.5 mm and 50-70% of fine gold (0.1-0.5 mm).
+
+**Verification**:
+
+1. Process a test batch of 50 kg of known-grade gravel (previously panned to determine its gold content).
+2. Run this test batch through the sluice, then pan the tailings.
+3. Compare gold recovered from the sluice concentrate against gold in the tailings.
+4. Recovery rate should exceed 80% for particles >0.5 mm. If recovery is below 70%, adjust the sluice angle, feed rate, or riffle spacing and re-test.
+5. Record results for each sluice configuration to establish the optimal setup for the specific gravel type.
 
 ## Timber Support Systems
 
@@ -219,4 +301,5 @@
 - [Ore Processing](processing.md) — crushing, grinding, and concentration
 - [Drilling](drilling.md) — borehole drilling for exploration and blasting
 
-[← Back to Mining](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining](./index.md) • [All Domains](../index.md)*

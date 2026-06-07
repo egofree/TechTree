@@ -377,6 +377,6 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - [Acids and Bases](../chemistry/acids-bases.md) — sulfuric acid, hydrochloric acid production for pharmaceutical synthesis
 - [Energy](../energy/index.md) — power for autoclaves, centrifuges, microscopes
 
+---
 
-
-[← Back to Health](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Public Health, Sanitation & Medicine](./index.md) • [All Domains](../index.md)*

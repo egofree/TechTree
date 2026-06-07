@@ -251,4 +251,6 @@ Acorns provide exceptional feed value in autumn — white oak acorns contain 6-8
 - [Soil Management](../agriculture/soil-management.md) — turkey manure as fertilizer
 - [Animal Husbandry](animal-husbandry.md) — general livestock management
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals & Animal Husbandry](./index.md) • [All Domains](../index.md)*

@@ -269,6 +269,6 @@ For paper production, movable type, press construction, typesetting, printing in
 - [Education](education.md) — literacy training and knowledge transfer
 - [Chemistry](../chemistry/index.md) — ink formulation, solvent production
 
+---
 
-
-[← Back to Knowledge](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*

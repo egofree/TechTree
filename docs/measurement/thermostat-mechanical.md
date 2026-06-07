@@ -239,6 +239,28 @@ Mechanical thermostats use thermal expansion of metals to actuate switches witho
 - Disc-to-disc variation of ±2-3°C even with careful production
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Single-metal rod thermostat trips at wrong temperature | Set screw shifted or mounting bracket loose | Lock the set screw with its locknut after calibration; verify the mounting bracket is bolted rigidly to a heavy base plate (any frame flexure reads as false temperature change); recalibrate against a reference thermometer |
+| Rod-and-tube assembly binds at high temperature | Sliding fit between rod and tube too tight, or differential thermal expansion exceeds clearance | Increase the rod-to-bore clearance to 0.5 mm for applications above 500°C; ensure the rod surface is polished smooth; apply a thin film of graphite or molybdenum disulfide dry lubricant to the rod (oil-based lubricants carbonize at high temperature) |
+| Bimetallic strip bends erratically | Strips not fully bonded or thickness non-uniform | Check the rivet or braze bond: any visible gap between strips allows independent movement; re-braze or re-rivet. Verify strip thickness is within ±0.02 mm across the width and length — thickness variation causes uneven bending |
+| Bimetallic disc does not snap at rated temperature | Disc geometry wrong (dish depth off by >0.05 mm) or residual stress not relieved | Verify dish depth with a dial indicator. A 0.05 mm error in dish depth shifts the snap temperature by 5-10°C. If the disc was not heat-treated after stamping (350°C for 2 hours), residual stresses cause the trip point to drift during the first few hundred cycles |
+| Contact points arc and burn | Snap-action not working — contacts separate slowly instead of snapping | Add a slight overbend (2-3 mm camber over strip length) to create snap-action. Snap-action separates contacts in <1 ms, extinguishing the arc before it damages the contacts. For severely burned contacts, dress with a fine file and re-adjust the gap |
+| Calibration drifts after months of cycling | Bimetallic bond fatigue or spring relaxation | Replace the bimetallic strip (brass-steel bonds degrade after ~1 million cycles at high temperature). Check the return spring: springs that have been cycled past their elastic limit will not return the strip fully, changing the trip point |
+| Thermostat chatters (rapid cycling) | Deadband too narrow for the application | Widen the deadband by increasing the snap-action camber (bimetallic strip) or increasing the contact gap (rod types). For heating applications, 3-5°C deadband prevents rapid cycling. For safety cutoffs, tight deadband (1-2°C) is acceptable since the device trips infrequently |
+| Contacts stick closed (welded) | Inrush current exceeded contact rating | Check that the heater inrush current (typically 5-10× steady-state for resistive heaters) does not exceed the contact rating. Add a pre-charge resistor or use contacts rated for at least 3× the steady-state current. Silver contacts weld less than copper |
+
+## Safety & Hazards
+
+- **Contact arcing fire risk**: Thermostat contacts switching inductive loads or high-current resistive loads can sustain an arc that ignites nearby combustible material. Enclose contact mechanisms in a non-combustible housing (ceramic, steel, or phenolic). Do not use wooden or plastic enclosures for thermostats switching more than 5 A. Keep flammable materials at least 150 mm from open-contact thermostats.
+- **Spring energy**: Bimetallic snap-action discs and the return springs in rod-and-tube thermostats store mechanical energy. A disc snapping unexpectedly can eject small components. Wear safety glasses when assembling and adjusting snap-action mechanisms. Point the disc away from your face during calibration.
+- **Thermal burns during calibration**: Calibration involves heating the thermostat to its trip temperature, which may exceed 300°C. Use tongs or heat-resistant gloves to handle hot thermostats. Allow adequate cooling time before handling with bare hands. A 300°C metal component causes a deep burn on contact in less than 1 second.
+- **Metal fume exposure**: Brazing bimetallic strips (silver solder at 620°C) produces metal oxide fumes. Cadmium-bearing silver solders (still found in older stock) produce cadmium oxide fume, which is extremely toxic. Use cadmium-free silver solder only. Braze under local exhaust ventilation or in a well-ventilated area.
+- **Lead exposure**: Some bimetallic strip alloys and solder types contain lead. Handle with gloves. Wash hands before eating. Do not sand or grind lead-containing alloys without respiratory protection (P100 respirator).
+
+
 ---
 
 *Part of [Thermostats & Temperature Control](./thermostat.md) • [Measurement](./index.md) • [All Domains](../index.md)*

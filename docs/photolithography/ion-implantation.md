@@ -369,7 +369,7 @@ Wafer charging during high-current implantation requires active charge neutraliz
 - [Vacuum Technology](../vacuum/index.md) — vacuum systems for beamline and end station
 - [Gas Handling](../gas-handling/index.md) — toxic gas delivery infrastructure
 - [Electricity Generation & Distribution](../energy/electricity.md) — high-voltage power supply requirements
-- [Vacuum Chambers & Sealing](chambers.md) — chamber construction
+- [Vacuum Chambers & Sealing](../vacuum/chambers.md) — chamber construction
 - [CVD](cvd.md) — complementary deposition process
 - [PVD](pvd.md) — complementary deposition process
 

@@ -84,6 +84,36 @@ The rate of penetration (ROP) is the primary measure of drilling efficiency, typ
 | Rate of penetration (ROP) | 10-100 m/day | Function of WOB, RPM, bit condition, and formation hardness |
 | Bit nozzle velocity | 200-400 ft/sec | Hydraulic horsepower at the bit for cleaning and cooling |
 
+### Casing Program Dimensions
+
+A typical well uses three to five concentric casing strings, each cemented in place to isolate formations. The hole diameter steps down with each string.
+
+| Casing String | Hole Diameter | Casing OD | Setting Depth | Purpose |
+|---------------|--------------|-----------|---------------|---------|
+| Conductor | 26-36 inch | 20-30 inch | 10-30 m | Stabilize surface soil, start mud circulation |
+| Surface | 17.5 inch | 13.375 inch | 100-500 m | Protect freshwater aquifers, provide structural base |
+| Intermediate | 12.25 inch | 9.625 inch | 500-3,000 m | Isolate problem zones (high pressure, reactive shale) |
+| Production | 8.5 inch | 4.5-7 inch | To target depth | Final conduit to producing formation |
+| Liner (optional) | 6.0 inch | 4.5 inch | Deep or horizontal section | Save casing cost by hanging inside intermediate |
+
+The production casing must be large enough to accommodate the tubing, packer, and downhole equipment that will be installed during well completion. For a well producing 100-500 barrels per day, 4.5-inch production casing with 2.875-inch tubing is typical. High-rate wells may use 7-inch production casing with 4.5-inch tubing.
+
+### Drilling Mud Specifications
+
+Mud properties are tested every 15-30 minutes while drilling. The mud engineer adjusts weight, viscosity, and chemistry to match the formation being drilled.
+
+| Property | Typical Range | Measurement Method |
+|----------|--------------|-------------------|
+| Mud weight | 8.5-18 ppg (1.02-2.16 SG) | Mud balance (beam scale) |
+| Funnel viscosity | 40-60 sec/qt | Marsh funnel |
+| Plastic viscosity | 10-30 cP | Rotational viscometer at 600/300 RPM |
+| Yield point | 5-25 lb/100 ft² | Calculated from viscometer readings |
+| Fluid loss (API) | 5-15 mL/30 min | Filter press at 100 psi |
+| pH | 9.5-11.0 | pH paper or meter |
+| Chloride content | Variable | Silver nitrate titration |
+
+Mud weight is the primary well control parameter. Normal formation pressure gradient is roughly 0.465 psi/ft (equivalent to 8.95 ppg mud). Abnormally pressured formations may require mud weights of 14-18 ppg. Exceeding the formation fracture gradient by too much mud weight causes lost circulation, where whole mud flows into the formation instead of returning up the annulus. This is one of the most costly drilling problems: the mud is expensive, and lost returns mean the well is uncontrolled until the zone is isolated.
+
 Drill bit selection depends on the formation being penetrated. Roller cone bits with tungsten carbide inserts handle soft to medium formations. PDC bits with synthetic diamond cutters provide faster penetration in medium to hard formations. PDC bits have no moving parts, reducing failure risk, but are more expensive and can be damaged by hitting abrasive or bouncy formations. Bit performance is tracked by measuring feet drilled per hour and cost per foot drilled.
 
 ## Safety Considerations
@@ -91,7 +121,9 @@ Drill bit selection depends on the formation being penetrated. Roller cone bits 
 - **Blowout**: Uncontrolled flow of formation fluids to surface is the catastrophic failure mode. The BOP stack provides multiple redundant barriers: pipe rams grip the drill pipe, blind rams seal the open hole, and shear rams cut the pipe to seal the well. Regular BOP testing (weekly ram function tests, accumulator pressure checks) and crew well control drills are mandatory.
 - **Rotating equipment entanglement**: The rotating drill string, kelly, and rotary table create entanglement hazards. Loose clothing, lanyards, or tools caught in the rotating equipment cause severe injuries. No loose clothing or dangling items are permitted on the rig floor.
 - **Pipe handling**: Drill pipe joints weigh 25-40 kg/m. Handling during tripping (running or pulling the string) involves heavy loads suspended from the traveling block. Dropped pipe, stabbing injuries, and pinch points between the pipe and rotary table cause the majority of rig floor injuries.
-- **H₂S exposure**: Drilling through sour formations releases hydrogen sulfide, lethal above 100 ppm. Personal H₂S monitors, SCBA staged at the rig floor, and automatic mud gas detectors are mandatory in sour gas areas.
+- **H₂S exposure**: Drilling through sour formations releases hydrogen sulfide. The occupational exposure limits are strict: OSHA PEL is 20 ppm ceiling, with 50 ppm peak allowed for 10 minutes per 8-hour shift. NIOSH recommended limit is 10 ppm TWA. The IDLH concentration is 100 ppm, where olfactory fatigue sets in and the rotten-egg odor disappears, removing the natural warning sign. Above 300 ppm, pulmonary edema risk rises sharply. Above 700 ppm, rapid unconsciousness occurs within breaths. Personal H₂S monitors clipped at the collar alert at 10 ppm (warning) and 15 ppm (alarm). SCBA staged at the rig floor, and automatic mud gas detectors are mandatory in sour gas areas. H₂S is heavier than air (density 1.36× air) and accumulates in the cellar, mud pits, and any low ground around the rig.
+- **Benzene exposure**: Crude oil vapors at the wellhead and shale shaker contain benzene, a confirmed carcinogen. OSHA PEL is 1 ppm TWA, 5 ppm STEL. Minimize time spent standing over the shale shaker or near open mud returns. Use enclosed shale shaker cabinets where available. Respiratory protection (organic vapor cartridge) is required when sampling crude at the wellhead.
+- **Fire and explosion prevention**: The BOP stack is the primary barrier between the well and the surface environment. If the BOP fails to seal, formation fluids reach the rig floor where diesel engines, electrical equipment, and static discharge provide ignition sources. Keep the rig floor clear of spilled oil and fuel. Bond and ground all metal connections during casing running operations to prevent static buildup. The mud gas separator (poor boy degasser) must be vented to a safe location at least 30 m from the rig floor and ignition sources.
 
 ### Personal Protective Equipment
 
@@ -154,6 +186,10 @@ Casing and cementing programs protect groundwater aquifers and isolate different
 | Cement channeling (poor bond) | Mud not fully displaced by cement, or casing not centralized | Increase centralizer density on the casing string; improve mud conditioning before cementing; use cement with better displacement properties |
 | Twist-off (drill pipe separation) | Fatigue failure at the tool joint from cyclic bending stress while rotating under high WOB in a crooked hole | Reduce WOB; use higher-grade drill pipe; inspect pipe regularly with magnetic particle inspection; fish the lower string with an overshot |
 | Shale instability (hole enlargement) | Reactive clay formations swelling on contact with water-based mud | Switch to oil-based or synthetic-based mud; add shale inhibitor chemicals to water-based mud; increase mud weight to stabilize the wellbore mechanically |
+| Drill pipe washout (hole in pipe wall) | Erosion from abrasive mud at high velocity through thin-walled sections | Monitor pump pressure for sudden drop (signature of washout); pull string and inspect; replace suspect joints; reduce pump rate if cuttings load in the mud is high |
+| Bit balling (clay sticking to bit) | Sticky clay formations adhering to bit cutters and plugging nozzles | Increase bit nozzle velocity; add detergent or lubricant to mud; reduce WOB to let hydraulics clean the bit; switch to PDC bit with better anti-balling design |
+| Casing wear from drill string rotation | Drill pipe rubbing against intermediate casing in deviated or crooked holes | Install casing wear protectors (rubber or aluminum sleeves) on the drill pipe at the wear zone; reduce rotary speed; add lubricant to mud; monitor casing wall thickness with caliper logs |
+| Gas cutting of mud (reduced mud weight at surface) | Formation gas entering the annulus and expanding as it rises, reducing mud density | Do not reduce mud weight based on gas-cut surface density; calculate bottomhole equivalent density instead; increase mud weight if the bottomhole equivalent density is insufficient; check for kick indicators (pit gain, flow check) |
 
 The kelly, a square or hexagonal steel bar, transmits rotary motion from the rotary table to the drill string while allowing the string to slide downward as the bit penetrates. The kelly passes through a bushing in the rotary table; as the table rotates, it drives the kelly, which drives the entire drill string. Modern rigs increasingly use top drives instead, where a motor mounted on the traveling block rotates the drill string directly, providing better control and the ability to circulate mud while tripping pipe.
 

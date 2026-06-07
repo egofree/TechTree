@@ -2,8 +2,8 @@
 
 > **Node ID**: machine-tools.joining.tig-welding
 > **Domain**: [Machine-Tools](./index.md)
-> **Dependencies**: [`Vacuum Chambers & Sealing`](chambers.md)
-> **Enables**: [`Air Separation & Bulk Gas Production`](air-separation.md), [`Electricity Generation & Distribution`](electricity.md), [`Metal Joining`](joining.md)
+> **Dependencies**: [`Vacuum Chambers & Sealing`](../vacuum/chambers.md)
+> **Enables**: [`Air Separation & Bulk Gas Production`](../chemistry/air-separation.md), [`Electricity Generation & Distribution`](../energy/electricity.md), [`Metal Joining`](joining.md)
 > **Timeline**: Years 20-50
 > **Outputs**: tig_welds, orbital_welds, hermetic_seals
 > **Critical**: No
@@ -37,7 +37,7 @@ TIG welding is the preferred process for welding thin-wall tubing and sheet meta
 
 ### Equipment
 
-- [Vacuum Chambers & Sealing](chambers.md) — tool dependency
+- [Vacuum Chambers & Sealing](../vacuum/chambers.md) — tool dependency
 - TIG welding power supply (constant current, with AC/DC capability for aluminum work)
 - TIG torch with gas lens, ceramic cup, collet, and collet body
 - Orbital welding head for tube joints (optional, for production tube welding)
@@ -89,6 +89,33 @@ Tungsten electrode preparation directly affects arc starting reliability, arc st
 | Tungsten Diameter | 1.0-4.0 mm | Match to current range; 1.6 mm for under 100A, 2.4 mm for 100-200A |
 | Shielding Gas Flow | 8-20 L/min | Argon 8-15; helium 12-20; higher for titanium trailing shield |
 | Cup Size | #4-#10 | Larger for reactive metals needing extended coverage |
+
+### Recommended Parameters by Material and Thickness
+
+| Material | Thickness (mm) | Current (A) | Tungsten | Filler Rod | Gas | Cup Size | Key Notes |
+|----------|---------------|-------------|----------|------------|-----|----------|-----------|
+| Mild steel | 1 | 60-90 | 1.6 mm, DCEN | ER70S-2, 1.6 mm | Ar, 8-10 L/min | #5-6 | No back purge needed |
+| Mild steel | 3 | 100-140 | 2.4 mm, DCEN | ER70S-2, 2.4 mm | Ar, 10-12 L/min | #6-7 | Clean to bright metal |
+| Mild steel | 6 | 140-180 | 2.4 mm, DCEN | ER70S-2, 2.4 mm | Ar, 12-15 L/min | #6-8 | Multi-pass V-groove |
+| Stainless 304 | 1 | 50-80 | 1.6 mm, DCEN | ER308L, 1.6 mm | Ar, 10-12 L/min | #6-7 | Back purge O₂ <0.1% |
+| Stainless 304 | 3 | 90-130 | 2.4 mm, DCEN | ER308L, 2.4 mm | Ar, 12-15 L/min | #7-8 | Back purge mandatory |
+| Stainless 304 | 6 | 130-170 | 2.4 mm, DCEN | ER308L, 2.4 mm | Ar, 15-18 L/min | #8 | Back purge, no discoloration |
+| Aluminum 6061 | 1.5 | 80-120 | 2.4 mm, AC | ER4043, 1.6 mm | Ar, 12-15 L/min | #6-7 | AC balance 65-70% EN |
+| Aluminum 6061 | 3 | 120-170 | 2.4 mm, AC | ER4043, 2.4 mm | Ar, 15-18 L/min | #7-8 | AC balance 65% EN |
+| Aluminum 6061 | 6 | 170-220 | 3.2 mm, AC | ER4043, 3.2 mm | Ar, 18-20 L/min | #8-10 | AC freq 120-200 Hz |
+| Titanium Gr2 | 1.5 | 70-100 | 2.4 mm, DCEN | ERTi-2, 1.6 mm | Ar, 15-20 L/min + trailing | #8-10 | Trailing shield essential |
+| Titanium Gr2 | 3 | 100-140 | 2.4 mm, DCEN | ERTi-2, 2.4 mm | Ar, 20-25 L/min + trailing | #8-10 | Shield until <400°C |
+| Copper C110 | 3 | 150-220 | 3.2 mm, DCEN | ERCu, 2.4 mm | He, 15-20 L/min | #8 | Helium for deeper penetration |
+| Inconel 625 | 3 | 90-130 | 2.4 mm, DCEN | ERNiCrMo-3, 2.4 mm | Ar, 12-15 L/min | #7-8 | Low interpass temp (<175°C) |
+
+### Tungsten Electrode Selection
+
+| Type | Color Code | Composition | Best For | Current Range (A, DCEN) | Tip Shape |
+|------|-----------|-------------|----------|------------------------|-----------|
+| 2% Thoriated | Red | W + 2% ThO₂ | Carbon steel, stainless steel | 1.6 mm: 60-150; 2.4 mm: 130-300 | Sharp point |
+| 2% Ceriated | Gray | W + 2% CeO₂ | AC/DC universal, low amperage | 1.6 mm: 50-130; 2.4 mm: 100-250 | Sharp point (DC), balled (AC) |
+| 1.5% Lanthanated | Gold | W + 1.5% La₂O₃ | AC/DC universal, long life | 1.6 mm: 50-150; 2.4 mm: 120-280 | Sharp point (DC), balled (AC) |
+| Pure tungsten | Green | 100% W | AC aluminum (balls naturally) | 2.4 mm: 80-200 | Balled tip |
 
 Pulsed TIG welding alternates between a high peak current that penetrates and a low background current that maintains the arc without excessive heat input. This pulsing action constricts the arc and increases penetration at lower average current, making it possible to weld thin materials with less distortion and to achieve full penetration on root passes without excessive melt-through. The pulse frequency and duty cycle are adjustable parameters that allow fine-tuning for specific joint geometries and material thicknesses.
 
@@ -159,12 +186,16 @@ Shielding gas coverage must extend beyond the immediate weld area for reactive m
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Tungsten inclusion in weld | Electrode touched the weld pool or filler rod contacted tungsten | Maintain 1-3 mm arc length; keep filler rod angled away from tungsten; replace contaminated electrode immediately |
-| Arc wander (unstable arc) | Contaminated or improperly ground electrode | Re-grind electrode tip parallel to length; clean with solvent; check for thorium depletion (replace electrode) |
-| Oxidation on root side of tube weld | Missing or insufficient back purge | Verify argon back purge flow; use purge monitor to confirm O₂ below 0.1%; extend purge time before welding |
-| Porosity | Contaminated filler rod or base metal, or gas coverage failure | Clean filler rod and base metal with solvent; check gas flow and cup size; verify gas lens is clean |
-| Lack of fusion at weld toes | Insufficient current or too-fast travel | Increase current; slow travel speed; pause briefly at weld toes to ensure fusion |
-| Cracking (stainless steel) | High restraint, incorrect filler selection, or insufficient ferrite | Select filler with higher ferrite content (ER312 for dissimilar joints); reduce restraint; preheat thick sections |
+| Tungsten inclusion in weld | Electrode touched the weld pool or filler rod contacted tungsten | Maintain 1-3 mm arc length; keep filler rod angled away from tungsten at 10-15°; replace contaminated electrode immediately (grind fresh tip on dedicated wheel) |
+| Arc wander (unstable arc) | Contaminated or improperly ground electrode | Re-grind electrode tip parallel to length at 15-30° taper; clean with acetone; check for thorium depletion (replace electrode if tip is pitted or eroded) |
+| Oxidation on root side of tube weld | Missing or insufficient back purge | Verify argon back purge flow at 5-10 L/min; use purge monitor to confirm O₂ below 0.1%; extend purge time to 3-5 minutes before starting weld |
+| Porosity | Contaminated filler rod or base metal, or gas coverage failure | Clean filler rod and base metal with acetone; check gas flow (8-15 L/min for argon); verify gas lens is clean; replace clogged gas lens |
+| Lack of fusion at weld toes | Insufficient current or too-fast travel | Increase current by 10-15A; slow travel speed; pause briefly (0.5-1.0 s) at weld toes to ensure fusion; verify torch angle is 10-15° push |
+| Cracking (stainless steel) | High restraint, incorrect filler selection, or insufficient ferrite | Select filler with higher ferrite content (ER312 for dissimilar joints; target 3-8 FN ferrite number); reduce restraint with fixturing; preheat thick sections to 100-150°C |
+| Discoloration on stainless or titanium | Loss of gas shielding during or after welding | Increase cup size to #8-#10; use gas lens for extended coverage; continue post-flow gas for 8-15 seconds after arc extinguishes; for titanium, add trailing shield 50-75 mm behind the torch |
+| Aluminum weld looks dirty/black | Insufficient cleaning action (AC balance too far toward EN) | Adjust AC balance to 60-65% EN (more cleaning) for oxidized material; clean base metal with stainless wire brush immediately before welding; increase AC frequency to 120-200 Hz for narrower cleaning zone |
+| Tungsten eroding rapidly | Excessive current for tungsten diameter, or wrong polarity | Match tungsten size to current: 1.6 mm for <150A, 2.4 mm for 130-280A, 3.2 mm for 250-400A; verify DCEN for steel/titanium (not DCEP, which overheats tungsten) |
+| Arc difficult to start | Tungsten tip contaminated or too blunt, or HF start malfunction | Re-grind tungsten to sharp point; verify HF start unit is functioning (audible tick when trigger pulled); clean workpiece surface to ensure good ground contact |
 
 ## Variations and Alternatives
 
@@ -178,9 +209,9 @@ For semiconductor-grade piping systems, TIG welding is the only acceptable joini
 
 - [Metal Joining](joining.md) — parent capability
 - [Machine-Tools Domain](./index.md) — domain overview and related capabilities
-- [Vacuum Chambers & Sealing](chambers.md) — upstream dependency (tool)
-- [Air Separation & Bulk Gas Production](air-separation.md) — downstream capability
-- [Electricity Generation & Distribution](electricity.md) — downstream capability
+- [Vacuum Chambers & Sealing](../vacuum/chambers.md) — upstream dependency (tool)
+- [Air Separation & Bulk Gas Production](../chemistry/air-separation.md) — downstream capability
+- [Electricity Generation & Distribution](../energy/electricity.md) — downstream capability
 - [Metal Joining](joining.md) — downstream capability
 
 ### Material Handling

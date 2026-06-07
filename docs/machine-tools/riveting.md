@@ -7,14 +7,21 @@
 > **Outputs**: riveted_joints
 > **Critical**: No — mechanical joining with permanent fasteners
 
-
 Riveting is mechanical joining with no heat applied to the joint itself. Rivets are installed hot or cold through holes in overlapping plates, then the second head is formed by hammering. Riveted joints dominated structural steel construction (bridges, ships, boilers) from ~1840 until arc welding replaced them after ~1940. For welding processes, see [Welding](./welding.md). For filler alloy joining, see [Brazing & Soldering](./brazing-soldering.md). For the parent overview, see [Metal Joining](./joining.md).
+
+## Why Riveting Works
+
+Hot riveting exploits thermal contraction. The rivet, heated to bright red (900-1000°C), is inserted through aligned holes and hammered to form the second head while still plastic. As the rivet cools to ambient temperature, it shrinks by the thermal expansion coefficient of steel (12 × 10⁻⁶ /°C) over a temperature drop of ~880°C. For a 20 mm diameter rivet with a grip length of 30 mm, this contraction generates a clamping force of 20-50 kN, pulling the plates into intimate contact.
+
+This contraction-induced preload is why hot riveted joints are both leak-tight and resistant to vibration loosening. The clamping force from a single 20 mm rivet is equivalent to tightening a 20 mm bolt to roughly 60-70% of its proof load. Unlike bolts, which can loosen under cyclic vibration as the nut backs off, a rivet has no thread to unwind. The preload can only relax if the rivet yields in tension, which requires a force exceeding the rivet material's yield strength applied perpendicular to the joint plane.
+
+The reason rivets were replaced by welding is not that riveted joints are weaker. A well-designed double-riveted double-cover butt joint achieves 80-95% of the solid plate strength, comparable to a full-penetration weld. Riveting lost to welding because it is far more labor-intensive: each rivet requires two workers (one hammering, one holding the dolly), preheating, and rapid driving before the rivet cools. Arc welding allows a single operator to join continuously at higher speed with less labor.
 
 ## Rivet Types and Materials
 
 - **Material**: Wrought iron or mild steel rivets (matching the structure being joined). Copper rivets for copper structures. For boilers and pressure vessels, steel rivets of known composition.
 - **Sizes**: Shank diameter 6-25 mm for structural work. Length = grip thickness (total plate thickness) + 1.5× shank diameter (to form the second head).
-- **Hot riveting**: Heat rivet to bright red (~900-1000°C). Insert into hole. Hold manufactured head with a dolly (heavy steel bar held by helper). Hammer the protruding shank to form the second head (use a snap — a shaped tool that forms a hemispherical head). As the rivet cools, it contracts, clamping the plates together with enormous force. This contraction-induced clamping is the key advantage of hot riveting — produces a preload that makes the joint leak-tight and resistant to vibration loosening.
+- **Hot riveting**: Heat rivet to bright red (~900-1000°C). Insert into hole. Hold manufactured head with a dolly (heavy steel bar held by helper). Hammer the protruding shank to form the second head (use a snap — a shaped tool that forms a hemispherical head). As the rivet cools, it contracts, clamping the plates together with enormous force. This contraction-induced clamping is the key advantage of hot riveting.
 - **Cold riveting**: Drive rivet at room temperature with hammer or hydraulic riveter. No contraction clamping. Weaker joint. Used for small rivets (<10 mm) and non-critical applications. Aluminum and copper rivets are typically driven cold.
 
 ## Construction Steps for a Hot-Riveted Structural Joint
@@ -46,20 +53,78 @@ Riveting is mechanical joining with no heat applied to the joint itself. Rivets 
 
 ## Joint Configurations
 
-- **Lap joint**: Two plates overlap, single row of rivets through both. Simplest. Used for thin sheet and non-structural work.
+- **Lap joint**: Two plates overlap, single row of rivets through both. Simplest. Used for thin sheet and non-critical work.
 - **Butt joint with cover plates**: Two plates butted edge-to-edge, with a cover plate (gusset) on one or both sides, riveted through. Double-cover butt joint is the strongest riveted configuration — used for bridge chords and boiler seams.
 - **Rivet patterns**: Chain riveting (rivets in straight lines), zig-zag riveting (staggered — stronger, less tendency to tear along a line of holes). Pitch (rivet spacing): typically 3-5× rivet diameter. Edge distance: minimum 1.5× rivet diameter from center of hole to plate edge.
 - **Boiler joints**: Longitudinal seams use double-riveted double-cover butt joints. Circumferential seams use single-riveted lap joints (lower stress on circumferential seam — hoop stress is double longitudinal stress, so the longitudinal seam must be stronger).
+
+### Joint Efficiency by Configuration
+
+| Configuration | Efficiency | Application |
+|---------------|-----------|-------------|
+| Single-riveted lap | 55-60% | Thin sheet, tanks, ducts |
+| Double-riveted lap | 65-75% | Medium-load structural joints |
+| Single-riveted butt with single cover | 60-70% | Medium-pressure vessels |
+| Double-riveted double-cover butt | 80-95% | Bridge chords, boiler longitudinal seams |
+| Triple-riveted double-cover butt | 85-95% | Highest-efficiency riveted joint |
+
+Efficiency is the ratio of joint strength to solid plate strength. The remaining 5-20% weakness comes from the holes reducing the plate cross-section and the shear/bearing failure modes of the rivets themselves.
+
+### Minimum Dimensions by Rivet Size
+
+| Rivet Diameter | Min. Edge Distance | Min. Pitch | Hole Diameter | Preload (hot) |
+|---------------|-------------------|------------|---------------|----------------|
+| 10 mm | 15 mm | 30-50 mm | 11.0-11.5 mm | 5-12 kN |
+| 13 mm | 20 mm | 40-65 mm | 14.0-14.5 mm | 8-20 kN |
+| 16 mm | 24 mm | 48-80 mm | 17.0-17.5 mm | 12-30 kN |
+| 20 mm | 30 mm | 60-100 mm | 21.0-21.5 mm | 20-50 kN |
+| 25 mm | 38 mm | 75-125 mm | 26.0-26.5 mm | 30-75 kN |
+
+## Safety Considerations
+
+Riveting involves hot metal, heavy tools, and overhead work. The combination creates hazards specific to the riveting process that differ from other joining methods.
+
+- **Burns from hot rivets**: Rivets heated to 900-1000°C cause immediate deep burns on skin contact. The rivet remains above 500°C for 20-30 seconds after removal from the forge, which is still hot enough for second-degree burns. Use tongs for all handling. The dolly holder's hands are 200-300 mm from the hot rivet head — leather gloves are mandatory.
+- **Hammer injuries**: Missed strikes with the 2-4 kg riveting hammer cause hand and finger fractures. The dolly (5-10 kg steel bar) can slip and strike the helper's hands or feet. Both workers need leather gloves with reinforced palms. Strike accuracy matters: a glancing blow sends the snap tool spinning.
+- **Eye injury from rivet fragments**: When a rivet snap tool slips off the partially formed head, the hammer strikes bare steel, producing sharp metal fragments. Safety glasses with side shields are mandatory. During head formation, small sparks and scale flakes eject from the joint zone.
+- **Overhead rivet hazard**: In ship and bridge construction, rivets are often driven overhead. A dropped hot rivet (even a 10 mm rivet weighs 10-15 g at 900°C) causes serious burns on the face, neck, and shoulders of workers below. Cotton or wool clothing (not synthetic, which melts) and a cloth cap under the hard hat provide protection. Rivet catchers (canvas funnels at the hole) prevent dropped rivets from falling through.
+- **Noise exposure**: Hammering on steel produces impulse noise levels of 110-120 dB. A full day of structural riveting causes permanent hearing damage without protection. Earplugs or earmuffs are mandatory. The ringing sound used to test rivet tightness (200 g hammer tap) is also the sound that damages hearing during the driving operation.
+- **Crush injuries from plate alignment**: Drift pins are driven into holes to align heavy steel plates. If the plates shift during alignment, fingers caught between plates are crushed or severed. Never place hands between plates being aligned. Use drift pins and clamps, not fingers, to position plates.
+
+### Personal Protective Equipment
+
+- Safety glasses with side shields at all times during riveting operations
+- Leather gloves with reinforced palms for both hammer operator and dolly holder
+- Long-sleeved cotton or wool shirt (no synthetic fabrics that melt onto skin)
+- Hard hat with cloth cap liner for overhead riveting work
+- Steel-toe boots for handling heavy plates, dolleys, and rivets
+- Hearing protection (earplugs or earmuffs) during hammering operations
+- Leather apron when heating rivets in the forge
+
+### Emergency Procedures
+
+- Keep a bucket of cold water within arm's reach for immediate cooling of burns from hot rivets
+- Post a first aid station with burn treatment supplies at every riveting location
+- Train both workers in the riveting pair on communication: the hammer operator must be able to see and hear the dolly holder at all times. Stop immediately if visual contact is lost.
+- Establish a "heads up" call system when riveting overhead: the person inserting the rivet calls "heads up" before pushing it through, and workers below clear the area.
+- Keep fire watch for 30 minutes after riveting near combustible materials (timber scaffolding, roofing) — scale and sparks from the forge can smolder.
 
 ## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
 | Hot-driven rivet loose (dull thud on 200 g hammer tap test) | Rivet cooled below 500°C before second head fully formed, or drift pin misalignment left gap >0.3 mm between plates | Drive rivet faster (2-4 blows before cooling below 500°C); heat rivet to bright red 900-1000°C; verify plates in full contact with feeler gauges before driving; re-heat and re-drive loose rivets after removal |
+| Rivet head not fully formed (flat or asymmetrical) | Insufficient blows, wrong snap tool size, or rivet cooled too fast | Use correct snap tool for rivet diameter; apply 3-5 firm blows within 10 seconds of insertion; preheat snap tool to reduce heat extraction from rivet |
+| Plates not in contact (gap >0.3 mm measured with feeler gauge) | Drift pins misaligned, plate surfaces not clean, or bolts not tightened before riveting | Clean plate surfaces of scale and paint; bolt plates together tightly before riveting; verify alignment with straightedge and feeler gauges |
+| Rivet hole elongation or tearing at plate edge | Edge distance too small (<1.5× rivet diameter) or rivet pitch too close | Maintain minimum edge distance of 1.5× rivet diameter from hole center to plate edge; maintain pitch of 3-5× rivet diameter |
+| Rivet head cracking after driving | Rivet material too hard (high carbon content >0.25%) or quenched by cold plates | Use mild steel rivets (0.1-0.2% C); preheat plates in cold weather below 5°C to prevent rapid quenching of rivet; do not drive rivets when ambient temperature is below -5°C |
+| Shearing of rivets in service | Joint overloaded or rivet diameter too small for the applied shear force | Calculate required rivet count: shear force per rivet = total joint force / number of rivets; must be below 80-150 MPa shear stress depending on rivet material |
+| Corrosion around rivet heads | Moisture ingress between plates (no sealant) or dissimilar metal contact | Apply red lead or tar between plates during assembly; use matching rivet and plate materials; inspect and paint riveted joints regularly |
+| Rivet spinning in hole (head turns when tapped) | Hole too large (>1.5 mm oversize) or rivet too short for the grip | Use correct hole diameter (rivet diameter + 1.0-1.5 mm); select rivet length = grip + 1.5× diameter; ream oversize holes and use larger rivets if needed |
 
 ## Cross-References
 
-- [Welding](./welding.md) — fusion and solid-state welding processes
+- [Welding](./welding.md) — fusion and solid-state welding processes that replaced riveting
 - [Brazing & Soldering](./brazing-soldering.md) — filler alloy joining methods
 - [Metal Joining](./joining.md) — parent overview of all joining methods
 - [Iron & Steel](../metals/iron-steel.md) — rivet materials

@@ -220,6 +220,81 @@ For short-range, ultra-high-resolution position measurement (alternative to enco
 - **Bandwidth**: 1-100 kHz — very fast response.
 - **Application**: Fine stage Z-axis (focus), gap measurement, spindle runout monitoring, AFM feedback. Complementary to long-range encoders.
 
+## Bearing Specifications for Precision Motion
+
+The positioning accuracy of any stage is fundamentally limited by its bearings. Bearings determine friction, stiffness, runout, and thermal stability. The choice of bearing type constrains what encoder resolution can actually be used.
+
+### Bearing Type Comparison
+
+| Bearing Type | Friction | Stiffness | Runout | Backlash | Speed | Load Capacity | Life | Application |
+|-------------|----------|-----------|--------|----------|-------|--------------|------|-------------|
+| Ball bearing (precision) | Low | Moderate | 0.5-2 μm | 1-5 μm | High | High | Long | CNC axes, general precision |
+| Angular contact (paired) | Low | High | 0.2-1 μm | <1 μm (preloaded) | High | Moderate | Long | Machine tool spindles, rotary tables |
+| Crossed roller | Very low | High | 0.1-0.5 μm | <0.5 μm (preloaded) | Moderate | Moderate | Long | CMMs, precision rotary stages |
+| Air bearing | Zero (non-contact) | Moderate | 0.01-0.05 μm | Zero | Very high | Low | Unlimited | Wafer stages, spindles, CMMs |
+| Hydrostatic (oil) | Near-zero | Very high | 0.01-0.1 μm | Zero | Moderate | Very high | Unlimited | Heavy precision grinding, large CMMs |
+| Flexure | Zero | Low | <0.001 μm | Zero | Very low | Very low | Finite (fatigue) | Nanopositioning, AFM stages |
+| Magnetic (active) | Zero | Adjustable | <0.01 μm | Zero | High | Moderate | Unlimited | Wafer scanners, vacuum stages |
+
+### Air Bearing Specifications
+
+Air bearings are the standard for semiconductor wafer stages because they eliminate friction, stiction, and wear. A thin film of pressurized air (typically 4-6 bar supply) separates the moving and stationary surfaces.
+
+| Parameter | Typical Value | Notes |
+|-----------|--------------|-------|
+| Air gap | 3-10 μm | Determined by supply pressure, load, and orifice/porous design |
+| Stiffness | 50-200 N/μm | Proportional to bearing area and supply pressure |
+| Runout (axial) | 0.01-0.05 μm | Limited by surface flatness of the bearing faces |
+| Runout (radial) | 0.02-0.1 μm | Limited by cylindrical form error |
+| Pitch/yaw error | 0.1-1 arcsecond | Depends on bearing length and moment stiffness |
+| Maximum speed | 30-100 m/s | Limited by air shear heating at extreme speeds |
+| Supply air requirement | 4-6 bar, filtered to 0.1 μm, oil-free | Contaminated air destroys the bearing gap. Install coalescing filters and desiccant dryers. |
+| Flatness requirement (guide surface) | < 0.5 μm over 300 mm | Air bearings replicate the guide surface errors — they do not average them out |
+
+### Ball Screw Specifications (Linear Actuation)
+
+Ball screws convert rotary motion from a servo motor into linear motion. The screw accuracy directly limits positioning accuracy for encoder-based systems.
+
+| Parameter | Rolled Screw | Ground Screw (Precision) | Ground Screw (Ultra-Precision) |
+|-----------|-------------|-------------------------|-------------------------------|
+| Lead accuracy (over 300 mm) | ±50-100 μm | ±5-10 μm | ±1-3 μm |
+| Lead accuracy (per 2π revolution) | ±5-10 μm | ±0.5-2 μm | ±0.1-0.5 μm |
+| Backlash | 5-20 μm | 1-5 μm (preloaded: <1 μm) | <0.5 μm (double-nut preload) |
+| Rigidity | 100-300 N/μm | 200-500 N/μm | 300-800 N/μm |
+| Efficiency | 90-95% | 90-95% | 90-95% |
+| Maximum speed | 1-3 m/s | 1-2 m/s | 0.5-1.5 m/s |
+| Life at rated load | 10,000-50,000 km | 5,000-20,000 km | 5,000-10,000 km |
+
+### Actuator Resolution and Positioning Accuracy
+
+The relationship between actuator resolution, encoder resolution, and actual positioning accuracy. The system accuracy is always worse than any single component.
+
+| Stage Type | Actuator | Actuator Resolution | Encoder Resolution | Actual Positioning Accuracy | Repeatability | Dominant Error Source |
+|-----------|----------|--------------------|--------------------|-----------------------------|--------------|---------------------|
+| Manual micrometer stage | Micrometer screw | 1 μm (0.5 μm with differential) | Graduations on drum | 2-5 μm | 1-2 μm | Screw lead error, thermal expansion |
+| Stepper motor + ball screw | Stepper (200 steps/rev) + 5 mm/rev screw | 25 μm (full step), 1.56 μm (16× microstep) | Rotary encoder on motor | 5-25 μm | 3-10 μm | Microstep accuracy (~5% of full step), screw lead error |
+| Servo motor + ball screw | AC servo + 5 mm/rev screw | Continuous (analog) | Linear encoder, 0.5 μm | 1-5 μm | 0.5-2 μm | Ball screw backlash, thermal growth |
+| Piezo stack (direct drive) | PZT stack | 0.01 nm (command) | Capacitive sensor, 0.1 nm | 0.5-2 nm | 0.1-0.5 nm | Piezo hysteresis, creep, drift |
+| Piezo flexure stage | PZT + flexure linkage | 0.001 nm (command) | Capacitive or interferometric, 0.01 nm | 0.1-1 nm | 0.01-0.1 nm | Flexure hysteresis, thermal drift |
+| Voice coil + air bearing | Voice coil motor | Continuous | Interferometer, 0.15 nm | 10-50 nm | 5-20 nm | Air current disturbances, thermal drift |
+| Linear motor + air bearing | Ironless linear motor | Continuous | Interferometer, 0.15 nm | 20-100 nm (over 300 mm) | 5-20 nm | Cosine error, Abbe error, thermal growth |
+| Wafer scanner stage | Linear motor (dual) | Continuous | Heterodyne interferometer, 0.15 nm | 1-5 nm (over scan field) | 0.5-2 nm | Interferometer environmental compensation |
+
+### Positioning Error Budget
+
+For a wafer stage with 300 mm travel and nanometer target accuracy, the error budget allocates the total allowable error across all contributors:
+
+| Error Source | Magnitude (nm, 3σ) | Mitigation |
+|-------------|-------------------|------------|
+| Encoder/interferometer measurement error | 5-15 | Multi-beam interferometer, environmental compensation |
+| Abbe error (beam offset × angular error) | 5-20 | Multi-beam config measuring at the point of interest |
+| Cosine error (beam misalignment) | 1-5 | Align to <0.05 mrad over full travel |
+| Thermal expansion of stage structure | 10-50 | Granite or Invar structure, temperature control ±0.1°C |
+| Bearing straightness error | 5-20 | Air bearings on lapped granite, active yaw correction |
+| Vibration (floor transmitted) | 2-10 | Pneumatic isolation, active damping |
+| Servo tracking error | 2-10 | High-bandwidth controller (500-2000 Hz), feedforward |
+| **Total (RSS)** | **15-60 nm** | Combined effect (root-sum-square of all sources) |
+
 ## Safety
 
 - **Laser safety**: HeNe interferometer lasers are typically Class II (< 1 mW). Do not stare into the beam. Fiber-delivered systems reduce exposure risk by enclosing the beam path.

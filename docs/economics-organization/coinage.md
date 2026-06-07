@@ -3,7 +3,7 @@
 > **Node ID**: economics-organization.coinage
 > **Domain**: [Economics-Organization](./index.md)
 > **Dependencies**: [`Currency & Standardized Exchange`](currency.md)
-> **Enables**: [`Primary Metal Forming`](forming.md), [`Metal Finishing & Surface Treatment`](finishing.md)
+> **Enables**: [`Primary Metal Forming`](../metals/forming.md), [`Metal Finishing & Surface Treatment`](../metals/finishing.md)
 > **Timeline**: Years 10-20
 > **Outputs**: coins, struck-alloy-discs
 > **Critical**: No
@@ -73,10 +73,12 @@ Coinage production involves three main operations: die engraving, blank preparat
 
 Die making is the precision bottleneck of the coinage process:
 
-- **Master hub**: Engrave the original design in positive (relief) on a steel hub. This is the master from which all working dies are produced. The engraver uses gravers, punches, and small chisels to cut the design. The hub is hardened after engraving.
-- **Working dies**: Place the master hub against a softened steel die blank and press under high force in a reducing press or hubbing press. The hub's relief design is impressed into the die blank as an incuse (negative) image. Multiple hubbings may be needed for deep relief. Harden the working die after hubbing.
-- **Die life**: A steel die can strike 10,000-100,000 coins before the design wears smooth. Die wear appears first on the highest-relief features. Worn dies produce coins with blurred or missing details. Replace dies proactively to maintain consistent quality.
-- **Anti-counterfeiting features**: Complex relief, fine border beading, micro-lettering, milled edges, and bimetallic construction all increase the difficulty of counterfeiting. The die engraver must incorporate these features without compromising the die's ability to fill completely during striking.
+- **Master hub**: Engrave the original design in positive (relief) on a steel hub. This is the master from which all working dies are produced. The engraver uses gravers, punches, and small chisels to cut the design. The hub is hardened after engraving. Hub material: high-carbon tool steel (0.8-1.2% carbon), 40-60 mm diameter × 40-80 mm tall. Engraving time: 40-200 hours depending on design complexity. Maximum relief height: 0.3-0.8 mm (portrait, lettering, border beads).
+- **Working dies**: Place the master hub against a softened steel die blank and press under high force (100-300 kN) in a reducing press or hubbing press. The hub's relief design is impressed into the die blank as an incuse (negative) image. Multiple hubbings may be needed for deep relief, typically 2-5 impressions with intermediate annealing at 650-700°C. Harden the working die after hubbing: heat to 800-850°C, quench in oil or brine, temper at 200-250°C for 1 hour to reach HRC 58-62.
+- **Die life**: A steel die can strike 10,000-100,000 coins before the design wears smooth. Bronze dies wear out faster (3,000-10,000 coins) because bronze is softer than hardened steel. Die wear appears first on the highest-relief features (portrait nose, border beads). Worn dies produce coins with blurred or missing details. Replace dies proactively to maintain consistent quality. Track die life by serial number and retire at 70% of expected lifespan.
+- **Anti-counterfeiting features**: Complex relief, fine border beading (0.3-0.5 mm diameter beads at 0.5-0.8 mm spacing), micro-lettering (0.3-0.5 mm character height), milled edges (120-180 reeds around circumference), and bimetallic construction all increase the difficulty of counterfeiting. Each additional feature doubles or triples the engraving time but also multiplies the difficulty of producing a convincing fake. The die engraver must incorporate these features without compromising the die's ability to fill completely during striking.
+
+**Why die quality determines coinage viability**: A coin's resistance to counterfeiting depends entirely on the precision of its die. If the official coin has a crude, simple design, any competent metalworker can copy it. The more intricate the die, the more specialized the tooling and skill required to replicate it. This is why coinage drove the development of precision steel engraving: the survival of the currency system depends on making the official product more precise than any unauthorized copy.
 
 ### Striking Standards
 
@@ -89,13 +91,29 @@ The precision of the striking process directly determines the coin's usefulness 
 
 ### Process Parameters
 
-| Parameter | Range | Notes |
-|-----------|-------|-------|
-| Blank thickness | Design-dependent | Must match die relief depth |
-| Striking force | Sufficient to fill die | Varies by blank diameter and hardness |
-| Annealing temperature | Alloy-specific | Softens blank for clean impression |
-| Die hardness | Hardened tool steel | Must survive 10,000+ strikes |
-| Weight tolerance | ±0.1% to ±5% | Tighter for machine-struck, wider for hand-struck |
+| Parameter | Copper Coin | Silver Coin | Gold Coin |
+|-----------|-------------|-------------|-----------|
+| Blank diameter | 18-30 mm | 15-25 mm | 15-25 mm |
+| Blank thickness | 2.0-4.0 mm | 0.8-2.0 mm | 0.8-1.5 mm |
+| Blank weight (5 g coin) | 4.9-5.1 g | 4.9-5.1 g | 4.9-5.1 g |
+| Die relief depth | 0.3-0.8 mm | 0.2-0.5 mm | 0.2-0.5 mm |
+| Striking force (screw press) | 15-40 kN | 10-25 kN | 10-20 kN |
+| Striking force (hammer, 2 kg) | 8-20 kN (variable) | 5-15 kN | 5-12 kN |
+| Annealing temperature | 600-800°C | 600-700°C | 600-700°C |
+| Annealing hold time | 20-40 min | 15-30 min | 15-30 min |
+| Die hardness (HRC) | 58-62 | 58-62 | 58-62 |
+| Die face diameter | 16-28 mm | 13-23 mm | 13-23 mm |
+| Roll gap reduction per pass | 10-25% | 10-20% | 10-20% |
+| Rolling temperature | Cold (room temp) | Cold or warm (200°C max) | Cold |
+| Weight tolerance (machine) | ±0.5% | ±0.3% | ±0.3% |
+| Weight tolerance (hand-struck) | ±2-5% | ±2-5% | ±2-5% |
+| Strip thickness uniformity | ±0.05 mm | ±0.03 mm | ±0.03 mm |
+
+**Why these parameters matter**: The blank thickness must exceed the die relief depth by at least 1.5x to ensure enough metal flows into the die cavity during striking. If the blank is too thin, the highest relief points (usually the border bead or portrait) will be weak or absent. If the blank is too thick, the press cannot push enough metal into the die in a single stroke, producing a blurred, incomplete impression. Annealing temperature is critical because overheating softens the metal excessively, causing it to stick to the dies; underheating leaves the blank too hard for clean metal flow into the die details.
+
+**Striking force calculation**: The force needed to fill a coin die depends on blank area, metal hardness, and relief depth. Approximate formula: F = σ × A × (1 + 2μr/h), where σ is the metal's yield strength (copper: 70 MPa annealed, silver: 55 MPa, gold: 40 MPa), A is the blank area, μ is the friction coefficient between die and blank (~0.15-0.25 with lubrication), r is the blank radius, and h is the blank thickness. A 20 mm copper blank (area 314 mm²) at 70 MPa requires approximately 22-30 kN for complete fill.
+
+**Alloy composition effects on hardness**: Pure copper (Vickers hardness ~50 HV) is too soft for durable coinage. Adding 5% tin raises hardness to ~100 HV and improves wear resistance by 2-3x. Silver at 92.5% (sterling) with 7.5% copper reaches ~80 HV, significantly harder than pure silver (~25 HV). Gold at 90% with 10% copper reaches ~90 HV versus pure gold at ~25 HV. Harder alloys extend circulation life but require greater striking force and produce more die wear.
 
 ## Safety Considerations
 
@@ -152,20 +170,36 @@ This process involves specific hazards requiring trained personnel and protectiv
 
 Transitioning from bench-scale to production involves these considerations:
 
-- **Bench scale (hammer striking)**: Dies held in a vice or hand-held; blank placed between them; struck with a sledgehammer. The earliest method. One coin per stroke. Produces coins with variable centering and depth. Output: 50-200 coins per day. Adequate for small community currency.
-- **Pilot scale (screw press)**: Mechanical screw press applies controlled, repeatable force. Dies mounted in the press. Blank placed by hand. Collar die restrains the blank for a consistent rim. Output: 500-2,000 coins per day. Consistent quality.
-- **Production scale (steam-powered press)**: Steam-powered knuckle-joint press strikes coins at 50-100 strokes per minute. Automatic blank feeding. Continuous production. Output: 20,000-50,000 coins per day. Requires steam engine infrastructure. The standard for national mints from the 19th century onward.
+- **Bench scale (hammer striking)**: Dies held in a vice or hand-held; blank placed between them; struck with a sledgehammer. The earliest method. One coin per stroke. Produces coins with variable centering and depth. Output: 50-200 coins per day. Adequate for small community currency. Dies last 2,000-5,000 strikes before relief blurs beyond recognition. Metal consumption: 250-1,000 g copper/day at 5 g/coin.
+- **Pilot scale (screw press)**: Mechanical screw press applies controlled, repeatable force of 15-40 kN. Dies mounted in the press. Blank placed by hand. Collar die restrains the blank for a consistent rim. Output: 500-2,000 coins per day. Consistent quality. Die life improves to 10,000-50,000 strikes due to controlled, centered force. Requires 1 operator + 1 blank feeder. Strip throughput: 5-10 kg/hour through hand-cranked rolling mill.
+- **Production scale (steam-powered press)**: Steam-powered knuckle-joint press strikes coins at 50-100 strokes per minute with 30-80 kN force. Automatic blank feeding. Continuous production. Output: 20,000-50,000 coins per day. Requires steam engine infrastructure (10-20 kW). Metal consumption: 100-250 kg copper/day. The standard for national mints from the 19th century onward. Rolling mill powered by water or steam: 50-100 kg strip/hour.
+
+**Labor requirements by scale**:
+
+| Scale | Workers | Output (coins/day) | Metal Processed (kg/day) | Key Roles |
+|-------|---------|-------------------|--------------------------|-----------|
+| Hammer (bench) | 2-3 | 50-200 | 0.25-1.0 | Striker, melter, engraver |
+| Screw press (pilot) | 4-6 | 500-2,000 | 2.5-10.0 | Press operator, blank feeder, roller, melter, engraver, inspector |
+| Steam press (production) | 8-15 | 20,000-50,000 | 100-250 | Press operators (2-3), roller operator, melter (2), blank cutter, inspectors (2-3), die engraver, foreman |
 
 ## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Weak strike (missing details) | Insufficient press force or blank too hard | Increase press pressure; anneal blanks before striking; verify die condition |
-| Off-center strike | Blank not centered on die | Improve blank positioning; use a locating collar; train operators |
-| Die breakage | Die steel too brittle or design too deep | Use tougher die steel; reduce relief depth; pre-stress dies |
-| Weight variation exceeds tolerance | Strip thickness uneven or blank diameter inconsistent | Re-roll strip to uniform gauge; recalibrate blank cutter |
-| Surface cracks on struck coin | Blank contaminated or alloy segregation in casting | Improve melt stirring; filter melt before casting; clean blanks more thoroughly |
-| Edge defects (flashing, cracks) | Collar die worn or blank oversize | Replace collar die; verify blank diameter within tolerance |
+| Weak strike (missing details) | Insufficient press force or blank too hard | Increase press pressure; anneal blanks at 600-800°C for 20-40 min; verify die relief depth is <0.8 mm for copper |
+| Off-center strike | Blank not centered on die | Improve blank positioning; use a locating collar (steel ring with 0.1 mm clearance); train operators |
+| Die breakage | Die steel too brittle or design too deep | Use tougher die steel (HRC 58-60 instead of 62+); reduce relief depth below 0.6 mm; pre-stress dies with light strikes before full production |
+| Weight variation exceeds tolerance | Strip thickness uneven or blank diameter inconsistent | Re-roll strip to ±0.05 mm uniformity; recalibrate blank cutter; check roller parallelism with feeler gauge |
+| Surface cracks on struck coin | Blank contaminated or alloy segregation in casting | Improve melt stirring (stir 60+ seconds before pour); filter melt through graphite filter; clean blanks in 10% vinegar solution |
+| Edge defects (flashing, cracks) | Collar die worn or blank oversize | Replace collar die after 30,000+ strikes; verify blank diameter is 0.2-0.5 mm smaller than collar inner diameter |
+| Fineness below standard | Alloy proportion wrong or segregation during solidification | Re-assay melt with cupellation before casting; stir melt thoroughly; use smaller ingot molds (faster solidification reduces segregation) |
+| Coins sticking to dies | Blank too soft (over-annealed) or dies not lubricated | Reduce annealing temperature by 50-100°C; apply thin film of soot or graphite to die faces between strikes |
+| Die wear too rapid (blurring after <5,000 strikes) | Die steel not properly hardened or relief too deep | Re-harden dies: heat to 800-850°C, quench in oil, temper at 200-250°C for 1 hour; reduce maximum relief to 0.5 mm |
+| Clipped or undersize blanks from cutter | Cutting punch dull or strip too thick | Sharpen or replace cutting punch (edge angle 15-20°); roll strip to thinner gauge before cutting |
+| Coin color wrong (reddish copper instead of yellow bronze) | Tin content too low or absent | Verify alloy composition with touchstone assay; adjust tin to 8-12% for bronze coinage |
+| Bubbles or pits on coin surface | Gas trapped in melt or damp mold | Preheat molds to 200°C; skim slag from melt surface before pouring; use dry charcoal cover over melt to reduce oxidation |
+| Cracked blanks after cutting | Work-hardened strip not annealed before cutting | Anneal strip at 600°C for 30 min before blanking; cut blanks with sharp punch (dull punch tears metal) |
+| Inconsistent diameter after striking | Blank weight varies or die-to-collar fit loose | Sort blanks by weight before striking (±1% bands); replace worn collar die |
 
 ## Variations and Alternatives
 
@@ -176,11 +210,11 @@ Transitioning from bench-scale to production involves these considerations:
 
 ## References
 
-- [Economics & Organization](economics-organization.md) — parent capability
+- [Economics & Organization](index.md) — parent capability
 - [Economics-Organization Domain](./index.md) — domain overview and related capabilities
 - [Currency & Standardized Exchange](currency.md) — upstream dependency (material)
-- [Primary Metal Forming](forming.md) — downstream capability
-- [Metal Finishing & Surface Treatment](finishing.md) — downstream capability
+- [Primary Metal Forming](../metals/forming.md) — downstream capability
+- [Metal Finishing & Surface Treatment](../metals/finishing.md) — downstream capability
 
 Coinage connects to [Metals](../metals/index.md) through alloy preparation and assaying, to [Machine Tools](../machine-tools/index.md) through die engraving and press construction, and to [Measurement](../measurement/index.md) through weight and dimensional standards. The precision required for reliable coinage — consistent weight, diameter, and alloy composition — establishes the measurement standards that underpin trade and manufacturing.
 

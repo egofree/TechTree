@@ -12,6 +12,21 @@
 
 Animal fats and vegetable oils provide the first lubricants available to a civilization rebuilding its industrial base. Every cart axle, treadle lathe, and water pump needs something to reduce friction. Animal fats are available immediately from butchering; vegetable oils follow from the first harvest of oilseed crops. Both provide effective boundary lubrication through polar fatty acid molecules that adsorb to metal oxide surfaces, reducing the friction coefficient from ~0.8 (dry steel-on-steel) to ~0.1-0.15. This tier suffices for slow, lightly loaded bearings, slides, and cutting fluid applications until mineral oil refining becomes available.
 
+**Why fats and oils lubricate**: Fatty acid molecules have a polar carboxyl head (-COOH) and a nonpolar hydrocarbon tail. The polar head bonds to metal oxide surfaces through chemisorption, forming an oriented monolayer with the hydrocarbon tails pointing outward. This creates a low-shear-strength interface: when two lubricated surfaces slide against each other, the shear happens between the hydrocarbon tails, not between metal and metal. The film strength is sufficient for boundary lubrication (surface-to-surface contact) but fails under the high loads and speeds where elastohydrodynamic (EHD) lubrication dominates. For EHD conditions, the lubricant must form a pressurized film thick enough to separate the surfaces entirely, which requires higher viscosity and viscosity index than natural oils typically provide.
+
+**Natural lubricant properties comparison**:
+
+| Lubricant | Viscosity (cSt at 40°C) | Viscosity Index | Flash Point (°C) | Pour Point (°C) | Shelf Life | Oxidative Stability |
+|-----------|------------------------|-----------------|-------------------|-----------------|------------|-------------------|
+| Tallow (beef) | 25-35 (at 50°C, semi-solid at 40) | ~100 | 250-280 | 35-40 (melting point) | 6-12 months | Poor (rancidifies) |
+| Lard (pig) | 20-30 (at 50°C, semi-solid at 40) | ~95 | 240-270 | 33-40 (melting point) | 6-12 months | Poor |
+| Castor oil | ~250 | ~85 | 300-320 | -20 to -10 | 1-2 years | Moderate |
+| Rapeseed oil | ~35 | ~105 | 280-310 | -15 to -10 | 1-2 years | Moderate |
+| Olive oil | ~40 | ~100 | 280-300 | -10 to -5 | 1-2 years | Moderate |
+| Linseed oil | ~28 | ~95 | 300-320 | -15 | 6-12 months | Poor (polymerizes) |
+| Sunflower oil | ~30 | ~110 | 280-310 | -15 to -10 | 1-2 years | Moderate |
+| Mineral oil (reference) | 32-460 | 95-105 | 180-240 | -30 to -10 | 5+ years | Good |
+
 
 ## Animal Fats (Tallow & Lard)
 
@@ -128,6 +143,20 @@ Rancid vegetable oil develops a characteristic sharp odor. For lubricant use, ra
 - Limited low-temperature performance compared to mineral oils
 - Viscosity range is narrower than what mineral oils offer
 
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Tallow/lard too thick to apply in cold weather | Ambient temperature below melting point (33-45°C) | Warm to 50°C before applying; use vegetable oil instead in cold conditions (pour point -10 to -20°C); thin with 10-20% mineral oil if available |
+| Bearing overheating with fat lubrication | Fat melts and runs off, leaving no film at bearing operating temperature above 50°C | Switch to higher-viscosity vegetable oil (castor oil, 250 cSt at 40°C); add cooling fins to bearing housing; reduce load or speed |
+| Lubricant turns rancid with sour smell and thickens | Oxidation of unsaturated fatty acid chains; double bonds react with O₂ forming peroxides, then aldehydes and acids | Store in sealed, opaque containers at <20°C; add natural antioxidants (0.5-1.0% vitamin E / tocopherol, or rosemary extract) to extend shelf life; replace oil and clean reservoir |
+| Gum or varnish deposits on bearing surfaces | Polymerized oil from prolonged heating above 80°C or from drying oils (linseed) used incorrectly | Clean deposits with hot alkaline solution (5-10% NaOH in water at 80°C); do not use linseed oil for lubrication (it is a drying oil that hardens); limit operating temperature to <60°C for natural oils |
+| Castor oil thickens in storage | Progressive oxidation and polymerization of ricinoleic acid chains | Store below 20°C in full, sealed containers (minimize headspace air); use within 12 months; check viscosity before use (should be 240-260 cSt at 40°C) |
+| Cutting fluid (vegetable oil base) causes skin irritation | Free fatty acids from oxidation, or bacterial growth in emulsion | Maintain pH above 8.5 with sodium carbonate; add biocide if used as emulsion; wash skin with soap after contact; replace fluid if pH drops below 8.0 |
+| Oil extraction yield below expected 25-30% by weight | Seeds not heated sufficiently before pressing, or press pressure too low | Heat seeds to 80-100°C before pressing; increase press pressure; re-press cake at higher temperature for additional 5-10% yield |
+| Fat emulsifies with water, turns milky and ineffective | Water contamination during rendering or storage | Re-melt fat gently at 90-100°C; water boils off and separates; skim clean fat from surface; ensure storage containers are dry |
+| Press cake (seed residue) spontaneously combusts | Stored in large pile while still warm from pressing (>50°C) | Spread press cake thin (10-15 cm) to cool completely before storing; turn pile daily for 3-5 days to dissipate heat; store in well-ventilated area |
 
 ## See Also
 

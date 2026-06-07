@@ -82,6 +82,45 @@ The decoking procedure is a carefully controlled operation. After stopping feed 
 | Demethanizer overhead temperature | -170°C to -140°C | Lowest temperature in the plant |
 | Furnace run length between decokes | 30-100 days | Depends on feed and severity |
 
+### Product Yields by Feedstock
+
+Feedstock choice is the single largest determinant of plant economics. Ethane yields the most ethylene per ton of feed but produces little else of value. Naphtha yields less ethylene but generates a broader slate of co-products that contribute to revenue. The yield differences are large enough that feedstock selection determines whether a plant is profitable.
+
+**Steam cracking yields (wt% of feed)**:
+
+| Product | Ethane Feed | Propane Feed | Naphtha Feed | Gas Oil Feed |
+|---------|------------|-------------|-------------|-------------|
+| Ethylene | 80-84% | 40-45% | 30-35% | 24-28% |
+| Propylene | 1-2% | 15-20% | 13-18% | 12-15% |
+| Butadiene (C₄=) | 1-2% | 2-3% | 4-5% | 4-5% |
+| BTX aromatics | 0.5-1% | 3-5% | 8-10% | 8-10% |
+| Pyrolysis gasoline (C₅+) | 1-3% | 5-10% | 18-25% | 15-20% |
+| Fuel gas (H₂ + C₁-C₂) | 10-15% | 20-25% | 15-20% | 12-15% |
+| Fuel oil | 0-1% | 1-3% | 3-5% | 15-25% |
+
+**Typical cracking conditions by feedstock**:
+
+| Parameter | Ethane | Propane | Naphtha | Gas Oil |
+|-----------|--------|---------|---------|---------|
+| Coil outlet temperature (COT) | 840-860°C | 830-850°C | 800-840°C | 780-820°C |
+| Steam/hydrocarbon ratio (wt/wt) | 0.3-0.4 | 0.35-0.45 | 0.45-0.55 | 0.6-0.8 |
+| Residence time (seconds) | 0.15-0.3 | 0.2-0.35 | 0.2-0.5 | 0.2-0.5 |
+| Typical run length (days) | 60-100 | 50-80 | 40-70 | 30-50 |
+
+Heavier feeds require more steam dilution to suppress coke formation, but even with higher dilution they still produce coke faster, shortening the furnace run length between decoking cycles. This is the fundamental tradeoff: heavier feeds yield a more diverse (and sometimes more valuable) product slate, but at the cost of more frequent furnace downtime for decoking.
+
+### Furnace Coil Specifications
+
+The radiant coil tubes operate at the most severe conditions in the petrochemical industry: internal process fluid at 800-860°C, external firebox temperature at 1,050-1,100°C, and constant exposure to carburizing gases. Tube metallurgy determines furnace life.
+
+| Alloy Grade | Composition | Max Tube Metal Temp | Typical Coil Life |
+|-------------|------------|--------------------|--------------------|
+| HK-40 | 25Cr-20Ni | 1,050°C | 2-3 years |
+| HP-modified | 25Cr-35Ni + Nb | 1,100°C | 4-6 years |
+| 35Cr-45Ni micro-alloyed | 35Cr-45Ni + Nb/Ti/W | 1,100-1,150°C | 6-10 years |
+
+Tube inner diameter: typically 50-100 mm. Wall thickness: 8-15 mm. Coil length: 30-80 m per pass. A furnace with 8 parallel passes contains roughly 240-640 m of radiant coil tubing. Carburization (carbon absorption into the tube wall metal) causes the tube to become brittle and reduces creep life. When tube diameter expands by 3-5% from creep elongation, the coil must be replaced.
+
 The steam-to-hydrocarbon ratio in the furnace feed affects both yield and coking rate. Higher steam dilution reduces hydrocarbon partial pressure, favoring olefin formation and reducing coke deposition on tube walls, but at the cost of increased energy consumption to heat the additional steam. The optimal ratio balances product yield, furnace run length between decoking cycles, and total energy consumption per ton of ethylene produced.
 
 ## Safety Considerations
@@ -89,7 +128,9 @@ The steam-to-hydrocarbon ratio in the furnace feed affects both yield and coking
 - **Furnace tube rupture**: Tubes in the radiant section operate at the highest temperatures in the petrochemical industry. Tube ruptures release hydrocarbons directly into the furnace firebox, causing fires that can propagate to the convection section. Tube metal temperature monitoring with infrared pyrometry, combined with strict limits on COT and feed rate, prevents overheating. A tube failure requires immediate fuel trip and steam purge.
 - **Cracked gas compressor seal failure**: The compressor handles large volumes of flammable gas at multiple pressure stages. Seal failures release gas to atmosphere, creating fire and explosion risk. Seal oil systems with backup pumps and automatic isolation valves mitigate this hazard.
 - **Cold embrittlement**: The cryogenic separation train operates at temperatures down to -170°C. Carbon steel becomes brittle and fractures catastrophically at these temperatures. Only properly rated 9% nickel steel, austenitic stainless steel, or aluminum alloys may be used in cold service. Strict material verification during construction prevents accidental carbon steel substitution.
-- **Pressurized ethylene/propylene storage**: Stored as pressurized liquids that flash to large volumes of flammable gas on release. Storage spheres are equipped with fireproofing, water spray systems, and remote emergency shutdown valves.
+- **Pressurized ethylene/propylene storage**: Stored as pressurized liquids that flash to large volumes of flammable gas on release. Ethylene storage at -104°C, propylene at -48°C. Storage spheres are equipped with fireproofing, water spray systems, and remote emergency shutdown valves. BLEVE (boiling liquid expanding vapor explosion) is the catastrophic failure mode if a storage sphere is engulfed in fire and the pressure relief system cannot keep up: the sphere ruptures and the released liquid flashes to vapor, creating a fireball hundreds of meters in diameter.
+- **Benzene exposure in pyrolysis gasoline**: Pyrolysis gasoline contains 30-50% aromatics including 5-15% benzene. Benzene is a confirmed human carcinogen. OSHA PEL: 1 ppm TWA, 5 ppm STEL. NIOSH REL: 0.1 ppm TWA. Raw pyrolysis gasoline must be hydrogenated before storage because the unstable diolefins polymerize into gums. Handle with enclosed systems and chemical-resistant gloves. Do not sample pyrolysis gasoline without respiratory protection.
+- **Fire prevention**: The steam cracker has the largest hydrocarbon inventory in a petrochemical complex. Furnace feed preheat systems, the cracked gas compressor, and the cold separation train all contain flammable materials at elevated pressure. Firewater deluge coverage must extend to all hydrocarbon-containing equipment. The plant flare system must handle emergency blowdown from all furnaces, the cracked gas compressor, and product storage simultaneously. Gas detection (catalytic bead or infrared) is installed around the compressor deck, furnace area, and storage spheres with automatic shutdown triggers at 25% LEL (lower explosive limit).
 
 ### Personal Protective Equipment
 
@@ -159,6 +200,11 @@ Furnace coil metallurgy has evolved significantly to withstand the extreme opera
 | Ethylene yield declining across furnaces | Aging furnace coils with reduced heat transfer or uneven burner firing | Inspect coil condition with infrared scan; clean or replace burners; evaluate coil replacement schedule |
 | High pressure drop across cold section | Chiller fouling or hydrate formation from inadequate drying | Regenerate molecular sieve dryers; check for liquid carryover from compressor knockout drums |
 | Green oil formation in acetylene converter | Polymerization of acetylene on catalyst at excessive temperature | Reduce converter inlet temperature; check CO moderator concentration; replace catalyst if green oil fouling is severe |
+| Uneven COT across parallel furnace passes | Plugged feed orifices, unbalanced burner firing, or pass-specific coke buildup | Check and clean flow balancing orifices in feed manifold; adjust individual burner fuel rates; monitor pass-by-pass COT; if one pass shows higher pressure drop, schedule early decoke for that pass |
+| Demethanizer reflux temperature drifting high | Loss of ethylene refrigeration capacity or warm end approach fouled | Check ethylene refrigerant compressor suction and discharge pressures; inspect demethanizer condenser for fouling; verify refrigerant inventory |
+| Rapid TLE fouling (outlet temp rising faster than normal) | Heavy feed with high aromatic content producing excessive coke in TLE | Reduce severity (lower COT); increase steam dilution; blend feed with lighter stock; schedule more frequent TLE mechanical cleaning |
+| Cracked gas compressor surge | Compressor operating point moving left of the surge line due to reduced flow or increased discharge pressure | Open anti-surge recycle valve; check for downstream fouling causing pressure increase; verify all compressor stages are within operating range; do not operate near surge during startup without active anti-surge control |
+| Ethylene product contamination with ethane | Deethanizer reboiler temperature too high or reflux too low | Reduce deethanizer reboiler duty; increase reflux ratio; check column pressure (higher pressure narrows relative volatility between ethylene and ethane) |
 
 ## Variations and Alternatives
 

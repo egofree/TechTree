@@ -69,13 +69,20 @@ The overall cell reaction splits sodium chloride and water: 2 NaCl + 2 H₂O →
 
 ### Process Parameters
 
-| Parameter | Range | Notes |
-|-----------|-------|-------|
-| Current density | Moderate to high | Determines production rate per unit cell area |
-| Cell voltage | Typically 2.5-4V per cell | Increases with current density and membrane age |
-| Brine purity | Very high | Ca/Mg below parts-per-million for membrane cells |
-| Operating temperature | Moderate | Higher temps improve conductivity but reduce membrane life |
-| Current efficiency | 90-97% | Decreases with membrane degradation |
+| Parameter | Membrane Cell | Diaphragm Cell | Notes |
+|-----------|--------------|----------------|-------|
+| Current density | 20-40 mA/cm² | 15-25 mA/cm² | Higher density increases production but reduces current efficiency and electrode life |
+| Cell voltage | 2.9-3.5 V | 3.0-4.0 V | Rises with membrane age, electrode wear, and gas blinding |
+| Operating temperature | 80-90°C | 85-95°C | Higher temps improve conductivity (~2%/°C) but shorten membrane life |
+| Current efficiency | 93-97% | 90-95% | Decreases as membrane degrades; monitor by chlorine production vs. theoretical |
+| Brine purity (Ca+Mg) | <20 ppb (membrane) | <5 ppm (diaphragm) | Parts-per-billion hardness required for membrane cells; parts-per-million for diaphragm |
+| Brine NaCl concentration | 300-320 g/L (saturated) | 280-310 g/L | Depleted brine from anode is resaturated and recycled |
+| Caustic product strength | 30-33% (direct), 50% (evaporated) | 10-12% (direct), 50% (evaporated) | Membrane cells produce more concentrated caustic directly |
+| Chlorine gas purity | >97% Cl₂ | >95% Cl₂ | Main impurities: O₂, H₂, CO₂, N₂ |
+| Hydrogen purity | >99.9% H₂ | >99.5% H₂ | Trace O₂ and NaOH carryover |
+| Energy consumption | 2,100-2,400 kWh/tonne Cl₂ | 2,400-2,800 kWh/tonne Cl₂ | Membrane cells are 10-15% more energy-efficient |
+| Electrode life (anode) | 5-8 years (DSA coating) | 3-5 years | DSA = dimensionally stable anode (Ti/RuO₂-IrO₂) |
+| Membrane life | 3-5 years | N/A (diaphragm) | Perfluorinated cation exchange membranes |
 
 ## Safety Considerations
 
@@ -137,11 +144,15 @@ Key scaling challenges: brine purification becomes the dominant cost and complex
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Rising cell voltage | Membrane fouling or electrode wear | Analyze brine purity; check electrode coating condition |
-| Low current efficiency | Membrane damage allowing back-migration | Test membrane for pinholes; replace degraded membranes |
-| Chlorine in caustic | Membrane failure or excessive current density | Reduce current; inspect membrane; check brine level balance |
-| Hydrogen in chlorine | Membrane rupture | Shut down cell immediately; replace membrane |
-| Caustic strength low | Excessive water in cathode compartment | Adjust catholyte flow; check for seal leaks |
+| Rising cell voltage (>0.3 V above baseline) | Membrane fouling from Ca/Mg scale, electrode coating degradation, or gas blinding (bubbles trapped at electrode surface) | Analyze brine for hardness (target <20 ppb Ca+Mg for membrane cells); clean electrodes with dilute HCl; check brine flow rate to flush gas bubbles |
+| Low current efficiency (<90%) | Membrane damage allowing hydroxide back-migration from cathode to anode compartment | Test individual membranes by shutting down one cell and checking chlorine output; replace membranes with efficiency <85% |
+| Chlorine detected in caustic product | Membrane pinhole failure or excessive current density causing membrane distortion | Reduce current density by 10-20%; inspect membrane with backlight for pinholes; replace damaged membrane immediately |
+| Hydrogen detected in chlorine stream (>0.4% H₂) | Membrane rupture allowing hydrogen to cross to anode side — explosive hazard | Shut down affected cell immediately (>0.5% H₂ in Cl₂ is explosive); replace membrane; check for pressure differential across membrane |
+| Caustic strength below target (30% for membrane cells) | Excess water in cathode compartment from seal leaks, or membrane damage allowing excessive water transport | Check gasket seals for internal leakage; adjust catholyte feed rate; verify membrane water transport number (should be 3-5 mol H₂O/mol Na⁺) |
+| Anode coating wearing fast (<3 year life) | High current density (>40 mA/cm²), brine impurities (fluoride, bromide), or frequent shutdown/startup cycles | Reduce current density to 20-30 mA/cm²; improve brine purification; minimize thermal cycling of cells |
+| Chlorine gas wet (moisture >50 ppm) | Insufficient drying tower capacity or concentrated H₂SO₄ exhausted in drying column | Increase H₂SO₄ circulation rate in drying tower; replace or regenerate spent acid (target <20 ppm H₂O in dry Cl₂) |
+| Brine hardness spikes | Failure in brine purification system: ion exchange resin exhausted or precipitation chemicals dosed incorrectly | Regenerate or replace ion exchange resin; verify Na₂CO₃ and NaOH dosing rates (target: Ca²⁺ + Mg²⁺ <20 ppb); backflush brine filters |
+| Cell room hydrogen detected in air (>1% H₂) | Cathode compartment vent blocked, or hydrogen seal leak at cell gasket | Increase cell room ventilation to 10+ air changes per hour; check cathode gas outlet for blockages; verify gasket integrity on hydrogen collection manifold |
 
 ## Variations and Alternatives
 

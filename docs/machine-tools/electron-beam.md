@@ -2,8 +2,8 @@
 
 > **Node ID**: machine-tools.joining.electron-beam
 > **Domain**: [Machine-Tools](./index.md)
-> **Dependencies**: [`Vacuum Chambers & Sealing`](chambers.md)
-> **Enables**: [`Vacuum Pumps`](pumps.md), [`Metal Joining`](joining.md), [`Electricity Generation & Distribution`](electricity.md)
+> **Dependencies**: [`Vacuum Chambers & Sealing`](../vacuum/chambers.md)
+> **Enables**: [`Vacuum Pumps`](../vacuum/pumps.md), [`Metal Joining`](joining.md), [`Electricity Generation & Distribution`](../energy/electricity.md)
 > **Timeline**: Years 30-60
 > **Outputs**: electron_beam_welds, hermetic_seals
 > **Critical**: No
@@ -38,7 +38,7 @@ Electron beam welding machines range from small chamber units for laboratory and
 
 ### Equipment
 
-- [Vacuum Chambers & Sealing](chambers.md) — tool dependency
+- [Vacuum Chambers & Sealing](../vacuum/chambers.md) — tool dependency
 - Electron beam welding machine with vacuum chamber
 - High-voltage power supply (30-150 kV) with electron gun assembly
 - CNC workpiece manipulation system (rotary, X-Y, or multi-axis)
@@ -89,6 +89,33 @@ Beam focusing is achieved by electromagnetic coils rather than glass optics, whi
 | Travel Speed | 100-2000 mm/min | Higher speed with higher current for same penetration |
 | Focus Position | Above, at, or below surface | Below surface for maximum penetration; at surface for wider weld |
 | Vacuum Level | 10⁻¹ to 10⁻⁵ mbar | High vacuum for Ti, Zr; medium vacuum for steel |
+
+### Penetration Depth vs. Parameters (Steel)
+
+| Voltage (kV) | Beam Current (mA) | Power (kW) | Travel Speed (mm/min) | Penetration (mm) |
+|-------------|-------------------|-----------|----------------------|-----------------|
+| 60 | 30 | 1.8 | 500 | 5-8 |
+| 60 | 50 | 3.0 | 500 | 10-15 |
+| 60 | 100 | 6.0 | 500 | 20-30 |
+| 100 | 50 | 5.0 | 500 | 15-25 |
+| 100 | 100 | 10.0 | 500 | 30-50 |
+| 150 | 50 | 7.5 | 500 | 25-40 |
+| 150 | 100 | 15.0 | 500 | 50-100 |
+| 150 | 200 | 30.0 | 500 | 100-200 |
+
+Single-pass penetration is the primary advantage of EBW. A 150 kV beam at 200 mA penetrates up to 200 mm in steel in a single pass, with a depth-to-width ratio of 10:1 to 30:1. This is unachievable with any arc welding process, which maxes out at roughly 10-15 mm single-pass penetration.
+
+### Recommended Parameters by Material
+
+| Material | Voltage (kV) | Current (mA) | Speed (mm/min) | Vacuum Level | Notes |
+|----------|-------------|-------------|----------------|--------------|-------|
+| Low carbon steel | 60 | 30-80 | 300-1000 | 10⁻¹ mbar | Most forgiving; medium vacuum acceptable |
+| Stainless 304 | 60 | 30-60 | 300-800 | 10⁻² mbar | Watch for sensitization in HAZ |
+| Titanium (CP, Gr2) | 60-100 | 30-60 | 300-800 | 10⁻⁴ mbar | High vacuum essential; titanium dissolves oxygen at weld temp |
+| Inconel 718 | 100-150 | 50-100 | 200-600 | 10⁻³ mbar | Nickel alloy; watch for hot cracking at high restraint |
+| Copper | 60-100 | 80-150 | 200-500 | 10⁻² mbar | High thermal conductivity requires higher power |
+| Tungsten | 100-150 | 100-200 | 100-300 | 10⁻⁴ mbar | Refractory metal; high vacuum essential to prevent embrittlement |
+| Zirconium | 60-100 | 30-60 | 300-800 | 10⁻⁴ mbar | Nuclear grade; extreme cleanliness required |
 
 The welding vacuum level affects beam quality and weld metal properties. High vacuum provides the best beam focus and deepest penetration but requires longer pump-down time. Medium vacuum reduces cycle time but may allow some gas absorption in the weld metal. For titanium and other reactive metals, high vacuum is essential to prevent embrittlement. For steel welding, medium vacuum provides adequate protection with better productivity.
 
@@ -157,13 +184,16 @@ Pump-down time for the vacuum chamber is a significant productivity factor. Larg
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Root porosity | Keyhole instability or trapped gas | Reduce travel speed; adjust beam focus deeper; verify base metal cleanliness |
-| Spiking (irregular root penetration) | Beam instability or focus drift | Re-calibrate magnetic focusing lenses; verify high-voltage stability |
-| Undercut at weld toe | Excessive beam power for joint geometry | Reduce beam current; widen beam oscillation amplitude |
-| Missed joint at root | Beam misalignment with joint line | Verify joint tracking system calibration; re-align beam to joint centerline |
-| Cold shuts (incomplete side-wall fusion) | Insufficient beam oscillation or too fast travel | Increase oscillation width; reduce travel speed |
-| Weld cracking | High restraint or material susceptibility | Preheat workpiece; modify joint design to reduce restraint; post-weld heat treat |
-| X-ray shielding alarm during operation | Beam striking chamber wall or fixture | Stop weld immediately; verify beam alignment and joint tracking |
+| Root porosity | Keyhole instability or trapped gas in base metal | Reduce travel speed by 15-20%; adjust beam focus 1-2 mm deeper; verify base metal cleanliness with solvent wipe; degas base metal by preheating to 200-300°C before welding |
+| Spiking (irregular root penetration) | Beam instability, focus drift, or magnetic fields | Re-calibrate magnetic focusing lenses; verify high-voltage ripple is below 1%; demagnetize workpiece; check for ferromagnetic fixtures near beam path |
+| Undercut at weld toe | Excessive beam power for joint geometry | Reduce beam current by 10-15%; widen beam oscillation amplitude to 0.5-1.0 mm; add filler wire or run-off tabs |
+| Missed joint at root | Beam misalignment with joint line | Verify joint tracking system calibration; re-align beam to joint centerline using optical sight; tighten fit-up to <0.1 mm gap |
+| Cold shuts (incomplete side-wall fusion) | Insufficient beam oscillation or too-fast travel | Increase oscillation width by 0.2-0.5 mm; reduce travel speed by 20%; verify oscillation frequency is 100-500 Hz |
+| Weld cracking | High restraint, material susceptibility, or fast cooling | Preheat workpiece to 150-250°C; modify joint design to reduce restraint by 30-50%; post-weld heat treat per material specification |
+| X-ray shielding alarm during operation | Beam striking chamber wall or fixture | Stop weld immediately; verify beam alignment and joint tracking; inspect for workpiece shift during welding |
+| Excessive weld width (low depth-to-width ratio) | Focus too close to surface or excessive oscillation | Move focus point 2-5 mm below surface; reduce oscillation amplitude; verify beam spot size is 0.3-0.8 mm |
+| Incomplete penetration | Insufficient power or focus too deep | Increase beam current by 10-20%; move focus toward surface; verify vacuum level is adequate (below 10⁻³ mbar for reactive metals) |
+| Arc discharge in chamber | Outgassing from contaminated workpiece or fixtures | Clean workpiece thoroughly with solvent; pre-pump and outgas at 200°C; check chamber interior for condensate from previous welds |
 
 ## Variations and Alternatives
 
@@ -177,10 +207,10 @@ EBW is the welding method of choice for fabricating ultra-high vacuum chambers u
 
 - [Metal Joining](joining.md) — parent capability
 - [Machine-Tools Domain](./index.md) — domain overview and related capabilities
-- [Vacuum Chambers & Sealing](chambers.md) — upstream dependency (tool)
-- [Vacuum Pumps](pumps.md) — downstream capability
+- [Vacuum Chambers & Sealing](../vacuum/chambers.md) — upstream dependency (tool)
+- [Vacuum Pumps](../vacuum/pumps.md) — downstream capability
 - [Metal Joining](joining.md) — downstream capability
-- [Electricity Generation & Distribution](electricity.md) — downstream capability
+- [Electricity Generation & Distribution](../energy/electricity.md) — downstream capability
 
 ### Material Handling
 

@@ -3,7 +3,7 @@
 > **Node ID**: chemistry.water-electrolysis
 > **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`Electrolysis`](electrolysis.md)
-> **Enables**: [`E-Methanol Synthesis`](e-methanol.md), [`Fuel Cell`](fuel-cell.md)
+> **Enables**: [`E-Methanol Synthesis`](e-methanol.md), [`Fuel Cell`](../energy/fuel-cell.md)
 > **Timeline**: Years 20-40
 > **Outputs**: hydrogen, oxygen
 > **Critical**: No
@@ -166,11 +166,11 @@ The energy economics of water electrolysis are dominated by the cell voltage. Ev
 
 ## References
 
-- [Chemistry](chemistry.md) — parent capability
+- [Chemistry](index.md) — parent capability
 - [Chemistry Domain](./index.md) — domain overview and related capabilities
 - [Electrolysis](electrolysis.md) — upstream dependency (tool)
 - [E-Methanol Synthesis](e-methanol.md) — downstream capability
-- [Fuel Cell](fuel-cell.md) — downstream capability
+- [Fuel Cell](../energy/fuel-cell.md) — downstream capability
 
 ### Material Handling
 

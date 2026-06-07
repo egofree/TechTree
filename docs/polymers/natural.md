@@ -3,7 +3,7 @@
 > **Node ID**: polymers.rubber.natural
 > **Domain**: [Polymers & Composites](./index.md)
 > **Dependencies**: [`foundations`](../foundations/index.md), [`chemistry.distillation`](../chemistry/distillation.md)
-> **Enables**: [`polymers.rubber.vulcanization`](rubber.vulcanization.md), [`energy.engine`](../energy/engine.md), [`machine-tools.casting`](../machine-tools/casting.md)
+> **Enables**: [`polymers.rubber.vulcanization`](rubber.vulcanization.md), [`energy.engine`](../energy/engine.md), [`machine-tools.casting`](../metals/casting.md)
 > **Timeline**: Years 5-30
 > **Outputs**: vulcanized_rubber, tires, drive_belts
 > **Critical**: Yes — rubber is the only natural elastomer; seals, belts, tires, and hoses all depend on it

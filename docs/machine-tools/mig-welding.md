@@ -3,7 +3,7 @@
 > **Node ID**: machine-tools.joining.mig-welding
 > **Domain**: [Machine-Tools](./index.md)
 > **Dependencies**: See prerequisites
-> **Enables**: [`Metal Joining`](joining.md), [`Electricity Generation & Distribution`](electricity.md)
+> **Enables**: [`Metal Joining`](joining.md), [`Electricity Generation & Distribution`](../energy/electricity.md)
 > **Timeline**: Years 20-50
 > **Outputs**: mig_welds
 > **Critical**: No
@@ -17,6 +17,28 @@ The transfer mode determines weld pool behavior, spatter generation, and positio
 Pulsed spray transfer combines the advantages of both modes by cycling the current between a peak level that sprays droplets and a background level that maintains the arc without transferring metal. This allows spray-quality deposition at lower average current, enabling out-of-position welding with low spatter. Modern inverter power supplies provide precise pulse control that adapts to wire feed speed changes in real time.
 
 Shielding gas selection affects arc stability, penetration profile, and weld metal chemistry. Pure CO₂ provides deep penetration at low cost but generates more spatter. Argon-CO₂ blends (75/25 or 80/20) offer a good balance for mild steel. Argon-helium-CO₂ triple mixes are used for stainless steel and some aluminum applications.
+
+## Why Transfer Modes Exist
+
+The transfer mode describes how molten metal moves from the wire tip to the weld pool. It is determined by the interaction of three forces: gravity pulling the droplet down, electromagnetic force (Lorentz force) pushing it away from the wire tip, and surface tension holding it to the wire. As current increases, the electromagnetic force overcomes surface tension, changing the transfer mode.
+
+- **Short-circuit transfer** (16-20V): At low voltage, the wire feeds into the pool faster than it melts. The wire physically touches the pool, short-circuiting the arc. The short-circuit current spike rapidly melts the wire, and surface tension pulls the molten ball into the pool. This cycle repeats 20-100 times per second. The result is a cold, controllable process ideal for thin materials and out-of-position welding, but the repeated short circuits produce spatter. Heat input is low because the arc is extinguished during each short circuit.
+- **Globular transfer** (20-24V): At medium voltage with CO₂-rich shielding, droplets grow to 1-3 times the wire diameter before detaching. Gravity and electromagnetic force must overcome the large surface tension of the big droplet. The large, erratic droplets produce irregular bead shape and moderate spatter. This mode is the least controlled and is generally avoided in production, though it occurs naturally at intermediate settings.
+- **Spray transfer** (25-35V, argon-rich gas): At high voltage with argon-rich shielding (80%+ Ar), electromagnetic pinch force dominates surface tension. Droplets are smaller than the wire diameter (0.5-0.8×) and stream across the arc gap in a stable cone. The continuous arc produces smooth, spatter-free welds at high deposition rates. The physics: at high current density in argon, the Lorentz force (proportional to I²) exceeds surface tension (proportional to droplet radius), producing many small droplets instead of one large one. Spray transfer requires argon-rich gas because CO₂ changes the arc plasma characteristics, raising the transition current above practical levels.
+- **Pulsed spray** (inverter power supply): The power supply alternates between a peak current (above spray transition threshold, 300-500A for 1.2 mm wire) and a background current (below it, 50-100A). During the peak pulse, one droplet detaches in spray mode. During background, the arc maintains but no metal transfers. This gives spray-quality droplets at an average current low enough for out-of-position welding and thin materials. The pulse frequency (30-300 Hz) controls the droplet rate.
+
+### Recommended Parameters by Material and Thickness (Mild Steel)
+
+| Thickness | Joint Type | Wire Dia. (mm) | Wire Feed (m/min) | Voltage (V) | Current (A) | Transfer Mode | Gas |
+|-----------|-----------|----------------|-------------------|-------------|-------------|--------------|-----|
+| 1.0 mm | Square butt | 0.6-0.8 | 3-5 | 16-18 | 60-100 | Short-circuit | 75/25 Ar/CO₂ |
+| 1.5 mm | Square butt | 0.8 | 4-6 | 17-19 | 80-130 | Short-circuit | 75/25 Ar/CO₂ |
+| 3 mm | Square butt | 0.9-1.0 | 5-7 | 18-20 | 120-160 | Short-circuit | 75/25 Ar/CO₂ |
+| 6 mm | V-groove | 1.0 | 5-7 | 20-22 | 140-180 | Globular/short | 75/25 Ar/CO₂ |
+| 6 mm | Fillet | 1.0 | 6-8 | 20-22 | 160-200 | Globular/short | 75/25 Ar/CO₂ |
+| 10 mm | V-groove | 1.2 | 8-12 | 24-28 | 220-300 | Spray | 90/10 Ar/CO₂ |
+| 12 mm | V-groove | 1.2 | 10-14 | 26-30 | 260-350 | Spray | 90/10 Ar/CO₂ |
+| 20 mm | V-groove | 1.6 | 5-8 | 28-32 | 300-400 | Spray | 90/10 Ar/CO₂ |
 
 Primary outputs: `mig_welds`.
 
@@ -177,7 +199,7 @@ Joint design for MIG welding follows standard arc welding practice: V-groove, be
 - [Metal Joining](joining.md) — parent capability
 - [Machine-Tools Domain](./index.md) — domain overview and related capabilities
 - [Metal Joining](joining.md) — downstream capability
-- [Electricity Generation & Distribution](electricity.md) — downstream capability
+- [Electricity Generation & Distribution](../energy/electricity.md) — downstream capability
 
 ### Material Handling
 

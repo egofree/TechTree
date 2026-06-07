@@ -12,9 +12,13 @@
 
 Siege engineering encompasses the offensive and logistical operations required to capture fortified positions, and the counter-measures defenders employ to resist them. From battering rams against timber palisades to cannon bombardment of stone walls, siege warfare drives the development of mechanical engineering, metallurgy, and large-scale logistics.
 
-Siege operations are the most resource-intensive military activities in the pre-industrial world. A major siege requires thousands of soldiers, tens of thousands of kilograms of powder and shot, massive timber stocks for siege engine construction, and a supply chain delivering tonnes of food and materiel daily. The logistics of sustaining a siege often determine its outcome more than the weapons employed -- historically, disease and starvation killed 3-10 times more soldiers than combat during sieges.
+Siege operations are the most resource-intensive military activities in the pre-industrial world. A major siege requires thousands of soldiers, tens of thousands of kilograms of powder and shot, massive timber stocks for siege engine construction, and a supply chain delivering tonnes of food and materiel daily. The logistics of sustaining a siege often determine its outcome more than the weapons employed. Historically, disease and starvation killed 3-10 times more soldiers than combat during sieges.
 
 This capability covers siege engines (battering rams, siege towers, torsion artillery, trebuchets), cannon artillery from early bombards to standardized siege guns, military logistics (supply requirements, baggage trains, march rates), mining operations against fortifications, and field fortification construction. Each of these subsystems depends on broader industrial capabilities: [metals production](../metals/iron-steel.md) for cannon, [chemistry](../chemistry/explosives.md) for gunpowder, [textiles](../textiles/index.md) for rope, and [mining](../mining/index.md) for tunneling.
+
+**Why fortification design determines siege tactics**: A timber palisade (0.15-0.20 m thick, 2.5-3.0 m high) falls to a battering ram in minutes. A stone curtain wall (2.0-3.0 m thick, 6-10 m high) requires cannon, mining, or a prolonged battering campaign. A star fort with earthen glacis and interlocking bastions (trace italienne) can only be reduced by systematic approach trenches, parallel by parallel, over months. The defender's fortification investment determines the attacker's required time, materiel, and casualties. This is why fortification construction is the most cost-effective defense investment a community can make: every meter of wall thickness and every geometric improvement in the trace multiplies the resources an attacker must commit.
+
+**Why the 3:1 attacker ratio is a rule, not a suggestion**: A defender behind fortifications occupies a prepared position with known terrain, stored supplies, and protection from missiles. To storm a breach, the attacker must cross open ground under fire, climb through rubble, and fight in a confined space where numerical advantage is neutralized. Historical analysis of sieges from the ancient world through the 19th century shows that attackers need roughly 3 soldiers for every 1 defender to have a reasonable probability of success. Below 2:1, the attack almost always fails. Above 5:1, the attack usually succeeds quickly. This ratio holds because the defender's advantages (cover, prepared positions, interior lines) offset roughly two-thirds of the attacker's numerical superiority.
 
 
 ## Prerequisites
@@ -252,7 +256,57 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 
 **Redoubt**: Small enclosed field fortification (20-50 m square) with earthen parapet and ditch. Cannon or musket positions on each face. Construction: 500-2000 worker-hours. Provides strongpoint in defensive line or fortified position for artillery battery.
 
-**Abatis and entanglement**: Felled trees, sharpened stakes, and barbed wire creating obstacle zone 20-50 m deep in front of defensive position. Purpose: delay attacking infantry 3-10 minutes under defensive fire -- converts open ground into kill zone. See [Fortifications](fortifications.md) for detailed obstacle specifications.
+**Abatis and entanglement**: Felled trees, sharpened stakes, and barbed wire creating obstacle zone 20-50 m deep in front of defensive position. Purpose: delay attacking infantry 3-10 minutes under defensive fire, converting open ground into kill zone. See [Fortifications](fortifications.md) for detailed obstacle specifications.
+
+
+## Fortification Dimensions by Type
+
+**Timber palisade (basic settlement defense)**:
+- Wall height: 2.5-3.5 m above ground level
+- Post diameter: 150-200 mm (timber posts)
+- Post spacing: 100-200 mm (tight fit between posts)
+- Post depth in ground: 0.8-1.0 m (below frost line in cold climates)
+- Wall thickness: 150-200 mm (single timber thickness)
+- Ditch in front: 1.5 m wide × 1.0 m deep, 1.0-2.0 m from wall base
+- Construction time: 100-200 worker-days per 100 m of wall
+- Effective against: infantry assault, small raiding parties
+- Vulnerable to: battering ram, fire, mining under posts
+
+**Stone curtain wall (medieval castle)**:
+- Wall height: 6-10 m above grade
+- Wall thickness at base: 2.0-3.5 m (solid stone or rubble core with ashlar facing)
+- Wall thickness at parapet: 1.0-1.5 m
+- Wall-walk width: 1.0-2.0 m behind parapet
+- Parapet height: 1.5-2.0 m (with crenellations: merlons 0.3-0.5 m wide, gaps 0.5-0.8 m wide)
+- Foundation depth: 1.5-3.0 m below grade (to prevent mining at shallow depth)
+- Construction material: ashlar (cut stone) facing with rubble and mortar core. Mortar: lime-based (1 part lime to 3 parts sand by volume)
+- Construction time: 1,000-5,000 worker-days per 100 m of wall (2-5 m height)
+- Effective against: all pre-gunpowder siege engines; resistant to small cannon
+- Vulnerable to: large cannon (>150 mm), mining, prolonged bombardment
+
+**Earth rampart (artillery-resistant)**:
+- Height: 4-8 m above grade
+- Thickness at base: 8-15 m (earth absorbs cannon shot; stone walls shatter)
+- Revetment: stone or timber facing on interior slope to prevent collapse
+- Glacis: gentle outer slope (1:5 to 1:10 gradient) extending 30-50 m from rampart base, cleared of cover
+- Ditch: 6-10 m wide × 2-3 m deep at foot of glacis
+- Parapet: 1.5-2.0 m earth on top of rampart, thick enough to stop musket balls (minimum 1.5 m packed earth)
+- Construction time: 5,000-20,000 worker-days per 100 m
+- Effective against: all cannon up to 200 mm; shot buries into earth without shattering structure
+- Vulnerable to: mining (if water table is low), infantry assault after bombardment
+
+**Star fort bastion (trace italienne)**:
+- Bastion angle: 60-90° (arrowhead shape projecting from curtain wall)
+- Bastion face length: 30-60 m each side
+- Curtain wall between bastions: 100-200 m (must be within musket range of the bastion flank to prevent dead ground)
+- Covered way: 3-5 m wide pathway along outer edge of ditch, protected by palisade or low parapet
+- Overall perimeter: 500-2000 m for a medium fortification
+- Garrison: 500-3,000 soldiers
+- Construction: 50,000-200,000 worker-days (earthworks dominate)
+- Effective against: all pre-modern siege methods; systematic approach trenches required
+- Vulnerable to: months-long systematic investment with large labor force
+
+**Why earth defeats cannon that stone cannot**: A stone wall is rigid. A cannonball striking stone transfers its kinetic energy into fracturing the stone and dislodging mortar. Repeated strikes create a breach. An earth rampart is plastic. The same cannonball buries into the earth, displacing a small volume of material but not creating a structural failure. The rampart can absorb hundreds of hits and remain functional. This is why the trace italienne (star fort with earth ramparts) replaced medieval stone castles within a century of cannon becoming common. The transition was not gradual. Stone walls that had stood for centuries became obsolete in decades.
 
 
 ## Naval Siege Warfare
@@ -260,6 +314,43 @@ Tunnel dug under wall foundation. Tunnel dimensions: 1.0-1.5 m wide x 1.5-2.0 m 
 **Blockade**: Naval force prevents supply by sea -- starving fortress into surrender. Requires naval supremacy in local waters. Blockade squadron: 3-10 ships depending on harbor size. Blockade runners intercepted by patrol vessels. Effectiveness: complete naval blockade reduces defender's supply to internal stores only -- surrender typically follows in 2-6 months if no relief force arrives.
 
 **Bombardment from sea**: Ships-of-the-line carry 30-120 guns each (24-36 pounder cannon). Broadside weight: 200-500 kg of iron shot per volley. Range: 500-1000 m (ships carry heavier guns than field artillery). Ship bombardment of coastal fortifications: limited by ship motion (gun platform unstable) and fortification return fire (fortress guns on stable platform, more accurate). Historically, shore fortifications usually win gunnery duels against ships.
+
+
+## Terrain-Specific Siege Tactics
+
+The terrain around a fortification constrains which siege methods are viable and determines the attacker's approach.
+
+**Hilltop fortification**:
+- Attacker must approach uphill, exposing troops to defensive fire from elevated position. The height advantage gives defenders 20-40% greater missile range.
+- Siege towers impractical on steep slopes (grade >10%). The tower cannot be pushed uphill without excessive labor.
+- Mining is difficult in rocky hillside: tunneling through bedrock advances at 0.2-0.5 m/day versus 0.5-2.0 m/day in soil. Fire-setting essential for rock excavation.
+- Best siege approach: blockade and starvation. Hilltop forts typically have limited water supply (no well, dependent on cisterns). Cut the water supply and the fort surrenders in weeks.
+- Defensive advantage: very high. Historical hilltop forts (Montségur, Masada) required extreme measures to capture.
+
+**River or moat-protected fortification**:
+- Water obstacle (8-30 m wide, 2-5 m deep) prevents mining (tunnels flood), blocks siege tower approach, and makes battering ram approach impossible without bridging.
+- Bridging under fire: construct pontoon bridge (boats lashed together with timber decking) at the narrowest crossing point. Requires 10-20 boats, 50-100 m of timber decking, and protection from missile fire during construction. Expected casualties: 20-40% of bridging party.
+- Alternative: fill moat with fascines and earth to create a causeway. A 15 m wide moat requires 500-1,000 m³ of fill material. Construction time: 3-7 days with 200 laborers working under fire.
+- Best siege approach: cannon bombardment from the river bank opposite the weakest wall section. Ships or floating batteries bring cannon closer than land positions allow.
+
+**Flat open terrain**:
+- Offers maximum siege engine maneuverability. Siege towers, battering rams, and cannon batteries can all be positioned optimally.
+- Attacker is also fully exposed. Approach trenches essential for protecting infantry from defender's missile fire. Zigzag trench pattern (30-40 m segments at 60-90° angles) prevents enfilade fire from sweeping the entire trench.
+- Mining is viable in flat terrain with soil (not rock). Tunnels started from within siege lines, 50-200 m from the wall, are hard for defenders to detect.
+- Defensive advantage: low without fortifications. A fortified town on flat terrain is vulnerable to every siege method and must rely on the strength of its walls and depth of its garrison.
+
+**Mountain pass or gorge fortification**:
+- Fort blocking a narrow pass (20-100 m wide) is nearly impervious to conventional siege. The terrain prevents flanking, limits siege engine deployment, and channels attackers into a killing zone.
+- Battering ram cannot approach: the passage is too narrow for a covered ram to maneuver.
+- Mining is the primary option, but the geology of mountain passes (often solid rock) makes tunneling extremely slow.
+- Best siege approach: bypass (if an alternative route exists, even a difficult one) or blockade. If the pass is the only route, the siege becomes a war of attrition in the most unfavorable conditions for the attacker.
+- Historical examples (Thermopylae, Roncesvalles) show that a small force in a pass can hold off a vastly larger army for days to weeks.
+
+**Coastal fortification**:
+- Vulnerable to naval bombardment and blockade simultaneously.
+- Defenders must protect both landward and seaward approaches, dividing their forces.
+- Attacker can land troops on undefended beaches, flank the landward defenses, and assault from the rear.
+- Best defensive design: bastioned trace with interlocking fields of fire covering both land and sea approaches. Cannon positioned at 15-30 m elevation give defenders range advantage over ships (gravity extends effective range by 10-20%).
 
 
 ## Scaling Notes

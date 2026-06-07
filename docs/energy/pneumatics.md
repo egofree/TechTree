@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.pneumatics
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`Construction & Structural Engineering`](construction.md)
-> **Enables**: [`Gas Handling`](gas-handling.md), [`Energy`](energy.md)
+> **Dependencies**: [`Construction & Structural Engineering`](../construction/index.md)
+> **Enables**: [`Gas Handling`](../gas-handling/index.md), [`Energy`](index.md)
 > **Timeline**: Years 15-25
 > **Outputs**: compressed-air-systems, pneumatic-tools
 > **Critical**: No
@@ -30,7 +30,7 @@ The historical development of pneumatic technology closely parallels the develop
 
 ### Equipment
 
-- [Construction & Structural Engineering](construction.md) — tool dependency
+- [Construction & Structural Engineering](../construction/index.md) — tool dependency
 - Air compressors (reciprocating, rotary screw, centrifugal)
 - Air receivers, aftercoolers, dryers (refrigerated or desiccant), and filtration units
 - Pneumatic tools (drills, grinders, impact wrenches, hoists, cylinders)
@@ -75,6 +75,33 @@ A compressed air system draws ambient air through intake filters, compresses it 
 | Pressure dew point | +3°C to -40°C | Refrigerated dryer: +3°C. Desiccant dryer: -40°C or lower |
 | Distribution velocity | <6 m/s in mains | Higher velocity increases pressure drop and turbulence |
 | Compressor discharge temp | <100°C | Higher indicates cooler fouling or mechanical issue |
+
+## Cylinder Sizing and Air Consumption
+
+Pneumatic cylinders produce force through air pressure on the piston area. Because air is compressible, the actual force delivered depends on the working pressure in the cylinder during the stroke, not just the supply pressure.
+
+**Cylinder force at 7 bar (gauge) supply**:
+
+| Bore (mm) | Extension Force (N) | Extension Force (kgf) | Air Volume per Stroke (L/100mm) |
+|-----------|--------------------|-----------------------|--------------------------------|
+| 25 | 344 | 35 | 0.05 |
+| 32 | 563 | 57 | 0.08 |
+| 40 | 880 | 90 | 0.13 |
+| 50 | 1,375 | 140 | 0.20 |
+| 63 | 2,181 | 222 | 0.31 |
+| 80 | 3,519 | 359 | 0.50 |
+| 100 | 5,498 | 561 | 0.79 |
+| 125 | 8,593 | 876 | 1.23 |
+| 160 | 14,080 | 1,436 | 2.01 |
+| 200 | 21,991 | 2,242 | 3.14 |
+
+**Force formula**: F = P × π × (d/2)², where P = gauge pressure (Pa) and d = bore (m). At 7 bar (700,000 Pa), a 50 mm bore cylinder: F = 700,000 × π × (0.025)² = 1,375 N.
+
+**Air consumption calculation**: The volume of free air (atmospheric conditions) consumed per stroke is much larger than the cylinder volume because the air is compressed. Free air consumption per stroke: V_free = V_cylinder × (P_gauge + 1.013) / 1.013, where V_cylinder = π × (d/2)² × stroke. A 50 mm bore, 200 mm stroke cylinder at 7 bar: V_cylinder = 0.393 L, V_free = 0.393 × 8.013 / 1.013 = 3.1 L of free air per stroke. At 30 cycles/minute, consumption = 93 L/min free air (0.093 m³/min).
+
+**Compressor sizing rule**: Total the free air consumption of all actuators, add 20-30% for leakage (a well-maintained system leaks 10-20% of capacity; typical industrial plants leak 20-30%), then select a compressor rated for 1.2-1.5× the total. A workshop with three 50 mm bore cylinders running at 30 cycles/min each needs: 3 × 93 = 279 L/min + 30% leakage = 363 L/min. Select a compressor rated for at least 440 L/min (0.44 m³/min) free air delivery.
+
+**Pipe sizing**: For a main distribution line carrying 500 L/min free air at 7 bar, the compressed air volume flow is 500/8 ≈ 62.5 L/min. At a target velocity of 6 m/s: pipe area = 62.5 / (1000 × 60 × 6) = 0.000174 m², giving pipe ID = √(4 × 0.000174 / π) ≈ 15 mm. Use 20-25 mm nominal pipe for this flow to keep pressure drop below 0.1 bar per 100 m of pipe.
 
 The compressibility of air, while making pneumatics less energy-efficient than hydraulics for force multiplication, provides an inherent cushioning effect that protects both equipment and workpieces from shock loads. Pneumatic cylinders can stall against a hard stop without damage, whereas hydraulic cylinders would generate destructive pressures. This compliance makes pneumatic actuators well-suited for pick-and-place operations, clamping, and applications where the load position varies unpredictably.
 
@@ -145,12 +172,15 @@ Air preparation at each point of use includes a filter, regulator, and lubricato
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Pressure drop at farthest tools | Leaks in distribution or undersized piping | Locate and repair leaks using ultrasonic detector; verify pipe sizing matches flow demand |
-| Water in airlines reaching tools | Failed dryer, undersized aftercooler, or clogged drain | Service dryer; clean aftercooler tubes; verify automatic drain valve operation |
-| Short pneumatic tool life | Contaminated air (oil, water, particulates) reaching tool | Check and replace filters; install point-of-use lubricator; verify dryer performance |
-| Compressor short-cycling | Excessive leakage or undersized receiver | Perform leak survey; install additional receiver volume |
-| Compressor overheating | Fouled oil cooler or low oil level in screw compressor | Clean cooler fins; check and top up oil; verify thermostat operation |
-| High energy consumption | System leaks, restricted intake filter, or compressor unload valve failure | Fix leaks; clean intake filter; service load/unload control valve |
+| Pressure drop at farthest tools (>0.5 bar below compressor discharge) | Leaks in distribution or undersized piping | Locate and repair leaks using ultrasonic detector. A single 3 mm hole at 7 bar wastes ~0.6 m³/min of free air — at ~8 kW per m³/min compressor power, that leak costs ~4.8 kW continuously. Verify pipe sizing matches flow demand: for 500 L/min at 7 bar, main line should be ≥20 mm ID. If total leakage exceeds 20% of compressor capacity, institute a systematic leak repair program |
+| Water in airlines reaching tools | Failed dryer, undersized aftercooler, or clogged drain | Service dryer (replace refrigerant compressor if not cooling; replace desiccant if dew point rising above -20°C). Clean aftercooler tubes. Verify automatic drain valve cycles correctly — stuck-closed drains allow water to accumulate and carry over into distribution lines. A properly functioning aftercooler should reduce air temperature to within 10°C of ambient, condensing 60-80% of the moisture |
+| Short pneumatic tool life (seals failing in <6 months) | Contaminated air (oil, water, particulates) reaching tool | Check and replace filters. Install point-of-use coalescing filter for oil removal (target: <0.01 mg/m³ oil content). Verify dryer performance with dew point meter at point of use. For pneumatic tools rated at 7 bar, water contamination above 0.5 g/m³ washes out internal lubrication and corrodes precision surfaces. Install point-of-use lubricator set to 1-3 drops/minute for tools requiring lubrication |
+| Compressor short-cycling (loading/unloading more than 6 times per minute) | Excessive leakage or undersized receiver | Perform leak survey with ultrasonic detector. The receiver should be sized at 15-30% of the compressor free air delivery per minute to buffer the load/unload cycle. Example: a compressor delivering 500 L/min needs a receiver of 75-150 liters minimum. If the existing receiver is smaller, add a second receiver in parallel. Short-cycling wastes energy (each load cycle draws peak motor current) and shortens compressor valve life |
+| Compressor overheating (discharge >100°C) | Fouled oil cooler or low oil level in screw compressor | Clean cooler fins with compressed air or steam — a 10% reduction in cooler airflow raises discharge temperature ~15-20°C. Check and top up oil: rotary screw compressors carry 30-80 liters of lubricant; low oil reduces both cooling and sealing. Verify thermostat operation. For reciprocating compressors, check intercooler tubes for carbon buildup (common after 5,000+ hours on mineral oil) and clean mechanically |
+| High energy consumption (kW per m³/min above rated) | System leaks, restricted intake filter, or compressor unload valve failure | Fix leaks first — they are the cheapest to address. Measure compressor specific power: a rotary screw compressor at 7 bar should draw 6-8 kW per m³/min of free air delivered. If drawing >10 kW per m³/min, the compressor is worn or controls are malfunctioning. Check load/unload solenoid valve: if stuck in load position, the compressor runs at full power even during no-demand periods |
+| Cylinder moving too slowly | Supply pressure too low at the cylinder, or flow restriction in the piping | Measure pressure at the cylinder inlet with a gauge while the cylinder is moving — not at rest. If pressure drops more than 1 bar below setpoint during motion, the supply line is restricting flow. Check FRL regulator setting (should be 6.3 bar for a 7 bar system). Verify quick-connect fittings are fully seated — partially engaged fittings restrict flow by 50-80%. For a 50 mm bore cylinder, a flow restriction that reduces effective pressure from 6.3 to 4 bar reduces force by 37% and speed proportionally |
+| Cylinder not extending at all | Pilot valve not actuated, or muffler/exhaust blocked | Check that the pilot signal reaches the directional valve (measure pilot pressure at the valve — needs >2.5 bar to shift). Verify exhaust is not blocked — a blocked muffler on the exhaust port creates back-pressure that prevents the spool from shifting. For spring-return cylinders, check that the spring is not broken (extend cylinder with air, then vent — it should retract under spring force within 1-2 seconds) |
+| Excessive moisture in system during humid months | Dryer undersized for peak summer humidity, or dryer not maintaining dew point | Size dryer for worst-case conditions: 35°C ambient, 90% RH inlet air requires 30-40% more drying capacity than the same compressor at 20°C, 50% RH. Check dryer dew point indicator — if showing above +5°C on a refrigerated dryer rated for +3°C, the dryer needs service (refrigerant charge, condenser cleaning, or evaporator cleaning). For critical applications, install a desiccant dryer as a backup for high-humidity months |
 
 ## Variations and Alternatives
 
@@ -177,11 +207,11 @@ Pneumatic safety circuits use air pressure to hold safety interlocks in the safe
 
 ## References
 
-- [Energy](energy.md) — parent capability
+- [Energy](index.md) — parent capability
 - [Energy Domain](./index.md) — domain overview and related capabilities
-- [Construction & Structural Engineering](construction.md) — upstream dependency (tool)
-- [Gas Handling](gas-handling.md) — downstream capability
-- [Energy](energy.md) — downstream capability
+- [Construction & Structural Engineering](../construction/index.md) — upstream dependency (tool)
+- [Gas Handling](../gas-handling/index.md) — downstream capability
+- [Energy](index.md) — downstream capability
 
 ### Material Handling
 

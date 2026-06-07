@@ -2,8 +2,8 @@
 
 > **Node ID**: knowledge.surveying
 > **Domain**: [Knowledge](./index.md)
-> **Dependencies**: [`Mining Engineering & Extractive Metallurgy`](mining.md), [`Construction & Structural Engineering`](construction.md)
-> **Enables**: [`Mathematics & Formal Sciences`](mathematics.md), [`Measurement & Instrumentation`](measurement.md)
+> **Dependencies**: [`Mining Engineering & Extractive Metallurgy`](../mining/index.md), [`Construction & Structural Engineering`](../construction/index.md)
+> **Enables**: [`Mathematics & Formal Sciences`](../mathematics/index.md), [`Measurement & Instrumentation`](../vacuum/measurement.md)
 > **Timeline**: Years 5-15
 > **Outputs**: maps, survey-data, topographic-surveys
 > **Critical**: No
@@ -36,8 +36,8 @@ The Egyptians used rope stretchers (surveyors) to re-establish field boundaries 
 - **Surveyor's level (dumpy level)**: Telescope with a spirit level ensuring horizontal line of sight. Used with a graduated staff for elevation measurement. Self-leveling levels (automatic compensator) are a later development.
 - **Compass**: Magnetic compass for bearing measurement. Prismatic compass for hand-held bearing reading. Subject to magnetic variation and local anomalies.
 - **Plane table and alidade**: Drawing board mounted on a tripod with a sighting ruler (alidade) for direct field plotting.
-- [Mining Engineering & Extractive Metallurgy](mining.md) — tool dependency
-- [Construction & Structural Engineering](construction.md) — tool dependency
+- [Mining Engineering & Extractive Metallurgy](../mining/index.md) — tool dependency
+- [Construction & Structural Engineering](../construction/index.md) — tool dependency
 
 ### Knowledge
 
@@ -175,12 +175,12 @@ Key scaling challenges: maintaining consistent accuracy across multiple survey p
 
 ## References
 
-- [Knowledge Preservation & Education](knowledge.md) — parent capability
+- [Knowledge Preservation & Education](index.md) — parent capability
 - [Knowledge Domain](./index.md) — domain overview and related capabilities
-- [Mining Engineering & Extractive Metallurgy](mining.md) — upstream dependency (tool)
-- [Construction & Structural Engineering](construction.md) — upstream dependency (tool)
-- [Mathematics & Formal Sciences](mathematics.md) — downstream capability
-- [Measurement & Instrumentation](measurement.md) — downstream capability
+- [Mining Engineering & Extractive Metallurgy](../mining/index.md) — upstream dependency (tool)
+- [Construction & Structural Engineering](../construction/index.md) — upstream dependency (tool)
+- [Mathematics & Formal Sciences](../mathematics/index.md) — downstream capability
+- [Measurement & Instrumentation](../vacuum/measurement.md) — downstream capability
 
 Surveying provides the spatial data that underpins [Construction](../construction/index.md), [Mining](../mining/index.md), [Transport](../transport/index.md), and [Agriculture](../agriculture/index.md). Canal construction requires precise leveling; mining requires accurate underground survey to connect tunnels; road building requires terrain profiles; and agricultural land management requires property boundary surveys.
 

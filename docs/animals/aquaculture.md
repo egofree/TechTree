@@ -202,6 +202,22 @@ Mussels settle on any firm surface in the intertidal zone. Cultivation uses rope
 
 Seed clams in sandy or muddy intertidal areas. Mark beds with stakes. Clams grow by filter feeding, requiring no input. Growth to harvest size (5-8 cm) takes 1.5-3 years depending on species and conditions. Harvest by digging with a fork or rake at low tide.
 
+## Why Fish Are the Most Efficient Protein Converters
+
+Fish achieve feed conversion ratios of 1.2-2.0:1, far better than any land animal. There are three biological reasons for this. First, fish are buoyant in water and do not expend energy maintaining posture against gravity. A cow standing in a field burns calories just staying upright; a fish floats at no metabolic cost. Second, fish are cold-blooded and do not spend calories maintaining body temperature. A pig at 20°C burns 30-40% of its feed energy just staying warm; a fish at 20°C uses virtually all consumed energy for growth. Third, fish excrete nitrogen as ammonia directly through their gills rather than synthesizing urea or uric acid, which costs metabolic energy in land animals.
+
+These advantages mean that a fish pond converts feed to flesh at roughly half the cost per kilogram of protein compared to poultry, and a quarter the cost compared to cattle. The tradeoff is that fish require water infrastructure (ponds, canals, or raceways) that land livestock do not.
+
+## Why Water Temperature Controls Everything
+
+Fish metabolism and oxygen requirements are linked to water temperature in ways that determine what species can be raised where, and how fast they grow.
+
+**Warmwater fish (carp, tilapia, catfish)**: Metabolism and growth rate increase with temperature from 15°C up to an optimum around 25-30°C, then decline sharply as oxygen solubility drops. Warm water holds less dissolved oxygen than cold water: at 30°C, water holds only 7.5 mg/L of dissolved oxygen, compared to 12.8 mg/L at 0°C. A pond full of growing fish at 30°C is running close to the oxygen limit at all times. A cloudy day that reduces photosynthetic oxygen production, or a hot night when oxygen demand from decaying plankton exceeds production, can trigger a fish kill within hours.
+
+**Coldwater fish (trout)**: Need both cold water (10-15°C) and high oxygen (above 6 mg/L). They cannot tolerate warm, still ponds because the water is too warm and too low in oxygen. Trout farming requires flowing water: spring-fed channels or raceways where fresh, cold, oxygen-rich water constantly replaces what the fish deplete.
+
+Why this matters for pond management: in a warmwater pond, every management decision is ultimately about oxygen. Stocking density, feeding rate, fertilizer application, and water exchange all affect the oxygen budget. Over-fertilize and the plankton bloom grows so dense that nighttime respiration depletes oxygen below 3 mg/L, which is lethal for most species. Under-fertilize and the plankton base is too thin to support the food chain that feeds the fish. The management sweet spot is a Secchi disk visibility of 25-40 cm: green enough to produce food, clear enough to maintain oxygen.
+
 ## Safety
 
 **Waterborne parasites**: Freshwater fish in warm climates carry parasitic flukes (*Clonorchis*, *Opisthorchis*) in their flesh. Infection occurs when fish is eaten raw or undercooked. Cook all freshwater fish to an internal temperature of 63°C or above. Freezing at -20°C for 7 days also kills parasites, but this is impractical without modern freezer infrastructure. Salting and smoking at adequate temperatures reduce but do not eliminate all parasitic risk.

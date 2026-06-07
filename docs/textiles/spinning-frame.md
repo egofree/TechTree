@@ -171,6 +171,44 @@ Mechanized spinning replaces hand drafting and twisting with powered rollers and
 - Rings: replace every 5,000-15,000 operating hours. Ring surface finish degrades progressively — rough rings cause traveler vibration and yarn hairiness.
 - When replacing rings, clean the ring rail seat thoroughly before pressing in the new ring. Any debris under the ring causes misalignment.
 
+## Fiber-Specific Spinning Frame Parameters
+
+Different fibers demand different machine settings on the spinning frame. Running cotton settings on wool produces overtwisted, uneven yarn. Running wool settings on cotton produces weak, fuzzy yarn that breaks at the loom.
+
+**Drafting and twist settings by fiber**:
+
+| Fiber | Draft Ratio | Roller Surface Speed Range | Spindle Speed (ring) | Traveler Weight (mg) | Yarn Count Range (Ne) | Key Adjustment |
+|-------|-------------|---------------------------|---------------------|----------------------|----------------------|----------------|
+| Cotton (carded) | 15-25× | 8-25 m/min | 8,000-15,000 rpm | 30-60 | 10-40 | Short staple needs tight roller clearance |
+| Cotton (combed) | 20-35× | 8-30 m/min | 10,000-15,000 rpm | 25-50 | 30-80 | Longer staple allows higher draft |
+| Wool (woolen) | 8-15× | 5-15 m/min | 4,000-7,000 rpm | 60-120 | 4-16 | Low draft, low speed; bulky yarn |
+| Wool (worsted) | 12-25× | 6-20 m/min | 5,000-8,000 rpm | 50-90 | 16-50 | Higher draft for parallel fibers |
+| Flax (wet-spun) | 10-20× | 5-15 m/min | 4,000-6,000 rpm | 80-150 | 10-40 (lea) | Humidity 60-70% RH essential |
+| Synthetic staple | 20-40× | 10-35 m/min | 10,000-15,000 rpm | 20-50 | 20-80 | Anti-static treatment required |
+
+**Fiber preparation requirements for frame spinning**:
+
+Each fiber requires specific preparation before it can be fed into the spinning frame. The preparation determines the yarn quality more than the frame settings.
+
+- **Cotton**: Gin (remove seeds) → willow (open bales) → card (align fibers, remove trash) → draw (parallel and even the sliver through 2-3 passages of drawing frame) → roving (light twist on a roving frame for handling). The sliver from carding weighs 3-5 ktex (grams per kilometer). After 2-3 drawing passages, the sliver uniformity (U%) should be below 4%. The roving frame adds just enough twist (0.8-1.5 tpi) to hold the roving together during handling without preventing the spinning frame from drafting it further.
+- **Wool (worsted)**: Scour (wash) → card → gill (pin drafting to align and blend) → comb (remove short fibers, noils) → gill again (3-4 passages) → roving. Combed wool top has average fiber length (hauteur) 60-100 mm for Merino, with short fiber content below 5%. The gill boxes use faller pins that controlled-intermesh to produce perfectly parallel sliver.
+- **Wool (woolen)**: Scour → card → blend (oil and moisture added) → condenser card (splits the card web into narrow strips and adds false twist to form rovings). Woolen roving is less parallel and contains shorter fibers — the yarn relies on fiber entanglement rather than parallel alignment for strength. The carding quality determines yarn quality: woolen carding must produce uniform, even web across the full width.
+- **Flax**: Ret → break → scutch → hackle → spread (draw hackled fibers into thin sliver on a spread board) → roving (light twist on a wet roving frame). Wet spinning of flax requires a water trough between the front rollers and the spindle on the ring frame. The water swells the pectin binding the ultimate fibers (individual plant cells, 12-25 μm diameter) together, allowing them to pack more tightly and produce a smoother, stronger yarn with 20-30% higher tensile strength than dry-spun flax.
+
+**Yarn quality targets by end use**:
+
+| Application | Yarn Count (Ne) | tpi | Min. Single Strength (cN) | Max. CV% (count) | Max. CV% (strength) | Hairiness Rating |
+|-------------|-----------------|-----|--------------------------|------------------|---------------------|-----------------|
+| Denim warp | 6-10 | 12-18 | 600-900 | 5% | 8% | 4-5 (hairy OK) |
+| Shirting warp | 30-50 | 22-30 | 150-250 | 3% | 7% | 2-3 |
+| Sheeting warp | 20-30 | 18-25 | 250-400 | 4% | 7% | 2-3 |
+| Knitting yarn | 20-40 | 14-20 | 180-300 | 3% | 6% | 1-2 (low hairiness critical) |
+| Sewing thread (3-ply) | 40/3-60/3 | 25-35 | 200-350 | 2% | 5% | 1 (smooth for needle eye) |
+| Canvas warp | 8-16 | 10-16 | 400-700 | 5% | 8% | 3-4 |
+| Toweling warp | 16-24 | 16-22 | 300-450 | 4% | 7% | 2-3 |
+
+Warp yarn requires higher twist, higher strength, and lower hairiness than weft yarn because it must withstand the repeated tension cycles of shedding and beating at the loom. Weft yarn can be softer (lower twist) because it does not bear sustained tension — it merely lies in place between warp threads. The strength CV% (coefficient of variation) matters more than average strength: a yarn with 10% CV in strength will break at the loom three to five times more often than a yarn with 5% CV, even if both have the same average strength. Wide strength distribution means frequent weak spots.
+
 ## Yarn Quality Troubleshooting
 
 | Problem | Probable Cause | Solution |

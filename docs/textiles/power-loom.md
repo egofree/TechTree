@@ -113,6 +113,41 @@ This article covers the construction of a basic power loom suitable for bootstra
 | Service life | 30-50 years with bearing and reed replacement |
 | Weavers per loom | 1 (tending 2-4 looms on improved models) |
 
+**Throughput by cloth type**:
+
+The picks-per-minute rate alone does not determine cloth production. The weft density (picks per inch) and weaving width also affect how many square meters of cloth are produced per hour.
+
+| Cloth Type | Weft Density (ppi) | Effective Picks/min | Width (cm) | Production (m²/hr) | Loom Type |
+|------------|--------------------|--------------------|------------|---------------------|-----------|
+| Heavy canvas (10 ppi) | 10 | 60-80 | 120 | 20-30 | Plain shuttle |
+| Medium cotton (20 ppi) | 20 | 100-130 | 120 | 12-18 | Improved shuttle |
+| Fine shirting (40 ppi) | 40 | 120-150 | 100 | 5-8 | Improved shuttle |
+| Denim (25 ppi) | 25 | 100-130 | 150 | 12-18 | Heavy shuttle |
+| Toweling (18 ppi) | 18 | 80-110 | 120 | 15-22 | Standard shuttle |
+| Wool suiting (30 ppi) | 30 | 80-100 | 150 | 8-12 | Heavy shuttle |
+
+Production calculation: m²/hr = (picks/min × 60) / (picks/inch × 39.37) × (weaving width in m). Example: 120 picks/min at 20 ppi on a 1.2 m loom = (120 × 60) / (20 × 39.37) × 1.2 = 11 m²/hr.
+
+**Power consumption breakdown**:
+
+| Component | Power Share | Notes |
+|-----------|-------------|-------|
+| Shuttle picking (acceleration + deceleration) | 30-40% | Most energy-intensive single motion; shuttle accelerates from 0 to 8-12 m/s in ~10 ms |
+| Beating (lay swing) | 20-25% | Heavy lay + reed; must overcome friction and inertia |
+| Shedding (heddle shaft lifting) | 15-20% | Lifts half the warp threads against tension each pick |
+| Friction (bearings, belts, gears) | 10-15% | Increases with worn bearings and misalignment |
+| Take-up and let-off | 5-10% | Low power but must be precisely timed |
+| Total per loom | 2-5 kW | Varies with width, speed, and cloth weight |
+
+**Warp preparation for power looms**:
+
+Power looms consume yarn faster than hand looms and require larger, more uniformly prepared warps. A single power loom weaving 12 m²/hr of 20 ppi cloth with Ne 30 yarn consumes approximately 0.3-0.5 kg of warp yarn and 0.2-0.4 kg of weft yarn per hour. A 10-loom weaving shed thus needs 5-9 kg of yarn per hour, or 40-70 kg per 8-hour shift.
+
+Warp preparation sequence for power looms:
+1. **Warping**: Wind the required number of warp ends (typically 2,000-5,000 for a 100 cm width) from yarn packages onto a warp beam. Sectional warping (winding narrow sections side by side) or direct warping (winding all ends simultaneously). Tension must be uniform across all ends: a tension variation greater than 10% causes uneven cloth and frequent breaks.
+2. **Warp sizing**: Apply a starch or PVA coating to the warp yarn to strengthen it for the mechanical stress of power loom weaving. Size pick-up: 6-12% by weight for cotton warp. The sizing machine passes the warp sheet through a size bath, squeezes out excess with rollers, and dries it on heated cylinders. Without sizing, cotton warp breakage on a power loom increases 5-10× because the mechanized shedding and beating place far more stress on each thread than hand weaving.
+3. **Drawing in**: Thread each warp end through a heddle eye and a reed dent. For a 4,000-end warp at 20 epi, this takes 4-8 hours by hand or 30-60 minutes with a mechanical drawing-in machine. Incorrect drawing-in produces pattern errors that run the entire length of the cloth.
+
 ## Strengths
 
 - 10-20× faster than handloom production — a single weaver tending 2-4 power looms outproduces 20-40 hand weavers

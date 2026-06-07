@@ -227,16 +227,76 @@ Training records document who received what training, when, and from whom. Refre
 
 Every industrial facility needs an emergency action plan covering fire (extinguisher types: ABC dry chemical for general, CO₂ for electrical, water for paper/wood only), chemical spill (absorbent materials, neutralization agents, evacuation distances for toxic releases — H₂SO₄ spill: evacuate 50 m radius minimum), medical emergency (first aid station location, AED placement within 3-minute walk of any point, emergency phone numbers posted), and rescue (confined space rescue team with SCBA, rope rescue capability for elevated work). Drill frequency: fire evacuation quarterly, chemical release annually, full response exercise annually.
 
+## Medical Surveillance Protocols by Exposure Type
+
+Formal medical surveillance programs detect health effects before they become irreversible. Each exposure type requires specific tests at defined intervals.
+
+### Lead Exposure Surveillance
+
+Lead accumulates in bone with a half-life of years to decades. Blood lead level (BLL) reflects recent exposure (30-60 day window).
+
+| Metric | Normal | Action Level | Removal Level | Test Frequency |
+|--------|--------|-------------|--------------|---------------|
+| Blood lead level (BLL) | <5 μg/dL | ≥20 μg/dL (increase monitoring) | ≥50 μg/dL (remove from lead work) | Every 6 months for workers in lead areas |
+| Zinc protoporphyrin (ZPP) | <35 μg/dL | ≥100 μg/dL | — | Annually |
+| Hemoglobin | 13-17 g/dL (men) | <13 g/dL (investigate) | <10 g/dL (remove) | Annually |
+| Blood urea nitrogen (BUN) | 7-20 mg/dL | >20 mg/dL (kidney effect) | — | Annually |
+
+Action required at BLL ≥20 μg/dL: review hygiene practices, increase air monitoring, ensure respiratory protection is worn. At ≥30 μg/dL: monthly BLL testing until two consecutive readings below 20 μg/dL. At ≥50 μg/dL: remove worker from lead exposure until BLL drops below 40 μg/dL on two consecutive tests. Workers removed from lead exposure retain seniority and pay (economic protection is essential; otherwise workers hide elevated results).
+
+### Respiratory Hazard Surveillance (Silica, Asbestos, Dust)
+
+| Test | Normal | Action Level | Frequency |
+|------|--------|-------------|-----------|
+| Spirometry (FEV1/FVC ratio) | >0.70 (age-adjusted) | FEV1/FVC <0.70 or FEV1 <80% predicted | Baseline, then annually |
+| Chest X-ray (ILO classification) | No opacities | Category 1/0 or higher small opacities | Baseline, then every 1-3 years depending on exposure |
+| Respiratory symptom questionnaire | No cough, dyspnea, sputum | New or worsening symptoms | Annually |
+
+A 15% decline in FEV1 from baseline (adjusted for age) triggers removal from respiratory hazard exposure and investigation of ventilation controls. Silicosis is irreversible: once lung fibrosis appears on X-ray, the disease continues to progress even after exposure stops. This makes prevention (ventilation, respiratory protection, dust suppression) more important than detection.
+
+### Noise Exposure Surveillance
+
+| Test | Normal | Action Level | Frequency |
+|------|--------|-------------|-----------|
+| Pure-tone audiometry (500-8000 Hz) | ≤25 dB HL at all frequencies | Standard threshold shift: ≥10 dB average change at 2000, 3000, 4000 Hz in either ear | Baseline, then annually for workers in >85 dBA areas |
+
+A standard threshold shift (STS) of 10 dB or more at the critical frequencies (2000, 3000, 4000 Hz average) indicates early noise-induced hearing loss. Action: retest within 30 days to confirm. If confirmed, fit or refit hearing protection, review engineering controls, and counsel the worker. The 4000 Hz "notch" (a dip in hearing acuity specifically at 4000 Hz with recovery at 8000 Hz) is the classic audiometric signature of noise exposure. It appears years before the worker notices hearing difficulty in daily life.
+
+### Solvent Exposure Surveillance
+
+| Test | Normal | Action Level | Frequency |
+|------|--------|-------------|-----------|
+| Liver function (ALT, AST) | ALT <40 U/L, AST <40 U/L | >2× upper limit normal | Annually for workers handling chlorinated solvents |
+| Complete blood count (CBC) | Normal WBC, RBC, platelets | Any cytopenia (low cell count) | Annually for benzene-exposed workers |
+| Neurobehavioral evaluation | Normal | Decline in reaction time, memory, or dexterity on standardized tests | Annually for workers with chronic solvent exposure |
+
+Solvents (trichloroethylene, perchloroethylene, toluene, xylene) are central nervous system depressants at high acute doses and cause chronic neurotoxicity with long-term exposure. Liver enzyme elevation (ALT, AST above 80 U/L) indicates hepatocellular damage. Benzene specifically targets bone marrow, causing aplastic anemia and acute myelogenous leukemia with chronic exposure above 1 ppm.
+
+### Heat Stress Surveillance
+
+| Parameter | Normal | Action Level | Frequency |
+|-----------|--------|-------------|-----------|
+| Wet-bulb globe temperature (WBGT) | <25°C | 25-28°C: increase water; 28-31°C: work-rest cycles; >31°C: 25% work / 75% rest per hour | Continuous monitoring during hot weather or furnace operations |
+| Core body temperature (if measured) | 37°C | >38°C: remove from heat, cool actively; >39.5°C: medical emergency (heat stroke) | As needed for symptomatic workers |
+| Urine specific gravity | 1.005-1.030 | >1.030: dehydrated — increase water intake | Spot check during hot shifts |
+
+Work-rest cycles by WBGT for moderate work (e.g., construction, manufacturing): WBGT 25-28°C: 75% work, 25% rest per hour, 250 mL water every 20 minutes. WBGT 28-31°C: 50% work, 50% rest per hour. WBGT >31°C: 25% work, 75% rest per hour. WBGT >32.2°C: suspend non-essential outdoor work. Water intake: minimum 250 mL every 20 minutes during moderate-to-heavy work in heat. Salt supplementation: 0.5-1.0 g salt per liter of water if sweating is heavy and meals are not providing adequate sodium. Do not restrict salt during heat exposure unless the worker has a specific medical contraindication.
+
 ## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
-|---|---|---|
+|---------|-------------|----------|
 | Workers reporting headaches/dizziness | CO exposure, poor ventilation, or solvent vapors | Evacuate area immediately; test air for CO (<50 ppm PEL); increase ventilation rate; check exhaust fan operation |
 | Persistent cough among foundry workers | Silica or metal fume exposure above PEL | Issue N95 or P100 respirators; install local exhaust ventilation at melt furnace; implement rotation schedule to reduce exposure time |
 | Hearing loss on annual audiograms | Noise exposure exceeding 85 dBA TWA | Install engineering controls (enclosures, dampeners); enforce hearing protection in >85 dBA zones; post noise hazard signage |
 | Skin dermatitis from chemical handling | Direct contact with acids, alkalis, or solvents | Mandate chemical-resistant gloves (nitrile for solvents, neoprene for acids); install emergency eyewash and shower within 10 seconds travel |
 | Lead levels rising in blood tests | Inadequate hygiene or engineering controls in lead areas | Separate eating/smoking areas from work zones; install HEPA vacuum for dust; enforce hand washing; review PPE program |
 | Repeated near-misses on same machine | Machine guarding deficiency or procedural gap | Conduct incident investigation; install or repair physical guards; retrain operators; add interlock if feasible |
+| Multiple workers with metallic taste in mouth | Heavy metal fume exposure (copper, zinc, cadmium) from smelting or welding | Test air for metal fume concentrations; increase LEV capture velocity to ≥0.5 m/s at source; issue P100 respirators; test blood/urine for metal content |
+| Widespread fatigue and nausea in enclosed workspace | Solvent vapor accumulation from inadequate general ventilation | Measure solvent concentrations with detector tubes; increase air changes per hour to ≥6 for solvent areas; add local exhaust at source; ensure makeup air supply is adequate |
+| Workers in rubber boots develop contact dermatitis | Chromium (VI) or latex allergy from PPE materials | Switch to chromium-free leather boots or polyurethane; replace latex gloves with nitrile; patch-test workers to identify specific allergen |
+| Ventilation system fan running but no airflow at hood | Duct blocked, filter clogged, or belt slipped on motor | Inspect duct for blockage (access ports every 3-6 m); check filter pressure drop (replace if >2× clean resistance); check fan belt tension and alignment |
+| Worker develops new asthma after starting in powder handling area | Occupational asthma from isocyanates, flour dust, or chemical sensitizers | Remove worker from exposure immediately; refer for spirometry with methacholine challenge; install enclosed powder handling with LEV; other workers at same station need baseline spirometry |
 
 ## Safety
 

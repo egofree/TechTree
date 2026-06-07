@@ -3,7 +3,7 @@
 > **Node ID**: quality-control.spc
 > **Domain**: [Quality-Control](./index.md)
 > **Dependencies**: [`Defect Analysis & Yield Modeling`](defect-analysis.md)
-> **Enables**: [`Quality Control & Statistical Process Control`](quality-control.md), [`Measurement & Instrumentation`](measurement.md)
+> **Enables**: [`Quality Control & Statistical Process Control`](index.md), [`Measurement & Instrumentation`](../vacuum/measurement.md)
 > **Timeline**: Years 40-100+
 > **Outputs**: spc_charts, cpk_indices, process_capability_analysis, six_sigma_metrics, control_limits
 > **Critical**: No
@@ -76,6 +76,123 @@ SPC implementation involves selecting the appropriate control chart for the data
 | p chart | Attributes (pass/fail) | Proportion defective | Assembly yields, inspection results |
 | c chart | Attributes (count) | Count of defects per unit | Surface defects, imperfections per part |
 | u chart | Attributes (count) | Defects per unit area/volume | Defect density on wafers, fabric |
+
+### Tolerance Capability Reference Table
+
+Process capability indices relate directly to defect rates. A Cpk of 1.33 is the minimum for "capable" processes in most industries; semiconductor manufacturing targets Cpk ≥ 2.0 for critical parameters.
+
+| Cpk Value | Sigma Level | Defect Rate (ppm, one-sided) | Defect Rate (ppm, two-sided) | Assessment |
+|-----------|------------|------------------------------|------------------------------|------------|
+| 0.50 | 1.5σ | 66,807 | 133,614 | Inadequate: process produces significant out-of-spec output |
+| 0.67 | 2.0σ | 22,750 | 45,500 | Poor: almost 5% of output outside specification |
+| 1.00 | 3.0σ | 1,350 | 2,700 | Marginal: 0.27% defective. Not acceptable for most production. |
+| 1.10 | 3.3σ | 483 | 967 | Below minimum; process must be improved |
+| 1.33 | 4.0σ | 32 | 63 | Minimum acceptable: standard industrial target |
+| 1.50 | 4.5σ | 3.4 | 6.8 | Good: general precision manufacturing target |
+| 1.67 | 5.0σ | 0.3 | 0.6 | Excellent: aerospace and automotive safety-critical target |
+| 2.00 | 6.0σ | 0.001 | 0.002 | World-class: semiconductor critical dimension target |
+
+### Control Limit Formulas
+
+| Chart Type | Center Line | UCL | LCL | Notes |
+|-----------|------------|-----|-----|-------|
+| X-bar | X̄ (grand mean) | X̄ + A₂ × R̄ | X̄ - A₂ × R̄ | A₂ from table below; R̄ = average range |
+| R chart | R̄ (average range) | D₄ × R̄ | D₃ × R̄ | D₃, D₄ from table below |
+| p chart | p̄ (average proportion) | p̄ + 3√(p̄(1-p̄)/n) | p̄ - 3√(p̄(1-p̄)/n) | n = subgroup size |
+| c chart | c̄ (average count) | c̄ + 3√c̄ | c̄ - 3√c̄ | Assumes Poisson distribution |
+| u chart | ū (average rate) | ū + 3√(ū/n) | ū - 3√(ū/n) | n = inspection unit size |
+
+### Control Chart Constants (Shewhart)
+
+These constants are used to compute control limits from the average range. They depend on subgroup size n.
+
+| n (subgroup size) | A₂ | D₃ | D₄ | d₂ |
+|-------------------|-----|-----|-----|-----|
+| 2 | 1.880 | 0 | 3.267 | 1.128 |
+| 3 | 1.023 | 0 | 2.574 | 1.693 |
+| 4 | 0.729 | 0 | 2.282 | 2.059 |
+| 5 | 0.577 | 0 | 2.114 | 2.326 |
+| 6 | 0.483 | 0 | 2.004 | 2.534 |
+| 7 | 0.419 | 0.076 | 1.924 | 2.704 |
+| 8 | 0.373 | 0.136 | 1.864 | 2.847 |
+| 9 | 0.337 | 0.184 | 1.816 | 2.970 |
+| 10 | 0.308 | 0.223 | 1.777 | 3.078 |
+
+Note: d₂ is used to estimate the population standard deviation from the average range: σ̂ = R̄ / d₂.
+
+### Sampling Plans
+
+The frequency and size of samples determines how quickly the chart detects a process shift. Sampling too infrequently allows defective product to accumulate between checks. Sampling too frequently wastes measurement resources.
+
+**Lot-by-lot acceptance sampling (ANSI/ASQ Z1.4 / ISO 2859)**:
+
+For attribute inspection of incoming or outgoing lots, standard sampling plans specify the sample size and acceptance number based on lot size and the acceptable quality level (AQL).
+
+| Lot Size | Inspection Level II, AQL 1.0% | | Inspection Level II, AQL 0.65% | |
+|----------|------------------------------|---|-------------------------------|---|
+| | Sample Size | Accept # (Ac) | Sample Size | Accept # (Ac) |
+| 26-50 | 8 | 0 | 8 | 0 |
+| 51-90 | 13 | 0 | 13 | 0 |
+| 91-150 | 20 | 0 | 20 | 0 |
+| 151-280 | 32 | 1 | 32 | 0 |
+| 281-500 | 50 | 1 | 50 | 1 |
+| 501-1200 | 80 | 2 | 80 | 1 |
+| 1201-3200 | 125 | 3 | 125 | 2 |
+| 3201-10,000 | 200 | 5 | 200 | 3 |
+
+Ac = maximum number of defective units allowed in the sample before rejecting the lot. If defective count exceeds Ac, the entire lot is rejected and undergoes 100% screening or is returned to the supplier.
+
+**Variables sampling for continuous production (X-bar/R charts)**:
+
+| Production Rate | Subgroup Size | Sampling Frequency | Rationale |
+|----------------|--------------|-------------------|-----------|
+| < 50 parts/hour | 3-5 parts | Every 1-2 hours | Low-volume; each subgroup represents one lot |
+| 50-500 parts/hour | 5 parts | Every 30-60 minutes | Standard production; detects shifts within 1 hour |
+| 500-5000 parts/hour | 5 parts | Every 15-30 minutes | High-volume; fast detection required |
+| > 5000 parts/hour | 5-10 parts | Every 5-15 minutes | Very high volume; real-time monitoring needed |
+| Critical semiconductor parameters | 5 wafers | Every lot (25 wafers) | Each lot sampled; Cpk tracked per lot |
+
+### Process Capability Calculation Example
+
+Given a machining process producing shafts with diameter specification 25.000 ± 0.025 mm (USL = 25.025, LSL = 24.975):
+
+From 30 subgroups of n = 5 measurements each (150 total readings):
+- Grand mean X̄ = 25.003 mm
+- Average range R̄ = 0.018 mm
+- Estimated standard deviation σ̂ = R̄ / d₂ = 0.018 / 2.326 = 0.00774 mm
+
+**Cp** = (USL - LSL) / (6σ̂) = (25.025 - 24.975) / (6 × 0.00774) = 0.050 / 0.0464 = **1.08**
+
+**Cpk** = min((USL - X̄) / 3σ̂, (X̄ - LSL) / 3σ̂) = min((25.025 - 25.003) / 0.0232, (25.003 - 24.975) / 0.0232) = min(0.95, 1.21) = **0.95**
+
+Cpk = 0.95 means the process is not capable. The closer spec limit is the upper side (0.95 < 1.0), so the process mean must shift down toward the center of the tolerance, or the variation must be reduced. At Cpk = 0.95, the expected defect rate is approximately 5,200 ppm (0.52%).
+
+### Western Electric Out-of-Control Detection Rules
+
+A single point beyond the 3σ control limits is the most obvious out-of-control signal. The Western Electric rules add sensitivity to subtler patterns that indicate a process shift, trend, or non-random behavior before a point actually exceeds the limits.
+
+| Rule | Pattern | Interpretation |
+|------|---------|---------------|
+| Rule 1 | 1 point beyond Zone A (beyond 3σ) | Large sudden shift. Most obvious signal. |
+| Rule 2 | 2 of 3 consecutive points in Zone A (beyond 2σ, same side) | Moderate shift beginning. Early warning. |
+| Rule 3 | 4 of 5 consecutive points in Zone B or beyond (beyond 1σ, same side) | Small persistent shift. Subtle but significant. |
+| Rule 4 | 8 consecutive points on one side of the center line (Zone C or beyond) | Very small shift or process mean drift. The most sensitive rule for gradual changes. |
+| Rule 5 | 6 consecutive points steadily increasing or decreasing | Trend: tool wear, material depletion, or gradual process drift. |
+| Rule 6 | 14 consecutive points alternating up and down | Stratification or over-adjustment: two sources of variation alternating (e.g., two machines feeding one measurement point). |
+| Rule 7 | 15 consecutive points within Zone C (within 1σ) | Reduced variation or incorrect control limits. Often indicates the data has been pre-screened or the process has become more consistent than the baseline suggests. |
+
+### Gage R&R Acceptance Criteria
+
+| % Gage R&R (of total variation) | Assessment | Action |
+|--------------------------------|------------|--------|
+| < 10% | Acceptable | Measurement system is adequate for SPC |
+| 10-30% | Marginal | Acceptable for non-critical measurements. Improve for critical dimensions. |
+| > 30% | Unacceptable | Measurement system cannot distinguish good parts from bad. Must improve before collecting SPC data. |
+
+**Common Gage R&R improvement strategies**:
+- **Repeatability > 10%**: Instrument resolution too coarse (need 10× finer than the tolerance), or the measurement fixture allows part positioning variation. Fix the fixture; use a higher-resolution instrument.
+- **Reproducibility > 10%**: Operators use different technique (different touch force, different alignment method). Write a detailed measurement procedure with photos. Retrain all operators to the same method.
+- **Both high**: The instrument itself is inadequate. Replace with a more precise instrument before attempting SPC.
 
 ### Process Capability Analysis
 
@@ -182,11 +299,11 @@ Transitioning from bench-scale to production involves these considerations:
 
 ## References
 
-- [Quality Control & Statistical Process Control](quality-control.md) — parent capability
+- [Quality Control & Statistical Process Control](index.md) — parent capability
 - [Quality-Control Domain](./index.md) — domain overview and related capabilities
 - [Defect Analysis & Yield Modeling](defect-analysis.md) — upstream dependency (tool)
-- [Quality Control & Statistical Process Control](quality-control.md) — downstream capability
-- [Measurement & Instrumentation](measurement.md) — downstream capability
+- [Quality Control & Statistical Process Control](index.md) — downstream capability
+- [Measurement & Instrumentation](../vacuum/measurement.md) — downstream capability
 
 SPC connects to every manufacturing domain in the tech tree. Any process that produces measurable output can benefit from SPC. The semiconductor industry was the primary driver of modern SPC methodology — with defect tolerances measured in parts per billion, statistical control of process variation is not optional but existential. The same principles apply at lower technology levels, where they provide the difference between artisanal inconsistency and reliable production.
 

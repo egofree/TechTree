@@ -67,6 +67,9 @@ Using celestial bodies to determine position on the open ocean, beyond sight of 
 - At the equator (0°N): Polaris sits on the horizon (0° altitude)
 - At London (51.5°N): Polaris is 51.5° above the horizon
 - At the North Pole (90°N): Polaris is directly overhead (90° altitude)
+
+**Why Polaris altitude equals latitude**: Polaris sits within 0.7° of the celestial north pole, the point directly above Earth's rotational axis. As you travel south from the pole, the celestial pole drops toward the horizon at the same rate your latitude decreases. The angle between the horizon and the celestial pole equals your latitude because the horizon plane is perpendicular to the local vertical, and the angle between the local vertical and Earth's rotational axis is (90° minus latitude). Polaris appears at 90° at the north pole, 0° at the equator, and your latitude everywhere in between. The 0.7° offset of Polaris from the true pole introduces a small correction that varies through the night as Earth rotates, but for handheld instruments (±0.5-1° accuracy), this offset is negligible.
+
 - Instrument accuracy: astrolabe ±1° (60 nautical miles), quadrant ±0.5° (30 nm), sextant ±1 arcminute (1 nm)
 
 **Latitude by noon sun**:
@@ -79,6 +82,7 @@ Using celestial bodies to determine position on the open ocean, beyond sight of 
 **Longitude by time difference**:
 - The Earth rotates 15° per hour (360° ÷ 24 hours). Longitude difference equals time difference.
 - If local noon occurs 2 hours before Greenwich noon, the observer is 30° west of Greenwich
+- **Why time gives longitude**: Earth completes one full rotation (360°) in approximately 24 hours relative to the sun. This means the sun appears to move 15° across the sky each hour, or 1° every 4 minutes. Two observers at different longitudes see the sun at different heights at the same absolute moment. If you know what time it is at a reference meridian (Greenwich) and observe local noon at your position, the time difference tells you how far east or west you are. One hour of time difference equals exactly 15° of longitude. This is why the chronometer was the "key to the oceans": without a portable clock that maintained Greenwich time to within seconds over months at sea, longitude could only be estimated by dead reckoning or the complex lunar distance technique.
 - Requires: a chronometer set to Greenwich time, plus a method of determining local noon
 - Chronometer accuracy requirement: ±0.5 seconds/day = ±7.5 arcminutes longitude error per day of running
 - A chronometer losing 2 seconds/day accumulates 1° longitude error per 12 days — must be checked against known positions
@@ -89,6 +93,8 @@ Using celestial bodies to determine position on the open ocean, beyond sight of 
 - Read the angle from the calibrated arc (0-120° range, 1 arcminute resolution)
 - Apply corrections: index error (instrument calibration), dip (observer height above water), refraction (atmospheric bending), semi-diameter (sun/moon angular size)
 - Total correction typically 5-15 arcminutes depending on conditions
+
+**Why the sextant works at sea**: The sextant uses double reflection. Light from the celestial body bounces off the index mirror (on the moving arm) to the horizon mirror (fixed), then to the eye. Because the light reflects twice, the angle between the two mirrors is exactly half the angle between the celestial body and the horizon. This is why the 60° graduated arc measures up to 120° of altitude. Double reflection also makes the sextant tolerant of small tilts: if the instrument shifts slightly, both the direct and reflected images shift by the same amount and stay aligned. This is what makes the sextant practical aboard a rolling ship, unlike the astrolabe or quadrant, which require careful leveling.
 
 **Strengths**:
 - Works anywhere on the open ocean with no land references
@@ -186,6 +192,8 @@ Estimating current position from a known starting point by tracking course and d
 - A 1,000 nm voyage with 5% error: position uncertainty of ±50 nm (93 km) at arrival
 - Requires periodic celestial fixes to reset the estimated position
 
+**Why errors accumulate**: Every navigation input (heading, speed, time, leeway estimate, current estimate) carries a small error. The compass reads within ±1-2°. The log measures speed within ±0.5 knots. The helmsman steers within ±5° of the ordered course. The leeway estimate is approximate. These errors are independent and random, so they combine as a random walk: total position error grows roughly as the square root of the number of individual estimates. After 24 hours of dead reckoning with fixes every 30 minutes (48 individual estimates), the cumulative error reaches 2-5% of distance run. A navigator relying solely on dead reckoning for a 3,000 nm transatlantic crossing can arrive 60-150 nm from the intended landfall, a potentially fatal error if the coast has rocks or shoals.
+
 ## Chart Making
 
 **Coastal surveying**:
@@ -229,12 +237,31 @@ Estimating current position from a known starting point by tracking course and d
 | Magnetic compass | Bearing | ±1-2° (corrected) | ±1-2° course error |
 | Chip log | Speed | ±0.5 knots | Distance ±2-5% |
 
+## Ship Characteristics Affecting Navigation
+
+A vessel's physical dimensions and handling characteristics directly affect navigation planning and accuracy.
+
+**Hull speed and distance estimation**: A vessel's hull speed limits its maximum speed regardless of engine power. Hull speed (knots) is approximately 1.34 × √(waterline_length_in_feet). A 30 m (100 ft) vessel has a hull speed around 13.4 knots. A 15 m (50 ft) vessel maxes out near 9.5 knots. Knowing the vessel's realistic cruising speed is essential for dead reckoning. Overestimating speed by even 1 knot on a 10-day passage puts the estimated position 240 nm off at arrival.
+
+**Turning characteristics**: A vessel's turning radius depends on waterline length and rudder area. A 30 m vessel at full rudder turns in a circle roughly 3-5 ship lengths in diameter (90-150 m). At 8 knots, a full 360° turn takes 3-5 minutes. This matters for course changes in pilotage waters: the navigator must account for the distance covered while turning, not just the angle change.
+
+**Draft and depth clearance**: A vessel's draft (depth below waterline) determines which channels and harbors it can enter at various tide states. A ship drawing 4 m needs at least 4.5 m of water (10% safety margin) at the shallowest point on the intended track. The navigator calculates tide height at the time of passage using tide tables and the rule of twelfths: tide rises 1/12 in the first hour after low water, 2/12 in the second, 3/12 in the third, then reverses for the fall.
+
+**Wind, leeway, and hull shape**: Sailing vessels experience leeway (sideways drift from wind) of 3-10° depending on wind angle, sail configuration, and hull shape. A vessel making 6 knots through the water with 5° leeway drifts sideways at about 0.5 knots. Over 24 hours, this puts the vessel 12 nm off the intended track if uncorrected. Motor vessels with deeper draft experience much less leeway (1-3°) but are still affected by strong beam winds. The navigator corrects for leeway by steering into the wind by the estimated leeway angle.
+
+**Magnetic effects of the hull**: A steel-hulled vessel creates significant magnetic deviation. A 50 m steel ship can produce 10-20° of deviation on an uncorrected compass. The correction process (swinging the ship) involves measuring the compass error at 8-12 equally spaced headings, then installing compensating magnets and soft iron correctors. After correction, residual deviation should stay below 2-3° on all headings. Wooden and fiberglass vessels produce negligible deviation from the hull itself.
+
 ## Safety & Hazards
 
 - **Navigation error**: A 1° error in celestial observation produces 60 nm position error. In coastal waters, this can put the vessel on rocks. Always cross-check with depth soundings and visual bearings when available.
 - **Compass failure**: Carry a spare compass. In extremis, magnetize a sewing needle by stroking with silk or through a coil of wire, float it on water on a leaf.
 - **Chronometer failure**: Without accurate time, longitude cannot be determined. Use lunar distance method (measure angle between moon and a reference star, consult nautical almanac) — complex but doesn't require a chronometer. Accuracy ±20-30 nm.
 - **Fog and reduced visibility**: Sound fog signals (bell, horn) at regulated intervals. Reduce speed. Post extra lookouts. Use radar if available.
+- **Hypothermia and exposure**: Navigation requires prolonged time on deck or in open bridges. Watchkeepers in cold climates risk hypothermia from wind chill. A navigator taking sextant sights on a rolling deck in freezing spray loses dexterity fast. Provide waterproof clothing, gloves, and rotate watchkeepers every 2 hours in conditions below 5°C.
+- **Sun observation eye damage**: Using a sextant to observe the sun without proper shade filters causes permanent retinal damage. Always verify shade filters are in place before bringing the sun into the field of view. Never look at the sun through an unfiltered telescope or sighting tube.
+- **Night navigation collision risk**: Operating in shipping lanes at night without adequate lighting risks collision. Post lookouts with night-adapted vision (no white light exposure for 20-30 minutes before watch). Maintain a listening watch for engine sounds from nearby vessels.
+- **Over-reliance on any single method**: When electronic aids (radio, radar) become available, navigators risk losing celestial and dead reckoning skills. Practice manual navigation regularly. Equipment failures at sea are common: batteries die, antennas break, lightning disables electronics. A navigator who cannot fix position with a sextant when the electronics fail is a danger to the vessel.
+- **Chart errors and datum shifts**: Charts may contain survey errors, outdated soundings, or be referenced to a different geodetic datum than the navigator assumes. A chart datum shift of even 0.01° puts positions 0.6 nm off. Always check the chart's datum and date of last survey. Prefer recent surveys for coastal navigation.
 
 ## Troubleshooting
 
@@ -247,6 +274,13 @@ Estimating current position from a known starting point by tracking course and d
 | Latitude fix disagrees with chart | Wrong assumed latitude in sight reduction or almanac error | Recheck arithmetic; verify almanac date and page; shoot multiple stars for cross-check |
 | Chip log underestimating speed | Line tangling or sandglass inaccurate | Ensure log line runs free; calibrate sandglass against chronometer; average multiple runs |
 | Sextant index error | Mirrors misaligned from handling or temperature | Check index error by observing horizon; adjust mirrors or apply correction to all readings |
+| Depth sounding inconsistent with chart | Vessel not at assumed position or chart outdated | Cross-check with multiple soundings; verify chart edition date; check for known chart corrections |
+| Running fix position jumps between observations | Current or tidal stream stronger than estimated | Apply current correction from tidal atlas; recheck bearings for reading error; plot current vector on chart |
+| Polaris observation gives wrong latitude | Observer south of equator (Polaris below horizon) | Use southern sky methods (Sigma Octantis for south celestial pole); use noon sun latitude method instead |
+| Chronometer rate changes suddenly | Mechanical shock, temperature spike, or magnetization | Check for nearby magnetic cargo; compare against radio time signal; apply new rate correction from known position fix |
+| Compass deviation changes from last voyage | New ferrous cargo loaded or structural steelwork repair near compass | Re-swing the ship on 8-12 headings; update deviation table; move compass or add compensating magnets |
+| Noon sun latitude disagrees with DR by more than 30 nm | Wrong declination value (wrong date in almanac) or arithmetic error | Recheck almanac date; verify declination sign (+ or -); redo sight reduction with fresh numbers; shoot multiple stars for cross-check at twilight |
+| Lead line tallow comes up clean (no bottom sample) | Seabed too hard (rock) or line not reaching bottom in deep water | Use deeper lead line; switch to mechanical depth sounder if available; note "hard bottom" on chart for future reference |
 
 ## See Also
 

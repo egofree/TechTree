@@ -40,11 +40,41 @@ Refined petroleum oils displace animal and vegetable lubricants for most industr
 
 **SAE viscosity grades** (engine oils, viscosity at 100°C): SAE 30 (9.3-12.5 cSt at 100°C, general-purpose engine oil for moderate climate), SAE 40 (12.5-16.3 cSt at 100°C, heavy-duty engine oil for hot climate). Multi-grade oils: SAE 10W-30 has a 10W winter rating (meets cold-cranking requirements at -25°C) and SAE 30 hot rating. Higher viscosity grades provide thicker films for heavier loads but increase viscous friction and heat generation. Select the lowest viscosity that maintains adequate film thickness under operating conditions.
 
+**Mineral oil lubricant grades and applications**:
+
+| ISO VG | Viscosity at 40°C (cSt) | Typical Application | Speed Range | Load Range |
+|--------|-------------------------|---------------------|-------------|------------|
+| VG 22 | 19.8-24.2 | High-speed spindle bearings | >3000 RPM | Light |
+| VG 32 | 28.8-35.2 | Hydraulic systems, turbine bearings | 1500-3000 RPM | Light-moderate |
+| VG 46 | 41.4-50.6 | General machine tools, hydraulic presses | 750-1500 RPM | Moderate |
+| VG 68 | 61.2-74.8 | Gearboxes, moderate-speed bearings | 300-750 RPM | Moderate-heavy |
+| VG 100 | 90.0-110 | Enclosed gear drives, worm gears | 100-300 RPM | Heavy |
+| VG 150 | 135-165 | Heavy gear drives, rolling mill bearings | 50-100 RPM | Very heavy |
+| VG 220 | 198-242 | Industrial gearboxes, crusher bearings | <50 RPM | Extreme |
+| VG 320 | 288-352 | Large gear drives, journal bearings (slow) | <25 RPM | Extreme |
+| VG 460 | 414-506 | Extra-heavy gear drives | <10 RPM | Extreme |
+
+**Refining process parameters**:
+
+| Step | Temperature (°C) | Pressure | Key Parameter | Purpose |
+|------|-------------------|----------|---------------|---------|
+| Vacuum distillation | 350-500 | 10-50 mmHg | Cut point control | Separate lube fractions from fuel and residuum |
+| Solvent extraction (furfural) | 50-100 | 1-3 atm | Solvent:oil ratio 2:1 to 4:1 | Remove aromatics (low VI, poor oxidation stability) |
+| Solvent dewaxing (MEK) | -20 to -10 | 1-2 atm | Chill rate 1-2°C/min | Remove paraffin wax (raises pour point) |
+| Hydrofinishing | 280-340 | 50-100 bar H₂ | LHSV 0.5-1.5 h⁻¹ | Remove S, N; saturate aromatics; improve color and stability |
+| Clay contacting | 150-250 | 1 atm | 1-3% clay by weight | Final polishing, remove color bodies and residual acids |
+
 **Properties**: Flash point typically 180-240°C (varies with grade). Pour point -10 to -30°C (paraffinic oils) or -40°C (naphthenic oils). Viscosity index 95-105 (conventional mineral oil) to 130+ (with VI improvers). Good oxidation stability (2-5x better than vegetable oils). Compatible with most seal materials (nitrile rubber, viton). Shelf life: 5+ years if uncontaminated and sealed.
 
 **Safety & Handling**:
 
 > **Safety warning**: Mineral oil at operating temperature (60-80°C in running machinery) can cause burns. Oil fires burn vigorously. NEVER use water on an oil fire; use sand, fire blanket, or smother with lid. Used mineral oil is an environmental contaminant and must not be dumped on ground or in waterways.
+
+**Specific hazards**:
+- **Oil mist inhalation**: Machining operations with flood coolant generate airborne oil mist droplets (1-5 μm diameter). Chronic inhalation causes lipoid pneumonia (oil droplets accumulate in lung tissue, causing inflammation and fibrosis). Exposure limit: 5 mg/m³ total particulate (OSHA PEL). Use mist collectors or enclosures on machines running flood coolant. If the operator can taste or smell oil in the air, the concentration is too high.
+- **Skin contact and dermatitis**: Prolonged skin contact with mineral oil removes natural skin oils, causing defatting dermatitis (dry, cracked, inflamed skin). Soluble oil emulsions are worse because the alkaline additives (pH 8.5-9.5) and biocides irritate skin. Wear nitrile gloves when handling cutting fluids. Apply barrier cream before shift. Wash with soap and water after contact, not solvents.
+- **Used oil carcinogenicity**: Repeated skin contact with used motor oil and cutting fluids has been associated with increased skin cancer risk (IARC Group 1 for untreated mineral oils, Group 3 for highly refined oils). The risk comes from polycyclic aromatic hydrocarbon (PAH) contamination that accumulates during service. Wear gloves, wash thoroughly, and do not allow used oil to remain on skin.
+- **Hydraulic injection injury**: Hydraulic fluid at 200-400 bar (3,000-6,000 psi) can inject through skin from a pinhole leak in a hose or fitting, causing catastrophic tissue destruction that often requires amputation. The injection wound may look small (pinhole) but the injected fluid spreads along fascial planes, causing widespread necrosis within hours. Never search for hydraulic leaks with bare hands; use a piece of cardboard or paper held at a distance. If injection occurs, seek emergency surgery immediately (not first aid: this requires surgical debridement).
 
 **Applications**: Every industrial application that needs lubrication: bearings, gears, hydraulic systems, engines, compressors, turbines. ISO VG 32 and 46 dominate general machinery. ISO VG 68-220 cover gear applications. SAE grades cover internal combustion engines.
 
@@ -162,6 +192,21 @@ Pump (gear pump: 10-200 bar, or piston pump: 200-400 bar) feeds control valves (
 - Vegetable oil fluid oxidizes and has a short service life
 - Water-glycol has poor lubricity, requiring harder pump components
 
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Hydraulic pump noisy, erratic operation | Oil viscosity too high (wrong grade) or contaminated with air (foaming) | Verify oil grade matches pump spec (typically ISO VG 32-46); check reservoir level (minimum 2x pump flow rate); inspect suction line for air leaks; add anti-foam agent (silicone, 10-50 ppm) |
+| Bearing runs hot (>80°C) with mineral oil | Oil viscosity too low for load/speed, or insufficient oil delivery | Increase viscosity by one ISO VG grade; verify oil delivery rate (guide: 0.5-1.0 L/min per cm of shaft diameter for plain bearings); check for bearing misalignment |
+| Oil turns dark and thick within weeks of service | Oxidation from high operating temperature or lack of antioxidants | Keep oil temperature below 70°C (install cooler if needed); add antioxidant (0.5-1.0% BHT or aromatic amine); replace oil and clean system |
+| Emulsion cutting fluid separates (oil and water layers) | Emulsifier depleted by bacterial action or hard water minerals | Test water hardness (>200 ppm CaCO₃ degrades emulsions); use deionized water for mixing; add fresh emulsifier concentrate; if bacteria present (rancid smell), drain, clean sump with 2% NaOH, and refill |
+| Gearbox oil foams excessively | Contamination with water, wrong viscosity, or overfilling | Check for water (oil appears milky; test by heating sample to 100°C — crackling indicates water); drain and refill with correct grade; do not overfill (fill to sight glass middle, not top) |
+| Hydraulic system pressure drops under load | Internal leakage from worn pump or valve spools, or oil viscosity too low at operating temperature | Check pump case drain flow (should be <5% of rated flow); measure oil temperature at reservoir (should be <65°C); if overheating, install oil cooler or increase reservoir capacity |
+| Soluble oil emulsion causes skin rash on operators | pH too high (>10) from alkaline additives, or biocide concentration too strong | Maintain pH 8.5-9.5; dilute biocide to manufacturer's recommendation; provide nitrile gloves and barrier cream; install splash guards on machine |
+| Vacuum pump oil turns cloudy, pump loses vacuum | Water contamination from pumping wet gases or from humid air backstreaming | Install moisture trap (cold trap or molecular sieve) before pump; change oil immediately when cloudy; use hygroscopic oil for humid applications |
+| Cutting tool wears rapidly despite flood coolant | Coolant not reaching cutting zone, or wrong fluid type for operation | Reposition nozzle to aim directly at chip-tool interface (within 5 cm); increase flow to 10-20 L/min for heavy cuts; switch to straight oil with EP additives for difficult materials |
+| Oil filter clogs rapidly after oil change | Contaminated reservoir (sludge, wear particles, or rust) not cleaned during change | Flush reservoir with kerosene or fresh oil before refilling; install bypass filtration (10-25 μm) on return line; sample oil for particle count (target <20/18/15 ISO 4406) |
 
 ## See Also
 

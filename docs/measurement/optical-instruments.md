@@ -11,6 +11,21 @@
 
 Chemical analysis, material identification, and dimensional metrology at sub-micrometer precision all depend on optical instruments that measure how light interacts with matter. Spectroscopy identifies elements by their emission and absorption fingerprints. Refractometry quantifies solution concentration. Interferometry measures length to nanometer resolution. Without these instruments, semiconductor process control is guesswork.
 
+### Instrument Performance Summary
+
+| Instrument | Measured Parameter | Range | Resolution | Accuracy | Calibration Standard |
+|-----------|-------------------|-------|-----------|----------|---------------------|
+| Prism spectroscope | Wavelength (emission) | 380-780 nm (visible) | 0.1 nm (best) | ±0.5 nm | Hg, Na emission lamps |
+| Grating spectroscope | Wavelength (emission) | 200-1100 nm (UV-Vis-NIR) | 0.017 nm (50 mm, 600 l/mm) | ±0.1 nm | Hg, Ne, Ar emission lamps |
+| Filter photometer | Concentration (absorbance) | 0-3 AU (absorbance units) | 0.001 AU | ±0.005 AU | Potassium dichromate solutions (NIST SRM) |
+| Abbé refractometer | Refractive index | n = 1.300-1.700 | ±0.0001 | ±0.0001 | Distilled water (n = 1.3330 at 20°C), certified reference liquids |
+| Brix refractometer | Sugar concentration | 0-95°Brix | ±0.05°Brix | ±0.1°Brix | Sucrose solutions (ICUMSA standard) |
+| Visual polarimeter | Optical rotation | ±180° | 0.01° (vernier) | ±0.01° | Quartz control plates (certified rotation at 589 nm, 20°C) |
+| Selenium cell photometer | Illuminance | 1-100,000 lux | ±1 lux | ±2-5% | Standard lamp (NIST-traceable luminous intensity) |
+| Michelson interferometer | Displacement | 0-1 m+ | 5 nm (sub-fringe, visual) | λ/100 (5 nm with Na lamp) | Gauge blocks (grade 0, ±0.05 μm) |
+| Filar micrometer eyepiece | Linear dimension | 0-10 mm (at specimen) | 1 μm (10× objective) | ±1 μm | Stage micrometer (1 mm / 100 div, certified) |
+| Profile projector | 2D profile dimensions | 0-300 mm (stage travel) | 1 μm (micrometer) | ±3 μm (at 50×) | Glass scale (0.001 mm divisions, certified) |
+
 ## Prerequisites
 
 - [Measurement fundamentals](./index.md) — calibration philosophy and traceability

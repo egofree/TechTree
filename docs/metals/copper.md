@@ -3,7 +3,7 @@
 > **Node ID**: metals.copper
 > **Domain**: [Metallurgy](./index.md)
 > **Dependencies**: [`foundations.fire`](../foundations/fire.md), [`mining`](../mining/index.md)
-> **Enables**: [`metals.bronze`](bronze.md), [`metals.iron-steel`](iron-steel.md), [`metals.non-ferrous`](non-ferrous.md), [`metals.copper-refining`](../electronics/electricity.md)
+> **Enables**: [`metals.bronze`](bronze.md), [`metals.iron-steel`](iron-steel.md), [`metals.non-ferrous`](non-ferrous.md), [`metals.copper-refining`](../energy/electricity.md)
 > **Timeline**: Years 5-10
 > **Outputs**: copper, copper_ingots, copper_wire, copper_sheet
 > **Critical**: No

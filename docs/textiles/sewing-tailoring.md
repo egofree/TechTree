@@ -66,6 +66,45 @@ Thread must be strong enough to hold seams under stress, fine enough to pass thr
 
 A seam is only as strong as its construction. Different seam types suit different applications, trading strength, bulk, fabrication time, and appearance.
 
+**Fabric properties that determine seam choice**:
+
+| Fabric Type | Weight (g/m²) | Grab Tensile (N) | Tear Strength (N) | Recommended Seam | Recommended Needle | Stitch Length (mm) | Typical Thread |
+|-------------|---------------|-------------------|--------------------|------------------|--------------------|--------------------|---------------|
+| Lightweight cotton (muslin, voile) | 60-100 | 200-350 | 8-15 | French | Size 60-70 | 2.0-2.5 | Cotton No. 60-80 |
+| Medium cotton (shirting) | 120-180 | 350-550 | 15-25 | Plain or felled | Size 70-80 | 2.5-3.0 | Cotton No. 40-50 |
+| Heavy cotton (duck, canvas) | 250-400 | 600-1200 | 30-60 | Flat-felled | Size 100-110 | 3.0-4.0 | Linen No. 10-16 |
+| Lightweight wool (tropical) | 150-200 | 250-400 | 15-25 | Plain | Size 70-80 | 2.5-3.0 | Cotton or silk No. 50 |
+| Medium wool (suiting) | 250-350 | 350-550 | 20-35 | Plain or felled | Size 80-90 | 2.5-3.0 | Cotton No. 40-50 |
+| Heavy wool (melton, felt) | 400-600 | 400-700 | 30-50 | Plain (bound edges) | Size 90-100 | 3.0-3.5 | Cotton No. 30-40 |
+| Linen (sheeting) | 150-250 | 500-800 | 20-35 | Plain or felled | Size 80 | 2.5-3.0 | Linen No. 16-25 |
+| Silk (habotai, chiffon) | 30-80 | 150-300 | 5-12 | French | Size 60-70 | 1.5-2.0 | Silk No. 50-80 |
+| Hemp canvas | 300-500 | 700-1200 | 35-60 | Flat-felled | Size 110-120 | 3.0-4.5 | Linen No. 8-16 |
+
+Grab tensile strength measures the force needed to break a 100 mm wide strip of fabric gripped at the center (25 mm jaw width). This is the standard strength test for sewn assemblies because it approximates the stress concentration at a seam. Tear strength measures the force to propagate a cut in the fabric — this matters because a torn seam often starts at a needle hole that weakened the fabric locally.
+
+**Needle and thread selection by fabric weight**:
+
+| Needle Size (metric) | Shaft Diameter (mm) | Thread Size | Fabric Weight Range | Eye Size (mm) |
+|----------------------|---------------------|-------------|---------------------|---------------|
+| 60 | 0.60 | Cotton No. 80-100, silk No. 80 | < 100 g/m² | 0.3 |
+| 70 | 0.70 | Cotton No. 60-80, silk No. 50-80 | 100-150 g/m² | 0.35 |
+| 80 | 0.80 | Cotton No. 40-60, silk No. 50 | 150-250 g/m² | 0.40 |
+| 90 | 0.90 | Cotton No. 30-50 | 200-350 g/m² | 0.45 |
+| 100 | 1.00 | Cotton No. 20-30, linen No. 25 | 300-450 g/m² | 0.50 |
+| 110 | 1.10 | Linen No. 16-25 | 400-550 g/m² | 0.55 |
+| 120 | 1.20 | Linen No. 10-16 | 500+ g/m² | 0.60 |
+| 130 | 1.30 | Heavy linen, tarred cord | Heavy leather, belting | 0.70 |
+
+A needle that is too large for the fabric punches visible holes and weakens the weave at every stitch. A needle that is too small bends or breaks under the resistance of heavy fabric. The needle eye must be at least 1.5× the thread diameter; tighter eyes cause thread shredding.
+
+**Why seam type matters for specific applications**:
+
+A plain seam works for medium-weight fabrics where the raw edges can be finished separately (zigzag stitch, overlock, or binding). But for heavy canvas or sailcloth, the raw edges of a plain seam fray rapidly under wind and saltwater exposure. The flat-felled seam encloses both raw edges, making it the only practical choice for sails and awnings. The doubled stitching lines distribute the load across a wider area, which matters because a single line of stitching under heavy load concentrates stress at each needle hole, and the fabric tears from hole to hole.
+
+French seams are the correct choice for sheer and lightweight fabrics not because of strength (they are no stronger than a plain seam) but because the enclosed raw edges prevent the loose weave of these fabrics from unraveling during washing and wear. A plain seam in chiffon develops a fringe of loose threads after one or two wash cycles.
+
+For knit fabrics (jersey, interlock, rib), ball-point needles are mandatory because sharp needles cut the yarns, creating runs that propagate across the fabric. Ball-point needles push between the yarn loops without severing them. The needle size for knits is typically one size smaller than for a woven fabric of the same weight, because knits require less punching force (the loops move aside).
+
 **[Plain seam](../glossary/plain-seam.md)** (most common, simplest):
 - Two pieces of fabric placed right sides together, stitched 10-15 mm from the raw edge, then opened flat. The seam allowance is pressed to one side.
 - Strength retention: 80-90% of fabric tensile strength. The stitching line is the weak point (thread breaks before fabric tears). Raw edges fray unless finished (zigzag stitch, overlocked, or bound with tape).

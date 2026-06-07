@@ -186,6 +186,54 @@ Equipment follows a defined state machine with states:
 9. Equipment reports completion via S6F11 (CEID = process complete) with final process data.
 10. Host uploads process results, wafer maps, and alarm history.
 
+**Control system architecture layers**:
+
+The fab automation stack is organized in four layers, each with distinct responsibilities and communication patterns:
+
+| Layer | Function | Typical Hardware | Communication | Update Rate |
+|-------|----------|-----------------|---------------|-------------|
+| Field (sensors/actuators) | Physical measurement and control | Thermocouples, pressure transducers, MFCs, valves | Analog (4-20 mA, 0-10 V) or DeviceNet/EtherCAT | 10-1000 Hz |
+| Equipment controller | Recipe execution, PID loops, safety interlocks | Industrial PC (x86, Linux/VxWorks) | SECS/GEM (HSMS) to host | 1-10 Hz state reporting |
+| Cell/area controller | Lot routing, batch scheduling, carrier management | Server rack (Linux, MES application) | SECS/GEM + SEMI E84/E87/E90 | Event-driven (ms response) |
+| Factory (MES/FDC) | Production planning, process monitoring, SPC | Data center (clustered servers, SQL database) | SQL/API to cell controllers; SECS gateway to equipment | 1-60 s data collection |
+
+**Why a layered architecture matters**: The field layer must respond in milliseconds to prevent process excursions (a temperature overshoot of 5°C in a 1000°C furnace can ruin a wafer in seconds). The MES layer plans production over hours and days. Mixing these timescales in a single control loop creates either dangerous latency at the bottom or unnecessary overhead at the top. Each layer only communicates with its neighbors, and the SECS/GEM protocol serves as the clean interface between equipment and cell controllers.
+
+**Sensor specifications in typical process equipment**:
+
+| Sensor Type | Measurement Range | Resolution | Accuracy | Response Time | Interface |
+|------------|-------------------|------------|----------|---------------|-----------|
+| Thermocouple (Type K) | -200 to 1,260°C | 0.1°C | ±1.5°C or ±0.25% | 0.5-5 s | Analog (mV) |
+| RTD (Pt100) | -200 to 600°C | 0.01°C | ±0.15°C at 0°C | 1-10 s | 4-20 mA |
+| Capacitance manometer | 0-1000 Torr | 0.01% FS | ±0.5% reading | 20-50 ms | 0-10 V |
+| Pirani gauge | 10⁻³ to 1000 Torr | N/A (log scale) | ±30% reading | 0.1-1 s | 0-10 V |
+| Mass flow controller (MFC) | 0-1000 sccm typical | 0.1% FS | ±1% FS | <1 s (settling) | 4-20 mA or DeviceNet |
+| RF power sensor | 0-5000 W | 1 W | ±3% reading | <100 ms | Digital (RS-232/485) |
+| Optical emission endpoint | 200-900 nm | 0.1 nm | ±0.5 nm | 10-100 ms | Ethernet |
+| Load cell (weight/force) | 0-50 kg | 0.01% FS | ±0.03% FS | 10-50 ms | 4-20 mA |
+
+**Actuator parameters in typical process equipment**:
+
+| Actuator Type | Control Range | Resolution | Response Time | Control Signal |
+|--------------|---------------|------------|---------------|----------------|
+| Pneumatic valve (on/off) | Open/closed | Binary | 50-200 ms | 24 VDC solenoid |
+| Proportional control valve | 0-100% travel | 0.1% | 100-500 ms | 4-20 mA |
+| Throttle valve (pressure control) | 0-100% travel | 0.01% | 50-200 ms | Stepper motor (digital) |
+| Heater (resistive) | 0-100% power | 1% (PWM) | 1-10 s (thermal lag) | SSR (solid-state relay) |
+| RF generator | 0-5000 W | 1 W | <100 ms | RS-232/IEEE-488 |
+| Chuck lift motor | 0-50 mm travel | 0.01 mm | 0.5-2 s (full travel) | Stepper/servo (encoder feedback) |
+| Robot arm (wafer transfer) | 0-1.5 m reach | 0.01 mm (repeatability) | 2-5 s (pick to place) | Servo motors with encoder |
+
+**Feedback loop design**:
+
+Process control loops in semiconductor equipment follow a cascaded PID (Proportional-Integral-Derivative) architecture:
+
+- **Inner loop (fast)**: The sensor reading feeds directly to the PID controller at 10-100 Hz. For a temperature loop, the thermocouple reads chamber temperature, the PID controller adjusts heater power via PWM, and the loop settles in 5-30 seconds. Typical PID gains: P = 2-10 (°C to % power), I = 0.1-1.0 (integral time in seconds), D = 0-0.5 (derivative damping). Tuning is done empirically: increase P until the loop oscillates, then halve it; add I to eliminate steady-state error; add D to reduce overshoot.
+
+- **Outer loop (recipe-driven)**: The equipment controller follows a recipe sequence of setpoints. Each step specifies a target temperature, pressure, gas flow, RF power, and duration. The controller ramps from the current setpoint to the next at a controlled rate (typically 5-20°C/s for temperature, 10-100 Torr/s for pressure). Ramp rate limits prevent thermal shock to the wafer and overshoot in the PID loop. The recipe specifies stability criteria: "hold at 800°C until temperature is within ±2°C for 10 seconds before proceeding."
+
+- **FDC (Fault Detection and Classification)**: The MES collects trace data from all sensors during each process run and compares real-time readings against established baselines. If a sensor reading deviates beyond 3σ (three standard deviations) from the historical mean for that recipe step, the FDC system flags the run for investigation. FDC does not control the equipment. It monitors. This separation of monitoring from control is deliberate: the equipment controller must never be dependent on the MES for real-time process control, because a network failure would then cause a process excursion.
+
 **Error handling**:
 - **S9 messages**: System errors for protocol violations. S9F1 = Unrecognized Device ID. S9F3 = Unrecognized Stream Type. S9F5 = Unrecognized Function Type. S9F7 = Illegal Data. S9F9 = Transaction Timer Timeout.
 - **S2F42 rejection codes**: HCACK (Host Command Acknowledge) = 0 (acknowledged), 1 (rejected: invalid command), 2 (rejected: cannot perform now), 3 (rejected: parameter error).
@@ -253,6 +301,13 @@ For 300 mm fabs, SEMI E38 (GEM300) adds capabilities specific to automated wafer
 | Duplicate message received | Network retransmission or equipment sending twice | Check for network packet duplication; verify T5 (connect separation timer) configuration |
 | Equipment alarm flood | Process upset generating hundreds of alarms | Configure alarm filtering at gateway; group related alarms; check equipment-side alarm thresholds |
 | Data collection events missing | Equipment not configured to send trace data | Verify S2F33/S2F35 trace setup; check event enable flags; confirm recipe includes trace parameters |
+| Intermittent HSMS disconnects | Network cable fault, switch port errors, or TCP keepalive failure | Check Ethernet cable and connectors (replace if damaged); check switch port error counters; increase TCP keepalive interval; verify no IP address conflicts on the subnet |
+| Equipment state not updating in MES | Event subscription not configured or CEID mapping wrong | Verify S2F35 link event report is active; check that CEIDs match between equipment documentation and MES configuration; re-send S2F37 enable command |
+| Recipe download fails (S7F3 rejected) | Equipment in wrong state or recipe format incompatible | Equipment must be in IDLE or SETUP state to accept recipe download; verify recipe format matches equipment firmware version; check recipe size is not exceeded (max varies by tool: 50-500 KB typical) |
+| Trace data gaps in FDC database | Gateway queue overflow or database write bottleneck | Check gateway message queue depth (increase buffer if hitting limit); verify database write throughput can sustain 800 KB/s for 200-tool fab; add database indices for trace table |
+| False alarm triggers on FDC | Baseline model out of date or sensor drift | Recalculate FDC baseline with last 50 runs; check if sensor calibration has drifted (compare sensor reading against reference standard); update alarm thresholds after any equipment maintenance |
+| Equipment not responding to remote START command | GEM state not ENABLED or safety interlock active | Verify equipment is in ENABLED/IDLE state via S1F3; check equipment panel for active safety interlocks (door open, gas alarm, E-stop); resolve interlock before retrying |
+| S9F7 illegal data errors on multiple tools | SECS-II data type mismatch between host and equipment | Verify host sends correct data format (I4 vs U4, ASCII vs binary); compare host variable definitions against equipment SECS-II interface specification document |
 
 ## See Also
 

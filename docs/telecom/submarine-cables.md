@@ -187,6 +187,13 @@ Requires purpose-built or heavily modified cable ship with 3,000+ km cable capac
 | Shore-end cable damage | Repeated trawl or anchor strikes | Bury cable 1-2 m below seabed using water-jetting plow; chart cable location on maritime maps; designate cable protection zones |
 | Cable breaks during laying | Tension too high over uneven seabed | Pay out cable at 1.05-1.10× water depth ratio; survey route with sounding; adjust ship speed |
 | Galvanic corrosion of armor | Dissimilar metals in seawater without cathodic protection | Apply zinc sacrificial anodes; verify armor wire coating integrity |
+| Shore station battery failure | Cells exhausted from continuous operation | Replace cells on schedule (every 3-6 months for Daniell cells); maintain spare battery bank; monitor voltage daily |
+| Cable insulation slowly degrading (resistance dropping over months) | Gutta-percha oxidation through hairline crack in armor | Track insulation resistance trend weekly; when resistance drops below 300 Mohm-km, plan replacement; locate fault for repair splice |
+| Siphon recorder paper jam | Paper feed mechanism misaligned or paper roll depleted | Reload paper; adjust feed rollers; keep 7 days of paper rolls in stock at each shore station |
+| Mirror galvanometer losing sensitivity | Silk fiber degraded by humidity or magnet weakened | Replace suspension fiber (store spare silk in sealed container); remagnetize or replace the mirror-magnet assembly |
+| Signal speed drops on previously fast cable | Marine growth on cable increasing capacitance (rare, shallow tropical water) | Monitor capacitance alongside resistance; if capacitance rises, suspect biological fouling; no fix except cable replacement |
+| Cable location lost (cannot find for repair) | Inaccurate laying records or cable moved by bottom currents | Resurvey with wire drag or side-scan sonar (if available); consult original laying logs for route bearings; grapple systematically along recorded route |
+| Signaling speed far below theoretical maximum | Operator inexperience or outdated receiving equipment | Train operators on siphon recorder reading; upgrade from sounder to mirror galvanometer to magnifier; use duplex operation to double throughput |
 
 ## Safety Considerations
 
@@ -196,6 +203,12 @@ Requires purpose-built or heavily modified cable ship with 3,000+ km cable capac
 - **Tar and pitch handling**: Outer serving is saturated with hot tar (200-300C). Burns from hot tar are severe and slow-healing. Leather aprons and heat-resistant gloves required during manufacturing and repair.
 - **Grapping operations**: Hooking a cable from 4,000 m depth requires heavy grapnel weights and wire rope under high tension. A snapped grapnel rope whips across the deck. All crew must stand clear during grappling.
 - **Shore-end landing**: Pulling cable ashore through surf involves heavy loads on ropes and barrels. Rope breakage under load is a crushing hazard. Coordinate pulling teams with clear signals.
+- **Gutta-percha processing hazards**: Carbon disulfide, used as a solvent for gutta-percha purification, is extremely flammable (flash point -30°C) and toxic (chronic exposure causes neurological damage). Process in well-ventilated spaces away from ignition sources. Workers handling carbon disulfide need respiratory protection and 15-minute exposure limits.
+- **Lead exposure from cable joints**: Splicing submarine cables often involves lead-sheathing the joint. Melting and pouring lead produces fumes containing lead oxide. Perform lead work in ventilated spaces. Workers should wash hands before eating. Chronic lead exposure causes anemia, kidney damage, and neurological effects.
+- **Drowning risk during shore operations**: Shore-end landing crews work in surf zones with heavy equipment. Crew members should wear life jackets. A safety boat should stand by during all shore-end operations. Hypothermia is a risk in cold water: limit exposure time and provide dry clothing and warm shelter.
+- **Cable tank confined space hazard**: Cable tanks on the laying ship are confined spaces with heavy, tensioned cable. A worker caught in a cable coil being paid out cannot escape. No personnel in cable tanks during laying operations. During loading, ensure cable is flaked properly to prevent snarls.
+- **Battery acid at shore stations**: Shore station battery banks contain hundreds of Daniell or gravity cells with sulfuric acid and copper sulfate solution. Spillage corrodes equipment and floors. Battery rooms need acid-resistant flooring, eye wash stations, and spill containment. Neutralize spills with sodium bicarbonate.
+- **Crush injuries from cable drums**: Cable drums (2-3 m diameter, several tonnes) can roll or tip during handling. Secure drums with chocks on flat ground. Use mechanical lifting (crane, hoist) rather than manual rolling. Never stand in the path of a drum that could roll.
 
 ## Economics
 

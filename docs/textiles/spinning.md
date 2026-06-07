@@ -110,11 +110,71 @@ Before fiber can be spun, it must be cleaned, opened, and aligned:
 
 - **Wool**: Shear fleece → sort by quality (shoulder and back = finest, breech and belly = coarsest) → wash in warm water (40-50°C) with mild alkali (soap or ammonia) to remove lanolin (wool grease, ~10-30% of raw fleece weight) and dirt → rinse thoroughly → dry → tease (pull apart by hand to open locks). Lanolin recovered from wash water is useful for waterproofing and lubrication.
 - **Cotton**: Ginned (seeds removed by roller gin or saw gin) → willowed (beaten to open compressed bales and remove trash) → carded (see below).
-- **Flax (linen)**: Retted (soak stalks in water 5-14 days — bacteria dissolve pectin binding fibers to woody core) → break (crush woody core with flax brake) → scutch (beat with wooden blade to remove broken woody shives) → hackle (draw through iron combs to separate long line fibers from short tow). Line fibers produce fine, strong linen; tow produces coarse yarn for rope and sacking.
+- **Flax (linen)**: Retted (soak stalks in water to dissolve pectin binding fibers to woody core) → break (crush woody core with flax brake) → scutch (beat with wooden blade to remove broken woody shives) → hackle (draw through iron combs to separate long line fibers from short tow). Line fibers produce fine, strong linen; tow produces coarse yarn for rope and sacking.
+
+**Retting times and conditions**:
+
+| Method | Fiber | Conditions | Duration | Result |
+|--------|-------|-----------|----------|--------|
+| Dew retting | Flax | Spread stalks in field, dew + rain | 2-5 weeks | Slow but requires no water; quality variable |
+| Water retting (pond) | Flax | Submerge stalk bundles in pond or pit | 5-14 days | Faster, more uniform; produces finest fiber |
+| Water retting (running) | Flax | Submerge in slow-moving stream | 4-7 days | Best quality; consistent temperature and bacteria |
+| Dew retting | Hemp | Spread in field | 3-6 weeks | Hemp rets slower than flax due to thicker stalk |
+| Water retting | Hemp | Submerge bundles | 7-14 days | Produces longest, strongest hemp fibers |
+| Tank retting | Jute | Submerge in warm water tanks (30-35°C) | 8-20 days | Standard method for jute in India/Bangladesh |
+| Retting (pond) | Nettle | Soak dried stalks | 4-8 days | Fine, silky fiber; historically important in Europe |
+
+**Key indicator**: Retting is complete when the woody core (shive) separates easily from the fiber bundles when the stalk is bent. Under-retted fiber is coarse, woody, and difficult to hackle. Over-retted fiber is weak and breaks into short pieces. Check every 1-2 days during water retting by pulling a few stalks from the bundle and bending them sharply. If the shive breaks clean away from the fiber, the ret is done. Water temperature matters: warm water (20-30°C) rets in 4-8 days; cold water (5-10°C) takes 2-3 weeks. Running water produces the most consistent results because fresh bacteria continuously colonize the stalks.
 
 **[Carding](../glossary/carding.md)** (aligning fibers for spinning):
 - **Hand cards**: Pair of rectangular paddles (10 × 20 cm) covered in card cloth (stiff wire teeth, 1-2 cm long, set in leather or rubber backing). Charge one card with teased fiber. Brush cards together — teeth pull fibers into parallel alignment. Transfer rolled rolag (cylindrical roll of carded fiber, 10-15 cm long, 3-5 cm diameter) from card. Each rolag feeds one spindle-full of yarn. Rate: 0.5-1 kg of carded fiber per hour.
 - **[Drum carder](../glossary/drum-carder.md)** (Machine Tools): Rotating drum (20-40 cm diameter) covered with card cloth feeds against smaller roller. Continuous output as carded batt (flat sheet of aligned fiber). 5-10 kg/hour throughput. Significantly faster than hand carding.
+
+## Fiber Properties and Spinning Parameters
+
+Different fibers behave differently at every stage of spinning. The staple length, fineness, and surface characteristics of each fiber determine the preparation method, twist requirements, and achievable yarn quality.
+
+**Fiber properties comparison**:
+
+| Fiber | Staple Length (mm) | Fineness (μm) | Tensile Strength (MPa) | Elasticity (% elongation) | Density (g/cm³) | Moisture Regain (%) |
+|-------|--------------------|----------------|------------------------|--------------------------|-----------------|---------------------|
+| Cotton (medium staple) | 20-30 | 15-22 | 300-600 | 6-8 | 1.54 | 7-8 |
+| Cotton (long staple, Egyptian/Pima) | 30-40 | 12-16 | 400-700 | 6-8 | 1.54 | 7-8 |
+| Flax (line) | 200-900 | 12-25 | 500-900 | 1.5-2.5 | 1.50 | 10-12 |
+| Flax (tow) | 30-150 | 20-40 | 250-500 | 2-3 | 1.50 | 10-12 |
+| Wool (Merino) | 60-120 | 15-25 | 120-180 | 25-35 | 1.31 | 14-18 |
+| Wool (crossbred) | 100-200 | 25-40 | 100-150 | 20-30 | 1.31 | 14-18 |
+| Wool (carpet/down) | 100-300 | 35-50 | 80-120 | 20-30 | 1.31 | 14-18 |
+| Silk (Bombyx) | 500-1500 (filament) | 10-13 | 400-600 | 15-25 | 1.34 | 9-11 |
+| Hemp | 50-300 | 15-50 | 400-800 | 1.5-2.5 | 1.48 | 10-12 |
+| Jute | 20-150 | 15-25 | 300-500 | 1.5-2.0 | 1.44 | 12-14 |
+| Cashmere | 30-60 | 14-16 | 100-150 | 30-40 | 1.30 | 14-16 |
+| Alpaca | 80-250 | 20-35 | 150-250 | 20-30 | 1.31 | 8-12 |
+| Mohair (Angora goat) | 120-250 | 25-45 | 120-160 | 25-35 | 1.32 | 10-12 |
+
+Moisture regain is the weight of water a fiber absorbs at 65% relative humidity and 20°C, expressed as a percentage of the dry fiber weight. This matters for spinning: high-regain fibers like wool are easier to spin in humid conditions (the moisture makes the scales on the fiber surface more flexible, reducing static and improving cohesion). Low-regain fibers like polyester generate static during carding and require humidified rooms or antistatic treatments.
+
+**Twist-per-inch reference table**:
+
+The correct twist per inch (tpi) depends on fiber type, yarn count, and end use. Too little twist makes weak, fuzzy yarn. Too much makes stiff, kinky yarn that is difficult to weave.
+
+| Fiber | Yarn Type | Yarn Count (Ne) | Twist Multiplier | Typical tpi Range | Purpose |
+|-------|-----------|-----------------|-----------------|-------------------|---------|
+| Cotton | Carded single | 10-20 | 3.5-4.0 | 11-18 | Filling (weft) yarn |
+| Cotton | Carded single | 20-40 | 3.8-4.5 | 17-28 | General weaving |
+| Cotton | Combed single | 30-60 | 3.5-4.0 | 19-31 | Fine cloth warp |
+| Cotton | Plied (2-ply) | 20/2-40/2 | 3.5-4.0 (plied) | 16-28 | Sewing thread base |
+| Flax | Line single | 10-30 (lea) | 1.5-2.5 | 8-14 | Linen cloth |
+| Flax | Tow single | 5-15 (lea) | 2.0-3.0 | 5-12 | Coarse linen, sacking |
+| Wool | Woolen single | 4-12 (yield) | 2.5-3.5 | 3-8 | Knitting yarn, blankets |
+| Wool | Worsted single | 20-50 (yield) | 2.0-2.5 | 9-15 | Suiting, trousers |
+| Wool | Plied (2-ply) | 8/2-16/2 | 2.0-3.0 | 4-10 | Knitting yarn |
+| Silk | Filament | 60-120 | 1.0-2.0 | 8-16 | Fine fabric |
+| Hemp | Single | 5-15 | 2.0-3.0 | 5-12 | Canvas, rope yarn |
+
+Twist multiplier (TM) is calculated as tpi / √(yarn count in Ne). For cotton warp yarns, TM 3.5-4.5 is the normal range. For woolen yarns, TM 2.0-3.5. A higher TM produces harder, stronger yarn suitable for warp. A lower TM produces softer, loftier yarn suitable for weft and knitting.
+
+**Drafting distance**: The distance between the front and back drafting rollers (or between the spinner's hands in hand spinning) must be slightly longer than the fiber staple length. If the drafting zone is shorter than the staple length, fibers cannot slide past each other and the yarn breaks. If the drafting zone is much longer than the staple length, fibers lose contact with their neighbors and drafting becomes uneven. Rule of thumb: drafting zone = staple length + 10-20%. For Merino wool (staple 80 mm), set drafting zone to 90-95 mm. For long-staple cotton (30 mm), set to 33-36 mm.
 
 ## Calibration and Verification
 

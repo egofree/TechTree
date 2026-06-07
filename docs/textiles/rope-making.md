@@ -27,7 +27,35 @@ Rope quality depends on fiber choice. The ideal rope fiber is strong, long-stapl
 - **Cotton**: Soft and comfortable to handle, but weak for rope applications (~15-20 MPa). Degrades quickly when wet. Used for clothesline, light duty, and decorative cordage where softness matters more than strength.
 - **Jute**: Weakest common rope fiber (~20 MPa). Biodegrades rapidly in moisture. Suitable for sacking, twine, and temporary bindings. Cheap and widely available in India and Bangladesh.
 
-**Fiber preparation**: Before ropemaking, fibers must be hackled or combed to align them parallel and remove short pieces and debris. Spin the prepared fibers into yarn by twisting — use a spinning wheel, drop spindle, or mechanical spinner. Conventional yarn twist for Western ropemaking is Z-twist (clockwise when viewed from above). Multiple yarns are twisted together to form a **[strand](../glossary/strand.md)** — the intermediate building block between yarn and rope.
+**Rope fiber properties comparison**:
+
+| Fiber | Tensile Strength (MPa) | Density (g/cm³) | Elongation at Break (%) | Staple Length (mm) | Water Resistance | UV Resistance | Relative Cost |
+|-------|----------------------|-----------------|------------------------|--------------------|--------------------|---------------|---------------|
+| Hemp | 45-55 | 1.48 | 2-3 | 50-300 | Excellent (strengthens wet) | Good | Medium |
+| Manila (abaca) | 40-50 | 1.45 | 3-5 | 1,000-3,000 | Very good (salt water) | Good | Medium-high |
+| Sisal | 30-40 | 1.40 | 2-4 | 600-1,200 | Moderate | Moderate | Low |
+| Jute | 20-30 | 1.44 | 1.5-2.5 | 20-150 | Poor (rots quickly) | Poor | Very low |
+| Cotton | 15-25 | 1.54 | 6-8 | 20-40 | Poor (weakens wet) | Poor | Low-medium |
+| Coir (coconut) | 15-25 | 1.15-1.30 | 15-25 | 50-300 | Excellent | Excellent | Low |
+| Nylon (synthetic) | 70-90 | 1.14 | 15-25 | Filament | Excellent | Poor (degrades) | High |
+| Polyester (synthetic) | 55-75 | 1.38 | 10-15 | Filament | Excellent | Excellent | High |
+
+The elongation at break matters for rope selection in dynamic applications. Hemp and manila stretch only 2-5% before breaking. This means they have almost no energy absorption — a sudden shock load (dropping a heavy object on a hemp rope) transmits the full force to the anchor points. Nylon stretches 15-25%, absorbing the shock energy before the force reaches peak. This is why climbing and lifting ropes are made from nylon: the stretch is a safety feature, not a defect. For static rigging (guy wires, standing rigging), the low-stretch fibers are preferred because positional accuracy matters more than shock absorption.
+
+**Fiber preparation for rope making**: Before ropemaking, fibers must be hackled or combed to align them parallel and remove short pieces and debris. Spin the prepared fibers into yarn by twisting — use a spinning wheel, drop spindle, or mechanical spinner. Conventional yarn twist for Western ropemaking is Z-twist (clockwise when viewed from above). Multiple yarns are twisted together to form a **[strand](../glossary/strand.md)** — the intermediate building block between yarn and rope.
+
+**Fiber extraction processes for rope fibers**:
+
+| Fiber | Plant Part | Extraction Method | Time | Yield (kg fiber / 100 kg raw) |
+|-------|-----------|-------------------|------|-------------------------------|
+| Hemp | Bast (stem) | Ret 3-6 weeks (dew) or 7-14 days (water) → break → scutch → hackle | 3-8 weeks total | 20-30 |
+| Manila (abaca) | Leaf sheath | Strip outer layer → scrape (hackle) → dry in sun | 1-3 days | 3-5 |
+| Sisal | Leaf | Decorticate (crush and scrape leaves between rollers) → wash → dry | 1-4 days | 2-4 |
+| Jute | Bast (stem) | Ret in warm water 8-20 days → strip by hand → wash → dry | 2-4 weeks total | 5-8 |
+| Coir | Coconut husk | Soak husks 5-6 months in saline water (retting) → beat with wooden mallets → separate fiber | 6-9 months | 15-20 |
+| Cotton | Seed boll | Gin (remove seeds) → card → spin | Days | 30-40 |
+
+The low yield for manila and sisal (3-5%) reflects that these are leaf fibers: the fiber constitutes only a small fraction of the leaf mass, and the extraction process is primarily mechanical separation rather than the biological retting used for bast fibers. Coir's long retting time (5-6 months) makes it the slowest fiber to produce, but coconut palms produce husks year-round in tropical climates, so the supply is continuous.
 
 ## Strand Rope Laying
 

@@ -133,72 +133,10 @@ The governing structural equation for a cylindrical chamber under external press
 - [Gas Handling: Vacuum](../gas-handling/vacuum.md) — outgassing rates and bake-out procedures
 - [Deposition Systems](deposition-systems.md) — integrated systems built around vacuum chambers
 
+Chamber passivation reduces baseline outgassing and improves ultimate vacuum. Electropolished stainless steel provides a natural chromium oxide passivation layer. For UHV applications, titanium sublimation pumping deposits a fresh titanium getter film on chamber walls that actively absorbs reactive gas molecules.
 
-Vacuum chamber O-rings (typically Viton or Buna-N) must be kept clean and free of nicks or cuts. Even a single hair across an O-ring seal can prevent the chamber from reaching high vacuum. Handle O-rings with clean, lint-free gloves. Apply a thin film of vacuum grease only if recommended by the manufacturer — excess grease contaminates the vacuum surface and increases outgassing. Replace O-rings on a regular maintenance schedule, as they harden and lose elasticity over time, especially in high-temperature bakeout cycles.
-
-Water vapor is the most pervasive contaminant in vacuum systems. Atmospheric air contains water vapor that adsorbs on all internal surfaces as molecular layers. When the chamber is pumped down, these layers desorb slowly, creating a continuous gas load that dominates the pumpdown at pressures below the medium vacuum range. Baking the chamber (heating to elevated temperature while pumping) accelerates the desorption of water and reduces the time to reach base pressure from days to hours. The baking temperature is limited by the materials present — elastomer seals cannot tolerate temperatures above 150-200°C, while all-metal sealed chambers can be baked above 300°C.
-
-Chamber design must account for the pumping ports, feedthroughs (electrical, mechanical, fluid), viewports, and access doors needed for the specific application. Each penetration through the chamber wall is a potential leak source and an outgassing source. Minimizing the number of penetrations reduces both the leak probability and the outgassing load. Ports should be sized for the required conductance — undersized ports restrict pumping speed, while oversized ports add unnecessary cost and surface area.
-
-The choice of sealing method depends on the vacuum level and the need for repeated opening. For rough vacuum, elastomer O-rings (Viton, Buna-N, silicone) provide adequate sealing and allow easy access. For high vacuum, elastomer O-rings can still be used but their outgassing rate limits the achievable base pressure. For ultra-high vacuum, metal seals (copper gaskets in Conflat flanges, or indium wire seals) are mandatory because they have negligible outgassing and can be baked to high temperatures. Metal seals are single-use — the gasket must be replaced each time the flange is opened.
-as gas reservoirs that slowly release adsorbed molecules during pumpdown.
-and are less likely to trap contaminant particles. Rough or porous surfaces act
-mirror finish) have less surface area for gas adsorption, are easier to clean,
-cleanability. Polished surfaces (electropolished or mechanically polished to
-The surface finish of internal chamber walls affects both outgassing rate and
-
-replaced each time the connection is opened.
-for many gasket changes), but the copper gaskets are single-use and must be
-provides virtually zero leakage. CF flanges are reusable (the knife edges last
-creating a metal-to-metal seal that is bakeable to high temperatures and
-They use a flat copper gasket compressed between two knife-edge flanges,
-Conflat (CF) flanges are the standard high-vacuum and UHV connection system.
-
-reducing time-to-base-pressure from days to hours.
-Baking the chamber to elevated temperature while pumping accelerates desorption,
-during pumpdown, dominating the gas load at pressures below medium vacuum.
-layers on all internal surfaces from atmospheric exposure, then desorbs slowly
-Water vapor is the most pervasive vacuum contaminant. It adsorbs as molecular
-
-surface area.
-undersized ports restrict pumping speed, while oversized ports add cost and
-leak and outgassing source. Ports should be sized for adequate conductance —
-mechanical, fluid), viewports, and access doors. Each penetration is a potential
-Chamber design must account for pumping ports, feedthroughs (electrical,
-
-are mandatory for negligible outgassing and high-temperature baking capability.
-pressure. For ultra-high vacuum, metal seals (copper gaskets in Conflat flanges)
-high vacuum, O-rings are still usable but their outgassing limits the base
-elastomer O-rings (Viton, Buna-N) provide adequate sealing and easy access. For
-The choice of sealing method depends on the vacuum level. For rough vacuum,
-
-Vacuum chamber internals (fixtures, sample holders, process tooling) must be designed for
-minimal outgassing. Stainless steel and aluminum are the preferred materials. Avoid plastics,
-elastomers, and porous materials inside the chamber unless specifically rated for vacuum use.
-All internal components should be cleaned by the same procedures used for the chamber itself
-(solvent washing, deionized water rinse, bakeout) before installation.
-
-The cost of a vacuum chamber scales steeply with size and vacuum level. A small laboratory
-bell jar for rough vacuum costs relatively little. A large production chamber for high-vacuum
-thin film deposition, with multiple ports, viewports, and a load-lock, represents a major
-capital investment. The chamber body must be fabricated by a machine shop capable of producing
-flat, smooth sealing surfaces and precision-welded joints. This manufacturing requirement
-places vacuum chamber production firmly in the industrial development phase.
-
-Viewport materials must be chosen for both optical transparency and vacuum compatibility.
-Borosilicate glass is standard for most applications, while quartz (fused silica) is used for
-UV transparency or higher temperature resistance. Viewports are typically mounted on ConFlat
-flanges with copper gaskets and must be handled carefully to avoid scratching or cracking the
-glass, which would compromise both the optical path and the vacuum integrity.
-
+Internal components (fixtures, sample holders, process tooling) must use low-outgassing materials: stainless steel and aluminum are preferred. Avoid plastics, elastomers, and porous materials inside the chamber unless specifically rated for vacuum. Clean all internal components by the same solvent/IPA/bake procedure used for the chamber itself before installation.
 
 ---
-
-Chamber passivation — coating the interior surfaces with a stable, low-outgassing film —
-reduces the baseline outgassing rate and improves the achievable ultimate vacuum. Electropolished
-stainless steel surfaces provide a natural chromium oxide passivation layer. For ultra-high
-vacuum applications, titanium sublimation pumping deposits a fresh titanium getter film on the
-chamber walls that actively absorbs reactive gas molecules.
-
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*

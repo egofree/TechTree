@@ -3,7 +3,7 @@
 > **Node ID**: energy.electric-furnaces.electrode-manufacturing
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: See prerequisites
-> **Enables**: [`Petroleum & Alternative Chemistry`](petroleum-alternatives.md), [`Electric Furnaces`](electric-furnaces.md)
+> **Enables**: [`Petroleum & Alternative Chemistry`](../chemistry/petroleum-alternatives.md), [`Electric Furnaces`](electric-furnaces.md)
 > **Timeline**: Years 30-50
 > **Outputs**: graphite_electrodes, amorphous_carbon_electrodes
 > **Critical**: No
@@ -181,7 +181,7 @@ Rejection rates during electrode manufacturing are typically 5-15%, with most de
 
 - [Electric Furnaces](electric-furnaces.md) — parent capability
 - [Energy Domain](./index.md) — domain overview and related capabilities
-- [Petroleum & Alternative Chemistry](petroleum-alternatives.md) — downstream capability
+- [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md) — downstream capability
 - [Electric Furnaces](electric-furnaces.md) — downstream capability
 
 ### Material Handling

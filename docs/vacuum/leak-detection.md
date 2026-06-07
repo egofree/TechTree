@@ -152,6 +152,85 @@ Achieving hermetic seals requires joining techniques that produce leak-tight joi
 | Hermetic IC package | <10⁻⁸ | Helium bombing + accumulation |
 | Cryogenic vessel | <10⁻⁷ | Helium sniffer mode |
 
+## Leak Detection Pump Specifications
+
+Helium mass spectrometer leak detectors contain an integrated vacuum pumping system. Understanding the pump specs helps predict response time and sensitivity for different system volumes.
+
+| Pump Parameter | Typical Value | Impact on Leak Detection |
+|---|---|---|
+| Internal turbo pump speed | 30-60 L/s (small units), 200-300 L/s (large units) | Higher speed = faster helium transport to detector = shorter response time |
+| Roughing pump speed | 1-5 m³/h (internal rotary vane) | Determines initial pump-down time before testing begins |
+| Ultimate pressure (internal) | <10⁻⁷ mbar (<10⁻⁷ Torr) | Lower base pressure = lower helium background = better sensitivity |
+| Minimum detectable leak rate (vacuum mode) | 10⁻¹² atm·cc/s | Sets the floor for the smallest leak you can find |
+| Minimum detectable leak rate (sniffer mode) | 10⁻⁷ atm·cc/s | Orders of magnitude less sensitive due to atmospheric helium background |
+| Response time (1 L volume) | <1 second | Small volumes respond almost instantly |
+| Response time (100 L volume) | 5-30 seconds | Large chambers need patience between spray and signal |
+| Response time (1000+ L volume) | 30-180 seconds | Very large systems may need minutes; use bag technique for patience |
+
+**Converting between common vacuum units**:
+
+| Measurement | mbar | Torr (mm Hg) | Pa | atm |
+|---|---|---|---|---|
+| Atmospheric pressure | 1013 | 760 | 101,325 | 1 |
+| Rough vacuum | 1 - 10⁻³ | 0.75 - 7.5×10⁻⁴ | 100 - 0.1 | 10⁻³ - 10⁻⁶ |
+| High vacuum | 10⁻³ - 10⁻⁷ | 7.5×10⁻⁴ - 7.5×10⁻⁸ | 0.1 - 10⁻⁵ | 10⁻⁶ - 10⁻¹⁰ |
+| Ultra-high vacuum | <10⁻⁷ | <7.5×10⁻⁸ | <10⁻⁵ | <10⁻¹⁰ |
+
+Leak rates are commonly expressed in atm·cc/s (the volume of gas at standard atmosphere passing through the leak per second). Alternative units: mbar·L/s (multiply atm·cc/s by 1.013 to convert) or Pa·m³/s (multiply atm·cc/s by 0.1013).
+
+## Common Leak Locations and Diagnostic Approach
+
+**Where leaks occur** (ranked by frequency):
+
+1. **Flange connections** — scratched O-ring sealing surfaces, misaligned flanges, uneven bolt tightening, degraded O-rings. Start here.
+2. **Welded joints** — porosity, incomplete penetration, cracks from thermal cycling or corrosion. Check all welds, especially repair welds.
+3. **Valve stem seals** — worn packing glands allow gas to enter along the valve stem shaft. Test with the valve in both open and closed positions.
+4. **Viewports** — glass-to-metal seal failures from thermal shock or mechanical stress. Tap the viewport gently with a non-metallic tool while monitoring for pressure changes.
+5. **Electrical feedthroughs** — ceramic-to-metal seal cracks from thermal cycling. These are subtle and often require the bag technique to isolate.
+6. **Flexible hose connections** — cracked or hardened O-rings, loose clamps, hose pinholes. Flex the hose gently during helium spray.
+
+**Systematic leak checking procedure**:
+
+1. Start with a pressure rise test to confirm whether a real leak exists (vs. outgassing).
+2. If a leak is confirmed, use RGA to identify the gas composition (air leak vs. specific contaminant).
+3. Divide large systems into sections using gate valves. Isolate each section and pressure-rise test independently. This narrows the search area before helium spraying.
+4. Spray helium from top to bottom, working around each joint, weld, and fitting with a fine nozzle held 3-5 mm from the surface.
+5. Move the spray slowly (2-5 cm/s) and pause at each joint for at least 2× the expected response time.
+6. Mark each checked location with a wax pencil. This prevents re-checking the same spot and ensures complete coverage.
+7. When a leak is found, mark it and continue searching. Systems often have multiple leaks, and fixing one may reveal others that were previously masked.
+8. After repair, re-test the entire system. Repair work (welding, tightening, replacing gaskets) can introduce new leaks.
+
+**Virtual leaks vs. real leaks**:
+
+| Characteristic | Real Leak | Virtual Leak |
+|---|---|---|
+| Gas source | Outside atmosphere entering through a hole | Trapped internal volume slowly releasing gas |
+| Helium response | Positive when sprayed with He | No response to external He spray |
+| RGA signature | N₂ + O₂ in 4:1 ratio; He when sprayed | N₂ + O₂ present, no He response to spray |
+| Pressure vs. time (isolated) | Linear increase (constant rate) | 1/t decay (decreasing rate, eventually plateaus) |
+| Fix | Locate and seal the physical opening | Vent the trapped volume or redesign the joint |
+
+## Safety & Hazards
+
+- **Pressurized gas hazards**: Helium cylinders store gas at 150-200 bar. Secure cylinders against tipping with chains or straps. Use pressure regulators rated for the cylinder pressure. Never transport uncapped cylinders. When pressurizing systems for sniffer-mode testing, never exceed the vessel's rated pressure. Most vacuum chambers are not designed for significant positive pressure.
+- **Helium asphyxiation risk**: Helium is inert but displaces oxygen in enclosed spaces. Large helium releases in unventilated rooms can reduce O₂ below 19.5% (the alarm threshold). This is a particular risk during extended leak testing sessions where multiple helium cylinders are used. Ensure adequate ventilation. If using bag techniques on large flanges, vent excess helium outdoors rather than into the room.
+- **Mass spectrometer filament hazard**: The leak detector's mass spectrometer contains a hot filament (similar to an ionization gauge). Never open the leak detector while powered. The filament operates in vacuum and will burn out instantly if exposed to atmospheric pressure while hot.
+- **Calibrated leak handling**: Permeation-type calibrated leaks contain a thin glass or quartz membrane that is fragile. Dropping a calibrated leak destroys it. Capillary-type leaks can clog with dust or condensate. Store calibrated leaks in sealed containers and handle with care. Calibrated leaks are traceable to national standards and have a certified uncertainty, typically ±10-20%. Recalibrate annually.
+- **Vacuum implosion**: Components under vacuum (viewports, glass bell jars, thin-walled vessels) can implode. Wear safety glasses when working near vacuum systems. Never use a glass bell jar with chips, scratches, or star cracks.
+- **Electrical safety**: Helium leak detectors operate at 120-240 VAC and contain high-voltage components for the mass spectrometer (ion acceleration voltages of 100-500 V). Ground the instrument properly. Disconnect power before servicing internal components.
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---|---|---|
+| Leak detector cannot reach operating vacuum | Internal pump oil contaminated, or test volume too large for internal pump | Change internal rotary vane pump oil; connect an external roughing pump to assist with initial pump-down of large volumes |
+| Background helium reading too high for sensitive detection | Room contaminated with helium from previous testing; ambient He above 5 ppm | Ventilate room for 15-30 minutes; check internal He background before starting; move leak testing to a well-ventilated area |
+| False positive readings when spraying lower joints | Helium from a lower spray rising past an unrelated upper joint (He is lighter than air) | Always spray from top down; use a plastic bag to isolate the joint being tested from rising helium |
+| Response time too long on large system | Internal turbo pump speed insufficient for system volume; long conductance paths delay helium transport | Use bag technique for patience; add an external turbopump connected near the suspected region; spray closer to the detector connection point |
+| No response to helium despite confirmed pressure rise | Virtual leak, not a real leak; or helium spray not reaching the actual leak path | Check RGA for atmospheric gas without He response (virtual leak); try sniffer mode on pressurized system; check for internal trapped volumes |
+| Calibrated leak reads outside certified range | Calibrated leak damaged or clogged; leak detector sensitivity drifted | Inspect calibrated leak for physical damage; clean capillary leaks with solvent; recalibrate leak detector against a second calibrated standard |
+| Leak detector filament burns out frequently | Operating at pressures above 10⁻³ Torr; oil backstreaming coating the filament | Verify internal pump reaches adequate vacuum before activating filament; install a foreline trap to prevent oil backstreaming; replace with yttria-coated iridium filament |
+
 ## See Also
 
 - **[Vacuum Measurement](./measurement.md)**: Pressure gauges, RGA specifications, gauge calibration
@@ -160,45 +239,6 @@ Achieving hermetic seals requires joining techniques that produce leak-tight joi
 - **[Gas Handling](../gas-handling/index.md)**: Gas delivery systems, cylinder regulators, tubing
 - **[Measurement](../measurement/index.md)**: General measurement and instrumentation principles
 
-
-Helium supply cylinders must be secured against tipping and connected with proper regulators. The helium leak detector requires regular maintenance of its vacuum pump, mass spectrometer filament, and calibration against known leak standards. Calibration leaks (permeation-type or capillary-type elements with certified leak rates) are essential for quantitative leak detection and must be handled carefully to avoid clogging the calibrated orifice.
-
-Common leak locations include welded joints (porosity, incomplete penetration), flange connections (scratched O-ring sealing surfaces, misaligned flanges), valve stem seals (worn packing), and viewports (glass-to-metal seal failures). Systematic leak checking starts at the most likely leak points and works through the system methodically. Marking checked areas with a wax pencil prevents re-checking the same spot. For large systems, dividing the system into sections and leak-checking each section independently speeds up the process.
-
-Calibration is essential for quantitative leak detection. A calibrated leak standard (a small permeation element or capillary with a certified leak rate) is measured periodically to verify the detector sensitivity. Without calibration, the leak detector can locate leaks (qualitative detection) but cannot measure their size (quantitative leak rate). Knowing the leak rate is important for determining whether a leak is acceptable — every vacuum system has some leakage, and the question is whether the leak rate exceeds the pumping capacity enough to prevent reaching the target pressure.
-
-Helium mass spectrometer leak detectors are complex instruments that combine a small vacuum pumping system with a magnetic sector mass spectrometer tuned to helium. The detector connects to the vacuum system under test through a flexible hose. In the most common configuration (detector mode), the leak detector pumps on the vacuum system while the operator sprays helium on the exterior. The response time — the delay between spraying helium on a leak and detecting the helium signal — depends on the volume of the system and the pumping speed. Large volumes may take several minutes for the helium to reach the detector.
-pump-down periods.
-virtual from real leaks requires observing the pressure behavior over extended
-virtual leaks decrease over time as the trapped gas is depleted. Distinguishing
-slowly releases into the vacuum chamber, mimicking a leak. Unlike real leaks,
-in internal pockets (screw threads, blind holes, gaps between fitted parts)
-Virtual leaks are a diagnostic challenge distinct from real leaks. Gas trapped
-
-checked areas to avoid re-checking.
-checking starts at the most likely points and works methodically, marking
-seals (worn packing), and viewports (glass-to-metal seal failures). Systematic
-flange connections (scratched O-ring surfaces, misaligned flanges), valve stem
-Common leak locations include welded joints (porosity, incomplete penetration),
-
-decisions.
-can locate leaks qualitatively but cannot measure their size for acceptance
-periodically to verify detector sensitivity. Without calibration, the detector
-standard (permeation element or capillary with certified leak rate) is measured
-Calibration is essential for quantitative leak detection. A calibrated leak
-
-reach the detector.
-system volume and pumping speed — large volumes may take minutes for helium to
-to the system under test through a flexible hose. Response time depends on
-magnetic sector mass spectrometer tuned to helium mass 4. The detector connects
-Helium mass spectrometer leak detectors combine a small vacuum system with a
-
-The ability to detect and repair vacuum leaks efficiently separates a functional vacuum system from an expensive paperweight. Investing in leak detection capability early in vacuum technology development pays dividends in reduced troubleshooting time and higher system uptime.
-
-The ability to detect and repair vacuum leaks efficiently separates a functional vacuum system
-from an expensive paperweight. Investing in leak detection capability early in vacuum technology
-development pays dividends in reduced troubleshooting time and higher system uptime across all
-vacuum-dependent processes.
-
+---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Vacuum Technology](./index.md) • [All Domains](../index.md)*

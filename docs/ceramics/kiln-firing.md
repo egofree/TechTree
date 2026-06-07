@@ -3,7 +3,7 @@
 > **Node ID**: ceramics.pottery.kiln-firing
 > **Domain**: [Ceramics](./index.md)
 > **Dependencies**: See prerequisites
-> **Enables**: [`Charcoal Production`](charcoal.md)
+> **Enables**: [`Charcoal Production`](../energy/charcoal.md)
 > **Timeline**: Years 0-10
 > **Outputs**: fired_ceramics
 > **Critical**: No
@@ -58,6 +58,188 @@ Primary outputs: `fired_ceramics`.
 - A sheltered firing area with at least 3 meters of clearance from combustible structures. Kilns radiate intense heat and their exhaust contains carbon monoxide
 - Ventilation for fuel-burning kilns: natural draft through a chimney, or forced ventilation. Indoor electric kilns also need ventilation to remove fumes from burning organics in the clay
 - A dry storage area for unfired ware. Pieces entering the kiln must be bone dry. Even slight residual moisture causes steam explosions during early heating. In humid climates, pieces may need to be stored in a warm, dry area for several days before firing to ensure complete drying
+
+## Clay Body Compositions
+
+The three traditional clay body families differ in their raw material ratios, firing temperature, and fired properties. Each body is a blend of plastic clays (which provide workability), non-plastic fillers (silica, which controls shrinkage and thermal expansion), and fluxes (feldspar, which lowers the maturing temperature).
+
+| Component | Earthenware (cone 04-02) | Stoneware (cone 6-10) | Porcelain (cone 10-12) |
+|-----------|-------------------------|----------------------|----------------------|
+| Ball clay | 40-50% | 25-35% | 0% |
+| Kaolin | 0-10% | 20-30% | 45-55% |
+| Silica (flint, 200 mesh) | 20-30% | 15-25% | 20-30% |
+| Feldspar (potash or soda) | 10-15% | 15-20% | 20-30% |
+| Red clay or fireclay | 10-20% | 0-15% | 0% |
+| Grog (optional) | 0-10% | 0-15% | 0% |
+| Firing range | 999-1120 degrees C | 1222-1305 degrees C | 1305-1325 degrees C |
+| Fired absorption | 8-15% | 1-3% | Less than 1% |
+| Total shrinkage (dry + fired) | 8-12% | 10-14% | 12-18% |
+| Fired color | Red, tan, or buff | Gray, brown, or white | White, translucent when thin |
+
+**Earthenware body (cone 04, ~1060 degrees C)**: 45% red clay or ball clay, 25% silica (200 mesh), 15% feldspar, 15% grog (fine, 80 mesh). The high proportion of plastic red clay makes this body easy to throw and handbuild. Iron oxide in the red clay (typically 5-8% Fe2O3) produces the characteristic terracotta color. The fired body remains porous (10-15% absorption), so functional earthenware needs glaze inside and out to hold liquids. White earthenware replaces red clay with ball clay and adds 5% calcium carbonate as a secondary flux.
+
+**Stoneware body (cone 6, ~1222 degrees C)**: 30% ball clay, 25% kaolin, 20% silica (200 mesh), 15% feldspar (potash preferred), 10% grog (fine to medium, 40-80 mesh). This body vitrifies to a dense, non-porous state. The grog reduces drying shrinkage and improves thermal shock resistance for ovenware. Without grog, large stoneware pieces crack during drying. A cone 10 stoneware variant drops the grog to 5% and raises feldspar to 20%, achieving full vitrification at 1285 degrees C.
+
+**Porcelain body (cone 10, ~1285 degrees C)**: 50% kaolin (low-iron grade such as Grolleg or New Zealand halloysite), 25% feldspar (potash), 25% silica (200 mesh). Porcelain is the most demanding body: pure kaolin has low plasticity, making it hard to throw. The 12-18% total shrinkage causes warping in large pieces. The reward is a white, dense, resonant ceramic that rings clearly when struck and shows glaze colors at full intensity. Translucent below 3 mm thickness.
+
+## Pyrometric Cone Reference
+
+Pyrometric cones measure heatwork (the combined effect of temperature and time), not just peak temperature. A cone bends 90 degrees when its formulated ceramic softens at the reference temperature for a standard heating rate of 150 degrees C per hour.
+
+| Cone | Temperature (degrees C) | Typical Use |
+|------|------------------------|-------------|
+| 022 | 600 | Overglaze enamels, luster firing |
+| 020 | 635 | Low-fire lusters |
+| 018 | 715 | Low-fire glazes, decals |
+| 016 | 790 | Low-fire glazes |
+| 010 | 905 | Low bisque for earthenware |
+| 08 | 955 | Standard bisque for earthenware |
+| 06 | 999 | Upper bisque, earthenware glaze firing |
+| 04 | 1060 | Standard bisque, earthenware glazes |
+| 02 | 1120 | High earthenware, low stoneware |
+| 2 | 1168 | Mid-range earthenware |
+| 4 | 1196 | Transitional body range |
+| 6 | 1222 | Standard stoneware, mid-range glazes |
+| 8 | 1263 | High stoneware |
+| 10 | 1285 | High-fire stoneware, porcelain |
+| 12 | 1325 | High porcelain, some industrial ceramics |
+
+Orton (the dominant cone manufacturer) makes large (senior) cones and small (junior) cones. Large cones are the reference standard. Small cones bend approximately one cone number lower than large cones of the same number. Always use large cones for witness cones in the kiln; small cones fit in kiln sitter devices.
+
+## Detailed Firing Schedules
+
+Below are specific temperature ramp schedules for the three standard clay body types. All rates assume an empty kiln or a well-ventilated fuel kiln. Adjust candling time upward for thick-walled pieces (over 1 cm) or humid conditions.
+
+**Bisque firing schedule (earthenware, target cone 08, 955 degrees C)**:
+
+| Phase | Temperature Range | Ramp Rate | Duration |
+|-------|------------------|-----------|----------|
+| Candling (optional) | Ambient to 100 degrees C | 30 degrees C/hr | ~3 hr |
+| Water smoking | 100 to 300 degrees C | 60 degrees C/hr | ~3.5 hr |
+| Organic burnout | 300 to 500 degrees C | 100 degrees C/hr | ~2 hr |
+| Quartz inversion | 500 to 650 degrees C | 60 degrees C/hr | ~2.5 hr |
+| Ramp to peak | 650 to 955 degrees C | 150 degrees C/hr | ~2 hr |
+| Soak at peak | 955 degrees C | Hold | 20 min |
+| Cooling | 955 to 200 degrees C | Natural (kiln closed) | 8-10 hr |
+| **Total** | | | **~21-23 hr** |
+
+**Bisque firing schedule (stoneware, target cone 04, 1060 degrees C)**:
+
+| Phase | Temperature Range | Ramp Rate | Duration |
+|-------|------------------|-----------|----------|
+| Candling | Ambient to 100 degrees C | 40 degrees C/hr | ~2.5 hr |
+| Water smoking | 100 to 300 degrees C | 60 degrees C/hr | ~3.5 hr |
+| Organic burnout | 300 to 550 degrees C | 100 degrees C/hr | ~2.5 hr |
+| Quartz inversion | 550 to 650 degrees C | 60 degrees C/hr | ~1.5 hr |
+| Ramp to peak | 650 to 1060 degrees C | 150 degrees C/hr | ~2.5 hr |
+| Soak at peak | 1060 degrees C | Hold | 20-30 min |
+| Cooling | 1060 to 200 degrees C | Natural (kiln closed) | 10-12 hr |
+| **Total** | | | **~23-25 hr** |
+
+**Glaze firing schedule (stoneware, cone 6 oxidation, 1222 degrees C)**:
+
+| Phase | Temperature Range | Ramp Rate | Duration |
+|-------|------------------|-----------|----------|
+| Initial ramp | Ambient to 300 degrees C | 100 degrees C/hr | ~3 hr |
+| Moderate ramp | 300 to 1050 degrees C | 150 degrees C/hr | ~5 hr |
+| Quartz inversion | 1050 to 650 degrees C (on cooling) | 100 degrees C/hr | (part of cool) |
+| Final ramp | 1050 to 1222 degrees C | 100 degrees C/hr | ~1.5 hr |
+| Soak at peak | 1222 degrees C | Hold | 15-20 min |
+| Initial cool | 1222 to 600 degrees C | 150 degrees C/hr | ~4 hr |
+| Controlled cool through 573 degrees C | 600 to 500 degrees C | 80 degrees C/hr | ~1.5 hr |
+| Final cool | 500 to ambient | Natural (kiln closed) | 6-8 hr |
+| **Total** | | | **~21-23 hr** |
+
+**Glaze firing schedule (stoneware, cone 10 reduction, 1285 degrees C)**:
+
+| Phase | Temperature Range | Ramp Rate | Notes |
+|-------|------------------|-----------|-------|
+| Initial ramp | Ambient to 1000 degrees C | 100 degrees C/hr | Oxidation atmosphere |
+| Body reduction | 1000 to 1150 degrees C | 50 degrees C/hr | Close damper to 50%, push burners. Reduces iron in clay body from Fe3+ to Fe2+ |
+| Clear | 1150 to 1200 degrees C | 100 degrees C/hr | Open damper to 75%, oxidation for 2-3 min to clear carbon |
+| Glaze reduction | 1200 to 1285 degrees C | 60 degrees C/hr | Close damper to 40%. Iron, copper, and celadon glazes develop color |
+| Soak at peak | 1285 degrees C | Hold 10 min | Maintain light reduction. Check cone bend through spy hole |
+| Flash cool | 1285 to 1050 degrees C | 200 degrees C/hr | Open damper fully. Fast initial cool prevents glaze devitrification |
+| Controlled cool | 1050 to 500 degrees C | 80-100 degrees C/hr | Natural cool rate in most kilns |
+| Final cool | 500 to ambient | Natural | Kiln closed until below 200 degrees C |
+| **Total** | | | **~20-24 hr** |
+
+Reduction firing cannot be done in an electric kiln (no combustion gases to create a reducing atmosphere). Gas and wood kilns create reduction by restricting the air supply, causing the flame to seek oxygen from the ceramic materials themselves. The amount of reduction is controlled by the damper position and fuel flow. Heavy reduction (lots of smoke from the chimney) is not necessarily better than light reduction; over-reduction causes bloating, carbon trapping, and dull glaze surfaces.
+
+## Glaze Recipes
+
+Glazes are formulated around the triaxial relationship of silica (glass former), alumina (stabilizer that controls viscosity and prevents running), and flux (melter that lowers the softening temperature). Recipes below are given in batch weight percentages of raw materials.
+
+**Clear base glaze, cone 6 (stoneware)**:
+
+| Material | Weight % |
+|----------|---------|
+| Feldspar (potash, Custer or equivalent) | 35% |
+| Silica (200 mesh) | 25% |
+| Whiting (CaCO3) | 20% |
+| Kaolin | 10% |
+| Zinc oxide or talc | 10% |
+
+Fires to a clear, glossy surface at cone 6 (1222 degrees C). Add colorants by weight: iron oxide 1-2% for amber to brown, copper carbonate 2-4% for turquoise to green, cobalt carbonate 0.5-1% for blue, rutile 3-5% for tan with mottled streaks, manganese dioxide 2-4% for plum brown.
+
+**Leach 4-3-2-1 base (cone 6-10, versatile)**:
+
+| Material | Weight % |
+|----------|---------|
+| Feldspar | 40% |
+| Silica | 30% |
+| Whiting (or half whiting, half dolomite) | 20% |
+| Kaolin | 10% |
+
+At cone 6, add 1-2% zinc oxide to ensure full melt. At cone 10, works as-is. An excellent starting point for developing a personal palette: add any oxide or carbonate at 1-5% for colored transparent glazes.
+
+**Celadon, cone 10 reduction (stoneware)**:
+
+| Material | Weight % |
+|----------|---------|
+| Feldspar (potash) | 40% |
+| Silica | 25% |
+| Whiting | 15% |
+| Kaolin | 10% |
+| Dolomite | 10% |
+| Iron oxide (red) | 2% |
+
+The classic East Asian jade-green glaze. Fires translucent green in reduction (Fe2+ in the glass matrix). In oxidation, the same recipe fires yellow-brown. Apply to 1-2 mm dry thickness. Thinner coating appears pale green; thicker appears deep green with visible depth.
+
+**Tenmoku, cone 10 reduction (stoneware)**:
+
+| Material | Weight % |
+|----------|---------|
+| Feldspar (potash) | 45% |
+| Silica | 20% |
+| Whiting | 15% |
+| Kaolin | 10% |
+| Bone ash (calcium phosphate) | 10% |
+| Iron oxide (red) | 8-10% |
+
+Dark brown to black with an iridescent surface. At thinner application, the glaze breaks to rust-brown on edges and ridges. The high iron content (8-10%) produces a nearly opaque coating. Bone ash adds phosphate, which promotes the oil-spot effect (crystalline iron oxide spots that float to the surface during peak temperature hold).
+
+**Shino, cone 10 (stoneware)**:
+
+| Material | Weight % |
+|----------|---------|
+| Feldspar (soda, Minerva or equivalent) | 70% |
+| Silica | 20% |
+| Clay (redart or local red clay) | 10% |
+
+A high-soda, low-alumina glaze ranging from white to orange to carbon-trap gray. Apply thick (2-3 mm dry coating). In reduction, soda interacts with iron in the clay body to produce the characteristic orange blush. Thick areas trap carbon, creating gray-black patches. The thick application means this glaze runs: leave extra clearance at the pot's base and protect kiln shelves with fresh kiln wash.
+
+**Low-fire earthenware glaze (cone 06, ~999 degrees C)**:
+
+| Material | Weight % |
+|----------|---------|
+| Feldspar (soda) | 25% |
+| Lead bisilicate or borax frit (for food-safe, use borax frit only) | 35% |
+| Silica | 15% |
+| Whiting | 15% |
+| Kaolin | 10% |
+
+Fires to a glossy surface at cone 06. Lead bisilicate produces brilliant, durable surfaces but is toxic. Use borax frit (ferro frit 3124 or equivalent) for all food-contact ware. Colorants: same range as the cone 6 clear base. Earthenware glazes run more readily at peak temperature than stoneware glazes because the lower firing temperature leaves a wider gap between the glaze's softening point and the point where it becomes too fluid.
 
 ## Process Description
 
@@ -192,7 +374,7 @@ The loading pattern inside the kiln also changes with scale. A small top-loading
 
 - [Pottery & Clay Products](pottery.md) — parent capability
 - [Ceramics Domain](./index.md) — domain overview and related capabilities
-- [Charcoal Production](charcoal.md) — downstream capability
+- [Charcoal Production](../energy/charcoal.md) — downstream capability
 
 
 ---

@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.potash
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Basic Glass Production`](basic.md), [`Soap & Detergent Production`](soap.md)
-> **Enables**: [`Foundations`](foundations.md)
+> **Dependencies**: [`Basic Glass Production`](../glass/basic.md), [`Soap & Detergent Production`](soap.md)
+> **Enables**: [`Foundations`](../foundations/index.md)
 > **Timeline**: Years 5-15
 > **Outputs**: potash, pearl-ash, alkaline-solutions
 > **Critical**: No
@@ -33,7 +33,7 @@ For glassmaking, potash glass (K₂CO₃ as the alkali source) has a lower melti
 
 ### Equipment
 
-- [Basic Glass Production](basic.md) — material dependency (glass vessels for testing and storage)
+- [Basic Glass Production](../glass/basic.md) — material dependency (glass vessels for testing and storage)
 - [Soap & Detergent Production](soap.md) — material dependency (potash is a primary soap input)
 
 ### Knowledge
@@ -168,11 +168,11 @@ At workshop and industrial scales, the evaporation fuel cost rivals the wood inp
 
 ## References
 
-- [Chemistry](chemistry.md) — parent capability
+- [Chemistry](index.md) — parent capability
 - [Chemistry Domain](./index.md) — domain overview and related capabilities
-- [Basic Glass Production](basic.md) — upstream dependency (material)
+- [Basic Glass Production](../glass/basic.md) — upstream dependency (material)
 - [Soap & Detergent Production](soap.md) — upstream dependency (material)
-- [Foundations](foundations.md) — downstream capability
+- [Foundations](../foundations/index.md) — downstream capability
 
 ### Material Handling
 

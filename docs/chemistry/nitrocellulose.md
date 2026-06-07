@@ -42,11 +42,55 @@
 
 **Properties**: Energy density 3× black powder. Burns rapidly without residue (cleaner than black powder). Properties tunable via degree of nitration (guncotton vs pyroxylin). Soluble forms (pyroxylin) enable lacquers, film base, and propellant gel formulation.
 
+**Nitrocellulose types and properties**:
+
+| Type | Nitrogen Content | Solubility in Ether-Alcohol | Energy (MJ/kg) | Ignition Temp (°C) | Primary Use |
+|------|-----------------|-----------------------------|-----------------|---------------------|-------------|
+| Pyroxylin (collodion) | 10.5-12.0% | Fully soluble | 3.0-3.5 | ~170 | Lacquers, film base, celluloid |
+| Guncotton | 12.5-13.5% | Partially soluble | 3.5-4.0 | ~160 | Propellants, explosives |
+| Blended (smokeless powder) | 12.6-13.2% | Forms colloid | 3.8-4.2 | ~160 | Single-base smokeless powder |
+
+**Nitration parameters**:
+
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| Mixed acid composition (guncotton) | 21% HNO₃, 63% H₂SO₄, 16% H₂O | Sulfuric acid acts as dehydrating agent |
+| Mixed acid composition (pyroxylin) | 20% HNO₃, 60% H₂SO₄, 20% H₂O | Higher water content gives lower nitration |
+| Acid:cellulose ratio | 15:1 by weight | Excess acid absorbs heat and ensures uniform nitration |
+| Nitration temperature | 20-30°C | Above 35°C, runaway decomposition risk increases sharply |
+| Nitration time | 30-60 minutes | Longer times give higher, more uniform nitration |
+| Wash water volume | 20× acid volume for quench | Dilution stops reaction instantly |
+| Boiling stabilization | 4-24 hours minimum, sometimes days | Removes unstable low-nitration products and trapped acid |
+| Drying temperature | 40-50°C | Above 60°C risks ignition of dry guncotton |
+| Cellulose moisture before nitration | <2% | Moisture dilutes mixed acid, reducing nitration efficiency |
+
 **Safety & Handling**:
 
 > **Safety warning**: Nitration is strongly exothermic. Temperature control is critical. Runaway reaction causes fire and explosion. Residual acid in the product causes spontaneous decomposition. Wash and boil extensively until wash water tests neutral. Degradation products (NO₂) autocatalyze further decomposition in storage.
 
 Mixed acid (HNO₃ + H₂SO₄) causes severe chemical burns. Wear acid-resistant gloves, face shield, and rubber apron. Have copious water supply for immediate flushing. Neutralize spills with limestone or sodium bicarbonate. Store nitrocellulose in cool, dry conditions. Old or discolored material may be unstable.
+
+**Specific nitration hazards**:
+- **Thermal runaway**: The nitration reaction generates ~150 kJ per mole of cellulose (highly exothermic). If the temperature exceeds 35°C, the reaction rate accelerates, producing more heat, which accelerates the reaction further. Above 60-70°C, the nitrated product itself begins to decompose exothermically, potentially leading to ignition. Temperature control at 20-30°C requires cooling capacity of 2-5 kW per kg of cellulose being nitrated. If temperature rises above 35°C despite cooling, dump the batch immediately into the quench tank (20× volume cold water). Never attempt to save a hot batch.
+- **Nitrogen dioxide (NO₂) exposure**: Decomposition of nitrocellulose produces NO₂, a brown gas with IDLH 20 ppm. NO₂ causes delayed pulmonary edema (symptoms appear 6-24 hours after exposure, by which time lung damage may be irreversible). Detectable by color at 5 ppm. Ventilate nitration areas with 15+ air changes per hour. Install continuous NO₂ monitors with audible alarms.
+- **Dry guncotton ignition**: Dried guncotton ignites from friction, impact, or static discharge at energies as low as 0.1 mJ. During the drying stage (40-50°C), keep the product slightly damp until the final drying step. Handle dry guncotton only with non-sparking tools (wood, rubber, or beryllium copper). Maintain >60% relative humidity in drying rooms to reduce static.
+- **Ether-alcohol solvent explosion**: Smokeless powder manufacture uses diethyl ether (LEL 1.9%, autoignition 160°C) and ethanol. Ether vapor is heavier than air and pools at floor level. A static spark ignites ether-air mixtures. All solvent handling equipment must be grounded. Use explosion-proof motors and lights. Solvent recovery system must capture >95% of vapors for both safety and economics.
+- **Stabilizer depletion**: Diphenylamine stabilizer scavenges NO₂ decomposition products. Once the stabilizer is consumed (typically 1-2% by weight in fresh powder), the remaining decomposition products autocatalyze further breakdown, potentially leading to spontaneous ignition. Test stabilizer content annually for stored powder; destroy powder when stabilizer drops below 0.3%. Heat dramatically accelerates depletion: at 20°C, stabilizer lasts 20-40 years; at 50°C, it depletes in months.
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Nitration temperature rises above 35°C despite cooling | Cooling capacity insufficient for batch size, or cellulose added too fast | Reduce cellulose addition rate to 1 kg per 10 minutes; increase cooling water flow; if temperature exceeds 40°C, quench entire batch in 20× volume cold water immediately |
+| Product has low nitrogen content (<11%) | Mixed acid too dilute (water content >20%), nitration time too short, or cellulose moisture >5% | Prepare fresh mixed acid to target composition (21% HNO₃/63% H₂SO₄); extend nitration to 60 minutes; dry cellulose to <2% moisture before use |
+| Nitrocellulose unstable, decomposes in storage (brown NO₂ fumes, heat) | Incomplete washing — residual acid trapped in cellulose fibers catalyzes decomposition | Re-boil in fresh water for 8-24 hours until wash water tests pH 7; if product is already warm or fuming, submerge in water and discard safely (burn in small quantities on open ground) |
+| Guncotton does not dissolve in ether-alcohol for smokeless powder | Nitrogen content too high (>13.5%) or solvent ratio wrong | Blend high-nitration guncotton with lower-nitration pyroxylin (10.5-12% N) to achieve 12.6-13.2% average; adjust ether:alcohol ratio to 2:1 by volume |
+| Smokeless powder grains crack during drying | Drying too fast (temperature >60°C) or grain geometry too thick for the drying rate | Reduce drying temperature to 40-50°C; increase drying time; extrude thinner grains for faster solvent evaporation; use staged drying (30°C for 3 days, then 50°C for 2 days) |
+| Powder burns erratically, inconsistent ballistic performance | Grain size non-uniform, solvent pockets in grains, or uneven stabilizer distribution | Re-sort grains by sieve (target ±5% weight per grain); extend drying to remove residual solvent; improve kneading during colloid mixing to distribute stabilizer evenly |
+| Nitrocellulose product is discolored (yellow/brown instead of white) | Organic impurities in cellulose feed, or nitration at too high temperature (>35°C) | Use bleached, high-alpha cellulose (>95% alpha-cellulose); maintain nitration below 30°C; discolored product may be usable but should be stability-tested before use |
+| Ether-alcohol solvent recovery yields <80% | Condenser cooling insufficient or system leaks | Increase condenser cooling water flow (target <5°C outlet temperature); check seals on recovery system; ether losses are both a fire hazard and an economic loss |
+| Extruded powder grains stick together (blocking) | Insufficient drying, or glazing (graphite coating) omitted | Extend drying time until solvent content <1%; tumble dried grains with 0.5-1.0% graphite powder to coat surfaces and prevent adhesion |
+| Diphenylamine stabilizer depletes rapidly in storage | Powder stored above 30°C or in damp conditions (moisture accelerates decomposition) | Store at 15-20°C in sealed containers with desiccant; test stabilizer content every 6 months; if below 0.5%, use powder within 12 months or destroy |
 
 **Applications**: Propellant base for [single-base smokeless powder](../glossary/single-base.md), explosive, lacquers and film base (pyroxylin form), dope for fabric aircraft covering, early photographic film (celluloid, made from pyroxylin + camphor plasticizer). Nitrocellulose is the foundation of the entire smokeless powder industry. Without it, firearms remain limited to black powder performance: heavy smoke, limited range, and rapid barrel fouling. Pyroxylin's solubility in ether-alcohol also made it the first practical plastic (celluloid, 1860s), enabling photography, film, and early molded goods.
 

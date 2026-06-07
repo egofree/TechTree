@@ -10,7 +10,11 @@
 
 Trade and barter is the direct exchange of surplus goods between specialists and communities. Where [division of labor](./division-of-labor.md) creates specialists who produce more of one thing than they need, trade provides the mechanism for those specialists to obtain everything else. Without trade, each specialist (or community) must remain self-sufficient, and the productivity gains from specialization cannot be fully realized.
 
-Barter — the direct exchange of goods for goods — is the simplest form of trade. It requires no intermediary technology beyond the goods themselves and mutual agreement on relative value. However, barter suffers from the double-coincidence problem: to trade, both parties must want what the other has, at the same time, in agreeable quantities. This constraint limits barter to small communities with dense social networks where repeated interactions build trust and informal credit.
+Barter, the direct exchange of goods for goods, is the simplest form of trade. It requires no intermediary technology beyond the goods themselves and mutual agreement on relative value. However, barter suffers from the double-coincidence problem: to trade, both parties must want what the other has, at the same time, in agreeable quantities. This constraint limits barter to small communities with dense social networks where repeated interactions build trust and informal credit.
+
+**Why trade emerges at specific population thresholds**: In a community of 20 people, everyone knows everyone's skills and needs. A potter swaps pots for grain at the well, and if the farmer doesn't need pots today, the potter remembers and trades next week. No system is needed. At 150 people (Dunbar's number), the memory of who owes what to whom starts to fail. At 500 people, most transactions occur between people who don't know each other personally. At this scale, informal credit breaks down and formal trade mechanisms (standardized measures, written records, designated market spaces) become necessary. The transition from informal to formal trade is not optional. Communities that fail to make it experience market breakdown: goods don't reach the people who need them, specialists can't sell their surplus, and economic activity retreats toward subsistence self-sufficiency.
+
+**Why grain becomes the reference commodity**: Grain is the most common reference good for pre-currency pricing because it has five properties that no other commodity matches simultaneously: (1) everyone needs it, (2) it stores for months to years, (3) it's divisible in small quantities, (4) it's relatively uniform in quality, and (5) production is large-scale and predictable enough that prices are stable. Cattle fail on divisibility. Salt fails on universal need (not everyone preserves meat). Metal tools fail on uniformity. Grain is not a perfect unit of account (it spoils eventually, harvests vary), but it is the least bad option available before coinage.
 
 Trade depends on [transport](../transport/index.md) to move goods between locations and on [writing](../knowledge/writing.md) for contracts, inventories, and price records. The transport network defines the geographic reach of the market; writing defines the complexity of trade relationships that can be managed.
 
@@ -151,6 +155,18 @@ Trade is an organizational capability. Physical inputs are minimal:
 | Salt | 1 kg | Grain | 3-5 kg | Preservative value |
 | Iron axe head | 1 | Grain | 25-40 kg | Production tool, high value |
 | Leather sandals (pair) | 1 | Grain | 3-6 kg | Consumable, steady demand |
+| Wool (raw fleece) | 1 | Grain | 4-7 kg | Textile input |
+| Charcoal (bag, 20 kg) | 1 | Grain | 10-15 kg | Fuel for smithing |
+| Copper ingot | 1 kg | Grain | 15-25 kg | Raw material, depends on distance from mine |
+| Timber (beam, 3 m) | 1 | Grain | 5-10 kg | Construction material |
+| Clay jars (10 L, set of 5) | 1 set | Grain | 8-12 kg | Storage vessels |
+| Iron plowshare | 1 | Grain | 40-60 kg | Agricultural capital good |
+| Animal hide (cattle) | 1 | Grain | 8-15 kg | Leatherworking input |
+| Honey | 1 kg | Grain | 5-8 kg | Sweetener, preservative |
+
+**Why exchange ratios vary by 20-50%**: These ratios are not fixed prices. They vary by season (grain is cheapest after harvest, most expensive before), by distance from source (salt costs 2-3x more 100 km from the salt pan than at the source), and by local scarcity (iron is cheap near the smelter, expensive in settlements two weeks' travel away). The range listed above reflects typical variation across a 50-200 km trade network over the course of a year. A trader who knows these variations can profit from arbitrage: buy iron knives where they're cheap (near the smith), transport 50 km, and trade for grain at the higher iron-to-grain ratio. This price information is one reason traders become a specialist class.
+
+**Labor value as a cross-check**: As a rough baseline, the grain equivalent of a good reflects the labor time embedded in it. Unskilled labor produces about 5-8 kg grain equivalent per day. A knife requires roughly 2 days of a blacksmith's time (including ore smelting, forging, and sharpening), and a blacksmith's labor is worth about 2x unskilled labor. So: 2 days × 2 × 6 kg = 24 kg grain, plus raw material costs, yielding a 25-30 kg grain range for an iron knife. This cross-check helps when trading in unfamiliar goods where no established exchange rate exists.
 
 
 ## Scaling Notes
@@ -172,6 +188,13 @@ Trade is an organizational capability. Physical inputs are minimal:
 | Goods spoiling during transport | Transport too slow for perishable goods | Limit perishable trade to local range (<30 km); focus long-distance trade on durable goods (metal, pottery, salt, grain) |
 | Credit defaults (debts not repaid) | No enforcement mechanism; debtor left community | Limit credit to known, trusted individuals; require collateral (goods held until debt repaid) |
 | Market monopolies (single trader controls a good) | Geographic isolation or trade route control | Encourage competing trade routes; diversify supply sources |
+| Price volatility destabilizing local economy | Harvest failure, supply disruption, or speculative hoarding | Maintain community grain reserves (10-20% of annual consumption); establish price floors/ceilings during emergencies; ban export of staples during shortage |
+| Merchants refusing to trade with each other | Feud between families or ethnic groups | Establish market neutrality rules (all persons may trade at market regardless of disputes); provide neutral arbitration |
+| Goods arriving damaged | Poor packaging or rough handling in transport | Standardize packaging (pottery vessels sealed with clay stoppers; grain in sewn hide bags); inspect at point of receipt before accepting |
+| New traders excluded from established market | Incumbent merchants colluding to block competition | Designate open market days where any trader may set up; prohibit exclusive dealing arrangements |
+| Counterfeit or adulterated goods detected | Unscrupulous sellers mixing cheap materials | Establish quality inspection at market (taste salt, test metal with touchstone, weigh goods); ban sellers with 2+ confirmed adulteration incidents |
+| Seasonal shortages of key goods | No off-season storage or import plan | Build community warehouses; contract with distant suppliers for off-season delivery; encourage local production of imported goods |
+| Exchange ratio for new good has no reference | No prior trades establish baseline value | Calculate from labor input (days of skilled work × 2 × daily grain value); compare to similar existing goods; negotiate first trade and record agreed ratio for future reference |
 
 
 ## Safety

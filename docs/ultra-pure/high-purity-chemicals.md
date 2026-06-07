@@ -32,6 +32,62 @@ The transition from industrial-grade (95-99.5%, or 2-3N purity) to electronic-gr
 | **Ultra-High Purity (SEMI C7/C8)** | 99.99999%+ (7-8N) | <100 ppt | Critical etch, gate oxide |
 | **Tru-Electronic / Ultra-Trace** | 99.9999999% (9N) | <10 ppt | Advanced node (<28 nm) processing |
 
+### N-Value, Percentage, and Fractional Conversions
+
+The "N" notation counts the number of nines in the purity percentage. Each additional nine reduces impurities by 10×:
+
+| N-Value | Purity (%) | Total Impurities | Example Impurity Level (if 10 contaminants) | Typical Production Method |
+|---------|-----------|------------------|----------------------------------------------|--------------------------|
+| 2N | 99% | 10,000 ppm (1%) | 1,000 ppm each | Industrial synthesis |
+| 3N | 99.9% | 1,000 ppm (0.1%) | 100 ppm each | Fractional distillation |
+| 4N | 99.99% | 100 ppm (0.01%) | 10 ppm each | Ion exchange + distillation |
+| 5N | 99.999% | 10 ppm (0.001%) | 1 ppm each | Sub-boiling distillation (1 pass) |
+| 6N | 99.9999% | 1 ppm (1,000 ppb) | 100 ppb each | Sub-boiling distillation (2 passes) |
+| 7N | 99.99999% | 100 ppb (0.1 ppm) | 10 ppb each | Sub-boiling + ion exchange |
+| 8N | 99.999999% | 10 ppb (0.01 ppm) | 1 ppb each | Sub-boiling + isothermal distillation |
+| 9N | 99.9999999% | 1 ppb (1,000 ppt) | 100 ppt each | Multiple purification stages, PTFE equipment |
+| 10N | 99.99999999% | 0.1 ppb (100 ppt) | 10 ppt each | Zone refining, specialized techniques |
+
+**Conversion reference**: 1 ppm = 1,000 ppb = 1,000,000 ppt. One ppb means one part impurity per billion parts of material, or one microgram per kilogram. One ppt means one nanogram per kilogram, or roughly one grain of salt in an Olympic swimming pool.
+
+### SEMI Contamination Limits for Key Electronic-Grade Chemicals
+
+These limits are defined by SEMI International Standards and represent the maximum allowable metallic impurity concentrations for each chemical at electronic grade:
+
+| Impurity Element | HF (49%, SEMI C35) | HCl (37%, SEMI C36) | H₂O₂ (31%, SEMI C30) | NH₄OH (29%, SEMI C39) | IPA (SEMI C40) |
+|---|---|---|---|---|---|
+| Aluminum (Al) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Antimony (Sb) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Arsenic (As) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Barium (Ba) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Cadmium (Cd) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Calcium (Ca) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Chromium (Cr) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Copper (Cu) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Iron (Fe) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Lead (Pb) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Lithium (Li) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Magnesium (Mg) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Manganese (Mn) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Nickel (Ni) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Potassium (K) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Silver (Ag) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Sodium (Na) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Strontium (Sr) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Tin (Sn) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| Zinc (Zn) | <100 ppt | <100 ppt | <100 ppt | <100 ppt | <100 ppt |
+| **Particles (≥0.5 μm)** | <100/mL | <100/mL | <100/mL | <100/mL | <100/mL |
+| **TOC** | <1 ppm | <1 ppm | <1 ppm | <1 ppm | <1 ppm |
+
+The 100 ppt per-element limit is the SEMI C35 threshold for electronic grade. For advanced nodes (<28 nm), semiconductor fabs typically specify <10 ppt per element (9N+ purity). At these levels, the analytical verification challenge becomes significant. See [Analytical Verification](analytical-verification.md) for the ICP-MS methods used to confirm these limits.
+
+**Why each metallic impurity matters in semiconductor processing**:
+
+- **Alkali metals (Na, K, Li)**: Mobile ions that diffuse through SiO₂ gate oxide under electric field, shifting transistor threshold voltage. Even a few ppb of sodium contamination can destroy an entire wafer lot. These are the most critical impurities to control.
+- **Transition metals (Fe, Cu, Ni, Cr)**: Form deep-level traps in silicon that reduce carrier lifetime and increase junction leakage. Copper is particularly harmful because it diffuses rapidly through silicon at process temperatures. Iron creates recombination centers that degrade solar cell efficiency.
+- **Heavy metals (Pb, Cd, Zn, Sn)**: Contaminate epitaxial layers and create crystal defects during high-temperature processing. Lead and cadmium are also restricted by RoHS regulations.
+- **Alkaline earths (Ca, Mg, Ba)**: Similar to alkali metals in their effect on gate oxide integrity, though less mobile. Calcium contamination affects oxide uniformity.
+
 
 ## Sub-Boiling Distillation
 

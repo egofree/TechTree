@@ -2,8 +2,8 @@
 
 > **Node ID**: photolithography.fab-processes.plasma-etching
 > **Domain**: [Photolithography](./index.md)
-> **Dependencies**: [`Silicon`](silicon.md)
-> **Enables**: [`Basic Gas Handling`](basic.md), [`Vacuum Chambers & Sealing`](chambers.md)
+> **Dependencies**: [`Silicon`](../silicon/index.md)
+> **Enables**: [`Basic Gas Handling`](../glass/basic.md), [`Vacuum Chambers & Sealing`](../vacuum/chambers.md)
 > **Timeline**: Years 45-70
 > **Outputs**: etched_features, anisotropic_profiles, deep_trenches, via_holes
 > **Critical**: No
@@ -27,7 +27,7 @@ Etch selectivity, the ratio of target material etch rate to mask (or underlying 
 
 ### Equipment
 
-- [Silicon](silicon.md) — material dependency
+- [Silicon](../silicon/index.md) — material dependency
 - Etch chamber with RF generator (13.56 MHz), impedance matching network, and powered electrode
 - Gas delivery system with mass flow controllers for 4-8 gas lines
 - Vacuum system: roughing pump + turbo-molecular pump, base pressure below 10⁻⁶ Torr
@@ -80,6 +80,36 @@ The Bosch process for DRIE deserves closer examination because it is the workhor
 | Temperature | -150°C to +200°C | Cryo etching for smoother sidewalls; substrate cooling via He backside |
 | Etch Rate | 0.01 - 10 μm/min | Depends on material, chemistry, and plasma density |
 | Gas Chemistry | Material-specific | Si: SF₆/CF₄; SiO₂: CHF₃/C₄F₈; Al: Cl₂/BCl₃ |
+
+### Etch Rates by Material and Chemistry
+
+The etch rate depends on the target material, gas chemistry, RF power, pressure, and plasma source (RIE vs ICP). The table below gives representative etch rates for common IC materials under production-typical conditions.
+
+| Material | Gas Chemistry | RF Power (W) | Pressure (mTorr) | Etch Rate (nm/min) | Selectivity to Photoresist | Selectivity to SiO₂ |
+|----------|--------------|-------------|-------------------|--------------------|-----------------------------|---------------------|
+| Silicon (single crystal) | SF₆ / O₂ (90/10 sccm) | 300 | 30 | 200-500 | 3-5:1 | 1-2:1 |
+| Silicon (single crystal) | SF₆ / C₄F₈ (Bosch etch step) | 800 ICP + 20 bias | 30 | 1000-3000 (per cycle avg) | 5-10:1 | 2-5:1 |
+| Silicon (single crystal) | Cl₂ / HBr (gate etch) | 400 | 10 | 50-150 | 5-10:1 | 10-20:1 |
+| Polysilicon | HBr / Cl₂ / O₂ (70/20/5 sccm) | 300 | 15 | 80-200 | 5-10:1 | 10-30:1 |
+| Polysilicon | SF₆ / CHF₃ (30/20 sccm) | 250 | 40 | 150-400 | 3-5:1 | 1-3:1 |
+| SiO₂ (thermal) | CHF₃ / CF₄ (30/20 sccm) | 300 + 800 ICP | 30 | 100-300 | 3-5:1 | — |
+| SiO₂ (PECVD) | CHF₃ / Ar (40/50 sccm) | 350 + 800 ICP | 25 | 150-350 | 3-5:1 | — |
+| SiO₂ (thermal, high selectivity) | C₄F₈ / Ar / O₂ (25/50/5 sccm) | 400 + 1000 ICP | 20 | 80-200 | 5-10:1 | — |
+| Si₃N₄ (silicon nitride) | CHF₃ / O₂ (40/5 sccm) | 300 | 40 | 80-200 | 3-5:1 | 0.5-1:1 (etches slower than oxide) |
+| Si₃N₄ (spacer etch) | CHF₄ / O₂ / Ar (25/5/50 sccm) | 250 | 30 | 50-150 | 5-8:1 | 1-2:1 |
+| Aluminum (Al or Al-Cu 0.5%) | Cl₂ / BCl₃ / N₂ (40/30/10 sccm) | 200 + 600 ICP | 15 | 300-600 | 2-4:1 | 5-15:1 |
+| Aluminum (Al-Si 1%) | Cl₂ / BCl₃ (50/25 sccm) | 250 | 20 | 200-500 | 2-3:1 | 5-10:1 |
+| Tungsten (W) | SF₆ / Ar (40/30 sccm) | 300 | 30 | 200-400 | 3-5:1 | 1-3:1 |
+| Titanium (Ti) | Cl₂ / BCl₃ (30/20 sccm) | 200 | 15 | 100-300 | 2-4:1 | 3-8:1 |
+| TiN (barrier) | Cl₂ / BCl₃ / Ar (30/15/30 sccm) | 250 | 20 | 80-200 | 2-4:1 | 3-6:1 |
+| Photoresist (Novolac/DNQ) | O₂ (100 sccm, ash) | 300 | 500 | 500-2000 | — | 5-20:1 (resist etches faster) |
+| Photoresist (CAR, DUV) | O₂ (100 sccm, ash) | 200 | 500 | 300-1000 | — | 3-10:1 |
+| SiGe (selective to Si) | CF₄ / O₂ (20/5 sccm) | 200 + 600 ICP | 15 | 100-300 (SiGe) / <5 (Si) | 10-20:1 | 5-10:1 |
+| Cu seed (for cleaning) | Cl₂ / Ar (20/40 sccm) | 300 | 20 | 50-150 | 1-2:1 | 3-5:1 |
+
+**Reading the table**: Selectivity to photoresist of 5:1 means the target material etches 5 times faster than the photoresist mask. For a 1 μm deep silicon etch with 5:1 selectivity, the photoresist loses 200 nm of thickness. Selectivity to SiO₂ matters when SiO₂ serves as an etch stop or mask: a 10:1 Si:SiO₂ selectivity means that for every 100 nm of silicon removed, only 10 nm of SiO₂ is consumed.
+
+**Loading effect**: The etch rates above are for typical pattern densities (20-50% open area). Densely patterned wafers (high loading) etch 10-30% slower than sparsely patterned wafers because more reactive species are consumed by the larger etching surface. Always calibrate etch rate on a test wafer with the actual pattern density of the production design.
 
 ## Safety Considerations
 
@@ -187,9 +217,9 @@ Damage from plasma etching is a concern for devices with thin gate oxides. Ion b
 
 - [Core Fab Processes](fab-processes.md) — parent capability
 - [Photolithography Domain](./index.md) — domain overview and related capabilities
-- [Silicon](silicon.md) — upstream dependency (material)
-- [Basic Gas Handling](basic.md) — downstream capability
-- [Vacuum Chambers & Sealing](chambers.md) — downstream capability
+- [Silicon](../silicon/index.md) — upstream dependency (material)
+- [Basic Gas Handling](../glass/basic.md) — downstream capability
+- [Vacuum Chambers & Sealing](../vacuum/chambers.md) — downstream capability
 
 ---
 

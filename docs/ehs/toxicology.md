@@ -167,6 +167,67 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 5. **Administer specific antidote if available**: See antidote table in Quantitative Parameters section.
 6. **Supportive care**: Maintain airway, breathing, circulation. Monitor vital signs. Transport to medical facility if available.
 
+### Toxic Exposure Diagnostic Procedure
+
+When a worker presents with symptoms potentially caused by chemical exposure, a systematic diagnostic approach identifies the causative agent and guides treatment.
+
+1. **History**: What chemical(s) were handled? What was the route of exposure (inhalation, skin contact, ingestion)? How long was the exposure? What PPE was worn? Were co-workers similarly affected? Has this happened before? The history is the most important diagnostic tool — most toxic exposures can be identified from the chemical name alone.
+2. **Vital signs**: Heart rate, blood pressure, respiratory rate, temperature, oxygen saturation (if pulse oximeter available). Patterns point to specific toxic syndromes:
+   - Tachycardia + hypertension + dilated pupils: sympathomimetic (solvents, withdrawal)
+   - Bradycardia + hypotension + miosis (constricted pupils): cholinergic (organophosphates, carbamates)
+   - Tachycardia + hypotension + dry skin + ileus: anticholinergic (atropine, some plants)
+   - Hypotension + depressed mental status + respiratory depression: opioid or sedative
+   - Tachypnea + metabolic acidosis: methanol, ethylene glycol, salicylates
+3. **Physical examination**: Skin (cyanosis, jaundice, flushing, rashes, chemical burns), pupils (dilated vs. constricted vs. asymmetric), lung sounds (wheezing = irritant gas; crackles = pulmonary edema from phosgene or NO₂), abdomen (hyperactive bowel sounds = organophosphate; absent = anticholinergic or ileus), neurological (confusion, ataxia, seizures, coma, peripheral neuropathy).
+4. **Specific tests if available**: Blood gases (metabolic acidosis suggests methanol, ethylene glycol, or salicylate poisoning), blood glucose (hypoglycemia from ethanol, insulin, or liver toxins), ECG (prolonged QT interval from arsenic or organophosphates; wide QRS from tricyclic antidepressants or sodium channel blockers), serum cholinesterase activity (depressed in organophosphate exposure), carboxyhemoglobin level (elevated in CO poisoning), methemoglobin level (elevated from nitrites, aniline dyes, or dapsone).
+5. **Toxic syndrome identification**: Match the clinical pattern to one of the recognized toxic syndromes (toxidromes) listed in step 2. Even without laboratory confirmation, the toxidrome guides initial treatment. For example, cholinergic syndrome (organophosphate pesticide) is treated with atropine regardless of whether you can confirm the specific chemical.
+
+### Dose-Response Relationships for Common Industrial Toxins
+
+The relationship between dose and effect determines safe exposure limits. The following data shows the approximate dose-response for acute exposure to several critical industrial chemicals.
+
+**Carbon monoxide** (exposure duration 1 hour):
+
+| CO Concentration (ppm) | COHb Level (%) | Symptoms |
+|-----------------------|----------------|----------|
+| 35 (OSHA PEL, 8-hr TWA) | 5-6 | No symptoms in healthy adults |
+| 100 | 10-15 | Mild headache |
+| 200 | 15-25 | Throbbing headache, nausea |
+| 400 | 25-35 | Severe headache, dizziness, visual disturbance |
+| 800 | 35-45 | Confusion, syncope, tachycardia |
+| 1,600 | 45-55 | Coma, seizures |
+| 3,200 | 55-70 | Cardiovascular collapse, death |
+| 6,400 | >70 | Death within minutes |
+
+CO binds hemoglobin with approximately 240× the affinity of oxygen. The resulting carboxyhemoglobin (COHb) cannot transport oxygen. The relationship between inspired CO concentration and COHb level depends on exposure duration, physical exertion, and individual factors (anemia, cardiovascular disease increase susceptibility). Heavy physical work increases respiratory rate and accelerates CO uptake.
+
+**Hydrogen sulfide** (exposure duration varies):
+
+| H₂S Concentration (ppm) | Exposure Time | Effect |
+|-------------------------|--------------|--------|
+| 0.01-0.3 | — | Detectable "rotten egg" odor |
+| 1 (ACGIH TLV-TWA) | 8 hours | No adverse effects (occupational limit) |
+| 10-20 | — | Eye irritation, sore throat |
+| 50-100 | 1+ hours | Severe respiratory irritation, olfactory fatigue (loss of smell) |
+| 100-200 | 1+ hours | Olfactory paralysis (cannot smell it at dangerous levels) |
+| 200-300 | 1 hour | Pulmonary edema |
+| 500-700 | 30-60 minutes | Unconsciousness, respiratory arrest ("knockdown") |
+| 700-1,000 | Minutes | Rapid unconsciousness, death |
+| >1,000 | Immediate | Immediate collapse, apnea, death ("sudden death") |
+
+H₂S is a broad-spectrum cellular toxin that inhibits cytochrome c oxidase (the same enzyme targeted by cyanide). The danger is compounded by olfactory fatigue: at concentrations above 100 ppm, the smell receptors are paralyzed within minutes. The victim believes the gas has dissipated because they can no longer smell it, when in fact the concentration may be rising. This is why H₂S kills multiple victims in sequence: the first worker collapses, the second enters to rescue, the third enters to rescue the first two.
+
+**Hydrofluoric acid dermal exposure**:
+
+| HF Concentration | Skin Area | Onset of Pain | Severity | Treatment Window |
+|-----------------|-----------|--------------|----------|-----------------|
+| <20% | Small (palm) | 1-8 hours | Erythema, pain | Apply calcium gluconate gel 2.5% within 1 hour for best outcome |
+| 20-50% | Small (palm) | 1-4 hours | Burning pain, blisters, tissue necrosis | Immediate calcium gluconate; pain persists until calcium applied |
+| >50% | Small (palm) | Minutes | Immediate severe pain, rapid necrosis | Immediate calcium gluconate gel + urgent medical evaluation |
+| Any concentration | >5% body surface area | Variable | Systemic fluoride poisoning: hypocalcemia, cardiac arrhythmia, death | Emergency: IV calcium gluconate 10 mL 10% solution; monitor ECG for QT prolongation |
+
+HF penetrates skin rapidly because the fluoride ion is small and lipophilic at low pH. It binds tissue calcium and magnesium, causing liquefactive necrosis of deep tissue while the skin surface may appear normal for hours. Pain out of proportion to visible injury is the hallmark of HF exposure. Calcium gluconate gel works by providing free calcium ions that bind the fluoride before it can deplete tissue calcium stores. Apply gel generously and massage into the affected area for at least 15 minutes. Reapply every 4-6 hours until pain-free for 4 hours.
+
 
 ## TLV-TWA Values for Common Industrial Chemicals
 
@@ -242,6 +303,13 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 | Worker symptoms below TLV | Individual sensitivity, skin absorption (TLV may not account for dermal route), mixed exposures | Evaluate dermal exposure; consider additive effects of multiple chemicals; lower exposure limit for sensitive individuals |
 | Unexplained illness cluster | Shared exposure source, common ventilation pathway, contaminated water/food | Conduct environmental survey: air, water, food; interview affected workers for common factors; expand sampling |
 | Antidote unavailable | Supply not stocked, expired, or never produced | Focus on decontamination and supportive care; initiate production of critical antidotes (thiosulfate, calcium gluconate) |
+| Worker collapses in confined space with no warning | H₂S exposure above 500 ppm (knockdown concentration) | Do NOT enter without SCBA; ventilate space before entry; retrieve victim using supplied air or mechanical means; H₂S kills rescuers who enter without protection |
+| Persistent metallic taste in workers near smelting | Heavy metal fume (copper, zinc, lead) above PEL | Test air for metal fume concentration; increase LEV at furnace; issue P100 respirators; check blood lead and urinary copper |
+| Solvent exposure worker has elevated liver enzymes | Chlorinated solvent (TCE, PCE, carbon tetrachloride) hepatotoxicity | Remove from solvent exposure immediately; recheck liver function in 2 weeks; substitute with less toxic solvent; review ventilation controls |
+| Worker develops peripheral neuropathy (numbness, tingling in hands/feet) | Chronic exposure to lead, arsenic, mercury, n-hexane, or organophosphates | Perform neurological exam; test blood lead, urinary arsenic, and urinary mercury; review chemical inventory for n-hexane or organophosphate pesticide use |
+| Detector tube reading differs from electronic monitor by >25% | Detector tube at high humidity or temperature outside 4-25°C range; electronic monitor needs recalibration | Retest with both instruments under controlled conditions; calibrate electronic monitor with certified standard gas; note that detector tube accuracy is ±25% by design |
+| Worker with known lead exposure develops wrist drop | Radial nerve palsy from chronic lead toxicity (BLL typically >80 μg/dL) | Immediate removal from all lead exposure; chelation therapy with EDTA (30-50 mg/kg/day IV); wrist splint; physical therapy; BLL >80 μg/dL is a medical emergency |
+| Multiple workers in same area develop headache and nausea simultaneously | Acute CO exposure from combustion source (furnace, engine, heater) in poorly ventilated space | Evacuate all workers immediately; measure CO with detector tube or electronic monitor; ventilate area; check combustion equipment for exhaust leaks; any CO reading above 50 ppm requires investigation and repair before reoccupation |
 
 ## Safety
 

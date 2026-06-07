@@ -13,6 +13,12 @@ Before electrical communication, civilizations developed optical and acoustic si
 
 **Fundamental constraint**: Pre-electric systems are line-of-sight limited. The curvature of the Earth restricts visibility from a tower of height *h* to approximately sqrt(2Rh) meters, where R is Earth's radius (6,371 km). A 10 m tower sees ~11 km; a 30 m tower sees ~20 km; a 100 m tower on a hill 200 m above surroundings sees ~60 km.
 
+**Why line-of-sight dominates**: Pre-electric communication encodes information in electromagnetic radiation (light) or mechanical waves (sound). Light travels in straight lines and cannot bend around the curvature of the Earth. Sound waves do diffract around obstacles, but low-frequency sound, which diffracts most effectively, carries very little information bandwidth. This is why every visual signaling system requires relay stations placed at intervals determined by terrain geometry, and why visual systems fail in weather that obscures the line of sight.
+
+The atmosphere attenuates light through scattering (Rayleigh scattering by air molecules, Mie scattering by aerosols and water droplets) and absorption (primarily by water vapor and carbon dioxide). In clear air at sea level, a signal fire's light intensity drops by roughly 50% every 8-12 km from atmospheric scattering alone. Fog, rain, and snow increase attenuation by 10-100x, reducing effective range to 1-5 km for all visual systems. No pre-electric visual system ever exceeded about 50 km between stations under operational conditions, and most practical systems used 10-20 km spacing.
+
+Sound attenuation follows a different pattern. Low frequencies (60-130 Hz, the range of bass drums and large horns) attenuate at roughly 0.01-0.05 dB per km in open terrain at sea level. Higher frequencies (above 500 Hz) attenuate at 0.5-2.0 dB/km from atmospheric absorption. Wind gradient (wind speed increasing with height) refracts sound upward or downward, extending range downwind and shortening it upwind. Temperature inversions (warm air above cool air near the ground) can trap sound in a duct, extending bass range to 10-20 km, but this is unreliable and varies hour by hour.
+
 ## Signal Fires and Beacons
 
 The oldest long-distance signaling technology. A controlled fire on a hilltop or tower, visible for 5-50 km depending on height and atmospheric conditions.
@@ -21,6 +27,13 @@ The oldest long-distance signaling technology. A controlled fire on a hilltop or
 - **Fire platform**: Stone or earth platform, 2-3 m diameter, on hilltop or tower. Stone ring retains fuel, prevents uncontrolled spread. Minimum elevation: 50 m above surrounding terrain for 25 km visibility.
 - **Fuel**: Dry wood, brush, or charcoal. A signal fire burns 10-30 minutes on 20-50 kg of fuel. Tar barrels or pitch-soaked straw produce dense smoke for daytime signaling and bright flames for night.
 - **Encodings**: One fire = one pre-arranged message (e.g., "enemy sighted"). Multiple fires = different messages. Timing (interval between lighting) adds variation. Complexity limit: 4-8 distinct messages without code books.
+
+**Detailed construction process**:
+1. Select a hilltop or elevated position with clear sight lines to the next station(s) in both directions. Verify line of sight by having an assistant light a small test fire at the adjacent station position at night.
+2. Build the fire platform: a ring of flat stones 2-3 m in diameter on a bed of compacted earth. The stone ring should be 30-50 cm tall to contain the fire and prevent fuel from rolling away. Excavate the center 10-20 cm deep to create a wind-sheltered fire pit.
+3. Prepare fuel: split hardwood (oak, beech) provides long burn time. Softwood (pine, spruce) lights faster and burns brighter but shorter. Pitch-soaked straw or tar barrels produce dense black smoke for daytime visibility. A signal fire needs 20-50 kg of dry wood pre-positioned under cover.
+4. Stack fuel for rapid ignition: arrange in a teepee or log-cabin pattern over a tinder core (birch bark, dry grass bundles, fatwood shavings). A properly stacked signal fire ignites from a single ember and reaches full flame in 2-5 minutes.
+5. Establish the pre-arranged code and practice it. The code must be simple enough to remember under stress and unambiguous at distance.
 
 **Range**: 5-50 km. A chain of beacon hills can relay a signal across 500+ km in under 1 hour if each station is manned and prepared. The beacon chain along the English coast in 1588 warned of the Spanish Armada's approach across 400 km in under 30 minutes.
 
@@ -58,6 +71,16 @@ The first practical telecommunication network. Developed by Claude Chappe in Fra
 - **Telescope**: Refracting telescope, 30-60x magnification, for reading the adjacent station's arm positions.
 - **Operator**: Two operators per station (one observes incoming, one sets outgoing). Literate and trained on the code book.
 
+**Detailed construction process (semaphore tower)**:
+1. Select station site on the highest ground within the 10-20 km spacing constraint, with clear lines of sight to both adjacent stations. Survey with a transit or theodolite. Trees, buildings, and ridge lines must not obstruct the sight line.
+2. Build the tower: a timber frame 10-15 m tall with a platform at the top (3 m × 3 m minimum) for the semaphore mechanism and operator. Use squared timber (150 × 150 mm posts, 100 × 100 mm braces) joined with mortise-and-tenon joints and iron bolts. Brace with diagonal timbers on all four sides. Guy wires (steel wire rope, 8-10 mm) anchored to buried logs at four points provide stability against wind.
+3. Fabricate the semaphore arms: the regulator (horizontal beam, 4 m long) from pine or spruce (lightweight, reduces wind loading). The two indicators (2 m each) hinged to the regulator ends with iron hinges. All arms painted flat black for maximum contrast against sky.
+4. Install the control mechanism: pulleys, hemp rope or wire cable, and a winch at the tower base. The winch rotates the regulator (4 positions), while separate cables control each indicator (7 positions each). Pivot bearings are greased iron bushings on iron pins (10-15 mm diameter). The mechanism must operate smoothly in ice and snow.
+5. Install the telescope: a 30-60x refracting telescope on a stable mount at the observation window. A wooden tripod weighted with sandbags holds the telescope steady enough to read arm positions at 10-20 km without vibration.
+6. Test: set each arm position and verify the adjacent station can read it correctly. Test in various weather conditions. Adjust arm dimensions or telescope power if positions are ambiguous at maximum range.
+
+**Why the semaphore encodes 98 positions**: The regulator rotates to 4 positions (horizontal, two 45° angles, and vertical). Each indicator independently rotates to 7 positions (0°, 45°, 90°, 135° from the regulator axis in both directions, plus the "folded" position along the regulator). The math gives 4 × 7 × 7 = 196 theoretical combinations, but only positions that are visually distinct and not easily confused are usable. After eliminating symmetric duplicates and hard-to-read positions, 92 practical symbols remain. The code book expands this to 92 × 92 = 8,464 phrases by transmitting two symbols in sequence (page number, then line number on that page).
+
 **Network parameters**:
 - **Station spacing**: 10-20 km (limited by telescope resolution and atmospheric clarity).
 - **Transmission speed**: 1 symbol per minute (30-60 seconds to observe, decode, set arms). A 20-word message takes 15-30 minutes end-to-end across 10 stations.
@@ -92,6 +115,15 @@ Uses reflected sunlight to send Morse code (or similar pulse-coded signals) to a
 - **Mounting**: Two-axis gimbal on a tripod. The operator aims the reflected sunbeam at the target station. A sighting rod or telescopic sight assists aiming.
 - **Shutter**: A flat disc or flap that blocks/unblocks the reflected beam. Short exposure = dot, long exposure = dash.
 - **Beam divergence**: A 15 cm mirror produces a beam ~0.5 degrees wide, illuminating a 130 m diameter spot at 15 km. At 100 km, the spot is ~870 m.
+
+**Why range depends on mirror size**: The brightness of the reflected spot at the receiver depends on three factors: mirror area (larger mirror collects and redirects more sunlight), beam divergence (smaller mirrors produce more divergent beams, spreading the same light over a larger area), and atmospheric scattering (light scatters out of the beam at roughly 0.5-2% per km in clear air). A 30 cm mirror has 4× the area of a 15 cm mirror and produces a narrower beam (about 0.25° divergence), concentrating roughly 8× more light on the receiver. This is why large mirrors can signal over 100+ km while small mirrors are limited to 10-30 km: the signal at the receiver scales with mirror area divided by beam spread. Beyond about 160 km, atmospheric scattering reduces even a 30 cm mirror's beam below the visibility threshold of the human eye, setting the practical upper limit.
+
+**Heliograph construction process**:
+1. Polish the mirror to a flat, reflective surface. Start with 200-grit abrasive on glass, progress through 400, 800, and finish with jewelers' rouge on a soft cloth. Test flatness by holding the mirror at arm's length and reflecting sunlight onto a wall: any distortion in the circular spot indicates unevenness. A flat mirror produces a round, even spot.
+2. Mount the mirror in a two-axis gimbal on a tripod. The gimbal allows fine adjustment in azimuth and elevation. A simple design: the mirror sits in a wooden or brass frame with a horizontal pivot (elevation), which sits in a U-bracket with a vertical pivot (azimuth). Locking thumbscrews on each axis.
+3. Attach the shutter mechanism. A flat disc of thin metal or wood (10-15 cm diameter) on a hinge directly in front of the mirror. A spring returns the shutter to the closed (blocking) position. The operator taps the shutter open with a finger for dots and holds it open for dashes. Practice produces clean Morse timing.
+4. Install a sighting rod or telescopic sight aligned with the mirror's reflection axis. When the rod points at the target station, the reflected beam also points at the target. Fine adjustments use the gimbal thumbscrews.
+5. Test the complete system at 5-10 km range before deploying to operational distances. Verify that the beam is visible at the receiving station and that Morse timing is readable.
 
 **Operating parameters**:
 - **Mirror size vs. range**: 10 cm mirror: 10-30 km. 15 cm: 20-50 km. 20 cm: 30-80 km. 30 cm: 50-160 km (clear mountain air).

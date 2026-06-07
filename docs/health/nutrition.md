@@ -303,11 +303,66 @@ Body measurements that indicate nutritional status:
 
 ## Safety & Hazards
 
-- **Refeeding syndrome**: Chronically malnourished individuals given large meals rapidly develop dangerous electrolyte shifts (hypophosphatemia, hypokalemia, hypomagnesemia) that can cause cardiac arrest. Refeed gradually: start at 1,000 kcal/day, increase by 300-500 kcal/day over 5-7 days.
-- **Vitamin A toxicity**: Liver consumption in excess (polar bear liver, large amounts of beef liver >100 g/day) causes hypervitaminosis A — headache, nausea, blurred vision, ultimately liver damage and death. Vitamin A has a narrow therapeutic window — deficiency causes blindness, excess causes toxicity.
-- **Iron overload**: Chronic excessive iron intake (from repeated blood transfusions, or iron supplement overuse) causes hemochromatosis — liver cirrhosis, heart failure, diabetes. Iron supplements should be given only when deficiency is confirmed.
+- **Refeeding syndrome**: Chronically malnourished individuals given large meals rapidly develop dangerous electrolyte shifts (hypophosphatemia, hypokalemia, hypomagnesemia) that can cause cardiac arrest. Refeed gradually: start at 1,000 kcal/day, increase by 300-500 kcal/day over 5-7 days. Monitor serum phosphate, potassium, and magnesium daily during refeeding. Supplement thiamine 100 mg IV before the first meal to prevent Wernicke's encephalopathy (acute confusion, ataxia, eye movement paralysis) from sudden carbohydrate-driven thiamine depletion. The mechanism: carbohydrate intake triggers insulin release, which drives phosphate and potassium into cells, causing serum levels to crash.
+- **Vitamin A toxicity**: Liver consumption in excess (polar bear liver, large amounts of beef liver >100 g/day) causes hypervitaminosis A — headache, nausea, blurred vision, ultimately liver damage and death. Vitamin A has a narrow therapeutic window — deficiency causes blindness, excess causes toxicity. Chronic intake above 10,000 IU/day (3,000 μg RAE) in adults causes liver damage over months to years. Acute single dose above 500,000 IU (150,000 μg RAE) causes nausea, vomiting, and headache within hours.
+- **Iron overload**: Chronic excessive iron intake (from repeated blood transfusions, or iron supplement overuse) causes hemochromatosis — liver cirrhosis, heart failure, diabetes. Iron supplements should be given only when deficiency is confirmed. Therapeutic iron dose for deficiency: ferrous sulfate 325 mg (65 mg elemental iron) orally 3 times daily. Treat for 3-6 months to replenish stores. Monitor hemoglobin: should rise 1-2 g/dL per month with adequate iron supplementation. If no response after 1 month, consider malabsorption or ongoing blood loss.
 - **Goitrogenic foods**: Raw cruciferous vegetables (cabbage, broccoli, Brussels sprouts) contain goitrogens that interfere with thyroid iodine uptake. Cooking inactivates most goitrogens. Not clinically significant unless iodine intake is marginal and cruciferous consumption is very high.
 - **Food adulteration**: In scarcity conditions, food may be adulterated with non-nutritive fillers (sawdust in flour, chalk in bread). This reduces caloric and nutritional density below expected values, causing deficiency even when food quantity appears adequate.
+- **Iron supplement poisoning in children**: A single dose of 20-60 mg elemental iron per kg body weight can cause serious poisoning in children. A bottle of ferrous sulfate tablets (325 mg, 65 mg elemental iron each) contains enough iron to kill a 10 kg child who consumes 15-20 tablets. Store iron supplements in childproof containers away from children. Symptoms of acute iron poisoning: vomiting (often bloody), abdominal pain, diarrhea, lethargy, progressing to shock and liver failure. Treatment: induce vomiting if within 1 hour of ingestion, then administer oral deferoxamine or seek emergency medical care.
+- **Cassava cyanide toxicity**: Improperly processed cassava contains cyanogenic glycosides that release hydrogen cyanide. Bitter cassava varieties contain 15-400 mg HCN/kg. Lethal dose: 0.5-3.5 mg HCN/kg body weight. For a 60 kg adult, as little as 30 mg HCN can be lethal. Traditional processing (peel, grate, ferment 3-5 days, then press and cook) reduces cyanide to safe levels (<10 mg/kg). Shortcut processing (peel and boil only) may leave dangerous residual cyanide. Symptoms: headache, dizziness, nausea, vomiting, rapid breathing, convulsions, death. Chronic low-level exposure causes konzo (spastic paraparesis — irreversible leg paralysis) and tropical ataxic neuropathy.
+
+## Deficiency Disease Treatment Protocols
+
+When deficiency diseases are identified, the following treatment dosages and schedules restore body stores. These assume oral administration, which is adequate for most deficiencies. IV supplementation is reserved for severe symptomatic cases and requires medical supervision.
+
+| Deficiency | Treatment Dose | Duration | Monitoring | Expected Response |
+|-----------|---------------|----------|------------|-------------------|
+| Scurvy (vitamin C) | 100-200 mg orally 3 times daily | 7 days, then 100 mg/day maintenance | Gum bleeding stops in 24-48 hours; petechiae fade in 3-5 days | Energy returns in 1-2 days; wound healing resumes in 5-7 days |
+| Beriberi (thiamine) | 100 mg orally 3 times daily (or 300 mg IV daily for wet beriberi) | 5-7 days, then 10 mg/day maintenance | Heart rate decreases within hours (wet beriberi); neuropathy improves over weeks | Cardiac symptoms resolve in 1-3 days; nerve recovery takes weeks to months |
+| Pellagra (niacin) | 100 mg niacinamide orally 3 times daily | 10-14 days, then 20 mg/day maintenance | Skin rash begins fading in 3-4 days; diarrhea resolves in 2-3 days | Mental confusion clears in 3-7 days |
+| Iron-deficiency anemia | Ferrous sulfate 325 mg (65 mg elemental iron) 3 times daily between meals | 3-6 months (continue 2-3 months after hemoglobin normalizes to replenish stores) | Hemoglobin rises 1-2 g/dL per month; reticulocyte count increases within 72 hours | Fatigue improves in 2-4 weeks; pallor resolves in 1-2 months |
+| Vitamin D deficiency | 50,000 IU (1,250 μg) orally once weekly for 8 weeks, then 800-1,000 IU/day maintenance | 8 weeks loading, then lifelong maintenance | Serum 25-OH vitamin D reaches >30 ng/mL in 4-8 weeks; bone pain resolves in 2-4 weeks | Muscle strength improves in 2-4 weeks; rickets deformity stabilizes but may not fully correct |
+| Vitamin A deficiency | 200,000 IU (60,000 μg RAE) orally as a single dose; repeat in 1-4 weeks if symptoms persist | 1-2 doses, then dietary maintenance | Night blindness resolves in 24-48 hours; xerophthalmia improves in 3-5 days | Corneal ulceration, if present, requires urgent treatment to prevent permanent blindness |
+| Iodine deficiency | Potassium iodide 130 mg as a single dose (provides 100 mg iodine), then iodized salt (20-40 mg KI per kg salt) for maintenance | Single dose for acute goiter; lifelong iodized salt for prevention | Goiter shrinks over weeks to months; neonatal cretinism is prevented by maternal iodization before and during pregnancy | Goiter reduction takes 3-12 months; neurological damage from cretinism is irreversible if it occurs in utero |
+| Folate deficiency | 1 mg folic acid orally daily | 1-4 months, then 400 μg/day maintenance | Reticulocyte count rises within 5-7 days; hemoglobin normalizes in 1-2 months | Must rule out B12 deficiency first (folate corrects anemia but allows neurological damage from B12 deficiency to progress) |
+
+**Critical interaction**: Before treating megaloblastic anemia with folate, always confirm B12 status. Folate supplementation corrects the anemia of B12 deficiency (masking the deficiency) while allowing irreversible neurological damage (posterior column degeneration, peripheral neuropathy, cognitive decline) to progress. If B12 testing is unavailable and the patient has neurological symptoms (numbness, tingling, balance problems, confusion), treat with both B12 (1,000 μg cyanocobalamin IM daily for 7 days, then monthly) and folate (1 mg orally daily).
+
+## Food Processing for Nutrient Preservation
+
+The way food is processed, stored, and cooked determines how much of its original nutrient content reaches the consumer. Industrial food processing can strip nutrients (white flour loses 70-80% of the B vitamins, 60% of the calcium, and 75% of the iron found in whole wheat); careful processing can enhance bioavailability.
+
+### Nutrient Loss During Common Processing Methods
+
+| Method | Nutrients Most Affected | Typical Loss | Mitigation |
+|--------|------------------------|-------------|------------|
+| Boiling (water immersion) | Vitamin C, B vitamins (thiamine, folate, riboflavin) | 30-60% (water-soluble vitamins leach into cooking water) | Use minimal water; consume cooking liquid (soups, stews); steam instead of boil |
+| Steaming | Vitamin C | 10-25% | Preferred method for vegetables; retains water-soluble vitamins |
+| Roasting/baking | Vitamin C, thiamine | 15-30% | Lower temperatures (160-180°C) reduce loss vs. high heat (>200°C) |
+| Milling (grain) | B vitamins, iron, fiber | 50-80% (removed with bran and germ) | Use whole grain flour; fortify refined flour with thiamine (2.5 mg/kg), niacin (35 mg/kg), riboflavin (2.5 mg/kg), iron (35 mg/kg) |
+| Canning (heat sterilization) | Vitamin C, thiamine, folate | 40-70% (initial heat), additional 10-20%/year storage | Consume within 2 years; canned foods still provide adequate calories and minerals |
+| Drying (sun or air) | Vitamin C, vitamin A (carotenoids) | 30-50% (vitamin C), 10-30% (vitamin A) | Dry quickly at moderate temperature (50-60°C); store in opaque, airtight containers |
+| Fermentation | Variable; creates B vitamins and vitamin K2 | Minimal loss of most nutrients; increases bioavailability of iron and zinc | Lactic acid fermentation (sauerkraut, sourdough, yogurt) improves mineral absorption by reducing phytate |
+
+### Sprouting for Emergency Vitamin C Production
+
+When fresh produce is unavailable (winter, long sea voyages, siege conditions), sprouting seeds provides a reliable source of vitamin C. Most dry seeds contain no vitamin C; the vitamin is synthesized during germination.
+
+1. **Select seeds**: Mung beans, lentils, chickpeas, wheat berries, alfalfa, or radish seeds. Mung beans are the most common and produce sprouts in 3-4 days.
+2. **Soak**: Cover seeds with 3× their volume of water. Soak 8-12 hours at room temperature (20-25°C). The seeds absorb water and swell.
+3. **Drain and rinse**: Pour off soak water. Rinse seeds with clean water twice daily. Drain thoroughly (excess water causes rot). Keep in a jar covered with cloth (allows air exchange, prevents contamination).
+4. **Grow**: Sprouts reach edible size (2-5 cm stem length) in 3-5 days at room temperature. Keep out of direct sunlight (causes bitterness). White sprouts are fine; exposure to indirect light on the last day produces green, more nutritious sprouts.
+5. **Yield**: 100 g of mung bean seeds produces roughly 500-700 g of sprouts. Sprouted mung beans contain approximately 14 mg vitamin C per 100 g fresh weight (dry mung beans contain essentially none). Wheat sprouts contain approximately 6 mg/100 g. Alfalfa sprouts contain approximately 8 mg/100 g.
+
+### Nixtamalization for Niacin Release
+
+Corn-dependent populations that do not treat corn with alkali develop pellagra because niacin in corn is chemically bound (niacytin) and biologically unavailable. Alkaline treatment hydrolyzes the bond, releasing free niacin. This is why Mesoamerican cultures that soaked corn in lime water never developed pellagra despite diets consisting of up to 80% corn.
+
+1. **Prepare lime water**: Dissolve 1-2% calcium hydroxide (slaked lime, Ca(OH)₂) in water. Slaked lime is produced by heating limestone (CaCO₃) to 900°C to produce quicklime (CaO), then adding water to produce Ca(OH)₂. Use 1 g lime per 100 g dry corn kernels.
+2. **Cook**: Add corn kernels to the lime solution. Bring to a boil and simmer for 15-30 minutes. The kernels soften and the pericarp (outer skin) loosens.
+3. **Steep**: Remove from heat and let stand 8-12 hours (overnight). During steeping, the alkaline environment hydrolyzes niacytin to release free niacin, and calcium from the lime is absorbed into the kernel (increasing dietary calcium intake by 30-50%).
+4. **Wash**: Drain and rinse the corn 2-3 times to remove the loose pericarp and excess lime. The corn is now "nixtamal" and can be ground into masa (dough) for tortillas, tamales, or similar foods.
+5. **Nutritional improvement**: Untreated corn contains approximately 1.5 mg/g total niacin but only 0.3 mg/g bioavailable. Nixtamalized corn has approximately 1.2 mg/g bioavailable niacin, a 4× improvement. The process also increases calcium content from ~7 mg/100 g to ~150 mg/100 g and improves the protein quality score.
 
 
 ## Troubleshooting

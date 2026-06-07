@@ -186,6 +186,18 @@ A 10-doe rabbitry (1 buck) in 15-25 m² produces 300 kg dressed meat per year �
 | Heat stress (above 30°C) | Rabbits cannot sweat | Provide frozen water bottles; mist cages; move to underground or shaded area |
 | Wool block (Angora, appetite loss) | Ingested fiber blocking gut | Feed papaya enzyme (breaks down fiber); increase roughage; shear rabbits every 3 months |
 
+## Why Rabbits Are the Fastest Path to Animal Protein
+
+Rabbits produce more meat per unit of feed and per unit of space than any other domestic mammal. The numbers are striking: a 10-doe rabbitry in 15-25 m² produces 300 kg of dressed meat per year. No other livestock system comes close to 12-20 kg of meat per square meter of housing.
+
+**Why feed conversion is so efficient**: Rabbits have a cecum (a large pouch at the junction of small and large intestine) that functions as a fermentation vat, similar to the rumen in cattle but located further along the digestive tract. The cecal microbes break down fiber that the rabbit could not otherwise digest. The rabbit then practices cecotrophy: it produces two types of feces, one of which (cecotropes, or "night feces") is soft, nutrient-rich, and reingested directly from the anus. This double digestion extracts nearly all available nutrients from plant fiber, giving rabbits a feed conversion ratio of 2.5-3.5:1 on hay-based diets.
+
+**Why rabbit manure can be applied fresh**: All other livestock manures must be composted before application to avoid burning plant roots with concentrated nitrogen and ammonia. Rabbit manure is uniquely "cold" because of the cecotrophy process: the nitrogen has already been partially processed through the rabbit's digestive system twice. At 2.0-2.4% nitrogen, it is richer than cow or horse manure but does not generate the heat of decomposition that burns plants. This means rabbit manure goes directly from cage floor to garden bed with no waiting period.
+
+**Why heat kills rabbits**: Rabbits cannot sweat (they lack functional sweat glands) and cannot pant effectively enough to cool themselves at high ambient temperatures. Above 30°C, their body temperature rises uncontrollably. Above 35°C, heat stroke becomes lethal within hours. The ear is the rabbit's primary cooling organ: blood vessels in the large, thin ears radiate heat to the surrounding air. When air temperature exceeds body temperature, even this mechanism fails. This is why rabbit housing in warm climates must include frozen water bottles, misters, underground burrows, or active ventilation.
+
+**Why rabbits need unlimited hay**: The rabbit digestive system requires constant fiber intake to maintain gut motility. The gut is a long, complex tube that moves food through peristalsis. Without sufficient fiber (at least 18% crude fiber in the diet), peristalsis slows, food stagnates, and bacterial overgrowth causes enteritis, which kills 50-80% of affected animals. The standard recommendation of unlimited grass hay (timothy, orchard grass, brome) is not optional. Restricting hay is the most common management mistake and the most lethal.
+
 ## Safety
 
 **Handling**: Rabbits have powerful hind legs with sharp claws. An improperly restrained rabbit can kick hard enough to fracture its own spine. Always support the hindquarters when lifting — one hand under chest, the other under rump. Never pick up by ears or scruff alone. Rabbits are prey animals — approach calmly, avoid sudden movements.

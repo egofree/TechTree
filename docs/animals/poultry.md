@@ -219,6 +219,18 @@ Materials listed for a 50-bird mixed flock per year.
 | Respiratory disease | Ammonia buildup, poor ventilation, mycoplasma | Increase ventilation; clean litter; 0.1 m² opening per 10 birds at roofline |
 | Predation (missing birds) | Foxes, hawks, raccoons, weasels | Secure housing at night; covered runs; electric fence at 10-15 cm and 30-40 cm; lock up at dusk |
 
+## Why Poultry Are the First Livestock to Establish
+
+Poultry fill a unique niche in settlement food production because they convert grain to protein faster than any other livestock. A broiler chicken reaches slaughter weight in 6-8 weeks. A pig takes 5-7 months. A cow takes 18-30 months. This rapid turnaround means poultry begin returning food within two months of hatch, providing immediate protein while longer-term livestock systems are still developing.
+
+The biological basis for this speed: birds have the highest metabolic rate of any domestic animal, with body temperatures of 40-42°C (compared to 38-39°C for mammals). This elevated temperature drives faster biochemical reactions throughout the body, including growth. The tradeoff is higher feed intake relative to body weight: a chicken eats roughly 8-10% of its body weight per day, compared to 2-3% for cattle. Poultry must eat frequently because their small body size means they lose heat faster and burn through calories quickly.
+
+Why calcium is critical for layers: An eggshell contains roughly 2 g of calcium, and a laying hen at peak production deposits that 2 g every 24-26 hours. A hen's entire skeleton contains only about 20 g of calcium. Without continuous dietary calcium at 3.5-4.0% of the ration, the hen mobilizes calcium from her own bones to shell the eggs. Within weeks, her skeleton becomes brittle, she fractures bones from normal activity, and egg production collapses. Free-choice oyster shell or limestone grit allows the hen to self-regulate her calcium intake according to her individual production level.
+
+Why turkeys cannot share range with chickens: Turkeys are susceptible to histomoniasis (blackhead disease), caused by the protozoan *Histomonas meleagridis*. The organism is transmitted through the eggs of the cecal nematode *Heterakis gallinarum*, which infects both chickens and turkeys. Chickens carry the nematode with few or no symptoms and shed eggs in their droppings. Turkeys that ingest these eggs develop severe liver and cecal lesions with 70-100% mortality. The organism can survive in soil for years. This is why turkeys must be housed and ranged separately from chickens at all times.
+
+Why the 14-16 hour light requirement matters: Egg production in chickens is triggered by light stimulation of the pineal gland and hypothalamus. Below 12-14 hours of light per day, the hormonal cascade that drives ovulation slows or stops entirely. This is why hens naturally stop or drastically reduce laying during winter. Supplemental lighting at 5-10 watts per 10 m² of coop floor (enough to read a newspaper at floor level) is sufficient to maintain production year-round. A single 10-watt LED bulb run for 4-5 hours each winter evening keeps hens in production, paying for itself many times over in egg output.
+
 ## Safety
 
 **Zoonotic diseases**: All poultry carry *Salmonella* and *Campylobacter*. Wash hands after handling birds, eggs, or litter. Cook poultry meat and eggs thoroughly. Pregnant women should avoid cleaning poultry litter (listeria risk from contaminated dust).

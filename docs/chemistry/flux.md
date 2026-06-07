@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.flux
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Metal Joining`](joining.md)
-> **Enables**: [`Mining Engineering & Extractive Metallurgy`](mining.md)
+> **Dependencies**: [`Metal Joining`](../machine-tools/joining.md)
+> **Enables**: [`Mining Engineering & Extractive Metallurgy`](../mining/index.md)
 > **Timeline**: Years 5-15
 > **Outputs**: borax-flux, limestone-flux, fluorspar-flux, rosin-flux
 > **Critical**: No
@@ -30,7 +30,7 @@ Each flux type has a specific chemistry that makes it suited to its application.
 
 ### Equipment
 
-- [Metal Joining](joining.md) — material dependency
+- [Metal Joining](../machine-tools/joining.md) — material dependency
 - Jaw crusher and ball mill for ore size reduction
 - Muffle furnace or rotary kiln for calcination
 - Steam distillation apparatus for rosin extraction
@@ -63,21 +63,30 @@ Fluxes serve three primary functions in metal joining and smelting: they dissolv
 
 ### Process Parameters
 
-| Parameter | Range | Notes |
+| Parameter | Value | Notes |
 |-----------|-------|-------|
-| Borax calcination | 300-400°C | Must fully drive off 10 waters of crystallization |
-| Limestone calcination | 900-1000°C | CaCO₃ → CaO + CO₂ (decomposition at ~840°C) |
-| Fluorspar purity | >85% CaF₂ | Silica content must be below 5% for metallurgical grade |
-| Rosin flux concentration | 25-35% in alcohol | Too concentrated is viscous; too dilute evaporates before covering joint |
+| Borax calcination temperature | 300-400°C (hold 2-4 hours) | Must fully drive off 10 waters of crystallization (Na₂B₄O₇·10H₂O → Na₂B₄O₇); mass loss ~47%. Incomplete dehydration causes spattering during brazing |
+| Borax-boric acid brazing flux ratio | 70-80% borax, 20-30% H₃BO₃ | Boric acid lowers active melting point from 742°C to ~550°C; improves oxide dissolution on brass/bronze |
+| Limestone calcination temperature | 900-1000°C (hold 2-6 hours) | CaCO₃ → CaO + CO₂ at ~840°C theoretical; practical kilns run 950-1100°C for complete conversion. Mass loss ~44% (CO₂ evolution) |
+| Quicklime reactivity | <5 min to reach 60°C when mixed with water (high-calcium lime) | Reactivity test: 50 g quicklime + 200 mL water at 20°C; high-reactivity lime slakes in 2-5 min; dead-burned lime (over-calcined) takes >20 min |
+| Fluorspar metallurgical grade | >85% CaF₂, <5% SiO₂, <0.3% S | Acid grade (>97% CaF₂) for HF production; metallurgical grade (85-95%) for steelmaking flux |
+| Fluorspar addition rate (steelmaking) | 5-10 kg CaF₂ per tonne steel | Reduces slag melting point by 50-100°C and viscosity by 30-60%; excess fluorspar erodes furnace refractory |
+| Fluorspar flotation pH | 8-10 (controlled with Na₂CO₃) | Fatty acid collector (oleic acid) adsorbs on CaF₂ at pH 8-10; sodium silicate depresses silica |
+| Slag basicity ratio (CaO/SiO₂) | 1.0-1.5 for basic oxygen furnace; 0.8-1.2 for blast furnace | Higher basicity improves sulfur removal (S partitions to slag at CaO/SiO₂ > 1.0); too high basicity makes slag viscous |
+| Slag volume (iron smelting) | 300-1000 kg slag per tonne iron | Depends on ore grade: rich ore (~60% Fe) produces ~300 kg slag; lean ore (~30% Fe) produces >800 kg slag |
+| Rosin distillation temperature | 150-180°C (steam distillation) | Turpentine boils at 156°C and distills off; rosin remains as molten residue, drained at 180-200°C |
+| Rosin flux solution concentration | 25-35% rosin by weight in isopropanol | Typical electronics flux: 30% rosin, 70% IPA. Acid number 160-175 mg KOH/g rosin indicates quality |
+| Rosin flux activation temperature | 200-250°C (soldering range) | Abietic acid becomes active at ~200°C; chars above 300°C, losing effectiveness |
+| Brazing flux coverage rate | 50-100 g flux paste per kg of filler metal | Insufficient flux leaves oxide inclusions; excess flux causes flux entrapment and porosity |
 
 ## Safety Considerations
 
 This process involves specific hazards requiring trained personnel and protective measures:
 
-- **Fluoride toxicity**: Fluorspar (CaF₂) and its decomposition products contain fluoride. Inhalation of fluoride-containing dust irritates the respiratory tract and can cause fluorosis with chronic exposure. Hydrofluoric acid, which can form when fluorspar contacts strong acids, causes severe deep-tissue burns that may not be immediately painful.
-- **Dust inhalation**: Crushing and grinding limestone, fluorspar, and borax generates fine silica-bearing dust. Use dust collection and wet grinding where possible. Respiratory protection is mandatory during crushing operations.
-- **High-temperature hazards**: Calcination of borax and limestone involves temperatures up to 1000°C. Furnace areas require heat-resistant PPE and clear marking of hot surfaces.
-- **Rosin fumes**: Heating rosin during soldering releases colophony fumes, which are a respiratory sensitizer. Soldering areas must have local exhaust ventilation.
+- **Fluoride toxicity**: Fluorspar (CaF₂) and its decomposition products contain fluoride. Inhalation of fluoride-containing dust irritates the respiratory tract; OSHA PEL 2.5 mg/m³ (as F, 8-hr TWA). Chronic exposure causes skeletal fluorosis (bone thickening, joint stiffness). Hydrofluoric acid, which forms when fluorspar contacts strong acids (even dilute H₂SO₄), causes severe deep-tissue burns — HF IDLH 30 ppm. HF penetrates skin, binds tissue calcium and magnesium, causing hypocalcemia and cardiac arrest with burns as small as 2.5% body surface area. Symptoms may be delayed 1-24 hours.
+- **Dust inhalation**: Crushing and grinding limestone, fluorspar, and borax generates fine silica-bearing dust. Silica PEL 50 μg/m³ (respirable crystalline silica, OSHA). Use dust collection and wet grinding where possible. Borax dust TLV 1 mg/m³ (inhalable). Respiratory protection is mandatory during crushing operations.
+- **High-temperature hazards**: Calcination of borax and limestone involves temperatures up to 1000°C. Furnace areas require heat-resistant PPE and clear marking of hot surfaces. Thermal radiation burns possible within 1-2 m of open furnace at 1000°C.
+- **Rosin fumes (colophony)**: Heating rosin during soldering releases colophony fumes (abietic acid aerosol). Colophony is a confirmed respiratory sensitizer (asthma cause); UK WEL 0.05 mg/m³ (8-hr TWA). Sensitized individuals react at extremely low concentrations. Soldering areas must have local exhaust ventilation achieving 0.1-0.5 m/s capture velocity at the workpiece. Isopropanol in rosin flux solutions is flammable (flash point 12°C, LEL 2%).
 
 ### Personal Protective Equipment
 
@@ -128,11 +137,16 @@ Key scaling challenges: fluorspar beneficiation requires flotation chemistry exp
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Flux does not melt properly | Insufficient calcination or wrong composition | Recalcine borax at higher temperature; verify ore grade |
-| Poor oxide removal | Flux too dilute or wrong type for the metal | Increase flux amount; select flux appropriate to metal oxide system |
-| Slag too viscous (smelting) | Wrong limestone/fluorspar ratio | Increase fluorspar addition to lower slag melting point |
-| Solder joint defects (rosin) | Insufficient flux coverage or contaminated rosin | Apply more flux; filter rosin solution through fine mesh |
-| Flux residue corrosion | Active flux residue left on finished work | Clean residue with appropriate solvent; switch to rosin flux |
+| Borax flux spatters or puffs during brazing | Incomplete dehydration — residual water of crystallization (Na₂B₄O₇·10H₂O needs full 47% mass loss at 300-400°C) | Recalcine at 400°C for 2-4 hours; verify by loss-on-ignition test (weigh, heat to 400°C, reweigh — mass loss must be <0.5%); store anhydrous borax in sealed containers with desiccant |
+| Poor oxide removal on copper/brass | Flux too dilute, wrong flux type for the metal oxide, or flux exhausted before filler metal melts | Increase flux paste coverage to 50-100 g/kg filler metal; verify borax-boric acid ratio (70:30 for brass); ensure flux is applied before heating and remains molten throughout the brazing cycle |
+| Slag too viscous in blast furnace (slag does not flow freely from tap hole) | Insufficient fluorspar addition, slag basicity too high (CaO/SiO₂ > 1.5), or low furnace temperature | Add fluorspar at 5-10 kg/tonne steel to lower slag melting point by 50-100°C; adjust limestone addition to bring CaO/SiO₂ ratio to 1.0-1.2; increase blast temperature |
+| Slag too fluid (erodes furnace lining, does not hold impurities) | Excess fluorspar (>15 kg/tonne), or slag basicity too low (CaO/SiO₂ < 0.8) | Reduce fluorspar addition; increase limestone to raise basicity above 0.8; monitor refractory wear rate — fluorspar attack is visible as rounded, glassy patches on lining |
+| Solder joints fail (dewetting, non-wetting, or gray crystalline appearance) | Insufficient rosin flux coverage, contaminated rosin (oxidized abietic acid), or soldering temperature below 200°C activation point | Apply flux liberally to both surfaces; test rosin acid number (target 160-175 mg KOH/g — below 150 indicates oxidation); ensure iron tip temperature is 250-280°C for Sn-Pb solder |
+| Rosin flux residue causes corrosion or electrical leakage | Used active (RA) flux instead of mild (R) rosin; residue not cleaned; or ionic contamination from handling | Switch to R-type rosin for electronics (non-corrosive residue); clean RA flux residues with isopropanol within 24 hours; test cleaned boards with ionic contamination meter (target <1.56 μg NaCl/cm²) |
+| Quicklime slakes slowly or incompletely | Over-calcined (dead-burned) limestone — kiln temperature exceeded 1200°C, sintering CaO crystals and reducing reactivity | Reduce kiln temperature to 950-1100°C; test quicklime reactivity (50 g + 200 mL water at 20°C must reach 60°C in <5 min); discard dead-burned lime for construction use, not flux |
+| Fluorspar flotation concentrate below 85% CaF₂ | Ore grade too low (<30% CaF₂ feed), pH outside 8-10 range, or fatty acid collector dosage insufficient | Increase oleic acid collector to 300-500 g/tonne ore; adjust pH to 9-10 with Na₂CO₃; add sodium silicate depressant at 500-1000 g/tonne to suppress silica; consider regrinding concentrate and second flotation stage |
+| Brazed joint has flux inclusions (visible glassy pockets in cross-section) | Excess flux applied, inadequate heating (flux not fully molten before filler flows), or joint clearance too tight for flux escape | Reduce flux to thin coating; ensure brazing temperature reaches full flux melting (borax: 742°C, borax-boric acid: ~550°C); maintain joint clearance of 0.05-0.20 mm for capillary flow with flux escape path |
+| Rosin extraction yields dark, brittle rosin (acid number <150 mg KOH/g) | Oleoresin aged/oxidized before distillation, distillation temperature too high (>200°C causing thermal degradation), or pine species with low abietic acid content | Process fresh oleoresin within 48 hours of tapping; control steam temperature at 150-180°C; use longleaf or slash pine (high abietic acid); purify dark rosin through activated carbon treatment |
 
 ## Variations and Alternatives
 
@@ -163,10 +177,10 @@ The relationship between flux and slag chemistry directly determines the quality
 
 ## References
 
-- [Chemistry](chemistry.md) — parent capability
+- [Chemistry](index.md) — parent capability
 - [Chemistry Domain](./index.md) — domain overview and related capabilities
-- [Metal Joining](joining.md) — upstream dependency (material)
-- [Mining Engineering & Extractive Metallurgy](mining.md) — downstream capability
+- [Metal Joining](../machine-tools/joining.md) — upstream dependency (material)
+- [Mining Engineering & Extractive Metallurgy](../mining/index.md) — downstream capability
 
 ### Material Handling
 

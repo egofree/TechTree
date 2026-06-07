@@ -169,6 +169,21 @@ The saponification reaction is exothermic. Add alkali gradually to avoid violent
 
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Grease is too soft (NLGI grade below target) | Insufficient saponification (incomplete reaction), too much base oil, or soap fibers too short | Extend saponification at 150-200°C for additional 30-60 minutes to complete reaction; reduce base oil by 5-10% in next batch; ensure adequate milling to develop soap fiber structure |
+| Grease is too hard or grainy | Over-saponification, insufficient base oil, or incomplete milling of soap fibers | Add 5-10% more base oil and re-mill; pass through colloid mill 2-3 times to break up grainy soap aggregates |
+| Calcium soap grease softens and runs at 60-70°C | Normal limitation of calcium soap (dropping point ~90°C) | Switch to lithium soap (dropping point ~190°C) or clay-thickened grease (no dropping point) for high-temperature bearings |
+| Grease separates (oil bleeds from thickener) | Overheating above dropping point, or soap structure degraded by water contamination | Keep bearing temperature below grease dropping point; for water-exposed bearings, use water-resistant calcium or lithium soap; replace grease that has separated (thickener cannot re-absorb oil once separated) |
+| Bearing runs hot with fresh grease pack | Over-greasing: bearing cavity filled >50%, causing churning and viscous heating | Fill only 30-50% of bearing cavity; run bearing for 30 minutes, then remove excess grease that has been pushed out; grease guns can over-pressurize, use manual fill for precision |
+| MoS₂ coating wears off quickly (<100 cycles) | Poor surface preparation or coating too thin | Clean surface to bare metal (solvent degrease then abrasive blast); apply by burnishing (rub MoS₂ powder into surface under pressure) for 0.5-2 μm film; bonded coating (MoS₂ + phenolic binder) lasts 10,000+ cycles |
+| Graphite lubrication fails in dry/vacuum environment | Graphite requires adsorbed water film for low friction; in vacuum or dry air, friction rises to ~0.5 | Switch to MoS₂ (effective in vacuum, coefficient of friction 0.02-0.1); graphite only works in humid air (>40% RH) |
+| PTFE bearing cold-flows under heavy load | PTFE creeps plastically under sustained stress above 7 MPa | Fill PTFE with 15-25% glass fiber or bronze powder to increase compressive strength; reduce bearing pressure below 7 MPa; use wider bearing surface to distribute load |
+| Lithium grease not available (no LiOH) | Lithium supply chain not yet established in bootstrap | Use calcium soap grease (water-resistant, dropping point ~90°C) for most applications; sodium soap for dry, low-temperature applications; clay-thickened grease if bentonite is available |
+| Oil-ring lubrication fails to deliver oil | Shaft speed too low (<100 RPM, ring doesn't carry enough oil) or oil viscosity too high for ring lift | Switch to wick or forced lubrication for slow-speed bearings; use lower viscosity oil (ISO VG 32 instead of VG 68); verify ring rotates freely and dips into oil reservoir |
+
 ## See Also
 
 - **[Lubricants Overview](lubricants.md)**: Theory, selection guide, and cross-cutting topics

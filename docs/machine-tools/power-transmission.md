@@ -34,7 +34,7 @@ Typical materials for a 6 m line shaft section driving 4 machines at 10 kW total
 | Mild steel shaft stock (50 mm diameter) | 6 m | [Iron & Steel](../metals/iron-steel.md) — turned and ground | Cold-rolled steel (less accurate, requires turning) |
 | Cast iron pulleys (200-400 mm diameter) | 8-10 pieces | [Iron & Steel](../metals/iron-steel.md) — cast and machined | Fabricated steel pulleys (welded construction) |
 | Leather belting (150 mm wide × 5 mm thick) | 30 m | [Animals](../animals/animal-materials.md) — oak-tanned leather | Canvas belt (lower power, 60-70% of leather capacity); rubber belt (requires vulcanization) |
-| Babbitt metal (for bearing liners) | 5 kg | [Metals](../metals/nonferrous.md) — tin-antimony-copper alloy | Bronze bushings (higher friction, requires machining) |
+| Babbitt metal (for bearing liners) | 5 kg | [Metals](../metals/non-ferrous.md) — tin-antimony-copper alloy | Bronze bushings (higher friction, requires machining) |
 | Cast iron bearing housings | 6-8 pieces | [Iron & Steel](../metals/iron-steel.md) — castings | Fabricated steel housings (welded plate) |
 | Lubricating oil (mineral or vegetable) | 5 liters/month | [Chemistry](../chemistry/lubricants.md) | Lard oil (degrades faster); grease (higher friction at high speed) |
 | Steel keys (12 × 8 mm cross-section) | 8-10 pieces | [Iron & Steel](../metals/iron-steel.md) — keystock | Taper pins (less torque capacity) |
@@ -122,7 +122,7 @@ Belts are the wear component of the system. They stretch, degrade, and require p
 - Power capacity: 0.035-0.055 kW per mm of width at 15 m/s
 - A 150 mm wide rubber-canvas belt transmits 5.3-8.3 kW at 15 m/s
 - Resists oil, moisture, and heat better than plain canvas
-- Requires [vulcanization capability](../chemistry/rubber.md) for manufacture and for field splicing
+- Requires [vulcanization capability](../polymers/rubber.md) for manufacture and for field splicing
 
 **Belt splice procedure** (wire-hook lacing for a 150 mm leather belt):
 1. Square-cut both belt ends with a sharp knife and straightedge. The cut must be exactly perpendicular to the belt edge — check with a square.

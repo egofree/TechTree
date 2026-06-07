@@ -114,6 +114,54 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 
 **Relay sensitivity**: Polarized relay uses a permanent magnet to bias the armature. The signal current creates a magnetic field that adds to or opposes the permanent magnet bias. Sensitivity down to 1-5 mA with careful adjustment. The relay contacts switch a local circuit powered by a fresh battery, regenerating the signal at full strength for the next line segment. This is the fundamental repeater principle.
 
+## Telegraph Line Design Reference
+
+**Wire specifications comparison**:
+
+| Property | 3 mm Iron | 4 mm Iron | 3 mm Copper | 4 mm Copper |
+|----------|-----------|-----------|-------------|-------------|
+| Resistance (ohm/km) | 50-80 | 30-50 | 20-28 | 14-20 |
+| Tensile strength (MPa) | 350-450 | 350-450 | 200-300 (annealed) | 400-450 (hard-drawn) |
+| Breaking load (N) | 2,500-3,200 | 4,400-5,700 | 1,400-2,100 | 5,000-5,700 |
+| Weight (kg/km) | 55-60 | 98-105 | 63-68 | 112-120 |
+| Galvanized life (years) | 15-25 | 15-25 | N/A (copper does not rust) | N/A (copper does not rust) |
+| Cost relative to iron | 1.0x | 1.0x | 3-5x | 3-5x |
+| Best use | Long spans, low budget | Standard telegraph | Short spans, low-resistance routes | High-traffic routes |
+
+**Battery specifications**:
+
+| Battery Type | Voltage/Cell | Capacity (Ah) | Service Life | Best Use |
+|-------------|-------------|---------------|-------------|----------|
+| Daniell cell | 1.1 V | 50-200 | 3-12 months | Standard telegraph, stable voltage |
+| Leclanche (dry) | 1.5 V | 10-30 | 6-18 months (shelf) | Portable sets, low-traffic stations |
+| Gravity cell (Crowfoot) | 1.1 V | 100-500 | 6-24 months | Main office, continuous duty |
+| Bunsen cell | 1.9 V | 20-50 | 1-3 months | High-voltage circuits (nitric acid, hazardous) |
+
+**Line budget example (100 km, 4 mm iron wire)**:
+
+| Parameter | Value |
+|-----------|-------|
+| Wire resistance | 3,500-5,000 ohm (loop) |
+| Sounder resistance | 5-20 ohm |
+| Ground return resistance | 10-20 ohm |
+| Required operating current | 20-50 mA |
+| Battery voltage needed | 70-250 V |
+| Daniell cells in series | 65-230 |
+| Relay station spacing | 50-100 km |
+| Per-insulator resistance | >100 Mohm (dry), >10 Mohm (wet) |
+| Maximum useful line current | 50 mA (above this, contacts burn faster) |
+
+**Pole line material requirements (per 100 km)**:
+
+| Material | Quantity | Specification |
+|----------|---------|--------------|
+| Wire (4 mm galvanized iron) | 2,000-2,200 kg | 98-105 kg/km, galvanized |
+| Poles (treated timber) | 1,700-2,500 | 6-10 m tall, 40-60 m spacing |
+| Cross-arms | 1,700-2,500 | Timber brackets, 4-8 wires each |
+| Glass insulators | 1,700-2,500 | Double-petticoat type |
+| Guy wire (steel) | 200-500 kg | 6-8 mm, at corners and terminals |
+| Anchors (buried log or screw) | 50-100 | 5,000-10,000 N holding power |
+
 ## Morse Code Timing
 
 **Element timing**:
@@ -240,6 +288,12 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 | False signals (ghost clicks) | Leakage to ground through wet insulators or parallel wire crosstalk | Replace cracked insulators; increase wire spacing on poles; check for water in underground cables |
 | Key contacts sticking | Pitted or oxidized contacts from prolonged use | File contacts flat with fine abrasive; adjust contact gap; keep key covered when not in use |
 | Earth return not working | Dry soil at ground plate | Bury ground plate deeper; water the ground connection point; add salt to soil around plate |
+| Relay contacts burning rapidly | Excessive line current (>50 mA) or inductive kick from long lines | Add resistance in series with relay; install spark quench (capacitor across contacts); reduce battery voltage |
+| Sounder clicking but characters unreadable | Armature spring tension wrong or armature travel too large | Adjust armature gap to 0.5-1.0 mm; set spring tension so armature snaps cleanly between positions |
+| Cross-talk between adjacent wires on same pole | Capacitive coupling between parallel wires | Increase wire spacing on cross-arms (minimum 30 cm between circuits); transpose wires at regular intervals (every 10-20 poles) to cancel coupling |
+| Battery voltage dropping faster than expected | Shorted cell (internal) or current leakage through wet insulators | Test each cell individually; replace shorted cells; patrol the line for cracked insulators after rain |
+| Wire sagging excessively in summer | Thermal expansion of iron wire (12 × 10⁻⁶/°C) | Set tension in spring or autumn at 10-15% of breaking load; install tension adjusters at terminal poles for seasonal retensioning |
+| Relay station introducing character errors | Operator fatigue or relay contact bounce | Rotate operators every 4-6 hours; file relay contacts smooth; check relay adjustment (gap, spring tension) |
 
 ## See Also
 

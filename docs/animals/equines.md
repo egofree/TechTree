@@ -204,16 +204,30 @@ A 2-horse draft team requires 2-3 hectares of productive pasture or 5,500-7,300 
 
 **Scale bottlenecks**: Feed production and storage capacity limit team size more than any other factor. Each additional draft horse requires 1.0-1.5 hectares of dedicated hay land.
 
+## Why Equine Biology Matters for Management
+
+Understanding why equines behave and fail in specific ways makes the management rules above more than arbitrary prescriptions.
+
+**Why colic is the leading killer**: Horses have a comparatively small stomach (8-15 L) for their body size, and their intestines make multiple tight bends through which food must pass. Unlike cattle, which can regurgitate and rechew, horses cannot vomit. The cardiac sphincter at the stomach entrance is a one-way valve with enormous closing force. If gas or feed blockage creates pressure in the stomach or intestines, the gas cannot escape upward. The intestine distends, blood supply gets cut off at the tight bends, and the tissue dies within hours. This is why feed transitions must be gradual: sudden changes in grain type or quantity shift the microbial population in the hindgut, producing excess gas. It is also why constant access to clean water and regular exercise matter: movement stimulates gut motility, and dehydration concentrates gut contents into impactions.
+
+**Why the training timeline is 4-5 years**: A horse's skeletal system does not finish growing until age 4-5. The growth plates (epiphyseal plates) in the long bones of the legs remain open and soft until then. Putting a young horse into heavy work before the plates close causes permanent skeletal damage: bowed tendons, splints, and early arthritis. Light work at 2-3 years is acceptable because the loads are small. Full draft loading at age 3 risks career-ending injury. This is the fundamental constraint on equine production: the 4-5 year wait from birth to working age is the longest of any livestock species.
+
+**Why horses need grain but donkeys do not**: Donkeys evolved in arid North Africa, where feed is sparse and unpredictable. Their digestive system extracts 30-40% more energy from the same roughage compared to horses. They have larger cecums relative to body weight and slower gut transit times, allowing more thorough fermentation of fibrous material. A donkey on scrub forage that would starve a horse maintains body condition and can perform moderate work. The tradeoff is that donkeys produce less absolute power than horses, so the same task requires more donkeys or more time.
+
+**Why mules outperform both parents**: Mules inherit the horse's size and muscular power from the dam (mother) and the donkey's digestive efficiency, surefootedness, and heat tolerance from the sire (father). They also benefit from hybrid vigor (heterosis): fertility, disease resistance, and longevity all exceed the parental average. The catch is sterility: horses have 64 chromosomes and donkeys have 62. The mule gets 63, which cannot form balanced pairs during meiosis, making reproduction impossible. Every mule must be produced by crossing a mare with a jack, generation after generation.
+
 ## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Harness sores (shoulder galls) | Poorly fitted collar | Remove collar; treat sore with clean water and rest; refit collar — measure neck and match size |
-| Colic (pawing, sweating, rolling) | Feed change, dehydration, sand ingestion | Walk gently; do not let horse roll violently; call vet immediately; transition feeds over 7-10 days to prevent |
-| Lameness after shoeing | Nail in quick, or sole bruise | Remove offending nail; apply antiseptic; rest until sound |
-| Refusal to work (donkey) | Fatigue, fear, or pain | Check for injury; rest; assess workload — donkeys stop rather than injure themselves |
-| Weight loss despite adequate feed | Dental problems (sharp enamel points) | Float (rasp) teeth — check every 6-12 months; look for quidding (dropped feed) |
-| Cribbing (biting wood, gulping air) | Boredom, stall confinement | Increase turnout time; provide companionship; anti-crib collar as last resort |
+| Harness sores (shoulder galls) | Poorly fitted collar | Remove collar; treat sore with clean water and rest; refit collar. Measure neck at the base with a flexible tape and match collar size. A collar that is too narrow pinches the shoulder; too wide rubs the point of the shoulder. Heat-fitting the collar to the individual horse prevents recurrence. |
+| Colic (pawing, sweating, rolling) | Feed change, dehydration, sand ingestion, or dental problems | Walk gently; do not let horse roll violently (intestinal torsion is fatal without surgery); call vet immediately; transition feeds over 7-10 days to prevent. Check water supply daily: a horse that has gone without water for 12-24 hours is at high risk for impaction colic. |
+| Lameness after shoeing | Nail in quick, or sole bruise | Remove offending nail; apply antiseptic; rest until sound. A nail driven into the sensitive laminae inside the hoof wall causes immediate pain and may abscess. Prevention: the farrier should angle nails outward at 45° and check each nail placement against the white line. |
+| Refusal to work (donkey) | Fatigue, fear, or pain | Check for injury; rest; assess workload. Donkeys stop rather than injure themselves, which is an evolutionary survival strategy, not stubbornness. A donkey refusing to move is usually telling you something a horse would push through until it broke down. |
+| Weight loss despite adequate feed | Dental problems (sharp enamel points) | Float (rasp) teeth every 6-12 months; look for quidding (dropped feed). A horse's teeth erupt continuously throughout life and develop sharp points on the outer edges of the upper molars and inner edges of the lower molars. These points cut the cheeks and tongue, making chewing painful. The horse eats less, loses weight, but appears to be chewing normally to a casual observer. |
+| Cribbing (biting wood, gulping air) | Boredom, stall confinement, or stomach discomfort | Increase turnout time; provide companionship; anti-crib collar as last resort. Cribbing is a stereotypic behavior that develops when a horse cannot express natural grazing and social behaviors. Once established, it is very hard to eliminate. Prevention through adequate turnout and social contact is far more effective than any cure. |
+| Thrush (foul-smelling black discharge in frog) | Wet, dirty bedding or poor hoof hygiene | Clean hooves daily; apply thrush treatment (dilute bleach or commercial preparation); move to dry bedding. Thrush is a bacterial infection of the frog that thrives in anaerobic, moist conditions. If untreated, it eats into the sensitive tissue of the foot and causes lameness. |
+| Rain rot (crusted, matted hair along back) | Bacterial skin infection (*Dermatophilus congolensis*) in wet conditions | Remove scabs gently with curry comb; apply antibacterial wash (chlorhexidine 2%); provide shelter from prolonged rain. The bacteria are present on most horses but only cause infection when the skin is continuously wet. A horse with a three-sided shelter and regular grooming rarely develops rain rot. |
 
 ## Safety
 

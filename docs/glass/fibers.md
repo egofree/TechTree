@@ -14,6 +14,43 @@ Each product family uses a different glass composition, forming process, and pos
 
 The ratio of glass surface area to volume increases by a factor of 10,000-100,000 when going from bulk glass to fiber form. This enormous surface area makes glass fibers chemically active (vulnerable to moisture attack) and is the reason sizing (protective coating) must be applied immediately after forming.
 
+## Glass Fiber Composition and Melting Reference
+
+Each glass fiber type requires a specific composition that determines its melting behavior, fiber-forming properties, and final performance. The compositions below are given in oxide weight percentages.
+
+**Glass fiber composition comparison**:
+
+| Oxide | E-glass (electrical) | S-glass (structural) | E-CR glass (boron-free) | AR-glass (alkali-resistant) | Basalt fiber |
+|-------|---------------------|---------------------|--------------------------|----------------------------|--------------|
+| SiO2 | 54% | 65% | 59% | 61% | 45-52% |
+| Al2O3 | 14% | 25% | 13% | 0.5% | 12-16% |
+| CaO | 22% | 0% | 22% | 5% | 6-12% |
+| MgO | 0.5% | 10% | 3% | 0% | 6-12% |
+| B2O3 | 7% | 0% | 0% | 0% | 0% |
+| Na2O + K2O | 1% | 0% | 1% | 15% | 2-5% |
+| ZrO2 | 0% | 0% | 0% | 16% | 0% |
+| Fe2O3 | 0.3% | 0.1% | 0.3% | 0.2% | 6-12% |
+| TiO2 | 0.5% | 0% | 0.5% | 0.5% | 1-3% |
+| Liquidus temperature | 1140 degrees C | 1500 degrees C | 1200 degrees C | 1100 degrees C | 1200 degrees C |
+| Working temperature | 1250-1400 degrees C | 1500-1600 degrees C | 1300-1450 degrees C | 1250-1350 degrees C | 1350-1450 degrees C |
+| Fiber tensile strength | 2.0-3.5 GPa | 3.5-4.5 GPa | 2.0-3.5 GPa | 1.8-2.5 GPa | 3.0-4.8 GPa |
+| Fiber modulus | 70-80 GPa | 85-95 GPa | 72-82 GPa | 70-75 GPa | 85-95 GPa |
+
+**Key melting and forming parameters by fiber type**:
+
+| Parameter | E-glass | S-glass | Basalt |
+|-----------|---------|---------|--------|
+| Melting furnace temperature | 1400-1600 degrees C | 1550-1650 degrees C | 1400-1500 degrees C |
+| Refining time | 6-12 hours | 8-16 hours | 4-8 hours |
+| Bushing temperature | 1250-1350 degrees C | 1450-1550 degrees C | 1300-1400 degrees C |
+| Bushing nozzle diameter | 0.8-2.0 mm | 0.8-1.5 mm | 0.8-2.0 mm |
+| Attenuation speed | 50-100 m/s | 30-80 m/s | 40-80 m/s |
+| Final fiber diameter | 10-17 micrometers | 7-12 micrometers | 9-15 micrometers |
+| Cooling distance (bushing to solid) | 5-15 cm | 5-10 cm | 5-15 cm |
+| Sizing temperature | 20-30 degrees C | 20-30 degrees C | 20-30 degrees C |
+
+The bushing temperature must stay above the liquidus temperature of the glass by at least 50 degrees C to prevent devitrification (crystallization) inside the nozzles. Devitrified nozzles produce irregular fibers, increase breakage, and eventually clog. S-glass is the most demanding because its liquidus temperature is already 1500 degrees C, requiring bushing operation above 1550 degrees C. This accelerates platinum-rhodium alloy wear and increases maintenance costs compared to E-glass production.
+
 ## Prerequisites
 
 - [Glass production](./index.md) — basic glass melting and forming
@@ -133,20 +170,48 @@ Beyond standard E-glass and S-glass, several specialty glass fiber types serve n
 Glass fibers pose specific hazards during manufacture and handling that differ from bulk glass.
 
 **Respiratory hazard (during manufacturing)**:
-- Fibers smaller than 3 μm diameter and longer than 5 μm are respirable (reach deep lung tissue). Glass wool and special-purpose fine fiberglass can generate such fibers during production. The International Agency for Research on Cancer (IARC) classifies certain refractory ceramic fibers as possibly carcinogenic (Group 2B). Standard E-glass and glass wool are classified as not classifiable as to carcinogenicity (Group 3).
-- Protection during manufacturing and cutting: P100 respirator (99.97% filtration at 0.3 μm). Local exhaust ventilation at cutting and trimming stations to capture airborne fibers at source.
+- Fibers smaller than 3 micrometers diameter and longer than 5 micrometers are respirable (reach deep lung tissue). Glass wool and special-purpose fine fiberglass can generate such fibers during production. The International Agency for Research on Cancer (IARC) classifies certain refractory ceramic fibers as possibly carcinogenic (Group 2B). Standard E-glass and glass wool are classified as not classifiable as to carcinogenicity (Group 3).
+- Protection during manufacturing and cutting: P100 respirator (99.97% filtration at 0.3 micrometers). Local exhaust ventilation at cutting and trimming stations to capture airborne fibers at source.
 
 **Skin irritation**:
-- Glass fibers 5-15 μm diameter do not penetrate skin but cause mechanical irritation (itching, redness, rash) by abrading the skin surface during handling. The irritation is temporary (resolves in 12-48 hours after exposure stops) but severe enough to reduce worker productivity if unprotected.
+- Glass fibers 5-15 micrometers diameter do not penetrate skin but cause mechanical irritation (itching, redness, rash) by abrading the skin surface during handling. The irritation is temporary (resolves in 12-48 hours after exposure stops) but severe enough to reduce worker productivity if unprotected.
 - Protection: loose-fitting clothing that covers all skin (fibers pass through tight-weave fabrics at the wrist and neck openings). Barrier cream applied to exposed skin (wrists, neck) before handling. Gloves (leather or rubber-coated) for direct handling of raw fiberglass. Wash work clothes separately from other laundry; fibers transfer to other clothing in the wash and cause irritation on subsequent wear.
 - Chronic skin exposure can cause contact dermatitis (persistent inflammation). Workers who handle fiberglass daily should use dedicated work clothing that is laundered separately and never worn outside the workplace.
 
 **Eye protection**:
 - Safety glasses with side shields when cutting, trimming, or sanding fiberglass. Fibers in the eye cause intense irritation and are difficult to flush out because the sharp fiber ends embed in the conjunctiva. Do not rub the eye; flush with clean water for 15 minutes minimum and seek medical attention if irritation persists.
 
+**Burns and thermal hazards**:
+- Fiber-forming furnaces operate at 1400 to 1600 degrees C. Bushings are heated to 1250 to 1550 degrees C. Contact with molten glass or the platinum-rhodium bushing causes severe, deep thermal burns. The bushing area must be enclosed with heat shields. Workers adjusting bushing current or clearing nozzle blockages wear aluminized heat suits, face shields, and heat-resistant gloves rated for at least 1000 degrees C.
+- Curing ovens for glass wool run at 200 to 250 degrees C. Contact with the oven interior or freshly cured blanket causes burns. Use insulated gloves when handling material exiting the oven.
+
+**Chemical hazards (sizing and binder)**:
+- Sizing solutions contain film-forming polymers and organosilane coupling agents. Some silane coupling agents release methanol during hydrolysis. Mix sizing in ventilated areas. Wear nitrile gloves and safety glasses.
+- Phenolic resin binder for glass wool releases formaldehyde and phenol during curing. Formaldehyde is a known carcinogen (IARC Group 1). The curing oven exhaust must be scrubbed or thermally oxidized. Workers in the curing area should be monitored for formaldehyde exposure with badge dosimeters. The occupational exposure limit for formaldehyde is 0.75 ppm (OSHA PEL) as an 8-hour time-weighted average.
+- Isocyanates in polyurethane foam production (if co-located) are respiratory sensitizers. See [Thermal Insulation](../ceramics/thermal-insulation.md) for handling details.
+
 **Environmental considerations**:
 - Glass fiber waste (offcuts, trimmings, production scrap) is inert and non-hazardous in landfill. However, large quantities of glass fiber waste in landfill are bulky and do not decompose. Recycling options: grinding scrap back into cullet for glass melting (requires clean, uncontaminated fiber) or shredding for use as a filler in asphalt and concrete.
-- Phenolic binder in glass wool releases formaldehyde during the curing oven step and at low levels throughout the product's life. Modern phenolic resins are formulated for low formaldehyde emission (< 0.05 mg/m³ in standard chamber testing), but older formulations emitted significantly more. Formaldehyde is a known carcinogen (IARC Group 1).
+- Phenolic binder in glass wool releases formaldehyde during the curing oven step and at low levels throughout the product's life. Modern phenolic resins are formulated for low formaldehyde emission (less than 0.05 mg/m3 in standard chamber testing), but older formulations emitted significantly more. Formaldehyde is a known carcinogen (IARC Group 1).
+
+### Personal Protective Equipment
+
+- P100 respirator or supplied-air hood when handling raw fiber products, cutting insulation, or during bushing maintenance
+- Safety glasses with side shields at all times in production areas; face shield when clearing bushing nozzles or handling molten glass
+- Heat-resistant gloves (Kevlar or aluminized) rated for 1000 degrees C minimum when working near bushings or furnaces
+- Loose-fitting, long-sleeved coveralls with cuffs closed over gloves to prevent fiber entry at the wrist. Coveralls should be dedicated work clothing, laundered separately
+- Barrier cream on exposed skin (neck, wrists) before fiberglass handling
+- Steel-toe, heat-resistant boots in production areas
+- Hearing protection in the fiberizing area (spinning rotors at 2000-4000 RPM generate noise levels above 85 dB)
+
+### Emergency Procedures
+
+- **Fiber dust release**: evacuate the area. Allow fibers to settle (15-30 minutes). Re-enter with P100 respirator and clean with HEPA vacuum. Never dry-sweep; wet methods or HEPA vacuum only. Dry sweeping resuspends fibers in the air
+- **Bushing failure (platinum rupture)**: shut off current to the bushing immediately. Molten glass will stream from the breach. Clear personnel from below the bushing. Allow the glass to cool and solidify before attempting repair. A failed bushing must be replaced; platinum alloy cannot be field-repaired
+- **Phenolic resin spill**: contain the spill with absorbent material (vermiculite or sand). Do not use sawdust (fire hazard with formaldehyde-containing resins). Collect contaminated material in sealed containers for hazardous waste disposal. Ventilate the area. Wear chemical-resistant gloves and respirator during cleanup
+- **Fire in curing oven**: shut off the conveyor, stop binder spray, and close fire dampers to starve the fire. Use CO2 or dry chemical extinguisher. Phenolic resin fires produce thick, toxic smoke (formaldehyde, phenol). Respiratory protection is mandatory during firefighting. Do not use water on a binder fire: the water spreads the phenolic resin and can worsen the fire
+- **Molten glass leak from furnace**: evacuate the area and shut off fuel. Never use water on molten glass (steam explosion). Allow the glass to cool and solidify in place. Repair the refractory during the next scheduled maintenance
+- **Eye contamination with fibers**: do not rub the eye. Flush with clean water or sterile saline for at least 15 minutes, holding the eyelid open. If irritation persists after flushing, seek medical attention. Fiber fragments embedded in the cornea require professional removal by an ophthalmologist
 
 ## Quality Control in Fiber Production
 

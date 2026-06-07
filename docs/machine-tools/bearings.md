@@ -113,12 +113,47 @@ Ball and roller bearings reduce friction and enable high-speed machinery (machin
 - **Bearing fatigue life**: Rolling element bearings fail by subsurface fatigue (spalling) after a statistical number of stress cycles. Rated life (L10) is the cycles at which 10% of bearings fail. Design life typically 20,000-100,000 hours.
 - **Contamination sensitivity**: Bearing performance degrades rapidly with particulate contamination. Even 1-5 μm particles cause surface damage. Clean assembly environments and effective sealing are essential.
 
+## Safety Considerations
+
+Bearing manufacture and installation involve hot metal (babbitt pouring at 400-450°C), heavy rotating machinery, and precision grinding. Each hazard requires specific controls.
+
+- **Babbitt pouring burns**: Molten babbitt at 400-450°C splatters on contact with moisture or oil on the shell surface. A single drop of condensation on the shell causes a steam explosion that throws molten metal 1-2 meters. Preheat and clean shells thoroughly before pouring. Use leather apron, face shield, and heat-resistant gloves. Keep a dry work area.
+- **Grinding wheel explosion during raceway grinding**: Precision grinding wheels spin at 1500-2100 m/min peripheral speed. A cracked wheel explodes with fragments traveling at the peripheral speed (a 200 mm wheel at 3000 RPM = 31 m/s). Ring test every new wheel (suspend and tap with non-metallic hammer: clear ring = sound, dull thud = cracked). Never exceed rated RPM. Use wheel guards covering 180° of periphery.
+- **Rotating machinery entanglement**: Bearing testing on lathes and spin testers creates entanglement hazards. Shafts spinning at 1000-3000 RPM grab loose clothing, hair, and jewelry. Never wear gloves or loose sleeves near rotating shafts. Tie back long hair. Remove rings.
+- **Crush injuries during press fitting**: Ball bearings pressed into housings require 5-50 kN force depending on interference fit. Fingers caught between the bearing and housing during press-in are crushed. Use press tools that keep hands clear of the pressing zone. Two-hand controls on hydraulic presses.
+- **Heavy castings**: Machine beds and bearing housings weigh 10-100 kg. A dropped cast iron housing on a foot causes fractures. Use hoists for anything over 25 kg. Lift with legs, not back. Team lifts for items over 50 kg.
+- **Bearing steel dust**: Grinding bearing steel (52100) produces fine metallic dust. Inhalation irritates the respiratory tract. Use local exhaust ventilation at the grinding point. Wear a dust mask during extended grinding sessions.
+
+### Personal Protective Equipment
+
+- Safety glasses with side shields at all times in the machine shop
+- Face shield for babbitt pouring and grinding operations
+- Heat-resistant gloves for handling hot castings and babbitt (removed before operating machinery)
+- Leather apron for babbitt pouring
+- No gloves, loose clothing, or jewelry near rotating shafts or spindles
+- Steel-toe boots for handling heavy castings and machine components
+
+### Emergency Procedures
+
+- Keep burn kit with cold water bucket at the babbitt pouring station
+- Post emergency stop locations on all rotating machinery (spin testers, lathes)
+- Maintain fire extinguisher near the grinding area (class ABC)
+- Train all personnel on entanglement response: hit e-stop, do not grab rotating workpiece
+- Establish clear exclusion zone around grinding wheels during operation
+
 ## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
 | Babbitt bearing overheating and seizing (operating temp >100°C) | Radial clearance too tight (<0.001× shaft diameter) or oil starvation — babbitt fails within minutes without lubrication | Set radial clearance to 0.001-0.002× shaft diameter (50 mm shaft → 0.05-0.10 mm measured with feeler gauges); verify oil ring dips into reservoir and carries oil to shaft surface; check that oil grooves (2-3 mm wide × 1.5 mm deep) are unobstructed |
 | Ball bearing rough rotation (clicking or gritty feel, radial clearance >0.030 mm) | Contamination with 1-5 μm particles scoring raceways, or bearing exceeded L10 fatigue life (20,000-50,000 hours) | Disassemble, clean in solvent, and inspect raceways under 10× magnification for scoring/spalling; replace if raceway damage visible; reassemble in clean environment with fresh lithium grease (NLGI grade 2); ensure seals/shields are intact |
+| Babbitt lining cracked or separating from shell | Shell bore too smooth (<0.5 mm Ra) for mechanical keying, or babbitt poured onto oily/damp surface | Roughen shell bore to 1-2 mm Ra with coarse file; clean shell with solvent, preheat to 150-200°C; pour babbitt in one continuous stream; never pour onto a cold or damp shell |
+| Ball bearing inner ring spinning on shaft | Shaft diameter undersized for the bearing bore (insufficient interference fit) | Machine shaft to correct tolerance: for a 25 mm bore bearing, shaft should be 25.000-25.008 mm (k5 tolerance); if shaft is worn, build up with chrome plating or replace shaft |
+| Excessive vibration at high speed | Bearing radial clearance too large for the application, or unbalanced rotating assembly | Use tighter clearance bearing (C2: 0.005-0.015 mm instead of CN: 0.015-0.030 mm); check shaft runout with dial indicator (must be <0.01 mm for high-speed spindles); balance rotating assembly |
+| Oil leakage from plain bearing housing | Oil groove connected to edge of shell, or oil reservoir overfilled | Ensure oil grooves are blind (do not break through the shell edge); fill reservoir to level just below the oil ring; check that drain holes are not blocked |
+| Ball bearing noise increases over time | Raceway spalling from fatigue, or lubrication failure | Measure vibration signature; if high-frequency components increasing, bearing is approaching end of fatigue life; plan replacement before failure; check grease condition (dry, discolored, or contaminated grease means relubrication needed) |
+| Bearing housing bore worn oversize | Fretting corrosion between bearing outer ring and housing from micro-motion | Measure housing bore with inside micrometer; if worn beyond tolerance (52.000-52.002 mm for 6205), bore oversize and install a sleeve, or replace housing; apply Loctite bearing retainer to prevent recurrence |
+| Bronze bushing seizing after brief operation | Insufficient initial lubrication, or debris in the oil hole | Prime the oiling system before first start; flush oil passages with clean oil; verify oil reaches the bearing surface within 30 seconds of start-up; never run a dry bronze bearing under load |
 
 ## Cross-References
 

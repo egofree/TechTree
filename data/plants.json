@@ -3,7 +3,8 @@
   "domain": "plants",
   "generated": "2026-05-19T22:41:49.697437+00:00",
   "source_stats": {
-    "wikipedia": 200
+    "wikipedia": 200,
+    "zim-edibleplantdb": 75
   },
   "species": [
     {
@@ -1888,6 +1889,2344 @@
       "extraction_quality": "complete",
       "needs_research": false,
       "source": "wikipedia"
+    },
+    {
+      "id": "wheat",
+      "title": "Wheat",
+      "common_names": [
+        "Wheat",
+        "Wheat"
+      ],
+      "scientific_name": "Triticum aestivum",
+      "primary_use": "edible",
+      "family": "Poaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "fiber",
+        "fuel",
+        "industrial",
+        "medicinal"
+      ],
+      "description": "Triticum aestivum, commonly known as Wheat, Source ↗ An annual grass reaching 1.5 m in height. Non-frost tender with flowers June to July and seed ripening August to September. Wind-pollinated hermaphroditic flowers. Tolerates light sandy, medium loamy, and heavy clay soils; prefers well-drained conditions and mildly acid, neutral, or mildly alkaline pH. Requires full sun, moist soil, and withstands strong winds but not maritime exposure.",
+      "source_url": "https://en.wikipedia.org/wiki/Triticum_aestivum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "rice",
+      "title": "Rice",
+      "common_names": [
+        "Rice",
+        "Rice"
+      ],
+      "scientific_name": "Oryza sativa",
+      "primary_use": "edible",
+      "family": "Poaceae",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "fuel"
+      ],
+      "description": "Oryza sativa, commonly known as Rice, Source ↗ Oryza sativa, having the common name Asian cultivated rice, is the much more common of the two rice species cultivated as a cereal, the other species being O. glaberrima, African rice. It was first domesticated in the Yangtze River basin in China 13,500 to 8,200 years ago. Oryza sativa belongs to the genus Oryza and the BOP clade in the grass family Poaceae. With a genome consisting of 43",
+      "source_url": "https://en.wikipedia.org/wiki/Oryza_sativa",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "maize",
+      "title": "Maize",
+      "common_names": [
+        "Maize",
+        "Corn, Maize"
+      ],
+      "scientific_name": "Zea mays",
+      "primary_use": "edible",
+      "family": "Poaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "fuel",
+        "medicinal"
+      ],
+      "description": "Zea mays, commonly known as Corn, Maize, Source ↗ Annual reaching 2 m tall, growing at fast rate. Hardy to UK zone 3 but frost tender. Flowers July to October with seeds ripening September to October. Monoecious with wind pollination. Tolerates light sandy, medium loamy, and heavy clay soils with good drainage. Grows in mildly acidic to neutral soils. Requires full sun and prefers moist soil.",
+      "source_url": "https://en.wikipedia.org/wiki/Zea_mays",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "potato",
+      "title": "Potato",
+      "common_names": [
+        "Potato",
+        "Potato"
+      ],
+      "scientific_name": "Solanum tuberosum",
+      "primary_use": "edible",
+      "family": "Solanaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "fuel",
+        "medicinal"
+      ],
+      "description": "Solanum tuberosum, commonly known as Potato, Source ↗ A frost-tender perennial with hermaphroditic, insect-pollinated flowers. Grows in light sandy, medium loamy, and heavy clay soils with well-drained conditions across mildly acid to basic pH. Requires full sun and prefers moist soil.",
+      "source_url": "https://en.wikipedia.org/wiki/Solanum_tuberosum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "cassava",
+      "title": "Cassava",
+      "common_names": [
+        "Cassava",
+        "Chimoio"
+      ],
+      "scientific_name": "Manihot esculenta",
+      "primary_use": "edible",
+      "family": "Euphorbiaceae",
+      "order": "",
+      "native_region": "Angola, Burkina Faso, Burundi, Benin, Botswana",
+      "uses": [
+        "edible"
+      ],
+      "description": "Manihot esculenta, commonly known as Chimoio, Edible parts: Leaves The leaves are eaten.",
+      "source_url": "https://en.wikipedia.org/wiki/Manihot_esculenta",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "sweet-potato",
+      "title": "Sweet Potato",
+      "common_names": [
+        "Sweet Potato",
+        "Sweet Potato, Black Sweet Potato, Sweet Potato Vine"
+      ],
+      "scientific_name": "Ipomoea batatas",
+      "primary_use": "edible",
+      "family": "Convolvulaceae",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "edible"
+      ],
+      "description": "Ipomoea batatas, commonly known as Sweet Potato, Black Sweet Potato, Sweet Potato Vine, Edible parts: Leaves, Root, Shoots Root - cooked. Sweet and fleshy, it is a delicious staple food and is also very nutritious providing a rich source of vitamins and minerals. There are cultivars with soft, moist flesh and also forms with a more dry flesh. There are also less sweet cultivars, bred for industrial production of starch. In order for the roots to store through the winter, they need to",
+      "source_url": "https://en.wikipedia.org/wiki/Ipomoea_batatas",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "soybean",
+      "title": "Soybean",
+      "common_names": [
+        "Soybean",
+        "Soybean, Soya"
+      ],
+      "scientific_name": "Glycine max",
+      "primary_use": "edible",
+      "family": "Fabaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "fiber",
+        "fuel"
+      ],
+      "description": "Glycine max, commonly known as Soybean, Soya, Source ↗ An annual herb growing to 0.6 m tall, hardy to UK zone 8. Hermaphrodite flowers bloom July to September, pollinated by insects. Requires full sun and well-drained light sandy to medium loamy soil across mildly acidic to basic pH ranges. Prefers moist conditions and fixes nitrogen in soil.",
+      "source_url": "https://en.wikipedia.org/wiki/Glycine_max",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "common-bean",
+      "title": "Common Bean",
+      "common_names": [
+        "Common Bean",
+        "Common bean"
+      ],
+      "scientific_name": "Phaseolus vulgaris",
+      "primary_use": "edible",
+      "family": "Fabaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Phaseolus vulgaris, commonly known as Common bean, Source ↗ Phaseolus vulgaris, the common bean, is a herbaceous annual plant. Its botanical classification, along with other Phaseolus species, is as a member of the legume family, Fabaceae. It forms a green-leaved vine which produces beans inside of pods. The common bean has a long history of cultivation. All wild members of the species have a climbing habit, but many cultivars are classified eithe",
+      "source_url": "https://en.wikipedia.org/wiki/Phaseolus_vulgaris",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "barley",
+      "title": "Barley",
+      "common_names": [
+        "Barley",
+        "Barley, Common barley"
+      ],
+      "scientific_name": "Hordeum vulgare",
+      "primary_use": "edible",
+      "family": "Amaranthaceae",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Hordeum vulgare, commonly known as Barley, Common barley, Edible parts: Seed Salt Sweetener. Seed - cooked as a whole grain or ground up and used as a flour for making bread, porridges etc. It has a low gluten content and so is unsuitable for making wheat-type breads. The seed can be fermented into sourdough and many other fermented foods such as 'tempeh' and 'miso'. The seed can also be sprouted and added to salads or the sprouted seed juiced and the ju",
+      "source_url": "https://en.wikipedia.org/wiki/Hordeum_vulgare",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "oat",
+      "title": "Oat",
+      "common_names": [
+        "Oat",
+        "Oats"
+      ],
+      "scientific_name": "Avena sativa",
+      "primary_use": "edible",
+      "family": "Poaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "fuel",
+        "medicinal"
+      ],
+      "description": "Avena sativa, commonly known as Oats, Source ↗ A hardy annual oat growing 0.9 m tall, hardy to UK zone 3. Flowers June to July with seed maturation August to October. Wind-pollinated, hermaphroditic, and self-fertile. Accommodates light sandy, medium loamy, and heavy clay soils including nutritionally poor soils, preferring well-drained conditions. Tolerates mildly acid through very acid soils and neutral to mildly alkaline soils. Req",
+      "source_url": "https://en.wikipedia.org/wiki/Avena_sativa",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "rye",
+      "title": "Rye",
+      "common_names": [
+        "Rye",
+        "Rye"
+      ],
+      "scientific_name": "Secale cereale",
+      "primary_use": "edible",
+      "family": "Poaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "fiber"
+      ],
+      "description": "Secale cereale, commonly known as Rye, An annual grass reaching 1.8 m (6 ft) tall and 0.1 m (4 in) wide. Hardy to UK zone 3, not frost tender. Flowers May to July; seeds ripen August to September. Hermaphroditic, wind-pollinated. Grows in light sandy, medium loamy, and heavy clay soils, preferring well-drained conditions across mildly acidic to mildly alkaline pH. Requires full sun, prefers moist soil, and tolerates drought. Withstands",
+      "source_url": "https://en.wikipedia.org/wiki/Secale_cereale",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "sorghum",
+      "title": "Sorghum",
+      "common_names": [
+        "Sorghum",
+        "Sorghum"
+      ],
+      "scientific_name": "Sorghum bicolor",
+      "primary_use": "edible",
+      "family": "Poaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "fuel",
+        "medicinal"
+      ],
+      "description": "Sorghum bicolor, commonly known as Sorghum, Source ↗ A fast-growing annual reaching 5 meters tall, hardy to UK zone 8. Flowers from August to October with seeds ripening September to October. Wind-pollinated hermaphroditic flowers. Tolerates light sandy, medium loamy, and heavy clay soils across mildly acidic to mildly alkaline pH ranges. Requires full sun and can handle both drought and moist conditions.",
+      "source_url": "https://en.wikipedia.org/wiki/Sorghum_bicolor",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "pearl-millet",
+      "title": "Pearl Millet",
+      "common_names": [
+        "Pearl Millet",
+        "Bullrush millet, Pearl millet"
+      ],
+      "scientific_name": "Pennisetum glaucum",
+      "primary_use": "edible",
+      "family": "Poaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible"
+      ],
+      "description": "Pennisetum glaucum, commonly known as Bullrush millet, Pearl millet, Annual grass reaching 3 m tall, flowering and seeding September to October, wind-pollinated hermaphroditic species. Grows in light sandy or medium loamy, well-drained soils tolerating poor nutrition. Adapts to mildly acidic to basic pH, requires full sun, tolerates dry to moist conditions and drought.",
+      "source_url": "https://en.wikipedia.org/wiki/Pennisetum_glaucum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "foxtail-millet",
+      "title": "Foxtail Millet",
+      "common_names": [
+        "Foxtail Millet",
+        "Foxtail millet, Indian millet"
+      ],
+      "scientific_name": "Setaria italica",
+      "primary_use": "edible",
+      "family": "Poaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible"
+      ],
+      "description": "Setaria italica, commonly known as Foxtail millet, Indian millet, Source ↗ An annual grass reaching 0.5 m tall with a spread of 0.1 m, hardy to UK zone 6. Flowers August to October with seeds ripening September to October. The plant is hermaphroditic and wind-pollinated. It grows in light sandy, medium loamy, and heavy clay soils, preferring well-drained conditions across mildly acid to mildly alkaline pH ranges. Cannot grow in shade, prefers moist soil, and tol",
+      "source_url": "https://en.wikipedia.org/wiki/Setaria_italica",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "proso-millet",
+      "title": "Proso Millet",
+      "common_names": [
+        "Proso Millet",
+        "True millet, Common millet, Proso"
+      ],
+      "scientific_name": "Panicum miliaceum",
+      "primary_use": "edible",
+      "family": "Poaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible"
+      ],
+      "description": "Panicum miliaceum, commonly known as True millet, Common millet, Proso, An annual grass growing to 1 m tall with a 0.2 m spread. Hardy to UK zone 5. Flowers July to October. Hermaphroditic and wind-pollinated. Grows in light sandy, medium loamy, and heavy clay soils with well-drained preference. Tolerates mildly acid, neutral, and basic soils. Requires full sun. Adapts to dry or moist conditions and tolerates drought.",
+      "source_url": "https://en.wikipedia.org/wiki/Panicum_miliaceum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "teff",
+      "title": "Teff",
+      "common_names": [
+        "Teff",
+        "Teff"
+      ],
+      "scientific_name": "Eragrostis tef",
+      "primary_use": "edible",
+      "family": "Poaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "fiber"
+      ],
+      "description": "Eragrostis tef, commonly known as Teff, Source ↗ An annual grass growing to 1 m (3 ft 3 in) tall. Hermaphroditic with wind pollination. Flowers August to September, with seeds ripening September to October. Tolerates light sandy, medium loamy, and heavy clay soils with good drainage. Adapts to mildly acidic through mildly alkaline pH. Requires full sun and tolerates both dry and moist soil. Hardy to UK zone 9.",
+      "source_url": "https://en.wikipedia.org/wiki/Eragrostis_tef",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "buckwheat",
+      "title": "Buckwheat",
+      "common_names": [
+        "Buckwheat",
+        "Buckwheat, Japanese buckwheat, Silverhull buckwheat"
+      ],
+      "scientific_name": "Fagopyrum esculentum",
+      "primary_use": "edible",
+      "family": "Polygonaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Fagopyrum esculentum, commonly known as Buckwheat, Japanese buckwheat, Silverhull buckwheat, Source ↗ Annual herb reaching 1.5 m tall and 0.3 m wide, growing quickly and unsuitable for shade. Frost tender with flowers appearing July to September and seeds maturing August to October. Monoecious flowers pollinated by bees and flies. Thrives in light sandy, medium loamy, or heavy clay soils with good drainage; tolerates poor nutrition, very acid to alkaline pH, and drought conditions. Notabl",
+      "source_url": "https://en.wikipedia.org/wiki/Fagopyrum_esculentum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "einkorn-wheat",
+      "title": "Einkorn Wheat",
+      "common_names": [
+        "Einkorn Wheat",
+        "Cultivated einkorn, Einkorn wheat, Small spelt"
+      ],
+      "scientific_name": "Triticum monococcum",
+      "primary_use": "edible",
+      "family": "Poaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible"
+      ],
+      "description": "Triticum monococcum, commonly known as Cultivated einkorn, Einkorn wheat, Small spelt, A 1 m tall annual wheat flowering June to July with seed maturity in August to September. Wind-pollinated hermaphrodite that tolerates sandy, loamy, and clay soils with good drainage, including nutritionally poor soils. Adapts to mildly acid through mildly alkaline pH. Requires full sun and accepts both dry and moist conditions. Not frost tender.",
+      "source_url": "https://en.wikipedia.org/wiki/Triticum_monococcum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "quinoa",
+      "title": "Quinoa",
+      "common_names": [
+        "Quinoa",
+        "Quinoa"
+      ],
+      "scientific_name": "Chenopodium quinoa",
+      "primary_use": "edible",
+      "family": "Amaranthaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Chenopodium quinoa, commonly known as Quinoa, Source ↗ Fast-growing annual reaching 1.5 m tall by 0.3 m wide with wind-pollinated hermaphroditic flowers from July to August and seeds maturing August to September. Hardy to UK zone 10, frost-tender. Tolerates light sandy, medium loamy, and heavy clay soils, thriving in well-drained and nutritionally poor conditions across mildly acid to very alkaline pH ranges. Requires full sun, tolerates drou",
+      "source_url": "https://en.wikipedia.org/wiki/Chenopodium_quinoa",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "finger-millet",
+      "title": "Finger Millet",
+      "common_names": [
+        "Finger Millet",
+        "Finger millet"
+      ],
+      "scientific_name": "Eleusine coracana",
+      "primary_use": "edible",
+      "family": "Poaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Albania, Armenia",
+      "uses": [
+        "edible"
+      ],
+      "description": "Eleusine coracana, commonly known as Finger millet, Source ↗ An annual grass reaching 12 inches tall. Flowers July to August with seeds ripening August to October. Wind-pollinated and self-fertile. Grows in light, medium, or heavy soils with good drainage; tolerant of poor soil, saline conditions, and various pH levels from acidic to alkaline. Requires full sun and prefers moist soil.",
+      "source_url": "https://en.wikipedia.org/wiki/Eleusine_coracana",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "water-yam",
+      "title": "Water Yam",
+      "common_names": [
+        "Water Yam",
+        "Greater yam"
+      ],
+      "scientific_name": "Dioscorea alata",
+      "primary_use": "edible",
+      "family": "Dioscoreaceae",
+      "order": "",
+      "native_region": "United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Armenia, Angola",
+      "uses": [
+        "edible"
+      ],
+      "description": "Dioscorea alata, commonly known as Greater yam, Source ↗ Dioscorea alata – also called ube, ubi, uwhi, purple yam, or greater yam, among many other names – is a species of yam (a tuber). The tubers are usually a vivid violet-purple to bright lavender (hence the common name), but some range from creamy-white to plain white. It is sometimes confused with taro and the Okinawa sweet potato beniimo (紅芋) (Ipomoea batatas 'Ayamurasaki'), however D. al",
+      "source_url": "https://en.wikipedia.org/wiki/Dioscorea_alata",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "taro",
+      "title": "Taro",
+      "common_names": [
+        "Taro",
+        "Taro"
+      ],
+      "scientific_name": "Colocasia esculenta",
+      "primary_use": "edible",
+      "family": "Araceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible"
+      ],
+      "description": "Colocasia esculenta, commonly known as Taro, Fast-growing evergreen perennial reaching 1m tall and wide. Hardy to UK zone 9. Insect-pollinated, self-fertile flowers; noted for attracting wildlife. Accommodates light sandy, medium loamy, and heavy clay soils, tolerating very acidic and saline conditions. Grows in semi-shade or full sun; prefers moist to wet soil across mildly acidic to neutral pH range.",
+      "source_url": "https://en.wikipedia.org/wiki/Colocasia_esculenta",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "cocoyam",
+      "title": "Cocoyam",
+      "common_names": [
+        "Cocoyam",
+        "Chinese taro, Tannia, West Indian kale"
+      ],
+      "scientific_name": "Xanthosoma sagittifolium",
+      "primary_use": "edible",
+      "family": "Araceae",
+      "order": "",
+      "native_region": "United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Armenia, Angola",
+      "uses": [
+        "edible"
+      ],
+      "description": "Xanthosoma sagittifolium, commonly known as Chinese taro, Tannia, West Indian kale, Source ↗ Xanthosoma sagittifolium, or tannia, is a tropical flowering plant from the family Araceae. It produces an edible, starchy corm. X. sagittifolium is native to tropical America where it has been first cultivated. Around the 19th century, the plant spread to Southeast Asia and Africa and has been cultivated there ever since. X. sagittifolium is often confused with the related plant Colocasi",
+      "source_url": "https://en.wikipedia.org/wiki/Xanthosoma_sagittifolium",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "lesser-yam",
+      "title": "Lesser Yam",
+      "common_names": [
+        "Lesser Yam",
+        "Lesser yam"
+      ],
+      "scientific_name": "Dioscorea esculenta",
+      "primary_use": "edible",
+      "family": "Dioscoreaceae",
+      "order": "",
+      "native_region": "United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Armenia, Angola",
+      "uses": [
+        "edible",
+        "industrial"
+      ],
+      "description": "Dioscorea esculenta, commonly known as Lesser yam, Source ↗ Dioscorea esculenta is a species of flowering plant in the family Dioscoreaceae. It is sometimes referred to by the common name lesser yam, and is native to Island Southeast Asia and introduced to Near Oceania and East Africa by early Austronesian voyagers. This yam is grown for its edible tubers, though it has smaller tubers than the more widely-cultivated Dioscorea alata and is usually",
+      "source_url": "https://en.wikipedia.org/wiki/Dioscorea_esculenta",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "beet",
+      "title": "Beet",
+      "common_names": [
+        "Beet",
+        "Beetroot"
+      ],
+      "scientific_name": "Beta vulgaris",
+      "primary_use": "edible",
+      "family": "Amaranthaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Beta vulgaris, commonly known as Beetroot, Source ↗ Beta vulgaris (beet) is a species of flowering plant in the subfamily Betoideae of the family Amaranthaceae. It is a perennial plant usually growing up to 120 centimetres (4 ft) tall. Three subspecies are typically recognised. The wild ancestor of all the cultivated beets is the sea beet (Beta vulgaris subsp. maritima), with several modern cultivars all belonging to B. vulgaris subsp. vul",
+      "source_url": "https://en.wikipedia.org/wiki/Beta_vulgaris",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "jerusalem-artichoke",
+      "title": "Jerusalem Artichoke",
+      "common_names": [
+        "Jerusalem Artichoke",
+        "Jerusalem artichoke"
+      ],
+      "scientific_name": "Helianthus tuberosus",
+      "primary_use": "edible",
+      "family": "Asteraceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "industrial"
+      ],
+      "description": "Helianthus tuberosus, commonly known as Jerusalem artichoke, Source ↗ A fast-growing perennial reaching 2.4 m (7ft) tall and 0.6 m (2ft) wide, hardy to UK zone 4 and frost-hardy. Flowers in October with seeds ripening in November. Hermaphroditic flowers pollinated by bees and flies. Tolerates light sandy, medium loamy, or heavy clay soils; grows in nutritionally poor soil with good drainage. Tolerates mildly acid to mildly alkaline pH. Requires full sun, ad",
+      "source_url": "https://en.wikipedia.org/wiki/Helianthus_tuberosus",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "jicama",
+      "title": "Jicama",
+      "common_names": [
+        "Jicama",
+        "Yam bean, Jicama"
+      ],
+      "scientific_name": "Pachyrhizus erosus",
+      "primary_use": "edible",
+      "family": "Fabaceae",
+      "order": "",
+      "native_region": "United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Armenia, Angola",
+      "uses": [
+        "edible"
+      ],
+      "description": "Pachyrhizus erosus, commonly known as Yam bean, Jicama, Source ↗ Pachyrhizus erosus, commonly known as jícama ( or ; Spanish: jícama [ˈxikama] ; from Nahuatl languages: xīcamatl [ʃiːˈkamatɬ]) or Mexican turnip, is a native Mesoamerican vine, although the name jícama most commonly refers to the plant's edible tuberous root. It is in the pea family (Fabaceae). Pachyrhizus tuberosus and Pachyrhizus ahipa are the other two cultivated species in the genus.",
+      "source_url": "https://en.wikipedia.org/wiki/Pachyrhizus_erosus",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "garden-pea",
+      "title": "Garden Pea",
+      "common_names": [
+        "Garden Pea",
+        "Pea"
+      ],
+      "scientific_name": "Pisum sativum",
+      "primary_use": "edible",
+      "family": "Fabaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Pisum sativum, commonly known as Pea, Source ↗ An annual legume growing to 2m tall, hardy to UK zone 3. Flowers May to September with seeds ripening July to October. Hermaphrodite, self-fertile, occasionally bee-pollinated. Capable of fixing atmospheric nitrogen. Prefers light sandy and medium loamy well-drained soils. Requires neutral to mildly alkaline pH. Needs full sun and moist soil conditions.",
+      "source_url": "https://en.wikipedia.org/wiki/Pisum_sativum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "lentil",
+      "title": "Lentil",
+      "common_names": [
+        "Lentil",
+        "Lentil"
+      ],
+      "scientific_name": "Lens culinaris",
+      "primary_use": "edible",
+      "family": "Fabaceae",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "industrial",
+        "medicinal"
+      ],
+      "description": "Lens culinaris, commonly known as Lentil, Edible parts: Seed, Seedpod Seed - cooked or sprouted and eaten raw. A very nutritious food, the seeds can be cooked on their own or added to soups, stews etc. The seed can be soaked for 12 hours in warm water and then allowed to sprout for about 5 days. They have a crunchy, fresh flavour. Lentils are more digestible than many legumes. The dried seed can also be ground into a powder and used with",
+      "source_url": "https://en.wikipedia.org/wiki/Lens_culinaris",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "chickpea",
+      "title": "Chickpea",
+      "common_names": [
+        "Chickpea",
+        "Chickpea"
+      ],
+      "scientific_name": "Cicer arietinum",
+      "primary_use": "edible",
+      "family": "Fabaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Cicer arietinum, commonly known as Chickpea, Source ↗ Cicer arietinum is a fast-growing annual reaching 0.6 m (2 ft) tall, hardy to UK zone 9 and not frost tender. It flowers June to July with seeds ripening August to September. The hermaphrodite plant fixes atmospheric nitrogen. It prefers light sandy and medium loamy well-drained soils across mildly acidic to very alkaline pH and requires full sun. The plant tolerates both drought and mois",
+      "source_url": "https://en.wikipedia.org/wiki/Cicer_arietinum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "cowpea",
+      "title": "Cowpea",
+      "common_names": [
+        "Cowpea",
+        "Cowpea, Black-eyed pea"
+      ],
+      "scientific_name": "Vigna unguiculata",
+      "primary_use": "edible",
+      "family": "Fabaceae",
+      "order": "",
+      "native_region": "United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Armenia, Angola",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Vigna unguiculata, commonly known as Cowpea, Black-eyed pea, Edible parts: Seeds, Leaves, Pods, Tuberous root, Vegetable, Tuber Most cowpeas are grown on the African continent, particularly in Nigeria and Niger, which account for 66% of world cowpea production. The Sahel region also contains other major producers such as Burkina Faso, Ghana, Senegal, and Mali. Niger is the main exporter of cowpeas and Nigeria the main importer. Exact figures for cowpea prod",
+      "source_url": "https://en.wikipedia.org/wiki/Vigna_unguiculata",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "fava-bean",
+      "title": "Fava Bean",
+      "common_names": [
+        "Fava Bean",
+        "Broad bean, Faba bean"
+      ],
+      "scientific_name": "Vicia faba",
+      "primary_use": "edible",
+      "family": "Fabaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Vicia faba, commonly known as Broad bean, Faba bean, Source ↗ Vicia faba, commonly known as the broad bean, fava bean, or faba bean, is a species of vetch, a flowering plant in the pea and bean family Fabaceae. It is widely cultivated as a crop for human consumption, and also as a cover crop. Varieties with smaller, harder seeds that are fed to horses or other animals are called field bean, tic bean or tick bean. This legume is commonly consumed in",
+      "source_url": "https://en.wikipedia.org/wiki/Vicia_faba",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "white-lupin",
+      "title": "White Lupin",
+      "common_names": [
+        "White Lupin",
+        "White Lupin"
+      ],
+      "scientific_name": "Lupinus albus",
+      "primary_use": "edible",
+      "family": "Fabaceae",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Lupinus albus, commonly known as White Lupin, Edible parts: Oil, Oil, Seed Oil. Seed - cooked. Used as a protein-rich vegetable or savoury dish in any of the ways that cooked beans are used, they can also be roasted or ground into a powder and mixed with cereal flours in making bread etc. If the seed is bitter this is due to the presence of toxic alkaloids and the seed should be thoroughly leached by soaking it and then discarding the soak wa",
+      "source_url": "https://en.wikipedia.org/wiki/Lupinus_albus",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "peanut",
+      "title": "Peanut",
+      "common_names": [
+        "Peanut",
+        "Peanut"
+      ],
+      "scientific_name": "Arachis hypogaea",
+      "primary_use": "edible",
+      "family": "Fabaceae",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fuel",
+        "medicinal"
+      ],
+      "description": "Arachis hypogaea, commonly known as Peanut, Edible parts: Leaves, Oil, Oil, Seed, Seedpod Oil. Seed - raw, cooked or ground into a powder. Peanuts are a staple food in many tropical zones and are widely exported to temperate area of the world. The seeds have a delicious nutty flavour and can be eaten on their own either raw or roasted. The seeds are commonly ground up and used as peanut butter in sandwiches etc. They can also be cooked in a",
+      "source_url": "https://en.wikipedia.org/wiki/Arachis_hypogaea",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "cabbage",
+      "title": "Cabbage",
+      "common_names": [
+        "Cabbage",
+        "Wild cabbage"
+      ],
+      "scientific_name": "Brassica oleracea",
+      "primary_use": "edible",
+      "family": "Brassicaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible"
+      ],
+      "description": "Brassica oleracea, commonly known as Wild cabbage, Source ↗ Brassica oleracea, also known as wild cabbage in its uncultivated form, is a plant of the family Brassicaceae. The species originated from feral populations of related plants in the Eastern Mediterranean, where it was most likely first cultivated. It has many common cultivars that are used as culinary vegetables, including cabbage, broccoli, cauliflower, romanesco, kale, Brussels sprout,",
+      "source_url": "https://en.wikipedia.org/wiki/Brassica_oleracea",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "wild-tomato",
+      "title": "Wild Tomato",
+      "common_names": [
+        "Wild Tomato",
+        "Cherry tomato"
+      ],
+      "scientific_name": "Solanum lycopersicum var. cerasiforme",
+      "primary_use": "edible",
+      "family": "Solanaceae",
+      "order": "",
+      "native_region": "Antigua &amp; Barbuda, Angola, Barbados, Burkina Faso, Burundi",
+      "uses": [
+        "edible"
+      ],
+      "description": "Solanum lycopersicum var. cerasiforme, commonly known as Cherry tomato, Edible parts: Fruit The fruit is eaten.",
+      "source_url": "https://en.wikipedia.org/wiki/Solanum_lycopersicum_var._cerasiforme",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "carrot",
+      "title": "Carrot",
+      "common_names": [
+        "Carrot",
+        "Wild carrot, Queen Anne's lace"
+      ],
+      "scientific_name": "Daucus carota",
+      "primary_use": "edible",
+      "family": "Apiaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Daucus carota, commonly known as Wild carrot, Queen Anne's lace, Source ↗ Daucus carota, whose common names include wild carrot, European wild carrot, bird's nest, bishop's lace, carrot flower, and Queen Anne's lace (North America), is a flowering plant in the family Apiaceae. It is native to temperate regions of the Old World with a number of regional subspecies, and is naturalised widely elsewhere. Carrots cultivated as a food crop are cultivars of the domest",
+      "source_url": "https://en.wikipedia.org/wiki/Daucus_carota",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "onion",
+      "title": "Onion",
+      "common_names": [
+        "Onion",
+        "Bulb onion"
+      ],
+      "scientific_name": "Allium cepa",
+      "primary_use": "edible",
+      "family": "Amaryllidaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Allium cepa, commonly known as Bulb onion, An evergreen bulb growing to 60cm at medium rate, hardy to UK zone 5 and not frost tender. Flowers June to July; hermaphroditic and self-fertile. Attracts wildlife. Prefers light to medium well-drained soils, thrives in mildly acid to very alkaline pH, and requires full sun and moist soil.",
+      "source_url": "https://en.wikipedia.org/wiki/Allium_cepa",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "garlic",
+      "title": "Garlic",
+      "common_names": [
+        "Garlic",
+        "Garlic"
+      ],
+      "scientific_name": "Allium sativum",
+      "primary_use": "medicinal",
+      "family": "Amaryllidaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Allium sativum, commonly known as Garlic, Source ↗ A bulbous plant reaching 0.6 m (2 ft) tall and 0.2 m (8 inches) wide, growing at a medium rate. Hardy to UK zone 8 and frost-hardy. Hermaphroditic, self-fertile, bee/insect-pollinated. Attracts wildlife. Grows in light sandy and medium loamy soils with good drainage, including very alkaline soils. Prefers full sun and tolerates dry or moist conditions. Bulbs reach up to 6 cm diameter.",
+      "source_url": "https://en.wikipedia.org/wiki/Allium_sativum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "squash",
+      "title": "Squash",
+      "common_names": [
+        "Squash",
+        "Marrow, Pumpkin"
+      ],
+      "scientific_name": "Cucurbita pepo",
+      "primary_use": "edible",
+      "family": "Cucurbitaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible"
+      ],
+      "description": "Cucurbita pepo, commonly known as Marrow, Pumpkin, Source ↗ Cucurbita pepo is a cultivated plant of the genus Cucurbita. It yields varieties of winter squash and pumpkin, but the most widespread varieties belong to the subspecies Cucurbita pepo subsp. pepo, called summer squash. It has been domesticated in the Americas for thousands of years, from where it was spread by early colonisers to Europe and later across the rest of the Old World in the c",
+      "source_url": "https://en.wikipedia.org/wiki/Cucurbita_pepo",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "winter-squash",
+      "title": "Winter Squash",
+      "common_names": [
+        "Winter Squash",
+        "Pumpkin, Winter squash"
+      ],
+      "scientific_name": "Cucurbita maxima",
+      "primary_use": "edible",
+      "family": "Cucurbitaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Cucurbita maxima, commonly known as Pumpkin, Winter squash, Source ↗ Cucurbita maxima, one of at least five species of cultivated squash, is one of the most diverse domesticated species. This species originated in South America from the wild subspecies Cucurbita maxima subsp. andreana over 4,000 years ago. Cucurbita maxima, known for modern varieties as Hubbard, Delicious, Marblehead, Boston Marrow, and Turks Turban, originated in northern Argentina near t",
+      "source_url": "https://en.wikipedia.org/wiki/Cucurbita_maxima",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "chili-pepper",
+      "title": "Chili Pepper",
+      "common_names": [
+        "Chili Pepper",
+        "Capsicum"
+      ],
+      "scientific_name": "Capsicum annuum",
+      "primary_use": "edible",
+      "family": "Solanaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Capsicum annuum, commonly known as Capsicum, Source ↗ Capsicum annuum is a flowering plant in the family Solanaceae (nightshades), native to the northern regions of South America and to southwestern North America. The plant produces berries of many colors including red, green, and yellow, often with pungent taste. It is one of the oldest cultivated crops, with domestication dating back to around 6,000 years ago in regions of Mexico. The genu",
+      "source_url": "https://en.wikipedia.org/wiki/Capsicum_annuum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "apple",
+      "title": "Apple",
+      "common_names": [
+        "Apple",
+        "Apple"
+      ],
+      "scientific_name": "Malus domestica",
+      "primary_use": "edible",
+      "family": "Rosaceae",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Malus domestica, commonly known as Apple, Edible parts: Fruit, Oil, Oil Pectin. Fruit - raw, cooked or dried for later use. Apples are one of the most common and widely grown fruits of the temperate zone. There are a great many named varieties with differing flavours ranging from sour to sweet and textures from dry and mealy to crisp and juicy. There is also a wide range in the seasons of ripening with the first fruits being ready in late",
+      "source_url": "https://en.wikipedia.org/wiki/Malus_domestica",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "grape",
+      "title": "Grape",
+      "common_names": [
+        "Grape",
+        "Grapevine, European grape"
+      ],
+      "scientific_name": "Vitis vinifera",
+      "primary_use": "edible",
+      "family": "Vitaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "dye",
+        "edible",
+        "fuel",
+        "medicinal"
+      ],
+      "description": "Vitis vinifera, commonly known as Grapevine, European grape, Source ↗ Vitis vinifera, the common grape vine, is a species of flowering plant, native to the Mediterranean region, Central Europe, and southwestern Asia, from Morocco and Portugal north to southern Germany and east to northern Iran. As of 2012, there were between 5,000 and 10,000 varieties of Vitis vinifera grapes though only a few are of commercial significance for wine and table grape producti",
+      "source_url": "https://en.wikipedia.org/wiki/Vitis_vinifera",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "fig",
+      "title": "Fig",
+      "common_names": [
+        "Fig",
+        "Fig"
+      ],
+      "scientific_name": "Ficus carica",
+      "primary_use": "edible",
+      "family": "Moraceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "dye",
+        "edible",
+        "medicinal"
+      ],
+      "description": "Ficus carica, commonly known as Fig, Source ↗ A deciduous tree reaching 6m tall and wide at a medium growth rate, hardy to UK zone 7 and not frost tender. Flowers appear June to September with seeds ripening August to September. The plant is monoecious and self-fertile, attracting wildlife. It thrives in light sandy, medium loamy, or heavy clay soils with good drainage, tolerating poor nutrition and drought. Cannot grow in shade but",
+      "source_url": "https://en.wikipedia.org/wiki/Ficus_carica",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "olive",
+      "title": "Olive",
+      "common_names": [
+        "Olive",
+        "Olive, African olive, European olive"
+      ],
+      "scientific_name": "Olea europaea",
+      "primary_use": "edible",
+      "family": "Oleaceae",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fuel",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Olea europaea, commonly known as Olive, African olive, European olive, Edible parts: Fruit, Leaves, Manna, Oil, Oil Oil. Olive fruits are widely used, especially in the Mediterranean, as a relish and flavouring for foods. The fruit is usually pickled or cured with water, brine, oil, salt or lye. They can also be dried in the sun and eaten without curing when they are called 'fachouilles'. The cured fruits are eaten as a relish, stuffed with pimentos or almonds, or us",
+      "source_url": "https://en.wikipedia.org/wiki/Olea_europaea",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "coconut",
+      "title": "Coconut",
+      "common_names": [
+        "Coconut",
+        "Coconut"
+      ],
+      "scientific_name": "Cocos nucifera",
+      "primary_use": "edible",
+      "family": "Arecaceae",
+      "order": "",
+      "native_region": "United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Armenia, Angola",
+      "uses": [
+        "edible",
+        "fiber",
+        "fuel",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Cocos nucifera, commonly known as Coconut, Source ↗ An evergreen tree reaching 25 m (82 ft) tall and 7 m (23 ft) wide, growing at a medium rate. Hardy to UK zone 10. Wind-pollinated and self-fertile, attracting wildlife. Adapts to light sandy, medium loamy, and heavy clay soils, preferring good drainage but tolerating poor nutrition. Grows in mildly acidic, neutral, and basic soils, as well as very acidic, very alkaline, and saline conditi",
+      "source_url": "https://en.wikipedia.org/wiki/Cocos_nucifera",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "plantain",
+      "title": "Plantain",
+      "common_names": [
+        "Plantain",
+        "Plantain Banana"
+      ],
+      "scientific_name": "Musa × paradisiaca",
+      "primary_use": "edible",
+      "family": "Musaceae",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Musa × paradisiaca, commonly known as Plantain Banana, Edible parts: Flowers, Fruit, Shoots, Stem Salt. Fruit - raw or cooked. Dessert forms are sweet and succulent when fully ripe and are widely eaten out of hand, though they are very versatile and are used in a wide variety of other ways. For example, they are commonly used with other juicier fruits to make smoothies, they can be baked, cooked in cakes, dried for later use etc. Plantains are richer",
+      "source_url": "https://en.wikipedia.org/wiki/Musa_×_paradisiaca",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "walnut",
+      "title": "Walnut",
+      "common_names": [
+        "Walnut",
+        "Walnut, English walnut, Persian Walnut"
+      ],
+      "scientific_name": "Juglans regia",
+      "primary_use": "edible",
+      "family": "Juglandaceae",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "dye",
+        "edible",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Juglans regia, commonly known as Walnut, English walnut, Persian Walnut, Edible parts: Oil, Oil, Sap, Seed Tea. Seed - eaten raw or used in confections, cakes, ice cream etc. A delicious flavour. The seed can also be ground into a meal and used as a flavouring in sweet and savoury dishes. The unripe fruits are pickled in vinegar. An edible oil is obtained from the seed, it should not be stored for any length of time since it tends to go rancid quickly. The oil has a pl",
+      "source_url": "https://en.wikipedia.org/wiki/Juglans_regia",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "sweet-chestnut",
+      "title": "Sweet Chestnut",
+      "common_names": [
+        "Sweet Chestnut",
+        "European Chestnut, Sweet chestnut, Spanish chestnut"
+      ],
+      "scientific_name": "Castanea sativa",
+      "primary_use": "edible",
+      "family": "Fagaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "dye",
+        "edible",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Castanea sativa, commonly known as European Chestnut, Sweet chestnut, Spanish chestnut, Source ↗ A deciduous tree reaching 30m tall and 15m wide at a medium growth rate, hardy to UK zone 5. Flowers appear in July with seeds ripening by October. Monoecious and bee-pollinated. Attracts wildlife. Tolerates light sandy, medium loamy, and heavy clay soils; prefers well-drained conditions but grows in poor soils. Adapts to mildly acid, neutral, and very acid pH. Requires full sun, tolerate",
+      "source_url": "https://en.wikipedia.org/wiki/Castanea_sativa",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "hazel",
+      "title": "Hazel",
+      "common_names": [
+        "Hazel",
+        "Hazel nuts, Cob-nut Hazel, Filberts"
+      ],
+      "scientific_name": "Corylus avellana",
+      "primary_use": "edible",
+      "family": "Betulaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "dye",
+        "edible",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Corylus avellana, commonly known as Hazel nuts, Cob-nut Hazel, Filberts, Source ↗ Corylus avellana, the common hazel, is a species of flowering plant in the birch family Betulaceae. The shrubs usually grow 3–8 metres (10–26 feet) tall. The nut is round, in contrast to the longer filbert nut. Common hazel is native to Europe and Western Asia. The species is mainly cultivated for its nuts. The name 'hazelnut' applies to the nuts of any species in the genus Corylus, but i",
+      "source_url": "https://en.wikipedia.org/wiki/Corylus_avellana",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "mango",
+      "title": "Mango",
+      "common_names": [
+        "Mango",
+        "Mango, Bowen Mango"
+      ],
+      "scientific_name": "Mangifera indica",
+      "primary_use": "edible",
+      "family": "Anacardiaceae",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "dye",
+        "edible",
+        "fuel",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Mangifera indica, commonly known as Mango, Bowen Mango, Edible parts: Flowers, Fruit, Leaves, Seed Tea. Fruit - raw or cooked. One of the most popular fruits in the world, it is commonly eaten raw, is juiced and can also be prepared in a variety of ways such as in chutneys, jams, pickles etc. The dried, unripe fruit is ground into a powder and used as a flavouring in Indian cuisine. They are an ingredient of the spice mixture chat masala. A variable fr",
+      "source_url": "https://en.wikipedia.org/wiki/Mangifera_indica",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "cotton",
+      "title": "Cotton",
+      "common_names": [
+        "Cotton",
+        "American cotton"
+      ],
+      "scientific_name": "Gossypium hirsutum",
+      "primary_use": "fiber",
+      "family": "Malvaceae",
+      "order": "",
+      "native_region": "United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania, Armenia",
+      "uses": [
+        "edible",
+        "fiber",
+        "fuel",
+        "industrial"
+      ],
+      "description": "Gossypium hirsutum, commonly known as American cotton, Source ↗ Gossypium hirsutum, also known as upland cotton or Mexican cotton, is the most widely planted species of cotton in the world. Globally, about 90% of all cotton production is of cultivars derived from this species. In the United States, the world's largest exporter of cotton, it constitutes approximately 95% of all cotton production. It is native from Mexico to Ecuador and northeast Brazil",
+      "source_url": "https://en.wikipedia.org/wiki/Gossypium_hirsutum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "flax",
+      "title": "Flax",
+      "common_names": [
+        "Flax",
+        "Flax, Common flax"
+      ],
+      "scientific_name": "Linum usitatissimum",
+      "primary_use": "fiber",
+      "family": "Linaceae",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "fuel",
+        "industrial",
+        "medicinal"
+      ],
+      "description": "Linum usitatissimum, commonly known as Flax, Common flax, Edible parts: Oil, Oil, Seed Oil. Seed - raw or cooked. The seed contains 30 - 40% oil, which comprises mainly linoleic and linolenic acids. The seed also contains cyanogenic glycosides (prussic acid). In small quantities these glycosides stimulate respiration and improve digestion, but in excess can cause respiratory failure and death. Cultivars low in these glycosides have been developed and lar",
+      "source_url": "https://en.wikipedia.org/wiki/Linum_usitatissimum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "hemp",
+      "title": "Hemp",
+      "common_names": [
+        "Hemp",
+        "Indian Hemp"
+      ],
+      "scientific_name": "Cannabis sativa",
+      "primary_use": "fiber",
+      "family": "Cannabaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "fiber",
+        "industrial"
+      ],
+      "description": "Cannabis sativa, commonly known as Indian Hemp, Source ↗ Cannabis sativa is an annual herbaceous flowering plant. The species was first classified by Carl Linnaeus in 1753. The specific epithet sativa means 'cultivated'. Indigenous to Eastern Asia, the plant is now of cosmopolitan distribution due to widespread cultivation. It has been cultivated throughout recorded history and used as a source of industrial fiber, seed oil, food, and medicine.",
+      "source_url": "https://en.wikipedia.org/wiki/Cannabis_sativa",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "ramie",
+      "title": "Ramie",
+      "common_names": [
+        "Ramie",
+        "Ramie"
+      ],
+      "scientific_name": "Boehmeria nivea",
+      "primary_use": "fiber",
+      "family": "Urticaceae",
+      "order": "",
+      "native_region": "United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Armenia, Angola",
+      "uses": [
+        "edible",
+        "fiber",
+        "industrial"
+      ],
+      "description": "Boehmeria nivea, commonly known as Ramie, Source ↗ Boehmeria nivea, commonly known as ramie, Chinese grass or Chinese silk plant, is a monoecious shrub or subshrub in the family Urticaceae commonly found in China. It is native to warm temperate and tropical regions of the eastern Himalaya, and east and southeastern Asia. It grows to 2 metres tall, with alternately-arranged leaves 7–15 cm long and 6–12 cm broad, oval-acuminate with a serra",
+      "source_url": "https://en.wikipedia.org/wiki/Boehmeria_nivea",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "kenaf",
+      "title": "Kenaf",
+      "common_names": [
+        "Kenaf",
+        "Vegetable kenaf, Indian hemp"
+      ],
+      "scientific_name": "Hibiscus cannabinus",
+      "primary_use": "fiber",
+      "family": "Malvaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "dye",
+        "edible",
+        "fiber",
+        "fuel",
+        "industrial"
+      ],
+      "description": "Hibiscus cannabinus, commonly known as Vegetable kenaf, Indian hemp, Source ↗ Hibiscus cannabinus is a frost-tender annual or perennial growing rapidly to 1.8 m, hardy to UK zone 10. Hermaphroditic flowers appear August-September with seeds ripening October-November; insect pollination and self-fertility occur. The plant attracts wildlife, accommodates light sandy to heavy clay soils with good drainage, tolerates mildly acid to basic pH, requires full sun, and pref",
+      "source_url": "https://en.wikipedia.org/wiki/Hibiscus_cannabinus",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "jute",
+      "title": "Jute",
+      "common_names": [
+        "Jute",
+        "Jute, Bush Okra"
+      ],
+      "scientific_name": "Corchorus olitorius",
+      "primary_use": "fiber",
+      "family": "Malvaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "fiber",
+        "industrial"
+      ],
+      "description": "Corchorus olitorius, commonly known as Jute, Bush Okra, Source ↗ Jute mallow or Jew's mallow or Mallow leaves or Nalita jute (Corchorus olitorius, also known as \"Jute leaves\", \"Tossa jute\", \"Mloukheyeh\" \"muteezi\", \"lunkomba\", \"ewedu\" and \"West African sorrel\") is a species of shrub in the family Malvaceae. Together with C. capsularis it is the primary source of jute fiber. The leaves and young fruits are used as a vegetable, the dried leaves are used f",
+      "source_url": "https://en.wikipedia.org/wiki/Corchorus_olitorius",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "sisal",
+      "title": "Sisal",
+      "common_names": [
+        "Sisal",
+        "Sisal, Hemp"
+      ],
+      "scientific_name": "Agave sisalana",
+      "primary_use": "fiber",
+      "family": "Asparagaceae",
+      "order": "",
+      "native_region": "United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania, Armenia",
+      "uses": [
+        "edible",
+        "fiber",
+        "industrial"
+      ],
+      "description": "Agave sisalana, commonly known as Sisal, Hemp, Source ↗ Agave sisalana is a fast-growing evergreen perennial reaching 2 m tall and wide. Hardy to UK zone 10 but frost-tender. Self-fertile and able to grow in semi-shade (light woodland) or full sun. Adapts to light sandy, medium loamy, or heavy clay well-drained soils with poor fertility tolerated. Suitable for mildly acidic, neutral, or mildly alkaline pH. Handles dry or moist conditions and t",
+      "source_url": "https://en.wikipedia.org/wiki/Agave_sisalana",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "rubber-tree",
+      "title": "Rubber Tree",
+      "common_names": [
+        "Rubber Tree",
+        "Para rubber tree, Caoutchouc tree"
+      ],
+      "scientific_name": "Hevea brasiliensis",
+      "primary_use": "fiber",
+      "family": "Euphorbiaceae",
+      "order": "",
+      "native_region": "United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Armenia, Angola",
+      "uses": [
+        "edible",
+        "fiber",
+        "fuel",
+        "industrial",
+        "structural"
+      ],
+      "description": "Hevea brasiliensis, commonly known as Para rubber tree, Caoutchouc tree, Source ↗ Hevea brasiliensis, the Pará rubber tree, sharinga tree, seringueira, or, most commonly, rubber tree or rubber plant, is a flowering plant belonging to the spurge family, Euphorbiaceae. It is originally native to the Amazon basin, but is now pantropical in distribution due to introductions. It is the most economically important member of the genus Hevea, because the milky latex extracted",
+      "source_url": "https://en.wikipedia.org/wiki/Hevea_brasiliensis",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "sunflower",
+      "title": "Sunflower",
+      "common_names": [
+        "Sunflower",
+        "Sunflower"
+      ],
+      "scientific_name": "Helianthus annuus",
+      "primary_use": "industrial",
+      "family": "Asteraceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "fiber",
+        "fuel",
+        "industrial",
+        "medicinal"
+      ],
+      "description": "Helianthus annuus, commonly known as Sunflower, Source ↗ A tall, fast-growing annual reaching 3 m (9 ft) high and 0.3 m (1 ft) wide. Flowers from July to September with seeds ripening from September to October. Hardy to UK zone 7, not frost tender. Hermaphroditic and requires cross-pollination by bees and flies. Tolerates light sandy, medium loamy, and heavy clay soils with good drainage. Grows in semi-shade or full sun. Drought-tolerant and ad",
+      "source_url": "https://en.wikipedia.org/wiki/Helianthus_annuus",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "oil-palm",
+      "title": "Oil Palm",
+      "common_names": [
+        "Oil Palm",
+        "African Oil palm"
+      ],
+      "scientific_name": "Elaeis guineensis",
+      "primary_use": "industrial",
+      "family": "Arecaceae",
+      "order": "",
+      "native_region": "United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Armenia, Angola",
+      "uses": [
+        "edible",
+        "fuel",
+        "industrial"
+      ],
+      "description": "Elaeis guineensis, commonly known as African Oil palm, Source ↗ Elaeis guineensis is a species of palm commonly just called oil palm but also sometimes African oil palm or macaw-fat. The first Western person to describe it and bring back seeds was the French naturalist Michel Adanson. It is native to west and southwest Africa, specifically the area between Angola and The Gambia; the species name, guineensis, refers to the name for the area called Guin",
+      "source_url": "https://en.wikipedia.org/wiki/Elaeis_guineensis",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "rapeseed",
+      "title": "Rapeseed",
+      "common_names": [
+        "Rapeseed",
+        "Canola"
+      ],
+      "scientific_name": "Brassica napus",
+      "primary_use": "industrial",
+      "family": "Brassicaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "fuel",
+        "industrial"
+      ],
+      "description": "Brassica napus, commonly known as Canola, Source ↗ An annual or biennial growing to 1.2 m tall, hardy to UK zone 7. Flowers May to August. Hermaphrodite, bee-pollinated and self-fertile. Adapts to light sandy, medium loamy, and heavy clay soils with good drainage, tolerating very acid to very alkaline pH. Grows in semi-shade or full sun, prefers moist soil.",
+      "source_url": "https://en.wikipedia.org/wiki/Brassica_napus",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "sesame",
+      "title": "Sesame",
+      "common_names": [
+        "Sesame",
+        "Sesame, Oil-seed sesame"
+      ],
+      "scientific_name": "Sesamum indicum",
+      "primary_use": "industrial",
+      "family": "Pedaliaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "fuel",
+        "industrial"
+      ],
+      "description": "Sesamum indicum, commonly known as Sesame, Oil-seed sesame, Source ↗ An annual plant reaching 1 m tall by 0.5 m wide, hardy only to UK zone 10 and frost-tender. Flowers in July and is hermaphroditic. Tolerates light sandy, medium loamy, and heavy clay soils with mildly acid to basic pH, requiring full sun and moist, well-drained conditions.",
+      "source_url": "https://en.wikipedia.org/wiki/Sesamum_indicum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "safflower",
+      "title": "Safflower",
+      "common_names": [
+        "Safflower",
+        "Safflower"
+      ],
+      "scientific_name": "Carthamus tinctorius",
+      "primary_use": "industrial",
+      "family": "Asteraceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "dye",
+        "edible",
+        "industrial",
+        "medicinal"
+      ],
+      "description": "Carthamus tinctorius, commonly known as Safflower, Source ↗ An annual growing to 1 m tall and 0.4 m wide. Foliage appears May to October; flowers August to October; seeds mature September to October. Hermaphroditic and self-fertile flowers pollinated by insects. Grows in light sandy and medium loamy, well-drained soils and tolerates poor soil. Establishes in mildly acidic to very alkaline pH. Requires full sun, tolerates both dry and moist soils,",
+      "source_url": "https://en.wikipedia.org/wiki/Carthamus_tinctorius",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "castor",
+      "title": "Castor",
+      "common_names": [
+        "Castor",
+        "Castor bean, Castor Oil Plant"
+      ],
+      "scientific_name": "Ricinus communis",
+      "primary_use": "industrial",
+      "family": "Euphorbiaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "dye",
+        "edible",
+        "fiber",
+        "fuel",
+        "industrial"
+      ],
+      "description": "Ricinus communis, commonly known as Castor bean, Castor Oil Plant, Source ↗ A fast-growing evergreen shrub reaching 1.5 m tall by 1 m wide. Hardy to UK zone 9, frost-tender. In leaf year-round, flowering July to September, seeds ripening September to November. Monoecious and self-fertile, wind-pollinated. Grows in light sandy, medium loamy, and heavy clay soils, prefers well-drained conditions, tolerates heavy clay. Suitable for mildly acid, neutral, and basic so",
+      "source_url": "https://en.wikipedia.org/wiki/Ricinus_communis",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "opium-poppy",
+      "title": "Opium Poppy",
+      "common_names": [
+        "Opium Poppy",
+        "Opium poppy, Breadseed poppy"
+      ],
+      "scientific_name": "Papaver somniferum",
+      "primary_use": "industrial",
+      "family": "Papaveraceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "industrial",
+        "medicinal"
+      ],
+      "description": "Papaver somniferum, commonly known as Opium poppy, Breadseed poppy, Source ↗ Papaver somniferum, commonly known as the opium poppy or breadseed poppy, is a species of flowering plant in the family Papaveraceae. It is the species of plant from which both opium and poppy seeds are derived and is also a valuable ornamental plant grown in gardens. Its native range is the western Mediterranean region, but has since been obscured by widespread introduction and cultivati",
+      "source_url": "https://en.wikipedia.org/wiki/Papaver_somniferum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "tea",
+      "title": "Tea",
+      "common_names": [
+        "Tea",
+        "Tea"
+      ],
+      "scientific_name": "Camellia sinensis",
+      "primary_use": "edible",
+      "family": "Theaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Albania, Armenia",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Camellia sinensis, commonly known as Tea, Source ↗ Camellia sinensis is a species of evergreen shrub or small tree in the flowering plant family Theaceae. Its leaves, leaf buds, and stems are used to produce tea. Common names include tea plant, tea shrub, and tea tree (unrelated to Melaleuca alternifolia, the source of tea tree oil, or the genus Leptospermum commonly called tea tree). White tea, yellow tea, green tea, oolong, dark tea (wh",
+      "source_url": "https://en.wikipedia.org/wiki/Camellia_sinensis",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "coffee",
+      "title": "Coffee",
+      "common_names": [
+        "Coffee",
+        "Arabian coffee"
+      ],
+      "scientific_name": "Coffea arabica",
+      "primary_use": "edible",
+      "family": "Rubiaceae",
+      "order": "",
+      "native_region": "United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Armenia, Angola",
+      "uses": [
+        "dye",
+        "edible",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Coffea arabica, commonly known as Arabian coffee, Source ↗ Coffea arabica (), also known as the Arabica coffee, is a species of flowering plant in the coffee and madder family Rubiaceae. It is believed to be the first species of coffee to have been cultivated and is the dominant cultivar, representing about 60% of global production. Coffee produced from the less acidic, more bitter, and more highly caffeinated robusta bean (C. canephora) makes up",
+      "source_url": "https://en.wikipedia.org/wiki/Coffea_arabica",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "cacao",
+      "title": "Cacao",
+      "common_names": [
+        "Cacao",
+        "Cacao"
+      ],
+      "scientific_name": "Theobroma cacao",
+      "primary_use": "edible",
+      "family": "Malvaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "edible",
+        "fuel",
+        "medicinal"
+      ],
+      "description": "Theobroma cacao, commonly known as Cacao, Source ↗ Theobroma cacao (cacao tree or cocoa tree) is a small (6–12 m (20–39 ft) tall) evergreen tree in the Malvaceae family. Its seeds—cocoa beans—are used to make chocolate liquor, cocoa solids, cocoa butter and chocolate. Although the tree is native to the tropics of the Americas, the largest producer of cocoa beans in 2022 was Ivory Coast.",
+      "source_url": "https://en.wikipedia.org/wiki/Theobroma_cacao",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "tobacco",
+      "title": "Tobacco",
+      "common_names": [
+        "Tobacco",
+        "Tobacco, Cultivated tobacco"
+      ],
+      "scientific_name": "Nicotiana tabacum",
+      "primary_use": "edible",
+      "family": "Solanaceae",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Nicotiana tabacum, commonly known as Tobacco, Cultivated tobacco, Edible parts: Leaves, Oil Egg OilA protein can be extracted from the leaves. It is an odourless, tasteless white powder and can be added to cereal grains, vegetables, soft drinks and other foods. It can be whipped like egg whites, liquefied or gelled and can take on the flavour and texture of a variety of foods. It is 99.5% protein, contains no salt, fat or cholesterol. It is currently (1991) bein",
+      "source_url": "https://en.wikipedia.org/wiki/Nicotiana_tabacum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "moringa",
+      "title": "Moringa",
+      "common_names": [
+        "Moringa",
+        "Horseradish Tree, Moringa"
+      ],
+      "scientific_name": "Moringa oleifera",
+      "primary_use": "medicinal",
+      "family": "Moringaceae",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "dye",
+        "edible",
+        "fiber",
+        "fuel",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Moringa oleifera, commonly known as Horseradish Tree, Moringa, Edible parts: Flowers Inner bark Leaves Oil Root Seed Seedpod Shoots Tea. Young leaves and shoots - raw or cooked. Added to salads, cooked as a potherb and added to soups and curries. They have a mustard-like flavour. The leaves contain 7 - 10% protein. (This almost certainly refers to the dried leaf.) The leaves are very nutritious, being rich in vitamins, minerals and the sulphur-containing amin",
+      "source_url": "https://en.wikipedia.org/wiki/Moringa_oleifera",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "ginger",
+      "title": "Ginger",
+      "common_names": [
+        "Ginger",
+        "Ginger"
+      ],
+      "scientific_name": "Zingiber officinale",
+      "primary_use": "medicinal",
+      "family": "Zingiberaceae",
+      "order": "",
+      "native_region": "United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Armenia, Angola",
+      "uses": [
+        "dye",
+        "edible",
+        "medicinal"
+      ],
+      "description": "Zingiber officinale, commonly known as Ginger, Source ↗ Ginger is a fast-growing perennial reaching 1.5m tall and wide. Hardy to UK zone 9, it thrives in light sandy, medium loamy, or heavy clay soils that are well-drained and moist. It tolerates mildly acid, neutral, or mildly alkaline pH and grows in semi-shade or full sun.",
+      "source_url": "https://en.wikipedia.org/wiki/Zingiber_officinale",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "turmeric",
+      "title": "Turmeric",
+      "common_names": [
+        "Turmeric",
+        "Turmeric"
+      ],
+      "scientific_name": "Curcuma longa",
+      "primary_use": "medicinal",
+      "family": "Zingiberaceae",
+      "order": "",
+      "native_region": "United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Armenia, Angola",
+      "uses": [
+        "dye",
+        "edible",
+        "medicinal"
+      ],
+      "description": "Curcuma longa, commonly known as Turmeric, Edible parts: Rhizome, Root, Leaves as condiment, Herb, Spice, Flowers Turmeric is one of the key ingredients in many Asian dishes, imparting a mustard-like, earthy aroma and pungent, slightly bitter flavor to foods. It is used mostly in savory dishes, but also is used in some sweet dishes, such as the Lebanese cake sfouf. In India, turmeric leaf is used to prepare special sweet dishes, patoleo, b",
+      "source_url": "https://en.wikipedia.org/wiki/Curcuma_longa",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "black-pepper",
+      "title": "Black Pepper",
+      "common_names": [
+        "Black Pepper",
+        "Pepper"
+      ],
+      "scientific_name": "Piper nigrum",
+      "primary_use": "medicinal",
+      "family": "Piperaceae",
+      "order": "",
+      "native_region": "Andorra, United Arab Emirates, Afghanistan, Antigua &amp; Barbuda, Albania",
+      "uses": [
+        "dye",
+        "edible",
+        "medicinal"
+      ],
+      "description": "Piper nigrum, commonly known as Pepper, Source ↗ An evergreen climbing vine reaching 6 meters tall with a 1-meter spread, growing at a fast rate. Hardy to UK zone 10. Tolerates light sandy, medium loamy, and heavy clay soils with good drainage; adapts to mildly acidic through basic pH levels. Prefers moist conditions and semi-shaded environments but is intolerant of wind exposure.",
+      "source_url": "https://en.wikipedia.org/wiki/Piper_nigrum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "zim-edibleplantdb"
+    },
+    {
+      "id": "pinus-sylvestris",
+      "title": "Scots Pine",
+      "common_names": [
+        "Scots Pine",
+        "Scotch Pine"
+      ],
+      "scientific_name": "Pinus sylvestris",
+      "primary_use": "structural",
+      "family": "Pinaceae",
+      "order": "Pinales",
+      "native_region": "Eurasia",
+      "uses": [
+        "structural",
+        "resin",
+        "charcoal"
+      ],
+      "description": "Most widely distributed pine in the world. Primary construction timber for temperate zones. Source of resin, turpentine, rosin, and pitch for waterproofing.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "fraxinus-excelsior",
+      "title": "European Ash",
+      "common_names": [
+        "European Ash",
+        "Common Ash"
+      ],
+      "scientific_name": "Fraxinus excelsior",
+      "primary_use": "structural",
+      "family": "Oleaceae",
+      "order": "Lamiales",
+      "native_region": "Europe",
+      "uses": [
+        "structural",
+        "fiber",
+        "medicinal"
+      ],
+      "description": "Premier wood for tool handles, bentwood furniture, and impact-resistant applications. Exceptional toughness and shock resistance. Steam bends readily.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "tectona-grandis",
+      "title": "Teak",
+      "common_names": [
+        "Teak"
+      ],
+      "scientific_name": "Tectona grandis",
+      "primary_use": "structural",
+      "family": "Lamiaceae",
+      "order": "Lamiales",
+      "native_region": "South and Southeast Asia",
+      "uses": [
+        "structural",
+        "medicinal"
+      ],
+      "description": "Tropical hardwood with exceptional natural durability, dimensional stability, and resistance to rot, insects, and weather. Gold standard for shipbuilding and outdoor furniture.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "betula-pendula",
+      "title": "Silver Birch",
+      "common_names": [
+        "Silver Birch",
+        "European White Birch"
+      ],
+      "scientific_name": "Betula pendula",
+      "primary_use": "structural",
+      "family": "Betulaceae",
+      "order": "Fagales",
+      "native_region": "Eurasia",
+      "uses": [
+        "structural",
+        "edible",
+        "medicinal",
+        "dye"
+      ],
+      "description": "Pioneer tree producing bark for containers and canoes, timber for plywood, birch tar adhesive (one of oldest known adhesives), and edible sap.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "quercus-robur",
+      "title": "English Oak",
+      "common_names": [
+        "English Oak",
+        "Pedunculate Oak"
+      ],
+      "scientific_name": "Quercus robur",
+      "primary_use": "structural",
+      "family": "Fagaceae",
+      "order": "Fagales",
+      "native_region": "Europe",
+      "uses": [
+        "structural",
+        "tannin",
+        "dye"
+      ],
+      "description": "Foundational timber of Western civilization. Shipbuilding, barrel-making, structural beams, and tannin bark for leather production. Exceptionally durable heartwood.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "musa-textilis",
+      "title": "Abaca",
+      "common_names": [
+        "Abaca",
+        "Manila Hemp"
+      ],
+      "scientific_name": "Musa textilis",
+      "primary_use": "fiber",
+      "family": "Musaceae",
+      "order": "Zingiberales",
+      "native_region": "Philippines, Borneo",
+      "uses": [
+        "fiber",
+        "structural"
+      ],
+      "description": "Tropical banana relative producing one of the strongest natural fibers. Saltwater-resistant rope, specialty paper, and cordage. Tensile strength 450-850 MPa.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "phormium-tenax",
+      "title": "New Zealand Flax",
+      "common_names": [
+        "New Zealand Flax",
+        "Harakeke"
+      ],
+      "scientific_name": "Phormium tenax",
+      "primary_use": "fiber",
+      "family": "Asphodelaceae",
+      "order": "Asparagales",
+      "native_region": "New Zealand",
+      "uses": [
+        "fiber",
+        "edible"
+      ],
+      "description": "Perennial monocot producing strong leaf fiber for cordage, weaving, and thatching. Tensile strength 300-500 MPa. Extremely tough and adaptable. Tolerates salt, wet, and frost.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "crotalaria-juncea",
+      "title": "Sunn Hemp",
+      "common_names": [
+        "Sunn Hemp",
+        "Brown Hemp"
+      ],
+      "scientific_name": "Crotalaria juncea",
+      "primary_use": "fiber",
+      "family": "Fabaceae",
+      "order": "Fabales",
+      "native_region": "India, Pakistan",
+      "uses": [
+        "fiber",
+        "structural"
+      ],
+      "description": "Fast-growing tropical legume producing bast fiber for cordage and paper while fixing 60-120 kg nitrogen per hectare. Dual-value crop: fiber AND soil improvement.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "broussonetia-papyrifera",
+      "title": "Paper Mulberry",
+      "common_names": [
+        "Paper Mulberry"
+      ],
+      "scientific_name": "Broussonetia papyrifera",
+      "primary_use": "fiber",
+      "family": "Moraceae",
+      "order": "Rosales",
+      "native_region": "East Asia",
+      "uses": [
+        "fiber",
+        "structural"
+      ],
+      "description": "Fast-growing tree cultivated for inner bark fiber used in tapa cloth and high-quality handmade paper. Long fiber (5-12 mm) bonds naturally when beaten.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "indigofera-tinctoria",
+      "title": "True Indigo",
+      "common_names": [
+        "True Indigo",
+        "Indigo"
+      ],
+      "scientific_name": "Indigofera tinctoria",
+      "primary_use": "dye",
+      "family": "Fabaceae",
+      "order": "Fabales",
+      "native_region": "Tropical Asia",
+      "uses": [
+        "dye",
+        "structural"
+      ],
+      "description": "Tropical legume producing the most important blue dye in human history. Contains indican which yields indigotin through fermentation and oxidation. Vat dye process.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "rubia-tinctorum",
+      "title": "Madder",
+      "common_names": [
+        "Madder",
+        "Dyers Madder"
+      ],
+      "scientific_name": "Rubia tinctorum",
+      "primary_use": "dye",
+      "family": "Rubiaceae",
+      "order": "Gentianales",
+      "native_region": "Mediterranean, Western Asia",
+      "uses": [
+        "dye",
+        "medicinal"
+      ],
+      "description": "Perennial climbing plant producing alizarin, the most important red dye in history. Roots contain 1-4% dye compounds. Requires 2-3 years growth. Alum mordant produces Turkey red.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "isatis-tinctoria",
+      "title": "Woad",
+      "common_names": [
+        "Woad",
+        "Dyers Woad"
+      ],
+      "scientific_name": "Isatis tinctoria",
+      "primary_use": "dye",
+      "family": "Brassicaceae",
+      "order": "Brassicales",
+      "native_region": "Southeastern Europe, Western Asia",
+      "uses": [
+        "dye",
+        "medicinal"
+      ],
+      "description": "Biennial herb producing the same indigotin as tropical indigo but from a temperate-climate plant. Only blue dye source available in temperate Europe for 2000+ years.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "parthenium-argentatum",
+      "title": "Guayule",
+      "common_names": [
+        "Guayule"
+      ],
+      "scientific_name": "Parthenium argentatum",
+      "primary_use": "rubber",
+      "family": "Asteraceae",
+      "order": "Asterales",
+      "native_region": "Southwestern US, Northern Mexico",
+      "uses": [
+        "rubber"
+      ],
+      "description": "Desert shrub producing natural rubber (cis-1,4-polyisoprene) from stems. Only practical rubber source for arid climates. 5-20% rubber content in dry stems. Harvested whole-plant, not tapped.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "ficus-elastica",
+      "title": "India Rubber Tree",
+      "common_names": [
+        "India Rubber Tree",
+        "Rubber Fig"
+      ],
+      "scientific_name": "Ficus elastica",
+      "primary_use": "rubber",
+      "family": "Moraceae",
+      "order": "Rosales",
+      "native_region": "Northeast India, Myanmar",
+      "uses": [
+        "rubber",
+        "structural"
+      ],
+      "description": "Large evergreen fig tree producing latex containing rubber. Lower yield than Hevea but tolerates cooler temperatures and poorer soils. Backup rubber source for subtropical regions.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "acacia-mearnsii",
+      "title": "Black Wattle",
+      "common_names": [
+        "Black Wattle",
+        "Late Black Wattle"
+      ],
+      "scientific_name": "Acacia mearnsii",
+      "primary_use": "tannin",
+      "family": "Fabaceae",
+      "order": "Fabales",
+      "native_region": "Southeastern Australia",
+      "uses": [
+        "tannin",
+        "structural"
+      ],
+      "description": "Fast-growing tree producing bark with 30-40% tannin content, highest of any cultivated species. Primary global source of vegetable tannins for leather. 7-10 year rotation. Nitrogen-fixing.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "schinopsis-lorentzii",
+      "title": "Quebracho",
+      "common_names": [
+        "Quebracho",
+        "Red Quebracho"
+      ],
+      "scientific_name": "Schinopsis lorentzii",
+      "primary_use": "tannin",
+      "family": "Anacardiaceae",
+      "order": "Sapindales",
+      "native_region": "Gran Chaco, South America",
+      "uses": [
+        "tannin",
+        "structural"
+      ],
+      "description": "South American hardwood with 20-30% tannin in heartwood. Axe-breaker hardness (1200-1300 kg/m3 density). Produces firm, water-resistant leather with distinctive red-brown color.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "rhus-coraria",
+      "title": "Sicilian Sumac",
+      "common_names": [
+        "Sicilian Sumac",
+        "Sumac"
+      ],
+      "scientific_name": "Rhus coriaria",
+      "primary_use": "tannin",
+      "family": "Anacardiaceae",
+      "order": "Sapindales",
+      "native_region": "Mediterranean, Western Asia",
+      "uses": [
+        "tannin",
+        "dye",
+        "edible"
+      ],
+      "description": "Mediterranean shrub with triple use: tannin-rich leaves (15-25%) for light leather, brown/black dye, and tart berries as spice. Gallotannin leather is soft, flexible, pale yellow.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "salix-alba",
+      "title": "White Willow",
+      "common_names": [
+        "White Willow"
+      ],
+      "scientific_name": "Salix alba",
+      "primary_use": "medicinal",
+      "family": "Salicaceae",
+      "order": "Malpighiales",
+      "native_region": "Europe, Western Asia",
+      "uses": [
+        "medicinal",
+        "structural"
+      ],
+      "description": "Deciduous tree whose bark contains salicin (0.5-1.5%), the aspirin precursor. Pain relief, fever reduction, anti-inflammatory. Also provides basketry withies from coppiced shoots.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "cinchona-officinalis",
+      "title": "Cinchona",
+      "common_names": [
+        "Cinchona",
+        "Quinine Tree"
+      ],
+      "scientific_name": "Cinchona officinalis",
+      "primary_use": "medicinal",
+      "family": "Rubiaceae",
+      "order": "Gentianales",
+      "native_region": "Andes Mountains, South America",
+      "uses": [
+        "medicinal"
+      ],
+      "description": "Andean tree producing quinine alkaloids (1-8% in bark), the most important antimalarial drug for 400 years. Requires montane tropical conditions. 6-8 years to first bark harvest.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "digitalis-purpurea",
+      "title": "Foxglove",
+      "common_names": [
+        "Foxglove",
+        "Common Foxglove"
+      ],
+      "scientific_name": "Digitalis purpurea",
+      "primary_use": "medicinal",
+      "family": "Plantaginaceae",
+      "order": "Lamiales",
+      "native_region": "Europe",
+      "uses": [
+        "medicinal"
+      ],
+      "description": "Biennial herb producing cardiac glycosides (digoxin, digitoxin) for heart failure and atrial fibrillation treatment. Extremely poisonous. Therapeutic dose is 60-80% of toxic dose.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "ephedra-sinica",
+      "title": "Ephedra",
+      "common_names": [
+        "Ephedra",
+        "Ma Huang"
+      ],
+      "scientific_name": "Ephedra sinica",
+      "primary_use": "medicinal",
+      "family": "Ephedraceae",
+      "order": "Ephedrales",
+      "native_region": "China, Mongolia",
+      "uses": [
+        "medicinal"
+      ],
+      "description": "Arid-zone gymnosperm shrub producing ephedrine and pseudoephedrine (0.5-2.5% in stems). Bronchodilator for asthma, decongestant for colds. Grows in semi-desert conditions.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "artemisia-annua",
+      "title": "Sweet Wormwood",
+      "common_names": [
+        "Sweet Wormwood",
+        "Qing Hao"
+      ],
+      "scientific_name": "Artemisia annua",
+      "primary_use": "medicinal",
+      "family": "Asteraceae",
+      "order": "Asterales",
+      "native_region": "Temperate Asia",
+      "uses": [
+        "medicinal"
+      ],
+      "description": "Annual herb producing artemisinin (0.1-1.0% in leaves), the most effective antimalarial known. Faster-acting than quinine. Also produces insect-repellent essential oil.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "vernicia-fordii",
+      "title": "Tung Tree",
+      "common_names": [
+        "Tung Tree",
+        "Tung Oil Tree"
+      ],
+      "scientific_name": "Vernicia fordii",
+      "primary_use": "oil",
+      "family": "Euphorbiaceae",
+      "order": "Malpighiales",
+      "native_region": "Southern China",
+      "uses": [
+        "oil",
+        "structural"
+      ],
+      "description": "Subtropical tree producing seeds with 30-40% tung oil. Premier natural wood finish: dries harder and more water-resistant than linseed oil, does not darken with age.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "alnus-glutinosa",
+      "title": "Black Alder",
+      "common_names": [
+        "Black Alder",
+        "Common Alder"
+      ],
+      "scientific_name": "Alnus glutinosa",
+      "primary_use": "structural",
+      "family": "Betulaceae",
+      "order": "Fagales",
+      "native_region": "Europe",
+      "uses": [
+        "structural",
+        "tannin",
+        "dye"
+      ],
+      "description": "Nitrogen-fixing tree producing timber highly resistant to decay when permanently submerged. Venice built on alder pilings. Also provides tannin bark and soil improvement.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "acacia-senegal",
+      "title": "Gum Arabic",
+      "common_names": [
+        "Gum Arabic Tree",
+        "Senegal Gum"
+      ],
+      "scientific_name": "Acacia senegal",
+      "primary_use": "resin",
+      "family": "Fabaceae",
+      "order": "Fabales",
+      "native_region": "Sahel, Africa",
+      "uses": [
+        "resin",
+        "structural"
+      ],
+      "description": "Sahelian tree exuding gum arabic: edible, water-soluble adhesive, emulsifier, and binder for ink, paint, food, and medicine. Traded across Sahara for 4000+ years.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "azadirachta-indica",
+      "title": "Neem",
+      "common_names": [
+        "Neem",
+        "Indian Lilac"
+      ],
+      "scientific_name": "Azadirachta indica",
+      "primary_use": "insecticide",
+      "family": "Meliaceae",
+      "order": "Sapindales",
+      "native_region": "Indian Subcontinent",
+      "uses": [
+        "insecticide",
+        "medicinal",
+        "oil",
+        "structural"
+      ],
+      "description": "Tropical tree producing azadirachtin, a potent natural insecticide effective against 200+ pest species. Also: neem oil, medicinal skin treatments, nitrogen-rich seed cake fertilizer.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "chrysanthemum-cinerariifolium",
+      "title": "Pyrethrum",
+      "common_names": [
+        "Pyrethrum",
+        "Dalmatian Chrysanthemum"
+      ],
+      "scientific_name": "Chrysanthemum cinerariifolium",
+      "primary_use": "insecticide",
+      "family": "Asteraceae",
+      "order": "Asterales",
+      "native_region": "Dalmatia, Croatia",
+      "uses": [
+        "insecticide",
+        "medicinal"
+      ],
+      "description": "Perennial daisy producing pyrethrins (0.5-2.0% in flowers), fast-acting contact insecticide. Extremely low mammalian toxicity. Degrades rapidly in sunlight, leaving no residue.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "phyllostachys-edulis",
+      "title": "Moso Bamboo",
+      "common_names": [
+        "Moso Bamboo"
+      ],
+      "scientific_name": "Phyllostachys edulis",
+      "primary_use": "structural",
+      "family": "Poaceae",
+      "order": "Poales",
+      "native_region": "China, Taiwan",
+      "uses": [
+        "structural",
+        "fiber",
+        "edible"
+      ],
+      "description": "Largest temperate bamboo. Tensile strength higher than steel by weight (350-500 MPa). Harvestable in 3-5 years. Culms 10-20m tall. Construction, scaffolding, paper, edible shoots.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
+    },
+    {
+      "id": "ulmus-minor",
+      "title": "Field Elm",
+      "common_names": [
+        "Field Elm",
+        "Smooth-leaved Elm"
+      ],
+      "scientific_name": "Ulmus minor",
+      "primary_use": "structural",
+      "family": "Ulmaceae",
+      "order": "Rosales",
+      "native_region": "Europe",
+      "uses": [
+        "structural"
+      ],
+      "description": "European tree producing timber with interlocked grain that resists splitting. Traditional choice for wagon wheel hubs and water pipes. Withstands alternating wet and dry cycles.",
+      "source_url": "",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "knowledge"
     }
   ],
   "needs_research": [

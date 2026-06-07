@@ -2,7 +2,7 @@
 
 > **Node ID**: metals.pipe-making
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`Water Distribution`](distribution.md), [`Gas Handling`](gas-handling.md)
+> **Dependencies**: [`Water Distribution`](../water/distribution.md), [`Gas Handling`](../gas-handling/index.md)
 > **Enables**: [`Metal Casting`](casting.md)
 > **Timeline**: Years 15-30
 > **Outputs**: metal-pipes, steel-tubes, cast-iron-pipes
@@ -15,6 +15,37 @@ Manufacture of metal pipes and tubes by casting, extrusion, seamless piercing, o
 The choice of pipe-making method depends on the material, diameter, wall thickness, and pressure rating required. Cast iron pipes are made by centrifugal casting, where molten iron is poured into a spinning mold that distributes the metal evenly against the mold wall. Steel pipes are either seamless (pierced from a solid billet and elongated on a rolling mill) or welded (formed from flat strip and seam-welded). Copper tubes are made by extrusion followed by cold drawing.
 
 For bootstrapping purposes, centrifugal cast iron pipe is the simplest starting point. The equipment (a spinning mold and a ladle) is far less complex than a seamless piercing mill. Cast iron pipes serve municipal water distribution, building drainage, and low-pressure gas service. Steel pipe production can follow once the rolling mill infrastructure is established.
+
+### Pipe Schedule Reference
+
+Pipe sizes are designated by nominal diameter and schedule (wall thickness). The schedule number determines the pressure rating. The pipe-making process must control wall thickness to within the specified tolerance for the schedule being produced.
+
+| Nominal Size | OD (mm) | Sch 40 Wall (mm) | Sch 40 ID (mm) | Sch 80 Wall (mm) | Sch 80 ID (mm) | Sch 40 Weight (kg/m) |
+|--------------|---------|-------------------|-----------------|-------------------|-----------------|----------------------|
+| 1" (DN25) | 33.4 | 3.38 | 26.6 | 4.55 | 24.3 | 2.50 |
+| 2" (DN50) | 60.3 | 3.91 | 52.5 | 5.54 | 49.2 | 5.44 |
+| 4" (DN100) | 114.3 | 6.02 | 102.3 | 8.56 | 97.2 | 16.07 |
+| 6" (DN150) | 168.3 | 7.11 | 154.1 | 10.97 | 146.4 | 28.26 |
+| 8" (DN200) | 219.1 | 8.18 | 202.7 | 12.70 | 193.7 | 42.55 |
+| 12" (DN300) | 323.9 | 10.31 | 303.3 | 17.48 | 288.9 | 81.55 |
+
+**Why schedule matters**: The schedule number is approximately defined as S = 1000 × P / S_allowable, where P is the design pressure and S_allowable is the allowable stress. Higher schedule = thicker wall = higher pressure rating. Sch 40 is standard for most water and low-pressure applications. Sch 80 is used for higher pressures and corrosive services where corrosion allowance is needed.
+
+### Centrifugal Force Requirements
+
+The centrifugal casting mold must spin fast enough to hold the molten metal against the wall. The centrifugal acceleration must exceed gravitational acceleration by a factor of 50-150 (the G-factor). Too slow, and the metal slumps; too fast, and the equipment stresses become excessive.
+
+G-factor = ω²r / g, where ω = angular velocity (rad/s), r = mold radius (m), g = 9.81 m/s².
+
+| Pipe Diameter (mm) | Mold RPM | G-factor | Motor Power (kW per m of mold length) |
+|---------------------|----------|----------|---------------------------------------|
+| 100 | 900-1100 | 50-75 | 3-5 |
+| 200 | 600-800 | 40-70 | 5-8 |
+| 300 | 450-600 | 35-60 | 8-12 |
+| 400 | 350-500 | 30-55 | 10-15 |
+| 600 | 250-350 | 25-50 | 15-25 |
+
+The minimum RPM for a given pipe diameter can be calculated: RPM_min = 423 / √(r_meters). For a 200 mm diameter pipe (r = 0.1 m), RPM_min = 423 / √0.1 ≈ 1340... but in practice the formula above using G-factor 50-80 gives more realistic values because the mold is longer and centrifugal force accumulates along the length.
 
 Primary outputs: `metal-pipes`, `steel-tubes`, `cast-iron-pipes`.
 
@@ -32,8 +63,8 @@ Primary outputs: `metal-pipes`, `steel-tubes`, `cast-iron-pipes`.
 
 ### Equipment
 
-- [Water Distribution](distribution.md) — material dependency
-- [Gas Handling](gas-handling.md) — material dependency
+- [Water Distribution](../water/distribution.md) — material dependency
+- [Gas Handling](../gas-handling/index.md) — material dependency
 - Centrifugal casting machine with spinning mold (for cast iron pipe)
 - Piercing mill (for seamless steel pipe: cross-roll piercer or Mannesmann piercer)
 - Pilger mill or plug mill (for elongating the pierced shell)
@@ -70,12 +101,12 @@ Primary outputs: `metal-pipes`, `steel-tubes`, `cast-iron-pipes`.
 
 ### Cast Iron Pipe (Centrifugal Casting)
 
-1. Preheat and coat the water-cooled metal mold with a thin refractory wash (silica or zirconia). The coating controls the casting surface finish and protects the mold from thermal shock.
-2. Spin the mold to the target rotation speed (typical: 500-1000 RPM depending on pipe diameter). Centrifugal force must be sufficient to hold the molten iron against the mold wall.
-3. Pour molten cast iron into the spinning mold through a trough or runner. The metal flows along the mold length, and centrifugal force distributes it evenly against the wall. The pour rate controls wall thickness.
-4. Allow the iron to solidify while the mold continues to spin. The centrifugal force drives denser metal outward and lighter slag and gas inclusions inward, where they can be machined off or remain on the inner surface.
-5. Stop the mold and extract the pipe. The pipe shrinks slightly on cooling and releases from the mold. Cool on a rack.
-6. Machine the socket (bell) end and spigot end to specification. The bell-and-spigot joint is the standard connection method for cast iron water pipe: the spigot end of one pipe slides into the bell (socket) end of the next, sealed with lead, rubber gasket, or cement mortar. Test hydrostatically.
+1. Preheat and coat the water-cooled metal mold with a thin refractory wash (silica or zirconia). The coating controls the casting surface finish and protects the mold from thermal shock. Coating thickness: 0.5-1.5 mm. Apply by spraying or brushing while the mold rotates slowly (50-100 RPM).
+2. Spin the mold to the target rotation speed (500-1000 RPM depending on pipe diameter). Centrifugal force must be sufficient to hold the molten iron against the mold wall. The G-factor (centrifugal acceleration / gravitational acceleration) should be 50-150.
+3. Pour molten cast iron into the spinning mold through a trough or runner. The pour temperature must be 1300-1400°C (measured with an optical pyrometer). The metal flows along the mold length, and centrifugal force distributes it evenly against the wall. The pour rate controls wall thickness: for a 6" Sch 40 pipe (7.11 mm wall), pour approximately 28 kg of iron per meter of pipe length. Pour duration: 5-15 seconds per meter of pipe length.
+4. Allow the iron to solidify while the mold continues to spin. Solidification time: 30-90 seconds depending on wall thickness and mold cooling. The centrifugal force drives denser metal outward and lighter slag and gas inclusions inward, where they can be machined off or remain on the inner surface.
+5. Stop the mold and extract the pipe. The pipe shrinks slightly on cooling (shrinkage allowance ~1% for cast iron) and releases from the mold. Cool on a rack. Typical pipe temperature at extraction: 800-950°C (bright red to orange).
+6. Machine the socket (bell) end and spigot end to specification. The bell-and-spigot joint is the standard connection method for cast iron water pipe: the spigot end of one pipe slides into the bell (socket) end of the next, sealed with lead, rubber gasket, or cement mortar. Bell depth is typically 1.5-2× the pipe wall thickness. Test hydrostatically at 1.5-2× the rated working pressure (hold for 10-30 seconds, check for leaks and seepage).
 
 ### Seamless Steel Pipe (Piercing and Rolling)
 
@@ -170,12 +201,17 @@ Copper tube production (extrusion and drawing) is a smaller-scale operation that
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Ovality (out-of-round pipe) | Uneven cooling, worn rolls, incorrect roll gap | Check and adjust roll gap; ensure uniform cooling; replace worn rolls |
-| Wall thickness variation | Eccentric mandrel, uneven billet heating, worn tooling | Re-center mandrel; ensure billet is uniformly heated; inspect and replace worn dies |
-| Inner surface defects (laps, seams) | Excessive oxidation during piercing, dirty mandrel surface | Control furnace atmosphere; clean mandrel between passes; reduce dwell time at temperature |
-| Weld defects (porosity, incomplete fusion) | Insufficient heat, dirty strip edges, wrong welding speed | Increase weld current; clean strip edges; adjust welding speed |
-| Cracking during hydro test | Pre-existing crack from casting or rolling defect | Inspect more carefully before testing; improve casting or rolling parameters |
-| Pipe not straight | Uneven cooling, worn straightener rolls, bent mandrel | Adjust straightener rolls; cool pipe evenly on a flat bed; inspect mandrel for wear |
+| Ovality (out-of-round pipe) | Uneven cooling, worn rolls, incorrect roll gap | Check and adjust roll gap (±0.5 mm); ensure uniform cooling with water spray on all sides; replace worn rolls when eccentricity exceeds 0.5% of OD |
+| Wall thickness variation > ±10% | Eccentric mandrel, uneven billet heating, worn tooling | Re-center mandrel (runout <0.3 mm); ensure billet heated to ±15°C through cross-section (soak 1-2 hours per 100 mm diameter); inspect and replace worn dies |
+| Inner surface defects (laps, seams) | Excessive oxidation during piercing, dirty mandrel surface | Control furnace atmosphere to neutral (O₂ <2%); clean mandrel between passes; reduce dwell time at >1100°C to under 30 minutes |
+| Weld defects (porosity, incomplete fusion) | Insufficient heat, dirty strip edges, wrong welding speed | Increase weld current by 10-15%; clean strip edges to bright metal with wire brush; adjust welding speed to 15-30 m/min for 6-10 mm wall |
+| Cracking during hydro test | Pre-existing crack from casting or rolling defect; hard spots in cast iron | Inspect more carefully before testing (magnetic particle for steel); improve casting parameters (ensure mold preheated to 200°C+); anneal cast iron at 550°C for 2 hours to relieve residual stress |
+| Pipe not straight (>3 mm/m) | Uneven cooling, worn straightener rolls, bent mandrel | Adjust straightener rolls (0.5-1.0 mm interference); cool pipe evenly on a flat bed (no concentrated water spray); inspect mandrel for runout |
+| White iron formation (too hard to machine) | Rapid cooling against uncoated metal mold | Apply refractory wash coating (0.5-1.5 mm); reduce mold cooling water flow; anneal at 900°C for 2-4 hours to convert cementite to graphite |
+| Surface pitting on cast pipe | Moisture in refractory mold coating; gas porosity from high pouring temperature | Dry coating thoroughly before pouring; reduce pour temperature to 1300-1350°C (excess temperature increases gas solubility) |
+| Longitudinal cracks in seamless pipe | Excessive reduction per pass (>80%); billet too cold in center | Limit reduction per pass to 60-75%; increase billet soak time to ensure core temperature within 30°C of surface |
+| ERW weld hook crack | Oxide inclusions trapped at weld seam (from insufficient squeeze-out) | Increase squeeze pressure by 10-20%; clean strip edges with acid pickling; verify strip edges are parallel (gap <0.5 mm before welding) |
+| Bell end socket too tight or too loose | Machining tolerance drift; pattern wear | Gauge each bell with a go/no-go mandrel (±0.5 mm tolerance); replace worn machining tools; check machine alignment daily |
 
 ## Variations and Alternatives
 
@@ -191,10 +227,10 @@ Pipe ends are prepared according to the joining method. Cast iron pipes use bell
 
 ## References
 
-- [Metals](metals.md) — parent capability
+- [Metals](index.md) — parent capability
 - [Metals Domain](./index.md) — domain overview and related capabilities
-- [Water Distribution](distribution.md) — upstream dependency (material)
-- [Gas Handling](gas-handling.md) — upstream dependency (material)
+- [Water Distribution](../water/distribution.md) — upstream dependency (material)
+- [Gas Handling](../gas-handling/index.md) — upstream dependency (material)
 - [Metal Casting](casting.md) — downstream capability
 
 ---

@@ -3,7 +3,7 @@
 > **Node ID**: chemistry.electrodialysis
 > **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`Electrolysis`](electrolysis.md)
-> **Enables**: [`Desalination`](desalination.md), [`Hydroponic pH Control`](hydroponic-ph-control.md), [`Blue Energy (Osmotic Power)`](blue-energy.md), [`Acid Regeneration`](acid-regeneration.md)
+> **Enables**: [`Desalination`](../water/desalination.md), [`Hydroponic pH Control`](../agriculture/hydroponic-ph-control.md), [`Blue Energy (Osmotic Power)`](../energy/blue-energy.md), [`Acid Regeneration`](acid-regeneration.md)
 > **Timeline**: Years 25-45
 > **Outputs**: separated_ions, purified_water
 > **Critical**: No
@@ -74,20 +74,27 @@ An electrodialysis stack consists of alternating cation exchange membranes (CEM)
 
 | Parameter | Range | Notes |
 |-----------|-------|-------|
-| Current density | Moderate | Limited by concentration polarization at membrane surface |
-| Feed TDS | Low to moderate | Very high salinity increases energy consumption |
-| Recovery | 75-95% | Higher recovery increases brine concentration |
-| Membrane pair voltage | Typically 0.5-2V | Higher voltage indicates fouling |
-| Stack temperature | Ambient to moderate | Higher temps increase conductivity but may damage membranes |
+| Current density | 5-40 mA/cm² | Typical 10-25 mA/cm² for brackish water; higher values risk concentration polarization and water splitting at the membrane surface |
+| Feed TDS | 500-10,000 mg/L (brackish) | ED is most economical for 500-5,000 mg/L TDS; above 10,000 mg/L, RO becomes more energy-efficient |
+| Water recovery | 75-95% | Higher recovery concentrates the brine; limit is set by scaling potential (CaSO₄, CaCO₃) |
+| Membrane pair voltage | 0.5-2.0 V per cell pair | Normal operating range; voltage rising above 2.5 V per pair at constant current indicates fouling or scaling |
+| Stack temperature | 15-40°C | Higher temps (up to 40°C) increase conductivity 1.5-2% per °C and improve kinetics; above 45°C degrades most polymer membranes |
+| Energy consumption | 0.5-3.0 kWh/m³ product water | Scales linearly with salt removal; 0.5 kWh/m³ for 1,000 mg/L feed, 3.0 kWh/m³ for 5,000 mg/L feed |
+| Membrane area per stack | 10-500 m² per membrane pair | Production stacks use 200-400 pairs; each pair typically 0.5-2.0 m² active area |
+| Salt removal per pass | 40-60% of feed TDS | Multi-stage systems achieve >95% total removal |
+| Flow velocity in cells | 5-15 cm/s | Below 5 cm/s, concentration polarization increases; spacers maintain turbulence |
+| Electrode rinse flow | 2-10 L/min per stack | Carries away H₂ (cathode) and O₂ + acid (anode) from electrode reactions |
+| Membrane resistance | 1-10 Ω·cm² | Lower resistance = lower energy consumption; increases with fouling and age |
+| Membrane selectivity | >92% (good) to >98% (excellent) | Percentage of counter-ions rejected; decreases with age and chemical degradation |
 
 ## Safety Considerations
 
 Electrodialysis combines high-current DC electricity, pressurized fluid circuits, and chemically aggressive membrane materials. The hazards are specific to each subsystem:
 
-- **Electrical hazards**: The DC power supply operates at substantial voltage (tens to hundreds of volts) and high current. All electrical connections must be insulated and the stack enclosure must prevent contact with energized components. Lockout/tagout procedures required for all maintenance.
-- **Chemical exposure**: Feed and product streams may contain concentrated acids, bases, or salt solutions depending on the application. Electrode rinse streams become acidic (anode) or basic (cathode) during operation.
-- **Hydrogen generation**: The cathode reaction produces hydrogen gas. In enclosed stacks or poorly ventilated areas, hydrogen can accumulate to flammable concentrations.
-- **Membrane failure**: Damaged membranes allow mixing of diluate and concentrate streams. In some applications (e.g., acid/base production), mixing can generate heat or gas.
+- **Electrical hazards**: The DC power supply operates at 50-300 V and 10-200 A depending on stack size. Lethal contact is possible. All electrical connections must be insulated and the stack enclosure must prevent contact with energized components. Lockout/tagout procedures required for all maintenance. Post grounding hooks near the power supply. Interlock the enclosure door with the power supply so opening the door cuts power automatically.
+- **Chemical exposure**: Feed and product streams may contain concentrated acids, bases, or salt solutions depending on the application. Electrode rinse streams become acidic (anode, pH 1-3 from H⁺ generation) or basic (cathode, pH 11-13 from OH⁻ generation) during operation. Sodium sulfate electrode rinse at 0.5 M concentration is standard. Wear chemical splash goggles and nitrile gloves when sampling electrode rinse.
+- **Hydrogen generation**: The cathode reaction (2H₂O + 2e⁻ → H₂ + 2OH⁻) produces hydrogen at a rate of approximately 0.4 L per ampere-hour. For a 100 A stack running 8 hours, this is 320 L of H₂ per shift. Hydrogen is flammable at 4-75% concentration in air (LEL 4%, UEL 75%). In enclosed stack areas, continuous ventilation must maintain H₂ below 1% (25% of LEL). Install catalytic hydrogen detectors with alarms set at 1% H₂ in air.
+- **Membrane failure**: Damaged membranes allow mixing of diluate and concentrate streams. In acid/base production configurations, mixing can generate heat from neutralization or release gas from carbonate decomposition. Monitor conductivity on both outlets continuously; a sudden convergence of diluate and concentrate conductivity indicates a membrane breach. Shutdown trigger: conductivity change >15% in 5 minutes.
 
 ### Personal Protective Equipment
 
@@ -136,11 +143,16 @@ Key scaling challenges: membrane fouling is the dominant operational issue — s
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Rising stack voltage | Membrane fouling or scaling | Clean-in-place with acid (for scaling) or caustic (for organics) |
-| Poor ion removal | Insufficient current or short residence time | Increase current density; add membrane pairs; reduce flow rate |
-| Internal leakage | Damaged membranes or misaligned spacers | Disassemble stack; inspect and replace damaged components |
-| Electrode degradation | Electrode reaction products not flushed | Increase electrode rinse flow; check electrode polarity |
-| Low product recovery | High brine concentration or osmotic back-flow | Reduce brine concentration; check membrane integrity |
+| Rising stack voltage (>2.5 V/pair at constant current) | Membrane fouling (organic film), scaling (CaSO₄, CaCO₃), or electrode degradation | Clean-in-place: acid wash (2-5% HCl, 30°C, 2 hours) for scaling; caustic wash (1-2% NaOH, 30°C, 2 hours) for organic fouling; inspect and clean electrodes |
+| Poor ion removal (<40% per pass) | Current density too low, insufficient membrane pairs, or flow rate too high | Increase current density to 15-25 mA/cm²; add membrane pairs to extend residence time; reduce feed flow to increase contact time per cell pair |
+| Internal leakage (diluate and concentrate conductivities converging) | Damaged membranes (pinholes from chemical attack or mechanical stress) or misaligned spacers | Disassemble stack; pressure test each membrane at 0.3 bar; replace membranes with visible damage; verify spacer alignment during reassembly |
+| Electrode degradation (pitting, discoloration) | Electrode reaction products not flushed, or wrong electrode material for the voltage/current | Increase electrode rinse flow to 5-10 L/min; verify anode is titanium with mixed metal oxide coating (not bare titanium); reverse polarity periodically to equalize electrode wear |
+| Low product water recovery (<75%) | High brine concentration causing osmotic back-flow, or membrane selectivity loss | Reduce brine concentration by bleeding and replacing with feed; test membrane selectivity (should be >92%); replace membranes with selectivity <85% |
+| Hydrogen gas detected in stack enclosure (>1% H₂) | Inadequate ventilation of cathode compartment, or electrode rinse flow too low | Increase ventilation rate to achieve 10+ air changes per hour; increase cathode rinse flow; check that hydrogen vent lines are not blocked |
+| Membrane delamination or blistering | Operating above 45°C, or chemical attack from feed outside membrane compatibility range | Reduce operating temperature to 25-35°C; verify feed chemistry against membrane compatibility chart; use PTFE-backed membranes for aggressive feeds |
+| Uneven salt removal across stack (some cells cleaner than others) | Non-uniform flow distribution from blocked channels or over-compressed gaskets | Disassemble and clean all flow channels; re-torque stack bolts in cross-pattern to 15-25 N·m (follow manufacturer spec); replace permanently deformed gaskets |
+| Scale formation on membrane surfaces | Calcium and magnesium in feed exceeding solubility at concentrate pH | Pre-treat feed with softening (lime-soda or ion exchange) to reduce Ca²⁺ and Mg²⁺ to <50 mg/L; implement EDR (polarity reversal every 15-30 minutes) |
+| Power supply trips on overcurrent | Short circuit from membrane breach allowing direct electrode-to-electrode current path | Inspect stack for membrane damage; replace breached membranes; verify that no debris bridges between electrodes |
 
 ## Variations and Alternatives
 
@@ -153,12 +165,12 @@ Electrodialysis is most economically competitive for brackish water desalination
 
 ## References
 
-- [Chemistry](chemistry.md) — parent capability
+- [Chemistry](index.md) — parent capability
 - [Chemistry Domain](./index.md) — domain overview and related capabilities
 - [Electrolysis](electrolysis.md) — upstream dependency (tool)
-- [Desalination](desalination.md) — downstream capability
-- [Hydroponic pH Control](hydroponic-ph-control.md) — downstream capability
-- [Blue Energy (Osmotic Power)](blue-energy.md) — downstream capability
+- [Desalination](../water/desalination.md) — downstream capability
+- [Hydroponic pH Control](../agriculture/hydroponic-ph-control.md) — downstream capability
+- [Blue Energy (Osmotic Power)](../energy/blue-energy.md) — downstream capability
 
 Electrodialysis builds on the electrolysis capability — the membrane and electrode technology are shared. The purified water and concentrated ion streams it produces enable a range of downstream applications from desalination to industrial chemistry.
 

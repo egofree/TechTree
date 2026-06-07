@@ -181,6 +181,27 @@ Advanced thermostats cover three specialized niches: shape memory alloy actuator
 - Needs blackbody calibration source for reliable accuracy
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| SMA actuator does not return when cooled | Hysteresis too wide (20-40°C gap between heating and cooling transitions) or bias spring too weak | Increase the bias spring force to overcome the hysteresis and fully deform the cold-phase martensite. If the spring cannot provide enough force, use a shorter SMA wire (less force recovery) or a design with two antagonistic SMA actuators (one heats while the other cools) |
+| SMA actuator drifts after hundreds of cycles | Fatigue — repeated phase transitions accumulate slip at grain boundaries, degrading the shape memory effect | Limit cycle life to the manufacturer's rated value (typically 10,000-100,000 cycles depending on strain amplitude). Reduce the imposed strain (how far the wire is stretched in the cold state) to below 4% for maximum cycle life. Replace the wire element when drift exceeds acceptable limits |
+| Quartz crystal frequency reading unstable | Reference oscillator drifting or crystal not properly thermally coupled to the target | Verify the reference oscillator (AT-cut crystal) is stable to ±10 ppm over the operating temperature range. Ensure the sensing crystal (Y-cut or LC-cut) is in direct thermal contact with the measured medium — an air gap adds thermal lag. Shield the crystal from vibration (mechanical stress shifts the resonant frequency) |
+| IR pyrometer reads too low on shiny metal | Wrong emissivity setting — polished metals have ε = 0.05-0.2, not the default 0.95 | Set the emissivity correctly for the target material and surface condition. Polished aluminum: ε ≈ 0.05. Oxidized aluminum: ε ≈ 0.2-0.4. Painted surface: ε ≈ 0.9-0.95. If the emissivity is unknown or variable, use a two-color (ratio) pyrometer which is emissivity-independent, or apply a small patch of high-emissivity paint (ε ≈ 0.95) to the target |
+| IR pyrometer reading drifts with ambient temperature | Detector self-heating or reference junction not at the measured temperature | The thermopile detector measures the difference between target and detector temperatures. If the detector temperature drifts (from electronics heat or sunlight), the reading shifts. Ensure the detector housing is temperature-stabilized. Use the built-in reference sensor (thermistor or RTD on the detector package) and verify it reads the detector temperature correctly |
+| Quartz crystal sensor reads temperature shifts when none occurred | Crystal aging or stress from mounting | New crystals age faster (frequency shifts of 5-10 ppm/year in the first year, declining to 1-3 ppm/year after). Pre-age crystals by baking at 125°C for 48 hours before use. Verify the crystal mounting does not apply stress — use compliant leads (not rigid solder joints directly to the crystal pins) |
+| IR pyrometer sees reflections from hot objects nearby | Stray radiation from furnaces, lamps, or heaters entering the optics | Install a sighting tube (baffled, matte-black interior) between the pyrometer lens and the target to restrict the field of view. Verify the pyrometer sees only the target by checking its field of view diameter at the working distance (typically 1/30 to 1/50 of the distance) |
+
+## Safety & Hazards
+
+- **Laser safety (interferometer and pyrometer sources)**: HeNe lasers used in interferometer calibration and some IR pyrometer light sources are typically Class II (< 1 mW visible) or Class IIIa (< 5 mW). Direct beam exposure can cause retinal damage. Never look into the laser aperture. Use beam stops and enclose beam paths where possible. Label the work area with appropriate laser warning signs.
+- **High-temperature targets**: IR pyrometers are often aimed at targets above 500°C. Surrounding equipment and fixtures near the target may also be hot enough to cause burns. Use thermal barriers and maintain safe distances. A blackbody calibration source at 1000°C radiates enough heat to ignite paper at 1 m distance.
+- **IR-transparent optics hazards**: Germanium lenses and zinc selenide windows used in IR pyrometers are brittle and can shatter if dropped. Germanium is also a heavy metal with toxicity concerns if ingested or inhaled as dust. Handle optics with care, wear gloves, and do not grind or machine germanium without respiratory protection.
+- **NiTi (Nitinol) alloy processing**: Melting nickel and titanium together requires temperatures above 1300°C in an inert atmosphere. Titanium powder is pyrophoric (ignites spontaneously in air). Nickel and its compounds are skin sensitizers and suspected carcinogens. Melt NiTi in sealed, argon-purged furnaces only. Do not grind or machine NiTi without dust collection and respiratory protection.
+- **Blackbody calibration sources**: Operating at temperatures up to 1200°C, these sources present severe burn and fire hazards. Enclose the hot cavity in a heat-shielded housing. Allow adequate cooling time (2-4 hours for a 1200°C source) before opening or handling. Use infrared viewers or cameras, never direct visual observation, to check cavity conditions at high temperature.
+
+
 ---
 
 *Part of [Thermostats & Temperature Control](./thermostat.md) • [Measurement](./index.md) • [All Domains](../index.md)*

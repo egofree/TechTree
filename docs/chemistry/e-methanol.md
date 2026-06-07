@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.e-methanol
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Water Electrolysis`](water-electrolysis.md), [`Energy Storage & Diversification`](storage.md)
-> **Enables**: [`Energy`](energy.md)
+> **Dependencies**: [`Water Electrolysis`](water-electrolysis.md), [`Energy Storage & Diversification`](../energy/storage.md)
+> **Enables**: [`Energy`](../energy/index.md)
 > **Timeline**: Years 30-50
 > **Outputs**: methanol
 > **Critical**: No
@@ -33,7 +33,7 @@ The synthesis reaction is deceptively simple: CO₂ + 3H₂ → CH₃OH + H₂O.
 ### Equipment
 
 - [Water Electrolysis](water-electrolysis.md) — material dependency
-- [Energy Storage & Diversification](storage.md) — material dependency
+- [Energy Storage & Diversification](../energy/storage.md) — material dependency
 - Feed gas compressors and purification system
 - Methanol synthesis reactor (tubular or quench type)
 - Distillation columns for product purification
@@ -72,13 +72,21 @@ E-methanol production couples two independent processes: green hydrogen producti
 
 ### Process Parameters
 
-| Parameter | Range | Notes |
+| Parameter | Value | Notes |
 |-----------|-------|-------|
-| Reactor pressure | High (50-100 bar) | Higher pressure favors conversion |
-| Reactor temperature | Moderate (200-300°C) | Balance kinetics vs. equilibrium |
-| H₂:CO₂ ratio | Stoichiometric excess | Hydrogen recycle required |
-| Per-pass conversion | Moderate | Recycle loop needed for acceptable overall yield |
-| Catalyst life | Years | Sensitive to sulfur and chlorine poisoning |
+| Reactor pressure | 50-80 bar (typical), up to 100 bar | Higher pressure shifts equilibrium toward methanol; every 10 bar increase raises per-pass conversion ~1-2% |
+| Reactor temperature | 220-280°C (Cu/ZnO/Al₂O₃) | Below 200°C kinetics too slow; above 300°C side reactions (DME, higher alcohols) increase and equilibrium worsens |
+| H₂:CO₂ molar feed ratio | 3:1 stoichiometric, operated at 3.5-4:1 | Excess H₂ suppresses CO formation via RWGS and improves per-pass conversion |
+| Per-pass CO₂ conversion | 15-25% (single pass) | Equilibrium-limited; recycle loop brings overall conversion to 95-99% |
+| Space velocity (GHSV) | 5,000-15,000 h⁻¹ | Higher throughput per catalyst volume but lower per-pass conversion |
+| Catalyst formulation | Cu/ZnO/Al₂O₃ (typical 60:30:10 wt%) | Copper is the active site; ZnO stabilizes Cu dispersion; Al₂O₃ provides structural support |
+| Catalyst life | 2-5 years | Deactivation by sintering (thermal), sulfur poisoning (>0.1 ppm H₂S kills Cu), chlorine poisoning |
+| Crude methanol from separator | 70-80% CH₃OH, 18-28% H₂O, 1-2% impurities | Dissolved gases (H₂, CO₂) and trace DME, higher alcohols |
+| Distillation product purity | >99.5% (chemical grade), >99.85% (fuel grade) | Two-column distillation: column 1 removes light ends, column 2 separates methanol from water |
+| Electrolysis energy | 50-55 kWh/kg H₂ (PEM), 4.5-5.5 MWh/tonne CH₃OH | Dominates total process energy; electrolysis is 70-80% efficient (LHV basis) |
+| Overall electricity-to-methanol efficiency | 40-55% (LHV) | Electrolysis (75%) × synthesis (65%) × distillation (90%) ≈ 44% |
+| Cooling duty | 40-50 MJ/tonne CH₃OH (reactor heat removal) | Exothermic reaction: ΔH = −49.5 kJ/mol CH₃OH at 250°C |
+| Recycle-to-fresh-feed ratio | 3:1 to 7:1 | Higher recycle improves conversion but increases compression energy |
 
 ## Safety Considerations
 
@@ -136,11 +144,15 @@ Key scaling challenges: the energy balance is dominated by hydrogen production �
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Low methanol yield | Catalyst deactivation or sub-optimal temperature | Analyze catalyst; adjust reactor temperature profile |
-| High water in product | Excess CO₂ in feed or inadequate distillation | Adjust H₂:CO₂ ratio; check distillation column operation |
-| Catalyst deactivation | Sulfur or chlorine in feed gases | Improve gas purification; add guard beds upstream |
-| High pressure drop | Catalyst fines or liquid flooding in reactor | Replace catalyst; check for condensation in catalyst bed |
-| Excessive byproducts | Wrong temperature or catalyst selectivity | Lower reactor temperature; check catalyst formulation |
+| Low per-pass conversion (<10%) | Catalyst deactivation (sintering above 300°C, sulfur/chlorine poisoning), reactor temperature outside 220-280°C window, or H₂:CO₂ ratio below stoichiometric 3:1 | Test catalyst activity in lab reactor; check guard bed ZnO for sulfur breakthrough (should stay <0.1 ppm H₂S); verify feed ratio at 3.5-4:1 H₂:CO₂; adjust reactor inlet temperature to 230-240°C |
+| High water in product (>25% in crude) | Excess CO₂ in feed shifting equilibrium toward water formation via RWGS, or distillation column 2 flooding/reboiler failure | Adjust H₂:CO₂ ratio to 3.5-4:1; verify distillation column 2 reflux ratio (target 2-3:1); check reboiler steam supply; inspect column packing for fouling |
+| Rapid catalyst deactivation (days to weeks) | Sulfur breakthrough from failed guard bed, chlorine from CO₂ capture solvent carryover, or thermal sintering from temperature excursions >300°C | Replace guard bed ZnO (target <0.1 ppm H₂S after guard); install activated carbon bed for chloride removal; review reactor temperature control — add high-temp trips at 285°C |
+| High reactor pressure drop (>150% design) | Catalyst pellet crushing (thermal cycling), liquid condensation in catalyst bed from inadequate preheat, or carbon deposition from Boudouard reaction | Check feed gas preheat temperature (must be above dew point at operating pressure, typically >200°C at 70 bar); screen catalyst for fines during shutdown; minimize thermal cycling during startups |
+| Excessive DME or higher alcohols (>0.5% in crude) | Reactor temperature too high (>280°C), excess acidity in catalyst, or prolonged contact time from low space velocity | Reduce reactor temperature to 240-260°C; increase gas hourly space velocity to 8,000-12,000 h⁻¹; verify catalyst formulation (Cu:ZnO:Al₂O₃ ratio) |
+| Rising recycle compressor power draw | Inert gas buildup (argon, N₂, CH₄) in recycle loop from insufficient purge rate, causing higher molar flow through compressor | Increase purge rate (target purge 2-5% of recycle flow); analyze purge gas composition by GC to confirm inert accumulation; check CO₂ feed purity for nitrogen contamination |
+| Methanol off-spec purity (<99.5%) | Distillation column upset, dissolved gas carryover, or catalyst leaching (copper in product) | Check column 1 for light-end removal (dissolved H₂, CO₂, DME); verify column 2 reflux ratio; test product for trace metals by ICP-OES; if copper detected, catalyst is leaching — plan replacement |
+| Hydrogen leak detected in compressor area | Seal failure on reciprocating compressor, flange leak at high-pressure connection, or instrument fitting fatigue | Isolate and depressurize affected section; replace compressor seals (target <10 ppm H₂ at seal housing); retorque flange bolts; hydrogen auto-ignites at 500°C but has ignition energy of only 0.017 mJ — treat all leaks as fire hazards |
+| Crude methanol separator carryover (liquid in recycle gas) | Separator level too high, demister pad fouled, or foaming from surface-active byproducts | Reduce separator liquid level to 30-50% of design; inspect and clean demister pad; add antifoam agent if foaming persists; verify separator temperature (must cool to 30-40°C for adequate condensation) |
 
 ## Variations and Alternatives
 
@@ -153,11 +165,11 @@ E-methanol is part of the broader "power-to-X" concept where electrical energy i
 
 ## References
 
-- [Chemistry](chemistry.md) — parent capability
+- [Chemistry](index.md) — parent capability
 - [Chemistry Domain](./index.md) — domain overview and related capabilities
 - [Water Electrolysis](water-electrolysis.md) — upstream dependency (material)
-- [Energy Storage & Diversification](storage.md) — upstream dependency (material)
-- [Energy](energy.md) — downstream capability
+- [Energy Storage & Diversification](../energy/storage.md) — upstream dependency (material)
+- [Energy](../energy/index.md) — downstream capability
 
 E-methanol represents the intersection of electrochemistry (water splitting for hydrogen), capture technology (CO₂ concentration), and catalytic synthesis. It is notable because it produces a room-temperature liquid fuel from gaseous feedstocks, solving the storage and transport challenges of both hydrogen and CO₂.
 

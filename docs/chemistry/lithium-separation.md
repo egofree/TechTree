@@ -147,11 +147,15 @@ Key scaling challenges: the decrepitation step is energy-intensive (heating to 1
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Low lithium extraction from spodumene | Incomplete α→β conversion during decrepitation | Check kiln temperature profile; increase residence time at >1050°C |
-| High impurity levels in Li₂CO₃ | Insufficient pH adjustment during purification | Raise pH to 12 with lime; add second impurity precipitation stage |
-| Li₂CO₃ crystals too fine (poor filtration) | Carbonation temperature too low or addition rate too fast | Heat solution to 90°C before adding Na₂CO₃; add slowly with stirring |
-| Magnesium breakthrough (brine route) | Incomplete Mg(OH)₂ precipitation | Add excess lime; check pH is above 10.5 before proceeding to carbonation |
-| Low Li concentration in final brine pond | Cold climate reducing evaporation rate | Extend evaporation time; consider covering ponds with greenhouse structures |
+| Low lithium extraction from spodumene (<80%) | Incomplete α→β conversion during decrepitation — kiln temperature below 1050°C, insufficient residence time, or uneven heating in rotary kiln | Check kiln temperature profile with embedded thermocouples (must hold >1050°C for ≥30 min); increase kiln rotation speed to improve mixing; verify β-spodumene content by XRD (target >95% conversion); increase residence time to 60-90 min |
+| High impurity levels in Li₂CO₃ (Na >200 ppm, Fe >10 ppm) | Insufficient pH adjustment during purification — iron precipitates above pH 3, aluminum above pH 4.5, but if pH not raised high enough, residual dissolved impurities carry into carbonation | Raise pH to 10-12 with Ca(OH)₂ in stages; add second impurity precipitation stage; filter through 1 μm cartridge filter before carbonation; test filtrate by ICP-OES (Fe <1 ppm, Al <1 ppm before proceeding) |
+| Li₂CO₃ crystals too fine for filtration (slower than 50 L/m²·hr) | Carbonation temperature too low (<80°C), Na₂CO₃ addition rate too fast (nucleation dominates over crystal growth), or insufficient stirring | Heat solution to 85-90°C before adding Na₂CO₃; add Na₂CO₃ slowly over 60-90 min with vigorous stirring; hold at 90°C for 30 min after addition to allow crystal ripening; Li₂CO₃ solubility decreases with temperature (unusual — 1.3 g/100 mL at 20°C, 0.7 g/100 mL at 100°C) |
+| Magnesium breakthrough in brine route (Mg >50 ppm in carbonation feed) | Incomplete Mg(OH)₂ precipitation — pH below 10.5, insufficient lime, or Mg(OH)₂ sludge resuspending during transfer | Add Ca(OH)₂ in excess (1.2-1.5× stoichiometric for Mg content); verify pH >10.5 before proceeding; allow Mg(OH)₂ sludge to settle 4-6 hours before decanting; consider second lime treatment stage for brines with Mg:Li ratio >10:1 |
+| Low Li concentration in final brine pond (<1.0% Li) | Cold or humid climate reducing evaporation rate (target 2000-3000 mm/year in arid climates); excessive rainfall diluting ponds; or brine leakage through pond liner | Extend evaporation time; cover ponds with greenhouse structures (5-10°C temperature increase); repair or replace HDPE liner if leakage detected; consider supplemental mechanical evaporation (spray evaporators) for cold climates |
+| Li₂CO₃ recovery below 75% (hard rock route) | Cumulative losses at multiple stages: flotation (70-85% recovery), decrepitation dust carryover, leaching (<90% extraction), impurity precipitation co-losses (1-3% per stage), and carbonation filtrate Li loss | Monitor Li in all waste streams by ICP-OES; recycle carbonation mother liquor to leaching circuit; optimize flotation pH to 8-9 with fatty acid collector; target overall recovery 80-85% — if below 75%, identify which stage is losing the most lithium |
+| Spodumene flotation concentrate below 6% Li₂O | Ore grade too low (<1% Li₂O), grind size too coarse (>150 μm, poor liberation), or collector dosage insufficient | Regrind to <75 μm for better mineral liberation; increase fatty acid collector to 300-500 g/tonne; adjust pH to 8-9 with Na₂CO₃; add depressant (sodium silicate at 500 g/tonne) to suppress quartz gangue |
+| LiOH product absorbs CO₂ during storage (CO₂ content >0.5%) | Lithium hydroxide is a strong base that reacts with atmospheric CO₂: 2LiOH + CO₂ → Li₂CO₃ + H₂O; storage containers not airtight | Store LiOH·H₂O in sealed, air-tight containers with desiccant; purge container headspace with dry N₂ before sealing; minimize open-time during dispensing; test CO₂ content by TGA (thermogravimetric analysis) before use in battery manufacturing |
+| Sulfuric acid leaching autoclave corrosion | 93% H₂SO₄ at 250°C attacks standard stainless steel — pitting and stress corrosion cracking at welds | Use rubber-lined steel or HDPE-lined vessels for leaching; inspect welds monthly for cracking; monitor acid concentration — dilution below 85% reduces extraction efficiency; replace lining per manufacturer schedule (typically 2-5 years) |
 
 ## Variations and Alternatives
 
@@ -168,7 +172,7 @@ For a bootstrapping civilization, the simplest lithium source would be pegmatite
 
 ## References
 
-- [Chemistry](chemistry.md) — parent capability
+- [Chemistry](index.md) — parent capability
 - [Chemistry Domain](./index.md) — domain overview and related capabilities
 - [Electrolysis](electrolysis.md) — upstream dependency (tool)
 

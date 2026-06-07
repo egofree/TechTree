@@ -2,7 +2,7 @@
 
 > **Node ID**: metals.wire-drawing
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`Electricity Generation & Distribution`](electricity.md), [`Wire Rope & Steel Cable`](wire-rope.md)
+> **Dependencies**: [`Electricity Generation & Distribution`](../energy/electricity.md), [`Wire Rope & Steel Cable`](wire-rope.md)
 > **Enables**: [`Iron & Steel Production`](iron-steel.md), [`Primary Metal Forming`](forming.md)
 > **Timeline**: Years 8-18
 > **Outputs**: drawn-wire, copper-wire, steel-wire, fine-gauge-wire
@@ -33,7 +33,7 @@ Wire gauges are standardized by systems such as AWG (American Wire Gauge), SWG (
 
 ### Equipment
 
-- [Electricity Generation & Distribution](electricity.md) — material dependency
+- [Electricity Generation & Distribution](../energy/electricity.md) — material dependency
 - [Wire Rope & Steel Cable](wire-rope.md) — material dependency
 - Draw bench (for single-length draws of large diameter rod) or bull block / multi-die drawing machine (for continuous drawing of smaller wire)
 - Drawing dies mounted in die holders with water or air cooling
@@ -97,6 +97,42 @@ Wire gauges are standardized by systems such as AWG (American Wire Gauge), SWG (
 | Number of passes | 5-20+ | Depends on starting rod diameter and final wire gauge |
 
 A typical copper wire drawing schedule from 8 mm rod to 1.0 mm wire might use 9 dies with area reductions of 20-30% per pass. The wire exits the first die at about 7.1 mm and the last die at 1.0 mm. The drawing speed increases from roughly 1 m/s at the first die to about 50 m/s at the last die, because the same mass of wire must travel faster as the cross-section decreases.
+
+### Copper Wire Drawing Schedule (8 mm rod to 1.0 mm)
+
+| Pass | Entry Ø (mm) | Exit Ø (mm) | Area Reduction (%) | Drawing Speed (m/s) | Drawing Force (N) |
+|------|---------------|-------------|---------------------|---------------------|-------------------|
+| 1 | 8.00 | 7.13 | 20.5% | 1.0 | 2200-2800 |
+| 2 | 7.13 | 6.35 | 20.6% | 1.3 | 1750-2200 |
+| 3 | 6.35 | 5.65 | 20.8% | 1.6 | 1400-1750 |
+| 4 | 5.65 | 5.03 | 20.9% | 2.0 | 1100-1400 |
+| 5 | 5.03 | 4.48 | 20.9% | 2.5 | 870-1100 |
+| — | — | — | **Anneal at 400-500°C** | — | — |
+| 6 | 4.48 | 3.99 | 20.7% | 3.2 | 690-870 |
+| 7 | 3.99 | 3.55 | 20.8% | 4.0 | 540-690 |
+| 8 | 3.55 | 3.16 | 20.7% | 5.0 | 430-540 |
+| 9 | 3.16 | 2.50 | 37.3% (two-pass) | 8.0 | 340-430 |
+
+**Note**: Passes 1-5 accumulate about 60% total cold work. An intermediate anneal at 400-500°C for 30-60 minutes restores ductility for the remaining passes. Without annealing, wire breaks increase dramatically after pass 5.
+
+### Drawing Force Calculation
+
+The drawing force F can be estimated: F = σ_d × A_f, where σ_d is the drawing stress and A_f is the final wire cross-section. The drawing stress is approximately 40-70% of the wire's flow stress (which increases with each pass due to work hardening). For copper rod with a yield strength of 200 MPa, the first-pass drawing stress is roughly 80-140 MPa, giving a drawing force of ~2200-2800 N for an 8 mm rod reduced to 7.13 mm.
+
+### AWG Wire Gauge Reference
+
+| AWG | Diameter (mm) | Cross-section (mm²) | Resistance (Ω/km) | Max Current (A, chassis) |
+|-----|---------------|----------------------|--------------------|--------------------------|
+| 10 | 2.588 | 5.26 | 3.277 | 55 |
+| 12 | 2.053 | 3.31 | 5.211 | 41 |
+| 14 | 1.628 | 2.08 | 8.286 | 32 |
+| 16 | 1.291 | 1.31 | 13.17 | 22 |
+| 18 | 1.024 | 0.823 | 20.95 | 16 |
+| 20 | 0.812 | 0.518 | 33.31 | 11 |
+| 22 | 0.644 | 0.326 | 52.96 | 7 |
+| 24 | 0.511 | 0.205 | 84.22 | 3.5 |
+
+**Why AWG is logarithmic**: Every 6-gauge decrease doubles the cross-section area (and current capacity). Every 3-gauge decrease doubles the cross-section by √2. This allows simple mental math for wire substitution.
 
 ## Safety Considerations
 
@@ -167,14 +203,18 @@ Wire drawing also produces shaped wire (square, hexagonal, flat) by using dies w
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Wire breakage | Die wear, inadequate lubrication, surface defects in rod, too-high reduction per pass | Replace worn die; check and improve lubrication; inspect rod quality; reduce per-pass reduction |
-| Surface scoring (die marks) | Worn or damaged die, dirty lubricant, hard particles on wire surface | Replace die; filter or replace lubricant; clean rod before drawing |
-| Center burst (chevron cracks inside wire) | Too-high reduction per pass, too-steep die angle, insufficient back tension | Reduce per-pass reduction; use a die with a shallower angle; apply back tension |
-| Excessive ovality (out-of-round wire) | Die worn out-of-round, excessive bearing wear, misaligned die holder | Replace die; check die holder alignment; use a die with longer bearing length |
-| Wire too hard after drawing | Excessive cold work without intermediate annealing | Reduce the number of passes between anneals; schedule intermediate anneals |
-| Copper wire conductivity too low | Impurities in the rod, excessive cold work not annealed out | Use higher purity rod; anneal the wire to restore conductivity |
-| Lubricant residue on wire | Excessive lubricant, wrong lubricant type, insufficient wipe-off after die | Reduce lubricant flow; switch to a cleaner lubricant; add a wiper die after the drawing die |
-| Die life too short | Abrasive rod surface, insufficient lubrication, wrong die material for the application | Clean rod surface before drawing; improve lubrication; upgrade die material (WC to PCD or PCD to diamond) |
+| Wire breakage at die | Die wear (bore enlarged, bearing damaged); inadequate lubrication; surface defects in rod; too-high reduction per pass | Replace worn die (bore size >2% over nominal); check and improve lubrication flow (10-15 L/min per die for wet drawing); inspect rod quality with magnifying glass; reduce per-pass reduction to 15-20% |
+| Surface scoring (die marks) | Worn or damaged die, dirty lubricant, hard particles on wire surface | Replace die; filter or replace lubricant (filter to 5 μm); clean rod with acid pickle or mechanical descaling before drawing |
+| Center burst (chevron cracks inside wire) | Too-high reduction per pass (>40%), too-steep die angle (>24°), insufficient back tension | Reduce per-pass reduction to 20-30%; use a die with 12-18° included angle; apply 5-15% back tension |
+| Excessive ovality (out-of-round wire) | Die worn out-of-round, excessive bearing wear, misaligned die holder | Replace die; check die holder alignment with dial indicator (runout <0.05 mm); use a die with longer bearing length (0.5-1.0× wire diameter) |
+| Wire too hard after drawing | Excessive cold work without intermediate annealing (>50% total reduction) | Schedule intermediate anneals at 300-650°C (copper) or 600-750°C (steel); limit total reduction between anneals to 40-60% |
+| Copper wire conductivity too low | Impurities in the rod (>0.01% total); excessive cold work not annealed out; contaminated lubricant residue | Use higher purity rod (electrolytic tough pitch, >99.9% Cu); anneal the wire at 400-500°C for 30-60 min to restore conductivity; clean lubricant residue with solvent wipe |
+| Lubricant residue on wire | Excessive lubricant flow, wrong lubricant viscosity, insufficient wipe-off after die | Reduce lubricant flow; switch to lower viscosity emulsion; add a wiper die or air knife 100-200 mm after the drawing die |
+| Die life too short (<10 tonnes for WC) | Abrasive rod surface (mill scale, sand); insufficient lubrication; wrong die material for the wire type | Clean rod surface before drawing (acid pickle + rinse + lime coat for steel); improve lubrication; upgrade die material (WC to PCD for 0.5-2 mm, PCD to diamond for <0.5 mm) |
+| Wire wraps unevenly on spool | Tension too low (loose coils) or too high (tight, overlapping); capstan speed mismatch | Adjust spooler tension to 5-15% of wire breaking load; verify capstan speed ratio matches die reduction ratio within ±1% |
+| Die heating (die too hot to touch) | Insufficient cooling; drawing speed too high for the die size | Add water cooling to die holder (2-5 L/min); reduce drawing speed by 20-30%; check die bore is not partially blocked |
+| Wire diameter drifts toward upper tolerance | Die bore wearing progressively (normal wear); wire temperature increasing | Track die bore by measuring wire diameter every 5-10 tonnes; replace die when wire reaches +75% of upper tolerance; monitor and control wire temperature |
+| "Crowning" (wire thicker in middle than at ends) | Die bearing too short; wire speed fluctuations | Use die with longer bearing (0.8-1.0× wire diameter); stabilize motor speed (±0.5% regulation) |
 
 ## Variations and Alternatives
 
@@ -190,9 +230,9 @@ Store rod stock by material and diameter in racks or on spools, protected from c
 
 ## References
 
-- [Metals](metals.md) — parent capability
+- [Metals](index.md) — parent capability
 - [Metals Domain](./index.md) — domain overview and related capabilities
-- [Electricity Generation & Distribution](electricity.md) — upstream dependency (material)
+- [Electricity Generation & Distribution](../energy/electricity.md) — upstream dependency (material)
 - [Wire Rope & Steel Cable](wire-rope.md) — upstream dependency (material)
 - [Iron & Steel Production](iron-steel.md) — downstream capability
 - [Primary Metal Forming](forming.md) — downstream capability

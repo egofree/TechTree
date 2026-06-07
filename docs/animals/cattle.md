@@ -247,6 +247,18 @@ A founding herd of 10-15 cattle (8-10 cows, 2-3 heifers, 1-2 bulls) expands to 4
 | Poor weight gain | Internal parasites, insufficient pasture, low-quality hay | Fecal egg count; deworm with ivermectin; supplement with grain; test hay protein content |
 | Retained placenta | Deficient selenium/vitamin E, difficult birth, infection | Do not force removal; monitor for fever (>39.5°C indicates metritis); antibiotics if infected |
 
+## Why Cattle Are the Centerpiece of Mixed Farming
+
+No other single species produces as many different valuable outputs as cattle. A single cow simultaneously generates milk, meat, leather, tallow, draft power, and manure. Each of these products supports a different part of the settlement economy.
+
+**Why cattle manure matters more than other livestock manure**: A mature cow produces 30-40 kg of manure per day, totaling 8-12 tonnes per year. At 0.5-0.7% nitrogen, 0.3-0.5% phosphorus, and 0.4-0.6% potassium, cattle manure is not the most nutrient-concentrated fertilizer (poultry manure and pigeon guano are richer). What makes cattle manure valuable is volume and availability. A 20-cow dairy herd produces 160-240 tonnes of manure per year, enough to fertilize 5-15 hectares of cropland. The manure also adds organic matter to the soil, improving water retention, microbial activity, and soil structure in ways that synthetic fertilizers cannot replicate.
+
+**Why pasture-fed beef takes 18-30 months**: Cattle are ruminants, and rumen fermentation is slower than monogastric digestion. Feed passes through a cow in 48-72 hours, compared to 24 hours for a pig. The rumen microbial population breaks down cellulose, but this process is energy-intensive: roughly 15-20% of gross feed energy is lost as methane and heat during fermentation. A cow on good pasture gains 0.7-1.0 kg/day, while a pig on grain gains 0.6-0.8 kg/day. The cow's gain comes from cheaper feed (grass), but it takes longer to reach slaughter weight because the energy density of grass (8-10 MJ/kg DM) is much lower than grain (13-14 MJ/kg DM).
+
+**Why dairy farming requires twice-daily commitment**: Milk synthesis in the udder is continuous, but milk secretion is pressure-dependent. As the udder fills, pressure builds and signals the mammary cells to slow production. Skipping a milking signals the cow to reduce total output. After 3-4 skipped milkings, production drops 10-20% and may not fully recover. This is why dairy farming is the most labor-intensive livestock enterprise: the milking schedule is inflexible, 365 days per year, rain or shine. In exchange, dairy provides daily food and daily cash flow, unlike seasonal crops or annual livestock sales.
+
+**Why body condition scoring matters**: Cattle deposit fat in a predictable sequence: first around the kidneys and pelvis, then over the ribs, finally over the backbone and hip bones. The 9-point body condition scoring system reads this progression in reverse: visible hip bones and backbone mean the cow has exhausted even her internal fat reserves (BCS 2-3). A cow below BCS 4 at calving produces less colostrum, has weaker contractions, and takes longer to rebreed. A cow above BCS 7 is carrying excess fat that increases calving difficulty and reduces milk production. The sweet spot of 5-6 means ribs are felt but not seen, and the backbone has a smooth covering.
+
 ## Safety
 
 **Bull handling**: Never enter a pen with a bull alone. A 800 kg bull charging at 35 km/h delivers massive blunt force. Use a bull staff (rigid pole with snap latch attached to nose ring) for control. Signs of aggression: pawing ground, head rubbing, broadside display, vocalizing. Breeding bulls require dedicated escape-proof pens with heavy gates.

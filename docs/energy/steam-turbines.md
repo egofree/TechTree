@@ -139,7 +139,7 @@ For blades operating below 540°C with relatively simple airfoil profiles, forge
 
 ### Precision Investment Casting (HP Blades with Internal Cooling)
 
-For blades requiring complex internal cooling passages (operating above 540°C in supercritical units), [investment casting](../machine-tools/casting.md) is the only practical manufacturing method:
+For blades requiring complex internal cooling passages (operating above 540°C in supercritical units), [investment casting](../metals/casting.md) is the only practical manufacturing method:
 
 1. **Wax pattern injection**: Inject molten wax (paraffin-microcrystalline blend, 60-80°C) into an aluminum die at 0.1-0.3 MPa. The die contains a soluble wax or ceramic core that defines the internal cooling passage geometry — serpentine channels, pin-fin arrays, and film-cooling holes. Core positioning tolerance: ±0.05 mm.
 2. **Pattern assembly**: Attach individual blade patterns to a central wax sprue (runner tree). Typical tree: 5-25 blade patterns depending on size.
@@ -238,7 +238,7 @@ The turbine casing contains the steam pressure, directs flow through the blade p
 | LP casing | Near-vacuum (0.03-0.1 bar), 40-80°C | Carbon steel fabrication or cast iron | Welded plate construction |
 | Exhaust hood | Vacuum, wet steam | Carbon steel plate, stainless cladding in wet zones | Welded fabrication |
 
-**HP casing casting**: The HP inner casing is one of the largest steel castings in industrial production — a typical 300 MW turbine HP casing weighs 30-60 tonnes as-cast. The [sand casting](../machine-tools/casting.md) process requires:
+**HP casing casting**: The HP inner casing is one of the largest steel castings in industrial production — a typical 300 MW turbine HP casing weighs 30-60 tonnes as-cast. The [sand casting](../metals/casting.md) process requires:
 - Pattern: Large wooden or metal pattern with 1-2% shrinkage allowance, split at the horizontal joint line
 - Mold: Green sand or dry sand mold, chemically bonded (furan resin) for dimensional stability
 - Pouring: Cast steel at 1580-1620°C, poured through multiple gates to ensure uniform fill of the complex thin-walled sections (30-80 mm wall thickness)
@@ -443,7 +443,7 @@ For a bootstrap civilization, the progression is: standalone steam turbine plant
 - [Iron & Steel](../metals/iron-steel.md) — materials for blades and casings
 - [Steelmaking](../metals/steelmaking.md) — large steel castings for HP casings and rotor forgings
 - [Refractory & Specialty Metals](../metals/refractory-specialty.md) — superalloys for high-temperature blades
-- [Metal Casting](../machine-tools/casting.md) — investment casting for blade manufacturing
+- [Metal Casting](../metals/casting.md) — investment casting for blade manufacturing
 - [Bearings & Abrasives](../machine-tools/bearings-abrasives.md) — bearing theory, babbitt lining, journal bearings
 - [Machining](../machine-tools/machining.md) — precision machining of blade profiles and rotor discs
 - [Power Electronics](../electronics/power-electronics.md) — electronic governor controllers and servo systems

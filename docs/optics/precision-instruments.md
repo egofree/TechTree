@@ -35,6 +35,47 @@ Progress through 400 grit (23 μm) and 600 grit (14 μm). Each stage removes the
 
 Cerium oxide (CeO₂) slurry (0.5-3 μm particle size, 5-15% by weight in water) on a pitch lap. The pitch (derived from pine tar or petroleum residues, hardness graded by pen test: soft pitch indents under a 1 kg load in 2-5 seconds at room temperature) conforms to the glass surface under pressure, ensuring uniform contact. Polishing removes the fine-ground surface layer at 0.1-0.5 μm/hour. Duration: 2-8 hours for a 50-100 mm diameter lens. The surface transitions from translucent to transparent. Test by reflecting a point source: a polished surface shows a sharp specular reflection.
 
+## Abrasive & Polishing Compound Specifications
+
+Each stage of lens fabrication uses abrasives of progressively finer grit. Skipping a stage or cross-contaminating between stages is the most common cause of scratches and surface defects.
+
+| Stage | Abrasive | Particle Size (μm) | Removal Rate | Surface Finish | Pit Depth | Time per Stage (100 mm lens) |
+|-------|----------|-------------------|-------------|---------------|-----------|---------------------------|
+| Rough grind | SiC 80 grit | 180-200 | 0.5-2 mm/hr | Rough matte | 50-100 μm | 1-3 hours |
+| Rough grind | SiC 120 grit | 106-125 | 0.3-1 mm/hr | Coarse matte | 30-60 μm | 1-2 hours |
+| Medium grind | SiC 220 grit | 60-75 | 0.1-0.3 mm/hr | Fine matte | 15-30 μm | 30-60 min |
+| Fine grind | SiC 400 grit | 23-28 | 30-100 μm/hr | Translucent | 5-10 μm | 30-60 min |
+| Fine grind | SiC 600 grit | 14-17 | 10-30 μm/hr | Semi-translucent | 2-5 μm | 30-60 min |
+| Fine grind | SiC 1200 grit | 3-5 | 1-5 μm/hr | Translucent | 0.5-1 μm | 15-30 min |
+| Pre-polish | CeO₂ coarse (3 μm) | 2-3 | 0.5-1 μm/hr | Semi-gloss | 0.2-0.5 μm | 30-60 min |
+| Polish | CeO₂ fine (0.5-1 μm) | 0.5-1 | 0.1-0.5 μm/hr | Glossy, transparent | <0.1 μm | 2-8 hours |
+| Final polish | CeO₂ ultra-fine or colloidal silica | 0.02-0.05 | 0.01-0.05 μm/hr | Optical polish | <0.01 μm (atomic-level) | 1-4 hours |
+
+**Critical cross-contamination rule**: Between every grit change, wash the workpiece, the tool, the bench, and your hands. A single grain of 220-grit SiC carried into the 600-grit stage produces a scratch 15-30 μm deep, forcing a return to the 400-grit stage to grind it out. Dedicated wash bottles, separate bench areas, and strict sequence discipline are not optional.
+
+### Polishing Compound Properties
+
+| Compound | Particle Size | pH | Removal Mechanism | Glass Types | Notes |
+|----------|-------------|-----|-------------------|-------------|-------|
+| CeO₂ (cerium oxide) | 0.5-3 μm | 7-9 (alkaline) | Mechanical + chemical (hydrolyzes glass surface) | Borosilicate, crown, flint | Standard optical polishing compound. Fast removal, good surface finish. 5-15% slurry by weight. |
+| Fe₂O₃ (iron oxide / rouge) | 0.5-1 μm | 7 (neutral) | Mechanical | Crown glass, soft glasses | Traditional polish, slower than CeO₂. Produces warm brown residue. Still used for some restoration work. |
+| Al₂O₃ (alumina) | 0.05-1 μm | 7-8 | Mechanical | All glasses | Used for final polishing of hard glasses (fused silica). Very fine grades (0.05 μm) for superpolish. |
+| Colloidal silica | 0.02-0.05 μm | 10-11 (alkaline) | Chemical-mechanical (CMP) | Fused silica, silicon | Produces sub-nanometer surface roughness. Used for lithography optics. Requires constant agitation (particles agglomerate). |
+| ZrO₂ (zirconium oxide) | 0.5-2 μm | 7-8 | Mechanical | Hard glasses, crystals | Used where CeO₂ contamination is unacceptable. Slower than CeO₂. |
+
+### Pitch Hardness Grades
+
+The polishing pitch must be soft enough to conform to the glass surface but firm enough to hold its shape during a polishing stroke. Pitch hardness is tested by pressing a standard conical indenter under a 1 kg load and measuring the depth after a fixed time.
+
+| Pitch Grade | Indentation at 20°C (1 kg, 5 sec) | Working Temperature | Application |
+|-------------|----------------------------------|---------------------|-------------|
+| Soft | 2-4 mm | 15-25°C | Large optics (>200 mm), long radius curves. Conforms well but flows under heavy pressure. |
+| Medium | 1-2 mm | 20-30°C | Standard lenses (50-200 mm). Good balance of conformity and stability. |
+| Hard | 0.3-1 mm | 25-35°C | Small optics (<50 mm), flat work. Holds shape precisely but requires accurate lap shaping. |
+| Very hard (with rosin additive) | <0.3 mm | 30-40°C | Interferometry flats, reference surfaces. Minimal flow. Requires temperature-controlled room. |
+
+Pitch too soft for the working temperature will flow, causing the lap to lose shape during a polishing session. Pitch too hard will not conform to the glass, producing zonal defects (areas of incomplete polishing). Adjust hardness by blending soft pitch with rosin (colophony) to harden, or adding turpentine to soften. Test the blend with the indentation method before committing to a polishing session.
+
 ## Figuring
 
 Figuring corrects the polished surface from a sphere to the desired aspheric profile (paraboloid, hyperboloid, or multi-element correction). Zone tools (pitch laps cut to contact specific annular zones) selectively polish high areas identified by interferometric testing. Each figuring iteration: test → identify high zones → polish with zone tool → retest. A typical 100 mm camera lens requires 3-8 figuring iterations. A lithography-grade lens may require 20-50 iterations over weeks.

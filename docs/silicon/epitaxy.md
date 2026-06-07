@@ -3,7 +3,7 @@
 > **Node ID**: silicon.wafering.epitaxy
 > **Domain**: [Silicon](./index.md)
 > **Dependencies**: See prerequisites
-> **Enables**: [`Dopant & Etch Gases`](dopant-etch-gases.md), [`Wafer Slicing & Polishing`](wafering.md)
+> **Enables**: [`Dopant & Etch Gases`](../chemistry/dopant-etch-gases.md), [`Wafer Slicing & Polishing`](wafering.md)
 > **Timeline**: Years 60-150+
 > **Outputs**: epitaxial_wafers, epitaxial_layers
 > **Critical**: No
@@ -33,7 +33,7 @@ The growth rate in CVD epitaxy is governed by whichever of two processes is slow
 
 ### Equipment
 
-- [Silicon](silicon.md) — material dependency
+- [Silicon](index.md) — material dependency
 - Epitaxial reactor: horizontal or vertical quartz chamber with resistance-heated or RF-induction-heated susceptor
 - Gas delivery system with mass flow controllers for Si source, H₂, dopant, and HCl lines
 - Exhaust gas abatement: burn box or wet scrubber for silane and chlorinated compounds
@@ -85,6 +85,68 @@ The silicon source gas choice involves tradeoffs that affect reactor design and 
 | Dopant Flow | 10 ppm - 1000 ppm | Diluted in H₂; concentration sets epilayer resistivity |
 | H₂ Carrier Flow | 20 - 200 slm | Sets residence time and gas-phase uniformity across susceptor |
 | HCl Etch Rate | 0.1 - 0.5 μm/min | Pre-growth substrate clean; must remove all surface damage |
+
+### Source Gas Comparison
+
+The silicon source gas determines the operating temperature range, growth rate ceiling, and defect mechanisms. Production processes select the source gas based on the required epilayer thickness, autodoping tolerance, and available reactor design.
+
+| Source Gas | Formula | Growth Temp | Typical Rate | Max Practical Rate | Boiling Point | Key Tradeoff |
+|-----------|---------|-------------|-------------|-------------------|---------------|-------------|
+| Silane | SiH₄ | 600-900°C | 0.1-0.5 μm/min | 2.0 μm/min | -112°C | Lowest thermal budget and autodoping, but prone to gas-phase nucleation above 2 μm/min |
+| Dichlorosilane | SiH₂Cl₂ | 900-1100°C | 0.5-2.0 μm/min | 3.0 μm/min | 8.2°C | Most common production source; good balance of rate, quality, and stability |
+| Trichlorosilane | SiHCl₃ | 1100-1200°C | 1.0-3.0 μm/min | 5.0 μm/min | 31.8°C | Highest throughput; chlorine suppresses gas-phase nucleation |
+| Silicon tetrachloride | SiCl₄ | 1150-1250°C | 0.5-1.5 μm/min | 3.0 μm/min | 57.6°C | Historically common; slower but excellent uniformity |
+
+Chlorinated sources (SiHCl₃, SiH₂Cl₂, SiCl₄) generate HCl as a byproduct of surface decomposition. This HCl provides in-situ etching of oxide contaminants and suppresses gas-phase nucleation by etching silicon nuclei before they grow into particles. The tradeoff is higher growth temperature, which increases autodoping from the substrate.
+
+Silane decomposes at lower temperatures but without the protective chlorine etching effect. Silane partial pressure above 0.1% in H₂ at temperatures below 900°C produces gas-phase nucleation: silicon atoms nucleate in the gas stream rather than on the wafer, creating a snowstorm of polysilicon particles that rain onto the growing epilayer. This appears as surface haze. Reduce silane partial pressure, raise temperature, or switch to a chlorinated source.
+
+### Epitaxial Layer Specifications by Application
+
+Different device types demand different epilayer thicknesses, resistivities, and defect tolerances. A CMOS logic wafer needs a thin, lightly-doped epi on a heavily-doped substrate. A power device needs a thick drift region with controlled resistivity.
+
+| Application | Epi Thickness | Resistivity | Doping Config | Max Defect Density | Surface Roughness | Epi/Substrate Example |
+|------------|--------------|-------------|---------------|-------------------|-------------------|----------------------|
+| CMOS logic (advanced, <100nm) | 1-5 μm | 5-30 Ω·cm | p/p+ or n/n+ | <0.1 cm⁻² | <0.5 nm RMS | 10 Ω·cm p-type on 0.01 Ω·cm p+ substrate |
+| CMOS logic (legacy, >250nm) | 5-20 μm | 1-20 Ω·cm | p/p+ | <0.5 cm⁻² | <1 nm RMS | 5 Ω·cm p-type on 0.015 Ω·cm p+ substrate |
+| Power MOSFET (low voltage) | 5-15 μm | 0.5-5 Ω·cm | n/n+ | <1 cm⁻² | <1 nm RMS | 1 Ω·cm n-type on 0.008 Ω·cm n+ substrate |
+| Power device (high voltage, >500V) | 30-100 μm | 10-80 Ω·cm | n/n+ | <0.5 cm⁻² | <1 nm RMS | 30 Ω·cm n-type on 0.01 Ω·cm n+ substrate |
+| Bipolar / BiCMOS | 1-10 μm | 0.1-10 Ω·cm | Various stacks | <0.5 cm⁻² | <0.5 nm RMS | Multi-layer: n-epi on n+ buried layer on p substrate |
+| SiGe HBT (heterojunction) | 0.05-0.5 μm SiGe | — | Graded Ge 0-30% | <0.1 cm⁻² | <0.3 nm RMS | SiGe base layer between Si emitter and collector |
+| Advanced solar (PERC, TOPCon) | 10-30 μm | 0.5-5 Ω·cm | n-type | <5 cm⁻² | <2 nm RMS | Lightly doped n-epi on high-purity n-type substrate |
+
+### Contamination Limits for Epitaxial Layers
+
+Epitaxial layers must meet purity requirements that are stringent even by semiconductor standards, because metallic impurities in the active device region directly degrade transistor performance. The limits below apply to the finished epilayer after growth, measured by spreading resistance profiling (SRP), secondary ion mass spectrometry (SIMS), or surface analysis techniques.
+
+| Impurity | Maximum Concentration | Measurement Method | Effect if Exceeded |
+|----------|----------------------|-------------------|-------------------|
+| Fe (iron) | <5×10¹³ atoms/cm³ (~0.5 ppb) | SIMS, DLTS | Deep-level trap (Ev +0.39 eV); reduces minority carrier lifetime by 10× per decade above limit; increases junction leakage |
+| Cu (copper) | <5×10¹³ atoms/cm³ (~0.5 ppb) | SIMS, TXRF | Diffuses rapidly through Si at process temperatures (>500°C); decorates dislocations and stacking faults; causes junction shorts |
+| Ni (nickel) | <5×10¹³ atoms/cm³ (~0.5 ppb) | SIMS | Silicide formation at defect sites; increases p-n junction leakage current by >10× |
+| Na (sodium) | <1×10¹³ atoms/cm³ (~0.1 ppb) | SIMS, AAS | Mobile ion contamination in gate oxides; shifts MOS threshold voltage by >0.1 V per 10¹² cm⁻² |
+| K (potassium) | <1×10¹³ atoms/cm³ (~0.1 ppb) | SIMS, AAS | Mobile ion contamination; similar effect to sodium in gate dielectrics |
+| Cr (chromium) | <5×10¹³ atoms/cm³ (~0.5 ppb) | SIMS, DLTS | Deep-level trap; reduces carrier lifetime; can form Cr-B pairs in p-type Si that compensate doping |
+| Au (gold) | <1×10¹² atoms/cm³ (~0.01 ppb) | DLTS | Extremely effective recombination center (capture cross-section 10⁻¹⁵ cm²); fatal for bipolar devices even at 10¹² cm⁻³ |
+| O (oxygen) | <5×10¹⁶ atoms/cm³ (~0.25 ppma) | FTIR (1107 cm⁻¹) | Thermal donor formation shifts resistivity; SiO₂ precipitates in epi create defects |
+| C (carbon) | <1×10¹⁶ atoms/cm³ (~0.05 ppma) | FTIR (605 cm⁻¹) | SiC precipitates at >10¹⁷ cm⁻³; nucleates oxidation-induced stacking faults (OSF) |
+| Bulk metals (total) | <1×10¹⁴ atoms/cm³ (~1 ppb) | ICP-MS, GDMS | Sum of all transition metals must not exceed this level for reliable device operation |
+
+These limits assume the epitaxial layer will be used for active device fabrication (transistors, diodes). For solar cell epitaxial layers, metallic impurity tolerances are 10-100× higher (up to 10¹⁵-10¹⁶ atoms/cm³ for individual metals) because solar cells are less sensitive to individual defect sites than nanometer-scale transistors.
+
+### Autodoping Transition Width
+
+The autodoping transition region, where the dopant concentration shifts from substrate level to epi level, is one of the most critical quality metrics for epitaxial wafers. A sharp transition (narrow width) is essential for CMOS latchup prevention and precise junction control.
+
+| Growth Condition | Transition Width | Autodoping Level | Use Case |
+|-----------------|-----------------|-----------------|----------|
+| APCVD, SiHCl₃, 1150°C, 760 Torr | 2-5 μm | High | Thick epi layers (>20 μm), legacy processes |
+| RPCVD, SiHCl₃, 1100°C, 80 Torr | 0.5-1.5 μm | Moderate | Standard CMOS (5-20 μm epi) |
+| RPCVD, SiH₂Cl₂, 1000°C, 50 Torr | 0.3-0.8 μm | Low | Advanced CMOS (<5 μm epi) |
+| RPCVD + undoped buffer, SiH₂Cl₂, 950°C, 40 Torr | <0.3 μm | Very Low | Sub-micron CMOS, latchup-sensitive designs |
+| LPCVD, SiH₄, 850°C, 10 Torr | <0.2 μm | Minimal | Thin epi (<2 μm) for advanced nodes |
+
+The transition width is measured by spreading resistance profiling (SRP) with 20-50 nm depth resolution. The metric reported is the distance over which the dopant concentration changes from 90% of substrate concentration to 110% of target epi concentration.
 
 ## Safety Considerations
 
@@ -166,6 +228,15 @@ Reactor design affects both throughput and film quality. Horizontal reactors (ga
 | Gas-phase nucleation (polysilicon particles on surface) | Silane concentration too high or temperature too low for surface-reaction-limited growth | Reduce silane partial pressure, increase temperature, or switch to chlorinated source (SiHCl₃) |
 | Resistivity out of specification | Dopant gas flow incorrect or gas line contamination | Verify MFC calibration for dopant line; check for leaks in gas delivery; verify carrier gas purity |
 | Poor thickness uniformity | Temperature gradient across susceptor or gas flow asymmetry | Rotate susceptor during growth, adjust gas injection geometry, check susceptor flatness |
+| Pattern-dependent loading (growth rate varies with pattern density) | Localized gas depletion over dense exposed Si areas in selective epitaxy | Adjust DCS/HCl ratio (increase HCl to suppress growth rate on dense features); reduce pressure to 40-80 Torr for more uniform gas transport; design layout with balanced pattern density |
+| SiGe layer relaxation (dislocation network visible in XRD) | Ge concentration exceeds critical thickness (Matthews-Blakeslee limit): >30% Ge in layers >50 nm thick on (100) Si | Grade Ge concentration gradually (ramp from 0% to target over 20-50 nm); keep SiGe layer below critical thickness for target Ge%; reduce growth temperature to 600-750°C to lower strain energy |
+| Carbon contamination in epilayer (>10¹⁶ atoms/cm³) | CO contamination from graphite susceptor degradation, or organic residues on substrate | Replace graphite susceptor if SiC coating is compromised; verify argon purge gas has O₂+H₂O <0.5 ppm; extend N₂ purge cycle to 5+ volume exchanges before growth |
+| Oxygen incorporation in epilayer (>5×10¹⁶ cm⁻³) | Air leak into reactor or moist gas lines; quartz chamber components at high temperature | Helium leak-check all seals (target <10⁻⁶ mbar·L/s); verify H₂ carrier gas purity >99.999%; install moisture trap on gas inlet; check that reactor door seal is clean and undamaged |
+| Epilayer cracking (thick layers, >30 μm) | Thermal mismatch stress during cooling from growth temperature, especially on heavily-doped substrates | Reduce cooling rate to <5°C/min through 800-1000°C range; reduce growth temperature where possible (SiH₂Cl₂ at 950°C instead of SiHCl₃ at 1150°C); use thicker substrate wafers (>775 μm for 300 mm) |
+| Spotty or incomplete growth on some wafers in batch | Gas flow shadowing from upstream wafers, or susceptor temperature not uniform to within ±1°C | Rotate susceptor continuously during growth; check susceptor flatness (<0.1 mm warpage); adjust gas injection angle; for barrel reactors, verify all faces receive equal gas flow |
+| High particle count on finished epi wafers (>50 particles ≥0.3 μm) | Reactor wall deposits flaking during loading/unloading, or dirty wafer carriers | Clean reactor chamber walls with HCl burn-off cycle at 1200°C before production run; replace or clean wafer carriers (ultrasonic clean in DI water + IPA); load wafers in Class 10 environment at load lock |
+| Doping profile spike at epi-substrate interface | Buried layer out-diffusion or autodoping from patterned substrate regions | Reduce growth temperature to minimize diffusion; use lower pressure (40-60 Torr); grow 0.5 μm undoped buffer layer before doped layer; verify substrate has no exposed heavily-doped regions outside device areas |
+| Interfacial oxide detected by ellipsometry | Incomplete HCl pre-etch, or moisture in reactor during temperature transitions | Increase HCl pre-etch to remove >0.3 μm; verify N₂ purge is complete before introducing H₂; check that reactor is leak-tight (O₂ <0.1 ppm at growth temperature); ensure wafers are loaded within 2 hours of last RCA clean |
 
 ## Variations and Alternatives
 
@@ -173,7 +244,6 @@ Reactor design affects both throughput and film quality. Horizontal reactors (ga
 - **Reduced pressure CVD (RPCVD)**: Operates at 50-200 Torr. Better thickness uniformity and lower autodoping. Standard for thin epilayers in advanced CMOS.
 - **Molecular beam epitaxy (MBE)**: Ultra-high vacuum, elemental sources in effusion cells, atomic-layer precision. Growth rates are 0.01-0.1 μm/min. Used for compound semiconductors (GaAs, InP) and heterostructures, not for volume silicon production.
 - **Selective epitaxy**: Epitaxial growth only on exposed silicon areas, not on oxide or nitride. Requires HCl in the gas mixture to suppress nucleation on dielectric surfaces. Used for raised source/drain and finFET structures.
-- **Molecular beam epitaxy (MBE)**: Ultra-high vacuum, elemental sources in effusion cells, atomic-layer precision. Growth rates are 0.01-0.1 μm/min. Used for compound semiconductors (GaAs, InP) and heterostructures, not for volume silicon production.
 - **Epitaxial lateral overgrowth (ELO)**: The epitaxial layer grows vertically from a seed window through a masking layer and then extends laterally over the mask. This technique creates silicon-on-insulator structures without wafer bonding, and is used for integrating photonic devices with CMOS electronics. The lateral growth rate depends on crystal orientation, with growth along <100> directions being fastest.
 - **Liquid phase epitaxy (LPE)**: Grows crystalline layers from a supersaturated metal solution. Historically used for GaAs and other compound semiconductors. Rarely used for silicon because CVD provides better control and purity. Still finds niche applications in specialized compound semiconductor devices.
 
@@ -183,10 +253,16 @@ Defect control is critical because crystal defects propagate directly into the d
 
 ## References
 
-- [Wafer Slicing & Polishing](wafering.md) — parent capability
+- [Wafer Slicing & Polishing](wafering.md) — parent capability for wafer substrate preparation
+- [Silicon Purification](purification.md) — polysilicon feedstock and chlorosilane chemistry
+- [Crystal Growth & Wafering](crystal-growth.md) — CZ and FZ crystal growth, wafer specifications
+- [CZ Pulling](cz-pulling.md) — CZ puller equipment, dopant addition, crystal properties
+- [Basic Semiconductor Devices](basic-devices.md) — device fabrication from epi wafers
 - [Silicon Domain](./index.md) — domain overview and related capabilities
-- [Dopant & Etch Gases](dopant-etch-gases.md) — downstream capability
-- [Wafer Slicing & Polishing](wafering.md) — downstream capability
+- [Dopant & Etch Gases](../chemistry/dopant-etch-gases.md) — PH₃, AsH₃, B₂H₆ gas handling
+- [Hydrogen & Silane](../chemistry/hydrogen-silane.md) — silane production and H₂ supply
+- [Silicon-on-Insulator](soi.md) — SOI wafer production using epitaxial techniques
+- [CMP](../photolithography/cmp.md) — post-epi polishing for SOI wafer finishing
 
 ---
 

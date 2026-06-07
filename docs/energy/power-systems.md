@@ -3,7 +3,7 @@
 > **Node ID**: energy.electricity.power-systems
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: See prerequisites
-> **Enables**: [`Electricity Generation & Distribution`](electricity.md), [`Electrical Measurement Instruments`](electrical-instruments.md), [`Energy Storage & Diversification`](storage.md), [`Heat Engines`](engine.md)
+> **Enables**: [`Electricity Generation & Distribution`](electricity.md), [`Electrical Measurement Instruments`](../measurement/electrical-instruments.md), [`Energy Storage & Diversification`](storage.md), [`Heat Engines`](engine.md)
 > **Timeline**: Years 40-100
 > **Outputs**: clean_power_systems, ups_systems, backup_generators, power_distribution_units, power_quality_monitoring
 > **Critical**: Yes — Electric Power Systems for Semiconductor Fabrication is on the critical path
@@ -180,7 +180,7 @@ Power factor correction in fab power systems requires a careful approach because
 - [Electricity Generation & Distribution](electricity.md) — parent capability
 - [Energy Domain](./index.md) — domain overview and related capabilities
 - [Electricity Generation & Distribution](electricity.md) — downstream capability
-- [Electrical Measurement Instruments](electrical-instruments.md) — downstream capability
+- [Electrical Measurement Instruments](../measurement/electrical-instruments.md) — downstream capability
 - [Energy Storage & Diversification](storage.md) — downstream capability
 
 ### Material Handling

@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.phosphorus
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Silicon Purification`](purification.md), [`Agriculture`](agriculture.md)
-> **Enables**: [`Mineral Acid Production`](acids.md), [`Mining Engineering & Extractive Metallurgy`](mining.md)
+> **Dependencies**: [`Silicon Purification`](../silicon/purification.md), [`Agriculture`](../agriculture/index.md)
+> **Enables**: [`Mineral Acid Production`](acids.md), [`Mining Engineering & Extractive Metallurgy`](../mining/index.md)
 > **Timeline**: Years 15-30
 > **Outputs**: phosphoric-acid, phosphate-fertilizer, phosphorus-compounds
 > **Critical**: No
@@ -29,8 +29,8 @@ Phosphate fertilizers — primarily monoammonium phosphate (MAP), diammonium pho
 
 ### Equipment
 
-- [Silicon Purification](purification.md) — material dependency
-- [Agriculture](agriculture.md) — material dependency
+- [Silicon Purification](../silicon/purification.md) — material dependency
+- [Agriculture](../agriculture/index.md) — material dependency
 - Electric arc furnace for thermal phosphorus production (1500°C)
 - Acid-resistant reaction tanks (rubber-lined steel) for wet-process acidulation
 - Vacuum filtration system (tilting pan filter or belt filter) for phosphogypsum separation
@@ -88,10 +88,10 @@ Two primary routes produce phosphorus compounds: the wet process (acidulation of
 
 This process involves specific hazards requiring trained personnel and protective measures:
 
-- **White phosphorus (P₄)**: Ignites spontaneously in air, causing severe thermal burns. Skin contact leads to deep tissue penetration and necrosis — phosphorus particles embedded in skin continue to burn as they oxidize. Chronic exposure causes jaw bone deterioration (phossy jaw, osteonecrosis). All handling must be done under water or inert atmosphere, with emergency water baths at every workstation.
-- **Phosphine gas (PH₃)**: Generated when phosphides in the rock contact moisture or acid. Extremely toxic (IDLH 50 ppm). Detectors and ventilation are mandatory in areas where phosphine may accumulate.
-- **Sulfuric acid**: Concentrated acid for wet-process acidulation causes severe burns. The acidulation reaction is exothermic and must be temperature-controlled to prevent boilover.
-- **Fluoride release**: Phosphate rock contains 2-4% fluoride, released as HF or SiF₄ during acidulation. Scrubbers are required on all process off-gas streams.
+- **White phosphorus (P₄)**: Ignites spontaneously in air (auto-ignition 30°C), causing severe thermal burns. Skin contact leads to deep tissue penetration and necrosis — phosphorus particles embedded in skin continue to burn as they oxidize. Chronic exposure causes jaw bone deterioration (phossy jaw, osteonecrosis — historically endemic in match factories before red phosphorus substitution). All handling must be done under water or inert atmosphere, with emergency water baths at every workstation. P₄ is insoluble in water but soluble in CS₂ and benzene.
+- **Phosphine gas (PH₃)**: Generated when phosphides in the rock contact moisture or acid. Extremely toxic — IDLH 50 ppm, PEL 0.3 ppm (8-hr TWA), TLV-TWA 0.3 ppm. Detectable by odor at 0.15-2 ppm (decaying fish smell), but olfactory fatigue occurs within minutes. Symptoms: headache, nausea, pulmonary edema at 5-10 ppm; death at >100 ppm. Detectors and ventilation are mandatory in areas where phosphine may accumulate.
+- **Sulfuric acid (93% H₂SO₄)**: Concentrated acid for wet-process acidulation causes severe chemical burns. Dehydration damage continues until acid is diluted or neutralized. The acidulation reaction is exothermic (−285 kJ/mol for Ca₃(PO₄)₂ + 3H₂SO₄) and must be temperature-controlled at 70-80°C to prevent boilover. Add acid to water/rock slurry, never the reverse.
+- **Fluoride release**: Phosphate rock contains 2-4% fluoride, released as HF (PEL 3 ppm, IDLH 30 ppm) or SiF₄ during acidulation. HF causes severe deep-tissue burns that may not be immediately painful but penetrate to bone, binding tissue calcium. Scrubbers (NaOH or water) are required on all process off-gas streams. Calcium gluconate gel must be staged near all fluoride exposure points.
 
 ### Personal Protective Equipment
 
@@ -144,11 +144,14 @@ Key scaling challenges: phosphogypsum management is the dominant waste issue —
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Low P₂O₅ recovery (wet process) | Fine gypsum crystals entraining phosphoric acid | Increase sulfuric acid concentration slightly; reduce agitation speed to promote larger crystals |
-| High sulfate in product acid | Incomplete gypsum filtration | Increase wash water volume; check filter cloth condition for blinding |
-| Phosphine in thermal process area | Moisture contacting phosphide-bearing material | Check raw material moisture; improve gas detection and ventilation |
--| Red phosphorus conversion incomplete | Temperature too low or residence time insufficient | Increase conversion temperature to 300°C; extend hold time; verify inert atmosphere purity
-| Fertilizer granules too soft | Insufficient drying or low reaction temperature | Increase granulator temperature; extend dryer residence time; check ammonia/phosphoric acid ratio
+| Low P₂O₅ recovery in wet process (<85%) | Fine gypsum crystals entraining phosphoric acid, excessive agitation breaking crystals, or sulfuric acid concentration too high (>30%) causing viscous slurry | Increase sulfuric acid concentration to 25-30% (not higher); reduce agitation speed to 40-60 RPM to promote larger dihydrate crystals (target >50 μm length); add crystal habit modifier (sulfonic acid) to promote needle-shaped gypsum that filters faster; check filter cloth — if blinded, backwash with dilute acid |
+| High sulfate in product acid (>3% SO₄) | Incomplete gypsum filtration — filter cloth blinded with fine crystals, insufficient wash water, or filter cake cracking allowing acid bypass | Increase wash water volume to 2-3× cake volume; check filter cloth condition — replace if pore size <10 μm from scaling; maintain vacuum at 0.5-0.7 bar; add flocculant (polyacrylamide at 0.5-2 ppm) to improve crystal settling before filtration |
+| Phosphine gas detected in thermal process area (>0.3 ppm) | Moisture contacting phosphide-bearing material in the furnace charge, or white phosphorus leaking from condensation system and contacting moist air | Check raw material moisture content (target <0.5% H₂O in furnace charge); inspect condensation system water seals for integrity; verify off-gas duct for leaks; evacuate area if PH₃ >5 ppm (IDLH 50 ppm); install continuous PH₃ electrochemical monitors at furnace floor level (PH₃ heavier than air, density 1.18× air) |
+| Red phosphorus conversion incomplete (>0.1% residual white P₄) | Temperature too low (<250°C), residence time insufficient, or inert atmosphere contaminated with O₂ allowing white P₄ to ignite instead of convert | Increase conversion temperature to 280-300°C; extend hold time to 4-8 hours; verify N₂ or CO₂ blanket purity (<100 ppm O₂); test product by CS₂ extraction — white phosphorus dissolves in CS₂, red does not (residual P₄ must be <0.01% for safe handling) |
+| Fertilizer granules too soft (crush strength <30 N) | Insufficient drying (moisture >2%), low reaction temperature during granulation, or wrong N:P ratio in DAP/MAP production | Increase granulator temperature to 80-90°C; extend dryer residence time to achieve <1.5% moisture; check ammonia:phosphoric acid molar ratio (MAP target 1.0, DAP target 2.0); verify product pH (MAP ~4.0, DAP ~7.5) |
+| Electric arc furnace refractory failure | Silica slag eroding carbon refractory lining at >1500°C, or thermal cycling causing spalling; furnace campaign life typically 6-12 months | Limit furnace temperature to 1400-1500°C; maintain consistent charge rate to minimize thermal cycling; monitor slag composition (CaO/SiO₂ ratio 1.0-1.2 minimizes refractory attack); plan refractory replacement when sidewall thickness <50% of original |
+| Fluoride emissions exceeding permit limits | Phosphate rock contains 2-4% fluoride released as HF and SiF₄ during acidulation; scrubber system overloaded or NaOH scrubbing solution depleted | Verify scrubber circulation rate and NaOH concentration (maintain pH >10 in scrubber); add second-stage scrubber if single stage insufficient; recover fluorosilicic acid (H₂SiF₆) as saleable co-product from scrubber liquor; target <10 mg/Nm³ F in stack gas |
+| Phosphogypsum stack leachate contaminating groundwater | Phosphogypsum contains residual phosphoric acid (pH 2-3), heavy metals, and naturally occurring radioactive materials (uranium, radium at 10-30 pCi/g); stack liner compromised | Install double HDPE liner with leachate collection system between layers; monitor groundwater wells downgradient for pH, fluoride, and radioactivity; treat leachate with lime neutralization before discharge; consider beneficial use (wallboard, road base) to reduce stack volume |
 
 ## Variations and Alternatives
 
@@ -169,12 +172,12 @@ Phosphogypsum is the major waste product of wet-process phosphoric acid producti
 
 ## References
 
-- [Chemistry](chemistry.md) — parent capability
+- [Chemistry](index.md) — parent capability
 - [Chemistry Domain](./index.md) — domain overview and related capabilities
-- [Silicon Purification](purification.md) — upstream dependency (material)
-- [Agriculture](agriculture.md) — upstream dependency (material)
+- [Silicon Purification](../silicon/purification.md) — upstream dependency (material)
+- [Agriculture](../agriculture/index.md) — upstream dependency (material)
 - [Mineral Acid Production](acids.md) — downstream capability
-- [Mining Engineering & Extractive Metallurgy](mining.md) — downstream capability
+- [Mining Engineering & Extractive Metallurgy](../mining/index.md) — downstream capability
 
 ### Material Handling
 

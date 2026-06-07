@@ -2,8 +2,8 @@
 
 > **Node ID**: ceramics.thermal-insulation
 > **Domain**: [Ceramics](./index.md)
-> **Dependencies**: [`Energy`](energy.md), [`Cryogenics`](cryogenics.md)
-> **Enables**: [`Basic Glass Production`](basic.md), [`Ceramics & Refractories`](ceramics.md)
+> **Dependencies**: [`Energy`](../energy/index.md), [`Cryogenics`](../cryogenics/index.md)
+> **Enables**: [`Basic Glass Production`](../glass/basic.md), [`Ceramics & Refractories`](index.md)
 > **Timeline**: Years 15-30
 > **Outputs**: mineral-wool, ceramic-fiber, foam-insulation
 > **Critical**: No
@@ -16,7 +16,37 @@ Mineral wool production traces back to the observation that volcanic eruptions p
 
 All three families work by the same physical mechanism: dividing a continuous gas space into many small pockets, which suppresses convection, and interposing solid barriers, which block radiation at high temperatures. The thermal conductivity of mineral wool hovers around 0.035 to 0.040 W/(m K), ceramic fiber around 0.08 to 0.15 W/(m K) at mean temperature, and rigid foam boards around 0.020 to 0.028 W/(m K). Despite the higher thermal conductivity of ceramic fiber at room temperature, its advantage is that it retains insulating capability at temperatures where mineral wool would have long since melted or sintered.
 
+**Thermal conductivity comparison across insulation types**:
+
+| Material | Density (kg/m3) | Thermal Conductivity W/(m K) | Max Service Temp (degrees C) | Typical Use |
+|----------|-----------------|------------------------------|------------------------------|-------------|
+| Polyurethane foam (PIR) | 30-45 | 0.020-0.025 | 120 | Building walls, roofing panels, refrigeration |
+| Extruded polystyrene (XPS) | 25-35 | 0.028-0.034 | 75 | Below-grade walls, foundations, flat roofs |
+| Expanded polystyrene (EPS) | 15-30 | 0.030-0.040 | 75 | Wall cavities, packaging, insulated concrete forms |
+| Glass wool | 10-50 | 0.030-0.040 | 250 (binder limit), 600 (unbonded) | Walls, attics, acoustic panels |
+| Stone wool (mineral wool) | 30-200 | 0.034-0.040 | 750 | Fire-rated walls, high-temp pipe insulation, facades |
+| Calcium silicate board | 180-250 | 0.050-0.080 | 1000 | Industrial pipe insulation, furnace backup |
+| Ceramic fiber blanket (1260 grade) | 64-128 | 0.080-0.120 | 1260 | Furnace linings, kiln backup, expansion joints |
+| Ceramic fiber blanket (1400 grade) | 96-160 | 0.100-0.150 | 1400 | High-temp furnace linings, incinerators |
+| Insulating firebrick (IFB, 23 grade) | 480-560 | 0.150-0.200 | 1260 | Furnace hot face, kiln linings |
+| Insulating firebrick (IFB, 26 grade) | 640-770 | 0.200-0.260 | 1430 | High-temp furnace hot face |
+| Aerogel blanket | 150-200 | 0.012-0.015 | 650 | Subsea pipelines, space-constrained applications |
+| Cellular glass | 120-160 | 0.038-0.050 | 430 | Below-grade, chemical plant pipe insulation |
+
 Water resistance varies significantly between the three families. Mineral wool absorbs water readily and loses most of its insulating value when wet. Hydrophobic treatments (silicone or mineral oil emulsions) are added during production to improve water shedding, but prolonged immersion will eventually saturate the material. Ceramic fiber is hydrophobic by nature and does not absorb water. Closed-cell foam boards resist water absorption due to their cell structure, but the facing material and joint detailing determine whether water can penetrate the insulation system as a whole.
+
+**Thermal conductivity versus temperature for ceramic fiber (1260 grade, 128 kg/m3)**:
+
+| Mean Temperature (degrees C) | Thermal Conductivity W/(m K) |
+|------------------------------|------------------------------|
+| 200 | 0.070 |
+| 400 | 0.095 |
+| 600 | 0.130 |
+| 800 | 0.180 |
+| 1000 | 0.250 |
+| 1200 | 0.350 |
+
+Thermal conductivity of fibrous insulation increases with temperature because radiation heat transfer through the fiber matrix rises sharply at high temperatures. This is why the conductivity triples between 200 and 1000 degrees C even though the fiber structure is unchanged. At temperatures above 800 degrees C, opacifiers (zirconia, chromia) can be added to the fiber to scatter infrared radiation and slow the conductivity increase.
 
 Primary outputs: `mineral-wool`, `ceramic-fiber`, `foam-insulation`.
 
@@ -173,6 +203,12 @@ Transport costs favor regional production. Mineral wool and foam boards are low-
 | Foam collapses or has open cells | Incorrect catalyst ratio. Isocyanate index too low. Moisture contamination in polyol | Check metering pumps. Verify the isocyanate-to-polyol ratio. Dry the polyol tank and purge with dry air |
 | Uneven board density across width | Uneven binder spray distribution or inconsistent fiber landing pattern | Adjust spray nozzle positions. Check suction uniformity under the conveyor. Clean perforated conveyor belt |
 | Formaldehyde odor from cured mineral wool board | Undercured binder. Oven temperature too low or line speed too fast | Raise oven temperature by 10 to 20 degrees C or slow the conveyor |
+| Mineral wool board feels soft and crumbly | Binder undercured or fiber diameter too large (above 10 micrometers) | Verify oven temperature profile across the full width. Check rotor wear: worn rotors produce coarser fibers. Measure fiber diameter under microscope; target 4 to 8 micrometers |
+| Ceramic fiber blanket powders at edges after heat treatment | Needling density too low or the heat treatment temperature exceeded the classification temperature | Increase needling density to at least 20 punctures per square centimeter. Verify the heat treatment furnace does not exceed the rated temperature for the fiber grade. Switch to a higher-alumina grade if service temperature is near the classification limit |
+| Foam board has irregular cell structure (large voids, stratification) | Mixing head pressure too low or surfactant insufficient | Increase mixing head pressure to 100 to 200 bar. Check surfactant concentration in the polyol blend (typically 1 to 2 percent). Verify both component temperatures are within the specified range (18 to 25 degrees C) |
+| Insulation boards warp or bow after cutting | Internal stress from uneven cooling in the curing oven | Reduce oven temperature gradient across the width. Ensure uniform air circulation. Stack cut boards flat under weight for 24 hours to relieve stress |
+| Water absorption test fails for mineral wool | Hydrophobic treatment omitted or insufficient | Check silicone emulsion dosing pump. Add hydrophobic treatment at 0.2 to 0.5 percent by weight of finished product. Test water absorption per ASTM C1104 (less than 1 kg/m2 after 24 hours at 95% RH) |
+| Ceramic fiber classification test shows more than 4% linear shrinkage | Fiber not receiving adequate heat treatment during manufacture, or raw material alumina content below specification | Ensure the blanket receives a heat treatment at 800 to 1100 degrees C during production to stabilize the fiber microstructure. Verify kaolin or alumina-silica blend meets the target Al2O3 content (typically 45 to 62 percent Al2O3 for 1260 to 1400 degree C grades) |
 
 ## Variations and Alternatives
 
@@ -186,16 +222,14 @@ Transport costs favor regional production. Mineral wool and foam boards are low-
 
 ## References
 
-- [Ceramics & Refractories](ceramics.md) — parent capability
+- [Ceramics & Refractories](index.md) — parent capability
 - [Ceramics Domain](./index.md) — domain overview and related capabilities
-- [Energy](energy.md) — upstream dependency (material)
-- [Cryogenics](cryogenics.md) — upstream dependency (material)
-- [Basic Glass Production](basic.md) — downstream capability
-- [Ceramics & Refractories](ceramics.md) — downstream capability
+- [Energy](../energy/index.md) — upstream dependency (material)
+- [Cryogenics](../cryogenics/index.md) — upstream dependency (material)
+- [Basic Glass Production](../glass/basic.md) — downstream capability
+- [Ceramics & Refractories](index.md) — downstream capability
 
 
 ---
-
-*Part of the [Bootciv Tech Tree](../index.md) · [Ceramics](./index.md) · [All Domains](../index.md)*
 
 *Part of the [Bootciv Tech Tree](../index.md) · [Ceramics](./index.md) · [All Domains](../index.md)*

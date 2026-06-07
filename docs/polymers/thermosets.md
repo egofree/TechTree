@@ -275,6 +275,48 @@ Ordered by approximate phase availability:
 | Impact resistance | Brittle (rigid cross-linked network) | Tough to brittle (depends on polymer) |
 | Applications | Electrical insulation, adhesives, composites | Consumer products, packaging, engineering parts |
 
+## Thermoset Material Properties
+
+The table below gives cured properties for the major thermoset families. These values are for neat (unfilled) resins unless noted. Filler and fiber reinforcement can dramatically increase strength and stiffness at the cost of brittleness.
+
+**Cured resin properties (unfilled unless noted)**:
+
+| Resin | Tensile Strength (MPa) | Tensile Modulus (GPa) | Elongation at Break (%) | Tg (°C) | Density (g/cm³) | Water Absorption (24 hr, %) | Dielectric Strength (kV/mm) | Continuous Service Temp (°C) |
+|-------|----------------------|----------------------|------------------------|---------|-----------------|---------------------------|----------------------------|-----------------------------|
+| Phenolic (GP, wood flour filled) | 45-55 | 5-8 | 0.4-0.8 | 170-200 | 1.35-1.45 | 0.3-0.5 | 10-16 | 150-170 |
+| Phenolic (glass filled) | 60-80 | 10-15 | 0.3-0.5 | 180-220 | 1.65-1.85 | 0.1-0.3 | 16-20 | 180-200 |
+| Epoxy (DGEBA/TETA, neat) | 50-70 | 2.5-3.5 | 3-6 | 80-110 | 1.15-1.20 | 0.1-0.2 | 15-25 | 80-120 |
+| Epoxy (DGEBA/anhydride, neat) | 60-80 | 2.8-3.8 | 2-5 | 120-150 | 1.15-1.25 | 0.08-0.15 | 18-28 | 120-150 |
+| Unsaturated polyester (neat) | 40-60 | 3.0-4.5 | 1.5-3.0 | 60-90 | 1.10-1.20 | 0.15-0.30 | 12-18 | 50-80 |
+| Polyester + glass fiber (30% wt) | 80-120 | 6-10 | 2-3 | 70-100 | 1.50-1.65 | 0.10-0.20 | 10-15 | 60-90 |
+| Polyester + glass fiber (60% wt) | 150-250 | 15-25 | 1.5-2.5 | 80-120 | 1.70-1.90 | 0.05-0.10 | 10-15 | 70-100 |
+| Polyurethane (rigid foam) | 0.1-0.5 | 0.003-0.010 | 5-15 | 80-120 | 0.028-0.050 | 1-3 (by volume) | 3-8 | -50 to +100 |
+| Polyurethane (elastomer, Shore A 80) | 25-40 | 0.01-0.05 | 400-600 | -30 to -50 | 1.10-1.25 | 0.5-1.5 | 15-25 | -30 to +80 |
+| Urea-formaldehyde (cellulose filled) | 35-50 | 7-10 | 0.5-1.0 | N/A (thermoset) | 1.45-1.55 | 0.4-0.8 | 8-14 | 75-90 |
+| Melamine-formaldehyde (cellulose filled) | 45-60 | 8-12 | 0.5-0.8 | N/A (thermoset) | 1.45-1.55 | 0.1-0.4 | 10-16 | 120-150 |
+| Cyanate ester (neat) | 70-90 | 2.8-3.5 | 2-4 | 250-290 | 1.15-1.25 | 0.5-1.5 | 25-35 | 200-250 |
+| Bismaleimide (neat) | 50-70 | 3.5-4.5 | 1.5-3 | 280-320 | 1.20-1.30 | 1-3 | 20-30 | 230-280 |
+| FR-4 laminate (epoxy/glass) | 350-450 (flexural) | 18-24 (flexural) | N/A | 130-140 | 1.80-1.90 | <0.10 | >40 | 130-140 |
+
+**Why Tg (glass transition temperature) matters**: Below Tg, the polymer network is rigid and glassy, with high strength and dimensional stability. Above Tg, the network becomes rubbery and compliant, losing 50-80% of its modulus. For structural applications, the continuous service temperature must stay at least 20-30°C below Tg. This is why ordinary epoxy (Tg ~100°C) is unsuitable for engine components that see 150°C, while cyanate ester (Tg ~270°C) handles the same environment with margin. The Tg is not a sharp transition but a range: the polymer progressively softens over a 20-30°C span centered on the nominal Tg value.
+
+**Processing conditions summary**:
+
+| Resin System | Mix Ratio (resin:hardener by weight) | Cure Temperature | Cure Time | Mold Pressure | Post-Cure |
+|-------------|--------------------------------------|-----------------|-----------|---------------|-----------|
+| Phenolic novolac (compression) | Resin + 10-15% hexamine | 150-180°C | 30-60 sec/mm | 15-30 MPa | None required |
+| Epoxy/TETA (room-temp cure) | 100:10-14 | 20-25°C | 24 hr | None (pour) | 80°C, 2 hr optional |
+| Epoxy/TETA (elevated cure) | 100:10-14 | 80°C | 2 hr | None (pour) | 120°C, 1 hr optional |
+| Epoxy/MTHPA | 100:80-90 | 100°C + 150°C | 2 hr + 4 hr | None (pour) | 180°C, 2 hr |
+| Polyester/MEKP | 100:1-2 (MEKP) + 0.2-0.5% Co naphthenate | 20-30°C (ambient) | 24 hr | None (hand layup) | 60-80°C, 2-4 hr |
+| Polyurethane (flexible foam) | A:B (isocyanate:polyol) 100:40-60 by weight | 25-40°C mold | 2-5 min | None (free rise) | None |
+| Polyurethane (rigid foam) | A:B 100:100-120 by weight | 30-50°C mold | 2-5 min | None (closed mold) | None |
+| Melamine-formaldehyde | Resin + catalyst | 140-160°C | 30-60 min | 7-10 MPa | None required |
+| Urea-formaldehyde | Resin + hardener | 100-120°C | 3-5 min/mm | 1-2 MPa | None required |
+| FR-4 laminate | Prepreg stack | 150-170°C | 60-90 min | 3-7 MPa | 180-200°C, 2-4 hr |
+
+The mix ratio for epoxy systems is critical because it determines the crosslink density. An excess of either resin or hardener leaves unreacted functional groups that plasticize the cured network, reducing Tg by 20-50°C and tensile strength by 30-40%. Epoxy ratios are calculated from the amine hydrogen equivalent weight (AHEW) of the hardener and the epoxy equivalent weight (EEW) of the resin. For DGEBA (EEW ~185 g/eq) and TETA (AHEW ~24 g/eq), the stoichiometric ratio is 100:13 by weight. Off-ratio mixing (e.g., 100:10 or 100:16) produces measurable property degradation.
+
 ## Troubleshooting
 
 | Symptom | Likely Cause | Solution |

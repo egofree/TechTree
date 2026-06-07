@@ -3,7 +3,7 @@
 > **Node ID**: machine-tools.joining.resistance-welding
 > **Domain**: [Machine-Tools](./index.md)
 > **Dependencies**: See prerequisites
-> **Enables**: [`Metal Joining`](joining.md), [`Electricity Generation & Distribution`](electricity.md)
+> **Enables**: [`Metal Joining`](joining.md), [`Electricity Generation & Distribution`](../energy/electricity.md)
 > **Timeline**: Years 20-50
 > **Outputs**: resistance_welds, spot_welds, seam_welds
 > **Critical**: No
@@ -83,6 +83,26 @@ Developing a weld schedule for a new material or thickness combination begins wi
 | Electrode Force | 1-8 kN | Sufficient to maintain contact and contain the molten nugget |
 | Electrode Tip Diameter | 4-8 mm (for 0.5-2 mm sheet) | Matches sheet thickness; 5 times square root of thinner sheet |
 | Coolant Flow | 5-10 L/min per electrode | Prevents electrode overheating; loss of cooling causes rapid electrode wear |
+
+### Recommended Weld Schedules by Material and Thickness
+
+| Material | Sheet Thickness (mm) | Current (kA) | Weld Time (cycles at 50Hz) | Electrode Force (kN) | Tip Diameter (mm) | Min. Nugget Dia. (mm) |
+|----------|---------------------|-------------|---------------------------|---------------------|-------------------|----------------------|
+| Low carbon steel | 0.5 | 5-7 | 5-8 | 1.5-2.5 | 4-5 | 2.8 |
+| Low carbon steel | 0.8 | 6-8 | 8-12 | 2.0-3.0 | 5-6 | 3.6 |
+| Low carbon steel | 1.0 | 7-9 | 10-15 | 2.5-3.5 | 5-6 | 4.0 |
+| Low carbon steel | 1.5 | 8-11 | 12-20 | 3.0-4.5 | 6-7 | 4.9 |
+| Low carbon steel | 2.0 | 9-13 | 15-25 | 4.0-6.0 | 7-8 | 5.7 |
+| Stainless 304 | 0.5 | 4-5 | 4-6 | 2.0-3.0 | 4-5 | 2.8 |
+| Stainless 304 | 1.0 | 5-7 | 8-12 | 3.0-4.5 | 5-6 | 4.0 |
+| Stainless 304 | 1.5 | 6-9 | 10-18 | 4.0-6.0 | 6-7 | 4.9 |
+| Aluminum 6061 | 0.5 | 8-12 | 3-5 | 1.5-2.5 | 5-6 | 2.8 |
+| Aluminum 6061 | 1.0 | 12-18 | 5-10 | 2.5-4.0 | 6-8 | 4.0 |
+| Aluminum 6061 | 1.5 | 15-22 | 8-15 | 3.5-5.5 | 8-10 | 4.9 |
+| Galvanized steel | 0.8 | 8-11 | 12-18 | 2.5-4.0 | 5-6 | 3.6 |
+| Galvanized steel | 1.0 | 9-13 | 15-22 | 3.0-4.5 | 6-7 | 4.0 |
+
+Aluminum requires higher current and shorter weld times than steel because its higher thermal conductivity conducts heat away from the nugget zone faster. Galvanized steel needs higher current and longer times because the zinc coating melts first, increasing contact resistance unpredictably.
 
 The nugget diameter in spot welding must meet minimum specifications based on the sheet thickness being joined. Adequate nugget size ensures that the weld can transfer the required shear load across the joint. Weld strength increases with nugget diameter up to the point where the weld begins to interfere with adjacent welds or approaches the sheet edge, reducing the tear-out strength of the surrounding material.
 
@@ -176,7 +196,7 @@ The speed and automation compatibility of resistance welding make it the dominan
 - [Metal Joining](joining.md) — parent capability
 - [Machine-Tools Domain](./index.md) — domain overview and related capabilities
 - [Metal Joining](joining.md) — downstream capability
-- [Electricity Generation & Distribution](electricity.md) — downstream capability
+- [Electricity Generation & Distribution](../energy/electricity.md) — downstream capability
 
 ### Material Handling
 

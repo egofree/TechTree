@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.hvac
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`Clean Room Technology`](cleanrooms.md), [`Industrial Buildings & Heavy Foundations`](industrial-buildings.md)
-> **Enables**: [`Energy`](energy.md), [`Temperature & Pressure Measurement`](temperature-pressure.md)
+> **Dependencies**: [`Clean Room Technology`](../photolithography/cleanrooms.md), [`Industrial Buildings & Heavy Foundations`](../construction/industrial-buildings.md)
+> **Enables**: [`Energy`](index.md), [`Temperature & Pressure Measurement`](../measurement/temperature-pressure.md)
 > **Timeline**: Years 15-30
 > **Outputs**: hvac-systems, industrial-ventilation, climate-control-units
 > **Critical**: No
@@ -30,8 +30,8 @@ HVAC system design for semiconductor fabs requires collaboration between mechani
 
 ### Equipment
 
-- [Clean Room Technology](cleanrooms.md) — tool dependency
-- [Industrial Buildings & Heavy Foundations](industrial-buildings.md) — tool dependency
+- [Clean Room Technology](../photolithography/cleanrooms.md) — tool dependency
+- [Industrial Buildings & Heavy Foundations](../construction/industrial-buildings.md) — tool dependency
 - Chillers (compression or absorption type), boilers, and air handling units
 - HEPA and ULPA filtration systems with DOP/PAO testing capability
 
@@ -177,12 +177,12 @@ Makeup air requirements are determined by exhaust volumes and pressurization nee
 
 ## References
 
-- [Energy](energy.md) — parent capability
+- [Energy](index.md) — parent capability
 - [Energy Domain](./index.md) — domain overview and related capabilities
-- [Clean Room Technology](cleanrooms.md) — upstream dependency (tool)
-- [Industrial Buildings & Heavy Foundations](industrial-buildings.md) — upstream dependency (tool)
-- [Energy](energy.md) — downstream capability
-- [Temperature & Pressure Measurement](temperature-pressure.md) — downstream capability
+- [Clean Room Technology](../photolithography/cleanrooms.md) — upstream dependency (tool)
+- [Industrial Buildings & Heavy Foundations](../construction/industrial-buildings.md) — upstream dependency (tool)
+- [Energy](index.md) — downstream capability
+- [Temperature & Pressure Measurement](../measurement/temperature-pressure.md) — downstream capability
 
 ### Material Handling
 

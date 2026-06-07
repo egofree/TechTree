@@ -4,7 +4,7 @@
 > **Domain**: [Chemistry](./index.md)
 > **Parent**: [Lubricants, Oils & Fluid Mechanics](lubricants.md)
 > **Dependencies**: [`chemistry.petroleum-alternatives`](petroleum-alternatives.md), [`chemistry.lubricants-mineral`](lubricants-mineral.md)
-> **Enables**: [`vacuum.vacuum-pumps`](../vacuum/vacuum-pumps.md)
+> **Enables**: [`vacuum.vacuum-pumps`](../vacuum/vacuum-pump.md)
 > **Timeline**: Years 50-200+
 > **Outputs**: synthetic_oil, vacuum_oil, pfpe_grease
 > **Critical**: No — synthetic lubricants enable demanding applications but are not prerequisites for core capabilities
@@ -37,109 +37,39 @@ Synthetic lubricants are engineered molecules with uniform structure, produced b
 
 **Properties**: PAO: pour point -50 to -65°C, VI 130-150, 2-3x mineral oil oxidation life. Ester: 200-250°C thermal stability, biodegradable. Silicone: -70 to +250°C, chemically inert, poor metal-on-metal lubricity. PFPE: -80 to +300°C, chemically inert, ultra-low vapor pressure.
 
+**Synthetic lubricant properties comparison**:
+
+| Type | Viscosity Range (cSt at 40°C) | Pour Point (°C) | Flash Point (°C) | VI | Thermal Stability (°C) | Vapor Pressure at 25°C | Relative Cost vs Mineral |
+|------|-------------------------------|-----------------|-------------------|-----|----------------------|------------------------|--------------------------|
+| PAO | 4-100 | -50 to -65 | 220-280 | 130-150 | 150-180 | <10⁻⁶ Pa | 3-5x |
+| Diester | 5-25 | -60 to -70 | 220-250 | 140-160 | 200-220 | ~10⁻⁴ Pa | 4-6x |
+| Polyol ester | 15-100 | -40 to -55 | 250-310 | 130-150 | 220-250 | ~10⁻⁵ Pa | 5-8x |
+| Silicone (PDMS) | 10-100,000 | -70 to -50 | 300-350 | 200-400 | 250-280 | ~10⁻⁶ Pa | 8-15x |
+| PFPE | 10-500 | -80 to -50 | Non-flammable | 100-150 | 280-300 | <10⁻¹⁰ Pa | 50-100x |
+| Mineral oil (ref) | 10-460 | -10 to -30 | 180-240 | 95-105 | 120-150 | ~10⁻² Pa | 1x |
+
 **Safety & Handling**:
 
 > **Safety warning**: PFPE decomposes above 300°C, releasing toxic fluorinated compounds. Silicone oils are not readily biodegradable. PAO and ester oils have good fire safety profiles (high flash points). Handle all synthetic lubricants according to the manufacturer's safety data, which varies significantly by chemistry.
 
-**Applications**: Jet engines (PAO, ester), Arctic machinery (PAO), biodegradable hydraulic systems (ester), diffusion pumps (silicone), spacecraft mechanisms (PFPE), semiconductor equipment (PFPE), oxygen service (PFPE), electrical insulation (silicone).
+**Specific hazards**:
+- **PFPE thermal decomposition**: Above 300°C, PFPE breaks down into hydrogen fluoride (HF), carbonyl fluoride (COF₂), and perfluoroisobutylene (PFIB). HF causes severe chemical burns to skin, eyes, and lungs (IDLH 30 ppm). COF₂ hydrolyzes to HF in moist tissue. PFIB is one of the most toxic fluorocarbons known (LC₅₀ in rats ~ 0.5 ppm for 4-hour exposure). Use PFPE only where operating temperature remains below 250°C. If a PFPE-lubricated bearing overheats, evacuate the area and ventilate before approaching.
+- **Ester oil hydrolysis**: Ester lubricants react with water at elevated temperatures, hydrolyzing back into acids and alcohols. The resulting organic acids (acetic, butyric) corrode bearings and seals. Keep ester oil systems dry (water content <200 ppm). Install desiccant breathers on reservoirs. If oil pH drops below 5.0, drain and replace.
+- **Silicone oil seal incompatibility**: Silicone oil swells nitrile rubber (NBR) seals by 20-40%, causing leakage. Use fluorocarbon (FKM/Viton) or PTFE seals with silicone oils. Before converting a system from mineral oil to silicone, replace all elastomeric seals with compatible materials.
+- **PAO seal shrinkage**: PAO has lower solvency than mineral oil and can shrink some elastomers, causing leaks. Use fluorocarbon or polyurethane seals. Alternatively, blend PAO with 10-20% ester oil to restore seal compatibility.
 
-**Strengths**:
-- Wider operating temperature range than mineral oils
-- Better oxidation stability and longer service life
-- PAO and ester oils provide excellent lubrication for demanding applications
-- PFPE is chemically inert, critical for oxygen service and reactive chemical environments
-- Ester oils are biodegradable, suitable for environmentally sensitive applications
+## Troubleshooting
 
-**Weaknesses**:
-- Significantly more expensive than mineral oils (3-10x cost)
-- Require advanced chemical synthesis infrastructure
-- Silicone oils have poor load-carrying capacity for metal-on-metal applications
-- PFPE requires fluorine chemistry (hazardous, specialized)
-- Some synthetics are incompatible with seals and paints designed for mineral oil
-
-
-## Vacuum Oils
-
-**Principle**: Vacuum pump oils must have extremely low vapor pressure (<10⁻⁴ Pa at operating temperature). If the oil has high vapor pressure, it evaporates into the vacuum chamber, contaminating the vacuum and preventing the system from reaching low pressure. The oils must also lubricate pump bearings and seals adequately, resist oxidation, and not react with pumped gases.
-
-**Prerequisites**:
-- Vacuum pump system (rotary vane, piston, or diffusion pump)
-- Oil with appropriate vapor pressure for the target vacuum level
-
-**Materials**:
-- Highly refined mineral oil, silicone oil, or synthetic hydrocarbon (PAO)
-
-**Types**:
-
-**Mineral vacuum oil**: Highly refined, distilled mineral oil with narrow boiling range. Achieves ultimate vacuum ~10⁻² to 10⁻³ Pa. Used in mechanical roughing pumps (rotary vane, piston).
-
-**Silicone vacuum oil**: Polydimethylsiloxane (PDMS), from silicon + methyl chloride chemistry. Very low vapor pressure (~10⁻⁶ Pa at 25°C). Chemically inert. Used in diffusion pumps (see Vacuum & Optics), achieving ultimate vacuum ~10⁻⁶ to 10⁻⁸ Pa.
-
-**Synthetic hydrocarbon oil**: Polyalphaolefin (PAO). Low vapor pressure, excellent lubricity, wide temperature range. Used in high-performance mechanical pumps.
-
-**[Oil purification](../glossary/oil-purification.md)** (for extending vacuum oil life):
-- **Filtration**: Pass oil through 1-5 μm filter to remove particulates.
-- **Degassing**: Heat oil under vacuum to remove dissolved gases and volatile contaminants.
-- **Adsorption**: Pass through activated alumina or molecular sieve to remove acidic and polar contaminants.
-
-**Properties**: Mineral vacuum oil: vapor pressure 10⁻² to 10⁻³ Pa at 25°C. Silicone vacuum oil: vapor pressure ~10⁻⁶ Pa at 25°C. PAO: intermediate vapor pressure, excellent lubricity.
-
-**Safety & Handling**:
-
-> **Safety warning**: Vacuum pump oil that has been exposed to reactive gases (solvents, acids, oxidizers) may be contaminated and hazardous. Drain and replace oil after pumping reactive or corrosive gases. Used vacuum oil may contain dissolved process chemicals. Handle with gloves and eye protection.
-
-**Applications**: Mechanical roughing pumps (mineral or PAO oil), diffusion pumps (silicone oil), vacuum distillation systems, vacuum drying ovens, semiconductor process equipment.
-
-**Strengths**:
-- Silicone vacuum oil achieves the lowest pressures for diffusion pumps
-- Mineral vacuum oil is relatively inexpensive for roughing pump applications
-- Oil purification extends service life and reduces operating costs
-- PAO combines low vapor pressure with excellent lubrication
-
-**Weaknesses**:
-- Silicone oil has poor lubricity for mechanical pump bearings under heavy load
-- All vacuum oils degrade with exposure to reactive gases and require periodic replacement
-- Vacuum oil contamination is a common cause of vacuum system performance problems
-- Silicone oil cannot be used in some applications because it contaminates surfaces (difficult to remove)
-
-
-## Semiconductor/Cleanroom Lubricants
-
-**Principle**: Equipment used in semiconductor fabrication requires lubricants that do not contaminate cleanroom air or wafer surfaces. The lubricants must exhibit low outgassing (minimal evaporation into the cleanroom environment), non-particulating behavior (no shedding of particles), and vacuum compatibility (for equipment inside vacuum chambers such as load locks and wafer transfer robots).
-
-**Prerequisites**:
-- Semiconductor chemistry capability
-- Cleanroom manufacturing environment
-- PFPE synthesis or procurement
-
-**Materials**:
-- Perfluoropolyether (PFPE) base stock
-- Specialized thickener systems
-
-**Production**:
-
-[Cleanroom-compatible lubricants](../glossary/cleanroom-compatible-lubricants.md) are based on PFPE (perfluoropolyether) chemistry. PFPE greases use fluorinated thickeners compatible with cleanroom requirements. The synthesis requires HF + olefins under controlled conditions (semiconductor chemistry infrastructure). The result is an extremely inert lubricant with wide temperature range and ultra-low vapor pressure.
-
-**Properties**: PFPE greases are chemically inert, electrically insulating, and compatible with most process gases. Ultra-low outgassing rates. Temperature range -80 to +300°C. Vapor pressure <10⁻¹⁰ Pa.
-
-**Safety & Handling**:
-
-> **Safety warning**: PFPE decomposes above 300°C, releasing toxic fluorinated decomposition products including hydrogen fluoride. Do not use PFPE lubricants on surfaces that may reach high temperatures during processing. Disposal of PFPE waste requires special handling due to persistence in the environment.
-
-**Applications**: Crystal puller bearings, wafer handling robots, load lock mechanisms, photolithography stage bearings, vacuum chamber manipulators, and any mechanism operating inside a semiconductor cleanroom.
-
-**Strengths**:
-- Ultra-low outgassing protects wafer surfaces from contamination
-- Chemically inert to all process gases used in semiconductor fabrication
-- Wide temperature range suits diverse equipment
-- Does not generate particles that would contaminate cleanroom air
-
-**Weaknesses**:
-- Extremely expensive (10-100x mineral oil lubricants)
-- Requires semiconductor-grade chemistry infrastructure to produce
-- Cannot be replaced with cheaper alternatives without risking contamination
-- PFPE decomposition products are highly toxic
-
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| PAO oil leaks from seals that held mineral oil | PAO causes shrinkage of nitrile (NBR) and neoprene seals | Replace seals with fluorocarbon (FKM/Viton) or polyurethane; blend PAO with 15-20% ester oil to restore seal swell |
+| Silicone-lubricated bearing shows excessive wear | Silicone has poor metal-on-metal load-carrying capacity (low polar adsorption) | Switch to PAO or ester oil for loaded bearings; reserve silicone for light-load, wide-temperature-range applications (dashpots, electrical insulation) |
+| PFPE grease dries out and fails in vacuum chamber | Grease thickener evaporated or PFPE migrated away from bearing surface | Use PFPE grease with PTFE thickener (not lithium soap, which outgasses); reapply every 6-12 months in continuous vacuum service; check for excessive bearing temperature (>250°C decomposes PFPE) |
+| Ester hydraulic fluid turns acidic (pH <5) | Hydrolysis from water contamination at elevated temperature | Install desiccant breathers on reservoir; keep water content <200 ppm; drain, flush system, and refill; add hydrolysis stabilizer if available |
+| Vacuum pump oil fails to reach target pressure | Oil vapor pressure too high for the vacuum level, or oil contaminated with process gases | Switch to lower vapor pressure oil (silicone for diffusion pumps, PAO for mechanical); degas oil by heating under vacuum before use; install foreline trap to prevent backstreaming |
+| Diffusion pump silicone oil darkens and pumps lose speed | Oil cracked by thermal cycling or contaminated with reactive process gases | Replace silicone oil (typical life 6-12 months continuous); install cold trap above pump to catch backstreaming; avoid pumping aggressive solvents without trap |
+| Synthetic cutting fluid leaves residue on machined parts | Ester-based fluid polymerizing at high cutting temperatures, or additive dropout | Reduce cutting temperature with higher coolant flow; switch to PAO-based cutting fluid for high-temperature operations; clean residue with isopropyl alcohol |
+| Vacuum pump makes knocking noise with PAO oil | PAO viscosity too low for the pump at cold startup temperature | Use higher viscosity PAO grade (VG 46 or 68 instead of 32); install oil heater to warm reservoir to 30°C before startup; check pump clearances |
 
 ## See Also
 

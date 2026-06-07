@@ -87,6 +87,45 @@ The reed is a comb-like beater that spaces warp threads evenly and packs weft ag
 - **Cane/bamboo alternative**: Split cane or bamboo dents (0.5-1 mm thick) for areas where steel wire is unavailable. Less durable, slightly less uniform beat. Serviceable for production use, with a lifespan of 1-3 years of heavy use before replacement.
 - **Alternative (temporary)**: Use a smooth wooden comb or carved wooden beater with carved teeth for low-production or field use. Less precise spacing but functional.
 
+## Loom Dimensions Reference
+
+Every loom design follows dimensional relationships determined by the weaving width, fiber type, and number of shafts. These proportions have been refined over millennia and deviating from them produces looms that are difficult to operate or that produce poor cloth.
+
+**Loom dimensions by type**:
+
+| Parameter | Frame Loom | Pit/Treadle Loom | Counterbalance Loom | Countermarch Loom |
+|-----------|-----------|-------------------|---------------------|-------------------|
+| Weaving width | 30-60 cm | 80-150 cm | 100-180 cm | 80-150 cm |
+| Overall width | 40-75 cm | 100-180 cm | 120-200 cm | 100-180 cm |
+| Total depth (front to back) | 40-60 cm | 120-160 cm | 140-180 cm | 120-160 cm |
+| Height | 60-100 cm | 120-150 cm | 140-170 cm | 130-160 cm |
+| Breast beam height | 60-80 cm (lap) | 85-95 cm | 85-95 cm | 85-95 cm |
+| Cloth beam diameter | N/A | 8-9 cm | 8-12 cm | 8-12 cm |
+| Warp beam diameter | N/A | 8-10 cm | 10-15 cm | 10-15 cm |
+| Shaft count | 1 (rigid heddle) | 2-8 | 4-12 | 4-16 |
+| Shed depth (heddles to fell) | 15-25 cm | 60-80 cm | 60-80 cm | 60-80 cm |
+| Shuttle race length | N/A | 80-150 cm | 100-180 cm | 80-150 cm |
+| Beater (reed) width | 25-55 cm | 80-150 cm | 100-180 cm | 80-150 cm |
+| Treadle count | 0 | 2-8 | 2-6 | 4-12 |
+| Weight (empty) | 1-3 kg | 20-40 kg | 50-80 kg | 40-70 kg |
+
+The shed depth (front-to-rear distance from heddles to fell line) is critical: 60-80 cm is the proven range for balanced tension on both raised and lowered warp threads. Shorter shed depths increase the angle of the warp threads and raise tension on the raised threads, causing frequent breakage. Longer depths reduce the shed angle, making it harder to get a clean opening for the shuttle.
+
+**Reed spacing reference**:
+
+| Reed (dpi) | Ends/Inch (1/dent) | Ends/Inch (2/dent) | Typical Fabric | Yarn Count (Ne) |
+|------------|--------------------|--------------------|----------------|-----------------|
+| 8 | 8 | 16 | Heavy canvas, sacking | 3-8 |
+| 10 | 10 | 20 | Canvas, upholstery | 5-12 |
+| 12 | 12 | 24 | Duck, work clothing | 8-16 |
+| 15 | 15 | 30 | Medium cotton cloth | 16-30 |
+| 18 | 18 | 36 | Shirting, bed linen | 24-40 |
+| 20 | 20 | 40 | Fine shirting | 30-50 |
+| 24 | 24 | 48 | Fine cotton, muslin | 40-60 |
+| 30 | 30 | 60 | Very fine cotton | 50-80+ |
+
+Two ends per dent (sleying 2/dent) produces a denser cloth for the same reed. However, adjacent threads in the same dent can twist around each other during weaving, producing "reed marks" (pairs of threads that stay together instead of separating evenly). For the finest cloth, one end per dent in a finer reed produces more uniform results.
+
 ## Weave Structures
 
 **Tabby (plain weave)**: Over 1, under 1, alternating. Simplest, strongest, least flexible. For canvas, sheeting, bandages. 2 shafts required. Balanced tabby (same yarn weight for warp and weft) produces uniform, stable cloth.
@@ -104,6 +143,24 @@ The reed is a comb-like beater that spaces warp threads evenly and packs weft ag
 **Double weave**: Two separate cloth layers woven simultaneously on the same loom, connected at one or both edges to form a tube, or at intervals to create pockets. Uses twice as many shafts. Produces: tube fabric (bags, sleeves, belts), double-width cloth (wider than the loom's nominal weaving width), and double-thickness cloth for heavy applications. 8+ shafts.
 
 **Leno (gauze weave)**: Warp threads twist around each other between weft picks, creating an open, stable mesh. Used for netting, gauze, and sheer fabrics. Requires special doup heddles or a leno mechanism. Does not ravel — edges are stable without hemming.
+
+**Weave structure comparison**:
+
+| Weave | Min. Shafts | Float Length | Relative Strength | Drape | Abrasion Resistance | Typical Thread Count (epi × ppi) | Typical Fabric Weight (g/m²) |
+|-------|-------------|-------------|-------------------|-------|---------------------|----------------------------------|------------------------------|
+| Plain (tabby) | 2 | 1 | Highest | Stiffest | Highest | 20-60 × 20-60 | 100-350 |
+| Basket (2/2) | 2 | 2 | Moderate | Flexible | Moderate | 10-30 × 10-30 | 200-500 |
+| 2/2 Twill | 4 | 2 | High | Good | High | 30-60 × 30-50 | 200-400 |
+| 1/3 Twill | 4 | 3 | Moderate | Very good | Moderate | 30-60 × 30-50 | 180-350 |
+| Herringbone | 4 | 2 | High | Good | High | 30-60 × 30-50 | 200-380 |
+| Satin (5-shaft) | 5 | 4-5 | Low (snags) | Excellent | Low | 60-120 × 40-80 | 100-200 |
+| Sateen | 5 | 4-5 | Low | Excellent | Low | 60-120 × 40-80 | 100-200 |
+| Double weave | 8+ | 1-2 | Very high | Variable | Very high | 20-40 × 20-40 (×2 layers) | 300-600 |
+| Leno | 2 (+doup) | 1 | High (mesh) | Stiff | High | 8-20 × 8-20 | 50-150 |
+
+**Why float length matters**: In plain weave, every thread interlaces every other thread. This maximizes the number of binding points, which distributes stress across the fabric surface and prevents individual threads from shifting. In twill and satin, longer floats mean fewer binding points. The fabric drapes better because the threads can move more freely, but the longer floats are vulnerable to snagging on sharp objects. A plain weave canvas can withstand heavy abrasion because there are no exposed floats to catch. A satin lining snags easily because the long floats sit on the surface with nothing anchoring them between interlacing points.
+
+**Twist direction and twill angle**: The direction of yarn twist interacts with the twill interlacing to create the visible diagonal. Z-twist yarn in a right-hand twill produces a sharper, more prominent diagonal than S-twist yarn in the same twill. Most commercial twills use Z-twist warp and S-twist weft with a right-hand twill interlacing, producing the classic 45° diagonal at equal warp and weft density. If warp density exceeds weft density, the diagonal steepens past 45°. If weft density exceeds warp, the diagonal flattens.
 
 ## Warping Procedure
 

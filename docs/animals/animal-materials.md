@@ -202,6 +202,18 @@ Animal blood, often wasted, has several industrial uses.
 - **Blood waterproofing for concrete**: Blood was historically used as an air-entraining and waterproofing admixture for mortar and concrete at 1-3% by weight of cement. The albumin creates microscopic air bubbles that improve workability and freeze-thaw resistance.
 - **Blood-based tempera paint**: Mix blood with chalk or lime to produce a red-brown paint for marking livestock, painting buildings, and coating tools.
 
+## Why Animal Materials Are Irreplaceable
+
+Several animal-derived materials fill niches where no plant or mineral alternative matches their properties. Understanding why helps prioritize which animals to raise and which products to process.
+
+**Why tallow makes better candles than plant oils**: Tallow (beef or sheep fat) has a melting point of 40-45°C, which means it is solid at room temperature but melts at candle-flame temperature. Plant oils (olive, linseed, rapeseed) are liquid at room temperature and wick up a lamp flame rather than forming a stable solid candle. Beeswax makes the best candles (higher melting point, cleaner burn, pleasant scent), but tallow is 10-20 times more abundant in a livestock-based settlement. A single cow yields 15-25 kg of tallow from suet, enough for 300-500 candles.
+
+**Why hide glue is still preferred by woodworkers**: Despite being thousands of years old, hide glue has properties that modern synthetic adhesives cannot fully replicate. It is reversible: heat and moisture dissolve the bond, allowing disassembly and repair of furniture, musical instruments, and tools. It is creep-resistant: under sustained load, it does not slowly deform like many polymer adhesives. It takes stain and finish identically to the surrounding wood, making glue lines invisible. These properties made hide glue the standard for fine woodworking from ancient Egypt through the 20th century, and it remains in use by luthiers and conservators today.
+
+**Why horn was used for lantern panes before glass**: Horn sheets are translucent (not transparent), diffusing light into a warm, even glow without the sharp shadows cast by clear glass. More practically, horn sheets are unbreakable under normal handling, flexible enough to bend around curved surfaces, and can be produced from any cattle or sheep horn with basic hot-water processing. Glass, by contrast, requires a furnace at 1,000°C, skilled blowing or casting technique, and is fragile in transport. For a settlement without glassmaking capability, horn panes provide functional windows and lantern covers.
+
+**Why wool absorbs moisture without feeling wet**: Wool fibers have a hydrophilic exterior and a hydrophobic interior. The cuticle scales on the outside of each fiber attract and bind water molecules through hydrogen bonding, while the protein core repels liquid water. This means wool can absorb up to 30% of its weight in water vapor before it feels damp to the touch. Cotton feels wet at 8% moisture content. This property makes wool the premier fiber for cold, damp climates: it insulates even when the wearer is sweating or exposed to rain, and it releases moisture slowly, preventing the rapid chilling that occurs when damp cotton contacts skin.
+
 ## Safety
 
 - **Lime burns**: Quicklime and limewater are strongly alkaline (pH 12-13). Wear thick leather gloves when handling hides in lime solutions. Rinse skin immediately with clean water if contacted. Eye exposure requires immediate and prolonged flushing.

@@ -3,7 +3,7 @@
 > **Node ID**: machine-tools.fasteners
 > **Domain**: [Machine-Tools](./index.md)
 > **Dependencies**: [`Mass Production & Interchangeability`](mass-production.md)
-> **Enables**: [`Iron & Steel Production`](iron-steel.md), [`Machining`](machining.md)
+> **Enables**: [`Iron & Steel Production`](../metals/iron-steel.md), [`Machining`](machining.md)
 > **Timeline**: Years 10-20
 > **Outputs**: standardized-screws, bolts, nuts, threaded-rods
 > **Critical**: No
@@ -148,17 +148,60 @@ Scaling from lathe-cut to roll-formed threads is the key production transition. 
 
 Thread measurement and quality control use thread gauges, plug gauges for internal threads and ring gauges for external threads. The "go" gauge must thread fully into or onto the part, while the "no-go" gauge must not enter more than a specified number of turns. Thread pitch diameter is the most critical dimension and is measured with thread micrometers or three-wire measurement methods.
 
+## Standard Thread Dimensions (Quick Reference)
+
+### ISO Metric Coarse Thread
+
+| Size | Pitch (mm) | Major Dia. (mm) | Tap Drill (mm) | Pitch Dia. (mm) | Stress Area (mm²) | Proof Load Grade 8.8 (kN) |
+|------|-----------|-----------------|----------------|-----------------|-------------------|---------------------------|
+| M3 | 0.5 | 3.00 | 2.5 | 2.675 | 5.03 | 2.52 |
+| M4 | 0.7 | 4.00 | 3.3 | 3.545 | 8.78 | 4.39 |
+| M5 | 0.8 | 5.00 | 4.2 | 4.480 | 14.2 | 7.10 |
+| M6 | 1.0 | 6.00 | 5.0 | 5.350 | 20.1 | 10.1 |
+| M8 | 1.25 | 8.00 | 6.8 | 7.188 | 36.6 | 18.3 |
+| M10 | 1.5 | 10.00 | 8.5 | 9.026 | 58.0 | 29.0 |
+| M12 | 1.75 | 12.00 | 10.2 | 10.863 | 84.3 | 42.2 |
+| M16 | 2.0 | 16.00 | 14.0 | 14.701 | 157 | 78.5 |
+| M20 | 2.5 | 20.00 | 17.5 | 18.376 | 245 | 122 |
+
+### Fastener Grade Properties
+
+| Grade | Material | Proof Strength (MPa) | Tensile Strength (MPa) | Hardness (HRC) | Head Marking |
+|-------|----------|----------------------|----------------------|----------------|--------------|
+| 4.6 | Low carbon steel | 240 | 400 | 67-95 HRB | None |
+| 8.8 | Medium carbon, Q&T | 580 | 800 | 22-32 | Three radial lines |
+| 10.9 | Alloy steel, Q&T | 830 | 1000 | 32-39 | Nine radial dots |
+| 12.9 | Alloy steel, Q&T | 970 | 1200 | 38-44 | Twelve radial dots |
+| A2-70 | Stainless 304 | 450 | 700 | 95 HRB max | A2-70 stamped |
+
+### Tap Drill Speeds and Cutting Parameters
+
+| Tap Size | RPM (steel) | RPM (aluminum) | RPM (cast iron) | Cutting Fluid |
+|----------|-------------|-----------------|-----------------|---------------|
+| M3 | 400-600 | 800-1200 | 300-500 | Sulfurized oil |
+| M6 | 200-400 | 500-800 | 150-300 | Sulfurized oil |
+| M10 | 100-200 | 300-500 | 80-150 | Sulfurized oil |
+| M12 | 80-150 | 200-400 | 60-120 | Sulfurized oil |
+| M16 | 50-100 | 150-300 | 40-80 | Sulfurized oil |
+
+Use the slowest speed that produces clean chips. Speeds above these ranges cause tap breakage. For blind holes, use spiral-flute taps that pull chips upward. For through holes, use spiral-point taps that push chips through.
+
 ## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Oversized threads | Worn cutting tool or incorrect tool height | Replace or regrind tool; verify tool is set to workpiece centerline |
-| Torn thread flanks | Dull tool, insufficient lubricant, or too-heavy cut | Replace tool; apply cutting oil liberally; reduce depth of cut per pass |
-| Incorrect pitch | Wrong change gear ratio or lead screw disengaged mid-cut | Verify gear train calculation; do not disengage half-nut between passes |
-| Drunken thread (wavy) | Tool not perpendicular to workpiece | Align tool with thread gauge; check for loose tool post |
-| Thread chatter | Workpiece too slender or speed too high | Use tailstock center support; reduce spindle speed; increase rake angle |
-| Stripped threads in assembly | Thread too shallow or wrong class of fit | Check with go/no-go gauge; verify pitch diameter; check class of fit specification |
-| Galling on stainless fasteners | Stainless-to-stainless friction without lubrication | Apply anti-seize compound; use dissimilar stainless grades for nut and bolt |
+| Oversized threads | Worn cutting tool or incorrect tool height | Replace or regrind tool; verify tool is set to workpiece centerline within ±0.05 mm |
+| Torn thread flanks | Dull tool, insufficient lubricant, or too-heavy cut | Replace tool; flood with cutting oil; reduce depth of cut to 0.025 mm per pass for finishing |
+| Incorrect pitch | Wrong change gear ratio or lead screw disengaged mid-cut | Verify gear train calculation: pitch = leadscrew pitch × (driver/driven); do not disengage half-nut between passes |
+| Drunken thread (wavy) | Tool not perpendicular to workpiece centerline | Align tool with thread gauge (fishtail); check for loose tool post; tighten tool post clamp to 20-30 N·m |
+| Thread chatter | Workpiece too slender or speed too high | Use tailstock center support; reduce spindle speed to 30-50 RPM; increase positive rake angle to 10-15° |
+| Stripped threads in assembly | Thread too shallow or wrong class of fit | Check with go/no-go gauge; verify pitch diameter with three-wire method; check class of fit specification |
+| Galling on stainless fasteners | Stainless-to-stainless friction welding under pressure | Apply anti-seize compound (nickel-based for high temp, copper-based for general use); use 304 nut with 316 bolt or vice versa |
+| Tap breakage in blind hole | Chips packed in bottom, no chip clearance | Use spiral-flute tap for blind holes; peck-tap (advance 1 turn, back off 1/2 turn); drill deeper than thread depth (minimum 1.5× tap diameter extra) |
+| Thread pitch diameter out of tolerance | Tool wear or incorrect compound rest angle | Verify compound rest set to 29° (half of 60° thread angle); measure pitch diameter with three-wire method; adjust tool offset by half the error |
+| Thread not concentric with workpiece OD | Tool height incorrect (above or below center) | Set tool to workpiece centerline using a center gauge; error of 0.1 mm in height produces measurable thread runout |
+| Heat-treated fastener too brittle | Under-tempered (hardened without sufficient temper) | Re-temper at specified temperature for the grade: Grade 8.8 at 500-550°C, Grade 12.9 at 380-420°C for 1 hour minimum |
+| Fastener loosening under vibration | No locking mechanism or insufficient preload | Use locking method: nylon-insert nut, chemical threadlocker (Loctite 243 for medium strength), or castle nut with cotter pin; torque to 70-80% of proof load |
 
 ## Variations and Alternatives
 
@@ -176,10 +219,10 @@ The progression from hand-filed screws to lathe-cut standard threads to die-cut 
 
 ## References
 
-- [Machine Tools Bootstrap](machine-tools.md) — parent capability
+- [Machine Tools Bootstrap](index.md) — parent capability
 - [Machine-Tools Domain](./index.md) — domain overview and related capabilities
 - [Mass Production & Interchangeability](mass-production.md) — upstream dependency (material)
-- [Iron & Steel Production](iron-steel.md) — downstream capability
+- [Iron & Steel Production](../metals/iron-steel.md) — downstream capability
 - [Machining](machining.md) — downstream capability
 
 ### Material Handling

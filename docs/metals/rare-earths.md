@@ -2,8 +2,8 @@
 
 > **Node ID**: metals.rare-earths
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`Electronics`](electronics.md), [`Photolithography & IC Fabrication`](photolithography.md)
-> **Enables**: [`Mining Engineering & Extractive Metallurgy`](mining.md)
+> **Dependencies**: [`Electronics`](../electronics/index.md), [`Photolithography & IC Fabrication`](../photolithography/index.md)
+> **Enables**: [`Mining Engineering & Extractive Metallurgy`](../mining/index.md)
 > **Timeline**: Years 30-50
 > **Outputs**: gallium, indium, germanium, neodymium, rare-earth-oxides
 > **Critical**: No
@@ -13,6 +13,51 @@
 Extraction and separation of rare earth elements (REE) and specialty metals from mineral ores through acid leaching, solvent extraction, and ion exchange. The target elements include the fifteen lanthanides plus scandium and yttrium, along with specialty metals like gallium, indium, and germanium. These elements are essential for permanent magnets (neodymium, dysprosium), phosphors (europium, terbium, yttrium), laser materials (neodymium, erbium), battery electrodes (lanthanum, cerium), semiconductors (gallium), transparent conductors (indium), and fiber optics (germanium).
 
 The central challenge in rare earth processing is separation. The lanthanide elements have nearly identical ionic radii that decrease gradually from lanthanum to lutetium (the lanthanide contraction). Their chemistry is so similar that separating adjacent lanthanides requires hundreds of sequential extraction stages. A full separation plant processing bastnasite or monazite ore into individual rare earth oxides may run 50 to 100 stages of counter-current solvent extraction.
+
+### Rare Earth Element Reference
+
+| Element | Symbol | Atomic # | Ion Radius (Å, 6-coord) | Primary Use | Typical Ore Grade (REO %) |
+|---------|--------|----------|--------------------------|-------------|--------------------------|
+| Lanthanum | La | 57 | 1.032 | Battery electrodes, optics | 20-30% of light REE ore |
+| Cerium | Ce | 58 | 1.010 | Polishing compounds, catalysts | 40-50% of light REE ore |
+| Praseodymium | Pr | 59 | 0.990 | Magnets (with Nd), pigments | 4-6% of light REE ore |
+| Neodymium | Nd | 60 | 0.983 | NdFeB permanent magnets | 12-18% of light REE ore |
+| Samarium | Sm | 62 | 0.958 | SmCo magnets, nuclear | 2-5% of light REE ore |
+| Europium | Eu | 63 | 0.947 | Phosphors (red) | 0.5-1% of REE ore |
+| Gadolinium | Gd | 64 | 0.938 | MRI contrast, nuclear | 2-4% of REE ore |
+| Terbium | Tb | 65 | 0.923 | Phosphors (green), magnetostriction | 0.5-1% of REE ore |
+| Dysprosium | Dy | 66 | 0.912 | NdFeB magnet additive (high-temp stability) | 2-4% of heavy REE ore |
+| Yttrium | Y | 39 | 0.900 | Phosphors, laser crystals, ceramics | 5-10% of heavy REE ore |
+
+### Separation Factors Between Adjacent Lanthanides
+
+The separation factor β is the ratio of distribution coefficients between two adjacent REE for a given extractant at a given pH. Higher β means easier separation (fewer stages needed).
+
+| Adjacent Pair | D2EHPA (pH 2.0) | PC-88A (pH 2.5) | Cyanex 272 (pH 3.0) |
+|---------------|-------------------|-------------------|----------------------|
+| Ce/La | 2.5-3.0 | 3.0-4.0 | 3.5-5.0 |
+| Pr/Ce | 1.6-2.0 | 2.0-2.5 | 2.0-3.0 |
+| Nd/Pr | 1.4-1.6 | 1.5-2.0 | 1.8-2.5 |
+| Sm/Nd | 2.0-3.0 | 3.0-4.0 | 4.0-6.0 |
+| Eu/Sm | 1.5-2.0 | 2.0-2.5 | 2.0-3.0 |
+| Gd/Eu | 1.3-1.5 | 1.5-2.0 | 1.5-2.0 |
+| Tb/Gd | 2.0-3.0 | 3.0-4.0 | 3.0-5.0 |
+| Dy/Tb | 1.5-2.0 | 2.0-2.5 | 2.0-3.0 |
+| Ho/Dy | 1.3-1.5 | 1.5-2.0 | 1.5-2.0 |
+
+**Why the separation is hard**: The separation factor between most adjacent lanthanides is only 1.5-2.5. This means that for each extraction stage, the more extractable REE concentrates by only 50-150% relative to its neighbor. To achieve 99.9% purity from a mixed feed, you need 20-40 stages for each pair. The total cascade for all 15 lanthanides runs 50-100 stages. Cyanex 272 gives higher separation factors than D2EHPA but is more expensive.
+
+### Ore Deposit Types and Grades
+
+| Deposit Type | Example | Total REO Grade | Heavy REE % | Processing Route |
+|-------------|---------|-----------------|-------------|-----------------|
+| Bastnasite (carbonate-fluoride) | Mountain Pass (USA), Bayan Obo (China) | 5-10% REO | <5% | HCl leach → SX |
+| Monazite (phosphate, Th-bearing) | Beach sands (India, Australia, Brazil) | 3-8% REO | 5-15% | Caustic crack → HCl dissolve → SX |
+| Xenotime (heavy REE phosphate) | Malaysia, Australia | 10-25% Y₂O₃ | >40% | H₂SO₄ leach → SX |
+| Ion-adsorption clays | South China (Jiangxi, Guangdong) | 0.05-0.3% REO | 20-80% | (NH₄)₂SO₄ leach at ambient → precipitation → SX |
+| Phosphorite (byproduct) | Morocco, USA | 0.1-0.3% REO | Variable | H₂SO₄ leach (phosphoric acid route) → SX |
+
+**Ion-adsorption clays** are the easiest to process (simple ammonium sulfate leach at ambient temperature) but have the lowest grade. They are the primary source of heavy REE (Dy, Tb, Ho). Bastnasite is the most processed ore type worldwide and the primary source of light REE (La, Ce, Nd, Pr).
 
 Primary outputs: `gallium`, `indium`, `germanium`, `neodymium`, `rare-earth-oxides`.
 
@@ -30,8 +75,8 @@ Primary outputs: `gallium`, `indium`, `germanium`, `neodymium`, `rare-earth-oxid
 
 ### Equipment
 
-- [Electronics](electronics.md) — material dependency
-- [Photolithography & IC Fabrication](photolithography.md) — material dependency
+- [Electronics](../electronics/index.md) — material dependency
+- [Photolithography & IC Fabrication](../photolithography/index.md) — material dependency
 - Crushing and grinding circuit (jaw crusher, ball mill) for ore comminution
 - Gravity and magnetic separation equipment (for pre-concentration of REE minerals)
 - Leaching tanks (steel or rubber-lined, with agitation and heating)
@@ -170,13 +215,17 @@ Neodymium metal production is worth special attention because of its use in NdFe
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Poor separation between adjacent REE | pH drift in the extraction cascade; degraded extractant | Check and adjust pH at each stage group; assay extractant and replace if degraded |
-| Emulsion formation in mixer-settlers | Fine solids entrainment; extractant degradation products | Filter feed solutions; replace degraded extractant; reduce agitation intensity |
-| Low REE recovery from leaching | Incomplete dissolution; incorrect acid strength or temperature | Increase acid concentration, temperature, or leaching time; grind ore finer |
-| Impurity co-extraction (Fe, Al, Th) | pH too high in early extraction stages | Lower pH in the scrub section; add impurity scrubbing stages |
-| Crmudge (third phase formation) | High REE loading in organic phase; wrong O/A ratio | Reduce organic loading; adjust O/A ratio; add modifier (TBP or decanol) to organic phase |
-| Incomplete calcination | Temperature too low or residence time too short | Raise calcination temperature; increase kiln residence time |
-| Radioactive dust in monazite area | Inadequate dust collection during dry handling | Improve dust collection; use wet handling methods; increase respiratory protection |
+| Poor separation between adjacent REE (cross-contamination >5%) | pH drift in the extraction cascade (>0.2 pH units from setpoint); degraded extractant (hydrolysis or oxidation) | Install inline pH meters at each stage group with automatic acid/base dosing; assay extractant monthly and replace when separation factor drops >20% from fresh value |
+| Emulsion formation in mixer-settlers (phase separation >10 min) | Fine solids entrainment from incomplete leach residue filtration; extractant degradation products acting as surfactants | Filter feed solutions to <1 μm before SX; replace degraded extractant; reduce agitation intensity (mixing tip speed <3 m/s); add phase disengagement promoter (isodecanol at 1-3% of organic phase) |
+| Low REE recovery from leaching (<80%) | Incomplete dissolution; incorrect acid strength or temperature; ore particle size too coarse | Increase acid concentration to 4-6 M HCl (for bastnasite); raise temperature to 80-90°C; grind ore to <75 μm (pass 200 mesh); extend leach time to 2-4 hours with agitation |
+| Impurity co-extraction (Fe, Al, Th contaminating product) | pH too high in early extraction stages (>2.5 for D2EHPA) | Lower pH in the scrub section to 1.0-1.5; add 2-4 impurity scrubbing stages before the main REE separation cascade |
+| Crud/third phase formation (organic phase splits into two layers) | High REE loading in organic phase (>80% of saturation); wrong O/A ratio; extractant concentration too high | Reduce organic loading to <60% of saturation; adjust O/A ratio to 1:1 to 2:1; add modifier (TBP at 5-10% or isodecanol at 3-5% of organic phase) |
+| Incomplete calcination (residual carbonate, LOI >2%) | Temperature too low (<800°C) or residence time too short (<1 hour) | Raise calcination temperature to 900-1000°C; increase rotary kiln residence time to 2-3 hours; verify temperature with thermocouple at the hot zone |
+| Radioactive dust in monazite area (>0.1 Bq/m³ airborne Th) | Inadequate dust collection during dry handling of ore, calcined oxide, or waste | Install HEPA-filtered local exhaust ventilation at all dust-generating points; switch to wet handling methods where possible; provide supplied-air respiratory protection for monazite workers |
+| Neodymium metal product oxidizes rapidly during handling | Air exposure during tapping from electrolysis cell; insufficient inert atmosphere coverage | Tap metal into preheated, argon-purged receiving crucible; store under mineral oil or in argon-filled containers; handle only in glove box with O₂ <10 ppm |
+| Extractant consumption rate too high (>2%/month) | Extractant degradation from acid hydrolysis or oxidation; entrainment losses in aqueous raffinate | Reduce organic phase temperature to <35°C; add antioxidant stabilizer; install coalescer pads in settler outlets to recover entrained organic |
+| Oxalate precipitate does not filter well (slimes, slow filtration) | Precipitation too fast (rapid oxalic acid addition); wrong pH; particle size too fine | Add oxalic acid slowly over 30-60 min with agitation; maintain pH at 1.5-2.0; age precipitate 2-4 hours before filtration to allow crystal growth |
+| Molten salt electrolysis current efficiency <60% | Cell temperature too low (solid crust on bath); anode effect from alumina contamination; electrolyte composition drift | Maintain cell at 1030-1070°C (±20°C); control electrolyte composition (NdF₃ 50-70%, LiF 20-30%, balance additives); replace electrolyte when impurity buildup exceeds 5% |
 
 ## Variations and Alternatives
 
@@ -192,11 +241,11 @@ Store REE oxides in sealed, labeled containers to prevent moisture absorption an
 
 ## References
 
-- [Metals](metals.md) — parent capability
+- [Metals](index.md) — parent capability
 - [Metals Domain](./index.md) — domain overview and related capabilities
-- [Electronics](electronics.md) — upstream dependency (material)
-- [Photolithography & IC Fabrication](photolithography.md) — upstream dependency (material)
-- [Mining Engineering & Extractive Metallurgy](mining.md) — downstream capability
+- [Electronics](../electronics/index.md) — upstream dependency (material)
+- [Photolithography & IC Fabrication](../photolithography/index.md) — upstream dependency (material)
+- [Mining Engineering & Extractive Metallurgy](../mining/index.md) — downstream capability
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Metals](./index.md) · [All Domains](../index.md)*

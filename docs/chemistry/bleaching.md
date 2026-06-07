@@ -2,7 +2,7 @@
 
 > **Node ID**: chemistry.bleaching
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Textiles, Fiber & Cordage`](textiles.md), [`Basic Water Treatment`](basic-treatment.md)
+> **Dependencies**: [`Textiles, Fiber & Cordage`](../textiles/index.md), [`Basic Water Treatment`](../water/basic-treatment.md)
 > **Enables**: [`Electrolysis`](electrolysis.md)
 > **Timeline**: Years 15-25
 > **Outputs**: sodium-hypochlorite, chlorine-gas, bleached-textiles
@@ -35,8 +35,8 @@ The hypochlorite bleaching mechanism involves oxidation of colored organic compo
 
 ### Equipment
 
-- [Textiles, Fiber & Cordage](textiles.md) — material dependency
-- [Basic Water Treatment](basic-treatment.md) — material dependency
+- [Textiles, Fiber & Cordage](../textiles/index.md) — material dependency
+- [Basic Water Treatment](../water/basic-treatment.md) — material dependency
 - DC power supply for electrolysis
 - Gas collection and handling system for chlorine
 - Fabric processing equipment (padder, jig, or winch for textile bleaching)
@@ -71,20 +71,27 @@ Bleaching starts with brine electrolysis to generate chlorine, followed by eithe
 
 | Parameter | Range | Notes |
 |-----------|-------|-------|
-| Brine concentration | Near-saturated | Lower concentrations reduce current efficiency |
-| Cell current density | Moderate | Higher density increases production but also heat |
-| Bleach absorption temperature | Below 40°C | Higher temps form unwanted sodium chlorate |
-| Textile bleach pH | Slightly alkaline | Acid conditions release hazardous chlorine gas |
-| Bleach contact time | Minutes to hours | Depends on fiber type and desired whiteness |
+| Brine concentration | 250-320 g/L NaCl (near-saturated at 20°C) | Lower concentrations reduce current efficiency and increase energy per kg of chlorine |
+| Cell current density | 15-30 mA/cm² (diaphragm cell), 20-40 mA/cm² (membrane cell) | Higher density increases production rate but also heat generation and electrode wear |
+| Cell voltage | 3.0-4.5 V per cell | Operating above 5 V wastes energy as heat and accelerates electrode degradation |
+| Bleach absorption temperature | Below 40°C (optimal 15-25°C) | Above 40°C, sodium chlorate (NaClO₃) forms as an unwanted byproduct, reducing hypochlorite yield |
+| Textile bleach concentration | 2-5 g/L available chlorine | Higher concentrations attack cellulose; lower concentrations require longer contact time |
+| Textile bleach pH | 9-11 (alkaline) | Below pH 9, chlorine gas evolves; above pH 11, bleaching is too slow |
+| Bleach contact time | 30 minutes to 4 hours | Cotton: 1-2 hours at 3-5 g/L; linen: 2-4 hours at 2-3 g/L |
+| Bleach temperature (textile) | 20-40°C | Above 45°C, cellulose oxidation accelerates, weakening the fabric |
+| NaOH absorption solution strength | 5-10% NaOH by weight | Stronger solutions produce more concentrated bleach but increase heat release |
+| Hypochlorite shelf life | 10-20% loss per month at 25°C | Store at 15°C: loss drops to 3-5% per month; at 35°C: loss exceeds 30% per month |
+| Chlorine gas moisture content | <50 ppm H₂O | Moist chlorine corrodes steel; dry chlorine can be stored in steel cylinders |
+| Hydrogen gas generation | ~0.37 L per ampere-hour (cathode) | Must be vented; flammable at 4-75% concentration in air |
 
 ## Safety Considerations
 
 Chlorine gas and concentrated hypochlorite present hazards that demand specific precautions beyond general chemical safety:
 
-- **Chlorine gas toxicity**: Chlorine is a severe respiratory irritant. Even low concentrations cause coughing and chest tightness; higher concentrations cause pulmonary edema and death. All chlorine handling must occur under forced ventilation with gas detection alarms.
-- **Chemical burns**: Sodium hypochlorite and sodium hydroxide solutions cause chemical burns. Splashes to eyes can cause permanent corneal damage.
-- **Hazardous gas mixtures**: Mixing bleach with acid releases chlorine gas. Mixing bleach with ammonia produces chloramine gas. Both are life-threatening. Never mix bleach with other cleaning chemicals.
-- **Fire and explosion risks**: Hydrogen gas produced at the cathode during electrolysis is flammable and explosive when mixed with air. Ensure adequate ventilation of electrolysis areas and never allow hydrogen to accumulate.
+- **Chlorine gas toxicity**: Chlorine is a severe respiratory irritant. At 1 ppm, chlorine causes detectable odor and mild irritation. At 10 ppm, it causes intense coughing and chest pain. At 430 ppm for 30 minutes, it is lethal. IDLH: 10 ppm. All chlorine handling must occur under forced ventilation with gas detection alarms set at 0.5 ppm (TLV-TWA). Chlorine is 2.5× denser than air and accumulates in low-lying areas (trenches, basements, sumps). Evacuate upwind if a leak occurs.
+- **Chemical burns**: Sodium hypochlorite at household concentration (5-6% available chlorine) causes skin irritation within minutes. Industrial bleach (12-15%) causes immediate skin damage and eye injury. Sodium hydroxide solutions (used in chlorine absorption) at 5-10% cause deep chemical burns. Emergency flushing: 15 minutes continuous water for skin contact, 30 minutes for eye contact. Polypropylene or PVC pipework for all bleach-wetted surfaces (metals corrode rapidly).
+- **Hazardous gas mixtures**: Mixing bleach with acid (HCl, H₂SO₄, toilet bowl cleaners, rust removers) releases chlorine gas: NaClO + 2HCl → NaCl + H₂O + Cl₂. Mixing bleach with ammonia (glass cleaners, some detergents) produces chloramine gas (NH₂Cl): NaClO + NH₃ → NH₂Cl + NaOH. Chloramine causes respiratory distress at 5 ppm and pulmonary edema at higher concentrations. Both scenarios have caused fatalities. Never store bleach and acid in the same area. Clear labeling is mandatory.
+- **Fire and explosion risks**: Hydrogen gas produced at the cathode during electrolysis is flammable and explosive when mixed with air (LEL 4%, UEL 75%). At 20 A current, hydrogen generation is approximately 7.4 L/hour. Ensure adequate ventilation of electrolysis areas (minimum 10 air changes per hour) and never allow hydrogen to accumulate. Install hydrogen detectors with alarms at 1% (25% of LEL).
 
 ### Personal Protective Equipment
 
@@ -136,11 +143,15 @@ Key scaling challenges: electrode durability under continuous high-current opera
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Low chlorine production | Spent electrodes or impure brine | Clean or replace anodes; purify brine feed |
-| Bleach decomposition in storage | Heat, light, or metal contamination | Store in cool, dark, non-metallic containers |
-| Fabric damage after bleaching | Over-bleaching — too concentrated or too long | Reduce concentration or contact time; test tensile strength |
-| Chlorine gas leak | Corroded fittings or failed gaskets | Replace gaskets; check all connections with ammonia torch test |
-| Yellowing of bleached fabric | Residual iron or incomplete rinsing | Improve pre-scouring; add chelating agents; increase rinse cycles |
+| Low chlorine production (current efficiency <80%) | Spent electrodes (anode coating consumed), impure brine (Ca/Mg scale on electrodes), or cell voltage too low | Clean or replace anodes (titanium/RuO₂ coating, life 2-5 years); purify brine feed (precipitate Ca with Na₂CO₃ at 2 g/L, Mg with NaOH at 1 g/L, then filter to <5 ppm hardness); increase cell voltage to 3.5-4.5 V |
+| Bleach decomposition in storage (>20% available chlorine loss per month) | Storage temperature >25°C, exposure to sunlight, metal contamination (Cu, Fe, Ni catalyze decomposition) | Store in cool, dark location at 15°C in polyethylene containers; avoid all metal contact (use plastic or glass only); test available chlorine weekly with iodometric titration |
+| Fabric damage after bleaching (tensile strength loss >15%) | Over-bleaching: concentration too high (>5 g/L), temperature too high (>40°C), or contact time too long | Reduce available chlorine to 2-3 g/L; maintain pH 9-11; limit contact to 1-2 hours for cotton; test fabric tensile strength before and after each batch |
+| Chlorine gas leak (detected by odor or monitor) | Corroded steel fittings, failed gasket on cylinder valve, or overpressure in absorption column | Evacuate upwind immediately; don SCBA before approaching; isolate leak by closing cylinder valve; check all connections with ammonia torch test (white NH₄Cl smoke indicates Cl₂) |
+| Yellowing of bleached fabric after rinsing | Residual iron (Fe²⁺/Fe³⁺) in process water, incomplete rinsing, or insufficient scouring before bleach | Improve pre-scouring (boil in 2% NaOH for 1 hour); add chelating agent (EDTA, 0.5-1.0 g/L) to bleach bath; increase rinse cycles to 3× with clean water; test process water for Fe content (<0.1 ppm required) |
+| Sodium chlorate formation reducing bleach yield | Absorption temperature above 40°C during chlorine-to-hypochlorite conversion | Install cooling on absorption column (target 15-25°C outlet); verify NaOH feed concentration (5-10%); monitor chlorate levels (should be <1% of hypochlorite) |
+| Electrolysis cell voltage rising above 5 V | Electrode fouling from hardness scale, membrane fouling (diaphragm/membran cells), or brine impurities | Clean electrodes with 5% HCl to remove scale; replace diaphragm if clogged; improve brine purification; check electrolyte temperature (higher temp lowers voltage) |
+| Hypochlorite solution pH drops below 9 during storage | CO₂ absorption from air neutralizes NaOH buffer, or decomposition produces acidic byproducts | Store in sealed containers with minimum headspace; check pH weekly (target 11-13); discard if pH drops below 10 (chlorine gas evolution risk) |
+| Uneven bleaching (streaks on fabric) | Non-uniform fabric speed through bleach bath, inconsistent scouring leaving hydrophobic spots, or variable bleach concentration | Standardize fabric speed (continuous process: 10-30 m/min); verify complete scouring before bleaching (fabric should absorb water uniformly); check bleach bath concentration every 30 minutes |
 
 ## Variations and Alternatives
 
@@ -153,10 +164,10 @@ Each bleaching method has distinct environmental and product quality tradeoffs. 
 
 ## References
 
-- [Chemistry](chemistry.md) — parent capability
+- [Chemistry](index.md) — parent capability
 - [Chemistry Domain](./index.md) — domain overview and related capabilities
-- [Textiles, Fiber & Cordage](textiles.md) — upstream dependency (material)
-- [Basic Water Treatment](basic-treatment.md) — upstream dependency (material)
+- [Textiles, Fiber & Cordage](../textiles/index.md) — upstream dependency (material)
+- [Basic Water Treatment](../water/basic-treatment.md) — upstream dependency (material)
 - [Electrolysis](electrolysis.md) — downstream capability
 
 The bleaching capability sits between raw textile production and advanced electrolysis. Textile fibers come from the textiles domain, clean water from water treatment, and the electrolysis capability enables the electrochemical chlorine production that replaces older chemical bleaching methods.

@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.photographic-chemistry
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Photoresists, Masks & Lithography`](resists-masks.md)
-> **Enables**: [`Chemistry`](chemistry.md), [`Knowledge Preservation & Education`](knowledge.md)
+> **Dependencies**: [`Photoresists, Masks & Lithography`](../photolithography/resists-masks.md)
+> **Enables**: [`Chemistry`](index.md), [`Knowledge Preservation & Education`](../knowledge/index.md)
 > **Timeline**: Years 20-35
 > **Outputs**: silver-halide-emulsions, photographic-plates, photoresist-precursors
 > **Critical**: No
@@ -31,7 +31,7 @@ The silver halide emulsion consists of microscopic crystals of silver bromide, s
 
 ### Equipment
 
-- [Photoresists, Masks & Lithography](resists-masks.md) — material dependency
+- [Photoresists, Masks & Lithography](../photolithography/resists-masks.md) — material dependency
 - Emulsion kettle with controlled stirring and temperature (for silver halide precipitation and ripening)
 - Coating machine (blade or dip coater) for applying emulsion to glass plates or film base
 - Darkroom with safelighting (Wratten series filters for the appropriate spectral sensitivity)
@@ -143,11 +143,16 @@ Key scaling challenges: emulsion precipitation scale-up is non-trivial — mixin
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| High base fog | Light leak, contaminated developer, or exhausted restrainer | Check darkroom light-tightness; mix fresh developer; increase KBr restrainer |
-| Low contrast | Developer exhausted, underdevelopment, or low temperature | Mix fresh developer; extend development time; verify 20°C temperature |
-| Uneven development | Insufficient agitation or developer depletion in high-density areas | Increase agitation frequency; use fresh developer for each batch |
-| Image fading after months | Incomplete fixing or washing | Extend fix time; verify fixer is not exhausted; extend wash to 30 minutes |
-| Crystalline deposits on dry film | Residual sodium thiosulfate from incomplete washing | Re-wash and hypo-clear; check wash water flow rate |
+| High base fog (density >0.3 in unexposed areas) | Light leak in darkroom (check door seals, safelight filter integrity), contaminated developer (oxidized metol produces fogging agents), or insufficient KBr restrainer in developer formulation | Check darkroom light-tightness with a test film strip left 5 minutes in the darkroom; replace safelight filter if cracked or faded; mix fresh developer from dry chemicals; increase KBr restrainer to 1.0-2.0 g/L; check emulsion storage temperature (above 25°C causes fog increase) |
+| Low contrast (gamma <0.5 for normal-contrast film) | Developer exhausted (sulfite depleted, developer oxidized), underdevelopment (time too short or temperature <18°C), or film underexposed | Mix fresh developer; extend development time by 25-50% or increase temperature to 20°C ±0.5°C; verify developer activity with control strip — compare density to reference; check exposure meter calibration |
+| Uneven development (streaks, mottle, edge density difference >0.2) | Insufficient agitation during development (developer exhausts locally in highlight areas), or temperature gradient across processing tank | Agitate continuously for first 30 seconds, then 5 seconds every 30 seconds (inversion method for tanks, nitrogen burst for trays); verify tank temperature uniformity (±0.5°C); check for air bells on film surface — tap tank to dislodge |
+| Image fading or yellowing after months of storage | Incomplete fixing (fixer exhausted, >2,000 mL·min/L silver capacity exceeded), or incomplete washing (residual thiosulfate >0.01 g/m²) — thiosulfate slowly reacts with silver to form Ag₂S staining | Extend fix time to 2× clearing time (typically 5-10 min in fresh fixer); test fixer activity with residual silver test paper before each session; extend wash to 30 min minimum with running water at 20°C; verify residual hypo with methylene blue test (ASTM PH4.30, target <0.01 g/m²) |
+| Crystalline deposits on dry film or print | Residual sodium thiosulfate from incomplete washing crystallizes in the gelatin layer; or hardener crystals from alum-hardened fixer | Re-wash in running water at 20°C for 30 min; use hypo-clearing agent (2% Na₂SO₃ solution, 2 min soak) before final wash to reduce wash time by 60-70%; check wash water flow rate (target 12 complete water changes per hour) |
+| Pinholes in emulsion coating | Dust on film base before coating, air bubbles in emulsion during precipitation, or contaminated gelatin | Filter emulsion through 5-10 μm cartridge filter before coating; degas emulsion under vacuum after precipitation; clean coating area with HEPA-filtered air; pre-wash glass plates with ethanol and lint-free cloth |
+| Emulsion grain structure too coarse (resolving power <40 lp/mm for ISO 100 target) | Precipitation temperature too high (>60°C), ripening time too long (>120 min), or halide excess too low during AgNO₃ addition causing uncontrolled Ostwald ripening | Reduce precipitation temperature to 40-50°C; limit ripening to 30-60 min; maintain 10-20% halide excess during AgNO₃ addition to control crystal growth rate; for fine-grain emulsions, use double-jet precipitation (simultaneous AgNO₃ and KBr addition at controlled rate) |
+| Silver recovery from spent fixer below 90% (economic loss) | Electrolytic recovery cell current density too low (<5 mA/cm²), or metallic replacement cartridge exhausted (steel wool depleted) | For electrolytic recovery: maintain cathode current density at 5-15 mA/cm², rotate cathode to prevent dendrite buildup; for metallic replacement: replace steel wool cartridge when silver concentration in effluent exceeds 50 mg/L; monitor silver concentration in spent fixer by atomic absorption (typical: 2-8 g/L Ag) |
+| Metol dermatitis (red, itchy skin on hands after developer handling) | Allergic contact dermatitis from metol (4-methylaminophenol sulfate) — sensitization is permanent once established; affects ~5-10% of frequent darkroom users | Switch to phenidone-based developer (less sensitizing); wear nitrile gloves (metol penetrates latex); once sensitized, even trace exposure triggers reaction — strict glove discipline is mandatory; apply corticosteroid cream for active dermatitis |
+| Color cast in "black and white" prints (warm brown or green tones) | Incomplete washing leaving residual developer or fixer, or paper base not neutral (warm-tone papers have optical brighteners that shift color); selenium toning at wrong dilution | Extend wash time; use fiber-based paper for neutral tone; for cold-tone prints, use cool-tone developer (higher hydroquinone:metol ratio); check selenium toner dilution (1:20 to 1:40 for archival toning, not full color shift) |
 
 ## Variations and Alternatives
 
@@ -166,11 +171,11 @@ Silver recovery from spent fixing solutions is both economically and environment
 
 ## References
 
-- [Chemistry](chemistry.md) — parent capability
+- [Chemistry](index.md) — parent capability
 - [Chemistry Domain](./index.md) — domain overview and related capabilities
-- [Photoresists, Masks & Lithography](resists-masks.md) — upstream dependency (material)
-- [Chemistry](chemistry.md) — downstream capability
-- [Knowledge Preservation & Education](knowledge.md) — downstream capability
+- [Photoresists, Masks & Lithography](../photolithography/resists-masks.md) — upstream dependency (material)
+- [Chemistry](index.md) — downstream capability
+- [Knowledge Preservation & Education](../knowledge/index.md) — downstream capability
 
 ### Material Handling
 

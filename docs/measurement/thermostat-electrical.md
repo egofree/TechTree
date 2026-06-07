@@ -187,6 +187,29 @@ Electrical thermostats use electrical properties of materials (thermoelectric vo
 - Not proportional; on/off switching only
 
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Thermocouple reads incorrectly at room temperature | Cold junction compensation not working | Check that the cold junction sensor (thermistor or RTD) is securely mounted at the terminal block; verify compensation circuit adds the correct offset voltage; test by shorting the thermocouple terminals (meter should read ambient temperature) |
+| Thermocouple reading drifts at high temperature | Junction degradation or wire contamination | Inspect the junction weld for cracks or oxidation; Type K thermocouples suffer "green rot" above 800°C in reducing atmospheres (chromel oxidizes selectively); replace with Type S (platinum-rhodium) for high-temperature or reducing environments |
+| RTD bridge won't balance at 0°C | Bridge resistor tolerance too loose or lead resistance uncompensated | Verify all bridge resistors are within ±0.01% of 100.0 Ω; switch to four-wire (Kelvin) connection to eliminate lead resistance (3 m of 0.5 mm copper wire adds 0.6 Ω, causing 1.5°C error in two-wire mode) |
+| RTD reading jumps or is noisy | Loose connection or electromagnetic interference | Check all solder joints and terminal screws; route RTD leads in twisted pairs away from power cables; add a 0.1 μF capacitor across the bridge output to filter high-frequency noise |
+| Reed switch chatters (rapid on/off cycling) | Hysteresis too narrow or vibration in the mechanism | Increase the gap between magnet and reed switch by 0.5-1 mm to widen the deadband; add a dashpot (silicone oil damper) to the bimetallic strip to damp oscillations; verify the reed switch is rigidly mounted (not vibrating on its leads) |
+| Reed switch does not actuate at setpoint | Magnet too far from reed or bimetallic strip fatigued | Reduce the magnet-to-switch gap to 2-3 mm; verify the magnet is oriented with its field parallel to the reed blade axis; check that the bimetallic strip hasn't work-hardened and lost its deflection range (replace strips after ~100,000 cycles) |
+| Thermocouple output signal too low | Wire gauge too thin or junction resistance too high | Use thicker thermocouple wire (0.8-1.0 mm instead of 0.3-0.5 mm) for runs longer than 3 m; check for corrosion at terminal blocks (green patina on chromel indicates oxidation — clean with abrasive paper) |
+| Galvanometer relay sticks at trip point | Contact pitting or mechanical friction | Clean relay contacts with contact cleaner and a burnishing tool; check the pivots for dried lubricant and clean with solvent; verify the return spring provides adequate restoring force |
+| RTD resistance reads incorrectly | Wire strain from bending or kinking during installation | Platinum wire in RTDs work-hardens when deformed; any kink permanently changes resistance. Handle RTD probes gently; never bend the sheath sharper than 5× its diameter. Replace damaged probes |
+
+## Safety & Hazards
+
+- **Thermocouple wire fumes**: Heating thermocouple wires during welding or brazing can produce metal oxide fumes. Chromel (nickel-chromium alloy) produces chromium VI compounds when heated above 600°C in oxidizing atmospheres. Chromium VI is a confirmed carcinogen. Weld thermocouple junctions in a well-ventilated area or under local exhaust. Use a capacitance-discharge welder (brief spark, minimal fume) rather than a gas torch when possible.
+- **RTD platinum wire hazard**: The 0.05 mm platinum wire used in hand-wound RTD elements is thin enough to cut skin and can cause eye injury if it snaps during winding. Wear safety glasses during RTD construction. The fine wire is also a strangulation hazard if long lengths are used loosely on the bench.
+- **Electrical hazards**: Electronic comparator circuits operate from mains-derived power supplies. All thermostat circuits that switch mains-powered heaters must include proper fusing, grounding, and isolation. A relay contact failure (welded contacts) leaves the heater permanently on, which can cause fires. Always include an independent high-limit cutoff (bimetallic strip thermostat wired in series with the heater) as a backup.
+- **Mercury in thermometers**: Calibration using mercury-in-glass thermometers carries mercury exposure risk if the thermometer breaks. Mercury vapor at 20°C exceeds safe workplace limits in unventilated spaces after a spill. Clean any mercury spill with zinc dust or a commercial mercury absorbent. Never vacuum mercury.
+- **RFI/EMI from relay switching**: Relay contacts switching inductive loads (heater coils, solenoid valves) produce electromagnetic interference that can disrupt nearby electronic equipment. Add snubber circuits (RC network: 0.1 μF + 100 Ω in series) across relay contacts driving inductive loads. Use solid-state relays (SSRs) for zero-crossing switching when interference is a concern.
+
+
 
 ---
 

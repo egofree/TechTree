@@ -2,8 +2,8 @@
 
 > **Node ID**: foundations.carpentry
 > **Domain**: [Foundations](./index.md)
-> **Dependencies**: [`Construction & Structural Engineering`](construction.md), [`Machine Tools Bootstrap`](machine-tools.md)
-> **Enables**: [`Foundations`](foundations.md)
+> **Dependencies**: [`Construction & Structural Engineering`](../construction/index.md), [`Machine Tools Bootstrap`](../machine-tools/index.md)
+> **Enables**: [`Foundations`](index.md)
 > **Timeline**: Years 1-5
 > **Outputs**: wooden-structures, furniture, wooden-patterns
 > **Critical**: No
@@ -42,8 +42,8 @@ Wood is anisotropic: its properties differ along the three principal axes (longi
 - **Measuring and marking**: Folding rule or tape, try square (90-degree reference), sliding bevel (angle transfer), marking gauge (scribes parallel lines), story pole (records repeated dimensions without measurement).
 - **Striking tools**: Wooden mallet for chisel work (does not damage chisel handles), claw hammer for nail driving and removal. Mallet weight matched to chisel size — a heavy mallet on a small chisel causes loss of control.
 - **Clamping**: Bar clamps, C-clamps, and wooden wedges for assembly. Clamp pressure must be sufficient to close joints but not so great as to deform the workpiece. Pad clamp faces to prevent marring finished surfaces.
-- [Construction & Structural Engineering](construction.md) — material dependency
-- [Machine Tools Bootstrap](machine-tools.md) — material dependency
+- [Construction & Structural Engineering](../construction/index.md) — material dependency
+- [Machine Tools Bootstrap](../machine-tools/index.md) — material dependency
 
 ### Knowledge
 
@@ -91,20 +91,38 @@ Carpentry transforms rough-sawn timber into finished structural components, furn
 |-----------|-------|-------|
 | Moisture content (green wood) | 30-100% | Easy to cut, prone to warping on drying |
 | Moisture content (seasoned) | 8-18% | Stable dimensions, harder to work |
-| Plane blade angle | 25-30 degrees | Lower angle for softwoods, higher for hardwoods |
-| Mortise depth | 1.5× tenon width minimum | Deeper for structural joints |
-| Adhesive curing time | 4-24 hours | Varies by adhesive type and temperature |
+| Fiber saturation point | ~30% MC | Below this, wood shrinks; above, it is dimensionally stable but wet |
+| Equilibrium MC (indoors, heated) | 6-10% | Furniture and interior trim must reach this range to avoid post-installation movement |
+| Equilibrium MC (indoors, unheated) | 12-15% | Barns, workshops, sheds |
+| Equilibrium MC (outdoors, covered) | 15-20% | Fences, exterior cladding |
+| Plane blade angle (softwoods) | 25° primary, 30° micro-bevel | Lower angles slice the soft fibers cleanly |
+| Plane blade angle (hardwoods) | 30° primary, 35° micro-bevel | Higher angles prevent edge failure on dense fibers |
+| Plane blade angle (end-grain) | 20° (block plane) | Low angle acts as a shear cut across the tube ends |
+| Plane cutting depth (jack) | 0.5-1.5 mm per pass | Heavy stock removal; surface will be rough |
+| Plane cutting depth (try) | 0.1-0.3 mm per pass | Flattening pass; should produce continuous, even shavings |
+| Plane cutting depth (smoothing) | 0.02-0.1 mm per pass | Produces a surface ready for finish; shavings should be translucent |
+| Mortise depth | 1.5× tenon width minimum | Deeper for structural joints; minimum 25 mm for furniture, 40 mm for timber framing |
+| Tenon thickness | ⅓ stock thickness | Standard proportion; thicker tenons are stronger until they weaken the mortised piece |
+| Dovetail tail angle | 1:6 to 1:8 ratio (7-10°) | Steeper locks harder but weakens tail; shallower approaches finger joint |
+| Adhesive curing time | 4-24 hours | Varies by adhesive type and temperature; hide glue at 20°C cures in 12-24 hours |
+| Adhesive cure temperature | 15-25°C minimum for hide glue | Below 10°C, hide glue gels before penetrating the wood surface |
+| Nailing edge distance | ≥5× nail diameter from edge | Prevents splitting; pre-drill with ⅔ nail diameter bit for hardwoods |
+| Screw pilot hole diameter | 70% of screw shank diameter | In hardwoods; 90% in softwoods to avoid stripping |
+
+**Why plane blade angle matters**: A plane blade is a wedge. At 25°, the wedge is shallow and slices through the wood fibers with relatively little downward force — ideal for softwoods where the fibers compress easily. At 35°, the wedge is steeper, which takes more effort per cut but the edge is stronger and resists chipping on dense hardwoods. End-grain planing at a low angle (20°) shears the tube ends cleanly rather than crushing them, which is why block planes (designed for end-grain) use a low bedding angle. A blade honed to 8000 grit and stropped produces a surface so smooth that light reflects evenly off it, eliminating the need for sanding in many cases.
 
 ## Safety Considerations
 
 This process involves specific hazards requiring trained personnel and protective measures:
 
-- **Cuts and lacerations**: Saw teeth and chisel edges cause deep cuts. Keep tools sharp — dull tools require more force and are harder to control, increasing cut risk.
-- **Splinter injuries**: Wood splinters can embed in skin and cause infection. Pull splinters promptly and clean the wound.
-- **Eye damage**: Flying chips from chisel work and sawing. Safety glasses mandatory for all cutting and striking operations.
-- **Back injuries**: Lifting heavy beams and timber. Use leg lifting technique; get help for loads over 25 kg.
-- **Kickback**: Timber pinched in a saw bind can release violently. Never stand directly behind the cutting line.
-- **Saw dust inhalation**: Prolonged exposure to hardwood dust causes respiratory irritation and long-term nasal effects. Work in ventilated spaces; damp-sweep dust rather than dry-sweeping.
+- **Cuts and lacerations from chisels and saws**: A sharp chisel can penetrate 10-15 mm into flesh with a single uncontrolled push. Always clamp the workpiece and cut away from your body. Keep both hands behind the cutting edge. When paring (hand-pressure chiseling), position your body so that if the chisel slips, it moves away from you, not toward your abdomen or thigh. A chisel slip into the femoral artery is a life-threatening injury requiring immediate tourniquet application.
+- **Saw kickback during rip cuts**: If the wood pinches the blade mid-cut (common in wood with internal stress or tension wood), the saw can bind and buck upward suddenly. Never position your face directly over the cut line while sawing. If the blade starts binding, stop and drive a wedge into the kerf behind the saw to relieve the pinch force before continuing.
+- **Splinter injuries and sepsis**: Wood splinters, especially from hardwoods like oak and teak, can break off beneath the skin. Remove all splinters promptly with tweezers or a sterile needle. Splinters left in tissue can cause localized infections; rose-thorn splinters are particularly prone to causing sporotrichosis (fungal infection). Clean all puncture wounds with antiseptic.
+- **Hardwood dust inhalation**: Prolonged exposure to hardwood dust (oak, beech, mahogany, teak) is a confirmed cause of nasal adenocarcinoma (cancer of the nasal cavity). The risk is dose-dependent: workers exposed to >5 mg/m³ of hardwood dust over years show elevated cancer rates. Wood dust is also a sensitizer — repeated exposure can trigger occupational asthma. Sanding produces the finest, most hazardous dust (particles under 10 microns penetrate deep into the lungs). Work in ventilated spaces; damp-sweep dust rather than dry-sweeping. A simple box fan with a furnace filter taped to the intake provides basic dust collection at bench scale.
+- **Eye damage from chips**: Chisel work and sawing launch chips at high speed. A chisel driven by a mallet can launch a chip fast enough to penetrate the cornea. Safety glasses with side shields are mandatory for all cutting and striking operations. Full face shield for heavy mortising and timber framing work.
+- **Back injuries from heavy lifting**: Oak beams 100×100 mm weigh approximately 5.5 kg per meter. A 3-meter oak beam weighs 16-17 kg. A 200×200 mm oak beam at 3 meters weighs over 90 kg — a two-person lift minimum. Use leg lifting technique; get help for loads over 25 kg. Chronic back injuries from repeated heavy lifting are among the most common long-term disabilities in woodworking trades.
+- **Hearing damage from powered tools**: Powered circular saws and planers produce sustained noise levels of 95-105 dB. Exposure above 85 dB for 8 hours causes measurable hearing loss over time. At 100 dB, damage begins after 2 hours of unprotected exposure. Hearing protection rated NRR 25 or higher is mandatory when operating or working near powered cutting tools.
+- **Fire hazard from sawdust accumulation**: Sawdust and shavings ignite easily and burn fast. A 1 cm layer of fine sawdust on a hot lamp bulb or bearing housing can smolder and ignite. Sawdust suspended in air at concentrations above 40-50 g/m³ forms an explosive mixture — a dust explosion can blow the roof off a workshop. Clean up dust daily. Store waste in metal containers with tight lids, not open piles.
 
 ### Personal Protective Equipment
 
@@ -136,7 +154,8 @@ This process involves specific hazards requiring trained personnel and protectiv
 - **Joint fit test**: Dry-fit all joints before adhesive application. A properly fitted mortise and tenon should hold position by friction alone; a dovetail should seat fully with moderate hand pressure or a single mallet tap.
 - **Moisture content assessment**: Weigh a sample piece, dry it thoroughly in an oven, weigh again. Moisture content = (wet weight - dry weight) / dry weight. Target: 12-18% for structural work, 8-12% for furniture and pattern-making. Excess moisture causes shrinkage, warping, and joint failure after assembly.
 - **Surface quality**: Visual inspection under raking light (light at a low angle across the surface) reveals tool marks, tear-out, and unevenness invisible under direct lighting. Run a fingernail across the surface — any catch indicates a defect requiring further planing or sanding.
-- **Load testing (structural)**: Apply proof loads to beams and joists before installation. A deflection of less than span/360 under rated load indicates adequate stiffness. Check for audible creaking or visible cracking.
+- **Load testing (structural)**: Apply proof loads to beams and joists before installation. A deflection of less than span/360 under rated load indicates adequate stiffness. For a 3-meter span, maximum deflection under load should not exceed 8.3 mm. Check for audible creaking or visible cracking. A white oak beam 100×200 mm spanning 3 meters supports roughly 2,000 kg uniformly distributed before reaching fiber stress at proportional limit — well above typical floor loads of 200-400 kg/m².
+- **Moisture content measurement (oven-dry method)**: Cut a small sample (at least 30 g), weigh immediately (wet weight), dry in an oven at 103±2°C until weight stabilizes (typically 12-24 hours). MC = (wet weight - dry weight) / dry weight × 100%. A handheld pin-type moisture meter reads electrical resistance between two pins driven into the wood and is calibrated to estimate MC. Pin meters are accurate to ±2% in the 6-30% range for most species, but require species-specific correction factors (dense hardwoods read high, low-density species read low).
 
 ### Sampling Protocol
 
@@ -161,27 +180,35 @@ Key scaling challenges: tool sharpening throughput (dull tools are the primary p
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Tear-out when planing | Working against grain direction or blade dull | Reverse workpiece direction; sharpen blade; take lighter cuts |
-| Joints too loose | Over-cut mortise or undersized tenon | Shim with thin veneer strips; recut if gap exceeds 0.5 mm |
-| Warped boards after cutting | Internal stress released by sawing | Rough-cut oversize, allow to rest 24-48 hours, then surface to final dimensions |
-| Splitting when nailing near end | Nails too close to edge or too large | Pre-drill nail holes with a brad awl; use smaller nails or blunt the nail tip |
-| Adhesive joint failure | Surface contaminated or insufficient clamp pressure | Clean mating surfaces; ensure full contact under clamp pressure; check adhesive shelf life |
-| Dull tools requiring excessive force | Blade edge rolled or chipped | Hone on a sharpening stone (coarse then fine); strop to polish the edge |
-| Uneven finish | Inconsistent sanding pressure or skipped grits | Sand progressively through grits (coarse → medium → fine); use a sanding block for flat surfaces |
+| Tear-out when planing | Working against grain direction or blade dull | Reverse workpiece direction; sharpen blade; take lighter cuts (0.02-0.05 mm). For figured grain with no consistent direction, use a high-angle plane (50-55°) or a scraper |
+| Joints too loose | Over-cut mortise or undersized tenon | Shim with thin veneer strips (0.1-0.3 mm); recut if gap exceeds 0.5 mm. For a loose mortise, glue a veneer patch to the tenon face and retrim to fit |
+| Warped boards after cutting | Internal stress released by sawing | Rough-cut oversize (5-10 mm), allow to rest 24-48 hours, then surface to final dimensions. Quarter-sawn boards warp far less than flat-sawn |
+| Splitting when nailing near end | Nails too close to edge or too large | Pre-drill with a brad awl or drill bit (⅔ nail diameter) for hardwoods; blunten the nail tip by tapping it on its head — a blunt nail crushes through fibers rather than wedging them apart |
+| Adhesive joint failure | Surface contaminated, insufficient clamp pressure, or adhesive too cold | Clean mating surfaces; ensure full contact under clamp pressure (hide glue needs 0.5-1.0 MPa clamping pressure); check adhesive temperature — hide glue below 10°C gels before penetrating wood pores. Test glue strength: a good hide glue joint in hardwood should fail in the wood, not at the glue line |
+| Dull tools requiring excessive force | Blade edge rolled or chipped | Hone on a sharpening stone (coarse 220 → medium 1000 → fine 4000); strop to polish the edge. A blade that "dings" (sounds dull when tapped) has a rolled edge and needs regrinding before honing |
+| Uneven finish | Inconsistent sanding pressure or skipped grits | Sand progressively through grits (80 → 120 → 180 → 220 → 320 for furniture); use a sanding block for flat surfaces. Skipping grits leaves deep scratches that the finer grit cannot remove. Final sand with the grain only — cross-grain sanding marks show through any finish |
+| Dovetail gaps visible after assembly | Tails or pins cut outside scribe lines | Saw directly on the waste side of the scribe line, touching it but not crossing it. A 0.2 mm gap is visible; a 0.5 mm gap is unsightly. Practice on scrap until saw accuracy is within 0.2 mm of the line |
+| Mortise walls blown out | Chiseling from outside in rather than center out | Always start mortise cuts 1-2 mm inside the scribe lines and work outward. Support the back face of the workpiece when chopping through — a scrap block clamped behind prevents blowout |
+| Plane iron chatter (vibration marks) | Blade extension too long or chip breaker too far from edge | Adjust blade to extend 0.1-0.3 mm below the sole; position chip breaker 0.5-1.0 mm behind the cutting edge. The chip breaker curls the shaving upward and prevents it from levering the blade edge into tear-out |
+| Glue squeeze-out staining finished surface | Excess adhesive applied or not wiped promptly | Apply glue sparingly to one surface only. Wipe squeeze-out with a damp cloth while still wet (within 2-3 minutes for hide glue). Dried hide glue can be removed with warm water on a cloth without damaging the wood surface |
+| Cupping in wide boards after installation | Flat-sawn board with tangential shrinkage exposed to humidity change | Use quarter-sawn stock for wide panels (>150 mm). If flat-sawn stock must be used, limit board width to 100-120 mm and join multiple boards with tongue-and-groove or spline joints to allow individual movement. Apply finish to all faces (including back and edges) to slow moisture exchange |
 
 ## Variations and Alternatives
 
-- **Green woodworking**: Work freshly felled timber while still wet. Easier to split and shape with drawknives and wedges. Suitable for chairs, baskets, and rustic framing. Components shrink as they dry, tightening joints in some cases (wedge-secured tenons). Requires understanding of differential shrinkage rates.
+- **Green woodworking**: Work freshly felled timber while still wet. Easier to split and shape with drawknives and wedges. Suitable for chairs, baskets, and rustic framing. Components shrink as they dry, tightening joints in some cases (wedge-secured tenons). Requires understanding of differential shrinkage rates. A green oak beam (MC 60-80%) will shrink roughly 5% across its width as it seasons to 15% MC — a 200 mm beam becomes ~190 mm. Design joints to accommodate this movement, or joint green wood to green wood so both pieces shrink together.
 - **Steam bending**: Place wood in a steam box (sealed wooden box with steam inlet) until pliable, then bend around a form and hold until dry and set. Produces curved components without cutting across grain — stronger than sawn curves. Oak, ash, and beech bend well; softwoods bend poorly.
-- **Pattern-making for casting**: A specialized branch of carpentry producing wooden patterns used to form molds in sand. Patterns require draft angles, core prints, and allowances for metal shrinkage. Pattern dimensions must exceed the finished casting by the shrinkage factor of the metal being cast. Basswood and pine are preferred for ease of shaping.
+  - **Steam box parameters**: Steam at 100°C, box temperature 95-100°C. Steaming time: 1 hour per 25 mm of thickness. A 25 mm thick ash strip needs 1 hour of steaming before it will bend to a 75 mm radius without breaking. A 50 mm thick piece needs 2 hours.
+  - **Bending limits**: The compression side of a bend compresses; the tension side stretches. Most woods fail in tension at around 1-2% strain. A 25 mm thick board bent to a 150 mm radius produces roughly 8% surface strain — it will break without a metal compression strap on the outside face. With a strap, the same bend succeeds because the strap takes the tension load and forces the wood to compress instead. Ash with a compression strap can achieve bends as tight as 2:1 ratio (thickness:radius).
+  - **Drying after bending**: Hold the bent piece on its form for 24-48 hours minimum. Full dimensional stability requires drying to the target moisture content while still on the form. A steam-bent chair back removed from its form too early will spring back 10-30° toward its original shape.
+- **Pattern-making for casting**: A specialized branch of carpentry producing wooden patterns used to form molds in sand. Patterns require draft angles (1-3° minimum on all vertical surfaces), core prints, and allowances for metal shrinkage. Pattern dimensions must exceed the finished casting by the shrinkage factor of the metal being cast: iron shrinks ~1% (10 mm per meter), bronze ~1.5% (15 mm per meter), aluminum ~1.7% (17 mm per meter). Basswood and pine are preferred for ease of shaping. A pattern must be smooth, dimensionally stable, and rigid enough to withstand repeated ramming in foundry sand without distortion.
 
 ## References
 
-- [Foundations](foundations.md) — parent capability
+- [Foundations](index.md) — parent capability
 - [Foundations Domain](./index.md) — domain overview and related capabilities
-- [Construction & Structural Engineering](construction.md) — upstream dependency (material)
-- [Machine Tools Bootstrap](machine-tools.md) — upstream dependency (material)
-- [Foundations](foundations.md) — downstream capability
+- [Construction & Structural Engineering](../construction/index.md) — upstream dependency (material)
+- [Machine Tools Bootstrap](../machine-tools/index.md) — upstream dependency (material)
+- [Foundations](index.md) — downstream capability
 
 
 ### Material Handling

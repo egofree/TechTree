@@ -179,6 +179,14 @@ A 20-cow bison herd on 40-80 hectares of native grassland produces 17-19 calves 
 | Low calving rate | Nutritional deficiency, old cows | Assess body condition; cull cows over 20 years; ensure adequate summer pasture |
 | Parasite load | Overstocking, wet conditions | Fecal egg counts; deworm annually if needed; rotate pastures to break parasite cycle |
 
+## Why Bison Are Not Domesticated Cattle
+
+Bison have never been truly domesticated in the way cattle have. Domestication involves many generations of selective breeding for tractability, tameness, and tolerance of human handling. Bison have been managed in captivity for only about 150 years, compared to 10,000+ years for cattle. Their behavioral responses remain wild: flight distance (the distance at which an animal flees from an approaching human) is 30-50 m for bison compared to 2-5 m for domestic cattle. When cornered, bison fight rather than flee. This is why reinforced steel handling facilities are mandatory: a bison challenged by a standard cattle chute will destroy it.
+
+The metabolic differences matter for meat production. Bison digestive systems extract more protein and energy from the same grass compared to cattle. Studies show 15-20% better feed efficiency on native range, which means bison produce more meat per hectare of grassland without grain supplementation. The lean meat (2-3% fat vs 10-15% for beef) is a direct consequence of this efficiency: bison deposit less fat because they convert a higher proportion of feed energy into lean tissue. This makes bison meat faster to cook and easier to overcook, but nutritionally superior.
+
+Why bison withstand extreme cold: the woolly undercoat (qiviut) is structurally similar to muskox wool, with fibers 15-20 microns in diameter that trap an insulating air layer. The coarse outer guard hairs shed snow and rain. Combined with a lower metabolic rate in winter (bison voluntarily reduce feed intake by 20-30% in cold weather), this allows bison to maintain body condition on standing winter pasture at temperatures that would require cattle to be fed 15-20 kg of hay per day in a barn.
+
 ## Safety
 
 **Working with bison is inherently dangerous.** They are not domesticated animals — they are managed wildlife. Even "tame" bison can react unpredictably.

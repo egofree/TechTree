@@ -82,6 +82,23 @@ Friction stir welding uses a non-consumable rotating tool with a profiled pin an
 | Tool Tilt | 1-3° trailing | Improves shoulder contact and material consolidation |
 | Downward Force | 5-50 kN | Depends on material, thickness, and tool design |
 
+### Recommended Parameters by Material and Thickness
+
+| Material | Thickness (mm) | RPM | Traverse (mm/min) | Downward Force (kN) | Tool Material |
+|----------|---------------|-----|--------------------|--------------------|---------------|
+| Al 6061-T6 | 3 | 1200-1800 | 400-800 | 5-10 | H13 steel |
+| Al 6061-T6 | 6 | 800-1200 | 200-400 | 10-20 | H13 steel |
+| Al 6061-T6 | 12 | 400-800 | 80-200 | 20-40 | H13 steel |
+| Al 7075-T6 | 6 | 600-1000 | 150-300 | 15-25 | H13 steel |
+| Al 5083-H321 | 6 | 800-1200 | 200-400 | 10-20 | H13 steel |
+| Mild steel | 3 | 400-600 | 100-200 | 15-25 | PCBN or W-Re |
+| Mild steel | 6 | 300-500 | 50-150 | 25-40 | PCBN or W-Re |
+| Stainless 304 | 3 | 400-600 | 80-150 | 20-30 | PCBN |
+| Copper C110 | 3 | 800-1200 | 200-400 | 8-15 | H13 steel |
+| Ti-6Al-4V | 3 | 400-600 | 80-150 | 15-25 | W-Re alloy |
+
+Tool life: H13 tools last thousands of meters in aluminum but only meters to tens of meters in steel and titanium. This cost differential is the primary reason FSW is widely adopted for aluminum but limited to niche applications for ferrous metals.
+
 The advancing side of the FSW weld (where tool rotation adds to travel direction) typically experiences higher temperatures and more material flow than the retreating side. This asymmetry can produce slightly different microstructures on each side of the weld. For critical applications, weld procedure qualification includes mechanical testing of specimens taken from both sides of the weld centerline.
 
 The thermal cycle experienced by the workpiece during FSW is significantly milder than during fusion welding. Peak temperatures reach 70-90% of the melting point but for a shorter duration, and the cooling rate is slower because the heat input is distributed over a larger volume. This results in less residual stress, less distortion, and a narrower heat-affected zone compared to MIG or TIG welding of the same material thickness.
@@ -151,12 +168,16 @@ The exit hole left when the tool retracts at the end of the weld is an inherent 
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Tunnel defect (internal void) | Insufficient plunge depth or too-fast traverse | Increase tool plunge depth; reduce traverse speed; verify backing support rigidity |
-| Surface galling / excessive flash | Excessive tool shoulder friction or high RPM | Reduce RPM; verify tool shoulder condition; adjust tilt angle |
-| Joint line remnant (kissing bond) | Insufficient material flow around pin | Increase tool rotation speed; decrease traverse speed; check pin profile for wear |
-| Wormhole defect | Too much heat input, material flowing away from pin | Reduce RPM; increase traverse speed; check shoulder concavity |
-| Tool pin breakage | Excessive lateral force or hard spot in material | Reduce traverse speed; pre-inspect material for hard inclusions; reduce pin length-to-diameter ratio |
-| Lack of penetration at root | Pin too short for material thickness | Use longer pin tool; verify plunge depth setting; check backing anvil flatness |
+| Tunnel defect (internal void) | Insufficient plunge depth or too-fast traverse | Increase tool plunge depth by 0.1-0.2 mm; reduce traverse speed by 20-30%; verify backing support rigidity |
+| Surface galling / excessive flash | Excessive tool shoulder friction or high RPM | Reduce RPM by 15-20%; verify tool shoulder condition; adjust tilt angle to 2-3° trailing |
+| Joint line remnant (kissing bond) | Insufficient material flow around pin | Increase tool rotation speed by 10-20%; decrease traverse speed; check pin profile for wear beyond 0.2 mm |
+| Wormhole defect | Too much heat input, material flowing away from pin | Reduce RPM by 20%; increase traverse speed by 15-25%; check shoulder concavity is 2-5° |
+| Tool pin breakage | Excessive lateral force or hard spot in material | Reduce traverse speed by 25%; pre-inspect material for hard inclusions; reduce pin length-to-diameter ratio to below 3:1 |
+| Lack of penetration at root | Pin too short for material thickness | Use longer pin tool; verify plunge depth setting; check backing anvil flatness (must be within 0.1 mm over joint length) |
+| Surface groove along weld center | Tool shoulder not fully contacting the crown | Increase downward force by 2-5 kN; verify shoulder diameter is 2.5-3× pin diameter; check for tool tilt error |
+| Cavity at weld end (exit hole) | Tool retracts before material consolidates | Use run-off tab extending 20-30 mm beyond the structural joint; accept exit hole in non-critical tab area |
+| Hook defect (in lap joints) | Upward bending of sheet interface on advancing side | Reduce plunge depth; use bobbin tool for lap joints; orient joint so hook deflects away from loading direction |
+| Inconsistent weld strength along length | Tool wear during long welds (steel/titanium) | Replace tool per schedule (measure wear after each weld in steel); monitor spindle torque for drift; rotate to fresh tool position |
 
 ## Variations and Alternatives
 

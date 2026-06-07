@@ -2,8 +2,8 @@
 
 > **Node ID**: metals.blacksmithing
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`Machine Tools Bootstrap`](machine-tools.md), [`Construction & Structural Engineering`](construction.md)
-> **Enables**: [`Furnace Design Principles`](furnace-design.md), [`Iron & Steel Production`](iron-steel.md)
+> **Dependencies**: [`Machine Tools Bootstrap`](../machine-tools/index.md), [`Construction & Structural Engineering`](../construction/index.md)
+> **Enables**: [`Furnace Design Principles`](../energy/furnace-design.md), [`Iron & Steel Production`](iron-steel.md)
 > **Timeline**: Years 5-15
 > **Outputs**: hand-forged-tools, hardware-fittings, wrought-iron-goods
 > **Critical**: No
@@ -16,9 +16,42 @@ The forge is the central tool. A hearth raised to a convenient working height, w
 
 Blacksmithing requires reading the color of heated metal to judge temperature. Dark red (~550°C) marks the lower working range. Bright orange (~900°C) is the primary forging range. Bright yellow to white (~1200-1300°C) is reserved for heavy forging and forge welding. Each operation (drawing out, upsetting, bending, punching, drifting, and forge welding) has specific temperature requirements and hammer techniques.
 
+**Why temperature control matters**: Iron and steel undergo a crystal structure transformation (ferrite BCC to austenite FCC) at the critical temperature (727-912°C depending on carbon content). Below this transformation, the metal is rigid and resists deformation. Above it, the FCC austenite structure allows dislocations to move freely, making the metal plastic under hammer blows. Working below the critical temperature causes the metal to crack along grain boundaries rather than deform. Working too far above it burns the steel (grain boundary oxidation), producing a crumbly, sparkly surface that cannot be repaired. The visible color change corresponds to these metallurgical transitions with reasonable accuracy.
+
 Primary outputs: `hand-forged-tools`, `hardware-fittings`, `wrought-iron-goods`.
 
 Coal forges are the simplest to build and operate. A firepot (cast iron or steel plate) holds the burning coal, which is converted to coke around the edges by the heat of the fire. A centrifugal blower or bellows supplies air through a tuyere at the bottom of the firepot. The smith builds a "coke cave" of burning fuel over the work zone, providing a hot, reducing environment that minimizes scale formation on the steel. Gas forges (propane or natural gas) offer cleaner operation and faster heat-up but require a fuel supply. Induction forges heat electrically and produce no combustion gases, but need electricity and are limited to ferrous metals.
+
+### Heat Color Chart for Steel
+
+The primary temperature control method in a smithy without instruments. Colors are visible in a dim forge area; bright daylight makes colors below ~700°C invisible.
+
+| Temperature (°C) | Color | Operation | Metallurgical State |
+|-------------------|-------|-----------|-------------------|
+| 200-290 | Pale straw to brown oxide (on polished surface) | Tempering cutting tools | Tempered martensite |
+| 290-340 | Purple to dark blue oxide | Tempering springs, impact tools | Tempered martensite |
+| 550 | Dark red (first visible glow in dark) | Lower limit for working | Below critical temperature; cracking risk |
+| 650 | Dark cherry red | Annealing, stress relief | Approaching critical temperature |
+| 700-780 | Cherry red | Normalizing, bending | Austenite transformation begins |
+| 780-850 | Bright cherry red | Hardening quench temperature for ~0.8% C steel | Full austenite (quench to martensite) |
+| 850-950 | Bright red to orange | General forging of steel | Austenite, good plasticity |
+| 950-1050 | Bright orange | Heavy forging, drawing out | Austenite, maximum plasticity |
+| 1050-1150 | Yellow | Upsetting, punching, forge welding prep | Austenite, grain growth risk if held too long |
+| 1200-1300 | Bright yellow to white | Forge welding | Near burning point; act fast |
+| 1300+ | White, sparking | Burning (destructive) | Grain boundary oxidation; scrap |
+
+**Why the color changes**: Black-body radiation shifts from infrared (invisible) at low temperatures through the visible spectrum as temperature increases. The first visible glow (dark red, ~550°C) marks the lower boundary of hot working. The color-to-temperature mapping is consistent enough for practical work, with an accuracy of roughly ±25°C in a dim forge setting.
+
+### Forge Temperature by Metal
+
+| Metal | Forging Range (°C) | Color | Critical Notes |
+|-------|---------------------|-------|---------------|
+| Wrought iron | 800-1100 | Bright red to orange | Fibrous slag melts ~1200°C; do not exceed |
+| Mild steel (1020) | 900-1150 | Orange to yellow | Very forgiving; wide working range |
+| Medium carbon (1045) | 850-1100 | Bright red to yellow | Narrower range; watch for burning above 1100°C |
+| High carbon (1095) | 800-1050 | Cherry red to orange | Burns easily above 1050°C; use lower temperatures |
+| Tool steel (O1, W1) | 850-1050 | Bright red to orange | Very narrow range; must not overheat |
+| Cast iron | Not forgeable | — | Brittle at all temperatures; shatters under hammer |
 
 ## Prerequisites
 
@@ -31,12 +64,27 @@ Coal forges are the simplest to build and operate. A firepot (cast iron or steel
 
 ### Equipment
 
-- [Machine Tools Bootstrap](machine-tools.md) — material dependency
-- [Construction & Structural Engineering](construction.md) — material dependency
+- [Machine Tools Bootstrap](../machine-tools/index.md) — material dependency
+- [Construction & Structural Engineering](../construction/index.md) — material dependency
 - Forge (coal, gas, or induction) with blower or bellows and chimney hood
-- Anvil (minimum 75 kg) mounted on a heavy wooden stump
+- Anvil (minimum 75 kg) mounted on a heavy wooden stump at knuckle height (wrist height when standing relaxed beside the anvil)
 - Hammers: cross-peen (1-2 kg), straight-peen (1.5-3 kg), ball-peen (0.5-1 kg), sledge (4-8 kg)
 - Tongs: flat jaw, round jaw, bolt jaw (at minimum), fitted to the stock sizes being worked
+
+### Tong Selection Guide
+
+Tongs must grip the stock firmly without slipping. Using the wrong size or style of tongs is the most common cause of workpiece loss (it flies across the shop) and hand injuries. The jaw shape must match the stock cross-section.
+
+| Tong Type | Jaw Shape | Stock Size | Use |
+|-----------|-----------|------------|-----|
+| Flat jaw | Flat inside, parallel | 3-12 mm flat bar | Flat stock, sheet, small bars |
+| Round jaw (V-bit) | V-groove inside | 6-25 mm round/square | Round and square bar (most versatile) |
+| Bolt jaw | Recessed jaw with box | Specific bolt head size | Holding bolt heads during forging |
+| Pickup tongs | Wide, flat jaws | Any width | General purpose, sheet metal |
+| Square jaw | Flat with 90° inside | 6-20 mm square | Square stock |
+| Scroll tongs | Curved jaws | — | Holding scrollwork without marring |
+
+**Rule of thumb**: The tong jaws should contact at least 60% of the stock surface. If the stock slides in the tongs with a firm squeeze, the tongs are too large or the wrong style. Heat the jaws and hammer them to fit the stock if needed ("fitting tongs to the work"). A smith typically needs 5-10 pairs of tongs in different sizes and styles for general work.
 - Swages and fullers for shaping consistent profiles
 - Vise (leg vise preferred over machinist vise for hammering)
 - Quench tank (water, oil) positioned within arm's reach of the anvil
@@ -67,11 +115,23 @@ Coal forges are the simplest to build and operate. A firepot (cast iron or steel
 ### Step-by-Step Procedure
 
 1. Build and maintain the forge fire. For a coal forge: clear the firepot, add fresh coke, open the air blast, and build a mound of burning coke around the work zone. The goal is a deep, clean fire with a reducing atmosphere (excess fuel, not excess air) to minimize scale formation.
+
+**Why a reducing atmosphere matters**: Steel in an oxidizing fire (excess air) forms iron oxide scale (FeO, Fe₂O₃, Fe₃O₄) at 1-3 mm per hour of heating. Scale is waste metal that cannot be recovered and produces rough surfaces on the finished work. A deep, coke-covered fire with limited air ingress maintains a CO-rich atmosphere that prevents scale formation.
+
 2. Heat the workpiece to forging temperature in the fire. For steel, this means bright orange to yellow (~900-1100°C). For wrought iron, bright red to orange (~800-900°C). Rotate the stock to heat evenly. Do not let the metal sit in the fire longer than needed.
+
 3. Remove the workpiece from the forge with the correct tongs (the tongs must grip the stock firmly; if they slip, the piece flies across the shop). Position on the anvil and begin shaping.
+
 4. For drawing out: strike with the cross-peen hammer at an angle to the workpiece, then flatten the ridges with the flat face. Work from the center outward for even lengthening. Keep the metal hot; return to the forge as soon as the color drops below bright red.
+
+**Why drawing out works**: The cross-peen concentrates hammer force into a narrow band, compressing the metal perpendicular to the peen and causing it to elongate in the direction of least resistance. The flat face then smooths the ridges. This two-step sequence (concentrate force, then flatten) is more efficient than using only the flat face, which would spread the metal in all directions equally.
+
 5. For upsetting: heat the end of the bar to bright orange, stand the bar vertically on the anvil face, and strike the top end with the sledge hammer. Drive the metal back into itself to thicken the heated portion.
+
+**Why upsetting works**: At bright orange (~900°C), the austenite steel is plastic. The hammer blow compresses the hot end, and since the bar body below is cooler and stiffer, the plastic deformation concentrates in the heated zone. The metal thickens because it cannot easily elongate (constrained by the bar body) and instead expands laterally. The critical requirement is a steep temperature gradient: if the entire bar is hot, it buckles rather than upsets.
+
 6. For punching and drifting: heat the workpiece to bright yellow, position on the anvil (over the hardie hole for through-punching), drive the punch with the sledge, clear the punch frequently to avoid sticking, then drift the hole to final size with a tapered drift pin.
+
 7. Allow the finished piece to cool at a rate appropriate to the material and application. Normalize if needed: heat to medium red and cool in still air.
 8. Inspect for cracks, dimensional accuracy, and surface quality. File or grind to final dimensions.
 
@@ -98,9 +158,15 @@ Prepare the joint by scarfing: each piece is upset at the end and then hammered 
 
 After forging, steel tools require heat treatment to achieve the desired hardness and toughness. Normalize by heating to a medium red (~700°C) and allowing to cool in still air. This relieves forging stresses and refines the grain structure.
 
+**Why normalizing refines grain**: Forging at high temperatures causes austenite grains to grow (grain coarsening). When the steel cools through the transformation temperature, each prior austenite grain transforms into multiple new ferrite-pearlite grains. Normalizing from just above the critical temperature produces fine, uniform grains because the austenite grains start small (limited time for growth at moderate temperature) and transform to a fine ferrite-pearlite structure on air cooling. Fine grains mean higher toughness and more uniform response to subsequent hardening.
+
 Harden by heating to bright red (the critical temperature depends on carbon content; ~780°C for medium carbon steel) and quenching in water or oil. Water produces harder but more brittle results; oil is milder and less likely to crack the workpiece. Quench edge-first and agitate to break the vapor jacket that forms around the hot metal.
 
+**Why quenching hardens**: When austenite (FCC, which can dissolve carbon) is cooled slowly, carbon diffuses out and forms soft ferrite + pearlite. When cooled fast enough (water or oil quench), the crystal structure transforms to martensite (BCT) before carbon can diffuse. The trapped carbon atoms distort the lattice, creating internal stresses that resist deformation. This is what makes martensite hard. The required cooling rate depends on carbon content: higher carbon steels harden more easily but crack more readily during quenching.
+
 Temper immediately after hardening by reheating to a low temperature. The traditional method judges temperature by the oxide color that forms on a polished surface: pale straw (~200°C) for cutting tools that must hold a sharp edge, dark straw (~240°C) for punches and chisels, purple (~280°C) for tools needing moderate toughness, and dark blue (~320°C) for springs and items requiring maximum toughness with less hardness. Allow to cool slowly after tempering.
+
+**Why tempering is necessary**: As-quenched martensite is hard but extremely brittle (impact toughness near zero). Tempering allows some of the trapped carbon to precipitate as tiny carbide particles, relieving internal stress while retaining most of the hardness. Higher tempering temperatures produce more carbide precipitation and stress relief, trading hardness for toughness. This tradeoff is controllable: the oxide colors on a polished surface indicate temperature within ±15°C, which is precise enough for practical work.
 
 ## Safety Considerations
 
@@ -164,14 +230,21 @@ Key scaling bottleneck: skilled labor. Blacksmithing requires years of practice 
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Cracks in forged work | Working below bright red; too-heavy blows on cold metal | Reheat to forging temperature before continuing; use lighter blows |
-| Burning the steel | Overheating past bright yellow; steel sparkles and melts | Reduce air blast; pull from fire as soon as color is right |
-| Forge weld fails to take | Insufficient heat, dirty surfaces, or no flux | Reheat to welding heat; wire-brush joint surfaces; apply fresh flux |
-| Warped after hardening | Uneven cooling during quench | Quench vertically, edge-first; agitate; temper immediately |
-| Excessive scale buildup | Too much air (oxidizing atmosphere) in the forge | Reduce air blast; build a deeper fire with more coke around the work |
-| Decarburized surface | Steel held at high temperature too long in oxidizing atmosphere | Minimize time in the fire; use a reducing fire; forge quickly |
-| File bites into hardened tool | Incomplete hardening or wrong quench | Verify steel type (spark test); reheat to correct temperature; quench more aggressively |
-| Cold shuts in the work | Metal folded over on itself without welding | Grind out the fold; re-forge that section; keep the metal cleaner during shaping |
+| Cracks in forged work | Working below bright red (~550°C); too-heavy blows on cold metal | Reheat to 900-1100°C before continuing; use lighter blows; never strike metal that has lost its visible glow |
+| Burning the steel | Overheating past bright yellow (~1200°C); steel sparkles and melts | Reduce air blast; pull from fire as soon as color is right; burned steel cannot be repaired, cut out and reweld |
+| Forge weld fails to take | Insufficient heat (<1200°C), dirty surfaces, or no flux | Reheat to bright yellow-white (1200-1300°C); wire-brush joint surfaces to bare metal; apply fresh borax or silica sand flux |
+| Warped after hardening | Uneven cooling during quench; asymmetric shape | Quench vertically, edge-first; agitate in figure-8 pattern; temper immediately at 200-320°C |
+| Excessive scale buildup | Too much air (oxidizing atmosphere) in the forge | Reduce air blast by 30-50%; build a deeper fire with 5-8 cm of coke around the work |
+| Decarburized surface (soft skin) | Steel held at >900°C too long in oxidizing atmosphere | Minimize time in the fire to under 5 min per heat; use a reducing fire (excess coke, limited air) |
+| File bites into hardened tool | Incomplete hardening or wrong quench media | Verify steel type by spark test (high C = dense short sparks); reheat to 780-850°C for 0.8% C steel; quench in water not oil for thin sections |
+| Cold shuts in the work | Metal folded over on itself without welding at <1000°C | Grind out the fold completely; re-forge that section at 900-1100°C; keep metal surfaces clean during shaping |
+| Hammer face chipping | Striking hardened steel with hardened hammer face | Never strike hammer on hammer or hardened steel on hardened steel; use a soft (annealed) drift between hammer and hardened work |
+| Drift punch stuck in hole | Punch driven too deep without clearing; metal shrinks on cooling | Drive the punch from the opposite side with a sledge; if stuck fast, reheat the workpiece to orange and the punch will loosen |
+| Steel splits at punched hole | Punching below 1000°C; punch diameter too large relative to stock thickness | Punch only at bright yellow (1100°C+); limit punch diameter to 1/3 of stock thickness; use pilot punch then drift to size |
+| Anvil ring too loud or dead | Anvil loose on stump; face cracked or chipped | Retighten anvil to stump with iron bands or spikes; inspect face for cracks (a cracked anvil produces dead sound and mars work) |
+| Tongs slipping on stock | Wrong jaw size or style for the stock; jaws worn smooth | Fit tongs to the work by heating jaws and hammering to contour; use V-bit tongs for round stock; replace worn tongs |
+| Uneven drawing (taper goes crooked) | Hammering off-center; workpiece not rotated | Mark center of bar with a chalk line; rotate 90° between passes; use the anvil edge as a straight reference |
+| Layer separation in forge weld | Oxide inclusion between layers; insufficient flux | Wire-brush both surfaces to bare metal before positioning; apply flux generously; heat to full welding temperature (1200-1300°C) before striking |
 
 ## Variations and Alternatives
 
@@ -190,11 +263,11 @@ Keep finished forged goods organized by type and material. Lightly oil steel ite
 
 ## References
 
-- [Metals](metals.md) — parent capability
+- [Metals](index.md) — parent capability
 - [Metals Domain](./index.md) — domain overview and related capabilities
-- [Machine Tools Bootstrap](machine-tools.md) — upstream dependency (material)
-- [Construction & Structural Engineering](construction.md) — upstream dependency (material)
-- [Furnace Design Principles](furnace-design.md) — downstream capability
+- [Machine Tools Bootstrap](../machine-tools/index.md) — upstream dependency (material)
+- [Construction & Structural Engineering](../construction/index.md) — upstream dependency (material)
+- [Furnace Design Principles](../energy/furnace-design.md) — downstream capability
 - [Iron & Steel Production](iron-steel.md) — downstream capability
 
 ---

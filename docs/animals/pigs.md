@@ -215,6 +215,20 @@ A founding pair (1 sow + 1 boar) produces 16-24 piglets in the first year — su
 | Sow not milking | Mastitis, poor body condition | Check udder for heat/swelling; increase feed to ad libitum during lactation |
 | Escape | Inadequate fencing | Electric fence at 3,000-5,000 V; check for gaps under gates; bury wire 15 cm |
 
+## Why Pigs Are the Most Efficient Meat Producers
+
+Pigs convert feed to meat at 2.5-3.5 kg feed per kg of gain, the best ratio among large livestock (broiler chickens are slightly better at 1.5-1.8:1 but at much smaller individual weights). Three factors drive this efficiency.
+
+**Monogastric digestion**: Unlike cattle and sheep, pigs have a single-chambered stomach similar to humans. This means they digest concentrated feeds (grain, protein supplements) with very little waste, extracting 75-85% of available energy. Ruminants lose energy to methane production and microbial fermentation of low-quality fiber. Pigs skip that step and go straight to absorbing nutrients.
+
+**High dressing percentage**: Pigs yield 70-80% of live weight as usable carcass, compared to 55-60% for cattle and 50-55% for sheep. This is partly because pigs carry less bone relative to body weight, partly because a large proportion of the non-meat carcass (fat, skin, organs) is usable. Lard, skin for leather, blood for sausages, intestines for casings, bristles for brushes: nearly every part of a pig has a use.
+
+**Reproductive rate**: A sow produces two litters of 8-12 piglets per year, yielding 16-24 market pigs annually. Compare this to a cow producing one calf per year, or a ewe producing 1-3 lambs. The rapid generation time means pigs convert feed investment into marketable meat faster than any other large livestock species.
+
+Why pigs cannot sweat: Pigs have very few functional sweat glands. Above 25°C, they rely on behavioral thermoregulation: wallowing in mud, seeking shade, and panting. Wallowing is not a sign of poor hygiene; it is survival. The mud coating also protects their light-colored skin from sunburn. Without access to mud or water for cooling above 25°C, pigs reduce feed intake by 20-40% and growth rate drops proportionally. Above 35°C without cooling, heat stroke kills.
+
+Why waste feeding works so well with pigs: Because pigs are monogastric, they can digest the same foods humans eat. This makes them the ideal waste recycler in a settlement. Whey from cheese making, spent brewery grain, fruit and vegetable culls, kitchen scraps, and crop residues all convert to pig meat. The dairy-pig integration is one of the oldest and most efficient farming combinations: milk the cow, make cheese, feed the whey to pigs. Each liter of whey (which contains 6-8 g of protein) replaces roughly 100 g of purchased grain in the pig's diet.
+
 ## Safety
 
 **Boar handling**: Boars weigh 200-350 kg with tusks that inflict severe lacerations. Never turn your back on a boar. Use a boar board (1 m × 1.2 m solid barrier) during handling. Boars signal aggression by chomping (jaw clicking), frothing, and sidling up broadside. If charged, get behind a solid barrier — do not wrestle a charging boar.

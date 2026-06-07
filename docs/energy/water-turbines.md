@@ -116,12 +116,40 @@ Choosing the correct turbine type depends entirely on the site's head and flow c
 - **Low head (1-15 m), high flow**: Kaplan turbine. Large rivers, low dams, tidal barrages. Francis turbines are impractical here because the runner diameter would be enormous.
 - **Very low head (<3 m), variable flow**: Bulb turbine (Kaplan variant). Run-of-river on large flat rivers.
 
+## Turbine Construction Process (Francis, Medium-Head)
+
+A step-by-step sequence for building a Francis turbine unit at a site with 30-100 m head and 1-10 m³/s flow:
+
+1. **Site preparation and civil works**: Excavate the powerhouse foundation to bedrock or competent soil. Pour concrete foundation (0.5-1.0 m thick, reinforced) sized for the turbine and generator weight plus dynamic loads (2-3× static weight). Install anchor bolts for the turbine pedestal on 300-500 mm centers. Cast the draft tube elbow into the concrete, positioning the runner centerline 2-5 m below minimum tailwater level to suppress cavitation.
+
+2. **Install the spiral casing (volute)**: Set the welded steel scroll casing on the foundation, aligned with the penstock inlet. The casing inlet diameter matches the penstock (0.5-2.0 m for medium installations). Grout beneath the casing for full bearing. The scroll cross-section decreases from inlet to the closing point, maintaining constant velocity around the circumference. Typical casing wall thickness: 12-25 mm for 50 m head, 25-40 mm for 200 m head.
+
+3. **Install wicket gate mechanism**: Mount 12-24 guide vanes on individual pins in the vane ring. Connect all vanes to the regulating ring via linkages. Install the servomotor (hydraulic cylinder, 100-300 mm bore, 200-500 mm stroke) that drives the regulating ring. Verify all vanes move synchronously — maximum deviation between any two vanes must not exceed 2° at any opening position. Adjust linkage rod lengths to achieve synchronization.
+
+4. **Install the runner**: Lower the cast steel runner (200-1500 mm diameter depending on head and flow) into the casing through the top opening. The runner mounts on the vertical shaft (100-300 mm diameter alloy steel). Running clearance between runner bands and casing: 0.5-1.5 mm (measured with feeler gauges at four cardinal points). The runner is the most precision component — blade profiles accurate to ±1 mm.
+
+5. **Set the generator coupling**: Align the turbine shaft and generator shaft within 0.05 mm offset and 0.02 mm/m angularity using dial indicators. For direct-coupled units at 500-750 RPM, even slight misalignment causes bearing failure within weeks. Install a flexible coupling to absorb residual thermal growth.
+
+6. **Connect the penstock**: Weld or flange the penstock to the spiral casing inlet. Install a main isolation valve (butterfly or gate valve, sized to match penstock diameter) upstream of the casing. Install a trash rack (bar spacing 30-50 mm) at the intake structure.
+
+7. **Commission the governing system**: Fill the penstock slowly (fill rate <0.5 m/s velocity to prevent water hammer). Test wicket gate operation through full open-close cycle with unit dewatered. Calibrate the governor: set speed droop to 4-5% for isolated operation, 0-2% for grid-connected operation. Verify overspeed trip activates at 1.15× rated speed.
+
+8. **First run and load test**: Crack the wicket gates to start rotation. Verify the unit reaches rated speed with governor control. Check bearing temperatures every 5 minutes for the first hour — bearing temperatures must stabilize below 65°C (babbitt) or 80°C (rolling element). Apply load in 25% increments to rated power. Verify vibration levels below 2.5 mm/s RMS at all bearing locations.
+
+
 ## Safety and Hazards
 
-- **Cavitation damage**: Causes pitting of runner blades, vibration, and eventual structural failure. Monitor for noise (sounds like gravel in the turbine), vibration, and performance drop. Repair pitted surfaces promptly — cavitation accelerates once pits form (they act as nucleation sites for more bubbles).
-- **Water hammer**: Rapid valve closure on a long penstock creates a pressure shock wave that travels at the speed of sound in water (~1400 m/s). The resulting pressure spike can burst pipes or damage turbine casings. Prevention: surge tanks (standpipe on the penstock that absorbs the shock), slow-closing valves, jet deflectors (Pelton) that reduce power without closing the nozzle.
-- **Runner runaway**: If the generator disconnects from the grid (load rejection) and the wicket gates fail to close, the turbine accelerates to runaway speed — typically 1.8-2.5× rated speed. Centrifugal forces scale with the square of speed — a 2× overspeed quadruples stress. Structural failure is possible. Prevention: governor-closed wicket gates with independent overspeed trip, jet deflectors (Pelton), and emergency gate upstream that can drop closed.
-- **Entrapment and drowning**: Turbine pits and draft tube areas are confined spaces with water hazards. Lock-out/tag-out before entering. Ventilate confined spaces. Never enter a turbine pit without verifying isolation.
+- **Cavitation damage**: Causes pitting of runner blades, vibration, and eventual structural failure. Monitor for noise (sounds like gravel in the turbine), vibration, and performance drop. Repair pitted surfaces promptly — cavitation accelerates once pits form (they act as nucleation sites for more bubbles). The required submergence depth below tailwater (NPSH) can be calculated: NPSH_required ≈ (1.1-1.3) × σ × H, where σ is the Thoma cavitation coefficient (0.05-0.20 for Francis turbines, decreasing with specific speed) and H is the net head. Running with submergence less than NPSH_required causes cavitation within hours.
+
+- **Water hammer**: Rapid valve closure on a long penstock creates a pressure shock wave that travels at the speed of sound in water (~1400 m/s). The resulting pressure spike ΔP = ρ × c × Δv can burst pipes or damage turbine casings. For a penstock flowing at 3 m/s: ΔP = 1000 × 1400 × 3 = 4.2 MPa (42 bar). Prevention: never close valves faster than the critical time T = 2L/c (where L = penstock length). Install surge tanks (standpipe on the penstock that absorbs the shock) sized so the water level rise absorbs the momentum without overflow. Slow-closing valves (closure time >2L/c). Jet deflectors (Pelton) reduce power without closing the nozzle.
+
+- **Runner runaway**: If the generator disconnects from the grid (load rejection) and the wicket gates fail to close, the turbine accelerates to runaway speed — typically 1.8-2.5× rated speed. Centrifugal forces scale with the square of speed — a 2× overspeed quadruples stress. The disc burst speed for a Francis runner is approximately 2.5-3.5× rated speed; approaching this causes catastrophic disintegration with fragments ejected at hundreds of m/s. Prevention: governor-closed wicket gates with independent overspeed trip (must trip at 1.15-1.20× rated speed), jet deflectors (Pelton), and an emergency gate upstream that can drop closed under gravity within 30-60 seconds.
+
+- **Entrapment and drowning**: Turbine pits and draft tube areas are confined spaces with water hazards. The draft tube can have 2-5 m of standing water even when the unit is shut down. Lock-out/tag-out the main isolation valve and verify zero flow before entering. Use a calibrated flow indicator to confirm penstock isolation. Ventilate confined spaces (CO₂ can accumulate from decomposing organic matter in the tailrace). Never enter a turbine pit alone. Install permanent rescue harness attachment points above the draft tube access.
+
+- **Penstock pressure hazard**: Penstocks at 50 m head operate at ~5 bar; at 200 m head, ~20 bar. A burst penstock joint releases high-velocity water capable of sweeping away personnel and equipment. Inspect penstock welds and flanges annually. Pressure-test new penstock sections at 1.5× working pressure before commissioning. Install pressure relief valves rated at 1.1× maximum working pressure.
+
+- **Electrical hazard**: The generator produces 400-11,000 V depending on size. Ground the turbine shaft and casing. Install shaft grounding brushes to prevent bearing currents. Verify lockout/tagout procedures before any mechanical work on the unit.
 
 ## Cross-References
 

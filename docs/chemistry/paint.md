@@ -2,7 +2,7 @@
 
 > **Node ID**: chemistry.paint
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Metal Finishing & Surface Treatment`](finishing.md), [`Construction & Structural Engineering`](construction.md)
+> **Dependencies**: [`Metal Finishing & Surface Treatment`](../metals/finishing.md), [`Construction & Structural Engineering`](../construction/index.md)
 > **Enables**: [`Paints, Coatings & Inks`](coatings.md)
 > **Timeline**: Years 15-25
 > **Outputs**: tio2-pigments, alkyd-paints, zinc-oxide-coatings
@@ -31,8 +31,8 @@ Titanium dioxide (TiO₂) is the most important white pigment, with unmatched op
 
 ### Equipment
 
-- [Metal Finishing & Surface Treatment](finishing.md) — material dependency
-- [Construction & Structural Engineering](construction.md) — material dependency
+- [Metal Finishing & Surface Treatment](../metals/finishing.md) — material dependency
+- [Construction & Structural Engineering](../construction/index.md) — material dependency
 - Digestion tanks (acid-resistant, lead-lined or rubber-lined steel) for ilmenite acid attack
 - Rotary kiln or fluidized bed calciner for TiO₂ calcination at 800-1000°C
 - Three-roll mill or bead mill for pigment dispersion into the binder
@@ -173,10 +173,10 @@ TiO₂ nanoparticles (used in some specialty paints and sunscreens) have raised 
 
 ## References
 
-- [Chemistry](chemistry.md) — parent capability
+- [Chemistry](index.md) — parent capability
 - [Chemistry Domain](./index.md) — domain overview and related capabilities
-- [Metal Finishing & Surface Treatment](finishing.md) — upstream dependency (material)
-- [Construction & Structural Engineering](construction.md) — upstream dependency (material)
+- [Metal Finishing & Surface Treatment](../metals/finishing.md) — upstream dependency (material)
+- [Construction & Structural Engineering](../construction/index.md) — upstream dependency (material)
 - [Paints, Coatings & Inks](coatings.md) — downstream capability
 
 ### Material Handling

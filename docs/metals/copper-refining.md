@@ -2,8 +2,8 @@
 
 > **Node ID**: metals.copper-refining
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`Electronics`](electronics.md), [`Electricity Generation & Distribution`](electricity.md)
-> **Enables**: [`Electrolysis`](electrolysis.md), [`Copper & Bronze Production`](copper-bronze.md)
+> **Dependencies**: [`Electronics`](../electronics/index.md), [`Electricity Generation & Distribution`](../energy/electricity.md)
+> **Enables**: [`Electrolysis`](../chemistry/electrolysis.md), [`Copper & Bronze Production`](copper-bronze.md)
 > **Timeline**: Years 15-25
 > **Outputs**: refined-copper, electrolytic-copper, copper-cathodes
 > **Critical**: No
@@ -37,8 +37,8 @@ Primary outputs: `refined-copper`, `electrolytic-copper`, `copper-cathodes`.
 
 ### Equipment
 
-- [Electronics](electronics.md) — material dependency
-- [Electricity Generation & Distribution](electricity.md) — material dependency
+- [Electronics](../electronics/index.md) — material dependency
+- [Electricity Generation & Distribution](../energy/electricity.md) — material dependency
 - Reverberatory furnace or rotary anode furnace for fire refining, with fume collection hood
 - Anode casting wheel or molds for casting fire-refined anodes
 - Electrolytic tank house with polymeric or concrete tanks lined with lead or polymer
@@ -107,6 +107,40 @@ Primary outputs: `refined-copper`, `electrolytic-copper`, `copper-cathodes`.
 
 The energy consumption of electrolytic refining is roughly 250-350 kWh per tonne of cathode copper. This is modest compared to the energy used in smelting, but it adds up at production scale. A tank house producing 500 tonnes per day of cathode copper draws 10-15 MW of electrical power continuously. The cost of this electricity is a significant operating expense.
 
+### Current Efficiency and Faraday's Law
+
+The theoretical copper deposition rate follows Faraday's law: 1 gram of copper requires 2.98 ampere-hours (equivalent weight of Cu = 31.77 g/eq, Faraday constant = 96,485 C/eq). In practice, current efficiency is 85-95% because some current is lost to side reactions (hydrogen evolution, impurity dissolution) and short circuits.
+
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| Cu deposited per kAh | 1.186 kg (theoretical) | Faraday's law: mass = (I × t × M) / (n × F) |
+| Cu deposited per kAh (practical) | 1.01-1.13 kg | At 85-95% current efficiency |
+| Anode consumption rate | 1.01-1.05× cathode weight | Anode dissolves slightly faster due to impurity mass |
+| Cathode weight at harvest | 8-15 kg per plate | Depends on cycle length and current density |
+| Typical cycle time | 14-21 days | At 220-280 A/m² current density |
+| Slime yield | 5-15 kg per tonne anode | Higher for impure blister copper |
+| Precious metal in slimes | Au: 10-1000 g/t, Ag: 500-50,000 g/t | Varies widely with ore source |
+
+**Why current efficiency matters**: A 1% drop in current efficiency (e.g., from 92% to 91%) on a 100,000 tonne/year tank house wastes roughly 75,000 kWh/year and reduces copper production by 1,000 tonnes/year. The two main causes of current efficiency loss are short circuits (detectable by infrared scanning) and stray current leakage through grounded tank hardware (detectable by measuring current balance across the circuit).
+
+### Anode Composition Specifications
+
+| Impurity | Maximum in Anode (%) | Behavior in Cell |
+|----------|----------------------|------------------|
+| Oxygen | 0.1-0.3% | Dissolves as Cu₂O; helps anode dissolution |
+| Nickel | 0.1-0.5% | Dissolves into electrolyte; must be bled off |
+| Arsenic | 0.01-0.2% | Partially dissolves; must be controlled to prevent co-deposition |
+| Antimony | 0.01-0.1% | Forms floating slimes; can cause cathode contamination |
+| Bismuth | 0.001-0.01% | Most harmful; co-deposits at ppb levels degrade conductivity |
+| Lead | 0.05-0.2% | Forms PbSO₄ slimes; generally benign |
+| Selenium | 0.01-0.1% | Reports to slimes as Cu₂Se, Ag₂Se |
+| Tellurium | 0.001-0.01% | Reports to slimes; toxic in electrolyte |
+| Sulfur | 0.001-0.01% | Dissolves as sulfate; controlled by electrolyte bleed |
+| Silver | Variable | Reports to slimes (valuable recovery) |
+| Gold | Variable | Reports to slimes (valuable recovery) |
+
+Anodes with Bi >0.01% or As + Sb + Bi >0.3% require special electrolyte treatment or modified current density to prevent cathode contamination.
+
 ## Safety Considerations
 
 - **SO₂ gas**: The fire refining stage produces sulfur dioxide when air is blown through blister copper. SO₂ is a respiratory irritant. The furnace must have a fume collection system with appropriate gas handling.
@@ -167,13 +201,16 @@ Key scaling challenges: electrolytic refining requires large DC power supplies (
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Rough cathode deposit | Current density too high; contaminated electrolyte; low Cu²⁺ | Reduce current density; filter or replace electrolyte; add CuSO₄ |
-| Anode passivation | Impurity buildup (PbO₂, SnO₂) forming insulating layer on anode surface | Reduce current density; clean anode surfaces; check anode purity |
-| Short circuits in tank house | Dendritic growth bridging electrode gap; bent electrodes; fallen anode pieces | Detect by infrared scan or voltage monitoring; physically separate electrodes; replace bent hardware |
-| Low current efficiency | Short circuits; stray current leakage; impurity side reactions | Clear shorts; check insulation on tanks and bus bars; treat electrolyte for impurities |
-| Nodules on cathode | Particulate in electrolyte; rough starter cathode surface | Filter electrolyte; improve starter cathode quality; reduce suspended solids |
-| High impurity in cathode | Contaminated electrolyte; impurity buildup past solubility limits | Bleed and purify electrolyte; add fresh CuSO₄ and acid; check anode composition |
-| Over-poled or under-poled fire-refined copper | Incorrect poling duration or intensity | Take frequent fracture samples during poling; adjust poling time based on fracture appearance |
+| Rough cathode deposit (granular, nodular) | Current density too high (>300 A/m²); contaminated electrolyte (suspended solids >10 mg/L); low Cu²⁺ (<30 g/L) | Reduce current density to 220-260 A/m²; filter electrolyte through 5-10 μm cartridge filters; add CuSO₄ to bring Cu²⁺ to 35-45 g/L |
+| Anode passivation (cell voltage rises >0.5V) | Impurity buildup (PbO₂, SnO₂, Sb₂O₅) forming insulating layer on anode surface; slime layer too thick | Reduce current density by 10-20%; brush anode surfaces between cycles; check anode purity (Pb <0.2%, Sn <0.05%) |
+| Short circuits in tank house (>5 per day per 100 cells) | Dendritic growth bridging 80-100 mm electrode gap; bent electrodes; fallen anode pieces | Detect by infrared scan (hot spots on bus bars) every 4-8 hours; physically separate electrodes with insulated rods; replace bent hardware; add guar gum (100-300 g/t Cu) to suppress dendrites |
+| Low current efficiency (<85%) | Short circuits wasting 5-10% of current; stray current leakage through grounded tanks; impurity side reactions (Ni²⁺, As³⁺) | Clear shorts daily; check insulation on tanks and bus bars (resistance to ground >1 MΩ); treat electrolyte bleed for Ni and As removal |
+| Nodules on cathode (localized bumps) | Particulate in electrolyte (anode slime fragments >1 mm); rough or pitted starter cathode surface | Filter electrolyte; improve anode slime settling (allow 4-6 hours settling after anode change); use smooth, polished starter cathodes |
+| High impurity in cathode (As >5 ppm, Sb >3 ppm, Bi >0.5 ppm) | Contaminated electrolyte; impurity buildup past solubility limits (As >20 g/L in electrolyte) | Bleed and purify electrolyte (10-20% daily bleed rate); add fresh CuSO₄ and acid; check anode composition (reject anodes with As + Sb + Bi >0.3%); consider electrowinning the bleed stream for As/Sb removal |
+| Over-poled fire-refined copper (flat silky fracture, O₂ <0.02%) | Poling too long or too intense; excessive hydrogen in the melt | Take frequent fracture samples during poling (every 5-10 min in the final stage); stop poling as soon as columnar rosette appears; if over-poled, re-oxidize briefly with air blast and re-pole |
+| Under-poled fire-refined copper (brick-red crystalline fracture, O₂ >0.07%) | Insufficient poling time; green wood poles too wet (reduced gas generation) | Extend poling time; use dry green wood (fresh-cut hardwood, 150-200 mm diameter); monitor fracture surface every 5 min during final poling stage |
+| Electrolyte temperature drifts outside 50-60°C | Steam coil leaks; heat exchanger fouling; seasonal ambient changes | Check steam coils for leaks (copper in condensate indicates leak); clean heat exchangers monthly; add supplementary electric heaters for cold climates |
+| Anode slime floating rather than settling | Slime density too close to electrolyte density; gas bubbles attached to slime particles | Increase electrolyte density by raising H₂SO₄ to 180-200 g/L; add a few drops of surfactant to break gas-slime bonds; allow longer settling time before cathode harvest |
 
 ## Variations and Alternatives
 
@@ -190,11 +227,11 @@ Fire-refined anodes that are not immediately consumed in the electrolytic tank h
 
 ## References
 
-- [Metals](metals.md) — parent capability
+- [Metals](index.md) — parent capability
 - [Metals Domain](./index.md) — domain overview and related capabilities
-- [Electronics](electronics.md) — upstream dependency (material)
-- [Electricity Generation & Distribution](electricity.md) — upstream dependency (material)
-- [Electrolysis](electrolysis.md) — downstream capability
+- [Electronics](../electronics/index.md) — upstream dependency (material)
+- [Electricity Generation & Distribution](../energy/electricity.md) — upstream dependency (material)
+- [Electrolysis](../chemistry/electrolysis.md) — downstream capability
 - [Copper & Bronze Production](copper-bronze.md) — downstream capability
 
 ---

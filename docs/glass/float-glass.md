@@ -3,7 +3,7 @@
 > **Node ID**: glass.basic.float-glass
 > **Domain**: [Glass](./index.md)
 > **Dependencies**: See prerequisites
-> **Enables**: [`Non-Ferrous Metal Production`](non-ferrous.md), [`Basic Gas Handling`](basic.md), [`Electric Furnaces`](electric-furnaces.md)
+> **Enables**: [`Non-Ferrous Metal Production`](../metals/non-ferrous.md), [`Basic Gas Handling`](basic.md), [`Electric Furnaces`](../energy/electric-furnaces.md)
 > **Timeline**: Years 30-50
 > **Outputs**: float_glass, flat_glass_ribbon
 > **Critical**: No
@@ -19,6 +19,47 @@ The physics that makes floating work deserves attention. Two forces govern the g
 The glass-tin interface is remarkably smooth because both materials are liquid and have no crystal structure to imprint on each other. The bottom surface of float glass is smoother than the top surface produced by any other flat glass method. This smoothness is visible when examining a piece of float glass under grazing illumination: the tin-side surface shows a slight iridescence under ultraviolet light due to tin diffusion into the glass surface, a property used in quality control to distinguish the tin side from the air side during subsequent processing.
 
 Primary outputs: `float_glass`, `flat_glass_ribbon`.
+
+## Glass Composition
+
+The batch ingredients (silica sand, soda ash, limestone, dolomite) are not the same as the final glass oxide composition. Carbonates in the batch release CO2 during melting, so the oxide percentages in the finished glass differ from the raw batch percentages.
+
+**Standard soda-lime float glass composition (final oxide weight %)**:
+
+| Oxide | Weight % | Function |
+|-------|----------|----------|
+| SiO2 | 72-74% | Glass network former. The structural backbone. Without flux, pure silica melts at 1713 degrees C |
+| Na2O | 13-15% | Primary flux. Lowers melting temperature from 1713 to roughly 1000 degrees C by breaking Si-O-Si bonds in the network. Makes the glass workable at reasonable temperatures |
+| CaO | 8-10% | Stabilizer. Prevents the glass from dissolving in water (pure Na2O-SiO2 glass is water-soluble). Also improves hardness and chemical durability |
+| MgO | 3-4% | Secondary stabilizer. Reduces devitrification tendency and improves workability during forming. Replaces part of the CaO to lower the liquidus temperature |
+| Al2O3 | 1-2% | Improves chemical durability and resistance to weathering. Also raises the annealing point by about 10 degrees C per 1% addition |
+| K2O | 0-0.5% | Trace flux. Usually present as an impurity from feldspar in the sand. Minor effect on properties |
+| Fe2O3 | 0.05-0.15% | Impurity from the sand. Gives the characteristic green edge color visible in thick sections. Low-iron sands (less than 0.01% Fe2O3) produce extra-clear glass for solar panels and premium architectural applications |
+
+**Viscosity reference temperatures for soda-lime glass**:
+
+| Reference Point | Temperature (degrees C) | Viscosity (poise) | Significance |
+|----------------|------------------------|-------------------|--------------|
+| Strain point | 510 | 10^14.5 | Below this temperature, viscous flow is negligible. Residual stress is frozen in |
+| Annealing point | 550 | 10^13 | Stress relaxes in about 15 minutes. This is the target for the annealing lehr hot zone |
+| Softening point | 730 | 10^7.6 | Glass deforms under its own weight. The upper limit for handling without support |
+| Working point | 1000 | 10^4 | Glass is fluid enough for forming (blowing, pressing, floating). The target viscosity at the tin bath entrance |
+| Melting temperature | 1500-1600 | 10^1.5 to 10^2 | Batch reactions complete, bubbles rise and escape. The furnace operating range |
+
+**Batch-to-oxide conversion example**:
+
+For a typical float glass producing 74% SiO2, 14% Na2O, 10% CaO, and 2% MgO in the final product, the raw batch mix would be approximately:
+
+| Raw Material | Batch Weight % | Oxide Delivered | CO2 Lost |
+|-------------|---------------|-----------------|----------|
+| Silica sand (SiO2) | 59% | 59% SiO2 | None |
+| Soda ash (Na2CO3) | 24% | 14% Na2O | 10% CO2 |
+| Limestone (CaCO3) | 10% | 5.6% CaO | 4.4% CO2 |
+| Dolomite (CaMg(CO3)2) | 8% | 2.3% CaO + 2% MgO | 3.7% CO2 |
+| Feldspar (KAlSi3O8) | 2% | 1.3% SiO2 + 0.4% Al2O3 + 0.3% K2O | None |
+| Cullet (recycled glass) | 25% of total | Same as finished glass | None |
+
+The CO2 losses (about 15-18% of raw batch weight) escape as gas during melting and contribute to the bubbling that must be removed in the refining zone.
 
 ## Prerequisites
 
@@ -84,6 +125,25 @@ The entire line, from batch house to cutting table, runs 24 hours a day, 365 day
 | Cullet ratio | 20 to 30% of batch | Reduces melting energy by 2 to 3% per 10% cullet |
 
 Cullet plays an important role beyond energy savings. It also acts as a seed for melting, accelerating the dissolution of the raw batch materials. High-cullet batches melt faster and homogenize more quickly. However, cullet quality must be controlled: ceramic contaminants (pottery, bricks) do not melt at glass temperatures and appear as stones in the final product. Non-soda-lime glass (borosilicate, lead crystal) has a different viscosity and will cause defects if mixed in.
+
+### Annealing Schedule Detail
+
+The annealing lehr is 70 to 100 meters long and divided into 20 to 40 independently controlled heating zones. The cooling profile through the annealing range (550 to 510 degrees C) is the most critical section. Glass that cools too quickly through this range retains permanent thermal stress because the surface solidifies while the interior is still contracting. The result is glass that shatters unpredictably during cutting or later processing.
+
+**Typical annealing lehr temperature profile (4 mm soda-lime float glass)**:
+
+| Zone | Temperature Range | Cooling Rate | Purpose |
+|------|------------------|--------------|---------|
+| Entry | 600 to 550 degrees C | 5-8 degrees C/min | Initial equalization. Glass enters from the tin bath at about 600 degrees C |
+| Annealing (critical) | 550 to 510 degrees C | 2-3 degrees C/min | Slowest rate. Stress relaxation zone. Glass viscosity transitions from fluid to rigid. A 1 degree C/min deviation here creates measurable stress |
+| Strain point transition | 510 to 480 degrees C | 3-5 degrees C/min | Below the strain point, viscous flow stops. Faster cooling is now safe because stress can no longer relax |
+| Accelerated cooling | 480 to 200 degrees C | 8-12 degrees C/min | Glass is solid and can tolerate faster cooling. Heating elements taper off |
+| Final cooling | 200 to 50 degrees C | 5-8 degrees C/min | Ambient air cooling in the final open section. Fans assist if needed |
+| Exit | Below 50 degrees C | Natural | Glass is safe to handle and cut |
+
+Total lehr transit time: 30 to 60 minutes depending on glass thickness. Thicker glass (12-25 mm) requires slower cooling through the annealing range (1-2 degrees C/min) and proportionally longer lehr time.
+
+Residual stress is checked with a polariscope. Unacceptable stress shows up as bright colored bands under polarized light. A well-annealed sheet shows uniform dark gray with no bright fringes. The stress measurement is expressed as the retardation in nanometers per centimeter of path length. For architectural float glass, the maximum acceptable retardation is 30 nm/cm. For optical-grade glass (mirror substrates, photomask blanks), the limit is 10 nm/cm or lower.
 
 ## Safety Considerations
 
@@ -186,9 +246,9 @@ The float process has also enabled a range of value-added products. Coated glass
 
 - [Basic Glass Production](basic.md) — parent capability
 - [Glass Domain](./index.md) — domain overview and related capabilities
-- [Non-Ferrous Metal Production](non-ferrous.md) — downstream capability
+- [Non-Ferrous Metal Production](../metals/non-ferrous.md) — downstream capability
 - [Basic Gas Handling](basic.md) — downstream capability
-- [Electric Furnaces](electric-furnaces.md) — downstream capability
+- [Electric Furnaces](../energy/electric-furnaces.md) — downstream capability
 
 
 

@@ -245,7 +245,7 @@ Shellac was one of the first materials traded on a large scale between Asia and 
 - [Animal Domestication](../animals/domestication.md) — insect cultivation principles
 - [Electronics](../computing/electronic.md) — shellac as electrical insulation for coil windings
 - [Steam Power](../energy/steam-power.md) — steam heat for record pressing and industrial refining
-- [Casting](../machine-tools/casting.md) — compression molding techniques for phonograph records
+- [Casting](../metals/casting.md) — compression molding techniques for phonograph records
 - [Structural Plants](../plants/structural-plants.md) — host tree species and wood finishing substrate
 - [Fuels](../energy/fuels.md) — charcoal and heat sources for traditional processing
 

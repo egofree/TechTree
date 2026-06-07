@@ -81,12 +81,65 @@ The propylene produced as a byproduct of FCC operation has become increasingly v
 | Hydrocracking reactor temp | 350-430°C | Multi-bed with quench between beds |
 | Hydrocracking pressure | 80-200 bar | Sufficient to maintain hydrogen partial pressure |
 
+### FCC Catalyst Specifications
+
+The FCC catalyst is a fluidizable powder (60-80 μm average particle size) containing zeolite Y crystals embedded in an amorphous silica-alumina matrix. The zeolite provides the acid sites that crack hydrocarbon molecules; the matrix provides mesoporosity (2-50 nm pores) that pre-cracks large molecules before they enter the zeolite micropores.
+
+| Catalyst Grade | SiO₂/Al₂O₃ Ratio | Rare Earth (as RE₂O₃) | Application | Key Characteristic |
+|---------------|------------------|----------------------|-------------|-------------------|
+| REY (rare earth Y) | 4.8-5.4 | 2-5 wt% | Maximum gasoline | High activity, good stability, higher coke selectivity |
+| USY (ultrastable Y) | 10-40+ | 0-1 wt% | Maximum octane, lower coke | Lower activity per gram but better gasoline octane and lower delta coke |
+| REUSY (rare earth USY) | 6-15 | 1-3 wt% | Balance gasoline and octane | Compromise between REY activity and USY selectivity |
+| ZSM-5 additive | 25-2,000 | N/A | Propylene maximization | Added at 1-10% of total catalyst inventory; cracks C6+ olefins to propylene |
+
+Fresh catalyst surface area: 150-300 m²/g. Equilibrium (aged) catalyst surface area: 80-150 m²/g. The catalyst loses activity through hydrothermal dealumination in the regenerator (above 760°C), metals deposition (Ni, V, Na from the feedstock), and mechanical attrition. Makeup rate of 1-3 tonnes/day maintains the equilibrium catalyst activity. Each tonne of fresh FCC catalyst costs roughly $2,000-4,000 (as of 2020s), making catalyst a significant operating expense.
+
+Hydrocracking catalysts are bifunctional: Ni-Mo or Co-Mo sulfide metals on a zeolite or amorphous silica-alumina support. Nickel-molybdenum provides higher hydrodesulfurization activity; cobalt-molybdenum provides higher hydrodenitrogenation. Typical metal loading: 3-6 wt% MoO₃ with 1-4 wt% NiO or CoO. The sulfided form (activated by treating with H₂S or dimethyl disulfide at 300-350°C) provides the active hydrogenation sites.
+
+Reforming catalyst is 0.3-0.6 wt% platinum with 0.3-1.0 wt% rhenium on gamma-alumina with 0.9-1.2 wt% chloride. The platinum provides dehydrogenation activity; rhenium improves catalyst stability by suppressing coke formation. Chloride maintains the acid function needed for isomerization and cyclization. The catalyst must be kept dry: moisture strips chloride and destroys the acid function.
+
+### Product Yields by Cut
+
+The product distribution from FCC depends on feedstock quality, catalyst type, and operating severity. The following table shows typical yields for a medium-severity FCC processing vacuum gas oil.
+
+**FCC yield structure (wt% of fresh feed)**:
+
+| Product | Yield Range | Typical | Boiling Range |
+|---------|------------|---------|---------------|
+| Dry gas (H₂, C₁, C₂) | 3-6% | 4% | - |
+| LPG (C₃-C₄) | 10-20% | 15% | Below 30°C |
+| Gasoline (C₅-220°C) | 45-60% | 52% | 30-220°C |
+| Light cycle oil (220-350°C) | 15-25% | 18% | 220-350°C |
+| Heavy cycle oil / decant oil | 5-15% | 7% | Above 350°C |
+| Coke (burned in regenerator) | 4-7% | 5% | - |
+
+**Hydrocracking yield structure (wt% of feed, full conversion)**:
+
+| Product | Yield Range | Typical |
+|---------|------------|---------|
+| Naphtha (C₅-180°C) | 15-30% | 20% |
+| Diesel (180-350°C) | 40-60% | 55% |
+| Jet fuel (180-260°C cut) | 20-35% | 25% |
+| Light gases (C₁-C₄) | 5-10% | 8% |
+
+**Catalytic reforming yield (wt% of naphtha feed)**:
+
+| Product | Yield Range |
+|---------|------------|
+| Reformate (C₅+, 95-105 RON) | 75-85% |
+| Hydrogen (net) | 200-400 Nm³/ton feed (1.8-3.5 wt%) |
+| LPG (C₃-C₄) | 5-10% |
+| Fuel gas (C₁-C₂) | 5-10% |
+
 ## Safety Considerations
 
 - **Reactor-regenerator explosion**: The regenerator handles hot catalyst in an air atmosphere. Loss of catalyst level control can allow air to reach the reactor, creating an explosive hydrocarbon-air mixture. Catalyst slide valves provide the barrier between these two vessels, and their proper operation is the single most critical safety function.
 - **Hydrocracking hydrogen fire**: Hydrocracking operates at 80-200 bar with hydrogen. A leak in the high-pressure circuit creates an immediate fire and explosion hazard. Hydrogen flames are nearly invisible in daylight. High-pressure shutdown systems must isolate the reactor and depressurize to flare within minutes.
 - **Pyrophoric catalyst**: Reforming catalyst containing platinum-group metals is pyrophoric when exposed to air in a reduced state. During reactor shutdown, the catalyst must be purged with inert gas and carefully oxidized under controlled conditions before air is introduced.
 - **FCC afterburn**: If oxygen breaks through the regenerator dense bed and encounters combustible CO in the dilute phase or cyclones, rapid temperature excursions (afterburn) can exceed metallurgical limits of the cyclones and plenum, causing structural failure.
+- **Hydrogen sulfide (H₂S) exposure**: The amine treating system that removes H₂S from hydrocracking recycle gas, and the sour water systems throughout the refinery, create potential H₂S exposure points. OSHA PEL: 20 ppm ceiling, 50 ppm peak (10 min, once per shift). NIOSH REL: 10 ppm TWA. IDLH: 100 ppm. At 100-200 ppm olfactory fatigue eliminates the rotten-egg odor warning. Above 300 ppm pulmonary edema risk rises. Above 700 ppm rapid unconsciousness. H₂S is heavier than air and collects in sumps, drain ports, and low-lying areas near the amine unit and sour water strippers. Personal monitors alert at 10 ppm warning, 15 ppm alarm.
+- **Benzene exposure**: Reformate from the catalytic reformer contains 1-6% benzene by volume. FCC gasoline contains 0.5-2% benzene. Benzene is a confirmed human carcinogen (OSHA PEL 1 ppm TWA, 5 ppm STEL; NIOSH REL 0.1 ppm TWA). Sampling and handling reformate requires chemical-resistant gloves (nitrile), and enclosed sampling systems are mandatory for routine product testing. Do not mouth-pipette any hydrocarbon sample.
+- **Fire prevention in conversion units**: FCC units contain large hydrocarbon inventories at elevated temperature. Feed preheat furnaces operate at 200-380°C. A leak at any flange or valve in the hydrocarbon circuit can create a pool fire. Maintain firewater coverage (minimum 4.1 L/min per m² of equipment area) and verify deluge systems on weekly test. The flare system must be sized to handle the maximum emergency relief from all conversion units simultaneously.
 
 ### Personal Protective Equipment
 
@@ -155,6 +208,11 @@ The FCC riser reactor is a vertical pipe, typically 30-50 meters tall and 0.5-1.
 | Catalyst attrition excessive | High catalyst circulation velocity or damaged cyclones | Reduce circulation rate; inspect cyclones during next turnaround; check catalyst hardness specification |
 | Slide valve pressure drop low | Insufficient catalyst level above the valve or valve erosion | Increase catalyst inventory; inspect valve internals during turnaround; verify standpipe aeration is adequate |
 | Regenerator afterburn temperature spike | Combustion of CO in the dilute phase above the dense bed | Reduce excess oxygen; check air ring nozzle condition; install CO combustion promoter catalyst |
+| Reformate octane declining | Catalyst deactivation (coke buildup, chloride loss, or Pt sintering) | Regenerate catalyst by controlled coke burnoff; restore chloride balance; if semi-regenerative unit approaching end-of-run, plan turnaround for full regeneration |
+| High hydrogen sulfide in hydrocracker recycle gas | Feed sulfur content higher than design, or amine treater undersized | Increase amine circulation rate; check amine concentration (target 15-25 wt% MEA or MDEA); verify amine regenerator reboiler duty; treat feed in hydrotreater upstream |
+| FCC main fractionator flooding | Excessive vapor load from high feed rate, or tray damage | Reduce feed rate; check column differential pressure (should be below flood point); inspect trays during next turnaround |
+| Catalyst poisoning from sodium | Salt contamination in feedstock (from crude desalter upset) | Tighten crude desalter operation (monitor BS&W below 0.5%); increase fresh catalyst makeup to dilute sodium; sodium permanently destroys zeolite acid sites and cannot be reversed by regeneration |
+| Hydrocracker temperature runaway | Exothermic reaction exceeds quench capacity, typically from sudden feed composition change | Emergency depressurize to flare; verify quench valves are opening; never attempt to control a runaway by reducing feed alone; depressurization is the primary response |
 
 ## Variations and Alternatives
 

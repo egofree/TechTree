@@ -8,9 +8,13 @@
 > **Outputs**: financial_records, inventory_ledgers, cost_accounting
 > **Critical**: No
 
-Accounting is the systematic recording, classification, and summarization of economic transactions — production inputs consumed, goods produced, trades completed, debts incurred and settled, and inventories on hand. It provides the information infrastructure for rational economic decision-making: without accounting, a community cannot know whether it is producing at a profit or a loss, which activities generate the most value, or whether resources are being wasted.
+Accounting is the systematic recording, classification, and summarization of economic transactions, from production inputs consumed, goods produced, trades completed, debts incurred and settled, to inventories on hand. It provides the information infrastructure for rational economic decision-making: without accounting, a community cannot know whether it is producing at a profit or a loss, which activities generate the most value, or whether resources are being wasted.
 
-Accounting emerges when the volume of economic activity exceeds what can be tracked mentally. This threshold is approximately 50 specialists or 200+ regular transactions per month — beyond this, the human mind cannot maintain an accurate running tally of who owes what to whom, what materials are in stock, and what production costs have been incurred.
+Accounting emerges when the volume of economic activity exceeds what can be tracked mentally. This threshold is approximately 50 specialists or 200+ regular transactions per month, beyond which the human mind cannot maintain an accurate running tally of who owes what to whom, what materials are in stock, and what production costs have been incurred.
+
+**Why accounting determines industrial capability**: A blast furnace that consumes 2 tonnes of iron ore, 1.5 tonnes of charcoal, and 0.4 tonnes of limestone per day, staffed by 12 workers, cannot be operated efficiently by intuition. The furnace master needs to know the exact cost per tonne of iron produced, how much inventory is on hand, and when to reorder inputs. Without these numbers, the furnace either runs out of charcoal mid-batch (ruining the iron) or accumulates expensive stockpiles of unused ore. This principle scales: every industrial process from pottery kilns to semiconductor fabs requires accounting to coordinate inputs with production schedules. The precision of the accounting system directly limits the complexity of production that can be coordinated.
+
+**Why double-entry bookkeeping was the key innovation**: Single-entry accounting (recording only cash in and cash out) cannot detect errors. If a scribe writes "15 kg copper" instead of "51 kg copper," the error is invisible because there is no cross-check. Double-entry records every transaction twice, once as a debit and once as a credit, and requires that total debits equal total credits. A transposition error (15 vs 51) breaks the balance immediately, revealing the mistake. This error-detection property is what made large-scale commercial operations possible from the 14th century onward. The first known double-entry records are from Genoa in 1340.
 
 The capability depends on [core mathematics](../mathematics/core-mathematics.md) for arithmetic operations (addition, subtraction, multiplication for quantities and values) and on [writing](../knowledge/writing.md) for permanent records that can be reviewed, audited, and referenced over time. Accounting transforms economic activity from a memory-based oral system into a document-based system that scales indefinitely.
 
@@ -139,6 +143,40 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 | Labor cost fraction | Total wages / Total production cost | 30-60% | >70% (insufficient materials) or <20% (under-investment in skills) |
 | Waste ratio | Spoilage + defects / Total production | <5% | >10% (process quality problem) |
 | Debt-to-income | Total liabilities / Annual income | <0.5 | >1.0 (debt crisis) |
+| Return on tools | Net output value / Tool replacement cost | >2.0/year | <0.5/year (tools not productive enough) |
+| Storage cost ratio | Warehouse overhead / Average inventory value | <15% | >25% (excessive storage costs) |
+
+## Cost Accounting for Production Workshops
+
+Tracking the cost of producing specific goods is essential for pricing, identifying waste, and comparing production methods.
+
+**Iron tool production cost breakdown (per knife)**:
+
+| Cost Component | Quantity | Unit Cost | Total (grain equiv.) |
+|---------------|----------|-----------|---------------------|
+| Iron ore (raw) | 0.3 kg | 5 kg grain/kg ore | 1.5 kg |
+| Charcoal (smelting fuel) | 1.2 kg | 0.5 kg grain/kg charcoal | 0.6 kg |
+| Blacksmith labor | 4 hours | 1.5 kg grain/day | 0.75 kg |
+| Grinding stone wear | (amortized) | — | 0.1 kg |
+| Handle (wood + leather) | 1 set | — | 0.3 kg |
+| Forge charcoal (reheating) | 0.5 kg | 0.5 kg grain/kg | 0.25 kg |
+| **Total cost** | | | **3.5 kg grain** |
+| **Typical trade value** | | | **8-12 kg grain** |
+| **Gross margin** | | | **55-70%** |
+
+**Why gross margins above 50% are typical for manufactured goods**: Production tools have high margins because they embed specialized labor and knowledge that most people cannot replicate. The iron knife's value comes not from the raw materials (which cost 3.5 kg grain equivalent) but from the blacksmith's skill and tools. This margin compensates for the years of apprenticeship, the capital invested in forge and anvil, and the risk of spoiled work. In a bootstrap economy, tracking these margins reveals which activities generate the most value per labor hour, guiding resource allocation toward the most productive specializations.
+
+**Blast furnace operation cost (per tonne of iron produced)**:
+
+| Input | Quantity | Unit Cost (grain equiv.) | Total Cost |
+|-------|----------|--------------------------|------------|
+| Iron ore | 2.0-2.5 t | 5 kg/t | 10.0-12.5 kg |
+| Charcoal | 1.5-2.0 t | 0.5 kg/t | 0.75-1.0 kg |
+| Limestone flux | 0.3-0.5 t | 2 kg/t | 0.6-1.0 kg |
+| Firebrick (replacement) | 50-100 kg | 1 kg/100 kg | 0.5-1.0 kg |
+| Labor (12 workers, 1 day) | 12 worker-days | 1.5 kg/day | 18.0 kg |
+| **Total cost per tonne iron** | | | **30.0-33.5 kg grain** |
+| Iron trade value (per tonne) | | | **150-250 kg grain** |
 
 
 ## Scaling Notes

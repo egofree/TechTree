@@ -2,7 +2,7 @@
 
 > **Node ID**: energy.blue-energy
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`Electrodialysis`](electrodialysis.md)
+> **Dependencies**: [`Electrodialysis`](../chemistry/electrodialysis.md)
 > **Enables**: Various downstream capabilities
 > **Timeline**: Years 35-55
 > **Outputs**: electricity
@@ -29,7 +29,7 @@ The theoretical energy available from mixing all the world's river water with th
 
 ### Equipment
 
-- [Electrodialysis](electrodialysis.md) — tool dependency
+- [Electrodialysis](../chemistry/electrodialysis.md) — tool dependency
 - Pressure exchangers for PRO energy recovery
 - High-pressure pumps rated for continuous operation
 - Pre-treatment filtration systems (screen filters, media filters)
@@ -181,9 +181,9 @@ Feed water temperature affects both membrane performance and biofouling rate. Hi
 
 ## References
 
-- [Energy](energy.md) — parent capability
+- [Energy](index.md) — parent capability
 - [Energy Domain](./index.md) — domain overview and related capabilities
-- [Electrodialysis](electrodialysis.md) — upstream dependency (tool)
+- [Electrodialysis](../chemistry/electrodialysis.md) — upstream dependency (tool)
 
 ### Material Handling
 

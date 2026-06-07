@@ -87,6 +87,60 @@ Primary outputs: `vulcanized_elastomers`, `cured_seals`, `molded_rubber_parts`.
 
 The scorch time is the single most critical processing parameter. If ts2 is too short, the compound begins curing during mixing or shaping, clogging equipment and producing scrap. If ts2 is too long, the mold cycle time increases, reducing throughput. The target ts2 for compression molding is typically 3 to 5 minutes at the cure temperature, giving the operator enough time to load the blank and close the press. For injection molding, where the compound is heated by the screw and injected rapidly, ts2 can be shorter (1 to 2 minutes) because the processing time before mold filling is brief.
 
+### Vulcanizate Properties by Compound Design
+
+The properties of vulcanized rubber are determined by the interaction of polymer type, filler loading, crosslink density, and cure system. The tables below show how these variables affect the final material.
+
+**Effect of carbon black loading on natural rubber properties** (conventional sulfur cure, 2.5 phr sulfur, 0.6 phr CBS):
+
+| Carbon Black (phr) | N330 Grade | Shore A Hardness | Tensile Strength (MPa) | 300% Modulus (MPa) | Elongation at Break (%) | Tear Strength (kN/m) | Abrasion Loss (mm³) |
+|---------------------|-----------|-----------------|----------------------|--------------------|-----------------------|---------------------|-------------------|
+| 0 (gum) | — | 35-40 | 20-28 | 1-2 | 700-800 | 20-30 | 300-500 |
+| 20 | N330 | 45-50 | 25-30 | 4-6 | 600-700 | 35-45 | 150-250 |
+| 40 | N330 | 55-60 | 28-32 | 8-12 | 500-600 | 45-55 | 80-150 |
+| 60 | N330 | 65-72 | 25-30 | 12-18 | 400-500 | 40-50 | 60-120 |
+| 80 | N330 | 75-82 | 22-28 | 16-22 | 300-400 | 35-45 | 80-140 |
+
+The tensile strength peaks at 40-50 phr carbon black because the filler reinforcement mechanism relies on polymer chains adsorbing onto the high-surface-area carbon black particles. At moderate loadings, this adsorption creates physical crosslinks that distribute stress across many chains simultaneously. At very high loadings (80 phr), the carbon black particles crowd each other, creating stress concentrations that actually reduce strength. The abrasion loss follows a similar pattern: moderate filler loading gives the best wear resistance because the carbon black particles shield the polymer from direct abrasive contact.
+
+**Effect of crosslink density on properties** (natural rubber, 50 phr N330 carbon black):
+
+| Sulfur (phr) | CBS Accelerator (phr) | Crosslink Type | Shore A Hardness | Tensile Strength (MPa) | Elongation at Break (%) | Compression Set, 22 hr @ 70°C (%) |
+|--------------|----------------------|---------------|-----------------|----------------------|-----------------------|----------------------------------|
+| 2.5 (CV) | 0.6 | Polysulfidic (x=4-6) | 60-65 | 28-32 | 500-600 | 20-30 |
+| 1.5 (semi-EV) | 1.2 | Mixed (x=2-4) | 60-65 | 26-30 | 450-550 | 15-25 |
+| 0.5 (EV) | 2.5 | Monosulfidic (x=1) | 60-65 | 24-28 | 400-500 | 10-20 |
+| 0 (peroxide) | — | C-C direct | 60-65 | 22-26 | 350-450 | 8-15 |
+
+Note that hardness stays roughly constant across these formulations because the carbon black loading is held at 50 phr in all cases. What changes is the elasticity and heat resistance. The conventional cure (high sulfur, polysulfidic crosslinks) gives the best fatigue resistance because the long, flexible polysulfidic bridges can slide and rearrange under cyclic stress. The peroxide cure (direct C-C bonds) gives the best compression set and heat resistance because carbon-carbon bonds are thermally stable to 250°C, while polysulfidic bonds begin breaking at 120-130°C.
+
+**Cure system selection by application**:
+
+| Application | Cure System | Crosslink Type | Sulfur (phr) | Accelerator (phr) | Key Property |
+|-------------|-----------|---------------|-------------|-------------------|-------------|
+| Tire tread | CV | Polysulfidic | 2.0-2.5 | 0.5-1.0 (CBS/TBBS) | Fatigue life, flex resistance |
+| Tire sidewall | CV | Polysulfidic | 2.0-2.5 | 0.5-1.0 (CBS) | Flex fatigue, cut resistance |
+| O-ring, oil seal | Semi-EV | Mixed | 1.0-1.5 | 1.0-2.0 (TMTD+CBS) | Compression set, oil resistance |
+| Engine mount | EV | Monosulfidic | 0.3-0.8 | 2.0-3.0 (TMTD+CBS) | Heat aging, dynamic properties |
+| High-temp hose | Peroxide | C-C direct | 0 | DCP 1.5-3.0 phr | Temperature resistance |
+| Silicone seal | Peroxide or Pt | C-C or Si-H | 0 | Peroxide or Pt complex | Wide temperature range |
+| Neoprene wetsuit | Metal oxide | Ionic (Cl bridges) | 0 | MgO 4 + ZnO 5 phr | Flame resistance, flexibility |
+
+**Typical cure schedules by part thickness**:
+
+Cure time scales with section thickness because heat must penetrate to the center. Rubber is a thermal insulator (thermal conductivity ~0.15 W/m·K, similar to wood), so the center of a thick part heats slowly.
+
+| Section Thickness | Cure at 150°C | Cure at 160°C | Cure at 170°C | Notes |
+|-------------------|--------------|--------------|--------------|-------|
+| 2 mm | 4-6 min | 3-4 min | 2-3 min | Thin parts cure fast |
+| 5 mm | 7-10 min | 5-7 min | 4-5 min | Standard O-ring thickness |
+| 10 mm | 12-18 min | 8-12 min | 6-8 min | Rule: ~1 min/mm at 160°C |
+| 20 mm | 20-30 min | 15-20 min | 10-15 min | Thick seals, engine mounts |
+| 50 mm | 45-60 min | 30-45 min | 20-30 min | Large bushings, dock fenders |
+| 100 mm | 90-120 min | 60-90 min | 45-60 min | Solid tires, large rollers |
+
+Undercure is the most common defect in thick rubber parts. The outer surface cures first and acts as insulation, slowing heat penetration to the center. A part that feels firm on the outside may have a spongy, uncured core. Test by slicing through the thickest section and pressing the cut surface with a fingernail: if the center indents easily and feels tacky, it is undercured. Undercure reduces tensile strength by 30-60% and compression set by 50-80%.
+
 ## Safety Considerations
 
 - **Sulfur dioxide fumes**: Vulcanization releases SO2, especially from sulfur-rich cure systems. SO2 is a respiratory irritant that causes coughing and bronchospasm at moderate concentrations. Curing areas must have local exhaust ventilation at the press. The characteristic rotten-egg smell of a rubber factory comes from trace sulfur compounds released during curing. At the concentrations typically encountered in a well-ventilated molding shop, SO2 is an irritant but not a acute health hazard. Chronic exposure at higher concentrations can cause bronchitis

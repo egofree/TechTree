@@ -215,6 +215,16 @@ A founding herd of 10-15 goats (8-10 does, 1-2 bucks) reaches 40-60 head within 
 | CAE in kids | Transmitted through colostrum/milk | Heat-treat colostrum to 56°C for 60 min; pasteurize milk; separate at birth |
 | Disbudding failure | Done too late or incomplete | Disbud at 3-7 days; burn copper-colored ring through skin to bone |
 
+## Why Goats Eat Everything (And What That Actually Means)
+
+The common belief that goats eat anything is not quite accurate. Goats are browsers, not grazers. Their evolutionary niche is the forest edge and rocky hillside, where they consume a varied diet of woody shoots, leaves, bark, herbs, and grasses. This browsing instinct drives them to sample every plant they encounter, which gives them a reputation for indiscriminate eating. In practice, goats are surprisingly selective: given a choice, they pick the most nutritious parts of available plants (new growth, leaf tips, seed heads) and ignore the rest.
+
+The practical consequence for management: goats will strip bark from valuable trees, eat ornamental plantings, and sample toxic species (rhododendron, azalea, yew, oleander, all potentially lethal). They must be fenced out of anything you do not want eaten. Their upper lip is prehensile and their teeth can strip bark from saplings in minutes. On the positive side, this browsing behavior makes goats the cheapest and most effective brush-clearing tool available.
+
+Why goats thrive where cattle cannot: goat digestive systems tolerate tannins and other plant defense chemicals that cattle find unpalatable or toxic. Goats can consume 30-40% of their diet as woody browse, including species with high tannin content (oak, pine, acacia). Their rumen microbes detoxify these compounds. This allows goats to maintain body condition on scrubland that would starve a cow.
+
+Why goat milk is more digestible: goat milk fat globules are 2-3 microns in diameter compared to 3-4 microns for cow milk. The smaller globules present a larger surface area to digestive enzymes, allowing faster and more complete fat digestion. Goat milk also contains A2 beta-casein rather than the A1 beta-casein found in most commercial cow milk; A2 casein produces a softer curd in the stomach, which some people find easier to digest. These properties make goat milk a practical alternative for communities where lactose intolerance or cow milk sensitivity is common.
+
 ## Safety
 
 **Buck handling**: Bucks produce powerful musky odor and can be aggressive during breeding season. Handle with lead and halter. Never corner one. Castrated males (wethers) are docile and make excellent pack animals or companions.

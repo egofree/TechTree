@@ -213,6 +213,18 @@ A founding herd of 5-10 alpacas (4-8 females, 1-2 males) establishes a self-sust
 | Parasite load (barber pole worm) | Warm, wet pasture conditions | Fecal egg counts quarterly; treat with ivermectin or fenbendazole at camelid dosages; rotate pastures |
 | Failure of passive transfer (cria) | Cria did not nurse colostrum within 4 hours | Tube-feed or bottle-feed colostrum supplement; monitor for infections in first months |
 
+## Why Camelids Thrive Where Other Livestock Struggle
+
+Camelids evolved in the Andes at 3,500-5,000 m elevation, where air pressure is 30-40% lower than at sea level and nighttime temperatures regularly drop below freezing. Three adaptations from this environment make them exceptionally hardy.
+
+**Oval red blood cells**: Unlike all other mammals, which have round red blood cells, camelids have oval-shaped erythrocytes. These deform more easily, passing through capillaries that round cells would block. This gives camelids 15-20% greater oxygen-carrying efficiency at altitude and contributes to their endurance under physical stress.
+
+**Three-chambered stomach (not four)**: Camelids are modified ruminants with three stomach compartments rather than the four found in cattle, sheep, and goats. Despite having one fewer chamber, they extract comparable nutrition from poor-quality forage because their stomach retention time is longer and their chewing efficiency is higher. They also produce less methane per kilogram of feed, which is a minor efficiency advantage.
+
+**Communal dung piles**: All camelids defecate in designated latrine areas rather than scattering manure across the pasture. This is an anti-parasite adaptation: by concentrating waste in one area, they avoid contaminating their grazing space with parasite eggs. For the farmer, this means manure collection is trivial compared to every other livestock species. It also means pastures stay cleaner and parasite loads are naturally lower.
+
+**Why camelids are sensitive to copper**: The Andean diet of camelids contains very little copper, so their metabolism did not evolve efficient copper excretion pathways. When fed cattle or horse mineral supplements (which contain copper at levels safe for those species), copper accumulates in the liver and eventually reaches toxic levels, causing hemolysis (destruction of red blood cells) and liver failure. Always use sheep or camelid-specific mineral formulations.
+
 ## Safety
 
 **Handling**: Camelids are generally docile and non-aggressive. They do not kick forward like horses (they kick backward and downward, less forceful). They may spit regurgitated stomach contents when stressed — unpleasant but not dangerous (rinse with water).

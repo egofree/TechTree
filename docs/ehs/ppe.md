@@ -161,6 +161,42 @@ Semiconductor operations require gloves selected for the specific chemicals hand
 | PVC | Acids, bases, some organics | Most solvents, aromatic hydrocarbons | 0.2-0.5 mm |
 | Natural rubber (latex) | Dilute acids, bases, aqueous solutions | Oils, solvents, HF (degrades) | 0.1-0.3 mm |
 
+### Glove Breakthrough Times for Common Chemicals
+
+Breakthrough time is the elapsed time between initial contact of a chemical with the glove exterior surface and the detection of the chemical on the interior surface. These values assume room temperature (23°C). Higher temperatures reduce breakthrough time by 30-50%.
+
+| Chemical (concentration) | Nitrile 0.3 mm | Neoprene 0.5 mm | Butyl 0.5 mm | Viton 0.4 mm |
+|--------------------------|----------------|-----------------|---------------|--------------|
+| Sulfuric acid (50%) | >8 hr | >8 hr | >8 hr | >8 hr |
+| Sulfuric acid (98%) | 2-4 hr | >8 hr | 4-8 hr | >8 hr |
+| Hydrofluoric acid (49%) | 2-4 hr | >8 hr | >8 hr | >8 hr |
+| Hydrochloric acid (37%) | >8 hr | >8 hr | >8 hr | >8 hr |
+| Sodium hydroxide (50%) | >8 hr | >8 hr | >8 hr | >8 hr |
+| Acetone | <10 min | <30 min | >8 hr | <10 min |
+| Isopropanol | >8 hr | >8 hr | >8 hr | >8 hr |
+| Toluene | <30 min | <1 hr | <10 min | >8 hr |
+| Xylene | <30 min | <1 hr | <10 min | >8 hr |
+| Trichloroethylene | <10 min | <30 min | <30 min | >4 hr |
+| Methanol | 1-4 hr | 4-8 hr | >8 hr | >8 hr |
+| Gasoline | <1 hr | 1-2 hr | <30 min | >8 hr |
+
+**Rule of thumb for glove replacement**: If the breakthrough time is less than 2× the intended wear duration, select a different glove material or increase thickness. For example, handling toluene with nitrile gloves (breakthrough <30 min) is unsafe for tasks longer than 15 minutes. Use Viton instead.
+
+### Glove Sizing
+
+Properly sized gloves are essential for both dexterity and protection. Oversized gloves allow chemical seepage into the cuff and reduce tactile sensitivity. Undersized gloves stretch the material thin, reducing breakthrough time by 30-50% and causing hand fatigue.
+
+| Glove Size | Hand Circumference (cm) | Hand Length (cm) | Typical User |
+|-----------|------------------------|------------------|-------------|
+| XS (6) | 14-16 | 15-16 | Small adult hands |
+| S (7) | 17-18 | 17-18 | Many women |
+| M (8) | 19-20 | 18-19 | Average adults |
+| L (9) | 21-22 | 19-20 | Many men |
+| XL (10) | 23-25 | 20-21 | Large hands |
+| XXL (11) | 25+ | 21+ | Very large hands |
+
+Measure hand circumference at the widest point (across the knuckles, excluding the thumb). Measure hand length from the wrist crease to the tip of the middle finger. When between sizes, choose the larger size for chemical protection (better to have slight excess cuff than stretched material) and the smaller size for precision work requiring maximum dexterity.
+
 **HF-specific glove requirements**:
 - Primary glove: Neoprene or thick nitrile (0.5-0.8 mm). Neoprene preferred — better HF resistance with longer breakthrough time.
 - Double-gloving: Mandatory for HF handling. Inner glove: thin nitrile (0.2 mm) for dexterity. Outer glove: neoprene or heavy nitrile (0.5+ mm) for protection.
@@ -318,6 +354,53 @@ PPE programs carry inherent hazards when equipment fails, degrades, or is misapp
 - [Emergency Response](emergency-response.md) — Emergency PPE and first aid
 - [Occupational Health](../health/occupational-health.md) — General PPE principles and fit testing
 - [Polymers](../polymers/index.md) — Rubber and polymer materials for glove and suit fabrication
+
+## General Industrial PPE Specifications
+
+Beyond semiconductor-specific operations, the following PPE specifications cover the most common industrial hazards encountered during civilization bootstrapping.
+
+### Hard Hat Specifications
+
+| Type | Impact Rating | Voltage Rating | Application | Material |
+|------|-------------|---------------|-------------|----------|
+| Type I (top impact) | 8 ft-lb impact | Class E (20,000 V) | Construction, mining, general industrial | HDPE, ABS, or fiberglass |
+| Type II (top + lateral impact) | 8 ft-lb top + lateral | Class G (2,200 V) | Heavy construction, demolition | HDPE or ABS |
+
+Replace hard hat if: cracked shell, faded color (UV degradation), suspension webbing torn or stretched, any impact that dents or deforms the shell, or after 5 years of use (UV degrades the polymer). Shell service life is typically 5 years from first use; suspension replacement every 12 months.
+
+### Safety Footwear Ratings
+
+| Standard | Impact Resistance | Compression Resistance | Metatarsal Protection | Application |
+|----------|------------------|----------------------|----------------------|-------------|
+| ASTM F2413 I/75 | 75 ft-lb impact | 2,500 lb compression | No | General industrial |
+| ASTM F2413 I/75 Mt/75 | 75 ft-lb impact | 2,500 lb compression | 75 ft-lb metatarsal | Foundry, heavy construction |
+| ASTM F2413 I/75 EH | 75 ft-lb impact | 2,500 lb compression | Electrical hazard (18 kV) | Electrical work |
+
+Steel toe caps protect against impact and compression. Composite (carbon fiber or plastic) toe caps provide the same protection with less weight and no cold temperature conduction, but are more expensive. Metatarsal guards (internal or external) protect the upper foot from falling objects and are mandatory in foundries, heavy construction, and mining. Chemical-resistant boots for acid and solvent operations: PVC or nitrile over-boots worn over the safety boot, extending above the ankle minimum, mid-calf preferred for liquid handling.
+
+### Fall Protection Equipment
+
+Fall protection is required at heights above 1.8 m (6 feet) in general industry and above 2.4 m (8 feet) in construction. A fall arrest system has three components:
+
+1. **Anchorage point**: Must support 2,270 kg (5,000 lb) per attached worker. Structural steel beams, engineered roof anchors, and concrete-embedded anchor bolts are acceptable. Pipe rails, conduit, and vent stacks are not.
+2. **Body harness**: Full-body harness distributes fall forces across thighs, pelvis, chest, and shoulders. The dorsal D-ring between the shoulder blades is the attachment point. Harnesses must fit snugly; loose harnesses allow the worker to slip out during a fall. Inspect webbing for cuts, abrasion, UV fading, and broken stitching before each use.
+3. **Lanyard or SRL**: Shock-absorbing lanyard limits maximum arrest force to 8 kN (1,800 lb) on the worker's body. Self-retracting lifeline (SRL) locks within 0.6 m of fall onset. Lanyard length plus deceleration distance plus worker height must be less than the distance to the ground (calculate total fall distance: lanyard length + 1.0 m deceleration + 1.8 m worker height + 1.0 m safety margin = minimum clearance required below anchorage).
+
+**Why fall protection matters**: A fall from 3 meters onto a hard surface generates approximately 20 kN of force on the body, enough to cause fatal head injuries or spinal fracture. The shock absorber in a fall arrest lanyard tears open progressively, extending the stopping distance and reducing peak force to below 8 kN.
+
+### Ventilation Requirements for PPE Areas
+
+PPE storage, fit-testing, and donning/doffing areas need adequate ventilation to prevent accumulation of chemical vapors from contaminated equipment.
+
+| Area | Minimum Air Changes/Hour (ACH) | CFM per Person | Notes |
+|------|-------------------------------|----------------|-------|
+| PPE storage room | 4-6 ACH | 20 CFM | Prevents buildup of chemical odors on stored equipment |
+| Respirator fit-test area | 8-12 ACH | 30 CFM | Bitrex and saccharin aerosols require extraction during qualitative testing |
+| Chemical suit donning/doffing | 12-15 ACH | 40 CFM | Doffing releases chemical vapors from suit exterior; high ventilation protects the worker during removal |
+| SCBA charging room | 6-8 ACH | 25 CFM | Compressed air systems generate heat; prevents accumulation of lubricant vapors from compressors |
+| Emergency shower/eyewash area | 6 ACH | 20 CFM | Moisture and diluted chemicals require ventilation to prevent slip hazards and vapor buildup |
+
+Air changes per hour (ACH) is calculated as: ACH = (CFM × 60) / room volume in cubic feet. Example: a 10 × 12 × 8 foot room (960 ft³) needs 4 ACH × 960 / 60 = 64 CFM of supply air at minimum.
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*

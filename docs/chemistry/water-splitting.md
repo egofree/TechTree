@@ -2,7 +2,7 @@
 
 > **Node ID**: chemistry.electrolysis.water-splitting
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Fuel Cell`](fuel-cell.md)
+> **Dependencies**: [`Fuel Cell`](../energy/fuel-cell.md)
 > **Enables**: Various downstream capabilities
 > **Timeline**: Years 20-35
 > **Outputs**: electrolytic_hydrogen, electrolytic_oxygen
@@ -29,7 +29,7 @@ Primary outputs: `electrolytic_hydrogen`, `electrolytic_oxygen`. Thermochemical 
 
 ### Equipment
 
-- [Fuel Cell](fuel-cell.md) — material dependency (hydrogen utilization downstream)
+- [Fuel Cell](../energy/fuel-cell.md) — material dependency (hydrogen utilization downstream)
 
 ### Knowledge
 
@@ -178,7 +178,7 @@ For a bootstrapping civilization, the thermochemical water splitting approach is
 
 - [Electrolysis](electrolysis.md) — parent capability
 - [Chemistry Domain](./index.md) — domain overview and related capabilities
-- [Fuel Cell](fuel-cell.md) — upstream dependency (material)
+- [Fuel Cell](../energy/fuel-cell.md) — upstream dependency (material)
 
 ### Material Handling
 

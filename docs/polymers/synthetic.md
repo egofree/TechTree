@@ -3,7 +3,7 @@
 > **Node ID**: polymers.rubber.synthetic
 > **Domain**: [Polymers](./index.md)
 > **Dependencies**: See prerequisites
-> **Enables**: [`Chemistry`](chemistry.md), [`Petroleum & Alternative Chemistry`](petroleum-alternatives.md), [`Metal Forming`](forming.md)
+> **Enables**: [`Chemistry`](../chemistry/index.md), [`Petroleum & Alternative Chemistry`](../chemistry/petroleum-alternatives.md), [`Metal Forming`](../metals/forming.md)
 > **Timeline**: Years 20-50
 > **Outputs**: nitrile_rubber, neoprene, silicone_elastomers
 > **Critical**: No
@@ -98,6 +98,58 @@ Silicone rubber production follows a fundamentally different chemistry from NBR 
 | Silicone peroxide cure temperature | 150 to 200 degrees C | 5 to 30 minutes depending on section thickness |
 | Filler loading (carbon black in NBR) | 20 to 50 phr | phr = parts per hundred rubber |
 
+### Monomer Ratios and Polymerization Conditions
+
+**NBR monomer ratios and their effects**:
+
+| NBR Grade | Acrylonitrile (mol%) | Butadiene (mol%) | Tg (°C) | Oil Resistance | Low-Temp Flexibility | Primary Application |
+|-----------|---------------------|------------------|---------|----------------|---------------------|-------------------|
+| High nitrile | 45-50% | 50-55% | -10 to -5 | Excellent | Poor (stiff below -5°C) | Fuel hoses, seals for aggressive oils |
+| Medium-high nitrile | 34-40% | 60-66% | -25 to -15 | Very good | Moderate | O-rings, gaskets, oil seals |
+| Medium nitrile | 26-33% | 67-74% | -35 to -25 | Good | Good | General-purpose oil-resistant parts |
+| Low nitrile | 18-25% | 75-82% | -50 to -35 | Moderate | Excellent (flexible to -40°C) | Cold-weather fuel lines, refrigeration seals |
+
+The acrylonitrile-butadiene ratio is the single most important formulation decision for NBR. Acrylonitrile provides polar nitrile groups (—C≡N) that attract the non-polar hydrocarbon chains in oils and fuels. More nitrile groups means the polymer interacts more strongly with the oil molecules, swelling less and maintaining its mechanical properties in contact with petroleum products. However, the same polarity makes the polymer chains stiffer at low temperature because the nitrile groups form dipole-dipole interactions between chains that restrict molecular motion. The glass transition temperature shifts approximately 2°C higher for each 1% increase in acrylonitrile content.
+
+**Polymerization conditions detail**:
+
+| Parameter | NBR (Cold) | NBR (Hot) | Neoprene | Silicone (PDMS) |
+|-----------|-----------|----------|----------|-----------------|
+| Reactor type | Jacketed SS, 10-50 m³ | Jacketed SS, 10-50 m³ | Jacketed SS, 10-50 m³ | Glass-lined or SS, 1-10 m³ |
+| Pressure | 2-5 atm (butadiene vapor) | 2-5 atm | 1 atm | 1 atm |
+| Temperature | 5-10°C | 30-50°C | 10-40°C | 100-150°C (polymerization) |
+| Initiator | Redox: hydroperoxide + Fe²⁺ | Potassium persulfate | Potassium persulfate | KOH or H₂SO₄ catalyst |
+| Surfactant | Fatty acid soap, 1-5% | Fatty acid soap, 1-5% | Sodium naphthalene sulfonate | None (bulk process) |
+| Reaction time | 8-16 hours | 6-12 hours | 2-8 hours | 2-6 hours |
+| Chain transfer agent | n-Dodecyl mercaptan, 0.1-0.5% | n-Dodecyl mercaptan, 0.1-0.5% | n-Dodecyl mercaptan or sulfur | Hexamethyldisiloxane (endblocker) |
+| Conversion | 70-85% | 75-90% | 70-85% | 90-98% |
+| Shortstop | Hydroquinone or dithiocarbamate | Hydroquinone | Dithiocarbamate | Cool to quench |
+
+Cold polymerization (5-10°C) produces NBR with less chain branching and crosslinking because the lower temperature suppresses side reactions. The result is a more linear polymer with better processing characteristics and more consistent vulcanization behavior. Hot polymerization (30-50°C) is faster and gives higher conversion but produces more gel (microscopic crosslinked particles) that degrades the smoothness and clarity of molded parts.
+
+### Cured Material Properties
+
+The properties listed below are for carbon-black-filled, vulcanized compounds. Unfilled raw rubber has dramatically lower strength (5-10 MPa tensile for NBR vs. 20-30 MPa filled).
+
+| Property | NBR (medium nitrile) | Neoprene | Silicone (PDMS) | Natural Rubber (reference) |
+|----------|---------------------|----------|-----------------|---------------------------|
+| Tensile strength (MPa) | 20-30 | 20-27 | 7-12 | 25-35 |
+| Elongation at break (%) | 300-500 | 300-600 | 200-600 | 400-700 |
+| 100% Modulus (MPa) | 3-7 | 3-6 | 1-3 | 2-5 |
+| 300% Modulus (MPa) | 10-18 | 10-17 | 3-6 | 8-15 |
+| Shore A hardness range | 40-90 | 40-90 | 30-80 | 30-95 |
+| Tear strength (kN/m) | 30-50 | 25-45 | 10-25 | 30-60 |
+| Abrasion resistance | Good | Good | Fair | Excellent |
+| Compression set, 22 hr @ 70°C (%) | 15-25 | 15-25 | 10-20 | 15-30 |
+| Glass transition temperature (°C) | -30 to -20 | -45 to -35 | -120 to -60 | -70 to -65 |
+| Continuous service temperature (°C) | -30 to 120 | -40 to 120 | -60 to 200 | -50 to 80 |
+| Density (g/cm³) | 1.00-1.20 | 1.23-1.25 | 1.10-1.20 | 0.92-0.95 |
+| Volume swell in ASTM Oil #3, 70 hr @ 100°C (%) | 5-25 | 15-35 | 40-80 | 80-200 |
+
+The volume swell data illustrates why NBR is the standard choice for oil seals: it absorbs only 5-25% of its volume in hot oil, compared to 80-200% for natural rubber (which becomes soft and bloated in contact with petroleum). Silicone swells more than NBR in oil but retains its properties over a much wider temperature range, making it the choice for high-temperature oil seals in engines where NBR would harden and crack.
+
+The continuous service temperature is the temperature at which the rubber retains at least 50% of its original tensile strength after 1,000 hours of continuous exposure. Natural rubber degrades rapidly above 80°C because oxygen attacks the carbon-carbon double bonds in the polymer backbone. Silicone's inorganic Si-O backbone has no double bonds to attack, which is why it survives to 200°C.
+
 ## Safety Considerations
 
 - **Butadiene**: A flammable gas (LEL 2 percent) and confirmed human carcinogen (IARC Group 1). Storage tanks must be pressure-rated, vented to flare, and monitored for leaks. Polymerization reactors must be rated for the butadiene vapor pressure
@@ -189,9 +241,9 @@ Environmental regulations affect scaling in several ways. Emulsion polymerizatio
 
 - [Rubber Production](rubber.md) — parent capability
 - [Polymers Domain](./index.md) — domain overview and related capabilities
-- [Chemistry](chemistry.md) — downstream capability
-- [Petroleum & Alternative Chemistry](petroleum-alternatives.md) — downstream capability
-- [Metal Forming](forming.md) — downstream capability
+- [Chemistry](../chemistry/index.md) — downstream capability
+- [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md) — downstream capability
+- [Metal Forming](../metals/forming.md) — downstream capability
 
 
 ---

@@ -159,6 +159,20 @@ Because parents feed squab from their own foraged or supplemented diet, the effe
 - **[knowledge.communication](../knowledge/index.md)** — homing pigeons for message delivery
 - **[plants.agriculture](../plants/index.md)** — pigeon guano fertilizer for crop production
 
+## Why Pigeons Produce Premium Guano
+
+Pigeon guano (4-5% nitrogen, 2-3% phosphorus, 1.5-2% potassium) is dramatically richer than any other common livestock manure. The reason is digestive efficiency combined with diet. Pigeons eat whole grains (high-protein, low-moisture food) and extract nutrients with remarkable efficiency, excreting a concentrated waste product low in water and high in undigested nitrogen. Chicken manure, by comparison, is diluted by 60-70% moisture content and the chickens' higher fiber intake from more varied diets.
+
+The concentrated nitrogen in pigeon guano makes it comparable to blood meal (12% nitrogen) as a soil amendment, but with the advantage of also containing significant phosphorus and potassium. For a settlement without access to industrial nitrogen fertilizer, pigeon guano is the fastest way to build soil fertility. The historical importance is hard to overstate: before the Haber-Bosch process (1913), pigeon guano was one of the few concentrated nitrogen sources available, and was aggressively collected and traded across Europe, North Africa, and the Middle East.
+
+Pigeon guano was also the primary historical source of saltpeter (potassium nitrate) for gunpowder production. The nitrogen-rich droppings, when leached with water through wood ash (which provides potassium carbonate), produce potassium nitrate at yields of 2-5 kg per 100 kg of raw guano. This process sustained European gunpowder production for centuries before the discovery of synthetic nitrate production.
+
+## Why Squab Meat Commands Premium Prices
+
+Squab (26-30 day old pigeons) are harvested just before fledging. At this age, the birds are at maximum weight with tender, well-developed breast muscles from the protein-rich crop milk diet. Once squab begin flying (around day 30-35), they exercise their flight muscles and rapidly lose fat, becoming tougher and lighter. The harvest window is narrow: 26-30 days produces tender, fatty squab; 35 days produces a leaner, tougher bird.
+
+The reason crop milk produces such fast growth: pigeon crop milk contains 60% protein and 32-36% fat by dry weight, far richer than any mammal's milk (cow milk is roughly 25% protein and 28% fat on a dry basis). Both parents produce and regurgitate crop milk, so squab receive continuous feeding. This concentrated nutrition enables squab to double their hatch weight in just 2 days and reach 65-70% of adult weight in 4 weeks, a growth rate unmatched by any other poultry species.
+
 ## Safety
 
 **Zoonotic diseases**:

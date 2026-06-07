@@ -144,6 +144,38 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 - Fixed 5V supply — incompatible with 3.3V and lower-voltage systems
 - Static power dissipation (2 mW/gate for 74LS) limits practical VLSI to ~10,000 gates
 
+## Logic Family Comparison
+
+| Parameter | RTL | DTL | TTL (74LS) | CMOS (4000) | CMOS (74HC) | ECL (10K) |
+|-----------|-----|-----|------------|-------------|-------------|-----------|
+| Supply voltage | 3.6 V | 5 V | 5 V ±0.25 V | 3-15 V | 2-6 V | -5.2 V |
+| Logic high (min) | 1.0 V | 4.0 V | 2.0 V | 3.5 V (at 5V) | 3.5 V (at 5V) | -0.9 V |
+| Logic low (max) | 0.5 V | 0.5 V | 0.8 V | 1.5 V (at 5V) | 1.0 V (at 5V) | -1.75 V |
+| Noise margin | ~0.2 V | ~0.5 V | ~0.4 V | ~1.0 V | ~1.0 V | ~0.2 V |
+| Propagation delay | 50 ns | 25-50 ns | 9 ns | 100-250 ns | 8-15 ns | 2 ns |
+| Power/gate | 5-20 mW | 5-10 mW | 2 mW | 0.001-0.01 mW (static) | 0.001-0.01 mW (static) | 25 mW |
+| Fan-out | 5 | 8 | 10 | 50+ | 50+ | 10+ |
+| Max clock rate | 5 MHz | 10 MHz | 35 MHz | 5 MHz | 50 MHz | 200 MHz |
+| Gate count/chip (SSI) | — | 8-12 | 8-12 | 8-12 | 8-12 | 4-8 |
+| Era | 1961-1965 | 1962-1968 | 1965-1985 | 1970-1990 | 1982+ | 1970+ |
+
+CMOS power scales with frequency: P = CV²f, where C is the load capacitance, V is supply voltage, and f is switching frequency. A 74HC gate with 15 pF load at 5 V and 10 MHz: P = 15×10⁻¹² × 25 × 10⁷ = 3.75 mW. At 1 MHz: 0.375 mW. At DC (static): <1 μW.
+
+## Memory Technology Specifications
+
+| Technology | Access Time | Capacity (per chip) | Cost/bit | Retention | Write cycles |
+|-----------|-------------|---------------------|----------|-----------|-------------|
+| Magnetic core | 0.5-10 μs | 64 KB system | ~$0.01 (1975) | Non-volatile (indefinite) | Unlimited |
+| SRAM (6T cell) | 1-10 ns | 1-64 Mb | High | Volatile (loses data at power-off) | Unlimited |
+| DRAM (1T1C) | 30-100 ns | 64 Mb-16 Gb | Low | Volatile, refresh every 2-64 ms | Unlimited |
+| Mask ROM | 50-200 ns | 64 KB-16 MB | Very low (high NRE) | Non-volatile (permanent) | None (factory programmed) |
+| EPROM | 100-300 ns | 16 KB-1 MB | Medium | 10-20 years (UV window covered) | 100-1000 erase cycles |
+| EEPROM | 100-500 ns | 1 KB-1 Mb | Medium | 10-20 years | 10,000-100,000 |
+| NOR flash | 50-100 ns (read) | 1-256 Mb | Low | 10-20 years | 10,000-100,000 |
+| NAND flash | 25-50 μs (read) | 1 Gb-4 Tb | Very low | 10-20 years | 1,000-100,000 |
+
+DRAM refresh overhead: a 64 ms refresh interval with 8192 rows requires one refresh every 7.8 μs. Each refresh takes 50-100 ns, consuming <1% of memory bandwidth. Failure to refresh causes data loss within milliseconds.
+
 ## Input/Output Systems
 
 **Punched card I/O**: 80-column Hollerith cards (see [Electromechanical Computing](./electromechanical.md)). Card reader: 100-2,000 cards/minute. Card punch: 50-300 cards/minute. Primary input medium through the 1970s.
@@ -174,10 +206,12 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 
 ## Safety & Hazards
 
-- **CRT high voltage (25-30 kV)**: Cathode ray tubes and large vacuum tube circuits operate at lethal potentials. The CRT envelope and its anode connection carry 25-30 kV during operation, and the tube's internal capacitance can retain a dangerous charge for hours or days after power-off. Always discharge CRT anodes and high-voltage capacitors to chassis ground using a properly insulated discharge tool before servicing. Observe the one-hand rule: keep one hand behind your back when probing live high-voltage circuits to prevent current across the chest.
-- **Vacuum tube implosion**: Large vacuum tubes (especially CRTs) hold a hard vacuum behind a glass envelope. Atmospheric pressure (~101 kPa) loads every square centimeter of the glass. A crack or impact can cause sudden violent implosion, launching glass fragments at high velocity. Wear eye protection (safety goggles or face shield) when handling vacuum tubes. Handle tubes by their bases, not the glass envelope. Dispose of cracked tubes by contained implosion in a heavy cloth bag or puncture the anode button to equalize pressure slowly.
-- **Solder fumes (lead-based solder)**: Traditional tin-lead solder (60/40 or 63/37 Sn-Pb) generates fumes during soldering — primarily from the rosin flux core, which releases formaldehyde and other irritants. Lead itself does not vaporize at soldering temperatures (~230°C) but accumulates on surfaces and hands as oxide dust. Use local exhaust ventilation (fume extractor or open window). Wash hands thoroughly after soldering, especially before eating. Lead-free solders (SAC305: Sn-Ag-Cu) eliminate lead exposure but produce similar flux fumes.
-- **Stored energy in capacitors**: Power supply filter capacitors in tube-era and transistor-era equipment store lethal energy — a 100 µF capacitor charged to 300 V holds 4.5 J, enough to cause ventricular fibrillation. Large high-voltage capacitors in CRT circuits store far more. Charge can persist for hours after power-off due to low leakage paths. Always discharge all capacitors with a bleed resistor (100 Ω to 1 kΩ, 2 W minimum) before touching any circuitry. Never short capacitor terminals with a screwdriver — the arc damages components and can spray molten metal.
+- **CRT high voltage (25-30 kV)**: Cathode ray tubes and large vacuum tube circuits operate at lethal potentials. The CRT envelope and its anode connection carry 25-30 kV during operation, and the tube's internal capacitance (500-2000 pF) can retain a dangerous charge for hours or days after power-off. Stored energy: ½CV² = ½ × 2000 pF × (25,000 V)² ≈ 0.6 J, enough to cause cardiac arrest. Always discharge CRT anodes and high-voltage capacitors to chassis ground using a properly insulated discharge tool (a 10 MΩ resistor on an insulated probe, not a direct short) before servicing. Wait 5× the RC time constant for full discharge: for a 2000 pF cap through 10 MΩ, τ = 20 μs, but CRT capacitance with external circuitry can be much larger; wait at least 30 seconds. Observe the one-hand rule: keep one hand behind your back when probing live high-voltage circuits to prevent current across the chest.
+- **Vacuum tube implosion**: Large vacuum tubes (especially CRTs) hold a hard vacuum (<10⁻³ Torr) behind a glass envelope. Atmospheric pressure (~101 kPa) loads every square centimeter of the glass. A 12-inch CRT has roughly 460 cm² of surface area, bearing about 4,650 N of force. A crack or impact can cause sudden violent implosion, launching glass fragments at velocities exceeding 100 m/s. Wear eye protection (safety goggles or face shield) when handling vacuum tubes. Handle tubes by their bases, not the glass envelope. Dispose of cracked tubes by contained implosion in a heavy cloth bag or puncture the anode button to equalize pressure slowly.
+- **Solder fumes (lead-based solder)**: Traditional tin-lead solder (60/40 or 63/37 Sn-Pb) generates fumes during soldering at 230-260°C, primarily from the rosin flux core, which releases formaldehyde and colophony fumes (occupational asthma sensitizer). Lead itself does not vaporize at soldering temperatures (lead boils at 1,749°C) but accumulates on surfaces and hands as oxide dust. OSHA lead PEL: 50 μg/m³ air; ACGIH TLV for rosin flux fume: 0.05 mg/m³. Use local exhaust ventilation (fume extractor pulling 100+ CFM at the work surface, or open window). Wash hands thoroughly after soldering, especially before eating. Lead-free solders (SAC305: 96.5%Sn/3.0%Ag/0.5%Cu) eliminate lead exposure but require higher soldering temperature (250-270°C) and produce similar flux fumes.
+- **Stored energy in capacitors**: Power supply filter capacitors in tube-era and transistor-era equipment store lethal energy. A 100 μF capacitor charged to 300 V holds E = ½CV² = ½ × 0.0001 × 300² = 4.5 J, enough to cause ventricular fibrillation (threshold ~1 J through chest). Large high-voltage capacitors in CRT circuits store far more. Charge can persist for hours after power-off due to low leakage paths. Always discharge all capacitors with a bleed resistor (100 Ω to 1 kΩ, 2 W minimum) before touching any circuitry. Wait 5× the RC time constant for full discharge. For a 4700 μF cap at 400 V through a 1 kΩ resistor: τ = 4.7 s, wait 23.5 s. Never short capacitor terminals with a screwdriver. The arc at up to 10 kA peak instantaneous current damages components and can spray molten metal from the terminal.
+- **Tube heater supply burns**: Vacuum tube heaters operate at 600-800°C visible surface temperature. Direct contact causes immediate second-degree burns. A 6.3 V heater at 300 mA dissipates 1.9 W per tube. A 20-tube chassis with all heaters lit dissipates 38 W as pure heat in the enclosure. Allow 10 minutes for tubes to cool after power-off before handling. Use a cloth or thermal gloves when replacing hot tubes.
+- **ESD damage to MOS devices**: MOSFET gates are insulated by 10-100 nm of SiO₂. The breakdown field is ~10 MV/cm, so a 100 nm gate oxide fails at ~10 V. Walking across a carpet can generate 10-30 kV of static charge. Discharging even 100 V through a MOS gate destroys it instantly. Handle all MOS devices (CMOS ICs, MOSFETs, EPROMs) at ESD-controlled workstations: grounded wrist strap (1 MΩ resistor to ground, limiting discharge current to safe levels), conductive heel straps, static-dissipative bench surface (10⁶-10⁹ Ω/square). Store MOS devices in conductive foam or anti-static bags. Never slide MOS devices across ordinary plastic surfaces.
 
 ## EDVAC Architecture: Stored-Program Design
 
@@ -265,12 +299,18 @@ The EDVAC (Electronic Discrete Variable Automatic Computer), described in John v
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|
-| Vacuum tube circuit dead | Filament burned out or lost vacuum (silvery deposit inside glass) | Replace tube; check heater supply voltage; log tube hours for preventive replacement |
-| DRAM bit errors (random) | Soft error from cosmic ray or alpha particle, or refresh timing too slow | Implement ECC (error-correcting code); verify refresh interval (≤8 ms); check power supply ripple |
-| CPU overheating | Heat sink clogged or fan failed | Clean heat sink; replace fan; verify thermal compound; check ambient temperature |
-| EPROM data loss over time | Floating gate charge leakage (10-20 year retention) | Re-program from backup; store critical code in mask ROM for permanent applications |
-| Board-level timing errors | Clock skew or signal reflection on long traces | Shorten trace lengths; add termination resistors; verify clock distribution network |
-| I/O device not responding | Interface protocol mismatch or cable fault | Verify baud rate and handshake lines; check cable continuity; swap with known-good device |
+| Vacuum tube circuit dead | Filament burned out or lost vacuum (silvery deposit inside glass) | Replace tube; check heater supply voltage (6.3 V or 12.6 V typical ±10%); log tube hours for preventive replacement (MTBF 2,000-10,000 hours) |
+| DRAM bit errors (random) | Soft error from cosmic ray or alpha particle, or refresh timing too slow | Implement ECC (error-correcting code); verify refresh interval (≤8 ms for 64 ms cells, ≤4 ms for 32 ms cells); check power supply ripple (<50 mV on Vdd) |
+| CPU overheating | Heat sink clogged or fan failed | Clean heat sink; replace fan; verify thermal compound (0.5-1.0 °C/W junction-to-heatsink); check ambient temperature (must be <40°C for rated operation) |
+| EPROM data loss over time | Floating gate charge leakage (10-20 year retention at 25°C, only 1-3 years at 85°C) | Re-program from backup; store critical code in mask ROM for permanent applications; cover quartz window with opaque label to prevent UV erasure |
+| Board-level timing errors | Clock skew or signal reflection on long traces | Shorten trace lengths (<15 cm for 10 MHz TTL); add termination resistors (220 Ω series at source for TTL, 33 Ω parallel at destination for ECL); verify clock distribution network |
+| I/O device not responding | Interface protocol mismatch or cable fault | Verify baud rate (110, 300, 1200, 2400, 4800, 9600, 19200) and handshake lines (RTS/CTS or XON/XOFF); check cable continuity with multimeter; swap with known-good device |
+| TTL gate output stuck at 1.4 V | Output stage damaged (totem-pole both transistors partially on) | Replace IC; check for bus contention (two outputs driving same line); verify no input exceeds Vcc + 0.5 V |
+| CMOS latchup | Input voltage exceeded supply rail by >0.5 V, triggering parasitic SCR | Power cycle immediately; add input clamp diodes (1N4148 to Vcc and GND); ensure power supply ramps before input signals |
+| Magnetic core memory errors | Core plane wiring broken or sense amplifier drift | Check sense wire continuity (infinite resistance = broken wire); recalibrate sense amplifier threshold (typically 5-20 mV pulse); verify drive currents match half-switching value (±5%) |
+| Vacuum tube oscillator won't start | Insufficient feedback or grid bias too negative | Reduce cathode bypass capacitor to increase AC gain; check grid-leak resistor (typically 100 kΩ to 10 MΩ); verify B+ voltage within ±20% of rated |
+| Memory parity error on specific address | Stuck bit in DRAM or SRAM chip | Run memory diagnostic writing walking-1s pattern (01, 02, 04, 08...); identify failing address and data bit; replace affected chip |
+| Power supply ripple exceeds spec | Filter capacitor degraded or rectifier diode open | Measure ripple with oscilloscope (should be <100 mV p-p for 5V logic supply); replace electrolytic capacitors (ESR rises with age); check all rectifier diodes for forward voltage (0.6-0.7 V for silicon) |
 
 ## See Also
 

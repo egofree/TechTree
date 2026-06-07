@@ -71,22 +71,32 @@ The process chain consists of three main reaction stages. First, elemental sulfu
 
 ### Process Parameters
 
-| Parameter | Range | Notes |
+| Parameter | Value | Notes |
 |-----------|-------|-------|
-| Sulfur burner temperature | High | Must maintain complete combustion |
-| Converter temperature | Moderate range | Balance between reaction rate and equilibrium |
-| Catalyst | V₂O₅ on silica | Activated by potassium sulfate promoter |
-| SO₂ feed concentration | 7-10% in air | Higher concentrations require oxygen enrichment |
-| Conversion efficiency | >99% | Multiple beds with intercooling required |
+| Sulfur burner temperature | 800-1,500°C | Must maintain complete combustion; excess air kept to 10-20% above stoichiometric |
+| SO₂ concentration in burner gas | 7-10% by volume | Higher SO₂ (from pure sulfur) gives smaller equipment; lower SO₂ (from pyrite) needs larger converters |
+| Converter inlet temperature (first bed) | 410-440°C | Catalyst ignition temperature; below 400°C V₂O₅ is too slow |
+| Converter outlet temperature (first bed) | 580-620°C | Temperature rises ~50-80°C per bed due to exothermic reaction |
+| Interstage cooling target | Cool to 410-440°C between beds | Lower temperature favors equilibrium but catalyst must stay above 400°C |
+| Final bed temperature | 410-440°C | Lowest feasible temperature for maximum equilibrium conversion |
+| Number of catalyst beds | 4-5 (single absorption), 5-6 (double absorption) | More beds = higher conversion but more equipment |
+| Overall SO₂ conversion | 97-98% (single), >99.5% (double) | DCDA achieves >99.5% via intermediate absorption |
+| V₂O₅ catalyst loading | 150-250 L per tonne/day acid capacity | Ring-shaped pellets, 6-10 mm diameter |
+| Absorption tower acid concentration | 98.0-98.5% H₂SO₄ | Optimal for SO₃ absorption without forming acid mist |
+| Oleum production | 20-65% free SO₃ | Higher free SO₃ = more concentrated oleum |
+| Product acid concentration | 96-98% H₂SO₄ | Diluted from oleum with water or weaker acid |
+| Sulfur feed rate | ~330 kg S per tonne H₂SO₄ (from pure sulfur) | From pyrite: ~600 kg pyrite per tonne H₂SO₄ |
+| Energy balance | Net exporter (exothermic) | 1 tonne H₂SO₄ produces ~1.5 tonnes of steam from waste heat |
 
 ## Safety Considerations
 
 The contact process handles hot concentrated acid, toxic gases, and exothermic catalytic reactors. The hazard profile differs at each stage of the process:
 
-- **Concentrated sulfuric acid**: Causes severe dehydration burns on skin contact. Reacts violently with water, generating substantial heat. Always add acid to water, never water to acid. Oleum (fuming sulfuric acid) is even more hazardous — it releases SO₃ gas on exposure to air.
-- **Sulfur dioxide and trioxide**: Both are severe respiratory irritants. SO₂ causes bronchoconstriction at low concentrations. SO₃ combines with moisture in respiratory tract to form sulfuric acid in the lungs.
-- **Catalyst toxicity**: Vanadium pentoxide is toxic by inhalation and ingestion. Handle catalyst pellets with dust protection during loading and unloading operations.
-- **Exothermic reactions**: Multiple process stages generate substantial heat. Temperature excursions can damage equipment and create runaway reaction conditions.
+- **Concentrated sulfuric acid (96-98%)**: Causes severe dehydration burns on skin contact within seconds. Reacts violently with water, generating substantial heat (690 J/g dilution heat from 98% to 50%). Always add acid to water, never water to acid. Oleum (fuming sulfuric acid, 20-65% free SO₃) is even more hazardous — it releases SO₃ gas on exposure to air and has a higher vapor pressure than concentrated acid.
+- **Sulfur dioxide (SO₂)**: Severe respiratory irritant. IDLH 100 ppm; PEL 5 ppm (8-hr TWA); immediately detectable by odor at 1-3 ppm. Causes bronchoconstriction at 5-10 ppm, pulmonary edema above 50 ppm. Heavier than air (density 2.26× air) — accumulates in low-lying areas.
+- **Sulfur trioxide (SO₃)**: Combines with moisture in respiratory tract to form sulfuric acid in the lungs. IDLH is effectively that of the H₂SO₄ mist it forms. The combination of SO₃ + H₂O → H₂SO₄ aerosol produces a dense, persistent acid mist that is far more damaging than dry gas.
+- **Vanadium pentoxide (V₂O₅) catalyst**: Toxic by inhalation. OSHA PEL 0.5 mg/m³ (respirable dust, as V₂O₅). Causes respiratory irritation, green tongue, and chronic bronchitis. Handle catalyst pellets with dust suppression and respiratory protection during loading and unloading operations. Spent catalyst may contain arsenic and other accumulated poisons.
+- **Exothermic reactions**: Multiple process stages generate substantial heat (SO₂ oxidation releases ~99 kJ/mol). Temperature excursions can damage catalyst (sintering above 650°C) and create runaway reaction conditions in the converter.
 
 ### Personal Protective Equipment
 
@@ -137,11 +147,15 @@ Key scaling challenges: heat recovery from the exothermic oxidation becomes a si
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Low SO₂ conversion | Catalyst deactivation or sub-optimal temperature | Replace catalyst; check interstage cooling performance |
-| Catalyst poisoning | Arsenic or other impurities in feed gas | Improve gas purification; check ore quality |
-| Acid mist from absorber | Insufficient acid circulation or wrong concentration | Increase circulation rate; verify acid strength in tower |
-| Excessive stack SO₂ | Incomplete conversion or absorber bypass | Add catalyst bed or improve interstage cooling |
-| Converter hot spots | Uneven gas distribution or channeling | Repack catalyst bed; check flow distributors |
+| Low SO₂ conversion (<95%) | Catalyst deactivation (arsenic poisoning, thermal sintering), sub-optimal bed temperatures, or interstage cooling failure | Test catalyst activity in lab converter; replace beds with <80% of original activity; verify interstage coolers hold gas at 410-440°C between beds |
+| Catalyst poisoning (rapid activity loss) | Arsenic, selenium, or fluorine in feed gas from impure ore or inadequate gas purification | Install or upgrade electrostatic precipitator and scrubbing tower before converter; target arsenic <1 mg/m³ in feed gas; switch to cleaner sulfur source if ore quality is poor |
+| Acid mist from absorber (visible white plume) | Absorption tower acid concentration outside 98.0-98.5% window (too dilute or too concentrated), or insufficient acid circulation rate causing temperature rise | Adjust circulating acid to 98.0-98.5% H₂SO₄ (measure by density — 1.836 g/cm³ at 15°C); increase circulation rate to keep acid exit temperature below 80°C |
+| Excessive stack SO₂ (>500 ppm) | Incomplete conversion (single absorption plant below 97%), absorber bypass, or DCDA interstage absorber failure | For single-absorption: add 4th or 5th catalyst bed, or convert to DCDA; verify absorption tower packing integrity; check DCDA interstage absorber for acid level and concentration |
+| Converter hot spots (>650°C locally) | Uneven gas distribution, catalyst channeling (gas bypassing through voids), or dust accumulation blocking flow | Repack catalyst bed with proper ring-pellet geometry (6-10 mm); install or repair gas flow distributors at bed inlet; screen catalyst for fines after each shutdown |
+| Rising converter pressure drop (>150% of design) | Catalyst pellet breakage (thermal cycling, mechanical vibration), dust accumulation, or liquid acid carryover into converter | Shut down and screen catalyst to remove fines (<2 mm); fix upstream mist eliminator if acid carryover detected; minimize thermal cycling during startups |
+| Oleum freezing in storage or lines | Oleum with 20-45% free SO₃ freezes at 10-35°C; inadequate heat tracing on piping | Maintain storage temperature 15°C above freezing point for the specific oleum grade; install heat tracing on all transfer lines; verify freeze point with SO₃ concentration analysis |
+| Product acid off-spec (below 96% or discolored) | Dilution from water ingress, absorption tower flooding, or organic/metallic contamination from dirty sulfur feed | Check for water leaks in acid cooling system; verify sulfur purity before burning; test absorption tower for flooding (excessive gas velocity); re-distill if metallic impurities suspected |
+| Vanadium catalyst dusting during loading | Fresh or spent catalyst pellets crumbling, releasing V₂O₅ dust (toxic by inhalation — PEL 0.5 mg/m³ as V₂O₅) | Load catalyst with dust extraction ventilation and wet methods; workers wear P100 respirators and disposable coveralls; vacuum (do not sweep) spilled catalyst |
 
 ## Variations and Alternatives
 

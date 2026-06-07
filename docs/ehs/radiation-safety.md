@@ -71,6 +71,45 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 4. **Select shielding material and thickness**: Use HVL data to determine required thickness. For lead: each HVL reduces dose by 50%. For diagnostic X-ray (100 kVp): HVL = 0.24 mm Pb. Required transmission 0.01 (1%) needs 6.6 HVLs = 1.6 mm Pb.
 5. **Verify with survey meter**: After construction, measure actual dose rates outside barriers with calibrated survey meter. All points must be below regulatory limits. Document measurements.
 
+### Worked Shielding Calculation Example
+
+**Problem**: A dental X-ray unit operates at 70 kVp, 7 mA, average exposure 0.5 seconds per image, 30 images per day, 5 days per week. The wall separating the X-ray room from the reception area is 2 meters from the tube head. Calculate the lead shielding thickness required to keep the reception area dose below 0.02 mSv/week (uncontrolled area limit for the public).
+
+**Step 1**: Calculate weekly workload.
+- 30 images/day × 5 days = 150 images/week
+- 150 images × 7 mA × 0.5 s = 525 mA·s/week = 8.75 mA·min/week
+
+**Step 2**: Estimate unshielded weekly dose at 2 meters.
+- Typical output at 1 m for 70 kVp dental unit: approximately 4 mGy per mA·min
+- Dose at 2 m = dose at 1 m / (2)² = dose at 1 m / 4
+- Unshielded dose at 2 m = 8.75 mA·min × 4 mGy/(mA·min) / 4 = 8.75 mGy/week
+- Apply occupancy factor for reception area: T = 1 (full occupancy) and use factor U = 0.25 (primary beam directed at wall only 25% of the time for dental)
+- Adjusted dose = 8.75 × 0.25 = 2.19 mGy/week
+
+**Step 3**: Calculate required transmission.
+- Target: 0.02 mSv/week = 0.02 mGy/week (for X-rays, 1 mGy ≈ 1 mSv)
+- Required transmission = 0.02 / 2.19 = 0.0091 (approximately 0.01 or 1%)
+
+**Step 4**: Convert to HVLs and then to lead thickness.
+- Transmission of 0.01 requires log₂(1/0.01) = 6.64 HVLs
+- HVL for 70 kVp X-rays in lead: 0.15 mm
+- Required lead thickness = 6.64 × 0.15 mm = 1.0 mm lead
+
+**Step 5**: Select practical thickness.
+- Standard lead sheet thicknesses: 0.5 mm, 1.0 mm, 1.5 mm, 2.0 mm
+- 1.0 mm lead sheet meets the requirement. Add 1 HVL safety margin: use 1.2 mm (round up to 1.5 mm standard sheet)
+- Equivalent concrete thickness: 1.5 mm Pb × (15 mm concrete / 0.24 mm Pb) = 94 mm ≈ 10 cm concrete
+
+**Result**: The reception area wall requires 1.5 mm lead sheet or 10 cm standard concrete (2.3 g/cm³ density) to meet the public dose limit. After construction, verify with a calibrated ionization chamber survey meter: dose rate at the wall exterior should read less than 0.004 mSv/hour (0.02 mSv/week ÷ 5 hours/week assumed occupancy).
+
+### Radiation Survey Meter Operation Procedure
+
+1. **Pre-use check**: Turn on the instrument. Perform a battery check (most GM counters have a "bat" switch position; needle must be in the green zone). Hold the check source (Cs-137, typically 0.1-1 μCi) against the detector window. The reading should be within ±10% of the expected value posted on the source calibration sticker. If not, do not use the instrument; send for recalibration.
+2. **Select measurement range**: Start on the highest range scale. Reduce range until you get a readable deflection. For GM counters, never use in a field so intense that the meter reads off-scale. In very high radiation fields, GM counters saturate and read zero (not dangerous; they are overwhelmed). If you suspect a high field and the GM reads zero, switch to an ionization chamber which does not saturate.
+3. **Survey technique**: Hold the probe 1 cm from the surface being surveyed. Move at a speed of approximately 5 cm per second. Any increase in count rate above background warrants stopping and measuring the reading at that location. Background in most buildings is 0.05-0.20 μSv/hour from natural radiation in building materials and cosmic rays.
+4. **Document results**: For each survey, record: date, instrument model and serial number, calibration due date, locations measured (with a room sketch or marked floor plan), readings in μSv/hour or counts per minute, background reading, and investigator name. This documentation is required for regulatory compliance and for tracking changes over time.
+5. **Post-survey**: Turn off the instrument. Record the final reading and any anomalies. If any location exceeds the area dose rate limit (7.5 μSv/hour for uncontrolled areas, 25 μSv/hour for controlled areas), mark the area with warning signs and restrict access until the cause is identified and corrected.
+
 ## Personal Dosimetry Program
 
 **Strengths**:
@@ -183,6 +222,11 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 | High background readings | Natural radon, contaminated equipment, cosmic ray increase at altitude | Measure radon separately; decontaminate equipment; compare with historical background data |
 | GM counter saturates (reads zero in high field) | Pulse rate exceeds counter dead time, instrument overload | Reduce source distance or use lower-sensitivity instrument (ionization chamber); never assume "zero" means "no radiation" |
 | Radioactive spill not cleaning up | Contamination chemically bound to surface, porous material absorption | Use appropriate decontamination agent (chelator for metals, acid for alkaline contaminants); replace porous surfaces if necessary |
+| Lead shielding appears damaged after years of use | Lead creep (deformation under its own weight), corrosion from moisture, mechanical damage from renovation | Inspect lead shielding annually; sagging or cracked lead must be replaced; store lead flat, never on edge; protect from moisture with paint or covering |
+| X-ray room survey shows dose above limits near electrical conduit | Conduit penetration through shielded wall not properly sealed | Pack conduit penetration with lead wool (pure lead fibers packed into the annular gap); extend lead shielding 10 cm beyond the penetration on both sides; re-survey after sealing |
+| Film badge shows exposure but worker reports no radiation work | Badge left on lab coat near source, badge stored near radioactive sample, badge damaged by heat | Issue replacement badge; investigate storage conditions; film blackened by heat (not radiation) produces diffuse darkening rather than the characteristic pattern of radiation exposure |
+| Radon levels above 148 Bq/m³ (4 pCi/L) in basement workspace | Uranium-rich geology beneath building, inadequate ventilation | Install sub-slab depressurization system (4-inch PVC pipe through floor slab, connected to inline fan, exhaust above roofline); seal floor cracks; increase air exchange rate to ≥4 ACH in basement |
+| Worker's cumulative dose approaching annual limit mid-year | Increased workload with higher-dose procedures, inadequate shielding for new procedures, technique problems | Review work practices; add local shielding (lead screens, lead glass) at the operator position; consider workload redistribution among multiple qualified workers |
 
 ## Safety
 

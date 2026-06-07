@@ -3,7 +3,7 @@
 > **Node ID**: petroleum.extraction.cable-tool
 > **Domain**: [Petroleum](./index.md)
 > **Dependencies**: [`Rotary Drilling`](rotary.md)
-> **Enables**: [`Steam Power`](steam-power.md), [`Crude Oil Extraction`](extraction.md)
+> **Enables**: [`Steam Power`](../energy/steam-power.md), [`Crude Oil Extraction`](extraction.md)
 > **Timeline**: Years 10-25
 > **Outputs**: crude_oil
 > **Critical**: No
@@ -80,13 +80,40 @@ Early cable-tool wells in Pennsylvania produced from shallow sandstone formation
 | Bit weight | 500-2,000 lbs | Heavier for deeper/harder wells |
 | Cable diameter | 0.75-1.5 inches (wire rope) | Manila rope up to 2 inches |
 | Bailing interval | Every 0.3-1.0 m drilled | More frequent in soft, wet formations |
+| Derrick height | 15-25 m (wooden), 25-35 m (steel) | Taller for deeper wells |
+| Steam engine power | 10-25 HP (7.5-19 kW) | Larger for wells beyond 500 m |
+| Conductor pipe diameter | 30-60 cm | Set in cellar 1.5-3 m deep |
+
+### Drill Bit Types and Penetration Rates
+
+The bit is the only part of the tool string that contacts rock. Choosing the right shape and size for the formation makes the difference between productive drilling and hours of wasted effort.
+
+| Bit Type | Shape | Width Range | Target Formation | Penetration Rate |
+|----------|-------|-------------|-----------------|-----------------|
+| Chisel (flat) | Flat cutting edge, slightly concave | 10-20 cm | Soft sandstone, shale | 5-10 m/day |
+| Star (four-point) | Four crossing blades forming an X | 10-15 cm | Medium limestone, dolomite | 2-5 m/day |
+| "Ground hog" (solid) | Solid cylindrical with sharpened face | 8-12 cm | Hard quartzite, granite | 0.5-2 m/day |
+
+Bit width determines the starting hole diameter. Each successive casing string reduces the hole diameter by 5-10 cm as the well deepens, so a well starting at 25 cm may finish at 10 cm at total depth. The drill stem above the bit adds weight: a typical stem is 3-6 m long and weighs 200-500 kg, depending on diameter. Total tool string weight (bit + stem + jars + socket) ranges from 300 kg for shallow wells to over 1,000 kg for deep, hard-rock operations.
+
+### Formation-Specific Drilling Behavior
+
+The driller identifies formations by sound, cutting appearance, and penetration rate. These indicators tell an experienced driller what lies beneath the surface and how to adjust the equipment.
+
+- **Sandstone**: Sharp metallic click on each blow. Cuttings are gritty, individual sand grains visible. Fast penetration (5-10 m/day in soft sandstone). Bit dulls from abrasion; sharpen or replace every 10-30 m depending on quartz content.
+- **Shale**: Dull thud, muffled impact sound. Cuttings are flaky, plate-like, often dark gray or black. Moderate penetration (3-6 m/day). Shale swells when wet, which can grip the tools; keep the borehole filled with water to control swelling rate.
+- **Limestone**: Ringing tone, resonant impact. Cuttings are powdery, white to gray. Moderate to slow penetration (2-5 m/day). Harder limestone requires star bits and heavier tool strings.
+- **Coal**: Crunching, soft impact. Black, sooty cuttings. Fast penetration (8-15 m/day). Coal seams often mark the transition to oil-bearing formations in Appalachian-type geology. Gas may enter the borehole at coal seams; watch for gas bubbles in the bailer water.
+- **Gravel/unconsolidated**: No clear impact sound, the bit punches through. Gravel and sand in the bailer. Fast penetration but the borehole collapses behind the bit. Drive casing immediately through unconsolidated zones before drilling deeper.
 
 The cable-tool drill string consists of a bit, drill stem, jars, and a rope socket attached to the cable. The tools are threaded together with tapered threads that tighten under impact loading. Overall tool string weight determines impact energy delivered to the rock. Heavier strings penetrate harder formations but require stronger cable and larger walking beam assemblies.
 
 ## Safety Considerations
 
+- **Benzene exposure**: Crude oil contains benzene (0.1-4% by weight depending on crude type). Benzene is a confirmed human carcinogen. OSHA PEL is 1 ppm TWA (8-hour), 5 ppm STEL (15-minute). NIOSH REL is 0.1 ppm TWA. Avoid skin contact with crude oil and minimize breathing vapors at the wellhead. Use chemical-resistant gloves (nitrile, not latex) when handling crude samples. Work upwind of open boreholes and oil storage.
+- **Fire prevention**: Cable-tool rigs have open boreholes with no blowout preventer. If oil or gas enters the borehole, it flows to the surface uncontrolled. Keep the steam engine exhaust and any open flames at least 15 m downwind of the wellhead. Maintain a 20-liter water bucket and a 10 kg dry chemical extinguisher at the rig floor. Shut down the steam engine immediately if gas is detected. Do not smoke within 30 m of the wellhead. Store fuel for the steam engine in a contained area at least 25 m from the rig.
 - **Cable snap**: A wire rope under load stores enormous energy. When it breaks, the whipping cable end can kill anyone in its path. Personnel must stand clear of the cable run during drilling. Inspect cable before every trip for broken strands and kinks.
-- **Hydrogen sulfide (H₂S)**: Sour formations release H₂S gas, lethal at concentrations above 100 ppm. Gas detectors and self-contained breathing apparatus must be available on the rig floor. H₂S is heavier than air and collects in the cellar and low areas.
+- **Hydrogen sulfide (H₂S)**: Sour formations release H₂S gas. The exposure limits are tight: OSHA permissible exposure limit (PEL) is 20 ppm ceiling, with a 50 ppm peak allowed for 10 minutes once per 8-hour shift. NIOSH sets the recommended exposure limit at 10 ppm TWA. The immediately dangerous to life or health (IDLH) concentration is 100 ppm. At 100-200 ppm, the sense of smell is lost (olfactory fatigue), which makes H₂S especially dangerous because the characteristic rotten-egg odor disappears at exactly the concentrations that cause harm. At 300 ppm, pulmonary edema risk rises. Above 700 ppm, rapid unconsciousness and death occur within minutes. H₂S is heavier than air (density 1.36 relative to air) and collects in the cellar, mud pit, and any low-lying area around the rig. Gas detectors and self-contained breathing apparatus must be available on the rig floor. Electronic H₂S monitors worn at the collar alert at 10 ppm (warning) and 15 ppm (alarm).
 - **Derrick collapse**: Wooden derricks can fail under wind loading, ice accumulation, or structural rot. Steel derricks can buckle from overstress during casing driving operations. Inspect derricks regularly and do not exceed rated hook load.
 - **Blowout**: Cable-tool wells have no blowout preventer. If the bit penetrates a high-pressure gas zone, the well can blow out uncontrollably. The only defense is maintaining sufficient water column weight and keeping the well filled with fluid.
 - **Falling tools**: Dropping the drill string or bailer from height inside the derrick causes catastrophic damage at the rig floor. Secure all tools with safety chains during handling.
@@ -155,6 +182,11 @@ The jars in the tool string serve a specific mechanical purpose. They consist of
 | Water influx from above | Shallow water zone entering borehole above producing zone | Drive additional casing string to isolate the water zone; cement behind the casing shoe |
 | Bit wearing rapidly | Abrasive sandstone or quartzite formation | Switch to harder steel alloy bit; reduce blow frequency to let the bit cut rather than smash |
 | Tools unscrewing downhole | Tapered thread joints backing off from vibration | Apply thread compound (linseed oil and graphite) to each joint; verify makeup torque; check jar links for wear |
+| Cable stretching beyond expected | Wire rope approaching yield under heavy tool string at depth | Reduce tool string weight; switch to larger diameter cable (1.25-1.5 inch); verify cable is not shock-loading from excessive drop distance |
+| Well making oil but production declining | Sand filling the borehole below the producing zone | Bail sand from the well; consider gravel packing or screen installation to exclude sand; check casing for holes |
+| Cement plug failed to seal | Cement contaminated with mud or insufficient set time | Re-cement with a fresh batch; circulate clean water to flush mud before placing the plug; allow 12-24 hours cure time in warm conditions (cement sets slowly below 10°C) |
+| Walking beam cracking at the pivot | Fatigue from years of cyclic loading, especially with heavy tool strings | Inspect the Samson post and beam pivot weekly for cracks; reinforce with steel plates at stress points; reduce tool string weight if cracks appear |
+| Bailor catching on obstruction | Ledge or cave-in in the borehole above the bottom | Lower the bailer slowly and feel for obstructions; if a ledge is present, ream the hole with a reaming bit before resuming drilling |
 
 ## Variations and Alternatives
 
@@ -183,7 +215,7 @@ The cable-tool method produces less formation damage than rotary drilling in som
 - [Crude Oil Extraction](extraction.md) — parent capability
 - [Petroleum Domain](./index.md) — domain overview and related capabilities
 - [Rotary Drilling](rotary.md) — upstream dependency (tool)
-- [Steam Power](steam-power.md) — downstream capability
+- [Steam Power](../energy/steam-power.md) — downstream capability
 - [Crude Oil Extraction](extraction.md) — downstream capability
 
 ### Material Handling

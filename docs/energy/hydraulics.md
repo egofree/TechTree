@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.hydraulics
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`Mining Engineering & Extractive Metallurgy`](mining.md)
-> **Enables**: [`Primary Metal Forming`](forming.md), [`Lubricants, Oils & Fluid Mechanics`](lubricants.md)
+> **Dependencies**: [`Mining Engineering & Extractive Metallurgy`](../mining/index.md)
+> **Enables**: [`Primary Metal Forming`](../metals/forming.md), [`Lubricants, Oils & Fluid Mechanics`](../chemistry/lubricants.md)
 > **Timeline**: Years 15-30
 > **Outputs**: hydraulic-presses, hydraulic-jacks, hydraulic-actuators
 > **Critical**: No
@@ -29,7 +29,7 @@ The principles of hydraulic power transmission were first codified by Pascal in 
 
 ### Equipment
 
-- [Mining Engineering & Extractive Metallurgy](mining.md) — tool dependency
+- [Mining Engineering & Extractive Metallurgy](../mining/index.md) — tool dependency
 - Hydraulic pumps (gear, vane, piston types)
 - Control valves (directional, pressure relief, flow control, proportional, servo)
 - Cylinders and rotary actuators
@@ -74,6 +74,41 @@ A hydraulic power system converts mechanical input (from an electric motor or en
 | Fluid viscosity | 15–100 cSt at operating temp | Must stay within pump's rated viscosity range |
 | Fluid cleanliness | ISO 4406 18/16/13 or better | Proportional/servo valves require cleaner fluid |
 | Reservoir temperature | 40–60°C | Above 65°C degrades fluid and seals rapidly |
+
+## Cylinder Sizing and Force Calculations
+
+The fundamental relationship governing all hydraulic actuator design:
+
+    Force = Pressure × Area
+
+For a double-acting cylinder (force on the extension stroke):
+- F_extend = P × π × (Bore/2)²
+- F_retract = P × π × ((Bore/2)² - (Rod/2)²)
+
+**Standard cylinder bore sizes and force output at 210 bar**:
+
+| Bore (mm) | Rod (mm) | Extension Force (kN) | Retraction Force (kN) | Extension Force (tonnes) |
+|-----------|----------|---------------------|-----------------------|--------------------------|
+| 40 | 25 | 26.4 | 16.1 | 2.7 |
+| 63 | 40 | 65.5 | 39.1 | 6.7 |
+| 80 | 50 | 105.6 | 64.3 | 10.8 |
+| 100 | 63 | 165.0 | 99.6 | 16.8 |
+| 125 | 80 | 257.7 | 152.2 | 26.3 |
+| 160 | 100 | 422.4 | 257.4 | 43.1 |
+| 200 | 125 | 659.7 | 401.9 | 67.3 |
+| 250 | 160 | 1,031 | 608 | 105 |
+| 320 | 200 | 1,690 | 1,030 | 172 |
+
+**Example**: A hydraulic press that must deliver 100 tonnes (980 kN) of force requires, at 210 bar, a cylinder bore of at least 250 mm (which produces 105 tonnes extension force). The pump must deliver sufficient flow to achieve the desired ram speed: ram speed (m/s) = flow rate (m³/s) / bore area (m²). For a 250 mm bore cylinder extending at 10 mm/s: Q = 0.01 × π × (0.125)² = 0.49 L/s ≈ 30 L/min.
+
+**Pump sizing**: Hydraulic power input (kW) = Pressure (bar) × Flow (L/min) / 600. A system requiring 210 bar and 30 L/min needs P_hydraulic = 210 × 30 / 600 = 10.5 kW. Assuming 85% pump efficiency, the electric motor must be rated at 10.5 / 0.85 ≈ 12.4 kW (typically a 15 kW motor).
+
+**Pipe sizing by flow velocity**: Recommended fluid velocities to balance pressure drop against pipe cost:
+- Suction lines: 0.5-1.5 m/s (larger diameter to prevent cavitation)
+- Pressure lines: 3-6 m/s (smaller diameter for responsiveness)
+- Return lines: 1-3 m/s (moderate diameter)
+
+Required pipe inside diameter: d = √(4 × Q / (π × v)), where Q is flow rate (m³/s) and v is target velocity (m/s). For 30 L/min (0.0005 m³/s) at 4 m/s in a pressure line: d = √(4 × 0.0005 / (π × 4)) = 0.0126 m ≈ 13 mm ID. Use 15 mm (1/2 inch) nominal pipe size.
 
 The relationship between force, pressure, and area in hydraulic systems allows dramatic force multiplication. A modest hand pump generating pressure in a small-bore cylinder can produce enormous force at a large-bore working cylinder. This principle enabled the construction of hydraulic presses capable of forging large steel components long before electric motors of equivalent power were available. The same principle underlies hydraulic jacks used for lifting heavy loads with minimal operator effort.
 
@@ -147,12 +182,16 @@ Proportional control valves enable variable speed and force control in hydraulic
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Slow or sluggish actuator response | Internal leakage in cylinder or valve, or air entrained in fluid | Bleed air from circuit; check cylinder seal condition; measure internal leakage |
-| Pump cavitation (whining noise) | Clogged inlet filter, low reservoir level, or excessive suction lift | Clean inlet strainer; maintain fluid level; reduce suction line length |
-| Excessive system heating | Relief valve set too low (pumping over relief), or undersized cooler | Verify pressure settings match load requirements; size cooler for heat rejection load |
-| Erratic actuator motion | Sticking valve spool from contamination | Flush system; replace fluid and filter; inspect valve spool for scoring |
-| Cylinder drift under load | Piston seal leakage or counterbalance valve out of adjustment | Replace cylinder seals; verify counterbalance valve setting |
-| Pump losing prime | Air leak in suction line or worn shaft seal | Tighten suction fittings; replace pump shaft seal |
+| Slow or sluggish actuator response (speed <70% of rated) | Internal leakage in cylinder or valve, or air entrained in fluid | Bleed air from circuit at the highest point. Check cylinder seal condition: measure internal leakage by pressurizing one side to 70 bar and measuring flow from the return port — leakage >50 mL/min per 100 mm bore diameter indicates worn seals. For a 100 mm bore cylinder, internal leakage exceeding 50 mL/min at 70 bar warrants seal replacement |
+| Pump cavitation (whining noise, pressure fluctuations) | Clogged inlet filter, low reservoir level, or excessive suction lift | Clean inlet strainer. Maintain fluid level above the minimum mark on the sight glass. Suction lift should not exceed 0.5 m for petroleum-based fluids at 40°C — the vapor pressure of warm oil causes cavitation easily. Verify suction line diameter is at least 1.5× the pump inlet port diameter. Suction line velocity must stay below 1.5 m/s |
+| Excessive system heating (reservoir >65°C) | Relief valve set too low (pumping over relief — all excess flow converts to heat), or undersized cooler | Verify pressure settings match load requirements. A pump delivering 50 L/min over a relief valve set 20 bar above load pressure wastes: P_waste = 20 × 50 / 600 = 1.67 kW of continuous heat input to the fluid. Size cooler for the total heat rejection load (typically 20-30% of input power). For a 15 kW system, the cooler should reject 3-5 kW at the design ambient temperature |
+| Erratic actuator motion (jittering, jerking) | Sticking valve spool from contamination, or excessive friction in cylinder | Flush system; replace fluid and filter. Inspect valve spool for scoring — contamination particles larger than 5-10 μm can jam a servo valve spool (tolerance 2-5 μm). For cylinder friction, measure breakout pressure: extend cylinder with no load — pressure required to initiate motion should be <5% of system pressure. A 100 mm bore cylinder at 210 bar should start moving with <10 bar |
+| Cylinder drift under load (>1 mm/30 minutes) | Piston seal leakage or counterbalance valve out of adjustment | Measure drift rate under a known load. Apply rated load to the fully extended cylinder, mark rod position, and measure drift after 30 minutes. Drift exceeding 1 mm indicates seal leakage. For counterbalance valves, verify setting is 1.1-1.3× the load-induced pressure. Example: a 50 kN load on a 100 mm bore cylinder produces 63.7 bar — set counterbalance to 70-83 bar |
+| Pump losing prime (no flow at startup) | Air leak in suction line or worn shaft seal | Tighten suction fittings — even a tiny air leak on the suction side prevents priming. Check pump shaft seal: oil weeping from the shaft indicates a worn seal that also admits air on the suction side. Replace shaft seal and re-prime by filling the pump case with clean fluid before starting |
+| Pump output flow below rated capacity | Pump internal wear — gear or piston clearances increased from contamination or age | Measure pump flow at rated pressure with a calibrated flow meter. Compare to nameplate rating. Flow loss >10% indicates significant internal wear. Measure case drain flow: for piston pumps, case drain exceeding 5% of rated flow indicates worn pistons or valve plate. Example: a 50 L/min pump with case drain >2.5 L/min needs overhaul or replacement |
+| System pressure not reaching setpoint | Main relief valve stuck open or worn, or pump bypass internally | Remove and inspect relief valve: check for debris holding the poppet off its seat, worn seat surface, or broken spring. Lap the valve seat if scored. Verify the pump reaches deadhead pressure (outlet blocked): it should reach 1.0-1.1× the relief valve setting. If pump cannot reach deadhead pressure, the pump is worn internally |
+| Hydraulic motor speed too low | Motor inlet pressure below specification, or excessive back-pressure on the return side | Measure pressure at the motor inlet and outlet. The motor requires a specific pressure differential (typically 100-350 bar) to deliver rated torque at rated speed. If inlet pressure is adequate but speed is low, check return line back-pressure — return line restriction from undersized piping or clogged filter causes back-pressure that opposes the motor. Return line pressure should be <5 bar |
+| Oil discoloration (dark, milky, or foamy) | Oxidation (dark brown), water contamination (milky), or air entrainment (foamy) | Dark oil: oxidation from overheating — test Total Acid Number (TAN), replace if >2.0 mg KOH/g (new oil: <0.1). Milky oil: water ingress — check heat exchanger for internal leaks, test water content (acceptable: <0.1% by volume). Foamy oil: air entrainment from low reservoir level or suction line leak — check that return line discharges below fluid level to prevent splashing and air entrainment |
 
 ## Variations and Alternatives
 
@@ -177,11 +216,11 @@ Hydraulic power units (HPUs) integrate the reservoir, pump, motor, filters, and 
 
 ## References
 
-- [Energy](energy.md) — parent capability
+- [Energy](index.md) — parent capability
 - [Energy Domain](./index.md) — domain overview and related capabilities
-- [Mining Engineering & Extractive Metallurgy](mining.md) — upstream dependency (tool)
-- [Primary Metal Forming](forming.md) — downstream capability
-- [Lubricants, Oils & Fluid Mechanics](lubricants.md) — downstream capability
+- [Mining Engineering & Extractive Metallurgy](../mining/index.md) — upstream dependency (tool)
+- [Primary Metal Forming](../metals/forming.md) — downstream capability
+- [Lubricants, Oils & Fluid Mechanics](../chemistry/lubricants.md) — downstream capability
 
 ### Material Handling
 

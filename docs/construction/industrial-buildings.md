@@ -259,6 +259,117 @@ This capability depends on [building materials](./building-materials.md) for bas
 | Lateral load (% capacity) | 10% | 10% |
 | Rail clip spacing | 500-600 mm | 500-600 mm |
 
+## Weatherproofing and Envelope Detail
+
+The building envelope keeps weather out while allowing the interior to function as a production space. Water infiltration is the primary enemy: it corrodes steel, damages equipment, degrades concrete, and creates slip hazards. The envelope consists of the roof system, wall cladding, and the joints between them.
+
+### Roof Waterproofing
+
+| Roof Element | Specification | Detail |
+|-------------|--------------|--------|
+| Corrugated metal roofing | 0.5-0.7 mm galvanized steel | Corrugation pitch 76 mm, depth 19 mm; thicker gauge (0.7 mm) for spans >1.5 m between purlins |
+| Minimum roof pitch | 5° (corrugated), 10° (standing seam) | Below 5°, water ponds and corrodes sheet; snow regions require 15-20° minimum |
+| Horizontal overlap | 1.5 corrugations (min 115 mm) | Overlap always in the downhill direction; upper sheet laps over lower |
+| Vertical (end) overlap | 150 mm (pitch >15°), 200 mm (pitch <15°) | Sealant bead between sheets at low pitches |
+| Fasteners | Self-tapping screws with EPDM washer | At every second corrugation at side overlaps, every corrugation at eaves and ridges |
+| Ridge flashing | 0.6 mm galvanized steel, 300 mm wide each side | Folded to match roof profile; close gaps with profiled foam filler strips at ridge |
+| Valley gutters | 0.6 mm galvanized steel, minimum 400 mm wide | Minimum 1:200 fall toward outlet; expandable joints at 12 m intervals |
+
+**Penetration flashing**: Every pipe, vent, skylight, or duct that passes through the roof is a leak point. Install a raised curb (150 mm minimum height above roof plane) around each penetration. Flash the curb with 0.5 mm copper or 0.7 mm galvanized steel, lapping 150 mm up the curb and 200 mm onto the roof sheet. Sealant alone fails within 2-5 years; physical flashing with sealant backup lasts 15-25 years.
+
+### Wall Cladding and Joints
+
+Industrial walls use corrugated metal sheet (0.5 mm steel) or masonry (200 mm concrete block). Metal cladding is faster to erect; masonry provides better thermal mass, fire resistance, and sound insulation.
+
+**Metal wall cladding details**:
+- Sheet length: floor to eave in one piece (avoids horizontal joints, the most leak-prone detail)
+- Vertical overlap: 100 mm minimum, facing away from prevailing wind
+- Base detail: cladding stops 50-75 mm above finished floor level (prevents wicking of water up the sheet). A 150 mm tall metal flashing at the base directs water outward.
+- Corner detail: corner flashing 200 mm each side, lapped under cladding sheets on both walls. Sealant at the overlap.
+
+**Masonry wall waterproofing**:
+- Single-wythe block walls (200 mm) are not waterproof. Apply two coats of cement-based waterproofing render (10-15 mm total) to the exterior face, or build a cavity wall (2 × 100 mm block with 50 mm air gap and weep holes at 1.2 m spacing).
+- Control joints in masonry: 6-8 m spacing, filled with backer rod and polyurethane sealant (not rigid mortar, which cracks).
+- Damp-proof course (DPC): A layer of bituminous felt or slate at floor level prevents rising damp from the foundation. Install 150 mm above external ground level.
+
+### Expansion Joints
+
+Industrial buildings move with temperature changes (steel expands 0.012 mm per meter per degree C). A 60 m long building in a climate ranging from -10°C to +40°C experiences 36 mm of expansion. Without expansion joints, the building cracks or buckles.
+
+| Parameter | Specification |
+|-----------|--------------|
+| Expansion joint spacing | 40-60 m for steel-framed buildings |
+| Joint width | 20-50 mm (calculated from expected temperature range × building length × 0.012 mm/m/°C) |
+| Joint filler | Compressible closed-cell foam (compressible to 50% of original width) |
+| Joint sealant | Polysulfide or polyurethane sealant, applied in two passes with backer rod |
+| Roof cover at joint | Separate metal flashing on each side, sliding over each other with 100 mm overlap |
+| Floor joint | Aluminum or steel edge angles with epoxy grout anchorage, joint filled with semi-rigid epoxy or polyurea |
+
+**Why expansion joints matter**: A steel frame that cannot expand pushes against its anchor bolts and foundations with forces of 100-200 kN per column. This cracks foundation concrete and shears anchor bolts over repeated thermal cycles. The joint allows each building segment to move independently. The cost of the joint (separate framing, doubled columns, cover flashings) is small compared to the cost of repairing cracked foundations.
+
+## Structural Load Calculations (Worked Example)
+
+A 20 m span steel truss in a machine shop, with 8 m bay spacing:
+
+**Dead load (permanent)**:
+- Roof sheeting: 0.05 kN/m²
+- Purlins: 0.05 kN/m²
+- Truss self-weight: 0.15 kN/m²
+- Services (lighting, ducting): 0.10 kN/m²
+- Total dead load: **0.35 kN/m²**
+
+**Live load (variable)**:
+- Snow (moderate climate): 0.5-1.0 kN/m² (depends on local code)
+- Maintenance (workers on roof): 0.25 kN/m² (point load: 1.0 kN)
+- Wind uplift: 0.5-1.5 kN/m² (suction, depends on exposure)
+- **Design live load: 1.0 kN/m²** (governs for moderate snow region)
+
+**Total design load**: 0.35 + 1.0 = **1.35 kN/m²**
+
+**Truss load per bay**: 1.35 kN/m² × 20 m span × 8 m bay = **216 kN per truss**
+
+**Bottom chord tension**: approximately 216 ÷ 8 × 2.5 (truss geometry factor) = **67.5 kN**
+
+**Required bottom chord area** (S235 steel, 235 MPa yield, safety factor 1.5):
+67,500 N ÷ (235 × 10⁶ Pa ÷ 1.5) = **431 mm²**
+
+Minimum section: 2 × L50×50×5 (2 × 480 mm² = 960 mm²). The actual section is larger than required because the minimum practical angle profile for a 20 m truss needs stiffness against sag, not just tensile strength.
+
+**Crane load** (5-tonne overhead crane, 8 m span):
+- Maximum wheel load: 40 kN per wheel (2 wheels per end carriage)
+- Impact factor: 1.25 (for electric cranes)
+- Design wheel load: 40 × 1.25 = **50 kN per wheel**
+- Crane runway beam: simply supported IPE 300, span 8 m
+- Maximum bending moment: 50 kN × 2.5 m × 2.5 m ÷ 8 m = 39 kNm (approximate, single wheel at midspan)
+- Required section modulus (S235, safety 1.5): 39,000 × 10³ ÷ (235 ÷ 1.5) = **249 cm³**
+- IPE 300 provides 558 cm³ → adequate with margin for fatigue
+
+## Foundation Depth by Soil Type
+
+Foundation depth is determined by two requirements: the foundation must rest below the frost line (in freezing climates) and on soil with adequate bearing capacity. The frost line is the maximum depth to which ground freezes in winter. Foundations above the frost line heave as soil moisture freezes and expands, cracking walls and shifting columns.
+
+| Soil Type | Bearing Capacity (kN/m²) | Minimum Foundation Depth | Frost Line Depth (climate) |
+|-----------|:------------------------:|:------------------------:|:--------------------------:|
+| Compact gravel, sand | 300-600 | 0.5-1.0 m | Below frost line |
+| Medium sand | 200-400 | 0.8-1.2 m | Below frost line |
+| Stiff clay | 150-300 | 0.8-1.5 m | Below frost line |
+| Loose sand | 100-200 | 1.0-1.5 m | Below frost line |
+| Soft clay | 50-100 | 1.5-2.5 m | Below frost line; may require piling |
+| Fill or organic soil | 25-75 | Not suitable | Remove and replace, or pile through |
+| Bedrock | 1,000-10,000 | 0.3-0.5 m into rock | No frost concern in rock |
+
+**Frost line depths by region**:
+- Temperate maritime (UK, coastal Europe): 0.5-0.75 m
+- Continental cold (central Europe, northern US): 1.0-1.5 m
+- Subarctic (Canada, Scandinavia, Siberia): 1.5-2.5 m
+- Tropical and arid: not applicable (no ground freezing)
+
+**Foundation sizing example**: A steel column carrying 200 kN vertical load on stiff clay (bearing capacity 200 kN/m²):
+
+Required footing area = 200 kN ÷ 200 kN/m² = **1.0 m²** → use 1.1 m × 1.1 m pad (with safety factor).
+
+Footing depth: minimum 0.5 m below frost line for isolated pad footings. In a 1.0 m frost line climate, footing depth = 1.0 + 0.5 = 1.5 m below finished grade. This places the concrete below the zone of soil movement.
+
 ## Concrete Mix Ratios for Industrial Use
 
 | Application | Mix (C:S:A by weight) | W/C Ratio | 28-day Strength (MPa) | Notes |
@@ -307,17 +418,32 @@ This capability depends on [building materials](./building-materials.md) for bas
 
 ## Safety
 
-- **Concrete burns**: Wet cement (pH 12-13) causes chemical burns with prolonged skin contact. Wear gauntlet gloves when handling wet concrete. Wash skin immediately if contact occurs. Eye protection mandatory during concrete pouring — splatter can cause corneal burns.
+- **Concrete burns**: Wet cement (pH 12-13) causes chemical burns with prolonged skin contact. The alkalinity dissolves skin oils and proteins; burns develop over hours and may not be immediately painful, making them deceptive. Wear gauntlet gloves when handling wet concrete. Wash skin immediately if contact occurs. Eye protection mandatory during concrete pouring — splatter can cause corneal burns.
 
-- **Steel erection falls**: Working at heights of 6-12 m during frame erection is the most dangerous construction phase. Safety harnesses tied to completed structure members are mandatory. Minimum 2 workers for any steel erection task. Historical fatality rate: 1-2 per 100,000 worker-hours for steel erection.
+- **Steel erection falls**: Working at heights of 6-12 m during frame erection is the most dangerous construction phase. Falls from height account for more construction fatalities than all other causes combined. Safety harnesses tied to completed structure members are mandatory for any work above 2 m. Minimum 2 workers for any steel erection task. Historical fatality rate: 1-2 per 100,000 worker-hours for steel erection.
 
-- **Crane operations**: Overhead cranes moving 5-50 tonnes create crush hazard. Never stand under suspended load. Use tag lines to control load swing. Crane runway beams must be inspected annually for fatigue cracking at weld details — a cracked runway beam can drop the crane.
+- **Crane operations**: Overhead cranes moving 5-50 tonnes create crush hazard. A 10-tonne load dropped from even 1 m delivers enough energy to destroy any human body part it contacts. Never stand under suspended load. Use tag lines to control load swing. Crane runway beams must be inspected annually for fatigue cracking at weld details — a cracked runway beam can drop the crane, which then becomes a 50-tonne falling object.
 
-- **Concrete vibrator vibration exposure**: Hand-held concrete vibrators transmit vibration to operators' hands, causing hand-arm vibration syndrome (white finger) with chronic exposure. Limit continuous use to 30 minutes; rotate operators; use anti-vibration gloves.
+- **Concrete vibrator vibration exposure**: Hand-held concrete vibrators transmit vibration to operators' hands, causing hand-arm vibration syndrome (white finger) with chronic exposure. Blood vessels in the fingers spasm and restrict circulation, initially causing numbness and tingling, progressing to permanent tissue damage. Limit continuous use to 30 minutes; rotate operators; use anti-vibration gloves.
 
-- **Machine foundation excavation collapse**: Trenches deeper than 1.5 m for machine foundations must be shored (timber or hydraulic shoring) before worker entry. Soil collapses kill quickly — burial above the waist causes crush asphyxiation within minutes.
+- **Machine foundation excavation collapse**: Trenches deeper than 1.5 m for machine foundations must be shored (timber or hydraulic shoring) before worker entry. Soil collapses kill quickly — burial above the waist causes crush asphyxiation within minutes as the weight of the soil prevents the chest from expanding. A cubic meter of soil weighs 1.5-2.0 tonnes. Even shallow trench collapses are lethal.
 
-- **Reinforcing steel impalement**: Exposed rebar sticking up from foundations presents impalement hazard. Cover all exposed bar ends with plastic caps or bend over before leaving work area.
+- **Reinforcing steel impalement**: Exposed rebar sticking up from foundations presents impalement hazard. Cover all exposed bar ends with plastic caps or bend over before leaving work area. A fall onto exposed rebar results in penetrating injuries that are almost always fatal.
+
+## Structural Joint Specifications
+
+Every joint in an industrial building is a potential failure point. Joints must transfer forces between members while accommodating fabrication tolerances and thermal movement.
+
+| Joint Type | Connection | Fasteners | Torque / Weld | Tolerance | Inspection |
+|-----------|-----------|-----------|:-------------:|:---------:|:----------:|
+| Column base to footing | Base plate on anchor bolts | 4-8 bolts, 20-30 mm dia, grade 4.6 or 8.8 | 50% initially, 100% after grouting (grade 8.8, M20: 450 Nm) | ±3 mm bolt position; ±5 mm column plumb per 6 m | Bolt torque check (10% sample) |
+| Truss to column cap | End plate bolted connection | 4-8 bolts, 16-24 mm, grade 8.8 | Full torque (grade 8.8, M20: 450 Nm) | ±10 mm alignment | Visual + torque verification |
+| Purlin to truss | Clip angle or direct bolt | 2 × 12 mm bolts per connection | Snug-tight | ±5 mm spacing | Visual |
+| X-bracing to column | Gusset plate bolted | 2-4 bolts, 16-20 mm, grade 8.8 | Full torque | ±10 mm | Visual |
+| Crane rail to beam | Rail clips or hook bolts | Rail clips at 500-600 mm spacing | Clips: 100-150 Nm | ±0.5 mm gauge, ±1 mm alignment | Rail gauge survey |
+| Expansion joint | Slotted holes in one member | Bolts in slotted holes allow movement | Finger-tight to allow sliding | 20-50 mm gap | Check gap clear at temperature extremes |
+
+**Welded joints**: Full-penetration groove welds develop the full strength of the connected members. Fillet welds develop strength proportional to the weld throat (effective throat = 0.7 × leg length). Minimum fillet weld leg: 5 mm for materials up to 12 mm thick, 6 mm for 12-20 mm, 8 mm for 20-35 mm. All structural welds in crane runway beams and primary frame connections should be inspected by magnetic particle testing or ultrasonic testing. A defective weld in a crane runway beam can initiate a fatigue crack that propagates to failure under cyclic crane loading within months.
 
 
 ## Quality Control

@@ -223,6 +223,44 @@ Choosing between HEPA and ULPA depends on the target ISO class and the sensitivi
 
 **Cost implications**: ULPA filters cost 2-3× more than HEPA ($400-1200 vs. $200-400 per panel). ULPA systems require 2× the fan energy. However, the cost of contamination-caused defects far exceeds the filtration premium — a single spoiled wafer lot at a modern fab can cost $50,000-500,000.
 
+## ISO 14644-1 Cleanroom Classification (Particle Counts per m³)
+
+ISO classification is determined by measuring particle concentration at one or more specified particle sizes. The maximum allowable concentration is calculated as C_n = 10^N × (0.1/D)^2.08, where N is the ISO class number and D is the particle size in μm.
+
+| ISO Class | ≥0.1 μm | ≥0.2 μm | ≥0.3 μm | ≥0.5 μm | ≥1.0 μm | ≥5.0 μm | FED STD 209E Equivalent |
+|-----------|---------|---------|---------|---------|---------|---------|------------------------|
+| ISO 1 | 10 | 2 | — | — | — | — | — |
+| ISO 2 | 100 | 24 | 10 | 4 | — | — | — |
+| ISO 3 | 1,000 | 237 | 102 | 35 | 8 | — | Class 1 |
+| ISO 4 | 10,000 | 2,370 | 1,020 | 352 | 83 | — | Class 10 |
+| ISO 5 | 100,000 | 23,700 | 10,200 | 3,520 | 832 | 29 | Class 100 |
+| ISO 6 | 1,000,000 | 237,000 | 102,000 | 35,200 | 8,320 | 293 | Class 1,000 |
+| ISO 7 | — | — | — | 352,000 | 83,200 | 2,930 | Class 10,000 |
+| ISO 8 | — | — | — | 3,520,000 | 832,000 | 29,300 | Class 100,000 |
+| ISO 9 | — | — | — | 35,200,000 | 8,320,000 | 293,000 | Room air |
+
+For semiconductor fabrication at 5 nm node, the process environment must be ISO 3 or better at the wafer surface. This is typically achieved by enclosing the wafer inside the process tool with local ULPA filtration and laminar flow, rather than maintaining the entire fab ballroom at ISO 3.
+
+## Air Changes Per Hour by ISO Class
+
+Air changes per hour (ACH) is the number of times the total room volume of air is replaced each hour. Higher ACH clears particles faster but costs more energy. The minimum recommended values come from ISO 14644 and IEST standards:
+
+| ISO Class | Air Changes/Hour (Minimum) | Typical Practice | Airflow Type | Ceiling HEPA Coverage |
+|-----------|---------------------------|------------------|--------------|----------------------|
+| ISO 3 | 500-750 | 500-600 | Unidirectional (vertical laminar) | 100% ULPA |
+| ISO 4 | 400-500 | 400-500 | Unidirectional (vertical laminar) | 100% ULPA |
+| ISO 5 | 60-150 (unidirectional) | 200-600 | Unidirectional at 0.3-0.5 m/s face velocity | 100% HEPA |
+| ISO 6 | 60-150 | 100-200 | Mixed (predominantly unidirectional) | 80-100% HEPA |
+| ISO 7 | 30-70 | 50-100 | Non-unidirectional (turbulent mixing) | 60-80% HEPA |
+| ISO 8 | 10-30 | 20-50 | Non-unidirectional (turbulent mixing) | 25-40% HEPA |
+| ISO 9 | 5-15 | 10-20 | Conventional HVAC | As needed |
+
+**ACH calculation**: ACH = (Total supply airflow in m³/h) ÷ (Room volume in m³). For a 100 m² cleanroom with 3 m ceiling height and 0.45 m/s face velocity across 100% HEPA ceiling: ACH = (100 m² × 0.45 m/s × 3600 s/h) ÷ (100 m² × 3 m) = 540 ACH.
+
+**Recovery time**: After a contamination event (door opening, personnel movement), the time to recover to class-compliant particle levels is approximately t = (60/ACH) × ln(C_initial/C_target). Higher ACH means faster recovery. An ISO 5 cleanroom at 540 ACH recovers from a 10× particle excursion in about 0.5 seconds, while an ISO 7 room at 60 ACH takes about 4.6 seconds for the same recovery.
+
+**Energy tradeoff**: Fan power scales roughly as ACH^1.5 (because pressure drop increases with flow rate through filters). Doubling ACH from 300 to 600 increases fan energy by roughly 2.8×. The energy-optimal approach is to use the minimum ACH that meets particle count requirements, supplemented by localized laminar flow enclosures around the most sensitive processes.
+
 ## Filter Storage and Handling
 
 - **Storage**: Filters must be stored in their original packaging in a clean, dry environment. Do not stack — the weight compresses the gaskets. Storage temperature: 10-35°C. Humidity: <80% RH. Shelf life: 5 years in original packaging.

@@ -178,6 +178,91 @@ Connecting animal power to machinery requires mechanical transmission systems. T
 - **Rope drives**: hemp or manila rope, 1.5-3 cm diameter, wrapped multiple times around grooved wooden pulleys. Useful for longer distances where belts stretch too much. Multiple wraps prevent slippage under load.
 - **Crank-and-connecting-rod**: converts rotary motion to reciprocating motion (or vice versa). A crank arm on the rotating shaft connects via a wooden or iron rod to a piston, saw blade, or bellows. The crank radius determines the stroke length. Used in animal-powered threshing machines, sawmills, and forge bellows.
 
+## Draft Animal Specifications
+
+The table below consolidates key performance parameters for the three primary draft species. These numbers represent sustained working output, not peak bursts. A frightened horse can briefly produce 15 HP, but useful draft power is what the animal can sustain for hours without exhaustion.
+
+| Parameter | Ox (Cattle) | Horse | Mule |
+|-----------|-------------|-------|------|
+| Mature weight | 600-900 kg | 500-900 kg | 400-600 kg |
+| Sustained draw force | 10-15% body weight | 12-18% body weight | 12-16% body weight |
+| Sustained HP output | 0.5-0.75 | 0.75-1.5 | 0.6-1.0 |
+| Working speed (draft) | 3-4 km/h | 4-5 km/h | 4-5 km/h |
+| Daily work duration | 6-8 hours | 4-6 hours | 5-7 hours |
+| Daily feed (dry matter, working) | 12-20 kg roughage | 10-16 kg (hay + 2-5 kg grain) | 8-14 kg (hay + 1-3 kg grain) |
+| Daily water (working) | 40-80 L | 40-60 L | 30-50 L |
+| Daily rest requirement | 10 min per 50 min work | 10 min per 50 min work | 10 min per 50 min work |
+| Harness type | Neck yoke | Collar harness | Collar harness |
+| Training age | 2-3 years | 3-4 years | 3-4 years |
+| Working lifespan | 8-12 years | 10-15 years | 15-25 years |
+| Housing space | 8-12 m²/animal | 12-20 m²/animal | 10-15 m²/animal |
+| Shoeing required | No (cloven hooves) | Yes, every 6-8 weeks | Yes, every 6-8 weeks |
+
+Why horses need grain but oxen do not: horses have smaller stomachs relative to body weight and faster gut transit times. They cannot extract enough energy from roughage alone to sustain hard work. Oxen, as ruminants, ferment cellulose in the rumen over 48-72 hours, extracting energy from coarse hay and straw that passes through a horse largely undigested. This is the fundamental tradeoff: oxen are cheaper to feed but slower; horses are faster but cost more in grain.
+
+## Load Calculations for Common Tasks
+
+Knowing how much draft power a task requires prevents overloading animals and under-utilizing teams. These are continuous draw force requirements on level ground.
+
+| Task | Draw Force | Team Required | Speed | Coverage |
+|------|-----------|---------------|-------|----------|
+| Ard plow, light soil | 200-400 kg | 1-2 oxen | 3 km/h | 0.1-0.3 ha/day |
+| Moldboard plow, medium soil | 400-800 kg | 2 oxen or 1-2 horses | 3-4 km/h | 0.2-0.5 ha/day |
+| Moldboard plow, heavy clay | 800-1,600 kg | 4 oxen or 2-3 horses | 2-3 km/h | 0.1-0.3 ha/day |
+| Two-wheel cart, 300 kg cargo | 60-100 kg | 1 ox or horse | 4-5 km/h | 20-30 km/day |
+| Four-wheel wagon, 1,000 kg cargo | 150-250 kg | 2 oxen or 1-2 horses | 3-4 km/h | 15-25 km/day |
+| Four-wheel wagon, 1,500 kg cargo | 250-400 kg | 3-4 oxen or 2-3 horses | 2-3 km/h | 12-20 km/day |
+| Harrowing (finishing seedbed) | 100-200 kg | 1-2 animals | 4 km/h | 1-2 ha/day |
+| Logging (dragging 0.5 m³ timber) | 300-600 kg | 2 oxen | 2-3 km/h | 3-5 trips/day |
+
+Why draw force scales non-linearly with cargo weight: rolling resistance on a dirt road is roughly 5-8% of total weight for an iron-tired wagon. A 500 kg wagon carrying 1,000 kg of cargo (1,500 kg total) needs 75-120 kg of continuous draw force just to overcome rolling resistance. Add a 5% uphill grade and the force triples: the same 1,500 kg now needs 75 kg for rolling plus 75 kg for gravity (5% of 1,500 kg), totaling 150-195 kg. This is why a team that handles a load on flat ground may fail on hills.
+
+## Road Surface Effects on Payload
+
+Road quality directly determines how much a draft team can pull. The difference between a packed earth road and a muddy track is enormous.
+
+| Road Surface | Rolling Resistance | Payload Reduction vs. Packed Earth |
+|---|---|---|
+| Packed earth, dry | 5-8% | Baseline |
+| Packed earth, wet | 8-12% | 20-30% less payload |
+| Gravel, maintained | 4-6% | 10-20% more payload |
+| Sand or loose gravel | 12-20% | 40-60% less payload |
+| Mud (10 cm deep) | 15-25% | 50-70% less payload |
+| Snow (15 cm, unpacked) | 10-18% | 30-50% less payload |
+| Ice (with chains/shoes) | 3-5% | Similar or better than baseline |
+
+Why mud is so punishing: a wagon wheel sinking 10 cm into soft mud has to climb out of its own rut with every revolution. The rolling resistance roughly doubles compared to firm ground, and the suction effect of clay-rich mud adds a constant drag. A team that pulls 1,000 kg on a dry packed road may manage only 300-400 kg on the same road after heavy rain.
+
+## Feed and Rest Requirements by Workload
+
+Draft animals working hard need more feed than idle animals, and the quality of that feed matters. A horse pulling 800 kg for 5 hours burns roughly 25-30 Mcal of digestible energy. That energy has to come from somewhere.
+
+| Work Level | Horse Feed (DM/day) | Ox Feed (DM/day) | Rest Between Work Days |
+|---|---|---|---|
+| Idle (winter, non-working) | 8-10 kg hay | 10-15 kg roughage | N/A |
+| Light (1-2 hr, carting) | 10-12 kg (8 hay + 2 oats) | 12-15 kg roughage | None required |
+| Moderate (3-4 hr, plowing) | 12-14 kg (8 hay + 4 oats) | 15-18 kg roughage + 1-2 kg grain | 1 rest day per 5 work days |
+| Heavy (5-6 hr, heavy draft) | 14-16 kg (8 hay + 6 oats) | 18-22 kg roughage + 2-3 kg grain | 1 rest day per 3 work days |
+| Extreme (8+ hr, logging) | 16-18 kg (8 hay + 8 oats) | Not sustainable without grain | 1 rest day per 2 work days |
+
+Oxen pushed into sustained heavy work without grain supplementation lose body condition rapidly. They can handle short bursts of hard pulling on roughage alone because they draw on fat reserves, but after 2-3 weeks of heavy work without grain, an ox drops 10-15% of body weight and needs weeks of recovery. Feed grain to working oxen when the work justifies it.
+
+## Health Indicators for Working Animals
+
+Recognizing early signs of trouble in draft animals prevents breakdowns that can sideline a team for weeks.
+
+| Indicator | Healthy | Warning | Critical |
+|---|---|---|---|
+| **Body condition (1-9 scale)** | 5-6 (ribs felt, not visible) | 4 (ribs visible) or 7 (fat deposits) | 3 or below (spine and hip bones prominent) |
+| **Heart rate (post-work)** | Horse: 60-80 bpm recovers to <60 within 15 min; Ox: 50-70 bpm | Recovery takes >30 min; horse stays above 80 bpm after rest | No recovery after 45 min; irregular heartbeat |
+| **Respiration** | 20-30 breaths/min at rest; returns to normal within 10 min post-work | Flared nostrils at rest; >40 breaths/min after 20 min rest | Labored breathing, nostril flare at rest, refusal to move |
+| **Manure** | Formed balls (horse) or pad (ox), uniform color, no mucus | Loose, watery, or containing undigested grain | Bloody, black, or absent entirely (impaction colic in horses) |
+| **Sweat pattern (horse)** | Even sweat over neck and chest during work | Patchy sweat, dry spots on neck while flanks soaked | Cold sweat at rest (shock or severe pain) |
+| **Gait** | Even stride, symmetric footfall, head level | Shortened stride on one leg, head bobbing at trot | Head bobbing at walk, refusal to bear weight on a limb |
+| **Appetite** | Eats readily after work, finishes ration | Picks at feed, leaves grain, slow to finish | Refuses feed entirely (colic risk in horses) |
+
+The most important health check happens 30 minutes after work ends. A horse that has recovered to normal respiration and heart rate within 30 minutes is fit for work the next day. A horse still blowing hard after 30 minutes was overworked, and pushing that animal again the next day risks heat stroke, exhaustion, or metabolic crisis.
+
 ## Cross-Domain Links
 
 | Dependency | Type | Notes |
@@ -217,16 +302,30 @@ Inspect harness leather before each work day. Check for:
 
 A broken trace under full load causes the animal to lunge sideways, potentially spooking, bolting, or overturning the load. The harness is a safety-critical system, not just a convenience.
 
+## Why Harness Design Matters
+
+The efficiency difference between harness types deserves deeper explanation because it determines whether a settlement uses one horse or three for the same task.
+
+A horse's trachea runs along the underside of the neck, surrounded by major blood vessels. A breast strap sits directly across this area. When the horse leans into a heavy load, the strap compresses the trachea. The horse partially asphyxiates with every stride. Its body responds by reducing effort to protect the airway. The horse is not refusing to pull. It is fighting to breathe.
+
+The collar harness solves this by transferring load to the shoulders. A properly fitted collar encircles the base of the neck, resting on the pectoral muscles and the tops of the shoulder blades. The trachea and blood vessels pass through the open center of the collar with no pressure. The horse pulls with its entire shoulder and chest musculature, which is far stronger than the neck muscles that a breast strap engages. This is not a small improvement. It is the difference between 500 kg draw and 1,500 kg draw from the same horse.
+
+Oxen face no such problem because their anatomy is different. Bovine shoulders push forward into the yoke beam. The neck is thick and muscular, with no vulnerable trachea in the compression zone. The neck yoke aligns with how cattle naturally push against resistance, which is why it has remained essentially unchanged for 6,000 years.
+
 ## Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|
-| Animal refusing to pull | Sore shoulders from poor collar fit, or overload | Check collar fit (should be able to slide flat hand between collar and shoulder); reduce load; rest animal |
-| Harness breaking under load | Dry rot, cracked leather, or worn stitching | Inspect harness daily; condition leather with neatsfoot oil monthly; replace any strap with visible cracks |
-| Wagon bogging down in soft ground | Too narrow wheels or overloaded | Use wider-rim wheels (100+ mm); reduce load; double-team for soft ground |
-| Plow not cutting (skidding) | Dull share or wrong hitch angle | Sharpen or replace plow share; adjust hitch point to maintain correct draft angle |
-| Horse bolting | Poor training, loud noise, or harness failure | Train with gradual desensitization; use breeching for brake control; never tie to load by bit alone |
-| Whim (horse gin) running unevenly | Uneven sweep arm or worn pivot | Balance sweep arms; lubricate pivot bearing; check gear engagement depth |
+| Animal refusing to pull | Sore shoulders from poor collar fit, or overload | Check collar fit (should be able to slide flat hand between collar and shoulder); reduce load; rest animal. Sore shoulders (galls) develop when the collar rubs the same spot every stride. Once a gall forms, the animal needs 2-4 weeks of rest until the skin heals. |
+| Harness breaking under load | Dry rot, cracked leather, or worn stitching | Inspect harness daily; condition leather with neatsfoot oil monthly; replace any strap with visible cracks. Traces carry the full draw force. A broken trace under load causes the animal to lunge sideways, potentially spooking or overturning the wagon. |
+| Wagon bogging down in soft ground | Too narrow wheels or overloaded | Use wider-rim wheels (100+ mm); reduce load; double-team for soft ground. Narrow wheels cut ruts. Wider wheels distribute weight over more surface area and compact the soil rather than slicing through it. |
+| Plow not cutting (skidding) | Dull share or wrong hitch angle | Sharpen or replace plow share; adjust hitch point to maintain correct draft angle. A dull share rides over the soil instead of cutting. The share edge should be sharp enough to shave a thumbnail. |
+| Horse bolting | Poor training, loud noise, or harness failure | Train with gradual desensitization; use breeching for brake control; never tie to load by bit alone. A bolting horse in harness is a runaway wagon. Steer into an uphill grade or soft ground to slow the team. |
+| Whim (horse gin) running unevenly | Uneven sweep arm or worn pivot | Balance sweep arms; lubricate pivot bearing; check gear engagement depth. The pivot bears the entire weight of the drum and the torque from the animal. A worn pivot creates wobble that stresses gear teeth unevenly. |
+| Animal losing weight during work season | Insufficient grain for workload | Increase grain supplement by 1-2 kg/day for horses; add 1-2 kg grain for oxen during heavy work. A horse that loses more than 5% body weight over two weeks needs either more feed or less work. |
+| Harness sores recurring | Collar not shaped to the individual animal | Heat-fit the collar: warm the leather, place it on the horse's neck, and shape by hand to match the shoulder contour. Every horse has unique shoulder geometry, and a collar that fits one horse may gall another. |
+| Wagon wheel spokes loosening | Iron tire lost tension from wear or excessive drying | Re-shrink the iron tire: heat until it expands, place on the wheel, quench with water. The tire contracts and clamps the assembly. If spokes are already cracked, replace them before the wheel collapses under load. |
+| Team not pulling together | Unequal hitch length or mismatched animals | Adjust singletree and eveners so each animal carries equal share of the load. Pair animals of similar size and training. A 700 kg horse hitched beside a 500 kg horse forces the smaller animal to strain beyond its capacity. |
 
 ## See Also
 

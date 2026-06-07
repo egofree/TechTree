@@ -2,7 +2,7 @@
 
 > **Node ID**: mining.sulfur-extraction
 > **Domain**: [Mining](./index.md)
-> **Dependencies**: [`Mineral Acid Production`](acids.md)
+> **Dependencies**: [`Mineral Acid Production`](../chemistry/acids.md)
 > **Enables**: Various downstream capabilities
 > **Timeline**: Years 10-25
 > **Outputs**: elemental_sulfur, sulfur_dioxide, sulfuric_acid_precursor
@@ -37,7 +37,7 @@ At the lowest technology level, sulfur is also used directly in black powder man
 - **Distillation apparatus**: Covered vessel (retort) with condensation surface for sulfur sublimation purification. Clay or iron construction.
 - **Drilling equipment (Frasch)**: Drill rig capable of reaching sulfur deposits (typically 100-300 meters deep). Steel drill pipe and casing.
 - **Steam generation (Frasch)**: Boiler capable of producing superheated water under pressure. Steam piping and injection wells.
-- [Mineral Acid Production](acids.md) — material dependency
+- [Mineral Acid Production](../chemistry/acids.md) — material dependency
 
 ### Knowledge
 
@@ -53,6 +53,27 @@ At the lowest technology level, sulfur is also used directly in black powder man
 - **Kiln/furnace installation**: Permanent stone or brick structure with gas capture ducting. Fuel storage area. Product collection area.
 - **Frasch process installation**: Steam boiler plant, drilling rig, injection wells, sulfur collection tanks. Requires significant capital investment but produces high volumes.
 - **Storage**: Cool, dry, well-ventilated warehouse for solid sulfur. Sulfur storage must be separated from oxidizers and ignition sources.
+
+## Deposit Grades and Occurrence
+
+Sulfur occurs in several geological settings, each with different sulfur content, accessibility, and extraction complexity:
+
+| Deposit Type | Sulfur Content | Depth | Scale | Extraction Method |
+|-------------|:--------------:|:-----:|:-----:|-------------------|
+| Volcanic fumarole deposits | 40-95% S | Surface to 30 m | 10-10,000 tonnes | Hand collection |
+| Sedimentary native sulfur (evaporite-associated) | 15-40% S | 50-300 m | 100,000-10M tonnes | Sicilian kiln or Frasch |
+| Salt dome cap rock sulfur | 10-30% S (cap rock) | 100-600 m | 1M-100M tonnes | Frasch process |
+| Pyrite (FeS₂) ore | 45-50% S by mass (massive) | Surface to 500 m | Vast | Roasting → SO₂ |
+| Pyritic shale | 2-10% S | Surface to 200 m | Vast | Roasting → SO₂ (low grade) |
+| Sour natural gas (H₂S) | 1-30% H₂S by volume | 500-5,000 m | Continuous flow | Claus process |
+
+**Volcanic native sulfur** is the easiest to exploit but limited in scale. Fumarole deposits form where volcanic gases (H₂S, SO₂) react at the surface to precipitate elemental sulfur as yellow crystals. Typical deposit dimensions: 5-50 m across, 0.5-5 m thick. The sulfur grade is high (often >80% pure) but mixed with volcanic ash, clay, and rock fragments. Impurities include arsenic (0.01-2%), selenium (0.001-0.5%), and traces of mercury.
+
+**Sedimentary sulfur deposits** form when gypsum (CaSO₄·2H₂O) or anhydrite (CaSO₄) is reduced by hydrocarbons or bacteria under anaerobic conditions, precipitating native sulfur in the pore spaces of limestone or evaporite rock. The sulfur content ranges from 15% (economic cutoff for kiln processing) to 40% (high-grade). These deposits are the primary feed for the Sicilian kiln method.
+
+**Salt dome cap rock** contains the largest sulfur deposits. The Frasch process was developed specifically for these: sulfur occurs as disseminated crystals and vein fillings in the calcite cap rock overlying salt domes. Individual domes may contain 1-50 million tonnes of sulfur at 10-30% grade. Gulf Coast domes (Texas, Louisiana) historically dominated world sulfur production.
+
+**Pyrite** is the fallback source when native sulfur is unavailable. Massive pyrite ore (FeS₂) contains 53.3% sulfur by mass (the theoretical maximum). Real ores grade 40-50% S due to gangue minerals. Roasting 1 tonne of 45% S pyrite yields approximately 900 kg of SO₂ gas, which feeds sulfuric acid production at roughly 1.4 tonnes H₂SO₄ per tonne of pyrite.
 
 ## Process Description
 
@@ -79,16 +100,6 @@ Sulfur extraction methods depend on the deposit type. The progression from simpl
 | Sicilian distillation | Sulfur-bearing ore | Low | High | Furnace operation |
 | Pyrite roasting | Sedimentary pyrite | Moderate | SO₂ gas (not elemental) | SO₂ gas, furnace |
 | Frasch process | Deep salt dome sulfur | High | Very high | Steam pressure, drilling |
-
-### Process Parameters
-
-| Parameter | Range | Notes |
-|-----------|-------|-------|
-| Sulfur melting point | ~115°C | Low melting point enables distillation methods |
-| Sulfur boiling point | ~445°C | Sublimation occurs at lower temperatures under reduced pressure |
-| Kiln temperature (Sicilian) | Above melting point | Must be hot enough to melt sulfur from ore |
-| Steam temperature (Frasch) | Significantly above melting point | Must keep sulfur liquid during transport to surface |
-| SO₂ capture concentration | Process-dependent | Higher concentration = more efficient acid production |
 
 ### Products and Downstream Uses
 
@@ -171,12 +182,15 @@ Key scaling challenges: sulfur deposits are geographically limited (volcanic reg
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Low sulfur recovery from ore | Ore grade too low or kiln temperature insufficient | Assay ore before processing; increase kiln temperature; extend heating time |
-| Sulfur discolored (gray or dark) | Mineral or organic impurities | Re-melt and sublimate; filter molten sulfur through coarse cloth |
-| SO₂ gas not captured effectively | Leaky furnace or inadequate gas handling | Seal furnace joints; ensure gas ducting is intact; maintain draft |
-| Sulfur ignites during handling | Contact with hot surface or spark | Handle molten sulfur below ignition temperature; keep away from open flames |
-| Frasch process yield drops | Deposit exhausted or steam pressure insufficient | Increase steam pressure; test bore new wells to delineate remaining deposit |
-| Arsenic contamination detected | Volcanic sulfur contains arsenic | Switch to sublimation purification; test each batch for arsenic before acid plant use |
+| Low sulfur recovery from ore (<50% yield) | Kiln temperature too low or ore grade below economic cutoff | Assay ore before processing (target >15% S); increase kiln temperature to 150-180°C; extend burn cycle by 1-2 days; if ore is below 10% S, switch to pyrite roasting instead |
+| Sulfur discolored (gray, dark red, or brown) | Mineral impurities (iron, arsenic) or organic contamination from the ore | Re-melt and sublimate through distillation; filter molten sulfur through coarse cloth at 130-140°C to remove suspended ash; test for arsenic (gray color, garlic odor on heating) and reject contaminated batches from catalyst-grade production |
+| SO₂ gas not captured effectively from pyrite roasting | Leaky furnace seals, insufficient draft, or excess air diluting the gas stream | Seal furnace joints with fireclay; ensure gas ducting is intact; measure draft with a manometer (target 5-15 Pa negative pressure at furnace); reduce excess air to achieve 7-13% SO₂ in exhaust |
+| Sulfur ignites during handling or storage | Surface temperature exceeded 232°C (autoignition) or contact with spark/open flame | Keep molten sulfur below 160°C during handling; store solid sulfur away from heat and ignition sources; if fire occurs, smother with sand — never use water on molten sulfur fires |
+| Frasch well yield declining rapidly | Cavern collapsed, deposit exhausted in the immediate zone, or steam pressure insufficient | Increase steam injection pressure by 0.2-0.3 MPa; drill offset wells 30-50 m from existing well to access undisturbed deposit; if multiple wells show decline, the dome may be exhausted |
+| Arsenic contamination in sulfur (detectable by smell or catalyst poisoning) | Volcanic sulfur source contains arsenic minerals (orpiment, realgar) | Switch to sublimation purification at 444°C — arsenic compounds have different boiling points and fractionate out; test each batch by heating a small sample and checking for garlic odor; contaminated sulfur is acceptable for vulcanization but must not go to sulfuric acid production |
+| Kiln sulfur has high ash content (>5% residue) | Ore not sorted before loading; fine gangue carried through grate with molten sulfur | Hand-sort ore to remove visible rock fragments; wash ore before loading; install a finer grate (10-15 mm openings); settle molten sulfur longer in collection well before drawing off |
+| Sublimation product is brown, not bright yellow | Condensation surface too hot or sulfur vapor carrying impurities | Reduce condensation surface temperature to 30-80°C for flowers of sulfur; keep above 115°C for liquid collection; clean the retort between batches to remove residual ash |
+| Pyrite roaster producing low SO₂ (<5%) | Ore grade too low, excess air, or roasting temperature insufficient | Assay pyrite ore (target >40% S); reduce air intake; maintain roasting temperature at 600-900°C; if ore is low grade, concentrate by crushing and gravity separation before roasting |
 
 ## Variations and Alternatives
 
@@ -188,11 +202,11 @@ Key scaling challenges: sulfur deposits are geographically limited (volcanic reg
 
 ## References
 
-- [Mining Engineering & Extractive Metallurgy](mining.md) — parent capability
+- [Mining Engineering & Extractive Metallurgy](index.md) — parent capability
 - [Mining Domain](./index.md) — domain overview and related capabilities
-- [Mineral Acid Production](acids.md) — upstream dependency (material)
+- [Mineral Acid Production](../chemistry/acids.md) — upstream dependency (material)
 
-Sulfur extraction is the gateway to [Mineral Acid Production](acids.md). Without sulfur, there is no sulfuric acid; without sulfuric acid, there is no phosphate fertilizer, no steel pickling, no lead-acid battery, no petroleum refining. Sulfur availability often determines whether a civilization develops a chemical industry or remains dependent on mechanical manufacturing alone.
+Sulfur extraction is the gateway to [Mineral Acid Production](../chemistry/acids.md). Without sulfur, there is no sulfuric acid; without sulfuric acid, there is no phosphate fertilizer, no steel pickling, no lead-acid battery, no petroleum refining. Sulfur availability often determines whether a civilization develops a chemical industry or remains dependent on mechanical manufacturing alone.
 
 Proper handling of input materials and products is essential for consistent results:
 

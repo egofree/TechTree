@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.fuel-cell
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`Electrolysis`](electrolysis.md), [`Water Electrolysis`](water-electrolysis.md), [`Energy Storage & Diversification`](storage.md)
-> **Enables**: [`Chemistry`](chemistry.md), [`Water Electrolysis (H₂/O₂)`](water-splitting.md)
+> **Dependencies**: [`Electrolysis`](../chemistry/electrolysis.md), [`Water Electrolysis`](../chemistry/water-electrolysis.md), [`Energy Storage & Diversification`](storage.md)
+> **Enables**: [`Chemistry`](../chemistry/index.md), [`Water Electrolysis (H₂/O₂)`](../chemistry/water-splitting.md)
 > **Timeline**: Years 30-50
 > **Outputs**: electricity, water, heat
 > **Critical**: No
@@ -30,8 +30,8 @@ The modular nature of fuel cell systems, with power output scaling by adding cel
 
 ### Equipment
 
-- [Electrolysis](electrodialysis.md) — tool dependency
-- [Water Electrolysis](water-electrolysis.md) — material dependency
+- [Electrolysis](../chemistry/electrodialysis.md) — tool dependency
+- [Water Electrolysis](../chemistry/water-electrolysis.md) — material dependency
 - [Energy Storage & Diversification](storage.md) — tool dependency
 - Fuel cell stack with membrane electrode assemblies
 - Gas management and humidification system
@@ -176,13 +176,13 @@ Fuel cell degradation rates, typically measured as voltage loss per thousand hou
 
 ## References
 
-- [Energy](energy.md) — parent capability
+- [Energy](index.md) — parent capability
 - [Energy Domain](./index.md) — domain overview and related capabilities
-- [Electrolysis](electrolysis.md) — upstream dependency (tool)
-- [Water Electrolysis](water-electrolysis.md) — upstream dependency (material)
+- [Electrolysis](../chemistry/electrolysis.md) — upstream dependency (tool)
+- [Water Electrolysis](../chemistry/water-electrolysis.md) — upstream dependency (material)
 - [Energy Storage & Diversification](storage.md) — upstream dependency (tool)
-- [Chemistry](chemistry.md) — downstream capability
-- [Water Electrolysis (H₂/O₂)](water-splitting.md) — downstream capability
+- [Chemistry](../chemistry/index.md) — downstream capability
+- [Water Electrolysis (H₂/O₂)](../chemistry/water-splitting.md) — downstream capability
 
 ### Material Handling
 

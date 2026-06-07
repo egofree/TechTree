@@ -2,7 +2,7 @@
 
 > **Node ID**: chemistry.petroleum-alternatives.fermentation
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`Solvent Production`](solvents.md), [`Brewing & Distilling`](brewing.md), [`Food Preservation`](preservation.md)
+> **Dependencies**: [`Solvent Production`](solvents.md), [`Brewing & Distilling`](../food-processing/brewing.md), [`Food Preservation`](../food-processing/preservation.md)
 > **Enables**: [`Petroleum & Alternative Chemistry`](petroleum-alternatives.md)
 > **Timeline**: Years 10-30
 > **Outputs**: ethanol, acetone, butanol, acetic_acid, methanol
@@ -31,8 +31,8 @@ Acetic acid from vinegar fermentation is limited to dilute concentrations (typic
 ### Equipment
 
 - [Solvent Production](solvents.md) — material dependency
-- [Brewing & Distilling](brewing.md) — tool dependency
-- [Food Preservation](preservation.md) — tool dependency
+- [Brewing & Distilling](../food-processing/brewing.md) — tool dependency
+- [Food Preservation](../food-processing/preservation.md) — tool dependency
 - Fermentation vessels with temperature control and venting
 - Distillation apparatus (pot still or continuous column)
 - Mash tun and lautering equipment for starch conversion
@@ -68,23 +68,34 @@ Industrial fermentation covers several distinct microbial processes. Ethanol pro
 
 ### Process Parameters
 
-| Parameter | Range | Notes |
+| Parameter | Value | Notes |
 |-----------|-------|-------|
-| Fermentation temperature | 25-37°C | Yeast: 25-30°C; Clostridium: 35-37°C (narrow window) |
-| pH | 4.0-6.5 | Yeast tolerates acidic; Clostridium requires near-neutral (6.0-6.5) |
-| Sugar concentration | 15-25° Plato | Higher concentrations inhibit yeast osmotically |
-| Fermentation time | 2-7 days | Clostridium ABE is slower than yeast ethanol |
-| Sterilization temperature | 72-121°C | Pasteurization for bulk medium; autoclave for culture vessels |
+| Yeast fermentation temperature | 25-30°C (optimal 28°C) | Above 35°C yeast dies; below 20°C fermentation slows dramatically. Exothermic — large fermenters generate 3-5 kW per 1000 L |
+| Clostridium ABE temperature | 35-37°C (narrow window ±1°C) | Below 33°C shifts metabolism to acid production instead of solvents; above 38°C culture dies |
+| Acetobacter (vinegar) temperature | 28-32°C | Aerobic — requires forced aeration at 0.5-1.0 vvm (volumes air per volume liquid per minute) |
+| Yeast fermentation pH | 3.5-5.5 (optimal 4.0-4.5) | Yeast tolerates acidity; pH below 3.0 stalls fermentation |
+| Clostridium ABE pH | 5.0-6.5 (initial), shifts to 4.0-4.5 (solvent phase) | Acidogenic phase pH 5.5-6.0; solventogenesis triggers at pH ~4.5 — critical metabolic switch |
+| Sugar concentration (yeast) | 15-25° Plato (150-250 g/L) | Higher concentrations cause osmotic stress; above 300 g/L yeast activity ceases |
+| Starch concentration (ABE) | 50-80 g/L total carbohydrates | Clostridium is inhibited by sugar concentrations above 60-80 g/L |
+| Ethanol tolerance (yeast) | 12-18% ABV (most strains) | Turbo yeast reaches 20%; above tolerance yeast self-destructs. Fortified wines bypass this limit by adding neutral spirit |
+| Butanol tolerance (Clostridium) | 12-15 g/L (1.2-1.5% w/v) | Butanol is toxic to producing organism at far lower concentrations than ethanol — limits ABE batch concentration |
+| Yeast fermentation time | 2-5 days (batch) | Faster at higher temperature and with nutrient supplementation |
+| ABE fermentation time | 3-7 days (batch) | Slower than yeast; 3:6:1 butanol:acetone:ethanol product ratio typical |
+| Ethanol yield (yeast, theoretical) | 0.511 g ethanol / g glucose (100%) | Practical yield: 90-95% of theoretical (0.46-0.49 g/g) due to biomass and byproduct formation |
+| Mashing temperature (starch saccharification) | 63-68°C for 60-90 min | α-amylase active at 65-72°C (liquefaction); β-amylase active at 60-65°C (saccharification). Step mash optimizes both |
+| Sterilization | 72°C for 15 s (pasteurization) or 121°C for 15 min at 15 psi (autoclave) | Autoclave required for spore-forming contaminants; pasteurization sufficient for bulk mash |
+| Distillation energy | 2.5-3.5 MJ/L ethanol (single-effect) | Multi-effect distillation cuts this 40-60%; stillage heat recovery saves additional 15-25% |
+| CO₂ production rate (yeast) | ~0.96 g CO₂ per g ethanol produced | 1 mol glucose → 2 mol ethanol + 2 mol CO₂. In sealed rooms, displaces oxygen — asphyxiation hazard above 5% CO₂ |
 
 ## Safety Considerations
 
 This process involves specific hazards requiring trained personnel and protective measures:
 
-- **Ethanol flammability**: Ethanol solutions above about 20% are flammable. Distillation concentrates ethanol to the point where vapors can ignite. All distillation equipment must be well-ventilated and separated from ignition sources.
-- **CO₂ asphyxiation**: Fermentation produces large volumes of CO₂. In enclosed fermentation rooms, CO₂ can displace oxygen to dangerous levels. Ventilation must be adequate for the fermentation volume.
-- **Acetone and butanol toxicity**: Both are central nervous system depressants and flammable solvents. ABE fermentation product handling requires the same precautions as solvent manufacturing.
-- **Biological hazards**: While production organisms (yeast, Clostridium, Acetobacter) are not pathogenic, contaminated batches can harbor unknown organisms. Practice good hygiene and dispose of spent culture safely.
-- **Pressure buildup**: Fermentation vessels producing CO₂ must be vented or pressure-regulated. Sealed vessels can rupture from gas accumulation.
+- **Ethanol flammability**: Ethanol solutions above 20% ABV are flammable. Flash point of pure ethanol: 13°C (55°F); LEL 3.3%, UEL 19% in air. Distillation concentrates ethanol to the point where vapors can ignite. All distillation equipment must be well-ventilated and separated from ignition sources. Auto-ignition temperature: 363°C.
+- **CO₂ asphyxiation**: Fermentation produces ~0.96 g CO₂ per g ethanol. CO₂ IDLH 40,000 ppm (4%); PEL 5,000 ppm (8-hr TWA). At 7% CO₂, unconsciousness occurs within minutes. CO₂ is odorless and heavier than air (density 1.52× air) — it pools in low-lying areas, pits, and basement fermenter rooms. Ventilation must provide ≥6 air changes per hour in enclosed fermentation areas.
+- **Acetone and butanol toxicity**: Both are central nervous system depressants and flammable solvents. Acetone PEL 1,000 ppm (8-hr TWA); n-butanol PEL 100 ppm (ceiling). n-Butanol causes eye irritation at 50 ppm. ABE fermentation product handling requires the same precautions as solvent manufacturing. Acetone flash point −20°C; n-butanol flash point 35°C.
+- **Biological hazards**: While production organisms (yeast, Clostridium, Acetobacter) are not pathogenic, contaminated batches can harbor unknown organisms. Clostridium species can include C. botulinum in contaminated feedstock (spore-forming, toxin-producing). Practice good hygiene and dispose of spent culture safely. Autoclave all waste culture at 121°C for 30 min before disposal.
+- **Pressure buildup**: Fermentation vessels producing CO₂ must be vented or pressure-regulated. A 10,000 L fermenter producing 5% ABV ethanol generates ~4,800 L of CO₂ over the fermentation period. Sealed vessels can rupture from gas accumulation. All sealed vessels must have pressure relief devices rated to 1.5× design pressure.
 
 ### Personal Protective Equipment
 
@@ -135,12 +146,16 @@ Key scaling challenges: maintaining sterility at large scale is difficult — a 
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Stalled fermentation | Temperature excursion or nutrient depletion | Check temperature; add yeast nutrient (diammonium phosphate) or nitrogen source |
-| Contamination | Inadequate sterilization or air filtration | Improve sterilization; check airlock integrity; discard batch if contamination is advanced |
-| Low yield | Wrong organism strain or suboptimal pH | Check culture viability with microscopy; adjust pH to organism's optimum |
-| Off-flavors or impurities | Wild organism contamination or temperature too high | Improve sterilization; lower fermentation temperature below 30°C for yeast |
-| Distillation foaming | Protein carryover from fermentation broth | Add anti-foam agent (silicone-based); improve broth pre-treatment before still |
-| Butanol toxicity (ABE) | Butanol concentration exceeds Clostridium tolerance | Use continuous extraction (gas stripping or pervaporation) to remove butanol in real time |
+| Stalled fermentation (SG unchanged for 12+ hours) | Temperature excursion (>35°C killed yeast, or <20°C slowed metabolism), nutrient depletion (nitrogen <150 mg/L), or sugar concentration >300 g/L causing osmotic shock | Check temperature — bring to 28°C for yeast; add diammonium phosphate (DAP) at 200-300 mg/L nitrogen; dilute mash if over-concentrated; verify yeast viability with methylene blue stain (>90% viable cells needed) |
+| Bacterial contamination (visible turbidity, sour smell, pH drop <3.0) | Inadequate sterilization, airlock failure admitting wild organisms, or unsanitary inoculation technique | Discard batch if contamination is advanced (>10⁶ CFU/mL foreign organisms); improve CIP (clean-in-place) cycle with 2% NaOH at 80°C for 30 min; check airlock liquid level; sterilize inoculation tools between uses |
+| Low ethanol yield (<85% of theoretical 0.51 g/g glucose) | Wrong yeast strain for feedstock, suboptimal pH (<3.5 or >5.5), insufficient mash saccharification (residual starch), or temperature fluctuations | Check culture viability with microscopy; adjust pH to 4.0-4.5 with CaCO₃ or Ca(OH)₂; verify starch conversion with iodine test (no blue-black color = fully saccharified); maintain temperature at 28±2°C |
+| Off-flavors or fusel oils (>0.1% higher alcohols) | Wild organism contamination, fermentation temperature too high (>30°C for yeast), or nitrogen excess promoting amino acid metabolism to fusel alcohols | Lower fermentation temperature to 25-28°C; reduce nitrogen supplementation to 200-300 mg/L (avoid excess); improve sterilization; discard "heads" and "tails" distillation cuts more aggressively |
+| Distillation foaming or puking | Protein carryover from grain mash, excessive boil rate, or insufficient headspace in still pot | Add silicone antifoam at 10-50 ppm; reduce heat input by 20-30%; increase headspace (fill still to max 70% capacity); pre-centrifuge or settle mash before distillation |
+| Butanol toxicity stalling ABE (butanol <12 g/L, fermentation stops) | Butanol concentration exceeds Clostridium tolerance (12-15 g/L); product inhibition halts solventogenesis | Use continuous in-situ extraction: gas stripping (N₂ sparge at 0.5 vvm), pervaporation membrane, or oleyl alcohol liquid-liquid extraction; these keep broth butanol below 5 g/L |
+| Acetone yield too low in ABE (<15% of total solvents) | pH not dropping to 4.0-4.5 to trigger solventogenesis, or starch concentration too low (<40 g/L) | Allow pH to drop naturally (do not buffer above 5.0); increase starch concentration to 50-80 g/L; verify Clostridium strain is solvent-producing (not degenerated acid-producer) |
+| Vinegar acetic acid stalls below 8% | Oxygen transfer limitation (Acetobacter is strictly aerobic), temperature outside 28-32°C range, or ethanol depleted below 1% | Increase aeration rate to 0.5-1.0 vvm; maintain temperature at 30°C; feed ethanol incrementally to maintain 2-5% concentration; check for vinegar eel contamination (nematodes visible as tiny white threads) |
+| Methanol in distillate above safe limits (>0.4% in spirits) | Pectin-rich feedstock (fruit, especially apples/grapes) producing methanol during fermentation; methanol concentrated in "foreshots" | Discard first 50-100 mL per 20 L batch ("foreshots") — methanol boils at 64.7°C, below ethanol (78.4°C); avoid using spoiled fruit (pectin methylesterase increases methanol); test foreshots with chromotropic acid assay |
+| Fermenter overheating (above 33°C in yeast batch) | Insufficient cooling capacity — yeast generates 3-5 kW per 1000 L; large fermenters in warm climates exceed cooling jacket capacity | Increase cooling water flow; install external heat exchanger with pump-around loop; reduce initial sugar concentration (lower metabolic heat generation); split batch into smaller fermenters |
 
 ## Variations and Alternatives
 
@@ -172,8 +187,8 @@ The temperature control of fermentation is a non-negotiable requirement. Yeast g
 - [Petroleum & Alternative Chemistry](petroleum-alternatives.md) — parent capability
 - [Chemistry Domain](./index.md) — domain overview and related capabilities
 - [Solvent Production](solvents.md) — upstream dependency (material)
-- [Brewing & Distilling](brewing.md) — upstream dependency (tool)
-- [Food Preservation](preservation.md) — upstream dependency (tool)
+- [Brewing & Distilling](../food-processing/brewing.md) — upstream dependency (tool)
+- [Food Preservation](../food-processing/preservation.md) — upstream dependency (tool)
 - [Petroleum & Alternative Chemistry](petroleum-alternatives.md) — downstream capability
 
 ### Material Handling

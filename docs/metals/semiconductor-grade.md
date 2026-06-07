@@ -2,8 +2,8 @@
 
 > **Node ID**: metals.aluminum.semiconductor-grade
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`Basic Semiconductor Devices`](basic-devices.md), [`Core Fab Processes`](fab-processes.md)
-> **Enables**: [`Electricity Generation & Distribution`](electricity.md), [`Aluminum Production`](aluminum.md)
+> **Dependencies**: [`Basic Semiconductor Devices`](../silicon/basic-devices.md), [`Core Fab Processes`](../photolithography/fab-processes.md)
+> **Enables**: [`Electricity Generation & Distribution`](../energy/electricity.md), [`Aluminum Production`](aluminum.md)
 > **Timeline**: Years 40-70
 > **Outputs**: semiconductor_grade_aluminum, sputtering_targets, high_purity_aluminum
 > **Critical**: No
@@ -15,6 +15,52 @@ Ultra-high-purity aluminum (5N-6N, 99.999-99.9999%) for semiconductor metallizat
 The Hoopes process (three-layer electrolysis) is the primary method for producing 5N aluminum. It uses a molten salt electrolyte with three liquid layers: the bottom layer is a heavy aluminum-copper alloy anode (containing impure aluminum), the middle layer is a molten salt electrolyte (BaCl₂-NaCl-AlF₃ or similar), and the top layer is pure liquid aluminum cathode that floats on the electrolyte. Current causes aluminum to dissolve from the bottom anode layer, migrate through the salt, and deposit as pure aluminum in the top cathode layer. Impurities stay behind in the anode alloy or the salt. The three-layer density stratification is the key engineering principle: the heavy anode alloy (density ~3.0-3.5) stays at the bottom, the molten salt (density ~2.5) sits in the middle, and the pure aluminum (density ~2.3) floats on top.
 
 Zone refining then takes the 5N aluminum to 6N purity by progressively sweeping a narrow molten zone along a long bar. Impurities that lower the melting point (most metallic impurities in aluminum) migrate with the molten zone to one end of the bar, which is cut off and recycled. Multiple passes increase purity progressively. The segregation coefficient k describes how an impurity partitions between the solid and liquid phases: impurities with k < 1 concentrate in the liquid zone and migrate to the tail end of the bar.
+
+### Segregation Coefficients for Impurities in Aluminum
+
+The segregation coefficient k = C_solid / C_liquid determines how effectively zone refining removes each impurity. Values well below 1.0 are easily removed; values near 1.0 are very difficult to separate.
+
+| Impurity | Segregation Coefficient (k) | Ease of Removal | Typical Smelter Grade (ppm) | Target (5N/6N) |
+|----------|------------------------------|-----------------|-----------------------------|----------------|
+| Fe | 0.03 | Easy | 500-2000 ppm | <3 ppm / <0.1 ppm |
+| Si | 0.12 | Easy | 300-1000 ppm | <3 ppm / <0.1 ppm |
+| Cu | 0.14 | Easy | 5-50 ppm | <1 ppm / <0.1 ppm |
+| Zn | 0.40 | Moderate | 20-100 ppm | <1 ppm / <0.1 ppm |
+| Mg | 0.40 | Moderate | 10-50 ppm | <1 ppm / <0.1 ppm |
+| Mn | 0.60 | Moderate | 5-30 ppm | <1 ppm / <0.1 ppm |
+| Ni | 0.007 | Very easy | 5-20 ppm | <0.5 ppm / <0.05 ppm |
+| Cr | 0.20 | Easy | 2-10 ppm | <0.5 ppm / <0.05 ppm |
+| Ti | 0.50 | Moderate | 5-20 ppm | <0.5 ppm / <0.05 ppm |
+| Ga | 0.14 | Easy | 30-100 ppm | <0.5 ppm / <0.05 ppm |
+| U | ~0.01 | Very easy | 0.01-0.1 ppm | <0.001 ppm (1 ppb) |
+| Th | ~0.01 | Very easy | 0.01-0.05 ppm | <0.001 ppm (1 ppb) |
+
+**Why zone refining works**: After n passes with a zone length z along a bar of length L, the impurity concentration at position x follows the Pfann equation. For k = 0.1 and 10 passes, the impurity concentration at the front 70% of the bar is reduced by roughly 10³ to 10⁴ times from the starting concentration. This is why 5 passes reduce smelter-grade aluminum (0.1-0.5% Fe) to below 3 ppm Fe, and 10-20 passes achieve sub-ppb U/Th.
+
+### Hoopes Cell Operating Parameters in Detail
+
+| Parameter | Value | Significance |
+|-----------|-------|--------------|
+| Cell temperature | 720-800°C | Must keep all three layers liquid; density stratification breaks down if temperature varies >±20°C |
+| Anode alloy composition | Al-Cu 30-50% Cu | Density 3.0-3.5 g/cm³ (heaviest layer) |
+| Electrolyte composition | BaCl₂ 50-60%, NaCl 20-30%, AlF₃ 10-20% | Density ~2.5 g/cm³ (middle layer); melting point ~650°C |
+| Cathode layer density | ~2.3 g/cm³ (pure Al) | Lightest layer, floats on electrolyte |
+| Current density | 0.3-0.6 A/cm² | Higher density increases throughput but risks impurity transfer through the electrolyte |
+| Cell voltage | 5-7V total | Rising voltage (>8V) signals anode passivation or electrolyte contamination |
+| Current efficiency | 85-95% | Loss from side reactions and electronic short circuits between layers |
+| Production rate | 0.5-2 kg Al per kAh | Depends on cell geometry and current efficiency |
+| Electrolyte lifetime | 6-12 months | Degraded by impurity accumulation; reconstituted by partial replacement |
+
+### Energy Consumption by Process Step
+
+| Process Step | Energy (kWh/kg 5N Al) | Cumulative Energy |
+|-------------|----------------------|-------------------|
+| Hall-Heroult (smelter grade) | 13-15 | 13-15 kWh/kg |
+| Hoopes three-layer electrolysis | 5-8 | 18-23 kWh/kg |
+| Zone refining (10 passes) | 1-3 | 19-26 kWh/kg |
+| Vacuum melting + target fabrication | 1-2 | 20-28 kWh/kg |
+
+Total energy from bauxite to 5N sputtering target: approximately 20-28 kWh/kg. This is roughly 1.5-2× the energy to produce smelter-grade aluminum, with the Hoopes process being the largest additional energy consumer.
 
 The uranium and thorium limits (below 1 ppb) deserve special attention. These radioactive elements are present in smelter-grade aluminum at trace levels. If they contaminate semiconductor metallization, alpha particle emission from the U/Th decay chains can flip bits in DRAM cells and logic devices (soft errors). Meeting the sub-ppb U/Th specification requires careful source selection and the inherent purification of the Hoopes process and zone refining.
 
@@ -36,8 +82,8 @@ The sputtering target is the end product that delivers the ultra-pure aluminum t
 
 ### Equipment
 
-- [Basic Semiconductor Devices](basic-devices.md) — material dependency
-- [Core Fab Processes](fab-processes.md) — material dependency
+- [Basic Semiconductor Devices](../silicon/basic-devices.md) — material dependency
+- [Core Fab Processes](../photolithography/fab-processes.md) — material dependency
 - Hoopes electrolytic cell: refractory-lined steel vessel with internal heating, three-layer configuration
 - DC power supply for the Hoopes cell (low voltage, high current)
 - Zone refining apparatus: RF induction or resistance heating coil on a movable carriage, with a mechanism to traverse the coil along the aluminum bar at controlled speed
@@ -168,13 +214,16 @@ Sputtering target fabrication adds another layer of complexity. The zone-refined
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| High impurity in Hoopes cathode aluminum | Electrolyte contaminated or degraded; anode alloy impurity buildup | Replace or purify electrolyte; refresh anode alloy charge |
-| Anode passivation in Hoopes cell | Impurity buildup on anode surface forming insulating layer | Reduce current density; clean anode surface between runs |
-| Cell voltage rising | Electrolyte composition drift; short circuit between layers | Analyze and adjust electrolyte; check for accidental mixing of layers |
-| Contamination from crucible during zone refining | Crucible material dissolving into the molten zone | Use higher purity crucible (high-purity graphite or BN); reduce zone temperature |
-| Non-uniform purity along zone-refined bar | Too-fast traverse speed; inconsistent zone length | Slow the traverse speed; stabilize heater power and zone length |
-| Oxide inclusions in final product | Air exposure during casting or handling | Improve inert atmosphere control; cast in vacuum or argon; handle only in glove box |
-| Sputtering target grain structure non-uniform | Incorrect forming or heat treatment parameters | Adjust hot pressing temperature and pressure; modify annealing cycle |
+| High impurity in Hoopes cathode aluminum (>10 ppm total) | Electrolyte contaminated or degraded; anode alloy impurity buildup after multiple runs; accidental layer mixing during tapping | Replace or purify electrolyte (fresh BaCl₂-NaCl-AlF₃ mix); refresh anode alloy charge with fresh primary aluminum; tap cathode layer slowly, leaving 1-2 cm clearance above electrolyte interface |
+| Anode passivation in Hoopes cell (voltage >8V) | Impurity buildup (Fe, Si oxides) on anode surface forming insulating layer; electrolyte temperature too low (<700°C) | Reduce current density by 20-30%; clean anode surface between runs by scraping oxide layer; verify cell temperature at 720-800°C with immersed thermocouple |
+| Cell voltage rising progressively (>0.5V increase over 4 hours) | Electrolyte composition drift (AlF₃ depletion); short circuit between layers (entrained droplets bridging density layers) | Analyze electrolyte by XRF and adjust composition; check for turbulent mixing (reduce gas evolution by lowering current density); ensure cell is level within 2 mm over its length |
+| Contamination from crucible during zone refining (Fe, C pickup) | Crucible material dissolving into the molten zone; graphite crucible at >800°C reacts with aluminum | Use higher purity crucible (99.99% graphite, or boron nitride for the highest grades); reduce zone temperature to minimum needed for melting (~660°C for Al); use boatless (floating zone) refining for 6N+ grades |
+| Non-uniform purity along zone-refined bar (purity varies >3× from head to tail before cut) | Too-fast traverse speed (>50 mm/hour); inconsistent zone length (heater power fluctuations) | Slow the traverse speed to 10-30 mm/hour; stabilize heater power to ±1% (use PID controller); verify zone length is consistent (20-40 mm) with optical observation |
+| Oxide inclusions in final product (detected by particle analysis >5 μm) | Air exposure during casting or handling; oxide skin on melt surface stirred in during pouring | Improve inert atmosphere control (O₂ <5 ppm in glove box); cast in vacuum (10⁻³ mbar) or high-purity argon; use bottom-pour crucible to avoid skimming oxide skin |
+| Sputtering target grain structure non-uniform (grain size varies >2× across target) | Incorrect forming or heat treatment parameters; uneven deformation during rolling | Adjust hot pressing temperature to 400-500°C at 50-100 MPa; modify annealing cycle (300-400°C for 2-4 hours for recrystallization); use cross-rolling to ensure uniform deformation |
+| U or Th above 1 ppb in final product | Source aluminum from smelter with high U/Th feedstock; insufficient zone passes; contaminated crucible or handling tools | Select primary aluminum from low-U/Th sources (some smelters produce <0.01 ppm U/Th); increase zone refining passes to 15-20; dedicate crucibles and tools to one purity grade only |
+| Aluminum bar cracks during zone refining | Thermal stress from too-fast heating or cooling; bar too large diameter (>80 mm); insufficient support | Limit bar diameter to 30-60 mm for zone refining; heat and cool the bar gradually (pre-heat to 200°C before starting zone passes); support bar at multiple points to prevent sagging |
+| Cathode layer contamination in Hoopes cell (Cu >5 ppm in product) | Tapping too deep (pulling electrolyte or anode alloy with cathode); electrolyte density shift from temperature change | Leave 5-10 mm of cathode layer above the tapping point; verify density stratification at operating temperature with test samples; tap only the top 70-80% of the cathode layer |
 
 ## Variations and Alternatives
 
@@ -192,9 +241,9 @@ All handling of ultra-high-purity aluminum must avoid contamination at the ppm a
 
 - [Aluminum Production](aluminum.md) — parent capability
 - [Metals Domain](./index.md) — domain overview and related capabilities
-- [Basic Semiconductor Devices](basic-devices.md) — upstream dependency (material)
-- [Core Fab Processes](fab-processes.md) — upstream dependency (material)
-- [Electricity Generation & Distribution](electricity.md) — downstream capability
+- [Basic Semiconductor Devices](../silicon/basic-devices.md) — upstream dependency (material)
+- [Core Fab Processes](../photolithography/fab-processes.md) — upstream dependency (material)
+- [Electricity Generation & Distribution](../energy/electricity.md) — downstream capability
 - [Aluminum Production](aluminum.md) — downstream capability
 
 ---

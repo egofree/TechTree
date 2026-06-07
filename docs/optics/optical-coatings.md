@@ -3,7 +3,7 @@
 > **Node ID**: optics.inspection.optical-coatings
 > **Domain**: [Optics](./index.md)
 > **Dependencies**: See prerequisites
-> **Enables**: [`Vacuum Technology`](vacuum.md), [`Vacuum Pumps`](pumps.md), [`Optical Inspection`](inspection.md)
+> **Enables**: [`Vacuum Technology`](../gas-handling/vacuum.md), [`Vacuum Pumps`](../vacuum/pumps.md), [`Optical Inspection`](inspection.md)
 > **Timeline**: Years 35-50+
 > **Outputs**: ar_coatings, mirror_coatings, optical_filters
 > **Critical**: No
@@ -20,7 +20,7 @@ Optical coatings are thin films of material deposited on optical surfaces to mod
 
 Uncoated glass reflects about 4% of incident light at each surface — in a multi-element lens system with 10 surfaces, this accumulates to 34% light loss, plus internal reflections that create ghost images and reduce contrast. A single-layer anti-reflection coating reduces surface reflection to about 1%, and multi-layer coatings can reduce it below 0.25%. For mirrors, a bare aluminum coating provides 88-92% reflectance; protective overcoats (SiO, MgF₂) prevent oxidation and scratching, maintaining reflectance over the mirror's lifetime.
 
-The enabling technology for optical coatings is vacuum deposition — the ability to create and maintain a high vacuum in a chamber where materials can be evaporated without gas-phase scattering. This connects optical coatings directly to [Vacuum Technology](vacuum.md) and [Vacuum Pumps](pumps.md). Without high vacuum capability, thin-film coatings cannot be produced.
+The enabling technology for optical coatings is vacuum deposition — the ability to create and maintain a high vacuum in a chamber where materials can be evaporated without gas-phase scattering. This connects optical coatings directly to [Vacuum Technology](../gas-handling/vacuum.md) and [Vacuum Pumps](../vacuum/pumps.md). Without high vacuum capability, thin-film coatings cannot be produced.
 
 Optical coatings represent a convergence of vacuum technology, materials science, and optical design. The coating design (which materials, how many layers, what thicknesses) is determined by the optical requirements. The coating process (how to deposit those layers with the required precision) is determined by vacuum technology capabilities. A civilization that can produce optical coatings has demonstrated mastery of both vacuum systems and precision manufacturing — capabilities that also enable semiconductor fabrication.
 
@@ -89,6 +89,56 @@ Optical coatings are produced by evaporating coating materials in a vacuum chamb
 | Aluminum mirror | Al | ~100 nm | 88-92% reflectance across visible spectrum |
 | Protected mirror | Al + SiO₂ or MgF₂ overcoat | Al ~100 nm + overcoat ~λ/2 | Mirror with oxidation/scratch protection |
 | Dichroic filter | Alternating high/low index layers | Multiple λ/4 stacks | Reflects/transmits selected wavelengths |
+
+### Coating Thickness Specifications by Design Wavelength
+
+Quarter-wave optical thickness (QWOT) equals the physical thickness times the refractive index. For a λ/4 layer at a given design wavelength, the physical thickness is λ/(4n).
+
+| Design Wavelength | Application | MgF₂ Layer (n=1.38) | ZrO₂ Layer (n=2.10) | SiO₂ Layer (n=1.46) | Al Mirror |
+|-------------------|-------------|---------------------|---------------------|---------------------|-----------|
+| 400 nm (UV edge) | UV optics, fluorescence | 72.5 nm | 47.6 nm | 68.5 nm | 80-100 nm |
+| 486 nm (Hβ blue) | Broadband AR, camera | 88.0 nm | 57.9 nm | 83.2 nm | 80-100 nm |
+| 550 nm (peak eye sensitivity) | Standard visible AR | 99.6 nm | 65.5 nm | 94.2 nm | 80-100 nm |
+| 587.6 nm (He d-line) | Interferometry optics | 106.5 nm | 70.0 nm | 100.6 nm | 80-100 nm |
+| 632.8 nm (HeNe laser) | Laser optics, metrology | 114.7 nm | 75.3 nm | 108.3 nm | 80-100 nm |
+| 1064 nm (Nd:YAG) | IR laser optics | 193.1 nm | 126.9 nm | 182.5 nm | 100-150 nm |
+| 1550 nm (telecom) | Fiber optic components | 281.2 nm | 184.5 nm | 265.4 nm | 100-150 nm |
+
+### Wavelength Ranges for Common Coating Materials
+
+| Material | Refractive Index | Transparent Range | Melting Point | Evaporation Method |
+|----------|-----------------|-------------------|---------------|-------------------|
+| MgF₂ | 1.38 | 115 nm - 7 μm | 1255°C | Resistive boat (Mo, Ta) |
+| SiO₂ | 1.46 | 200 nm - 3.5 μm | 1713°C | E-beam (resistive too slow) |
+| Al₂O₃ | 1.62 | 180 nm - 5 μm | 2072°C | E-beam |
+| ZrO₂ | 2.10 | 250 nm - 8 μm | 2715°C | E-beam |
+| TiO₂ | 2.35 | 350 nm - 12 μm | 1843°C | E-beam (reactive: Ti + O₂) |
+| Si | 3.50 | 1.1 μm - 7 μm | 1414°C | E-beam |
+| Ge | 4.00 | 1.8 μm - 23 μm | 938°C | E-beam |
+| Al (mirror) | complex | 100 nm - 25+ μm (reflective) | 660°C | Resistive boat (W) |
+| Ag (mirror) | complex | 350 nm - 25+ μm (reflective) | 962°C | Resistive boat (Mo, Ta) |
+| Au (mirror) | complex | 500 nm - 25+ μm (reflective) | 1064°C | Resistive boat (W, Mo) |
+
+### Mirror Coating Performance
+
+| Metal | R at 400 nm | R at 550 nm | R at 800 nm | R at 10 μm | Overcoat Needed |
+|-------|------------|------------|------------|-----------|----------------|
+| Aluminum | 88-90% | 91-93% | 87-89% | 97-99% | Yes (SiO or MgF₂ for oxidation protection) |
+| Silver | 95-97% | 97-99% | 98-99% | 99%+ | Yes (tarnishes rapidly in sulfur atmospheres; use SiO₂ overcoat) |
+| Gold | 38-40% | 47-52% | 96-98% | 99%+ | No (chemically inert, does not tarnish) |
+| Protected Al + MgF₂ | 86-88% | 88-90% | 85-87% | 95-97% | Overcoat is the protection |
+| Enhanced Al (Al + dielectric stack) | 95%+ | 96%+ | 95%+ | N/A | Yes (dielectric stack) |
+
+### Measurement & Thickness Control
+
+Accurate thickness control during deposition is critical. A 2% thickness error on a quarter-wave AR coating shifts the minimum-reflection wavelength by 2%, reducing performance noticeably.
+
+| Monitoring Method | Principle | Thickness Accuracy | Best For |
+|------------------|-----------|-------------------|----------|
+| Quartz crystal microbalance (QCM) | Mass deposited on oscillating crystal changes its frequency | ±1-3% (limited by tooling factor and density assumptions) | Metal mirrors, single-layer coatings, production runs |
+| Optical monitor (witness sample) | Measures reflectance or transmittance of a witness glass in real time; stops at turning point | ±0.5-1% (directly measures optical thickness) | Multi-layer AR, narrowband filters, any quarter-wave stack |
+| Time-based (fixed rate) | Deposits at a calibrated rate for a fixed time | ±5-10% (drifts with source aging and geometry) | Non-critical single layers, thick metal films |
+| Optical monitor + QCM combined | QCM controls rate stability; optical monitor determines endpoint | ±0.2-0.5% | Narrowband filters, laser mirrors, critical multi-layer coatings |
 
 ## Safety Considerations
 
@@ -180,8 +230,8 @@ Transitioning from bench-scale to production involves these considerations:
 
 - [Optical Inspection](inspection.md) — parent capability
 - [Optics Domain](./index.md) — domain overview and related capabilities
-- [Vacuum Technology](vacuum.md) — downstream capability
-- [Vacuum Pumps](pumps.md) — downstream capability
+- [Vacuum Technology](../gas-handling/vacuum.md) — downstream capability
+- [Vacuum Pumps](../vacuum/pumps.md) — downstream capability
 - [Optical Inspection](inspection.md) — downstream capability
 
 Optical coatings directly enable [Optical Inspection](inspection.md) and [Measurement](../measurement/index.md) by improving lens system performance — lower losses, higher contrast, better image quality. Mirror coatings are essential for [Photolithography](../photolithography/index.md) projection optics and for [Energy](../energy/index.md) concentrating solar collectors.

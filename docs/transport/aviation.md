@@ -210,6 +210,73 @@ Without propulsion technology, civilization is limited to ground and water trans
 
 **Aviation kerosene (Jet A / Jet A-1)**: The standard turbine fuel. Flash point 38°C minimum (safe handling). Freeze point: -40°C for Jet A, -47°C for Jet A-1 (the lower freeze point enables long-range high-altitude flight where fuel temperatures drop below -30°C). Energy density: 43.15 MJ/kg (higher than gasoline at 43.0 MJ/kg by mass, though lower by volume due to higher density). Specific gravity: 0.775-0.840 at 15°C. Distillation range: 150-300°C boiling fraction from petroleum crude.
 
+## Ultralight Aircraft Reference Specifications
+
+**Airframe dimensions and weights**:
+
+| Parameter | Single-seat (min) | Two-seat (typical) | Heavy ultralight (max) |
+|-----------|-------------------|--------------------|------------------------|
+| Wingspan | 8-9 m | 10-12 m | 12-14 m |
+| Length | 5-6 m | 6-8 m | 8-10 m |
+| Height | 2-2.5 m | 2.2-2.8 m | 2.5-3.0 m |
+| Wing area | 12-14 m² | 14-18 m² | 18-22 m² |
+| Empty weight | 150-180 kg | 180-250 kg | 250-350 kg |
+| Gross weight | 250-300 kg | 350-450 kg | 450-550 kg |
+| Useful load | 80-120 kg | 120-200 kg | 150-250 kg |
+| Fuel capacity | 15-25 L | 25-50 L | 40-80 L |
+| Payload (crew + cargo) | 70-100 kg | 100-170 kg | 120-200 kg |
+
+**Performance specifications**:
+
+| Parameter | Typical Range | Notes |
+|-----------|--------------|-------|
+| Stall speed | 35-50 km/h | Below this, the wing loses lift. Lower is safer. |
+| Cruise speed | 70-120 km/h | Most fuel-efficient speed |
+| Maximum speed | 120-160 km/h | Structural limit (never exceed) |
+| Rate of climb | 2-5 m/s | At gross weight, sea level |
+| Service ceiling | 2,000-4,000 m | Limited by engine power at altitude |
+| Range | 100-300 km | Depends on fuel capacity and consumption |
+| Endurance | 1.5-3 hours | Fuel-limited |
+| Glide ratio | 8:1 to 12:1 | Engine-off glide performance |
+| Takeoff roll | 50-150 m | At gross weight, sea level, calm wind |
+| Landing roll | 40-120 m | At gross weight, sea level, calm wind |
+
+**Engine specifications**:
+
+| Parameter | Single-cylinder | Twin-cylinder (boxer) |
+|-----------|----------------|----------------------|
+| Displacement | 250-500 cc | 500-1,200 cc |
+| Power output | 15-30 HP | 30-65 HP |
+| RPM range | 2,500-4,000 | 2,000-3,500 |
+| Weight (engine only) | 15-25 kg | 25-45 kg |
+| Fuel consumption (gasoline) | 5-9 L/hr | 8-15 L/hr |
+| Oil capacity | 0.5-1.0 L | 1.0-2.5 L |
+| Compression ratio | 6:1 to 8:1 | Limited by fuel octane |
+| Spark plug gap | 0.5-0.8 mm | Magneto ignition |
+
+**Propeller specifications**:
+
+| Parameter | Value |
+|-----------|-------|
+| Diameter | 1.5-2.0 m |
+| Pitch | 800-1,200 mm |
+| Number of blades | 2 |
+| Material | Laminated hardwood (5-7 layers) |
+| Weight | 3-6 kg |
+| RPM (direct drive) | 2,000-3,500 |
+| Efficiency | 60-80% |
+| Balance tolerance | ±5 g at blade tips |
+
+**Fuel consumption reference**:
+
+| Engine Power | Gasoline (L/hr) | Ethanol (L/hr) | 2-hour flight (kg gasoline) |
+|-------------|----------------|----------------|-----------------------------|
+| 20 HP | 5-7 | 8-11 | 8-11 |
+| 40 HP | 8-12 | 13-19 | 13-19 |
+| 65 HP | 13-18 | 21-29 | 21-29 |
+
+Note: Ethanol requires roughly 40% more volume than gasoline for the same energy output (stoichiometric ratio 9:1 vs. 14.7:1). Carburetor jets must be enlarged accordingly.
+
 
 ## Limitations
 
@@ -228,9 +295,16 @@ Without propulsion technology, civilization is limited to ground and water trans
 | Engine rough running or misfiring | Fouled spark plug, carburetor icing, or fuel contamination | Clean or replace spark plug; apply carb heat; drain and replace fuel; check fuel filter |
 | Loss of climb performance | Dirty airframe (drag), low compression, or overloaded | Clean airframe surface; check cylinder compression; verify weight within limits; check density altitude |
 | Excessive vibration in flight | Propeller imbalance or engine mount looseness | Dynamically balance propeller; check engine mount bolts; inspect propeller for damage |
-- Fabric covering tearing or sagging | UV degradation or moisture damage to dope finish | Re-dope affected area; replace fabric section if torn; store aircraft under cover when not flying |
+| Fabric covering tearing or sagging | UV degradation or moisture damage to dope finish | Re-dope affected area; replace fabric section if torn; store aircraft under cover when not flying |
 | Oil pressure dropping in flight | Low oil level, oil cooler blockage, or bearing wear | Land immediately; check oil level; clear oil cooler; inspect engine for metal in oil |
 | Magneto drop exceeds 175 RPM during runup | Fouled plug or defective magneto | Clean or replace spark plugs; check magneto timing; verify mag switch contacts |
+| Fabric covering torn in flight | Bird strike or structural flex exceeding fabric limits | Land as soon as practical; patch with doped fabric (50 mm overlap minimum on all sides); do not fly with tears larger than 100 mm |
+| Engine overheating (cylinder head above 250°C) | Lean mixture, blocked cooling fins, or prolonged steep climb | Enrich mixture; clear debris from cooling fins; reduce climb angle to increase airflow over cylinders |
+| Wing fabric loses tension (dull thud when tapped) | Dope aging, moisture damage, or UV degradation | Re-dope affected panels (2-3 coats clear, 2-3 coats silver UV barrier); if probe test shows below 1.5 kg, recover entire panel |
+| Control cable slack detected | Cable stretch or turnbuckle backing off | Check all turnbuckle safety wires; retension cables to 100-200 N; replace cables showing fraying or corrosion |
+| Propeller tracking marks misaligned | Hub bolts loosened or blade bent | Tighten hub bolts to specified torque (25-35 N·m); check blade for cracks; do not fly with cracked wooden propeller |
+| Engine loses power at altitude | Air density drop reducing mixture richness | Lean mixture with mixture control as altitude increases (reduced air mass requires reduced fuel); check carburetor main jet sizing |
+| Tailwheel aircraft ground-looping on landing | Excessive braking on one wheel or landing with side-drift | Land straight with zero drift; use differential braking gently; consider converting to tricycle gear for less-experienced pilots |
 
 ## See Also
 

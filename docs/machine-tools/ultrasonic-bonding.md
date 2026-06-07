@@ -2,8 +2,8 @@
 
 > **Node ID**: machine-tools.joining.ultrasonic-bonding
 > **Domain**: [Machine-Tools](./index.md)
-> **Dependencies**: [`Semiconductor Packaging & Testing`](packaging-testing.md)
-> **Enables**: [`Electricity Generation & Distribution`](electricity.md), [`Metal Joining`](joining.md)
+> **Dependencies**: [`Semiconductor Packaging & Testing`](../chemistry/packaging-testing.md)
+> **Enables**: [`Electricity Generation & Distribution`](../energy/electricity.md), [`Metal Joining`](joining.md)
 > **Timeline**: Years 40-70
 > **Outputs**: ultrasonic_bonds, wire_bonds
 > **Critical**: No
@@ -37,7 +37,7 @@ For larger-scale ultrasonic metal welding (battery tabs, wire harness splices), 
 
 ### Equipment
 
-- [Semiconductor Packaging & Testing](packaging-testing.md) — tool dependency
+- [Semiconductor Packaging & Testing](../chemistry/packaging-testing.md) — tool dependency
 - Wire bonder with precision X-Y stage (0.5μm resolution) and optical alignment system (100-200× magnification)
 - Ultrasonic generator (20-60 kHz, 0.1-5.0W for wire bonding; up to 3 kW for metal sheet welding)
 - Transducer-booster-horn assembly tuned to the operating frequency
@@ -154,12 +154,16 @@ Wire bond reliability depends on bond placement accuracy, loop profile control, 
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Ball lift (ball separates from pad) | Insufficient ultrasonic power, force, or contaminated pad | Increase ultrasonic power; verify pad cleanliness with plasma clean; check for pad oxide thickness |
-| Inconsistent ball size | Unstable EFO spark or wrong EFO current | Clean EFO electrode; adjust EFO current and time; check wire tail length |
-| Heel crack in wire loop | Excessive loop height or sharp angle at stitch bond | Reduce loop height; increase loop radius; reduce second bond force to prevent excessive wire deformation |
-| Stitch lift (second bond fails) | Insufficient force or power at second bond | Increase ultrasonic power and force for second bond; verify lead finger plating quality |
-| Cratering (pad or substrate cracks) | Excessive bond force or power for the pad structure | Reduce bond force; reduce ultrasonic power; verify pad thickness and underlying dielectric integrity |
-| Stuck capillary (wire bonds to tool) | Gold alloying on capillary inner surface | Replace capillary; reduce bond time; verify wire surface cleanliness |
+| Ball lift (ball separates from pad) | Insufficient ultrasonic power, force, or contaminated pad | Increase ultrasonic power by 10-20%; verify pad cleanliness with plasma clean (100 W O₂ plasma, 2-5 min); check for pad oxide thickness >5 nm |
+| Inconsistent ball size | Unstable EFO spark or wrong EFO current | Clean EFO electrode with alcohol; adjust EFO current to 30-50 mA and time to 300-500 μs; check wire tail length is 0.5-1.0× wire diameter |
+| Heel crack in wire loop | Excessive loop height or sharp angle at stitch bond | Reduce loop height to 250-400 μm for 25 μm wire; increase loop radius; reduce second bond force to 20-30 gf to prevent excessive wire deformation |
+| Stitch lift (second bond fails) | Insufficient force or power at second bond | Increase ultrasonic power by 15% and force to 40-60 gf for second bond; verify lead finger plating quality (2-5 μm Ni, 0.5-1.0 μm Au over Ni) |
+| Cratering (pad or substrate cracks) | Excessive bond force or power for the pad structure | Reduce bond force to 20-30 gf; reduce ultrasonic power to 0.5-1.0W; verify pad thickness is >1.0 μm Al and underlying dielectric integrity (SiO₂ >0.8 μm) |
+| Stuck capillary (wire bonds to tool) | Gold alloying on capillary inner surface | Replace capillary; reduce bond time to 20-50 ms; verify wire surface cleanliness (handle with nitrile gloves, not bare hands) |
+| Wire sweep during molding | Loop height too high or wire too long relative to span | Reduce loop height; use lower trajectory loop profile; keep loop span below 3 mm for 25 μm wire; use forward-bonded loop (bond near side first) |
+| Pad contamination visible under microscope | Incomplete plasma clean or storage time exceeded after cleaning | Re-clean with O₂/Ar plasma immediately before bonding; shelf life of plasma-cleaned parts is 4-8 hours maximum in open air; store in N₂-purged containers |
+| Intermittent open circuit after thermal cycling | Au-Al intermetallic growth (purple plague) at elevated temperature | For high-temperature service (>150°C), use Al wire instead of Au to eliminate purple plague risk; limit Au-Al exposure to <125°C operating temperature; qualify with 1000-hour thermal cycling test |
+| Inconsistent ultrasonic sheet weld strength | Horn amplitude drift or surface contamination on workpieces | Verify horn amplitude with laser vibrometer (target 20-40 μm peak-to-peak); clean workpiece surfaces with acetone; check horn face for wear or contamination buildup |
 
 ## Variations and Alternatives
 
@@ -177,8 +181,8 @@ Ribbon bonding using flat aluminum or copper ribbon instead of round wire provid
 
 - [Metal Joining](joining.md) — parent capability
 - [Machine-Tools Domain](./index.md) — domain overview and related capabilities
-- [Semiconductor Packaging & Testing](packaging-testing.md) — upstream dependency (tool)
-- [Electricity Generation & Distribution](electricity.md) — downstream capability
+- [Semiconductor Packaging & Testing](../chemistry/packaging-testing.md) — upstream dependency (tool)
+- [Electricity Generation & Distribution](../energy/electricity.md) — downstream capability
 - [Metal Joining](joining.md) — downstream capability
 
 ### Material Handling

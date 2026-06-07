@@ -150,13 +150,14 @@ The thermal management challenge in IC packaging increases with each chip genera
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Non-stick on die (NSOD) | Contaminated bond pad, insufficient ultrasonic power, or wrong stage temperature | Clean bond pads with UV ozone or plasma before bonding; increase ultrasonic power in 0.05 W steps; raise stage temperature to 200-250°C |
-| Wire sweep during molding | Excessive mold transfer pressure or high-viscosity molding compound | Reduce transfer pressure; preheat molding compound longer; use lower-viscosity compound grade; optimize wire loop height to reduce profile |
-| Die attach voids | Trapped air from improper epoxy dispensing pattern or outgassing during cure | Optimize epoxy dispense pattern (X-pattern or spiral for full coverage); use vacuum-assisted epoxy dispense; add a vacuum bake step before cure |
-| Package delamination | Poor adhesion between molding compound and die pad or leadframe due to contamination | Clean leadframes before die attach; apply adhesion promoter (silane coupling agent) to leadframe; verify molding compound freshness (moisture absorption reduces adhesion) |
-| Cracked die during wire bonding | Excessive bond force on a thinned die (below 150 μm) or uneven die attach | Reduce bond force; verify die attach uniformity; consider film-over-wire (FOW) molding for very thin die |
-| Lead coplanarity failure | Bent leads from trim/form tooling wear or improper handling | Replace trim/form punch and die set; verify leadframe alignment during forming; handle packages with vacuum pickup, not mechanical grippers |
-| Open wire bonds after burn-in | Kirkendall voiding at the Au-Al bond interface (purple plague) from excessive temperature-time exposure | Lower burn-in temperature; use Au-Au wire bonding (wire and pad both gold); limit Au-Al exposure to below 300°C equivalent |
+| Non-stick on die (NSOD) | Contaminated bond pad (organic film >5 nm thick), insufficient ultrasonic power, or wrong stage temperature (<150°C for thermosonic Au bonding) | Clean bond pads with UV ozone (15-30 min exposure) or oxygen plasma (100 W, 5 min, 0.5 Torr O₂) before bonding; increase ultrasonic power in 0.05 W steps from minimum until bond forms; raise stage temperature to 200-250°C for hard pad metallizations |
+| Wire sweep during molding | Excessive mold transfer pressure (>150 kg/cm²), high-viscosity molding compound, or wire loop height too tall (>300 μm) | Reduce transfer pressure to 50-100 kg/cm²; preheat molding compound pellets to 80-90°C for 2-3 min to lower viscosity; use lower-viscosity compound grade (melt viscosity <100 Poise at 175°C); optimize wire loop height to 200-250 μm for 25 μm wire |
+| Die attach voids | Trapped air from improper epoxy dispensing pattern, or outgassing during cure (moisture in epoxy >0.5%) | Optimize epoxy dispense pattern (X-pattern for dies <5×5 mm, spiral for larger dies, ensuring full coverage with no air pockets); use vacuum-assisted epoxy dispense (vacuum to 10 Torr for 30 seconds after dispense); add a vacuum bake step at 80°C, 10 Torr for 15 minutes before cure |
+| Package delamination | Poor adhesion between molding compound and die pad (surface contamination, moisture absorption in compound >0.3%) | Clean leadframes before die attach (ultrasonic clean in isopropyl alcohol 5 min, dry at 120°C for 30 min); apply adhesion promoter (silane coupling agent, 0.5-2% by weight in compound formulation); verify molding compound stored in sealed containers with desiccant at <5°C (shelf life 6-12 months at 5°C, 3 months at 25°C) |
+| Cracked die during wire bonding | Excessive bond force (>120 grams) on a thinned die (below 150 μm thickness), or uneven die attach (void area >10%) | Reduce bond force to 20-60 grams for dies below 150 μm; verify die attach uniformity with X-ray (voids <10% total area); consider film-over-wire (FOW) molding for very thin die (<100 μm) to protect during molding |
+| Lead coplanarity failure | Bent leads from trim/form tooling wear (punch clearance >0.02 mm), or improper handling (vacuum pickup force >5 N) | Replace trim/form punch and die set (tool life: 500,000-2,000,000 strokes); verify leadframe alignment during forming (±0.05 mm positional accuracy); handle packages with vacuum pickup (0.5-2.0 N force, not mechanical grippers); coplanarity specification: <0.1 mm for surface-mount packages |
+| Open wire bonds after burn-in | Kirkendall voiding at the Au-Al bond interface (purple plague) from excessive temperature-time exposure (>300°C equivalent for >100 hours) | Lower burn-in temperature to 125°C max for Au-Al bonds; use Au-Au wire bonding (requires Au-plated bond pads, adds cost); limit Au-Al exposure to below 200°C for <168 hours; inspect bonds after burn-in with wire pull test (minimum 3 grams for 25 μm Au wire) |
+| Solder balling on BGA rework | Oxidized solder balls or insufficient flux activity during reballing | Use fresh solder balls (bright, no dull surface); apply tacky flux (no-clean type, 1-2% solids content); verify reflow profile peaks at 235-250°C for SAC305 (time above liquidus 60-90 seconds) |
 
 ## Variations and Alternatives
 
@@ -183,7 +184,7 @@ Mold compound selection is driven by three competing requirements: low viscosity
 
 ## References
 
-- [Electronics](electronics.md) — parent capability
+- [Electronics](index.md) — parent capability
 - [Electronics Domain](./index.md) — domain overview and related capabilities
 - [Electronics Assembly](assembly.md) — upstream dependency (tool)
 

@@ -89,6 +89,10 @@ The development of currency requires [metals](../metals/index.md) for producing 
 
 8. **Weigh the finished coins**: Each struck coin is weighed against the standard. Coins outside ±2% tolerance are remelted. Target: <5% rejection rate for experienced minters.
 
+**Why coin weight, not face value, determines trust**: In a pre-industrial economy, the value of a copper coin is the value of the copper it contains. If a coin weighs 5 g and copper trades at 3 kg grain per kg copper, then the coin's intrinsic value is 0.015 kg grain. The face value can be declared higher (say, 0.025 kg grain) to cover minting costs and provide seigniorage, but the gap between intrinsic and face value must be small. When the gap grows too large (because the issuer debases the alloy or reduces the weight), people refuse to accept coins at face value and demand payment in goods or by weight instead. This is Gresham's Law in action: bad money drives out good. The lesson for any bootstrap currency is that weight fidelity is non-negotiable. A community that tolerates 10% weight variation in its coins will find that nobody trusts them.
+
+**Why copper, silver, and gold became the universal coinage metals**: Three properties determine whether a metal works as coinage: (1) durability, meaning it does not corrode, dissolve, or evaporate during decades of handling; (2) divisibility, meaning it can be melted, divided, and recombined without loss; (3) scarcity, meaning the supply grows slowly enough that existing coins do not rapidly lose value. Copper meets (1) and (2) well, and is common enough for small-denomination daily coinage. Silver and gold meet all three properties exceptionally well. Iron fails on corrosion. Lead fails on softness (wears away in months). Tin fails on scarcity (too common relative to demand).
+
 **Strengths**:
 - Standardized weight provides predictable value — merchants can verify coins by weighing
 - Inscribed designs resist counterfeiting — complex imagery requires skilled diesinking to replicate
@@ -156,16 +160,20 @@ The development of currency requires [metals](../metals/index.md) for producing 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
 | Coins rejected in trade (lack of trust) | No established reputation; unfamiliar designs | Start with state/tax backing: announce taxes payable only in coin; pay official wages in coin |
-| Persistent clipping (shaving metal from coin edges) | Coin edges unprotected; easy to shave undetected | Mint coins with raised rims; inscribe edge markings; switch to milled edges when technology permits |
+| Persistent clipping (shaving metal from coin edges) | Coin edges unprotected; easy to shave undetected | Mint coins with raised rims (0.5-1.0 mm); inscribe edge markings; switch to milled edges when technology permits |
 | Counterfeit coins appearing | Design too simple; low-skilled die copies easily | Increase die complexity; use distinctive metal alloy (unique color/hardness); penalize counterfeiting severely |
 | Deflation (prices falling, hoarding increases) | Insufficient money supply relative to goods | Increase minting; debase standard slightly (increase coin count per kg metal); lower taxes |
 | Inflation (prices rising, coin value falling) | Excessive minting; debasement; loss of confidence | Reduce minting; restore weight standard; withdraw debased coins through recoinage |
 | Gresham's Law (bad money drives out good) | Mixed-quality coins in circulation at same face value | Withdraw underweight coins; refuse to accept clipped/debased coins at face value; periodic recoinage |
-| Coins clipped or shaved | People removing metal from edges for profit | Mint coins with reeded (grooved) edges; weigh coins at point of acceptance; impose severe penalties for clipping |
 | Counterfeit coins in circulation | Base metal core with precious metal coating | Test with touchstone (streak color reveals alloy); weigh each coin; train merchants in detection |
 | Paper money losing value (inflation) | Issuer printing more notes than goods available | Back currency with metal reserves; limit issuance to reserves; maintain convertibility |
 | Refusal to accept distant coins | No trust in unfamiliar mint or ruler | Establish weight-and-purity standards recognized across settlements; use assayer marks |
 | Coin shortage (insufficient money supply) | Not enough precious metal for coinage | Issue token coinage (copper with face value above metal value); use paper notes for large transactions |
+| Coins wearing thin in circulation | Soft alloy (high purity, no hardening addition) | Add 5-10% copper to silver coins (sterling standard: 92.5% Ag); add 5% tin to copper coins for hardness |
+| Foreign coins displacing local coinage | Foreign coins higher quality or wider accepted | Improve local coin quality to match or exceed foreign standard; impose exchange fees on foreign coins; mandate local coins for tax payment |
+| Hoarding during crisis (velocity drops below 2) | Fear of instability; coins hidden rather than spent | Maintain government solvency visibly (publish accounts); guarantee coin weight standard; offer public depository for safe storage |
+| Two-denomination system failing (copper/silver) | Fixed exchange rate between metals drifting from market ratio | Adjust exchange rate to match market ratio of copper to silver (historically 100:1 to 150:1 by weight); if rates diverge too far, Gresham's Law drives the undervalued metal out of circulation |
+| Coins corroding in storage | Damp conditions; copper alloy with high tin (bronze disease) | Store coins in dry, ventilated vault; keep humidity below 60%; inspect stored coins annually for green corrosion spots |
 
 ## Safety
 

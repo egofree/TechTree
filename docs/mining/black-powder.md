@@ -3,7 +3,7 @@
 > **Node ID**: mining.extraction.black-powder
 > **Domain**: [Mining](./index.md)
 > **Dependencies**: See prerequisites
-> **Enables**: [`Explosives and Propellants`](explosives.md), [`Mining Extraction`](extraction.md)
+> **Enables**: [`Explosives and Propellants`](../chemistry/explosives.md), [`Mining Extraction`](extraction.md)
 > **Timeline**: Years 15-30
 > **Outputs**: black_powder, blasting_capability
 > **Critical**: No
@@ -95,6 +95,91 @@ Potassium nitrate is the rate-limiting ingredient. It occurs naturally in cave d
 - Crystallize by continued evaporation. Saltpeter crystals form as the solution cools and concentrates further.
 - Yield from nitrate-bearing earth is low — many kilograms of earth yield only grams of saltpeter. Production requires large collection areas and sustained effort.
 
+### Saltpeter Yield by Source
+
+| Source | KNO₃ Content | Yield per Tonne of Earth | Collection Effort |
+|--------|:------------:|:------------------------:|-------------------|
+| Bat guano caves (dry) | 2-10% | 20-100 kg | Moderate — cave access |
+| Old stable floors (5+ years) | 0.5-3% | 5-30 kg | Easy — surface collection |
+| Compost heaps (2+ years) | 0.2-1% | 2-10 kg | Easy — surface collection |
+| Saltpeter nitre beds (managed) | 1-5% | 10-50 kg | High — requires 1-2 year setup |
+| Natural cave efflorescence | 5-30% | 50-300 kg | Moderate — requires cave exploration |
+
+**Managed saltpeter production (nitre beds)**: The controlled method for producing saltpeter at scale. Mix wood ash, manure, urine, and vegetable waste in a long bed (5-10 m × 2-3 m × 0.5-1 m deep). Keep moist but not wet. Turn monthly. After 12-18 months of decomposition by nitrifying bacteria, the bed contains 1-5% KNO₃. Leach and crystallize as above. A well-managed nitre bed measuring 10 m × 3 m × 0.75 m yields approximately 100-300 kg of saltpeter per cycle.
+
+**Saltpeter purity test**: Dissolve a sample in water and evaporate. Pure KNO₃ forms long, needle-like white crystals. If the crystals are rounded or form a crust, impurities (NaCl, KCl, Ca(NO₃)₂) are present. A burn test confirms quality: 1 g of pure KNO₃ mixed with 0.2 g of charcoal and ignited should burn completely in 1-2 seconds, leaving minimal white ash.
+
+## Blasting with Black Powder
+
+Black powder's primary mining application is breaking rock in shaft sinking, tunnel driving, and stoping. The procedure differs fundamentally from modern high-explosive blasting because black powder is a deflagrating explosive (burns rapidly) rather than a detonating one (shatters by shock wave). It works by building gas pressure in a confined drill hole until the rock fails in tension.
+
+### Blast Hole Dimensions and Spacing
+
+| Application | Hole Diameter | Hole Depth | Burden (distance to free face) | Spacing (between holes) |
+|------------|:------------:|:----------:|:-------------------------------:|:-----------------------:|
+| Shaft sinking (vertical) | 25-40 mm | 0.6-1.5 m | 0.4-0.8 m | 0.4-0.8 m |
+| Tunnel driving (horizontal) | 25-40 mm | 0.8-2.0 m | 0.5-1.0 m | 0.5-1.0 m |
+| Bench blasting (open cut) | 30-50 mm | 1.0-3.0 m | 0.8-1.5 m | 0.8-1.2 m |
+| Boulder breaking | 25-35 mm | 0.3-0.6 m | N/A (single hole) | N/A |
+| Stope blasting (underground) | 25-35 mm | 0.8-1.5 m | 0.5-0.8 m | 0.5-0.8 m |
+
+The burden (distance from the hole to the nearest free rock face) must not exceed 30-40 times the hole diameter for black powder. Exceeding this ratio wastes energy because the gas pressure cannot overcome the rock mass before venting through the hole. This is a key limitation: black powder moves less rock per hole than dynamite, requiring more holes per advance.
+
+### Charge Calculation
+
+Black powder charge weight depends on rock type, hole dimensions, and the desired fragmentation:
+
+**Powder factor**: 0.5-2.0 kg of black powder per cubic meter of rock broken, depending on rock hardness.
+
+| Rock Type | Powder Factor (kg/m³) | Typical Charge per 1 m Hole (g) | Fragmentation |
+|-----------|:---------------------:|:-------------------------------:|:-------------:|
+| Soft shale, weathered rock | 0.5-0.8 | 200-400 | Coarse chunks |
+| Sandstone, limestone | 0.8-1.2 | 300-600 | Medium fragments |
+| Granite, basalt, hard ore | 1.2-2.0 | 500-1000 | Fine to medium |
+| Quartzite, very hard rock | 1.5-2.5 | 800-1500 | Fine (may need secondary breaking) |
+
+**Charge per hole** = hole volume × loading density × burden-to-depth ratio correction
+
+For a 32 mm diameter hole, 1.2 m deep, in limestone:
+- Hole volume: π × (0.016)² × 1.2 = 0.00097 m³ ≈ 1.0 L
+- Fill 60-70% of hole depth with powder (remainder is stemming): charge length = 0.7 × 1.2 = 0.84 m
+- Black powder loading density: ~1.0 g/cm³ (loose) to 1.2 g/cm³ (tamped)
+- Charge weight: 0.84 × π × (1.6)² × 1.0 ≈ 6.8 g/cm × 84 cm ≈ 570 g
+- Expected break: burden × spacing × depth = 0.6 × 0.6 × 1.2 = 0.43 m³
+- Powder factor check: 570 g ÷ 0.43 m³ = 1.3 kg/m³ (within range for limestone)
+
+### Blasting Procedure (Step-by-Step)
+
+1. **Drill blast holes**: Use a hand-held drill (churn drill for shallow holes, piston drill for deeper) or a drill carriage for production work. Hole diameter 25-40 mm, depth 0.6-2.0 m. Drill dry when possible — water in the hole degrades black powder.
+
+2. **Clean holes**: Blow out drill cuttings with a blowpipe or bellows. Any debris in the hole reduces the effective charge length and weakens the blast.
+
+3. **Load the charge**: Pour black powder into the hole using a copper or wooden funnel (no iron or steel near the hole). For a 32 mm hole, approximately 500-800 g of powder fills 60-70% of the hole depth. Do not tamp excessively — moderate tamping with a wooden rammer compresses the charge gently. Over-tamping can ignite the powder.
+
+4. **Insert the fuse**: Use safety fuse (black powder core in a waterproof textile casing, burns at 8-15 mm/s). Cut the fuse to the required length: (distance to safe cover ÷ retreat speed) + 30 seconds margin. Insert the fuse into the powder charge, leaving the free end accessible. At lower technology levels, a goose quill filled with fine powder serves as a fuse.
+
+5. **Stem the hole**: Fill the remaining 30-40% of hole depth above the charge with clay, damp earth, or fine sand. Stemming confines the gas pressure and directs it into the rock rather than blowing out the hole. Tamp the stemming firmly with a wooden rod. Proper stemming is what separates an effective blast from a loud fizzle: a poorly stemmed hole vents gas upward instead of breaking rock.
+
+6. **Clear the area**: Withdraw all personnel to a safe distance. For underground mines: minimum 50 m from the blast, around a corner if possible (rock fragments travel in straight lines). For open-cut: minimum 100 m. Post guards at all entries to the blast area.
+
+7. **Light the fuse**: One person, the shot-firer, lights the fuse and immediately retreats. For multiple holes, light the furthest first and work toward the nearest. Safety fuse burn rate: approximately 10 mm/s, so a 1 m fuse gives roughly 100 seconds of retreat time.
+
+8. **Wait and re-enter**: After the blast, wait at least 5 minutes for dust and fumes to clear (longer in poorly ventilated underground workings). The shot-firer returns first to check for misfires (a hole that did not fire). If a misfire is found, wait 30 minutes before approaching, then carefully remove stemming and reload. Never drill into a misfired hole.
+
+9. **Muck out the broken rock**: Shovel or load the fragmented rock into mine carts or buckets. Expect 1.5-3.0 m³ of broken rock per metre of tunnel advance, depending on tunnel cross-section.
+
+### Rock Breakage by Rock Type
+
+| Rock Type | Compressive Strength (MPa) | Advance per Round (m) | Holes per Round | Total Charge per Round (kg) |
+|-----------|:--------------------------:|:---------------------:|:---------------:|:--------------------------:|
+| Shale | 20-70 | 0.8-1.2 | 8-12 | 2-5 |
+| Sandstone | 50-150 | 0.6-1.0 | 12-18 | 4-10 |
+| Limestone | 60-170 | 0.6-1.0 | 12-18 | 5-12 |
+| Granite | 100-250 | 0.4-0.8 | 18-30 | 10-25 |
+| Basalt | 150-300 | 0.4-0.7 | 20-35 | 12-30 |
+
+Note: advance per round is typically 60-80% of hole depth. Shorter advance in harder rock reflects the energy required to break the rock and the practical limit of how deeply holes can be loaded with black powder.
+
 ## Safety Considerations
 
 This process involves specific hazards requiring trained personnel and protective measures:
@@ -157,12 +242,17 @@ Key scaling challenges: grinding throughput (saltpeter is hard, charcoal is abra
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Powder burns unevenly (sputters) | Incomplete mixing or non-uniform grain size | Re-wet-mix for longer; re-sieve grains to uniform size |
-| Powder fails to ignite | Moisture absorption or sulfur degraded | Dry powder at low, indirect heat; verify sulfur quality |
-| Excessive residue after burning | Wrong proportions (too much charcoal or too little saltpeter) | Re-measure ingredients by mass; verify saltpeter purity |
-| Blasting shot fails to break rock | Insufficient charge or poor stemming (charge not confined) | Increase charge; ensure hole is properly stemmed with clay above charge |
-| Grains crumble to dust during handling | Cakes not pressed firmly enough or under-dried | Increase press pressure; dry cakes longer before corning |
-| Saltpeter yield too low from leaching | Source earth depleted or leaching incomplete | Rotate collection sites; pass leachate through fresh earth multiple times |
+| Powder burns unevenly (sputters, inconsistent flame) | Incomplete mixing or non-uniform grain size | Re-wet-mix for longer (minimum 15-20 minutes of working the paste); re-sieve grains to uniform size; check that saltpeter is fully dissolved in the wet paste before pressing |
+| Powder fails to ignite from fuse or spark | Moisture absorption (>1% water content) or sulfur degraded | Dry powder at low, indirect heat (40-50°C) on a clean surface; verify sulfur quality (bright yellow, no gray discoloration); test fuse burn rate separately |
+| Excessive residue after burning (>10% ash) | Wrong proportions (too much charcoal) or saltpeter impure | Re-measure ingredients by mass with a balance (75:15:10 ratio); verify saltpeter purity by burn test — pure KNO₃ + charcoal should burn with minimal ash |
+| Blasting shot fails to break rock (vent blowout) | Insufficient charge, poor stemming, or burden too large | Increase charge by 25-50%; ensure stemming fills at least 30% of hole depth with tightly tamped damp clay; reduce burden to ≤30× hole diameter |
+| Blasting shot produces fine dust instead of fractured rock | Over-charged or burden too small | Reduce charge weight by 20-30%; increase burden distance; use coarse-grain powder (4-6 mm) for slower gas buildup |
+| Grains crumble to dust during handling | Cakes not pressed firmly enough or under-dried before corning | Increase press pressure (aim for dense, hard cakes); dry cakes for 48-72 hours at 30-40°C before corning; humidity during drying causes weak cakes |
+| Saltpeter yield too low from leaching | Source earth depleted, leaching incomplete, or calcium nitrate not converted | Rotate collection sites; pass leachate through fresh earth 2-3 times; ensure wood ash (potassium carbonate) is added during boiling to convert Ca(NO₃)₂ to KNO₃ |
+| Misfire (hole does not fire after fuse lit) | Fuse extinguished, powder damp, or fuse not in contact with charge | Wait 30 minutes before approaching; carefully remove stemming; check if powder is damp (replace if so); reload with fresh powder and new fuse; never attempt to drill out a misfired hole |
+| Underground blast produces excessive fumes (choke gas) | Too much sulfur or insufficient ventilation | Ensure powder is well-mixed (excess sulfur produces more SO₂); wait minimum 5 minutes before re-entering, longer in poorly ventilated headings; run ventilation fan at full capacity after blasting |
+| Rock face shows "bootleg" (hole drilled but not broken) | Burden too large or hole alignment wrong | Reduce burden to ≤0.6 m for 32 mm holes in hard rock; drill holes perpendicular to the free face; ensure holes are parallel, not converging |
+| Multiple-hole round produces uneven breakage | Some holes fired before others (fuse length variation) | Cut all fuses to exactly the same length; light fuses in sequence from furthest to nearest; for consistent rounds, use detonating cord (requires higher technology) |
 
 ## Variations and Alternatives
 
@@ -175,7 +265,7 @@ Key scaling challenges: grinding throughput (saltpeter is hard, charcoal is abra
 
 - [Mining Extraction](extraction.md) — parent capability
 - [Mining Domain](./index.md) — domain overview and related capabilities
-- [Explosives and Propellants](explosives.md) — downstream capability
+- [Explosives and Propellants](../chemistry/explosives.md) — downstream capability
 - [Mining Extraction](extraction.md) — downstream capability
 
 Black powder directly enables [Mining Extraction](extraction.md) by breaking rock far more effectively than fire-setting or manual hammering. It also serves as the basis for all later explosive development and as a propellant for firearms. The saltpeter production process connects to [Chemistry](../chemistry/index.md) through nitrate extraction and crystallization techniques.

@@ -33,7 +33,7 @@ SOI technology provides inherent radiation hardness because the thin device laye
 
 ### Equipment
 
-- [Silicon](silicon.md) — material dependency
+- [Silicon](index.md) — material dependency
 - High-energy ion implanter: oxygen (SIMOX) or hydrogen (Smart Cut), capable of MeV energies and mA-level beam currents
 - Wafer bonding system: cleanroom-class bonding chamber with alignment capability
 - Chemical mechanical polishing (CMP) system for final device layer thinning

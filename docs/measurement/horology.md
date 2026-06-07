@@ -2,7 +2,7 @@
 
 > **Node ID**: measurement.horology
 > **Domain**: [Measurement](./index.md)
-> **Dependencies**: [`Marine Navigation`](navigation.md)
+> **Dependencies**: [`Marine Navigation`](../marine/navigation.md)
 > **Enables**: Various downstream capabilities
 > **Timeline**: Years 10-30
 > **Outputs**: timepieces, escapement_mechanisms, precision_gears, chronometers
@@ -36,7 +36,7 @@ The connection between clockmaking and machine tools is direct and historical. H
 - **Bow drill and graver**: For drilling pivot holes and engraving. The bow drill provides controlled rotation for small-diameter holes.
 - **Filing and scraping tools**: For finishing surfaces flat and true. Precision filing requires practice — the file must be guided to remove material evenly.
 - **Magnification**: Single-lens magnifier (loupe) or, for the finest work, a compound microscope for inspecting gear teeth and pivot surfaces.
-- [Marine Navigation](navigation.md) — tool dependency
+- [Marine Navigation](../marine/navigation.md) — tool dependency
 
 ### Knowledge
 
@@ -88,15 +88,87 @@ For clockmaking at the Iron Age technology level, form cutting on a dividing eng
 
 The accuracy of the finished gear is limited by the dividing engine's precision. A dividing engine with 360 positions cuts gear teeth spaced at 1-degree intervals — adequate for most clockwork. For finer divisions (needed for escape wheels with many teeth), a worm-gear dividing mechanism provides finer angular resolution. The construction of ever more accurate dividing engines is a bootstrapping process that drives progressive improvement in manufacturing capability.
 
+## Measurement & Calibration
+
+Every dimension in a clock mechanism affects timekeeping accuracy. The relationship is direct: a pendulum clock's period depends on pendulum length (T = 2π√(L/g)), and a 0.1 mm change in a 1 m pendulum shifts the rate by about 4 seconds per day. For watches, the balance wheel's moment of inertia and the hairspring's elastic constant determine the oscillation period. Measuring these parameters to the required precision demands specific instruments and calibration methods.
+
+### Critical Dimension Tolerances
+
+| Component | Parameter | Tolerance (Tower Clock) | Tolerance (Pocket Watch) | Tolerance (Chronometer) | Measurement Tool |
+|-----------|-----------|------------------------|-------------------------|------------------------|-----------------|
+| Gear teeth | Tooth spacing | ±0.1 mm | ±0.02 mm | ±0.005 mm | Toolmaker's microscope |
+| Gear teeth | Tooth profile | ±0.2 mm | ±0.05 mm | ±0.01 mm | Profile projector |
+| Pivots | Diameter | ±0.05 mm | ±0.005 mm | ±0.002 mm | Micrometer, gauge pins |
+| Pivot holes | Bore diameter | ±0.05 mm | ±0.005 mm | ±0.002 mm | Gauge pins, reamer test |
+| Escape wheel | Tooth height uniformity | ±0.1 mm | ±0.01 mm | ±0.003 mm | Measuring microscope |
+| Escape wheel | Concentricity | ±0.1 mm | ±0.01 mm | ±0.003 mm | Test indicator on arbor |
+| Hairspring | Thickness uniformity | N/A | ±5% | ±2% | Micrometer, frequency test |
+| Balance wheel | Static poise | ±0.5 g·mm | ±0.05 g·mm | ±0.01 g·mm | Poising tool |
+| Pendulum | Length adjustment | ±1 mm | N/A | N/A | Steel ruler, rating nut |
+| Mainspring | Thickness | ±0.02 mm | ±0.005 mm | ±0.002 mm | Micrometer |
+| Watch plates | Pivot hole alignment | ±0.1 mm | ±0.02 mm | ±0.005 mm | Test arbor, indicator |
+
+### Timekeeping Measurement
+
+The rate of a timepiece (seconds gained or lost per day) is the fundamental performance metric. Rate testing requires a reference standard more accurate than the timepiece under test.
+
+| Method | Reference Accuracy | Test Duration | Equipment Required | Suitable For |
+|--------|-------------------|---------------|-------------------|-------------|
+| Transit telescope | ±0.5 sec (solar observation) | 1-2 weeks | Transit telescope, clock | Tower clocks, marine chronometers |
+| Reference chronometer | ±1-5 sec/day | 48+ hours | Calibrated chronometer | Pocket watches, tower clocks |
+| Radio time signal | ±0.01 sec | 24+ hours | Radio receiver | Any timepiece (requires radio tech) |
+| Electronic timer | ±0.001 sec/day | 1-24 hours | Microphone + counter | Watches with audible tick |
+| Atomic clock reference | ±0.000001 sec/day | Minutes to hours | GPS/atomic reference | Electronic timekeeping |
+
+### Pendulum Calibration
+
+A pendulum's period at small angles follows T = 2π√(L/g), where L is the distance from the pivot to the center of mass and g is local gravitational acceleration (9.780-9.832 m/s² depending on latitude and altitude). For a seconds pendulum (T = 2.000 s, one tick per second), the required length is L = g/π² ≈ 0.9936 m at standard gravity (9.80665 m/s²).
+
+The rating nut on a pendulum provides fine length adjustment. A typical rating nut with M6 × 0.5 mm thread raises or lowers the pendulum bob by 0.5 mm per turn. Each turn changes the rate by approximately:
+
+Δrate = -(g / (2π² × L²)) × ΔL × 86400 seconds/day
+
+For a 1 m pendulum, one turn (0.5 mm) shifts the rate by about -21.5 seconds/day. One-sixth of a turn (60°) shifts it about 3.6 seconds/day. This gives the clockmaker a direct, predictable calibration tool.
+
+Temperature compensation: A steel pendulum rod expands by 12 μm per °C per meter of length. At 1 m, a 10°C temperature rise lengthens the pendulum by 0.12 mm, slowing the clock by about 5.2 seconds/day. The gridiron pendulum (alternating steel and brass rods) compensates automatically: brass expands about 19 μm/°C/m, so by arranging the rods so brass expansion pushes the bob up while steel expansion lets it sag, the net effective length stays constant. Harrison's gridiron used 5 steel and 4 brass rods, with length ratios calculated so the opposing expansions cancel.
+
+### Balance Wheel and Hairspring Calibration
+
+A balance wheel's oscillation period follows T = 2π√(I/k), where I is the moment of inertia and k is the hairspring's torsional spring constant. For a flat hairspring: k = (E × w × t³) / (12 × L), where E is the modulus of elasticity, w is width, t is thickness, and L is active length.
+
+The practical calibration procedure for a watch balance:
+
+1. **Vibrate the hairspring**: Count the balance wheel's oscillations against a reference clock over a known period (typically 1 hour). A 28,800 vph (vibrations per hour) watch balance completes 8 beats per second. Any deviation from this rate requires adjustment.
+
+2. **Adjust via timing screws**: Most balance wheels have 4-8 screws around the rim. Screwing them inward (toward the center) reduces the moment of inertia, speeding the balance. Screwing them outward slows it. Moving a 1 mg screw from the center to the rim changes the moment of inertia by approximately m × r² ≈ 1 × 10⁻⁶ × (5 × 10⁻³)² = 0.025 × 10⁻⁹ kg·m², which shifts the rate by about 10-30 seconds/day depending on the balance design.
+
+3. **Check in 6 positions**: Dial up, dial down, pendant up, pendant down, pendant left, pendant right. Position errors reveal balance poise problems (heavy spot causes gravitational torque that adds to or subtracts from the hairspring restoring force depending on orientation). Maximum positional variation for a chronometer: ≤ 5 seconds/day between any two positions.
+
+4. **Temperature testing**: Measure rate at 8°C, 23°C, and 38°C (chronometer standard). Temperature coefficient should be below 0.5 seconds/day per °C. If excessive, adjust the compensation balance cutouts or change the bimetallic rim composition.
+
+### Dividing Engine Calibration
+
+The dividing engine determines gear tooth spacing accuracy. Verify its performance by cutting a test gear and measuring tooth-to-tooth spacing with an indexing fixture and indicator:
+
+| Dividing Engine Type | Angular Resolution | Cumulative Error (360°) | Best Gear Tooth Spacing |
+|---------------------|-------------------|------------------------|------------------------|
+| Notched plate (36 positions) | 10° | ±0.5° | ±0.1 mm on 100 mm gear |
+| Worm gear (360:1) | 1° | ±0.1° | ±0.02 mm on 100 mm gear |
+| Precision worm (3600:1) | 0.1° | ±0.02° | ±0.005 mm on 100 mm gear |
+| Dual-stage worm | 0.01° | ±0.005° | ±0.001 mm on 100 mm gear |
+
+Calibrate the dividing engine by measuring a test division against a reference circle (a precision-graduated circle with verified angular markings). Record errors at every 10° position and create a correction table. For the finest work, apply this correction table when cutting escape wheels.
+
 ## Safety Considerations
 
 This process involves specific hazards requiring trained personnel and protective measures:
 
-- **Eye strain**: Prolonged close-up work under magnification. Rest eyes every 20-30 minutes. Adequate task lighting reduces strain.
-- **Chemical exposure**: Cleaning solvents and lubricants used in assembly. Use in ventilated areas.
-- **Thermal burns**: Hardening and tempering steel springs involves heating to specific temperatures. Use tongs and appropriate PPE.
-- **Fine particulate**: Metal filings from filing and turning operations are eye and respiratory irritants. Brush filings away from the face; never blow them.
-- **Repetitive strain**: Prolonged filing, scraping, and assembly work can cause hand and wrist strain. Vary tasks and take breaks.
+- **Eye strain**: Prolonged close-up work under magnification. Rest eyes every 20-30 minutes. Adequate task lighting (at least 500 lux at the work surface, 1000+ lux for watch work) reduces strain. Adjust the loupe or microscope eyepiece to match your eye's focus.
+- **Chemical exposure**: Cleaning solvents (isopropanol, naphtha, acetone) and lubricants (watch oil, clock oil) used in assembly. Isopropanol and naphtha are flammable (flash points 12°C and -18°C respectively). Use in ventilated areas away from ignition sources. Naphtha vapors cause headaches and dizziness at concentrations above 100 ppm. Chronic skin contact with any solvent causes dermatitis.
+- **Thermal burns**: Hardening and tempering steel springs involves heating to 750-850°C (cherry red to bright red) and quenching in oil. Use tongs and appropriate PPE. Oil quenching can ignite the oil if the workpiece is large or the oil is contaminated. Use a covered quench tank and keep a fire blanket nearby.
+- **Fine particulate**: Metal filings from filing and turning operations (especially brass and steel) are eye and respiratory irritants. Brass filings contain copper and zinc; inhalation of zinc oxide fumes from heated brass causes "metal fume fever" (flu-like symptoms lasting 24-48 hours). Brush filings away from the face; never blow them. Wear safety glasses and, when filing brass in quantity, a P100 respirator.
+- **Repetitive strain**: Prolonged filing, scraping, and assembly work can cause hand and wrist strain (tendonitis, carpal tunnel syndrome). Vary tasks and take breaks every 30 minutes. Use ergonomically shaped files and handles.
+- **Lead exposure**: Some clock weights and pendulum bobs contain lead. Handle with gloves. Wash hands before eating. Lead dust from filing or shaping lead components is a serious ingestion hazard.
 
 ### Personal Protective Equipment
 
@@ -105,13 +177,15 @@ This process involves specific hazards requiring trained personnel and protectiv
 - Heat-resistant gloves for spring tempering and hardening operations
 - Respiratory protection when using chemical cleaning solvents or generating fine metal dust
 - Finger cots or thin gloves for handling finished components to prevent corrosion from skin oils
+- Nitrile gloves when handling lead components
 
 ### Emergency Procedures
 
-- Maintain first aid kit with eye wash station and minor wound treatment. Fine metal splinters from filing are common.
+- Maintain first aid kit with eye wash station and minor wound treatment. Fine metal splinters from filing are common; remove with a sterilized needle, not tweezers (which crush the splinter deeper).
 - Know locations of emergency shutoffs for any powered equipment (lathes, grinding wheels).
-- Establish clear work area — loose tools and metal scraps on the bench are a hazard during close-up work.
-- Train all personnel on fire safety for the workshop — oil, solvents, and cleaning rags are fire hazards. Store oily rags in sealed metal containers.
+- Establish clear work area — loose tools and metal scraps on the bench are a hazard during close-up work. A dropped mainspring under tension can whip across the bench with enough force to cause lacerations.
+- Train all personnel on fire safety for the workshop — oil, solvents, and cleaning rags are fire hazards. Store oily rags in sealed metal containers. Quench oil fires are fought with a fire blanket or foam extinguisher, never water.
+- Mercury spill procedure (if using mercury pendulums or switches): evacuate the area, ventilate, and clean with zinc dust or a commercial mercury absorbent kit. Never vacuum mercury spills.
 
 ## Quality Control
 
@@ -152,12 +226,19 @@ Key scaling challenges: precision gear cutting throughput, escapement adjustment
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Timepiece gains time | Pendulum too short or balance wheel oscillating too fast | Lengthen pendulum by turning the rating nut; or adjust regulator to lengthen effective hairspring |
-| Timepiece loses time | Pendulum too long or excessive friction in gear train | Shorten pendulum; clean and oil pivots; check for bent pivots or tight bearing holes |
-| Uneven rate between positions | Balance wheel out of poise (static balance) | Adjust balance wheel screws — add or remove small masses to achieve poise |
-| Escapement "rebounds" (recoil) | Pallets too deep in escape wheel | Adjust pallet depth — reduce the lock distance |
-| Gear train stops | Pivot jammed, broken tooth, or insufficient driving force | Disassemble, inspect each pivot and gear; check mainspring tension or weight drive |
-| Chronometer rate shifts with temperature | Inadequate temperature compensation | Adjust compensation balance (bimetallic rim) screws; or adjust cutouts in balance rim |
+| Timepiece gains time | Pendulum too short or balance wheel oscillating too fast | Lengthen pendulum by turning the rating nut counterclockwise (typical sensitivity: ~21 sec/day per 0.5 mm turn on a 1 m pendulum); or adjust regulator index to lengthen effective hairspring |
+| Timepiece loses time | Pendulum too long or excessive friction in gear train | Shorten pendulum; clean and oil pivots with watch oil (viscosity matters: too thick slows the train, too thin runs off); check for bent pivots or tight bearing holes using gauge pins |
+| Uneven rate between positions | Balance wheel out of poise (static balance) | Adjust balance wheel screws — add or remove small masses to achieve poise. Test by placing the balance on a poising tool (two knife-edge rails); it should not roll to the same spot repeatedly |
+| Escapement "rebounds" (recoil) | Pallets too deep in escape wheel | Adjust pallet depth — reduce the lock distance to 0.02-0.05 mm (varies by escapement type). For anchor escapements, deepen the pallet slot. For lever escapements, adjust the guard pin clearance |
+| Gear train stops | Pivot jammed, broken tooth, or insufficient driving force | Disassemble, inspect each pivot and gear under magnification. Check mainspring tension (should be at least 75% wound for consistent torque). Check for lint, dried oil, or brass filings in pivot holes |
+| Chronometer rate shifts with temperature | Inadequate temperature compensation | Adjust compensation balance (bimetallic rim) screws; move screws inward on the high-expansion side to reduce the compensation, outward to increase it. Typical correction: 0.5-2.0 sec/day per screw position change |
+| Watch stops when dial-down | Endshake too small (pivot binds against bearing) | Check endshake (axial play) of each wheel — should be 0.02-0.05 mm. Burnish the pivot or deepen the bearing recess |
+| Watch runs fast immediately after service | Hairspring touched or deformed during handling | Inspect hairspring under 10× magnification for kinks, bends, or coils touching. A single touching coil shortens the active length and raises the rate by 30-60 minutes/day. Replace or carefully reform |
+| Escape wheel teeth show uneven wear | Pallet alignment off-center or drop unequal | Re-align pallets so lock is equal on both sides. Unequal drop wastes energy on one side and over-impulses on the other. Check with test indicator on escape wheel arbor |
+| Mainspring breaks | Fatigue from overwinding or corrosion | Use the correct mainspring for the barrel diameter (the spring should fill 40-50% of the barrel area). Replace with proper spring steel, not stainless (stainless fatigues faster). Lubricate with mainspring grease, not oil |
+| Pendulum swing amplitude varies | Escapement impulse uneven or pivot friction inconsistent | Check that the impulse face on each pallet is polished smooth. Verify that the escape wheel runs true (concentric within 0.02 mm). Clean and oil all pivots in the gear train |
+| Gear teeth chip or crack | Dividing engine error or blank not centered on arbor | Verify dividing engine detent engages fully. Check gear blank concentricity on the dividing engine arbor (runout < 0.02 mm). Use sharp cutters — dull cutters require more force and cause tooth breakout |
+| Watch gains in vertical positions but keeps time horizontal | Balance wheel out of poise — heavy spot causes gravitational bias | Poise the balance wheel on knife edges. Add or remove timing screws to achieve neutral balance. A 0.01 mg imbalance at 5 mm radius causes ~2 sec/day positional error |
 
 ## Variations and Alternatives
 
@@ -179,9 +260,9 @@ The British Board of Longitude offered a £20,000 prize (a fortune in the 18th c
 
 ## References
 
-- [Measurement & Instrumentation](measurement.md) — parent capability
+- [Measurement & Instrumentation](../vacuum/measurement.md) — parent capability
 - [Measurement Domain](./index.md) — domain overview and related capabilities
-- [Marine Navigation](navigation.md) — upstream dependency (tool)
+- [Marine Navigation](../marine/navigation.md) — upstream dependency (tool)
 
 Clockmaking feeds directly into [Machine Tools](../machine-tools/machining.md) — the dividing engine, the precision lathe, and the micrometer were all invented by clockmakers. The gear-cutting capability developed for timepieces transfers directly to any mechanism requiring geared power transmission, including watermills, windmills, and early industrial machinery.
 

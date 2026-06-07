@@ -239,7 +239,7 @@ Direct reduction is an alternative to the blast furnace that produces solid iron
 - [Iron and Steel](iron-steel.md) — ore types, bloomery smelting, and wrought iron production
 - [Steelmaking](steelmaking.md) — converting pig iron to steel (next step)
 - [Coke Production](../energy/coke.md) — blast furnace fuel
-- [Casting](../machine-tools/casting.md) — sand casting and mold-making detail
+- [Casting](casting.md) — sand casting and mold-making detail
 - [Ceramics / Kilns](../ceramics/kilns.md) — refractory materials for furnace lining
 - [Fuels](../energy/index.md) — energy sources for metallurgy
 

@@ -3,7 +3,7 @@
 > **Node ID**: machine-tools.joining.laser-welding
 > **Domain**: [Machine-Tools](./index.md)
 > **Dependencies**: See prerequisites
-> **Enables**: [`Electricity Generation & Distribution`](electricity.md), [`Metal Joining`](joining.md)
+> **Enables**: [`Electricity Generation & Distribution`](../energy/electricity.md), [`Metal Joining`](joining.md)
 > **Timeline**: Years 30-60
 > **Outputs**: laser_welds
 > **Critical**: No
@@ -81,6 +81,34 @@ The laser beam is generated in the resonator (CO₂ gas mixture or fiber-coupled
 | Focus Position | -3 to +3 mm relative to surface | Below surface for deep penetration; above for wider weld |
 | Shielding Gas Flow | 10-30 L/min | Argon for steel; helium for high-power welding to suppress plasma |
 
+### Penetration Depth vs. Power and Speed (Mild Steel, Fiber Laser)
+
+| Power (kW) | Speed 1 m/min | Speed 3 m/min | Speed 6 m/min | Speed 10 m/min |
+|-----------|--------------|--------------|--------------|----------------|
+| 1 | 3-4 mm | 1.5-2 mm | 0.8-1.2 mm | 0.5-0.8 mm |
+| 2 | 5-7 mm | 3-4 mm | 1.5-2.5 mm | 1.0-1.5 mm |
+| 4 | 8-12 mm | 5-7 mm | 3-4 mm | 2-3 mm |
+| 6 | 12-16 mm | 7-10 mm | 4-6 mm | 3-4 mm |
+| 10 | 18-25 mm | 10-15 mm | 6-9 mm | 4-6 mm |
+| 15 | 25-35 mm | 15-22 mm | 9-14 mm | 6-9 mm |
+
+These values are for keyhole mode with argon shielding gas. Conduction mode produces approximately 40-60% of the penetration shown.
+
+### Recommended Parameters by Material (Fiber Laser)
+
+| Material | Thickness (mm) | Power (kW) | Speed (m/min) | Shielding Gas | Focus Position |
+|----------|---------------|-----------|--------------|---------------|----------------|
+| Mild steel | 1 | 1.5-2.5 | 3-6 | Ar, 15 L/min | -1 mm |
+| Mild steel | 3 | 3-5 | 2-4 | Ar, 15 L/min | -2 mm |
+| Mild steel | 6 | 5-8 | 1-3 | Ar, 20 L/min | -2 mm |
+| Mild steel | 10 | 8-12 | 0.5-1.5 | He, 20 L/min | -3 mm |
+| Stainless 304 | 1 | 1.5-2 | 3-5 | Ar, 15 L/min | -1 mm |
+| Stainless 304 | 3 | 3-5 | 1.5-3 | Ar+He mix, 18 L/min | -2 mm |
+| Aluminum 6061 | 1 | 2-3 | 3-8 | Ar, 15 L/min | -1 mm |
+| Aluminum 6061 | 3 | 4-6 | 2-4 | Ar, 20 L/min | -2 mm |
+| Titanium Gr2 | 2 | 2-4 | 2-4 | Ar, 20 L/min + trailing | -1.5 mm |
+| Copper C110 | 1 | 3-5 | 2-4 | Ar, 15 L/min | 0 mm (conduction) |
+
 Weld quality in laser welding is highly sensitive to focus position relative to the workpiece surface. Focus positioned slightly below the surface typically produces the deepest penetration in keyhole mode, while focus at or above the surface favors conduction-mode welding. The depth of focus, the range over which the beam remains effectively focused, depends on the beam quality and focusing optics. High-beam-quality fiber lasers produce a longer depth of focus than CO₂ lasers at equivalent spot size, providing more tolerance for workpiece positioning variations.
 
 The choice between keyhole and conduction mode depends on the application. Keyhole mode produces deep, narrow welds with high aspect ratio, suitable for thicker materials and applications requiring full penetration in a single pass. Conduction mode produces wider, shallower welds with smoother bead appearance, suitable for thin materials, aesthetic joints, and applications where the keyhole instability of highly reflective metals would be problematic.
@@ -149,12 +177,15 @@ Gap bridging capability is limited compared to arc welding processes. Laser weld
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Porosity (keyhole instability) | Keyhole collapses intermittently, trapping gas | Increase power or reduce speed to stabilize keyhole; adjust shielding gas to suppress plasma |
-| Cracking (solidification) | High cooling rate creates brittle microstructure | Add trailing heat using second beam or reduce cooling rate with preheat; use filler wire to modify weld metal composition |
-| Spatter and underfill | Keyhole collapse at weld start or excessive power ramp | Use controlled power ramp-up at start; reduce power; improve shielding gas coverage |
-| Lack of fusion at root | Beam focus too deep or insufficient power | Adjust focus position closer to surface; increase power; verify joint alignment |
-| Humping bead | Excessive travel speed for the power level | Reduce speed; increase power to maintain keyhole stability at the desired speed |
-| Poor penetration on reflective metals | Low absorption at laser wavelength | Apply surface treatment to increase absorption; use shorter wavelength laser; use higher power with beam oscillation |
+| Porosity (keyhole instability) | Keyhole collapses intermittently, trapping gas | Increase power 10-15% or reduce speed by 20% to stabilize keyhole; adjust shielding gas to helium for plasma suppression; verify surface cleanliness |
+| Cracking (solidification) | High cooling rate creates brittle microstructure | Add trailing heat using second beam or reduce cooling rate with 150-200°C preheat; use filler wire to modify weld metal composition (e.g., ER70S-6 adds deoxidizers) |
+| Spatter and underfill | Keyhole collapse at weld start or excessive power ramp | Use controlled power ramp-up at start (ramp to full power over 0.5-1.0 s); reduce power by 10%; improve shielding gas coverage with coaxial nozzle |
+| Lack of fusion at root | Beam focus too deep or insufficient power | Adjust focus position 1-2 mm closer to surface; increase power by 10-15%; verify joint alignment is within ±0.2 mm |
+| Humping bead | Excessive travel speed for the power level | Reduce speed by 20-30%; increase power 10-15% to maintain keyhole stability at the desired speed |
+| Poor penetration on reflective metals (Al, Cu) | Low absorption at 1.06 μm wavelength | Apply surface treatment (sandblasting or blackening) to increase absorption; use shorter wavelength laser (blue/green under development); use higher power with beam oscillation at 100-300 Hz |
+| Plasma blocking beam (high-power welding) | Ionized metal vapor above keyhole absorbs and scatters the beam | Switch to helium shielding gas (higher ionization potential than argon); increase gas flow to 20-30 L/min; add side jet to blow plasma away from beam path |
+| Gap bridging failure | Joint gap exceeds 10-15% of spot diameter | Tighten fit-up to <0.1 mm for 1 mm spot; add filler wire (1.0-1.2 mm diameter) at 2-5 m/min feed rate; use beam wobble (0.5-1.0 mm amplitude) to widen melt pool |
+| Root porosity at weld end | Abrupt power termination leaves unfilled keyhole crater | Program power ramp-down over 0.3-0.5 s at weld end; continue shielding gas for 2-3 seconds after beam off; overlap end onto run-off tab |
 
 ## Variations and Alternatives
 
@@ -176,7 +207,7 @@ Remote laser welding stations use scanning mirrors to steer the laser beam acros
 
 - [Metal Joining](joining.md) — parent capability
 - [Machine-Tools Domain](./index.md) — domain overview and related capabilities
-- [Electricity Generation & Distribution](electricity.md) — downstream capability
+- [Electricity Generation & Distribution](../energy/electricity.md) — downstream capability
 - [Metal Joining](joining.md) — downstream capability
 
 ### Material Handling

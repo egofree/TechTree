@@ -230,12 +230,26 @@ Mechanical calculators represent numbers through physical position:
 
 | Symptom | Likely Cause | Solution |
 |---|---|---|
-| Slide rule reading drifts | Cursor hairline misaligned or scales worn | Realign cursor hairline against scale ends; replace worn rule; check for thermal expansion |
-| Arithmometer gives wrong result | Jammed carry mechanism or worn gear teeth | Disassemble and clean carry levers; inspect gear teeth for damage; reassemble with light oil |
-| Difference engine carry fails | Spring fatigue on carry lever or tooth worn | Replace carry lever spring; re-harden tooth surfaces; verify timing alignment |
-| Ball-and-disk integrator output error | Ball carriage slipping on disk (oil contamination) | Clean disk and ball with solvent; check ball spring tension; verify disk surface flatness |
-| Cam follower skips | Weak return spring or cam profile too steep | Increase follower spring tension; reduce cam lift rate; check for surface wear |
-| Gear train backlash exceeds tolerance | Bearing wear or gear tooth wear | Replace worn bearings; adjust gear mounting to reduce center distance; re-cut worn gears |
+| Slide rule reading drifts | Cursor hairline misaligned or scales worn | Realign cursor hairline against scale ends (both C-1 marks must align with D-1 simultaneously); replace worn rule (graduation wear >0.05 mm makes readings unreliable); check for thermal expansion (aluminum rules shift 0.024 mm/°C per 25 cm, bamboo shifts 0.005 mm/°C) |
+| Arithmometer gives wrong result | Jammed carry mechanism or worn gear teeth (backlash >0.05 mm) | Disassemble and clean carry levers with solvent; inspect gear teeth for damage (tooth profile deviation >0.02 mm causes miscount); reassemble with light machine oil (10-30 cSt at 40°C); verify carry propagation with test calculation: 999,999 + 1 |
+| Difference engine carry fails | Spring fatigue on carry lever (spring rate below 80% of original) or tooth worn (>0.03 mm depth loss) | Replace carry lever spring (music wire, 0.3-0.5 mm diameter, 8-12 coils, free length per design); re-harden tooth surfaces (heat to 850°C, quench in oil, temper at 200°C for 1 hour to achieve Rockwell C 55-60); verify timing alignment (each carry must complete within 10° of crank rotation) |
+| Ball-and-disk integrator output error | Ball carriage slipping on disk (oil contamination reduces friction coefficient below 0.15) | Clean disk and ball with solvent (acetone or isopropyl alcohol); check ball spring tension (typical 2-5 N normal force); verify disk surface flatness (<0.01 mm over 100 mm radius); replace ball if pitted (chrome steel ball, 6-12 mm diameter, Grade 25 or better) |
+| Cam follower skipping | Weak return spring (<50% rated tension) or cam profile too steep (pressure angle >45°) | Increase follower spring tension to design value (typically 5-20 N preload); reduce cam lift rate by modifying profile (keep pressure angle below 30° for roller followers, below 45° for flat-faced followers); check for surface wear (hardness below Rockwell C 50 requires re-hardening) |
+| Gear train backlash exceeds tolerance | Bearing wear (journal clearance >0.03 mm) or gear tooth wear (tooth thinning >0.02 mm) | Replace worn bearings (fit: 0.01-0.02 mm clearance for phosphor bronze bushings); adjust gear mounting to reduce center distance (within 0.01 mm of theoretical pitch distance); re-cut worn gears on hobbing machine; verify mesh pattern with marking compound |
+
+## Gear Manufacturing Tolerances
+
+| Component | Tolerance | Measurement Method | Failure if Exceeded |
+|-----------|-----------|-------------------|---------------------|
+| Tooth spacing (pitch) | ±0.01 mm on pitch circle | Gear tooth caliper or optical comparator | Carry misfire, digit skip |
+| Tooth profile (involute) | ±0.005 mm deviation from theoretical | Projection comparator with template overlay | Uneven mesh, vibration, accelerated wear |
+| Tooth thickness | ±0.01 mm (chordal) | Gear tooth micrometer (V-anvil) | Backlash exceeds 0.02 mm, lost motion |
+| Gear bore | +0.005/-0.000 mm (press fit to shaft) | Bore gauge or plug gauge | Gear eccentricity, runout >0.02 mm |
+| Shaft runout | <0.01 mm TIR (total indicator reading) | Dial indicator on shaft while rotating in bearings | Vibration, uneven tooth loading |
+| Surface finish (teeth) | <1.6 μm Ra (32 μin) after lapping | Surface roughness comparator or profilometer | Noise, accelerated wear, friction losses |
+| Case hardening depth | 0.3-0.8 mm on wear surfaces | Cross-section and etch, or microhardness traverse | Surface spalling, premature tooth failure |
+| Hardness (hardened surfaces) | Rockwell C 55-60 | Rockwell tester, 150 kgf load | Wear rate >0.01 mm/year at duty cycle |
+| Backlash (meshing pair) | 0.01-0.02 mm | Dial indicator on gear while holding mate | Lost motion in carry chain, calculation error |
 
 ## Safety & Hazards
 

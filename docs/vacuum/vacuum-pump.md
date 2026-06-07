@@ -156,6 +156,35 @@ A vacuum pump removes gas molecules from a sealed volume, progressively lowering
 | Excessive vibration from rotary vane pump | Worn bearings; damaged vane; rotor imbalance | Replace bearings (standard ball bearings, press-fit); inspect vanes for cracking; check shaft runout (<0.02 mm TIR) |
 | Diffusion pump will not reach 10⁻⁶ Torr | Oil degraded (discolored, viscous); leak at flange; cold trap insufficient | Change pump oil; helium leak check all flanges; verify LN₂ level in cold trap is adequate |
 
+## Pump Specifications by Application
+
+| Pump Type | Pumping Speed | Ultimate Pressure | Throughput (at 1×10⁻³ mbar) | Motor Power | Typical Application |
+|---|---|---|---|---|---|
+| Rotary vane (single-stage) | 1-300 L/min (0.06-18 m³/h) | ~10⁻² Torr (~1.3×10⁻² mbar) | 0.06-18 m³·mbar/h | 0.25-4 kW | Roughing, backing for diffusion/turbo pumps |
+| Rotary vane (two-stage) | 1-300 L/min (0.06-18 m³/h) | ~5×10⁻⁴ Torr (~7×10⁻⁴ mbar) | 0.06-18 m³·mbar/h | 0.25-4 kW | Medium vacuum processes, freeze drying |
+| Diffusion pump (4-inch) | 400-800 L/s (1,440-2,880 m³/h) | 10⁻⁶-10⁻⁷ Torr (~1.3×10⁻⁶ mbar) | 0.5-1 Torr·L/s at foreline | 1-3 kW heater | Sputtering, evaporation, general HV |
+| Diffusion pump (10-inch) | 2,500-5,000 L/s (9,000-18,000 m³/h) | 10⁻⁷ Torr (~1.3×10⁻⁷ mbar) | 1-3 Torr·L/s at foreline | 5-10 kW heater | Large chamber HV processes |
+| Turbomolecular pump (small) | 30-60 L/s (108-216 m³/h) | <10⁻⁸ Torr (<1.3×10⁻⁸ mbar) | 0.3-0.6 m³·mbar/h | 0.2-0.5 kW | Analytical instruments, RGA, leak detectors |
+| Turbomolecular pump (medium) | 200-500 L/s (720-1,800 m³/h) | <10⁻⁹ Torr (<1.3×10⁻⁹ mbar) | 2-5 m³·mbar/h | 0.5-2 kW | Semiconductor sputtering, e-beam evaporation |
+| Turbomolecular pump (large) | 1,000-4,000 L/s (3,600-14,400 m³/h) | <10⁻¹⁰ Torr (<1.3×10⁻¹⁰ mbar) | 10-40 m³·mbar/h | 2-10 kW | Large UHV chambers, surface science |
+
+**Unit conversions for pump specs**:
+- 1 L/min = 0.06 m³/h
+- 1 L/s = 3.6 m³/h
+- 1 Torr = 1.333 mbar = 133.3 Pa
+- Throughput (Q) = Pumping speed (S) × Pressure (P)
+
+**Pump selection by target pressure**:
+
+| Target Pressure | Pump Configuration | Notes |
+|---|---|---|
+| 760-10⁻³ Torr (rough vacuum) | Single rotary vane pump | Direct pumping, no backing needed |
+| 10⁻³-10⁻⁶ Torr (high vacuum) | Rotary vane (backing) + diffusion or turbo pump | Two-stage: roughing pump evacuates to 10⁻³, then HV pump engages |
+| 10⁻⁶-10⁻⁹ Torr (very high vacuum) | Two-stage rotary vane + turbo pump + LN₂ trap | Requires baked chamber, metal seals (CF flanges) |
+| <10⁻⁹ Torr (UHV) | Ion pump or titanium sublimation + turbo, all-metal seals | Requires extensive baking (250-450°C), minimal elastomer seals |
+
+Oil-free (dry) pumps are increasingly important for semiconductor manufacturing. Scroll pumps, screw pumps, and diaphragm pumps provide rough vacuum without oil, eliminating backstreaming contamination. Their tradeoffs are higher cost and, for some types, a higher ultimate pressure. At advanced semiconductor nodes where even trace oil contamination causes defects, dry pumping is mandatory for critical process steps.
+
 ## See Also
 
 - [Vacuum Pumps](pumps.md) — pump selection, advanced types, performance specifications
@@ -163,38 +192,6 @@ A vacuum pump removes gas molecules from a sealed volume, progressively lowering
 - [Gas Handling: Vacuum](../gas-handling/vacuum.md) — foundational vacuum pump operating principles
 - [Deposition Systems](deposition-systems.md) — integrated systems that use vacuum pumps
 - [Lubricants](../chemistry/lubricants.md) — vacuum oil specifications
-
-
-Pump oil in rotary vane pumps must be monitored for color, level, and contamination. Darkened oil indicates oxidation or contamination and should be changed. Low oil level causes overheating and rapid wear. Add or change oil only when the pump is warm (oil flows freely and drains completely). For systems pumping corrosive gases, use chemical-grade pump oil with corrosion inhibitors and change it more frequently. Always install a valve between the pump and the vacuum chamber so the chamber can be isolated from the pump during maintenance.
-
-Pumping speed and throughput are the two fundamental performance parameters of a vacuum pump. Pumping speed (measured in liters per second) is the volume flow rate at the pump inlet. Throughput (measured in pressure × volume per unit time, such as Torr × liters per second) is the amount of gas being moved. The relationship between them is throughput = pumping speed × pressure. A pump with high speed but low compression ratio can move large volumes at moderate vacuum but cannot reach high vacuum. Understanding this relationship is essential for matching pump selection to the application requirements.
-
-Dry (oil-free) pumps are increasingly important for semiconductor and other contamination-sensitive applications. Scroll pumps, screw pumps, and diaphragm pumps all provide rough vacuum without oil, eliminating the backstreaming problem entirely. Their disadvantage is higher initial cost and, for some types, lower ultimate vacuum compared to oil-sealed pumps. As semiconductor manufacturing moves to ever-smaller feature sizes where even trace contamination causes defects, oil-free pumping has become mandatory for critical process steps.
-
-Oil-sealed rotary vane pumps are the workhorses of vacuum technology. They are mechanically simple, reliable, and relatively inexpensive. Their main limitation is oil backstreaming — oil vapor flows backward from the pump into the vacuum chamber, contaminating the process environment. This is prevented by installing a foreline trap (a molecular sieve or activated charcoal trap) between the pump and the chamber, or by using an oil-free pump type for contamination-sensitive applications.
-chamber intercept backstreaming oil vapor.
-traps (cooled with liquid nitrogen or chilled water) between the pump and
-at low cost but require careful operation to prevent oil backstreaming. Cold
-carry them to the exhaust. Diffusion pumps can achieve very high pumping speeds
-hot oil vapor directed downward to entrain gas molecules from the chamber and
-Diffusion pumps are high-vacuum pumps with no moving parts. They use a stream of
-
-application requirements is essential.
-at moderate vacuum but cannot reach high vacuum. Matching pump selection to
-pressure. A pump with high speed but low compression ratio moves large volumes
-time) are the fundamental pump parameters. Throughput equals pumping speed times
-Pumping speed (liters per second) and throughput (pressure times volume per
-
-some types, lower ultimate vacuum compared to oil-sealed pumps.
-eliminating backstreaming entirely. Their disadvantage is higher cost and, for
-Scroll pumps, screw pumps, and diaphragm pumps provide rough vacuum without oil,
-Dry (oil-free) pumps are essential for contamination-sensitive applications.
-
-types.
-foreline traps (molecular sieve or activated charcoal) or by using oil-free pump
-is oil backstreaming (oil vapor flowing backward into the chamber), prevented by
-mechanically simple, reliable, and relatively inexpensive. Their main limitation
-Oil-sealed rotary vane pumps are the workhorses of vacuum technology —
 
 ---
 

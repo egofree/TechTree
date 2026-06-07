@@ -3,7 +3,7 @@
 > **Node ID**: machine-tools.joining.diffusion-bonding
 > **Domain**: [Machine-Tools](./index.md)
 > **Dependencies**: See prerequisites
-> **Enables**: [`Metal Joining`](joining.md), [`Electric Furnaces`](electric-furnaces.md)
+> **Enables**: [`Metal Joining`](joining.md), [`Electric Furnaces`](../energy/electric-furnaces.md)
 > **Timeline**: Years 35-65
 > **Outputs**: diffusion_bonds, hermetic_seals
 > **Critical**: No
@@ -92,26 +92,27 @@ The bonding atmosphere must prevent oxidation of the mating surfaces throughout 
 
 Diffusion bonding involves furnace temperatures exceeding 900°C and hydraulic press forces capable of crushing limbs. The combination of heat and force creates hazards that require specific controls.
 
-- **Furnace burns**: Hot press platens and furnace interiors exceed 900°C. Contact causes immediate deep tissue burns. Surfaces remain dangerously hot long after the furnace is off.
-- **Hydraulic crush**: The ram applies several hundred tons of force. Hands caught between platens suffer crushing and thermal burns simultaneously.
-- **Asphyxiation**: Argon and nitrogen used for inert atmospheres displace air in enclosed spaces. Poorly ventilated furnace rooms can reach oxygen levels low enough to cause unconsciousness without warning symptoms.
-- **Vacuum implosion**: Large vacuum furnace chambers can implode if the shell is damaged. Inspect vessels regularly for corrosion and mechanical damage.
+- **Furnace burns**: Hot press platens and furnace interiors exceed 900°C. Skin contact causes immediate third-degree burns destroying tissue through the full dermal layer. At 600°C, contact for 1 second causes deep burns. Surfaces remain above 100°C (burn threshold) for 2-4 hours after the furnace is turned off. Use infrared thermometer to verify surface temperature before approaching. Post "HOT SURFACE" warning signs that remain in place until the furnace has cooled below 50°C.
+- **Hydraulic crush**: The ram applies 5-200 tons of force (50-200 MPa over the platen area). Hands caught between platens suffer simultaneous crushing and thermal burns. A 200-ton press exerted over a 100 mm wide hand produces approximately 2000 MPa, far exceeding bone crush strength (100-200 MPa). Two-hand controls with anti-tie-down (both hands must be on controls, releasing either hand immediately stops the ram) are mandatory. Never reach between platens during operation.
+- **Asphyxiation**: Argon and nitrogen used for inert atmospheres displace air in enclosed spaces. At 18% oxygen (vs. 20.9% normal), cognitive impairment begins. At 16%, unconsciousness occurs. At 6%, death occurs within minutes. Argon is 38% heavier than air and pools in floor-level spaces (trenches, pits, near-floor storage areas). A single argon cylinder releasing its contents (8 m³ at STP) can displace all oxygen in a 40 m³ room. Install oxygen monitors with audible alarms in any room where inert gases are used, mounted at breathing height (1.5 m) and near floor level (0.3 m) for argon.
+- **Vacuum implosion**: Large vacuum furnace chambers experience 10 tonnes of atmospheric force per square meter of surface area. A 1-meter diameter cylindrical chamber has over 7 tonnes of external force on each end cap. A damaged or corroded chamber wall can implode, sending fragments inward at high speed. Inspect vessels quarterly for corrosion, dents deeper than 2 mm, and seal surface degradation. Hydrostatically test vessels to 1.5× atmospheric pressure every 2 years.
+- **Burns from bonded workpieces**: Completed diffusion bonds emerge from the furnace at 900+°C. The workpiece is not visibly glowing below approximately 400°C but is still hot enough to cause serious burns. Always use tongs or hoists to remove bonded assemblies from the furnace. Place hot workpieces in a designated cooling area with a barrier rope and "HOT" signs.
 
 ### Personal Protective Equipment
 
 - Heat-resistant gloves rated for handling materials above 500°C when loading/unloading furnace
-- Face shield with IR filter for viewing hot furnace interior through the sight port
+- Face shield with IR filter for viewing hot furnace interior through the sight port (IR intensity at 900°C through unprotected glass can cause cataracts)
 - Leather apron and flame-resistant clothing for press operations
-- Oxygen monitor in any enclosed space where inert gases are used
+- Oxygen monitor (worn on collar or chest pocket) in any enclosed space where inert gases are used
 - Steel-toe boots with metatarsal guard for handling heavy workpieces and fixtures
 
 ### Emergency Procedures
 
-- Post emergency stop locations for hot press hydraulic system and vacuum furnace power
+- Post emergency stop locations for hot press hydraulic system and vacuum furnace power at every operator station
 - Maintain inert gas emergency purge capability for furnace atmosphere
-- Install oxygen deficiency monitor with audible alarm in furnace room
-- Keep burn kit and fire blanket at the furnace station
-- Train all personnel on inert gas asphyxiation rescue (never enter oxygen-deficient space without self-contained breathing apparatus)
+- Install oxygen deficiency monitor with audible alarm (>90 dB) in furnace room, connected to automatic ventilation override
+- Keep burn kit with fire blanket at the furnace station
+- Train all personnel on inert gas asphyxiation rescue: never enter an oxygen-deficient space without self-contained breathing apparatus (SCBA). Rescue attempts without SCBA have a high fatality rate as the rescuer also loses consciousness within seconds.
 
 ## Quality Control
 
@@ -181,7 +182,7 @@ The absence of a molten zone in diffusion bonding means no porosity, no segregat
 - [Metal Joining](joining.md) — parent capability
 - [Machine-Tools Domain](./index.md) — domain overview and related capabilities
 - [Metal Joining](joining.md) — downstream capability
-- [Electric Furnaces](electric-furnaces.md) — downstream capability
+- [Electric Furnaces](../energy/electric-furnaces.md) — downstream capability
 
 ### Material Handling
 

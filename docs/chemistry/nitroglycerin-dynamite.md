@@ -118,6 +118,28 @@ Dynamite comes in several grades by NG content: 40% dynamite (lower power, less 
 - Being replaced by ANFO for most mining applications
 - Shorter storage life than TNT or ANFO due to NG exudation
 
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Nitroglycerin turns brown or dark yellow during synthesis | Temperature exceeded 20°C during nitration, producing unstable nitrogen oxide byproducts | Maintain 10-15°C with continuous cooling; if temperature exceeds 20°C, dump batch into drowning tank immediately; do not attempt to recover overheated NG |
+| NG separates poorly from spent acid | Acid:glycerol ratio too low, or insufficient settling time | Increase mixed acid ratio to 6:1 (acid:glycerol by weight); allow 30 minutes settling time; NG (density 1.59) sinks below spent acid (density ~1.7) |
+| Dynamite cartridge sweats liquid NG on surface | Storage temperature above 30°C, or absorbent (kieselguhr) saturated beyond capacity | Store below 25°C; handle sweating cartridges with rubber gloves as liquid NG; destroy heavily sweating cartridges by burning in small quantities on a hot plate outdoors |
+| Dynamite fails to detonate from blasting cap | Frozen dynamite (NG crystals desensitized), or cap not inserted properly into cartridge | Store above 13°C; if frozen, thaw slowly at 20-25°C (never with direct heat); insert blasting cap at least 10 cm into cartridge body; ensure cap is oriented with explosive end toward the charge |
+| NG wash water still acidic after 5 washes | Insufficient sodium carbonate in neutralization wash, or NG emulsified in wash water | Increase Na₂CO₃ concentration to 5% in wash; add brine to break NG/water emulsion; continue washing until pH of wash water tests 7.0-7.5 |
+| Dynamite blast produces excessive NO₂ fumes (orange-brown cloud) | NG-to-absorbent ratio too high (>80%) or incomplete detonation | Use correct grade dynamite (40-60% NG); ensure adequate confinement (stemming above charge); use strong enough blasting cap (standard #6 or #8 strength) |
+| Nitration vessel temperature rises above 20°C despite cooling | Glycerol added too fast for cooling capacity, or cooling water flow insufficient | Stop glycerol addition immediately; maximize cooling water flow; if temperature exceeds 25°C, actuate emergency dump valve into drowning tank; reduce glycerol feed rate to 1 drop per 2-3 seconds |
+| Dynamite cartridges crack or crumble when handled | Insufficient NG content, or absorbent (kieselguhr) too coarse | Increase NG to at least 40% by weight; use fine-grade kieselguhr (particle size 10-50 μm) that absorbs NG uniformly; reject crumbling cartridges and reprocess |
+| Worker develops severe headache near dynamite operations | NG vapor inhaled or absorbed through skin; headache is early warning of exposure | Remove worker to fresh air; wash exposed skin with soap and water; remove contaminated clothing; if headache persists >6 hours, seek medical attention; monitor all workers for "NG head" as an exposure indicator |
+| Blasting cap fires but dynamite does not detonate (misfire) | Cap too weak for the dynamite grade, or gap between cap and charge body | Use #8 strength cap for 60%+ dynamite; insert cap fully into cartridge (no air gap); ensure cap is in firm contact with explosive material; wait 30 minutes before approaching a suspected misfire |
+
+## Safety & Hazards
+
+- **NG skin absorption**: Nitroglycerin is absorbed through intact skin and by inhalation of vapor. A headache beginning 30 minutes to 2 hours after exposure is the first symptom. The headache is caused by vasodilation (NG is a potent vasodilator, used medically at microgram doses for angina). Chronic exposure causes tolerance that disappears after 2-3 days away, leading to "Monday morning headache" when workers return after a weekend. Treat by removing from exposure; symptoms resolve in 2-6 hours. Aspirin provides relief.
+- **NG impact sensitivity**: Pure NG detonates from a 2 J impact (a hammer blow on a hard surface). For comparison, a 100 g hammer dropped 2 cm onto NG on an anvil delivers enough energy to initiate detonation. Never pour NG from one container to another at height. Never handle NG in glass containers (breakage risk). All NG handling tools must be wood, rubber, or brass.
+- **Dynamite magazine fire**: If dynamite in storage catches fire, evacuate to at least 500 m. Do not attempt to fight the fire. Dynamite burns to detonation: the fire heats the NG above its autoignition point, and the burning mass transitions from deflagration to detonation. The transition can take seconds to minutes depending on the quantity and confinement. Call emergency services and evacuate.
+- **Disposal of deteriorated dynamite**: Dynamite that has sweated heavily, frozen and thawed repeatedly, or exceeded its shelf life (typically 1-2 years for standard dynamite) must be destroyed. The safest disposal method is burning: place cartridges individually on a hot plate or metal sheet in the open, ignite with a long fuse, and retreat to 100+ m. Never burn more than one cartridge at a time. Burning produces toxic NO₂ fumes; stay upwind.
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [Explosives & Propellants](explosives.md)*

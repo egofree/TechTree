@@ -322,6 +322,34 @@ Every measuring instrument drifts with use and time. A calibration cycle defines
 | Gauge wears out prematurely (reject rate drifts over a shift) | Gauge material too soft for the inspection volume, or gauge handling is abrasive | Use hardened tool steel gauges (58-62 HRC). Handle gauges with care — do not force or drop. Store gauges in fitted wooden cases with oil coating to prevent rust. |
 | Thread gauges accept parts that do not mate with standard nuts | Thread form error (drunken thread, incorrect flank angle) or pitch diameter within gauge tolerance but cumulative pitch error exceeds nut tolerance | Check thread form with an optical comparator or thread measuring wires. Verify the leadscrew accuracy on the threading lathe. Check that the change gears produce the correct pitch. |
 
+## Safety Considerations
+
+Mass production concentrates multiple hazards in a single facility. The combination of machine tools, material handling, repetitive tasks, and high throughput creates risk conditions different from a job shop, where slower pace and individual attention provide informal safety margins.
+
+- **Machine entanglement on lathes and mills**: Production operators run the same machine for 8+ hours, creating fatigue-induced complacency. Loose sleeves, gloves, hair, and jewelry that a cautious job-shop machinist avoids become lethal hazards in a production environment where attention wanders. No gloves, loose clothing, or jewelry near any rotating spindle. Hair secured under a cap. Each machine station needs a clearly visible emergency stop bar (not just a button, which requires precise hand placement) reachable from the normal operator position.
+- **Crush injuries from presses and power fixtures**: Production hydraulic presses and pneumatic clamping fixtures close with 5-50 kN force. Fingers caught between the platens or clamp jaws are crushed or severed. Two-hand anti-tie-down controls are mandatory on all powered pressing and clamping equipment: both hands must initiate the cycle, and releasing either hand immediately stops the closing motion.
+- **Chip and coolant hazards at high volume**: Production machining generates chips continuously, filling chip pans and accumulating on floors. Steel chips are sharp enough to cut through shoe leather. Coolant mist from high-pressure systems (10-30 bar) creates an oily aerosol that coats floors, creating slip hazards, and irritates the respiratory tract with prolonged exposure. Empty chip pans each shift. Use anti-fatigue mats with drainage at operator stations. Install coolant mist collectors on machines running at high coolant pressure.
+- **Repetitive strain injury (RSI)**: Production line workers repeat the same motions hundreds to thousands of times per shift. Common injuries include carpal tunnel syndrome (from gripping and turning motions), epicondylitis (from forearm twisting), and rotator cuff strain (from overhead assembly). Countermeasures: rotate workers between stations every 2 hours; design fixtures and tools to minimize wrist deviation (keep wrists neutral, not bent); limit grip force requirements to under 20 N for repetitive tasks; provide ergonomically designed handles on assembly tools.
+- **Material handling injuries**: Moving 25 kg bins of parts between stations causes back injuries. The maximum safe lifting weight for a single person under optimal conditions (load close to body, waist height, no twisting) is 23 kg per NIOSH guidelines. Production bins should be sized to stay under this limit, or mechanical lifting aids (hoists, roller conveyors, tilt tables) should be installed at stations handling heavier loads. Floor-level bins require bending, which multiplies the effective spinal load to 3-5× the object weight.
+- **Noise exposure**: Multiple machines running simultaneously produce sustained noise levels of 85-100 dB in a production machine shop. At 90 dB, OSHA limits exposure to 8 hours; at 100 dB, the limit drops to 2 hours. Without hearing protection, a full shift at 95 dB causes measurable permanent hearing loss. Provide hearing protection (earplugs rated NRR 25-33 dB) and enforce use in designated areas.
+
+### Personal Protective Equipment
+
+- Safety glasses with side shields at all times on the production floor
+- Steel-toe boots with metatarsal guard where heavy parts are handled
+- Hearing protection in designated high-noise areas (posted with signage when noise exceeds 85 dB)
+- No gloves or loose clothing near rotating machinery (lathe, mill, drill press, grinder)
+- Cut-resistant gloves for handling parts with sharp edges (removed before operating machines)
+- Back support belts are not a substitute for proper lifting technique or mechanical aids
+
+### Emergency Procedures
+
+- Post emergency stop locations at every machine station and at the end of each production line
+- Maintain first aid station with eye wash, burn treatment, and bandage supplies within 30 seconds walk of every operator
+- Train all operators on machine entanglement response: hit e-stop, do not attempt to pull the victim free from rotating machinery (this causes further injury)
+- Establish clear pedestrian lanes (marked with floor paint) separating foot traffic from forklift and material transport paths
+- Post maximum load limits on all overhead hoists and lifting devices; inspect hoist chains and hooks quarterly
+
 ## See Also
 
 - Machining operations that produce parts to tolerance: [Machining](./machining.md)

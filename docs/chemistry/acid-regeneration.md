@@ -3,7 +3,7 @@
 > **Node ID**: chemistry.acid-regeneration
 > **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`Electrodialysis`](electrodialysis.md)
-> **Enables**: [`Primary Metal Forming`](forming.md)
+> **Enables**: [`Primary Metal Forming`](../metals/forming.md)
 > **Timeline**: Years 25-45
 > **Outputs**: regenerated_acid
 > **Critical**: No
@@ -73,23 +73,30 @@ The core mechanism relies on diffusion dialysis, where spent acid solution flows
 
 ### Process Parameters
 
-| Parameter | Range | Notes |
-|-----------|-------|-------|
-| Membrane type | Anion exchange (diffusion) or bipolar (ED) | Selected for acid/metal pair |
-| Feed acid concentration | Moderate to high | Dilute feeds reduce recovery efficiency |
-| Operating temperature | Ambient to moderate | Higher temps increase flux but reduce membrane life |
-| Recovery rate | 70-95% | Depends on membrane area and residence time |
-| Product purity | Process-dependent | Metal rejection typically >90% |
+| Parameter | Diffusion Dialysis | Electrodialysis | Notes |
+|-----------|-------------------|-----------------|-------|
+| Feed acid concentration | 1-6 M (HCl) or 1-4 M (H₂SO₄) | 0.5-5 M | Higher concentration improves driving force but increases membrane stress |
+| Operating temperature | 15-35°C | 20-45°C | Membranes degrade above 50°C for most polymer types |
+| Feed flow rate | 0.5-3 L/h per m² membrane | 5-20 L/h per m² membrane | Higher flow reduces residence time and recovery |
+| Recovery rate | 70-90% acid recovery | 85-95% acid recovery | Depends on membrane area, feed concentration, and residence time |
+| Metal rejection | 80-95% | 90-99% | Fe, Zn, Cr rejection depends on membrane type and feed pH |
+| Current density (ED mode) | N/A | 10-50 mA/cm² | Limited by concentration polarization at membrane surface |
+| Membrane pair voltage (ED) | N/A | 0.5-2.0 V per cell pair | Rising voltage at constant current signals fouling |
+| Energy consumption (ED) | 0.5-1.0 kWh per kg acid recovered | 1.0-3.0 kWh per kg acid | Depends on feed composition and target purity |
+| Membrane life | 2-5 years | 3-7 years | Shorter in high-metal or high-temperature service |
+| Product acid purity | 80-90% of original concentration | 85-95% of original concentration | Blended with fresh acid to reach process specification |
+| Acid flux (diffusion) | 0.5-2.0 mol/h per m² | N/A | Driven by concentration gradient alone |
+| Water:feed ratio (diffusion) | 1:1 by volume | N/A | Counter-current flow maximizes driving force |
 
 ## Safety Considerations
 
 Working with concentrated spent acid and membrane separation equipment involves hazards that are specific to the acid system being regenerated:
 
-- **Chemical burns**: Concentrated acids cause severe burns on skin contact. Spent pickling acid (hydrochloric, sulfuric, or nitric mixtures) is particularly hazardous because dissolved metals add toxicity to the corrosive effect.
-- **Toxic gas inhalation**: Nitric acid regeneration can release nitrogen oxides. Hydrochloric acid systems generate hydrogen chloride vapor. Both require local exhaust ventilation at all process points.
-- **Electrical hazards**: Electrodialysis units operate at substantial DC voltage across membrane stacks. Ensure all equipment is properly grounded and interlocked. Never service membrane stacks with power applied.
-- **Membrane failure**: Damaged membranes can allow mixing of acid and waste streams, producing unexpected gas evolution or exothermic reactions. Monitor conductivity on both sides of the membrane as a leak detection method.
-- **Environmental contamination**: Spent membranes and metal-bearing waste streams are classified hazardous waste. Segregate and label all waste for proper treatment and disposal.
+- **Chemical burns**: Concentrated acids cause severe burns on skin contact. Spent pickling acid (hydrochloric, sulfuric, or nitric mixtures) is particularly hazardous because dissolved metals add toxicity to the corrosive effect. Hydrochloric acid at >5 M concentration causes immediate skin damage and eye injury within seconds. Sulfuric acid above 4 M dehydrates tissue, causing deep, slow-healing burns. Emergency flushing: 15 minutes continuous water flush for skin contact; 30 minutes for eye contact. Polypropylene or PTFE pipework and valves are required for all acid-wetted surfaces.
+- **Toxic gas inhalation**: Nitric acid regeneration can release nitrogen oxides (NO₂, IDLH 20 ppm, brown gas detectable by color at 5 ppm). Hydrochloric acid systems generate hydrogen chloride vapor (HCl, IDLH 50 ppm, pungent choking odor). Both require local exhaust ventilation at all process points, with minimum 10 air changes per hour in enclosed process areas. Install continuous gas monitors with audible alarms set at 5 ppm for NO₂ and 5 ppm for HCl.
+- **Electrical hazards**: Electrodialysis units operate at substantial DC voltage across membrane stacks (typically 50-300 V, 10-100 A depending on stack size). Ensure all equipment is properly grounded and interlocked. Never service membrane stacks with power applied. Post grounding hooks near the power supply. Lockout/tagout required for all maintenance.
+- **Membrane failure**: Damaged membranes can allow mixing of acid and waste streams, producing unexpected gas evolution or exothermic reactions. Monitor conductivity on both diluate and concentrate outlets continuously. A sudden conductivity change of >10% indicates a membrane breach. Automatic shutdown triggers at >20% conductivity deviation.
+- **Environmental contamination**: Spent membranes and metal-bearing waste streams are classified hazardous waste. Metal concentrations in waste streams must be characterized before disposal: Fe and Zn >5 mg/L, Cr >0.5 mg/L, and Ni >1 mg/L require hazardous waste handling. Segregate and label all waste for proper treatment and disposal.
 
 ### Personal Protective Equipment
 
@@ -140,11 +147,15 @@ Key scaling challenges: membrane fouling from organic contaminants or precipitat
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
-| Low acid recovery | Membrane fouling or insufficient residence time | Clean or replace membranes; increase stack height |
-| High metal carryover | Membrane damage or wrong membrane type | Inspect for pinholes; switch to tighter rejection membrane |
-| Declining flux rate | Scaling or precipitate buildup on membrane surface | Acid wash the membrane stack; improve feed pre-filtration |
-| High energy consumption (ED mode) | Excessive voltage drop across stack | Check membrane condition; reduce electrode gap; clean electrodes |
-| Uneven flow distribution | Blocked flow channels or gasket degradation | Disassemble and clean stack; replace compressed gaskets |
+| Acid recovery below 70% | Membrane fouling, insufficient residence time, or feed too dilute (<1 M) | Clean membranes with 2% NaOH for organic fouling or 5% HCl for scaling; increase stack height or reduce flow rate to increase residence time; pre-concentrate dilute feeds |
+| Metal carryover >10% in product | Membrane pinhole damage or membrane type too permeable for the metal ion size | Pressure-test stack at 0.5 bar to locate leaks; replace damaged membranes; switch to tighter-rejection membrane (e.g., Neosepta ACM for Fe/HCl systems) |
+| Declining flux rate over days | Scaling (CaSO₄, Fe₂(SO₄)₃) or precipitate on membrane surface from pH change | Acid wash stack with 3-5% HCl at 30°C for 2 hours; improve feed pre-filtration to 1-5 μm; adjust feed pH to keep metals in solution |
+| High energy consumption (ED mode, >5 kWh/kg acid) | Excessive voltage drop from membrane fouling or electrode scaling | Clean electrodes and membranes; verify electrode rinse flow (minimum 2 L/min); check for gas bubble accumulation in electrode chambers |
+| Uneven flow distribution between cells | Blocked flow channels from particulate or gasket degradation | Disassemble stack, clean channels with soft brush; replace compressed or torn gaskets; verify spacer alignment during reassembly |
+| Product acid concentration too low for reuse | Feed acid too dilute or water:feed ratio too high (diffusion dialysis) | Pre-concentrate feed by evaporation; reduce dialysate water flow relative to feed; add second diffusion stage in series |
+| Spent membranes discolored (brown/yellow) | Organic contamination from degreasing residues or polymer degradation | Pre-filter feed through activated carbon to remove organics; replace membranes if discoloration persists after cleaning |
+| Stack leaks at gaskets | Gasket compression loss or chemical attack on gasket material | Re-torque stack bolts in cross-pattern to specification; replace nitrile gaskets with EPDM or PTFE-encapsulated gaskets for acid service |
+| pH of regenerated acid drifts upward during storage | Dissolved metals slowly hydrolyzing, consuming H⁺ ions | Use regenerated acid within 48 hours or re-acidify with fresh acid; store in glass-lined or polypropylene tanks, not bare steel |
 
 ## Variations and Alternatives
 
@@ -159,10 +170,10 @@ For very small operations where membrane equipment is not justified, simply neut
 
 ## References
 
-- [Chemistry](chemistry.md) — parent capability
+- [Chemistry](index.md) — parent capability
 - [Chemistry Domain](./index.md) — domain overview and related capabilities
 - [Electrodialysis](electrodialysis.md) — upstream dependency (tool)
-- [Primary Metal Forming](forming.md) — downstream capability
+- [Primary Metal Forming](../metals/forming.md) — downstream capability
 
 The references above link to related capabilities in the tech tree. The acid regeneration capability depends on electrodialysis technology for the membrane separation equipment and is itself a dependency for primary metal forming, which requires pickling acids for surface preparation of formed metal products.
 

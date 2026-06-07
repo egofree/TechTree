@@ -110,6 +110,221 @@ Division of labor is an organizational capability, not a physical production pro
 - Planning meetings consume productive time — limit to 1-2 hours per week
 - Written distribution requires literacy — restricts this model to communities with widespread basic literacy
 
+## Analyzing Workflow for Specialization
+
+Before assigning specialists, analyze the actual production workflow to identify where specialization yields the most gain. This analysis is the difference between effective division of labor and random job assignments.
+
+### Task Time Analysis
+
+11. **Map every step in the production process**: For each product, list every discrete task from raw material to finished good. Time each task with a water clock or shadow marker. Record 5-10 repetitions to get a reliable average.
+
+    Example: Blacksmith producing a knife blade from iron billet:
+
+    | Task | Time (minutes) | Skill Level | Error Rate |
+    |------|:-:|-------------|:-:|
+    | Heat billet in forge | 8-10 | Basic (tending fire) | <2% |
+    | Draw out tang | 3-5 | Moderate (hammer control) | 5-10% |
+    | Shape blade profile | 8-12 | High (precision hammering) | 10-15% |
+    | Bevel edge | 5-8 | High (consistent angle) | 8-12% |
+    | Normalize (reheat + cool) | 15-20 | Basic (timing) | <2% |
+    | Quench | 1-2 | Moderate (speed) | 15-25% (cracking) |
+    | Temper | 30-45 | Moderate (temperature judgment) | 5-10% |
+    | Grind edge | 10-15 | Moderate (consistent pressure) | 5-8% |
+    | Attach handle | 10-15 | Low-moderate | 3-5% |
+    | **Total per blade** | **90-132** | | |
+
+12. **Identify bottleneck tasks**: The task with the longest cumulative time (count × duration) is the bottleneck. Adding a second worker to the bottleneck increases total output more than adding workers to any other step.
+
+    In the knife example, shaping and tempering together consume 38-57 minutes — nearly half the total time. A second worker handling heat-tending and grinding while the primary smith focuses on shaping and beveling increases output by 40-60%.
+
+13. **Calculate specialization gain**: For each candidate split, estimate the productivity ratio:
+
+    ```
+    Throughput with specialization = Workers available / Bottleneck task time per unit
+    Throughput without specialization = Workers available / Total task time per unit
+    Specialization gain = Throughput_with / Throughput_without
+    ```
+
+    A gain below 1.5× is not worth the coordination overhead of splitting the task between workers.
+
+**Decision criteria**: Perform task time analysis when a single worker cannot produce enough to meet demand, or when output quality is inconsistent. Specialize when the calculated gain exceeds 1.5× and the coordination cost (handoff time + quality checking) is less than 20% of the time saved.
+
+**Strengths**:
+- Data-driven specialization — decisions based on measured times, not assumptions
+- Bottleneck identification reveals exactly where to add workers for maximum impact
+- Quantitative gain calculation prevents over-specialization that adds overhead without benefit
+
+**Weaknesses**:
+- Timing data becomes stale as workers gain skill — re-measure every 3-6 months
+- Bottleneck shifts when you add capacity — solving one bottleneck reveals the next
+- Requires a temporary observer — someone must time and record, reducing available labor by 1 during analysis
+
+### Skill Matrix
+
+14. **Rate every worker against every task**: Use a simple 4-level scale:
+    - **3 (Independent)**: Can perform the task unsupervised at target quality and speed
+    - **2 (Supervised)**: Can perform the task with oversight; needs quality checking
+    - **1 (Training)**: Has started learning but cannot yet produce at target quality
+    - **0 (None)**: No exposure to this task
+
+    Example for a 6-worker metal shop:
+
+    | Worker | Forging | Heat Treat | Grinding | Handle Fit | Fire Tending | Charcoal Making |
+    |--------|:-------:|:----------:|:--------:|:----------:|:------------:|:---------------:|
+    | Arkadi | 3 | 3 | 2 | 2 | 1 | 0 |
+    | Brina | 1 | 2 | 3 | 3 | 1 | 0 |
+    | Cato | 0 | 1 | 1 | 2 | 3 | 3 |
+    | Dara | 0 | 0 | 1 | 1 | 3 | 2 |
+    | Elin | 2 | 2 | 2 | 2 | 2 | 1 |
+    | Fenn | 1 | 1 | 2 | 2 | 2 | 2 |
+
+15. **Identify coverage gaps**: Any column without at least two workers rated "3" is a vulnerability — if that one expert is unavailable, production stops. Any column with no workers rated "3" is a training priority.
+
+16. **Assign based on matrix**: Place workers where they have the highest rating. Workers rated "3" in a task own that station. Workers rated "2" rotate through as backup and to build skill. Workers rated "1" train under a "3" for 2-4 hours daily.
+
+    In the example: Arkadi owns forging + heat treat. Brina owns grinding + handle fitting. Cato owns fire tending + charcoal making. Dara backs up Cato and trains on grinding. Elin is the floater — covers any station in a pinch. Fenn trains under Arkadi for forging and backs up charcoal production.
+
+**Decision criteria**: Build a skill matrix as soon as you have more than 3 workers sharing tasks. Update it monthly. Any task column with fewer than two "3" ratings requires immediate cross-training.
+
+## Workshop Organization (5-15 Workers)
+
+A workshop is a single production unit where all workers share the same space and resources. This is the scale at which division of labor first becomes practical.
+
+### Layout
+
+Arrange workstations in production order — material flows in one direction, finished goods exit at the opposite end. Minimize backtracking. For a metalworking workshop:
+
+```
+Fuel Storage → Forge Station → Anvil Station → Grinding Station → Assembly → Finished Goods
+     ↑              ↑              ↑                ↑              ↑
+  Charcoal/     Heat billets    Shape, bevel     Grind edge    Fit handle,
+  coal store    (shared forge)   (2-3 anvils)     (2 grinders)   sharpen
+```
+
+- **Shared resources** (forge, water quench trough) go in the center — all workers need access
+- **Dedicated stations** (anvils, grinders) are spaced 2-3 meters apart to prevent collisions
+- **Material staging** is at the entrance, finished goods at the exit
+- Floor area per worker: 4-8 m² for bench work, 8-15 m² for forge/heavy work
+
+### Scheduling
+
+17. **Stagger start times by role**: The fire-tender starts 30-60 minutes before the smith — the forge must be at temperature before forging begins. The grinder starts when the first blanks come off the anvil (30-60 minutes after the smith begins forging).
+
+18. **Batch similar tasks**: The smith produces 5-10 blade blanks in a forging session (2-3 hours), then switches to heat treatment for the batch. Batching reduces setup time — heating the forge once for multiple blanks rather than individually.
+
+    Forging session schedule for a 3-person shop:
+
+    | Time | Activity | Workers |
+    |------|----------|---------|
+    | 05:00-06:00 | Start forge, prepare charcoal | Fire-tender |
+    | 06:00-08:30 | Forging blades (batch of 8) | Smith + striker |
+    | 08:30-09:30 | Heat treatment (normalize + quench batch) | Smith; fire-tender tends heat |
+    | 09:30-11:30 | Tempering + grinding | Smith, grinder |
+    | 11:30-13:00 | Handle fitting, finishing | All available |
+    | Afternoon | Repeat cycle or custom orders | Rotating |
+
+19. **Track output per session**: Count finished goods at end of each batch cycle. Target: 6-8 finished knife blades per day from a 3-person metal shop (smith + fire-tender + finisher). If output drops below 4/day for 3 consecutive days, investigate: tool wear, material quality, worker fatigue.
+
+## Factory Organization (20-100 Workers)
+
+A factory is multiple workshops coordinated to produce a complex product through sequential specialist steps. The key difference from a workshop: factories have inter-workshop dependencies that require dedicated coordination.
+
+### Department Structure
+
+20. **Divide into production departments by specialization**: Each department is a semi-autonomous workshop with its own foreman. Departments are linked by material flow.
+
+    Example: Tool factory producing iron hand tools for a community of 500:
+
+    | Department | Workers | Output | Downstream Consumer |
+    |------------|:-------:|--------|---------------------|
+    | Charcoal production | 5-8 | 200-400 kg charcoal/day | Smelting dept. |
+    | Ore processing | 3-5 | 500-1,000 kg roasted ore/day | Smelting dept. |
+    | Smelting | 8-12 | 100-200 kg iron billets/day | Forging dept. |
+    | Forging | 10-15 | 30-50 forged blanks/day | Finishing dept. |
+    | Finishing (grinding, heat treat) | 6-10 | 25-40 finished tools/day | Warehouse / market |
+    | Handle/fitting | 4-6 | 25-40 handles/day | Assembly |
+    | Maintenance (tools, equipment) | 2-3 | Repaired equipment | All departments |
+
+21. **Set inter-department throughput targets**: Each department must produce enough output to feed the next department without creating stockpiles or starvation. Calculate daily throughput requirement by working backward from desired finished goods output:
+
+    ```
+    Desired output:          30 finished tools/day
+    Forging yield:           ~85% (some blanks fail heat treat) → forge 35 blanks/day
+    Iron required:           ~2 kg per tool → 70 kg iron billets/day from smelting
+    Ore required:            ~2.5:1 ore-to-iron ratio → 175 kg roasted ore/day
+    Charcoal required:       ~1.5:1 for smelting + ~0.8:1 for forging → 200 kg/day total
+    ```
+
+    If smelting produces only 50 kg/day, it is the bottleneck — the entire factory is limited to ~25 tools/day regardless of forging capacity.
+
+22. **Implement pull-based material flow**: Downstream departments request material from upstream — upstream does not push material without a request. This prevents overproduction and stockpile buildup. Use written material request slips: "Forging department requests 80 kg iron billets, delivery by tomorrow morning."
+
+**Decision criteria**: Transition from workshop to factory when production requires more than 15 workers and more than 3 sequential specialist steps. Appoint a factory coordinator when departments exceed 4 — beyond this, inter-department scheduling conflicts become frequent.
+
+### Throughput Calculation
+
+23. **Measure throughput at each department boundary**: Count units crossing from one department to the next per day. This is the only reliable measure of factory output — internal department activity that does not produce crossable units is waste.
+
+    ```
+    Throughput = Units completed per day × Yield rate at each step
+    Cumulative yield = Product of all step yields
+    ```
+
+    Example: If smelting yields 90%, forging yields 85%, finishing yields 95%:
+    Cumulative yield = 0.90 × 0.85 × 0.95 = 0.727 → 72.7% of raw iron becomes finished tools
+    To get 30 finished tools/day: 30 / 0.727 ≈ 42 units needed at smelting input
+
+24. **Identify and manage the bottleneck department**: The department with the lowest throughput (units/day) sets the factory's maximum output. Adding workers or equipment to non-bottleneck departments does not increase total output — it only creates stockpiles.
+
+    To increase factory output: add capacity to the bottleneck first. After the bottleneck shifts, the next-slowest department becomes the new bottleneck. Repeat. Document bottleneck location on a visible board updated daily — every foreman should know where the constraint is.
+
+## Community-Scale Organization (100-500 People)
+
+At community scale, division of labor operates across multiple independent workshops and factories, coordinated through markets and governance rather than direct management.
+
+25. **Map community labor needs by sector**: Allocate the available workforce across production sectors based on community needs:
+
+    | Sector | Typical Allocation | Workers (community of 300) | Key Output |
+    |--------|:-----------------:|:-------------------------:|------------|
+    | Agriculture | 40-55% | 120-165 | Food surplus |
+    | Metal-working | 8-12% | 24-36 | Tools, hardware |
+    | Construction | 6-10% | 18-30 | Buildings, infrastructure |
+    | Textiles | 6-10% | 18-30 | Cloth, rope, clothing |
+    | Pottery/ceramics | 3-5% | 9-15 | Vessels, bricks, crucibles |
+    | Food processing | 3-5% | 9-15 | Flour, preserved food |
+    | Transport | 3-5% | 9-15 | Goods movement |
+    | Wood-working | 3-5% | 9-15 | Furniture, carts, handles |
+    | Governance/admin | 2-4% | 6-12 | Coordination, records |
+    | Other crafts | 2-5% | 6-15 | Leather, bone, specialized |
+
+26. **Use market signals to adjust allocation**: When a craft's goods are persistently scarce (prices rising, queue times growing), the community needs more specialists in that craft. When goods pile up unsold, the sector is over-staffed. Allow workers to shift sectors based on market conditions — this requires that workers have cross-training in at least one secondary skill.
+
+27. **Maintain a cross-training reserve**: 10-15% of the workforce should have basic competency in at least two sectors. These workers flex between sectors during seasonal peaks (harvest needs everyone; winter allows more craft production) and cover for illness or injury.
+
+**Decision criteria**: At community scale, direct coordination of all workers is impossible. Use market prices and inventory levels as the coordination mechanism — high prices signal "more workers needed here," low prices signal "enough workers, shift elsewhere." Governance intervenes only when a critical sector (food production, tool-making) is under-staffed despite market signals.
+
+## Cross-Training Protocol
+
+28. **Identify cross-training priorities**: From the skill matrix (step 14), cross-training priority is:
+    - **Critical**: Any task with only one worker rated "3" — train a backup immediately
+    - **High**: Any task that is a production bottleneck — cross-training enables flexible labor allocation to the bottleneck
+    - **Medium**: Tasks in the same domain (e.g., forging and heat treatment) — cross-training builds understanding of the overall process
+    - **Low**: Tasks in unrelated domains — only for the flex reserve (10-15% of workforce)
+
+29. **Schedule cross-training in low-demand periods**: Training reduces output — the trainee produces at 40-60% of normal speed while learning. Schedule cross-training during seasonal lulls: winter for construction, post-harvest for agriculture, low-order periods for craft workshops.
+
+30. **Apply the 20% rule**: A cross-trained worker does not need full mastery of the secondary skill. Target: competency to produce at 70-80% of a specialist's speed and quality. This requires roughly 20% of the training time needed for full mastery. For a skill that takes 12 months to master, cross-training to 80% competency takes 2-3 months of part-time practice (2-4 hours/day alongside primary work).
+
+**Strengths**:
+- Cross-training eliminates single points of failure — no production halt from one worker's absence
+- Flex workers can be redeployed to bottlenecks — responsive to demand changes
+- Cross-trained workers understand adjacent steps, improving quality at handoffs
+
+**Weaknesses**:
+- Training time is lost production — costs ~20% of a full specialist's training investment per worker
+- Cross-trained workers may resist returning to their primary specialty after deployment elsewhere
+- Over-cross-training dilutes expertise — a worker who knows 5 tasks at 70% is less valuable than one who knows 2 at 100%
+
 ## Specialization Model Trade-offs
 
 | Model | Productivity Gain | Food Security Risk | Skill Development | Scalability | Best For |

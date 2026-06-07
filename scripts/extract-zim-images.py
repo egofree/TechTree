@@ -363,11 +363,13 @@ def title_matches(expected_title, zim_title, zim_h1, species_id=""):
 # ---------------------------------------------------------------------------
 
 def load_name_map():
-    """Load plant-name-map.json if it exists, return dict or empty."""
+    """Load plant-name-map.json if it exists, return flat {id: zim_slug} dict."""
     if not NAME_MAP_FILE.exists():
         return {}
     try:
-        return json.loads(NAME_MAP_FILE.read_text(encoding="utf-8"))
+        data = json.loads(NAME_MAP_FILE.read_text(encoding="utf-8"))
+        return {m["plants_json_id"]: m["zim_species_name"]
+                for m in data.get("mappings", [])}
     except (json.JSONDecodeError, OSError):
         return {}
 

@@ -98,9 +98,35 @@ The SEM Tech membrane, detailed in [SEM Tech](../chemistry/sem-tech.md), offers 
 
 The Rowow SEM Tech Technical Overview cites a target of approximately $5/kWh for flow battery systems using SEM Tech membranes, compared to $100+/kWh for lithium-ion. This target rests on the membrane cost reduction enabling dramatically cheaper cell stacks, which are the primary cost driver. The $5/kWh figure is a **target and projection**, not a demonstrated cost from deployed systems.
 
-## Membrane Selection for Flow Battery Chemistry
+## Membrane Specifications
 
-Different flow battery chemistries require different membrane types, all achievable by selecting the appropriate resin:
+### Conventional Membranes (Baseline)
+
+| Parameter | Nafion 115 | Nafion 117 | Fumatech FAP-450 | Units |
+|-----------|-----------|-----------|------------------|-------|
+| Thickness (dry) | 125 | 183 | 45-50 | µm |
+| Ion exchange capacity | 0.9-1.0 | 0.9-1.0 | 1.0-1.3 | meq/g dry |
+| Area resistance (in 0.5 M NaCl) | 0.08 | 0.15 | 0.3-0.5 | Ω·cm² |
+| V²⁺ permeability | 2-5 × 10⁻⁷ | 1-3 × 10⁻⁷ | 0.5-1 × 10⁻⁷ | cm²/min |
+| Cost | 300-500 | 400-600 | 100-200 | $/m² |
+| Lifetime in VRFB | 5-8 | 7-10 | 3-5 | years |
+
+Nafion 117 (183 µm thick) is the most common reference membrane for VRFB research. Its perfluorinated backbone provides chemical resistance in strongly oxidizing V⁵⁺ solutions, and the thick cross-section reduces vanadium crossover at the expense of higher ionic resistance. Thinner membranes (Nafion 212 at 51 µm) reduce resistance but increase crossover and shorten lifetime.
+
+### SEM Tech Membrane (Projected)
+
+| Parameter | Target Value | Basis |
+|-----------|-------------|-------|
+| Thickness | 200-500 µm | Controlled by casting knife gap during manufacture |
+| Ion exchange capacity | 1.0-2.0 meq/g | Determined by resin type and loading (40-60% by volume) |
+| Area resistance | 0.5-2.0 Ω·cm² | Higher than Nafion due to PVC/CPVC binder matrix |
+| Material cost | <$10/m² | <$1/ft² per Rowow specification |
+| Resin type for VRFB | Strong acid cation (sulfonic acid) | Permits H⁺ transport, blocks V ions |
+| Chemical resistance | Demonstrated at pH 0, ORP >1.5V | Chlor-alkali testing; V⁵⁺ conditions similar |
+
+The thicker SEM Tech membrane (200-500 µm vs. 50-183 µm for Nafion) compensates for lower intrinsic selectivity with greater diffusion path length. Even if vanadium crossover per unit thickness is 2-3× higher than Nafion, the 2-3× greater thickness can achieve comparable net crossover rates. The trade-off is increased area resistance, which reduces voltage efficiency — acceptable because the sub-$10/m² cost allows aggressive stack over-sizing (add more cell pairs to compensate for per-cell losses).
+
+### Membrane Selection by Chemistry
 
 | Chemistry | Membrane Type | Transport Ion | SEM Tech Resin |
 |-----------|--------------|---------------|----------------|
@@ -118,9 +144,124 @@ A flow battery cell stack consists of multiple cells connected in series, each c
 3. **Membrane**: The ion exchange membrane (SEM Tech membrane in this application) separating the positive and negative electrolyte compartments.
 4. **Gaskets and frames**: Sealing components that define flow channels and prevent leaks. PVC/CPVC construction is compatible with SEM Tech membrane and solvent-welded sealing (as used in SEM Tech electrolysis cells).
 
+### Cell Stack Design Parameters
+
+| Parameter | Typical Range | Notes |
+|-----------|--------------|-------|
+| Active electrode area | 400-2,700 cm² | Commercial: 400 cm² (lab), 800-1,500 cm² (industrial), up to 2,700 cm² (utility) |
+| Current density | 40-160 mA/cm² | 80 mA/cm² is standard operating point; higher = more power per cell but lower voltage efficiency |
+| Voltage per cell (open circuit) | 1.26V at 50% SOC | Range: 1.0V (0% SOC) to 1.6V (100% SOC) — limited to 1.0-1.5V in practice to avoid gas evolution |
+| Voltage per cell (under load, 80 mA/cm²) | 1.05-1.20V (discharge) | Depends on SOC and electrolyte flow rate |
+| Number of cells per stack | 20-60 | 40 cells typical at 80 mA/cm² → ~48V DC nominal |
+| Electrolyte flow rate per cell | 20-100 mL/min per cm² of electrode | Higher flow = better mass transport but more pumping energy |
+| Total electrolyte flow rate (40-cell stack, 800 cm² cells) | 640-3,200 mL/min per half-cell | = 0.64-3.2 L/min per half-cell at 800 cm²; double for both half-cells |
+| Stack operating temperature | 25-40°C | Must stay below 40°C to prevent V₂O₅ precipitation |
+| Stack pressure drop | 20-80 kPa | Across electrode + flow frame; drives pump sizing |
+
+### Electrode Specifications
+
+| Parameter | Carbon Felt (standard) | Carbon Paper | Carbon Cloth |
+|-----------|----------------------|-------------|-------------|
+| Thickness | 3-6 mm (compressed to 2-4 mm in cell) | 0.2-0.4 mm | 0.5-1.0 mm |
+| Porosity | 90-95% | 70-80% | 75-85% |
+| Specific surface area | 0.5-2.0 m²/g | 10-50 m²/g | 1-5 m²/g |
+| Compressive modulus | 50-200 kPa | Rigid | 100-500 kPa |
+| Electrical conductivity (through-plane) | 0.5-5 S/cm | 50-200 S/cm | 5-20 S/cm |
+| Pretreatment | Heat treatment at 400°C for 30h in air (improves wettability and electrochemical activity) | None typically | None typically |
+| Cost | $20-50/m² | $100-300/m² | $50-100/m² |
+
+Carbon felt is the standard electrode for VRFB — its high porosity enables good electrolyte penetration and the relatively low cost is compatible with the target stack economics. Heat treatment at 400°C in air for 30 hours introduces surface oxygen functional groups (C-O, C=O) that improve vanadium ion reaction kinetics and electrolyte wettability. Graphitized carbon felt (heat treated at 2000°C+) offers superior chemical resistance against V⁵⁺ oxidation at the expense of higher cost.
+
+### Bipolar Plate Specifications
+
+| Parameter | Graphite-composite PP | Pure graphite |
+|-----------|----------------------|--------------|
+| Thickness | 3-5 mm | 3-6 mm |
+| Electrical conductivity (in-plane) | 20-100 S/cm | 500-1000 S/cm |
+| Flexural strength | 40-60 MPa | 30-50 MPa |
+| Chemical resistance | Excellent (PP matrix inert to H₂SO₄) | Excellent |
+| Cost | $30-80/m² | $80-200/m² |
+
+### Flow Frame Design
+
+The flow frame defines electrolyte channels and distributes flow across the electrode face. Two common flow patterns:
+
+- **Serpentine flow**: Single continuous channel snaking across the electrode. Uniform distribution, higher pressure drop (40-80 kPa). Easier to machine.
+- **Parallel flow**: Multiple parallel channels with inlet and outlet manifolds. Lower pressure drop (20-40 kPa) but risk of uneven distribution if channels are not identical.
+
+Frame material: PVC or CPVC, compatible with SEM Tech membrane solvent-welded assembly. Frame thickness matches compressed electrode + membrane + gasket stack height (typically 6-12 mm total channel depth).
+
 ## Scaling
 
 Cells are stacked in series to achieve the desired voltage. A 50-cell stack at 1.2V per cell produces 60V. Multiple stacks connect in series/parallel for higher voltage and power. The modular nature means power can be added incrementally by adding cell stacks.
+
+### System Sizing Calculations
+
+The key relationships for flow battery sizing:
+
+**Energy (kWh) = Electrolyte volume (m³) × Energy density (kWh/m³)**
+
+For 1.6 M vanadium electrolyte at 80% SOC window (10-90%):
+- Theoretical energy density: 1.6 mol/L × 2 electrons × 96,485 C/mol × 1.26V / 3.6 × 10⁶ = 25.3 Wh/L = **25.3 kWh/m³**
+- Practical energy density (accounting for 80% SOC window, 75% round-trip efficiency): **~15-18 kWh/m³**
+- At 2.0 M vanadium: **~19-22 kWh/m³** practical
+
+**Power (kW) = Cells × Active area (cm²) × Current density (mA/cm²) × Cell voltage (V) / 1,000,000**
+
+### Sizing Example: 250 kW / 1 MWh System (4-hour duration)
+
+| Parameter | Value | Calculation |
+|-----------|-------|-------------|
+| Energy storage | 1 MWh | Design target |
+| Duration | 4 hours | Grid storage application |
+| Rated power | 250 kW | 1 MWh ÷ 4 h |
+| Electrolyte volume (total, both halves) | 56 m³ (56,000 L) | 1 MWh ÷ 18 kWh/m³ |
+| Tank volume per half-cell | 28 m³ each | With 10% headspace: 31 m³ tanks |
+| Tank dimensions (cylindrical) | 3 m diameter × 4.4 m height each | HDPE or rubber-lined steel |
+| Cell active area | 1,000 cm² | Commercial size |
+| Current density | 80 mA/cm² | Standard operating point |
+| Power per cell | 96 W | 1,000 cm² × 80 mA/cm² × 1.2V |
+| Number of cells | 2,600 | 250,000 W ÷ 96 W/cell |
+| Cells per stack | 52 | 52 × 1.2V = 62.4V DC per stack |
+| Number of stacks | 50 | 2,600 cells ÷ 52 cells/stack |
+| Stack current | 80 A | 1,000 cm² × 0.08 A/cm² |
+| Stack power | 5.0 kW | 52 cells × 96 W |
+| Electrolyte flow rate per stack (each half-cell) | 3.2 L/min at 40 mA/cm² equiv. | Sufficient for mass transport at 80 mA/cm² |
+| Total pump flow (all stacks) | 160 L/min per half-cell | 50 stacks × 3.2 L/min |
+| Pump power | ~5 kW (both pumps) | 2% of stored energy per cycle |
+| Membrane area (total) | 26 m² | 2,600 cells × 0.1 m² |
+| SEM Tech membrane cost | ~$260 | 26 m² × $10/m² |
+| Nafion 117 cost (comparison) | ~$13,000 | 26 m² × $500/m² |
+| Vanadium electrolyte cost | ~$130,000-200,000 | 56 m³ at $2,300-3,600/m³ (V price dependent) |
+
+### Sizing Example: 10 kW / 40 kWh Workshop System
+
+| Parameter | Value |
+|-----------|-------|
+| Energy storage | 40 kWh |
+| Duration | 4 hours |
+| Electrolyte volume (both halves) | 2.2 m³ (2,200 L) |
+| Tank volume per half-cell | 1.1 m³ each (1.0 m × 1.0 m × 1.1 m HDPE tanks) |
+| Cell active area | 400 cm² |
+| Current density | 80 mA/cm² |
+| Power per cell | 38.4 W |
+| Number of cells | 260 |
+| Cells per stack | 52 |
+| Number of stacks | 5 |
+| Stack voltage | 62.4V DC |
+| Electrolyte flow rate per stack | 1.3 L/min per half-cell |
+| Pump power | ~0.8 kW |
+| Membrane area (total) | 2.6 m² |
+
+### Pump Sizing
+
+Pump selection criteria:
+
+- **Flow rate**: Sized for 1.5-2.0× stoichiometric minimum flow (excess flow ensures uniform concentration distribution). For 80 mA/cm² on 1,000 cm² cells: minimum stoichiometric flow = cell current ÷ (n × F × ΔC) ≈ 80 A ÷ (2 × 96485 × 0.1 mol/L) ≈ 4.1 mL/s = 0.25 L/min per cell. Practical flow: 1.5-3.0× this = 0.4-0.75 L/min per cell.
+- **Head pressure**: 20-80 kPa (stack pressure drop) + 10-30 kPa (piping, fittings, elevation) = 30-110 kPa total.
+- **Pump type**: Magnetic-drive centrifugal pump (seal-less, prevents electrolyte leakage). Wetted parts: PVDF or PP impeller, ceramic shaft.
+- **Number of pumps**: One per half-cell (two pumps total per system). Positive and negative electrolyte pumps must not be cross-connected.
+- **Pump energy overhead**: 2-5% of stored energy. If overhead exceeds 5%, reduce flow rate (accept slightly lower voltage efficiency) or increase pipe diameter to reduce pressure drop.
 
 ## Flow Frame Design Considerations
 
@@ -136,6 +277,58 @@ Vanadium electrolyte is typically produced from vanadium pentoxide (V₂O₅) di
 3. Electrolytically charge to produce V²⁺ (negative) and V⁵⁺ (positive) half-cell electrolytes
 
 Vanadium sourcing: Vanadium is produced from vanadium-bearing magnetite ores, as a byproduct of uranium mining, or from petroleum residues (vanadium porphyrins in crude oil). World production is approximately 100,000 tonnes per year.
+
+## Electrolyte Formulation
+
+### Standard VRFB Electrolyte (1.6 M Vanadium)
+
+The baseline commercial electrolyte formulation, used in systems from Sumitomo, Rongke Power, and UniEnergy Technologies:
+
+| Component | Concentration | Mass per liter of electrolyte | Source |
+|-----------|--------------|-------------------------------|--------|
+| VOSO₄ (vanadyl sulfate) | 1.6 M V | ~260 g VOSO₄·xH₂O (anhydrous basis) | Vanadium pentoxide reduction |
+| H₂SO₄ (sulfuric acid) | 2.5 M | ~245 g H₂SO₄ (245 mL conc. 98% acid) | [Contact process](../chemistry/sulfuric-acid.md) |
+| H₂O | Balance | ~700 g | Deionized |
+| Phosphoric acid (stabilizer) | 0.05-0.1 M | ~5-10 g H₃PO₄ | Prevents V₂O₅ precipitation above 35°C |
+
+**Mixing procedure (100 L batch):**
+
+1. Add 60 L deionized water to HDPE or PVC-lined mixing tank
+2. Slowly add 24.5 L concentrated H₂SO₄ (98%, density 1.84 g/mL) with stirring — exothermic, temperature rises to 60-80°C. Cool to 40°C before proceeding
+3. Add 26 kg VOSO₄·nH₂O (anhydrous equivalent) in 2-kg portions, stirring until dissolved (30-60 minutes total). Solution turns blue (V⁴⁺ state)
+4. Add 0.5-1.0 kg H₃PO₄ as thermal stabilizer
+5. Adjust final volume to 100 L with deionized water
+6. Verify vanadium concentration by titration: titrate 1.00 mL electrolyte with 0.1 M KMnO₄ to pink endpoint. Target: 15.5-16.5 mL KMnO₄ consumed (confirms 1.55-1.65 M V)
+7. Verify acid concentration by density measurement: target 1.25-1.30 g/mL at 25°C
+
+**Alternative: electrolytic reduction from V₂O₅**
+
+V₂O₅ is less expensive than VOSO₄ but insoluble in 2.5 M H₂SO₄ without reduction. Dissolve V₂O₅ (181 g per 100 L) in 4-5 M H₂SO₄ with oxalic acid (1:1 molar ratio with V₂O₅) at 60°C, then dilute to target H₂SO₄ concentration. The oxalic acid reduces V⁵⁺ to V⁴⁺ exothermically:
+
+V₂O₅ + H₂C₂O₄ + 2H₂SO₄ → 2VOSO₄ + 2CO₂ + 3H₂O
+
+### High-Energy Electrolyte (2.0 M Vanadium)
+
+For applications where tank volume is constrained. Requires active thermal management to prevent V₂O₅ precipitation:
+
+| Component | Concentration | Notes |
+|-----------|--------------|-------|
+| VOSO₄ | 2.0 M V | Requires >99.5% purity; Fe, Cr, Si <100 ppm each |
+| H₂SO₄ | 3.0 M | Higher acid suppresses V₂O₅ precipitation to ~45°C |
+| H₃PO₄ | 0.1-0.15 M | Mandatory — without stabilizer, precipitates above 30°C |
+| Operating range | 10-40°C | Strict temperature control required |
+
+Energy density: ~35 Wh/L (theoretical, at 100% SOC and 1.4V average cell voltage). Practical: ~25-30 Wh/L accounting for SOC window limitations (typically 10-90% SOC to avoid gas evolution at extremes).
+
+### Vanadium Purity Requirements
+
+| Impurity | Maximum | Effect if exceeded |
+|----------|---------|-------------------|
+| Iron (Fe) | 100 ppm | Reduces coulombic efficiency via parasitic Fe²⁺/Fe³⁺ redox |
+| Chromium (Cr) | 50 ppm | Alters negative half-cell reaction kinetics |
+| Silicon (Si) | 100 ppm | Precipitates as silicate, fouls membrane |
+| Aluminum (Al) | 100 ppm | Precipitates as Al₂(SO₄)₃ at lower temperatures |
+| Organic carbon | 50 ppm | Reduces V⁵⁺, causes gas evolution during charging |
 
 ## Electrolyte Cost
 

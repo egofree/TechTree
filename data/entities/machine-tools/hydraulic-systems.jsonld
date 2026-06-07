@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Design, construction, and maintenance of hydraulic power systems for machine tools: presses, clamping, feed drives, and hydraulic circuit integration with CNC controls.",
+  "early_win": false,
+  "id": "machine-tools.hydraulic-systems",
+  "level": "capability",
+  "name": "Hydraulic Systems for Machine Tools",
+  "outputs": [
+    "hydraulic-press-systems",
+    "hydraulic-clamping-systems",
+    "hydraulic-feed-systems"
+  ],
+  "parent": "machine-tools",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

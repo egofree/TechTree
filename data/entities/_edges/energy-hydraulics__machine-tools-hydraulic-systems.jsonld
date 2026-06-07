@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.hydraulics__machine-tools.hydraulic-systems",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.hydraulics",
+  "to": "machine-tools.hydraulic-systems"
+}

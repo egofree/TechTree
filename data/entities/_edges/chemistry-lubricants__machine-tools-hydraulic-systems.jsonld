@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.lubricants__machine-tools.hydraulic-systems",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "chemistry.lubricants",
+  "to": "machine-tools.hydraulic-systems"
+}

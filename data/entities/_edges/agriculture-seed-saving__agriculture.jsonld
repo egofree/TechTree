@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/agriculture.seed-saving__agriculture",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "agriculture.seed-saving",
+  "to": "agriculture",
+  "label": "Seed saving builds on basic agriculture"
+}

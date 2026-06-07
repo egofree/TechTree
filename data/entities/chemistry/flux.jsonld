@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Production of welding and metallurgical fluxes from borax, limestone, fluorspar, and rosin to prevent oxidation and improve joint quality during metal joining and casting.",
+  "early_win": false,
+  "id": "chemistry.flux",
+  "level": "capability",
+  "name": "Flux Production",
+  "outputs": [
+    "borax-flux",
+    "limestone-flux",
+    "fluorspar-flux",
+    "rosin-flux"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "bronze-age",
+    "material": [
+      "chemicals",
+      "stone"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-15"
+}

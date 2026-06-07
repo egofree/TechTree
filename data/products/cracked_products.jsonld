@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cracked_products",
+  "@type": "Product",
+  "name": "Cracked Products",
+  "source": "energy.refining",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

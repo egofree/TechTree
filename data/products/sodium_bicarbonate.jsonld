@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sodium_bicarbonate",
+  "@type": "Product",
+  "name": "Sodium Bicarbonate",
+  "source": "chemistry.solvay",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

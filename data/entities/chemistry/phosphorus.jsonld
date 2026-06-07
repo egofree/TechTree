@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Extraction of phosphorus from phosphate rock via acidulation or thermal reduction, and production of phosphoric acid and phosphate fertilizers. Phosphorus compounds are essential for agriculture (fertilizer), food additives, detergents, and semiconductor doping. The phosphorus cycle is a key civilizational bottleneck.",
+  "early_win": false,
+  "id": "chemistry.phosphorus",
+  "level": "capability",
+  "name": "Phosphorus and Phosphate Chemistry",
+  "outputs": [
+    "phosphoric-acid",
+    "phosphate-fertilizer",
+    "phosphorus-compounds"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

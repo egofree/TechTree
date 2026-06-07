@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/defense__food-processing.canning",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "defense",
+  "to": "food-processing.canning",
+  "label": "Military logistics depends on canned rations"
+}

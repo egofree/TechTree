@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "distribution_panels",
+  "@type": "Product",
+  "name": "Distribution Panels",
+  "source": "energy.power-distribution",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

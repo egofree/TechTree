@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "residual_metals",
+  "@type": "Product",
+  "name": "Residual Metals",
+  "source": "mining.tailings-reprocessing",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

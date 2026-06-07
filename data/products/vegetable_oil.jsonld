@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "vegetable_oil",
+  "@type": "Product",
+  "name": "Vegetable Oil",
+  "source": "food-processing.oil-processing",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

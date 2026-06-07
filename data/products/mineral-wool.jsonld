@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mineral-wool",
+  "@type": "Product",
+  "name": "Mineral Wool",
+  "source": "ceramics.thermal-insulation",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "glass",
+      "ceramics"
+    ]
+  }
+}

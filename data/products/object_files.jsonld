@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "object_files",
+  "@type": "Product",
+  "name": "Object Files",
+  "source": "software-bootstrapping.assemblers",
+  "tags": {
+    "material": [],
+    "capability": [
+      "computing"
+    ]
+  }
+}

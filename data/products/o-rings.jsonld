@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "o-rings",
+  "@type": "Product",
+  "name": "O Rings",
+  "source": "polymers.seals-gaskets",
+  "tags": {
+    "material": [
+      "polymers"
+    ]
+  }
+}

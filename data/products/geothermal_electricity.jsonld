@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "geothermal_electricity",
+  "@type": "Product",
+  "name": "Geothermal Electricity",
+  "source": "energy.geothermal",
+  "tags": {
+    "material": [],
+    "capability": [
+      "energy"
+    ]
+  }
+}

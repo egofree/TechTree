@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "leaf_springs",
+  "@type": "Product",
+  "name": "Leaf Springs",
+  "source": "metals.springs",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Conversion of organic material \u2014 wood, agricultural residues, animal manure \u2014 into heat, combustible gas (biogas, producer gas), or liquid fuels via anaerobic digestion, thermochemical gasification, and direct combustion. The only renewable energy source that can be stored indefinitely and dispatched on demand.",
+  "early_win": true,
+  "early_win_note": "A 6 m3 biogas digester produces cooking gas from animal waste within weeks of construction",
+  "id": "energy.biomass-energy",
+  "level": "capability",
+  "name": "Biomass Energy",
+  "outputs": [
+    "biogas",
+    "producer_gas",
+    "biofuel",
+    "biomass_heat",
+    "biomass_electricity"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-30"
+}

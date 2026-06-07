@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "alkyd-paints",
+  "@type": "Product",
+  "name": "Alkyd Paints",
+  "source": "chemistry.paint",
+  "tags": {
+    "capability": [],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

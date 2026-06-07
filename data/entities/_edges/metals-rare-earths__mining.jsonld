@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/metals.rare-earths__mining",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "metals.rare-earths",
+  "to": "mining"
+}

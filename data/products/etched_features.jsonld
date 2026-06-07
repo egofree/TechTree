@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "etched_features",
+  "@type": "Product",
+  "name": "Etched Features",
+  "source": "photolithography.fab-processes.plasma-etching",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

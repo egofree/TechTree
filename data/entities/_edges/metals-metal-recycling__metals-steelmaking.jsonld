@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/metals.metal-recycling__metals.steelmaking",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "metals.metal-recycling",
+  "to": "metals.steelmaking",
+  "label": "Metal recycling uses steelmaking infrastructure for remelting"
+}

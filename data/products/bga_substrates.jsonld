@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "bga_substrates",
+  "@type": "Product",
+  "name": "BGA Substrates",
+  "source": "electronics.packaging",
+  "tags": {
+    "material": [
+      "ceramics",
+      "metals"
+    ]
+  }
+}

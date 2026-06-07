@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Without agreed standards, every workshop produces incompatible parts and inter-settlement trade in manufactured goods collapses",
+  "description": "Organizational mechanisms for creating, maintaining, and enforcing common specifications: screw threads, material grades, electrical voltages, drawing conventions, and measurement units. The machinery of consensus, documentation, revision, and compliance.",
+  "early_win": false,
+  "id": "knowledge.standards-bodies",
+  "level": "capability",
+  "name": "Standards Bodies",
+  "outputs": [
+    "technical_standards",
+    "measurement_standards",
+    "quality_standards",
+    "interoperability_specifications"
+  ],
+  "parent": "knowledge",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "organization",
+      "measurement"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-200+"
+}

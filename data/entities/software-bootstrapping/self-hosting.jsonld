@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "The moment a compiler compiles itself is the moment the software chain becomes self-sustaining; no further assembly or machine code needed",
+  "description": "Transition from a cross-compiled toolchain to a self-hosting compiler that can compile its own source code. The keystone of the software bootstrap chain: once achieved, the compiler is self-sustaining and can be improved using only its own language.",
+  "early_win": false,
+  "id": "software-bootstrapping.self-hosting",
+  "level": "capability",
+  "name": "Self-Hosting Compiler Bootstrap",
+  "outputs": [
+    "self_hosting_compiler"
+  ],
+  "parent": "software-bootstrapping",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "electronic",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 55-70"
+}

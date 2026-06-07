@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "high_level_languages",
+  "@type": "Product",
+  "name": "High Level Languages",
+  "source": "software-bootstrapping.compilers",
+  "tags": {
+    "material": [],
+    "capability": [
+      "computing"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "biomass_heat",
+  "@type": "Product",
+  "name": "Biomass Heat",
+  "source": "energy.biomass-energy",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

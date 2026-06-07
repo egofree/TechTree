@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "leadframes",
+  "@type": "Product",
+  "name": "Leadframes",
+  "source": "electronics.packaging",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

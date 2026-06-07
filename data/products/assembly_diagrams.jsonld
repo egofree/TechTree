@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "assembly_diagrams",
+  "@type": "Product",
+  "name": "Assembly Diagrams",
+  "source": "knowledge.technical-drawing",
+  "tags": {
+    "material": []
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/metals.copper-refining__chemistry.electrolysis",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "metals.copper-refining",
+  "to": "chemistry.electrolysis"
+}

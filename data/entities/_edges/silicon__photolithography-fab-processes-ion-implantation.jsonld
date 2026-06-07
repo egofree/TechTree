@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/silicon__photolithography.fab-processes.ion-implantation",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "silicon",
+  "to": "photolithography.fab-processes.ion-implantation"
+}

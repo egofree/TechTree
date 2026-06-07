@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/food-processing.brewing__food-processing.fermentation",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "food-processing.brewing",
+  "to": "food-processing.fermentation",
+  "label": "Brewing builds on fermentation fundamentals"
+}

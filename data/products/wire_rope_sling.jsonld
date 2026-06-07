@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "wire_rope_sling",
+  "@type": "Product",
+  "name": "Wire Rope Sling",
+  "source": "metals.wire-rope",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/software-bootstrapping.dev-tools__software-bootstrapping.self-hosting",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "software-bootstrapping.dev-tools",
+  "to": "software-bootstrapping.self-hosting",
+  "label": "Dev tools depend on self-hosting compiler chain"
+}

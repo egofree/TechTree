@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "seed_stock",
+  "@type": "Product",
+  "name": "Seed Stock",
+  "source": "agriculture.seed-saving",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

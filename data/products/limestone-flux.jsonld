@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "limestone-flux",
+  "@type": "Product",
+  "name": "Limestone Flux",
+  "source": "chemistry.flux",
+  "tags": {
+    "capability": [],
+    "material": [
+      "stone",
+      "chemicals"
+    ]
+  }
+}

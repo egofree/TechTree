@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "recovered_catalysts",
+  "@type": "Product",
+  "name": "Recovered Catalysts",
+  "source": "chemistry.chemical-recovery",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

@@ -4,7 +4,7 @@
   "critical": false,
   "description": "Reactive ion etching (RIE) and deep reactive ion etching (DRIE) using fluorocarbon, sulfur hexafluoride, and chlorine-based plasmas. Covers RIE reactor design (parallel plate, ICP), plasma generation (RF 13.56 MHz, ICP), etch chemistries (CF₄, SF₆, Cl₂, BCl₃), selectivity and aspect ratio control, DRIE Bosch process for high-aspect-ratio features, and etch rate monitoring (OES endpoint detection).",
   "early_win": false,
-  "id": "photolithography.plasma-etching",
+  "id": "photolithography.fab-processes.plasma-etching",
   "level": "process",
   "name": "Plasma Etching (RIE & DRIE)",
   "outputs": [

@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fluorspar-flux",
+  "@type": "Product",
+  "name": "Fluorspar Flux",
+  "source": "chemistry.flux",
+  "tags": {
+    "capability": [],
+    "material": [
+      "chemicals",
+      "stone"
+    ]
+  }
+}

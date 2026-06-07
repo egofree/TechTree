@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "construction_sand",
+  "@type": "Product",
+  "name": "Construction Sand",
+  "source": "mining.tailings-reprocessing",
+  "tags": {
+    "material": [
+      "stone"
+    ],
+    "capability": [
+      "construction"
+    ]
+  }
+}

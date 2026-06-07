@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "rare-earth-oxides",
+  "@type": "Product",
+  "name": "Rare Earth Oxides",
+  "source": "metals.rare-earths",
+  "tags": {
+    "material": []
+  }
+}

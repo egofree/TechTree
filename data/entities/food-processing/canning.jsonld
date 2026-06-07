@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Only reliable multi-year food storage method preserving complete nutrition without refrigeration, enabling urban workforce concentration and long-distance food logistics",
+  "description": "Thermal sterilization of food in hermetically sealed containers (glass jars or tinplate cans) to destroy all viable microorganisms, providing shelf-stable preservation for 2-5 years at ambient temperature without refrigeration.",
+  "early_win": false,
+  "id": "food-processing.canning",
+  "level": "capability",
+  "name": "Canning & Thermal Sterilization",
+  "outputs": [
+    "canned_food",
+    "retort_pouched_food",
+    "sterilized_food",
+    "sealed_containers"
+  ],
+  "parent": "food-processing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals",
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-30"
+}

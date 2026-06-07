@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "geothermal_heat",
+  "@type": "Product",
+  "name": "Geothermal Heat",
+  "source": "energy.geothermal",
+  "tags": {
+    "material": [],
+    "capability": [
+      "energy"
+    ]
+  }
+}

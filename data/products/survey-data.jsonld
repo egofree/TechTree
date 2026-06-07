@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "survey-data",
+  "@type": "Product",
+  "name": "Survey Data",
+  "source": "knowledge.surveying",
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "material": []
+  }
+}

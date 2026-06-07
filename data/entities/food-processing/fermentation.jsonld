@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Non-alcoholic food fermentation using lactic acid bacteria, molds, and acetic acid bacteria to transform raw foods into more stable, nutritious products: sauerkraut, soy sauce, tempeh, vinegar, sourdough bread, and pickled vegetables.",
+  "early_win": true,
+  "early_win_note": "Sauerkraut and yogurt can be produced within days using only salt and existing microbial cultures",
+  "id": "food-processing.fermentation",
+  "level": "capability",
+  "name": "Food Fermentation",
+  "outputs": [
+    "sourdough_bread",
+    "sauerkraut",
+    "kimchi",
+    "soy_sauce",
+    "miso",
+    "tempeh",
+    "pickles",
+    "vinegar"
+  ],
+  "parent": "food-processing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-15"
+}

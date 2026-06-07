@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Without rotation, continuous cropping depletes soil in 3-5 years, making long-term agriculture impossible",
+  "description": "Planned sequencing of grain, legume, and fallow phases across fields to maintain soil fertility through biological nitrogen fixation, break pest cycles, and sustain crop yields indefinitely without synthetic fertilizer inputs.",
+  "early_win": true,
+  "early_win_note": "Even a simple 3-field rotation sustains yields at 1.5x continuous cropping within the first cycle",
+  "id": "agriculture.crop-rotation",
+  "level": "capability",
+  "name": "Crop Rotation & Nutrient Cycling",
+  "outputs": [
+    "sustained_soil_fertility",
+    "nitrogen_fixation",
+    "diversified_crops"
+  ],
+  "parent": "agriculture",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-10+"
+}

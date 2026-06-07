@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "recycled_aluminum",
+  "@type": "Product",
+  "name": "Recycled Aluminum",
+  "source": "metals.metal-recycling",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

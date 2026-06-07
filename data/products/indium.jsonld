@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "indium",
+  "@type": "Product",
+  "name": "Indium",
+  "source": "metals.rare-earths",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "operating_system",
+  "@type": "Product",
+  "name": "Operating System",
+  "source": "software-bootstrapping.operating-systems",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "computing"
+    ]
+  }
+}

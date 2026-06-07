@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tio2-pigments",
+  "@type": "Product",
+  "name": "TiO2 Pigments",
+  "source": "chemistry.paint",
+  "tags": {
+    "capability": [],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

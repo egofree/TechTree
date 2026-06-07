@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "archival_media",
+  "@type": "Product",
+  "name": "Archival Media",
+  "source": "knowledge.information-durability",
+  "tags": {
+    "material": []
+  }
+}

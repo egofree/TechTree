@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/metals.wire-rope__metals.wire-drawing",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "metals.wire-rope",
+  "to": "metals.wire-drawing"
+}

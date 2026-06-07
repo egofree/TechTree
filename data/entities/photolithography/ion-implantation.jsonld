@@ -4,7 +4,7 @@
   "critical": false,
   "description": "Precision doping by accelerating ionized dopant species (B⁺, BF₂⁺, P⁺, As⁺) into silicon wafers using a particle accelerator chain: ion source, mass analyzer, acceleration column, and beam scanning system. Replaces thermal diffusion with independent control of dose (10¹¹ to 10¹⁶ ions/cm²) and junction depth (10 to 1000 nm via energy selection from 10 keV to several MeV). Requires high-voltage power, toxic dopant gas handling, and high-vacuum beam lines.",
   "early_win": false,
-  "id": "photolithography.ion-implantation",
+  "id": "photolithography.fab-processes.ion-implantation",
   "level": "process",
   "name": "Ion Implantation",
   "outputs": [

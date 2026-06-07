@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "recycled_copper",
+  "@type": "Product",
+  "name": "Recycled Copper",
+  "source": "metals.metal-recycling",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

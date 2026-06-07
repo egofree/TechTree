@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "bus_architecture",
+  "@type": "Product",
+  "name": "Bus Architecture",
+  "source": "computing.computer-architecture",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ],
+    "capability": [
+      "computing"
+    ]
+  }
+}

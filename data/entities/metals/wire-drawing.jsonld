@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Drawing metal rod through progressively smaller dies to produce wire of specified gauge from copper, steel, and other metals.",
+  "early_win": false,
+  "id": "metals.wire-drawing",
+  "level": "capability",
+  "name": "Wire Drawing",
+  "outputs": [
+    "drawn-wire",
+    "copper-wire",
+    "steel-wire",
+    "fine-gauge-wire"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 8-18"
+}

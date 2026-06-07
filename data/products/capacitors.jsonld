@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "capacitors",
+  "@type": "Product",
+  "name": "Capacitors",
+  "source": "electronics.passive-components",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

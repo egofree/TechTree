@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Recovery of metal from end-of-life products, manufacturing offcuts, and demolition debris through sorting, preparation, and remelting. Uses 5-95% less energy than primary production depending on metal: aluminum 5%, steel 25-35%, copper 15-20%.",
+  "early_win": false,
+  "id": "metals.metal-recycling",
+  "level": "capability",
+  "name": "Metal Scrap Recycling",
+  "outputs": [
+    "recycled_steel",
+    "recycled_copper",
+    "recycled_aluminum",
+    "secondary_metal_feedstock"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "recyclable",
+      "recycled-feedstock",
+      "closed-loop"
+    ],
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-50+"
+}

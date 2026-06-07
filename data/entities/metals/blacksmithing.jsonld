@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Hand forging of iron and steel into tools, hardware, and structural fittings using hammer, anvil, and hearth. Blacksmithing transforms bloomery iron and wrought iron into functional implements — hammers, chisels, hinges, brackets, chains, and agricultural tools — without requiring powered machinery.",
+  "early_win": true,
+  "id": "metals.blacksmithing",
+  "level": "capability",
+  "name": "Blacksmithing",
+  "outputs": [
+    "hand-forged-tools",
+    "hardware-fittings",
+    "wrought-iron-goods"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": true,
+    "era": "iron-age",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-15"
+}

@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/knowledge.education-pathways__knowledge.education",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "knowledge.education-pathways",
+  "to": "knowledge.education",
+  "label": "Education pathways structure education institutions"
+}

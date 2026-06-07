@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sulfuric_acid_precursor",
+  "@type": "Product",
+  "name": "Sulfuric Acid Precursor",
+  "source": "mining.sulfur-extraction",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

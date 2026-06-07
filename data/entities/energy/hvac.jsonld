@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Heating, ventilation, and air conditioning systems for industrial environments, including cleanrooms and precision manufacturing facilities.",
+  "early_win": false,
+  "id": "energy.hvac",
+  "level": "capability",
+  "name": "HVAC for General Industry",
+  "outputs": [
+    "hvac-systems",
+    "industrial-ventilation",
+    "climate-control-units"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "cooling",
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

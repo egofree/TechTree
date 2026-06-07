@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pcb_bare_boards",
+  "@type": "Product",
+  "name": "Pcb Bare Boards",
+  "source": "electronics.pcb-fabrication",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -4,7 +4,7 @@
   "critical": false,
   "description": "Chemical vapor deposition of thin films (SiO₂, Si₃N₄, polysilicon, tungsten) from gas-phase precursors using APCVD (350-500°C), LPCVD (550-900°C), or PECVD (200-400°C). Gas-phase reactants decompose or react at the substrate surface, depositing conformal films for gate electrodes, interlayer dielectrics, passivation, and contact fills.",
   "early_win": false,
-  "id": "photolithography.cvd",
+  "id": "photolithography.fab-processes.cvd",
   "level": "process",
   "name": "Chemical Vapor Deposition",
   "outputs": [

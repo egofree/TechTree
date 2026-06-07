@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Extraction and separation of rare earth elements (REE) and specialty metals — gallium, indium, germanium, neodymium — from mineral ores through acid leaching, solvent extraction, and ion exchange. These elements are critical for permanent magnets, semiconductors, LEDs, photovoltaics, and phosphors.",
+  "early_win": false,
+  "id": "metals.rare-earths",
+  "level": "capability",
+  "name": "Rare Earth and Specialty Elements",
+  "outputs": [
+    "gallium",
+    "indium",
+    "germanium",
+    "neodymium",
+    "rare-earth-oxides"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

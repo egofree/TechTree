@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/knowledge.information-durability__knowledge.standards-bodies",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "knowledge.information-durability",
+  "to": "knowledge.standards-bodies",
+  "label": "Information durability relies on preservation standards"
+}

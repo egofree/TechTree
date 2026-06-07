@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "assembly_language",
+  "@type": "Product",
+  "name": "Assembly Language",
+  "source": "software-bootstrapping.assemblers",
+  "tags": {
+    "material": [],
+    "capability": [
+      "computing"
+    ]
+  }
+}

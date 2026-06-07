@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "precision_gears",
+  "@type": "Product",
+  "name": "Precision Gears",
+  "source": "measurement.horology",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

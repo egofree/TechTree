@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "phosphate-fertilizer",
+  "@type": "Product",
+  "name": "Phosphate Fertilizer",
+  "source": "chemistry.phosphorus",
+  "tags": {
+    "material": ["chemicals", "biomass"]
+  }
+}

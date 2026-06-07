@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sterilized_food",
+  "@type": "Product",
+  "name": "Sterilized Food",
+  "source": "food-processing.canning",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/knowledge.information-durability__knowledge.libraries",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "knowledge.information-durability",
+  "to": "knowledge.libraries",
+  "label": "Information durability builds on library preservation"
+}

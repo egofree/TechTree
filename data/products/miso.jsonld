@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "miso",
+  "@type": "Product",
+  "name": "Miso",
+  "source": "food-processing.fermentation",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

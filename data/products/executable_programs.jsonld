@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "executable_programs",
+  "@type": "Product",
+  "name": "Executable Programs",
+  "source": "software-bootstrapping.assemblers",
+  "tags": {
+    "material": [],
+    "capability": [
+      "computing"
+    ]
+  }
+}

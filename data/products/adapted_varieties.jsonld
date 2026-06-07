@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "adapted_varieties",
+  "@type": "Product",
+  "name": "Locally Adapted Varieties",
+  "source": "agriculture.seed-saving",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

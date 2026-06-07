@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "foam-insulation",
+  "@type": "Product",
+  "name": "Foam Insulation",
+  "source": "ceramics.thermal-insulation",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "polymers"
+    ]
+  }
+}

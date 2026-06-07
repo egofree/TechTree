@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "practitioner_ladders",
+  "@type": "Product",
+  "name": "Practitioner Ladders",
+  "source": "knowledge.education-pathways",
+  "tags": {
+    "material": []
+  }
+}

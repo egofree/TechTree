@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pickles",
+  "@type": "Product",
+  "name": "Pickles",
+  "source": "food-processing.fermentation",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

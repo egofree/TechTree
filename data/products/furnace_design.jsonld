@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "furnace_design",
+  "@type": "Product",
+  "name": "Furnace Design",
+  "source": "energy.furnace-design",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

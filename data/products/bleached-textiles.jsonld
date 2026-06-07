@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "bleached-textiles",
+  "@type": "Product",
+  "name": "Bleached Textiles",
+  "source": "chemistry.bleaching",
+  "tags": {
+    "capability": [],
+    "material": [
+      "fibers",
+      "chemicals"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "furniture",
+  "@type": "Product",
+  "name": "Furniture",
+  "source": "foundations.carpentry",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

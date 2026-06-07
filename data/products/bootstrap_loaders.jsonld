@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "bootstrap_loaders",
+  "@type": "Product",
+  "name": "Bootstrap Loaders",
+  "source": "software-bootstrapping.machine-code",
+  "tags": {
+    "material": [],
+    "capability": [
+      "computing"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ground_source_heat_pump",
+  "@type": "Product",
+  "name": "Ground Source Heat Pump",
+  "source": "energy.geothermal",
+  "tags": {
+    "material": [],
+    "capability": [
+      "vacuum"
+    ]
+  }
+}

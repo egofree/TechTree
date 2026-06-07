@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "distilled_oil",
+  "@type": "Product",
+  "name": "Distilled Oil",
+  "source": "energy.refining",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

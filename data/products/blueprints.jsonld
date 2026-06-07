@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "blueprints",
+  "@type": "Product",
+  "name": "Blueprints",
+  "source": "knowledge.technical-drawing",
+  "tags": {
+    "material": []
+  }
+}

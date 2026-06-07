@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mim_components",
+  "@type": "Product",
+  "name": "MIM Components",
+  "source": "metals.powder-metallurgy",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

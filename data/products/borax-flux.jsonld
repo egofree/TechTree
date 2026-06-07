@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "borax-flux",
+  "@type": "Product",
+  "name": "Borax Flux",
+  "source": "chemistry.flux",
+  "tags": {
+    "capability": [],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

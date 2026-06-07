@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "float_glass",
+  "@type": "Product",
+  "name": "Float Glass",
+  "source": "glass.basic.float-glass",
+  "tags": {
+    "material": [
+      "glass"
+    ]
+  }
+}

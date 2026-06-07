@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "programmable_logic",
+  "@type": "Product",
+  "name": "Programmable Logic",
+  "source": "computing.logic-design",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ],
+    "capability": [
+      "computing"
+    ]
+  }
+}

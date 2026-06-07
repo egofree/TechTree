@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "timepieces",
+  "@type": "Product",
+  "name": "Timepieces",
+  "source": "measurement.horology",
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

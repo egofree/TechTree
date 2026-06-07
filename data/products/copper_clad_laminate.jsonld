@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "copper_clad_laminate",
+  "@type": "Product",
+  "name": "Copper Clad Laminate",
+  "source": "electronics.pcb-fabrication",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

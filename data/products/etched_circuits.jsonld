@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "etched_circuits",
+  "@type": "Product",
+  "name": "Etched Circuits",
+  "source": "electronics.pcb-fabrication",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

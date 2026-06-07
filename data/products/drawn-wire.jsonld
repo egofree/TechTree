@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "drawn-wire",
+  "@type": "Product",
+  "name": "Drawn Wire",
+  "source": "metals.wire-drawing",
+  "tags": {
+    "capability": [],
+    "material": [
+      "metals"
+    ]
+  }
+}

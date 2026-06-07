@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "real_time_control",
+  "@type": "Product",
+  "name": "Real Time Control",
+  "source": "computing.embedded-systems",
+  "tags": {
+    "material": []
+  }
+}

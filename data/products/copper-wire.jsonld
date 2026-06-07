@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "copper-wire",
+  "@type": "Product",
+  "name": "Copper Wire",
+  "source": "metals.wire-drawing",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "deposited_nitride",
+  "@type": "Product",
+  "name": "Deposited Nitride",
+  "source": "photolithography.fab-processes.cvd",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

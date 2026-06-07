@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sawdust",
+  "@type": "Product",
+  "name": "Sawdust",
+  "source": "foundations.sawmilling",
+  "tags": {
+    "material": [
+      "wood",
+      "biomass"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/food-processing__energy.biomass-energy",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "food-processing",
+  "to": "energy.biomass-energy",
+  "label": "Food processing uses biomass for heat and power"
+}

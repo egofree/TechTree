@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "quality_standards",
+  "@type": "Product",
+  "name": "Quality Standards",
+  "source": "knowledge.standards-bodies",
+  "tags": {
+    "material": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Integrated pest management combining cultural controls (crop rotation, sanitation, trap cropping), physical barriers (row covers, sticky traps), biological controls (beneficial insects, poultry foraging), and botanical insecticides (neem, pyrethrum) to keep crop losses below economic thresholds.",
+  "early_win": false,
+  "id": "agriculture.pest-management",
+  "level": "capability",
+  "name": "Pest Management",
+  "outputs": [
+    "crop_protection",
+    "pest_control_methods",
+    "beneficial_habitat"
+  ],
+  "parent": "agriculture",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-15+"
+}

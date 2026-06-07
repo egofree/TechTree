@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ceramic-fiber",
+  "@type": "Product",
+  "name": "Ceramic Fiber",
+  "source": "ceramics.thermal-insulation",
+  "tags": {
+    "capability": [],
+    "material": [
+      "ceramics"
+    ]
+  }
+}

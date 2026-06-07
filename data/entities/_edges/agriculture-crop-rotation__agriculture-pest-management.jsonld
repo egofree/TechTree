@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/agriculture.crop-rotation__agriculture.pest-management",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "agriculture.crop-rotation",
+  "to": "agriculture.pest-management",
+  "label": "Rotation uses pest management as cultural control"
+}

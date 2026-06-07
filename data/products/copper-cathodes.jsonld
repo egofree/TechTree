@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "copper-cathodes",
+  "@type": "Product",
+  "name": "Copper Cathodes",
+  "source": "metals.copper-refining",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

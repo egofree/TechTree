@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "planarized_surfaces",
+  "@type": "Product",
+  "name": "Planarized Surfaces",
+  "source": "photolithography.fab-processes.cmp",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

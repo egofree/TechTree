@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "microcontroller_systems",
+  "@type": "Product",
+  "name": "Microcontroller Systems",
+  "source": "computing.embedded-systems",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ],
+    "capability": [
+      "computing"
+    ]
+  }
+}

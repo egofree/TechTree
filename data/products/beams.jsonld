@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "beams",
+  "@type": "Product",
+  "name": "Beams",
+  "source": "foundations.sawmilling",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "wood"
+    ]
+  }
+}

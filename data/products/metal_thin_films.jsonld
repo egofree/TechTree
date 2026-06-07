@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "metal_thin_films",
+  "@type": "Product",
+  "name": "Metal Thin Films",
+  "source": "photolithography.fab-processes.pvd",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

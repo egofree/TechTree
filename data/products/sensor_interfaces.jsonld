@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sensor_interfaces",
+  "@type": "Product",
+  "name": "Sensor Interfaces",
+  "source": "computing.embedded-systems",
+  "tags": {
+    "material": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fritted_seals",
+  "@type": "Product",
+  "name": "Fritted Seals",
+  "source": "glass.glass-to-metal-seals",
+  "tags": {
+    "material": [
+      "glass"
+    ]
+  }
+}

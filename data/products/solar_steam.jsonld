@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "solar_steam",
+  "@type": "Product",
+  "name": "Solar Steam",
+  "source": "energy.solar-thermal",
+  "tags": {
+    "material": []
+  }
+}

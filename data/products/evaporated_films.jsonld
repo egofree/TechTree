@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "evaporated_films",
+  "@type": "Product",
+  "name": "Evaporated Films",
+  "source": "vacuum.deposition-systems",
+  "tags": {
+    "material": []
+  }
+}

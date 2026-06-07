@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "chlor_alkali_hydrogen",
+  "@type": "Product",
+  "name": "Chlor-Alkali Hydrogen",
+  "source": "chemistry.electrolysis.chlor-alkali",
+  "tags": {
+    "material": [
+      "gases"
+    ]
+  }
+}

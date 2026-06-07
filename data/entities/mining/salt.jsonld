@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Extraction of halite (rock salt) and brine from underground deposits, salt pans, and seawater evaporation. Salt is essential for food preservation, chlor-alkali electrolysis (chlorine and caustic soda), and as a chemical feedstock. Enables the foundational inorganic chemistry of the industrial revolution.",
+  "early_win": false,
+  "id": "mining.salt",
+  "level": "capability",
+  "name": "Salt / Halite Production",
+  "outputs": [
+    "salt",
+    "brine",
+    "rock-salt"
+  ],
+  "parent": "mining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 1-10"
+}

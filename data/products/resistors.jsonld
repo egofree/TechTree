@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "resistors",
+  "@type": "Product",
+  "name": "Resistors",
+  "source": "electronics.passive-components",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

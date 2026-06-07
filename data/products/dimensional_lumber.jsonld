@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "dimensional_lumber",
+  "@type": "Product",
+  "name": "Dimensional Lumber",
+  "source": "foundations.sawmilling",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "wood"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "high_purity_gases",
+  "@type": "Product",
+  "name": "High Purity Gases",
+  "source": "gas-handling.gas-purification",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

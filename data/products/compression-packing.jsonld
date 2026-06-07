@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "compression-packing",
+  "@type": "Product",
+  "name": "Compression Packing",
+  "source": "polymers.seals-gaskets",
+  "tags": {
+    "material": [
+      "polymers"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "System-level design, installation, testing, and commissioning of complete gas distribution networks from central supply to multiple points of use. Covers pipe sizing, material selection, jointing methods, pressure testing, and leak detection for industrial and semiconductor fab gas systems.",
+  "early_win": false,
+  "id": "gas-handling.piping-systems",
+  "level": "capability",
+  "name": "Gas Distribution Piping Systems",
+  "outputs": [
+    "gas_piping",
+    "distribution_manifolds",
+    "leak_tested_systems"
+  ],
+  "parent": "gas-handling",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40"
+}

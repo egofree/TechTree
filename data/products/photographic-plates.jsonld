@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "photographic-plates",
+  "@type": "Product",
+  "name": "Photographic Plates",
+  "source": "chemistry.photographic-chemistry",
+  "tags": {
+    "capability": [],
+    "material": [
+      "chemicals",
+      "glass"
+    ]
+  }
+}

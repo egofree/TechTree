@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "dried_gases",
+  "@type": "Product",
+  "name": "Dried Gases",
+  "source": "gas-handling.gas-purification",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

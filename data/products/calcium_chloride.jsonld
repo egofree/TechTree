@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "calcium_chloride",
+  "@type": "Product",
+  "name": "Calcium Chloride",
+  "source": "chemistry.solvay",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

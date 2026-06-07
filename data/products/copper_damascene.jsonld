@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "copper_damascene",
+  "@type": "Product",
+  "name": "Copper Damascene",
+  "source": "photolithography.fab-processes.cmp",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "build_systems",
+  "@type": "Product",
+  "name": "Build Systems",
+  "source": "software-bootstrapping.dev-tools",
+  "tags": {
+    "material": [],
+    "capability": [
+      "computing"
+    ]
+  }
+}

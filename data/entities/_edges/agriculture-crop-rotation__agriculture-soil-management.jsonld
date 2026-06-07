@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/agriculture.crop-rotation__agriculture.soil-management",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "agriculture.crop-rotation",
+  "to": "agriculture.soil-management",
+  "label": "Crop rotation depends on soil fertility management"
+}

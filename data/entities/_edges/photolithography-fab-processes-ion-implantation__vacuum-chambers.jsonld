@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/photolithography.fab-processes.ion-implantation__vacuum.chambers",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "photolithography.fab-processes.ion-implantation",
+  "to": "vacuum.chambers"
+}

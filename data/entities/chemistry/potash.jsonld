@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Production of potassium carbonate (potash) from wood ashes, mineral deposits, or brine evaporation. Potash is a fundamental alkali for glassmaking (potash glass), soap production, fertilizer, and chemical synthesis. Pearl ash (purified potash) was historically the primary source of alkali before synthetic soda ash.",
+  "early_win": false,
+  "id": "chemistry.potash",
+  "level": "capability",
+  "name": "Potash Production",
+  "outputs": [
+    "potash",
+    "pearl-ash",
+    "alkaline-solutions"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "chemicals",
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-15"
+}

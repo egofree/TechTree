@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "biomass_electricity",
+  "@type": "Product",
+  "name": "Biomass Electricity",
+  "source": "energy.biomass-energy",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

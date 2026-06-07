@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.phosphorus__chemistry.acids",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "chemistry.phosphorus",
+  "to": "chemistry.acids"
+}

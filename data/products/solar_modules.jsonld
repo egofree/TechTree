@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "solar_modules",
+  "@type": "Product",
+  "name": "Solar Modules",
+  "source": "energy.photovoltaics",
+  "tags": {
+    "material": [],
+    "capability": [
+      "energy"
+    ]
+  }
+}

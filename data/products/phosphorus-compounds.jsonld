@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "phosphorus-compounds",
+  "@type": "Product",
+  "name": "Phosphorus Compounds",
+  "source": "chemistry.phosphorus",
+  "tags": {
+    "material": ["chemicals"]
+  }
+}

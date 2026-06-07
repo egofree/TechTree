@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hydraulic-presses",
+  "@type": "Product",
+  "name": "Hydraulic Presses",
+  "source": "energy.hydraulics",
+  "tags": {
+    "material": ["metals"],
+    "capability": ["construction"]
+  }
+}

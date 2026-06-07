@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "inductors",
+  "@type": "Product",
+  "name": "Inductors",
+  "source": "electronics.passive-components",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

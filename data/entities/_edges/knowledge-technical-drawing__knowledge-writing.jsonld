@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/knowledge.technical-drawing__knowledge.writing",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "knowledge.technical-drawing",
+  "to": "knowledge.writing",
+  "label": "Technical drawing extends written communication"
+}

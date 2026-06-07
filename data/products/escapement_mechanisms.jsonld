@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "escapement_mechanisms",
+  "@type": "Product",
+  "name": "Escapement Mechanisms",
+  "source": "measurement.horology",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

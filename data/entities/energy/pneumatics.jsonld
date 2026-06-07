@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Compression, storage, and distribution of air at pressure for mechanical work. Pneumatic systems use compressed air to power drills, hammers, hoists, and actuators in mining, construction, and manufacturing. Enables safe energy transmission in wet or explosive environments where electric motors are hazardous.",
+  "early_win": false,
+  "id": "energy.pneumatics",
+  "level": "capability",
+  "name": "Pneumatics",
+  "outputs": [
+    "compressed-air-systems",
+    "pneumatic-tools"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-25"
+}

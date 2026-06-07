@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "voltage_references",
+  "@type": "Product",
+  "name": "Voltage References",
+  "source": "electronics.semiconductor-devices",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

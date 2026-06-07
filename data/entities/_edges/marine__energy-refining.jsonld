@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/marine__energy.refining",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "marine",
+  "to": "energy.refining",
+  "label": "Marine transport depends on refined liquid fuels"
+}

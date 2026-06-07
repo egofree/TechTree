@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "leak_rate_quantification",
+  "@type": "Product",
+  "name": "Leak Rate Quantification",
+  "source": "vacuum.leak-detection",
+  "tags": {
+    "material": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "compression_seals",
+  "@type": "Product",
+  "name": "Compression Seals",
+  "source": "glass.glass-to-metal-seals",
+  "tags": {
+    "material": [
+      "glass"
+    ]
+  }
+}

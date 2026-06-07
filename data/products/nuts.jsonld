@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "nuts",
+  "@type": "Product",
+  "name": "Nuts",
+  "source": "machine-tools.fasteners",
+  "tags": {
+    "capability": [],
+    "material": [
+      "metals"
+    ]
+  }
+}

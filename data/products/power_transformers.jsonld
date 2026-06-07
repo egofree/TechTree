@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "power_transformers",
+  "@type": "Product",
+  "name": "Power Transformers",
+  "source": "energy.power-distribution",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

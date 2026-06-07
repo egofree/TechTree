@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/water.basic-treatment__chemistry.bleaching",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "water.basic-treatment",
+  "to": "chemistry.bleaching"
+}

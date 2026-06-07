@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ferrite_magnets",
+  "@type": "Product",
+  "name": "Ferrite Magnets",
+  "source": "metals.magnetic-materials",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

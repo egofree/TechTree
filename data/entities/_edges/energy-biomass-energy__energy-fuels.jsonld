@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.biomass-energy__energy.fuels",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.biomass-energy",
+  "to": "energy.fuels",
+  "label": "Biomass energy builds on fuel combustion knowledge"
+}

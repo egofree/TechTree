@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "refined-copper",
+  "@type": "Product",
+  "name": "Refined Copper",
+  "source": "metals.copper-refining",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "converters",
+  "@type": "Product",
+  "name": "Converters",
+  "source": "electronics.power-electronics",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

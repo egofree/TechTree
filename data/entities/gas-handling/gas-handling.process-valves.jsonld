@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Chemical plants, steam systems, and gas processing require reliable shut-off and control valves rated for high temperature, high pressure, and corrosive media",
+  "description": "Design, materials selection, and manufacture of industrial process valves for chemical, steam, gas, and high-temperature/high-pressure service. Covers gate, globe, ball, butterfly, check, and control valves with carbon steel, stainless steel, and alloy bodies. Includes pressure-temperature rating, stem seal packing, and manual through pneumatic/electric actuation.",
+  "early_win": false,
+  "id": "gas-handling.process-valves",
+  "level": "capability",
+  "name": "Industrial Process Valves",
+  "outputs": [
+    "process_valves",
+    "control_valves",
+    "check_valves",
+    "actuated_valves"
+  ],
+  "parent": "gas-handling",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals",
+      "chemicals",
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-35"
+}

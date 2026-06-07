@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/food-processing.canning__food-processing",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "food-processing.canning",
+  "to": "food-processing",
+  "label": "Canning builds on food processing infrastructure"
+}

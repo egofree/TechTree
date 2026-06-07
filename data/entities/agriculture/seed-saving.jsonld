@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Without saved seed, each growing season depends on finding wild seed; saved seed is the foundation of agricultural continuity",
+  "description": "Harvesting, processing, drying, storing, and testing seeds from one growing season to plant the next. Includes mass selection for locally adapted varieties and viability testing to prevent planting dead seed.",
+  "early_win": true,
+  "early_win_note": "Seed saving from the first harvest provides free planting stock for all subsequent seasons",
+  "id": "agriculture.seed-saving",
+  "level": "capability",
+  "name": "Seed Saving & Selection",
+  "outputs": [
+    "viable_seed",
+    "adapted_varieties",
+    "seed_stock"
+  ],
+  "parent": "agriculture",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-10+"
+}

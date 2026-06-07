@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "deep_trenches",
+  "@type": "Product",
+  "name": "Deep Trenches",
+  "source": "photolithography.fab-processes.plasma-etching",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

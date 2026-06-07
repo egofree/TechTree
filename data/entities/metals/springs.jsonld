@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Design and manufacture of mechanical springs from spring steel: compression, tension, torsion, leaf springs, and Belleville washers. Covers steel composition selection, heat treatment (quench + temper to 400-500°C), coiling and winding procedures, shot peening for fatigue life, and spring rate calculation.",
+  "early_win": false,
+  "id": "metals.springs",
+  "level": "capability",
+  "name": "Spring Manufacturing",
+  "outputs": [
+    "compression_springs",
+    "tension_springs",
+    "torsion_springs",
+    "leaf_springs",
+    "belleville_washers"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-20"
+}

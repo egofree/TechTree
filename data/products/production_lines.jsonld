@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "production_lines",
+  "@type": "Product",
+  "name": "Production Lines",
+  "source": "machine-tools.mass-production",
+  "tags": {
+    "material": []
+  }
+}

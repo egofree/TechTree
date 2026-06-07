@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "silicon_steel_laminations",
+  "@type": "Product",
+  "name": "Silicon Steel Laminations",
+  "source": "metals.magnetic-materials",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hand-forged-tools",
+  "@type": "Product",
+  "name": "Hand-Forged Tools",
+  "source": "metals.blacksmithing",
+  "tags": {
+    "material": ["metals"],
+    "capability": ["construction"]
+  }
+}

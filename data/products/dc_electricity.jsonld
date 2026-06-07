@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "dc_electricity",
+  "@type": "Product",
+  "name": "DC Electricity",
+  "source": "energy.photovoltaics",
+  "tags": {
+    "material": [],
+    "capability": [
+      "energy"
+    ]
+  }
+}

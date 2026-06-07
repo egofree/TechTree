@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pest_control_methods",
+  "@type": "Product",
+  "name": "Pest Control Methods",
+  "source": "agriculture.pest-management",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

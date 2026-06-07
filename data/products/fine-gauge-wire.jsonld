@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fine-gauge-wire",
+  "@type": "Product",
+  "name": "Fine Gauge Wire",
+  "source": "metals.wire-drawing",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

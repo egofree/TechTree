@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hydraulic-jacks",
+  "@type": "Product",
+  "name": "Hydraulic Jacks",
+  "source": "energy.hydraulics",
+  "tags": {
+    "material": ["metals"],
+    "capability": ["construction"]
+  }
+}

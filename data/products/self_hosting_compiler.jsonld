@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "self_hosting_compiler",
+  "@type": "Product",
+  "name": "Self-Hosting Compiler",
+  "source": "software-bootstrapping.self-hosting",
+  "tags": {
+    "material": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "lip-seals",
+  "@type": "Product",
+  "name": "Lip Seals",
+  "source": "polymers.seals-gaskets",
+  "tags": {
+    "material": [
+      "polymers"
+    ]
+  }
+}

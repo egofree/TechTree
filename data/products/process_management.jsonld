@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "process_management",
+  "@type": "Product",
+  "name": "Process Management",
+  "source": "software-bootstrapping.operating-systems",
+  "tags": {
+    "material": [],
+    "capability": [
+      "computing",
+      "organization"
+    ]
+  }
+}

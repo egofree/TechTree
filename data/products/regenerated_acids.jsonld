@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "regenerated_acids",
+  "@type": "Product",
+  "name": "Regenerated Acids",
+  "source": "chemistry.chemical-recovery",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

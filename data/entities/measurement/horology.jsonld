@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Design and manufacture of precision timekeeping devices: gear cutting, escapement manufacturing, spring tempering, and precision bearing making. Spans from weight-driven tower clocks through spring-driven pocket watches to marine chronometers. Clockmaking was the cradle of precision manufacturing — gear trains, escapements, and jeweled bearings developed here directly enabled machine tool evolution.",
+  "early_win": false,
+  "id": "measurement.horology",
+  "level": "capability",
+  "name": "Clockmaking & Precision Horology",
+  "outputs": [
+    "timepieces",
+    "escapement_mechanisms",
+    "precision_gears",
+    "chronometers"
+  ],
+  "parent": "measurement",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-30"
+}

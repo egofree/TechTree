@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "binary_programs",
+  "@type": "Product",
+  "name": "Binary Programs",
+  "source": "software-bootstrapping.machine-code",
+  "tags": {
+    "material": [],
+    "capability": [
+      "computing"
+    ]
+  }
+}

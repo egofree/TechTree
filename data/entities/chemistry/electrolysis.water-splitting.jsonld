@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Electrolytic splitting of water into hydrogen and oxygen gases. Alkaline electrolysis (KOH electrolyte, 70-90°C) or PEM electrolysis (solid polymer membrane). Produces ultra-pure hydrogen for ammonia synthesis, semiconductor processing, and fuel cells. Efficiency 60-80%, requires DC electricity at 1.8-2.2V per cell.",
+  "early_win": false,
+  "id": "chemistry.electrolysis.water-splitting",
+  "level": "process",
+  "name": "Water Electrolysis (H₂/O₂)",
+  "outputs": [
+    "electrolytic_hydrogen",
+    "electrolytic_oxygen"
+  ],
+  "parent": "chemistry.electrolysis",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-35"
+}

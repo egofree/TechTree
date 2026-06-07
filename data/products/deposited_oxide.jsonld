@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "deposited_oxide",
+  "@type": "Product",
+  "name": "Deposited Oxide",
+  "source": "photolithography.fab-processes.cvd",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

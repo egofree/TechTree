@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry__chemistry.acids-bases",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "chemistry",
+  "to": "chemistry.acids-bases"
+}

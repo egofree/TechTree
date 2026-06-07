@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "grain_oriented_strip",
+  "@type": "Product",
+  "name": "Grain Oriented Strip",
+  "source": "metals.magnetic-materials",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

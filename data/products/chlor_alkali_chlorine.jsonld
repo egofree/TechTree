@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "chlor_alkali_chlorine",
+  "@type": "Product",
+  "name": "Chlor-Alkali Chlorine",
+  "source": "chemistry.electrolysis.chlor-alkali",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

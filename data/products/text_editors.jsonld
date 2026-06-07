@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "text_editors",
+  "@type": "Product",
+  "name": "Text Editors",
+  "source": "software-bootstrapping.dev-tools",
+  "tags": {
+    "material": [],
+    "capability": [
+      "computing"
+    ]
+  }
+}

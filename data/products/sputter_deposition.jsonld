@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sputter_deposition",
+  "@type": "Product",
+  "name": "Sputter Deposition",
+  "source": "vacuum.deposition-systems",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

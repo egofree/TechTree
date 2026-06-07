@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/construction__energy.solar-thermal",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "construction",
+  "to": "energy.solar-thermal",
+  "label": "Construction uses solar thermal for heating"
+}

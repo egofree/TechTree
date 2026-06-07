@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/glass.basic.float-glass__gas-handling.basic",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "glass.basic.float-glass",
+  "to": "gas-handling.basic"
+}

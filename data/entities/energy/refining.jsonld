@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Processing of crude fuels into usable forms through fractional distillation of petroleum, coal tar distillation, wood tar processing, and thermal cracking. Produces defined-boiling-range fractions for engines, turbines, and chemical synthesis.",
+  "early_win": false,
+  "id": "energy.refining",
+  "level": "capability",
+  "name": "Fuel Refining",
+  "outputs": [
+    "refined_fuel",
+    "distilled_oil",
+    "cracked_products"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-25"
+}

@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hardware-fittings",
+  "@type": "Product",
+  "name": "Hardware Fittings",
+  "source": "metals.blacksmithing",
+  "tags": {
+    "material": ["metals"],
+    "capability": ["construction"]
+  }
+}

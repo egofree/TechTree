@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "oilseed_meal",
+  "@type": "Product",
+  "name": "Oilseed Meal",
+  "source": "food-processing.oil-processing",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

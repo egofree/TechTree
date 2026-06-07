@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Most efficient route to soda ash (Na2CO3), required for glass manufacturing, soap production, and NaOH feedstock",
+  "description": "Production of sodium carbonate (soda ash) from brine and limestone using ammonia as a recyclable catalyst. The Solvay process superseded the Leblanc method due to lower cost, higher purity, and fewer toxic byproducts.",
+  "early_win": false,
+  "id": "chemistry.solvay",
+  "level": "capability",
+  "name": "Solvay Process (Soda Ash)",
+  "outputs": [
+    "sodium_carbonate",
+    "sodium_bicarbonate",
+    "calcium_chloride"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

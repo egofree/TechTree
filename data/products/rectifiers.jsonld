@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "rectifiers",
+  "@type": "Product",
+  "name": "Rectifiers",
+  "source": "electronics.power-electronics",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

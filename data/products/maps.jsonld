@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "maps",
+  "@type": "Product",
+  "name": "Maps",
+  "source": "knowledge.surveying",
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "material": []
+  }
+}

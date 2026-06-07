@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "wire_rope",
+  "@type": "Product",
+  "name": "Wire Rope",
+  "source": "metals.wire-rope",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sauerkraut",
+  "@type": "Product",
+  "name": "Sauerkraut",
+  "source": "food-processing.fermentation",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

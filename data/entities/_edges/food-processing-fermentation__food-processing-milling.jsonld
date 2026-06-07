@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/food-processing.fermentation__food-processing.milling",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "food-processing.fermentation",
+  "to": "food-processing.milling",
+  "label": "Fermentation processes milled grain substrates"
+}

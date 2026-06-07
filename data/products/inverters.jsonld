@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "inverters",
+  "@type": "Product",
+  "name": "Inverters",
+  "source": "electronics.power-electronics",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

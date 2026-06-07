@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "structured_curricula",
+  "@type": "Product",
+  "name": "Structured Curricula",
+  "source": "knowledge.education-pathways",
+  "tags": {
+    "material": []
+  }
+}

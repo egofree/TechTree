@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "struck-alloy-discs",
+  "@type": "Product",
+  "name": "Struck Alloy Discs",
+  "source": "economics-organization.coinage",
+  "tags": {
+    "capability": [],
+    "material": [
+      "metals"
+    ]
+  }
+}

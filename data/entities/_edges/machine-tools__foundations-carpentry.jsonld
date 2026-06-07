@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/machine-tools__foundations.carpentry",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "machine-tools",
+  "to": "foundations.carpentry"
+}

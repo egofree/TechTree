@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pm_structural_parts",
+  "@type": "Product",
+  "name": "PM Structural Parts",
+  "source": "metals.powder-metallurgy",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "construction"
+    ]
+  }
+}

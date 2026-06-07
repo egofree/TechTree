@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hydraulic-actuators",
+  "@type": "Product",
+  "name": "Hydraulic Actuators",
+  "source": "energy.hydraulics",
+  "tags": {
+    "material": ["metals"],
+    "capability": ["energy"]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.electricity__metals.magnetic-materials",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "energy.electricity",
+  "to": "metals.magnetic-materials"
+}

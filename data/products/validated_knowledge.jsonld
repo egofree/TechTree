@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "validated_knowledge",
+  "@type": "Product",
+  "name": "Validated Knowledge",
+  "source": "knowledge.scientific-method",
+  "tags": {
+    "material": []
+  }
+}

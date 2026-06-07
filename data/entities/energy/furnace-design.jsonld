@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "General furnace design principles — heat transfer (conduction, convection, radiation), combustion stoichiometry and flame temperature, refractory selection (fireclay, silica, alumina, magnesite), furnace geometry and heat distribution, temperature measurement, insulation design, flue gas handling, and fuel-to-heat efficiency calculations. Applicable to all furnace types: blast furnaces, electric arc furnaces, kilns, and industrial heaters.",
+  "early_win": false,
+  "id": "energy.furnace-design",
+  "level": "capability",
+  "name": "Furnace Design Principles",
+  "outputs": [
+    "furnace_design",
+    "thermal_calculations",
+    "refractory_selection"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-20"
+}

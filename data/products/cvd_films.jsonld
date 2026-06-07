@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cvd_films",
+  "@type": "Product",
+  "name": "Cvd Films",
+  "source": "vacuum.deposition-systems",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

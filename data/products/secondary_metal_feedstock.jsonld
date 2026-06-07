@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "secondary_metal_feedstock",
+  "@type": "Product",
+  "name": "Secondary Metal Feedstock",
+  "source": "metals.metal-recycling",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

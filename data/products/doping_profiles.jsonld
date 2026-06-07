@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "doping_profiles",
+  "@type": "Product",
+  "name": "Doping Profiles",
+  "source": "photolithography.fab-processes.ion-implantation",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

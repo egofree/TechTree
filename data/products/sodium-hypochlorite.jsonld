@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sodium-hypochlorite",
+  "@type": "Product",
+  "name": "Sodium Hypochlorite",
+  "source": "chemistry.bleaching",
+  "tags": {
+    "capability": [],
+    "material": [
+      "chemicals",
+      "water"
+    ]
+  }
+}

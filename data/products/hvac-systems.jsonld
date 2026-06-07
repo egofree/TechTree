@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hvac-systems",
+  "@type": "Product",
+  "name": "HVAC Systems",
+  "source": "energy.hvac",
+  "tags": {
+    "capability": [
+      "cooling"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

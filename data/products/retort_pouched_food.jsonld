@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "retort_pouched_food",
+  "@type": "Product",
+  "name": "Retort Pouched Food",
+  "source": "food-processing.canning",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

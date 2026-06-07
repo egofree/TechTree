@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "debuggers",
+  "@type": "Product",
+  "name": "Debuggers",
+  "source": "software-bootstrapping.dev-tools",
+  "tags": {
+    "material": [],
+    "capability": [
+      "computing"
+    ]
+  }
+}

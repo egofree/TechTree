@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "gas_turbine_power",
+  "@type": "Product",
+  "name": "Gas Turbine Power",
+  "source": "energy.gas-turbine",
+  "tags": {
+    "material": [
+      "chemicals"
+    ],
+    "capability": [
+      "energy"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "topographic-surveys",
+  "@type": "Product",
+  "name": "Topographic Surveys",
+  "source": "knowledge.surveying",
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "material": []
+  }
+}

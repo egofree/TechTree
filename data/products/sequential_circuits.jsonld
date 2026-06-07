@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sequential_circuits",
+  "@type": "Product",
+  "name": "Sequential Circuits",
+  "source": "computing.logic-design",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ],
+    "capability": [
+      "computing"
+    ]
+  }
+}

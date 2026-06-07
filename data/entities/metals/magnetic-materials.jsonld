@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Metallurgy and processing of soft magnetic materials (silicon steel, grain-oriented laminations) for transformer cores and motor stators, and permanent magnet materials (alnico, ferrite) with heat treatment cycles that determine coercivity, permeability, and remanence.",
+  "early_win": false,
+  "id": "metals.magnetic-materials",
+  "level": "capability",
+  "name": "Magnetic Materials",
+  "outputs": [
+    "silicon_steel_laminations",
+    "grain_oriented_strip",
+    "alnico_magnets",
+    "ferrite_magnets"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-25"
+}

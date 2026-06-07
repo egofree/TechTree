@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "firmware",
+  "@type": "Product",
+  "name": "Firmware",
+  "source": "computing.embedded-systems",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ],
+    "capability": [
+      "computing"
+    ]
+  }
+}

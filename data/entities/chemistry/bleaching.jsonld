@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Electrolytic production of chlorine and sodium hypochlorite for textile bleaching, water treatment, and pulp processing.",
+  "early_win": false,
+  "id": "chemistry.bleaching",
+  "level": "capability",
+  "name": "Bleaching & Chlorine Chemistry",
+  "outputs": [
+    "sodium-hypochlorite",
+    "chlorine-gas",
+    "bleached-textiles"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-25"
+}

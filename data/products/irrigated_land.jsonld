@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "irrigated_land",
+  "@type": "Product",
+  "name": "Irrigated Land",
+  "source": "agriculture.irrigation",
+  "tags": {
+    "material": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "backfill_material",
+  "@type": "Product",
+  "name": "Backfill Material",
+  "source": "mining.tailings-reprocessing",
+  "tags": {
+    "material": [
+      "stone"
+    ]
+  }
+}

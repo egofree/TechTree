@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "compressed-air-systems",
+  "@type": "Product",
+  "name": "Compressed Air Systems",
+  "source": "energy.pneumatics",
+  "tags": {
+    "material": ["metals"],
+    "capability": ["energy"]
+  }
+}

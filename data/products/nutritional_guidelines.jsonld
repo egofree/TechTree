@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "nutritional_guidelines",
+  "@type": "Product",
+  "name": "Nutritional Guidelines",
+  "source": "health.nutrition",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [
+      "health",
+      "organization"
+    ]
+  }
+}

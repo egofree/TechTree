@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Without standardized drawing conventions, no two workshops can exchange manufacturing specifications",
+  "description": "Engineering drawing conventions including projection methods, dimensioning systems, line types, section views, tolerances, and title blocks. The graphical language that enables any trained reader to manufacture a part exactly as designed.",
+  "early_win": false,
+  "id": "knowledge.technical-drawing",
+  "level": "capability",
+  "name": "Technical Drawing",
+  "outputs": [
+    "engineering_drawings",
+    "blueprints",
+    "assembly_diagrams"
+  ],
+  "parent": "knowledge",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-50+"
+}

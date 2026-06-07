@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "polysilicon_layers",
+  "@type": "Product",
+  "name": "Polysilicon Layers",
+  "source": "photolithography.fab-processes.cvd",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

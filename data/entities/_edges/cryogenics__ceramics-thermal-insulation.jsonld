@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/cryogenics__ceramics.thermal-insulation",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "cryogenics",
+  "to": "ceramics.thermal-insulation"
+}

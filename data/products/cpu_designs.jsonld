@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cpu_designs",
+  "@type": "Product",
+  "name": "CPU Designs",
+  "source": "computing.computer-architecture",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ],
+    "capability": [
+      "computing"
+    ]
+  }
+}

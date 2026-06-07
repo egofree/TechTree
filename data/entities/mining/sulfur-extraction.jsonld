@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Extraction of elemental sulfur from volcanic deposits (native sulfur collection), pyrite roasting, Frasch process (superheated water injection into underground deposits), and Claus process (recovery from sour gas). Sulfur is the gateway feedstock for sulfuric acid production — the most produced industrial chemical and foundation of the chemical industry.",
+  "early_win": false,
+  "id": "mining.sulfur-extraction",
+  "level": "capability",
+  "name": "Sulfur Extraction",
+  "outputs": [
+    "elemental_sulfur",
+    "sulfur_dioxide",
+    "sulfuric_acid_precursor"
+  ],
+  "parent": "mining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "stone",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-25"
+}

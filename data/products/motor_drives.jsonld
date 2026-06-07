@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "motor_drives",
+  "@type": "Product",
+  "name": "Motor Drives",
+  "source": "electronics.power-electronics",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

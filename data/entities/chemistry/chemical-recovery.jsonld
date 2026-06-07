@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Regeneration of spent industrial chemicals \u2014 solvents, acids, and catalysts \u2014 to reusable purity through fractional distillation, diffusion dialysis, electrodialysis, and thermal regeneration. Reduces chemical consumption and hazardous waste volumes at industrial scale.",
+  "early_win": false,
+  "id": "chemistry.chemical-recovery",
+  "level": "capability",
+  "name": "Chemical Recovery & Solvent Regeneration",
+  "outputs": [
+    "recovered_solvents",
+    "regenerated_acids",
+    "recovered_catalysts",
+    "distilled_water"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "recyclable",
+      "closed-loop"
+    ],
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-50+"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/polymers.rubber__polymers.rubber.vulcanization",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "polymers.rubber",
+  "to": "polymers.rubber.vulcanization"
+}

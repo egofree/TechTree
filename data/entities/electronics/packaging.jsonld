@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Integrated circuit packaging and interconnect: die singulation from wafers, die attach to substrates, wire bonding and flip-chip interconnection, encapsulation in epoxy molding compounds, and advanced packaging (BGA, QFP, chip-scale). Packaging bridges bare silicon die and functional electronic assemblies — protecting the die while providing electrical, thermal, and mechanical interfaces.",
+  "early_win": false,
+  "id": "electronics.packaging",
+  "level": "capability",
+  "name": "IC Packaging & Interconnect",
+  "outputs": [
+    "packaged_ics",
+    "wire_bonds",
+    "leadframes",
+    "bga_substrates"
+  ],
+  "parent": "electronics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "metals",
+      "polymers",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "standardized-screws",
+  "@type": "Product",
+  "name": "Standardized Screws",
+  "source": "machine-tools.fasteners",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

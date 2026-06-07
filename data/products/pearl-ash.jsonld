@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pearl-ash",
+  "@type": "Product",
+  "name": "Pearl Ash",
+  "source": "chemistry.potash",
+  "tags": {
+    "material": ["chemicals"]
+  }
+}

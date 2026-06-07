@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "concentrated_solar_power",
+  "@type": "Product",
+  "name": "Concentrated Solar Power",
+  "source": "energy.solar-thermal",
+  "tags": {
+    "material": []
+  }
+}

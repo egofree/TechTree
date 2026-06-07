@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "soy_sauce",
+  "@type": "Product",
+  "name": "Soy Sauce",
+  "source": "food-processing.fermentation",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

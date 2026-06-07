@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Mechanical power transmission via belts, shafts, pulleys, and line shaft systems to distribute rotational energy from prime movers to multiple machines.",
+  "early_win": false,
+  "id": "machine-tools.power-transmission",
+  "level": "capability",
+  "name": "Belt & Shaft Power Transmission",
+  "outputs": [
+    "transmitted_mechanical_power"
+  ],
+  "parent": "machine-tools",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-20"
+}

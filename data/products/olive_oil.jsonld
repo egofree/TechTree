@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "olive_oil",
+  "@type": "Product",
+  "name": "Olive Oil",
+  "source": "food-processing.oil-processing",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

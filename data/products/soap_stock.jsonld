@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "soap_stock",
+  "@type": "Product",
+  "name": "Soap Stock",
+  "source": "food-processing.oil-processing",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

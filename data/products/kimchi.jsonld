@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "kimchi",
+  "@type": "Product",
+  "name": "Kimchi",
+  "source": "food-processing.fermentation",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/photolithography.fab-processes.plasma-etching__gas-handling.basic",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "photolithography.fab-processes.plasma-etching",
+  "to": "gas-handling.basic"
+}

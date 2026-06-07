@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.electricity.power-systems__measurement.electrical-instruments",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.electricity.power-systems",
+  "to": "measurement.electrical-instruments"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "transmitted_mechanical_power",
+  "@type": "Product",
+  "name": "Transmitted Mechanical Power",
+  "source": "machine-tools.power-transmission",
+  "tags": {
+    "material": [],
+    "capability": [
+      "energy"
+    ]
+  }
+}

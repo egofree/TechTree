@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/agriculture__chemistry.phosphorus",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "agriculture",
+  "to": "chemistry.phosphorus"
+}

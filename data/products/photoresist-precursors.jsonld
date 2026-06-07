@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "photoresist-precursors",
+  "@type": "Product",
+  "name": "Photoresist Precursors",
+  "source": "chemistry.photographic-chemistry",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

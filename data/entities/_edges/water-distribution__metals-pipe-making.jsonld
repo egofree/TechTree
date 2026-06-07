@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/water.distribution__metals.pipe-making",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "water.distribution",
+  "to": "metals.pipe-making"
+}

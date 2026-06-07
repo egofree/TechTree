@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "refractory_selection",
+  "@type": "Product",
+  "name": "Refractory Selection",
+  "source": "energy.furnace-design",
+  "tags": {
+    "material": [
+      "ceramics"
+    ],
+    "capability": [
+      "construction"
+    ]
+  }
+}

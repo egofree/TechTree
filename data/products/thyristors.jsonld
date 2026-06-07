@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "thyristors",
+  "@type": "Product",
+  "name": "Thyristors",
+  "source": "electronics.semiconductor-devices",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

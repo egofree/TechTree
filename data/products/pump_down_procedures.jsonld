@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pump_down_procedures",
+  "@type": "Product",
+  "name": "Pump Down Procedures",
+  "source": "vacuum.deposition-systems",
+  "tags": {
+    "material": [
+      "biomass"
+    ],
+    "capability": [
+      "vacuum"
+    ]
+  }
+}

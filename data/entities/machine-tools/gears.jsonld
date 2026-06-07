@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Design, cutting, and finishing of gear teeth for power transmission: spur, helical, bevel, worm, and rack-and-pinion types from cast iron and steel blanks.",
+  "early_win": false,
+  "id": "machine-tools.gears",
+  "level": "capability",
+  "name": "Gears & Gear Manufacturing",
+  "outputs": [
+    "gears",
+    "gear_assemblies"
+  ],
+  "parent": "machine-tools",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 3-15"
+}

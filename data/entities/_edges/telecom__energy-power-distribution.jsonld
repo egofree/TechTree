@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/telecom__energy.power-distribution",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "telecom",
+  "to": "energy.power-distribution",
+  "label": "Telecommunications requires reliable power distribution"
+}

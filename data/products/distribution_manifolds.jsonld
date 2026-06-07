@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "distribution_manifolds",
+  "@type": "Product",
+  "name": "Distribution Manifolds",
+  "source": "gas-handling.piping-systems",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "skill_certification",
+  "@type": "Product",
+  "name": "Skill Certification",
+  "source": "knowledge.education-pathways",
+  "tags": {
+    "material": []
+  }
+}

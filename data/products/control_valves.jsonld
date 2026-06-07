@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "control_valves",
+  "@type": "Product",
+  "name": "Control Valves",
+  "source": "gas-handling.process-valves",
+  "tags": {
+    "material": [
+      "gases"
+    ]
+  }
+}

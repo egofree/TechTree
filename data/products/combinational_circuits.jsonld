@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "combinational_circuits",
+  "@type": "Product",
+  "name": "Combinational Circuits",
+  "source": "computing.logic-design",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ],
+    "capability": [
+      "computing"
+    ]
+  }
+}

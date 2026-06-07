@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "diversified_crops",
+  "@type": "Product",
+  "name": "Diversified Crop Portfolio",
+  "source": "agriculture.crop-rotation",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

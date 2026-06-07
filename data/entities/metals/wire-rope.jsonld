@@ -1,0 +1,37 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Manufacture of wire rope from high-carbon steel wire: wire drawing, stranding (laying wires around a core), and rope closing (closing strands around a core). Covers rope constructions (6×7, 6×19, 6×37), tensile strength grades (1570-1960 MPa), end fittings (swaging, socketing), inspection and discard criteria, and lubrication. Essential for mining hoists, cranes, elevators, bridges, and cable stayed structures.",
+  "early_win": false,
+  "id": "metals.wire-rope",
+  "level": "capability",
+  "name": "Wire Rope & Steel Cable",
+  "outputs": [
+    "wire_rope",
+    "steel_cable",
+    "strand",
+    "wire_rope_sling"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction",
+      "transport"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-35",
+  "wikidataId": "Q249454"
+}

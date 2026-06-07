@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Land measurement, mapping, and topographic surveying using instruments and mathematical methods to produce accurate maps and spatial data.",
+  "early_win": false,
+  "id": "knowledge.surveying",
+  "level": "capability",
+  "name": "Surveying & Cartography",
+  "outputs": [
+    "maps",
+    "survey-data",
+    "topographic-surveys"
+  ],
+  "parent": "knowledge",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "measurement",
+      "organization"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-15"
+}

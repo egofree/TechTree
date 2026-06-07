@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "silver-halide-emulsions",
+  "@type": "Product",
+  "name": "Silver Halide Emulsions",
+  "source": "chemistry.photographic-chemistry",
+  "tags": {
+    "capability": [],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

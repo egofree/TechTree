@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/agriculture.crop-rotation__agriculture.seed-saving",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "agriculture.crop-rotation",
+  "to": "agriculture.seed-saving",
+  "label": "Rotation requires diverse seed stock"
+}

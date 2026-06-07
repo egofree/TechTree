@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Production of concentrated sulfuric acid (96-98%) via the contact process: sulfur combustion to SO₂, catalytic oxidation to SO₃ over vanadium pentoxide catalyst at 400-450°C, and absorption in concentrated H₂SO₄ to form oleum. Supersedes the lead chamber process (65-70%) for high-purity industrial acid.",
+  "early_win": false,
+  "id": "chemistry.acids.contact-process",
+  "level": "process",
+  "name": "Contact Process (H₂SO₄)",
+  "outputs": [
+    "contact_process_sulfuric_acid",
+    "oleum",
+    "vanadium_catalyst"
+  ],
+  "parent": "chemistry.acids",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-35"
+}

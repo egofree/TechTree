@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Without structured learning sequences, knowledge transfer becomes ad hoc and unreliable, producing practitioners of inconsistent quality",
+  "description": "Structured sequences for decomposing skills into teachable units, sequencing progressive curricula, assessing competency at each stage, and certifying completion. Turns written knowledge into embodied skill through deliberate practice pathways.",
+  "early_win": false,
+  "id": "knowledge.education-pathways",
+  "level": "capability",
+  "name": "Education Pathways",
+  "outputs": [
+    "structured_curricula",
+    "skill_certification",
+    "practitioner_ladders"
+  ],
+  "parent": "knowledge",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-200+"
+}

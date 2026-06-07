@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "belleville_washers",
+  "@type": "Product",
+  "name": "Belleville Washers",
+  "source": "metals.springs",
+  "tags": {
+    "material": []
+  }
+}

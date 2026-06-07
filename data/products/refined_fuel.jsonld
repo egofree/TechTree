@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "refined_fuel",
+  "@type": "Product",
+  "name": "Refined Fuel",
+  "source": "energy.refining",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

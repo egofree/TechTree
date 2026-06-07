@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cvd_thin_films",
+  "@type": "Product",
+  "name": "Cvd Thin Films",
+  "source": "photolithography.fab-processes.cvd",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

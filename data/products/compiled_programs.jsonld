@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "compiled_programs",
+  "@type": "Product",
+  "name": "Compiled Programs",
+  "source": "software-bootstrapping.compilers",
+  "tags": {
+    "material": [],
+    "capability": [
+      "computing"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "measurement_standards",
+  "@type": "Product",
+  "name": "Measurement Standards",
+  "source": "knowledge.standards-bodies",
+  "tags": {
+    "material": []
+  }
+}

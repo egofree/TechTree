@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "climate-control-units",
+  "@type": "Product",
+  "name": "Climate Control Units",
+  "source": "energy.hvac",
+  "tags": {
+    "capability": [
+      "cooling"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

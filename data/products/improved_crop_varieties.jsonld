@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "improved_crop_varieties",
+  "@type": "Product",
+  "name": "Improved Crop Varieties",
+  "source": "agriculture.selective-breeding",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

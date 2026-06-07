@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "substations",
+  "@type": "Product",
+  "name": "Substations",
+  "source": "energy.power-distribution",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

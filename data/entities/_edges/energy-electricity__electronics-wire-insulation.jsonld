@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.electricity__electronics.wire-insulation",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "energy.electricity",
+  "to": "electronics.wire-insulation"
+}

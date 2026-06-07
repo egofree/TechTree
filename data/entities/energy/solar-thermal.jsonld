@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Capture of concentrated sunlight to produce heat from 80\u00b0C (flat-plate water heaters) to 3,500\u00b0C (solar furnaces) using parabolic troughs, dishes, and heliostat fields. Provides high-temperature process heat without fuel consumption.",
+  "early_win": true,
+  "early_win_note": "A simple flat-plate solar water heater can be built with wood, glass, and copper tubing in days",
+  "id": "energy.solar-thermal",
+  "level": "capability",
+  "name": "Solar Thermal Energy",
+  "outputs": [
+    "solar_heat",
+    "solar_steam",
+    "concentrated_solar_power",
+    "solar_furnace_heat"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": true,
+    "era": "industrial",
+    "material": [
+      "glass",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30"
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "rubber_insulated_cable",
+  "@type": "Product",
+  "name": "Rubber Insulated Cable",
+  "source": "electronics.wire-insulation",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

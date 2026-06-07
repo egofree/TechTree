@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "alnico_magnets",
+  "@type": "Product",
+  "name": "Alnico Magnets",
+  "source": "metals.magnetic-materials",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

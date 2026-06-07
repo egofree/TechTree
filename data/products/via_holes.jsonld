@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "via_holes",
+  "@type": "Product",
+  "name": "Via Holes",
+  "source": "photolithography.fab-processes.plasma-etching",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ]
+  }
+}

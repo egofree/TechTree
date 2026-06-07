@@ -1,0 +1,11 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "steel-tubes",
+  "@type": "Product",
+  "name": "Steel Tubes",
+  "source": "metals.pipe-making",
+  "tags": {
+    "material": ["metals"],
+    "capability": ["construction"]
+  }
+}

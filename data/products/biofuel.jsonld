@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "biofuel",
+  "@type": "Product",
+  "name": "Biofuel",
+  "source": "energy.biomass-energy",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

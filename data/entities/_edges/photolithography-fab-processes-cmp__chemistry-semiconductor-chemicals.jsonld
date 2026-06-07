@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/photolithography.fab-processes.cmp__chemistry.semiconductor-chemicals",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "photolithography.fab-processes.cmp",
+  "to": "chemistry.semiconductor-chemicals"
+}

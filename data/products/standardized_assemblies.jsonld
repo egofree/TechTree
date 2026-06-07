@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "standardized_assemblies",
+  "@type": "Product",
+  "name": "Standardized Assemblies",
+  "source": "machine-tools.mass-production",
+  "tags": {
+    "material": [],
+    "capability": [
+      "measurement",
+      "organization"
+    ]
+  }
+}

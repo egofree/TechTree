@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Manufacture of seals, gaskets, and compression packing from rubber, elastomers, PTFE, and fiber materials for fluid containment in static and dynamic applications.",
+  "early_win": false,
+  "id": "polymers.seals-gaskets",
+  "level": "capability",
+  "name": "Seals, Gaskets & Packing",
+  "outputs": [
+    "o-rings",
+    "gaskets",
+    "compression-packing",
+    "lip-seals"
+  ],
+  "parent": "polymers",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-30"
+}

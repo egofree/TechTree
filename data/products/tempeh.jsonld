@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tempeh",
+  "@type": "Product",
+  "name": "Tempeh",
+  "source": "food-processing.fermentation",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

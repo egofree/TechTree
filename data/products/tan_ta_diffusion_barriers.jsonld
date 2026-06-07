@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tan_ta_diffusion_barriers",
+  "@type": "Product",
+  "name": "TaN/Ta Diffusion Barriers",
+  "source": "metals.refractory-specialty",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

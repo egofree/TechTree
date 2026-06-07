@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "elemental_sulfur",
+  "@type": "Product",
+  "name": "Elemental Sulfur",
+  "source": "mining.sulfur-extraction",
+  "tags": {
+    "material": [
+      "stone",
+      "chemicals"
+    ]
+  }
+}

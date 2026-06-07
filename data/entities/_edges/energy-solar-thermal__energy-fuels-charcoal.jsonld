@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.solar-thermal__energy.fuels.charcoal",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.solar-thermal",
+  "to": "energy.fuels.charcoal",
+  "label": "Solar thermal builds on thermal energy knowledge"
+}

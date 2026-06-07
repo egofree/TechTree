@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Silver halide emulsion preparation, photographic plate coating, and light-sensitive chemical synthesis for imaging and photoresist precursor production.",
+  "early_win": false,
+  "id": "chemistry.photographic-chemistry",
+  "level": "capability",
+  "name": "Photographic Chemistry",
+  "outputs": [
+    "silver-halide-emulsions",
+    "photographic-plates",
+    "photoresist-precursors"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-35"
+}

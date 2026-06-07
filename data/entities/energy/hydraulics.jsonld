@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Generation and control of mechanical force through pressurized fluid systems. Hydraulic presses, jacks, and actuators multiply small input forces into enormous output forces, enabling heavy forming, lifting, and clamping operations essential for construction, metalworking, and industrial machinery.",
+  "early_win": false,
+  "id": "energy.hydraulics",
+  "level": "capability",
+  "name": "Hydraulic Power",
+  "outputs": [
+    "hydraulic-presses",
+    "hydraulic-jacks",
+    "hydraulic-actuators"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy",
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "enamelled_magnet_wire",
+  "@type": "Product",
+  "name": "Enamelled Magnet Wire",
+  "source": "electronics.wire-insulation",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

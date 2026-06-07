@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "nitrogen_fixation",
+  "@type": "Product",
+  "name": "Biological Nitrogen Fixation",
+  "source": "agriculture.crop-rotation",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

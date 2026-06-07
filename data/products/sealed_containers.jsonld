@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sealed_containers",
+  "@type": "Product",
+  "name": "Sealed Containers",
+  "source": "food-processing.canning",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

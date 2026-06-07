@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "beneficial_habitat",
+  "@type": "Product",
+  "name": "Beneficial Insect Habitat",
+  "source": "agriculture.pest-management",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "solar_furnace_heat",
+  "@type": "Product",
+  "name": "Solar Furnace Heat",
+  "source": "energy.solar-thermal",
+  "tags": {
+    "material": []
+  }
+}

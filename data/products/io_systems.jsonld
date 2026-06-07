@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "io_systems",
+  "@type": "Product",
+  "name": "I/O Systems",
+  "source": "computing.computer-architecture",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ],
+    "capability": [
+      "computing"
+    ]
+  }
+}

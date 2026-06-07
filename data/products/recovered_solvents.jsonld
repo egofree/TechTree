@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "recovered_solvents",
+  "@type": "Product",
+  "name": "Recovered Solvents",
+  "source": "chemistry.chemical-recovery",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

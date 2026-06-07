@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "reprocessed_concentrate",
+  "@type": "Product",
+  "name": "Reprocessed Concentrate",
+  "source": "mining.tailings-reprocessing",
+  "tags": {
+    "material": [
+      "stone"
+    ]
+  }
+}

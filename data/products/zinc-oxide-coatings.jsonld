@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "zinc-oxide-coatings",
+  "@type": "Product",
+  "name": "Zinc Oxide Coatings",
+  "source": "chemistry.paint",
+  "tags": {
+    "capability": [],
+    "material": [
+      "chemicals",
+      "metals"
+    ]
+  }
+}

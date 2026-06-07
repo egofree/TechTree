@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "certified_cylinders",
+  "@type": "Product",
+  "name": "Certified Cylinders",
+  "source": "gas-handling.cylinder-filling",
+  "tags": {
+    "material": [
+      "gases"
+    ]
+  }
+}

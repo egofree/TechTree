@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Pigment grinding, binder formulation, and coating production including titanium dioxide whites, alkyd paints, and zinc oxide anti-corrosion coatings.",
+  "early_win": false,
+  "id": "chemistry.paint",
+  "level": "capability",
+  "name": "Paint & Coating Manufacturing",
+  "outputs": [
+    "tio2-pigments",
+    "alkyd-paints",
+    "zinc-oxide-coatings"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-25"
+}

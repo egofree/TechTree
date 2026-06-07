@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "flat_glass_ribbon",
+  "@type": "Product",
+  "name": "Flat Glass Ribbon",
+  "source": "glass.basic.float-glass",
+  "tags": {
+    "material": [
+      "glass"
+    ]
+  }
+}

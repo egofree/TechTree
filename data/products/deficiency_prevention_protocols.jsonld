@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "deficiency_prevention_protocols",
+  "@type": "Product",
+  "name": "Deficiency Prevention Protocols",
+  "source": "health.nutrition",
+  "tags": {
+    "material": [],
+    "capability": [
+      "health",
+      "organization"
+    ]
+  }
+}

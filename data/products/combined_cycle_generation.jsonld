@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "combined_cycle_generation",
+  "@type": "Product",
+  "name": "Combined Cycle Generation",
+  "source": "energy.gas-turbine",
+  "tags": {
+    "material": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hermetic_feedthroughs",
+  "@type": "Product",
+  "name": "Hermetic Feedthroughs",
+  "source": "glass.glass-to-metal-seals",
+  "tags": {
+    "material": [
+      "glass"
+    ]
+  }
+}

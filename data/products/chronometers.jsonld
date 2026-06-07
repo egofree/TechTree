@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "chronometers",
+  "@type": "Product",
+  "name": "Chronometers",
+  "source": "measurement.horology",
+  "tags": {
+    "capability": [
+      "measurement",
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

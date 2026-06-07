@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "file_systems",
+  "@type": "Product",
+  "name": "File Systems",
+  "source": "software-bootstrapping.operating-systems",
+  "tags": {
+    "material": [],
+    "capability": [
+      "computing"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Manufacture of metal pipes and tubes by casting, extrusion, welding, or seamless piercing. Pipes are essential infrastructure for water distribution, gas handling, steam transport, and chemical processing. Cast iron pipes for water, steel tubes for structural use, and welded pipes for fluids each require distinct processes.",
+  "early_win": false,
+  "id": "metals.pipe-making",
+  "level": "capability",
+  "name": "Pipe and Tube Manufacturing",
+  "outputs": [
+    "metal-pipes",
+    "steel-tubes",
+    "cast-iron-pipes"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

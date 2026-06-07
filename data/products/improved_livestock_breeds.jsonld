@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "improved_livestock_breeds",
+  "@type": "Product",
+  "name": "Improved Livestock Breeds",
+  "source": "agriculture.selective-breeding",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

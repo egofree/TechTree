@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "chlorine-gas",
+  "@type": "Product",
+  "name": "Chlorine Gas",
+  "source": "chemistry.bleaching",
+  "tags": {
+    "capability": [],
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

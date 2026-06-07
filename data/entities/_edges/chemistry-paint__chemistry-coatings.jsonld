@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.paint__chemistry.coatings",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "chemistry.paint",
+  "to": "chemistry.coatings"
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "breeding_records",
+  "@type": "Product",
+  "name": "Breeding Records",
+  "source": "agriculture.selective-breeding",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

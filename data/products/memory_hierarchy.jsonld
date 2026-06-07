@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "memory_hierarchy",
+  "@type": "Product",
+  "name": "Memory Hierarchy",
+  "source": "computing.computer-architecture",
+  "tags": {
+    "material": [
+      "metals",
+      "silicon"
+    ],
+    "capability": [
+      "computing"
+    ]
+  }
+}

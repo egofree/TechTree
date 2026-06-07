@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Shaping and joining wood into structures, furniture, patterns, and tool handles using hand saws, planes, chisels, and measuring tools. Carpentry provides wooden patterns for metal casting, structural framing for buildings, and finished goods. The fundamental wood-working capability that supports construction and manufacturing.",
+  "early_win": true,
+  "id": "foundations.carpentry",
+  "level": "capability",
+  "name": "Basic Carpentry",
+  "outputs": [
+    "wooden-structures",
+    "furniture",
+    "wooden-patterns"
+  ],
+  "parent": "foundations",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "wood"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 1-5"
+}

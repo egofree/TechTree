@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "interoperability_specifications",
+  "@type": "Product",
+  "name": "Interoperability Specifications",
+  "source": "knowledge.standards-bodies",
+  "tags": {
+    "material": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "switchgear",
+  "@type": "Product",
+  "name": "Switchgear",
+  "source": "energy.power-distribution",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

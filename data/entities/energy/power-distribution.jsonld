@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Without transformers, AC power distribution beyond 1-2 km is impractical, preventing centralized generation and industrial-scale power",
+  "description": "Transformer construction and AC power distribution systems enabling voltage step-up for efficient long-distance transmission and step-down for safe utilization. Covers core and winding manufacturing, oil-filled and dry-type transformers, substation layout, and switchgear.",
+  "early_win": false,
+  "id": "energy.power-distribution",
+  "level": "capability",
+  "name": "Transformer & Power Distribution",
+  "outputs": [
+    "distribution_transformers",
+    "power_transformers",
+    "substations",
+    "switchgear",
+    "distribution_panels",
+    "instrument_transformers"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.stirling-engine__machine-tools.machining",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.stirling-engine",
+  "to": "machine-tools.machining"
+}

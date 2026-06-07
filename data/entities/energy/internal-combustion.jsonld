@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "critical_note": "Internal combustion engines enable motorized transport, aviation, and portable power generation that steam engines cannot practically provide",
+  "description": "Otto cycle (gasoline, spark ignition) and Diesel cycle (compression ignition) engines converting fuel combustion into rotary mechanical power. Gasoline engines achieve 25-35% efficiency at 0.5-5 kW/kg. Diesel engines achieve 35-45% efficiency (up to 50% marine) with higher torque and longer life. Requires precision machining at 10-25 μm tolerances.",
+  "early_win": false,
+  "id": "energy.internal-combustion",
+  "level": "capability",
+  "name": "Internal Combustion Engines",
+  "outputs": [
+    "gasoline_engines",
+    "diesel_engines",
+    "mechanical_power"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy",
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40"
+}

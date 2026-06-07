@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.stirling-engine__metals.casting",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "energy.stirling-engine",
+  "to": "metals.casting"
+}

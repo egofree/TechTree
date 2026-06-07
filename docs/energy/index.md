@@ -16,7 +16,9 @@ Capabilities in this domain:
 - [Coke Production](coke.md) — Beehive and by-product recovery coke ovens converting bituminous coal to coke (60-70% yield).
 - [Water Power](gravity.md) — Undershot and overshot water wheels (1-5 HP) using gravitational water flow for mechanical power.
 - [Steam Power](steam-power.md) — Newcomen atmospheric engine (5-15 HP, 0.5-1% efficiency) and Watt separate condenser engine (10-100+ HP, 3-5% efficiency).
-- [Heat Engines](engine.md) — Internal and external combustion engines for mechanical power generation. Otto cycle (gasoline), diesel cycle, and gas turbine engines.
+- [Heat Engines](engine.md) — Overview of all heat engine types (Stirling, Otto, Diesel, gas turbine, steam) with selection guide and efficiency comparison.
+- [Internal Combustion Engines](internal-combustion.md) — Otto cycle (gasoline, spark ignition) and Diesel cycle (compression ignition) engines. Precision machining at 10-25 μm tolerances. Road vehicles, aircraft, generators, ships.
+- [Stirling Engine](stirling-engine.md) — Closed-cycle external combustion engine. Any heat source works (solar, biomass, waste heat). Achievable with lathe and basic foundry.
 - [Energy Storage & Diversification](storage.md) — Lead-acid batteries, nickel-iron batteries, mechanical storage (pumped hydro, flywheels, compressed air), energy diversification (hydroelectric, wind, solar PV, biomass), grid infrastructure, and UPS systems for semiconductor fab equipment.
 - [Wind Power](wind.md) — Windmills for mechanical power: grain grinding, sawing, and water pumping.
 - [Solar Thermal Energy](solar-thermal.md) — Concentrated sunlight for heat production from water heating to solar furnaces, powering steam turbines and industrial processes without fuel consumption.

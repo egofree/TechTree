@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Closed-cycle external combustion engine using a permanently sealed working gas (air, helium, or hydrogen) alternately heated and cooled. Thermal efficiency 5-40% depending on temperature ratio. Any external heat source works: solar, biomass, waste heat, geothermal. Achievable with moderate machining capability (lathe, basic foundry).",
+  "early_win": false,
+  "id": "energy.stirling-engine",
+  "level": "capability",
+  "name": "Stirling Engine",
+  "outputs": [
+    "stirling_mechanical_power",
+    "cryocoolers"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-25"
+}

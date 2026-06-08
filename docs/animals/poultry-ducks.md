@@ -15,6 +15,10 @@ Duck eggs are larger than chicken eggs (70-80 g vs 50-65 g), richer in fat and p
 
 ## Prerequisites
 
+![Ducks, Nacka ( 1090797)](../images/animals/animals_poultry_ducks.jpg)
+
+> *Image: Matti Blume, CC BY-SA 4.0*
+
 | Requirement | Source | Notes |
 |-------------|--------|-------|
 | Water for drinking/head-washing (10-15 cm depth) | [`water`](../water/basic-treatment.md) | 500-1000 mL/day per duck |

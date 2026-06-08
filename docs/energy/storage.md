@@ -13,6 +13,10 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 
 ## Prerequisites
 
+![Employment in selected energy subsectors, 2019](../images/energy/energy_storage.jpg)
+
+> *Image: International Energy Agency, CC BY 4.0*
+
 - [Chemistry](../chemistry/index.md) — battery chemistry and electrolyte production
 - [Electricity Generation](electricity.md) — generators, motors, transformers, wire
 - [Metals](../metals/index.md) — lead, nickel, iron for battery construction

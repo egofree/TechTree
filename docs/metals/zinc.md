@@ -17,6 +17,10 @@ The bootstrap chain runs: zinc enables galvanized steel → long-life infrastruc
 
 ## Prerequisites
 
+![World: Zinc Production, 1946](../images/metals/metals_zinc.jpg)
+
+> *Image: Central Intelligence Agency, Public domain*
+
 - **Materials**: [Sphalerite ore](../mining/extraction.md) (ZnS, 3-12% Zn grade), [coke or charcoal](../energy/charcoal.md) for reduction, [sulfuric acid](../chemistry/acids.md) for leaching (electrolytic route), [limestone](../ceramics/lime.md) for pH control in flotation, [copper sulfate](../chemistry/index.md) as flotation activator
 - **Tools**: [Crushing and grinding equipment](./casting.md) (jaw crusher, ball mill), flotation cells, [roaster furnace](../energy/charcoal.md) (fluidized bed, 900-1000°C), retorts or blast furnace for smelting, [electrowinning cells](../chemistry/electrolysis.md) (aluminum cathodes, Pb-Ag anodes), induction furnace for casting (450-500°C)
 - **Knowledge**: Froth flotation chemistry, acid-base leaching and solution purification, electrochemistry (electrowinning at 3.0-3.5 V), distillation and condensation of metal vapors

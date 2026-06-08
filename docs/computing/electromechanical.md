@@ -13,6 +13,10 @@ Before electronic computers, automated computation and control require electrome
 
 ## Prerequisites
 
+![Torres Quevedo's Electromechanical Arithmometer](../images/computing/computing_electromechanical.jpg)
+
+> *Image: Unknown authorUnknown author, Public domain*
+
 - [Mechanical computing](mechanical.md) — cams, linkages, governors, and mechanical automation
 - [Electricity](../energy/electricity.md) — power generation and distribution for relay and solenoid systems
 - [Iron and steel](../metals/iron-steel.md) — relay contacts, cam blanks, spring wire, armature cores

@@ -13,6 +13,10 @@ Semiconductor manufacturing requires two classes of specialty gases: dopant gase
 
 ## Prerequisites
 
+![Calculation of the chemical potential of hypothetical Van der Waals gases](../images/chemistry/chemistry_dopant-etch-gases.jpg)
+
+> *Image: E-gabrielyan, CC BY-SA 4.0*
+
 - [Electrolysis](electrolysis.md) — chlorine and hydrogen production
 - [Hydrogen and silane](hydrogen-silane.md) — carrier gas and silicon source
 - [Gas handling](../gas-handling/basic.md) — piping, valves, and gas distribution

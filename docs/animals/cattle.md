@@ -26,6 +26,10 @@ No other livestock species matches cattle for combined output of food, fiber, po
 
 ## Prerequisites
 
+![Salzburg Zoo Hellbrunn Watusi cattle Bos taurus taurus watusi-0153](../images/animals/animals_cattle.jpg)
+
+> *Image: Isiwal, CC BY-SA 4.0*
+
 | Requirement | Source | Notes |
 |-------------|--------|-------|
 | Secure fencing and handling facilities | [`foundations.tools-basic`](../foundations/tools-basic.md) | Cattle crush, races, gates |

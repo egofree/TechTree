@@ -13,6 +13,10 @@ Refractory metals — tungsten (W, mp 3422°C), molybdenum (Mo, mp 2623°C), tan
 
 ## Properties Comparison
 
+![23 0068120 Convair Negative Image - Samples of chemically milled refractory metals (54183531290)](../images/metals/metals_refractory-metals.jpg)
+
+> *Image: San Diego Air &amp; Space Museum Archives, Public domain*
+
 | Property | Tungsten (W) | Molybdenum (Mo) | Tantalum (Ta) | Niobium (Nb) |
 |----------|-------------|-----------------|---------------|--------------|
 | Atomic number | 74 | 42 | 73 | 41 |

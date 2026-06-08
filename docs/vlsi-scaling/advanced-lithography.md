@@ -10,6 +10,10 @@
 
 ## Prerequisites
 
+![Increasing litho steps for advanced nodes](../images/vlsi-scaling/vlsi-scaling_advanced-lithography.jpg)
+
+> *Image: Guiding light, Public domain*
+
 - [Optics Inspection](../optics/inspection.md) — lens quality verification and alignment
 - [Resists & Masks](../photolithography/resists-masks.md) — photoresist chemistry and photomask fabrication
 

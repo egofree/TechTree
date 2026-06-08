@@ -12,6 +12,10 @@ Chemical vapor deposition (CVD) grows thin solid films on a substrate by decompo
 
 ## CVD Variants
 
+![Chemical Vapor Deposition Setup](../images/photolithography/photolithography_cvd.jpg)
+
+> *Image: Aksy88, CC BY-SA 4.0*
+
 Three major CVD variants cover the full temperature and film-quality spectrum needed in IC fabrication:
 
 | Type | Pressure | Temperature | Deposition rate | Uniformity | Primary use |

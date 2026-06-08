@@ -10,6 +10,10 @@
 
 ## Overview
 
+![IC Substrate](../images/electronics/electronics_packaging.png)
+
+> *Image: ShimantoEagle, CC BY-SA 4.0*
+
 Integrated circuit packaging and interconnect: die singulation from wafers, die attach to substrates, wire bonding and flip-chip interconnection, encapsulation in epoxy molding compounds, and advanced packaging (BGA, QFP, chip-scale). Packaging bridges bare silicon die and functional electronic assemblies, protecting the die while providing electrical, thermal, and mechanical interfaces.
 
 IC packaging is the process of encapsulating a bare silicon die in a protective package that provides electrical connections to the outside world, mechanical support, thermal management, and environmental protection. The package is the interface between the fragile microscopic circuitry on the die and the macroscopic world of circuit boards, connectors, and systems. Without packaging, a bare die cannot be handled, connected, or used in any practical circuit.

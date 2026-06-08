@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Grape](../images/plants/plants_grape.jpeg)
+
+> *Image: Викидим, CC BY-SA 4.0*
+
 Grape
 
 *Vitis vinifera* (Vitaceae) is a fruit & nut tree species of major importance for civilization bootstrapping. Grapevine, European grape provides fruit, leaves, flowers as its primary edible product and ranks 59/100 on the nutrition score.

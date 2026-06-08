@@ -10,6 +10,10 @@
 
 ## Prerequisites
 
+![Weaving Inle 3](../images/textiles/textiles_weaving.jpg)
+
+> *Image: Philip Nalangan, CC BY-SA 4.0*
+
 - [Spinning](spinning.md) — yarn supply for warp and weft
 - [Fiber Preparation](fibers.md) — prepared fiber for spinning
 - [Iron & Steel](../metals/iron-steel.md) — heddle wire, ratchets, reed dents

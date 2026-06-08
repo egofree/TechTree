@@ -13,6 +13,10 @@ Vacuum technology creates and maintains low-pressure environments essential for 
 
 ## Prerequisites
 
+![Efficient cleaning with modern vacuum technology in a well-lit indoor space](../images/gas-handling/gas-handling_vacuum.jpg)
+
+> *Image: Shixart1985, CC BY 2.0*
+
 - [Gas Handling Basics](basic.md) — positive-pressure gas distribution, piping, and valves
 - [Mechanical Manufacturing](../machine-tools/index.md) — precision machining for pump components
 - [Metals](../metals/index.md) — materials for vacuum chambers and fittings

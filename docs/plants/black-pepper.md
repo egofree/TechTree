@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Black Pepper](../images/plants/plants_black-pepper.jpg)
+
+> *Image: NorbertNagel, CC BY-SA 4.0*
+
 Black Pepper
 
 *Piper nigrum* (Piperaceae) is a medicinal & spice plant species of major importance for civilization bootstrapping. Pepper provides fruit, seeds/nuts, spice/beverage as its primary edible product and ranks 73/100 on the nutrition score.

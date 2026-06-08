@@ -13,6 +13,10 @@ Core mathematics gives engineers algebra and geometry — tools for static, dete
 
 ## Prerequisites
 
+![Common area in the Brown University Division of Applied Mathematics building](../images/mathematics/mathematics_applied-mathematics.jpg)
+
+> *Image: Chris Rycroft, CC BY 2.0*
+
 - [Core Mathematics](core-mathematics.md) — algebra, trigonometry, and coordinate geometry
 
 

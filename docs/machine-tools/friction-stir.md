@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Advanced friction stir welding and processing tools by MegaStir](../images/machine-tools/machine-tools_friction-stir.jpg)
+
+> *Image: NearEMPTiness, CC BY-SA 4.0*
+
 Solid-state joining via rotating tool (500-1500 RPM, 50-200 mm/min feed). Tool friction heats metal to plasticized state (70-90% of melting point) without melting. Joins unweldable aluminum alloys (2xxx, 7xxx series) and dissimilar metals (Al-to-steel, Al-to-Cu) without brittle intermetallics. Tool materials: H13 steel for aluminum, PCBN for steel.
 
 The rotating pin tool generates friction heat at the shoulder-workpiece interface and along the pin profile. The plasticized material flows around the pin from the leading edge to the trailing edge, consolidating behind the tool to form the weld. The forging pressure applied by the tool shoulder prevents void formation and ensures intimate contact between the plasticized material and the workpiece surfaces.

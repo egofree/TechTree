@@ -13,6 +13,10 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 
 ## Prerequisites
 
+![Ethanolamine-chemical-liquid](../images/chemistry/chemistry_acids.jpg)
+
+> *Image: Carbamatesalts, CC BY-SA 4.0*
+
 **Materials**:
 - [Elemental sulfur or pyrite](../mining/processing.md) — sulfur source for SO₂ generation
 - [Sodium nitrate (Chile saltpeter)](../mining/processing.md) — NOx source for lead chamber process

@@ -15,6 +15,10 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 
 ## Decision Framework: Exposure Assessment Method
 
+![Branches of Environmental Toxicology - Entox-fields lrg](../images/ehs/ehs_toxicology.png)
+
+> *Image: Toxtutor, CC BY-SA 3.0*
+
 | Scenario | Recommended Method | Accuracy | Cost | Turnaround |
 |----------|-------------------|----------|------|------------|
 | Quick check during operation | Colorimetric detector tube | ±25% | $5-15 per tube | Immediate (2-5 min) |

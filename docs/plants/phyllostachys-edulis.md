@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Moso Bamboo](../images/plants/plants_phyllostachys-edulis.jpg)
+
+> *Image: Lazaregagnidze, CC BY-SA 4.0*
+
 Moso bamboo (*Phyllostachys edulis*) is the largest temperate bamboo species, producing culms (stems) 10-20 meters tall and 8-18 cm in diameter that are among the most versatile structural materials in the natural world. Bamboo has a higher tensile strength than steel by weight, grows to harvestable size in 3-5 years (vs. 40-80 years for timber trees), and regenerates from the same root system after harvest.
 
 A single moso bamboo plant produces new culms annually from its underground rhizome network, reaching full height in just 60-90 days. The culms emerge at full diameter and grow by elongation, not by thickening. After emergence, the culm takes 3-5 years to mature (lignify and harden) before it is suitable for structural use. Once mature, culms remain standing for 8-12 years before beginning to decline.

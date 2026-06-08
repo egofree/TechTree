@@ -11,6 +11,10 @@ This document covers the CZ puller as a **machine** — design, materials, fabri
 
 ## Puller Chamber Assembly
 
+![Silicon seed crystal puller rod](../images/silicon/silicon_crystal-growth_cz-pulling.jpg)
+
+> *Image: Warut Roonguthai, CC BY-SA 4.0*
+
 **Main vessel**:
 - Water-cooled stainless steel (304 or 316) cylindrical chamber. Two sections: upper (pull chamber, 300-500 mm diameter, 800-1200 mm tall) and lower (furnace chamber, 400-600 mm diameter, 400-600 mm tall). Separated by a gate valve to allow crystal removal without exposing hot crucible to air.
 - Wall construction: 5-10 mm stainless steel inner shell, welded water cooling channels (external half-pipe welding or bonded jacket). Cooling water flow: 5-15 L/min at 2-4 bar. Thermal load on walls: 5-15 kW during growth — inadequate cooling warps the chamber and contaminates the crystal.

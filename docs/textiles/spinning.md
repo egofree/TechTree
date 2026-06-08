@@ -10,6 +10,10 @@
 
 ## Prerequisites
 
+![Punjabi spinning wheel 05](../images/textiles/textiles_spinning.jpg)
+
+> *Image: Gurnoor ghuman, CC BY-SA 4.0*
+
 - [Fiber Preparation](fibers.md) — prepared fiber supply (carded, combed, or hackled)
 - [Basic Tools](../foundations/tools-basic.md) — for drop spindle construction
 - [Iron & Steel](../metals/iron-steel.md) — for spinning wheel hardware (bearings, spindle, crank)

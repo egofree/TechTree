@@ -12,6 +12,10 @@ Refractories are heat-resistant ceramic materials that line furnaces, kilns, inc
 
 ## Prerequisites
 
+![Refractory bricks lining](../images/chemistry/chemistry_refractories.jpg)
+
+> *Image: Alexknight12, CC BY-SA 3.0*
+
 - [Ceramic kilns](../ceramics/kilns.md) — firing refractory bricks to 1200-1600°C
 - [Mining and processing](../mining/processing.md) — clay, bauxite, magnesite, and silica raw materials
 - [Metals / Iron and steel](../metals/iron-steel.md) — steel for kiln furniture, handling equipment, and furnace structures

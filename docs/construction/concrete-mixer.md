@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Concrete mixer - Mobile self-loading concrete mixer, Queensland, circa 1930](../images/construction/construction_concrete-mixer.jpg)
+
+> *Image: Queensland State Archives, Public domain*
+
 A concrete mixer combines cement, sand, aggregate, and water into a homogeneous mixture by tumbling the ingredients inside a rotating drum. Internal baffles (fixed blades welded to the drum interior) lift and fold the batch with each rotation, ensuring uniform distribution of cement paste around aggregate particles. The rotating-drum tilting design is the simplest effective mixer: a conical or cylindrical drum mounted on a frame, rotated by a hand crank or motor, and tilted to discharge the mixed batch.
 
 Mixing effectiveness depends on drum geometry, rotation speed, and baffle design. Too slow: ingredients slide without mixing. Too fast: centrifugal force pins material to the drum wall, preventing folding. The optimal speed keeps the material in a cascading motion — lifted by baffles to the top of the drum, then falling through itself. Drum rotation rate: 15-25 RPM for hand-cranked, 12-20 RPM for powered mixers.

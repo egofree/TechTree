@@ -13,6 +13,10 @@ Machining removes material from a workpiece to achieve precise geometry, surface
 
 ## Lathe Operations
 
+![Precision metal machining and welding for heavy industrial components](../images/machine-tools/machine-tools_machining.jpg)
+
+> *Image: Leadingtopunion, CC0*
+
 The lathe rotates the workpiece against a stationary single-point cutting tool. All cylindrical parts (shafts, bushings, pulleys, threads) originate here.
 
 ## Turning

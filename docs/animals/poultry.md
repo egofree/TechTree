@@ -23,6 +23,10 @@ Poultry farming is the managed raising of domesticated birds for meat, eggs, fea
 
 ## Prerequisites
 
+![Poultry farming and viticulture - geograph.org.uk - 6120883](../images/animals/animals_poultry.jpg)
+
+> *Image: Jonathan Billinger, CC BY-SA 2.0*
+
 | Requirement | Source | Notes |
 |-------------|--------|-------|
 | Grain (corn, wheat, oats) | [`agriculture`](../agriculture/index.md) | 100-400 g/bird/day depending on species |

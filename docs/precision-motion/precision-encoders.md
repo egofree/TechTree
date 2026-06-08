@@ -13,6 +13,10 @@ Nanometer positioning stages (see [Nanometer Positioning](./nanometer-positionin
 
 ## Prerequisites
 
+![The Future Physics of Planet Earth (40217810733)](../images/precision-motion/precision-motion_precision-encoders.jpg)
+
+> *Image: Steve Jurvetson from Los Altos, USA, CC BY 2.0*
+
 - [Nanometer Positioning](nanometer-positioning.md) — the actuation systems these encoders serve
 - [Optics](../optics/index.md) — optical components and laser sources
 - [Precision Metrology](../measurement/precision-metrology.md) — measurement foundations

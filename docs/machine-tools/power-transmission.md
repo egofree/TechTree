@@ -12,6 +12,10 @@ This article covers mechanical power transmission systems — belts, shafts, pul
 
 ## Overview
 
+![Line shaft 2](../images/machine-tools/machine-tools_power-transmission.jpg)
+
+> *Image: Jet Lowe, Public domain*
+
 Mechanical power transmission converts rotational energy from a prime mover (water wheel, steam engine, electric motor) into useful work at one or more machine tools. Before individual electric motors on each machine (which required mature electrical infrastructure), every factory and workshop distributed power mechanically through a system of line shafts, counter-shafts, and belts. The technology is simple in principle — wrap a belt around two pulleys — but the engineering of efficient, reliable shaft systems required careful attention to belt tension, shaft deflection, bearing placement, and speed ratios.
 
 During the Industrial Revolution, line shaft systems were the backbone of every factory floor. A single steam engine or water wheel drove a main shaft running the length of the building, with belt-driven takeoffs to each machine. A typical 1870s machine shop had 150-300 m of line shafting driving 20-50 machines. These systems remained common in manufacturing well into the 1920s, and the principles remain relevant for bootstrapping scenarios where electric motors are not yet available or where a single prime mover must serve multiple functions.

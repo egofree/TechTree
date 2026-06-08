@@ -10,6 +10,12 @@
 
 ## Overview
 
+![NGC 3109 imaged by the Dark Energy Camera](../images/energy/energy_electric-furnaces_electrode-manufacturing.jpg)
+
+> *Image: Credit: Dark Energy Survey/DOE/FNAL/DECam/CTIO/NOIRLab/NSF/AURA
+
+Image processing: R. Colombari &amp; M. Zamani (NSF NOIRLab), CC BY 4.0*
+
 Manufacturing of graphite electrodes from petroleum coke and coal tar pitch via extrusion, baking (800-1200°C), and graphitization (2500-3000°C). Bootstrapping challenge: need electrodes for EAF but need EAF for graphitization. Amorphous carbon electrodes bridge the gap.
 
 The production sequence begins with calcining raw petroleum coke at moderate temperatures to remove volatiles, then grinding it to specified particle sizes. The ground coke is mixed with coal tar pitch as a binder, extruded into cylindrical forms, and baked in ring furnaces over several weeks to carbonize the binder. For graphite electrodes, a subsequent graphitization step at very high temperatures converts the amorphous carbon structure to crystalline graphite, dramatically improving electrical conductivity and thermal shock resistance.

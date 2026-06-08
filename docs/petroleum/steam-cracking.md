@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Steamcracker process](../images/petroleum/petroleum_petrochemicals_steam-cracking.png)
+
+> *Image: Gholami, Z., Gholami, F., Tišler, Z., &amp; Vakili, M., CC BY-SA 4.0*
+
 Naphtha or ethane mixed with steam and heated to 750-900°C in tubular furnace for 0.1-0.5 seconds residence time. Free-radical cracking produces ethylene (30-84% yield depending on feedstock) and propylene. Cryogenic separation train yields polymer-grade ethylene (99.9%) and propylene (99.5%+).
 
 Steam cracking is the primary route to light olefins, the building blocks of the petrochemical industry. Ethylene feeds polyethylene production (the highest-volume plastic), ethylene oxide, ethylene glycol, and vinyl chloride. Propylene feeds polypropylene, acrylonitrile, and propylene oxide. Butadiene is the precursor for synthetic rubbers. The steam cracker is thus the foundational unit of any petrochemical complex.

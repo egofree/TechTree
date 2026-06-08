@@ -13,6 +13,10 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 
 ## Prerequisites
 
+![Precision Engineering Metrology of Small Holes (5940488905)](../images/measurement/measurement_precision-metrology.jpg)
+
+> *Image: National Institute of Standards and Technology, Public domain*
+
 - [Foundations](../foundations/index.md) — basic counting, arithmetic, and record-keeping
 - [Metals / Casting](../metals/casting.md) — cast iron for surface plates and straightedges
 - [Metals](../metals/index.md) — steel for gauge blocks, invar for length standards

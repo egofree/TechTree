@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Aloe officinalis](../images/plants/plants_aloe-officinalis.jpg)
+
+> *Image: Kor!An (Корзун Андрей), CC BY-SA 3.0*
+
 Aloe officinalis is a species of aloe in the Asphodelaceae family. The species is native to the Arabian Peninsula , from Yemen to Saudi Arabia . The plant has become naturalized in Somalia and has medicinal value. The plant also has two varieties:
 
 Aloe officinalis yields two distinct medicinal products from the same leaf: a clear gel from the inner parenchyma used topically for burns and wound care, and a bitter yellow latex from the rind layer used as a stimulant laxative. Getting the two products mixed produces a bitter, irritating preparation that does neither job well. Clean separation during filleting is the core skill of aloe processing.

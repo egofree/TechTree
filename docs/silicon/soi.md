@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Fossils of all kinds, digested into a method, suitable to their mutual relation and affinity : with the names by which they were known to the antients, and those by which they are at this day known: and notes conducing to the setting forth the natural history, and the main uses, of some of the most considerable of them. As also several papers tending to the further advancement of the knowledge of minerals, of the ores of metalls, and of all other subterraneous productions](../images/silicon/silicon_soi.jpg)
+
+> *Image: John Woodward, Public domain*
+
 Silicon-on-insulator wafer fabrication via SIMOX (oxygen implantation), Bonded SOI (wafer bonding and back-thinning), and Smart Cut (hydrogen-induced splitting) processes. Produces wafers with a buried SiO₂ layer for reduced parasitic capacitance and radiation-hard applications.
 
 An SOI wafer stacks three layers: a thin single-crystal silicon device layer on top, a buried oxide (BOX) layer of silicon dioxide in the middle, and a thick silicon handle wafer as the mechanical support. The BOX electrically isolates transistors built in the device layer from the substrate and from each other, eliminating latch-up, reducing source/drain junction capacitance, and enabling fully depleted transistors that switch faster at lower voltage than their bulk CMOS counterparts.

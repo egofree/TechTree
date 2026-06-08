@@ -13,6 +13,10 @@ Water purification for industrial use ranges from simple settling and sand filtr
 
 ## Purification Hierarchy
 
+![Industrial water treatment for Ostrow Wielkopolski in Rabczyn](../images/chemistry/chemistry_water-treatment.jpg)
+
+> *Image: Stiopa, CC BY-SA 3.0*
+
 Water purification is a staged process, each stage removing a specific class of contaminants. No single method removes everything — the stages must be applied in sequence:
 
 **Stage 1: Coagulation and settling** (removes suspended solids >1 μm):

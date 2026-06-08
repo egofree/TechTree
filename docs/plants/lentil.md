@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Lentil](../images/plants/plants_lentil.jpg)
+
+> *Image: Whoisjohngalt, CC BY-SA 4.0*
+
 Lentil
 
 *Lens culinaris* (Fabaceae) is a legumes & pulse species of major importance for civilization bootstrapping. Lentil provides seeds/nuts as its primary edible product.

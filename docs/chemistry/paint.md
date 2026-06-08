@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Brushing Lacquer by China Paint](../images/chemistry/chemistry_paint.jpg)
+
+> *Image: Mk2010, CC BY-SA 3.0*
+
 Pigment grinding, binder formulation, and coating production including titanium dioxide whites, alkyd paints, and zinc oxide anti-corrosion coatings.
 
 Primary outputs: `tio2-pigments`, `alkyd-paints`, `zinc-oxide-coatings`. These materials or products serve as inputs for downstream manufacturing and processing steps.

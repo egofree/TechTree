@@ -13,6 +13,10 @@ Semiconductor fabrication exposes workers to hydrofluoric acid, pyrophoric silan
 
 ## Decision Framework: Respiratory Protection Selection
 
+![A doctor wearing personal protective equipment for treating patients with COVID-19](../images/ehs/ehs_ppe.jpg)
+
+> *Image: Dr. Javed Anees, CC0*
+
 | Hazard Level | Concentration Range | Required Respirator | Protection Factor | Use Case |
 |-------------|-------------------|--------------------|--------------------|----------|
 | Below PEL | <PEL | None (or surgical mask for particulate) | N/A | Routine cleanroom work |

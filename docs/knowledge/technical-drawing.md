@@ -14,6 +14,10 @@ This capability covers manual drafting (pencil, ink, T-square, compass) as the b
 
 ## Prerequisites
 
+![Technical Drawing of Government Marble Confederate Headstone](../images/knowledge/knowledge_technical-drawing.jpg)
+
+> *Image: Veterans Administration, Public domain*
+
 - **Materials**: Drawing paper (smooth, dimensionally stable — vellum or kraft paper), pencils (H through B grades), ink ([Writing](writing.md))
 - **Tools**: T-square or parallel straightedge, set square (30-60-90° and 45°), compass, dividers, ruling pen, protractor, French curves, eraser, drawing board
 - **Knowledge**: Geometry (planar constructions, projection theory), arithmetic, basic algebra, [Measurement](../measurement/precision-metrology.md) systems (units, tolerances)

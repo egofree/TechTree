@@ -23,6 +23,10 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 
 ## Materials
 
+![Two Chestnut-tailed Starling (Sturnia malabarica) kissing, Satchari National Park](../images/mining/mining_tailings-reprocessing.jpg)
+
+> *Image: Princepauljoy, CC BY-SA 4.0*
+
 | Material | Specification | Source |
 |----------|--------------|--------|
 | Mine tailings | Accessible tailings deposit with assay data | Existing mine waste (historical or active) |

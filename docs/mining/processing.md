@@ -10,6 +10,10 @@
 
 ## Ore Dressing (processing raw rock to concentrated ore)
 
+![Kelly Mine - Ore Processing Building - geograph.org.uk - 3127064](../images/mining/mining_processing.jpg)
+
+> *Image: Ashley Dace, CC BY-SA 2.0*
+
 **Crushing**:
 - **Hand crushing**: Strike ore with hammer on stone anvil. Slow but effective for small quantities.
 - **[Stamp mill](../glossary/stamp-mill.md)** (the Metallurgy-Machine Tools stage transition): Vertical iron-shod wooden stamps (50-200 kg each) lifted by cam on rotating shaft, dropped by gravity. 6-12 stamps in battery. Crush ore to 1-5 mm. Water flows through battery, carries fines away. Powered by water wheel. Capacity: 1-5 tonnes/day.

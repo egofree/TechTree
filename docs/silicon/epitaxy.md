@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Atomic-Scale Growth by Pulsed Laser Deposition (4225677770)](../images/silicon/silicon_epitaxy.jpg)
+
+> *Image: Oak Ridge National Laboratory, CC BY 2.0*
+
 CVD epitaxial growth of single-crystal silicon layers on polished wafer substrates using trichlorosilane or silane at 900-1200°C. Enables independently doped device layers (p/p+ or n/n+ configurations) with autodoping control via reduced pressure and buffer layers.
 
 Epitaxy, from the Greek epi (upon) and taxis (arrangement), deposits a crystalline silicon layer that inherits the atomic ordering of the substrate beneath it. Unlike polycrystalline or amorphous silicon deposits, an epitaxial layer is a single crystal with the same lattice orientation as the wafer. This matters because transistors built on a single-crystal epilayer have far fewer defects and higher carrier mobility than those built on polycrystalline silicon.

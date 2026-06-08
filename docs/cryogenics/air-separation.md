@@ -13,6 +13,10 @@ Cryogenic air separation exploits the different boiling points of air's componen
 
 ## Prerequisites
 
+![A-cryogenic-air-separation-plant-that-produces-argon-in-addition-to-oxygen-and-nitrogen](../images/cryogenics/cryogenics_air-separation.png)
+
+> *Image: M Pintile, CC BY-SA 3.0*
+
 - [Refrigeration Fundamentals](refrigeration.md) — thermodynamic cycles for achieving cryogenic temperatures
 - [Basic Gas Handling](../gas-handling/basic.md) — gas compression, piping, and purification
 - [Metals](../metals/index.md) — steel and aluminum for column and heat exchanger construction

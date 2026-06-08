@@ -10,6 +10,10 @@
 
 ## Why Fuels Matter
 
+![World fuel production and consumption](../images/energy/energy_fuels.jpg)
+
+> *Image: Wikideas1, Public domain*
+
 **Strengths** (wood as fuel):
 - Universally available — grows on every continent except Antarctica
 - Renewable — trees regrow in 20-80 years

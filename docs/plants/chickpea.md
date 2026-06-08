@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Chickpea](../images/plants/plants_chickpea.jpg)
+
+> *Image: Sanjay Acharya, CC BY-SA 3.0*
+
 Chickpea
 
 *Cicer arietinum* (Fabaceae) is a legumes & pulse species of major importance for civilization bootstrapping. Chickpea provides leaves, roots, seeds/nuts as its primary edible product and ranks 72/100 on the nutrition score.

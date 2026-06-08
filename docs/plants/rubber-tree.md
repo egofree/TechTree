@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Rubber Tree](../images/plants/plants_rubber-tree.jpg)
+
+> *Image: Vis M, CC BY-SA 4.0*
+
 Rubber Tree
 
 *Hevea brasiliensis* (Euphorbiaceae) is a fiber & industrial crop species of major importance for civilization bootstrapping. Para rubber tree, Caoutchouc tree provides leaves, seeds/nuts as its primary edible product.

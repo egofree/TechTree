@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Oil Palm](../images/plants/plants_oil-palm.jpg)
+
+> *Image: Cayambe, CC BY-SA 3.0*
+
 Oil Palm
 
 *Elaeis guineensis* (Arecaceae) is a oilseed & spice crop species of major importance for civilization bootstrapping. African Oil palm provides fruit, leaves, seeds/nuts as its primary edible product and ranks 62/100 on the nutrition score.

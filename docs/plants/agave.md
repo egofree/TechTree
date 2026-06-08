@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Agave](../images/plants/plants_agave.jpg)
+
+> *Image: Juan Carlos Fonseca Mata, CC BY-SA 4.0*
+
 Agave
 
 Agave is a cornerstone crop for arid-zone food and fiber production. Unlike grain crops that demand consistent rainfall, agave stores carbohydrates in its massive leaf rosette and heart (piña), making it a reliable calorie source in dryland regions where seasonal rains are unpredictable. The same plant yields both food and strong leaf fiber, giving it unusually high value per unit of land and water.

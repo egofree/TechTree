@@ -10,6 +10,10 @@
 
 ## Overview
 
+![An Afghan student carries his certificate of completion and new tool after graduating from the Trade Training School Multinational Base Tarin Kot, Uruzgan province, Afghanistan, Oct. 13, 2011 111013-F-QS178-016](../images/foundations/foundations_carpentry.jpg)
+
+> *Image: SSgt Jocelyn Ford, Public domain*
+
 Shaping and joining wood into structures, furniture, patterns, and tool handles using hand saws, planes, chisels, and measuring tools. Carpentry provides wooden patterns for metal casting, structural framing for buildings, and finished goods. The fundamental wood-working capability that supports construction and manufacturing.
 
 This technology is characteristic of the Stone Age era of industrial development. It builds on earlier foundational techniques while enabling more precise and controlled manufacturing outcomes.

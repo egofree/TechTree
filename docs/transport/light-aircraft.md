@@ -13,6 +13,10 @@ Light aircraft — single-engine propeller planes of wood-and-fabric or aluminum
 
 ## Prerequisites
 
+![Reality Fairytale of the Horse and the Deer light aircraft as geese swans in Berendeyevo 2013](../images/transport/transport_light-aircraft.jpg)
+
+> *Image: Max Kuznetsov (photographer), Inna Ismailova (producer), CC BY-SA 4.0*
+
 - [Aviation fundamentals](aviation.md) — aerodynamics, propulsion, and flight mechanics
 - [Internal combustion engines](../energy/engine.md) — aircraft powerplant design and fuels
 - [Aluminum production](../metals/aluminum.md) — primary structural material for airframes

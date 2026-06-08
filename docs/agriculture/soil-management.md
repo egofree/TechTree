@@ -19,6 +19,10 @@ Position in the dependency chain: soil management depends on [Foundations → Ag
 
 ## Prerequisites
 
+![The SOIL composting waste treatment facility for Cap-Haitien Haiti (15737660637)](../images/agriculture/agriculture_soil-management.jpg)
+
+> *Image: SuSanA Secretariat, CC BY 2.0*
+
 **Materials**:
 - Organic waste (crop residues, kitchen waste, manure, leaves, straw)
 - Carbon-rich "browns" (straw, dry leaves, sawdust, wood chips) and nitrogen-rich "greens" (manure, fresh grass, kitchen waste)

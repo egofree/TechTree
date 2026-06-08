@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Cell room of a chlorine-caustic soda plant](../images/chemistry/chemistry_chlor-alkali.jpg)
+
+> *Image: McGraw-Hill Pub. Co. (Albany, N.Y.), Public domain*
+
 Electrolytic production of chlorine, sodium hydroxide (caustic soda), and hydrogen from brine (NaCl solution). Three cell types: diaphragm (asbestos separator), membrane (ion-exchange membrane, modern standard), and mercury cathode (historical, phased out due to toxicity). Chlor-alkali is the foundation of the chlor-chemical industry.
 
 The chlor-alkali process becomes feasible once a civilization can produce purified brine, fabricate ion-exchange membranes or porous diaphragms, and supply multi-kilowatt DC power continuously. It is one of the highest-volume electrochemical operations in industry, consuming tens of megawatts at production scale. The three co-products, chlorine gas, 30-50% sodium hydroxide solution, and hydrogen gas, feed into dozens of downstream processes from PVC manufacturing to water treatment to ammonia synthesis.

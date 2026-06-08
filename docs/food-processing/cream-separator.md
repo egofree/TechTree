@@ -10,6 +10,10 @@
 
 ## Overview
 
+![American agriculturist](../images/food-processing/food-processing_cream-separator.jpg)
+
+> *Image: Wikimedia Commons contributor, Public domain*
+
 A centrifugal cream separator exploits the density difference between milk fat (0.93 g/cm³) and milk serum (1.036 g/cm³) in a high-speed rotating bowl. When milk enters a spinning bowl at 6,000-8,000 rpm, centrifugal force pushes the denser skim milk outward while the lighter cream migrates inward. The two streams are collected separately as they discharge at different radii.
 
 The key innovation (Gustaf de Laval, 1878) is the disc stack: a series of conical stainless steel discs spaced 0.5-1.0 mm apart, stacked inside the bowl. The narrow gap between discs dramatically shortens the distance fat globules must travel to reach the cream layer. Without discs, separation in a simple bowl requires very high rpm (15,000+) and produces incomplete separation. With discs, separation is complete at 6,000-8,000 rpm in a compact bowl.

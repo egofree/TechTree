@@ -19,6 +19,10 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 
 ## Prerequisites
 
+![1920 Griffith and Turner Co. : farm and garden supplies](../images/agriculture/agriculture_seed-saving.jpg)
+
+> *Image: Griffith and Turner Co, Public domain*
+
 **Materials**:
 - Mature, healthy crop plants from which to save seed
 - Drying racks or screens (wood frame with mesh or cloth)

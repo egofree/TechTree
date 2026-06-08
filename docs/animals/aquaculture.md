@@ -15,6 +15,10 @@ The practice splits into freshwater pond farming (the primary focus here) and co
 
 ## Prerequisites
 
+![Switch from a Regular fish farm to RAS](../images/animals/animals_aquaculture.jpg)
+
+> *Image: Narek75, CC BY-SA 4.0*
+
 - [Insect farming](insect-farming.md) — insect meal as supplemental fish feed
 - [Basic tools](../foundations/tools-basic.md) — digging, net-making, and construction implements
 - [Food and agriculture](../foundations/food-agriculture.md) — manure for pond fertilization, crop byproducts for feed

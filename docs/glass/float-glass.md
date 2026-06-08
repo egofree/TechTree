@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Soda-lime window, not by float glass process](../images/glass/glass_basic_float-glass.jpg)
+
+> *Image: Alexander Fluegel, Public domain*
+
 The Pilkington float glass process produces perfectly flat, parallel-surface glass ribbon without grinding or polishing. Molten glass is poured onto a bath of molten tin at roughly 1000 degrees C inside a sealed chamber filled with a nitrogen-hydrogen atmosphere. The glass floats on the tin because its density (about 2.3 g/cm3) is lower than that of liquid tin (about 6.5 g/cm3). Surface tension and gravity together flatten the glass into a ribbon with naturally smooth surfaces on both sides. The ribbon is drawn off the tin bath, enters a long annealing lehr where it cools slowly enough to relieve internal stresses, and emerges as continuous flat glass ready for cutting.
 
 Before the float process, flat glass was made by drawing a sheet vertically from a tank of molten glass, or by grinding and polishing plate glass cast on a metal table. Both methods produced surface distortions. The float process, developed by Alastair Pilkington in the 1950s, eliminated grinding entirely. Pilkington spent seven years developing the process from laboratory concept to industrial scale, with the first commercial float line starting production in 1959. It now accounts for over 90 percent of worldwide flat glass production for windows, mirrors, and architectural glazing. A single modern float line can produce 500 to 1000 tons of glass per day in ribbon widths up to 4 meters.

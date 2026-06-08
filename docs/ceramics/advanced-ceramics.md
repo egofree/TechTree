@@ -20,6 +20,10 @@ The jump from earthenware to technical ceramics requires:
 
 ## Materials
 
+![Advanced sic board](../images/ceramics/ceramics_advanced-ceramics.jpg)
+
+> *Image: Hshkrc, CC BY-SA 4.0*
+
 - **Bauxite ore** (40-60% Al₂O₃) — sourced from [Mining](../mining/processing.md) of lateritic deposits
 - **Zircon sand** (ZrSiO₄) — from heavy mineral sand deposits via [Mining](../mining/processing.md)
 - **Silica sand** (SiO₂, ≥99%) — from quartzite or high-purity sand deposits

@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Soybean](../images/plants/plants_soybean.jpg)
+
+> *Image: Agricultural Research Service, Public domain*
+
 Soybean
 
 *Glycine max* (Fabaceae) is a staple food crop species of major importance for civilization bootstrapping. Soybean, Soya provides leaves, seeds/nuts, spice/beverage as its primary edible product and ranks 72/100 on the nutrition score.

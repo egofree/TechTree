@@ -17,6 +17,11 @@ This document covers construction methods for each passive component type at thr
 
 
 ## Materials
+
+![Passive Components fitted](../images/electronics/electronics_passive-components.jpg)
+
+> *Image: tony_duell, CC BY 2.0*
+
 - **Copper wire**: Drawn from [electrolytic copper](../chemistry/electrolysis.md), diameters 0.05-2.0 mm, purity >99.9%
 - **Carbon/graphite**: From [charcoal](../energy/charcoal.md) processing or mined graphite, purity >95%
 - **Ceramic dielectrics**: Titanium dioxide (TiO₂), barium titanate (BaTiO₃) from [ceramics](../ceramics/kilns.md) production

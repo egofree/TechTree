@@ -13,6 +13,10 @@ Electrical systems cannot be built or maintained without measurement. You need t
 
 ## Prerequisites
 
+![Brockhaus-Efron Electrical Measurement Instruments 4](../images/measurement/measurement_electrical-instruments.jpg)
+
+> *Image: Брокгауз и Ефрон, Public domain*
+
 - [Electricity](../energy/electricity.md) — power generation, voltage, current, and circuit fundamentals
 - [Measurement fundamentals](./index.md) — calibration philosophy and traceability
 - [Copper wire](../metals/copper-bronze.md) — fine wire for galvanometer coils and instrument windings

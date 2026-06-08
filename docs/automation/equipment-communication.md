@@ -13,6 +13,10 @@ A modern semiconductor fab contains hundreds of process tools — etchers, CVD r
 
 ## Prerequisites
 
+![The crossbar model exchange equipment at the National Communication Museum 03](../images/automation/automation_equipment-communication.jpg)
+
+> *Image: Aliceinthealice, CC0*
+
 - [Computing](../computing/index.md) — computing infrastructure for MES, FDC, and SECS gateway servers
 - [Electronics](../electronics/index.md) — semiconductor devices, passive components for communication hardware
 - [Electricity](../energy/electricity.md) — power supply for network infrastructure and computing systems

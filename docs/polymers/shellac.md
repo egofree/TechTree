@@ -13,6 +13,10 @@ Before synthetic polymers are available, civilization needs a fast-drying, non-t
 
 ## Prerequisites
 
+![Shellac flakes closeup](../images/polymers/polymers_rubber_shellac.jpg)
+
+> *Image: Nuberger13 at en.wikipedia, Public domain*
+
 - [Ethanol production](../chemistry/distillation.md) — shellac dissolves in ethanol; denatured spirit is the standard solvent
 - [Polymers overview](rubber.md) — parent node for natural polymer processing
 - Host tree access — *Butea monosperma* (palas) or *Schleichera oleosa* (kusum) trees in tropical/subtropical climate

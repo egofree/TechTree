@@ -11,6 +11,10 @@
 
 ## Electricity Generation
 
+![Figure 14- Geographic Distribution of Electricity Generation from Fossil Fuel Electricity Generating Units, 2010 (7315637614)](../images/energy/energy_electricity.jpg)
+
+> *Image: U.S. Government Accountability Office from Washington, DC, United States, Public domain*
+
 **Strengths**:
 - Voltaic piles provide the first electrical source — no moving parts, works with basic materials (copper, zinc, brine)
 - Daniell cell produces stable 1.1V — sufficient for telegraph operation and electroplating

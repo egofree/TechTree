@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Garden Pea](../images/plants/plants_garden-pea.jpg)
+
+> *Image: Yarzaryeni, CC BY 3.0*
+
 Garden Pea
 
 *Pisum sativum* (Fabaceae) is a legumes & pulse species of major importance for civilization bootstrapping. Pea provides leaves, seeds/nuts, flowers as its primary edible product and ranks 67/100 on the nutrition score.

@@ -17,6 +17,10 @@ The most powerful element of rotation is nitrogen fixation by legumes. Leguminou
 
 ## Prerequisites
 
+![The Johnson farm has a diverse crop rotation with a cover crop (five images) (14627772232)](../images/agriculture/agriculture_crop-rotation.jpg)
+
+> *Image: USDA NRCS South Dakota, Public domain*
+
 **Materials**:
 - Diverse seed stock: at minimum one grain, one legume, and one root/brassica crop
 - Compost or manure for supplemental fertility (see [Soil Management](soil-management.md))

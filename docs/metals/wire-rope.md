@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Steel wire rope](../images/metals/metals_wire-rope.png)
+
+> *Image: Johannes 'volty' Hemmerlein, CC BY-SA 3.0*
+
 Wire rope is a composite structural element made from individual steel wires helically laid around a central core to form strands, which are themselves laid around a core to form the finished rope. The helical construction gives wire rope flexibility (it bends around sheaves and drums) while retaining the high tensile strength of the constituent steel wires (1570-1960 MPa). Wire rope replaced hemp rope and chain for lifting and hauling applications starting in the 1830s (Wilhelm Albert's 1834 mine hoist rope in Clausthal, Germany) and became indispensable for mining hoists, cranes, elevators, suspension bridges, cable cars, and aerial tramways.
 
 Wire rope is not a single material — it is a mechanical assembly whose properties depend on wire grade, construction (number of wires per strand, number of strands, lay direction), core type, and end fitting method. Selecting the wrong construction for an application causes premature failure. A 6×19 rope on a small-diameter sheave will fatigue-break in weeks; a 6×37 rope on the same sheave will last months.

@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Buckwheat](../images/plants/plants_buckwheat.jpg)
+
+> *Image: STRONGlk7, CC BY-SA 3.0*
+
 Buckwheat
 
 *Fagopyrum esculentum* (Polygonaceae) is a staple food crop species of major importance for civilization bootstrapping. Buckwheat, Japanese buckwheat, Silverhull buckwheat provides leaves, seeds/nuts, flowers as its primary edible product and ranks 57/100 on the nutrition score.

@@ -17,6 +17,10 @@
 
 ## Overview
 
+![Scientific Method Graphic](../images/knowledge/knowledge_scientific-method.png)
+
+> *Image: Sarah Greenwood, CC BY 4.0*
+
 The scientific method is a **systematic engineering process for producing reliable knowledge**. It is not philosophy — it is a quality-control system for empirical claims, analogous to how metrology is a quality-control system for manufactured parts. Every output (validated knowledge claim) is produced by a defined process (experiment), measured against standards (reproducibility), and subjected to verification (peer replication).
 
 Without this process, civilizations rely on authority, tradition, and anecdote — all of which produce unreliable knowledge at scale. The scientific method is what converts individual observations into cumulative, trustworthy, transmissible knowledge.

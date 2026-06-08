@@ -17,6 +17,10 @@ The scale: a single integrated steel mill produces 2-5 million tonnes of rolled 
 
 ## Prerequisites
 
+![US Navy 050422-M-8797S-022 U.S. Navy Seabees level out the primary landing zone aboard Camp Blue Diamond so they are able to lay down metal plating](../images/metals/metals_forming.jpg)
+
+> *Image: U.S. Marine Corps photo by Cpl. Thomas Schaeffer, Public domain*
+
 - **Materials**: [Liquid steel](./steelmaking.md) from basic oxygen or electric arc furnace (150-350 tonnes per heat), [aluminum billets](./aluminum.md) from Hall-Héroult cells, [mold powder/flux](../chemistry/refractories.md) for continuous casting, [lubricants](../chemistry/lubricants.md) for extrusion and forging dies, [HCl or H₂SO₄](../chemistry/acids.md) for pickling (scale removal)
 - **Tools**: [Rolling mill stands](../machine-tools/machining.md) (2-high, 4-high, or universal — work rolls 200-1350 mm diameter), [hydraulic press](../machine-tools/index.md) for forging (1,000-10,000+ ton capacity), [extrusion press](../machine-tools/index.md) (1,000-12,000 ton for aluminum), [reheat furnace](./steelmaking.md) (walking beam, 1200-1300°C), [flying shears](../machine-tools/machining.md) for cut-to-length, [straighteners](../machine-tools/machining.md) (7-21 roll), [mandrel mill](../machine-tools/index.md) for seamless tube
 - **Knowledge**: Plasticity and yield criteria (von Mises, Tresca), rolling theory (bite angle, roll pressure distribution), solidification mechanics (thermal gradients, segregation), recrystallization and grain size control, die design for extrusion and forging, thermomechanical controlled processing (TMCP)

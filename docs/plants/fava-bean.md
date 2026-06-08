@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Fava Bean](../images/plants/plants_fava-bean.jpg)
+
+> *Image: Mhmd.abdrzg, CC BY-SA 4.0*
+
 Fava Bean
 
 *Vicia faba* (Fabaceae) is a legumes & pulse species of major importance for civilization bootstrapping. Broad bean, Faba bean provides leaves, seeds/nuts, flowers as its primary edible product and ranks 74/100 on the nutrition score.

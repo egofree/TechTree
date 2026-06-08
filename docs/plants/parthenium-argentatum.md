@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Guayule](../images/plants/plants_parthenium-argentatum.jpg)
+
+> *Image: Francis Ernest Lloyd, Public domain*
+
 Guayule (*Parthenium argentatum*) is a desert shrub native to the southwestern United States and northern Mexico that produces natural rubber in its stems and roots. Unlike the tropical rubber tree (*Hevea brasiliensis*), guayule grows in arid and semi-arid conditions with 250-500 mm annual rainfall, making it the only practical rubber source for dry climates.
 
 The rubber content in guayule stems is 5-20% of dry weight, concentrated in the bark and parenchyma cells (not in latex vessels like Hevea). The rubber is chemically similar to Hevea rubber (both are cis-1,4-polyisoprene) but with slightly different molecular weight distribution. Guayule rubber is suitable for most applications where Hevea rubber is used, including tires, gaskets, seals, and elastic bands.

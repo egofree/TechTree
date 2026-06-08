@@ -12,6 +12,10 @@ Nanometer positioning (covered in [Nanometer Positioning](./nanometer-positionin
 
 ## Prerequisites
 
+![Home-Built Vibration Isolation Platform using Squash Balls](../images/precision-motion/precision-motion_vibration-isolation.jpg)
+
+> *Image: Quirkipedia, CC0*
+
 - [Nanometer Positioning](./nanometer-positioning.md) — stage requirements that define isolation specifications
 - [Precision Metrology](../measurement/precision-metrology.md) — vibration measurement and calibration equipment
 - [Gas Handling](../gas-handling/index.md) — compressed air supply for pneumatic isolators

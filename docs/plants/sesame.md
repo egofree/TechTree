@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Sesame](../images/plants/plants_sesame.jpg)
+
+> *Image: Dick Culbert from Gibsons, B.C., Canada, CC BY 2.0*
+
 Sesame
 
 *Sesamum indicum* (Pedaliaceae) is a oilseed & spice crop species of major importance for civilization bootstrapping. Sesame, Oil-seed sesame provides leaves, seeds/nuts, spice/beverage as its primary edible product and ranks 65/100 on the nutrition score.

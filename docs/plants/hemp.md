@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Hemp](../images/plants/plants_hemp.jpg)
+
+> *Image: Oregon State University, CC BY-SA 2.0*
+
 Hemp
 
 *Cannabis sativa* (Cannabaceae) is a fiber & industrial crop species of major importance for civilization bootstrapping. Indian Hemp provides fruit, leaves, seeds/nuts as its primary edible product and ranks 66/100 on the nutrition score.

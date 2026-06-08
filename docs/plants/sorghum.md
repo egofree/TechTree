@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Sorghum](../images/plants/plants_sorghum.jpg)
+
+> *Image: Munkaila Sulemana, CC BY-SA 4.0*
+
 Sorghum
 
 *Sorghum bicolor* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Sorghum provides seeds/nuts, shoots as its primary edible product and ranks 3/100 on the nutrition score.

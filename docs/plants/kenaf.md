@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Kenaf](../images/plants/plants_kenaf.jpg)
+
+> *Image: Bernard DUPONT from FRANCE, CC BY-SA 2.0*
+
 Kenaf
 
 *Hibiscus cannabinus* (Malvaceae) is a fiber & industrial crop species of major importance for civilization bootstrapping. Vegetable kenaf, Indian hemp provides fruit, leaves, seeds/nuts as its primary edible product and ranks 63/100 on the nutrition score.

@@ -13,6 +13,10 @@ Engineering, navigation, ballistics, and bookkeeping all require arithmetic — 
 
 ## Prerequisites
 
+![Migration mechanism of IseG Suggested by Deng et al. after quantum mechanical and molecular mechanical calculations](../images/computing/computing_mechanical.jpg)
+
+> *Image: Wen-Hao Deng, You Lu, Rong-Zhen Liao, CC BY-SA 4.0*
+
 - [Machine tools](../machine-tools/index.md) — precision gear cutting, milling, and turning for mechanisms
 - [Mathematics](../mathematics/core-mathematics.md) — logarithms, polynomials, and numerical methods
 - [Metals](../metals/index.md) — brass, steel, and phosphor bronze for gears, springs, and frames

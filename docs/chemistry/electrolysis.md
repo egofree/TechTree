@@ -10,6 +10,10 @@
 
 ## Electrolysis Scale-Up
 
+![AEM water electrolysis working principle with HER and OER](../images/chemistry/chemistry_electrolysis.png)
+
+> *Image: Kavin Teenakul, CC BY-SA 4.0*
+
 **[Chlor-alkali process](../glossary/chlor-alkali-process.md)** (most important industrial electrolysis):
 - **Cell types**:
   - **Diaphragm cell**: Asbestos or polymer diaphragm separates anode and cathode compartments. Prevents Cl₂ and NaOH from mixing (would form NaOCl — bleach). Products: Cl₂ gas, H₂ gas, 10-12% NaOH solution (requires evaporation to 50%).

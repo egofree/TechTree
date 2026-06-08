@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Sweet Wormwood](../images/plants/plants_artemisia-annua.jpg)
+
+> *Image: Stefan.lefnaer, CC BY-SA 4.0*
+
 Sweet wormwood (*Artemisia annua*) is an annual herb native to temperate Asia that produces artemisinin, a sesquiterpene lactone that is the most effective antimalarial compound discovered. Artemisinin and its derivatives (artesunate, artemether, dihydroartemisinin) have become the frontline treatment for Plasmodium falciparum malaria worldwide, replacing quinine and chloroquine in areas where drug resistance has developed.
 
 Artemisinin works by reacting with iron in the malaria parasite, generating free radicals that destroy the parasite's membranes and proteins. It acts faster than quinine, clearing parasites from the blood within 48 hours. The standard treatment is artemisinin-based combination therapy (ACT): artemisinin combined with a longer-acting partner drug to prevent resistance.

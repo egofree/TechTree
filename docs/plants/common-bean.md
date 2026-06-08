@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Common Bean](../images/plants/plants_common-bean.jpg)
+
+> *Image: Qnc, CC BY-SA 3.0*
+
 Common Bean
 
 *Phaseolus vulgaris* (Fabaceae) is a staple food crop species of major importance for civilization bootstrapping. Common bean provides leaves, seeds/nuts as its primary edible product and ranks 65/100 on the nutrition score.

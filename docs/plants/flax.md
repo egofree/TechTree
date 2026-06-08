@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Flax](../images/plants/plants_flax.jpg)
+
+> *Image: Mx. Granger, CC0*
+
 Flax
 
 *Linum usitatissimum* (Linaceae) is a fiber & industrial crop species of major importance for civilization bootstrapping. Flax, Common flax provides seeds/nuts as its primary edible product.

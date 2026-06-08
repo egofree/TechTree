@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Cocoyam](../images/plants/plants_cocoyam.jpg)
+
+> *Image: daSupremo, CC BY-SA 4.0*
+
 Cocoyam
 
 *Xanthosoma sagittifolium* (Araceae) is a root & tuber crop species of major importance for civilization bootstrapping. Chinese taro, Tannia, West Indian kale provides leaves, roots, shoots as its primary edible product and ranks 54/100 on the nutrition score.

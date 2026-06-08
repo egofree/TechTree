@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Water valves with spigots](../images/water/water_water-valves.jpg)
+
+> *Image: Paul Goyette, CC BY-SA 2.0*
+
 A valve controls fluid flow by introducing a variable restriction into a pipe. Valves are essential in every pressurized water system — they isolate sections for maintenance, regulate flow and pressure, prevent backflow, and provide emergency shutoff. A [distribution network](distribution.md) without valves is uncontrollable: any leak or repair requires shutting down the entire system.
 
 Simple plug valves and gate valves can be improvised from wood and leather for low-pressure gravity systems. Engineered valves — precision-cast bronze or iron bodies with machined seats and stems — are necessary for reliable pressurized distribution at 5-40 bar.

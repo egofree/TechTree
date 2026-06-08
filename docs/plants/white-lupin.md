@@ -10,6 +10,10 @@
 
 ## Overview
 
+![White Lupin](../images/plants/plants_white-lupin.jpg)
+
+> *Image: Roger Culos, CC BY-SA 4.0*
+
 White Lupin
 
 *Lupinus albus* (Fabaceae) is a legumes & pulse species of major importance for civilization bootstrapping. White Lupin provides seeds/nuts as its primary edible product.

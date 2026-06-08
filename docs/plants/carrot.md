@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Carrot](../images/plants/plants_carrot.jpg)
+
+> *Image: Grace789, CC BY-SA 4.0*
+
 Carrot
 
 *Daucus carota* (Apiaceae) is a vegetable crop species of major importance for civilization bootstrapping. Wild carrot, Queen Anne's lace provides leaves, roots, seeds/nuts as its primary edible product.

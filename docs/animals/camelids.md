@@ -26,6 +26,10 @@ South American camelids — alpacas (*Vicugna pacos*) and llamas (*Lama glama*) 
 
 ## Prerequisites
 
+![A llama and its offspring - geograph.org.uk - 1801614](../images/animals/animals_camelids.jpg)
+
+> *Image: Evelyn Simak, CC BY-SA 2.0*
+
 | Requirement | Source | Notes |
 |-------------|--------|-------|
 | Grass pasture or hay | [`agriculture`](../agriculture/index.md) | 8-12 alpacas or 5-8 llamas per hectare on improved pasture |

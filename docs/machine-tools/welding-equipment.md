@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Welding equipment - panoramio](../images/machine-tools/machine-tools_welding-equipment.jpg)
+
+> *Image: ecom, CC BY-SA 3.0*
+
 Welding equipment generates the intense heat needed to melt and fuse metals. Two methods dominate the bootstrap sequence: oxy-acetylene welding (a 3100°C flame from combusted gases) and shielded metal arc welding (SMAW, a 6000°C electric arc between a consumable electrode and the workpiece). Oxy-acetylene requires gas production infrastructure (calcium carbide + water for acetylene, compressed oxygen) but no electricity. SMAW requires electrical power but no gas supply — the electrode coating generates its own shielding atmosphere. Both produce joints with tensile strength matching or exceeding the base metal.
 
 This article covers the construction and setup of welding equipment. For welding technique, joint design, and procedure, see [Joining](joining.md). For welded frame construction, see [Hydraulic Press](hydraulic-press.md) and [Machine Tools](./index.md).

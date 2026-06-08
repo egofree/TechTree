@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Gum Arabic](../images/plants/plants_acacia-senegal.jpg)
+
+> *Image: Edward Clifford, Public domain*
+
 Gum arabic (*Acacia senegal*, also known as Senegalia senegal) is a small thorny tree native to the Sahel region of Africa that exudes a natural gum from its bark when wounded. This gum, known as gum arabic, is one of the most useful natural materials in existence: it is an edible, water-soluble adhesive, emulsifier, film-former, and binder used in food, ink, paint, ceramics, textiles, and medicine.
 
 Gum arabic is a complex polysaccharide (arabin) that dissolves readily in water to form a viscous, sticky solution. It is unique among natural gums for its high solubility (up to 50% concentration in water), low viscosity (even at high concentrations), and excellent emulsifying properties. It is the traditional binder for watercolor paints and India ink, the adhesive on postage stamps, and the emulsifier that keeps flavor oils suspended in soft drinks.

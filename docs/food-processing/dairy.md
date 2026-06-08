@@ -16,6 +16,10 @@ Dairy depends on [ceramics](../ceramics/index.md) for storage vessels and cheese
 
 ## Cheese Making Materials
 
+![Arla Dairy Processing - geograph.org.uk - 6530074](../images/food-processing/food-processing_dairy.jpg)
+
+> *Image: DS Pugh, CC BY-SA 2.0*
+
 | Material | Quantity per 10 kg cheese | Source | Alternatives |
 |----------|:------------------------:|--------|-------------|
 | Whole milk | 100-120 L (cow) | [Agriculture](../foundations/food-agriculture.md) | Goat milk (8-10 L/kg), sheep milk (6-8 L/kg) |

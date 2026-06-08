@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Beet](../images/plants/plants_beet.jpg)
+
+> *Image: Dag Endresen, CC BY 2.0*
+
 Beet
 
 *Beta vulgaris* (Amaranthaceae) is a root & tuber crop species of major importance for civilization bootstrapping. Beetroot provides leaves, roots as its primary edible product and ranks 40/100 on the nutrition score.

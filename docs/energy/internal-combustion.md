@@ -20,6 +20,10 @@ The economic impact is hard to overstate. A single diesel generator producing 50
 
 ## Otto Cycle (Four-Stroke Gasoline Engine)
 
+![Claymills Victorian Pumping Station - internal combustion engines - geograph.org.uk - 5442042](../images/energy/energy_internal-combustion.jpg)
+
+> *Image: Chris Allen, CC BY-SA 2.0*
+
 Invented by Nikolaus Otto (1876). The dominant engine for road vehicles and small aircraft. The four-stroke cycle completes one power stroke every two crankshaft revolutions.
 
 **Principle**: The [four-stroke cycle](../glossary/four-stroke-cycle.md) completes one power stroke every two crankshaft revolutions:

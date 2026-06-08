@@ -13,6 +13,10 @@ Rope is the universal load-bearing element of pre-industrial and early industria
 
 ## Prerequisites
 
+![Thurston, the famous magician; (East Indian rope-trick : world's most famous illusion : first time-out-of-India.)](../images/textiles/textiles_rope-making.jpg)
+
+> *Image: Adam Cuerden, Public domain*
+
 - [Fiber Preparation](fibers.md) — prepared fibers for rope making
 - [Spinning](spinning.md) — yarn production as intermediate step
 

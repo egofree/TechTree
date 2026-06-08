@@ -13,6 +13,10 @@ Manufacturing precision components requires verifying that surfaces, dimensions,
 
 ## Prerequisites
 
+![OCI Rotating Telescope Optical Inspection (GSFC 20210826 PACE 86491)](../images/optics/optics_inspection.jpg)
+
+> *Image: NASA Goddard Space Flight Center / Denny Henry/NASA, Public domain*
+
 - [Glass production](../glass/index.md) — optical glass blanks for lenses and flats
 - [Machine tools](../machine-tools/index.md) — grinding, lapping, and polishing capability
 - [Abrasives](../machine-tools/bearings-abrasives.md) — SiC, emery, cerium oxide for grinding and polishing

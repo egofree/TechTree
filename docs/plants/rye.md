@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Rye](../images/plants/plants_rye.jpg)
+
+> *Image: Helmut Zozmann, CC BY-SA 2.0*
+
 Rye
 
 *Secale cereale* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Rye provides seeds/nuts, spice/beverage as its primary edible product and ranks 63/100 on the nutrition score.

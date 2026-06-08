@@ -10,6 +10,10 @@
 
 ## Core Fab Processes
 
+![Moore evermore in Computer History — Happy 50th Birthday to the Law! (16318918399)](../images/photolithography/photolithography_fab-processes.jpg)
+
+> *Image: Steve Jurvetson from Los Altos, USA, CC BY 2.0*
+
 ### Thermal Oxidation
 
 Thermal oxidation grows SiO₂ directly on the silicon wafer surface by exposing it to oxygen or steam at 900-1200°C. Unlike deposited oxides (from CVD), thermally grown oxide has the highest electrical quality because it forms a continuous, dense Si-O network directly from the silicon lattice — making it the only viable choice for gate dielectrics where even a single defect can destroy a transistor. Two variants cover the full thickness range: dry oxidation (Si + O₂ → SiO₂, slow but highest quality) for gate oxides, and wet oxidation (Si + 2H₂O → SiO₂, ~5-10× faster) for thick field and masking oxides.

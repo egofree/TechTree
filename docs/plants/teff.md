@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Teff](../images/plants/plants_teff.jpg)
+
+> *Image: Rasbak, CC BY-SA 3.0*
+
 Teff
 
 *Eragrostis tef* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Teff provides seeds/nuts as its primary edible product and ranks 65/100 on the nutrition score.

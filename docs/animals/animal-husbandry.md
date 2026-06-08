@@ -13,6 +13,10 @@ A bootstrapping civilization needs reliable sources of labor, food, fiber, and f
 
 ## Prerequisites
 
+![20220306 Shandong Vocational College of Animal Husbandry and Veterinary Medicine 04](../images/animals/animals_animal-husbandry.jpg)
+
+> *Image: Ngguls, CC BY-SA 4.0*
+
 - [Livestock domestication](domestication.md) — captive breeding populations of cattle, sheep, goats, pigs, or poultry
 - [Food and agriculture](../foundations/food-agriculture.md) — fodder production (pasture, hay, grain) to feed stock through winter
 - [Basic construction](../foundations/index.md) — barns, fences, and shelters for housing and containment

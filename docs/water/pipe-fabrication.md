@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Wester Pipe Fabrication - geograph.org.uk - 2461896](../images/water/water_pipe-fabrication.jpg)
+
+> *Image: Peter Moore, CC BY-SA 2.0*
+
 Pipe and tube are hollow cylinders that convey fluids under pressure or by gravity. They are the enabling technology for [water distribution](distribution.md), [sewage collection](sewage.md), [gas handling](../gas-handling/piping-systems.md), steam power, hydraulic systems, and chemical process piping. Without sealed pressurized pipe, every fluid must be moved in containers — a severe bottleneck that limits settlement size to what can be carried by hand or gravity channels.
 
 The distinction: pipe is sized by nominal bore (approximate inside diameter) with standardized wall thickness schedules, while tube is sized by exact outside diameter with wall thickness specified directly. Pipe is joined by threaded fittings, flanges, or welding. Tube is joined by compression fittings, flared fittings, or brazing.

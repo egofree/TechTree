@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Schematic diagram of electrolysis-electrodialysis concentrated HIx solution](../images/chemistry/chemistry_electrodialysis.jpg)
+
+> *Image: NoteDamn, Public domain*
+
 Ion separation using alternating cation and anion exchange membranes under electric field. Desalinates brackish water, recovers acids and bases from salt solutions, and concentrates process streams for industrial chemistry.
 
 Electrodialysis enters the technology tree once a civilization can produce ion-exchange membranes (cross-linked styrene-divinylbenzene copolymers with fixed sulfonate or quaternary ammonium groups) and supply controlled DC power. Unlike reverse osmosis, which filters all solutes through a pressure-driven membrane, electrodialysis removes ions specifically by migrating them through alternating cation and anion exchange membranes under an electric field. This makes it more energy-efficient for brackish water desalination because the energy input scales with the amount of salt removed, not the volume of water processed.

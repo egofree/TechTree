@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Moringa](../images/plants/plants_moringa.jpg)
+
+> *Image: Cottonseed, CC BY-SA 4.0*
+
 Moringa
 
 *Moringa oleifera* (Moringaceae) is a medicinal & spice plant species of major importance for civilization bootstrapping. Horseradish Tree, Moringa provides leaves, roots, seeds/nuts as its primary edible product.

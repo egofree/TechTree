@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Ramie](../images/plants/plants_ramie.jpg)
+
+> *Image: Krzysztof Ziarnek, Kenraiz, CC BY-SA 4.0*
+
 Ramie
 
 *Boehmeria nivea* (Urticaceae) is a fiber & industrial crop species of major importance for civilization bootstrapping. Ramie provides leaves, roots, seeds/nuts as its primary edible product.

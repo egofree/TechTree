@@ -18,6 +18,10 @@ The critical threshold is sterility: an instrument that cannot be sterilized is 
 
 ## Materials
 
+![Bronze medical instruments, tweezers, another tools, Kanellopoulos Museum, 225058](../images/health/health_medical-instruments.jpg)
+
+> *Image: Zde, CC BY-SA 4.0*
+
 | Material | Instruments | Properties Required |
 |----------|------------|-------------------|
 | Carbon steel (high-carbon, 0.8-1.2% C) | Scalpel blades, scissors, osteotomes | Hardenable to HRC 55-62, takes sharp edge |

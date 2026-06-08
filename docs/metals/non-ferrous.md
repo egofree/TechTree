@@ -15,6 +15,10 @@ These six non-ferrous metals collectively enable galvanizing, battery storage, e
 
 ## Prerequisites
 
+![U.S. Navy color chart. Ferrous and non-ferrous metals](../images/metals/metals_non-ferrous.jpg)
+
+> *Image: Unknown authorUnknown author or not provided, Public domain*
+
 - [Acids](../chemistry/acids.md) — acid leaching for ore processing
 - [Copper & Bronze](copper-bronze.md) — smelting foundation
 - [Mining](../mining/index.md) — ore extraction and beneficiation

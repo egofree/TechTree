@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Plantain](../images/plants/plants_plantain.png)
+
+> *Image: Pearson Scott Foresman, Public domain*
+
 Plantain
 
 *Musa × paradisiaca* (Musaceae) is a fruit & nut tree species of major importance for civilization bootstrapping. Plantain Banana provides fruit, flowers, shoots as its primary edible product.

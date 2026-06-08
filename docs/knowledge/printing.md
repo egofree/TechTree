@@ -10,6 +10,10 @@
 
 ## Prerequisites
 
+![The Printing Press. Step 4. Setting the Paper](../images/knowledge/knowledge_printing.jpg)
+
+> *Image: Brett Osteen, CC BY-SA 3.0*
+
 - **Materials**: Wood pulp or cotton/linen rag for paper, soot and linseed oil for ink, lead/antimony/tin for type metal, leather or cloth for binding
 - **Tools**: [Machine Tools: Machining](../machine-tools/machining.md) for precision type molds and press parts, [Metals: Iron & Steel](../metals/iron-steel.md) for press frame and components, [Textiles: Fibers](../textiles/fibers.md) for paper felts and binding thread
 - **Knowledge**: [Writing](writing.md) systems and literacy, basic chemistry for pulping and ink formulation

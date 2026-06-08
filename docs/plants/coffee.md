@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Coffee](../images/plants/plants_coffee.jpg)
+
+> *Image: Original file: UnknownFerretRussian translation:Atorero, CC BY-SA 3.0*
+
 Coffee
 
 *Coffea arabica* (Rubiaceae) is a beverage & stimulant crop species of major importance for civilization bootstrapping. Arabian coffee provides leaves, seeds/nuts, spice/beverage as its primary edible product.

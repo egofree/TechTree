@@ -10,6 +10,10 @@
 
 ## Overview
 
+![TX-Diagram-pt](../images/chemistry/chemistry_photographic-chemistry.jpg)
+
+> *Image: U.m at Portuguese Wikipedia, Public domain*
+
 Silver halide emulsion preparation, photographic plate coating, and light-sensitive chemical synthesis for imaging and photoresist precursor production.
 
 Primary outputs: `silver-halide-emulsions`, `photographic-plates`, `photoresist-precursors`. These materials or products serve as inputs for downstream manufacturing and processing steps.

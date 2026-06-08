@@ -10,6 +10,10 @@
 
 ## Infrastructure
 
+![Army Basic Training- Gas Chamber (Episode 5) 2G63uJgr92g](../images/gas-handling/gas-handling_basic.jpg)
+
+> *Image: The U.S. Army, CC BY 3.0*
+
 **Piping, valves, pumps**:
 - **Pipes**: Cast iron (water, dilute alkalis), lead (H₂SO₄ <80%), copper (organic solvents, water), ceramic (acids at high temperature), glass (laboratory scale). Steel for steam and high-pressure gas.
 - **Valves**: Bronze gate valves, cast iron plug valves, glass stopcocks (laboratory). PTFE-packed valves for HF service.

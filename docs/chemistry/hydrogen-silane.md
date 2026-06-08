@@ -13,6 +13,10 @@ Semiconductor manufacturing and ammonia synthesis both require ultra-pure hydrog
 
 ## Prerequisites
 
+![Calculation of the chemical potential of hypothetical Van der Waals gases](../images/chemistry/chemistry_hydrogen-silane.jpg)
+
+> *Image: E-gabrielyan, CC BY-SA 4.0*
+
 - [Electrolysis](electrolysis.md) — alkaline water electrolysis for hydrogen production
 - [Gas handling](../gas-handling/basic.md) — piping, valves, and inert-atmosphere systems
 - [Silicon purification](../silicon/purification.md) — metallurgical-grade silicon as feedstock

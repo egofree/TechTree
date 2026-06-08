@@ -13,6 +13,10 @@ Industrial machinery requires flexible, elastic materials that can seal gaps, tr
 
 ## Prerequisites
 
+![Vulcanization of POLYIsoprene V.2](../images/polymers/polymers_natural.png)
+
+> *Image: Jü, CC0*
+
 - [Foundations](../foundations/index.md) — basic agricultural and processing infrastructure
 - [Distillation](../chemistry/distillation.md) — ethanol for shellac dissolution and ammonia for latex preservation
 - [Sulfur production](../chemistry/index.md) — cross-linking agent for vulcanization

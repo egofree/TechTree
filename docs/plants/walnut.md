@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Walnut](../images/plants/plants_walnut.jpg)
+
+> *Image: Ввласенко, CC BY-SA 3.0*
+
 Walnut
 
 *Juglans regia* (Juglandaceae) is a fruit & nut tree species of major importance for civilization bootstrapping. Walnut, English walnut, Persian Walnut provides seeds/nuts, bark/sap as its primary edible product.

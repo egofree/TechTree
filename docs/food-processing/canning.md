@@ -18,6 +18,10 @@ While [Food Preservation](preservation.md) covers the full spectrum of preservat
 
 ## Materials
 
+![Concepts for detection of extraterrestrial life](../images/food-processing/food-processing_canning.jpg)
+
+> *Image: Quimby, Freeman Henry, 1915-, Public domain*
+
 - **Tinplate**: Steel sheet coated with 0.5-1.5 μm tin. Sheet thickness 0.15-0.30 mm. Tin prevents iron-catalyzed food oxidation and corrosion. Source: [Metals](../metals/iron-steel.md) — requires tinplating capability.
 - **Glass jars**: Soda-lime glass with wide mouth, heat-resistant to 150°C+ (thermal shock resistant). Source: [Glass](../glass/basic.md) or [Ceramics](../ceramics/kilns.md).
 - **Sealing compound**: Rubber gaskets for glass jars (natural rubber + sulfur vulcanization), or sealing compound for can ends (modified rubber or polymer). Source: [Polymers](../polymers/thermoplastics.md) or natural rubber.

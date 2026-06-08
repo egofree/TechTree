@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Coconut](../images/plants/plants_coconut.jpg)
+
+> *Image: Radeksz, Public domain*
+
 Coconut
 
 *Cocos nucifera* (Arecaceae) is a fruit & nut tree species of major importance for civilization bootstrapping. Coconut provides seeds/nuts, flowers, shoots as its primary edible product and ranks 48/100 on the nutrition score.

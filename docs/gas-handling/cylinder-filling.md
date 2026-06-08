@@ -16,6 +16,10 @@ This capability also covers cylinder production (seamless steel tube forming), h
 
 ## Prerequisites
 
+![Gas cylinder filling room RAE-O968](../images/gas-handling/gas-handling_cylinder-filling.jpg)
+
+> *Image: Unknown authorUnknown author, Public domain*
+
 - **Materials**: Seamless steel tube (manganese steel or Cr-Mo alloy), valve brass or stainless steel, PTFE valve packing, cylinder paint and labels
 - **Tools and equipment**: [Basic gas handling](basic.md) — high-pressure compressors (100-300 bar); [Machine tools](../machine-tools/index.md) — lathes for valve threading, grinders for surface finishing; [Metal forming](../machine-tools/forming.md) — deep drawing or hot spinning for cylinder bodies
 - **Knowledge**: High-pressure vessel design (thin-wall and thick-wall pressure vessel theory), material fatigue under cyclic loading, gas compressibility factors and equations of state

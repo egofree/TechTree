@@ -10,6 +10,12 @@
 
 ## Overview
 
+![Control Chart (tr)](../images/quality-control/quality-control_spc.png)
+
+> *Image: ControlChart.svg: The original uploader was DanielPenfield at English Wikipedia.
+derivative work : DeeMusil (talk) - ControlChart cz.svg
+derivative work: Anerka (talk), CC BY-SA 3.0*
+
 Control charts (X-bar/R for variables, p and c charts for attributes), process capability analysis (Cpk/Ppk with target ≥1.33 minimum, ≥1.67 for critical dimensions), Western Electric out-of-control detection rules, Six Sigma DMAIC methodology, and Gage R&R measurement system validation. The operating system of manufacturing quality — transforms reactive firefighting into proactive defect prevention.
 
 This technology is characteristic of the Semiconductor era of industrial development. It builds on earlier foundational techniques while enabling more precise and controlled manufacturing outcomes.

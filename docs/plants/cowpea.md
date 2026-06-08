@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Cowpea](../images/plants/plants_cowpea.jpg)
+
+> *Image: Alan Cann, CC BY-SA 2.0*
+
 Cowpea
 
 *Vigna unguiculata* (Fabaceae) is a legumes & pulse species of major importance for civilization bootstrapping. Cowpea, Black-eyed pea provides leaves, roots, seeds/nuts as its primary edible product.

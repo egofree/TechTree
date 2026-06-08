@@ -13,6 +13,10 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 
 ## Prerequisites
 
+![Bridge between Armadale Road and North Lake Road under construction, November 2020 02](../images/transport/transport_roads.jpg)
+
+> *Image: Calistemon, CC BY-SA 4.0*
+
 - [Draft Power](../animals/draft-power.md) — animal labor for earthmoving and hauling
 - [Basic Tools](../foundations/tools-basic.md) — hand tools for construction
 - [Mining](../mining/index.md) — crushed stone and aggregate production

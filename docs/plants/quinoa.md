@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Quinoa](../images/plants/plants_quinoa.jpg)
+
+> *Image: Thayne Tuason, CC BY 4.0*
+
 Quinoa
 
 *Chenopodium quinoa* (Amaranthaceae) is a staple food crop species of major importance for civilization bootstrapping. Quinoa provides leaves, seeds/nuts as its primary edible product and ranks 77/100 on the nutrition score.

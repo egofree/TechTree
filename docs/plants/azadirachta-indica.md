@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Neem](../images/plants/plants_azadirachta-indica.jpg)
+
+> *Image: Shikhers, CC BY-SA 4.0*
+
 Neem (*Azadirachta indica*) is a fast-growing tropical tree native to the Indian subcontinent that produces seeds containing azadirachtin, one of the most potent natural insecticides known. Azadirachtin disrupts insect growth, feeding, and reproduction at concentrations as low as 1-10 ppm, making neem-based sprays effective against over 200 species of insect pests while being relatively harmless to mammals, birds, and beneficial insects like bees.
 
 The tree grows 15-20 meters tall with a spreading crown. It thrives in tropical and subtropical regions with 400-1,200 mm annual rainfall, tolerating poor soils and temperatures to 45°C. Neem is evergreen in tropical climates, semi-deciduous in cooler regions. Trees begin producing seeds at 3-5 years of age, reaching full production at 10-15 years.

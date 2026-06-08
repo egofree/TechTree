@@ -16,6 +16,10 @@ Copper was the first metal smelted (~5000 BCE) and remains the backbone of elect
 
 ## Why Copper Came First
 
+![OFFICIAL DEPOT - COPPER BRASS BRONZE](../images/metals/metals_copper-bronze.jpg)
+
+> *Image: Unknown authorUnknown author or not provided, Public domain*
+
 Copper was the first metal worked because three properties align uniquely. First, several copper minerals occur as native (metallic) copper that can be cold-hammered without any smelting. Second, copper oxide and carbonate ores (malachite, azurite) reduce to metal at temperatures reachable in a pottery kiln or campfire with forced draft: 700-900°C. Compare this to iron, which requires 1200-1400°C for bloomery reduction. Third, molten copper at 1085°C melts cleanly and casts into open molds with good fluidity, unlike wrought iron which melts at 1538°C and absorbs carbon from the fuel before reaching that temperature.
 
 The reduction chemistry is straightforward. When copper oxide ores are heated in contact with carbon (charcoal), the carbon strips oxygen from the ore:

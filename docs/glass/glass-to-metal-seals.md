@@ -17,6 +17,10 @@ Without glass-to-metal seals: no vacuum tubes (the anode, cathode, and grid lead
 
 ## Prerequisites
 
+![Matched glass-to-metal seals](../images/glass/glass_glass-to-metal-seals.jpg)
+
+> *Image: Antonín Ryska, CC BY-SA 4.0*
+
 - **Materials**: [Borosilicate glass](advanced.md) tubing and rod (CTE 3.3 × 10⁻⁶/°C for matched seals), [specialty alloys](../metals/alloys.md) (Kovar — Fe-29Ni-17Co, CTE ~5.0 × 10⁻⁶/°C), soda-lime glass (CTE ~9 × 10⁻⁶/°C for compression seals), mild steel or stainless steel (CTE 11–17 × 10⁻⁶/°C for compression seals), frit glass powder (low-melting lead borosilicate or zinc borate glass), hydrogen and forming gas (5% H₂ / 95% N₂) for oxide control
 - **Tools**: Sealing furnace (800–1100°C with controlled atmosphere), glassworking lathe ([advanced glassblowing](advanced-glassblowing.md)), diamond saw for metal pin preparation, furnace with hydrogen or forming gas atmosphere for pre-oxidation, optical pyrometer for temperature control
 - **Knowledge**: Thermal expansion matching principles, glass wetting and adhesion on metal oxides, stress analysis in cylindrical and disk seals, annealing schedules for stress relief, metal pre-oxidation protocols for chemical bonding

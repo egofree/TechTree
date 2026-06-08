@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Jicama](../images/plants/plants_jicama.jpg)
+
+> *Image: Steve Fitzgerald, CC BY-SA 4.0*
+
 Jicama
 
 *Pachyrhizus erosus* (Fabaceae) is a root & tuber crop species of major importance for civilization bootstrapping. Yam bean, Jicama provides leaves, roots, seeds/nuts as its primary edible product and ranks 55/100 on the nutrition score.

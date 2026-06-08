@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Fig](../images/plants/plants_fig.jpg)
+
+> *Image: Pepper, James F., Wallace De Witt, JR., and David F. Demarest, Public domain*
+
 Fig
 
 *Ficus carica* (Moraceae) is a fruit & nut tree species of major importance for civilization bootstrapping. Fig provides fruit, leaves, flowers as its primary edible product and ranks 49/100 on the nutrition score.

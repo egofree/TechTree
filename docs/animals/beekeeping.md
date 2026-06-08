@@ -29,6 +29,10 @@ The species *Apis mellifera* (Western honey bee) is the primary managed bee worl
 
 ## Prerequisites
 
+![Apiculture, ruche, planche - Beekeeping, beehives, historical, in France, plate with line drawings etc. - Public domain illustration from Larousse du XXème siècle 1932](../images/animals/animals_beekeeping.jpg)
+
+> *Image: EN NOIR &amp; BLANC, CC0*
+
 | Requirement | Source | Notes |
 |-------------|--------|-------|
 | Basic hand tools (axe, knife, auger) | [`foundations.tools-basic`](../foundations/tools-basic.md) | For log hive and skep construction |

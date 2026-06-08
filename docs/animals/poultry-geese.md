@@ -17,6 +17,10 @@ Egg production is modest (30-50 eggs per year) but each egg is substantial (150-
 
 ## Prerequisites
 
+![Bar-headed Geese in Koonthalulam, India, by Dr. Tejinder Singh Rawal](../images/animals/animals_poultry_geese.jpg)
+
+> *Image: Tsrawal, CC BY-SA 3.0*
+
 | Requirement | Source | Notes |
 |-------------|--------|-------|
 | Pasture (4-6 m² per goose) | [`agriculture`](../agriculture/soil-management.md) | Geese obtain 70-80% of diet from grazing |

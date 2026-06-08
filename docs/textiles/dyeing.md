@@ -13,6 +13,10 @@ Dyeing transforms undyed cloth and yarn into colored textiles using natural pigm
 
 ## Prerequisites
 
+![A man dyeing silk red in boiling water in Kumbakonam, Tamil Nadu](../images/textiles/textiles_dyeing.jpg)
+
+> *Image: Matthew T Rader, CC BY-SA 4.0*
+
 - [Chemistry](../chemistry/index.md) — mordant chemistry, pH control, and extraction
 - [Textiles / Fibers](fibers.md) — fiber preparation and properties
 - [Plants / Dye Plants](../plants/dye-plants.md) — plant sources for dye pigments

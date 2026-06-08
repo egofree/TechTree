@@ -10,6 +10,10 @@
 
 ## Principle
 
+![Masson Mills WTM 12b Power Loom 5877](../images/textiles/textiles_power-loom.jpg)
+
+> *Image: Clem Rutter, Rochester, Kent., CC BY-SA 3.0*
+
 A power loom mechanizes the three basic motions of hand weaving — shedding (raising alternate warp threads), picking (passing the weft through the shed), and beating (packing the weft against the fell) — using power from a steam engine, water wheel, or electric motor transmitted via belt drive to a main crank shaft. Each revolution of the crank shaft completes one weaving cycle: shed opens → shuttle flies across → reed beats weft → shed changes.
 
 The Cartwright power loom (1785) was the first practical design: an iron frame supporting the warp beam, cloth beam, heddle shafts, shuttle race, and reed (beater). The main shaft drives a cam system that raises and lowers heddle shafts (shedding), a picking stick that propels the shuttle across the warp (picking), and a lay (batten) that swings the reed forward to pack the weft (beating). Later improvements added automatic shuttle changing (Roberts self-acting loom, 1820s-1840s), automatic bobbin replacement (Northrop, 1894), and eventually shuttleless designs (rapier, projectile, air-jet, 1950s+).

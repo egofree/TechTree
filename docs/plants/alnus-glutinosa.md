@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Black Alder](../images/plants/plants_alnus-glutinosa.jpg)
+
+> *Image: Radomianin, CC BY-SA 4.0*
+
 Black alder (*Alnus glutinosa*) is a deciduous tree native to Europe that produces timber with a remarkable property: it is highly resistant to decay when permanently submerged in water or buried in wet ground. Alder piles driven into riverbeds and marshes can last for centuries. Venice was built on alder pilings, and many medieval structures in northern Europe rest on alder foundations.
 
 The wood is relatively soft and light (450-550 kg/m³ at 12% moisture content) but becomes extremely hard and durable when permanently wet. This paradox (soft when dry, durable when wet) makes alder uniquely suited for foundation pilings, underwater structures, sluice gates, and any construction that contacts water or damp ground.

@@ -11,6 +11,10 @@
 
 ## Overview
 
+![Bellow Seal Gate Valve](../images/polymers/polymers_seals-gaskets.jpg)
+
+> *Image: Valvesonlyusa03, CC0*
+
 Seals, gaskets, and packing are the components that prevent fluid escape at joints, rotating shafts, and valve stems. Every pressure vessel, pipe flange, pump, valve, and engine depends on at least one sealing element. Without them, pressurized systems leak, hydraulic power is lost, and chemical processes contaminate their surroundings.
 
 The four main categories serve distinct functions. **O-rings** are toroidal elastomeric seals that block fluid passage when compressed between two mating surfaces inside a machined groove. **Gaskets** are flat or profiled sheets cut to fit between bolted flanges, sealing static joints under compression. **Compression packing** (also called gland packing) is braided rope-like material packed around valve stems and pump shafts, where the rotating or reciprocating motion prevents use of a static seal. **Lip seals** (shaft seals) have a flexible elastomeric lip that rides against a rotating shaft, retaining lubricant and excluding contaminants.

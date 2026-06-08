@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Pearl Millet](../images/plants/plants_pearl-millet.jpg)
+
+> *Image: Vis M, CC BY-SA 4.0*
+
 Pearl Millet
 
 *Pennisetum glaucum* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Bullrush millet, Pearl millet provides seeds/nuts as its primary edible product and ranks 63/100 on the nutrition score.

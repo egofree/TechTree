@@ -13,6 +13,10 @@ The blast furnace is the key advancement from bloomery smelting. Where a bloomer
 
 ## Prerequisites
 
+![Production of iron and blast furnace ferroalloys—Виробництво чавуну і доменних феросплавів](../images/metals/metals_blast-furnace.png)
+
+> *Image: Blast furnace chip worker, CC BY-SA 3.0*
+
 - [Iron and steel fundamentals](iron-steel.md) — ore types, reduction chemistry, and iron properties
 - [Coke production](../energy/coke.md) — coke as blast furnace fuel and reductant
 - [Ceramic kilns](../ceramics/kilns.md) — refractory lining for furnace construction

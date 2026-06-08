@@ -18,6 +18,10 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 
 ## Prerequisites
 
+![Philips'chamber of commerce atlas; a graphic survey of the world's trade with a commercial compendium and gazetteer index](../images/polymers/polymers_rubber.jpg)
+
+> *Image: George Philip and Son (Londres). Auteur du texte, Public domain*
+
 ### Materials
 - [Latex](../glossary/guayule.md) from *Hevea brasiliensis* (tropical) or guayule/Russian dandelion (temperate)
 - [Sulfur](../chemistry/alkalis.md) (2-4 phr, cross-linking agent)

@@ -15,6 +15,10 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 
 ## Materials
 
+![Radiation safety badges, Jax Laboratory](../images/ehs/ehs_radiation-safety.jpg)
+
+> *Image: Wladimir Labeikovsky, CC BY-SA 2.0*
+
 - Shielding materials: lead sheet (0.5-3 mm for X-ray), concrete (15-30 cm for general shielding), steel plate, barium sulfate (for painted shielding)
 - Dosimetry materials: photographic film (film badge dosimeter), thermoluminescent crystals (TLD — LiF:Mg,Ti), or optically stimulated luminescence (OSL) badges (requires electronics)
 - Warning signs: trefoil radiation symbol, posted at access points

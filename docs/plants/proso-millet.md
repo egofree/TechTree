@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Proso Millet](../images/plants/plants_proso-millet.jpg)
+
+> *Image: Jschnable, CC BY 4.0*
+
 Proso Millet
 
 *Panicum miliaceum* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. True millet, Common millet, Proso provides seeds/nuts as its primary edible product and ranks 52/100 on the nutrition score.

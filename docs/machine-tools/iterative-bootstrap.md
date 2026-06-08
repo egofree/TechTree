@@ -13,6 +13,10 @@ Precision machines require precision parts, but precision parts require precisio
 
 ## Prerequisites
 
+![Precision metal machining and welding for heavy industrial components](../images/machine-tools/machine-tools_iterative-bootstrap.jpg)
+
+> *Image: Leadingtopunion, CC0*
+
 - [Casting](../metals/casting.md) — sand casting of iron and aluminum parts for machine frames and components
 - [Animal-derived materials](../animals/animal-materials.md) — hide glue, leather for belts, bone for polishing compounds
 - [Iron and steel](../metals/iron-steel.md) — cast iron for beds, tool steel for cutters and scrapers

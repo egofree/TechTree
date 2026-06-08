@@ -13,6 +13,10 @@ A 300 mm semiconductor wafer contains billions of transistors across a silicon s
 
 ## Prerequisites
 
+![Weird Tales v15n03 (1930 03) (sas)](../images/automation/automation_wafer-handling.jpg)
+
+> *Image: Wikimedia Commons contributor, Public domain*
+
 - [Machine Tools](../machine-tools/index.md) — precision machining of robot arms, end effectors, and load lock components
 - [Vacuum Technology](../vacuum/index.md) — vacuum pumps, load locks, and slit valves for vacuum wafer transfer
 - [Electronics](../electronics/index.md) — servo motors, encoders, and motion controllers for robot actuation

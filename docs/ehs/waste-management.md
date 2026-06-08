@@ -13,6 +13,10 @@ Semiconductor manufacturing generates complex waste streams that differ fundamen
 
 ## Decision Framework: Waste Treatment Selection
 
+![OGUN STATE WASTE MANAGEMENT AND SANITATION AGENCY 02](../images/ehs/ehs_waste-management.jpg)
+
+> *Image: Munir The Illuminator, CC BY-SA 4.0*
+
 | Waste Stream | Primary Treatment | Polishing (if needed) | Discharge Limit | Key Risk |
 |-------------|------------------|----------------------|----------------|---------|
 | Fluoride (HF waste) | CaCl₂ precipitation → CaF₂ | Activated alumina adsorption or ion exchange | 10-30 mg/L F⁻ | pH must be 8-10 or F⁻ stays in solution |

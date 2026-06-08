@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Rice](../images/plants/plants_rice.jpg)
+
+> *Image: Unknown authorUnknown author, Public domain*
+
 Rice
 
 *Oryza sativa* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Rice provides seeds/nuts as its primary edible product and ranks 52/100 on the nutrition score.

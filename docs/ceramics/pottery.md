@@ -13,6 +13,10 @@ Pottery provides containers for storage, transport, cooking, and — critically 
 
 ## Prerequisites
 
+![A potter designing on clay pots before the final finishing](../images/ceramics/ceramics_pottery.jpg)
+
+> *Image: VKeem, CC BY-SA 4.0*
+
 - [Fire](../foundations/fire.md) — controlled combustion for kiln firing
 - [Basic tools](../foundations/tools-basic.md) — digging, crushing, and forming implements
 - [Clay sources](../foundations/index.md) — river banks, floodplains, geological deposits

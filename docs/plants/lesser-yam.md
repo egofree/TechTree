@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Lesser Yam](../images/plants/plants_lesser-yam.jpg)
+
+> *Image: Salil Kumar Mukherjee, CC BY-SA 4.0*
+
 Lesser Yam
 
 *Dioscorea esculenta* (Dioscoreaceae) is a root & tuber crop species of major importance for civilization bootstrapping. Lesser yam provides leaves, roots as its primary edible product and ranks 48/100 on the nutrition score.

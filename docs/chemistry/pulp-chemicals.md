@@ -13,6 +13,10 @@ Pulp and paper chemicals enable the conversion of wood and plant fibers into pap
 
 ## Prerequisites
 
+![Southland Paper mill, Kraft pulp used in making newsprint, Lufkin1a35429v](../images/chemistry/chemistry_pulp-chemicals.jpg)
+
+> *Image: John Vachon, Public domain*
+
 - [Alkalis](alkalis.md) — sodium hydroxide for kraft pulping and bleaching
 - [Electrolysis](electrolysis.md) — chlorine and sodium hydroxide production
 - [Sulfuric acid](acids.md) — acidifying agents for processing and pH control

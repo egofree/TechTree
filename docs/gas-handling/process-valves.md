@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Duisburg, Landschaftspark Duisburg-Nord -- 2020 -- 7824-6](../images/gas-handling/gas-handling_process-valves.jpg)
+
+> *Image: Dietmar Rabich, CC BY-SA 4.0*
+
 Industrial process valves control fluid flow in chemical reactors, steam distribution, gas pipelines, and high-pressure process systems. Unlike [water distribution valves](../water/water-valves.md), which operate near ambient temperature at moderate pressure with non-corrosive media, process valves must handle steam above 200°C, corrosive chemicals (acids, alkalis, chlorinated solvents), flammable or toxic gases, and pressures from vacuum to 200+ bar — sometimes several of these simultaneously on a single valve.
 
 A chemical plant with 500 process vessels needs 2,000-5,000 valves. Each must be specified by body material, pressure class, seat material, end connection, and actuator type to match the service. A carbon-steel gate valve that lasts 30 years in steam service will corrode through in weeks if installed in a sulfuric acid line. A bronze globe valve rated for 16 bar water will fail catastrophically at 16 bar steam (200°C) because bronze loses half its yield strength between 20°C and 200°C.

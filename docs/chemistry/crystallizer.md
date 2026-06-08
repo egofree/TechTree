@@ -10,6 +10,10 @@
 
 ## Overview
 
+![The crystallization process](../images/chemistry/chemistry_crystallizer.jpg)
+
+> *Image: AntoninaSmir, CC BY-SA 4.0*
+
 A crystallizer produces solid crystals from a solution by creating supersaturation — the thermodynamic driving force for crystal nucleation and growth. Supersaturation is achieved by cooling the solution (cooling crystallization), evaporating solvent (evaporative crystallization), or adding an antisolvent that reduces solute solubility (antisolvent crystallization). Once supersaturated, the solution nucleates new crystals or grows existing seed crystals. Controlled crystallization produces large, pure crystals (0.1-5 mm) that are easily filtered and washed.
 
 The governing relationship is the solubility curve: solubility (g solute per 100 g solvent) as a function of temperature. For substances with steep solubility curves (e.g., KNO₃: 13 g/100 g at 0°C to 247 g/100 g at 100°C), cooling crystallization is highly effective. For substances with flat solubility curves (e.g., NaCl: 35.7 g/100 g at 0°C to 39.1 g/100 g at 100°C), evaporative crystallization is preferred. The key design parameter is the supersaturation ratio (S = C/C*, where C is the actual concentration and C* is the equilibrium solubility). Typical operating range: S = 1.02-1.10. Too low: no crystallization. Too high: excessive nucleation produces fine powder ("fines") instead of coarse crystals.

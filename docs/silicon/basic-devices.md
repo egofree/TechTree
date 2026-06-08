@@ -10,6 +10,10 @@
 
 ## Basic Semiconductor Devices
 
+![Low-temperature processes controlling silicon dissolution in seawater](../images/silicon/silicon_basic-devices.jpg)
+
+> *Image: Paul J. Tréguer, Jill N. Sutton, Mark Brzezinski, Matthew A. Charette, Timothy Devries, Stephanie Dutkiewicz, Claudia Ehlert, Jon Hawkings, Aude Leynaert, Su Mei Liu, Natalia Llopis Monferrer, María López-Acosta, Manuel Maldonado, Shaily Rahman, Lihua Ran and Olivier Rouxel, CC BY-SA 4.0*
+
 ### Solar Cells (Primary Target — simplest useful semiconductor device)
 
 **Structure**: Large-area (100-300 cm²) pn junction on single-crystal or multicrystalline silicon wafer.

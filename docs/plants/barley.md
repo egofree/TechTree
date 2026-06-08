@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Barley](../images/plants/plants_barley.jpg)
+
+> *Image: Lucash, CC BY-SA 3.0*
+
 Barley
 
 *Hordeum vulgare* (Amaranthaceae) is a staple food crop species of major importance for civilization bootstrapping. Barley, Common barley provides seeds/nuts as its primary edible product.

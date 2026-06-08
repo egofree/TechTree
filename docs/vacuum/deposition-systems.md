@@ -12,6 +12,10 @@ Deposition systems are the reason vacuum technology exists in semiconductor manu
 
 ## Sputter Deposition Systems
 
+![Aomic-layer-deposition-system](../images/vacuum/vacuum_deposition-systems.jpg)
+
+> *Image: Center for Integrated Nanotechnologies - Los Alamos National Laboratory, Public domain*
+
 ### DC Magnetron Sputtering
 
 **Principle**: A DC voltage (300-700 V) applied between a conductive target (cathode) and the chamber (anode) creates an Ar plasma. A magnetic field behind the target traps electrons in a racetrack pattern, increasing ionization efficiency near the target surface. Ar⁺ ions bombard the target, ejecting atoms that travel to the substrate and condense as a thin film.

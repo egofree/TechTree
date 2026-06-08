@@ -10,6 +10,10 @@
 
 ## Iron Production
 
+![Trends in production of iron ore, pig iron and steel in the United States, 1880—1900](../images/metals/metals_iron-steel.png)
+
+> *Image: Blast furnace chip worker, CC BY-SA 4.0*
+
 Iron requires higher temperatures than copper (melting point 1538°C, but bloomery process works below melting point). This is the critical metallurgical capability that enables all subsequent phases.
 
 **Bloomery smelting**:

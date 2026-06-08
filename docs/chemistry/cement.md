@@ -10,6 +10,10 @@
 
 ## Portland Cement Manufacture
 
+![Concrete Bridge at Cement, California](../images/chemistry/chemistry_cement.jpg)
+
+> *Image: Unknown authorUnknown author, Public domain*
+
 **Raw materials**:
 - **[Limestone](../glossary/limestone.md)** (CaCO₃): 60-65% of raw mix. Provides CaO. Mine, crush to <20 mm.
 - **[Clay](../glossary/clay.md)** or shale: 35-40%. Provides SiO₂ (silica), Al₂O₃ (alumina), Fe₂O₃ (iron oxide). Dug, dried, crushed.

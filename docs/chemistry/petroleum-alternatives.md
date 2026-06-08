@@ -13,6 +13,10 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 
 ## Prerequisites
 
+![Ethanolamine-chemical-liquid](../images/chemistry/chemistry_petroleum-alternatives.jpg)
+
+> *Image: Carbamatesalts, CC BY-SA 4.0*
+
 - [Basic tools](../foundations/tools-basic.md) — drilling equipment, retorts, and processing vessels
 - [Distillation](distillation.md) — fractional distillation of crude oil, coal tar, and wood vinegar
 - [Fermentation](fermentation.md) — ethanol and other bio-based feedstocks

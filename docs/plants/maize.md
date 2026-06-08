@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Maize](../images/plants/plants_maize.jpg)
+
+> *Image: Frank Peairs, Colorado State University, CC BY 3.0 us*
+
 Maize
 
 *Zea mays* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Corn, Maize provides leaves, seeds/nuts, flowers as its primary edible product and ranks 68/100 on the nutrition score.

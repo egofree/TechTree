@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Tea](../images/plants/plants_tea.jpg)
+
+> *Image: Matt Crypto at English Wikipedia, Public domain*
+
 Tea
 
 *Camellia sinensis* (Theaceae) is a beverage & stimulant crop species of major importance for civilization bootstrapping. Tea provides leaves, seeds/nuts, flowers as its primary edible product.

@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Turmeric](../images/plants/plants_turmeric.jpg)
+
+> *Image: Akshaya govindasamy, CC BY-SA 4.0*
+
 Turmeric
 
 *Curcuma longa* (Zingiberaceae) is a medicinal & spice plant species of major importance for civilization bootstrapping. Turmeric provides leaves, roots, flowers as its primary edible product and ranks 65/100 on the nutrition score.

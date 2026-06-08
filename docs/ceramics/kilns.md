@@ -16,6 +16,10 @@ This document covers the design and construction of kilns from the simplest eart
 
 ## Materials
 
+![A new Maerz Kiln, under construction - geograph.org.uk - 1550690](../images/ceramics/ceramics_kilns.jpg)
+
+> *Image: Richard Law, CC BY-SA 2.0*
+
 - **Clay** (common earthenware clay for basic kilns; [fire clay](pottery.md) for permanent kilns — kaolin-rich, high alumina, low iron)
 - **Sand and gravel** (for foundation and drainage)
 - **Grog** (crushed fired clay, 30-50% addition to fireclay — reduces shrinkage and thermal shock)

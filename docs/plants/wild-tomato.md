@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Wild Tomato](../images/plants/plants_wild-tomato.jpg)
+
+> *Image: Peripitus, CC BY-SA 4.0*
+
 Wild Tomato
 
 *Solanum lycopersicum var. cerasiforme* (Solanaceae) is a vegetable crop species of major importance for civilization bootstrapping. Cherry tomato provides fruit as its primary edible product.

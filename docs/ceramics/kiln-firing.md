@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Firing sequences inside kiln firing](../images/ceramics/ceramics_kiln-firing.jpg)
+
+> *Image: Encik Tekateki, CC0*
+
 Kiln firing transforms dried clay objects into permanent ceramic by driving them through a carefully controlled temperature schedule. The heat expels chemically bound water, burns out organic matter, and triggers sintering reactions that partially vitrify the clay body. Bisque firing, the first pass at pyrometric cone 08 through cone 04 (roughly 950 to 1060 degrees C), produces porous ware that can absorb glaze. Glaze firing, the second pass at cone 6 through cone 10 (1220 to 1300 degrees C), melts the glaze coating and matures the clay body to its final density.
 
 The three traditional clay body categories, earthenware, stoneware, and porcelain, each fire to different temperature ranges and produce ceramics with distinct properties. Earthenware fires at the lowest temperature (cone 04 to cone 02) and remains porous after firing. It is the easiest to work with but the least durable. Stoneware fires at cone 6 to cone 10, vitrifying to a dense, non-porous body that holds water without glazing. Porcelain fires at cone 10 to cone 12 and vitrifies completely, becoming translucent at thin sections. Each body type requires its own family of glazes formulated to match the firing temperature and thermal expansion of the clay.

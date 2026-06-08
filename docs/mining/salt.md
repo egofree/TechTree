@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Khewra Salt Mines5](../images/mining/mining_salt.jpg)
+
+> *Image: Shahzaib Damn Cruze, CC BY-SA 4.0*
+
 Extraction of halite (rock salt) and brine from underground deposits, salt pans, and seawater evaporation. Salt is essential for food preservation, chlor-alkali electrolysis (chlorine and caustic soda), and as a chemical feedstock. Enables the foundational inorganic chemistry of the industrial revolution.
 
 This technology is characteristic of the Stone Age era of industrial development. It builds on earlier foundational techniques while enabling more precise and controlled manufacturing outcomes.

@@ -15,6 +15,10 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 
 ## Prerequisites
 
+![Distillation apparatus](../images/glass/glass_glassblowing.jpg)
+
+> *Image: No machine-readable author provided. Ragesoss assumed (based on copyright claims)., Public domain*
+
 **Materials**:
 - [Borosilicate glass tubing](advanced.md) (3-50 mm OD, 0.5-2.5 mm wall) — primary raw material for lampworking
 - [Soda-lime glass melt](basic.md) — for furnace glassblowing

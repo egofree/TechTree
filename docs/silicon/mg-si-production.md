@@ -10,6 +10,10 @@
 
 ## Metallurgical-Grade Silicon (MG-Si) Production
 
+![Crystal structure of Silicon Material](../images/silicon/silicon_mg-si-production.jpg)
+
+> *Image: MmRoma, CC0*
+
 **Process**: Carbothermic reduction of quartz in submerged arc electric furnace.
 - **Reaction**: SiO₂ + 2C → Si + 2CO (endothermic, ΔH ≈ +690 kJ/mol)
 - **Temperature**: ~1800-2100°C in the reaction zone

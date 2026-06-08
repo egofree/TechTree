@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Hazel](../images/plants/plants_hazel.jpg)
+
+> *Image: Ivar Leidus, CC BY-SA 4.0*
+
 Hazel
 
 *Corylus avellana* (Betulaceae) is a fruit & nut tree species of major importance for civilization bootstrapping. Hazel nuts, Cob-nut Hazel, Filberts provides leaves, seeds/nuts, flowers as its primary edible product and ranks 68/100 on the nutrition score.

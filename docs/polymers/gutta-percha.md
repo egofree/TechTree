@@ -13,6 +13,10 @@ Submarine telegraph cables require an insulation material that is waterproof, el
 
 ## Prerequisites
 
+![Stand der Gutta-Percha-Companie, Hannover Gruß von der Weltausstellung Louisiana Purchase Exposition New York 1904 Grands Prix Herrn ... Tabarz Großtabarz Bildseite](../images/polymers/polymers_gutta-percha.jpg)
+
+> *Image: differents, CC BY-SA 3.0*
+
 - [Rubber production](rubber.md) — basic elastomer and natural polymer processing knowledge
 - Tropical climate access — *Palaquium gutta* trees require lowland tropical rainforest conditions
 - Basic heating and pressing equipment — for coagulation, washing, and molding

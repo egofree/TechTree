@@ -10,6 +10,10 @@
 
 ## Mining Methods
 
+![Madizelle Mining Company 1917 Fred Smith](../images/mining/mining_extraction.jpg)
+
+> *Image: Weekly Journal Miner, Public domain*
+
 **Surface mining (open pit)**:
 - **Planning**: Strip overburden (soil + useless rock) to expose ore body. Bench height 5-15 m. Bench width = height × slope angle (typically 45-70°). Road access on each bench for haulage.
 - **Overburden removal**: Hand shovels and wheelbarrows (Foundations), animal-drawn scrapers (Metallurgy), steam or diesel shovels. Ratio: overburden-to-ore should be <3:1 for economic viability.

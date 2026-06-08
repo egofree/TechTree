@@ -10,6 +10,10 @@
 
 ## Overview
 
+![PEM fuel cell diagram](../images/energy/energy_fuel-cell.jpg)
+
+> *Image: Amalia1983, CC BY-SA 3.0*
+
 Proton exchange membrane fuel cells converting hydrogen and oxygen to electricity, water, and heat. Provides efficient distributed power generation for applications requiring clean, quiet energy conversion.
 
 Several fuel cell types serve different operating regimes. PEM fuel cells operate at moderate temperatures with a solid polymer electrolyte membrane, offering fast startup and compact form factor. Solid oxide fuel cells (SOFC) run at much higher temperatures with a ceramic electrolyte, achieving higher electrical efficiency and tolerating a wider range of hydrocarbon fuels including natural gas and biogas. Molten carbonate fuel cells (MCFC) operate at intermediate high temperatures and are suited for large-scale stationary power generation.

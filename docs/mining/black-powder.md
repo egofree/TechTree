@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Barut 2346918 01](../images/mining/mining_black-powder.jpg)
+
+> *Image: Satirdan kahraman, CC BY-SA 4.0*
+
 Gunpowder manufacture (75% KNO₃, 15% charcoal, 10% sulfur) for mining blasting. Process: pulverize ingredients separately, wet-mix, press into cakes, crumble and sieve to grain sizes. Corning process ensures uniform burn rate. Enables breaking rock far beyond fire-setting and hand-tool limits.
 
 This technology is characteristic of the Industrial era of industrial development. It builds on earlier foundational techniques while enabling more precise and controlled manufacturing outcomes.

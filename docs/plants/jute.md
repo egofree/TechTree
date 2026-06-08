@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Jute](../images/plants/plants_jute.jpg)
+
+> *Image: AnonymousUnknown author, Public domain*
+
 Jute
 
 *Corchorus olitorius* (Malvaceae) is a fiber & industrial crop species of major importance for civilization bootstrapping. Jute, Bush Okra provides fruit, leaves, seeds/nuts as its primary edible product and ranks 61/100 on the nutrition score.

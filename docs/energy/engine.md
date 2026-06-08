@@ -15,6 +15,10 @@ Four engine types form a natural progression, each building on the capabilities 
 
 ## Focused Articles
 
+![Corliss cylinder (Heat Engines, 1913)](../images/energy/energy_engine.jpg)
+
+> *Image: Andy Dingley (scanner), Public domain*
+
 Each engine type has a dedicated article with full detail:
 
 - [Stirling Engine](stirling-engine.md) — Closed-cycle external combustion. Any heat source works (solar, biomass, waste heat). Achievable with lathe and basic foundry.

@@ -13,6 +13,10 @@ The CZ puller is the most mechanically demanding piece of equipment in the silic
 
 ## Why Single Crystal Silicon
 
+![FZU AV CR Silicon Single Crystal C](../images/silicon/silicon_crystal-growth.jpg)
+
+> *Image: Mojmir Churavy, CC BY-SA 4.0*
+
 Polycrystalline silicon contains grain boundaries between individual crystal grains. These boundaries are electrically active: they act as recombination centers where electron-hole pairs recombine without contributing to current flow. In polycrystalline silicon, minority carrier lifetime drops from >1,000 μs (single crystal) to <10 μs. For solar cells, this means lower efficiency (10-12% for poly-Si vs. 15-20% for single crystal). For semiconductor devices, grain boundaries are fatal: they cause unpredictable leakage currents, threshold voltage shifts, and junction shorts.
 
 Dislocations within the crystal have a similar effect. Even a single dislocation threading through a transistor's active region can cause device failure. This is why the Dash necking process (described below) is so critical: it eliminates dislocations from the growing crystal.

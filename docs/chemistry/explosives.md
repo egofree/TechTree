@@ -37,6 +37,10 @@ The history of explosives mirrors the history of industrial civilization. Black 
 
 ## Articles in this capability
 
+![Ampoule with chemical substance Gelsomine (cropped and edited)](../images/chemistry/chemistry_explosives.jpg)
+
+> *Image: Choij (talk), Public domain*
+
 - [**Black Powder**](black-powder.md) — Black powder manufacture (KNO₃/charcoal/sulfur): separate pulverization, wheel-mill mixing, corning, and granulation. The first explosive, foundational for mining and firearms.
 - [**Nitrocellulose & Smokeless Powders**](nitrocellulose.md) — Nitration of cellulose to guncotton and pyroxylin. Manufacture of single-base and double-base smokeless powders. Foundation of modern propellants and early plastics.
 - [**Nitroglycerin & Dynamite**](nitroglycerin-dynamite.md) — Synthesis of nitroglycerin from glycerol and mixed acid, absorbed into diatomaceous earth to produce dynamite cartridges. The workhorse blasting explosive from the 1870s onward.

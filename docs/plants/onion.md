@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Onion](../images/plants/plants_onion.jpg)
+
+> *Image: USDAgov, Public domain*
+
 Onion
 
 *Allium cepa* (Amaryllidaceae) is a vegetable crop species of major importance for civilization bootstrapping. Bulb onion provides leaves, roots, seeds/nuts as its primary edible product and ranks 18/100 on the nutrition score.

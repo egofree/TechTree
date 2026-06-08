@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Cacao](../images/plants/plants_cacao.jpg)
+
+> *Image: Nativeplants garden, CC BY-SA 4.0*
+
 Cacao
 
 *Theobroma cacao* (Malvaceae) is a beverage & stimulant crop species of major importance for civilization bootstrapping. Cacao provides fruit, seeds/nuts, spice/beverage as its primary edible product and ranks 65/100 on the nutrition score.

@@ -10,6 +10,10 @@
 
 ## Overview
 
+![The chemistry of foods and nutrition](../images/chemistry/chemistry_phosphorus.jpg)
+
+> *Image: W. O. (Wilbur Olin) Atwater, Public domain*
+
 Extraction of phosphorus from phosphate rock via acidulation or thermal reduction, and production of phosphoric acid and phosphate fertilizers. Phosphorus compounds are essential for agriculture (fertilizer), food additives, detergents, and semiconductor doping. The phosphorus cycle is a key civilizational bottleneck.
 
 Primary outputs: `phosphoric-acid`, `phosphate-fertilizer`, `phosphorus-compounds`. These materials or products serve as inputs for downstream manufacturing and processing steps.

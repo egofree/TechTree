@@ -17,6 +17,10 @@ The dependency chain: advanced glassblowing requires borosilicate glass (which r
 
 ## Prerequisites
 
+![Glass Beach Fort Bragg 2](../images/glass/glass_advanced_glassblowing.jpg)
+
+> *Image: Jef Poskanzer, CC BY 2.0*
+
 - **Materials**: [Borosilicate glass tubing and rod](./advanced.md) (standard sizes: 5-50 mm OD tube, 3-12 mm rod), [oxygen and propane or natural gas](../energy/fuels.md) for torch fuel, [silicon carbide abrasive](../machine-tools/bearings-abrasives.md) (220-1200 grit for grinding joints), [cerium oxide](../mining/processing.md) (for optical polishing), [high-vacuum grease](../chemistry/index.md) (Apiezon type for ground glass seals)
 - **Tools**: [Glassworking lathe](../machine-tools/index.md) (headstock + tailstock, 10-60 RPM, 0.5-2.0 m bed), [surface-mix torch](../machine-tools/index.md) (propane-oxygen, ~2500°C flame), [hand tools](../machine-tools/index.md) (graphite paddles, tweezers, shears, jacks, calipers), [annealing oven](../energy/index.md) (electric, 600-1200°C, programmable controller), [blowhose with mouthpiece](./index.md) for inflating workpieces, [crossed polarizers](./index.md) for stress inspection
 - **Knowledge**: Borosilicate glass thermal properties (CTE 3.3 × 10⁻⁶/°C, annealing point 560°C, strain point 510°C), glass joining techniques (butt seal, ring seal, ground joint taper 1:10), annealing cycle design (hold time based on wall thickness, controlled cooling through strain range), stress analysis with polariscope

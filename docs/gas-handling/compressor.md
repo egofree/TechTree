@@ -10,6 +10,10 @@
 
 ## Prerequisites
 
+![Gas Compressor Station - geograph.org.uk - 279974](../images/gas-handling/gas-handling_compressor.jpg)
+
+> *Image: Steve F, CC BY-SA 2.0*
+
 - [Iron & Steel](../metals/iron-steel.md) — cast iron for cylinder blocks, forged steel for crankshafts and connecting rods
 - [Machining](../machine-tools/machining.md) — precision boring of cylinders, grinding of journals, milling of rotor profiles
 - [Electricity](../energy/electricity.md) — motor drive power (5-500 kW depending on compressor size)

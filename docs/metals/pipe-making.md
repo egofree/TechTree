@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Industries of War - Piping - Manufacturing steel pipe for the government at the Youngstown Sheet and Tube Company plant, Youngstown, Ohio. Method of welding steel pipe - butt-weld process](../images/metals/metals_pipe-making.jpg)
+
+> *Image: Unknown authorUnknown author or not provided, Public domain*
+
 Manufacture of metal pipes and tubes by casting, extrusion, seamless piercing, or welding. Pipes are essential infrastructure for water distribution, gas handling, steam transport, and chemical processing. Each pipe material and process serves different applications: cast iron for water and drainage, seamless steel for high-pressure steam and structural use, welded steel for moderate-pressure fluids, and copper tube for domestic water and heat exchangers.
 
 The choice of pipe-making method depends on the material, diameter, wall thickness, and pressure rating required. Cast iron pipes are made by centrifugal casting, where molten iron is poured into a spinning mold that distributes the metal evenly against the mold wall. Steel pipes are either seamless (pierced from a solid billet and elongated on a rolling mill) or welded (formed from flat strip and seam-welded). Copper tubes are made by extrusion followed by cold drawing.

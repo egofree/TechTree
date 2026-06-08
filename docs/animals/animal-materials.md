@@ -15,6 +15,10 @@ The chain runs from the carcass to finished material through a series of mechani
 
 ## Prerequisites
 
+![Geological time spiral](../images/animals/animals_animal-materials.png)
+
+> *Image: United States Geological Survey, Public domain*
+
 - [Cattle](cattle.md) — hides, tallow, horn, bone, and sinew supply
 - [Sheep](sheep.md) — wool and sheepskin
 - [Domestication](domestication.md) — livestock management and husbandry

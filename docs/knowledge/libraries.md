@@ -10,6 +10,10 @@
 
 ## Prerequisites
 
+![Agricultural libraries information notes](../images/knowledge/knowledge_libraries.jpg)
+
+> *Image: National Agricultural Library (U.S.), Public domain*
+
 - **Materials**: Paper, ink, binding materials from [Printing](printing.md); shelving lumber (oak, ash) or steel angle-iron; acid-free folders and boxes for archival storage
 - **Tools**: [Writing](writing.md) instruments for catalog cards, measuring tools for environmental monitoring (thermometers, hygrometers), basic woodworking tools for shelving
 - **Knowledge**: [Writing](writing.md) for documentation and cataloging, [Education](education.md) for trained librarians, classification system design

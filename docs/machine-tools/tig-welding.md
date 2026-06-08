@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Gas arc welding (TIG & MIG)](../images/machine-tools/machine-tools_tig-welding.png)
+
+> *Image: Shigeru23, CC BY-SA 3.0*
+
 Gas Tungsten Arc Welding using non-consumable tungsten electrode with argon or helium shielding gas. Current 50-300A, voltage 10-22V. DCEN for steel/stainless/titanium, AC for aluminum. Produces highest-quality welds, essential for stainless steel tubing, vacuum-grade joints, and orbital tube welding for semiconductor gas distribution systems.
 
 TIG welding offers the welder the most control over the weld pool of any arc welding process. The arc is maintained between the tungsten electrode and the workpiece, while filler metal is added separately by hand (or automatically in mechanized systems). This separation of heat source and filler gives precise control over penetration, bead shape, and heat input, making TIG the preferred process for critical joints in pressure vessels, piping systems, and aerospace structures.

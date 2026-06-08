@@ -12,6 +12,10 @@ Coal is the highest-energy solid fuel available to a bootstrapping civilization,
 
 ## Coal Types & Properties
 
+![A catechism on the combustion of coal and the prevention of smoke; a practical treatise](../images/energy/energy_coal.jpg)
+
+> *Image: Barr, William M. (William Miller), Public domain*
+
 **Strengths**:
 - Highest energy density of any solid fuel (bituminous: 25-35 MJ/kg, anthracite: 35+ MJ/kg)
 - Abundant and geologically widespread — found on every continent

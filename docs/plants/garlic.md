@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Garlic](../images/plants/plants_garlic.jpg)
+
+> *Image: Ivar Leidus, CC BY-SA 4.0*
+
 Garlic
 
 *Allium sativum* (Amaryllidaceae) is a vegetable crop species of major importance for civilization bootstrapping. Garlic provides leaves, roots, seeds/nuts as its primary edible product and ranks 55/100 on the nutrition score.

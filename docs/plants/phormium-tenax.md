@@ -10,6 +10,10 @@
 
 ## Overview
 
+![New Zealand Flax](../images/plants/plants_phormium-tenax.jpg)
+
+> *Image: Avenue, CC BY-SA 3.0*
+
 New Zealand flax (*Phormium tenax*) is a perennial monocot native to New Zealand and Norfolk Island, cultivated for its strong leaf fibers since pre-European Maori settlement. Despite its common name, it is unrelated to true flax (*Linum usitatissimum*), belonging instead to the family Asphodelaceae. The plant forms large clumps of stiff, sword-shaped leaves 1-3 meters long and 5-12 cm wide, from which long, strong fibers can be extracted.
 
 The extracted fiber (muka in Maori) was the primary textile and cordage material of pre-contact New Zealand, used for everything from fine woven cloaks to heavy ropes, fishing nets, and sandals. The fiber is strong (tensile strength 300-500 MPa), flexible, and moderately resistant to water degradation. Maori weavers developed sophisticated techniques for extracting, softening, and weaving the fiber into intricate patterns.

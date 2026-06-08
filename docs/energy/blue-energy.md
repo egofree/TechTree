@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Blue energy mechanism](../images/energy/energy_blue-energy.png)
+
+> *Image: Nein Arimasen, CC BY-SA 3.0*
+
 Pressure-retarded osmosis and reverse electrodialysis generating electricity from the salinity gradient between freshwater and seawater. Uses ion-selective membranes to convert chemical potential difference into electrical power.
 
 Two principal methods exist: pressure-retarded osmosis (PRO) drives water through a semi-permeable membrane from freshwater into pressurized seawater, spinning a turbine; reverse electrodialysis (RED) stacks alternating cation and anion exchange membranes between freshwater and seawater channels, generating direct current from ion transport. Both methods exploit the osmotic pressure differential, which is roughly 25 bar at a river mouth where freshwater meets seawater.

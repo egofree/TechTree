@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Carbide wire drawing die diagram](../images/machine-tools/machine-tools_wire-drawing-die.png)
+
+> *Image: Wizard191, CC BY-SA 3.0*
+
 Wire drawing pulls metal rod through a hardened die with a tapered hole of precisely controlled diameter. Each die reduces the cross-section by 15-25% and elongates the wire proportionally. The die entrance bell (30° included angle) guides the metal into the bearing section (short, straight, ~1× diameter long), where the actual reduction occurs. A back-relief angle at the exit prevents the drawn wire from scoring the die. Drawing is performed cold — the metal work-hardens with each pass, increasing tensile strength by 50-100%. Annealing every 3-5 passes restores ductility for further reduction.
 
 The draw plate is the bootstrap form of wire drawing dies: a single hardened steel plate with multiple tapered holes graduating in size from 8.0 mm down to 1.0 mm. It requires no specialized die-making equipment — only a drill, reamers, and heat treatment capability. With a draw plate and a pulling force (hand-powered for fine wire, a draw bench for heavier stock), a workshop can produce uniform-diameter wire from cast or rolled rod.

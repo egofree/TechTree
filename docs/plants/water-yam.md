@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Water Yam](../images/plants/plants_water-yam.jpg)
+
+> *Image: Obsidian Soul, CC BY-SA 3.0*
+
 Water Yam
 
 *Dioscorea alata* (Dioscoreaceae) is a root & tuber crop species of major importance for civilization bootstrapping. Greater yam provides leaves, roots as its primary edible product and ranks 40/100 on the nutrition score.

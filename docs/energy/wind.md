@@ -17,6 +17,10 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 
 ## Prerequisites
 
+![Wind turbines, Wind power, Mirny, Crimea](../images/energy/energy_wind.jpg)
+
+> *Image: Vyacheslav Argenberg, CC BY 4.0*
+
 - [Lubricants](../chemistry/lubricants.md) — bearing lubrication for rotating machinery
 - [Textiles](../textiles/index.md) — sail cloth for traditional windmills
 - [Iron & Steel](../metals/iron-steel.md) — shafts, gears, and tower construction

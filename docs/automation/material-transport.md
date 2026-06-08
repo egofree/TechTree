@@ -13,6 +13,10 @@ A 300 mm semiconductor fab processes 40,000-100,000 wafers per month. Each wafer
 
 ## Prerequisites
 
+![Sapporo Fire Bureau Material Transport Car](../images/automation/automation_material-transport.jpg)
+
+> *Image: Triangle-Heart, CC BY-SA 4.0*
+
 - [Equipment Communication](equipment-communication.md) — SECS/GEM protocol for tool coordination and FOUP tracking
 - [Cleanrooms](../photolithography/cleanrooms.md) — cleanroom environment with raised flooring and structural support for OHT rails
 - [Electricity](../energy/electricity.md) — power supply for AGV batteries, OHT rail bus bars, and control systems

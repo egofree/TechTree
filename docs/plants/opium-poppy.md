@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Opium Poppy](../images/plants/plants_opium-poppy.jpg)
+
+> *Image: Wikimedia Commons contributor, CC BY 4.0*
+
 Opium Poppy
 
 *Papaver somniferum* (Papaveraceae) is a oilseed & spice crop species of major importance for civilization bootstrapping. Opium poppy, Breadseed poppy provides leaves, seeds/nuts, flowers as its primary edible product and ranks 72/100 on the nutrition score.

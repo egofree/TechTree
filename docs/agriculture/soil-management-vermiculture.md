@@ -19,6 +19,10 @@ This article is a child of [Soil Management](./soil-management.md), which covers
 
 ## Prerequisites
 
+![Vermicast in 2kg bag](../images/agriculture/agriculture_soil-management_vermiculture.png)
+
+> *Image: Renatotcm, CC BY-SA 4.0*
+
 **Materials**:
 - Worm stock (*Eisenia fetida*): 1 kg per 0.5 m² of bin surface area (approximately 1,000 worms per kg)
 - Bedding materials: shredded newspaper, coconut coir, aged manure, or shredded cardboard

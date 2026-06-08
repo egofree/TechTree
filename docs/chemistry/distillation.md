@@ -10,6 +10,10 @@
 
 ## Types of Distillation
 
+![Distillation agricole p40](../images/chemistry/chemistry_distillation.jpg)
+
+> *Image: Wikimedia Commons contributor, Public domain*
+
 **Simple distillation**:
 Single vaporization-condensation step (1 theoretical plate). Heated vessel + condenser. Batch operation. Sufficient for rough separations: water from dissolved salts, alcohol concentration to ~40-50%. No reflux control. Fast setup — a copper pot with a condensing coil suffices. Yield and purity limited by single-stage equilibrium. Used for: water purification, crude alcohol concentration, essential oil steam distillation, solvent recovery from waste streams.
 

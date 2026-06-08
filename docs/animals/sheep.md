@@ -26,6 +26,10 @@ Sheep are particularly valuable in early-stage agriculture because they graze cl
 
 ## Prerequisites
 
+![Bovidae Ovis aries (Ouessant Sheep) 1](../images/animals/animals_sheep.jpg)
+
+> *Image: NasserHalaweh, CC BY-SA 4.0*
+
 | Requirement | Source | Notes |
 |-------------|--------|-------|
 | Fencing (woven wire 1.0-1.2 m or electric) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Sheep respect fencing better than goats |

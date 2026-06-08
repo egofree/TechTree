@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Steven's Croft Power Station and Timber Processing Facility - geograph.org.uk - 856051](../images/foundations/foundations_sawmilling.jpg)
+
+> *Image: M J Richardson, CC BY-SA 2.0*
+
 Conversion of raw timber into standardized dimensional lumber through log felling, pit sawing, water-powered sawmilling, steam-powered mills, and seasoning/drying. Produces planks, beams, and dimensional lumber for construction, shipbuilding, and papermaking. Sawdust as byproduct for fuel, composite board, and chemical feedstock.
 
 This technology is characteristic of the Stone Age era of industrial development. It builds on earlier foundational techniques while enabling more precise and controlled manufacturing outcomes.

@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Finger Millet](../images/plants/plants_finger-millet.jpg)
+
+> *Image: Kavali Chandrakanth KCK, CC BY-SA 4.0*
+
 Finger Millet
 
 *Eleusine coracana* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Finger millet provides leaves, seeds/nuts, shoots as its primary edible product and ranks 56/100 on the nutrition score.

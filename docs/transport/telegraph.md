@@ -12,6 +12,10 @@ The electric telegraph was the first technology to transmit information faster t
 
 ## Principles
 
+!['Communication between Men' fresco - Telegraph Museum - Museo Nacional de Artes - Mexico 2024](../images/transport/transport_telegraph.jpg)
+
+> *Image: José Luiz, CC BY-SA 4.0*
+
 Electrical current through wire produces electromagnetic effect at receiver. Information encoded as sequences of current on/off (binary — Morse code: dots and dashes represent letters and numbers).
 
 **Circuit**: Battery (or generator) → telegraph key (switch) → transmission wire → sounder (electromagnet + armature) → ground return (earth completes circuit — single wire sufficient for most installations).

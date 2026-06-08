@@ -18,6 +18,10 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 
 ## Materials
 
+![Chilton Biomass Energy Centre County Durham - geograph.org.uk - 2430058](../images/energy/energy_biomass-energy.jpg)
+
+> *Image: peter robinson, CC BY-SA 2.0*
+
 - **Biomass feedstock** — Wood chips, agricultural residues (straw, husks, stalks), animal manure, food waste, energy crops (miscanthus, switchgrass). See [Plants](../plants/structural-plants.md).
 - **Steel plate and pipe** — For gasifier construction, digester tanks, and piping. See [Iron & Steel](../metals/iron-steel.md).
 - **Refractory lining** — Firebrick or castable refractory for gasifier combustion zones. See [Ceramics](../ceramics/kilns.md).

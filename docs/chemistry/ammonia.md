@@ -15,6 +15,10 @@ Modern ammonia production consumes ~1-2% of global energy output and ~1.8% of CO
 
 ## Haber-Bosch Process
 
+![Ammonia production installations - panoramio](../images/chemistry/chemistry_ammonia.jpg)
+
+> *Image: Tseno Tanev (цено та…, CC BY-SA 3.0*
+
 The overall reaction is deceptively simple:
 
 **N₂ + 3H₂ ⇌ 2NH₃** (ΔH = -92 kJ/mol, exothermic)

@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Katedra za menadžment i produkciju pozorišta, radija i kulture, FDU, Flux radio 03](../images/chemistry/chemistry_flux.jpg)
+
+> *Image: Faculty of Dramatic Arts in Belgrade, CC BY-SA 4.0*
+
 Production of welding and metallurgical fluxes from borax, limestone, fluorspar, and rosin to prevent oxidation and improve joint quality during metal joining and casting.
 
 Primary outputs: `borax-flux`, `limestone-flux`, `fluorspar-flux`, `rosin-flux`. These materials or products serve as inputs for downstream manufacturing and processing steps.

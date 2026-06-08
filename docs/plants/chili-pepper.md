@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Chili Pepper](../images/plants/plants_chili-pepper.jpg)
+
+> *Image: Vyacheslav Argenberg, CC BY 4.0*
+
 Chili Pepper
 
 *Capsicum annuum* (Solanaceae) is a vegetable crop species of major importance for civilization bootstrapping. Capsicum provides fruit, leaves, spice/beverage as its primary edible product and ranks 40/100 on the nutrition score.

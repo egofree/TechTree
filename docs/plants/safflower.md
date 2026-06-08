@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Safflower](../images/plants/plants_safflower.jpg)
+
+> *Image: Esin Üstün from Istanbul, Turkey, CC BY 2.0*
+
 Safflower
 
 *Carthamus tinctorius* (Asteraceae) is a oilseed & spice crop species of major importance for civilization bootstrapping. Safflower provides leaves, seeds/nuts, flowers as its primary edible product and ranks 69/100 on the nutrition score.

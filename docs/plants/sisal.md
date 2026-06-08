@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Sisal](../images/plants/plants_sisal.jpg)
+
+> *Image: Omzo93, CC BY-SA 4.0*
+
 Sisal
 
 *Agave sisalana* (Asparagaceae) is a fiber & industrial crop species of major importance for civilization bootstrapping. Sisal, Hemp provides leaves, flowers, bark/sap as its primary edible product.

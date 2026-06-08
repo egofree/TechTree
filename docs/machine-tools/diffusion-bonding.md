@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Diffusion Bonding Fixture for Combustion Chamber 01](../images/machine-tools/machine-tools_diffusion-bonding.jpg)
+
+> *Image: Romanusas2, CC BY-SA 4.0*
+
 Solid-state joining at 50-80% melting point temperature under 1-10 MPa pressure for 30-120 minutes. Atomic diffusion across the interface eliminates the joint line, producing a bond microstructurally indistinguishable from parent metal. Joins dissimilar metals (Ti-to-SS, Cu-to-Al) via thin interlayers without brittle intermetallics. HIP bonding (50-200 MPa isostatic) for complex internal surfaces. Critical for UHV chambers and semiconductor heat exchangers.
 
 Surface preparation is the dominant factor in bond quality. The mating surfaces must be flat and smooth to maximize contact area, with surface roughness below a few micrometers typically required. Any oxide layer, organic contamination, or adsorbed moisture forms a diffusion barrier that prevents atomic bonding. Preparation methods include mechanical polishing, chemical etching, electro-polishing, and sputter cleaning, with the final step performed immediately before assembly to minimize re-oxidation.

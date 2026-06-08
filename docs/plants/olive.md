@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Olive](../images/plants/plants_olive.jpg)
+
+> *Image: Palauenc05, CC BY-SA 4.0*
+
 Olive
 
 *Olea europaea* (Oleaceae) is a fruit & nut tree species of major importance for civilization bootstrapping. Olive, African olive, European olive provides fruit, leaves as its primary edible product.

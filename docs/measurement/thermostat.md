@@ -16,6 +16,10 @@ A civilization that cannot regulate temperature cannot produce consistent steel,
 
 ## Articles in this Topic
 
+![Temperature control device showing room temperature in Celsius at 23 degrees during evening time](../images/measurement/measurement_thermostat.jpg)
+
+> *Image: Shixart1985, CC BY 2.0*
+
 - [Mechanical Thermostats](./thermostat-mechanical.md) — Expansion rod, rod-and-tube, bimetallic strip, and snap-action disc types. No external power required. Buildable with basic metalworking. ±2-20°C accuracy.
 - [Fluid & Gas Thermostats](./thermostat-fluid.md) — Mercury tilt, mercury contact thermometer, liquid expansion, vapor pressure, gas expansion, wax pellet, thermostatic radiator valve, and pneumatic types. Remote sensing, proportional control, no electronics needed. ±0.5-3°C accuracy.
 - [Electrical Thermostats](./thermostat-electrical.md) — Thermocouple, RTD (resistance thermometer), and reed switch types. Self-generating sensors and precision bridge circuits. ±0.1-5°C accuracy over -200 to 1800°C.

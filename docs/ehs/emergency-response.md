@@ -13,6 +13,10 @@ Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas 
 
 ## Decision Framework: Emergency Response Level
 
+![Anti Crime and Community Emergency Response Team 03](../images/ehs/ehs_emergency-response.jpg)
+
+> *Image: RamaGaspar, CC BY-SA 4.0*
+
 | Trigger | Response Level | Actions | Who |
 |---------|---------------|---------|-----|
 | Gas alarm low (50% TLV) | Alert | Investigate, verify reading, prepare for escalation | Nearest qualified person |

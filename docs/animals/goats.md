@@ -26,6 +26,10 @@ Goats produce milk that is more digestible than cow milk (smaller fat globules, 
 
 ## Prerequisites
 
+![Capra aegagrus hircus, Moers](../images/animals/animals_goats.jpg)
+
+> *Image: kaʁstn Disk/Cat, CC BY-SA 3.0 de*
+
 | Requirement | Source | Notes |
 |-------------|--------|-------|
 | Secure fencing (1.2-1.5 m, mesh under 15 cm) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Goats climb, push, dig |

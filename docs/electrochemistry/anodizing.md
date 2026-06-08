@@ -13,6 +13,10 @@ Aluminum components in corrosive, high-wear, or high-purity environments need su
 
 ## Prerequisites
 
+![Anodizzazione dell'alluminio](../images/electrochemistry/electrochemistry_anodizing.png)
+
+> *Image: Matteo Bordiga, CC BY-SA 4.0*
+
 - [Acids](../chemistry/acids.md) — sulfuric acid for Type II/III baths, oxalic acid additive
 - [Aluminum production](../metals/aluminum.md) — aluminum workpieces and alloy selection
 - [Electricity](../energy/electricity.md) — DC power supply (12-75 V, 500-10,000 A)

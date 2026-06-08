@@ -10,6 +10,10 @@
 
 ## Purification Pathways
 
+![Crystal structure of Silicon Material](../images/silicon/silicon_purification.jpg)
+
+> *Image: MmRoma, CC0*
+
 ### Option A: Chemical Purification (Siemens-like Process)
 
 This is the standard industrial route to semiconductor-grade polysilicon (99.9999999%+ purity).

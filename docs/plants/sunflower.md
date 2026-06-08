@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Sunflower](../images/plants/plants_sunflower.jpeg)
+
+> *Image: Unknown authorUnknown author, Public domain*
+
 Sunflower
 
 *Helianthus annuus* (Asteraceae) is a oilseed & spice crop species of major importance for civilization bootstrapping. Sunflower provides roots, seeds/nuts, flowers as its primary edible product and ranks 73/100 on the nutrition score.

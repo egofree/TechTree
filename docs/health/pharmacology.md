@@ -16,6 +16,11 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 
 ## Drug Source Materials
 
+![The Pharmacology Barnstar Hires](../images/health/health_pharmacology.jpg)
+
+> *Image: Original idea by DonabelSDSU.bot
+Original remastering by Antonu, CC BY-SA 3.0*
+
 | Material | Active Compound | Harvest/Source | Preparation |
 |----------|----------------|---------------|-------------|
 | Willow bark (Salix spp.) | Salicin | Spring harvest, dried | Water decoction or ethanol extraction |

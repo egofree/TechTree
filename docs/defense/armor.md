@@ -19,6 +19,10 @@ Armor production consumes significant resources. A full plate harness requires 2
 
 ## Prerequisites
 
+![2023 Manila Auto Salon - Isuzu D-Max Armored Vehicle 2023 by Impenetra Armor Protective Systems](../images/defense/defense_armor.jpg)
+
+> *Image: Ethan Llamas, CC BY 4.0*
+
 Armor and protective systems draw on multiple industrial capabilities. While basic organic armor (rawhide, quilted gambeson) can be produced with [stone and wood tools](../foundations/tools-basic.md) and [textile manufacturing](../textiles/index.md), metal armor requires organized production:
 
 - [Iron and steel production](../metals/iron-steel.md) — wire drawing for mail, plate forging for harnesses, heat treatment for hardening

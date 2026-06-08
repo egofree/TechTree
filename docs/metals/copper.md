@@ -15,6 +15,10 @@ For bronze alloying, see [Bronze Production](bronze.md).
 
 ## Prerequisites
 
+![World: Copper Production, 1946](../images/metals/metals_copper.jpg)
+
+> *Image: Central Intelligence Agency, Public domain*
+
 - [Fire management](../foundations/fire.md) — controlled combustion for furnace operation
 - [Charcoal production](../energy/charcoal.md) — fuel achieving 1100-1300 °C in forced-draft furnaces
 - [Mining](../mining/index.md) — ore extraction and beneficiation

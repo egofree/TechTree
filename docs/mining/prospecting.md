@@ -12,6 +12,10 @@ Prospecting locates ore deposits and evaluates their economic potential before c
 
 ## Prerequisites
 
+![2025-04-28 Iberian Peninsula blackout – frequency measurement](../images/mining/mining_prospecting.jpg)
+
+> *Image: Luis Badesa, Associate Professor at UPM, Madrid, CC0*
+
 - [Writing & Record-Keeping](../knowledge/writing.md) — recording sample locations and assay results
 - [Measurement](../measurement/precision-metrology.md) — compass, level, and assay instruments
 - [Black Powder](black-powder.md) — blasting for test pits and adits

@@ -17,6 +17,10 @@ This article covers fiber properties, layup methods, matrix selection, manufactu
 
 ## Prerequisites
 
+![Drilled hole in carbon fiber reinforced polymer (CFRP) sample](../images/polymers/polymers_composites.jpg)
+
+> *Image: Andrew Hrechuk, CC BY 4.0*
+
 - [Glass fibers](../glass/fibers.md) — E-glass or S-glass fiber reinforcement (continuous roving, woven fabric, or chopped strand mat)
 - [Thermoset resins](thermosets.md) — polyester, epoxy, or vinyl ester matrix resins with catalyst and hardener
 - [Machine tools](../machine-tools/index.md) — rollers, presses, and molds for layup and cure

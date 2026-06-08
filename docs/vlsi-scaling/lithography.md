@@ -13,6 +13,10 @@ Lithography in the VLSI scaling context covers advanced patterning techniques be
 
 ## Prerequisites
 
+![Georgios Mavromichalis in Nafplio (Lithography by Karl Krazeisen)](../images/vlsi-scaling/vlsi-scaling_lithography.jpg)
+
+> *Image: Karl Krazeisen, Public domain*
+
 - [Resists & Masks](../photolithography/resists-masks.md) — photoresist chemistry and mask blanks
 - [Optics Inspection](../optics/inspection.md) — lens fabrication and quality verification
 - [Vacuum Systems](vacuum-systems.md) — vacuum for lithography tools and electron-beam systems

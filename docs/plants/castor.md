@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Castor](../images/plants/plants_castor.jpg)
+
+> *Image: Unknown authorUnknown author, Public domain*
+
 Castor
 
 *Ricinus communis* (Euphorbiaceae) is a oilseed & spice crop species of major importance for civilization bootstrapping. Castor bean, Castor Oil Plant provides leaves, roots, seeds/nuts as its primary edible product.

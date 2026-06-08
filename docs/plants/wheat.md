@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Wheat](../images/plants/plants_wheat.jpg)
+
+> *Image: Davidbena, CC BY-SA 4.0*
+
 Wheat
 
 *Triticum aestivum* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Wheat provides seeds/nuts as its primary edible product and ranks 58/100 on the nutrition score.

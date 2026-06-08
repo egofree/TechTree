@@ -18,6 +18,10 @@ The fundamental challenge is that the compressor and turbine are aerodynamically
 
 ## Brayton Cycle Thermodynamics
 
+![Sankey diagram gas turbine energy flows](../images/energy/energy_gas-turbine.jpg)
+
+> *Image: Janhuisman42, CC BY-SA 3.0*
+
 The Brayton cycle consists of four ideal processes:
 
 1. **Isentropic compression** (1→2): Air enters the compressor at ambient conditions and is compressed to the cycle's peak pressure. Compressor pressure ratios range from 10:1 in early industrial units to 30:1 in modern designs, with aero engines reaching 40-50:1 overall pressure ratio.

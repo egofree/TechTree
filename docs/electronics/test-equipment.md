@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Electronic measurement equipment rack - Setting up for Project X party at Noisebridge, San Francisco (2015-02-28 18.52.19 by Mitch Altman)](../images/electronics/electronics_test-equipment.jpg)
+
+> *Image: Mitch Altman from San Francisco, USA, CC BY-SA 2.0*
+
 Electronic test equipment measures electrical quantities — voltage, current, resistance, frequency, and waveform characteristics — enabling verification, debugging, and characterization of electronic circuits. The three fundamental instruments are the multimeter (measures DC/AC voltage, current, and resistance), the oscilloscope (displays voltage waveforms vs. time), and the logic analyzer (captures and displays digital bus states).
 
 The operating principle of each instrument:

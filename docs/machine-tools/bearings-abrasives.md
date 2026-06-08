@@ -14,6 +14,10 @@ This article covers the bootstrap sequence for producing both capabilities from 
 
 ## The Precision Dependency
 
+![С2-10-1W individually-trimmed precision resistors (Erkon)](../images/machine-tools/machine-tools_bearings-abrasives.jpg)
+
+> *Image: Retired electrician, CC0*
+
 Machine tool precision depends on a feedback loop between bearings and abrasives:
 
 1. **Plain bearings** (babbitt-lined, 0.05-0.10 mm clearance) enable the crude lathe to turn shafts and bore holes at ~0.5 mm tolerance.

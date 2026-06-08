@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Microbial electrolysis cell](../images/chemistry/chemistry_electrolysis-cell.png)
+
+> *Image: Zina Deretsky, National Science Foundation (NSF), User:KVDP, Public domain*
+
 An electrolysis cell drives a non-spontaneous chemical reaction by applying direct current (DC) electricity between two electrodes immersed in an electrolyte. The anode (positive electrode) oxidizes species (loses electrons), while the cathode (negative electrode) reduces species (gains electrons). The minimum voltage required equals the thermodynamic reversible potential (determined by the Nernst equation), plus overpotentials for activation kinetics, concentration polarization, and resistive losses in the electrolyte and electrodes.
 
 For the chlor-alkali process: 2NaCl + 2H₂O → Cl₂ + H₂ + 2NaOH. The reversible potential is approximately 2.2V at 25°C. Actual operating voltage is 3.2-3.8V per cell due to overpotentials and ohmic losses. Current efficiency (fraction of current producing desired product) is 90-97%. Energy consumption: 2,100-2,500 kWh per tonne of Cl₂ produced.

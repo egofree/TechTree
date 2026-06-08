@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Peanut](../images/plants/plants_peanut.jpg)
+
+> *Image: fomos esports, CC BY 3.0*
+
 Peanut
 
 *Arachis hypogaea* (Fabaceae) is a legumes & pulse species of major importance for civilization bootstrapping. Peanut provides leaves, seeds/nuts as its primary edible product.

@@ -10,6 +10,10 @@
 
 ## Principle
 
+![Collection of early road construction equipment - geograph.org.uk - 5524236](../images/transport/transport_road-construction-equipment.jpg)
+
+> *Image: Evelyn Simak, CC BY-SA 2.0*
+
 Road construction equipment shapes and compacts earth, aggregate, and paving materials into a stable road surface. The two fundamental operations are **grading** (cutting, moving, and spreading earth to create the road profile) and **compaction** (compressing soil, aggregate, or asphalt to increase density and bearing capacity). Proper compaction increases soil bearing capacity by 2-5× and reduces settlement under traffic loads from years to negligible levels.
 
 Compaction effectiveness depends on three factors: **compactive effort** (force per unit area), **moisture content** (optimum moisture allows soil particles to rearrange; too dry and particles resist movement, too wet and water prevents densification), and **number of passes** (6-8 passes with a smooth drum roller typically achieves 95% of maximum dry density on granular soils). The Proctor compaction test determines the optimum moisture content and maximum dry density for each soil type — compact to ≥95% of this maximum for road construction.

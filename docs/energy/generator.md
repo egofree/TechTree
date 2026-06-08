@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Capability curve of an electrical generator expanded with cooling](../images/energy/energy_generator.png)
+
+> *Image: B. Kirby and E. Hirst, Public domain*
+
 A generator converts mechanical rotation into electrical energy through electromagnetic induction (Faraday's law). When a conductor moves through a magnetic field, an electromotive force (EMF) is induced proportional to the rate of change of magnetic flux: E = -N × dΦ/dt, where N is the number of turns and Φ is the magnetic flux. In practice, a coil of wire (armature) rotates in a magnetic field produced by either permanent magnets (magneto) or electromagnets (dynamo/alternator).
 
 The output voltage depends on: field strength (magnetic flux density B), number of armature turns (N), rotational speed (ω), and the area of the armature coil (A). For a simple generator: E_peak = N × B × A × ω. Doubling any one of these parameters doubles the output voltage. Current is determined by the load resistance: I = V/R. Power output: P = V × I × efficiency.

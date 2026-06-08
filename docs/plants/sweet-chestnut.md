@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Sweet Chestnut](../images/plants/plants_sweet-chestnut.jpg)
+
+> *Image: Martinvl, CC BY-SA 4.0*
+
 Sweet Chestnut
 
 *Castanea sativa* (Fagaceae) is a fruit & nut tree species of major importance for civilization bootstrapping. European Chestnut, Sweet chestnut, Spanish chestnut provides seeds/nuts as its primary edible product and ranks 46/100 on the nutrition score.

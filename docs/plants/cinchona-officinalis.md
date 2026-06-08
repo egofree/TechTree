@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Cinchona](../images/plants/plants_cinchona-officinalis.jpg)
+
+> *Image: Dick Culbert, CC BY 2.0*
+
 Cinchona (*Cinchona officinalis* and related species) is a genus of evergreen trees native to the Andes mountains of South America, cultivated for the quinine alkaloids in their bark. Quinine is the oldest and most important antimalarial drug, responsible for enabling European colonization of tropical regions and saving millions of lives from malaria over four centuries.
 
 The bark contains 1-8% total alkaloids by dry weight, of which quinine is the most therapeutically important (typically 30-60% of total alkaloids). Other alkaloids include quinidine (antiarrhythmic), cinchonine, and cinchonidine. The alkaloid concentration varies by species, with *C. ledgeriana* containing the highest quinine levels (5-8% total alkaloids) and *C. officinalis* being more cold-tolerant.

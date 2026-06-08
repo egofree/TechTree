@@ -13,6 +13,10 @@ Semiconductor fabrication releases toxic, pyrophoric, and corrosive gases and va
 
 ## Decision Framework: Exhaust System Selection
 
+![The Toilet exhaust fan-Indian Railways-India442](../images/ehs/ehs_ventilation-exhaust.jpg)
+
+> *Image: Tha-uzhavan, CC BY-SA 3.0*
+
 | Exhaust Source | Recommended System | Key Design Parameter | Abatement Required |
 |---------------|-------------------|---------------------|-------------------|
 | Wet bench (acids: HF, HNO₃, H₂SO₄) | Enclosed bench with LEV + central acid scrubber | 150-250 CFM/ft, PVDF duct | Yes — caustic scrubber (>99% acid removal) |

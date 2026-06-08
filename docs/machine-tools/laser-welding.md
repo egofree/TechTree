@@ -10,6 +10,10 @@
 
 ## Overview
 
+![High-power laser welding](../images/machine-tools/machine-tools_laser-welding.jpg)
+
+> *Image: Krorc, CC BY-SA 3.0*
+
 CO₂ laser (10.6μm, 100W-20kW) or fiber laser (1.06μm, 100W-30kW) focused beam welding. Keyhole mode: deep narrow welds (depth-to-width 5:1 to 15:1), speed 1-20 m/min. Conduction mode: shallow welds for thin materials. Fiber laser deliverable through flexible fiber optic, easily robot-integrated. High-speed precision welding for semiconductor equipment components.
 
 In keyhole welding, the focused laser intensity vaporizes metal at the weld center, creating a vapor channel (keyhole) that propagates deep into the workpiece. The laser energy deposits along the keyhole walls rather than just at the surface, enabling deep penetration at high travel speeds. Surface tension and vapor pressure maintain the keyhole open during welding, and the molten metal flows around the keyhole to close behind it as the beam advances. Shielding gas, typically argon, helium, or nitrogen, protects the molten pool from oxidation and suppresses plasma formation above the keyhole that could deflect the beam.

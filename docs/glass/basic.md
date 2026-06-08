@@ -19,6 +19,10 @@ Every industrial civilization discovered or invented glass independently. The ma
 
 ## Prerequisites
 
+![Grohmann Museum January 2024 24 (Glass and Ceramics)](../images/glass/glass_basic.jpg)
+
+> *Image: Michael Barera, CC BY-SA 4.0*
+
 **Materials:**
 - Silica sand (>95% SiO₂) — washed and sieved to 60-100 mesh
 - [Wood ash or natron](../chemistry/alkalis.md) for flux (source of Na₂O or K₂O)

@@ -14,6 +14,10 @@ Mature weight ranges from 1.5-2.5 kg for hens to 2.5-3.5 kg for roosters in dual
 
 ## Prerequisites
 
+![Chickens in market](../images/animals/animals_poultry_chickens.jpg)
+
+> *Image: Tomás Castelazo, CC BY-SA 3.0*
+
 | Requirement | Source | Notes |
 |-------------|--------|-------|
 | Grain feed (corn, wheat, oats) | [`agriculture`](../agriculture/soil-management.md) | 100-150 g/day per hen |

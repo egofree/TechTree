@@ -15,6 +15,12 @@ Beyond hygiene, soap and its derivatives are critical for textile processing (wo
 
 ## Prerequisites
 
+![Soap and Detergent manufacturing process 03](../images/chemistry/chemistry_soap.png)
+
+> *Image: Soap_and_Detergent_manufacturing_process_02.png: *Soap_Detergent_manufacturing.JPG: KVDP
+derivative work: Azcolvin429 (talk)
+derivative work: Northumbrian (talk), Public domain*
+
 - [Alkalis](alkalis.md) — NaOH and KOH production for saponification
 - [Petroleum alternatives](petroleum-alternatives.md) — feedstocks for synthetic detergents
 - [Non-ferrous metals](../metals/non-ferrous.md) — copper and zinc equipment for processing

@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Pyrethrum](../images/plants/plants_chrysanthemum-cinerariifolium.jpg)
+
+> *Image: Adygrafix250, CC BY 4.0*
+
 Pyrethrum (*Chrysanthemum cinerariifolium*, formerly *Pyrethrum cinerariifolium*) is a perennial daisy native to the Dalmatian region of Croatia, cultivated for the insecticidal compounds (pyrethrins) concentrated in its flower heads. Pyrethrins are fast-acting neurotoxins that kill insects on contact by disrupting sodium channel function in nerve cells. They are among the safest insecticides for mammals, with very low mammalian toxicity (LD50 > 1,500 mg/kg) while being lethal to insects at concentrations of 0.1-1.0%.
 
 Pyrethrins provide rapid knockdown (paralysis within seconds of contact) and kill most flying and crawling insects within minutes. They break down rapidly in sunlight (half-life of hours), leaving no toxic residue. This makes them ideal for treating food storage areas, living spaces, and crops close to harvest.

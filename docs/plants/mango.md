@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Mango](../images/plants/plants_mango.jpg)
+
+> *Image: Satdeep Gill, CC BY-SA 4.0*
+
 Mango
 
 *Mangifera indica* (Anacardiaceae) is a fruit & nut tree species of major importance for civilization bootstrapping. Mango, Bowen Mango provides fruit, leaves, seeds/nuts as its primary edible product.

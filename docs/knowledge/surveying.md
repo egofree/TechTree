@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Cartography: methods of surveying hills around a bay (?). En](../images/knowledge/knowledge_surveying.jpg)
+
+> *Image: Wikimedia Commons contributor, CC BY 4.0*
+
 Land measurement, mapping, and topographic surveying using instruments and mathematical methods to produce accurate maps and spatial data.
 
 This technology is characteristic of the Iron Age era of industrial development. It builds on earlier foundational techniques while enabling more precise and controlled manufacturing outcomes.

@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Planet Mechanics wood gasifier](../images/chemistry/chemistry_petroleum-alternatives_wood-gasification.jpg)
+
+> *Image: KVDP, CC0*
+
 Producer gas generation from biomass via shaft gasifier: partial combustion produces CO+H₂+N₂ mixture (~5-6 MJ/m³). Gas cleaning via water scrubbing, sawdust filter, cyclone. Can power internal combustion engines directly. Powered vehicles during WWII fuel shortages. Bridge technology before natural gas infrastructure.
 
 Wood gasification sits between complete combustion (excess air, products are CO₂ and H₂O) and pyrolysis (no air, products are charcoal, tar, and wood gas). By carefully limiting the air supply, the biomass is partially oxidized, providing the heat to drive endothermic reactions that convert the remaining solid carbon and volatile matter into combustible gases. The resulting producer gas contains carbon monoxide (15-25%), hydrogen (10-20%), methane (1-3%), carbon dioxide (8-12%), and nitrogen (50-55% from the air blast). The nitrogen dilution is the main drawback: it halves the heating value compared to oxygen-blown syngas (CO + H₂, ~11 MJ/m³).

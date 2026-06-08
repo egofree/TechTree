@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Abaca](../images/plants/plants_musa-textilis.jpg)
+
+> *Image: Sheena Aloner, CC BY 4.0*
+
 Abaca (*Musa textilis*), also called Manila hemp, is a species of banana native to the Philippines and Borneo that is cultivated for its exceptionally strong leaf fiber rather than its fruit. The fiber is extracted from the leaf sheaths (pseudostem) of the plant and produces cordage that is strong, lightweight, saltwater-resistant, and resistant to stretching. These properties made abaca the preferred rope fiber for marine use from the 19th century until the spread of synthetic fibers.
 
 Abaca fiber has a tensile strength of 450-850 MPa, making it one of the strongest natural fibers. It retains strength when wet, a critical advantage over cotton and most other plant fibers in marine environments. The fiber is also long (1.5-4.0 meters in the leaf sheath bundles), which allows spinning into smooth, strong yarn.

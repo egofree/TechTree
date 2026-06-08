@@ -10,6 +10,10 @@
 
 ## Prerequisites
 
+![Small-scale continuous granulation equipment](../images/vlsi-scaling/vlsi-scaling_continuous-scaling.jpg)
+
+> *Image: Wikimedia Commons contributor, Public domain*
+
 - [Core Fab Processes](../photolithography/fab-processes.md) — baseline semiconductor manufacturing capability
 
 ## Continuous Scaling

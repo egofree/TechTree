@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Andersen's Blacksmithing (workshop building), Chico](../images/metals/metals_blacksmithing.jpg)
+
+> *Image: Photograph:  Radomianin, Public domain*
+
 Hand forging of iron and steel into tools, hardware, and structural fittings using hammer, anvil, and hearth. Blacksmithing transforms bloomery iron and wrought iron into functional implements: hammers, chisels, hinges, brackets, chains, and agricultural tools, without requiring powered machinery.
 
 The forge is the central tool. A hearth raised to a convenient working height, with an air supply (bellows or blower) to raise the fire to forging temperature. The anvil serves as the work surface, with a flat face for drawing and a horn for bending. The hammer is the primary shaping tool, with cross-peen and ball-peen variants for different forming operations.

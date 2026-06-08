@@ -10,6 +10,12 @@
 
 ## Prerequisites
 
+![Control Chart (tr)](../images/quality-control/quality-control_statistical-process-control.png)
+
+> *Image: ControlChart.svg: The original uploader was DanielPenfield at English Wikipedia.
+derivative work : DeeMusil (talk) - ControlChart cz.svg
+derivative work: Anerka (talk), CC BY-SA 3.0*
+
 Statistical process control requires measurement infrastructure and data analysis capability:
 
 - [Measurement and metrology](../measurement/index.md) — calibrated instruments that produce quantitative measurements

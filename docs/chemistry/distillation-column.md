@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Distillation column Vogelbräu Durlach](../images/chemistry/chemistry_distillation-column.jpg)
+
+> *Image: Heribert3, CC BY-SA 4.0*
+
 A distillation column separates liquid mixtures into their component fractions by exploiting differences in boiling points (volatility). Vapor rising from the reboiler contacts liquid descending from the condenser on trays or packing inside the column. At each contact point, the more volatile component transfers from liquid to vapor, and the less volatile component transfers from vapor to liquid. After many such contacts (theoretical plates), the overhead vapor is enriched in the more volatile component and the bottoms liquid is enriched in the less volatile component.
 
 The column shell is a tall cylindrical pressure vessel containing internal contacting devices (trays or packing). The reboiler at the base provides vapor by boiling the bottoms liquid. The condenser at the top liquefies overhead vapor; part returns as reflux, part is drawn as distillate product. Feed enters at a mid-point nozzle. Product draw nozzles at intermediate heights allow multi-product fractionation. Column diameter is set by vapor velocity (typically 0.5-1.5 m/s at atmospheric pressure). Column height is set by the number of theoretical plates required for the desired separation, multiplied by the tray spacing (450-600 mm) or packing HETP (0.1-0.6 m). Typical height-to-diameter ratio: 10-30:1.

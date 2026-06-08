@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Taro](../images/plants/plants_taro.jpg)
+
+> *Image: Plant pests and diseases, CC0*
+
 Taro
 
 *Colocasia esculenta* (Araceae) is a root & tuber crop species of major importance for civilization bootstrapping. Taro provides leaves, roots, flowers as its primary edible product and ranks 61/100 on the nutrition score.

@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Injection molding machine clamping unit](../images/machine-tools/machine-tools_injection-molding-machine.jpg)
+
+> *Image: PedroCalamaro, CC BY-SA 4.0*
+
 An injection molding machine melts thermoplastic granules in a heated barrel using a rotating screw (reciprocating screw design), then rams the screw forward to inject the molten polymer under high pressure (50-200 MPa) into a closed steel mold. The mold is cooled until the polymer solidifies, then opened to eject the finished part. The cycle repeats: plastication (screw rotates to melt and convey polymer while retracting) → injection (screw rams forward as a plunger) → packing/holding (pressure maintained as polymer cools and shrinks) → cooling → mold open → ejection → mold close.
 
 The machine has two primary units: the injection unit (barrel, screw, heater bands, hydraulic cylinder) and the clamping unit (stationary and moving platens, hydraulic cylinder or toggle mechanism). The clamping force must exceed the injection pressure × projected part area to prevent the mold from opening (flashing). A part with 200 cm² projected area at 100 MPa injection pressure requires 200 tons clamp force minimum — typically sized to 1.2-1.5× this value.

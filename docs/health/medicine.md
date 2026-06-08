@@ -16,6 +16,10 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 
 ## Pharmaceutical Materials
 
+![Medicine and Surgery in the Great War.](../images/health/health_medicine.jpg)
+
+> *Image: Wikimedia Commons contributor, CC BY 4.0*
+
 | Material | Source | Use |
 |----------|--------|-----|
 | Willow bark (Salix spp.) | Wild harvest | Salicin → salicylic acid (pain/fever) |

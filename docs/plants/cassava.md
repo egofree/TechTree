@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Cassava](../images/plants/plants_cassava.jpg)
+
+> *Image: Vijayanrajapuram, CC BY-SA 4.0*
+
 Cassava
 
 *Manihot esculenta* (Euphorbiaceae) is a staple food crop species of major importance for civilization bootstrapping. Chimoio provides leaves as its primary edible product.

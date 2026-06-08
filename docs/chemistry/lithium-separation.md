@@ -10,6 +10,10 @@
 
 ## Overview
 
+![3d periodic table №12](../images/chemistry/chemistry_lithium-separation.jpg)
+
+> *Image: Чукічев Дмитро Віталійович, CC0*
+
 Selective lithium extraction from brines and clays using lithium-ion selective membranes and electrodialysis. Produces battery-grade lithium compounds essential for energy storage and electronics manufacturing.
 
 Primary outputs: `lithium_compounds`. These materials or products serve as inputs for downstream manufacturing and processing steps.

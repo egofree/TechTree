@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Foxtail Millet](../images/plants/plants_foxtail-millet.jpg)
+
+> *Image: Dinkun Chen, CC BY-SA 4.0*
+
 Foxtail Millet
 
 *Setaria italica* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Foxtail millet, Indian millet provides seeds/nuts as its primary edible product and ranks 62/100 on the nutrition score.

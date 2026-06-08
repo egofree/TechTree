@@ -10,6 +10,10 @@
 
 ## Principle
 
+![Carding Machine Branch](../images/textiles/textiles_carding-machine.jpg)
+
+> *Image: JBTHEMILKER, CC BY-SA 4.0*
+
 A carding machine aligns textile fibers from a tangled mass into a parallel sheet (batt) using rotating drums covered in card clothing — stiff wire teeth set in a flexible backing. The machine uses two drums: a large main cylinder (20-40 cm diameter) covered with fine wire teeth rotating at 100-200 rpm, and a smaller licker-in roller (10-15 cm diameter) rotating at 300-600 rpm that feeds fiber onto the main cylinder. A doffer roller (15-25 cm diameter) running opposite to the main cylinder strips the carded batt off.
 
 The key mechanism is "carding action": two surfaces covered in wire teeth moving relative to each other. When the teeth point in the same direction and the surfaces move in opposite directions (or at different speeds in the same direction), the teeth comb through the fiber mass, separating and aligning individual fibers. The working angle of the wire teeth (20-35° from perpendicular) determines whether fiber is held (carding point) or released (stripping point).

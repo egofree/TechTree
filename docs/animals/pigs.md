@@ -28,6 +28,10 @@ Beyond meat, pigs produce lard (15-30 kg per animal for fat-type breeds) — a v
 
 ## Prerequisites
 
+![Pigs Sus scrofa domesticus 390 Possuja C](../images/animals/animals_pigs.jpg)
+
+> *Image: Anneli Salo, CC BY-SA 3.0*
+
 | Requirement | Source | Notes |
 |-------------|--------|-------|
 | Secure housing and fencing | [`foundations.tools-basic`](../foundations/tools-basic.md) | Pigs root under and through weak barriers |

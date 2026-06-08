@@ -13,6 +13,10 @@ Sewing transforms flat woven cloth into shaped, functional products: garments, t
 
 ## Prerequisites
 
+![POWs in sewing and tailoring class](../images/textiles/textiles_sewing-tailoring.jpg)
+
+> *Image: SP5 Ronald Delaurier, Public domain*
+
 - [Weaving](weaving.md) — woven cloth as the primary material
 - [Iron & Steel](../metals/iron-steel.md) — steel wire for needle manufacture
 - [Copper & Bronze](../metals/copper-bronze.md) — early needle and thimble materials

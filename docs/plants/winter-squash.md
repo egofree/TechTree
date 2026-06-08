@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Winter Squash](../images/plants/plants_winter-squash.jpg)
+
+> *Image: sakura from between places, CC BY 2.0*
+
 Winter Squash
 
 *Cucurbita maxima* (Cucurbitaceae) is a vegetable crop species of major importance for civilization bootstrapping. Pumpkin, Winter squash provides fruit, leaves, seeds/nuts as its primary edible product and ranks 71/100 on the nutrition score.

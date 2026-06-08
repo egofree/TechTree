@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Einkorn Wheat](../images/plants/plants_einkorn-wheat.jpg)
+
+> *Image: CallMeBarcode, CC BY 4.0*
+
 Einkorn Wheat
 
 *Triticum monococcum* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Cultivated einkorn, Einkorn wheat, Small spelt provides seeds/nuts as its primary edible product and ranks 61/100 on the nutrition score.

@@ -21,6 +21,10 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 
 ## Prerequisites
 
+![Gas sensor with Arduino](../images/chemistry/chemistry_air-separation.jpg)
+
+> *Image: Giacomo Alessandroni, CC BY-SA 4.0*
+
 **Materials**:
 - [Compressed air supply](../gas-handling/basic.md) — atmospheric air at 5-10 bar
 - [Electrical power](../energy/electricity.md) — 200-500 kW for small cryogenic plant, 20-50 MW for large plant

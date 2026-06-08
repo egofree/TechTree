@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Bitter orange](../images/plants/plants_bitter-orange.jpg)
+
+> *Image: بدر, CC BY-SA 4.0*
+
 The bitter orange , sour orange , Seville orange , bigarade orange , or marmalade orange is the hybrid citrus tree species Citrus × aurantium , and its fruit. It is native to Southeast Asia and has been spread by humans to many parts of the world
 
 Nobody eats bitter oranges out of hand. The flesh is sour enough to make your mouth pucker, and the raw peel tastes like concentrated medicine. But that same intensity makes the fruit indispensable for marmalade, where the high pectin content sets a firm gel that sweet oranges cannot match. The flowers yield neroli, one of the most expensive essential oils in perfumery. The peel flavors liqueurs. This is a tree for people who process their harvest, not for fresh-fruit snacking.

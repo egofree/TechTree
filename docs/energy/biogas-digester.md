@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Neck of biogas digester with attached main valve and pressure testing chamber (5363884350)](../images/energy/energy_biogas-digester.jpg)
+
+> *Image: SuSanA Secretariat, CC BY 2.0*
+
 A biogas digester (anaerobic digester) is a sealed vessel in which organic material decomposes in the absence of oxygen, producing a gas mixture of approximately 60% methane (CH₄) and 35-40% carbon dioxide (CO₂). Methanogenic archaea — microorganisms that thrive in oxygen-free environments at 30-60°C — perform the conversion in four biochemical stages: hydrolysis (complex organics → simple sugars, amino acids, fatty acids), acidogenesis (simple molecules → volatile fatty acids), acetogenesis (fatty acids → acetic acid + H₂ + CO₂), and methanogenesis (acetic acid + H₂ + CO₂ → CH₄ + CO₂).
 
 Biogas digesters occupy a unique niche in the bootstrap chain: they convert waste streams (animal manure, food scraps, sewage, crop residues) into both energy and fertilizer without requiring any fuel input. Every livestock operation generates manure; every kitchen generates food waste. A digester captures the methane these wastes would release anyway, providing 1-3 m³ of cooking gas per day from a family-scale unit while producing a mineralized digestate with 20-40% more plant-available nitrogen than raw manure. For communities without access to petroleum fuels or grid electricity, biogas provides the first gaseous fuel available — years before coal gas or natural gas infrastructure. The digester is also a sanitation improvement: thermophilic operation (50-60°C) achieves >99.9% pathogen reduction in human and animal waste.

@@ -10,6 +10,10 @@
 
 ## Prerequisites
 
+![WikiAfrica Higher Education training with Politecnico](../images/knowledge/knowledge_education.jpg)
+
+> *Image: Tochiprecious, CC BY-SA 4.0*
+
 - **Materials**: Paper, ink, and printed textbooks from [Printing](printing.md); workshop consumables (metal stock, chemicals, wood) for hands-on practice
 - **Tools**: Drafting instruments, measurement tools from [Measurement](../measurement/precision-metrology.md), workshop equipment for practical exercises (lathe, mill, forge, chemistry glassware)
 - **Knowledge**: [Writing](writing.md) system for documentation, spoken language for instruction, mathematical literacy (arithmetic minimum) for technical subjects

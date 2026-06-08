@@ -16,6 +16,10 @@ The key challenge in bootstrap pharmaceutical production is quality assurance. W
 
 ## Materials
 
+![Ciba (pharmaceutical production), Summit, New Jersey. LOC gsc.5a29510](../images/health/health_pharmaceutical-production.jpg)
+
+> *Image: Gottscho-Schleisner Collection, Public domain*
+
 - Active pharmaceutical ingredients (APIs): extracted from plants or synthesized (see [pharmacology](pharmacology.md))
 - Excipients: starch, lactose, sucrose, gelatin, talc, magnesium stearate
 - Solvents: ethanol (95%), purified water, glycerol

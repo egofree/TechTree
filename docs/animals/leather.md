@@ -17,6 +17,10 @@ Leather production requires livestock (cattle, sheep, goats) for hides, lime (Ca
 
 ## Prerequisites
 
+![Leather production, Arsk national footwear factory (2023-04-14) 03](../images/animals/animals_leather.jpg)
+
+> *Image: Vyacheslav Kirillin, CC BY-SA 4.0*
+
 - **Materials**: [Cattle, sheep, and goat hides](./cattle.md) (25-45 kg fresh per cattle hide, must be processed within 4-6 hours in warm climates), [salt (NaCl)](../chemistry/acids.md) for curing (25-35 kg per cattle hide), [lime (Ca(OH)₂)](../ceramics/lime.md) for dehairing (6-10% on hide weight), [sodium sulfide (Na₂S)](../chemistry/index.md) for unhairing (1.5-3.0% on hide weight), [tannin source](../plants/fiber-plants.md) (oak bark 15-25 kg per cattle hide, or quebracho/mimosa extract), [oils and fats](./animal-materials.md) for fat-liquoring (cod liver oil, neat's-foot oil, or fish oil at 4-10% on leather weight)
 - **Tools**: [Fleshing knife](../machine-tools/index.md) (curved blade, 30-40 cm wide), [fleshing beam](../machine-tools/index.md) (wooden cylinder, 20-30 cm diameter), [tanning pits or drums](./index.md) (stone/concrete pits 2×2×2 m, or wooden drums 1.5-3.0 m diameter), [bark mill](../machine-tools/index.md) (stone or iron rollers for grinding tannin bark), [splitting machine](../machine-tools/machining.md) (band-knife type for splitting hides), [clicker press](../machine-tools/index.md) (hydraulic, 10-30 tonnes, for cutting shapes)
 - **Knowledge**: Collagen chemistry (cross-linking mechanisms for each tanning method), pH management (lime swelling at pH 12-13, deliming to pH 8-9, chrome fixation at pH 3.5-4.0), tannin extraction and concentration measurement (Barkometer degrees), leather grading and defect identification, stitching and edge finishing techniques

@@ -15,6 +15,10 @@ The transition from pig iron to steel is the single most important metallurgical
 
 ## Prerequisites
 
+![GEOLOGICAL SAMPLE](../images/metals/metals_steelmaking.jpg)
+
+> *Image: The Portable Antiquities Scheme, Stuart Noon, 2017-07-03 11:54:14, CC BY 2.0*
+
 - [Iron and steel fundamentals](iron-steel.md) — ore types, reduction chemistry, wrought iron
 - [Blast furnace](blast-furnace.md) — pig iron production (primary feedstock)
 - [Refractories](../chemistry/refractories.md) — basic and acid refractory linings for vessels

@@ -19,6 +19,10 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 
 ## Prerequisites
 
+![Google Glass Explorer Optics Schematic](../images/glass/glass_advanced.jpg)
+
+> *Image: Gupta, Anurag.; Amirparviz, Babak; Sharma, Sumit; Raffle, Hayes S.; Wang, Chia-Jean, Public domain*
+
 **Materials**:
 - [Basic glass](basic.md) production capability (soda-lime glass melting, annealing)
 - [Silica sand](../mining/processing.md) (>99% SiO₂ for fused silica; >98% for borosilicate)

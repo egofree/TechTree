@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Cotton](../images/plants/plants_cotton.jpg)
+
+> *Image: Meier, John, Public domain*
+
 Cotton
 
 *Gossypium hirsutum* (Malvaceae) is a fiber & industrial crop species of major importance for civilization bootstrapping. American cotton provides seeds/nuts as its primary edible product.

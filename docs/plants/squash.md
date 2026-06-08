@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Squash](../images/plants/plants_squash.jpg)
+
+> *Image: Tbflavell, CC BY-SA 4.0*
+
 Squash
 
 *Cucurbita pepo* (Cucurbitaceae) is a vegetable crop species of major importance for civilization bootstrapping. Marrow, Pumpkin provides fruit, leaves, seeds/nuts as its primary edible product.

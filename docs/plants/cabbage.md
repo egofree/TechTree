@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Cabbage](../images/plants/plants_cabbage.jpg)
+
+> *Image: Wikimedia Commons contributor, CC BY 4.0*
+
 Cabbage
 
 *Brassica oleracea* (Brassicaceae) is a vegetable crop species of major importance for civilization bootstrapping. Wild cabbage provides leaves, flowers as its primary edible product.

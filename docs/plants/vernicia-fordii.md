@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Tung Tree](../images/plants/plants_vernicia-fordii.jpg)
+
+> *Image: Drew Avery, CC BY 2.0*
+
 The tung tree (*Vernicia fordii*, formerly *Aleurites fordii*) is a deciduous tree native to southern China that produces seeds containing 30-40% tung oil by weight. Tung oil is a drying oil, meaning it polymerizes (hardens) when exposed to air, forming a tough, waterproof, flexible film. It is the premier natural wood finish for furniture, boats, flooring, and any wooden object that needs protection from moisture.
 
 Tung oil dries harder and more water-resistant than linseed oil (the other major drying oil), and it does not darken with age the way linseed oil does. It penetrates deeply into wood grain, providing protection from within rather than forming a surface film. Properly applied tung oil finish can last 5-10 years on exterior wood.

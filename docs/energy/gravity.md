@@ -18,6 +18,10 @@ Water power converts the gravitational potential energy of flowing or falling wa
 
 ## Water Wheel Types
 
+![Hydraulic power water tank](../images/energy/energy_gravity.jpg)
+
+> *Image: Rohanstorey, CC BY 4.0*
+
 **[Undershot wheel](../glossary/undershot-wheel.md)** (simplest, lowest efficiency — ancient, widely used):
 - **Principle**: Flat paddles dip into flowing water below the wheel. Water current pushes paddles, turning the wheel. No head required — works on horizontal flow velocity alone.
 - **Efficiency**: ~20-30%. Most energy lost to turbulence as water rushes past and around paddles.

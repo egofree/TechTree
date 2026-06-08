@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Multi-effect Vacuum Evaporator Manufacturing Process in YASA ET Factory](../images/chemistry/chemistry_evaporator.jpg)
+
+> *Image: Filosig, CC BY-SA 4.0*
+
 An evaporator concentrates a liquid solution by boiling off the solvent (typically water) as vapor, leaving the dissolved solids behind in a more concentrated liquid. Unlike distillation, which separates components by boiling point differences, evaporation simply removes bulk solvent to reduce volume, increase concentration, or recover purified solvent. The driving force is heat input that supplies the latent heat of vaporization (2,260 kJ/kg for water at 100°C).
 
 Industrial evaporators operate under vacuum to lower the boiling point, reducing thermal degradation of heat-sensitive products and improving energy efficiency (lower temperature = lower heat loss). Multiple-effect arrangements use the vapor from one effect as the heating steam for the next effect at lower pressure, recovering 60-80% of the latent heat. A single-effect evaporator requires approximately 1.1 kg steam per kg water evaporated; a triple-effect requires only 0.4 kg steam per kg evaporated.

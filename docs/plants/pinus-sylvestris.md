@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Scots Pine](../images/plants/plants_pinus-sylvestris.jpg)
+
+> *Image: Post of Belarus, Public domain*
+
 Scots pine (*Pinus sylvestris*) is the most widely distributed pine in the world, native to Eurasia from Scotland to Siberia and from Scandinavia to the Mediterranean. It produces straight-grained, moderately strong timber suitable for construction framing, flooring, poles, and pit props. Beyond timber, the tree yields resin that can be processed into turpentine (solvent), rosin (soldering flux, violin bow treatment), and pitch (waterproofing for boats and barrels).
 
 The wood has a distinct color contrast: creamy-white sapwood and reddish-brown heartwood. The heartwood is moderately durable against decay, making it suitable for outdoor use without chemical treatment when heartwood is selected. Density ranges from 470 to 530 kg/m³ at 12% moisture content.

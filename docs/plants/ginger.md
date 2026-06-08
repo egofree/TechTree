@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Ginger](../images/plants/plants_ginger.jpg)
+
+> *Image: Khlshnuramalina, CC BY-SA 4.0*
+
 Ginger
 
 *Zingiber officinale* (Zingiberaceae) is a medicinal & spice plant species of major importance for civilization bootstrapping. Ginger provides leaves, roots, flowers as its primary edible product and ranks 63/100 on the nutrition score.

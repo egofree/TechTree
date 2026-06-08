@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Allium ampeloprasum](../images/plants/plants_allium-ampeloprasum.jpg)
+
+> *Image: Luis Fernández García, CC BY-SA 4.0*
+
 Allium ampeloprasum is a member of the onion genus Allium . The wild plant is commonly known as wild leek or broadleaf wild leek . Its native range includes southern Europe, southwestern Asia and North Africa, but it has been cultivated and naturalized in many other countries
 
 Wild leek is the ancestral species behind several important cultivated crops: leeks, elephant garlic, and kurrat (Egyptian leek). Growing this wild-type plant offers hardiness and naturalization ability that cultivated varieties often lack. Once established in a suitable spot, a colony persists for years with almost no intervention.

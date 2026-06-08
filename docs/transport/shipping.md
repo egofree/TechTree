@@ -10,6 +10,10 @@
 
 ## Water Transport
 
+![Water transport in Georgetown Guyana 1](../images/transport/transport_shipping.jpg)
+
+> *Image: John Cray, CC BY-SA 4.0*
+
 **Canal construction**:
 - **Route**: Follow contour lines to minimize elevation change. Where elevation must change, use locks.
 - **Lock construction**: Stone or timber chamber 5-8 m wide × 25-35 m long. Gates at each end (mitre gates — V-shaped, water pressure holds closed). Fill/empty chamber via paddles (sluice valves in gates). Raise/lower boats 2-5 m per lock. Lock cycle time: 10-20 minutes.

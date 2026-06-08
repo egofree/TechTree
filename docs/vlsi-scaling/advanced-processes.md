@@ -13,6 +13,10 @@ These processes represent the transition from baseline IC fabrication ([Core Fab
 
 ## Prerequisites
 
+![Advanced Bionics Naída processor 01 (cropped)](../images/vlsi-scaling/vlsi-scaling_advanced-processes.jpg)
+
+> *Image: PlanespotterA320, CC BY-SA 4.0*
+
 - [Core Fab Processes](../photolithography/fab-processes.md) — baseline doping, etching, deposition, and metallization
 
 ## Ion Implantation

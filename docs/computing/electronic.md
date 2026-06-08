@@ -13,6 +13,10 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 
 ## Prerequisites
 
+![Electronic Computing Technology Scientific-Research Center, Moscow 02](../images/computing/computing_electronic.jpg)
+
+> *Image: MBH, CC BY 4.0*
+
 - [Electromechanical computing](electromechanical.md) — relay logic, memory, and I/O concepts
 - [Electronics assembly](../electronics/assembly.md) — PCBs, soldering, and component integration
 - [Photolithography](../photolithography/fab-processes.md) — IC fabrication processes

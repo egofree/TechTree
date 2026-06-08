@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Autostep i-line stepper](../images/photolithography/photolithography_photolithography-stepper.jpg)
+
+> *Image: a13ean, CC BY-SA 3.0*
+
 The photolithography stepper (step-and-repeat projection aligner) is the most complex machine in the semiconductor fab. It combines extreme-precision optics, sub-nanometer positioning, laser interferometry, autofocus systems, and high-intensity UV illumination into a single tool. A modern i-line stepper achieves 0.35-0.5 μm resolution across a 200 mm wafer with ±0.2 μm overlay accuracy. The precision requirements — positioning to ±10 nm over 300 mm travel, lens systems with λ/20 wavefront error, vibration isolation to <50 nm — represent the apex of precision engineering.
 
 **At a bootstrap-civilization level, constructing a production-grade stepper from raw materials is not practical.** The lens system alone requires multi-element optics with surfaces figured to λ/20 (30 nm) flatness, anti-reflection coatings, and sub-ppb optical glass homogeneity. The laser interferometer positioning system requires HeNe lasers, precision mirrors, and optoelectronic detectors. The mechanical stage requires air bearings or hydrostatic bearings with sub-micron straightness over 300 mm travel.

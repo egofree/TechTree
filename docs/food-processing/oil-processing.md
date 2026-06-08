@@ -18,6 +18,10 @@ The extraction progression moves from simple pressing (stone-age, 40-60% yield) 
 
 ## Materials
 
+![Palm oil - hand processing yellow vegetable fat from fruit pulp of African Oil Palm - Elaeis guineensis](../images/food-processing/food-processing_oil-processing.jpg)
+
+> *Image: T.K. Naliaka, CC BY-SA 4.0*
+
 - **Oilseeds**: Sunflower, rapeseed (canola), sesame, flax (linseed), cottonseed, peanut, or hemp seed. Oil content varies 20-50% by weight. Source: [Agriculture](../foundations/food-agriculture.md).
 - **Olives**: 15-30% oil by weight. Source: [Agriculture](../foundations/food-agriculture.md) — requires Mediterranean or similar climate.
 - **Animal fat**: Beef suet, pork fatback, sheep tail fat, poultry fat. Source: [Agriculture](../foundations/food-agriculture.md) or hunting.

@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Oat](../images/plants/plants_oat.jpg)
+
+> *Image: Rasbak, CC BY-SA 3.0*
+
 Oat
 
 *Avena sativa* (Poaceae) is a staple food crop species of major importance for civilization bootstrapping. Oats provides seeds/nuts as its primary edible product and ranks 61/100 on the nutrition score.

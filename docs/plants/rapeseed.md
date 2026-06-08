@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Rapeseed](../images/plants/plants_rapeseed.jpg)
+
+> *Image: Richard Bartz, Munich aka Makro Freak, CC BY-SA 2.5*
+
 Rapeseed
 
 *Brassica napus* (Brassicaceae) is a oilseed & spice crop species of major importance for civilization bootstrapping. Canola provides leaves, seeds/nuts, flowers as its primary edible product.

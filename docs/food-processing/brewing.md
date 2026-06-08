@@ -16,6 +16,10 @@ For industrial fermentation chemistry (ethanol, acetone, butanol as chemical fee
 
 ## Beer Brewing Materials
 
+![Twenty-Five Years of Brewing with an Illustrated History of American Beer Dedicated to the Friends of George Ehret](../images/food-processing/food-processing_brewing.jpg)
+
+> *Image: George Ehret, Public domain*
+
 | Material | Quantity per 100 L beer (5% ABV) | Source | Alternatives |
 |----------|:---------------------------------:|--------|-------------|
 | Malted barley | 20-25 kg | [Agriculture](../foundations/food-agriculture.md) | Wheat malt, rye malt |

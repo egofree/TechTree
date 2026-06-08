@@ -10,6 +10,10 @@
 
 ## Overview
 
+![Potato](../images/plants/plants_potato.jpg)
+
+> *Image: Ввласенко, CC BY-SA 3.0*
+
 Potato
 
 *Solanum tuberosum* (Solanaceae) is a staple food crop species of major importance for civilization bootstrapping. Potato provides leaves, roots as its primary edible product and ranks 47/100 on the nutrition score.

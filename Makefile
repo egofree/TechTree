@@ -1,7 +1,7 @@
 SHELL := /bin/bash
 .SHELLFLAGS := -ec
 
-.PHONY: all validate diagrams d2-diagrams build validate-site test clean help wikidata-search wikidata-apply wikidata-enrich
+.PHONY: all validate diagrams d2-diagrams build validate-site validate-images test clean help wikidata-search wikidata-apply wikidata-enrich
 
 help: ## Show this help message
 	@echo "bootciv tech-tree-bootstrap — available targets:"
@@ -25,6 +25,9 @@ build: ## Build offline-first static site
 
 validate-site: ## Validate built site (10 checks)
 	bash scripts/validate-site.sh
+
+validate-images: ## Validate image files and metadata
+	python3 scripts/validate-images.py --verbose
 
 test: ## Run conformance test suite
 	bash scripts/run_conformance_tests.sh

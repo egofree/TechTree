@@ -2,8 +2,8 @@
 """
 validate-images.py - Image integrity validator for tech-tree-bootstrap.
 
-8 validation checks for image files, attribution sidecars, license compliance,
-markdown embeds, orphan detection, and manifest synchronization.
+9 validation checks for image files, attribution sidecars, license compliance,
+markdown embeds, orphan detection, manifest synchronization, and image relevance.
 
 Usage:
     python3 scripts/validate-images.py [--fix] [--verbose]
@@ -34,6 +34,14 @@ REQUIRED_ATTR_FIELDS = [
 ]
 VALID_LICENSE_TIERS = frozenset({"libre", "nc"})
 BAD_FORMATS = frozenset({".tiff", ".tif", ".bmp"})
+
+GENERIC_WORDS = frozenset({
+    "file", "image", "photo", "commons", "wikimedia", "upload", "default",
+    "thumbnail", "icon", "logo", "banner", "placeholder", "dummy",
+    "the", "and", "with", "from", "this", "that", "for",
+})
+
+RELEVANCE_THRESHOLD = -5
 
 
 # --- Helpers ---
@@ -392,6 +400,114 @@ class ImageValidator:
 
         return errors
 
+    def _score_relevance(self, article_name, image_title):
+        """Score image-title relevance to article name using word-overlap logic.
+
+        Adapted from scripts/source-commons-images.py:score_relevance().
+        """
+        # Clean image title
+        title = image_title
+        if title.startswith("File:"):
+            title = title[5:]
+        title = re.sub(r"\.\w{1,5}$", "", title)
+        title_lower = title.lower().replace("_", " ")
+
+        # Tokenize article name and title
+        name_lower = article_name.lower()
+        name_words = set(re.findall(r"[a-z0-9]+", name_lower))
+        title_words = re.findall(r"[a-z0-9]+", title_lower)
+        title_word_set = set(title_words)
+
+        score = 0.0
+
+        # +2 per name word found in title; +1 for stem overlap (prefix >= 4 chars)
+        for word in name_words:
+            if word in title_word_set:
+                score += 2.0
+            else:
+                for tw in title_word_set:
+                    overlap = 0
+                    for a, b in zip(word, tw):
+                        if a == b:
+                            overlap += 1
+                        else:
+                            break
+                    if overlap >= 4:
+                        score += 1.0
+                        break
+
+        # +5 bonus for full name in title
+        if name_lower in title_lower:
+            score += 5.0
+
+        # -1 per generic word in title
+        for word in title_word_set:
+            if word in GENERIC_WORDS:
+                score -= 1.0
+
+        # -3 for very short titles
+        if len(title_words) < 3:
+            score -= 3.0
+
+        return score
+
+    def check_9_image_relevance(self):
+        """Score image-to-article relevance using word-overlap logic.
+
+        For each .md file with an embedded image, compare the article's H1
+        heading against the attribution sidecar's title field. Low scores
+        indicate the image may be unrelated to the article content.
+        """
+        warnings = []
+        refs = collect_md_image_refs(DOCS_DIR)
+
+        # Group refs by md_path so we process each article once
+        md_to_images = {}
+        for resolved_path, sources in refs.items():
+            for md_path, lineno in sources:
+                md_to_images.setdefault(md_path, []).append(resolved_path)
+
+        for md_path, image_paths in sorted(md_to_images.items()):
+            # Extract article name from H1 heading
+            try:
+                text = md_path.read_text(encoding="utf-8")
+            except OSError:
+                continue
+
+            h1_match = re.search(r"^#\s+(.+)", text)
+            if not h1_match:
+                continue
+            article_name = h1_match.group(1).strip()
+
+            for img_path in image_paths:
+                if not img_path.exists():
+                    continue
+
+                # Find attribution sidecar
+                attr_path = find_attr_for_image(img_path, self.attr_files)
+                if attr_path is None:
+                    continue
+
+                attr_data = load_json(attr_path)
+                if attr_data is None:
+                    continue
+
+                image_title = attr_data.get("title", "")
+                if not image_title:
+                    continue
+
+                score = self._score_relevance(article_name, image_title)
+                if score <= RELEVANCE_THRESHOLD:
+                    md_rel = md_path.relative_to(PROJECT_DIR)
+                    img_rel = img_path.relative_to(PROJECT_DIR)
+                    warnings.append(
+                        f"{md_rel}: low relevance score ({score:.0f}) "
+                        f"for '{img_rel.name}' (title: '{image_title}')"
+                    )
+
+        self._result(9, "Image Relevance", [], warnings)
+        return []
+
     def apply_fixes(self):
         """Apply --fix actions: create stub attribution files."""
         if not self.fix:
@@ -435,7 +551,7 @@ class ImageValidator:
             # Reload after fixes
             self.load_data()
 
-        # Run 8 checks
+        # Run 9 checks
         self.check_1_image_existence()
         self.check_2_attribution_completeness()
         self.check_3_license_compliance()
@@ -444,6 +560,7 @@ class ImageValidator:
         self.check_6_markdown_embed_resolution()
         self.check_7_orphan_detection()
         self.check_8_manifest_sync()
+        self.check_9_image_relevance()
 
         # ---- Summary ----
         print()

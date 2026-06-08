@@ -17,7 +17,7 @@ import re
 import sys
 from pathlib import Path
 
-RE_IMAGE = re.compile(r'^!\[([^\]]*)\]\(([^)]+)\)\s*$')
+RE_IMAGE = re.compile(r'^!\[(.+)\]\(([^)]+)\)\s*$')
 RE_ATTRIBUTION = re.compile(r'^>\s*\*Image:')
 RE_CAPTION = re.compile(r'^>\s*\*(?!Image:)[^*]+\*\s*$')
 

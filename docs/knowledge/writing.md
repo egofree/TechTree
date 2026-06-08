@@ -12,6 +12,8 @@
 
 ![Book-keeping by double and single entry [microform] : with an appendix on précis writing and indexing : designed for self-instruction and for use in schools &amp; colleges : adapted expressly for the preparation of candidates for civil service &amp; teachers' examinations](../images/knowledge/knowledge_writing.jpg)
 
+> *Filmed from a copy of the original publication held by the National Library of Canada 43 Subjects: Bookkeeping; Abstracting; Tenue des livres; Résumés analytiques*
+
 > *Image: Dominion Business College (Kingston, Ont.), Public domain*
 
 - **Materials**: Clay for tablets, reeds for styluses, animal skins for parchment, plant fibers for paper, soot and iron salts for ink, beeswax for writing tablets

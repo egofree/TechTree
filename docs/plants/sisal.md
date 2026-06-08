@@ -78,6 +78,104 @@ A woody herb. It grows for several years. The leaves come out in spirals and hav
 
 ### Edible Parts and Preparation
 
+The heart of new shoots is edible when cooked. Sap from the flower stalk is fermented to make an alcoholic beverage (pulque-like). Roots are used in production of alcoholic beverages. These food uses are secondary — sisal's primary value is leaf fiber production for rope, twine, and industrial textiles.
+
+### Harvesting for Fiber
+
+Sisal is a perennial succulent producing leaves continuously for 7-10 years before flowering and dying:
+
+1. **First harvest**: Begin harvesting leaves 2-3 years after planting, when leaves reach full length. Suckers planted from established plants mature faster than bulbil-grown plants.
+2. **Leaf selection**: Cut outer (oldest) leaves at the base with a sharp machete or sickle. Each mature plant produces 25-30 harvestable leaves per year. Leaves are 1-2 m long, 10-15 cm wide at the base, sword-shaped with a sharp dark brown terminal spine. Inner leaves are left to continue growing.
+3. **Frequency**: Harvest every 6-12 months, taking the 3-5 outermost leaves from each plant. More frequent harvesting (every 6 months) produces finer, more flexible fiber; less frequent harvesting (annual) produces coarser, stronger fiber suitable for rope.
+4. **Plantation lifespan**: Productive for 7-10 years (sometimes up to 20 years in favorable conditions) before the plant flowers and dies. The plant produces suckers throughout its life that replace it, maintaining the plantation indefinitely with proper management.
+5. **Yield**: Average 0.9 tonnes/ha dried fiber per year. Best East African plantations achieve 2.0-2.5 tonnes/ha. Each leaf contains 2-3% dry fiber by weight — approximately 1,000 kg of fresh leaves yields 20-30 kg of dry fiber.
+6. **Critical timing**: Process leaves immediately after cutting. Fresh leaves decorticate cleanly; dried leaves resist fiber separation and produce inferior fiber.
+
+### Decortication (Fiber Extraction)
+
+Decortication separates the fibrous strands from the fleshy leaf pulp by mechanical crushing and scraping:
+
+**Mechanical Decortication (Standard Method)**
+
+1. Feed fresh leaves one at a time into a decortication machine: paired rotating rollers (corrugated steel drums) that crush the leaf, followed by a rotating drum fitted with blunt knives that scrape away the crushed pulp.
+2. The rollers flatten and crush the fleshy tissue while the blunt knives scrape it away from the longitudinal fiber bundles. The fiber strands pass through; the pulp is flung away by centrifugal force.
+3. Water sprays continuously during decortication to wash away loose pulp and prevent fiber damage from friction heat.
+4. A single mechanized decorticator processes 200-500 leaves per hour. Throughput depends on leaf size, operator skill, and machine condition.
+
+**Hand Decortication (Low-Technology Method)**
+
+1. Place a fresh leaf on a flat wooden surface or inclined beating board.
+2. Beat the leaf with a wooden mallet along its entire length to crush the fleshy pulp and separate it from the fiber strands.
+3. Turn the leaf and repeat on the opposite side.
+4. Scrape away loosened pulp with a blunt knife or the edge of a wooden blade. Pull the fiber strands free from the remaining pulp.
+5. Hand decortication processes 15-30 leaves per hour — slow but requires no machinery. Suitable for small-scale production.
+
+### Washing
+
+After decortication, fibers retain residual pulp and mucilage that must be removed:
+
+1. Rinse fiber strands thoroughly in clean running water or a series of washing tanks. Agitate by hand to dislodge pulp particles.
+2. For mechanical operations, pass fibers through a water bath with gentle agitation. Change water frequently to prevent re-deposition of pulp.
+3. Washing quality directly affects final fiber grade — residual pulp causes discoloration and reduces fiber strength and flexibility.
+4. Properly washed fiber appears clean, pale greenish-white, with no visible pulp residue.
+
+### Drying
+
+1. Spread washed fiber strands loosely on drying racks, lines, or clean flat surfaces in full sun.
+2. Dry for 2-3 days, turning periodically to ensure even drying. In tropical sun, fiber dries to below 12% moisture content within 48 hours.
+3. Do not dry on bare ground — soil contamination degrades fiber quality. Use raised racks or clean concrete/paved surfaces.
+4. Properly dried fiber is stiff, brittle, and pale cream to white in color. Incompletely dried fiber (moisture above 15%) is prone to mold during storage.
+4. Artificial drying at 50-60°C in a forced-air dryer reduces drying time to 4-6 hours but requires fuel or electrical energy.
+
+### Brushing (Combing)
+
+1. Pass dried fiber through a brushing machine — a rotating cylinder covered in steel wire bristles that combs and separates the fiber strands.
+2. Brushing removes remaining short fibers (tow), residual pulp particles, and loose material. It also aligns the long fibers and produces a smooth, clean finish.
+3. Hand brushing: draw fiber bundles through a series of graduated steel combs (hackles), starting coarse and finishing fine. Labor-intensive but produces well-aligned fiber.
+4. Brushed fiber should be uniform, smooth, and free of short fibers and debris. This step significantly affects the commercial grade and spinning quality of the final product.
+
+### Grading
+
+Sisal fiber is graded by length, color, cleanliness, and strength. The major international grades:
+
+| Grade | Length | Color | Characteristics |
+|-------|--------|-------|-----------------|
+| Grade 1 (Superior) | >90 cm | White to cream | Clean, uniform, strong |
+| Grade 2 (Good) | 70-90 cm | Pale cream | Minor color variation |
+| Grade 3 (Fair) | 50-70 cm | Cream to yellow | Some pulp residue |
+| Grade 4 (Reject) | <50 cm | Yellow to brown | Irregular, short, dirty |
+
+Grading is done by visual inspection and manual measurement. Bundle each grade separately for sale. Higher grades command significantly better prices and are used for rope and twine; lower grades go to paper pulp, upholstery stuffing, or reinforcing material.
+
+### Decortication Waste Utilization
+
+Decortication removes ~90% of the leaf mass as waste pulp (bagasse). This waste has economic value:
+
+1. **Biogas production**: Anaerobic digestion of sisal waste in covered tanks produces methane biogas suitable for cooking, lighting, or running engines. One tonne of fresh sisal waste yields approximately 30-40 m³ of biogas (60-65% methane). The biogas can fuel the decortication plant itself, creating a closed energy loop.
+2. **Fertilizer/compost**: Sisal waste composts readily. Mix with animal manure and turn periodically for 3-6 months to produce nitrogen-rich compost. The waste contains most of the nutrients removed from the field — returning it as compost maintains soil fertility. One tonne of fiber removes ~30 kg N, 5 kg P, 80 kg K from the field; most of these nutrients are in the waste pulp, not the fiber.
+3. **Cattle feed**: Fresh sisal pulp can be fed to cattle in limited quantities (supplement, not sole feed). The pulp contains sugars and moisture but also saponins that limit digestibility. Ensilage (fermentation in sealed pits) improves palatability and feed value.
+4. **Paper pulp**: Short fibers and waste material are processed into cellulose pulp for paper and cardboard production, similar to kenaf processing.
+5. **Building material**: Dried sisal waste mixed with mud or clay produces lightweight building blocks with improved insulation properties. Can also be pressed into particle board with a suitable binder.
+
+### Sisal Fiber Properties
+
+| Property | Value | Notes |
+|----------|-------|-------|
+| Fiber length | 1.0-1.5 m | Harvested fiber strand length |
+| Tensile strength | 350-600 MPa | Hard fiber; weaker than bast fibers but adequate for rope |
+| Density | 1.35-1.45 g/cm³ | |
+| Cellulose content | 55-70% | Dry fiber weight |
+| Lignin content | 8-14% | |
+| Moisture regain | 10-12% | At 65% relative humidity |
+| Color (dried) | Pale cream to white | Properly processed |
+| Saltwater resistance | Excellent | Does not degrade in marine environments — preferred for marine rope |
+| Elasticity | Low (2-3% elongation) | Stiff fiber; sudden rope failure under extreme load |
+| UV resistance | Moderate | Degrades with prolonged sun exposure; treat with tar for outdoor rope |
+
+Key strengths: excellent saltwater resistance (unlike hemp or jute, which rot in marine use), long fiber length, drought-tolerant crop, grows on poor soils, low-input cultivation.
+
+Key weaknesses: rope tends to break suddenly (low elasticity, no warning stretch), coarser and stiffer than bast fibers, cannot be spun as finely as jute, degrades under prolonged UV exposure.
+
 ## Quantitative Parameters
 
 ### Growing Parameters

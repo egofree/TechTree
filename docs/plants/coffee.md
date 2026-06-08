@@ -78,6 +78,82 @@ An evergreen shrub. It grows to 3-5 m high and spreads to 3 m across. The stem i
 
 ### Edible Parts and Preparation
 
+#### Cherry-to-Cup Processing Chain
+
+Coffee processing transforms the fruit (cherry) of *Coffea arabica* into the roasted bean used for brewing. The complete chain has seven major stages, each critically affecting final flavor quality.
+
+#### Stage 1: Cherry Harvesting
+
+Coffee cherries are hand-picked selectively (only ripe red cherries) or strip-picked (all cherries at once). Selective picking produces higher quality but requires 3-4 passes through the plantation at 7-10 day intervals during the 2-4 month harvest season. A skilled picker harvests 50-100 kg of cherries per day. Coffee bushes begin bearing 3-4 years after planting and continue for 30-60 years.
+
+Cherry composition by weight: skin and pulp (~45%), mucilage (~15%), parchment (~7%), silver skin (~1%), green bean (~32%). Approximately 5 kg of fresh cherries yield 1 kg of dried green beans.
+
+#### Stage 2: Pulping (Wet Process)
+
+The wet (washed) process produces the highest quality coffee and is used for virtually all Arabica:
+
+1. Sort cherries by floating: defective and underripe cherries float in water; sinkers are sound. Remove floaters.
+2. Pass cherries through a pulping machine (hand-cranked or motorized) that squeezes the fruit between a rotating drum and a screen, separating the skin and most of the pulp from the bean. Manual alternative: press cherries against a coarse screen by hand or with a wooden pestle. The bean emerges still coated in a sticky mucilage layer.
+3. The pulped beans are separated from the removed skins by flotation in a channel of running water.
+
+#### Stage 3: Fermentation
+
+The sticky mucilage (pectinaceous layer) is removed by controlled fermentation:
+
+1. Place pulped beans in a fermentation tank (concrete, wood, or plastic). Beans should be submerged in water or kept moist.
+2. Ferment at ambient temperature (18-28°C) for 12-36 hours. Natural pectinolytic microorganisms break down the mucilage. Shorter fermentation (12-18 hours) in warm climates; longer (24-36 hours) in cooler conditions.
+3. Test for completion: rub a handful of beans between hands — the mucilage should slip off cleanly, leaving the beans feeling rough and gritty (like wet pebbles), not slimy.
+4. **Do not over-ferment**: beyond 36-48 hours, off-flavors develop (fruity, fermented, "stinker" beans) that permanently taint the coffee. Over-fermentation is the most common quality failure at this stage.
+
+Alternative dry (natural) process: skip pulping and fermentation entirely. Dry whole cherries in the sun. Produces a fruitier, heavier-bodied coffee but with less consistency. Common in Ethiopia and Brazil for lower-grade Arabica and for all Robusta.
+
+#### Stage 4: Washing and Sorting
+
+After fermentation, wash the beans thoroughly in clean water, agitating to remove all residual mucilage. Use a series of washing channels or vats. Discard any beans that float at this stage — they are defective (insect-damaged, hollow, or over-fermented). Washed beans are called "parchment coffee" because the bean is still enclosed in its parchment (endocarp) layer.
+
+#### Stage 5: Drying
+
+Drying is the most critical step for long-term quality. Target: 10.5-12% moisture content. Beans that are too moist mold in storage; beans that are too dry become brittle and shatter during hulling.
+
+- **Sun drying**: Spread parchment coffee in thin layers (2-3 cm) on raised drying tables (mesh or bamboo slats) or concrete patios. Turn frequently (every 30-60 minutes during peak sun) for even drying. Requires 10-15 days of good weather. Cover at night or during rain to prevent re-wetting. At higher altitudes (1,500-2,000 m) and lower temperatures, drying takes longer.
+- **Mechanical drying**: If available, use a hot-air dryer at 40-50°C for 24-48 hours. Temperatures above 50°C damage the bean and create off-flavors. Mechanical drying is faster but requires fuel and equipment.
+- **Test for dryness**: Bite a bean — at proper moisture it is hard and cracks cleanly. At high moisture it is leathery or soft. Alternatively, squeeze a handful — properly dried beans rattle sharply.
+
+Properly dried parchment coffee stores for 6-12 months before quality degradation begins. Store in breathable bags (jute or sisac) in a cool, dry, well-ventilated warehouse. The parchment layer protects the green bean from damage and moisture.
+
+#### Stage 6: Hulling and Sorting
+
+Hulling removes the dry parchment (endocarp) and silver skin from the dried green bean. Traditional method: pound the dried parchment coffee in a mortar with a pestle, then winnow the chaff. At production scale, pass through a hulling machine (friction or impact type) that strips the parchment mechanically.
+
+After hulling, sort green beans by size (sieve grading), density (air classification), and color (hand-picking or optical sorting). Remove defective beans: black (over-fermented), sour (under-fermented), insect-damaged, broken, or discolored. Even 1-2% defective beans significantly affects cup quality.
+
+#### Stage 7: Roasting
+
+Roasting transforms green coffee chemically and physically. Green beans have no aroma; roasting develops 800+ flavor compounds through Maillard reactions, caramelization, and pyrolysis:
+
+| Roast Level | Temperature | Time | Bean Color | Flavor Profile |
+|-------------|-------------|------|------------|----------------|
+| Light | 180-195°C | 8-10 min | Light brown, dry surface | Bright acidity, origin flavors prominent, fruity/floral |
+| Medium | 195-210°C | 10-13 min | Medium brown, dry surface | Balanced acidity and body, caramel sweetness, nutty |
+| Medium-dark | 210-225°C | 12-14 min | Dark brown, slight oil | Lower acidity, bittersweet, chocolate, spicy |
+| Dark | 225-240°C | 13-15 min | Very dark, oily surface | Low acidity, smoky, bittersweet, carbon notes |
+
+Roasting method: heat beans in a pan, drum, or rotating cylinder over fire or in an oven. Agitate constantly for even roasting — beans scorch easily if stationary. Listen for the "first crack" at approximately 196°C (beans pop audibly as water vapor expands) — this marks the beginning of light roast. A second crack at approximately 224°C signals dark roast. Cool beans rapidly after reaching the desired level by spreading thin on a metal surface or tumbling in a sieve — residual heat continues roasting if beans are piled.
+
+Roasted beans lose 15-20% of their green weight during roasting (primarily water and volatile compounds) but increase in volume by 30-50%. Roasted coffee stales rapidly — use within 2-4 weeks for best flavor. Store in a cool, dark, airtight container.
+
+#### Brewing Methods
+
+Ground roasted coffee is extracted with hot water to produce the beverage:
+
+- **Boiling (cowboy/Turkish)**: Add very fine grounds directly to water, bring to a boil, let settle 2 minutes. Simplest method. Produces a thick, strong, sediment-heavy cup.
+- **Decoction (Turkish/ibrik)**: Combine very fine grounds with cold water in a long-handled pot (cezve/ibrik), heat slowly to near-boiling (90-95°C). The foam rises but should not boil over. Repeat the heating cycle 2-3 times. Pour unfiltered into a cup; grounds settle. The traditional method throughout the Ottoman world.
+- **Infusion (French press)**: Coarsely ground coffee steeped in water at 92-96°C for 4 minutes, then a metal mesh screen is pressed down to separate grounds. Produces a full-bodied cup with suspended oils (no paper filter to absorb them).
+- **Percolation (drip/pour-over)**: Hot water (92-96°C) poured over medium-ground coffee in a filter (cloth, paper, or metal mesh). Gravity draws water through the grounds. Clean, clear cup with pronounced acidity. Water temperature is critical — boiling water scorches coffee, producing bitterness; water below 85°C under-extracts, producing sourness.
+- **Decoction (cowboy coffee, simplest bootstrap method)**: Add coarse grounds to a pot of water, bring to a rolling boil for 2-3 minutes, remove from heat, add a splash of cold water to settle grounds, pour carefully. Minimum equipment: a metal or clay pot and a fire.
+
+Standard ratio: 50-60 g ground coffee per liter of water for standard-strength brew. Adjust to taste. Caffeine content: approximately 80-100 mg per 200 ml cup of Arabica coffee.
+
 ## Quantitative Parameters
 
 ### Growing Parameters

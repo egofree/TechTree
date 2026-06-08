@@ -76,6 +76,59 @@ A cabbage family herb. It is an annual plant. It grows 1.5 m tall. It usually ha
 
 ### Edible Parts and Preparation
 
+### Harvesting and Threshing
+
+1. **Swathing (windrowing)**: When 30-40% of seeds on the main stem have turned from green to brown or black, cut the plants and lay them in windrows (rows of cut crop) in the field. This allows the crop to dry uniformly over 7-10 days. Swathing prevents seed loss from shattering, which is a significant risk with rapeseed — mature pods can shatter and lose seed with minimal disturbance.
+2. **Direct combining** (alternative): In dry climates, combine-harvest directly when seed moisture reaches 8-10%. This is faster but risks higher shattering losses if harvest is delayed.
+3. **Threshing**: At bench scale, beat dried plants over a tarp or threshing floor with flails. At production scale, use a mechanical thresher or combine harvester. Rapeseed pods are fragile — adjust thresher settings to low cylinder speed and wide concave clearance to avoid crushing seeds.
+4. **Cleaning**: Winnow threshed seed to remove chaff, pod fragments, and dust. Pass through screens (1.5-2.5 mm mesh) to grade seed size.
+
+### Canola vs Rapeseed
+
+**Canola** is not a different species — it is a specific category of *Brassica napus* (and related *B. rapa*) cultivars bred to meet strict compositional standards:
+
+| Parameter | Rapeseed (traditional) | Canola (low-erucic) |
+|-----------|----------------------|---------------------|
+| Erucic acid (C22:1) | 25-50% of oil | **<2%** of oil |
+| Glucosinolates | 60-150 μmol/g | **<30 μmol/g** |
+| Oil content | 35-45% | 38-44% |
+| Meal quality | Bitter, goitrogenic | Palatable, nutritious |
+| Primary use | Industrial oil, lubricants | Food oil, animal feed |
+
+**Erucic acid concerns**: Traditional rapeseed oil contains 25-50% erucic acid, a 22-carbon monounsaturated fatty acid (C22:1 ω-9). In high doses, erucic acid causes lipid accumulation in heart muscle (lipidosis) and has been linked to heart damage in animal studies. Canola was specifically developed in Canada in the 1970s (the name derives from **Can**adian **o**il, **l**ow **a**cid) to reduce erucic acid below 2% and glucosinolates below 30 μmol/g, making both the oil and the press meal safe for food and animal feed.
+
+**Glucosinolates**: These sulfur-containing compounds in the seed meal break down into bitter, goitrogenic products (isothiocyanates, oxazolidinethiones) that interfere with thyroid function. Canola's low glucosinolate content makes the protein-rich press meal (35-40% protein) safe and palatable as animal feed.
+
+### Oil Extraction
+
+1. **Seed preparation**: Clean seed, then heat to 60-80°C and adjust moisture to 7-10%. This conditions the seed for pressing by denaturing enzymes and making cell walls permeable.
+2. **Pre-pressing** (screw press): Feed conditioned seeds into a screw press (expeller). First pressing extracts 60-70% of the oil at 70-90°C and 15-25 MPa pressure. The partially de-oiled cake exits with 15-20% residual oil.
+3. **Solvent extraction** (production scale): Grind pre-press cake into flakes and extract with hexane at 50-60°C in a countercurrent extractor. Hexane dissolves the remaining oil. Separation: evaporate hexane (bp 69°C) from the oil-hexane miscella, recover and reuse solvent. Solvent extraction recovers 95-98% of the oil in the pre-press cake.
+4. **Refining**: Crude rapeseed oil contains phospholipids, free fatty acids, pigments, and volatile compounds that must be removed for food use:
+   - **Degumming**: Add 1-3% water at 60-80°C to precipitate phospholipids (lecithin). Separate by centrifugation.
+   - **Neutralization**: Add 1-2% NaOH to neutralize free fatty acids into soap stock. Centrifuge to remove.
+   - **Bleaching**: Add 0.5-2% activated bleaching earth at 80-100°C under vacuum. Removes chlorophyll and pigments.
+   - **Deodorization**: Steam-strip at 220-260°C under high vacuum (1-5 mbar) for 30-60 minutes. Removes odors and flavors.
+5. **Cold pressing** (small-scale/premium): Press seeds at temperatures below 50°C without pre-heating. Produces a premium unrefined oil with characteristic flavor, but lower yield (50-65% of total oil). No solvent extraction required.
+
+### Biodiesel Production from Rapeseed Oil
+
+Rapeseed/canola oil is one of the most common feedstocks for biodiesel production in Europe:
+
+1. **Transesterification**: React refined rapeseed oil (1 mole) with methanol (3-6 moles, excess drives reaction) in the presence of sodium hydroxide (NaOH, 0.5-1% by oil weight) as catalyst. Reaction temperature: 50-65°C. Reaction time: 1-2 hours with stirring.
+2. **Products**: The reaction produces fatty acid methyl esters (FAME = biodiesel) and glycerol (glycerin) as a byproduct. The glycerol settles to the bottom and is drained off.
+3. **Washing**: Wash the biodiesel with warm water (3-5 washes) to remove residual catalyst, soap, and methanol.
+4. **Drying**: Heat to 105°C to remove residual water. Final biodiesel should have <0.05% moisture.
+5. **Yield**: Approximately 1 kg of rapeseed oil produces 0.97 kg of biodiesel. One hectare of rapeseed (producing 1,000-1,500 kg oil) yields 970-1,455 kg biodiesel.
+
+| Biodiesel Parameter | Value | Notes |
+|---------------------|-------|-------|
+| Cetane number | 48-65 | Higher than petrodiesel (~45), better ignition |
+| Flash point | 130-170°C | Much safer than petrodiesel (52-96°C) |
+| Energy density | 37 MJ/kg | ~9% lower than petrodiesel (42 MJ/kg) |
+| Cloud point | -2 to 4°C | Above this, fuel gels — limiting winter use |
+| Glycerol byproduct | ~10% by weight | Can be purified for soap, cosmetics, or chemical use |
+
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -122,7 +175,8 @@ Key scaling challenges include maintaining genetic diversity at plantation scale
 
 Working with *Brassica napus* involves the following hazards:
 
-- **Toxicity**: Parts of this plant may contain compounds that are toxic when raw or improperly prepared. Always follow proper preparation procedures before consumption. Verify with multiple authoritative sources.
+- **Toxicity — Erucic Acid**: Traditional (non-canola) rapeseed oil contains 25-50% erucic acid (C22:1), which causes myocardial lipidosis (fat accumulation in heart muscle) and cardiac lesions in animal studies. **Do not consume traditional rapeseed oil as a primary dietary fat.** Use only canola varieties (<2% erucic acid) for food. Traditional rapeseed oil is acceptable for industrial uses (lubricants, biodiesel, lamp oil).
+- **Toxicity — Glucosinolates**: Press meal from traditional rapeseed contains high levels of glucosinolates (60-150 μmol/g), which break down into goitrogenic compounds that suppress thyroid function. Do not feed traditional rapeseed meal to livestock without testing glucosinolate content. Canola meal (<30 μmol/g) is safe as animal feed.
 - Tool injuries during harvest and processing — use sharp tools in good condition and cut away from the body
 - Allergic reactions to plant compounds — sensitive individuals should test small quantities first
 - Sun exposure and heat stress during field work — schedule heavy work for early morning or late afternoon

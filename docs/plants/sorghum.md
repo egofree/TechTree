@@ -78,6 +78,54 @@ A millet grass. A mature sorghum plant resembles maize. Plants vary in height fr
 
 ### Edible Parts and Preparation
 
+### Harvesting and Threshing
+
+Harvest grain sorghum when the seed heads harden and grain cannot be dented with a thumbnail — typically 4-8 weeks after flowering. Cut the seed heads from the stalk with a sickle or knife, leaving 15-20 cm of stalk attached for handling. For hand harvesting, cut the entire stalk at ground level and stack in shocks to dry for 5-7 days if grain moisture is above 20%. Thresh by beating the dried heads against a hard surface, treading with animals, or using a mechanical thresher. Winnow in a breeze to separate grain from chaff. Grain must be dried to below 14% moisture before storage.
+
+### Milling and Flour Production
+
+Sorghum grain has a hard outer hull (pericarp) that is difficult to remove completely by hand. Simple hand pounding in a mortar separates some of the bran, producing a semi-refined flour. Stone milling or hammer milling gives a finer product. For gluten-free flour, mill the grain to a fine powder and sift through a coarse screen to remove larger bran particles. Sorghum flour produces dense, flat breads (roti, injera) because it lacks gluten. The flour is also used for porridge, gruel, and as a thickener. Protein content averages 10-12% and the flour stores well if kept dry.
+
+### Malting and Brewing
+
+Sorghum is widely malted for traditional beer brewing. The malting process takes 4-5 days:
+
+1. **Steeping**: Soak grain in water for 8-12 hours, drain, and rest for 8 hours. Repeat once. Grain moisture reaches 40-45%.
+2. **Germination**: Spread grain 5-10 cm deep on a clean surface. Keep moist and aerated at 25-30°C for 3-4 days. Rootlets emerge to 1.5-2 times grain length. Amylase enzymes develop during this stage, converting starch to fermentable sugars.
+3. **Kilning**: Dry the green malt in the sun or at 50-60°C for 24 hours to stop germination and preserve enzymes.
+
+For brewing, mill the malt and mix with water at 60-65°C for 1-2 hours (mashing) to convert starches to sugars. Strain the wort, boil if desired, cool, and ferment with wild or cultivated yeast for 3-7 days. Sorghum beer is a traditional staple across much of sub-Saharan Africa.
+
+### Sweet Sorghum Syrup
+
+Sweet sorghum varieties (with sugar-rich stalks) produce syrup:
+
+1. **Harvest stalks**: Cut canes at ground level when seeds reach the dough stage. Remove leaves and seed heads.
+2. **Crush stalks**: Pass through a roller mill or cane crusher to extract juice. Yield is 50-60% of stalk weight as juice, containing 15-20% sugar (primarily sucrose).
+3. **Clarify**: Let juice settle for 1-2 hours, skim impurities from the surface. Filter through cloth.
+4. **Boil and evaporate**: Heat juice in a wide, shallow pan to 105-108°C, skimming the green scum that rises. Evaporate until the syrup reaches the desired consistency (specific gravity 1.33-1.35). This takes 3-4 hours.
+5. **Cool and bottle**: Cool to 80°C and pour into sterilized containers. Yield: approximately 30-40 liters of syrup per tonne of cane.
+
+The syrup is used as a sweetener, similar to molasses. It contains iron, calcium, and potassium.
+
+### Biofuel Production
+
+Sorghum produces ethanol from both grain and stalks. Grain sorghum (milo) is fermented directly: mill grain, cook with water to gelatinize starch, add malt or enzymes to saccharify, ferment with yeast at 30°C for 48-72 hours, then distill. Ethanol yield from grain is approximately 380-400 liters per tonne. Sweet sorghum juice can be fermented directly without cooking, yielding 60-80 liters of ethanol per tonne of stalk. The lignocellulosic residue (bagasse) can be burned for process heat or further processed into cellulosic ethanol with acid/enzymatic hydrolysis.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Grain moisture at harvest | 20-25% | Dry to below 14% for storage |
+| Malting temperature | 25-30°C | Optimal for enzyme development |
+| Malting duration | 4-5 days | Until rootlets reach 1.5-2x grain length |
+| Mashing temperature | 60-65°C | Starch conversion zone |
+| Fermentation time (beer) | 3-7 days | At ambient temperature |
+| Syrup evaporation temperature | 105-108°C | Until specific gravity 1.33-1.35 |
+| Syrup yield per tonne cane | 30-40 liters | From sweet sorghum varieties |
+| Ethanol yield per tonne grain | 380-400 liters | From fermented grain |
+| Flour protein content | 10-12% | Gluten-free |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

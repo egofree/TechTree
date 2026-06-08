@@ -76,7 +76,55 @@ a cultivated food crop. A plant of higher elevations in the tropics, it has also
 
 A small herb. It grows 20 cm to 3 m high. The taproot is branched. The leaves vary in shape. They are toothed and somewhat grey-green. The flowers are grouped in clusters on the stalk. The flowers are small and without stalks. They are in dense clusters at the top of the plant. The seeds are 1-2.6 mm across. They can be white, yellow, red, purple, brown or black. Plants vary a lot in colour, flowering and other ways.
 
+### Saponin Removal (Critical Step)
+
+Quinoa seeds have a natural coating of saponins — bitter, soapy-tasting compounds that deter birds and insects. Saponins must be removed before consumption; they cause a harsh, bitter taste and can cause mild gastrointestinal irritation in sensitive individuals. Three methods, in order of thoroughness:
+
+**Method 1 — Washing/Soaking (for home-scale processing)**:
+1. Place quinoa in a fine-mesh strainer or bowl. Rinse under cold running water while rubbing the seeds vigorously between your palms or against the mesh. The soapy foam produced is the saponins dissolving.
+2. Soak the rinsed seeds in cold water for 30-60 minutes. Rub seeds again and drain.
+3. Repeat the wash-rinse cycle 2-3 times until the water runs clear and no foam forms when agitated. This indicates saponins have been adequately removed.
+4. Taste a few raw seeds — if still bitter, repeat the washing process.
+5. This method removes most saponins from low-saponin ("sweet") varieties. High-saponin ("bitter") varieties may require more aggressive treatment.
+
+**Method 2 — Abrasive Dehulling (for production-scale processing)**:
+1. Pass dry quinoa seeds through a stone mill or abrasive polisher with the grinding plates set wider than normal — close enough to abrade the outer saponin layer but not crush the seed.
+2. Winnow or sieve the abraded material to remove the powdery saponin residue.
+3. Follow with a water rinse (Method 1) for complete removal.
+4. This is the industrial method: mechanical abrasion removes 80-90% of saponins, followed by water washing for the remainder.
+5. Traditional Andean method: rub seeds against a stone surface (similar to a metate) with the flat of the hand or a stone, then winnow the residue.
+
+**Method 3 — Alkaline Wash (for bitter/high-saponin varieties)**:
+1. Prepare a dilute alkaline solution: dissolve wood ash (potash, primarily potassium carbonate) in water at roughly 1 tablespoon ash per liter. Allow to settle and decant the clear liquid.
+2. Soak quinoa in the alkaline solution for 10-15 minutes. The alkali hydrolyzes saponins, breaking them down into soluble compounds.
+3. Drain and rinse thoroughly with clean water 3-4 times to remove all alkaline residue.
+4. This method is particularly effective for bitter varieties with saponin content above 1% (by dry weight).
+
+### Cooking
+
+Quinoa cooks similarly to rice and can substitute for rice, couscous, or bulgur in most dishes:
+
+1. Rinse quinoa (even pre-washed commercial quinoa benefits from a quick rinse).
+2. Combine quinoa and water at a 1:2 ratio (1 cup quinoa to 2 cups water) in a pot. Add salt to taste.
+3. Bring to a rolling boil, then reduce heat to low and cover tightly.
+4. Simmer for 12-15 minutes until water is absorbed and the germ ring (a tiny white spiral) is visible on each seed, indicating the grain has "popped."
+5. Remove from heat, keep covered, and let stand for 5 minutes. Fluff with a fork before serving.
+6. Cooked quinoa yields approximately 3 cups per cup of dry grain. Nutritional profile per 100g cooked: 120 kcal, 4.4g protein, 2.8g fiber.
+
+### Sprouting
+
+Sprouting quinoa enhances nutrient bioavailability, reduces phytic acid, and increases vitamin content:
+
+1. Rinse quinoa and soak in water for 4-6 hours (not longer — quinoa sprouts quickly and extended soaking can cause fermentation).
+2. Drain completely. Place in a jar covered with cheesecloth or a fine mesh screen, or spread on a damp cloth.
+3. Rinse and drain twice daily (morning and evening). Keep at room temperature (18-22°C) away from direct sunlight.
+4. Sprouts emerge within 12-24 hours and reach 2-5 mm in 2-3 days — the optimal harvest window.
+5. Use sprouted quinoa in salads, as a topping, or lightly steamed. Do not cook for extended periods as this destroys the nutritional benefits of sprouting.
+6. Refrigerate sprouts and use within 2-3 days. Sprouting does not remove all saponins — wash seeds before sprouting.
+
 ### Edible Parts and Preparation
+
+Seeds are the primary edible product, requiring saponin removal before cooking. Young leaves can be eaten raw in small quantities or cooked like spinach, but should not be consumed in large amounts raw due to oxalate content. The seed's outstanding nutritional profile — 12-16% protein with a complete amino acid profile including lysine (rare in grains) — makes quinoa one of the most nutritionally valuable plant foods available.
 
 ## Quantitative Parameters
 
@@ -135,7 +183,7 @@ Key scaling challenges include maintaining genetic diversity at plantation scale
 
 Working with *Chenopodium quinoa* involves the following hazards:
 
-- **Toxicity**: Parts of this plant may contain compounds that are toxic when raw or improperly prepared. Always follow proper preparation procedures before consumption. Verify with multiple authoritative sources.
+- **⚠ Saponin toxicity (IMPORTANT)**: Quinoa seeds are coated with saponins — bitter, soapy compounds that cause gastrointestinal distress (nausea, vomiting, diarrhea) if consumed without removal. **All quinoa must be washed, soaked, or abraded before cooking.** Rinse seeds under running water while rubbing vigorously between hands until no foam forms — typically 2-3 wash cycles. For high-saponin (bitter) varieties, use abrasive dehulling or alkaline wash (see Saponin Removal section). Unwashed quinoa tastes extremely bitter and soapy. Saponins also occur in raw leaves — boil leaves before eating and do not consume large quantities raw. The saponin-rich rinse water can be saved and diluted as an insecticidal spray for crops (non-toxic to plants at 1:10 dilution).
 - Tool injuries during harvest and processing — use sharp tools in good condition and cut away from the body
 - Allergic reactions to plant compounds — sensitive individuals should test small quantities first
 - Sun exposure and heat stress during field work — schedule heavy work for early morning or late afternoon

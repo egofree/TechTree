@@ -76,7 +76,48 @@ Requires a moderately fertile well-drained soil in full sun. Succeeds in ordinar
 
 An annual millet grass which grows up to 1 m high. It spreads to 15 cm across. It has a fibrous root system. The stalks are tufted. They are hairy at the base and on the nodes. The leaves are 30-50 cm long by 1-5 cm wide. They are narrow and flat. The edge is slightly rough with a few long hairs near the base. The seed head is much branched. The flower is yellow. The fruit is a grain. There are several races.
 
+### Harvesting and Threshing
+
+Proso millet matures rapidly (60-90 days from planting) and should be harvested when seed heads turn from green to straw-yellow and grains are hard. The short growing season makes proso millet valuable as a catch crop — planted late if another crop fails.
+
+1. Cut stalks with a sickle 10-15 cm above ground when seeds are fully ripe but before they shatter (drop naturally). Harvest promptly at maturity — proso millet shatters easily and losses can be significant within days.
+2. Dry the cut stalks in bundles or laid flat in the sun for 2-3 days until grain moisture drops below 14%.
+3. **Threshing**: Beat dried stalks with a wooden flail against a hard surface (stone floor, wooden platform). Alternatively, tread with animals or simply rub seed heads between hands for small quantities. The small, round grains separate readily from the chaff.
+4. **Winnowing**: Pour the threshed mixture from shoulder height in a light breeze (2-5 m/s). Chaff blows away; heavy grain falls straight. Repeat 3-5 times until grain is clean. Use a winnowing tray or wide, shallow basket.
+
+### Dehulling
+
+Proso millet has a hard outer husk (hull) that must be removed for human consumption. The hull is fibrous and indigestible:
+
+1. **Pounding method**: Place grain in a large mortar. Pound with a heavy wooden pestle using a circular motion for 10-15 minutes. The hulls crack and separate from the inner grain. Winnow to remove loose hulls. Repeat 2-3 times until fully dehulled. Yield: approximately 75-80% dehulled grain from whole grain by weight.
+2. **Stone mill method**: Pass grain through a stone mill set to a gap slightly smaller than the grain diameter — enough to crack the hull without crushing the inner grain. Winnow after each pass. May require 2-3 passes for complete dehulling.
+3. **Wet method**: Soak grain in water for 2-4 hours, then pound. The softened hulls separate more easily. Dry the dehulled grain thoroughly before storage.
+
+### Milling
+
+Dehulled proso millet can be ground into flour for flatbreads, porridges, and thickening:
+
+1. Mill dehulled grain between flat stones (saddle quern) or in a rotary quern. Proso millet grains are small (2-3 mm), so fine milling is straightforward.
+2. Sift through a fine mesh to separate coarse particles. Re-mill coarse fraction.
+3. Proso millet flour is gluten-free — it cannot produce leavened bread. Use for flatbreads, pancakes, porridge, or blend with wheat flour for composite flour products.
+4. Fresh flour has a short shelf life (1-3 months) due to fat content — store in cool, dry conditions. Whole grain stores better than flour.
+
+### Cooking
+
+Proso millet grain (dehulled) cooks by absorption:
+
+1. Rinse grain in cold water to remove dust.
+2. Combine grain and water at a 1:2.5 ratio (1 cup millet to 2.5 cups water) in a pot.
+3. Bring to a boil, then reduce heat to a simmer. Cover tightly.
+4. Cook for 18-20 minutes until water is absorbed and grains are tender but still have a slight bite (al dente texture).
+5. Fluff with a fork and let stand covered for 5 minutes before serving.
+6. For a softer, creamier texture (porridge), use a 1:3 ratio and cook 25-30 minutes, stirring occasionally.
+
+Proso millet can also be sprouted: soak grain for 6-8 hours, drain, and rinse twice daily for 2-3 days until sprouts reach 5-10 mm. Add sprouted grain to salads, breads, or steam lightly as a vegetable.
+
 ### Edible Parts and Preparation
+
+The dehulled grain is the primary edible product. Cook whole as a rice substitute, grind into flour for flatbreads and porridge, or sprout for salads and nutritional enhancement. Proso millet has a mild, nutty flavor and a slightly chewy texture when cooked whole. The grain is gluten-free and has a high alkaline content that makes it easily digested.
 
 ## Quantitative Parameters
 

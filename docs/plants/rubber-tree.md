@@ -76,6 +76,88 @@ A deciduous tree. It grows 20 m tall. The bark is smooth and grey. The leaves ha
 
 ### Edible Parts and Preparation
 
+Seeds are edible when thoroughly cooked — prolonged soaking or boiling destroys toxic compounds. Seeds contain 40-50% oil (inedible without refining; used industrially). Considered a famine food; not a primary food source. Leaves are occasionally used as a minor vegetable but are not a significant food item. The primary value of *Hevea brasiliensis* is latex rubber production, not food.
+
+### Tapping Technique
+
+Latex is extracted from mature trees (5-7 years old, trunk girth ≥45 cm at 50 cm height) by controlled bark cutting:
+
+1. **Cut geometry**: Make a diagonal cut in the bark at approximately 30° from horizontal, running from upper-left to lower-right (on the left panel of the trunk). The cut must be 1.5-2 mm deep — deep enough to reach the latex vessels in the inner bark but not so deep as to damage the cambium (growth layer) beneath. Cutting into the cambium kills the bark panel and permanently reduces yield.
+2. **Opening the cut**: On the first tapping, make a single diagonal cut 30-40 cm long, starting about 150 cm above ground level on the trunk. The cut slopes downward so latex flows by gravity toward the collection point.
+3. **Daily re-opening**: Each subsequent day, the tapper removes a thin shaving (1-2 mm) from the lower edge of the same cut, reopening the latex vessels. This is done with a specialized tapping knife (Jebong knife or similar) that has a fixed-depth blade to prevent over-cutting.
+4. **Panel alternation**: A single tree has two or more bark panels (left and right sides of the trunk). Tap one panel while the other regenerates bark. After 3-5 years of tapping one panel, switch to the opposite side to allow bark recovery. Properly managed, a tree can be tapped for 20-30 years.
+5. **Frequency**: Tapping every 2-3 days (alternate-day tapping) balances latex yield with tree health. Daily tapping exhausts the tree and shortens productive life. Rest periods of 1-2 months per year (typically during the dry season or leaf-shedding period) allow bark regeneration.
+
+### Latex Collection
+
+1. **Collection cups**: Attach a small metal or ceramic cup at the lower end of the tapping cut to catch flowing latex. The cup is held in place by a wire bracket or nailed directly into the outer bark.
+2. **Flow rate**: A single tree produces 30-100 ml of latex per tapping, with flow continuing for 2-3 hours after the cut is opened. Flow rate is highest in the early morning and declines as the day warms. Tapping typically begins at dawn.
+3. **Latex properties**: Fresh Hevea latex is a milky white colloidal suspension of rubber particles (30-40% dry rubber content) in an aqueous serum. The rubber particles are 0.1-2.0 μm diameter spheres of cis-1,4-polyisoprene stabilized by proteins and lipids. The latex also contains sugars, proteins, and minerals.
+4. **Collection**: After flow stops (2-3 hours), collect latex from cups and transport to the processing area in sealed containers. Latex begins to coagulate naturally within hours if left untreated — add a small amount of ammonia (0.5-1.0% by volume) to preserve latex in liquid form if processing must be delayed.
+5. **Yield**: A mature tree produces 2-5 kg dry rubber per year. A well-managed plantation yields 1,000-2,000 kg/ha/year of dry rubber. Trees remain productive for 25-35 years before yield declines significantly and replanting is necessary.
+
+### Coagulation Methods
+
+Raw latex must be coagulated (the rubber particles aggregated and separated from the serum) to produce usable solid rubber:
+
+**Method 1: Acid Coagulation (Sheet Rubber)**
+
+1. Strain fresh latex through a wire mesh or fine cloth to remove bark fragments and debris.
+2. Dilute latex to 15-20% dry rubber content with clean water (undiluted latex coagulates unevenly).
+3. Add a dilute acid solution — formic acid (preferred, 1-2% solution) or acetic acid (vinegar, 2-3% solution) — while stirring. Add acid gradually until the pH drops to 4.5-5.0. At this pH, the protein stabilizers on the rubber particles lose their charge and the particles flocculate into a coherent mass.
+4. Allow the coagulum to set undisturbed for 12-24 hours in a flat coagulation tank. The rubber forms a solid slab floating on the serum.
+5. Remove the slab and pass it through a set of rollers (sheeting mill) to press out excess serum and produce a uniform sheet 2-3 mm thick. The rollers have grooved surfaces that imprint a characteristic ribbed pattern (increases surface area for drying).
+6. Dry the sheets: see smoking method below, or air-dry in a well-ventilated shaded area for 7-14 days.
+
+**Method 2: Smoking (Ribbed Smoked Sheet — RSS)**
+
+1. After sheeting (step 5 above), hang rubber sheets on bamboo spits over a smoky fire.
+2. The fire uses hardwood that produces dense white smoke but minimal soot — traditional fuels include coconut shells, mangrove wood, or rubberwood offcuts. Maintain smoke temperature at 60-70°C.
+3. Smoke the sheets for 4-7 days, turning and re-hanging periodically to ensure even exposure. The smoke deposits antifungal phenols on the rubber surface (preventing mold growth during storage) and the gentle heat drives off residual moisture.
+4. The result is Ribbed Smoked Sheet (RSS) rubber — translucent amber-brown sheets with the characteristic ribbed pattern from the rollers. RSS is graded by visual inspection (RSS 1 through RSS 5, with 1 being the highest quality — free from bubbles, rust spots, and unmilled rubber).
+5. RSS sheets can be folded, stacked, and shipped without special packaging. They remain stable for months in dry storage.
+
+**Method 3: Crepe Rubber (Alternative)**
+
+1. Coagulate latex as in Method 1, but instead of smoking, pass the coagulated slabs through multiple sets of rollers with progressively tighter gaps.
+2. Wash the rubber continuously with clean water during rolling to remove residual acid and serum proteins.
+3. The result is thin, pale crepe rubber sheets that are air-dried (no smoke). Crepe rubber is lighter in color than RSS but more susceptible to mold. Suitable for applications where smoke odor is undesirable.
+
+### Basic Vulcanization
+
+Natural rubber in its raw (unvulcanized) state is sticky, softens excessively in heat, and becomes brittle in cold. Vulcanization creates cross-links between rubber polymer chains, dramatically improving elasticity, temperature stability, and mechanical strength:
+
+1. **Mix**: Shred or masticate raw rubber sheets to soften them. Mix thoroughly with 2-3% sulfur by weight (and optionally 1-2% zinc oxide as an accelerator). The sulfur provides the cross-linking agent. Mechanical mixing can be done on a two-roll mill or in an internal mixer.
+2. **Heat**: Press the rubber-sulfur mixture into a mold or shape, then heat to 140-160°C for 15-30 minutes. The heat drives the cross-linking reaction between sulfur atoms and rubber polymer chains. Thicker products require longer vulcanization times (heat must penetrate to the center).
+3. **Result**: Properly vulcanized rubber returns to its original shape after 100%+ elongation, does not become sticky above 50°C, and remains flexible below 0°C. Tensile strength of vulcanized rubber: 15-30 MPa. Elongation at break: 300-700%.
+4. **Safety**: Sulfur vulcanization produces small amounts of hydrogen sulfide (H₂S) gas at high temperatures. H₂S is toxic — work in a well-ventilated area. The characteristic "rotten egg" smell at low concentrations serves as a warning; at higher concentrations H₂S deadens the sense of smell and becomes dangerously deceptive.
+
+### Seed Oil
+
+Hevea seeds contain 40-50% oil by weight (semi-drying oil, similar to linseed oil):
+
+1. **Extraction**: Crush dried seeds in a mechanical press (ram press or screw press) to extract the oil. Yield: 30-35% by weight from dried seeds. Solvent extraction (hexane) recovers additional oil but is more complex.
+2. **Properties**: Pale yellow, semi-drying oil. Not edible without extensive refining to remove toxic compounds (hydrocyanic acid derivatives). Iodine value: 130-140 (semi-drying).
+3. **Industrial uses**: Paints and varnishes (drying oil component), soap making, lamp fuel, lubrication, treatment against houseflies and lice. The oil polymerizes slowly on exposure to air, forming a hard film — useful for wood finishes and oil-based paints.
+4. **Press cake**: The seed residue after oil extraction contains toxic compounds and is not suitable for animal feed without detoxification. It can be used as fertilizer (nitrogen-rich) or composted.
+
+### Rubber Tree Process Parameters
+
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| Tree age at first tapping | 5-7 years | Trunk girth ≥45 cm at 50 cm height |
+| Latex per tapping | 30-100 ml/tree | 30-40% dry rubber content |
+| Annual dry rubber yield | 2-5 kg/tree | 1,000-2,000 kg/ha/year |
+| Productive lifespan | 25-35 years | Before replanting needed |
+| Tapping cut depth | 1.5-2.0 mm | Must avoid cambium |
+| Tapping cut angle | ~30° from horizontal | Downward slope for gravity flow |
+| Acid coagulation pH | 4.5-5.0 | Formic or acetic acid |
+| Smoking temperature | 60-70°C | 4-7 days for RSS |
+| Vulcanization temperature | 140-160°C | With 2-3% sulfur |
+| Vulcanization time | 15-30 min | Depending on product thickness |
+| Seed oil content | 40-50% | Semi-drying, inedible without refining |
+| Rubber molecular weight | 1.0-2.5 million Daltons | cis-1,4-polyisoprene |
+
 ## Quantitative Parameters
 
 ### Growing Parameters

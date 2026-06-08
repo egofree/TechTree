@@ -78,6 +78,46 @@ An annual plant up to 1.5 m high. The leaves can be long and sword shaped or ova
 
 ### Edible Parts and Preparation
 
+#### Harvesting and Ripeness Stages
+
+Chili peppers can be harvested at any stage from green (immature) to fully ripe (red, yellow, orange, or brown depending on variety). Harvest timing affects flavor, heat level, and storage potential:
+
+- **Green harvest**: Picked 60-80 days after transplanting, while fruit is firm and glossy. Green peppers have a sharper, brighter flavor with less sugar content. The plant continues producing new fruit after green harvest, extending the productive season.
+- **Colored/ripe harvest**: Left on the plant 2-4 additional weeks until fully colored. Ripe peppers develop more complex flavor, higher sugar content, and higher vitamin C levels (ripe red peppers contain 2-3× the vitamin C of green peppers). However, allowing full ripeness reduces total yield because fruit set slows when existing fruit remains on the plant.
+- **Dry pepper harvest**: For drying purposes, allow peppers to partially dry on the plant until the skin wrinkles, then harvest. This reduces post-harvest drying time.
+
+Harvest by cutting the stem 1-2 cm above the fruit cap with a knife or scissors — pulling tears the branch and damages the plant. Wear gloves when harvesting hot varieties (see Safety below).
+
+#### Drying Methods
+
+Drying preserves chili peppers for months to years and concentrates flavors and capsaicin:
+
+- **Sun drying**: Thread peppers on a string through the stems, or spread on flat drying racks in full sun. Turn daily. Requires 5-15 days depending on pepper size, wall thickness, and humidity. Best in arid climates with daytime temperatures above 30°C. Risk of mold in humid conditions — monitor closely and move indoors at night to avoid dew.
+- **Smoke drying**: Hang peppers over a slow, smoky fire (hardwood preferred — hickory, mesquite, oak). Smoke at 50-70°C for 2-7 days. Produces chipotle (smoke-dried jalapeño) and similar smoked pepper products. The smoke deposits antimicrobial phenols on the pepper surface, extending shelf life beyond sun-drying alone. Maintain thin blue smoke, not thick white smoke, to avoid bitter creosote flavors.
+- **Air drying (ristra method)**: Braid or tie pepper stems together into hanging bunches (ristras). Hang in a warm, dry, well-ventilated area (covered porch, kitchen rafters). Takes 2-4 weeks. Works well for thin-walled varieties (cayenne, Thai bird's eye). Thick-walled varieties (jalapeño, bell pepper) tend to mold rather than dry with this method.
+
+Properly dried peppers are leathery to brittle, with no soft or pliable spots. Moisture content should be below 10%. Store whole dried peppers in sealed containers away from light — ground pepper loses flavor and color rapidly (oxidation of carotenoid pigments). Whole dried peppers retain quality for 1-2 years; ground pepper, 3-6 months.
+
+#### Grinding
+
+Grind dried peppers between stones (metate), with a mortar and pestle, or in a hand-cranked mill to produce chili powder. Remove stems and seeds before grinding for a milder product; include seeds and placenta (the white membrane inside) for maximum heat. Sift through a fine mesh to remove coarse particles.
+
+Capsaicin is concentrated in the placental tissue, not the seeds themselves (seeds are adjacent to the placenta and absorb capsaicin oil). The Scoville Heat Unit (SHU) scale measures pungency: bell pepper (0 SHU), jalapeño (2,500-8,000 SHU), cayenne (30,000-50,000 SHU), habanero (100,000-350,000 SHU).
+
+#### Capsaicin Handling Safety
+
+**WARNING**: Capsaicin is a chemical irritant that causes burning sensation on skin, eyes, and mucous membranes. When handling hot chili peppers:
+
+- Wear rubber or nitrile gloves. Do not touch your face, eyes, or any sensitive skin while handling.
+- If capsaicin contacts skin: wash with soap and cold water. Capsaicin is oil-soluble, not water-soluble — plain water spreads the oil. Milk, yogurt, or vegetable oil help dissolve and remove capsaicin from skin.
+- If capsaicin contacts eyes: flush with copious cool water for 15 minutes. Seek medical attention if irritation persists.
+- Work in a well-ventilated area when grinding dried peppers — airborne capsaicin powder irritates the respiratory tract. Consider wearing a dust mask.
+- Keep children and pets away from processing areas.
+
+#### Fermentation and Sauces
+
+Chili peppers can be preserved by lacto-fermentation: mash fresh peppers with 2-3% salt by weight, pack tightly into a fermentation vessel, weight down to submerge in released juices, and ferment at 18-24°C for 5-14 days. Lactic acid bacteria produce a tangy, complex hot sauce base. Fermented mash can be blended with vinegar for shelf-stable hot sauce.
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

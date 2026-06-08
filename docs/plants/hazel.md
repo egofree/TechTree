@@ -78,6 +78,53 @@ A small deciduous tree up to 7 m high. It spreads to 3-5 m across. The stem is e
 
 ### Edible Parts and Preparation
 
+Hazel produces one of the most calorie-dense nuts available: 672 kcal and 60% fat per 100g of kernel. The nuts, oil, and coppiced wood all serve critical bootstrap functions:
+
+**Harvesting**: Hazelnuts ripen in late summer to early autumn (August-October depending on climate). The husk (involucre) shrinks and opens as the nut matures, allowing it to drop. Traditional harvest method: shake tree branches vigorously with a long pole or by hand, then gather fallen nuts from the ground. Spread tarps or blankets beneath the canopy before shaking to speed collection. Nuts can also be picked directly from the bush when the husk begins to dry and turn brown. Wear gloves — hazel branches are rough and the husks can be prickly. Harvest promptly before squirrels, mice, and birds take the crop — a single squirrel can strip a mature bush in days.
+
+**Drying**: Fresh hazelnuts contain 20-30% moisture. Dry within 2-4 weeks of harvest to prevent mold and rancidity. Spread nuts in a single layer on screens, racks, or a clean dry floor in a warm (25-35°C), well-ventilated, dry location. Stir or turn every 2-3 days. Nuts are adequately dry when the kernel is firm and snaps rather than bends, and the shell is hard and brittle. Test by cracking open a sample: the kernel should be cream-colored and firm throughout with no soft or dark spots. Target moisture: below 8% for long-term storage. Shell nuts before or after drying — unshelled nuts dry more slowly but the shell provides physical protection during storage.
+
+### Oil Pressing
+
+Hazelnut kernels contain 45-60% oil by weight, one of the highest oil contents among temperate nuts. The oil is clear, pale yellow, with a mild nutty flavor:
+
+1. **Prepare kernels**: Shell nuts if not already done. Remove any shriveled, moldy, or discolored kernels. Grind kernels to a coarse meal using a stone mill or mortar — not too fine (makes pressing difficult) or too coarse (reduces oil yield). Target particle size: 1-3 mm.
+
+2. **Press**: Use a wedge press, screw press, or lever press. Cold pressing (no heating) preserves flavor and quality — apply steady, increasing pressure over 30-60 minutes. The oil flows from the press cake and collects in a container below. A single pressing extracts 60-70% of available oil. For higher yield: break up the press cake, lightly warm to 40-50°C (warm to the touch, not hot), and re-press. Second pressing yields an additional 10-15% oil but with somewhat lower quality.
+
+3. **Clarify**: Allow pressed oil to settle for 24-48 hours in a covered container. Sediment (fine particles) settles to the bottom. Decant or siphon the clear oil off the sediment. Filter through fine cloth if further clarification is needed. The oil keeps for 6-12 months in sealed containers stored cool and dark.
+
+4. **Press cake**: The remaining meal after pressing contains 15-25% residual oil and 20-30% protein. Use as animal feed, grind into flour for human consumption, or press again for lower-grade oil.
+
+### Coppicing for Structural Poles
+
+Hazel is one of the premier coppicing species in temperate Europe, producing straight, flexible poles on a 7-10 year rotation:
+
+1. **Establish coppice stool**: Plant hazel stools (stumps) at 2-3 meter spacing in rows. Hazel naturally forms multi-stemmed clumps. For coppice management, cut the initial stems back to 5-10 cm above ground level in winter during the first or second year after planting. This stimulates vigorous multi-stem regrowth from the stool.
+
+2. **Rotation cycle**: Allow regrowth for 7-10 years. At this age, poles reach 3-6 meters in length and 2-5 cm diameter at the base — ideal for wattle-and-daub building, hedgelaying, garden stakes (pea sticks), fencing hurdles, basket hoops, and thatching spars. Shorter rotations (4-5 years) produce thinner rods suitable for basketry and binding; longer rotations (12-15 years) produce thicker poles for structural use.
+
+3. **Harvest (winter)**: Cut all stems from the stool during the dormant season (November-March) using a billhook, axe, or saw. Cut at an angle just above the stool, close to ground level, leaving a smooth surface that sheds water. Avoid damaging the stool — nicked or torn stools are susceptible to rot. A healthy stool can be re-coppiced every 7-10 years for 60-100+ years.
+
+4. **Sorting and seasoning**: Sort cut poles by length, diameter, and straightness. Bundle by grade. Season (air-dry) poles for 3-6 months under cover before use to reduce weight and improve durability. Green (fresh) hazel poles are flexible and can be bent for hoops and arches — use green for wattle work; use seasoned for structural elements.
+
+5. **Yield**: A well-managed hazel coppice produces 2-5 tonnes of dry poles per hectare per rotation (7-10 years), or 200-700 kg/ha/year on a sustained yield basis.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Kernel oil content | 45-60% | By weight, one of highest among temperate nuts |
+| Oil yield (cold press) | 60-70% | Of available oil; re-press yields 10-15% more |
+| Nut drying time | 2-4 weeks | At 25-35°C, well-ventilated |
+| Target storage moisture | <8% | For nut kernels |
+| Coppice rotation | 7-10 years | 4-5 years for thin basketry rods |
+| Pole yield per hectare | 2-5 tonnes | Per rotation (dry weight) |
+| Stool productive lifespan | 60-100+ years | If properly managed |
+| Nut yield per bush | 4-6 kg | Average; mature bushes in good conditions |
+| Nut calorie density | 672 kcal/100g | Kernel, dry |
+| Kernel protein | 12-16% | By weight |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

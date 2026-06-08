@@ -92,6 +92,58 @@ An upright plant up to 1 m tall. Plants vary in height from 30 cm to 180 cm. It 
 
 Broad beans present the highest protein-to-carbohydrate ratio among pulse crops (chickpea, pea, lentil). Their consumption alongside cereals provides all essential amino acids, making fava-cereal combinations a complete protein source without animal products.
 
+### Favism Warning: G6PD Deficiency
+
+**Critical safety concern.** Fava beans contain vicine and convicine — pyrimidine glycosides that trigger acute hemolytic anemia in individuals with glucose-6-phosphate dehydrogenase (G6PD) deficiency. This condition, called favism, affects an estimated 400 million people worldwide, with highest prevalence in Mediterranean, African, Middle Eastern, and Southeast Asian populations.
+
+**Mechanism**: In G6PD-deficient individuals, red blood cells lack sufficient reduced glutathione to neutralize the oxidant metabolites divicine and isouramil (produced when vicine and convicine are hydrolyzed during digestion). The oxidant stress causes red blood cell membrane damage, leading to rapid hemolysis. Symptoms appear 6-24 hours after consumption: dark urine (hemoglobinuria), pallor, fatigue, jaundice, abdominal pain, and in severe cases, kidney failure and death.
+
+**Risk assessment**: G6PD deficiency is X-linked — males are more frequently affected than females. Prevalence rates: up to 20% in sub-Saharan Africa, 4-30% in Mediterranean populations, 5-15% in Southeast Asia. Before establishing fava bean as a community staple, screen the population for G6PD deficiency if possible (simple fluorescent spot test requiring UV light and reagents). At minimum, introduce fava beans cautiously and watch for symptoms.
+
+**Mitigation**: Cooking reduces but does not eliminate vicine and convicine. Soaking dried beans for 12+ hours and discarding the soak water removes 20-40% of these compounds. The highest concentrations are in the seed coat — peeling (double-podding) significantly reduces risk. Fermentation (as in Egyptian falafel or Chinese fermented bean paste) reduces vicine content by 60-80%. However, sensitive individuals should avoid fava beans entirely, as even small amounts can trigger favism.
+
+### Detailed Preparation Methods
+
+**Blanching (fresh green beans)**:
+1. Bring a large pot of water to a rolling boil. Add a pinch of salt (optional).
+2. Drop shelled green beans into the boiling water. Blanch small beans (under 1 cm) for 30-60 seconds; larger beans for 1-2 minutes.
+3. Immediately transfer to cold water (ice bath or running cold water) to stop cooking. This preserves the bright green color and firm texture.
+4. For double-podding: pinch the pale outer skin of each bean between thumb and forefinger. The bright green inner bean slips out easily after blanching. This step is essential for tender texture and removes much of the vicine/convicine.
+5. Blanched and peeled beans are ready for sautéing, adding to salads, or further cooking. Yield: 1 kg whole pods → ~350 g shelled beans → ~250 g double-podded beans.
+
+**Soaking (dried mature beans)**:
+1. Sort dried beans, removing stones, damaged seeds, and debris. Rinse thoroughly.
+2. Soak in cold water at a ratio of 1 part beans to 4 parts water. Minimum 12 hours; overnight is standard. Longer soaking (up to 24 hours) improves texture and further reduces anti-nutrients. Change water once if soaking beyond 12 hours.
+3. Alternative quick-soak: cover beans with water, bring to boil for 2 minutes, remove from heat, and let stand 1 hour. This is faster but less effective at reducing phytic acid.
+4. Discard soak water — it contains dissolved phytic acid, oligosaccharides (gas-causing sugars), and a portion of the vicine/convicine. Never cook beans in their soak water.
+5. Soaked beans will have roughly doubled in volume and their skins will appear wrinkled or splitting.
+
+**Boiling (dried beans after soaking)**:
+1. Drain soaked beans. Place in a pot with fresh water covering by 5 cm.
+2. Bring to a rolling boil. Skim off any foam that rises (contains released anti-nutrients and proteins).
+3. Reduce heat to a gentle simmer. Cook 45-60 minutes for fully soaked beans. Unsoaked beans require 2-3 hours.
+4. Test for doneness: press a bean between thumb and finger — it should mash easily with no chalky center. Undercooked fava beans are harder to digest and retain more anti-nutrients.
+5. Do not add salt or acidic ingredients (tomato, lemon) until beans are fully tender — salt and acid toughen the seed coat and extend cooking time by 30-50%.
+
+**Anti-nutrient reduction**: Fava beans contain phytic acid (0.5-1.2% by weight), trypsin inhibitors, tannins, and lectins in addition to vicine/convicine. The combined strategy of soaking (12+ hours, discard water) + cooking (45-60 minutes at 100°C) reduces phytic acid by 50-70%, destroys trypsin inhibitors and lectins, and reduces tannins by 30-50%. Fermentation (making the beans into a paste or tempeh) achieves the greatest overall anti-nutrient reduction: 70-90% for phytic acid and near-complete destruction of trypsin inhibitors.
+
+### Cooking Times and Yield Summary
+
+| Preparation | Start with | Time | Yield | Notes |
+|-------------|-----------|------|-------|-------|
+| Blanch + peel | Fresh pods | 1-2 min blanch + 10 min peeling | 250 g peeled beans from 1 kg pods | Best for tender green beans |
+| Steam (green) | Fresh shelled beans | 5-8 min | Same weight | Preserves nutrients |
+| Boil (dried, soaked) | Dried beans after 12h soak | 45-60 min | 2.2-2.5× dry weight | Must cook thoroughly |
+| Boil (dried, unsoaked) | Dried beans | 2-3 hours | 2.2-2.5× dry weight | Not recommended — wastes fuel |
+| Fry | Dried beans (soaked or cooked) | 8-10 min | Same weight | Skin splits; crunchy snack |
+| Purée | Cooked beans | 5 min mashing | Same weight | Basis for dips and spreads |
+
+### Nitrogen Fixation and Soil Improvement
+
+As a legume, *Vicia faba* forms symbiotic associations with *Rhizobium leguminosarum* bacteria in root nodules, fixing 50-150 kg of atmospheric nitrogen per hectare per growing season. This makes fava bean an excellent green manure crop: the entire plant can be dug into the soil at flowering stage, adding both nitrogen and organic matter. For maximum nitrogen contribution to subsequent crops, incorporate plant residues (stems, leaves, roots) into the soil after harvest rather than removing them.
+
+Fava beans are cold-tolerant and can be planted in early spring or even autumn in mild climates, allowing a nitrogen-fixing crop to occupy the field during seasons when warm-season vegetables cannot grow. In crop rotations, fava bean → wheat is a classic sequence used since Roman times: the nitrogen fixed by fava beans directly benefits the following wheat crop, increasing wheat yield by 15-30% compared to wheat following a non-legume.
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -148,7 +200,9 @@ Key scaling challenges include maintaining genetic diversity at plantation scale
 
 Working with *Vicia faba* involves the following hazards:
 
+- **Favism (G6PD deficiency)**: Fava beans contain vicine and convicine, which cause acute hemolytic anemia in individuals with G6PD deficiency. This is a life-threatening condition affecting up to 20% of some populations. See "Favism Warning" section above for full details. Before making fava beans a community staple, assess population risk.
 - **Toxicity**: Parts of this plant may contain compounds that are toxic when raw or improperly prepared. Always follow proper preparation procedures before consumption. Verify with multiple authoritative sources.
+- **Phytohaemagglutinin**: Raw fava beans contain lectins that cause nausea, vomiting, and diarrhea. Thorough cooking (boiling 45-60 minutes for dried beans, 3-5 minutes for fresh green beans) destroys these compounds. Slow cooking at low temperatures (below 80°C) does NOT destroy lectins — always boil vigorously.
 - Tool injuries during harvest and processing — use sharp tools in good condition and cut away from the body
 - Allergic reactions to plant compounds — sensitive individuals should test small quantities first
 - Sun exposure and heat stress during field work — schedule heavy work for early morning or late afternoon

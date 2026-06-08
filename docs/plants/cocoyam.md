@@ -78,6 +78,36 @@ A herb up to 2 m tall. It has a short stem. At the top of the stem it produces l
 
 ### Edible Parts and Preparation
 
+#### Harvesting
+
+Cocoyam (tannia, *Xanthosoma sagittifolium*) is harvested 9-12 months after planting, when the lower leaves begin to yellow and die back. The main corm and surrounding cormels (secondary corms) are both edible, though cormels are preferred for human consumption due to lower oxalate content and better texture. The main corm is often reserved for animal feed or replanting.
+
+Harvest by cutting back the above-ground foliage, then carefully digging around the root mass with a fork or digging stick. The cormels (15-25 cm long, flask-shaped) snap off the main corm easily. Handle carefully — the corms bruise easily and damaged areas rot rapidly in storage. Fresh corms can be stored for only 2-8 weeks at 7°C and 80% relative humidity. At ambient tropical temperatures, they deteriorate within 1-2 weeks.
+
+Important distinction from taro (*Colocasia esculenta*): cocoyam cormels grow surrounding a central main corm; taro produces a single large central corm. The two species are frequently confused and collectively called "cocoyam" in West Africa, but their cultivation and processing are similar.
+
+#### Calcium Oxalate and Cooking Safety
+
+**WARNING**: Raw cocoyam contains calcium oxalate crystals (raphides) — microscopic needle-shaped structures that cause severe burning sensation, throat irritation, and swelling of the lips and mouth if consumed without thorough cooking. The oxalate content is highest in the main corm and lower in the cormels, but all parts must be cooked before eating.
+
+**Mandatory cooking before consumption**: Boil cormels for 20-30 minutes in salted or unsalted water until completely tender. Adding a pinch of baking soda (sodium bicarbonate) to the cooking water accelerates oxalate breakdown by raising the pH. The cooking water contains dissolved oxalates — always discard it. Never eat raw or undercooked cocoyam.
+
+Peel the cormels before or after boiling (peeling after is easier — the skin slips off cooked cormels). Some varieties cause skin irritation during peeling of raw corms — wear gloves if handling raw cocoyam causes itching or burning of the hands.
+
+The leaves and young shoots also contain oxalates and must be cooked like the corms — boil for 15-20 minutes minimum. Despite this requirement, cocoyam leaves are an important green vegetable in many tropical cuisines, with protein content of 2.5% and very high vitamin A (3,300 μg/100g).
+
+#### Cooking Methods
+
+- **Boiling**: The most common preparation. Peel and cut cormels into chunks. Boil 20-30 minutes until a fork pierces easily. Drain and discard cooking water. Serve as a starchy staple alongside stews and sauces. Boiled cocoyam has a texture similar to potato but slightly denser and more glutinous.
+- **Pounding (fufu)**: After boiling until very soft (30-40 minutes), drain and pound the cooked cormels in a large wooden mortar with a heavy pestle until smooth and elastic (10-15 minutes of vigorous pounding). The resulting fufu is a staple food across West Africa, eaten by tearing off a small piece with the fingers and dipping into soup. Fufu can also be made from a mixture of cocoyam and cassava or plantain.
+- **Frying**: Slice boiled cocoyam into slabs or cubes and deep-fry or pan-fry until golden. Serves as a snack or side dish.
+- **Roasting**: Wrap unpeeled cormels in leaves or foil and bury in hot embers for 30-45 minutes. The skin chars and peels away, leaving a smoky-flavored starchy interior.
+- **Flour**: Peel, slice thin (3-5 mm), and sun-dry cormels for 3-5 days until brittle. Mill the dried slices into flour using a stone mill or mortar. Cocoyam flour stores for 6-12 months and is used for porridges and as a thickener. The drying and milling process further reduces oxalate content.
+
+#### Nutritional Profile
+
+Cocoyam cormels provide approximately 134 kcal/100g (cooked), with 1.6% protein, 30-33% carbohydrate, and modest levels of vitamin C (13.6 mg/100g raw) and iron (0.4 mg/100g). The starch is highly digestible, making cocoyam suitable as infant food once properly cooked. The leaves are nutritionally superior to the corms: 34 kcal/100g but with 2.5% protein and exceptional vitamin A content (3,300 μg/100g).
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

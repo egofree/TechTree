@@ -78,6 +78,59 @@ A climbing, green, leafy vine. It is woody. The nodes are enlarged. The plant ha
 
 ### Edible Parts and Preparation
 
+#### Harvesting
+
+Pepper spikes are hand-picked from the vine when berries reach the desired maturity stage. The stage of harvest determines the final product: green spikes (unripe) produce black pepper; fully ripe red spikes can produce either black or white pepper. Harvesting requires climbing the support trees or trellises and selectively cutting spikes where 1-2 berries per spike have turned from green to yellow-orange or red. A vine produces for 20+ years once established, with 2-4 kg dried pepper per vine per year typical.
+
+#### Black Pepper Production
+
+Black pepper is made from green (unripe) berries:
+
+1. Pick entire spikes when berries are still green but full-sized (4-6 mm diameter).
+2. Separate berries from spikes by rubbing or threshing.
+3. Spread berries in thin layers on mats or drying racks in full sun.
+4. Sun-dry for 3-7 days, raking/stirring several times daily for even drying.
+5. As berries dry, the outer skin (pericarp) wrinkles and turns progressively darker, eventually becoming the characteristic wrinkled black peppercorn. Moisture content drops to 10-12%.
+6. Winnow to remove stems, dust, and lightweight berries.
+
+The dark color and wrinkled texture of black pepper come from enzymatic oxidation of phenolic compounds in the fruit skin during drying. This oxidation also contributes flavor complexity beyond simple pungency. Black pepper retains the outer skin, giving it a more complex flavor profile than white pepper.
+
+#### White Pepper Production
+
+White pepper is made from fully ripe (red) berries with the outer skin removed:
+
+1. Pick spikes when berries are fully ripe (red).
+2. Separate berries and pack them in sacks or submerge in running water.
+3. **Retting**: Soak the berries in water for 7-14 days. The outer pericarp (skin) softens and rots away through bacterial action. Change water if it becomes foul-smelling.
+4. Rub and wash the berries by hand or by trampling underfoot to slough off the decomposed outer skin, exposing the white inner core (endosperm).
+5. Wash thoroughly in clean water to remove all skin residue.
+6. Sun-dry the white cores for 3-5 days until moisture reaches 10-12%.
+
+White pepper has a sharper, more purely pungent flavor without the aromatic complexity of black pepper's retained skin. It is preferred in light-colored dishes where black specks are undesirable. The retting process is simple but requires clean water and produces waste water that should be managed to avoid attracting pests.
+
+#### Grinding and Piperine Content
+
+Pepper's pungency comes from piperine, an alkaloid present at 5-10% of dry weight in the berries. Piperine content varies with variety, growing conditions, and processing method — black pepper typically tests at 5-8% and white pepper at 5-6%.
+
+For maximum flavor, crack or grind peppercorns fresh using a mortar and pestle or pepper mill immediately before use. Pre-ground pepper loses volatile aromatic oils within weeks and piperine potency declines within months. Whole peppercorns retain full flavor for 3-4 years when stored properly; ground pepper loses most of its potency within 3-4 months as essential oils evaporate and piperine oxidizes.
+
+Grinding coarseness affects both flavor and medicinal use: coarse cracks release less piperine than fine grinding but preserve aromatic complexity. For medicinal preparations (digestive aid, fever reduction), fine grinding maximizes bioactive compound extraction.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Piperine content (dry weight) | 5-10% | Varies by variety, growing conditions |
+| Drying time (black pepper) | 3-7 days | Full sun, stirred daily |
+| Retting time (white pepper) | 7-14 days | Soaking in water |
+| Drying time (white pepper) | 3-5 days | Full sun after retting |
+| Final moisture content | 10-12% | For stable storage |
+| Whole peppercorn shelf life | 3-4 years | Airtight, cool, dark |
+| Ground pepper shelf life | 3-4 months | Rapid loss of volatile oils |
+| Yield per vine per year | 2-4 kg dried | Mature vine (3+ years) |
+| Yield per hectare | 2,000 kg dried (black) | Low-input; 8-9 tonnes green |
+| Essential oil content | 1-2.5% | By steam distillation |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -104,7 +157,11 @@ An essential oil obtained from the fruits is used in perfumery to create orienta
 
 ### Storage
 
-Dry seeds thoroughly to below 14% moisture content before storage. Spread in thin layers on drying racks in full sun, stirring periodically. Test dryness by biting: properly dried seeds crack rather than dent. Store in airtight containers (ceramic jars with tight lids, sealed woven bags) in a cool, dry, dark location. Protect from rodents and insects with tight lids or by mixing with inert ash. Under good conditions, dried grains and legumes store for 1-5 years with minimal loss.
+**Whole peppercorns** retain flavor and piperine potency for 3-4 years when stored in airtight containers (ceramic jars, glass bottles with tight lids, sealed woven bags) in a cool, dry, dark location. Protect from moisture — peppercorns absorb humidity and become susceptible to mold. Protect from insects (weevils, cigarette beetles) with tight-fitting lids or by mixing with inert ash. Test dryness by biting: properly dried peppercorns crack cleanly.
+
+**Ground pepper** loses potency rapidly as volatile aromatic oils evaporate and piperine oxidizes upon exposure to air. Ground pepper retains acceptable flavor for only 3-4 months. Grind fresh in small batches rather than storing large quantities pre-ground. Store ground pepper in small, airtight, opaque containers to slow degradation.
+
+**Green peppercorns** (fresh or brined) store for weeks in brine or months in sealed containers if dried. For longest storage, process green peppercorns into black pepper by sun-drying, or pickle in vinegar/brine for use as a condiment.
 
 ### Material Handling
 

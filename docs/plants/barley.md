@@ -74,6 +74,18 @@ Hordeum vulgare is a ANNUAL growing to 1 m (3ft 3in) by 0.2 m (0ft 8in). See abo
 
 ### Edible Parts and Preparation
 
+**Grain** is the primary harvest. Barley grain (*Hordeum vulgare*) has a tightly adhering hull in most varieties that must be removed before human consumption. The hull-less (naked) varieties in the Coeleste group shed their hulls during threshing and are far easier to process at small scale, though they yield 10-20% less per hectare.
+
+**Whole grain uses**: Barley can be cooked as a whole grain (like rice) after dehulling — simmer in 3 volumes of water for 40-50 minutes until tender. The grain is 10-12% protein, ~340 kcal/100g dry weight, and rich in β-glucan soluble fiber (3-8%), which slows glucose absorption and lowers blood cholesterol.
+
+**Pearled barley**: The most common form for human consumption. The inedible hull is removed by abrasive milling in a rotating drum (pearler), followed by successive polishing passes that remove the bran. Pearl barley with 3-4 polishing passes retains some germ and bran; over-polished pearl barley is nearly pure endosperm. The pearling process removes 20-35% of the grain weight. Pearled barley cooks in 25-30 minutes (2:1 water:grain ratio) and is used in soups, stews, and as a rice substitute.
+
+**Barley flour**: Ground from pearled or whole grain. Low gluten (or no gluten if hull-less variety) makes it unsuitable for raised bread alone — it produces dense, flat breads and is typically mixed with wheat flour at 20-30% for composite loaves. Barley flour excels in flatbreads, pancakes, and as a thickener. Sift through a 0.5 mm mesh for fine flour; coarser grades for porridge.
+
+**Malt** is the key processed form: barley grain that has been sprouted under controlled conditions, then dried (kilned). Malt enzymes (primarily α-amylase and β-amylase, developed during germination) convert starch to fermentable sugars (maltose, glucose). Malt is the foundation of beer and whisky production, and serves as a natural sweetener. See the Malting process in Processing and Storage below.
+
+**Sprouted grain**: Soak whole grain 8-12 hours, drain, and rinse twice daily for 2-3 days until sprouts reach 5-10 mm. Sprouted barley contains increased vitamin C, B vitamins, and enzymes. Add to salads or juice as a health food. Sprouted grain also makes excellent animal fodder.
+
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -90,11 +102,44 @@ Biomass Mulch Paper. The stems, after the seed has been harvested, have many use
 
 ### Storage
 
-Dry seeds thoroughly to below 14% moisture content before storage. Spread in thin layers on drying racks in full sun, stirring periodically. Test dryness by biting: properly dried seeds crack rather than dent. Store in airtight containers (ceramic jars with tight lids, sealed woven bags) in a cool, dry, dark location. Protect from rodents and insects with tight lids or by mixing with inert ash. Under good conditions, dried grains and legumes store for 1-5 years with minimal loss.
+**Dried grain** stores well at below 14% moisture in sealed containers. Barley is more tolerant of adverse storage conditions than wheat due to its protective hull. At 12% moisture and 15°C, hulled barley retains viability and quality for 2-3 years. Monitor for stored grain pests: weevils (*Sitophilus* spp.) and grain borers. Mix with diatomaceous earth (1 kg per tonne of grain) as a non-toxic insect deterrent.
+
+**Malted barley** is more perishable than raw grain — the modified, friable kernels absorb moisture readily. Store malt at below 6% moisture in airtight containers. Use within 12 months; enzyme activity declines 10-20% per year in storage.
+
+**Pearled barley** stores similarly to white rice — the removed bran eliminates the lipid-rich components that go rancid. Shelf life: 1-2 years in cool, dry conditions.
+
+### Malting Process
+
+Malting converts raw barley into a source of fermentable sugars through controlled germination:
+
+1. **Steeping**: Submerge barley in water at 12-15°C for 8 hours, drain for 8 hours, re-steep for 8 hours. Total steep time: 24-48 hours. The grain absorbs water to reach 42-46% moisture. Change water between steeps to prevent microbial growth. Discard floating grains — they are lightweight, damaged, or moldy.
+
+2. **Germination**: Spread steeped grain 10-15 cm deep on a clean floor or in perforated trays. Maintain at 14-18°C with adequate airflow. Turn the grain every 8-12 hours to prevent matting and ensure even germination. Germination takes 4-6 days. Monitor rootlet growth — the target is when the acrospire (shoot) has grown to ¾-1× the length of the grain. The grain is now "green malt" with active enzymes (diastatic power) that convert starch to sugar.
+
+3. **Kilning**: Dry the green malt to halt germination and develop flavor. Begin at 50-60°C with strong airflow for the first 12-18 hours (drying phase), then raise to 80-85°C for 2-4 hours (curing phase). Total kilning time: 18-24 hours. Final moisture: 3-5%. Lower kilning temperatures produce lighter, more enzymatically active malt (pale malt, for lagers); higher temperatures produce darker, toastier malt with reduced enzyme activity (crystal malt, chocolate malt) used for color and flavor.
+
+**Malting yield**: 100 kg raw barley produces approximately 75-80 kg malted barley (weight loss from rootlet removal, respiration, and moisture reduction). Diastatic power (enzyme activity) is measured in °Lintner; base malts typically measure 120-180°L.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Grain yield | 2-5 tonnes/ha | Higher in cool, moist climates |
+| Protein content | 10-14% | Malting requires <12%; feed barley tolerates higher |
+| Thousand kernel weight | 35-45 g | Plump kernels preferred for malting |
+| Steeping temperature | 12-15°C | Lower temps prevent premature germination |
+| Steeping duration | 24-48 hours | Target moisture 42-46% |
+| Germination temperature | 14-18°C | Higher temps promote mold growth |
+| Germination duration | 4-6 days | Until acrospire reaches ¾-1× grain length |
+| Kilning temperature | 50-85°C | Low = pale malt; high = dark malt |
+| Kilning duration | 18-24 hours | Final moisture 3-5% |
+| Malting yield | 75-80% | From raw barley to finished malt |
+| Pearling weight loss | 20-35% | Hull and bran removal |
+| Grain storage moisture | <14% | Below 12% for long-term storage |
 
 ### Material Handling
 
-Handle barley produce with clean hands and tools to prevent contamination. Remove field heat promptly after harvest by moving product to shade. Process within the recommended timeframe to prevent quality loss. Compost crop residues and processing waste to return organic matter to the soil. Label stored products with harvest date, variety, and any treatments applied.
+Thresh barley using a flail (20-50 kg/hour) or by treading with animals (100-200 kg/hour). Winnow in a steady breeze to separate grain from chaff. The hull provides some protection during threshing — hulled barley is more forgiving than wheat. After threshing, spread grain in thin layers (5-10 cm) on drying floors in full sun, stirring hourly, for 1-3 days until moisture reaches below 14%. Barley straw (stems post-harvest) has higher feed value than wheat straw and is preferred for livestock bedding. Malt culms (rootlets removed after kilning) constitute ~3-5% of malt weight and are collected as a protein-rich animal feed supplement (25-30% protein).
 
 ## Scaling Notes
 

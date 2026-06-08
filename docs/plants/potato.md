@@ -76,7 +76,67 @@ Plants are grown from tubers. Due to virus diseases it is necessary to get fresh
 
 A branched annual plant up to 50 cm high. The stems are soft and 4 angled with compound leaves. The leaves are irregular shape and have 6-8 pairs of leaflets as well as small irregular leaflets between the others. It has swollen stem tubers under the ground. The tubers can vary in colour from white to red and purple. The tuber shape can also vary greatly. The flowers are white pink or purple. The fruit is a berry. It is smooth, round and green but often striped.
 
+### Harvesting
+
+Potatoes are ready for harvest when the above-ground foliage (haulm) begins to yellow, die back, and collapse — typically 75-130 days after planting depending on variety. This signals that tubers have reached full size and the plant is redirecting energy storage underground. For early ("new") potatoes, harvest 2-3 weeks after flowering when tubers are small and skins are thin. For maincrop storage potatoes, wait until the haulm is completely dead and dried (2-3 weeks after dieback begins) to allow skins to set (thicken and toughen), which is essential for storage.
+
+Harvest by digging carefully around the plant base with a fork or digging stick, starting 30 cm from the stem to avoid spearing tubers. Lift the entire root mass and sift through soil by hand. Tubers form at multiple depths from just below the surface to 30 cm deep. Average yield: 20-40 tubers per plant, 0.5-2 kg per plant. Harvest on a dry day if possible — wet soil adheres to tubers and promotes rot in storage.
+
+### Curing
+
+Freshly harvested potatoes must be cured before storage to heal cuts and abrasions, set the skin, and extend shelf life:
+
+1. Spread unwashed potatoes in a single layer in a well-ventilated, dark space.
+2. Maintain temperature at 10-15°C with 85-95% relative humidity for 10-14 days.
+3. During curing, cut surfaces suberize (form a protective corky layer) and minor skin damage heals.
+4. Do not wash potatoes before curing — soil left on the skin provides additional protection.
+5. After curing, skins should resist rubbing off when pressed firmly with a thumb.
+
+### Storage
+
+Proper storage preserves potatoes for 4-8 months:
+
+- **Temperature**: 3-4°C (38-40°F). Above 5°C, tubers begin to sprout. Below 2°C, starch converts to sugar, producing unpleasantly sweet taste and darkening during frying.
+- **Darkness**: Essential. Light exposure triggers chlorophyll production (greening) and solanine synthesis. Store in opaque containers, root cellars, or covered pits.
+- **Humidity**: 85-90% to prevent shriveling. Ventilate to prevent condensation.
+- **Ventilation**: Allow air circulation to prevent moisture buildup and fungal growth. Do not store in sealed plastic bags.
+- **Separation**: Store away from onions and apples, which release ethylene gas that accelerates sprouting and spoilage.
+
+**⚠ Solanine Warning**: Potatoes exposed to light produce chlorophyll (green color) and solanine — a toxic glycoalkaloid that causes nausea, vomiting, diarrhea, headache, and in severe cases, paralysis and death. Solanine concentrates in and just under the skin, and in sprouts. The green color itself is chlorophyll and not toxic, but it indicates solanine production has occurred.
+- **Prevention**: Store all potatoes in complete darkness. Check stored potatoes weekly.
+- **If minor greening**: Peel deeply, removing all green tissue and at least 3 mm of underlying flesh. Cook thoroughly.
+- **If extensive greening or sprouting**: Discard the entire tuber. Do not feed to livestock. Solanine is not destroyed by normal cooking temperatures (decomposes above ~243°C, far above cooking range).
+
+### Cooking Methods
+
+- **Boiling**: Peel (or leave skin on for new potatoes), cut into even pieces, cover with salted water, boil 15-25 minutes until fork-tender. Drain immediately to prevent sogginess. 77 kcal/100g boiled.
+- **Baking**: Pierce skin several times with a fork (prevents steam explosion). Bake at 200°C for 45-60 minutes until soft when squeezed. 93 kcal/100g baked with skin.
+- **Frying**: For chips (French fries), cut into strips, parboil 3-5 minutes, dry thoroughly, fry at 175°C for 5-7 minutes until golden. For pan-frying, slice 3-5 mm thick and fry in oil at medium-high heat 4-5 minutes per side.
+- **Mashing**: Boil peeled potatoes 20-25 minutes until very soft. Drain and mash with butter, milk, or oil. Add salt to taste.
+- **Roasting**: Cut into chunks, toss with oil and salt, roast at 200°C for 30-45 minutes, turning once.
+
+### Seed Potato Production
+
+Potatoes are propagated vegetatively from tuber pieces (seed potatoes), not from true seed:
+
+1. Select healthy, disease-free tubers from the best plants at harvest. Mark superior plants in the field before digging. Choose medium-sized tubers (40-60g) with well-developed eyes.
+2. Store seed potatoes at 3-4°C in darkness until 4-6 weeks before planting.
+3. **Chitting** (pre-sprouting): Move seed potatoes to a cool (10-13°C), bright (not direct sun) location. Allow short, stubby green sprouts to develop from the eyes over 4-6 weeks. This advances maturity by 2-3 weeks.
+4. Large seed potatoes (over 60g) can be cut into pieces, each containing 2-3 eyes. Allow cut surfaces to dry and suberize for 24-48 hours before planting to prevent rot.
+5. Plant seed pieces 10-15 cm deep, 30-38 cm apart, in rows 60-90 cm apart.
+6. **Virus degeneration**: Potatoes propagated vegetatively accumulate viruses over generations, reducing yield 10-20% per generation. Renew seed stock every 3-5 years from high-altitude or isolated plantings where aphid vectors are absent. True botanical seed produces virus-free plants but does not breed true (heterozygous).
+
+### Ethanol Production
+
+Potatoes can be fermented and distilled to produce ethanol (potato spirit), providing an alcohol source for drinking, industrial solvent, fuel, and medicinal use:
+
+1. **Mashing**: Wash and grind or grate potatoes to break cell walls. Cook the mash at 65-70°C for 30-60 minutes to gelatinize starches. Add malted barley or amylase enzyme to convert starch to fermentable sugars (saccharification at 60-65°C for 30 minutes).
+2. **Fermentation**: Cool mash to 25-30°C. Add yeast (*Saccharomyces cerevisiae*). Ferment in sealed vessels with an airlock for 3-7 days until bubbling stops. Ethanol yield: approximately 100-120 liters per tonne of potatoes.
+3. **Distillation**: Distill the fermented wash in a pot still. First distillation produces "low wines" at 20-30% ABV. Re-distill, discarding the first 50-100 ml of "heads" (methanol, acetone — toxic) and the last portion of "tails" (fusel oils). Collect the "hearts" at 70-85% ABV. Dilute to desired strength with water.
+
 ### Edible Parts and Preparation
+
+Potato tubers are always cooked before eating to improve digestibility and reduce anti-nutrients. The tuber is the primary edible part. Leaves, stems, flowers, and green berries are poisonous (contain solanine and other glycoalkaloids) and must not be consumed.
 
 ## Quantitative Parameters
 
@@ -134,7 +194,7 @@ Key scaling challenges include maintaining genetic diversity at plantation scale
 
 Working with *Solanum tuberosum* involves the following hazards:
 
-- **Toxicity**: Parts of this plant may contain compounds that are toxic when raw or improperly prepared. Always follow proper preparation procedures before consumption. Verify with multiple authoritative sources.
+- **⚠ Solanine poisoning (CRITICAL)**: All green parts of the potato plant (leaves, stems, flowers, berries) contain toxic glycoalkaloids (solanine and chaconine) and must never be eaten. Tubers exposed to light produce green skin and accumulate solanine. Green-skinned or sprouted potatoes are toxic — solanine causes nausea, vomiting, diarrhea, abdominal pain, headache, fever, hallucinations, paralysis, and potentially death at high doses. Symptoms appear 2-24 hours after ingestion. **Safe handling: store all potatoes in complete darkness at 3-4°C. Check weekly for greening or sprouting. If minor greening, peel deeply removing all green tissue plus 3 mm of underlying flesh. If extensive greening or heavy sprouting, discard entirely — do not eat, do not feed to animals. Cooking does not destroy solanine** (decomposes above ~243°C, far above normal cooking temperatures). The toxic dose is approximately 2-5 mg solanine per kg body weight; a single green potato may contain enough solanine to cause acute poisoning in a child.
 - Tool injuries during harvest and processing — use sharp tools in good condition and cut away from the body
 - Allergic reactions to plant compounds — sensitive individuals should test small quantities first
 - Sun exposure and heat stress during field work — schedule heavy work for early morning or late afternoon

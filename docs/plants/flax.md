@@ -75,6 +75,81 @@ Linum usitatissimum is a ANNUAL growing to 0.7 m (2ft 4in) by 0.2 m (0ft 8in). S
 
 ### Edible Parts and Preparation
 
+### Dual-Use Crop: Fiber and Seed
+
+Flax is the preeminent dual-use fiber crop: the same species (*Linum usitatissimum*) produces both linen fiber (from stems) and linseed oil (from seeds), but the two uses require different harvest timing and variety selection. Fiber flax varieties are planted densely (80-100 kg seed/ha) to produce tall, unbranched stems 70-120 cm long with maximum fiber length. Seed (linseed) varieties are planted at lower density to promote branching and maximize seed yield. A fiber crop is harvested ~100 days after sowing when the lower third of the stem turns yellow; a seed crop is left standing until stems are fully brown and seed capsules rattle.
+
+### Fiber Harvesting
+
+Pull whole plants from the ground (do not cut) when the stem is yellow-green — the lower third yellow, the upper two-thirds still green. Pulling preserves the full root-end fiber, which is the longest and finest on the plant. Harvest timing is critical: too early and the fiber is weak (under-lignified); too late and the fiber is coarse and woody (over-lignified). The optimal window is 5-10 days. Tie pulled stalks into bundles (sheaves) 12-15 cm in diameter for retting.
+
+Fiber yield: 500-900 kg/ha dry fiber from dedicated fiber varieties under hand cultivation. Line fiber (long, 30-90 cm) constitutes ~15% of dry stalk weight; tow fiber (short, 5-15 cm) adds another 5-8%.
+
+### Retting
+
+Retting is the decisive step in flax fiber extraction. Microbial action decomposes the pectins binding fiber bundles to the woody shive core and outer bark. The quality of retting determines fiber quality more than any other single factor.
+
+**Water retting** (produces the finest fiber):
+
+Submerge bundled stalks in still or slow-moving water — ponds, retting tanks, or slow rivers. Weight bundles with stones to keep them submerged. Water temperature controls the rate:
+
+| Water temperature | Duration | Notes |
+|-------------------|----------|-------|
+| 15°C | 10-14 days | Cool climates, slowest |
+| 20°C | 7-10 days | Standard |
+| 25°C | 5-7 days | Fastest; over-retting risk increases sharply |
+| 30°C | 4-5 days | Only with constant monitoring; significant over-retting risk |
+
+Test readiness by snapping a stalk between the fingers: fibers should separate cleanly from the woody shive core without manual pulling. Under-retted stalks resist separation (fibers cling to shive); over-retted fibers are weak, discolored (dark brown), and break into short pieces. Check every 2 days once retting begins. After retting, stand bundles upright to drain for 2-4 hours, then spread to dry thoroughly (5-10 days in sun). Retting water becomes anaerobic and foul-smelling — never ret in drinking water sources.
+
+**Dew retting** (no water infrastructure required):
+
+Spread pulled stalks thinly on a grass field after harvest. Turn every 2-3 days to ensure even exposure. Dew, rainfall, and soil moisture support aerobic fungi and bacteria that break down pectins. Duration: 2-5 weeks depending on climate. In dry weather, retting stalls; in heavy rain, over-retting and rotting occur. Dew-retted flax produces coarser, darker fiber than water-retted, suitable for coarser textiles but not fine linen. This is the most practical method for a bootstrap operation without retting ponds.
+
+### Breaking and Scutching
+
+After retting and drying, the brittle woody shive must be separated from the flexible fiber bundles:
+
+1. **Breaking**: Pass dried retted stalks through a flax break — a wooden cradle with hinged wooden blades. The blades crush the brittle shive into fragments while the flexible fiber bundles remain intact. Break each bundle 3-5 times. A flax break can be made from hardwood (oak, ash) with simple hand tools.
+2. **Scutching**: Beat the broken stalks against a flat wooden blade (scutching knife) held in a scutching board (upright wooden plank with a slot). This knocks loose the shattered shive fragments free from the fiber bundles. Scutch by striking from both sides. Approximately 20-25% of retted stalk weight becomes clean fiber after scutching; the remainder is shive (usable as fuel, building material, or animal bedding).
+
+### Hackling (Combing)
+
+Draw scutched fiber bundles through graduated metal combs (hackles) to separate fiber grades:
+
+1. **Rough hackle** (8-12 teeth/dm): Removes remaining shive fragments and begins to align fibers. The longest fibers (line, 30-90 cm) pass through.
+2. **Medium hackle** (15-20 teeth/dm): Splits coarse bundles into finer ones, further aligns fibers.
+3. **Fine hackle** (25-35 teeth/dm): Produces smooth, aligned sliver of long line fiber. Short broken fibers caught in the comb teeth are **tow** (5-15 cm), collected separately.
+
+Line fiber is spun into fine yarn for linen cloth. Tow fiber is spun into coarser yarn for sacking, toweling, and twine. Combined line + tow yield is ~20-25% of dry retted stalk weight.
+
+### Seed Processing: Linseed Oil
+
+Flax grown for seed (linseed varieties) produces seeds containing 35-45% oil:
+
+1. **Harvest seed**: Cut or pull plants when stems are fully brown and seed capsules rattle. Thresh by beating bundles over a canvas to release seeds. Winnow to remove chaff.
+2. **Press oil**: Grind seeds with a stone mill or stone roller, then press in a screw press or wedge press at 40-60°C (cold press for food-grade oil) or 75-85°C (hot press, higher yield). Cold pressing extracts 60-70% of available oil; hot pressing reaches 80-85% but degrades flavor and nutritional value.
+3. **Linseed oil properties**: A drying oil (polymerizes on exposure to air). Used for wood finishing, paint binder, linoleum, and waterproofing. Food-grade cold-pressed oil is rich in omega-3 alpha-linolenic acid (50-60% of fatty acid content). One tablespoon (14 ml) provides 7.2 g ALA omega-3.
+4. **Press cake**: The residue after oil extraction contains 30-35% protein and is a high-value animal feed (linseed cake). Can also be composted.
+
+Seed yields: 1,000-2,000 kg/ha for dedicated seed varieties; 500-800 kg/ha for fiber varieties (secondary harvest).
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Fiber yield (dry) | 500-900 kg/ha | Dedicated fiber varieties |
+| Line fiber yield | ~15% of dry stalk weight | Long fiber, 30-90 cm |
+| Tow fiber yield | ~5-8% of dry stalk weight | Short fiber, 5-15 cm |
+| Seed yield | 1,000-2,000 kg/ha | Seed varieties; 500-800 kg for fiber varieties |
+| Linseed oil content | 35-45% of seed weight | Cold press: 60-70% extracted |
+| Water retting at 20°C | 7-10 days | Check every 2 days |
+| Dew retting | 2-5 weeks | Climate dependent |
+| Growing cycle | ~100 days | Fiber harvest at yellow-green stage |
+| Planting density (fiber) | 80-100 kg seed/ha | Dense sowing for tall, unbranched stems |
+| Flax fiber tensile strength | 500-900 MPa | Fiber bundle |
+| Linseed omega-3 (ALA) | 20 g/100 g seed | Alpha-linolenic acid |
+
 ## Quantitative Parameters
 
 ### Growing Parameters

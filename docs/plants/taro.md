@@ -78,6 +78,71 @@ This plant has large flat leaves on the end of upright leaf stalks. It grows up 
 
 ### Edible Parts and Preparation
 
+> **⚠️ CALCIUM OXALATE WARNING**: Raw taro contains needle-shaped calcium oxalate crystals (raphides) that cause **severe burning, itching, and swelling of the lips, tongue, throat, and skin**. Raw taro is TOXIC and must NEVER be eaten without thorough cooking. Even handling raw corms can cause skin irritation — wear gloves when peeling. **All taro products (corms, leaves, stems) must be cooked to at least 74°C throughout before consumption.** Boil for 30-45 minutes, steam for 45-60 minutes, or bake until completely tender. The calcium oxalate crystals are destroyed by sustained heat. Never taste raw taro to test doneness.
+
+### Harvesting
+
+Taro corms are harvested 6-18 months after planting, when leaves begin to yellow and die back. In tropical regions, harvest can occur year-round as needed. Dig carefully around the plant with a fork or spade, working from the outside inward to avoid cutting the main corm. The main corm may be 15-30 cm long and 10-15 cm in diameter. Side suckers and cormels can be separated for replanting. For the Eddoe type (*C. esculenta* var. *antiquorum*), the smaller cormels are the primary harvest and the main corm is kept for replanting. For the Dasheen type (*C. esculenta* var. *esculenta*), the large central corm is the primary harvest. Average yield: 5-15 tonnes per hectare.
+
+### Preparation and Cooking
+
+All taro parts require thorough cooking to destroy calcium oxalate crystals:
+
+1. **Peeling**: Wear gloves. Peel the corm with a knife, removing the outer brown skin completely. The flesh beneath is white, cream, or pinkish. Immediately place peeled corm in water to prevent discoloration (enzymatic browning).
+2. **Boiling**: Cut into 3-5 cm cubes. Boil in salted water for 30-45 minutes until completely tender when pierced with a fork. Boiling water may cause irritation from released calcium oxalate — avoid inhaling steam directly. Discard cooking water (contains dissolved oxalates).
+3. **Baking**: Wrap whole peeled corm in leaves or foil. Bake at 190°C for 45-60 minutes until tender. Baking retains more nutrients than boiling.
+4. **Steaming**: Steam cubed or whole corm for 45-60 minutes. Steaming retains the most water-soluble nutrients.
+5. **Leaves and stems**: Young leaves and peeled stems must also be cooked thoroughly — boil leaves for 15-20 minutes, stems for 20-30 minutes. Never eat raw.
+
+Cooked taro has a mild, slightly sweet flavor and a texture similar to potato but denser and somewhat slippery due to the small starch grains.
+
+### Storage
+
+Taro corms store for 3-6 months under appropriate conditions:
+
+- **Eddoe type** stores well due to the dry, dormant cormels — keep in a cool, dry, well-ventilated place at 12-15°C.
+- **Dasheen type** does not store as long (the corm loses moisture and quality). Store in cool (13-15°C), dry conditions. Do not refrigerate (chilling injury below 10°C).
+- Avoid washing before storage — soil protects the skin. Brush off excess dirt.
+- Check weekly and remove corms showing soft spots, mold, or sprouting.
+- For longer storage, slice thinly, dry at 50-60°C for 12-24 hours, and mill into flour. Taro flour stores indefinitely and is easily digestible.
+
+### Poi Production
+
+Poi is a traditional Hawaiian fermented taro paste — one of the most important traditional taro processing methods:
+
+1. **Steam**: Wash whole corms thoroughly. Steam for 2-3 hours until completely soft. Steaming is preferred over boiling because it retains more nutrients.
+2. **Peel**: Remove the skin while hot (wear gloves — some residual oxalates may be present in the skin layer).
+3. **Mash**: Pound the cooked corm on a wooden board with a stone pestle (poi pounder), adding water gradually to achieve a smooth, thick paste. The traditional tool is a rounded stone pestle (*pōhaku ku'i 'ai*). The paste should be smooth and uniform, free of lumps.
+4. **Ferment**: Place the paste in a covered container. Allow to ferment at room temperature for 2-4 days. Lactic acid bacteria naturally present on the taro drive the fermentation, producing a tangy, slightly sour flavor. Fresh poi is sweet; fermented poi becomes increasingly sour over days.
+5. **Serve and store**: Poi is eaten as a staple food, thinned with water to desired consistency. Keeps 5-7 days refrigerated as fermentation continues slowly.
+
+Poi is an easily digestible, hypoallergenic food suitable for infants and people with digestive issues. The small taro starch granules (1-5 μm, among the smallest of any crop) are readily absorbed.
+
+### Flour Production
+
+Taro flour is produced by drying and grinding cooked or uncooked corms:
+
+1. Peel corms (wear gloves), slice into thin (3-5 mm) chips.
+2. Boil chips for 15-20 minutes to destroy calcium oxalate (if not pre-cooking, this step is mandatory).
+3. Dry at 50-60°C until brittle (12-24 hours).
+4. Mill to fine powder. Sieve to remove coarse particles.
+5. Store in airtight containers. The very fine taro starch granules produce an exceptionally smooth flour suitable for baby food and people with allergies.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| **Calcium oxalate crystals** | **Present in all raw parts** | **Destroyed by cooking to 74°C+** |
+| Minimum boiling time (corms) | 30-45 minutes | Until completely tender |
+| Minimum steaming time (corms) | 45-60 minutes | Must reach 74°C throughout |
+| Minimum boiling time (leaves) | 15-20 minutes | Must be cooked |
+| Poi steaming time | 2-3 hours | Whole corms |
+| Poi fermentation | 2-4 days | Lactic acid fermentation |
+| Storage temperature | 12-15°C | Below 10°C = chilling injury |
+| Storage duration | 3-6 months | Eddoe type stores longer |
+| Starch granule size | 1-5 μm | Among smallest of any crop |
+| Yield | 5-15 tonnes/ha | Average |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -137,15 +202,17 @@ Key scaling challenges include maintaining genetic diversity at plantation scale
 
 Working with *Colocasia esculenta* involves the following hazards:
 
-- **Toxicity**: Parts of this plant may contain compounds that are toxic when raw or improperly prepared. Always follow proper preparation procedures before consumption. Verify with multiple authoritative sources.
+- **⚠️ CALCIUM OXALATE TOXICITY (CRITICAL)**: Raw taro contains needle-shaped calcium oxalate crystals (raphides) that cause intense burning, itching, and swelling of mucous membranes and skin. Raw taro MUST NEVER be consumed. ALL parts (corms, leaves, stems) must be cooked thoroughly (boil 30-45 minutes, steam 45-60 minutes, or bake until completely tender) to destroy the crystals. Even handling raw corms can cause skin irritation.
+- **Peel with gloves**: The sap from raw taro contains calcium oxalate and proteolytic enzymes that cause contact dermatitis. Always wear gloves when peeling raw corms.
+- **Discard cooking water**: Boiling water used for taro contains dissolved calcium oxalates — never reuse for other cooking.
+- **Avoid steam inhalation**: Steam from boiling taro may carry irritating calcium oxalate particles. Ventilate cooking area well.
 - Tool injuries during harvest and processing — use sharp tools in good condition and cut away from the body
-- Allergic reactions to plant compounds — sensitive individuals should test small quantities first
 - Sun exposure and heat stress during field work — schedule heavy work for early morning or late afternoon
 - Musculoskeletal strain from repetitive harvesting motions — vary tasks and take regular breaks
 
 ### Personal Protective Equipment
 
-- Sturdy gloves when handling plants with irritant sap, spines, or rough surfaces
+- **Rubber or nitrile gloves when peeling raw taro** — mandatory to prevent calcium oxalate skin irritation
 - Long sleeves and trousers for field work to reduce skin exposure to irritants and insects
 - Eye protection when using cutting tools overhead or near face level
 - Sun hat and sunscreen for extended field work

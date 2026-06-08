@@ -78,6 +78,79 @@ A small erect bean up to 60 cm tall. It grows each year from seed. Straggling ki
 
 ### Edible Parts and Preparation
 
+### Soy Milk Production
+
+Soy milk is the base for tofu and a valuable protein beverage:
+
+1. **Soaking**: Soak dry soybeans in water (3:1 water:bean ratio) for 8-12 hours at room temperature, or 4-6 hours in warm water (40-50°C). Beans swell to approximately 2 times their dry volume.
+2. **Blending**: Drain soaked beans and blend with fresh water at a 1:8 ratio (beans:water by weight). Grind to a smooth slurry using a stone mill, mortar, or mechanical blender.
+3. **Cooking**: Boil the slurry for 15-20 minutes, stirring constantly to prevent scorching. This deactivates trypsin inhibitors and lipoxygenase (which causes beany flavor). Foam heavily during the first 5 minutes — skim or add a few drops of oil to control.
+4. **Straining**: Filter through muslin cloth or a fine screen while still hot. Twist the cloth to press out all liquid. The solids retained are *okara* (soy pulp), which is edible and nutritious (high fiber, ~25% protein). Yield: approximately 6-8 liters of soy milk per kg of dry soybeans.
+
+### Tofu Production (Coagulation)
+
+Tofu is made by coagulating soy milk protein and pressing the curds:
+
+1. **Prepare soy milk**: Follow the soy milk process above. The milk should be at approximately 15-18% solids.
+2. **Coagulation**: Heat soy milk to 70-80°C. Add coagulant solution slowly while stirring gently. Two principal coagulant types:
+   - **Nigari (magnesium chloride, MgCl₂)**: The traditional Japanese coagulant, derived from sea salt production. Produces smooth, slightly sweet tofu with a tender texture. Use 15-20 g nigari per liter of soy milk, dissolved in warm water before adding. Coagulation takes 10-15 minutes.
+   - **Calcium sulfate (gypsum, CaSO₄)**: The traditional Chinese coagulant, mined or refined. Produces firmer tofu with higher calcium content. Use 15-25 g per liter of soy milk. Coagulation is slower (15-20 minutes) but produces a higher yield.
+   - Other coagulants: magnesium sulfate (Epsom salt), glucono delta-lactone (GDL), or lemon juice/vinegar (acid coagulation, produces a softer, more crumbly curd).
+3. **Curdling**: Once coagulant is added, stop stirring. Cover and let stand 15-20 minutes until curds separate from clear yellow whey.
+4. **Pressing**: Line a mold or perforated container with muslin cloth. Ladle curds into the mold, fold cloth over the top, and place a weight on top. Press for 20-30 minutes for soft tofu (silken: minimal pressing, 5-10 minutes), or 45-60 minutes for firm/extra-firm tofu. The longer and heavier the pressing, the firmer the tofu.
+5. **Storage**: Submerge pressed tofu in fresh water and keep refrigerated. Change water daily. Keeps 5-7 days.
+
+Yield: approximately 3-4 kg tofu per kg of dry soybeans. Tofu is approximately 8% protein, 5% fat, and 85% water.
+
+### Tempeh Production
+
+Tempeh is a fermented soybean cake with improved protein digestibility and bioavailability:
+
+1. **Dehulling**: Crack dry soybeans and remove hulls by winnowing or flotation (hulls float, cotyledons sink). Alternatively, soak beans and rub off hulls by hand.
+2. **Cooking**: Boil dehulled beans for 30 minutes. Drain and pat dry — excess moisture promotes undesirable bacteria.
+3. **Inoculation**: Cool beans to below 35°C. Mix with *Rhizopus oligosporus* starter culture (available from previous tempeh batch or commercial culture). Use 1-2 g starter per kg of cooked beans. A small amount of vinegar (1 tablespoon per kg) lowers pH to 4.5-5.5, favoring *Rhizopus* over contaminants.
+4. **Incubation**: Pack inoculated beans into perforated plastic bags, banana leaves, or wrapped in perforated foil. The mold needs oxygen through the perforations. Incubate at 28-32°C for 24-36 hours. The white mycelium binds the beans into a solid cake.
+5. **Harvest**: Tempeh is ready when the beans are bound into a firm white cake with no gray or black patches (indicates over-fermentation or contamination). Slice and use within 2-3 days, or freeze for longer storage.
+
+### Oil Extraction
+
+Soybeans contain approximately 18-20% oil:
+
+1. **Cold pressing**: Crush cleaned, dried beans in a screw press or expeller. Cold pressing extracts 50-70% of the oil without heat. The pressed cake (meal) retains 6-10% oil and is high-protein animal feed.
+2. **Solvent extraction**: For maximum yield, the pressed cake can be further extracted with hexane or ethanol to recover residual oil. Total extraction reaches 95-98% of available oil.
+3. **Refining**: Crude soybean oil is filtered, degummed (remove lecithin phospholipids — a valuable byproduct), neutralized (remove free fatty acids), bleached, and deodorized for cooking use.
+
+### Miso Fermentation
+
+Miso is a fermented soybean paste:
+
+1. **Prepare koji**: Steamed rice or barley is inoculated with *Aspergillus oryzae* and incubated at 30°C for 40-48 hours to produce koji (enzyme-rich grain).
+2. **Cook soybeans**: Steam soybeans until soft (2-4 hours).
+3. **Mix**: Combine cooked soybeans, koji, and salt (6-13% by weight). Mash together.
+4. **Ferment**: Pack into sealed containers and ferment at 25-30°C for 1-12 months. Short fermentation produces sweet, light miso (shiro miso). Long fermentation produces dark, salty miso (aka miso).
+
+### Sprouting
+
+Soybean sprouts are ready in 2-4 days: soak beans 8-12 hours, drain, and rinse twice daily. Keep in a dark, warm place (20-25°C). Sprouts are harvested when 3-5 cm long, rich in vitamin C and folate.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Soybean soaking time | 8-12 hours | Room temperature; 4-6 hours at 40-50°C |
+| Soy milk bean:water ratio | 1:8 | By weight |
+| Soy milk boiling time | 15-20 minutes | Must deactivate trypsin inhibitors |
+| Soy milk yield | 6-8 L/kg dry beans | After straining |
+| Tofu coagulation temperature | 70-80°C | Optimal for both nigari and gypsum |
+| Nigari dose | 15-20 g/L soy milk | Dissolved in warm water first |
+| Calcium sulfate dose | 15-25 g/L soy milk | Slower coagulation, higher yield |
+| Tofu pressing time | 20-60 minutes | Longer = firmer |
+| Tofu yield | 3-4 kg/kg dry beans | ~8% protein, 5% fat |
+| Tempeh incubation | 28-32°C, 24-36 hours | Rhizopus oligosporus |
+| Oil content (dry beans) | 18-20% | ~50-70% extracted by cold press |
+| Miso fermentation | 1-12 months | At 25-30°C |
+| Sprouting time | 2-4 days | At 20-25°C, rinse twice daily |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

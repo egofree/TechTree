@@ -78,6 +78,43 @@ A climbing bean with hairy stems. It can grow up to 6 m tall. The stems are wood
 
 ### Edible Parts and Preparation
 
+Jicama (*Pachyrhizus erosus*) produces a crisp, sweet tuberous root that is eaten raw or cooked. Its processing is straightforward but requires strict attention to the toxicity of non-tuber parts:
+
+**Harvesting**: Harvest tubers 90-120 days after sowing, when the tuber is full-sized but before it becomes overly mature and fibrous. The optimal harvest window is when the above-ground vine begins to yellow and die back. Dig carefully with a fork — tubers are large and easily damaged. A single plant typically produces one main tuber weighing 0.5-2 kg under good conditions, though tubers can reach 20 kg if left to grow. Remove the entire root from the soil; do not attempt partial harvest — the tuber does not regrow from remaining tissue.
+
+**Peeling**: The thick, tough, brown skin must be removed before eating — it is fibrous and unpalatable. Peel with a knife, removing 2-3 mm of the outer layer. The flesh beneath is white, crisp, and juicy. Peeled jicama discolors slowly (less enzymatic browning than potato or apple), but use within a few hours of peeling for best quality.
+
+**Storage**: Store whole, unpeeled tubers in cool (12-15°C), dry conditions. Do not refrigerate — temperatures below 10°C cause chilling injury (discoloration and decay). Properly stored whole tubers keep for 1-2 months. Do not wash before storage. Once cut or peeled, the flesh keeps for 2-3 days wrapped in the refrigerator. Jicama cannot be frozen successfully — the crisp texture is destroyed by ice crystal formation.
+
+**Consumption**: Raw jicama is crisp, mildly sweet, and refreshing — similar to a firm apple or water chestnut. Slice into sticks for eating raw, or dice into salads. Cooking: stir-fry sliced jicama for 3-5 minutes (retains crunch), boil cubes for 8-12 minutes (becomes tender but not mushy), or add to soups and stews in the last 10 minutes of cooking. Jicama retains its crisp texture even after cooking, making it unique among root vegetables.
+
+### Toxicity Warning
+
+**The seeds, leaves, stems, and pods of jicama contain rotenone**, a potent insecticide and fish poison. Rotenone is toxic to humans if ingested in sufficient quantity and is a known mitochondrial complex I inhibitor. The mature seeds are the most concentrated source — they have been traditionally used as fish poison in Mesoamerica.
+
+- **Tuber**: SAFE to eat raw or cooked. The rotenone is present only in above-ground parts.
+- **Seeds**: TOXIC. Do not eat. Can be used to produce rotenone insecticide (crush seeds, extract with water, spray on crops as botanical insecticide — degrades within 24 hours, safe for warm-blooded animals but kills fish and beneficial insects).
+- **Leaves and stems**: TOXIC. Do not consume.
+- **Young pods**: Edible ONLY if thoroughly cooked to destroy rotenone. Boil for at least 20 minutes. Raw pods are toxic.
+- **Flowers**: Avoid consuming.
+
+When growing jicama, remove flower buds to direct the plant's energy into tuber production (this is standard cultivation practice) and to prevent accidental seed consumption. Clearly label jicama plants to warn that only the tuber is edible.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Days to harvest | 90-120 | From sowing |
+| Tuber weight (typical) | 0.5-2 kg | Under good conditions |
+| Tuber weight (maximum) | Up to 20 kg | If allowed to over-mature |
+| Storage temperature | 12-15°C | Do not refrigerate; chilling injury below 10°C |
+| Storage life (whole) | 1-2 months | Cool, dry, unpeeled |
+| Moisture content (tuber) | 86-90% | Very high; very juicy |
+| Vitamin C (tuber) | 20 mg/100g | Good source |
+| Rotenone location | Seeds, leaves, stems | NOT in tuber |
+| Cooking time (boil) | 8-12 min | Cubes; retains some crunch |
+| Cooking time (stir-fry) | 3-5 min | Sliced |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

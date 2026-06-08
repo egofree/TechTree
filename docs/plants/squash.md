@@ -78,6 +78,63 @@ A bristly hairy annual vine in the pumpkin family. It has branched tendrils. The
 
 ### Edible Parts and Preparation
 
+### Harvesting
+
+Winter squash and pumpkins are harvested when the skin hardens and cannot be pierced with a thumbnail — the "thumbnail test." The rind should be firm and the fruit should sound hollow when tapped. A hard rind indicates maturity and is essential for successful storage. Harvest before the first frost, as frost damage destroys the storage potential. Cut the fruit from the vine with 5-8 cm of stem attached — the stem acts as a natural seal against rot organisms. Never carry squash by the stem, as it breaks easily and creates an entry point for decay. Summer squash (zucchini, courgette) is harvested immature when the skin is still soft and seeds are undeveloped, typically 7-8 weeks after planting.
+
+### Curing
+
+Winter squash requires curing to heal harvest cuts, toughen the skin, and convert starches to sugars:
+
+1. Place harvested squash in a warm (25-30°C), dry location with good air circulation.
+2. Arrange in a single layer, not touching, for 10-14 days.
+3. Turn fruit every 2-3 days for even curing.
+4. Curing heals surface scratches, reduces moisture loss during storage, and develops flavor (starch-to-sugar conversion). Properly cured squash has a hard, dry rind that resists fingernail pressure.
+
+### Storage
+
+Cured winter squash stores for 2-6 months under the right conditions:
+
+- **Temperature**: 10-15°C. Below 10°C causes chilling injury (pitting, decay); above 15°C accelerates respiration and weight loss.
+- **Humidity**: 60-70% relative humidity. Too high promotes mold; too low causes shriveling.
+- **Ventilation**: Good air circulation prevents moisture accumulation and fungal growth.
+- **Arrangement**: Single layer on shelves or slatted racks, not stacked. Keep fruits separated.
+- **Inspection**: Check weekly. Remove any squash showing soft spots, mold, or decay immediately — rot spreads rapidly between touching fruits.
+
+Butternut and acorn squash store 2-3 months; Hubbard and kabocha types store 4-6 months.
+
+### Seed Saving
+
+Squash seeds are saved for planting and for food:
+
+1. **Isolation**: Different squash varieties within the same species cross-pollinate readily. Maintain 400 meters separation between varieties of the same species, or hand-pollinate and bag flowers to ensure purity. *Cucurbita pepo* crosses with other *C. pepo* but not with *C. moschata* or *C. maxima*.
+2. **Selection**: Save seed from the best fruits on the most vigorous plants — select for size, flavor, disease resistance, and storage quality.
+3. **Extraction**: Cut open ripe fruit, scoop out seeds and pulp. Ferment in water for 2-3 days (this separates seed from pulp and kills some seed-borne diseases). Viable seeds sink; floating seeds are usually empty.
+4. **Drying**: Wash seeds, spread thinly on screens or newspaper, and dry in a well-ventilated area for 1-2 weeks. Test dryness by snapping — properly dried seeds break rather than bend.
+5. **Storage**: Store in paper envelopes in a cool, dry, dark location. Germination remains viable for 4-6 years.
+
+### Seed Roasting and Oil
+
+Squash seeds are a nutritious food and oil source:
+
+1. **Cleaning**: Separate seeds from pulp, wash thoroughly in water.
+2. **Drying**: Air-dry or roast. For roasting: spread seeds on a tray, optionally salt, and roast at 160°C for 15-20 minutes until golden and fragrant.
+3. **Oil pressing**: Squash seeds contain 34-54% oil. Cold-press dried seeds in a screw press. The oil is semi-drying, light green, with a nutty flavor. Used for cooking and, historically, for lighting.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Harvest maturity | Skin hardens, thumbnail test | Before first frost |
+| Curing temperature | 25-30°C | 10-14 days |
+| Curing duration | 10-14 days | Single layer, good airflow |
+| Storage temperature | 10-15°C | Below 10°C = chilling injury |
+| Storage humidity | 60-70% RH | Prevents mold and shriveling |
+| Storage duration | 2-6 months | Varies by cultivar |
+| Seed isolation distance | 400 m | Between same-species varieties |
+| Seed oil content | 34-54% | Semi-drying oil |
+| Seed roasting temperature | 160°C | 15-20 minutes |
+
 ## Quantitative Parameters
 
 ### Growing Parameters

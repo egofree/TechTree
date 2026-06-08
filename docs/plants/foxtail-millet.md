@@ -78,6 +78,75 @@ An annual millet grass. It grows 1-1.5 m tall. It can be tinged with purple colo
 
 ### Edible Parts and Preparation
 
+**Edible parts**: Seeds (grain), prepared as cooked grain, flour, porridge, or fermented foods.
+
+**Threshing**:
+
+Foxtail millet has a compact, bristly seed head (panicle) 7-25 cm long and 1-5 cm wide. The grain is small (2 mm) and enclosed in a papery husk (palea and lemma) that must be removed before cooking:
+
+1. **Harvest**: Cut seed heads when they turn from green to straw-yellow and the bristles become dry and brittle. Harvest promptly — foxtail millet is prone to shattering if left too long.
+2. **Dry**: Spread cut heads on drying racks or a clean surface in the sun for 2-3 days until thoroughly dry.
+3. **Thresh**: Beat dried heads with a wooden stick or flail on a hard surface. The small grains separate readily — foxtail millet threshes more easily than finger millet because the spikelets are less tightly held. Throughput: 15-25 kg grain/hour by hand. Alternatively, rub the heads between gloved hands (the bristles can irritate bare skin).
+4. **Winnow**: Toss the threshed mixture in a basket in a light breeze. The lightweight chaff and bristles blow away while the grain falls. The bristles are irritating to skin and eyes — wear gloves and work upwind.
+
+**Dehulling (abrasive mill)**:
+
+The grain is enclosed in a thin but tough husk that does not separate during threshing (foxtail millet is a hulled millet, unlike proso millet which is naked). Dehulling is essential for palatability:
+
+1. **Mortar and pestle**: The traditional method. Pound grain in a large wooden mortar with a heavy pestle for 10-15 minutes. The abrasive action loosens the husks. Winnow to separate husks from grain. Recovery: 60-75% dehulled grain. Some breakage occurs. Repeat pounding on partially dehulled grain to increase recovery.
+2. **Abrasive (pearl) mill**: A rotating stone or emery-coated disc that grinds the husks off the grain. This is significantly faster and more efficient: 85-95% dehulling in a single pass at throughputs of 50-100 kg/hour. The mill must be adjusted so the abrasive action removes the husk without grinding into the grain itself. Setting: gap of 1.0-1.5 mm, depending on grain size.
+3. **Rice huller**: A rubber-roller huller designed for rice works well for foxtail millet with minor adjustment. The rollers strip the husk by friction. This is the preferred method when available.
+4. **Test for complete dehulling**: Rub a sample of the grain between wet hands. Fully dehulled grain feels smooth; residual husks feel rough and papery. Inspect visually — dehulled grain is yellowish and glossy; hulled grain appears dull and darker.
+
+Dehulling ratio: approximately 1.3 kg unhulled grain yields 1 kg dehulled grain (23% husk by weight).
+
+**Milling**:
+
+Once dehulled, foxtail millet mills easily into flour:
+
+- **Stone mill (quern)**: Set gap slightly wider than for wheat (the grain is smaller and harder). Single pass produces fine flour. Throughput: 2-4 kg/hour on a hand quern.
+- **Hammer mill**: Fast and efficient with a 0.5 mm screen. Produces uniform fine flour.
+- The flour is pale yellow, slightly sweet, and gluten-free. It has a shorter shelf life than wheat flour due to higher fat content in the bran — store in cool, dry conditions and use within 2-3 months of milling.
+
+**Cooking (1 part grain : 2-3 parts water, 15-20 min)**:
+
+Dehulled foxtail millet cooks quickly and is versatile:
+
+1. **Basic cooked grain**: Rinse 1 part dehulled grain. Bring 2-3 parts water to a boil. Add grain, stir once, and reduce heat to a simmer. Cook 15-20 minutes until water is absorbed and grain is tender. Fluff with a fork. The cooked grain is light, slightly sticky, and has a mild, slightly nutty flavor. It can substitute directly for rice or couscous in most dishes.
+2. **Porridge**: Use 1 part grain to 4-5 parts water. Cook 25-30 minutes until thick and soft. Sweeten with honey or fruit. This is the traditional preparation across northern China.
+3. **Flatbread**: Mix flour with hot water to form a dough. Knead briefly (no gluten development needed or possible). Flatten into thin rounds and cook on a hot griddle 2-3 minutes per side. The bread is dense and crumbly — best eaten fresh.
+4. **Fermented foods**: In China and Korea, foxtail millet is fermented with rhizopus or aspergillus molds to produce fermented pastes and beverages. Soak grain 12 hours, steam until tender, inoculate with a starter culture, and ferment 2-3 days. The fermentation breaks down anti-nutrients and produces a sweet, tangy food.
+
+**Water ratios summary**:
+
+| Preparation | Grain:Water ratio | Cooking time | Result |
+|-------------|-------------------|--------------|--------|
+| Fluffy grain | 1:2 | 15-20 min | Separate, light grains |
+| Sticky grain | 1:1.5 | 15-20 min | Clumping, similar to sticky rice |
+| Porridge | 1:4-5 | 25-30 min | Thick, creamy |
+| Flour paste | 1:8 (flour:water) | 10 min | Smooth, pourable |
+
+### Nutritional and Practical Significance
+
+Foxtail millet was one of the first cereals domesticated, with archaeological evidence from the Peiligang culture in China dating to ~6000 BCE. Its rapid maturation (80-120 days), drought tolerance, and reliable yields on marginal soils made it a foundational crop for early Chinese agriculture before rice and wheat became dominant.
+
+Nutritional advantages: gluten-free (safe for celiac individuals), good protein quality (10-12% protein with favorable amino acid profile), and rich in B vitamins and minerals. The grain contains significant levels of neuroprotective compounds, including several phenolic acids and flavonoids not found in rice or wheat. Per 100g dry grain: 341 kcal, 9.5-12 g protein, 3.3 g fat, 63-67 g carbohydrate.
+
+Foxtail millet is particularly valuable as a short-season catch crop: if a primary crop (wheat, rice, or maize) fails due to drought, pest, or weather, foxtail millet can be planted in its place and produce a grain harvest within 80-100 days. This "insurance crop" role has sustained farming communities across northern China, Central Asia, and the Indian subcontinent for millennia.
+
+### Comparison with Other Millets
+
+| Property | Foxtail | Finger | Pearl | Proso |
+|----------|---------|--------|-------|-------|
+| Grain size (mm) | 2 | 1-2 | 2-3 | 2-3 |
+| Days to maturity | 80-120 | 90-150 | 75-90 | 60-90 |
+| Yield (kg/ha) | 800-1,200 | 450-1,600 | 500-1,500 | 600-1,000 |
+| Dehulling difficulty | Moderate | Easy | Moderate | Easy (naked) |
+| Cooking time (dehulled) | 15-20 min | 25-30 min | 20-25 min | 15-20 min |
+| Protein (%) | 10-12 | 6-8 | 8-12 | 10-12 |
+| Calcium (mg/100g) | 37 | 344 | 42 | 14 |
+| Gluten-free | Yes | Yes | Yes | Yes |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

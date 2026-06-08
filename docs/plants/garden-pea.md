@@ -76,6 +76,33 @@ A short lived herb plant. A creeping plant with white or pink flowers. Plants ca
 
 ### Edible Parts and Preparation
 
+Garden peas are harvested and consumed at multiple maturity stages, each with distinct processing requirements:
+
+**Fresh harvest (immature peas)**: Pick pods when fully swollen but still bright green, before the peas harden and the pod yellows. Snow peas (mangetout types) are harvested flat, before the peas inside develop — eat the entire pod raw or briefly stir-fried. Sugar snap peas combine a crisp, edible pod with sweet immature peas inside; harvest when pods are plump but still turgid. Garden (shelling) peas are harvested when pods are fully swollen — split the pod along the seam and push out the peas. Fresh garden peas cook in 2-5 minutes of boiling: drop into salted boiling water, cook until just tender, drain immediately to prevent overcooking. Fresh peas lose sweetness rapidly after harvest as sugars convert to starch — cook within 2-4 hours of picking for best flavor, or cool immediately in cold water and store at 0-4°C.
+
+**Drying for storage**: Allow pods to mature fully on the vine until they turn brown, dry, and papery. The peas inside rattle when shaken. Pull entire plants and hang upside-down in a dry, well-ventilated area for 1-2 weeks to complete drying if weather is wet. Shell dried peas by hand or by threshing (beat dried plants against a hard surface). Winnow to remove chaff. Properly dried peas are hard, uniform in color, and crack when bitten. Dry to below 14% moisture content for safe long-term storage.
+
+**Storage**: Dried peas store for 2-5 years in airtight containers kept cool, dark, and dry. Check periodically for insect infestation (weevils). Fresh (green) peas can be preserved by drying, but the result is less versatile than fully mature dry peas — fresh peas lose color and texture when dried. Alternatively, freeze-dry or can if the technology is available.
+
+**Cooking dried peas**: Soak dried whole peas in water for 6-12 hours (overnight) to rehydrate, then boil 1-2 hours until tender. Split peas (hulled and split in half along the natural seam) cook faster — 30-45 minutes without pre-soaking. Split pea soup and pease porridge (a thick paste of boiled split peas) are traditional staple dishes. Dried peas can also be ground into pea flour for bread-making, added to soups as a protein supplement, or roasted as a snack.
+
+**Seed saving**: Peas are self-pollinating with a low outcrossing rate (<1%), making seed saving straightforward. Select the healthiest, most productive plants before the main harvest and mark them. Allow pods to dry completely on the vine. Shell and dry seeds to below 12% moisture. Store in paper envelopes or cloth bags in a cool, dry, dark location. Pea seed viability: 3-5 years under good storage conditions. Test germination of saved seed before planting — place 10 seeds between damp cloth at 20°C, count germinations after 7-10 days. Below 70% germination indicates seed should be used at higher sowing density or replaced.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Fresh pea cooking time | 2-5 min | Boiling; stop when just tender |
+| Dried pea soaking time | 6-12 hours | Overnight in cold water |
+| Dried whole pea cooking time | 1-2 hours | After soaking |
+| Split pea cooking time | 30-45 min | No soaking required |
+| Dry-down moisture target | <14% | For storage; test by bite |
+| Seed viability | 3-5 years | Cool, dry, dark storage |
+| Yield (fresh green peas) | 2-5 tonnes/ha | Shelled weight |
+| Yield (dry peas) | 1-3 tonnes/ha | Depends on variety and conditions |
+| Protein content (dry seed) | 20-25% | By weight |
+| Nitrogen fixation | 50-100 kg/ha | Annual contribution to soil |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

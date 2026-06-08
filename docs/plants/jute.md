@@ -78,6 +78,90 @@ An annual herb. It is upright, branching, and slightly woody. Plants vary in hei
 
 ### Edible Parts and Preparation
 
+### Fiber Harvesting for Jute
+
+Jute is the highest-yielding bast fiber crop: 1,500-2,500 kg/ha dry fiber under tropical conditions. The two cultivated species — *Corchorus capsularis* (white jute) and *C. olitorius* (tossa jute) — are processed identically for fiber. Tossa jute (*C. olitorius*) produces stronger fiber; white jute (*C. capsularis*) is easier to ret and produces whiter fiber.
+
+**Harvest timing**: Cut stems at ground level before pod formation, typically 90-120 days after sowing when lower leaves begin to yellow and shed. Harvesting after pod formation reduces fiber quality — the stems become woody and the fiber coarse and brittle. The optimal window is narrow: 5-7 days between acceptable quality and over-maturity. Plants grow 2-4 m tall at harvest for fiber varieties (Textilis Group).
+
+**Cutting**: Use a sickle or sharp knife to cut stems close to the ground. Discard the top 20-30 cm (thin, weak fiber) and the root end (contaminated with soil). Cut stems into uniform lengths of 1.5-2.5 m. Tie into bundles of 20-30 stems for retting. Remove leaves by hand or by beating bundles against the ground — leaves reduce retting efficiency and stain fiber.
+
+### Water Retting
+
+Jute is exclusively water-retted (dew retting does not work well for jute due to the thick, succulent stems that require sustained moisture). The retting process is the single most important quality-determining step:
+
+**Location**: Stagnant or slow-moving water at 25-35°C — ponds, roadside ditches, flooded fields, or slow rivers. Still water produces better results than fast-flowing water because the anaerobic bacteria responsible for pectin decomposition thrive in stagnant conditions.
+
+**Duration**: 5-15 days depending on water temperature, stem thickness, and the maturity of the jute:
+
+| Water temperature | Duration | Notes |
+|-------------------|----------|-------|
+| 20-25°C | 12-15 days | Cool conditions, slow retting |
+| 25-30°C | 8-12 days | Standard tropical conditions |
+| 30-35°C | 5-8 days | Warm water, fast retting |
+
+**Method**: Submerge bundles in water, weighting them down with bamboo poles, stones, or earth to prevent floating. Ensure stems are fully immersed — exposed portions will not ret properly. Check readiness after 5 days by bending a stem and attempting to pull fiber from the woody core. The fiber should slip free easily, separating cleanly in a long ribbon. If it requires force, retting is incomplete. If the fiber feels weak, mushy, or discolored, it is over-retted. Check every 2 days after the first test.
+
+**Critical quality factors**: Over-retting is the most common cause of quality loss — fibers become weak (tensile strength drops below 400 MPa) and discolored (dark brown or black). Under-retting produces coarse, stiff fiber with adhering bark fragments. The retting water becomes anaerobic and foul-smelling; locate retting ponds away from drinking water sources.
+
+### Stripping, Washing, and Drying
+
+After retting, the fiber must be extracted from the stems and prepared for use:
+
+1. **Stripping**: Stand in the retting water or on the pond bank. Take a retted stem, snap the woody core at a point 30-40 cm from the root end, and grip the exposed fiber. Pull the fiber ribbon upward, peeling it away from the woody core in long strips. Each stem yields 4-6 fiber ribbons. Alternatively, beat the retted stems with a wooden mallet to loosen the fiber, then strip by hand. Skilled strippers process 30-40 kg dry fiber per day.
+
+2. **Washing**: Rinse stripped fiber thoroughly in clean water to remove residual bark, pectin slime, and woody fragments. Agitate by hand or by dragging fiber through flowing water. Clean fiber is light golden-brown; dirty or stained fiber indicates insufficient washing or dirty retting water.
+
+3. **Drying**: Spread washed fiber in thin layers on bamboo racks, fences, or clean ground in full sun. Turn periodically for even drying. Drying time: 2-3 days in sunny weather, longer if overcast. Fiber is adequately dry when it snaps when bent sharply. Moisture content should be below 14% for storage. Never dry fiber directly on soil — it picks up dirt and stains.
+
+4. **Grading**: Sort dried fiber by quality for trade and use:
+
+| Grade | Color | Strength | Length | Use |
+|-------|-------|----------|--------|-----|
+| Grade A (Superior) | Light golden, uniform | Strong, pliable | 1.5-4 m | Fine sacking, carpet backing |
+| Grade B (Good) | Golden to light brown | Good strength | 1.0-3 m | Standard burlap, bags |
+| Grade C (Fair) | Brown, some discoloration | Moderate | 0.5-2 m | Coarse sacking, twine |
+| Grade D (Inferior) | Dark brown, stained | Weak, brittle | <1 m | Paper pulp, compost |
+
+Grade is assessed by visual inspection (color, cleanliness), hand-feel (strength, flexibility), and length measurement. Skilled graders sort 200-300 kg per day.
+
+### Jute Stick Byproduct
+
+The woody core remaining after fiber extraction — jute sticks — constitutes 4-5 tonnes/ha. Uses include:
+- **Fuel**: Jute sticks burn well with calorific value of 15-17 MJ/kg, used for cooking fires and brick kilns
+- **Fencing**: Dried sticks are sturdy enough for light fencing and garden supports
+- **Charcoal**: Carbonize in earth kilns for cooking fuel
+- **Particleboard**: Chip and bind with resin for low-cost building panels
+
+### Edible Leaves (Jute Mallow)
+
+*Corchorus olitorius* is widely cultivated across Africa, the Middle East, and South Asia as a leaf vegetable (jute mallow, ewedu, mloukhiyeh). The leaves are nutritionally significant:
+
+- **Harvesting**: Pick young leaves and stem tips (20-30 cm) beginning 5-6 weeks after planting. Continue harvesting every 2-3 weeks for 3-4 months, yielding 7-8 kg leaf tips per 10 m² per season (7-8 tonnes/ha).
+- **Preparation**: Cook leaves like spinach — boil, steam, or add to soups and stews. Leaves become mucilaginous (slimy) when cooked, valued as a natural thickener in soups. In Egypt, mloukhiyeh is a national dish of cooked jute leaves in coriander-garlic broth served over rice.
+- **Nutrition** (per 100g raw leaves): 58 kcal, 4.5 g protein, 6,410 μg vitamin A, 80 mg vitamin C, 7.2 mg iron. Rich in folate, calcium, and potassium.
+- **Drying**: Sun-dry leaves for storage. Dried leaves are ground into flour used as a soup thickener, extending availability year-round.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Dry fiber yield | 1,500-2,500 kg/ha | Highest of any bast fiber crop |
+| Growing cycle | 90-120 days | Cut before pod formation |
+| Water retting at 25-30°C | 8-12 days | Stagnant or slow-moving water |
+| Water retting at 30-35°C | 5-8 days | Warm water |
+| Stripping rate | 30-40 kg dry fiber/person/day | Skilled worker |
+| Sun drying time | 2-3 days | Full sun, thin layers |
+| Jute stick yield | 4,000-5,000 kg/ha | Woody core byproduct |
+| Fiber tensile strength | ~400 MPa | Weaker than hemp or flax |
+| Fiber length | 1-4 m | Bundle length from stripping |
+| Leaf tip yield | 7-8 tonnes/ha | Over 3-4 months of harvesting |
+| Leaf vitamin A (raw) | 6,410 μg/100g | Extremely high |
+| Leaf vitamin C (raw) | 80 mg/100g | Comparable to citrus |
+| Leaf protein (raw) | 4.5 g/100g | Good for a leaf vegetable |
+| Required rainfall | 1,500-2,500 mm | Tropical monsoon climate |
+| Optimal temperature | 25-35°C | During growing season |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

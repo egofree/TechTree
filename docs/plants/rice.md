@@ -77,7 +77,75 @@ A tropical plant. It grows in tropical and subtropical countries. Plants are gro
 
 An annual grass with hollow stems. The stems can be 30 cm to 150 cm tall. (Floating varieties can be 5 m long.) The nodes are solid and swollen. The stem is protected by a skin layer which can often be high in silicon. A clump of shoots are produced as tillers from buds in the lower leaf axils. The leaves are narrow and hairy. They taper towards the tip. Each stem produces 10-20 leaves and the seeds hang from the flower stalk at the top. Some varieties are glutinous and cling together when cooked.
 
+### Harvesting
+
+Rice is ready for harvest when the panicles (grain heads) turn from green to golden-yellow and individual grains are hard when bitten. The optimal harvest window is narrow — harvest too early and grains are underfilled; harvest too late and heavy losses occur from shattering (grains dropping naturally).
+
+1. Cut rice stalks at 15-20 cm above ground with a sickle or harvesting knife. Traditional method: grasp a handful of stalks and cut with a single stroke.
+2. Lay cut stalks in the field (stooks) for 1-3 days to dry, turning once. In wet climates, dry on raised racks. Target: grain moisture below 20% before threshing.
+3. For paddy rice: drain the field 2-3 weeks before harvest to allow soil to dry and grains to mature evenly.
+
+### Threshing
+
+Separate grain from stalks:
+
+1. **Hand beating**: The simplest method. Grasp bundles of stalks and beat the grain heads against a hard surface (wooden plank, stone, log edge) or beat with a wooden flail. Throughput: 20-50 kg/hour.
+2. **Treading**: Spread stalks on a hard surface and drive oxen, horses, or walk over them in circles. The weight separates grain from panicles. Throughput: 100-200 kg/hour.
+3. **Flailing**: Use a wooden flail (two sticks connected by a leather thong or rope) to beat the spread stalks. Throughput: 50-100 kg/hour.
+
+### Winnowing
+
+Separate grain from chaff (empty husks, stalk fragments, dust):
+
+1. Pour the threshed mixture from shoulder height (1.5-2 m) in a light breeze using a wide, shallow basket or winnowing tray.
+2. Chaff and light debris blow away; heavy grain falls into a collecting basket or on a clean tarp.
+3. Repeat 3-5 times until grain is visibly clean with minimal chaff.
+4. For calm conditions: use a woven fan or winnowing basket tossed with a flicking motion to create airflow. Alternatively, wait for a breezy period (typically morning or evening in most regions).
+
+### Hulling (Dehusking)
+
+Rice grain as harvested (paddy rice or rough rice) is enclosed in a tough, inedible husk (hull) that constitutes 18-22% of grain weight. Hulling removes this husk to produce brown rice:
+
+1. **Mortar and pestle**: Place a quantity of paddy rice in a large wooden or stone mortar. Pound with a heavy pestle using a circular motion for 5-10 minutes. The impact cracks the husks. Winnow to separate the loosened husks from the brown rice. Repeat for unhusked grains. Yield: 60-70% husked per pass. Multiple passes needed.
+2. **Stone/rotary dehusker**: Pass paddy rice between two abrasive surfaces (stone, rubber, or emery) set at a gap slightly smaller than the grain. The friction strips the husk without cracking the grain. Winnow after dehusking. More efficient than mortar method — 85-90% dehusked per pass.
+3. **Foot-powered treadle dehusker**: A reciprocating pestle mechanism powered by a foot treadle. Processes 20-30 kg/hour with less labor than hand pounding.
+
+The product after hulling is **brown rice** — whole grain with the bran layer intact. Brown rice retains the highest nutritional value: ~7.6g protein, 2.8mg iron, and significant B vitamins per 100g dry weight.
+
+### Polishing (Whitening)
+
+Polishing removes the bran layer (pericarp, aleurone, germ) from brown rice to produce white rice:
+
+1. Pass brown rice through a stone mill or abrasive polisher with the plates set to abrade the outer layers. The bran is scraped off as a fine powder.
+2. Sift to separate bran from polished grain. The bran constitutes 6-8% of brown rice weight.
+3. Multiple passes (2-4) produce progressively whiter rice. Each pass removes more bran but also more nutrients.
+4. **Polishing degree**: Lightly milled (most bran retained, tan color) to fully polished (all bran removed, white). Fully polished rice stores better (bran oils become rancid) but has significantly less nutritional value — approximately 30-50% loss of protein, fiber, B vitamins, and minerals compared to brown rice.
+
+White rice yield from paddy: approximately 65-68% by weight (22% hull + 6-8% bran + 4-5% polishing loss).
+
+### Cooking
+
+Both brown and white rice cook by absorption:
+
+**White rice**: Rinse rice in cold water until water runs clear (removes surface starch). Combine rice and water at 1:1.5 ratio (1 cup rice to 1.5 cups water) in a pot. Bring to a boil, reduce to lowest heat, cover tightly. Simmer 15-20 minutes. Remove from heat, let stand covered 5 minutes. Fluff with fork. Do not lift lid during cooking.
+
+**Brown rice**: Same method but 1:2 ratio and simmer 35-45 minutes. The bran layer requires longer to soften.
+
+**Glutinous (sticky) rice**: Soak in cold water for 4-8 hours (or overnight). Drain, wrap in muslin or banana leaf, and steam for 20-30 minutes. No absorption method — glutinous rice requires steaming.
+
+### Straw and Byproduct Uses
+
+Rice straw (the stalks after threshing) is a valuable co-product:
+
+- **Thatching**: Rice straw is durable and water-resistant when layered. Bundle and tie straw to roof rafters in overlapping layers. A well-thatched rice straw roof lasts 3-5 years.
+- **Fuel**: Dry straw burns readily. Use for cooking fires, brick kilns, and pottery firing. Calorific value: 13-15 MJ/kg (dry).
+- **Fiber and paper**: Straw can be pulped for papermaking (soak in alkali, beat to fibrillate, form sheets). Also woven into mats, sandals, bags, and rope.
+- **Animal feed and bedding**: Straw provides low-nutrition roughage for ruminants. Better used as bedding and then composted with manure.
+- **Compost and mulch**: Return straw to fields as organic matter. Compost with animal manure for 3-6 months before application. Rice husks (from hulling) can be used as a soil amendment, fuel (high silica content makes ash useful as a pozzolan for mortar), or abrasive.
+
 ### Edible Parts and Preparation
+
+Seeds (grain) are the primary edible product. Rice must be hulled before consumption — the husk is fibrous, indigestible, and irritating to the digestive tract. Brown rice (bran intact) is more nutritious; white rice (polished) stores longer. Rice is the primary calorie source for over 3 billion people, providing ~360 kcal/100g (dry) and 6-8% protein.
 
 ## Quantitative Parameters
 

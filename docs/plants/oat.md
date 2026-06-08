@@ -76,6 +76,81 @@ An annual grass plant and cereal with an open spreading flower head. It can grow
 
 ### Edible Parts and Preparation
 
+#### Harvesting
+
+Oats are unique among cereals in that the grain is typically cut while still slightly immature and then allowed to ripen in the windrow (swath). This prevents shattering losses and produces higher-quality grain:
+
+1. **Swathing (cutting)**: Cut the oat crop with a sickle, scythe, or swather when kernel moisture reaches approximately 35% (late milk to early dough stage). The panicles should still have a greenish tint and the straw is slightly green, not fully yellow. At this stage, the kernels are plump but not yet brittle.
+2. Lay cut stalks in rows (windrows) on the stubble to dry. The stubble elevates the windrow off the ground, allowing air circulation underneath.
+3. Allow the windrows to dry for 3-7 days in dry weather. The grain continues to mature (after-ripening) while drying. Target kernel moisture: below 14% for safe storage.
+4. If direct-heading (cutting and threshing in one pass, as with a combine), wait until the straw has lost all greenness and the glumes have turned white. This is riskier — late-harvested oats shatter easily.
+
+#### Threshing and Cleaning
+
+1. **Hand threshing**: Beat the dried oat panicles against a hard surface or flail with a wooden stick. The loose hulls (chaff) and grain separate from the straw.
+2. **Treading**: Spread the windrowed oat sheaves on a hard floor and drive livestock (oxen, horses) in circles over them. Throughput: 100-200 kg/hour.
+3. **Winnowing**: Toss the threshed mixture into a light breeze from a wide, shallow basket. The light chaff blows away while the heavier oat groats (hulled kernels) fall straight down. Repeat 3-5 times until clean.
+4. The resulting product is **whole oat grain with hulls attached**. Covered oat varieties (the majority) retain a tough, fibrous hull tightly encasing the groat. This hull is inedible and must be removed.
+
+#### Dehulling
+
+Removing the oat hull is more difficult than for wheat or rice because the hull is tightly fused to the groat. Several methods work:
+
+1. **Steam-and-roll method** (most practical at basic technology levels):
+   - Steam whole oat grains for 10-20 minutes to soften the hull and partially gelatinize the groat surface.
+   - Pass the steamed grain through a roller (two smooth stone or iron cylinders rotating toward each other). The roller cracks the hull and flattens the groat slightly.
+   - Winnow or sift to separate the lighter hull fragments from the heavier groats. A sieve with 2-3 mm openings retains groats while hull fragments pass through.
+   - Dehulling efficiency: 80-90% in a single pass. Re-steam and re-roll the fraction that still has hulls attached.
+
+2. **Abrasive dehulling** (traditional stone mill method):
+   - Pass grain through a stone mill set with a wide gap (wider than for flour milling). The abrasive action of the stones scrapes off the hulls without crushing the groat.
+   - Sieve and winnow to separate. Losses are higher (10-15% of groats broken), but the method requires only a standard stone mill.
+
+3. **Impact dehulling**: Hit the grains against a hard surface at high speed. Used in mechanized operations but not practical at basic technology levels.
+
+Yield: 60-70% of the whole oat grain weight is groat (edible kernel). The remaining 30-40% is hull, which is useful as fuel (heating value ~16 MJ/kg dry), animal feed roughage, or mulch.
+
+#### Rolling and Flour Production
+
+1. **Rolled oats**: Steam cleaned groats for 15-30 minutes to soften them. Pass through a roller to flatten into flakes 0.5-1 mm thick. The steaming partially cooks the groat (gelatinizes starch), making rolled oats quicker-cooking than raw groats. Rolled oats store well for 6-12 months in dry, sealed containers.
+2. **Steel-cut (Irish) oats**: Chop groats into 2-4 pieces with a heavy blade or stone mill set to a coarse crush. Takes longer to cook than rolled oats but produces a chewier, more flavorful porridge.
+3. **Oat flour**: Grind groats on a stone mill to a fine powder (particle size below 0.2 mm). Oat flour is naturally gluten-free (or very low gluten) and produces dense, moist baked goods. It does not rise well in yeast breads but makes excellent flatbreads, biscuits, and porridge.
+4. **Oat bran**: The outer layer of the groat, separated by sieving after coarse grinding. Rich in soluble fiber (β-glucan), which has demonstrated cholesterol-lowering effects. A health-promoting food additive.
+
+#### Storage
+
+Oats have a higher fat content than wheat or rice (5-9% vs. 1.5-2%), which makes them more prone to rancidity in storage. The intact hull protects the groat during storage, so store as whole grain (with hulls) and dehull only as needed:
+
+- **Whole grain (hulled)**: Below 14% moisture, cool and dry. 1-2 years in sealed containers. The hull provides physical protection and slows oxidation.
+- **Rolled oats**: 6-12 months. The increased surface area from rolling accelerates rancidity.
+- **Oat flour**: 3-6 months. Grind small batches as needed rather than storing large quantities.
+- **Seed oats**: Same conditions as food oats, but select from the best-yielding plants. Test germination before planting — below 85% germination rate indicates seed should be used for food and fresh seed obtained.
+
+#### Oat Straw
+
+After threshing, the oat straw has significant value beyond the grain:
+
+- **Animal feed**: Oat straw is more palatable and nutritious than wheat straw (higher protein, softer stems). Use as winter fodder for cattle, sheep, and goats.
+- **Mulch**: Spread 5-10 cm thick around plants to suppress weeds and retain soil moisture. Avoid using oat straw as mulch near strawberries (transmits stem and bulb eelworm).
+- **Thatching**: Oat straw is a traditional thatching material for roofs. Bundle straw into tight bundles (yealms) and layer from eaves to ridge, securing with wooden pegs.
+- **Biomass fuel**: Burn directly in cooking fires. Heating value ~15 MJ/kg dry.
+- **Bedding**: Absorbent and comfortable bedding for livestock.
+
+#### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Swathing moisture | ~35% kernel moisture | Greenish panicles |
+| Windrow drying time | 3-7 days | To below 14% moisture |
+| Groat yield (by weight) | 60-70% | Of whole oat grain |
+| Hull fraction | 30-40% | Fibrous, inedible but useful |
+| Steaming time (dehulling) | 10-20 minutes | Before rolling |
+| Oat fat content | 5-9% | Higher than wheat, prone to rancidity |
+| Whole oat storage | 1-2 years | In hull, below 14% moisture, cool/dry |
+| Rolled oat storage | 6-12 months | Higher surface area, faster rancidity |
+| Oat flour storage | 3-6 months | Grind as needed |
+| Straw heating value | ~15 MJ/kg (dry) | Comparable to other cereal straws |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

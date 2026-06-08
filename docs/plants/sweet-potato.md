@@ -75,6 +75,76 @@ Ipomoea batatas is a PERENNIAL CLIMBER growing to 3 m (9ft 10in) at a fast rate.
 
 ### Edible Parts and Preparation
 
+### Harvesting
+
+Harvest sweet potato roots when leaves begin to yellow and before the first frost kills the vines — typically 90-150 days after planting, depending on variety and climate. Frost-damaged roots do not store. Cut vines at ground level 2-3 days before digging to let skins begin to set. Dig carefully with a fork or spade, starting 30 cm from the plant center to avoid stabbing roots. Handle roots gently — even minor skin abrasions provide entry for decay organisms during storage. Sort at harvest: separate damaged, cut, or diseased roots for immediate use, and reserve unblemished roots for storage. Yield: 10-40 tonnes per hectare depending on variety and conditions.
+
+### Curing
+
+Curing is essential for storage. It heals harvest wounds, thickens the skin, and converts starches to sugars for sweeter flavor:
+
+1. Place roots in a warm (29-32°C), humid (85-90% relative humidity) environment for 5-10 days.
+2. Good air circulation prevents condensation and mold. Stack roots loosely in crates or on racks, not in deep piles.
+3. During curing, a suberized (corky) layer forms over cuts and abrasions, sealing them against infection. The starch-to-sugar conversion improves sweetness.
+4. After curing, the roots are ready for storage or immediate use. Uncured roots lose moisture rapidly and decay quickly.
+
+A simple curing structure: a small room or pit lined with straw, heated with a fire or hot water containers, with damp burlap covering the roots to maintain humidity.
+
+### Storage
+
+Store cured roots at 13-15°C and 85% relative humidity:
+
+- **Temperature is critical**: Below 10°C causes chilling injury (hard core, off-flavors, decay). Above 15°C accelerates sprouting and weight loss. Never refrigerate sweet potatoes.
+- **Humidity**: 85-90% prevents excessive weight loss through shriveling.
+- **Ventilation**: Gentle air movement prevents condensation. Pack in crates or slatted bins, not sealed containers.
+- **Duration**: Properly cured and stored sweet potatoes keep for 4-7 months. Inspect monthly and remove any showing soft spots or sprouting.
+- **Pit storage**: In warm climates, store in underground pits lined with straw, covered with soil and a waterproof cap. The earth provides stable temperature and humidity.
+
+### Cooking
+
+Sweet potatoes are prepared by boiling, baking, frying, or steaming:
+
+- **Baking**: Whole roots at 190°C for 45-60 minutes (until tender when pierced with a fork). Skin can be eaten. Baking maximizes sweetness through continued starch-to-sugar conversion.
+- **Boiling**: Peel and cube, boil 20-30 minutes until tender. Boiling is faster but leaches some water-soluble nutrients.
+- **Frying**: Slice into chips or strips, deep fry at 175°C for 3-5 minutes.
+- **Steaming**: Whole or sliced, steam 25-35 minutes. Preserves nutrients better than boiling.
+
+### Flour Production
+
+Sweet potato flour extends storage life and provides a versatile ingredient:
+
+1. Wash, peel, and slice roots into thin (3-5 mm) chips.
+2. Sun-dry for 2-4 days or dry at 60°C for 12-18 hours until brittle (below 10% moisture).
+3. Mill dried chips in a hammer mill or stone mill. Sieve to desired fineness.
+4. Store in airtight containers. Sweet potato flour is gluten-free and can be used for porridge, flat breads, and as a thickener. Protein content is low (2-4%).
+
+### Slip Propagation
+
+Sweet potatoes are propagated vegetatively from slips (vine cuttings) grown from stored roots:
+
+1. **Bed roots**: In early spring, plant small to medium-sized cured roots in a bed of moist sand or fine soil, burying them halfway. Space 10-15 cm apart.
+2. **Warm and water**: Maintain at 24-28°C with consistent moisture. Slips emerge in 7-14 days.
+3. **Harvest slips**: When shoots reach 20-30 cm tall (2-3 weeks), gently twist or cut them from the mother root. Each root produces 10-15 slips over multiple harvest cycles at 7-day intervals.
+4. **Plant slips**: Plant directly in the field, burying the lower two-thirds of each slip. Root within 5-7 days under warm, moist conditions. Space 30-40 cm apart in rows 75-100 cm apart.
+
+Alternatively, take vine cuttings (30-40 cm) from established plants during the growing season and plant directly — these root quickly and produce a crop in 60-90 days. Vine cuttings are the standard propagation method in tropical areas where continuous growth is possible.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Harvest timing | 90-150 days after planting | When leaves yellow, before frost |
+| Curing temperature | 29-32°C | With 85-90% humidity |
+| Curing duration | 5-10 days | Heals cuts, sweetens roots |
+| Storage temperature | 13-15°C | Below 10°C = chilling injury |
+| Storage humidity | 85% RH | Prevents shriveling |
+| Storage duration | 4-7 months | After proper curing |
+| Baking temperature | 190°C | 45-60 minutes |
+| Boiling time | 20-30 minutes | Peeled and cubed |
+| Flour drying temperature | 60°C | 12-18 hours |
+| Slip emergence | 7-14 days | At 24-28°C |
+| Slip length at harvest | 20-30 cm | Each root produces 10-15 slips |
+
 ## Quantitative Parameters
 
 ### Growing Parameters

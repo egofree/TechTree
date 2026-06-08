@@ -78,6 +78,49 @@ An annual plant which grows up to 60-150 cm high. It is 20 cm across. The leaves
 
 ### Edible Parts and Preparation
 
+### Latex Harvesting (Lancing Technique)
+
+Opium is the dried latex obtained from the unripe seed capsules (pods) of *Papaver somniferum*. The lancing technique is a skilled manual process developed over thousands of years:
+
+1. **Timing**: Lance pods 7-14 days after the petals fall, when the pods are fully formed but still green and turgid. The pods should be 2-5 cm in diameter. If lanced too early, latex yield is low; if too late, alkaloid content drops as the plant redirects resources to seed development.
+2. **Lancing tool**: Use a 3-blade lancing knife (called a *nushtar* in traditional practice) — three parallel blades set 2-3 mm apart, each blade 1-2 mm in depth. This makes 3 simultaneous cuts in one stroke. Alternatively, use a single-blade knife for more controlled incisions.
+3. **Making the incisions**: Score the pod surface with shallow cuts 1-2 mm deep, taking care **not to penetrate through the pod wall** into the interior seed chamber. Make 2-4 cuts per pod, typically vertical or slightly spiral cuts from top to bottom. The cuts should be spaced evenly around the pod. A skilled worker can lance 200-400 pods per hour.
+4. **Latex exudation**: Within minutes of lancing, milky white latex oozes from the cuts and begins to coagulate in the air. The latex darkens to brown as it oxidizes and dries. Leave the latex to dry on the pods overnight (12-24 hours).
+5. **Scraping**: The next morning, when the latex has dried to a dark brown, gummy consistency, scrape it off the pods with a blunt knife or thin metal blade. Each pod yields 20-50 mg of dried latex. Collect the scraped opium in a container.
+6. **Ball formation**: Knead the collected latex by hand to form uniform balls or cakes. Wrap in leaves or paper and dry in the shade for several days. The opium darkens further to near-black. Store in airtight containers away from light, heat, and moisture.
+
+### Alkaloid Extraction from Opium Latex
+
+Raw opium latex contains a complex mixture of alkaloids. The primary alkaloids and their approximate concentrations in dried latex:
+
+| Alkaloid | Concentration | Primary Use |
+|----------|--------------|-------------|
+| Morphine | 10-16% | Potent analgesic, pain management |
+| Codeine | 0.7-2.5% | Mild analgesic, cough suppressant |
+| Thebaine | 1-3% | Precursor for semi-synthetic opioids (oxycodone) |
+| Papaverine | 0.5-1.5% | Smooth muscle relaxant (vasodilator) |
+| Noscapine | 2-8% | Cough suppressant (non-narcotic) |
+
+**Simple morphine extraction** (traditional method):
+1. Dissolve opium in warm water (3-4 parts water to 1 part opium) and stir. Morphine is slightly soluble in water.
+2. Filter through cloth to remove insoluble plant material.
+3. Add calcium hydroxide (slaked lime) to raise pH to 9-10. Morphine precipitates as calcium morphenate.
+4. Filter the precipitate and wash with water.
+5. Dissolve the precipitate in dilute hydrochloric acid to form morphine hydrochloride.
+6. Re-crystallize by adjusting pH. Repeat purification steps for higher purity.
+
+### Poppy Seed Processing (Culinary)
+
+Poppy seeds for culinary use are harvested from fully mature, dry pods — a different harvest timing than latex collection:
+
+1. **Harvesting seeds**: Allow pods to fully mature and dry on the plant (6-8 weeks after flowering). The pods turn brown and dry, and the small vents below the cap open. Cut entire plants at ground level.
+2. **Threshing**: Shake or beat the dry pods to release seeds through the vent openings. At scale, pass dry pods through a thresher. Seeds are separated from chaff by winnowing.
+3. **Washing (critical)**: Wash seeds thoroughly in water to remove any residual latex (which contains alkaloids) from the seed surface. This is why commercial poppy seeds are safe to eat despite coming from the opium poppy. Multiple washes with clean water are recommended.
+4. **Drying**: Dry washed seeds to below 10% moisture on clean racks.
+5. **Oil pressing**: Poppy seeds contain 44-50% oil. Cold press at temperatures below 50°C to produce a light, pleasant-tasting oil used as a salad and cooking oil. The oil is a semi-drying oil suitable for artist's paints and soap making.
+
+> **Legal/Safety Note**: Morphine, codeine, and other opium alkaloids are **controlled substances** in most jurisdictions worldwide. Opium production (latex harvesting for alkaloid extraction) is illegal in many countries without specific government authorization. Culinary poppy seed cultivation for seed and oil production is generally legal in temperate climates where the plant does not produce sufficient alkaloids for extraction. Always verify local regulations before cultivating *Papaver somniferum*.
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -129,9 +172,12 @@ Key scaling challenges include maintaining genetic diversity at plantation scale
 
 ## Safety Considerations
 
+> **LEGAL WARNING**: Morphine, codeine, and other opium alkaloids are **controlled substances** under international law (UN Single Convention on Narcotic Drugs, 1961). Opium production (latex harvesting for alkaloid extraction) is **illegal in most countries** without specific government authorization. Cultivation for ornamental or seed production may be restricted. Verify all local, national, and international regulations before cultivating *Papaver somniferum*. Penalties for illegal cultivation can include imprisonment.
+
 Working with *Papaver somniferum* involves the following hazards:
 
-- **Toxicity**: Parts of this plant may contain compounds that are toxic when raw or improperly prepared. Always follow proper preparation procedures before consumption. Verify with multiple authoritative sources.
+- **Toxicity — Opiate Alkaloids**: The latex (opium) from unripe pods contains morphine (10-16%), codeine (0.7-2.5%), thebaine (1-3%), and other alkaloids. Morphine is a potent narcotic: a dose of 60-120 mg can cause fatal respiratory depression in opiate-naive individuals. The latex and its derivatives are highly addictive. Chronic use leads to tolerance, dependence, and potentially fatal withdrawal. Latex harvesting should only be performed by trained personnel under legal authorization. The seeds themselves contain negligible alkaloids (<0.005% morphine) and are safe for culinary use after washing.
+- **Latex skin contact**: Fresh latex can be absorbed through broken skin. Wear gloves when handling unripe pods. Avoid touching eyes or mouth after contact with latex.
 - Tool injuries during harvest and processing — use sharp tools in good condition and cut away from the body
 - Allergic reactions to plant compounds — sensitive individuals should test small quantities first
 - Sun exposure and heat stress during field work — schedule heavy work for early morning or late afternoon

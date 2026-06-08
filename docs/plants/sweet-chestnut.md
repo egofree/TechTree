@@ -78,6 +78,66 @@ A large deciduous tree up to 30-40 m high. It spreads to 6-15 m across. The stem
 
 ### Edible Parts and Preparation
 
+### Harvesting
+
+Sweet chestnuts are harvested by gathering fallen nuts from the ground in autumn (September-November in the Northern Hemisphere). The spiny burrs split open when ripe, releasing the nuts. Wear heavy gloves — the burrs are extremely spiny. Harvest daily to prevent moisture loss, rodent damage, and fungal infection. Shake branches gently to dislodge ripe nuts that have not yet fallen. Discard any nuts with holes (weevil damage), cracks, or mold. Fresh chestnuts are approximately 50% moisture and do not store well unless processed. Yield: mature trees (20+ years) produce 30-100 kg of nuts per year.
+
+### Peeling
+
+Chestnuts have two layers to remove: the hard outer shell and the bitter inner pellicle (skin):
+
+1. **Score**: Cut an X through the shell on the flat side of each nut using a sharp knife. This prevents explosion during cooking and allows steam to loosen the skin.
+2. **Roast method**: Place scored nuts on a tray and roast at 200°C for 15-20 minutes until the shells curl back at the X cuts. Peel while still hot — the shell and skin come off together. Roasted chestnuts have a sweet, floury texture.
+3. **Boil method**: Place scored nuts in boiling water for 15 minutes. Remove a few at a time and peel while hot. Boiling produces a softer texture suitable for purees and stuffings.
+4. **Steam method**: Steam scored nuts for 15-20 minutes. Peels easily and preserves more nutrients than boiling.
+
+The key to successful peeling is heat — if chestnuts cool, the inner skin re-adheres. Work in small batches and keep unpeeled nuts warm.
+
+### Drying for Storage
+
+Fresh chestnuts are perishable (weeks at most). Drying extends storage to a year or more:
+
+1. Spread peeled or unpeeled nuts in a single layer on drying racks.
+2. Dry at 50-60°C in an oven, dehydrator, or over a low fire for 2-3 days. Alternatively, sun-dry for 5-7 days in hot, dry weather, bringing nuts indoors at night to prevent moisture re-absorption.
+3. Nuts are fully dry when they are hard, rattle when shaken, and weigh approximately one-third of their fresh weight (moisture below 10%).
+4. Store dried chestnuts in airtight containers in a cool, dry place. Dried chestnuts must be soaked or ground before use.
+
+### Flour Production
+
+Dried chestnuts are ground into a naturally sweet, gluten-free flour:
+
+1. Ensure chestnuts are fully dried (below 10% moisture).
+2. Grind in a stone mill, hammer mill, or mortar. Sieve through a fine mesh (1 mm) to remove coarse particles.
+3. Re-grind coarse material and sieve again. Chestnut flour is finer and sweeter than wheat flour, with a slightly nutty flavor.
+4. Store in airtight containers in a cool, dry place. The high fat content (3-5%) means flour can go rancid — use within 3-6 months or refrigerate.
+5. Use for breads (castagnaccio), pancakes, pasta, thickening soups, and desserts. Chestnut flour has no gluten, so it does not rise — combine with wheat flour for leavened breads.
+
+### Bark Tannin Extraction
+
+Sweet chestnut bark, wood, and seed husks contain significant tannins used for leather tanning:
+
+- **Bark**: 6.8% tannin on a dry weight basis (lower than black wattle at 30-40%, but still useful).
+- **Wood**: 13.4% tannin in heartwood chips — actually richer than the bark.
+- **Seed husks**: 10-13% tannin. The spiny husks, normally a waste product, are a concentrated tannin source.
+
+To extract: steep milled bark or wood chips in water (1:5 ratio by weight) for 24-48 hours. The resulting tannin liquor is used for leather tanning (see [Black Wattle](./acacia-mearnsii.md) for the full tanning process). Chestnut tannins are hydrolyzable (ellagitannins), producing leather with a darker brown color and softer hand than wattle-tanned leather.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Nut yield per tree | 30-100 kg/year | Mature tree (20+ years) |
+| Fresh nut moisture | ~50% | Perishable without drying |
+| Roasting temperature | 200°C | 15-20 minutes, scored nuts |
+| Boiling time (peeling) | 15 minutes | Score before boiling |
+| Drying temperature | 50-60°C | 2-3 days for long storage |
+| Dried nut moisture target | Below 10% | Rattles when shaken |
+| Dried:fresh weight ratio | ~1:3 | Significant weight loss on drying |
+| Bark tannin content | 6.8% | Dry weight basis |
+| Wood tannin content | 13.4% | Heartwood chips |
+| Husk tannin content | 10-13% | Byproduct, concentrated source |
+| Flour storage | 3-6 months | High fat content → rancidity risk |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

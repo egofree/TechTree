@@ -78,6 +78,18 @@ A small evergreen tree. It grows to 15 m tall. Often it is pruned to be only 6 m
 
 ### Edible Parts and Preparation
 
+**Seeds (cocoa beans)** are the primary harvest, processed into chocolate liquor, cocoa powder, and cocoa butter. Each cacao pod contains 20-50 seeds (beans) embedded in a sweet, white mucilaginous pulp. The beans themselves are bitter and astringent raw — they require fermentation, drying, and roasting to develop chocolate flavor.
+
+**Fruit pulp** is edible fresh — sweet, slightly tart, and aromatic. The pulp surrounding the beans can be sucked as a snack, pressed for juice, or fermented into a mild alcoholic beverage (different from chocolate fermentation). Pod weight: 200-800 g, of which pulp constitutes 25-35% by weight.
+
+**Cocoa products** derived from processed beans:
+- **Chocolate liquor** (cocoa mass): Ground roasted beans — 52-58% cocoa butter, 42-48% cocoa solids. This is the base for all chocolate. Bitter and intense; not palatable alone without sugar.
+- **Cocoa powder**: Chocolate liquor with most cocoa butter pressed out (10-22% residual fat). Used for beverages, baking, and cooking. "Dutched" (alkali-treated) cocoa has milder flavor and darker color but reduced flavonoid content.
+- **Cocoa butter**: The fat pressed from chocolate liquor (melting point 34-38°C, just below body temperature). Used in chocolate for texture, and in cosmetics, skin creams, and pharmaceutical suppositories.
+- **Chocolate**: Chocolate liquor + sugar + (for milk chocolate) milk solids + additional cocoa butter. Dark chocolate: 35-85% cocoa solids. Milk chocolate: 10-40% cocoa solids.
+
+**Beverage preparation**: Traditional Mesoamerican cacao drink — grind roasted beans on a metate, mix with water, chili peppers, and spices, then froth by pouring between two vessels. European-style hot chocolate adds sugar and milk. Cacao contains theobromine (0.5-2.5% by weight) — a mild stimulant related to caffeine — and small amounts of caffeine (0.1-0.4%).
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -103,11 +115,86 @@ The cacao tree provides a wide range of locally useful materials, including fibr
 
 ### Storage
 
-Dry seeds thoroughly to below 14% moisture content before storage. Spread in thin layers on drying racks in full sun, stirring periodically. Test dryness by biting: properly dried seeds crack rather than dent. Store in airtight containers (ceramic jars with tight lids, sealed woven bags) in a cool, dry, dark location. Protect from rodents and insects with tight lids or by mixing with inert ash. Under good conditions, dried grains and legumes store for 1-5 years with minimal loss.
+**Dried cocoa beans**: After processing, dried beans at 6-7% moisture store in breathable sacks (jute or burlap) in cool, dry conditions (15-20°C, below 70% humidity) for 6-12 months. The beans continue to develop flavor (like wine aging) for the first 2-3 months. Avoid airtight plastic containers — residual moisture promotes mold. Monitor for cocoa moths (*Ephestia elutella*) and beetles.
+
+**Cocoa powder**: Store in airtight containers at room temperature for 12-18 months. Low moisture (3-5%) and fat content (10-22%) make it relatively shelf-stable. Natural cocoa powder (non-alkalized) retains more antioxidants.
+
+**Cocoa butter**: Solid at room temperature (melts at 34-38°C). Store in sealed containers below 25°C for 2-5 years. Prone to oxidation if exposed to air and light — becomes rancid with a soapy flavor. White surface bloom (fat crystals) is harmless.
+
+**Chocolate**: Dark chocolate (70%+ cocoa) stores for 1-2 years at 15-18°C, below 50% humidity. Milk and white chocolate: 6-12 months (milk solids spoil faster). Temperature fluctuations cause "bloom" — white streaks of cocoa butter crystals on the surface. Bloom is cosmetic, not spoilage, but indicates poor storage conditions.
+
+### Pod Harvesting and Bean Extraction
+
+1. **Pod harvest**: Cut ripe pods from the trunk and main branches using a machete or sharp knife mounted on a pole (for higher pods). Pods are ripe when they turn from green to yellow or red (depending on variety). Harvest every 2-3 weeks during the peak season. A mature tree produces 30-60 pods per year. Pod yield: 15-25 kg/tree/year.
+
+2. **Pod opening**: Split pods open within 48 hours of harvest using a machete or wooden club. Do not cut deeply — avoid damaging the beans inside. Scoop out the wet mass of beans embedded in pulp.
+
+3. **Bean separation**: The beans come out in a mass of wet pulp. Do not wash — the pulp is essential for fermentation. Separate any damaged, germinated, or moldy beans at this stage.
+
+### Fermentation
+
+Fermentation is the critical step that develops chocolate flavor precursors. Without fermentation, roasted cacao beans taste flat, bitter, and astringent — not like chocolate:
+
+1. **Heap or box fermentation**: Place wet beans (with pulp) in a heap on banana leaves (small scale: 25-100 kg) or in a wooden fermentation box with slatted sides and bottom (larger scale: 500-2,000 kg). Cover with banana leaves or burlap to retain heat.
+
+2. **Temperature progression**: Over 5-7 days, the pulp sugars ferment anaerobically (yeasts produce ethanol and heat), then aerobic bacteria convert ethanol to acetic acid. Temperature rises to 45-50°C by day 3-4 and should not exceed 50°C to avoid killing the bean embryo (which would halt the internal enzymatic changes).
+
+3. **Turning**: Mix the bean mass every 24-48 hours to introduce oxygen (essential for acetic acid bacteria) and ensure even fermentation. Turning 2-3 times over 5-7 days is typical. The pulp drains away as liquid ("sweatings") through the box slats or heap base.
+
+4. **Endpoints**: Fermentation is complete when: beans have turned from purple/white to brown; the pulp has largely drained; the beans have a full, chocolatey aroma with no excessive acidity or astringency. Under-fermented beans are astringent and flat. Over-fermented beans develop off-flavors (hammy, putrid). Duration: 5-7 days for Forastero types; 2-4 days for some Criollo types.
+
+### Drying
+
+After fermentation, beans contain ~55-60% moisture and must be dried to 6-7% for storage and shipping:
+
+1. **Sun drying** (preferred): Spread beans in thin layers (3-5 cm) on raised drying racks or concrete patios. Stir every 1-2 hours for even drying. Protect from rain with covers or move under shelter. Drying takes 7-14 days depending on weather. Sun drying produces the best flavor — slow, even moisture removal.
+
+2. **Mechanical drying** (faster, less flavor): Use forced hot air at 50-60°C for 24-36 hours. Faster but can case-harden beans (dry exterior, moist interior) and develop off-flavors if temperature exceeds 60°C.
+
+3. **Test for dryness**: Squeeze a handful of beans — they should rattle, not clump together. Cut test: the interior should be brown and friable, not purple or moist. Final moisture: 6-7%. At this moisture, beans can be bitten through with a crisp snap.
+
+### Roasting, Winnowing, and Grinding
+
+1. **Roasting**: Heat dried beans at 120-150°C for 20-30 minutes. Roasting develops the final chocolate flavor through Maillard reactions (amino acids + reducing sugars → flavor compounds) and reduces moisture to 1-2%. Roast degree significantly affects flavor: lighter roasts preserve bean character and acidity; darker roasts develop caramel, toasted notes but reduce complexity. Stir or tumble beans during roasting for even results. Cool rapidly after roasting to halt cooking.
+
+2. **Winnowing**: Crack the roasted bean shells (testa) and separate them from the nibs (inner cotyledons). Pass roasted beans through a coarse crusher or hand-crack in a mortar. Winnow by tossing in a breeze — the lightweight shells (12-15% of bean weight) blow away; the heavier nibs fall. Shells can be brewed as a tea, used as mulch, or burned for potassium-rich ash.
+
+3. **Grinding**: Grind winnowed nibs into chocolate liquor (also called cocoa mass or cocoa paste). Traditional method: grind on a heated stone metate for 2-6 hours until the nibs release their cocoa butter and form a smooth, liquid paste. The friction heat (45-55°C) keeps the cocoa butter liquid. Mechanical grinding: pass nibs through a hammer mill or stone mill 3-5 times, each pass finer. The result is a thick, dark brown liquid — chocolate liquor — the base for all cocoa products.
+
+### Pressing: Cocoa Butter and Cocoa Powder
+
+1. **Pressing**: Place warm chocolate liquor (40-45°C) in a hydraulic or screw press. Apply pressure to squeeze out cocoa butter (a pale yellow fat that flows out as a liquid). Pressing yields approximately 40-45% cocoa butter by weight of the liquor. The pressed cake (residual solids) contains 10-22% fat.
+
+2. **Cocoa powder production**: Break the pressed cake into small pieces, then grind to a fine powder and sift through a 75-150 μm mesh. Natural cocoa powder is acidic (pH 5.0-5.5) with a fruity, intense flavor. Dutch-process (alkalized) cocoa is treated with potassium carbonate (1-3% by weight) to neutralize acids, producing a darker, milder, more soluble powder.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Tree yield | 15-25 kg pods/tree/year | 30-60 pods; mature tree at 5+ years |
+| Pods per kg dry beans | 10-15 | Each pod yields 20-50 beans |
+| Dry bean yield | 300-600 kg/ha | Under good management |
+| Fermentation temperature | 45-50°C peak | Must not exceed 50°C |
+| Fermentation duration | 5-7 days | Forastero; 2-4 days for Criollo |
+| Bean moisture (fermented) | 55-60% | Before drying |
+| Bean moisture (dried) | 6-7% | For storage and shipping |
+| Sun drying duration | 7-14 days | Depending on weather |
+| Roasting temperature | 120-150°C | 20-30 minutes |
+| Shell fraction | 12-15% | Of roasted bean weight |
+| Cocoa butter content (beans) | 50-57% | By weight of dried beans |
+| Pressing yield (butter) | 40-45% | Of chocolate liquor weight |
+| Theobromine content | 0.5-2.5% | Mild stimulant in beans |
+| Fat content (beans) | 50-57% | Primarily cocoa butter |
+
+### Fuel and Medicinal Notes
+
+Cacao pod husks (removed during bean extraction) are a significant byproduct with fuel value: dried husks have a calorific value of 16,000-19,000 BTU/kg, slightly higher than wood. In areas where firewood is scarce, dried cacao husks are collected and burned for cooking fuel. Ash from burnt husks contains ~30-40% potassium oxide, extractable as potash (K₂CO₃) for soap-making and fertilizer.
+
+Medicinally, cacao beans contain theobromine (vasodilator, mild diuretic), caffeine (stimulant), and flavonoid antioxidants (epicatechin). Cocoa butter is used externally to treat chapped skin, burns, and as a suppository base. See also [Medicinal Uses](#medicinal-uses) above.
 
 ### Material Handling
 
-Handle cacao produce with clean hands and tools to prevent contamination. Remove field heat promptly after harvest by moving product to shade. Process within the recommended timeframe to prevent quality loss. Compost crop residues and processing waste to return organic matter to the soil. Label stored products with harvest date, variety, and any treatments applied.
+Pod husks from the extraction step generate 70-80% of the wet pod weight as waste. Compost husks for return to the plantation soil, dry for fuel, or use as animal feed (cattle accept fresh husks at 20-30% of ration). During fermentation, the liquid "sweatings" draining from the heap or box are rich in sugars (10-15% Brix) and can be collected and fermented into an alcoholic drink or vinegar. Roasting produces chaff (fine shell dust) — collect in a cloth filter; it makes a pleasant tea. Keep fermented, dried beans away from strong odors — cocoa butter absorbs surrounding flavors readily.
 
 ## Scaling Notes
 

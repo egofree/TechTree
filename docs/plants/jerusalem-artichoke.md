@@ -88,6 +88,57 @@ An upright perennial plant up to 1-2 m high and a spread of 1 m. The stem is ere
 
 ### Edible Parts and Preparation
 
+Jerusalem artichoke tubers are unique among staple crops for their high inulin content rather than starch. This has major implications for harvesting, cooking, and processing:
+
+**Harvesting**: Dig tubers after the first frost for maximum sweetness — cold temperatures trigger the enzymatic conversion of inulin to fructose, making the tubers noticeably sweeter. The frost also kills the above-ground stems, signaling the plant to concentrate energy underground. Use a digging fork or sharpened stick to lift tubers carefully; the skin is thin and tubers bruise easily. In regions without frost, harvest when the above-ground foliage yellows and dies back naturally (typically 120-150 days after planting). Tubers left in the ground survive freezing temperatures and can be dug throughout winter as needed — this is the simplest storage method for cold climates. Any tubers missed at harvest will regrow vigorously the following spring, making Jerusalem artichoke effectively permanent once established.
+
+**Storage**: For areas where ground storage isn't feasible (slug-prone sites, very wet soils), harvest in late autumn and store at 0°C and 95% relative humidity (in damp sand or perforated plastic in a root cellar). Tubers keep for 2-5 months under these conditions. At room temperature, tubers shrivel and lose moisture within 1-2 weeks. Do not wash before storage — soil protects the thin skin. Jerusalem artichoke tubers do not cure like potatoes and cannot be stored dry.
+
+**Cooking**: Boil scrubbed (not peeled — the skin is thin and nutritious) tubers for 10-15 minutes until fork-tender. The flesh becomes soft and slightly sweet, similar to water chestnut or artichoke heart. Also excellent roasted (30-40 minutes at 200°C), mashed (like potatoes but sweeter and wetter), or sliced raw in salads (crisp and slightly sweet, especially after frost). Cooking reduces but does not eliminate the flatulence-causing properties of inulin — individuals unaccustomed to Jerusalem artichokes should start with small portions.
+
+### Inulin Extraction
+
+Jerusalem artichoke tubers contain 14-20% inulin by fresh weight — one of the richest plant sources of this fructose polymer. Inulin extraction produces a sweetener safe for diabetics (fructose does not require insulin for metabolism):
+
+1. **Wash and prepare**: Scrub tubers clean. Slice thinly (2-5 mm) or grate coarsely. Do not peel — inulin is distributed throughout the tuber flesh.
+
+2. **Hot water extraction**: Place sliced/grated tubers in a vessel and cover with water at 70-80°C (hot but not boiling — excessive heat degrades inulin). Use a ratio of 1 kg tuber to 2-3 liters water. Maintain at 70-80°C for 30-60 minutes, stirring occasionally. The inulin dissolves into the water, producing a sweet, slightly viscous extract.
+
+3. **Strain**: Filter the extract through cloth or a fine screen to remove solid plant material. Press the solids to extract additional liquid. The filtered liquid contains dissolved inulin, fructose, minerals, and other soluble compounds.
+
+4. **Concentrate (evaporate)**: Simmer the strained extract over low heat in a wide, shallow vessel to evaporate water. Reduce to approximately one-third of the original volume. As water content decreases, the solution becomes increasingly viscous and sweet. Continue until the desired consistency is reached: syrup (for immediate use as a sweetener) or continue to a thick paste that solidifies on cooling (inulin concentrate).
+
+5. **Optional — acid hydrolysis**: To convert inulin (a long-chain fructose polymer) into free fructose (a simple sugar), add a mild acid (lemon juice or vinegar at approximately 1% of the extract volume) and simmer for 30-60 minutes at 80-90°C. This hydrolyzes the inulin chains into individual fructose molecules, producing a sweeter, less viscous syrup. Test with a hydrometer or by taste — the sweetness increases noticeably as hydrolysis proceeds.
+
+6. **Yield**: Expect 100-150g of dried inulin or 200-300g of inulin syrup per kg of fresh tubers.
+
+### Bioethanol Production
+
+Jerusalem artichoke's high fermentable carbohydrate content makes it a viable feedstock for bioethanol:
+
+1. Wash, slice, and crush tubers to a pulp. Mix with water to form a slurry.
+2. Heat to 80-90°C with added acid (or use inulinase enzyme if available) to hydrolyze inulin to fermentable fructose.
+3. Cool to 25-30°C. Add yeast (*Saccharomyces cerevisiae*). Ferment for 2-4 days until CO₂ production stops.
+4. Distill the fermented mash to concentrate ethanol. First distillation yields 20-40% alcohol; redistill for higher concentrations (up to 95% with fractionating still).
+5. Yield: approximately 80-120 liters of ethanol per tonne of fresh tubers — comparable to or better than sugar beet.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Inulin content (fresh tuber) | 14-20% | By weight; one of the richest plant sources |
+| Frost-enhanced fructose | Significant increase | Enzyme converts inulin to fructose after frost |
+| Cooking time (boil) | 10-15 min | Until fork-tender |
+| Cooking time (roast) | 30-40 min | At 200°C |
+| Storage temperature | 0°C | 95% relative humidity; or leave in ground |
+| Storage duration | 2-5 months | Under ideal conditions |
+| Inulin extraction temperature | 70-80°C | Hot water; avoid boiling |
+| Inulin extraction time | 30-60 min | With stirring |
+| Inulin yield | 100-150g/kg | Dried, from fresh tubers |
+| Inulin syrup yield | 200-300g/kg | From fresh tubers |
+| Bioethanol yield | 80-120 L/tonne | Fresh tubers |
+| Tuber yield | 20-60 tonnes/ha | Fresh weight; extremely productive |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

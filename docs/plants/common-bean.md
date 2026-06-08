@@ -78,6 +78,56 @@ This bean has very many varieties and varies a lot in details. Both short and cl
 
 ### Edible Parts and Preparation
 
+**Edible parts**: Pods (immature), seeds (green and dried), young leaves.
+
+**Drying and storage (dry bean production)**:
+
+For dry bean production, leave pods on the plant until they turn yellow-brown and the seeds rattle inside. Pull entire plants and lay on drying racks or a clean, dry surface for 5-10 days. Protect from dew and rain during drying. Once fully dry, thresh by beating the dried plants with a wooden flail or by treading with feet. Winnow to separate beans from chaff using a wide, shallow basket in a light breeze.
+
+Storage conditions are critical for common bean. The two enemies are moisture and heat. Dry beans to below 14% moisture content — test by biting: a properly dried bean cracks cleanly rather than denting. Store in airtight containers (ceramic jars with tight lids, sealed woven bags, or metal tins) in a cool (below 20°C), dry, dark location. Mix with inert wood ash or diatomaceous earth at 1% by volume to deter storage insects (bruchid beetles are the primary pest). Under optimal conditions — cool, dry, dark, and insect-free — dry beans remain viable and nutritious for 2-5 years, with gradual decline in cooking quality after the first year.
+
+**Soaking (8-12 hours)**:
+
+Soaking is essential for dried common beans. It reduces cooking time by 50-70%, begins breaking down anti-nutrients, and improves digestibility. Sort and rinse beans first, removing stones and damaged seeds. Cover with cold water at 1 part beans to 4 parts water. Soak for 8-12 hours at room temperature; overnight is standard. For faster soaking, bring beans in water to a boil for 2 minutes, remove from heat, and let stand 1 hour — this works but reduces anti-nutrient elimination.
+
+Always discard soak water. It contains dissolved phytic acid, oligosaccharides (raffinose, stachyose — the primary cause of flatulence), and tannins. Never cook beans in their soak water.
+
+**Boiling (1-2 hours)**:
+
+1. Drain soaked beans and rinse. Place in a pot with fresh water covering by 5 cm.
+2. Bring to a rolling boil. A foam will rise — skim this off (it contains released proteins and anti-nutrients).
+3. Reduce to a gentle simmer. Cook 1-2 hours depending on bean variety, age, and altitude. Fresh-crop beans cook in 45-60 minutes; older stored beans may require 2+ hours. At altitudes above 1,500 m, increase cooking time by 25-50% (water boils at lower temperature).
+4. Do not add salt or acidic ingredients until beans are fully tender — salt toughens seed coats and acid prevents starch gelatinization, both extending cooking time.
+5. Test doneness by pressing a bean between fingers: fully cooked beans mash easily with no chalky or hard center. Undercooked beans retain toxic phytohaemagglutinin (PHA).
+
+**Critical toxicity note — phytohaemagglutinin (PHA)**: Raw common beans contain PHA, a lectin that causes severe gastrointestinal distress (nausea, vomiting, diarrhea, abdominal pain) beginning 1-3 hours after ingestion. Red kidney beans contain the highest concentrations (20,000-70,000 hemagglutinating units). Boiling at 100°C for 10 minutes destroys PHA. However, slow cooking at 80°C (as in a slow cooker) can actually INCREASE toxicity by 2-5× compared to raw beans, because it partially activates but does not destroy the lectin. Always boil common beans vigorously for at least 10-15 minutes before reducing heat.
+
+**Anti-nutrient reduction**:
+
+Common beans contain several anti-nutrients that reduce mineral bioavailability and protein digestion:
+
+| Anti-nutrient | Content (dry beans) | Reduced by soaking | Reduced by cooking | Reduced by sprouting |
+|---------------|---------------------|--------------------|--------------------|---------------------|
+| Phytic acid | 0.5-1.5% | 30-50% | 50-70% | 60-80% |
+| Tannins | 0.1-0.8% | 20-40% | 40-60% | 50-70% |
+| Trypsin inhibitors | Significant | 15-30% | 80-95% | 70-90% |
+| Oligosaccharides | 2-5% | 30-50% | 20-30% | 70-90% |
+| Phytohaemagglutinin | High (esp. red) | Minimal | 95-99% (at 100°C) | 70-85% |
+
+The most effective combined strategy for anti-nutrient reduction: soak 12 hours (discard water) → cook at boiling temperature for 1-2 hours → total phytic acid reduction of 60-80%. Adding a small amount of baking soda (sodium bicarbonate, 1/4 teaspoon per liter) to the cooking water increases phytic acid reduction by an additional 10-15% by raising pH and activating endogenous phytase enzymes.
+
+**Sprouting**:
+
+Sprouting common beans transforms their nutritional profile: vitamin C increases from near-zero to 20-40 mg/100g, B vitamins increase 2-3×, and anti-nutrients decrease significantly. To sprout:
+
+1. Soak beans 8-12 hours in cool water. Drain.
+2. Place in a jar covered with cheesecloth or a screen lid. Invert the jar at an angle to drain.
+3. Rinse and drain 2-3 times daily. Keep in a dark or dim location at 20-25°C.
+4. Sprouts appear in 2-3 days. Harvest when sprouts are 2-5 cm long (3-5 days).
+5. Use immediately in stir-fries, salads, or soups. Sprouted common beans must still be cooked briefly (3-5 minutes) to destroy residual PHA — they should not be eaten raw, unlike mung bean sprouts.
+
+Sprouting reduces oligosaccharides (the gas-causing sugars) by 70-90%, making sprouted beans significantly more digestible. The protein quality also improves as protease inhibitors are deactivated during germination.
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

@@ -74,7 +74,60 @@ An easily grown plant, it succeeds in most soils but prefers a well-drained ligh
 
 An annual plant. It is a cereal grass. It grows to 60-200 cm high. It spreads to 30 cm across. It produces tufts. The stem is erect and bluish green. The leaves are rough and narrow. They are 30 cm long and 8 mm wide. The leaves are smooth on the lower surface. The flowers are dense, slender spikelets. They are 20 cm long. The spikelets are 2-flowered and strongly awned.
 
+### Harvesting
+
+Rye is harvested when grain moisture drops below 14% — typically in August-September for winter rye (sown the previous autumn) or mid-summer for spring rye. The grain is ready when the heads droop, the awns (bristle-like appendages) spread, and kernels are hard when bitten. Unlike wheat, rye does not shatter easily at maturity, giving a wider harvest window.
+
+1. Cut stalks with a sickle 20-30 cm above ground, or cut and bundle into sheaves.
+2. Stand sheaves in stooks (groups of 6-8 sheaves leaning together) in the field for 5-7 days to dry. Protect from rain.
+3. **⚠ Ergot inspection**: Before threshing, carefully examine grain heads for ergot bodies (sclerotia) — dark purple-black, elongated structures (1-5 cm long) that replace individual grains in the seed head. Ergot is caused by the fungus *Claviceps purpurea*, which infects rye flowers during wet, cool growing seasons. Ergot bodies contain toxic alkaloids (ergotamine, ergocristine, ergocryptine) that cause ergotism — a disease with two forms: convulsive (spasms, hallucinations, death) and gangrenous (restricted blood flow causing tissue death in extremities). **Remove all ergot bodies before threshing.** Inspect each sheaf by hand and pick out any dark sclerotia. Even a small number of ergot bodies can contaminate an entire batch — the toxic threshold is as low as 0.1% ergot by weight in flour.
+
+### Threshing
+
+Separate grain from stalks using standard grain threshing methods:
+
+1. Beat dried sheaves with a wooden flail on a hard, clean surface. Rye grains separate readily from the chaff.
+2. Winnow in a light breeze to remove chaff, dust, and any remaining ergot fragments (lighter than grain but heavier than chaff — may require careful multiple-pass winnowing).
+3. Inspect cleaned grain visually for any remaining dark ergot bodies. Remove by hand. Pass grain through a coarse sieve — ergot bodies are often larger than rye grains and may be caught.
+
+### Milling
+
+Rye grain is milled into flour of varying grades:
+
+1. **Dark rye flour** (whole grain): Mill the entire grain including bran and germ. Produces a coarse, dark flour with strong flavor, high fiber, and maximum nutrients. The traditional flour for pumpernickel and rustic rye breads.
+2. **Light rye flour** (sifted): Mill grain, then sift through progressively finer meshes to remove bran and germ particles. Produces a lighter, finer flour with milder flavor. Used for lighter rye breads and pastries.
+3. **Medium rye flour**: Partially sifted, retaining some bran. A middle ground between dark and light.
+4. **Rye meal** (cracked/rolled): Coarsely crushed whole grain, used for porridge and specialty breads.
+
+Rye flour has lower gluten content than wheat (approximately 2-3% gluten vs. 10-14% for wheat), producing denser, heavier breads. Rye dough is sticky and lacks the elasticity of wheat dough — it cannot form the strong gluten network needed for airy, risen loaves.
+
+### Sourdough Fermentation (Essential for Rye Bread)
+
+Rye flour requires acidification during bread-making for several reasons: rye starch gelatinizes at a lower temperature than wheat starch (52-55°C vs. 58-64°C), making it susceptible to starch degradation by enzymes during baking. Acidic conditions (pH 4.0-4.5) inhibit these enzymes and strengthen the dough structure. Without acidification, rye bread is gummy, dense, and has poor keeping quality.
+
+**Sourdough starter preparation**:
+1. Mix equal parts rye flour and warm water (35-38°C) in a container — approximately 100g flour to 100ml water. Leave uncovered in a warm place.
+2. Feed the starter daily: discard half, add 100g fresh rye flour and 100ml warm water. Stir well.
+3. Within 3-5 days, wild yeast and lactic acid bacteria from the flour and environment will colonize the starter. It will become bubbly, develop a sour smell, and double in volume after feeding.
+4. The starter is active and ready to use when it consistently doubles within 4-6 hours of feeding. Maintain at room temperature with daily feeding, or refrigerate and feed weekly.
+
+**Rye bread dough**:
+1. Combine 500g rye flour, 350ml warm water, 150g active sourdough starter (30% of flour weight), and 10g salt.
+2. Mix thoroughly — rye dough is sticky and does not require kneading like wheat dough. Simply stir until all flour is hydrated and the mixture is uniform.
+3. **Fermentation**: Cover and ferment at 24-28°C for 12-24 hours. The long, slow fermentation develops sour flavor, improves texture, and breaks down phytic acid (an anti-nutrient that binds minerals).
+4. **Optional**: Add caraway seeds (1-2 teaspoons) for traditional flavor. Add wheat flour (up to 30-50% of total flour) for a lighter, higher-rising loaf.
+
+### Baking
+
+1. Transfer fermented dough to a greased loaf pan or shape into a round on a floured surface. Rye dough does not hold free-form shapes well without significant wheat content — use a pan.
+2. **Proof** (final rise): Cover and let rise for 2-4 hours at room temperature. Rye rises much less than wheat — expect 20-50% increase in volume, not the doubling typical of wheat.
+3. Preheat oven to 220°C (430°F). For a crusty loaf, place a pan of water in the bottom of the oven to create steam.
+4. Bake for 45-55 minutes. Internal temperature should reach 95-98°C when done.
+5. Cool completely on a rack before slicing (rye bread is gummy when cut warm — the crumb continues to set as it cools). Rye bread keeps for 5-7 days at room temperature, longer than wheat bread due to the acid from sourdough fermentation, which acts as a natural preservative.
+
 ### Edible Parts and Preparation
+
+Rye grain is the primary edible product, consumed as flour for bread, porridge, and baked goods. The roasted grain serves as a coffee substitute. Sprouted rye grain is used for malt production in brewing. Rye bread is the staple bread of northern and eastern Europe, where the grain's cold tolerance makes it the reliable cereal crop. A typical dark rye sourdough provides ~250 kcal/100g, 8-9g protein, and significant dietary fiber.
 
 ## Quantitative Parameters
 
@@ -128,6 +181,7 @@ Key scaling challenges include maintaining genetic diversity at plantation scale
 
 Working with *Secale cereale* involves the following hazards:
 
+- **⚠ Ergot poisoning (CRITICAL)**: Rye is uniquely susceptible to infection by the fungus *Claviceps purpurea*, which produces dark purple-black ergot bodies (sclerotia) that replace individual grains in the seed head. Ergot alkaloids (ergotamine, ergocristine, ergocryptine) cause ergotism — historically called "St. Anthony's Fire" — with two forms: **convulsive ergotism** (muscle spasms, hallucinations, delirium, convulsions, death) and **gangrenous ergotism** (severe vasoconstriction causing numbness, gangrene, and loss of extremities). The toxic threshold is extremely low: as little as 0.1% ergot by weight in flour causes symptoms; 1-2% can be lethal. **Safe handling: inspect every grain head at harvest and remove all dark ergot bodies by hand before threshing. After threshing and winnowing, inspect cleaned grain visually and sieve to catch remaining sclerotia (often larger than rye grains). Never mill grain containing visible ergot bodies. Risk is highest in wet, cool growing seasons that favor fungal infection. Rotate crops and deep-plow rye stubble to bury ergot bodies away from the soil surface where they germinate.**
 - Tool injuries during harvest and processing — use sharp tools in good condition and cut away from the body
 - Allergic reactions to plant compounds — sensitive individuals should test small quantities first
 - Sun exposure and heat stress during field work — schedule heavy work for early morning or late afternoon

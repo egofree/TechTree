@@ -65,6 +65,78 @@ This species grows as a perennial or annual depending on climate and management.
 
 An easily grown plant, succeeding in any moderately good soil. It prefers a light acid soil but tolerates adverse conditions. Requires a sunny position. The white lupin is sometimes cultivated, especially in S. Europe, for its edible seed and also as a green manure crop. There are some named varieties, many of which have bitter seeds that contain toxic alkaloids and require leaching before they are eaten but some sweet varieties have also been developed. These sweet varieties are perfectly wholesome as food for humans and include the cultivar 'Kiev'. There is some confusion between this species and L. nanus. A deep rooting plant. This species has a symbiotic relationship with certain soil bacteria, these bacteria form nodules on the roots and fix atmospheric nitrogen. Some of this nitrogen is utilized by the growing plant but some can also be used by other plants growing nearby. When removing plant remains at the end of the growing season, it is best to only remove the aerial parts of the plant, leaving the roots in the ground to decay and release their nitrogen. Lupinus albus, commonly known as white lupin, is generally suited to USDA Hardiness Zones 6 through 9 when grown as an annual crop, although it can sometimes be cultivated in Zone 5 with a long enough growing season and protection from late frosts. It is a cool-season legume that prefers mild temperatures and does not tolerate extreme heat or prolonged frost. Ideal temperatures for growth range between 50–75°F (10–24°C). In warmer climates, it’s typically grown over the cooler months, while in cooler climates it’s planted in spring after the last frost. Though not frost-hardy once mature, it can handle cool soils at germination and is sometimes fall-sown in Mediterranean climates. Propagation: Pre-soak the seed for 24 hours in warm water and sow in mid spring in situ. You may need to protect the seed from mice. Germination should take place within 2 weeks.
 
+### Harvesting
+
+White lupin is ready for harvest when pods turn from green to yellow-brown and the seeds rattle inside. The pods dehisce (split open) when fully dry, so harvest promptly to avoid seed loss:
+
+1. Cut plants at ground level with sickles when 75-80% of pods have changed color. Gather cut plants into bundles and dry on racks or tarps in the sun for 3-5 days until pods are brittle.
+2. Thresh dried bundles by beating with a flail or trampling. Winnow to separate seeds from chaff. Clean seeds should be uniform in color (cream-white for white lupin) with no visible mold or insect damage.
+3. Seed yields: 1-2.5 tonnes/ha under dryland conditions; up to 3-4 tonnes/ha with irrigation and good management. Seed protein content: 32-40%, one of the highest among grain legumes.
+
+### ⚠ Alkaloid Removal (Critical Processing Step)
+
+Bitter white lupin varieties contain toxic quinolizidine alkaloids — primarily **lupanine** and **sparteine** — at concentrations of 1-4% of seed dry weight. These alkaloids are bitter-tasting and toxic: ingestion of untreated bitter lupin seeds causes nausea, vomiting, dizziness, cardiac arrhythmia, and in severe cases respiratory paralysis. **All bitter lupin seeds must be debittered before consumption.** Three traditional methods are used:
+
+#### Method 1: Running Water Soak (3-7 days)
+
+The most common traditional method used in Mediterranean countries:
+
+1. Soak whole dry seeds in abundant cold water for 12-24 hours to rehydrate.
+2. Drain and transfer soaked seeds to a mesh bag, basket, or perforated container. Place in a stream of clean running water, or suspend in a tank with continuously flowing water.
+3. Maintain the soak for 3-7 days. The water leaches the water-soluble alkaloids out of the seeds. Test for readiness by tasting a seed — properly debittered seeds are mildly bland, not bitter.
+4. If running water is unavailable, soak in a large container and change the water 3-4 times per day for 5-7 days. This requires more water but is effective.
+5. After debittering, boil the seeds in fresh water for 1-2 hours until tender. Drain and serve, or preserve in brine.
+
+#### Method 2: Repeated Boiling (2-3 days)
+
+Used where running water is scarce:
+
+1. Soak dry seeds in water for 12 hours. Drain.
+2. Cover soaked seeds with fresh water, bring to a rolling boil, and boil for 30-60 minutes. Drain the bitter cooking water (it contains extracted alkaloids — **do not consume**).
+3. Repeat the boil-and-drain cycle 4-6 times over 2-3 days, using fresh water each time. Taste-test a seed after the 4th boil — if still bitter, continue boiling.
+4. After the final boil, the seeds should be tender and bland. Drain and use immediately, or preserve in salt brine.
+
+#### Method 3: Salt Brine Method
+
+A variant used in some traditional processing:
+
+1. Soak seeds for 24 hours in fresh water. Drain.
+2. Prepare a 5-10% salt brine (50-100 g salt per liter of water). Soak seeds in the brine for 5-7 days, changing the brine daily. The salt slows fermentation and bacterial growth while allowing alkaloid extraction.
+3. After brine soaking, boil seeds in fresh water for 1-2 hours until tender. The salt is removed during boiling. Taste-test before consuming.
+
+#### Sweet Lupin Varieties
+
+Modern plant breeding has produced **sweet lupin** varieties with alkaloid content below 0.02% — low enough to be safe for consumption without debittering. These varieties (including *L. albus* 'Kiev Mutant', *L. angustifolius* cultivars) are the standard for commercial lupin production in Australia and Europe. Sweet lupins still benefit from soaking (to improve digestibility and remove anti-nutritional factors like trypsin inhibitors) but do not require the extended debittering process.
+
+**Important**: Never assume a lupin variety is sweet unless confirmed by source or taste test. Bitter lupins taste intensely bitter even in small quantities. If in doubt, always debitter.
+
+### Cooking and Flour Production
+
+After debittering (or when using sweet varieties), lupin seeds can be prepared in several ways:
+
+1. **Boiled lupin beans**: Boil debittered seeds in salted water for 1-2 hours until tender. Eat as a snack (common in Mediterranean countries — lupini beans), or add to salads and stews. The texture is firm and slightly creamy.
+2. **Roasted lupin**: Soak seeds 12 hours, drain, then dry-roast in a pan or oven at 180°C for 15-20 minutes, stirring frequently. Produces a crunchy, nutty snack. Can be ground into roasted lupin flour.
+3. **Lupin flour**: Grind dry, debittered seeds in a stone mill to produce a high-protein flour (32-40% protein). Mix with wheat or other cereal flours at 10-30% to boost protein content in breads and pasta. Lupin flour is gluten-free but produces dense bread when used alone — best as a supplement to wheat flour.
+4. **Lupin coffee**: Roast dry seeds at 200°C until dark brown. Grind coarsely and brew like coffee. Produces a caffeine-free hot beverage with a nutty flavor.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Seed protein content | 32-40% | Among highest for grain legumes |
+| Seed oil content | 8-12% | Used for soap and cooking |
+| Seed yield | 1-2.5 tonnes/ha | Dryland; up to 3-4 t/ha irrigated |
+| Alkaloid content (bitter) | 1-4% | Lupanine, sparteine — toxic |
+| Alkaloid content (sweet) | <0.02% | Safe without debittering |
+| Running water soak time | 3-7 days | Traditional debittering |
+| Repeated boiling cycles | 4-6 changes over 2-3 days | Alternative debittering |
+| Brine soak concentration | 5-10% salt | For 5-7 days |
+| Boil time (post-debitter) | 1-2 hours | Until tender |
+| Roast temperature | 180-200°C | 15-20 minutes |
+| Flour protein content | 32-40% | High-protein supplement flour |
+| Growing period | 100-150 days | Cool-season legume |
+| Optimal growth temp | 10-24°C | Does not tolerate extreme heat |
+
 ### Distribution and Growing Conditions
 
 S. Europe to Asia. TEMPERATE ASIA: Turkey (west) EUROPE: Former Yugoslavia, Albania, Bulgaria, Greece (incl. Crete)
@@ -119,6 +191,7 @@ Key scaling challenges include maintaining genetic diversity at plantation scale
 
 Working with *Lupinus albus* involves the following hazards:
 
+- **⚠ ALKALOID TOXICITY WARNING**: Bitter lupin varieties contain quinolizidine alkaloids (lupanine, sparteine) at 1-4% of seed dry weight. These compounds are toxic if consumed without proper debittering. Symptoms include nausea, vomiting, dizziness, sweating, blurred vision, cardiac arrhythmia, and in severe cases respiratory paralysis. **Always debitter bitter lupin seeds using one of the methods described above before consumption. Never eat untreated bitter lupin seeds.** Sweet lupin varieties (alkaloid content <0.02%) are safe after normal cooking. If you cannot confirm the variety, assume it is bitter and debitter it.
 - **Toxicity**: Parts of this plant may contain compounds that are toxic when raw or improperly prepared. Always follow proper preparation procedures before consumption. Verify with multiple authoritative sources.
 - Tool injuries during harvest and processing — use sharp tools in good condition and cut away from the body
 - Allergic reactions to plant compounds — sensitive individuals should test small quantities first

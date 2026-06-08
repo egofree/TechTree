@@ -78,6 +78,77 @@ A small evergreen tree. Often they are grown as annual plants. It grows up to ab
 
 ### Edible Parts and Preparation
 
+> ⚠️ **RICIN TOXICITY WARNING** ⚠️
+>
+> Castor seeds contain **ricin**, one of the most toxic naturally occurring substances known. Ingestion of **4-8 seeds can be fatal to an adult**; even fewer seeds can kill a child. Ricin is a protein toxin (ribosome-inactivating protein) that causes cell death by blocking protein synthesis. Symptoms begin 2-12 hours after ingestion: nausea, vomiting, abdominal pain, bloody diarrhea, seizures, and organ failure. **There is no antidote for ricin poisoning.** Treatment is supportive only (IV fluids, activated charcoal if early).
+>
+> **MANDATORY SAFETY PRACTICES:**
+> - **ALWAYS wear gloves** when handling castor seeds or press cake
+> - **NEVER consume** raw seeds, press cake, or any unprocessed seed material
+> - **NEVER allow children or animals** near seeds or processing areas
+> - **DEACTIVATE press cake** by heating to 80°C for 30 minutes before disposal or composting — this denatures the ricin protein
+> - **Wash hands thoroughly** after any contact with seeds
+> - Ricin is water-soluble but **not oil-soluble** — properly pressed and refined castor oil is safe because ricin remains in the press cake
+
+### Castor Oil Extraction
+
+1. **Seed preparation**: Harvest seed capsules when they begin to dry and turn brown. Remove seeds from capsules and dry to below 10% moisture. Clean seeds to remove hull fragments and debris.
+2. **Cold pressing** (preferred for highest quality): Feed seeds into a screw press (expeller) at temperatures below 50°C. The low temperature preserves oil quality and ensures ricin stays denatured in the press cake rather than contaminating the oil. Cold pressing extracts 30-40% of the seed's oil content.
+3. **Hot pressing** (higher yield): Pre-heat seeds to 60-80°C before pressing. This reduces oil viscosity and increases extraction to 40-50%, but produces darker oil with more free fatty acids that requires additional refining.
+4. **Clarification**: Allow pressed oil to settle for 24-48 hours. Filter through cloth or fine mesh to remove suspended particles. For higher purity, heat oil to 80-100°C to precipitate phospholipids and mucilage, then filter again.
+5. **Refining** (essential for food/pharmaceutical grade): Treat oil with a mild alkali solution (1-2% sodium hydroxide) to neutralize free fatty acids, wash with water, and bleach with activated charcoal or clay. Deodorize by steam stripping at 180-220°C under vacuum if equipment permits.
+6. **Press cake handling**: Press cake contains 8-12% residual oil plus the ricin protein. **MUST be heat-treated at 80°C for 30 minutes** before any disposal, composting, or use as fertilizer. The heat denatures ricin, rendering the cake non-toxic. Untreated press cake is a deadly poison and must never be fed to livestock or left accessible.
+
+### Castor Oil Properties
+
+Castor oil is unique among vegetable oils because its primary fatty acid — ricinoleic acid (80-90%) — contains a hydroxyl group. This gives castor oil exceptional properties:
+
+| Property | Value | Significance |
+|----------|-------|--------------|
+| Ricinoleic acid content | 80-90% | Unique hydroxyl fatty acid |
+| Viscosity (25°C) | 650-800 mPa·s | 5-10× higher than other vegetable oils |
+| Specific gravity (25°C) | 0.945-0.965 | Denser than most oils |
+| Iodine value | 82-90 | Semi-drying classification |
+| Hydroxyl value | 150-180 | Enables chemical modifications |
+| Pour point | -18 to -12°C | Remains fluid at low temperatures |
+| Flash point | 260°C | High — safe lubricant |
+| Purgative dose | 15-60 ml | Acts on intestinal smooth muscle |
+
+The hydroxyl group makes castor oil miscible with alcohols and many organic solvents that other vegetable oils will not dissolve in. This property is industrially irreplaceable for certain applications.
+
+### Dehydrated Castor Oil (DCO)
+
+When castor oil is heated to 250-300°C in the presence of acid catalysts (sulfuric acid or phosphoric acid at 0.5-1.0%), the hydroxyl group on ricinoleic acid is eliminated, forming a conjugated diene structure. The resulting dehydrated castor oil (DCO) is a **drying oil** comparable to tung oil:
+
+- Dries to a hard, water-resistant film in 4-8 hours
+- Iodine value increases from ~85 to ~140 (dryability)
+- Used in paints, varnishes, and protective coatings
+- Superior to linseed oil in non-yellowing properties
+- Production: heat castor oil to 250°C, add 0.5-1% sulfuric acid, hold for 2-4 hours, neutralize with alkali, filter
+
+### Industrial Applications of Castor Oil
+
+- **Lubricant**: The high viscosity and polar hydroxyl group make castor oil an excellent boundary lubricant for high-speed machinery, two-stroke engines, and jet engines. It adheres to metal surfaces where mineral oils are flung off by centrifugal force.
+- **Sulfonated castor oil (Turkey Red Oil)**: React castor oil with concentrated sulfuric acid at 25-30°C, wash, and neutralize. Produces the first synthetic detergent, used as a textile dyeing assistant and emulsifier.
+- **Hydrogenated castor oil (castor wax)**: Hydrogenate at 125-135°C with nickel catalyst. Produces a hard, brittle wax (mp 85-88°C) used in polishes, carbon paper, crayons, and cosmetics.
+- **Nylon precursor**: React castor oil with ammonia at high temperature to produce 11-aminoundecanoic acid, the monomer for nylon-11 — a bio-based engineering plastic.
+- **Sebacic acid**: Heat castor oil with sodium hydroxide at 250°C to produce sebacic acid (C10 dicarboxylic acid) and 2-octanol. Sebacic acid is a precursor for nylon-6,10, plasticizers, and synthetic lubricants.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Seed oil content | 35-55% | Varies by cultivar |
+| Cold press temperature | <50°C | Preserves oil quality, keeps ricin in cake |
+| Cold press yield | 30-40% | Of total seed oil |
+| Hot press temperature | 60-80°C | Higher yield, darker oil |
+| Hot press yield | 40-50% | Of total seed oil |
+| Solvent extraction yield | 95-98% | Using hexane on press cake |
+| Press cake ricin deactivation | 80°C for 30 min | Mandatory before disposal |
+| Refining alkali concentration | 1-2% NaOH | Neutralizes free fatty acids |
+| Oil yield per hectare | 500-1,500 kg | Under good management |
+| Seed yield per hectare | 800-2,000 kg | Varies widely with conditions |
+
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -123,24 +194,37 @@ Key scaling challenges include maintaining genetic diversity at plantation scale
 
 ## Safety Considerations
 
+> ⚠️ **CRITICAL: RICIN HAZARD** ⚠️
+>
+> Castor seeds contain **ricin**, a lethal toxin. **4-8 seeds can kill an adult; as few as 1-3 seeds can be fatal to a child.** Ricin is a Category B bioterrorism agent. There is NO antidote. All work with seeds and press cake requires strict safety protocols.
+
 Working with *Ricinus communis* involves the following hazards:
 
-- **Toxicity**: Parts of this plant may contain compounds that are toxic when raw or improperly prepared. Always follow proper preparation procedures before consumption. Verify with multiple authoritative sources.
+- **RICIN TOXICITY (CRITICAL)**: Seeds contain 1-5% ricin by weight. Ricin is a protein toxin that inhibits protein synthesis, causing cell death. Ingestion, inhalation of seed dust, or injection are all lethal routes. Symptoms: nausea, vomiting, abdominal cramps, bloody diarrhea, seizures, organ failure, death within 3-5 days. **Always wear impermeable gloves and a particulate mask when handling seeds. Never eat, drink, or touch face while processing seeds.**
+- **Press cake hazard**: Press cake retains ricin after oil extraction. **Heat to 80°C for 30 minutes before any disposal or use.** Untreated press cake is as toxic as raw seeds. Never feed to livestock or leave accessible.
+- **Seed dust inhalation**: Milling seeds produces dust containing ricin. Wear a properly fitted N95 or better particulate respirator. Mill in a well-ventilated area or outdoors upwind.
+- **Skin contact with seeds**: The seed coat contains ricin and allergenic proteins. Always wear gloves. Wash any skin contact immediately with soap and water.
+- **Castor oil safety**: Properly pressed and refined castor oil contains NO ricin (ricin is not oil-soluble and remains in the press cake). However, unrefined or crudely pressed oil may contain trace ricin from seed particles. Pharmaceutical-grade castor oil is safe for the approved purgative dose of 15-60 ml.
+- **Allergenicity**: Castor pollen and seed proteins are potent allergens. Sensitized individuals may develop asthma, rhinitis, or contact dermatitis.
 - Tool injuries during harvest and processing — use sharp tools in good condition and cut away from the body
-- Allergic reactions to plant compounds — sensitive individuals should test small quantities first
 - Sun exposure and heat stress during field work — schedule heavy work for early morning or late afternoon
 - Musculoskeletal strain from repetitive harvesting motions — vary tasks and take regular breaks
 
 ### Personal Protective Equipment
 
-- Sturdy gloves when handling plants with irritant sap, spines, or rough surfaces
-- Long sleeves and trousers for field work to reduce skin exposure to irritants and insects
+- **Impermeable (nitrile or rubber) gloves** — MANDATORY when handling seeds, press cake, or processing equipment
+- **N95 particulate respirator or better** — MANDATORY when milling seeds or handling seed dust
+- **Safety goggles** — when milling or pressing to prevent dust/splash exposure
+- Long sleeves and trousers for field work to reduce skin exposure
+- Waterproof apron during oil pressing operations
 - Eye protection when using cutting tools overhead or near face level
 - Sun hat and sunscreen for extended field work
 
 ### Emergency Procedures
 
-- For suspected plant poisoning: stop eating immediately, save a sample of the plant material, and seek medical attention. Do not induce vomiting unless directed by a medical professional.
+- **For suspected ricin exposure (ingestion of seeds)**: Seek emergency medical attention IMMEDIATELY. Call emergency services. Do NOT wait for symptoms to appear — ricin poisoning has a 2-12 hour asymptomatic period during which supportive care is most effective. Save any remaining seeds or plant material for identification. Do not induce vomiting unless directed by medical personnel.
+- **For seed dust inhalation**: Move to fresh air immediately. If breathing difficulty develops, seek emergency medical attention.
+- **For skin contact with seeds or press cake**: Wash thoroughly with soap and water for at least 15 minutes. Remove contaminated clothing. Monitor for allergic reaction.
 - For tool lacerations: apply direct pressure with a clean cloth, elevate the wound, and seek medical attention for cuts deeper than skin level.
 - For allergic reaction (swelling, difficulty breathing): discontinue exposure immediately and seek emergency medical help.
 

@@ -78,6 +78,59 @@ An upright annual plant. It varies in height from 1-4 m. It has a strong tap roo
 
 ### Edible Parts and Preparation
 
+### Harvesting
+
+1. **Maturity indicators**: Harvest when the back of the flower head turns from green to yellow-brown, the bracts (small leaves around the head) dry and turn brown, and seeds reach 10-12% moisture content. The petals will have dried and fallen. Seeds at the edge of the head mature first; check the center seeds for full maturity.
+2. **Cutting**: Cut the flower head from the stalk with 15-30 cm of stem attached. At production scale, use a combine harvester with a sunflower attachment (special header with pans that scoop up heads).
+3. **Drying**: If seeds are above 12% moisture, hang heads upside-down in a well-ventilated, dry area (under cover) or spread on drying racks. Dry to 8-10% moisture for safe storage. Forced-air drying at 35-40°C accelerates the process. Do not exceed 45°C for seed intended for oil pressing — higher temperatures damage oil quality.
+
+### Seed Drying and Hulling
+
+1. **Seed removal**: Rub dried flower heads against a coarse screen or beat with a stick to release seeds. Commercially, a rotary thresher separates seeds from the head. Sunflower seeds dislodge easily from the receptacle once fully dry.
+2. **Hulling (dehulling)**: Sunflower seeds have a thick fibrous hull (pericarp) surrounding the kernel. Hulling is essential before oil pressing to improve oil yield and quality:
+   - **Manual**: Crack individual seeds between the teeth (traditional) or with a rolling pin on a flat surface
+   - **Mechanical**: Pass seeds between rotating rollers set to a gap slightly smaller than the seed — this cracks the hull without crushing the kernel. Separate kernels from hull fragments by winnowing (hulls are lighter) or air classification
+   - **Hull content**: Hulls constitute 25-40% of seed weight; removing them concentrates the oil content from 40-50% (whole seed) to 55-65% (kernel alone)
+3. **Cleaning**: Remove hull fragments, dust, and damaged seeds by winnowing and screening before pressing.
+
+### Sunflower Oil Pressing
+
+Sunflower oil is one of the most popular edible oils worldwide, prized for its light flavor and high smoke point:
+
+1. **Cold pressing** (first pressing — premium oil): Feed cleaned, hulled seeds into a screw press (expeller) at temperatures below 50°C. No pre-heating. Cold pressing produces the highest quality oil — light in color and flavor, with maximum retention of vitamin E (tocopherols) and phytosterols. Yield: 25-35% of seed weight from unhulled seed, or 35-45% from hulled seed. This first-press oil commands a premium price.
+2. **Hot pressing** (second pressing — higher yield): Pre-heat the press cake or unhulled seeds to 60-80°C before pressing. The heat reduces oil viscosity and disrupts cell walls, increasing extraction. Hot pressing yields an additional 10-15% oil but produces darker oil with stronger flavor and more free fatty acids. Suitable for industrial or refined oil production.
+3. **Solvent extraction**: After pressing, the residual cake still contains 8-15% oil. Extract with hexane at 50-60°C in a countercurrent extractor. Combined pressing + solvent extraction recovers 95-98% of total oil.
+4. **Refining**: For commodity oil: degum (water at 60°C), neutralize (NaOH), bleach (activated earth at 80-100°C), and deodorize (steam at 220-250°C under vacuum). For premium cold-pressed oil, only filter through cloth or paper — no chemical refining.
+5. **Oil composition**: Sunflower oil is 44-72% linoleic acid (omega-6) and 14-40% oleic acid (omega-9), depending on variety. High-oleic varieties (bred to contain >80% oleic acid) produce oil with superior stability for frying and longer shelf life.
+
+### Meal and Byproduct Processing
+
+After oil extraction, the remaining press cake or solvent-extracted meal is a valuable protein-rich animal feed:
+
+1. **Meal composition**: Sunflower meal contains 28-45% protein (depending on hull content and extraction efficiency), 8-12% fiber, and 1-3% residual fat. The protein is rich in sulfur-containing amino acids (methionine, cysteine) but deficient in lysine, making it a good complement to soybean meal in animal rations.
+2. **Hull utilization**: Sunflower hulls removed during dehulling have several uses: fuel for the pressing plant's boilers (calorific value ~17 MJ/kg), mulch, substrate for mushroom cultivation, or pelletized for animal bedding.
+3. **Seed production yield**: Sunflower produces 1-3 tonnes of seed per hectare. At 40-50% oil content, this yields 400-1,500 kg of oil per hectare. The remaining 500-1,500 kg of meal provides 150-675 kg of protein for animal feed.
+4. **Bee forage**: Sunflower fields are excellent honey bee forage, producing 30-50 kg of honey per hectare as a valuable secondary product.
+
+### Process Parameters
+
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| Seed oil content | 40-50% | Whole seed; 55-65% in hulled kernel |
+| Hull proportion | 25-40% | Of whole seed weight |
+| Cold press yield | 25-35% | Whole seed, first pressing |
+| Hot press yield | 35-45% | Pre-heated seed |
+| Total oil yield (with solvent) | 95-98% | Of total oil content |
+| Seed yield | 1-3 tonnes/ha | Under good management |
+| Oil yield | 400-1,500 kg/ha | 40-50% of seed weight |
+| Meal protein content | 28-45% | After oil extraction |
+| Harvest seed moisture | 10-12% | At maturity |
+| Safe storage moisture | 8-10% | Below this to prevent mold |
+| Meal yield | 500-1,500 kg/ha | After oil extraction |
+| Linoleic acid in oil | 44-72% | Standard varieties |
+| Oleic acid (high-oleic) | >80% | Bred for frying stability |
+| Days to maturity | 90-120 days | 4-5 months typical |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

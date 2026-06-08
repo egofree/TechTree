@@ -78,6 +78,60 @@ A millet grass. It is an annual grass. It is robust and forms many tillers or yo
 
 ### Edible Parts and Preparation
 
+**Edible parts**: Seeds (grain), prepared as flour, porridge, flatbread, or brewed as beer. Young shoots can be eaten as a vegetable.
+
+**Threshing (beating)**:
+
+Finger millet produces small, dense seed heads composed of 2-7 finger-like spikes. The seeds are extremely small (1-2 mm diameter) and tightly held within the spikelets, making threshing labor-intensive:
+
+1. **Cut the heads**: Harvest by cutting off the seed heads (ears) with a sickle or knife when they turn from green to straw-brown. Do not wait too long — overripe heads shatter and drop seed.
+2. **Dry the heads**: Spread cut heads on a clean, dry surface in the sun for 1-2 days until thoroughly dry. The heads should feel brittle and the seeds should sound loose inside the spikelets when shaken.
+3. **Thresh by beating**: Place dried heads on a clean hard surface (stone slab, packed earth floor, or tarp) and beat with a wooden stick or flail. Alternatively, tread the heads underfoot wearing clean shoes, or rub the heads between the palms of the hands. The tiny seeds separate from the chaff with persistent beating. Throughput: 10-20 kg grain/hour by hand — slow due to the small seed size and tight spikelet structure.
+4. **Winnow**: Toss the threshed mixture in a wide, shallow basket in a light breeze. The chaff and empty spikelets blow away while the heavy, dense seeds fall back into the basket. Finger millet seeds are denser than most millets and winnow cleanly. Repeat 4-6 times until the grain is free of chaff.
+
+Finger millet's exceptional storage quality (viable for 10-50 years when properly dried and stored) is partly due to the tight glumes that often remain partially attached even after threshing, providing natural protection against insects and moisture.
+
+**Milling — small grain challenges**:
+
+The tiny seed size of finger millet (1-2 mm, thousand kernel weight 2-3 g) creates specific milling challenges:
+
+- **Stone mill (rotary quern)**: The standard method for finger millet. Set the gap between the stones to slightly less than the seed diameter. The small seeds pass through and are crushed into flour in a single pass. Throughput: 2-4 kg flour/hour on a hand quern. The flour is typically greyish-brown with visible specks of bran.
+- **Hammer mill**: If available, a hammer mill with a 0.5-1 mm screen produces fine, uniform flour at much higher throughput (50-100 kg/hour). This requires mechanical power (electric motor, diesel engine, or water wheel).
+- **Sieve the flour**: Pass freshly ground flour through a fine sieve (0.5-1 mm mesh) to remove coarser bran particles and any unground seeds. Re-mill the oversize fraction. The finest flour is preferred for brewing; coarser flour is acceptable for porridge.
+- **Whole grain vs. refined flour**: Finger millet bran contains most of the calcium and fiber. Whole grain flour contains 344 mg calcium per 100g — one of the highest calcium levels of any cereal grain. Refining removes 60-80% of the calcium. For civilization bootstrapping, always use whole grain flour.
+
+**Flour and cooking**:
+
+Finger millet flour has no gluten and produces dense, heavy baked goods. It is best suited for:
+
+- **Porridge (ragi mudde/kali)**: Mix 1 part flour with 3 parts cold water to prevent lumps. Bring to a boil while stirring constantly. Cook 10-15 minutes until thick. Shape into balls or serve as a thick porridge. This is the staple preparation in Karnataka and parts of East Africa.
+- **Flatbread (ragi roti)**: Mix flour with hot water and a pinch of salt to form a stiff dough. Flatten into thin rounds on a floured surface. Cook on a hot griddle or flat stone for 2-3 minutes per side. The bread is dense and slightly sour.
+- **Fermented porridge (ambali)**: Soak flour in water overnight. The natural lactic acid bacteria produce a tangy fermentation. Cook the fermented batter for 10 minutes. Fermentation improves mineral bioavailability by breaking down phytic acid.
+
+**Brewing — finger millet beer**:
+
+Finger millet is the preferred grain for traditional beer brewing across East Africa (where it is called "busaa," "ajon," or "omalwa") and parts of India. The beer is a thick, sour, nutritious beverage consumed as both food and drink:
+
+1. **Malting (3 days)**: Soak whole grain in water for 12-24 hours. Drain and spread in a 5-8 cm layer on a clean surface. Keep moist and in the dark at 25-30°C. Sprouts appear in 24-48 hours. Allow to germinate until the shoot is 1.5-2× the grain length (typically 3 days). The malting process activates amylase enzymes that will convert starch to fermentable sugars during mashing. Malt quality is critical: under-modified malt has insufficient enzymes, over-modified malt is depleted of starch.
+2. **Drying and grinding**: Dry the green malt in the sun or over low heat (below 50°C to preserve enzymes) until brittle. Mill to a coarse flour.
+3. **Mashing**: Mix malt flour with water at 60-65°C (ratio 1:4 by weight). Hold at this temperature for 2-4 hours. The amylase enzymes convert starch to maltose and other sugars. Test by tasting — the mash becomes progressively sweeter as starch converts.
+4. **Fermentation (3-5 days)**: Cool the sweet mash to room temperature. Add a starter culture (saved from a previous batch, or rely on wild yeast and lactic acid bacteria). Cover and ferment 3-5 days. The fermentation produces 2-4% alcohol, significant lactic acid (giving a sour taste), and B vitamins. Stir daily.
+5. **Serving**: Strain through a coarse sieve to remove solids. The beer is served fresh and consumed within 1-2 days. It is thick, sour, slightly sweet, and highly nutritious — providing calories, protein, B vitamins, and minerals.
+
+Finger millet beer is a particularly valuable food preservation strategy because the malting process increases the bioavailability of calcium and iron, and the fermentation produces B vitamins not present in the raw grain. A typical serving (500 ml) provides 200-400 kcal.
+
+### Exceptional Storage Quality
+
+Finger millet has perhaps the best storage characteristics of any cereal grain. The tight glumes and dense seed coat create a natural barrier against insects, moisture, and fungal contamination. Reports from India and Africa document finger millet remaining viable and edible after 10-50 years of storage when kept dry and protected from rodents. This extraordinary longevity makes it the premier famine reserve grain in traditional farming systems across semi-arid Africa and South Asia.
+
+Storage method: dry grain to below 12% moisture (lower than the 14% standard for most grains). Store in sealed clay pots, underground pits lined with ash, or elevated granaries. Mix with wood ash or diatomaceous earth at 1-2% by volume as additional insect protection. Inspect every 3-6 months for moisture or pest damage. Grain stored on the head (unthreshed) keeps longest because the glumes provide maximum protection.
+
+### Calcium and Nutritional Significance
+
+Finger millet is the richest source of calcium among cereal grains: 344 mg/100g in whole grain flour, compared to 30-50 mg/100g for wheat, rice, and maize. This is 3-4× the calcium content of milk on a per-calorie basis. In regions where dairy products are unavailable, finger millet provides the dietary calcium essential for bone health, particularly for children and pregnant women. The iron content (3.9-12.6 mg/100g depending on variety and processing) is also significantly higher than in most other cereals.
+
+The calcium in finger millet is predominantly bound as calcium oxalate, which has lower bioavailability than the calcium in dairy. However, traditional processing methods improve this: malting increases calcium bioavailability by 30-50%, and fermentation (as in sour porridge or beer) increases it further by breaking down oxalate complexes. Pounding or milling also disrupts the seed coat matrix, releasing bound minerals.
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

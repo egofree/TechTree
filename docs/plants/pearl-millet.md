@@ -78,6 +78,87 @@ A millet grass. It is an annual grass. It grows to 3 m tall. The leaf blades are
 
 ### Edible Parts and Preparation
 
+#### Harvesting
+
+Pearl millet heads mature progressively from the top of the panicle downward. Unlike wheat or rice, the heads do not all mature simultaneously, which complicates harvest timing:
+
+1. Harvest when grains in the upper two-thirds of the panicle are hard and the lower grains have turned from green to grey-white. Some lower grains may still be at dough stage — this is acceptable.
+2. **Hand harvesting**: Cut individual heads with a sickle or knife. Some varieties require 2-3 passes as heads mature at different rates. This is the most common method in traditional agriculture.
+3. **Whole-plant harvest**: Cut the entire stalk at ground level with a sickle when 80% of heads are mature. Bundle and stand upright in shocks to dry for 3-5 days before threshing.
+4. **Bird damage** is a serious risk during grain fill — the exposed panicle is highly visible. Harvest promptly at maturity rather than leaving heads in the field. Scare devices (strings with rattling objects, children guarding fields) are traditional deterrents.
+
+#### Threshing
+
+Separating grain from the head requires effort because pearl millet grain is tightly held in the dense, cylindrical panicle:
+
+1. **Hand beating**: Place dried heads on a hard, clean surface (packed earth, stone slab, or tarp). Beat with wooden sticks or flails. The small, round grains dislodge from the dense flower head. Throughput: 10-20 kg/hour per person.
+2. **Treading**: Spread heads on a threshing floor and drive livestock (cattle, donkeys) in circles over them. The hooves crush the heads and release grain. Sweep up the mixture and winnow. Throughput: 50-100 kg/hour.
+3. **Mortar and pestle**: Place heads in a large wooden mortar and pound with a heavy pestle. Effective but labor-intensive. Used for small batches.
+4. **Winnowing**: Toss the threshed mixture (grain + chaff + head fragments) into a light breeze from a wide, flat basket. The light chaff and head fragments blow away; the dense, round grains (pearl-like, specific gravity ~1.3) fall straight down. Repeat 4-6 times until grain is clean. Pearl millet winnows more easily than finger millet because the grains are larger and rounder.
+
+#### Dehulling and Milling
+
+Pearl millet grain has a hard outer pericarp (seed coat) that is fibrous and slightly bitter. Dehulling improves flour quality, taste, and digestibility:
+
+1. **Abrasive dehulling** (traditional method): Place grain in a stone or wooden mortar. Pound gently with a pestle — the goal is to abrade off the outer pericarp without crushing the inner endosperm. Winnow to separate the lighter bran (pericarp fragments) from the heavier dehulled grain. Repeat 2-3 times. Dehulling efficiency: 70-80% of the pericarp removed. Loss of grain: 10-15% (some endosperm breaks and is winnowed away with the bran).
+2. **Abrasive mill** (improved technology): A rotary stone or iron mill with an abrasive grinding surface. Grain passes through a narrow gap where the outer layer is scraped off. More efficient and consistent than hand pounding, but requires a mechanically driven mill (water wheel, animal power, or engine). Dehulling efficiency: 85-95%.
+3. **Wet dehulling**: Soak grain in water for 2-4 hours, then rub by hand or pound gently in a mortar. The water softens the pericarp, making it easier to remove. Drain and dry the dehulled grain before milling to flour. This method is common in West Africa for making fura (millet dumplings).
+
+#### Flour Production
+
+1. **Whole grain flour**: Grind whole grain (without dehulling) on a stone mill or mortar. Produces a greyish, speckled flour with higher fiber and mineral content but a slightly bitter, earthy flavor. Storage: 1-3 months (the bran contains fat that goes rancid).
+2. **Refined flour**: Grind dehulled grain to a fine powder (below 0.5 mm particle size). Produces a lighter, cream-colored flour with milder flavor. Storage: 3-6 months.
+3. **Fermented flour** (traditional West African and Indian method): The key processing step that transforms millet flour from ordinary to exceptional:
+   - Soak whole grain in water for 12-24 hours to initiate germination.
+   - Drain, then grind the wet grain into a batter on a stone or mortar.
+   - Cover the batter and allow to ferment for 12-48 hours at 25-35°C. Lactic acid bacteria naturally present on the grain produce acid (pH drops to 3.5-4.0), which inhibits pathogenic bacteria, improves flavor (tangy, slightly sour), and breaks down phytic acid (an anti-nutrient that binds iron and zinc).
+   - Use the fermented batter immediately for flatbreads, or sun-dry into flour for storage. Fermented millet flour keeps for 3-6 months and has improved mineral bioavailability.
+4. **Flatbreads**: The primary food form. Mix millet flour (or fermented batter) with water and salt. Knead into a dough (millet dough is less elastic than wheat dough — it cracks rather than stretches). Press flat by hand or with a rolling pin to 2-3 mm thickness. Cook on a hot clay or iron griddle for 1-2 minutes per side. Common names: roti (India), kisra (Sudan), injera-adjacent breads (Ethiopia, though teff is preferred).
+
+#### Brewing
+
+Pearl millet is a traditional brewing grain across sub-Saharan Africa, producing opaque beers with moderate alcohol content (2-5% ABV) and significant nutritional value (B vitamins, amino acids, lactic acid):
+
+1. **Malting** (3-5 days):
+   - Soak grain in water for 12-24 hours to initiate germination.
+   - Drain and spread grain 3-5 cm deep on a clean surface. Keep moist (sprinkle water 2-3 times daily) and covered with damp cloth or leaves. Germinate at 25-30°C.
+   - Allow to sprout until the rootlet is 1.5-2× the grain length (3-5 days). The sprouting process activates amylase enzymes that will convert starch to fermentable sugars.
+   - Dry the malted grain in the sun for 1-2 days or kiln-dry at 50-60°C. The drying stops germination and preserves the enzymes. Mill to a coarse flour.
+
+2. **Mashing and fermentation** (3-7 days):
+   - Mix malted millet flour with water (1:4 to 1:6 ratio by weight) in a clay vessel. Heat gradually to 60-70°C and hold for 1-2 hours — the amylase enzymes convert starch to maltose sugar (saccharification). The liquid sweetens.
+   - Allow to cool to below 40°C. Strain out coarse solids (optional — traditional opaque beers retain the solids).
+   - Add a portion of unmalted, lactic-acid-fermented millet flour as a "starter" to introduce lactic acid bacteria. Allow lactic fermentation for 24-48 hours (the liquid sours). This drops the pH below 4.0, creating an environment hostile to pathogenic bacteria.
+   - Add wild yeast (present on grain surfaces and in the air, or introduce from a previous batch). Ferment at 25-30°C for 2-5 days. The yeast converts sugar to alcohol and CO₂.
+   - The result is an opaque, pinkish-tan, slightly sour beer with low carbonation. Serve fresh (within 24-48 hours) — it does not keep. Nutritional value is significant: the beer contains calories, protein, B vitamins, and lactic acid. In many African cultures, millet beer is a food as much as a beverage.
+
+#### Stover (Stalks and Leaves)
+
+After grain harvest, the stalks and leaves (stover) have important uses:
+
+- **Animal fodder**: Pearl millet stover is more palatable and digestible than sorghum stover. Graze animals on standing stover or cut and carry to stalls. Crude protein: 4-6% in dry stover (lower than grain but significant as a dry-season feed).
+- **Fuel**: Dry stalks burn readily. Heating value ~14-16 MJ/kg dry. Used as cooking fuel throughout the Sahel.
+- **Construction**: Stalks used as wattle infill in mud walls, thatch for roofs, and temporary fencing.
+- **Mulch and compost**: Shredded stover applied as mulch or composted to return organic matter to the soil.
+
+#### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Days to maturity | 75-180 | Variety-dependent |
+| Threshing throughput (hand) | 10-20 kg/hour | Per person |
+| Threshing throughput (treading) | 50-100 kg/hour | With livestock |
+| Dehulling efficiency (hand) | 70-80% | Of pericarp removed |
+| Dehulling efficiency (mill) | 85-95% | Abrasive rotary mill |
+| Fermented flour pH | 3.5-4.0 | Lactic acid fermentation |
+| Malting time | 3-5 days | At 25-30°C |
+| Rootlet length at malt readiness | 1.5-2× grain length | Enzymes fully activated |
+| Brewing fermentation | 3-7 days total | Lactic + alcoholic |
+| Beer alcohol content | 2-5% ABV | Traditional opaque beer |
+| Stover crude protein | 4-6% (dry) | Dry-season fodder |
+| Flour storage (whole) | 1-3 months | Bran goes rancid |
+| Flour storage (dehulled) | 3-6 months | Lower fat content |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

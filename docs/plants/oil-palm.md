@@ -78,6 +78,60 @@ An unbranched palm with a stout erect stem. The stem is rough due to the leaf ba
 
 ### Edible Parts and Preparation
 
+### Palm Oil Extraction (from fruit flesh)
+
+Palm oil is extracted from the fleshy mesocarp (pulp) surrounding the seed. This is the primary oil product, accounting for approximately 90% of total oil output from the palm.
+
+1. **Harvesting**: Cut ripe fruit bunches from the palm using a long-handled chisel or sickle. Ripe fruit bunches weigh 20-50 kg and contain 1,000-3,000 individual fruits. Indicators of ripeness: 5-10 fruits detached per bunch, orange-red color, rounded fruit shape.
+2. **Sterilization**: Load fresh fruit bunches into a sterilizer (steel or concrete chamber). Steam at 130°C for 30-60 minutes under pressure. This serves three purposes: (a) stops enzymatic lipolysis that would increase free fatty acids and produce rancid oil, (b) loosens fruit from the bunch stalk, and (c) softens the mesocarp for easier pressing.
+3. **Threshing (stripping)**: Separate individual fruits from the bunch stalk. In manual processing, beat the bunch with a wooden club or tread on it. In mechanized processing, use a rotary drum thresher. The empty bunch stalks are burned for fuel or composted.
+4. **Digestion (mashing)**: Mash the fruits in a digestion vessel at 80-90°C for 15-30 minutes. This breaks down the mesocarp tissue and releases oil cells. Traditional method: pound fruits in a large wooden mortar. Mechanical method: use a steam-heated horizontal shaft with stirring arms.
+5. **Pressing**: Press the digested fruit mash to extract oil. Use a screw press (expeller) at 80-90°C, applying progressive pressure. Palm oil flows out through a perforated cage while the pressed fiber (containing residual oil, ~5-10%) exits the discharge end. At village scale, use a simple hand-cranked screw press or hydraulic press.
+6. **Clarification**: The crude press oil is a mixture of oil, water, cell debris, and fine fiber. Heat to 80-100°C and allow to settle. The oil floats and is skimmed or decanted. For cleaner oil, pass through a vibrating screen, then a clarification tank where oil separates from sludge over 2-4 hours. Final purification by centrifugation if available.
+7. **Drying**: Heat clarified oil to 100-105°C to remove residual moisture (below 0.1% moisture prevents hydrolysis and rancidity during storage).
+
+### Palm Kernel Oil Extraction (from seed)
+
+Palm kernel oil comes from the seed (kernel) inside the hard shell. It is chemically and physically distinct from palm oil — higher in lauric acid (C12), similar to coconut oil.
+
+1. **Nut cracking**: After pressing the fruit for palm oil, the remaining material consists of pressed fiber and nuts (seeds in hard shells). Separate nuts from fiber using a winnowing column or hand-sorting. Crack nuts to release kernels using a centrifugal cracker (motorized) or between flat stones (manual). The shell-to-kernel ratio is approximately 55:45 by weight.
+2. **Kernel separation**: Separate kernels from shell fragments. Traditional method: winnowing and hand-picking. Better method: clay bath separation — kernels float in a slurry of clay and water (specific gravity 1.18-1.20) while shell fragments sink.
+3. **Kernel drying**: Dry kernels to 6-8% moisture before pressing. Sun-dry on raised racks for 2-3 days or use a forced-air dryer at 55-60°C.
+4. **Kernel pressing**: Press dried kernels in a screw press at 70-80°C. Kernel oil yield is 44-50% of kernel weight. Alternatively, use solvent extraction (hexane) for higher yield.
+5. **Kernel oil clarification**: Filter and settle as for palm oil. Palm kernel oil is solid at room temperature below approximately 25°C (melting point 24-28°C) and white in color.
+
+### Palm Oil vs Palm Kernel Oil: Comparison
+
+| Property | Palm Oil (from mesocarp) | Palm Kernel Oil (from seed) |
+|----------|--------------------------|------------------------------|
+| Color | Reddish-orange (β-carotene) | White to pale yellow |
+| Main fatty acid | Palmitic acid (C16, 44%) | Lauric acid (C12, 48%) |
+| Melting point | 33-40°C | 24-28°C |
+| Primary uses | Cooking oil, margarine, shortening | Soap, cosmetics, confectionery |
+| Volume ratio | ~90% of total oil output | ~10% of total oil output |
+| Carotene content | 500-700 ppm β-carotene | Negligible |
+| Iodine value | 50-55 | 14-21 |
+| Saponification value | 196-205 | 240-255 |
+
+### Oil Yield and Production Parameters
+
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| Fresh fruit bunch (FFB) weight | 20-50 kg | Per bunch |
+| Oil extraction rate from FFB | 20-25% | Palm oil from mesocarp |
+| Kernel extraction rate from FFB | 4-6% | Kernel weight |
+| Kernel oil content | 44-50% | Of kernel weight |
+| Annual oil yield | 3-6 tonnes/ha | Highest of any oil crop |
+| Comparison: soybean | 0.4-0.6 tonnes/ha | 5-10× lower than oil palm |
+| Comparison: rapeseed | 0.7-1.2 tonnes/ha | 3-5× lower than oil palm |
+| Comparison: sunflower | 0.5-1.0 tonnes/ha | 4-6× lower than oil palm |
+| Sterilization conditions | 130°C, 30-60 min steam | Deactivates lipase enzyme |
+| Pressing temperature | 80-90°C | Palm oil extraction |
+| Free fatty acid limit | <5% (crude) | Higher = rancid, enzymatic damage |
+| Bearing age | 4-6 years after planting | Productive life 25-35 years |
+
+Oil palm produces **the highest oil yield per hectare of any crop on Earth**: 3-6 tonnes of oil per hectare per year. This is approximately 9 times more than soybean and 4.5 times more than rapeseed, making it extraordinarily land-efficient for oil production. A single hectare of mature oil palm can supply the annual cooking oil needs of 200-400 people (at 15 kg/person/year).
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

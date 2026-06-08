@@ -76,6 +76,52 @@ A plant that takes 2 years to complete its life-cycle. It grows 30 cm-1 m high. 
 
 ### Edible Parts and Preparation
 
+#### Harvesting
+
+Cultivated carrots reach harvestable size 60-80 days after sowing for baby carrots, 70-100 days for full-size roots. Harvest by grasping the leaf crown firmly and pulling straight up; in heavy soils, loosen with a fork first to avoid breakage. First-year roots are the primary food — once the plant bolts (sends up a flower stalk in the second year), the root becomes woody, fibrous, and bitter.
+
+Harvest indicators: roots are 1.5-4 cm in diameter at the shoulder; the top of the root is visible at the soil surface. Late-season harvests (after first frost) improve sweetness as cold triggers starch-to-sugar conversion. For wild carrot (*Daucus carota subsp. carota*), harvest first-year roots in autumn or early spring before the flowering stem develops.
+
+Cut leaf tops to 2-3 cm above the crown immediately after harvest — leaving the full top on draws moisture from the root during storage. Do not wash roots intended for long storage; soil left on the skin provides a protective layer.
+
+#### Storage
+
+Carrots are among the best-storing root vegetables when conditions are correct. Optimal storage parameters:
+
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| Temperature | 0-1°C | Near-freezing; slows respiration and decay |
+| Relative humidity | 95-100% | Prevents desiccation (wilting, limpness) |
+| Storage life | 4-6 months | Under optimal conditions |
+| Alternative: cool sand | 2-8°C, buried in damp sand | Traditional root cellar method |
+
+For storage without refrigeration: pack unwashed carrots in layers of damp sand or sawdust in wooden crates or clay pots, keeping roots from touching each other. Store in a root cellar, unheated basement, or insulated pit below the frost line (minimum 60 cm depth). Inspect monthly and remove any roots showing soft spots or mold — decay spreads rapidly between adjacent roots.
+
+Do not store near apples, pears, or other ethylene-producing fruits — ethylene gas causes carrots to develop a bitter flavor through accumulation of isocoumarin compounds.
+
+#### Seed Production (Biennial Cycle)
+
+Carrot is a biennial: it produces an edible root in year one and flowers and seeds in year two. Seed saving requires overwintering selected roots (vernalization):
+
+1. Select the best roots for seed stock — largest, straightest, most vigorous, true to type. Harvest in autumn.
+2. Trim tops to 2-3 cm. Store roots at 1-4°C for 60-90 days (vernalization period). The cold period triggers the reproductive response.
+3. Replant selected roots in early spring, spaced 30-45 cm apart. The root regenerates top growth and sends up a branched flower stalk 0.6-1.2 m tall.
+4. Flowers open in umbels (flat-topped clusters) over 4-6 weeks. Carrots are outcrossing and insect-pollinated — isolation distance of 300+ m from wild carrot (Queen Anne's lace) is essential to prevent cross-pollination, which produces tough, white, unpalatable roots in the next generation.
+5. Seeds mature 4-6 weeks after flowering. Harvest umbels as they turn brown and dry. Thresh by rubbing dried umbels between hands. Winnow to separate seed from chaff.
+6. Dry seed to below 10% moisture. Carrot seed retains viability for 2-3 years under cool, dry storage.
+
+Seed yield: 50-100 g per plant. Approximately 500-800 seeds per gram.
+
+#### Cooking Methods
+
+- **Boiling**: Slice or dice roots, cover with water, boil 10-15 minutes until fork-tender. Retains moderate nutrients. Boiling water dissolves some water-soluble vitamins (C, B vitamins); use the cooking liquid in soups to recover nutrients.
+- **Steaming**: Whole or sliced carrots steam in 15-20 minutes. Preserves more vitamins than boiling. No nutrient loss to cooking water.
+- **Roasting**: Toss whole baby carrots or 1 cm slices in oil, roast at 190-200°C for 25-35 minutes. Dry heat caramelizes natural sugars, producing the sweetest result. The Maillard reaction creates additional flavor compounds.
+- **Raw**: Grate or julienne for salads. Raw carrot provides maximum vitamin C (6 mg/100g) and the most intact dietary fiber. Pair with a fat source (oil dressing) to improve beta-carotene absorption — the orange pigment is fat-soluble.
+- **Preservation**: Carrots can be lacto-fermented (grate, salt at 2% by weight, pack tightly in brine), pickled in vinegar, or sliced and sun-dried (2-3 days, turning hourly) for long-term storage.
+
+Nutritionally, cooking breaks down cell walls and increases beta-carotene bioavailability by 2-3× compared to raw carrot. A single medium carrot (60 g) provides approximately 200% of daily vitamin A requirements (as beta-carotene).
+
 ## Quantitative Parameters
 
 ### Growing Parameters

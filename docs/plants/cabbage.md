@@ -76,6 +76,20 @@ A cabbage family herb. It is an annual plant. It grows 1.2 m high and spreads 1 
 
 ### Edible Parts and Preparation
 
+**Leaves** are the primary harvest. Cabbage (*Brassica oleracea*, Capitata Group) forms a compact head of overlapping leaves that can be green, red/purple, or Savoy-type (crinkled). Raw cabbage is 92% water, 25 kcal/100g, with 1-2% protein and 36 mg vitamin C/100g. It is rich in vitamin K (76 μg/100g) and glucosinolates (sulfur compounds with anticancer properties).
+
+**Raw preparation**: Shred or slice thinly for salads and slaws. Raw cabbage has a crunchy texture and slightly peppery, sulfurous flavor. Red cabbage adds color; its anthocyanin pigments turn blue in alkaline conditions (add a splash of vinegar to cooking water to maintain red color).
+
+**Cooked preparation**:
+- **Boiling**: Shred and boil 5-8 minutes. Longer cooking produces sulfurous odors (hydrogen sulfide from glucosinolate breakdown). Cook just until tender-crisp.
+- **Sautéing**: Shred and cook in fat over medium-high heat for 8-12 minutes, stirring frequently. Browning develops sweetness through caramelization of natural sugars.
+- **Steaming**: Place wedges in a steamer basket over boiling water for 6-10 minutes. Preserves more nutrients than boiling.
+- **Braising**: Brown wedges in fat, then add liquid (stock, water, or wine) and simmer covered for 20-30 minutes. Produces tender, flavorful cabbage.
+
+**Edible flowers** (*Brassica oleracea*, Botrytis Group — cauliflower; Italica Group — broccoli): The condensed flower heads are harvested before buds open. Boil or steam 5-8 minutes. Overcooked brassica flowers produce strong sulfur compounds — cook briefly.
+
+**Multi-crop from one species**: *B. oleracea* has been bred into remarkably diverse forms: headed cabbage (leaves), kale (loose leaves), broccoli (flower buds), cauliflower (hypertrophied flower meristems), Brussels sprouts (axillary leaf buds), kohlrabi (swollen stem), and collards (large loose leaves). All are prepared similarly and offer interchangeable nutrition in a garden plan.
+
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -92,11 +106,63 @@ A dynamic accumulator gathering minerals or nutrients from the soil and storing 
 
 ### Storage
 
-Harvest at peak maturity and process promptly. Most plant products can be preserved by drying, fermenting, or storing in cool conditions. Test storage readiness by checking for residual moisture — properly dried material should be brittle, not flexible. Label all stored products with harvest date and variety.
+**Fresh storage**: Cabbage heads store remarkably well under cold, humid conditions. Late-maturing, firm, dense-headed varieties (e.g., storage cabbage, Dutch types) store longest. Harvest before hard frost; leave 2-3 wrapper leaves on the head for protection.
+
+| Method | Temperature | Humidity | Duration | Notes |
+|--------|-------------|----------|----------|-------|
+| Root cellar | 0-1°C | 95-98% | 3-5 months | Hang upside down by roots, or pack in straw |
+| Trench (outdoor) | 1-4°C | High | 2-4 months | Dig trench below frost line, layer heads in straw |
+| Refrigeration | 0-4°C | Plastic bag | 2-4 weeks | Firm, dense heads only |
+| Fermented (sauerkraut) | 2-5°C after ferment | In brine | 6-12 months | See fermentation process below |
+
+**Root cellar technique**: Harvest cabbage with roots intact. Hang upside down from rafters in a root cellar at 0-1°C, 95-98% humidity. The roots continue to supply moisture to the head, preventing wilting. Alternatively, wrap heads individually in newspaper and pack in crates. Remove outer leaves that yellow during storage — the inner head remains usable.
+
+### Fermentation: Sauerkraut
+
+Lacto-fermentation is the most important preservation method for cabbage, producing sauerkraut — a tangy, probiotic food that stores for months without refrigeration:
+
+1. **Shred**: Remove outer leaves and core. Shred cabbage finely (1-2 mm strips) using a knife, mandoline, or kraut cutter. Finer shredding releases more juice for brine formation.
+
+2. **Salt**: Add salt at 2-3% by weight (20-30 g salt per kg shredded cabbage). Kosher or sea salt preferred — iodized salt can inhibit fermentation. Mix thoroughly and let stand 10-15 minutes. Salt draws water from the cells through osmosis, creating a brine that excludes oxygen and selects for lactic acid bacteria.
+
+3. **Pack**: Press salted cabbage firmly into a clean fermentation vessel (stoneware crock, glass jar, or food-grade ceramic pot). Pack tightly to eliminate air pockets. The liquid (brine) should cover the cabbage completely. Weight down with a clean stone, plate, or water-filled bag to keep cabbage submerged — any cabbage exposed to air will mold rather than ferment.
+
+4. **Ferment**: Hold at 18-22°C for 3-4 weeks. Lactic acid bacteria (primarily *Leuconostoc mesenteroides* in early stages, succeeded by *Lactobacillus plantarum*) convert sugars to lactic acid. The pH drops from ~6.5 to 3.4-3.7. Taste after 2 weeks; ferment longer for more sour flavor. Bubbles and slight frothing are normal signs of active fermentation. A white film (kahm yeast) on the surface is harmless — skim it off. Colored or fuzzy mold indicates contamination; remove affected area plus 5 cm margin.
+
+5. **Store**: Once desired sourness is reached, move to cool storage (2-5°C). Sauerkraut in sealed crocks keeps for 6-12 months. The low pH (3.4-3.7) prevents pathogenic bacteria growth. For longer storage, pack in sterilized jars and process in a water bath (100°C, 15-20 minutes) — this halts fermentation but kills spoilage organisms.
+
+**Yield**: 1 kg fresh cabbage → approximately 900 g sauerkraut. The process preserves most of the vitamin C content (raw cabbage: 36 mg/100g; sauerkraut: 15-20 mg/100g) and increases B vitamins through bacterial synthesis.
+
+### Seed Saving (Biennial Lifecycle)
+
+Cabbage is a **biennial** — it produces leaves in year 1 and flowers/seeds in year 2. Seed saving requires overwintering the plant:
+
+1. Select the healthiest, truest-to-type plants for seed stock. Dig up the entire plant with roots in late autumn.
+2. Store overwinter in a root cellar at 0-4°C, 90-95% humidity. Replant in early spring.
+3. The plant sends up a tall flower stalk (1-1.5 m) in spring. Flowers are cross-pollinated by insects — isolate from other *B. oleracea* varieties (broccoli, kale, Brussels sprouts) by at least 800 m to prevent crossbreeding.
+4. Seed pods (siliques) mature 60-90 days after flowering. Harvest when pods turn brown and dry. Thresh by hand or flail.
+5. Seed yield: 20-50 g per plant. Cabbage seed remains viable for 3-5 years when stored cool, dry, and dark.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Cabbage yield | 30-60 tonnes/ha | Fresh head weight |
+| Heads per hectare | 30,000-60,000 | At 40-50 cm spacing in 60-75 cm rows |
+| Head weight | 0.5-3.5 kg | Varies by variety |
+| Fresh storage temperature | 0-1°C | Optimal; warmer = shorter storage |
+| Fresh storage humidity | 95-98% | Prevents leaf desiccation |
+| Fresh storage duration | 3-5 months | Late, firm varieties |
+| Sauerkraut salt rate | 2-3% | By weight of shredded cabbage |
+| Sauerkraut fermentation | 18-22°C, 3-4 weeks | pH drops to 3.4-3.7 |
+| Sauerkraut yield | ~90% | From fresh cabbage weight |
+| Seed isolation distance | 800+ m | From other *B. oleracea* varieties |
+| Seed yield | 20-50 g/plant | Biennial — flowers in year 2 |
+| Seed viability | 3-5 years | Cool, dry, dark storage |
 
 ### Material Handling
 
-Handle cabbage produce with clean hands and tools to prevent contamination. Remove field heat promptly after harvest by moving product to shade. Process within the recommended timeframe to prevent quality loss. Compost crop residues and processing waste to return organic matter to the soil. Label stored products with harvest date, variety, and any treatments applied.
+Harvest cabbage by cutting the stem at ground level with a sharp knife or sickle. For storage cabbage, pull the entire plant (roots intact) for root cellar hanging. Remove only the loosest, damaged outer leaves — wrapper leaves protect the head during storage. Cabbage is remarkably tough and withstands handling better than leafy greens, but avoid bruising the head, which creates entry points for *Botrytis* and *Sclerotinia* rot. Outer leaves removed during processing are excellent livestock fodder or compost material. Sauerkraut brine (leftover liquid) contains lactic acid and probiotics — drink as a tonic, use as a soup base, or add to bread dough as a flavoring and acidulant.
 
 ## Scaling Notes
 

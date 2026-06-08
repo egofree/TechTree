@@ -78,6 +78,20 @@ An upright annual herb up to 1 m high. It spreads to 1 m across. It has angular 
 
 ### Edible Parts and Preparation
 
+**Seeds (groats)** are the primary harvest. Buckwheat seeds (*Fagopyrum esculentum*) are triangular, 5-7 mm across, with a dark brown to black hull surrounding a white starchy interior. Despite the name, buckwheat is not a cereal — it is a pseudocereal in the Polygonaceae family, unrelated to wheat. It contains no gluten.
+
+**Groats preparation**: Raw groats have a tough, fibrous hull that must be removed. After dehulling, the groat (seed interior) can be cooked whole like rice: simmer 1 part groats in 2 parts water for 15-20 minutes until tender. Toasted groats are known as *kasha* in Eastern European cuisine — dry-roast groats in a hot pan (180-200°C) for 3-5 minutes, stirring constantly, until fragrant and golden-brown. Toasting reduces bitterness and develops a nutty flavor. Toasted groats cook faster (10-12 minutes) and have a firmer texture.
+
+**Flour**: Buckwheat flour comes in two grades:
+- **Light flour** (from hulled groats): Pale, mild-flavored, higher in starch. Used for pancakes, crêpes (galettes in Brittany), and noodles (soba in Japan).
+- **Dark flour** (from whole seeds including hull fragments): Dark speckled, stronger flavor, higher in fiber and rutin. Used for pumpernickel-style breads and hearty pancakes. Mixed with wheat flour at 20-30% for composite breads — buckwheat's lack of gluten prevents rising if used alone.
+
+Buckwheat flour is 10-12% protein with a well-balanced amino acid profile (rich in lysine, unlike most cereals). It spoils faster than wheat flour due to higher fat content — store in cool conditions and use within 3-6 months.
+
+**Leaves** are edible raw or cooked like spinach. Harvest young leaves before flowering for tenderness. Cooking improves flavor and digestibility. Leaves contain up to 6% rutin (a flavonoid that strengthens blood vessel walls), making them the richest dietary source of this compound.
+
+**Flowers** produce nectar yielding dark, strong-flavored honey. Buckwheat honey has a distinctive molasses-like taste and is rich in antioxidants. One hectare of flowering buckwheat can support 2-3 beehives, producing 60-150 kg honey per season.
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -103,11 +117,49 @@ An excellent green manure plant, buckwheat can be used to reclaim badly degraded
 
 ### Storage
 
-Dry seeds thoroughly to below 14% moisture content before storage. Spread in thin layers on drying racks in full sun, stirring periodically. Test dryness by biting: properly dried seeds crack rather than dent. Store in airtight containers (ceramic jars with tight lids, sealed woven bags) in a cool, dry, dark location. Protect from rodents and insects with tight lids or by mixing with inert ash. Under good conditions, dried grains and legumes store for 1-5 years with minimal loss.
+**Dried seed**: Buckwheat stores well as whole seed at below 13% moisture in sealed containers. The thick hull provides protection against moisture and pests. Whole seed retains quality for 2-3 years in cool, dry storage. Monitor for pantry moths (*Plodia interpunctella*) and weevils.
+
+**Flour storage**: Buckwheat flour has a shorter shelf life than wheat flour due to 2-3% fat content that oxidizes and turns rancid. Store in airtight containers at 5-10°C for up to 6 months; at room temperature, use within 2-3 months. Whole seed ground fresh produces the best-flavored flour. Rancid flour has a paint-like odor.
+
+**Groats (hulled)**: Store dehulled groats in airtight containers at cool temperatures for 6-12 months. Toasted groats (kasha) have slightly longer shelf life because toasting denatures lipase enzymes that cause rancidity.
+
+### Harvesting and Threshing
+
+Buckwheat's indeterminate flowering habit means seeds ripen unevenly over several weeks. The critical harvest decision:
+
+- **Timing**: Harvest when approximately 75% of seeds have turned from green to dark brown. If you wait for 100%, the earliest seeds will have already shattered (fallen from the plant). At 75% brown seed, the crop has reached maximum yield.
+- **Method**: Cut plants with a sickle or scythe when morning dew is still present (dew reduces shattering). Gather cut plants into sheaves and stand upright in the field to dry for 3-5 days (shocking). The residual moisture in the stem allows late seeds to continue ripening during this curing period.
+- **Threshing**: Flail the dried sheaves on a hard surface. Buckwheat threshes relatively easily — the small, triangular seeds separate from the chaff with moderate beating. Throughput with hand flailing: 15-30 kg/hour.
+- **Winnowing**: Pour threshed mixture from shoulder height in a light breeze (2-4 m/s). The lightweight chaff blows away; the heavy seeds (specific gravity ~1.2) fall straight down. Repeat 3-4 times. Buckwheat chaff is exceptionally light — winnowing is easier than for wheat or barley.
+
+### Milling and Processing
+
+1. **Dehulling**: Buckwheat hulls are thicker and more fibrous than cereal grain husks. Use a mortar and pestle or a mechanized dehuller (two abrasive surfaces with a gap slightly larger than the groat but smaller than the whole seed). Hull removal rate: 70-85% per pass; re-process un-hulled seeds. Hulls constitute 18-22% of whole seed weight.
+
+2. **Grinding for flour**: Grind dehulled groats on a stone mill or between flat stones. For light flour, sift through a 0.5 mm mesh to remove hull fragments. For dark flour, grind whole seed with hulls included (provides fiber and rutin but coarser texture). Grinding yield: 65-70% light flour or 85-90% dark flour from whole seed.
+
+3. **Groat sorting**: After dehulling, sort groats by size using a slotted screen or basket. Uniform groat size ensures even cooking. Discard broken and discolored groats (indicate mold or insect damage).
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Seed yield | 0.6-2.5 tonnes/ha | Varies widely; 800 kg/ha average |
+| Growing period | 70-130 days | From emergence to harvest |
+| Harvest trigger | 75% brown seeds | Balance ripeness vs. shattering |
+| Hull fraction | 18-22% | Of whole seed weight |
+| Protein content | 10-12% | Complete amino acid profile, rich in lysine |
+| Flour yield (light) | 65-70% | From whole seed to sifted flour |
+| Flour yield (dark) | 85-90% | From whole seed including hulls |
+| Flour storage (room temp) | 2-3 months | Higher fat content causes rancidity |
+| Flour storage (cool) | 6 months | Below 10°C, airtight |
+| Groats cooking time | 15-20 minutes | Raw; 10-12 minutes if pre-toasted |
+| Seed moisture (storage) | <13% | For whole seed storage |
+| Rutin content (leaves) | Up to 6% | Richest dietary source |
 
 ### Material Handling
 
-Handle buckwheat produce with clean hands and tools to prevent contamination. Remove field heat promptly after harvest by moving product to shade. Process within the recommended timeframe to prevent quality loss. Compost crop residues and processing waste to return organic matter to the soil. Label stored products with harvest date, variety, and any treatments applied.
+Buckwheat matures quickly (12 weeks to seed), making it an excellent catch crop — plant after a failed main crop to salvage the season. The plant's fibrous root system and rapid leaf canopy suppress weeds effectively. After harvest, buckwheat straw is softer and more decomposable than cereal straw; incorporate directly into soil as green manure. The hulls removed during dehulling make excellent mulch, pillow stuffing, or compost bulk material. Buckwheat inhibits germination of other seeds for a period after incorporation (allelopathic effect) — wait 2-3 weeks after turning under before planting the next crop.
 
 ## Scaling Notes
 

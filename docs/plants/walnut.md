@@ -65,6 +65,59 @@ This species grows as a perennial or annual depending on climate and management.
 
 Requires a deep well-drained loam and a sunny position sheltered from strong winds. Prefers a slightly alkaline heavy loam but succeeds in most soils. The walnut tree is reported to tolerate an annual precipitation of 31 to 147cm, an annual temperature in the range of 7.0 to 21.1°C and a pH in the range of 4.5 to 8.2. The dormant plant is very cold tolerant, tolerating temperatures down to about -27°C without serious damage, but the young spring growth is rather tender and can be damaged by late frosts. Some late-leafing cultivars have been developed, these often avoid damage from spring frosts and can produce a better quality timber tree. The walnut tree is frequently cultivated for its edible seed in temperate zones of the world, there are many named varieties. Newer cultivars begin producing nuts in 5 - 6 years; by 7 - 8 years, they produce about 2.5 tons of nuts per hectare. Orchards on relatively poor, unirrigated mountain soil report 1.5 - 2.25 tonnes per hectare, orchards in well cultivated valleys, 6.5 - 7.5 tonnes per hectare. According to the Wealth of India, a fully grown individual can yield about 185 kg, but 37 kg is more likely. Trees grow well in most areas of Britain but they often fail to fully ripen their fruits or their wood in our cooler and damper climate, they prefer a more continental climate. There are some very fine trees in Cornwall. Walnuts can produce large healthy trees in many parts of Britain, but seedling trees often do not fruit reliably. Some European varieties have been developed that succeed in colder areas. Seedling trees are said to take from 6 to 15 years to come into fruit from seed, but these cultivars usually start cropping within 5 years. Plants produce a deep taproot and they are intolerant of root disturbance. Seedlings should be planted out into their permanent positions as soon as possible and given some protection for their first winter or two since they are somewhat tender when young. Flower initiation depends upon suitable conditions in the previous summer. The flowers and young growths can be destroyed by even short periods down to -2°c, but fortunately plants are usually late coming into leaf. Some cultivars are self-fertile, though it is generally best to grow at least two different cultivars to assist in cross-pollination. Any pruning should only be carried out in late summer to early autumn or when the plant is fully dormant otherwise wounds will bleed profusely and this will severely weaken the tree. Plants produce chemicals which can inhibit the growth of other plants. These chemicals are dissolved out of the leaves when it rains and are washed down to the ground below, reducing the growth of plants under the tree. The roots also produce substances that are toxic to many plant species, especially apples (Malus species), members of the Ericaceae, Potentilla spp and the white pines (certain Pinus spp.). Trees have a dense canopy which tends to reduce plant growth below them. All in all, not the best of companion trees, it is also suggested that the trees do not like growing together in clumps. Trees are said to inhibit the growth of potatoes and tomatoes. Hybridizes with J. nigra. This species is notably susceptible to honey fungus. The bruised leaves have a pleasant sweet though resinous smell. Walnuts are usually harvested in autumn when the husks begin to split and turn brown. Walnuts generally flower in spring producing long catkins for male flowers and clusters for female flowers. Walnuts are moderate to fast-growing trees, typically reaching maturity in about 10 to 15 years, depending on the species and growing conditions. Propagation: The seed is best sown as soon as it is ripe in individual deep pots in a cold frame. You need to protect it from mice, birds, squirrels etc. The seed usually germinates in late winter or the spring. Plant out the seedlings into their permanent positions in early summer and give some protection from the cold for their first winter or two. The seed can also be stored in cool moist conditions (such s the salad compartment of a fridge) over the winter and sown in early spring but it may then require a period of cold stratification before it will germinate. Named varieties are propagated by budding.
 
+### Nut Harvesting and Processing
+
+Walnuts ripen in September-October when the green outer husk splits open and the nuts begin to drop. Harvest timing and post-harvest handling directly affect nut quality, storage life, and oil yield:
+
+1. **Harvesting**: Shake tree branches with long poles or wait for nuts to fall naturally. Gather fallen nuts within 1-2 days — nuts left on damp ground develop mold and off-flavors. A mature tree (15-20+ years) yields 20-50 kg of in-shell nuts per year. Full production begins at 15-20 years from grafted stock; 4-6 years for early-bearing cultivars.
+2. **Hulling**: Remove the green outer husk immediately after harvest. The husk contains juglone (a phenolic compound) that stains hands dark brown and can taint the nut flavor if left in contact. Use a mechanical huller for large volumes, or step on nuts in a slotted board for small batches. Wear gloves — the husk juice is a strong dye.
+3. **Drying**: Spread hulled nuts in a single layer on screens or racks. Dry at 30-35°C for 2-3 weeks with good air circulation. Properly dried walnuts have kernel moisture below 8% (test by cracking — the nutmeat should snap, not bend). Under-dried walnuts develop rancidity in storage. Solar drying works in warm climates; in humid regions, use a forced-air dryer or warm room.
+
+### Oil Pressing
+
+Walnut kernels contain 50-65% oil by weight, one of the highest oil contents among tree nuts:
+
+1. **Cold pressing**: Crack nuts and separate kernels from shells. Grind kernels coarsely with a stone mill or mortar. Press the ground kernel meal in a screw press, wedge press, or lever press at room temperature. Cold-pressed walnut oil yields 35-50% of kernel weight (lower than total oil content because some oil remains in the press cake).
+2. **Oil characteristics**: Light golden color, distinctive nutty flavor, high in polyunsaturated fatty acids (linoleic acid ~50%, linolenic acid ~10%). The oil is valued for culinary use (salad dressings, finishing oil) and for woodworking as a drying/finishing oil.
+3. **Storage**: Walnut oil goes rancid faster than most vegetable oils due to its high polyunsaturated fat content. Store in sealed, dark glass or ceramic containers in a cool location. Use within 3-6 months of pressing. Refrigeration extends shelf life to 12 months.
+
+### Hull Dye Extraction
+
+The green outer husk of unripe walnuts is one of the most important natural dye sources in temperate regions:
+
+1. **Harvesting husks**: Collect green husks from unripe nuts in July-August (before the husk splits), or use fresh green husks from early-harvested nuts. The dye compound is juglone (5-hydroxy-1,4-naphthoquinone), concentrated in the green hull tissue.
+2. **Dye extraction**: Chop green husks coarsely. Soak in water for 1-2 weeks, or simmer for 1-2 hours to extract the dye. Use a ratio of 1 kg husks to 5-10 liters of water. The resulting dye bath is dark golden-brown.
+3. **Dyeing**: Immerse pre-mordanted wool, cotton, or silk in the dye bath and simmer at 70-80°C for 1-2 hours. Walnut husk dye produces golden-brown to dark brown colors without requiring a mordant (juglone acts as its own mordant on protein fibers). Prepared in an iron pot, the color shifts to black. The dye is extremely colorfast and lightfast.
+4. **Mature husks and leaves**: Brown dye can also be extracted from dried mature husks and from walnut leaves (harvested in summer). These produce a lighter, yellower brown than fresh green husks.
+
+### Timber Production
+
+Walnut (*Juglans regia*) produces one of the world's most valuable hardwood timbers:
+
+1. **Wood properties**: Heartwood is rich chocolate-brown to purplish-brown, with a fine, straight to wavy grain. Density 550-650 kg/m³. Moderately hard, strong, and dimensionally stable. Excellent shock resistance. Takes a fine polish.
+2. **Uses**: Furniture, cabinetry, veneer, gunstocks, musical instruments, carving, and turned objects. The wood is prized for its rich color and workability.
+3. **Timber management**: For timber production, prune lower branches early to produce a straight, knot-free trunk. Walnut trees grown for timber are typically harvested at 40-80 years. The highest-value timber comes from trees with wide, straight trunks (minimum 30 cm diameter at breast height) and minimal branching.
+4. **Pruning for straight trunk**: During the first 10-15 years, remove lower branches gradually to encourage vertical growth and a clear bole. Never remove more than 1/3 of the live crown in a single year. Walnut responds well to formative pruning, producing longer clear sections than many hardwoods.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Kernel oil content | 50-65% | Among highest for tree nuts |
+| Cold press yield | 35-50% kernel weight | Some oil remains in press cake |
+| Nut drying time | 2-3 weeks | At 30-35°C |
+| Target kernel moisture | <8% | Below this for safe storage |
+| Nut yield per tree | 20-50 kg/year | Mature tree (15-20+ years) |
+| Orchard yield | 1.5-7.5 tonnes/ha | Depending on soil and management |
+| Timber harvest age | 40-80 years | For premium timber |
+| Wood density | 550-650 kg/m³ | Fine, straight grain |
+| Dye soak time (husks) | 1-2 weeks | Cold extraction |
+| Dye simmer time | 1-2 hours | Hot extraction at 70-80°C |
+| Juglone content (green husks) | 2.5-5% | Ascorbic acid (vitamin C) source |
+| Oil shelf life | 3-6 months | Cool, dark storage; rancidity-prone |
+| First nut production | 4-6 years | Grafted stock |
+| Full production | 15-20 years | Grafted stock |
+
 ### Distribution and Growing Conditions
 
 

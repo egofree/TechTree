@@ -75,6 +75,90 @@ Moringa oleifera is a deciduous Tree growing to 8 m (26ft) by 8 m (26ft) at a fa
 
 ### Edible Parts and Preparation
 
+Moringa is the most versatile plant in the tech tree — every part of the tree is usable, covering five distinct use categories: leaf vegetable, pod vegetable, seed oil and water purification, bark fiber, and root condiment. No other single species matches moringa's breadth of practical applications for civilization bootstrapping.
+
+#### Leaves — Nutritional Supplement and Vegetable
+
+Moringa leaves are exceptionally nutritious, containing 7-10% protein (dry weight), high levels of vitamin A, vitamin C, calcium, iron, and the sulfur-containing amino acids methionine and cystine that are often limiting in plant-based diets.
+
+**Fresh leaf harvest and use**:
+1. Harvest young leaves and growing tips by hand-picking or cutting branch tips. Regular pruning (every 35-45 days) stimulates dense, bushy regrowth and maximizes leaf yield.
+2. Use fresh leaves raw in salads (mustard-like flavor), or add to soups, stews, and sauces during the last 5 minutes of cooking (prolonged boiling degrades vitamin C and some B vitamins).
+3. Young, tender shoots can be cooked as a potherb like spinach.
+
+**Dried leaf powder** (long-storage nutritional supplement):
+1. Harvest leaves and spread in thin layers on clean mats or screens in the shade (direct sun degrades vitamin A). Dry for 2-3 days until brittle.
+2. Strip dried leaves from stems — discard stems (fibrous and lower in nutrients).
+3. Pound or grind dried leaves to a fine powder using a mortar and pestle, or a grain mill.
+4. Sieve through a fine mesh to remove coarse particles.
+5. Store in airtight, opaque containers. Shelf life: 6-12 months. Dosage: 1-2 teaspoons (2-4 g) per day added to food.
+
+**Leaf tea**: Pour 250 mL boiling water over 2-3 g dried leaves. Steep 5 minutes. Strain. Drink 1-2 cups daily for vitamin and mineral supplementation.
+
+#### Pods (Drumsticks) — Vegetable
+
+1. Harvest green, tender pods when 30-45 cm long and still flexible (before they become woody and fibrous). Pods reach harvestable size 60-90 days after flowering.
+2. Cut pods from the tree with a knife — do not pull, which damages the branch.
+3. Cut pods into 5-10 cm sections. Cook like green beans: boil 10-15 minutes in salted water until tender. Add to curries, soups, and stews.
+4. Very young pods (15-20 cm) can be eaten raw or pickled.
+5. Mature pods (brown and dry) are harvested for seed collection.
+
+A single tree produces 300-400 pods per year under good conditions. Pods are rich in vitamin C, dietary fiber, and potassium.
+
+#### Seeds — Oil Pressing and Water Purification
+
+**Oil pressing (ben oil)**:
+1. Harvest mature pods when brown and dry on the tree. Split open and extract the dark brown, winged seeds.
+2. Remove seed hulls (wings and outer shell). Decorticated seeds yield more oil.
+3. **Cold press** the seeds in a screw press or expeller. No heat is required.
+4. Yield: 30-40% oil by weight of decorticated seeds. The oil (ben oil / oil of ben) is clear, odorless, sweet-tasting, and exceptionally resistant to rancidity (stable for years without antioxidants).
+5. Uses: cooking oil (comparable to olive oil), cosmetic base (skin moisturizer, hair treatment), lubricant for fine machinery, and lamp fuel (clean-burning).
+6. The pressed seed cake (residue) retains water-purifying proteins and can be used for water treatment.
+
+**Water purification**:
+1. Crush mature seeds (with or without hulls) in a mortar to a coarse powder.
+2. Add the crushed seed powder to turbid water. Dosage: approximately 1 seed per liter of water (or 50-100 mg seed powder per liter).
+3. Stir rapidly for 2-5 minutes to disperse the seed proteins, then stir slowly for 10-15 minutes to allow flocculation.
+4. The seed proteins (cationic polyelectrolytes) act as coagulants — they bind to suspended clay particles, bacteria (90-99% removal of *E. coli*), and organic matter, forming flocs that settle to the bottom.
+5. Let settle for 1-2 hours. Pour or draw off the clarified water from above the sediment.
+6. This simple treatment produces clear, substantially de-bacterized water without heat, chemicals, or equipment beyond a container and stirring stick. Particularly valuable where fuel for boiling water is scarce.
+
+#### Bark — Fiber Extraction
+
+The inner bark of moringa yields a strong, flexible fiber suitable for rope, cordage, and rough textiles:
+
+1. Cut branches 2-5 cm in diameter. Remove outer bark by scraping.
+2. Peel the inner bark (phloem) in long strips from the wood.
+3. Soak strips in water for 1-3 days to soften and separate fibers (retting).
+4. Beat the softened strips with a wooden mallet to separate individual fiber bundles.
+5. Roll or twist fibers into cordage by hand, or spin into thread for weaving.
+6. The fiber is strong enough for rope, fishing lines, and netting but is not as durable as hemp or flax for long-term use. Best for applications where regular replacement is feasible.
+
+#### Roots — Horseradish Substitute
+
+1. Dig roots from young trees (1-2 years). Older roots become woody and excessively pungent.
+2. Peel the outer bark completely — the bark contains the alkaloid moringine (spirochin) which is a nerve paralytic at high doses and must be removed.
+3. Grate the peeled white root interior. The flavor is pungent and hot, similar to horseradish (*Armoracia rusticana*).
+4. Use sparingly as a condiment — the root contains benzyl isothiocyanate and moringine alkaloid. Small culinary quantities are safe; large doses are toxic.
+5. Mix grated root with vinegar as a preserved condiment (similar to prepared horseradish).
+
+**Caution**: The root is the only part of moringa with significant toxicity risk. Never consume the bark. Use only peeled root in small quantities. All other parts (leaves, pods, flowers, seeds, seed oil) are safe for normal consumption.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Leaf protein content (dry weight) | 7-10% | Among highest for leaf vegetables |
+| Leaf dry yield per tree per year | 5-10 kg | With regular pruning every 35-45 days |
+| Leaf powder dosage | 2-4 g/day | 1-2 teaspoons |
+| Pod yield per tree per year | 300-400 pods | Under good conditions |
+| Seed oil content (decorticated) | 30-40% | Cold-pressed ben oil |
+| Water purification dose | 1 seed/liter | Or 50-100 mg seed powder/liter |
+| Bacterial removal (water treatment) | 90-99% | *E. coli* and similar |
+| Tree growth rate | 3-4 m/year | Young trees; fast-growing |
+| First leaf harvest | 3-4 months | From planting |
+| First pod production (from seed) | 2 years | 6-12 months from cuttings |
+
 ## Quantitative Parameters
 
 ### Growing Parameters

@@ -75,6 +75,45 @@ Lens culinaris is a ANNUAL growing to 0.5 m (1ft 8in). It is not frost tender. T
 
 ### Edible Parts and Preparation
 
+Lentils (*Lens culinaris*) are among the most efficient legumes for human nutrition — they cook faster than most dried beans, require no soaking, and provide 25-30% protein by dry weight. Two main market classes exist: red lentils (hulled and split, cook in 15-20 minutes) and green/brown lentils (whole with hull, cook in 20-30 minutes):
+
+**Harvesting**: Lentils are ready for harvest when the lower pods turn brown and rattle when shaken (approximately 80-110 days after sowing). Pull entire plants from the ground or cut at the base with a sickle when about two-thirds of the pods are dry and brown. Do not wait for all pods to dry — the lower pods will shatter and seed will be lost. Harvest in the morning when dew is present to reduce pod shattering. Stack harvested plants in small shocks (bundles standing upright) in the field for 3-5 days to complete drying if needed.
+
+**Threshing**: Separate seeds from pods and stems by beating dried plants against a hard surface (threshing floor, stone, or wooden platform) or by trampling with animals. Alternatively, flail with a wooden stick. Lentil pods split open easily when dry, releasing two lens-shaped seeds per pod. Winnow the threshed mixture by tossing into a light breeze — the chaff and light debris blow away while the heavier seeds fall straight down. Repeat 3-5 times until seeds are clean. Remove remaining debris by hand-picking.
+
+**Drying**: Ensure threshed seeds are below 14% moisture for safe storage. Spread thin on drying racks or a clean floor in the sun for 1-3 days, stirring daily. Test dryness by biting — properly dried lentils are hard and crack cleanly without denting.
+
+**Storage**: Store dried lentils in airtight containers (clay jars, sealed baskets, or woven sacks) in a cool, dry, dark location. Protect from bruchid beetles (the most common storage pest for lentils) by mixing with inert ash, neem leaves, or by storing in oxygen-limited containers. Lentils store well for 2-5 years with minimal quality loss under good conditions. Seed viability declines approximately 1-3% per year at ambient temperature.
+
+**Cooking**: Lentils require NO pre-soaking — rinse and cook directly. Red (hulled/split) lentils: boil 15-20 minutes until soft and disintegrating (ideal for soups, dal, and purees). Green/brown (whole) lentils: boil 20-30 minutes until tender but retaining their shape (ideal for salads, stews, and side dishes). Add salt only after cooking is complete — salt added at the start toughens the seed coat and extends cooking time. Boiling ratio: 1 part lentils to 3 parts water by volume. Cooking time increases with storage age — lentils stored for 2+ years may require 50-100% longer cooking.
+
+**Lentil flour**: Grind dried lentils between flat stones (metate) or in a rotary quern to produce flour. Lentil flour is 25-30% protein and dramatically boosts the nutritional value of cereal-based breads when mixed at 10-20% inclusion. Lentil flour breads are denser than wheat-only breads but provide substantially better protein quality (complementary amino acid profile when combined with grains). Lentil flour also serves as a thickener for soups and sauces.
+
+**Sprouting**: Sprout lentils for a crunchy, vitamin C-rich fresh food (dried lentils contain negligible vitamin C; sprouting generates 10-20 mg/100g):
+
+1. Rinse lentils and soak in water for 8-12 hours at room temperature.
+2. Drain and spread in a thin layer on a damp cloth or tray. Cover with another damp cloth.
+3. Rinse and drain twice daily. Keep at 20-25°C away from direct sunlight.
+4. Sprouts emerge in 2-3 days, reaching 1-3 cm length. The radicle (root) should be clearly visible.
+5. Eat raw in salads, or lightly stir-fry. Sprouted lentils are crunchy, slightly sweet, and significantly more digestible than cooked dried lentils — sprouting reduces phytic acid by 50-70%, improving mineral absorption.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Days to maturity | 80-110 | From sowing |
+| Cooking time (red/split) | 15-20 min | Boiling; disintegrates into puree |
+| Cooking time (green/whole) | 20-30 min | Boiling; retains shape |
+| Soaking for sprouting | 8-12 hours | Room temperature |
+| Sprouting time | 2-3 days | To 1-3 cm radicle length |
+| Protein content (dry) | 25-30% | By weight |
+| Cooking ratio | 1:3 | Lentils:water by volume |
+| Storage life | 2-5 years | Below 14% moisture, cool/dry/dark |
+| Yield | 0.5-2.5 tonnes/ha | Depending on variety and conditions |
+| Nitrogen fixation | 40-90 kg/ha/yr | Via Rhizobium symbiosis |
+| Minimum rainfall | 250-300 mm | Growing season; very drought-tolerant |
+| Phytic acid reduction (sprouting) | 50-70% | Compared to raw dry seed |
+
 ## Quantitative Parameters
 
 ### Growing Parameters

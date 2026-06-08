@@ -78,6 +78,45 @@ An annual legume herb. Plants are 40-60 cm high and all parts are hairy. It is e
 
 ### Edible Parts and Preparation
 
+#### Harvesting and Drying
+
+Chickpea pods are ready for harvest 90-150 days after planting, depending on variety (desi types mature faster, kabuli types slower). Harvest indicators: pods turn yellow-brown and brittle; seeds rattle inside when shaken; leaves have mostly senesced and dropped. Plants are typically pulled entire or cut at ground level, then threshed.
+
+Threshing: spread plants on a clean hard surface and beat with a flail or trample with livestock. Chickpea pods shatter relatively easily compared to other legumes. Winnow in a light breeze to separate seed from chaff. Expected yield: 400-1,600 kg/ha dry seed.
+
+Drying to safe storage moisture is critical. Target 10-12% moisture content. Spread seed in thin layers (3-5 cm) on drying racks, tarpaulins, or clean concrete in full sun for 2-4 days. Stir several times daily for even drying. Test by biting: a properly dried chickpea cracks cleanly without denting. Higher moisture leads to mold (aflatoxin risk) and insect infestation during storage.
+
+#### Storage
+
+Store dried chickpeas in airtight containers (clay jars with tight lids, woven sacks lined with plastic, sealed metal bins) at cool temperatures. Mix with inert ash or diatomaceous earth at 1% by weight to deter storage insects (bruchid beetles are the primary pest). Under good conditions (below 15°C, below 60% humidity), dried chickpeas retain viability and quality for 2-5 years.
+
+#### Soaking and Cooking
+
+Dried chickpeas require hydration before cooking — they are among the hardest of all food legumes:
+
+1. **Soaking**: Cover dry chickpeas with 3-4 volumes of water. Soak for 8-12 hours at room temperature, or use the quick-soak method (boil 2 minutes, then soak 1 hour). The seeds will approximately double in size and weight. Discard soaking water — it contains oligosaccharides (raffinose, stachyose) that cause flatulence, and phytic acid that inhibits mineral absorption.
+2. **Cooking**: Drain soaked chickpeas, cover with fresh water (2-3 cm above seed level), and bring to a boil. Reduce heat and simmer 1-2 hours until completely tender. Cooking time varies with seed age (older seeds take longer), variety (desi cooks faster than kabuli), and water hardness. Adding a pinch of baking soda (sodium bicarbonate, 1-2 g/liter) reduces cooking time by 30-40% by softening the seed coat, but can produce a mushy texture if overdone.
+3. **Pressure cooking**: If a pressure vessel is available, cook soaked chickpeas at 15 psi for 15-20 minutes. Dramatically reduces fuel consumption.
+4. **Doneness test**: Press a cooked chickpea between thumb and finger — it should mash easily with no chalky center. Undercooked chickpeas are difficult to digest and may cause gastrointestinal distress.
+
+Cooked chickpeas freeze well (spread on a tray to freeze individually, then bag) and keep for 6-12 months frozen.
+
+#### Besan (Chickpea Flour)
+
+Besan — finely ground chickpea flour — is a staple ingredient across South Asia, the Middle East, and the Mediterranean. It requires no gluten, making it suitable for flatbreads and batters without yeast or leavening:
+
+1. Start with fully dried chickpeas (below 10% moisture). Desi varieties (smaller, darker) are traditional for besan.
+2. Clean and remove any debris or damaged seeds.
+3. Grind in a stone mill, hammer mill, or between two flat stones (metate). Multiple passes through a fine sieve produce progressively finer flour. Coarse grades are used for savory snacks; fine grades for batters and flatbreads.
+4. Sift through a woven mesh screen to remove hulls and coarse particles. The resulting flour is pale yellow, slightly nutty in flavor, and 20-22% protein by weight.
+5. Store besan in airtight containers in a cool, dry place. Shelf life: 3-6 months (the high fat content, 5-6%, can go rancid at elevated temperatures).
+
+Besan is used for: pakora batter (besan + water + spices, deep-fried vegetables), socca/farinata (besan + water + olive oil, baked as a flatbread), and as a thickener for soups and stews. It provides a complete protein when combined with a grain (rice, wheat) — chickpea is deficient in the sulfur amino acid methionine, which grains supply in excess.
+
+#### Sprouting
+
+Chickpeas can be sprouted to improve nutritional quality and reduce anti-nutrients. Soak seeds 8-12 hours, drain, then rinse and drain twice daily for 2-3 days until sprouts reach 1-2 cm. Sprouting activates phytase enzymes that break down phytic acid, increasing iron and zinc bioavailability by 50-100%. Sprouted chickpeas can be eaten raw in salads or lightly cooked.
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

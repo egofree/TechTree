@@ -75,6 +75,74 @@ Arachis hypogaea is a ANNUAL growing to 0.3 m (1ft). See above for USDA hardines
 
 ### Edible Parts and Preparation
 
+#### Digging (Harvesting)
+
+Peanuts are unique among legumes in producing their seed pods underground. Harvest requires digging the entire plant:
+
+1. **Timing**: Dig when leaves turn yellow and begin to drop (typically 120-150 days after planting for Virginia types, 90-110 days for Spanish/Valencia types). Check maturity by sampling a few plants — the inner shell should be dark (brown to black) and the kernels should fill the pod fully. Pods with light inner shells are immature.
+2. **Digging**: Loosen the soil around the plant with a fork or digging stick, working 15-20 cm away from the stem to avoid cutting through pods. The taproot and pod cluster extend 5-15 cm below the soil surface. Lift the entire plant gently — pulling by the tops breaks the pegs and leaves pods in the ground.
+3. Shake off loose soil. The pods will be attached to the root crown in a cluster. Do not wash — moisture promotes mold during curing.
+
+#### Drying and Curing
+
+Proper drying is critical for safe storage. Inadequately dried peanuts are extremely susceptible to mold, including the dangerous *Aspergillus flavus* that produces aflatoxin:
+
+1. **Windrow curing** (initial drying): Lay the dug plants on the soil surface with the pods facing up (foliage on the ground, peanuts exposed to air) for 2-3 days in dry, sunny weather. This initial field drying reduces pod moisture from 40-50% to 20-25%. If rain threatens, move plants under cover immediately — wet curing promotes mold.
+2. **Further curing**: After windrow drying, strip the pods from the plants by hand or fork. Spread pods in a thin layer (5-8 cm deep) on drying racks, screens, or a clean dry floor in a well-ventilated shed. Turn daily. Cure for 2-4 weeks until pod moisture drops below 10%.
+3. **Moisture test**: Shake a pod — the kernels should rattle inside. Bite a kernel — it should be crunchy with no give (below 8% moisture). Properly cured peanuts store for 6-12 months.
+4. **Shell or store in-shell**: Peanuts store better in the shell (the pod provides physical protection). Shell only as needed. Shelled peanuts are more vulnerable to oxidation, mold, and insect damage.
+
+> **⚠️ AFLATOXIN WARNING**
+>
+> **Aflatoxin is one of the most potent naturally occurring carcinogens known.** It is produced by the mold *Aspergillus flavus* and *Aspergillus parasiticus*, which grow on peanuts (and other grains/nuts) stored in warm, humid conditions (above 25°C, above 14% moisture). Aflatoxin contamination is invisible — moldy-looking peanuts may or may not contain aflatoxin, and clean-looking peanuts can be contaminated.
+>
+> **The risk is severe:** Aflatoxin causes liver cancer, immune suppression, and acute poisoning (aflatoxicosis). Children are especially vulnerable. There is no safe dose — chronic exposure even at very low levels increases cancer risk.
+>
+> **Prevention measures:**
+> - **Dry peanuts to below 10% moisture** before storage. Moisture is the single most important risk factor.
+> - **Store in cool, dry, dark conditions** — below 25°C, below 65% humidity, in breathable containers (never sealed plastic bags where condensation occurs).
+> - **Inspect visually before eating or processing** — discard any nuts showing mold, discoloration (greenish, blackish, or white patches), shriveling, or off-odors (musty, earthy smell).
+> - **Sort aggressively** — remove any damaged, discolored, or lightweight nuts that float in water (a traditional screening method: aflatoxin-contaminated kernels are often less dense).
+> - **Do not eat moldy peanuts.** Cooking, roasting, and boiling do NOT destroy aflatoxin — it is heat-stable and survives normal cooking temperatures (decomposes only above 250°C).
+> - **High-risk environments**: Humid tropical regions are highest risk. Post-harvest rain, flooding, or storage in damp buildings dramatically increase contamination. In these regions, dry peanuts immediately after digging and maintain strict moisture control.
+> - **Animal feed caution**: Aflatoxin-contaminated peanut cake (residue from oil pressing) passes the toxin into milk, meat, and eggs of animals that consume it. Do not feed moldy peanuts or peanut cake to dairy animals.
+
+#### Roasting
+
+Roasting develops the characteristic peanut flavor, improves digestibility, and reduces moisture content for safer storage:
+
+1. **Dry roasting**: Spread shelled raw peanuts in a single layer on a flat metal pan or clay griddle. Roast at 175°C for 15-20 minutes, stirring every 5 minutes to prevent scorching. The skins will darken and crack, and the kernels turn from pale cream to golden brown. Test by biting — the interior should be uniformly golden with no raw (white) center.
+2. **Oil roasting**: Submerge raw shelled peanuts in hot oil (peanut oil, if available) at 170-175°C for 10-15 minutes. Drain and salt immediately while the oil on the surface is still hot. Oil-roasted peanuts have a richer flavor but shorter shelf life due to absorbed oil.
+3. **Fire roasting** (basic technology): Place in-shell peanuts in a pan over an open fire. Shake or stir continuously for 15-20 minutes. The shells char on the outside and the kernels roast inside. This method provides some aflatoxin risk reduction — the heat kills surface mold, though it does not destroy aflatoxin already present in the kernel.
+4. Cool roasted peanuts completely before storing. Moisture from condensation on warm nuts promotes mold.
+
+#### Oil Pressing
+
+Peanuts are one of the best oil crops for hand-pressing: 40-50% oil content by weight (shelled), higher than any other common legume:
+
+1. **Cold pressing** (preferred for food quality): Shell and clean peanuts. Lightly crush or flake the kernels using a stone mill or mortar (do not grind to a paste — particle size of 1-2 mm allows oil to flow). Load into a screw press or wedge press. Apply pressure gradually. Oil flows from the press into a collection vessel.
+2. **Yield**: Cold pressing extracts 30-40% of the kernel weight as oil (60-80% of available oil). The remaining press cake still contains 10-15% oil and 40-50% protein.
+3. **Filtering**: Allow pressed oil to settle for 24-48 hours. The sediment (fine particles) settles to the bottom. Decant the clear oil. For finer filtering, pass through a cloth or fine mesh screen.
+4. **Storage**: Peanut oil stores well for 6-12 months in sealed containers kept cool and dark. The oil has a high smoke point (227°C), making it excellent for frying.
+5. **Press cake (oil cake/meal)**: The solid residue after pressing contains 40-50% protein. Use as high-quality animal feed (poultry, cattle, pigs), or grind into peanut flour for human consumption. **Critical**: Discard press cake from any batch showing signs of mold — aflatoxin concentrates in the press cake during oil extraction.
+
+#### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Days to maturity | 90-150 | Spanish (90-110), Virginia (120-150) |
+| Pod moisture at dig | 40-50% | Must be reduced rapidly |
+| Windrow curing time | 2-3 days | Initial field drying |
+| Final curing time | 2-4 weeks | To below 10% moisture |
+| Target storage moisture | Below 10% | Critical for aflatoxin prevention |
+| Aflatoxin risk threshold | Above 14% moisture, above 25°C | *Aspergillus flavus* growth zone |
+| Roasting temperature | 175°C | 15-20 minutes |
+| Oil content (shelled) | 40-50% | One of the highest oil legumes |
+| Cold press oil yield | 30-40% of kernel weight | 60-80% of available oil |
+| Smoke point (peanut oil) | 227°C | Excellent for frying |
+| Press cake protein | 40-50% | High-quality animal feed |
+| Storage life (in shell) | 6-12 months | Below 10% moisture, cool/dry/dark |
+
 ## Quantitative Parameters
 
 ### Growing Parameters

@@ -76,6 +76,18 @@ A dark green leafed plant. The plant is upright and about 20 cm tall. It can be 
 
 ### Edible Parts and Preparation
 
+**Roots** are the primary harvest. Garden beet roots (*Beta vulgaris* subsp. *vulgaris* Conditiva Group) typically weigh 150-400 g at maturity, with deep red color from betalain pigments (betacyanins). The roots are 9-10% carbohydrate (mostly sucrose), 1.5-2% protein, and rich in folate (109 μg/100g) and manganese.
+
+**Cooking methods for roots**:
+- **Boiling**: Place whole, unpeeled roots in boiling water for 30-60 minutes depending on size (test by piercing with a knife — it should slide through easily). Boiling whole preserves color; peeled roots leach pigment into the water. Drain and slip off skins under cold running water.
+- **Roasting**: Wrap whole roots in clay or leaves, or cube and toss with oil. Roast at 190°C for 45-60 minutes (whole) or 25-35 minutes (cubed). Roasting concentrates sugars and produces a caramelized exterior.
+- **Pickling**: Slice boiled beetroot and pack in a brine of vinegar (5% acetic acid), salt (20-30 g/L), and optional spices (cloves, allspice, dill). Process in sealed jars by water bath (100°C, 15-20 minutes). Pickled beets store for 12+ months.
+- **Raw**: Grate or thinly slice for salads. Raw beetroot is crunchy and sweet but the cell structure makes it harder to digest than cooked.
+
+**Leaves** (beet greens) are edible and nutritionally superior to the roots — higher in vitamin A (610 μg/100g raw), vitamin C (30 mg/100g), iron (3.3 mg/100g), and calcium. Harvest outer leaves throughout the growing season without killing the plant. Cook like spinach: boil 3-5 minutes, sauté 5-8 minutes, or steam 4-6 minutes. Young leaves can be eaten raw in salads.
+
+**Sugar beet** (*Beta vulgaris* subsp. *vulgaris* Altissima Group) is a different cultivar grown for sucrose extraction. Sugar beet roots contain 15-20% sucrose by weight (vs. 6-10% in garden beets) and are white, conical, and large (500-1000 g). Sugar beet accounts for ~30% of world sugar production. See Sugar Extraction below.
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -99,11 +111,54 @@ A dark green leafed plant. The plant is upright and about 20 cm tall. It can be 
 
 ### Storage
 
-Fresh roots and tubers can be stored in cool, dark, well-ventilated conditions. Root cellars or pits lined with straw maintain appropriate temperature and humidity. Avoid washing before storage — soil protects the skin. Check stored roots weekly and remove any showing rot to prevent spread. For longer storage, slice and sun-dry, or process into flour. Some tropical tubers store for weeks at ambient temperature; others require processing within days of harvest.
+**Root storage**: Garden beet roots store well under cold, humid conditions. Do not wash before storage — residual soil protects the skin. Cut leaves to 2-3 cm above the crown (do not cut into the root) before storing to prevent moisture loss through transpiration.
+
+| Method | Temperature | Humidity | Duration | Notes |
+|--------|-------------|----------|----------|-------|
+| Root cellar / pit | 0-2°C | 95%+ | 4-6 months | Pack in damp sand or peat |
+| Clamp (outdoor pit) | 2-5°C | High | 3-5 months | Insulate with straw and soil |
+| Refrigeration | 0-4°C | Plastic bag | 2-4 weeks | Loosely sealed bag prevents wilting |
+| Frozen (cooked) | -18°C | Sealed container | 8-12 months | Cook before freezing; raw beets become rubbery |
+
+**Leaf storage**: Beet greens wilt rapidly — use within 2-3 days of harvest. Store at 0-2°C in a perforated bag. Do not wash until ready to use. For longer preservation, blanch leaves 2 minutes, drain, and freeze.
+
+**Dried beetroot**: Slice 3-5 mm thick, blanch 3 minutes to preserve color, and dry at 55-60°C for 8-12 hours or sun-dry 2-3 days. Dried beet chips are brittle (5-8% moisture) and store for 6-12 months. Rehydrate by soaking in warm water 30-60 minutes. Dried beet powder (ground dried slices) is used as a natural food coloring.
+
+### Sugar Extraction (Sugar Beet)
+
+Sugar beet processing extracts crystalline sucrose from the root at industrial scale. This process requires specialized equipment but produces the most important beet-derived industrial product:
+
+1. **Washing**: Remove all soil and stones from roots. Soil contamination introduces impurities that interfere with crystallization.
+
+2. **Slicing**: Cut roots into thin, V-shaped cossettes (strips 3-7 mm thick, 5-10 cm long) using a rotating drum with internal knives. Shape maximizes surface area for diffusion.
+
+3. **Diffusion**: Pass cossettes countercurrent to hot water at 70-80°C in a diffusion tower or inclined trough. Water dissolves sucrose from the plant cells. Raw juice yield: 110-120% of beet weight at 12-16% sugar concentration. Pulp (exhausted cossettes) exits at ~90% moisture — press to 75% moisture and dry for animal feed.
+
+4. **Purification**: Add milk of lime (Ca(OH)₂, 1.5-2.5% on juice) and carbon dioxide (from lime kiln) to precipitate impurities as calcium carbonate. Filter to produce clear, pale yellow "thin juice" at 12-16% solids.
+
+5. **Evaporation**: Concentrate thin juice through multiple-effect evaporators to "thick juice" at 55-65% solids (thick syrup).
+
+6. **Crystallization**: Boil thick juice under vacuum (to lower boiling point and prevent caramelization) until supersaturated. Seed with fine sugar crystals and allow crystals to grow. Centrifuge to separate crystals from mother liquor (molasses). Multiple crystallization stages: first yield white sugar, subsequent yields brown sugar.
+
+**Overall yield**: 100 kg sugar beet roots → 12-16 kg crystalline white sugar + 3-5 kg molasses (containing ~50% residual sugar, used for animal feed or fermentation to alcohol).
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Garden beet yield | 25-40 tonnes/ha | Fresh root weight |
+| Sugar beet yield | 50-80 tonnes/ha | Fresh root weight |
+| Sugar beet sucrose content | 15-20% | By fresh weight |
+| Root storage temperature | 0-2°C | Optimal for garden beet |
+| Root storage humidity | 95%+ | Below 90% causes shriveling |
+| Diffusion temperature | 70-80°C | Sugar extraction from cossettes |
+| Sugar extraction yield | 12-16% | kg sugar per kg fresh beet |
+| Drying temperature (roots) | 55-60°C | For dried beet chips |
+| Blanching time (leaves) | 2-3 minutes | Before freezing or drying |
 
 ### Material Handling
 
-Handle beet produce with clean hands and tools to prevent contamination. Remove field heat promptly after harvest by moving product to shade. Process within the recommended timeframe to prevent quality loss. Compost crop residues and processing waste to return organic matter to the soil. Label stored products with harvest date, variety, and any treatments applied.
+Harvest beet roots before hard frost in temperate climates — while frost-tolerant to -2°C, prolonged freezing ruptures cell walls and causes mushy texture. Lift roots with a fork or digging stick, working 15-20 cm from the crown to avoid cutting the taproot. For sugar beet, the root extends 20-30 cm deep — lift carefully to avoid breakage. Beet greens remaining after root harvest can be fed to livestock. Sugar beet pulp (post-extraction residue) is a high-energy animal feed with 10-12% protein and 20% fiber. Molasses from sugar extraction is used in animal feed, fermentation substrate, or as a binder in feed pellets.
 
 ## Scaling Notes
 

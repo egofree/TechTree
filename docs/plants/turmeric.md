@@ -76,6 +76,73 @@ A herb in the ginger family which continues growing from year to year. For harve
 
 ### Edible Parts and Preparation
 
+#### Harvesting
+
+Turmeric rhizomes are harvested when the leaves yellow and begin to die back, 8-10 months after planting. At maturity, the plant has translocated nutrients from the leaves into the underground rhizomes, maximizing starch, curcuminoid, and essential oil content.
+
+1. Cut back the withered tops to ground level.
+2. Dig carefully around the clump with a fork, working from the periphery inward. The rhizomes form a dense mass 10-20 cm below the surface with secondary "finger" tubers branching from a central "mother" rhizome.
+3. Lift the entire clump. Shake off soil. Separate the fingers from the mother rhizome.
+4. Select healthy, plump rhizomes for seed stock (replant within 1-2 days or store in cool, dry conditions). Process the remainder.
+
+#### Processing: Boiling, Drying, and Grinding
+
+Turmeric requires a multi-step post-harvest process that differs from ginger. The boiling step is essential — it gelatinizes the starch (setting the characteristic texture), develops and fixes the golden-yellow color, destroys raw odor, and inactivates enzymes that would otherwise degrade curcumin during storage.
+
+1. **Wash** rhizomes thoroughly in running water to remove all soil.
+2. **Boil** whole rhizomes in water for 30-45 minutes until a fork penetrates easily and the rhizomes are soft throughout but not disintegrating. The water turns yellow-brown from leached starch — this is normal. The boiling converts colorless curcumin precursors into the vivid yellow curcuminoid pigments.
+3. **Dry** the boiled rhizomes: spread on mats in full sun for 10-15 days, OR dehydrate at 50-60°C for 8-12 hours. Turn daily during sun-drying. Rhizomes are fully dry when they are brittle and snap cleanly (moisture below 10%).
+4. **Polish** (optional): rub dried rhizomes against a rough surface or tumble in a cloth bag to remove the outer skin and produce a smoother, lighter-colored product.
+5. **Grind** dried rhizomes in a mortar, mill, or grinder to a fine yellow-orange powder. Sieve to remove fibrous particles.
+
+Dry yield: 15-25% of fresh weight. One hectare produces 15,000-30,000 kg fresh rhizomes, yielding 2,500-7,500 kg dried turmeric.
+
+#### Curcumin Extraction
+
+Curcumin (diferuloylmethane) is the principal curcuminoid, comprising 2-5% of turmeric powder by weight (average ~3.14%). Curcumin is poorly soluble in water but soluble in ethanol, acetone, and dimethyl sulfoxide, enabling extraction with simple solvents.
+
+**Ethanol/acetone extraction**:
+1. Grind dried turmeric rhizomes to a fine powder (increases surface area for extraction).
+2. Pack the powder into a glass or ceramic vessel. Cover with ethanol (95%) or acetone at a 1:10 ratio (1 g turmeric to 10 mL solvent).
+3. Macerate at room temperature for 24-48 hours with occasional stirring. The solvent will turn deep yellow-orange as curcuminoids dissolve.
+4. Filter through cloth or paper. Retain the liquid extract; the residue can be re-extracted 1-2 more times with fresh solvent for maximum yield.
+5. **Evaporate the solvent**: pour the extract into a wide, shallow vessel and leave in a well-ventilated area (ethanol evaporates at 78°C, acetone at 56°C — gentle warming on a water bath speeds evaporation). Alternatively, evaporate naturally over several days.
+6. The residue is crude curcuminoid extract — a dark orange-yellow paste or solid containing curcumin (60-70%), demethoxycurcumin (20-25%), and bisdemethoxycurcumin (10-15%).
+7. For further purification: recrystallize from hot ethanol. Dissolve crude extract in hot ethanol, filter, and cool slowly. Yellow curcumin crystals form.
+
+Yield: 2-5 g curcuminoid extract per 100 g dried turmeric powder.
+
+#### Dye Use
+
+Turmeric is one of the few "direct" dyes — it can color cotton, wool, and silk without a mordant (though a mordant improves fastness):
+
+1. **Golden yellow (no mordant)**: Simmer fabric in a bath of turmeric powder (50-100 g per liter of water) at 80-90°C for 30-60 minutes. The resulting yellow is vivid but fugitive — fades significantly in sunlight within weeks.
+2. **With alum mordant (improved lightfastness)**: Pre-mordant fabric by soaking in alum (potassium aluminum sulfate) solution (10-20% of fabric weight) at 80°C for 1 hour. Rinse. Then dye in the turmeric bath as above. Alum improves wash-fastness and extends color life to months.
+3. **Reddish tones**: Add alkali (wood ash lye or lime water) to the dye bath to shift the color from golden yellow toward orange-red.
+
+Turmeric dye is primarily used for ceremonial and decorative textiles (e.g., Buddhist monk robes, Hindu ceremonial cloth) rather than everyday clothing due to its poor lightfastness. The color also serves as a pH indicator — yellow in acid, brownish-red in alkali.
+
+#### Storage
+
+Turmeric powder keeps 6-12 months in an airtight container stored away from light. Curcumin degrades under UV exposure — opaque containers are essential. Whole dried rhizomes store for 2-3 years under the same conditions, retaining more curcumin than pre-ground powder. Fresh rhizomes store for 2-3 weeks at room temperature or 4-6 weeks at 10-15°C.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Curcumin content (dried powder) | 2-5% | Average ~3.14% by weight |
+| Boiling time (post-harvest) | 30-45 minutes | Until fork-tender |
+| Sun-drying time | 10-15 days | Full sun, turned daily |
+| Dehydrating time | 8-12 hours | At 50-60°C |
+| Fresh-to-dry ratio | 4-6:1 | 15-25% dry weight recovery |
+| Yield per hectare (dried) | 2,500-7,500 kg | Varies with variety and inputs |
+| Curcumin extraction yield | 2-5 g per 100 g powder | Ethanol or acetone solvent |
+| Essential oil content | 3-7% | Turmerone, zingiberene, others |
+| Dye bath concentration | 50-100 g/L | Turmeric powder per liter water |
+| Alum mordant (fabric weight) | 10-20% | Potassium aluminum sulfate |
+| Powder shelf life | 6-12 months | Airtight, opaque, cool |
+| Whole rhizome shelf life | 2-3 years | Same storage conditions |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

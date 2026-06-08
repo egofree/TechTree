@@ -69,6 +69,58 @@ This species grows as a perennial or annual depending on climate and management.
 
 Teff is best grown in fallowed land or after legume crops. Land preparation needs to be very thorough. A fine firm weed free seed bed is needed. Seed are mostly broadcast. Driving sheep or cattle over the land is used to trample in the seed. 25-30 kg of seed per hectare are recommended. Nitrogen fertiliser is recommended. It is usually harvested with sickles. Propagation: Sow seed in early spring in a greenhouse, barely covering it. Germination is usually quick and reliable. Prick seedlings out into individual pots as soon as they are large enough to handle and plant out after the last expected frost. Seed can also be sown in situ in late April, though cool summers may not provide a long enough growing season for the crop to ripen.
 
+### Harvesting
+
+Harvest teff when the panicles turn from green to straw-yellow and the stems below the seed heads dry. Test readiness by rubbing a few seeds between the fingers — mature seeds separate cleanly from the chaff and feel hard. The small seed size (1-1.5 mm, 2,500-3,000 seeds per gram) makes harvest timing critical: harvest too early and seeds are immature and shriveled; too late and seed shatter losses become severe. Cut stems with sickles 10-15 cm above ground level, leaving enough stalk to handle the panicles without excessive seed loss. Bundle cut stalks into sheaves and stand upright in the field for 3-5 days to dry, protecting from rain with covers if available.
+
+### Threshing and Winnowing
+
+Because teff seeds are extremely small, threshing requires finer technique than for larger grains:
+
+1. **Threshing**: Place dried sheaves on a clean, hard surface (smooth stone, packed earth covered with cloth, or tarp). Beat the panicles gently with a wooden flail or flexible stick — excessive force crushes the tiny seeds. Alternatively, trample sheaves by driving livestock (cattle, donkeys) over them in a circle on a threshing floor lined with clay or stone. Teff threshes more easily than wheat because the grain detaches readily from the panicle.
+2. **Winnowing**: Toss the threshed mixture into a light breeze using a wide, shallow winnowing basket (60-80 cm diameter). The chaff and light material blow away while the heavy grain falls straight down. Repeat 5-8 times — teff requires more winnowing passes than wheat because the tiny seeds are closer in density to fine chaff. Work in the early morning when breezes are steady (2-5 m/s). For final cleaning, pass grain through a fine mesh screen (1.5-2 mm openings) to remove remaining debris.
+
+### Milling
+
+Teff's tiny grain size (diameter ~1 mm) requires adapted milling equipment:
+
+1. **Stone mill**: Use a fine-grained stone quern or rotary mill. Teff passes through standard grain mill settings without grinding — adjust stones closer together than for wheat. The grain is so small that it tends to pass through the grinding gap whole if the stones are set for larger grains. Mill at moderate speed to avoid overheating the flour, which degrades the oils and produces a bitter taste.
+2. **Milling yield**: Whole-grain teff flour retains the bran and germ. Unlike wheat, there is no practical bolted (white) teff flour at traditional technology levels because the grain is too small to separate bran from endosperm mechanically. This is nutritionally advantageous: whole teff flour provides 13% protein, 3% fat, and significant iron (9.9 mg/100g) and zinc (20 mg/100g). The flour is naturally gluten-free, making it unsuitable for raised bread but ideal for flatbreads and fermented batters.
+
+### Injera (Fermented Flatbread)
+
+Injera is the primary teff-based food and the staple bread of Ethiopian and Eritrean cuisine. The fermentation process improves nutritional bioavailability and produces a distinctive sour, spongy flatbread:
+
+1. **Starter (ersho)**: Reserve 50-100 ml of liquid from a previous injera batter fermentation. Ersho is a sourdough-like culture containing wild yeasts and lactic acid bacteria (primarily *Lactobacillus* species). If no starter is available, begin a culture by mixing teff flour with water and leaving it in a warm place (25-30°C) for 3-4 days until bubbly and sour-smelling.
+2. **Batter preparation**: Mix teff flour with water to a thin, pourable consistency (like crepe batter — roughly 1 part flour to 2 parts water by volume). Add the ersho starter and stir thoroughly. Cover with a cloth and ferment at room temperature (20-30°C) for 2-3 days. The batter will bubble, rise slightly, and develop a strong sour aroma as lactic acid bacteria produce acid and wild yeasts generate carbon dioxide.
+3. **Cooking**: Heat a large, flat clay griddle (mitad) or iron skillet to 180-220°C. Pour a thin, even layer of batter in a spiral from the outside edge toward the center, covering the entire cooking surface. The injera should be 3-5 mm thick. Cover with a lid and cook for 1-2 minutes until the surface is dry and full of small bubbles (eyes). Do not flip — injera cooks from the bottom and steams from the top. Remove with a thin spatula and lay flat on a woven mat or cloth.
+4. **Storage**: Stack cooked injera sheets and wrap in cloth. Injera keeps for 3-5 days at room temperature; the sour fermentation acts as a natural preservative. Stale injera is torn into pieces and eaten in stews (wat), where it serves as both food and eating utensil.
+
+### Teff Flour Products
+
+Beyond injera, teff flour produces several foods:
+
+- **Flatbread (kita)**: Unleavened teff flatbread, cooked on a griddle without fermentation. Faster to prepare than injera but less nutritious and flavorful.
+- **Porridge (genfo)**: Teff flour stirred into boiling water to make a thick, stiff porridge. Eaten with butter and spice (berbere) for breakfast. A filling, calorie-dense food.
+- **Beverage (tella and teji)**: Fermented teff grain produces tella (a beer-like beverage) and teji (a honey-wine-like mead). The fermentation process converts starches to alcohol and produces B vitamins.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Seed size | 1-1.5 mm | Extremely small — affects all processing |
+| Seeds per gram | 2,500-3,000 | Among smallest cereal grains |
+| Yield per hectare | 300-3,000 kg | Wide range depending on management |
+| Growing period | 90-160 days | Early varieties 90-120 days |
+| Seeding rate | 25-30 kg/ha | Broadcast and trampled in |
+| Threshing loss risk | High | Small seeds easily lost; use fine mesh |
+| Milling type | Fine stone mill | Stones set closer than for wheat |
+| Injera fermentation | 2-3 days at 20-30°C | Using ersho starter |
+| Injera cooking temp | 180-220°C | On clay griddle (mitad) |
+| Injera thickness | 3-5 mm | Thin, pourable batter |
+| Injera shelf life | 3-5 days | Sour fermentation preserves naturally |
+| Protein content | ~13% | Comparable to wheat |
+
 ### Distribution and Growing Conditions
 
 
@@ -77,6 +129,8 @@ Teff is best grown in fallowed land or after legume crops. Land preparation need
 A millet grass. It is an annual tufted grass. It grows 60-120 cm tall. It has a slender stem and long narrow smooth leaves. The flowers occur in loose open panicles. These are 15-35 cm long. The branches are very thin and droop over. The seeds are very small. They are 1-1.5 mm long. There are about 2500-3000 seeds per gram. A brown seeded and a white seeded kind are recognised.
 
 ### Edible Parts and Preparation
+
+Teff is always consumed as flour or cooked whole grain — the seed is too small to eat individually. The primary product is injera (fermented flatbread), but teff flour is also used for porridge, flatbreads, and fermented beverages. The flour is naturally gluten-free, which limits its use for raised breads but makes it safe for those with celiac disease. White-seeded varieties produce lighter-colored, milder-flavored injera; dark-seeded varieties produce darker, more intensely flavored injera preferred in many Ethiopian traditions.
 
 ## Quantitative Parameters
 

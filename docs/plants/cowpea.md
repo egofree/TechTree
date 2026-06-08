@@ -74,6 +74,61 @@ A creeping bean type plant with straight firm pods. Both cover crop types (leafy
 
 ### Edible Parts and Preparation
 
+**Edible parts**: Seeds (fresh green and dried), immature green pods, young leaves, tuberous roots (some varieties).
+
+**Fresh harvest (green pods)**:
+
+Cowpeas are uniquely versatile because they provide food at multiple harvest stages. For fresh green pea harvest, pick pods when they are plump but still green and tender — typically 60-70 days after planting. The green seeds can be shelled and eaten immediately without soaking. Fresh green cowpeas cook in 15-25 minutes by boiling and have a sweet, mild flavor. They do not require the extended cooking needed for dried beans because anti-nutrient levels are lower in immature seeds.
+
+Immature green pods (harvested 40-50 days after planting, when pods are 15-20 cm long and still tender) can be eaten whole, similar to green beans. Snap the stem end and pull any string that runs along the seam. Slice into 2-3 cm pieces and boil, steam, or stir-fry for 5-8 minutes. Green pods are rich in vitamin C and dietary fiber.
+
+**Dry harvest**:
+
+For dry grain production, leave pods on the plant until they turn straw-yellow to brown and the seeds rattle inside. This typically occurs 80-120 days after planting depending on variety. Harvest by pulling entire plants or picking individual dry pods. Thresh by beating dried plants against a hard surface or by treading underfoot. Winnow in a light breeze to separate grain from chaff. Dry grain yield: 300-1,000 kg/ha under traditional management, reaching 1,500-2,500 kg/ha with improved varieties and adequate rainfall.
+
+**Leaf vegetable use**:
+
+Young cowpea leaves are an important vegetable in West and East African farming systems, often more valued than the grain itself. Harvest young leaves (the top 3-4 leaves of each branch) beginning 30 days after planting, taking no more than one-third of the leaves from any plant to avoid reducing grain yield. Leaves can be harvested every 7-10 days throughout the growing season, providing a continuous vegetable supply for 2-3 months.
+
+Nutritional composition of fresh cowpea leaves per 100g: 36 kcal, 5.3 g protein, 0.5 g fat, 6.0 g carbohydrate, and exceptionally high iron (9.2 mg — more than most leafy vegetables), calcium (274 mg), and vitamin A (3,230 μg retinol equivalents). Leaves are prepared by boiling 10-15 minutes in salted water, then serving as a cooked vegetable or adding to stews. The cooking water can be retained as a nutrient-rich broth. Dried leaves store for 6-12 months and are reconstituted by soaking in warm water before cooking.
+
+**Cooking dried cowpeas (30-60 minutes)**:
+
+Dried cowpeas cook faster than most other dried legumes — a significant advantage in fuel-scarce situations:
+
+1. Sort and rinse dried cowpeas. Soak in cold water (1:4 ratio) for 6-8 hours. Cowpeas need less soaking time than common beans due to their thinner seed coat.
+2. Discard soak water. Add fresh water covering beans by 5 cm.
+3. Bring to a rolling boil. Skim any foam.
+4. Simmer 30-60 minutes. Cowpeas typically cook in 30-45 minutes if well-soaked; unsoaked beans need 60-90 minutes. The thin seed coat and relatively small seed size contribute to faster cooking compared to common beans or chickpeas.
+5. Test for doneness: pressed between fingers, fully cooked cowpeas should mash easily.
+
+Cowpeas are traditionally prepared as a thick stew or porridge across West Africa (called "waakye" when cooked with rice and sorghum leaves, "gbegiri" as a bean soup, "akara" as fried bean cakes). The cooked beans can also be mashed, formed into cakes, and deep-fried in oil — a preparation that combines the protein of the cowpea with additional calories from oil, producing a high-energy food.
+
+**Storage**: Dry cowpea grain stores well for 1-2 years under proper conditions (below 14% moisture, airtight containers, cool and dark). The major storage pest is the cowpea bruchid (*Callosobruchus maculatus*), which can destroy 50-100% of stored grain within 3-6 months. Traditional control methods include mixing grain with fine sand or wood ash (fills the spaces between grains, preventing beetle movement), storing in sealed clay jars with a layer of ash on top, or mixing with neem leaves (contains azadirachtin, a natural insect repellent). Solarization — spreading grain in thin layers in direct sun for 2-3 hours — kills bruchid eggs and larvae through heat and UV exposure.
+
+### Nitrogen Fixation and Intercropping
+
+Cowpea fixes 70-240 kg of nitrogen per hectare per season through root nodules — among the highest rates of any grain legume. This makes it exceptionally valuable in tropical farming systems where synthetic fertilizers are unavailable. In traditional West African intercropping, cowpea is planted between rows of sorghum, pearl millet, or maize. The cowpea provides nitrogen to the cereal crop, suppresses weeds as a living mulch, and produces both grain and leaf vegetable from the same planting. The cereal provides support for semi-erect cowpea varieties and partial shade that reduces water stress.
+
+Intercropping ratios: plant cowpea in every other row with the cereal crop, or plant cowpea between cereal hills at 50% of the sole-crop density. This typically reduces cereal yield by 10-20% compared to sole cropping, but the combined calorie and protein yield per hectare exceeds either crop alone by 30-60%.
+
+### Anti-nutrient Reduction
+
+Cowpeas contain lower levels of anti-nutrients than many other legumes, making them relatively easy to prepare:
+
+- **Phytic acid**: 0.4-0.9% in dry grain. Soaking 6-8 hours removes 30-50%. Cooking removes an additional 20-30%.
+- **Trypsin inhibitors**: Present but destroyed by normal cooking (boiling 30+ minutes).
+- **Tannins**: Concentrated in the seed coat. Dark-seeded varieties have higher tannin content than white-seeded varieties. Soaking and discarding the hull removes 40-60% of tannins.
+- **Oligosaccharides**: Lower than in common beans, which is why cowpeas cause less flatulence. Soaking reduces the remaining oligosaccharides by 30-50%.
+
+The combination of shorter cooking time, lower anti-nutrient levels, and dual-purpose harvest (leaves + grain) makes cowpea one of the most fuel-efficient protein sources available for tropical and subtropical regions.
+
+### Drought Tolerance and Climate Adaptation
+
+Cowpea is exceptionally adapted to hot, dry environments where common bean and soybean fail. It produces grain with as little as 300-400 mm of annual rainfall and tolerates daytime temperatures of 35-40°C during flowering and pod fill. The deep taproot (penetrating 1.5-2.5 m into the soil) accesses moisture unavailable to shallow-rooted crops, and the plant's stomatal regulation allows it to maintain photosynthetic activity under severe water stress.
+
+This drought hardiness makes cowpea the preferred legume across the Sahel (250-500 mm rainfall), the semi-arid tropics of India, and the dry savannas of sub-Saharan Africa. In these zones, cowpea provides the only reliable grain legume harvest in years when rainfall is insufficient for common bean, peanut, or soybean. The plant's heat tolerance also extends its productive range into lowland tropical areas where cool-season legumes like chickpea and lentil cannot grow.
+
 ## Quantitative Parameters
 
 ### Growing Parameters

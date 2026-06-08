@@ -70,6 +70,76 @@ A small tropical tree in the Euphorbiaceae family, with edible leaves.
 
 ### Edible Parts and Preparation
 
+#### SAFETY-CRITICAL: Cyanogenic Glycosides
+
+**WARNING — LIFE-THREATENING TOXICITY**: All parts of the cassava plant contain cyanogenic glycosides, primarily linamarin (95%) and lotaustralin (5%). When plant tissue is physically damaged (cut, grated, chewed), the enzyme linamarase comes into contact with these compounds and hydrolyzes them to hydrogen cyanide (HCN). HCN is a potent metabolic poison that blocks cellular respiration by inhibiting cytochrome c oxidase. The lethal dose of HCN is approximately 0.5-3.5 mg per kg of body weight (35-250 mg for a 70 kg adult). **Never eat raw cassava root.** Improperly processed cassava causes acute cyanide poisoning (headache, dizziness, nausea, vomiting, rapid breathing, convulsions, death) and chronic cyanide exposure (konzo — irreversible paralysis of the legs; tropical ataxic neuropathy — nerve damage).
+
+Cassava varieties are classified by cyanide content:
+
+| Type | HCN Equivalent (mg/kg fresh root) | Risk Level | Processing Required |
+|------|----------------------------------|------------|-------------------|
+| Sweet (low-cyanide) | ≤50 mg/kg | Moderate | Peeling + thorough cooking |
+| Bitter (high-cyanide) | 50-400 mg/kg | **Severe** | Full detoxification: peel + grate + ferment/press + cook |
+
+Sweet varieties are grown primarily for direct consumption. Bitter varieties yield more per hectare and are more pest-resistant (cyanide acts as a natural pesticide), but require extensive processing. **Always assume cassava is the bitter type unless the variety is confirmed sweet.**
+
+#### Detoxification Process
+
+Cyanide removal requires both enzymatic breakdown (linamarase hydrolyzing linamarin to HCN) and physical removal (HCN is volatile and water-soluble). The key principle: **cooking alone is insufficient**. Heat above ~75°C inactivates the linamarase enzyme before it can hydrolyze all the cyanogenic glycosides, trapping residual linamarin in the tissue. The processing steps must allow enzymatic activity to occur before or during the application of heat.
+
+**Step 1: Peeling**. Cyanogens are concentrated in the skin and outer cortex (peel contains 10-20× the HCN of the inner flesh). Peel the root completely using a knife, removing all brown outer tissue and the thin inner peel layer.
+
+**Step 2: Size reduction (grating or chipping)**. Grate the peeled root on a perforated tin sheet, stone grater, or rasping device. The goal is to rupture every cell, maximizing contact between linamarase and linamarin. Alternatively, chip into pieces smaller than 5 mm. Fine grating removes 90-95% of cyanogens; coarse chipping removes only 60-70%.
+
+**Step 3: Enzymatic breakdown + physical removal**. Choose one of the following methods:
+
+**Method A: Fermentation and pressing (gari — West Africa)**:
+1. Pack grated cassava pulp into a woven bag or basket lined with leaves.
+2. Press under heavy weight (stones, logs) for 12-48 hours to express the toxic juice. The liquid drains away carrying dissolved HCN and linamarin. The remaining solid mass is called cassava cake.
+3. During pressing, natural fermentation by lactic acid bacteria (Lactobacillus, Leuconostoc) and fungi lowers the pH to 3.5-4.5. This fermentation further hydrolyzes residual cyanogens and produces characteristic sour flavor.
+4. Sieve the pressed cake to remove fibrous lumps and break into granules (garification).
+5. Toast the granules in a dry pan over fire at 80-100°C for 15-30 minutes, stirring constantly. This final heating volatilizes remaining HCN and dries the product to below 10% moisture. The resulting gari is a shelf-stable granulated flour that stores for 6-12 months. Gari is eaten soaked in water (with sugar) or cooked into a paste (eba) with hot water.
+
+**Method B: Heap fermentation (farinha — South America)**:
+1. Pile grated cassava pulp in a heap 30-50 cm deep on a clean surface.
+2. Cover with banana or other broad leaves to retain moisture and heat.
+3. Ferment for 48-72 hours. The heap heats internally to 40-50°C. Microbial activity plus the retained linamarase enzyme hydrolyze cyanogens, and HCN volatilizes from the heap.
+4. Press the fermented mass in a woven tube press (tipiti) to remove residual liquid.
+5. Toast on a large flat clay or metal griddle over fire, breaking up lumps and stirring constantly until dry and granular (30-60 minutes). The product is farinha — coarse toasted cassava meal. Shelf life: 6-12 months.
+
+**Method C: Soaking in running water**:
+1. Soak peeled and grated (or thinly sliced) roots in a container of water for 24-48 hours, changing the water 2-3 times. Dissolved linamarin and HCN diffuse into the water.
+2. For maximum safety, soak in flowing water (stream, spring) for 24-48 hours in a woven basket.
+3. After soaking, press out remaining liquid and cook thoroughly. This method is simpler but removes less cyanide than fermentation — suitable only for sweet varieties as a secondary safety step.
+
+**Step 4: Cooking**. After detoxification by one of the above methods, cook the processed cassava thoroughly. Boiling for 30-45 minutes, roasting, or frying are all acceptable final steps. For sweet varieties only, peeling and boiling for 30-45 minutes is adequate as the sole detoxification method.
+
+#### Sweet Variety Preparation (Low-Cyanide Only)
+
+For confirmed sweet varieties (≤50 mg HCN/kg):
+1. Peel completely.
+2. Cut into chunks or leave whole if small.
+3. Boil in ample water for 30-45 minutes until tender (test with a fork).
+4. Discard cooking water — it contains dissolved cyanide compounds.
+5. Serve boiled, or mash, or fry in oil. Boiled sweet cassava has a texture similar to potato and a mild, slightly sweet flavor.
+
+#### Leaves as Food
+
+Cassava leaves are also edible and are a significant protein source (6-10% protein by dry weight) in many African cuisines. However, leaves contain even higher cyanogen levels than the roots (200-1,400 mg HCN/kg fresh weight). Processing:
+
+1. Harvest young leaves (older leaves are more toxic).
+2. Pound thoroughly in a mortar to rupture cell walls and release linamarase.
+3. Boil in water for 30-60 minutes minimum (longer is safer). Change the water at least once during boiling.
+4. The resulting cooked leaves (prepared as saka-saka or pondu in Central Africa, or as part of stews) are safe when thoroughly boiled. The extended cooking hydrolyzes cyanogens and volatilizes the HCN.
+
+#### Cassava Flour Production
+
+1. Peel, grate, and ferment/press as described above.
+2. Sun-dry the pressed cake for 3-5 days until completely brittle, or toast in a dry pan until all moisture is removed.
+3. Mill the dried cassava to a fine flour using a stone mill, hammer mill, or mortar and pestle.
+4. Sieve to remove coarse particles. Cassava flour is white to cream-colored, neutral-flavored, and approximately 85% carbohydrate (starch) with minimal protein (1-2%).
+5. Store in airtight containers in a dry location. Shelf life: 6-12 months. Cassava flour does not contain gluten and cannot be used for leavened bread, but produces excellent flatbreads, porridges, and can be used as a thickening agent.
+
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -110,10 +180,12 @@ Key scaling challenges include maintaining genetic diversity at plantation scale
 
 Working with *Manihot esculenta* involves the following hazards:
 
+- **CYANIDE POISONING (CRITICAL)**: Cassava contains cyanogenic glycosides (linamarin, lotaustralin) that release hydrogen cyanide (HCN) when tissue is damaged. Acute cyanide poisoning causes headache, dizziness, rapid breathing, nausea, vomiting, convulsions, and death. Chronic exposure causes konzo (irreversible spastic paralysis) and tropical ataxic neuropathy. **Never consume raw or undercooked cassava.** Always follow the complete detoxification process (peel → grate → ferment/press → cook) described in Edible Parts and Preparation. If symptoms of cyanide poisoning occur after consuming cassava, seek emergency medical attention immediately.
 - Tool injuries during harvest and processing — use sharp tools in good condition and cut away from the body
 - Allergic reactions to plant compounds — sensitive individuals should test small quantities first
 - Sun exposure and heat stress during field work — schedule heavy work for early morning or late afternoon
 - Musculoskeletal strain from repetitive harvesting motions — vary tasks and take regular breaks
+- Skin irritation from contact with raw cassava latex — the milky sap can cause contact dermatitis in sensitive individuals. Wear gloves during peeling and grating.
 
 ### Personal Protective Equipment
 

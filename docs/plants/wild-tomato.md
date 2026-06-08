@@ -61,6 +61,61 @@ This species grows as a perennial or annual depending on climate and management.
 
 ## Process Description
 
+### Harvesting
+
+Harvest wild tomato fruits when they are fully colored (deep red to orange-red depending on variety) but still firm. Wild tomatoes (cherry-type, 1-2 cm diameter) ripen progressively over several weeks on indeterminate vines:
+
+1. **Pick regularly**: Harvest every 2-3 days during peak season. Overripe fruit left on the plant signals the plant to stop setting new flowers. Frequent picking extends the harvest period to 3-6 months in warm climates.
+2. **Handling**: Wild tomatoes have thinner skins than modern cultivars. Handle gently to prevent splitting and bruising. Collect in shallow baskets — do not pile more than 10-15 cm deep to avoid crushing fruit at the bottom.
+3. **Green fruit**: At season's end, unripe green fruit can be harvested before frost. Green tomatoes will ripen off the vine if stored at room temperature (wrapped in paper, spaced apart) over 1-2 weeks. Fully green fruit is edible when cooked (fried, pickled, or in chutney) but has a different flavor profile than ripe fruit.
+
+### Seed Saving
+
+Maintaining open-pollinated tomato seed is essential for year-to-year crop continuity. Wild tomatoes breed true (unlike many modern F1 hybrids), making seed saving straightforward:
+
+1. **Selection**: Mark the healthiest, earliest-fruiting, and most productive plants in the field with colored cord. Save seed only from these superior plants to gradually improve the local population.
+2. **Fermentation extraction**: Slice selected ripe fruits in half and squeeze the pulp and seeds into a glass or ceramic jar. The seeds are surrounded by a gel sac that contains germination-inhibiting compounds — fermentation removes this gel. Add a small amount of water if the pulp is very thick.
+3. **Ferment**: Leave the jar uncovered at room temperature (20-25°C) for 2-3 days. A white mold will form on the surface and the gel will break down. Stir once daily. The fermentation smell is sharp and pungent but normal.
+4. **Washing**: After 2-3 days, add water to the jar and stir. Viable seeds sink to the bottom; pulp, mold, and dead seeds float. Pour off the floating debris. Repeat 3-4 times until the water runs clear and only clean seeds remain.
+5. **Drying**: Spread washed seeds in a single layer on a non-stick surface (glass plate, ceramic tile, or piece of smooth wood — avoid paper, which sticks to seeds). Dry in a warm (25-30°C), shaded, well-ventilated location for 7-10 days. Seeds must reach 8-12% moisture content. Test by biting — properly dried seeds crack rather than dent.
+6. **Storage**: Store in paper envelopes or cloth bags (not plastic — seeds need to breathe). Keep in a cool, dry, dark location. Tomato seeds remain viable for 4-6 years under good storage conditions; up to 10 years if kept cool and very dry.
+
+### Drying (Sun-Dried Tomatoes)
+
+Drying preserves tomatoes for months without refrigeration, concentrating flavor and nutrients:
+
+1. **Preparation**: Wash fruit. Cut in half horizontally (through the equator). Remove seeds if desired (seeds make drying slower and the final product less uniform). Sprinkle cut surfaces lightly with salt to draw moisture and inhibit microbial growth.
+2. **Sun drying**: Place halves cut-side up on raised screens or flat stones in full sun. Cover with thin cloth or netting to keep insects off. Dry for 6-12 hours over 2-3 days, bringing trays indoors at night to avoid dew. Turn once during drying.
+3. **Oven drying**: If sun drying is impractical (humid climate, rainy season), dry in an oven or drying kiln at 50-60°C with the door propped open for airflow. Dry for 6-12 hours until leathery and pliable with no moist spots. Higher temperatures cook the tomatoes rather than drying them.
+4. **Test for dryness**: Properly dried tomatoes are leathery, dark red, and flexible but not sticky or moist. They should bend without breaking but have no soft, squishy spots.
+5. **Storage**: Pack dried tomatoes tightly into sterilized clay jars or glass containers. Store in a cool, dry, dark location for up to 6 months. For longer storage, submerge in olive oil (if available) in sealed jars — the oil excludes air and prevents mold.
+
+### Sauce and Preserves
+
+Wild tomatoes make intensely flavored sauces and preserves due to their high sugar-to-water ratio:
+
+1. **Fresh sauce**: Wash ripe fruit. Remove stems. Crush fruit in a mortar or by hand. Simmer in a clay pot for 30-60 minutes, stirring frequently to prevent scorching. Add salt to taste (1-2% of fruit weight). The sauce thickens as water evaporates. Sieve to remove skins and seeds if desired.
+2. **Concentrated paste (tomato paste)**: Continue simmering crushed tomato pulp for 2-4 hours until reduced to a thick, dark red paste that holds its shape on a spoon. Spread paste in a thin layer on a flat surface and sun-dry to a leather consistency for long-term storage. Reconstitute with water when needed.
+3. **Fermented sauce**: Crush ripe tomatoes with 3-5% salt by weight. Pack into a fermentation vessel, cover with a weight to submerge, and ferment at room temperature for 5-14 days. The lactic acid fermentation preserves the sauce and develops a tangy, umami-rich flavor. Store in sealed jars.
+4. **Chutney/relish**: Combine chopped tomatoes with onions, vinegar (or lemon juice), salt, and spices. Simmer for 1-2 hours until thickened. The acid from vinegar preserves the chutney for months in sealed jars.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Fruit diameter | 1-2 cm | Wild/cherry type |
+| Harvest frequency | Every 2-3 days | During peak season |
+| Harvest period | 3-6 months | Indeterminate varieties, warm climate |
+| Seed fermentation | 2-3 days at 20-25°C | Removes gel coating |
+| Seed drying time | 7-10 days | At 25-30°C, shaded |
+| Seed viability | 4-6 years | Good storage conditions |
+| Sun drying time | 6-12 hours over 2-3 days | Cut-side up, covered |
+| Oven drying temp | 50-60°C | 6-12 hours, door propped open |
+| Sauce simmer time | 30-60 minutes | Fresh sauce |
+| Paste reduction time | 2-4 hours | For thick paste |
+| Salt for fermentation | 3-5% by weight | Lactic acid preservation |
+| Chutney simmer time | 1-2 hours | With vinegar/acid |
+
 ### Distribution and Growing Conditions
 
 

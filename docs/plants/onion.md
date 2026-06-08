@@ -76,6 +76,69 @@ An onion family plant. A herb with a two year life cycle. Normally it develops f
 
 ### Edible Parts and Preparation
 
+#### Harvesting
+
+Onion harvest timing is determined by the tops (foliage) rather than the bulb itself. The bulb swells during active growth, and harvest is triggered when the foliage signals that growth has ceased:
+
+1. **Bulb onions**: Harvest when 50-80% of the tops have fallen over (lodged) and begun to yellow and dry. The neck (where the leaves meet the bulb) should be soft and beginning to constrict. Do not wait until all tops are completely dry — bulbs may begin to sprout or rot in the ground.
+2. Stop irrigation 1-2 weeks before the expected harvest date to encourage the necks to dry and the outer scales (papery skin) to set. Wet soil at harvest promotes rot.
+3. Loosen bulbs from soil with a fork (insert 10-15 cm away from the bulb to avoid damage), then lift by hand. Do not pull by the tops — this can break the neck and introduce rot organisms.
+4. **Green onions / spring onions**: Harvest at any stage when the leaves are still green and upright, typically 30-60 days after sowing. Pull the entire plant (bulb + leaves) and use fresh.
+5. Onions damaged during harvest (cuts, bruises, missing basal plate) should be used immediately — they will not store well. Sort at harvest: undamaged bulbs for storage, damaged bulbs for immediate use or drying.
+
+#### Curing and Drying
+
+Curing is the critical post-harvest process that dries the outer scales into a protective papery skin and seals the neck against rot organisms. Properly cured onions store for months; improperly cured onions rot within weeks:
+
+1. **Field curing** (preferred in dry weather): Lay pulled onions in a single layer on the soil surface in full sun for 2-3 days. Cover the bulbs with the pulled tops to prevent sunscald (the foliage shades the bulbs). Turn once after the first day to expose all sides.
+2. **Indoor curing** (in wet weather or high humidity): Move onions to a well-ventilated shed, covered porch, or any dry space with good air circulation. Spread in a single layer on racks, screens, or clean dry straw. Do not pile bulbs — they need airflow around each bulb.
+3. **Curing conditions**: Temperature 25-30°C, relative humidity below 65%, continuous air movement. Curing takes 2-3 weeks under good conditions.
+4. **Cured onion indicators**: The neck is completely dry and tight (no moisture when squeezed), the outer 2-3 scale layers are dry, papery, and rustle when handled, and the roots are dry and wiry. The skin color should be uniform for the variety (golden brown, white, red, etc.).
+5. After curing, clip the dried tops to 2-3 cm above the bulb (or leave long for braiding), and trim roots to 0.5 cm. Do not remove the dry outer scales — these are the storage protection.
+
+#### Storage
+
+Onion storage longevity depends on variety, curing quality, and storage conditions. The goal is to keep bulbs dormant (preventing sprouting) and dry (preventing rot):
+
+1. **Ideal storage conditions**: 0°C (32°F), 65-70% relative humidity, continuous gentle air circulation, complete darkness. At these conditions, well-cured bulb onions store for 4-8 months depending on variety.
+2. **Critical rule — keep them dry**: Humidity above 75% triggers root growth and rot. Never store onions in plastic bags or sealed containers — the trapped moisture causes rapid spoilage.
+3. **Critical rule — keep them dark**: Light exposure triggers sprouting and produces green chlorophyll in the outer scales. Sprouted onions are edible but the bulb flesh becomes soft and the flavor changes (sprout is bitter).
+4. **Storage methods at basic technology levels**:
+   - **Braided strings**: Braid the dried tops of 20-30 onions into a rope and hang in a cool, dry, dark room. Excellent air circulation around each bulb.
+   - **Mesh bags or netting**: Fill mesh bags with cured onions and hang from rafters. Do not stack bags — single layer hanging is best.
+   - **Slatted crates**: Wooden crates with gaps between slats for airflow. Stack with space between crates.
+   - **Spread on racks**: Single layer on slatted shelves in a root cellar or cool basement.
+5. **Temperature management**: In warm climates without cold storage, choose a well-ventilated, shaded, dry location. Storage life drops to 1-3 months at 20-30°C. Pungent varieties (high sulfur content) store longer than sweet varieties.
+6. Inspect stored onions every 2-4 weeks. Remove any sprouting, soft, or moldy bulbs immediately — one rotting onion spreads mold to adjacent bulbs. Cut away sprouts and use immediately; discard bulbs with soft spots or mold.
+
+#### Seed Saving (Biennial Cycle)
+
+Onions are biennials — they produce bulbs in the first year and flower and set seed in the second year. Seed saving requires overwintering selected bulbs and allowing them to flower the following season:
+
+1. **Select mother bulbs**: At harvest, choose the best 10-20 bulbs for seed saving. Select for size (medium to large), shape (uniform, typical of variety), firmness, disease-free, strong neck, good skin quality, and true-to-type flavor. Do not save seed from double or split bulbs.
+2. **Store seed bulbs** through winter using the same conditions as food storage: 0°C, 65-70% humidity, dark. Check monthly for rot or sprouting. If bulbs sprout in storage, plant them out anyway — sprouted bulbs will still flower.
+3. **Replant in spring**: When soil can be worked (after last frost), replant seed bulbs 30-45 cm apart in a dedicated seed-production bed. Plant at normal depth (base 2-3 cm below soil surface). The bulb will send up a thick flower stalk (scape) within 2-4 weeks.
+4. **Flower head (umbel) development**: Each scape produces a spherical umbel (flower head) 5-10 cm diameter containing 200-600 small white or purple flowers. The flowers are insect-pollinated (bees, flies). If maintaining varietal purity, isolate seed plants from other flowering Allium cepa by at least 800 m, or cage and hand-pollinate.
+5. **Harvest seed**: The umbel matures over 4-6 weeks. Seeds are ready when the seed head dries and the capsules begin to split open, revealing small black, angular seeds. Cut the entire umbel with 15-20 cm of stalk when 50-70% of seeds are visible. Do not wait for all seeds to mature — early-shattering seeds will be lost.
+6. **Dry and clean**: Hang cut umbels in a paper bag or on a screen in a warm, dry, well-ventilated location for 2-3 weeks. Thresh by rubbing the dried umbels between your hands or against a screen. Winnow to remove chaff.
+7. **Seed storage**: Onion seed is short-lived. Store at 2-5°C in sealed containers with desiccant (dry silica gel or powdered charcoal). Germination declines rapidly: 85% at harvest → 50% after 1 year at room temperature → near-zero after 2 years. Use seed within 12-18 months.
+8. **Population size**: Save seed from at least 20-30 plants to maintain genetic diversity. Inbreeding depression (reduced vigor from too few parents) appears within 2-3 generations if fewer than 10 plants are used.
+
+#### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Harvest trigger | 50-80% tops fallen over | Bulb neck soft, constricting |
+| Curing temperature | 25-30°C | With airflow, below 65% humidity |
+| Curing duration | 2-3 weeks | Until necks dry and scales papery |
+| Storage temperature | 0°C (ideal) | 65-70% relative humidity, dark |
+| Storage life (ideal conditions) | 4-8 months | Variety-dependent |
+| Storage life (ambient warm) | 1-3 months | 20-30°C, dry and ventilated |
+| Seed viability | 85% at harvest | Declines to ~50% after 1 year at RT |
+| Seed isolation distance | 800 m minimum | For varietal purity |
+| Minimum seed-saving population | 20-30 bulbs | Prevents inbreeding depression |
+| Onion seed storage | 2-5°C, sealed | Use within 12-18 months |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

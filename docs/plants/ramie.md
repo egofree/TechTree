@@ -76,6 +76,80 @@ An erect shrub which grows from year to year. It is 1-3 m tall. The underground 
 
 ### Edible Parts and Preparation
 
+Root — peeled and boiled; pleasant, sweet taste but very mucilaginous texture requiring extensive chewing. Leaves are used for making cakes and as a dye for black rice cake. Flowers are used in some traditional preparations. The edible uses are secondary to ramie's value as a fiber crop.
+
+### Harvesting for Fiber
+
+Ramie is a perennial shrub harvested repeatedly from established stands, productive for 6-8 years:
+
+1. **Timing**: Cut stems 2-3 times per year on a 60-90 day growth cycle. The first harvest of the season produces the best fiber quality. Stems are ready when they reach 1-1.5 m tall and the lower leaves begin to yellow — fiber strength peaks and pectin content is optimal for degumming.
+2. **Method**: Cut stems at ground level with a sickle or machete. Handle carefully — fresh stems should be processed within hours for best decortication results. Stems left overnight begin to dry, making bark removal significantly harder.
+3. **Yield**: 800-1,200 kg/ha dry degummed fiber per year across multiple harvests. A single hectare of mature ramie produces more usable fiber than equivalent area of cotton, making it one of the most productive fiber crops per unit area.
+4. **Stand management**: After 6-8 years, yields decline and stands should be replanted from rhizome divisions. Divide established clumps in early spring for new plantings.
+
+### Decortication (Green Bark Removal)
+
+Unlike other bast fibers (flax, hemp, jute) which require retting, ramie is decorticated from fresh (green) stems:
+
+1. Cut stems at ground level and transport immediately to the processing area.
+2. Remove leaves by hand or by pulling stems through a narrow gap between two vertical stakes.
+3. **Scrape fresh stems** with a blunt knife or specialized decortication blade to remove the outer bark and separate the fibrous inner bark (bast) from the woody core. The scraping motion runs from stem base to tip, peeling away long strips of bark.
+4. The raw fiber strips (ribbons) are creamy-white to pale green, 1-2 m long, and contain 20-30% gum (pectin, hemicellulose, and other non-cellulosic material) that must be removed before spinning.
+5. Fresh decortication is critical — dried stems resist bark removal. If immediate processing is impossible, keep stems moist by covering with damp cloth for up to 12 hours.
+
+### Chemical Degumming (NaOH Method)
+
+Raw ramie fiber contains 20-30% gum that makes it stiff, coarse, and unspinnable. Chemical degumming is the standard industrial process and produces the highest quality fiber:
+
+1. **Prepare alkali solution**: Dissolve sodium hydroxide (NaOH) in water at a concentration of 1-4% by weight (10-40 g NaOH per liter of water). Higher concentrations degum faster but may damage cellulose fibers if overdone. Start with 2% for a balance of speed and safety.
+2. **Boil raw fiber**: Submerge raw decorticated ribbons completely in the NaOH solution. Heat to 90-100°C and maintain at a rolling boil for 1-2 hours. Stir occasionally to ensure even treatment. The NaOH hydrolyzes pectins, hemicellulose, and other gums, dissolving them into the solution.
+3. **Monitor progress**: After 1 hour, remove a small fiber sample and rinse it. Properly degummed fiber appears white, feels soft and silky, and separates easily into fine filaments. If still stiff or gummy, continue boiling in 15-minute increments. Over-treatment (above 2 hours in 4% NaOH) degrades cellulose and weakens the fiber.
+4. **Wash thoroughly**: Remove degummed fiber from the solution and wash repeatedly in clean water — at least 5-6 rinses — until all alkali residue is removed and rinse water runs clear. Residual NaOH causes fiber yellowing and weakening over time. A simple litmus test (paper turns blue in presence of alkali) confirms complete removal.
+5. **Neutralize (optional)**: For critical applications, dip washed fiber in a dilute acetic acid (vinegar) solution (1-2% concentration) to neutralize any remaining alkali, then rinse again.
+6. **Bleach (optional)**: For pure white fiber, soak degummed ramie in a 2-3% hydrogen peroxide solution at 60-70°C for 30-60 minutes. This removes residual color without damaging cellulose.
+7. **Dry**: Hang degummed fiber in loose bundles in the sun or a well-ventilated area. Dry completely before storage. Degummed ramie is white to cream-colored with a distinctive silky luster.
+
+### Biological Degumming (Low-Technology Alternative)
+
+Where NaOH is not available, biological degumming uses microbial fermentation:
+
+1. Submerge raw ramie ribbons in water tanks at 30-40°C for 24-48 hours.
+2. Naturally occurring bacteria (primarily *Bacillus* species) ferment and break down pectins and gums.
+3. Test readiness: properly degummed fiber is soft, pliable, and separates into fine filaments.
+4. Wash thoroughly in clean water and dry.
+5. Biological degumming produces softer fiber than chemical methods but takes longer and gives less consistent results. Suitable for small-scale or low-technology contexts.
+
+### Ramie Fiber Properties
+
+Ramie produces one of the strongest natural fibers known — the benchmark bast fiber for tensile strength:
+
+| Property | Value | Notes |
+|----------|-------|-------|
+| Tensile strength (fiber cell) | 870-1,100 MPa | 5-6x stronger than cotton; strongest natural bast fiber |
+| Tensile strength (fiber bundle) | 400-600 MPa | After degumming |
+| Individual fiber cell length | 10-20 cm | Longest of any bast fiber; contributes to high yarn strength |
+| Fiber cell diameter | 20-80 μm | |
+| Density | 1.48-1.55 g/cm³ | Denser than cotton (1.54) |
+| Cellulose content | 85-90% (degummed) | Very high; one of the purest cellulose fibers |
+| Moisture regain | 12-14% | At 65% relative humidity |
+| Color (degummed) | White to cream | Distinctive silky luster |
+| Elasticity | Poor (1-3% elongation) | Stiffer than cotton; prone to wrinkling |
+| Rot resistance | Excellent | Resists degradation in water — preferred for fishing nets |
+| Moth resistance | Reported moth-proof | Unique among plant fibers |
+
+Key strengths: highest tensile strength of any natural fiber, excellent rot and moth resistance, silky luster, holds dye well, improves in strength when wet.
+
+Key weaknesses: poor elasticity (stiff, brittle handle), low abrasion resistance, prone to wrinkling, requires degumming before use (adds processing cost and chemical requirement).
+
+### Spinning and Blending
+
+Degummed ramie is stiff and has poor elasticity, making pure ramie yarn difficult to spin and uncomfortable for clothing. Practical spinning requires blending:
+
+1. **Carding**: Pass degummed ramie fiber through carding combs to align fibers and remove any remaining gum particles.
+2. **Blending**: Mix ramie with softer, more elastic fibers before spinning. Common blends: ramie-cotton (50:50 or 40:60), ramie-wool, ramie-polyester. The blend partners provide elasticity and softness while ramie contributes strength and luster.
+3. **Spinning**: Ring spinning or mule spinning produces ramie-blend yarn. Pure ramie yarn is possible but results in stiff, wiry fabric best suited for industrial applications (filter cloth, canvas, fishing nets).
+4. **Fabric uses**: Blended ramie-cotton cloth is lightweight, strong, lustrous, and breathable — similar in feel to linen but with higher tensile strength. Pure ramie fabric is used for fishing nets (rot resistance in water), canvas, upholstery, and industrial filters.
+
 ## Quantitative Parameters
 
 ### Growing Parameters

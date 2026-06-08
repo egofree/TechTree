@@ -76,6 +76,82 @@ A woody vine which keeps growing from year to year. It is often pruned to reduce
 
 ### Edible Parts and Preparation
 
+Grapes are consumed fresh, dried as raisins, fermented into wine and vinegar, or pressed for juice and oil. Each processing pathway has specific requirements:
+
+**Harvesting for sugar content**: Grapes destined for wine should reach 20-24°Brix (percent sugar by weight, measured with a refractometer or by density of juice). Table grapes are harvested when fully colored, slightly soft, and sweet to taste. For wine, sugar content is critical: below 20°Brix produces thin, acidic wine; above 24°Brix risks stuck fermentation and overly sweet results. Harvest by cutting clusters from the vine with a knife or shears, leaving a short stem attached. Pick in the cool early morning to preserve acidity.
+
+### Wine and Fermentation Process
+
+Wine production transforms perishable grapes into a stable, caloric, and preservative product that stores for years:
+
+1. **Crush**: Remove stems and crush grapes to release juice (must). Traditional method: tread grapes by foot in a stone or wooden vat, or use a wooden paddle crusher. Do not crush seeds — crushed seeds release bitter tannins. The must contains sugar (glucose, fructose), acids (tartaric, malic), wild yeast on the grape skins, and suspended solids.
+
+2. **Sulfite (optional)**: Add sulfur dioxide (by burning elemental sulfur in the empty vessel before filling, or adding potassium metabisulfite) at 30-50 mg/L to inhibit wild bacteria and spoilage organisms while allowing desirable yeast to work. Without sulfite, wild fermentation is riskier but still viable — wine has been made for millennia without it.
+
+3. **Ferment (primary)**: Transfer must to a fermentation vessel (clay amphora, wooden barrel, or stone vat). Wild yeast (*Saccharomyces cerevisiae* naturally present on grape skins) initiates fermentation within 24-48 hours, converting sugar to ethanol and CO₂. For red wine: ferment on the skins for 7-14 days at 20-30°C, punching down the floating cap of skins twice daily to extract color and tannins. For white wine: press immediately after crushing, ferment juice only at 15-20°C for 10-21 days. Vigorous fermentation produces visible bubbling (CO₂ escape). Fermentation completes when bubbling stops and specific gravity drops below 1.000.
+
+4. **Press**: Separate liquid from solids. For red wine, press the fermented pomace (skins, seeds) using a basket press or screw press. For white wine, press before fermentation. Pressing extracts additional juice/wine — the first pressing yields free-run wine (highest quality), subsequent pressings yield increasingly astringent press wine.
+
+5. **Age**: Transfer wine to sealed vessels (amphorae, barrels, or bottles sealed with cork, clay, or wax). Age for 2-12 months (minimum) to allow flavors to develop and harsh tannins to soften. Red wines benefit from longer aging (6-24 months); many white wines are drinkable within 2-6 months. Store aging vessels at 10-15°C with minimal temperature fluctuation.
+
+6. **Rack and clarify**: After initial aging, siphon (rack) wine off the sediment (lees) into clean vessels. Repeat 2-3 times over several months. Fine with beaten egg white or bentonite clay if further clarification is needed.
+
+### Raisin Production
+
+Sun-drying grapes into raisins concentrates sugar and extends shelf life to 6-12 months:
+
+1. Harvest ripe grapes at full sugar (22-26°Brix). Thompson Seedless and similar varieties are preferred for raisins.
+2. Spread grape clusters on flat drying racks, paper trays, or clean flat stones in full sun. Arrange in a single layer with good air circulation.
+3. Sun-dry for 2-3 weeks, turning clusters every 2-3 days for even drying. Protect from rain and dew — moisture causes mold.
+4. Raisins are done when pliable and leathery, with no moist center when cut open. Moisture content should be below 15%.
+5. Store in sealed containers in a cool, dry place. Raisins keep for 6-12 months at ambient temperature.
+
+Alternative: dip grapes in a mild alkali solution (wood ash in water, pH 9-10) before drying. This cracks the waxy cuticle and reduces drying time to 7-10 days.
+
+### Vinegar Production
+
+Vinegar is wine that has undergone a secondary acetobacter fermentation, converting ethanol to acetic acid:
+
+1. Start with finished wine (6-12% alcohol). Dilute to 5-8% alcohol with water if the wine is too strong.
+2. Expose wine to air in a wide, shallow vessel. Acetobacter bacteria are ubiquitous in the environment and will colonize naturally. Alternatively, add unpasteurized vinegar (mother of vinegar) as a starter — 1 part vinegar to 3 parts wine.
+3. Maintain at 20-30°C with good air circulation. Cover the vessel with cloth to allow air exchange while excluding insects.
+4. Fermentation takes 3-6 months. The liquid gradually becomes more acidic as ethanol converts to acetic acid. Taste periodically — vinegar is ready when the alcohol taste is gone and the acidity is sharp and clean.
+5. Filter through cloth to remove the bacterial mother (cellulose mat). Store in sealed bottles. Vinegar keeps indefinitely at ambient temperature.
+
+### Grape Seed Oil
+
+Grape seeds contain 10-20% oil by weight, suitable for cooking and lighting:
+
+1. Collect pressed pomace (skins and seeds remaining after wine pressing). Separate seeds from skins by washing — seeds sink, skins float.
+2. Dry seeds thoroughly (below 10% moisture). Grind to a coarse meal using a stone mill.
+3. Cold-press the ground seeds using a screw press, wedge press, or stone weight press. Apply steady pressure. Seed oil yields approximately 10-15% by weight from cold pressing.
+4. Filter the expressed oil through cloth. Allow sediment to settle, then decant the clear oil. The oil is pale yellow-green, light-bodied, with a neutral flavor suitable for cooking and frying.
+5. Store in sealed containers away from light. Grape seed oil keeps for 6-12 months.
+
+### Dye (Anthocyanin from Red Skins)
+
+Red and dark grape skins contain anthocyanin pigments (primarily malvidin-3-glucoside) that produce red to purple-blue dyes:
+
+1. Collect red grape skins from wine pressing or separate from crushed grapes. Fresh or dried skins work.
+2. Extract color by simmering skins in water at 70-80°C for 30-60 minutes. Use a ratio of 1 part skins to 4 parts water by weight. The resulting liquor ranges from deep red to purple depending on pH — more acidic conditions produce brighter reds; alkaline conditions shift toward blue-purple.
+3. Strain through cloth. The dye liquor can be used immediately or concentrated by further evaporation.
+4. Mordant fibers (wool, silk, cotton) before dyeing for color fastness. Alum (potassium aluminum sulfate) at 10-15% of fiber weight is the standard mordant — simmer fiber in alum solution for 1 hour before dyeing.
+5. Immerse mordanted fiber in the warm dye liquor for 30-60 minutes. Lift, rinse, and dry. The color ranges from lavender-pink to deep burgundy depending on grape variety, concentration, and mordant used.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Harvest sugar content (wine) | 20-24°Brix | Below 20 = thin wine; above 24 = stuck fermentation risk |
+| Primary fermentation temperature (red) | 20-30°C | Higher extracts more color/tannin from skins |
+| Primary fermentation temperature (white) | 15-20°C | Cooler preserves delicate aromatics |
+| Primary fermentation duration | 7-14 days | Until bubbling stops and SG < 1.000 |
+| Wine aging time | 2-24 months | Longer for reds; whites drinkable sooner |
+| Raisin sun-drying time | 2-3 weeks | Turn every 2-3 days; target <15% moisture |
+| Vinegar fermentation | 3-6 months | Acetobacter at 20-30°C with air exposure |
+| Grape seed oil content | 10-20% | Cold press yields 10-15% by weight |
+| Anthocyanin dye extraction | 70-80°C, 30-60 min | 1:4 skins:water ratio |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

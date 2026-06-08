@@ -75,6 +75,64 @@ Mangifera indica is an evergreen Tree growing to 25 m (82ft) by 25 m (82ft) at a
 
 ### Edible Parts and Preparation
 
+#### Harvesting and Ripening
+
+Mangoes are typically harvested at the mature green stage — fully developed physiologically but still firm and green. This prevents losses from fruit drop, bird damage, and over-ripening on the tree. Indicators of harvest maturity: shoulders (the area around the stem end) become rounded and prominent, fruit reaches full size for the variety, and a faint yellow blush may appear on the skin.
+
+1. Clip fruit from the tree using a pole harvester with a net bag, or hand-pick for dwarf varieties. Leave a 1-2 cm stem stub to avoid tearing the fruit skin, which causes sap burn (black lesions from the latex-like sap).
+2. Handle carefully — mangoes bruise easily. Pack in single layers in padded crates or woven baskets. Do not stack more than 2 layers deep.
+3. **Off-tree ripening**: Place harvested mature-green fruit at 20-25°C in a well-ventilated room. Ripening takes 5-10 days. Ethylene gas accelerates ripening — placing mangoes in a sealed container with ripe bananas or apples (which emit ethylene) speeds the process to 3-5 days. Fruit is ripe when it yields to gentle pressure and has a strong sweet aroma at the stem end.
+4. Do not refrigerate unripe mangoes — temperatures below 13°C cause chilling injury (uneven ripening, grayish skin discoloration, flavor loss). Ripe fruit can be held at 10-13°C for up to 1 week.
+
+#### Drying
+
+Sun or solar drying extends mango availability beyond the harvest season and concentrates sugars and flavor:
+
+1. Select fully ripe fruit with no bruises or decay. Wash, peel, and slice into uniform strips 5-8 mm thick. A typical mango yields 8-12 slices.
+2. **Pretreatment** (optional but recommended): Dip slices in a 1-2% salt solution or lemon juice (citric acid) for 5 minutes to prevent oxidative browning and microbial growth during drying. This preserves the bright orange-yellow color.
+3. Arrange slices in a single layer on drying racks (bamboo slats, wooden frames with cloth, or woven grass mats). Leave 1-2 cm gaps between slices for airflow.
+4. **Sun drying**: Place racks in full sun at 60-65°C ambient air temperature. Cover with thin muslin cloth to keep insects off. Turn slices every 2-3 hours. Drying time: 8-12 hours of effective sun exposure (typically 2-3 days of good weather). Target moisture content: 10-15%.
+5. **Solar dryer** (improved): A simple box solar dryer (glass or clear plastic top, black-painted interior, ventilation holes) reaches 55-65°C and dries mango slices in 6-10 hours while protecting from dust and insects. Construction requires basic carpentry and glass or clear plastic sheeting.
+6. Test dryness by bending a slice — properly dried mango is leathery and pliable with no moist spots, but not brittle. Cool completely before packaging.
+7. Pack in sealed clay jars, wax-coated paper, or airtight containers. Store in a cool, dry, dark location. Properly dried mango keeps for 6-12 months. Dried mango is approximately 4-5× more calorie-dense than fresh fruit (~300 kcal/100 g dried vs. ~60 kcal/100 g fresh).
+
+#### Preserves and Chutney
+
+**Mango chutney** preserves fruit using acid, sugar, and salt — all reliable preservation methods at basic technology levels:
+
+1. Peel and dice 1 kg of firm, slightly underripe mango (green to half-ripe fruit has more pectin and holds shape better during cooking).
+2. Combine with 250 g sugar or honey, 50 g salt, 100 ml vinegar (or lemon/lime juice), 20 g fresh ginger (grated), 10 g chili pepper (dried and crushed), and 5 g each of cumin, coriander, and fenugreek seeds (dry-roasted and ground).
+3. Simmer in a heavy clay or iron pot over low heat for 1.5-2 hours, stirring frequently to prevent sticking, until the mixture thickens to a jam-like consistency and the mango pieces are translucent.
+4. Pack hot into sterilized clay jars. Seal with wax, oil, or tight-fitting lids. Chutney keeps for 6-12 months at room temperature; flavor improves with age.
+5. **Mango pickle** (South Asian style): Cut mature green mango into wedges. Mix with salt, turmeric, chili powder, and fenugreek seeds. Pack tightly into jars and fill with mustard oil to cover. Ferments for 3-7 days; keeps for months. The high acid and salt content prevents spoilage.
+
+**Mango jam/jelly**: Use fully ripe fruit. Simmer equal parts mashed mango pulp and sugar with lemon juice (provides pectin and acid) until the mixture sheets off a spoon (gel point, ~104°C). Pour into sterilized jars and seal.
+
+#### Bark Tannin Extraction
+
+Mango bark contains 15-20% tannins (condensed type), making it a useful supplementary tannin source for leather tanning, especially in tropical regions where mango trees are abundant:
+
+1. Strip bark from branches pruned during orchard management (do not strip bark from the main trunk of healthy trees — this damages or kills the tree). Best harvested during active growth season when bark peels easily.
+2. Dry bark strips in the sun for 5-7 days until brittle. Mill to a coarse powder using a mortar and pestle or stone mill.
+3. Extract tannins by steeping milled bark in water at 1:5 ratio (bark:water by weight) for 24-48 hours at room temperature, or 4-6 hours in hot water (60-80°C). Hot water extraction recovers 85-90% of available tannins.
+4. Strain the dark brown tannin liquor through cloth. This liquor is used directly in hide tanning — see [Acacia mearnsii (Black Wattle)](acacia-mearnsii.md) for the full leather tanning process.
+5. Mango bark tannin produces leather with a light brown color, similar to wattle-tanned leather but slightly softer. The tannin concentration is lower than wattle bark (15-20% vs. 30-40%), so more bark is needed per hide.
+
+#### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Off-tree ripening temperature | 20-25°C | 5-10 days from mature green |
+| Chilling injury threshold | <13°C | Avoid refrigerating unripe fruit |
+| Drying temperature | 60-65°C | Sun or solar dryer |
+| Drying time (sun) | 8-12 hours effective sun | 2-3 days of good weather |
+| Target moisture (dried mango) | 10-15% | Leathery, pliable |
+| Dried mango calorie density | ~300 kcal/100 g | 4-5× concentration vs. fresh |
+| Chutney cook time | 1.5-2 hours | Simmer until thickened |
+| Bark tannin content | 15-20% | Condensed tannins, dry weight basis |
+| Tannin extraction ratio | 1:5 (bark:water) | By weight |
+| Fruit yield per mature tree | 100-500 fruits | 20-40 year old tree, "on" year |
+
 ## Quantitative Parameters
 
 ### Growing Parameters

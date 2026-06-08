@@ -69,6 +69,94 @@ This species grows as a perennial or annual depending on climate and management.
 
 Seed should be sown into a clean weed free seedbed. Seeds can be broadcast or drilled. Seed should be 2.5-5 cm deep and plants 20-25 cm apart. Propagation: Sow seed in early spring or autumn directly in situ, barely covering it. Germination should occur within a few days.
 
+### Harvesting
+
+Harvest wheat when grain moisture falls below 14% and the kernels are hard. Test by crushing a grain between thumbnail and forefinger — it should crack cleanly rather than dent. The stalk and seed head should be completely straw-yellow with no green remaining:
+
+1. Cut wheat stalks with a sickle 15-20 cm above ground level, gathering the cut stalks in the left hand. Bundle into sheaves (handfuls of stalks tied at the middle with a straw band). Stand sheaves upright in groups (stooks) of 6-8 to dry in the field for 3-7 days.
+2. If rain threatens, bring stooks under cover. Grain that gets wet in the field sprouts or develops mold (mycotoxins from *Aspergillus* and *Fusarium* species — carcinogenic; discard moldy grain entirely).
+3. Yield: 2-3 tonnes/ha under hand cultivation with good soil and adequate rainfall; up to 5-6 tonnes/ha with intensive management (irrigation, manure, weed control). Thousand kernel weight: 30-45 g. Seeding rate: 100-150 kg/ha.
+
+### Threshing
+
+Separate grain from the stalks and chaff. Methods in order of mechanization:
+
+1. **Hand beating / flail**: Lay dried sheaves on a hard, clean surface (packed clay, stone, or tarp). Beat the seed heads with a wooden flail (two sticks joined by a leather thong or rope) or beat stalks against a log or stone threshold. Throughput: 20-50 kg/hour. The oldest and most labor-intensive method.
+2. **Animal treading**: Spread sheaves on a circular threshing floor (packed clay, 5-8 m diameter). Drive oxen, horses, or donkeys in circles over the grain, optionally dragging a threshing sledge (tribulum — a wooden board with embedded flint chips or stone teeth). Throughput: 100-200 kg/hour. Used since the Bronze Age in the Mediterranean.
+3. **Threshing floor management**: Regardless of method, the threshing floor must be clean, level, and on high ground to drain rain. Sweep the floor before each session. The mixture of grain, chaff, straw, and dust produced by threshing is called the "heap."
+
+### Winnowing
+
+Separate grain from chaff using moving air:
+
+1. Wait for a steady breeze (2-5 m/s), typically in the early morning. Using a wide, shallow winnowing basket (60-80 cm diameter), scoop up the threshed heap and toss it into the air 1-1.5 meters above the basket.
+2. The lighter chaff and straw blow downwind while the heavier grain falls straight back into the basket. Repeat 3-5 times until the grain is visibly clean.
+3. For final cleaning, pass grain through a coarse sieve to remove remaining straw pieces, then through a fine sieve to remove sand and small weed seeds. Clean grain should be uniform in color with no visible chaff or debris.
+
+### Milling
+
+Convert grain into flour. Milling technology determines flour quality and nutritional value:
+
+1. **Saddle quern (metate)**: The oldest method. Rub grain between a flat lower stone and a handheld upper stone (mano). Produces coarse flour suitable for porridge and flatbreads. Throughput: 1-2 kg/hour. Still useful for dehulling and initial cracking.
+2. **Rotary quern**: Two circular stones, the upper rotating on a spindle through the lower (stationary) stone. Feed grain through the central hole; flour exits at the edges. Throughput: 3-5 kg/hour. Produces finer flour than the saddle quern. Invented ~300 BCE in the Mediterranean.
+3. **Water mill**: An overshot or undershot water wheel drives a pair of millstones through wooden gearing. Throughput: 50-100 kg/hour. Requires water wheel infrastructure but produces flour in quantities sufficient for a community.
+
+**Whole wheat flour** retains the bran (outer seed coat), germ (embryo), and endosperm (starchy interior). This is the most nutritious flour — higher in protein, fiber, B vitamins, iron, and essential fatty acids than refined flour. Whole wheat flour is the default product of stone milling at pre-industrial technology levels.
+
+### Bolting (Sifting for White Flour)
+
+To produce lighter, finer flour, bolt (sift) stone-ground whole wheat flour through progressively finer meshes:
+
+1. **Coarse sifting**: Pass flour through a woven horsehair or wire mesh screen to remove bran flakes and large particles. Produces "middlings" flour — lighter than whole wheat but still containing some bran.
+2. **Fine sifting**: Pass middlings through fine silk or linen cloth. The finest white flour passes through; remaining bran and germ are retained. White flour has longer shelf life (the germ oil in whole wheat flour causes rancidity), produces lighter-textured bread, and is preferred for pastry and cake-making. However, white flour loses 60-80% of the original grain's vitamins, minerals, and fiber.
+3. **Yield**: From 100 kg of cleaned wheat, expect approximately 72-75 kg of white flour (extraction rate 72-75%) or 95-98 kg of whole wheat flour (extraction rate 95-98%). The bran and germ byproduct is nutritious animal feed.
+
+### Sourdough Bread Making
+
+Wheat's high gluten content (10-14% protein) makes it uniquely suited for leavened bread. Sourdough is the original and most accessible method:
+
+1. **Starter culture**: Mix equal parts flour and water in a clay or wooden vessel. Leave uncovered in a warm place (20-30°C). Wild yeast (*Saccharomyces* species) and lactic acid bacteria (*Lactobacillus* species) from the flour and air colonize the mixture within 2-3 days, producing bubbles and a sour smell. Feed the starter daily with equal parts flour and water to maintain an active culture. A healthy starter doubles in volume 4-6 hours after feeding.
+2. **Dough preparation**: For a standard loaf, combine 500 g whole wheat flour, 350 ml water, 10 g salt, and 100 g active sourdough starter (20% of flour weight). Mix until all flour is hydrated. Rest 20 minutes (autolyse — allows gluten to begin developing without kneading).
+3. **Kneading**: Knead on a clean surface for 10-15 minutes. The dough becomes smooth, elastic, and passes the "windowpane test" (a small piece stretched thin becomes translucent without tearing). Kneading develops the gluten network that traps fermentation gases and gives bread its structure.
+4. **Fermentation (proofing)**: Place dough in a bowl, cover with a damp cloth. Ferment at room temperature (18-25°C) for 4-24 hours. Longer, cooler fermentation develops more complex sour flavor and breaks down phytic acid (an anti-nutrient that binds minerals). The dough should roughly double in volume. In cool climates, overnight fermentation (8-12 hours) is practical.
+5. **Shaping**: Punch down the risen dough to expel large gas bubbles. Shape into a round (boule) or oblong loaf. Place in a floured basket or on a greased pan. Allow a final rise (30-60 minutes) until the loaf expands noticeably.
+6. **Baking**: Preheat oven or Dutch oven to 220-240°C. Score the top of the loaf with a sharp blade (allows controlled expansion). Bake 30-45 minutes. The bread is done when the crust is deep golden-brown, the loaf sounds hollow when tapped on the bottom, and the internal temperature reaches 95-100°C.
+7. **Cooling**: Cool on a wire rack for at least 30 minutes before cutting. Cutting hot bread compresses the crumb and produces a gummy texture.
+
+### Straw Uses
+
+Wheat straw (the dried stalks after threshing) is a valuable co-product:
+
+- **Thatching**: Long, straight straw is bundled and layered to create waterproof roofing. Wheat straw thatch lasts 20-40 years when properly laid. Select the longest, straightest straw for thatching grade.
+- **Livestock bedding**: Straw provides absorbent, insulating bedding for cattle, horses, and poultry. Soiled bedding composts into valuable manure.
+- **Fuel**: Dried straw burns readily. Straw bales fuel brick kilns, pottery firing, and domestic heating. Energy content: ~15 MJ/kg (dry basis), lower than firewood (~18 MJ/kg) but available in large quantities.
+- **Paper making**: Soak straw in water 24 hours, cook in lye (alkali) for 2 hours, beat into pulp, and form into paper sheets. Produces a coarse, green-tan paper suitable for writing and wrapping.
+- **Soil amendment**: Incorporate straw into soil as organic matter, or use as mulch to suppress weeds and retain moisture.
+- **Construction**: Straw bale construction (stacking compressed straw bales as wall infill) provides excellent thermal insulation. Rendered with clay or lime plaster for weather protection.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Yield (hand cultivation) | 2-3 tonnes/ha | With good soil and rainfall |
+| Yield (intensive management) | 5-6 tonnes/ha | Irrigation, manure, weed control |
+| Thousand kernel weight | 30-45 g | Variety dependent |
+| Seeding rate | 100-150 kg/ha | Broadcast or drill |
+| Growing period | 100-180 days | Spring vs. winter variety |
+| Harvest grain moisture | <14% | Crumbly test: kernel cracks cleanly |
+| Threshing (flail) | 20-50 kg/hour | Manual labor |
+| Threshing (animal tread) | 100-200 kg/hour | Oxen or horses on threshing floor |
+| Milling (saddle quern) | 1-2 kg/hour | Oldest method |
+| Milling (rotary quern) | 3-5 kg/hour | ~300 BCE technology |
+| Milling (water mill) | 50-100 kg/hour | Requires water wheel |
+| Whole wheat extraction | 95-98% | Stone-ground, unsifted |
+| White flour extraction | 72-75% | Bolted through fine mesh |
+| Protein content | 10-14% | Gluten-forming proteins |
+| Sourdough fermentation | 4-24 hours | Longer = more complex flavor |
+| Bread baking temp | 220-240°C | 30-45 minutes |
+| Bread internal temp (done) | 95-100°C | Test with thermometer or hollow tap |
+| Straw energy content | ~15 MJ/kg | Dry basis, lower than firewood |
+
 ### Distribution and Growing Conditions
 
 

@@ -78,6 +78,78 @@ A perennial herb with swollen underground stems. It can grow 30-100 cm tall. The
 
 ### Edible Parts and Preparation
 
+#### Harvesting
+
+Ginger rhizomes are ready for harvest when the above-ground tops begin to yellow and die back, typically 8-10 months after planting. For fresh ginger (young, tender rhizomes with mild flavor), harvest at 5-6 months when stems are still green. For dried ginger and spice production (maximum pungency and oil content), wait until full senescence at 8-10 months.
+
+1. Cut back the withered tops to 10 cm above ground.
+2. Dig carefully around the clump with a fork, working from the outside in to avoid breaking rhizomes. Ginger rhizomes branch horizontally near the soil surface.
+3. Lift the entire clump and shake off loose soil. Separate rhizomes by hand, breaking at natural joints.
+4. For seed stock, select firm, plump pieces with visible buds (eyes) — store these separately for next season's planting.
+
+#### Drying and Ground Ginger Production
+
+Drying concentrates gingerols and converts them to shogaols, which are approximately twice as pungent. This is why dried ginger tastes hotter than fresh.
+
+**Whole dried ginger**:
+1. Wash rhizomes thoroughly. Peeling is optional — unpeeled (coated) ginger retains more volatile oil and stores better; peeled (uncoated) ginger dries faster and produces lighter-colored powder.
+2. For unpeeled: simply wash and air-dry surface moisture. For peeled: scrape off the outer skin with a blunt knife or vegetable scraper.
+3. Sun-dry for 5-10 days on racks, turning daily, OR dehydrate at 50-60°C for 5-8 hours until rhizomes are brittle and snap easily (moisture below 10%).
+4. Grind dried rhizomes in a mortar or mill to a fine powder. Sieve to remove fibrous material.
+5. Yield: approximately 25% of fresh rhizome weight becomes dried ginger; 15-20% becomes ground powder after sifting.
+
+#### Crystallized (Candied) Ginger
+
+Crystallized ginger is a shelf-stable sweet preserve that concentrates ginger's pungent flavor:
+
+1. Peel and slice fresh rhizomes into 3-5 mm slices.
+2. Boil slices in water for 30 minutes to soften (discard this water — it is bitter).
+3. Prepare a sugar syrup: dissolve equal parts sugar and water by weight.
+4. Simmer the parboiled ginger slices in the syrup for 30-45 minutes until translucent and syrup is thick.
+5. Remove slices, drain excess syrup, and roll in granulated sugar.
+6. Dry on a rack for 6-12 hours until no longer sticky. Store in airtight containers for 3-6 months.
+
+#### Essential Oil and Oleoresin Extraction
+
+**Steam distillation (essential oil)**:
+1. Dry rhizomes to reduce water content (fresh rhizomes produce poor yield due to dilution).
+2. Crush or coarsely grind the dried rhizomes to rupture oil cells.
+3. Steam-distill for 4-6 hours. Ginger essential oil is a pale yellow to amber liquid with a warm, spicy aroma.
+4. Yield: 1-3% by weight of dried rhizome. The oil contains zingiberene (30-40%), curcumene, and bisabolene.
+
+**Solvent extraction (oleoresin)**:
+1. Grind dried rhizomes to a coarse powder.
+2. Extract with acetone or ethanol at room temperature for 6-8 hours with occasional stirring.
+3. Filter through cloth or paper. Repeat extraction 2-3 times with fresh solvent.
+4. Combine extracts and evaporate solvent at reduced temperature (below 60°C for ethanol; below 56°C for acetone).
+5. Oleoresin yield: 4-7% of dry rhizome weight. The oleoresin contains both the volatile oil (flavor) and the non-volatile gingerols/shogaols (pungency), making it a more complete flavoring agent than the essential oil alone.
+
+#### Propagation
+
+Ginger is propagated vegetatively from rhizome pieces (it rarely produces viable seed in cultivation):
+
+1. Select firm, disease-free rhizomes with 1-2 visible buds (eyes).
+2. Cut into pieces 3-5 cm long, each with at least one bud.
+3. Plant 5-10 cm deep in well-drained, organic-rich soil. Space 30-40 cm apart in rows 50-60 cm apart.
+4. Plant at the start of the warm/wet season when soil temperature is above 20°C.
+5. Shoots emerge in 10-20 days. Mulch heavily to retain moisture and suppress weeds.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Fresh-to-dry ratio | 4:1 | ~25% dry weight recovery |
+| Essential oil yield (steam distillation) | 1-3% | Of dried rhizome weight |
+| Oleoresin yield (solvent extraction) | 4-7% | Of dried rhizome weight |
+| Gingerol content (fresh) | 1-4% | Primary pungent compound |
+| Shogaol content (dried) | 0.5-2% | Formed from gingerols during drying |
+| Drying temperature | 50-60°C | Higher temps degrade volatile oils |
+| Sun-drying time | 5-10 days | Thin slices, turned daily |
+| Dehydrator time | 5-8 hours | At 50-60°C |
+| Planting depth | 5-10 cm | Rhizome pieces with 1-2 buds |
+| Days to harvest (fresh) | 150-180 | Young, tender rhizomes |
+| Days to harvest (dried/spice) | 240-300 | Full senescence |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -103,7 +175,11 @@ An essential oil obtained from the root is also used in perfumery.
 
 ### Storage
 
-Fresh roots and tubers can be stored in cool, dark, well-ventilated conditions. Root cellars or pits lined with straw maintain appropriate temperature and humidity. Avoid washing before storage — soil protects the skin. Check stored roots weekly and remove any showing rot to prevent spread. For longer storage, slice and sun-dry, or process into flour. Some tropical tubers store for weeks at ambient temperature; others require processing within days of harvest.
+**Fresh rhizomes** store for 2-3 weeks at room temperature in a dry, well-ventilated place. For longer fresh storage (1-2 months), keep at 12-13°C and 65-70% humidity — do not refrigerate below 10°C, which causes chilling injury (softening, waterlogging, and rapid decay). Avoid washing before storage — the skin and attached soil layer protect against desiccation and microbial entry. Check stored rhizomes weekly and remove any showing soft spots or mold.
+
+**Dried ginger** (whole or ground) stores for 1-2 years in airtight containers away from light and heat. Ground ginger loses volatile oils faster than whole dried pieces — grind just before use when possible. Oleoresin and essential oil store 2-3 years in sealed dark glass containers.
+
+**Crystallized ginger** keeps 3-6 months at room temperature in airtight containers. The high sugar content acts as a preservative.
 
 ### Material Handling
 

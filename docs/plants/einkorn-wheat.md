@@ -76,6 +76,70 @@ A grass plant. It is a one seeded wheat. The grains are small, flinty and like r
 
 ### Edible Parts and Preparation
 
+**Edible parts**: Seeds (grain), prepared as whole grain, flour, or cracked grain.
+
+**Ancient hulled grain — threshing challenges**:
+
+Einkorn is a hulled wheat (Triticum monococcum), meaning the grain retains its tightly adhering husk (glume) after threshing. This is fundamentally different from modern free-threshing bread wheat (*T. aestivum*), where the chaff separates easily during threshing. The tight hull is einkorn's defining processing challenge and the primary reason it was largely replaced by emmer and later bread wheat.
+
+**Threshing einkorn**:
+
+Standard threshing by beating with a flail removes the grain from the stalk but does not separate the hull from the kernel. The glumes clasp the grain tenaciously and require additional processing:
+
+1. **Initial threshing**: Beat cut stalks with a wooden flail on a hard surface (stone, packed earth, or wood platform). This breaks the spikelets free from the rachis (stalk). Throughput: 15-30 kg/hour — slower than free-threshing wheat because the spikelets are smaller and tighter.
+2. **Dehulling (the critical step)**: Pass threshed spikelets through a stone mill or rotary quern set with a gap wider than the dehulled grain but narrower than the whole spikelet. The grinding action cracks open the glumes without crushing the grain inside. Alternatively, pound spikelets in a large mortar with a heavy wooden pestle, applying firm but controlled strokes — too hard crushes the grain, too soft fails to crack the glume.
+3. **Winnowing**: After dehulling, winnow in a light breeze to separate the freed glumes (chaff) from the grain. The chaff is lighter and blows away. Repeat 3-5 times until grain is clean. A fine mesh sieve helps remove small glume fragments.
+
+Dehulling efficiency varies: 70-85% of grains are freed in a single pass. Re-processing the unthreshed fraction increases total recovery to 90-95%. The tight hull does provide one advantage: hulled grain is naturally protected from storage pests and moisture, giving einkorn exceptional storage life compared to naked wheat.
+
+**Milling (stone mill recommended)**:
+
+Once dehulled, einkorn grain mills readily. Stone milling (rotary quern or water-powered stone mill) is the traditional and preferred method because it preserves the bran and germ, producing a whole grain flour with superior nutritional content. Steel roller milling, while faster, tends to produce a sticky, difficult-to-handle flour from einkorn because of its unique protein composition.
+
+Grinding settings: einkorn grain is smaller (thousand kernel weight 20-30 g vs. 35-45 g for bread wheat) and harder than modern wheat. Mill stones should be set slightly closer together than for bread wheat. Throughput on a rotary quern: 2-4 kg flour/hour. Water mill: 30-60 kg flour/hour.
+
+Sift the freshly ground flour through a coarse sieve (2 mm mesh) to remove any remaining glume fragments. Finer sieving (0.5 mm mesh) separates out some bran for a lighter flour, though the highest nutritional value comes from using the whole-grain flour unsifted.
+
+**Flour properties — high protein, sticky dough**:
+
+Einkorn flour has several distinctive characteristics that affect how it is used:
+
+- **Protein content**: 14-18% protein by weight — significantly higher than modern bread wheat (10-14%). However, the gluten proteins in einkorn are fundamentally different: einkorn is a diploid species (AA genome, 2n=14) with a simpler gluten structure compared to hexaploid bread wheat (AABBDD genome, 2n=42). Einkorn gluten is weaker and more extensible — it does not form the strong, elastic network needed for raised bread.
+- **Dough behavior**: Einkorn dough is sticky, soft, and tears easily. It does not stretch into thin sheets (no windowpane) and has poor gas-retention capacity. Attempts to make raised bread with pure einkorn flour produce dense, flat loaves. This is not a flaw — einkorn was never used for raised bread historically. It is ideal for flatbreads, crackers, porridge, and pasta-like dishes.
+- **Best uses for einkorn flour**: Flatbreads (cook on a hot stone or griddle for 2-3 minutes per side), crackers, pie crusts, thickening agent for soups and stews, porridge (cook 1 part grain to 3 parts water for 30-40 minutes), and pasta-like dumplings. Einkorn flatbreads are denser but more flavorful than wheat flatbreads, with a nutty, slightly sweet taste.
+- **Carotenoid content**: Einkorn contains 5-8× more lutein and other carotenoids than modern wheat, giving the flour a distinctive golden-yellow color and providing significant antioxidant value. This also makes einkorn flour more prone to rancidity — store in a cool, dark location and use within 3-6 months of milling.
+- **Water absorption**: Einkorn flour absorbs less water than bread wheat flour. Use 10-15% less water in recipes when substituting einkorn for wheat flour.
+
+**Cooking whole einkorn grain**: Soak whole grain 8-12 hours, then boil 40-60 minutes. The cooked grain is chewy and nutty, similar to farro or barley. Use in soups, salads, or as a base for stews. Cracked einkorn (coarsely ground) cooks in 20-30 minutes and makes an excellent porridge.
+
+### Advantages for Civilization Bootstrapping
+
+Despite its low yield (1.0-1.5 tonnes/ha vs. 3-6 tonnes/ha for modern wheat), einkorn has several properties that make it valuable for early agriculture:
+
+- **Tolerance of poor soils**: Einkorn thrives on rocky, thin, nutrient-poor soils where modern wheat fails. It was originally domesticated in the Karacadağ mountains of southeastern Turkey precisely because it grew well in marginal upland conditions.
+- **Disease resistance**: As a diploid species with a simple genome, einkorn retains many wild-type resistance genes that have been lost in modern polyploid wheats. It shows strong resistance to several common wheat diseases, including stem rust and powdery mildew, reducing the need for crop protection.
+- **Nutritional density**: Higher protein (14-18%), higher lutein (5-8× bread wheat), and higher levels of tocols (vitamin E compounds) than modern wheat. Per hectare, the total protein yield may be comparable to modern wheat because the higher protein percentage partially compensates for lower grain yield.
+- **Storage longevity**: The tight hull protects against moisture, insects, and fungal contamination. Hulled einkorn grain can be stored for years without significant deterioration, making it an excellent famine reserve.
+- **No specialized equipment needed**: Einkorn can be planted, harvested, and processed with the same stone-age tools used for wild grain gathering: digging stick for planting, sickle or hand-stripping for harvest, mortar and pestle for dehulling and grinding.
+
+### Yield and Growing Conditions
+
+Einkorn yields are low by modern standards but reliable under marginal conditions:
+
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| Grain yield | 1.0-1.5 tonnes/ha | Under traditional management |
+| Plant height | 60-120 cm | Shorter than modern wheat |
+| Thousand kernel weight | 20-30 g | Small, hard grain |
+| Protein content | 14-18% | Higher than bread wheat |
+| Days to maturity | 120-150 | Similar to winter wheat |
+| Minimum rainfall | 300-400 mm | Drought tolerant |
+| Soil pH tolerance | 5.5-8.0 | Wide range |
+| Seeding rate | 120-180 kg/ha | Higher rate due to small seed |
+| Frost tolerance | Good | Not frost tender |
+
+Einkorn is planted in autumn (winter type) or early spring (spring type), depending on climate. Winter einkorn overwinters as a small rosette and resumes growth in spring, typically yielding 10-20% more than spring-planted einkorn in areas with mild winters.
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

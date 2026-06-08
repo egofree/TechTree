@@ -78,6 +78,70 @@ A fig. It is a low spreading deciduous tree with large leaves. It can grow to 10
 
 ### Edible Parts and Preparation
 
+**Edible parts**: Fruit (fresh and dried), leaves (flavoring), flowers (inside the syconium).
+
+**Harvesting — when soft and drooping**:
+
+Figs do not continue to ripen after harvest — they must be picked fully ripe for best flavor and sugar content. The key indicators of full ripeness are:
+
+- **Drooping**: the fruit stem bends and the fig hangs downward rather than pointing outward or upward
+- **Softness**: the fruit yields to gentle pressure like a ripe peach. A fully ripe fig feels soft and heavy for its size
+- **Color change**: varies by variety — green figs turn yellowish; dark figs deepen to purple-black. The skin may develop small cracks, indicating the fruit is bursting with sugar
+- **Droplet of nectar**: a bead of sugary liquid at the eye (ostiole) at the bottom of the fruit signals peak ripeness
+
+Harvest by gently lifting the fig upward — a ripe fig detaches easily from the stem. If you have to pull hard, it is not ready. Handle ripe figs carefully: they bruise easily and are highly perishable (1-3 days at room temperature, 5-7 days refrigerated). Pick into shallow containers, no more than 2 layers deep, to prevent crushing.
+
+Harvest timing: in most climates, figs produce two crops per year. The "breba" crop forms on last year's wood in early summer (smaller crop, fewer fruits). The main crop forms on current season's growth in late summer to early autumn (larger crop, primary harvest). A mature tree yields 10-30 kg of fruit per year depending on variety, climate, and tree age. Trees begin bearing at 3-5 years from planting (cuttings may fruit in 1-2 years), peak production at 10-30 years, and decline after 50 years.
+
+**Drying (sun 4-7 days, or 60°C oven)**:
+
+Drying is the primary preservation method for figs and concentrates their sugar and caloric content dramatically (fresh figs ~80% water, dried figs ~17% water, ~217 kcal/100g):
+
+1. Select fully ripe figs without mold, insect damage, or soft spots. Wash and pat dry.
+2. **Sun drying** (traditional method, requires hot dry weather): place whole or halved figs on drying racks (wooden slats, bamboo mats, or clean cloth on a frame) in full sun, spaced so they do not touch. Cover with fine netting or cheesecloth to deter insects. Turn daily. Drying takes 4-7 days in hot, dry weather (30-40°C daytime temperatures). Bring racks indoors at night to prevent moisture reabsorption from dew. Figs are fully dry when they feel leathery and pliable, with no soft or moist spots when pressed. The surface should be slightly wrinkled but not hard.
+3. **Oven drying** (faster, weather-independent): arrange halved figs cut-side up on a baking sheet. Dry at 55-60°C with the oven door slightly ajar (to allow moisture escape) for 12-24 hours. Check every few hours after the first 8 hours. This method uses significant fuel but provides reliable results regardless of weather.
+4. **Solar dryer** (intermediate technology): a simple box with a clear top (glass or plastic), ventilation holes, and black-painted interior reaches 50-70°C. Figs dry in 2-4 days, protected from insects and dust.
+
+Drying ratio: approximately 3 kg fresh figs yield 1 kg dried figs. Dried figs should be stored in airtight containers in a cool, dark location. Check periodically for mold — any figs showing white or green mold should be removed immediately to prevent spread. Properly dried and stored figs keep for 6-12 months.
+
+**Preserves and jam**:
+
+Fresh or dried figs make excellent preserves due to their high sugar content and natural pectin:
+
+1. **Fig jam**: Combine 1 kg chopped figs with 500 g sugar and 2 tablespoons lemon juice (provides acid for gel setting). Cook over medium heat, stirring frequently, for 45-60 minutes until the mixture reaches setting point (105°C, or when a drop on a cold plate wrinkles when pushed with a finger). Pour hot into sterilized jars and seal. Yield: approximately 1.2 kg jam.
+2. **Preserved whole figs**: Pack whole or halved figs in sugar syrup (1 part sugar to 1 part water, boiled until clear) in sterilized jars. Process in a boiling water bath for 15-20 minutes. The syrup penetrates and preserves the figs, which keep for 12+ months.
+3. **Fig paste**: Cook dried figs with a small amount of water until soft, then pound or grind into a thick paste. This is the basis of "fig cake" or "fig log" — roll in chopped nuts or wrap in fig leaves. The paste keeps for months and is a dense, high-energy food (providing 250+ kcal per 100g).
+
+**Non-fig latex curdling**: The latex from unripe figs contains ficin, a proteolytic enzyme that coagulates milk proteins. Collect latex by scoring unripe figs with a knife and collecting the white sap that exudes. Add 1-2 drops per liter of milk to coagulate it for cheese-making. This is a traditional rennet substitute in regions where animal rennet is unavailable. Use sparingly — excess ficin produces bitter cheese.
+
+### Yield and Production Data
+
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| Tree height (mature) | 3-10 m | Depends on variety and pruning |
+| Years to first bearing | 3-5 (seedling), 1-2 (cutting) | Cuttings fruit much sooner |
+| Peak production age | 10-30 years | Declining after 50 years |
+| Fruit yield per tree | 10-30 kg/year | Varies by variety and conditions |
+| Tree density | 100-400 trees/ha | 5-10 m spacing |
+| Fruit yield per hectare | 5-12 tonnes | Fresh weight |
+| Dried fig yield per hectare | 1.5-4 tonnes | ~30% of fresh weight |
+| Fresh fig calories | 74 kcal/100g | 80% water |
+| Dried fig calories | 249 kcal/100g | 17% water, concentrated sugars |
+| Number of crops per year | 1-3 | Depends on climate; 2 is typical |
+| Tree lifespan | 50-200 years | Productive life ~50 years |
+
+### Propagation by Cuttings
+
+Fig trees propagate readily from hardwood cuttings, making them one of the easiest fruit trees to multiply:
+
+1. Select 1-year-old wood, 20-30 cm long and 1-2 cm diameter, with 2-3 nodes. Take cuttings in late winter when the tree is dormant.
+2. Plant cuttings directly in prepared soil, burying two-thirds of the cutting with at least one node below ground. Orient the cutting with buds pointing upward.
+3. Keep soil consistently moist but not waterlogged. Cuttings root in 4-8 weeks at 15-20°C.
+4. Transplant rooted cuttings to their permanent location after one growing season. Space 5-10 meters apart depending on desired canopy size.
+5. Rooting success rate: 70-90% under basic conditions. No rooting hormone is required — figs are among the most cooperative fruit trees for vegetative propagation.
+
+Layering is also effective: bend a low branch to the ground, wound the underside, pin it down with a stone, and cover with soil. The branch roots in one growing season and can be severed from the parent tree the following spring.
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

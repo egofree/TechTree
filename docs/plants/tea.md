@@ -78,6 +78,100 @@ An evergreen tree. It grows to a height of 10-15 m and spreads 4 m across. Trees
 
 ### Edible Parts and Preparation
 
+### Plucking
+
+Tea is harvested by plucking the terminal bud and the top 2-3 leaves from each shoot. This is the standard "two leaves and a bud" pluck. Plucking is done by hand every 7-15 days during the growing season, depending on the speed of new flush growth. Leaves that develop slowly (higher altitude, cooler temperatures) produce better-flavored tea because they accumulate more amino acids and aromatic compounds. Pluck in the morning after dew has dried. Yield: 10 kg of fresh shoots (75-80% water) produce approximately 2.5 kg of dried tea.
+
+### Withering
+
+Withering reduces leaf moisture from 75-80% to 55-65%, making the leaves flaccid and pliable for rolling:
+
+1. Spread freshly plucked leaves thinly and evenly on trays or racks in a well-ventilated area.
+2. Duration: 12-18 hours depending on temperature, humidity, and airflow. Warm air (25-30°C) with moderate humidity (60-70%) withers leaves evenly.
+3. Test: properly withered leaves are limp, do not snap when bent, and have lost approximately 25-30% of their fresh weight.
+4. Indoor withering gives more control than outdoor sun withtering, which can cause uneven drying.
+
+### Rolling
+
+Rolling breaks the leaf cell walls, releasing enzymes (polyphenol oxidase) and exposing them to oxygen — this initiates oxidation. Traditional hand rolling presses and twists the leaves on a flat surface. Mechanical rolling machines (the rotorvane or orthodox roller) are more efficient at scale:
+
+1. Roll withered leaves for 20-45 minutes, applying moderate pressure.
+2. The rolled leaves become moist and sticky as cell sap is released. The leaves twist and curl.
+3. For some teas, the rolled leaves are sifted to separate different leaf grades before oxidation.
+
+### Oxidation (Fermentation)
+
+The critical step that determines tea type. Oxidation refers to enzymatic browning — polyphenol oxidase converts catechins (colorless, astringent) into theaflavins and thearubigins (amber/brown, complex flavor). The level of oxidation creates the fundamental tea categories:
+
+| Tea Type | Oxidation Level | Process | Flavor Profile |
+|----------|----------------|---------|----------------|
+| **Green tea** | 0% (minimal) | Pan-fire or steam at 200°C immediately after withering/rolling to destroy enzymes | Grassy, vegetal, sweet, light |
+| **White tea** | 0-5% | Minimal processing — dried withered buds and young leaves with no rolling | Delicate, floral, sweet |
+| **Oolong tea** | 15-70% | Partial oxidation — 1-3 hours at 22-25°C with periodic tossing to redistribute oils | Ranges from floral (light) to roasted (dark) |
+| **Black tea** | 70-100% | Full oxidation — 2-4 hours at 22-25°C in a humid (90%+ RH) environment | Malty, brisk, robust, astringent |
+
+#### Green Tea Processing (0% Oxidation)
+
+Enzymes are destroyed immediately to prevent oxidation:
+
+1. After withering (brief or skipped entirely), heat the leaves rapidly to 200°C to denature polyphenol oxidase. Two methods:
+   - **Pan-firing (Chinese style)**: Toss leaves in a hot wok or heated drum at 200-250°C for 2-5 minutes. Produces a nutty, roasted character.
+   - **Steaming (Japanese style)**: Pass leaves through steam at 100°C for 30-60 seconds. Produces a bright green color and vegetal flavor.
+2. Roll the heated leaves to shape and release aromatics.
+3. Dry at 90-100°C for 15-20 minutes to final moisture below 5%.
+
+#### Black Tea Processing (70-100% Oxidation)
+
+Enzymes are allowed to fully react:
+
+1. After rolling, spread leaves in a thin layer (5-8 cm) on trays in a humid (90%+ RH), temperature-controlled room at 22-25°C.
+2. Oxidation proceeds for 2-4 hours. Leaves turn from green to copper-red as catechins convert to theaflavins and thearubigins. The characteristic fruity, malty aroma develops.
+3. Test readiness: leaves are uniformly copper-brown with a strong, fruity aroma. If oxidation continues too long, the tea becomes flat and sour.
+4. Stop oxidation by drying (see below).
+
+#### Oolong Tea Processing (15-70% Oxidation)
+
+Partial oxidation with intermediate steps:
+
+1. After withering, toss leaves gently to bruise edges (this begins oxidation at the leaf margins).
+2. Allow oxidation for 1-3 hours, depending on the desired style. Light oolongs (15-30% oxidation) are floral and sweet; dark oolongs (50-70%) are roasted and complex.
+3. Stop oxidation by pan-firing at high temperature.
+
+### Drying
+
+All tea types are dried to stop oxidation and reduce moisture below 5% for storage stability:
+
+1. Dry leaves at 90-100°C for 15-20 minutes in an oven, over a fire, or in a mechanical dryer.
+2. Moisture content drops from 55-65% (after withering) to below 5%.
+3. Properly dried tea leaves are brittle and snap cleanly.
+4. Cool to room temperature before packing.
+
+### Storage
+
+Dried tea is hygroscopic and easily absorbs moisture, odors, and off-flavors:
+
+- Store in airtight containers (ceramic jars, tins, or sealed bags) in a cool (below 20°C), dark, dry location.
+- Keep away from spices, chemicals, and strongly scented items.
+- Green tea is more perishable than black tea — use within 6-12 months. Black tea stores for 2-3 years. Some pu-erh teas (post-fermented) improve with age for decades.
+- Once opened, consume within 2-3 months for best flavor.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Plucking standard | Top 2 leaves + bud | Every 7-15 days during growing season |
+| Fresh shoot-to-dried tea ratio | 4:1 | 10 kg fresh → 2.5 kg dried |
+| Withering duration | 12-18 hours | Reduces moisture to 55-65% |
+| Rolling duration | 20-45 minutes | Breaks cell walls |
+| Green tea enzyme kill temperature | 200-250°C | Pan-fire or steam |
+| Green tea steaming time | 30-60 seconds | Japanese style |
+| Black tea oxidation | 2-4 hours at 22-25°C | 70-100% oxidation, 90%+ RH |
+| Oolong tea oxidation | 1-3 hours at 22-25°C | 15-70% oxidation |
+| Drying temperature | 90-100°C | 15-20 minutes |
+| Final moisture content | Below 5% | For storage stability |
+| Green tea shelf life | 6-12 months | Airtight, cool, dark |
+| Black tea shelf life | 2-3 years | Airtight, cool, dark |
+
 ## Quantitative Parameters
 
 ### Growing Parameters

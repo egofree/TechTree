@@ -69,6 +69,60 @@ This species grows as a perennial or annual depending on climate and management.
 
 Ceremonial yams have very specialised production techniques. For general food production, use top pieces of the tuber after they have sprouted, use a branched stick for support of the vine, space plants about 1 m apart and choose a smooth round cultivar. Given the large diversity of cultivars of greater yam, for efficient production varieties need to be chosen which have regular rounded tuber shapes for easier harvesting and preparation; also selection needs to be made for varieties with less leaf spot and virus susceptibility and stable yield. Colour, cooking quality, storage ability, texture and other qualities need to be considered to suit the growers demands. In most places the yam growth and maturation is integrated with seasonal rainfall patterns. They are mostly planted just before the first rains where a 8-10 month rainy season exists and give better yields in 6-8 month rainy season areas when planted 3 months before the rains. Earlier planting requires larger sett size to withstand desiccation. Pre germination of tubers which are cut and stored in shady places gives improved yields over tubers left whole then cut into setts at planting. Because yam tubers have a period of dormancy, tubers do not normally commence re-growth for up to 5-6 months. This enhances their storability but delays out of season replanting. Dormancy can be broken using Calcium carbide treatment for 5 hours or by covering tubers with leaves of Croton aromaticus or Averrhoea bilimbi.. Yams are demanding in their nutrient requirements are are therefore often planted first in rotations. They need a fertile free draining soil. They cannot tolerate water logging. It is normally grown from sections of the tubers especially top pieces. In some cultivars, it is also propagated by bulbils. Using staggered plantings of male and female plants and doing hand pollination it is possible to get viable seed set which can be used for establishing plants. It is common practice in many areas to plant the yam piece upside down. The probable reason for this is to give the shoot and roots time to develop and get established away from the sun and wind, so that the plant does not dry out. People in yam areas have their varieties classified as to whether they are planted at the top or the bottom of the hole, and whether the shoot is pointed up or downwards. This is a response to the diversity of tuber shapes and cultivars. A planting depth of 15 cm is optimum. Normally top pieces give higher yields than middle pieces of tubers and these are better than bottom pieces. Varietal differences in this occur. Top pieces give earlier and more reliable germination and mature earlier. They are also the less attractive part of the tuber for eating so are preferred for planting. The larger the sett the earlier the germination and the greater the yield. Increasing the seeding rate and plant density gives greater total yield but the extra planting material required means yield of food available is less. Normally on lighter soils closer spacing is used. Compact soil or hard pans or stones result in tubers being exposed which decreases the yield and needs to be avoided This is related to light as well as physical constraints. Good drainage is essential. Yams must have a well drained soil with plenty of air in the soil. So yams will not normally grow on heavy clay soils or in areas with a lot of soil moisture. The soil can be improved for yam growing by putting leaves and other plant material in the planting hole, by making a mound above the hole, or by planting on a hillside. In some very loose sandy soils yams can just be planted in flat unmounded soils without digging a special yam hole but these situations are not common. Yams should also have sticks to climb up. It is best to have a stick that is twisted or branched because the vine can slip down a very straight stick. Normally a stick 2 metres tall is sufficient. It needs to be a strong stick, firmly fixed in the ground. Yam varieties vary on the type of vine growth they have. This affects where the stick needs to be placed. The fat irregular yams can have the sticks near the mound as a thick clump of vines and leaves soon develops. But if the stick is put beside the mound of one of the long ceremonial yams the vine will often reach the top of the stick before it has produced more than a couple of leaves, and will then fall back down to produce its leaves on the ground. The stick often needs to be put at some distance from the yam hole. The tip can be picked off the vine if branching is wanted earlier. It may be that the long vine yams are more common in forest areas and the shorter branched vines in grassland areas. In some areas yam vines are allowed to creep over the ground and do not have sticks to climb. This method only works satisfactorily in dry places because diseases of the leaves and vine can cause serious damage in wetter places. Where yams do not have sticks to climb plants need to be more widely spaced. Under most circumstances the amount of food produced can be doubled by allowing yam vines to climb up sticks. In drier grassland areas mulching the mounds at planting has been found to improve establishment and yield. Propagation: Seed is rarely produced in cultivation and is not normally used for propagation. Tubers are propagated by cuttings: small tubers are cut into 2–4 sections and larger ones into 6–8 sections, each with 2–3 dormant buds. Cut tubers are often left in the sun for several hours to encourage wound healing and reduce fungal infection risk. Aerial tubers can also be used and typically produce vigorous plants.
 
+### Harvesting
+
+Water yam tubers are ready for harvest when the vine foliage yellows and dies back, typically 5-10 months after planting depending on altitude and variety. The large tubers (5-10 kg average; exceptional specimens reach 60 kg) require careful excavation:
+
+1. Cut the vine 10-15 cm above ground level. Mark the plant location before the vine dies back completely.
+2. Dig a trench around the plant base (30-40 cm from the stem) and work inward carefully. Yam tubers are brittle — striking them with a hoe causes wounds that invite rot during storage. Use a digging stick or fork to loosen soil around the tuber, then lift by hand. Some varieties produce tubers 1-2 meters deep; deep tubers may require trenching to access.
+3. Handle harvested tubers gently. Bruised or cut tubers should be consumed immediately, not stored. Grade tubers by size: small (under 2 kg) for immediate use or replanting, medium (2-10 kg) for storage, large (10+ kg) for community distribution or processing.
+
+### Storage
+
+Water yam stores better than most tropical root crops, maintaining quality for 6+ months under proper conditions:
+
+1. **Curing**: After harvest, spread tubers in a shaded, well-ventilated area for 3-5 days to allow wound healing. Do not wash tubers before storage — soil protects the skin and removes easily before cooking.
+2. **Storage conditions**: Cool (12-18°C), dry, dark, well-ventilated shed or yam barn. Stack tubers on raised platforms or shelves (not directly on earth). Maintain 60-70% relative humidity. Avoid temperatures below 10°C (causes chilling injury — internal browning and off-flavors).
+3. **Inspection**: Check stored yams every 2-3 weeks. Remove any tubers showing soft spots, mold, or sprouting. Sprouting tubers can be moved to a warmer location to encourage shoot growth for the next planting season.
+4. **Yam barns**: In West Africa and Papua New Guinea, traditional yam barns are raised, thatched structures with open sides for ventilation. Tubers are tied to horizontal poles or stacked on slatted shelves. This design provides ideal storage conditions without modern infrastructure.
+
+### Cooking and Preparation
+
+**All water yam varieties must be cooked thoroughly before consumption.** Cooking neutralizes anti-nutritional factors and improves digestibility:
+
+1. **Boiling**: Peel tuber (skin may contain higher concentrations of anti-nutrients). Cut into 3-5 cm chunks. Boil in abundant water for 20-30 minutes until a fork pierces easily. Drain and serve. Boiling is the standard method and most effective at reducing oxalate content.
+2. **Baking/roasting**: Wrap peeled chunks in leaves or place directly in hot ashes. Bake 40-60 minutes until tender. Produces a drier, sweeter result than boiling.
+3. **Mashing (poi-like)**: Boil or steam peeled tuber until very soft. Pound in a wooden mortar or mash with a fork. The purple varieties produce a vivid violet mash. Mix with coconut milk or other liquid for a smooth consistency.
+4. **Flour**: Slice peeled tuber into thin rounds. Sun-dry 3-5 days until brittle. Grind dried slices in a stone mill to produce yam flour. Yam flour stores for months and reconstitutes into a stiff porridge (amala in West African cuisine).
+
+### ⚠ Dioscorine Toxicity Warning
+
+Some wild and uncultivated *Dioscorea* species contain dioscorine, a toxic alkaloid that causes nausea, vomiting, abdominal pain, and in severe cases, neurological symptoms (tremors, dizziness). While *Dioscorea alata* (water yam) is generally considered one of the safer cultivated yam species with low to negligible dioscorine levels, wild or unknown varieties should always be treated with caution:
+
+- **Always cook water yam thoroughly** — boiling for 20-30 minutes destroys most anti-nutritional compounds including traces of dioscorine.
+- **Bitter-tasting raw yam** indicates the presence of toxic compounds. If a cooked yam tastes bitter, do not eat it.
+- **Wild-harvested yams** (unknown species) should be tested carefully: peel, slice thinly, boil in multiple changes of water (discard each boiling water), then taste a small amount. If bitterness persists, discard the entire batch.
+- **Never eat raw yam** of any species. Even cultivated varieties contain calcium oxalate crystals (raphides) that cause throat irritation and digestive discomfort.
+- Some *Dioscorea* species (e.g., *D. hispida*, *D. dumetorum*) contain much higher toxin levels and require extended detoxification (soaking in running water for days). Always identify the species before consumption.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Tuber weight (average) | 5-10 kg per plant | 3 tubers typical per plant |
+| Exceptional tuber weight | Up to 60 kg | Rare; specific varieties |
+| Time to maturity | 5-10 months | Coast vs. highland |
+| Storage life | 6+ months | Cool, dry, dark, ventilated |
+| Storage temperature | 12-18°C | Below 10°C causes chilling injury |
+| Curing time post-harvest | 3-5 days | Shaded, ventilated |
+| Boiling time | 20-30 minutes | Until fork-tender |
+| Baking time | 40-60 minutes | In ashes or wrapped in leaves |
+| Sun-drying time (for flour) | 3-5 days | Slice thin, until brittle |
+| Propagation setts | 2-8 sections | Depending on tuber size |
+| Dormancy period | Up to 5-6 months | Enhances storability |
+| Planting density | ~1 m spacing | With support stakes |
+| Anthracnose risk | High | Hot, wet, humid conditions |
+
 ### Distribution and Growing Conditions
 
 

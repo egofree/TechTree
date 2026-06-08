@@ -74,6 +74,97 @@ Olea europaea is an evergreen Tree growing to 10 m (32ft) by 8 m (26ft) at a slo
 
 ### Edible Parts and Preparation
 
+#### Harvesting
+
+Olive harvest timing determines whether the fruit goes to table use (eating) or oil production. Green olives (harvested early autumn) yield oil that is more peppery and bitter with higher polyphenols; black/ripe olives (late autumn to winter) yield milder, fruitier oil in greater quantity.
+
+1. **Hand picking**: The highest-quality method. Strip fruit from branches by hand or with small rakes (hand-held plastic or wooden combs that pull fruit off without damaging branches). Spread nets or tarps under the tree to catch falling fruit. Rate: 50-100 kg per person per day.
+2. **Pole beating**: Knock branches with long wooden poles to dislodge fruit onto ground nets. Faster but bruises fruit and damages young shoots that will bear next year's crop. Suitable for oil olives where surface damage is irrelevant.
+3. **Shaking**: Shake the trunk or main branches mechanically or by hand. Fruit falls onto nets. Fastest method for large-scale harvest. Requires nets spread under the entire canopy before shaking.
+4. Process harvested olives within 24-48 hours. Olives left in piles generate heat from fermentation, which degrades oil quality rapidly (increases free fatty acid content). Store in thin layers in ventilated crates — never in deep piles or sacks.
+
+#### Curing Methods (Table Olives)
+
+Fresh olives are extremely bitter due to oleuropein, a phenolic compound. Curing removes or breaks down oleuropein to make the fruit palatable. Four traditional methods:
+
+**Water cure (7-10 days):**
+1. Score or crack each olive with a stone or wooden mallet to allow water penetration. Slit lengthwise to the pit.
+2. Submerge in fresh cold water. Change the water completely every 12-24 hours. The repeated soaking leaches out oleuropein.
+3. Continue for 7-10 days. Taste an olive after 7 days — if still very bitter, continue changing water daily.
+4. When bitterness is reduced to a pleasant level, prepare a finishing brine: 10% salt solution (100 g salt per liter of water). Submerge the olives in this brine. They are ready to eat after 2-3 days in brine and will keep for months refrigerated or in a cool cellar.
+
+**Brine cure (3-6 weeks):**
+1. Pack whole (unslit) olives tightly in a clay jar or wooden barrel.
+2. Cover with 10% salt brine (100 g salt per liter of water). Weight the olives down with a clean stone or wooden disk so they remain fully submerged — exposed olives mold rapidly.
+3. Ferment at room temperature (15-25°C) for 3-6 weeks. The brine gradually penetrates the fruit and lactic acid bacteria ferment sugars, producing lactic acid that drops the pH below 4.5, preserving the olives.
+4. Skim off any white surface film ( Kahm yeast — harmless but indicates air exposure) every few days.
+5. Olives are ready when fully tender and the bitterness is gone. They keep in their brine for 6-12 months at cool temperatures.
+
+**Dry salt cure (3-6 weeks):**
+1. Mix whole ripe (black/purple) olives with coarse salt at a ratio of 1 part salt to 2 parts olives by weight.
+2. Pack in a perforated container (basket, clay jar with drainage hole, or wooden box with gaps) so liquid can drain out. The salt draws moisture from the olives, concentrating flavors and removing bitterness.
+3. Stir or shake the container every 2-3 days to redistribute salt. Drain the liquid that collects.
+4. After 3-4 weeks, taste for bitterness. When palatable, rinse off excess salt and coat lightly with olive oil. These shriveled, intensely flavored olives keep for months.
+
+**Oil cure:**
+1. Submerge ripe olives in olive oil with aromatics (garlic, herbs, chili) for several months. The oil slowly extracts bitterness while infusing flavor. This is the slowest method but produces very rich, complex-flavored olives.
+
+#### Oil Pressing
+
+Olive oil is the highest-value product of the olive tree and one of the most important food processing operations in a Mediterranean civilization. The pressing process determines oil quality:
+
+**First pressing — Extra virgin olive oil (EVOO):**
+1. Wash olives and remove leaves and debris. Leaves impart a bitter, grassy flavor.
+2. **Grind** the olives (flesh + pit together) into a paste using a stone mill (traditional: edge-runner mill with a large circular stone rolling on a stone base) or hammer mill. The paste should be uniform, with particles below 1 mm. Pit fragments act as a natural draining aid during pressing. Grinding time: 15-30 minutes.
+3. **Malaxation** (mixing): Slowly stir the paste at 25-27°C for 30-60 minutes. This critical step allows tiny oil droplets released during grinding to coalesce into larger droplets that can be separated. Temperature must remain below 27°C for the oil to qualify as "cold pressed" (extra virgin). Higher temperatures extract more oil but degrade flavor and antioxidant content.
+4. **Press**: Spread the paste onto woven fiber mats (esparto grass, coconut fiber, or hemp) stacked in layers on a press plate. Apply pressure gradually — first at low pressure to release free oil, then increasing to maximum pressure over 30-45 minutes. Traditional presses use a wooden screw press or hydraulic press.
+5. **Separate**: The pressed liquid is a mixture of oil and water (vegetation water from the olive fruit). Allow to settle in a tank — oil floats to the top and is skimmed off. Alternatively, use a centrifuge (if available) for faster, cleaner separation.
+6. **Yield**: 15-22% of fresh olive weight as extra virgin oil, depending on variety, ripeness, and processing efficiency. This is the highest-quality oil: free fatty acid content below 0.8%, distinctive fruity flavor, and maximum polyphenol content (200-500 mg/kg).
+
+**Second pressing — Virgin olive oil:**
+1. Re-process the pressed paste (pomace) from the first pressing with additional water and heat to 30-35°C. Apply pressure again.
+2. Yields an additional 3-5% oil of lower quality: milder flavor, higher acidity (0.8-2.0%), fewer polyphenols. Classified as "virgin olive oil" (not extra virgin). Still perfectly edible and suitable for cooking.
+
+**Pomace oil:**
+1. The remaining pomace after second pressing still contains 5-8% oil trapped in the cellular structure. At higher technology levels, this oil is extracted using chemical solvents (hexane).
+2. The resulting crude pomace oil requires refining (neutralization, bleaching, deodorization) before it is fit for consumption. Not achievable at basic technology levels.
+3. At basic technology levels, the spent pomace has alternative uses: burn as fuel (heating value ~18-20 MJ/kg dry), use as animal feed supplement (after solvent extraction at higher tech levels), or compost for soil amendment.
+
+#### Olive Oil as Lamp Fuel
+
+Lower grades of olive oil (second pressing, rancid or off-flavor oil not suitable for food) serve as an excellent lamp fuel — one of the most important non-food uses in a civilization bootstrap:
+
+1. **Oil lamp**: A shallow clay or metal dish with a spouted lip to hold a wick (twisted cotton, flax, or papyrus fiber). Fill dish with olive oil. The wick draws oil by capillary action and burns with a steady, smokeless, bright yellow flame.
+2. **Fuel consumption**: A typical oil lamp burns 10-15 ml of olive oil per hour. One liter of olive oil provides 65-100 hours of light — far more efficient and cleaner than tallow (animal fat) candles.
+3. **Advantages over other lamp fuels**: Olive oil is stable (non-volatile, low fire risk), burns without soot or acrid smoke, is non-toxic, and can be produced domestically wherever olive trees grow. This makes it the preferred indoor lighting fuel for any Mediterranean settlement.
+
+#### Wood Uses
+
+Olive wood is extremely dense (specific gravity 0.85-0.95), hard, and beautifully figured with irregular grain patterns ranging from creamy yellow to deep brown:
+
+- **Turning and carving**: Olive wood is prized for bowls, utensils, tool handles, and decorative objects. The dense, tight grain takes a smooth, natural polish without finishing oils.
+- **Cutting boards**: The hardness and natural oil content make olive wood resistant to moisture and bacteria — excellent for food preparation surfaces.
+- **Fuel**: The high density makes olive wood an excellent fuelwood (heating value ~19-20 MJ/kg dry). Prunings and old trees removed from orchards provide a steady supply.
+- **Charcoal**: Olive wood charcoal burns hot and clean, suitable for metalworking and cooking.
+- **Limitation**: Olive trees grow slowly and are too valuable for fruit/oil production to harvest for timber. Wood is sourced primarily from prunings, storm-damaged trees, and orchard renovation.
+
+#### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Harvest rate (hand pick) | 50-100 kg/person/day | Highest quality method |
+| EVOO extraction temperature | <27°C | "Cold press" threshold |
+| EVOO yield (first press) | 15-22% | Of fresh olive weight |
+| Virgin oil yield (second press) | 3-5% additional | Lower quality |
+| Malaxation time | 30-60 minutes | At 25-27°C |
+| Pressing cycle time | 30-45 minutes | Gradual pressure increase |
+| Oil lamp consumption | 10-15 ml/hour | Steady flame |
+| Water cure time | 7-10 days | Changing water every 12-24 hours |
+| Brine cure time | 3-6 weeks | 10% salt brine, fermented |
+| Dry salt cure time | 3-4 weeks | For ripe (black) olives |
+| Brine salt concentration | 10% (w/v) | 100 g salt per liter water |
+| Olive wood specific gravity | 0.85-0.95 | Extremely dense |
+
 ## Quantitative Parameters
 
 ### Growing Parameters

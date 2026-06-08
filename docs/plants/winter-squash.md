@@ -69,6 +69,69 @@ This species grows as a perennial or annual depending on climate and management.
 
 Requires a rich, well-drained moisture retentive soil and a very warm, sunny and sheltered position. Prefers a pH of 5.5 to 5.9, but tolerates up to 6.8. Dry periods with a relatively low humidity favour the best growth. A frost-tender annual plant, it is widely cultivated in tropical and temperate zones for its edible fruit, there are very many named varieties differing considerably in their fruits. Most of the winter squashes derive from this species, including Hubbard, Butternut, Acorn, Argentine and Boston. Many forms require a temperature range of 20 - 27°c during the growing season, but there are some forms that tolerate cooler conditions and these succeed outdoors most years in Britain. Most cultivars are relatively insensitive to day-length. Squashes and pumpkins can be differentiated from each other by their fruit stalk, it is angular and polygonal in pumpkins but thick, soft and round in squashes. This species hybridizes readily with C. andreana but can only be crossed with other species under controlled conditions. Some modern works see C. andreana as being no more than a subspecies of this species, classifying it as C. maxima andreana (Naudin.)Filov. Grows well with sweetcorn and thornapple but dislikes potatoes. Propagation: Sow seed in early to mid spring in a greenhouse in rich soil; germination should occur within 2 weeks. Sow 2 or 3 seeds per pot and thin to the strongest plant. Grow on quickly and plant out after the last expected frosts, providing cloche or frame protection for at least the first few weeks if growing outdoors.
 
+### Harvesting
+
+Harvest winter squash before the first frost — frost damages the skin and dramatically shortens storage life. The squash is ready when:
+
+1. **Stem indicator**: The stem connecting the squash to the vine dries, turns corky, and begins to crack. A dry, woody stem is the most reliable harvest signal.
+2. **Skin hardness**: Press a thumbnail into the skin — it should resist penetration and not leave a mark. The rind should feel hard and waxy.
+3. **Color**: The ground spot (where the squash rests on the soil) changes from light green to cream, yellow, or orange depending on variety.
+4. **Sound**: A ripe squash sounds hollow when thumped with the knuckle.
+
+Cut the squash from the vine with a knife or pruning shears, leaving 5-8 cm of stem attached. **Do not carry squash by the stem** — if the stem breaks off at the fruit, the resulting wound is an entry point for rot organisms. Handle carefully to avoid bruising or scratching the skin. Field-damage squash should be eaten soon, not stored.
+
+### Curing
+
+Curing hardens the skin, heals minor wounds, and converts starches to sugars, improving sweetness and storage life:
+
+1. Place harvested squash in a warm (25-30°C), dry location with good air circulation for 10-14 days. Spread in a single layer so squashes do not touch each other. A sunny greenhouse, warm porch, or covered area with good airflow works well.
+2. During curing, the skin toughens and any superficial scratches heal by forming a corky layer. Internal starch converts to sugar, improving flavor.
+3. After curing, the squash skin should be very hard — difficult to dent with a thumbnail. Squash that fails to cure properly (soft spots, mold, or unhealed wounds) should be set aside for immediate use.
+
+### Storage
+
+Properly cured winter squash is one of the best-storing fresh vegetables, lasting 3-6 months without refrigeration or processing:
+
+1. **Conditions**: Store at 10-15°C with 50-60% relative humidity. Good ventilation is essential. Avoid temperatures below 10°C (causes chilling injury — water-soaked spots, decay) and above 20°C (accelerates respiration and shrinks the squash).
+2. **Method**: Place squash on shelves or slatted racks in a single layer, not touching. Alternatively, hang in mesh bags. Do not stack — contact points develop rot. Store in a dark location (light promotes sprouting).
+3. **Inspection**: Check stored squash every 2-3 weeks. Remove any showing soft spots, mold, or shriveling — one rotting squash quickly infects neighbors. Small soft spots can be cut out and the remaining squash cooked immediately.
+4. **Expected storage life by type**: Butternut and acorn squash store 1-3 months. Hubbard and banana squash store 4-6 months (the best keepers). Kabocha stores 2-4 months.
+
+### Seed Roasting
+
+Winter squash seeds are a nutritious byproduct (24.5% protein, 34-54% oil) that should not be discarded:
+
+1. **Separation**: Cut squash open and scoop out seeds and stringy pulp. Place in a bowl of water and separate seeds from pulp with your fingers — seeds float, pulp sinks. Skim off seeds and rinse clean.
+2. **Drying**: Spread cleaned seeds on a cloth or screen. Air-dry for 2-3 hours until surface moisture is gone. (Do not dry completely before salting — slightly damp seeds hold salt better.)
+3. **Seasoning**: Toss seeds with a small amount of oil or fat and salt (1-2% of seed weight). Optional additions: pepper, herbs, or spice powder.
+4. **Roasting**: Spread seasoned seeds in a single layer on a flat pan or clay griddle. Roast at 160°C for 12-15 minutes, stirring every 5 minutes to prevent burning. Seeds are done when they are golden brown, crispy, and fragrant. Test by biting — the kernel inside should be crunchy, not chewy.
+5. **Storage**: Roasted seeds keep for 2-4 weeks in a sealed container at room temperature. The high oil content means they eventually go rancid — eat within a month or store in a cool location.
+
+### Cooking Methods
+
+1. **Baking**: Cut squash in half, scoop out seeds. Place cut-side down on a baking sheet or in a Dutch oven. Bake at 180-200°C for 45-60 minutes until the flesh is soft when pierced with a fork. Scoop flesh from skin. Produces the sweetest, most caramelized result.
+2. **Mashing**: Bake or steam peeled, seeded squash chunks until tender (20-30 minutes). Mash with a fork or pound in a mortar. Season with salt, fat (butter, oil), and spices. Mashed squash is a base for pies, soups, and baby food.
+3. **Soup**: Sauté diced squash with onions in oil or fat. Add water or stock, simmer 20-30 minutes until squash disintegrates. Season with salt and spices. Purée if a smooth texture is desired. Squash soup is nutritious, calorie-dense, and stores well (reheats without loss of quality).
+4. **Roasting chunks**: Peel and cut squash into 3-4 cm chunks. Toss with oil and salt. Spread on a pan and roast at 200°C for 25-35 minutes, turning once, until edges caramelize and centers are tender.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Seed protein content | 24.5% | Nutritious byproduct |
+| Seed oil content | 34-54% | Semi-drying oil |
+| Time to harvest | 3-4 months | From planting |
+| Curing temperature | 25-30°C | 10-14 days |
+| Storage temperature | 10-15°C | Below 10°C = chilling injury |
+| Storage humidity | 50-60% RH | Good ventilation essential |
+| Storage life (butternut/acorn) | 1-3 months | Shorter keepers |
+| Storage life (Hubbard/banana) | 4-6 months | Best keepers |
+| Storage life (kabocha) | 2-4 months | Intermediate |
+| Seed roast temperature | 160°C | 12-15 minutes |
+| Baking temperature | 180-200°C | 45-60 minutes |
+| Roasting chunks temperature | 200°C | 25-35 minutes |
+| Soup simmer time | 20-30 minutes | Until squash disintegrates |
+
 ### Distribution and Growing Conditions
 
 

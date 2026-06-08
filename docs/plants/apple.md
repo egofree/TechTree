@@ -75,6 +75,19 @@ Malus domestica is a deciduous Tree growing to 9 m (29ft 6in) at a medium rate. 
 
 ### Edible Parts and Preparation
 
+**Fruit** is the primary harvest. Apples are eaten raw, cooked, dried, pressed for juice, fermented into cider and vinegar, and preserved as butter, jelly, and sauce. A mature tree produces 100-200 fruits per season; orchard yields range 15-40 tonnes/ha depending on variety, rootstock, and management.
+
+**Harvesting**: Pick when the ground color (underside of fruit facing the branch) shifts from green to yellow. Test readiness by lifting the fruit upward and twisting slightly — ripe apples separate cleanly from the spur with the stem intact. Avoid pulling straight down, which damages the spur and reduces next year's crop. Harvest over 2-3 passes per tree, picking the most mature fruit first. Early-season varieties (July-August) do not store well; process within days. Mid-season (September) stores 1-3 months. Late-season (October-November) stores 4-12 months under proper conditions.
+
+**Culinary preparation by variety class**:
+- **Dessert apples** (sweet, crisp): Eat raw. Varieties include sweet types with 10-14% sugar content.
+- **Cooking apples** (tart, firm flesh that holds shape): Peel, core, slice. Bake at 180°C for 35-45 minutes; boil 10-15 minutes for sauce. High malic acid content (0.5-1.0%) breaks down during cooking. These varieties typically have 2-3× the acid of dessert types.
+- **Cider apples** (astringent, high tannin): Press for juice. Tannin content 0.2-0.5% provides body and bitterness. Not pleasant for fresh eating but essential for balanced cider.
+
+**Pectin extraction**: Apples, especially tart varieties and crab apples, contain 1-1.5% pectin in the fruit (higher in underripe fruit and cores/peels). To extract: simmer cores and peels in water (1:2 ratio by volume) for 30-60 minutes. Strain through cloth. The resulting liquid sets jams and jellies when combined with sugar and acid. Test set point by placing a spoonful on a cold plate — it should wrinkle when pushed with a finger.
+
+**Seed oil**: Apple seeds contain ~20-25% oil, but the seeds are small and present in low volume. Oil extraction is only practical as a byproduct of cider pressing: collect seeds from pressed pomace, dry, and press with a screw press. Yield: approximately 50-100 ml oil per 100 kg of fruit. The oil is edible but more useful as a lighting oil.
+
 ## Quantitative Parameters
 
 ### Growing Parameters
@@ -91,11 +104,41 @@ Lighting Oil Oil Pectin Teeth Wood. Apples can be used as part of an agroforestr
 
 ### Storage
 
-Fresh fruit is highly perishable. Process within days of harvest by drying, fermenting, or preserving. For drying: slice thinly and spread on racks in full sun or near a heat source until leathery and no longer moist inside. Dried fruit stores for months in sealed containers kept cool and dark. Fermented products (wine, vinegar) extend storage further. Some fruits can be stored fresh for weeks in cool conditions.
+**Fresh fruit storage** depends on variety and conditions:
+
+| Method | Temperature | Humidity | Duration | Best Varieties |
+|--------|-------------|----------|----------|----------------|
+| Root cellar | 0-4°C | 90-95% | 4-12 months | Late-season: 'Bramley', 'Russet', 'Newton' |
+| Cool room | 4-10°C | 85-90% | 1-3 months | Mid-season varieties |
+| Ambient (cool climate) | 10-15°C | N/A | 2-6 weeks | Any — check daily for decay |
+
+Wrap individual fruits in paper or dry leaves to prevent contact spread of rot. Inspect weekly: remove any fruit showing soft spots, discoloration, or mold immediately — ethylene production from one decaying apple accelerates ripening and decay in adjacent fruit. Store only unbruised, unbroken fruit; wounds are entry points for *Penicillium* and *Botrytis*.
+
+**Drying**: Slice apples 5-7 mm thick (peel or leave unpeeled). Pretreat by dipping in a 1% salt solution or lemon juice to prevent browning (enzymatic oxidation). Sun dry on racks 2-4 days in hot, dry weather, or oven dry at 55-60°C for 6-12 hours. Properly dried apple rings contain 15-20% moisture, feel leathery, and have no moist center. Store in sealed containers in a cool, dark place for 6-12 months. Dried apple yield: approximately 10-15 kg dried per 100 kg fresh fruit.
+
+**Cider production**: Pressed apple juice (yield: 60-70% by weight from whole fruit) ferments naturally from wild yeast on fruit skins, or can be inoculated with cultured yeast. Ferment at 15-20°C for 1-3 months. Alcohol content reaches 4-8% ABV. Hard cider stores 6-12 months in sealed containers. Further aerobic fermentation (leave uncovered with *Acetobacter* exposure) produces apple cider vinegar in 4-8 weeks at 20-30°C. Vinegar is self-preserving and stores indefinitely.
+
+**Preserves**: Apple butter — cook peeled, cored apples with sugar (250-500 g/kg fruit) and spices at low heat for 6-10 hours until thick and dark. Process in sealed jars by water bath canning (100°C, 10-15 minutes). Jelly requires high-pectin varieties or added pectin; set at 104-105°C (sugar concentration ~65%). Properly sealed jars keep for 1-2 years.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Orchard yield | 15-40 tonnes/ha | Mature orchard, varies by rootstock and variety |
+| Fruit per tree | 100-200 | Mature standard tree; 30-80 on dwarfing rootstock |
+| Fresh storage temperature | 0-4°C | Optimal for late varieties |
+| Fresh storage humidity | 90-95% RH | Below 85% causes shriveling |
+| Drying temperature | 55-60°C | Oven; sun drying requires 30-35°C ambient |
+| Dried product moisture | 15-20% | Leathery texture, no moist center |
+| Cider juice yield | 60-70% | By weight from whole fruit |
+| Cider fermentation | 15-20°C, 1-3 months | Wild or cultured yeast |
+| Vinegar fermentation | 20-30°C, 4-8 weeks | Aerobic, *Acetobacter* |
+| Pectin content (fruit) | 1-1.5% | Higher in underripe fruit, cores, peels |
+| Seed oil content | 20-25% | Seeds only — not practical as primary oil source |
 
 ### Material Handling
 
-Handle apple produce with clean hands and tools to prevent contamination. Remove field heat promptly after harvest by moving product to shade. Process within the recommended timeframe to prevent quality loss. Compost crop residues and processing waste to return organic matter to the soil. Label stored products with harvest date, variety, and any treatments applied.
+Pick apples with the stem attached — broken stems create entry points for decay organisms. Minimize bruising during harvest and transport; bruises develop into brown rot (*Monilinia fructigena*) within days at ambient temperature. Remove field heat within 4-6 hours of harvest by moving fruit to a shaded, cool space or immersing in cold water (0-4°C). Pressed pomace (cider residue) can be fed to livestock, composted, or used for pectin extraction. Pruned wood makes excellent fuel — applewood burns hot and produces coals suitable for cooking and smoking.
 
 ## Scaling Notes
 

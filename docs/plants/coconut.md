@@ -78,6 +78,70 @@ A palm with an unbranched trunk. The trunk has ring-like leaf scars along it. At
 
 ### Edible Parts and Preparation
 
+#### Harvesting and Dehusking
+
+Coconuts are harvested at various maturity stages depending on intended use:
+
+- **Young coconuts (6-7 months)**: Green outer husk, soft jelly-like meat, abundant water. Harvested by climbing the tree or using a long pole with a cutting blade. The water is consumed directly as a beverage; the soft meat is scraped out and eaten.
+- **Mature coconuts (11-12 months)**: Brown husk, firm white meat, reduced water. These fall naturally when fully ripe, but are usually harvested before dropping to prevent damage. Used for copra, oil, and grated coconut. Trees produce 15-100 nuts per year depending on variety and growing conditions.
+
+Dehusking (removing the outer fibrous husk): Traditional method — impale the coconut on a sharpened iron or wooden stake set at an angle in the ground, and lever the husk off in sections. This takes 10-30 seconds per nut with practice. Alternatively, split the husk with a heavy machete and peel by hand.
+
+After dehusking, crack the hard inner shell by striking the equator of the nut with the back of a heavy knife or a stone. A clean strike splits the shell into two halves. Drain the coconut water before cracking if you wish to collect it.
+
+#### Coconut Water Extraction
+
+Coconut water (the clear liquid inside young to mid-maturity nuts) is sterile when the nut is unopened and serves as an emergency intravenous hydration fluid in austere conditions. To extract: bore a hole through one of the three "eyes" (soft spots) at the stem end using a clean pointed implement, then drain into a clean vessel. Water from young nuts (6-7 months) is sweeter and more abundant (300-500 ml per nut); water from mature nuts is less sweet and may taste slightly fermented.
+
+#### Meat Processing: Copra and Desiccated Coconut
+
+The white kernel (copra when dried) is the primary commercial product:
+
+1. **Fresh grating**: Split the nut, pry the meat from the shell using a knife or coconut grater (a serrated blade on a low bench, traditionally used while seated). Grate the meat using a coconut grater, perforated tin sheet, or the rough edge of a broken shell. Fresh grated coconut is used immediately in cooking or pressed for milk.
+2. **Copra production**: Remove meat from the shell in large pieces. Dry in the sun on raised racks for 5-7 days, or over a slow fire in a drying kiln for 24-48 hours, until moisture content drops below 6%. Copra must be dried quickly to prevent mold (aflatoxin risk from *Aspergillus flavus*). Well-dried copra is hard, brittle, and white to cream-colored. Shelf life: 6-12 months in dry storage. Yield: approximately 200-300 g copra per nut (roughly 1,500-3,000 kg copra per hectare per year).
+3. **Desiccated coconut**: Grate fresh meat finely, then dry in a hot-air oven or over low heat to 2-3% moisture. Produces a dry, flaky product used in baking and confectionery. Shelf life: 6-12 months in sealed containers.
+
+#### Coconut Milk and Cream
+
+Coconut milk is not the same as coconut water — it is an emulsion of oil and water extracted from grated fresh meat:
+
+1. Grate the white kernel finely.
+2. Mix grated coconut with warm water (1:1 by volume for thick milk/cream; 1:2 for thin milk).
+3. Knead and squeeze the mixture by hand or press through cloth. First pressing yields thick coconut cream (20-25% fat). Second and third pressings with more water yield progressively thinner milk.
+4. Let the extract stand — coconut cream (the thick fat-rich layer) rises to the top and can be skimmed off. This is the traditional oil extraction method (see below).
+
+Coconut milk spoils rapidly at ambient temperature (6-12 hours). Use immediately or boil to extend shelf life to 24-48 hours. Fermented coconut milk (allowing natural lactic acid fermentation for 12-24 hours) keeps longer and has a tangy flavor.
+
+#### Oil Extraction
+
+Coconut oil (60-65% of copra weight) is extracted by two primary methods:
+
+- **Traditional (wet process)**: Express coconut cream from fresh grated meat as described above. Allow the cream to ferment naturally for 24-48 hours in a warm place. The fermented mass separates into three layers: coconut oil on top, protein-rich curd in the middle, and water below. Skim the oil layer and heat gently (100-120°C) to evaporate residual moisture and sterilize. Filter through cloth. Yield: 150-250 ml oil per nut. The oil is stable at room temperature for 6-12 months due to its high saturated fat content (92% saturated fatty acids, primarily lauric acid).
+- **Copra pressing (dry process)**: Mill dried copra to a coarse meal. Press in a screw press, expeller, or hydraulic press. Cold pressing (below 60°C) produces virgin coconut oil with characteristic coconut flavor; heated pressing (up to 200°C) gives higher yield but neutral flavor. Filter the expressed oil through cloth or let settle. Yield: 60-65% of copra weight (roughly 120-195 g oil per nut).
+
+Coconut oil serves multiple uses beyond cooking: lamp fuel (burns cleanly in a simple wick lamp), skin moisturizer, soap making (saponification with wood ash lye), and as a lubricant for light machinery.
+
+#### Coir Fiber Extraction
+
+The fibrous husk yields coir, a versatile natural fiber:
+
+1. Retting: Submerge coconut husks in water (ponds, slow-moving streams, or pits) for 4-10 months. Microbial action decomposes the pectin binding the fibers to the pith. Traditional retting in backwaters of Kerala, India produces the finest fiber.
+2. After retting, beat the softened husks with wooden mallets or step on them to separate the long bristle fibers (20-30 cm) from the short mattress fibers and pith.
+3. Wash fibers thoroughly, dry in the sun for 3-5 days, and spin into yarn or rope using a hand-operated spinning wheel or by hand-twisting.
+
+Coir rope is resistant to saltwater degradation, making it the preferred maritime rope material in tropical regions. Coir matting, baskets, and brushes are secondary products. The leftover coir pith (cocopeat) is an excellent growing medium for seedlings.
+
+#### Shell Charcoal
+
+The hard inner shell (endocarp) produces high-quality charcoal:
+
+1. Clean shells of all meat residue.
+2. Stack in a charcoal pit or kiln, cover with earth or metal sheet to restrict oxygen.
+3. Fire for 6-12 hours. The dense shell produces charcoal with high carbon content (80-85%), high heat output, and low smoke.
+4. Further processing: activate the charcoal by heating to 800-900°C with steam to produce activated carbon for water filtration. Coconut shell activated carbon is among the most effective filtration media available.
+
+Shell charcoal yield: approximately 25-30% of shell weight. Each shell produces 80-120 g of charcoal. The charcoal burns hotter and longer than wood charcoal, making it preferred for metalworking and cooking.
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

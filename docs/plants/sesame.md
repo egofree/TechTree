@@ -78,6 +78,53 @@ A small upright plant. It is an annual plant. It is erect and much branched. It 
 
 ### Edible Parts and Preparation
 
+### Harvesting and Threshing
+
+Sesame is one of the most challenging oilseed crops to harvest because the seed capsules (pods) **shatter open** when fully ripe, scattering the tiny seeds on the ground. This shattering habit is the primary yield-limiting factor in sesame production:
+
+1. **Harvest timing**: Cut plants when the **bottom pods begin to shatter** and the lower leaves start to drop. The plant will have turned from green to yellowish-green. Do not wait until all pods are fully dry — by then the bottom pods will have shed most of their seed.
+2. **Cutting**: Cut plants at ground level with a sickle or scythe. Handle cut plants gently to avoid shaking seed from open pods.
+3. **Stooking (shocking)**: Stand cut plants upright in small shocks (bundles of 10-15 plants) in the field, with the cut ends on the ground and the pods at the top. Tie at the middle to keep them upright. This allows the upper pods to continue ripening and drying while the seeds remain caught in the plant. Leave in the field for 7-10 days depending on weather.
+4. **Threshing**: When pods are fully dry and begin to split open, place the shocked plants on a clean tarp or threshing floor. Beat the plants with sticks or flails. The tiny seeds (2-3 mm long) fall from the shattered pods. At production scale, pass dry plants through a mechanical thresher with low cylinder speed to avoid crushing the small seeds.
+5. **Cleaning**: Winnow threshed material to remove chaff and pod fragments. Pass through fine-mesh screens (2-3 mm) to remove dust and small debris. Sesame seeds are small enough that standard grain cleaning equipment may need adjustment.
+6. **Drying**: Dry cleaned seeds to below 8% moisture for safe storage. The high oil content (45-55%) makes sesame seeds prone to rancidity if stored with excess moisture.
+
+### Sesame Oil Pressing
+
+Sesame oil is one of the most stable vegetable oils due to unique antioxidant compounds (sesamol and sesamin), and can keep for years without turning rancid:
+
+1. **Seed preparation**: Clean and dry seeds to 6-8% moisture. For the best-flavored oil, lightly roast seeds at 140-160°C for 15-20 minutes before pressing. Roasting develops the characteristic nutty sesame flavor through Maillard reactions but reduces yield slightly.
+2. **Cold pressing** (preferred for premium oil): Feed seeds into a screw press at temperatures below 50°C (without pre-roasting). Cold-pressed sesame oil has a light, mild flavor and retains maximum antioxidant content. Yield: 35-45% of seed weight.
+3. **Hot pressing** (higher yield): Pre-heat seeds to 70-90°C before pressing. Increases yield to 40-50% but produces stronger-flavored oil. This is the traditional method for producing the dark, aromatic toasted sesame oil used as a condiment in East Asian cuisine.
+4. **Solvent extraction**: Extract press cake with hexane for additional yield. Total combined yield reaches 45-55% of seed weight.
+5. **Settling and filtering**: Allow pressed oil to settle for 24-48 hours. Filter through cloth or fine mesh. Sesame oil requires less refining than most vegetable oils because its natural antioxidants (sesamol, sesamin) protect against oxidation.
+
+### Tahini Production
+
+Tahini is a paste made from ground sesame seeds, widely used in Middle Eastern and Mediterranean cuisine:
+
+1. **Hulling** (optional): Soak seeds in water for 2-4 hours to loosen the hull (seed coat). Rub seeds against a rough surface or pass through an abrasive hulling machine. Separate hulled seeds (which float or remain) from hulls (which float off in water). Dry hulled seeds thoroughly. Note: unhulled sesame makes darker, more bitter tahini with higher calcium content.
+2. **Roasting**: Dry-roast hulled seeds at 140-160°C for 15-25 minutes, stirring constantly, until golden brown and fragrant. Roasting develops flavor and reduces moisture for better grinding.
+3. **Grinding**: Pass roasted seeds through a stone mill, burr grinder, or heavy mortar and pestle. The seeds release their oil during grinding, forming a smooth paste. Continue grinding until the desired consistency is reached — smooth tahini has no gritty particles.
+4. **Seasoning**: Add 0.5-1% salt by weight (optional). Some producers add a small amount of lemon juice or garlic for flavored tahini.
+5. **Storage**: Tahini separates over time (oil rises to top). Stir before use. Store in sealed containers at room temperature for up to 6 months, or refrigerate for longer life.
+
+### Process Parameters
+
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| Seed oil content | 45-55% | One of the highest oilseed crops |
+| Cold press yield | 35-45% | Of seed weight |
+| Total oil yield (with solvent) | 45-55% | Near-complete extraction |
+| Seed yield | 340-500 kg/ha (average) | Up to 3,000 kg/ha under ideal conditions |
+| Oil yield per hectare | 150-275 kg | At average yields |
+| Days to maturity | 80-180 days | Varies by variety |
+| Seeds per gram | ~3,300 | Very small seeds |
+| Roasting temperature (oil) | 140-160°C | For aromatic oil |
+| Roasting temperature (tahini) | 140-160°C | Until golden brown |
+| Tahini yield | ~85% of seed weight | After hulling and grinding losses |
+| Optimal storage moisture | <8% | Prevents rancidity |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

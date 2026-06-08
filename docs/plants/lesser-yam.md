@@ -78,6 +78,46 @@ A yam which has a spiny vine. It is a prickly climber. It can climb 1.2-2.4 m hi
 
 ### Edible Parts and Preparation
 
+Lesser yam (*Dioscorea esculenta*) produces a cluster of 5-20 tubers per plant, each 250g-3kg, with sweet white or yellow flesh. The tubers are a staple carbohydrate source in tropical and subtropical regions:
+
+**Harvesting**: Dig tubers when the vine begins to yellow and die back, typically 8-10 months after planting. In varieties where the foliage does not naturally die off, harvest when tubers reach marketable size — leaving them in the ground too long leads to deterioration as new growth commences. Use a digging fork, working carefully around the plant to avoid stabbing the tuber cluster. The tubers are attached to the base of the vine and to each other by short stolons — cut these connections with a knife. Brush off excess soil but do not wash before storage. Handle carefully: lesser yam tubers bruise easily, and damaged surfaces are entry points for fungal rot.
+
+**Storage**: Store whole, uncut tubers at temperatures above 15°C in well-ventilated conditions. Do not store below 10-12°C — chilling injury causes internal discoloration and accelerates decay. Ideal conditions: 15-20°C, 60-70% relative humidity, with good air circulation. Properly stored tubers keep for 2-3 months. Do not pile tubers deeply — stack no more than 2-3 layers to allow air circulation and prevent pressure bruising. Check weekly and remove any tubers showing soft spots, mold, or sprouting. Cut or damaged tubers are highly susceptible to fungal infection (primarily *Botryodiplodia* and *Fusarium* species) — use damaged tubers immediately or discard.
+
+**Cooking**: Peel tubers (the skin is thin but contains calcium oxalate crystals that can cause throat irritation in sensitive individuals). Boil peeled chunks for 20-30 minutes until fork-tender. The cooked flesh is sweet, with a flavor between sweet potato and chestnut. Also excellent roasted (40-50 minutes at 200°C), mashed, or sliced and fried. Lesser yam can be used in any recipe calling for sweet potato or other yams. Always cook thoroughly — raw yam tubers contain trace amounts of dioscorine and oxalate compounds that are neutralized by heat.
+
+### Starch Extraction
+
+Lesser yam tubers contain 20-30% starch by fresh weight, producing a fine, white starch suitable for food thickening, puddings, and industrial uses:
+
+1. **Grate**: Peel tubers and grate finely using a perforated metal grater, stone rasp, or traditional grater board. The finer the grating, the more complete the starch extraction. Alternatively, pound chunks in a large mortar with a pestle to a pulpy consistency.
+
+2. **Wash (extract)**: Place the grated pulp in a large container and add water (approximately 3-4 times the pulp volume by volume). Agitate vigorously by hand or with a wooden paddle for 5-10 minutes to release starch granules from the plant fibers. The starch granules (10-70 micrometers diameter, typically oval) suspend in the water while the fibrous material remains intact.
+
+3. **Strain**: Pour the suspension through a fine mesh screen, woven cloth, or a series of increasingly fine sieves to remove fiber. Collect the milky-white filtrate in a settling vessel. Return the fiber to the water for a second wash to extract residual starch — repeat 2-3 times until the wash water runs nearly clear.
+
+4. **Settle**: Allow the strained starch-water suspension to settle undisturbed for 4-8 hours. The starch granules, being denser than water, sink to form a compact white cake at the bottom of the vessel. Carefully pour off the clear supernatant liquid.
+
+5. **Dry**: Remove the wet starch cake and spread thinly (5-10 mm layer) on drying racks, flat stones, or clean cloth in full sun. Dry for 1-2 days until the starch is completely dry and powdery. Break up any clumps during drying. The dried starch is a fine white powder.
+
+6. **Yield**: Expect 150-250g of dried starch per kg of fresh tubers (15-25% extraction yield). The extracted starch is odorless, tasteless, and forms a clear, viscous gel when heated in water — useful as a thickener for soups, sauces, and puddings.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Days to maturity | 240-300 | 8-10 months from planting |
+| Tubers per plant | 5-20 | Cluster at base of vine |
+| Tuber weight (typical) | 250-1,000g | Some reach 3,000g |
+| Tuber yield | 10-25 tonnes/ha | Fresh weight |
+| Storage temperature | >15°C | Below 10°C causes chilling injury |
+| Storage duration | 2-3 months | Well-ventilated, 15-20°C |
+| Cooking time (boil) | 20-30 min | Peeled chunks |
+| Cooking time (roast) | 40-50 min | At 200°C |
+| Starch content (fresh tuber) | 20-30% | By weight |
+| Starch extraction yield | 150-250g/kg | From fresh tubers |
+| Settling time | 4-8 hours | For starch granules to settle |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

@@ -78,6 +78,59 @@ A grass. It is an annual plant 2-3 m high. It has a single stem. The stem is sol
 
 ### Edible Parts and Preparation
 
+#### Harvesting and Drying
+
+1. Harvest field corn (dent or flint types) when kernels are fully mature and the husks have dried to a pale tan. The kernels should be hard and dented (dent types) or smooth and rounded (flint types). Moisture content at harvest: 20-25%.
+2. Peel back husks and leave ears on the stalk to field-dry for 2-3 weeks in dry weather, or harvest and lay on drying racks under cover. Target moisture: below 14% for safe storage.
+3. Shell kernels from the cob by hand (rubbing two ears together) or by beating with a wooden flail. Winnow to remove chaff and silk fragments.
+4. For sweet corn: harvest when kernels are plump and milky (about 20 days after silk emergence). Consume or preserve immediately — sugar converts to starch within hours of picking.
+
+#### Nixtamalization (Alkali Processing)
+
+Nixtamalization is the essential process that makes maize nutritionally complete. Raw maize contains niacin (vitamin B3) bound in a form called niacytin that humans cannot absorb. Without treatment, a maize-based diet causes pellagra (diarrhea, dermatitis, dementia, death). Alkali treatment with slaked lime (calcium hydroxide, Ca(OH)₂) liberates bound niacin, softens the pericarp (outer hull), and enriches the grain with calcium.
+
+**Procedure:**
+
+1. Prepare a 1-2% slaked lime solution: dissolve 10-20 g of slaked lime (food-grade calcium hydroxide) per liter of water. Slaked lime is produced by heating limestone (calcium carbonate) to produce quicklime (calcium oxide), then adding water — see [Chemistry](../chemistry/index.md).
+2. Add whole dried maize kernels to the lime solution in a clay or iron pot. Use approximately 1 part maize to 2 parts lime solution by volume.
+3. Bring to a boil (80-100°C) and simmer for 30-60 minutes. The kernels will swell and the pericarp (outer skin) will loosen and turn yellow-orange from the dissolved lime.
+4. Remove from heat and allow to steep in the lime solution for 8-16 hours (overnight). The steeping period allows the alkali to penetrate the endosperm fully, converting bound niacin to bioavailable niacin and gelatinizing surface starch.
+5. Drain the lime solution (nejayote — rich in dissolved pericarp, calcium, and nutrients; can be used as a binder for adobe bricks or added to animal feed). Wash the nixtamalized kernels (now called *nixtamal*) thoroughly in clean water, rubbing by hand to remove the loosened pericarp and excess lime. Change water 2-3 times until the water runs clear and the kernels feel smooth.
+6. The cleaned nixtamal is now ready for grinding into masa (dough) on a metate (flat stone grinder) or stone mill. The masa has a cohesive, pliable texture from the gelatinized surface starch, allowing it to be pressed flat into tortillas (15-20 cm diameter, 1-2 mm thick) and cooked on a hot clay griddle (comal) for 1-2 minutes per side.
+
+**Yields and ratios:** 1 kg dry maize → ~2.3 kg nixtamal (water absorbed during cooking and steeping) → ~2.2 kg masa. The masa does not keep well — use within 12 hours at room temperature or refrigerate for up to 3 days. For longer storage, dry the nixtamalized kernels and grind into masa flour (masa harina), which stores for months.
+
+**Nutritional impact:** Nixtamalization increases available niacin by 30-50×, adds 50-100 mg calcium per 100 g of tortilla (from the lime), and improves protein digestibility by 5-10%. Without this process, populations relying on untreated maize as a dietary staple are at risk for pellagra.
+
+#### Dry Milling (Cornmeal, Grits, Flour)
+
+1. For cornmeal or grits, start with dried whole kernels (not nixtamalized). Pass through a stone mill or metate. Coarse grind produces grits (particles 1-2 mm); fine grind produces cornmeal (0.2-0.5 mm) or flour (below 0.2 mm).
+2. Sift through woven mesh to separate particle sizes. The coarsest fraction (hulls and large fragments) is re-ground or used as animal feed. The finest fraction is corn flour for baking.
+3. Cornmeal keeps for 3-6 months in dry storage. Stone-ground cornmeal retains the germ, which adds nutrition but reduces shelf life due to fat oxidation. For longer storage, remove the germ by sieving or use whole-grain meal promptly.
+
+#### Fuel from Stalks and Cobs
+
+After harvest, the entire above-ground maize plant provides fuel and fiber:
+
+- **Dried stalks**: 2-3 m tall, air-dry to 15-20% moisture in 2-4 weeks. Burn directly as fuel (heating value ~15-17 MJ/kg dry matter, comparable to hardwood). One hectare of maize produces 5-8 tonnes of dry stover. Stalks also serve as construction material (wattle infill), mulch, and animal fodder.
+- **Corn cobs**: After shelling, dried cobs burn hot and clean. Heating value ~18 MJ/kg dry. Excellent as kindling or as fuel for cooking fires. Also used as abrasive for polishing, as absorbent material, and as a filler in construction (cob brick aggregate). Yield: approximately 1.5-2 tonnes of cobs per hectare.
+- **Husks**: Dried husks can be woven into mats, baskets, or doll figures. As fuel, they burn quickly and serve as tinder.
+
+#### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Nixtamalization lime concentration | 1-2% (w/v) | Ca(OH)₂ in water |
+| Nixtamalization cook time | 30-60 min | At 80-100°C |
+| Nixtamalization steep time | 8-16 hours | Room temperature after cooking |
+| Masa yield from dry maize | 2.2 kg/kg | Including water absorbed |
+| Calcium gain from nixtamalization | 50-100 mg/100 g tortilla | From lime treatment |
+| Niacin liberation factor | 30-50× increase | Bound → bioavailable |
+| Stover yield per hectare | 5-8 tonnes (dry) | Stalks + leaves + cobs |
+| Cob yield per hectare | 1.5-2 tonnes (dry) | After shelling |
+| Stover heating value | 15-17 MJ/kg (dry) | Comparable to hardwood |
+| Cornmeal shelf life | 3-6 months | Whole grain; longer if degermed |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

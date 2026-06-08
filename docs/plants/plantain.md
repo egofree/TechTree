@@ -73,7 +73,38 @@ Only known as a cultivated plant, it is a hybrid of M. Acuminata × M. Balbisian
 
 Musa x paradisiaca is an evergreen Perennial growing to 8 m (26ft) by 4 m (13ft) at a fast rate. See above for USDA hardiness. It is hardy to UK zone 10. The flowers are pollinated by Birds, Bats. It is noted for attracting wildlife. Suitable for: light (sandy), medium (loamy) and heavy (clay) soils and prefers well-drained soil. Suitable pH: mildly acid and neutral soils and can grow in very acid soils. It cannot grow in the shade. It prefers moist soil. The plant is not wind tolerant.
 
+### Harvest Stages and Uses
+
+Plantain is unique among fruits in being harvested and consumed at three distinct ripeness stages, each with different culinary properties:
+
+1. **Green plantain** (unripe, firm, starchy): Harvest when skin is fully green with no yellow. The flesh is firm, starchy, and not sweet — comparable to a potato in texture and use. Green plantains are the standard for savory dishes. Peel by scoring the skin lengthwise with a knife and prying it off; the skin adheres tightly to green fruit.
+   - *Tostones*: Slice green plantain into 2-3 cm rounds. Fry in oil at 175°C for 3-4 minutes until golden. Remove, flatten with a press or the flat of a knife, then fry again for 2-3 minutes until crispy. Salt immediately. Produces a savory, crunchy flatbread-like side dish.
+   - *Chips*: Slice paper-thin (1-2 mm) with a mandoline or sharp knife. Deep-fry at 180°C for 2-3 minutes until golden and crisp. Salt immediately. Commercially sold as "plantain chips" or "platanutres."
+   - *Boiling*: Boil whole or halved green plantains in salted water for 15-20 minutes until a fork pierces the flesh easily. Peel after cooking. Served mashed or whole as a starchy side, similar to boiled potatoes.
+
+2. **Yellow plantain** (semi-ripe, yellow skin with some black spots): Sweeter and softer than green, but still firm enough to hold shape during cooking. The transitional stage offers a balance of starch and sugar.
+   - *Frying*: Slice on the diagonal into 1 cm ovals. Pan-fry in oil at medium heat for 3-4 minutes per side until golden brown and caramelized. Sweeter and softer than tostones.
+   - *Baking*: Score skin lengthwise, bake at 190°C for 20-25 minutes until flesh is soft and caramelized. Top with butter, salt, or cheese.
+
+3. **Black plantain** (fully ripe, black/brown skin, very soft): Sweetest stage — the flesh is soft, custardy, and deeply flavored. The black skin indicates maximum sugar content, not spoilage. Allow green plantains to ripen at room temperature for 5-7 days to reach this stage.
+   - *Sweet frying*: Slice and pan-fry in butter or oil at medium-low heat for 2-3 minutes per side until caramelized. Natural sugars create a golden crust.
+   - *Mashing*: Peel and mash fully ripe flesh directly. Use as a sweet base for desserts, baby food, or porridge. Mix with coconut milk, cinnamon, or honey.
+
+### Flour Production
+
+Plantain flour is a gluten-free, shelf-stable staple made from unripe (green) plantains:
+
+1. Select firm green plantains with no bruising or mold.
+2. Peel and slice into thin rounds (2-3 mm thick). Peeling green plantains is difficult — score the peel lengthwise in 3-4 places and pry off in strips.
+3. Dry slices on racks in full sun for 1-2 days, or in a solar dryer at 50-60°C for 8-12 hours, until brittle and snap-dry. In humid climates, use a drying rack over a low fire. Target moisture: below 10%.
+4. Mill dried slices between flat stones (metate), with a rotary quern, or in a hammer mill. Sift through a fine mesh to remove coarse particles. Re-mill coarse fractions.
+5. Store flour in sealed containers in a cool, dry location. Properly dried plantain flour keeps for 6-12 months.
+
+Plantain flour is used for flatbreads, porridges (stir flour into boiling water at 1:4 ratio), thickening soups and stews, and as a gluten-free baking substitute. It produces a denser, heavier product than wheat flour. Nutritional profile per 100g: ~350 kcal, 3-4g protein, 85g carbohydrate, rich in potassium and resistant starch.
+
 ### Edible Parts and Preparation
+
+The fruit is the primary edible product, consumed at all ripeness stages with different culinary applications. Flowers are eaten in curries or cooked with coconut milk. The inner stem (pith) can be boiled and eaten, or dried and ground into flour. Blanched shoots from the base are roasted and eaten. Leaves are used as cooking wrappers — they impart flavor and retain moisture. The ashes of the burnt plant yield a salt substitute rich in potassium.
 
 ## Quantitative Parameters
 

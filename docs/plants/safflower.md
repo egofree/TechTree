@@ -78,6 +78,54 @@ An erect annual herb. It grows to 60-150 cm high. It has any branches. It has sp
 
 ### Edible Parts and Preparation
 
+### Safflower Types: Oil-Rich vs Dye-Rich
+
+Two distinct types of safflower have been developed through centuries of selection, optimized for different primary products:
+
+| Characteristic | Oil-Rich Type | Dye-Rich Type |
+|---------------|---------------|---------------|
+| Primary product | Seed oil (40-45%) | Flower pigment (carthamin) |
+| Seed oil content | 40-45% | 25-32% |
+| Main fatty acid | Linoleic acid (C18:2, 70-80%) | Lower oil quality |
+| Flower pigment yield | Lower | Higher carthamin content |
+| Spines on leaves | More spiny | Less spiny |
+| Primary use | Cooking oil, industrial | Textile dye, food coloring |
+
+### Safflower Oil Extraction
+
+1. **Seed harvest**: Allow plants to dry completely in the field. Seeds do not shatter easily, so direct combining is possible. Harvest when the plant is thoroughly dried and seeds rattle in the head.
+2. **Seed cleaning**: Remove chaff, stems, and foreign material by winnowing and screening.
+3. **Cold pressing** (preferred for food-grade oil): Feed cleaned seeds into a screw press at temperatures below 50°C. First pressing yields a light-colored, mild-flavored oil. Safflower oil is notably stable and does not turn rancid easily, keeping for months without refrigeration.
+4. **Solvent extraction** (for maximum yield): After cold pressing, extract the press cake with hexane to recover remaining oil. Combine with cold-pressed oil for total yield of 35-45% of seed weight.
+5. **Refining**: Filter through cloth, settle, and optionally bleach with activated earth. Safflower oil requires less refining than many other vegetable oils due to its low free fatty acid content.
+6. **Oil properties**: Safflower oil is one of the highest linoleic acid vegetable oils (70-80% linoleic acid). This high polyunsaturated fat content makes it valued for reducing blood cholesterol but also means it has a lower smoke point and shorter frying life than more saturated oils.
+
+### Carthamin Dye Extraction from Flowers
+
+Safflower has been cultivated for dye for over 3,000 years, producing both a yellow and a red pigment from the same flowers:
+
+1. **Flower harvest**: Pick flowers at full bloom, when petals are bright orange-red. Harvest in the morning after dew has dried. Continue picking over several days as flowers open sequentially.
+2. **Drying**: Spread flowers in thin layers on racks in shade. Turn daily. Dry until crisp (3-7 days). Protect from moisture and direct sunlight which degrades the pigment.
+3. **Yellow dye extraction (first wash)**: Soak dried flowers in water for several hours. The water-soluble yellow pigment (safflower yellow, containing safflomin A and B) dissolves and can be used directly as a yellow dye. Drain off the yellow liquid. This step is essential to remove the yellow pigment, which would contaminate the red.
+4. **Red dye extraction (carthamin)**: After removing the yellow pigment, the remaining flower material contains the insoluble red pigment carthamin. Soak the washed flowers in an alkaline solution (water + wood ash, or water + sodium carbonate, pH 9-11) for 1-2 hours. The carthamin dissolves in the alkaline solution, producing a deep red liquid.
+5. **Precipitation**: Acidify the red solution by adding vinegar, lemon juice, or dilute acid (citric or acetic) until pH drops to 4-5. The carthamin precipitates as a red solid. Collect by filtration through cloth.
+6. **Drying the pigment**: Spread the red carthamin paste on a flat surface and dry in the shade. The dried pigment can be stored indefinitely and used to dye silk, cotton, and wool in shades ranging from golden yellow to deep crimson depending on concentration and mordant used.
+7. **Dye application**: Dissolve carthamin in alkaline water for dyeing. Use alum (aluminum sulfate) as a mordant for bright red on silk and wool. On cotton, use a tannin mordant first, then alum. Carthamin produces a characteristic range of shades from pink through crimson to deep red.
+
+### Process Parameters
+
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| Seed oil content | 40-45% (oil type) | 25-32% for dye type |
+| Oil pressing temperature | <50°C (cold press) | Preserves oil quality |
+| Total oil yield | 500-800 kg/ha | Under good management |
+| Seed yield | 1,000-2,500 kg/ha | Varies with type and conditions |
+| Flowers for dye | 30-50 kg fresh/ha | At full bloom |
+| Carthamin yield | 0.3-0.8% of flower weight | Red pigment |
+| Yellow dye yield | 20-30% of flower weight | Water-soluble |
+| Days to maturity | 110-150 days | Spring-sown crop |
+| Growing period requirement | 14-hour photoperiod | Long-day plant |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

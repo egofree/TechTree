@@ -78,6 +78,64 @@ An onion family plant. It is an erect herb. It grows one year, then flowers the 
 
 ### Edible Parts and Preparation
 
+#### Harvesting
+
+Garlic is ready to harvest when 30-50% of the leaves have yellowed and begun to dry back, typically 90-120 days after planting (depending on variety and climate). If harvested too early, bulbs are small and wrappers (papery skins) have not formed properly; if harvested too late, wrappers split and cloves separate, reducing storage life.
+
+1. Stop watering 1-2 weeks before anticipated harvest to allow bulbs to begin drying in the ground.
+2. Lift bulbs carefully using a digging fork or broadfork — do not pull by the stalk, which breaks the stem and damages the bulb. Insert the fork 10-15 cm away from the plant and lever upward.
+3. Gently shake off loose soil. Do not wash the bulbs — moisture on the bulb promotes rot during curing.
+4. Do not remove the roots or cut the stalk at this stage. The intact stalk continues to draw moisture from the bulb during curing.
+
+#### Curing
+
+Curing is essential for long storage. Uncured garlic has high moisture content and rots within weeks.
+
+1. Lay or hang the harvested plants (bulbs with stalks attached) in a warm (25-35°C), dry area with good airflow. A covered porch, open shed, or well-ventilated room works. Do not expose to direct sunlight, which sunburns the bulbs.
+2. Cure for 2-3 weeks until the outer wrappers are papery and dry, the roots are brittle and wiry, and the stalk is completely dried down.
+3. After curing, cut the stalks to 2-3 cm above the bulb (or braid softneck varieties). Trim roots to 0.5 cm.
+4. Remove only the dirtiest outer wrapper layers — do not over-clean, as the wrappers protect the cloves during storage.
+
+#### Allicin Activation
+
+Garlic's primary bioactive compound is **allicin** (diallyl thiosulfinate), which does not exist in intact garlic cloves. Allicin is produced when the enzyme **alliinase** converts the amino acid **alliin** to allicin upon tissue damage — this is the chemical reaction that produces garlic's characteristic smell.
+
+**Critical preparation technique for maximum medicinal benefit**:
+
+1. **Crush or chop** the garlic cloves to rupture cell walls and bring alliin into contact with alliinase.
+2. **Wait 10 minutes** before cooking or consuming. This allows the alliinase enzyme to complete the conversion of alliin to allicin. Peak allicin formation occurs 6-10 minutes after cell damage.
+3. **Heat destroys alliinase**. If cooking garlic, the 10-minute rest period allows allicin to form before heat deactivates the enzyme. Once formed, allicin is moderately heat-stable but degrades above 60°C.
+4. **Raw or pre-activated garlic** is most medicinal. Cooking reduces allicin content by 30-90% depending on method and duration. Microwave cooking destroys the most allicin; slow oven heating destroys the least.
+
+For medicinal use (antibacterial, antiviral, cardiovascular benefit), consume 1-2 raw crushed cloves daily, rested for 10 minutes. Allicin is most effective when consumed within 1 hour of crushing — potency declines as allicin breaks down into other thiosulfinates.
+
+#### Oil Extraction
+
+Garlic-infused oil extracts lipid-soluble sulfur compounds for topical use (antiseptic wound dressing, ear infections) and culinary flavoring:
+
+1. Peel and crush 5-10 garlic cloves.
+2. Place in a clean glass jar and cover with a neutral oil (olive, sesame, or sunflower).
+3. Seal and steep at room temperature for 1-2 weeks, shaking daily.
+4. Strain through cloth into a clean jar. Discard the garlic solids.
+5. Store in a cool, dark place. Shelf life: 1-2 months.
+
+**Caution**: Garlic-in-oil preparations carry a botulism risk (*Clostridium botulinum* grows in anaerobic oil environments at room temperature). For safety, acidify the garlic (soak in vinegar for 24 hours before infusing), refrigerate the finished oil, and use within 1 week. Alternatively, make small fresh batches rather than storing.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Allicin content (fresh crushed clove) | 2.5-4.5 mg/g | Peak after 6-10 min rest |
+| Alliinase deactivation temperature | >60°C | Heat destroys enzyme |
+| Curing temperature | 25-35°C | Warm, dry, good airflow |
+| Curing duration | 2-3 weeks | Until wrappers papery |
+| Storage temperature | 0-4°C | Cool; avoid refrigeration below 0°C |
+| Storage humidity | 60-70% RH | Higher humidity promotes mold |
+| Storage life (cured bulbs) | 6-8 months | Cool, dark, dry, ventilated |
+| Cloves per bulb | 6-20 | Varies by variety |
+| Days to harvest | 90-120 | From planting |
+| Yield per hectare | 5,000-15,000 kg fresh bulbs | Varies by variety and inputs |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)
@@ -105,7 +163,16 @@ Juice from the bulb repels insects, though its powerful smell is noted as a draw
 
 ### Storage
 
-Dry seeds thoroughly to below 14% moisture content before storage. Spread in thin layers on drying racks in full sun, stirring periodically. Test dryness by biting: properly dried seeds crack rather than dent. Store in airtight containers (ceramic jars with tight lids, sealed woven bags) in a cool, dry, dark location. Protect from rodents and insects with tight lids or by mixing with inert ash. Under good conditions, dried grains and legumes store for 1-5 years with minimal loss.
+**Cured whole bulbs** store for 6-8 months at 0-4°C, 60-70% relative humidity, in darkness with gentle ventilation. Do not refrigerate below 0°C (freezing damages cell structure and promotes sprouting upon thawing). Do not store in sealed plastic bags — trapped moisture causes rot. Open-weave baskets, mesh bags, or braided strings hung in a cool pantry are ideal.
+
+**Key storage rules**:
+- Cool temperature (0-4°C) suppresses sprouting. At room temperature (20-25°C), bulbs sprout within 1-2 months.
+- Moderate humidity (60-70%). Too dry — cloves desiccate and become rubbery. Too humid — mold and root growth.
+- Darkness. Light promotes greening (chlorophyll formation in the sprout) and bitter flavor.
+- Ventilation. Stagnant air accumulates moisture and promotes fungal growth.
+- Never store peeled garlic in oil at room temperature (botulism risk).
+
+**Storage longevity by type**: Softneck varieties store longer (6-8 months) than hardneck varieties (3-5 months). Elephant garlic stores 3-4 months. Silverskin and Creole types are the longest-storing softnecks.
 
 ### Material Handling
 

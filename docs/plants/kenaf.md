@@ -76,6 +76,55 @@ A herb. It can grow from seed each year or keep growing from year to year. It gr
 
 ### Edible Parts and Preparation
 
+Young leaves are cooked as a potherb or added to soups and stews. They have an acid, sorrel-like flavour and are rich in iron (12.1 mg/100g) and vitamin A. Harvest young leaves before the plant reaches full height for the most tender greens. Older leaves become tough and increasingly acidic. In African and Asian cuisines, kenaf leaves are a common cooked vegetable, similar to jute leaves (molokhia). Seeds are roasted or ground into flour for cakes. The seed contains 18-35% semi-drying oil used for cooking, lamp fuel, soap making, and varnish production.
+
+### Harvesting for Fiber
+
+1. **Timing**: Cut stems at approximately 50% bloom stage, typically 120-150 days after planting. At this point fiber strength peaks and the pectin content is optimal for retting. Harvesting too early produces weak, underdeveloped fiber; too late and the fiber becomes coarse and woody.
+2. **Method**: Cut stems at ground level with a sickle or machete. For maximum fiber length (especially from the base of the stems), hand-pulling is preferred over cutting — the root crown yields the longest, finest fibers. Kenaf grows 2-3.5 m tall at harvest, producing stems 1.5-3 cm in diameter.
+3. **Yield**: Average dry fiber yield is approximately 1,250 kg/ha, with yields up to 2,700 kg/ha under optimal tropical conditions (e.g., Cuba). Whole stalk dry biomass reaches 5,000-15,000 kg/ha.
+
+### Retting
+
+Retting separates the bast fibers from the woody core (shive) by microbial decomposition of pectins:
+
+1. Bundle harvested stalks in handful-sized sheaves (12-15 cm diameter).
+2. **Water retting** (preferred for quality): Submerge bundles in a pond, slow river, or retting tank for 5-15 days at 20-30°C. Warm water rets faster — at 25-30°C, 5-8 days is typical; at 15-20°C, allow 10-15 days. Anaerobic bacteria break down pectins binding fiber to woody core. Test readiness by snapping a stalk — fibers should separate cleanly from the shive without pulling.
+3. **Dew retting** (lower infrastructure): Spread stalks thinly on grass field, turn every 2-3 days. Takes 3-5 weeks depending on rainfall and temperature. Produces coarser, darker fiber but requires no water infrastructure.
+4. Do not over-ret: fibers weaken significantly if left too long. Check every 2 days once retting is underway.
+
+### Decortication and Fiber Separation
+
+After retting, the stalks must be processed to extract clean fiber:
+
+1. **Breaking**: Pass dried, retted stalks through a flax break or crush with a wooden mallet. This shatters the brittle woody shive while leaving flexible fiber bundles intact.
+2. **Scutching**: Beat the broken stalks against a flat wooden blade to knock loose shive fragments. Approximately 20-25% of retted stalk weight becomes clean fiber.
+3. **Hackling**: Draw fiber through graduated combs (coarse to fine) to remove remaining shive, align fibers, and separate long line fiber from short tow. Kenaf line fiber: 1.5-3 m long. Tow fiber (short): 5-15 cm, suitable for sacking and paper.
+4. For coarse applications (rope, sacking), mechanical decortication of green (unretted) stalks bypasses retting entirely. Crush green stalks between fluted rollers, then scrape away woody core. Produces coarser fiber but saves 2-4 weeks of retting time.
+
+### Paper Making
+
+Kenaf is one of the most productive non-wood paper pulp sources, yielding 3-5 times more fiber per hectare than Southern pine:
+
+1. **Whole stalk pulping**: Chip entire dried stalks (bark + woody core) into 2-3 cm pieces. The whole stalk can be pulped, though bark and core have different fiber characteristics.
+2. **Kraft process** (chemical pulping): Cook chips in a solution of sodium hydroxide (NaOH) and sodium sulfide (Na₂S) at 160-170°C for 2-3 hours under pressure in a sealed vessel. This dissolves the lignin binding the fibers together, leaving cellulose fibers intact. The kraft process produces strong paper with good tear resistance. The dark brown kraft pulp can be bleached with sequential chlorine-free treatments (oxygen, hydrogen peroxide) for white paper.
+3. **Soda process** (simpler alternative): Cook chips in 10-18% sodium hydroxide solution at 160°C for 2-3 hours. Simpler chemistry than kraft (no sodium sulfide needed). Produces slightly weaker pulp but adequate for most paper and cardboard applications.
+4. **Mechanical pulping** (lowest technology): Grind cooked chips between stone or metal plates. Retains most lignin, producing lower-quality paper that yellows with age. Suitable for newsprint and cardboard.
+5. **Yield**: Kenaf produces 40-50% pulp by dry weight (whole stalk). The bark portion yields 60-70% long-fiber pulp suitable for writing and printing paper; the core yields 30-40% short-fiber pulp suitable for cardboard and filler.
+
+### Kenaf Fiber Properties
+
+| Property | Value | Notes |
+|----------|-------|-------|
+| Fiber bundle length | 1.5-3.0 m | Long bast fiber, similar to jute |
+| Individual fiber cell length | 2-6 mm | |
+| Tensile strength | 400-600 MPa | Fiber bundle; slightly coarser than jute |
+| Density | 1.2-1.4 g/cm³ | |
+| Cellulose content | 45-60% | Dry fiber weight |
+| Lignin content | 8-15% | Lower than many bast fibers |
+| Color | Light tan to pale gold | When properly retted |
+| Moisture regain | 10-12% | At 65% relative humidity |
+
 ## Quantitative Parameters
 
 ### Nutritional Composition (per 100g)

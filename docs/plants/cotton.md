@@ -76,6 +76,67 @@ An annual herb. It grows 0.6-1.5 cm high. The leaf blade has 3 lobes. The leaf b
 
 ### Edible Parts and Preparation
 
+### Fiber Harvesting
+
+Cotton is unique among major fiber crops: the fiber grows as seed hairs (lint) attached to the seed inside the boll, requiring no retting or decortication. Harvest timing and method determine fiber quality and yield.
+
+**Hand-picking**: The traditional method and still preferred for long-staple and extra-long-staple cotton. Pickers walk the rows, pulling open bolls by hand. Each boll contains 3-4 locks (seed cotton clusters). A skilled picker harvests 20-50 kg of seed cotton per day. Hand-picking preserves fiber length because the picker selects only fully opened bolls, avoiding immature fiber and leaf trash. Multiple passes through the field are required as bolls open progressively over 4-6 weeks.
+
+**Mechanical spindle picking**: At higher technology levels, spindle-type mechanical pickers rotate barbed spindles through the open bolls, twisting the seed cotton onto the spindle. Each spindle harvests one boll. Throughput: 500-800 kg seed cotton per hour per machine row unit. Mechanical picking introduces more trash (leaves, stems, boll fragments) into the seed cotton, requiring more aggressive cleaning downstream. Spindle pickers work best with varieties bred for compact, uniform boll placement.
+
+Regardless of method, harvest seed cotton when bolls are fully open and fiber is dry (moisture below 12%). Wet cotton stains and degrades rapidly. Pick into baskets or sacks and transport to the gin within 24-48 hours to prevent heating and fungal growth.
+
+### Ginning
+
+Ginning separates cotton fiber (lint) from the seed. This is the critical processing bottleneck: unginned seed cotton is ~55-65% seed by weight and unusable as textile fiber.
+
+**Saw gin** (for upland/short-staple cotton, staple length 22-28 mm): Seed cotton is fed into a chamber where rotating circular saws (40-90 saws, 30-40 cm diameter, 8-12 teeth per cm) pull fiber through narrow ribs (slots 2.0-2.5 mm wide). The lint passes through but the seeds — too large for the slots — are caught and ejected by a brush cylinder. Saw ginning is fast (processes 500-1,000 kg seed cotton/hour for a 60-saw gin) but breaks some fibers, reducing staple length by 1-3 mm. Gin turnout: 30-42% lint by weight. The remainder is cottonseed (pressed for oil) and trash (motes, leaf fragments).
+
+**Roller gin** (for long-staple and extra-long-staple cotton, staple length 30-38 mm): A leather-covered roller rotates against a stationary blade or "doctor knife." Seed cotton feeds between roller and blade — the roller grips the fiber and carries it over the blade while the seeds, held by the blade, separate cleanly. Roller ginning preserves fiber length far better than saw ginning (staple loss <1 mm) and produces less neps (small tangled fiber knots). Throughput is lower: 100-200 kg seed cotton/hour. Essential for Pima/Egyptian cotton (*G. barbadense*) where fiber length is the primary quality attribute.
+
+**Hand ginning**: Before mechanized gins, fiber was separated by pulling seeds through the fingers or rolling them between a wooden roller and a flat stone. Throughput: ~500 g lint/hour — extremely slow but sufficient for household textile production.
+
+### Spinning Preparation
+
+After ginning, the lint undergoes several stages before it is ready for spinning:
+
+1. **Bale opening and blending**: Mix lint from multiple bales to average quality variations. Pull apart compressed bales by hand or with bale breakers.
+2. **Carding**: Pass the opened lint across a cylinder covered with fine wire teeth (card clothing) rotating at 150-300 rpm. The teeth individualize fibers, remove remaining trash and short fibers, and align fibers roughly parallel. Output: a thin web of fibers condensed into a rope-like "sliver" (2-4 g/m). Carding removes 3-8% of input weight as waste (short fibers, trash, neps).
+3. **Drawing**: Pass 6-8 card slivers through pairs of rollers running at increasing speeds. This blends and parallels fibers, evening out thickness variations. Repeat 2-4 passages (draw frames). Each passage reduces sliver irregularity by roughly half.
+4. **Roving**: Attenuate the drawn sliver to a thinner strand (roving, 0.3-1.0 g/m) and insert a small amount of twist (1-2 turns per cm) for cohesion. This is the immediate precursor to spinning.
+
+These preparation stages determine yarn quality. Poor carding leaves trash and neps in the yarn. Insufficient drawing produces uneven yarn with thick and thin spots. At the bootstrap technology level, hand carding with wire brushes or even teasel (dried thistle heads) produces acceptable results for coarse cloth.
+
+### Cottonseed Oil Pressing
+
+The seed byproduct from ginning is a valuable dual-use material:
+
+1. **Delinting**: Remove residual short fibers (linters) from seeds using a second saw gin pass or acid delinting. Linters are used for mattress stuffing, paper pulp, and cellulose nitrate production.
+2. **Dehulling**: Crack seed hulls between rollers and separate kernels from hulls by air aspiration. Hulls constitute 40-45% of seed weight and are used as roughage in animal feed or boiler fuel.
+3. **Flaking**: Roll dehulled kernels (meats) into thin flakes (0.2-0.4 mm) to rupture cell walls and increase surface area for oil extraction.
+4. **Pressing**: Feed flakes into a screw press (expeller) at 75-85°C. The screw compresses flakes against a perforated barrel, squeezing oil through the barrel slits. Cottonseed contains 19-24% oil by weight. A single pressing extracts 60-70% of available oil; a second pressing of the cake recovers another 10-15%. Expeller cake (remaining after pressing) contains 35-45% protein and is used as animal feed.
+5. **Refining**: Crude cottonseed oil contains gossypol (a yellow polyphenolic pigment, toxic at high doses) and free fatty acids. Heat to 80-90°C with sodium hydroxide solution (alkali refining) to precipitate gossypol as soapstock. Bleach with activated clay. The refined oil is pale yellow, neutral-flavored, and suitable for cooking.
+
+Cottonseed oil yields: 150-250 liters per tonne of seed. At a gin turnout of 35% lint, one hectare producing 2,000 kg seed cotton yields approximately 1,300 kg cottonseed → 250-320 liters oil.
+
+### Process Parameters
+
+| Parameter | Range | Notes |
+|-----------|-------|-------|
+| Lint yield | 500-2,000 kg/ha | Depends on variety, irrigation, management |
+| Gin turnout (saw gin) | 30-42% lint by weight | Upland cotton |
+| Gin turnout (roller gin) | 32-38% lint by weight | Long-staple cotton |
+| Seed cotton moisture at harvest | <12% | Above 12% causes staining and heating |
+| Cottonseed oil content | 19-24% by weight | In dehulled kernels |
+| Screw press temperature | 75-85°C | Higher temperatures extract more oil but degrade quality |
+| Oil yield per tonne seed | 150-250 liters | Single pressing with screw press |
+| Fiber staple length (upland) | 22-28 mm | *G. hirsutum* |
+| Fiber staple length (Pima) | 33-38 mm | *G. barbadense* |
+| Hand-picking rate | 20-50 kg seed cotton/person/day | Skilled picker |
+| Saw gin throughput | 500-1,000 kg seed cotton/hour | 60-saw gin |
+| Carding waste | 3-8% of lint weight | Short fibers, trash, neps |
+| Growing season | 150-220 frost-free days | Below 15°C growth stops |
+
 ## Quantitative Parameters
 
 ### Growing Parameters

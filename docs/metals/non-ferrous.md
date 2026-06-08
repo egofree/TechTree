@@ -17,6 +17,8 @@ These six non-ferrous metals collectively enable galvanizing, battery storage, e
 
 ![U.S. Navy color chart. Ferrous and non-ferrous metals](../images/metals/metals_non-ferrous.jpg)
 
+> *U.S. Navy color chart. Ferrous and non-ferrous metals*
+
 > *Image: Unknown authorUnknown author or not provided, Public domain*
 
 - [Acids](../chemistry/acids.md) — acid leaching for ore processing

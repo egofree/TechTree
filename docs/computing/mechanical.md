@@ -15,6 +15,8 @@ Engineering, navigation, ballistics, and bookkeeping all require arithmetic — 
 
 ![Migration mechanism of IseG Suggested by Deng et al. after quantum mechanical and molecular mechanical calculations](../images/computing/computing_mechanical.jpg)
 
+> *Migration mechanism of IseG Suggested by Deng et al. after quantum mechanical and molecular mechanical calculations.*
+
 > *Image: Wen-Hao Deng, You Lu, Rong-Zhen Liao, CC BY-SA 4.0*
 
 - [Machine tools](../machine-tools/index.md) — precision gear cutting, milling, and turning for mechanisms

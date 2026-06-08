@@ -12,6 +12,8 @@
 
 ![Grape](../images/plants/plants_grape.jpeg)
 
+> *A diagram of a grape cluster*
+
 > *Image: Викидим, CC BY-SA 4.0*
 
 Grape

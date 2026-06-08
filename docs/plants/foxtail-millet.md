@@ -12,6 +12,8 @@
 
 ![Foxtail Millet](../images/plants/plants_foxtail-millet.jpg)
 
+> *A BOWL OF FOXTAIL MILLET CONGEE*
+
 > *Image: Dinkun Chen, CC BY-SA 4.0*
 
 Foxtail Millet

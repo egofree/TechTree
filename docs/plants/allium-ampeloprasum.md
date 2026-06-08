@@ -12,6 +12,8 @@
 
 ![Allium ampeloprasum](../images/plants/plants_allium-ampeloprasum.jpg)
 
+> *Spilostethus pandurus (Hemiptera:Lygaeidae) sobre Allium ampeloprasum (Amaryllidaceae). Madrid, barrio de Peñagrande.*
+
 > *Image: Luis Fernández García, CC BY-SA 4.0*
 
 Allium ampeloprasum is a member of the onion genus Allium . The wild plant is commonly known as wild leek or broadleaf wild leek . Its native range includes southern Europe, southwestern Asia and North Africa, but it has been cultivated and naturalized in many other countries

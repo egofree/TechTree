@@ -12,6 +12,8 @@
 
 ![English Oak](../images/plants/plants_quercus-robur.jpg)
 
+> *Ternary diagram plotting the shape of live oak trees based upon crown spread, girth and height*
+
 > *Image: Edfrank01, CC BY-SA 3.0*
 
 English oak (*Quercus robur*) is the most important timber tree of European history. Its wood built the ships that explored and traded across every ocean, the barrels that stored wine, beer, and provisions on long voyages, the beams that held up cathedrals, and the tannin bark that turned animal hides into durable leather. No other single tree species has contributed as many essential materials to the development of Western technology.

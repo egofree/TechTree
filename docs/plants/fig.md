@@ -12,6 +12,8 @@
 
 ![Fig](../images/plants/plants_fig.jpg)
 
+> *Fig 28 Diagram showing the similarity of configuration of the Bedford stream channels*
+
 > *Image: Pepper, James F., Wallace De Witt, JR., and David F. Demarest, Public domain*
 
 Fig

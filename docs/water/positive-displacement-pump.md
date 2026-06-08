@@ -12,6 +12,8 @@
 
 ![Lantern Slide - Tangyes Ltd, "Special" Steam Operated Positive Displacement Pump Advertisement, circa 1910](../images/water/water_positive-displacement-pump.jpg)
 
+> *Tangye "Special" steam operated positive displacement pump. Copy of advertisement.*
+
 > *Image: Unknown authorUnknown author, Public domain*
 
 A positive-displacement (PD) pump moves fluid by trapping a fixed volume in a chamber and mechanically forcing that volume into the discharge pipe. Unlike a [centrifugal pump](centrifugal-pump.md), flow is (nearly) independent of discharge pressure — the pump delivers the same volume per cycle regardless of system resistance. PD pumps are essential for specific applications: chemical dosing, deep-well lifting, viscous fluids, high-pressure low-flow metering, and any situation where the pump must self-prime.

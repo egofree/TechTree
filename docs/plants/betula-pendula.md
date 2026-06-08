@@ -12,6 +12,8 @@
 
 ![Silver Birch](../images/plants/plants_betula-pendula.jpg)
 
+> *Silver birch trunks (Betula pendula) the day after the first snow in Brastad, Lysekil Municipality, Sweden.*
+
 > *Image: W.carter, CC BY-SA 4.0*
 
 Silver birch (*Betula pendula*) is a pioneer tree species of northern Eurasia, found from Britain to Siberia and from Scandinavia to the Mediterranean mountains. It is the first tree to colonize cleared land and burned areas, growing rapidly to 15-25 meters tall with a lifespan of 60 to 90 years. Birch wood is pale, fine-grained, and takes an excellent finish, making it suitable for plywood, turned items (bobbins, tool handles), and furniture.

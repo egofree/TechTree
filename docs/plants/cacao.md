@@ -12,6 +12,8 @@
 
 ![Cacao](../images/plants/plants_cacao.jpg)
 
+> *Theobroma cacao*
+
 > *Image: Nativeplants garden, CC BY-SA 4.0*
 
 Cacao

@@ -12,6 +12,8 @@
 
 ![Wheat](../images/plants/plants_wheat.jpg)
 
+> *Wheat field near Israeli moshav*
+
 > *Image: Davidbena, CC BY-SA 4.0*
 
 Wheat

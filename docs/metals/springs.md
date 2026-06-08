@@ -12,6 +12,8 @@
 
 ![High Point, North Carolina - Upholstering. Tomlinson Chair Manufacturing Co. Spring edge - sofa - trying springs](../images/metals/metals_springs.jpg)
 
+> *High Point, North Carolina - Upholstering. Tomlinson Chair Manufacturing Co. Spring edge - sofa - trying springs*
+
 > *Image: Lewis Hine, Public domain*
 
 Springs store mechanical energy through elastic deformation and release it on demand. Every mechanism of industrial civilization depends on them: valve springs in steam engines and internal combustion engines, suspension springs in rail vehicles and road vehicles, return springs in locks and latches, contact springs in electrical switches, and measuring springs in instruments and gauges. Without springs, valves do not close, suspensions do not absorb shock, and electrical contacts do not maintain pressure.

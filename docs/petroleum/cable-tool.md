@@ -12,6 +12,8 @@
 
 ![C39 well drilled by cable tool oil drilling rig](../images/petroleum/petroleum_cable-tool.jpg)
 
+> *C39 well drilled by cable tool oil drilling rig*
+
 > *Image: Abasaa, Public domain*
 
 Percussion drilling using a heavy steel bit repeatedly lifted and dropped onto the rock. Depth range 50-1,500 m, penetration rate 0.5-10 m/day. Requires steam engine or animal power for the walking beam. Used for the first commercial oil wells (Titusville, 1859).

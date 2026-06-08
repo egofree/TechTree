@@ -12,6 +12,8 @@
 
 ![Madder](../images/plants/plants_rubia-tinctorum.jpg)
 
+> *Using natural dyes to color the yarn of Tasar silk.*
+
 > *Image: Sailesh Patnaik, CC BY-SA 4.0*
 
 Madder (*Rubia tinctorum*) is a perennial climbing plant whose roots produce alizarin, the most important red dye in history. For over 5,000 years, from ancient Egypt through the Industrial Revolution, madder root was the primary source of stable, permanent red colorant across Europe, the Middle East, and Asia. The British Army's iconic red coats were dyed with madder until the invention of synthetic alizarin in 1868.

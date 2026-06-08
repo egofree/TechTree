@@ -12,6 +12,8 @@
 
 ![Multi-effect Vacuum Evaporator Manufacturing Process in YASA ET Factory](../images/chemistry/chemistry_evaporator.jpg)
 
+> *The manufacturing process of EVADEST Multi-effect Vacuum Evaporator in YASA ET Factory*
+
 > *Image: Filosig, CC BY-SA 4.0*
 
 An evaporator concentrates a liquid solution by boiling off the solvent (typically water) as vapor, leaving the dissolved solids behind in a more concentrated liquid. Unlike distillation, which separates components by boiling point differences, evaporation simply removes bulk solvent to reduce volume, increase concentration, or recover purified solvent. The driving force is heat input that supplies the latent heat of vaporization (2,260 kJ/kg for water at 100°C).

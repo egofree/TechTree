@@ -12,6 +12,8 @@
 
 ![Coffee](../images/plants/plants_coffee.jpg)
 
+> *Simple diagram of a coffee percolator*
+
 > *Image: Original file: UnknownFerretRussian translation:Atorero, CC BY-SA 3.0*
 
 Coffee

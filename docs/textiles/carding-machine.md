@@ -12,6 +12,8 @@
 
 ![Carding Machine Branch](../images/textiles/textiles_carding-machine.jpg)
 
+> *Carding Machine Branch (natural watercourse in Wise County, Virginia, United States of America)*
+
 > *Image: JBTHEMILKER, CC BY-SA 4.0*
 
 A carding machine aligns textile fibers from a tangled mass into a parallel sheet (batt) using rotating drums covered in card clothing — stiff wire teeth set in a flexible backing. The machine uses two drums: a large main cylinder (20-40 cm diameter) covered with fine wire teeth rotating at 100-200 rpm, and a smaller licker-in roller (10-15 cm diameter) rotating at 300-600 rpm that feeds fiber onto the main cylinder. A doffer roller (15-25 cm diameter) running opposite to the main cylinder strips the carded batt off.

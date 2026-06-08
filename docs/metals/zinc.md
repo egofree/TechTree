@@ -19,6 +19,8 @@ The bootstrap chain runs: zinc enables galvanized steel → long-life infrastruc
 
 ![World: Zinc Production, 1946](../images/metals/metals_zinc.jpg)
 
+> *Metal Content of Ore.*
+
 > *Image: Central Intelligence Agency, Public domain*
 
 - **Materials**: [Sphalerite ore](../mining/extraction.md) (ZnS, 3-12% Zn grade), [coke or charcoal](../energy/charcoal.md) for reduction, [sulfuric acid](../chemistry/acids.md) for leaching (electrolytic route), [limestone](../ceramics/lime.md) for pH control in flotation, [copper sulfate](../chemistry/index.md) as flotation activator

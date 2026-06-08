@@ -17,6 +17,8 @@ For bronze alloying, see [Bronze Production](bronze.md).
 
 ![World: Copper Production, 1946](../images/metals/metals_copper.jpg)
 
+> *Metal Content of Ore.*
+
 > *Image: Central Intelligence Agency, Public domain*
 
 - [Fire management](../foundations/fire.md) — controlled combustion for furnace operation

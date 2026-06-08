@@ -14,6 +14,8 @@ Steam turbines replace reciprocating engines for power generation by converting 
 
 ![Workers with steam turbines in Tampa, Florida (9401749096)](../images/energy/energy_steam-power_steam-turbines.jpg)
 
+> *Persistent URL: http://www.floridamemory.com/items/show/165692 Local call number: PHF394 Title: Workers with steam turbines in Tampa, Florida Date: ca. 1919 Series Title: http://www.floridamemory.com/photographiccollection/collections/?id=12 Physical descrip: 1 photoprint - b&amp;w - 10 x 8 in. Repository: http://www.floridamemory.com/, 500 S. Bronough St., Tallahassee, FL 32399-0250 USA. Contact: 850.245.6700. Archives@dos.myflorida.com*
+
 > *Image: State Library and Archives of Florida, Public domain*
 
 **Principle**: Steam expands entirely through stationary nozzles, converting pressure energy into kinetic energy (high-velocity jet). The jet impinges on bucket-shaped blades on the rotor. All pressure drop occurs at the nozzle — the rotor blades experience only the impulse (momentum transfer) of the jet. No pressure drop across the moving blades; the rotor casing operates at essentially atmospheric pressure.

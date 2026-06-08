@@ -31,6 +31,8 @@ The species *Apis mellifera* (Western honey bee) is the primary managed bee worl
 
 ![Apiculture, ruche, planche - Beekeeping, beehives, historical, in France, plate with line drawings etc. - Public domain illustration from Larousse du XXème siècle 1932](../images/animals/animals_beekeeping.jpg)
 
+> *Apiculture, ruche, planche - Beekeeping, beehives, historical, in France, plate with line drawings etc. - Public domain illustration from Larousse du XXème siècle 1932Éditions Larousse is a French publishing house specialising in reference works such as dictionaries. It was founded by Pierre Larousse and its best-known work is the Petit Larousse.*
+
 > *Image: EN NOIR &amp; BLANC, CC0*
 
 | Requirement | Source | Notes |

@@ -15,6 +15,8 @@ Rope is the universal load-bearing element of pre-industrial and early industria
 
 ![Thurston, the famous magician; (East Indian rope-trick : world's most famous illusion : first time-out-of-India.)](../images/textiles/textiles_rope-making.jpg)
 
+> *Poster advertising Thurston, the magician's reproduction of the (mythical) East Indian rope-trick. It claims that it's the first time out of India, though the truth value of early twentieth-century theatrical posters isn't always 100%.*
+
 > *Image: Adam Cuerden, Public domain*
 
 - [Fiber Preparation](fibers.md) — prepared fibers for rope making

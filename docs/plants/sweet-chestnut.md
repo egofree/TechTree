@@ -12,6 +12,8 @@
 
 ![Sweet Chestnut](../images/plants/plants_sweet-chestnut.jpg)
 
+> *National Trust managed coppiced Sweet Chestnut woodland at Hindhead Common showing semi-mature sapplings that have sprouted from stumps (or stools) of trees that were felled several years previously. The sapplings, which are pole-like compared to the original tree provide a sustainable source of timber that can be used for poles and the like.*
+
 > *Image: Martinvl, CC BY-SA 4.0*
 
 Sweet Chestnut

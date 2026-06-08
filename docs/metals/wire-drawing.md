@@ -12,6 +12,8 @@
 
 ![Jewish factories in Palestine on Plain of Sharon & along the coast to Haifa. Petah-Tikvah. Wire drawing & nail factory. 'Barzelit,' Ltd. Electric welding of wire in process of drawing LOC matpc.19476](../images/metals/metals_wire-drawing.jpg)
 
+> *Title: Jewish factories in Palestine on Plain of Sharon &amp; along the coast to Haifa. Petah-Tikvah. Wire drawing &amp; nail factory. "Barzelit," Ltd. Electric welding of wire in process of drawing Abstract/medium: G. Eric and Edith Matson Photograph Collection Physical description: 1 negative :*
+
 > *Image: Matson Collection, Public domain*
 
 Drawing metal rod through progressively smaller dies to reduce the diameter and increase the length of wire. Wire drawing is the process that converts rolled rod stock (typically 5-12 mm diameter) into wire of any specified gauge, down to fine wire below 0.1 mm for electronics and magnet winding applications.

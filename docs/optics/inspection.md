@@ -15,6 +15,8 @@ Manufacturing precision components requires verifying that surfaces, dimensions,
 
 ![OCI Rotating Telescope Optical Inspection (GSFC 20210826 PACE 86491)](../images/optics/optics_inspection.jpg)
 
+> *Mechanical technician, Andrew Scharmann, installs a shim and inspects an optic on the Ocean Color Instrument (OCI) rotating telescope prior to integrating other hardware and optical components. OCI is a highly advanced optical spectrometer that will be used to measure properties of light over portions of the electromagnetic spectrum. It will enable continuous measurement of light at finer wavelength resolution than previous NASA satellite sensors, extending key system ocean color data records for climate studies. OCI is PACE's (Plankton, Aerosol, Cloud, ocean Ecosystem) primary sensor built at Goddard Space Flight Center in Greenbelt, MD.*
+
 > *Image: NASA Goddard Space Flight Center / Denny Henry/NASA, Public domain*
 
 - [Glass production](../glass/index.md) — optical glass blanks for lenses and flats

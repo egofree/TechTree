@@ -16,6 +16,8 @@ This article covers the bootstrap sequence for producing both capabilities from 
 
 ![С2-10-1W individually-trimmed precision resistors (Erkon)](../images/machine-tools/machine-tools_bearings-abrasives.jpg)
 
+> *С2-10-1W individually-trimmed precision resistors (Erkon). Each was physically scraped to fit the specs (see yellowish scrape marks right on the red cylinders)*
+
 > *Image: Retired electrician, CC0*
 
 Machine tool precision depends on a feedback loop between bearings and abrasives:

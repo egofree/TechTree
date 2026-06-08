@@ -12,6 +12,8 @@
 
 ![Gas Compressor Station - geograph.org.uk - 279974](../images/gas-handling/gas-handling_compressor.jpg)
 
+> *Gas Compressor Station The National Grid Cambridge gas compressor station near Duxford*
+
 > *Image: Steve F, CC BY-SA 2.0*
 
 - [Iron & Steel](../metals/iron-steel.md) — cast iron for cylinder blocks, forged steel for crankshafts and connecting rods

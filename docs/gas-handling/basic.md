@@ -12,6 +12,8 @@
 
 ![Army Basic Training- Gas Chamber (Episode 5) 2G63uJgr92g](../images/gas-handling/gas-handling_basic.jpg)
 
+> *#YourFutureStartsHere: Gas Chamber One of the biggest fears applicants have is their ability to succeed at Basic Combat Training. It's important for new trainees to remember that the #USArmy wants them to succeed. It's not meant to be easy. It's designed to be challenging. In this episode, US Army Recruiting Command (USAREC) Recruiter Staff Sgt. Archie Masibay takes us through the Gas Chamber. This exercise is meant to give the trainees confidence in themselves and their equipment.*
+
 > *Image: The U.S. Army, CC BY 3.0*
 
 **Piping, valves, pumps**:

@@ -12,6 +12,8 @@
 
 ![Agave](../images/plants/plants_agave.jpg)
 
+> *Agave applanata. Nombre común: maguey de Castilla.*
+
 > *Image: Juan Carlos Fonseca Mata, CC BY-SA 4.0*
 
 Agave

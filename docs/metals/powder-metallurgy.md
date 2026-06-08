@@ -17,6 +17,8 @@ The technology chain runs from powder production → blending → compaction →
 
 ![Centrifugal atomization schematic](../images/metals/metals_powder-metallurgy.jpg)
 
+> *Schematic for centrifugal atomization*
+
 > *Image: R. A. Freitas Jr. and W. P. Gilbreath, Public domain*
 
 - [Alloys](alloys.md) — alloy design, phase diagrams, heat treatment fundamentals

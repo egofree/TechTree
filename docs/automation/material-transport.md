@@ -15,6 +15,8 @@ A 300 mm semiconductor fab processes 40,000-100,000 wafers per month. Each wafer
 
 ![Sapporo Fire Bureau Material Transport Car](../images/automation/automation_material-transport.jpg)
 
+> *Sapporo Fire Bureau Material Transport Car*
+
 > *Image: Triangle-Heart, CC BY-SA 4.0*
 
 - [Equipment Communication](equipment-communication.md) — SECS/GEM protocol for tool coordination and FOUP tracking

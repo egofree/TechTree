@@ -12,6 +12,8 @@
 
 ![Agricultural libraries information notes](../images/knowledge/knowledge_libraries.jpg)
 
+> *Has supplement for internal distribution only NAL holdings: v.1,no.1- Jan.1975- Subjects: Agricultural libraries Periodicals; Agriculture United States Information services Periodicals; Agriculture Bibliography Periodicals*
+
 > *Image: National Agricultural Library (U.S.), Public domain*
 
 - **Materials**: Paper, ink, binding materials from [Printing](printing.md); shelving lumber (oak, ash) or steel angle-iron; acid-free folders and boxes for archival storage

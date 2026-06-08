@@ -12,6 +12,8 @@
 
 ![Walnut](../images/plants/plants_walnut.jpg)
 
+> *Blooming walnut (Juglans regia)*
+
 > *Image: Ввласенко, CC BY-SA 3.0*
 
 Walnut

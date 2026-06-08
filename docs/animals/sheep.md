@@ -28,6 +28,8 @@ Sheep are particularly valuable in early-stage agriculture because they graze cl
 
 ![Bovidae Ovis aries (Ouessant Sheep) 1](../images/animals/animals_sheep.jpg)
 
+> *Ovis aries SHEEP (Ouessant Sheep). Wildpark Schwentinental.*
+
 > *Image: NasserHalaweh, CC BY-SA 4.0*
 
 | Requirement | Source | Notes |

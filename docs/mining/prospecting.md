@@ -14,6 +14,8 @@ Prospecting locates ore deposits and evaluates their economic potential before c
 
 ![2025-04-28 Iberian Peninsula blackout – frequency measurement](../images/mining/mining_prospecting.jpg)
 
+> *Frequency measurement and corresponding ROCOF values shortly before the Iberian Blackout 2025-04-28 (5 cycle average); the green dashed lines show the settings for the load shedding scheme of the system protection plan; the dashed blue line indicates a short-term ROCOF value of ~3,5/s Hz whereas an 500 ms average as in the immunity requirements of EN 50549 accounts for 1,5 Hz/s*
+
 > *Image: Luis Badesa, Associate Professor at UPM, Madrid, CC0*
 
 - [Writing & Record-Keeping](../knowledge/writing.md) — recording sample locations and assay results

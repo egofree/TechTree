@@ -12,6 +12,8 @@
 
 ![First cleanroom diagram](../images/photolithography/photolithography_cleanrooms.jpg)
 
+> *Un diagram del primer cuarto limpio the Willis Whitfield. La patente fue archivada en 1962.*
+
 > *Image: CleanroomKnowItAll, CC BY-SA 4.0*
 
 Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill an entire chip. Cleanroom class determines minimum feature size achievable: Class 1000 (ISO 6) for >5 μm features, Class 100 (ISO 5) for 1-5 μm, Class 10 (ISO 4) for sub-micron.

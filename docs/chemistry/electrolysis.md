@@ -12,6 +12,8 @@
 
 ![AEM water electrolysis working principle with HER and OER](../images/chemistry/chemistry_electrolysis.png)
 
+> *AEM water electrolysis working principle with HER and OER*
+
 > *Image: Kavin Teenakul, CC BY-SA 4.0*
 
 **[Chlor-alkali process](../glossary/chlor-alkali-process.md)** (most important industrial electrolysis):

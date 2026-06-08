@@ -22,6 +22,8 @@ The jump from earthenware to technical ceramics requires:
 
 ![Advanced sic board](../images/ceramics/ceramics_advanced-ceramics.jpg)
 
+> *Sic/silicon carbide products/sic/silicon carbide slab/sic/silicon carbide kiln furniture/sic plate/silicon carbide slab/ can offer good heat stability, high mechanical strength at high temperature, excellent thermal stability and distortion resistance at high temperature. Sic/silicon carbide products/sic/silicon carbide slab/sic/silicon carbide kiln furniture/sic plate/silicon carbide slab/ can be used in daily ceramics widely, such as reinforced ceramics, white ceramic and high-class ceramics. Through the burning of 1400℃, its products can offer mild, bright and white enamel feeling, Sic/silicon carbide products/sic/silicon carbide slab/sic/silicon carbide kiln furniture/sic plate/silicon carbide slab/ can save the energy and increase the volume of kiln therefore Sic/silicon carbide products/sic/silicon carbide slab/sic/silicon carbide kiln furniture/sic plate/silicon carbide slab/ can increase the efficiency and economy. At the same time, Sic/silicon carbide products/sic/silicon carbide slab/sic/silicon carbide kiln furniture/sic plate/silicon carbide slab/ is harmless to environment.*
+
 > *Image: Hshkrc, CC BY-SA 4.0*
 
 - **Bauxite ore** (40-60% Al₂O₃) — sourced from [Mining](../mining/processing.md) of lateritic deposits

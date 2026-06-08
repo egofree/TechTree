@@ -12,6 +12,8 @@
 
 ![IC Substrate](../images/electronics/electronics_packaging.png)
 
+> *IC Substrate as basis of advanced semiconductor packaging, it hosts multiple chips facilitating the interconnect.*
+
 > *Image: ShimantoEagle, CC BY-SA 4.0*
 
 Integrated circuit packaging and interconnect: die singulation from wafers, die attach to substrates, wire bonding and flip-chip interconnection, encapsulation in epoxy molding compounds, and advanced packaging (BGA, QFP, chip-scale). Packaging bridges bare silicon die and functional electronic assemblies, protecting the die while providing electrical, thermal, and mechanical interfaces.

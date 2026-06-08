@@ -15,6 +15,8 @@ Cryogenic air separation exploits the different boiling points of air's componen
 
 ![A-cryogenic-air-separation-plant-that-produces-argon-in-addition-to-oxygen-and-nitrogen](../images/cryogenics/cryogenics_air-separation.png)
 
+> *A Diagram of a Cryogenic Air seperation Unit*
+
 > *Image: M Pintile, CC BY-SA 3.0*
 
 - [Refrigeration Fundamentals](refrigeration.md) — thermodynamic cycles for achieving cryogenic temperatures

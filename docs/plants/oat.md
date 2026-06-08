@@ -12,6 +12,8 @@
 
 ![Oat](../images/plants/plants_oat.jpg)
 
+> *Avena sativa Aaltertroshaver (middle), Triticum dicoccum (left), Avena sativa black oat (right)*
+
 > *Image: Rasbak, CC BY-SA 3.0*
 
 Oat

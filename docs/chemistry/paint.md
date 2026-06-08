@@ -12,6 +12,8 @@
 
 ![Brushing Lacquer by China Paint](../images/chemistry/chemistry_paint.jpg)
 
+> *Brushing lacquer (460ml) by the China Paint Manufacturing Company (1932) Limited.*
+
 > *Image: Mk2010, CC BY-SA 3.0*
 
 Pigment grinding, binder formulation, and coating production including titanium dioxide whites, alkyd paints, and zinc oxide anti-corrosion coatings.

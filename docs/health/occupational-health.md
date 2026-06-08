@@ -15,6 +15,8 @@ Industrial processes generate hazards: toxic fumes from smelting, silica dust fr
 
 ![CHD Group team member implementing CSR programme in Occupational health of farmers in India](../images/health/health_occupational-health.jpg)
 
+> *CHD Group team member implementing CSR programme in Occupational health of farmers in India*
+
 > *Image: Roseli1990, CC BY 4.0*
 
 - [Acids](../chemistry/acids.md) — acid production and handling hazards

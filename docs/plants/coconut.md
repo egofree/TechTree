@@ -12,6 +12,8 @@
 
 ![Coconut](../images/plants/plants_coconut.jpg)
 
+> *A diagram of the Diamond coconut model showing two adjustment paths to steady state under different expectations. Based on David Romer "Advanced Macroeconomics", 2000*
+
 > *Image: Radeksz, Public domain*
 
 Coconut

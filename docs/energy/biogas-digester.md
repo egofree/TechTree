@@ -12,6 +12,8 @@
 
 ![Neck of biogas digester with attached main valve and pressure testing chamber (5363884350)](../images/energy/energy_biogas-digester.jpg)
 
+> *Gachoire Girls High School - Biogas plant construction*
+
 > *Image: SuSanA Secretariat, CC BY 2.0*
 
 A biogas digester (anaerobic digester) is a sealed vessel in which organic material decomposes in the absence of oxygen, producing a gas mixture of approximately 60% methane (CH₄) and 35-40% carbon dioxide (CO₂). Methanogenic archaea — microorganisms that thrive in oxygen-free environments at 30-60°C — perform the conversion in four biochemical stages: hydrolysis (complex organics → simple sugars, amino acids, fatty acids), acidogenesis (simple molecules → volatile fatty acids), acetogenesis (fatty acids → acetic acid + H₂ + CO₂), and methanogenesis (acetic acid + H₂ + CO₂ → CH₄ + CO₂).

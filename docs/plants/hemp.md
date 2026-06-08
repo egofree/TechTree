@@ -12,6 +12,8 @@
 
 ![Hemp](../images/plants/plants_hemp.jpg)
 
+> *Hemp at the Oregon State University North Willamette Research and Extension Center. Photo: Sean Nealon.*
+
 > *Image: Oregon State University, CC BY-SA 2.0*
 
 Hemp

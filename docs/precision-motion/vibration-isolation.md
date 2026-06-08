@@ -14,6 +14,8 @@ Nanometer positioning (covered in [Nanometer Positioning](./nanometer-positionin
 
 ![Home-Built Vibration Isolation Platform using Squash Balls](../images/precision-motion/precision-motion_vibration-isolation.jpg)
 
+> *A Home-Built Vibration Isolation Platform using Squash Balls*
+
 > *Image: Quirkipedia, CC0*
 
 - [Nanometer Positioning](./nanometer-positioning.md) — stage requirements that define isolation specifications

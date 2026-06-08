@@ -20,6 +20,8 @@ This capability covers the full range of sewage management from pit latrines (ac
 
 ![AERATING SEWAGE IS ONE STEP OF THE PROCESS AT THE BACK RIVER SEWAGE TREATMENT PLANT](../images/water/water_sewage.jpg)
 
+> *AERATING SEWAGE IS ONE STEP OF THE PROCESS AT THE BACK RIVER SEWAGE TREATMENT PLANT*
+
 > *Image: Jim Pickerell, Public domain*
 
 - [Cement and concrete](../chemistry/cement.md) — for tanks, pipes, and treatment structures

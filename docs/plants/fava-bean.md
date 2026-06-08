@@ -12,6 +12,8 @@
 
 ![Fava Bean](../images/plants/plants_fava-bean.jpg)
 
+> *This is an image with the theme "Farm to Plate" from:*
+
 > *Image: Mhmd.abdrzg, CC BY-SA 4.0*
 
 Fava Bean

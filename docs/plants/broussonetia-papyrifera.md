@@ -12,6 +12,8 @@
 
 ![Paper Mulberry](../images/plants/plants_broussonetia-papyrifera.jpg)
 
+> *Paper mulberry (Broussonetia papyrifera). Balcalı - Adana, Turkey.*
+
 > *Image: Zeynel Cebeci, CC BY-SA 4.0*
 
 Paper mulberry (*Broussonetia papyrifera*) is a fast-growing deciduous tree native to East Asia, cultivated for millennia for its inner bark fiber. The bark produces strong, flexible sheets that are beaten into tapa cloth (bark cloth), the primary textile of many Pacific Island cultures. The same bark fiber is the raw material for some of the finest handmade papers in China and Japan, including the durable paper used for woodblock printing, calligraphy, and documents that last centuries.

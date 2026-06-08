@@ -12,6 +12,8 @@
 
 ![Cotton](../images/plants/plants_cotton.jpg)
 
+> *Patent for a device to remove plant fiber from picked cotton (referred to as "burs" and "bolls"). The device makes the process of cleaning cotton faster and more efficient.; [1], 2 p. : ill. ; 23 cm.*
+
 > *Image: Meier, John, Public domain*
 
 Cotton

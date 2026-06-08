@@ -20,6 +20,8 @@ This document covers the full PCB fabrication process from laminate production t
 
 ![35c3-9529-eng-deu-Artistic PCB Design and Fabrication webm-hd](../images/electronics/electronics_pcb-fabrication.jpg)
 
+> *9529-Artistic PCB Design and Fabrication*
+
 > *Image: c3voc – media.ccc.de, CC BY 4.0*
 
 - **Copper foil**: Electrodeposited (ED) or rolled, 17.5 μm (½ oz) or 35 μm (1 oz) thickness, >99.8% purity. From [copper electrorefining](../chemistry/electrolysis.md).

@@ -20,6 +20,8 @@ Water power converts the gravitational potential energy of flowing or falling wa
 
 ![Hydraulic power water tank](../images/energy/energy_gravity.jpg)
 
+> *Hydraulic power system water tank Spencer Street power station Melbourne*
+
 > *Image: Rohanstorey, CC BY 4.0*
 
 **[Undershot wheel](../glossary/undershot-wheel.md)** (simplest, lowest efficiency — ancient, widely used):

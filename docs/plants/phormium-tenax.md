@@ -12,6 +12,8 @@
 
 ![New Zealand Flax](../images/plants/plants_phormium-tenax.jpg)
 
+> *Flower spike of New Zealand flax (Phormium tenax), bearing seed pods. Taken in Auckland, New Zealand.*
+
 > *Image: Avenue, CC BY-SA 3.0*
 
 New Zealand flax (*Phormium tenax*) is a perennial monocot native to New Zealand and Norfolk Island, cultivated for its strong leaf fibers since pre-European Maori settlement. Despite its common name, it is unrelated to true flax (*Linum usitatissimum*), belonging instead to the family Asphodelaceae. The plant forms large clumps of stiff, sword-shaped leaves 1-3 meters long and 5-12 cm wide, from which long, strong fibers can be extracted.

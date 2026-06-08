@@ -12,6 +12,8 @@
 
 ![Teff](../images/plants/plants_teff.jpg)
 
+> *Teff (Eragrostis tef);*
+
 > *Image: Rasbak, CC BY-SA 3.0*
 
 Teff

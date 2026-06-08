@@ -12,6 +12,8 @@
 
 ![Sulfur extraction drawing (pipe end)](../images/mining/mining_sulfur-extraction.jpg)
 
+> *Sulfur extraction drawing (pipe end)*
+
 > *Image: Percy Cyril Lesley Thorne, Public domain*
 
 Extraction of elemental sulfur from volcanic deposits (native sulfur collection), pyrite roasting, Frasch process (superheated water injection into underground deposits), and Claus process (recovery from sour gas). Sulfur is the gateway feedstock for sulfuric acid production — the most produced industrial chemical and foundation of the chemical industry.

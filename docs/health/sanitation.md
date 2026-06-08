@@ -12,6 +12,8 @@
 
 ![World map of total official financial flows for water supply and sanitation, by recipient, 2020, OWID](../images/health/health_sanitation.jpg)
 
+> *water supply*
+
 > *Image: MDWiki(from Our World In Data), CC BY 4.0*
 
 **Well construction**:

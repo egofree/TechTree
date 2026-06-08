@@ -12,6 +12,8 @@
 
 ![Potato](../images/plants/plants_potato.jpg)
 
+> *Solanum tuberosum (potato) flowers*
+
 > *Image: Ввласенко, CC BY-SA 3.0*
 
 Potato

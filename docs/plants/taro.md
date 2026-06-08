@@ -12,6 +12,8 @@
 
 ![Taro](../images/plants/plants_taro.jpg)
 
+> *Pathogen: Dasheen mosaic virus (DsMV) Read: www.ctahr.hawaii.edu/oc/freepubs/pdf/PD-44.pdf*
+
 > *Image: Plant pests and diseases, CC0*
 
 Taro

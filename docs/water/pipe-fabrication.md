@@ -12,6 +12,8 @@
 
 ![Wester Pipe Fabrication - geograph.org.uk - 2461896](../images/water/water_pipe-fabrication.jpg)
 
+> *Wester Pipe Fabrication*
+
 > *Image: Peter Moore, CC BY-SA 2.0*
 
 Pipe and tube are hollow cylinders that convey fluids under pressure or by gravity. They are the enabling technology for [water distribution](distribution.md), [sewage collection](sewage.md), [gas handling](../gas-handling/piping-systems.md), steam power, hydraulic systems, and chemical process piping. Without sealed pressurized pipe, every fluid must be moved in containers — a severe bottleneck that limits settlement size to what can be carried by hand or gravity channels.

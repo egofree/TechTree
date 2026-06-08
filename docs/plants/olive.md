@@ -12,6 +12,8 @@
 
 ![Olive](../images/plants/plants_olive.jpg)
 
+> *Nature reserve Olive-Gardens, Lun, Croatia.*
+
 > *Image: Palauenc05, CC BY-SA 4.0*
 
 Olive

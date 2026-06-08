@@ -12,6 +12,8 @@
 
 ![Jerusalem Artichoke](../images/plants/plants_jerusalem-artichoke.jpg)
 
+> *Helianthus tuberosus in the Parco fluviale alta Val d'Elsa park in Colle di Val d'Elsa.*
+
 > *Image: This Photo was taken by Wolfgang Moroder.  
 
 Feel free to use my photos, but please mention me as the author and send me a  message. 

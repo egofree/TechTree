@@ -12,6 +12,8 @@
 
 ![Beet](../images/plants/plants_beet.jpg)
 
+> *Red beet (Beta vulgaris) in the vegetables counter, Burlöv outside Malmö.*
+
 > *Image: Dag Endresen, CC BY 2.0*
 
 Beet

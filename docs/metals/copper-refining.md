@@ -12,6 +12,8 @@
 
 ![LEACHING (SEPARATING) TANKS AT THE ELECTROWINNING COPPER REFINING PLANT](../images/metals/metals_copper-refining.jpg)
 
+> *LEACHING (SEPARATING) TANKS AT THE ELECTROWINNING COPPER REFINING PLANT*
+
 > *Image: Cornelius M. Keyes, Public domain*
 
 Purification of copper to high conductivity grades through fire refining and electrolytic refining. Fire refining removes bulk impurities by controlled oxidation in an anode furnace. Electrolytic refining produces 99.99% pure copper cathodes suitable for electrical wire and electronic components. Without electrolytic refining, copper cannot reach the purity needed for efficient electrical conductors.

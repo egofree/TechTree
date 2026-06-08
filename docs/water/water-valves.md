@@ -12,6 +12,8 @@
 
 ![Water valves with spigots](../images/water/water_water-valves.jpg)
 
+> *Two water valves regulated by spigots.*
+
 > *Image: Paul Goyette, CC BY-SA 2.0*
 
 A valve controls fluid flow by introducing a variable restriction into a pipe. Valves are essential in every pressurized water system — they isolate sections for maintenance, regulate flow and pressure, prevent backflow, and provide emergency shutoff. A [distribution network](distribution.md) without valves is uncontrollable: any leak or repair requires shutting down the entire system.

@@ -16,6 +16,8 @@ Electric furnaces convert electrical energy into high-temperature heat for smelt
 
 ![Electric arc furnaces - geograph.org.uk - 517378](../images/energy/energy_electric-furnaces.jpg)
 
+> *Electric arc furnaces steel mill. Part of the Sheffield Forgemaster complex at Brightside. The furnaces are contained in the building at the rear. The tall buildings at the front filter the dust and gases from the furnaces.*
+
 > *Image: Alan Murray-Rust, CC BY-SA 2.0*
 
 **Strengths**:

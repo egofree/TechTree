@@ -12,6 +12,8 @@
 
 ![Centrifugal pump-tech diagram](../images/water/water_centrifugal-pump.jpg)
 
+> *Pompa odśrodkowa.*
+
 > *Image: Jonasz at Polish Wikipedia, CC BY-SA 3.0*
 
 A centrifugal pump converts rotational kinetic energy from a motor-driven impeller into hydrodynamic pressure, moving water through pipes at controlled flow rates and pressures. Approximately 70% of all pumps in industrial service are centrifugal. They serve [distribution networks](distribution.md), feed [desalination systems](desalination.md) at high pressure, lift [sewage](sewage.md) to treatment plants, and circulate cooling water in engines and industrial processes.

@@ -12,6 +12,8 @@
 
 ![Schematic diagram of electrolysis-electrodialysis concentrated HIx solution](../images/chemistry/chemistry_electrodialysis.jpg)
 
+> *Schematic diagram of electrolysis-electrodialysis concentrated HIx solution.*
+
 > *Image: NoteDamn, Public domain*
 
 Ion separation using alternating cation and anion exchange membranes under electric field. Desalinates brackish water, recovers acids and bases from salt solutions, and concentrates process streams for industrial chemistry.

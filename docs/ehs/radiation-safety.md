@@ -17,6 +17,8 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 
 ![Radiation safety badges, Jax Laboratory](../images/ehs/ehs_radiation-safety.jpg)
 
+> *Radiation safety badges at the Jackson Laboratory (Jax), Bar Harbor, Maine.*
+
 > *Image: Wladimir Labeikovsky, CC BY-SA 2.0*
 
 - Shielding materials: lead sheet (0.5-3 mm for X-ray), concrete (15-30 cm for general shielding), steel plate, barium sulfate (for painted shielding)

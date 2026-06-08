@@ -12,6 +12,8 @@
 
 ![American agriculturist](../images/food-processing/food-processing_cream-separator.jpg)
 
+> *v. 37 cm "The American agriculturist has absorbed more than thirty agricultural journals, including Genesee farmer, Alabama farmer, American farmer's magazine, Connecticut homestead, Farm journal and progressive farmer and others." Issues for July-Sept. 3, 1927, called v. 120, no. 1-10; Sept. 10-Dec. 31, 1927, called v. 121, no. 11-26; Jan. 7-June 30, 1928, called v. 122, no. 1-25; July-Dec. 1928, called v. 122, no. 1-26 United with Rural New Yorker to form American agriculturalist and the rural New Yorker with vol. 161 no. 12, Dec. 1964 Subjects: Agriculture; Periodicals; Agriculture -- Periodicals*
+
 > *Image: Wikimedia Commons contributor, Public domain*
 
 A centrifugal cream separator exploits the density difference between milk fat (0.93 g/cm³) and milk serum (1.036 g/cm³) in a high-speed rotating bowl. When milk enters a spinning bowl at 6,000-8,000 rpm, centrifugal force pushes the denser skim milk outward while the lighter cream migrates inward. The two streams are collected separately as they discharge at different radii.

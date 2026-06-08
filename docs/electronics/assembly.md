@@ -16,6 +16,8 @@ Electronics assembly encompasses PCB fabrication, component placement, soldering
 
 ![J-75 ROTATING DATA ELECTRONICS ASSEMBLY](../images/electronics/electronics_assembly.jpg)
 
+> *Scope and content: The original finding aid described this as: Capture Date: 5/6/1974 Photographer: MARTIN BROWN Keywords: Larsen Scan*
+
 > *Image: Martin Brown, Public domain*
 
 - **Copper-clad laminate**: FR-4 substrate (woven [fiberglass](../glass/fibers.md) + [epoxy resin](../polymers/thermosets.md)), copper foil 17.5-35 μm thickness

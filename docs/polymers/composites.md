@@ -19,6 +19,8 @@ This article covers fiber properties, layup methods, matrix selection, manufactu
 
 ![Drilled hole in carbon fiber reinforced polymer (CFRP) sample](../images/polymers/polymers_composites.jpg)
 
+> *Drilling defects of carbon fiber reinforced polymer (CFRP)*
+
 > *Image: Andrew Hrechuk, CC BY 4.0*
 
 - [Glass fibers](../glass/fibers.md) — E-glass or S-glass fiber reinforcement (continuous roving, woven fabric, or chopped strand mat)

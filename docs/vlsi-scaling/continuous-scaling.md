@@ -12,6 +12,8 @@
 
 ![Small-scale continuous granulation equipment](../images/vlsi-scaling/vlsi-scaling_continuous-scaling.jpg)
 
+> *General view of small-scale continuous granulation equipment used at the U.S. Department of Agriculture's Agricultural Engineering Laboratory.*
+
 > *Image: Wikimedia Commons contributor, Public domain*
 
 - [Core Fab Processes](../photolithography/fab-processes.md) — baseline semiconductor manufacturing capability

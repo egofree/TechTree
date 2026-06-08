@@ -13,6 +13,8 @@ This document covers the CZ puller as a **machine** — design, materials, fabri
 
 ![Silicon seed crystal puller rod](../images/silicon/silicon_crystal-growth_cz-pulling.jpg)
 
+> *A puller rod for growing silicon boules by Czochralski process. It is made from single-crystal silicon. The shiny tip is the part to be dipped into molten silicon and acts as a seed crystal. Note the notch for holding by a chuck. The rod weighs 36 grams and is about 14 cm long and 1.2 cm in diameter.*
+
 > *Image: Warut Roonguthai, CC BY-SA 4.0*
 
 **Main vessel**:

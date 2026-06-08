@@ -12,6 +12,8 @@
 
 ![Sunn Hemp](../images/plants/plants_crotalaria-juncea.jpg)
 
+> *A closer look at the sunn hemp plant.*
+
 > *Image: Christina Fujita, Public domain*
 
 Sunn hemp (*Crotalaria juncea*) is a fast-growing tropical and subtropical legume cultivated for both fiber and soil improvement. It produces a bast fiber similar to hemp in strength and appearance, suitable for cordage, paper pulp, and coarse textiles. As a legume, it fixes atmospheric nitrogen through root nodules, making it one of the most effective green manure crops available. A single crop can add 60-120 kg of nitrogen per hectare to the soil in 60-90 days.

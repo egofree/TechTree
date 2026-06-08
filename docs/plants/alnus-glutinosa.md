@@ -12,6 +12,8 @@
 
 ![Black Alder](../images/plants/plants_alnus-glutinosa.jpg)
 
+> *A twig of black alder (Alnus glutinosa), a piece of deadwood, and water ripples formed by a rising gas bubble. Photographed at the Wolfsberger Mühle on the Reppeliner Bach, about two kilometers north of Tessin in the Rostock district, within the Stormsdorfer Bachtal nature reserve.*
+
 > *Image: Radomianin, CC BY-SA 4.0*
 
 Black alder (*Alnus glutinosa*) is a deciduous tree native to Europe that produces timber with a remarkable property: it is highly resistant to decay when permanently submerged in water or buried in wet ground. Alder piles driven into riverbeds and marshes can last for centuries. Venice was built on alder pilings, and many medieval structures in northern Europe rest on alder foundations.

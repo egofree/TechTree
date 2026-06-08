@@ -21,6 +21,8 @@ This article is a child of [Soil Management](./soil-management.md), which covers
 
 ![Vermicast in 2kg bag](../images/agriculture/agriculture_soil-management_vermiculture.png)
 
+> *Vermicast in 2kg bag*
+
 > *Image: Renatotcm, CC BY-SA 4.0*
 
 **Materials**:

@@ -12,6 +12,8 @@
 
 ![Kelly Mine - Ore Processing Building - geograph.org.uk - 3127064](../images/mining/mining_processing.jpg)
 
+> *Kelly Mine - Ore Processing Building*
+
 > *Image: Ashley Dace, CC BY-SA 2.0*
 
 **Crushing**:

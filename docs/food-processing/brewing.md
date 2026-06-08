@@ -18,6 +18,8 @@ For industrial fermentation chemistry (ethanol, acetone, butanol as chemical fee
 
 ![Twenty-Five Years of Brewing with an Illustrated History of American Beer Dedicated to the Friends of George Ehret](../images/food-processing/food-processing_brewing.jpg)
 
+> *Twenty-Five Years of Brewing with an Illustrated History of American Beer Dedicated to the Friends of George Ehret*
+
 > *Image: George Ehret, Public domain*
 
 | Material | Quantity per 100 L beer (5% ABV) | Source | Alternatives |

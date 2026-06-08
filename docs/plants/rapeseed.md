@@ -12,6 +12,8 @@
 
 ![Rapeseed](../images/plants/plants_rapeseed.jpg)
 
+> *Rapeseed (Brassica napus), also known as rape, oilseed rape, rapa, rapaseed and (in the case of one particular group of cultivars) canola, is a bright yellow flowering member of the family Brassicaceae (mustard or cabbage family).*
+
 > *Image: Richard Bartz, Munich aka Makro Freak, CC BY-SA 2.5*
 
 Rapeseed

@@ -12,6 +12,8 @@
 
 ![Hazel](../images/plants/plants_hazel.jpg)
 
+> *Hazelnuts (Corylus avellana) – whole with two kernels (one is peeled)*
+
 > *Image: Ivar Leidus, CC BY-SA 4.0*
 
 Hazel

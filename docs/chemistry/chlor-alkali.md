@@ -12,6 +12,8 @@
 
 ![Cell room of a chlorine-caustic soda plant](../images/chemistry/chemistry_chlor-alkali.jpg)
 
+> *Cell room of a chlorine-caustic soda plant - six banks ok 74 cells each (Edgewood, Maryland).*
+
 > *Image: McGraw-Hill Pub. Co. (Albany, N.Y.), Public domain*
 
 Electrolytic production of chlorine, sodium hydroxide (caustic soda), and hydrogen from brine (NaCl solution). Three cell types: diaphragm (asbestos separator), membrane (ion-exchange membrane, modern standard), and mercury cathode (historical, phased out due to toxicity). Chlor-alkali is the foundation of the chlor-chemical industry.

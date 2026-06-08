@@ -12,6 +12,8 @@
 
 ![Andersen's Blacksmithing (workshop building), Chico](../images/metals/metals_blacksmithing.jpg)
 
+> *Street-facing view of the former workshop building of Andersen's Blacksmithing &amp; Welding in Chico, California. The left-hand structure, featuring a modest industrial style with a plastered facade and large multi-pane windows, retains faded historic signage referencing its original use as a blacksmith and welding shop. Today, the hall is occupied by the metal art studio Richer's Earthen Iron. The building is listed in the Historic Resources Inventory of the California Department of Parks and Recreation under inventory number 04-5926-6-64.*
+
 > *Image: Photograph:  Radomianin, Public domain*
 
 Hand forging of iron and steel into tools, hardware, and structural fittings using hammer, anvil, and hearth. Blacksmithing transforms bloomery iron and wrought iron into functional implements: hammers, chisels, hinges, brackets, chains, and agricultural tools, without requiring powered machinery.

@@ -12,6 +12,8 @@
 
 ![Pearl Millet](../images/plants/plants_pearl-millet.jpg)
 
+> *Bajra*
+
 > *Image: Vis M, CC BY-SA 4.0*
 
 Pearl Millet

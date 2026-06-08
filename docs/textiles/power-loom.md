@@ -12,6 +12,8 @@
 
 ![Masson Mills WTM 12b Power Loom 5877](../images/textiles/textiles_power-loom.jpg)
 
+> *Masson Mills built in 1783 is home to a working textile mills. There is a small weaving shed with working looms some dating back to before 1867. Power Loom referred to here as a Yorkshire Loom. It has a longer reedspace than the Lancashire Loom so can weave wider fabric.*
+
 > *Image: Clem Rutter, Rochester, Kent., CC BY-SA 3.0*
 
 A power loom mechanizes the three basic motions of hand weaving — shedding (raising alternate warp threads), picking (passing the weft through the shed), and beating (packing the weft against the fell) — using power from a steam engine, water wheel, or electric motor transmitted via belt drive to a main crank shaft. Each revolution of the crank shaft completes one weaving cycle: shed opens → shuttle flies across → reed beats weft → shed changes.

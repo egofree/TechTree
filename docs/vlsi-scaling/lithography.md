@@ -15,6 +15,8 @@ Lithography in the VLSI scaling context covers advanced patterning techniques be
 
 ![Georgios Mavromichalis in Nafplio (Lithography by Karl Krazeisen)](../images/vlsi-scaling/vlsi-scaling_lithography.jpg)
 
+> *Georgios Mavromichalis in Nafplio, 1826*
+
 > *Image: Karl Krazeisen, Public domain*
 
 - [Resists & Masks](../photolithography/resists-masks.md) — photoresist chemistry and mask blanks

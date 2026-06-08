@@ -25,6 +25,8 @@ Poultry farming is the managed raising of domesticated birds for meat, eggs, fea
 
 ![Poultry farming and viticulture - geograph.org.uk - 6120883](../images/animals/animals_poultry.jpg)
 
+> *Poultry farming and viticulture*
+
 > *Image: Jonathan Billinger, CC BY-SA 2.0*
 
 | Requirement | Source | Notes |

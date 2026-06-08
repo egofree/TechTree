@@ -12,6 +12,8 @@
 
 ![Introduction to malayalam computing by santhosh thottingal](../images/vlsi-scaling/vlsi-scaling_eda-design.jpg)
 
+> *kerala university malayalam computing workshop*
+
 > *Image: Indurema, CC BY-SA 4.0*
 
 - [Dopant & Etch Gases](../chemistry/dopant-etch-gases.md) — process gas chemistry for semiconductor fabrication

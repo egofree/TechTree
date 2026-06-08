@@ -12,6 +12,8 @@
 
 ![Amaranthus albus](../images/plants/plants_amaranthus-albus.jpg)
 
+> *Amaranthus albus at Wadi Mujib in Jordan*
+
 > *Image: Krzysztof Ziarnek, Kenraiz, CC BY-SA 4.0*
 
 Amaranthus albus is an annual species of flowering plant native to the Americas. Its common names include common tumbleweed , tumble pigweed , tumbleweed , prostrate pigweed , pigweed amaranth , white amaranth and white pigweed

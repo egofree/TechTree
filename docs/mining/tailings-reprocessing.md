@@ -25,6 +25,8 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 
 ![Two Chestnut-tailed Starling (Sturnia malabarica) kissing, Satchari National Park](../images/mining/mining_tailings-reprocessing.jpg)
 
+> *Two chestnut-tailed starlings (Sturnia malabarica) interacting energetically while perched on a branch in Satchari National Park, Bangladesh*
+
 > *Image: Princepauljoy, CC BY-SA 4.0*
 
 | Material | Specification | Source |

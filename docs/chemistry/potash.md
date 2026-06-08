@@ -12,6 +12,8 @@
 
 ![PikiWiki Israel 71043 potash production facilities](../images/chemistry/chemistry_potash.jpg)
 
+> *Potash production facilities*
+
 > *Image: אפרים יונס, Public domain*
 
 Production of potassium carbonate (potash) from wood ashes, mineral deposits, or brine evaporation. Potash is a fundamental alkali for glassmaking (potash glass), soap production, fertilizer, and chemical synthesis. Pearl ash (purified potash) was historically the primary source of alkali before synthetic soda ash.

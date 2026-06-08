@@ -12,6 +12,8 @@
 
 ![Cocoyam](../images/plants/plants_cocoyam.jpg)
 
+> *Cocoyam plants in a garden*
+
 > *Image: daSupremo, CC BY-SA 4.0*
 
 Cocoyam

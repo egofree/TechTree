@@ -12,6 +12,8 @@
 
 ![Black Wattle](../images/plants/plants_acacia-mearnsii.jpg)
 
+> *Photos taken at Mannavan Shola, Anamudi Shola National Park, Kerala during Munnar Butterfly Survey*
+
 > *Image: Vinayaraj, CC BY-SA 4.0*
 
 Black wattle (*Acacia mearnsii*) is a fast-growing tree native to southeastern Australia that produces bark with the highest commercially viable tannin content of any cultivated plant: 30-40% tannin by dry weight. This is 2-4 times the tannin concentration found in oak bark. Black wattle bark is the world's most important source of vegetable tannins for leather production, supplying the majority of the global tannin market.

@@ -20,6 +20,8 @@ This document covers transformer construction, core and winding manufacturing, i
 
 ![Power Distribution Line Pole with Distribution Transformers](../images/energy/energy_power-distribution.png)
 
+> *This file contains a picture of a 4.16kV distribution line with three distribution transformers attached, delivering power to a local load*
+
 > *Image: Rsparks3, CC0*
 
 - **Copper wire** — Drawn from electrorefined copper (99.99% purity). Magnet wire from 0.05 mm to 5.0 mm diameter with enamel insulation. See [Wire Drawing](electricity.md).

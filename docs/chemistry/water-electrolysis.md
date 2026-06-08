@@ -12,6 +12,8 @@
 
 ![AEM water electrolysis working principle with HER and OER](../images/chemistry/chemistry_water-electrolysis.png)
 
+> *AEM water electrolysis working principle with HER and OER*
+
 > *Image: Kavin Teenakul, CC BY-SA 4.0*
 
 Electrolytic splitting of water into hydrogen and oxygen using PEM or alkaline electrolyzers. Provides high-purity hydrogen for ammonia synthesis, metal refining, and fuel cells without fossil fuel inputs.

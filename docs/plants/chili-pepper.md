@@ -12,6 +12,8 @@
 
 ![Chili Pepper](../images/plants/plants_chili-pepper.jpg)
 
+> *The chili pepper (chile pepper, chilli), the fruit from the genus Capsicum. Evidence of the use of chili peppers in Southeast Asia can be found in stone inscriptions from the Bagan period of the 13th century Myanmar. Tabu, Kalaw, Shan Hills, Myanmar.*
+
 > *Image: Vyacheslav Argenberg, CC BY 4.0*
 
 Chili Pepper

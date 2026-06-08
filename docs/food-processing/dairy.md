@@ -18,6 +18,8 @@ Dairy depends on [ceramics](../ceramics/index.md) for storage vessels and cheese
 
 ![Arla Dairy Processing - geograph.org.uk - 6530074](../images/food-processing/food-processing_dairy.jpg)
 
+> *Arla Dairy Processing*
+
 > *Image: DS Pugh, CC BY-SA 2.0*
 
 | Material | Quantity per 10 kg cheese | Source | Alternatives |

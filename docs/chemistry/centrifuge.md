@@ -12,6 +12,8 @@
 
 ![Centrifuge in Laboratory 1](../images/chemistry/chemistry_centrifuge.jpg)
 
+> *A centrifuge with its lid open inside a lab room.*
+
 > *Image: Ivangiesen, CC0*
 
 A centrifuge separates solids from liquids (or two immiscible liquids) by applying centrifugal force many times greater than gravity. Where gravity settling takes hours or days, a centrifuge accomplishes the same separation in minutes or seconds. The centrifugal acceleration is proportional to the square of the rotational speed multiplied by the bowl radius: a = ω²R. At 5,000 RPM in a 200 mm radius bowl, the centrifugal acceleration reaches approximately 5,500 × g — a force that drives even micron-sized particles to the bowl wall rapidly.

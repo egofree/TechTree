@@ -12,6 +12,8 @@
 
 ![Carrot](../images/plants/plants_carrot.jpg)
 
+> *View of a vegetable in a sunny day*
+
 > *Image: Grace789, CC BY-SA 4.0*
 
 Carrot

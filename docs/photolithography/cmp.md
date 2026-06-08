@@ -14,6 +14,8 @@ Chemical Mechanical Planarization (CMP) produces atomically flat surfaces by com
 
 ![Chemical-mechanical polishing (CMP-108, conditioner)](../images/photolithography/photolithography_cmp.jpg)
 
+> *Pad conditioner (Chiaping model 108) for the chemical-mechanical polishing (CMP), which removes material from uneven topography on a wafer surface until a flat surface is created.*
+
 > *Image: cpxmn, CC BY-SA 2.0*
 
 The Preston equation governs material removal: **RR = Kp × P × V**, where RR is removal rate (nm/min), Kp is the Preston coefficient (material- and slurry-dependent), P is downforce pressure (psi), and V is relative velocity between wafer and pad (m/min). Removal rate is linearly proportional to both pressure and velocity, allowing precise control by adjusting either parameter.

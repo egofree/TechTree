@@ -15,6 +15,8 @@ The blast furnace is the key advancement from bloomery smelting. Where a bloomer
 
 ![Production of iron and blast furnace ferroalloys—Виробництво чавуну і доменних феросплавів](../images/metals/metals_blast-furnace.png)
 
+> *Production of iron and blast furnace ferroalloys in some countries in 1910 - 1973.*
+
 > *Image: Blast furnace chip worker, CC BY-SA 3.0*
 
 - [Iron and steel fundamentals](iron-steel.md) — ore types, reduction chemistry, and iron properties

@@ -12,6 +12,8 @@
 
 ![Atomic-Scale Growth by Pulsed Laser Deposition (4225677770)](../images/silicon/silicon_epitaxy.jpg)
 
+> *Pulsed Laser Deposition is used to grow oxide-based energy materials by stacking single atomic layers to design epitaxial thin films and superlattice crystals suitable for discovering new functionalities. This allows the formation of atomically-sharp interfacial structures that convert, manipulate, or store energy.*
+
 > *Image: Oak Ridge National Laboratory, CC BY 2.0*
 
 CVD epitaxial growth of single-crystal silicon layers on polished wafer substrates using trichlorosilane or silane at 900-1200°C. Enables independently doped device layers (p/p+ or n/n+ configurations) with autodoping control via reduced pressure and buffer layers.

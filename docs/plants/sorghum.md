@@ -12,6 +12,8 @@
 
 ![Sorghum](../images/plants/plants_sorghum.jpg)
 
+> *This is a young sorghum plants on a farm growing to produce seeds for porridge and other uses.*
+
 > *Image: Munkaila Sulemana, CC BY-SA 4.0*
 
 Sorghum

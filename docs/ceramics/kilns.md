@@ -18,6 +18,8 @@ This document covers the design and construction of kilns from the simplest eart
 
 ![A new Maerz Kiln, under construction - geograph.org.uk - 1550690](../images/ceramics/ceramics_kilns.jpg)
 
+> *A new Maerz Kiln, under construction A Maerz Kiln, used for producing burnt limestone products. This one is due for commissioning in early November 2009, so the construction is more or less complete. Some external cladding will no doubt be added at the end. Once up and running, the kiln will produce high quality quicklime for use in industrial effluent treatment, concrete building blocks, steelmaking and soil stabilisation.*
+
 > *Image: Richard Law, CC BY-SA 2.0*
 
 - **Clay** (common earthenware clay for basic kilns; [fire clay](pottery.md) for permanent kilns — kaolin-rich, high alumina, low iron)

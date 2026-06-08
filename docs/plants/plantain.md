@@ -12,6 +12,8 @@
 
 ![Plantain](../images/plants/plants_plantain.png)
 
+> *Raw image from Pearson Scott Foresman donation*
+
 > *Image: Pearson Scott Foresman, Public domain*
 
 Plantain

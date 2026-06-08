@@ -21,6 +21,8 @@ Position in the dependency chain: soil management depends on [Foundations → Ag
 
 ![The SOIL composting waste treatment facility for Cap-Haitien Haiti (15737660637)](../images/agriculture/agriculture_soil-management.jpg)
 
+> *Haiti - Social Business UDDTs in Haiti.*
+
 > *Image: SuSanA Secretariat, CC BY 2.0*
 
 **Materials**:

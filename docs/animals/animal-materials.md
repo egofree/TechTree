@@ -17,6 +17,8 @@ The chain runs from the carcass to finished material through a series of mechani
 
 ![Geological time spiral](../images/animals/animals_animal-materials.png)
 
+> *A diagram of the geological time scale*
+
 > *Image: United States Geological Survey, Public domain*
 
 - [Cattle](cattle.md) — hides, tallow, horn, bone, and sinew supply

@@ -12,6 +12,8 @@
 
 ![T vs H diagram - heat exchanger with internal pinch](../images/chemistry/chemistry_heat-exchanger.png)
 
+> *Temperature (K) vs. heat load (W) diagram of hot stream (H2O entering at 20 bar, 473.15 K, and 4 kg/s) and cold stream (R-11 entering at 18 bar, 303.15 K, and 5 kg/s) in a counter-flow heat exchanger. Created using MATLAB and NIST REFPROP. "Pinch" is the point of minimum temperature difference between the hot and cold streams, in a temperature vs. heat load diagram.*
+
 > *Image: Engineering Guy, CC BY-SA 4.0*
 
 A heat exchanger transfers thermal energy between two fluid streams at different temperatures without allowing the fluids to mix. A solid wall (metal tube or plate) separates the hot and cold fluids; heat flows through the wall by conduction. The rate of heat transfer is governed by Q = U × A × LMTD, where Q is heat duty (W), U is the overall heat transfer coefficient (W/m²·K), A is the heat transfer surface area (m²), and LMTD is the log mean temperature difference (K) between the two streams.

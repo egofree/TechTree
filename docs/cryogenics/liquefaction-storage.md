@@ -15,6 +15,8 @@ Gas liquefaction converts atmospheric gases into compact, dense liquids for stor
 
 ![Figure 1- Process of Obtaining and Processing Liquefied Natural Gas (LNG) for Transport (23647734200)](../images/cryogenics/cryogenics_liquefaction-storage.jpg)
 
+> *This image is excerpted from a U.S. GAO report: www.gao.gov/products/GAO-16-104 MARITIME TRANSPORTATION: Implications of Using U.S. Liquefied-Natural-Gas Carriers for Exports*
+
 > *Image: U.S. Government Accountability Office from Washington, DC, United States, Public domain*
 
 - [Refrigeration Fundamentals](refrigeration.md) — thermodynamic cycles and expansion engines

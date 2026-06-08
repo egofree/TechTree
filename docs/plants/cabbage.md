@@ -12,6 +12,8 @@
 
 ![Cabbage](../images/plants/plants_cabbage.jpg)
 
+> *This is a sculpture of a bok choy with a locust and a katydid.*
+
 > *Image: Wikimedia Commons contributor, CC BY 4.0*
 
 Cabbage

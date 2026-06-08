@@ -12,6 +12,8 @@
 
 ![Microbial electrolysis cell](../images/chemistry/chemistry_electrolysis-cell.png)
 
+> *A schematic of a microbial electrolysis cell (MFC). Instructions on making a MFC can be found at http://www.engr.psu.edu/ce/enve/logan/bioenergy/mfc_make_cell.htm*
+
 > *Image: Zina Deretsky, National Science Foundation (NSF), User:KVDP, Public domain*
 
 An electrolysis cell drives a non-spontaneous chemical reaction by applying direct current (DC) electricity between two electrodes immersed in an electrolyte. The anode (positive electrode) oxidizes species (loses electrons), while the cathode (negative electrode) reduces species (gains electrons). The minimum voltage required equals the thermodynamic reversible potential (determined by the Nernst equation), plus overpotentials for activation kinetics, concentration polarization, and resistive losses in the electrolyte and electrodes.

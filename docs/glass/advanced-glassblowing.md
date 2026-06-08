@@ -19,6 +19,8 @@ The dependency chain: advanced glassblowing requires borosilicate glass (which r
 
 ![Glass Beach Fort Bragg 2](../images/glass/glass_advanced_glassblowing.jpg)
 
+> *The Glass beach in Fort Bragg, California.*
+
 > *Image: Jef Poskanzer, CC BY 2.0*
 
 - **Materials**: [Borosilicate glass tubing and rod](./advanced.md) (standard sizes: 5-50 mm OD tube, 3-12 mm rod), [oxygen and propane or natural gas](../energy/fuels.md) for torch fuel, [silicon carbide abrasive](../machine-tools/bearings-abrasives.md) (220-1200 grit for grinding joints), [cerium oxide](../mining/processing.md) (for optical polishing), [high-vacuum grease](../chemistry/index.md) (Apiezon type for ground glass seals)

@@ -12,6 +12,8 @@
 
 ![Blue energy mechanism](../images/energy/energy_blue-energy.png)
 
+> *Blue energy cell mechanism: W1 : fresh water W2 : sea water M : membrane O : osmosis process P : pressure obtained*
+
 > *Image: Nein Arimasen, CC BY-SA 3.0*
 
 Pressure-retarded osmosis and reverse electrodialysis generating electricity from the salinity gradient between freshwater and seawater. Uses ion-selective membranes to convert chemical potential difference into electrical power.

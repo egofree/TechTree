@@ -21,6 +21,8 @@ Position in the dependency chain: seed saving builds on [Foundations → Agricul
 
 ![1920 Griffith and Turner Co. : farm and garden supplies](../images/agriculture/agriculture_seed-saving.jpg)
 
+> *Griffith and Turner Co.:Farm and Garden Supplies [Seed] Catalogue from 1920 by Griffith and Turner Co. From the Henry G. Gilbert Nursery and Seed Trade Catalog Collection at the USDA National Agricultural Library.*
+
 > *Image: Griffith and Turner Co, Public domain*
 
 **Materials**:

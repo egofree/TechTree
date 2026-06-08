@@ -14,6 +14,8 @@
 
 ![USNS Black Powder and USNS Westwind](../images/chemistry/chemistry_black-powder.jpg)
 
+> *Submarine tenders USNS Black Powder and USNS Westwind moored at Sub Base King's Bay on 14 JUN 2022.*
+
 > *Image: Fritzmann2002, CC BY-SA 4.0*
 
 **Chemistry**: 75% KNO₃ (potassium nitrate), 15% charcoal, 10% sulfur. The three components serve distinct roles: nitrate provides oxygen for rapid combustion, charcoal is the fuel, sulfur lowers ignition temperature and increases burn rate.

@@ -12,6 +12,8 @@
 
 ![Rubber Tree](../images/plants/plants_rubber-tree.jpg)
 
+> *leaves of rubber tree*
+
 > *Image: Vis M, CC BY-SA 4.0*
 
 Rubber Tree

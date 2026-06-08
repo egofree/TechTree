@@ -12,6 +12,8 @@
 
 ![Injection molding machine clamping unit](../images/machine-tools/machine-tools_injection-molding-machine.jpg)
 
+> *Ilustración de la unidad de cierre de una maquina de inyeccion de plastico*
+
 > *Image: PedroCalamaro, CC BY-SA 4.0*
 
 An injection molding machine melts thermoplastic granules in a heated barrel using a rotating screw (reciprocating screw design), then rams the screw forward to inject the molten polymer under high pressure (50-200 MPa) into a closed steel mold. The mold is cooled until the polymer solidifies, then opened to eject the finished part. The cycle repeats: plastication (screw rotates to melt and convey polymer while retracting) → injection (screw rams forward as a plunger) → packing/holding (pressure maintained as polymer cools and shrinks) → cooling → mold open → ejection → mold close.

@@ -12,6 +12,8 @@
 
 ![Tea](../images/plants/plants_tea.jpg)
 
+> *Two rounds of the Tiny Encryption Algorithm; original image (DIA) placed in the public domain.*
+
 > *Image: Matt Crypto at English Wikipedia, Public domain*
 
 Tea

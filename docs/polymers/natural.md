@@ -15,6 +15,8 @@ Industrial machinery requires flexible, elastic materials that can seal gaps, tr
 
 ![Vulcanization of POLYIsoprene V.2](../images/polymers/polymers_natural.png)
 
+> *Schematic Structure Example of the Vulcanization_of_POLYIsoprene with n = 0, 1, 2, 3 ...*
+
 > *Image: Jü, CC0*
 
 - [Foundations](../foundations/index.md) — basic agricultural and processing infrastructure

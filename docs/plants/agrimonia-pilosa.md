@@ -12,6 +12,8 @@
 
 ![Agrimonia pilosa](../images/plants/plants_agrimonia-pilosa.jpg)
 
+> *A picture of hairy agrimony (Agrimonia pilosa) flowering in July.*
+
 > *Image: lidia80, CC0*
 
 Agrimonia pilosa also known as hairy agrimony , is a flowering plant in the family Rosaceae . It is distributed primarily over the Korean Peninsula , Japan, China, Siberia , and Eastern Europe

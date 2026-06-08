@@ -12,6 +12,8 @@
 
 ![Ginger](../images/plants/plants_ginger.jpg)
 
+> *Ginger (Zingiber officinale) is a flowering plant whose rhizome, ginger root or ginger, is widely used as a spice and a folk medicine.*
+
 > *Image: Khlshnuramalina, CC BY-SA 4.0*
 
 Ginger

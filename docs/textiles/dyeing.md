@@ -15,6 +15,8 @@ Dyeing transforms undyed cloth and yarn into colored textiles using natural pigm
 
 ![A man dyeing silk red in boiling water in Kumbakonam, Tamil Nadu](../images/textiles/textiles_dyeing.jpg)
 
+> *A man dyeing silk red in boiling water in Kumbakonam, Tamil Nadu*
+
 > *Image: Matthew T Rader, CC BY-SA 4.0*
 
 - [Chemistry](../chemistry/index.md) — mordant chemistry, pH control, and extraction

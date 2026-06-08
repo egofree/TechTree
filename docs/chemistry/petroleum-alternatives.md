@@ -15,6 +15,8 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 
 ![Ethanolamine-chemical-liquid](../images/chemistry/chemistry_petroleum-alternatives.jpg)
 
+> *A picture of the chemical ethanolamine. Taken for the Wikipedia page on Ethanolamine.*
+
 > *Image: Carbamatesalts, CC BY-SA 4.0*
 
 - [Basic tools](../foundations/tools-basic.md) — drilling equipment, retorts, and processing vessels

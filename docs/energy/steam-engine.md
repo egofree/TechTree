@@ -12,6 +12,8 @@
 
 ![Triple expansion reciprocating steam engine Anadrian MMM n01](../images/energy/energy_steam-engine.jpg)
 
+> *Triple expansion reciprocating steam engine of engine grab hopper dredger Anadrian.*
+
 > *Image: Ferguson Brothers Ltd., CC BY 2.5*
 
 A reciprocating steam engine converts the pressure energy of steam into mechanical work through a piston moving in a cylinder. High-pressure steam from a [boiler](boiler.md) enters the cylinder, pushing the piston through its power stroke. The steam is then exhausted — either to atmosphere (non-condensing) or to a condenser that creates vacuum on the exhaust side, increasing the pressure differential and efficiency. A crankshaft and connecting rod convert the piston's linear motion to rotary output.

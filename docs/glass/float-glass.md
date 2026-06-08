@@ -12,6 +12,8 @@
 
 ![Soda-lime window, not by float glass process](../images/glass/glass_basic_float-glass.jpg)
 
+> *Old window made from soda-lime flat glass. Interesting are the distorted reflections of a tree that give an indication that the flat glass was possibly not made by the float glass process.*
+
 > *Image: Alexander Fluegel, Public domain*
 
 The Pilkington float glass process produces perfectly flat, parallel-surface glass ribbon without grinding or polishing. Molten glass is poured onto a bath of molten tin at roughly 1000 degrees C inside a sealed chamber filled with a nitrogen-hydrogen atmosphere. The glass floats on the tin because its density (about 2.3 g/cm3) is lower than that of liquid tin (about 6.5 g/cm3). Surface tension and gravity together flatten the glass into a ribbon with naturally smooth surfaces on both sides. The ribbon is drawn off the tin bath, enters a long annealing lehr where it cools slowly enough to relieve internal stresses, and emerges as continuous flat glass ready for cutting.

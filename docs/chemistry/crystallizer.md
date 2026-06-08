@@ -12,6 +12,8 @@
 
 ![The crystallization process](../images/chemistry/chemistry_crystallizer.jpg)
 
+> *The salt crystallization process.*
+
 > *Image: AntoninaSmir, CC BY-SA 4.0*
 
 A crystallizer produces solid crystals from a solution by creating supersaturation — the thermodynamic driving force for crystal nucleation and growth. Supersaturation is achieved by cooling the solution (cooling crystallization), evaporating solvent (evaporative crystallization), or adding an antisolvent that reduces solute solubility (antisolvent crystallization). Once supersaturated, the solution nucleates new crystals or grows existing seed crystals. Controlled crystallization produces large, pure crystals (0.1-5 mm) that are easily filtered and washed.

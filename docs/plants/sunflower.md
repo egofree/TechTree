@@ -12,6 +12,8 @@
 
 ![Sunflower](../images/plants/plants_sunflower.jpeg)
 
+> *Diagram of the cross made with the red sunflower*
+
 > *Image: Unknown authorUnknown author, Public domain*
 
 Sunflower

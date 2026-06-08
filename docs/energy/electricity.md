@@ -13,6 +13,8 @@
 
 ![Figure 14- Geographic Distribution of Electricity Generation from Fossil Fuel Electricity Generating Units, 2010 (7315637614)](../images/energy/energy_electricity.jpg)
 
+> *This image is excerpted from a U.S. GAO report: www.gao.gov/products/GAO-12-545R Air Emissions and Electricity Generation at U.S. Power Plants*
+
 > *Image: U.S. Government Accountability Office from Washington, DC, United States, Public domain*
 
 **Strengths**:

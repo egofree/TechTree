@@ -12,6 +12,8 @@
 
 ![Carbide wire drawing die diagram](../images/machine-tools/machine-tools_wire-drawing-die.png)
 
+> *A diagram of a carbide wire drawing die. Based on similar drawing from Degarmo, E. Paul; Black, J T.; Kohser, Ronald A. (2003), Materials and Processes in Manufacturing (9th ed.), Wiley, ISBN 0-471-65653-4, figure 19-58.*
+
 > *Image: Wizard191, CC BY-SA 3.0*
 
 Wire drawing pulls metal rod through a hardened die with a tapered hole of precisely controlled diameter. Each die reduces the cross-section by 15-25% and elongates the wire proportionally. The die entrance bell (30° included angle) guides the metal into the bearing section (short, straight, ~1× diameter long), where the actual reduction occurs. A back-relief angle at the exit prevents the drawn wire from scoring the die. Drawing is performed cold — the metal work-hardens with each pass, increasing tensile strength by 50-100%. Annealing every 3-5 passes restores ductility for further reduction.

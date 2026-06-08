@@ -12,6 +12,8 @@
 
 ![Water Yam](../images/plants/plants_water-yam.jpg)
 
+> *Dioscorea alata (Purple yam) tuber. Mindanao, Philippines. Locally known as ube (pronounced "ooh-beh" or "ooh-bee").*
+
 > *Image: Obsidian Soul, CC BY-SA 3.0*
 
 Water Yam

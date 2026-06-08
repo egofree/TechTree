@@ -12,6 +12,8 @@
 
 ![Soybean](../images/plants/plants_soybean.jpg)
 
+> *Low-temperature scanning electron micrograph of soybean cyst nematode and its egg. Magnified 1,000 times.*
+
 > *Image: Agricultural Research Service, Public domain*
 
 Soybean

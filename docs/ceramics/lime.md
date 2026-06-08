@@ -17,6 +17,8 @@ The lime cycle is elegantly simple: heat limestone to drive off CO₂, add water
 
 ![Lemon and lime production, 2022](../images/ceramics/ceramics_lime.jpg)
 
+> *Global map of countries by lemon and lime production, 2022*
+
 > *Image: Our World in Data, CC BY 4.0*
 
 - **Materials**: [Limestone](../mining/index.md) (CaCO₃ >95% purity, crushed to 50-100 mm pieces), [fuel](../energy/charcoal.md) (wood, charcoal, or coal — 2-4 kg fuel per kg quicklime), water for slaking (3-4 parts water to 1 part lime by volume for putty)

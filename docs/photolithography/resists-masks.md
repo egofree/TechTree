@@ -12,6 +12,8 @@
 
 ![Fender us precision bass](../images/photolithography/photolithography_resists-masks.jpg)
 
+> *Fender US precision bass*
+
 > *Image: Cormac Parle, CC0*
 
 **[Bitumen resist](../glossary/bitumen-resist.md)** (simplest, historical — Niépce, 1826):

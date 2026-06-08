@@ -15,6 +15,8 @@ Vacuum technology creates and maintains low-pressure environments essential for 
 
 ![Efficient cleaning with modern vacuum technology in a well-lit indoor space](../images/gas-handling/gas-handling_vacuum.jpg)
 
+> *A user operates a vacuum cleaner with bright lights at the brush head, revealing dust and debris on a hardwood floor in a tidy living room during daylight.*
+
 > *Image: Shixart1985, CC BY 2.0*
 
 - [Gas Handling Basics](basic.md) — positive-pressure gas distribution, piping, and valves

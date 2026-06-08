@@ -12,6 +12,8 @@
 
 ![Water transport in Georgetown Guyana 1](../images/transport/transport_shipping.jpg)
 
+> *Water transport in Georgetown Guyana*
+
 > *Image: John Cray, CC BY-SA 4.0*
 
 **Canal construction**:

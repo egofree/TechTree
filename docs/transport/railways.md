@@ -12,6 +12,8 @@
 
 ![Tondu railway station MMB 01](../images/transport/transport_railways.jpg)
 
+> *Tondu railway station, looking north along the platform.*
+
 > *Image: mattbuck (category), CC BY-SA 3.0*
 
 **Track construction**:

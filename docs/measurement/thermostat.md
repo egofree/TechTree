@@ -18,6 +18,8 @@ A civilization that cannot regulate temperature cannot produce consistent steel,
 
 ![Temperature control device showing room temperature in Celsius at 23 degrees during evening time](../images/measurement/measurement_thermostat.jpg)
 
+> *A device is held in hand displaying room temperature of 23 degrees Celsius. It is currently 1:30 AM. The background shows a casual indoor setting.*
+
 > *Image: Shixart1985, CC BY 2.0*
 
 - [Mechanical Thermostats](./thermostat-mechanical.md) — Expansion rod, rod-and-tube, bimetallic strip, and snap-action disc types. No external power required. Buildable with basic metalworking. ±2-20°C accuracy.

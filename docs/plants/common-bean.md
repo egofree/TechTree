@@ -12,6 +12,8 @@
 
 ![Common Bean](../images/plants/plants_common-bean.jpg)
 
+> *Amino acid score of common bean*
+
 > *Image: Qnc, CC BY-SA 3.0*
 
 Common Bean

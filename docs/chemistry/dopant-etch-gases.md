@@ -15,6 +15,8 @@ Semiconductor manufacturing requires two classes of specialty gases: dopant gase
 
 ![Calculation of the chemical potential of hypothetical Van der Waals gases](../images/chemistry/chemistry_dopant-etch-gases.jpg)
 
+> *This is a Maple code leading to the calculation of the expression of the chemical potential of Van der Waals gases as functions of pressure and temperature.*
+
 > *Image: E-gabrielyan, CC BY-SA 4.0*
 
 - [Electrolysis](electrolysis.md) — chlorine and hydrogen production

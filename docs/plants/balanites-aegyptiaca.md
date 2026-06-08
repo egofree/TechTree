@@ -12,6 +12,8 @@
 
 ![Balanites aegyptiaca](../images/plants/plants_balanites-aegyptiaca.jpg)
 
+> *Balanites aegyptiaca, Sariska TR, AJT Johnsingh. DSCN1388*
+
 > *Image: Ajtjohnsingh, CC BY-SA 4.0*
 
 Balanites aegyptiaca (also known as the Desert date , Egyptian balsam and Lalob in Sudan ) is a species of tree, classified as a member of either the Zygophyllaceae or the Balanitaceae

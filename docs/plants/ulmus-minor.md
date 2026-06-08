@@ -12,6 +12,8 @@
 
 ![Field Elm](../images/plants/plants_ulmus-minor.jpg)
 
+> *Ulmus campestris suberosa. The cork-barked field Elm. p.235*
+
 > *Image: Loudon, J. C. (John Claudius), 1783-1843, Public domain*
 
 Field elm (*Ulmus minor*) is a deciduous tree native to Europe that produces timber with a distinctive combination of properties: it is resistant to decay when alternately wet and dry, it does not split easily, and it has interlocking grain that makes it exceptionally resistant to splitting. These properties made elm the traditional choice for wagon wheel hubs, water pipes, coffin boards, and any application where wood must withstand wetting and drying cycles without cracking.

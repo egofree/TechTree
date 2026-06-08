@@ -18,6 +18,8 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 
 ![Medicine and Surgery in the Great War.](../images/health/health_medicine.jpg)
 
+> *Exhibition: 1968-9: Medicine and Surgery in the Great War. General view. Wellcome Images Keywords: Wellcome Exhibitions; War*
+
 > *Image: Wikimedia Commons contributor, CC BY 4.0*
 
 | Material | Source | Use |

@@ -12,6 +12,8 @@
 
 ![Distillation column Vogelbräu Durlach](../images/chemistry/chemistry_distillation-column.jpg)
 
+> *Distillation column Vogelbräu Karlsruhe-Durlach, Germany*
+
 > *Image: Heribert3, CC BY-SA 4.0*
 
 A distillation column separates liquid mixtures into their component fractions by exploiting differences in boiling points (volatility). Vapor rising from the reboiler contacts liquid descending from the condenser on trays or packing inside the column. At each contact point, the more volatile component transfers from liquid to vapor, and the less volatile component transfers from vapor to liquid. After many such contacts (theoretical plates), the overhead vapor is enriched in the more volatile component and the bottoms liquid is enriched in the less volatile component.

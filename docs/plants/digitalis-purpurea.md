@@ -12,6 +12,8 @@
 
 ![Foxglove](../images/plants/plants_digitalis-purpurea.jpg)
 
+> *Digitalis purpurea - Purple Foxglove - Hesse - Germany.*
+
 > *Image: Norbert Nagel, CC BY-SA 3.0*
 
 Foxglove (*Digitalis purpurea*) is a biennial or short-lived perennial herb native to Europe that produces cardiac glycosides (digoxin and digitoxin) in its leaves. These compounds are among the most important cardiac medicines ever discovered, used to treat heart failure and atrial fibrillation by increasing the force of heart muscle contractions while slowing the heart rate.

@@ -12,6 +12,8 @@
 
 ![The Printing Press. Step 4. Setting the Paper](../images/knowledge/knowledge_printing.jpg)
 
+> *The paper is set onto the tympan, a board to hold the paper on. Small pins keep it in place*
+
 > *Image: Brett Osteen, CC BY-SA 3.0*
 
 - **Materials**: Wood pulp or cotton/linen rag for paper, soot and linseed oil for ink, lead/antimony/tin for type metal, leather or cloth for binding

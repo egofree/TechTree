@@ -18,6 +18,8 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 
 ![Convection Heating from Lambiase - "Joinability of different thermoplastic polymers with aluminium AA6082 sheets by mechanical clinching"](../images/polymers/polymers_thermoplastics.jpg)
 
+> *Convection Heating System*
+
 > *Image: Francesco Lambiase, CC BY-SA 4.0*
 
 ### Materials

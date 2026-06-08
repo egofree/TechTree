@@ -12,6 +12,8 @@
 
 ![WikiAfrica Higher Education training with Politecnico](../images/knowledge/knowledge_education.jpg)
 
+> *This is a screenshot from one the WikiAfrica Higher Education training with Politecnico di Milano in March 2022.*
+
 > *Image: Tochiprecious, CC BY-SA 4.0*
 
 - **Materials**: Paper, ink, and printed textbooks from [Printing](printing.md); workshop consumables (metal stock, chemicals, wood) for hands-on practice

@@ -12,6 +12,8 @@
 
 ![Crystal structure of Silicon Material](../images/silicon/silicon_purification.jpg)
 
+> *Crystal structure of Silicon Material created by xcrysden*
+
 > *Image: MmRoma, CC0*
 
 ### Option A: Chemical Purification (Siemens-like Process)

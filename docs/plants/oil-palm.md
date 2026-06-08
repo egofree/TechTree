@@ -12,6 +12,8 @@
 
 ![Oil Palm](../images/plants/plants_oil-palm.jpg)
 
+> *Fruit of Elaeis guineensis (oil palm) produced by a young palm at the botanical garden of Portoviejo, Ecuador.*
+
 > *Image: Cayambe, CC BY-SA 3.0*
 
 Oil Palm

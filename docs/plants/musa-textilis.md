@@ -12,6 +12,8 @@
 
 ![Abaca](../images/plants/plants_musa-textilis.jpg)
 
+> *Abaca Weaving is a traditional craft that involves creating textiles from the fabric of abaca plant also known as manila hemp.*
+
 > *Image: Sheena Aloner, CC BY 4.0*
 
 Abaca (*Musa textilis*), also called Manila hemp, is a species of banana native to the Philippines and Borneo that is cultivated for its exceptionally strong leaf fiber rather than its fruit. The fiber is extracted from the leaf sheaths (pseudostem) of the plant and produces cordage that is strong, lightweight, saltwater-resistant, and resistant to stretching. These properties made abaca the preferred rope fiber for marine use from the 19th century until the spread of synthetic fibers.

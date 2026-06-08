@@ -15,6 +15,8 @@ Pottery provides containers for storage, transport, cooking, and — critically 
 
 ![A potter designing on clay pots before the final finishing](../images/ceramics/ceramics_pottery.jpg)
 
+> *Hands of Resilience is a research project off the last edition of Kaduna Fashion and Arts Festival(KAFART) with the main theme being "Into The Art of Making" an exhibition which explores the concept of creation and making of fashion and art works, celebrating the output and techniques employed, as well as the cultural, environmental and societal elements that contribute to the final product.*
+
 > *Image: VKeem, CC BY-SA 4.0*
 
 - [Fire](../foundations/fire.md) — controlled combustion for kiln firing

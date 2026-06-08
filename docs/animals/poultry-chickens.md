@@ -16,6 +16,8 @@ Mature weight ranges from 1.5-2.5 kg for hens to 2.5-3.5 kg for roosters in dual
 
 ![Chickens in market](../images/animals/animals_poultry_chickens.jpg)
 
+> *Chicken meat displayed for sale at public food market in Mazatlan, Sinaloa, Mexico.*
+
 > *Image: Tomás Castelazo, CC BY-SA 3.0*
 
 | Requirement | Source | Notes |

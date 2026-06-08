@@ -12,6 +12,8 @@
 
 ![Sicilian Sumac](../images/plants/plants_rhus-coraria.jpg)
 
+> *Detail - Anacardiaceae Rhus coriaria L.*
+
 > *Image: Giuseppe Frizzi, Public domain*
 
 Sicilian sumac (*Rhus coriaria*) is a deciduous shrub native to the Mediterranean region and western Asia, cultivated for its tannin-rich leaves, dye-producing bark and roots, and tart, lemony berries used as a spice. The leaves contain 15-25% tannin by dry weight, making sumac a moderately concentrated tannin source that is particularly valued for producing light, flexible leather suited for gloving, garment, and bookbinding leather.

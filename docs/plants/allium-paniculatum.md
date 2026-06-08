@@ -12,6 +12,8 @@
 
 ![Allium paniculatum](../images/plants/plants_allium-paniculatum.jpg)
 
+> *Άλλιο το φοβοειδές (Allium paniculatum), Επταπύργιο, Θεσσαλονίκη, 05-06-2021*
+
 > *Image: PLAKLE, CC BY-SA 4.0*
 
 Allium paniculatum , common name pale garlic , is a species of monocot in the family Amaryllidaceae . It is widely cultivated and is now naturalized in several places outside its native range. Allium paniculatum produces several egg-shaped bulbs, each up to 1

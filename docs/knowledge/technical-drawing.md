@@ -16,6 +16,8 @@ This capability covers manual drafting (pencil, ink, T-square, compass) as the b
 
 ![Technical Drawing of Government Marble Confederate Headstone](../images/knowledge/knowledge_technical-drawing.jpg)
 
+> *Technical drawing from 1968 showing the specifications for a government-issued Confederate headstone with the Southern Cross of Honor emblem.*
+
 > *Image: Veterans Administration, Public domain*
 
 - **Materials**: Drawing paper (smooth, dimensionally stable — vellum or kraft paper), pencils (H through B grades), ink ([Writing](writing.md))

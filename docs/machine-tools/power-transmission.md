@@ -14,6 +14,8 @@ This article covers mechanical power transmission systems — belts, shafts, pul
 
 ![Line shaft 2](../images/machine-tools/machine-tools_power-transmission.jpg)
 
+> *Line shaft and belt driven machinery. MACHINE SHOP NORTH/NORTHEAST INCLUDING OVERHEAD LINE SHAFTING. MOSTLY BELT DRIVEN WITH ONE ROPE DRIVEN LATHE IN MIDDLE GROUND. POWER COMES FROM KNIGHT TURBINE ON FAR WALL SHOWN IN K-77, 78 (42') HAER CAL,3-SUCRK,1-45*
+
 > *Image: Jet Lowe, Public domain*
 
 Mechanical power transmission converts rotational energy from a prime mover (water wheel, steam engine, electric motor) into useful work at one or more machine tools. Before individual electric motors on each machine (which required mature electrical infrastructure), every factory and workshop distributed power mechanically through a system of line shafts, counter-shafts, and belts. The technology is simple in principle — wrap a belt around two pulleys — but the engineering of efficient, reliable shaft systems required careful attention to belt tension, shaft deflection, bearing placement, and speed ratios.

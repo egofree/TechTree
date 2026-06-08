@@ -15,6 +15,8 @@ Sewing transforms flat woven cloth into shaped, functional products: garments, t
 
 ![POWs in sewing and tailoring class](../images/textiles/textiles_sewing-tailoring.jpg)
 
+> *Prisoners of war are given classes in sewing and tailoring at the Bien Hoa Prisoner of War Camp. NARA 111-CCV-429-CC52603*
+
 > *Image: SP5 Ronald Delaurier, Public domain*
 
 - [Weaving](weaving.md) — woven cloth as the primary material

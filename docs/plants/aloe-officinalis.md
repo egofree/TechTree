@@ -12,6 +12,8 @@
 
 ![Aloe officinalis](../images/plants/plants_aloe-officinalis.jpg)
 
+> *Greenhouses of the Botanical garden (Saint Petersburg). Aloe officinalis var. angustifolia*
+
 > *Image: Kor!An (Корзун Андрей), CC BY-SA 3.0*
 
 Aloe officinalis is a species of aloe in the Asphodelaceae family. The species is native to the Arabian Peninsula , from Yemen to Saudi Arabia . The plant has become naturalized in Somalia and has medicinal value. The plant also has two varieties:

@@ -12,6 +12,8 @@
 
 ![Capability curve of an electrical generator expanded with cooling](../images/energy/energy_generator.png)
 
+> *The original capability curve of an electrical generator (black) expands with cooling (blue)*
+
 > *Image: B. Kirby and E. Hirst, Public domain*
 
 A generator converts mechanical rotation into electrical energy through electromagnetic induction (Faraday's law). When a conductor moves through a magnetic field, an electromotive force (EMF) is induced proportional to the rate of change of magnetic flux: E = -N × dΦ/dt, where N is the number of turns and Φ is the magnetic flux. In practice, a coil of wire (armature) rotates in a magnetic field produced by either permanent magnets (magneto) or electromagnets (dynamo/alternator).

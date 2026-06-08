@@ -15,6 +15,8 @@ Semiconductor manufacturing generates complex waste streams that differ fundamen
 
 ![OGUN STATE WASTE MANAGEMENT AND SANITATION AGENCY 02](../images/ehs/ehs_waste-management.jpg)
 
+> *This is an image with the theme "Health and Wellness in Africa" from:*
+
 > *Image: Munir The Illuminator, CC BY-SA 4.0*
 
 | Waste Stream | Primary Treatment | Polishing (if needed) | Discharge Limit | Key Risk |

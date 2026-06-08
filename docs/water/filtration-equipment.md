@@ -12,6 +12,8 @@
 
 ![Langfang Meike Filtration Equipment Co., Ltd. 20250517](../images/water/water_filtration-equipment.jpg)
 
+> *Exhibition area of Langfang Meike Filtration Equipment Co., Ltd. at the 2025 Changsha International Construction Equipment Exhibition, in Changsha, Hunan, China.*
+
 > *Image: Huangdan2060, CC BY 4.0*
 
 Filtration removes suspended solids from a fluid by passing it through a porous medium that captures particles while allowing the fluid to pass. In water treatment, filtration is the critical barrier between raw water and safe drinking water — after coarse solids are removed by settling, filtration captures the remaining fine particles, microorganisms, and turbidity that cause disease and foul downstream equipment.

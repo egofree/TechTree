@@ -17,6 +17,8 @@ The transition from pig iron to steel is the single most important metallurgical
 
 ![GEOLOGICAL SAMPLE](../images/metals/metals_steelmaking.jpg)
 
+> *A chunk of what appears to be graphite, probably the soft and pure type found naturally occurring in the UK in Borrowdale, Cumbria. The object has two sides which appear deliberately shaped and undamaged. They are slightly convex and covered in fine scratches in multiple directions. The other faces are fractured and seemingly incomplete. The material is very soft, so all the corners are rounded, and it leaves a clear streak on paper. The piece is 59mm long, 35mm wide and weighs 46.51g. It is unclear whether this fragment is natural or shaped. Borrowdale graphite (historically known as plumbago or black lead) was mined from the 16th century and used for lining the moulds of cannon balls. It also led to the famous Lake District pencil industry. In modern times, graphite is routinely imported from China and other places for use in refractories, batteries, steelmaking, expanded graphite, brake linings, foundry facings and lubricants. The date of this sample is unknown. Similar to SWYOR-72313E on the database.*
+
 > *Image: The Portable Antiquities Scheme, Stuart Noon, 2017-07-03 11:54:14, CC BY 2.0*
 
 - [Iron and steel fundamentals](iron-steel.md) — ore types, reduction chemistry, wrought iron

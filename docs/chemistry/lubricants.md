@@ -22,6 +22,8 @@ This article covers the lubrication theory shared across all types and links to 
 
 ![Ethanolamine-chemical-liquid](../images/chemistry/chemistry_lubricants.jpg)
 
+> *A picture of the chemical ethanolamine. Taken for the Wikipedia page on Ethanolamine.*
+
 > *Image: Carbamatesalts, CC BY-SA 4.0*
 
 ### Boundary Lubrication

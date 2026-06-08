@@ -12,6 +12,8 @@
 
 ![Neem](../images/plants/plants_azadirachta-indica.jpg)
 
+> *Qutb Minar in the evening seen along with Neem Tree (Azadirachta indica)*
+
 > *Image: Shikhers, CC BY-SA 4.0*
 
 Neem (*Azadirachta indica*) is a fast-growing tropical tree native to the Indian subcontinent that produces seeds containing azadirachtin, one of the most potent natural insecticides known. Azadirachtin disrupts insect growth, feeding, and reproduction at concentrations as low as 1-10 ppm, making neem-based sprays effective against over 200 species of insect pests while being relatively harmless to mammals, birds, and beneficial insects like bees.

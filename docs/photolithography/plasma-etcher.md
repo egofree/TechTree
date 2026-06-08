@@ -14,6 +14,8 @@ This article covers the construction of reactive ion etching (RIE) and inductive
 
 ![Halogen-, hydride- and methyl-compounds in plasma etching](../images/photolithography/photolithography_plasma-etcher.png)
 
+> *different chemical compounds have various properties*
+
 > *Image: Pepinpeterkapichler, CC BY-SA 4.0*
 
 Plasma etching is the primary pattern transfer method in semiconductor manufacturing. After photolithography defines a photoresist mask on the wafer surface, plasma etching transfers that mask pattern into the underlying film (SiO₂, silicon, aluminum, or other materials) by combining chemical reactions with directional ion bombardment. The result is anisotropic etching — vertical sidewalls with minimal lateral undercut — which is essential for sub-micron feature definition. Wet chemical etching, by contrast, etches isotropically (equal rates in all directions), making it unusable for features below ~2 μm.

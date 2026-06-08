@@ -12,6 +12,8 @@
 
 ![Squash](../images/plants/plants_squash.jpg)
 
+> *Taylor Flavell playing at Carrara Squash Center, Gold Coast 2019*
+
 > *Image: Tbflavell, CC BY-SA 4.0*
 
 Squash

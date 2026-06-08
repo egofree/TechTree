@@ -12,6 +12,8 @@
 
 ![W.W. Sly Manufacturing Company of Cleveland, cleaning mills and foundry equipment exhibit, Alaska-Yukon-Pacific-Exposition, Seattle, Washington, 1909](../images/machine-tools/machine-tools_foundry-equipment.jpg)
 
+> *Caption on image: F.H. Nowell. Official Photographer. Alaska Yukon Pacific Exposition. X2949. PH Coll 727.387 Subjects (LCTGM): W.W. Sly Manufacturing Company--Exhibitions &amp; displays--Washington (State)--Seattle; Alaska-Yukon-Pacific Exposition (1909 : Seattle, Wash.)--Facilities--Washington (State)--Seattle Subjects (LCSH): Foundries--Washington (State)--Seattle--Equipment and supplies*
+
 > *Image: Frank H. Nowell, Public domain*
 
 Foundry equipment melts metal, contains molten metal, and shapes it into castings. The three essential subsystems are: (1) the furnace and crucible that heat metal above its melting point, (2) the flask and mold that define the casting shape, and (3) the ladle and pouring equipment that transfer molten metal safely from furnace to mold. Each subsystem must withstand repeated thermal cycling between ambient temperature and 700-1500°C without cracking, deforming, or contaminating the melt.

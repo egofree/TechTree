@@ -12,6 +12,8 @@
 
 ![Friedrich Yaesche's Improved Brake for Bending Sheet Metal](../images/machine-tools/machine-tools_sheet-metal-brake.jpg)
 
+> *Friedrich Yaesche's Improved Brake for Bending Sheet Metal*
+
 > *Image: Department of the Interior. Patent Office. (1849 - 1925), Public domain*
 
 A sheet metal brake clamps a flat sheet between a stationary bed and a clamping bar, then swings a hinged bending leaf upward around the clamp edge to fold the sheet to a precise angle. The bend occurs along a straight line defined by the clamping bar edge. The inner bend radius equals the clamping bar edge radius (typically 1-3 mm for sharp bends). Springback of 2-5° in mild steel and 5-10° in aluminum requires overbending past the target angle. The brake handles sheet metal up to 1.5 m wide and 1.5 mm (mild steel) or 2 mm (aluminum) thick in hand-operated versions.

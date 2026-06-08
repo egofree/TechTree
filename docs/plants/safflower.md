@@ -12,6 +12,8 @@
 
 ![Safflower](../images/plants/plants_safflower.jpg)
 
+> *OLYMPUS DIGITAL CAMERA*
+
 > *Image: Esin Üstün from Istanbul, Turkey, CC BY 2.0*
 
 Safflower

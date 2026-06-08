@@ -15,6 +15,8 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 
 ![Precision Engineering Metrology of Small Holes (5940488905)](../images/measurement/measurement_precision-metrology.jpg)
 
+> *NIST researchers and collaborators have developed a new method for measuring the interior dimensions of small holes with an uncertainty of only 35 nanometers. Here, a glass probe is inserted into an optical "ferrule," a device for connecting optical fibers used in communications systems. Courtesy of National Institute of Standards and Technology Disclaimer: Any mention of commercial products within NIST web pages is for information only; it does not imply recommendation or endorsement by NIST. Use of NIST Information: These World Wide Web pages are provided as a public service by the National Institute of Standards and Technology (NIST). With the exception of material marked as copyrighted, information presented on these pages is considered public information and may be distributed or copied. Use of appropriate byline/photo/image credits is requested.*
+
 > *Image: National Institute of Standards and Technology, Public domain*
 
 - [Foundations](../foundations/index.md) — basic counting, arithmetic, and record-keeping

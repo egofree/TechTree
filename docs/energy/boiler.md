@@ -12,6 +12,8 @@
 
 ![Diagram of Velox steam generator set](../images/energy/energy_boiler.png)
 
+> *Diagram showing the main components of a quick-acting stand-by power plant with a Velox steam generator.*
+
 > *Image: Unknown, not credited in publication., Public domain*
 
 A boiler is a pressure vessel that converts water into steam by transferring heat from combustion gases through metal walls. Two fundamental architectures exist: **fire-tube** (hot gases pass through tubes surrounded by water) and **water-tube** (water flows through tubes surrounded by hot gases). In both cases, the rate of steam production is limited by the heat transfer surface area and the temperature differential between the combustion gases and the boiling water.

@@ -12,6 +12,8 @@
 
 ![Moringa](../images/plants/plants_moringa.jpg)
 
+> *Moringa oleifera with pods and flowers in Bangladesh*
+
 > *Image: Cottonseed, CC BY-SA 4.0*
 
 Moringa

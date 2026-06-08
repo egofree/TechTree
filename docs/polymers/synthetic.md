@@ -12,6 +12,8 @@
 
 ![Raw synthetic rubbers](../images/polymers/polymers_rubber_synthetic.jpg)
 
+> *Raw synthetic rubbers*
+
 > *Image: Vis M, CC BY-SA 4.0*
 
 Synthetic rubbers are elastomers produced by polymerizing petroleum-derived or chemically synthesized monomers. Unlike natural rubber (cis-1,4-polyisoprene from Hevea trees), synthetic rubbers can be tailored for specific resistance properties: oil, heat, ozone, chemicals, or flame. Three families anchor industrial synthetic rubber production: nitrile rubber (NBR), polychloroprene (neoprene), and silicone elastomers.

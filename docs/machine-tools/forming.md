@@ -19,6 +19,8 @@ For the metallurgy of producing iron and steel stock, see [Iron & Steel](../meta
 
 ![Man forming metals](../images/machine-tools/machine-tools_forming.jpg)
 
+> *This is an image of "African people at work" from*
+
 > *Image: Mahmoud Hamed ismailia, CC BY-SA 4.0*
 
 Every metal has a forging range — hot enough to be plastic, cool enough to avoid burning or crumbling.

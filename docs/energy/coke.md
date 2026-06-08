@@ -16,6 +16,8 @@ Coke is the only solid fuel capable of sustaining the 1800-2100°C temperatures 
 
 ![Coke ovens Avilés](../images/energy/energy_coke.jpg)
 
+> *Coke ovens for steel production at Avilés, Asturias, Spain (Ensidesa Works)'Untitled'*
+
 > *Image: Procsilas Moscas from Asturias, Spain, CC BY 2.0*
 
 Not all coal makes good coke. Only certain bituminous coals ("coking coals" or "metallurgical coals") have the right properties:

@@ -15,6 +15,8 @@ A modern semiconductor fab contains hundreds of process tools — etchers, CVD r
 
 ![The crossbar model exchange equipment at the National Communication Museum 03](../images/automation/automation_equipment-communication.jpg)
 
+> *The crossbar model exchange equipment at the National Communication Museum*
+
 > *Image: Aliceinthealice, CC0*
 
 - [Computing](../computing/index.md) — computing infrastructure for MES, FDC, and SECS gateway servers

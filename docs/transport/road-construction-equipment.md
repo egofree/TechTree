@@ -12,6 +12,8 @@
 
 ![Collection of early road construction equipment - geograph.org.uk - 5524236](../images/transport/transport_road-construction-equipment.jpg)
 
+> *Collection of early road construction equipment*
+
 > *Image: Evelyn Simak, CC BY-SA 2.0*
 
 Road construction equipment shapes and compacts earth, aggregate, and paving materials into a stable road surface. The two fundamental operations are **grading** (cutting, moving, and spreading earth to create the road profile) and **compaction** (compressing soil, aggregate, or asphalt to increase density and bearing capacity). Proper compaction increases soil bearing capacity by 2-5× and reduces settlement under traffic loads from years to negligible levels.

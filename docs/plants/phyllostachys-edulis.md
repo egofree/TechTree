@@ -12,6 +12,8 @@
 
 ![Moso Bamboo](../images/plants/plants_phyllostachys-edulis.jpg)
 
+> *Taken in Bathumi*
+
 > *Image: Lazaregagnidze, CC BY-SA 4.0*
 
 Moso bamboo (*Phyllostachys edulis*) is the largest temperate bamboo species, producing culms (stems) 10-20 meters tall and 8-18 cm in diameter that are among the most versatile structural materials in the natural world. Bamboo has a higher tensile strength than steel by weight, grows to harvestable size in 3-5 years (vs. 40-80 years for timber trees), and regenerates from the same root system after harvest.

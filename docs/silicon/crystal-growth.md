@@ -15,6 +15,8 @@ The CZ puller is the most mechanically demanding piece of equipment in the silic
 
 ![FZU AV CR Silicon Single Crystal C](../images/silicon/silicon_crystal-growth.jpg)
 
+> *A sample of a silicon single crystal presented during a tour of the Department of Thin Films and Nanostructures in the Solid State Physics Section at the Institute of Physics of the Czech Academy of Sciences, located on the grounds of the former Czechoslovak Sugar Industry Research Institute in Prague-Střešovice (at the address: Cukrovarnická 112/10)*
+
 > *Image: Mojmir Churavy, CC BY-SA 4.0*
 
 Polycrystalline silicon contains grain boundaries between individual crystal grains. These boundaries are electrically active: they act as recombination centers where electron-hole pairs recombine without contributing to current flow. In polycrystalline silicon, minority carrier lifetime drops from >1,000 μs (single crystal) to <10 μs. For solar cells, this means lower efficiency (10-12% for poly-Si vs. 15-20% for single crystal). For semiconductor devices, grain boundaries are fatal: they cause unpredictable leakage currents, threshold voltage shifts, and junction shorts.

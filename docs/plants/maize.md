@@ -12,6 +12,8 @@
 
 ![Maize](../images/plants/plants_maize.jpg)
 
+> *Maize showing damage by maize weevil (Sitophilus zeamais)*
+
 > *Image: Frank Peairs, Colorado State University, CC BY 3.0 us*
 
 Maize

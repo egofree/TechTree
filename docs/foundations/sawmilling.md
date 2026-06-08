@@ -12,6 +12,8 @@
 
 ![Steven's Croft Power Station and Timber Processing Facility - geograph.org.uk - 856051](../images/foundations/foundations_sawmilling.jpg)
 
+> *Stevens Croft Power Station and Timber Processing Facility This is the largest dedicated wood-burning power station in the UK and was commissioned in Autumn 2007. It will produce 44 MWe of energy and will burn 475000 t of sustainable wood fuel a year, including 95000 t of short rotation coppice. It is carbon neutral and can use cut and old wood, as well as different grades of willow. The site has good transport facilities, and already housed sawmills and a logistics facility. See also images in NT3763 and the shared description:-*
+
 > *Image: M J Richardson, CC BY-SA 2.0*
 
 Conversion of raw timber into standardized dimensional lumber through log felling, pit sawing, water-powered sawmilling, steam-powered mills, and seasoning/drying. Produces planks, beams, and dimensional lumber for construction, shipbuilding, and papermaking. Sawdust as byproduct for fuel, composite board, and chemical feedstock.

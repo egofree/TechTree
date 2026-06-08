@@ -12,6 +12,8 @@
 
 ![Optical coating - Thin film coating - Stripe filters - CILAS](../images/optics/optics_inspection_optical-coatings.jpg)
 
+> *Optical coating - Thin film coating - Stripe filters - CILAS*
+
 > *Image: CILAS, CC BY-SA 3.0*
 
 Thin-film deposition for optical enhancement: MgF₂ anti-reflection coating (quarter-wave, ~100 nm, thermal evaporation at low pressure) and aluminum mirror coating (vacuum evaporation, ~100 nm, 88-92% reflectance). Requires vacuum deposition chamber, tungsten/tantalum boats, thickness monitoring. Enables multi-element lens systems and protected mirrors.

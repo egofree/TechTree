@@ -12,6 +12,8 @@
 
 ![Sisal](../images/plants/plants_sisal.jpg)
 
+> *Fleurs des alpes et des montagnes : Agave Sisal*
+
 > *Image: Omzo93, CC BY-SA 4.0*
 
 Sisal

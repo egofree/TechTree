@@ -16,6 +16,8 @@ Without propulsion technology, civilization is limited to ground and water trans
 
 ![Replica of a Blériot XI monoplane and the Vuia 1 plane at the Museum of Aviation in Košice](../images/transport/transport_aviation.jpg)
 
+> *Replica of a Blériot XI monoplane from the early 20th century, designed and successfully flown by French engineer Louis Blériot and other aviation pioneers. A replica of the Vuia 1, an experimental aircraft from the beginning of the 20th century, designed by Romanian aviation pioneer Traian Vuia.*
+
 > *Image: ZemplinTemplar, CC BY-SA 4.0*
 
 **[Engine design](../glossary/engine-design.md)** (single-cylinder or twin-cylinder, air-cooled):

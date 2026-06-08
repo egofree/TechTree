@@ -12,6 +12,8 @@
 
 ![Onion](../images/plants/plants_onion.jpg)
 
+> *Onion processing plant in Boardman, Oregon. 11/5/2014 Photo by Kirsten Strough*
+
 > *Image: USDAgov, Public domain*
 
 Onion

@@ -18,6 +18,8 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 
 ![The Pharmacology Barnstar Hires](../images/health/health_pharmacology.jpg)
 
+> *The WikiProject Pharmacology barnstar*
+
 > *Image: Original idea by DonabelSDSU.bot
 Original remastering by Antonu, CC BY-SA 3.0*
 

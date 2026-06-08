@@ -16,6 +16,8 @@ The packaging and testing stage is often the bottleneck for semiconductor produc
 
 ![Semiconductor measurement technology](../images/chemistry/chemistry_packaging-testing.jpg)
 
+> *Subjects:*
+
 > *Image: Bullis, W. Murray., Public domain*
 
 **HEPA/ULPA filter media**:

@@ -16,6 +16,8 @@ This article covers the construction of a medium-current ion implanter (10-500 k
 
 ![Ion implantation machine at LAAS 0521](../images/photolithography/photolithography_ion-implanter.jpg)
 
+> *Ion implantation machine front end at LAAS-CNRS technological facility in Toulouse, France.*
+
 > *Image: Guillaume Paumier (user:guillom), CC BY-SA 3.0*
 
 Ion implantation is the primary method for introducing dopant atoms (boron, phosphorus, arsenic) into silicon wafers at controlled concentrations and depths. Unlike thermal diffusion — where dopant concentration and junction depth are coupled — ion implantation independently controls dose (atoms/cm²) via beam current and time, and junction depth (projected range) via acceleration energy. This independent control is essential for modern device fabrication: source/drain junctions, threshold voltage adjustment, channel stops, and well formation all require precise dopant profiles that thermal diffusion cannot provide.

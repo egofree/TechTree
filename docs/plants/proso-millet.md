@@ -12,6 +12,8 @@
 
 ![Proso Millet](../images/plants/plants_proso-millet.jpg)
 
+> *A photo of proso millet heads during dry down, taken in western Nebraska in the summer of 2017 at the University of Nebraska high plains agricultural lab.*
+
 > *Image: Jschnable, CC BY 4.0*
 
 Proso Millet

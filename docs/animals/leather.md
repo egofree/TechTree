@@ -19,6 +19,8 @@ Leather production requires livestock (cattle, sheep, goats) for hides, lime (Ca
 
 ![Leather production, Arsk national footwear factory (2023-04-14) 03](../images/animals/animals_leather.jpg)
 
+> *Коврик диванный (1960-е гг., кожа цветная, бархат, мозаика), ичиги (1968 г., кожа цветная, мозаика). Арская фабрика национальной обуви. Национальная художественная галерея «Хазинэ».*
+
 > *Image: Vyacheslav Kirillin, CC BY-SA 4.0*
 
 - **Materials**: [Cattle, sheep, and goat hides](./cattle.md) (25-45 kg fresh per cattle hide, must be processed within 4-6 hours in warm climates), [salt (NaCl)](../chemistry/acids.md) for curing (25-35 kg per cattle hide), [lime (Ca(OH)₂)](../ceramics/lime.md) for dehairing (6-10% on hide weight), [sodium sulfide (Na₂S)](../chemistry/index.md) for unhairing (1.5-3.0% on hide weight), [tannin source](../plants/fiber-plants.md) (oak bark 15-25 kg per cattle hide, or quebracho/mimosa extract), [oils and fats](./animal-materials.md) for fat-liquoring (cod liver oil, neat's-foot oil, or fish oil at 4-10% on leather weight)

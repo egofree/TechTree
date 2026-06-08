@@ -20,6 +20,8 @@ The critical threshold is sterility: an instrument that cannot be sterilized is 
 
 ![Bronze medical instruments, tweezers, another tools, Kanellopoulos Museum, 225058](../images/health/health_medical-instruments.jpg)
 
+> *(31) Bronze medical instruments, (32) bronze tweezers and (33) bronze tools. Kanellopoulos Museum at Athens.*
+
 > *Image: Zde, CC BY-SA 4.0*
 
 | Material | Instruments | Properties Required |

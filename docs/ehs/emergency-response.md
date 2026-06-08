@@ -15,6 +15,8 @@ Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas 
 
 ![Anti Crime and Community Emergency Response Team 03](../images/ehs/ehs_emergency-response.jpg)
 
+> *Anti Crime and Community Emergency Response Team (Philippines) motorcade in Poblacion, Baliwag.*
+
 > *Image: RamaGaspar, CC BY-SA 4.0*
 
 | Trigger | Response Level | Actions | Who |

@@ -20,6 +20,8 @@ The extraction progression moves from simple pressing (stone-age, 40-60% yield) 
 
 ![Palm oil - hand processing yellow vegetable fat from fruit pulp of African Oil Palm - Elaeis guineensis](../images/food-processing/food-processing_oil-processing.jpg)
 
+> *Cooked fruits from the African oil palm are mashed in a mortar and pestle. The separated fruit pulp fibers are first squeezed to extract the reddish oil. Shown here, the fibers and hard nuts are then returned to the mortar with added hot water to dissolve an opaque yellow, nutritious, high in fat and calories liquid used in popular central African recipes such as 'Moambe' across west and central Africa. Congo.*
+
 > *Image: T.K. Naliaka, CC BY-SA 4.0*
 
 - **Oilseeds**: Sunflower, rapeseed (canola), sesame, flax (linseed), cottonseed, peanut, or hemp seed. Oil content varies 20-50% by weight. Source: [Agriculture](../foundations/food-agriculture.md).

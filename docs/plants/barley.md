@@ -12,6 +12,8 @@
 
 ![Barley](../images/plants/plants_barley.jpg)
 
+> *Four-row barley*
+
 > *Image: Lucash, CC BY-SA 3.0*
 
 Barley

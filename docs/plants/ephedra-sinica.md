@@ -12,6 +12,8 @@
 
 ![Ephedra](../images/plants/plants_ephedra-sinica.jpg)
 
+> *Ephedra gerardiana in the Botanischer Garten, Berlin-Dahlem*
+
 > *Image: Krzysztof Ziarnek, Kenraiz, CC BY-SA 4.0*
 
 Ephedra (*Ephedra sinica*, known as ma huang in Chinese medicine) is a gymnosperm shrub native to arid regions of China and Mongolia that produces ephedrine and pseudoephedrine in its green stems. These alkaloids are sympathomimetic amines that dilate the airways (bronchodilation), constrict blood vessels (decongestant), and stimulate the central nervous system. Ephedrine has been used in Chinese medicine for over 5,000 years to treat asthma, colds, and congestion.

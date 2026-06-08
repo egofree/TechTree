@@ -12,6 +12,8 @@
 
 ![Textiles: a silk-spinning frame. Engraving.](../images/textiles/textiles_spinning-frame.jpg)
 
+> *Textiles: a silk-spinning frame. Engraving. Iconographic Collections Keywords: Benjamin Cole*
+
 > *Image: Wikimedia Commons contributor, CC BY 4.0*
 
 Mechanized spinning replaces hand drafting and twisting with powered rollers and high-speed spindles. Three systems dominate industrial spinning, each suited to different yarn types:

@@ -12,6 +12,8 @@
 
 ![Einkorn Wheat](../images/plants/plants_einkorn-wheat.jpg)
 
+> *Sourdough breads made with einkorn and emmer wheat.*
+
 > *Image: CallMeBarcode, CC BY 4.0*
 
 Einkorn Wheat

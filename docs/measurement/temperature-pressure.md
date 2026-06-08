@@ -15,6 +15,8 @@ Semiconductor manufacturing demands precise thermal control: crystal growth furn
 
 ![US Navy 061129-N-5416W-006 Hospital Corpsman 3rd class Tim Moye has his blood pressure and temperature taken while participating in a ship's blood drive aboard the Nimitz-class aircraft carrier USS Theodore Roosevelt (CVN 71)](../images/measurement/measurement_temperature-pressure.jpg)
 
+> *Norfolk, Va. (Nov. 29, 2006) - Hospital Corpsman 3rd class Tim Moye has his blood pressure and temperature taken while participating in a ship's blood drive aboard the Nimitz-class aircraft carrier USS Theodore Roosevelt (CVN 71). The nuclear powered aircraft carrier is currently maintaining qualifications as part of the fleet response plan. U.S. Navy photo by Mass Communication Specialist Seaman William Weinert (RELEASED)*
+
 > *Image: U.S. Navy photo by Mass Communication Specialist Seaman William Weinert, Public domain*
 
 Two dissimilar metals joined at a measurement junction generate a voltage (Seebeck effect) proportional to the temperature difference between the measurement junction and a reference (cold) junction. Output is in the millivolt range — read with a precision millivoltmeter or potentiometer circuit. Cold-junction compensation required (measure reference junction temperature independently, apply correction).

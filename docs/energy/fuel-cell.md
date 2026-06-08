@@ -12,6 +12,8 @@
 
 ![PEM fuel cell diagram](../images/energy/energy_fuel-cell.jpg)
 
+> *Diagrama de pila de combustilbe tipo PEM*
+
 > *Image: Amalia1983, CC BY-SA 3.0*
 
 Proton exchange membrane fuel cells converting hydrogen and oxygen to electricity, water, and heat. Provides efficient distributed power generation for applications requiring clean, quiet energy conversion.

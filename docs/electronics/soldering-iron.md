@@ -12,6 +12,8 @@
 
 ![SH72 soldering iron in shipping box](../images/electronics/electronics_soldering-iron.jpg)
 
+> *The SH72 is a recent cheap, lightweight yet effective soldering iron from China. 65W at 24V DC input. For under $10, delivery included - couldn't be better. (the tip is tinned, I had already used it)*
+
 > *Image: Retired electrician, CC0*
 
 A soldering iron converts electrical energy into heat at a concentrated tip, raising the temperature of metal workpieces and solder alloy above the solder's melting point. The molten solder wets the metal surfaces through metallurgical bonding — a thin intermetallic layer (1-5 μm) forms between the solder and the base metal, creating both electrical continuity and mechanical attachment. The iron maintains tip temperature at 320-420°C, well above the melting points of common solders (Sn63/Pb37: 183°C; SAC305 lead-free: 217-220°C), providing sufficient thermal headroom to overcome heat sinking by the workpiece and PCB substrate.

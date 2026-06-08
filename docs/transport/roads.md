@@ -15,6 +15,8 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 
 ![Bridge between Armadale Road and North Lake Road under construction, November 2020 02](../images/transport/transport_roads.jpg)
 
+> *The bridge between Armadale Road and North Lake Road over the Kwinana Freeway under construction, seen from Cockburn Central station platform. The view of the eastern, Armadale Road, side.*
+
 > *Image: Calistemon, CC BY-SA 4.0*
 
 - [Draft Power](../animals/draft-power.md) — animal labor for earthmoving and hauling

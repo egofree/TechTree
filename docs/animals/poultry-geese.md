@@ -19,6 +19,8 @@ Egg production is modest (30-50 eggs per year) but each egg is substantial (150-
 
 ![Bar-headed Geese in Koonthalulam, India, by Dr. Tejinder Singh Rawal](../images/animals/animals_poultry_geese.jpg)
 
+> *Bar-headed Geese in Koonthalulam, India, by Dr. Tejinder Singh Rawal*
+
 > *Image: Tsrawal, CC BY-SA 3.0*
 
 | Requirement | Source | Notes |

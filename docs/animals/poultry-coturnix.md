@@ -16,6 +16,8 @@ Quail have been domesticated for over 1,000 years, originally in Japan and East 
 
 ![Rain Quail in Bhigwan August 2025 by Tisha Mukherjee 02](../images/animals/animals_poultry_coturnix.jpg)
 
+> *Rain Quail (Coturnix coromandelica, Phasianidae, Galliformes) in Bhigwan, Maharashtra, India.*
+
 > *Image: Tisha Mukherjee, CC BY-SA 4.0*
 
 | Requirement | Source | Notes |

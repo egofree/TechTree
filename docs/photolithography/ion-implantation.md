@@ -18,6 +18,8 @@ After implantation the wafer must be annealed. The ion impacts displace silicon 
 
 ![Ion implantation machine at LAAS 0521](../images/photolithography/photolithography_ion-implantation.jpg)
 
+> *Ion implantation machine front end at LAAS-CNRS technological facility in Toulouse, France.*
+
 > *Image: Guillaume Paumier (user:guillom), CC BY-SA 3.0*
 
 An ion implanter is a specialized particle accelerator with five main subsystems arranged in series along the beam path: ion source, mass-analyzing magnet, acceleration column, beam scanning system, and end station. The entire beam path from source to wafer runs under high vacuum (10⁻⁶ Torr or below). Residual gas molecules scatter the ion beam, degrading uniformity and causing energy contamination.

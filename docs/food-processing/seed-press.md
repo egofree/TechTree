@@ -12,6 +12,8 @@
 
 ![Seed Drilling - geograph.org.uk - 1530670](../images/food-processing/food-processing_seed-press.jpg)
 
+> *This farmer was drilling seed in a large field just of the minor road from Milborne St Andrew to Ansty via hewish farm*
+
 > *Image: Nigel Mykura, CC BY-SA 2.0*
 
 A seed press extracts oil from oilseeds (sunflower, rapeseed, sesame, flax, peanut) by applying high pressure to conditioned seed flakes, forcing the oil through a cage of bars or perforated plate while retaining the compressed meal (press cake) inside. Two designs serve bootstrap-scale production:

@@ -17,6 +17,8 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 
 ![Distillation apparatus](../images/glass/glass_glassblowing.jpg)
 
+> *A one-piece glass distillation apparatus, created in an introductory scientific glassblowing course.*
+
 > *Image: No machine-readable author provided. Ragesoss assumed (based on copyright claims)., Public domain*
 
 **Materials**:

@@ -12,6 +12,8 @@
 
 ![Artemisia absinthium](../images/plants/plants_artemisia-absinthium.jpg)
 
+> *Artemisia absinthium in Brzozowo, NW Poland*
+
 > *Image: Krzysztof Ziarnek, Kenraiz, CC BY-SA 4.0*
 
 Artemisia absinthium , otherwise known as common wormwood , is a species of Artemisia native to North Africa and temperate regions of Eurasia , and widely naturalized in Canada and the northern United States

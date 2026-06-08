@@ -14,6 +14,8 @@ This article covers the metallurgy and processing of magnetic materials. For ele
 
 ![Diamagnetic material interaction in magnetic field](../images/metals/metals_magnetic-materials.png)
 
+> *On keeping diamagnetic materials in a magnetic field the electron orbital motion changes in such a way that magnetic dipole moments are induced on the atoms / molecules in the direction opposite to the external magnetic field as shown in figure(courtesy:-https://www.blogger.com/profile/00664562250897358835)*
+
 > *Image: Nitianabhigyan, CC BY-SA 4.0*
 
 Magnetic materials split into two functional classes: **soft magnetic materials** that magnetize and demagnetize easily (low coercivity), used in transformer cores, motor laminations, and relay armatures; and **permanent magnet materials** that resist demagnetization (high coercivity), used as field sources in motors, generators, and holding devices. Both classes derive their properties from composition and heat treatment — the same alloy can shift from soft to semi-hard depending on the cooling rate through the Curie point and the subsequent tempering cycle.

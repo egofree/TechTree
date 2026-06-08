@@ -11,6 +11,8 @@
 
 ![Lowell hydraulic experiments.](../images/machine-tools/machine-tools_hydraulic-systems.jpg)
 
+> *Book describing the experiments performed by James B. Francis in Lowell, Massachusetts relating to hydraulic motors and the flow of water.*
+
 > *Image: James Bicheno Francis, Public domain*
 
 Application of pressurized fluid power to the specific demands of machine tools: pressing, clamping, fixturing, and controlled feed drives. While [Hydraulic Power](../energy/hydraulics.md) covers the generation of hydraulic energy (pumps, reservoirs, basic circuits), this article addresses the integration of that power into machine tool systems — the hydraulic press frame, the clamping circuit that holds a workpiece against cutting forces, and the hydraulic feed drive that advances a tool at a constant rate into the work.

@@ -18,6 +18,8 @@ This capability also covers cylinder production (seamless steel tube forming), h
 
 ![Gas cylinder filling room RAE-O968](../images/gas-handling/gas-handling_cylinder-filling.jpg)
 
+> *Aircraft and Balloons Used by Some of the Air Pioneers Who Were Contemporary With Samuel Franklin Cody. The gas cylinder filling room. Note the stack of cylinders in the centre of the room with the apparatus for filling them with hydrogen gas around them.*
+
 > *Image: Unknown authorUnknown author, Public domain*
 
 - **Materials**: Seamless steel tube (manganese steel or Cr-Mo alloy), valve brass or stainless steel, PTFE valve packing, cylinder paint and labels

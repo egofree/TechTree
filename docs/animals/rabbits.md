@@ -15,6 +15,8 @@ Rabbits (*Oryctolagus cuniculus*) are the highest-efficiency terrestrial livesto
 
 ![Rabbits for sale in Yogyakarta](../images/animals/animals_rabbits.jpg)
 
+> *DSC00429/Java/Jogyakarta/Rabbit for Sale*
+
 > *Image: DANIEL JULIE from Paris, France, CC BY 2.0*
 
 - [Basic tools](../foundations/tools-basic.md) — wire, wood, and fasteners for cage construction

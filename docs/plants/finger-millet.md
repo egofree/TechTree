@@ -12,6 +12,8 @@
 
 ![Finger Millet](../images/plants/plants_finger-millet.jpg)
 
+> *Finger Millet Field at Peddamunagalachedu Village*
+
 > *Image: Kavali Chandrakanth KCK, CC BY-SA 4.0*
 
 Finger Millet

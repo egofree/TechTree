@@ -12,6 +12,8 @@
 
 ![Mango](../images/plants/plants_mango.jpg)
 
+> *Khairdeen, alias Pritam, relishing a mango at the dusk of his life*
+
 > *Image: Satdeep Gill, CC BY-SA 4.0*
 
 Mango

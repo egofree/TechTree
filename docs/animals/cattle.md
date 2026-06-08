@@ -28,6 +28,8 @@ No other livestock species matches cattle for combined output of food, fiber, po
 
 ![Salzburg Zoo Hellbrunn Watusi cattle Bos taurus taurus watusi-0153](../images/animals/animals_cattle.jpg)
 
+> *Female Watusi cattle Bos taurus taurus watusi in Salzburg Zoo*
+
 > *Image: Isiwal, CC BY-SA 4.0*
 
 | Requirement | Source | Notes |

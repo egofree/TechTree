@@ -15,6 +15,8 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 
 ![Employment in selected energy subsectors, 2019](../images/energy/energy_storage.jpg)
 
+> *The power grids section includes transmission, distribution, and storage. Low-carbon power generation includes nuclear and renewables. EV's includes the manufacturing of batteries. This graphic was published as part of the World Energy Employment report.*
+
 > *Image: International Energy Agency, CC BY 4.0*
 
 - [Chemistry](../chemistry/index.md) — battery chemistry and electrolyte production

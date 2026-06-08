@@ -12,6 +12,8 @@
 
 ![Flax](../images/plants/plants_flax.jpg)
 
+> *Good Karma vanilla flaxmilk. According to the package: "Ingredients: flaxmilk (filtered water, cold pressed organic flax oil), pea protein, cane sugar, contains 2% of less of: tapioca starch, tricalcium phosphate, natural flavor, natural vanilla flavor, sunflower lecithin, sea salt, gellan gum, xanthan gum, vitamin A palmitate, vitamin D2, vitamin B12."*
+
 > *Image: Mx. Granger, CC0*
 
 Flax

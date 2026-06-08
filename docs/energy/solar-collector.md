@@ -12,6 +12,8 @@
 
 ![Flat-plate solar thermal collector, viewed from roof-level](../images/energy/energy_solar-collector.png)
 
+> *Flat-plate solar thermal collector, viewed from roof-level*
+
 > *Image: SolarCoordinates, CC BY-SA 3.0*
 
 A solar thermal collector absorbs solar radiation and converts it to usable heat. Two fundamental designs exist: **flat-plate collectors** (no concentration, 40-80°C output) and **parabolic trough concentrators** (30-100× concentration, 300-500°C output). Both rely on the selective surface principle — a surface that absorbs strongly in the solar spectrum (absorptivity >0.95) but emits weakly in the infrared (emissivity <0.15), minimizing radiative heat loss while maximizing solar energy capture.

@@ -12,6 +12,8 @@
 
 ![Black Pepper](../images/plants/plants_black-pepper.jpg)
 
+> *Piper nigrum, black pepper being still green in the Jardin du Roi, Mahe, Seychelles.*
+
 > *Image: NorbertNagel, CC BY-SA 4.0*
 
 Black Pepper

@@ -12,6 +12,8 @@
 
 ![Jicama](../images/plants/plants_jicama.jpg)
 
+> *Pachyrhizus erosus growing as a weed in a nature park in Cairns, Queensland*
+
 > *Image: Steve Fitzgerald, CC BY-SA 4.0*
 
 Jicama

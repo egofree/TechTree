@@ -17,6 +17,8 @@ This capability covers the *process* of creating, maintaining, and enforcing sta
 
 ![Bans Off Our Bodies NYC (42278)](../images/knowledge/knowledge_standards-bodies.jpg)
 
+> *Bans Off Our Bodies NYC*
+
 > *Image: Rhododendrites, CC BY-SA 4.0*
 
 A standards body is a standing organization with a defined charter, membership rules, and procedures. It does not require a large bureaucracy — a bootstrap settlement can start with a part-time committee of 3-5 people managing 10-20 critical standards. The key is having defined procedures so that standards are produced by a repeatable process rather than ad hoc.

@@ -12,6 +12,8 @@
 
 ![Buckwheat](../images/plants/plants_buckwheat.jpg)
 
+> *817 V300*
+
 > *Image: STRONGlk7, CC BY-SA 3.0*
 
 Buckwheat

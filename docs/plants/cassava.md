@@ -12,6 +12,8 @@
 
 ![Cassava](../images/plants/plants_cassava.jpg)
 
+> *Flower of Manihot esculenta (commonly called cassava)*
+
 > *Image: Vijayanrajapuram, CC BY-SA 4.0*
 
 Cassava

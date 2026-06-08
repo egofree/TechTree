@@ -30,6 +30,8 @@ Beyond meat, pigs produce lard (15-30 kg per animal for fat-type breeds) — a v
 
 ![Pigs Sus scrofa domesticus 390 Possuja C](../images/animals/animals_pigs.jpg)
 
+> *Pigs, Sus scrofa domesticus, at ELMA (Living Countryside) Fair in Helsinki 2003*
+
 > *Image: Anneli Salo, CC BY-SA 3.0*
 
 | Requirement | Source | Notes |

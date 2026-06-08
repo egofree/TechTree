@@ -14,6 +14,8 @@ Chemical vapor deposition (CVD) grows thin solid films on a substrate by decompo
 
 ![Chemical Vapor Deposition Setup](../images/photolithography/photolithography_cvd.jpg)
 
+> *CVD is used for synthesizing materials in a controlled manner. Here is a 3-zone furnace with the requisite gas lines to transport the gas.*
+
 > *Image: Aksy88, CC BY-SA 4.0*
 
 Three major CVD variants cover the full temperature and film-quality spectrum needed in IC fabrication:

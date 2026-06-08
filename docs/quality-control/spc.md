@@ -12,6 +12,8 @@
 
 ![Control Chart (tr)](../images/quality-control/quality-control_spc.png)
 
+> *DanielPenfield 22:16, 30 June 2007 (UTC)*
+
 > *Image: ControlChart.svg: The original uploader was DanielPenfield at English Wikipedia.
 derivative work : DeeMusil (talk) - ControlChart cz.svg
 derivative work: Anerka (talk), CC BY-SA 3.0*

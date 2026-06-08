@@ -12,6 +12,8 @@
 
 ![Ramie](../images/plants/plants_ramie.jpg)
 
+> *Boehmeria nivea in Batumi, Georgia (Caucasus)*
+
 > *Image: Krzysztof Ziarnek, Kenraiz, CC BY-SA 4.0*
 
 Ramie

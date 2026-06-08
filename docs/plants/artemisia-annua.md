@@ -12,6 +12,8 @@
 
 ![Sweet Wormwood](../images/plants/plants_artemisia-annua.jpg)
 
+> *Stem with leaf Taxonym: Artemisia annua ss Rottensteiner: Exkursionsflora für Istrien ISBN 978-3-85328-067-6 Location: north of Krk, County Primorje-Gorski kotar, Croatia Habitat: ruderal area*
+
 > *Image: Stefan.lefnaer, CC BY-SA 4.0*
 
 Sweet wormwood (*Artemisia annua*) is an annual herb native to temperate Asia that produces artemisinin, a sesquiterpene lactone that is the most effective antimalarial compound discovered. Artemisinin and its derivatives (artesunate, artemether, dihydroartemisinin) have become the frontline treatment for Plasmodium falciparum malaria worldwide, replacing quinine and chloroquine in areas where drug resistance has developed.

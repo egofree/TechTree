@@ -17,6 +17,8 @@ Modern ammonia production consumes ~1-2% of global energy output and ~1.8% of CO
 
 ![Ammonia production installations - panoramio](../images/chemistry/chemistry_ammonia.jpg)
 
+> *ammonia production installations*
+
 > *Image: Tseno Tanev (цено та…, CC BY-SA 3.0*
 
 The overall reaction is deceptively simple:

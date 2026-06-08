@@ -12,6 +12,8 @@
 
 ![Madizelle Mining Company 1917 Fred Smith](../images/mining/mining_extraction.jpg)
 
+> *Fred J. Smith, in charge of the Madizelle mines, west of this city, which are preparing to resume at an early date, was a visitor yesterday on business. Weekly Journal Miner; March 14, 1917*
+
 > *Image: Weekly Journal Miner, Public domain*
 
 **Surface mining (open pit)**:

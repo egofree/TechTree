@@ -12,6 +12,8 @@
 
 ![Lesser Yam](../images/plants/plants_lesser-yam.jpg)
 
+> *Dioscorea esculenta, commonly known as the lesser yam, is a yam species. It is also known as Suthni in India.*
+
 > *Image: Salil Kumar Mukherjee, CC BY-SA 4.0*
 
 Lesser Yam

@@ -20,6 +20,8 @@ See [Synthetic Polymers & Elastomers](./synthetic.md) for synthetic rubber types
 
 ![Philips'chamber of commerce atlas; a graphic survey of the world's trade with a commercial compendium and gazetteer index](../images/polymers/polymers_rubber.jpg)
 
+> *Sujet : Commerce Monde Langue : anglais Éditeur : G. Philip (London) C.S. Hammond (New York)*
+
 > *Image: George Philip and Son (Londres). Auteur du texte, Public domain*
 
 ### Materials

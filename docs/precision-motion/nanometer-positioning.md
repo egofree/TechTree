@@ -14,6 +14,8 @@ The [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md) domain achieves
 
 ![Observable Wavelengths per Hubble Instrument (4538)](../images/precision-motion/precision-motion_nanometer-positioning.png)
 
+> *Hubble’s instruments collectively observe wavelengths (measured in nanometers) from ultraviolet through infrared. Each instrument was designed to operate in a particular wavelength range and function as an imaging camera or a spectrometer, though some instruments do both. The Fine Guidance Sensors (FGSs) not only help the telescope stay locked on target, but can be used as science instruments to accurately determine the relative position of stars.*
+
 > *Image: NASA and STScI, Public domain*
 
 - [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md): Precision machining of stage components to sub-micron tolerance, surface grinding of guide rails

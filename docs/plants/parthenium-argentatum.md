@@ -12,6 +12,8 @@
 
 ![Guayule](../images/plants/plants_parthenium-argentatum.jpg)
 
+> *Publication by Francis Ernest Lloyd of Alabama Polytechnic Institute (now Auburn University) on the culture, history, and needs for cultivating Pathenium argentatum Gray (Guayule).*
+
 > *Image: Francis Ernest Lloyd, Public domain*
 
 Guayule (*Parthenium argentatum*) is a desert shrub native to the southwestern United States and northern Mexico that produces natural rubber in its stems and roots. Unlike the tropical rubber tree (*Hevea brasiliensis*), guayule grows in arid and semi-arid conditions with 250-500 mm annual rainfall, making it the only practical rubber source for dry climates.

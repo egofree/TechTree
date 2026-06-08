@@ -12,6 +12,8 @@
 
 ![Artemisia capillaris](../images/plants/plants_artemisia-capillaris.jpg)
 
+> *Artemisia capillaris in China*
+
 > *Image: Dinkun Chen, CC BY-SA 4.0*
 
 Artemisia capillaris , (Chinese: 茵陈蒿 yīn chén hāo), the capillary wormwood , is a species of flowering plant in the wormwood genus Artemisia , family Asteraceae

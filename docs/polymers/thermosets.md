@@ -17,6 +17,8 @@ The major thermoset families — phenolic (Bakelite), epoxy, unsaturated polyest
 
 ![IUPAC definition for polymer](../images/polymers/polymers_thermosets.jpg)
 
+> *A substance composed of macromolecules.*
+
 > *Image: International Union of Pure and Applied Chemistry (IUPAC), CC BY-SA 4.0*
 
 - [Chemistry](../chemistry/index.md) — organic synthesis and polymerization fundamentals

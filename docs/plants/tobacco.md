@@ -12,6 +12,8 @@
 
 ![Tobacco](../images/plants/plants_tobacco.jpg)
 
+> *نبتة تبغ نيكوتيانا*
+
 > *Image: Photo by and (c)2006 Derek Ramsey (Ram-Man), CC BY-SA 4.0*
 
 Tobacco

@@ -12,6 +12,8 @@
 
 ![Cowpea](../images/plants/plants_cowpea.jpg)
 
+> *Cowpea chlorotic mottle virus*
+
 > *Image: Alan Cann, CC BY-SA 2.0*
 
 Cowpea

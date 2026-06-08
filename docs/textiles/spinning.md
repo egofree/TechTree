@@ -12,6 +12,8 @@
 
 ![Punjabi spinning wheel 05](../images/textiles/textiles_spinning.jpg)
 
+> *Punjabi spinning wheel at Ishanpur, Ludhiana district, Punjab*
+
 > *Image: Gurnoor ghuman, CC BY-SA 4.0*
 
 - [Fiber Preparation](fibers.md) — prepared fiber supply (carded, combed, or hackled)

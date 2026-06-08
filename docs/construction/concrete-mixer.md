@@ -12,6 +12,8 @@
 
 ![Concrete mixer - Mobile self-loading concrete mixer, Queensland, circa 1930](../images/construction/construction_concrete-mixer.jpg)
 
+> *QSA Item ID 1820216 The Transport and Main Roads Visual Resource Library collection contains over 200.000 photographs and other resources from the 1920’s to 2005 from the many and varied road, transport and maritime departments over that time. View this and other original records at the Queensland State Archives: Series ID 20074*
+
 > *Image: Queensland State Archives, Public domain*
 
 A concrete mixer combines cement, sand, aggregate, and water into a homogeneous mixture by tumbling the ingredients inside a rotating drum. Internal baffles (fixed blades welded to the drum interior) lift and fold the batch with each rotation, ensuring uniform distribution of cement paste around aggregate particles. The rotating-drum tilting design is the simplest effective mixer: a conical or cylindrical drum mounted on a frame, rotated by a hand crank or motor, and tilted to discharge the mixed batch.

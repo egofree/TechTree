@@ -12,6 +12,8 @@
 
 ![Garden Pea](../images/plants/plants_garden-pea.jpg)
 
+> *Garden pea sprouts ready to be boiled*
+
 > *Image: Yarzaryeni, CC BY 3.0*
 
 Garden Pea

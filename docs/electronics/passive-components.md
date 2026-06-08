@@ -20,6 +20,8 @@ This document covers construction methods for each passive component type at thr
 
 ![Passive Components fitted](../images/electronics/electronics_passive-components.jpg)
 
+> *Back on the main PCB I fitted the 5 resistors, 2 diodes and the disk ceramic capacitor.*
+
 > *Image: tony_duell, CC BY 2.0*
 
 - **Copper wire**: Drawn from [electrolytic copper](../chemistry/electrolysis.md), diameters 0.05-2.0 mm, purity >99.9%

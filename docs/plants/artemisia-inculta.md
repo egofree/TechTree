@@ -12,6 +12,8 @@
 
 ![Artemisia inculta](../images/plants/plants_artemisia-inculta.jpg)
 
+> *Botanique. 1. Artemisia monosperma; 2. Artemisia inculta; 3. Artemisia judaica.*
+
 > *Image: Scan by NYPL, Public domain*
 
 Artemisia inculta is a rare perennial species of aromatic undershrub in the family Asteraceae , native to North Africa and select regions of the Middle East

@@ -12,6 +12,8 @@
 
 ![NGC 3109 imaged by the Dark Energy Camera](../images/energy/energy_electric-furnaces_electrode-manufacturing.jpg)
 
+> *This galaxy, NGC 3109, is a somewhat nondescript— but fascinating — member of our Local Group of galaxies. Located around four million light-years from Earth in the constellation Hydra, it’s about 40,000 light-years across. Despite its beautiful blue hues, this irregular dwarf galaxy appears featureless with no central bulge or picturesquearms. However, spectroscopic analysis has shown that NGC 3109 is one of the most metal-poor galaxies in the Local Group. For most of us, metals are conductive, malleable elements like aluminum or copper, but to astronomers metals are all elements other than hydrogen and helium — such as carbon, nitrogen and oxygen. Stars consume hydrogen and helium to produce heavier elements. These metals are released into the interstellar medium when a star dies and are found in successive generations of stars. Metal-poor galaxies like NGC 3109 have a similar composition to the stars — and therefore thegalaxies — in the early Universe, so they may provide insight into the chemical evolution of early galaxies. This Image of the Week was taken by the Dark Energy Camera (DECam), which was built by the U.S. Department of Energy and is mounted on the U.S. National Science Foundation Víctor M. Blanco 4-meter Telescope at NSF Cerro Tololo Inter-American Observatory (CTIO), a Program of NSF NOIRLab, in Chile. Credit: Dark Energy Survey/DOE/FNAL/DECam/CTIO/NOIRLab/NSF/AURA Image processing: R. Colombari &amp; M. Zamani (NSF NOIRLab)*
+
 > *Image: Credit: Dark Energy Survey/DOE/FNAL/DECam/CTIO/NOIRLab/NSF/AURA
 
 Image processing: R. Colombari &amp; M. Zamani (NSF NOIRLab), CC BY 4.0*

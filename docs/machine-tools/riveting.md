@@ -32,6 +32,8 @@ Riveting is mechanical joining with no heat applied to the joint itself. Rivets 
 
 ![Nietmaschine - Riveting machine on display](../images/machine-tools/machine-tools_joining_riveting.jpg)
 
+> *A riveting machine for industrial purposes in Germany.*
+
 > *Image: Photographer: Mosbatho, CC BY 4.0*
 
 Hot riveting exploits thermal contraction. The rivet, heated to bright red (900-1000°C), is inserted through aligned holes and hammered to form the second head while still plastic. As the rivet cools to ambient temperature, it shrinks by the thermal expansion coefficient of steel (12 × 10⁻⁶ /°C) over a temperature drop of ~880°C. For a 20 mm diameter rivet with a grip length of 30 mm, this contraction generates a clamping force of 20-50 kN, pulling the plates into intimate contact.

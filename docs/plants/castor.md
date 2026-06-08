@@ -12,6 +12,8 @@
 
 ![Castor](../images/plants/plants_castor.jpg)
 
+> *Castor, aviso à roues, lancé à la Seyne-sur-Mer en 1861 sur la Charente.*
+
 > *Image: Unknown authorUnknown author, Public domain*
 
 Castor

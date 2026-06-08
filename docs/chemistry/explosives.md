@@ -39,6 +39,8 @@ The history of explosives mirrors the history of industrial civilization. Black 
 
 ![Ampoule with chemical substance Gelsomine (cropped and edited)](../images/chemistry/chemistry_explosives.jpg)
 
+> *Gelsemine*
+
 > *Image: Choij (talk), Public domain*
 
 - [**Black Powder**](black-powder.md) — Black powder manufacture (KNO₃/charcoal/sulfur): separate pulverization, wheel-mill mixing, corning, and granulation. The first explosive, foundational for mining and firearms.

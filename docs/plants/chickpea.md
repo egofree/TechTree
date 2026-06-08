@@ -12,6 +12,8 @@
 
 ![Chickpea](../images/plants/plants_chickpea.jpg)
 
+> *White and green chickpeas (Cicer arietinum)*
+
 > *Image: Sanjay Acharya, CC BY-SA 3.0*
 
 Chickpea

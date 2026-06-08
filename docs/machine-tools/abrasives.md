@@ -18,6 +18,8 @@ For the machine tool construction sequence, see [Iterative Bootstrap](./iterativ
 
 ![Angle Grinder cutting a steel chain - Video](../images/machine-tools/machine-tools_abrasives.jpg)
 
+> *An angle grinder is used for cutting through a steel chain. The chain elements are made from steel with a thickness of about 8 mm.*
+
 > *Image: Pittigrilli, CC BY-SA 4.0*
 
 Natural abrasives require no industrial infrastructure — they are collected from geological deposits and graded by sieving. They provide the starting point for all precision grinding and polishing.

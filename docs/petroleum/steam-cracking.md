@@ -12,6 +12,8 @@
 
 ![Steamcracker process](../images/petroleum/petroleum_petrochemicals_steam-cracking.png)
 
+> *Block flow diagram of the steam cracking process*
+
 > *Image: Gholami, Z., Gholami, F., Tišler, Z., &amp; Vakili, M., CC BY-SA 4.0*
 
 Naphtha or ethane mixed with steam and heated to 750-900°C in tubular furnace for 0.1-0.5 seconds residence time. Free-radical cracking produces ethylene (30-84% yield depending on feedstock) and propylene. Cryogenic separation train yields polymer-grade ethylene (99.9%) and propylene (99.5%+).

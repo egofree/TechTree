@@ -12,6 +12,8 @@
 
 ![Apple](../images/plants/plants_apple.jpg)
 
+> *Two flowering plants: thorn-apple (Datura stramonium) on the left and henbane (Hyoscyamus niger) on the right. Colour process print, 1924. Iconographic Collections*
+
 > *Image: Wikimedia Commons contributor, CC BY 4.0*
 
 Apple

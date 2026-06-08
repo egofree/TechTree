@@ -12,6 +12,8 @@
 
 ![Quinoa](../images/plants/plants_quinoa.jpg)
 
+> *Calca Peru- Quinoa seller at mercado*
+
 > *Image: Thayne Tuason, CC BY 4.0*
 
 Quinoa

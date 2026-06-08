@@ -14,6 +14,8 @@ This article covers the construction of stainless steel vacuum chambers for semi
 
 ![Recoating process in the vacuum chamber (max v364527s)](../images/vacuum/vacuum_vacuum-chamber.jpg)
 
+> *Recoating process in the vacuum chamber for the tertiary UT4 mirror. Guillaume Blanchard is measuring the clearance.*
+
 > *Image: ESO/Max Alexander, CC BY 4.0*
 
 A vacuum chamber is a sealed vessel that maintains a controlled low-pressure environment while providing access ports for pumping, gas delivery, electrical power, cooling, and optical observation. The chamber must withstand 1 atmosphere (101 kPa, 14.7 psi) of external pressure without buckling, maintain leak rates below 10⁻⁸ atm·cc/s for semiconductor processes, and present a clean internal surface that does not outgas contaminants into the process volume.

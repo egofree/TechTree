@@ -12,6 +12,8 @@
 
 ![Enzinger (filter press) - patent](../images/chemistry/chemistry_filter-press.jpg)
 
+> *Specification forming part of Letters Patent No. 393,633*
+
 > *Image: L.A. Enzinger, Public domain*
 
 A filter press separates solids from liquids by forcing a slurry under pressure through a porous filter medium (cloth, paper, or membrane) that retains solid particles as a cake while allowing clear liquid (filtrate) to pass. The plate-and-frame design sandwiches filter cloth between alternating plates and frames (or recessed chamber plates) compressed by a hydraulic or screw mechanism. Slurry is pumped into the chambers at 5-15 bar pressure. Solids accumulate as cake in each chamber; filtrate drains through the cloth and exits through internal channels.

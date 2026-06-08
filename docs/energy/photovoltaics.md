@@ -17,6 +17,8 @@ The trade-off is manufacturing complexity. Producing functional solar cells dema
 
 ![Utah solar; a photovoltaic power station (36293687776)](../images/energy/energy_photovoltaics.jpg)
 
+> *Utah solar; a photovoltaic power station.*
+
 > *Image: Photo by Reegan Moen. – U.S. Department of Energy from United States, Public domain*
 
 ## P-N Junction Physics

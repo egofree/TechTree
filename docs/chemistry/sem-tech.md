@@ -12,6 +12,8 @@
 
 ![AIEEE 2003 Question Paper](../images/chemistry/chemistry_sem-tech.jpg)
 
+> *The question paper for AIEEE, Physics, Chemistry Mathematics in 2003*
+
 > *Image: Myself, Public domain*
 
 Membrane electrolysis cells producing ultra-pure chlorine and caustic soda for semiconductor manufacturing. Uses ion-exchange membranes instead of asbestos diaphragms, achieving higher purity required for wafer processing chemicals.

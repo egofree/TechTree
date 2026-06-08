@@ -20,6 +20,8 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 
 ![Chilton Biomass Energy Centre County Durham - geograph.org.uk - 2430058](../images/energy/energy_biomass-energy.jpg)
 
+> *Chilton Biomass Energy Centre County Durham, Data from Geograph: Description: NZ2830 :: Chilton Biomass Energy Centre County Durham, near to Chilton, County Durham, Great Britain ICBM: 54.667085191042, -1.5646108612687 Location: (about 1 km from) near to Chilton, County Durham, Great Britain.*
+
 > *Image: peter robinson, CC BY-SA 2.0*
 
 - **Biomass feedstock** — Wood chips, agricultural residues (straw, husks, stalks), animal manure, food waste, energy crops (miscanthus, switchgrass). See [Plants](../plants/structural-plants.md).

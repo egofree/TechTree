@@ -12,6 +12,8 @@
 
 ![Sweet Potato](../images/plants/plants_sweet-potato.jpg)
 
+> *This is an image with the theme "Farm to Plate" from:*
+
 > *Image: Ivykas, CC BY-SA 4.0*
 
 Sweet Potato

@@ -12,6 +12,8 @@
 
 ![Bergerac depuis D17 (2)](../images/machine-tools/machine-tools_resistance-welding.jpg)
 
+> *La ville de Bergerac vue depuis la route départementale 17, Dordogne, France.*
+
 > *Image: Père Igor, CC BY-SA 3.0*
 
 Spot welding (copper electrodes, 5000-20000A, 1-10 cycles at 50Hz) and seam welding (roller electrodes, overlapping spots for continuous gas-tight seams). No filler, no gas, no flux. Uses resistance heating at the workpiece interface: H = I²Rt. Projection welding for nuts and brackets. Critical for automotive body assembly and battery tab welding.

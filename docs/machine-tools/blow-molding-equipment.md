@@ -12,6 +12,8 @@
 
 ![Merlyn Smith molding a flange in Glass Fabrication department](../images/machine-tools/machine-tools_blow-molding-equipment.jpg)
 
+> *General view of Merlyn Smith molding a flange on a six-inch pipe manufactured in the Dow Chemical Company's Glass Fabrication department. Founded in 1925, the department was responsible for the fabrication and repair of specialty glass equipment used at the Company's plant in Midland, Michigan. In this photograph, the pipe is seen being rotated in a lathe to keep it properly aligned during the molding process.*
+
 > *Image: Dow Chemical Company, Public domain*
 
 Blow molding produces hollow plastic parts by extruding or injecting a tube of molten polymer (the parison), enclosing it in a split mold, and inflating it with compressed air against the mold cavity walls. The polymer solidifies on contact with the cooled mold surface, taking the mold's shape. The process is limited to hollow parts with uniform wall thickness but offers the lowest tooling cost of any hollow-part production method — blow molds cost $3,000-30,000 versus $10,000-100,000+ for injection molds.

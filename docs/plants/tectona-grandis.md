@@ -12,6 +12,8 @@
 
 ![Teak](../images/plants/plants_tectona-grandis.jpg)
 
+> *Teak plants at Gudilova temples in Visakhapatnam*
+
 > *Image: Adityamadhav83, CC BY 4.0*
 
 Teak (*Tectona grandis*) is a tropical hardwood renowned for its exceptional natural durability, dimensional stability, and resistance to rot, insects, and weather. It is the gold standard timber for shipbuilding, outdoor furniture, and any application where wood must withstand decades of exposure to rain, sun, and seawater without chemical treatment.

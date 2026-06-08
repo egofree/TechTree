@@ -19,6 +19,8 @@ Without glass-to-metal seals: no vacuum tubes (the anode, cathode, and grid lead
 
 ![Matched glass-to-metal seals](../images/glass/glass_glass-to-metal-seals.jpg)
 
+> *Přizpůsobené zátavy kovu a skla*
+
 > *Image: Antonín Ryska, CC BY-SA 4.0*
 
 - **Materials**: [Borosilicate glass](advanced.md) tubing and rod (CTE 3.3 × 10⁻⁶/°C for matched seals), [specialty alloys](../metals/alloys.md) (Kovar — Fe-29Ni-17Co, CTE ~5.0 × 10⁻⁶/°C), soda-lime glass (CTE ~9 × 10⁻⁶/°C for compression seals), mild steel or stainless steel (CTE 11–17 × 10⁻⁶/°C for compression seals), frit glass powder (low-melting lead borosilicate or zinc borate glass), hydrogen and forming gas (5% H₂ / 95% N₂) for oxide control

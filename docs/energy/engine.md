@@ -17,6 +17,8 @@ Four engine types form a natural progression, each building on the capabilities 
 
 ![Corliss cylinder (Heat Engines, 1913)](../images/energy/energy_engine.jpg)
 
+> *Corliss cylinder (Heat Engines, 1913).jpg*
+
 > *Image: Andy Dingley (scanner), Public domain*
 
 Each engine type has a dedicated article with full detail:

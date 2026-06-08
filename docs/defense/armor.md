@@ -21,6 +21,8 @@ Armor production consumes significant resources. A full plate harness requires 2
 
 ![2023 Manila Auto Salon - Isuzu D-Max Armored Vehicle 2023 by Impenetra Armor Protective Systems](../images/defense/defense_armor.jpg)
 
+> *2023 Isuzu D-Max Armored Vehicle (a customized version of the 3.0 Single Cab 4x4 trim model) displayed during the 2023 Motul Manila Auto Salon, Sport Truck Show at SMX Convention Center Manila.*
+
 > *Image: Ethan Llamas, CC BY 4.0*
 
 Armor and protective systems draw on multiple industrial capabilities. While basic organic armor (rawhide, quilted gambeson) can be produced with [stone and wood tools](../foundations/tools-basic.md) and [textile manufacturing](../textiles/index.md), metal armor requires organized production:

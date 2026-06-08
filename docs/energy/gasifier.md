@@ -12,6 +12,8 @@
 
 ![Renewable-H2 production process from biomass gasification](../images/energy/energy_gasifier.png)
 
+> *Renewable-H2 production process from biomass gasification.*
+
 > *Image: Rey, José Ramón Copa, Cecilia Mateos-Pedrero, Andrei Longo, Bruna Rijo, Paulo Brito, Paulo Ferreira, and Catarina Nobre., CC BY-SA 4.0*
 
 A biomass gasifier converts solid fuel (wood chips, charcoal, agricultural residues) into a combustible gas (producer gas or wood gas) through partial combustion in a restricted-air environment. The gasifier is a vertical shaft reactor with four distinct thermal zones stacked top to bottom: **drying** (50-150°C, moisture evaporates), **pyrolysis** (200-600°C, volatile matter released), **combustion** (800-1200°C, partial oxidation provides heat), and **reduction** (700-1000°C, CO₂ and H₂O are reduced by hot char to CO and H₂).

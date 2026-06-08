@@ -21,6 +21,8 @@ The critical threshold for the first practical steam engine: precision-bored cyl
 
 ![Shatura steam power plant (2010)](../images/energy/energy_steam-power.jpg)
 
+> *Shatura steam power plant buildings. Summer 2010 photo.*
+
 > *Image: Burger, Public domain*
 
 - **Materials**: [Wrought iron plate](../metals/iron-steel.md) (6-25 mm thick for boilers, cylinders, flues), [cast iron](../metals/casting.md) for cylinder blocks and flywheels, [steel](../metals/iron-steel.md) for high-pressure boiler tubes and stay bolts, [copper or brass](../metals/copper-bronze.md) for valve fittings and condenser tubes, [hemp or leather](../plants/fiber-plants.md) for piston packing and gaskets, [lubricants](../chemistry/lubricants.md) (tallow, mineral oil) for bearings and cylinders, [coal or wood](./fuels.md) for boiler firing

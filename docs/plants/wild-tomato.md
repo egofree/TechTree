@@ -12,6 +12,8 @@
 
 ![Wild Tomato](../images/plants/plants_wild-tomato.jpg)
 
+> *Salanum quadriloculatum flower at the end of spring (1st day of summer). At the , Adelaide, South Australia*
+
 > *Image: Peripitus, CC BY-SA 4.0*
 
 Wild Tomato

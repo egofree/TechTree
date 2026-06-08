@@ -15,6 +15,8 @@ Semiconductor fabrication exposes workers to hydrofluoric acid, pyrophoric silan
 
 ![A doctor wearing personal protective equipment for treating patients with COVID-19](../images/ehs/ehs_ppe.jpg)
 
+> *A doctor wearing personal protective equipment for treating patients with COVID-19*
+
 > *Image: Dr. Javed Anees, CC0*
 
 | Hazard Level | Concentration Range | Required Respirator | Protection Factor | Use Case |

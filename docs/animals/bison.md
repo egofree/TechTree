@@ -15,6 +15,8 @@ The American bison (*Bison bison*) is the largest terrestrial animal in North Am
 
 ![American bison k5680-1](../images/animals/animals_bison.jpg)
 
+> *Bison bison. Original caption: "scientists are helping users of American rangelands meet the challenge of managing multiple uses sustainably.")*
+
 > *Image: Jack Dykinga, Public domain*
 
 - [Domestication](domestication.md) — livestock handling, taming, and herd management principles

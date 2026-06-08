@@ -15,6 +15,8 @@ Electrical systems cannot be built or maintained without measurement. You need t
 
 ![Brockhaus-Efron Electrical Measurement Instruments 4](../images/measurement/measurement_electrical-instruments.jpg)
 
+> *Иллюстрация к статье Электрические измерительные аппараты из энциклопедии Брокгауза и Ефрона*
+
 > *Image: Брокгауз и Ефрон, Public domain*
 
 - [Electricity](../energy/electricity.md) — power generation, voltage, current, and circuit fundamentals

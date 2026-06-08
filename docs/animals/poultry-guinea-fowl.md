@@ -14,6 +14,8 @@ Helmeted guinea fowl (*Numida meleagris*) are hardy, disease-resistant poultry o
 
 ![Guinea fowl 2](../images/animals/animals_poultry_guinea-fowl.jpg)
 
+> *Kpaankɔɣu*
+
 > *Image: Zugusung, CC BY-SA 4.0*
 
 | Requirement | Source | Notes |

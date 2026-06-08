@@ -17,6 +17,8 @@ Duck eggs are larger than chicken eggs (70-80 g vs 50-65 g), richer in fat and p
 
 ![Ducks, Nacka ( 1090797)](../images/animals/animals_poultry_ducks.jpg)
 
+> *Ducks on Saltsjön in Nacka*
+
 > *Image: Matti Blume, CC BY-SA 4.0*
 
 | Requirement | Source | Notes |

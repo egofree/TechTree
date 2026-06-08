@@ -12,6 +12,8 @@
 
 ![World fuel production and consumption](../images/energy/energy_fuels.jpg)
 
+> *World fuel production and consumption*
+
 > *Image: Wikideas1, Public domain*
 
 **Strengths** (wood as fuel):

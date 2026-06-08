@@ -12,6 +12,8 @@
 
 ![Anvil, 5 kg in a jewellery workshop](../images/machine-tools/machine-tools_anvil.jpg)
 
+> *Anvil, 5 kg in a jewelry workshop. Studio photography made in the shop/workshop of Sophies Silver (Swedish spelling), Sankt Hansgatan 34, Visby, Gotland, Sweden.*
+
 > *Image: W.carter, CC BY-SA 4.0*
 
 An anvil is a massive, hard, flat-topped block that provides a rigid surface against which metal is shaped by hammering. The anvil face absorbs and returns hammer energy — a hard, flat surface reflects energy back into the workpiece, making each blow more effective. The anvil mass (20-200 kg) must greatly exceed the hammer mass (1-8 kg) so that the anvil does not move significantly under impact. The ratio of anvil mass to hammer mass should be at least 20:1 for efficient forging. The standard London-pattern anvil provides a flat face for general hammering, a rounded horn for bending curves, a step (shoulder) for supporting work at the edge, and a hardy hole (square) and pritchel hole (round) for holding tooling.

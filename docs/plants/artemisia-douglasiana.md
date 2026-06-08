@@ -12,6 +12,8 @@
 
 ![Artemisia douglasiana](../images/plants/plants_artemisia-douglasiana.jpg)
 
+> *This picture shows mugworts from all angles, as you can see both sides of the leaves, the stem, and the bud.*
+
 > *Image: Jerry Kirkhart from Los Osos, Calif., CC BY 2.0*
 
 Artemisia douglasiana , known as California mugwort , Douglas's sagewort , or dream plant , is a western North American species of aromatic herb in the sunflower family

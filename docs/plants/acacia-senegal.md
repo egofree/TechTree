@@ -12,6 +12,8 @@
 
 ![Gum Arabic](../images/plants/plants_acacia-senegal.jpg)
 
+> *Tito Melema, pencil, watercolour and bodycolour, with gum arabic painting by Edward Clifford (1844-1907)*
+
 > *Image: Edward Clifford, Public domain*
 
 Gum arabic (*Acacia senegal*, also known as Senegalia senegal) is a small thorny tree native to the Sahel region of Africa that exudes a natural gum from its bark when wounded. This gum, known as gum arabic, is one of the most useful natural materials in existence: it is an edible, water-soluble adhesive, emulsifier, film-former, and binder used in food, ink, paint, ceramics, textiles, and medicine.

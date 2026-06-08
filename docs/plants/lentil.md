@@ -12,6 +12,8 @@
 
 ![Lentil](../images/plants/plants_lentil.jpg)
 
+> *Bowl of lentil soup with green and red lentils.*
+
 > *Image: Whoisjohngalt, CC BY-SA 4.0*
 
 Lentil

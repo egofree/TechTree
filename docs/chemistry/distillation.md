@@ -12,6 +12,8 @@
 
 ![Distillation agricole p40](../images/chemistry/chemistry_distillation.jpg)
 
+> *Apparatus for distilation. Picture from "Dictionnaire encyclopédique de l'épicerie et des industries annexes" par Albert Seigneurie, édité par "L'Épicier" en 1904, page 40.*
+
 > *Image: Wikimedia Commons contributor, Public domain*
 
 **Simple distillation**:

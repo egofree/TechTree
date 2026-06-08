@@ -15,6 +15,8 @@ Submarine telegraph cables were the first global communications infrastructure, 
 
 ![BT submarine cable system support centre - geograph.org.uk - 1680884](../images/telecom/telecom_submarine-cables.jpg)
 
+> *BT submarine cable system support centre*
+
 > *Image: Peter Facey, CC BY-SA 2.0*
 
 - [Metals](../metals/index.md) — copper conductor production and wire drawing

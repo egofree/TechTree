@@ -12,6 +12,8 @@
 
 ![Kenaf](../images/plants/plants_kenaf.jpg)
 
+> *H1-1 Road South of Skukuza, Kruger NP, Mpumalanga, SOUTH AFRICA*
+
 > *Image: Bernard DUPONT from FRANCE, CC BY-SA 2.0*
 
 Kenaf

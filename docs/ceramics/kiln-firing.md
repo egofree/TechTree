@@ -12,6 +12,8 @@
 
 ![Firing sequences inside kiln firing](../images/ceramics/ceramics_kiln-firing.jpg)
 
+> *Firing sequences inside kiln firing*
+
 > *Image: Encik Tekateki, CC0*
 
 Kiln firing transforms dried clay objects into permanent ceramic by driving them through a carefully controlled temperature schedule. The heat expels chemically bound water, burns out organic matter, and triggers sintering reactions that partially vitrify the clay body. Bisque firing, the first pass at pyrometric cone 08 through cone 04 (roughly 950 to 1060 degrees C), produces porous ware that can absorb glaze. Glaze firing, the second pass at cone 6 through cone 10 (1220 to 1300 degrees C), melts the glaze coating and matures the clay body to its final density.

@@ -15,6 +15,8 @@ Submarine telegraph cables require an insulation material that is waterproof, el
 
 ![Stand der Gutta-Percha-Companie, Hannover Gruß von der Weltausstellung Louisiana Purchase Exposition New York 1904 Grands Prix Herrn ... Tabarz Großtabarz Bildseite](../images/polymers/polymers_gutta-percha.jpg)
 
+> *Mit einem "Gruß von der Weltausstellung" 1904 in Louisiana informierten Mitarbeiter vom "Stand der Continental-Caoutchouk- und Gutta-Percha-Companie, Hannover" (heute: Continental AG) den umseitigen Adressaten: "Soeben hat uns die Leitung der Weltausstellung für unsere Leistungen die höchste Auszeichnung, den Grand Prix verliehen. Die Modelle für die neue Saison 1905 Continental Pneumatik Centrum Pneumatik Cyclop Pneumatik erregen hier besichtigtes Aufsehen."*
+
 > *Image: differents, CC BY-SA 3.0*
 
 - [Rubber production](rubber.md) — basic elastomer and natural polymer processing knowledge

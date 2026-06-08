@@ -12,6 +12,8 @@
 
 ![India Rubber Tree](../images/plants/plants_ficus-elastica.jpg)
 
+> *Rubber plant (Ficus elastica) in Puerto Rico*
+
 > *Image: Bonnie Isaac, CC0*
 
 The India rubber tree (*Ficus elastica*) is a large evergreen fig tree native to northeast India, Nepal, Bhutan, and Myanmar. It produces a milky latex that contains rubber (cis-1,4-polyisoprene), though at lower concentration and lower quality than the Para rubber tree (*Hevea brasiliensis*). Before Hevea was widely cultivated, *Ficus elastica* was an important regional rubber source in its native range.

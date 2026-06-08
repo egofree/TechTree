@@ -12,6 +12,8 @@
 
 ![Damaged thermal insulation at Hilfswerks Atzenbrugg, Heiligeneich 02 EPS](../images/ceramics/ceramics_thermal-insulation.jpg)
 
+> *expanded polystyrene insulation and paint*
+
 > *Image: Herzi Pinki, CC BY-SA 4.0*
 
 Thermal insulation materials slow the movement of heat between a hot zone and a cooler environment. In an industrial civilization, the ability to retain heat in furnaces, kilns, steam pipes, and buildings directly determines energy efficiency and process viability. This capability covers three product families: mineral wool (spun from molten rock or slag), ceramic fiber blankets (alumina-silica fibers for temperatures above 1000 degrees C), and foam insulation (polymer-based closed-cell boards for ambient-temperature applications).

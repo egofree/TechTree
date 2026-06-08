@@ -25,6 +25,8 @@ For the metallurgy of producing iron and steel stock to be joined, see [Iron & S
 
 ![Johnson Matthey Metal Joining - geograph.org.uk - 4484546](../images/machine-tools/machine-tools_joining.jpg)
 
+> *Johnson Matthey Metal Joining*
+
 > *Image: Hugh Venables, CC BY-SA 2.0*
 
 - **[Welding](./welding.md)** — Forge welding, oxy-acetylene welding, SMAW (stick), TIG (GTAW), MIG (GMAW), resistance spot/seam welding, electron beam welding, ultrasonic welding & wire bonding, friction stir welding, laser welding, and diffusion bonding. Covers vacuum chamber fabrication, hermetic sealing, and weld quality inspection.

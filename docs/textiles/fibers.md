@@ -15,6 +15,8 @@ Fiber preparation transforms raw plant stems, animal fleece, and silk cocoons in
 
 ![Microstructure of Cotton Fibers 15% 10](../images/textiles/textiles_fibers.jpg)
 
+> *Twisted, interwoven cotton fibers at the micron scale with variable cellulose thickness producing delicate light interference. Captured at Satbayev University, Department of Chemical Processes and Industrial Ecology.*
+
 > *Image: Aiym Maksatkyzy, CC BY-SA 4.0*
 
 - [Animal Materials](../animals/animal-materials.md) — wool, hair, and silk sources

@@ -12,6 +12,8 @@
 
 ![Electron beam welder](../images/machine-tools/machine-tools_electron-beam.jpg)
 
+> *Electron beam welder*
+
 > *Image: Zobač, CC0*
 
 Focused electron beam (30-150kV accelerating voltage, 10-100mA beam current) welding in vacuum chamber. Deep narrow penetration (depth-to-width 10:1 to 30:1), minimal heat input and distortion. Zero porosity, zero contamination. Critical for UHV vacuum chamber fabrication (leak rates below 10⁻¹⁰ mbar·L/s), refractory metals, and aerospace components. Single-pass penetration up to 200mm in steel.

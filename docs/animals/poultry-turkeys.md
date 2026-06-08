@@ -14,6 +14,8 @@ Domestic turkeys (*Meleagris gallopavo*) are the largest poultry species commonl
 
 ![Ocellated turkey (Meleagris ocellata) male Peten](../images/animals/animals_poultry_turkeys.jpg)
 
+> *Ocellated turkey (Meleagris ocellata) male, Tikal, Peten, Guatemala*
+
 > *Image: Charles J. Sharp, CC BY-SA 4.0*
 
 | Requirement | Source | Notes |

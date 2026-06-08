@@ -12,6 +12,8 @@
 
 ![Winter Squash](../images/plants/plants_winter-squash.jpg)
 
+> *late to germinate, but now going strongwinter squash - kabocha*
+
 > *Image: sakura from between places, CC BY 2.0*
 
 Winter Squash

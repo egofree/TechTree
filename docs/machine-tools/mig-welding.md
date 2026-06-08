@@ -12,6 +12,8 @@
 
 ![GMAW.welding.af.ncs](../images/machine-tools/machine-tools_mig-welding.jpg)
 
+> *A man gas metal arc welding (MIG).*
+
 > *Image: William M. Plate Jr., Public domain*
 
 Gas Metal Arc Welding with continuously fed consumable wire electrode and CO₂/Ar shielding gas. Current 100-400A, voltage 16-35V. High deposition rate (2-8 kg/hour). Transfer modes: short-circuit, globular, spray, and pulsed spray. Dominant process for structural fabrication, automotive, and high-production welding.

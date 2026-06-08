@@ -21,6 +21,8 @@ Every industrial civilization discovered or invented glass independently. The ma
 
 ![Grohmann Museum January 2024 24 (Glass and Ceramics)](../images/glass/glass_basic.jpg)
 
+> *The Glass and Ceramics gallery at the Grohmann Museum in Milwaukee, Wisconsin (United States).*
+
 > *Image: Michael Barera, CC BY-SA 4.0*
 
 **Materials:**

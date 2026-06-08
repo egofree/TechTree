@@ -12,6 +12,8 @@
 
 ![View of 555 Mission Street's curtainwall glass facade and the tower crane removal process, SF, March 2008](../images/construction/construction_crane.jpg)
 
+> *View of 555 Mission Street's curtainwall glass facade and the tower crane removal process.*
+
 > *Image: Cheers. Trance addict - Armin van Buuren - Oceanlab, Public domain*
 
 A crane combines a vertical mast, a horizontal or angled boom (jib), and a hoisting mechanism to lift and place heavy loads at distances beyond human reach. The boom acts as a lever: the load moment (load × radius from mast) is balanced by the crane structure and counterweight. A derrick crane uses guy ropes to stabilize the mast, while a jib crane uses a fixed or pivoting horizontal beam.

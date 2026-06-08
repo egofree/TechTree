@@ -15,6 +15,8 @@ Before synthetic polymers are available, civilization needs a fast-drying, non-t
 
 ![Shellac flakes closeup](../images/polymers/polymers_rubber_shellac.jpg)
 
+> *Closeup photo of two different colors of shellac flakes, for the shellac article. The one on the left is "Orange #1 Waxy" (the most-used, classic, historically-accurate shellac), and the one on the right is "Dewaxed Bona" shellac.*
+
 > *Image: Nuberger13 at en.wikipedia, Public domain*
 
 - [Ethanol production](../chemistry/distillation.md) — shellac dissolves in ethanol; denatured spirit is the standard solvent

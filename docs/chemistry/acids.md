@@ -15,6 +15,8 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 
 ![Ethanolamine-chemical-liquid](../images/chemistry/chemistry_acids.jpg)
 
+> *A picture of the chemical ethanolamine. Taken for the Wikipedia page on Ethanolamine.*
+
 > *Image: Carbamatesalts, CC BY-SA 4.0*
 
 **Materials**:

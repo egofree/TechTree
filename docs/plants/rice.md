@@ -12,6 +12,8 @@
 
 ![Rice](../images/plants/plants_rice.jpg)
 
+> *Diagram of the back-acting engine of the steamship Emory Rice (formerly the gunboat USS Ranger (1873)), showing details of the crankshaft connection mechanism. The engine of the Emory Rice is the only known back-acting engine still in existence. Diagram legend is as follows: 1 - engine cylinder; 2 - piston; 3 and 3 - two piston rods, the upper and far one passing over the crankshaft and the lower and near one passing beneath, with the crank turning between the rods; 4 - crosshead guide; 5 - connecting rod; 6 - crankshaft; 7 - steam inlet (not shown); 8 - crankpin; 9 - wristpin; 10 - crosshead.*
+
 > *Image: Unknown authorUnknown author, Public domain*
 
 Rice

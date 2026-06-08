@@ -12,6 +12,8 @@
 
 ![Weaving Inle 3](../images/textiles/textiles_weaving.jpg)
 
+> *Woman weaving in Inle Lake, Myanmar*
+
 > *Image: Philip Nalangan, CC BY-SA 4.0*
 
 - [Spinning](spinning.md) — yarn supply for warp and weft

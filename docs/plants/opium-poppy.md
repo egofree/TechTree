@@ -12,6 +12,8 @@
 
 ![Opium Poppy](../images/plants/plants_opium-poppy.jpg)
 
+> *Opium poppy (Papaver somniferum): flowering and fruiting plants. Colour process print, c. 1924. Iconographic Collections*
+
 > *Image: Wikimedia Commons contributor, CC BY 4.0*
 
 Opium Poppy

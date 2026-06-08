@@ -12,6 +12,8 @@
 
 ![Pneumatics: an air-rifle and a kind of windmill. Engraving](../images/energy/energy_pneumatics.jpg)
 
+> *Pneumatics Iconographic Collections*
+
 > *Image: Wikimedia Commons contributor, CC BY 4.0*
 
 Compression, storage, and distribution of air at pressure for mechanical work. Pneumatic systems use compressed air to power drills, hammers, hoists, and actuators in mining, construction, and manufacturing. Enables safe energy transmission in wet or explosive environments where electric motors are hazardous.

@@ -12,6 +12,8 @@
 
 ![Cut a length of ~26 AWG solderable magnet wire for each pin but DLC and curl and pinch the ends to form narrow solder pads (18562165486)](../images/electronics/electronics_wire-insulation.jpg)
 
+> *Cut a length of ~26 AWG solderable magnet wire for each pin but DLC and curl and pinch the ends to form narrow solder pads*
+
 > *Image: cool3dpictures, CC BY-SA 2.0*
 
 Wire insulation coats bare metal conductors with a dielectric layer that prevents electrical contact between adjacent turns in a coil, between conductors in a cable bundle, and between conductors and grounded structures. The dominant form for electromagnetic components is **magnet wire** — copper or aluminum conductor coated with a thin (0.01-0.10 mm) cured enamel film. Magnet wire accounts for the majority of insulated conductor production by length because every transformer, motor, inductor, relay, and solenoid requires it.

@@ -23,6 +23,8 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 
 ![Gas sensor with Arduino](../images/chemistry/chemistry_air-separation.jpg)
 
+> *Sensore di gas, realizzato con Arduino*
+
 > *Image: Giacomo Alessandroni, CC BY-SA 4.0*
 
 **Materials**:

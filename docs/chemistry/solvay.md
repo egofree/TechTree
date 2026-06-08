@@ -15,6 +15,8 @@ The Solvay process produces sodium carbonate (soda ash, Na₂CO₃) from brine (
 
 ![Solvay Process it](../images/chemistry/chemistry_solvay.png)
 
+> *Processo Solvay per la produzione della soda (carbonato di sodio).*
+
 > *Image: Original uploader was Easchiff at en.wikipedia - translated from File:Solvay Process.PNG, CC BY-SA 3.0*
 
 - [Ammonia Production](ammonia.md) — Haber-Bosch process supplying the 1-2 kg/tonne NH₃ makeup

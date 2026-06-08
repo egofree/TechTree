@@ -15,6 +15,8 @@ Precision machines require precision parts, but precision parts require precisio
 
 ![Precision metal machining and welding for heavy industrial components](../images/machine-tools/machine-tools_iterative-bootstrap.jpg)
 
+> *Workers and machinery processing heavy steel components inside a manufacturing base in Suzhou. The production line handles OEM steel parts, wind power components, and structural steel assembly. Manufactured and photographed at the facility of Suzhou Leading Top Union Technology Co., Ltd. ( https://leadingtopunion.com )*
+
 > *Image: Leadingtopunion, CC0*
 
 - [Casting](../metals/casting.md) — sand casting of iron and aluminum parts for machine frames and components

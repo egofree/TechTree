@@ -21,6 +21,8 @@ Downstream, [silicon crystal growth](../silicon/crystal-growth.md) consumes quar
 
 ![Google Glass Explorer Optics Schematic](../images/glass/glass_advanced.jpg)
 
+> *Cross section of an eyepiece (200), for use in a head mounted display (HMD) with components: 120 - viewer's eye 200 - heads-up display eyepiece including: 201 - ambient scene side of eyepiece 202 - eyeward side of eyepiece 203 - forward light propagation path 204 - reverse light propagation path 205 - frame holding components 210 - in-coupling Polarizing Beam Splitter (PBS) 215 - out-coupling partially reflecting half-silvered mirror 230 - illumination region 235 - viewing region 240 - illumination assembly including an LED array with red, green, and blue LEDs and a polarization conversion system composed of a reflector, a wedge with a microlens array, a polarizing diffuser, and a crossed wire-grid polarizer.[1] 245 - Liquid Crystal on Silicon (LCoS) display 250 - plano-convex collimating lens with astigmatism correction; 81.87mm vertical radius, 83.20mm horizontal radius 255 - reflector; formed using a reflective coating on lens 250 270 - external scene*
+
 > *Image: Gupta, Anurag.; Amirparviz, Babak; Sharma, Sumit; Raffle, Hayes S.; Wang, Chia-Jean, Public domain*
 
 **Materials**:

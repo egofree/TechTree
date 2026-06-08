@@ -15,6 +15,8 @@ Electronic computing replaces slow, power-hungry electromechanical relays and me
 
 ![Electronic Computing Technology Scientific-Research Center, Moscow 02](../images/computing/computing_electronic.jpg)
 
+> *Electronic Computing Technology Scientific-Research Center, Moscow*
+
 > *Image: MBH, CC BY 4.0*
 
 - [Electromechanical computing](electromechanical.md) — relay logic, memory, and I/O concepts

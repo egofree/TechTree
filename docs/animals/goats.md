@@ -28,6 +28,8 @@ Goats produce milk that is more digestible than cow milk (smaller fat globules, 
 
 ![Capra aegagrus hircus, Moers](../images/animals/animals_goats.jpg)
 
+> *Ein Ziegenbock im Moerser Schlosspark.*
+
 > *Image: kaʁstn Disk/Cat, CC BY-SA 3.0 de*
 
 | Requirement | Source | Notes |

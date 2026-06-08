@@ -12,6 +12,8 @@
 
 ![High-power laser welding](../images/machine-tools/machine-tools_laser-welding.jpg)
 
+> *A laser welding test at LWT (Lindoe Welding Technology). The 32 kW laser system is in this test limited to 12 kW. The invisible laser beam is coming directly from above. Inert gas from the big nozzle flows around the weld bead and compressed air from the small nozzle removes fumes.*
+
 > *Image: Krorc, CC BY-SA 3.0*
 
 CO₂ laser (10.6μm, 100W-20kW) or fiber laser (1.06μm, 100W-30kW) focused beam welding. Keyhole mode: deep narrow welds (depth-to-width 5:1 to 15:1), speed 1-20 m/min. Conduction mode: shallow welds for thin materials. Fiber laser deliverable through flexible fiber optic, easily robot-integrated. High-speed precision welding for semiconductor equipment components.

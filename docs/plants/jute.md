@@ -12,6 +12,8 @@
 
 ![Jute](../images/plants/plants_jute.jpg)
 
+> *Jute — Capsules of Jute Plants. a, Corchorus capsularis; b, C. olitorius*
+
 > *Image: AnonymousUnknown author, Public domain*
 
 Jute

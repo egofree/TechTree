@@ -12,6 +12,8 @@
 
 ![Sesame](../images/plants/plants_sesame.jpg)
 
+> *Native to African and India, now planted widely for its seeds and oil. Photo from near Tanzania--Mozambique border, were it is known as Sim Sim.*
+
 > *Image: Dick Culbert from Gibsons, B.C., Canada, CC BY 2.0*
 
 Sesame

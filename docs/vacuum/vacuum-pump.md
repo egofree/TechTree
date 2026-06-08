@@ -14,6 +14,8 @@ This article covers the construction of three vacuum pump families that together
 
 ![Fruitland RCF500 Rotary Vane Vacuum Pump](../images/vacuum/vacuum_vacuum-pump.jpg)
 
+> *Fruitland's RCF500 rotary vane vacuum pump.*
+
 > *Image: Gwhite4444, CC BY-SA 4.0*
 
 A vacuum pump removes gas molecules from a sealed volume, progressively lowering the pressure. Three construction families cover the range needed for semiconductor processing:

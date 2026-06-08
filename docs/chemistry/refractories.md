@@ -14,6 +14,8 @@ Refractories are heat-resistant ceramic materials that line furnaces, kilns, inc
 
 ![Refractory bricks lining](../images/chemistry/chemistry_refractories.jpg)
 
+> *refractory lining to insulate the steel shell of a Rotary Kiln from the high temperatures inside the kiln*
+
 > *Image: Alexknight12, CC BY-SA 3.0*
 
 - [Ceramic kilns](../ceramics/kilns.md) — firing refractory bricks to 1200-1600°C

@@ -16,6 +16,8 @@ This document covers five gear types: spur (parallel shafts, simplest to produce
 
 ![Industrail Gear Manufacturing Company (NBY 416293)](../images/machine-tools/machine-tools_gears.jpg)
 
+> *Industrail Gear Manufacturing Company*
+
 > *Image: Unknown authorUnknown author, Public domain*
 
 A gear is a cylinder or cone with teeth cut into its periphery at a precise spacing called the circular pitch. When two gears mesh, the teeth of one fit into the gaps of the other, forcing both to rotate together. The gear ratio — the ratio of tooth counts — determines how speed and torque change between the input and output shafts. A 20-tooth pinion driving a 60-tooth gear reduces output speed to one-third and triples output torque.

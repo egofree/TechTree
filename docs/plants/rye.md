@@ -12,6 +12,8 @@
 
 ![Rye](../images/plants/plants_rye.jpg)
 
+> *Rye/East Sussex, East Street*
+
 > *Image: Helmut Zozmann, CC BY-SA 2.0*
 
 Rye

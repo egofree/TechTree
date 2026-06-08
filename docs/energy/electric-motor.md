@@ -12,6 +12,8 @@
 
 ![Electric motor working process](../images/energy/energy_electric-motor.png)
 
+> *Electric motor working process diagram*
+
 > *Image: K.Venkataramana, CC BY-SA 4.0*
 
 An electric motor converts electrical energy into mechanical rotation through the interaction of magnetic fields. Current-carrying conductors in a magnetic field experience a force (Lorentz force): F = I × L × B, where I is current, L is conductor length, and B is magnetic flux density. In a motor, the armature (rotor) windings carry current in a magnetic field produced by field poles (stator), creating torque that rotates the shaft.

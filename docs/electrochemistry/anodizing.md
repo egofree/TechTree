@@ -15,6 +15,8 @@ Aluminum components in corrosive, high-wear, or high-purity environments need su
 
 ![Anodizzazione dell'alluminio](../images/electrochemistry/electrochemistry_anodizing.png)
 
+> *Struttura colonnare del rivestimento di anodizzazione dell'alluminio.*
+
 > *Image: Matteo Bordiga, CC BY-SA 4.0*
 
 - [Acids](../chemistry/acids.md) — sulfuric acid for Type II/III baths, oxalic acid additive

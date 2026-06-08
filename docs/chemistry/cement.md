@@ -12,6 +12,8 @@
 
 ![Concrete Bridge at Cement, California](../images/chemistry/chemistry_cement.jpg)
 
+> *Photo No. 76.: Concrete Bridge at Cement, California, Solano County (1911)*
+
 > *Image: Unknown authorUnknown author, Public domain*
 
 **Raw materials**:

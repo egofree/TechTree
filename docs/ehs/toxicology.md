@@ -17,6 +17,8 @@ The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison.
 
 ![Branches of Environmental Toxicology - Entox-fields lrg](../images/ehs/ehs_toxicology.png)
 
+> *Branches of Environmental Toxicology*
+
 > *Image: Toxtutor, CC BY-SA 3.0*
 
 | Scenario | Recommended Method | Accuracy | Cost | Turnaround |

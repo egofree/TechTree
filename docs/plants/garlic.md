@@ -12,6 +12,8 @@
 
 ![Garlic](../images/plants/plants_garlic.jpg)
 
+> *Garlic bulbs and cloves*
+
 > *Image: Ivar Leidus, CC BY-SA 4.0*
 
 Garlic

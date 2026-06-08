@@ -12,6 +12,8 @@
 
 ![Ethanolamine-chemical-liquid](../images/chemistry/chemistry_alkalis.jpg)
 
+> *A picture of the chemical ethanolamine. Taken for the Wikipedia page on Ethanolamine.*
+
 > *Image: Carbamatesalts, CC BY-SA 4.0*
 
 **[Leblanc process](../glossary/leblanc-process.md)** (first synthetic soda ash):

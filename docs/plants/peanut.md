@@ -12,6 +12,8 @@
 
 ![Peanut](../images/plants/plants_peanut.jpg)
 
+> *Interview with NS Peanut by fomos esports*
+
 > *Image: fomos esports, CC BY 3.0*
 
 Peanut

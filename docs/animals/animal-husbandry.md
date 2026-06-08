@@ -15,6 +15,8 @@ A bootstrapping civilization needs reliable sources of labor, food, fiber, and f
 
 ![20220306 Shandong Vocational College of Animal Husbandry and Veterinary Medicine 04](../images/animals/animals_animal-husbandry.jpg)
 
+> *​山东省畜牧兽医职业学院*
+
 > *Image: Ngguls, CC BY-SA 4.0*
 
 - [Livestock domestication](domestication.md) — captive breeding populations of cattle, sheep, goats, pigs, or poultry

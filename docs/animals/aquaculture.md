@@ -17,6 +17,8 @@ The practice splits into freshwater pond farming (the primary focus here) and co
 
 ![Switch from a Regular fish farm to RAS](../images/animals/animals_aquaculture.jpg)
 
+> *Switch from an extensive flow-through raceway system to a water efficient RAS technology will decrease the share of medium- and small-scale aquaculture farms in Total fisheries groundwater abstraction to 4.5-6.0% instead of current 37% .*
+
 > *Image: Narek75, CC BY-SA 4.0*
 
 - [Insect farming](insect-farming.md) — insect meal as supplemental fish feed

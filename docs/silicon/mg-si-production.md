@@ -12,6 +12,8 @@
 
 ![Crystal structure of Silicon Material](../images/silicon/silicon_mg-si-production.jpg)
 
+> *Crystal structure of Silicon Material created by xcrysden*
+
 > *Image: MmRoma, CC0*
 
 **Process**: Carbothermic reduction of quartz in submerged arc electric furnace.

@@ -19,6 +19,8 @@ The scale: a single integrated steel mill produces 2-5 million tonnes of rolled 
 
 ![US Navy 050422-M-8797S-022 U.S. Navy Seabees level out the primary landing zone aboard Camp Blue Diamond so they are able to lay down metal plating](../images/metals/metals_forming.jpg)
 
+> *Al Anbar Province, Iraq (April 22, 2005) – U.S. Navy Seabees level out the primary landing zone aboard Camp Blue Diamond so they are able to lay down metal plating to help prevent helicopters from kicking up dust when taking off or landing. Marines assigned to 2nd Marine Division conduct Security and Stabilization Operations (SASO) in the Al Anabar Province in support of Operation Iraqi Freedom (OIF). U.S. Marine Corps photo by Cpl. Thomas Schaeffer (RELEASED)*
+
 > *Image: U.S. Marine Corps photo by Cpl. Thomas Schaeffer, Public domain*
 
 - **Materials**: [Liquid steel](./steelmaking.md) from basic oxygen or electric arc furnace (150-350 tonnes per heat), [aluminum billets](./aluminum.md) from Hall-Héroult cells, [mold powder/flux](../chemistry/refractories.md) for continuous casting, [lubricants](../chemistry/lubricants.md) for extrusion and forging dies, [HCl or H₂SO₄](../chemistry/acids.md) for pickling (scale removal)

@@ -22,6 +22,8 @@ The economic impact is hard to overstate. A single diesel generator producing 50
 
 ![Claymills Victorian Pumping Station - internal combustion engines - geograph.org.uk - 5442042](../images/energy/energy_internal-combustion.jpg)
 
+> *Claymills Victorian Pumping Station - internal combustion engines*
+
 > *Image: Chris Allen, CC BY-SA 2.0*
 
 Invented by Nikolaus Otto (1876). The dominant engine for road vehicles and small aircraft. The four-stroke cycle completes one power stroke every two crankshaft revolutions.

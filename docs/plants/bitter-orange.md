@@ -12,6 +12,8 @@
 
 ![Bitter orange](../images/plants/plants_bitter-orange.jpg)
 
+> *A highly-detailed photograph of a water droplet delicately balanced on a green bitter orange leaf.*
+
 > *Image: بدر, CC BY-SA 4.0*
 
 The bitter orange , sour orange , Seville orange , bigarade orange , or marmalade orange is the hybrid citrus tree species Citrus × aurantium , and its fruit. It is native to Southeast Asia and has been spread by humans to many parts of the world

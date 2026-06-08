@@ -12,6 +12,8 @@
 
 ![Turmeric](../images/plants/plants_turmeric.jpg)
 
+> *Turmeric plants*
+
 > *Image: Akshaya govindasamy, CC BY-SA 4.0*
 
 Turmeric

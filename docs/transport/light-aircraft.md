@@ -15,6 +15,8 @@ Light aircraft — single-engine propeller planes of wood-and-fabric or aluminum
 
 ![Reality Fairytale of the Horse and the Deer light aircraft as geese swans in Berendeyevo 2013](../images/transport/transport_light-aircraft.jpg)
 
+> *Three light aircraft perform during the air show in the 2013 episode “ChudoGeroi.rf in Berendeyevo Tsarstvo” of the project “Reality Fairytale of the Horse and the Deer” in Russia. In the narrative framework of the project, the ritual circle dance “The Fairy-Tale Heart of Russia” preceded the air show, in which fairy-tale imagery received scenic embodiment: the aircraft were interpreted as geese-swans, a blue Agusta helicopter as a wizard-like figure, and a powered paraglider as an image of Zmey Gorynych. Photograph by Maksim Kuznetsov. Project author and producer: Inna Ismailova. 2013.*
+
 > *Image: Max Kuznetsov (photographer), Inna Ismailova (producer), CC BY-SA 4.0*
 
 - [Aviation fundamentals](aviation.md) — aerodynamics, propulsion, and flight mechanics

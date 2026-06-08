@@ -15,6 +15,8 @@ Semiconductor fabrication releases toxic, pyrophoric, and corrosive gases and va
 
 ![The Toilet exhaust fan-Indian Railways-India442](../images/ehs/ehs_ventilation-exhaust.jpg)
 
+> *the train no:11014(lokmania tilak) train's A/c coach toilet on november-2011*
+
 > *Image: Tha-uzhavan, CC BY-SA 3.0*
 
 | Exhaust Source | Recommended System | Key Design Parameter | Abatement Required |

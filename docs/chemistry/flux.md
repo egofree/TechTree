@@ -12,6 +12,8 @@
 
 ![Katedra za menadžment i produkciju pozorišta, radija i kulture, FDU, Flux radio 03](../images/chemistry/chemistry_flux.jpg)
 
+> *Management and Production Department, the Faculty of Dramatic Arts, Flux radio Project*
+
 > *Image: Faculty of Dramatic Arts in Belgrade, CC BY-SA 4.0*
 
 Production of welding and metallurgical fluxes from borax, limestone, fluorspar, and rosin to prevent oxidation and improve joint quality during metal joining and casting.

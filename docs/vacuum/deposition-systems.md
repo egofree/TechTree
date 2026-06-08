@@ -14,6 +14,8 @@ Deposition systems are the reason vacuum technology exists in semiconductor manu
 
 ![Aomic-layer-deposition-system](../images/vacuum/vacuum_deposition-systems.jpg)
 
+> *An Atomic Layer Deposition (ALD) system at Los Alamos National Laboratory.*
+
 > *Image: Center for Integrated Nanotechnologies - Los Alamos National Laboratory, Public domain*
 
 ### DC Magnetron Sputtering

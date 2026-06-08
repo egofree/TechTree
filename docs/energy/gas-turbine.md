@@ -20,6 +20,8 @@ The fundamental challenge is that the compressor and turbine are aerodynamically
 
 ![Sankey diagram gas turbine energy flows](../images/energy/energy_gas-turbine.jpg)
 
+> *Sankey diagram van de energiestromen in een gasturbine, inclusief de "rondlopende" arbeid*
+
 > *Image: Janhuisman42, CC BY-SA 3.0*
 
 The Brayton cycle consists of four ideal processes:

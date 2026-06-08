@@ -12,9 +12,9 @@
 
 ![White Willow](../images/plants/plants_salix-alba.jpg)
 
-> *White and Blue Student Newspaper*
+> *Salix alba. Leaf adaxial side. Herbarium of the city Elektrostal Moscow Oblast, 2020 year. Created by scanography. Collection D.Makeev. Scale 1 unit = 1 mm. These are original colors. Please do not make edit.*
 
-> *Image: Brigham Young University student body, Public domain*
+> *Image: Dmitry Makeev, CC BY-SA 4.0*
 
 White willow (*Salix alba*) is a deciduous tree native to Europe and western Asia whose bark contains salicin, a glycoside that the body converts to salicylic acid. Salicylic acid is the active precursor to acetylsalicylic acid (aspirin), one of the most important medicines in history. Willow bark has been used for pain relief, fever reduction, and inflammation since ancient Egyptian, Greek, and Chinese medical traditions.
 

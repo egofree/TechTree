@@ -12,9 +12,9 @@
 
 ![Quinoa](../images/plants/plants_quinoa.jpg)
 
-> *Calca Peru- Quinoa seller at mercado*
+> *Quinoa (Chenopodium quinoa)*
 
-> *Image: Thayne Tuason, CC BY 4.0*
+> *Image: Philipp, CC0*
 
 Quinoa
 

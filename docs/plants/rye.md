@@ -12,9 +12,9 @@
 
 ![Rye](../images/plants/plants_rye.jpg)
 
-> *Rye/East Sussex, East Street*
+> *Secale cereale illustration (01)*
 
-> *Image: Helmut Zozmann, CC BY-SA 2.0*
+> *Image: Wikimedia Commons contributor, Public domain*
 
 Rye
 

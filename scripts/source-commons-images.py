@@ -138,10 +138,14 @@ def score_relevance(name, search_queries, candidate_title):
     if name_lower in title_lower:
         score += 5.0
 
-    # +0.5 for query words beyond name words
-    for word in query_words:
-        if word in title_word_set and word not in name_words:
-            score += 0.5
+    # +3 for query words (scientific names, specific terms) found in title
+    query_only_words = query_words - name_words
+    query_matches = sum(1 for w in query_only_words if w in title_word_set)
+    score += query_matches * 3.0
+
+    # -10 penalty if NO query-only words match (likely wrong subject)
+    if query_only_words and query_matches == 0:
+        score -= 10.0
 
     # -1 per generic word
     for word in title_word_set:

@@ -10,11 +10,11 @@
 
 ## Overview
 
-![Sunflower](../images/plants/plants_sunflower.jpeg)
+![Sunflower](../images/plants/plants_sunflower.jpg)
 
-> *Diagram of the cross made with the red sunflower*
+> *Sunflower (Helianthus annuus) blooming in director's lawn, IIT Mandi, HP, India. 27 Jun. 2021.*
 
-> *Image: Unknown authorUnknown author, Public domain*
+> *Image: Adarsh Patel, CC BY-SA 4.0*
 
 Sunflower
 

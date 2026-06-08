@@ -12,9 +12,9 @@
 
 ![Squash](../images/plants/plants_squash.jpg)
 
-> *Taylor Flavell playing at Carrara Squash Center, Gold Coast 2019*
+> *starr-110822-8269-plant-Cucurbita_pepo-summer_squash_yellow_zucchini_flower_and_fruit-Hawea_Pl_Olinda*
 
-> *Image: Tbflavell, CC BY-SA 4.0*
+> *Image: Forest and Kim Starr, CC BY 2.0*
 
 Squash
 

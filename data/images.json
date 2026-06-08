@@ -37052,7 +37052,19 @@
         "Flax Plants process",
         "Flax diagram"
       ],
-      "status": "needs_resource"
+      "status": "downloaded",
+      "local_path": "docs/images/plants/plants_flax.jpg",
+      "attribution": {
+        "title": "Linseed flax (Linum usitatissimum), near Whitsbury - geograph.org.uk - 1377610",
+        "description": "Linseed flax (Linum usitatissimum), near Whitsbury. This delicate looking plant has been an invaluable element in the economy of many civilizations since at least 5000BC.  Cloth spun from flax has been found in ancient tombs.  It was used for clothing and hangings in houses and temples; for sails and the thread for fishing nets; for ropes and bow strings; and, knotted with sow, stuffed into the cracks of boats.  To make cloth the flax was soaked, dried in the sun, tied into bundles. and then as a medieval account has it, 'knockyd, beten, rodded and gnodded, ribbed and heklyd and at last sponne'.  Equally important is its yield of oil.  Commercial crops of linseed have been grown in many parts of the world for use in paints, varnish and putty, as fattening food for cattle and in veterinary medicine.  Externally it may be used as a poultice for boils, inflammation and wounds.",
+        "author": "Trish Steel",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Linseed_flax_(Linum_usitatissimum),_near_Whitsbury_-_geograph.org.uk_-_1377610.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Linseed_flax_%28Linum_usitatissimum%29%2C_near_Whitsbury_-_geograph.org.uk_-_1377610.jpg",
+        "attribution_md": "Linseed flax (Linum usitatissimum), near Whitsbury - geograph.org.uk - 1377610\nLinseed flax (Linum usitatissimum), near Whitsbury. This delicate looking plant has been an invaluable element in the economy of many civilizations since at least 5000BC.  Cloth spun from flax has been found in ancient tombs.  It was used for clothing and hangings in houses and temples; for sails and the thread for fishing nets; for ropes and bow strings; and, knotted with sow, stuffed into the cracks of boats.  To make cloth the flax was soaked, dried in the sun, tied into bundles. and then as a medieval account has it, 'knockyd, beten, rodded and gnodded, ribbed and heklyd and at last sponne'.  Equally important is its yield of oil.  Commercial crops of linseed have been grown in many parts of the world for use in paints, varnish and putty, as fattening food for cattle and in veterinary medicine.  Externally it may be used as a poultice for boils, inflammation and wounds.\n\nImage: Trish Steel ([source](https://commons.wikimedia.org/wiki/File:Linseed_flax_(Linum_usitatissimum),_near_Whitsbury_-_geograph.org.uk_-_1377610.jpg))\nLicense: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)",
+        "license_tier": "libre"
+      }
     },
     "plants.foxtail-millet": {
       "node_name": "Foxtail Millet",
@@ -37370,7 +37382,19 @@
         "Lentil Plants process",
         "Lentil diagram"
       ],
-      "status": "needs_resource"
+      "status": "downloaded",
+      "local_path": "docs/images/plants/plants_lentil.jpg",
+      "attribution": {
+        "title": "3 types of lentil",
+        "description": "red, green and puy lentils",
+        "author": "User:Justinc",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:3_types_of_lentil.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/3_types_of_lentil.jpg",
+        "attribution_md": "3 types of lentil\nred, green and puy lentils\n\nImage: User:Justinc ([source](https://commons.wikimedia.org/wiki/File:3_types_of_lentil.jpg))\nLicense: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)",
+        "license_tier": "libre"
+      }
     },
     "plants.lesser-yam": {
       "node_name": "Lesser Yam",
@@ -37424,7 +37448,19 @@
         "Mango Plants process",
         "Mango diagram"
       ],
-      "status": "needs_resource"
+      "status": "downloaded",
+      "local_path": "docs/images/plants/plants_mango.jpg",
+      "attribution": {
+        "title": "Mango (Mangifera indica L.) flower and fruit with a purple-e",
+        "description": "Mango (Mangifera indica L.) flower and fruit with a purple-eyed butterfly (Papilio sp.). Coloured aquatint by W. Hooker after J. Forbes, 1768.\n\nIconographic Collections\nKeywords: William Hooker; James Forbes",
+        "author": "Wikimedia Commons contributor",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mango_(Mangifera_indica_L.)_flower_and_fruit_with_a_purple-e_Wellcome_V0043043.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mango_%28Mangifera_indica_L.%29_flower_and_fruit_with_a_purple-e_Wellcome_V0043043.jpg",
+        "attribution_md": "Mango (Mangifera indica L.) flower and fruit with a purple-e\nMango (Mangifera indica L.) flower and fruit with a purple-eyed butterfly (Papilio sp.). Coloured aquatint by W. Hooker after J. Forbes, 1768.\n\nIconographic Collections\nKeywords: William Hooker; James Forbes\n\nImage: Wikimedia Commons contributor ([source](https://commons.wikimedia.org/wiki/File:Mango_(Mangifera_indica_L.)_flower_and_fruit_with_a_purple-e_Wellcome_V0043043.jpg))\nLicense: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)",
+        "license_tier": "libre"
+      }
     },
     "plants.moringa": {
       "node_name": "Moringa",
@@ -37804,11 +37840,23 @@
       "node_name": "Quinoa",
       "domain": "plants",
       "search_queries": [
-        "Quinoa",
-        "Quinoa Plants process",
-        "Quinoa diagram"
+        "Chenopodium quinoa",
+        "Chenopodium quinoa plant",
+        "Chenopodium quinoa flower fruit"
       ],
-      "status": "needs_resource"
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/plants/plants_quinoa.jpg",
+      "attribution": {
+        "title": "Chenopodium quinoa 143908949",
+        "description": "Quinoa (Chenopodium quinoa)",
+        "author": "Philipp",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chenopodium_quinoa_143908949.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Chenopodium quinoa 143908949\nQuinoa (Chenopodium quinoa)\n\nImage: Philipp ([source](https://commons.wikimedia.org/wiki/File:Chenopodium_quinoa_143908949.jpg))\nLicense: [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en)"
+      }
     },
     "plants.ramie": {
       "node_name": "Ramie",
@@ -37880,11 +37928,23 @@
       "node_name": "Rice",
       "domain": "plants",
       "search_queries": [
-        "Rice",
-        "Rice Plants process",
-        "Rice diagram"
+        "Oryza sativa",
+        "Oryza sativa plant",
+        "Oryza sativa flower fruit"
       ],
-      "status": "needs_resource"
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/plants/plants_rice.jpg",
+      "attribution": {
+        "title": "Rice plant (Oryza sativa)",
+        "description": "Rice plant (Oryza sativa)",
+        "author": "Kalaiyarasiselvam",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rice_plant_(Oryza_sativa).jpg",
+        "license_tier": "libre",
+        "attribution_md": "Rice plant (Oryza sativa)\nRice plant (Oryza sativa)\n\nImage: Kalaiyarasiselvam ([source](https://commons.wikimedia.org/wiki/File:Rice_plant_(Oryza_sativa).jpg))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)"
+      }
     },
     "plants.rubber-tree": {
       "node_name": "Rubber Tree",
@@ -37934,11 +37994,23 @@
       "node_name": "Rye",
       "domain": "plants",
       "search_queries": [
-        "Rye",
-        "Rye Plants process",
-        "Rye diagram"
+        "Secale cereale",
+        "Secale cereale plant",
+        "Secale cereale flower fruit"
       ],
-      "status": "needs_resource"
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/plants/plants_rye.jpg",
+      "attribution": {
+        "title": "Secale cereale illustration (01)",
+        "description": "",
+        "author": "",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Secale_cereale_illustration_(01).jpg",
+        "license_tier": "libre",
+        "attribution_md": "Secale cereale illustration (01)\n\nImage: Wikimedia Commons contributor ([source](https://commons.wikimedia.org/wiki/File:Secale_cereale_illustration_(01).jpg))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
+      }
     },
     "plants.safflower": {
       "node_name": "Safflower",
@@ -37966,11 +38038,23 @@
       "node_name": "White Willow",
       "domain": "plants",
       "search_queries": [
-        "White Willow",
-        "White Willow Plants process",
-        "White Willow diagram"
+        "Salix alba",
+        "Salix alba plant",
+        "Salix alba flower fruit"
       ],
-      "status": "needs_resource"
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/plants/plants_salix-alba.jpg",
+      "attribution": {
+        "title": "2020 year. Herbarium. Salix alba. img-007",
+        "description": "Salix alba. Leaf adaxial side. Herbarium of the city Elektrostal Moscow Oblast, 2020 year. Created by scanography. Collection D.Makeev. Scale 1 unit = 1 mm. These are original colors. Please do not make edit.",
+        "author": "Dmitry Makeev",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:2020_year._Herbarium._Salix_alba._img-007.jpg",
+        "license_tier": "libre",
+        "attribution_md": "2020 year. Herbarium. Salix alba. img-007\nSalix alba. Leaf adaxial side. Herbarium of the city Elektrostal Moscow Oblast, 2020 year. Created by scanography. Collection D.Makeev. Scale 1 unit = 1 mm. These are original colors. Please do not make edit.\n\nImage: Dmitry Makeev ([source](https://commons.wikimedia.org/wiki/File:2020_year._Herbarium._Salix_alba._img-007.jpg))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)"
+      }
     },
     "plants.schinopsis-lorentzii": {
       "node_name": "Quebracho",
@@ -38086,21 +38170,45 @@
       "node_name": "Squash",
       "domain": "plants",
       "search_queries": [
-        "Squash",
-        "Squash Plants process",
-        "Squash diagram"
+        "Cucurbita pepo",
+        "Cucurbita pepo plant",
+        "Cucurbita pepo flower fruit"
       ],
-      "status": "needs_resource"
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/plants/plants_squash.jpg",
+      "attribution": {
+        "title": "Starr-110822-8269-plant-Cucurbita pepo-summer squash yellow zucchini flower and fruit-Hawea Pl Olinda",
+        "description": "starr-110822-8269-plant-Cucurbita_pepo-summer_squash_yellow_zucchini_flower_and_fruit-Hawea_Pl_Olinda",
+        "author": "Forest and Kim Starr",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Starr-110822-8269-plant-Cucurbita_pepo-summer_squash_yellow_zucchini_flower_and_fruit-Hawea_Pl_Olinda.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Starr-110822-8269-plant-Cucurbita pepo-summer squash yellow zucchini flower and fruit-Hawea Pl Olinda\nstarr-110822-8269-plant-Cucurbita_pepo-summer_squash_yellow_zucchini_flower_and_fruit-Hawea_Pl_Olinda\n\nImage: Forest and Kim Starr ([source](https://commons.wikimedia.org/wiki/File:Starr-110822-8269-plant-Cucurbita_pepo-summer_squash_yellow_zucchini_flower_and_fruit-Hawea_Pl_Olinda.jpg))\nLicense: [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)"
+      }
     },
     "plants.sunflower": {
       "node_name": "Sunflower",
       "domain": "plants",
       "search_queries": [
-        "Sunflower",
-        "Sunflower Plants process",
-        "Sunflower diagram"
+        "Helianthus annuus",
+        "Helianthus annuus plant",
+        "Helianthus annuus flower fruit"
       ],
-      "status": "needs_resource"
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/plants/plants_sunflower.jpg",
+      "attribution": {
+        "title": "Sunflower (Helianthus annuus) D35 5966 01",
+        "description": "Sunflower (Helianthus annuus) blooming in director's lawn, IIT Mandi, HP, India. 27 Jun. 2021.",
+        "author": "Adarsh Patel",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sunflower_(Helianthus_annuus)_D35_5966_01.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Sunflower (Helianthus annuus) D35 5966 01\nSunflower (Helianthus annuus) blooming in director's lawn, IIT Mandi, HP, India. 27 Jun. 2021.\n\nImage: Adarsh Patel ([source](https://commons.wikimedia.org/wiki/File:Sunflower_(Helianthus_annuus)_D35_5966_01.jpg))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)"
+      }
     },
     "plants.sweet-chestnut": {
       "node_name": "Sweet Chestnut",
@@ -38150,11 +38258,23 @@
       "node_name": "Taro",
       "domain": "plants",
       "search_queries": [
-        "Colocasia esculenta",
-        "Colocasia esculenta plant",
-        "Colocasia esculenta flower fruit"
+        "Colocasia esculenta leaves",
+        "Colocasia esculenta growing",
+        "Taro plant leaves"
       ],
-      "status": "needs_resource"
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/plants/plants_taro.jpg",
+      "attribution": {
+        "title": "Taro plant Colocasia esculenta growing wild on Luilau Ridge Trail Kauai",
+        "description": "No further information.",
+        "author": "Paul Harrison",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Taro_plant_Colocasia_esculenta_growing_wild_on_Luilau_Ridge_Trail_Kauai.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Taro plant Colocasia esculenta growing wild on Luilau Ridge Trail Kauai\nNo further information.\n\nImage: Paul Harrison ([source](https://commons.wikimedia.org/wiki/File:Taro_plant_Colocasia_esculenta_growing_wild_on_Luilau_Ridge_Trail_Kauai.jpg))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)"
+      }
     },
     "plants.tea": {
       "node_name": "Tea",

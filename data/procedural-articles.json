@@ -1,7 +1,7 @@
 {
   "$schema": "./schema/procedural-articles.schema.json",
   "description": "Manifest of articles describing physical processes, manufacturing methods, or step-by-step techniques",
-  "total": 463,
+  "total": 466,
   "articles": [
     {
       "id": "agriculture.crop-rotation",
@@ -538,13 +538,13 @@
     },
     {
       "id": "chemistry.acids.contact-process",
-      "title": "Contact Process (H\u2082SO\u2084)",
+      "title": "Contact Process (H₂SO₄)",
       "domain": "chemistry",
       "doc_path": "docs/chemistry/acids.md",
       "search_queries": [
-        "Contact Process (H\u2082SO\u2084)",
-        "Contact Process (H\u2082SO\u2084) Chemistry process",
-        "Contact Process (H\u2082SO\u2084) diagram"
+        "Contact Process (H₂SO₄)",
+        "Contact Process (H₂SO₄) Chemistry process",
+        "Contact Process (H₂SO₄) diagram"
       ],
       "has_existing_image": false,
       "source": "entity"
@@ -668,13 +668,13 @@
     },
     {
       "id": "chemistry.contact-process",
-      "title": "Contact Process (H\u2082SO\u2084)",
+      "title": "Contact Process (H₂SO₄)",
       "domain": "chemistry",
       "doc_path": "docs/chemistry/contact-process.md",
       "search_queries": [
-        "Contact Process (H\u2082SO\u2084)",
-        "Contact Process (H\u2082SO\u2084) Chemistry process",
-        "Contact Process (H\u2082SO\u2084) diagram"
+        "Contact Process (H₂SO₄)",
+        "Contact Process (H₂SO₄) Chemistry process",
+        "Contact Process (H₂SO₄) diagram"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -759,13 +759,13 @@
     },
     {
       "id": "chemistry.electrolysis.water-splitting",
-      "title": "Water Electrolysis (H\u2082/O\u2082)",
+      "title": "Water Electrolysis (H₂/O₂)",
       "domain": "chemistry",
       "doc_path": "docs/chemistry/electrolysis.md",
       "search_queries": [
-        "Water Electrolysis (H\u2082/O\u2082)",
-        "Water Electrolysis (H\u2082/O\u2082) Chemistry process",
-        "Water Electrolysis (H\u2082/O\u2082) diagram"
+        "Water Electrolysis (H₂/O₂)",
+        "Water Electrolysis (H₂/O₂) Chemistry process",
+        "Water Electrolysis (H₂/O₂) diagram"
       ],
       "has_existing_image": false,
       "source": "entity"
@@ -1110,13 +1110,13 @@
     },
     {
       "id": "chemistry.water-splitting",
-      "title": "Water Electrolysis (H\u2082/O\u2082)",
+      "title": "Water Electrolysis (H₂/O₂)",
       "domain": "chemistry",
       "doc_path": "docs/chemistry/water-splitting.md",
       "search_queries": [
-        "Water Electrolysis (H\u2082/O\u2082)",
-        "Water Electrolysis (H\u2082/O\u2082) Chemistry process",
-        "Water Electrolysis (H\u2082/O\u2082) diagram"
+        "Water Electrolysis (H₂/O₂)",
+        "Water Electrolysis (H₂/O₂) Chemistry process",
+        "Water Electrolysis (H₂/O₂) diagram"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -2552,6 +2552,19 @@
       "source": "entity_and_content"
     },
     {
+      "id": "machine-tools.bearings-abrasives",
+      "title": "Bearings, Abrasives & Cutting Tools",
+      "domain": "machine-tools",
+      "doc_path": "docs/machine-tools/bearings-abrasives.md",
+      "search_queries": [
+        "ball bearing",
+        "steel ball bearing",
+        "abrasive grinding wheel"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
+    },
+    {
       "id": "machine-tools.blow-molding-equipment",
       "title": "Blow Molding Equipment",
       "domain": "machine-tools",
@@ -2747,6 +2760,19 @@
       "source": "content_scan"
     },
     {
+      "id": "machine-tools.iterative-bootstrap",
+      "title": "Iterative Machine Bootstrap",
+      "domain": "machine-tools",
+      "doc_path": "docs/machine-tools/iterative-bootstrap.md",
+      "search_queries": [
+        "lathe machine",
+        "metal lathe turning",
+        "lathe workshop"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
+    },
+    {
       "id": "machine-tools.joining.riveting",
       "title": "Riveting",
       "domain": "machine-tools",
@@ -2758,6 +2784,19 @@
       ],
       "has_existing_image": false,
       "source": "entity"
+    },
+    {
+      "id": "machine-tools.joining",
+      "title": "Metal Joining",
+      "domain": "machine-tools",
+      "doc_path": "docs/machine-tools/joining.md",
+      "search_queries": [
+        "Metal Joining",
+        "Metal Joining Machine Tools process",
+        "Metal Joining diagram"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
     },
     {
       "id": "machine-tools.laser-welding",
@@ -2934,9 +2973,9 @@
       "domain": "mathematics",
       "doc_path": "docs/mathematics/applied-mathematics.md",
       "search_queries": [
-        "Applied Mathematics",
-        "Applied Mathematics Mathematics process",
-        "Applied Mathematics diagram"
+        "Fourier transform diagram",
+        "partial differential equations graph",
+        "mathematical modeling simulation chart"
       ],
       "has_existing_image": false,
       "source": "entity_and_content"
@@ -2963,6 +3002,19 @@
         "Clockmaking & Precision Horology",
         "Clockmaking & Precision Horology Measurement process",
         "Clockmaking & Precision Horology diagram"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
+    },
+    {
+      "id": "measurement.temperature-pressure",
+      "title": "Temperature & Pressure Measurement",
+      "domain": "measurement",
+      "doc_path": "docs/measurement/temperature-pressure.md",
+      "search_queries": [
+        "thermometer barometer scientific instrument",
+        "temperature pressure gauge measurement device",
+        "thermocouple pressure sensor instrumentation"
       ],
       "has_existing_image": false,
       "source": "entity_and_content"
@@ -3579,6 +3631,19 @@
       "source": "content_scan"
     },
     {
+      "id": "photolithography.fab-processes",
+      "title": "Core Fab Processes",
+      "domain": "photolithography",
+      "doc_path": "docs/photolithography/fab-processes.md",
+      "search_queries": [
+        "semiconductor fabrication cleanroom wafer",
+        "integrated circuit manufacturing process",
+        "semiconductor wafer processing equipment"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
+    },
+    {
       "id": "photolithography.fab-processes.plasma-etching",
       "title": "Plasma Etching (RIE & DRIE)",
       "domain": "photolithography",
@@ -3675,9 +3740,9 @@
       "domain": "photolithography",
       "doc_path": "docs/photolithography/resists-masks.md",
       "search_queries": [
-        "Photoresists, Masks & Lithography",
-        "Photoresists, Masks & Lithography Photolithography process",
-        "Photoresists, Masks & Lithography diagram"
+        "photolithography resist mask semiconductor",
+        "photolithography process wafer patterning",
+        "photoresist mask semiconductor fabrication"
       ],
       "has_existing_image": true,
       "source": "entity_and_content"
@@ -3818,9 +3883,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/apple.md",
       "search_queries": [
-        "Apple",
-        "Apple Plants process",
-        "Apple diagram"
+        "Malus domestica",
+        "Malus domestica plant",
+        "Malus domestica flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4026,9 +4091,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/cabbage.md",
       "search_queries": [
-        "Cabbage",
-        "Cabbage Plants process",
-        "Cabbage diagram"
+        "Brassica oleracea",
+        "Brassica oleracea plant",
+        "Brassica oleracea flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4143,9 +4208,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/coconut.md",
       "search_queries": [
-        "Coconut",
-        "Coconut Plants process",
-        "Coconut diagram"
+        "Cocos nucifera",
+        "Cocos nucifera plant",
+        "Cocos nucifera flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4169,9 +4234,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/coffee.md",
       "search_queries": [
-        "Coffee",
-        "Coffee Plants process",
-        "Coffee diagram"
+        "Coffea arabica",
+        "Coffea arabica plant",
+        "Coffea arabica flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4182,9 +4247,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/common-bean.md",
       "search_queries": [
-        "Common Bean",
-        "Common Bean Plants process",
-        "Common Bean diagram"
+        "Phaseolus vulgaris",
+        "Phaseolus vulgaris plant",
+        "Phaseolus vulgaris flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4195,9 +4260,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/cotton.md",
       "search_queries": [
-        "Cotton",
-        "Cotton Plants process",
-        "Cotton diagram"
+        "Gossypium hirsutum",
+        "Gossypium hirsutum plant",
+        "Gossypium hirsutum flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4208,9 +4273,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/cowpea.md",
       "search_queries": [
-        "Cowpea",
-        "Cowpea Plants process",
-        "Cowpea diagram"
+        "Vigna unguiculata",
+        "Vigna unguiculata plant",
+        "Vigna unguiculata flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4338,9 +4403,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/fig.md",
       "search_queries": [
-        "Fig",
-        "Fig Plants process",
-        "Fig diagram"
+        "Ficus carica",
+        "Ficus carica plant",
+        "Ficus carica flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4364,9 +4429,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/flax.md",
       "search_queries": [
-        "Flax",
-        "Flax Plants process",
-        "Flax diagram"
+        "Linum usitatissimum",
+        "Linum usitatissimum plant",
+        "Linum usitatissimum flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4377,9 +4442,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/foxtail-millet.md",
       "search_queries": [
-        "Foxtail Millet",
-        "Foxtail Millet Plants process",
-        "Foxtail Millet diagram"
+        "Setaria italica",
+        "Setaria italica plant",
+        "Setaria italica flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4559,9 +4624,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/lentil.md",
       "search_queries": [
-        "Lentil",
-        "Lentil Plants process",
-        "Lentil diagram"
+        "Lens culinaris",
+        "Lens culinaris plant",
+        "Lens culinaris flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4585,9 +4650,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/maize.md",
       "search_queries": [
-        "Maize",
-        "Maize Plants process",
-        "Maize diagram"
+        "Zea mays",
+        "Zea mays plant",
+        "Zea mays flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4598,9 +4663,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/mango.md",
       "search_queries": [
-        "Mango",
-        "Mango Plants process",
-        "Mango diagram"
+        "Mangifera indica",
+        "Mangifera indica plant",
+        "Mangifera indica flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4728,9 +4793,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/peanut.md",
       "search_queries": [
-        "Peanut",
-        "Peanut Plants process",
-        "Peanut diagram"
+        "Arachis hypogaea",
+        "Arachis hypogaea plant",
+        "Arachis hypogaea flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4780,9 +4845,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/pinus-sylvestris.md",
       "search_queries": [
-        "Scots Pine",
-        "Scots Pine Plants process",
-        "Scots Pine diagram"
+        "Pinus sylvestris",
+        "Pinus sylvestris plant",
+        "Pinus sylvestris flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4832,9 +4897,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/quercus-robur.md",
       "search_queries": [
-        "English Oak",
-        "English Oak Plants process",
-        "English Oak diagram"
+        "Quercus robur",
+        "Quercus robur plant",
+        "Quercus robur flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4845,9 +4910,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/quinoa.md",
       "search_queries": [
-        "Quinoa",
-        "Quinoa Plants process",
-        "Quinoa diagram"
+        "Chenopodium quinoa",
+        "Chenopodium quinoa plant",
+        "Chenopodium quinoa flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4897,9 +4962,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/rice.md",
       "search_queries": [
-        "Rice",
-        "Rice Plants process",
-        "Rice diagram"
+        "Oryza sativa",
+        "Oryza sativa plant",
+        "Oryza sativa flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4936,9 +5001,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/rye.md",
       "search_queries": [
-        "Rye",
-        "Rye Plants process",
-        "Rye diagram"
+        "Secale cereale",
+        "Secale cereale plant",
+        "Secale cereale flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -4962,9 +5027,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/salix-alba.md",
       "search_queries": [
-        "White Willow",
-        "White Willow Plants process",
-        "White Willow diagram"
+        "Salix alba",
+        "Salix alba plant",
+        "Salix alba flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -5040,9 +5105,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/squash.md",
       "search_queries": [
-        "Squash",
-        "Squash Plants process",
-        "Squash diagram"
+        "Cucurbita pepo",
+        "Cucurbita pepo plant",
+        "Cucurbita pepo flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -5066,9 +5131,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/sunflower.md",
       "search_queries": [
-        "Sunflower",
-        "Sunflower Plants process",
-        "Sunflower diagram"
+        "Helianthus annuus",
+        "Helianthus annuus plant",
+        "Helianthus annuus flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -5105,9 +5170,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/taro.md",
       "search_queries": [
-        "Taro",
-        "Taro Plants process",
-        "Taro diagram"
+        "Colocasia esculenta",
+        "Colocasia esculenta plant",
+        "Colocasia esculenta flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -5118,9 +5183,9 @@
       "domain": "plants",
       "doc_path": "docs/plants/tea.md",
       "search_queries": [
-        "Tea",
-        "Tea Plants process",
-        "Tea diagram"
+        "Camellia sinensis",
+        "Camellia sinensis plant",
+        "Camellia sinensis flower fruit"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -5283,13 +5348,13 @@
     },
     {
       "id": "polymers.composites",
-      "title": "Polymer Composites \u2014 Process Reference",
+      "title": "Polymer Composites — Process Reference",
       "domain": "polymers",
       "doc_path": "docs/polymers/composites.md",
       "search_queries": [
-        "Polymer Composites \u2014 Process Reference",
-        "Polymer Composites \u2014 Process Reference Polymers process",
-        "Polymer Composites \u2014 Process Reference diagram"
+        "Polymer Composites — Process Reference",
+        "Polymer Composites — Process Reference Polymers process",
+        "Polymer Composites — Process Reference diagram"
       ],
       "has_existing_image": true,
       "source": "entity_and_content"
@@ -5430,9 +5495,9 @@
       "domain": "precision-motion",
       "doc_path": "docs/precision-motion/nanometer-positioning.md",
       "search_queries": [
-        "Nanometer Positioning",
-        "Nanometer Positioning Precision Motion process",
-        "Nanometer Positioning diagram"
+        "piezoelectric actuator",
+        "micropositioning stage",
+        "nanopositioner"
       ],
       "has_existing_image": false,
       "source": "entity_and_content"
@@ -5443,9 +5508,9 @@
       "domain": "precision-motion",
       "doc_path": "docs/precision-motion/precision-encoders.md",
       "search_queries": [
-        "Precision Encoders & Feedback",
-        "Precision Encoders & Feedback Precision Motion process",
-        "Precision Encoders & Feedback diagram"
+        "rotary encoder optical precision",
+        "linear encoder measurement precision",
+        "optical encoder shaft angle sensor"
       ],
       "has_existing_image": false,
       "source": "entity_and_content"
@@ -5534,9 +5599,9 @@
       "domain": "silicon",
       "doc_path": "docs/silicon/basic-devices.md",
       "search_queries": [
-        "Basic Semiconductor Devices",
-        "Basic Semiconductor Devices Silicon process",
-        "Basic Semiconductor Devices diagram"
+        "silicon diode transistor semiconductor device",
+        "semiconductor PN junction diode",
+        "bipolar transistor silicon wafer"
       ],
       "has_existing_image": true,
       "source": "entity_and_content"
@@ -5556,13 +5621,13 @@
     },
     {
       "id": "silicon.cz-pulling",
-      "title": "Czochralski Crystal Pulling \u2014 Equipment & Construction",
+      "title": "Czochralski Crystal Pulling — Equipment & Construction",
       "domain": "silicon",
       "doc_path": "docs/silicon/cz-pulling.md",
       "search_queries": [
-        "Czochralski Crystal Pulling \u2014 Equipment & Construction",
-        "Czochralski Crystal Pulling \u2014 Equipment & Construction Silicon process",
-        "Czochralski Crystal Pulling \u2014 Equipment & Construction diagram"
+        "Czochralski Crystal Pulling — Equipment & Construction",
+        "Czochralski Crystal Pulling — Equipment & Construction Silicon process",
+        "Czochralski Crystal Pulling — Equipment & Construction diagram"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -5612,9 +5677,9 @@
       "domain": "silicon",
       "doc_path": "docs/silicon/soi.md",
       "search_queries": [
-        "SOI Wafer Production",
-        "SOI Wafer Production Silicon process",
-        "SOI Wafer Production diagram"
+        "silicon on insulator",
+        "SOI wafer",
+        "semiconductor wafer silicon"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -5677,9 +5742,9 @@
       "domain": "textiles",
       "doc_path": "docs/textiles/carding-machine.md",
       "search_queries": [
-        "Carding Machine",
-        "Carding Machine Textiles process",
-        "Carding Machine diagram"
+        "carding machine",
+        "wool carding",
+        "cotton carding roller"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -5724,14 +5789,27 @@
       "source": "content_scan"
     },
     {
+      "id": "textiles.rope-making",
+      "title": "Rope Making",
+      "domain": "textiles",
+      "doc_path": "docs/textiles/rope-making.md",
+      "search_queries": [
+        "rope making machine",
+        "rope walk",
+        "rope manufacturing"
+      ],
+      "has_existing_image": false,
+      "source": "entity_and_content"
+    },
+    {
       "id": "textiles.sewing-tailoring",
       "title": "Sewing and Tailoring",
       "domain": "textiles",
       "doc_path": "docs/textiles/sewing-tailoring.md",
       "search_queries": [
-        "Sewing and Tailoring",
-        "Sewing and Tailoring Textiles process",
-        "Sewing and Tailoring diagram"
+        "sewing machine",
+        "industrial sewing machine",
+        "tailor sewing garment"
       ],
       "has_existing_image": false,
       "source": "entity_and_content"
@@ -5872,9 +5950,9 @@
       "domain": "vlsi-scaling",
       "doc_path": "docs/vlsi-scaling/advanced-processes.md",
       "search_queries": [
-        "Advanced Processes",
-        "Advanced Processes Vlsi Scaling process",
-        "Advanced Processes diagram"
+        "semiconductor process technology",
+        "advanced node semiconductor",
+        "chip manufacturing process"
       ],
       "has_existing_image": true,
       "source": "entity_and_content"
@@ -5885,9 +5963,9 @@
       "domain": "vlsi-scaling",
       "doc_path": "docs/vlsi-scaling/continuous-scaling.md",
       "search_queries": [
-        "Continuous Scaling",
-        "Continuous Scaling Vlsi Scaling process",
-        "Continuous Scaling diagram"
+        "Moores law transistor count",
+        "transistor scaling chart",
+        "semiconductor node scaling graph"
       ],
       "has_existing_image": true,
       "source": "entity_and_content"
@@ -5898,9 +5976,9 @@
       "domain": "vlsi-scaling",
       "doc_path": "docs/vlsi-scaling/eda-design.md",
       "search_queries": [
-        "EDA, GPU Design & Advanced Packaging",
-        "EDA, GPU Design & Advanced Packaging Vlsi Scaling process",
-        "EDA, GPU Design & Advanced Packaging diagram"
+        "EDA electronic design automation software",
+        "VLSI chip layout design tool",
+        "integrated circuit CAD layout routing"
       ],
       "has_existing_image": true,
       "source": "entity_and_content"
@@ -5911,9 +5989,9 @@
       "domain": "vlsi-scaling",
       "doc_path": "docs/vlsi-scaling/lithography.md",
       "search_queries": [
-        "Lithography",
-        "Lithography Vlsi Scaling process",
-        "Lithography diagram"
+        "photolithography stepper scanner semiconductor",
+        "extreme ultraviolet lithography EUV",
+        "semiconductor lithography machine"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -5950,9 +6028,9 @@
       "domain": "water",
       "doc_path": "docs/water/filtration-equipment.md",
       "search_queries": [
-        "Filtration Equipment",
-        "Filtration Equipment Water process",
-        "Filtration Equipment diagram"
+        "water filtration equipment industrial filter",
+        "reverse osmosis water purification system",
+        "sand filter water treatment plant"
       ],
       "has_existing_image": false,
       "source": "content_scan"

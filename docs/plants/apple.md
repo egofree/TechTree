@@ -12,9 +12,9 @@
 
 ![Apple](../images/plants/plants_apple.jpg)
 
-> *Two flowering plants: thorn-apple (Datura stramonium) on the left and henbane (Hyoscyamus niger) on the right. Colour process print, 1924. Iconographic Collections*
+> *These are flowers of the apple tree (Malus domestica).*
 
-> *Image: Wikimedia Commons contributor, CC BY 4.0*
+> *Image: Relativity, CC BY-SA 4.0*
 
 Apple
 

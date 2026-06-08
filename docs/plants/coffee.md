@@ -12,9 +12,9 @@
 
 ![Coffee](../images/plants/plants_coffee.jpg)
 
-> *Simple diagram of a coffee percolator*
+> *A coffee plant (Coffea arabica), its flower and fruit segments bordered by six scenes illustrating its use by man. Coloured lithograph, c. 1840. Iconographic Collections Keywords: Coffee*
 
-> *Image: Original file: UnknownFerretRussian translation:Atorero, CC BY-SA 3.0*
+> *Image: Wikimedia Commons contributor, CC BY 4.0*
 
 Coffee
 

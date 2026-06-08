@@ -12,9 +12,9 @@
 
 ![Fig](../images/plants/plants_fig.jpg)
 
-> *Fig 28 Diagram showing the similarity of configuration of the Bedford stream channels*
+> *A fig plant (Ficus carica): fruiting stem and halved fruit. Coloured zincograph by J. Macfarlane, c. 1872, after himself. Iconographic Collections Keywords: J. L. MacFarlane*
 
-> *Image: Pepper, James F., Wallace De Witt, JR., and David F. Demarest, Public domain*
+> *Image: Wikimedia Commons contributor, CC BY 4.0*
 
 Fig
 

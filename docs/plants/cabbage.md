@@ -12,9 +12,9 @@
 
 ![Cabbage](../images/plants/plants_cabbage.jpg)
 
-> *This is a sculpture of a bok choy with a locust and a katydid.*
+> *Savoy cabbage (Brassica oleracea var. sabauda), Bijuesca, Spain*
 
-> *Image: Wikimedia Commons contributor, CC BY 4.0*
+> *Image: Diego Delso, CC BY-SA 3.0*
 
 Cabbage
 

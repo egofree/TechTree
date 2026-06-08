@@ -12,9 +12,9 @@
 
 ![Cowpea](../images/plants/plants_cowpea.jpg)
 
-> *Cowpea chlorotic mottle virus*
+> *A widely planted and variable crop with names such as Blackeye Pea. Photo from near Liparamba, Tanzania.*
 
-> *Image: Alan Cann, CC BY-SA 2.0*
+> *Image: Dick Culbert from Gibsons, B.C., Canada, CC BY 2.0*
 
 Cowpea
 

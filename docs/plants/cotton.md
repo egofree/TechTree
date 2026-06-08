@@ -10,11 +10,11 @@
 
 ## Overview
 
-![Cotton](../images/plants/plants_cotton.jpg)
+![Cotton](../images/plants/plants_cotton.jpeg)
 
-> *Patent for a device to remove plant fiber from picked cotton (referred to as "burs" and "bolls"). The device makes the process of cleaning cotton faster and more efficient.; [1], 2 p. : ill. ; 23 cm.*
+> *Karyotype of Cotton (Gossypium hirsutum). 2n=52. DAPI-stained chromosomes (blue) at metaphase are stained with anti-CENH3 (red), which localizes to the centromere region.*
 
-> *Image: Meier, John, Public domain*
+> *Image: Song Luo, Jennifer Mach, Bradley Abramson, Rolando Ramirez, Robert Schurr, Pierluigi Barone, Gregory Copenhaver, Otto Folkerts, CC BY 2.5*
 
 Cotton
 

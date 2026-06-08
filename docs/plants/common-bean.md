@@ -10,11 +10,11 @@
 
 ## Overview
 
-![Common Bean](../images/plants/plants_common-bean.jpg)
+![Common Bean](../images/plants/plants_common-bean.png)
 
-> *Amino acid score of common bean*
+> *Karyotype of Common bean (Phaseolus vulgaris). 2n=22.*
 
-> *Image: Qnc, CC BY-SA 3.0*
+> *Image: Dongying Gao, Dongyan Zhao, Brian Abernathy, Aiko Iwata-Otsubo, Alfredo Herrera-Estrella, Ning Jiang and Scott A. Jackson, CC BY 4.0*
 
 Common Bean
 

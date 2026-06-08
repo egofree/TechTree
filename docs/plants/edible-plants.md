@@ -219,6 +219,118 @@ Choosing the right staple crop for the local climate is the single most importan
 - **Semi-arid (250-500 mm rainfall)**: Sorghum (*Sorghum bicolor*, 1-3 tonnes/ha), pearl millet (*Pennisetum glaucum*, 0.5-2 tonnes/ha), cowpea (*Vigna unguiculata*). These C4 grasses use water more efficiently than wheat or rice. Sorghum grain: ~340 kcal/100g, 10% protein; also yields sweet stalk syrup
 - **Highland tropical (>1,500 m)**: Potato (native to Andes at 2,000-4,000 m), oca (*Oxalis tuberosa*), quinoa (*Chenopodium quinoa*, 4-8% protein, complete amino acid profile), kiwicha (*Amaranthus caudatus*)
 
+## Species Directory
+
+All 84 plant species in the tech tree tagged as edible. Multi-category species (also fiber, medicinal, structural, etc.) are included here for their food value. Each links to its individual article.
+
+### A–B
+
+- [Agave](agave.md) — heart, sap, flowers · also: fiber, structural
+- [Allium ampeloprasum](allium-ampeloprasum.md) — bulb, leaves, stem · also: fiber
+- [Apple](apple.md) — fruit · also: medicinal
+- [Artemisia absinthium](artemisia-absinthium.md) — leaves (flavoring) · also: fiber, medicinal, structural
+- [Balanites aegyptiaca](balanites-aegyptiaca.md) — fruit, seeds, shoots · also: fiber, medicinal, structural
+- [Barley](barley.md) — grain · also: medicinal
+- [Beet](beet.md) — root, leaves · also: medicinal
+- [Bitter orange](bitter-orange.md) — fruit, peel · also: fiber, medicinal, structural
+- [Black pepper](black-pepper.md) — peppercorn · also: dye, medicinal
+- [Buckwheat](buckwheat.md) — grain · also: medicinal
+
+### C
+
+- [Cabbage](cabbage.md) — leaves
+- [Cacao](cacao.md) — seeds (cocoa) · also: fuel, medicinal
+- [Carrot](carrot.md) — root · also: medicinal
+- [Cassava](cassava.md) — tuberous root
+- [Castor](castor.md) — seeds (oil) · also: dye, fiber, fuel, industrial
+- [Chickpea](chickpea.md) — seeds · also: medicinal
+- [Chili pepper](chili-pepper.md) — fruit · also: medicinal
+- [Coconut](coconut.md) — endosperm, water, oil · also: fiber, fuel, medicinal, structural
+- [Cocoyam](cocoyam.md) — corm
+- [Coffee](coffee.md) — seeds (beverage) · also: dye, medicinal, structural
+- [Common bean](common-bean.md) — pods, seeds · also: medicinal
+- [Cotton](cotton.md) — seeds (oil) · also: fiber, fuel, industrial
+- [Cowpea](cowpea.md) — seeds, leaves · also: medicinal
+
+### E–F
+
+- [Einkorn wheat](einkorn-wheat.md) — grain
+- [Fava bean](fava-bean.md) — seeds · also: medicinal
+- [Fig](fig.md) — fruit · also: dye, medicinal
+- [Finger millet](finger-millet.md) — grain
+- [Flax](flax.md) — seeds (oil) · also: fiber, fuel, industrial, medicinal
+- [Foxtail millet](foxtail-millet.md) — grain
+
+### G–J
+
+- [Garden pea](garden-pea.md) — seeds · also: medicinal
+- [Garlic](garlic.md) — bulb · also: medicinal
+- [Ginger](ginger.md) — rhizome · also: dye, medicinal
+- [Grape](grape.md) — fruit · also: dye, fuel, medicinal
+- [Hazel](hazel.md) — nuts · also: dye, medicinal, structural
+- [Hemp](hemp.md) — seeds · also: fiber, industrial
+- [Jerusalem artichoke](jerusalem-artichoke.md) — tuber · also: industrial
+- [Jicama](jicama.md) — tuberous root
+- [Jute](jute.md) — leaves · also: fiber, industrial
+
+### K–O
+
+- [Kenaf](kenaf.md) — leaves, seeds · also: dye, fiber, fuel, industrial
+- [Lentil](lentil.md) — seeds · also: industrial, medicinal
+- [Lesser yam](lesser-yam.md) — tuber · also: industrial
+- [Maize](maize.md) — grain · also: fuel, medicinal
+- [Mango](mango.md) — fruit · also: dye, fuel, medicinal, structural
+- [Moringa](moringa.md) — leaves, pods, seeds · also: dye, fiber, fuel, medicinal, structural
+- [Moso bamboo](phyllostachys-edulis.md) — shoots · also: fiber, structural
+- [New Zealand flax](phormium-tenax.md) — root · also: fiber
+- [Oat](oat.md) — grain · also: fuel, medicinal
+- [Oil palm](oil-palm.md) — fruit (palm oil) · also: fuel, industrial
+- [Olive](olive.md) — fruit (oil) · also: fuel, medicinal, structural
+- [Onion](onion.md) — bulb · also: medicinal
+- [Opium poppy](opium-poppy.md) — seeds · also: industrial, medicinal
+
+### P–R
+
+- [Peanut](peanut.md) — seeds · also: fuel, medicinal
+- [Pearl millet](pearl-millet.md) — grain
+- [Plantain](plantain.md) — fruit · also: medicinal
+- [Potato](potato.md) — tuber · also: fuel, medicinal
+- [Proso millet](proso-millet.md) — grain
+- [Quinoa](quinoa.md) — seeds · also: medicinal
+- [Ramie](ramie.md) — leaves · also: fiber, industrial
+- [Rapeseed](rapeseed.md) — seeds (oil) · also: fuel, industrial
+- [Rice](rice.md) — grain · also: fiber, fuel
+- [Rubber tree](rubber-tree.md) — seeds · also: fiber, fuel, industrial, structural
+- [Rye](rye.md) — grain · also: fiber
+
+### S
+
+- [Safflower](safflower.md) — seeds (oil) · also: dye, industrial, medicinal
+- [Sesame](sesame.md) — seeds · also: fuel, industrial
+- [Sicilian sumac](rhus-coraria.md) — fruit · also: dye, tannin
+- [Silver birch](betula-pendula.md) — sap · also: dye, medicinal, structural
+- [Sisal](sisal.md) — flower stalk · also: fiber, industrial
+- [Sorghum](sorghum.md) — grain · also: fuel, medicinal
+- [Soybean](soybean.md) — seeds · also: fiber, fuel
+- [Squash](squash.md) — fruit, seeds
+- [Sunflower](sunflower.md) — seeds · also: fiber, fuel, industrial, medicinal
+- [Sweet chestnut](sweet-chestnut.md) — nuts · also: dye, medicinal, structural
+- [Sweet potato](sweet-potato.md) — tuber
+
+### T–W
+
+- [Taro](taro.md) — corm
+- [Tea](tea.md) — leaves · also: medicinal
+- [Teff](teff.md) — grain · also: fiber
+- [Tobacco](tobacco.md) — leaves · also: medicinal
+- [Turmeric](turmeric.md) — rhizome · also: dye, medicinal
+- [Walnut](walnut.md) — nuts · also: dye, medicinal, structural
+- [Water yam](water-yam.md) — tuber
+- [Wheat](wheat.md) — grain · also: fiber, fuel, industrial, medicinal
+- [White lupin](white-lupin.md) — seeds · also: medicinal
+- [Wild tomato](wild-tomato.md) — fruit
+- [Winter squash](winter-squash.md) — fruit, seeds · also: medicinal
+
 ## See Also
 
 - [Plants & Botanical Resources](./index.md) — botanical knowledge and species identification

@@ -349,6 +349,46 @@ Wall thickness: 100-150 mm. Insulation value: moderate (poorer than solid masonr
 | Timber joints loosening within first year of construction | Green timber dried in place, causing 3-8% shrinkage; wooden pegs (trenails) shrank and no longer lock joints | Season timber to 15-20% moisture content before cutting joints; use dry hardwood pegs that swell slightly with ambient humidity to lock joints; design joints with pegs that can be re-driven as wood settles |
 | Straw thatch roof infested with rodents and birds | Grain remnants in threshed straw attract pests; thatch applied too loosely; no bird netting | Thresh straw carefully using flail (not machine) to preserve stem length while removing grain; compact thatch firmly in 300 mm courses; install bird netting over surface; fix with hazel or willow spars (split rods twisted into U-shaped staples) |
 
+## Species Directory
+
+All 35 plant species from the catalog tagged as structural, linked to their individual articles:
+
+- [Acacia mearnsii (Black Wattle)](./acacia-mearnsii.md)
+- [Acacia senegal (Gum Arabic Tree)](./acacia-senegal.md)
+- [Agave](./agave.md)
+- [Alnus glutinosa (Black Alder)](./alnus-glutinosa.md)
+- [Artemisia absinthium](./artemisia-absinthium.md)
+- [Artemisia capillaris](./artemisia-capillaris.md)
+- [Artemisia inculta](./artemisia-inculta.md)
+- [Azadirachta indica (Neem)](./azadirachta-indica.md)
+- [Balanites aegyptiaca](./balanites-aegyptiaca.md)
+- [Betula pendula (Silver Birch)](./betula-pendula.md)
+- [Bitter orange](./bitter-orange.md)
+- [Botryodiscia](./botryodiscia.md)
+- [Broussonetia papyrifera (Paper Mulberry)](./broussonetia-papyrifera.md)
+- [Coconut](./coconut.md)
+- [Coffee](./coffee.md)
+- [Crotalaria juncea (Sunn Hemp)](./crotalaria-juncea.md)
+- [Ficus elastica (India Rubber Tree)](./ficus-elastica.md)
+- [Fraxinus excelsior (European Ash)](./fraxinus-excelsior.md)
+- [Hazel](./hazel.md)
+- [Indigofera tinctoria (True Indigo)](./indigofera-tinctoria.md)
+- [Mango](./mango.md)
+- [Moringa](./moringa.md)
+- [Musa textilis (Abaca)](./musa-textilis.md)
+- [Olive](./olive.md)
+- [Phyllostachys edulis (Moso Bamboo)](./phyllostachys-edulis.md)
+- [Pinus sylvestris (Scots Pine)](./pinus-sylvestris.md)
+- [Quercus robur (English Oak)](./quercus-robur.md)
+- [Rubber Tree](./rubber-tree.md)
+- [Salix alba (White Willow)](./salix-alba.md)
+- [Schinopsis lorentzii (Quebracho)](./schinopsis-lorentzii.md)
+- [Sweet Chestnut](./sweet-chestnut.md)
+- [Tectona grandis (Teak)](./tectona-grandis.md)
+- [Ulmus minor (Field Elm)](./ulmus-minor.md)
+- [Vernicia fordii (Tung Tree)](./vernicia-fordii.md)
+- [Walnut](./walnut.md)
+
 ## See Also
 
 - [Plants Index](index.md) — overview of all plant resource categories

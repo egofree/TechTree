@@ -274,6 +274,81 @@ Medicinal plant preparation shelf life under proper storage conditions (cool, da
 | Identifying medicinal plants incorrectly (toxic lookalike confusion) | Relying on single character (leaf shape) instead of multiple verification points; untrained harvesters | Verify using multiple characters: leaf shape, flower structure, stem cross-section, and aroma; train multiple people in identification; maintain pressed herbarium voucher specimens for each batch; when in doubt, do not harvest |
 | Cumulative toxicity symptoms appearing after 2 weeks of daily herbal treatment | Compounds accumulating in the body (e.g., cardiac glycosides, thujone); treatment duration exceeded without break | Take breaks between courses (2 weeks on, 1 week off); do not exceed recommended treatment durations; monitor for cumulative toxicity signs specific to the compound; reduce doses for individuals with liver or kidney disease |
 
+## Species Directory
+
+All 65 medicinal species from the botanical survey, sorted alphabetically. Species with multiple uses (edible, dye, fiber, structural, etc.) are included where "medicinal" is one of their listed uses.
+
+**Medicinal-only species** (6):
+
+- [Aloe officinalis](./aloe-officinalis.md)
+- [Artemisia douglasiana](./artemisia-douglasiana.md)
+- [Cinchona](./cinchona-officinalis.md)
+- [Ephedra](./ephedra-sinica.md)
+- [Foxglove](./digitalis-purpurea.md)
+- [Sweet Wormwood](./artemisia-annua.md)
+
+**Multi-category species** (59 — medicinal plus other uses):
+
+- [Agave](./agave.md) — also: dye, edible, fiber, structural
+- [Agrimonia pilosa](./agrimonia-pilosa.md) — also: fiber
+- [Apple](./apple.md) — also: edible
+- [Artemisia absinthium](./artemisia-absinthium.md) — also: edible, fiber, structural
+- [Artemisia inculta](./artemisia-inculta.md) — also: fiber, structural
+- [Balanites aegyptiaca](./balanites-aegyptiaca.md) — also: edible, fiber, structural
+- [Barley](./barley.md) — also: edible
+- [Beet](./beet.md) — also: edible
+- [Bitter orange](./bitter-orange.md) — also: edible, fiber, structural
+- [Black Pepper](./black-pepper.md) — also: dye, edible
+- [Botryodiscia](./botryodiscia.md) — also: structural
+- [Buckwheat](./buckwheat.md) — also: edible
+- [Cacao](./cacao.md) — also: edible, fuel
+- [Carrot](./carrot.md) — also: edible
+- [Chickpea](./chickpea.md) — also: edible
+- [Chili Pepper](./chili-pepper.md) — also: edible
+- [Coconut](./coconut.md) — also: edible, fiber, fuel, structural
+- [Coffee](./coffee.md) — also: dye, edible, structural
+- [Common Bean](./common-bean.md) — also: edible
+- [Cowpea](./cowpea.md) — also: edible
+- [European Ash](./fraxinus-excelsior.md) — also: structural, fiber
+- [Fava Bean](./fava-bean.md) — also: edible
+- [Fig](./fig.md) — also: dye, edible
+- [Flax](./flax.md) — also: edible, fiber, fuel, industrial
+- [Garden Pea](./garden-pea.md) — also: edible
+- [Garlic](./garlic.md) — also: edible
+- [Ginger](./ginger.md) — also: dye, edible
+- [Grape](./grape.md) — also: dye, edible, fuel
+- [Hazel](./hazel.md) — also: dye, edible, structural
+- [Lentil](./lentil.md) — also: edible, industrial
+- [Madder](./rubia-tinctorum.md) — also: dye
+- [Maize](./maize.md) — also: edible, fuel
+- [Mango](./mango.md) — also: dye, edible, fuel, structural
+- [Moringa](./moringa.md) — also: dye, edible, fiber, fuel, structural
+- [Neem](./azadirachta-indica.md) — also: insecticide, oil, structural
+- [Oat](./oat.md) — also: edible, fuel
+- [Olive](./olive.md) — also: edible, fuel, structural
+- [Onion](./onion.md) — also: edible
+- [Opium Poppy](./opium-poppy.md) — also: edible, industrial
+- [Peanut](./peanut.md) — also: edible, fuel
+- [Plantain](./plantain.md) — also: edible
+- [Potato](./potato.md) — also: edible, fuel
+- [Pyrethrum](./chrysanthemum-cinerariifolium.md) — also: insecticide
+- [Quinoa](./quinoa.md) — also: edible
+- [Safflower](./safflower.md) — also: dye, edible, industrial
+- [Silver Birch](./betula-pendula.md) — also: structural, edible, dye
+- [Sorghum](./sorghum.md) — also: edible, fuel
+- [Sunflower](./sunflower.md) — also: edible, fiber, fuel, industrial
+- [Sweet Chestnut](./sweet-chestnut.md) — also: dye, edible, structural
+- [Tea](./tea.md) — also: edible
+- [Teak](./tectona-grandis.md) — also: structural
+- [Tobacco](./tobacco.md) — also: edible
+- [Turmeric](./turmeric.md) — also: dye, edible
+- [Walnut](./walnut.md) — also: dye, edible, structural
+- [Wheat](./wheat.md) — also: edible, fiber, fuel, industrial
+- [White Lupin](./white-lupin.md) — also: edible
+- [White Willow](./salix-alba.md) — also: structural
+- [Winter Squash](./winter-squash.md) — also: edible
+- [Woad](./isatis-tinctoria.md) — also: dye
+
 ## See Also
 
 - [Pharmacology](../health/pharmacology.md) — drug preparation and dosage

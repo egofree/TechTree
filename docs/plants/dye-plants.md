@@ -116,7 +116,36 @@ Well-known dye plants that should be prioritized for cultivation in a bootstrap 
 | Bedstraw | *Galium verum* | Red-yellow | Roots | Perennial; related to madder |
 | Rhubarb | *Rheum spp.* | Yellow | Roots | Perennial; also edible |
 
-Note: The current plants species catalog (plants.json) does not yet include dedicated dye plant entries. The species listed above are documented from general botanical and historical knowledge. Adding targeted dye species to the catalog is a future data-enrichment task.
+Note: Multi-category species (coffee, grape, walnut, etc.) have dye as one of several uses. Their primary use may differ.
+
+## Species Directory
+
+All 22 dye-capable species cataloged in [plants.json](../../data/plants.json), linked to their individual articles. Sorted alphabetically by common name.
+
+| Species | Scientific Name | Dye Color / Use | Other Uses |
+|---------|----------------|-----------------|------------|
+| [Agave](./agave.md) | *Agave* spp. | Yellow, brown from leaves | Edible, fiber, medicinal, structural |
+| [Black Alder](./alnus-glutinosa.md) | *Alnus glutinosa* | Brown, black from bark and cones | Structural, tannin |
+| [Black Pepper](./black-pepper.md) | *Piper nigrum* | Dark shades from fruit | Edible, medicinal |
+| [Castor](./castor.md) | *Ricinus communis* | Brown from leaves and seeds | Edible (processed), fiber, fuel, industrial |
+| [Coffee](./coffee.md) | *Coffea arabica* | Brown from grounds and hulls | Edible, medicinal, structural |
+| [Fig](./fig.md) | *Ficus carica* | Yellow from leaves | Edible, medicinal |
+| [Ginger](./ginger.md) | *Zingiber officinale* | Yellow from rhizome | Edible, medicinal |
+| [Grape](./grape.md) | *Vitis vinifera* | Red-purple from skins and leaves | Edible, fuel, medicinal |
+| [Hazel](./hazel.md) | *Corylus avellana* | Brown from leaves and bark | Edible, medicinal, structural |
+| [Kenaf](./kenaf.md) | *Hibiscus cannabinus* | Yellow from flowers | Edible, fiber, fuel, industrial |
+| [Mango](./mango.md) | *Mangifera indica* | Yellow from leaves and bark | Edible, fuel, medicinal, structural |
+| [Moringa](./moringa.md) | *Moringa oleifera* | Blue dye from wood | Edible, fiber, fuel, medicinal, structural |
+| [English Oak](./quercus-robur.md) | *Quercus robur* | Brown, black from bark and galls | Structural, tannin |
+| [True Indigo](./indigofera-tinctoria.md) | *Indigofera tinctoria* | Blue (indigo) from leaves | Structural |
+| [Woad](./isatis-tinctoria.md) | *Isatis tinctoria* | Blue (indigo) from leaves | Medicinal |
+| [Madder](./rubia-tinctorum.md) | *Rubia tinctorum* | Red from roots | Medicinal |
+| [Safflower](./safflower.md) | *Carthamus tinctorius* | Yellow and pink from flowers | Edible, industrial, medicinal |
+| [Silver Birch](./betula-pendula.md) | *Betula pendula* | Yellow-brown from bark and leaves | Structural, edible, medicinal |
+| [Sicilian Sumac](./rhus-coraria.md) | *Rhus coriaria* | Brown, black from leaves and bark | Tannin, edible |
+| [Sweet Chestnut](./sweet-chestnut.md) | *Castanea sativa* | Brown from bark and burrs | Edible, medicinal, structural |
+| [Turmeric](./turmeric.md) | *Curcuma longa* | Yellow-orange from rhizome | Edible, medicinal |
+| [Walnut](./walnut.md) | *Juglans regia* | Rich brown from green hulls | Edible, medicinal, structural |
 
 ## Woad — *Isatis tinctoria* (Brassicaceae)
 

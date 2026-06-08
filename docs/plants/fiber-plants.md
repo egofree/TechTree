@@ -88,6 +88,44 @@ Separate the seed from the fiber. Hand-ginning (finger-picking) processes ~500 g
 
 Soak coconut husks in water (brackish or fresh) for 2-6 months to soften the pith, then beat with wooden mallets to loosen fibers. Hand-strip long fibers from the softened husk. Coir fiber is exceptionally rot-resistant, making it ideal for marine rope, matting, and erosion control.
 
+## Species Directory
+
+All 33 species in the plants catalog with fiber use, linked to their individual articles:
+
+- [Agave (Agave spp.)](./agave.md)
+- [Agrimonia pilosa](./agrimonia-pilosa.md)
+- [Allium ampeloprasum](./allium-ampeloprasum.md)
+- [Allium paniculatum](./allium-paniculatum.md)
+- [Amaranthus albus](./amaranthus-albus.md)
+- [Artemisia absinthium](./artemisia-absinthium.md)
+- [Artemisia capillaris](./artemisia-capillaris.md)
+- [Artemisia inculta](./artemisia-inculta.md)
+- [Balanites aegyptiaca](./balanites-aegyptiaca.md)
+- [Bitter orange (Citrus × aurantium)](./bitter-orange.md)
+- [Paper Mulberry (Broussonetia papyrifera)](./broussonetia-papyrifera.md)
+- [Castor (Ricinus communis)](./castor.md)
+- [Coconut (Cocos nucifera)](./coconut.md)
+- [Cotton (Gossypium hirsutum)](./cotton.md)
+- [Sunn Hemp (Crotalaria juncea)](./crotalaria-juncea.md)
+- [Flax (Linum usitatissimum)](./flax.md)
+- [European Ash (Fraxinus excelsior)](./fraxinus-excelsior.md)
+- [Hemp (Cannabis sativa)](./hemp.md)
+- [Jute (Corchorus olitorius)](./jute.md)
+- [Kenaf (Hibiscus cannabinus)](./kenaf.md)
+- [Moringa (Moringa oleifera)](./moringa.md)
+- [Abacá / Manila Hemp (Musa textilis)](./musa-textilis.md)
+- [New Zealand Flax (Phormium tenax)](./phormium-tenax.md)
+- [Moso Bamboo (Phyllostachys edulis)](./phyllostachys-edulis.md)
+- [Ramie (Boehmeria nivea)](./ramie.md)
+- [Rice (Oryza sativa)](./rice.md)
+- [Rubber Tree (Hevea brasiliensis)](./rubber-tree.md)
+- [Rye (Secale cereale)](./rye.md)
+- [Sisal (Agave sisalana)](./sisal.md)
+- [Soybean (Glycine max)](./soybean.md)
+- [Sunflower (Helianthus annuus)](./sunflower.md)
+- [Teff (Eragrostis tef)](./teff.md)
+- [Wheat (Triticum aestivum)](./wheat.md)
+
 ## Key Species
 
 Species cataloged in the tech tree with fiber use from the plants database:

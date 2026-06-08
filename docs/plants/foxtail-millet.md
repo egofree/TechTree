@@ -12,9 +12,9 @@
 
 ![Foxtail Millet](../images/plants/plants_foxtail-millet.jpg)
 
-> *A BOWL OF FOXTAIL MILLET CONGEE*
+> *Foxtail millet (Setaria italica) seeds, India. It is an annual grass grown for human food.*
 
-> *Image: Dinkun Chen, CC BY-SA 4.0*
+> *Image: Salil Kumar Mukherjee, CC BY-SA 4.0*
 
 Foxtail Millet
 

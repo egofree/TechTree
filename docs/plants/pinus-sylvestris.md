@@ -12,9 +12,9 @@
 
 ![Scots Pine](../images/plants/plants_pinus-sylvestris.jpg)
 
-> *Stamp*
+> *Scots Pine (Pinus sylvestris), Great Ashby District Park, 28 April 2011.*
 
-> *Image: Post of Belarus, Public domain*
+> *Image: AnemoneProjectors (talk), CC BY-SA 2.0*
 
 Scots pine (*Pinus sylvestris*) is the most widely distributed pine in the world, native to Eurasia from Scotland to Siberia and from Scandinavia to the Mediterranean. It produces straight-grained, moderately strong timber suitable for construction framing, flooring, poles, and pit props. Beyond timber, the tree yields resin that can be processed into turpentine (solvent), rosin (soldering flux, violin bow treatment), and pitch (waterproofing for boats and barrels).
 

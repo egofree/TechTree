@@ -10,11 +10,11 @@
 
 ## Overview
 
-![Peanut](../images/plants/plants_peanut.jpg)
+![Peanut](../images/plants/plants_peanut.png)
 
-> *Interview with NS Peanut by fomos esports*
+> *Karyotype of cultivated peanut (Arachis hypogaea). Allotetraploid with an AABB genome (2n = 4x = 40). Genomes from A.duranensis (AA genome) in green and A. ipaënsis (BB genome) in red.*
 
-> *Image: fomos esports, CC BY 3.0*
+> *Image: Patricia M Guimarães Olivier GarsmeurKarina ProiteSoraya CM Leal-BertioliGuilhermo SeijoChristian ChaineDavid J BertioliAngelique D'Hont, CC BY 2.0*
 
 Peanut
 

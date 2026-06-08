@@ -12,9 +12,9 @@
 
 ![Lentil](../images/plants/plants_lentil.jpg)
 
-> *Bowl of lentil soup with green and red lentils.*
+> *red, green and puy lentils*
 
-> *Image: Whoisjohngalt, CC BY-SA 4.0*
+> *Image: User:Justinc, CC BY-SA 2.0*
 
 Lentil
 

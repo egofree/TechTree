@@ -12,9 +12,9 @@
 
 ![Maize](../images/plants/plants_maize.jpg)
 
-> *Maize showing damage by maize weevil (Sitophilus zeamais)*
+> *&lt;a href="http://www.starrenvironmental.com/images/species/?q=Zea+mays" rel="noreferrer nofollow"&gt;Zea mays (Corn)&lt;/a&gt; Hawaiian Supersweet 10 in veggie garden flowers and fruit at Hawea Pl Olinda, Maui, Hawaii. July 20, 2020 &lt;a href="http://www.starrenvironmental.com/images/search/?q=200720-7807" rel="noreferrer nofollow"&gt;#200720-7807&lt;/a&gt; - &lt;a href="https://www.flickr.com/people/starr-environmental/"&gt;Image Use Policy&lt;/a&gt;*
 
-> *Image: Frank Peairs, Colorado State University, CC BY 3.0 us*
+> *Image: Forest and Kim Starr, CC BY 2.0*
 
 Maize
 

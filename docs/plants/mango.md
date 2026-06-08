@@ -12,9 +12,9 @@
 
 ![Mango](../images/plants/plants_mango.jpg)
 
-> *Khairdeen, alias Pritam, relishing a mango at the dusk of his life*
+> *Mango (Mangifera indica L.) flower and fruit with a purple-eyed butterfly (Papilio sp.). Coloured aquatint by W. Hooker after J. Forbes, 1768. Iconographic Collections Keywords: William Hooker; James Forbes*
 
-> *Image: Satdeep Gill, CC BY-SA 4.0*
+> *Image: Wikimedia Commons contributor, CC BY 4.0*
 
 Mango
 

@@ -1,11 +1,11 @@
 {
-  "title": "Tree shape diagram for live oak",
-  "description": "Ternary diagram plotting the shape of live oak trees based upon crown spread, girth and height",
-  "author": "Edfrank01",
-  "license": "CC BY-SA 3.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-  "source_url": "https://commons.wikimedia.org/wiki/File:Tree_shape_diagram_for_live_oak.jpg",
-  "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Tree_shape_diagram_for_live_oak.jpg",
-  "attribution_md": "Tree shape diagram for live oak\nTernary diagram plotting the shape of live oak trees based upon crown spread, girth and height\n\nImage: Edfrank01 ([source](https://commons.wikimedia.org/wiki/File:Tree_shape_diagram_for_live_oak.jpg))\nLicense: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)",
+  "title": "Karyotype of Pedunculate oak (Quercus robur)",
+  "description": "Karyotype of Pedunculate oak (Quercus robur). 2n=2x=24.",
+  "author": "Vedrana Vičić Bočkor , Darko Barišić , Tomislav Horvat, Željka Maglica, Aleksandar Vojta, Vlatka Zoldoš",
+  "license": "CC BY 2.5",
+  "license_url": "https://creativecommons.org/licenses/by/2.5",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Karyotype_of_Pedunculate_oak_(Quercus_robur).png",
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Karyotype_of_Pedunculate_oak_%28Quercus_robur%29.png",
+  "attribution_md": "Karyotype of Pedunculate oak (Quercus robur)\nKaryotype of Pedunculate oak (Quercus robur). 2n=2x=24.\n\nImage: Vedrana Vičić Bočkor , Darko Barišić , Tomislav Horvat, Željka Maglica, Aleksandar Vojta, Vlatka Zoldoš ([source](https://commons.wikimedia.org/wiki/File:Karyotype_of_Pedunculate_oak_(Quercus_robur).png))\nLicense: [CC BY 2.5](https://creativecommons.org/licenses/by/2.5)",
   "license_tier": "libre"
 }

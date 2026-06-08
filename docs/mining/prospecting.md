@@ -12,11 +12,11 @@ Prospecting locates ore deposits and evaluates their economic potential before c
 
 ## Prerequisites
 
-![2025-04-28 Iberian Peninsula blackout – frequency measurement](../images/mining/mining_prospecting.jpg)
+![Gold Prospectors Association of America volunteer gold panning presentation (47851068932)](../images/mining/mining_prospecting.jpg)
 
-> *Frequency measurement and corresponding ROCOF values shortly before the Iberian Blackout 2025-04-28 (5 cycle average); the green dashed lines show the settings for the load shedding scheme of the system protection plan; the dashed blue line indicates a short-term ROCOF value of ~3,5/s Hz whereas an 500 ms average as in the immunity requirements of EN 50549 accounts for 1,5 Hz/s*
+> *Almost 1,500 Anchorage-area sixth-graders and 270 adult participants spent the week learning about gold panning, fly tying, hydrology, bear safety, and atlatl hunting, during the 45th annual Outdoor Week held on the public lands surrounding the Campbell Creek Science Center. The event introduces sixth graders to outdoor recreation and natural resources careers. Joining the BLM organizers were 19 partner organizations and 90 volunteers. Gold Prospectors Association of America volunteer giving a gold panning presentation. Photo by Lisa Gleason (BLM)*
 
-> *Image: Luis Badesa, Associate Professor at UPM, Madrid, CC0*
+> *Image: BLM Alaska, Public domain*
 
 - [Writing & Record-Keeping](../knowledge/writing.md) — recording sample locations and assay results
 - [Measurement](../measurement/precision-metrology.md) — compass, level, and assay instruments

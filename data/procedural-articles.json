@@ -2791,9 +2791,9 @@
       "domain": "machine-tools",
       "doc_path": "docs/machine-tools/joining.md",
       "search_queries": [
-        "Metal Joining",
-        "Metal Joining Machine Tools process",
-        "Metal Joining diagram"
+        "welder joining metal",
+        "arc welding process",
+        "metal weld joint"
       ],
       "has_existing_image": false,
       "source": "entity_and_content"

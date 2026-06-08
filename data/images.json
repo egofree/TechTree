@@ -3297,22 +3297,22 @@
       "node_name": "Metal Joining",
       "domain": "machine-tools",
       "search_queries": [
-        "Metal Joining",
-        "Metal Joining Machine Tools process",
-        "Metal Joining diagram"
+        "welder joining metal",
+        "arc welding process",
+        "metal weld joint"
       ],
       "status": "downloaded",
       "candidates": [],
       "local_path": "docs/images/machine-tools/machine-tools_joining.jpg",
       "attribution": {
-        "title": "Johnson Matthey Metal Joining - geograph.org.uk - 4484546",
-        "description": "Johnson Matthey Metal Joining",
-        "author": "Hugh Venables",
-        "license": "CC BY-SA 2.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Johnson_Matthey_Metal_Joining_-_geograph.org.uk_-_4484546.jpg",
+        "title": "A welder at work joining two pieces of metal together",
+        "description": "A welder at work joining two pieces of metal together in Accra",
+        "author": "Kwameghana(Bright Kwame Ayisi)",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_welder_at_work_joining_two_pieces_of_metal_together.jpg",
         "license_tier": "libre",
-        "attribution_md": "Johnson Matthey Metal Joining - geograph.org.uk - 4484546\nJohnson Matthey Metal Joining\n\nImage: Hugh Venables ([source](https://commons.wikimedia.org/wiki/File:Johnson_Matthey_Metal_Joining_-_geograph.org.uk_-_4484546.jpg))\nLicense: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)"
+        "attribution_md": "A welder at work joining two pieces of metal together\nA welder at work joining two pieces of metal together in Accra\n\nImage: Kwameghana(Bright Kwame Ayisi) ([source](https://commons.wikimedia.org/wiki/File:A_welder_at_work_joining_two_pieces_of_metal_together.jpg))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)"
       }
     },
     "energy": {
@@ -35554,11 +35554,23 @@
       "node_name": "Tailings Reprocessing",
       "domain": "mining",
       "search_queries": [
-        "Tailings Reprocessing",
-        "Tailings Reprocessing Mining process",
-        "Tailings Reprocessing diagram"
+        "mining tailings pond",
+        "tailings dam mine",
+        "mine waste reprocessing"
       ],
-      "status": "needs_resource"
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/mining/mining_tailings-reprocessing.jpg",
+      "attribution": {
+        "title": "Antamina Mine Tailings Pond",
+        "description": "The tailings pond of the Antamina Tailings Dam at the Atamina Dam in Peru.",
+        "author": "Xtremizta",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Antamina_Mine_Tailings_Pond.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Antamina Mine Tailings Pond\nThe tailings pond of the Antamina Tailings Dam at the Atamina Dam in Peru.\n\nImage: Xtremizta ([source](https://commons.wikimedia.org/wiki/File:Antamina_Mine_Tailings_Pond.jpg))\nLicense: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)"
+      }
     },
     "optics.optical-coatings": {
       "node_name": "Optical Coatings",
@@ -37796,19 +37808,7 @@
         "Quinoa Plants process",
         "Quinoa diagram"
       ],
-      "status": "downloaded",
-      "candidates": [],
-      "local_path": "docs/images/plants/plants_quinoa.jpg",
-      "attribution": {
-        "title": "Calca Peru- Quinoa seller at mercado II",
-        "description": "Calca Peru- Quinoa seller at mercado",
-        "author": "Thayne Tuason",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Calca_Peru-_Quinoa_seller_at_mercado_II.jpg",
-        "license_tier": "libre",
-        "attribution_md": "Calca Peru- Quinoa seller at mercado II\nCalca Peru- Quinoa seller at mercado\n\nImage: Thayne Tuason ([source](https://commons.wikimedia.org/wiki/File:Calca_Peru-_Quinoa_seller_at_mercado_II.jpg))\nLicense: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)"
-      }
+      "status": "needs_resource"
     },
     "plants.ramie": {
       "node_name": "Ramie",
@@ -37884,19 +37884,7 @@
         "Rice Plants process",
         "Rice diagram"
       ],
-      "status": "downloaded",
-      "candidates": [],
-      "local_path": "docs/images/plants/plants_rice.jpg",
-      "attribution": {
-        "title": "Emory Rice back-acting engine diagram - detail",
-        "description": "Diagram of the back-acting engine of the steamship Emory Rice (formerly the gunboat USS Ranger (1873)), showing details of the crankshaft connection mechanism. The engine of the Emory Rice is the only known back-acting engine still in existence. \n\nDiagram legend is as follows: 1 - engine cylinder; 2 - piston; 3 and 3 - two piston rods, the upper and far one passing over the crankshaft and the lower and near one passing beneath, with the crank turning between the rods; 4 - crosshead guide; 5 - connecting rod; 6 - crankshaft; 7 - steam inlet (not shown); 8 - crankpin; 9 - wristpin; 10 - crosshead.",
-        "author": "Unknown authorUnknown author",
-        "license": "Public domain",
-        "license_url": "",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Emory_Rice_back-acting_engine_diagram_-_detail.jpg",
-        "license_tier": "libre",
-        "attribution_md": "Emory Rice back-acting engine diagram - detail\nDiagram of the back-acting engine of the steamship Emory Rice (formerly the gunboat USS Ranger (1873)), showing details of the crankshaft connection mechanism. The engine of the Emory Rice is the only known back-acting engine still in existence. \n\nDiagram legend is as follows: 1 - engine cylinder; 2 - piston; 3 and 3 - two piston rods, the upper and far one passing over the crankshaft and the lower and near one passing beneath, with the crank turning between the rods; 4 - crosshead guide; 5 - connecting rod; 6 - crankshaft; 7 - steam inlet (not shown); 8 - crankpin; 9 - wristpin; 10 - crosshead.\n\nImage: Unknown authorUnknown author ([source](https://commons.wikimedia.org/wiki/File:Emory_Rice_back-acting_engine_diagram_-_detail.jpg))\nLicense: Public domain"
-      }
+      "status": "needs_resource"
     },
     "plants.rubber-tree": {
       "node_name": "Rubber Tree",
@@ -37950,19 +37938,7 @@
         "Rye Plants process",
         "Rye diagram"
       ],
-      "status": "downloaded",
-      "candidates": [],
-      "local_path": "docs/images/plants/plants_rye.jpg",
-      "attribution": {
-        "title": "Rye-East Sussex, East Street - geograph.org.uk - 2632381",
-        "description": "Rye/East Sussex, East Street",
-        "author": "Helmut Zozmann",
-        "license": "CC BY-SA 2.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Rye-East_Sussex,_East_Street_-_geograph.org.uk_-_2632381.jpg",
-        "license_tier": "libre",
-        "attribution_md": "Rye-East Sussex, East Street - geograph.org.uk - 2632381\nRye/East Sussex, East Street\n\nImage: Helmut Zozmann ([source](https://commons.wikimedia.org/wiki/File:Rye-East_Sussex,_East_Street_-_geograph.org.uk_-_2632381.jpg))\nLicense: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)"
-      }
+      "status": "needs_resource"
     },
     "plants.safflower": {
       "node_name": "Safflower",
@@ -37994,19 +37970,7 @@
         "White Willow Plants process",
         "White Willow diagram"
       ],
-      "status": "downloaded",
-      "candidates": [],
-      "local_path": "docs/images/plants/plants_salix-alba.jpg",
-      "attribution": {
-        "title": "White and Blue Vol XIII no. 11 Dec 24 1909",
-        "description": "White and Blue Student Newspaper",
-        "author": "Brigham Young University student body",
-        "license": "Public domain",
-        "license_url": "",
-        "source_url": "https://commons.wikimedia.org/wiki/File:White_and_Blue_Vol_XIII_no._11_Dec_24_1909.djvu",
-        "license_tier": "libre",
-        "attribution_md": "White and Blue Vol XIII no. 11 Dec 24 1909\nWhite and Blue Student Newspaper\n\nImage: Brigham Young University student body ([source](https://commons.wikimedia.org/wiki/File:White_and_Blue_Vol_XIII_no._11_Dec_24_1909.djvu))\nLicense: Public domain"
-      }
+      "status": "needs_resource"
     },
     "plants.schinopsis-lorentzii": {
       "node_name": "Quebracho",
@@ -38126,19 +38090,7 @@
         "Squash Plants process",
         "Squash diagram"
       ],
-      "status": "downloaded",
-      "candidates": [],
-      "local_path": "docs/images/plants/plants_squash.jpg",
-      "attribution": {
-        "title": "Taylor Flavell playing at World Squash Doubles Champs 2019",
-        "description": "Taylor Flavell playing at Carrara Squash Center, Gold Coast 2019",
-        "author": "Tbflavell",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Taylor_Flavell_playing_at_World_Squash_Doubles_Champs_2019.jpg",
-        "license_tier": "libre",
-        "attribution_md": "Taylor Flavell playing at World Squash Doubles Champs 2019\nTaylor Flavell playing at Carrara Squash Center, Gold Coast 2019\n\nImage: Tbflavell ([source](https://commons.wikimedia.org/wiki/File:Taylor_Flavell_playing_at_World_Squash_Doubles_Champs_2019.jpg))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)"
-      }
+      "status": "needs_resource"
     },
     "plants.sunflower": {
       "node_name": "Sunflower",
@@ -38198,44 +38150,32 @@
       "node_name": "Taro",
       "domain": "plants",
       "search_queries": [
-        "Taro",
-        "Taro Plants process",
-        "Taro diagram"
+        "Colocasia esculenta",
+        "Colocasia esculenta plant",
+        "Colocasia esculenta flower fruit"
       ],
-      "status": "downloaded",
-      "candidates": [],
-      "local_path": "docs/images/plants/plants_taro.jpg",
-      "attribution": {
-        "title": "Taro (Colocasia esculenta)- Dasheen mosaic - 28111251795",
-        "description": "Pathogen: Dasheen mosaic virus  (DsMV)\nRead: www.ctahr.hawaii.edu/oc/freepubs/pdf/PD-44.pdf",
-        "author": "Plant pests and diseases",
-        "license": "CC0",
-        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Taro_(Colocasia_esculenta)-_Dasheen_mosaic_-_28111251795.jpg",
-        "license_tier": "libre",
-        "attribution_md": "Taro (Colocasia esculenta)- Dasheen mosaic - 28111251795\nPathogen: Dasheen mosaic virus  (DsMV)\nRead: www.ctahr.hawaii.edu/oc/freepubs/pdf/PD-44.pdf\n\nImage: Plant pests and diseases ([source](https://commons.wikimedia.org/wiki/File:Taro_(Colocasia_esculenta)-_Dasheen_mosaic_-_28111251795.jpg))\nLicense: [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en)"
-      }
+      "status": "needs_resource"
     },
     "plants.tea": {
       "node_name": "Tea",
       "domain": "plants",
       "search_queries": [
-        "Tea",
-        "Tea Plants process",
-        "Tea diagram"
+        "Camellia sinensis",
+        "Camellia sinensis plant",
+        "Camellia sinensis flower fruit"
       ],
       "status": "downloaded",
       "candidates": [],
-      "local_path": "docs/images/plants/plants_tea.png",
+      "local_path": "docs/images/plants/plants_tea.jpg",
       "attribution": {
-        "title": "TEA InfoBox Diagram",
-        "description": "Two rounds of the Tiny Encryption Algorithm; original image (DIA) placed in the public domain.",
-        "author": "Matt Crypto at English Wikipedia",
-        "license": "Public domain",
-        "license_url": "",
-        "source_url": "https://commons.wikimedia.org/wiki/File:TEA_InfoBox_Diagram.png",
+        "title": "Camellia sinensis Tea Plant ჩაი",
+        "description": "Taken in Tkibuli",
+        "author": "Lazaregagnidze",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Camellia_sinensis_Tea_Plant_%E1%83%A9%E1%83%90%E1%83%98.JPG",
         "license_tier": "libre",
-        "attribution_md": "TEA InfoBox Diagram\nTwo rounds of the Tiny Encryption Algorithm; original image (DIA) placed in the public domain.\n\nImage: Matt Crypto at English Wikipedia ([source](https://commons.wikimedia.org/wiki/File:TEA_InfoBox_Diagram.png))\nLicense: Public domain"
+        "attribution_md": "Camellia sinensis Tea Plant ჩაი\nTaken in Tkibuli\n\nImage: Lazaregagnidze ([source](https://commons.wikimedia.org/wiki/File:Camellia_sinensis_Tea_Plant_%E1%83%A9%E1%83%90%E1%83%98.JPG))\nLicense: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)"
       }
     },
     "plants.tectona-grandis": {

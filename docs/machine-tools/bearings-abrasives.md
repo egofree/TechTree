@@ -16,7 +16,7 @@ This article covers the bootstrap sequence for producing both capabilities from 
 
 ![С2-10-1W individually-trimmed precision resistors (Erkon)](../images/machine-tools/machine-tools_bearings-abrasives.jpg)
 
-> *С2-10-1W individually-trimmed precision resistors (Erkon). Each was physically scraped to fit the specs (see yellowish scrape marks right on the red cylinders)*
+> *Bearing ball made of stainless steel 1.4034 in diameter 60mm, Grade 100 (DIN 5401).*
 
 > *Image: Retired electrician, CC0*
 

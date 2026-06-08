@@ -23,11 +23,11 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 
 ## Materials
 
-![Two Chestnut-tailed Starling (Sturnia malabarica) kissing, Satchari National Park](../images/mining/mining_tailings-reprocessing.jpg)
+![Antamina Mine Tailings Pond](../images/mining/mining_tailings-reprocessing.jpg)
 
-> *Two chestnut-tailed starlings (Sturnia malabarica) interacting energetically while perched on a branch in Satchari National Park, Bangladesh*
+> *The tailings pond of the Antamina Tailings Dam at the Atamina Dam in Peru.*
 
-> *Image: Princepauljoy, CC BY-SA 4.0*
+> *Image: Xtremizta, CC BY-SA 2.0*
 
 | Material | Specification | Source |
 |----------|--------------|--------|

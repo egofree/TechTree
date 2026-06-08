@@ -57,7 +57,7 @@ Sorted alphabetically by article filename.
 | Chickpea | Cicer arietinum | edible | edible, medicinal | [Chickpea](chickpea.md) |
 | Chili Pepper | Capsicum annuum | edible | edible, medicinal | [Chili Pepper](chili-pepper.md) |
 | Pyrethrum | Chrysanthemum cinerariifolium | insecticide | insecticide, medicinal | [Pyrethrum](chrysanthemum-cinerariifolium.md) |
-| Cinchona | Cinchona officinalis | medicinal | medicinal | [Cinchona](cinchona.md) |
+| Cinchona | Cinchona officinalis | medicinal | medicinal | [Cinchona](cinchona-officinalis.md) |
 | Coconut | Cocos nucifera | edible | edible, fiber, fuel, medicinal, structural | [Coconut](coconut.md) |
 | Cocoyam | Xanthosoma sagittifolium | edible | edible | [Cocoyam](cocoyam.md) |
 | Coffee | Coffea arabica | edible | dye, edible, medicinal, structural | [Coffee](coffee.md) |
@@ -129,7 +129,7 @@ Sorted alphabetically by article filename.
 | Sweet Potato | Ipomoea batatas | edible | edible | [Sweet Potato](sweet-potato.md) |
 | Taro | Colocasia esculenta | edible | edible | [Taro](taro.md) |
 | Tea | Camellia sinensis | edible | edible, medicinal | [Tea](tea.md) |
-| Teak | Tectona grandis | structural | medicinal, structural | [Teak](teak.md) |
+| Teak | Tectona grandis | structural | medicinal, structural | [Teak](tectona-grandis.md) |
 | Teff | Eragrostis tef | edible | edible, fiber | [Teff](teff.md) |
 | Tobacco | Nicotiana tabacum | edible | edible, medicinal | [Tobacco](tobacco.md) |
 | Turmeric | Curcuma longa | medicinal | dye, edible, medicinal | [Turmeric](turmeric.md) |

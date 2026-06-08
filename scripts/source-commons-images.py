@@ -368,7 +368,7 @@ def process_article(article, manifest, args, index, total):
             already_exists = True
             break
 
-    if art_id in manifest["nodes"]:
+    if not args.force and art_id in manifest["nodes"]:
         existing = manifest["nodes"][art_id]
         if existing.get("status") in ("downloaded",) or already_exists:
             return "skipped"
@@ -615,6 +615,10 @@ def main():
                         help="Max articles to process (0 = all)")
     parser.add_argument("--search-limit", type=int, default=10,
                         help="Max search results per query (default: 10)")
+    parser.add_argument("--node", dest="node_id", default=None,
+                        help="Process only one specific article (e.g., machine-tools.joining)")
+    parser.add_argument("--force", action="store_true", default=False,
+                        help="Re-search even if article already downloaded")
     args = parser.parse_args()
 
     global wiki
@@ -629,6 +633,16 @@ def main():
 
     # Filter to articles needing images
     articles = [a for a in all_articles if not a.get("has_existing_image", False)]
+
+    # Node filter (single article by id)
+    if args.node_id:
+        articles = [a for a in articles if a["id"] == args.node_id]
+        if not articles:
+            # Also try against all_articles (may have has_existing_image=True)
+            articles = [a for a in all_articles if a["id"] == args.node_id]
+        if not articles:
+            print("ERROR: Article '{}' not found".format(args.node_id), file=sys.stderr)
+            sys.exit(1)
 
     # Domain filter
     if args.domain:

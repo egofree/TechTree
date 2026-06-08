@@ -257,6 +257,13 @@ article img {
   font-style: italic;
   color: #888;
 }
+.image-caption {
+  font-style: italic;
+  font-size: 0.875rem;
+  color: #666;
+  text-align: center;
+  margin-top: 0.25rem;
+}
 /* ── Horizontal rule ── */
 hr { border: none; border-top: 1px solid var(--color-border); margin: 24px 0; }
 .text-center { text-align: center; }

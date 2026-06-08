@@ -3298,283 +3298,22 @@
       "domain": "machine-tools",
       "search_queries": [
         "Metal Joining",
-        "metals"
+        "Metal Joining Machine Tools process",
+        "Metal Joining diagram"
       ],
-      "status": "needs_resource",
-      "candidates_BAD": [
-        {
-          "file_title": "File:Johnson Matthey Metal Joining - geograph.org.uk - 4484546.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Johnson_Matthey_Metal_Joining_-_geograph.org.uk_-_4484546.jpg",
-          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Johnson_Matthey_Metal_Joining_-_geograph.org.uk_-_4484546.jpg/960px-Johnson_Matthey_Metal_Joining_-_geograph.org.uk_-_4484546.jpg",
-          "width": 1600,
-          "height": 1200,
-          "mime": "image/jpeg",
-          "description": "Johnson Matthey Metal Joining",
-          "object_name": "Johnson Matthey Metal Joining - geograph.org.uk - 4484546",
-          "categories": "Johnson Matthey|Royston, Hertfordshire|Images from Geograph Britain and Ireland",
-          "license": "CC BY-SA 2.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-          "author": "Hugh Venables",
-          "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/3176\">Hugh Venables</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Johnson_Matthey_Metal_Joining_-_geograph.org.uk_-_4484546.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
-          "page_url": "https://commons.wikimedia.org/wiki/File:Johnson_Matthey_Metal_Joining_-_geograph.org.uk_-_4484546.jpg"
-        },
-        {
-          "file_title": "File:A welder at work joining two pieces of metal together.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/A_welder_at_work_joining_two_pieces_of_metal_together.jpg",
-          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/A_welder_at_work_joining_two_pieces_of_metal_together.jpg/960px-A_welder_at_work_joining_two_pieces_of_metal_together.jpg",
-          "width": 6036,
-          "height": 4020,
-          "mime": "image/jpeg",
-          "description": "A welder at work joining two pieces of metal together in Accra",
-          "object_name": "A welder at work joining two pieces of metal together",
-          "categories": "Welders|Self-published work|Images from Wiki Loves Africa 2024|Uploaded via Campaign:wlafrica|Images from Wiki Loves Africa 2024 in Ghana|Images from Wiki Loves Africa 2024 to check|Images from Wiki Loves Africa 2024 without categories",
-          "license": "CC BY-SA 4.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-          "author": "Kwameghana(Bright Kwame Ayisi)",
-          "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Kwameghana(Bright_Kwame_Ayisi)\" title=\"User:Kwameghana(Bright Kwame Ayisi)\">Kwameghana(Bright Kwame Ayisi)</a>",
-          "page_url": "https://commons.wikimedia.org/wiki/File:A_welder_at_work_joining_two_pieces_of_metal_together.jpg"
-        },
-        {
-          "file_title": "File:Footpath joining metalled road SE of Little Walstead Farm - geograph.org.uk - 1348063.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Footpath_joining_metalled_road_SE_of_Little_Walstead_Farm_-_geograph.org.uk_-_1348063.jpg",
-          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Footpath_joining_metalled_road_SE_of_Little_Walstead_Farm_-_geograph.org.uk_-_1348063.jpg",
-          "width": 640,
-          "height": 480,
-          "mime": "image/jpeg",
-          "description": "Footpath joining metalled road SE of Little Walstead Farm",
-          "object_name": "Footpath joining metalled road SE of Little Walstead Farm - geograph.org.uk - 1348063",
-          "categories": "Images from Geograph Britain and Ireland|Public footpaths in West Sussex|Lindfield Rural|Information field template with formatting|Images by Dave Spicer|June 2009 in West Sussex|United Kingdom photographs taken on 2009-06-06",
-          "license": "CC BY-SA 2.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-          "author": "Dave Spicer",
-          "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/30820\">Dave Spicer</a>",
-          "page_url": "https://commons.wikimedia.org/wiki/File:Footpath_joining_metalled_road_SE_of_Little_Walstead_Farm_-_geograph.org.uk_-_1348063.jpg"
-        },
-        {
-          "file_title": "File:Gripple Wire Joining & Fencing.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Gripple_Wire_Joining_%26_Fencing.jpg",
-          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Gripple_Wire_Joining_%26_Fencing.jpg",
-          "width": 460,
-          "height": 460,
-          "mime": "image/jpeg",
-          "description": "The original Gripple wire joiner was invented by Hugh Facey to ease the installation of wire fencing.",
-          "object_name": "Gripple Wire Joining & Fencing",
-          "categories": "Self-published work|Metal fences|Gripples",
-          "license": "CC BY-SA 3.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-          "author": "Gripple 1234",
-          "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gripple_1234&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gripple 1234 (page does not exist)\">Gripple 1234</a>",
-          "page_url": "https://commons.wikimedia.org/wiki/File:Gripple_Wire_Joining_%26_Fencing.jpg"
-        },
-        {
-          "file_title": "File:Site of Joining Forces in Wenjiashi of Autumn Harvest Uprising 007.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Site_of_Joining_Forces_in_Wenjiashi_of_Autumn_Harvest_Uprising_007.jpg",
-          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Site_of_Joining_Forces_in_Wenjiashi_of_Autumn_Harvest_Uprising_007.jpg/960px-Site_of_Joining_Forces_in_Wenjiashi_of_Autumn_Harvest_Uprising_007.jpg",
-          "width": 2592,
-          "height": 1944,
-          "mime": "image/jpeg",
-          "description": "The Site of Joining Forces in Wenjiashi of Autumn Harvest Uprising (Chinese: 秋收起义文家市会师旧址) , located in Liuyang City, Hunan Province,  is one of the famous tourist attractions in Changsha.",
-          "object_name": "Site of Joining Forces in Wenjiashi of Autumn Harvest Uprising 007",
-          "categories": "Taken with Canon Digital IXUS 105|CC-Zero|Site of Joining Forces in Wenjiashi of Autumn Harvest Uprising|Self-published work",
-          "license": "CC0",
-          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-          "author": "Huangdan2060",
-          "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Huangdan2060\" title=\"User:Huangdan2060\">Huangdan2060</a>",
-          "page_url": "https://commons.wikimedia.org/wiki/File:Site_of_Joining_Forces_in_Wenjiashi_of_Autumn_Harvest_Uprising_007.jpg"
-        },
-        {
-          "file_title": "File:Long metal nails.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Long_metal_nails.jpg",
-          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Long_metal_nails.jpg/960px-Long_metal_nails.jpg",
-          "width": 4896,
-          "height": 3672,
-          "mime": "image/jpeg",
-          "description": "Nails are used to hold together two objects. There are different kinds of nails and they are manufactured out of iron, aluminum etc., They vary in length and depending upon the nature of materials, the length of nail is selected by the engineer or carpenter",
-          "object_name": "Long metal nails",
-          "categories": "Metal nails|Self-published work",
-          "license": "CC BY-SA 4.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-          "author": "Gausanchennai",
-          "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gausanchennai&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gausanchennai (page does not exist)\">Gausanchennai</a>",
-          "page_url": "https://commons.wikimedia.org/wiki/File:Long_metal_nails.jpg"
-        },
-        {
-          "file_title": "File:Comparison of joining techniques.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Comparison_of_joining_techniques.jpg",
-          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Comparison_of_joining_techniques.jpg/960px-Comparison_of_joining_techniques.jpg",
-          "width": 3750,
-          "height": 2083,
-          "mime": "image/jpeg",
-          "description": "Comparison of joining techniques.",
-          "object_name": "Comparison of joining techniques",
-          "categories": "Joining|Self-published work",
-          "license": "CC BY-SA 4.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-          "author": "Feicanews",
-          "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Feicanews&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Feicanews (page does not exist)\">Feicanews</a>",
-          "page_url": "https://commons.wikimedia.org/wiki/File:Comparison_of_joining_techniques.jpg"
-        },
-        {
-          "file_title": "File:Resistance Spot Welded Aluminum Sheet with Adhesive applicated.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Resistance_Spot_Welded_Aluminum_Sheet_with_Adhesive_applicated.jpg",
-          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Resistance_Spot_Welded_Aluminum_Sheet_with_Adhesive_applicated.jpg/960px-Resistance_Spot_Welded_Aluminum_Sheet_with_Adhesive_applicated.jpg",
-          "width": 1136,
-          "height": 649,
-          "mime": "image/jpeg",
-          "description": "Dupont BETAMATE 1640 adhesive is applied to the aluminum sheet (AL6-HDI). A second sheet, without adhesive, is joined using resistance spot welding. (Experiment &amp; Photo: MPA University of Stuttgart)",
-          "object_name": "Resistance Spot Welded Aluminum Sheet with Adhesive applicated",
-          "categories": "Self-published work|All media needing categories as of 2025|Media needing categories as of 27 March 2025",
-          "license": "CC BY 4.0",
-          "license_url": "https://creativecommons.org/licenses/by/4.0",
-          "author": "Fezer, Andreas; Sung-Min Wi (Sungminwi); Kubik, Jochen; Kaiserauer, Axel",
-          "author_html": "Fezer, Andreas; Sung-Min Wi (<a href=\"//commons.wikimedia.org/wiki/User:Sungminwi\" title=\"User:Sungminwi\">Sungminwi</a>); Kubik, Jochen; Kaiserauer, Axel",
-          "page_url": "https://commons.wikimedia.org/wiki/File:Resistance_Spot_Welded_Aluminum_Sheet_with_Adhesive_applicated.jpg"
-        },
-        {
-          "file_title": "File:Blockheizkraftwerk Leipzig Möckern – Nordfassade.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Blockheizkraftwerk_Leipzig_M%C3%B6ckern_%E2%80%93_Nordfassade.jpg",
-          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Blockheizkraftwerk_Leipzig_M%C3%B6ckern_%E2%80%93_Nordfassade.jpg/960px-Blockheizkraftwerk_Leipzig_M%C3%B6ckern_%E2%80%93_Nordfassade.jpg",
-          "width": 4669,
-          "height": 3668,
-          "mime": "image/jpeg",
-          "description": "The combined heat and power plant (CHP) in Leipzig Möckern was commissioned by the Leipziger Stadtwerke on Wednesday, 24 March 2021. In the same year another CHP of this type went into operation in the district of Lausen. The design of the facade cladding made of metal by the architectural office thoma architekten won the German Facade Award 2022 for suspended ventilated facades. The German Fassadenpreis is an architectural prize awarded annually by Brillux since 1991.",
-          "object_name": "Blockheizkraftwerk Leipzig Möckern – Nordfassade",
-          "categories": "Taken with Nikon D750|Retouched pictures|Rainscreen cladding|Self-published work|Information field template with formatting|Files with coordinates missing SDC location of creation|Leipzig photographs taken on 2023-04-08|Files with Assessments template missing SDC Commons valued image assessment|Photographs by Augustgeyler|Blockheizkraftwerk Leipzig Nord-West",
-          "license": "CC BY-SA 4.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-          "author": "August Geyler",
-          "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Augustgeyler\" title=\"User:Augustgeyler\">August Geyler</a>",
-          "page_url": "https://commons.wikimedia.org/wiki/File:Blockheizkraftwerk_Leipzig_M%C3%B6ckern_%E2%80%93_Nordfassade.jpg"
-        },
-        {
-          "file_title": "File:Armes de Brunehilde portées par Lucienne Bréval.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Armes_de_Brunehilde_port%C3%A9es_par_Lucienne_Br%C3%A9val.jpg",
-          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Armes_de_Brunehilde_port%C3%A9es_par_Lucienne_Br%C3%A9val.jpg/960px-Armes_de_Brunehilde_port%C3%A9es_par_Lucienne_Br%C3%A9val.jpg",
-          "width": 3158,
-          "height": 6621,
-          "mime": "image/jpeg",
-          "description": "Armour of Brunehilde worn by Lucienne Bréval, in Richard Wagner's \"Die Walküre\", 1890-1910.",
-          "object_name": "Armes de Brunehilde portées par Lucienne Bréval",
-          "categories": "Lucienne Bréval|PD-author|Die Walküre|Costume armour|Files from external sources with reviewed licenses|Brünnhilde as opera character|Featured pictures by others nominated by Yann Forget|Files uploaded by Yann Forget|Opera costumes|Files from Gallica|Featured photographs in the public domain|Featured pictures from Bibliothèque nationale de France|Featured pictures of wearable objects",
-          "license": "Public domain",
-          "license_url": "",
-          "author": "BNF",
-          "author_html": "BNF",
-          "page_url": "https://commons.wikimedia.org/wiki/File:Armes_de_Brunehilde_port%C3%A9es_par_Lucienne_Br%C3%A9val.jpg"
-        },
-        {
-          "file_title": "File:LEI0150 198 Leica II schwarz - Sn. 67777 1931-M39 side view Umbau von Ic-0 extricated lens.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/LEI0150_198_Leica_II_schwarz_-_Sn._67777_1931-M39_side_view_Umbau_von_Ic-0_extricated_lens.jpg",
-          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/LEI0150_198_Leica_II_schwarz_-_Sn._67777_1931-M39_side_view_Umbau_von_Ic-0_extricated_lens.jpg/960px-LEI0150_198_Leica_II_schwarz_-_Sn._67777_1931-M39_side_view_Umbau_von_Ic-0_extricated_lens.jpg",
-          "width": 4489,
-          "height": 3388,
-          "mime": "image/jpeg",
-          "description": "Leica  II black - Sn. 67777 1931 M39  rebuild of Leica Ic",
-          "object_name": "LEI0150 198 Leica II schwarz - Sn. 67777 1931-M39 side view Umbau von Ic-0 extricated lens",
-          "categories": "Leica II|Supported by Wikimedia CH|Information field template with formatting|Files by User:Hubertl|All media supported by Wikimedia CH|Files by Jean11|Files by Namrood|Files by Papperlapap|Files by XanonymusX|Supported by Wikimedia Deutschland 2015|GLAM and cultural support by Wikimedia CH|Files by Careerfromhome|Projekt historische Kameras Graz 2015",
-          "license": "CC BY-SA 4.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-          "author": "Kameraprojekt Graz 2015",
-          "author_html": "<p><a href=\"//commons.wikimedia.org/wiki/User:Kameraprojekt_Graz_2015\" title=\"User:Kameraprojekt Graz 2015\">Kameraprojekt Graz 2015</a> \n</p>",
-          "page_url": "https://commons.wikimedia.org/wiki/File:LEI0150_198_Leica_II_schwarz_-_Sn._67777_1931-M39_side_view_Umbau_von_Ic-0_extricated_lens.jpg"
-        },
-        {
-          "file_title": "File:Rusty rebar nets.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Rusty_rebar_nets.jpg",
-          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Rusty_rebar_nets.jpg/960px-Rusty_rebar_nets.jpg",
-          "width": 4680,
-          "height": 3353,
-          "mime": "image/jpeg",
-          "description": "Somewhat rusty rebar nets at construction site in Rixö old quarry, Rixö, Lysekil Municipality, Sweden. Photo taken on this site.",
-          "object_name": "Rusty rebar nets",
-          "categories": "Welded wire mesh|Self-published work|Featured pictures of texture photography|Images by W.carter|Featured pictures on Wikipedia, Bengali|Files with coordinates missing SDC location of creation|Rusty objects in Sweden|Featured pictures of Lysekil Municipality|Featured pictures of objects in Sweden|Featured pictures taken with compact digital camera|Rusty textures|Rusty construction materials|Images by W.carter, my own favorites|Abandoned granite quarry of Rixö, Sweden|Picture of the day by W.carter on various projects|Featured pictures by W.carter",
-          "license": "CC BY-SA 4.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-          "author": "W.carter",
-          "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:W.carter\" title=\"User:W.carter\">W.carter</a>",
-          "page_url": "https://commons.wikimedia.org/wiki/File:Rusty_rebar_nets.jpg"
-        },
-        {
-          "file_title": "File:Gedore No. 7 combination wrenches 6–19 mm.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Gedore_No._7_combination_wrenches_6%E2%80%9319_mm.jpg",
-          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Gedore_No._7_combination_wrenches_6%E2%80%9319_mm.jpg/960px-Gedore_No._7_combination_wrenches_6%E2%80%9319_mm.jpg",
-          "width": 3246,
-          "height": 5358,
-          "mime": "image/jpeg",
-          "description": "Set of Gedore No. 7 combination wrenches in 6 to 19 mm sizes.",
-          "object_name": "Gedore No. 7 combination wrenches 6–19 mm",
-          "categories": "Taken with Canon EOS 6D|Taken with Canon TS-E 90mm F2.8|Retouched pictures|Gedore|Combination wrenches|Self-published work|Featured pictures of objects|Featured pictures by Lucasbosch|Studio photographs by Lucasbosch|Quality photo composites and montages|Created with Helicon Focus|Montages of objects|Tools on black background|Focus stacking images of tools",
-          "license": "CC BY-SA 3.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-          "author": "Lucasbosch",
-          "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lucasbosch\" title=\"User:Lucasbosch\">Lucasbosch</a>",
-          "page_url": "https://commons.wikimedia.org/wiki/File:Gedore_No._7_combination_wrenches_6%E2%80%9319_mm.jpg"
-        },
-        {
-          "file_title": "File:Shanghai Jin Mao tower.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Shanghai_Jin_Mao_tower.jpg",
-          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Shanghai_Jin_Mao_tower.jpg/960px-Shanghai_Jin_Mao_tower.jpg",
-          "width": 3107,
-          "height": 4142,
-          "mime": "image/jpeg",
-          "description": "Jin Mao tower in Pudong Shanghai",
-          "object_name": "Shanghai Jin Mao tower",
-          "categories": "China photographs taken on 2015-05-16|Jin Mao Tower|Self-published work|Featured pictures of Shanghai|Featured pictures by Ermell|Uploaded with LrMediaWiki|May 2015 in Shanghai|Photographs by Ermell|Files with coordinates missing SDC location of creation|2015 photographs of Shanghai|Featured pictures of China by Ermell|Taken with Olympus OM-D E-M5 Mark II and Olympus M.Zuiko Digital ED 12-40mm f/2.8 PRO|Images by User:Ermell taken in 2015|Images of China by Ermell",
-          "license": "CC BY-SA 4.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-          "author": "Ermell",
-          "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Ermell\" title=\"User:Ermell\">Ermell</a>",
-          "page_url": "https://commons.wikimedia.org/wiki/File:Shanghai_Jin_Mao_tower.jpg"
-        },
-        {
-          "file_title": "File:Métal Hurlant (84368201).jpeg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/M%C3%A9tal_Hurlant_%2884368201%29.jpeg",
-          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/M%C3%A9tal_Hurlant_%2884368201%29.jpeg/960px-M%C3%A9tal_Hurlant_%2884368201%29.jpeg",
-          "width": 2048,
-          "height": 1365,
-          "mime": "image/jpeg",
-          "description": "500px provided description: Métal Hurlant [#sea ,#bunker ,#Metal]",
-          "object_name": "Métal Hurlant",
-          "categories": "Metals|Photos imported with import-500px",
-          "license": "CC BY-SA 3.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-          "author": "Thibauld Nion",
-          "author_html": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/tibonihoo\">Thibauld Nion</a></div>",
-          "page_url": "https://commons.wikimedia.org/wiki/File:M%C3%A9tal_Hurlant_(84368201).jpeg"
-        },
-        {
-          "file_title": "File:Przekroj tox.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Przekroj_tox.jpg",
-          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Przekroj_tox.jpg",
-          "width": 399,
-          "height": 398,
-          "mime": "image/jpeg",
-          "description": "przekroj punktu powstalego podczas toxowania",
-          "object_name": "Przekroj tox",
-          "categories": "GFDL|Joining (manufacturing)|License migration redundant|Self-published work|Drawings of fasteners|Ultrasonic transducers",
-          "license": "CC BY-SA 3.0",
-          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-          "author": "Rete1",
-          "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rete1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rete1 (page does not exist)\">Rete1</a>",
-          "page_url": "https://commons.wikimedia.org/wiki/File:Przekroj_tox.jpg"
-        },
-        {
-          "file_title": "File:Knurling closeup.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Knurling_closeup.jpg",
-          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Knurling_closeup.jpg",
-          "width": 850,
-          "height": 1352,
-          "mime": "image/jpeg",
-          "description": "Close-up shot of a diamond-pattern knurling on a cylindric work piece. Knurling method: left/right with tips raised (DIN 82 name: RGE), spiral angle: 30°, pitch: 1 mm, profile angle: 90°. Object's diameter: 24 mm, material: aluminium (silver anodised).",
-          "object_name": "Knurling closeup",
-          "categories": "Taken with Canon Digital IXUS 500|Knurling|Self-published work|Aluminium objects|DIN 82",
-          "license": "CC BY-SA 2.5",
-          "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
-          "author": "Contributor.",
-          "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Contributor&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Contributor (page does not exist)\">Contributor</a>.",
-          "page_url": "https://commons.wikimedia.org/wiki/File:Knurling_closeup.jpg"
-        }
-      ]
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/machine-tools/machine-tools_joining.jpg",
+      "attribution": {
+        "title": "Johnson Matthey Metal Joining - geograph.org.uk - 4484546",
+        "description": "Johnson Matthey Metal Joining",
+        "author": "Hugh Venables",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Johnson_Matthey_Metal_Joining_-_geograph.org.uk_-_4484546.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Johnson Matthey Metal Joining - geograph.org.uk - 4484546\nJohnson Matthey Metal Joining\n\nImage: Hugh Venables ([source](https://commons.wikimedia.org/wiki/File:Johnson_Matthey_Metal_Joining_-_geograph.org.uk_-_4484546.jpg))\nLicense: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)"
+      }
     },
     "energy": {
       "node_name": "Energy",
@@ -17463,10 +17202,23 @@
       "node_name": "Prospecting & Surveying",
       "domain": "mining",
       "search_queries": [
-        "Prospecting Surveying",
-        "measurement"
+        "gold prospector panning",
+        "geological survey mineral",
+        "mineral exploration drilling"
       ],
-      "status": "needs_resource"
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/mining/mining_prospecting.jpg",
+      "attribution": {
+        "title": "Gold Prospectors Association of America volunteer gold panning presentation (47851068932)",
+        "description": "Almost 1,500 Anchorage-area sixth-graders and 270 adult participants spent the week learning about gold panning, fly tying, hydrology, bear safety, and atlatl hunting, during the 45th annual Outdoor Week held on the public lands surrounding the Campbell Creek Science Center. The event introduces sixth graders to outdoor recreation and natural resources careers. Joining the BLM organizers were 19 partner organizations and 90 volunteers.\nGold Prospectors Association of America volunteer giving a gold panning presentation.\n\nPhoto by Lisa Gleason (BLM)",
+        "author": "BLM Alaska",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gold_Prospectors_Association_of_America_volunteer_gold_panning_presentation_(47851068932).jpg",
+        "license_tier": "libre",
+        "attribution_md": "Gold Prospectors Association of America volunteer gold panning presentation (47851068932)\nAlmost 1,500 Anchorage-area sixth-graders and 270 adult participants spent the week learning about gold panning, fly tying, hydrology, bear safety, and atlatl hunting, during the 45th annual Outdoor Week held on the public lands surrounding the Campbell Creek Science Center. The event introduces sixth graders to outdoor recreation and natural resources careers. Joining the BLM organizers were 19 partner organizations and 90 volunteers.\nGold Prospectors Association of America volunteer giving a gold panning presentation.\n\nPhoto by Lisa Gleason (BLM)\n\nImage: BLM Alaska ([source](https://commons.wikimedia.org/wiki/File:Gold_Prospectors_Association_of_America_volunteer_gold_panning_presentation_(47851068932).jpg))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
+      }
     },
     "ceramics": {
       "node_name": "Ceramics & Refractories",
@@ -35161,22 +34913,22 @@
       "node_name": "Ultrasonic Welding & Wire Bonding",
       "domain": "machine-tools",
       "search_queries": [
-        "Ultrasonic Welding & Wire Bonding",
-        "Ultrasonic Welding & Wire Bonding Machine Tools process",
-        "Ultrasonic Welding & Wire Bonding diagram"
+        "ultrasonic welding machine",
+        "ultrasonic metal welder",
+        "wire bonding machine"
       ],
       "status": "downloaded",
       "candidates": [],
       "local_path": "docs/images/machine-tools/machine-tools_ultrasonic-bonding.jpg",
       "attribution": {
-        "title": "Hi-res X-Ray of Raspberry Pi Pico (50862597256)",
-        "description": "High resolution X-Ray of the Raspberry Pi Pico microcontroller, launched on 21 January 2021. \nAt the top is a view of the whole board, which is roughly 51m (2\") long. Below that is an even higher resolution view of the processor chip. The actual silicon chip - 2mm x 2mm of sandy goodness - is the small square in the middle.\nA note on the physical construction of integrated circuits: the silicon chip is fragile and you can't solder to it. The chip is therefore stuck to a metal 'base plate' and surrounded by carefully shaped fingers of metal that together are known as the 'lead frame' - that's lead as in cable, not as in heavy metal. The big ends of the fingers form the pins of the IC package. The thin ends are as close together as possible, though still far too big to physically connect to the silicon. Tiny, incredibly thin metal wires (known as 'bond wires' and made from gold or aluminium) are ultrasonically welded to the fingers and to specially-prepared areas on the chip, thus providing an electrical path from the chip to the outside world. Finally, it's all surrounded by a precision-moulded plastic case. \nIn the lower part of the image you can clearly see the fine bond wires that go from the silicon out to the leadframe. The tiny dots on the wires at the chip end are microscopic balls, formed when the wire is ultrasonically welded to the chip's metallisation. I estimate that the wires are about 20µm thick (0.02mm) and the pads on the chip are about 65µm apart, or roughly the width of a human hair. I said this was a high resolution X-Ray!  \nThis image is not public domain but is available for re-use under the Creative Commons Share-Alike licence - basically you can do anything you like with it, for free, provided you give me a credit ('Ultrapurple' is fine), and ensure that any derivative works are given a similar licence compatible with the requirements of CC BY-SA 2.0. See &lt;a href=\"https://creativecommons.org/licenses/by-sa/2.0/\" rel=\"noreferrer nofollow\"&gt;creativecommons.org/licenses/by-sa/2.0/&lt;/a&gt; for full licence details.\n\nFeel free to comment - and let me know if you re-use the image!",
-        "author": "Giles Read from Bedford, UK",
-        "license": "CC BY-SA 2.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Hi-res_X-Ray_of_Raspberry_Pi_Pico_(50862597256).jpg",
+        "title": "Henry W. Putnam Machines for Bonding Wire Fastenings for Bottle Toppers",
+        "description": "",
+        "author": "Department of the Interior. Patent Office. (1849 - 1925)",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Henry_W._Putnam_Machines_for_Bonding_Wire_Fastenings_for_Bottle_Toppers_-_DPLA_-_8dc3eed2843d82315216e4ab4603ccbf_(page_1).jpg",
         "license_tier": "libre",
-        "attribution_md": "Hi-res X-Ray of Raspberry Pi Pico (50862597256)\nHigh resolution X-Ray of the Raspberry Pi Pico microcontroller, launched on 21 January 2021. \nAt the top is a view of the whole board, which is roughly 51m (2\") long. Below that is an even higher resolution view of the processor chip. The actual silicon chip - 2mm x 2mm of sandy goodness - is the small square in the middle.\nA note on the physical construction of integrated circuits: the silicon chip is fragile and you can't solder to it. The chip is therefore stuck to a metal 'base plate' and surrounded by carefully shaped fingers of metal that together are known as the 'lead frame' - that's lead as in cable, not as in heavy metal. The big ends of the fingers form the pins of the IC package. The thin ends are as close together as possible, though still far too big to physically connect to the silicon. Tiny, incredibly thin metal wires (known as 'bond wires' and made from gold or aluminium) are ultrasonically welded to the fingers and to specially-prepared areas on the chip, thus providing an electrical path from the chip to the outside world. Finally, it's all surrounded by a precision-moulded plastic case. \nIn the lower part of the image you can clearly see the fine bond wires that go from the silicon out to the leadframe. The tiny dots on the wires at the chip end are microscopic balls, formed when the wire is ultrasonically welded to the chip's metallisation. I estimate that the wires are about 20µm thick (0.02mm) and the pads on the chip are about 65µm apart, or roughly the width of a human hair. I said this was a high resolution X-Ray!  \nThis image is not public domain but is available for re-use under the Creative Commons Share-Alike licence - basically you can do anything you like with it, for free, provided you give me a credit ('Ultrapurple' is fine), and ensure that any derivative works are given a similar licence compatible with the requirements of CC BY-SA 2.0. See &lt;a href=\"https://creativecommons.org/licenses/by-sa/2.0/\" rel=\"noreferrer nofollow\"&gt;creativecommons.org/licenses/by-sa/2.0/&lt;/a&gt; for full licence details.\n\nFeel free to comment - and let me know if you re-use the image!\n\nImage: Giles Read from Bedford, UK ([source](https://commons.wikimedia.org/wiki/File:Hi-res_X-Ray_of_Raspberry_Pi_Pico_(50862597256).jpg))\nLicense: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)"
+        "attribution_md": "Henry W. Putnam Machines for Bonding Wire Fastenings for Bottle Toppers\n\nImage: Department of the Interior. Patent Office. (1849 - 1925) ([source](https://commons.wikimedia.org/wiki/File:Henry_W._Putnam_Machines_for_Bonding_Wire_Fastenings_for_Bottle_Toppers_-_DPLA_-_8dc3eed2843d82315216e4ab4603ccbf_(page_1).jpg))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
       }
     },
     "machine-tools.welding-equipment": {
@@ -35319,11 +35071,23 @@
       "node_name": "Blacksmithing",
       "domain": "metals",
       "search_queries": [
-        "Blacksmithing",
-        "Blacksmithing Metals process",
-        "Blacksmithing diagram"
+        "blacksmith forging",
+        "blacksmith hammer anvil",
+        "blacksmith at forge"
       ],
-      "status": "needs_resource"
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/metals/metals_blacksmithing.jpg",
+      "attribution": {
+        "title": "4 artist blacksmith forging with power hammer",
+        "description": "A typical smithy in Finland. Shot during a tourist trip to artist blacksmith Jesse Sipola's smithy next to lake Bodom. Blacksmith is using power hammer to aid in forging.",
+        "author": "Wasapl",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:4_artist_blacksmith_forging_with_power_hammer.JPG",
+        "license_tier": "libre",
+        "attribution_md": "4 artist blacksmith forging with power hammer\nA typical smithy in Finland. Shot during a tourist trip to artist blacksmith Jesse Sipola's smithy next to lake Bodom. Blacksmith is using power hammer to aid in forging.\n\nImage: Wasapl ([source](https://commons.wikimedia.org/wiki/File:4_artist_blacksmith_forging_with_power_hammer.JPG))\nLicense: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)"
+      }
     },
     "metals.blast-furnace": {
       "node_name": "Blast Furnace & Cast Iron Production",
@@ -35373,22 +35137,22 @@
       "node_name": "Copper Production",
       "domain": "metals",
       "search_queries": [
-        "Copper Production",
-        "Copper Production Metals process",
-        "Copper Production diagram"
+        "copper ore smelting",
+        "copper refining fire",
+        "copper metal ingots"
       ],
       "status": "downloaded",
       "candidates": [],
       "local_path": "docs/images/metals/metals_copper.jpg",
       "attribution": {
-        "title": "World: Copper Production, 1946",
-        "description": "Metal Content of Ore.",
-        "author": "Central Intelligence Agency",
+        "title": "A train bringing copper ore out of the mines, Ducktown, Tenn. Fumes from smelting copper for sulfuric acid have destroyed all vegetation and eroded the land LCCN2017877450",
+        "description": "Title: A train bringing copper ore out of the mines, Ducktown, Tenn. Fumes from smelting copper for sulfuric acid have destroyed all vegetation and eroded the land\nAbstract/medium: 1 slide : color.",
+        "author": "Wolcott, Marion Post, 1910-1990, photographer",
         "license": "Public domain",
         "license_url": "",
-        "source_url": "https://commons.wikimedia.org/wiki/File:World-_Copper_Production,_1946_-_DPLA_-_1e25affd63262ebf6f714b859fa37ae6.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_train_bringing_copper_ore_out_of_the_mines,_Ducktown,_Tenn._Fumes_from_smelting_copper_for_sulfuric_acid_have_destroyed_all_vegetation_and_eroded_the_land_LCCN2017877450.jpg",
         "license_tier": "libre",
-        "attribution_md": "World: Copper Production, 1946\nMetal Content of Ore.\n\nImage: Central Intelligence Agency ([source](https://commons.wikimedia.org/wiki/File:World-_Copper_Production,_1946_-_DPLA_-_1e25affd63262ebf6f714b859fa37ae6.jpg))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
+        "attribution_md": "A train bringing copper ore out of the mines, Ducktown, Tenn. Fumes from smelting copper for sulfuric acid have destroyed all vegetation and eroded the land LCCN2017877450\nTitle: A train bringing copper ore out of the mines, Ducktown, Tenn. Fumes from smelting copper for sulfuric acid have destroyed all vegetation and eroded the land\nAbstract/medium: 1 slide : color.\n\nImage: Wolcott, Marion Post, 1910-1990, photographer ([source](https://commons.wikimedia.org/wiki/File:A_train_bringing_copper_ore_out_of_the_mines,_Ducktown,_Tenn._Fumes_from_smelting_copper_for_sulfuric_acid_have_destroyed_all_vegetation_and_eroded_the_land_LCCN2017877450.jpg))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
       }
     },
     "metals.copper-refining": {
@@ -35417,22 +35181,22 @@
       "node_name": "Primary Metal Forming",
       "domain": "metals",
       "search_queries": [
-        "Primary Metal Forming",
-        "Primary Metal Forming Metals process",
-        "Primary Metal Forming diagram"
+        "metal press forming",
+        "hydraulic press metal",
+        "metal rolling process"
       ],
       "status": "downloaded",
       "candidates": [],
       "local_path": "docs/images/metals/metals_forming.jpg",
       "attribution": {
-        "title": "US Navy 050422-M-8797S-022 U.S. Navy Seabees level out the primary landing zone aboard Camp Blue Diamond so they are able to lay down metal plating",
-        "description": "Al Anbar Province, Iraq (April 22, 2005) – U.S. Navy Seabees level out the primary landing zone aboard Camp Blue Diamond so they are able to lay down metal plating to help prevent helicopters from kicking up dust when taking off or landing. Marines assigned to 2nd Marine Division conduct Security and Stabilization Operations (SASO) in the Al Anabar Province in support of Operation Iraqi Freedom \n(OIF). U.S. Marine Corps photo by Cpl. Thomas Schaeffer (RELEASED)",
-        "author": "U.S. Marine Corps photo by Cpl. Thomas Schaeffer",
+        "title": "Huge drop hammers work day and night forming sheet metal parts for United Nations bombers and fighters at the North American Aviation plant, Inglewood, Calif",
+        "description": "Huge drop hammers work day and night forming sheet metal parts for United Nations bombers and fighters at the North American Aviation, Inc., plant, Inglewood, Calif. \nThe heavy hemp rope is used to snub the hammer so that it forms the part under proper pressure and rises clear of the work after each operation.",
+        "author": "Alfred T. Palmer",
         "license": "Public domain",
         "license_url": "",
-        "source_url": "https://commons.wikimedia.org/wiki/File:US_Navy_050422-M-8797S-022_U.S._Navy_Seabees_level_out_the_primary_landing_zone_aboard_Camp_Blue_Diamond_so_they_are_able_to_lay_down_metal_plating.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Huge_drop_hammers_work_day_and_night_forming_sheet_metal_parts_for_United_Nations_bombers_and_fighters_at_the_North_American_Aviation_plant,_Inglewood,_Calif.jpg",
         "license_tier": "libre",
-        "attribution_md": "US Navy 050422-M-8797S-022 U.S. Navy Seabees level out the primary landing zone aboard Camp Blue Diamond so they are able to lay down metal plating\nAl Anbar Province, Iraq (April 22, 2005) – U.S. Navy Seabees level out the primary landing zone aboard Camp Blue Diamond so they are able to lay down metal plating to help prevent helicopters from kicking up dust when taking off or landing. Marines assigned to 2nd Marine Division conduct Security and Stabilization Operations (SASO) in the Al Anabar Province in support of Operation Iraqi Freedom \n(OIF). U.S. Marine Corps photo by Cpl. Thomas Schaeffer (RELEASED)\n\nImage: U.S. Marine Corps photo by Cpl. Thomas Schaeffer ([source](https://commons.wikimedia.org/wiki/File:US_Navy_050422-M-8797S-022_U.S._Navy_Seabees_level_out_the_primary_landing_zone_aboard_Camp_Blue_Diamond_so_they_are_able_to_lay_down_metal_plating.jpg))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
+        "attribution_md": "Huge drop hammers work day and night forming sheet metal parts for United Nations bombers and fighters at the North American Aviation plant, Inglewood, Calif\nHuge drop hammers work day and night forming sheet metal parts for United Nations bombers and fighters at the North American Aviation, Inc., plant, Inglewood, Calif. \nThe heavy hemp rope is used to snub the hammer so that it forms the part under proper pressure and rises clear of the work after each operation.\n\nImage: Alfred T. Palmer ([source](https://commons.wikimedia.org/wiki/File:Huge_drop_hammers_work_day_and_night_forming_sheet_metal_parts_for_United_Nations_bombers_and_fighters_at_the_North_American_Aviation_plant,_Inglewood,_Calif.jpg))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
       }
     },
     "metals.magnetic-materials": {
@@ -35461,11 +35225,23 @@
       "node_name": "Non-Ferrous Metal Production",
       "domain": "metals",
       "search_queries": [
-        "Non-Ferrous Metal Production",
-        "Non-Ferrous Metal Production Metals process",
-        "Non-Ferrous Metal Production diagram"
+        "aluminum bronze brass metal",
+        "non-ferrous metal alloys",
+        "copper zinc alloy brass"
       ],
-      "status": "needs_resource"
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/metals/metals_non-ferrous.jpg",
+      "attribution": {
+        "title": "Non ferrous Metal Working Waste from Barton upon Humber",
+        "description": "Copper alloy, with a silvery sheen\n\n\nManufacturing waste. Cuboid fragment of dense metallic casting waste, with angular surfaces and a distinctively silvery sheen overall. Suggested date: Medieval to Post-Medieval, 1300-1700.\n\n\nLength: 41mm, Width: 41mm, Thickness: 28mm, Weight: 93.83gms.",
+        "author": "North Lincolnshire Museum, Martin Foreman, 2011-04-01 10:32:36",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Non_ferrous_Metal_Working_Waste_from_Barton_upon_Humber_(FindID_434597).jpg",
+        "license_tier": "libre",
+        "attribution_md": "Non ferrous Metal Working Waste from Barton upon Humber\nCopper alloy, with a silvery sheen\n\n\nManufacturing waste. Cuboid fragment of dense metallic casting waste, with angular surfaces and a distinctively silvery sheen overall. Suggested date: Medieval to Post-Medieval, 1300-1700.\n\n\nLength: 41mm, Width: 41mm, Thickness: 28mm, Weight: 93.83gms.\n\nImage: North Lincolnshire Museum, Martin Foreman, 2011-04-01 10:32:36 ([source](https://commons.wikimedia.org/wiki/File:Non_ferrous_Metal_Working_Waste_from_Barton_upon_Humber_(FindID_434597).jpg))\nLicense: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)"
+      }
     },
     "metals.pipe-making": {
       "node_name": "Pipe and Tube Manufacturing",
@@ -35602,21 +35378,45 @@
       "node_name": "Spring Manufacturing",
       "domain": "metals",
       "search_queries": [
-        "Spring Manufacturing",
-        "Spring Manufacturing Metals process",
-        "Spring Manufacturing diagram"
+        "coil spring manufacturing",
+        "metal spring coil",
+        "steel spring winding"
       ],
-      "status": "needs_resource"
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/metals/metals_springs.jpg",
+      "attribution": {
+        "title": "Coil spring hot forming",
+        "description": "Hot forming of coil spring. A manufacturing process of Monroe Springs in Australia.",
+        "author": "Energy Saver",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Coil_spring_hot_forming.jpg",
+        "license_tier": "libre",
+        "attribution_md": "Coil spring hot forming\nHot forming of coil spring. A manufacturing process of Monroe Springs in Australia.\n\nImage: Energy Saver ([source](https://commons.wikimedia.org/wiki/File:Coil_spring_hot_forming.jpg))\nLicense: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0)"
+      }
     },
     "metals.steelmaking": {
       "node_name": "Modern Steelmaking",
       "domain": "metals",
       "search_queries": [
-        "Modern Steelmaking",
-        "Modern Steelmaking Metals process",
-        "Modern Steelmaking diagram"
+        "blast furnace steel",
+        "steelmaking furnace",
+        "molten steel casting"
       ],
-      "status": "needs_resource"
+      "status": "downloaded",
+      "candidates": [],
+      "local_path": "docs/images/metals/metals_steelmaking.png",
+      "attribution": {
+        "title": "Bethlehem Steel Blast Furnace A drawing",
+        "description": "Bethlehem Steel Blast Furnace A drawing, United States, at the beginning of 20th century.",
+        "author": "Joseph Esrey Johnson, Jr. (1870-1919)",
+        "license": "Public domain",
+        "license_url": "",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bethlehem_Steel_Blast_Furnace_A_drawing.png",
+        "license_tier": "libre",
+        "attribution_md": "Bethlehem Steel Blast Furnace A drawing\nBethlehem Steel Blast Furnace A drawing, United States, at the beginning of 20th century.\n\nImage: Joseph Esrey Johnson, Jr. (1870-1919) ([source](https://commons.wikimedia.org/wiki/File:Bethlehem_Steel_Blast_Furnace_A_drawing.png))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
+      }
     },
     "metals.wire-drawing": {
       "node_name": "Wire Drawing",
@@ -35666,22 +35466,22 @@
       "node_name": "Zinc Production",
       "domain": "metals",
       "search_queries": [
-        "Zinc Production",
-        "Zinc Production Metals process",
-        "Zinc Production diagram"
+        "zinc metal ingot",
+        "zinc smelting furnace",
+        "zinc ore processing"
       ],
       "status": "downloaded",
       "candidates": [],
-      "local_path": "docs/images/metals/metals_zinc.jpg",
+      "local_path": "docs/images/metals/metals_zinc.png",
       "attribution": {
-        "title": "World: Zinc Production, 1946",
-        "description": "Metal Content of Ore.",
-        "author": "Central Intelligence Agency",
+        "title": "Vertical zinc retort furnace",
+        "description": "Vertical zinc retort furnace developed by New Jersey Zinc Company..",
+        "author": "United States Environmental Protection Agency",
         "license": "Public domain",
         "license_url": "",
-        "source_url": "https://commons.wikimedia.org/wiki/File:World-_Zinc_Production,_1946_-_DPLA_-_2f18a69219248aa357d5859b6d2cbe58.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Vertical_zinc_retort_furnace.png",
         "license_tier": "libre",
-        "attribution_md": "World: Zinc Production, 1946\nMetal Content of Ore.\n\nImage: Central Intelligence Agency ([source](https://commons.wikimedia.org/wiki/File:World-_Zinc_Production,_1946_-_DPLA_-_2f18a69219248aa357d5859b6d2cbe58.jpg))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
+        "attribution_md": "Vertical zinc retort furnace\nVertical zinc retort furnace developed by New Jersey Zinc Company..\n\nImage: United States Environmental Protection Agency ([source](https://commons.wikimedia.org/wiki/File:Vertical_zinc_retort_furnace.png))\nLicense: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)"
       }
     },
     "mining.black-powder": {
@@ -38348,19 +38148,7 @@
         "Sunflower Plants process",
         "Sunflower diagram"
       ],
-      "status": "downloaded",
-      "candidates": [],
-      "local_path": "docs/images/plants/plants_sunflower.png",
-      "attribution": {
-        "title": "PSM V80 D384 Diagram of the cross made with the red sunflower",
-        "description": "Diagram of the cross made with the red sunflower",
-        "author": "Unknown authorUnknown author",
-        "license": "Public domain",
-        "license_url": "",
-        "source_url": "https://commons.wikimedia.org/wiki/File:PSM_V80_D384_Diagram_of_the_cross_made_with_the_red_sunflower.png",
-        "license_tier": "libre",
-        "attribution_md": "PSM V80 D384 Diagram of the cross made with the red sunflower\nDiagram of the cross made with the red sunflower\n\nImage: Unknown authorUnknown author ([source](https://commons.wikimedia.org/wiki/File:PSM_V80_D384_Diagram_of_the_cross_made_with_the_red_sunflower.png))\nLicense: Public domain"
-      }
+      "status": "needs_resource"
     },
     "plants.sweet-chestnut": {
       "node_name": "Sweet Chestnut",

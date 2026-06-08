@@ -10,11 +10,11 @@
 
 ## Overview
 
-![Fossils of all kinds, digested into a method, suitable to their mutual relation and affinity : with the names by which they were known to the antients, and those by which they are at this day known: and notes conducing to the setting forth the natural history, and the main uses, of some of the most considerable of them. As also several papers tending to the further advancement of the knowledge of minerals, of the ores of metalls, and of all other subterraneous productions](../images/silicon/silicon_soi.jpg)
+![Dan Hutcheson, semiconductor industry analyst and CEO of VLSI Research holds up a 450mm silicon wafer](../images/silicon/silicon_soi.jpg)
 
-> *"The importance of Woodward's treatise is manifest, from the standpoint of the mineralogist it provides a scheme of classification of as much merit as it was possible to accure in that time, and from the standpoints of the paleontologist and gemologist it truly identifies fossils for what they are, also figured stones to which all sorts of superstitious beliefs had been attached..."--Gemology by J. Sinkankas, entry no. 7324.*
+> *Dan Hutcheson has been following the semiconductor industry for more than 30 years and ranks among the foremost independent authorities on chip making and the economics of innovation. In the early 1980s, he developed the first factory cost-of-ownership models, and more recently advised the White House Council of Economic Advisors on innovation. Intel Free Press story: What's the Outlook for the Semiconductor Industry? As 22-nanometer chips reach the market, a longtime industry observer considers the state of semiconductors today and what lies ahead.*
 
-> *Image: John Woodward, Public domain*
+> *Image: Intel Free Press, CC BY 2.0*
 
 Silicon-on-insulator wafer fabrication via SIMOX (oxygen implantation), Bonded SOI (wafer bonding and back-thinning), and Smart Cut (hydrogen-induced splitting) processes. Produces wafers with a buried SiO₂ layer for reduced parasitic capacitance and radiation-hard applications.
 

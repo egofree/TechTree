@@ -13,11 +13,11 @@ Semiconductor manufacturing demands precise thermal control: crystal growth furn
 
 ## Thermocouples
 
-![US Navy 061129-N-5416W-006 Hospital Corpsman 3rd class Tim Moye has his blood pressure and temperature taken while participating in a ship's blood drive aboard the Nimitz-class aircraft carrier USS Theodore Roosevelt (CVN 71)](../images/measurement/measurement_temperature-pressure.jpg)
+![No. 1 Standard Barometer with Attached Thermometer, 1837, by L. C. Francis - DSC06540](../images/measurement/measurement_temperature-pressure.jpg)
 
-> *Norfolk, Va. (Nov. 29, 2006) - Hospital Corpsman 3rd class Tim Moye has his blood pressure and temperature taken while participating in a ship's blood drive aboard the Nimitz-class aircraft carrier USS Theodore Roosevelt (CVN 71). The nuclear powered aircraft carrier is currently maintaining qualifications as part of the fleet response plan. U.S. Navy photo by Mass Communication Specialist Seaman William Weinert (RELEASED)*
+> *Scientific instrument exhibited in the Franklin Institute, Philadelphia, Pennsylvania, USA.*
 
-> *Image: U.S. Navy photo by Mass Communication Specialist Seaman William Weinert, Public domain*
+> *Image: Daderot, Public domain*
 
 Two dissimilar metals joined at a measurement junction generate a voltage (Seebeck effect) proportional to the temperature difference between the measurement junction and a reference (cold) junction. Output is in the millivolt range — read with a precision millivoltmeter or potentiometer circuit. Cold-junction compensation required (measure reference junction temperature independently, apply correction).
 

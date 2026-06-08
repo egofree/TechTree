@@ -10,11 +10,11 @@
 
 ## Prerequisites
 
-![Introduction to malayalam computing by santhosh thottingal](../images/vlsi-scaling/vlsi-scaling_eda-design.jpg)
+![Inverter Layout - Magic](../images/vlsi-scaling/vlsi-scaling_eda-design.png)
 
-> *kerala university malayalam computing workshop*
+> *VLSI Layout of an Inverter Circuit using Magic software*
 
-> *Image: Indurema, CC BY-SA 4.0*
+> *Image: Jovianeye, CC BY-SA 3.0*
 
 - [Dopant & Etch Gases](../chemistry/dopant-etch-gases.md) — process gas chemistry for semiconductor fabrication
 - [Computing](../computing/index.md) — computer hardware to run EDA tools

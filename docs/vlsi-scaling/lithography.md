@@ -13,11 +13,11 @@ Lithography in the VLSI scaling context covers advanced patterning techniques be
 
 ## Prerequisites
 
-![Georgios Mavromichalis in Nafplio (Lithography by Karl Krazeisen)](../images/vlsi-scaling/vlsi-scaling_lithography.jpg)
+![Temple and ASML containers in Tainan May 2025](../images/vlsi-scaling/vlsi-scaling_lithography.jpg)
 
-> *Georgios Mavromichalis in Nafplio, 1826*
+> *Air cargo containers for ASML machines in a truck lot in Sucuo Village in Tainan, down the street from a temple*
 
-> *Image: Karl Krazeisen, Public domain*
+> *Image: 4300streetcar, CC BY 4.0*
 
 - [Resists & Masks](../photolithography/resists-masks.md) — photoresist chemistry and mask blanks
 - [Optics Inspection](../optics/inspection.md) — lens fabrication and quality verification

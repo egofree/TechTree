@@ -13,11 +13,11 @@ These processes represent the transition from baseline IC fabrication ([Core Fab
 
 ## Prerequisites
 
-![Advanced Bionics Naída processor 01 (cropped)](../images/vlsi-scaling/vlsi-scaling_advanced-processes.jpg)
+![President Joe Biden is briefed on Intel’s CHIPS manufacturing process by technician Michelle Blackwell during a tour of the Intel Ocotillo Campus, Wednesday, March 20, 2024, in Chandler, Arizona](../images/vlsi-scaling/vlsi-scaling_advanced-processes.jpg)
 
-> *A child's decorated Advanced Bionics Naída speech processor of a cochlear implant.*
+> *President Joe Biden is briefed on Intel’s CHIPS manufacturing process by technician Michelle Blackwell during a tour of the Intel Ocotillo Campus, Wednesday, March 20, 2024, in Chandler, Arizona. (Official White House Photo by Adam Schultz)*
 
-> *Image: PlanespotterA320, CC BY-SA 4.0*
+> *Image: The White House, Public domain*
 
 - [Core Fab Processes](../photolithography/fab-processes.md) — baseline doping, etching, deposition, and metallization
 

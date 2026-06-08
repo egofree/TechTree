@@ -10,11 +10,11 @@
 
 ## Prerequisites
 
-![Small-scale continuous granulation equipment](../images/vlsi-scaling/vlsi-scaling_continuous-scaling.jpg)
+![Moore's Law – chart of transistor count of microchips](../images/vlsi-scaling/vlsi-scaling_continuous-scaling.png)
 
-> *General view of small-scale continuous granulation equipment used at the U.S. Department of Agriculture's Agricultural Engineering Laboratory.*
+> *Moore's Law Transistor Count*
 
-> *Image: Wikimedia Commons contributor, Public domain*
+> *Image: ourworldindata.org, CC BY-SA 4.0*
 
 - [Core Fab Processes](../photolithography/fab-processes.md) — baseline semiconductor manufacturing capability
 

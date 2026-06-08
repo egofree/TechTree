@@ -13,11 +13,11 @@ Core mathematics gives engineers algebra and geometry — tools for static, dete
 
 ## Prerequisites
 
-![Common area in the Brown University Division of Applied Mathematics building](../images/mathematics/mathematics_applied-mathematics.jpg)
+![Commutative diagram illustrating problem solving via the Fourier transform-Ukr](../images/mathematics/mathematics_applied-mathematics.png)
 
-> *The common area of the Brown University Division of Applied Mathematics building. The building was constructed in 2015 and designed by Architecture Research Office.*
+> *Схема використання перетворення Фур'є для розв'язання задач*
 
-> *Image: Chris Rycroft, CC BY 2.0*
+> *Image: Bohdan Yevdokymenko, CC BY-SA 4.0*
 
 - [Core Mathematics](core-mathematics.md) — algebra, trigonometry, and coordinate geometry
 

@@ -13,11 +13,11 @@ Sewing transforms flat woven cloth into shaped, functional products: garments, t
 
 ## Prerequisites
 
-![POWs in sewing and tailoring class](../images/textiles/textiles_sewing-tailoring.jpg)
+![A tailor sewing emir cloth](../images/textiles/textiles_sewing-tailoring.jpg)
 
-> *Prisoners of war are given classes in sewing and tailoring at the Bien Hoa Prisoner of War Camp. NARA 111-CCV-429-CC52603*
+> *In the skilled hands of the tailor, a regal masterpiece takes shape. With precision and artistry, he sews a garment fit for an emir, weaving together threads that carry the essence of tradition and elegance. In this atelier, the hum of the sewing machine harmonizes with the cultural tapestry being meticulously crafted for the distinguished wearer.*
 
-> *Image: SP5 Ronald Delaurier, Public domain*
+> *Image: Zee Gee el, CC BY 4.0*
 
 - [Weaving](weaving.md) — woven cloth as the primary material
 - [Iron & Steel](../metals/iron-steel.md) — steel wire for needle manufacture

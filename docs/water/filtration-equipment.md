@@ -10,11 +10,11 @@
 
 ## Overview
 
-![Langfang Meike Filtration Equipment Co., Ltd. 20250517](../images/water/water_filtration-equipment.jpg)
+![The coagulation and filtration processes at a drinking water treatment plant. (14868618507)](../images/water/water_filtration-equipment.jpg)
 
-> *Exhibition area of Langfang Meike Filtration Equipment Co., Ltd. at the 2025 Changsha International Construction Equipment Exhibition, in Changsha, Hunan, China.*
+> *During filtration, water passes through filters, some made of layers of sand, gravel, and charcoal that help remove even smaller particles. Filtration and later chemical treatment (e.g., chlorine) played a role in reducing the number of waterborne disease outbreaks in the early 1900s.*
 
-> *Image: Huangdan2060, CC BY 4.0*
+> *Image: USEPA Environmental-Protection-Agency, Public domain*
 
 Filtration removes suspended solids from a fluid by passing it through a porous medium that captures particles while allowing the fluid to pass. In water treatment, filtration is the critical barrier between raw water and safe drinking water — after coarse solids are removed by settling, filtration captures the remaining fine particles, microorganisms, and turbidity that cause disease and foul downstream equipment.
 

@@ -2856,9 +2856,9 @@
       "domain": "machine-tools",
       "doc_path": "docs/machine-tools/resistance-welding.md",
       "search_queries": [
-        "Resistance Welding (Spot & Seam)",
-        "Resistance Welding (Spot & Seam) Machine Tools process",
-        "Resistance Welding (Spot & Seam) diagram"
+        "resistance spot welding",
+        "spot welder machine",
+        "resistance welding electrode"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -2934,9 +2934,9 @@
       "domain": "machine-tools",
       "doc_path": "docs/machine-tools/ultrasonic-bonding.md",
       "search_queries": [
-        "Ultrasonic Welding & Wire Bonding",
-        "Ultrasonic Welding & Wire Bonding Machine Tools process",
-        "Ultrasonic Welding & Wire Bonding diagram"
+        "ultrasonic welding machine",
+        "ultrasonic metal welder",
+        "wire bonding machine"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -3051,9 +3051,9 @@
       "domain": "metals",
       "doc_path": "docs/metals/blacksmithing.md",
       "search_queries": [
-        "Blacksmithing",
-        "Blacksmithing Metals process",
-        "Blacksmithing diagram"
+        "blacksmith forging",
+        "blacksmith hammer anvil",
+        "blacksmith at forge"
       ],
       "has_existing_image": false,
       "source": "entity_and_content"
@@ -3103,9 +3103,9 @@
       "domain": "metals",
       "doc_path": "docs/metals/copper.md",
       "search_queries": [
-        "Copper Production",
-        "Copper Production Metals process",
-        "Copper Production diagram"
+        "copper ore smelting",
+        "copper refining fire",
+        "copper metal ingots"
       ],
       "has_existing_image": false,
       "source": "entity_and_content"
@@ -3142,9 +3142,9 @@
       "domain": "metals",
       "doc_path": "docs/metals/forming.md",
       "search_queries": [
-        "Primary Metal Forming",
-        "Primary Metal Forming Metals process",
-        "Primary Metal Forming diagram"
+        "metal press forming",
+        "hydraulic press metal",
+        "metal rolling process"
       ],
       "has_existing_image": false,
       "source": "entity_and_content"
@@ -3181,9 +3181,9 @@
       "domain": "metals",
       "doc_path": "docs/metals/non-ferrous.md",
       "search_queries": [
-        "Non-Ferrous Metal Production",
-        "Non-Ferrous Metal Production Metals process",
-        "Non-Ferrous Metal Production diagram"
+        "aluminum bronze brass metal",
+        "non-ferrous metal alloys",
+        "copper zinc alloy brass"
       ],
       "has_existing_image": false,
       "source": "entity_and_content"
@@ -3298,9 +3298,9 @@
       "domain": "metals",
       "doc_path": "docs/metals/springs.md",
       "search_queries": [
-        "Spring Manufacturing",
-        "Spring Manufacturing Metals process",
-        "Spring Manufacturing diagram"
+        "coil spring manufacturing",
+        "metal spring coil",
+        "steel spring winding"
       ],
       "has_existing_image": false,
       "source": "entity_and_content"
@@ -3311,9 +3311,9 @@
       "domain": "metals",
       "doc_path": "docs/metals/steelmaking.md",
       "search_queries": [
-        "Modern Steelmaking",
-        "Modern Steelmaking Metals process",
-        "Modern Steelmaking diagram"
+        "blast furnace steel",
+        "steelmaking furnace",
+        "molten steel casting"
       ],
       "has_existing_image": false,
       "source": "entity_and_content"
@@ -3350,9 +3350,9 @@
       "domain": "metals",
       "doc_path": "docs/metals/zinc.md",
       "search_queries": [
-        "Zinc Production",
-        "Zinc Production Metals process",
-        "Zinc Production diagram"
+        "zinc metal ingot",
+        "zinc smelting furnace",
+        "zinc ore processing"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -3402,9 +3402,9 @@
       "domain": "mining",
       "doc_path": "docs/mining/prospecting.md",
       "search_queries": [
-        "Prospecting & Surveying",
-        "Prospecting & Surveying Mining process",
-        "Prospecting & Surveying diagram"
+        "gold prospector panning",
+        "geological survey mineral",
+        "mineral exploration drilling"
       ],
       "has_existing_image": true,
       "source": "entity_and_content"
@@ -3441,9 +3441,9 @@
       "domain": "mining",
       "doc_path": "docs/mining/tailings-reprocessing.md",
       "search_queries": [
-        "Tailings Reprocessing",
-        "Tailings Reprocessing Mining process",
-        "Tailings Reprocessing diagram"
+        "mining tailings pond",
+        "tailings dam mine",
+        "mine waste reprocessing"
       ],
       "has_existing_image": false,
       "source": "entity_and_content"
@@ -5976,9 +5976,9 @@
       "domain": "vlsi-scaling",
       "doc_path": "docs/vlsi-scaling/eda-design.md",
       "search_queries": [
-        "EDA electronic design automation software",
-        "VLSI chip layout design tool",
-        "integrated circuit CAD layout routing"
+        "integrated circuit layout design",
+        "VLSI chip layout",
+        "electronic circuit schematic design"
       ],
       "has_existing_image": true,
       "source": "entity_and_content"
@@ -5989,9 +5989,9 @@
       "domain": "vlsi-scaling",
       "doc_path": "docs/vlsi-scaling/lithography.md",
       "search_queries": [
-        "photolithography stepper scanner semiconductor",
-        "extreme ultraviolet lithography EUV",
-        "semiconductor lithography machine"
+        "photolithography semiconductor",
+        "lithography stepper wafer",
+        "EUV lithography machine"
       ],
       "has_existing_image": false,
       "source": "content_scan"
@@ -6028,9 +6028,9 @@
       "domain": "water",
       "doc_path": "docs/water/filtration-equipment.md",
       "search_queries": [
-        "water filtration equipment industrial filter",
-        "reverse osmosis water purification system",
-        "sand filter water treatment plant"
+        "water filtration system",
+        "water treatment filter",
+        "reverse osmosis system"
       ],
       "has_existing_image": false,
       "source": "content_scan"

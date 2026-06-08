@@ -10,11 +10,11 @@
 
 ## Basic Semiconductor Devices
 
-![Low-temperature processes controlling silicon dissolution in seawater](../images/silicon/silicon_basic-devices.jpg)
+![Shockley Semiconductor Laboratory, sculptures of Shockley diodes and 2N696 transistor, June 2019](../images/silicon/silicon_basic-devices.jpg)
 
-> *Low-temperature processes controlling silicon dissolution in seawater Schematic view of the low-temperature processes that control the dissolution of (either amorphous or crystallized) siliceous minerals in seawater in and to the coastal zone and in the deep ocean, feeding submarine groundwater (FGW) and dissolved silicon in seawater and sediments (FW). These processes correspond to both low and medium energy flux dissipated per volume of a given siliceous particle in the coastal zone, in the continental margins, and in the abysses and to high-energy flux dissipated in the surf zone.*
+> *The photograph shows three sculptures of semiconductor devices at 391 San Antonio Road, Mountain View, California. According to a nearby wall-mounted historical marker the two on the left are four-layer diodes ("Shockley diode") and the third sculpture is a 2N696 silicon transistor. The middle sculpture appears as it would have been sold with it's protective cap. The leftmost sculpture shows the same device but with the protective cover removed so as to show where the silicon chip would have been located within the device.*
 
-> *Image: Paul J. Tréguer, Jill N. Sutton, Mark Brzezinski, Matthew A. Charette, Timothy Devries, Stephanie Dutkiewicz, Claudia Ehlert, Jon Hawkings, Aude Leynaert, Su Mei Liu, Natalia Llopis Monferrer, María López-Acosta, Manuel Maldonado, Shaily Rahman, Lihua Ran and Olivier Rouxel, CC BY-SA 4.0*
+> *Image: Baltakatei, CC BY-SA 4.0*
 
 ### Solar Cells (Primary Target — simplest useful semiconductor device)
 

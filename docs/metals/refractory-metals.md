@@ -8,7 +8,6 @@
 > **Outputs**: tungsten, molybdenum, tantalum, niobium
 > **Critical**: true
 
-
 Refractory metals — tungsten (W, mp 3422°C), molybdenum (Mo, mp 2623°C), tantalum (Ta, mp 3017°C), and niobium (Nb, mp 2477°C) — serve in extreme-temperature and high-wear applications: furnace heating elements, lamp filaments, rocket nozzles, tool steel alloying, and corrosion-resistant chemical equipment. Their extreme melting points demand powder metallurgy or arc melting under vacuum or inert atmosphere.
 
 ## Properties Comparison
@@ -351,7 +350,6 @@ Refractory metals — tungsten (W, mp 3422°C), molybdenum (Mo, mp 2623°C), tan
 - Tungsten is expensive ($200-400/mtu for APT) and difficult to machine — radiation shielding applications limited to where compact size justifies cost.
 - APT price spiked to $500+ in 2011-2012 due to Chinese export restrictions — supply-driven price volatility complicates project planning.
 
-
 ## Fine Powder Inhalation
 
 Refractory metal powders (W, Mo, Ta, Nb) pose serious inhalation hazards during powder handling, blending, sieving, and loading operations. Tungsten and molybdenum powders below 10 μm FSSS are respirable — they penetrate deep into the lungs and are poorly cleared by macrophages due to their high density and biopersistence. Chronic inhalation of tungsten and cobalt mixtures (as encountered in cemented carbide production) causes "hard metal lung disease" (giant cell interstitial pneumonitis) — a progressive, irreversible fibrosis. IARC classifies tungsten carbide-cobalt mixtures as **Group 2A** (probable carcinogen). Pure tungsten powder is less studied but fine particulate tungsten is a suspected carcinogen. Controls: handle all fine refractory metal powders in ventilated enclosures or under local exhaust ventilation (LEV with HEPA filtration). Wear P100 respirators during any operation that may aerosolize powder. Avoid dry sweeping — use HEPA-filtered vacuum cleaners. Wet methods preferred where possible (wet ball milling, spray-drying).
@@ -425,8 +423,6 @@ VAR furnaces draw 2,000-20,000 A at 20-40 V DC. While the voltage is low, the av
 - **[Machine Tools](../machine-tools/machining.md)**: WC-Co cemented carbide tooling
 - **[Lighting](../energy/index.md)**: tungsten filaments for incandescent and halogen lamps
 - **[Specialty Alloys](alloys.md)**: Nb and Mo in nickel-base superalloys for turbines
-
-
 
 ## Troubleshooting
 

@@ -8,11 +8,9 @@
 > **Outputs**: wiring_harnesses, switches, connectors, circuit_breakers, transformers, motors
 > **Critical**: Yes — electrical systems deliver power from generators to every industrial machine, lighting circuit, and electronic device; without reliable wiring, switchgear, and protection, electrification is impossible
 
-
 Electrical systems cover power distribution wiring, switches, connectors, fuses, breakers, transformers, and motor-generator sets — the infrastructure that delivers electricity from generators to loads. Reliable electrical systems are a prerequisite for industrial machinery, lighting, communications, and all post-steam power applications.
 
 This document is a Conceptual/Organizational guide: it provides decision criteria for selecting components, implementation steps for building power distribution systems, and trade-off comparisons between alternatives. Construction details for individual passive components are in [Passive Components](passive-components.md).
-
 
 ## Materials
 
@@ -51,7 +49,6 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 | Steel conduit (41 mm, 3 m lengths) | 35 sections | [Steel production](../metals/iron-steel.md) | EMT (lighter, indoor only), cable tray |
 | Circuit breaker (100A, 480V, 3-pole) | 1 unit | [Metals](../metals/index.md) + [Plastics](../polymers/thermoplastics.md) | Fused disconnect (lower cost, one-time protection) |
 | Terminal lugs (2-hole, 3 AWG) | 6 pcs | [Metals](../metals/index.md) | Mechanical connectors (spring type) |
-
 
 ## Wire and Cable Production
 
@@ -192,7 +189,6 @@ This document is a Conceptual/Organizational guide: it provides decision criteri
 - Fluorescent lamps contain mercury (3-5 mg per tube) — breakage releases mercury vapor (TLV 0.025 mg/m³), requiring careful cleanup and disposal as hazardous waste
 - All lighting technologies generate heat that must be managed: a 400W metal halide lamp in an enclosed fixture produces >300W of thermal energy, raising ambient temperature 5-15°C in unventilated spaces
 
-
 ## Power Cable Ratings by Installation
 
 | Installation Method | Derating Factor | Max Conductor Temperature | Notes |
@@ -254,7 +250,6 @@ Efficiency penalty for operating at 50% load: 1-3% drop from full-load efficienc
 
 **High voltage (above 600 V)**: Requires qualified personnel (trained in high-voltage safety per NFPA 70E), insulated tools (IEC 60900 rated, tested to 10× working voltage), voltage-rated gloves (Class 00 to Class 4, 500 V to 36,000 V AC, inspected before each use for cuts and punctures by rolling from cuff to fingertip to inflate and check for air leaks), and minimum approach distances per NFPA 70E Table 130.4(D)(a). For 480 V systems: limited approach boundary = 1.06 m (unqualified persons stay outside), restricted approach boundary = 0.30 m (qualified persons with appropriate PPE only). For 4.16 kV systems: limited = 1.22 m, restricted = 0.66 m.
 
-
 ## Commissioning Tests
 - **Insulation resistance**: Megger all conductors before energizing. Acceptable: >1 MΩ per kV + 1 MΩ. Test at 500V DC for 600V systems, 1000V DC for 5 kV systems.
 - **Continuity and grounding**: Verify all equipment grounding conductors are continuous (<1 Ω from any metallic enclosure to ground bus). Ground electrode resistance: <25 Ω (building), <5 Ω (industrial facility), <1 Ω (substation).
@@ -265,7 +260,6 @@ Efficiency penalty for operating at 50% load: 1-3% drop from full-load efficienc
 - **Voltage regulation**: Measure voltage at service entrance and at end of longest branch circuit under load. Must be within ±10% of nominal at service, ±3% drop on branch circuits.
 - **Power factor**: Measure with power analyzer. Target: >0.95 lagging. Below 0.90: install capacitor banks (kVAR = 25-40% of motor HP).
 - **Harmonic distortion**: Measure THD at service entrance with power analyzer. IEEE 519 limit: <5% THD at point of common coupling. Above 5%: install harmonic filters or 12-pulse rectifiers.
-
 
 ## Conductor Material Selection
 

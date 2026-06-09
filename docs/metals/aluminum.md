@@ -8,7 +8,6 @@
 > **Outputs**: aluminum ingots, extrusions, castings, sheet
 > **Critical**: Yes — aluminum is the primary structural metal for aerospace and the dominant electrical conductor for overhead transmission
 
-
 Aluminum is the most abundant metal in Earth's crust (8.1% by weight) but never occurs natively — it is always chemically bound, most commonly as aluminum silicates in clays and feldspars. The metal remained unknown until 1825 (isolated by Ørsted as an impure powder) and was more valuable than gold until the Hall-Héroult process (1886) made bulk production possible. Modern civilization depends on aluminum for electrical conductors, structural components, packaging, transportation, and as the primary structural metal for aerospace.
 
 Aluminum production is a two-stage process: the Bayer process converts bauxite ore to pure alumina (Al₂O₃), and the Hall-Héroult process electrolytically reduces alumina to metallic aluminum. The overall energy intensity is 13-15 kWh/kg — aluminum production consumes ~3-4% of global electricity. Recycling requires only 5% of that energy, making secondary aluminum one of the most economically valuable recycled materials.
@@ -20,7 +19,6 @@ Aluminum production is a two-stage process: the Bayer process converts bauxite o
 > *Schematic representation of the rolling process for aluminum alloys. The process includes hot rolling, cold rolling, and temper rolling, gradually reducing the material to the desired thickness before being wound into an aluminum coil.*
 
 > *Image: Sung-Min Wi (Sungminwi), CC BY 4.0*
-
 
 The Bayer process (1887) extracts pure alumina from bauxite ore via selective dissolution in hot sodium hydroxide. Bauxite typically contains 30-55% Al₂O₃ as gibbsite (Al(OH)₃), boehmite (AlO(OH)), or diaspore (AlO(OH)), along with iron oxides (the red color), silica, and titania as impurities.
 
@@ -314,8 +312,6 @@ Recycling is integral to the aluminum industry — not an afterthought. The ener
 **Molten aluminum handling**:
 - Aluminum melt at 700-750°C (casting temperature) — standard foundry hazards. Moisture in molds, tools, or charge materials causes explosive spattering. Preheat all tools to 150°C+ before immersion. Wear face shield, aluminized apron, leather gloves, and safety glasses.
 - Dross handling: Hot dross can contain unreacted aluminum and generates fine particulate. Handle in ventilated areas. Dross fires (aluminum burning) are difficult to extinguish — smother with dry sand or Class D extinguisher. Do NOT use water.
-
-
 
 ## Troubleshooting
 

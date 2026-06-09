@@ -8,13 +8,11 @@
 > **Outputs**: compiled_programs, high_level_languages
 > **Critical**: Yes — compilers enable programming at human-readable abstraction levels, a 5-10× productivity multiplier over assembly language
 
-
 A compiler translates programs written in a high-level language (Fortran, C, Pascal, or any similar language) into machine code or assembly language. Where assembly language provides a one-to-one mnemonic mapping to machine instructions, a high-level language lets the programmer express algorithms in terms of variables, expressions, loops, and functions — the compiler handles register allocation, instruction selection, and address management.
 
 The compiler is the most complex software bootstrapping challenge. A simple two-pass assembler might be 1,000-2,500 lines of code; a working compiler is 5,000-50,000 lines depending on language complexity and optimization level. The bootstrap problem is acute: to compile a program, you need a compiler; to build a compiler, you need a compiler. The solution is the [self-hosting bootstrap](self-hosting.md) sequence.
 
 Compilers unlock a fundamental productivity leap. A programmer can write 5-10× more functionality per day in a high-level language compared to assembly, because the compiler handles the tedious details of instruction encoding, register management, and calling conventions. This productivity multiplier is what makes operating systems, applications, and development tools feasible at scale.
-
 
 ## Software
 - **Working assembler** ([assemblers](assemblers.md)): The compiler's code generator produces assembly output (or object code directly). The assembler is part of the toolchain.
@@ -38,7 +36,6 @@ Compilers unlock a fundamental productivity leap. A programmer can write 5-10× 
 | Magnetic storage (disk/tape) | Adequate | [computing.data-storage](../computing/data-storage.md) | Paper tape (impractical for compilation speed) |
 | Working assembler | 1 unit | [assemblers](assemblers.md) | Compiler generates binary directly (skips assembly step) |
 | Formal language reference | 1 document | [knowledge](../knowledge/index.md) | Textbook on compiler construction |
-
 
 ## Phase 1: Lexical Analysis (Scanning)
 
@@ -217,7 +214,7 @@ Even a simple compiler should perform these optimizations:
 
 - **No physical hazards**: Compiler construction is purely intellectual work.
 - **Mental fatigue**: Debugging a miscompiling compiler is among the most mentally taxing software debugging tasks. The bug could be in the lexer, parser, semantic analyzer, or code generator — and the only symptom is wrong output from the compiled program. Take frequent breaks.
-- ** Frustration management**: A miscompiling compiler can waste hours of debugging time on the wrong hypothesis. Always test with the simplest possible program that demonstrates the bug before investigating complex cases.
+- **Frustration management**: A miscompiling compiler can waste hours of debugging time on the wrong hypothesis. Always test with the simplest possible program that demonstrates the bug before investigating complex cases.
 
 ## Quality Control
 

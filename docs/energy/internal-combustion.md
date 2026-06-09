@@ -8,7 +8,6 @@
 > **Outputs**: gasoline_engines, diesel_engines, mechanical_power
 > **Critical**: No — internal combustion engines enable motorized transport and portable power but are not on the critical path to semiconductor manufacturing
 
-
 Internal combustion engines convert chemical energy in fuel directly into mechanical work inside the engine itself, unlike steam engines (external combustion) where fuel burns in a separate boiler. The key advantage is power-to-weight ratio: a gasoline engine produces 0.5-5 kW per kilogram of engine weight, compared to 0.01-0.05 kW/kg for a steam engine. A 100 kg gasoline engine produces as much power as a 5,000 kg steam engine.
 
 Two internal combustion engine types form a natural progression: the Otto cycle (gasoline) engine introduces internal combustion with spark ignition, and the Diesel cycle pushes compression higher for better efficiency. Both share the same fundamental architecture: cylinder, piston, crankshaft, valves, and the four-stroke cycle. The manufacturing requirements are similar: precision machining at tolerances of 10-25 μm, demanding the full machine tool chain from lathe and mill to cylindrical grinder and honing equipment.
@@ -16,7 +15,6 @@ Two internal combustion engine types form a natural progression: the Otto cycle 
 All internal combustion engines are bounded by the same thermodynamic limits. The maximum theoretical efficiency for any heat engine operating between a hot source at T_hot and a cold sink at T_cold is the Carnot efficiency: η_Carnot = 1 - T_cold/T_hot. For a gasoline engine with combustion at 2500°C (2773 K) and exhaust at 600°C (873 K), the Carnot limit is 68%. Real engines achieve 25-45% due to friction, heat losses, incomplete combustion, and the practical need to exhaust gases well before they cool to ambient.
 
 The economic impact is hard to overstate. A single diesel generator producing 500 kW replaces the mechanical output of several thousand workers. A truck carrying 20 tons of cargo over 500 km in a day would need a hundred horses and a week before engines existed. Aircraft, impossible without lightweight engines, opened commerce and communication across distances that surface transport cannot cover quickly. The step from steam to internal combustion is the step from local industry to global-scale production and distribution.
-
 
 ## Otto Cycle (Four-Stroke Gasoline Engine)
 
@@ -96,7 +94,6 @@ Knock, or detonation, is the primary limit on Otto cycle performance. Normal com
 **Two-stroke gasoline variant**: The two-stroke cycle completes a power stroke every crankshaft revolution (vs. every two revolutions for four-stroke). The piston uncovers intake and exhaust ports in the cylinder wall instead of using valves. Intake, compression, combustion, and exhaust all happen in two strokes. This doubles the power strokes per revolution, giving roughly 1.5-1.8x the power of a four-stroke engine of the same displacement (not 2x because the port timing compromises both cylinder filling and exhaust scavenging). Two-stroke engines are simpler (no valvetrain), lighter, and cheaper to manufacture. The tradeoffs are higher fuel consumption (fresh mixture escapes with the exhaust during scavenging), higher emissions (unburned fuel in exhaust), and the need to mix oil with gasoline for crankcase lubrication (because the crankcase is part of the intake path). Two-stroke engines dominate chainsaws, string trimmers, small outboard motors, and some motorcycles where weight and simplicity matter more than fuel economy. Their lower manufacturing requirements make them potentially earlier candidates in a bootstrap scenario than four-stroke engines, though their poor fuel economy and emissions are significant drawbacks for sustained operation.
 
 **Supercharging and turbocharging (gasoline)**: Gasoline engines can also be supercharged or turbocharged to increase power output. A supercharger is mechanically driven by the engine (belt or gear), consuming some of the engine's output to compress the intake air. A turbocharger uses exhaust gas energy, similar to diesel turbocharging. The challenge with boosting gasoline engines is knock: the higher cylinder pressure and temperature from compressed intake air push the mixture closer to auto-ignition. Boosted gasoline engines therefore require lower compression ratios (typically 8:1 to 10:1 vs. 10:1 to 12:1 for naturally aspirated), higher-octane fuel, and often an intercooler to reduce intake air temperature. Despite these challenges, turbocharged gasoline engines (particularly small-displacement "downsized" engines) are common in modern vehicles because they offer the power of a larger engine with better part-load efficiency. For bootstrap production, naturally aspirated gasoline engines are simpler and more robust, and the additional complexity of turbocharging is better applied to diesel engines where the benefits are greater and the knock constraint does not exist.
-
 
 ## Diesel Cycle
 
@@ -183,7 +180,6 @@ Invented by Rudolf Diesel (1892). Higher efficiency than Otto cycle, used for tr
 - Higher weight per kW than gasoline engines
 - Produces more particulate matter and NOx than gasoline engines per unit of fuel
 
-
 ## Materials of Construction
 
 These materials apply across all reciprocating engine types. Selecting the right material for each component is a balance of strength, weight, thermal conductivity, wear resistance, and cost.
@@ -207,7 +203,6 @@ These materials apply across all reciprocating engine types. Selecting the right
 **Fasteners**: Engine fasteners (head bolts, rod bolts, main bearing caps, flywheel bolts) are among the most stressed components in the engine. Cylinder head bolts must clamp the head gasket with enough force to seal combustion pressure at peak cylinder pressure (50-200 bar). These bolts are typically high-strength alloy steel (10.9 or 12.9 property class), tightened to a precise torque (or more accurately, to a specified bolt stretch using a torque-to-yield or angle-tightening method). Under-tightening allows the head to lift under combustion pressure, blowing the gasket. Over-tightening yields the bolt, also causing gasket failure. Rod bolts must prevent the rod cap from separating at maximum engine RPM, when the reciprocating mass of the piston and rod upper half generates tensile loads of thousands of newtons. Rod bolt failure is catastrophic: the broken rod flails inside the crankcase, usually destroying the engine block beyond repair. Flywheel bolts must transmit the full engine torque while resisting the shearing force from the firing impulse.
 
 **Heat treatment of engine components**: Many engine components require specific heat treatments to develop the required combination of hardness, strength, and toughness. Crankshaft journals are induction hardened to 50-60 HRC on the surface while the core remains tough and ductile (around 25 HRC). This surface-hardened layer resists wear from the bearing, while the ductile core absorbs shock loads from the firing impulse. Piston rings are heat-treated cast iron or spring steel, requiring precise tempering to achieve the correct combination of wear resistance and elastic properties. Valve springs operate under severe cyclic loading at engine speed (millions of cycles per hour of operation) and must be shot-peened and stress-relieved to prevent fatigue failure. Connecting rods are forged and heat-treated to achieve uniform grain structure and the correct balance of tensile strength and fatigue resistance. Gears in the valve train and timing system are case-hardened (surface carburized to 55-62 HRC, core at 25-35 HRC) to resist tooth surface pitting while maintaining core toughness to resist tooth breakage.
-
 
 ## Manufacturing Requirements
 
@@ -235,7 +230,6 @@ These tolerances require the full machine tool bootstrap: lathe, mill, drill pre
 
 **Maintenance schedule**: Industrial diesel engines follow a structured maintenance schedule. Daily checks: oil level, coolant level, fuel level, belt tension, visual inspection for leaks. Every 250-500 hours: change oil and oil filter, replace fuel filter, check valve clearance (adjust if necessary), inspect air filter. Every 2,000-5,000 hours: inspect and replace piston rings if compression is low, grind valve seats, inspect bearings for wear, check turbocharger play. Every 10,000-20,000 hours: major overhaul (re-ring, re-bearing, valve job, possible cylinder re-hone). The specific intervals depend on engine load factor, fuel quality, and operating environment. Engines running on producer gas or biodiesel may require shorter intervals due to increased deposits and different combustion characteristics.
 
-
 ## Fuel Requirements
 
 - **Gasoline**: Fractional distillation of petroleum boiling at 30-200°C. Octane rating 80-95 RON. Energy density ~44 MJ/kg (~34 MJ/L). Volatility tuned for ambient temperature range: too volatile and the fuel boils in the fuel line (vapor lock); not volatile enough and cold starting is difficult. Additives: tetraethyl lead (historical, phased out due to neurotoxicity), MTBE, ethanol blending. Gasoline's low flash point (-43°C) makes it hazardous to store and handle, but its high volatility ensures easy cold starting and good mixture formation in carburetors.
@@ -246,7 +240,6 @@ These tolerances require the full machine tool bootstrap: lathe, mill, drill pre
 **Fuel storage and handling**: Gasoline storage requires approved metal or high-density polyethylene containers, kept cool and away from ignition sources. Gasoline degrades over time: oxidation forms gums and varnishes that clog carburetor jets and fuel injectors. Stabilizer additives extend storage life from 2-3 months to 6-12 months. Diesel fuel degrades more slowly (12-18 months) but is susceptible to microbial growth (bacteria and fungi) at the fuel-water interface in storage tanks. Biocide additives prevent microbial contamination. Water accumulation in fuel tanks (from condensation) must be drained periodically. For bootstrap fuel systems, simple gravity-feed tanks mounted above the engine eliminate the need for fuel pumps, though this arrangement provides no protection against contamination settling into the fuel line.
 
 **Alternative fuel production for engines**: In the absence of petroleum, several engine fuels can be produced from biomass or coal. Producer gas (also called wood gas or syngas) is generated by partial combustion of wood or charcoal in a gasifier. The gas contains roughly 20% CO, 15-20% H₂, 10-15% CO₂, and 50-60% N₂, with a heating value of 5-6 MJ/m³ (about 1/6 the energy density of natural gas by volume). Producer gas can power modified gasoline engines: the carburetor is replaced with a gas mixer, and the ignition timing is advanced to compensate for the slower flame speed of the gas. Power output drops to 40-60% of gasoline operation because the gas displaces some of the intake air and has lower energy per unit volume. Ethanol is produced by fermenting sugars or starches (from grain, sugar cane, or cellulosic biomass after hydrolysis) and distilling to 95% (or higher with molecular sieve dehydration). Ethanol has an octane rating of 109 RON, making it an excellent gasoline substitute for engines designed or modified to run on it. However, ethanol has only ~26 MJ/kg energy density (vs. ~44 MJ/kg for gasoline), meaning fuel consumption increases by volume. Ethanol is also hygroscopic (absorbs water from air) and can corrode certain metals and swell some elastomers not designed for alcohol service. Biodiesel is produced by transesterification of vegetable oil or animal fat with methanol in the presence of a catalyst (sodium or potassium hydroxide). The resulting fatty acid methyl ester (FAME) has properties similar to petroleum diesel and can be used in unmodified diesel engines at blend levels up to B100 (100% biodiesel), though cold flow properties are worse and oxidation stability is shorter.
-
 
 ## Applications
 
@@ -266,7 +259,6 @@ The range of applications for internal combustion engines reflects the wide spec
 
 **Cogeneration (CHP)**: When an engine drives a generator, 55-75% of the fuel energy becomes waste heat in the exhaust and cooling system. Combined heat and power (CHP) systems capture this waste heat for space heating, water heating, industrial process heat, or absorption refrigeration. A diesel generator with CHP can use 75-85% of the fuel energy, compared to 35-45% for electricity generation alone. In a bootstrap economy where every unit of fuel energy matters, CHP significantly improves the return on scarce petroleum or biomass resources.
 
-
 ## Common Failure Modes
 
 Understanding how engines fail is essential for design, maintenance, and diagnosis. The most common failure modes for reciprocating internal combustion engines are:
@@ -277,7 +269,6 @@ Understanding how engines fail is essential for design, maintenance, and diagnos
 - **Head gasket failure**: Caused by overheating (thermal warping of head or block breaks the gasket seal), detonation (pressure spikes exceed gasket capacity), or improper bolt torque. Symptoms: coolant in the oil (milky oil), combustion gas in the cooling system (bubbles in radiator, coolant overflow), loss of coolant without external leak, white exhaust smoke (steam). Head gasket replacement requires head removal, surface inspection for warping, and gasket replacement with proper bolt torque sequence.
 - **Cooling system failure**: Caused by coolant loss (leak), thermostat failure (stuck closed, engine overheats; stuck open, engine runs cold), water pump failure (bearing seizure, impeller corrosion), or radiator blockage (sediment, corrosion). Symptoms: temperature gauge rising, coolant boiling over, loss of heater output. Prevention: use correct coolant mixture, replace thermostat and water pump at recommended intervals, keep radiator clean and airflow unobstructed.
 - **Fuel system contamination**: Water, dirt, or microbial growth in diesel fuel clogs filters and damages injection pumps. Symptoms: loss of power, rough running, engine stalling. Prevention: drain water from fuel tank regularly, replace fuel filters on schedule, use biocide in diesel storage tanks, never refill from contaminated containers.
-
 
 ## Troubleshooting
 
@@ -291,7 +282,6 @@ Understanding how engines fail is essential for design, maintenance, and diagnos
 | Diesel engine losing power, rough running | Clogged secondary fuel filter (2–5 μm rating); contaminated fuel with water or microbial growth restricts flow to injection pump at 100–2000 bar | Drain water separator bowl and check for biological contamination. Replace fuel filter (interval: 250–500 hours). Test fuel for water content; add biocide to storage tank. Verify injection timing is 5–15° before TDC as specified |
 | Exhaust gas temperature exceeding 700°C (diesel) or 900°C (gasoline) | Retarded injection/ignition timing causes late combustion; fuel burns during expansion stroke instead of near TDC, reducing efficiency and raising exhaust temperature | Check and reset fuel injection timing to 5–15° before TDC (diesel) or spark timing to 5–40° before TDC (gasoline). Inspect timing chain/belt for stretch. On diesel common-rail systems, verify electronic timing map is correct for current fuel (cetane ≥40) |
 | Engine misfire on one cylinder (gasoline) | Fouled spark plug (carbon or oil deposits bridge 0.6–1.2 mm electrode gap); or ignition coil not delivering 10,000–40,000V to arc across gap | Remove and inspect spark plug; clean or replace if electrode is bridged. Check spark plug wire resistance and coil output with gap tester. Verify carburetor jet is not clogged (main jet supplies fuel at 14.7:1 stoichiometric ratio). Check valve clearance (intake/exhaust valves must seat fully at TDC compression) |
-
 
 ## Efficiency Comparison
 
@@ -308,7 +298,6 @@ Understanding how engines fail is essential for design, maintenance, and diagnos
 
 **Comparison with electric motors**: Electric motors achieve 85-97% efficiency (vs. 25-50% for heat engines), have one moving part (the rotor), require no fuel or lubrication system, produce zero emissions at point of use, and operate silently. However, electric motors require electricity, which must be generated somewhere (often by heat engines). The choice between engine-driven and electric-driven systems is ultimately a question of energy infrastructure. Where grid electricity is available, electric motors are almost always superior for stationary applications. Heat engines come into their own where portable power is needed (vehicles, aircraft, remote locations) or where the electricity grid does not reach. In a bootstrap economy, the sequence is: first build engines for mechanical power, then build generators to convert engine power to electricity, then build electric motors for stationary applications where the grid exists, and use engines for mobile power where the grid cannot reach.
 - **Infrastructural dependency**: Engines require a supply chain for fuel, lubricating oil, spare parts (filters, belts, hoses, gaskets), and skilled mechanics. A diesel generator is useless without diesel fuel, and a gasoline engine with a clogged carburetor is a paperweight. In a bootstrap scenario, the fuel supply chain (petroleum extraction, transport, refining, distribution) may be more constraining than the engine manufacturing itself. Alternative fuels (producer gas, biodiesel) can fill the gap, but each requires its own production infrastructure.
-
 
 ## See Also
 

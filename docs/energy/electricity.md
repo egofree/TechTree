@@ -17,7 +17,6 @@
 
 > *Image: U.S. Government Accountability Office from Washington, DC, United States, Public domain*
 
-
 ![Schematic-diagram-of-the-automatic-voltage-regulator](../images/energy/energy_power-systems-diagram.png)
 
 > *Schematic diagram of a power distribution voltage regulator*
@@ -37,7 +36,7 @@
 **[Voltaic piles / batteries](../glossary/voltaic-piles-batteries.md)** (first electrical source):
 - **Construction**: Stack alternating disks: copper plate → cardboard soaked in brine (or sulfuric acid) → zinc plate → repeat. 10-20 cells produce 10-20V DC at low current.
 - **Output**: ~1V per cell, ~50-100 mA. Sufficient for early electroplating experiments, telegraph operation, electrochemistry exploration. Not sufficient for industrial power.
-- ****Daniell cell**** (improved): Copper electrode in CuSO₄ solution, separated by porous pot from zinc electrode in ZnSO₄ or dilute H₂SO₄. 1.1V, more stable voltage, longer life. Standard for telegraph systems.
+- **Daniell cell** (improved): Copper electrode in CuSO₄ solution, separated by porous pot from zinc electrode in ZnSO₄ or dilute H₂SO₄. 1.1V, more stable voltage, longer life. Standard for telegraph systems.
 
 **[Wire drawing](../glossary/wire-drawing.md)** (essential for all electrical work):
 - **Starting material**: Cast copper ingot, hot-forged to rod (~10 mm diameter), then cold-drawn.

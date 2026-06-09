@@ -199,12 +199,5 @@ and fastness across all dye types.
 
 Sumac's role as a dual-purpose plant (tannin source and spice) makes it particularly valuable for small-scale agriculture. The same planting provides raw material for leather tanning, textile dyeing, and food seasoning — three essential functions from a single drought-tolerant shrub. This versatility is especially important in Mediterranean climates where water is scarce and multi-use crops are essential.
 
-### Sicilian Sumac Summary
-
-This species represents an important component of a diversified food production system.
-No single crop provides complete nutrition, and dietary diversity is essential for human
-
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
-
-![plants rhus coraria](../images/plants/plants_rhus-coraria.jpeg)
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants](./index.md) • [All Domains](../index.md)*

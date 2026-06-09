@@ -8,11 +8,9 @@
 > **Outputs**: furnace_design, thermal_calculations, refractory_selection
 > **Critical**: No — enables optimization of all furnace types but does not block initial construction
 
-
 This article covers general furnace design principles — heat transfer, refractory selection, combustion, and efficiency — applicable to all furnace types. For specific furnaces, see [Blast Furnace](../metals/blast-furnace.md), [Electric Furnaces](./electric-furnaces.md), and [Kilns](../ceramics/kilns.md).
 
 A furnace is any enclosed structure designed to contain and control high-temperature heat for processing materials. The fundamental design challenge is the same whether the furnace melts iron at 1500°C, fires pottery at 1200°C, or reduces silicon at 2000°C: deliver heat to the charge efficiently, contain it within the working zone, and protect the structure from self-destruction. Every furnace design balances four competing demands: **temperature** (hot enough for the process), **efficiency** (fuel energy converted to useful process heat), **durability** (lining and structure survive repeated heating), and **control** (temperature, atmosphere, and heating rate are predictable and repeatable).
-
 
 ## Heat Transfer Fundamentals
 
@@ -39,7 +37,6 @@ where h is the convective heat transfer coefficient (W/(m²·K)). Typical values
 where ε is emissivity (0-1, most refractories 0.8-0.9), σ is the Stefan-Boltzmann constant (5.67 × 10⁻⁸ W/(m²·K⁴)), and temperatures are in Kelvin. Radiation dominates above 600°C because of the T⁴ dependence. At 1200°C (1473 K) inside a furnace with 300°C (573 K) walls, radiation accounts for approximately 85-90% of total heat transfer to the charge. This is why furnace geometry that maximizes the view factor between the hot flame/refractory crown and the charge is so important at high temperatures.
 
 **Practical implication**: Below 600°C, improving gas flow patterns (convection) is the main lever for uniform heating. Above 600°C, controlling surface emissivity and view factors (radiation) matters more. A furnace designed for 500°C annealing has fundamentally different geometry requirements than one designed for 1300°C smelting.
-
 
 ## Combustion Fundamentals
 
@@ -74,7 +71,6 @@ For natural gas with 15% excess air, adiabatic flame temperature is approximatel
 
 where H is chimney height (m), P_atm is atmospheric pressure (atm), and temperatures are in Kelvin. A 10 m chimney with flue gas at 800°C (1073 K) in 20°C (293 K) ambient produces roughly 9 Pa of draft — enough for a small batch kiln but inadequate for industrial furnaces requiring 50-200 Pa.
 
-
 ## Refractory Selection
 
 Refractories are heat-resistant materials that line the furnace interior, protecting the structure from temperatures that would melt or weaken steel. Selecting the right refractory is the single most important material decision in furnace design.
@@ -104,7 +100,6 @@ Refractories are heat-resistant materials that line the furnace interior, protec
 
 **Acid-base matching rule**: The refractory must be chemically compatible with the slag or melt it contacts. Basic slags (high CaO, from limestone flux in steelmaking) dissolve acidic refractories (SiO₂). Acidic slags (high SiO₂, from silica-rich ores) dissolve basic refractories (MgO, CaO). Neutral refractories (Al₂O₃, carbon) resist both to varying degrees. Mismatching refractory and slag chemistry is the most common cause of premature lining failure.
 
-
 ## Furnace Geometry and Heat Distribution
 
 The internal shape of the furnace determines how heat is distributed to the charge. Good geometry minimizes cold spots, avoids flame impingement on the charge (which causes localized overheating), and ensures uniform temperature across the working zone.
@@ -121,7 +116,6 @@ The internal shape of the furnace determines how heat is distributed to the char
 - **Roof firing**: Flat-flame burners mounted in the roof, firing downward. Excellent radiation heating of the hearth but complex roof construction. Used in steel reheating furnaces.
 
 **Flue placement**: Flue (exhaust) locations determine gas flow patterns. In a downdraft design, flues at floor level pull gases down through the charge, improving uniformity. In an updraft design, the flue at the top provides the simplest path but the least uniform heating. Flue cross-sectional area must be adequate to handle the gas volume without excessive back-pressure: roughly 1/15 to 1/20 of the hearth area for natural-draft furnaces.
-
 
 ## Temperature Measurement and Control
 
@@ -146,7 +140,6 @@ Controlling furnace temperature requires measuring it first. The choice of measu
 - **Automatic burner control**: Gas valve + air damper linked by a mechanical ratio regulator or electronic controller. Thermocouple feedback to PID controller drives the valve. Accurate to ±5-10°C. Requires electricity.
 - **Zone control**: Multiple thermocouples and burners divided into zones, each independently controlled. Achieves ±5°C uniformity across large furnaces. Required for tunnel kilns and continuous furnaces.
 
-
 ## Insulation vs Refractory Hot-Face Design
 
 A well-designed furnace wall has distinct layers, each serving a different purpose:
@@ -169,7 +162,6 @@ A well-designed furnace wall has distinct layers, each serving a different purpo
 Total heat loss: approximately 2.1 kW/m² of wall area. Compare to the same furnace with only dense fireclay (230 mm, no backup): approximately 6.0 kW/m² — nearly 3× the fuel waste.
 
 **Thermal mass consideration**: Thick refractory walls take a long time to heat up (thermal lag). A furnace with 460 mm total wall thickness may require 8-12 hours to reach operating temperature from cold. For batch furnaces that cycle between hot and cold, thermal mass wastes energy on every cycle. For continuous furnaces that run for weeks or months at temperature, thermal mass is a one-time cost and insulation thickness is more important.
-
 
 ## Flue Gas Handling and Heat Recovery
 
@@ -194,7 +186,6 @@ Flue gases leaving the furnace carry significant energy. For a furnace operating
 | Regenerator (checker brick) | 70-85% | 1500°C | Stores heat in brick checkerwork; alternating flow direction every 15-30 minutes |
 
 **Draft control**: Flue gas must be removed from the furnace at the right rate. Too much draft pulls cold air in through door gaps and cracks (tramp air), wasting fuel heating air that bypasses the combustion zone. Too little draft causes back-pressure, pushing hot gases out through doors and observation ports (dangerous, wasteful). Target: slight negative pressure inside the furnace (2-5 Pa below atmospheric) at the flue exit.
-
 
 ## Fuel-to-Heat Efficiency
 
@@ -230,7 +221,6 @@ where Q_useful is the energy absorbed by the charge (heating, melting, chemical 
 
 **Quick efficiency estimate**: Measure flue gas temperature and O₂ content. Higher flue gas temperature = more waste heat. Higher O₂ = more excess air = more waste heat. A rough rule: flue gas loss ≈ (flue gas temperature − ambient temperature) × 0.5% per 10°C at 20% excess air. So a furnace with flue gas at 900°C and 20°C ambient loses roughly (900 − 20) × 0.05 ≈ 44% of fuel energy in the stack.
 
-
 ## Scaling and Dimensional Considerations
 
 Furnace performance does not scale linearly with size. Understanding scaling laws prevents expensive design errors.
@@ -247,7 +237,6 @@ Furnace performance does not scale linearly with size. Understanding scaling law
 **Heating rate limits**: The maximum safe heating rate is limited by the thermal shock resistance of the refractory and the charge. Heating too fast causes spalling (surface flakes off the refractory) or cracking in the charge. For fireclay brick, the safe heating rate below 800°C is approximately 50-100°C/hour; above 800°C, 100-200°C/hour. These limits apply regardless of furnace size — a large furnace with many burners can heat faster only if the temperature is uniform.
 
 **Burner density**: For gas- or oil-fired furnaces, the number of burners must provide uniform coverage without dead zones. A rough guide: one burner per 0.5-1.0 m² of hearth area for uniform heating. Burners should be staggered on opposite walls to create a swirling gas pattern that eliminates cold spots.
-
 
 ## Refractory Installation and Maintenance
 
@@ -270,7 +259,6 @@ Furnace performance does not scale linearly with size. Understanding scaling law
 | Lime shaft kiln (1100°C, continuous) | High-alumina brick | 2-5 years | Thermal cycling spalling |
 
 **Relining**: When the hot-face lining has worn to approximately 50% of original thickness, the furnace must be relined. Relining requires: cool down (24-72 hours), remove spent lining (manual demolition), repair the backup insulation if damaged, install new hot-face brick, dry and cure (7-28 days depending on size). Total downtime: 2-6 weeks for an industrial furnace.
-
 
 ## Safety in Furnace Design
 

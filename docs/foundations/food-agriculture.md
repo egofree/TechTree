@@ -388,8 +388,6 @@ The Norfolk rotation keeps all land in production every year. Root crops (turnip
   and suffocation. Never enter alone.
   Phosphine fumigants are lethal — ventilate thoroughly before entry.
 
-
-
 ## Troubleshooting
 
 | Problem | Probable Cause | Solution |

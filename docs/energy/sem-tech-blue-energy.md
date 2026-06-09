@@ -1,6 +1,6 @@
 # SEM Tech Blue Energy: Salinity-Gradient Power Generation
 
-> **Node ID**: energy.blue-energy
+> **Node ID**: energy.blue-energy.sem-tech
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.electricity`](electricity.md), [`chemistry.sem-tech`](../chemistry/sem-tech.md)
 > **Enables**: None (leaf capability)
@@ -9,7 +9,6 @@
 > **Critical**: No — blue energy is regionally limited to river-sea interfaces and remains at TRL 5
 
 **Credit**: SEM Tech (Salt Electro Mining Technology) membranes were developed by **Robert Karas**, founder of Rowow LLC. The technology is released under **CC0 1.0 Universal** (public domain). This article covers the application of SEM Tech membranes to salinity-gradient power generation via reverse electrodialysis.
-
 
 **Strengths**:
 - Continuous baseload power from the natural mixing of river water and seawater — no fuel, no intermittency
@@ -44,7 +43,6 @@ Key membrane breakthroughs enabling RED progress include the first purpose-synth
 When a river flows into the ocean, fresh water and seawater mix. This mixing releases free energy -- the Gibbs free energy of mixing. The theoretical global potential from river-sea interactions is approximately **2.6 TW**, a substantial fraction of total human energy consumption. Unlike solar or wind, salinity-gradient power is continuous and predictable, driven by river flow rather than weather.
 
 The energy density is modest but reliable. Seawater at 35 g/L NaCl mixing with fresh water at ambient temperature yields a Gibbs free energy of approximately 0.75 kWh per cubic meter of fresh water. This is a diffuse energy source -- large membrane areas are needed to capture it, which is precisely why membrane cost is the controlling economic factor.
-
 
 ## Principle of Operation
 
@@ -94,7 +92,6 @@ The **Gibbs free energy of mixing** sets the total energy available. When 1 m³ 
 For seawater (0.6 M) and river water (0.015 M) at 25°C, this yields approximately **0.75 kWh per cubic meter of freshwater** -- comparable to the gravitational potential energy of a 200 m waterfall. The global river-sea mixing potential of ~2.6 TW reflects the enormous volumes of freshwater entering the oceans.
 
 **Why practical efficiency is 30-45%**: The maximum power transfer theorem limits extraction to 50% of Gibbs energy at the optimal load (impedance matching). Ohmic resistance in membranes and solutions (particularly the low-concentration channel, which contributes over 50% of stack resistance), concentration polarization at membrane surfaces, co-ion leakage through non-ideal membranes, osmotic water transport, and pumping parasitics collectively reduce this further to the observed 30-45% range. The best reported gross efficiency is ~45% (Veerman et al., using optimized Fujifilm membranes).
-
 
 ## The Cost Barrier
 
@@ -214,7 +211,6 @@ Beyond the materials listed above, a RED power plant requires the following equi
 - **Chemical dosing pumps**: Metering pumps for NaOCl and NaHSO₃ dosing.
 - **UV sterilizers** (optional): For biofouling control at sites with high biological activity, as an alternative to chemical chlorination.
 
-
 ## Manufacturing the Membranes
 
 **Step 1 -- Pulverize cation resin**: Place strong acid cation exchange resin beads in a blender or ball mill. Pulverize until particle size is below 200 μm (a fine powder that passes through a 70-mesh sieve). If wet pulverizing is used, dry the powder thoroughly before proceeding -- residual moisture causes voids in the finished membrane.
@@ -257,7 +253,6 @@ Beyond the materials listed above, a RED power plant requires the following equi
 
 **Step 18 -- Maintain the system**: Perform periodic forward-flush cycles (increased flow velocity at 10-20 cm/s for 5-10 minutes, 2-4 times daily) to dislodge accumulated deposits. Monitor stack voltage and conductivity trends for performance degradation. Replace degraded membrane pairs as needed -- decompress the stack, swap the affected cell pair, and recompress. At SEM Tech membrane costs (less than $1/sq ft), replacement is economical.
 
-
 ## Membrane Stack Configuration
 
 A RED stack for blue energy generation contains:
@@ -275,7 +270,6 @@ Seawater and fresh water flow cocurrently through their respective channels at 1
 ## Materials Compatibility
 
 SEM Tech membranes use PVC/CPVC binder, inherently resistant to saltwater corrosion. Stack frames and housings can use the same PVC/CPVC materials with solvent-welded joints as in SEM Tech electrolysis cells.
-
 
 ## Expected Performance with SEM Tech Membranes
 
@@ -298,7 +292,6 @@ A practical RED power plant using SEM Tech membranes would be sized as follows f
 **1 MW commercial plant**: 100-200 cell pairs per stack, 4-10 m² per cell, 20-100 stacks. Total membrane area: 50,000-500,000 m². Membrane cost: $50,000-500,000. Seawater and fresh water flow: 5,000-20,000 m³/h each. Pumping power: 100-250 kW. Net output: 750-900 kW. Footprint: 500-2,000 m². This membrane cost is 100-1,000x lower than conventional Nafion-based RED at equivalent area ($50-500 million), transforming the economic viability.
 
 **10 MW utility-scale plant**: 50-100 parallel stack trains. Total membrane area: 500,000-5,000,000 m². Membrane cost: $500,000-5,000,000. Seawater flow: 50,000-200,000 m³/h. Pumping power: 1.0-2.5 MW. Net output: 7.5-9.0 MW. Suitable for deployment at major river mouths (Amazon discharge ~209,000 m³/s, Congo ~41,200 m³/s, Ganges-Brahmaputra ~38,000 m³/s). At these river flow rates, the fraction of water diverted through the RED plant is negligible (0.01-0.1%).
-
 
 ## River Mouths and Estuaries
 
@@ -347,7 +340,6 @@ RED stacks produce low-voltage DC (5-20V per stack). Practical power generation 
 
 This projected LCOE of $0.024-0.035/kWh is competitive with solar ($0.03-0.06/kWh) and wind ($0.03-0.07/kWh), with the advantage of being continuous baseload power rather than intermittent. The critical assumption is that SEM Tech membranes achieve at least 0.5 W/m² power density in RED configuration — a conservative estimate given conventional RED performance.
 
-
 ## Fouling and Pretreatment
 
 Natural river water and seawater contain suspended solids, organic matter, and biological material that accumulate on membrane surfaces and in flow channels. Biofouling is the primary operational challenge for RED, reducing power output by 20-50% over 1-3 months if untreated. Pretreatment requirements for SEM Tech RED stacks include:
@@ -362,9 +354,7 @@ Natural river water and seawater contain suspended solids, organic matter, and b
 
 Pretreatment energy and chemical costs add approximately $0.001-0.005/kWh to the LCOE, representing 3-15% of total operating cost.
 
-
 **Electrodialysis reversal for self-cleaning**: Applying the EDR technique used in conventional ED (polarity reversal every 15-30 minutes) to RED is not directly applicable since RED generates rather than consumes voltage. Instead, periodic forward-flushing with increased flow velocity (10-20 cm/s for 5-10 minutes, 2-4 times per day) dislodges accumulated deposits. This flushing consumes additional pumping energy of approximately 0.5-1.0% of daily generation.
-
 
 ## Comparison with Hydroelectric Power
 
@@ -401,7 +391,6 @@ RED effluent is **brackish water** -- a mixture of the freshwater and saltwater 
 - **Biofouling**: Natural water sources carry biological material that fouls membranes and channels. Chlorination or UV pre-treatment may be needed, with appropriate chemical handling precautions.
 - **Electrode solutions**: RED electrode compartments use redox electrolytes (Fe²⁺/Fe³⁺ or similar). These solutions are mildly toxic and require standard chemical handling PPE.
 
-
 ## Technology Readiness
 
 - SEM Tech is at **TRL 5** for chlor-alkali applications. RED application is **untested at any scale**.
@@ -415,7 +404,6 @@ RED effluent is **brackish water** -- a mixture of the freshwater and saltwater 
 - **Pumping parasitics**: Circulating large water volumes through narrow channels consumes 10-25% of generated power.
 - **Site dependency**: Viable sites require both fresh and salt water in proximity -- limited to coastlines with river discharge.
 - **Seasonal variation**: River flow varies seasonally, affecting power output. Drought conditions reduce or eliminate generation.
-
 
 ## Economic Uncertainty
 

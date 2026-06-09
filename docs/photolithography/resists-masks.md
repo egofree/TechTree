@@ -16,7 +16,6 @@
 
 > *Image: Guiding light at en.wikipedia / Later version(s) were uploaded by Oleg Alexandrov at en.wikipedia., CC BY-SA 3.0*
 
-
 ![Temple and ASML containers in Tainan May 2025](../images/photolithography/photolithography_resists-masks-process.jpg)
 
 > *Air cargo containers for ASML machines in a truck lot in Sucuo Village in Tainan, down the street from a temple*

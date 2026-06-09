@@ -26,7 +26,6 @@ Coke is the only solid fuel capable of sustaining the 1800-2100°C temperatures 
 
 > *Image: Procsilas Moscas from Asturias, Spain, CC BY 2.0*
 
-
 Not all coal makes good coke. Only certain bituminous coals ("coking coals" or "metallurgical coals") have the right properties:
 
 - **Caking property**: The coal must soften, swell, and re-solidify into a coherent porous mass when heated. Coals that do not cake (anthracite, some sub-bituminous coals) produce powder, not coke. Free swelling index (FSI) of 4-9 is typical for coking coals.
@@ -104,7 +103,6 @@ CSR and CRI are the critical metrics for blast furnace coke — high CSR means t
 - **Drop test**: Drop a piece of coke from 2 m onto a steel plate. Good coke fractures into a few large pieces. Poor coke shatters into many small fragments.
 - **Appearance**: Silver-gray, metallic luster, cellular (visible pores), lightweight for its size. Black, dense, non-porous = undercoked. Powdery, light, white-edged = overcoked.
 - **Sound**: Good coke rings when struck with a hammer. Dull thud = weak, poorly coked.
-
 
 ## Wet Quenching (Standard)
 

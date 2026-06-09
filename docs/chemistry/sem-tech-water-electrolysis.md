@@ -8,7 +8,6 @@
 > **Outputs**: hydrogen, oxygen
 > **Critical**: No — SEM Tech membranes enable lower-cost PEM water electrolysis but are an alternative to alkaline electrolysis, not a unique enabler
 
-
 Water electrolysis splits water into hydrogen and oxygen using electrical energy. When powered by renewable electricity, the resulting hydrogen is called "green hydrogen" -- produced with zero carbon emissions. Proton Exchange Membrane (PEM) electrolysis is the most promising route for green hydrogen production due to its compact design, rapid response to variable power input, and high-purity output.
 
 The SEM Tech cation exchange membrane described in [SEM Tech](sem-tech.md) could serve as a low-cost alternative to perfluorinated sulfonic acid membranes (such as Nafion) in PEM water electrolysis cells. However, this application has **not yet been demonstrated** with SEM Tech membranes -- all PEM-specific performance claims in this article are theoretical projections based on the membrane's demonstrated properties in chlor-alkali electrolysis. The Rowow SEM Tech Technical Overview describes the entropy management principle underlying these membranes: ion exchange membranes manage entropy across charge and discharge cycles by selectively transporting ions while blocking electron flow and molecular mixing.
@@ -45,7 +44,6 @@ Two main technologies exist for water electrolysis:
 
 The critical barrier to PEM adoption is membrane cost. SEM Tech membranes, at less than $1 per square foot, could eliminate this barrier entirely -- but only if they perform adequately in the PEM water electrolysis environment.
 
-
 ## Theoretical Application
 
 The SEM Tech membrane uses strong acid cation exchange resin beads (sulfonic acid functional groups) embedded in a PVC/CPVC matrix -- the same type of functional groups found in Nafion membranes. In principle, this membrane could serve as the solid polymer electrolyte in a PEM water electrolysis cell, selectively conducting protons (H⁺ ions) from anode to cathode while preventing gas crossover.
@@ -78,7 +76,6 @@ A PEM water electrolysis cell using SEM Tech membranes would follow the standard
 - **Thinner membrane**: PEM water electrolysis typically uses thin membranes (50-200 microns) to minimize proton transport resistance. SEM Tech membranes can be produced at various thicknesses via spray application.
 
 **Stack design**: Multiple cells connected in series (bipolar plate arrangement) form a stack. Typical stacks range from 10-100+ cells. SEM Tech's low membrane cost could make large stacks economically viable.
-
 
 ## Demonstrated Range (Chlor-Alkali)
 
@@ -147,7 +144,6 @@ Water electrolysis involves specific hazards that require careful management:
 - **Deionized water handling**: While not hazardous itself, deionized water feed systems must be kept free of contaminants that could damage the membrane or catalysts.
 - **Pressure hazards**: If the cell operates under pressure (common in commercial systems), hydrogen and oxygen lines must be rated for the operating pressure. Pressure relief devices are mandatory on all pressurized gas lines and vessels.
 
-
 ## Technology Readiness
 
 SEM Tech membranes are at **TRL 5 for chlor-alkali applications**. For PEM water electrolysis specifically, the technology is at approximately **TRL 2-3** (conceptual, with basic laboratory characterization needed). Key gaps:
@@ -165,7 +161,6 @@ Even if technically successful, SEM Tech PEM electrolysis would face challenges:
 - **Precious metal catalysts**: PEM cells still require platinum (cathode) and iridium oxide (anode) catalysts, regardless of membrane choice. These materials are expensive and scarce.
 - **Stack balance of plant**: Membrane cost is one component of total system cost. Bipolar plates, pumps, power electronics, and gas processing equipment also contribute significantly.
 - **Scale**: SEM Tech is demonstrated at laboratory scale only. Industrial PEM electrolysis plants produce thousands of tonnes of hydrogen per year.
-
 
 ## Step-by-Step Procedure
 

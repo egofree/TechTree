@@ -191,7 +191,6 @@ The production of e-methanol is fundamentally limited by the availability and co
 
 The water-gas shift reaction plays a supporting role in many methanol synthesis configurations. CO₂ can be partially converted to CO via the reverse water-gas shift (RWGS: CO₂ + H₂ → CO + H₂O), and the resulting CO then undergoes conventional methanol synthesis (CO + 2H₂ → CH₃OH). The CO route is thermodynamically more favorable than direct CO₂ hydrogenation, and some commercial catalysts are optimized for a mixed CO/CO₂ feed. The overall stoichiometry is the same regardless of the pathway taken, but the kinetics and thermodynamics differ, affecting reactor design and operating conditions.
 
-
 ### Material Handling
 
 Proper handling of input materials and products is essential for consistent results:

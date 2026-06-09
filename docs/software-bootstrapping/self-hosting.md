@@ -8,7 +8,6 @@
 > **Outputs**: self_hosting_compiler
 > **Critical**: Yes — the moment a compiler compiles itself is the moment the software chain becomes self-sustaining; no further assembly or machine code is needed to produce new versions of the compiler
 
-
 Self-hosting is the process by which a compiler for language X is itself written in language X, and can compile its own source code to produce a working copy of itself. This is the keystone of the software bootstrap chain: once achieved, the compiler is self-sustaining — it can be improved, extended, and rebuilt using only its own language, without ever returning to assembly or machine code.
 
 The bootstrap sequence has three phases:
@@ -45,7 +44,6 @@ From this point forward, any change to the compiler's source code is compiled by
 | Compiler source code (in target language) | 1 file, 5,000-50,000 lines | Written by developer | N/A |
 | Disk storage | ≥500 KB | [computing.data-storage](../computing/data-storage.md) | Multiple tapes (slow but functional) |
 | Test programs | 20-100 files | Written by developer | Existing program library |
-
 
 ## Phase 1: Write the Seed Compiler in Assembly
 

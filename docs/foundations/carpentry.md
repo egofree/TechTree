@@ -18,10 +18,6 @@
 
 Shaping and joining wood into structures, furniture, patterns, and tool handles using hand saws, planes, chisels, and measuring tools. Carpentry provides wooden patterns for metal casting, structural framing for buildings, and finished goods. The fundamental wood-working capability that supports construction and manufacturing.
 
-This technology is characteristic of the Stone Age era of industrial development. It builds on earlier foundational techniques while enabling more precise and controlled manufacturing outcomes.
-
-Primary outputs: `wooden-structures`, `furniture`, `wooden-patterns`. These materials or products serve as inputs for downstream manufacturing and processing steps.
-
 The craft develops in direct relationship with available tools. Stone blades can split and scrape green wood; bronze adds durability to edge tools; iron saws and plane blades enable precise dimensioning; steel edges hold sharpness long enough for production work. Each metallurgical advance improves what a carpenter can achieve, but the fundamental operations — measuring, marking, cutting to a line, and joining pieces — remain constant across technology levels.
 
 Wood is anisotropic: its properties differ along the three principal axes (longitudinal, radial, tangential). Shrinkage on drying is roughly 0.1% longitudinally, 2-5% radially, and 5-10% tangentially. This differential shrinkage is the source of warping, checking, and joint loosening — and the reason seasoned lumber is preferred for precise work.
@@ -215,7 +211,6 @@ Key scaling challenges: tool sharpening throughput (dull tools are the primary p
 - [Construction & Structural Engineering](../construction/index.md) — upstream dependency (material)
 - [Machine Tools Bootstrap](../machine-tools/index.md) — upstream dependency (material)
 - [Foundations](index.md) — downstream capability
-
 
 ### Material Handling
 

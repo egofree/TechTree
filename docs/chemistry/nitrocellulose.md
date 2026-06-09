@@ -9,7 +9,6 @@
 > **Outputs**: nitrocellulose, smokeless_powder, pyroxylin
 > **Critical**: No
 
-
 ## Prerequisites & Dependencies
 
 Nitrocellulose production requires a substantial chemical infrastructure:
@@ -118,7 +117,6 @@ Mixed acid (HNO₃ + H₂SO₄) causes severe chemical burns. Wear acid-resistan
 - Degradation products (NO₂) autocatalyze further decomposition in storage
 - Mixed acid handling is extremely hazardous
 - Long stabilization process (days of boiling) is labor and energy intensive
-
 
 ## Smokeless Powders
 

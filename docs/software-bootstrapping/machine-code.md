@@ -8,11 +8,9 @@
 > **Outputs**: binary_programs, bootstrap_loaders
 > **Critical**: Yes — all software begins here; without machine code entry, the computer is inert hardware
 
-
 A computer without software is an expensive space heater. Before assemblers, compilers, or operating systems exist, the only way to make a computer do anything useful is to toggle binary instruction patterns into memory addresses using front-panel switches or hex keyboards. Every higher-level software tool traces back to this capability. The first assembler was written in machine code. The first compiler was assembled from machine code. The first operating system was bootstrapped from machine code entered by hand. This is the bedrock of the software bootstrap chain.
 
 The process demands intimate knowledge of the target processor's instruction set architecture (ISA) — the hardware specification documented in [Electronic Computing](../computing/electronic.md). The programmer must encode each operation as a numeric opcode, calculate memory addresses for branch targets and data locations by hand, and track register usage and memory layout on paper. One wrong bit toggled into memory means the program crashes or produces wrong results. There is no editor, no debugger, no error checking — just the programmer, the front panel, and a pad of octal or hex notation.
-
 
 ## Hardware
 - **Working computer** with front-panel switches or hex keypad ([computing.electronic](../computing/electronic.md)): The machine must be operational with accessible memory. The front panel provides address switches (set the memory location), data switches (set the instruction word), and control buttons (deposit, examine, step, run).
@@ -39,7 +37,6 @@ The process demands intimate knowledge of the target processor's instruction set
 | Paper tape reader | 1 unit | [computing.electromechanical](../computing/electromechanical.md) | Photoelectric reader |
 | Paper and pencils | Many sheets | Stationery supplies | None — essential for program planning |
 | ISA reference card | 1 card | Manual documentation | Handwritten opcode table |
-
 
 ## Step 1: Write the Program on Paper
 

@@ -10,7 +10,6 @@
 
 The low-cost ion exchange membranes developed by SEM Tech (see [SEM Tech](sem-tech.md)) enable acid recovery and regeneration via bipolar membrane electrodialysis (BMED), a process variant of [SEM Tech Electrodialysis](sem-tech-electrodialysis.md). Where conventional electrodialysis separates ions from water, BMED goes further: it splits water into protons and hydroxide ions at a membrane junction, producing concentrated acid and base from waste salt solutions without electrode-driven electrolysis.
 
-
 Industrial processes that use strong acids — steel pickling, mining leaching, chemical synthesis, metal surface treatment — generate enormous volumes of spent acid contaminated with dissolved metals, salts, and organic residues. Disposing of this waste is expensive, environmentally damaging, and represents a loss of valuable chemical feedstock. Acid regeneration recovers the acid from these waste streams for reuse, closing the material loop.
 
 Bipolar membrane electrodialysis achieves this by combining two technologies: the ion-transporting membranes of conventional electrodialysis with bipolar membranes that split water into H⁺ and OH⁻ ions. The result is a purely electrochemical process that converts salt solutions back into their parent acid and base:
@@ -289,7 +288,6 @@ Building a SEM Tech BMED acid regeneration system requires the following materia
 - Multimeter — for checking stack resistance and electrode continuity
 - Portable conductivity meter — for spot-checking product quality
 
-
 ## Step 1: Fabricate monopolar membranes
 
 Manufacture cation exchange membranes (CEM) and anion exchange membranes (AEM) following the SEM Tech process described in [SEM Tech](sem-tech.md):
@@ -415,7 +413,6 @@ At the projected SEM Tech membrane cost of $10-15/m² (including bipolar membran
 - **Cross-contamination risk**: Membrane failure can allow acid and base to mix, producing vigorous exothermic neutralization. Pressure and conductivity monitoring on product streams detects membrane leaks early.
 - **Hydrogen gas**: Minor hydrogen evolution at the cathode requires ventilation in enclosed installations.
 - **Chemical burns from membrane handling**: Fresh membranes may retain solvent residues. Used membranes contain absorbed acid or base. Handle with appropriate PPE.
-
 
 ## Low Current Efficiency
 

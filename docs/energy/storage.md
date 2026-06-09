@@ -8,7 +8,6 @@
 > **Outputs**: lead_acid_batteries, grid_infrastructure, ups_systems, hydroelectric_power, wind_power
 > **Critical**: No — energy storage enables renewable intermittency management and power backup but is not on the critical bootstrap path
 
-
 Semiconductor fabrication equipment cannot tolerate power interruptions — a power glitch during a crystal growth run or lithography exposure destroys expensive work-in-progress. Energy storage provides buffer capacity, and diversification prevents single-source dependency.
 
 ## Prerequisites
@@ -23,7 +22,6 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 - [Electricity Generation](electricity.md) — generators, motors, transformers, wire
 - [Metals](../metals/index.md) — lead, nickel, iron for battery construction
 - [Rubber](../polymers/rubber.md) — battery case materials and insulation
-
 
 ## Lead-Acid Battery
 
@@ -162,7 +160,6 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 - **Short-circuit fire**: Lead-acid batteries can deliver hundreds of amps into a short circuit — instant arc, molten metal, fire. Insulate all tools when working near battery terminals. Install fuses or circuit breakers on every battery string.
 - **Lithium thermal runaway** (later chemistries): Lithium-ion cells can enter self-sustaining overheating if overcharged, punctured, or shorted. Fire burns without external oxygen (self-oxidizing). Requires Class D fire extinguisher or sand — water may worsen lithium fires. Not applicable to lead-acid/nickel-iron bootstrap phase.
 
-
 ## Paste Mixing
 
 The active material for each plate type requires a different paste formulation:
@@ -216,7 +213,6 @@ Battery charging requires a DC power source matched to the battery bank voltage 
 - **Rectifier-charger**: AC mains (or generator) → transformer → rectifier (full-wave bridge using silicon diodes) → filter (capacitor + inductor for ripple reduction) → battery. Output voltage regulated to ±1% of setpoint. Current limited to the maximum charge rate (C/10 for lead-acid, C/5 for nickel-iron). A 48V, 200 Ah battery bank requires a charger capable of 54-58 VDC output at 20 A (C/10), or about 1.2 kW.
 - **Temperature compensation**: Lead-acid charge voltage must decrease by 3-4 mV per cell per °C above 25°C (and increase by the same amount below 25°C). Without compensation, a battery at 40°C will be overcharged at the 25°C voltage setting, accelerating water loss and grid corrosion. Most commercial chargers include a temperature probe that plugs into the battery and adjusts voltage automatically.
 - **Equalizing charge**: Performed monthly on flooded lead-acid batteries to reverse stratification (dense acid settles to the bottom of the cell, dilute acid floats to the top). Apply 2.5V per cell (30V for a 24-cell 48V bank) for 2-4 hours after reaching full charge. The elevated voltage drives gas evolution, which physically mixes the electrolyte. Specific gravity should be measured in each cell after equalizing and should read within 0.020 of the average. Cells more than 0.030 below average may be failing.
-
 
 ## Limitations
 

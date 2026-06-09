@@ -36,7 +36,7 @@ The modular nature of fuel cell systems, with power output scaling by adding cel
 
 ### Equipment
 
-- [Electrolysis](../chemistry/electrodialysis.md) — tool dependency
+- [Electrodialysis](../chemistry/electrodialysis.md) — tool dependency
 - [Water Electrolysis](../chemistry/water-electrolysis.md) — material dependency
 - [Energy Storage & Diversification](storage.md) — tool dependency
 - Fuel cell stack with membrane electrode assemblies

@@ -8,7 +8,6 @@
 > **Outputs**: gold, silver, semiconductor-grade gold wire, silver paste, refined precious metals
 > **Critical**: true
 
-
 Gold and silver occupy a unique position in industrial metallurgy: both are ancient metals (worked since 6000 BCE) yet remain indispensable in modern semiconductor manufacturing. Gold wire (25 μm diameter) bonds silicon die to package leads. Silver paste screen-prints electrical contacts on solar cells. Platinum-group metals catalyze chemical processes from nitric acid production to petroleum refining. Despite their antiquity, producing these metals to semiconductor-grade purity (99.99%+) demands electrochemistry, controlled atmospheres, and precise acid management.
 
 This capability covers the production chain from ore (or recycled electronic scrap) through extraction and refining to high-purity gold and silver suitable for electronics, coinage, and chemical applications.
@@ -300,8 +299,6 @@ Precious metal production depends heavily on existing metallurgical and chemical
 **Nitric acid and nitrogen oxides** (silver electrolysis, aqua regia):
 - NO₂ (brown gas) causes delayed pulmonary edema. Symptoms may appear 4-12 hours post-exposure. TLV-TWA: 0.5 ppm (as NO₂).
 - All precious metal refining involving nitric acid must be performed under fume extraction with NOx scrubbing.
-
-
 
 ## Troubleshooting
 

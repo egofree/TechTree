@@ -24,14 +24,11 @@ Coal is the highest-energy solid fuel available to a bootstrapping civilization,
 
 > *Image: Barr, William M. (William Miller), Public domain*
 
-
-
 ![Renewable-H2 and activated charcoal production process from biomass pyrolysis](../images/energy/energy_fuels_charcoal.png)
 
 > *Renewable-H2 and activated charcoal production process from biomass pyrolysis.*
 
 > *Image: Rey, José Ramón Copa, Cecilia Mateos-Pedrero, Andrei Longo, Bruna Rijo, Paulo Brito, Paulo Ferreira, and Catarina Nobre., CC BY-SA 4.0*
-
 
 ![Carbonization Link Map - 1](../images/energy/energy_charcoal-production-diagram.png)
 
@@ -233,9 +230,6 @@ Matching combustion method to application determines overall system efficiency:
 Coal is the foundational fossil fuel of industrial civilization. It provides the highest energy density of any solid fuel, powers steam engines and furnaces, and feeds coke ovens for iron smelting. Understanding coal rank is essential: burning lignite where bituminous is needed wastes energy on evaporating moisture, while using anthracite for coking fails entirely (it won't soften and fuse). Coal gasification extends coal's utility to gaseous fuel applications, and town gas was historically the path to urban lighting and the chemical industry. The environmental costs — acid rain, mine drainage, air pollution — must be managed from the outset through coal washing, ventilation, and proper waste handling.
 
 **Critical path**: The sequence from raw coal to industrial capability is: mine coal → wash and size → burn in boilers for steam power → select coking coal → produce coke → smelt iron at scale → build machines → generate electricity → bootstrap all subsequent industry.
-
-
-
 
 **[Coal data summary](../glossary/coal-data-summary.md)** (typical bituminous, washed):
 - Calorific value: 26-32 MJ/kg

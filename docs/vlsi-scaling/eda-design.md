@@ -248,8 +248,6 @@ Making the manufactured IC testable — ensuring defective chips can be identifi
 - **RIE gases**: SF₆ (GWP 23,900× CO₂), CF₄ (GWP 6,630× CO₂), and NF₃ (GWP 17,200× CO₂) are among the most potent greenhouse gases. Point-of-use abatement (thermal or plasma destruct units with >99 % DRE) is mandatory on all RIE exhaust lines. Plasma byproducts include HF and COF₂ — downstream wet scrubbing required.
 - **ALD precursors**: Trimethylaluminum (TMA) is pyrophoric — ignites spontaneously on contact with air. Use in closed, nitrogen-purged delivery systems with leak detection. Tetrakis(dimethylamido)hafnium (TDMAHf) is moisture-sensitive and decomposes to toxic amine vapors. Handle in glove boxes or ventilated enclosures. In case of TMA fire, use Class D (dry powder) extinguisher — never water.
 
-
-
 ## Signoff Flow and Tapeout Checklist
 
 Before a design is released to the mask shop ("tapeout"), it must pass a rigorous signoff flow that verifies every electrical, physical, and manufacturing requirement. A single error that escapes signoff costs $5-20M in wasted mask sets and 3-6 months of schedule delay.
@@ -326,7 +324,6 @@ Yield is not purely a manufacturing problem — the design itself determines how
 **Weaknesses**:
 - Critical area analysis for 10⁸ features across all defect size bins requires hours of compute per layer — iterative DFM loops are expensive
 - Dummy metal fill for CMP uniformity adds parasitic capacitance — must be carefully tuned to avoid degrading signal integrity
-
 
 ## IP Integration and Reuse
 

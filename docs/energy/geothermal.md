@@ -8,13 +8,11 @@
 > **Outputs**: geothermal_heat, geothermal_steam, geothermal_electricity, ground_source_heat_pump
 > **Critical**: No — geothermal energy is regionally specific, providing baseload power where geological conditions permit
 
-
 Geothermal energy harnesses heat from the Earth's interior, accessed either through natural hydrothermal manifestations (hot springs, geysers, fumaroles) or by drilling wells into hot rock formations. The Earth's interior heat flows outward at an average rate of 0.06 W/m² at the surface — too diffuse for economic extraction in most locations. However, in tectonically active regions (volcanic zones, fault boundaries, hot spot tracks), heat flow is 10-100× the average, making geothermal energy extraction practical and economically competitive.
 
 Geothermal energy is unique among renewable sources: it provides continuous baseload power, unaffected by weather, seasons, or time of day. A geothermal power plant achieves 90-95% capacity factor (actual output / rated capacity), compared to 15-35% for wind and solar. This makes geothermal the most reliable renewable energy source — and the only one that can fully replace fossil-fueled baseload plants without storage.
 
 Three technology tiers are covered: direct-use heating (hot water from shallow wells for building heating, greenhouses, and industrial processes), hydrothermal power generation (steam from deep wells driving turbines), and ground-source heat pumps (using shallow ground as a heat source/sink for heating and cooling).
-
 
 ## Materials
 
@@ -23,7 +21,6 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 > *Schmatic drawing of a condensing (single flash) geothermal power plant (based on:What is geothermal energy?, International Geothermal Association)*
 
 > *Image: S-kei, CC0*
-
 
 - **Steel casing and tubing** — Well casing (200-500 mm diameter, 8-12 mm wall, API grade J55 or K55). Production tubing (75-150 mm). See [Iron & Steel](../metals/iron-steel.md).
 - **Cement** — Well cement (API Class G or H) for casing-to-borehole annulus seal. See [Chemistry](../chemistry/acids-bases.md).
@@ -45,7 +42,6 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 - Well drilling and completion in hard, hot rock formations
 - Corrosion engineering (geothermal fluids are highly corrosive — H₂S, CO₂, chlorides, silica)
 
-
 ## Small Geothermal Direct-Use Heating System (500 kW thermal)
 
 | Material | Quantity | Source | Alternatives |
@@ -66,7 +62,6 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 | Heat pump unit (compressor, evaporator, condenser) | 1 unit | [Energy](./index.md) | Absorption heat pump (lower COP, no compressor) |
 | Bentonite grout (for borehole backfill) | 500-1,500 kg | [Chemistry](../chemistry/acids-bases.md) | Sand backfill (lower thermal conductivity) |
 | Antifreeze fluid (propylene glycol, 25%) | 200-400 liters | [Chemistry](../chemistry/acids-bases.md) | Ethanol/water mix (lower freeze point, flammable) |
-
 
 ## Direct-Use Heating
 
@@ -206,7 +201,6 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 - Refrigerant systems require sealed circuit with specialized charging equipment
 - Improperly grouted boreholes create preferential pathways for groundwater contamination between aquifers
 
-
 ## Temperature Gradient and Well Depth
 
 | Resource Type | Gradient (°C/km) | Well Depth (m) | Fluid Temperature (°C) | Application |
@@ -242,7 +236,6 @@ Dry steam plants (Larderello, The Geysers) use steam directly from the reservoir
 | Loop fluid temperature (cooling mode) | 25-35°C (entering heat pump) |
 | Borehole lifetime | 50-100+ years |
 
-
 ## Domestic Scale (5-20 kW thermal)
 
 A ground-source heat pump for a single building requires 2-4 boreholes of 100 m depth (or 150-300 m of horizontal trench). Drilling: portable drilling rig or hand-augered holes. Installation: 2-5 days. Requires electricity for the heat pump compressor (1.5-5 kW). Not achievable without electrically powered compressors and HDPE pipe.
@@ -273,7 +266,6 @@ A utility-scale geothermal power plant requires 5-30 production wells, 3-20 inje
 | Thermal breakthrough (reinjection water reaches production well) | Injection well too close to production well, or preferential flow paths in reservoir fractures | Maintain minimum 500-1,000 m separation between injection and production wells; monitor production temperature — drop of >5°C over 5 years indicates breakthrough; redirect injection to more distant wells |
 | Ground-source heat pump low COP (<2.5) | Undersized ground loop, or ground loop short-circuiting (hydraulic or thermal), or low ground thermal conductivity | Verify flow rate through ground loop matches design; check borehole grout is intact (no air gaps); add boreholes to increase ground loop capacity; check for groundwater flow that may be thermally short-circuiting the loop |
 
-
 ## Hydrogen Sulfide (H₂S)
 
 H₂S is the primary safety hazard at geothermal power plants. It is present in geothermal steam at 50-5,000 ppm. H₂S is immediately dangerous to life and health (IDLH) at 100 ppm. At 300 ppm, it causes pulmonary edema. At 700+ ppm, it causes rapid unconsciousness and death by respiratory paralysis. H₂S deadens the sense of smell at concentrations above 100-150 ppm — victims cannot smell the gas that is killing them.
@@ -297,7 +289,6 @@ Sudden silica or calcite scaling can plug wellbores and surface piping, causing 
 
 Geothermal steam flashing produces intense noise (100-120 dB at the wellhead). Flash separators and steam vents are extremely loud. Hearing protection mandatory within the wellhead area (plugs + muffs for >100 dB). Enclose noisy equipment where possible. Directional steam vents pointed away from work areas.
 
-
 ## Well Productivity Testing
 
 After completion, test each well by flowing it at several choke settings (valve positions that restrict flow). Measure: mass flow rate (kg/s), wellhead pressure (bar), enthalpy (kJ/kg, derived from separator conditions), and chemical composition (dissolved solids, non-condensable gases). Plot deliverability curve (flow rate vs. wellhead pressure). Minimum acceptable well: 3-5 MW electrical equivalent. Sub-commercial wells: side-track (deviate drilling to intercept better fractures) or use as injection wells.
@@ -312,7 +303,6 @@ After completion, test each well by flowing it at several choke settings (valve 
 ## Ground-Source Heat Loop Testing
 
 After installation, pressure-test the ground loop at 1.5× operating pressure for 30 minutes (no pressure drop acceptable). Measure thermal response by circulating fluid at constant heat injection rate and monitoring temperature evolution — calculate effective ground thermal conductivity from the response curve. Compare to design specification. Thermal conductivity of common ground types: gravel 0.4-0.7 W/m·K, clay 1.0-1.5 W/m·K, saturated sand 2.0-3.0 W/m·K, rock 2.0-5.0 W/m·K.
-
 
 ## Comparison of Geothermal Technologies
 

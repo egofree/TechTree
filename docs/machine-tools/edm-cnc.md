@@ -18,14 +18,11 @@ Conventional machining (lathe, mill, drill — covered in [Machining](./machinin
 
 > *Image: Frank50 s, CC BY-SA 4.0*
 
-
-
 ![Konturzugprogrammierung ANG](../images/machine-tools/machine-tools_cnc-diagram.png)
 
 > *Schematische Darstellung der Konturzugprogrammierung in CNC-Steuerungen: Vom Startpunkt SP wird ein Geradensatz über einen Winkel ANG (gemessen gegen den Uhrzeigersinn zur ersten Hauptachse) und eine Zielkoordinate POS auf der ersten Hauptachse zum Zielpunkt ZP definiert. Die zweite Koordinate vo...*
 
 > *Image: Dsoltau, CC BY-SA 4.0*
-
 
 ![Electrochemical grinding schematic](../images/machine-tools/machine-tools_grinding-diagram.jpg)
 
@@ -293,7 +290,6 @@ Precision grinding generates substantial heat in a very small zone (1,000-2,000�
 | Lapping/honing | 0.005-0.025 | 0.05-0.25 | Reference surfaces, cylinder bores |
 
 Ra = arithmetic average roughness. Rz = average maximum peak-to-valley height (≈ 4-6× Ra for grinding).
-
 
 ## Wafer Stage Manufacturing
 

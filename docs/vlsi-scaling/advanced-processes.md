@@ -197,8 +197,6 @@ Advanced processes enable significant efficiency gains over baseline screen-prin
 - **Copper contamination concerns**: Copper is a fast diffuser in silicon and SiO₂ — even trace contamination (ppb levels) poisons minority-carrier lifetime in devices, causing leakage and yield loss. Dedicated Cu processing areas must be physically separated from front-end (FEOL) process areas. Cu tools, wafer carriers, and cleaning equipment must never be shared with non-Cu processes. Implement copper cross-contamination monitoring (surface wipe tests, TXRF analysis) on all wafers entering FEOL zones.
 - **Ion implantation and RIE gases**: Dopant gases (AsH₃, PH₃, BF₃) are immediately dangerous to life at ppm concentrations. RIE gases (SF₆, CF₄, NF₃) are potent greenhouse gases requiring point-of-use abatement. Full hazard details and emergency procedures are documented in [EDA & GPU Design](eda-design.md).
 
-
-
 ## Rapid Thermal Processing (RTP)
 
 RTP replaces batch furnace processing for temperature-sensitive steps where precise ramp rates and short dwell times are critical. A single wafer is heated by an array of high-intensity halogen lamps (tungsten-halogen, 1-2 kW each, typically 100-300 lamps) to 600-1200°C in seconds, held for 1-120 seconds, then cooled rapidly.

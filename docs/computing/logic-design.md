@@ -8,7 +8,6 @@
 > **Outputs**: combinational_circuits, sequential_circuits, state_machines, programmable_logic
 > **Critical**: Yes — all digital hardware from microcontrollers to GPUs requires systematic logic design
 
-
 Logic design is the engineering discipline of transforming Boolean algebra into physical circuits that perform computation. Where [`computing.digital-logic`](digital-logic.md) covers the physics of individual gates and arithmetic units at the transistor level, logic design addresses the system-level problem: how to organize thousands to billions of gates into correct, timing-compliant, testable digital systems.
 
 The distinction matters. A single NAND gate is a device; a 32-bit carry-lookahead adder built from 1,400 NAND gates is a design. Logic design provides the methodology — Karnaugh maps, state machine encoding, HDL specification, timing analysis — that scales from hand-wired TTL prototypes to billion-transistor ASICs. Without systematic logic design, complex digital systems accumulate timing violations, undetected states, and untestable paths.
@@ -59,7 +58,6 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 | Prototyping PCB or breadboard | 1 board | [`electronics.pcb-fabrication`](../electronics/pcb-fabrication.md) | Wire-wrap board (reliable for DIP ICs) |
 | 5V regulated power supply (1A) | 1 unit | [`electronics.power-electronics`](../electronics/power-electronics.md) | 7805 voltage regulator + transformer |
 
-
 ## Combinational Circuit Design
 
 1. **Write the truth table.** List all 2ⁿ input combinations and the desired output for each. For a 4-input function, this is a 16-row table.
@@ -100,7 +98,6 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 4. **Timing analysis.** Static timing analysis checks all paths against the clock period constraint. Setup and hold violations are flagged. The slowest path (critical path) sets f_max = 1 / (t_logic + t_su + t_clk_skew).
 
 5. **Generate bitstream and program.** The place-and-route result generates a configuration bitstream. Load into the FPGA via JTAG or serial programming interface. For CPLDs, the configuration is non-volatile (EEPROM/flash).
-
 
 ## Gate-Level Timing
 
@@ -184,7 +181,6 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 - **Ground loops**: In mixed analog/digital prototyping, ground loops inject noise into sensitive logic inputs. Use a single ground point (star ground) for all power supply returns. Keep digital ground currents separate from analog ground returns.
 - **Hot insertion**: Never insert or remove ICs with power applied. The momentary short between adjacent pins as the IC enters the socket can destroy both the IC and the socket. Power off, insert, then power on.
 
-
 ## Functional Verification
 
 - **Truth table check**: Apply all input combinations to combinational circuits. Verify every output against the specification. For a 4-input circuit, this is 16 tests. Automate with a logic analyzer in stimulus-response mode.
@@ -199,7 +195,6 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 
 - **Scan chain insertion** (ASIC): Replace each flip-flop with a scan flip-flop that can be chained into a serial shift register. In test mode, shift in any desired state, apply one clock, shift out the resulting state. Full controllability and observability of all flip-flops.
 - **Boundary scan (JTAG)**: IEEE 1149.1 standard. Shift register around the IC perimeter allows testing board-level interconnections without physical probes. Supported by all modern FPGAs and complex ICs.
-
 
 ## Discrete Gate Implementation
 

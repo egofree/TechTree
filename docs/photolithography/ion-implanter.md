@@ -20,7 +20,6 @@ This article covers the construction of a medium-current ion implanter (10-500 k
 
 > *Image: Guillaume Paumier (user:guillom), CC BY-SA 3.0*
 
-
 ![Ion implanter schematic](../images/photolithography/photolithography_ion-implanter-diagram.png)
 
 > *Schematics of an mass separating implantation/deposition setup. Ion energy at the substrate is determined by the difference of Uaccell and Udecell. Image created using Tgif.*

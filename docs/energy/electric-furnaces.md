@@ -8,9 +8,7 @@
 > **Outputs**: electric_arc_furnaces, resistance_heaters, eaf_steel
 > **Critical**: Yes — electric furnaces are the only route to temperatures above 1500°C in controlled atmosphere; essential for steel recycling, silicon reduction, and ferroalloy production
 
-
 Electric furnaces convert electrical energy into high-temperature heat for smelting, melting, and heat treatment. They are the only practical route to temperatures above ~1500°C in a controlled atmosphere, making them indispensable for steel recycling, silicon reduction, ferroalloy production, and advanced ceramics. Three main families exist: **[electric arc furnaces](../glossary/electric-arc-furnaces.md)** (EAF), **[submerged arc furnaces](../glossary/submerged-arc-furnaces.md)** (SAF), and **resistance heating furnaces**. For a broader electrical context, see [electricity.md](electricity.md); for silicon-specific EAF operation, see [mg-si-production.md](../silicon/mg-si-production.md).
-
 
 ## Electric Arc Furnace (EAF)
 
@@ -58,7 +56,6 @@ Electric furnaces convert electrical energy into high-temperature heat for smelt
 - Connected power: 10–80 MW for a modern furnace (three-phase AC, 100–800V secondary, 20–100 kA).
 - Furnace transformer is a specialized item: high current, low voltage, with tap changer for power regulation.
 
-
 ## Submerged Arc Furnace (SAF)
 
 **Strengths**:
@@ -86,7 +83,6 @@ Electric furnaces convert electrical energy into high-temperature heat for smelt
 - **Power**: 5–40 MW per furnace. Three-phase AC for 3-electrode designs. Continuous operation — charge fed from top, product tapped from bottom taphole every 1–4 hours.
 
 **SAF vs EAF**: SAF is for **[continuous smelting](../glossary/continuous-smelting.md)** (reduction of ores). EAF is for **[batch melting](../glossary/batch-melting.md)** (steel recycling). They are not interchangeable.
-
 
 ## Resistance Heating Furnaces
 
@@ -123,7 +119,6 @@ Electric furnaces convert electrical energy into high-temperature heat for smelt
 - **Temperature control**: Thermocouple feedback → PID controller → thyristor (SCR) or variac power regulation.
 - **Applications**: Annealing, stress-relief, tempering, sintering, crystal growth, glass melting (small scale), laboratory work, baking/curing.
 
-
 ## Furnace Linings
 
 The refractory lining determines what the furnace can melt and how long it lasts:
@@ -133,7 +128,6 @@ The refractory lining determines what the furnace can melt and how long it lasts
 - **Neutral (Al₂O₃, Cr₂O₃, carbon)**: Broad compatibility. Alumina brick for general-purpose. Carbon/graphite for reducing environments (SAF silicon, calcium carbide).
 - **Thermal conductivity tradeoff**: Denser refractories conduct more heat (more loss through walls) but resist erosion better. Insulating brick (low density) reduces heat loss but is mechanically weak.
 
-
 ## Power Supply Considerations
 
 Electric furnaces are among the most demanding electrical loads in any industrial economy:
@@ -141,7 +135,6 @@ Electric furnaces are among the most demanding electrical loads in any industria
 - **Power factor**: Arc furnaces have poor power factor (0.65–0.85). Capacitor banks needed for correction.
 - **Transformer**: Furnace transformers are custom-built — high current (tens of kA), low voltage (100–800V), with on-load tap changers. Not a standard distribution transformer.
 - **Grounding**: Furnace shell must be solidly grounded. Leakage current through the lining is a constant hazard.
-
 
 ## Dependencies & Bootstrap Sequence
 

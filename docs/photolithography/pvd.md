@@ -21,8 +21,6 @@
 
 > *Image: sigmaaldrich, CC BY-SA 4.0*
 
-
-
 ![Esquema sputtering](../images/photolithography/photolithography_pvd-diagram.png)
 
 > *Figura adaptada de: GREENE, J. E. (2017). «Review Article: Tracing the recorded history of thin-film sputter deposition: From the 1800s to 2017». Journal of Vacuum Science &amp; Technology. 35. 61 páginas.*

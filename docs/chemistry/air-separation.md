@@ -8,7 +8,6 @@
 > **Outputs**: argon, nitrogen, oxygen
 > **Critical**: Yes — high-purity argon is the inert atmosphere for CZ silicon crystal growth; bulk oxygen is required for steelmaking and welding; nitrogen is the universal inert blanket gas for chemistry and metallurgy.
 
-
 Air separation produces bulk quantities of nitrogen (N₂), oxygen (O₂), and argon (Ar) from atmospheric air by cryogenic fractional distillation. Air is 78% N₂ (boiling point -196°C), 21% O₂ (bp -183°C), and 0.93% Ar (bp -186°C). The Linde double-column distillation process cools air until it liquefies, then separates the components by exploiting their different boiling points.
 
 Three methods span the capability range:
@@ -55,7 +54,6 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 | Copper tubing (heat exchanger) | 50-200 kg (one-time) | [Copper production](../metals/copper-bronze.md) | Stainless steel (lower thermal conductivity) |
 | Perlite insulation | 5-20 m³ (cold box fill) | [Mining](../mining/processing.md) — expanded volcanic glass | Mineral wool, multi-layer insulation |
 | Palladium catalyst (argon polishing) | 0.1-1 kg (5-10 year life) | [Precious metals](../metals/precious-metals.md) | No alternative for O₂ removal from crude argon |
-
 
 ## Cryogenic Distillation (Linde Double-Column Cycle)
 
@@ -233,7 +231,6 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 - Palladium catalyst is expensive and sourced from [precious metals](../metals/precious-metals.md)
 - Hydrogen supply required for catalytic deoxidation — adds infrastructure dependency
 
-
 ## Method Comparison
 
 | Parameter | Cryogenic ASU | PSA | Membrane |
@@ -316,7 +313,6 @@ Downstream, [ammonia synthesis](ammonia.md) requires N₂; [steelmaking](../meta
 - For semiconductor grade (6N): additional getter purification required, total metallic impurities <0.1 ppm.
 
 **Molecular sieve adsorber monitoring**: Track CO₂ breakthrough time. If CO₂ appears at adsorber outlet before the scheduled switch, the bed is exhausted and requires regeneration or replacement.
-
 
 ## Vacuum Swing Adsorption (VSA)
 

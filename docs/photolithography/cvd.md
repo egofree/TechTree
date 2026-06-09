@@ -18,13 +18,11 @@ Chemical vapor deposition (CVD) grows thin solid films on a substrate by decompo
 
 > *Image: Aksy88, CC BY-SA 4.0*
 
-
 ![Ruthenium crystal (CVD 99.95%)](../images/photolithography/photolithography_cvd-process.jpg)
 
 > *99.95% pure ruthenium crystal*
 
 > *Image: François Nguyen, CC BY 2.0*
-
 
 ![MCVD german](../images/photolithography/photolithography_cvd-schematic.png)
 

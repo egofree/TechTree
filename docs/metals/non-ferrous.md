@@ -8,7 +8,6 @@
 > **Outputs**: zinc, lead, tin, nickel, magnesium, titanium sponge
 > **Critical**: Yes — zinc enables galvanizing (steel longevity), tin enables solder (electronics), nickel enables stainless steel
 
-
 Beyond iron and copper lies a family of metals whose properties — low melting points, corrosion resistance, extreme lightness, or exceptional strength-to-weight ratios — fill niches that steel and copper cannot. Zinc protects steel from rust. Lead stores energy in batteries. Tin enables solder. Nickel stabilizes stainless steel. Magnesium offers the lightest structural frame. Titanium survives where nothing else will. Each demands its own extraction chemistry, often more complex than iron or copper smelting.
 
 These six non-ferrous metals collectively enable galvanizing, battery storage, electronics assembly, alloying, lightweight structures, and aerospace applications. Their production represents a significant step up in industrial complexity from [Copper & Bronze](copper-bronze.md) and [Iron & Steel](iron-steel.md), requiring controlled atmospheres, vacuum processes, and in some cases electrochemistry.

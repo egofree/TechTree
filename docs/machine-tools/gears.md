@@ -7,7 +7,6 @@
 > **Timeline**: Years 3-15
 > **Outputs**: gears, gear_assemblies
 
-
 Gears transmit rotary motion and torque between shafts through meshing teeth. Every machine tool spindle, lathe leadscrew drive, milling table feed, and hoist mechanism depends on gears. Without gear manufacturing capability, rotational power stays locked to a single shaft — no speed reduction, no directional change, no torque multiplication.
 
 This document covers five gear types: spur (parallel shafts, simplest to produce), helical (parallel shafts, smoother mesh), bevel (intersecting shafts), worm (perpendicular shafts, high reduction ratio), and rack-and-pinion (rotary-to-linear conversion). Each type requires a lathe and milling machine from [Machining](./machining.md) and steel or cast iron stock from [Iron & Steel](../metals/iron-steel.md). Heat treatment of gear teeth uses the same carburizing and quenching processes described in [Metal Forming](./forming.md).
@@ -18,7 +17,7 @@ This document covers five gear types: spur (parallel shafts, simplest to produce
 
 > *Industrail Gear Manufacturing Company*
 
-> *Image: Unknown authorUnknown author, Public domain*
+> *Image: Unknown author, Public domain*
 
 A gear is a cylinder or cone with teeth cut into its periphery at a precise spacing called the circular pitch. When two gears mesh, the teeth of one fit into the gaps of the other, forcing both to rotate together. The gear ratio — the ratio of tooth counts — determines how speed and torque change between the input and output shafts. A 20-tooth pinion driving a 60-tooth gear reduces output speed to one-third and triples output torque.
 

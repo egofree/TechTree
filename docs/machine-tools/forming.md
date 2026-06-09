@@ -8,7 +8,6 @@
 > **Outputs**: formed_metal_parts, bar_stock, sheet_metal, wire, plate, rod
 > **Critical**: Yes — produces the bar stock, sheet, and wire that feed every downstream process
 
-
 Metal forming reshapes solid metal through plastic deformation — applying force at controlled temperatures to change cross-section, bend, or elongate stock without removing material. Forming retains nearly 100% of the workpiece mass and produces the bar stock, sheet, wire, and shaped blanks that feed every downstream process: machine tools, construction, electrical wiring, and mechanisms.
 
 The critical variables are **temperature** (hot vs cold working), **[force](../glossary/force.md)** (hammer, press, or roll), and **[reduction ratio](../glossary/reduction-ratio.md)** (how much cross-section changes per pass). Metals deform more easily when hot — yield strength drops by 60-80% above recrystallization temperature.
@@ -28,7 +27,6 @@ For the metallurgy of producing iron and steel stock, see [Iron & Steel](../meta
 > *A wood mould and a vacuum forming mould made from it*
 
 > *Image: Pizza1512, CC BY-SA 3.0*
-
 
 Every metal has a forging range — hot enough to be plastic, cool enough to avoid burning or crumbling.
 

@@ -8,7 +8,6 @@
 > **Outputs**: black_powder, nitrocellulose, dynamite, smokeless_powder
 > **Critical**: No — explosives accelerate mining and construction but are not prerequisites for core capabilities
 
-
 A civilization without explosives can dig with hand tools, but it cannot efficiently extract ore from hard rock, cut roads through mountains, or demolish structures larger than a hut. Mining with chisel and hammer advances inches per day in granite. Quarrying building stone without blasting wastes enormous labor. Tunneling through rock with manual tools takes years for modest distances. Explosives compress that work into seconds.
 
 Explosives provide two distinct effects. *Brisance* (shattering force) pulverizes hard rock into fragments. *Heaving force* (gas expansion) moves the broken material aside and heaves soft strata like coal. Different explosives emphasize one or the other, and choosing the right tool for the job determines whether a blast produces useful fragmentation or wasted energy.

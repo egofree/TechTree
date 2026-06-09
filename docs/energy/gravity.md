@@ -8,7 +8,6 @@
 > **Outputs**: water_power, mechanical_rotation, ground_grain, pumped_water
 > **Critical**: No — water power provides reliable mechanical energy but alternative power sources (steam, wind) can substitute where water is unavailable
 
-
 Water power converts the gravitational potential energy of flowing or falling water into rotational mechanical work. Historically the first non-animal industrial power source, water wheels enabled surplus grain milling, metalworking (bellows and trip hammers), wood sawing, and textile fulling centuries before wind or steam. A reliable stream with 2 m of head and 100 L/s flow can deliver ~1.5 kW (2 HP) of continuous mechanical power — day and night, rain or shine, fuel-free.
 
 **[Hydraulic power calculation](../glossary/hydraulic-power-calculation.md)** (fundamental formula for all water power):
@@ -23,7 +22,6 @@ Water power converts the gravitational potential energy of flowing or falling wa
 > *Hydraulic power system water tank Spencer Street power station Melbourne*
 
 > *Image: Rohanstorey, CC BY 4.0*
-
 
 ![Water turbines, Armitage Bridge Mills - geograph.org.uk - 1584741](../images/energy/energy_gravity_water-turbines.jpg)
 
@@ -207,7 +205,7 @@ Water turbines replace water wheels where higher heads and efficiencies are avai
 - **[Direct drive](../glossary/direct-drive.md)** (simplest): Wheel axle directly drives the load (millstones, saw, etc.) via gears or crank. Load must be adjacent to the wheel. Limited to one or two loads.
 - **[Flat-rod system](../glossary/flat-rod-system.md)** (Stangenkunst — transmitting power over distance): Wooden or iron rods connected in a push-pull arrangement transmit reciprocating motion from water wheel to distant mine pumps or machinery. Rods supported on rocking posts every 10-20 m. Can transmit 5-10 HP over 1-2 km. Used extensively in Central European mining from the 16th century.
 - **[Rope drive](../glossary/rope-drive.md)** (transmitting rotation over distance): Endless hemp or wire rope running on grooved pulleys (V-groove for grip). Can transmit 5-50 HP over 100-500 m. Rope speed 10-20 m/s. Sag and stretch require tensioning device. Superseded flat rods for new installations once good rope was available.
-- ****Line shaft**** (distributing power within a building): Horizontal iron shaft (50-100 mm diameter) running the length of the workshop, supported by hung bearings from ceiling joists. Driven by water wheel via bevel gears or belt. Each machine connected by belt drive from countershaft on the line shaft. Cone pulleys on each machine provide 2-4 speed ranges. A single 10 HP water wheel can drive an entire small workshop of 5-8 machines simultaneously via line shaft.
+- **Line shaft** (distributing power within a building): Horizontal iron shaft (50-100 mm diameter) running the length of the workshop, supported by hung bearings from ceiling joists. Driven by water wheel via bevel gears or belt. Each machine connected by belt drive from countershaft on the line shaft. Cone pulleys on each machine provide 2-4 speed ranges. A single 10 HP water wheel can drive an entire small workshop of 5-8 machines simultaneously via line shaft.
 
 **[Belt and gear connections:](../glossary/belt-and-gear-connections.md)**
 - **Flat belt**: Leather or canvas belt, 50-200 mm wide, connecting pulleys of different diameter for speed change. Speed ratio = driven pulley diameter / driver pulley diameter. Slip of 2-5% is normal and acts as a safety clutch. Minimum pulley diameter ~30× belt thickness to avoid cracking.

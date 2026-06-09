@@ -22,7 +22,6 @@
 
 > *Image: Jwcorone, CC BY-SA 3.0*
 
-
 **Crushing**:
 - **Hand crushing**: Strike ore with hammer on stone anvil. Slow but effective for small quantities.
 - **[Stamp mill](../glossary/stamp-mill.md)** (the Metallurgy-Machine Tools stage transition): Vertical iron-shod wooden stamps (50-200 kg each) lifted by cam on rotating shaft, dropped by gravity. 6-12 stamps in battery. Crush ore to 1-5 mm. Water flows through battery, carries fines away. Powered by water wheel. Capacity: 1-5 tonnes/day.
@@ -141,7 +140,6 @@
 **Roasting**: Sulfide ores must be roasted before smelting to remove sulfur and convert metal sulfides to oxides. Heat crushed ore to 500-700°C in air. Sulfur burns off as SO₂ gas (capture for sulfuric acid production if possible — SO₂ + H₂O + catalyst → H₂SO₄). Roasting reactions: 2ZnS + 3O₂ → 2ZnO + 2SO₂, 2PbS + 3O₂ → 2PbO + 2SO₂. Temperature must be controlled: below 500°C the reaction is too slow, above 800°C the ore sinters into a solid mass that blocks air flow. Multiple hearth roasters or fluidized bed roasters provide the best gas-solid contact.
 
 **Sintering**: Fine ore particles (too fine for direct smelting — they would blow out of the furnace) are agglomerated by sintering. Mix fine ore with 5-10% coke breeze (fine coke) and moisture. Feed onto a moving grate (Dwight-Lloyd sinter machine). Ignite the coke with a gas flame. A suction fan pulls air downward through the bed. The burning coke raises the temperature to 1300-1400°C, partially fusing the ore particles into a porous, coherent cake. The sinter cake is crushed and screened to 20-50 mm lumps suitable for blast furnace feed. Sintering also drives off additional sulfur and volatile impurities. A sinter machine processes 20-50 tonnes/hour of fine ore.
-
 
 ## Amalgamation
 
@@ -275,8 +273,6 @@ Ore processing is energy intensive. The comminution stage (crushing and grinding
 - **Flotation energy**: 2-5 kWh per tonne for agitation and aeration. Agitator motors: 5-15 kW per 10 m³ cell. Air blowers: 20-50 kW for a 100-cell circuit.
 - **Pumping**: 1-3 kWh per tonne for slurry transport between stages. Pumping slurries is less efficient than pumping water because the abrasive particles wear impellers and the higher slurry viscosity increases friction losses.
 - **Water consumption**: 2-5 m³ per tonne of ore processed (not evaporated, but circulating through the circuit with losses to tailings moisture and evaporation). In arid regions, water availability can be the binding constraint on plant capacity, not ore reserves or energy supply.
-
-
 
 ## Troubleshooting
 

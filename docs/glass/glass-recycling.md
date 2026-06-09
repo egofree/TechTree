@@ -233,5 +233,3 @@ Cullet reduces energy because it is already partially reacted — the silicate n
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*
-
-![glass glass recycling](../images/glass/glass_glass-recycling.jpg)

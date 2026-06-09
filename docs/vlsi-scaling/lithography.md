@@ -8,7 +8,6 @@
 > **Outputs**: patterned_wafers, photomasks, exposure_systems
 > **Critical**: Yes — lithography resolution is the primary determinant of achievable feature size
 
-
 Lithography in the VLSI scaling context covers advanced patterning techniques beyond contact/proximity printing: projection steppers (g-line, i-line), DUV excimer laser systems (KrF 248 nm, ArF 193 nm), immersion lithography, and extreme ultraviolet (EUV). Resolution enhancement techniques (RET) — OPC, phase-shift masks, off-axis illumination — push each wavelength generation to its physical limits. For the foundational lithography processes (contact printing, basic resist chemistry, mask fabrication), see [Core Fab Processes](../photolithography/fab-processes.md) and [Resists & Masks](../photolithography/resists-masks.md).
 
 ## Prerequisites
@@ -19,13 +18,11 @@ Lithography in the VLSI scaling context covers advanced patterning techniques be
 
 > *Image: 4300streetcar, CC BY 4.0*
 
-
 ![10000 EUV photon dose](../images/vlsi-scaling/vlsi-scaling_euv-lithography.png)
 
 > *Dose for 10,000 EUV photons within different diameters. An estimated 2000 photons would be expected in the outermost 10% of the feature width. The table displayed gives a more accurate estimate between the specified inner and outer diameters. According to the Poisson distribution, the standard de...*
 
 > *Image: Guiding light, CC BY-SA 3.0*
-
 
 ![Immersionslithografie - Lens Showerhead](../images/vlsi-scaling/vlsi-scaling_immersion-lithography.png)
 

@@ -16,13 +16,11 @@
 
 > *Image: Baltakatei, CC BY-SA 4.0*
 
-
 ![Cross-section of different transistors](../images/silicon/silicon_basic-devices-crosssection.jpg)
 
 > *Cross-section of different transistors. The one of far left shows that of Gate-All-Around Architecture*
 
 > *Image: Rajamouli2000 at English Wikipedia, Public domain*
-
 
 ![Pn Junction Diffusion and Drift-tr](../images/silicon/silicon_basic-devices-diagram.png)
 
@@ -368,8 +366,6 @@ The op-amp is a high-gain differential amplifier with two inputs (inverting -, n
 - **Non-inverting amplifier**: Output = (1 + Rf/Rin) × Vin. Input impedance >1 MΩ (depends on op-amp input stage, >10¹² Ω for FET-input op-amps). No phase inversion. Minimum gain = 1 (voltage follower: Rf = 0, Rin = ∞). The voltage follower buffers high-impedance sources without loading them.
 - **Practical limits**: Input offset voltage (1-5 mV for general-purpose op-amps like LM741) adds a DC error. Input bias current (100 nA for bipolar, 1 pA for FET-input) flows through input resistors, creating additional offset. Bandwidth: 1-10 MHz gain-bandwidth product for general-purpose parts. At gain = 100, bandwidth = GBW/100 = 10-100 kHz.
 - **Output drive**: Output impedance <100 Ω at DC (with feedback), rising at higher frequencies. Maximum output current: 20-40 mA for general-purpose op-amps. Output voltage swing: within 1-2V of the supply rails (0-5V swing from ±15V supplies). Rail-to-rail output op-amps swing to within millivolts of the supply rails.
-
-
 
 ## See Also
 

@@ -8,7 +8,6 @@
 > **Outputs**: tantalum sputtering targets, TaN/Ta diffusion barriers, cobalt silicide contacts, Co CMP slurries, ITO sputtering targets, InGaAs wafers, indium bump bonds
 > **Critical**: No — essential for advanced semiconductor nodes but not required for basic civilization infrastructure
 
-
 Modern GPU manufacturing requires three specialty metals that no other materials can replace. Tantalum forms the copper diffusion barrier (TaN/Ta liner) that prevents Cu from poisoning silicon devices — without it, copper interconnects kill transistors within hours. Cobalt silicide (CoSi₂) provides the lowest-resistance self-aligned contacts at sub-7 nm nodes, and cobalt-based CMP slurries planarize copper interconnects. Indium tin oxide (ITO) is the dominant transparent conductor for displays and touchscreens, while InGaAs enables high-speed photonics for optical interconnects. You can pattern features lithographically but cannot build functional contacts, barriers, or optical interfaces without these three metals.
 
 ## Prerequisites
@@ -19,11 +18,9 @@ Modern GPU manufacturing requires three specialty metals that no other materials
 - [Semiconductor fabrication](../photolithography/fab-processes.md) — sputtering, CMP, and thin-film processes
 - [Vacuum technology](../gas-handling/vacuum.md) — sputtering deposition systems
 
-
 Three specialty metals — tantalum (Ta), cobalt (Co), and indium (In) — occupy critical positions on the semiconductor manufacturing path that no other materials can fill. Tantalum forms the copper diffusion barrier (TaN/Ta liner) that prevents Cu from poisoning silicon devices. Cobalt silicide (CoSi₂) provides the lowest-resistance self-aligned contacts at sub-7 nm nodes, and cobalt-based CMP slurries planarize copper interconnects. Indium tin oxide (ITO) is the dominant transparent conductor for displays and touchscreens, while InGaAs enables high-speed photonics for optical interconnects. Without these three metals, modern GPU manufacturing stops at the lithography stage — you can pattern features but cannot build functional contacts, barriers, or optical interfaces.
 
 Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction) is covered in [Refractory Metals](refractory-metals.md). This document focuses on the semiconductor-grade processing and thin-film applications that justify their position on the GPU critical path.
-
 
 ## Properties Relevant to Semiconductor Use
 
@@ -63,7 +60,6 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 **Figure of merit**: Time-to-failure in bias-temperature-stress (BTS) test. Apply 1-2 MV/cm electric field at 250-350°C for 30-120 minutes. Monitor leakage current through the dielectric. Failure criterion: leakage increase >2 orders of magnitude (Cu has penetrated to Si). TaN/Ta barrier (5 nm): passes BTS at 350°C for >60 minutes. For comparison: TiN barrier (5 nm) fails at 300°C in <10 minutes. TaN is 10-100× more effective than TiN as a Cu diffusion barrier.
 
 **Minimum barrier thickness**: Theoretically, 0.5-1.0 nm of continuous TaN blocks Cu diffusion. Practically, 2-3 nm is the minimum for reliable coverage over trench bottom corners and via sidewall roughness. At sub-7 nm nodes, the barrier/liner consumes 20-30% of the via cross-section, dramatically increasing via resistance — this is the primary driver for cobalt contact and ruthium liner research.
-
 
 ## Tantalum Properties
 
@@ -106,7 +102,6 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 **Two-step CMP for Co**: Step 1 (bulk removal): fast polish with high-abrasive slurry, removes 80-90% of Co overburden. Step 2 (fine polish): low-downforce polish with inhibitor-rich slurry, clears remaining Co while minimizing dishing (<10 nm) and dielectric erosion (<5 nm). Endpoint detection: optical (interferometric) or motor current (friction change when Co clears to expose dielectric).
 
 **Defect control**: Co CMP scratches are a critical yield limiter at sub-10 nm nodes. Scratches in the Co contact surface propagate through subsequent dielectric layers, causing interlayer shorts. Slurry filtration (0.1-0.2 μm absolute filters), in-situ pad conditioning with diamond disk (100-200 grit, 5-10 N downforce), and post-CMP cleaning (brush scrubber with dilute citric acid + megasonic DI water) reduce scratch density to <0.01 scratches/cm².
-
 
 ## Cobalt Properties
 
@@ -163,7 +158,6 @@ Extraction of tantalum from coltan ore (HF dissolution + MIBK solvent extraction
 **Thermal compression bonding**: For fine-pitch bumps (<40 μm pitch), reflow is insufficient for alignment. Thermal compression bonding: align die to substrate (±1 μm placement accuracy), apply 30-80 MPa pressure at 180-220°C for 5-30 seconds in N₂ atmosphere. The indium bump deforms plastically and metallurgically bonds to the substrate pad (Au or Cu-OSP finish). Bond strength: >20 g/bump. Resistance per bump: 5-20 mΩ.
 
 **Thermal interface material (TIM)**: Indium foil (0.1-1.0 mm) is used as a thermal interface between the GPU die and the heat spreader. Indium's high thermal conductivity (82 W/m·K) and extreme softness (conforms to surface roughness) provide thermal resistance of 0.05-0.15 °C·cm²/W — among the lowest of any TIM. Pure indium melts at 156.6°C, so TIM operating temperature must stay below 125°C. Ga-In eutectic alloys (Ga-In-Sn, liquid at room temperature) are used as liquid metal TIMs for extreme performance.
-
 
 ## Global Production and Prices
 

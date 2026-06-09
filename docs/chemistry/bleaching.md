@@ -196,7 +196,6 @@ Sodium hypochlorite also poses underappreciated hazards in household settings. M
 
 The detection of chlorine leaks can be done safely using the ammonia torch method: a cloth wad soaked in ammonia solution held near suspected leak points produces white ammonium chloride smoke where chlorine is present. This method is sensitive enough to detect very small leaks and does not require expensive electronic detectors. Modern plants use continuous chlorine monitors with electrochemical sensors, but the ammonia torch remains a useful backup verification method.
 
-
 ### Material Handling
 
 Chlorine, hypochlorite, and brine each have handling requirements dictated by their chemical behavior:

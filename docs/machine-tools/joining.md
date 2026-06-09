@@ -8,7 +8,6 @@
 > **Outputs**: forge_welds, brazed_joints, soldered_joints, riveted_joints, welded_joints, acetylene, tig_welds, mig_welds, resistance_welds, electron_beam_welds, ultrasonic_bonds, friction_stir_welds, laser_welds, diffusion_bonds, hermetic_seals, wire_bonds
 > **Critical**: Yes — makes machinery possible by assembling individual parts into structures, mechanisms, and pressure vessels
 
-
 Metal joining is the capability that makes machinery possible. Individual forged or cast parts are rarely useful alone — they must be assembled into structures, mechanisms, pressure vessels, and frames. Each method occupies a specific niche defined by temperature, joint strength, equipment requirements, and the materials it can join. No single method replaces all others — a complete industrial shop needs all three families.
 
 The three fundamental families of metal joining are:
@@ -28,7 +27,6 @@ For the metallurgy of producing iron and steel stock to be joined, see [Iron & S
 > *A welder at work joining two pieces of metal together in Accra*
 
 > *Image: Kwameghana(Bright Kwame Ayisi), CC BY-SA 4.0*
-
 
 ![Brazing and soldering processes - AWS A3.0 2001](../images/machine-tools/machine-tools_brazing-diagram.png)
 

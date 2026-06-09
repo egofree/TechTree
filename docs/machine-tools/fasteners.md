@@ -17,7 +17,6 @@
 > *Image: ISO_and_UTS_Thread_Dimensions.svg: Inductiveload
 derivative work: Спас Колев (talk), Public domain*
 
-
 Precision thread cutting on lathes to produce standardized screws, bolts, nuts, and threaded rods enabling interchangeable parts.
 
 Thread standardization was a transformative milestone in industrial development. Before standardized threads, every bolt and nut were hand-matched pairs. Replacement required custom fitting by a skilled machinist. The introduction of uniform thread forms (Whitworth, Sellers, Metric) meant that any bolt of a given specification would fit any corresponding nut, enabling mass production of assembled goods and field repair of machinery using replacement parts from stock.
@@ -223,8 +222,6 @@ Locking fasteners, designed to resist loosening under vibration, include nylon-i
 
 Heat treatment after thread forming is standard for structural fasteners. Quenching and tempering develop the required combination of tensile strength and toughness. Fastener grade markings stamped on the bolt head indicate the strength class (three radial lines for SAE Grade 5, six for Grade 8), allowing users to select the appropriate grade for the applied loads. Improper heat treatment is the most common cause of fastener failure in service: under-tempered fasteners are brittle, over-tempered fasteners are too soft to carry the design load.
 
-The progression from hand-filed screws to lathe-cut standard threads to die-cut mass-produced threads to roll-formed high-strength threads represents a clear technology ramp. Each stage increases production speed and thread quality while reducing skill requirements. A bootstrapping industrial program can begin with lathe-cut fasteners for initial machinery assembly, then adopt thread rolling once sufficient production volume justifies the tooling investment.
-
 ## References
 
 - [Machine Tools Bootstrap](index.md) — parent capability
@@ -242,10 +239,8 @@ The progression from hand-filed screws to lathe-cut standard threads to die-cut 
 - Maintain gauge calibration records; worn go/no-go gauges pass out-of-tolerance threads
 - Label all bins clearly with thread specification, class of fit, material grade, and heat treatment lot number
 - Track gauge wear by recording the number of parts gauged; replace gauges per the calibration schedule
-- Label all bins clearly with thread specification, class of fit, material grade, and heat treatment lot number
 - Apply anti-seize compound to stainless steel fasteners during assembly to prevent galling
 - Verify heat treatment furnace temperature with independent thermocouple before each batch load
-- Track gauge wear by recording the number of parts gauged; replace gauges per the calibration schedule
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Machine-Tools](./index.md) · [All Domains](../index.md)*

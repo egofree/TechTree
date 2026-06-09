@@ -336,7 +336,6 @@ These three forms of iron-carbon alloy represent fundamentally different materia
 - **Lead and zinc fume hazards from soldering and brazing**: Soft solder (60/40 tin-lead alloy) produces lead fumes above 500°C; brass brazing filler (60/40 copper-zinc) produces zinc oxide fumes at ~900°C. Zinc oxide fume causes "metal fume fever" (flu-like symptoms: chills, fever, muscle ache, 4-8 hours after exposure). Lead fume causes cumulative neurological and organ damage. Solder and braze with local exhaust ventilation. Avoid breathing fumes directly. Wash hands after handling solder materials.
 - **Quenching hazards**: Plunging hot steel (780-850°C) into water produces violent boiling and steam splash. Oil quenching (used for springs and high-carbon steel to prevent cracking) creates risk of oil ignition — the oil can flash if the workpiece is too hot. Use a deep quench tank, lower the workpiece quickly and completely, and keep a lid nearby to smother oil fires. Do not use oil quenching near open flames.
 
-
 ## Troubleshooting
 
 | Problem | Probable Cause | Solution |

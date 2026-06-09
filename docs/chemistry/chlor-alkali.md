@@ -195,7 +195,6 @@ The co-location of chlor-alkali plants with downstream chlorine consumers (PVC p
 
 For a bootstrapping civilization, the simplest chlor-alkali approach is an undivided electrolysis cell that directly produces sodium hypochlorite solution (bleach) without attempting to separate the products. This avoids the need for membrane or diaphragm fabrication at the cost of producing a mixed product. For applications requiring pure chlorine or pure caustic, the divided cell becomes necessary, but the undivided cell provides immediate value for water disinfection and textile bleaching using relatively simple equipment.
 
-
 ### Material Handling
 
 Proper handling of input materials and products is essential for consistent results:
@@ -211,7 +210,6 @@ Chlorine gas must be kept dry in storage and transport — even trace moisture c
 Power consumption is the dominant operating cost in chlor-alkali production. The theoretical minimum energy for brine electrolysis is modest, but practical cell voltages are higher due to overpotentials at the electrodes, resistance of the electrolyte, and resistance of the membrane or diaphragm. Modern membrane cells operate close to the practical minimum, but older diaphragm cells consume substantially more electricity. Any civilization operating chlor-alkali at industrial scale must have reliable, affordable electricity generation. The process is typically located near cheap power sources and near salt supplies (salt mines, solar salt pans, or seawater).
 The membrane cell has become the global standard for new chlor-alkali construction, representing the best balance of energy efficiency, product purity, and environmental performance.
 The cost of perfluorinated membranes has decreased steadily as production volumes have increased, making membrane cells economically competitive even in developing regions.
-
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*

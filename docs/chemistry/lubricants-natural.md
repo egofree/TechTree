@@ -9,7 +9,6 @@
 > **Outputs**: tallow, lard, vegetable_oil, castor_oil, linseed_oil
 > **Critical**: No — natural lubricants are the first tier; machinery can operate at reduced performance without them
 
-
 Animal fats and vegetable oils provide the first lubricants available to a civilization rebuilding its industrial base. Every cart axle, treadle lathe, and water pump needs something to reduce friction. Animal fats are available immediately from butchering; vegetable oils follow from the first harvest of oilseed crops. Both provide effective boundary lubrication through polar fatty acid molecules that adsorb to metal oxide surfaces, reducing the friction coefficient from ~0.8 (dry steel-on-steel) to ~0.1-0.15. This tier suffices for slow, lightly loaded bearings, slides, and cutting fluid applications until mineral oil refining becomes available.
 
 **Why fats and oils lubricate**: Fatty acid molecules have a polar carboxyl head (-COOH) and a nonpolar hydrocarbon tail. The polar head bonds to metal oxide surfaces through chemisorption, forming an oriented monolayer with the hydrocarbon tails pointing outward. This creates a low-shear-strength interface: when two lubricated surfaces slide against each other, the shear happens between the hydrocarbon tails, not between metal and metal. The film strength is sufficient for boundary lubrication (surface-to-surface contact) but fails under the high loads and speeds where elastohydrodynamic (EHD) lubrication dominates. For EHD conditions, the lubricant must form a pressurized film thick enough to separate the surfaces entirely, which requires higher viscosity and viscosity index than natural oils typically provide.
@@ -26,7 +25,6 @@ Animal fats and vegetable oils provide the first lubricants available to a civil
 | Linseed oil | ~28 | ~95 | 300-320 | -15 | 6-12 months | Poor (polymerizes) |
 | Sunflower oil | ~30 | ~110 | 280-310 | -15 to -10 | 1-2 years | Moderate |
 | Mineral oil (reference) | 32-460 | 95-105 | 180-240 | -30 to -10 | 5+ years | Good |
-
 
 ## Animal Fats (Tallow & Lard)
 
@@ -83,7 +81,6 @@ Rancid fat has an unpleasant odor but is not hazardous for lubricant use. The ac
 - Low viscosity when melted limits use to slow-speed, light-load applications
 - Not suitable for high-speed bearings or continuous operation at elevated temperature
 - Attracts vermin and insects in storage
-
 
 ## Vegetable Oils
 
@@ -142,7 +139,6 @@ Rancid vegetable oil develops a characteristic sharp odor. For lubricant use, ra
 - Polymerization (especially linseed) makes some oils unsuitable for lubrication
 - Limited low-temperature performance compared to mineral oils
 - Viscosity range is narrower than what mineral oils offer
-
 
 ## Troubleshooting
 

@@ -8,7 +8,6 @@
 > **Outputs**: steel billets, slabs, blooms, flat products, long products
 > **Critical**: Yes — steel is the structural material of industrial civilization; no modern manufacturing without it
 
-
 Steelmaking is the refining of pig iron — 3.5-4.5% carbon, 1-3% silicon, 0.5-1.5% manganese, plus sulfur and phosphorus — into steel containing 0.02-1.5% carbon with tightly controlled residual elements. The fundamental chemistry is oxidation: dissolved carbon, silicon, manganese, and phosphorus are oxidized by blowing oxygen through or over the molten metal. The oxidized impurities either escape as gas (CO, CO₂) or partition into a basic slag (SiO₂, MnO, P₂O₅ as calcium compounds). Modern steelmaking produces ~1.9 billion tonnes annually, split between basic oxygen furnaces (~70%) and electric arc furnaces (~30%).
 
 The transition from pig iron to steel is the single most important metallurgical refinement. Pig iron is brittle (cast iron) and limited to cast shapes. Steel combines high strength with ductility, enabling structural sections, pressure vessels, wire, sheet, and every mechanical component of industrial civilization.
@@ -33,7 +32,6 @@ Contributing Library:  Gerstein - University of Toronto
 Digitizing Sponsor:  Univers...*
 
 > *Image: Sauveur, Albert, 1863-1939, No restrictions*
-
 
 - [Iron and steel fundamentals](iron-steel.md) — ore types, reduction chemistry, wrought iron
 - [Blast furnace](blast-furnace.md) — pig iron production (primary feedstock)
@@ -94,7 +92,7 @@ The basic oxygen furnace (also called LD converter, after Linz and Donawitz, Aus
 
 **Oxygen lance**: A triple-walled water-cooled copper pipe, 200-300 mm outer diameter, with 3-6 nozzle exits at the tip designed for supersonic flow (Mach 1.5-2.5). Oxygen flow rate: 15,000-25,000 Nm³/hour at 8-15 bar. The lance is positioned 1-3 m above the bath surface — the supersonic oxygen jets penetrate the slag layer and impinge on the metal, creating a vigorous reaction zone.
 
-****Operating sequence**** (total cycle: 30-45 min, blowing time: 15-20 min):
+**Operating sequence** (total cycle: 30-45 min, blowing time: 15-20 min):
 1. **[Charge scrap](../glossary/charge-scrap.md)** (20-30% of total charge, 50-100 tonnes). Scrap acts as coolant — the exothermic reactions generate more heat than needed, and scrap absorbs the excess. Larger scrap pieces are placed at the bottom; light scrap on top.
 2. **[Charge hot metal](../glossary/charge-hot-metal.md)** (70-80% of charge). Pour molten pig iron from blast furnace torpedo car or hot metal ladle at 1300-1350°C. Typical hot metal composition: 4.0-4.5% C, 0.3-0.8% Si, 0.3-0.8% Mn, 0.05-0.15% P, 0.02-0.05% S.
 3. **Add fluxes**: Burned lime (CaO, 30-70 kg/tonne steel) and dolomite (CaO·MgO, 5-15 kg/tonne). Flux creates a basic slag (V-ratio = CaO/SiO₂ = 2.5-4.0) that absorbs SiO₂, MnO, and P₂O₅. Fluorspar (CaF₂, 2-5 kg/tonne) may be added to improve slag fluidity.

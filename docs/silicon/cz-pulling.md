@@ -17,7 +17,6 @@ This document covers the CZ puller as a **machine** — design, materials, fabri
 
 > *Image: Warut Roonguthai, CC BY-SA 4.0*
 
-
 ![Czochralski Process ro](../images/silicon/silicon_crystal-growth_cz-pulling-diagram.png)
 
 > *Czochralski process, silicon monocrystal fabrication*
@@ -371,8 +370,6 @@ A 200 mm CZ puller running a 20 kg crystal consumes roughly 200-400 kWh over its
 | Crystal diameter | 100-300 mm | ±1 mm |
 | Dash neck diameter | ~3 mm | ±0.5 mm |
 | Pull rod straightness | — | <0.05 mm over 1200 mm |
-
-
 
 ## See Also
 

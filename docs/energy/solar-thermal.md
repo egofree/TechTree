@@ -8,11 +8,9 @@
 > **Outputs**: solar_heat, solar_steam, concentrated_solar_power, solar_furnace_heat
 > **Critical**: No — supplemental energy source that reduces fuel consumption and enables high-temperature processes without electricity
 
-
 Solar thermal energy captures concentrated sunlight to produce heat at temperatures from 80°C (water heating) to 3,500°C (solar furnaces). Unlike photovoltaic panels that convert light directly to electricity, solar thermal systems use mirrors and lenses to focus sunlight onto a receiver, generating intense heat that can drive steam turbines, power industrial processes, or melt metals. The technology spans from simple flat-plate water heaters (achievable with wood, glass, and copper) to heliostat fields with central towers (requiring precision optics and control systems).
 
 Solar thermal fills a gap in the bootstrap energy chain: it provides high-temperature heat without consuming fuel, and does so with infrastructure that scales from individual workshops to utility-scale power plants. A 10 m² parabolic trough collector in a sunny region delivers 5-8 kW thermal peak — enough to run a small steam engine or heat a kiln. At utility scale, concentrated solar power (CSP) plants deliver 50-500 MW with thermal energy storage for nighttime operation.
-
 
 ## Materials
 
@@ -21,7 +19,6 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 > *This diagram shows the Earth's energy budget, which includes the greenhouse effect. The following description is an edited quote from a public-domain source (Lindsey, 2009): On average, 340 watts per square meter (W.m-2) of solar energy arrives at the top of the atmosphere.  Earth returns an equa...*
 
 > *Image: Robert Simmon, Public domain*
-
 
 - **Glass** — Flat window glass (3-6 mm) for flat-plate collectors; curved or bent glass for parabolic troughs. See [Glass](../glass/basic.md).
 - **Copper tubing** — For heat exchangers and absorber plates. See [Copper & Bronze](../metals/copper-bronze.md).
@@ -42,7 +39,6 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 - Solar geometry (declination, hour angle, altitude/azimuth)
 - Optics (reflection, focal length, concentration ratio)
 - Heat transfer (conduction, convection, radiation)
-
 
 ## Flat-Plate Solar Water Heater (2 m² collector, 200 liter tank)
 
@@ -66,7 +62,6 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 | Steel support structure | 50-80 kg | [Iron & Steel](../metals/iron-steel.md) | Wood (limited lifespan, lower rigidity) |
 | Heat transfer fluid (mineral oil) | 50-100 liters | [Chemistry](../chemistry/index.md) | Water (limited to 100°C at atmospheric pressure) |
 | Tracking mechanism (gear motor, controller) | 1 unit | [Electronics](../electronics/index.md) | Manual adjustment (labor-intensive) |
-
 
 ## Solar Water Heating (Flat-Plate Collector)
 
@@ -204,7 +199,6 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 - Molten salt freezes below 220°C — all salt piping requires heat tracing and careful thermal management
 - Minimum economic scale of 50 MW — not suitable for small installations
 
-
 ## Concentration Ratios and Achievable Temperatures
 
 | System Type | Concentration Ratio | Peak Temperature (°C) | Thermal Efficiency (%) | Aperture Area per kW thermal |
@@ -242,7 +236,6 @@ CSP (trough and tower) requires DNI >1,800 kWh/m²/year for economic viability. 
 
 Land use factor for CSP is 2.5-5.0 ha/MW, roughly 3× the land area of equivalent PV due to spacing between collectors and the need for single-axis or dual-axis tracking clearances.
 
-
 ## Bench Scale (1-5 kW thermal)
 
 A single flat-plate collector (2-4 m²) or a small parabolic trough (5 m² aperture) produces 1-5 kW thermal peak. Construction: hand tools, copper tubing, flat glass. Tracking: manual or none (flat-plate). Heat output: 50-80°C water. Sufficient for domestic hot water, small-scale food drying, or preheating boiler feedwater. Build time: 1-3 days.
@@ -275,7 +268,6 @@ A commercial CSP plant requires hundreds of precision-manufactured collector ass
 | Thermal storage salt freeze | Molten salt solidifies below 220°C in piping | Trace-heated piping (electrical heat tracing or steam trace); maintain salt temperature >260°C during idle; emergency drain to cold tank |
 | Steam generator tube leak | Thermal cycling fatigue, or salt-side corrosion | Inspect tubes with eddy current testing annually; maintain salt chemistry (chlorides <100 ppm); use corrosion-resistant alloys (316L stainless minimum) |
 
-
 ## Safety
 
 ### High-Temperature Hazards
@@ -297,7 +289,6 @@ A commercial CSP plant requires hundreds of precision-manufactured collector ass
 
 - **Molten salt decomposition**: Solar Salt (60% NaNO₃/40% KNO₃) decomposes above 600°C, releasing NO₂ gas (brown, toxic — OSHA PEL 5 ppm). Maintain salt temperature below 565°C with a 35°C safety margin. Install temperature alarms with automatic defocus if temperature exceeds 580°C. NO₂ exposure at 25 ppm causes pulmonary edema within hours.
 
-
 ## Mirror Reflectivity
 
 Measure specular reflectivity with a reflectometer at the mirror surface. New silvered glass mirrors: 90-95% reflectivity. Acceptable after installation: >88%. Below 85%: clean or replace. Measure annually at 5-10 representative points per collector field.
@@ -314,7 +305,6 @@ Evacuated receiver tubes must maintain vacuum below 0.1 Pa for effective insulat
 ## System Thermal Performance
 
 Measure daily thermal energy output: Q = ṁ × Cp × ΔT, where ṁ = mass flow rate (kg/s), Cp = specific heat capacity of fluid (kJ/kg·K), ΔT = temperature difference between outlet and inlet (K). Compare to expected output for the day's DNI. Performance below 80% of theoretical indicates mirror soiling, receiver degradation, or tracking errors.
-
 
 ## Comparison of Solar Thermal Technologies
 
@@ -348,8 +338,6 @@ Low-temperature solar thermal applications do not require concentration:
 - **[Glass Manufacturing](../glass/index.md)** — Mirror and receiver tube glass production
 - **[Copper & Bronze](../metals/copper-bronze.md)** — Copper tubing for heat exchangers
 - **[Iron & Steel](../metals/iron-steel.md)** — Structural steel for collector mounts and piping
-
-
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

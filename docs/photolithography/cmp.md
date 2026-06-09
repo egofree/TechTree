@@ -18,7 +18,6 @@ Chemical Mechanical Planarization (CMP) produces atomically flat surfaces by com
 
 > *Image: cpxmn, CC BY-SA 2.0*
 
-
 ![Cmp prinzip](../images/photolithography/photolithography_cmp-diagram.jpg)
 
 > *Functional principle of Chemical-mechanical polishing*

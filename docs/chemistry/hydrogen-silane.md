@@ -8,7 +8,6 @@
 > **Outputs**: hydrogen, silane, trichlorosilane
 > **Critical**: Yes — silane (SiH₄) is the primary silicon source for semiconductor CVD processes. Trichlorosilane (SiHCl₃) feeds the Siemens polysilicon process. Ultra-pure hydrogen is required for semiconductor fabrication and ammonia synthesis.
 
-
 Semiconductor manufacturing and ammonia synthesis both require ultra-pure hydrogen and silicon-bearing gases. Silane (SiH₄) is the primary silicon source for CVD deposition; trichlorosilane (SiHCl₃) feeds the Siemens polysilicon process. Neither gas occurs naturally — both must be synthesized from metallurgical-grade silicon through multi-step chemical processes with extreme purity requirements (<1 ppb impurities for semiconductor grade). The gases are pyrophoric, toxic, and corrosive, demanding inert-atmosphere handling at every stage.
 
 ## Prerequisites
@@ -24,7 +23,6 @@ Semiconductor manufacturing and ammonia synthesis both require ultra-pure hydrog
 > *This is a Maple code leading to the calculation of the expression of the chemical potential of Van der Waals gases as functions of pressure and temperature.*
 
 > *Image: E-gabrielyan, CC BY-SA 4.0*
-
 
 - [Electrolysis](electrolysis.md) — alkaline water electrolysis for hydrogen production
 - [Gas handling](../gas-handling/basic.md) — piping, valves, and inert-atmosphere systems
@@ -210,7 +208,6 @@ Beyond the standard trichlorosilane route, several alternative paths to silane e
 **Analytical methods**: Gas chromatography with thermal conductivity detection quantifies chlorosilanes and higher silanes to ppm levels. Fourier transform infrared spectroscopy (FTIR) detects moisture and oxygen-containing impurities to ppb levels in real time. Atmospheric pressure ionization mass spectrometry (APIMS) provides the ultimate sensitivity: sub-ppb detection of trace metallic and organic contaminants in silane gas streams. For bootstrap production, GC-TCD is sufficient for process control.
 
 **Silane vs TCS for polysilicon production**: Silane offers higher silicon deposition rate per unit energy in FBR reactors because the decomposition reaction (SiH₄ → Si + 2H₂) is simpler than the TCS reduction (SiHCl₃ + H₂ → Si + 3HCl) and produces no corrosive by-products. However, silane's pyrophoric nature makes handling more hazardous. TCS is a liquid at room temperature (bp 31.8°C), easier to store and transport, but produces HCl during deposition, requiring corrosion-resistant reactor internals. The choice between silane and TCS feedstock depends on whether the polysilicon producer prioritizes energy efficiency (silane) or handling safety (TCS).
-
 
 **Chlorosilane Handling Infrastructure**: The TCS route generates byproduct SiCl4 (1.0-1.5 kg per kg SiH4). SiCl4 is corrosive liquid (bp 57.6C, density 1.48 g/cm3) fuming in moist air. Storage: glass-lined or PTFE-lined tanks, N2 blanketed, secondary containment 110% tank volume. SiCl4 recycling: react with H2 at 1000-1200C to regenerate TCS, or hydrolyze to fumed silica (SiCl4 + 2H2O -> SiO2 + 4HCl). HCl byproduct absorbed in water for reuse in TCS synthesis.
 

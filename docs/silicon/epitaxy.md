@@ -16,7 +16,6 @@
 
 > *Image: Oak Ridge National Laboratory, CC BY 2.0*
 
-
 ![PlasmaCVD-JP](../images/silicon/silicon_epitaxy-diagram.png)
 
 > *Schematic diagram of a plasma CVD (Chemical Vapor Deposition) system.*

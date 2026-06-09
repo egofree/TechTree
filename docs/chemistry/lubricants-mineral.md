@@ -9,9 +9,7 @@
 > **Outputs**: mineral_lubricating_oil, cutting_fluid, hydraulic_fluid
 > **Critical**: No — mineral oils displace natural lubricants for most applications but are not prerequisites for core capabilities
 
-
 Refined petroleum oils displace animal and vegetable lubricants for most industrial applications once petroleum distillation is established. Mineral oils offer better oxidation stability (2-5x longer service life), wider viscosity range, and consistent quality. This tier enables high-speed machinery, precision machine tools, hydraulic presses, and continuous-process equipment that would be impractical with natural lubricants alone.
-
 
 ## Mineral Oil Lubricants
 
@@ -92,7 +90,6 @@ Refined petroleum oils displace animal and vegetable lubricants for most industr
 - Mineral oils are not biodegradable; spills persist in the environment
 - Pour point limits cold-weather use without heaters or low-viscosity grades
 
-
 ## Cutting Fluids
 
 **Principle**: Cutting fluids serve four functions simultaneously: lubricate the chip-tool interface (reduce cutting force, improve surface finish), cool the tool and workpiece (remove heat, the primary function), flush chips from the cutting zone, and prevent rust on the workpiece and machine.
@@ -145,8 +142,6 @@ Refined petroleum oils displace animal and vegetable lubricants for most industr
 - Disposal of used cutting fluid requires treatment (break emulsion, separate oil and water phases)
 - Bacterial growth in emulsions limits practical sump life to 3-6 months
 
-
-
 ## Hydraulic Fluids
 
 **Principle**: Hydraulic systems transmit force through incompressible fluid. The fluid must transmit force efficiently (incompressible), flow readily through valves and pumps (correct viscosity), resist chemical degradation (no oxidation, no corrosion), and be compatible with seals (does not swell or shrink rubber or leather). Fire resistance is desirable but not always achievable.
@@ -191,7 +186,6 @@ Pump (gear pump: 10-200 bar, or piston pump: 200-400 bar) feeds control valves (
 - High-pressure injection injuries are severe and often underestimated
 - Vegetable oil fluid oxidizes and has a short service life
 - Water-glycol has poor lubricity, requiring harder pump components
-
 
 ## Troubleshooting
 

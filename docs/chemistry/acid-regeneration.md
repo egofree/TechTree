@@ -189,7 +189,6 @@ For a civilization bootstrapping its chemical industry, acid regeneration is not
 
 The quality of regenerated acid is measured primarily by two parameters: acid concentration (how much of the original acid strength has been recovered) and metal content (how completely the dissolved metals have been removed). In most applications, regenerated acid at 80-90% of the original concentration with >90% metal removal is adequate for reuse when blended with fresh acid. Higher purity regeneration is possible but requires more membrane area or more electrodialysis stages, increasing both capital and operating costs.
 
-
 ### Material Handling
 
 Handling spent acid, regenerated acid, and ion exchange membranes each requires specific practices to maintain process integrity and membrane life:

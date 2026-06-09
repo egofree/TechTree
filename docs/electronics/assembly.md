@@ -8,9 +8,7 @@
 > **Outputs**: pcb_assemblies, soldered_joints, packaged_components
 > **Critical**: Yes — electronics assembly bridges semiconductor device fabrication and functional electronic systems, without which no transistor or IC becomes a usable circuit
 
-
 Electronics assembly encompasses PCB fabrication, component placement, soldering (through-hole and surface mount), conformal coating, and testing. It bridges semiconductor device fabrication and functional electronic systems — from discrete transistor circuits to multi-chip modules and early integrated circuit packaging.
-
 
 ## Materials
 
@@ -55,7 +53,6 @@ Electronics assembly encompasses PCB fabrication, component placement, soldering
 | Components (resistors, capacitors, ICs) | Per BOM | [Passive Components](passive-components.md), [Semiconductors](semiconductor-devices.md) | — |
 | Ferric chloride etchant (42° Baumé) | 2-4 L | [Chemical supply](../chemistry/acids.md) | Ammonium persulfate (slower, cleaner) |
 | Photoresist (dry film, 38 μm) | 1-2 sheets | Photochemical supply | Liquid photoresist (screen-printed) |
-
 
 ## PCB Fabrication (Single-Sided)
 
@@ -217,7 +214,6 @@ Semiconductor die must be packaged for handling, electrical connection, and envi
 - Functional test coverage is only 70-90% — cannot detect marginal timing issues, noise susceptibility, or thermal performance problems that only appear in the field
 - X-ray inspection equipment costs $50K-$200K and requires radiation safety protocols (interlocked enclosure, operator dosimeter badges) — the cost is only justified for BGA-dense boards or high-reliability applications
 
-
 ## Solder Defect Analysis
 
 | Defect | Cause | Prevention |
@@ -336,7 +332,6 @@ Electronics assembly involves hot solder, chemical exposures, electrical testing
 - No food or drink in assembly areas (lead contamination risk from Sn/Pb solder)
 - First aid kit and eyewash station accessible within 10 seconds travel from all chemical and soldering workstations
 - Fire extinguisher (CO₂ for electrical fires, dry chemical for general) at each soldering station
-
 
 ## Design for Reliability
 - Use components rated 25°C above maximum operating temperature

@@ -9,7 +9,6 @@
 > **Outputs**: black_powder
 > **Critical**: No
 
-
 ## Black Powder
 
 ![USNS Black Powder and USNS Westwind](../images/chemistry/chemistry_black-powder.jpg)

@@ -8,7 +8,6 @@
 > **Timeline**: Years 20-30
 > **Outputs**: refrigeration, industrial_cooling, ice_production
 
-
 Refrigeration moves heat from a cold region to a hot region using external energy — it does not "make cold" but pumps heat against its natural gradient. Two principal cycles serve bootstrap industry: **[absorption refrigeration](../glossary/absorption-refrigeration.md)** (heat-driven, no moving parts in the refrigerant circuit, usable with waste heat or flame) and **[vapor-compression refrigeration](../glossary/vapor-compression-refrigeration.md)** (mechanically driven, higher COP, requires electric motor or engine). Both cycles depend on a refrigerant that evaporates at low temperature (absorbing heat) and condenses at higher temperature (rejecting heat). Ice manufacturing and cold storage extend these cycles into practical food preservation and process cooling.
 
 ## Absorption Refrigeration
@@ -17,14 +16,13 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 
 > *Annual cooling degree days in the United States, based on normal period 1961-1990.*
 
-> *Image: Unknown authorUnknown author, Public domain*
+> *Image: Unknown author, Public domain*
 
 ![United States Cooling Degree Day map, 1961-1990](../images/energy/energy_cooling.png)
 
 > *Annual cooling degree days in the United States, based on normal period 1961-1990.*
 
-> *Image: Unknown authorUnknown author, Public domain*
-
+> *Image: Unknown author, Public domain*
 
 **[Ammonia-water system](../glossary/ammonia-water-system.md)** (the first practical refrigeration cycle, industrially deployed from the 1850s):
 

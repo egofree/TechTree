@@ -9,7 +9,6 @@
 > **Outputs**: tnt, rdx, anfo
 > **Critical**: No
 
-
 ## Prerequisites & Dependencies
 
 High explosive production requires a deep chemical supply chain:
@@ -81,7 +80,6 @@ TNT is one of the safest high explosives to handle. It can be melted and poured 
 - Yellow color stains skin and is toxic (liver damage from chronic exposure)
 
 **Quality control**: Each batch of TNT must pass the melting point test (mp 80.2-80.8°C for acceptable material). Lower melting point indicates residual isomers that must be removed by additional sulfite washing. Acidity test: dissolve a sample in warm water and titrate to verify no residual acid (acidic TNT is unstable). Moisture content is measured by drying a weighed sample and reweighing (must be below 0.1%). For military-grade TNT, additional tests include gap test (sensitivity to initiation through an air gap), sand test (brisance measurement by crushing standard sand), and ballistic mortar test (relative power compared to standard TNT).
-
 
 ## RDX (Cyclonite / Cyclotrimethylenetrinitramine)
 
@@ -155,7 +153,6 @@ RDX is toxic. Chronic exposure causes seizures, liver damage, and kidney damage.
 - The supply chain (ammonia → formaldehyde → hexamine → RDX) requires significant industrial infrastructure
 
 **Quality control**: RDX purity is verified by melting point (204°C with decomposition, so melting point is measured by capillary method with controlled heating rate). Acetone insolubles indicate contamination. Acidity test (pH of water extract must be neutral). Granulometry (particle size distribution) affects loading density and sensitivity. Military-grade RDX must meet minimum purity standards (typically >99% RDX by weight). The performance is verified by detonation velocity test and sensitivity tests (impact, friction).
-
 
 ## ANFO (Ammonium Nitrate / Fuel Oil)
 

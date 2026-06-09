@@ -16,7 +16,6 @@
 
 > *Image: Zas2000, CC BY-SA 3.0*
 
-
 Reactive ion etching (RIE) and deep reactive ion etching (DRIE) using fluorocarbon, sulfur hexafluoride, and chlorine-based plasmas. Covers RIE reactor design (parallel plate, ICP), plasma generation (RF 13.56 MHz, ICP), etch chemistries (CF₄, SF₆, Cl₂, BCl₃), selectivity and aspect ratio control, DRIE Bosch process for high-aspect-ratio features, and etch rate monitoring (OES endpoint detection).
 
 Plasma etching is the complementary process to lithography: where lithography paints the pattern in photoresist, plasma etching carves that pattern into the underlying film. An RF generator (typically 13.56 MHz) ionizes process gases in a vacuum chamber, creating a soup of reactive radicals, ions, and electrons. The radicals provide chemical etching (isotropic, material-selective) while the ions provide physical sputtering (directional, non-selective). Combining both yields anisotropic etching: vertical sidewalls without lateral undercut, something wet etching cannot achieve for crystalline silicon.

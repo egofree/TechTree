@@ -14,7 +14,7 @@
 
 > *Industries of War - Piping - Manufacturing steel pipe for the government at the Youngstown Sheet and Tube Company plant, Youngstown, Ohio. Method of welding steel pipe - butt-weld process*
 
-> *Image: Unknown authorUnknown author or not provided, Public domain*
+> *Image: Unknown author or not provided, Public domain*
 
 Manufacture of metal pipes and tubes by casting, extrusion, seamless piercing, or welding. Pipes are essential infrastructure for water distribution, gas handling, steam transport, and chemical processing. Each pipe material and process serves different applications: cast iron for water and drainage, seamless steel for high-pressure steam and structural use, welded steel for moderate-pressure fluids, and copper tube for domestic water and heat exchangers.
 

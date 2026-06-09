@@ -8,7 +8,6 @@
 > **Outputs**: cpu_designs, memory_hierarchy, bus_architecture, io_systems
 > **Critical**: Yes — the architecture determines whether logic gates become a useful processor or an unorganized collection of transistors
 
-
 Computer architecture defines the structure and behavior of a computing system as seen by the programmer: the instruction set, register organization, memory hierarchy, I/O mechanisms, and interconnect (bus) topology. It is the contract between hardware and software — the ISA specifies what the hardware must do, and the microarchitecture specifies how the hardware does it.
 
 This capability sits at the intersection of [`computing.logic-design`](logic-design.md) (gate-level implementation) and software-bootstrapping (the software that runs on the hardware). The architect makes the critical design decisions — RISC vs. CISC, word size, cache organization, pipeline depth — that determine performance, complexity, and bootstrappability for decades.
@@ -19,7 +18,6 @@ Architecture is distinct from logic design and embedded systems:
 - **Embedded systems** answers "how do I deploy a complete hardware-software system for a specific control task?" — microcontroller selection, firmware, sensor interfacing
 
 **Boundary with software-bootstrapping**: This document covers the hardware architecture — the physical organization of CPU, memory, buses, and I/O. Instruction set design is documented here as a hardware specification (opcodes, registers, addressing modes). How to write programs in that ISA, build assemblers, or implement compilers is software construction — see the software-bootstrapping domain.
-
 
 ## Materials
 
@@ -53,7 +51,6 @@ Architecture is distinct from logic design and embedded systems:
 | Voltage regulator (3.3V or 5V, 2A) | 1 | [`electronics.power-electronics`](../electronics/power-electronics.md) | Linear regulator (simple, inefficient) |
 | Decoupling capacitors (100 nF) | 20-50 | [`electronics.passive-components`](../electronics/passive-components.md) | 10 nF (marginal at >50 MHz) |
 | 4-layer PCB (power, ground, 2 signal) | 1 | [`electronics.pcb-fabrication`](../electronics/pcb-fabrication.md) | 2-layer (acceptable below 20 MHz) |
-
 
 ## Instruction Set Architecture (ISA) Design
 
@@ -124,7 +121,6 @@ Architecture is distinct from logic design and embedded systems:
    - Bus bandwidth = (bus width × clock frequency) / transfer_cycles. Example: 32-bit bus at 100 MHz, 2 cycles per transfer = 200 MB/s.
 
 4. **Direct Memory Access (DMA)**: Peripheral device requests bus ownership from CPU. CPU grants bus. Peripheral transfers data directly to/from memory without CPU involvement. CPU can continue executing from cache during DMA. Essential for high-bandwidth I/O (disk, network, display).
-
 
 ## RISC vs. CISC Comparison
 
@@ -203,7 +199,6 @@ Ideal throughput: 1 instruction completed per cycle (IPC = 1.0). Pipeline hazard
 - **Thermal management**: A CPU dissipating 5-25 W in a 25 mm² die area produces heat fluxes of 20-100 W/cm². Junction temperature above 100-150°C (silicon device rated maximum: 125-175°C commercial, 150°C industrial) causes timing degradation (propagation delay increases 0.3%/°C above 25°C) and eventual failure (electromigration of aluminum interconnects accelerates exponentially, mean time to failure halves every 10-15°C). Attach heatsink with thermal compound (0.5-1.0 °C/W thermal resistance). For >10 W, add forced-air cooling (20-40 CFM fan). Calculate: Tj = Ta + Pd × (Rth(jc) + Rth(cs) + Rth(sa)), where Ta = ambient, Pd = power dissipation, Rth(jc) = junction-to-case (1-5 °C/W for plastic packages), Rth(cs) = case-to-heatsink (0.2-1.0 °C/W with thermal grease), Rth(sa) = heatsink-to-ambient (1-10 °C/W depending on size and airflow).
 - **Bus contention damage**: If two drivers simultaneously assert opposite states on a bus (one driving high, one driving low), the resulting short circuit current can exceed driver current ratings (24-64 mA per output for typical CMOS) and destroy the ICs. Power dissipation in each driver: P = Vcc × I_short ≈ 3.3 V × 50 mA = 165 mW, concentrated in a ~0.01 mm² output transistor area (heat flux >1,600 W/cm²). Use open-drain or tri-state bus configurations with appropriate pull-up resistors (4.7-10 kΩ for I²C at 100-400 kHz, 1-4.7 kΩ for faster buses). Ensure bus arbitration logic guarantees one driver active at a time with a dead time of at least 1 clock cycle between bus master transitions.
 
-
 ## Functional Verification
 
 - **ISA compliance test**: Write a test program that executes every instruction in the ISA with known operand patterns. Compare register and memory results against a reference model (software simulator). A minimal ISA (16 instructions) requires ~50 test cases.
@@ -219,7 +214,6 @@ Ideal throughput: 1 instruction completed per cycle (IPC = 1.0). Pipeline hazard
 ## Timing Closure
 
 - **Static timing analysis (STA)**: Check all register-to-register paths against the target clock period. No path may have a total delay (combinational logic + setup time + clock skew) exceeding the clock period. Timing must close at worst-case conditions (slow process corner, high temperature, low voltage).
-
 
 ## Accumulator Architecture
 
@@ -255,8 +249,6 @@ The compiler explicitly schedules parallel operations. Each instruction contains
 - [`computing.embedded-systems`](embedded-systems.md) — Application of processor architecture in dedicated control systems.
 - [`electronics.semiconductor-devices`](../electronics/semiconductor-devices.md) — Transistors and diodes that implement processor logic.
 - [`electronics.pcb-fabrication`](../electronics/pcb-fabrication.md) — PCB design for high-speed processor bus routing.
-
-
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*

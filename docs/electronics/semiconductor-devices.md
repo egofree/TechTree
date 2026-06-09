@@ -8,13 +8,11 @@
 > **Outputs**: diodes, transistors, thyristors, voltage_references
 > **Critical**: Yes — diodes and transistors are the fundamental active components enabling all power conversion, signal processing, and digital logic
 
-
 This document covers the physics, construction, and application of discrete semiconductor devices at the component level — diodes, bipolar junction transistors (BJTs), field-effect transistors (FETs), and thyristors. These are the active devices that make amplification, switching, rectification, and logic possible.
 
 **Domain boundary**: The [Silicon domain](../silicon/basic-devices.md) covers wafer-level processes — crystal growth, wafer preparation, and basic pn junction formation. This document covers the device physics, packaging into discrete components, circuit-level behavior, and selection/application of those devices. The [Photolithography domain](../photolithography/fab-processes.md) covers IC fabrication processes (patterned doping, metallization, planarization) for integrated circuits.
 
 Semiconductor devices sit at the heart of the electronics bootstrap chain. [Passive components](passive-components.md) alone cannot amplify signals or perform logic — active devices are required. Every [power electronics](power-electronics.md) converter relies on diodes and transistors for switching. Every [computing](../computing/electronic.md) system uses transistors as logic switches.
-
 
 ## Materials
 - **Silicon wafers**: Single-crystal, 50-300 mm diameter, p-type (boron) or n-type (phosphorus), from [wafer production](../silicon/wafering.md)
@@ -46,7 +44,6 @@ Semiconductor devices sit at the heart of the electronics bootstrap chain. [Pass
 | Gold wire (25 μm) | 50-200 m | [Metals](../metals/index.md) | Aluminum wire (25-50 μm, wedge bonding) |
 | Epoxy molding compound | 0.5-1.0 kg | [Polymers](../polymers/thermosets.md) | Ceramic hermetic package (military/space) |
 | Copper alloy lead frame (42 pins/strip) | 5-10 strips | [Metals](../metals/index.md) | Kovar alloy (CTE-matched for hermetic) |
-
 
 ## Diode Construction
 
@@ -160,7 +157,6 @@ Four-layer pnpn device. Latches on when gate current is applied while anode is p
 - Susceptible to false triggering from rapid voltage transients (dv/dt > 50-1000 V/μs) — requires snubber circuits (RC network across the device) that add cost and complexity
 - Slow turn-on (di/dt limited to 50-500 A/μs) — the conducting area spreads from the gate region at ~0.1 mm/μs, creating localized hot spots if current rises faster than the conducting area expands
 
-
 ## Diode Parameters
 
 | Parameter | Signal Diode (1N4148) | Rectifier Diode (1N5408) | Schottky (1N5822) | Zener (1N4736A) |
@@ -212,7 +208,6 @@ Four-layer pnpn device. Latches on when gate current is applied while anode is p
 | di/dt | 50 A/μs | 100 A/μs | 200 A/μs | 500 A/μs |
 | Package | TO-92 | TO-220 | Disc (hockey-puck) | Disc (hockey-puck) |
 
-
 ## From Discrete to Integrated
 
 - **Discrete devices** (1-10 mm² die): Individual diodes, transistors, thyristors in their own packages. Simple fabrication (3-6 lithography steps). Yield per die: 95-99%. Used for power applications and prototyping.
@@ -256,7 +251,6 @@ Power semiconductor capability scales with die area and blocking voltage. Key tr
 - **High-temperature furnaces**: Diffusion and oxidation furnaces operate at 900-1200°C. External surfaces: 50-80°C (burn risk). Loading/unloading wafers requires long quartz loading rods — hot wafers and quartz ware cause severe burns. Use thermal gloves rated to 500°C. Gas burn hazard: furnace exhaust gases may be hot and contain toxic species.
 - **Electrical testing of power devices**: High-voltage devices are tested at hundreds to thousands of volts. Capacitive energy storage in test equipment can deliver lethal shocks. Use insulated probes, discharge capacitors before handling, and maintain one-hand rule (never have both hands in the test fixture simultaneously).
 
-
 ## Wafer-Level Tests (Probe Test)
 - **Die-by-die probe**: Automated probe card contacts each die on the wafer. Measures key parameters: Vf (diodes), β and Vce(sat) (BJTs), Vth and Rds(on) (MOSFETs), Vdrm and Igt (thyristors). Inking or electronic mapping of failed die. Wafer probe yield target: 85-98% depending on die size and process maturity.
 - **Breakdown voltage test**: Ramp voltage to rated Vdrm/Vceo/Vds and verify leakage is within spec. Apply 10-20% above rated for screening.
@@ -272,7 +266,6 @@ Power semiconductor capability scales with die area and blocking voltage. Key tr
 - **Temperature cycling**: -65°C to +150°C, 500-1000 cycles. Checks die attach, wire bond, and package integrity.
 - **Highly accelerated stress test (HAST)**: 130°C, 85% RH, 96 hours under bias. Tests moisture resistance.
 - **Electrostatic discharge (ESD)**: HBM (Human Body Model): 100 pF through 1.5 kΩ. MOSFETs: 200-2000V rating. Diodes: 2000-15,000V.
-
 
 ## Device Technology Trade-offs
 

@@ -22,13 +22,11 @@
 
 > *Image: Comunicação NeuroMat, CC BY-SA 4.0*
 
-
 ![Schematic illustration of rod synaptogenesis in wild-type and horizontal cell-ablated mice](../images/chemistry/chemistry_acids-contact-process.jpg)
 
 > *Figure 5. Schematic illustration of rod synaptogenesis in wild-type and horizontal cell-ablated mice. In the wild-type retina, the rod terminal is initially contacted by a single horizontal cell process (H). The following day, another horizontal cell process is recruited and both invaginate into ...*
 
 > *Image: Nemitz L, Dedek K and Janssen-Bienhold U, CC BY 4.0*
-
 
 Production of concentrated sulfuric acid (96-98%) via the contact process: sulfur combustion to SO₂, catalytic oxidation to SO₃ over vanadium pentoxide catalyst at 400-450°C, and absorption in concentrated H₂SO₄ to form oleum. Supersedes the lead chamber process (65-70%) for high-purity industrial acid.
 
@@ -213,8 +211,6 @@ Tail gas from the absorption tower contains residual SO₂ that was not converte
 A civilization bootstrapping its chemical industry will likely first produce sulfuric acid via the lead chamber process or simple batch roasting of sulfur, before progressing to the contact process. The leap to catalytic oxidation requires a reliable source of vanadium (for the catalyst), the ability to fabricate porous catalyst supports, and the engineering skill to build and operate multi-bed converters with gas-tight construction and interstage temperature control. These requirements place the contact process firmly in the mid-industrial development phase, after basic metalworking and simple chemistry are established.
 A minimum viable contact process plant requires a sulfur burner, two catalyst beds with intercooling, and a single absorption tower — a simpler configuration than the full DCDA plant.
 
-
-
 ### Material Handling
 
 Proper handling of input materials and products is essential for consistent results:
@@ -230,7 +226,6 @@ Concentrated sulfuric acid is stored in steel tanks (the acid passivates steel a
 The vanadium pentoxide catalyst is produced by impregnating a silica or diatomaceous earth support with vanadium and potassium salts, then calcining. The potassium sulfate acts as a promoter that increases the catalyst activity and widens the effective temperature window. The catalyst is supplied as shaped pellets or rings (ring shape reduces pressure drop in the converter bed). Catalyst lifetime is typically 5-10 years before replacement is needed. The main deactivation mechanisms are arsenic poisoning (if gas purification is inadequate), thermal sintering (loss of surface area at high temperatures), and mechanical attrition from gas flow.
 These requirements place the contact process firmly in the mid-industrial development phase, after basic metalworking and simple chemistry are established.
 A minimum viable contact process plant requires a sulfur burner, two catalyst beds with intercooling, and a single absorption tower — a simpler configuration than the full DCDA plant.
-
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) · [Chemistry](./index.md) · [All Domains](../index.md)*

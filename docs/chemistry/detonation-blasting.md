@@ -9,7 +9,6 @@
 > **Outputs**: blasting_systems, demolition_services
 > **Critical**: No
 
-
 ## Blasting Caps & Initiating Systems
 
 High explosives (dynamite, TNT, ANFO) cannot be initiated by flame or spark alone. They require a strong shockwave from a primary explosive, delivered by a blasting cap. The cap contains a small charge of primary explosive that detonates from a fuse or electric current, producing a shockwave sufficient to initiate the main charge.
@@ -47,7 +46,6 @@ Loading blasting caps is the most dangerous operation in the explosive manufactu
 
 **Explosive train design**: Every blast requires a chain of increasingly sensitive explosives, each initiated by the one before it. The typical train for an ANFO blast: electric current → bridge wire (hot wire in blasting cap) → primary charge (lead azide, 0.1-0.3 g) → base charge in cap (RDX or PETN, 0.5-1.0 g) → booster (Comp B or pentolite, 100-500 g) → main charge (ANFO, 50-500 kg). Each link in the chain amplifies the detonation energy. The blasting cap alone cannot initiate ANFO. The booster is the critical link: it generates enough detonation pressure (15-25 GPa) to shock the insensitive ANFO into stable detonation. Skipping the booster is the most common cause of ANFO misfires. For dynamite blasts, the booster is unnecessary: the blasting cap output directly initiates the dynamite cartridge. For TNT-filled munitions, a tetryl or RDX booster pellet bridges the gap between the cap and the main TNT charge. The explosive train must be designed with no weak links: every interface must have enough energy transfer to reliably initiate the next element.
 
-
 ## Demolition Explosives
 
 **Shaped charges (hollow charges)**: A cone or hemisphere of high explosive (Composition B or RDX/wax) with a metal liner (copper, steel, or molybdenum, 1-3 mm thick) on the cavity side. Upon detonation, the liner collapses and forms a high-velocity jet of metal plasma (tip velocity 7,000-10,000 m/s, tail 2,000-4,000 m/s) that penetrates armor steel to a depth of 4-8× the charge diameter. The stand-off distance (distance from charge base to target) is critical: optimum stand-off is 2-6× charge diameter. Used in military anti-tank warheads, oil well perforating guns (penetrate steel casing and rock formation), and industrial metal cutting. The jet formation is governed by the Birkhoff-McDougall theory: the liner material is accelerated to different velocities along its length, stretching into a thin, fast-moving jet followed by a slower-moving slug.
@@ -57,7 +55,6 @@ Loading blasting caps is the most dangerous operation in the explosive manufactu
 **Explosive welding**: Two metal plates are joined by placing a layer of explosive on one plate and detonating it. The explosive force drives the plates together at high velocity (200-500 m/s) at a slight angle. The collision creates a jet of surface material that sweeps away oxides and contaminants, producing a metallurgical bond between the plates. Used to clad stainless steel or titanium onto carbon steel substrates (corrosion-resistant linings for chemical vessels). The explosive must produce a controlled, flat detonation wave (detasheet or sheet explosive). ANFO and dynamite are too powerful and irregular for this application.
 
 **Explosive hardening**: High explosives can work-harden austenitic manganese steel (Hadfield steel, used in crusher jaws and railroad frogs). A layer of explosive (usually sheet explosive) is placed directly on the surface and detonated. The shock wave plastically deforms the surface layer, increasing hardness from ~200 HB to ~400 HB. This is a specialized application, but useful for extending the life of rock-crushing equipment in mining operations. The same principle applies to explosive compaction of powder metallurgy preforms.
-
 
 ## Detonation Physics
 
@@ -92,7 +89,6 @@ Loading blasting caps is the most dangerous operation in the explosive manufactu
 - **Impact sensitivity test**: a standard weight (2 kg) dropped from increasing heights onto a small sample (40 mg) of explosive between two steel surfaces. The height at which 50% of drops cause detonation is the impact sensitivity. Lead azide: 5-10 cm. Nitroglycerin: 10-15 cm. RDX: 30-40 cm. TNT: 100+ cm (very insensitive). ANFO: no detonation at maximum drop height (extremely insensitive).
 - **Gap test**: measures the minimum distance through which the shockwave from a donor charge will initiate an acceptor charge through an air or water gap. Higher gap sensitivity means the explosive is easier to initiate. ANFO has very low gap sensitivity (requires direct contact with booster). TNT has moderate gap sensitivity. Detonating cord has high gap sensitivity (can initiate through several cm of air).
 
-
 ## Blasting Design Parameters
 
 **Powder factor**: Mass of explosive per unit volume of rock broken (kg/m³) or per tonne of rock (kg/t). Typical values: hard granite quarrying 0.4-0.7 kg/m³ ANFO, limestone 0.2-0.4 kg/m³, coal stripping 0.1-0.3 kg/m³. Higher powder factor produces finer fragmentation but increases cost and vibration. Optimizing powder factor balances explosive cost against downstream processing (crusher throughput, loader productivity).
@@ -105,7 +101,6 @@ The burden must be correctly calculated for each blasting situation. Too much bu
 
 **Worked example**: A limestone quarry bench blast with the following parameters: bench height 12 m, borehole diameter 100 mm, burden 3.0 m, spacing 3.5 m, subdrilling 1.0 m, stemming 2.5 m, 3 rows × 5 holes per row = 15 holes total. ANFO at density 0.85 g/cm³. Charge length per hole = 12 m - 2.5 m stemming + 1.0 m subdrilling = 10.5 m. Charge volume per hole = π × (0.05)² × 10.5 = 0.0825 m³. Charge mass per hole = 0.0825 × 850 = 70 kg ANFO. Total charge = 15 × 70 = 1,050 kg. Rock volume broken = 3 rows × 5 holes × 3.0 m burden × 3.5 m spacing × 12 m height = 1,890 m³. Powder factor = 1,050 / 1,890 = 0.56 kg/m³ (within the 0.2-0.4 kg/m³ range for limestone, perhaps slightly high, indicating good fragmentation). Timing: 25 ms between holes in a row, 75 ms between rows. Maximum charge per delay = 70 kg (one hole per delay). Total blast duration = (5-1) × 25 + (3-1) × 75 = 100 + 150 = 250 ms.
 
-
 ## Blasting Vibration and Air Overpressure
 
 **Ground vibration**: Detonation generates seismic waves that propagate through rock and soil. Peak particle velocity (PPV) is the standard measurement (mm/s). Damage thresholds: residential plaster cracks at PPV >5 mm/s, cosmetic cracking at >12.5 mm/s, structural damage at >50 mm/s. Vibration attenuation with distance: PPV = K × (D/√W)^-n, where D = distance, W = maximum charge per delay, K and n are site constants (K ≈ 500-2000, n ≈ 1.5-2.0 for typical rock). At 200 m distance, 50 kg per delay produces PPV of 2-8 mm/s (below damage threshold for most structures but perceptible and potentially objectionable).
@@ -115,7 +110,6 @@ Controlling vibration is critical for blasting near populated areas. The most ef
 **Air overpressure (airblast)**: The shock wave transmitted through air from the blast. Measured in decibels (dB) or pressure (kPa). Typical values at 200 m: 110-130 dB for confined blasts, 130-150 dB for unconfined. Threshold for glass breakage: ~150 dB. Complaint threshold: 115-120 dB (audible as a low-frequency thump). Airblast is controlled by: (1) adequate stemming (prevents gas venting through borehole collar), (2) covering the blast with blasting mats (worn conveyor belts or steel mesh), (3) avoiding surface detonating cord (use shock tube instead).
 
 **Flyrock control**: Rock fragments thrown beyond the expected blast area are the most dangerous blasting hazard. Flyrock range: 50-500 m for large blasts if uncontrolled. Control measures: (1) adequate burden and stemming (prevents gas from lifting rock vertically), (2) accurate drilling (burden errors cause flyrock), (3) delayed initiation pattern (allows rock to move into void created by earlier-delayed holes), (4) blasting mats for blasts near occupied areas (worn conveyor belts chained together or steel mesh mats), (5) exclusion zone (typically 300-500 m radius for personnel during blasting). The blaster in charge is responsible for calculating the expected flyrock range and setting the exclusion zone. A flyrock incident that injures someone outside the exclusion zone is a catastrophic safety failure. Within the exclusion zone, all personnel must be in blast shelters (reinforced earth berms or concrete bunkers) or at a safe distance during firing.
-
 
 ## Selection Guide
 
@@ -130,7 +124,6 @@ Controlling vibration is critical for blasting near populated areas. The most ef
 | TNT | 6,900 | 1.6 | 4.6 | Low | Military shells, melt-cast filling |
 | RDX (Comp B) | 7,800 | 1.7 | 5.1 | Low (phlegmatized) | Military warheads, shaped charges |
 | ANFO | 2,500-4,000 | 0.8-1.0 | 3.7 | Very low | Large-scale mining, cheapest per joule |
-
 
 ## Applications by Sector
 
@@ -159,7 +152,6 @@ Choosing the right explosive for a task requires matching the explosive's proper
 
 **Soil and soft rock excavation**: ANFO or black powder (in a bootstrapping context) in shallow, closely-spaced holes. Soft materials require high heaving force rather than high brisance. Powder factor is low (0.1-0.3 kg/m³) because the material breaks easily. The main purpose of the explosive is to lift and displace the material, not to shatter it.
 
-
 ## Integration Points
 
 | Phase | Contribution |
@@ -171,13 +163,11 @@ Choosing the right explosive for a task requires matching the explosive's proper
 | Industrial Mining (Modern) | ANFO dominates surface mining worldwide. Cheap, safe, and effective in large boreholes. Heavy ANFO for wet conditions. Electronic delay detonators enable precise blasting near populated areas with minimal vibration. Bulk ANFO trucks mix and load 50 tonnes per day into boreholes. |
 | Petroleum & Chemical | Ammonium nitrate (ANFO precursor) from ammonia + nitric acid. Toluene (TNT precursor) from petroleum refining or coal tar. Hexamine (RDX precursor) from ammonia + formaldehyde. The explosive industry is a major consumer of chemical industry outputs. |
 
-
 ## Key Deliverables
 
 - **Tier 1** (Years 5-10): Black powder for mining, quarrying, and firearms propellant. Requires only saltpeter, charcoal, and sulfur. Sufficient for basic ore extraction and road construction through rock. Black powder blasting increases mining productivity by 10-50× over manual methods. A civilization with black powder can build roads through mountains, quarry building stone, and mine metallic ores at commercially useful rates.
 - **Tier 2** (Years 10-20): Nitroglycerin, dynamite, and nitrocellulose for construction blasting and military applications. Requires mixed acid production (nitric + sulfuric) and glycerol. Dynamite transforms mining productivity again: higher energy density allows smaller boreholes, less drilling, and better fragmentation. Smokeless powders modernize firearms, giving military advantage and enabling modern small arms. Nitrocellulose also provides lacquers, film base, and dope for early aircraft. Safety fuse and blasting caps (mercury fulminate, then lead azide) are developed in parallel.
 - **Tier 3** (Years 20-30+): TNT, RDX, smokeless powders, and ANFO for industrial and military use. TNT requires three-stage nitration and toluene (from petroleum or coal tar). RDX requires hexamine and acetic anhydride. ANFO requires ammonium nitrate prills and diesel fuel. These represent the mature industrial explosive palette. TNT becomes the reference standard for all explosive power comparisons. RDX enables shaped charge warheads and modern military munitions. ANFO becomes the cheapest and most widely used industrial explosive, dominating surface mining worldwide. Electronic delay detonators provide millisecond-precision timing for controlled blasting near populated areas.
-
 
 ## General Safety & Hazards
 
@@ -196,7 +186,6 @@ Choosing the right explosive for a task requires matching the explosive's proper
 - **Fire in a magazine**: If a fire breaks out in an explosives storage area, evacuate immediately to at least the quantity-distance and do not attempt to fight the fire. The transition from fire to detonation can occur without warning, especially if NG-based explosives are involved. The only safe response to a magazine fire is evacuation. Notify emergency services and establish a perimeter at the quantity-distance radius. Do not re-enter the area until the fire has been extinguished and the area has been declared safe by explosive ordnance disposal personnel.
 - **Training and competency**: All personnel handling explosives must be trained and, in regulated environments, licensed. Training covers: explosive properties and hazards, safe handling and storage procedures, blasting cap and initiating system operation, misfire procedures, and emergency response. Untrained personnel must never handle explosives. In a bootstrapping civilization, this training must be developed from scratch, ideally by the people who developed the explosive manufacturing process. Institutional knowledge about safe practices is as important as the technical knowledge of how to manufacture the explosives. A single serious accident can destroy the confidence needed to operate an explosives program.
 
-
 ## Limitations
 
 - **Storage stability**: Nitroglycerin-based explosives (dynamite) exude liquid NG over time, especially in warm storage. Exuded NG is extremely sensitive to shock. Ammonium nitrate absorbs moisture and cakes, reducing sensitivity and performance. Proper storage (cool, dry, ventilated magazines) is essential but not always available in field conditions. Black powder absorbs moisture and degrades, though it can be dried and reprocessed. TNT and RDX compositions are the most storage-stable, with decades of shelf life under proper conditions.
@@ -206,7 +195,6 @@ Choosing the right explosive for a task requires matching the explosive's proper
 - **Water sensitivity**: ANFO dissolves in water and cannot be used in wet boreholes without emulsion wrapping or conversion to Heavy ANFO. Dynamite cartridges (standard grade) also degrade in prolonged water exposure. Only emulsion explosives and water gels are truly waterproof, and these require more complex manufacturing. For a bootstrapping civilization, dry boreholes or simple waterproofing (plastic bag wrapping of charges) may be the practical solution.
 - **Supply chain depth**: Modern explosives like RDX require hexamine (ammonia + formaldehyde), acetic anhydride, and concentrated nitric acid. Each of these has its own supply chain. The full depth from raw materials to RDX touches ammonia synthesis (Haber-Bosch), methanol production, formaldehyde oxidation, acetic acid fermentation or synthesis, and nitric acid production (Ostwald process). This supply chain depth means RDX and other advanced explosives arrive late in the bootstrapping sequence, long after black powder and dynamite have served the civilization's explosive needs.
 - **Environmental impact**: Large-scale blasting produces noise, vibration, dust, and nitrate contamination. Ammonium nitrate residue from ANFO blasting leaches into groundwater, contributing to nitrate pollution. In sensitive watersheds, blast site runoff must be contained and treated. Noise from quarry blasting travels several kilometers and is a common source of community complaints. Dust from blasting is controlled by water spraying and blast blankets, but cannot be eliminated entirely. Underground blasting in sulfide-bearing ore bodies can generate sulfuric acid when sulfide minerals are exposed to air and water in the fractured rock (acid mine drainage), a long-term environmental liability that persists long after the mine closes.
-
 
 ## Troubleshooting
 

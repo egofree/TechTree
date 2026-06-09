@@ -22,7 +22,6 @@
 
 > *Image: Guiding light, Public domain*
 
-
 - [Optics Inspection](../optics/inspection.md) — lens quality verification and alignment
 - [Resists & Masks](../photolithography/resists-masks.md) — photoresist chemistry and photomask fabrication
 
@@ -172,8 +171,6 @@ Lithography is typically the throughput bottleneck and cost driver of a semicond
 - **DUV radiation (248 nm, 193 nm)**: Deep UV causes severe corneal burns (photokeratitis) and skin erythema at doses far below visible-light thresholds. Enclose all beam paths with interlocked covers — the beam must terminate if any enclosure panel is opened. Wear DUV-rated safety glasses (OD 6+ at 193-248 nm) during alignment or maintenance. Check interlock function weekly.
 - **High-voltage laser discharge (15-30 kV)**: Excimer laser discharge circuits store lethal energy in capacitor banks. Interlock the laser power supply so capacitors discharge through a bleeder resistor when panels are opened. Wait ≥5 × the RC time constant before servicing. Post "DANGER — HIGH VOLTAGE" signage. Only trained, authorized personnel may service laser power supplies.
 
-
-
 ## EUV Source Technology
 
 The EUV light source is the single most complex subsystem in an EUV lithography scanner. Generating 13.5 nm photons at industrial scale required solving problems across plasma physics, high-power lasers, vacuum engineering, and optical collection.
@@ -316,7 +313,6 @@ A DUV scanner integrates optical, mechanical, thermal, and control subsystems in
 - Wafer surface height measured in real-time by an array of optical level sensors (typically 4-8 laser triangulation or air-gauge sensors). Surface map of the wafer topography is loaded before scanning — the lens Z-position adjusts dynamically during the scan to maintain ±25-50 nm focus depth across the entire 26 mm × 33 mm exposure field.
 - Leveling accuracy: ±5 nm for wafer global tilt, ±25 nm for local topography. Best focus position must be maintained to within ±25 nm — a ±50 nm defocus degrades CD by ~2-3 nm and reduces process window by 30-50%.
 
-
 **Strengths**:
 - 20-30 element projection lens achieves <0.5 mλ RMS wavefront error (0.1 nm at 193 nm) — atomic-scale optical perfection
 - Dynamic focus adjustment during 600-700 mm/s scan maintains ±25 nm depth across 26×33 mm field
@@ -324,8 +320,6 @@ A DUV scanner integrates optical, mechanical, thermal, and control subsystems in
 **Weaknesses**:
 - Each lens element requires 6-degree-of-freedom piezoelectric adjustment — ~150 actuators must be simultaneously calibrated
 - Lens barrel length ~1-1.5 m with ±0.1 μm spacing tolerance — requires athermalized Invar or carbon-fiber structures
-
-
 
 ## Troubleshooting
 

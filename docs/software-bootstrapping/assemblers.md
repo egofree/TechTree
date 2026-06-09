@@ -8,13 +8,11 @@
 > **Outputs**: assembly_language, object_files, executable_programs
 > **Critical**: Yes — assemblers are the first software tool built for any new architecture, enabling all subsequent software development
 
-
 An assembler translates human-readable mnemonic instructions (assembly language) into machine code binary. Where machine code programming requires the programmer to remember that `3E 05` means "load the accumulator with 5," assembly language lets them write `LD A, 5` — a dramatic improvement in readability, writability, and maintainability.
 
 The assembler is the first software tool built for any new computer. The bootstrap sequence is: (1) hand-enter a minimal assembler in machine code via front panel, (2) use that assembler to assemble larger programs, (3) eventually rewrite the assembler in its own assembly language and use the first assembler to assemble it — making the assembler self-hosting.
 
 Beyond the assembler itself, this capability includes linkers (which combine multiple object files into a single executable) and loaders (which place the executable into memory and start execution). Together, these three tools form the software toolchain that enables all higher-level software construction.
-
 
 ## Software
 - **Working machine code entry capability** ([machine-code](machine-code.md)): The assembler itself must first be written in machine code or on a cross-development system.
@@ -37,7 +35,6 @@ Beyond the assembler itself, this capability includes linkers (which combine mul
 | Paper tape or magnetic storage | Adequate for source + output | [computing.data-storage](../computing/data-storage.md) | Any writable persistent storage |
 | Teletype or terminal | 1 unit | [computing.electronic](../computing/electronic.md) | Paper tape punch for source entry |
 | Assembly language reference | 1 document | Custom per ISA | Handwritten opcode mnemonic list |
-
 
 ## Assembly Language Design
 

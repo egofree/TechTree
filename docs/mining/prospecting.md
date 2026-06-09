@@ -225,7 +225,6 @@ Prospecting locates ore deposits and evaluates their economic potential before c
 **Photo documentation**:
 - Photograph every outcrop, trench, and sample site with a scale reference (ruler, lens cap, or person) and a north arrow. Record photo number, location, and description in the field notebook. Outcrop photos provide a permanent record of geological relationships that may be destroyed by subsequent excavation. Shoot in consistent lighting — morning and afternoon sun produce shadows that reveal texture and structure better than midday overhead light.
 
-
 ## Safety & Hazards
 
 - **Terrain hazards**: Prospecting involves traversing rugged, unstable terrain. Rockfalls, loose scree, steep slopes. Sturdy boots, careful footing. Never prospect alone in remote areas. Carry a basic first aid kit, map, compass, whistle, and emergency shelter blanket. A personal locator beacon (PLB) provides satellite distress signaling in areas without cell coverage.

@@ -8,13 +8,11 @@
 > **Outputs**: distribution_transformers, power_transformers, substations, switchgear, distribution_panels, instrument_transformers
 > **Critical**: Yes — Without transformers, AC power distribution beyond 1-2 km is impractical. No long-distance transmission means no centralized generation means no industrial-scale power.
 
-
 Transformers are the enabling technology for alternating-current power distribution. They convert voltage levels with no moving parts — stepping generator output up to thousands of volts for efficient long-distance transmission, then stepping back down to safe utilization voltages at the point of use. Without transformers, every electrical load must be within 1-2 km of its generator, making centralized power generation useless and forcing every factory to operate its own power plant.
 
 The physics is simple: two coils of wire on a shared iron core. Alternating current in the primary coil creates a changing magnetic flux in the core, which induces a voltage in the secondary coil. The voltage ratio equals the turns ratio — double the turns, double the voltage. Power is conserved minus a few percent loss. This elegant device, combined with three-phase AC generation, forms the backbone of every electrical grid from the 1880s to the present day.
 
 This document covers transformer construction, core and winding manufacturing, insulation systems, oil-filled and dry-type designs, substation layout, switchgear, distribution panels, and the quantitative parameters needed to specify, build, and test power distribution equipment at workshop scale.
-
 
 ## Materials
 
@@ -46,7 +44,6 @@ This document covers transformer construction, core and winding manufacturing, i
 - Magnetic circuit concepts (flux, permeability, saturation, hysteresis)
 - Basic trigonometry for three-phase voltage calculations
 
-
 ## Distribution Transformer (100 kVA, 11 kV / 400V, Three-Phase)
 
 | Material | Quantity | Source | Alternatives |
@@ -61,7 +58,6 @@ This document covers transformer construction, core and winding manufacturing, i
 | Porcelain bushings (4 off) | 4 pcs | [Ceramics](../ceramics/kilns.md) | Epoxy resin bushings (lower voltage rating) |
 | Varnish / impregnating resin | 5-8 liters | [Chemistry](../chemistry/index.md) | Shellac (lower temperature class) |
 | Hardware (bolts, clamps, gaskets) | 10-15 kg | [Metals](../metals/index.md) | — |
-
 
 ## Core Construction
 
@@ -203,7 +199,6 @@ This document covers transformer construction, core and winding manufacturing, i
 - Drying cycle (90-110°C for 24-48 hours) adds significant production time
 - Oil must be tested periodically — moisture and dissolved gases degrade insulation over time
 
-
 ## Standard Distribution Transformer Ratings
 
 | Rating (kVA) | HV Range (kV) | LV Range (V) | Core Loss (W) | Load Loss at 75°C (W) | Total Loss (% of rating) | Oil Volume (liters) | Weight (kg) |
@@ -268,7 +263,6 @@ Formula: Voltage drop (%) = (2 × I × R × L) / V × 100, where I = current (A)
 
 Maximum efficiency occurs when core loss equals copper loss. For a 100 kVA transformer with 270 W core loss and 2,000 W full-load copper loss: optimal load = √(270/2000) = 0.37 = 37% of rated load. Distribution transformers spend most of their life below 50% load, so design favors lower core loss.
 
-
 ## Bench Scale (1-5 kVA)
 
 A 1 kVA transformer for laboratory or instrument use fits in one hand. Core cross-section: 10-20 cm². Wire: 0.3-1.0 mm diameter. Air-cooled, no oil needed. Hand-wound on a simple mandrel. Construction time: 2-4 hours. Test with a multimeter and variac. Useful for power supplies, isolation, and instrument matching.
@@ -301,7 +295,6 @@ Power transformers at this scale require automated core cutting (CNC notch-cutti
 | Oil discoloration or acidic smell | Oil oxidation from moisture and heat exposure | Test oil acidity (neutralization number <0.05 mg KOH/g oil); filter or replace oil; check tank seal for water ingress |
 | Audible partial discharge (crackling) | Air bubbles trapped in oil or insulation | Degas oil under vacuum; circulate oil to release trapped air; maintain positive oil pressure |
 
-
 ## High Voltage Hazards
 
 Distribution transformers operate at voltages from 2.4 kV to 34.5 kV on the primary side. These voltages are lethal — 1 mA through the chest causes muscle contraction, 100 mA causes ventricular fibrillation, and contact with 11 kV produces tens of amperes through the body. Treat all transformer terminals as energized until proven de-energized with a voltage detector rated for the voltage class.
@@ -323,7 +316,6 @@ Secondary-side short circuits on a transformer fed by a stiff grid can produce a
 ## Electrical Testing Safety
 
 Insulation resistance testing (megger) applies 500-5,000V DC. Never touch terminals during a test. Discharge the winding to ground through a resistor after each test — stored charge can deliver a dangerous shock.
-
 
 ## Turns Ratio Test
 
@@ -353,7 +345,6 @@ Measure DC resistance of each winding with a Kelvin bridge or micro-ohmmeter. Co
 ## Load Test (Heat Run)
 
 Energize transformer at full rated current for 8-24 hours. Monitor top-oil temperature rise. Acceptance: temperature rise ≤55°C for 65°C rise class (oil-filled), measured by thermocouple in top oil. If temperature exceeds limit, reduce loading rating or improve cooling.
-
 
 ## Oil-Filled vs Dry-Type
 

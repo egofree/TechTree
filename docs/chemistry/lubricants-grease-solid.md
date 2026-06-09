@@ -9,9 +9,7 @@
 > **Outputs**: grease, solid_lubricant, bearing_lubrication
 > **Critical**: No — grease and solid lubricants extend machine life and simplify bearing design but are not prerequisites for core capabilities
 
-
 Grease stays in bearings that would drain liquid oil. Solid lubricants work where liquids fail: extreme temperatures, vacuum, and contamination-sensitive environments. Bearing lubrication methods deliver oil or grease to the right place at the right rate. Together these technologies enable rolling element bearings, sealed bearing units, high-temperature machinery, and vacuum mechanisms.
-
 
 ## Grease Production
 
@@ -73,7 +71,6 @@ The saponification reaction is exothermic. Add alkali gradually to avoid violent
 - Grease cannot be filtered and reused like oil; it is consumed and replaced
 - Additives are consumed during service; grease gradually degrades in use
 
-
 ## Solid Lubricants
 
 **Principle**: Solid materials with layered crystal structures or low-shear-strength surfaces provide lubrication by allowing easy sliding between atomic layers. Used where liquid lubricants fail: extreme temperatures, vacuum, radiation, or environments where oil would contaminate the product.
@@ -116,7 +113,6 @@ The saponification reaction is exothermic. Add alkali gradually to avoid violent
 - PTFE has poor wear resistance and cold-flows under load
 - Polymer bearings limited to low PV values (see Bearing Design Parameters)
 - MoS₂ and PTFE require industrial synthesis (not available at early bootstrap stages)
-
 
 ## Bearing Lubrication Methods
 
@@ -166,8 +162,6 @@ The saponification reaction is exothermic. Add alkali gradually to avoid violent
 - Forced lubrication adds complexity (pump, filter, plumbing) and a potential failure point
 - Grease-packed bearings have limited speed capability due to churning heat
 - Oil mist requires clean, dry compressed air and creates a respiratory hazard
-
-
 
 ## Troubleshooting
 

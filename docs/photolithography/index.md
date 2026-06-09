@@ -1,6 +1,5 @@
 # Photolithography & IC Fabrication
 
-
 ![University of Minnesota Nanofabrication Center - Bay 2, Lithography](../images/photolithography/photolithography.jpg)
 > *Image: Runner1928, CC BY-SA 4.0*
 

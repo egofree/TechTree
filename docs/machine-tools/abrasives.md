@@ -8,11 +8,9 @@
 > **Outputs**: abrasives, grinding_wheels, cutting_tools, taps, dies, hss_tool_bits
 > **Critical**: Yes — precision enablers for all machine tool construction
 
-
 Abrasives and cutting tools shape metal to the tolerances that make interchangeable parts possible. This capability represents the transition from "rough iron castings" to "precision machines" — the difference between a crude lathe that wobbles and a precision lathe that can turn a true cylinder to ±0.01 mm. This article covers natural and synthetic abrasives, grinding wheel construction, lapping, honing, thread cutting, tap and die production, and cutting tool materials. For bearing design and manufacture, see [Bearings](bearings.md).
 
 For the machine tool construction sequence, see [Iterative Bootstrap](./iterative-bootstrap.md). For the machining operations that use these tools, see [Machining](./machining.md).
-
 
 ## Natural Abrasives (Available Immediately)
 
@@ -161,7 +159,6 @@ Sieve abrasive through woven wire screens. Screen mesh number = grit number (60 
 - Abrasive particles embed in soft workpiece surfaces, contaminating the finish — thorough cleaning required
 - Operator skill is critical — uneven pressure or pattern produces non-flat surfaces
 
-
 ## Thread Profile Standard
 
 Choose ONE system and standardize immediately. Mixing thread standards is catastrophic for interchangeable parts.
@@ -262,14 +259,12 @@ Choose ONE system and standardize immediately. Mixing thread standards is catast
 - Heat treatment adds complexity — poorly controlled tempering produces brittle or soft bolts
 - Thread quality depends on die sharpness — worn dies produce torn or oversize threads
 
-
 ## Cutting Fluids
 
 - **Water with soluble oil**: Best for heavy machining (grinding, milling). 20:1 water-to-emulsifiable-oil ratio. Cools AND lubricates. Primary cutting fluid for production machining.
 - **Sulfurized cutting oil**: For heavy turning and gear cutting. Add flowers of sulfur (5-10%) to mineral oil or lard oil. Extreme pressure lubrication — sulfur compounds react with metal surface to prevent welding of chip to tool.
 - **Cutting fluid application**: Flood coolant (continuous stream directed at the cutting zone) for production. Manual application (brush or squeeze bottle) for light work. Mist coolant for grinding (air + oil mist).
 - See [Lubricants](../chemistry/lubricants.md) for the full production chain.
-
 
 ## Carbon Steel Tool Bits (First Available)
 

@@ -49,7 +49,6 @@ Where no spring or surface water exists, dig a well. A hand-dug well 1-1.5 m in 
 
 Dig a pit 60-100 cm in diameter and 40-60 cm deep. Place a collection container in the center. Cover the pit with a clear plastic sheet, sealing the edges with soil or stones. Weight the center of the sheet with a stone so it forms a cone shape pointing down into the container. Moisture evaporates from the soil, condenses on the plastic, runs to the lowest point, and drips into the container. Yield: 0.5-2 liters per day depending on soil moisture. Adding green vegetation or urine to the pit soil increases output by 30-50%. This technique produces distilled water, which is free of pathogens and salts. For higher yield, dig multiple stills rather than making one larger pit. A still 1 m in diameter works better than a 2 m one because the condensation distance from soil to plastic is shorter.
 
-
 ## Roof Catchment
 
 A roof acts as a collection surface. The math is straightforward: 100 m² of roof area multiplied by 1 mm of rainfall yields 100 liters of water. In a temperate climate receiving 500-800 mm of rain per year, a 100 m² roof collects 50,000-80,000 liters annually. Even in arid regions with 200 mm of annual rainfall, the same roof captures 20,000 liters per year. Guttering directs the flow. A simple wooden or clay half-pipe gutter running along the roof eaves, sloping 1-2 cm per meter toward the cistern, captures 80-95% of roof runoff. Missing gutters loses 50-70% to splash and ground absorption.
@@ -78,7 +77,6 @@ Underground cisterns store harvested rainwater for dry periods. Build from stone
 
 Where no roof is available, a prepared ground surface collects rainfall. Smooth a sloped area with compacted clay or stone paving, directing runoff to a central collection point. A 100 m² catchment surface receiving 500 mm of annual rain yields 50,000 liters of potential collection. Actual recovery is 50-80% due to evaporation, surface absorption, and minor losses. Clay loses less water to absorption than sandy soil. Contouring the catchment into shallow channels increases flow speed and reduces evaporation losses. A stone-paved catchment with 2-3% slope achieves recovery rates of 70-85%, among the highest for ground-level collection.
 
-
 ## Spring Box Construction
 
 A spring box protects the natural emergence point of groundwater. Build a stone or concrete box 80×80×80 cm around the spring eye (the point where water flows from the ground). The box has three components: a collection chamber, an overflow pipe near the top, and a screened outlet pipe at the base. Use a collection pipe 5-10 cm in diameter to carry water from the spring box to a storage tank. The screen (fine mesh or gravel filter) keeps debris and small animals out of the supply. Set the box foundation 20-30 cm below the spring eye to capture subsurface flow that may not be visible at the surface. Seal the back and sides of the box against the hillside with clay to prevent surface water from entering.
@@ -105,7 +103,6 @@ Where groundwater seeps from a hillside rather than emerging at a single point, 
 - Spring box requires stone or concrete construction plus screening — not achievable without basic masonry skills
 - Neglected spring boxes fill with silt, reducing flow by 30-50% within a year — requires quarterly inspection and annual sediment removal
 
-
 ## Clay Pots
 
 Clay pots hold 5-20 liters and are carried on the head or hip. They keep water cool through slow evaporation through the porous walls, lowering stored water temperature by 5-8°C below ambient. Breakage rate runs 10-20% per year depending on handling and wall thickness. Thicker walls last longer but increase weight. Fire-hardened pots survive longer than sun-dried ones. A well-made pot with walls 8-12 mm thick weighs 2-4 kg empty and lasts 3-5 years with careful handling.
@@ -125,7 +122,6 @@ Gravity-fed channels move large volumes of water over distance. Clay or stone-li
 ## Pipes and Siphons
 
 Sealed pipes move water uphill using siphon action, provided the outlet is below the water source. Clay pipes 5-10 cm in diameter, joined with lime mortar, carry water over distances of 100-500 m. A siphon works only if the pipe is full of water and free of air pockets. Maximum lift height for a water siphon at sea level is approximately 10 m (limited by atmospheric pressure). At 2,000 m elevation the limit drops to 8 m. Bamboo stems with nodes removed make natural pipes 2-5 m long, suitable for short-distance water conveyance over rough terrain.
-
 
 ## Clay Pot Storage
 
@@ -152,7 +148,6 @@ Size water storage to the longest dry period. A climate with a 4-month dry seaso
 - Earthen dams require a clay core (30-50 cm thick) and width-to-height ratio of 3:1 — dam failure causes catastrophic flooding downstream
 - Underground storage requires excavation, stone or brick construction, and lime plastering — labor-intensive initial construction
 - Standing water in uncovered storage breeds mosquitoes carrying malaria, dengue, and other diseases — all containers must have tight-fitting lids
-
 
 ## Visual Assessment
 

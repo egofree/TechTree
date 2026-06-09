@@ -1,6 +1,5 @@
 # VLSI Scaling & Advanced Semiconductor
 
-
 ![Electronics PCB circuit board microphoto](../images/vlsi-scaling/vlsi-scaling.jpg)
 > *Image: Jan Helebrant, CC0*
 

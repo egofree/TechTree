@@ -42,7 +42,6 @@ Riveting is mechanical joining with no heat applied to the joint itself. Rivets 
 
 > *Image: Photographer: Mosbatho, CC BY 4.0*
 
-
 Hot riveting exploits thermal contraction. The rivet, heated to bright red (900-1000°C), is inserted through aligned holes and hammered to form the second head while still plastic. As the rivet cools to ambient temperature, it shrinks by the thermal expansion coefficient of steel (12 × 10⁻⁶ /°C) over a temperature drop of ~880°C. For a 20 mm diameter rivet with a grip length of 30 mm, this contraction generates a clamping force of 20-50 kN, pulling the plates into intimate contact.
 
 This contraction-induced preload is why hot riveted joints are both leak-tight and resistant to vibration loosening. The clamping force from a single 20 mm rivet is equivalent to tightening a 20 mm bolt to roughly 60-70% of its proof load. Unlike bolts, which can loosen under cyclic vibration as the nut backs off, a rivet has no thread to unwind. The preload can only relax if the rivet yields in tension, which requires a force exceeding the rivet material's yield strength applied perpendicular to the joint plane.

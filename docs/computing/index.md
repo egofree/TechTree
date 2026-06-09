@@ -1,6 +1,5 @@
 # Computing & Automation
 
-
 ![Wartime photo of Colossus 10](../images/computing/computing.png)
 > *Image: Good, Jack; Michie, Donald; Timms, Geoffrey (1945), General Report on Tunny: With Emphasis on Statistical Methods, UK Public Record Office HW 25/4 and HW 25/5, Public domain*
 

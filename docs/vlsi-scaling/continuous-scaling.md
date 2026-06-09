@@ -22,7 +22,6 @@
 
 > *Image: ourworldindata.org, CC BY-SA 4.0*
 
-
 - [Core Fab Processes](../photolithography/fab-processes.md) — baseline semiconductor manufacturing capability
 
 ## Continuous Scaling
@@ -151,7 +150,6 @@ Continuous scaling does not introduce fundamentally new hazard categories beyond
 - [Advanced Lithography](advanced-lithography.md) — excimer laser high voltage, DUV radiation, fluorine gas handling.
 - [Advanced Processes](advanced-processes.md) — CMP slurry, copper contamination, ion implantation and RIE gas hazards.
 - [Core Fab Processes](../photolithography/fab-processes.md) — HF acid, furnace temperatures, forming gas.
-
 
 ## Moore's Law and Transistor Density
 

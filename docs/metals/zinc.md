@@ -8,7 +8,6 @@
 > **Outputs**: zinc, zinc_oxide, zinc_alloys
 > **Critical**: Yes — zinc provides corrosion protection for steel (galvanizing), is essential for brass alloy, and enables zinc-air batteries for energy storage
 
-
 Zinc is the corrosion protection metal. Without galvanizing, steel structures rust and fail — a bare steel bridge in a marine atmosphere loses 50-100 μm/year of section thickness and becomes structurally unsafe within 10-20 years. Zinc sacrifices itself electrochemically to protect steel (electrode potential -0.76 V vs. SHE, compared to iron's -0.44 V). A galvanized coating of 85 μm provides 50-100+ years of service in rural atmospheres. No other common metal offers this combination of low cost, electrochemical protection, and ease of application.
 
 Without zinc production, you cannot galvanize steel (bridges, buildings, vehicles, pipelines corrode rapidly), cannot make brass (the critical Cu-Zn alloy for valves, fittings, bearings, musical instruments), cannot produce zinc oxide (rubber vulcanization activator, sunscreen, pigments), cannot build zinc-air batteries (200-400 Wh/kg energy density for stationary storage), and cannot reliably die-cast complex parts (Zamak alloys melt at 381°C, enabling high-speed precision casting).
@@ -39,7 +38,6 @@ The bootstrap chain runs: zinc enables galvanized steel → long-life infrastruc
 | Limestone (CaCO₃) | 0.05-0.1 tonnes | [Mining](../mining/extraction.md) | Lime (CaO) — faster-reacting but more expensive |
 | Zinc dust (for cementation purification) | 30-50 kg | Internal production — atomize zinc | None — zinc dust is the standard purification reagent |
 | Copper sulfate (CuSO₄, flotation activator) | 2-5 kg per tonne of ore | [Chemistry](../chemistry/index.md) | None — CuSO₄ is essential for sphalerite flotation activation |
-
 
 Zinc (mp 420°C, bp 907°C) is produced by roasting sphalerite (ZnS) to ZnO, then reducing with carbon and distilling the zinc vapor. Its low boiling point makes it one of the harder metals to produce — it vaporizes before it melts under ordinary conditions. Zinc is essential for brass (Cu-Zn alloy), galvanizing steel, zinc oxide pigment, and die-casting alloys.
 
@@ -276,7 +274,5 @@ Zinc (mp 420°C, bp 907°C) is produced by roasting sphalerite (ZnS) to ZnO, the
 - [Polymers: Rubber](../polymers/rubber.md) — zinc oxide as vulcanization activator
 - [Semiconductor: Basic Devices](../silicon/basic-devices.md) — CZTS solar cells and ZnO transparent conductors
 - [Food Processing: Canning](../food-processing/canning.md) — galvanized steel for food preservation equipment
-
-
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

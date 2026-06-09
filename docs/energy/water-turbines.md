@@ -8,7 +8,6 @@
 > **Outputs**: hydraulic_power, electrical_generation, high_rpm_rotation
 > **Critical**: No — water turbines provide efficient hydroelectric generation but are limited to sites with suitable head and flow
 
-
 Water turbines replace water wheels where higher heads, higher efficiencies, and faster rotation speeds are needed. They convert the gravitational potential energy of falling water into continuous rotary motion at 100-1000+ RPM — directly usable for electrical generators without the massive gear reductions that water wheels require. All turbine types require iron or steel construction and precision machining, making them dependent on the machine-tools stage. For lower-head applications with simpler construction, see [gravity.md](gravity.md) for water wheel types.
 
 ## Pelton Wheel (Impulse Turbine)
@@ -24,7 +23,6 @@ Water turbines replace water wheels where higher heads, higher efficiencies, and
 > *Water turbines, Armitage Bridge Mills. Two 75 horsepower Francis type water turbines by W Gunther &amp; Sons, Oldham. Believed to have been installed in 1905 and remain in use exporting to the grid. In the background one can make out part of a large Belliss &amp; Morcom steam engine, now scrapped.*
 
 > *Image: Chris Allen, CC BY-SA 2.0*
-
 
 **Principle**: One or more high-velocity water jets from a nozzle strike spoon-shaped buckets mounted on the perimeter of a runner. All pressure conversion to kinetic energy happens at the nozzle — the runner operates in atmospheric pressure (not submerged). The jet's momentum transfers to the bucket, spinning the runner.
 
@@ -148,7 +146,6 @@ A step-by-step sequence for building a Francis turbine unit at a site with 30-10
 7. **Commission the governing system**: Fill the penstock slowly (fill rate <0.5 m/s velocity to prevent water hammer). Test wicket gate operation through full open-close cycle with unit dewatered. Calibrate the governor: set speed droop to 4-5% for isolated operation, 0-2% for grid-connected operation. Verify overspeed trip activates at 1.15× rated speed.
 
 8. **First run and load test**: Crack the wicket gates to start rotation. Verify the unit reaches rated speed with governor control. Check bearing temperatures every 5 minutes for the first hour — bearing temperatures must stabilize below 65°C (babbitt) or 80°C (rolling element). Apply load in 25% increments to rated power. Verify vibration levels below 2.5 mm/s RMS at all bearing locations.
-
 
 ## Safety and Hazards
 
@@ -274,6 +271,5 @@ Consider a site with 50 m of available head and a reliable flow of 5 m³/s.
 - [Gravity Power](gravity.md) — Water wheels and early hydroelectric development
 - [Steam Turbines](steam-turbines.md) — Turbine technology for thermal power
 - [Electricity Generation](electricity.md) — Generators and power distribution
-
 
 [← Back to Energy](index.md)

@@ -8,7 +8,6 @@
 > **Outputs**: persistent_storage, removable_media, solid_state_memory
 > **Critical**: No — computing enhances capability but is not strictly required for survival
 
-
 Computing requires persistent, reliable data storage. Programs, datasets, operating systems, and intermediate results must survive power cycles. Storage technology spans a vast range: from punch cards (the earliest automated data media) through magnetic recording (the backbone of mass storage for seven decades) to solid-state flash memory (the modern standard). Each technology trades off capacity, speed, cost, longevity, and manufacturing complexity. Understanding these tradeoffs is essential for choosing the right storage at each stage of the bootstrapping process.
 
 ## Prerequisites
@@ -66,7 +65,6 @@ An early random-access storage device. A rotating cylinder (12-30 inches diamete
 
 The IBM 650 computer (1954) used a magnetic drum as its primary memory, holding 1000-4000 words. Drums were faster than tape but far more expensive per bit. They faded once magnetic disk technology matured, but the fixed-head-per-track concept survives in modern drum-buffer designs for video and communications.
 
-
 ## IBM 350 RAMAC (1956)
 
 The first commercial hard disk drive. Stored 5 million characters (5 MB) on 50 spinning platters, each 24 inches in diameter. Two independent read/write heads accessed data with average seek time of ~600 ms. Weight: over one ton. The RAMAC proved the concept that disks could provide fast random access to large datasets.
@@ -94,7 +92,6 @@ Early drives used simple FM (frequency modulation) encoding: a clock bit precede
 | 1991 | IBM 0663 | 1 GB | 8 × 3.5" | ~60 Mb/in² |
 | 2020 | Typical HDD | 10-20 TB | 6-8 × 3.5" | ~1 Tb/in² |
 
-
 ## Reel-to-Reel
 
 Half-inch wide magnetic tape on 10.5-inch reels, typically 2400 feet long. Data recorded in 9 tracks (8 data bits + 1 parity). Recording density progressed: 800 bpi (NRZI), 1600 bpi (PE), 6250 bpi (GCR). A 2400-foot reel at 6250 bpi stores approximately 180 MB. Tape drive speeds: 75-200 inches per second. Start/stop time: 1-5 ms. Sequential access only, making tape best for backup, archival, and batch processing.
@@ -106,7 +103,6 @@ Compact audio cassettes adapted for data storage. The Kansas City standard (1975
 ## Cartridge Tape
 
 Modern tape cartridges (LTO, IBM 3592) store 6-18 TB per cartridge on half-inch tape with 8000+ tracks. Servo tracks guide the head precisely. Linear tape-open (LTO-9) stores 18 TB native (45 TB compressed) on a single cartridge. Transfer rate: 400 MB/s. Used exclusively for backup and archival in data centers.
-
 
 ## Inch (1971)
 
@@ -120,7 +116,6 @@ Shugart Associates shrunk the format. Single-sided 160 KB, double-sided 360 KB, 
 
 Sony's rigid-shell format became the standard. Double-density: 720 KB. High-density (HD): 1.44 MB (the most widely recognized capacity). The rigid plastic shell with sliding metal shutter protected the disk far better than the flexible 5.25-inch sleeve. Rotation: 300 RPM. Track density: 135 tpi. The 1.44 MB floppy persisted as a boot and transfer medium well into the 2000s.
 
-
 ## Compact Disc (CD)
 
 Originally developed for audio (1982, Sony/Philips), adapted for data (CD-ROM, 1985). A 120 mm polycarbonate disc with data encoded as pits molded into the surface, read by a 780 nm infrared semiconductor laser. Pit length varies from 0.83 to 3.05 μm. Track pitch: 1.6 μm (spiral track, ~22,188 revolutions). Capacity: 650-700 MB (Mode 1). Data rate: 150 KB/s at 1× speed, up to 7.2 MB/s at 48×.
@@ -130,7 +125,6 @@ Recordable CD (CD-R) uses a dye layer that absorbs laser energy and becomes opaq
 ## DVD and Blu-ray
 
 DVD (1995): 650 nm red laser, 0.74 μm track pitch, 4.7 GB single-layer. Blu-ray (2006): 405 nm blue-violet laser, 0.32 μm track pitch, 25 GB single-layer, 128 GB quad-layer. Optical storage trades access time (100-200 ms seek) for high capacity, low media cost, and longevity (50+ year claimed archival life for properly stored discs).
-
 
 ## ROM and EPROM
 

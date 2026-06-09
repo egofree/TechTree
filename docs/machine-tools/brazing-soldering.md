@@ -8,7 +8,6 @@
 > **Outputs**: brazed_joints, soldered_joints
 > **Critical**: No — filler alloy joining methods where the base metal does not melt
 
-
 Brazing and soldering join metals using a filler alloy that melts below the base metal's melting point. Brazing uses fillers melting above 450°C (brass, silver alloys) for structural joints. Soft soldering uses low-melting alloys (tin-lead, tin-silver) below 450°C for electrical connections, plumbing, and sheet metal seams. For fusion and solid-state welding processes, see [Welding](./welding.md). For mechanical fastening with rivets, see [Riveting](./riveting.md). For the parent overview, see [Metal Joining](./joining.md).
 
 ## Brazing
@@ -18,7 +17,6 @@ Brazing and soldering join metals using a filler alloy that melts below the base
 > *Brazing and soldering processes classification chart*
 
 > *Image: Meisam, Public domain*
-
 
 Brazing joins metals using a filler alloy that melts above 450°C but below the melting point of the base metal. Capillary action draws molten filler into the joint gap. The base metal never melts, which means dissimilar metals can be joined and heat distortion is minimal.
 

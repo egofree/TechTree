@@ -1,6 +1,5 @@
 # Metals
 
-
 ![Rectangular water jacket blast furnace Section](../images/metals/metals.png)
 > *Image: Anaconda Company, Public domain*
 

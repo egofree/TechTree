@@ -188,10 +188,6 @@ The crude oil desalter is often overlooked but is critical to reliable distillat
 - **Membrane separation**: Emerging technology for specific separations (e.g., hydrogen recovery from fuel gas streams). Not applicable to bulk crude distillation but useful for downstream product purification. Polymer membranes with selective permeability can recover hydrogen from refinery off-gas at lower energy cost than cryogenic separation.
 - **Extractive distillation**: Adding a high-boiling solvent to the feed to alter relative volatilities and improve separation of close-boiling components. Used in specific applications like aromatic extraction from cracked naphtha, but not for bulk crude oil fractionation.
 
-The atmospheric distillation column is the defining unit of any petroleum refinery. Without it, no downstream conversion or treating unit can operate. The column's capacity sets the throughput ceiling for the entire refinery. Running the column at reduced feed rate due to fouling, corrosion, or mechanical problems cascades as lost production through every downstream unit, making reliable ADU/VDU operation the first priority in refinery maintenance planning.
-
-Turnaround planning, the scheduled shutdown of major equipment for inspection, repair, and cleaning, is typically done on a 4-6 year cycle for distillation columns. The turnaround interval is determined by the corrosion rate of the column internals, the fouling rate of the heat exchanger network, and the statutory inspection requirements for pressure vessels. A well-planned turnaround minimizes downtime while addressing all accumulated maintenance needs.
-
 ## References
 
 - [Petroleum Refining](refining.md) — parent capability

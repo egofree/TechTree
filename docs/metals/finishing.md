@@ -8,7 +8,6 @@
 > **Outputs**: galvanized steel, plated parts, anodized aluminum, hardened surfaces, coated components
 > **Critical**: No — surface treatments extend service life but do not unlock new capabilities
 
-
 Metal finishing transforms the surface properties of metals without altering bulk chemistry. A thin surface layer — sometimes only micrometers thick — provides corrosion resistance, wear resistance, electrical conductivity, or decorative appearance that the base metal cannot. The economic importance is enormous: roughly half the steel produced globally receives some form of protective coating, and virtually every electronic device depends on electroplated connectors. Surface treatment processes range from simple acid dips (passivation) to complex electrochemical systems (hard chromium plating) and high-energy thermal processes (plasma spraying).
 
 For a bootstrapping civilization, metal finishing unlocks the longevity of infrastructure. Uncoated carbon steel corrodes at 25-50 µm/year in moderate atmospheres — a 6 mm structural member loses half its cross-section within 30 years. Galvanizing extends service life to 50-100+ years. Case hardening transforms cheap low-carbon steel into gear and bearing surfaces that rival much more expensive alloy tool steels. Anodizing gives aluminum the wear resistance needed for mechanical components. These processes are the difference between infrastructure that lasts generations and infrastructure that rusts away in decades.
@@ -277,7 +276,6 @@ Paint is the most widely used protective coating for metals, but paint performan
 **General metal finishing hazards**:
 - Heavy metal exposure: Cd, Cr⁶⁺, Ni, Pb, and Hg compounds are regulated carcinogens or systemic toxins. Engineering controls (enclosed processes, ventilation) preferred over PPE. Biological monitoring (blood/urine testing) for workers in high-exposure areas.
 - Wastewater treatment: Plating and finishing shops generate wastewater containing heavy metals, cyanide, acids, and organic compounds. Treatment: cyanide destruction → chromium reduction (Cr⁶⁺ → Cr³⁺ by NaHSO₃ at pH 2-3) → metal hydroxide precipitation (lime or NaOH at pH 8-10) → settling/filtration → discharge to meet local effluent standards (typically <0.5 mg/L for Cr, Ni, Cu; <0.1 mg/L for Cd).
-
 
 ## Troubleshooting
 

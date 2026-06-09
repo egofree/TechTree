@@ -8,11 +8,9 @@
 > **Outputs**: TiN hard masks, Ti diffusion barriers, W contact plugs, Mo gate electrodes, Cu damascene interconnects, Mo/Cu heat sinks
 > **Critical**: Yes — semiconductor interconnect metals (Ti, W, Mo, Cu) are required for all sub-100 nm chip fabrication
 
-
 Four metals — titanium (Ti), tungsten (W), molybdenum (Mo), and copper (Cu) — form the structural and electrical backbone of every GPU interconnect stack. Titanium nitride (TiN) serves as the hard mask for dual damascene patterning and as a secondary diffusion barrier. Tungsten fills contact vias and through-silicon vias (TSVs) by CVD from WF₆. Molybdenum provides gate electrodes at advanced nodes where poly-Si resistance is prohibitive, and Mo/Cu heat sinks extract waste heat from multi-hundred-watt GPU dies. Copper, deposited by electroplating into damascene trenches, carries 10-50 km of wiring per metal layer across 10-15 layers in a modern GPU. Without these four metals, interconnect resistance and RC delay would render any sub-100 nm chip non-functional.
 
 Extraction of bulk Ti (Kroll process) and bulk W/Mo (powder metallurgy, hydrogen reduction) are covered in [Non-Ferrous Metals](non-ferrous.md) and [Refractory Metals](refractory-metals.md). This document covers the semiconductor-grade processing and thin-film applications that place them on the GPU critical path.
-
 
 ## Properties Relevant to Semiconductor Use
 
@@ -64,7 +62,6 @@ TiN serves as a diffusion barrier for aluminum interconnects (250 nm node and ab
 **DRAM capacitor application**: TiO₂ and its doped variants (TiO₂:Al, TiO₂:La) are leading candidates for MIM (metal-insulator-metal) capacitors in DRAM cells at <20 nm technology nodes. Equivalent oxide thickness (EOT) targets: <0.5 nm with leakage <10⁻⁷ A/cm² at 1V. The high ε_r allows physically thicker films (reducing leakage) while maintaining small EOT.
 
 **Challenge**: TiO₂ crystallizes at relatively low temperatures (>400°C for rutile), and crystalline TiO₂ has higher leakage than amorphous films. Doping with Al₂O₃ or SiO₂ suppresses crystallization to >700°C, maintaining amorphous structure through BEOL thermal budgets.
-
 
 ## Tungsten Properties Relevant to Semiconductor Use
 
@@ -118,7 +115,6 @@ CVD W films are inherently tensile (0.5-1.5 GPa), which causes wafer bowing and 
 2. **Low-stress W**: Deposit at lower temperature (300°C vs. 450°C) with higher SiH₄/WF₆ ratio. Produces W-Si alloy (1-5 at.% Si) with compressive stress.
 3. **Post-deposition anneal**: Rapid thermal anneal at 600-800°C in N₂/H₂ for 30-60s. Recrystallization and grain growth reduce tensile stress by 30-50%.
 
-
 ## Molybdenum Properties Relevant to Semiconductor Use
 
 | Property | Value | Significance |
@@ -159,7 +155,6 @@ Bulk Mo production from molybdenite ore (MoS₂) is covered in [Refractory Metal
 **Mo-Cu composite (infiltrated)**: Mo-Cu composites combine Mo's low CTE with Cu's high thermal conductivity. Manufacturing: press Mo powder to 40-60% density, sinter at 1400-1600°C, infiltrate with molten Cu at 1150-1300°C in H₂ atmosphere. Common grades: Mo-15Cu (CTE 7.0 ppm/°C, k = 155 W/m·K), Mo-30Cu (CTE 8.5 ppm/°C, k = 185 W/m·K). The CTE can be precisely tuned by adjusting the Mo/Cu ratio to match GaAs (6.9 ppm/°C) or alumina (7.2 ppm/°C) substrates.
 
 **Comparison with Cu-Mo-Cu cladding**: Tri-layer Cu/Mo/Cu laminate (Cu outer, Mo core) provides in-plane thermal conductivity >200 W/m·K with through-thickness CTE of 5-7 ppm/°C. Used for RF power amplifier substrates and lid assemblies for flip-chip BGA packages.
-
 
 ## Copper Properties Relevant to Semiconductor Use
 
@@ -242,7 +237,6 @@ The dual damascene process is the defining interconnect technology for sub-250 n
 
 **Electromigration improvement**: (1) Cu alloying: add 0.1-1.0 at.% Al, Mn, or Ti to Cu — these solutes segregate to grain boundaries, reducing Cu diffusivity. (2) CoWP or CuMn self-forming barrier capping layer (5-20 nm by electroless plating) on top of Cu lines — caps grain boundary diffusion paths at the Cu surface. (3) Larger grain size through optimized annealing — fewer grain boundaries means fewer diffusion paths.
 
-
 ## Global Production and Prices
 
 | Metal | Annual Production | Price Range | Critical Semiconductor Use |
@@ -311,8 +305,6 @@ These four metals converge at specific points in GPU fabrication:
 **Back-end-of-line (BEOL)**: TiN hard masks enable dual damascene patterning of the dielectric stack. Cu electroplating fills trenches and vias. Cu CMP planarizes each layer. TaN/Ta barriers prevent Cu poisoning. The complete BEOL stack of 10-15 Cu damarcene layers carries all signals and power across the GPU die.
 
 **Packaging/thermal**: Mo heat spreaders and Mo-Cu composites extract heat from the GPU die. W TSVs enable 3D stacking of HBM memory on the GPU interposer. Cu pillar bumps provide the die-to-substrate connection in flip-chip packages.
-
-
 
 ## Troubleshooting
 

@@ -18,8 +18,6 @@
 
 Pigment grinding, binder formulation, and coating production including titanium dioxide whites, alkyd paints, and zinc oxide anti-corrosion coatings.
 
-Primary outputs: `tio2-pigments`, `alkyd-paints`, `zinc-oxide-coatings`. These materials or products serve as inputs for downstream manufacturing and processing steps.
-
 Paint is a complex mixture of pigments (for color and opacity), binders (for adhesion and film formation), solvents (for application viscosity), and additives (for specific properties like drying time, flow, and mold resistance). The two main categories are organic coatings (paints, varnishes, lacquers) and inorganic coatings (ceramic glazes, cementitious coatings). This article focuses on organic paint production, specifically titanium dioxide pigment manufacture and alkyd resin binder synthesis.
 
 Titanium dioxide (TiO₂) is the most important white pigment, with unmatched opacity and brightness. It is used in paints, plastics, paper, and cosmetics. Two production routes exist: the sulfate process (older, more polluting) and the chloride process (newer, more efficient). Both require significant chemical processing infrastructure. The alkyd resin binder, made from polyols, dibasic acids, and drying oils, forms the film-forming component of many oil-based paints.

@@ -18,7 +18,6 @@ The tolerance limits in this image reflect the typical profile of a plant life. 
 
 > *Image: Marx, CC BY 3.0*
 
-
 A craftsman building a single mechanism files, scrapes, and fits each part individually — a bearing is reamed to match its specific shaft, a bracket is drilled to match its specific hole pattern. This works for one-off production but fails at scale: if a part breaks, the replacement must be hand-fitted too, and no two machines are truly identical.
 
 Interchangeable parts solve this by manufacturing every copy of a part within a defined tolerance band. Any part within tolerance fits any assembly within tolerance — no selection, no fitting, no individual adjustment. This requires three preconditions:

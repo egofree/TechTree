@@ -14,7 +14,6 @@ The economic case for chemical recovery strengthens as chemical production scale
 
 Three recovery mechanisms dominate: **distillation** (separating chemicals by boiling point), **membrane separation** (filtering by molecular size or charge), and **chemical regeneration** (reversing the reaction that consumed the chemical). This capability builds on existing distillation and electrolysis infrastructure — the recovery process adds separation stages to standard chemical plant equipment.
 
-
 ## Materials
 
 | Material | Specification | Source |
@@ -41,7 +40,6 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 - Chemical compatibility: which solvents can be mixed safely, which produce hazardous reactions
 - Membrane operation: pressure, flow rate, fouling prevention
 
-
 ## BOM: Solvent Recovery by Distillation (per 1,000 L spent solvent)
 
 | Material | Quantity | Source | Alternatives |
@@ -61,7 +59,6 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 | Anion exchange membranes | 10–50 m² membrane area | [Chemistry](./distillation.md) | Electrodialysis (requires electricity) |
 | Deionized water (receiving stream) | 500–1,500 L | [Water Treatment](water-treatment.md) | Tap water (reduces recovery purity) |
 | Electricity | 5–15 kWh | [Energy](../energy/engine.md) | Diffusion dialysis is passive (gravity-driven) |
-
 
 ## Solvent Recovery by Fractional Distillation
 
@@ -102,7 +99,6 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 2. **Thermal regeneration (solid catalysts).** Heat spent catalyst to 400–600°C in air to burn off carbonaceous deposits (coking). Cool and screen to remove fines. Activity recovery: 80–95% of fresh catalyst.
 
 3. **Metal recovery from spent catalyst.** Dissolve catalyst support in acid or alkali. Precipitate or plate the active metal (Pt, Pd, Ni, Co). See [Electrolysis](electrolysis.md) for electrowinning details.
-
 
 ## Solvent Recovery Rates and Purity
 
@@ -173,7 +169,6 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 **Nitrogen oxide (NOₓ) evolution**: Concentrated nitric acid recovery can release NO₂ (brown gas, lethal at 100 ppm). Provide local exhaust ventilation with scrubbing when recovering HNO₃. Gas detection: colorimetric tubes or electrochemical NO₂ sensor.
 
-
 ## Recovered Solvent Specification
 
 | Parameter | Test Method | Typical Specification |
@@ -199,7 +194,6 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 - **Specific gravity**: Float a hydrometer in the recovered solvent. Compare to published values for pure solvent. Deviation indicates contamination.
 - **Water test**: Add anhydrous copper sulfate (white) to the solvent. If it turns blue, water is present (CuSO₄ + 5H₂O → CuSO₄·5H₂O, blue).
 - **Acid concentration**: Titrate 10 mL of recovered acid with 1N NaOH using phenolphthalein indicator. Calculate concentration from volume used.
-
 
 ## Recovery Method Selection Guide
 

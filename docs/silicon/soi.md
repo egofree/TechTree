@@ -2,8 +2,8 @@
 
 > **Node ID**: silicon.wafering.soi
 > **Domain**: [Silicon](./index.md)
-> **Dependencies**: See prerequisites
-> **Enables**: [`Wafer Slicing & Polishing`](wafering.md)
+> **Dependencies**: [`silicon.wafering`](wafering.md) (parent capability)
+> **Enables**: Advanced device isolation, reduced parasitic capacitance, and radiation-hard substrates for downstream VLSI processes
 > **Timeline**: Years 60-150+
 > **Outputs**: soi_wafers, buried_oxide_layers
 > **Critical**: No
@@ -21,8 +21,6 @@
 > *"The importance of Woodward's treatise is manifest, from the standpoint of the mineralogist it provides a scheme of classification of as much merit as it was possible to accure in that time, and from the standpoints of the paleontologist and gemologist it truly identifies fossils for what they ar...*
 
 > *Image: John Woodward, Public domain*
-
-
 
 ![Explanation of the standing waves in Marcatili method (silicon-on-insulator waveguide)](../images/silicon/silicon_wafering_soi-diagram.png)
 

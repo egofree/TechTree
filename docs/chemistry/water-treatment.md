@@ -8,7 +8,6 @@
 > **Outputs**: deionized_water, purified_water, ultrapure_water
 > **Critical**: Yes — ultrapure water (UPW, >18.2 MΩ·cm resistivity) is consumed at 5-10 tonnes per day per semiconductor fab. Without UPW, semiconductor manufacturing is impossible. Industrial water treatment is also required for boiler feed, cooling, and process water in all chemical plants.
 
-
 Water purification for industrial use ranges from simple settling and sand filtration (potable grade) through distillation and ion exchange (deionized) to reverse osmosis and ultrafiltration (ultrapure, 18 MΩ·cm). High-purity water is essential for acid dilution, electroplating baths, glass working, and especially semiconductor fabrication where contaminants at ppb levels can destroy yields.
 
 ## Purification Hierarchy
@@ -244,7 +243,6 @@ Industrial water treatment includes treating used water before discharge. The st
 | Submicron filter (0.2 μm) | Final particle removal | Absolute rated, replaceable cartridges |
 | TOC analyzer | Water quality monitoring | ppb-level detection |
 | Resistivity meter | UPW quality monitoring | 18.2 MΩ·cm full scale |
-
 
 ## Building a Two-Bed Deionization System
 

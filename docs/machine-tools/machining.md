@@ -8,7 +8,6 @@
 > **Enables**: [`energy.gravity.water-turbines`](../energy/water-turbines.md), [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md), [`knowledge.printing`](../knowledge/printing.md), [`machine-tools.edm-cnc`](edm-cnc.md), [`machine-tools.joining.friction-stir`](./joining.md), [`mining.drilling`](../mining/drilling.md)
 > **Critical**: Yes — achieves the precise geometry, surface finish, and dimensional tolerance that make interchangeable parts possible
 
-
 Machining removes material from a workpiece to achieve precise geometry, surface finish, and dimensional tolerance. This document covers the cutting operations themselves — for machine construction, see [Iterative Bootstrap](./iterative-bootstrap.md); for cutting tool materials and abrasives, see [Bearings & Abrasives](./bearings-abrasives.md); for the formed stock that feeds machining, see [Forming](./forming.md).
 
 ## Lathe Operations
@@ -25,14 +24,11 @@ Machining removes material from a workpiece to achieve precise geometry, surface
 
 > *Image: Anderson, Richard K. Jr., creator, Public domain*
 
-
-
 ![Countersunk and counterbored holes cross-section](../images/machine-tools/machine-tools_drilling-diagram.png)
 
 > *Countersunk and counterbored holes cross-section.*
 
 > *Image: Waerloeg, CC0*
-
 
 ![Milling machine (Vertical, Manual) NT](../images/machine-tools/machine-tools_milling-diagram.png)
 
@@ -282,7 +278,6 @@ Small-diameter cutter (3-25 mm) for pockets, slots, profiles, and keyways. The w
 - Small end mills (3-6 mm) are fragile — excessive depth of cut or feed rate breaks the cutter
 - Chip evacuation in deep slots is poor — chips recut, degrading surface finish and accelerating tool wear
 - Limited depth of cut per pass (1-3 mm) means many passes for deep features
-
 
 ## Drilling
 

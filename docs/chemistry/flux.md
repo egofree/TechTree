@@ -18,8 +18,6 @@
 
 Production of welding and metallurgical fluxes from borax, limestone, fluorspar, and rosin to prevent oxidation and improve joint quality during metal joining and casting.
 
-Primary outputs: `borax-flux`, `limestone-flux`, `fluorspar-flux`, `rosin-flux`. These materials or products serve as inputs for downstream manufacturing and processing steps.
-
 Fluxes are among the oldest chemical technologies in metallurgy. Without flux, molten metal surfaces oxidize instantly in air, forming a skin of metal oxide that prevents the filler metal from wetting and bonding to the base metal. Flux dissolves this oxide layer and floats it away, allowing clean metal-to-metal contact and a sound joint. In smelting, flux combines with the gangue (unwanted minerals) in the ore to form a low-melting-point slag that separates cleanly from the molten metal.
 
 The four flux types cover different temperature ranges and metal systems. Borax flux is the general-purpose brazing flux for copper, brass, and bronze — it melts at moderate temperatures and dissolves copper oxides readily. Limestone is the primary smelting flux for iron and steel production, where it reacts with silica and alumina gangue to form a fluid calcium silicate slag. Fluorspar (calcium fluoride) is added to steelmaking slags to increase fluidity and improve the removal of phosphorus and sulfur from the metal. Rosin flux is the low-temperature soldering flux for electronics and plumbing — it activates at soldering temperatures, removes light copper oxide, and then polymerizes to form a protective coating.

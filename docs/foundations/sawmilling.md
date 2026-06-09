@@ -18,10 +18,6 @@
 
 Conversion of raw timber into standardized dimensional lumber through log felling, pit sawing, water-powered sawmilling, steam-powered mills, and seasoning/drying. Produces planks, beams, and dimensional lumber for construction, shipbuilding, and papermaking. Sawdust as byproduct for fuel, composite board, and chemical feedstock.
 
-This technology is characteristic of the Stone Age era of industrial development. It builds on earlier foundational techniques while enabling more precise and controlled manufacturing outcomes.
-
-Primary outputs: `dimensional_lumber`, `planks`, `beams`, `sawdust`. These materials or products serve as inputs for downstream manufacturing and processing steps.
-
 The sawmill is one of the highest-return investments in a growing settlement. Converting logs to dimensional lumber with a saw rather than splitting or hewing reduces waste by 30-50% and produces far more usable board feet per tree. A water-powered sash saw produces in one day what two pit sawyers produce in a week. The transition from manual pit sawing to water-powered milling marks the shift from subsistence construction to systematic building.
 
 Sawmilling also produces sawdust as a byproduct in substantial volume — a single water-powered mill generates tonnes of sawdust per year. This sawdust serves as fuel for kilns and boilers, feedstock for charcoal production, and raw material for composite board manufacturing, making the sawmill a node that connects forestry to both construction and chemical industries.
@@ -286,7 +282,6 @@ Transitioning from bench-scale to production involves these considerations:
 - [Building Materials & Methods](../construction/building-materials.md) — upstream dependency (material)
 
 Sawmilling connects directly to [Carpentry](carpentry.md), which transforms dimensional lumber into finished goods, and to [Construction](../construction/index.md), which consumes beams and planks for structures. Sawdust byproduct feeds [Chemistry](../chemistry/index.md) processes including wood distillation (charcoal, methanol, tar).
-
 
 ### Material Handling
 

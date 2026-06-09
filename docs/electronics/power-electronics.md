@@ -8,13 +8,11 @@
 > **Outputs**: rectifiers, inverters, converters, motor_drives, ups_systems
 > **Critical**: Yes — power electronics enables efficient energy conversion, motor control, and solar/grid integration without which industrial electrification is impossible
 
-
 Power electronics is the technology of converting and controlling electrical power using semiconductor switching devices. It encompasses rectifiers (AC→DC), inverters (DC→AC), DC-DC converters, and AC-AC converters. Every modern power system — from [solar inverters](../energy/index.md) to variable-frequency motor drives to welding machines to [computer power supplies](../computing/electronic.md) — relies on power electronics.
 
 The core principle is high-frequency switching (1 kHz to 1 MHz) of semiconductor devices (diodes, MOSFETs, IGBTs, thyristors) to process power with 90-98% efficiency. By switching at frequencies far above the 50/60 Hz power line, the magnetic components (inductors, transformers) shrink dramatically — a 100 kHz transformer is 1/1000th the size of a 50 Hz transformer handling the same power.
 
 Power electronics depends on [semiconductor devices](semiconductor-devices.md) (switches and diodes), [passive components](passive-components.md) (inductors, capacitors for energy storage and filtering), [PCB fabrication](pcb-fabrication.md) (high-current, thermally-managed circuit boards), and [electrical systems](electrical-systems.md) (power distribution). It enables efficient industrial automation, renewable energy integration, and virtually all modern power management.
-
 
 ## Materials
 - **Power semiconductors**: Diodes, MOSFETs, IGBTs, thyristors (from [Semiconductor Devices](semiconductor-devices.md))
@@ -53,7 +51,6 @@ Power electronics depends on [semiconductor devices](semiconductor-devices.md) (
 | Aluminum heatsink (50×50×25 mm) | 1 piece | [Metals](../metals/index.md) | Copper (better thermal, heavier) |
 | Thermal grease | 2-5 g | [Polymers](../polymers/index.md) | Thermal pad (higher Rth but cleaner) |
 | Inductor core (iron powder, 33 μH) | 1 core | [Passive Components](passive-components.md) | Ferrite + gap (lower loss, tighter tolerance) |
-
 
 ## Rectifiers (AC → DC)
 
@@ -192,7 +189,6 @@ Efficiency: 90-95% (double conversion always active). Battery runtime: 5-30 minu
 - Battery bank replacement every 3-5 years for VRLA lead-acid types is the largest lifecycle cost — battery replacement typically exceeds the original UPS purchase price over a 15-year system life
 - Battery runtime is inherently limited (5-30 minutes at full load) — a UPS alone cannot sustain operation through extended outages and must be paired with a standby generator for continuous availability
 
-
 ## Converter Topology Comparison
 
 | Topology | Power Range | Efficiency | Isolation | Complexity | Typical Application |
@@ -240,7 +236,6 @@ Efficiency: 90-95% (double conversion always active). Battery runtime: 5-30 minu
 | 10-100kW | 95-98% | IGBT Vce(sat), transformer | Conduction + core |
 | 100kW-10MW | 96-99% | Transformer, filter | Magnetic losses |
 
-
 ## Power Level Scaling
 
 - **1-100W**: Single MOSFET, PCB-mount inductors, electrolytic capacitors. Air cooling. Design time: hours. Cost: $2-20.
@@ -287,7 +282,6 @@ Higher switching frequency shrinks magnetic components but increases switching l
 - **Gate driver hazards**: High-side gate drivers float at the switch node voltage (oscillating between 0 and Vbus at the switching frequency). A bootstrap capacitor charged to 15 V on a 400 V bus means the driver IC sits at 400-415 V relative to ground. Probing this circuit with a grounded oscilloscope shorts the switch node to ground through the scope's input impedance, destroying the gate driver and possibly the oscilloscope. Use differential probes (rated to 1000 V CAT II) or isolated oscilloscope channels (battery-powered scopes with isolated inputs) when probing high-side circuits.
 - **Inductor/transformer safety**: Magnetic components can generate high voltage spikes (V = L × dI/dt) during switching transients. A 1 mH inductor with 10 A interrupted in 100 ns (typical hard-switching turn-off) produces V = 0.001 × (10/100×10⁻⁹) = 100 kV spike. In practice, parasitic capacitance limits the voltage rise, but spikes of 2-5× the bus voltage are common. Clamp inductive kicks with snubber circuits (RCD clamp: fast diode UF4007 with 75 ns trr + 100 Ω resistor + 0.1 μF capacitor rated to 2× bus voltage) or TVS (transient voltage suppression) diodes rated above normal operating voltage but below device breakdown.
 
-
 ## Component-Level Tests
 - **MOSFET/IGBT verification**: Measure Rds(on) or Vce(sat) at rated current. Verify breakdown voltage (ramp to Vds(max) or Vces(max), confirm leakage < datasheet limit). Gate threshold check: Vgs(th) within specified range.
 - **Capacitor ESR**: Measure at switching frequency (100 kHz) with ESR meter. Compare to specification. ESR >2× initial value indicates degradation.
@@ -307,7 +301,6 @@ Higher switching frequency shrinks magnetic components but increases switching l
 - **Thermal cycling**: -40°C to +125°C, 500-2000 cycles. Check for solder joint cracks, PCB delamination, wire bond failures.
 - **HTOL (High Temperature Operating Life)**: 1000 hours at maximum rated Tj under full electrical stress.
 - **HALT (Highly Accelerated Life Test)**: Temperature + vibration + electrical stress combined. Identify weak points.
-
 
 ## Converter Topology Selection Guide
 

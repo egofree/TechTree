@@ -8,7 +8,6 @@
 > **Outputs**: operating_system, process_management, file_systems
 > **Critical**: Yes — the OS manages hardware resources and provides the execution environment for all application software
 
-
 An operating system (OS) manages the computer's hardware resources — processor time, memory, storage, and I/O devices — and provides services that application programs use: file storage, process execution, input/output, and memory allocation. Without an OS, each program must contain its own device drivers, memory management, and I/O routines, making programs large, complex, and machine-specific.
 
 The OS evolves through stages, mirroring the bootstrap chain:
@@ -18,7 +17,6 @@ The OS evolves through stages, mirroring the bootstrap chain:
 4. **Multi-tasking OS**: Multiple programs in memory simultaneously, time-sliced execution, memory protection, privileged instructions.
 
 Each stage is built using the tools from previous stages — initially in assembly language, then in a high-level language once a compiler is available.
-
 
 ## Software
 - **Working assembler** ([assemblers](assemblers.md)): OS kernels are initially written in assembly language for the interrupt handlers, context switching, and device driver low-level routines.
@@ -43,7 +41,6 @@ Each stage is built using the tools from previous stages — initially in assemb
 | Disk storage | ≥100 KB capacity | [computing.data-storage](../computing/data-storage.md) | Magnetic drum, tape (slow but functional) |
 | Terminal (teletype or CRT) | 1 unit | [computing.electronic](../computing/electronic.md) | Hardwired control panel |
 | Timer/clock hardware | 1 unit | Part of computer architecture | Software timing loops (single-tasking only) |
-
 
 ## Stage 1: Monitor Program
 

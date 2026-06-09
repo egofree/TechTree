@@ -212,7 +212,6 @@ The Solvay process requires ~1-2 kg NH₃ makeup per tonne Na₂CO₃. But the a
 
  ---
 
-
 ## Causticization Detail
 
 The lime-soda process converts sodium carbonate to sodium hydroxide, the stronger alkali needed for soap making, paper pulping, and chemical processing.

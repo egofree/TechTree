@@ -197,12 +197,5 @@ easier availability outweigh the performance difference.
 
 Tung oil polymerizes by oxidative crosslinking, generating heat as it cures. This exothermic reaction is strong enough that oil-soaked rags can spontaneously ignite if piled together. This fire hazard is well-known in woodworking shops and requires careful handling of all tung oil waste materials. The same polymerization reaction, properly controlled, produces the hard, waterproof finish that makes tung oil invaluable for protecting wood.
 
-### Tung Tree Summary
-
-This species represents an important component of a diversified food production system.
-No single crop provides complete nutrition, and dietary diversity is essential for human
-health. A civilization bootstrap food system should include grains, legumes, roots, fruits,
-vegetables, and nuts to ensure adequate intake of calories, protein, vitamins, and minerals.
-
 ---
-*Part of the [Bootciv Tech Tree](../index.md) · [Plants](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants](./index.md) • [All Domains](../index.md)*

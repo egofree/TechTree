@@ -8,7 +8,6 @@
 > **Outputs**: vacuum_pumps, vacuum_chambers, vacuum_gauges
 > **Critical**: Yes — vacuum is required for sputtering, evaporation, ion implantation, and e-beam lithography
 
-
 Vacuum systems — pumps, chambers, gauges, and seals — provide the low-pressure environments essential for sputtering, evaporation, CVD, ion implantation, and electron-beam lithography. The progression runs from mechanical roughing pumps (rotary vane, ~10⁻³ Torr) through diffusion pumps (~10⁻⁶ Torr) to turbomolecular pumps (~10⁻⁹ Torr) and cryopumps (~10⁻¹⁰ Torr). Leak detection (helium mass spectrometry) and outgassing control are ongoing challenges. For basic vacuum concepts and simple pump designs, see [Gas Handling & Vacuum](../gas-handling/vacuum.md).
 
 ## Prerequisites

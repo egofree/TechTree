@@ -16,14 +16,6 @@
 
 > *Image: MmRoma, CC0*
 
-![Crystal structure of Silicon Material](../images/silicon/silicon_purification.png)
-
-> *Crystal structure of Silicon Material created by xcrysden*
-
-> *Image: MmRoma, CC0*
-
-
-
 ![Silicon purification processes](../images/silicon/silicon_purification-diagram.png)
 
 > *Silicon purification processes. Schematic diagram of the conventional Siemens process and the alternative Fluidized bed reactor (FBR) process.*
@@ -297,7 +289,6 @@ Silicon purification involves some of the most dangerous chemicals in semiconduc
 - **SiHCl₃ / BCl₃ separation**: BCl₃ boils at 12.5°C, only 19.3°C below SiHCl₃ at 31.8°C. This close boiling point difference requires a distillation column with many theoretical plates (>50) and high reflux ratio (>50:1) to achieve the separation needed for electronic-grade purity. The column height for this separation alone can exceed 30 m.
 - **SiHCl₃ / PCl₃ separation**: PCl₃ boils at 76°C, 44°C above SiHCl₃. Easier separation but still requires careful fractionation.
 - **SiHCl₃ / SiCl₄ separation**: 25.8°C boiling point difference. Straightforward separation in a moderate-height column.
-
 
 ## See Also
 

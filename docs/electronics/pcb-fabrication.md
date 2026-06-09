@@ -8,13 +8,11 @@
 > **Outputs**: pcb_bare_boards, copper_clad_laminate, etched_circuits
 > **Critical**: Yes — PCBs are the universal interconnection substrate for all electronic assemblies from simple controllers to multi-GHz computers
 
-
 Printed circuit board (PCB) fabrication transforms copper-clad insulating substrates into precise patterned circuit interconnects. The PCB provides mechanical support, electrical connections between components, thermal management, and electromagnetic shielding. Every electronic device — from a 555-timer circuit to a GPU — mounts on a PCB.
 
 PCB fabrication occupies a critical position in the electronics chain. It requires [glass fiber](../glass/fibers.md) production (for FR-4 substrate), [epoxy resin](../polymers/thermosets.md) chemistry (for laminate bonding), [copper foil](../chemistry/electrolysis.md) (for conductive traces), and [photochemical](../chemistry/acids.md) processes (for etching). It enables [electronics assembly](assembly.md) (soldering components onto boards) and ultimately all [computing](../computing/electronic.md) hardware.
 
 This document covers the full PCB fabrication process from laminate production through finished bare board, with emphasis on the chemical and mechanical processes at each stage. Component placement and soldering are covered separately in [Electronics Assembly](assembly.md).
-
 
 ## Materials
 
@@ -57,7 +55,6 @@ This document covers the full PCB fabrication process from laminate production t
 | Sodium hydroxide (NaOH, resist strip) | 50-100 g | [Alkalis](../chemistry/alkalis.md) | Acetone (for some resist types) |
 | Solder mask ink (photoimageable) | 100-200 mL | [Polymers](../polymers/thermosets.md) | Screen-printed epoxy mask |
 | Tungsten carbide drill bits (0.3-1.0 mm) | 5-20 bits per m² | [Machine tools](../machine-tools/index.md) | — |
-
 
 ## Laminate Production (Copper-Clad Laminate)
 
@@ -176,7 +173,6 @@ This document covers the full PCB fabrication process from laminate production t
 - Electrical test verifies only connectivity, not signal integrity — impedance mismatches, excessive trace length, and crosstalk are not detected without dedicated TDR or network analyzer testing
 - CNC routing generates fiberglass dust and requires carbide tooling that wears rapidly — a 2.0-3.2 mm router bit lasts 50-200 linear meters of cutting in FR-4 before edge quality degrades
 
-
 ## Laminate Properties (FR-4)
 
 | Parameter | Standard FR-4 | High-Tg FR-4 | Polyimide |
@@ -226,7 +222,6 @@ This document covers the full PCB fabrication process from laminate production t
 | Impedance control | No | ±10% | ±5% | ±5% | ±3% |
 | Typical applications | Simple controllers | Most electronics | Computers, telecom | Servers, medical | Aerospace, supercomputers |
 
-
 ## From Bench to Factory
 
 - **Bench scale (prototyping)**: Toner transfer method — laser-print circuit pattern onto glossy paper, iron onto copper-clad laminate, soak off paper in water, etch in FeCl₃ tray. Output: 1-5 boards per day. Trace/space: 0.3-0.5 mm. No plated through-holes. Suitable for simple, single-sided prototypes.
@@ -269,7 +264,6 @@ A workshop with UV exposure, spray etch tank, and drill press can produce functi
 - **Lamination press**: Hydraulic press at 200-400 psi (14-28 bar) with heated platens at 170-185°C. Pinch hazard from press closure. Burn hazard from heated platens and freshly pressed laminate. Use thermal gloves. Never reach into press during operation. Two-hand safety controls required on production presses.
 - **Laser drilling** (HDI/advanced): UV and CO₂ lasers are Class 4 laser hazards — eye and skin damage. Enclose beam path. Laser safety goggles matched to wavelength. Warning signs and interlocked enclosure doors.
 
-
 ## Incoming Material Inspection
 - **Laminate**: Measure thickness (micrometer at 9+ points across panel, ±10% of nominal). Visual check for pits, dents, scratches, inclusions in copper. Copper peel strength test (peel 25 mm strip at 90° angle, >1.0 N/mm). Glass transition temperature by TMA or DSC.
 - **Copper foil**: Measure thickness by cross-section (35 ± 3.5 μm for 1 oz). Surface roughness: Rz = 3-10 μm (determines adhesion to laminate).
@@ -291,7 +285,6 @@ A workshop with UV exposure, spray etch tank, and drill press can produce functi
 - IPC-6012: Qualification and performance specification for rigid PCBs
 - IPC-A-600: Acceptability of printed circuit boards (visual acceptance criteria)
 - IPC-4101: Specification for base materials (laminate and prepreg)
-
 
 ## Substrate Materials
 

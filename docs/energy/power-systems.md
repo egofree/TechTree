@@ -16,7 +16,6 @@
 
 > *Image: Guo, Min; Jin, Qingren; Yao, Zhiyang; Chen, Weidong, CC BY 3.0*
 
-
 Ultra-clean power delivery for semiconductor fabs: voltage sag <10%, THD <3%, UPS systems (double-conversion, rotary), backup generators (diesel, fuel cells), power distribution units (PDUs), busway systems, power quality monitoring, and redundancy configurations (2N, N+1). Semiconductor tools require power quality far exceeding general industrial standards.
 
 Semiconductor fabrication equipment is exceptionally sensitive to power quality disturbances. A voltage sag lasting less than a single AC cycle can cause wafer processing tools to abort, scrapping wafers worth substantial value. Transient voltage spikes can damage sensitive electronic components within the tools themselves. The economic consequence of a single power disruption, measured in lost wafers, tool recovery time, and schedule delays, drives the stringent power quality requirements.

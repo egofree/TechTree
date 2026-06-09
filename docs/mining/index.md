@@ -1,6 +1,5 @@
 # Mining Engineering & Extractive Metallurgy
 
-
 ![Burro Schmidt Tunnel south entrance](../images/mining/mining.jpg)
 > *Image: Kurtis2014, CC BY-SA 3.0*
 

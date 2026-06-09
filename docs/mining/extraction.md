@@ -22,8 +22,6 @@
 
 > *Image: Metallos, CC BY-SA 3.0*
 
-
-
 ![Barut 2346918 01](../images/mining/mining_extraction_black-powder.jpg)
 
 > *Barut*
@@ -140,7 +138,7 @@
 
 **Operational practices**:
 - **Scaling**: After each blast, bar down loose rock from roof and walls before crew re-enters. Failure to scale is the leading cause of rock-fall fatalities underground.
- - **Water control**: Grade all tunnels 1-3° toward shaft for gravity drainage. Sumps at shaft bottom. Pump capacity must exceed maximum inflow rate. Monitor water levels in worked-out areas — sudden inrush is a major hazard.
+- **Water control**: Grade all tunnels 1-3° toward shaft for gravity drainage. Sumps at shaft bottom. Pump capacity must exceed maximum inflow rate. Monitor water levels in worked-out areas — sudden inrush is a major hazard.
 
 ## Underground Mining Methods
 
@@ -297,7 +295,6 @@ This procedure covers construction and operation of a sluice box for recovering 
 - Water inflow increases with depth — pumping must keep pace or the shaft floods
 - Each blast round produces toxic fumes (CO, NOₓ) requiring 15-30 minute ventilation delay
 - Mucking (removing broken rock) by bucket and windlass is the slowest step — limits advance rate
-
 
 ## Troubleshooting
 

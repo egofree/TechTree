@@ -16,7 +16,6 @@
 
 > *Image: Hossein Moayedi, CC BY 4.0*
 
-
 Electrolytic splitting of water into hydrogen and oxygen gases. Alkaline electrolysis (KOH electrolyte, 70-90°C) or PEM electrolysis (solid polymer membrane). Produces ultra-pure hydrogen for ammonia synthesis, semiconductor processing, and fuel cells. Efficiency 60-80%, requires DC electricity at 1.8-2.2V per cell.
 
 This article covers non-electrolytic water splitting: thermochemical cycles and photocatalytic methods that decompose water using heat or light rather than electricity. Where electrolysis converts electricity to hydrogen, thermochemical cycles convert heat directly, avoiding the Carnot efficiency loss of the electricity generation step. Photocatalytic splitting converts sunlight directly to hydrogen without any intermediate energy conversion.

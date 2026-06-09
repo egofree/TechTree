@@ -18,10 +18,6 @@
 
 Extraction of halite (rock salt) and brine from underground deposits, salt pans, and seawater evaporation. Salt is essential for food preservation, chlor-alkali electrolysis (chlorine and caustic soda), and as a chemical feedstock. Enables the foundational inorganic chemistry of the industrial revolution.
 
-This technology is characteristic of the Stone Age era of industrial development. It builds on earlier foundational techniques while enabling more precise and controlled manufacturing outcomes.
-
-Primary outputs: `salt`, `brine`, `rock-salt`. These materials or products serve as inputs for downstream manufacturing and processing steps.
-
 Salt is one of the few minerals that humans consume directly in large quantities. Beyond its role as a flavoring agent, salt preserves meat and fish by drawing out moisture and inhibiting bacterial growth — without refrigeration, salting is the primary long-term food preservation method. Industrially, salt feeds the chlor-alkali process (electrolysis of brine to produce chlorine gas and sodium hydroxide), which underpins bleaching, disinfection, and much of the chemical industry. Salt also serves as a raw material for soda ash (sodium carbonate) production via the Solvay process.
 
 Historically, salt was so economically important that it served as currency (the word "salary" derives from the Roman practice of paying soldiers in salt). Control of salt production and trade was a major source of political power.
@@ -277,7 +273,6 @@ Key scaling challenges: fuel supply for brine boiling (solar evaporation avoids 
 Salt production connects to [Food Processing](../food-processing/index.md) through food preservation (salting, curing), to [Chemistry](../chemistry/index.md) through the chlor-alkali electrolysis process and soda ash production, and to [Health](../health/index.md) through iodization programs that prevent goiter and cretinism.
 
 The availability of salt often determines the viability of a settlement. Inland communities without access to salt deposits must trade for it — historically, salt trade routes were among the first long-distance commercial networks. A community that can produce surplus salt has a trade good with universal demand.
-
 
 ### Material Handling
 

@@ -8,7 +8,6 @@
 > **Outputs**: microcontroller_systems, firmware, real_time_control, sensor_interfaces
 > **Critical**: Yes — embedded systems bridge computing hardware and physical process control; without them, semiconductor fab tools cannot be automated
 
-
 An embedded system is a computer designed for a dedicated control function within a larger physical system, with real-time constraints, limited resources, and direct hardware interfaces to sensors and actuators. Unlike general-purpose computers that run varied software, an embedded system runs a single firmware program that must respond to physical events within guaranteed time limits.
 
 Embedded systems are the computing hardware that controls industrial processes: motor drives, temperature controllers, valve actuators, sensor arrays, and communication links. In the semiconductor fab context, embedded controllers manage wafer handling robots, process chamber temperature profiles, gas flow mass controllers, and vacuum pump sequencing. Every piece of automated equipment contains one or more embedded processors.
@@ -16,7 +15,6 @@ Embedded systems are the computing hardware that controls industrial processes: 
 This capability applies the architecture concepts from [`computing.computer-architecture`](computer-architecture.md) to the specific problems of real-time control: deterministic response times, sensor interfacing (ADC/DAC), interrupt-driven I/O, power constraints, and reliable operation without human intervention. The logic design methodology from [`computing.logic-design`](logic-design.md) provides the FPGA-based implementation path for custom control hardware.
 
 **Boundary with software-bootstrapping**: This document covers the hardware — microcontroller selection, circuit design for sensor interfaces, ADC/DAC specifications, watchdog timers, and power management. Firmware architecture (task scheduling, interrupt handlers, device drivers) is described here because it is inseparable from the hardware design. Writing compilers or operating systems for embedded targets is software construction — see the software-bootstrapping domain.
-
 
 ## Materials
 
@@ -59,7 +57,6 @@ This capability applies the architecture concepts from [`computing.computer-arch
 | Pull-up/pull-down resistors (4.7-10 kΩ) | 10-20 | [`electronics.passive-components`](../electronics/passive-components.md) | Internal MCU pull-ups (higher tolerance, 20-50 kΩ) |
 | PCB (2-layer minimum, 4-layer preferred) | 1 | [`electronics.pcb-fabrication`](../electronics/pcb-fabrication.md) | Perfboard (prototyping only) |
 | Watchdog timer IC (if not integrated in MCU) | 0-1 | [`silicon.basic-devices`](../silicon/basic-devices.md) | Software watchdog (less reliable) |
-
 
 ## Decision Framework
 
@@ -188,7 +185,6 @@ Select the embedded system architecture based on these quantitative criteria:
 - Watchdog timeout period requires application-specific tuning: too short (50 ms for a 40 ms worst-case task) causes spurious resets during normal peak loads, resulting in data loss and actuator cycling; too long (500 ms for a 10 ms task) delays fault detection by 50× the loop period
 - Watchdog reset does not automatically log the fault cause; without an MCU reset reason register and non-volatile log storage, repeated watchdog resets from different root causes produce identical behavior, making field diagnosis difficult
 
-
 ## Common Microcontroller Specifications
 
 | Parameter | 8-bit (ATmega328P) | 16-bit (MSP430) | 32-bit (STM32F103) | 32-bit (STM32F4) |
@@ -265,7 +261,6 @@ Select the embedded system architecture based on these quantitative criteria:
 - **Reverse polarity protection**: A reversed power supply connection destroys the MCU and most ICs instantly. Add a series diode (1N4007, 1V drop) or a MOSFET-based reverse polarity circuit (near-zero voltage drop). For battery-powered systems, use a polarized connector that cannot be reversed.
 - **Overcurrent protection on I/O**: GPIO pins typically source/sink 4-20 mA maximum. Exceeding this destroys the pin driver. Use buffer ICs or transistor drivers for loads exceeding 20 mA. Add current-limiting resistors (220-470 Ω) on all digital outputs connected to off-board circuitry.
 
-
 ## Hardware Acceptance Tests
 
 - **Power rail verification**: Measure VDD at the MCU pins under all operating conditions (idle, full load, all outputs driven). VDD must remain within specification (e.g., 3.0-3.6V for 3.3V MCU). Ripple <50 mV peak-to-peak.
@@ -281,7 +276,6 @@ Select the embedded system architecture based on these quantitative criteria:
 ## Environmental Tests
 
 - **Temperature range**: Verify correct operation across the specified temperature range (typically -40°C to +85°C for industrial grade, 0°C to +70°C for commercial). ADC accuracy typically drifts 2-5 LSB over temperature — calibrate at two temperature points if needed.
-
 
 ## Bare-Metal Firmware
 
@@ -361,8 +355,6 @@ Industrial control using standardized PLC hardware: rack-mounted I/O modules, la
 - [`measurement.temperature-pressure`](../measurement/temperature-pressure.md) — Thermocouples and pressure transducers used as embedded system sensor inputs.
 - [`measurement.electrical-instruments`](../measurement/electrical-instruments.md) — Oscilloscopes, multimeters, and logic analyzers for embedded system debugging.
 - [`automation.process-control`](../automation/process-control.md) — The industrial process control systems that embedded systems enable.
-
-
 
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*

@@ -1,6 +1,5 @@
 # Chemistry
 
-
 ![A Scientist in a chemistry laboratory](../images/chemistry/chemistry.jpg)
 > *Image: Frankincense Diala, CC0*
 

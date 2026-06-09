@@ -18,8 +18,6 @@
 
 Silver halide emulsion preparation, photographic plate coating, and light-sensitive chemical synthesis for imaging and photoresist precursor production.
 
-Primary outputs: `silver-halide-emulsions`, `photographic-plates`, `photoresist-precursors`. These materials or products serve as inputs for downstream manufacturing and processing steps.
-
 Silver halide photography was the dominant imaging technology for over 150 years before digital sensors replaced it. The chemistry involves three main stages: sensitization (forming silver halide crystals in gelatin emulsion), exposure (creating a latent image by photolytic decomposition of silver halide), and development (amplifying the latent image by chemical reduction of exposed silver halide to metallic silver). While no longer the primary imaging technology, photographic chemistry remains relevant for understanding photosensitive materials, chemical amplification processes, and the handling of silver compounds.
 
 The silver halide emulsion consists of microscopic crystals of silver bromide, silver chloride, or silver iodide suspended in gelatin on a film or paper substrate. The sensitivity (speed) and contrast of the emulsion depend on the crystal size, shape, and halide composition. Smaller crystals produce finer detail but require more light. Larger crystals are more sensitive but produce grainier images. The gelatin matrix protects the crystals, controls their growth during manufacture, and provides mechanical support for the emulsion layer.

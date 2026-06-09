@@ -8,7 +8,6 @@
 > **Outputs**: copper, copper_ingots, copper_wire, copper_sheet
 > **Critical**: No
 
-
 Copper was the first metal smelted (~5000 BCE) and remains the backbone of electrical infrastructure worldwide. This article covers the full chain: primitive copper smelting from carbonate and sulfide ores, casting, work-hardening, electrolytic refining, brass production, industrial-scale copper smelting, and copper for electrical use. Copper's combination of conductivity (58.0 MS/m at 20 °C for pure annealed copper), corrosion resistance, and ductility makes it irreplaceable for electrical, marine, and structural applications.
 
 For bronze alloying, see [Bronze Production](bronze.md).
@@ -417,7 +416,6 @@ Copper and nickel are fully soluble in each other in all proportions (complete s
 - **Carbon monoxide poisoning**: Charcoal-fueled shaft furnaces produce substantial carbon monoxide (CO), especially during the full-blast smelting phase (1100-1300 °C). CO is odorless, colorless, and causes headache at 100 ppm, dizziness at 200 ppm, confusion at 400 ppm, and death at >1,000 ppm with 1-2 hours exposure. NIOSH IDLH: 1,200 ppm. Never operate furnaces in enclosed spaces. Ensure through-draft ventilation. Operators showing confusion or dizziness should be moved to fresh air immediately.
 - **Zinc oxide fume (metal fume fever)**: Brass melting and zinc alloying generate zinc oxide (ZnO) fume when zinc vaporizes at 907 °C and re-oxidizes in air. Inhalation causes "metal fume fever" — flu-like symptoms (chills, fever, muscle aches, metallic taste) beginning 4-8 hours after exposure. OSHA PEL for ZnO fume: 5 mg/m³ as an 8-hour TWA. Prevention: local exhaust ventilation at the crucible, or work upwind of the pour.
 - **Slag and spark injuries**: During hot forging and slag skimming, hot slag and metal particles spray out as bright sparks at 700-900 °C. Eye protection (safety glasses rated ANSI Z87.1 or face shield) is essential when hammering hot metal. Slag skimmed from molten copper retains dangerous heat for extended periods — set aside on dry sand or refractory surface, never on combustible material.
-
 
 ## Troubleshooting
 

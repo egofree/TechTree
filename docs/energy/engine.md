@@ -8,7 +8,6 @@
 > **Outputs**: mechanical_power, internal_combustion_engines, gas_turbine_power
 > **Critical**: No — engines enable motorized transport and portable power but are not on the critical path to semiconductor manufacturing
 
-
 Converting chemical energy stored in fuel into mechanical work is the transformation that powers industrial civilization. Before heat engines, the only practical sources of mechanical power were human and animal muscle, water wheels, and windmills, each limited by geography, weather, and modest power output. Heat engines broke this constraint by unlocking the energy density of solid, liquid, and gaseous fuels. A liter of gasoline contains roughly 34 MJ of energy, equivalent to a day of hard manual labor compressed into a few minutes of combustion.
 
 Four engine types form a natural progression, each building on the capabilities established by its predecessors. The [Stirling engine](stirling-engine.md), an external combustion design with closed-cycle operation, serves as a bridge from steam technology. The [Otto cycle](internal-combustion.md) gasoline engine introduces internal combustion with spark ignition. The [Diesel cycle](internal-combustion.md) pushes compression higher for better efficiency. [Gas turbines](gas-turbine.md), the most demanding to manufacture, achieve the highest power density and enable jet aviation. [Steam engines](steam-engine.md), external combustion predecessors, launched the Industrial Revolution but carry inherent weight limitations.

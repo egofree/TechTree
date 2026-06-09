@@ -10,7 +10,6 @@
 
 The low-cost ion exchange membranes developed by SEM Tech (see [SEM Tech](sem-tech.md)) enable selective lithium ion separation as a downstream application of the membrane platform. The SEM Tech patent describes a microporous ion-selective separator configured for lithium separation — blocking larger sodium ions while allowing lithium passage (patent line 107). Electrodialysis (see [SEM Tech Electrodialysis](sem-tech-electrodialysis.md)) is the primary mechanism by which this selective transport is achieved at scale.
 
-
 Lithium is a critical material for batteries, electric vehicles, and grid-scale energy storage. Demand has grown sharply as lithium-ion batteries become the dominant energy storage technology. Conventional lithium extraction relies on brine evaporation ponds (months to years of solar concentration) or hard-rock mining of spodumene ores (energy-intensive roasting and acid leaching). Both methods have significant environmental footprints and slow throughput.
 
 SEM Tech membranes offer a potential path to electrochemical lithium recovery using selective ion transport. The patent's claim of a microporous ion-selective separator tuned for lithium separation suggests that membranes with pore sizes and functional groups preferential to Li⁺ can be manufactured from the same off-the-shelf resin beads and PVC/CPVC binder used in chlor-alkali cells. This would enable continuous lithium extraction from brines or recycling streams, bypassing the months-long evaporation process.
@@ -219,7 +218,6 @@ A pilot-scale lithium recovery plant using SEM Tech electrodialysis would be con
 
 **Brine pretreatment requirements**: Raw brine from salt flats or geothermal sources contains suspended solids (10-500 mg/L TSS), dissolved organic matter (5-50 mg/L DOC), and silica (50-500 mg/L SiO₂) that can foul membranes. Pretreatment sequence: (1) sand filtration to 10-50 μm, (2) cartridge filtration to 1-5 μm, (3) activated carbon for organics removal, (4) pH adjustment to 6.5-7.5 with HCl or NaOH to prevent CaCO₃ and Mg(OH)₂ scaling on membrane surfaces. Pretreatment capital cost: $20,000-50,000 for a 500 t/year plant. Operating cost: $0.05-0.20/m³ of brine processed.
 
-
 **Energy consumption**: At 1.0V per cell pair and 10 mA/cm², the stack voltage is 200V (200 cell pairs × 1.0V) at 100A current, consuming approximately 20 kW of electrical power. Pumping power at 2 m³/h through 1 mm spacers: approximately 0.2 kW. Total system power: 20.2 kW per stack. Energy per kg LCE: approximately 4.7 kWh (20.2 kW ÷ 4.3 kg/h). At $0.06/kWh, electricity cost is $0.28/kg LCE — less than 1% of the current LCE market price of $15-30/kg.
 
 ## Comparison with Conventional Extraction Methods
@@ -258,7 +256,6 @@ The SEM Tech ED approach is most competitive for brines with high Mg/Li ratios (
 
 **Commercial scale (1,000-10,000 tonnes LCE/year)**: 50-500 stacks in parallel trains, total membrane area 5,000-50,000 m². Membrane cost: $100,000-2,500,000 (still 10-100x cheaper than conventional selective membranes). Power: 0.5-2.5 MW. Requires dedicated pretreatment plant, product purification (carbonation to Li₂CO₃ or causticization to LiOH), and brine management infrastructure.
 
-
 ## Concentration and Product Finishing
 
 The lithium-rich concentrate stream from the ED stack contains 5,000-30,000 mg/L Li⁺ (enriched 5-30x from the original brine feed). This concentrate requires further processing to produce commercially saleable lithium products.
@@ -294,7 +291,6 @@ For comparison, a conventional evaporation pond operation of similar capacity co
 - **Electrical safety**: ED stacks for lithium separation operate at high DC voltages. Proper grounding, insulation, and lockout/tagout procedures are mandatory — see [SEM Tech Electrodialysis](sem-tech-electrodialysis.md) for electrical safety details.
 - **Hydrogen gas**: Minor hydrogen evolution at the cathode requires ventilation in enclosed installations.
 - **Pressure**: ED systems operate at low pressure (1-5 bar), presenting lower mechanical hazard than reverse osmosis systems (40-80 bar), but leaks in pressurized brine systems still require secondary containment.
-
 
 ## Cross-Domain Dependencies
 

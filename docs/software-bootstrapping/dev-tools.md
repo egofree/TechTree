@@ -18,7 +18,6 @@ Development tools transform programming from an ordeal into a craft. Each tool a
 - **Build system**: Managing compilation of multi-file projects (replaces manual compile commands)
 - **Version control**: Tracking changes and enabling collaboration (replaces dated file copies)
 
-
 ## Software
 - **Working compiler** ([compilers](compilers.md)): Development tools are written in a high-level language. The compiler is needed to build them.
 - **Working assembler** ([assemblers](assemblers.md)): Some tools (debuggers in particular) need assembly-level access to processor state.
@@ -40,7 +39,6 @@ Development tools transform programming from an ordeal into a craft. Each tool a
 | Disk storage | ≥1 MB | [computing.data-storage](../computing/data-storage.md) | Magnetic tape (sequential, slow) |
 | Working compiler + assembler | 1 each | [compilers](compilers.md), [assemblers](assemblers.md) | Cross-development on host machine |
 | Operating system | 1 instance | [operating-systems](operating-systems.md) | Bare-metal monitor (minimal tools) |
-
 
 ## Text Editor
 

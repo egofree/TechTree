@@ -171,7 +171,6 @@ A commercial e-methanol synthesis reactor processes the following material flows
 
 **Heat integration**: The exothermic synthesis reaction (49.5 kJ/mol) releases approximately 1,540 kJ per kg of methanol produced. This heat at 220-280°C is high enough quality for: (1) preheating feed gas from compressor discharge temperature (100-150°C) to reaction temperature, (2) driving the product distillation column reboiler (methanol bp 64.7°C), and (3) generating low-pressure steam (2-5 bar) for other plant uses. Effective heat recovery can supply 40-60% of the distillation energy requirement internally, reducing the net external heat input to approximately 0.5-0.8 GJ/tonne CH₃OH.
 
-
 ## CO₂ Capture Integration
 
 The e-methanol process requires a concentrated CO₂ source at 95-99% purity for synthesis. Three capture approaches are relevant, each with different costs and energy requirements:
@@ -211,7 +210,6 @@ The e-methanol pathway depends on a complex chain of upstream capabilities. The 
 **Demonstration plant (1,000-10,000 tonnes/year)**: 5-50 MW electrolyzer, continuous synthesis loop, integrated CO₂ capture. Proves economics at semi-commercial scale. Capital cost: $15-100 million.
 
 **Commercial plant (50,000-500,000 tonnes/year)**: 250-2,500 MW electrolyzer (matching a large offshore wind farm or nuclear power plant), multiple parallel synthesis trains, integrated CO₂ pipeline or on-site capture. Capital cost: $500 million-5 billion. Current largest announced e-methanol project: HIF Haru Oni (Chile, 2024 commissioning), producing approximately 1,300 tonnes/year with planned expansion to 35,000 tonnes/year by 2027.
-
 
 At electricity prices below $0.03/kWh (achievable with dedicated solar or wind installations in favorable locations), SEM Tech e-methanol production cost drops below $600/tonne — competitive with fossil methanol at carbon prices of $70-100/tonne CO₂. This price threshold is the key economic target for the technology to achieve market-driven adoption without subsidies.
 For regions with both cheap renewable electricity and access to point-source CO₂, e-methanol may reach cost parity with fossil methanol as early as 2030.

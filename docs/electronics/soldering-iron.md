@@ -16,7 +16,6 @@
 
 > *Image: Retired electrician, CC0*
 
-
 ![Wave solder optimizer](../images/electronics/electronics_soldering-diagram.png)
 
 > *Wave soldering setup and verification fixture example, showing temperature, contact and wave height sensors*

@@ -8,7 +8,6 @@
 > **Outputs**: ammonia, ammonium_nitrate, urea, nitric_acid
 > **Critical**: Yes — the Haber-Bosch process feeds roughly half the world's population through synthetic fertilizers. Without industrial ammonia, agriculture is limited to natural nitrogen sources. The nitrogen constraint is one of the hardest limits on civilization growth.
 
-
 Ammonia (NH₃) is the second most important industrial chemical after sulfuric acid. The Haber-Bosch process — fixing atmospheric nitrogen as ammonia — feeds roughly half the world's population through synthetic fertilizers. Without industrial ammonia, global agriculture is limited to natural nitrogen sources: guano, saltpeter deposits, and biological nitrogen fixation by legumes. The invention of Haber-Bosch in 1909–1913 removed the nitrogen constraint on civilization growth.
 
 Modern ammonia production consumes ~1-2% of global energy output and ~1.8% of CO₂ emissions, primarily from natural gas-derived hydrogen feedstock. A bootstrapping civilization must build ammonia synthesis to escape the Malthusian trap — but the process demands high-pressure metallurgy, hydrogen production, and air separation as prerequisites.
@@ -26,7 +25,6 @@ Modern ammonia production consumes ~1-2% of global energy output and ~1.8% of CO
 > *Haber-Bosch process diagram with numbered steps*
 
 > *Image: Bettina Schößwaldt, CC BY 3.0 de*
-
 
 The overall reaction is deceptively simple:
 
@@ -296,8 +294,6 @@ The path to industrial ammonia production follows a specific build order constra
 - Store in cool, dry, well-ventilated areas away from combustible materials, organic substances, acids, and heat sources. Maximum storage temperature: 50°C.
 - Large stockpiles must be separated by firewalls. The Beirut explosion (2020) was caused by ~2,750 tonnes of NH₄NO₃ stored improperly for 6 years.
 - See [Explosives](explosives.md) for detailed ammonium nitrate safety protocols.
-
-
 
 ## Troubleshooting
 

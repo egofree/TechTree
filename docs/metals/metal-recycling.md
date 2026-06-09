@@ -48,7 +48,6 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 - Understanding of alloy contamination: a single piece of leaded steel in a stainless steel heat ruins the entire batch
 - Furnace operation and temperature control for the target metal group
 
-
 ## BOM: Steel Scrap Recycling via EAF (per tonne of recycled steel)
 
 | Material | Quantity | Source | Alternatives |
@@ -69,7 +68,6 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | Chlorine gas | 0.5–2.0 kg | [Electrolysis](../chemistry/electrolysis.md) | Nitrogen degassing (less effective) |
 | Natural gas or electricity | 5–20 kWh | [Energy](../energy/engine.md) | Oil firing |
 | Nitrogen or argon cover gas | 1–5 m³ | [Air Separation](../chemistry/air-separation.md) | SO₂ cover gas (toxic) |
-
 
 ## Ferrous Scrap Recycling (EAF Route)
 
@@ -108,7 +106,6 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 3. **Fire refine.** Charge anode furnace or reverberatory furnace with sorted copper scrap. Melt at 1150–1200°C under a reducing atmosphere. Oxidize impurities by air injection, then poling with green wood (reduces Cu₂O back to Cu). Cast into anodes for electrolytic refining, or directly into shapes if purity is adequate.
 
 4. **Electrolytic refine (if required).** For semiconductor-grade or electrical-grade copper, dissolve anodes in CuSO₄/H₂SO₄ electrolyte and plate onto starter cathodes at 200–300 A/m². See [Copper & Bronze](copper-bronze.md).
-
 
 ## Energy Requirements by Metal
 
@@ -208,7 +205,6 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 
 **Lead exposure**: Lead-acid batteries and leaded solder in mixed scrap produce lead fume and dust. Blood lead monitoring required for workers with regular exposure. PPE: half-face respirator with P100 filters, disposable coveralls, hand washing before eating.
 
-
 ## Steel Scrap Incoming Inspection
 
 | Test | Method | Acceptance Criteria |
@@ -232,7 +228,6 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 - **Spark testing**: Grind steel on an abrasive wheel. Carbon steel sparks are straight with moderate forking. Cast iron sparks are dense with short bursts. Stainless steel produces few sparks (red/orange).
 - **Magnetic test**: Ferrous metals are magnetic; austenitic stainless (300-series) is weakly magnetic or non-magnetic; aluminum, copper, brass, and lead are non-magnetic.
 - **Density test**: Weigh a piece and measure volume by water displacement. Aluminum ≈2.7 g/cm³, steel ≈7.8, copper ≈8.9, lead ≈11.3.
-
 
 ## Steel Recycling Routes Compared
 

@@ -18,8 +18,6 @@
 
 Selective lithium extraction from brines and clays using lithium-ion selective membranes and electrodialysis. Produces battery-grade lithium compounds essential for energy storage and electronics manufacturing.
 
-Primary outputs: `lithium_compounds`. These materials or products serve as inputs for downstream manufacturing and processing steps.
-
 Lithium is the lightest metal and a critical material for battery technology, ceramics, and pharmaceuticals. It occurs in two main deposit types: hard rock pegmatite ores (spodumene, petalite, lepidolite) and brine deposits (salars or salt flats). Each requires different extraction and separation approaches. Hard rock mining involves conventional quarrying, crushing, and thermal treatment followed by acid leaching. Brine extraction pumps lithium-rich groundwater into evaporation ponds where solar energy concentrates the lithium over months.
 
 The separation challenge is that lithium is chemically similar to sodium and potassium (all are alkali metals), making selective separation difficult. In brine processing, the lithium must be separated from much larger quantities of sodium, potassium, and magnesium. In hard rock processing, the lithium must be liberated from the aluminum-silicate mineral matrix. Both routes require significant chemical processing infrastructure, placing lithium separation in the mid-to-late industrial development phase.

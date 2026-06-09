@@ -16,18 +16,7 @@
 
 > *Image: Satirdan kahraman, CC BY-SA 4.0*
 
-![Barut 2346918 01](../images/mining/mining_extraction_black-powder.jpg)
-
-> *Barut*
-
-> *Image: Satirdan kahraman, CC BY-SA 4.0*
-
-
 Gunpowder manufacture (75% KNO₃, 15% charcoal, 10% sulfur) for mining blasting. Process: pulverize ingredients separately, wet-mix, press into cakes, crumble and sieve to grain sizes. Corning process ensures uniform burn rate. Enables breaking rock far beyond fire-setting and hand-tool limits.
-
-This technology is characteristic of the Industrial era of industrial development. It builds on earlier foundational techniques while enabling more precise and controlled manufacturing outcomes.
-
-Primary outputs: `black_powder`, `blasting_capability`. These materials or products serve as inputs for downstream manufacturing and processing steps.
 
 Black powder represents the first practical chemical explosive. Before its adoption in mining, the only methods for breaking hard rock were fire-setting (heating rock with a fire, then cracking it with cold water quenching) and laborious hammer-and-chisel work. Black powder blasts remove orders of magnitude more rock per worker-day, transforming mining from a slow, manual operation into an industrial-scale materials extraction process. The key constraint on production is saltpeter supply — potassium nitrate must be harvested from nitrate-bearing earth or produced by controlled composting of organic waste, both of which are land- and time-intensive.
 
@@ -284,7 +273,6 @@ Key scaling challenges: grinding throughput (saltpeter is hard, charcoal is abra
 Black powder directly enables [Mining Extraction](extraction.md) by breaking rock far more effectively than fire-setting or manual hammering. It also serves as the basis for all later explosive development and as a propellant for firearms. The saltpeter production process connects to [Chemistry](../chemistry/index.md) through nitrate extraction and crystallization techniques.
 
 The development of black powder is one of the clearest examples of how a single technology can transform an entire economic sector. Before black powder, mine depths were limited by how far miners could break rock with hand tools. After black powder, mine depths were limited by ventilation and water pumping — problems that drive the development of entirely different engineering capabilities.
-
 
 ### Material Handling
 

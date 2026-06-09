@@ -32,13 +32,11 @@
 - **MG-Si purity**: ~97-99% Si. Major impurities: Fe (0.3-0.8%), Al (0.2-0.7%), Ca (0.1-0.5%), Ti, Mn, C. Not pure enough for electronics or efficient solar cells.
 - **Crushing**: Break MG-Si ingots to 1-10 cm chunks with jaw crusher, then ball mill to 100-500 μm powder for chemical purification.
 
-
 ## Yield & Material Balance
 
 - **Silicon yield**: 75-85% of theoretical. Losses come from SiO gas escaping the furnace (SiO₂ + C → SiO + CO at intermediate temperatures), silicon dissolving into slag, and spillage during tapping.
 - **Specific consumption**: ~2.7-3.0 tonnes quartz + 1.0-1.4 tonnes carbon reductant per tonne of MG-Si produced. Wood chips add ~0.5-1.0 tonnes for porosity (partial reductant, partial gas channel).
 - **Improving yield**: Charge porosity is critical. Too dense → SiO gas trapped, forms SiO₂ fume that condenses in off-gas system (lost silicon). Too porous → uneven heating, cold spots. Wood chip ratio is a tuning parameter.
-
 
 ## Electrode Consumption
 
@@ -64,7 +62,6 @@ The furnace produces large volumes of hot, toxic gas:
 - **SiO fume**: Silicon monoxide vapor condenses to ultrafine SiO₂ particles (<1 μm) in the off-gas. Known as "silica fume." Collected in baghouse filters. ~200-400 kg per tonne Si. Valuable byproduct — sold as pozzolanic additive for high-strength concrete, or reprocessed.
 - **Dust**: Quartz fines and carbon particles entrained in gas stream. Removed by cyclone separators + baghouse. Recycle coarse dust to furnace charge.
 
-
 ## Slag Management
 
 - **Slag formation**: Impurities in quartz and reductant (Al₂O₃, CaO, FeO, MgO) form a molten slag layer floating above the denser silicon. Slag is intentionally managed — sometimes flux (lime, silica) is added to control slag viscosity and trap impurities.
@@ -72,14 +69,12 @@ The furnace produces large volumes of hot, toxic gas:
 - **Tapping**: Slag tapped separately from silicon through a higher taphole (slag floats on silicon). Some furnaces use a single taphole with sequential tapping (slag first, then silicon).
 - **Disposal or reuse**: Slag can be crushed and used as road base aggregate or construction fill. If heavy metal content is low, it may be returned to the furnace as partial charge (recovers trapped silicon). Some operators sell slag to cement manufacturers as a silica source.
 
-
 ## Furnace Startup & Shutdown
 
 - **Cold startup** (from ambient): Preheat furnace with gas burners or resistive heating to ~800-1000°C over 24-48 hours. This dries the lining and prevents thermal shock cracking of carbon refractory. Then charge raw materials, lower electrodes, strike arc, and gradually increase power over 6-12 hours to full load. Full production reached in 24-72 hours.
 - **Hot restart** (after brief interruption <4 hours): Electrodes still hot, lining warm. Re-strike arc and ramp power over 2-4 hours.
 - **Planned shutdown**: Reduce power gradually over 4-8 hours. Raise electrodes. Seal furnace to retain heat. A well-sealed furnace retains >500°C for 24+ hours, enabling easier restart.
 - **Emergency shutdown**: Cut power immediately. Raise electrodes. Risk: molten silicon freezes in taphole, requiring drilling or oxygen lancing to clear. Keep taphole open during emergency drain if possible.
-
 
 ## Raw Material Preparation
 
@@ -95,7 +90,6 @@ The furnace produces large volumes of hot, toxic gas:
 - **Wood chips**: 10-50 mm chips from hardwood or softwood. Not primarily a reductant but a charge porosity agent. Provides channels for CO and SiO gas to escape the charge column. Typically 10-20% of total carbon in the charge mix. Also introduces some silica from bark/ash.
 - **Mixing ratio**: Approximately 2:1 SiO₂:C by weight (stoichiometric is ~2.5:1 for SiO₂ + 2C → Si + 2CO, but excess carbon compensates for losses and incomplete reaction). The actual ratio is tuned to furnace conditions: too much carbon produces SiC (silicon carbide) crusts; too little leaves unreacted SiO₂.
 
-
 ## Furnace Operation Detail
 
 **Submerged arc furnace**:
@@ -109,7 +103,6 @@ The furnace produces large volumes of hot, toxic gas:
 - **Procedure**: Open taphole by drilling or burning through the clay/carbon plug that sealed it after the previous tap. Molten silicon (density 2.33 g/cm³) flows out under gravity into a refractory-lined cast iron ladle. Silicon temperature at tap: ~1550-1650°C.
 - **Slag tapping**: Slag (density ~2.5-3.0 g/cm³, but often lighter due to gas bubbles) may be tapped from a higher taphole before silicon tapping. Some operations tap slag and silicon sequentially from the same hole.
 - **Taphole maintenance**: After tapping, plug the hole with clay or carbon paste. The taphole refractory lining erodes over time and must be re-lined periodically (every few weeks to months).
-
 
 ## MG-Si Refining
 
@@ -139,7 +132,6 @@ The furnace produces large volumes of hot, toxic gas:
 - **Specific consumption**: 11-15 kWh per kg of MG-Si produced. This is the major cost component, representing 20-25% of total production cost. A furnace producing 10 tonnes/day consumes 110,000-150,000 kWh/day, equivalent to the power consumption of a small town.
 - **Power supply**: Silicon furnaces run 24/7/365. Interruptions cause the charge to freeze, requiring expensive and time-consuming restart. Firm, continuous power supply is a siting requirement. Locations near hydroelectric dams are preferred (cheap baseload power). Solar or wind alone cannot provide the reliability needed without massive battery storage.
 - **Energy recovery**: CO off-gas combustion can recover 30-40% of electrical input as thermal energy (steam generation, co-generation). This improves overall plant efficiency but adds complexity.
-
 
 ## Troubleshooting
 
@@ -176,7 +168,6 @@ Operating a submerged arc furnace for silicon production involves severe hazards
 - **Refractory waste**: Carbon refractory lining replaced every 2-5 years. Spent refractory may contain silicon carbide and metal silicides. Can be recycled as partial charge material or disposed as industrial waste.
 - **Silica fume**: 200-400 kg per tonne of silicon. When collected, it is a valuable pozzolanic additive for high-strength concrete (reacts with calcium hydroxide in cement, improving strength and durability). Particle size: 0.1-0.5 μm (100× finer than cement). Market value offsets collection costs.
 
-
 ## Quality Control in MG-Si Production
 
 **Chemical analysis**:
@@ -188,7 +179,6 @@ Operating a submerged arc furnace for silicon production involves severe hazards
 - **Grade 553**: Si ≥98.5%, Fe ≤0.5%, Al ≤0.5%, Ca ≤0.3%. The most common commercial grade. Used for aluminum alloying and silicone production.
 - **Grade 441**: Si ≥99.0%, Fe ≤0.4%, Al ≤0.4%, Ca ≤0.1%. Higher purity, used for chemical silicon applications.
 - **Solar grade feedstock**: Si ≥98.5%, B ≤30 ppm, P ≤40 ppm. Boron and phosphorus limits are critical because these elements are electrically active in silicon and difficult to remove by physical refining.
-
 
 ## Furnace Design Variants
 
@@ -216,7 +206,6 @@ An inevitable side reaction in the silicon furnace:
 - SiC also forms from the reverse reaction: SiO gas + C → SiC + CO. This occurs in the cooler upper regions of the charge column where SiO vapor contacts carbon particles.
 - Management: Maintain correct SiO₂:C ratio (excess carbon promotes SiC). Control charge permeability (SiC crusts block gas escape, requiring the furnace to be "poked" with steel bars to break up crusts). Accept that some SiC formation is inevitable and manage its effects through furnace operation practices.
 
-
 ## Silicon Casting and Solidification
 
 **Ingot casting**:
@@ -233,7 +222,6 @@ An inevitable side reaction in the silicon furnace:
 - **Sieve analysis**: Stack of graduated sieves (10 mm, 5 mm, 2 mm, 1 mm, 500 μm, 250 μm, 125 μm, 75 μm) on a mechanical shaker. Load sample on the top sieve, shake for 15-30 minutes. Weigh the material retained on each sieve. Plot particle size distribution (cumulative percent passing vs. sieve size). Target: >90% of material in the 1-10 cm range for furnace charge, 100-500 μm for chemical purification.
 - **Air classification**: For fine powders (<100 μm), use an air classifier (centrifugal separator that separates particles by terminal velocity in an air stream). Lighter particles are carried upward by the air flow; heavier particles fall out. Adjustable cutoff size by varying air velocity. Used to remove fines (<50 μm) from the furnace charge (fines reduce permeability) and to produce uniform powder for the Siemens process.
 
-
 ## Energy Balance and Sustainability
 
 **Energy accounting for the silicon production chain**:
@@ -245,7 +233,6 @@ An inevitable side reaction in the silicon furnace:
 
 **Carbon footprint**: MG-Si production emits CO₂ from two sources: (1) the carbothermic reduction reaction itself (SiO₂ + 2C → Si + 2CO, and the CO is later burned to CO₂), producing ~3.5 tonnes CO₂ per tonne Si; and (2) electricity generation for the furnace, producing 0-5 tonnes CO₂ per tonne Si depending on the power source (0 for hydroelectric, ~5 for coal-fired electricity). Using hydroelectric power and recycling the CO gas for energy recovery reduces the total carbon footprint to ~4 tonnes CO₂ per tonne MG-Si.
 
-
 ## Silicon Dust Handling
 
 **Dust explosion hazard**: Silicon powder finer than 100 μm is a combustible dust. When suspended in air at concentrations above ~100 g/m³, it can ignite and explode. The minimum ignition energy is ~100 mJ (low enough for static discharge). Kst value (dust explosion class): ~100-200 bar·m/s (St class 1, moderate explosion hazard). Prevention: enclose crushing and milling equipment, collect dust at source with local exhaust ventilation, use explosion-proof electrical equipment in dusty areas, ground all equipment to prevent static buildup, and store fine powder in sealed containers away from ignition sources.
@@ -254,13 +241,11 @@ An inevitable side reaction in the silicon furnace:
 
 **Bootstrap scaling considerations**: A minimal silicon production facility for bootstrapping semiconductor capability starts with a single 5 MWA furnace producing ~2,000 tonnes MG-Si per year. This provides enough silicon to feed a small polysilicon plant (producing ~500 tonnes/year of semiconductor-grade polysilicon), which feeds a CZ crystal puller producing ~200 tonnes/year of single crystal ingots. The entire chain, from quartz mine to finished wafers, requires approximately 50-100 MW of dedicated electrical power. The facility should be sited near hydroelectric or geothermal power to ensure continuous, low-cost electricity. Every kilogram of silicon that goes into solar cells generates 3-5 kWh per year of electricity, creating the positive feedback loop that drives exponential capacity growth in the bootstrap chain.
 
-
 ## Casting Practice and Powder Production
 
 **Standard casting parameters**: Cast iron molds preheated to 200-300°C prevent thermal cracking of the ingot surface. Typical ingot size for chemical-grade production: 5-50 kg. Cooling time before demolding: 2-4 hours for standard ingots. Larger ingots (>100 kg, used for aluminum alloying or direct sales) require controlled cooling at 50-100°C/hour through the 1414°C solidification point to prevent internal stress cracking from silicon's unusually high volume contraction (~10%) on solidification. Without controlled cooling, large ingots develop radial cracks that render portions unusable for chemical processing.
 
 **Powder production for chemical use**: Jaw crush primary ingot chunks to <50 mm, then ball mill with alumina grinding media to <1 mm. Air classify to target size distribution: the classifier's adjustable rotor speed sets the cutoff between fines and product. Typical chemical-grade silicon powder: 0.1-5 mm particle size, bulk density 1.0-1.5 g/cm³. Finer powder (<150 µm) feeds the Siemens process and fluidized bed reactors; coarser grades (1-10 mm) charge directly into submerged arc furnaces for re-melting or go to aluminum alloying customers.
-
 
 ## See Also
 

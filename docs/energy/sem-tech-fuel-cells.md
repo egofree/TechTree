@@ -1,13 +1,12 @@
 # SEM Tech Fuel Cells: Electrochemical Power Generation
 
-> **Node ID**: energy.fuel-cell
+> **Node ID**: energy.fuel-cell.sem-tech
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.electricity`](electricity.md), [`chemistry.sem-tech`](../chemistry/sem-tech.md)
 > **Enables**: [`energy.storage`](storage.md), [`transport.light-aircraft`](../transport/light-aircraft.md)
 > **Timeline**: Years 25-40
 > **Outputs**: electrical_energy, water
 > **Critical**: No — fuel cells are not on the critical bootstrap path; SEM Tech fuel cell application remains speculative at TRL 5
-
 
 Fuel cells convert chemical energy directly into electricity through electrochemical reactions, bypassing the thermodynamic inefficiencies of heat engines. When hydrogen is supplied to a fuel cell, it produces electricity and water as the only byproduct -- no combustion, no moving parts, and theoretical efficiencies of 50-60% (80-90% in combined heat-and-power configurations).
 

@@ -8,7 +8,6 @@
 > **Outputs**: residual_metals, reprocessed_concentrate, backfill_material, construction_sand
 > **Critical**: No — improves resource efficiency but does not unlock new capabilities
 
-
 Tailings reprocessing recovers residual metals, minerals, and useful materials from mine waste — the finely ground rock left after initial ore processing. Historical mines often left tailings containing 20–60% of the original metal value because the extraction technology of the day was insufficient to recover it. Modern techniques can extract this stranded value.
 
 Mine tailings are the largest industrial waste stream by volume on Earth. A typical hard-rock mine produces 1–10 tonnes of tailings per tonne of concentrated ore. These tailings piles, impoundments, and slag heaps represent both an environmental liability and a resource opportunity. Reprocessing serves two goals simultaneously: recover valuable materials and reduce the environmental footprint of the tailings deposit.
@@ -19,7 +18,6 @@ This capability does not replace primary mining — it supplements it. Reprocess
 - Environmental remediation of the tailings deposit is required anyway
 
 The boundary between tailings reprocessing and primary ore processing is that tailings material has already been crushed and ground — the energy-intensive comminution step is already done. This gives tailings a processing cost advantage of 20–40% compared to fresh ore.
-
 
 ## Materials
 
@@ -55,7 +53,6 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 - Flotation circuit design for fine particles (tailings are typically finer than run-of-mine ore)
 - Tailings dam stability and geotechnical assessment for safe excavation
 
-
 ## BOM: Copper Tailings Leaching (per tonne of tailings at 0.3% Cu)
 
 | Material | Quantity | Source | Alternatives |
@@ -78,7 +75,6 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Activated carbon | 0.5–2.0 kg (regenerable) | [Chemistry](../chemistry/acids-bases.md) | Zinc precipitation (Merrill-Crowe) |
 | Oxygen or air | 0.1–0.5 m³ | [Air Separation](../chemistry/air-separation.md) | Compressed air |
 | Water | 2–5 m³ | [Water Treatment](../chemistry/water-treatment.md) | Recycled from tailings pore water |
-
 
 ## Flotation Retreatment of Sulfide Tailings
 
@@ -148,7 +144,6 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 - Bacteria are sensitive to temperature excursions, toxic metals (As, Hg), and nutrient deficiency
 - Requires continuous aeration of heap or reactor — compressor energy cost over months of operation
 
-
 ## Typical Recovery Rates from Tailings
 
 | Metal/Mineral | Original Tailings Grade | Reprocessing Recovery | Method | Product |
@@ -213,7 +208,6 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 
 **Dust exposure**: Dry tailings generate silica-containing dust. Prolonged inhalation causes silicosis (irreversible lung scarring). Wet all excavation surfaces. PPE: half-face respirator with P100 filter when dust is visible.
 
-
 ## Tailings Feed Assay
 
 | Parameter | Method | Purpose |
@@ -242,7 +236,6 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 | Gold doré | >80% Au + Ag | Fire assay |
 | Copper concentrate | 20–30% Cu, <0.1% As | ICP-OES |
 | Iron concentrate | >60% Fe, <0.05% P | XRF |
-
 
 ## Tailings Reprocessing Methods Compared
 

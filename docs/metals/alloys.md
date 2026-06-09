@@ -8,7 +8,6 @@
 > **Outputs**: stainless steel, tool steel, superalloys, titanium alloys, specialty copper alloys
 > **Critical**: true
 
-
 Specialty alloys are engineered metallic systems where precise additions of alloying elements transform base metals into materials with exceptional corrosion resistance, high-temperature strength, wear resistance, or specific physical properties. Unlike plain carbon steels and basic bronzes (covered in [Iron & Steel](iron-steel.md) and [Copper & Bronze](copper-bronze.md)), specialty alloys require controlled-atmosphere melting, precise compositional analysis, and multi-step heat treatments. They represent the frontier of metallurgical capability — the materials that enable chemical processing equipment, gas turbines, medical implants, and precision tooling.
 
 Alloy development depends on understanding phase diagrams, solid-state phase transformations, and the interplay between composition, processing, and microstructure. The key strengthening mechanisms — solid solution, precipitation, dispersion, and grain-boundary hardening — are combined to produce properties far beyond what any pure metal can achieve.
@@ -20,7 +19,6 @@ Alloy development depends on understanding phase diagrams, solid-state phase tra
 > *مخطّط أطوار الحديد والكربون*
 
 > *Image: AG Caesar, CC BY-SA 4.0*
-
 
 Stainless steels are iron alloys containing ≥10.5% chromium, which forms a self-healing passive Cr₂O₃ film (~1-3 nm thick) on the surface. This invisible oxide layer provides corrosion resistance in oxidizing environments. The chromium content is non-negotiable — below 10.5%, the passive film is discontinuous and corrosion resistance collapses.
 
@@ -309,8 +307,6 @@ The development of new alloys follows a systematic approach rooted in thermodyna
 **General heat treatment hazards**:
 - Quenching oils present fire risk — oil can ignite if workpiece temperature exceeds flash point. Use tempered quench oils with adequate fire suppression. Never quench in water after heating in a salt bath — residual salt contacting water can cause explosive spattering.
 - Protective atmospheres for heat treatment (hydrogen, argon, vacuum) present asphyxiation hazards in confined spaces. Hydrogen is also explosive (LEL 4% in air). Monitor atmospheres continuously.
-
-
 
 ## Troubleshooting
 

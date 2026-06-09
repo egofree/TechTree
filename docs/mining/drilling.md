@@ -16,7 +16,6 @@
 
 > *Image: Mike Christie, CC BY-SA 4.0*
 
-
 Before pneumatic or hydraulic drills, miners broke rock with hand steel. A steel drill (also called a jumper) is a hardened chisel-pointed rod, driven into rock by hammer blows. One person rotates the drill slightly between strikes to prevent binding and distribute the cutting edge across the rock face.
 
 **[Single jack drilling](../glossary/single-jack-drilling.md)** (one person, one hammer):
@@ -280,8 +279,6 @@ Unlike percussive drilling (which chips rock by impact), rotary drilling grinds 
 - **Drill steel material**: [iron and steel](../metals/iron-steel.md)
 - **Machine tools for bit sharpening**: [machine tools](../machine-tools/index.md)
 - **Mine ventilation (dust control)**: [ventilation](ventilation.md)
-
-
 
 ## Troubleshooting
 

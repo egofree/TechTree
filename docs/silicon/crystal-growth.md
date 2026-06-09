@@ -8,7 +8,6 @@
 > **Outputs**: single_crystal_ingots, wafers, polished_wafers
 > **Critical**: Yes — single-crystal silicon is required for all semiconductor devices and efficient solar cells
 
-
 The CZ puller is the most mechanically demanding piece of equipment in the silicon path. It requires precision motion control, high-temperature furnace, and contamination control.
 
 ## Why Single Crystal Silicon
@@ -19,13 +18,11 @@ The CZ puller is the most mechanically demanding piece of equipment in the silic
 
 > *Image: Mojmir Churavy, CC BY-SA 4.0*
 
-
 ![FZU AV CR Silicon Single Crystal C](../images/silicon/silicon_crystal-growth-cutaway.jpg)
 
 > *A sample of a silicon single crystal presented during a tour of the Department of Thin Films and Nanostructures in the Solid State Physics Section at the Institute of Physics of the Czech Academy of Sciences, located on the grounds of the former Czechoslovak Sugar Industry Research Institute in P...*
 
 > *Image: Mojmir Churavy, CC BY-SA 4.0*
-
 
 ![Czochralski method crucibles](../images/silicon/silicon_crystal-growth-diagram.jpg)
 
@@ -202,7 +199,6 @@ The CZ process requires precision control of temperature, pull speed, and rotati
 
 ## Wafer Production
 
-
 **Slicing (wire saw)**:
 - **Equipment**: Wire saw — thin steel wire (140-180 μm diameter) wound on grooved wire guides in a web pattern. Wire travels at 5-15 m/s. Abrasive slurry (SiC or diamond particles 5-20 μm in oil or water-based carrier) fed onto wire.
 - **Process**: Ingot mounted on ceramic plate, fed into wire web. Wire tension 15-30 N. Cut time 4-8 hours for 150 mm ingot. Produces 200-400 wafers per ingot.
@@ -358,9 +354,6 @@ The float zone process produces the purest silicon available, because nothing to
 **Weaknesses**:
 - ID saw produces only 1-2 wafers/hour for 150 mm — 10-20× slower than wire saw for total throughput
 - Laser slicing is not yet production-ready for silicon, with higher equipment cost and limited throughput compared to wire sawing
-
-
-
 
 ## See Also
 

@@ -8,7 +8,6 @@
 > **Outputs**: bronze, bronze_castings, bronze_ingots, bronze_tools
 > **Critical**: No
 
-
 Adding tin to copper produces bronze: harder, lower melting point (~950 °C for 10% tin), better castability (flows into fine mold details), and more corrosion-resistant than pure copper. This article covers bronze alloying, casting methods specific to bronze, and bronze working techniques. For copper smelting and refining, see [Copper Production](copper.md).
 
 ## Prerequisites

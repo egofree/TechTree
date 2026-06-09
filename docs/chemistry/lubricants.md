@@ -8,7 +8,6 @@
 > **Outputs**: lubricating_oil, grease, cutting_fluid, hydraulic_fluid, vacuum_oil
 > **Critical**: No — lubricants extend machine life and reduce friction but are not prerequisites for core capabilities
 
-
 Every machine with moving parts generates friction and heat. Two metal surfaces pressed together under load touch only at microscopic peaks called asperities. At those contact points, pressures exceed the yield strength of the metal. The surfaces weld together instantaneously, then tear apart as the parts move relative to each other. Each weld-and-tear cycle removes material, generates heat, and creates wear debris that grinds between the surfaces and accelerates further destruction. A plain steel-on-steel bearing running dry has a friction coefficient around 0.8. At moderate speed and load, it generates enough heat to discolor the metal within minutes and seize within hours.
 
 Lubrication interrupts this destructive cycle by interposing a film of material between the surfaces. That film can be a molecular layer of adsorbed fatty acids (boundary lubrication), a thick cushion of fluid oil (hydrodynamic lubrication), a smear of semi-solid grease, or a coating of solid material that shears easily under load. Each approach works best for different combinations of speed, load, temperature, and environment. The friction coefficient drops from 0.8 (dry) to 0.1 (boundary) to 0.001 (hydrodynamic), a factor of 800 improvement that transforms a machine from self-destructing to long-lived.
@@ -16,7 +15,6 @@ Lubrication interrupts this destructive cycle by interposing a film of material 
 A civilization rebuilding its industrial base needs lubricants from day one. The first cart axle, the first treadle lathe, the first water pump all need something to reduce friction. The progression runs from animal fats (available immediately) through vegetable oils (first year harvest) to refined mineral oils (once petroleum distillation is established) and finally synthetic fluids (requiring advanced chemical synthesis). Each tier enables more demanding machinery: animal fats suffice for slow, lightly loaded bearings, but high-speed engines, precision machine tools, and vacuum systems require progressively more sophisticated lubricants.
 
 This article covers the lubrication theory shared across all types and links to four focused articles on specific lubricant categories.
-
 
 ## Lubrication Regimes
 
@@ -33,7 +31,6 @@ This article covers the lubrication theory shared across all types and links to 
 Diagrammatic sketch of the lubrication system of the Enfield engine*
 
 > *Image: Andy Dingley (scanner), Public domain*
-
 
 ### Boundary Lubrication
 
@@ -55,14 +52,12 @@ A full fluid film separates the surfaces. No metal contact occurs. Friction is e
 
 Occurs in rolling element bearings and gear teeth where contact pressures reach 1-3 GPa. The extreme pressure elastically deforms the metal surfaces and compresses the lubricant, dramatically increasing its viscosity (the pressure-viscosity effect). The result is a thin but extremely stiff film, 0.1-1 μm thick, that separates the surfaces. EHL requires a lubricant with a good pressure-viscosity coefficient. Mineral oils perform well in this regime; water-based lubricants perform poorly.
 
-
 ## Focused Articles
 
 - **[Natural Lubricants: Animal Fats & Vegetable Oils](lubricants-natural.md)** — Rendering tallow and lard from animal fat, pressing vegetable oils (castor, rapeseed, olive, linseed, sunflower). Available from day one. For slow-speed bearings, slides, and cart wheels.
 - **[Grease, Solid Lubricants & Bearing Lubrication](lubricants-grease-solid.md)** — Grease production from saponified fats (sodium, calcium, lithium soap thickeners), solid lubricants (graphite, MoS₂, PTFE, polymer bearings), and bearing lubrication methods (oil-ring, wick, splash, forced, grease-packed).
 - **[Mineral Oil Lubricants, Cutting Fluids & Hydraulic Fluids](lubricants-mineral.md)** — Refined petroleum lubricants, ISO VG and SAE viscosity grading, cutting fluid formulations (straight oil, soluble oil emulsion, synthetic), hydraulic fluid types (mineral, vegetable, water-glycol).
 - **[Synthetic Lubricants & Specialty Fluids](lubricants-synthetic.md)** — PAO, ester, silicone, and PFPE synthetics. Vacuum oils (mineral, silicone, PAO). Cleanroom-compatible PFPE lubricants for semiconductor manufacturing.
-
 
 ## Selection Guide
 
@@ -89,7 +84,6 @@ Occurs in rolling element bearings and gear teeth where contact pressures reach 
 | Graphite (solid) | N/A | Up to +450°C (air) | Moderate | High-temperature bearings, gaskets, mold release |
 | PTFE (solid) | N/A | -200 to +260°C | Low | Bearing liners, bridge bearings, thread sealing |
 
-
 ## Integration Points
 
 | Phase | Contribution |
@@ -103,7 +97,6 @@ Occurs in rolling element bearings and gear teeth where contact pressures reach 
 | Silicon | Ultraclean lubricants for crystal pullers and wafer handling equipment |
 | Photolithography | Cleanroom-compatible lubricants and hydraulic fluids for fab equipment, PFPE greases |
 
-
 ## Key Deliverables
 
 - **Tier 1** (Years 0-5): Rendered animal fat (tallow and lard) for slow-speed bearings and slides. Vegetable oil extraction from oilseed crops (rapeseed, castor, olive) for moderate-speed bearings. Linseed oil for protective coatings and paint binder. Basic lubrication practices: regular application, keeping lubricant clean, avoiding abrasive contamination. These natural lubricants suffice for the first workshops, treadle lathes, water wheels, and cart transport.
@@ -113,7 +106,6 @@ Occurs in rolling element bearings and gear teeth where contact pressures reach 
 - **Tier 3** (Years 20-50): Mineral oil refining and viscosity grading (ISO VG system). Hydraulic fluid supply for presses and machine tools, transitioning from vegetable oil to mineral oil. Bearing lubrication engineering: PV limits, clearance design, and oil selection by Sommerfeld number. Additive technology (ZDDP, antioxidants, rust inhibitors) that tailors mineral oil performance for specific applications. These industrial fluids enable steam engines, high-speed machinery, hydraulic presses, and continuous-process equipment.
 
 - **Tier 4** (Years 50-200+): Synthetic lubricants (PAO, ester, silicone) for demanding applications in aerospace and extreme environments. Vacuum-compatible oils (mineral for roughing pumps, silicone for diffusion pumps). Cleanroom-compatible PFPE lubricants for semiconductor manufacturing equipment. Oil analysis and condition monitoring programs for predictive maintenance. These advanced lubricants enable jet engines, vacuum systems, semiconductor fabrication, and space applications.
-
 
 ## General Safety & Hazards
 
@@ -134,7 +126,6 @@ Industrial plants monitor lubricant condition to schedule oil changes based on a
 
 **Sampling**: Always sample from a live oil stream (not from the drain plug or static reservoir). Use clean sample bottles. Sample frequency: monthly for critical equipment (turbines, large gearboxes), quarterly for general plant equipment.
 
-
 ## Limitations
 
 - **Oxidation stability**: Natural oils (animal and vegetable) oxidize much faster than mineral oils. Vegetable oils last 1-2 years in storage; animal fats last 6-12 months. Rancidity increases acidity (corrosion risk) and viscosity (pumping problems). Antioxidants extend shelf life but add cost and complexity.
@@ -142,7 +133,6 @@ Industrial plants monitor lubricant condition to schedule oil changes based on a
 - **Material compatibility**: Lubricants interact with seals, paints, plastics, and elastomers. Mineral oil swells natural rubber and degrades some plastics. Silicone oil contaminates surfaces and prevents paint adhesion. Synthetic oils can shrink or swell seals designed for mineral oil. Always verify compatibility between lubricant and all materials it contacts.
 - **Shelf life**: Store all lubricants in sealed, labeled containers away from heat, sunlight, and moisture. Mineral oils: 5+ year shelf life if uncontaminated. Vegetable oils: 1-2 years (oxidize and become acidic; check acid number before use). Animal fats: 6-12 months (rancidity; refrigeration extends to 2 years). Grease: 2-3 years in sealed containers (oil separation is the primary failure mode; if more than 10% free oil on the surface, discard). Cutting fluid concentrates: 2-5 years. Mixed emulsions: 3-6 months (biological growth is the limiting factor; add biocide and monitor pH weekly).
 - **Lubricant degradation in service**: All lubricants degrade during use. Oxidation thickens the oil and deposits varnish. Thermal breakdown at high temperatures produces sludge. Contamination with wear particles, water, and process chemicals reduces lubrication effectiveness. Regular oil analysis and timely replacement are essential for equipment reliability.
-
 
 ## Lubrication Calculations
 

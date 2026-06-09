@@ -8,11 +8,9 @@
 > **Outputs**: bearings, ball_bearings, plain_bearings, babbitt_linings
 > **Critical**: Yes — precision enablers for all machine tool construction
 
-
 Bearings are the precision enablers of machine tool construction. Without bearings, shafts seize and machines destroy themselves from friction. This article covers plain (journal) bearings, rolling element (ball and roller) bearings, bearing selection, and bearing lubricants. For abrasive materials and cutting tools, see [Abrasives & Cutting Tools](abrasives.md).
 
 For the machine tool construction sequence, see [Iterative Bootstrap](./iterative-bootstrap.md). For the machining operations that use these tools, see [Machining](./machining.md).
-
 
 ## Plain (Journal) Bearings
 
@@ -89,7 +87,6 @@ Ball and roller bearings reduce friction and enable high-speed machinery (machin
 | Milling spindle | Ball bearing (ABEC-7+) | High | Moderate | Grease |
 | Engine crankshaft | Plain (babbitt/insert) | Medium | Heavy | Pressure oil |
 | High-speed grinder | Ball bearing or air bearing | Very high | Light | Oil mist |
-
 
 ## Bearing Lubricants
 

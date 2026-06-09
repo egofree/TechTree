@@ -8,7 +8,6 @@
 > **Outputs**: sulfuric_acid, nitric_acid, hydrochloric_acid, hydrofluoric_acid, oleum
 > **Critical**: Yes — sulfuric acid is the single most important industrial chemical; the contact process enables fertilizer production, metal pickling, petroleum refining, and semiconductor wafer processing. No chemical industry operates without mineral acids.
 
-
 Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It is used in every subsequent phase: steel pickling, petroleum refining, fertilizer production, etching, and semiconductor processing. A civilization's industrial maturity can be measured by its sulfuric acid production.
 
 ## Prerequisites
@@ -19,13 +18,11 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 
 > *Image: Carbamatesalts, CC BY-SA 4.0*
 
-
 ![Contact process under renewals-r6E2Uq4y6G4](../images/chemistry/chemistry_acids_contact-process.jpg)
 
 > *Speaker: Maria Eulalia Vares – IM - UFRJ..Abstract: This talk is based on joint works in collaboration with L. R. Fontes, D. Marchetti, and T. Mountford. We investigate a non-Markovian analogue of the Harris contact process on Z^d. An individual is attached to each site and it can be infected or ...*
 
 > *Image: Comunicação NeuroMat, CC BY-SA 4.0*
-
 
 ![Schematic illustration of rod synaptogenesis in wild-type and horizontal cell-ablated mice](../images/chemistry/chemistry_acids-contact-process.jpg)
 
@@ -58,7 +55,6 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 | Molecular sieve (13X zeolite) | 50-200 kg (3-7 year life) | [Chemistry](./index.md) | Activated alumina for drying |
 | Lead sheet (3-6 mm) | 5-20 tonnes (one-time, chamber) | [Metals](../metals/non-ferrous.md) | Steel with acid-resistant brick lining |
 | Cast iron pipe and valves | 1-5 tonnes (one-time) | [Metals](../metals/iron-steel.md) | Stainless steel 316L for concentrated acid |
-
 
 ## Lead Chamber Process (62-70% H₂SO₄)
 
@@ -338,7 +334,6 @@ Semiconductor processing requires ultra-pure acids (trace metal impurities at pp
 - **Nitric acid (HNO₃)**: Concentrated HNO₃ (68%, density 1.41 g/mL) is a powerful oxidizer. Contact with organic materials (paper, wood, solvents) causes fire. Produces toxic NO₂ fumes (brown gas, TLV 3 ppm, IDLH 20 ppm — lung damage at low concentrations). Store in aluminum tanks (HNO₃ passivates aluminum, forming Al₂O₃ film) or glass carboys. NEVER store in carbon steel (vigorous reaction). PPE: face shield, acid-resistant gloves, chemical apron. Work under fume hood.
 - **Hydrochloric acid (HCl)**: Fumes are corrosive to respiratory tract — detectable at 5 ppm, dangerous at 100 ppm, IDLH 50 ppm. Scrub vent gases through NaOH solution. Store in rubber-lined steel, glass, or PVC containers. Carbon steel is NOT suitable for HCl service. PPE: chemical splash goggles, neoprene gloves, face shield.
 - **Hydrofluoric acid (HF)**: EXCEPTIONALLY DANGEROUS. Dissolves bone by binding calcium. Penetrates skin without immediate pain — the delay makes exposure more dangerous. Lethal at ~2.5% body surface area exposure to 50% HF (a hand-sized splash can kill via hypocalcemia-induced cardiac arrest). **Calcium gluconate gel (2.5%) MUST be on-site before any HF handling** — apply immediately to exposed skin, massage for 15+ minutes, seek emergency medical treatment. PPE: neoprene gloves (NOT latex — HF penetrates latex), face shield, chemical apron. Storage: PTFE or polyethylene containers ONLY. NEVER glass (HF etches SiO₂). Double-contained: primary container inside secondary containment tray.
-
 
 ## Acid Concentration and Properties
 

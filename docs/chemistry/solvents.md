@@ -8,7 +8,6 @@
 > **Outputs**: ethanol, methanol, ether, turpentine, hydrogen_peroxide
 > **Critical**: No — solvents are used in nearly all chemical processes but are produced from multiple alternative routes
 
-
 Solvents dissolve, extract, clean, and transport chemical species. They are the workhorses of pharmaceutical synthesis (extract active compounds, crystallize products), semiconductor manufacturing (RCA clean, photoresist stripping), industrial degreasing, and chemical analysis. No chemical industry operates without them. This page catalogs the solvents accessible at each stage of bootstrap development — from ethanol and turpentine (organic, low-technology) to chlorinated solvents and hydrogen peroxide (industrial chemistry).
 
 ## Ethanol
@@ -97,12 +96,12 @@ BTX aromatics are powerful solvents and feedstocks derived from coal tar or petr
 - **[Carcinogen](../glossary/carcinogen.md)** — causes leukemia (AML) with chronic exposure. Industrial use has been largely phased out in developed countries. Substitute with toluene or xylene wherever possible.
 - Feedstock for styrene (polystyrene), nylon, phenol, and synthetic rubber (SBR). Difficult to replace as a feedstock even if eliminated as a solvent.
 
-****Toluene**** (C₇H₈, bp 110.6°C):
+**Toluene** (C₇H₈, bp 110.6°C):
 - Good general-purpose aromatic solvent. Similar dissolving power to benzene but significantly less carcinogenic (not classified as a human carcinogen — metabolized to benzoic acid rather than benzene oxide).
 - Applications: paint thinner, coating solvent, gasoline octane booster, feedstock for toluene diisocyanate (TDI → polyurethane foam), TNT explosive synthesis.
 - Preferred substitute for benzene in most solvent applications.
 
-****Xylene**** (C₈H₁₀, mixture of ortho-, meta-, para- isomers, bp ~140°C):
+**Xylene** (C₈H₁₀, mixture of ortho-, meta-, para- isomers, bp ~140°C):
 - Higher-boiling aromatic solvent. Used where slower evaporation is desired (paints, coatings, cleaning).
 - Applications: histology staining solvent, paint and coating formulations, cleaning agent for silicon wafers in semiconductor processing.
 - Toxicity: moderate — irritant and nervous system depressant at high concentrations. Less hazardous than benzene.

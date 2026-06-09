@@ -1,6 +1,5 @@
 # Silicon
 
-
 ![Multicrystalline silicon wafer with thin film iridescence](../images/silicon/silicon.jpg)
 > *Image: Rama &amp; Musée Bolo, CC BY-SA 2.0 fr*
 

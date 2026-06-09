@@ -198,7 +198,6 @@ Electrodialysis also has advantages in situations where selective ion removal is
 
 The membranes themselves are the primary consumable in an ED system. Over time, membranes lose selectivity and gain electrical resistance due to fouling (organic and biological), scaling (inorganic precipitates), and chemical degradation (oxidation, hydrolysis). Regular cleaning with acid (for scale), caustic (for organics), and biocide (for biofouling) extends membrane life but cannot restore damaged membranes. When membrane performance drops below the economic threshold, the stack must be disassembled and the membranes replaced. Spent membrane disposal follows hazardous waste protocols if the membranes have been in contact with regulated substances.
 
-
 ### Material Handling
 
 Proper handling of input materials and products is essential for consistent results:

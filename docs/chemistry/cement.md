@@ -14,7 +14,7 @@
 
 > *Photo No. 76.: Concrete Bridge at Cement, California, Solano County (1911)*
 
-> *Image: Unknown authorUnknown author, Public domain*
+> *Image: Unknown author, Public domain*
 
 **Raw materials**:
 - **[Limestone](../glossary/limestone.md)** (CaCO₃): 60-65% of raw mix. Provides CaO. Mine, crush to <20 mm.
@@ -187,7 +187,6 @@ Cement production is responsible for ~8% of global CO₂ emissions. Sources: cal
 - **Lime (CaO)**: Reacts exothermically with moisture including sweat. Handle with gloves.
 
  ---
-
 
 ## Hydration Chemistry
 

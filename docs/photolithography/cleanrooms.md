@@ -22,9 +22,6 @@
 
 > *Image: CleanroomKnowItAll, CC BY-SA 4.0*
 
-
-
-
 Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill an entire chip. Cleanroom class determines minimum feature size achievable: Class 1000 (ISO 6) for >5 μm features, Class 100 (ISO 5) for 1-5 μm, Class 10 (ISO 4) for sub-micron.
 
 **Cleanroom construction**:
@@ -215,8 +212,6 @@ The floor is a critical contamination control surface and must meet several requ
 **Movement and behavior**: Move slowly and deliberately to minimize particle generation (a walking person sheds 5-10× more particles than one standing still). Avoid rapid arm movements. Keep conversations brief and quiet. Never touch wafer surfaces directly, even with gloved hands — use wafer wands or vacuum pickups only.
 
 **Daily cleaning protocol**: Wipe all work surfaces, equipment handles, and keyboard covers with 70% IPA (isopropyl alcohol) dampened lint-free wipes at the start and end of each shift. IPA evaporates quickly without residue. Replace sticky mats at entrances when tack diminishes. Empty and wipe process tool catch trays. Inspect and clean wafer carrier interiors before each use.
-
-
 
 ## Troubleshooting
 

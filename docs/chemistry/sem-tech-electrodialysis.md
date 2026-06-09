@@ -59,7 +59,6 @@ The SEM Tech membrane manufacturing process (see [SEM Tech](sem-tech.md)) produc
 
 **Speculative status**: While SEM Tech cation membranes have been demonstrated in chlor-alkali cells at TRL 5, complete electrodialysis stacks with matched cation-anion membrane pairs have not yet been built or tested. The theoretical performance is well-established from conventional ED practice, but SEM Tech membrane properties in multi-cell ED configurations (resistance per cell pair, ion selectivity in stacked geometry, long-term fouling behavior) remain to be characterized experimentally.
 
-
 ## Conventional Electrodialysis (ED)
 
 Standard ED for desalination and ion concentration. Feed solution passes through diluate channels; ions migrate to concentrate channels under applied voltage. Produces desalted water and concentrated brine simultaneously. See [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md) for desalination applications.
@@ -112,7 +111,6 @@ A SEM Tech electrodialysis stack is constructed from readily available materials
 **End plates**: Thick PVC or steel plates (15-25 mm) clamp the stack together with tie rods. Compression force: 0.5-2.0 MPa distributed evenly across the membrane area to prevent internal leakage between diluate and concentrate channels.
 
 **Assembly sequence**: (1) Place anode electrode on end plate. (2) Stack alternating CEM, diluate spacer, AEM, concentrate spacer until desired cell pair count is reached. (3) Place cathode electrode. (4) Install end plate with tie rods. (5) Torque tie rods evenly to specified compression. (6) Connect manifolds, power supply, and recirculation pumps. A 100-cell-pair stack with 0.1 m² active area per cell can be assembled by one person in 2-4 hours.
-
 
 ## Phase 1: Fabricate Ion Exchange Membranes
 
@@ -183,7 +181,6 @@ Despite shorter projected lifetime, SEM Tech membranes deliver 4-10x lower annua
 
 **Blue energy**: Reverse ED generates electricity from river-sea water mixing at estuaries. Global theoretical potential exceeds 2 TW. See [SEM Tech Blue Energy](../energy/sem-tech-blue-energy.md).
 
-
 ## Energy Consumption Analysis
 
 The energy consumption of electrodialysis is determined by the number of ions transported and the electrical resistance of each cell pair. The theoretical minimum energy to remove salt from water is the Gibbs free energy of mixing. For desalting from 5,000 to 500 mg/L TDS (NaCl), the theoretical minimum is approximately 0.11 kWh/m³. Practical ED systems consume 0.5-2.0 kWh/m³, achieving 5-18% thermodynamic efficiency — the remaining energy is dissipated as resistive heating (I²R losses) in the solution and membranes.
@@ -200,7 +197,6 @@ At a current density of 20 mA/cm² (200 A/m²), a conventional cell pair at 15 �
 ## Cross-Domain Dependencies
 
 Electrodialysis using SEM Tech membranes requires upstream capabilities from multiple domains. The membranes themselves require PVC or CPVC resin from the [chlor-alkali and petrochemical industry](electrolysis.md), ion exchange resin beads (sulfonated polystyrene from [organic synthesis](./index.md)), and organic solvents (THF, MEK, cyclohexanone). The stack hardware requires [PVC plumbing components](../chemistry/index.md) and [graphite or titanium electrodes](../metals/index.md). The DC power supply requires [rectifier-grade electrical infrastructure](../energy/electricity.md) converting AC to DC at 50-600V. For water treatment applications, pre-treatment requires [sand filtration](../water/index.md) and possibly [activated carbon](../chemistry/index.md) for organic removal. For BMED applications, the acid and base products require [chemical-resistant storage vessels](../chemistry/index.md) and standard industrial chemical handling infrastructure.
-
 
 ## Scaling Considerations
 

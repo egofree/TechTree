@@ -105,7 +105,6 @@ Ultrasonic welding heads vibrate at frequencies and amplitudes that can cause in
 - **Electronic flame-off (EFO)**: The spark used to form the ball on gold wire generates an electric arc that poses eye and burn hazards if the wire fails to melt properly. The arc is contained within the bonder enclosure, but maintenance access requires safety interlocks.
 - **Capillary puncture**: Wire bonding capillaries are sharp ceramic tools that can cause puncture wounds during tool changes and maintenance. Handle with care and dispose of worn capillaries in a sharps container.
 - **Pinch points**: Ultrasonic sheet welding equipment applies significant clamping force between the horn and the anvil. Fingers caught between them suffer crushing injuries. Two-hand controls are mandatory on manual ultrasonic welding machines.
-- **High-frequency noise**: The ultrasonic vibration generates audible harmonics that cause hearing fatigue and potential damage with prolonged exposure. Hearing protection is required near production ultrasonic welding equipment.
 
 ### Personal Protective Equipment
 

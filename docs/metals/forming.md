@@ -8,7 +8,6 @@
 > **Outputs**: steel slab, plate, sheet, bar, structural shapes, aluminum profiles, forgings
 > **Critical**: Yes — primary forming produces the stock shapes (plate, bar, structural sections) that ALL downstream manufacturing depends on; without rolling and forging, metal remains locked in ingot form
 
-
 Smelting produces metal in ingot or liquid form — unusable for construction, manufacturing, or machinery. Primary forming converts raw metal into the stock shapes civilization actually needs: plate for ships and pressure vessels, sheet for automotive bodies and appliances, bar for machined components, structural sections for buildings and bridges, wire for electrical conductors and fasteners, forgings for high-integrity mechanical parts. Every piece of steel or aluminum in use passed through a primary forming operation.
 
 Without primary forming: no plate steel (ships, bridges, pressure vessels, boilers), no structural shapes (I-beams, channels — the skeleton of all construction), no bar stock (no machined parts — every shaft, bolt, gear starts as bar), no wire (no electrical conductors, no wire rope, no fasteners), no seamless tube (no boilers, no hydraulic systems, no pipelines), no forgings (no crankshafts, no turbine rotors, no pressure vessel heads). Without forming, civilization has piles of metal ingots but nothing to build with.
@@ -43,7 +42,6 @@ The scale: a single integrated steel mill produces 2-5 million tonnes of rolled 
 | Hydraulic system | 200-350 bar, 500-2000 L/min | 1 system per stand | Roll gap control (AGC) to ±0.05 mm |
 | Water treatment | Recirculating, cooling towers, filtration | 10,000-20,000 m³/hr | Scale and heat removal from mill |
 
-
 Primary metal forming transforms molten or freshly cast metal into the stock shapes that feed all downstream manufacturing — slab, plate, bar, rod, structural sections, extrusions, and forgings. These processes operate at or near the smelter or mill, handling metal at temperatures where yield strength is 60-80% below room-temperature values. This page covers **bulk forming at the mill**: continuous casting, hot rolling, extrusion, wire rod rolling, production forging, and structural section rolling.
 
 Secondary operations — cold rolling to final gauge, stamping, deep drawing, wire drawing from rod, and sheet metal forming — are covered in [Machine Tools Forming](../machine-tools/forming.md).
@@ -52,7 +50,7 @@ Secondary operations — cold rolling to final gauge, stamping, deep drawing, wi
 
 Liquid steel from the [steelmaking](./steelmaking.md) ladle or aluminum from [smelting](./aluminum.md) enters primary forming through one of two routes:
 
-1. ****Ingot casting**** → reheat → hot working (forging, rolling). Traditional route, still used for specialty steels and large forgings.
+1. **Ingot casting** → reheat → hot working (forging, rolling). Traditional route, still used for specialty steels and large forgings.
 2. **[Continuous casting](../glossary/continuous-casting.md)** → direct hot rolling. The dominant modern route — 95%+ of world steel production. Eliminates ingot-to-bloom conversion steps, improving yield by 8-12%.
 
 The choice between routes depends on product mix and capital availability. Integrated steelworks producing commodity shapes (strip, structural sections, rail) use continuous casting exclusively. Specialty steelmakers producing small batches of high-alloy or tool steel may still use ingot routes because the ladle sizes are too small for economic continuous casting.
@@ -288,7 +286,5 @@ Structural rolling produces the shaped cross-sections that are the skeleton of c
 - **Scale and debris**: High-pressure descaling (15-25 MPa water) throws hot scale fragments. Enclosed descaling boxes with armored viewing windows. Eye protection required in all hot mill areas.
 - **Noise**: Rod mills at 100+ m/s exit speed produce 100-110 dB at the laying head. Hearing protection mandatory. Control rooms are acoustically isolated.
 - **Breakout**: Continuous casting breakout releases 10-50 tons of liquid steel. Emergency spray systems (100+ L/s water capacity) cool and contain the spill. Evacuation triggers are automatic on breakout detection.
-
-
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

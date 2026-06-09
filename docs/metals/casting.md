@@ -8,7 +8,6 @@
 > **Outputs**: cast_iron_parts, cast_aluminum_parts, sand_molds, cast_bronze_parts
 > **Critical**: Yes — casting is the only practical method for producing complex 3D metal parts before machining exists; every machine tool starts as a casting (beds, frames, housings, gear blanks)
 
-
 Casting is step zero of the machine tool bootstrap. Every machine tool starts as a sand-cast iron or aluminum casting — machine beds, column frames, bearing housings, gear blanks, pulleys, and slideway bases all begin as molten metal poured into shaped cavities. Casting is the only practical method for producing complex three-dimensional metal parts before machining capability exists.
 
 Without casting: no machine beds (the rigid foundation of every machine tool), no engine blocks or cylinder heads, no gear blanks (every transmission needs gears), no pipe fittings and valve bodies (fluid handling infrastructure), no flywheels (energy storage for engines), no cookware and stoves (everyday metal goods). Without casting, metalworking is limited to hammering sheet and forging bar — adequate for nails and horseshoes but not for industrial civilization.
@@ -22,7 +21,6 @@ The bootstrap sequence is self-improving: a simple clay-graphite crucible + char
 > *The component parts of a small bearing, pillow block, plummer block or pedestal, as it is variously styled.The shaft (S) is encircled by the brasses (B1 and B2) made of gun metal, phosphor bronze or other suitable material. The lower brass fits into the main casting (A) in the semicircular seat p...*
 
 > *Image: Encyclopædia Britannica, 1911, Public domain*
-
 
 - **Materials**: [Silica sand](../mining/processing.md) (60-120 mesh, 90-95% SiO₂ — river sand works if clean), [bentonite clay](../ceramics/index.md) (8-12% by weight for green sand binder), [charcoal or coke](../energy/charcoal.md) for furnace fuel, [scrap aluminum or pig iron](./iron-steel.md) as charge material, [limestone](../ceramics/lime.md) (CaCO₃ flux for cupola), [wax or paraffin](../polymers/natural.md) for investment casting patterns
 - **Tools**: [Crucible](../ceramics/index.md) (clay-graphite or silicon carbide), [flasks](../machine-tools/index.md) (cope and drag — wooden or metal boxes), [rammers](../machine-tools/index.md) for sand compaction, [bellows or blower](../energy/charcoal.md) for forced air, [ladles](../machine-tools/index.md) (preheated, for pouring), [thermocouple or optical pyrometer](../measurement/index.md) for temperature measurement, [patterns](../machine-tools/index.md) (wooden or metal master shapes)
@@ -44,7 +42,6 @@ The bootstrap sequence is self-improving: a simple clay-graphite crucible + char
 | Sieve / screen | 30-60 mesh for sand reclamation | 1 unit | Remove lumps and tramp material from used sand |
 | Hand tools | Trowels, slicks, lifters, vent wire, draw spikes | 1 set | Basic foundry hand tools for mold finishing |
 | Safety equipment | Face shield, leather apron, foundry boots, heat gloves | Per worker | Non-negotiable — molten metal at 700-1400°C |
-
 
 The foundry is step zero of the machine tool bootstrap. Every machine tool starts as a sand-cast iron or aluminum casting — machine beds, column frames, bearing housings, gear blanks, pulleys, and slideway bases all begin as molten metal poured into shaped cavities in sand. Casting is the only practical method for producing complex three-dimensional metal parts before machining capability exists. Without casting, there are no machine tools; without machine tools, there is no precision industry.
 

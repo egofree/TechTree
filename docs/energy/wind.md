@@ -135,7 +135,6 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 | Useful wind range | 5-14 m/s | 5-18 m/s | 3-12 m/s |
 | Primary load | Grain milling | Multi-purpose | Water pumping |
 
-
 ## Safety & Hazards
 
 - **Structural failure in storms**: Windmill towers and rotors experience extreme forces in high winds. A 15 m diameter rotor in 25 m/s wind absorbs ~140 kN of force (roughly 14 tonnes). Overspeed in storms can destroy rotors and throw debris 100-300 m — a 5 m broken sail spar weighing 30 kg at 20 m/s tip speed carries ~6 kJ of kinetic energy, enough to penetrate a timber wall. Furling mechanism (turns rotor out of wind) or brakes must be functional at all times. Test the brake monthly: it must hold the windshaft stationary in a full gale. Never approach a windmill in wind speeds above 20 m/s.
@@ -194,7 +193,6 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 **Spring-loaded folding mechanism**: Spring sails and patent sails provide automatic protection. Each shutter or blade panel is spring-loaded to open when wind force exceeds the spring tension. In a violent gust, all shutters open simultaneously, spilling the wind through the sail frame rather than catching it. The mill continues to turn slowly but the driving force is greatly reduced.
 
 **Mechanical brake band**: A friction brake (wooden or iron brake blocks clamping the brake wheel rim) provides positive stopping. The brake is operated by a lever inside the mill, typically with a screw or ratchet mechanism to hold it engaged. The brake must be strong enough to hold the windshaft stationary in a full gale with furled sails. If the brake fails and the sails are caught in a storm, the only recourse is to cut the sail frames away with axes before the mill destroys itself.
-
 
 ## Water Pumping Windmill (Halladay Pattern)
 

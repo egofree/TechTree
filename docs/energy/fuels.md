@@ -16,7 +16,6 @@
 
 > *Image: Wikideas1, Public domain*
 
-
 ![Coke ovens Avilés](../images/energy/energy_fuels_coke.jpg)
 
 > *Coke ovens for steel production at Avilés, Asturias, Spain (Ensidesa Works)'Untitled'*
@@ -56,7 +55,6 @@ The bootstrap sequence progresses through fuels in rough order of refinement: wo
 | Vent holes | 8-12 holes at base, 1-2 at top | Poke through covering | Base holes control air intake; top holes allow smoke/tar venting |
 | Monitoring tools | Long stick or iron rod | 1 | Poke into stack to check carbonization progress — charcoal feels crumbly, wood feels firm |
 | Tools for unloading | Shovel, rake, buckets, water | As needed | Quench hot charcoal with water or earth if combustion starts during unloading |
-
 
 ## Wood
 
@@ -126,7 +124,6 @@ Petroleum distillation yields a spectrum of liquid fuels, each tuned to a boilin
 | Ethanol | ~26 MJ/kg | 13°C | ~365°C | Modified spark-ignition |
 | Vegetable oil | ~37-40 MJ/kg | ~315°C | — | Modified diesel |
 | Fuel oil (heavy) | ~40-42 MJ/kg | >65°C | — | Boiler |
-
 
 ## Producer Gas / Wood Gas
 

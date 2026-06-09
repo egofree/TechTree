@@ -8,13 +8,11 @@
 > **Outputs**: resistors, capacitors, inductors, transformers
 > **Critical**: Yes — every electronic circuit requires passive components for filtering, timing, impedance matching, and energy storage
 
-
 Passive components — resistors, capacitors, and inductors — are the fundamental building blocks of every electronic circuit. Unlike active devices (transistors, diodes), passive components do not amplify signals. They control current flow, store energy, filter signals, set time constants, and provide impedance matching. A typical circuit board contains 5-20 passive components for every active device.
 
 In the bootstrap chain, passive components bridge [electrical systems](electrical-systems.md) (power distribution) and [semiconductor devices](../silicon/basic-devices.md) (active electronics). Without capacitors, power supplies produce unusable rippled DC. Without resistors, transistor bias circuits cannot function. Without inductors, switching power converters and radio-frequency circuits are impossible.
 
 This document covers construction methods for each passive component type at three levels: hand-built (survival/bootstrap), workshop (small-batch production), and industrial (automated mass production). The emphasis is on materials, construction techniques, and achievable parameter ranges at each level.
-
 
 ## Materials
 
@@ -65,7 +63,6 @@ This document covers construction methods for each passive component type at thr
 | Copper magnet wire (0.2-1.0 mm) | 2-10 km | [Electrolysis](../chemistry/electrolysis.md) | Aluminum wire (larger diameter for same R) |
 | Ferrite core material | 5-20 kg | [Ceramics](../ceramics/index.md) sintering | Iron powder + binder (lower μ, higher loss) |
 | Insulating tape/ sleeving | 0.5-2.0 m² | [Polymers](../polymers/index.md) | Paper, cloth tape |
-
 
 ## Resistor Construction
 
@@ -212,7 +209,6 @@ This document covers construction methods for each passive component type at thr
 - Parasitic capacitance between winding layers limits high-frequency performance — self-resonant frequency (SRF) typically 1-100 MHz, above which the inductor behaves as a capacitor
 - Manual winding of toroidal cores is labor-intensive and inconsistent — production-scale toroid winding machines are specialized equipment that take significant effort to construct
 
-
 ## Resistor Parameters
 
 | Parameter | Carbon Composition | Wire-Wound | Metal Film |
@@ -254,7 +250,6 @@ This document covers construction methods for each passive component type at thr
 | Max operating temperature | Wire insulation limit | 200°C | 100-150°C (Curie) | 150-250°C |
 | Typical applications | RF tuning, filters | EMI suppression, DC-DC | Power transformers, inductors | RF transformers, antennas |
 
-
 ## From Workshop to Production
 
 - **Bench scale**: Hand-wind coils, hand-mix carbon resistor compositions. Output: 10-50 components per day. Resistance tolerance ±20%. Suitable for prototyping and one-off circuits.
@@ -295,7 +290,6 @@ A workshop producing 500-1000 passive components per week justifies dedicated wi
 - **Wire drawing hazards**: Drawing fine magnet wire involves high-speed rotating capstans and sharp dies. Pinch points. The soapy drawing lubricant is slippery — keep floors clear. Burns from annealing ovens at 400-600°C — use heat-resistant gloves.
 - **Lead solder fumes**: When tinning resistor or capacitor leads with Sn/Pb solder, lead oxide fumes and flux vapors are generated. Use local exhaust ventilation (fume extractor at 0.3-0.5 m/s capture velocity). Lead-free solder (SAC305, Sn/Cu) eliminates lead exposure but requires higher temperatures (217-227°C).
 - **Kiln/furnace hazards**: Sintering ceramics and ferrites requires 1000-1350°C kilns. Surface temperature of kiln exterior: 60-120°C — burn risk. Use thermal gloves and face shield when loading/unloading. Ensure adequate ventilation — organic binders burn off during firing, producing CO, CO₂, and volatile organic compounds.
-
 
 ## Resistor Testing
 - **Resistance measurement**: 4-wire (Kelvin) method for values <10 Ω. Bridge or DMM for 10 Ω to 10 MΩ. Accuracy requirement: 4× better than the tolerance being verified (e.g., measure ±5% resistors to ±1.25%).

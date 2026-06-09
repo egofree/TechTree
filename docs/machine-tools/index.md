@@ -1,6 +1,5 @@
 # Machine Tools Bootstrap
 
-
 ![Machine Shop Arrangement of Tools and Departments, 1906](../images/machine-tools/machine-tools.jpg)
 > *Image: Oscar E. Perrigo, Public domain*
 

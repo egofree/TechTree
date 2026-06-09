@@ -8,7 +8,6 @@
 > **Outputs**: solar_modules, dc_electricity
 > **Critical**: No — supplementary energy source that scales from watts to megawatts without fuel supply chain
 
-
 Solar photovoltaics convert sunlight directly into electricity using semiconductor p-n junctions. Unlike every other power source in the bootstrap chain, photovoltaics require no fuel — no coal, no gas, no moving water or wind. Once manufactured, a solar panel produces electricity for 25-30 years with minimal maintenance. This makes photovoltaics uniquely attractive for bootstrapping: a factory that builds solar panels is, in effect, building its own future energy supply.
 
 The trade-off is manufacturing complexity. Producing functional solar cells demands silicon purification, crystal growth, wafer slicing, doping, metallization, and encapsulation — capabilities that arrive decades into the bootstrap sequence. But once silicon device fabrication is established (see [Basic Semiconductor Devices](../silicon/basic-devices.md)), solar cells are among the simplest devices to produce, requiring far less precision than integrated circuits. Cross-reference: [Silicon Processing](../silicon/index.md) for the full silicon capability chain; [Power Electronics](../electronics/power-electronics.md) for inverters that convert DC panel output to usable AC power.
@@ -34,7 +33,6 @@ Key parameters:
 - **Efficiency**: The product η = (Voc × Isc × FF) / Pin, where Pin is incident solar power (~1,000 W/m² at standard conditions).
 
 The theoretical maximum efficiency for a single-junction silicon cell (the Shockley-Queisser limit) is approximately 33%. Practical commercial cells achieve lower efficiencies due to reflection losses, incomplete absorption, carrier recombination, and resistive losses in contacts.
-
 
 ## Prerequisites
 
@@ -148,7 +146,6 @@ For a standard aluminum back-surface-field (Al-BSF) cell — the simplest commer
 | Solar simulator | Xenon flash, Class AAA, 1000 W/m² AM1.5 | Cell testing and sorting |
 | DI water system | 18 MΩ·cm, 5-10 L/min | Process water for all wet steps |
 
-
 ## Bill of Materials
 
 ### Per 1000 Cells (156 mm × 156 mm polycrystalline, ~18% efficiency)
@@ -181,7 +178,6 @@ For a standard aluminum back-surface-field (Al-BSF) cell — the simplest commer
 
 For bootstrap purposes, polycrystalline cells at ~18% efficiency represent the best balance of manufacturing simplicity and performance. Monocrystalline cells gain ~4 percentage points but require Czochralski pullers and higher silicon quality. Amorphous silicon's ~10% efficiency is attractive for thin-film deposition on cheap substrates but suffers long-term degradation.
 
-
 ## Module Assembly
 
 Individual cells (~156 mm × 156 mm, producing ~8-10 W peak each at ~22% efficiency) are interconnected into strings of 60-72 cells using soldered or conductive-adhesive ribbon connections. The module laminator encapsulates this assembly in a moisture-proof sandwich:
@@ -199,7 +195,6 @@ Lamination occurs in a vacuum press at 140-160°C for 8-15 minutes, cross-linkin
 The glass front sheet is critical — see [Basic Glass Production](../glass/basic.md). Low-iron glass (reduced Fe₂O₃ content) transmits 91-92% of incident light versus ~88% for standard window glass. For bootstrap applications, standard tempered glass is acceptable with a ~3-4% relative efficiency penalty.
 
 A 60-cell polycrystalline module produces approximately 270-285 W peak under standard test conditions. A 72-cell monocrystalline PERC module reaches 380-400 W peak.
-
 
 ## System Design
 
@@ -242,7 +237,6 @@ A small workshop requiring 5 kW average power in a location with 5 peak-sun-hour
 
 A system at this scale can power machine tools, lighting, and small furnaces without any fuel supply chain.
 
-
 ## Performance Parameters
 
 ### Temperature Effects
@@ -265,7 +259,6 @@ The ratio of actual energy produced to theoretical maximum (nameplate × 8,760 h
 
 Despite lower capacity factors than thermal plants, the zero-fuel cost makes photovoltaics economically compelling wherever the manufacturing base exists.
 
-
 ## Bootstrap Path
 
 Photovoltaics enters the tech tree after silicon device fabrication is established. The path is:
@@ -277,7 +270,6 @@ Photovoltaics enters the tech tree after silicon device fabrication is establish
 5. **Scale up** — From kilowatts powering individual workshops to megawatt arrays driving industrial loads
 
 The key advantage in a bootstrap context: once the first solar array is operational, it produces energy indefinitely without fuel, creating a positive feedback loop where energy enables more manufacturing, which enables more solar production.
-
 
 ## Scaling Notes
 

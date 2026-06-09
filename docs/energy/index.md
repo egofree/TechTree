@@ -1,6 +1,5 @@
 # Energy
 
-
 ![Employment in selected energy subsectors, 2019](../images/energy/energy.jpg)
 > *Image: Brian Stansberry (photographer), CC BY 4.0*
 

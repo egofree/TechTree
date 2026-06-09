@@ -9,7 +9,6 @@
 > **Outputs**: nitroglycerin, dynamite
 > **Critical**: No
 
-
 ## Prerequisites & Dependencies
 
 Nitroglycerin and dynamite production require a specialized chemical infrastructure:
@@ -76,7 +75,6 @@ Frozen NG (below 13°C) is even more sensitive than liquid. Crystal fractures fr
 - Headache from skin absorption limits worker exposure
 - Requires dedicated remote manufacturing facility with blast shields and emergency dump
 - No practical standalone use; must be absorbed into a carrier (dynamite) or combined with nitrocellulose (double-base powder)
-
 
 ## Dynamite
 

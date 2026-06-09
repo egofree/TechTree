@@ -8,7 +8,6 @@
 > **Outputs**: logic_gates, combinational_circuits, sequential_circuits, arithmetic_units, memory_elements
 > **Critical**: Yes — all digital hardware from processors to memory requires gate-level logic design
 
-
 Every computation a processor performs reduces to operations on binary signals: voltage present or absent, stored charge or no charge. Digital logic provides the foundational building blocks that manipulate these binary states. Without a solid grasp of gate-level design, building anything from a simple counter to a full CPU is impossible. This page covers the theory and transistor-level implementation of the logic families, combinational circuits, sequential elements, and arithmetic units that form the hardware layer of all [computing](./index.md).
 
 ## Boolean Algebra Fundamentals
@@ -27,7 +26,6 @@ From these three, all other operations derive. Key identities: A • 0 = 0, A �
 - **NOR**: (A + B)̄. Also universal.
 - **[XOR](../glossary/xor.md)** (exclusive-OR): A ⊕ B = A·B̄ + Ā·B. Output is 1 when inputs differ. Used in parity checking and adders.
 - **XNOR**: (A ⊕ B)̄. Output is 1 when inputs match. Used in comparators.
-
 
 ## CMOS Inverter
 
@@ -108,7 +106,6 @@ CD4000 series: supply voltage 3-15V, propagation delay ~50 ns at 5V (faster at h
 | CMOS 4000 | 3-15V | 50 ns | ~0 static | 50+ | Low-power, wide supply |
 | 74HC | 2-6V | 8 ns | ~0 static | 50+ | General-purpose new design |
 
-
 ## Truth Tables and Boolean Expressions
 
 Every combinational function is fully specified by its truth table: a list of all input combinations and the corresponding output. For n inputs, the table has 2ⁿ rows. The Boolean expression is read directly from rows where the output is 1 (sum-of-products, SOP) or 0 (product-of-sums, POS).
@@ -141,11 +138,9 @@ Two D latches in master-slave configuration, clocked on opposite phases. The mas
 
 A generalization of the SR that handles the previously forbidden state. J=K=1 toggles the output. Useful in counter designs. Largely replaced by D flip-flops in modern ASIC design because D flops use fewer transistors and scan-chain testing is simpler with D-type elements.
 
-
 ## Register Files
 
 An array of D flip-flops (or latches) addressed by a read/write address. A 32×8 register file stores 32 words of 8 bits each. Read: decode address, enable tri-state output from selected register. Write: decode address, gate clock to selected register. Register files are the fastest storage in a processor, accessed every cycle.
-
 
 ## Half Adder
 
@@ -185,7 +180,6 @@ Precomputes carry signals using generate (G = A • B) and propagate (P = A ⊕ 
 - **Multiplier**: Array multiplier uses N² AND gates plus adders. Booth encoding reduces partial products. Wallace tree compresses partial products in logarithmic depth.
 - **ALU**: Combines adder, logic unit (AND, OR, XOR), and shifter with a multiplexed output selected by operation code. A 4-bit ALU (e.g., 74181) fits in a single IC.
 
-
 ## ROM (Read-Only Memory)
 
 Permanent data stored during manufacturing. Mask-programmed ROM uses presence or absence of a transistor at each intersection. One-time programmable (OTP) ROM blows fuses to store data. Access time: 10-100 ns. Non-volatile. Used for firmware, lookup tables, and boot code.
@@ -222,7 +216,6 @@ One transistor plus one capacitor per cell. Data is stored as charge on the capa
 - Refresh cycle (every 64 ms) consumes power and steals bus bandwidth — each refresh cycle pauses normal read/write operations
 - 30-70 ns access latency is 3-10× slower than SRAM, requiring cache hierarchies to hide the delay
 
-
 ## Clock Signal
 
 A square wave (typically) that synchronizes all sequential elements. Duty cycle near 50% for edge-triggered designs. Clock frequency determines the maximum throughput of the processor. Modern processors run at 1-5 GHz.
@@ -238,7 +231,6 @@ The clock signal arrives at different flip-flops at slightly different times due
 ## Critical Path
 
 The longest propagation path through combinational logic between two flip-flops determines the maximum clock frequency: f_max = 1 / (t_logic + t_su + t_skew). Pipeline stages break long combinational paths into shorter segments, raising f_max at the cost of latency (more clock cycles to complete an operation).
-
 
 ## PAL (Programmable Array Logic)
 
@@ -271,8 +263,6 @@ Building digital logic from discrete transistors is educational but impractical 
 - **Electrostatic discharge (ESD)**: CMOS inputs are protected by diode clamps but remain sensitive. A 100V discharge (imperceptible to humans) destroys gate oxide in NMOS/PMOS transistors. Handle all ICs on grounded mats with wrist straps. Store in conductive foam or antistatic bags. Never insert or remove ICs with power applied.
 - **Supply voltage**: TTL is strictly 5V ±0.25V. CMOS tolerates wider ranges but exceeding maximum VDD (7V for HC, 15V for 4000 series) causes latchup, a parasitic thyristor fires and shorts VDD to ground, destroying the chip instantly. Current-limited bench supplies (100-200 mA) limit damage during prototyping.
 - **Heat**: An IC running at elevated temperature has increased propagation delay and leakage current. Junction temperature above 150°C causes irreversible damage. For prototyping on breadboards, limit power dissipation to ~0.5W per IC. Production designs use thermal analysis and heatsinking.
-
-
 
 ## Troubleshooting
 

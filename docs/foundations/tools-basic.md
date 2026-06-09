@@ -124,7 +124,6 @@ None required — stone and wood tools are root capabilities achievable with nat
 - **Wooden gears**: Lantern gears use two parallel wooden discs connected by cylindrical wooden pegs (2-3 cm diameter) running between them. The pegs serve as gear teeth. Crown gears are a single disc with pegs protruding from one face. Both types appear in watermills and windmills for transferring rotary motion. Hardwood pegs (oak, ash) wear but are easy to replace. Gear ratios are set by the number of pegs: a 12-peg driver turning a 36-peg driven gear gives 3:1 reduction. Wooden gears run quietly and tolerate misalignment better than metal gears, but they have low load capacity and wear faster in dusty conditions. Oil or tallow lubrication extends peg life.
 - **Wood finishing**: Scrape surfaces smooth with a steel or stone scraper held at 80 degrees to the wood. Sand with progressively finer abrasives: coarse sandstone, then fine sandstone, then dried horsetail stems (natural emery). Rub with linseed oil or beeswax to seal the surface and slow moisture absorption. A well-finished wood surface resists rot and checking.
 
-
 ## Basket Weaving
 
 **Materials preparation**:
@@ -152,7 +151,6 @@ None required — stone and wood tools are root capabilities achievable with nat
 - **Burden baskets**: rectangular or conical back-carrying baskets with cordage shoulder straps. Carry 15-25 kg of firewood, harvested crops, or building materials. Wattle-weave construction holds up to repeated heavy loads.
 - **Water-tight containers**: pitch-sealed baskets. Melt pine pitch or birch tar, brush it over the interior surface of a tightly woven basket, and let it cool. The pitch fills gaps and makes the container hold water. Useful for storage and short-distance water transport.
 - **Cradle boards**: woven back-carriers for infants. Flexible willow or reed frame with a woven back, padded with soft plant fiber or animal hide. Keeps the baby secure and close to the caregiver's body during daily work.
-
 
 ## Basic Pottery (Hand-Built)
 
@@ -198,7 +196,6 @@ None required — stone and wood tools are root capabilities achievable with nat
 
 **Cross-reference**: Full pottery detail, including wheel-thrown techniques and kiln firing, is in [Ceramics → Pottery](../ceramics/pottery.md).
 
-
 ## Simple Machines
 
 **Lever**:
@@ -243,14 +240,12 @@ None required — stone and wood tools are root capabilities achievable with nat
 - Rope under tension in block-and-tackle systems stores enormous energy — a rope failure releases that energy suddenly, creating a hazard
 - Wooden screws are difficult to cut accurately without metal taps and dies — thread quality varies, producing uneven pressure in screw presses
 
-
 ## Related Capabilities
 
 - [Ceramics → Pottery](../ceramics/pottery.md) for wheel-thrown pottery, glazes, and kiln firing beyond pit firing
 - [Machine Tools](../machine-tools/index.md) for precision tools, lathes, and metalworking equipment
 - [Animals → Animal Materials](../animals/animal-materials.md) for leather, bone, and horn tool-making
 - [Chemistry → Charcoal & Tar](../energy/charcoal.md) for adhesives, sealants, and fuel processing
-
 
 ## Safety & Hazards
 
@@ -262,8 +257,6 @@ None required — stone and wood tools are root capabilities achievable with nat
 - **Steam bending burns**: Steam escaping from a steam box can scald skin. Use gloves when handling steamed wood. Open the box away from your face. The wood itself holds heat for several minutes after removal.
 - **Heavy lifting with simple machines**: Block and tackle systems under heavy load store enormous energy in the rope. A rope failure or knot slip releases that energy suddenly. Never stand under a suspended load. Inspect ropes for wear before each lift. Use splices rather than knots for critical loads (splices retain 80% strength vs 50-60% for most knots).
 - **Knapping cuts**: Obsidian and flint flakes are surgically sharp and easy to overlook in grass or dirt. Sweep the knapping area clean before and after work. Pick up all flakes and debris. A flake embedded in a bare foot can cause deep, slow-healing cuts. Wear foot protection if knapping on the ground.
-
-
 
 ## Troubleshooting
 

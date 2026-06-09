@@ -22,8 +22,6 @@
 
 > *Image: NoteDamn, Public domain*
 
-
-
 ![Experimental Electrolysis Cell](../images/chemistry/chemistry_water-splitting-diagram.png)
 
 > *An experimental electrolysis cell attached to a function generator so the voltage, waveform and frequency of the current can be changed and tested for different results.*
@@ -191,7 +189,6 @@ Electrolysis is among the most electricity-intensive industrial processes. Appro
 Cheap, abundant electricity is the prerequisite for all electrolysis. Without reliable power at competitive rates, none of these processes are economically viable. This constraint is why aluminum smelting historically locates near hydroelectric dams, and why the chlor-alkali industry tracks electricity prices closely.
 
  ---
-
 
 ## Chlor-Alkali Membrane Cell: Detailed Parameters
 

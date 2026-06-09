@@ -8,7 +8,6 @@
 > **Outputs**: photoresist, tmah_developer, boe_etchant, cmp_slurry, cleanroom_chemicals
 > **Critical**: Yes — semiconductor process chemicals (photoresist, etchants, CMP slurries, cleaning solutions) are consumed in every step of integrated circuit fabrication. Without ultra-pure chemicals at ppb trace metal levels, semiconductor manufacturing yields collapse to zero.
 
-
 Semiconductor fabrication consumes chemicals at purity levels 1000× stricter than reagent grade — metallic impurities below 1 ppb, particles filtered to 0.003 μm. This page covers the liquid-phase process chemicals distinct from the gas-phase dopant and etch gases cataloged in [Dopant & Etch Gases](dopant-etch-gases.md): photoresists (organic polymers patterned by UV light), developers (TMAH), wet etchants (buffered oxide etch), CMP slurries (mechanochemical planarization), and cleanroom cleaning chemicals. Solvents used in wafer cleaning (IPA, acetone, xylene) are cataloged in [Solvents](solvents.md); this page addresses their specific semiconductor applications without duplicating general solvent chemistry.
 
 ## Photoresist Chemistry

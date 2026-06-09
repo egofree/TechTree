@@ -9,11 +9,9 @@
 > **Outputs**: synthetic_oil, vacuum_oil, pfpe_grease
 > **Critical**: No — synthetic lubricants enable demanding applications but are not prerequisites for core capabilities
 
-
 Synthetic lubricants are engineered molecules with uniform structure, produced by chemical synthesis rather than petroleum distillation. They extend the temperature range, oxidation stability, and consistency of lubrication beyond what mineral oils can achieve. Specialty fluids — vacuum oils, cleanroom-compatible lubricants, and perfluoropolyether (PFPE) greases — serve niche applications in aerospace, vacuum technology, and semiconductor manufacturing where mineral oil lubricants fail.
 
 The key advantage of synthetic lubricants over mineral oils is molecular uniformity. Mineral oil contains a distribution of hydrocarbon chain lengths and branching patterns, giving it a mix of light fractions (volatile, thin) and heavy fractions (sludgy, viscous). Synthetic lubricants are built from identical or near-identical molecules, eliminating these extremes. The result is a lubricant with predictable viscosity across a wider temperature range, better resistance to oxidation (no reactive impurities), and lower volatility (no light fractions to evaporate). This predictability matters in jet engines (where oil must flow at -40°C and survive at 200°C), vacuum systems (where even tiny vapor pressures contaminate the process), and semiconductor manufacturing (where outgassing from lubricants deposits on wafers and causes defects).
-
 
 ## Synthetic Lubricants
 

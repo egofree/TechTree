@@ -8,7 +8,6 @@
 > **Outputs**: silicon_wafers, polished_substrates, epitaxial_wafers
 > **Critical**: Yes — polished wafers are the substrate for all semiconductor device fabrication
 
-
 Wafering transforms a single-crystal silicon ingot (boule) into thin, flat, mirror-polished disks that serve as substrates for semiconductor device fabrication. The process is a sequence of mechanical and chemical material removal steps, each progressively finer, that transforms a rough-sawn slice into an atomically flat surface. A 300 mm wafer must be flat to within 2 μm over its entire surface (a ratio of 1:150,000, roughly equivalent to a 1 km road surface varying by 7 mm).
 
 ## Ingot Evaluation and Preparation
@@ -19,13 +18,11 @@ Wafering transforms a single-crystal silicon ingot (boule) into thin, flat, mirr
 
 > *Image: Steve Jurvetson, CC BY 2.0*
 
-
 ![FZU AV CR Silicon Single Crystal B](../images/silicon/silicon_wafering-process.jpg)
 
 > *A sample of a silicon single crystal presented during a tour of the Department of Thin Films and Nanostructures in the Solid State Physics Section at the Institute of Physics of the Czech Academy of Sciences, located on the grounds of the former Czechoslovak Sugar Industry Research Institute in P...*
 
 > *Image: Mojmir Churavy, CC BY-SA 4.0*
-
 
 After CZ or FZ crystal growth, the ingot (150-300 mm diameter, 1-3 m long, 30-150 kg) must be evaluated and prepared to precise cylindrical geometry before wafering.
 
@@ -426,7 +423,6 @@ Wafering involves mechanical cutting, chemical etching, and polishing with hazar
 - **CMP equipment and slurries**: [advanced processes](../vlsi-scaling/advanced-processes.md)
 - **Cleanroom design**: [cleanrooms](../photolithography/cleanrooms.md)
 - **Electronics assembly (die attach, wire bonding)**: [assembly](../electronics/assembly.md)
-
 
 ## See Also
 

@@ -8,7 +8,6 @@
 > **Outputs**: gasoline, kerosene, diesel, lubricating_oil, benzene, phenol, ethanol, acetone, methanol, producer_gas
 > **Critical**: No — petroleum alternatives provide chemical feedstocks but individual capabilities depend on specific downstream processes
 
-
 Organic chemistry feedstocks fuel the entire materials chain: solvents for semiconductor processing, polymers for packaging and cleanrooms, fuels for transport and furnaces. Without them, the chemical industry stalls at inorganic bulk chemicals. The good news is that there are two independent paths to these molecules. Petroleum is the fast lane; coal tar and fermentation are the reliable fallback.
 
 ## Prerequisites
@@ -19,19 +18,17 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 
 > *Image: Carbamatesalts, CC BY-SA 4.0*
 
-
 ![Lactic acid fermentation occurs by converting pyruvate into lactate](../images/chemistry/chemistry_petroleum-alternatives_fermentation.png)
 
 > *Lactic acid fermentation occurs by converting pyruvate into lactate*
 
-> *Image: Unknown authorUnknown author, CC BY-SA 4.0*
+> *Image: Unknown author, CC BY-SA 4.0*
 
 - [Basic tools](../foundations/tools-basic.md) — drilling equipment, retorts, and processing vessels
 - [Distillation](distillation.md) — fractional distillation of crude oil, coal tar, and wood vinegar
 - [Fermentation](fermentation.md) — ethanol and other bio-based feedstocks
 - [Iron and steel](../metals/iron-steel.md) — drilling bits, retort construction, catalyst supports
 - [Coal production](../energy/fuels.md) — coal feedstock for gasification and tar distillation
-
 
 ## Petroleum Extraction
 

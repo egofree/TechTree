@@ -8,7 +8,6 @@
 > **Outputs**: dopant_gases, etch_gases, fluorine
 > **Critical**: Yes — dopant gases (PH₃, AsH₃, B₂H₆) enable semiconductor doping, and etch gases (CF₄, Cl₂, SF₆) enable pattern transfer in photolithography. Without these gases, semiconductor manufacturing is impossible.
 
-
 Semiconductor manufacturing requires two classes of specialty gases: dopant gases to introduce controlled impurities into silicon crystal (changing its electrical properties), and etch gases to selectively remove material during pattern transfer. Phosphine (PH₃), arsine (AsH₃), and diborane (B₂H₆) dope silicon n-type or p-type. Fluorine-based gases (CF₄, SF₆, NF₃) etch silicon, silicon dioxide, and silicon nitride. Chlorine-based gases (Cl₂, BCl₃) etch aluminum and other metals. Without these gases, there are no transistors, no ICs, no semiconductor industry.
 
 ## Prerequisites
@@ -24,7 +23,6 @@ Semiconductor manufacturing requires two classes of specialty gases: dopant gase
 > *This is a Maple code leading to the calculation of the expression of the chemical potential of Van der Waals gases as functions of pressure and temperature.*
 
 > *Image: E-gabrielyan, CC BY-SA 4.0*
-
 
 - [Electrolysis](electrolysis.md) — chlorine and hydrogen production
 - [Hydrogen and silane](hydrogen-silane.md) — carrier gas and silicon source
@@ -110,9 +108,6 @@ Semiconductor manufacturing requires two classes of specialty gases: dopant gase
 - **Phosgene (COCl₂)**: WWI weapon. Lethal at 3 ppm, delayed onset. Sealed systems only.
 - **Silane (SiH₄)**: Pyrophoric, ignites in air. Cannot extinguish with water/CO₂.
 - **Arsine (AsH₃)**: TLV 50 ppb; lethal at low ppm concentrations. Continuous monitoring required.
-
-
-
 
 ## Silane and CVD Precursor Gases
 

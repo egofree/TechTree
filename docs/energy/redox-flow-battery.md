@@ -29,7 +29,6 @@ The SEM Tech membrane -- pulverized pre-functionalized ion exchange resin in a P
 
 **Important caveat**: While SEM Tech membranes were developed for flow battery use, **no published performance test data exists** for flow battery operation as of this writing. All flow battery performance figures in this article reference established commercial systems using conventional membranes. SEM Tech-specific application remains at TRL 5 (laboratory validation) and speculative for this application.
 
-
 ## Operating Principle
 
 A redox flow battery stores energy in liquid electrolytes contained in external tanks, separate from the electrochemical cell stack where power conversion occurs. This decoupling of energy (tank size) and power (stack size) is the defining advantage: storage capacity scales with tank volume at linear cost, unlike conventional batteries where energy and power scale together.
@@ -66,7 +65,6 @@ Established commercial VRFB systems achieve:
 - **Response time**: Milliseconds (power electronics limited)
 - **Self-discharge**: Negligible (electrolytes stored separately)
 
-
 ## The Central Role of the Ion Exchange Membrane
 
 The membrane is the most critical and expensive component in a redox flow battery cell stack. It must perform two simultaneous functions:
@@ -82,7 +80,6 @@ These two requirements are inherently in tension: a membrane that perfectly bloc
 Commercial flow batteries typically use perfluorinated sulfonic acid membranes (Nafion and equivalents) at $100-400 per square foot. A utility-scale flow battery (100 MWh) requires thousands of square feet of membrane in its cell stacks. Membrane cost typically represents **30-50% of total cell stack cost**, making it the dominant economic barrier to flow battery deployment.
 
 This is the problem SEM Tech was invented to solve.
-
 
 ## Why SEM Tech for Flow Batteries
 
@@ -133,7 +130,6 @@ The thicker SEM Tech membrane (200-500 µm vs. 50-183 µm for Nafion) compensate
 | Vanadium (VRFB) | Cation exchange | H⁺ | Strong acid cation (sulfonic acid) |
 | Zinc-bromine | Cation or anion exchange | Br⁻ or Na⁺ | Anion or cation resin |
 | Iron-chromium | Cation exchange | H⁺ | Strong acid cation |
-
 
 ## Stack Architecture
 
@@ -267,7 +263,6 @@ Pump selection criteria:
 
 Electrolyte distribution across the electrode area must be uniform to prevent localized hotspots of high current density. Flow frames incorporate inlet and outlet manifolds that distribute electrolyte evenly. The use of PVC/CPVC for frames is compatible with SEM Tech's solvent-welded assembly approach.
 
-
 ## Vanadium Electrolyte Production
 
 Vanadium electrolyte is typically produced from vanadium pentoxide (V₂O₅) dissolved in sulfuric acid:
@@ -338,7 +333,6 @@ Vanadium electrolyte cost is approximately 30-50% of total system cost. The elec
 
 Research into organic (non-vanadium) electrolytes aims to reduce electrolyte cost further. Organic molecules (quinones, viologens, TEMPO derivatives) can be synthesized from petroleum or biomass feedstocks. These are at earlier TRL (3-5) and face challenges with long-term chemical stability.
 
-
 ## Expected SEM Tech Membrane Performance in VRFB
 
 **Note: The following projections are based on SEM Tech membrane properties demonstrated in chlor-alkali applications, extrapolated to flow battery conditions. No published flow battery test data exists.**
@@ -362,7 +356,6 @@ The critical unknowns are: (1) vanadium ion crossover rate through SEM Tech memb
 | **[Duration](../glossary/duration.md)** | 4-12+ hours | Same (tank-dependent) | 1-4 hours |
 | **Safety** | Non-flammable electrolyte | Same | Thermal runaway risk |
 
-
 ## From Laboratory to Grid Scale
 
 The path from TRL 5 to grid-scale deployment involves:
@@ -385,7 +378,6 @@ Redox flow batteries are inherently safer than lithium-ion systems, but hazards 
 - **Electrical safety**: Cell stacks operate at DC voltages of 50-600V depending on configuration. High-current DC arcs are extremely dangerous. Lockout/tagout procedures mandatory for stack maintenance. Insulated tools required.
 - **Pump hazards**: Electrolyte circulation pumps run continuously. Mechanical hazards from rotating equipment. Chemical exposure risk from pump seal leaks.
 - **SEM Tech membrane safety**: PVC/CPVC binder is chemically inert and non-toxic in the finished membrane. Solvent residues (THF, MEK, cyclohexanone) must be fully evaporated before membrane installation. Solvent handling requires ventilation during membrane manufacture.
-
 
 ## Technology Readiness
 

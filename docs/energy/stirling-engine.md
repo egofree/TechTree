@@ -8,7 +8,6 @@
 > **Outputs**: stirling_mechanical_power, cryocoolers
 > **Critical**: No — Stirling engines provide useful small-scale power but are not on the critical path to semiconductor manufacturing
 
-
 Closed-cycle external combustion engine. Working gas (air, helium, or hydrogen) is permanently sealed inside the engine and alternately heated and cooled. No valves, no explosions, just smooth, quiet operation. Invented by Robert Stirling in 1816, decades before internal combustion engines.
 
 **Principle**: Working gas is shuttled between hot and cold spaces by a displacer. When gas is in the hot space it expands, pushing the power piston. When gas moves to the cold space it contracts, allowing the piston to return. The cycle is thermodynamically reversible. Theoretical efficiency approaches the Carnot limit: η = 1 - T_cold/T_hot.

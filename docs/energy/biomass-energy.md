@@ -8,13 +8,11 @@
 > **Outputs**: biogas, producer_gas, biofuel, biomass_heat, biomass_electricity
 > **Critical**: No — biomass supplements other energy sources and provides fuel security when petroleum and coal are unavailable
 
-
 Biomass energy converts organic material — wood, agricultural residues, animal manure, food waste, and purpose-grown energy crops — into useful heat, combustible gas, or liquid fuels. It is the oldest energy source (fire) and remains relevant at every stage of industrial development: from simple wood fires for heating, through biogas digesters for gas production, to biomass gasification powering internal combustion engines for electricity generation.
 
 In the bootstrap context, biomass energy fills a critical gap: it is the only renewable energy source that can be stored indefinitely (as solid fuel) and dispatched on demand. Unlike wind or solar, biomass produces energy when needed, not when the weather permits. A wood gasifier connected to an engine-generator delivers 10-500 kW of electricity 24 hours per day, consuming locally available fuel that requires no mining, no drilling, and no imported technology.
 
 Three primary conversion pathways are covered here: direct combustion for heat, anaerobic digestion for biogas, and thermochemical gasification for producer gas. Each has distinct feedstock requirements, outputs, and scale characteristics. Liquid biofuel production (ethanol, biodiesel) is mentioned but detailed in [Chemistry](../chemistry/index.md) since the primary processes are chemical rather than energy-focused.
-
 
 ## Materials
 
@@ -43,7 +41,6 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 - Gasification chemistry (partial combustion, reduction zone, tar cracking)
 - Engine modification for gaseous fuel (carburetor replacement, air-fuel ratio control)
 
-
 ## Small Biogas Digester (6 m³, family-scale)
 
 | Material | Quantity | Source | Alternatives |
@@ -66,7 +63,6 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 | Cyclone separator (sheet steel) | 1 unit | [Iron & Steel](../metals/iron-steel.md) | Fabric filter (higher pressure drop) |
 | Sawdust filter drum (200 liter) | 1 unit | [Forestry](../plants/index.md) | Cloth bag filter |
 | Gas cooling pipe (finned, 50 mm) | 3-5 m | [Iron & Steel](../metals/iron-steel.md) | Steel pipe in water bath |
-
 
 ## Anaerobic Digestion (Biogas Production)
 
@@ -213,7 +209,6 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 - High particulate emissions without electrostatic precipitators or bag filters
 - Moisture content directly reduces usable heat — green wood wastes 30-50% of combustion energy evaporating water
 
-
 ## Biogas Yield by Feedstock
 
 | Feedstock | Biogas Yield (m³/kg VS added) | Methane Content (%) | C:N Ratio | Notes |
@@ -256,7 +251,6 @@ Cold gas efficiency = energy in product gas / energy in fuel input. Overall elec
 | Biogas (per m³) | 21-24 | 0.85-1.1 | 0.02 |
 | Producer gas (per m³) | 4.5-6.0 | 0.9-1.2 | 0.005 |
 
-
 ## Family Scale (1-5 kW thermal / 0.5-2 kW electric)
 
 A 6 m³ biogas digester fed with manure from 5-10 cattle produces 1-3 m³ biogas per day (6-18 kWh thermal). Sufficient for a family's cooking needs. A small gasifier (10 cm diameter throat) consuming 2-5 kg/hour wood chips powers a 1-3 kW engine-generator. Construction: brick or concrete digester, steel gasifier, simple gas cleaning. Build time: 1-4 weeks.
@@ -287,7 +281,6 @@ A 100 cm diameter gasifier consuming 100-300 kg/hour fuel drives a 100-500 kW en
 | Gasifier bridge formation (fuel stops flowing) | Irregular fuel size, or high moisture causing swelling and bridging | Screen fuel to uniform size; dry fuel thoroughly; install mechanical agitator or stirrer in hopper |
 | Flame burn-back into gasifier | Insufficient gas velocity through reactor, or air leak on gas line | Maintain minimum gas flow rate; check all gas connections for air ingress; install flame arrestor (water seal or fine mesh) on gas line |
 
-
 ## Carbon Monoxide Poisoning
 
 Producer gas contains 18-32% CO — lethal at 0.1% (1,000 ppm) concentration in air for 1 hour exposure. Biogas from the digester contains minimal CO, but any incomplete combustion of biogas in a confined space produces CO. Operate gasifiers and gas engines only in well-ventilated areas or outdoors. Install CO detectors in any enclosed space where gas equipment operates. Symptoms of CO poisoning: headache, dizziness, nausea, confusion. Evacuate immediately and ventilate if CO is suspected.
@@ -308,7 +301,6 @@ Anaerobic digestion reduces pathogens significantly but does not eliminate them 
 
 Iron sponge (iron oxide chips used for H₂S removal) generates iron sulfide, which is pyrophoric — it can spontaneously ignite when exposed to air after becoming saturated with H₂S. Replace iron sponge in a well-ventilated area away from ignition sources. Moisten spent iron sponge with water before disposal to prevent spontaneous combustion.
 
-
 ## Biogas Composition
 
 Measure methane content with a portable biogas analyzer (infrared methane sensor) or by simple combustion test (biogas that supports a stable blue flame has >50% methane). Target: 55-70% CH₄. Below 50%: digester is underperforming — check temperature, pH, and feedstock balance.
@@ -322,7 +314,6 @@ Measure methane content with a portable biogas analyzer (infrared methane sensor
 ## Digestate Fertilizer Quality
 
 Measure pH (target 7.0-8.0), total nitrogen content (target 1.5-3.0% on dry basis), and heavy metals (if industrial waste is co-digested). Compare to raw manure: digestate should have 10-20% higher plant-available nitrogen due to mineralization during digestion.
-
 
 ## Comparison of Biomass Conversion Pathways
 

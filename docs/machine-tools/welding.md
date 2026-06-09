@@ -8,7 +8,6 @@
 > **Outputs**: forge_welds, welded_joints, acetylene, tig_welds, mig_welds, resistance_welds, electron_beam_welds, friction_stir_welds, laser_welds, diffusion_bonds, hermetic_seals
 > **Critical**: Yes — fusion and solid-state welding processes for assembling structural, pressure-bearing, and vacuum-tight metal assemblies
 
-
 Welding covers all fusion and solid-state welding processes from the earliest forge welding through advanced electron beam and laser welding. For filler-alloy joining methods (brazing and soldering), see [Brazing & Soldering](./brazing-soldering.md). For mechanical fastening with rivets, see [Riveting](./riveting.md). For the parent overview of all joining methods, see [Metal Joining](./joining.md).
 
 For the metallurgy of producing iron and steel stock to be joined, see [Iron & Steel](../metals/iron-steel.md). For the electrical infrastructure needed by arc welding, see [Electricity](../energy/electricity.md).

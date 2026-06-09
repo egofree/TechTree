@@ -14,7 +14,7 @@ Three levels, top to bottom:
 
 **Process** — a detailed method or operation, like Czochralski pulling or blast furnace operation. These carry two dots: `silicon.crystal-growth.cz-pulling`.
 
-Dependencies use these dotted IDs. When photolithography requires silicon, the edge reads `{from: "photolithography", to: "silicon"}`. The full graph lives in [edges.json](../data/archive/edges.json).
+Dependencies use these dotted IDs. When photolithography requires silicon, the edge is stored as a per-entity file: `data/entities/_edges/silicon__photolithography.jsonld`. Each edge specifies `edgeType` (`"material"` or `"tool"`) and `flow` (`"primary"`, `"byproduct-reuse"`, `"waste-recovery"`, or `"recycling-loop"`).
 
 ## Quick Start Path
 
@@ -33,7 +33,10 @@ The critical path through the tree, in rough chronological order. These domains 
 11. **[Measurement](measurement/index.md)** — precision metrology, measurement standards
 12. **[Silicon](silicon/index.md)** — MG-Si production, crystal growth, solar cells
 13. **[Photolithography](photolithography/index.md)** — cleanrooms, lithography, IC fabrication
-14. **[VLSI Scaling](vlsi-scaling/index.md)** — continuous improvement toward GPUs and advanced solar
+14. **[Electronics](electronics/index.md)** — PCB fabrication, soldering, power distribution, connectors
+15. **[Computing](computing/index.md)** — slide rules, calculators, automation
+16. **[VLSI Scaling](vlsi-scaling/index.md)** — continuous improvement toward GPUs and advanced solar
+17. **[Software Bootstrapping](software-bootstrapping/index.md)** — assemblers, compilers, operating systems, self-hosting toolchains
 
 Several capabilities in other domains are also critical because their absence blocks downstream work: [knowledge](knowledge/index.md) (writing, education), [textiles](textiles/index.md) (cordage, drive belts), [chemistry.lubricants](chemistry/index.md) (oils, grease, cutting fluid), [optics](optics/index.md) (microscopes, lens grinding).
 
@@ -41,48 +44,48 @@ Several capabilities in other domains are also critical because their absence bl
 
 | Domain | Capabilities | Critical? | Key Outputs |
 |--------|:------------:|:---------:|-------------|
-| [Agriculture](agriculture/index.md) | — | Yes | mechanized farming, soil science, hydroponics, greenhouses |
-| [Animals](animals/index.md) | 7 | | draft power, wool, leather, dairy, eggs, meat, hunting |
+| [Agriculture](agriculture/index.md) | 8 | Yes | mechanized farming, soil science, hydroponics, greenhouses |
+| [Animals](animals/index.md) | 17 | | draft power, wool, leather, dairy, eggs, meat, hunting |
 | [Automation & Robotics](automation/index.md) | 4 | | SECS/GEM protocols, wafer robots, FOUP transport, process control |
-| [Ceramics](ceramics/index.md) | 4 | | refractories, kilns, lime, pottery, crucibles |
+| [Ceramics](ceramics/index.md) | 7 | | refractories, kilns, lime, pottery, crucibles |
 | [Clean Room Technology](cleanrooms/index.md) | 3 | | HEPA/ULPA filtration, contamination control, facility design & HVAC |
-| [Chemistry](chemistry/index.md) | 18 | | mineral acids, alkalis, electrolysis, distillation, oils & grease |
-| [Cryogenics](cryogenics/index.md) | 3 | | refrigeration cycles, cryogenic air separation, gas liquefaction & storage |
-| [Computing](computing/index.md) | 5 | | slide rules, calculators, automation |
-| [Electronics](electronics/index.md) | 2 | | PCB fabrication, soldering, power distribution, connectors, transformers |
-| [Electrochemistry & Plating](electrochemistry/index.md) | 3 | | electroplating, anodizing, electropolishing, electroless plating, electroforming |
-| [Construction](construction/index.md) | 3 | | structural engineering, concrete, dams, tunnels |
+| [Chemistry](chemistry/index.md) | 40 | | mineral acids, alkalis, electrolysis, distillation, oils & grease |
+| [Cryogenics](cryogenics/index.md) | 4 | | refrigeration cycles, cryogenic air separation, gas liquefaction & storage |
+| [Computing](computing/index.md) | 8 | | slide rules, calculators, automation |
+| [Electronics](electronics/index.md) | 9 | | PCB fabrication, soldering, power distribution, connectors, transformers |
+| [Electrochemistry & Plating](electrochemistry/index.md) | 4 | | electroplating, anodizing, electropolishing, electroless plating, electroforming |
+| [Construction](construction/index.md) | 6 | | structural engineering, concrete, dams, tunnels |
 | [Defense & Military](defense/index.md) | 4 | | weapons progression, fortifications, armor, siege engineering, military logistics |
 | [Economics & Organization](economics-organization/index.md) | 6 | | division of labor, trade, currency, accounting, supply chains, governance |
-| [Energy](energy/index.md) | 9 | | steam engines, electricity, arc furnaces, charcoal, coke |
-| [EHS](ehs/index.md) | 5 | | chemical safety, ventilation, PPE, emergency response, waste management |
-| [Food Processing](food-processing/index.md) | 4 | | milling, canning, pasteurization, preservation, dairy, brewing |
+| [Energy](energy/index.md) | 36 | | steam engines, electricity, arc furnaces, charcoal, coke |
+| [EHS](ehs/index.md) | 7 | | chemical safety, ventilation, PPE, emergency response, waste management |
+| [Food Processing](food-processing/index.md) | 9 | | milling, canning, pasteurization, preservation, dairy, brewing |
 | [Foundations](foundations/index.md) | 4 | Yes | food surplus, fire, stone tools, agriculture |
-| [Gas Handling](gas-handling/index.md) | 2 | | vacuum pumps, gas compression, purification |
-| [Glass](glass/index.md) | 3 | | basic glass, borosilicate glass, fused silica, quartz crucibles |
-| [Health](health/index.md) | 5 | | clean water, sanitation, pharmaceuticals |
-| [Knowledge](knowledge/index.md) | 4 | Yes | writing, printing, education, libraries |
+| [Gas Handling](gas-handling/index.md) | 7 | | vacuum pumps, gas compression, purification |
+| [Glass](glass/index.md) | 8 | | basic glass, borosilicate glass, fused silica, quartz crucibles |
+| [Health](health/index.md) | 10 | | clean water, sanitation, pharmaceuticals |
+| [Knowledge](knowledge/index.md) | 9 | Yes | writing, printing, education, libraries |
 | [Mathematics & Formal Sciences](mathematics/index.md) | 3 | | arithmetic, calculus, Boolean algebra, information theory, computation theory |
-| [Machine Tools](machine-tools/index.md) | 6 | Yes | lathe, mill, grinder, bearings |
-| [Marine & Naval](marine/index.md) | 4 | | shipbuilding, navigation, propulsion, maritime infrastructure, submarine cables |
-| [Measurement](measurement/index.md) | 4 | | precision instruments, gauge blocks, calibration |
-| [Metals](metals/index.md) | 9 | | copper, iron, steel |
-| [Mining](mining/index.md) | 5 | Yes | copper ore, iron ore, coal, quartz, sulfur |
+| [Machine Tools](machine-tools/index.md) | 27 | Yes | lathe, mill, grinder, bearings |
+| [Marine & Naval](marine/index.md) | 11 | | shipbuilding, navigation, propulsion, maritime infrastructure, submarine cables |
+| [Measurement](measurement/index.md) | 10 | | precision instruments, gauge blocks, calibration |
+| [Metals](metals/index.md) | 22 | | copper, iron, steel |
+| [Mining](mining/index.md) | 7 | Yes | copper ore, iron ore, coal, quartz, sulfur |
 | [Petroleum Extraction & Refining](petroleum/index.md) | 3 | | crude oil extraction, refining, petrochemical feedstocks |
-| [Optics](optics/index.md) | 2 | | lenses, microscopes, optical comparators |
-| [Photolithography](photolithography/index.md) | 3 | | cleanrooms, lithography, ICs |
+| [Optics](optics/index.md) | 3 | | lenses, microscopes, optical comparators |
+| [Photolithography](photolithography/index.md) | 13 | | cleanrooms, lithography, ICs |
 | [Precision Motion Control](precision-motion/index.md) | 4 | | nanometer positioning, wafer stages, vibration isolation, precision encoders |
 | [Plants & Botany](plants/index.md) | 5 | | food crops, medicine, timber, fiber, natural dyes |
-| [Polymers](polymers/index.md) | 4 | | rubber, FR-4, PTFE, fiberglass |
+| [Polymers](polymers/index.md) | 11 | | rubber, FR-4, PTFE, fiberglass |
 | [Quality Control](quality-control/index.md) | 3 | | statistical process control, inspection & sampling, defect analysis & yield modeling |
-| [Silicon](silicon/index.md) | 5 | | MG-Si, wafers, solar cells, transistors |
+| [Silicon](silicon/index.md) | 6 | | MG-Si, wafers, solar cells, transistors |
 | [Software Bootstrapping](software-bootstrapping/index.md) | 6 | | assemblers, compilers, operating systems, development tools, self-hosting |
 | [Telecommunications](telecom/index.md) | 5 | | pre-electric signaling, telegraph networks, telephone, submarine cables, radio |
-| [Textiles](textiles/index.md) | 7 | Yes | cordage, cloth, rope, drive belts |
-| [Transport](transport/index.md) | 5 | | roads, railways, aviation, logistics |
-| [VLSI Scaling](vlsi-scaling/index.md) | 4 | | GPUs, advanced solar, EDA tools |
-| [Vacuum Technology](vacuum/index.md) | 3 | | vacuum pumps, chambers, measurement, leak detection |
-| [Water Infrastructure](water/index.md) | — | | water treatment, desalination, distribution, sewage |
+| [Textiles](textiles/index.md) | 10 | Yes | cordage, cloth, rope, drive belts |
+| [Transport](transport/index.md) | 7 | | roads, railways, aviation, logistics |
+| [VLSI Scaling](vlsi-scaling/index.md) | 6 | | GPUs, advanced solar, EDA tools |
+| [Vacuum Technology](vacuum/index.md) | 6 | | vacuum pumps, chambers, measurement, leak detection |
+| [Water Infrastructure](water/index.md) | 11 | | water treatment, desalination, distribution, sewage |
 | [Ultra-Pure Materials](ultra-pure/index.md) | 3 | | 18.2 MΩ·cm water, 9N chemicals, ppt-level analysis |
 
 ## Dependency Overview
@@ -105,13 +108,15 @@ These domains and capabilities can begin early, independent of the main critical
 
 ## Data Layer
 
-Structured data files backing this tree:
+Structured data files backing this tree, all in JSON-LD format:
 
-- [nodes.json](../data/archive/nodes.json) — complete node definitions (domains, capabilities, processes)
-- [edges.json](../data/archive/edges.json) — dependency graph (directed, acyclic)
-- [glossary.json](../data/glossary.json) — glossary terms with relevance ratings and cross-references
-- [checklist.yaml](../data/checklist.yaml) — milestone checklist with progression tracking
-- [resources.json](../data/resources.json) — raw material catalog with criticality ratings
+- [data/entities/](../data/entities/) — per-entity JSON-LD files organized by domain (`data/entities/{domain}/` for capabilities and processes)
+- [data/entities/_edges/](../data/entities/_edges/) — dependency edges as individual `{from}__{to}.jsonld` files (961 edges)
+- [data/context.jsonld](../data/context.jsonld) — shared JSON-LD `@context` with all term → IRI mappings
+- [data/schema/](../data/schema/) — JSON Schema files (entity, domain, capability, process, product, dependency)
+- [data/glossary.json](../data/glossary.json) — 11,966 glossary terms with relevance ratings and cross-references
+- [data/checklist.yaml](../data/checklist.yaml) — milestone checklist with progression tracking
+- [data/resources.json](../data/resources.json) — raw material catalog with criticality ratings
 
 ## Supporting Docs
 
